@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
- * Patch apply engine + phase manifest (research-process plan Task 4;
- * spec docs/archive/specs/2026-08-10-research-process-design.md §5).
+ * Patch apply engine + phase manifest (spec
+ * docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
  * Preflight first, then write: the corpus-level checks (snapshot
  * pin, corpus validity, manifest reconciliation, replay gate) run
@@ -42,20 +42,16 @@ import {
 	validateCorpus,
 } from './schema.ts';
 
-/** The committed patch corpus (spec §4.4): the pilot's files plus every
- * ingested tranche's, the same set `research/tranche.ts` walks —
- * archived at `refs/tags/archive/v2-research-2026-09`. Absent files
- * mean an empty corpus. `CORPUS_PATH`/`MANIFEST_PATH` were the
- * single-file layout nothing ever wrote; kept exported for callers that
- * pass an explicit path. */
+/** The committed patch corpus (spec §4.4): the pilot's files plus
+ * every ingested tranche's. Absent files mean an empty corpus. */
 const PILOT_DIR = 'data/patches/pilot';
 const TRANCHES_DIR = 'data/patches/tranches';
 const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
 const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
 
-/** Human-authored patches (consolidation spec §4.2, step 8). Kept out
- * of `TRANCHES` on purpose: Ruling C keeps one record per rid, and 11
- * reviewed rids also have agent records. */
+/** Human-authored patches (consolidation spec §4.2). Kept out of
+ * `TRANCHES` on purpose: consolidation keeps one manifest record per
+ * rid, and 11 reviewed rids also have agent records. */
 const REVIEWED_DIR = 'data/patches/reviewed';
 
 interface ReviewedCorpus {
@@ -66,8 +62,8 @@ interface ReviewedCorpus {
 	records: EntryResult[];
 }
 
-/** Load the reviewed patch group (consolidation spec §4.2, step 8):
- * every patch in `<dir>/patches.jsonl`, stamped `author: 'human'` so
+/** Load the reviewed patch group (consolidation spec §4.2): every
+ * patch in `<dir>/patches.jsonl`, stamped `author: 'human'` so
  * `applyEntryPatches` exempts it from the no-new-text floor, and the
  * `needs_*` rows of `<dir>/manifest.jsonl` as `deferred` — findings a
  * person flagged but did not repair — with every row as `records`, for
@@ -98,19 +94,17 @@ function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
 	}));
 }
 
-/** The corpus stage a tranche was swept at (RUNBOOK "Corpus state";
- * task-3 addendum-2, Ruling E). `pre-patch`: swept against
- * `applyRepairs` output only, before any transform rule existed — its
- * anchors are authored against text that later transform batches
- * rewrote, and re-report defects the rules already fixed. `healed`:
+/** The corpus stage a tranche was swept at. `pre-patch`: swept
+ * against `applyRepairs` output only, before any transform rule
+ * existed, so its anchors are authored against text the rules later
+ * rewrote and it re-reports defects they already fixed. `healed`:
  * swept against both `text-repairs` and `structural-repairs`, the
- * phase patches actually apply against today. */
+ * stage patches actually apply against. */
 type CorpusStage = 'healed' | 'pre-patch';
 
-/** Ingest order of the committed tranches with the corpus stage each
- * was swept at (task-3 addendum, Ruling C; addendum-2, Ruling E).
- * Migration accepts HEALED tranches only (Ruling E) — `loadCorpus`/
- * `loadManifest` stay raw for the research tools, which need every
+/** Ingest order of the committed tranches, with the corpus stage each
+ * was swept at. MIGRATION ACCEPTS HEALED TRANCHES ONLY — `loadCorpus`
+ * and `loadManifest` stay raw for the research tools, which need every
  * stage. Directory names do not sort chronologically
  * (`calibration-2026-09-04` ran before `batch-01-2026-09-04`), so the
  * order is explicit, and a tranche directory this list does not name
@@ -139,8 +133,7 @@ const TRANCHES: readonly { dir: string; stage: CorpusStage }[] = [
 	// reason.
 	{ dir: 'seed-doc-08-sense-runs', stage: 'healed' },
 ];
-/** The pilot directory's stage — swept pre-patch, same as tranche-01
- * (Ruling E). */
+/** The pilot directory's stage — swept pre-patch, like tranche-01. */
 const PILOT_STAGE: CorpusStage = 'pre-patch';
 
 /**
@@ -244,7 +237,7 @@ function stalePins(
 }
 
 /** Order a set of found tranche-directory names by `TRANCHES`'s ingest
- * order, optionally filtered to one `stage` (Ruling E). Pure over a
+ * order, optionally filtered to one `stage`. Pure over a
  * directory-name list so the ordering/filtering/unknown-directory
  * logic is unit-testable without a real directory tree. Throws if
  * `existing` names a directory `TRANCHES` doesn't know — an ingest bug,
@@ -268,7 +261,7 @@ function orderedDirs(
 }
 
 /** Every committed file with this basename: the pilot's, then each
- * tranche's, in `TRANCHES` ingest order. `stage` (Ruling E) restricts
+ * tranche's, in `TRANCHES` ingest order. `stage` restricts
  * both to directories swept at that stage — pilot counts as
  * `PILOT_STAGE`; omit it for the raw, every-stage set the research
  * tools need. */
@@ -304,7 +297,7 @@ async function readLines(path: string): Promise<string[]> {
 
 /** Load the patch corpus: one explicit file, or (no `path`) every
  * committed file, pilot first then tranches in `TRANCHES` order. A
- * `stage` (Ruling E) restricts the no-`path` walk to that corpus
+ * `stage` restricts the no-`path` walk to that corpus
  * stage; omitted, the load is raw — every stage — which is what the
  * research tools need. Every entry is deep-frozen by `parsePatchLine`.
  * A line number in a `parsePatchLine` error is per-file, not
@@ -346,23 +339,21 @@ async function loadManifest(
 	return records;
 }
 
-/** Preflight policy (task-3 addendum, Ruling D). `block` (default):
- * unresolved `needs_*` rows are problems — the research-track
- * contract. `defer`: they are not; the maintainer deferred every
- * escalation to post-go-live on 2026-09-06 (class report; migrate
- * spec §8), and migration proceeds without them. */
+/** Preflight policy. `block` (default): unresolved `needs_*` rows are
+ * problems, which is the research track's contract. `defer`: they are
+ * not — every escalation is deferred to post-go-live (migrate spec
+ * §8) and migration proceeds without them. */
 interface PreflightOptions {
 	escalations: 'block' | 'defer';
 	/** `block` (default): a stale snapshot pin is a problem. `skip`: it
 	 * is not checked here — migrate counts it with `stalePins` and
 	 * judges each patch by its precondition (consolidation spec §4.2). */
 	pins?: 'block' | 'skip';
-	/** Subset of `patches` the manifest must reconcile against (task-3
-	 * addendum-3, Ruling F): carry-over patches sit outside the accepted
-	 * record set — their manifest rows are pre-patch stage, not accepted
-	 * — so `reconcilePatches` must not expect the manifest to list them.
-	 * Defaults to `patches`, the pre-Ruling-F behavior, unchanged for
-	 * every other caller. */
+	/** Subset of `patches` the manifest must reconcile against.
+	 * Carry-over patches sit outside the accepted record set — their
+	 * manifest rows are pre-patch stage, not accepted — so
+	 * `reconcilePatches` must not expect the manifest to list them.
+	 * Defaults to `patches`. */
 	reconcileOnly?: readonly SemanticPatch[];
 }
 
@@ -376,7 +367,7 @@ interface PreflightOptions {
  * The per-patch `expected_before` / occurrence checks live in
  * `applyEntryPatches`, where the entries stream past.
  *
- * `patches` is the FULL apply set (task-3 addendum-3, Ruling F): the
+ * `patches` is the FULL apply set: the
  * pin and corpus-internal checks run over accepted + carry-over
  * together (a carry-over patch must still pin to the current
  * snapshot and must not overlap another patch's target), but
@@ -423,15 +414,14 @@ function corpusPreflight(
 }
 
 /** The corpus migration applies: every HEALED-stage record and patch
- * (Ruling E — pre-patch tranches are excluded from `patches`, not
- * consolidated away), consolidated to the latest record per rid
- * (Ruling C), plus `carryOver` — pre-patch patches Ruling E excluded
- * whose defect is not covered by any accepted patch (task-3
- * addendum-3, Ruling F). Applying the migration means applying
- * `patches` then, per rid, `carryOver`. */
+ * — pre-patch tranches are EXCLUDED from `patches` rather than
+ * consolidated away — reduced to one record per rid, the latest
+ * winning, plus `carryOver`: the excluded pre-patch patches whose
+ * defect no accepted patch covers. Applying the migration means
+ * applying `patches` then, per rid, `carryOver`. */
 interface AcceptedCorpus {
-	/** Pre-patch-stage patches (Ruling F) whose `${rid} ${target}` is
-	 * not already targeted by an accepted patch — repairs the healed
+	/** Pre-patch-stage patches whose `${rid} ${target}` is not already
+	 * targeted by an accepted patch — repairs the healed
 	 * corpus may still need. Raw, unsorted; `applyCarryOver` orders by
 	 * patch id and decides, per patch, whether the healed corpus already
 	 * absorbed it. */
@@ -441,18 +431,17 @@ interface AcceptedCorpus {
 	superseded: {
 		patches: number;
 		records: number;
-		/** Raw pre-patch-stage row counts (Ruling E) — distinct from
+		/** Raw pre-patch-stage row counts — distinct from
 		 * `patches`/`records` above, which count HEALED rows a later sweep
-		 * of the same rid superseded (Ruling C). `overlapping`: pre-patch
-		 * patches dropped from `carryOver` because an accepted patch
-		 * already targets the same (rid, target) — Ruling F, "the healed
-		 * one wins". */
+		 * of the same rid superseded. `overlapping`: pre-patch patches
+		 * dropped from `carryOver` because an accepted patch already
+		 * targets the same (rid, target), the healed one winning. */
 		prePatch: { patches: number; records: number; overlapping: number };
 	};
 }
 
-/** `consolidate`'s pure result — Ruling C's latest-wins accounting
- * only. `loadAcceptedCorpus` adds the Ruling E `prePatch` exclusion
+/** `consolidate`'s pure result — latest-wins accounting only.
+ * `loadAcceptedCorpus` adds the `prePatch` exclusion
  * count to build the full `AcceptedCorpus`; `consolidate` itself never
  * sees pre-patch rows (its callers pass it healed-stage input only, or
  * hand-built fixtures in tests), so it has nothing to report there. */
@@ -462,13 +451,13 @@ interface ConsolidatedCorpus {
 	superseded: { patches: number; records: number };
 }
 
-/** Ruling C's latest-wins consolidation, factored out pure so it can
- * be pinned against hand-built fixtures without touching disk. A rid
- * swept more than once keeps only its LATEST record (`records` is in
- * ingest order — file order matches `TRANCHES`'s ingest order — so
- * later entries for a rid replace earlier ones); only the patches its
+/** ONE MANIFEST RECORD PER RID; THE LATEST WINS. Factored out pure so
+ * it can be pinned against hand-built fixtures without touching disk.
+ * A rid swept more than once keeps only its LATEST record (`records`
+ * is in ingest order — file order matches `TRANCHES`'s — so later
+ * entries for a rid replace earlier ones); only the patches its
  * survivors list are kept. A patch no record — kept OR superseded —
- * ever lists is not a Ruling C supersession, it is an ingest bug (a
+ * ever lists is not a supersession, it is an ingest bug (a
  * hand-authored or mis-ingested tranche), and is reported loudly
  * rather than silently folded into the supersession count. */
 function consolidate(
@@ -504,10 +493,10 @@ function consolidate(
 }
 
 /** Load the accepted corpus: every HEALED-stage committed record and
- * patch (Ruling E; the files `TRANCHES` names at that stage, in ingest
- * order), consolidated to the latest record per rid (Ruling C), plus
- * the pre-patch-stage `carryOver` set (Ruling F, task-3 addendum-3): a
- * raw pilot/tranche-01 patch is carried over unless an accepted patch
+ * patch (the files `TRANCHES` names at that stage, in ingest order),
+ * reduced to one record per rid with the latest winning, plus the
+ * pre-patch-stage `carryOver` set — a raw pilot or tranche-01 patch
+ * is carried over unless an accepted patch
  * already targets its exact (rid, target) — the healed one wins, and
  * that patch counts toward `superseded.prePatch.overlapping` instead.
  * `loadCorpus`/`loadManifest` stay raw — the research tools and the
@@ -638,8 +627,8 @@ function newTextProblem(
 	};
 }
 
-/** Apply one rid's carry-over patches (task-3 addendum-3, Ruling F),
- * in patch id order, after the rid's accepted patches have already
+/** Apply one rid's carry-over patches, in patch id order, after the
+ * rid's accepted patches have already
  * landed on `entry`. Each patch is pre-checked by resolving its target
  * directly and comparing the exact count — a zero-match and a
  * wrong-count match are not the same fact, so a boolean "does it match

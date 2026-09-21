@@ -1,14 +1,14 @@
 /**
- * Semantic patch schema (research-process plan Task 2; spec
+ * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
  * One JSONL record per patch. Seven ops — `split`, `join`, `retag`,
  * `move`, `delete`, `replace`, `unref` — each with its own payload
  * shape. The six sense ops address a sense by **marker token +
  * content-hash anchor**, never by array index: an earlier structural
- * patch must not shift a later patch's target. `unref` (consolidation
- * step 8 Task 3) instead addresses one item of the entry's `refs[]`,
- * by **exact value + content-hash anchor** (`refs[<item>]:<anchor>`).
+ * patch must not shift a later patch's target. `unref` instead
+ * addresses one item of the entry's `refs[]`, by **exact value +
+ * content-hash anchor** (`refs[<item>]:<anchor>`).
  * `expected_before` (the target's exact current text — a sense's
  * definition, or the `refs[]` item) is the safety mechanism — apply
  * fails loudly on any mismatch, and that same loud mismatch is the
@@ -25,7 +25,7 @@
  *
  * Application (`applyPatch`) is pure: entry in, repaired copy out.
  * The corpus-wide engine (snapshot-pin preflight, phase ordering,
- * manifest gating) is Task 4 and composes these functions.
+ * manifest gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
 import type { SourceEntry, SourceSense } from '../body/types.ts';
@@ -81,8 +81,8 @@ interface SplitPayload {
  * sibling with child `senses` (the text would land after them). */
 type JoinPayload = Record<string, never>;
 
-/** Remove one item from the entry's `refs[]` (consolidation step 8
- * Task 3) — the one op that addresses `refs[…]` instead of a sense. */
+/** Remove one item from the entry's `refs[]` — the one op that
+ * addresses `refs[…]` instead of a sense. */
 type UnrefPayload = Record<string, never>;
 
 /** Rewrite the whole headword block: `headword` plus every
@@ -93,9 +93,9 @@ type UnrefPayload = Record<string, never>;
  *
  * Every other op is byte-conserving within `content`; this one is not
  * bounded that way, so a `reform` belongs in `data/patches/reviewed/`
- * where a person wrote it from the print (maintainer ruling
- * 2026-09-18) — the print, not concatenation, is what settles a form
- * whose pointing the source lost. */
+ * where a person wrote it from the print — the print, not
+ * concatenation, is what settles a form whose pointing the source
+ * lost. */
 interface ReformPayload {
 	alt_headwords: string[];
 	headword: string;
@@ -140,8 +140,7 @@ interface ReplacePayload {
 interface PatchBase {
 	/** Set only by the loader, from the directory a patch was read from:
 	 * `data/patches/reviewed/` holds patches a person wrote from a print
-	 * check, and they may add bytes (maintainer ruling 2026-09-18). A
-	 * record never carries it. */
+	 * check, and they may add bytes. A record never carries it. */
 	author?: 'human';
 	confidence: Confidence;
 	defect_class: string;

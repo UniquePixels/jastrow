@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * Snapshot hash + corpus pin (research-process plan Task 1; spec
+ * Snapshot hash + corpus pin (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §3, §5.1).
  *
  * The canonical snapshot hash is a sha256 over the committed decoded

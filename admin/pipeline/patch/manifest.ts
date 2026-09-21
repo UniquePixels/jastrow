@@ -1,5 +1,5 @@
 /**
- * Entry-result manifest (research-process plan Task 3; spec
+ * Entry-result manifest (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.4).
  *
  * The audit trail and the gate: one JSONL record per input rid,
@@ -9,8 +9,8 @@
  * not a fallback. Replay refuses to run while any `needs_*` record
  * is unresolved; `replayGate` is that refusal.
  *
- * This module is pure parsing + validation; the apply engine (plan
- * Task 4) and the sweep ingest (plan Task 7) consume it.
+ * This module is pure parsing + validation; the apply engine and the
+ * sweep ingest consume it.
  */
 import { PATCH_ID, RID, type SemanticPatch } from '../patch/schema.ts';
 
@@ -29,8 +29,7 @@ const DISPOSITIONS = [
 type Disposition = (typeof DISPOSITIONS)[number];
 
 /** The maintainer's eventual decision on a `needs_*` row — the
- * approval metadata the completeness gate (plan Task 7 ingest,
- * spec §4.4) resolves. */
+ * approval metadata the completeness gate (spec §4.4) resolves. */
 interface MaintainerResolution {
 	/** Review date, `YYYY-MM-DD` (same discipline as the body-review
 	 * docs' signed rows). */
@@ -51,12 +50,12 @@ interface EntryResult {
 	 * disposition, and that is the point: the sweep prompt requires
 	 * every hint judged "with a reason you could defend to the
 	 * verification tier", but `escalation` is forbidden on clean and
-	 * repaired rows, so until this field a defensible rejection on a
-	 * sound entry had nowhere to live. Batch 01 (2026-09-04) lost
-	 * eight such reasons in one chunk, and the verification tier
-	 * cannot audit hint judgment — where the sweep does most of its
-	 * reasoning — without them. Optional: an entry that received no
-	 * hints has nothing to record. */
+	 * repaired rows, so without this field a defensible rejection on a
+	 * sound entry has nowhere to live — one sweep chunk lost eight such
+	 * reasons that way. The verification tier cannot audit hint
+	 * judgment, where the sweep does most of its reasoning, without
+	 * them. Optional: an entry that received no hints has nothing to
+	 * record. */
 	hint_notes?: string;
 	/** Ids of this entry's patches. `repaired` requires at least one;
 	 * `clean` requires none; `needs_*` may carry confident patches
