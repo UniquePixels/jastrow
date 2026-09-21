@@ -1,15 +1,14 @@
 /**
- * Shared type vocabulary for the entry-body-model toolkit (spec
- * docs/archive/plans/2026-07-11-entry-body-model.md). Every later
- * module — citation detector, census, grammar/label extraction, unit
- * builder, dry-run — imports these instead of redefining the shapes.
+ * Shared type vocabulary for the entry-body model (spec
+ * docs/archive/plans/2026-07-11-entry-body-model.md): the upstream
+ * `Source*` shapes as the pipeline reads them, and the `Body*` shapes
+ * it composes. Every module that touches an entry imports these
+ * instead of redefining them, so the model has one spelling.
  */
 
-/** Upstream shapes (Sefaria dump, `data/source/jastrow-dictionary.jsonl`),
- * restricted to the fields the body model reads. See
- * `admin/pipeline/provenance/baseline-transform.ts`, archived at
- * `refs/tags/archive/v2-research-2026-09`, for the sibling model of
- * the deployed v1 shape these fields fed. */
+/** Upstream shapes (Sefaria dump,
+ * `data/source/jastrow-dictionary.jsonl`), restricted to the fields
+ * the body model reads. */
 interface SourceGrammar {
 	binyan_form?: string[];
 	language_code?: string;
@@ -38,7 +37,7 @@ interface SourceEntry {
 }
 
 /** Target shapes (design doc §2,
- * docs/specs/2026-07-11-entry-body-model-design.md). What the body model
+ * docs/specs/2026-07-11-entry-body-model-design.md). What the model
  * builds from `SourceEntry`. */
 interface BodySense {
 	gloss: string;

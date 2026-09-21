@@ -1,11 +1,11 @@
 /**
- * The per-entry composer (entry-body-model plan Task 4 addendum;
- * migrate spec §5): one corpus entry through the committed phase
- * manifest's first three stages — text-repairs → structural-repairs →
- * patch-apply. `migrate-dry.ts` once walked the same three phases
- * `migrate.ts` still does, diverging only on what each did with the
- * result (a console report vs. a write) — so the composition lives
- * here once instead of twice.
+ * The per-entry composer (migrate spec §5): one corpus entry through
+ * the committed phase manifest's first three stages — text-repairs →
+ * structural-repairs → patch-apply.
+ *
+ * It lives here rather than in a caller because a dry run and a write
+ * run differ only in what they do with the result, so the composition
+ * is stated once instead of once per caller.
  */
 import {
 	type ApplyProblem,
@@ -34,9 +34,9 @@ type PhaseTracker = ReturnType<typeof createPhaseTracker>;
 class TransformFailure extends Error {}
 
 /** The `text-repairs` phase body: the general `applyRepairs` cleanup
- * first (binyan-form trimming only, corpus-wide — the rid-keyed fixes
- * that used to run here are reviewed patches applied in `patch-apply`,
- * consolidation step 8, spec §4.1), then the corpus-correction
+ * first (binyan-form trimming only, corpus-wide — a rid-keyed fix is
+ * a reviewed patch applied in `patch-apply` instead, spec §4.1),
+ * then the corpus-correction
  * transforms second, on the healed entry (transform spec §2
  * "Placement": "Rules run after `applyRepairs`, within
  * `text-repairs`"). Transform records are pushed onto
@@ -62,27 +62,26 @@ function healAndTransform(
 	return { entry: transformed.entry, records: healed.records };
 }
 
-/** The rid's patch sets `composeEntry` applies (Ruling F — task-3
- * addendum-3; `reviewed` added in consolidation step 8, spec §4.2):
- * `reviewed` first, then `accepted`, then `carryOver` for the same
+/** The rid's patch sets `composeEntry` applies (spec §4.2), in
+ * order: `reviewed`, then `accepted`, then `carryOver` for the same
  * rid, all in the same `patch-apply` phase. Any of the three may be
- * omitted — `migrate-dry.ts`'s pre-corpus-load callers once composed
- * with no patches at all, as `compose.test.ts`'s fixtures still do. */
+ * omitted — a caller with no corpus loaded composes with none of
+ * them, as `compose.test.ts`'s fixtures do. */
 interface ComposePatches {
 	accepted?: readonly SemanticPatch[] | undefined;
 	carryOver?: readonly SemanticPatch[] | undefined;
 	/** Drift policy for both patch sets (consolidation spec §4.2).
 	 * Omitted: `problem`, the research-track behaviour. */
 	drift?: DriftMode | undefined;
-	/** Human-authored, applied first (consolidation spec §4.2, step 8):
-	 * a person's print-check repair may be a precondition for an
-	 * accepted patch downstream of it. */
+	/** Human-authored, applied first (spec §4.2): a person's
+	 * print-check repair may be a precondition for an accepted patch
+	 * downstream of it. */
 	reviewed?: readonly SemanticPatch[] | undefined;
 }
 
 interface ComposeResult {
-	/** Carry-over disposition (task-3 addendum-3, Ruling F): patches
-	 * whose defect the healed corpus already fixed (`absorbed`, dropped)
+	/** Carry-over disposition: patches whose defect the healed corpus
+	 * already fixed (`absorbed`, dropped)
 	 * vs. still present (`carried`, applied). Empty when no carry-over
 	 * group was passed. */
 	carryOver: { absorbed: string[]; carried: string[] };
@@ -194,7 +193,7 @@ function applyPatchSets(
 /** One entry through the first three phases of the committed manifest
  * (spec §5): the general `applyRepairs` cleanup then text rules,
  * structural rules, then the reviewed, accepted and carry-over
- * patches in that order (consolidation step 8, spec §4.2). Throws
+ * patches in that order (spec §4.2). Throws
  * `TransformFailure` for a rule that tripped its gate. Patch problems
  * are returned, not thrown: the composition still stands and the
  * caller decides whether a stale patch is fatal. */

@@ -1,6 +1,6 @@
 /**
  * Sense-label normalization + print regeneration (design doc §2/§3 B6,
- * entry-body-model plan Task 7). `sense.number` in the source is a raw
+ * design doc). `sense.number` in the source is a raw
  * print-form token ("1)", "—2)", "*2)") — this module parses it into the
  * normalized `{ label, star, dash }` triple the body model stores, and
  * regenerates the exact source string back from that triple. Anything
@@ -24,7 +24,7 @@
  * strings.
  *
  * Letter labels ("a)", "—b)") are not attested in the raw `number` field
- * anywhere in the corpus today — lettered sub-senses (Task 6, B5) are
+ * anywhere in the corpus today — lettered sub-senses (B5) are
  * split from running prose, not carried as a `number` value — but the
  * grammar here accepts a single lowercase letter alongside digits so the
  * same parser covers labels synthesized for lettered sub-senses later

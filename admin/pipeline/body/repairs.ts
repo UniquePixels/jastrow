@@ -1,19 +1,13 @@
 /**
- * The general migration repairs (entry-body-model plan Task 16;
- * maintainer review 2026-08-05, docs/archive/body-review/01–06). Pure:
- * takes a SourceEntry, returns a repaired copy plus a record of every
+ * The general migration repairs, approved by the maintainer body
+ * review (`docs/archive/body-review/01–06`). Pure: takes a
+ * `SourceEntry`, returns a repaired copy plus a record of every
  * change. `compose.ts` runs it first in the `text-repairs` phase.
  *
- * Only corpus-wide repairs live here now. The rid-keyed repairs (the
- * 01 chopped-crossref rejoins, implied `1)` labels, marker reinserts,
- * the 04 label repairs, the 02 cite wraps and refs removals) moved to
- * reviewed patches in `data/patches/reviewed/` in consolidation step 8
- * (spec §4.1); their `rationale` fields carry the deviation register
- * this header used to hold (implied `1)` labels, D00341's bracket
- * move). Git history keeps the old tables.
- *
- * `REPAIRED_ORPHAN_ITEMS` moved to `migrate/orphan-refs.ts` in step 8;
- * `walkSensesDeep` stays here, shared by both modules.
+ * CORPUS-WIDE REPAIRS ONLY. A repair keyed on a rid belongs in
+ * `data/patches/reviewed/` instead (spec §4.1), where its `rationale`
+ * field carries the reasoning a table here could not. `walkSensesDeep`
+ * lives here and is shared with `migrate/orphan-refs.ts`.
  */
 import type { SourceEntry, SourceSense } from './types.ts';
 
@@ -61,7 +55,7 @@ function cleanBinyanForms(entry: SourceEntry, records: RepairRecord[]): void {
 
 /** Apply the general repairs to (a deep copy of) `source`. Pure. The
  * rid-keyed repairs that lived here moved to `data/patches/reviewed/`
- * in consolidation step 8 (spec §4.1). */
+ * (spec §4.1). */
 function applyRepairs(source: SourceEntry): {
 	entry: SourceEntry;
 	records: RepairRecord[];

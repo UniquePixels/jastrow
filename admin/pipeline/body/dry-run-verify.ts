@@ -1,6 +1,6 @@
 /**
  * Full-corpus dry-run round-trip verifier (design doc §6.0,
- * entry-body-model plan Task 11 — the capstone, split across three files
+ * — split across three files
  * only to stay under the per-file line budget). Given a built `Trace`
  * (the (source text, built sense) pairs `dry-run.ts`'s `buildTrace`
  * records), verifies the `rejoin`/`units`/`lettered`/`formSection` rules

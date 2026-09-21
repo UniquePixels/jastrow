@@ -1,23 +1,17 @@
 /**
  * Form-section splitter (design doc §2 senses row + §3 B12, decision
- * B12, entry-body-model plan Task 14). Jastrow sometimes ends one
+ * B12). Jastrow sometimes ends one
  * form's senses and opens a restarted-numbering section for a related
  * grammatical form: `…a. fr.—Pl. גְּבוּרוֹת 1) manifestations… ?—2) …`
- * (C00062). Maintainer print-verified (2026-07-13) that this convention
- * covers `Pl.` (plural); a second print pass (2026-07-14, during study)
- * found the identical convention under `Part. pass.` (passive
- * participle), `Fem.` (feminine), and `Denom.` (denominative) headers —
- * these are separate lemma-level sense sets, not tails of the preceding
- * sense; upstream flattens the block into the prior sense's text.
+ * (C00062). The convention is print-verified under `Pl.` (plural),
+ * `Part. pass.` (passive participle), `Fem.` (feminine) and `Denom.`
+ * (denominative) headers, which `MARKERS` parameterizes: each is a
+ * separate lemma-level sense set, not a tail of the preceding sense,
+ * and upstream flattens the block into the prior sense's text.
  * `splitFormSection` carves it out into a host (everything before the
- * block) plus intro/items for the restarted run; runs AFTER
- * `lettered.ts`'s split, on its resulting head, in the dry-run
- * composition (design §3 table order). Originally shipped as
- * `plural.ts` (Pl.-only); generalized in place (`git mv`) once the
- * `Part. pass.`/`Fem.`/`Denom.` sections were print-verified to carry
- * the same shape — the discriminator, ascending-run, and byte
- * round-trip semantics are unchanged, only the marker anchor is now
- * parameterized over `MARKERS`.
+ * block) plus intro/items for the restarted run, and runs AFTER
+ * `lettered.ts`'s split, on its resulting head (design §3 table
+ * order).
  *
  * Deliberately more careful than `lettered.ts`'s single-character
  * lookbehind: a bare digit run immediately before `)` collides with an
@@ -26,10 +20,9 @@
  * chapter/verse/paragraph number closing a real, already-open
  * parenthetical, not a restarted-list marker. A census-style regex that
  * only checks the single character before the digit (`census.ts`'s
- * `pluralSection`, archived at `refs/tags/archive/v2-research-2026-09`,
- * and the pattern the design census used to count 25 candidate
- * entries) can't tell the two apart — measured by hand against
- * the full entry text (task report), only 5 of those 25 carry a genuine,
+ * `pluralSection`, and the pattern the design census counted 25
+ * candidate entries with) can't tell the two apart — measured by hand
+ * against the full entry text, only 5 of those 25 carry a genuine,
  * paren-clear ascending run for `Pl.`; the other 20 are single spurious
  * citation-close matches that would otherwise slice a built sense open
  * mid-parenthetical (e.g. H01537's would-be item text starts with a bare
@@ -37,11 +30,10 @@
  * precedes it — paren balance is tracked from the marker anchor forward,
  * the exact discriminator between the two classes. This mirrors
  * `lettered.ts`'s "authoritative structural rule may disagree with the
- * census's coarse detector" relationship (documented there for
- * `letteredRun` vs `splitLettered`, 189 detected vs 191 structural
- * since Task 15's italic extension; 116 before it) — see this task's
- * `pluralSections` (census, coarse) vs `formSectionSplits` (dry-run,
- * authoritative) counts. Failure mode is under-split (B9): anything that
+ * census's coarse detector" relationship (189 detected against 191
+ * structural), and the same holds for `pluralSections` (census,
+ * coarse) against `formSectionSplits` (dry-run, authoritative).
+ * Failure mode is under-split (B9): anything that
  * isn't a clean, paren-clear, ascending-from-1 run returns null and the
  * block stays inline in its host sense's gloss.
  *
