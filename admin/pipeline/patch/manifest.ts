@@ -1,6 +1,6 @@
 /**
  * Entry-result manifest (research-process plan Task 3; spec
- * docs/specs/2026-08-10-research-process-design.md §4.4).
+ * docs/archive/specs/2026-08-10-research-process-design.md §4.4).
  *
  * The audit trail and the gate: one JSONL record per input rid,
  * carrying exactly one disposition, the ids of that entry's patches,

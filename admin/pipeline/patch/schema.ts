@@ -1,6 +1,6 @@
 /**
  * Semantic patch schema (research-process plan Task 2; spec
- * docs/specs/2026-08-10-research-process-design.md §4.3).
+ * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
  * One JSONL record per patch. Seven ops — `split`, `join`, `retag`,
  * `move`, `delete`, `replace`, `unref` — each with its own payload

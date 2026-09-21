@@ -1,11 +1,14 @@
 # Research Process — LLM-Assisted Data Cleanup Design
 
-> **Archived 2026-09-21 — historical record, not a live contract.**
-> The LLM sweep it designed ran and stopped; step 6 of the pipeline
-> consolidation ([spec 2026-09-13](../../specs/2026-09-13-pipeline-consolidation-design.md))
-> deleted the research code it describes. The parts still in force are
-> restated in the [transform module design](../../specs/2026-08-22-transform-module-design.md)
-> and in `data/patches/reviewed/README.md`.
+> **Archived 2026-09-21 — mostly historical.** The LLM sweep it
+> designs ran and stopped, and step 6 of the pipeline consolidation
+> ([spec 2026-09-13](../../specs/2026-09-13-pipeline-consolidation-design.md))
+> deleted the research code of §4.1–§4.2 and §4.5. **Two sections are
+> still live:** §4.3 (the semantic patch schema) and §4.4 (the
+> disposition taxonomy and manifest) remain the design that
+> `admin/pipeline/patch/` implements and cites — the consolidation
+> spec §4 gives the buckets, not the op shapes. The sweep's escalation
+> rulings live in `data/patches/reviewed/README.md`.
 
 - **Date:** 2026-08-10
 - **Status:** Draft — pending maintainer review

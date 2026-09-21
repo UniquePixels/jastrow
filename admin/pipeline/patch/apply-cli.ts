@@ -2,7 +2,7 @@
 /**
  * `bun patch:replay` — the dry, read-only replay of the committed
  * patch corpus (research-process plan Task 4; spec
- * docs/specs/2026-08-10-research-process-design.md §5).
+ * docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
  * It lives beside `apply.ts` rather than inside it because it composes
  * each entry through `body/compose.ts`, and `body/compose.ts` imports

@@ -1,8 +1,9 @@
 # Case 10 — an anchor minted around an anaphor, targeted by copy
 
-> **Gate-case record, 2026-09-06; rules shipped.** See
-> [the transform module design](2026-08-22-transform-module-design.md) for the
-> live contract.
+> **Gate-case record, 2026-09-06; the case is built and live** in
+> `admin/pipeline/transform/link-target.ts`. The gate it extends is
+> [the transform module design](2026-08-22-transform-module-design.md)
+> §5, which is where the standing contract lives.
 
 **Status:** RULED IN by Brian 2026-09-06 and **BUILT the same day**
 with `MINT_DECLARERS` empty, so live exposure was zero until a rule

@@ -1,7 +1,7 @@
 # Sense Structure Repair — §6.0 Follow-up Design
 
-> **Archived 2026-09-21 — historical record, not a live contract.**
-> Superseded by the pipeline consolidation
+> **Archived 2026-09-21 — historical.** Superseded by the pipeline
+> consolidation
 > ([spec 2026-09-13](../../specs/2026-09-13-pipeline-consolidation-design.md)):
 > step 8 turned S1/S2 into reviewed patches and deleted the `repairs.ts`
 > tables, and step 5 retired the corpus tier S5's gates ran in. S6's

@@ -195,9 +195,11 @@ The pairing is total for 69 of 84 opens; the residue is §3.4's orphans.
 **Ruling (Brian, 2026-08-27): strip the delimiters, add no new form-object
 mark.** *Reversed in intent 2026-09-20 —
 [`docs/v2/headword-design.md` §4](../v2/headword-design.md) keeps the
-grouping as structure in `display`, never inside `text`.* The parens are print's grouping punctuation around a run of
-variant readings; they are not part of any lemma, and a lookup key
-reading `(אוֹב)` matches nothing a user will type. The grouping signal
+grouping as structure in `display`, never inside `text`.*
+
+The parens are print's grouping punctuation around a run of variant
+readings; they are not part of any lemma, and a lookup key reading
+`(אוֹב)` matches nothing a user will type. The grouping signal
 is not preserved — print's parentheses remain readable in the
 definition prose and in the hOCR, and `entry.schema.json`'s form object
 is not widened.

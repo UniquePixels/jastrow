@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * Patch apply engine + phase manifest (research-process plan Task 4;
- * spec docs/specs/2026-08-10-research-process-design.md §5).
+ * spec docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
  * Preflight first, then write: the corpus-level checks (snapshot
  * pin, corpus validity, manifest reconciliation, replay gate) run

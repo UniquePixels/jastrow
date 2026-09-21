@@ -1,11 +1,13 @@
 # Sweep Tiering — Discovery, Automation, Ship
 
-> **Archived 2026-09-21 — historical record, not a live contract.**
-> The gated sweep it tiers is over, and its §2/§3.2 golden render-diff
-> gate was struck on 2026-09-06 by the
+> **Archived 2026-09-21 — mostly historical.** The gated sweep it
+> tiers is over, and its §2 / Phase 3.2 golden render-diff gate was
+> struck on 2026-09-06 by the
 > [migrate design §1](../../specs/2026-09-06-migrate-design.md): the v1
 > renderer no longer exists on `v2`, so that spec's §4 text-level gates
-> stand in for it. Its §3.1 names tools and branches now gone.
+> stand in for it. **Its §3 decisions T5 and T6 are still live** —
+> `admin/pipeline/patch/patterns.ts` cites both as the definitions of
+> `PatternRoute` and `blocking`.
 
 - **Status:** approved 2026-08-17 (maintainer)
 - **Supersedes:** the exhaustive-sweep cadence in
