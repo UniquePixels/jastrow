@@ -21,7 +21,7 @@ type GrammarIndex = NonNullable<BodyEntry['grammar']>;
  *   'f.'          4,175  gender only
  *   'm. pl.'        629  gender + plural
  *   'pr. n. m.'     534  proper-noun + gender
- *   'pr. n. pl.'    432  proper-noun + plural
+ *   'pr. n. pl.'    432  proper-noun + place name
  *   'f. pl.'        193  gender + plural
  *   'pr. n.'        173  proper-noun, bare
  *   'pr. n. f.'      56  proper-noun + gender
@@ -50,7 +50,14 @@ const VOCAB: Record<string, GrammarIndex | null> = {
 	'pr. n.': null,
 	'pr. n. m.': { gender: 'm' },
 	'pr. n. f.': { gender: 'f' },
-	'pr. n. pl.': { number: 'pl' },
+	// In Jastrow's abbreviation key, `pl.` after `pr. n.` means "place"
+	// (a place name), not plural — unlike bare `pl.` elsewhere in this
+	// table. There is no gender or number token here to record, so this
+	// maps to `null` exactly like bare `pr. n.` above. Seeding a `pos`
+	// enum from the `pr. n.*` markers (which would let "proper noun,
+	// place" be recorded properly) is a separate, larger change; until
+	// `grammar.pos` exists, this marker contributes nothing to the index.
+	'pr. n. pl.': null,
 };
 
 /** Parse one `content.morphology` marker into its grammar index. Trims

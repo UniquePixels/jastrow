@@ -18,14 +18,21 @@ describe('parseMarker core vocabulary', () => {
 		expect(parseMarker('f. du.')).toEqual({ gender: 'f', number: 'du' });
 	});
 
-	it('maps the proper-noun + gender/number compounds', () => {
+	it('maps the proper-noun + gender compounds', () => {
 		expect(parseMarker('pr. n. m.')).toEqual({ gender: 'm' });
 		expect(parseMarker('pr. n. f.')).toEqual({ gender: 'f' });
-		expect(parseMarker('pr. n. pl.')).toEqual({ number: 'pl' });
 	});
 
 	it('maps bare proper-noun to null — no gender or number token', () => {
 		expect(parseMarker('pr. n.')).toBeNull();
+	});
+
+	it('maps pr. n. pl. to null — pl. means "place" here, not plural', () => {
+		// In Jastrow's abbreviation key, `pl.` after `pr. n.` marks a
+		// place name, not a plural. There is no gender or number to
+		// record until `grammar.pos` exists, so this is null exactly
+		// like bare `pr. n.` above — not `{ number: 'pl' }`.
+		expect(parseMarker('pr. n. pl.')).toBeNull();
 	});
 });
 
