@@ -42,10 +42,14 @@ describe('PUBLICATION', () => {
 			expect(action.endsWith('.')).toBe(true);
 		}
 	});
-	it('names only kinds the table classifies as retiring', () => {
-		for (const kind of RETIRING_KINDS) {
-			expect(PUBLICATION.has(kind)).toBe(true);
-		}
+	it('lists exactly the slug kinds as retiring', () => {
+		// Both directions: a `slug-*` kind left out of RETIRING_KINDS
+		// would be triaged as live work, and a non-slug kind listed there
+		// would be announced as retiring when nothing retires it.
+		const retiring: string[] = [...RETIRING_KINDS];
+		expect(retiring.toSorted()).toEqual(
+			[...PUBLICATION.keys()].filter((k) => k.startsWith('slug-')).toSorted(),
+		);
 	});
 });
 

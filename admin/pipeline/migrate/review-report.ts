@@ -150,7 +150,6 @@ function renderReviewReport(
 
 export {
 	loadUndetectedClasses,
-	PATTERNS_PATH,
 	REVIEW_REPORT_PATH,
 	renderReviewReport,
 	undetectedClasses,

@@ -45,7 +45,7 @@ describe('reviewReason', () => {
 	// headword-design §4 rules these legitimate: a phrase lemma,
 	// reduplication and a spaced variant. The space is the ONLY character
 	// outside the lexical set in all 271 of them.
-	for (const marked of ['בֵּי אֱלִישָׁפָט', 'דא דא', 'פּוּם בְדִיתָא']) {
+	for (const marked of ['בֵּי אֱלִישָׁפָט', 'דא דא', 'פּוּם בְּדִיתָא']) {
 		it(`calls ${marked} a multi-word form, not a parse failure`, () => {
 			expect(reviewReason(decomposeForm(marked))).toEqual({
 				kind: 'headword-multiword',

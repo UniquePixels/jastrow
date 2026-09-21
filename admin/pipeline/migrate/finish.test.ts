@@ -66,7 +66,7 @@ describe('finishEntry', () => {
 		const { headwordReview } = finishEntry(
 			{
 				...source,
-				alt_headwords: ['פּוּם בְדִיתָא'],
+				alt_headwords: ['פּוּם בְּדִיתָא'],
 				headword: 'אִידְרְעָא = אֶדְרְעָא',
 			},
 			body,
@@ -77,7 +77,7 @@ describe('finishEntry', () => {
 			'headword-multiword',
 		]);
 		expect(headwordReview[1]?.line).toBe(
-			'A00014: פּוּם בְדִיתָא — multi-word form; the space is its only non-lexical character',
+			'A00014: פּוּם בְּדִיתָא — multi-word form; the space is its only non-lexical character',
 		);
 	});
 	it('reports a missing page and keeps going', () => {
