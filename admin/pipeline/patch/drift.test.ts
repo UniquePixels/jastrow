@@ -175,3 +175,40 @@ describe('classifyDrift', () => {
 		expect(classifyDrift(entry, join)).toBe('upstream-changed');
 	});
 });
+
+describe('classifyDrift on a reform', () => {
+	const reform = (before: string): SemanticPatch =>
+		patch({
+			expected_before: before,
+			op: 'reform',
+			payload: { alt_headwords: [], headword: 'ab' },
+			target: `forms:${contentAnchor(before)}`,
+		} as Partial<SemanticPatch>);
+
+	function formsEntry(headword: string, alts?: string[]): SourceEntry {
+		return {
+			...(alts === undefined ? {} : { alt_headwords: alts }),
+			content: { senses: [{ definition: 'x' }] },
+			headword,
+			rid: 'D00436',
+		};
+	}
+
+	it('is undefined while the block still reads as written', () => {
+		expect(
+			classifyDrift(formsEntry('a', ['b']), reform('a\nb')),
+		).toBeUndefined();
+	});
+
+	it('is upstream-fixed when the block already reads as the patch would leave it', () => {
+		expect(classifyDrift(formsEntry('ab'), reform('a\nb'))).toBe(
+			'upstream-fixed',
+		);
+	});
+
+	it('is upstream-changed when the block moved somewhere else', () => {
+		expect(classifyDrift(formsEntry('a', ['b', 'c']), reform('a\nb'))).toBe(
+			'upstream-changed',
+		);
+	});
+});

@@ -39,6 +39,12 @@ const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
 /** `refs[<item>]:<anchor>` — the one non-sense target, used by
  * `unref`. */
 const REFS_TARGET = /^refs\[(?<item>.+)\]:(?<anchor>[0-9a-f]{8})$/u;
+/** `forms:<anchor>` — the headword block, used by `reform`. The block
+ * is addressed WHOLE rather than per item because the repairs that
+ * need it change how many forms there are (a torn word rejoined, a
+ * missed comma split into two), and an index would shift under them —
+ * the failure the anchor design exists to prevent. */
+const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
@@ -48,6 +54,7 @@ type PatchOp =
 	| 'delete'
 	| 'join'
 	| 'move'
+	| 'reform'
 	| 'replace'
 	| 'retag'
 	| 'split'
@@ -77,6 +84,22 @@ type JoinPayload = Record<string, never>;
 /** Remove one item from the entry's `refs[]` (consolidation step 8
  * Task 3) — the one op that addresses `refs[…]` instead of a sense. */
 type UnrefPayload = Record<string, never>;
+
+/** Rewrite the whole headword block: `headword` plus every
+ * `alt_headwords` item (headword design §4.1). The block is given in
+ * full, not as an edit, because these repairs change the NUMBER of
+ * forms — `שׁ` + `ׁוּף` rejoining into one headword, `טְוִיָּיה טְוִיָּה`
+ * splitting into two. An empty `alt_headwords` removes the field.
+ *
+ * Every other op is byte-conserving within `content`; this one is not
+ * bounded that way, so a `reform` belongs in `data/patches/reviewed/`
+ * where a person wrote it from the print (maintainer ruling
+ * 2026-09-18) — the print, not concatenation, is what settles a form
+ * whose pointing the source lost. */
+interface ReformPayload {
+	alt_headwords: string[];
+	headword: string;
+}
 
 /** Set (or add) the target sense's `number` field. The new token must
  * come from the closed marker grammar — retag is how an implied `1)`
@@ -163,6 +186,10 @@ interface SplitPatch extends PatchBase {
 	op: 'split';
 	payload: SplitPayload;
 }
+interface ReformPatch extends PatchBase {
+	op: 'reform';
+	payload: ReformPayload;
+}
 interface UnrefPatch extends PatchBase {
 	op: 'unref';
 	payload: UnrefPayload;
@@ -172,13 +199,15 @@ type SemanticPatch =
 	| DeletePatch
 	| JoinPatch
 	| MovePatch
+	| ReformPatch
 	| ReplacePatch
 	| RetagPatch
 	| SplitPatch
 	| UnrefPatch;
 
-/** Every patch that addresses a sense — all ops but `unref`. */
-type SensePatch = Exclude<SemanticPatch, UnrefPatch>;
+/** Every patch that addresses a sense — all ops but `unref` and
+ * `reform`, which address `refs[]` and the headword block. */
+type SensePatch = Exclude<SemanticPatch, ReformPatch | UnrefPatch>;
 
 /** A parsed `sense[<token>]:<anchor>` address. */
 interface PatchTarget {
@@ -240,6 +269,25 @@ function parseRefsTarget(target: string): PatchTarget {
 	return { anchor: m.groups['anchor'], token: m.groups['item'] };
 }
 
+/** The headword block as one string: the headword, then every
+ * alternate, newline-joined. No form contains a newline, so the join
+ * is reversible and the `expected_before` of a `reform` reads as the
+ * print line does — one form per line. */
+function formsBlock(entry: SourceEntry): string {
+	return [entry.headword, ...(entry.alt_headwords ?? [])].join('\n');
+}
+
+/** Parse a `forms:<anchor>` address — `reform`'s target shape. */
+function parseFormsTarget(target: string): PatchTarget {
+	const m = FORMS_TARGET.exec(target);
+	if (m?.groups?.['anchor'] === undefined) {
+		throw new PatchFormatError(`target "${target}"`, [
+			'reform needs a forms:<8-hex-anchor> target',
+		]);
+	}
+	return { anchor: m.groups['anchor'], token: '' };
+}
+
 /** One position in an entry's sense tree: the sense plus the sibling
  * array holding it (what split/delete need to mutate). */
 interface SensePosition {
@@ -287,6 +335,12 @@ function resolveTarget(
 function countTarget(entry: SourceEntry, patch: SemanticPatch): number {
 	if (patch.op === 'unref') {
 		return (entry.refs ?? []).filter((r) => r === patch.expected_before).length;
+	}
+	if (patch.op === 'reform') {
+		// An entry has exactly one headword block, so the count is 0 or
+		// 1 — the same question apply asks, kept in one place so drift
+		// and carry-over read it the same way.
+		return formsBlock(entry) === patch.expected_before ? 1 : 0;
 	}
 	return resolveTarget(entry, parseTarget(patch.target)).length;
 }
@@ -376,6 +430,31 @@ function splitPayloadReasons(p: Record<string, unknown>): string[] {
 	return [];
 }
 
+/** `reform`: a non-empty headword, an array of non-empty alternates,
+ * and no newline anywhere — the newline is the block's separator, so a
+ * form holding one would make the target ambiguous. */
+function reformPayloadReasons(p: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
+	const headword = p['headword'];
+	const alts = p['alt_headwords'];
+	if (!nonEmptyString(headword)) {
+		reasons.push('reform payload needs a non-empty headword');
+	}
+	if (!Array.isArray(alts) || alts.some((a) => !nonEmptyString(a))) {
+		reasons.push(
+			'reform payload needs alt_headwords: an array of non-empty strings',
+		);
+		return reasons;
+	}
+	const forms = [headword, ...alts].filter(
+		(f): f is string => typeof f === 'string',
+	);
+	if (forms.some((f) => f.includes('\n'))) {
+		reasons.push('reform forms must not contain a newline');
+	}
+	return reasons;
+}
+
 /** `unref`: the payload must be empty. */
 function unrefPayloadReasons(p: Record<string, unknown>): string[] {
 	return Object.keys(p).length === 0
@@ -391,6 +470,7 @@ const PAYLOAD_VALIDATORS: Record<PatchOp, PayloadValidator> = {
 	replace: replacePayloadReasons,
 	retag: retagPayloadReasons,
 	split: splitPayloadReasons,
+	reform: reformPayloadReasons,
 	unref: unrefPayloadReasons,
 };
 
@@ -403,6 +483,7 @@ const PATCH_OPS: PatchOp[] = [
 	'delete',
 	'join',
 	'move',
+	'reform',
 	'replace',
 	'retag',
 	'split',
@@ -438,7 +519,10 @@ function identityReasons(raw: Record<string, unknown>): string[] {
 /** Parse the record's target in the shape its op expects: `refs[…]`
  * for unref, `sense[…]` for every other op. Throws on a bad shape. */
 function parseTargetFor(op: unknown, text: string): PatchTarget {
-	return op === 'unref' ? parseRefsTarget(text) : parseTarget(text);
+	if (op === 'unref') {
+		return parseRefsTarget(text);
+	}
+	return op === 'reform' ? parseFormsTarget(text) : parseTarget(text);
 }
 
 /** Parse the target field, returning the target when it parses and
@@ -455,13 +539,11 @@ function readTarget(raw: Record<string, unknown>): {
 		return { reasons: [], target: parseTargetFor(raw['op'], text) };
 	} catch (e) {
 		const misplacedRefs = raw['op'] !== 'unref' && REFS_TARGET.test(text);
-		return {
-			reasons: [
-				misplacedRefs
-					? 'refs[…] targets are only for unref'
-					: (e as Error).message,
-			],
-		};
+		const misplacedForms = raw['op'] !== 'reform' && FORMS_TARGET.test(text);
+		const misplaced =
+			(misplacedRefs ? 'refs[…] targets are only for unref' : undefined) ??
+			(misplacedForms ? 'forms: targets are only for reform' : undefined);
+		return { reasons: [misplaced ?? (e as Error).message] };
 	}
 }
 
@@ -695,9 +777,39 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	if (patch.op === 'unref') {
 		return applyUnref(entry, patch);
 	}
+	if (patch.op === 'reform') {
+		return applyReform(entry, patch);
+	}
 	const copy = structuredClone(entry);
 	const position = locateSense(copy, patch);
 	mutateSense(patch, position, position.sense.definition ?? '');
+	return copy;
+}
+
+/** `reform`: replace the headword block on a copy of the entry, after
+ * asserting that the block still reads exactly as `expected_before`.
+ * An empty `alt_headwords` removes the field rather than writing `[]`,
+ * so an entry with no alternates looks the way the rest of the corpus
+ * does. */
+function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
+	const before = formsBlock(entry);
+	if (before !== patch.expected_before) {
+		throw new PatchApplyError(
+			patch.id,
+			'expected_before does not match the headword block — the source moved under the patch (maintenance track, spec §6)',
+		);
+	}
+	const copy = structuredClone(entry);
+	copy.headword = patch.payload.headword;
+	if (patch.payload.alt_headwords.length > 0) {
+		copy.alt_headwords = [...patch.payload.alt_headwords];
+	} else {
+		// `delete`, not `= undefined`: the field is optional under
+		// exactOptionalPropertyTypes, and an entry with no alternates
+		// carries no key at all in the rest of the corpus.
+		// biome-ignore lint/performance/noDelete: key must vanish
+		delete copy.alt_headwords;
+	}
 	return copy;
 }
 
@@ -891,12 +1003,19 @@ function applySplit(
 	position.siblings.splice(position.index + 1, 0, sibling);
 }
 
-/** Flatten the mutable content of an entry — every sense's number
- * token and definition, in document order, plus the morphology — into
- * one string. This is the byte pool the no-new-text validator
- * compares against. */
+/** Flatten the mutable content of an entry — the headword block, then
+ * every sense's number token and definition in document order, plus
+ * the morphology — into one string. This is the byte pool the
+ * no-new-text validator compares against.
+ *
+ * **The headword block is part of it BECAUSE `reform` edits it.** A
+ * pool that stopped at `content` would let a reform rewrite a headword
+ * with bytes from nowhere and still pass: the gate would be measuring
+ * fields the op cannot touch. Human-authored patches are exempt from
+ * the floor anyway, but an agent-written reform is not, and the
+ * exemption must come from provenance, not from a blind spot. */
 function flattenContent(entry: SourceEntry): string {
-	const parts: string[] = [entry.content.morphology ?? ''];
+	const parts: string[] = [formsBlock(entry), entry.content.morphology ?? ''];
 	for (const { sense } of walkSenses(entry)) {
 		parts.push(sense.number ?? '', sense.definition ?? '');
 	}
@@ -911,6 +1030,7 @@ export type {
 	MovePayload,
 	PatchOp,
 	PatchTarget,
+	ReformPayload,
 	ReplacePayload,
 	RetagPayload,
 	SemanticPatch,
@@ -925,6 +1045,7 @@ export {
 	countOccurrences,
 	countTarget,
 	flattenContent,
+	formsBlock,
 	PATCH_ID,
 	PatchApplyError,
 	PatchFormatError,
