@@ -39,7 +39,10 @@ keeps the notation inside the lookup key or deletes it:
 - `partial: true` marks a form that is not a usable lookup key: an ending
   Jastrow prints after an ellipsis (`… טָה`), or a phrase holding an
   abbreviated word (`נְהַר פּ׳`, *N'har Pappa*). It is shown exactly as
-  printed and is **never a lookup key**.
+  printed and is **never a lookup key**. It applies only to a form that
+  has a **sibling full form**: an abbreviation that is an entry's ONLY
+  name stays a lookup key, notation and all, or the entry becomes
+  unfindable (X7).
 - `display` is a template holding **how print set the line**. `{n}`
   inserts form n's bare text. Everything else is literal: commas (or
   their absence), parentheses, `*`, `?`, Roman numerals, superscripts,
@@ -132,6 +135,8 @@ search hit, or derive a slug from it.
 | **Q00752** (X1/X3) | Split headword, adjudicated by Brian against the print: `פִּ` + `י` + `סְחָא` join byte-exactly to `פִּיסְחָא`, and the gloss already carries `v. פִּסְחָא`. No print spelling needed. |
 | **Prefix and ending entries** (X5, 144 rows) | Legitimate entries, not defects: Jastrow gives a prefix its own entry ending in a maqaf (`אִ־` → slug `א-7`, `אַב־` → `אב-1`; 115 headwords, 27 alternates) and an ending its own entry beginning with a bare vowel (`ַיי`, `ַיְידָא`). **Slugs:** `slugStem` strips the maqaf, so a prefix shares its letter's slug family — accepted (Brian, 2026-09-20). **Search:** a prefix entry MUST be findable, so the search path strips the maqaf the same way the slug does; the two ending entries need no searchability. The maqaf and the leading vowel stay in `text`, which is what print sets. |
 | **Abbreviated alternates** (X6, 2,240 rows / 2,038 entries) | Identical to the phrase case: kept as printed, marked `partial`, never a lookup key; expansion is print work ([#107](https://github.com/UniquePixels/jastrow/issues/107)). With H6's ~234 this is ~2,474 abbreviated alternates, 20.2% of all 11,080 — and in **1,393 entries every** alternate is abbreviated, so those entries have no alternate search key until the print work is done. This is the population the 2026-08-22 ruling already routed to judgment. |
+| **Acronyms and numeral letters** (X7, 99 rows) | Legitimate entries, fully searchable, notation kept in `text` AND in the slug because it is part of the word: 78 gershayim acronyms (`א"ל` *Albam*, `שעטנְז` ) and 21 letters used as numerals (`א׳` — *"as numeral letter, one"*). |
+| **Truncated headwords** (X7, 34 rows) | The entry's only name is an abbreviation (`אנטג׳`, gloss `v. אנטי׳`) — the `abbrev-headword-stub` population of the 2026-08-22 ruling. They stay **lookup keys as printed**, NOT `partial`: only 6 of the 34 have an unabbreviated alternate, so marking them partial would leave 28 entries unfindable. A reader seeing `אנטג׳` in the print must be able to find it. Expansion is print work, with [#107](https://github.com/UniquePixels/jastrow/issues/107). |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 4.1 Fixes queued as patches
