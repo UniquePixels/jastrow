@@ -4,6 +4,7 @@
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
+import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { actionOf, RETIRING_KINDS } from './publication.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
 
@@ -28,14 +29,24 @@ const SECTIONS: ReadonlyArray<readonly [Publication, string]> = [
  * cites that ruling would put words in the maintainer's mouth, so it
  * waits for its route. `status: candidate` excludes rows already
  * resolved. The counts are the catalogue's own `corpusCount`, measured
- * when the class was catalogued, not by this run. */
-function undetectedClasses(rows: readonly Pattern[]): Pattern[] {
+ * when the class was catalogued, not by this run.
+ *
+ * A class whose id is a REGISTERED DETECTOR KIND leaves the list the
+ * moment that detector ships: the run then emits rows of its own,
+ * which are counted and triaged in the sections above, and listing it
+ * here as well would double-count it. `detected` is a parameter only
+ * so a test can hand in a set of its own; the run takes the default. */
+function undetectedClasses(
+	rows: readonly Pattern[],
+	detected: ReadonlySet<string> = DETECTED_CLASSES,
+): Pattern[] {
 	return rows
 		.filter(
 			(r) =>
 				r.blocking === true &&
 				(r.route === 'judgment' || r.route === 'blocked') &&
-				r.status === 'candidate',
+				r.status === 'candidate' &&
+				!detected.has(r.id),
 		)
 		.toSorted(
 			(a, b) => b.corpusCount - a.corpusCount || a.id.localeCompare(b.id, 'en'),
@@ -47,8 +58,12 @@ function undetectedClasses(rows: readonly Pattern[]): Pattern[] {
  * from the catalogue rather than counted with the run's rows. */
 async function loadUndetectedClasses(
 	path: string = PATTERNS_PATH,
+	detected: ReadonlySet<string> = DETECTED_CLASSES,
 ): Promise<Pattern[]> {
-	return undetectedClasses(parsePatterns(await Bun.file(path).text()));
+	return undetectedClasses(
+		parsePatterns(await Bun.file(path).text()),
+		detected,
+	);
 }
 
 /** One section: a `###` block per kind, kinds alphabetical, the kind's
@@ -90,11 +105,11 @@ function cataloguedSection(classes: readonly Pattern[]): string[] {
 	return [
 		`## ${CATALOGUED_TITLE} (${classes.length} classes, ${entries} entries)`,
 		'',
-		'No detector for these classes runs on the import path, so they produce no rows above and are counted in neither `blocks` nor `defer`. Counts are the catalogue\'s own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Detectors are pending — consolidation spec §10, "port judgment-class detectors".',
+		'No detector on the import path can see a class listed here, so it produces no rows above and is counted in neither `blocks` nor `defer`. Counts are the catalogue\'s own `corpusCount` in `data/patches/patterns.jsonl`, measured when the class was catalogued, not by this run. Porting what is left is consolidation spec §10, "port judgment-class detectors"; an empty list means every catalogued blocking class is now a kind above.',
 		'',
 		'They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.',
 		'',
-		'**What to do:** write the detector, then let the rows it emits be triaged here like any other kind.',
+		'**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
 		'',
 		...(classes.length === 0
 			? ['_none_']
@@ -153,6 +168,7 @@ function renderReviewReport(
 
 export {
 	loadUndetectedClasses,
+	PATTERNS_PATH,
 	REVIEW_REPORT_PATH,
 	renderReviewReport,
 	undetectedClasses,
