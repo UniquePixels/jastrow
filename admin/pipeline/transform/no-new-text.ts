@@ -2,13 +2,13 @@
  * Transform-tier no-new-text gate (spec §5, §5.1).
  *
  * Three layers. Markup is free to change — that is what most of the
- * 80 rules do — and is checked separately, for a well-formedness
- * DELTA rather than for well-formedness, by `markup.ts`. TEXT, with
- * tags stripped, must be a sub-multiset of the input's text, unless
- * the rule declares an `allows` list. A per-call COPY of text from
- * elsewhere in the same entry is checked against that entry's own
- * input rather than a static allowance (§5.1) — see
- * `checkNoNewText`'s `copied` parameter.
+ * 55 registered rules do — and is checked separately, for a
+ * well-formedness DELTA rather than for well-formedness, by
+ * `markup.ts`. TEXT, with tags stripped, must be a sub-multiset of
+ * the input's text, unless the rule declares an `allows` list. A
+ * per-call COPY of text from elsewhere in the same entry is checked
+ * against that entry's own input rather than a static allowance
+ * (§5.1) — see `checkNoNewText`'s `copied` parameter.
  *
  * The patch-tier validator (`admin/pipeline/patch/no-new-text.ts`)
  * cannot be reused here: its `flattenContent`
@@ -144,7 +144,14 @@ function textOf(entry: SourceEntry): string {
 
 /** Codepoint → count. Skips `FIELD_SEP` — it marks a seam `textOf`
  * introduced between fields, not a corpus byte, so it must never
- * enter a sub-multiset comparison as a phantom codepoint. */
+ * enter a sub-multiset comparison as a phantom codepoint.
+ *
+ * `no-lost-text.ts` imports THIS one rather than keeping its own. It
+ * kept a copy that counted `FIELD_SEP` despite a docstring claiming
+ * otherwise, so a structural rule that dropped an empty field was
+ * refused for losing a separator this module had introduced. One
+ * definition means the two gates cannot disagree about what a
+ * codepoint is again. */
 function multiset(text: string): Map<string, number> {
 	const counts = new Map<string, number>();
 	for (const ch of text) {
@@ -204,4 +211,4 @@ function checkNoNewText(
 	return problems;
 }
 
-export { checkNoNewText, fieldsOf, stripTags, textOf };
+export { checkNoNewText, fieldsOf, multiset, stripTags, textOf };

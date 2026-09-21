@@ -527,6 +527,22 @@ const genderPairAltDuplicate: Rule = {
 		if (kept.length === items.length) {
 			return { entry, records: [] };
 		}
+		// What the filter dropped, in the order it dropped it. The
+		// no-lost-text gate runs for this phase too (2026-09-21) and the
+		// dropped bytes are a whole alt-headword — per-ENTRY text, which
+		// a static allowance would have had to cover by naming most of
+		// the Hebrew alphabet. `removes` is the per-call declaration for
+		// exactly this: each string is verified to occur in the input
+		// before it is credited, and the duplicate this rule drops is by
+		// definition still there as the item that was kept.
+		const dropped: string[] = [];
+		const held = new Set<string>();
+		for (const item of items) {
+			if (held.has(item)) {
+				dropped.push(item);
+			}
+			held.add(item);
+		}
 		return {
 			entry: { ...entry, alt_headwords: kept },
 			records: [
@@ -536,6 +552,7 @@ const genderPairAltDuplicate: Rule = {
 					ruleId: 'gender-pair-headword-line-collapse',
 				},
 			],
+			removes: dropped,
 		};
 	},
 	id: 'gender-pair-headword-line-collapse',

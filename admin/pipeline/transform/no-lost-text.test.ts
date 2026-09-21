@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
-import { checkNoLostText } from './no-lost-text.ts';
+import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';
+import { RULES } from './registry.ts';
 
 /** A minimal entry carrying only the senses under test. The gate
  * walks every field `fieldsOf` reaches, so the headword is real text
@@ -89,5 +90,56 @@ describe('checkNoLostText', () => {
 		const before = one('x');
 		const after = { ...before, headword: '' };
 		expect(checkNoLostText(before, after).length).toBeGreaterThan(0);
+	});
+
+	// The separator `textOf` joins fields with is this module's own
+	// seam, not a corpus byte. A structural rule that drops an empty
+	// sense removes one field and so one seam; while this gate counted
+	// its own local multiset, that showed up as a lost U+0000 and the
+	// rule was refused for text nothing in the source ever held.
+	it('does not count the field separator it introduced itself', () => {
+		const before = entry([{ definition: 'a' }, {}]);
+		const after = entry([{ definition: 'a' }]);
+		expect(checkNoLostText(before, after)).toEqual([]);
+	});
+
+	// `allowsLoss` mirrors `Rule.allows` on the other gate: a static,
+	// codepoint-flattened maintainer ruling, credited without limit.
+	it('credits an `allowsLoss` codepoint', () => {
+		expect(checkNoLostText(one('a b c'), one('abc'), [], [' '])).toEqual([]);
+	});
+
+	it('credits `allowsLoss` only for the codepoints it names', () => {
+		const problems = checkNoLostText(one('a b'), one('a'), [], [' ']);
+		expect(problems).toEqual(['T00001: dropped "b" (U+0062)']);
+	});
+});
+
+// `run.ts` looks the allowance up by a plain `LOSS_ALLOWANCES.get(rule.id)`,
+// so a rule rename drops its allowance silently — and because per-PR CI
+// never reads `data/source/` (spec R9), the only witness would be a full
+// `bun data:import`. These two assertions put that witness in the 2 s tier.
+describe('LOSS_ALLOWANCES', () => {
+	it('names only rules that are registered', () => {
+		const ids = new Set(RULES.map((r) => r.id));
+		const unknown = [...LOSS_ALLOWANCES.keys()].filter((id) => !ids.has(id));
+		expect(unknown).toEqual([]);
+	});
+
+	// A `structural-repairs` rule declares what it drops per call through
+	// `removes`. A static row for one would be a blanket licence granted
+	// where an exact declaration is already available.
+	it('covers text-phase rules only', () => {
+		const byId = new Map(RULES.map((r) => [r.id, r]));
+		const misphased = [...LOSS_ALLOWANCES.keys()].filter(
+			(id) => byId.get(id)?.phase !== 'text-repairs',
+		);
+		expect(misphased).toEqual([]);
+	});
+
+	it('allows no empty row, which would license nothing and read as cover', () => {
+		for (const [id, chars] of LOSS_ALLOWANCES) {
+			expect(`${id}: ${chars.length}`).not.toBe(`${id}: 0`);
+		}
 	});
 });

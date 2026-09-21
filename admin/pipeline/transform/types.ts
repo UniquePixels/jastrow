@@ -337,12 +337,16 @@ interface TransformResult {
 	 * period — and a static list would license that codepoint anywhere
 	 * in the rule's diff, over every entry it touches.
 	 *
-	 * Only `structural-repairs` rules are gated on it today (spec
-	 * §2.3): 10 of the 39 rules already in `RULES` delete text, 4,504
-	 * codepoints between them, and a global gate would mean retrofitting
-	 * ten declarations in the PR that introduced the gate. Those ten are
-	 * pinned at their measured counts instead. A `text-repairs` rule may
-	 * still declare `removes`; nothing reads it there. */
+	 * EVERY phase is gated on it since 2026-09-21 (spec §2.3 carries
+	 * the original `structural-repairs` scoping and why it was closed).
+	 * A `text-repairs` rule that drops a codepoint must therefore
+	 * account for it, here or through a `LOSS_ALLOWANCES` row in
+	 * `no-lost-text.ts` — declare it here when what goes is per-ENTRY,
+	 * there when it is a fact about the rule. Four `text-repairs` rules
+	 * already depend on this being read in their phase; omitting it
+	 * fails `bun data:import`, which per-PR CI does not run, so the
+	 * declaration is the rule author's job rather than a gate's
+	 * afterthought. */
 	removes?: readonly string[];
 	/** Opening tags this call repaired by DELETING a run that never
 	 * belonged inside them (link-target gate case 6, spec

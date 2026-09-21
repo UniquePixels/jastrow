@@ -446,10 +446,10 @@ const RULES: readonly Rule[] = [
 	// `text-repairs` pass. They are last here so the list reads in
 	// execution order.
 	//
-	// `stemHeadMarkerChop` is also the only rule in this registry the
-	// loss gate judges (`no-lost-text.ts`), because gating is
-	// phase-scoped; the 13 `text-repairs` rules that delete text are
-	// pinned by count instead.
+	// The loss gate (`no-lost-text.ts`) judges every rule in this
+	// registry. It judged this one alone while gating was phase-scoped;
+	// the `text-repairs` rules that delete text were pinned by count
+	// then, and `LOSS_ALLOWANCES` carries that pinning now.
 	stemHeadMarkerChop,
 	// It does not meet `stemHeadMarkerChop`, and that is a MEASUREMENT
 	// rather than a property of the predicates: chop needs a sense with
