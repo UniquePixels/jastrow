@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * `bun patch:replay` — the dry, read-only replay of the committed
- * patch corpus (research-process plan Task 4; spec
+ * patch corpus (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
  * It lives beside `apply.ts` rather than inside it because it composes
@@ -13,8 +13,8 @@
  * entry: the accepted/carry-over corpus split, then `composeEntry`.
  * The one deliberate difference is the escalation policy —
  * `escalations: 'block'` here, because unresolved `needs_*` rows are
- * the research track's contract (Ruling D), while migration defers
- * them (spec §8). Until those escalations are resolved, preflight
+ * the research track's contract, while migration defers them (spec
+ * §8). Until those escalations are resolved, preflight
  * stops the run before the entry walk begins.
  */
 import process from 'node:process';
@@ -34,8 +34,8 @@ import { replayGate } from './manifest.ts';
 import { computeSnapshot } from './snapshot.ts';
 
 if (import.meta.main) {
-	// The same corpus split `migrate.ts` runs on (Ruling F): accepted
-	// healed-stage patches, plus the pre-patch rows no accepted patch
+	// The same corpus split `migrate.ts` runs on: accepted healed-stage
+	// patches, plus the pre-patch rows no accepted patch
 	// already supersedes. The flat every-stage corpus would instead
 	// judge a pre-patch anchor against the healed entry, where it
 	// legitimately no longer resolves — `applyCarryOver` calls that
@@ -62,11 +62,11 @@ if (import.meta.main) {
 		{ escalations: 'defer', reconcileOnly: corpus.patches },
 	);
 	problems.push(...reviewedManifestProblems(reviewedCorpus));
-	// The replay gate is the research track's contract (Ruling D), and
-	// it answers for the whole corpus, not the migrated slice. Running
-	// it on `corpus.records` would drop every escalation recorded in a
-	// pre-patch manifest — 130 rids of 617, measured 2026-09-10 — even
-	// though this run still applies 66 pre-patch rows as carry-over.
+	// The replay gate is the research track's contract, and it answers
+	// for the whole corpus, not the migrated slice. Running it on
+	// `corpus.records` would drop every escalation recorded in a
+	// pre-patch manifest — 130 rids of 617 — even though this run still
+	// applies 66 pre-patch rows as carry-over.
 	for (const problem of replayGate([
 		...(await loadManifest()),
 		...reviewedCorpus.records,
@@ -110,12 +110,11 @@ if (import.meta.main) {
 				absorbed += result.carryOver.absorbed.length;
 				carried += result.carryOver.carried.length;
 			} catch (error) {
-				// `composeEntry` throws `TransformFailure` for a tripped
-				// transform gate. `applyRepairs` no longer holds rid-keyed
-				// find-text assertions (those moved to reviewed patches in
-				// consolidation step 8, spec §4.1) and does not throw, so
-				// the `'repair'` label below is dead code today; kept as the
-				// fallback in case a future `applyRepairs` pass throws.
+				// `'repair'` is the fallback label for anything that is not a
+				// `TransformFailure`. `applyRepairs` holds no rid-keyed
+				// find-text assertions and does not throw, so the branch is
+				// unreachable today — a `repair:` line means something else in
+				// the compose path threw.
 				problems.push({
 					reason: `${error instanceof TransformFailure ? 'transform' : 'repair'}: ${error instanceof Error ? error.message : String(error)}`,
 					rid: source.rid,

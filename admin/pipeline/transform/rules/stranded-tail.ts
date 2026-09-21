@@ -1,5 +1,5 @@
 /**
- * The stranded-tail pair (batch-4 task 4): two catalogue rows in which
+ * The stranded-tail pair : two catalogue rows in which
  * a citation's own tail printed OUTSIDE the anchor that should carry
  * it — `</a><sup>N</sup>` and `<a>…N</a>M` — both members of the
  * "outside-the-anchor blindness family" `citation-number-truncated-
@@ -27,8 +27,7 @@
  * this; a corpus check ASSERTED it against a fresh walk rather than
  * assuming it, because a claim the row makes about the corpus is
  * exactly the kind of claim this batch exists to test, not inherit.
- * That check is retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`). The predicate itself carries
+ * That check is retired. The predicate itself carries
  * no letter check —
  * confinement is a fact this rule's population happens to have, not a
  * condition it enforces, so a future corpus edit that broke the
@@ -56,22 +55,17 @@
  * inside the anchor, and any remainder stays outside exactly where it
  * was, now immediately after the anchor's `</a>`.
  *
- * **Correction (fix round 1):** an earlier draft of this paragraph
- * claimed "11 of 14 occurrences have [a remainder] — more text
- * follows the stranded digits". Measured over all 14: **14 of 14 carry
- * a non-empty remainder**, not 11 — there is no empty-remainder
- * minority in this corpus. The `remainder.length > 0 ? […] : []` arm
- * in `digitMoveAt` below is therefore DEFENSIVE, not a documented
- * corpus case: it is exercised only by this file's synthetic fixture
- * (`ib. …2</a>8` with nothing after the `8`), never by a real
- * occurrence, and should be read that way rather than as evidence of a
- * 3-occurrence slice that does not exist.
+ * **14 of 14 occurrences carry a non-empty remainder**, so the
+ * `remainder.length > 0 ? […] : []` arm in `digitMoveAt` below is
+ * DEFENSIVE rather than a documented corpus case: it is exercised
+ * only by this file's synthetic fixture (`ib. …2</a>8` with nothing
+ * after the `8`), never by a real occurrence.
  *
  * **It declines a sense marker.** A stranded run closed by `)` —
  * `</a>2)` — is Jastrow's printed sense number and not a citation
  * tail, and moving it inside would write a citation the source never
- * printed. Added at registration (batch 4 task 7) against a live case
- * the composed pipeline manufactures and this rule alone never sees:
+ * printed. The refusal guards a live case the composed pipeline
+ * manufactures and this rule alone never sees:
  * `digitMoveAt`'s own docstring carries the entry, the census that
  * says the refusal costs nothing on the 14, and the fail-closed
  * trade-off it accepts.
@@ -90,7 +84,7 @@
  * **Deliberately leaves `data-ref` reading the truncated number.** The
  * correctly-resolved address is a Sefaria lookup on the REPAIRED
  * display text, and inferring that lookup result is not this rule's
- * job — Sefaria resolution is a compile-time concern (Task 6's), not a
+ * job — Sefaria resolution is a compile-time concern ), not a
  * transform's, and a transform rule that guessed a `data-ref` would be
  * inventing a target from nothing in the input. What this rule writes
  * is the one thing print actually supplies: the full display text, the
@@ -129,9 +123,8 @@
  * rows are stated in. Stated at the ENTRY level instead (the unit
  * `corpusCount` uses), the superscript row's 160 entries split 140
  * with 1 occurrence, 18 with 2, and 2 with 3 — 140 + 36 + 6 = 182,
- * matching the occurrence total above. (Corrected in fix round 1: an
- * earlier draft named "14 corpus entries" here, which mixed the
- * definition-level and entry-level counts under one unit.)
+ * matching the occurrence total above. Quote the unit with the
+ * figure: definition-level and entry-level counts differ here.
  */
 import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import type { Token } from '../html.ts';
@@ -195,19 +188,18 @@ function superscriptMoveAt(
  * inside the anchor and any remainder of that text token left in place
  * immediately after it, or `undefined` when the shape does not match.
  *
- * ## THE SENSE-MARKER REFUSAL, added at registration (batch 4 task 7)
+ * ## THE SENSE-MARKER REFUSAL
  *
  * A digit run closed by `)` — `</a>2)` — is declined. It is Jastrow's
  * printed SENSE NUMBER, not the tail of the citation before it, and
  * swallowing it writes a citation the source never printed.
  *
- * This was not a hypothetical. The rule measures 14 occurrences on the
- * pinned snapshot, and the migration used to compose it AFTER
- * `applyRepairs`, whose `rejoin-chopped` pass folded a phantom `2)`
- * back into the preceding flow (since consolidation step 8 that rejoin
- * is a reviewed `join` patch applied after the rules, so the shape no
- * longer reaches this rule; the refusal stays as a guard) — and in
- * S01040 it landed immediately behind
+ * This is not a hypothetical. The rule measures 14 occurrences on the
+ * pinned snapshot, and composing it after `applyRepairs` lets that
+ * pass's `rejoin-chopped` arm fold a phantom `2)` back into the
+ * preceding flow. The rejoin is now a reviewed `join` patch applied
+ * AFTER the rules, so the shape cannot reach here and the refusal is
+ * a guard — but in S01040 the phantom landed immediately behind
  * `<a … data-ref="Genesis 4:2">Gen. IV, 2</a>`. Without this refusal
  * the pipeline (never `bun transform:count`, which runs every rule
  * alone against the raw snapshot) produced

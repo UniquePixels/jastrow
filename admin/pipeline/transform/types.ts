@@ -9,7 +9,7 @@
 import type { SourceEntry } from '../body/types.ts';
 
 /** The two committed manifest phases a rule may run in
- * (`admin/pipeline/patch/apply.ts:55`). */
+ * (`PHASE_MANIFEST` in `admin/pipeline/patch/apply.ts`). */
 type TransformPhase = 'structural-repairs' | 'text-repairs';
 
 /** One instance a rule changed, for the migration report. */
@@ -69,11 +69,10 @@ interface TransformResult {
 	 * one thing case 4 cannot ask: the halakha reaches the primary only
 	 * because the variant PRINTS it as well as addressing it.
 	 *
-	 * The witness became a named anchor on 2026-08-27. Until then the
-	 * claim carried no anchor identity and the gate accepted the digits
-	 * from ANY input anchor carrying `from`, so an entry citing one
-	 * address twice could have its mint corroborated by the sibling the
-	 * rule never read.
+	 * The witness must be a NAMED anchor. Without an anchor identity
+	 * the gate accepts the digits from ANY input anchor carrying
+	 * `from`, so an entry citing one address twice can have its mint
+	 * corroborated by the sibling the rule never read.
 	 *
 	 * Declared, matched to anchors (`target === anchor.dataRef`) and
 	 * reported exactly like `composed` and `recombined`, ANY-claim like
@@ -206,10 +205,9 @@ interface TransformResult {
 	 * requirement takes the add arm's residue to **zero** from 2.
 	 *
 	 * **NOTHING HERE CHECKS THAT THE REPAIR IS RIGHT.** The gate
-	 * verifies the CLASS of edit against this entry's own input; whether
-	 * the repaired address resolves, and whether repairing it merges two
-	 * entries, was checked by corpus checks retired in consolidation
-	 * step 5 (`docs/v2/retired-corpus-checks.md`). Neither half is
+	 * verifies the CLASS of edit against this entry's own input.
+	 * Whether the repaired address resolves, and whether repairing it
+	 * merges two entries, needs a corpus check. Neither half is
 	 * sufficient alone — the same split case 8 states, and
 	 * [[feedback_vacuous_gates]] is about mistaking one for both. */
 	/** Anchors this call MINTED around a bare anaphor, targeted by
@@ -223,15 +221,15 @@ interface TransformResult {
 	 *
 	 * **THIS IS THE ONLY CASE THAT LETS THE ANCHOR COUNT GROW.** Every
 	 * other case judges a target a rule WROTE onto an anchor the entry
-	 * already had; the spec's second counting invariant — "anchors never
-	 * grow" — refused this shape outright, and it encoded batch 2's
-	 * scope ruling (`2026-08-22-link-transform-design.md` §1, *batch 2
-	 * is retarget only*) rather than a safety property. Ruled in by
-	 * Brian on 2026-09-06, on the precedent that the 2026-08-05 body
-	 * review approved wrapping unlinked ibid citations
-	 * (`docs/archive/body-review/02-orphan-refs.md` class 2, "ALL Approved")
-	 * — the "show only what Jastrow linked" principle was written in
-	 * that review's class 3, about refs with no in-body basis.
+	 * already had. The spec's second counting invariant — "anchors
+	 * never grow" — refused this shape outright, but it encoded a scope
+	 * ruling (`2026-08-22-link-transform-design.md` §1, *retarget
+	 * only*) rather than a safety property, and it is lifted for this
+	 * case alone. The precedent is the body review's approval of
+	 * wrapping unlinked ibid citations
+	 * (`docs/archive/body-review/02-orphan-refs.md` class 2); the "show
+	 * only what Jastrow linked" principle belongs to that review's
+	 * class 3, about refs with no in-body basis.
 	 *
 	 * `link-target.ts` accepts a claim only when all five hold:
 	 *
@@ -284,8 +282,8 @@ interface TransformResult {
 	}[];
 	pointed?: readonly { adds?: string; from: string; target: string }[];
 	/** Link targets this call REBUILT from two other targets in this
-	 * entry's input (batch-2 link spec §3.2 case 4, ruling of
-	 * 2026-08-23). `head` supplies a leading run of the written
+	 * entry's input (batch-2 link spec §3.2 case 4). `head` supplies a
+	 * leading run of the written
 	 * `target` and `tail` supplies the rest: `link-target.ts` accepts
 	 * it only if some split of `target` makes the first part a PREFIX
 	 * of `head` and the second part a SUFFIX of `tail`, with both
@@ -295,13 +293,13 @@ interface TransformResult {
 	 * the entry already held, and both `head` and `tail` must be in
 	 * that input.
 	 *
-	 * Two further constraints, added 2026-08-24 after four probes
-	 * against the first cut all came back clean. **The part of `tail`
-	 * the split discards must itself be a prefix of `head`** — the two
-	 * spellings of one address differ only in a short leading run of
-	 * the tail (an href's `/`), so honest claims keep clearing it
-	 * while truncating or extending the head's own locus no longer
-	 * does. And **`head` and `tail` must differ**: a string is
+	 * Two further constraints, each closing a probe the first cut
+	 * passed. **The part of `tail` the split discards must itself be a
+	 * prefix of `head`** — the two spellings of one address differ only
+	 * in a short leading run of the tail (an href's `/`), so honest
+	 * claims keep clearing it while truncating or extending the head's
+	 * own locus does not. And **`head` and `tail` must differ**: a
+	 * string is
 	 * trivially its own prefix, so one source could otherwise extend
 	 * itself, and §3.2's "a suffix of ANOTHER" says two. Distinctness
 	 * is enforced per PAIR, not only on the declared strings: on the
@@ -359,10 +357,10 @@ interface TransformResult {
 	 * the repair happened in, verbatim, and `offset` is where in it the
 	 * recovered run begins. The gate requires the run to sit exactly
 	 * there, and requires `field` to be the input counterpart of the
-	 * field the repaired anchor came out of. Added 2026-08-27: without
-	 * it a run recovered from the headword licensed a repair made in a
-	 * definition, since "some field of this entry" was the whole of the
-	 * test.
+	 * field the repaired anchor came out of. Without that, a run
+	 * recovered from the headword licenses a repair made in a
+	 * definition, since "some field of this entry" is the whole of the
+	 * rest of the test.
 	 *
 	 * Stated on RAW FIELD BYTES rather than on parsed targets, and one
 	 * level further out than case 5's raw tag bytes. Case 5 compares
@@ -448,9 +446,8 @@ interface TransformResult {
 	 * **NOTHING HERE CHECKS THAT THE HEADWORD EXISTS.** `link-target.ts`
 	 * is entry-local by construction; it verifies the target's SHAPE
 	 * against this entry's own headword and display, not the corpus.
-	 * Existence was checked by a corpus check, retired in consolidation
-	 * step 5 (`docs/v2/retired-corpus-checks.md`), which re-derived the
-	 * rule's frozen table from the live snapshot. Neither half is
+	 * Existence needs a corpus check that re-derives the rule's frozen
+	 * table from the live snapshot. Neither half is
 	 * sufficient alone, and a reader who takes the gate's silence about
 	 * existence for a guarantee has the wrong model — see
 	 * [[feedback_vacuous_gates]]. */
@@ -478,7 +475,7 @@ interface Rule {
 	 * when it doesn't match). An in-place mutator breaks two things
 	 * silently, both load-bearing on this contract:
 	 *
-	 * - `run.ts` aliases the input as `const before = entry` (`run.ts:30`)
+	 * - `applyTransforms` aliases the input as `const before = entry`
 	 *   and then hands both `before` and `result.entry` to the gates.
 	 *   The gates compare VALUES — `checkNoNewText` compares text
 	 *   multisets, `checkMarkup` compares markup damage — and perform no

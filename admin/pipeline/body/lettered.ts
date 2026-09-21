@@ -1,15 +1,14 @@
 /**
- * Lettered-item splitter (design doc §3, entry-body-model plan Task 8).
- * Splits ONLY complete ascending a)…b)…c)… runs whose markers sit
- * outside parens/anchors; everything else returns null and the text
- * stays whole — the deliberate under-split failure mode (decision
- * B5/B9): an unsplit block is still readable, a wrongly split one is
- * not. Runs before unit segmentation in the dry-run composition
- * (design §3). `census.ts` carries a separate boolean detector for
- * corpus-wide sizing (`letteredRun`), archived at
- * `refs/tags/archive/v2-research-2026-09` — this module is the
- * authoritative structural rule and may disagree with it on edge
- * cases.
+ * Lettered-item splitter (design doc §3). Splits ONLY complete
+ * ascending a)…b)…c)… runs whose markers sit outside parens and
+ * anchors; everything else returns null and the text stays whole.
+ *
+ * That is the deliberate under-split failure mode (decision B5/B9):
+ * an unsplit block is still readable, a wrongly split one is not.
+ * This module is the authoritative structural rule. A boolean
+ * detector written for corpus-wide sizing (`letteredRun`, in the
+ * archived census at `refs/tags/archive/v2-research-2026-09`) may
+ * disagree with it on edge cases, and loses.
  */
 
 interface LetteredItem {
@@ -29,7 +28,7 @@ interface LetteredParts {
 // Shares census.ts's LETTERED caveat: the lookbehind excludes a
 // preceding '(' or letter but not a digit, so a folio-style "39a)"
 // could in principle be read as marker "a)". Four marker shapes, tried
-// in this order at each position (Task 15, §6.0 review decision 07):
+// in this order at each position (§6.0 review decision 07):
 //   <i>a</i>)  — the whole italic pair is the marker (75-entry class);
 //   <i>a)      — span-start laziness: the source opened one italic span
 //                across marker AND item text (Q01198's `<i>a) for
@@ -40,7 +39,7 @@ interface LetteredParts {
 //                span (Q01353's `<i>section, a</i>)` for `<i>section,
 //                </i><i>a</i>)`); the marker claims `a</i>)` and the
 //                split closes the preceding segment with `</i>`.
-//                Corpus-measured (2026-08-05): requiring `.`/`,`/`;` +
+//                Corpus-measured: requiring `.`/`,`/`;` +
 //                space before the letter keeps all 6 genuine markers of
 //                this shape and excludes all 15 possessive/
 //                parenthetical false positives (`(<i>camel’s</i>)`,

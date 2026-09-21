@@ -1,5 +1,5 @@
 /**
- * The headword-field family — Phase 2 batch 5 (spec
+ * The headword-field family (spec
  * `docs/specs/2026-08-27-headword-field-integrity-design.md`).
  *
  * **THE FIRST BATCH WHOSE OBJECT IS A FIELD RATHER THAN MARKUP.** Every
@@ -11,7 +11,7 @@
  * and is stated here rather than left to be discovered.
  *
  * The rules live in ONE module because they share an OBJECT, not a
- * mechanism. Batch 4 split its rules across four modules because the
+ * mechanism. The anchor-boundary rules split across four modules because the
  * mechanism determined which gate could see the change; here one gate
  * sees everything, and four modules would be four docstrings repeating
  * one context.
@@ -56,7 +56,7 @@ function strip(item: string): string {
  *   nor a spelling of anything. Repairing it means re-splitting, which
  *   is a different operation.
  *
- * A rule that quietly widened to cover these would be batch 3b's
+ * A rule that quietly widened to cover these would be the
  * failure mode — a rule claiming a population nothing gave it. The
  * corpus test asserts that this predicate selects exactly `A01480` and
  * `A01394` and no others.
@@ -129,13 +129,12 @@ function overAltHeadwords(
  * that are inside the parentheses too. Only 28 are genuinely orphaned.
  * All of it was pinned in `headword-census.ts`, archived at
  * `refs/tags/archive/v2-research-2026-09` (consolidation spec §8); it was
- * asserted by a corpus check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`).
+ * asserted by a retired corpus check.
  *
- * **RULING (Brian, 2026-08-27): strip the delimiters, add no new
- * form-object mark.** *Reversed in intent 2026-09-20 —
- * `docs/v2/headword-design.md` §4 keeps the grouping as structure in
- * `display`; this rule still runs as written until that lands.*
+ * **RULING: strip the delimiters, add no new form-object mark.** *Reversed
+ * in intent 2026-09-20 — `docs/v2/headword-design.md` §4 keeps the
+ * grouping as structure in `display`; this rule still runs as written
+ * until that lands.*
  *
  * The parens are print's grouping punctuation around a run of variant
  * readings, not part of any lemma, and `altHeadwords` survives into v2
@@ -246,10 +245,10 @@ function leadingMarks(text: string): string {
  * return `undefined` to refuse.
  *
  * **WHAT THIS INFERS, WHICH IS THE ONLY QUESTION THAT MATTERS HERE.**
- * Brian's ruling of 2026-08-22 killed `abbrev-in-alt-headwords`'s
- * already-written rule because expansion there *"assumes the headword's
- * remaining vowels are the variant's"* — a variant spelling exists
- * BECAUSE it differs, so the transfer is untestable. That ruling names
+ * `abbrev-in-alt-headwords` was killed because expansion there
+ * assumes *"the headword's remaining vowels are the variant's"* — a
+ * variant spelling exists BECAUSE it differs, so the transfer is
+ * untestable. The same ruling names
  * this row as *"probably survives — substitutes a whole headword token,
  * no vowel inference"*, and the distinction is real: these stubs are
  * not variant spellings OF the headword, they are the headword itself
@@ -327,12 +326,12 @@ function expandStub(
  * entries / 419 occurrences, and the 175 extra are single-word stubs
  * carrying a homograph numeral (`'אֲמוּ׳ II'`) that belong to the
  * parent's job 1, for which no deterministic expansion exists. A rule
- * that expanded those would be inventing spellings. Pinned by a corpus
- * check, retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`), in the shape of the mistake.
+ * that expanded those would be inventing spellings. A corpus check
+ * pinned the shape of the mistake; it is retired
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * **THE REGISTRY'S FIRST `copied` USER.** This is the only rule in
- * batch 5 that adds text, and `types.ts` names this exact case on
+ * this family that adds text, and `types.ts` names this exact case on
  * `allows`: *"A copy of existing per-entry text (the tail of a headword
  * recovered into an alt-headword, say) cannot be expressed here — the
  * copied bytes differ per entry, not per rule. Declare those through
@@ -414,8 +413,7 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * P00132 anchor  data-ref="Jastrow, עָ׳ עַדְיָא 1"       → P00137
  * ```
  *
- * Found by a corpus check (retired in consolidation step 5,
- * `docs/v2/retired-corpus-checks.md`), whose absolute pin fell from
+ * Found by a corpus check (retired), whose absolute pin fell from
  * 71,385 to 71,383 while its DIFFERENTIAL assertion — "gains 90, loses
  * none" — stayed green, because the rule sits on both sides of that
  * comparison. The differential could not see it; the absolute pin
@@ -424,26 +422,26 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * A dead link is worse for a reader than an awkward headword, so these
  * two are declined. The full repair is a headword rewrite AND a retarget
  * of the pointing anchor, which crosses into `link-target.ts` territory
- * — and gate work is its own PR here, Brian's ruling of 2026-08-26.
- * Carried as an open item.
+ * and gate work is its own PR here. Carried as an open item.
  *
  * `LINKED_HEADWORDS` is an enumerated exception and therefore MUST BE
- * LOUD ON DRIFT (`rules/unlink.ts`'s `unobservedConvention`, the ruling
- * of 2026-08-23). A corpus test asserted it equalled EXACTLY the fused
+ * LOUD ON DRIFT, on the same loud-on-drift ruling `rules/unlink.ts`'s
+ * `unobservedConvention` carries. A corpus test asserted it equalled
+ * EXACTLY the fused
  * headwords some anchor targets, so a re-fetch that added or removed a
  * pointing anchor would have failed a test rather than silently
  * changing what shipped. It no longer runs; on a new export this is a
  * review-detector candidate (consolidation spec §10), listed in
  * `docs/v2/retired-corpus-checks.md`.
  *
- * **FORWARD HAZARD, and it compounds one batch 3a already recorded:**
+ * **FORWARD HAZARD, and it compounds one the gershayim work recorded:**
  * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain
- * and compares against `headword` AS A STRING. Batch 3a left 68
+ * and compares against `headword` AS A STRING. The gershayim work left 68
  * entries diverging that way; this rule rewrites 4 more headwords and
  * leaves every neighbour's pointer untouched. Whoever writes
  * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
  * exact divergence count was asserted by a corpus check retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+ * a retired corpus check.
  */
 const abbrevFusedHeadword: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {

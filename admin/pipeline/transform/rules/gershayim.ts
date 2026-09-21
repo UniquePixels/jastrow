@@ -11,7 +11,7 @@
  *
  * ## Why `allows: ['״']` is safe, argued by construction
  *
- * It is a maintainer ruling, under the OCR ruling of 2026-08-11 that
+ * It is a maintainer ruling, under the OCR ruling that
  * `no-new-text.ts` already cites: a mis-recognized glyph never was the
  * source's content, so correcting it is correction, not composition.
  *
@@ -187,7 +187,7 @@ function recordFor(
  */
 function build(id: string, repair: Repair, declare: boolean): Rule {
 	return {
-		// The OCR ruling of 2026-08-11, and the by-construction argument
+		// The OCR ruling, and the by-construction argument
 		// in this module's docstring: the substitution only ever writes a
 		// `״` where it removed a `"`, so every one in the output is this
 		// call's own work.

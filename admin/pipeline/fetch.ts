@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * Pipeline v2, stage 1: source acquisition (spec task 1.1).
+ * Pipeline v2, stage 1: source acquisition.
  *
  * Streams Sefaria's public MongoDB dump, extracts only the lexicon
  * collections from the tar (the full dump is ~2.4 GB compressed and is
@@ -32,7 +32,7 @@ const TARGETS = new Map([
 /**
  * Sefaria's code also maps a 'Jastrow Unabbreviated' lexicon
  * (LexiconEntrySubClassMapping in Sefaria-Project
- * sefaria/model/lexicon.py), but the 2026-07-04 dump contains no such
+ * sefaria/model/lexicon.py), but the committed dump contains no such
  * lexicon record and zero entries for it, so only the printed
  * dictionary is emitted.
  */

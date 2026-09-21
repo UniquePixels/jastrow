@@ -33,13 +33,13 @@
  * remainder. Assembling an address out of a headword is the
  * fabrication §3.2 exists to stop.
  *
- * Maintainer ruling (Brian, 2026-08-23), on that measurement:
+ * Maintainer ruling, on that measurement:
  * "Unlink, but record the others as exceptions, ultimately these
  * exceptions need to be reviewed later." So the anchor is dropped and
  * the stub text kept, repairing **702 occurrences across 640 distinct
  * entries** (475 + 173 minus the 8 both rows share) instead of the
  * 109 occurrences a retarget rule could reach. Two of this batch's
- * own findings back it: Task 4 measured that a self-link promises an
+ * own findings back it: A self-link promises an
  * article that does not exist,
  * and the body model's standing principle is to show only what
  * Jastrow linked — he wrote the abbreviation; Sefaria's linker added
@@ -65,8 +65,7 @@
  * Definition scope, recursive through `sense.senses` (senses nest; a
  * flat walk loses about a quarter of a population), anchors read
  * through `links.ts`. The query shape was carried by a corpus check's
- * header, retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`); the exception register and
+ * header, retired; the exception register and
  * task-5-report.md have the runnable scripts.
  *
  * Every anchor whose `data-ref` is a letter's numeral article,
@@ -111,7 +110,7 @@
  * the other in `entangledWith`, and `checkAdjacency()` keeps them in
  * a gap-free span of `RULES`.
  *
- * ORDER IS MEASURED, not aesthetic (batch 1's RTL trio is the
+ * ORDER IS MEASURED, not aesthetic (the RTL trio is the
  * precedent: the wrong order there left 62 entries unfixed and no
  * unit test could see it). Re-measured under UNLINK semantics, which
  * is a stronger test than the retarget measurement it replaces —
@@ -132,7 +131,7 @@
  * ## What the predicate excludes, and why
  *
  * Every exclusion here is SYNTACTIC. There is no enumerated exception
- * list in this module, so the 2026-08-23 loud-on-drift ruling has
+ * list in this module, so the loud-on-drift ruling has
  * nothing to bind and nothing here can rot into a silent
  * exclusion-of-nothing. All three arms the row's `reason` names fall
  * out of the one condition "the stub abbreviates THIS headword", and
@@ -168,7 +167,7 @@
  *   so the same condition drops it. The two anchors where a numeral
  *   article links its OWN letter (A00006's `א׳`, M00001's `מ׳`) are
  *   inside the strict population and ARE unlinked: a link from an
- *   article to itself is the self-link Task 4 measured as promising
+ *   article to itself is the self-link measured as promising
  *   nothing, so dropping it is the same repair, not an overreach.
  *
  * The prefixed arm's particle set is the closed class of Hebrew and
@@ -259,8 +258,7 @@ function headLetter(headword: string): string {
 
 /**
  * Whether the BARE defect predicate matches. Exported so a corpus
- * check (retired in consolidation step 5,
- * `docs/v2/retired-corpus-checks.md`) could measure the population
+ * check (retired) could measure the population
  * corpus-wide independently of what the rule then does with it:
  * `transform:count` reports only the ENTRIES a rule touched, and
  * cannot tell a predicate that quietly narrowed from a rule that

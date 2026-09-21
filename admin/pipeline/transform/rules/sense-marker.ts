@@ -1,6 +1,6 @@
 /**
- * `trailing-em-dash-tail` (batch 7, `docs/archive/transform-batch-7.md` §1)
- * — the second rule to run in the `structural-repairs` phase batch 6b
+ * `trailing-em-dash-tail` (`docs/archive/transform-batch-7.md` §1)
+ * — the second rule to run in the `structural-repairs` phase
  * wired.
  *
  * ## The defect, and it is one event catalogued twice
@@ -82,9 +82,9 @@ const DASH = '—';
  * in the dash itself, so admitting trailing space would silently take
  * in a shape nothing has measured and would hand
  * `trailing-whitespace-definition` (10, still `PENDING`) new members —
- * the sibling-row growth batch 3b found by hand. The row's PUBLISHED
+ * the sibling-row growth found by hand. The row's PUBLISHED
  * predicate is wider (`/—[ \t]*$/u`); a corpus check, retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`), measured
+ * a retired corpus check, measured
  * both so the 8 spaced members were counted rather than invisible. */
 function endsInStrandedDash(definition: string): boolean {
 	return definition.endsWith(DASH);
@@ -121,7 +121,7 @@ function repairFor(
 
 /** One level of siblings, rebuilt with every licensed repair applied.
  * Recurses first so a nested run is repaired at its own depth — senses
- * NEST (4,043 of them), and round 4 records that a non-recursive walk
+ * NEST (4,043 of them), and a non-recursive walk
  * returns 109 of the 132 tails and loses a quarter of the population. */
 function repairLevel(
 	senses: readonly SourceSense[],

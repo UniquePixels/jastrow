@@ -9,7 +9,7 @@
  * spellings — 99.94%. The catalogue's figures exactly.
  *
  * That ratio is what licenses a MINT here, and it is the same argument
- * `sectionBreakTerminator` shipped on in batch 7 (7,250 correct against
+ * `sectionBreakTerminator` shipped on (7,250 correct against
  * 11). A slot that is populated 17,254 times and empty 11 is not a
  * convention with a minority form; it is one form with eleven defects.
  *

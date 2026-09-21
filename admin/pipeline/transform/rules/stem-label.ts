@@ -1,5 +1,5 @@
 /**
- * `asterisk-stem-label`'s one mechanical sub-shape (batch 6b, spec
+ * `asterisk-stem-label`'s one mechanical sub-shape (spec
  * `docs/specs/2026-08-28-structural-repairs-design.md` §4): a valid
  * binyan label carrying a stray trailing space-period.
  *
@@ -22,7 +22,7 @@
  * was cheaper and wrong — `coverage()` reads a row as registered the
  * moment any rule claims its id, so a 3-of-69 rule left against the
  * whole row would have retired 66 live defects into silence. The
- * precedent is batch 4's
+ * precedent is
  * `superscript-subsection-contradicts-link-sub-section`, split off as
  * `judgment` from birth.
  *

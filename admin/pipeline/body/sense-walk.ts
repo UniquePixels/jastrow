@@ -1,9 +1,7 @@
 /**
- * Sense-tree and tag helpers shared across the body model. Extracted
- * from `census.ts`, archived at `refs/tags/archive/v2-research-2026-09`
- * (consolidation spec §8), so the census tool could be archived
- * without taking its callers with it; the bodies are unchanged from
- * that file.
+ * Sense-tree and tag helpers shared across the body model: the
+ * recursive sense walk, tag stripping, and the boundary vocabulary a
+ * definition is segmented on.
  */
 import type { SourceSense } from './types.ts';
 
@@ -22,7 +20,7 @@ type Boundary =
  * linearly instead of by backtracking. The regex was quadratic
  * (SonarCloud typescript:S8786): on a long run of `<` with no `>`,
  * `[^>]+` ran to the end of the input at every start position before
- * failing (measured 2026-09-17: 21,644 ms on 200,000 `<`, against
+ * failing (measured: 21,644 ms on 200,000 `<`, against
  * under 1 ms here).
  *
  * The equivalence was re-established for the rewrite, not inherited:

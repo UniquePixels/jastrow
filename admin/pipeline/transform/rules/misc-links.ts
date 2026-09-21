@@ -1,5 +1,5 @@
 /**
- * `plural-to-feminine-final-letter-mislink` (batch-2 task 6): a printed
+ * `plural-to-feminine-final-letter-mislink`: a printed
  * plural — "Pl. Xִים, Xִין" — anchored to the entry's FEMININE Xִית
  * sibling instead of to itself. The skeletons differ only in the final
  * letter (ם/ן on the plural display, ת on the target): C01080 גַּנָּב
@@ -130,7 +130,7 @@
  *
  * The brief this task started from was written as a RETARGET rule —
  * "retarget to the host entry that declares the plural" — the same
- * premise Task 5's geresh pair started from and the maintainer
+ * premise the geresh pair started from and the maintainer
  * overturned (`rules/geresh.ts`'s module doc). Spec §3.2 case 2 permits
  * writing a target only when the entry's OWN input already carries an
  * anchor to it; measuring that directly against the 60-member CLEAN
@@ -174,8 +174,8 @@
  *
  * This rule reproduces **60 occurrences / 50 entries** against the
  * catalogued 68/57. Nothing in the delta is left unaccounted for — it
- * is exactly the decomposition given above, restated as the write-back
- * this task hands to Task 11:
+ * is exactly the decomposition given above, restated as the
+ * outstanding catalogue write-back:
  *
  * ```
  * 68/57  catalogued, reproduced EXACTLY by the skeleton predicate
@@ -212,11 +212,11 @@ import { unlinkOverDefinitions } from './unlink.ts';
  * span `rules/geresh.ts` uses — see that module's `POINT` for the
  * citation.
  *
- * WRITTEN AS ESCAPES, not literals (aligned 2026-08-24, task 11).
- * These two constants held the identical ranges spelled as literal
- * Hebrew characters while `rules/geresh.ts` spelled them as `\uXXXX`,
- * so one batch shipped two conventions for one thing. `html.ts`'s own
- * docstring gives the reason to prefer escapes and `geresh.ts` repeats
+ * WRITTEN AS ESCAPES, not literals. Spelling the identical range as
+ * literal Hebrew characters here and as `\uXXXX` in
+ * `rules/geresh.ts` would be two conventions for one thing.
+ * `html.ts`'s own docstring gives the reason to prefer escapes and
+ * `geresh.ts` repeats
  * it: a literal endpoint is invisible to review — a point or a final
  * form pasted in place of the intended codepoint silently shifts the
  * range, and nothing about `[א-ת]` says which codepoints it
@@ -325,7 +325,7 @@ function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
  * ends ם/ן, target parses as `Jastrow, <hw> N` with `<hw>` ending ת,
  * the two skeletons agree everywhere except that final letter, and the
  * target is not a self-link. Exported so a corpus check (retired in
- * consolidation step 5, `docs/v2/retired-corpus-checks.md`) could
+ * a retired corpus check) could
  * measure the raw population (65/55) independently of the clean
  * restriction, the way `rules/geresh.ts`'s `bareStubRaw` separates
  * "does the shape match" from "does the rule fire".
@@ -400,8 +400,8 @@ const pluralToFeminineFinalLetter: Rule = {
 };
 
 /**
- * `shuruk-as-yod-display-corruption` (batch-2 task 10): an anchor's
- * DISPLAY text prints יּ (yod U+05D9 + dagesh U+05BC) at the exact
+ * `shuruk-as-yod-display-corruption`: an anchor's DISPLAY text
+ * prints יּ (yod U+05D9 + dagesh U+05BC) at the exact
  * spot the word's own correctly-resolved target spells וּ (shuruk —
  * vav U+05D5 + the SAME dagesh U+05BC): visually near-identical bases
  * (י/ו) OCR confuses more than most Hebrew letter pairs, compounded by
@@ -482,7 +482,7 @@ const pluralToFeminineFinalLetter: Rule = {
  *   `Jastrow, קוּץ IV 1`. Swapping יּ→וּ gives "קוּץ I", not "קוּץ IV" —
  *   the printed homograph numeral (I) disagrees with the target's
  *   (IV), a DIFFERENT row's defect (`homograph-numeral-mismatch`,
- *   batch 2 Task 9, audited to `judgment`, left in `PENDING`) sitting
+ *   audited to `judgment`) sitting
  *   on the same anchor. Firing here would correct one defect while
  *   leaving a second, unrelated one exactly as broken — worse, it
  *   would make the anchor look fully repaired when it is not. The
@@ -519,7 +519,7 @@ const pluralToFeminineFinalLetter: Rule = {
  *
  * Correcting a mis-recognized glyph is correction, not composition,
  * because the glyph never was the source's content — maintainer
- * ruling, 2026-08-11, the same ruling behind the OCR class
+ * ruling, the same ruling behind the OCR class
  * `no-new-text.ts`'s module doc cites. That ruling licenses this
  * rule's `allows`.
  *
@@ -667,7 +667,7 @@ function rewriteOverDefinitions(
  */
 const shurukAsYodDisplayCorruption: Rule = {
 	// Correcting a mis-recognized glyph is correction, not composition
-	// — maintainer ruling, 2026-08-11, cited by `no-new-text.ts`'s OCR
+	// — maintainer ruling, cited by `no-new-text.ts`'s OCR
 	// class. `allows` flattens to individual codepoints, so this
 	// permits an UNLIMITED count of U+05D5 (vav) ANYWHERE in this
 	// rule's diff, not only at the swapped positions — see the module

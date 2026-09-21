@@ -1,6 +1,6 @@
 /**
  * The unlink family: rows whose anchor is wrong and whose correct
- * target does not exist. The maintainer ruling of 2026-08-22 is to
+ * target does not exist. The maintainer ruling is to
  * drop the anchor and keep the display text — a link Jastrow never
  * made, resolving to an article the reader was never promised, is
  * linker debris. The body model's standing principle is the same one:
@@ -46,13 +46,13 @@ const ARUCH_CUE = /\bAr\.(?:\s*Compl\.)?\s*ed\.\s*$/u;
  * bare name. The open-paren and comma leads are the SAME defect: both
  * sit immediately after "introd." (or "Ib." standing in for it), both
  * introduce a rabbi's name, both got read as "Josh." the book. Ruling
- * (maintainer, 2026-08-23): describe the defect, not the catalogued
+ * (maintainer): describe the defect, not the catalogued
  * number — a predicate carved to stop one short of a real member,
  * for no reason but matching a count, is not a measurement. Measured
  * 42/42 against this cue; the catalogue's `corpusCount` (41) predates
- * this rule and is corrected by it, the same direction batch 1's
- * `bare-rtl-hebrew` correction ran (4,190 → 4,189) — Task 11 owns the
- * `patterns.jsonl` write-back. See task-2-report.md.
+ * this rule and is corrected by it, the same direction the
+ * `bare-rtl-hebrew` correction ran (4,190 → 4,189). The
+ * `patterns.jsonl` write-back is outstanding.
  */
 const RABBI_CUE = /[(,]\s*R\.\s*$/u;
 
@@ -83,7 +83,7 @@ function usable(anchor: Anchor): boolean {
 /**
  * Drop every anchor in one definition that `match` selects.
  *
- * Bug fixed 2026-08-23 (reviewer finding on a later task): this used
+ * Bug fixed (reviewer finding on a later task): this used
  * to compute `anchors(tokens)` ONCE against the original array, then
  * remove the matched anchors highest-`open`-first on the theory that
  * "anchors do not nest in this corpus, so no two selected anchors ever
@@ -118,10 +118,9 @@ function usable(anchor: Anchor): boolean {
  * Re-deriving costs one extra O(anchor count) scan per removal — the
  * same order of work `anchors()` already does once per definition, so
  * a definition with k removable anchors costs O(k) scans instead of
- * 1. That IS a complexity-class change, and an earlier draft of this
- * paragraph said it was not (corrected 2026-08-24, task 11, on Task
- * 4's review finding): the walk goes from O(n) to O(k·n) in the
- * definition's token count. It is affordable rather than free — the
+ * 1. That IS a complexity-class change: the walk goes from O(n) to
+ * O(k·n) in the definition's token count. It is affordable rather
+ * than free — the
  * shipped k is 1 or 2 in almost every member and the whole corpus
  * runs in seconds — and it is correct regardless of
  * nesting depth or shape, so no assumption about the corpus's anchor
@@ -183,7 +182,7 @@ function firstUsableMatch(
  * per field, so the total accumulates across every definition this
  * call touches rather than resetting per sense.
  *
- * Exported since batch-2 task 5: `rules/geresh.ts` unlinks two rows
+ * Exported because `rules/geresh.ts` unlinks two rows
  * of its own and must reuse this walk rather than restate it. The
  * loop underneath (`unlinkMatching`) re-derives anchors before every
  * removal because anchors nest, and a second copy of that reasoning
@@ -191,19 +190,16 @@ function firstUsableMatch(
  * sibling docstring describes came back.
  *
  * SCOPE. This walk reads `senses[].definition` only, recursively.
- * That was written when two rules used it and is now SIX
- * (`apparatusCite`, `rabbiName`, `ellipsisFragment`,
- * `gereshLetterNumeral`, `prefixedGereshAbbrev`,
- * `pluralToFeminineFinalLetter`), so the original sentence — "neither
- * rule built on this reaches `language_reference`" — is stale as
- * written and is replaced here (2026-08-24, task 11). The scope is
- * still moot rather than assumed, and each row measured it for
- * itself: 0 Judges/Ecclesiastes/Joshua anchors in
- * `language_reference` corpus-wide (task-2-report.md); the geresh
+ * SIX rules use it (`apparatusCite`, `rabbiName`,
+ * `ellipsisFragment`, `gereshLetterNumeral`, `prefixedGereshAbbrev`,
+ * `pluralToFeminineFinalLetter`), so "neither rule built on this
+ * reaches `language_reference`" is not a statement any one of them
+ * can make. The scope is moot rather than assumed, and each row
+ * measured it for itself: 0 Judges/Ecclesiastes/Joshua anchors in
+ * `language_reference` corpus-wide; the geresh
  * pair and the plural row each pinned their own populations wholly
- * inside definitions, measured on the 2026-07-04 export by a corpus
- * check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`).
+ * inside definitions, measured on the export by a corpus
+ * check retired.
  * A SEVENTH row must measure its own field spread before reusing
  * this — the narrowing is a measured fact about six populations, not
  * a property of the walk.
@@ -294,7 +290,7 @@ const rabbiName: Rule = {
 };
 
 /**
- * Batch-wide drift check (maintainer ruling, 2026-08-23): an enumerated
+ * Batch-wide drift check (maintainer ruling): an enumerated
  * exception may live inside a transform rule, but it must be LOUD ON
  * DRIFT, the same standing `repairs.ts` was approved on ("pure,
  * rid-keyed literal edits, loud on drift"). The load-bearing half is
@@ -313,9 +309,9 @@ const rabbiName: Rule = {
  * `apply` call. So this can't be an in-rule assertion; it has to walk
  * the corpus itself, independently of any single rule invocation.
  *
- * This helper only computes the unobserved keys; a corpus check, now
- * retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`),
- * was where it actually ran, as a corpus-walking test rather than a
+ * This helper only computes the unobserved keys; a corpus check
+ * (retired, `docs/v2/retired-corpus-checks.md`) was where it actually
+ * ran, as a corpus-walking test rather than a
  * `transform:count` check — chosen deliberately. `transform:count`
  * already catches drift, but only as an aggregate delta on the count
  * of 80: late (visible only on a manual run someone remembers to make)
@@ -378,7 +374,7 @@ async function unobservedConvention(
  * anchor, never inside one — no anchor in this corpus opens with "…"
  * in its own display, corpus-wide (task-3-report.md; the brief's own
  * discovery query and its first acceptance criterion assumed the
- * opposite and were corrected by the maintainer, 2026-08-23, after
+ * opposite and were corrected by the maintainer, after
  * that query measured zero). The linker read the printed tail as if it
  * were the whole lemma and anchored it to a same-spelled headword —
  * `dataRef.startsWith('Jastrow, ')` is load-bearing here, not defense
@@ -429,12 +425,12 @@ function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
  * genuine defect to one of these six entries is not silently swallowed
  * by the exclusion.
  *
- * Maintainer ruling (2026-08-23): an enumerated exception may live
+ * Maintainer ruling: an enumerated exception may live
  * inside a transform rule, but it must be LOUD ON DRIFT — same standing
  * as `repairs.ts`'s rid-keyed literal edits. Here that means every key
  * below must be OBSERVED — matched by `ellipsisRaw` somewhere in a
  * corpus pass — which a corpus-walking test checked on every run via
- * `unobservedConvention`, above, until consolidation step 5 retired it
+ * `unobservedConvention`, above, until it was retired
  * (`docs/v2/retired-corpus-checks.md`). A key that stops being
  * observed would have meant the corpus moved under this exclusion, or
  * the exclusion was wrong from the start; either way it failed loudly,
@@ -442,7 +438,7 @@ function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
  * exclusion-of-nothing that only `transform:count`'s row-count
  * aggregate would (eventually, and without saying which key) catch.
  * (That aggregate read 80 rows when this was written and reads 78
- * since batch 2's two withdrawals; the argument is about the
+ * since the two withdrawals; the argument is about the
  * aggregate being late and unspecific, not about its size.)
  */
 const ELLIPSIS_CONVENTION: ReadonlySet<string> = new Set([

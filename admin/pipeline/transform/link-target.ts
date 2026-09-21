@@ -9,9 +9,8 @@
  * this gate, nothing looked at `href` or `data-ref` at all: a rule
  * could point 538 anchors at a fabricated address and all three
  * verification layers would report success. That is spec §5's
- * blind-spot problem in its sharpest form, and batch 2 — every rule of
- * which writes a target — is where it has to be closed rather than
- * recorded.
+ * blind-spot problem in its sharpest form, and any rule that writes a
+ * target is where it has to be closed rather than recorded.
  *
  * The contract is one sentence: **a rule may only write a link target
  * it can point at in this entry's own input.** Concretely, every
@@ -29,7 +28,7 @@
  *    `TransformResult.composed`. An undeclared compose is reported as
  *    a fabrication, which is what it is until a rule author says
  *    otherwise.
- * 4. **Recombined** (ruling of 2026-08-23) — a prefix of one input
+ * 4. **Recombined** — a prefix of one input
  *    target joined to a suffix of another, both DECLARED through
  *    `TransformResult.recombined`, with no character from anywhere
  *    else and no gap between the halves. Case 3 cannot express this:
@@ -65,28 +64,28 @@
  *    character except the substituted quotes is pinned by length,
  *    order and codepoint, so the case cannot move a link to another
  *    entry, cannot alter a locus, and cannot recover an address the
- *    input did not spell out. Two further conditions, both added
- *    2026-08-24 after review found each of them licensed something the
- *    spec's wording does not: a claim may license no MORE output
+ *    input did not spell out. Two further conditions each close
+ *    something the spec's wording licenses but does not intend: a
+ *    claim may license no MORE output
  *    anchors than the input held anchors carrying its `from` (tag
  *    values repeat, and §4.3 says "THAT anchor's opening tag"), and
  *    every gershayim in the written tag must stand between two Hebrew
  *    letters, which is what stops a claim converting the quotes that
  *    DELIMIT an attribute instead of the one stranded inside it.
  *    `glyphFault` carries both arguments. Cases 1-4 are untouched.
- * 6. **Restored** (gate-cases spec of 2026-08-27 §2) — a rule repaired
+ * 6. **Restored** (gate-cases spec §2) — a rule repaired
  *    an opening tag by DELETING a run that never belonged inside it,
  *    and DECLARED the pair through `TransformResult.restored`. The
  *    gate re-inserts the run and requires the result to be a
  *    byte-exact SUBSTRING of some field in this entry's own input, at
  *    EXACTLY ONE insertion offset. Ambiguity is a refusal, not a
- *    choice. Since 2026-08-27 the claim also NAMES THE PLACE — the
- *    input field the repair happened in, verbatim, and the offset in
- *    it where the recovered run begins — and the gate requires the
- *    bytes to sit exactly there, in the input counterpart of the field
- *    the repaired anchor came out of. "Somewhere in this entry" was
- *    the whole of the old test, so a run recovered from the headword
- *    licensed a repair made in a definition.
+ *    choice. The claim also NAMES THE PLACE — the input field the
+ *    repair happened in, verbatim, and the offset in it where the
+ *    recovered run begins — and the gate requires the bytes to sit
+ *    exactly there, in the input counterpart of the field the repaired
+ *    anchor came out of. Without that, "somewhere in this entry" is
+ *    the whole of the test, and a run recovered from the headword
+ *    licenses a repair made in a definition.
  *
  *    It is case 5's lesson one level further out, and the extra level
  *    is the whole reason it exists. Case 5 reads raw tag bytes but
@@ -114,7 +113,7 @@
  *    TAG and so settles both attributes at once, and like case 5 it is
  *    ALL-claim. Cases 1-5 are untouched; nothing was loosened to make
  *    room.
- * 7. **Corroborated** (gate-cases spec of 2026-08-27 §3) — a target
+ * 7. **Corroborated** (gate-cases spec §3) — a target
  *    assembled from a `head` the input holds and a `tail` that is a
  *    literal SUFFIX of `from`, a second target the input holds, with
  *    `head + tail === target` exactly and the DIGITS of `tail`
@@ -123,16 +122,16 @@
  *    `TransformResult.corroborated`, the witness included: the claim
  *    cites the input field it read and the opening-tag token index of
  *    the anchor within it, which together identify exactly one anchor.
- *    Before 2026-08-27 the claim named only the target string and any
- *    anchor carrying it could supply the digits, so an entry citing
- *    one address twice had its mint corroborated by a sibling the rule
- *    never read. And the DECLARING RULE must be one of
+ *    A claim naming only the target string lets any anchor carrying it
+ *    supply the digits, so an entry citing one address twice has its
+ *    mint corroborated by a sibling the rule never read. And the
+ *    DECLARING RULE must be one of
  *    `CORROBORATION_DECLARERS`: alone among the seven, this case
  *    licenses named rules rather than evidence, for the measured
  *    reason that constant records.
  *
- *    It exists because case 4's tightening of 2026-08-24 refuses a
- *    repair the entry evidences twice over. `Tosef. Sabb. XVI (XVII),
+ *    It exists because case 4's prefix tightening refuses a repair
+ *    the entry evidences twice over. `Tosef. Sabb. XVI (XVII),
  *    6` splits across two anchors; the primary keeps
  *    `Tosefta Shabbat 16` and drops the halakha, and writing
  *    `Tosefta Shabbat 16:6` needs `:6` from the variant's
@@ -162,22 +161,20 @@
  *    primary — and no structure-free strengthening of clause 4 reaches
  *    zero. The only predicate that separates the families is
  *    `VARIANT_DISPLAY`, which is the RULE's, and a gate whose
- *    predicate is the rule's can no longer catch a rule that widened
- *    its own (see `FLANKED_GERSHAYIM`).
+ *    predicate is the rule's cannot catch a rule that widens its own
+ *    (see `FLANKED_GERSHAYIM`).
  *
  *    So what the four clauses buy is not safety but ATTRIBUTION: every
  *    minted target must name the two input targets and ONE input
  *    anchor — cited by field and token index — that carries `from` and
  *    whose display prints the tail's digits, so a wrong mint is a
  *    wrong claim with a rule's name on it rather than an anonymous
- *    fabrication. That was the whole of the case as first ruled in on
- *    2026-08-27, on the argument that live exposure was zero: a gate
- *    case is a LICENCE and not an instruction, only
- *    `toseftaPrimaryHalakha` declared this one, and its own predicate
- *    fires on none of the 68. **Re-ruled the same day, because that is
- *    a property of one day's REGISTRY and not of this gate** — it
- *    protects neither a future rule declaring the case nor a widening
- *    of `toseftaPrimaryHalakha`'s own predicate. Case 7 is therefore
+ *    fabrication. Zero live exposure is NOT the argument that makes
+ *    the case safe: that only `toseftaPrimaryHalakha` declares it, and
+ *    that its predicate fires on none of the 68, are properties of
+ *    today's REGISTRY and not of this gate, and they protect neither a
+ *    future rule declaring the case nor a widening of that rule's own
+ *    predicate. Case 7 is therefore
  *    bound to an ALLOWLIST OF DECLARING RULE IDS, and this is the only
  *    case here that knows a rule's name; `CORROBORATION_DECLARERS`
  *    states that cost, what a reviewer must measure before adding an
@@ -193,8 +190,8 @@
  * message would restate the first.
  *
  * Plus the spec's two counting invariants, over the whole entry:
- * anchors never grow (batch 2 creates no links; §1's ruling is
- * enforced in code, not left to rule authors), and any shortfall is
+ * anchors never grow except under case 10 (§1's ruling is enforced in
+ * code, not left to rule authors), and any shortfall is
  * declared by `unlinks` (the markup gate reads a dropped tag pair as
  * an improvement, and the text gate reads the deletion as a
  * legitimate sub-multiset, so nothing else can catch an accidental
@@ -270,10 +267,10 @@
  *   the antecedent the rule reasoned about, nor whether the tail is
  *   the anchor's OWN current target — a rule that picks the wrong
  *   antecedent (the hazard `ib-yoma-2a` already meets, and the reason
- *   Task 8's Sifré arm carries a predicate) produces a
+ *   the Sifré arm carries a predicate) produces a
  *   well-provenanced wrong address and passes.
- * - **Same-work siblings, in case 4.** The tightening of 2026-08-24
- *   requires the tail's discarded prefix to be a prefix of the head,
+ * - **Same-work siblings, in case 4.** Requiring the tail's discarded
+ *   prefix to be a prefix of the head
  *   which closes head-extension and truncation between targets naming
  *   DIFFERENT works. It cannot close them between two targets naming
  *   the SAME work, because there the discarded prefix legitimately is
@@ -357,9 +354,9 @@
  *   unparseable, so there is no input tag to compare against — but it
  *   is a genuinely wider warrant than case 5's, and the width is here
  *   rather than in the case's own note so it sits with the rest of
- *   them. Narrowed 2026-08-27 in ONE respect only: the bytes must be
- *   in the field the repair happened in, at the offset the claim
- *   names. What they were in that field is still not asked.
+ *   them. The bytes must at least be in the field the repair happened
+ *   in, at the offset the claim names; what they were in that field is
+ *   not asked.
  * - **Which run, in case 6.** The gate never asks WHAT `removed` is,
  *   only that re-inserting it lands. Nothing restricts it to markup: a
  *   claim deleting a run of display text from inside a tag clears the
@@ -372,9 +369,9 @@
  *   defect — so the same cap reads 0 for every honest claim and would
  *   refuse them all. Two output anchors carrying byte-identical
  *   repaired tags are therefore both licensed by one claim, PROVIDED
- *   both are in the field the claim cites: since 2026-08-27 the same
- *   tag repaired in a second field is refused there, so the residue is
- *   per-field rather than per-entry. Within one field this gate still
+ *   both are in the field the claim cites — the same tag repaired in a
+ *   second field is refused, so the residue is per-field rather than
+ *   per-entry. Within one field this gate still
  *   counts and does not track identity, which is the same shape as
  *   "which anchor, in case 5" and the same root.
  * - **A minted address, in case 7, and a MEASURED one.** The bullet
@@ -397,13 +394,11 @@
  *   this gate would still agree with it — which is why the reviewer's
  *   instruction beside the constant is to re-measure the PREDICATE,
  *   not just to weigh the name.
- * - **Which display, in case 7 — NARROWED 2026-08-27, and what is
- *   left.** This read: "the witness need only be SOME input anchor
- *   carrying `from`, not the sibling the rule reasoned about". The
- *   claim now CITES its witness by field bytes and token index, and
- *   the gate reads the digits off that one anchor, so a rule can no
- *   longer be corroborated by a sibling it never looked at. What the
- *   gate still cannot ask is whether the cited anchor is the one the
+ * - **Which display, in case 7.** The claim CITES its witness by
+ *   field bytes and token index, and the gate reads the digits off
+ *   that one anchor, so a rule cannot be corroborated by a sibling it
+ *   never looked at. What the gate cannot ask is whether the cited
+ *   anchor is the one the
  *   rule SHOULD have read — a rule may cite the wrong sibling with
  *   perfect internal consistency, and this gate will agree with it.
  *   That is the limit case 4 carries for `head`, which is still
@@ -465,14 +460,13 @@ type Compose = { from: string; target: string };
  * bytes: unlike cases 5 and 6, the anchors case 7 speaks for parse
  * perfectly well — what they lack is the address, not the markup.
  *
- * `field` and `open` are the WITNESS, added 2026-08-27: the input
- * field the rule read, verbatim, and the index of the opening tag
- * token, inside that field's own tokenization, of the anchor whose
- * DISPLAY corroborated the tail. Token indices are unique within a
- * field, so the pair names exactly one input anchor. Before it the
- * declaration named a target string and clause 4 accepted any anchor
- * carrying it, which made "the witnessing display it came from"
- * unstatable — see `witnessOf`. */
+ * `field` and `open` are the WITNESS: the input field the rule read,
+ * verbatim, and the index of the opening tag token, inside that
+ * field's own tokenization, of the anchor whose DISPLAY corroborated
+ * the tail. Token indices are unique within a field, so the pair names
+ * exactly one input anchor. A declaration naming only a target string
+ * lets clause 4 accept any anchor carrying it, which makes "the
+ * witnessing display it came from" unstatable — see `witnessOf`. */
 type Corroborate = {
 	field: string;
 	from: string;
@@ -493,12 +487,12 @@ type Recombine = { head: string; tail: string; target: string };
  * a RAW opening tag, like `GlyphCorrect`'s members; `removed` is the
  * run the rule lifted out of it, and is not a target of any kind.
  *
- * `field` and `offset` are the WITNESS, added 2026-08-27: the input
- * field the repair happened in, verbatim, and the offset within it at
- * which the damaged bytes begin. Before them clause 2 asked only that
- * the recovered run match SOME field of the entry, so bytes found in
- * one field could license a repair made in another and an offset had
- * no field to be an offset into — see `restoreFault`. */
+ * `field` and `offset` are the WITNESS: the input field the repair
+ * happened in, verbatim, and the offset within it at which the damaged
+ * bytes begin. Without them clause 2 asks only that the recovered run
+ * match SOME field of the entry, so bytes found in one field license a
+ * repair made in another and an offset has no field to be an offset
+ * into — see `restoreFault`. */
 type Restore = {
 	field: string;
 	offset: number;
@@ -563,14 +557,15 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * `typescript:S8786`: a quantified alternation is a backtracking
  * shape, where a quantified class is one deterministic step. Class
  * membership is order-independent, so all three forms match exactly
- * the same strings; only this one satisfies both linters. Widened
- * 2026-08-24, on a measurement rather than on symmetry: 1 of the 2,305 marks the batch writes (M01940's
- * `מ̇ס̇״ך̇`) sets the combining dot between the letter and the
- * mark. That one is in the TEXT locus, where case 5 never runs, so 0
- * of the 180 tag-locus marks failed here — the widening buys nothing
- * on today's data and everything on a re-fetch that moves such an
- * occurrence into an attribute, which would otherwise halt the
- * pipeline on an honest repair.
+ * the same strings; only this one satisfies both linters.
+ *
+ * U+0307 is in the class on a measurement rather than on symmetry: 1
+ * of the 2,305 marks the rules write (M01940's `מ̇ס̇״ך̇`) sets the
+ * combining dot between the letter and the mark. That one is in the
+ * TEXT locus, where case 5 never runs, so it buys nothing on today's
+ * data and everything on a re-fetch that moves such an occurrence into
+ * an attribute, which would otherwise halt the pipeline on an honest
+ * repair.
  *
  * The gate declares this itself, exactly as it declares `GERSHAYIM`,
  * and for the same reason. It is not the rule's predicate borrowed: it
@@ -589,15 +584,11 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * All three run ONE WAY — narrower than the rule, never wider. That
  * direction is the whole point: a gate wider than the predicate it
  * checks rubber-stamps a rule that widened its own. The letter ranges
- * below are therefore held inside `HEBREW`'s own — U+05D0–U+05EA
- * and U+05F0–U+05F2. Corrected 2026-08-24, having read
- * U+05EF–U+05F2 and so admitted U+05EF HEBREW YOD TRIANGLE — which
- * `HEBREW` does NOT hold — as a flank the rule can never produce.
- * Cost of the error was zero (U+05EF occurs 0 times in the walked
- * fields of the pinned corpus, and every corpus count is unmoved by
- * the correction), and the correction is fail-closed. Recorded rather
- * than quietly narrowed so nobody restores the off-by-one for the
- * U+05F0–U+05F2 ligatures. */
+ * below are therefore held inside `HEBREW`'s own — U+05D0–U+05EA and
+ * U+05F0–U+05F2, and NOT U+05EF–U+05F2, which would admit U+05EF
+ * HEBREW YOD TRIANGLE as a flank the rule can never produce. The
+ * off-by-one is easy to reintroduce while reaching for the
+ * U+05F0–U+05F2 ligatures, so it is named here. */
 const FLANKED_GERSHAYIM =
 	/(?<=[\u05d0-\u05ea\u05f0-\u05f2][\u0307\u0591-\u05c7]*)\u05f4(?=[\u05d0-\u05ea\u05f0-\u05f2])/gu;
 
@@ -843,10 +834,10 @@ function faultOf(
  * same units are genuinely present in the source, and the verbatim
  * property holds either way.
  *
- * **The discarded head of the tail must itself be a prefix of `head`**
- * (tightening of 2026-08-24). Without it a free split point licensed
- * far more than the two-spelling problem needs, and four probes
- * against the first cut all came back clean: truncating the head's
+ * **The discarded head of the tail must itself be a prefix of `head`.**
+ * Without it a free split point licenses far more than the
+ * two-spelling problem needs, and four probes come back clean:
+ * truncating the head's
  * locus (`13:22` → `13:2` — Sefaria refs end in digits, so any tail
  * ending in the same digit serves), minting a wrong verse in the
  * head's own work without moving the work at all, and splicing two
@@ -995,8 +986,7 @@ function digitsOf(text: string): string {
 
 /**
  * The ONE input anchor a corroboration's `field` and `open` name, or
- * `undefined` when they name none — spec §3 clause 4's witness, made
- * nameable 2026-08-27.
+ * `undefined` when they name none — spec §3 clause 4's witness.
  *
  * The declared field must be one of THIS entry's own input fields,
  * byte for byte: bytes from anywhere else name no anchor this gate
@@ -1055,9 +1045,9 @@ function carries(anchor: Anchor, target: string): boolean {
  * The corroboration is read off `witness` — the ONE anchor the claim
  * named, resolved by `witnessOf` and already checked to carry `from` —
  * rather than off whichever anchor of the entry happens to print the
- * digits. That is the 2026-08-27 tightening, and it is the difference
- * between "these digits are printed somewhere near this address" and
- * "this display, on this anchor, printed them".
+ * digits — the difference between "these digits are printed somewhere
+ * near this address" and "this display, on this anchor, printed
+ * them".
  */
 function pairFault(
 	value: string,
@@ -1132,18 +1122,18 @@ function corroborateLead(value: string): string {
  * `undefined` when it does — the declaration clauses, then the two
  * WITNESS clauses, then the per-spelling arithmetic.
  *
- * The witness clauses are the 2026-08-27 tightening and they run in
- * this order for a reason. First the claim must NAME an anchor of this
+ * The witness clauses run in this order for a reason. First the claim
+ * must NAME an anchor of this
  * entry's input (`witnessOf`); then that anchor must CARRY `from`, so
  * a rule cannot point at the display it liked and the target it needed
  * on two different anchors. Only then is the display consulted, in
  * `pairFault`, and only that anchor's.
  *
- * The `href` spelling of `from` is now the WITNESS's own href rather
- * than every href in `hrefsFor(claim.from)`. That is the same
- * tightening one level down: the anchor is named, so the spelling to
- * test against is its own, not that of whichever sibling shares its
- * `data-ref`. `head` keeps the `hrefsFor` treatment — the claim does
+ * The `href` spelling of `from` is the WITNESS's own href rather than
+ * every href in `hrefsFor(claim.from)`: the anchor is named, so the
+ * spelling to test against is its own, not that of whichever sibling
+ * shares its `data-ref`. `head` keeps the `hrefsFor` treatment — the
+ * claim does
  * not name the head's anchor, and case 4 carries the same limit for
  * the same reason (see the blind-spot list).
  */
@@ -1199,12 +1189,10 @@ function claimFault(
  * arabic verse IS the tail's digit run and the corroborating witness is
  * present BY DEFAULT across that whole family. The only predicate that
  * separates the families is `VARIANT_DISPLAY`, which is the RULE's own,
- * and a gate whose predicate is the rule's can no longer catch a rule
- * that widened its own. The case shipped on 2026-08-27 on the argument
- * that live exposure was zero; that was a property of ONE DAY'S
- * REGISTRY and not of the gate, so Brian ruled the same day that the
- * case be bound to its measured declarer instead. The residue is zero
- * and stays zero.
+ * and a gate whose predicate is the rule's cannot catch a rule that
+ * widens its own. Zero live exposure is a property of ONE DAY'S
+ * REGISTRY and not of the gate, which is why the case is bound to its
+ * measured declarer instead. The residue is zero and stays zero.
  *
  * BEFORE ADDING AN ID HERE, a reviewer must have MEASURED the new
  * rule's own predicate against the same 68-pair population that
@@ -1245,7 +1233,7 @@ const CORROBORATION_DECLARERS: ReadonlySet<string> = new Set([
  * every repair the candidate rule makes, how many headwords satisfy
  * clauses 2 and 3? More than one anywhere means the RULE is choosing
  * and this gate is not checking. That is exactly what withdrew
- * `containment-fallback-mislink` on 2026-08-31 — its shape needs
+ * `containment-fallback-mislink` — its shape needs
  * skeleton equality with no abbreviation and no twin, which reaches 3
  * candidates (`נגד` admits `נָגַד`, `נְגַד`, `נֶגֶד`) for 17 of its 18
  * repairs. Do not relax clause 2 or 3 to re-admit it; give it its own
@@ -1262,7 +1250,7 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
  *
  * A gate case is a LICENCE and not an instruction. This one lifts the
  * spec's second counting invariant ("anchors never grow"), which
- * encoded batch 2's *retarget only* scope ruling rather than a safety
+ * encoded a *retarget only* scope ruling rather than a safety
  * property, so live exposure is exactly the rules named here and
  * `checkLinkTargets` behaves for every other rule in the registry as
  * it did before.
@@ -1289,8 +1277,8 @@ const VOUCH_DECLARERS: ReadonlySet<string> = new Set([
  * candidate. They do not here, by design (clause 5 is *precedes*, not
  * *nearest*), so this list is permanent rather than transitional.
  *
- * `unlinked-bare-anaphor` was admitted 2026-09-06, and the three
- * measurements above are on its row in `patterns.jsonl` and in
+ * `unlinked-bare-anaphor`'s three measurements are on its row in
+ * `patterns.jsonl` and in
  * `rules/anaphora-mint.ts`'s docstring: 2,819 sites with a stated
  * predicate and a `the` = 50,353 control reproduced on two bases;
  * ~9 targets available per site; and its choice among them scored
@@ -1628,9 +1616,8 @@ function vouchLead(value: string): string {
  * construction and has no corpus to ask. It checks that the written
  * target is structurally a completion of THIS anchor's abbreviation and
  * a spelling twin of THIS host, which is the whole of its contribution.
- * Existence was checked by a corpus check that re-derived the rule's
- * frozen table from the live snapshot; that check is retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). Neither
+ * Existence needs a corpus check that re-derives the rule's frozen
+ * table from the live snapshot. Neither
  * half is sufficient alone (spec §5), and reading this gate's silence
  * about existence as a guarantee is the mistake
  * [[feedback_vacuous_gates]] is about.
@@ -1710,8 +1697,7 @@ function vouchFaults(
 
 /**
  * Why the rule that produced these claims may not declare case 7 at
- * all, or `undefined` when it may — the allowlist clause of the ruling
- * of 2026-08-27.
+ * all, or `undefined` when it may — case 7's allowlist clause.
  *
  * Checked BEFORE any claim's own clauses, and reported instead of them:
  * this is a fact about the DECLARER, so a claim from an unlisted rule
@@ -1793,9 +1779,7 @@ function corroborateFaults(
  *    and FALSE UNDER COMPOSITION — `run.ts` hands each rule the
  *    previous rule's output, so `gershayimInBody` puts 2,125 marks
  *    into the document text before `gershayimRefAttribute` ever runs
- *    (measured on the 2026-07-04 export by a corpus check retired in
- *    consolidation step 5, `docs/v2/retired-corpus-checks.md`; see
- *    that rule's module doc and batch report §9.4). What holds
+ *    (see that rule's module doc). What holds
  *    instead is about the substitution: `from` is an OPENING TAG, the only writer of
  *    U+05F4 in the registry is `gershayim.ts`, and its `repairText`
  *    leaves every `<…>` run byte-identical while its `repairTags`
@@ -1977,13 +1961,13 @@ function recoveredAt(claim: Restore, at: number): string {
  *    the input does not say which run was lifted, and a gate that
  *    picked one would be asserting a provenance it cannot read. Zero
  *    means the bytes are not the input's at all.
- * 4. **The recovered run must sit WHERE THE CLAIM SAYS IT DOES**
- *    (2026-08-27): in the input counterpart of the field this anchor
- *    was repaired in, at the declared offset. Clauses 2 and 3 alone
- *    ask only that the bytes be somewhere in the entry, so a run
- *    recovered from the headword licensed a repair made in a
- *    definition, and an offset with no field to be an offset into
- *    named nothing. `indexOf(recovered, offset) === offset` is the
+ * 4. **The recovered run must sit WHERE THE CLAIM SAYS IT DOES**: in
+ *    the input counterpart of the field this anchor was repaired in,
+ *    at the declared offset. Clauses 2 and 3 alone ask only that the
+ *    bytes be somewhere in the entry, so without this a run recovered
+ *    from the headword licenses a repair made in a definition, and an
+ *    offset has no field to be an offset into.
+ *    `indexOf(recovered, offset) === offset` is the
  *    whole test and it is exact in both directions: a negative or
  *    fractional offset cannot equal an index, and bytes elsewhere in
  *    the field do not answer for bytes here.
@@ -2470,13 +2454,11 @@ function checkMintClauses(
  * a reason to; this one does, because its messages read as if they
  * were missing the rule name until you see where it is added.
  *
- * **CORRECTED 2026-08-27 (`fix/link-target-gate-cases`)**: this read
- * "There is no `rule` parameter for the same reason `checkMarkup` has
- * none — this gate reads nothing off the rule, and a parameter kept
- * for symmetry alone would be an unused one." True of every case up
- * to 6 and still true of them; case 7 broke it, and deliberately.
- * `ruleId` is what `CORROBORATION_DECLARERS` is checked against, and
- * that constant's docstring carries the whole cost of the exception.
+ * `ruleId` exists ONLY for the allowlists. Cases 1-6 read nothing off
+ * the rule, and a parameter kept for symmetry would be unused; case 7
+ * broke that, deliberately, and `ruleId` is what
+ * `CORROBORATION_DECLARERS` is checked against. That constant's
+ * docstring carries the whole cost of the exception.
  *
  * It is OPTIONAL and fail-closed rather than required. Omitting it
  * refuses case 7 and changes nothing else, so a caller that forgets it
@@ -2515,19 +2497,16 @@ function checkLinkTargets(
 		result,
 	);
 	const problems: string[] = [];
-	// Case 10 (spec 2026-09-06 §3.6). The invariant used to be two
-	// separate refusals — a growing count outright, then a shortfall
-	// against `unlinks` — and it is now ONE EQUATION with mints on the
-	// other side:
+	// Case 10 (spec §3.6). The counting invariant is ONE EQUATION with
+	// mints on the other side, rather than a growth refusal and a
+	// shortfall refusal:
 	//
 	//     source − output === (unlinks ?? 0) − minted.length
 	//
-	// For every rule that declares no mint this reduces to the old
-	// `removed === declared`, INCLUDING the growth case, which now
-	// fails as a count mismatch instead of by its own branch. So the
-	// behaviour of all forty-odd shipped rules is unchanged and none of
-	// them needed re-auditing to land this. The message still names
-	// growth separately, because "declared 0" reads as the wrong
+	// For a rule that declares no mint this reduces to
+	// `removed === declared`, INCLUDING the growth case, which fails as
+	// a count mismatch rather than by its own branch. The message still
+	// names growth separately, because "declared 0" reads as the wrong
 	// diagnosis for a rule that created a link by accident.
 	const removed = source.length - output.length;
 	const declared = result.unlinks ?? 0;

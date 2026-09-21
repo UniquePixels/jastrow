@@ -1,14 +1,17 @@
 /**
- * Full-corpus dry run (design doc §6.0, entry-body-model plan Task 11 —
- * the capstone). This module owns the §6.0 rule composition — `buildBody`
- * wires the rejoin/lettered/units/labels/grammar modules (Tasks 5-9) into
- * one `BodyEntry` — and the `bun body:dry-run` entry point, which streams
- * the full corpus through that composition and the round-trip verifier
- * and writes the gitignored blessing-gate report. Round-trip verification
- * lives in `dry-run-verify.ts` and the accumulator/tally/schema-sample
- * bookkeeping in `dry-run-report.ts` — neither depends back on this
- * module, so importing from them never forms a cycle; split only to stay
- * under the per-file line budget. Together the three files are Task 11.
+ * Full-corpus dry run (design doc §6.0). This module owns the §6.0
+ * rule composition — `buildBody` wires the rejoin, lettered, units,
+ * labels and grammar modules into one `BodyEntry` — and the
+ * `bun body:dry-run` entry point, which streams the full corpus
+ * through that composition and the round-trip verifier and writes the
+ * gitignored blessing-gate report.
+ *
+ * Round-trip verification lives in `dry-run-verify.ts` and the
+ * accumulator, tally and schema-sample bookkeeping in
+ * `dry-run-report.ts`. Neither depends back on this module, so
+ * importing from them never forms a cycle; the split is to stay under
+ * the per-file line budget.
+ *
  * Run: bun body:dry-run
  */
 import type { ValidateFunction } from 'ajv';
@@ -275,9 +278,9 @@ function buildTrace(e: SourceEntry): Trace {
 	};
 }
 
-/** Public composition contract (Task 11 step 1): every rule module wired
- * together into one `BodyEntry`, plus the quarantine `problems` a caller
- * (migrate.ts, later) needs for eyes-on review. */
+/** Public composition contract: every rule module wired together into
+ * one `BodyEntry`, plus the quarantine `problems` a caller needs for
+ * eyes-on review. */
 function buildBody(e: SourceEntry): { body: BodyEntry; problems: Problem[] } {
 	const { body, problems } = buildTrace(e);
 	return { body, problems };

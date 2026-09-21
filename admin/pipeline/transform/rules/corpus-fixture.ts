@@ -15,7 +15,7 @@
  * across the whole corpus, and it is by far the most expensive thing
  * any of these files does.
  *
- * Batch 7 added four corpus files, each building it again. On CI —
+ * Several corpus files each build it again. On CI —
  * slower than a laptop — the `Test` job reached 19m40s and was killed
  * mid-file, having passed every assertion it reached. Nothing was
  * wrong with the tests; there were simply four redundant copies of one

@@ -1,7 +1,6 @@
 /**
- * Full-corpus dry-run accumulator (design doc §6.0, entry-body-model
- * plan Task 11 — the capstone, split across two files only to stay
- * under the per-file line budget). Every function here is pure
+ * Full-corpus dry-run accumulator (design doc §6.0; split across two
+ * files only to stay under the per-file line budget). Every function here is pure
  * bookkeeping over an already-built `BodyEntry`/`SourceEntry` pair — it
  * has no dependency on `dry-run.ts`'s composition, so the two files
  * don't form an import cycle even though `dry-run.ts` (the entry point,
@@ -18,7 +17,7 @@ import type { BodyEntry, BodySense, SourceEntry } from './types.ts';
 const REPORT_PATH = 'data/source/body-dryrun-report.json';
 const SCHEMA_SAMPLE_STRIDE = 300;
 
-// The rids the Task 5-9 fixture files (baseline/origin-splits/stems/
+// The rids the fixture files (baseline/origin-splits/stems/
 // lettered/units-hard.jsonl — the same set dry-run.test.ts sweeps) name
 // literally, so every fixtured edge-case shape gets a schema check on the
 // full corpus walk regardless of where it lands relative to the stride.

@@ -5,7 +5,7 @@
  * `language_reference`, `nested-anchor-swallows-punctuation` owns
  * `definition` — which is the shape `rules/gershayim.ts` uses and the
  * shape the catalogue records: the two rows were catalogued over the
- * same records until the Task 10 audit re-scoped the first to its 755
+ * same records until an audit re-scoped the first to its 755
  * language-reference members. Before that re-scope both rows counted
  * the same 465 sense-side entries, so a single rule spanning both loci
  * would have been one transform answering to two `corpusCount`s that
@@ -154,8 +154,8 @@ function firstDuplicatePair(
  * read straight off the records rather than re-derived by whoever
  * reads the migration report: `)` 702 / `.` 52 / `,` 1 in
  * `language_reference`, `.` 387 / `)` 68 / nothing 20 in `definition`,
- * measured on the 2026-07-04 export by a corpus check retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`). The empty
+ * measured on the export by a corpus check retired in
+ * a retired corpus check. The empty
  * arm is the 20 JT pairs, and it is `''` rather than absent for the
  * same reason —
  * "trapped nothing" is a census bucket, not a missing measurement.
@@ -321,7 +321,7 @@ function overDefinitions(entry: SourceEntry): {
  * because a row in `PENDING` is exactly what `coverage()` expects to
  * find.
  *
- * RESOLVED 2026-08-26 (batch 4 task 7), and not by withdrawing the row
+ * RESOLVED, and not by withdrawing the row
  * to `judgment`: it is not a judgment call, it is repaired. The
  * registry gained a third list, `COVERED`, for exactly this state — a
  * row with no rule of its own and none owed, because another row's

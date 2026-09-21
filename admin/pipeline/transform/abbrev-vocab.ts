@@ -9,19 +9,18 @@
  * corpus-wide — "the token occurs mid-run inside an <i> elsewhere in
  * the corpus" — and `Rule.apply` sees one entry.
  *
- * Rather than widen the rule interface (rejected in batch 2 as bigger
- * than the rows are worth), the fact is computed once and pinned. The
- * pinning was falsifiable: a corpus check re-derived the list from
- * the snapshot and required an exact match, so it could not silently
- * drift away from the corpus it claims to describe. That re-derivation
- * is retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`);
- * on a new export it is a review-detector candidate (consolidation
- * spec §10) rather than a gate.
+ * Widening the rule interface to carry a corpus-wide fact costs more
+ * than these rows are worth, so the fact is computed once and pinned.
+ * NOTHING CHECKS THE PIN TODAY: the re-derivation that required an
+ * exact match against the snapshot is retired
+ * (`docs/v2/retired-corpus-checks.md`), and on a new export it is a
+ * review-detector candidate (consolidation spec §10) rather than a
+ * gate. Widening `FROZEN` by hand is therefore unguarded.
  *
- * ON A SOURCE RE-FETCH the frozen list describes a corpus no longer
- * on disk, which is a stale baseline and not a defect, the same
+ * ON A SOURCE RE-FETCH the frozen list describes a corpus that is no
+ * longer on disk, which is a stale baseline and not a defect — the
  * position `count.ts` takes. Re-baseline deliberately: run
- * `deriveAbbreviations` over the new snapshot and commit the new list.
+ * `deriveAbbreviations` over the new snapshot and commit the list.
  *
  * WHAT THE EVIDENCE IS. A period proves an abbreviation when the text
  * CONTINUES past it in a way a sentence-ending period cannot be
@@ -52,7 +51,7 @@
  * at all, since a `MID_RUN` token is space-free by construction.
  *
  * The other 9 of the 20 DO occur mid-run — Hif 4, Pl 9, Pi 2, Nif 1,
- * Pa 3, Af 2, pl 8, Nithpa 1, Part 346, counted 2026-08-26 through
+ * Pa 3, Af 2, pl 8, Nithpa 1, Part 346, counted through
  * `fieldsOf` on the pinned snapshot — the scope `deriveAbbreviations`
  * itself reads, and the scope every figure in this docstring is in.
  * Two of them rest on a single occurrence (`Nif` on `<i>Nif., to
@@ -66,12 +65,11 @@
  *   and admits `locusts`. The predicate, stated so the number is
  *   re-runnable: drop the `CONTINUES` test, and for every run whose
  *   trimmed body ends in `.` add the LAST space-free token of that
- *   body minus the period, unioned with the mid-run evidence.
- *   (Measured 2026-08-26 on the pinned snapshot. The 1,444 first
- *   recorded here named no predicate and no reading of it reproduces:
- *   the same widening taking the WHOLE body rather than its last
- *   token gives 1,745 and does not admit `locusts` at all.) It is not
- *   a widening but the removal of the discriminator: nearly every
+ *   body minus the period, unioned with the mid-run evidence. (The
+ *   same widening taking the WHOLE body rather than its last token
+ *   gives 1,745 and does not admit `locusts` at all, so quote the
+ *   predicate with the number.) It is not a widening but the removal
+ *   of the discriminator: nearly every
  *   italic gloss ends in a period, so nearly every gloss would become
  *   a label.
  * - Accepting a Hebrew-script continuation after the run (`<i>Du.</i>
@@ -195,15 +193,14 @@ const FROZEN: readonly string[] = [
  * the freeze does not reach. What the freeze does buy is a block on
  * property tacking at runtime. The residual is therefore real but
  * narrow: a caller that casts the type away could still mutate the
- * contents. Nothing in the tree does, and a corpus re-derivation
- * check — the whole set rebuilt from the corpus and compared member
- * for member — was the guard that would have caught it; that check
- * is retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+ * contents. Nothing in the tree does, and the only guard that would
+ * catch it — a re-derivation over the corpus comparing the rebuilt
+ * set member for member — is retired.
  *
  * The set stays EXPORTED rather than hidden behind membership
  * functions because it is read as a collection, not just queried:
- * `seam-space.ts` calls `.has` on a period-stripped token, and the
- * former re-derivation test read `.size` and iterated it. */
+ * `seam-space.ts` calls `.has` on a period-stripped token, and a
+ * re-derivation reads `.size` and iterates it. */
 const ABBREVIATIONS: ReadonlySet<string> = Object.freeze(new Set(FROZEN));
 
 /** One italic run's body, as the corpus writes it. */
@@ -215,13 +212,13 @@ const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
  *
  * The leading `(?<![^\s.])` is not a predicate change. It pins the
  * token to the START of its own non-space non-period run, and it is
- * here on `typescript:S8786` (SonarCloud, PR #49).
+ * here on SonarQube's `typescript:S8786`.
  *
- * The tempting reading of that finding is that it is a false positive:
- * `[^\s.]+` excludes `.`, so the token can never eat the period the
- * pattern goes on to require, and the match itself is therefore
- * unambiguous. That is true and it is not the point. The give-backs
- * are FUTILE, not absent — the engine still performs one per consumed
+ * That finding reads like a false positive: `[^\s.]+` excludes `.`,
+ * so the token can never eat the period the pattern goes on to
+ * require, and the match itself is unambiguous. True, and not the
+ * point. The give-backs are FUTILE, not absent — the engine still
+ * performs one per consumed
  * character before failing, and `matchAll` then restarts the whole
  * futile scan one character further into the same run. Measured on
  * JavaScriptCore over `'a'.repeat(n)` for n = 4k/8k/16k/32k:
@@ -243,10 +240,9 @@ const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
  * over all 960,800 strings of length <= 7 in the alphabet
  * `a A . ␣ , ; )` — every class boundary the pattern can see —
  * comparing offset, whole match AND captured token: 0 disagreements.
- * A corpus check re-derived the vocabulary from the corpus and
- * required it to equal `FROZEN` member for member; it did, at 93,
- * measured on the 2026-07-04 export by a check retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+ * Re-derived from the corpus, the vocabulary reproduced `FROZEN`
+ * member for member at 93 members; that check is retired, so a
+ * re-fetch must re-run it before `FROZEN` is trusted.
  */
 const MID_RUN = /(?<![^\s.])(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;
 /** The same continuation test applied to the field text following a

@@ -5,7 +5,7 @@ import { type Anchor, anchors, retarget } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
- * The two paren-boundary rows of batch 4, both of them a `(` or a `)`
+ * The two paren-boundary rows, both of them a `(` or a `)`
  * sitting on the wrong side of an `</a>`.
  *
  * ## What the two rows are
@@ -43,20 +43,17 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * chapter-only `data-ref` (`Tosefta Shabbat 16`, halakha dropped) and
  * 111 give it a halakha disagreeing with print. The catalogue CALLED
  * the two fixes one edit; that claim was retracted on both rows on
- * 2026-08-26 (`ONE EDIT FIXES BOTH` and `THE BOUNDARY FIX AND THE
+ * (`ONE EDIT FIXES BOTH` and `THE BOUNDARY FIX AND THE
  * HALAKHA FIX ARE THE SAME EDIT`, quoted where they stood), and what
  * survives is one WALK — `toseftaSplits` below — that both repairs
  * would consume.
  *
- * CORRECTED 2026-08-27 (fix/link-target-gate-cases): this section
- * opened *"**The halakha half is NOT shipped, and the reason is the
- * gate.**"*, and the rest of it described a live refusal. **The
- * halakha half now ships**, as `toseftaPrimaryHalakha` at the foot of
+ * ## WHY CASE 7 EXISTS: cases 1-5 refuse this repair
+ *
+ * The halakha half ships as `toseftaPrimaryHalakha` at the foot of
  * this module, declaring the repair through
- * `TransformResult.corroborated`. Every measurement below still holds
- * of cases 1-5 and the whole passage is kept rather than deleted,
- * because it is the reason case 7 exists — read it in the past tense,
- * and see the CASE 7 section that follows it for what changed.
+ * `TransformResult.corroborated`. What follows is the refusal every
+ * earlier case returns, which is the reason that case was written.
  *
  * The repair writes `Tosefta Shabbat 16:6` onto the primary,
  * `Tosefta Shabbat 16` being the primary's own input target and `:6`
@@ -70,7 +67,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  *     recombined "Tosefta Shabbat 16:6" is not a prefix of
  *     "Tosefta Shabbat 16" joined to a suffix of "Tosefta Shabbat 17:6"
  *
- * `rejoinsFrom`'s tightening of 2026-08-24 requires the part of the
+ * `rejoinsFrom`'s tightening requires the part of the
  * tail the split discards to be a prefix of the head. The only viable
  * split keeps `:6` and discards `Tosefta Shabbat 17`, which is not a
  * prefix of `Tosefta Shabbat 16`; the href side fails identically
@@ -112,18 +109,14 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * licenses it.
  *
  * Widening case 4 (or adding a sixth case) is a ruling on a SHARED
- * gate, not an implementation choice inside one rule module. Ruled
- * 2026-08-26 (Brian): the row is left unresolved, no
- * `toseftaPrimaryHalakha` is exported — registering a rule the gate
- * refuses would halt the migration rather than repair anything — and
- * the gate ruling becomes its own branch after batch 4. The
- * population is pinned in `paren-boundary.test.ts` so the figure
- * survives the wait.
+ * gate, not an implementation choice inside one rule module, and
+ * registering a rule the gate refuses would halt the migration rather
+ * than repair anything. The population is pinned in
+ * `paren-boundary.test.ts`.
  *
- * ## CASE 7 — what changed on 2026-08-27, and what it does not buy
+ * ## CASE 7 — what it licenses, and what it does not buy
  *
- * That branch is `fix/link-target-gate-cases` and the case is
- * `link-target.ts`'s **case 7**, spec
+ * The case is `link-target.ts`'s **case 7**, spec
  * docs/specs/2026-08-27-link-target-gate-cases.md §3. It licenses a
  * target assembled from a `head` the input holds and a `tail` that is
  * a literal suffix of `from`, a second input target, when the DIGITS
@@ -182,15 +175,12 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * stays exactly as wrong as it already was, neither repaired nor
  * damaged further. The two halves are independent in that direction.
  *
- * CORRECTED 2026-08-27 (fix/link-target-gate-cases): the claim above
- * that *"one edit fixes one row"* is retired too, though not because
- * the catalogue's original wording was right. TWO edits fix two rows —
- * `toseftaPrimaryHalakha` rewrites the primary's attributes and
- * `toseftaCloseParen` moves the variant's boundary, and they are
- * separate rules over one shared WALK, exactly as the section above
- * this one says. The independence recorded in the paragraph above is
- * what lets them be two, and it is also why the ORDER below is the
- * only thing tying them together.
+ * TWO edits fix two rows — `toseftaPrimaryHalakha` rewrites the
+ * primary's attributes and `toseftaCloseParen` moves the variant's
+ * boundary — and they are separate rules over one shared WALK. The
+ * independence recorded in the paragraph above is what lets them be
+ * two, and it is also why the ORDER below is the only thing tying
+ * them together.
  *
  * ## REGISTRATION ORDER, LOAD-BEARING AND SILENT WHEN WRONG
  *
@@ -212,7 +202,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * `count.ts` measures each rule ALONE against the pinned snapshot, so
  * it would keep reporting 414 while the composed migration repaired
  * nothing — green everywhere, nothing done, which is the worst shape
- * a defect can take here. Task 0's commutation gate will report the
+ * a defect can take here. The commutation gate reports the
  * pair as non-commuting, which is expected and must be declared; what
  * it will NOT tell you is which order is the correct one. This
  * paragraph is that answer.
@@ -345,7 +335,7 @@ function tagFree(tokens: readonly Token[], anchor: Anchor): boolean {
  * anchor attributes here; a regex over raw HTML would be a second one,
  * free to drift.
  *
- * Task 1 verified this selection against a textually adjacent regex
+ * This selection is verified against a textually adjacent regex
  * (`<a\b[^>]*>[^<]*</a>\s*\(<a\b[^>]*>[IVXLC]+\),\s*\d+</a>`) and the
  * two return the IDENTICAL entry set, because the separator between
  * the two anchors is the literal `" ("` in 414 of 414 occurrences with
@@ -507,14 +497,12 @@ function moveCloseParenOut(text: string): { moved: number; out: string } {
  * markup**, **0 unusable**, and **0 whose display is left unbalanced
  * once the leading `(` is discounted**.
  *
- * CORRECTED 2026-08-26 (impl/phase-2-batch-4): this closed *"so the
- * repair never strands a `)` inside a link"*, and that clause was a
- * measurement being read as a guarantee — nothing in the code
- * enforced it. `keepsParensBalanced` below now does, in the same
- * fail-closed spirit as `usable` and `tagFree`: measured over all
- * 32,512 entries the guard declines 0 members and the row still
- * reproduces at 225 / 214, so it is hardening against a re-fetch
- * rather than a live repair.
+ * "The repair never strands a `)` inside a link" is a MEASUREMENT,
+ * not a guarantee, so `keepsParensBalanced` below enforces it in the
+ * same fail-closed spirit as `usable` and `tagFree`: over all 32,512
+ * entries the guard declines 0 members and the row still reproduces
+ * at 225 / 214, so it hardens against a re-fetch rather than
+ * changing a live repair.
  *
  * Changes no target at all, so it declares nothing: the opening tag is
  * copied through byte for byte and only its POSITION relative to one
@@ -775,7 +763,7 @@ function writePrimaryHalakha(text: string): {
  * the display off that one named anchor.
  *
  * Its id is the only member of the gate's `CORROBORATION_DECLARERS`
- * allowlist, ruled 2026-08-27: case 7 licenses a mint to THIS RULE and
+ * allowlist, ruled: case 7 licenses a mint to THIS RULE and
  * refuses every other declarer outright. That is not a courtesy to this
  * rule — the clauses license 29 of the 68 analogous same-work pairs
  * (`Exodus 24:25`, which is not a verse), and what keeps the live
