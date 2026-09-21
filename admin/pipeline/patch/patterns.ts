@@ -37,8 +37,14 @@ interface Pattern {
 	entangledWith?: string[];
 	/** Stable kebab-case key. */
 	id: string;
-	/** Why the pattern was discarded, citing the v2 model. Present on
-	 * `discarded` rows only (triage: docs/archive/pattern-triage.md). */
+	/** The row's audit trail: why it was discarded citing the v2 model,
+	 * why it was routed, and why it was kept or dropped as a cutover
+	 * blocker. Not confined to `discarded` rows, as this said until step
+	 * 11 — `candidate` rows carried one long before, and every row the
+	 * step-11 triage ruled records that ruling here. The live record of
+	 * that triage, with each recount's predicate and control, is
+	 * docs/v2/research-backlog.md; the earlier round is archived at
+	 * docs/archive/pattern-triage.md. */
 	reason?: string;
 	/** Discovery round that first recorded it; 0 for pre-existing. */
 	round: number;

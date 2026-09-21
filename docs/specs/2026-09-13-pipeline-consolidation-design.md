@@ -591,6 +591,7 @@ stays runnable on its own. *(Step 10 renamed three of these:
 | **Admin tool: a page/column edit must also update `data/page-index/entries.jsonl`** (R2) | admin tool spec |
 | Review rows → tracker issues; idempotent on `(rid, kind)`; batching for volume (thousands of rows will not work as one issue each) | admin tool spec |
 | `compile.ts` | data-architecture §3 |
+| **Group D precondition (step 11):** the nine sense-structure classes deferred on 2026-09-20 must be examined before sense-level addressing is introduced (D8 lifted) **or** the admin tool opens hand editing, whichever comes first. While nothing addresses a sense — 0 of 71,376 internal refs carry a sense pointer — a renumbering is free; after either event it collides with public links and hand edits, per entry through §3.2's merge | `compile.ts` (data-architecture §3) **and** the admin tool spec; `docs/v2/research-backlog.md` holds the nine and the evidence |
 | Port judgment-class detectors from archived research code | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | `docs/v2/review-report.md`'s `defer` rows, then the tracker |
 | **Sefaria URL compatibility:** a route where swapping `sefaria.org` for `jastrow.app` finds the word. Their canonical name is `Jastrow,_<headword>` using the export's `headword` string verbatim, so the mapping is a column we already hold; the work is routing and percent-encoding | `docs/v2/url-routes.md`, app work |
@@ -698,7 +699,7 @@ Steps 1–4 have shipped and are kept as history.
    `tranche-01`, on pre-patch text) left 101 escalations the residue
    sweep never revisited, on top of the 487. It also found 32 open
    research classes still flagged `blocking: true` (step 11).
-10. *Shipped (#TBD).* Terms sweep (§1.1, `docs/glossary.md`):
+10. *Shipped (#100).* Terms sweep (§1.1, `docs/glossary.md`):
     documents say source, entry, compiled, reference and correction
     data, and import for migrate; `package.json` scripts become
     `data:fetch`, `data:import` (and `data:compile` when built).
@@ -735,19 +736,91 @@ Steps 1–4 have shipped and are kept as history.
     `holam-migrated-off-mater-vav`, which are Hebrew vowel migration;
     and "ground truth" for evidence read straight off the print page.
 
-11. Research backlog triage (added 2026-09-18). The pattern catalogue
-    still flags 32 open classes `blocking: true` — 31 on the `judgment`
-    route and `open-paren-in-rtl-span` on `blocked`, 6,489 instances
-    as catalogued — under sweep-tiering T6 ("blocking = breaks the
-    render or would be baked in"). The 2026-08-15 triage ruling that
-    no sweep *escalation* blocks shipping does not reach these class
-    flags, and nothing reconciled the two. For each class: recount it
-    on current entry data (some were flagged before later rules
-    changed the text), draft keep-blocking or defer against T6, and
-    the maintainer rules. A class that still blocks is fixed before
-    publication (§3.1.1); the rest go to the tracker with the backlog.
-    The 23 blocking classes on the `transform` route each have a
-    registered rule and are not in scope.
+11. *Shipped (#112).* Research backlog triage (added 2026-09-18).
+    The pattern catalogue flagged 32 open classes `blocking: true` — 31
+    on the `judgment` route and `open-paren-in-rtl-span` on `blocked`,
+    6,489 instances as catalogued — under sweep-tiering T6 ("blocking =
+    breaks the render **or** would be baked in"). The 2026-08-15 triage
+    ruling that no sweep *escalation* blocks shipping did not reach
+    these class flags, and nothing reconciled the two. The 23 blocking
+    classes on the `transform` route each have a registered rule and
+    were not in scope — verified rather than assumed: `coverage()` over
+    the catalogue reports 56 `transform` rows, 56 registered, `PENDING`
+    empty and `unaccounted` empty, and `registry.test.ts` asserts it on
+    every `bun qa`.
+
+    **What the recount could and could not say.** Each class was
+    recounted on the 32,512 committed entry files with a stated
+    predicate, and then the *recount itself* was classified, because a
+    predicate written from a description is not the detector that found
+    the class. Nine reproduced their catalogued count (Δ ≤ 25%, no added
+    clause); two came back zero, each with a positive control proving
+    the predicate still fires; fifteen measured the predicate rather
+    than the class; six had no honest predicate at all. So 11 of 32
+    carry a count that is evidence. The detectors for the rest are
+    archived at `refs/tags/archive/v2-research-2026-09` and unported —
+    §10 work, one class per PR — and nothing in `v2` detects these
+    classes today: the import run emits six review-row kinds
+    (`headword-unparsed`, `slug-unsafe`, `markup-carry`,
+    `page-confidence-low`, `page-confidence-medium`,
+    `review-deferred`), none of them a judgment class, and nothing on
+    the import path imports from `research/`. §3.1's "plus the judgment
+    classes' detectors as they are wired" is still entirely unwired.
+
+    The clearest failure was instructive: `citation-tail-truncation` is
+    catalogued at 657 and the stand-in predicate reported 9,861, because
+    ending at a citation is the *normal* shape of a Jastrow entry. The
+    predicate was wrong, not the catalogue.
+
+    **Two stated reasons were stale against the v2 entry schema**, and
+    neither had been caught. `common-gender-inexpressible` reads
+    "content.morphology has a closed 9-value vocabulary that never
+    contains it"; `grammar.gender`'s enum is `["m","f","c"]` and does
+    contain it — 12,557 entries carry a gender and 0 carry `c`, so the
+    class is a backfill, not an impossibility. `stem-head-in-child-sense`
+    and `stem-label-not-a-binyan-name` name `grammar.binyan_form` /
+    `grammar.verbal_stem`, fields the schema has never had: stems live
+    in `stems[]` as `stem` / `forms` / `senses`.
+
+    **The ruling (maintainer, 2026-09-20).** An issue that does not
+    block publication is recorded and handled later; the bar is what the
+    reader sees on the page, not what a fix might cost afterwards —
+    which is what the `blocking` field's own docstring already said
+    ("This gates the CUTOVER, not the work"). Five classes stay
+    blocking, all render-visible and all with a reproduced count:
+    `empty-stem-section` (342 — a `stems[]` element with `"senses": []`
+    renders as an empty binyan heading; `A00338` carries an `Ithpa.` one),
+    `stranded-open-bracket` (85), `superscript-subsection-contradicts-link-sub-section`
+    (33 — the link lands on the wrong sub-section),
+    `homograph-roman-stranded-in-definition` (22 — the homograph number
+    is part of the headword namespace, so of the slug), and
+    `open-paren-in-rtl-span` (88 — bidi). Sixteen defer to the tracker.
+    Two are `discarded`, not deferred: `stem-head-in-child-sense`
+    100 → 0 (the body model lifted stem heads into `stems[]`; control —
+    the walk sees 510 child senses in 204 entries and 21 binyan-opening
+    glosses, every one top-level) and
+    `sense-number-outside-closed-grammar` 6 → 0 (the transforms consumed
+    the starred markers; control — all six named rids present, only 3
+    entries in the corpus carry a `*N)` and none is one of the six).
+
+    **Nine sense-structure classes defer with a precondition** (§10).
+    They are T6's bake-in limb in its purest form, and the measurement
+    that decided them is that *nothing addresses a sense today*: all
+    71,376 internal refs are entry-level and 0 carry a sense pointer,
+    the slug index has no sense component, `compile.ts` is unwritten and
+    the admin tool does not exist, so there are no hand edits. That is
+    D8 ("no deeper-than-entry addressing (for now)"), a decision rather
+    than an accident. Renumbering senses is therefore free right now and
+    expensive after either event, so the nine bind to those events, not
+    to the cutover — the same shape as R10, which binds at publication
+    and not during development. The fix is also the dangerous half:
+    `senses[0]` is the gloss head, so dropping an empty lead consumes
+    sense 1 invisibly to text-level gates.
+
+    32 → 5 non-`transform` classes hold up the cutover. The triage, its
+    predicates, its controls and the ruling are
+    [`docs/v2/research-backlog.md`](../v2/research-backlog.md); the plan is
+    [`docs/superpowers/plans/2026-09-20-consolidation-step11.md`](../superpowers/plans/2026-09-20-consolidation-step11.md).
 
 ## 12. Changelog
 
@@ -769,3 +842,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-18 | Step 9 reworked (maintainer): import writes `docs/v2/review-report.md`, every review row tagged `publication: blocks / defer / note` by kind, and v2 publishes only with no `blocks` rows (§3.1.1); research leftovers go to a hand-written `docs/v2/research-backlog.md`, imported into the tracker then archived — the hand-written `review-queue.md` is withdrawn. Step 11 added: triage the 32 open research classes still flagged as blocking the cutover. Four §9 figures corrected by measurement; `sefaria-report.md` §6b and §16 added, register rows #6b and #16 recounted; step 8's PR number backfilled |
 | 2026-09-18 | Step 9 shipped: `docs/v2/research-backlog.md` replaces `docs/v2/review-queue.md` (deleted, links repointed), carrying the four research lists and a new "Blocks the v2 cutover" section generated from `patterns.jsonl`'s 32 open `blocking` classes for step 11. Nine gates green, `migration-blessing.md` byte-identical; review report 311 `blocks`, 2,204 `defer`, 0 `note`, 2,515 rows |
 | 2026-09-19 | Step 10: `pipeline:fetch` → `data:fetch`, `pipeline:migrate` → `data:import`, `pipeline:patches` → `patch:replay`; the `data:` prefix is closed to the three data-moving commands and no others. Living documents take the glossary's words; code identifiers, attributed and dated text, `docs/superpowers/plans/` and `docs/archive/` keep the old ones, and §1.1 states the rule and names the three look-alike populations a blind sweep would have corrupted. `docs/glossary.md` loses its "Script today" column, gains `patch:replay` and two more retired terms, and its reference-data row gains the slug index step 7 added. Review found two rulings that were struck in their home spec but survived in the specs citing it: D14's one-shot framing (2 live instances) and rule 6's v1 page source, superseded 2026-09-06 (5 live instances, of which CodeRabbit named 2 — including the data-architecture §2.2 `page` row, in the very spec whose §6 carries the strike). Both audited across the tree and corrected with dated pointers |
+| 2026-09-20 | Step 11, the last of the sequence: the 32 non-`transform` classes flagged `blocking: true` recounted on the committed entry tree and ruled. The recount was itself classified, because a predicate written from a class description is not the detector that found it — 9 reproduced, 2 are controlled zeros, 15 measured the predicate, 6 had no honest predicate; 11 of 32 counts are evidence. Ruling (maintainer): an issue that does not block publication is recorded and handled later, the bar being what the reader sees. 32 → 5 stay blocking, 16 defer, 2 are `discarded` with controls, and 9 sense-structure classes defer with a §10 precondition — nothing addresses a sense today (0 of 71,376 refs carry a sense pointer; D8), so renumbering is free until `compile.ts` mints sense-level addresses or the admin tool opens hand editing. Verified rather than assumed: all 56 `transform` rows are registered, `PENDING` is empty. Two class reasons were stale against the entry schema (`grammar.gender` does hold `c`; `grammar.verbal_stem` never existed), and `Pattern.reason`'s "discarded rows only" docstring was corrected. Carry-ins cleared: step 10's `#TBD` → `#100`, and the flow diagram no longer draws the CI Rebuild job R9 withdrew |
