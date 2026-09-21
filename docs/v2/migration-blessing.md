@@ -3477,9 +3477,6 @@ Truth:
 		"number": 471,
 		"column": "b"
 	},
-	"grammar": {
-		"number": "pl"
-	},
 	"senses": [
 		{
 			"gloss": "pr. n. pl.<i>Ḥallamish</i> (<i>Rock</i>), a place near Naveh (v. <cite ref=\"N00316\"><he>נָוֶה</he> III</cite>) and inhabited by hostile gentiles. ",
@@ -4198,9 +4195,6 @@ Truth:
 	"page": {
 		"number": 933,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{
