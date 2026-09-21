@@ -15,16 +15,27 @@
  * two; the third is that spec's blind-spot problem answered rather
  * than recorded.
  *
- * A FOURTH gate joined them in batch 6b, and it is the only one that
- * does not run for every rule: `checkNoLostText` mirrors the text
- * sub-multiset in the other direction — what did the input hold that
- * the output does not? — and runs for `structural-repairs` rules
- * alone. The three above are blind to deletion by construction, which
- * is survivable while a rule rewrites a glyph in place and is not once
- * a rule MOVES text between fields or senses, where "moved" and
- * "dropped" differ only in whether the text arrives. Why it is scoped
- * rather than global, and what is pinned in place of a global run, is
- * in `no-lost-text.ts` and batch-6b spec §2.3.
+ * A FOURTH gate joined them in batch 6b: `checkNoLostText` mirrors
+ * the text sub-multiset in the other direction — what did the input
+ * hold that the output does not? The three above are blind to
+ * deletion by construction, which is survivable while a rule rewrites
+ * a glyph in place and is not once a rule MOVES text between fields
+ * or senses, where "moved" and "dropped" differ only in whether the
+ * text arrives.
+ *
+ * It ran for `structural-repairs` rules alone until 2026-09-21, which
+ * left a `text-repairs` rule free to delete text past all four gates.
+ * It now runs for every phase, crediting the per-rule allowance in
+ * `no-lost-text.ts`'s `LOSS_ALLOWANCES` — the measured retrofit onto
+ * the ten shipped text-phase rules that do drop codepoints. A rule
+ * that is not in that table may not lose one.
+ *
+ * A FIFTH check runs here and is not a gate at all: `Object.is` on
+ * the rule's input and output. `types.ts` requires a rule to return a
+ * NEW entry and called the contract its own defence, because every
+ * gate above compares VALUES — hand them one object twice and all
+ * four read the already-mutated text on both sides and report clean.
+ * The contract is now checked rather than trusted.
  *
  * `rule.id` reaches the link gate as well as the text one, since
  * 2026-08-27: link-target case 7 licenses a MINTED address only for
@@ -35,7 +46,7 @@
 import type { SourceEntry } from '../body/types.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { checkMarkup } from './markup.ts';
-import { checkNoLostText } from './no-lost-text.ts';
+import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';
 import { checkNoNewText } from './no-new-text.ts';
 import { RULES } from './registry.ts';
 import type { Rule, TransformPhase, TransformRecord } from './types.ts';
@@ -60,16 +71,29 @@ function applyTransforms(
 		}
 		const before = entry;
 		const result = rule.apply(before);
+		// `types.ts` on `Rule.apply`: a rule MUST return a new entry, or
+		// its input unchanged. An in-place mutator returns the object it
+		// was handed, so `before` and `result.entry` are one object and
+		// every gate below compares the mutated text with itself. The
+		// unchanged case returns the same reference too, which is why the
+		// records are what separate them: identity plus a reported change
+		// is the violation, identity with nothing reported is the normal
+		// no-match return.
+		if (Object.is(before, result.entry) && result.records.length > 0) {
+			throw new Error(
+				`${rule.id}: mutated its input in place (${result.records.length} record(s) reported on the same object); \`Rule.apply\` must return a new entry`,
+			);
+		}
 		const problems = [
 			...checkNoNewText(before, result.entry, rule, result.copied),
 			...checkMarkup(before, result.entry),
 			...checkLinkTargets(before, result.entry, result, rule.id),
-			// The fourth gate, and the only one scoped to a phase. See
-			// `no-lost-text.ts` for why it is `structural-repairs` only
-			// and what is pinned in place of a global run.
-			...(rule.phase === 'structural-repairs'
-				? checkNoLostText(before, result.entry, result.removes)
-				: []),
+			...checkNoLostText(
+				before,
+				result.entry,
+				result.removes,
+				LOSS_ALLOWANCES.get(rule.id),
+			),
 		];
 		if (problems.length > 0) {
 			throw new Error(`${rule.id}: ${problems.join('; ')}`);
