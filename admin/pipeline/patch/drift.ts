@@ -25,6 +25,7 @@ import {
 	applyPatch,
 	countOccurrences,
 	countTarget,
+	formsBlock,
 	PatchApplyError,
 	parseTarget,
 	type SemanticPatch,
@@ -113,6 +114,18 @@ function classifyDrift(
 	}
 	if (patch.op === 'unref') {
 		return 'upstream-fixed';
+	}
+	if (patch.op === 'reform') {
+		// The headword block moved. Upstream FIXED it only if the block
+		// now reads exactly as this patch would have written it;
+		// anything else is a change we have not seen.
+		const written = [
+			patch.payload.headword,
+			...patch.payload.alt_headwords,
+		].join('\n');
+		return formsBlock(entry) === written
+			? 'upstream-fixed'
+			: 'upstream-changed';
 	}
 	if (patch.op === 'join') {
 		return holdsFold(entry, patch) ? 'upstream-fixed' : 'upstream-changed';

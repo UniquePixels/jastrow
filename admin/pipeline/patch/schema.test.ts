@@ -4,6 +4,7 @@ import {
 	applyPatch,
 	contentAnchor,
 	countOccurrences,
+	flattenContent,
 	PatchApplyError,
 	parsePatch,
 	parsePatchLine,
@@ -484,6 +485,114 @@ describe('unref', () => {
 				target: `refs[Yoma 2a]:${contentAnchor('Yoma 2a')}`,
 			}),
 		).toThrow('refs[…] targets are only for unref');
+	});
+});
+
+describe('reform', () => {
+	const entry: SourceEntry = {
+		alt_headwords: ['b', 'c'],
+		content: { senses: [{ definition: 'x', number: '1)' }] },
+		headword: 'a',
+		rid: 'T00001',
+	};
+	const block = 'a\nb\nc';
+	const reform = (
+		payload: Record<string, unknown>,
+		before = block,
+	): SemanticPatch =>
+		patchFor(before, '', {
+			op: 'reform',
+			payload,
+			target: `forms:${contentAnchor(before)}`,
+		});
+
+	it('rewrites the whole block, splitting one form into two', () => {
+		const after = applyPatch(
+			entry,
+			reform({ alt_headwords: ['b1', 'b2', 'c'], headword: 'a' }),
+		);
+		expect(after.headword).toBe('a');
+		expect(after.alt_headwords).toEqual(['b1', 'b2', 'c']);
+	});
+
+	it('joins torn halves into one headword and drops the key when empty', () => {
+		const torn: SourceEntry = {
+			alt_headwords: ['\u05C1\u05D5\u05BC\u05E3'],
+			content: { senses: [{ definition: 'x', number: '1)' }] },
+			headword: '\u05E9',
+			rid: 'T00001',
+		};
+		const joined = applyPatch(
+			torn,
+			reform(
+				{ alt_headwords: [], headword: '\u05E9\u05C1\u05D5\u05BC\u05E3' },
+				'\u05E9\n\u05C1\u05D5\u05BC\u05E3',
+			),
+		);
+		expect(joined.headword).toBe('\u05E9\u05C1\u05D5\u05BC\u05E3');
+		expect('alt_headwords' in joined).toBe(false);
+	});
+
+	it('never mutates the entry it is given', () => {
+		applyPatch(entry, reform({ alt_headwords: [], headword: 'z' }));
+		expect(entry.headword).toBe('a');
+		expect(entry.alt_headwords).toEqual(['b', 'c']);
+	});
+
+	it('fails loudly when the block moved under the patch', () => {
+		const moved: SourceEntry = { ...entry, alt_headwords: ['b'] };
+		expect(() =>
+			applyPatch(moved, reform({ alt_headwords: [], headword: 'a' })),
+		).toThrow(PatchApplyError);
+	});
+
+	it('only pairs reform with a forms target', () => {
+		expect(() =>
+			patchFor('a', '1)', {
+				op: 'reform',
+				payload: { alt_headwords: [], headword: 'a' },
+			}),
+		).toThrow('reform needs a forms:<8-hex-anchor> target');
+	});
+
+	it('rejects any other op with a forms: target', () => {
+		expect(() =>
+			patchFor('a', '', {
+				op: 'retag',
+				payload: { number: '1)' },
+				target: `forms:${contentAnchor('a')}`,
+			}),
+		).toThrow('forms: targets are only for reform');
+	});
+
+	it('rejects a payload with an empty headword or a newline in a form', () => {
+		expect(() => reform({ alt_headwords: [], headword: '' })).toThrow(
+			'non-empty headword',
+		);
+		expect(() => reform({ alt_headwords: ['b\nc'], headword: 'a' })).toThrow(
+			'must not contain a newline',
+		);
+	});
+
+	it('refuses a reform that claims more than one headword block', () => {
+		// An entry has exactly one block; a count of 2 would parse, pass
+		// expected_before, and rewrite a copy no caller checks.
+		expect(() =>
+			patchFor(block, '', {
+				expected_occurrences: 2,
+				op: 'reform',
+				payload: { alt_headwords: [], headword: 'a' },
+				target: `forms:${contentAnchor(block)}`,
+			}),
+		).toThrow(
+			'reform expected_occurrences and occurrence_index must both be 1',
+		);
+	});
+
+	it('counts the block as the byte pool the no-new-text gate reads', () => {
+		// The pool must SEE the forms, or a reform could invent bytes
+		// there and pass a gate measuring only `content`.
+		expect(flattenContent(entry)).toContain(block);
 	});
 });
 

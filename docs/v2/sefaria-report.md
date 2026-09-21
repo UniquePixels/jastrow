@@ -401,5 +401,46 @@ no `1)` before it.
 
 ---
 
+## 17. Combining marks stored out of canonical (NFC) order (201 strings, 175 entries)
+
+201 strings are not in Unicode Normalization Form C: the marks that
+stack on a letter are stored in a non-canonical order, and a few
+Latin/Greek letters are stored as a base plus a separate diacritic
+rather than the precomposed character. The text is canonically
+equivalent either way and renders identically, so nothing is visibly
+wrong — but any byte-exact comparison (search, de-duplication, a
+lookup keyed on a headword) silently fails to match.
+
+**Breakdown**
+
+| Field | Strings |
+|---|---|
+| `content.senses` | 169 |
+| `plural_form` | 12 |
+| `refs` | 8 |
+| `alt_headwords` | 6 |
+| `language_reference` | 6 |
+
+165 of the 201 are Hebrew mark-order only; the other 36 compose a
+Latin or Greek diacritic (`Ḥ`, `ḳ`, `ḫ`, `ṇ`, `Ἀ`, `ά`).
+
+**Example — `A00018`, an `alt_headwords` item** ('אַכָּה'): the dagesh
+is stored before the qamats, where NFC puts the vowel first.
+
+```
+stored:  U+05D0 U+05B7 U+05DB U+05BC U+05B8 U+05D4
+NFC:     U+05D0 U+05B7 U+05DB U+05B8 U+05BC U+05D4
+```
+
+**Fix:** normalize every string field to NFC on export. The operation
+is lossless and verifiable — `NFD(before) == NFD(after)` holds for all
+201 — and no Hebrew letter+point sequence composes into a presentation
+form, because those are on Unicode's composition-exclusion list.
+
+**Detection:** for every string in the record, compare it with its own
+NFC form; any inequality is an instance.
+
+---
+
 *Contact: brian@uniquepixels.xyz · jastrow.app. Full rid lists for
 any class, and the detection scripts, available on request.*
