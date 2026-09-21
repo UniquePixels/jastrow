@@ -698,7 +698,7 @@ Steps 1–4 have shipped and are kept as history.
    `tranche-01`, on pre-patch text) left 101 escalations the residue
    sweep never revisited, on top of the 487. It also found 32 open
    research classes still flagged `blocking: true` (step 11).
-10. *Shipped (#TBD).* Terms sweep (§1.1, `docs/glossary.md`):
+10. *Shipped (#100).* Terms sweep (§1.1, `docs/glossary.md`):
     documents say source, entry, compiled, reference and correction
     data, and import for migrate; `package.json` scripts become
     `data:fetch`, `data:import` (and `data:compile` when built).
