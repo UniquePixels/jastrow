@@ -6,12 +6,12 @@ and the open questions live in [headword-design.md](headword-design.md).
 
 | Shape | Rows | Main | Alt | Flagged by the processor |
 |---|---|---|---|---|
-| H1 homograph list / stray comma | 10 | 10 | 0 | 10 |
+| H1 homograph list / stray comma | 10 | 10 | 0 | 3 |
 | H2 parentheses | 11 | 9 | 2 | 11 |
 | H3 query mark | 2 | 1 | 1 | 2 |
 | H4 "=" variant pair | 2 | 2 | 0 | 2 |
 | H5 ellipsis fragment | 8 | 0 | 8 | 8 |
-| H6 multi-word | 276 | 9 | 267 | 276 |
+| H6 multi-word | 276 | 9 | 267 | 271 |
 | S1 slug carries notation | 2 | 0 | 0 | 2 |
 | X1 starts with a vowel/dagesh mark | 5 | 2 | 3 | 0 |
 | X2 final letter mid-word | 1 | 1 | 0 | 0 |
@@ -27,15 +27,15 @@ and the open questions live in [headword-design.md](headword-design.md).
 | rid | role | text | slug | note | flagged |
 |---|---|---|---|---|---|
 | [A00883](https://jastrow.app/#rid:A00883) | headword | אוּרְיָה  I, II | אוריה-1 | cross-reference to two homographs | yes |
-| [A02356](https://jastrow.app/#rid:A02356) | headword | אִסְטְוָוא  I, II, | אסטווא | cross-reference to two homographs | yes |
-| [B00407](https://jastrow.app/#rid:B00407) | headword | בְּזָא  I, II, | בזא-1 | cross-reference to two homographs | yes |
-| [D00844](https://jastrow.app/#rid:D00844) | headword | דִּלְמָא  I, II, | דלמא | cross-reference to two homographs | yes |
+| [A02356](https://jastrow.app/#rid:A02356) | headword | אִסְטְוָוא  I, II, | אסטווא | cross-reference to two homographs |  |
+| [B00407](https://jastrow.app/#rid:B00407) | headword | בְּזָא  I, II, | בזא-1 | cross-reference to two homographs |  |
+| [D00844](https://jastrow.app/#rid:D00844) | headword | דִּלְמָא  I, II, | דלמא | cross-reference to two homographs |  |
 | [E00508](https://jastrow.app/#rid:E00508) | headword | הָכֵין  I, II | הכין | cross-reference to two homographs | yes |
 | [G00675](https://jastrow.app/#rid:G00675) | headword | זָרָה  I, II | זרה-2 | cross-reference to two homographs | yes |
-| [B00098](https://jastrow.app/#rid:B00098) | headword | בַּד  V | בד-6 | double space | yes |
-| [B00443](https://jastrow.app/#rid:B00443) | headword | בִּזְיוּנָא , II | בזיונא-3 | stray comma | yes |
-| [C00329](https://jastrow.app/#rid:C00329) | headword | גַּוָּוזָא , II | גווזא-2 | stray comma | yes |
-| [M00447](https://jastrow.app/#rid:M00447) | headword | מוֹזְלָא , I | מוזלא-1 | stray comma | yes |
+| [B00098](https://jastrow.app/#rid:B00098) | headword | בַּד  V | בד-6 | double space |  |
+| [B00443](https://jastrow.app/#rid:B00443) | headword | בִּזְיוּנָא , II | בזיונא-3 | stray comma |  |
+| [C00329](https://jastrow.app/#rid:C00329) | headword | גַּוָּוזָא , II | גווזא-2 | stray comma |  |
+| [M00447](https://jastrow.app/#rid:M00447) | headword | מוֹזְלָא , I | מוזלא-1 | stray comma |  |
 
 ## H2 parentheses (11)
 
@@ -95,7 +95,7 @@ and the open questions live in [headword-design.md](headword-design.md).
 | [U01905](https://jastrow.app/#rid:U01905) | alt | מִגְדַּל שׁ׳ | שר-1 | abbrev+word | yes |
 | [V00924](https://jastrow.app/#rid:V00924) | alt | בֵּי תַ׳ | תרבו | abbrev+word | yes |
 | [A00436](https://jastrow.app/#rid:A00436) | headword | אדני מריונים | אדני-מריונים | other phrase | yes |
-| [A01161](https://jastrow.app/#rid:A01161) | alt | אַיְידָא אֵידָא | אידין | other phrase | yes |
+| [A01161](https://jastrow.app/#rid:A01161) | alt | אַיְידָא אֵידָא | אידין | other phrase |  |
 | [A01881](https://jastrow.app/#rid:A01881) | headword | בֵּי אֱלִישָׁפָט | בי-אלישפט | other phrase | yes |
 | [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיוּנָא | בזיונא-2 | other phrase | yes |
 | [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיָינָא | בזיונא-2 | other phrase | yes |
@@ -354,12 +354,12 @@ and the open questions live in [headword-design.md](headword-design.md).
 | [D00004](https://jastrow.app/#rid:D00004) | alt | דא דא | דא-2 | two forms / reduplication | yes |
 | [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | הא-3 | two forms / reduplication | yes |
 | [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | חרחר-1 | two forms / reduplication | yes |
-| [I00158](https://jastrow.app/#rid:I00158) | headword | טְוִיָּיה טְוִיָּה | טוייה-טויה | two forms / reduplication | yes |
-| [I00654](https://jastrow.app/#rid:I00654) | headword | טְפֵילָה טְפֵילָא | טפילה-טפילא | two forms / reduplication | yes |
+| [I00158](https://jastrow.app/#rid:I00158) | headword | טְוִיָּיה טְוִיָּה | טוייה-טויה | two forms / reduplication |  |
+| [I00654](https://jastrow.app/#rid:I00654) | headword | טְפֵילָה טְפֵילָא | טפילה-טפילא | two forms / reduplication |  |
 | [M01181](https://jastrow.app/#rid:M01181) | alt | מילי מילה | מילי-2 | two forms / reduplication | yes |
 | [M01299](https://jastrow.app/#rid:M01299) | alt | מִירִי מִירְיָאדִין | מירי | two forms / reduplication | yes |
-| [M02116](https://jastrow.app/#rid:M02116) | headword | מַעְיָינָא מַעְיָנָא | מעיינא-מעינא | two forms / reduplication | yes |
-| [M02868](https://jastrow.app/#rid:M02868) | alt | מְשֵׁיזְבָא מְשֵׁיזִיב | משיזב | two forms / reduplication | yes |
+| [M02116](https://jastrow.app/#rid:M02116) | headword | מַעְיָינָא מַעְיָנָא | מעיינא-מעינא | two forms / reduplication |  |
+| [M02868](https://jastrow.app/#rid:M02868) | alt | מְשֵׁיזְבָא מְשֵׁיזִיב | משיזב | two forms / reduplication |  |
 
 ## S1 slug carries notation (2)
 
