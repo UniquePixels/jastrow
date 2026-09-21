@@ -56,13 +56,16 @@ describe('the --write guard (spec R1, permanent)', () => {
 		const dir = `${TMP}/partial`;
 		await Bun.write(`${dir}/Z/Z09999.json`, '{}\n');
 		expect(await outputTreeIsEmpty(dir)).toBe(false);
-		expect(refuseUnlessEmpty(dir)).rejects.toThrow(/writes once/u);
+		// Awaited, because `.rejects` returns a promise: unawaited, the
+		// case ends before the assertion runs and passes whatever the
+		// guard did (Sonar S8780).
+		await expect(refuseUnlessEmpty(dir)).rejects.toThrow(/writes once/u);
 	});
 
 	it('names the directory it refused', async () => {
 		const dir = `${TMP}/named`;
 		await Bun.write(`${dir}/A/A00001.json`, '{}\n');
-		expect(refuseUnlessEmpty(dir)).rejects.toThrow(dir);
+		await expect(refuseUnlessEmpty(dir)).rejects.toThrow(dir);
 	});
 });
 
