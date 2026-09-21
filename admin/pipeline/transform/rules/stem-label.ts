@@ -28,11 +28,12 @@
  *
  * ## What it deletes
  *
- * Two characters, ` .`, declared through `removes`. Nothing reads that
- * declaration in `text-repairs` — the loss gate is scoped to
- * `structural-repairs` (spec §2.3) — but the deletion is real and the
- * declaration is the record of it, correct in advance of any later
- * widening of the gate.
+ * Two characters, ` .`, declared through `removes`. That declaration
+ * was unread when it was written — the loss gate was scoped to
+ * `structural-repairs` (spec §2.3) — and it was made anyway because
+ * the deletion is real. The gate widened on 2026-09-21 and now reads
+ * it: 3 entries, 6 codepoints, and deleting the declaration would
+ * fail `bun data:import`.
  *
  * ## Why the label survives and the debris does not
  *

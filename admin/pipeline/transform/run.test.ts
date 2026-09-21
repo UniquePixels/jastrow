@@ -54,9 +54,10 @@ describe('applyTransforms', () => {
 		expect(out.entry.content.senses[0]?.definition).toBe('a  b');
 	});
 
-	// `run.ts:77` carries the previous rule's output forward as the next
-	// rule's input. With one rule in the list that line is unobservable —
-	// the loop's result is the only rule's result either way.
+	// The loop carries the previous rule's output forward as the next
+	// rule's input (`({ entry } = result);`). With one rule in the list
+	// that line is unobservable — the loop's result is the only rule's
+	// result either way.
 	it('feeds each rule the previous rule output', () => {
 		// A reordering, so the first rule's own output still passes every
 		// gate: this case is about the carry-forward, not about them.
@@ -177,6 +178,30 @@ describe('applyTransforms', () => {
 				phase: 'text-repairs',
 			};
 			expect(() => applyTransforms(entry(), 'text-repairs', [mutator])).toThrow(
+				/mutated its input in place/u,
+			);
+		});
+
+		// The realistic shape, and the one `Object.is` alone cannot see:
+		// the rule mutates the sense tree and returns a shallow spread, so
+		// the top-level objects differ while the array underneath is one
+		// object. Every gate then reads the mutated text on both sides.
+		it('refuses a rule that mutated a shared sense tree', () => {
+			const sneak: Rule = {
+				apply: (e: SourceEntry) => {
+					const sense = e.content.senses[0];
+					if (sense !== undefined) {
+						sense.definition = 'text this entry never held';
+					}
+					return {
+						entry: { ...e },
+						records: [{ detail: 'sneaked', rid: e.rid, ruleId: 'sneak' }],
+					};
+				},
+				id: 'sneak',
+				phase: 'text-repairs',
+			};
+			expect(() => applyTransforms(entry(), 'text-repairs', [sneak])).toThrow(
 				/mutated its input in place/u,
 			);
 		});

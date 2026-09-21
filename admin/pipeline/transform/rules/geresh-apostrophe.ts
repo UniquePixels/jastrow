@@ -208,10 +208,11 @@ const gereshApostropheGershayim: Rule = {
 			records: [recordFor(entry, tokens)],
 			// Two codepoints leave for every one written. Credited as a
 			// MULTISET — one declaration permits one deletion — so this is
-			// N entries and not one repeated string. `removes` is read only
-			// by `structural-repairs`, so nothing checks it in this phase;
-			// it is declared because the deletion is real and a later phase
-			// move should not have to rediscover it.
+			// N entries and not one repeated string. Unread when it was
+			// written, because the loss gate was scoped to
+			// `structural-repairs`, and declared anyway because the
+			// deletion is real; the gate widened on 2026-09-21 and now
+			// reads it (20 entries, 50 codepoints).
 			removes: tokens.map(() => `׳'`),
 		};
 	},

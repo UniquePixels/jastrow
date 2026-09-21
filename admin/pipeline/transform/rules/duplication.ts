@@ -39,11 +39,11 @@
  *
  * ## What they delete, and what that costs them
  *
- * Both run in `structural-repairs` so the
- * loss gate judges them PER CALL, rather than in `text-repairs` where
- * they would be defended only by a pinned total.
+ * Both run in `structural-repairs` and declare what they delete per
+ * call through `removes`. The loss gate reads that declaration in
+ * every phase, so it is what defends them wherever they run.
  *
- * The argument is the gating, not the size. An earlier version of this
+ * The size was never the argument. An earlier version of this
  * note set their 6,128 RAW deleted codepoints against the baseline's
  * 4,510 (measured at the time; the retired check's final figure was 4,573)
  * and called it larger — comparing a raw figure to a stripped one. On the

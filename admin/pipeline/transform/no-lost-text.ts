@@ -29,17 +29,24 @@
  * finished entry, not one rule against its own input.
  *
  * The reason the gate was scoped in the first place was real and has
- * not gone away: measured over all 32,512 entries, ten registered
- * `text-repairs` rules drop codepoints, and turning the gate on
- * globally means retrofitting a declaration onto every one of them.
- * `LOSS_ALLOWANCES` below IS that retrofit — one table, each row a
- * rule id and the exact codepoints that rule was measured to drop,
- * which is what the retired per-rule corpus check used to pin. Two of
- * the ten are not in it, because their loss is per-ENTRY rather than
- * per-rule and a static list would have had to name most of the
- * Hebrew alphabet: `gender-pair-headword-line-collapse` and
- * `unterminated-href-swallows-closing-tag` declare theirs per call
- * through `removes`, which is what that parameter is for.
+ * not gone away. Measured over all 32,512 entries on 2026-09-21,
+ * SEVENTEEN registered rules drop codepoints: four in
+ * `structural-repairs`, which already declared theirs per call
+ * through `removes`, and thirteen in `text-repairs`, which did not
+ * have to. Turning the gate on globally means retrofitting a
+ * declaration onto all thirteen.
+ *
+ * Nine of them carry it in `LOSS_ALLOWANCES` below — one table, each
+ * row a rule id and the exact codepoints that rule was measured to
+ * drop, which is what the retired per-rule corpus check used to pin.
+ * The other four declare theirs per call through `removes`, because
+ * what they drop is per-ENTRY and a static list would have had to
+ * name most of the Hebrew alphabet: `gender-pair-headword-line-collapse`
+ * (a duplicate alt-headword), `unterminated-href-swallows-closing-tag`
+ * (a tag tail that was text only while the tag was broken),
+ * `geresh-apostrophe-as-gershayim` and `asterisk-stem-label`. The last
+ * two already declared `removes` before this gate read it in their
+ * phase; those declarations are load-bearing now.
  */
 import type { SourceEntry } from '../body/types.ts';
 import { multiset, textOf } from './no-new-text.ts';
@@ -71,7 +78,7 @@ const LOSS_ALLOWANCES: ReadonlyMap<string, readonly string[]> = new Map([
 	['abbrev-fused-headword', [' ']],
 	// `"` → `״`. The multiset reads a substitution as a deletion plus
 	// an addition; the addition is already licensed by the rule's
-	// `allows` (1,386 entries).
+	// `allows` (1,386 entries, 2,125 codepoints).
 	['ascii-quote-as-gershayim-in-body', ['"']],
 	// Normalises the spacing around an em-dash section break (270
 	// entries, 508 spaces).
@@ -81,17 +88,18 @@ const LOSS_ALLOWANCES: ReadonlyMap<string, readonly string[]> = new Map([
 	['emphasis-run-edge-space', [' ']],
 	// `ר`/`ח` → `ד`/`ה`: a dagesh that cannot occur identifies an
 	// OCR confusion between two letter shapes, and the substitution
-	// reads as a deletion (12 entries).
+	// reads as a deletion (12 entries, 13 codepoints).
 	['impossible-dagesh', ['ר', 'ח']],
 	// Lifts a parenthesized alternate out of the headword, dropping the
-	// parentheses that held it and the space before them (579 entries,
-	// 1,144 codepoints).
+	// parentheses that held it — and, in 13 of the 579, a space beside
+	// them (579 entries, 1,152 codepoints: `(` ×571, `)` ×568, space
+	// ×13).
 	['parenthesized-alt-headword', ['(', ')', ' ']],
 	// Expands a geresh-abbreviated phrase stub to the full form, so the
-	// geresh itself goes (228 entries).
+	// geresh itself goes (228 entries, 236 codepoints).
 	['phrase-alt-headword-stub', ['׳']],
 	// `י` → shuruk: the display corruption spelled a shuruk as a yod,
-	// and the repair reads as a deletion (12 entries).
+	// and the repair reads as a deletion (12 entries, 12 codepoints).
 	['shuruk-as-yod-display-corruption', ['י']],
 	// Trims trailing whitespace from a definition (10 entries).
 	['trailing-whitespace-definition', [' ']],

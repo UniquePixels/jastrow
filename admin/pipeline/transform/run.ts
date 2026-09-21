@@ -30,12 +30,21 @@
  * the ten shipped text-phase rules that do drop codepoints. A rule
  * that is not in that table may not lose one.
  *
- * A FIFTH check runs here and is not a gate at all: `Object.is` on
- * the rule's input and output. `types.ts` requires a rule to return a
- * NEW entry and called the contract its own defence, because every
- * gate above compares VALUES — hand them one object twice and all
- * four read the already-mutated text on both sides and report clean.
- * The contract is now checked rather than trusted.
+ * A FIFTH check runs here and is not a gate at all: the purity
+ * contract. `types.ts` requires a rule to return a NEW entry and
+ * called the contract its own defence, because every gate above
+ * compares VALUES — let a rule mutate what it was handed and all four
+ * read the already-mutated text on both sides and report clean.
+ *
+ * Two shapes are checked, and between them they cover the text the
+ * gates can see. `Object.is` catches the rule that hands its input
+ * straight back; comparing `fieldsOf(before)` across the call catches
+ * the one that mutates the sense tree and returns a shallow spread,
+ * where the top-level objects differ but the array underneath is
+ * shared. The second is the realistic shape and the first alone would
+ * miss it. What neither covers is a field outside `fieldsOf` — the
+ * same blind spot the text gates have, for the same reason, and
+ * `count.ts` still freezes its corpus rather than relying on this.
  *
  * `rule.id` reaches the link gate as well as the text one, since
  * 2026-08-27: link-target case 7 licenses a MINTED address only for
@@ -47,7 +56,7 @@ import type { SourceEntry } from '../body/types.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { checkMarkup } from './markup.ts';
 import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';
-import { checkNoNewText } from './no-new-text.ts';
+import { checkNoNewText, fieldsOf } from './no-new-text.ts';
 import { RULES } from './registry.ts';
 import type { Rule, TransformPhase, TransformRecord } from './types.ts';
 
@@ -70,18 +79,24 @@ function applyTransforms(
 			continue;
 		}
 		const before = entry;
+		// Read BEFORE the call, so a rule that edits this array's strings
+		// in place cannot make the comparison below read its own result.
+		const wasFields = fieldsOf(before);
 		const result = rule.apply(before);
 		// `types.ts` on `Rule.apply`: a rule MUST return a new entry, or
-		// its input unchanged. An in-place mutator returns the object it
-		// was handed, so `before` and `result.entry` are one object and
-		// every gate below compares the mutated text with itself. The
-		// unchanged case returns the same reference too, which is why the
-		// records are what separate them: identity plus a reported change
-		// is the violation, identity with nothing reported is the normal
-		// no-match return.
-		if (Object.is(before, result.entry) && result.records.length > 0) {
+		// its input unchanged. Identity alone is not the violation — the
+		// no-match return is the same reference — so a returned input
+		// counts only when the rule also reported a change. A mutated
+		// input field counts on its own, whatever came back.
+		const returnedItsInput =
+			Object.is(before, result.entry) && result.records.length > 0;
+		const nowFields = fieldsOf(before);
+		const mutatedItsInput =
+			nowFields.length !== wasFields.length ||
+			nowFields.some((field, i) => field !== wasFields[i]);
+		if (returnedItsInput || mutatedItsInput) {
 			throw new Error(
-				`${rule.id}: mutated its input in place (${result.records.length} record(s) reported on the same object); \`Rule.apply\` must return a new entry`,
+				`${rule.id}: mutated its input in place; \`Rule.apply\` must treat \`entry\` as immutable and return a NEW entry`,
 			);
 		}
 		const problems = [
