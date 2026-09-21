@@ -128,7 +128,7 @@ kind:
 |---|---|
 | `bucket` | `review` (a data judgment), `patch` (a patch to re-judge), `pipeline` (a code fault) |
 | `severity` | `review`; `fault` for every `pipeline` row |
-| `kind` | `headword-unparsed`, `page-confidence-low`, `page-confidence-medium`, `markup-carry`, `upstream-fixed`, `upstream-changed`, `composition-failed`, `patch-failed`, `finish-failed`, `patch-target-missing` |
+| `kind` | `headword-unparsed`, `headword-multiword`, `page-confidence-low`, `page-confidence-medium`, `markup-carry`, `upstream-fixed`, `upstream-changed`, `composition-failed`, `patch-failed`, `finish-failed`, `patch-target-missing` |
 
 Rule counts are *composed*: each rule sees the text the rules before
 it left, so a count differs from `bun transform:count`'s rule-alone
@@ -140,7 +140,7 @@ included.
 | Gates | nine tallies against fixed totals (unchanged) | red gate = run refuses to write |
 | Rule counts | one row per rule: fired N times on M entries | never; a count of 0 is information ("Sefaria fixed it" or "the rule is dead") |
 | Patch outcomes | applied / upstream-fixed / upstream-changed / superseded, per patch (§3.3) | never; the two upstream outcomes are review rows |
-| Review rows | headword-unparsed, page-confidence-low/medium, markup-carry, plus the judgment classes' detectors as they are wired | never |
+| Review rows | headword-unparsed, headword-multiword, page-confidence-low/medium, markup-carry, plus the judgment classes' detectors as they are wired | never |
 | Pipeline faults | composition-failed, patch-failed, finish-failed, patch-target-missing | each also fails gate 9 (composition), so a run with any fault refuses to write |
 
 Rows route two ways, as the flow diagram draws it: data judgments
@@ -168,30 +168,53 @@ row carries a third field:
 | `defer` | can be resolved after publication | yes |
 | `note` | a run observation, not a work item | no |
 
-The value is fixed per row kind (maintainer, 2026-09-18):
+The value is fixed per row kind (maintainer, 2026-09-18; the bar
+amended 2026-09-20 to **the reader sees a defect that cannot be
+corrected in the admin tool after go-live**). Each kind also carries
+the one-sentence action the report prints once at the head of its
+section, so a row is a work-list line rather than a dump:
 
 | Kind | `publication` | Why |
 |---|---|---|
-| `headword-unparsed` | `blocks` | the headword makes the slug, and slugs freeze at publication (R10) |
-| `slug-unsafe` | `blocks` | same: a slug cannot be corrected once published |
+| `headword-unparsed` | `blocks` | the reader sees the raw string; 29 rows the grammar cannot account for |
+| `headword-multiword` | `note` | a multi-word form is legitimate (headword-design §4) and renders as printed; split out of `headword-unparsed` 2026-09-21 |
+| `slug-unsafe` | `blocks` | a URL-unsafe character in the name |
 | `upstream-fixed`, `upstream-changed` | `blocks` | a patch whose precondition moved must be re-judged before the output is trusted |
 | `page-confidence-low`, `page-confidence-medium` | `defer` | the page index is ours and correctable later; no URL depends on it |
 | `markup-carry` | `defer` | the composer already closes the tag; the row records where |
 | `review-deferred` | `defer` | sense-structure questions; the entry renders |
 | `slug-changed`, `slug-new`, `slug-alias-new`, `slug-bare-held`, `slug-frozen-stem-drift` | `note` | slug movement between runs; expected while slugs are unfrozen (R10) |
 
+The `slug-*` kinds retire with the URL names spec §7; the report's
+header says so, so a reader does not triage rows on their way out.
+
 Pipeline faults are not in this table: they already refuse the write
 (gate 9). An unlisted kind throws at run time, so a run that emits a
 new kind refuses to finish, and the table's own test pins its size.
 
-`headword-unparsed` is `blocks` only for now. The maintainer ruled
-the same day that a headword must be perfect or halt the pipeline, and
-that ruling is being built as separate headword work, which owns
-`migrate/headword.ts`. When it lands, a headword defect is a fault that
-refuses the write and the kind leaves this table. Until then every
-headword row blocks publication, including the 276 of today's 309 that
-are multi-word headwords which parse and are flagged only for their
-space; the headword work decides what happens to that check.
+`headword-unparsed` is `blocks` only for now, and its ORIGINAL reason
+— the headword makes the slug and slugs freeze at publication (R10) —
+no longer holds: under the URL names spec a name may change after
+publication and the old one redirects, which reopens the question
+(that spec §8). What is left is the reader-visible defect, re-ruled
+with the headword schema decision. The maintainer also ruled that a
+headword must be perfect or halt the pipeline, built as separate
+headword work which owns `migrate/headword.ts`; when it lands, a
+headword defect is a fault that refuses the write and the kind leaves
+this table.
+
+The 271 multi-word rows that used to sit in that count are no longer
+in it. `FORM` admits U+0020 and `LEXICAL` does not, so every
+multi-word headword parsed and was then flagged for its space alone;
+`reviewReason` now names them `headword-multiword` and the report
+files them as notes. 29 real failures remain.
+
+**Catalogued, not yet detected.** The five classes step 11 ruled
+blocking (§11) have no detector on the import path, so they emit no
+rows. The report renders them from `data/patches/patterns.jsonl` in
+their own section — id, catalogued `corpusCount`, `defer` — counted
+separately from the `blocks` and `defer` row totals, because they are
+not rows. They leave that section as each detector is ported (§10).
 
 **The publication gate.** v2 is published only when the review
 report's `blocks` section is empty **and** §11 step 11 has ruled
@@ -851,3 +874,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-20 | Step 11, the last of the sequence: the 32 non-`transform` classes flagged `blocking: true` recounted on the committed entry tree and ruled. The recount was itself classified, because a predicate written from a class description is not the detector that found it — 9 reproduced, 2 are controlled zeros, 15 measured the predicate, 6 had no honest predicate; 11 of 32 counts are evidence. Ruling (maintainer): an issue that does not block publication is recorded and handled later, the bar being what the reader sees. 32 → 5 stay blocking, 16 defer, 2 are `discarded` with controls, and 9 sense-structure classes defer with a §10 precondition — nothing addresses a sense today (0 of 71,376 refs carry a sense pointer; D8), so renumbering is free until `compile.ts` mints sense-level addresses or the admin tool opens hand editing. Verified rather than assumed: all 56 `transform` rows are registered, `PENDING` is empty. Two class reasons were stale against the entry schema (`grammar.gender` does hold `c`; `grammar.verbal_stem` never existed), and `Pattern.reason`'s "discarded rows only" docstring was corrected. Carry-ins cleared: step 10's `#TBD` → `#100`, and the flow diagram no longer draws the CI Rebuild job R9 withdrew |
 | 2026-09-21 | §7 and R10 superseded by the [URL names spec](2026-09-21-url-names-design.md): an entry's URL is a name built from its current headword, Sefaria-shaped, with `*` kept; `sefariaHeadword` stored on every entry; names may change and old ones redirect; no numbering and no separate names file. §7 kept as the record of what was built until that spec's §9 step 3 retires it. The `headword-unparsed` `blocks` reason (§3.1.1 table) is now open there (§8) |
 | 2026-09-21 | Post-consolidation cleanup (§4 of the [2026-09-21 post-consolidation review](2026-09-21-post-consolidation-review.md)). Archived out of the live tree: 18 plans + 15 `.tasks.json` sidecars (the review's "14" undercounted by one) (`docs/superpowers/plans/` → `docs/archive/plans/`, and `docs/superpowers/` removed), `docs/v2/test-tiers.md`, the three wholly superseded specs (sense-structure 08-06, research-process 08-10, sweep-tiering 08-17) into `docs/archive/specs/` with banners, `data/patches/RUNBOOK.md` → `docs/archive/runbook-2026-08.md` after its three 2026-08-15 rulings were lifted verbatim into `data/patches/reviewed/README.md`, and the maintainer's `Migrate Flow.drawio` sketch. The 7 batch designs and 4 gate-case specs stay in `docs/specs/` with a status banner: the batch designs point at the transform module design as the live contract, the gate cases say the case is built and live in `link-target.ts`. Two archive banners were walked back after checking the code — research-process §4.3/§4.4 are the design `admin/pipeline/patch/` implements, and sweep-tiering T5/T6 define `PatternRoute` and `blocking` in `patterns.ts`. Supersession pointers added where a reversed ruling was still cited as live: the 2026-08-27 paren strip (`rules/headword.ts`, headword-field §3.2/§7.1), D12's slug freeze in the §5 stage list, `CONFIRMED_NO_CHANGE` (§4.1 here and the reviewed README), migrate §6's deleted corpus rows and its header's merged page-index branch. v1 residue removed from `biome.json`, `tsconfig.json`, `.coderabbit.yaml`, `renovate.json`, `bug.yml` and `wrangler.jsonc`; `htmlparser2` removed (nothing imported it); README, SECURITY, CONTRIBUTING, the PR template and `.claude/CLAUDE.md` rewritten for v2. Broken links across every tracked `.md`: 26 → 20 |
+| 2026-09-21 | §3.1.1: the blocks/defer split made honest against the 2026-09-20 bar (the reader sees a defect not correctable in the admin tool after go-live). `headword-multiword` added as a sixth review kind and tagged `note`: `FORM` admits U+0020 and `LEXICAL` does not, so 271 of the 300 `headword-unparsed` rows were legitimate multi-word forms (headword-design §4) flagged for their space alone; the split is in `reviewReason`, not a filter over the report. Each kind gained a one-sentence action, rendered once per section. The report gained a "Catalogued, not yet detected" section rendered from `patterns.jsonl` — the five step-11 blocking classes have no detector on the import path — counted apart from the row totals, and a header line naming the kinds that retire with the URL names spec §7. `renderReviewReport` now refuses a row that reached it unclassified. Nine gates green; review report 31 `blocks` (29 `headword-unparsed`, 2 `slug-unsafe`), 2,204 `defer`, 278 `note` (271 `headword-multiword`, 7 `slug-changed`), 2,513 rows, plus 5 catalogued classes / 572 entries undetected |
