@@ -15,7 +15,7 @@
  */
 import { afterAll, describe, expect, it } from 'bun:test';
 import { mark } from './migrate/gates.ts';
-import { classifyRows, PUBLICATION } from './migrate/publication.ts';
+import { actionOf, classifyRows, PUBLICATION } from './migrate/publication.ts';
 import type { GateName, Report, ReportRow } from './migrate/report.ts';
 import { createReport, GATE_NAMES, isGreen } from './migrate/report.ts';
 import { outputTreeIsEmpty, refuseUnlessEmpty } from './migrate.ts';
@@ -28,8 +28,10 @@ import { outputTreeIsEmpty, refuseUnlessEmpty } from './migrate.ts';
  * `Bun.env` rather than `process.env`, and no `node:os` import:
  * `biome.json` bans the process global and node modules from a test
  * file, and the override that relaxes the latter for
- * `admin/pipeline/**` excludes tests by design. */
-const TMP = `${Bun.env.TMPDIR ?? '/tmp'}/jastrow-migrate-test`;
+ * `admin/pipeline/**` excludes tests by design. Indexed rather than
+ * dotted because the env's type is an index signature and
+ * `noPropertyAccessFromIndexSignature` is on (TS4111). */
+const TMP = `${Bun.env['TMPDIR'] ?? '/tmp'}/jastrow-migrate-test`;
 
 afterAll(async () => {
 	await Bun.$`rm -rf ${TMP}`.quiet().nothrow();
@@ -140,7 +142,17 @@ describe('classifyRows stamps every row the report will render', () => {
 		classifyRows(report);
 		expect(report.rows.filter((r) => r.publication === undefined)).toEqual([]);
 		for (const r of report.rows) {
-			expect(r.publication).toBe(PUBLICATION.get(r.kind));
+			expect(r.publication).toBe(PUBLICATION.get(r.kind)?.publication as never);
+		}
+	});
+
+	// Every kind carries an action sentence as well as a class, and the
+	// report prints it once per section — so a kind with an empty one
+	// heads a section that tells the reader nothing.
+	it('gives every kind a non-empty action sentence', () => {
+		for (const [kind, rule] of PUBLICATION) {
+			expect(actionOf(kind)).toBe(rule.action);
+			expect(rule.action.length).toBeGreaterThan(0);
 		}
 	});
 
