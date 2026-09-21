@@ -84,6 +84,9 @@ were then confirmed visually against the scans.
 
 A leaf's image is `https://iiif.archive.org/iiif/<identifier>$<leaf+1>/full/1400,/0/default.jpg`.
 
+The hOCR both scans were read from is kept, byte-exact, in
+[`data/print/hocr/`](../print/hocr/README.md).
+
 ## Method
 
 Tesseract cannot read Jastrow's small pointed Hebrew reliably, so the build does
