@@ -36,9 +36,10 @@ keeps the notation inside the lookup key or deletes it:
   it. `headwords[1…]` replace today's `altHeadwords`.
 - A form holds only **meaning**: `text` (clean Hebrew), `reconstructed`,
   `homograph`, `disambiguator`, optional `gender`, optional `partial`.
-- `partial: true` marks a form that is not a whole word — an ending Jastrow
-  prints after an ellipsis. It is shown exactly as printed, and it is
-  **never used for lookup or slugs**.
+- `partial: true` marks a form that is not a usable lookup key: an ending
+  Jastrow prints after an ellipsis (`… טָה`), or a phrase holding an
+  abbreviated word (`נְהַר פּ׳`, *N'har Pappa*). It is shown exactly as
+  printed and is **never a lookup key**.
 - `display` is a template holding **how print set the line**. `{n}`
   inserts form n's bare text. Everything else is literal: commas (or
   their absence), parentheses, `*`, `?`, Roman numerals, superscripts,
@@ -91,7 +92,9 @@ search hit, or derive a slug from it.
    no `homograph` — see §4.
 4. A form's `text` never contains a comma, parenthesis, `?`, `=`, `…` or
    a Latin letter.
-5. A `partial` form is never a lookup key or a slug source.
+5. A `partial` form is never a lookup key. A slug is still derived from
+   `headwords[0]` even when it is partial — with the notation stripped,
+   so the URL stays stable — and the row is flagged for review.
 
 ## 4. Decisions taken
 
@@ -110,6 +113,8 @@ search hit, or derive a slug from it.
 | **Ellipsis endings** (H5, 8 rows) | Jastrow's own notation (confirmed): `… טָה` is an ending that replaces the base form's. Stored as a `partial` form, the `…` in `display`, **not expanded**: joining a fragment means choosing its base and assuming the letters before the seam keep that base's vowels, the inference ruled out for geresh stubs on 2026-08-22. For N01089 and M00997 even the base is unclear. Expansion against the print is [#106](https://github.com/UniquePixels/jastrow/issues/106); not a go-live blocker. |
 | **Two spellings in one item** (H6, 5 rows) | A defect: Sefaria missed the comma between two forms — I00158 `טְוִיָּיה טְוִיָּה`, I00654 `טְפֵילָה טְפֵילָא`, M02116 `מַעְיָינָא מַעְיָנָא`, A01161 alt `אַיְידָא אֵידָא`, M02868 alt `מְשֵׁיזְבָא מְשֵׁיזִיב`. **Fixed by patch**: split the item at the space into two forms. Relocation only — every letter and vowel is already in the source, so this is inside the 2026-08-22 boundary. 3 of the 5 are primary headwords, so the split also corrects their slugs. Halts until patched. |
 | **Reduplication** (H6, 3 rows) | Legitimate multi-word forms — one expression spoken twice: D00004 `דא דא`, E00007 `הֵא הֵא`, H01657 `חַר חַר`. Kept as is. |
+| **Abbreviated phrase alternates** (H6, 7 rows) | Kept as printed and marked `partial`: `נְהַר פּ׳` is *N'har Pappa*, the headword abbreviated. These are the rows the existing `phrase-alt-headword-stub` rule declines (fused article, two stubs, mismatched pointing) while expanding ~236 others. Expansion against the print is [#107](https://github.com/UniquePixels/jastrow/issues/107). |
+| **Abbreviations in a PRIMARY headword** (H6, 3 rows: K00107 `כִּדְ׳ כַּדְבוּבָא`, P00137, A02002) | What these lines mean cannot be read from the data — two sessions failed, and it needs real Jastrow knowledge (Brian, 2026-09-20). Kept as printed, carried in `display`, form marked `partial`; the slug still derives from it with notation stripped so the URL is stable, and the row is flagged. Tracked in [#108](https://github.com/UniquePixels/jastrow/issues/108). |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 4.1 Fixes queued as patches
