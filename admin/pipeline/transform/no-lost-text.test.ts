@@ -90,4 +90,26 @@ describe('checkNoLostText', () => {
 		const after = { ...before, headword: '' };
 		expect(checkNoLostText(before, after).length).toBeGreaterThan(0);
 	});
+
+	// The separator `textOf` joins fields with is this module's own
+	// seam, not a corpus byte. A structural rule that drops an empty
+	// sense removes one field and so one seam; while this gate counted
+	// its own local multiset, that showed up as a lost U+0000 and the
+	// rule was refused for text nothing in the source ever held.
+	it('does not count the field separator it introduced itself', () => {
+		const before = entry([{ definition: 'a' }, {}]);
+		const after = entry([{ definition: 'a' }]);
+		expect(checkNoLostText(before, after)).toEqual([]);
+	});
+
+	// `allowsLoss` mirrors `Rule.allows` on the other gate: a static,
+	// codepoint-flattened maintainer ruling, credited without limit.
+	it('credits an `allowsLoss` codepoint', () => {
+		expect(checkNoLostText(one('a b c'), one('abc'), [], [' '])).toEqual([]);
+	});
+
+	it('credits `allowsLoss` only for the codepoints it names', () => {
+		const problems = checkNoLostText(one('a b'), one('a'), [], [' ']);
+		expect(problems).toEqual(['T00001: dropped "b" (U+0062)']);
+	});
 });

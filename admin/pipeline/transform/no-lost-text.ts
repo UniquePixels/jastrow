@@ -20,42 +20,82 @@
  * differ only in whether the text arrives somewhere — which is
  * precisely the axis no other gate measures.
  *
- * **Scope, and it is deliberate.** `run.ts` enforces this gate for
- * `structural-repairs` rules only. Measured over all 32,512 entries,
- * **13 registered `text-repairs` rules delete text — 4,573 codepoints
- * between them**: ten that predate this batch (4,504, most of it
- * substitution the multiset reads as a deletion plus an addition, `"`
- * → `״` alone being 2,125), plus batch 6b's own
- * `asterisk-stem-label`, which drops ` .` from three stem labels and
- * declares it although nothing in that phase reads the declaration.
- * Turning the gate on globally would have meant retrofitting a
- * declaration onto ten shipped rules in the PR that introduces it.
- * All thirteen were pinned at their exact counts by a corpus check
- * instead, so a FOURTEENTH deleting rule would have failed a test rather
- * than passing unremarked. That check is retired in consolidation
- * step 5; on a new export this is a review-detector candidate
- * (consolidation spec §10), listed in `docs/v2/retired-corpus-checks.md`.
- * Spec §2.3 carries the table and the argument. This gate's
- * `structural-repairs` scope does not substitute for that retired
- * per-rule accounting: `migrate`'s `checkTextConservation` compares
- * the composed body against the finished entry, not per rule, so a
- * FOURTEENTH `text-repairs` rule that deletes text would pass every gate
- * and every test unremarked.
+ * **Scope.** `run.ts` runs this gate for EVERY phase. It ran for
+ * `structural-repairs` alone until 2026-09-21, and the review that
+ * closed that hole put it plainly: a `text-repairs` rule that deleted
+ * text passed all four gates and every test, because the other three
+ * are blind to deletion by construction and `migrate`'s
+ * `checkTextConservation` compares the composed body against the
+ * finished entry, not one rule against its own input.
+ *
+ * The reason the gate was scoped in the first place was real and has
+ * not gone away: measured over all 32,512 entries, ten registered
+ * `text-repairs` rules drop codepoints, and turning the gate on
+ * globally means retrofitting a declaration onto every one of them.
+ * `LOSS_ALLOWANCES` below IS that retrofit — one table, each row a
+ * rule id and the exact codepoints that rule was measured to drop,
+ * which is what the retired per-rule corpus check used to pin. Two of
+ * the ten are not in it, because their loss is per-ENTRY rather than
+ * per-rule and a static list would have had to name most of the
+ * Hebrew alphabet: `gender-pair-headword-line-collapse` and
+ * `unterminated-href-swallows-closing-tag` declare theirs per call
+ * through `removes`, which is what that parameter is for.
  */
 import type { SourceEntry } from '../body/types.ts';
-import { textOf } from './no-new-text.ts';
+import { multiset, textOf } from './no-new-text.ts';
 
-/** Codepoint → count, over one field-joined text. Mirrors
- * `no-new-text.ts`'s private helper; the field separator never enters
- * either multiset, so a seam this module introduced cannot be read as
- * a corpus byte. */
-function multiset(text: string): Map<string, number> {
-	const counts = new Map<string, number>();
-	for (const ch of text) {
-		counts.set(ch, (counts.get(ch) ?? 0) + 1);
-	}
-	return counts;
-}
+/**
+ * Text-phase rules measured to drop codepoints, and the exact set
+ * each one drops. Every row is a maintainer ruling in code, the same
+ * standing a non-empty `Rule.allows` has on the other gate, and every
+ * count below comes from a run over all 32,512 entries on
+ * 2026-09-21.
+ *
+ * The table is keyed by rule id rather than declared on the rules
+ * themselves for one reason: it is the list a reviewer has to read to
+ * know which rules delete text, and spread over ten rule files nobody
+ * reads it. A rule NOT named here may not lose a codepoint — which is
+ * the hole this closes. Adding a row is a deliberate act with the
+ * measurement attached, not a way past a failing gate: a new rule
+ * that trips the gate is a finding first.
+ *
+ * `allowsLoss` flattens to codepoints and is credited without limit,
+ * so a row licenses its characters ANYWHERE in that rule's diff —
+ * `no-new-text.ts` documents the same blast radius for `allows`. It
+ * is bounded here by the sets being tiny: a space, an ASCII quote, a
+ * geresh, two Hebrew letters a substitution replaces.
+ */
+const LOSS_ALLOWANCES: ReadonlyMap<string, readonly string[]> = new Map([
+	// Splits a fused headword at the space it was fused across (4
+	// entries, 4 codepoints).
+	['abbrev-fused-headword', [' ']],
+	// `"` → `״`. The multiset reads a substitution as a deletion plus
+	// an addition; the addition is already licensed by the rule's
+	// `allows` (1,386 entries).
+	['ascii-quote-as-gershayim-in-body', ['"']],
+	// Normalises the spacing around an em-dash section break (270
+	// entries, 508 spaces).
+	['em-dash-section-break-in-own-italic', [' ']],
+	// Trims the space at the edge of an emphasis run (214 entries, 229
+	// spaces).
+	['emphasis-run-edge-space', [' ']],
+	// `ר`/`ח` → `ד`/`ה`: a dagesh that cannot occur identifies an
+	// OCR confusion between two letter shapes, and the substitution
+	// reads as a deletion (12 entries).
+	['impossible-dagesh', ['ר', 'ח']],
+	// Lifts a parenthesized alternate out of the headword, dropping the
+	// parentheses that held it and the space before them (579 entries,
+	// 1,144 codepoints).
+	['parenthesized-alt-headword', ['(', ')', ' ']],
+	// Expands a geresh-abbreviated phrase stub to the full form, so the
+	// geresh itself goes (228 entries).
+	['phrase-alt-headword-stub', ['׳']],
+	// `י` → shuruk: the display corruption spelled a shuruk as a yod,
+	// and the repair reads as a deletion (12 entries).
+	['shuruk-as-yod-display-corruption', ['י']],
+	// Trims trailing whitespace from a definition (10 entries).
+	['trailing-whitespace-definition', [' ']],
+]);
 
 /**
  * Codepoints the input holds beyond the output's, after crediting the
@@ -78,18 +118,29 @@ function multiset(text: string): Map<string, number> {
  * once, which is the whole point of a copy. Deleting the same
  * character twice is not an operation; copying it twice is.
  *
- * Deliberately NOT expressed through a static `Rule.allows`-style
- * list: what a structural rule deletes is per-entry (one marker's
- * trailing space here, a stray label period there), and a static list
- * would license that codepoint everywhere in the rule's diff. The
- * `allows` blast radius is documented in `no-new-text.ts` and is the
- * thing this parameter exists to avoid inheriting.
+ * `removes` is deliberately NOT a static `Rule.allows`-style list:
+ * what a structural rule deletes is per-entry (one marker's trailing
+ * space here, a stray label period there), and a static list would
+ * license that codepoint everywhere in the rule's diff. The `allows`
+ * blast radius is documented in `no-new-text.ts`.
+ *
+ * `allowsLoss` is that static list all the same, for the text-phase
+ * rules whose deletion is a per-RULE fact rather than a per-entry one
+ * — a substitution the multiset reads as a deletion plus an addition,
+ * or a whitespace trim. It is flattened to codepoints and credited
+ * without limit, exactly as `Rule.allows` is on the other gate, and
+ * carries the same blast radius: name a codepoint here and the rule
+ * may drop it anywhere in its diff. `LOSS_ALLOWANCES` below is the
+ * only caller that supplies it, and every entry there is a measured
+ * maintainer ruling.
  */
 function checkNoLostText(
 	before: SourceEntry,
 	after: SourceEntry,
 	removes?: readonly string[],
+	allowsLoss?: readonly string[],
 ): string[] {
+	const permitted = new Set((allowsLoss ?? []).flatMap((c) => [...c]));
 	const inputText = textOf(before);
 	const available = multiset(inputText);
 	const remaining = multiset(textOf(after));
@@ -118,7 +169,7 @@ function checkNoLostText(
 		}
 	}
 	for (const [ch, count] of multiset(inputText)) {
-		if (count > (remaining.get(ch) ?? 0)) {
+		if (count > (remaining.get(ch) ?? 0) && !permitted.has(ch)) {
 			problems.push(
 				`${after.rid}: dropped ${JSON.stringify(ch)} (U+${ch.codePointAt(0)?.toString(16).toUpperCase().padStart(4, '0')})`,
 			);
@@ -127,4 +178,4 @@ function checkNoLostText(
 	return problems;
 }
 
-export { checkNoLostText };
+export { checkNoLostText, LOSS_ALLOWANCES };

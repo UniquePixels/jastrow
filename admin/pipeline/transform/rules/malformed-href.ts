@@ -297,7 +297,7 @@ function repairOne(
 	html: string,
 	match: RegExpExecArray,
 	witness: ReadonlyMap<string, string>,
-): { restored?: Restore; text: string } | undefined {
+): { removed?: string; restored?: Restore; text: string } | undefined {
 	const [whole] = match;
 	const head = whole.slice(0, whole.length - CLOSE.length);
 	const rest = html.slice(match.index + whole.length);
@@ -305,6 +305,15 @@ function repairOne(
 	if (tail !== undefined) {
 		return anchorDepthAt(html, match.index) > 0
 			? {
+					// The tail is TEXT before the repair and ATTRIBUTES after
+					// it: the swallowed `</a>` closed the damaged tag early,
+					// so the tokenizer read the real end of the tag as
+					// content. Lifting the `</a>` out puts those bytes back
+					// inside the tag, which the no-lost-text gate reads as a
+					// deletion — correctly, and the rule can name the exact
+					// run, so it declares it per call rather than through a
+					// static allowance.
+					removed: tail,
 					restored: {
 						field: html,
 						offset: match.index,
@@ -340,13 +349,15 @@ function repairField(
 	witness: ReadonlyMap<string, string>,
 ): {
 	details: string[];
+	removed: string[];
 	restored: Restore[];
 	text: string;
 } {
 	if (!html.includes(CLOSE)) {
-		return { details: [], restored: [], text: html };
+		return { details: [], removed: [], restored: [], text: html };
 	}
 	const details: string[] = [];
+	const removed: string[] = [];
 	const restored: Restore[] = [];
 	let out = '';
 	let at = 0;
@@ -361,16 +372,19 @@ function repairField(
 			if (repaired.restored !== undefined) {
 				restored.push(repaired.restored);
 			}
+			if (repaired.removed !== undefined) {
+				removed.push(repaired.removed);
+			}
 		}
 		match = DAMAGED.exec(html);
 	}
 	if (details.length === 0) {
-		return { details: [], restored: [], text: html };
+		return { details: [], removed: [], restored: [], text: html };
 	}
 	const text = out + html.slice(at);
 	return improves(html, text)
-		? { details, restored, text }
-		: { details: [], restored: [], text: html };
+		? { details, removed, restored, text }
+		: { details: [], removed: [], restored: [], text: html };
 }
 
 /**
@@ -385,20 +399,23 @@ function repairField(
  * both unmapped and unseen.
  *
  * No `allows`, no `copied` and no `unlinks`: every byte written is
- * markup and no anchor is removed. The one gate declaration it does
- * make is `restored` — link-target case 6 — and only from the
- * reordering arm, whose repair deletes a run from bytes the input
- * already holds. See `repairOne` for why the reconstruction arm
- * declares nothing and needs nothing.
+ * markup and no anchor is removed. Two gate declarations come off the
+ * reordering arm alone — `restored` (link-target case 6), whose
+ * repair deletes a run from bytes the input already holds, and
+ * `removes`, the tag tail that was text while the tag was broken and
+ * is attributes once it is not. See `repairOne` for why the
+ * reconstruction arm declares neither and needs neither.
  */
 const unterminatedHref: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const witness = witnessesOf(entry);
 		const details: string[] = [];
+		const removes: string[] = [];
 		const restored: Restore[] = [];
 		const out = mapFields(entry, (html) => {
 			const repaired = repairField(html, witness);
 			details.push(...repaired.details);
+			removes.push(...repaired.removed);
 			restored.push(...repaired.restored);
 			return repaired.text;
 		});
@@ -412,6 +429,7 @@ const unterminatedHref: Rule = {
 				rid: entry.rid,
 				ruleId: RULE_ID,
 			})),
+			...(removes.length > 0 ? { removes } : {}),
 			...(restored.length > 0 ? { restored } : {}),
 		};
 	},
