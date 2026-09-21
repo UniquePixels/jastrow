@@ -20,7 +20,7 @@ body:
     id: url
     attributes:
       label: Page / route
-      description: The URL or hash route where it happens (e.g. `#rid:A00000`, `#sages`).
+      description: The URL or route where it happens, if the report is about a page.
     validations:
       required: false
   - type: dropdown
