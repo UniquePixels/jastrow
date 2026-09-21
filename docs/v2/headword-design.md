@@ -145,7 +145,7 @@ search hit, or derive a slug from it.
 
 ## 4.1 Fixes queued as patches
 
-**Shipped 2026-09-20** as 16 `reform` patches plus one anchor `replace`
+**Shipped 2026-09-20** as 15 `reform` patches plus one anchor `replace`
 in `data/patches/reviewed/` — all nine gates green, `unresolved=0`,
 `headword-unparsed` 309 → 300, `slug-unsafe` 12 → 2. The `reform` op
 (target `forms:<anchor>`) was added for them: every other target
