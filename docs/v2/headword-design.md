@@ -95,6 +95,12 @@ search hit, or derive a slug from it.
 5. A `partial` form is never a lookup key. A slug is still derived from
    `headwords[0]` even when it is partial — with the notation stripped,
    so the URL stays stable — and the row is flagged for review.
+6. Every comparison — lookup key, slug stem, link resolution, duplicate
+   check — normalizes to **NFC first**; stored text keeps the source's
+   own byte order. Combining-mark order varies (6 forms differ from
+   NFC) and the two spellings are canonically equal, so a byte-exact
+   comparison is a bug. `admin/pipeline/migrate/cite.ts` already does
+   this.
 
 ## 4. Decisions taken
 
@@ -122,6 +128,8 @@ search hit, or derive a slug from it.
 | **Split headwords** (X1/X3, 5 rows) | Adjudicated against the print by Brian, 2026-09-20: U00489 (`ש` + `ׁוּף` → `שׁוּף`, a PRIMARY headword that was a single letter), V00518 (one headword plus a reference — the fragments belong in the gloss), S01780 (three headwords, the last an abbreviation), U01000 (`שִׁיפָ` + `ה`). Patched, not joined blindly: V00518 and S01780 come out unpointed by concatenation, so the patch text is the print's. Tracked in [#105](https://github.com/UniquePixels/jastrow/issues/105). |
 | **Final letter mid-word** (X2, 1 row) | F00009 `וַארְךּוּנְיָא` is an OCR error; Brian read the print: the letter is a **dalet**. A mis-recognised glyph is a correction, not invented text ([[project_ocr_correction_ruling]]), so it is patched. It is a primary headword, so the slug corrects with it. |
 | **Ending entries** (X1, 2 rows) | J00321 `ַיי` and J00327 `ַיְידָא` are entries for a shared ENDING — the mirror of X5's maqaf prefix entries — and are decided with them, not as defects. |
+| **Mark order** (X4, 6 rows) | No data change. All 6 are canonically equal to their NFC form — same letters and points, different order (`בִּישָׁא` stores dagesh before hiriq). Stored text stays byte-exact; comparisons normalize (rule 6). |
+| **Q00752** (X1/X3) | Split headword, adjudicated by Brian against the print: `פִּ` + `י` + `סְחָא` join byte-exactly to `פִּיסְחָא`, and the gloss already carries `v. פִּסְחָא`. No print spelling needed. |
 | **H1 separator defects** (4 rows) | A doubled space (B00098 `בַּד  V`) or a stray comma (B00443, C00329, M00447 `מוֹזְלָא , I`) in front of a single numeral is a defect: the text corrects to `<word> <numeral>` and then parses. |
 
 ## 4.1 Fixes queued as patches
@@ -138,6 +146,7 @@ generated report keeps listing it until the patch lands.
 | H6 two spellings in one item | I00158, I00654, M02116, A01161, M02868 | split at the space into two forms |
 | X1/X3 split headwords | U00489, V00518, S01780, U01000 | rebuild from the print (not by concatenation) |
 | X2 OCR glyph | F00009 | final kaf → dalet |
+| X1/X3 split headword | Q00752 | join to `פִּיסְחָא` (byte-exact) |
 
 ## 5. Open questions
 
