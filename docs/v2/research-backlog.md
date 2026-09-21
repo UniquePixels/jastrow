@@ -285,7 +285,7 @@ sense*, and today nothing does — by decision, not by luck:
 | What could depend on a sense number | State, measured 2026-09-20 |
 |---|---|
 | internal cross-references | 71,376 refs, every one an entry rid; **0** carry a sense pointer |
-| the slug index | rows are `{"rid":…,"slug":…}` — no sense component |
+| the entry's URL name | derived from `headword` alone (URL names spec §4) — no sense component. It was the slug index when this was measured; that file is retired |
 | compiled data and public URLs | `compile.ts` is not written |
 | hand edits | the admin tool is not built, so there are none |
 
@@ -306,9 +306,11 @@ merge reconciles it per entry. The precondition is recorded against
 `compile.ts` (data-architecture §3) and the admin-tool spec in the
 consolidation spec's §10.
 
-This is the same shape as the slug freeze: R10 binds at v2 publication,
-not during development. A constraint scoped to a future event must not
-bind before it.
+This is the same shape as the slug freeze: R10 bound at v2
+publication, not during development. A constraint scoped to a future
+event must not bind before it. (R10 itself is superseded by U6 — a
+published name may change, so long as it never points at a different
+entry — but the shape of the argument stands.)
 
 One argument against fixing them early, for the record: the *fix* is the
 dangerous half. `senses[0]` is the gloss head, so dropping an empty lead

@@ -299,7 +299,7 @@ holds none — it records that those two ids have no trace anywhere. So
 
 Six rulings are recorded more than once and say different things. Post-consolidation review [§8](specs/2026-09-21-post-consolidation-review.md) and the architecture report [§5](archive/review-2026-09-21/report-architecture.md) list the first five; the sixth is an id collision found while building this index.
 
-1. **The slug freeze — three scopes.** D12 says the slug is *frozen at import*; R10 says a *published* slug never changes and binds at v2 publication; U6 says a published *name* may change but never points at a different entry. Three different promises, all still written down. D12 and R10 carry supersession pointers; the narrowing from "frozen" to "never re-pointed" is nowhere stated in one place except this row.
+1. **The slug freeze — three scopes.** D12 says the slug is *frozen at import*; R10 says a *published* slug never changes and binds at v2 publication; U6 says a published *name* may change but never points at a different entry. Three different promises, all still written down. D12 and R10 carry supersession pointers; the narrowing from "frozen" to "never re-pointed" is nowhere stated in one place except this row. **Resolved in code 2026-09-21** — the slug, `SLUGS_FROZEN` and `data/slug-index/` are gone (URL names §9 steps 1–3); only the wording is left to reconcile.
 2. **No-new-text — four layers, four wordings.** RP4 ("rearrange, re-tag, split or delete — never generate new words"); the transform module's three-layer gate ([§5](specs/2026-08-22-transform-module-design.md)); the validator's own docstring in `patch/no-new-text.ts`; and the 2026-09-18 "an agent patch can not add/remove, a human patch can." The fourth forbids what the first permits. The consolidation spec §4.2 flags this itself: 7 `delete` patches sit in the accepted corpus, and the remove half is left to the maintainer.
 3. **The escalation default — three statements.** The 2026-08-15 triage ruling (everything defaults to `post-go-live`, `blocking` is a per-item override); T6 (blocking = breaks the render or gets baked in); and the 2026-09-20 step-11 recount ("T6 is the test, and only T6"). The first is a default, the second a predicate, the third an exclusion. They agree in outcome and not in shape.
 4. **`migrate.ts`'s lifetime.** D14 says it retires (struck 2026-09-14); R1 says it is permanent and re-runnable; `migrate.ts` lines 673–685 still say "the migration is a one-shot" and refuse unless the tree is empty.
@@ -329,7 +329,7 @@ than an open contradiction.
 | [`../admin/pipeline/transform/registry.ts`](../admin/pipeline/transform/registry.ts) ~lines 933–951 | The 30-line ordering note for `parenAltHeadword` / `phraseAltHeadwordStub` reasons from the 2026-08-27 strip and the stub expansion as current behaviour | HW-paren and HW-no-expand (2026-09-20) |
 | [`../admin/pipeline/transform/registry-classes.ts`](../admin/pipeline/transform/registry-classes.ts) line 428 | `phrase-alt-headword-stub` is listed as a live transform class | HW-no-expand (2026-09-20) |
 | [`../admin/pipeline/migrate.ts`](../admin/pipeline/migrate.ts) lines 580, 673–685 | `outputTreeIsEmpty` and the `main` docstring: "the migration is a one-shot" | R1 (2026-09-12) and R11 (2026-09-17) |
-| [`../data/slug-index/README.md`](../data/slug-index/README.md) line 60 | "**A published slug never changes** (ruling R10)" | U6 (2026-09-21) |
+| [`../docs/archive/slug-index-README.md`](archive/slug-index-README.md) line 64 | "**A published slug never changes** (ruling R10)" | U6 (2026-09-21) — the file is now archived behind a banner, so it is history rather than a live site |
 
 ## D. Decided but not reflected in code
 
@@ -350,10 +350,10 @@ below are decided and simply unbuilt.
 | HW-halt | `headword-unparsed` is a `blocks` review row in `migrate/publication.ts`, not a halt |
 | HW-no-expand | `phrase-alt-headword-stub` is still registered and still expands — the sharpest of the six contradictions: a shipped rule running against a ruling that stopped it. HW-schema unregisters it |
 | HW-paren, HW-roman, HW-gender, HW-query, HW-ellipsis, HW-abbrev-* | The headword schema decision they waited on is **made** (HW-schema, 2026-09-21: adopt §2 now). `display` and `partial` are still not in `entry.schema.json` — the rewrite is unwritten |
-| HW-nfc-write | NFC is applied to slugs and to comparisons, not to stored entry text on write |
+| HW-nfc-write | NFC is applied to name comparisons, not to stored entry text on write |
 | V7 | Only CP-0 and CP-1 were ever minuted |
 | V9 | No `main` → `v2` merge since `v2` began |
 | D2 | `data/page-index/build-report.json` is committed |
 | HW-schema | Ruled 2026-09-21; the parser, the redefined gate 2, the two unregistrations and the `schemaVersion: 2` rewrite are all unwritten |
 | 09-21 admin edits | Depends on the update run (§3.2), which is unbuilt — so the three #113 gloss edits still have nowhere to land |
-| U1–U8 | Design only; the URL-names implementation (that spec §9) has not started |
+| U1–U8 | Steps 1–3 of that spec §9 are built: import writes `sefariaHeadword`, the name is derived, the `names` gate replaced `slugs`, and the slug index is retired. Steps 4–6 — the admin tool's rename flow, compile's route map, and the published-names ledger with its three gates — are not. `formerNames` is in the schema and unwritten |

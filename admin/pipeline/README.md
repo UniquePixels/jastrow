@@ -42,7 +42,6 @@ original sketch it was derived from was archived 2026-09-21 as
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
 | `data/page-index/` | print locators (page/column) — reference data | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
-| `data/slug-index/` | slug and bare-stem alias assignments — reference data | yes | `migrate.ts --write` until publication freezes it (consolidation spec §7.1) |
 | `data/patches/` | per-entry judgments | yes | admin tool appends |
 | `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 
@@ -108,7 +107,8 @@ Transforms the source snapshot into entry data, one JSON file per
 entry (`data/entries/`), per the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
 §6: headword decomposition, link typing, markup translation into the
-closed tag vocabulary, refs resolution, slug assignment, and the
+closed tag vocabulary, refs resolution, `sefariaHeadword` (Sefaria's
+own headword, verbatim, the field the URL routes key on), and the
 print-locator (`page`/`column`) enrichment — read from the hOCR page
 index (`data/page-index/entries.jsonl`, all 32,512 entries). Its code
 is one of three buckets — rules (detect + fix, general), patches
@@ -118,7 +118,7 @@ review detectors (detect only, emit a row) — per the
 §4. Gated by the nine blessing gates of the
 [migrate spec](../../docs/specs/2026-09-06-migrate-design.md) §4.1 —
 round-trips, text conservation, schema, chain agreement, internal
-targets, slugs, pages, composition; a red gate refuses to write.
+targets, names, pages, composition; a red gate refuses to write.
 `migrate.ts` is re-runnable: it never chokes on the data it is
 given, and it never silently overwrites hand edits in entry data. A
 composition failure is a `composition-failed` fault row and a red
@@ -142,7 +142,7 @@ drifted patch. Last run 2026-09-09 with all nine gates green.
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 
 Truth → serving artifacts on every deploy: validate (schema, tag
-vocabulary, slugs, refs) → transform (abbreviation detection, display
+vocabulary, names, refs) → transform (abbreviation detection, display
 regeneration, link expansion) → emit (entry shards, browse index,
 route map, page index, search artifacts, version manifest) → gate
 (golden render diffs, coverage reports). Specified in the data
