@@ -10,9 +10,8 @@
  * rule is in `UNLINK` because it removes an anchor there, not because
  * a comment says so.
  *
- * Split out of `registry.order.corpus.test.ts` in consolidation step 5,
- * so that the order assertions run on every `bun qa` without reading
- * the source data.
+ * The classes live here rather than in either test so the order
+ * assertions run on every `bun qa` without reading the source data.
  */
 import type { SourceEntry } from '../body/types.ts';
 import type { TagToken } from './html.ts';
@@ -36,10 +35,7 @@ const UNLINK = new Set([
 	// in `registry.order.corpus.test.ts` asserts this literal set equals the
 	// rules that ever declare an anchor removal across all 32,512
 	// entries, so a name that does not belong — or one missing — fails
-	// there. (CORRECTED 2026-08-26, impl/phase-2-batch-4: this said the
-	// two were "earned into this set by the corpus pass below rather
-	// than by being listed here", while listing them. The corpus pass
-	// FALSIFIES the list; it does not build it.)
+	// there. The corpus pass FALSIFIES this list; it does not build it.
 	'nested-anchor-swallows-punctuation',
 	'nonsense-dup-anchor',
 	'plural-to-feminine-final-letter-mislink',
@@ -65,34 +61,28 @@ const RETARGET = new Set([
 ]);
 
 /** Rules that neither remove an anchor nor write a target, so rule 1
- * says nothing about where they sit. The RTL trio used to live here —
- * it moved to `WRAP` on 2026-08-26, because rule 4 DOES say where it
- * sits and a set nothing pins is a set a fourth wrap rule can dodge;
- * `shuruk-as-yod-display-corruption` edits DISPLAY
- * text inside an anchor whose target is already correct and leaves
- * every `href`/`data-ref` byte-identical; and
- * `ascii-quote-as-gershayim-in-body` (batch 3a) repairs a glyph in
- * document text only, every `<…>` tag coming through byte-identical —
- * which is exactly what separates it from its own twin in `GLYPH`
- * below.
+ * says nothing about where they sit. The RTL trio belongs in `WRAP`
+ * rather than here, because rule 4 DOES say where it sits and a set
+ * nothing pins is a set a fourth wrap rule can dodge.
+ * `shuruk-as-yod-display-corruption` edits DISPLAY text inside an
+ * anchor whose target is already correct and leaves every
+ * `href`/`data-ref` byte-identical; `ascii-quote-as-gershayim-in-body`
+ * repairs a glyph in document text only, every `<…>` tag coming
+ * through byte-identical — which is exactly what separates it from its
+ * own twin in `GLYPH` below.
  *
- * BATCH 3b ADDS TWELVE, and they are the set's first real test rather
- * than a bulk append. 110 of their seams sit directly against an
- * anchor's closing tag — 57 `</a><i>` and 53 `)</a><i>` (CORRECTED
- * 2026-08-26 from 165, the pre-decline arithmetic 112 + 53, written
- * before both patterns gained the `(?![.,;:?!])` guard) — so "does not
- * move a
- * target" is a claim about markup they demonstrably edit ADJACENT to,
- * not one they are trivially incapable of breaking. Batch 3a's
- * headline finding was a link regression that every per-rule
- * measurement missed. The corpus pass in `registry.order.corpus.test.ts`
- * can see it; so could a second corpus check, retired in
- * consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+ * THE SEAM RULES ARE THIS SET'S REAL TEST. 110 of their seams sit
+ * directly against an anchor's closing tag — 57 `</a><i>` and 53
+ * `)</a><i>` — so "does not move a target" is a claim about markup
+ * they demonstrably edit ADJACENT to, not one they are trivially
+ * incapable of breaking, and a link regression that every per-rule
+ * measurement missed is exactly the failure this set risks. The
+ * corpus pass in `registry.order.corpus.test.ts` is what sees it.
  *
- * Rule 1 says nothing about where any of the twelve sit, but plenty
- * else does: four measured constraints order them among THEMSELVES,
- * and those live in `registry.ts`'s own block comments because they
- * are not about unlinks and retargets at all.
+ * Rule 1 says nothing about where any of them sit, but plenty else
+ * does: the measured constraints that order them among THEMSELVES
+ * live in `registry.ts`'s own block comments, because they are not
+ * about unlinks and retargets at all.
  *
  * Membership here is EARNED rather than declared: the corpus pass
  * in `registry.order.corpus.test.ts` checks that no rule in this set ever
@@ -100,8 +90,8 @@ const RETARGET = new Set([
  * `href` or `data-ref` anywhere in 32,512 entries. */
 const NEITHER = new Set([
 	'anchor-italic-no-space',
-	// The residue sweep's rule, 2026-09-06. It replaces a geresh plus an
-	// ASCII apostrophe with one gershayim in DOCUMENT TEXT; measured
+	// Replaces a geresh plus an ASCII apostrophe with one gershayim in
+	// DOCUMENT TEXT; measured
 	// over all 32,512 entries, 0 of its 25 occurrences sit inside a
 	// `<…>` interior, so no tag byte moves, no anchor is removed and no
 	// target is written. That is the rule's own docstring claim, and
@@ -160,21 +150,16 @@ const NEITHER = new Set([
 	// open to it: the field it edits is, by the rule's own predicate,
 	// one that holds a tag.
 	'see-particle-lost',
-	// BATCH 4 ADDS FOUR, and they are the set's second real test after
-	// batch 3b's twelve. These four move one of the anchor's own tags
-	// across the text beside it — `</a>` across a `)`, a `<sup>` run or
-	// a digit, and in `open-paren-in-anchor-display` the OPENING tag
-	// across a `(` (CORRECTED 2026-08-26, impl/phase-2-batch-4: this
-	// said all four move "the anchor's own closing tag", which is true
-	// of three of them; the open-paren rule is the opposite polarity in
-	// the opposite tag) — so "removes no anchor and writes no target"
-	// is a claim about markup they demonstrably rewrite INSIDE, not one
-	// they are incapable of breaking. The corpus pass in
-	// `registry.order.corpus.test.ts` earns it: every anchor's parsed
-	// `href`/`data-ref` pair is compared before and after over all
-	// 32,512 entries; a sibling corpus check compared the whole
-	// opening-tag multiset besides, a measurement retired in
-	// consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+	// THE ANCHOR-BOUNDARY FOUR are this set's other hard case. They
+	// move one of the anchor's own tags across the text beside it —
+	// `</a>` across a `)`, a `<sup>` run or a digit, and in
+	// `open-paren-in-anchor-display` the OPENING tag across a `(`, the
+	// opposite polarity in the opposite tag — so "removes no anchor and
+	// writes no target" is a claim about markup they demonstrably
+	// rewrite INSIDE, not one they are incapable of breaking. The
+	// corpus pass in `registry.order.corpus.test.ts` earns it: every
+	// anchor's parsed `href`/`data-ref` pair is compared before and
+	// after over all 32,512 entries.
 	'anchor-swallows-close-paren',
 	'ascii-quote-as-gershayim-in-body',
 	'citation-number-truncated-outside-anchor',
@@ -209,9 +194,9 @@ const NEITHER = new Set([
  *   (b) never changes the tag-stripped text, in any entry.
  *
  * Both halves are load-bearing, and (b) carries MORE of the weight
- * since round 4 made (a) position-sensitive. Measured over the corpus:
- * under the old character-count signature (a) alone admitted the trio
- * plus `geresh-abbrev-space-loss`; under the position signature it
+ * now that (a) is position-sensitive. Measured over the corpus: under
+ * a plain character-count signature (a) alone admitted the trio plus
+ * `geresh-abbrev-space-loss`; under the position signature it
  * admits the trio plus SEVEN — every seam rule that inserts or deletes
  * a space, because shifting the stripped text shifts every rtl offset
  * after it. All seven are excluded by (b), and the set is unchanged,
@@ -296,10 +281,10 @@ const CORROBORATE = new Set(['tosefta-variant-chapter-halakha-loss']);
 
 /**
  * Rules that write a target naming a headword belonging to ANOTHER
- * ENTRY of the dictionary — link-target gate case 8, batch 9. A NINTH
- * class, added on the same reasoning that made `RESTORE` a fifth and
- * `CORROBORATE` a sixth: a differently-shaped declaration earns its own
- * set rather than stretching a neighbouring one.
+ * ENTRY of the dictionary — link-target gate case 8. A ninth class,
+ * on the reasoning that made `RESTORE` a fifth and `CORROBORATE` a
+ * sixth: a differently-shaped declaration earns its own set rather
+ * than stretching a neighbouring one.
  *
  * IT IS NOT `RETARGET`, and the distinction is the whole of case 8. A
  * retarget ADOPTS a target some anchor of this entry already carries.
@@ -327,9 +312,9 @@ const VOUCH = new Set(['v-sub-redirect-stub-mislink']);
 
 /**
  * Rules that repair a link target's POINTING and nothing else —
- * link-target gate case 9, batch 10. A TENTH class, on the reasoning
- * that made `VOUCH` a ninth: a differently-shaped declaration earns its
- * own set rather than stretching a neighbouring one.
+ * link-target gate case 9. A tenth class, on the reasoning that made
+ * `VOUCH` a ninth: a differently-shaped declaration earns its own set
+ * rather than stretching a neighbouring one.
  *
  * `NEITHER` is false of them — they write a target. `RETARGET` is false
  * too, and here the call is not close at all: a retarget adopts a
@@ -351,10 +336,10 @@ const POINT = new Set(['holam-migrated-off-mater-vav', 'shin-sin-dot-drop']);
 
 /**
  * Rules that CREATE an anchor, copying its target whole from a
- * neighbouring one — link-target gate case 10, 2026-09-06. An
- * ELEVENTH class, on the reasoning that made `VOUCH` a ninth and
- * `POINT` a tenth: a differently-shaped declaration earns its own set
- * rather than stretching a neighbouring one.
+ * neighbouring one — link-target gate case 10. An eleventh class, on
+ * the reasoning that made `VOUCH` a ninth and `POINT` a tenth: a
+ * differently-shaped declaration earns its own set rather than
+ * stretching a neighbouring one.
  *
  * `NEITHER` is false of them — they write a target. `RETARGET` is
  * false too, and the distinction is the whole of case 10: a retarget
@@ -380,9 +365,9 @@ const POINT = new Set(['holam-migrated-off-mater-vav', 'shin-sin-dot-drop']);
 const MINT = new Set(['unlinked-bare-anaphor']);
 
 /**
- * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — batch 5's
- * headword family, and a seventh class rather than four more members of
- * `NEITHER`.
+ * Rules whose object is a FIELD THAT NEVER CARRIES MARKUP — the
+ * headword family, and a seventh class rather than four more members
+ * of `NEITHER`.
  *
  * The distinction is not bookkeeping. `NEITHER`'s docstring is careful
  * that its members *"demonstrably edit ADJACENT to"* anchors and so
@@ -397,11 +382,10 @@ const MINT = new Set(['unlinked-bare-anaphor']);
  * Rule 1 says nothing about where they sit. Something outside the class
  * DOES read and write these fields, though — `gershayimInBody` is scoped
  * to every field `fieldsOf` walks, `headword` and `alt_headwords`
- * included, and it composes with `phraseAltHeadwordStub` measurably
- * (the corpus gershayim count moving 2,305 → 2,309 because the phrase
- * rule copies a headword that rule already repaired, measured on the
- * 2026-07-04 export by a corpus check retired in consolidation step 5,
- * `docs/v2/retired-corpus-checks.md`). The ORDER is free and that is measured,
+ * included, and it composes with `phraseAltHeadwordStub` measurably:
+ * the corpus gershayim count moves 2,305 → 2,309, because the phrase
+ * rule copies a headword that rule already repaired. The ORDER is
+ * free and that is measured,
  * not assumed: both directions give 92 marks over these two fields and
  * 235 phrase records, since `gershayimInBody` walks every field and
  * repairs the copy too when it runs second. Converging is not the same
@@ -475,21 +459,20 @@ function extend(runs: number[][], from: number, to: number): void {
  * there are, and which offset ranges of the TAG-STRIPPED text they
  * cover, contiguous runs merged.
  *
- * POSITION-SENSITIVE, and it has to be. This was a single character
- * COUNT per field until review round 4, which meant a rule that MOVED
- * a wrapper without changing how much text it covers — `covers 4
- * characters from offset 0` becoming `covers 4 characters from offset
- * 7` — produced the same count and the same stripped text, satisfied
- * NEITHER half of the `WRAP` conjunction, and landed in `NEITHER`
- * where rule 4 could not see it. The same evasion the 3-id literal
- * had, one level down.
+ * POSITION-SENSITIVE, and it has to be. A plain character COUNT per
+ * field lets a rule that MOVES a wrapper without changing how much
+ * text it covers — `covers 4 characters from offset 0` becoming
+ * `covers 4 characters from offset 7` — produce the same count and
+ * the same stripped text, satisfy NEITHER half of the `WRAP`
+ * conjunction, and land in `NEITHER` where rule 4 cannot see it: the
+ * same evasion a hand-written id list allows, one level down.
  *
  * WHAT THE SIGNATURE DISTINGUISHES, since the next reader needs the
  * boundary rather than the intent:
  *
  * - a wrapper appearing or disappearing (the count moves);
  * - a wrapper growing, shrinking, or SLIDING along the text (the
- *   ranges move) — this is what round 4 added;
+ *   ranges move) — which only the position signature sees;
  * - a wrapper whose text is edited underneath it, only insofar as the
  *   edit changes lengths. Text edits are the OTHER half of the
  *   conjunction and are caught there, by `textOf`.

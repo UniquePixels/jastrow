@@ -5,7 +5,7 @@
  * attribute parsing exists once. Two parsers would drift, and the
  * corpus contains tags that defeat a naive one — an `href` missing its
  * closing quote absorbs the following `</a>` into the attribute value
- * (`unterminated-href-swallows-closing-tag`, 2 instances, batch 4).
+ * (`unterminated-href-swallows-closing-tag`, 2 instances).
  * `opensScope` from `html.ts` is the single authority on that shape;
  * this module reports an anchor whose OWN opening tag fails it as
  * `malformed`, and both editors refuse.
@@ -26,17 +26,15 @@
  * makes the same call for the same reason: two independent readings of
  * where the interior ends would be free to drift, and did once).
  *
- * THE WHOLE INTERIOR POPULATION, named (measured 2026-08-24, task 11;
- * batch-2 task 0 left the composition of its `interior: 12` open, with
- * the twelfth member's source tag unidentified). Over every field
+ * THE WHOLE INTERIOR POPULATION, named. Over every field
  * `fieldsOf` walks: 170,182 anchors, `malformed: 2`, `close === -1: 3`,
  * `interior: 12` — and **all twelve interior anchors are in ONE entry,
  * J00597, trapped by ONE damaged tag**, its first anchor's unterminated
  * href `href="/Jastrow,_דִּלְדֵּל.1</a>`, which swallows the rest of the
  * field. There is no twelfth source to find; there was only ever one.
  * That single tag is the catalogued row
- * `unterminated-href-swallows-closing-tag` (2, blocking, PENDING), so
- * repairing that row retires this refusal's entire live population.
+ * `unterminated-href-swallows-closing-tag`, so repairing that row
+ * retires this refusal's entire live population.
  */
 import {
 	attributeInterior,
@@ -60,9 +58,8 @@ import {
 //
 // KNOWN LIMIT, unchanged by the widening: `\b${name}` is quote-blind,
 // so in `<a title="see href='x'" href="/real">` it would read `x`.
-// Raised in review 2026-08-24 and measured rather than assumed — the
-// old and new classes return byte-identical values on every such
-// shape, and the corpus cannot produce one: an `<a>` tag here carries
+// Measured rather than assumed: the corpus cannot produce that
+// shape, because an `<a>` tag here carries
 // exactly four attribute names (`class`, `href` and `data-ref`
 // 170,180 each, `dir` 62,003) and 0 tags carry a second `href` or
 // `data-ref`. Both facts are pinned in `links.test.ts`, so a later
@@ -176,11 +173,9 @@ function buildAnchor(
  *
  * A single stack pairs each open with the next `</a>` that pops it,
  * which is LOAD-BEARING, not a hedge against an assumption that
- * doesn't hold: anchors DO nest in this corpus. Corrected 2026-08-23 —
- * this docstring used to claim the opposite ("anchors do not nest in
- * this corpus, so depth never exceeds one"), which a reviewer's
- * corpus-wide count disproved and which had already caused a real bug
- * in `unlink.ts`'s `unlinkMatching` (see that function's docstring).
+ * doesn't hold: anchors DO nest in this corpus, and assuming
+ * otherwise caused a real bug in `unlink.ts`'s `unlinkMatching` (see
+ * that function's docstring).
  * Measured: 477 nested pairs across 465 entries in `definition` text,
  * both members usable in every pair. `language_reference` carries 757
  * pairs across 756 entries, 755 of them sharing one `data-ref` — the
@@ -268,40 +263,22 @@ function replaceAttrValue(
  * name the attribute rather than surfacing as
  * `replaceAttrValue`'s generic throw from inside a nested call.
  *
- * Measured 2026-08-24 over all 170,182 corpus anchors, by substring so
- * the parser's own limits do not colour the count: **170,180 carry
+ * Measured over all 170,182 corpus anchors, by substring so the
+ * parser's own limits do not colour the count: **170,180 carry
  * both `href` and `data-ref`, 2 carry `href` alone, 0 carry `data-ref`
  * alone.** No shipped rule reaches those 2 — a composed pass over all
  * 32,512 entries throws 0 times — but a throw inside a rule is a
  * migration failure rather than a soft error, and "no rule reaches it
- * today" is the argument that preceded two latent bugs in this batch.
+ * today" is an argument that has preceded latent bugs here before.
  *
- * A LARGER population once hit the same wall and no longer does.
- * **452 anchors across 417 entries carried both attributes and parsed
- * as neither**, because `ATTR`'s value class was `[^"']*` and their
- * values hold an apostrophe (`Tosefta Ma'asrot 1:4`,
- * `Tosefta Shevi'it 4:11`). Every one of the 452 was an apostrophe
- * case; none was anything else. That was a parser defect rather than a
- * corpus defect, and batch 2 deferred it because widening the class
- * changes what every rule and the link-target gate SEE corpus-wide.
- *
- * FIXED 2026-08-24, measured before batch 3 rather than asserted. The
- * widening is **purely additive**: over the 170,180 opening tags that
- * are well-formed enough to scan — the corpus's 170,182 anchors less
- * the 2 whose `href` swallows their own `</a>`, which no value class
- * can read — `href` and `data-ref` each gain 452 values, **0 values
- * change** and **0 are lost**. Both corpus gates are byte-identical across the
- * change — `transform:count` reports the same 13 rules / 11 MATCH /
- * `ib-yoma-2a` −124 / `sifre-ib-resolves-to-yalkut` −5, and
- * `body:migrate-dry`'s report file diffed empty. No shipped rule fires
- * differently; what changed is only what the parser can SEE.
- *
- * It did overturn a claim three records carried. O00242's bare `Ib.`
- * was described as "carrying no `data-ref` at all"; it carries
- * `Avot D'Rabbi Natan 1:7`, which the old class could not read, and
- * that address matches its own nearest antecedent EXACTLY. See
- * `rules/anaphora.ts` and `catalogue-audit/ib-yoma-2a.md` §2c/§3.2 for
- * what the correction does to the row's evidence, which it strengthens.
+ * `ATTR`'s value class MUST admit an apostrophe. With `[^"']*`, 452
+ * anchors across 417 entries carried both attributes and parsed as
+ * neither, because their values hold one (`Tosefta Ma'asrot 1:4`,
+ * `Tosefta Shevi'it 4:11`); every one of the 452 was that case and
+ * nothing else. Widening the class is purely additive — `href` and
+ * `data-ref` each gain those 452 values, 0 values change and 0 are
+ * lost — but it changes what every rule and the link-target gate SEE
+ * corpus-wide, so it is a measured change rather than a free one.
  */
 function assertRetargetable(tagValue: string): void {
 	for (const [name, attr] of ATTRIBUTES) {

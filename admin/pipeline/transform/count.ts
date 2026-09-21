@@ -12,43 +12,27 @@
  *
  * `hit` below counts ENTRIES a rule touches, not instances within
  * them — a rule that fires three times inside one entry still counts
- * once. `corpusCount` is an entry count for MOST rows — verified for
- * `bare-rtl-hebrew`, whose committed `corpusCount` is 4,189 entries
- * (4,471 senses), CORRECTED from the audit's 4,190 when the transform
- * was written: the old figure was a +1/−1 cancellation, not agreement
- * — but not all of them. Some rows count OCCURRENCES, and say so:
- * `unmatched-closing-paren` (1,604) and `ascii-quote-as-gershayim-in-
- * body` (whose `reason` records 2,305 occurrences against 1,386
- * entries) are both live examples. A DELTA against a row like that is
- * not a harness bug to chase — it is the designed unit-mismatch
- * finding (spec §4.2) for whoever writes that rule to triage, not
- * evidence this measurement is wrong.
+ * once. `corpusCount` is an entry count for MOST rows but not all:
+ * some count OCCURRENCES and say so, as `unmatched-closing-paren`
+ * (1,604) and `ascii-quote-as-gershayim-in-body` (2,305 occurrences
+ * against 1,386 entries) do. A DELTA against a row like that is not a
+ * harness bug to chase — it is the designed unit-mismatch finding
+ * (spec §4.2) for whoever writes that rule to triage.
  *
- * The example this paragraph used to give,
- * `ascii-gershayim-outside-body-text` (409 occurrences across seven
- * field slots), was discarded in batch 3a's pre-PR review: the two
- * gershayim rules repair six of its slots and `refs[]` is dropped at
- * compile, leaving nothing. It will therefore never reach this
- * harness.
- *
- * The corpus (32,512 entries, ~41 MB) is read into memory once up
- * front and every rule loops over that array, rather than
- * re-streaming `readSourceEntries()` once per rule. Streaming scales
- * with rule count — file I/O and JSON parsing repeated 80 times — so
- * as the registry grows toward 80 rules that would dominate the run.
- * The parsed corpus fits comfortably in memory, so paying the
- * streaming cost once and looping rules over the array in memory is
- * the cheaper trade.
+ * The corpus (32,512 entries, ~41 MB) is read into memory once and
+ * every rule loops over that array, rather than re-streaming
+ * `readSourceEntries()` per rule: streaming scales with rule count, so
+ * file I/O and JSON parsing repeated once per rule would dominate the
+ * run as the registry grows.
  *
  * `loadCorpus()` recursively freezes every entry after parsing.
  * `Rule.apply` MUST treat its input as immutable (spec + `types.ts`
- * doc on `Rule.apply`) — an in-place mutator would otherwise corrupt
- * every later rule's measurement against this same shared array
- * within one run, a live instance of the "composed counts are
- * meaningless" failure this harness exists to prevent, introduced by
- * the load-once optimization above rather than by rule chaining. The
- * freeze turns that silent corruption into an immediate `TypeError`
- * naming the mutating call (ESM is strict mode).
+ * doc on `Rule.apply`), because an in-place mutator would corrupt
+ * every later rule's measurement against this same shared array — the
+ * "composed counts are meaningless" failure this harness exists to
+ * prevent, reintroduced by the load-once optimization above rather
+ * than by rule chaining. The freeze turns that silent corruption into
+ * an immediate `TypeError` naming the mutating call.
  *
  * Run: bun transform:count
  */

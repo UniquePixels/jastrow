@@ -4,10 +4,9 @@
  * `checkAdjacency()` enforces one direction — a pair the catalogue
  * DECLARES entangled must sit gap-free in the registry. Nothing
  * enforced the other: a pair that BEHAVES as entangled must be
- * declared. That gap is what let batch 3b write four rules which
- * could have claimed another catalogue row's members, three of which
- * would have shipped that way; all four were caught by a human
- * reading a sibling row's `reason`.
+ * declared. Without this gate that direction rests on a human
+ * noticing, from a sibling row's `reason`, that two rules claim the
+ * same members.
  *
  * Two rules contend for the same bytes exactly when their composition
  * is order-dependent, so the invariant is:
@@ -19,61 +18,32 @@
  * order-dependent by measurement and declared as a 3-clique. What is
  * a defect is non-commutation nobody wrote down.
  *
- * ## The rid-set skip is a UNION, and the first version of it was wrong
+ * ## The rid-set skip is a UNION, not an intersection
  *
- * CORRECTED 2026-08-26 (fix/rtl-unlink-order, review round 1). This
- * section used to be headed "Why the rid-set intersection is
- * load-bearing, not a micro-optimisation" and it claimed:
+ * Restricting a pair to the entries where BOTH rules fire is UNSOUND,
+ * because the premise is evaluated on the RAW entry: if `b` does not
+ * change `e` but DOES change `a(e)`, then `b` is not an identity step
+ * in the `a`-first order, the two orders disagree, and the
+ * intersection has already discarded `e`. That is not a corner case
+ * — it is the exact mechanism an unlink/wrap pair exhibits, where the
+ * unlink drops an anchor and exposes text the wrap rule then claims.
+ * Across the four declared `bare-rtl-hebrew` pairs the intersection
+ * discarded ~70% of the disagreeing entries, and caught the 50-entry
+ * pair on the strength of seven.
  *
- *   "Restricting each pair to the entries where BOTH rules actually
- *    fire is exact — a pair cannot disagree on an entry where at
- *    least one of them changes nothing, because then one order is
- *    the other with an identity step spliced in."
- *
- * **Neither half is true.** The premise is evaluated on the RAW
- * entry. If `b` does not change `e` but DOES change `a(e)`, then `b`
- * is not an identity step in the `a`-first order, the two orders
- * disagree, and the intersection has already discarded `e`. That is
- * not a corner case: it is the exact mechanism this branch exists to
- * repair — an unlink rule drops an anchor and exposes text a wrap
- * rule then claims.
- *
- * Measured over all 32,512 entries, for the four pairs this branch
- * declares, in ENTRIES whose two orders disagree:
- *
- *   pair                                             total  seen  lost
- *   bare-rtl-hebrew × geresh-letter-numeral-mislink    441   132   309
- *   bare-rtl-hebrew × prefixed-geresh-abbrev-mislink   170    41   129
- *   bare-rtl-hebrew × ellipsis-fragment-anchored        80    24    56
- *   bare-rtl-hebrew × plural-to-feminine-…-mislink      50     7    43
- *
- * ~70% of the evidence was thrown away before the comparison ran, and
- * the 50-entry pair was caught on the strength of seven entries —
- * entries where `bare-rtl-hebrew` happened to fire somewhere ELSE in
- * the same entry for an unrelated reason. This gate found the defect
- * it was written to find; it did not have to.
- *
- * The UNION is the sound restriction, and its justification does
- * hold: if NEITHER rule changes `e`, then `a(e) = b(e) = e` and both
- * orders land on `e`. So a pair can only be skipped on entries no
- * rule touches at all.
- *
- * ## What the union costs, stated rather than argued
- *
- * 27 rules is 351 unordered pairs. Under the union every pair has a
- * non-empty candidate set, so all 351 are composed, over 277,488
- * entry-visits, in ~34 seconds — against this test's own 180,000 ms
- * timeout. It finds the identical 8 pairs and the identical sample
- * rids the unsound version reported. The skip is therefore an
- * ordinary optimisation and is described as one: it buys the entries
- * no rule touches, which on this corpus is most of them.
+ * The UNION is sound: if NEITHER rule changes `e` then
+ * `a(e) = b(e) = e` and both orders land on `e`, so a pair can be
+ * skipped only on entries no rule touches at all. It leaves every
+ * pair with a non-empty candidate set, so the skip is an ordinary
+ * optimisation — it buys the entries no rule touches, which on this
+ * corpus is most of them — and the whole sweep stays well inside this
+ * test's own timeout.
  *
  * ## What this gate does NOT see
  *
- * - **A `PENDING` row.** 38 catalogue rows have no rule (measured
- *   2026-08-26 after batch 4; this read 46), so a
- *   predicate claiming a population that has no predicate yet stays
- *   untestable by construction. This gate compares rules that exist.
+ * - **A `PENDING` row.** A predicate claiming a population that has
+ *   no rule yet is untestable by construction. This gate compares
+ *   rules that exist.
  * - **Commuting overlap.** Two rules can claim the same bytes and
  *   still commute, if each is idempotent on the other's output. The
  *   design-time byte-span comparison in the spec is the sharper
@@ -191,7 +161,7 @@ interface PairStats {
 	/** Pairs skipped because their rules run in DIFFERENT PHASES, and
 	 * so have only one possible order. Reported rather than silently
 	 * dropped: a skip nobody counts is the "silence mistaken for
-	 * coverage" failure `link-target.ts` names. Zero until batch 6c. */
+	 * coverage" failure `link-target.ts` names. */
 	crossPhasePairs: number;
 	/** Ids of rules that changed no entry in the corpus, sorted. Empty
 	 * is the only healthy value. */
@@ -256,15 +226,11 @@ function firstDisagreement(
  * forbids agrees with the real one; a disagreement there is the phase
  * boundary WORKING, not an undeclared entanglement.
  *
- * Batch 6c is where this surfaced: `stranded-stem-head` reported four
- * such pairs, one of them `label-period-outside-italic`, whose output
- * the structural rule's population DEPENDS on (360 → 562 occurrences).
- * That dependency is real; the 360 → 562 figure was measured on the
- * 2026-07-04 export by a corpus check retired in consolidation step 5
- * (`docs/v2/retired-corpus-checks.md`). What it is not is a
- * registry-adjacency constraint, which is the only thing
- * `entangledWith` can express. Batch 6b's single structural rule did
- * not reveal the gap because it happened to commute with all 40.
+ * `stranded-stem-head` is the live example: it reports four such
+ * pairs, one of them `label-period-outside-italic`, whose output the
+ * structural rule's population DEPENDS on (360 → 562 occurrences).
+ * That dependency is real. What it is not is a registry-adjacency
+ * constraint, which is the only thing `entangledWith` can express.
  */
 function oneOrderOnly(a: Rule, b: Rule): boolean {
 	return a.phase !== b.phase;
@@ -342,10 +308,9 @@ interface Tally {
 /** Fold one pair into the tally.
  *
  * Split out of `nonCommutingPairs` along with `unorderedPairs` and
- * `verdictFor` because SonarQube's `typescript:S3776` measured the
- * merged version at 16 against a budget of 15 once batch 6c's
- * cross-phase branch landed. Three named steps — enumerate, decide,
- * tally — rather than a suppression. */
+ * `verdictFor` to keep each under SonarQube's `typescript:S3776`
+ * complexity budget: three named steps — enumerate, decide, tally —
+ * rather than a suppression. */
 function tallyPair(a: Rule, b: Rule, ctx: PairContext, tally: Tally): void {
 	tally.totalPairs++;
 	// See `oneOrderOnly`: a cross-phase pair has ONE order, so it is
