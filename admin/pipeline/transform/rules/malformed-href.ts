@@ -1,5 +1,5 @@
 /**
- * `unterminated-href-swallows-closing-tag` .
+ * `unterminated-href-swallows-closing-tag`.
  *
  * Two anchors in the corpus — D00478 and J00597, and no others — open
  * an `href` quote they never close. The `</a>` that should have

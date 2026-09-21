@@ -20,8 +20,9 @@
  * chapter/verse/paragraph number closing a real, already-open
  * parenthetical, not a restarted-list marker. A census-style regex that
  * only checks the single character before the digit (`census.ts`'s
- * `pluralSection`, and the pattern the design census counted 25
- * candidate entries with) can't tell the two apart — measured by hand
+ * `pluralSection`, in the archived census at
+ * `refs/tags/archive/v2-research-2026-09`, and the pattern the design
+ * census counted 25 candidates with) can't tell the two apart — by hand
  * against the full entry text, only 5 of those 25 carry a genuine,
  * paren-clear ascending run for `Pl.`; the other 20 are single spurious
  * citation-close matches that would otherwise slice a built sense open

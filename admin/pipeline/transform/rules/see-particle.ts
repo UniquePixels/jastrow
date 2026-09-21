@@ -103,7 +103,7 @@ const STUB =
  * not stub-shaped at all.
  *
  * ONE PREDICATE, TWO CALLERS. The rule reads it to decide whether to
- * repair; a corpus check, retired, read it to census the 7,270
+ * repair; a corpus check (retired) read it to census the 7,270
  * filled slots and the 4 empty ones. Two copies would let the gate
  * count a population the rule does not act on — which is exactly what
  * the required separating space below would have caused. */

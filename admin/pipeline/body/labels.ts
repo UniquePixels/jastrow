@@ -1,6 +1,6 @@
 /**
- * Sense-label normalization + print regeneration (design doc §2/§3 B6,
- * design doc). `sense.number` in the source is a raw
+ * Sense-label normalization + print regeneration (design doc §2/§3
+ * B6). `sense.number` in the source is a raw
  * print-form token ("1)", "—2)", "*2)") — this module parses it into the
  * normalized `{ label, star, dash }` triple the body model stores, and
  * regenerates the exact source string back from that triple. Anything

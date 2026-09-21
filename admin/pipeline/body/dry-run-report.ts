@@ -1,7 +1,6 @@
 /**
- * Full-corpus dry-run accumulator (design doc §6.0, entry-body-model
- * — split across two files only to stay
- * under the per-file line budget). Every function here is pure
+ * Full-corpus dry-run accumulator (design doc §6.0; split across two
+ * files only to stay under the per-file line budget). Every function here is pure
  * bookkeeping over an already-built `BodyEntry`/`SourceEntry` pair — it
  * has no dependency on `dry-run.ts`'s composition, so the two files
  * don't form an import cycle even though `dry-run.ts` (the entry point,

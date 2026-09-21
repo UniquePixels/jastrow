@@ -111,7 +111,10 @@ if (import.meta.main) {
 				carried += result.carryOver.carried.length;
 			} catch (error) {
 				// `'repair'` is the fallback label for anything that is not a
-				// `TransformFailure` — an `applyRepairs` throw.
+				// `TransformFailure`. `applyRepairs` holds no rid-keyed
+				// find-text assertions and does not throw, so the branch is
+				// unreachable today — a `repair:` line means something else in
+				// the compose path threw.
 				problems.push({
 					reason: `${error instanceof TransformFailure ? 'transform' : 'repair'}: ${error instanceof Error ? error.message : String(error)}`,
 					rid: source.rid,

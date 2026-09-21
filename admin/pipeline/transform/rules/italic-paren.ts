@@ -5,7 +5,7 @@ import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
 /**
- * `italic-swallows-close-paren`  — 8 genuine of 10 raw
+ * `italic-swallows-close-paren` — 8 genuine of 10 raw
  * occurrences / 10 entries, and the ONE row of the seam batch's four
  * escalation rows that turned out repairable.
  *

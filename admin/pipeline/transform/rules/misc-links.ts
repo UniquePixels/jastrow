@@ -1,5 +1,5 @@
 /**
- * `plural-to-feminine-final-letter-mislink` : a printed
+ * `plural-to-feminine-final-letter-mislink`: a printed
  * plural — "Pl. Xִים, Xִין" — anchored to the entry's FEMININE Xִית
  * sibling instead of to itself. The skeletons differ only in the final
  * letter (ם/ן on the plural display, ת on the target): C01080 גַּנָּב
@@ -400,8 +400,8 @@ const pluralToFeminineFinalLetter: Rule = {
 };
 
 /**
- * `shuruk-as-yod-display-corruption` : an anchor's
- * DISPLAY text prints יּ (yod U+05D9 + dagesh U+05BC) at the exact
+ * `shuruk-as-yod-display-corruption`: an anchor's DISPLAY text
+ * prints יּ (yod U+05D9 + dagesh U+05BC) at the exact
  * spot the word's own correctly-resolved target spells וּ (shuruk —
  * vav U+05D5 + the SAME dagesh U+05BC): visually near-identical bases
  * (י/ו) OCR confuses more than most Hebrew letter pairs, compounded by

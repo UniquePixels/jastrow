@@ -11,10 +11,11 @@
  *
  * Widening the rule interface to carry a corpus-wide fact costs more
  * than these rows are worth, so the fact is computed once and pinned.
- * Re-deriving the list from the snapshot and requiring an exact match
- * is what keeps the pin from silently drifting away from the corpus
- * it describes; on a new export that check is a review-detector
- * candidate (consolidation spec §10) rather than a gate.
+ * NOTHING CHECKS THE PIN TODAY: the re-derivation that required an
+ * exact match against the snapshot is retired
+ * (`docs/v2/retired-corpus-checks.md`), and on a new export it is a
+ * review-detector candidate (consolidation spec §10) rather than a
+ * gate. Widening `FROZEN` by hand is therefore unguarded.
  *
  * ON A SOURCE RE-FETCH the frozen list describes a corpus that is no
  * longer on disk, which is a stale baseline and not a defect — the
@@ -192,9 +193,9 @@ const FROZEN: readonly string[] = [
  * the freeze does not reach. What the freeze does buy is a block on
  * property tacking at runtime. The residual is therefore real but
  * narrow: a caller that casts the type away could still mutate the
- * contents. Nothing in the tree does, and the guard against it is a
- * re-derivation over the corpus, comparing the rebuilt set member for
- * member.
+ * contents. Nothing in the tree does, and the only guard that would
+ * catch it — a re-derivation over the corpus comparing the rebuilt
+ * set member for member — is retired.
  *
  * The set stays EXPORTED rather than hidden behind membership
  * functions because it is read as a collection, not just queried:
@@ -239,8 +240,9 @@ const RUN = /<i>(?<body>[^<>]*)<\/i>/gu;
  * over all 960,800 strings of length <= 7 in the alphabet
  * `a A . ␣ , ; )` — every class boundary the pattern can see —
  * comparing offset, whole match AND captured token: 0 disagreements.
- * Re-deriving the vocabulary from the corpus reproduces `FROZEN`
- * member for member, at 93 members.
+ * Re-derived from the corpus, the vocabulary reproduced `FROZEN`
+ * member for member at 93 members; that check is retired, so a
+ * re-fetch must re-run it before `FROZEN` is trusted.
  */
 const MID_RUN = /(?<![^\s.])(?<token>[^\s.]+)\.\s*(?=[,;)]|\p{Ll})/gu;
 /** The same continuation test applied to the field text following a

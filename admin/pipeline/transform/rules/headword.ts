@@ -326,8 +326,9 @@ function expandStub(
  * entries / 419 occurrences, and the 175 extra are single-word stubs
  * carrying a homograph numeral (`'אֲמוּ׳ II'`) that belong to the
  * parent's job 1, for which no deterministic expansion exists. A rule
- * that expanded those would be inventing spellings. Pinned by a corpus
- * check, retired, in the shape of the mistake.
+ * that expanded those would be inventing spellings. A corpus check
+ * pinned the shape of the mistake; it is retired
+ * (`docs/v2/retired-corpus-checks.md`).
  *
  * **THE REGISTRY'S FIRST `copied` USER.** This is the only rule in
  * this family that adds text, and `types.ts` names this exact case on
@@ -424,8 +425,9 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * and gate work is its own PR here. Carried as an open item.
  *
  * `LINKED_HEADWORDS` is an enumerated exception and therefore MUST BE
- * LOUD ON DRIFT (`rules/unlink.ts`'s `unobservedConvention`, the ruling
- *). A corpus test asserted it equalled EXACTLY the fused
+ * LOUD ON DRIFT, on the same loud-on-drift ruling `rules/unlink.ts`'s
+ * `unobservedConvention` carries. A corpus test asserted it equalled
+ * EXACTLY the fused
  * headwords some anchor targets, so a re-fetch that added or removed a
  * pointing anchor would have failed a test rather than silently
  * changing what shipped. It no longer runs; on a new export this is a

@@ -126,8 +126,9 @@
  *   1         different work — A01334, the one genuine case
  * ```
  *
- * Those figures were 996 / 870 / 11 / **3** until the apostrophe fix
- *. The two extra "different work" rows were the two whose
+ * Those figures read 996 / 870 / 11 / **3** under an attribute value
+ * class that cannot hold an apostrophe. The two extra "different
+ * work" rows were the two whose
  * anaphor read as an empty `data-ref`, and neither was empty: O00242
  * and S00503 both carry `Avot D'Rabbi Natan …`, unreadable under the
  * old value class. Read, O00242 matches its antecedent exactly and
@@ -485,9 +486,9 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  *   133 of the 209 FIRING members carry one
  *   → adding the cue would cost 133 repairs of 209 (64%), keeping 76
  *
- * A corpus check pinned all three on every `bun qa`, so the figure
- * could not drift back into prose; that check is retired in
- * a retired corpus check.
+ * A corpus check pinned all three on every `bun qa`, so the figures
+ * could not drift back into prose; it is retired
+ * (`docs/v2/retired-corpus-checks.md`).
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
 

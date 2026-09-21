@@ -34,10 +34,13 @@
  * The UNION is sound: if NEITHER rule changes `e` then
  * `a(e) = b(e) = e` and both orders land on `e`, so a pair can be
  * skipped only on entries no rule touches at all. It leaves every
- * pair with a non-empty candidate set, so the skip is an ordinary
- * optimisation — it buys the entries no rule touches, which on this
- * corpus is most of them — and the whole sweep stays well inside this
- * test's own timeout.
+ * pair with a non-empty candidate set, so every pair is composed and
+ * the skip is an ordinary optimisation: it buys the entries no rule
+ * touches, which on this corpus is most of them. Pair count is
+ * QUADRATIC in rule count — at 27 rules, 351 pairs over 277,488
+ * entry-visits ran in ~34 s against this test's 180,000 ms timeout —
+ * so re-measure it when the registry grows rather than assuming the
+ * headroom holds.
  *
  * ## What this gate does NOT see
  *

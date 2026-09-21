@@ -5,9 +5,10 @@
  *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
- * This module is the authoritative structural rule — a boolean
- * detector written for corpus-wide sizing may disagree with it on
- * edge cases, and loses.
+ * This module is the authoritative structural rule. A boolean
+ * detector written for corpus-wide sizing (`letteredRun`, in the
+ * archived census at `refs/tags/archive/v2-research-2026-09`) may
+ * disagree with it on edge cases, and loses.
  */
 
 interface LetteredItem {

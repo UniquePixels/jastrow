@@ -65,9 +65,8 @@
  *   INSIDE the merged run, immediately before its own `</i>`). This
  *   shape has direct corpus precedent (`<i>the hereafter.—Pl.</i>`,
  *   `<i>vagina.—Fem</i>`, `<i>to extend.—Part. pass.</i>`,
- *   `<i>detached part.—Pl.</i>`, and 7 more — 11 occurrences total)
- *   — Jastrow
- *   writes both the merged-run and the separate-run label
+ *   `<i>detached part.—Pl.</i>`, and 7 more — 11 occurrences total).
+ *   Jastrow writes both the merged-run and the separate-run label
  *   conventions, and the merged one requires no branching in the
  *   replacement, so it is what this rule produces.
  *
@@ -84,7 +83,7 @@
  * 0 problems, `checkMarkup` 0 problems, codepoint multiset delta
  * exactly `{" ": −508}` (230 empty-label occurrences × 2 spaces each,
  * plus 48 labelled × 1 space each = 460 + 48 = 508) and nothing else
- * moves. A corpus check, retired, asserted the 278→0 delta and
+ * moves. A corpus check (retired) asserted the 278→0 delta and
  * the 2-before/2-after non-creation check directly, rather than an
  * invariant that a no-op rule would also satisfy — that check's own
  * docstring has why a touch-count vacuity guard alone cannot tell a

@@ -309,9 +309,9 @@ const rabbiName: Rule = {
  * `apply` call. So this can't be an in-rule assertion; it has to walk
  * the corpus itself, independently of any single rule invocation.
  *
- * This helper only computes the unobserved keys; a corpus check, now
- * retired in a retired corpus check,
- * was where it actually ran, as a corpus-walking test rather than a
+ * This helper only computes the unobserved keys; a corpus check
+ * (retired, `docs/v2/retired-corpus-checks.md`) was where it actually
+ * ran, as a corpus-walking test rather than a
  * `transform:count` check — chosen deliberately. `transform:count`
  * already catches drift, but only as an aggregate delta on the count
  * of 80: late (visible only on a manual run someone remembers to make)
