@@ -145,9 +145,19 @@ search hit, or derive a slug from it.
 
 ## 4.1 Fixes queued as patches
 
-Defects the walk-through has settled, to be corrected by patch in one
-batch once the walk-through ends. Each is pipeline-detectable, so the
-generated report keeps listing it until the patch lands.
+**Shipped 2026-09-20** as 16 `reform` patches plus one anchor `replace`
+in `data/patches/reviewed/` — all nine gates green, `unresolved=0`,
+`headword-unparsed` 309 → 300, `slug-unsafe` 12 → 2. The `reform` op
+(target `forms:<anchor>`) was added for them: every other target
+addresses a sense.
+
+Five rows are NOT in that batch and are tracked in
+[#113](https://github.com/UniquePixels/jastrow/issues/113): A01175,
+A01345 and V00518 need text moved into a gloss, which no op expresses;
+S01780 and U00489 need the print's spelling. U00489 is the instructive
+one — rejoining its torn headword produced a string U00488 already
+holds, and the uniqueness gate refused it, so the entry carries a
+numeral the tear lost.
 
 | Shape | Rows | Patch |
 |---|---|---|
