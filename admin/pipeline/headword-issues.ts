@@ -6,13 +6,12 @@
  * Two inputs, deliberately:
  *
  * - `data/source/migration-report.json`, for what the CURRENT processor
- *   already flags (`headword-unparsed`, `headword-multiword`,
- *   `slug-unsafe`). Run `bun data:import` first if it is stale.
+ *   already flags (`headword-unparsed`, `headword-multiword`). Run
+ *   `bun data:import` first if it is stale.
  * - `data/entries/`, walked independently. The processor's review list
  *   is not the defect list: a form can round-trip through the grammar
- *   and still be wrong (a lost letter, a Sefaria split, a slug whose
- *   number contradicts the printed numeral), and those rows exist only
- *   because this file looks for them.
+ *   and still be wrong (a lost letter, a Sefaria split), and those rows
+ *   exist only because this file looks for them.
  *
  * Writes `docs/v2/headword-issues.md` (read by eye, one section per
  * shape, every rid linked to the live app) and
@@ -21,6 +20,7 @@
  * Run: bun run headword:issues
  */
 import { isHeadwordReviewKind } from './migrate/headword.ts';
+import { deriveName } from './migrate/names.ts';
 import type { FormObject, TruthEntry } from './migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
@@ -47,7 +47,6 @@ const MAQAF = '\u05BE';
 const DOT_ABOVE = '\u0307';
 const DOUBLE_SPACE = '  ';
 const UNPARSED_DETAIL = /^(?<form>.*) — (?<reason>.*)$/u;
-const UNSAFE_SLUG_CHAR = /[^\u05D0-\u05EA0-9-]/gu;
 /** A final letter, which may not stand mid-word (`\u05DA` in
  * F00009's `\u05D5\u05B7\u05D0\u05E8\u05B0\u05DA\u05BC\u05D5\u05BC\u05E0\u05B0\u05D9\u05B8\u05D0`), and the plain forms that may not end one. */
 const FINAL_LETTER = /[\u05DA\u05DD\u05DF\u05E3\u05E5]/u;
@@ -67,11 +66,15 @@ interface MigrationReport {
  * whether the current processor already flags it. */
 interface IssueRow {
 	flagged: boolean;
+	/** The entry's current URL name (`migrate/names.ts`), for context
+	 * beside the form the row is about. Derived, never stored — this
+	 * file does not re-implement the derivation the way it once
+	 * re-implemented slug-stem stripping. */
+	name: string;
 	note: string;
 	rid: string;
-	role: 'alt' | 'headword' | 'slug';
+	role: 'alt' | 'headword';
 	shape: string;
-	slug: string;
 	text: string;
 }
 
@@ -318,11 +321,11 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 		const note = noteFor(shape, issue, text, entry.headword.text);
 		rows.push({
 			flagged: isFlagged,
+			name: deriveName(entry.headword),
 			note,
 			rid,
 			role,
 			shape,
-			slug: entry.slug,
 			text,
 		});
 	}
@@ -336,52 +339,13 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 				: 'X7 abbreviation headword (׳/״)';
 		rows.push({
 			flagged: isFlagged,
+			name: deriveName(entry.headword),
 			note: '',
 			rid,
 			role,
 			shape,
-			slug: entry.slug,
 			text,
 		});
-	}
-	return rows;
-}
-
-/** Slug rows: notation that reached the URL — a headword consequence,
- * since the slug is derived from the headword's text.
- *
- * A slug number that differs from the printed homograph numeral is NOT
- * reported. The two count different things: the slug number orders the
- * entries sharing a stem (a prefix entry `\u05D0\u05B7\u05D1\u05BE` takes `\u05D0\u05D1-1`, so
- * `\u05D0\u05B8\u05D1` I becomes `\u05D0\u05D1-2`), while Jastrow's numeral counts homographs
- * of one word. Brian ruled the slug number an opaque identifier
- * (2026-09-20), so the 1,184 rows this once emitted were noise, not
- * defects (`docs/v2/headword-design.md` §4). */
-function slugRows(
-	entries: Map<string, TruthEntry>,
-	unsafe: Set<string>,
-): IssueRow[] {
-	const rows: IssueRow[] = [];
-	const inRidOrder = [...entries.values()].sort((a, b) =>
-		a.id.localeCompare(b.id),
-	);
-	for (const entry of inRidOrder) {
-		const rid = entry.id;
-		const bad = [...new Set(entry.slug.match(UNSAFE_SLUG_CHAR) ?? [])].sort(
-			(a, b) => a.localeCompare(b),
-		);
-		const apostrophes = bad.every((c) => c === '׳' || c === '״');
-		if (bad.length > 0 && !apostrophes) {
-			rows.push({
-				flagged: unsafe.has(rid),
-				note: `chars ${bad.join('')}`,
-				rid,
-				role: 'slug',
-				shape: 'S1 slug carries notation',
-				slug: entry.slug,
-				text: entry.headword.text,
-			});
-		}
 	}
 	return rows;
 }
@@ -452,6 +416,7 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 			.join('; ');
 		rows.push({
 			flagged: false,
+			name: deriveName(entry.headword),
 			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
 			rid: first.rid.replace('/alt', ''),
 			// The family is keyed on the ALTERNATE's spelling when its
@@ -459,7 +424,6 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 			// that form, not the entry's primary headword.
 			role: first.rid.endsWith('/alt') ? 'alt' : 'headword',
 			shape: 'X8 homograph numbering gap',
-			slug: entry.slug,
 			text,
 		});
 	}
@@ -507,12 +471,12 @@ function render(rows: IssueRow[]): string {
 			'',
 			`## ${shape} (${group.length})`,
 			'',
-			'| rid | role | text | slug | note | flagged |',
+			'| rid | role | text | name | note | flagged |',
 			'|---|---|---|---|---|---|',
 		);
 		for (const row of group) {
 			lines.push(
-				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.text)} | ${cell(row.slug)} | ${cell(row.note)} | ${row.flagged ? 'yes' : ''} |`,
+				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.text)} | ${cell(row.name)} | ${cell(row.note)} | ${row.flagged ? 'yes' : ''} |`,
 			);
 		}
 	}
@@ -522,7 +486,7 @@ function render(rows: IssueRow[]): string {
 /** The same rows as CSV, for sorting and filtering. */
 function renderCsv(rows: IssueRow[]): string {
 	const quote = (value: string): string => `"${value.replaceAll('"', '""')}"`;
-	const lines = ['shape,rid,role,text,slug,note,processor_flagged'];
+	const lines = ['shape,rid,role,text,name,note,processor_flagged'];
 	for (const row of [...rows].sort(
 		(a, b) => a.shape.localeCompare(b.shape) || a.rid.localeCompare(b.rid),
 	)) {
@@ -532,7 +496,7 @@ function renderCsv(rows: IssueRow[]): string {
 				row.rid,
 				row.role,
 				row.text,
-				row.slug,
+				row.name,
 				row.note,
 				String(row.flagged),
 			]
@@ -547,9 +511,6 @@ async function main(): Promise<void> {
 	const report = (await Bun.file(REPORT_PATH).json()) as MigrationReport;
 	const entries = await loadEntries();
 	const flagged = flaggedForms(report);
-	const unsafe = new Set(
-		report.rows.filter((r) => r.kind === 'slug-unsafe').map((r) => r.rid),
-	);
 	const rows: IssueRow[] = [];
 	const inRidOrder = [...entries.values()].sort((a, b) =>
 		a.id.localeCompare(b.id),
@@ -562,7 +523,7 @@ async function main(): Promise<void> {
 			rows.push(...formRows({ entry, flagged, form: alt, role: 'alt' }));
 		}
 	}
-	rows.push(...homographGapRows(entries), ...slugRows(entries, unsafe));
+	rows.push(...homographGapRows(entries));
 	await Bun.write(DOC_PATH, render(rows));
 	await Bun.write(CSV_PATH, renderCsv(rows));
 	const shapes = new Set(rows.map((r) => r.shape)).size;

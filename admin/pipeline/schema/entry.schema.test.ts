@@ -13,7 +13,7 @@ type Entry = Record<string, unknown>;
 
 const minimalEntry: Entry = {
 	id: 'A00014',
-	slug: 'אב-2',
+	sefariaHeadword: 'אָב II',
 	headword: { text: 'אָב' },
 	senses: [{ gloss: 'father' }],
 };

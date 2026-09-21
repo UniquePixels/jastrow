@@ -224,7 +224,8 @@ function tallyGrammar(e: SourceEntry, acc: Accumulator): void {
 }
 
 /** Wrap a built body in the schema's full entry shape — placeholder
- * slug/headword, since only the body composition is under test here. */
+ * `sefariaHeadword`/`headword`, since only the body composition is
+ * under test here. */
 function toValidationEntry(
 	e: SourceEntry,
 	body: BodyEntry,
@@ -232,7 +233,7 @@ function toValidationEntry(
 	return {
 		...body,
 		headword: { text: e.headword },
-		slug: `dryrun-${e.rid}`,
+		sefariaHeadword: e.headword,
 	};
 }
 
@@ -249,7 +250,8 @@ interface ValidationJob {
 	index: number;
 }
 
-/** `BodyEntry` has no `slug`/`headword` (migration-scope, out of §6.0) —
+/** `BodyEntry` has no `sefariaHeadword`/`headword` (migration-scope,
+ * out of §6.0) —
  * synthesizes placeholders for schema validation only, per the task
  * brief; these placeholders never appear in the written report itself. */
 function tallySchema(

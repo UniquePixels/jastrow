@@ -4,8 +4,8 @@
 import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import { tokenize } from '../transform/html.ts';
 import { regenerateForm } from './headword.ts';
+import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
-import { slugStem } from './slug.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
 /** An empty tally: no marks, no failures. */
@@ -244,52 +244,50 @@ function checkChain(
 	return t;
 }
 
-/** Gate 7: unique slugs; a collided stem has no bare owner, unless a
- * frozen slug put one there.
+/** Gate 7: every entry's current NAME is unique, and its
+ * `sefariaHeadword` is Sefaria's `headword` for that rid byte for
+ * byte (URL names spec §5.2, U2, U3). It replaces the `slugs` gate:
+ * there is no stem numbering left to have a bare owner, and the name
+ * is computed from the headword rather than stored beside it.
  *
- * Uniqueness is checked for every rid and never relaxed — two entries
- * on one URL is the failure this gate exists for. The bare-owner
- * clause is different: once slugs freeze (spec §7.3, R10), a stem
- * first held by a single entry keeps that entry on the bare slug when
- * a second one arrives, and no amount of gating should move it. So the
- * clause applies only to a family with no frozen member; for a frozen
- * one the condition is a `slug-bare-held` review row, not a failure.
- * `frozen` is the prior assignment the run was given — on an empty one
- * this is the pre-step-7 gate exactly. */
-function checkSlugs(
-	forms: ReadonlyArray<{ rid: string; text: string }>,
-	slugs: ReadonlyMap<string, string>,
-	frozen: ReadonlyMap<string, string> = new Map(),
+ * Two marks per entry, both over the FINISHED entries rather than
+ * over the inputs they were built from — the artefact is what a
+ * reader and the route map will read.
+ *
+ * - **unique** is the `name-collision` failure of spec §7, compared
+ *   in NFC (`names.ts`). A correction that makes two current names
+ *   equal fails here and the editor adds a disambiguator (§4).
+ * - **verbatim** compares the written `sefariaHeadword` against the
+ *   source snapshot line for the same rid. It lives on the import
+ *   path alone because per-PR CI never reads `data/source/` (R9).
+ *   What it witnesses is this run's write path — that the rid → value
+ *   map reached the right entry and nothing downstream rewrote the
+ *   field. A hand edit to a COMMITTED entry is a different question:
+ *   `validate.ts` checks that field's uniqueness over the tree in
+ *   `bun qa`, and nothing outside import can compare it to Sefaria.
+ *
+ * `sourceHeadwords` is rid → the pristine `headword` string, so a
+ * missing rid fails rather than passing against `undefined`. */
+function checkNames(
+	truths: readonly TruthEntry[],
+	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const seen = new Map<string, string>();
-	const stems = new Map<string, number>();
-	const frozenStems = new Set<string>();
-	for (const { rid, text } of forms) {
-		const stem = slugStem(text);
-		stems.set(stem, (stems.get(stem) ?? 0) + 1);
-		// Only a frozen rid that HOLDS the bare slug earns the exception.
-		// `frozen.has(rid)` would also excuse a family whose frozen member
-		// sits at `stem-1` while some other member took the bare name —
-		// the collision the clause exists to catch (CodeRabbit, major).
-		if (frozen.get(rid) === stem && slugs.get(rid) === stem) {
-			frozenStems.add(stem);
-		}
-	}
-	for (const { rid, text } of forms) {
-		const slug = slugs.get(rid);
-		const stem = slugStem(text);
-		const owner = slug === undefined ? undefined : seen.get(slug);
-		const collided = (stems.get(stem) ?? 0) > 1 && !frozenStems.has(stem);
-		const takenBy = owner === undefined ? '' : ` taken by ${owner}`;
+	const collided = new Map(
+		nameCollisions(truths).map((line) => [
+			line.slice(0, line.indexOf(':')),
+			line,
+		]),
+	);
+	for (const truth of truths) {
+		const collision = collided.get(truth.id);
+		mark(t, collision === undefined, collision ?? '');
+		const source = sourceHeadwords.get(truth.id);
 		mark(
 			t,
-			slug !== undefined && owner === undefined && !(collided && slug === stem),
-			`${rid}: slug ${slug ?? '(none)'}${takenBy}`,
+			source !== undefined && truth.sefariaHeadword === source,
+			`${truth.id}: sefariaHeadword ${JSON.stringify(truth.sefariaHeadword)} but the source says ${JSON.stringify(source ?? null)}`,
 		);
-		if (slug !== undefined) {
-			seen.set(slug, rid);
-		}
 	}
 	return t;
 }
@@ -309,8 +307,8 @@ function checkPages(
 export {
 	checkChain,
 	checkHeadwordRoundTrip,
+	checkNames,
 	checkPages,
-	checkSlugs,
 	checkTextConservation,
 	mark,
 	tally,

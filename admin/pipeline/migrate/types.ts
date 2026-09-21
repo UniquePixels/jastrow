@@ -27,12 +27,21 @@ interface TruthStem {
 
 interface TruthEntry {
 	altHeadwords?: FormObject[];
+	/** Names this entry has published under and no longer holds (URL
+	 * names spec §5.1, U6). **Absent until publication**: nothing in
+	 * the pipeline writes it, and the gates that would check it arrive
+	 * with the published-names ledger (§5.2's last row, §9 step 6). */
+	formerNames?: string[];
 	grammar?: { gender?: 'm' | 'f' | 'c'; number?: 'pl' | 'du' };
 	headword: FormObject;
 	id: string;
 	page?: { number: number; column?: 'a' | 'b' };
+	/** Sefaria's `headword` for this rid, byte for byte (U3). Import
+	 * is the only writer; the admin tool and hand edits never touch
+	 * it. It keeps the Sefaria URL route (§3.3) working after our own
+	 * headword is corrected. */
+	sefariaHeadword: string;
 	senses: TruthSense[];
-	slug: string;
 	stems?: TruthStem[];
 }
 

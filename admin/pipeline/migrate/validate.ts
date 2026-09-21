@@ -9,8 +9,8 @@
 import Ajv2020 from 'ajv/dist/2020';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
+import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
-import { auditAliases, type SlugRow } from './slug-index.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
 
 const TRUTH_DIR = 'data/entries';
@@ -179,14 +179,18 @@ function* senseLabels(
 	}
 }
 
-/** Every field that must carry none: the headword forms and the slug
- * are identifiers, and `slug.ts` and the compiler read them as text;
- * sense labels are numbering. */
+/** Every field that must carry none: the headword forms,
+ * `sefariaHeadword` and any `formerNames` are identifiers that
+ * `names.ts` and the compiler read as text; sense labels are
+ * numbering. */
 function* plainFields(entry: TruthEntry): Generator<[string, string]> {
-	yield ['slug', entry.slug];
+	yield ['sefariaHeadword', entry.sefariaHeadword];
 	yield ['headword.text', entry.headword.text];
 	for (const [i, alt] of (entry.altHeadwords ?? []).entries()) {
 		yield [`altHeadwords[${i}].text`, alt.text];
+	}
+	for (const [i, name] of (entry.formerNames ?? []).entries()) {
+		yield [`formerNames[${i}]`, name];
 	}
 	yield* senseLabels(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -215,17 +219,40 @@ function checkFiles(
 	return entries;
 }
 
-/** Slugs are unique across the tree. Ids need no check of their own:
- * glob paths are unique and `checkFiles` allows each id one path, so a
- * second file for an id is already reported as away from its home. */
-function checkSlugs(entries: readonly TruthEntry[], problems: string[]): void {
-	const slugs = new Map<string, string>();
-	for (const { id, slug } of entries) {
-		const owner = slugs.get(slug);
+/** Current names are unique across the tree, compared in NFC (URL
+ * names spec §5.2, first row). The rule itself is `names.ts`, shared
+ * with import's `names` gate so a hand edit and a run cannot disagree
+ * about what a collision is.
+ *
+ * Ids need no check of their own: glob paths are unique and
+ * `checkFiles` allows each id one path, so a second file for an id is
+ * already reported as away from its home. */
+function checkNames(entries: readonly TruthEntry[], problems: string[]): void {
+	problems.push(...nameCollisions(entries));
+}
+
+/** `sefariaHeadword` is unique across the tree (URL names spec §5.2,
+ * fourth row): it is Sefaria's key, and route 3 looks an entry up by
+ * it, so two entries holding one value would make that URL ambiguous.
+ *
+ * Whether the value still EQUALS Sefaria's is a different question and
+ * cannot be asked here: per-PR CI never reads `data/source/` (R9), so
+ * it is import's gate 7. This check is the half a hand edit can be
+ * caught by without the snapshot. */
+function checkSefariaHeadwords(
+	entries: readonly TruthEntry[],
+	problems: string[],
+): void {
+	const owners = new Map<string, string>();
+	for (const { id, sefariaHeadword } of entries) {
+		const key = sefariaHeadword.normalize('NFC');
+		const owner = owners.get(key);
 		if (owner === undefined) {
-			slugs.set(slug, id);
+			owners.set(key, id);
 		} else {
-			problems.push(`${id}: slug ${slug} taken by ${owner}`);
+			problems.push(
+				`${id}: sefariaHeadword ${sefariaHeadword} taken by ${owner}`,
+			);
 		}
 	}
 }
@@ -282,92 +309,20 @@ function checkPages(
 	}
 }
 
-/** Truth's slug is the slug index's row, both ways (R10: the index is
- * the input a rebuild reads, so a slug edited in truth alone is lost —
- * and worse, the next run would reassign from the index and move a
- * published URL back).
- *
- * A `retired` row with no entry is the point of the status: the slug
- * stays reserved. A `retired` row WITH an entry is a contradiction —
- * the entry is live and its URL is marked gone. */
-function checkSlugIndex(
-	entries: readonly TruthEntry[],
-	index: ReadonlyMap<string, SlugRow>,
-	aliases: ReadonlyMap<string, string>,
-	problems: string[],
-): void {
-	const ids = new Set(entries.map((e) => e.id));
-	for (const { id, slug } of entries) {
-		const row = index.get(id);
-		if (row === undefined) {
-			problems.push(`${id}: no slug-index row (truth has ${slug})`);
-		} else if (row.slug !== slug) {
-			problems.push(`${id}: slug ${slug} but the slug index says ${row.slug}`);
-		} else if (row.status === 'retired') {
-			problems.push(`${id}: slug-index row is retired but the entry exists`);
-		}
-	}
-	for (const [rid, row] of index) {
-		if (row.status === 'live' && !ids.has(rid)) {
-			problems.push(`slug-index row ${rid} is live but has no entry`);
-		}
-	}
-	// An alias deliberately is NOT required to have a live target. If the
-	// `-1` member retires, the alias is frozen and stays pointed at its
-	// retired row; demanding a live entry would deadlock against the
-	// missing-alias check above — keeping the alias and deleting it would
-	// both fail (spec §7.2). A live row with no entry is already reported
-	// by the loop above, so nothing is lost.
-	// Every slug the index reserves, retired rows included: a retired slug
-	// is held precisely so nothing else can take it, an alias no less than
-	// an entry.
-	const held = new Map([...index.values()].map((row) => [row.slug, row.rid]));
-	const audit = auditAliases([...index.values()], aliases);
-	for (const family of audit.add) {
-		problems.push(`family ${family.slug} has no alias row`);
-	}
-	// A family with rows but no `<stem>-1` has no valid alias target at
-	// all. `auditAliases` returns that as a problem rather than an `add`,
-	// so dropping it would let the tree pass with no canonical bare URL.
-	// `bareHeld` is NOT a problem: that family's bare name is an entry.
-	problems.push(...audit.problems);
-	for (const [slug, rid] of aliases) {
-		const row = index.get(rid);
-		const owner = held.get(slug);
-		if (owner !== undefined) {
-			// `/אב` cannot be both an entry and a redirect. `auditAliases`
-			// reports this family as `slug-bare-held` and gives it no
-			// alias; a hand edit could still add one.
-			problems.push(`alias ${slug} is also ${owner}'s slug`);
-		} else if (row === undefined) {
-			problems.push(`alias ${slug} points at ${rid}, which has no index row`);
-		} else if (row.slug !== `${slug}-1`) {
-			// Existing-rid is not enough: an alias resolving to the wrong
-			// member of its own family sends /אב to אב-2 and nothing fails
-			// (CodeRabbit, major).
-			problems.push(
-				`alias ${slug} points at ${rid}, which holds ${row?.slug ?? '(no row)'} not ${slug}-1`,
-			);
-		}
-	}
-}
-
 /** Every truth check over one tree; an empty list is a valid tree. */
 function validateTruth(
 	files: readonly TruthFile[],
 	pages: ReadonlyMap<string, PagePlacement>,
-	index: ReadonlyMap<string, SlugRow>,
-	aliases: ReadonlyMap<string, string> = new Map(),
 ): string[] {
 	const problems: string[] = [];
 	const entries = checkFiles(files, problems);
-	checkSlugs(entries, problems);
+	checkNames(entries, problems);
+	checkSefariaHeadwords(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));
 	for (const entry of entries) {
 		checkMarkup(entry, ids, problems);
 	}
 	checkPages(entries, ids, pages, problems);
-	checkSlugIndex(entries, index, aliases, problems);
 	return problems;
 }
 

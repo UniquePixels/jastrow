@@ -15,7 +15,7 @@ const GATE_NAMES = [
 	'schema',
 	'chain',
 	'internalTargets',
-	'slugs',
+	'names',
 	'pages',
 	'composition',
 ] as const;
@@ -89,8 +89,6 @@ interface Report {
 	quarantine: QuarantineRow[];
 	rows: ReportRow[];
 	rules: RuleCount[];
-	/** collision size → number of stems of that size */
-	slugCollisions: Record<string, number>;
 	/** The snapshot this run read, and how many patches pin another one.
 	 * A stale pin skips nothing; each patch is judged by its own
 	 * precondition (spec §4.2). */
@@ -128,7 +126,6 @@ function createReport(): Report {
 		quarantine: [],
 		rows: [],
 		rules: [],
-		slugCollisions: {},
 		snapshot: { pin: '', stalePins: 0 },
 		unresolved: [],
 		written: 0,
@@ -239,14 +236,6 @@ function gateRows(report: Report): string[] {
 	);
 }
 
-/** Slug-collision rows, smallest family first. Keys arrive as
- * strings from the JSON object, so the sort is numeric, not lexical. */
-function collisionRows(report: Report): string[] {
-	return Object.entries(report.slugCollisions)
-		.sort(([a], [b]) => Number(a) - Number(b))
-		.map(([size, count]) => `| ${size} | ${count} |`);
-}
-
 /** A source/truth pair per sample, for eyeballing the migration
  * against its input without leaving the blessing document. */
 function sampleSections(samples: readonly Sample[]): string[] {
@@ -330,12 +319,6 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'| rule | fired | entries |',
 		'|---|---|---|',
 		...ruleRows(report),
-		'',
-		'## Slug collisions',
-		'',
-		'| members per stem | stems |',
-		'|---|---|',
-		...collisionRows(report),
 		'',
 		'## Quarantined internal targets',
 		'',

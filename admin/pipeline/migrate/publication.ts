@@ -45,8 +45,8 @@ const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 	[
 		// `blocks` FOR NOW, and the reason is reopened. The original one
 		// — "the headword makes the slug, and slugs freeze at publication"
-		// — no longer holds under the URL names spec (§8: a name may
-		// change and the old one redirects), so what is left is the
+		// — died with the slug itself: a name may change and the old one
+		// redirects (URL names spec U6, §8), so what is left is the
 		// reader-visible headword defect. Re-ruled with the headword
 		// schema decision (post-consolidation review §10 Q1).
 		'headword-unparsed',
@@ -89,51 +89,6 @@ const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 		},
 	],
 	[
-		'slug-alias-new',
-		{
-			action: 'Nothing to do: a new alias is what a regenerating run adds.',
-			publication: 'note',
-		},
-	],
-	[
-		'slug-bare-held',
-		{
-			action: 'Nothing to do: the bare stem keeps the owner it already had.',
-			publication: 'note',
-		},
-	],
-	[
-		'slug-changed',
-		{
-			action:
-				'Re-run `bun data:import --write` and commit the entry tree, or the committed slugs disagree with this run.',
-			publication: 'note',
-		},
-	],
-	[
-		'slug-frozen-stem-drift',
-		{
-			action:
-				'Nothing to do while names are unfrozen; the stem moved under a frozen slug.',
-			publication: 'note',
-		},
-	],
-	[
-		'slug-new',
-		{
-			action: 'Nothing to do: a new entry takes a new slug.',
-			publication: 'note',
-		},
-	],
-	[
-		'slug-unsafe',
-		{
-			action:
-				'Patch the headword so the derived name carries no URL-unsafe character.',
-			publication: 'blocks',
-		},
-	],
-	[
 		'upstream-changed',
 		{
 			action:
@@ -150,18 +105,6 @@ const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 		},
 	],
 ]);
-
-/** The kinds that retire with the URL names work, and where that is
- * ruled. Rendered as one line in the report header so a reader is not
- * left triaging rows that are on their way out. */
-const RETIRING_KINDS = [
-	'slug-alias-new',
-	'slug-bare-held',
-	'slug-changed',
-	'slug-frozen-stem-drift',
-	'slug-new',
-	'slug-unsafe',
-] as const;
 
 /** The rule for a review or patch kind; throws on a kind the table
  * does not name (spec §3.1.1). */
@@ -202,4 +145,4 @@ function classifyRows(report: Report): void {
 }
 
 export type { KindRule };
-export { actionOf, classifyRows, PUBLICATION, publicationOf, RETIRING_KINDS };
+export { actionOf, classifyRows, PUBLICATION, publicationOf };

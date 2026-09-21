@@ -1,7 +1,7 @@
 /**
  * The finishing stages (migrate spec §2.1–2.6) applied to one composed
  * entry and its body: form objects, translated markup, citation refs,
- * slug and page, assembled in schema key order.
+ * `sefariaHeadword` and page, assembled in schema key order.
  */
 import type { BodyEntry, BodySense, SourceEntry } from '../body/types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
@@ -17,7 +17,11 @@ import type { FormObject, TruthEntry, TruthSense } from './types.ts';
 interface FinishContext {
 	headwordMap: ReadonlyMap<string, string>;
 	pages: ReadonlyMap<string, PagePlacement>;
-	slugs: ReadonlyMap<string, string>;
+	/** rid → Sefaria's `headword`, verbatim from the source snapshot
+	 * (URL names spec U3). Taken from the PRISTINE source entry, never
+	 * the composed one: a transform that respells our headword must
+	 * not move the field that tracks Sefaria's. */
+	sefariaHeadwords: ReadonlyMap<string, string>;
 }
 
 /** One headword review row: the report kind the detector chose, and
@@ -160,9 +164,9 @@ function finishEntry(
 		return out;
 	}
 
-	const slug = context.slugs.get(source.rid);
-	if (slug === undefined) {
-		problems.push(`${source.rid}: no slug assigned`);
+	const sefariaHeadword = context.sefariaHeadwords.get(source.rid);
+	if (sefariaHeadword === undefined) {
+		problems.push(`${source.rid}: no sefariaHeadword`);
 	}
 	const page = context.pages.get(source.rid);
 	if (page === undefined) {
@@ -186,7 +190,7 @@ function finishEntry(
 	}));
 	const entry: TruthEntry = {
 		id: source.rid,
-		slug: slug ?? '',
+		sefariaHeadword: sefariaHeadword ?? '',
 		headword,
 		...(altHeadwords.length > 0 ? { altHeadwords } : {}),
 		...(page === undefined

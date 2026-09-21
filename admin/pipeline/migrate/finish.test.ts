@@ -31,7 +31,7 @@ const context = {
 			{ column: 'a' as const, confidence: 'high' as const, number: 2 },
 		],
 	]),
-	slugs: new Map([['A00014', 'אב-2']]),
+	sefariaHeadwords: new Map([['A00014', 'אָב II']]),
 };
 
 describe('finishEntry', () => {
@@ -41,7 +41,7 @@ describe('finishEntry', () => {
 		expect(unresolved).toEqual([]);
 		expect(Object.keys(entry)).toEqual([
 			'id',
-			'slug',
+			'sefariaHeadword',
 			'headword',
 			'altHeadwords',
 			'page',
@@ -88,13 +88,27 @@ describe('finishEntry', () => {
 		expect(entry.page).toBeUndefined();
 		expect(problems).toEqual(['A00014: no page-index row']);
 	});
-	it('reports a missing slug and leaves the slug empty', () => {
+	it('reports a missing sefariaHeadword and leaves the field empty', () => {
+		// Empty rather than absent, so the schema gate fails on the same
+		// entry rather than the field simply going missing.
 		const { entry, problems } = finishEntry(source, body, {
 			...context,
-			slugs: new Map(),
+			sefariaHeadwords: new Map(),
 		});
-		expect(entry.slug).toBe('');
-		expect(problems).toEqual(['A00014: no slug assigned']);
+		expect(entry.sefariaHeadword).toBe('');
+		expect(problems).toEqual(['A00014: no sefariaHeadword']);
+	});
+	it('writes the SOURCE headword, not the composed one', () => {
+		// U3: the field tracks Sefaria. A transform that respells our
+		// headword must leave it alone, so it comes from the context map
+		// (built off the pristine entry) rather than off `source.headword`
+		// here — which by pass 2 is the COMPOSED spelling.
+		const { entry } = finishEntry({ ...source, headword: 'אָב III' }, body, {
+			...context,
+			sefariaHeadwords: new Map([['A00014', 'אָב II']]),
+		});
+		expect(entry.sefariaHeadword).toBe('אָב II');
+		expect(entry.headword).toEqual({ homograph: 3, text: 'אָב' });
 	});
 	it('force-closes an <i> still open at the end of a sequence', () => {
 		// The last field of a flow has nowhere to carry to, so its
