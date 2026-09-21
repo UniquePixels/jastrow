@@ -223,7 +223,7 @@ Smallest set before `compile.ts` starts, then the rest.
 
 Each with a default; silence means the default.
 
-1. **Headword shape before compile.** Adopt headword-design §2 now, or freeze today's `headword`/`altHeadwords` under a `schemaVersion`? *Default: adopt §2 with `display` optional (unset = flagged), §3.1 rules in `validate.ts`, `"schemaVersion": 2` on every file.*
+1. **Headword shape before compile.** Ruled 2026-09-21: adopt headword-design §2 now (`headwords[]`, `display` optional, `partial`, per-form `gender`, `schemaVersion: 2`); costs, drops and deferrals are in the RULING block at the top of [headword-design.md §2](../v2/headword-design.md). Q10 resolves with it.
 2. **The five blocking classes.** Under your reader-sees ruling they block; under the "correctable post-go-live without moving a URL" bar all five defer. Which bar? *Default: they `defer` — none moves a URL — but the report must detect and show them either way.*
 3. **`grammar.pos`.** Drop until produced, or seed a closed enum from the `pr. n.*` markers (1,195 entries)? *Default: seed it.*
 4. **Enum tightening.** Remove `gender:"c"`, `number:"du"`; require `page`, `column`, `units`. *Default: yes.*
