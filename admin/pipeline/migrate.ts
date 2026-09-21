@@ -559,7 +559,13 @@ async function gateQuarantine(report: Report): Promise<void> {
 		report.quarantine,
 	);
 	const failing = new Set([...stale, ...unreviewed]);
-	report.gates.internalTargets.total = report.quarantine.length;
+	// `unlisted` is an unresolved pair that is on NO quarantine row, so
+	// it cannot be subtracted from the list's own length — it has to
+	// widen `total` instead. Counting it in `failures` alone let the
+	// gate print `N/N` beside a non-empty failure list; `isGreen` still
+	// refused the run, but the line a reader checks said it passed.
+	report.gates.internalTargets.total =
+		report.quarantine.length + unlisted.length;
 	report.gates.internalTargets.pass = report.quarantine.length - failing.size;
 	report.gates.internalTargets.failures.push(
 		...unlisted.map((u) => `unlisted: ${u}`),
@@ -579,12 +585,23 @@ function letterDir(rid: string): string {
  * output tree that simply doesn't start at A00000 — either lets
  * `--write` mix old and new truth files. Refuse on ANY existing entry
  * file instead. */
-async function outputTreeIsEmpty(): Promise<boolean> {
-	if (!existsSync(OUT_DIR)) {
+async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
+	if (!existsSync(dir)) {
 		return true;
 	}
-	const scan = new Bun.Glob('*/*.json').scan(OUT_DIR);
+	const scan = new Bun.Glob('*/*.json').scan(dir);
 	return (await scan.next()).done === true;
+}
+
+/** The D14 "writes once" guard, as its own step so a test can reach
+ * it: `--write` refuses outright unless the truth tree is empty,
+ * because the migration is a one-shot and a second pass over a
+ * half-written tree would leave a mix of two runs (consolidation spec
+ * R1 — permanent). */
+async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
+	if (!(await outputTreeIsEmpty(dir))) {
+		throw new Error(`${dir} already holds truth files; migration writes once`);
+	}
 }
 
 /** Biome is the one formatter for truth (consolidation spec R5), so
@@ -680,11 +697,7 @@ function printGates(report: Report, slugMode: string): void {
 async function main(): Promise<void> {
 	const options = runOptions(process.argv);
 	if (options.write) {
-		if (!(await outputTreeIsEmpty())) {
-			throw new Error(
-				`${OUT_DIR} already holds truth files; migration writes once`,
-			);
-		}
+		await refuseUnlessEmpty();
 		// Resolved before anything is composed, though it is not used
 		// until `formatTruth` at the very end: a run that cannot find a
 		// biome refuses here, rather than after 32,512 unformatted files
@@ -739,4 +752,5 @@ export {
 	letterDir,
 	outputTreeIsEmpty,
 	preparePatches,
+	refuseUnlessEmpty,
 };
