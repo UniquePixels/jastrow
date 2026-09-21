@@ -4,7 +4,7 @@
 same day after 2.3's first pass moved the detector again — see
 [`phase-2-created-hints.md`](phase-2-created-hints.md), and §"The
 detector moved three times" below for the audit chain.** This closes
-sweep tiering [Phase 2.2](../specs/2026-08-17-sweep-tiering-design.md)
+sweep tiering [Phase 2.2](specs/2026-08-17-sweep-tiering-design.md)
 — *"re-run the structural detector after the rules land; measure the
 residue"* — and sizes the population Phase 2.3 has to sweep. The two
 follow-ups it originally handed 2.3 have since been worked and the
@@ -367,7 +367,7 @@ re-derive them.
 
 ### 1. The spec's stated baseline does not reproduce
 
-[`2026-08-17-sweep-tiering-design.md`](../specs/2026-08-17-sweep-tiering-design.md)
+[`2026-08-17-sweep-tiering-design.md`](specs/2026-08-17-sweep-tiering-design.md)
 gives 2.2's done-when as *"Residue count reported (pre-rule baseline:
 3,630 entries, 11.2%)"*. That figure appears **once**, in that line,
 with no script behind it anywhere in git history. Measured PRE is

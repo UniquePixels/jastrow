@@ -15,7 +15,7 @@ ideas, it uses the word here.
   `TruthSense`, the helpers `validateTruth` and `loadTruthFiles`, and
   the generated `docs/v2/migration-blessing.md`. Renaming them is a
   change of its own, deliberately not folded into the terms sweep
-  (spec §11 step 10). `docs/superpowers/plans/` and `docs/archive/`
+  (spec §11 step 10). `docs/archive/plans/` and `docs/archive/`
   are dated records of work as it happened and keep whatever they said
   at the time. The [retired terms](#retired-terms) table maps old to
   new throughout.

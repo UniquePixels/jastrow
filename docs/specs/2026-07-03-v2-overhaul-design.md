@@ -3,8 +3,8 @@
 - **Date:** 2026-07-03
 - **Status:** Draft — pending maintainer review
 - **Supersedes:** Decision D3 of
-  [2026-06-04-contribution-readiness.md](2026-06-04-contribution-readiness.md)
-  (see Decision V1 below)
+  `docs/specs/2026-06-04-contribution-readiness.md` (on the `main`
+  branch only; never carried onto `v2`) — see Decision V1 below
 
 ## 1. Context & Problem
 

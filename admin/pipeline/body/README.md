@@ -3,7 +3,7 @@
 The toolkit that turns each source entry's free-text `content.senses`
 into the structured `BodyEntry` shape the app renders, per the
 [design doc](../../../docs/specs/2026-07-11-entry-body-model-design.md)
-and its [implementation plan](../../../docs/superpowers/plans/2026-07-11-entry-body-model.md).
+and its [implementation plan](../../../docs/archive/plans/2026-07-11-entry-body-model.md).
 Not part of [the pipeline](../README.md) proper — this is prep work
 feeding Stage 2 (import).
 

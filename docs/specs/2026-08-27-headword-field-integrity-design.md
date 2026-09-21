@@ -116,7 +116,7 @@ are recorded here so no later reader re-derives them:
   numeral (`"אֲמוּ׳ II"`), which the parent audit already classified as
   job 1: *"175 carrying a Roman homograph numeral any expansion must
   preserve"*
-  ([abbrev-in-alt-headwords.md:47](../../data/patches/catalogue-audit/abbrev-in-alt-headwords.md)).
+  ([abbrev-in-alt-headwords.md:47](../archive/catalogue-audit/abbrev-in-alt-headwords.md)).
   Dropping token shapes matching `^[IVXLC]+$` recovers **236 / 244
   exactly**; the excluded shapes are `I` 92, `II` 77, `III` 5, `IV` 1.
 - **The headword-stub row's predicate must exclude the alphabet
@@ -300,7 +300,7 @@ audit that moved it found no deterministic expansion:
 
 > the simplest anchor rule (locate the stub's final consonant in the
 > headword) is unique for only 1,468 of 2,241 stubs (65.5%)
-> — [abbrev-in-alt-headwords.md:69](../../data/patches/catalogue-audit/abbrev-in-alt-headwords.md)
+> — [abbrev-in-alt-headwords.md:69](../archive/catalogue-audit/abbrev-in-alt-headwords.md)
 
 `abbrev-headword-stub` is the same operation on the same shape in a
 different field. **The expectation is that it withdraws to `judgment`
@@ -411,7 +411,7 @@ the morphology field.
 
 Ships only if Task 1's audit finds a deterministic expansion (§4.2).
 Otherwise the row is withdrawn to `judgment` with a published audit
-under `data/patches/catalogue-audit/`.
+under `docs/archive/catalogue-audit/`.
 
 ## 6. Verification
 
@@ -460,7 +460,7 @@ delimiters from the wrong 654 items would pass all six.
    the batch invents no text.
 4. **SETTLED 2026-08-28 (Brian): `abbrev-headword-stub` WITHDRAWN to
    `judgment`** (§4.2), on the Task 1 audit
-   [`abbrev-headword-stub.md`](../../data/patches/catalogue-audit/abbrev-headword-stub.md).
+   [`abbrev-headword-stub.md`](../archive/catalogue-audit/abbrev-headword-stub.md).
    At most 4 of 34 hold any source for the elided tail against the
    parent row's 65.5%, and the shortfall is structural: the stub IS the
    headword, so no fuller spelling of the lexeme exists in the entry by

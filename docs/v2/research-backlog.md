@@ -52,8 +52,9 @@ The latest sweep of each rid across the seven residue manifests
 (`wrong-link-target`, 406 entries) and 8 (`lost-parenthetical`, 116)
 account for 478 of the 487. The class analysis is
 [phase-2-class-report.md](../archive/phase-2-class-report.md). The
-RUNBOOK's default applies: every escalation is post-go-live work in
-the admin tool.
+2026-08-15 triage default applies: every escalation is post-go-live
+work in the admin tool ([`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md),
+"Rulings still in force").
 
 Four of these entries (`A00913`, `A03277`, `C00062`, `C00244`) also
 carry a step-8 reviewed patch. The patch and the escalation name

@@ -26,7 +26,7 @@ patches for what cannot be done deterministically).
 | Non-test code under `admin/`, and the share reachable from `migrate.ts` | 36,952 lines; ~77 modules on the migrate path |
 | `research/`, `provenance/`, one-time `body/` tools | 17,746 + 1,174 + 2,822 lines; 2 files needed by migrate |
 | `package.json` scripts | 24: 6 pipeline, 8 QA, 10 research relics. **Corrected 2026-09-16 (step 6):** 25 at the start of step 6 — step 5 added `transform:invariants` after this row was measured. 25 minus the 12 archived leaves 13, not the 12 step 6 predicted: `body:dry-run` survives because `migrate.ts` imports `dry-run.ts`'s `buildTrace` |
-| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) **Measured 2026-09-15 (step 5):** 405 tests; 182 read no source data and 11 read eight fixed entries, so 193 moved to the unit tier; 191 were deleted and 21 remain (plan `docs/superpowers/plans/2026-09-15-consolidation-step5.md`, which also records the classifier and its controls) |
+| Corpus test tier | 45 files, 14,443 lines, 12–13 min of CI; 3 files check code invariants, ~40 pin per-rule counts to the 2026-07-04 snapshot. **Corrected 2026-09-15:** 2 files are code invariants (`body/pipeline-links`, the third named, is mostly counts), and the count files also hold ~190 hand-written example tests that never read the source data (estimate: synchronous `it(`/`test(` calls outside the two invariant files, by grep; not verified per test) **Measured 2026-09-15 (step 5):** 405 tests; 182 read no source data and 11 read eight fixed entries, so 193 moved to the unit tier; 191 were deleted and 21 remain (plan `docs/archive/plans/2026-09-15-consolidation-step5.md`, which also records the classifier and its controls) |
 | Branch protection on `v2` | no required status checks |
 | Biome | 240 info diagnostics, 0 warnings; scans 32,512 data files by accident |
 | SonarCloud | all 82 issues are the v1 app on `main`; no v2 branch exists |
@@ -63,7 +63,7 @@ expect them:
 |---|---|
 | Code identifiers and paths: `admin/pipeline/migrate.ts`, `admin/pipeline/migrate/`, `TruthEntry`, `TruthFile`, `TruthSense`, `validateTruth`, `loadTruthFiles`, and the generated `docs/v2/migration-blessing.md` and `data/source/migration-report.json` | renaming them is a separate change, held back so a run's blessing doc stays comparable byte for byte against steps 7–9 |
 | Attributed or dated text: the rulings in §2, the shipped steps in §11, the changelog in §12, and the dated corrections inside table rows | they record what was ruled or run at the time; rewriting them would make them say something no one said |
-| `docs/superpowers/plans/` and `docs/archive/` | dated records of work as it happened (§8) |
+| `docs/archive/plans/` and `docs/archive/` | dated records of work as it happened (§8) |
 | `holamMaterMigration`, the rule id `holam-migrated-off-mater-vav`, and "ground truth" for print evidence | different words that only look like these ones: Hebrew vowel migration, and evidence straight from the 1903 page |
 
 ## 2. Rulings (maintainer, 2026-09-12/15)
@@ -104,7 +104,8 @@ The normal run is `data:fetch` then `data:import`: pull the current export,
 process it, read the report. The flow is drawn in
 [`docs/pipeline-flow.drawio.svg`](../pipeline-flow.drawio.svg)
 (renders on GitHub; opens in draw.io for editing), derived from the
-maintainer's sketch `docs/Migrate Flow.drawio`. The snapshot `fetch`
+maintainer's sketch, archived 2026-09-21 as
+`docs/archive/migrate-flow-sketch.drawio`. The snapshot `fetch`
 writes to `data/source/` is committed in the same PR as the entry data
 it produced. That is what makes the run reproducible afterwards: anyone
 with a clone can empty `data/entries/` (a write run refuses otherwise)
@@ -584,7 +585,7 @@ stays runnable on its own. *(Step 10 renamed three of these:
 | `docs/v2/research-backlog.md` (new, hand-written) | what the research left open: sweep escalations, the implied-`1)` census, pattern classes with no rule, with the cutover-blocking classes in their own section. Imported into the tracker once one is chosen, then archived with the rest of the research |
 | `docs/v2/sefaria-report.md` | add register rows #16 (implied sense 1) and #6b (nested anchors, different targets); then send. *Sections added, step 9; sending is the maintainer's* |
 | `docs/v2/upstream-issues.md` | mark rows reported when sent |
-| `CONTRIBUTING.md`, `.claude/CLAUDE.md`, `docs/v2/test-tiers.md`, `.github/workflows/ci-lint.yml` comments | one CI test tier; no Corpus Audit, no Rebuild; the invariants script is run locally before rule-code PRs (step 5) |
+| `CONTRIBUTING.md`, `.claude/CLAUDE.md`, `docs/archive/test-tiers.md`, `.github/workflows/ci-lint.yml` comments | one CI test tier; no Corpus Audit, no Rebuild; the invariants script is run locally before rule-code PRs (step 5) |
 | every document that calls `data/entries/` "truth", `docs/pipeline-flow.drawio.svg` included | §1.1 terms (step 10) |
 
 ## 10. Later, pinned here so they are not lost
@@ -651,7 +652,7 @@ Steps 1–4 have shipped and are kept as history.
    `slug-alias-new` and `slug-unsafe`; the latter reports 12 slugs
    carrying Jastrow's editorial notation (`*`, `(…)`, `=`, `?`) into a
    URL. Plan and findings:
-   [`docs/superpowers/plans/2026-09-17-consolidation-step7.md`](../superpowers/plans/2026-09-17-consolidation-step7.md).
+   [`docs/archive/plans/2026-09-17-consolidation-step7.md`](../archive/plans/2026-09-17-consolidation-step7.md).
    **Follow-up (2026-09-18):** the freeze was premature and is switched
    off until publication (R10, §7); `slugStem` drops editorial notation,
    moving 26 slugs and taking `slug-unsafe` from 12 to 2; `unsafeSlugs`
@@ -825,7 +826,7 @@ Steps 1–4 have shipped and are kept as history.
     32 → 5 non-`transform` classes hold up the cutover. The triage, its
     predicates, its controls and the ruling are
     [`docs/v2/research-backlog.md`](../v2/research-backlog.md); the plan is
-    [`docs/superpowers/plans/2026-09-20-consolidation-step11.md`](../superpowers/plans/2026-09-20-consolidation-step11.md).
+    [`docs/archive/plans/2026-09-20-consolidation-step11.md`](../archive/plans/2026-09-20-consolidation-step11.md).
 
 ## 12. Changelog
 
@@ -846,6 +847,6 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-18 | Step 8: `repairs.ts`'s rid-keyed hand tables converted to reviewed patches (§4.1) and the tables deleted; §4.2 "Who may add bytes" records the authorship ruling and its open question on agent removals; §11 step 8 spelled out with measured numbers. Rule and helper comments elsewhere that quote a count "measured after `applyRepairs`" are left as dated measurements of that snapshot — `applyRepairs` itself changed (rid-keyed passes moved out) but the count a comment recorded is still what that run measured, so those comments are not edited one by one |
 | 2026-09-18 | Step 9 reworked (maintainer): import writes `docs/v2/review-report.md`, every review row tagged `publication: blocks / defer / note` by kind, and v2 publishes only with no `blocks` rows (§3.1.1); research leftovers go to a hand-written `docs/v2/research-backlog.md`, imported into the tracker then archived — the hand-written `review-queue.md` is withdrawn. Step 11 added: triage the 32 open research classes still flagged as blocking the cutover. Four §9 figures corrected by measurement; `sefaria-report.md` §6b and §16 added, register rows #6b and #16 recounted; step 8's PR number backfilled |
 | 2026-09-18 | Step 9 shipped: `docs/v2/research-backlog.md` replaces `docs/v2/review-queue.md` (deleted, links repointed), carrying the four research lists and a new "Blocks the v2 cutover" section generated from `patterns.jsonl`'s 32 open `blocking` classes for step 11. Nine gates green, `migration-blessing.md` byte-identical; review report 311 `blocks`, 2,204 `defer`, 0 `note`, 2,515 rows |
-| 2026-09-19 | Step 10: `pipeline:fetch` → `data:fetch`, `pipeline:migrate` → `data:import`, `pipeline:patches` → `patch:replay`; the `data:` prefix is closed to the three data-moving commands and no others. Living documents take the glossary's words; code identifiers, attributed and dated text, `docs/superpowers/plans/` and `docs/archive/` keep the old ones, and §1.1 states the rule and names the three look-alike populations a blind sweep would have corrupted. `docs/glossary.md` loses its "Script today" column, gains `patch:replay` and two more retired terms, and its reference-data row gains the slug index step 7 added. Review found two rulings that were struck in their home spec but survived in the specs citing it: D14's one-shot framing (2 live instances) and rule 6's v1 page source, superseded 2026-09-06 (5 live instances, of which CodeRabbit named 2 — including the data-architecture §2.2 `page` row, in the very spec whose §6 carries the strike). Both audited across the tree and corrected with dated pointers |
+| 2026-09-19 | Step 10: `pipeline:fetch` → `data:fetch`, `pipeline:migrate` → `data:import`, `pipeline:patches` → `patch:replay`; the `data:` prefix is closed to the three data-moving commands and no others. Living documents take the glossary's words; code identifiers, attributed and dated text, `docs/archive/plans/` and `docs/archive/` keep the old ones, and §1.1 states the rule and names the three look-alike populations a blind sweep would have corrupted. `docs/glossary.md` loses its "Script today" column, gains `patch:replay` and two more retired terms, and its reference-data row gains the slug index step 7 added. Review found two rulings that were struck in their home spec but survived in the specs citing it: D14's one-shot framing (2 live instances) and rule 6's v1 page source, superseded 2026-09-06 (5 live instances, of which CodeRabbit named 2 — including the data-architecture §2.2 `page` row, in the very spec whose §6 carries the strike). Both audited across the tree and corrected with dated pointers |
 | 2026-09-20 | Step 11, the last of the sequence: the 32 non-`transform` classes flagged `blocking: true` recounted on the committed entry tree and ruled. The recount was itself classified, because a predicate written from a class description is not the detector that found it — 9 reproduced, 2 are controlled zeros, 15 measured the predicate, 6 had no honest predicate; 11 of 32 counts are evidence. Ruling (maintainer): an issue that does not block publication is recorded and handled later, the bar being what the reader sees. 32 → 5 stay blocking, 16 defer, 2 are `discarded` with controls, and 9 sense-structure classes defer with a §10 precondition — nothing addresses a sense today (0 of 71,376 refs carry a sense pointer; D8), so renumbering is free until `compile.ts` mints sense-level addresses or the admin tool opens hand editing. Verified rather than assumed: all 56 `transform` rows are registered, `PENDING` is empty. Two class reasons were stale against the entry schema (`grammar.gender` does hold `c`; `grammar.verbal_stem` never existed), and `Pattern.reason`'s "discarded rows only" docstring was corrected. Carry-ins cleared: step 10's `#TBD` → `#100`, and the flow diagram no longer draws the CI Rebuild job R9 withdrew |
 | 2026-09-21 | §7 and R10 superseded by the [URL names spec](2026-09-21-url-names-design.md): an entry's URL is a name built from its current headword, Sefaria-shaped, with `*` kept; `sefariaHeadword` stored on every entry; names may change and old ones redirect; no numbering and no separate names file. §7 kept as the record of what was built until that spec's §9 step 3 retires it. The `headword-unparsed` `blocks` reason (§3.1.1 table) is now open there (§8) |

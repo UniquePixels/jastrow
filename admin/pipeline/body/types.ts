@@ -1,6 +1,6 @@
 /**
  * Shared type vocabulary for the entry-body-model toolkit (spec
- * docs/superpowers/plans/2026-07-11-entry-body-model.md). Every later
+ * docs/archive/plans/2026-07-11-entry-body-model.md). Every later
  * module — citation detector, census, grammar/label extraction, unit
  * builder, dry-run — imports these instead of redefining the shapes.
  */

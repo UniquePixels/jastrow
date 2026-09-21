@@ -177,7 +177,7 @@ pass. It ships as a test rather than a probe
 (`admin/pipeline/transform/rules/gershayim.corpus.test.ts`, corpus tier), so a
 narrowed predicate fails a gate rather than a report. NOTE 2026-08-31:
 the corpus tier moved out of `bun qa` into `bun run audit:corpus` and
-CI's `Corpus Audit` job — see `docs/v2/test-tiers.md`.
+CI's `Corpus Audit` job — see `docs/archive/test-tiers.md`.
 
 ```bash
 bun test admin/pipeline/transform/rules/gershayim.corpus.test.ts

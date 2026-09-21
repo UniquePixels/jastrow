@@ -1,7 +1,7 @@
 # Body Census — Value Spaces and Edge Classes for the Body Model
 
 The entry-body-model toolkit ([design doc](../specs/2026-07-11-entry-body-model-design.md),
-[implementation plan](../superpowers/plans/2026-07-11-entry-body-model.md))
+[implementation plan](plans/2026-07-11-entry-body-model.md))
 turns each source entry's free-text `content.senses` into the structured
 `BodyEntry` shape the app renders. Several of its parse rules (grammar
 markers, sense-label sequencing, lettered sub-senses, citation unit
