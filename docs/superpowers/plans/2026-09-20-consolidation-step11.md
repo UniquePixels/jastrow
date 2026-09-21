@@ -39,9 +39,11 @@ diagram carry-in.
 - **Every zero carries a positive control.** A predicate that cannot
   fire reports a clean nothing (see the two controls in Task 1).
 - **`blocking: false` is not the same as closed.** A class resolved by
-  the body model or by a shipped rule gets `status: resolved` with the
-  evidence; a class that is real but post-launch work gets
-  `blocking: false` and stays `candidate`.
+  the body model or by a shipped rule gets `status: discarded` with the
+  evidence — `PatternStatus` is `'candidate' | 'discarded' | 'scripted'`,
+  so there is no `resolved`, and `discarded` is the documented value for
+  a class the v2 model dissolves. A class that is real but post-launch
+  work gets `blocking: false` and stays `candidate`.
 - **The 23 blocking `transform`-route classes are out of scope** (spec
   §11 step 11: each has a registered rule).
 - **No detector ports in this step.** Porting judgment-class detectors
@@ -280,8 +282,9 @@ generated the backlog section agrees with the document.
 
 **Acceptance Criteria:**
 - [ ] Each ruled class's `blocking` matches its verdict.
-- [ ] A closed class carries `status: resolved` and its control in
-      `reason`, dated 2026-09-20.
+- [ ] A closed class carries `status: discarded` (the only valid value
+      for this; there is no `resolved`) and its control in `reason`,
+      dated 2026-09-20.
 - [ ] A deferred class keeps `status: candidate` with `blocking: false`.
 - [ ] The file stays one JSON object per line, 155 lines, and every line
       still parses.
