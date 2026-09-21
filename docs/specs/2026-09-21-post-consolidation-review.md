@@ -235,3 +235,17 @@ Each with a default; silence means the default.
 10. **`phrase-alt-headword-stub`.** Unregister now (moves gates, re-bless) or with the headword work? *Default: with PR 5.*
 11. **Research backlog → tracker.** Open ~20 class-level issues by hand now, or wait for the admin tool? *Default: wait; the backlog doc is the register until then.*
 12. **Lint severity.** Raise length/complexity rules to `warn` (149 findings surface) or drop them? *Default: warn.*
+
+## 11. Amendment — URL names spec (2026-09-21, PR #115)
+
+[`2026-09-21-url-names-design.md`](2026-09-21-url-names-design.md)
+landed after the review passes ran. It changes this document:
+
+| Where | Effect |
+|---|---|
+| §1 (b), §6 | The eight "rows that move a URL" no longer block on URL grounds: under U6 a name may change and the old one redirects. Their remaining weight is the reader-visible headword defect. |
+| §2 #4, §9 PR 2 | The rewrite still corrects 17 entry files; `data/slug-index/` retires (§7 of that spec) instead of being rewritten. Hold the data rewrite until the grammar fix, the publication split and URL-names step 1 are in, then rewrite once. |
+| §5 patch model, §10 Q6 | U7 rules that an edit to one entry never has to touch a second file — a constraint on the admin-edit decision. |
+| §6 issue split | `slug-unsafe` / `slug-changed` rows retire; the `headword-unparsed` `blocks` reason is reopened (spec §8). |
+| §9 | New PR between 4 and 5: URL names §9 steps 1–3 (write `sefariaHeadword`, drop `slug`, name derivation + `bun qa` gates, retire `slug-index`). Compile's route map depends on it. |
+| §10 Q13 | Settled by that spec §3.1: bare letters land on the exact name or the first entry, not a disambiguation page. |
