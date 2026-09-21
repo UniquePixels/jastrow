@@ -626,6 +626,15 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 	) {
 		reasons.push('occurrence_index must be in 1..expected_occurrences');
 	}
+	// An entry has exactly ONE headword block, so a reform can only ever
+	// resolve once. A larger count would parse, pass `expected_before`,
+	// and then fail post-apply — or, through the exported `applyPatch`,
+	// rewrite a copy that no caller checks. Refuse it at the record.
+	if (raw['op'] === 'reform' && (occurrences !== 1 || index !== 1)) {
+		reasons.push(
+			'reform expected_occurrences and occurrence_index must both be 1',
+		);
+	}
 	return reasons;
 }
 

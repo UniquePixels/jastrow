@@ -80,6 +80,20 @@ function consonants(text: string): string {
 	return text.normalize('NFD').replace(MARKS, '');
 }
 
+/** Whether every `(` closes after it opens. Equal totals are not
+ * enough: `)(` balances by count and nests nowhere. */
+function parensNest(text: string): boolean {
+	let depth = 0;
+	for (const ch of text) {
+		depth += ch === '(' ? 1 : 0;
+		depth -= ch === ')' ? 1 : 0;
+		if (depth < 0) {
+			return false;
+		}
+	}
+	return depth === 0;
+}
+
 /** The shape a form's TEXT is in, as one name. `lexical` is the only
  * clean answer; every other value is a decision waiting to be taken. */
 function shapeOf(text: string): string {
@@ -96,9 +110,7 @@ function shapeOf(text: string): string {
 		return 'comma-list';
 	}
 	if (text.includes('(') || text.includes(')')) {
-		const open = [...text].filter((c) => c === '(').length;
-		const close = [...text].filter((c) => c === ')').length;
-		if (open !== close) {
+		if (!parensNest(text)) {
 			return 'paren-unbalanced';
 		}
 		return PAREN_WHOLE.test(text) ? 'paren-whole' : 'paren-optional-letters';
@@ -195,6 +207,11 @@ function shapeFor(issue: string): string | undefined {
 		maqaf: 'X5 maqaf fragment',
 		'nonfinal-letter-at-end': 'X3 non-final letter at word end',
 		'not-NFC': 'X4 not NFC',
+		// Both are H1's separator defects; `homographListNote` names which.
+		// Unmapped, a form of either shape would be dropped from the
+		// report without a trace.
+		'shape:comma-list': 'H1 homograph list / stray comma',
+		'shape:double-space': 'H1 homograph list / stray comma',
 		'shape:equals-variant': 'H4 "=" variant pair',
 		'shape:latin-or-digit': 'H1 homograph list / stray comma',
 		'shape:multi-word': 'H6 multi-word',
@@ -445,6 +462,12 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 	return rows;
 }
 
+/** A value made safe for one Markdown table cell: a `|` would split the
+ * row into extra columns and a line break would end it. */
+function cell(value: string): string {
+	return value.replaceAll('|', String.raw`\|`).replaceAll(/\r?\n/gu, ' ');
+}
+
 /** The generated document: a count table, then one section per shape
  * with every row, each rid linked to the live app. */
 function render(rows: IssueRow[]): string {
@@ -485,7 +508,7 @@ function render(rows: IssueRow[]): string {
 		);
 		for (const row of group) {
 			lines.push(
-				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${row.text} | ${row.slug} | ${row.note} | ${row.flagged ? 'yes' : ''} |`,
+				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.text)} | ${cell(row.slug)} | ${cell(row.note)} | ${row.flagged ? 'yes' : ''} |`,
 			);
 		}
 	}

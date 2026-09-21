@@ -574,6 +574,21 @@ describe('reform', () => {
 		);
 	});
 
+	it('refuses a reform that claims more than one headword block', () => {
+		// An entry has exactly one block; a count of 2 would parse, pass
+		// expected_before, and rewrite a copy no caller checks.
+		expect(() =>
+			patchFor(block, '', {
+				expected_occurrences: 2,
+				op: 'reform',
+				payload: { alt_headwords: [], headword: 'a' },
+				target: `forms:${contentAnchor(block)}`,
+			}),
+		).toThrow(
+			'reform expected_occurrences and occurrence_index must both be 1',
+		);
+	});
+
 	it('counts the block as the byte pool the no-new-text gate reads', () => {
 		// The pool must SEE the forms, or a reform could invent bytes
 		// there and pass a gate measuring only `content`.
