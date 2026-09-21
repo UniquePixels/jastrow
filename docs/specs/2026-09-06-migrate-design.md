@@ -120,6 +120,11 @@ A six-row table over `transform/html.ts` tokens. The corpus inventory
 
 ### 2.4 Slug
 
+*Superseded 2026-09-21 by the [URL names spec](2026-09-21-url-names-design.md):
+import stops writing `slug` and writes `sefariaHeadword` instead. The
+paragraph below is historical — the slug rule as built, kept until that
+spec's §9 step 3 retires the code — and is not the import contract.*
+
 Niqqud and marks stripped from `headword.text`. A stem unique across
 the corpus gets the bare slug. A colliding stem gives every member
 `stem-N`, N counted in rid order from 1, and the bare slug is reserved
@@ -141,6 +146,9 @@ doc for review (§4.2).
 directories). Fields in schema order, tab-indented, trailing newline,
 optional fields omitted when empty. Every file validates against
 `admin/pipeline/schema/entry.schema.json`; no schema change is needed.
+*(True when written. The [URL names spec](2026-09-21-url-names-design.md)
+§5.1, 2026-09-21, changes it: `slug` is removed and `sefariaHeadword`
+added.)*
 
 ## 3. Two passes
 

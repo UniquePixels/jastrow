@@ -28,7 +28,7 @@ ideas, it uses the word here.
 | **snapshot** | the one version of the source data committed in the repo, the version the committed entry data was imported from | `data/source/` |
 | **entry data** | one JSON file per dictionary entry. `data:import` makes it; people and the admin tool then edit it | `data/entries/<letter>/<rid>.json` |
 | **compiled data** | entry data built into the files the web app loads | not built yet |
-| **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index, and the slug index. May grow | `data/page-index/`, `data/slug-index/` |
+| **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index, and the slug index (retiring: the [URL names spec](specs/2026-09-21-url-names-design.md) §7 removes it). May grow | `data/page-index/`, `data/slug-index/` |
 | **correction data** | our own per-entry fixes that import applies: patches and quarantine | `data/patches/`, `data/quarantine/` |
 | **report** | evidence a run produces, not data: the import report, the blessing doc, build reports | see [The import run](#the-import-run) |
 
@@ -57,7 +57,7 @@ read-only and moves no data, so `data:` would have misdescribed it.
 | **dry run** | the default import: checks and reports, and writes no entry data. It does rewrite the import report and the blessing doc |
 | **write run** | an import with `--write`: writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
-| **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `slugs`, `pages`, `composition` |
+| **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `slugs`, `pages`, `composition`. `slugs` becomes a `names` gate under the [URL names spec](specs/2026-09-21-url-names-design.md) §5.2 |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |
 | **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/v2/migration-blessing.md`) |
 | **report row** | one finding in the report, shaped `{ rid, bucket, kind, severity, detail }`. `bucket` is `review` (a data judgment), `patch` (a patch to re-judge) or `pipeline` (a code fault) |
@@ -115,7 +115,7 @@ What a run reports for each patch:
 | Term | Meaning |
 |---|---|
 | **rid** | Sefaria's permanent id for an entry (e.g. `A00077`); the entry's identity and print-order spine |
-| **slug** | the entry's URL address, assigned once at import and then frozen; unique |
+| **slug** | the entry's URL address today: the headword stripped of points, numbered on collision. Being replaced by a **name** built from the current headword ([URL names spec](specs/2026-09-21-url-names-design.md)) |
 | **headword** | the word an entry is filed under, stored as a form object: `text`, plus optional `homograph`, `disambiguator`, `reconstructed` |
 | **homograph** | Jastrow's printed Roman numeral separating same-spelled headwords |
 | **disambiguator** | a superscript number Sefaria added to tell same-spelled headwords apart |
@@ -128,7 +128,7 @@ What a run reports for each patch:
 |---|---|
 | **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
-| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique slugs, internal link targets, page matches the page index both ways. Runs in the unit tier |
+| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique slugs (unique names under the [URL names spec](specs/2026-09-21-url-names-design.md) §5.2), internal link targets, page matches the page index both ways. Runs in the unit tier |
 | **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun run transform:invariants` before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
 | **corpus tier** | retired by spec step 5. What is still named `*.corpus.test.ts` is the two invariant checks and two research files that leave in step 6 |
 
