@@ -22,13 +22,22 @@
  *
  * ## What it can and cannot see
  *
- * It is a static check over file text. It sees the three ways a test
+ * It is a static check over file text. It sees the four ways a test
  * reaches the snapshot today:
  *
  *   - importing `corpus-fixture.ts` (the shared, memoised stages);
  *   - calling `readSourceEntries()` with no argument, which defaults to
  *     `SOURCE_PATH`;
- *   - naming `SOURCE_PATH` itself.
+ *   - naming `SOURCE_PATH` itself;
+ *   - calling `computeSnapshot()` with no argument, or naming
+ *     `SNAPSHOT_FILES`, both of which reach the same two files by
+ *     their own default.
+ *
+ * The fourth signal arrived on 2026-09-21 because the claim above was
+ * false: `patch/snapshot.test.ts` had been hashing the 41 MB snapshot
+ * from the unit tier for four calls, and none of the first three
+ * signals could see it (review 2026-09-21, report-code §6). A claim
+ * about coverage is only worth what its detector actually matches.
  *
  * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
  * `dry-run.ts`, `count.ts` or `patch/apply-cli.ts`, each of which holds
@@ -63,6 +72,8 @@ const CORPUS_SIGNALS: ReadonlyArray<readonly [string, RegExp]> = [
 	['imports corpus-fixture', /from\s+'[^']*corpus-fixture\.ts'/u],
 	['calls readSourceEntries()', /\breadSourceEntries\(\s*\)/u],
 	['names SOURCE_PATH', /\bSOURCE_PATH\b/u],
+	['calls computeSnapshot()', /\bcomputeSnapshot\(\s*\)/u],
+	['names SNAPSHOT_FILES', /\bSNAPSHOT_FILES\b/u],
 ];
 
 /** This file, absolute — the one path the scan must not report on. */
