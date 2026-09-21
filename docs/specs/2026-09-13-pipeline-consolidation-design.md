@@ -209,12 +209,31 @@ multi-word headword parsed and was then flagged for its space alone;
 `reviewReason` now names them `headword-multiword` and the report
 files them as notes. 29 real failures remain.
 
-**Catalogued, not yet detected.** The five classes step 11 ruled
-blocking (§11) have no detector on the import path, so they emit no
-rows. The report renders them from `data/patches/patterns.jsonl` in
-their own section — id, catalogued `corpusCount`, `defer` — counted
-separately from the `blocks` and `defer` row totals, because they are
-not rows. They leave that section as each detector is ported (§10).
+**Catalogued, not yet detected.** A catalogued class the maintainer
+ruled blocking that no detector on the import path can see emits no
+rows, so the report renders it from `data/patches/patterns.jsonl` in
+its own section — id, catalogued `corpusCount`, `defer` — counted
+separately from the `blocks` and `defer` row totals, because it is not
+a row. A class leaves that section the moment its detector is
+registered in `migrate/detectors/classes.ts`: the section subtracts
+the registered kinds from the catalogue, so the list and the rows
+cannot drift apart.
+
+**The five are detected (2026-09-21).** All five step-11 blocking
+classes now have a detector under `admin/pipeline/migrate/detectors/`,
+run on the FINISHED truth entry in `finishAll` — their predicates are
+written against the truth shape, not the snapshot's, so a predicate
+written for the source would measure zero once the transforms ship.
+The section is empty and the row counts are `empty-stem-section` 342,
+`open-paren-in-rtl-span` 88, `stranded-open-bracket` 85,
+`superscript-subsection-contradicts-link-sub-section` 33,
+`homograph-roman-stranded-in-definition` 22. Each emits ONE ROW PER
+ENTRY, naming every site in `detail`, because `corpusCount` counts
+entries and a per-site row would report a figure the catalogue cannot
+be read against. The two deltas against the catalogue are the
+recount's, already recorded in
+[research-backlog.md](../v2/research-backlog.md) Group A: 23 → 22 and
+89 → 88.
 
 **The publication gate.** v2 is published only when the review
 report's `blocks` section is empty **and** §11 step 11 has ruled
@@ -621,7 +640,7 @@ stays runnable on its own. *(Step 10 renamed three of these:
 | Review rows → tracker issues; idempotent on `(rid, kind)`; batching for volume (thousands of rows will not work as one issue each) | admin tool spec |
 | `compile.ts` | data-architecture §3 |
 | **Group D precondition (step 11):** the nine sense-structure classes deferred on 2026-09-20 must be examined before sense-level addressing is introduced (D8 lifted) **or** the admin tool opens hand editing, whichever comes first. While nothing addresses a sense — 0 of 71,376 internal refs carry a sense pointer — a renumbering is free; after either event it collides with public links and hand edits, per entry through §3.2's merge | `compile.ts` (data-architecture §3) **and** the admin tool spec; `docs/v2/research-backlog.md` holds the nine and the evidence |
-| Port judgment-class detectors from archived research code | ad hoc, one class per PR |
+| ~~Port judgment-class detectors from archived research code~~ **The five step-11 blocking classes are done (2026-09-21): `migrate/detectors/`.** What is left is the deferred classes of research-backlog Groups B, D and E, none of which blocks the cutover | ad hoc, one class per PR |
 | Review the 298 low-confidence page placements | `docs/v2/review-report.md`'s `defer` rows, then the tracker |
 | **Sefaria URL compatibility:** a route where swapping `sefaria.org` for `jastrow.app` finds the word. Their canonical name is `Jastrow,_<headword>` using the export's `headword` string verbatim, so the mapping is a column we already hold; the work is routing and percent-encoding | `docs/v2/url-routes.md`, app work |
 | Drift and "creates no defect" checks from the retired corpus files: each one worth keeping becomes a review detector emitting report rows, with no pinned numbers (§5.1) | ad hoc, one per PR; start from `docs/v2/retired-corpus-checks.md` |
@@ -877,3 +896,4 @@ Steps 1–4 have shipped and are kept as history.
 | 2026-09-21 | §3.1.1: the blocks/defer split made honest against the 2026-09-20 bar (the reader sees a defect not correctable in the admin tool after go-live). `headword-multiword` added as a sixth review kind and tagged `note`: `FORM` admits U+0020 and `LEXICAL` does not, so 271 of the 300 `headword-unparsed` rows were legitimate multi-word forms (headword-design §4) flagged for their space alone; the split is in `reviewReason`, not a filter over the report. Each kind gained a one-sentence action, rendered once per section. The report gained a "Catalogued, not yet detected" section rendered from `patterns.jsonl` — the five step-11 blocking classes have no detector on the import path — counted apart from the row totals, and a header line naming the kinds that retire with the URL names spec §7. `renderReviewReport` now refuses a row that reached it unclassified. Nine gates green; review report 31 `blocks` (29 `headword-unparsed`, 2 `slug-unsafe`), 2,204 `defer`, 278 `note` (271 `headword-multiword`, 7 `slug-changed`), 2,513 rows, plus 5 catalogued classes / 572 entries undetected |
 | 2026-09-21 | **Admin edits are not patches** (maintainer, post-consolidation review Q6). The admin tool edits the entry file and nothing else; the update run (§3.2) keeps hand edits across a re-import, and R2's withdrawal of re-recording stands. Patches stay the pipeline's channel for source-data defects. Should patches from hand edits ever be wanted, they are generated by diffing entry data against source data, a process to be designed at that time. Cost: no new patch ops; the three #113 rows that need a gloss edit (A01175, A01345, V00518) wait for the update run, which is already §10 row 1 |
 | 2026-09-21 | [`docs/decisions.md`](../decisions.md) added: one index of all 157 rulings across the eleven id schemes, each row carrying what the ruling drops, its home and its status against the code ([#104](https://github.com/UniquePixels/jastrow/issues/104), review §8). R1–R11 are §9 of that index. A new ruling is a row there first, then a section here. |
+| 2026-09-21 | §10's "port judgment-class detectors" done for the five step-11 blocking classes (review §2 finding 2): a detector each under `admin/pipeline/migrate/detectors/`, registered in `classes.ts`, run on the FINISHED truth entry in `finishAll` — the predicates read the truth shape, and one written for the snapshot would measure zero once the transforms ship. All five are `defer` in the kind table with an action line, and "Catalogued, not yet detected" now subtracts the registered kinds from the catalogue, so the section is empty and cannot drift from the rows. ONE ROW PER ENTRY, every site named in `detail`, because `corpusCount` counts entries. Nine gates green; review report 31 `blocks` (unchanged), 2,204 → 2,774 `defer`, 278 `note`, and `migration-blessing.md` byte-identical — it renders no class rows. Counts against the catalogue: `empty-stem-section` 342 = 342, `stranded-open-bracket` 85 = 85, `superscript-subsection-contradicts-link-sub-section` 33 = 33, `homograph-roman-stranded-in-definition` 22 vs 23, `open-paren-in-rtl-span` 88 vs 89 — the last two are the 2026-09-20 recount's own figures (research-backlog Group A), not a predicate miss: B00883 and S01616 no longer open with the numeral after the transforms and U00488 joins, and the paren row's catalogued 89 is a snapshot-era judgement call the row itself records as unpinned |
