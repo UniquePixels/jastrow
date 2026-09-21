@@ -82,8 +82,18 @@ names redirect to it.
 
 `sefaria.org` → `jastrow.app` finds the word. The route accepts the
 `Jastrow,_` prefix in plain or percent-encoded form (`Jastrow%2C_`),
-drops a trailing `.N` sense suffix (U8), looks the rest up against
-`sefariaHeadword`, and redirects to our name.
+drops a trailing `.N` sense suffix (U8), and redirects to our name.
+
+Every route reduces the request to one key before lookup, and the route
+map is keyed the same way:
+
+1. percent-decode the path;
+2. `_` → space;
+3. NFC.
+
+`sefariaHeadword` is stored verbatim, with spaces, so its route-map key
+is step 3 alone. Without step 2, all 3,695 Sefaria headwords that
+contain a space would miss.
 
 Sefaria's URL is its headword verbatim: spaces become `_`, and anything
 URL-hostile is percent-encoded. B00825's `*(?)בַּלְוָוטִי` is served
@@ -95,13 +105,18 @@ must decode before it looks up.
 Built from the headword form object:
 
 ```
-name = ("*" if reconstructed) + text + (" " + Roman if homograph) + superscript(disambiguator)
+word = text with ( ) ? , removed, runs of whitespace → one space, trimmed
+name = ("*" if reconstructed) + word + (" " + Roman if homograph) + superscript(disambiguator)
 url  = name with spaces → "_", then percent-encoded as needed
 ```
+
+Uniqueness (§5.2) and the route map both use `name`, after this
+normalization.
 
 - **Notation that is not part of the word is dropped** from the name
   only: `(`, `)`, `?`, `,`. The headword and its display keep them —
   B00825 still displays `*(?)בַּלְוָוטִי`; its name is `*בַּלְוָוטִי`.
+  Stripping creates no collisions (0, measured on the formula above).
 - **Uniqueness is required.** A correction that makes two current names
   equal fails the gate (§5.2), and the editor adds a disambiguator —
   the same tool Sefaria uses.
