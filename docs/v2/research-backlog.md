@@ -182,8 +182,10 @@ that disturbs no structure and no published identity.
 
 ### Group C — resolved, with a control
 
-Draft: **close** (`blocking: false`, `status: resolved`), not defer.
-Neither is outstanding work.
+Draft: **close** (`blocking: false`, `status: discarded` — `PatternStatus`
+is `'candidate' | 'discarded' | 'scripted'`, so "resolved" is the recount
+outcome's name here and never a catalogue value), not defer. Neither is
+outstanding work.
 
 | Class | Cat. | Now | Why it is gone |
 |---|---|---|---|
