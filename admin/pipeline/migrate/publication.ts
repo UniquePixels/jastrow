@@ -1,23 +1,172 @@
-/** Which review rows block v2 publication (consolidation spec §3.1.1).
- * The value is fixed per kind; a review or patch kind this table does
- * not name throws, so a new kind cannot ship unclassified. */
+/** Which review rows block v2 publication (consolidation spec §3.1.1),
+ * and what a reader of the review report is meant to DO about each
+ * kind. The pair is fixed per kind; a review or patch kind this table
+ * does not name throws, so a new kind cannot ship unclassified.
+ *
+ * The bar for `blocks` (maintainer, 2026-09-20): the reader sees a
+ * defect that cannot be corrected in the admin tool after go-live. */
 import type { Publication, Report, ReportRow } from './report.ts';
 
-const PUBLICATION: ReadonlyMap<string, Publication> = new Map([
-	['headword-unparsed', 'blocks'],
-	['markup-carry', 'defer'],
-	['page-confidence-low', 'defer'],
-	['page-confidence-medium', 'defer'],
-	['review-deferred', 'defer'],
-	['slug-alias-new', 'note'],
-	['slug-bare-held', 'note'],
-	['slug-changed', 'note'],
-	['slug-frozen-stem-drift', 'note'],
-	['slug-new', 'note'],
-	['slug-unsafe', 'blocks'],
-	['upstream-changed', 'blocks'],
-	['upstream-fixed', 'blocks'],
+/** One kind's entry: where it lands in the report, and the one
+ * sentence the report prints once at the top of its section. */
+interface KindRule {
+	/** Imperative, one sentence, no rid — it heads the whole section. */
+	action: string;
+	publication: Publication;
+}
+
+const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
+	[
+		// Split out of `headword-unparsed` 2026-09-21: `FORM` admits a
+		// space and `LEXICAL` does not, so every multi-word headword
+		// parsed and was then flagged for the space alone — 271 of the 300
+		// rows the report called blocking. headword-design §4 rules the
+		// shape legitimate (reduplication, spaced variants, phrase
+		// headwords and phrase alternates), and it renders as printed.
+		'headword-multiword',
+		{
+			action:
+				'Nothing to do: a multi-word form is legitimate (headword-design §4); the rows are listed so the count stays visible.',
+			publication: 'note',
+		},
+	],
+	[
+		// `blocks` FOR NOW, and the reason is reopened. The original one
+		// — "the headword makes the slug, and slugs freeze at publication"
+		// — no longer holds under the URL names spec (§8: a name may
+		// change and the old one redirects), so what is left is the
+		// reader-visible headword defect. Re-ruled with the headword
+		// schema decision (post-consolidation review §10 Q1).
+		'headword-unparsed',
+		{
+			action:
+				'Correct the headword text at source or by patch so the grammar accounts for it; the reader sees the raw string until then.',
+			publication: 'blocks',
+		},
+	],
+	[
+		'markup-carry',
+		{
+			action:
+				'Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.',
+			publication: 'defer',
+		},
+	],
+	[
+		'page-confidence-low',
+		{
+			action:
+				'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
+			publication: 'defer',
+		},
+	],
+	[
+		'page-confidence-medium',
+		{
+			action:
+				'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
+			publication: 'defer',
+		},
+	],
+	[
+		'review-deferred',
+		{
+			action:
+				'Answer the sense-structure question in the admin tool after go-live; the entry renders meanwhile.',
+			publication: 'defer',
+		},
+	],
+	[
+		'slug-alias-new',
+		{
+			action: 'Nothing to do: a new alias is what a regenerating run adds.',
+			publication: 'note',
+		},
+	],
+	[
+		'slug-bare-held',
+		{
+			action: 'Nothing to do: the bare stem keeps the owner it already had.',
+			publication: 'note',
+		},
+	],
+	[
+		'slug-changed',
+		{
+			action:
+				'Re-run `bun data:import --write` and commit the entry tree, or the committed slugs disagree with this run.',
+			publication: 'note',
+		},
+	],
+	[
+		'slug-frozen-stem-drift',
+		{
+			action:
+				'Nothing to do while names are unfrozen; the stem moved under a frozen slug.',
+			publication: 'note',
+		},
+	],
+	[
+		'slug-new',
+		{
+			action: 'Nothing to do: a new entry takes a new slug.',
+			publication: 'note',
+		},
+	],
+	[
+		'slug-unsafe',
+		{
+			action:
+				'Patch the headword so the derived name carries no URL-unsafe character.',
+			publication: 'blocks',
+		},
+	],
+	[
+		'upstream-changed',
+		{
+			action:
+				'Re-judge the patch against the new export before the output is trusted.',
+			publication: 'blocks',
+		},
+	],
+	[
+		'upstream-fixed',
+		{
+			action:
+				'Archive the patch: the new export already carries its post-state.',
+			publication: 'blocks',
+		},
+	],
 ]);
+
+/** The kinds that retire with the URL names work, and where that is
+ * ruled. Rendered as one line in the report header so a reader is not
+ * left triaging rows that are on their way out. */
+const RETIRING_KINDS = [
+	'slug-alias-new',
+	'slug-bare-held',
+	'slug-changed',
+	'slug-frozen-stem-drift',
+	'slug-new',
+	'slug-unsafe',
+] as const;
+
+/** The rule for a review or patch kind; throws on a kind the table
+ * does not name (spec §3.1.1). */
+function ruleOf(kind: string): KindRule {
+	const rule = PUBLICATION.get(kind);
+	if (rule === undefined) {
+		throw new Error(
+			`review kind "${kind}" has no publication class (spec §3.1.1)`,
+		);
+	}
+	return rule;
+}
+
+/** What the report tells a reader to do about this kind. */
+function actionOf(kind: string): string {
+	return ruleOf(kind).action;
+}
 
 /** The row's publication class; `undefined` for a pipeline fault. */
 function publicationOf(
@@ -26,13 +175,7 @@ function publicationOf(
 	if (row.bucket === 'pipeline') {
 		return;
 	}
-	const publication = PUBLICATION.get(row.kind);
-	if (publication === undefined) {
-		throw new Error(
-			`review kind "${row.kind}" has no publication class (spec §3.1.1)`,
-		);
-	}
-	return publication;
+	return ruleOf(row.kind).publication;
 }
 
 /** Stamp every review and patch row in place. Run once, after the last
@@ -46,4 +189,5 @@ function classifyRows(report: Report): void {
 	}
 }
 
-export { classifyRows, PUBLICATION, publicationOf };
+export type { KindRule };
+export { actionOf, classifyRows, PUBLICATION, publicationOf, RETIRING_KINDS };

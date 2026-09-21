@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'bun:test';
-import { decomposeForm, regenerateForm, reviewReason } from './headword.ts';
+import {
+	decomposeForm,
+	isHeadwordReviewKind,
+	regenerateForm,
+	reviewReason,
+} from './headword.ts';
 import type { FormObject } from './types.ts';
 
 const CASES: ReadonlyArray<readonly [string, FormObject, boolean]> = [
@@ -37,11 +42,60 @@ describe('reviewReason', () => {
 		expect(reviewReason(decomposeForm('אָב II'))).toBeUndefined();
 	});
 	it('names an unparsed form', () => {
-		expect(reviewReason(decomposeForm('בַּד  V'))).toBe('grammar did not parse');
+		expect(reviewReason(decomposeForm('בַּד  V'))).toEqual({
+			kind: 'headword-unparsed',
+			reason: 'grammar did not parse',
+		});
 	});
-	it('names a phrase lemma', () => {
-		expect(reviewReason(decomposeForm('בֵּי אֱלִישָׁפָט'))).toBe(
-			'text carries characters outside the lexical set',
-		);
+	// headword-design §4 rules these legitimate: a phrase lemma,
+	// reduplication and a spaced variant. The space is the ONLY character
+	// outside the lexical set in all 271 of them.
+	for (const marked of ['בֵּי אֱלִישָׁפָט', 'דא דא', 'פּוּם בְּדִיתָא']) {
+		it(`calls ${marked} a multi-word form, not a parse failure`, () => {
+			expect(reviewReason(decomposeForm(marked))).toEqual({
+				kind: 'headword-multiword',
+				reason: 'multi-word form; the space is its only non-lexical character',
+			});
+		});
+	}
+	// A doubled space parses (only a LEADING or trailing one is
+	// refused) and is lexical-plus-space, so without its own branch it
+	// would be demoted to a note reading "nothing to do" — while §4
+	// rules it an H1 separator defect.
+	it('refuses to call a doubled space a word gap', () => {
+		const doubled = decomposeForm('אב  גד');
+		expect(doubled.parsed).toBe(true);
+		expect(reviewReason(doubled)).toEqual({
+			kind: 'headword-unparsed',
+			reason: 'text carries a doubled space between words',
+		});
+	});
+	// Unreachable while `FORM`'s class is `LEXICAL` plus a space, which
+	// is why these are asserted on a hand-built `Decomposed` rather than
+	// on a marked string: the branch has to be right the day that widens.
+	it('still calls a parsed non-lexical form unparsed', () => {
+		expect(reviewReason({ form: { text: 'אb' }, parsed: true })).toEqual({
+			kind: 'headword-unparsed',
+			reason: 'text carries characters outside the lexical set',
+		});
+	});
+	it('does not call a space-free form multi-word', () => {
+		expect(reviewReason({ form: { text: 'א=ב' }, parsed: true })).toEqual({
+			kind: 'headword-unparsed',
+			reason: 'text carries characters outside the lexical set',
+		});
+	});
+});
+
+describe('isHeadwordReviewKind', () => {
+	it('names both kinds the detector mints', () => {
+		expect(isHeadwordReviewKind('headword-unparsed')).toBe(true);
+		expect(isHeadwordReviewKind('headword-multiword')).toBe(true);
+	});
+	it('refuses another review kind', () => {
+		expect(isHeadwordReviewKind('markup-carry')).toBe(false);
+	});
+	it('does not read an inherited object key as a kind', () => {
+		expect(isHeadwordReviewKind('constructor')).toBe(false);
 	});
 });

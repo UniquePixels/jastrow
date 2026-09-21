@@ -6,8 +6,8 @@
  * Two inputs, deliberately:
  *
  * - `data/source/migration-report.json`, for what the CURRENT processor
- *   already flags (`headword-unparsed`, `slug-unsafe`). Run
- *   `bun data:import` first if it is stale.
+ *   already flags (`headword-unparsed`, `headword-multiword`,
+ *   `slug-unsafe`). Run `bun data:import` first if it is stale.
  * - `data/entries/`, walked independently. The processor's review list
  *   is not the defect list: a form can round-trip through the grammar
  *   and still be wrong (a lost letter, a Sefaria split, a slug whose
@@ -20,6 +20,7 @@
  *
  * Run: bun run headword:issues
  */
+import { isHeadwordReviewKind } from './migrate/headword.ts';
 import type { FormObject, TruthEntry } from './migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
@@ -240,11 +241,14 @@ async function loadEntries(): Promise<Map<string, TruthEntry>> {
 }
 
 /** The `rid`/`text` pairs the current processor put on its headword
- * review list, so each row can say whether it is already visible. */
+ * review list, so each row can say whether it is already visible. Both
+ * headword kinds count as visible: `headword-multiword` is the same
+ * detector's other verdict, split out of `headword-unparsed` so the
+ * review report can call it a note. */
 function flaggedForms(report: MigrationReport): Map<string, Set<string>> {
 	const flagged = new Map<string, Set<string>>();
 	for (const row of report.rows) {
-		if (row.kind !== 'headword-unparsed') {
+		if (!isHeadwordReviewKind(row.kind)) {
 			continue;
 		}
 		const marked = UNPARSED_DETAIL.exec(row.detail)?.groups?.['form'];

@@ -27,305 +27,305 @@ _none_
 ## Headword review
 
 - A00077: ?אִיבּוּס — grammar did not parse
-- A00116: בַּר אַבְיוּ — text carries characters outside the lexical set
-- A00121: בֵּי אֶבְיוֹנֵי — text carries characters outside the lexical set
-- A00148: אַבְיַת ישימון — text carries characters outside the lexical set
-- A00434: אַדְנֵי הַשָּׂדֶה — text carries characters outside the lexical set
-- A00436: אדני מריונים — text carries characters outside the lexical set
+- A00116: בַּר אַבְיוּ — multi-word form; the space is its only non-lexical character
+- A00121: בֵּי אֶבְיוֹנֵי — multi-word form; the space is its only non-lexical character
+- A00148: אַבְיַת ישימון — multi-word form; the space is its only non-lexical character
+- A00434: אַדְנֵי הַשָּׂדֶה — multi-word form; the space is its only non-lexical character
+- A00436: אדני מריונים — multi-word form; the space is its only non-lexical character
 - A00610: *(אוזפיה) — grammar did not parse
-- A00720: נקיס אונא — text carries characters outside the lexical set
-- A00732: אוֹנוֹס קִטְמִין — text carries characters outside the lexical set
-- A00742: בית אוּנְיָיקִי — text carries characters outside the lexical set
+- A00720: נקיס אונא — multi-word form; the space is its only non-lexical character
+- A00732: אוֹנוֹס קִטְמִין — multi-word form; the space is its only non-lexical character
+- A00742: בית אוּנְיָיקִי — multi-word form; the space is its only non-lexical character
 - A00883: אוּרְיָה  I, II — grammar did not parse
-- A01035: כְּפַר אַחִים — text carries characters outside the lexical set
-- A01126: כפר איבּוּס — text carries characters outside the lexical set
+- A01035: כְּפַר אַחִים — multi-word form; the space is its only non-lexical character
+- A01126: כפר איבּוּס — multi-word form; the space is its only non-lexical character
 - A01175: אִידְרְעָא = אֶדְרְעָא — grammar did not parse
 - A01345: אִימְנוֹן = הִמְנוֹן — grammar did not parse
 - A01394: אֵינָשׁ) אִינְשָׁא — grammar did not parse
-- A01479: קומיס איספיסריאון — text carries characters outside the lexical set
+- A01479: קומיס איספיסריאון — multi-word form; the space is its only non-lexical character
 - A01480: אִיסְפְּלָנִית(א) — grammar did not parse
-- A01674: כפר אִכּוּם — text carries characters outside the lexical set
-- A01741: אכסניי פרכא — text carries characters outside the lexical set
-- A01881: בֵּי אֱלִישָׁפָט — text carries characters outside the lexical set
-- A02002: *כְּפַר א׳ אָמוּס — text carries characters outside the lexical set
-- A02006: בר אמוראי — text carries characters outside the lexical set
-- A02120: בַּר אַנְדְּרַאי — text carries characters outside the lexical set
-- A02160: בית אַנְטְבִילָא — text carries characters outside the lexical set
+- A01674: כפר אִכּוּם — multi-word form; the space is its only non-lexical character
+- A01741: אכסניי פרכא — multi-word form; the space is its only non-lexical character
+- A01881: בֵּי אֱלִישָׁפָט — multi-word form; the space is its only non-lexical character
+- A02002: *כְּפַר א׳ אָמוּס — multi-word form; the space is its only non-lexical character
+- A02006: בר אמוראי — multi-word form; the space is its only non-lexical character
+- A02120: בַּר אַנְדְּרַאי — multi-word form; the space is its only non-lexical character
+- A02160: בית אַנְטְבִילָא — multi-word form; the space is its only non-lexical character
 - A02356: אִסְטְוָוא I, II — grammar did not parse
-- A02666: אפי בלסמון — text carries characters outside the lexical set
-- A02694: סָר אָפִיס — text carries characters outside the lexical set
-- A02734: קרן אָפֵל — text carries characters outside the lexical set
-- A02892: אֹצְרוֹת רוח — text carries characters outside the lexical set
-- A03073: ארטל ליפרן — text carries characters outside the lexical set
-- A03391: א״ת ב״ש — text carries characters outside the lexical set
-- B00050: בַּב נַהֲרָא — text carries characters outside the lexical set
-- B00071: בֶּן בַּג בַּג — text carries characters outside the lexical set
-- B00322: בֵּית בּוּקְיָא — text carries characters outside the lexical set
-- B00379: נהר בּוּרְנִיץ — text carries characters outside the lexical set
+- A02666: אפי בלסמון — multi-word form; the space is its only non-lexical character
+- A02694: סָר אָפִיס — multi-word form; the space is its only non-lexical character
+- A02734: קרן אָפֵל — multi-word form; the space is its only non-lexical character
+- A02892: אֹצְרוֹת רוח — multi-word form; the space is its only non-lexical character
+- A03073: ארטל ליפרן — multi-word form; the space is its only non-lexical character
+- A03391: א״ת ב״ש — multi-word form; the space is its only non-lexical character
+- B00050: בַּב נַהֲרָא — multi-word form; the space is its only non-lexical character
+- B00071: בֶּן בַּג בַּג — multi-word form; the space is its only non-lexical character
+- B00322: בֵּית בּוּקְיָא — multi-word form; the space is its only non-lexical character
+- B00379: נהר בּוּרְנִיץ — multi-word form; the space is its only non-lexical character
 - B00407: בְּזָא I, II — grammar did not parse
-- B00442: בֵּי זְיוּנָא — text carries characters outside the lexical set
-- B00442: בֵּי זְיָינָא — text carries characters outside the lexical set
-- B00506: בֶּן בַּטִּיחַ — text carries characters outside the lexical set
-- B00531: בֵּי בָּטְנִיתָא — text carries characters outside the lexical set
-- B00741: כְּפַר בִּישׁ — text carries characters outside the lexical set
-- B00780: בַּעַל בְּכִי — text carries characters outside the lexical set
-- B00780: עֵין בְּכִי — text carries characters outside the lexical set
+- B00442: בֵּי זְיוּנָא — multi-word form; the space is its only non-lexical character
+- B00442: בֵּי זְיָינָא — multi-word form; the space is its only non-lexical character
+- B00506: בֶּן בַּטִּיחַ — multi-word form; the space is its only non-lexical character
+- B00531: בֵּי בָּטְנִיתָא — multi-word form; the space is its only non-lexical character
+- B00741: כְּפַר בִּישׁ — multi-word form; the space is its only non-lexical character
+- B00780: בַּעַל בְּכִי — multi-word form; the space is its only non-lexical character
+- B00780: עֵין בְּכִי — multi-word form; the space is its only non-lexical character
 - B00825: *(?)בַּלְוָוטִי — grammar did not parse
-- B00864: בְּלִי מָה — text carries characters outside the lexical set
-- B00874: בֵּי בְּלִיעֵי — text carries characters outside the lexical set
-- B00922: בית בַּלְתִּי — text carries characters outside the lexical set
-- B00924: סֵפֶר בְּמִדְבַּר — text carries characters outside the lexical set
-- B01098: עֲלֵי בְּצָלִים — text carries characters outside the lexical set
-- B01196: בֵּי בָּרוּךְ — text carries characters outside the lexical set
-- B01209: בְּרוֹר חַיִל — text carries characters outside the lexical set
-- B01209: בְּרוֹר חֵיל — text carries characters outside the lexical set
-- B01235: בֵּי בֵּרַי — text carries characters outside the lexical set
-- B01271: רם בָּרִין — text carries characters outside the lexical set
-- B01281: פילי בריש — text carries characters outside the lexical set
-- B01312: בֵּי בַּרְצִיתָא — text carries characters outside the lexical set
-- B01316: בְּנֵי בְּרַק — text carries characters outside the lexical set
-- B01340: בְּרַת חווּרן — text carries characters outside the lexical set
-- C00060: כפר גבור חיל — text carries characters outside the lexical set
-- C00063: כפר גבוריא — text carries characters outside the lexical set
-- C00078: גַּבְיָא גילא — text carries characters outside the lexical set
-- D00830: בר דליא — text carries characters outside the lexical set
+- B00864: בְּלִי מָה — multi-word form; the space is its only non-lexical character
+- B00874: בֵּי בְּלִיעֵי — multi-word form; the space is its only non-lexical character
+- B00922: בית בַּלְתִּי — multi-word form; the space is its only non-lexical character
+- B00924: סֵפֶר בְּמִדְבַּר — multi-word form; the space is its only non-lexical character
+- B01098: עֲלֵי בְּצָלִים — multi-word form; the space is its only non-lexical character
+- B01196: בֵּי בָּרוּךְ — multi-word form; the space is its only non-lexical character
+- B01209: בְּרוֹר חַיִל — multi-word form; the space is its only non-lexical character
+- B01209: בְּרוֹר חֵיל — multi-word form; the space is its only non-lexical character
+- B01235: בֵּי בֵּרַי — multi-word form; the space is its only non-lexical character
+- B01271: רם בָּרִין — multi-word form; the space is its only non-lexical character
+- B01281: פילי בריש — multi-word form; the space is its only non-lexical character
+- B01312: בֵּי בַּרְצִיתָא — multi-word form; the space is its only non-lexical character
+- B01316: בְּנֵי בְּרַק — multi-word form; the space is its only non-lexical character
+- B01340: בְּרַת חווּרן — multi-word form; the space is its only non-lexical character
+- C00060: כפר גבור חיל — multi-word form; the space is its only non-lexical character
+- C00063: כפר גבוריא — multi-word form; the space is its only non-lexical character
+- C00078: גַּבְיָא גילא — multi-word form; the space is its only non-lexical character
+- D00830: בר דליא — multi-word form; the space is its only non-lexical character
 - D00844: דִּלְמָא I, II — grammar did not parse
-- D00983: דצ״ך עד״ש באח״ב — text carries characters outside the lexical set
-- D01080: בֵּי דָ׳ — text carries characters outside the lexical set
-- E00007: הֵא הֵא — text carries characters outside the lexical set
-- E00032: בַּר חָבוּ — text carries characters outside the lexical set
-- E00114: בַּר הֲדָיָא — text carries characters outside the lexical set
-- E00114: בֶּן הֲדָיָא — text carries characters outside the lexical set
-- C01224: ג״ר ד״ק — text carries characters outside the lexical set
-- C01291: בַּר גְּרוֹגְרוֹת — text carries characters outside the lexical set
-- C01358: דינא דגְּרָמֵי — text carries characters outside the lexical set
-- D00004: דא דא — text carries characters outside the lexical set
-- D00300: דונה טיבה — text carries characters outside the lexical set
-- D00644: נהר דִּינוּר — text carries characters outside the lexical set
-- C00515: בַּר גַּזָּא — text carries characters outside the lexical set
-- C00517: גזא דפטי — text carries characters outside the lexical set
-- E00295: הז״יו ל״ך — text carries characters outside the lexical set
-- C00667: בר גִּיּוֹרֵי — text carries characters outside the lexical set
-- E00456: בית הִינוּ — text carries characters outside the lexical set
-- C00763: גּיניאך טַעֲוָותָא — text carries characters outside the lexical set
+- D00983: דצ״ך עד״ש באח״ב — multi-word form; the space is its only non-lexical character
+- D01080: בֵּי דָ׳ — multi-word form; the space is its only non-lexical character
+- E00007: הֵא הֵא — multi-word form; the space is its only non-lexical character
+- E00032: בַּר חָבוּ — multi-word form; the space is its only non-lexical character
+- E00114: בַּר הֲדָיָא — multi-word form; the space is its only non-lexical character
+- E00114: בֶּן הֲדָיָא — multi-word form; the space is its only non-lexical character
+- C01224: ג״ר ד״ק — multi-word form; the space is its only non-lexical character
+- C01291: בַּר גְּרוֹגְרוֹת — multi-word form; the space is its only non-lexical character
+- C01358: דינא דגְּרָמֵי — multi-word form; the space is its only non-lexical character
+- D00004: דא דא — multi-word form; the space is its only non-lexical character
+- D00300: דונה טיבה — multi-word form; the space is its only non-lexical character
+- D00644: נהר דִּינוּר — multi-word form; the space is its only non-lexical character
+- C00515: בַּר גַּזָּא — multi-word form; the space is its only non-lexical character
+- C00517: גזא דפטי — multi-word form; the space is its only non-lexical character
+- E00295: הז״יו ל״ך — multi-word form; the space is its only non-lexical character
+- C00667: בר גִּיּוֹרֵי — multi-word form; the space is its only non-lexical character
+- E00456: בית הִינוּ — multi-word form; the space is its only non-lexical character
+- C00763: גּיניאך טַעֲוָותָא — multi-word form; the space is its only non-lexical character
 - E00508: הָכֵין  I, II — grammar did not parse
-- C00851: גלא קסינון — text carries characters outside the lexical set
-- C01013: בַּר גַּמְזָא — text carries characters outside the lexical set
-- E00590: בֵּית הַמְגַּנְיָא — text carries characters outside the lexical set
-- E00592: בַּר הַמְדּוּדֵי — text carries characters outside the lexical set
-- E00593: בר הַמְדּוּרֵי — text carries characters outside the lexical set
-- E00654: בַּר הֵנַג — text carries characters outside the lexical set
-- F00006: וְאֵלֶּה שְׁמוֹת — text carries characters outside the lexical set
-- F00058: ווֵול שָׁפָט — text carries characters outside the lexical set
-- G00014: בֵּית זַבְדִּין — text carries characters outside the lexical set
-- G00188: זומי ליסטרא — text carries characters outside the lexical set
-- G00188: זומי לסטרון — text carries characters outside the lexical set
-- G00325: בַּר זִיזָא — text carries characters outside the lexical set
+- C00851: גלא קסינון — multi-word form; the space is its only non-lexical character
+- C01013: בַּר גַּמְזָא — multi-word form; the space is its only non-lexical character
+- E00590: בֵּית הַמְגַּנְיָא — multi-word form; the space is its only non-lexical character
+- E00592: בַּר הַמְדּוּדֵי — multi-word form; the space is its only non-lexical character
+- E00593: בר הַמְדּוּרֵי — multi-word form; the space is its only non-lexical character
+- E00654: בַּר הֵנַג — multi-word form; the space is its only non-lexical character
+- F00006: וְאֵלֶּה שְׁמוֹת — multi-word form; the space is its only non-lexical character
+- F00058: ווֵול שָׁפָט — multi-word form; the space is its only non-lexical character
+- G00014: בֵּית זַבְדִּין — multi-word form; the space is its only non-lexical character
+- G00188: זומי ליסטרא — multi-word form; the space is its only non-lexical character
+- G00188: זומי לסטרון — multi-word form; the space is its only non-lexical character
+- G00325: בַּר זִיזָא — multi-word form; the space is its only non-lexical character
 - G00374: (זִימְרָא — grammar did not parse
-- H00065: חֲבֵיל יַמָּא — text carries characters outside the lexical set
-- H00181: בית חֲדוּדוּ — text carries characters outside the lexical set
-- H01614: כפר חֲרוּבָא — text carries characters outside the lexical set
-- H01657: חַר חַר — text carries characters outside the lexical set
-- H00247: בַּר׳ ח׳ — text carries characters outside the lexical set
-- H00285: בֵּי חוֹזָאֵי — text carries characters outside the lexical set
-- H00379: חוֹמֶס סוּבְנִי — text carries characters outside the lexical set
-- H00464: בֵּית חוֹרוֹן — text carries characters outside the lexical set
-- H00535: כְּפַר חֲזִיז — text carries characters outside the lexical set
-- H00622: כפר חטיאה — text carries characters outside the lexical set
-- H00632: כפר חִטַּיָּיה — text carries characters outside the lexical set
-- H00711: כְּפַר חִיטַּיָּיא — text carries characters outside the lexical set
-- I00020: עֵין טַב — text carries characters outside the lexical set
-- I00049: כְּפַר טָבִי — text carries characters outside the lexical set
-- I00137: טַוְורוֹס אוּמָנוֹס — text carries characters outside the lexical set
-- I00212: בקעת בית טוֹפֶת — text carries characters outside the lexical set
-- I00241: טוּרְנוֹס רופוס — text carries characters outside the lexical set
-- I00353: טַיְיפָה סַמּוֹקָה — text carries characters outside the lexical set
-- I00535: טמו ביריא — text carries characters outside the lexical set
-- I00568: טַן דּוּ — text carries characters outside the lexical set
-- I00722: נחל טַרְוַויָּא — text carries characters outside the lexical set
-- I00789: טְרִיָיא קוֹנְטָא — text carries characters outside the lexical set
-- H00843: בֵּית חֵיפָה — text carries characters outside the lexical set
-- H00880: בַּר חִירְיָא — text carries characters outside the lexical set
-- H01065: חֲלִי קוּפְרִי — text carries characters outside the lexical set
+- H00065: חֲבֵיל יַמָּא — multi-word form; the space is its only non-lexical character
+- H00181: בית חֲדוּדוּ — multi-word form; the space is its only non-lexical character
+- H01614: כפר חֲרוּבָא — multi-word form; the space is its only non-lexical character
+- H01657: חַר חַר — multi-word form; the space is its only non-lexical character
+- H00247: בַּר׳ ח׳ — multi-word form; the space is its only non-lexical character
+- H00285: בֵּי חוֹזָאֵי — multi-word form; the space is its only non-lexical character
+- H00379: חוֹמֶס סוּבְנִי — multi-word form; the space is its only non-lexical character
+- H00464: בֵּית חוֹרוֹן — multi-word form; the space is its only non-lexical character
+- H00535: כְּפַר חֲזִיז — multi-word form; the space is its only non-lexical character
+- H00622: כפר חטיאה — multi-word form; the space is its only non-lexical character
+- H00632: כפר חִטַּיָּיה — multi-word form; the space is its only non-lexical character
+- H00711: כְּפַר חִיטַּיָּיא — multi-word form; the space is its only non-lexical character
+- I00020: עֵין טַב — multi-word form; the space is its only non-lexical character
+- I00049: כְּפַר טָבִי — multi-word form; the space is its only non-lexical character
+- I00137: טַוְורוֹס אוּמָנוֹס — multi-word form; the space is its only non-lexical character
+- I00212: בקעת בית טוֹפֶת — multi-word form; the space is its only non-lexical character
+- I00241: טוּרְנוֹס רופוס — multi-word form; the space is its only non-lexical character
+- I00353: טַיְיפָה סַמּוֹקָה — multi-word form; the space is its only non-lexical character
+- I00535: טמו ביריא — multi-word form; the space is its only non-lexical character
+- I00568: טַן דּוּ — multi-word form; the space is its only non-lexical character
+- I00722: נחל טַרְוַויָּא — multi-word form; the space is its only non-lexical character
+- I00789: טְרִיָיא קוֹנְטָא — multi-word form; the space is its only non-lexical character
+- H00843: בֵּית חֵיפָה — multi-word form; the space is its only non-lexical character
+- H00880: בַּר חִירְיָא — multi-word form; the space is its only non-lexical character
+- H01065: חֲלִי קוּפְרִי — multi-word form; the space is its only non-lexical character
 - G00675: זָרָה  I, II — grammar did not parse
-- G00676: מֶלַח דְּזַרְוַאי — text carries characters outside the lexical set
-- K00392: אולו כורסון — text carries characters outside the lexical set
-- K00392: אולון כורסון — text carries characters outside the lexical set
-- K00606: בֵּי כֵּיפֵי — text carries characters outside the lexical set
-- K00629: כִּירַיָּא דבית סכל — text carries characters outside the lexical set
-- K00699: בֵּי כְּלוּחִית — text carries characters outside the lexical set
+- G00676: מֶלַח דְּזַרְוַאי — multi-word form; the space is its only non-lexical character
+- K00392: אולו כורסון — multi-word form; the space is its only non-lexical character
+- K00392: אולון כורסון — multi-word form; the space is its only non-lexical character
+- K00606: בֵּי כֵּיפֵי — multi-word form; the space is its only non-lexical character
+- K00629: כִּירַיָּא דבית סכל — multi-word form; the space is its only non-lexical character
+- K00699: בֵּי כְּלוּחִית — multi-word form; the space is its only non-lexical character
 - K00798: … יהִים — grammar did not parse
 - K00798: … יהִין — grammar did not parse
-- K00851: כַּנְיָא פַּרְוָוא — text carries characters outside the lexical set
-- M01181: מילי מילה — text carries characters outside the lexical set
-- M01234: מִינְקַת חִיוְיָא — text carries characters outside the lexical set
-- M01299: מִירִי מִירְיָאדִין — text carries characters outside the lexical set
-- M01502: בֵּית מִלְוָון — text carries characters outside the lexical set
-- M01528: מִגְּדַּל מַלְחָא — text carries characters outside the lexical set
-- M01713: כְּפַר מַנְדּוּ — text carries characters outside the lexical set
-- M01752: כפר מנורי — text carries characters outside the lexical set
-- M01768: אֲרַע מִנִּי — text carries characters outside the lexical set
-- J00171: ארכי יודקו — text carries characters outside the lexical set
-- J00184: בַּר יוֹכָנִי — text carries characters outside the lexical set
-- J00253: כִּי יוּתָּן — text carries characters outside the lexical set
+- K00851: כַּנְיָא פַּרְוָוא — multi-word form; the space is its only non-lexical character
+- M01181: מילי מילה — multi-word form; the space is its only non-lexical character
+- M01234: מִינְקַת חִיוְיָא — multi-word form; the space is its only non-lexical character
+- M01299: מִירִי מִירְיָאדִין — multi-word form; the space is its only non-lexical character
+- M01502: בֵּית מִלְוָון — multi-word form; the space is its only non-lexical character
+- M01528: מִגְּדַּל מַלְחָא — multi-word form; the space is its only non-lexical character
+- M01713: כְּפַר מַנְדּוּ — multi-word form; the space is its only non-lexical character
+- M01752: כפר מנורי — multi-word form; the space is its only non-lexical character
+- M01768: אֲרַע מִנִּי — multi-word form; the space is its only non-lexical character
+- J00171: ארכי יודקו — multi-word form; the space is its only non-lexical character
+- J00184: בַּר יוֹכָנִי — multi-word form; the space is its only non-lexical character
+- J00253: כִּי יוּתָּן — multi-word form; the space is its only non-lexical character
 - J00288: … דַי — grammar did not parse
-- J00432: מַר יָנוּקָא — text carries characters outside the lexical set
-- J00463: יַיַסֵּי חֳלִי — text carries characters outside the lexical set
-- J00464: יסיח לי — text carries characters outside the lexical set
-- J00691: בַּר יְשִׁיטָא — text carries characters outside the lexical set
-- K00013: כְּאֵי צַד — text carries characters outside the lexical set
-- K00107: כִּדְ׳ כַּדְבוּבָא — text carries characters outside the lexical set
-- K00115: עינבין דכדום — text carries characters outside the lexical set
-- K01170: כְּרִיסוֹ אַרְגִּירָא — text carries characters outside the lexical set
-- L00104: עַרְקַת לִבְנָה — text carries characters outside the lexical set
-- L00210: לוודין דקין — text carries characters outside the lexical set
-- L00253: בר לִוְיָאנוֹס — text carries characters outside the lexical set
-- L00306: בר לוּפְיָינִי — text carries characters outside the lexical set
+- J00432: מַר יָנוּקָא — multi-word form; the space is its only non-lexical character
+- J00463: יַיַסֵּי חֳלִי — multi-word form; the space is its only non-lexical character
+- J00464: יסיח לי — multi-word form; the space is its only non-lexical character
+- J00691: בַּר יְשִׁיטָא — multi-word form; the space is its only non-lexical character
+- K00013: כְּאֵי צַד — multi-word form; the space is its only non-lexical character
+- K00107: כִּדְ׳ כַּדְבוּבָא — multi-word form; the space is its only non-lexical character
+- K00115: עינבין דכדום — multi-word form; the space is its only non-lexical character
+- K01170: כְּרִיסוֹ אַרְגִּירָא — multi-word form; the space is its only non-lexical character
+- L00104: עַרְקַת לִבְנָה — multi-word form; the space is its only non-lexical character
+- L00210: לוודין דקין — multi-word form; the space is its only non-lexical character
+- L00253: בר לִוְיָאנוֹס — multi-word form; the space is its only non-lexical character
+- L00306: בר לוּפְיָינִי — multi-word form; the space is its only non-lexical character
 - L00587: (לִסְטֵם — grammar did not parse
-- M02141: מַעֲלַת מְרָא — text carries characters outside the lexical set
-- M02276: פִּי מְצוּבָה — text carries characters outside the lexical set
-- M02405: בֶּן מְקוֹשֵׁשׁ — text carries characters outside the lexical set
-- M02595: בֵּית מָרוֹן — text carries characters outside the lexical set
-- M02894: בֵּי מְשָׁכָא — text carries characters outside the lexical set
-- M00263: מַדְוֵי חיוורא — text carries characters outside the lexical set
+- M02141: מַעֲלַת מְרָא — multi-word form; the space is its only non-lexical character
+- M02276: פִּי מְצוּבָה — multi-word form; the space is its only non-lexical character
+- M02405: בֶּן מְקוֹשֵׁשׁ — multi-word form; the space is its only non-lexical character
+- M02595: בֵּית מָרוֹן — multi-word form; the space is its only non-lexical character
+- M02894: בֵּי מְשָׁכָא — multi-word form; the space is its only non-lexical character
+- M00263: מַדְוֵי חיוורא — multi-word form; the space is its only non-lexical character
 - M00297: … תָּה — grammar did not parse
-- M00643: הַר הַמּ׳ — text carries characters outside the lexical set
-- M00646: שׁוּבְלַיָּיא מוֹרַיָּיא — text carries characters outside the lexical set
-- M00687: כְּרַךְ מוֹשְׁכִּי — text carries characters outside the lexical set
-- M00720: מָזְגָּא חַמְרָא — text carries characters outside the lexical set
-- M00910: מָתָא מְחַסְיָא — text carries characters outside the lexical set
-- M00943: מְחַרְתָּא דְיַתִּיר — text carries characters outside the lexical set
+- M00643: הַר הַמּ׳ — multi-word form; the space is its only non-lexical character
+- M00646: שׁוּבְלַיָּיא מוֹרַיָּיא — multi-word form; the space is its only non-lexical character
+- M00687: כְּרַךְ מוֹשְׁכִּי — multi-word form; the space is its only non-lexical character
+- M00720: מָזְגָּא חַמְרָא — multi-word form; the space is its only non-lexical character
+- M00910: מָתָא מְחַסְיָא — multi-word form; the space is its only non-lexical character
+- M00943: מְחַרְתָּא דְיַתִּיר — multi-word form; the space is its only non-lexical character
 - M00997: … סָה — grammar did not parse
-- N00057: נִבּוּר חַיִל — text carries characters outside the lexical set
-- N00058: כְּפַר נִבּוּרַיָּא — text carries characters outside the lexical set
-- N00496: נחיתי ימא — text carries characters outside the lexical set
-- N00541: בַּר נָטוֹזָא — text carries characters outside the lexical set
-- N00701: הַר נִיסַּאי — text carries characters outside the lexical set
-- N00755: בַּר נִיצוֹר — text carries characters outside the lexical set
-- N00811: פַּרְעֹה נְכֹה — text carries characters outside the lexical set
-- N00892: בֵּית נִמְרָה — text carries characters outside the lexical set
-- O00564: כְּפַר סִיגְנָא — text carries characters outside the lexical set
-- O00695: סִימוּנָא דְאַגְמָא — text carries characters outside the lexical set
-- O00713: הַר סִימָנַאי — text carries characters outside the lexical set
-- O00746: כְּפַר סִיסַאי — text carries characters outside the lexical set
-- O00852: בִּירַת סִירִיקָא — text carries characters outside the lexical set
-- O00889: סֻכּוֹת בְּנוֹת — text carries characters outside the lexical set
-- O00968: בֵּית סַלּוּנִי — text carries characters outside the lexical set
-- O01072: אַבָּא סִמּוּקְיָד — text carries characters outside the lexical set
-- O01089: כפר סמיי — text carries characters outside the lexical set
-- O01232: בַּר סַנִּיגוֹרָא — text carries characters outside the lexical set
-- O01341: כְּפַר סִפּוּרַיָּיא — text carries characters outside the lexical set
-- O01509: סָר אָפִיס — text carries characters outside the lexical set
-- N00928: אתא נסיא — text carries characters outside the lexical set
-- N01061: בַּר נִפְלֵי — text carries characters outside the lexical set
+- N00057: נִבּוּר חַיִל — multi-word form; the space is its only non-lexical character
+- N00058: כְּפַר נִבּוּרַיָּא — multi-word form; the space is its only non-lexical character
+- N00496: נחיתי ימא — multi-word form; the space is its only non-lexical character
+- N00541: בַּר נָטוֹזָא — multi-word form; the space is its only non-lexical character
+- N00701: הַר נִיסַּאי — multi-word form; the space is its only non-lexical character
+- N00755: בַּר נִיצוֹר — multi-word form; the space is its only non-lexical character
+- N00811: פַּרְעֹה נְכֹה — multi-word form; the space is its only non-lexical character
+- N00892: בֵּית נִמְרָה — multi-word form; the space is its only non-lexical character
+- O00564: כְּפַר סִיגְנָא — multi-word form; the space is its only non-lexical character
+- O00695: סִימוּנָא דְאַגְמָא — multi-word form; the space is its only non-lexical character
+- O00713: הַר סִימָנַאי — multi-word form; the space is its only non-lexical character
+- O00746: כְּפַר סִיסַאי — multi-word form; the space is its only non-lexical character
+- O00852: בִּירַת סִירִיקָא — multi-word form; the space is its only non-lexical character
+- O00889: סֻכּוֹת בְּנוֹת — multi-word form; the space is its only non-lexical character
+- O00968: בֵּית סַלּוּנִי — multi-word form; the space is its only non-lexical character
+- O01072: אַבָּא סִמּוּקְיָד — multi-word form; the space is its only non-lexical character
+- O01089: כפר סמיי — multi-word form; the space is its only non-lexical character
+- O01232: בַּר סַנִּיגוֹרָא — multi-word form; the space is its only non-lexical character
+- O01341: כְּפַר סִפּוּרַיָּיא — multi-word form; the space is its only non-lexical character
+- O01509: סָר אָפִיס — multi-word form; the space is its only non-lexical character
+- N00928: אתא נסיא — multi-word form; the space is its only non-lexical character
+- N01061: בַּר נִפְלֵי — multi-word form; the space is its only non-lexical character
 - N01089: … יָיה — grammar did not parse
-- N01154: נקאני קא — text carries characters outside the lexical set
-- N01211: בֵּית נְקִיפֵי — text carries characters outside the lexical set
-- N01212: נְקִיפְתָּא דְעִיּוֹן — text carries characters outside the lexical set
-- O00302: סוּכּוֹת בְּנוֹת — text carries characters outside the lexical set
-- O00308: עֵין סוֹכֵר — text carries characters outside the lexical set
+- N01154: נקאני קא — multi-word form; the space is its only non-lexical character
+- N01211: בֵּית נְקִיפֵי — multi-word form; the space is its only non-lexical character
+- N01212: נְקִיפְתָּא דְעִיּוֹן — multi-word form; the space is its only non-lexical character
+- O00302: סוּכּוֹת בְּנוֹת — multi-word form; the space is its only non-lexical character
+- O00308: עֵין סוֹכֵר — multi-word form; the space is its only non-lexical character
 - O00394: … טָה — grammar did not parse
-- O01626: בִּירַת סָרִיקָא — text carries characters outside the lexical set
-- O01669: סרק אני — text carries characters outside the lexical set
-- P00137: עָ׳ עַדְיָא — text carries characters outside the lexical set
+- O01626: בִּירַת סָרִיקָא — multi-word form; the space is its only non-lexical character
+- O01669: סרק אני — multi-word form; the space is its only non-lexical character
+- P00137: עָ׳ עַדְיָא — multi-word form; the space is its only non-lexical character
 - P00223: (עוּזְרָד — grammar did not parse
 - P00224: (עוּזְרָד ² — grammar did not parse
-- P00353: בֵּי עוֹרַבְתִּי — text carries characters outside the lexical set
-- P00381: כְּפַר עַוְתָנַאי — text carries characters outside the lexical set
-- P00553: עַיְינֵי טַב — text carries characters outside the lexical set
-- P00563: כְּפַר עִיכּוּם — text carries characters outside the lexical set
-- Q00248: פּוּם בְּדִיתָא — text carries characters outside the lexical set
-- Q00326: בני פוקרים — text carries characters outside the lexical set
+- P00353: בֵּי עוֹרַבְתִּי — multi-word form; the space is its only non-lexical character
+- P00381: כְּפַר עַוְתָנַאי — multi-word form; the space is its only non-lexical character
+- P00553: עַיְינֵי טַב — multi-word form; the space is its only non-lexical character
+- P00563: כְּפַר עִיכּוּם — multi-word form; the space is its only non-lexical character
+- Q00248: פּוּם בְּדִיתָא — multi-word form; the space is its only non-lexical character
+- Q00326: בני פוקרים — multi-word form; the space is its only non-lexical character
 - Q00370: (פורסישמנג — grammar did not parse
-- Q00436: פז״ר קש״ב — text carries characters outside the lexical set
-- Q00494: בַּר פַּטָּא — text carries characters outside the lexical set
-- Q00650: בַּר פְּיָילִי — text carries characters outside the lexical set
-- Q00697: פיליא ביארי — text carries characters outside the lexical set
-- Q00798: בר פִּיקָא — text carries characters outside the lexical set
-- Q00980: פלומי פילון — text carries characters outside the lexical set
-- Q01039: פַּלְיָא בֵיאָרִי — text carries characters outside the lexical set
-- Q01044: טוּרָא פְּלִיגָא — text carries characters outside the lexical set
-- R00066: מַגְדַּל צַבָּעַיָּא — text carries characters outside the lexical set
-- R00066: מַגְדְּלָא דצַבָּעַיָּא — text carries characters outside the lexical set
-- Q01335: בִּקְעַת פַּסְלָן — text carries characters outside the lexical set
-- Q01377: בַּעַל פְּעוֹר — text carries characters outside the lexical set
-- Q01399: נְהַר פּ׳ — text carries characters outside the lexical set
-- R00193: בֵּית צוּלָאֵי — text carries characters outside the lexical set
-- Q01492: כְּפַר פְּקִיעִין — text carries characters outside the lexical set
-- Q01751: טַוַּור פַּרְזְלָא — text carries characters outside the lexical set
-- R00478: בֵּית צַלָּאֵי — text carries characters outside the lexical set
-- P00869: בְּנֵי עַמּוֹן — text carries characters outside the lexical set
-- P00890: כְּפַר עֲמִיקוּ — text carries characters outside the lexical set
-- P00983: עֲנִיָּה עֲנָתוֹת — text carries characters outside the lexical set
-- P00991: כפר ענים — text carries characters outside the lexical set
-- P01166: בֶּן עָקוֹשׁ — text carries characters outside the lexical set
-- P01452: עַרְקַת לִבְנָה — text carries characters outside the lexical set
-- P01520: בַּר עַשְׁתּוֹר — text carries characters outside the lexical set
-- Q00005: בֵּית פָּאגֵי — text carries characters outside the lexical set
-- Q00053: בֵּית פַּגֵּי — text carries characters outside the lexical set
-- Q00099: כְּפַר פַּגָּשׁ — text carries characters outside the lexical set
-- Q00127: קָקוֹ פְּדִיפְטֵי — text carries characters outside the lexical set
-- R00569: כְּפַר צֶמַח — text carries characters outside the lexical set
-- R00577: צַמְיָיא קַיְיטָא — text carries characters outside the lexical set
-- R00593: צמר מורייה — text carries characters outside the lexical set
-- R00593: צמר מורין — text carries characters outside the lexical set
-- R00738: רוּחַ צְרָדָא — text carries characters outside the lexical set
+- Q00436: פז״ר קש״ב — multi-word form; the space is its only non-lexical character
+- Q00494: בַּר פַּטָּא — multi-word form; the space is its only non-lexical character
+- Q00650: בַּר פְּיָילִי — multi-word form; the space is its only non-lexical character
+- Q00697: פיליא ביארי — multi-word form; the space is its only non-lexical character
+- Q00798: בר פִּיקָא — multi-word form; the space is its only non-lexical character
+- Q00980: פלומי פילון — multi-word form; the space is its only non-lexical character
+- Q01039: פַּלְיָא בֵיאָרִי — multi-word form; the space is its only non-lexical character
+- Q01044: טוּרָא פְּלִיגָא — multi-word form; the space is its only non-lexical character
+- R00066: מַגְדַּל צַבָּעַיָּא — multi-word form; the space is its only non-lexical character
+- R00066: מַגְדְּלָא דצַבָּעַיָּא — multi-word form; the space is its only non-lexical character
+- Q01335: בִּקְעַת פַּסְלָן — multi-word form; the space is its only non-lexical character
+- Q01377: בַּעַל פְּעוֹר — multi-word form; the space is its only non-lexical character
+- Q01399: נְהַר פּ׳ — multi-word form; the space is its only non-lexical character
+- R00193: בֵּית צוּלָאֵי — multi-word form; the space is its only non-lexical character
+- Q01492: כְּפַר פְּקִיעִין — multi-word form; the space is its only non-lexical character
+- Q01751: טַוַּור פַּרְזְלָא — multi-word form; the space is its only non-lexical character
+- R00478: בֵּית צַלָּאֵי — multi-word form; the space is its only non-lexical character
+- P00869: בְּנֵי עַמּוֹן — multi-word form; the space is its only non-lexical character
+- P00890: כְּפַר עֲמִיקוּ — multi-word form; the space is its only non-lexical character
+- P00983: עֲנִיָּה עֲנָתוֹת — multi-word form; the space is its only non-lexical character
+- P00991: כפר ענים — multi-word form; the space is its only non-lexical character
+- P01166: בֶּן עָקוֹשׁ — multi-word form; the space is its only non-lexical character
+- P01452: עַרְקַת לִבְנָה — multi-word form; the space is its only non-lexical character
+- P01520: בַּר עַשְׁתּוֹר — multi-word form; the space is its only non-lexical character
+- Q00005: בֵּית פָּאגֵי — multi-word form; the space is its only non-lexical character
+- Q00053: בֵּית פַּגֵּי — multi-word form; the space is its only non-lexical character
+- Q00099: כְּפַר פַּגָּשׁ — multi-word form; the space is its only non-lexical character
+- Q00127: קָקוֹ פְּדִיפְטֵי — multi-word form; the space is its only non-lexical character
+- R00569: כְּפַר צֶמַח — multi-word form; the space is its only non-lexical character
+- R00577: צַמְיָיא קַיְיטָא — multi-word form; the space is its only non-lexical character
+- R00593: צמר מורייה — multi-word form; the space is its only non-lexical character
+- R00593: צמר מורין — multi-word form; the space is its only non-lexical character
+- R00738: רוּחַ צְרָדָא — multi-word form; the space is its only non-lexical character
 - S00099: (קְבַרְיָא) — grammar did not parse
-- S00197: קַדַשׁ נוּנָא — text carries characters outside the lexical set
-- S00237: קוֹבְעַיָּא דְעַיְיתָא — text carries characters outside the lexical set
-- S00350: קולמז מסיא — text carries characters outside the lexical set
-- S00352: קולמן מסיא — text carries characters outside the lexical set
+- S00197: קַדַשׁ נוּנָא — multi-word form; the space is its only non-lexical character
+- S00237: קוֹבְעַיָּא דְעַיְיתָא — multi-word form; the space is its only non-lexical character
+- S00350: קולמז מסיא — multi-word form; the space is its only non-lexical character
+- S00352: קולמן מסיא — multi-word form; the space is its only non-lexical character
 - S00469: ק … טִינֵי — grammar did not parse
-- S00493: בֵּי קוּפָּאֵי — text carries characters outside the lexical set
-- S00493: בֵּית קוּפָּאֵי — text carries characters outside the lexical set
-- S00675: בֵּית קוֹשֵׁשׁ — text carries characters outside the lexical set
-- S00728: כל קטורין — text carries characters outside the lexical set
-- S00900: בֶּן קִיטּוּנְתָּא — text carries characters outside the lexical set
-- T00399: כְּרַךְ רוּמְקִי — text carries characters outside the lexical set
-- S01770: בַּר קַפָּרָא — text carries characters outside the lexical set
-- S01777: קָץ שֶׁקֶר — text carries characters outside the lexical set
-- S01862: קָקוֹ פדיפטי — text carries characters outside the lexical set
-- T00566: פּוּנְדְּקָא רְ׳ — text carries characters outside the lexical set
-- S01914: בַּר קַרְדִּימָא — text carries characters outside the lexical set
-- T00781: רָם בָּרִין — text carries characters outside the lexical set
-- T00782: כִּירִי רָם — text carries characters outside the lexical set
-- S01237: קְלָא אִילָּן — text carries characters outside the lexical set
-- S01238: קלא פנדר — text carries characters outside the lexical set
-- S01240: קְלָא אִילָּן — text carries characters outside the lexical set
+- S00493: בֵּי קוּפָּאֵי — multi-word form; the space is its only non-lexical character
+- S00493: בֵּית קוּפָּאֵי — multi-word form; the space is its only non-lexical character
+- S00675: בֵּית קוֹשֵׁשׁ — multi-word form; the space is its only non-lexical character
+- S00728: כל קטורין — multi-word form; the space is its only non-lexical character
+- S00900: בֶּן קִיטּוּנְתָּא — multi-word form; the space is its only non-lexical character
+- T00399: כְּרַךְ רוּמְקִי — multi-word form; the space is its only non-lexical character
+- S01770: בַּר קַפָּרָא — multi-word form; the space is its only non-lexical character
+- S01777: קָץ שֶׁקֶר — multi-word form; the space is its only non-lexical character
+- S01862: קָקוֹ פדיפטי — multi-word form; the space is its only non-lexical character
+- T00566: פּוּנְדְּקָא רְ׳ — multi-word form; the space is its only non-lexical character
+- S01914: בַּר קַרְדִּימָא — multi-word form; the space is its only non-lexical character
+- T00781: רָם בָּרִין — multi-word form; the space is its only non-lexical character
+- T00782: כִּירִי רָם — multi-word form; the space is its only non-lexical character
+- S01237: קְלָא אִילָּן — multi-word form; the space is its only non-lexical character
+- S01238: קלא פנדר — multi-word form; the space is its only non-lexical character
+- S01240: קְלָא אִילָּן — multi-word form; the space is its only non-lexical character
 - S01421: (קַלְקַנְתּוּם — grammar did not parse
-- S01467: קָמֵי שָׂפָה — text carries characters outside the lexical set
-- S01492: בֶּן קַמְצָר — text carries characters outside the lexical set
-- S01585: עֲלֵי קַנְיָיה — text carries characters outside the lexical set
+- S01467: קָמֵי שָׂפָה — multi-word form; the space is its only non-lexical character
+- S01492: בֶּן קַמְצָר — multi-word form; the space is its only non-lexical character
+- S01585: עֲלֵי קַנְיָיה — multi-word form; the space is its only non-lexical character
 - S01624: (קנתור) — grammar did not parse
-- U00036: בר שאן — text carries characters outside the lexical set
-- U00037: בֵּית שְׁאָן — text carries characters outside the lexical set
-- S02058: כְּפַר קִרְיָינוֹס — text carries characters outside the lexical set
-- S02108: כְּפַר קַרְנַיִם — text carries characters outside the lexical set
-- U00378: שׁוֹט מִישׁוֹט — text carries characters outside the lexical set
-- U00513: בֵּית שׁוּפְרֵי — text carries characters outside the lexical set
-- U00682: צִפַּר שַׁחְפָּא — text carries characters outside the lexical set
-- U01905: מִגְדַּל שׁ׳ — text carries characters outside the lexical set
-- U01971: בֵּי שַׁרְיֵי — text carries characters outside the lexical set
-- U01977: יַמָּא דשִׁרְיַית — text carries characters outside the lexical set
-- V00085: בֶּן תַּגְלָא — text carries characters outside the lexical set
-- V00112: בֶּן תַּדָּל — text carries characters outside the lexical set
-- V00190: בַּר תּוּטָנִי — text carries characters outside the lexical set
-- V00321: בֶּן תּוֹרְתָּא — text carries characters outside the lexical set
-- V00322: בֵּי תּוֹרָתָא — text carries characters outside the lexical set
-- V00379: כְּפַר תַּחֲמִין — text carries characters outside the lexical set
-- V00566: תְּלָא אִילָּן — text carries characters outside the lexical set
-- U00868: כְּפַר שִׁיחַיָּא — text carries characters outside the lexical set
-- U01135: שְׂכוֹר בִּזָּאֵי — text carries characters outside the lexical set
-- U01196: שַׁל צִיּוֹן — text carries characters outside the lexical set
-- U01257: שְׁלוֹף דּוֹץ — text carries characters outside the lexical set
-- U01385: בֶּן שַׁלְקוּת — text carries characters outside the lexical set
-- U01649: שעטנ״ז ג״ץ — text carries characters outside the lexical set
-- U01693: בֵּית שְׁעָרִים — text carries characters outside the lexical set
-- V00611: בַּר תְּלַמְיוֹן — text carries characters outside the lexical set
-- V00690: בֶּן תְּמַלְיוֹן — text carries characters outside the lexical set
-- V00853: בַּר תַּפְקָן — text carries characters outside the lexical set
-- V00924: בֵּי תַ׳ — text carries characters outside the lexical set
-- V01120: אין תתיה — text carries characters outside the lexical set
+- U00036: בר שאן — multi-word form; the space is its only non-lexical character
+- U00037: בֵּית שְׁאָן — multi-word form; the space is its only non-lexical character
+- S02058: כְּפַר קִרְיָינוֹס — multi-word form; the space is its only non-lexical character
+- S02108: כְּפַר קַרְנַיִם — multi-word form; the space is its only non-lexical character
+- U00378: שׁוֹט מִישׁוֹט — multi-word form; the space is its only non-lexical character
+- U00513: בֵּית שׁוּפְרֵי — multi-word form; the space is its only non-lexical character
+- U00682: צִפַּר שַׁחְפָּא — multi-word form; the space is its only non-lexical character
+- U01905: מִגְדַּל שׁ׳ — multi-word form; the space is its only non-lexical character
+- U01971: בֵּי שַׁרְיֵי — multi-word form; the space is its only non-lexical character
+- U01977: יַמָּא דשִׁרְיַית — multi-word form; the space is its only non-lexical character
+- V00085: בֶּן תַּגְלָא — multi-word form; the space is its only non-lexical character
+- V00112: בֶּן תַּדָּל — multi-word form; the space is its only non-lexical character
+- V00190: בַּר תּוּטָנִי — multi-word form; the space is its only non-lexical character
+- V00321: בֶּן תּוֹרְתָּא — multi-word form; the space is its only non-lexical character
+- V00322: בֵּי תּוֹרָתָא — multi-word form; the space is its only non-lexical character
+- V00379: כְּפַר תַּחֲמִין — multi-word form; the space is its only non-lexical character
+- V00566: תְּלָא אִילָּן — multi-word form; the space is its only non-lexical character
+- U00868: כְּפַר שִׁיחַיָּא — multi-word form; the space is its only non-lexical character
+- U01135: שְׂכוֹר בִּזָּאֵי — multi-word form; the space is its only non-lexical character
+- U01196: שַׁל צִיּוֹן — multi-word form; the space is its only non-lexical character
+- U01257: שְׁלוֹף דּוֹץ — multi-word form; the space is its only non-lexical character
+- U01385: בֶּן שַׁלְקוּת — multi-word form; the space is its only non-lexical character
+- U01649: שעטנ״ז ג״ץ — multi-word form; the space is its only non-lexical character
+- U01693: בֵּית שְׁעָרִים — multi-word form; the space is its only non-lexical character
+- V00611: בַּר תְּלַמְיוֹן — multi-word form; the space is its only non-lexical character
+- V00690: בֶּן תְּמַלְיוֹן — multi-word form; the space is its only non-lexical character
+- V00853: בַּר תַּפְקָן — multi-word form; the space is its only non-lexical character
+- V00924: בֵּי תַ׳ — multi-word form; the space is its only non-lexical character
+- V01120: אין תתיה — multi-word form; the space is its only non-lexical character
 
 ## Markup carried across unit boundaries
 

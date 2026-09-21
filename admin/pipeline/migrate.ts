@@ -59,6 +59,7 @@ import {
 	writeReport,
 } from './migrate/report.ts';
 import {
+	loadUndetectedClasses,
 	REVIEW_REPORT_PATH,
 	renderReviewReport,
 } from './migrate/review-report.ts';
@@ -494,9 +495,10 @@ function finishAll(
 		// same `finished.entry`, would fail on every respelled headword.
 		const finished = finishEntry(c.entry, c.body, indexes);
 		report.rows.push(
-			...finished.headwordReview.map((line) =>
-				lineRow(line, 'headword-unparsed'),
-			),
+			// The kind comes from the detector, not from this call site:
+			// `reviewReason` already decided whether the form is a real
+			// failure or a legitimate multi-word one.
+			...finished.headwordReview.map((r) => lineRow(r.line, r.kind)),
 			...finished.markupCarries.map((line) => lineRow(line, 'markup-carry')),
 			...finished.problems.map((line) =>
 				lineRow(line, 'finish-failed', 'pipeline', 'fault'),
@@ -702,7 +704,13 @@ async function main(): Promise<void> {
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
-	await Bun.write(REVIEW_REPORT_PATH, `${renderReviewReport(report)}\n`);
+	// Read from the catalogue, not from the run: these classes have no
+	// detector, so no row of this report can stand for them.
+	const catalogued = await loadUndetectedClasses();
+	await Bun.write(
+		REVIEW_REPORT_PATH,
+		`${renderReviewReport(report, catalogued)}\n`,
+	);
 	// Read off what the run did, not the constant: only a regenerating
 	// run returns an index to write.
 	printGates(
