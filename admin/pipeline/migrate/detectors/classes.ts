@@ -58,4 +58,4 @@ function detectClasses(entry: TruthEntry): ReportRow[] {
 	);
 }
 
-export { CLASS_DETECTORS, DETECTED_CLASSES, detectClasses };
+export { DETECTED_CLASSES, detectClasses };

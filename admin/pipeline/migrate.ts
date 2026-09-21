@@ -723,8 +723,10 @@ async function main(): Promise<void> {
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
-	// Read from the catalogue, not from the run: these classes have no
-	// detector, so no row of this report can stand for them.
+	// Read from the catalogue, not from the run: what comes back is
+	// what no registered detector can see, so no row of this report can
+	// stand for it. A class a detector answers is subtracted here and
+	// appears above as rows of its own kind.
 	const catalogued = await loadUndetectedClasses();
 	await Bun.write(
 		REVIEW_REPORT_PATH,

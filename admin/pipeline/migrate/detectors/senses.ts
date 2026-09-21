@@ -40,7 +40,11 @@ function* walkSenses(entry: TruthEntry): Generator<SenseAt> {
  * path a row names. */
 function* fieldsOf({ path, sense }: SenseAt): Generator<[string, string]> {
 	yield [`${path}.gloss`, sense.gloss];
-	for (const [j, unit] of sense.units.entries()) {
+	// `?? []` although the type says otherwise: `entry.schema.json`
+	// requires only `gloss` of a sense, so a schema-valid file read off
+	// disk can arrive without `units` and would throw here. `validate.ts`
+	// guards the same field for the same reason.
+	for (const [j, unit] of (sense.units ?? []).entries()) {
 		yield [`${path}.units[${j}]`, unit];
 	}
 }
