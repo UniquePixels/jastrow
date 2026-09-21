@@ -4,16 +4,22 @@ Thank you for your interest in contributing!
 
 ## Getting Started
 
-### Size policy for data PRs
+`v2` is the overhaul branch and holds the data pipeline; the public app
+and the admin tool have not been written for it yet. Start with
+[`admin/pipeline/README.md`](admin/pipeline/README.md) and
+[`docs/glossary.md`](docs/glossary.md).
+
+### Contributing Data
+
+Entry data under `data/entries/` is produced by the import
+(`bun data:import`), not edited by hand in a PR. If you have found an
+error in an entry, open a **Data correction** issue with the source
+citation rather than a pull request — the correction is applied through
+the pipeline so the run stays reproducible.
 
 Each entry is one dense line of scholarship, so review is careful and
-slow. To keep PRs reviewable:
-
-- **One topic per PR.** Aim for **≤ ~25–50 changed entries**.
-- For larger corrections, **open an issue first** to coordinate.
-- CI fails a `data/**` PR that changes **more than 300 lines** — a guard
-  against accidental whole-file reserialization. For a genuine bulk
-  correction, a maintainer applies the `bulk-data-ok` label to override.
+slow: **one topic per PR**, and for anything larger open an issue first
+to coordinate.
 
 ## Use of AI Tools
 
@@ -45,7 +51,7 @@ tasks — e.g. tagging defined acronyms for tooltips, normalizing a named
 field. It is **not** acceptable to have AI rewrite or rephrase entry
 definitions: this is Jastrow's scholarship, and hallucinated or "improved"
 content is unacceptable. Every AI-touched data change must be verified
-against the source, and the data size policy above still applies.
+against the source, and the data rules above still apply.
 
 Your DCO sign-off (below) attests that you stand behind the change —
 including AI-assisted work.
@@ -64,10 +70,10 @@ All commits must include a sign-off line (`git commit -s`).
 
 ## Code Style
 
-- Vanilla JavaScript — no frameworks or bundlers
+- TypeScript on Bun, no bundler
 - Biome handles linting and formatting (`bun qa:lint`, `bun qa:format`)
 - Tabs for indentation, single quotes for strings
-- No `var` — use `const` and `let`
+- Run `bun qa` before every commit — format, lint, unit tests, `tsc`
 
 ## Tests
 
@@ -97,8 +103,8 @@ build otherwise. An example built from real entries belongs in a
 
 ## Accessibility
 
-UI changes must meet **WCAG 2.1 AA** before opening a PR that touches
-the interface — especially keyboard operability and focus management,
+There is no v2 interface yet. When one exists, UI changes must meet
+**WCAG 2.1 AA** — especially keyboard operability and focus management,
 which automated tools don't catch.
 
 ## Pull Requests

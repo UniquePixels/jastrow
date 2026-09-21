@@ -11,17 +11,15 @@ See CONTRIBUTING.md for the full guidelines.
 
 - [ ] I understand every line of this change and can explain it if asked
 - [ ] Commits are signed off (`git commit -s`) — DCO
-- [ ] `biome check .` passes
-- [ ] UI changes: I went through the [accessibility checklist](../docs/accessibility-checklist.md)
-      (keyboard + focus, not just automated tools)
+- [ ] `bun qa` passes
+- [ ] Transform rule change (registered, reclassified or reordered):
+      `bun run transform:invariants` run locally — `bun qa` cannot see it
 
 ## Data changes (delete this section if no `data/**` files changed)
 
-- [ ] Edited via the **admin tool**, not by hand
-- [ ] `bun qa:test` passes (it validates every entry file: schema, path,
-      tag vocabulary, balanced markup, unique slugs, link targets, page)
-- [ ] Changes are verified against the source (Jastrow / Sefaria)
-- [ ] Scope is one topic, ≈≤ 25–50 entries (larger? coordinate via an issue first)
+- [ ] Produced by a pipeline run, not hand-edited
+- [ ] Verified against the source (Jastrow / Sefaria)
+- [ ] Scope is one topic (larger? coordinate via an issue first)
 
 ## AI assistance
 

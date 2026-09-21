@@ -13,10 +13,18 @@ You should receive a response within 48 hours.
 
 ## Scope
 
-This is a static site PWA with no server-side code (the `data/admin/`
-tooling runs locally only). Security concerns are primarily:
+There is no server-side code. The `v2` branch holds the data pipeline
+under `admin/` — Bun tooling that runs on a maintainer's machine, never
+deployed — the entry data under `data/`, and a placeholder `app/`. The
+public app and the admin tool have not been written for v2 yet.
 
-- Cross-site scripting (XSS) via dictionary content rendering
-- Content Security Policy effectiveness
-- Service worker cache integrity
-- Third-party CDN dependency integrity (SRI hashes)
+Security concerns are primarily:
+
+- Supply chain: the pipeline's dependencies and the pinned GitHub
+  Actions in `.github/workflows/`
+- Integrity of the Sefaria snapshot in `data/source/` and of the entry
+  data derived from it
+
+The live site at [jastrow.app](https://jastrow.app) is built from
+`main`, whose browser app has its own concerns (XSS in rendered
+dictionary content, CSP, service worker cache, CDN SRI).
