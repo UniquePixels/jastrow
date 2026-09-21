@@ -370,19 +370,38 @@ function slugRows(
 	return rows;
 }
 
-/** Homograph families whose numerals do not run 1..n. A family with a
- * II and no I either lost the I or never had one — the rows carry
- * whichever an unnumbered sibling suggests, not a verdict. */
+/** Homograph families whose numerals do not run 1..n.
+ *
+ * Keyed on the **exact NFC spelling**, and alternates count. Both
+ * halves were wrong in this file's first version. Keyed on consonants
+ * alone, `\u05E7\u05B7\u05E8\u05B0\u05D7\u05B8\u05D0` II, `\u05E7\u05B8\u05E8\u05B8\u05D7\u05B8\u05D0` II and `\u05E7\u05B8\u05E8\u05B0\u05D7\u05B8\u05D0` II merge into
+ * one family that reads as three clashing IIs, when they are three
+ * different words each numbered in its own right; and ignoring
+ * alternates reported 119 families whose missing numeral sits on an
+ * alternate form. Consonants + headwords-only gave 202 families, the
+ * two fixes give 178.
+ *
+ * A row is a question, never a verdict: the note says which numerals
+ * are missing and how many unnumbered siblings could be carrying them,
+ * so the print can settle it. */
 function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 	const families = new Map<
 		string,
 		Array<{ homograph: number | undefined; rid: string }>
 	>();
+	const add = (
+		text: string,
+		homograph: number | undefined,
+		rid: string,
+	): void => {
+		const key = text.normalize('NFC');
+		families.set(key, [...(families.get(key) ?? []), { homograph, rid }]);
+	};
 	for (const [rid, entry] of entries) {
-		const key = consonants(entry.headword.text);
-		const family = families.get(key) ?? [];
-		family.push({ homograph: entry.headword.homograph, rid });
-		families.set(key, family);
+		add(entry.headword.text, entry.headword.homograph, rid);
+		for (const alt of entry.altHeadwords ?? []) {
+			add(alt.text, alt.homograph, `${rid}/alt`);
+		}
 	}
 	const rows: IssueRow[] = [];
 	for (const family of families.values()) {
@@ -403,18 +422,22 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 		if (numbers.length === 0 || complete || first === undefined) {
 			continue;
 		}
-		const entry = entries.get(first.rid);
+		const entry = entries.get(first.rid.replace('/alt', ''));
 		if (entry === undefined) {
 			continue;
 		}
-		const sibling = members.some((m) => m.homograph === undefined);
+		const unnumbered = members.filter((m) => m.homograph === undefined).length;
+		const highest = numbers.at(-1) ?? 0;
+		const missing = Array.from({ length: highest }, (_, i) => i + 1).filter(
+			(n) => !numbers.includes(n),
+		);
 		const detail = members
 			.map((m) => `${m.rid}=${m.homograph ?? '—'}`)
 			.join('; ');
 		rows.push({
 			flagged: false,
-			note: `${sibling ? 'has unnumbered sibling' : 'no sibling'}: ${detail}`,
-			rid: first.rid,
+			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
+			rid: first.rid.replace('/alt', ''),
 			role: 'headword',
 			shape: 'X8 homograph numbering gap',
 			slug: entry.slug,
