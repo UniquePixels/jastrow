@@ -1,5 +1,9 @@
 # Case 8 — a target vouched by another entry's headword
 
+> **Gate-case record, 2026-08-31; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** DRAFT 2026-08-31, ruled by Brian the same day (build it).
 Extends [the batch-4 gate cases](2026-08-27-link-target-gate-cases.md)
 and the [transform module design](2026-08-22-transform-module-design.md)

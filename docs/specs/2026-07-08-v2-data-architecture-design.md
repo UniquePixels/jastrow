@@ -348,7 +348,9 @@ evidence):
 4. ~~`refs` resolution into `{internal, external}`~~ — superseded:
    `refs` is dropped from entry data (B7); the reference index derives at
    compile (§3).
-5. Slug assignment, once, then frozen (D12).
+5. ~~Slug assignment, once, then frozen (D12).~~ **Superseded
+   2026-09-21:** import writes `sefariaHeadword`, not a slug
+   ([URL names spec](2026-09-21-url-names-design.md) §9).
 6. ~~`page`/`column` carried from the v1 enrichment, with the 107
    hand edits from main's history applied — the one true replay.~~
    **Superseded 2026-09-06:** `page`/`column` come from the hOCR page

@@ -4,7 +4,8 @@ The first headword beginning in each printed column of Marcus Jastrow's
 *Dictionary of the Targumim…* (London: Luzac, 1903), plus the page and column
 of every one of the 32,512 headwords.
 
-Built by `admin/pipeline/page-index/build.ts`. Checked by
+Built by `admin/pipeline/page-index/build.ts` (a one-time build;
+archived at `refs/tags/archive/v2-research-2026-09`). Checked by
 `admin/pipeline/page-index/verify.ts`.
 
 ## Files
@@ -145,7 +146,8 @@ geometric guess.
 
 ### This index disagrees with the shipped `p` field
 
-The `p` field in `data/jastrow-part*.jsonl` is **one page low throughout volume
+The `p` field in v1's `data/jastrow-part*.jsonl` (the v1 app's data, on the
+`main` branch — nothing on `v2` reads it) is **one page low throughout volume
 2** (every page from 677 on). That was diagnosed, not assumed: volume 2's leaf
 99 prints the page number `776`, and its text — "two kinds of wheat", and the
 entry `מִנּוּי` opening the right column — matches the scan of that leaf. So the

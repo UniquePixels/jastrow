@@ -1,5 +1,9 @@
 # Case 9 — a target repaired at the point level
 
+> **Gate-case record, 2026-09-01; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** DRAFT 2026-09-01, ruled by Brian the same day (build it, ship
 all four batch-10 rows). Extends [the batch-4 gate
 cases](2026-08-27-link-target-gate-cases.md) and [case

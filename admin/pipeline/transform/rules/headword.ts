@@ -133,7 +133,9 @@ function overAltHeadwords(
  * (`docs/v2/retired-corpus-checks.md`).
  *
  * **RULING (Brian, 2026-08-27): strip the delimiters, add no new
- * form-object mark.** The parens are print's grouping punctuation
+ * form-object mark.** *Reversed in intent 2026-09-20 —
+ * `docs/v2/headword-design.md` §4 keeps the grouping as structure in
+ * `display`; this rule still runs as written until that lands.* The parens are print's grouping punctuation
  * around a run of variant readings, not part of any lemma, and
  * `altHeadwords` survives into v2 as form objects whose `text` is a
  * lookup key — one reading `'(אוֹב)'` matches nothing a user will type.

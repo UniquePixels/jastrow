@@ -70,6 +70,9 @@ review's deferred rows. They carry no patch.
 
 ## Confirmed no change
 
+The name was retired by S6 of the sense-structure spec; it is kept
+here as history.
+
 These 19 rids were reviewed and need no patch. The swallowed sense
 boundary leaves the marker in the text, so the text already matches
 print. The issue is upstream only.

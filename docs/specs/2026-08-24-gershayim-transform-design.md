@@ -1,5 +1,9 @@
 # Gershayim transforms — Phase 2 batch 3a design
 
+> **Batch design record, 2026-08-24; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** approved 2026-08-24 (Brian). Extends
 [the transform module design](2026-08-22-transform-module-design.md);
 that spec's §3 contract, §5 gates and §6 write-back mechanism hold here

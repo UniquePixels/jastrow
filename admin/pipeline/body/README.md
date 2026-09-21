@@ -48,5 +48,6 @@ plan touches: `morphology`, `plural_form`, `language_code`,
 `language_reference`, `alt_headwords`, `quotes`, `refs`, and recursive
 senses with `number`/`grammar`. `BodySense`/`BodyStem`/`BodyEntry` are
 the target shapes later modules build. See
-`admin/pipeline/provenance/baseline-transform.ts` for the sibling model
-of the deployed v1 shape these upstream fields fed.
+`admin/pipeline/provenance/baseline-transform.ts`, archived at
+`refs/tags/archive/v2-research-2026-09`, for the sibling model of the
+deployed v1 shape these upstream fields fed.

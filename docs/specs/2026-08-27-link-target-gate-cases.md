@@ -1,5 +1,9 @@
 # Two new link-target cases — batch 4's deferred repairs
 
+> **Gate-case record, 2026-08-27; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** DRAFT 2026-08-27, ruled by Brian the same day (build both).
 Extends [the batch-4 design](2026-08-26-anchor-paren-integrity-design.md)
 §4 and the [transform module design](2026-08-22-transform-module-design.md)

@@ -1,5 +1,9 @@
 # Anchor & paren integrity — Phase 2 batch 4 design
 
+> **Batch design record, 2026-08-26; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** APPROVED 2026-08-26 (scope ruled by Brian; §7.6 settled by PR #50, merged as `45d50a4`). §3.3 corrected after its first draft's exactness claim was disproved. Extends
 [the transform module design](2026-08-22-transform-module-design.md);
 that spec's §3 contract, §5 gates and §6 write-back mechanism hold here

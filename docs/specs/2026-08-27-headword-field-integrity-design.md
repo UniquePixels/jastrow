@@ -1,5 +1,9 @@
 # Headword field integrity — Phase 2 batch 5 design
 
+> **Batch design record, 2026-08-27; rules shipped.** See
+> [the transform module design](2026-08-22-transform-module-design.md) for the
+> live contract.
+
 **Status:** DRAFT 2026-08-27 (scope ruled by Brian; §5.1's paren ruling
 settled the same day). Extends
 [the transform module design](2026-08-22-transform-module-design.md);
@@ -189,7 +193,9 @@ The pairing is total for 69 of 84 opens; the residue is §3.4's orphans.
 ### 3.2 The ruling, and what it costs
 
 **Ruling (Brian, 2026-08-27): strip the delimiters, add no new form-object
-mark.** The parens are print's grouping punctuation around a run of
+mark.** *Reversed in intent 2026-09-20 —
+[`docs/v2/headword-design.md` §4](../v2/headword-design.md) keeps the
+grouping as structure in `display`, never inside `text`.* The parens are print's grouping punctuation around a run of
 variant readings; they are not part of any lemma, and a lookup key
 reading `(אוֹב)` matches nothing a user will type. The grouping signal
 is not preserved — print's parentheses remain readable in the
@@ -448,7 +454,8 @@ delimiters from the wrong 654 items would pass all six.
 ## 7. Rulings and open items before implementation
 
 1. **SETTLED 2026-08-27 (Brian):** parens are stripped, no new
-   form-object mark, no schema change (§3.2).
+   form-object mark, no schema change (§3.2). *Reversed in intent
+   2026-09-20 — [`docs/v2/headword-design.md` §4](../v2/headword-design.md).*
 2. **OPEN — A02002.** Its shape is a phrase stub in the `headword`
    field (§4.1). Expand it with rule 2's mechanism, or refuse it and
    route it to `judgment` with the row's `reason` corrected? Default if
