@@ -736,7 +736,7 @@ Steps 1–4 have shipped and are kept as history.
     `holam-migrated-off-mater-vav`, which are Hebrew vowel migration;
     and "ground truth" for evidence read straight off the print page.
 
-11. *Shipped (#TBD).* Research backlog triage (added 2026-09-18).
+11. *Shipped (#112).* Research backlog triage (added 2026-09-18).
     The pattern catalogue flagged 32 open classes `blocking: true` — 31
     on the `judgment` route and `open-paren-in-rtl-span` on `blocked`,
     6,489 instances as catalogued — under sweep-tiering T6 ("blocking =
