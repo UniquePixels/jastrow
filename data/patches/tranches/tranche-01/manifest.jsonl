@@ -123,7 +123,6 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00336","escalation":"Unclassified stem head: the single unnumbered sense opens with italicized 'Pa.' governing אַגַּר ('to heap up') embedded loose in running text instead of a classified grammar/verbal_stem section (cf. catalog class 5 example F00116's 'Pa. וַוְתֵּר'). No patch op writes grammar/stem structure; escalating for maintainer classification."}
 {"disposition":"needs_print_check","patches":[],"rid":"A00337","escalation":"Unnumbered sense's definition has a dangling unmatched ')' beyond the balanced '(√אג, v. חגר)' parenthetical: ' (√אג, v. חגר).). ' — an extra ')' (with stray '.') not opened anywhere in the entry (no language_code/language_reference cross-field convention applies here). Likely upstream loss or a print-carried mismatch; repair would need a byte not present, so escalating rather than guessing which."}
 {"disposition":"clean","patches":[],"rid":"A00338"}
-{"disposition":"repaired","patches":["P000008","P000009"],"rid":"A00339"}
 {"disposition":"clean","patches":[],"rid":"A00340"}
 {"disposition":"clean","patches":[],"rid":"A00341"}
 {"disposition":"clean","patches":[],"rid":"A00342"}
