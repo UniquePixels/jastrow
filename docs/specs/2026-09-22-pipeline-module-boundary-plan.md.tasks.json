@@ -1,0 +1,108 @@
+{
+  "planPath": "docs/specs/2026-09-22-pipeline-module-boundary-plan.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 1: The declared boundary",
+      "status": "pending",
+      "description": "**Goal:** admin/pipeline/paths.ts holds every path the module names outside itself, and two tests fail if that stops being true.\n\n**Files:**\n- Create: `admin/pipeline/paths.ts`\n- Create: `admin/pipeline/boundary.test.ts`\n- Modify: the 14 non-test module files holding the 21 path literals\n- Modify: `admin/pipeline/test-tiers.test.ts:70-76` if CORPUS_SIGNALS names change\n\n**Acceptance Criteria:**\n- [ ] paths.ts exports every one of the 21 path literals found in non-test module code\n- [ ] SOURCE_PATH and SNAPSHOT_FILES keep those exact identifier names\n- [ ] test-tiers.test.ts still detects a corpus-reaching unit-tier file, proved with a positive control probe, not assumed\n- [ ] boundary.test.ts fails if an import leaves the module, and fails if a data/, docs/ or app/ literal appears outside paths.ts in non-test code\n- [ ] data/entries/ byte-identical after a full import\n\n**Verify:** `bun qa` green; then `bun data:import && bun qa:format && git status --short data/entries  # expect no output`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/paths.ts\", \"admin/pipeline/boundary.test.ts\"], \"verifyCommand\": \"bun qa && bun data:import && bun qa:format && git status --short data/entries\", \"acceptanceCriteria\": [\"21 literals centralised in paths.ts\", \"SOURCE_PATH and SNAPSHOT_FILES keep their names\", \"tier checker proved still firing via probe\", \"boundary.test.ts passes\", \"data/entries byte-identical\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 2: The schema moves to data/",
+      "status": "pending",
+      "description": "**Goal:** entry.schema.json lives in data/schema/ and is read at run time through paths.ts; its test lives with the code.\n\n**Files:**\n- Move: `admin/pipeline/schema/entry.schema.json` \u2192 `data/schema/entry.schema.json`\n- Move: `admin/pipeline/schema/entry.schema.test.ts` \u2192 `admin/pipeline/schema.test.ts`\n- Modify: `admin/pipeline/migrate.ts:78`, `admin/pipeline/migrate/validate.ts:11`\n- Modify: `admin/pipeline/transform/rules/plural-capture.test.ts:36`\n\n**Acceptance Criteria:**\n- [ ] admin/pipeline/schema/ no longer exists\n- [ ] Neither load site uses `import \u2026 with { type: 'json' }`\n- [ ] boundary.test.ts still passes \u2014 the schema arrives through paths.ts\n- [ ] data/entries/ byte-identical after a full import\n\n**Verify:** `bun qa` green; `bun data:import && bun qa:format && git status --short data/entries  # expect no output`\n\n```json:metadata\n{\"files\": [\"data/schema/entry.schema.json\", \"admin/pipeline/schema.test.ts\", \"admin/pipeline/migrate/validate.ts\", \"admin/pipeline/migrate.ts\"], \"verifyCommand\": \"bun qa && bun data:import && bun qa:format && git status --short data/entries\", \"acceptanceCriteria\": [\"admin/pipeline/schema/ gone\", \"no compile-time JSON import of the schema\", \"boundary.test.ts green\", \"data/entries byte-identical\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "Task 3: Patch records move into the module",
+      "status": "pending",
+      "description": "**Goal:** The 29 patch files live at admin/pipeline/patch/records/; data/patches/ no longer exists.\n\n**Files:**\n- Move: `data/patches/` \u2192 `admin/pipeline/patch/records/`\n- Modify: 5 test files naming the old path\n- Modify: docstrings in `patch/apply.ts` naming `data/patches/`\n\n**Acceptance Criteria:**\n- [ ] data/patches/ no longer exists\n- [ ] bun data:import reports the same patch corpus counts: 114 reviewed, 113 accepted, 232 applied, 5 carried\n- [ ] data/entries/ byte-identical after a full import\n- [ ] The snapshot lock still verifies \u2014 no rows pinned to a different snapshot\n\n**Verify:** `bun qa` green; `bun data:import` \u2192 blessing patch line reads `114 reviewed, 113 accepted, 232 applied, 0 carry-over absorbed, 5 carried, 0 consolidated away`\n\n```json:metadata\n{\"files\": [\"admin/pipeline/patch/records/\", \"admin/pipeline/patch/apply.ts\"], \"verifyCommand\": \"bun qa && bun data:import && bun qa:format && grep -n 'Patch corpus:' docs/v2/migration-blessing.md && git status --short data/entries\", \"acceptanceCriteria\": [\"data/patches gone\", \"patch corpus counts unchanged\", \"data/entries byte-identical\", \"snapshot lock verifies\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "Task 4: Generated reports leave docs/v2/",
+      "status": "pending",
+      "description": "**Goal:** The module writes its four generated documents to docs/reports/, and stops reading docs/v2/.\n\n**Files:**\n- Move: 4 generated files from `docs/v2/` \u2192 `docs/reports/`\n- Modify: `admin/pipeline/report/headword-issues.ts` design reference\n\n**Acceptance Criteria:**\n- [ ] bun data:import writes docs/reports/migration-blessing.md and docs/reports/review-report.md\n- [ ] bun run headword:issues writes docs/reports/headword-issues.md and .csv\n- [ ] Nothing under admin/pipeline/ names docs/v2\n- [ ] The regenerated documents differ from the moved ones only in internal links\n\n**Verify:** `bun data:import && bun run headword:issues && git status --short docs/` \u2192 only `docs/reports/` entries; `grep -rn 'docs/v2' admin/pipeline` \u2192 no output\n\n```json:metadata\n{\"files\": [\"docs/reports/\", \"admin/pipeline/report/headword-issues.ts\"], \"verifyCommand\": \"bun qa && bun data:import && bun qa:format && bun run headword:issues && grep -rn 'docs/v2' admin/pipeline\", \"acceptanceCriteria\": [\"four reports in docs/reports/\", \"no docs/v2 reference in the module\", \"diff confined to internal links\"], \"modelTier\": \"mechanical\"}\n```",
+      "blockedBy": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Task 5: Provenance and the licence rule",
+      "status": "pending",
+      "description": "**Goal:** Every data/ subdirectory says where its contents came from, the README states one licence rule, and a test keeps the rule true.\n\n**Files:**\n- Create: `data/source/README.md`, `data/entries/README.md`, `data/quarantine/README.md`, `data/schema/README.md`\n- Modify: `data/page-index/README.md` \u2014 add the build method\n- Modify: `README.md` licence section\n- Create: `admin/pipeline/data-layout.test.ts`\n\n**Acceptance Criteria:**\n- [ ] All six data/ subdirectories have a README\n- [ ] No .ts file exists anywhere under data/\n- [ ] data/page-index/README.md states the build method and names refs/tags/archive/v2-research-2026-09\n- [ ] data-layout.test.ts fails if either condition breaks (verified by removing a README and watching it fail)\n\n**Verify:** `bun qa` green; `find data -name '*.ts' | wc -l` \u2192 0; `ls data/*/README.md | wc -l` \u2192 6\n\n```json:metadata\n{\"files\": [\"data/source/README.md\", \"data/entries/README.md\", \"data/quarantine/README.md\", \"data/schema/README.md\", \"data/page-index/README.md\", \"admin/pipeline/data-layout.test.ts\", \"README.md\"], \"verifyCommand\": \"bun qa && find data -name '*.ts' | wc -l && ls data/*/README.md | wc -l\", \"acceptanceCriteria\": [\"six READMEs under data/\", \"no TypeScript under data/\", \"page-index method recorded\", \"data-layout.test.ts enforces both\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "Task 6: DESIGN.md \u2014 one present-tense design",
+      "status": "pending",
+      "description": "**Goal:** A single document states every design fact about the pipeline that is still true, so the nineteen dated specs can be archived without losing anything.\n\n**Files:**\n- Create: `admin/pipeline/DESIGN.md`\n- Read: all 19 files in `docs/specs/`, plus `docs/v2/headword-design.md`\n\n**Acceptance Criteria:**\n- [ ] Every design fact still true of the code appears in DESIGN.md in present tense\n- [ ] No sentence describes intent, a plan, a step number or a dated decision\n- [ ] bun run headword:issues produces a report whose DESIGN.md link resolves\n- [ ] Each of the 19 archived specs has at least one DESIGN.md section covering its live content, recorded in a coverage table in the commit message\n- [ ] Section 11 (what the pipeline will not do) is present and names at least: no vowel inference, no OCR invention, no sense renumbering\n\n**Verify:** `bun run headword:issues && grep -c 'DESIGN.md' docs/reports/headword-issues.md` \u2192 at least 1; the link check in Step 4 prints no DEAD lines\n\n```json:metadata\n{\"files\": [\"admin/pipeline/DESIGN.md\"], \"verifyCommand\": \"bun qa && bun run headword:issues && grep -c 'DESIGN.md' docs/reports/headword-issues.md\", \"acceptanceCriteria\": [\"present tense throughout\", \"coverage table for all 19 specs in the commit body\", \"section 11 present\", \"all links resolve\"], \"modelTier\": \"frontier\"}\n```"
+    },
+    {
+      "id": 6,
+      "subject": "Task 7: The pipeline README, refreshed",
+      "status": "pending",
+      "description": "**Goal:** admin/pipeline/README.md tells someone how to run the module, with the paths this plan moved.\n\n**Files:**\n- Modify: `admin/pipeline/README.md` (207 lines)\n\n**Acceptance Criteria:**\n- [ ] No stale path: nothing names data/patches, docs/v2 or admin/pipeline/schema\n- [ ] A 'run it on your own data' section names paths.ts as the one file to edit\n- [ ] Stage 3 (compile.ts, unwritten) is three sentences, not a spec\n- [ ] Every link resolves\n\n**Verify:** `grep -cE 'data/patches|docs/v2|admin/pipeline/schema' admin/pipeline/README.md` \u2192 0; link check prints no DEAD lines\n\n```json:metadata\n{\"files\": [\"admin/pipeline/README.md\"], \"verifyCommand\": \"bun qa && grep -cE 'data/patches|docs/v2|admin/pipeline/schema' admin/pipeline/README.md\", \"acceptanceCriteria\": [\"no stale paths\", \"clone section present\", \"stage 3 trimmed\", \"links resolve\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "Task 8: Prune docs/decisions.md",
+      "status": "pending",
+      "description": "**Goal:** The ledger holds only rulings still binding on the pipeline; the rest move to an archived copy.\n\n**Files:**\n- Modify: `docs/decisions.md` (360 lines, ~157 rows)\n- Create: `docs/archive/decisions-2026-09-22.md`\n\n**Acceptance Criteria:**\n- [ ] Every row kept has a live referent: a file under admin/pipeline/, a data/ path, or one of the six live documents\n- [ ] The archived copy holds every removed row verbatim, unedited\n- [ ] Sections C and D are gone \u2014 each row in them is resolved, moved to ideas.md, or archived\n- [ ] Any live document found citing a reversed ruling is fixed in the same commit\n- [ ] The kept/removed split is recorded in the commit body with counts\n\n**Verify:** For each kept row, its load-bearing noun greps to a live file; `grep -c '^| ' docs/decisions.md` recorded before and after\n\n```json:metadata\n{\"files\": [\"docs/decisions.md\", \"docs/archive/decisions-2026-09-22.md\"], \"verifyCommand\": \"bun qa && grep -c '^| ' docs/decisions.md\", \"acceptanceCriteria\": [\"every kept row greps to a live referent\", \"archive copy verbatim\", \"sections C and D resolved\", \"counts in commit body\"], \"modelTier\": \"frontier\"}\n```",
+      "blockedBy": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "Task 9: docs/ideas.md",
+      "status": "pending",
+      "description": "**Goal:** One file holds the ideas and reminders, and nothing else.\n\n**Files:**\n- Create: `docs/ideas.md`\n\n**Acceptance Criteria:**\n- [ ] Contains the 16 parking-lot rows with their original dates\n- [ ] Contains the open questions extracted in Tasks 6 and 8\n- [ ] Contains no ruling, no specification and no commitment \u2014 the header says so\n- [ ] No Status column; delivered rows dropped\n- [ ] Every row is one line plus a note\n\n**Verify:** `bun qa` green; the file is under 150 lines\n\n```json:metadata\n{\"files\": [\"docs/ideas.md\"], \"verifyCommand\": \"bun qa && wc -l docs/ideas.md\", \"acceptanceCriteria\": [\"16 parking-lot rows carried\", \"open questions folded in\", \"no statuses\", \"under 150 lines\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "subject": "Task 10: The archive sweep",
+      "status": "pending",
+      "description": "**Goal:** The live tree holds only the six documents, and every link in them resolves.\n\n**Files:**\n- Move: `docs/specs/*.md` (19 + this plan + its spec) \u2192 `docs/archive/specs/`\n- Move: `docs/v2/` remnants, 3 orphaned `data/source/` reports, `edit-replay.jsonl`\n- Delete: `docs/superpowers/`, `docs/.$Migrate Flow.drawio.bkp`\n- Modify: `README.md`, `docs/glossary.md`\n\n**Acceptance Criteria:**\n- [ ] docs/v2/, docs/superpowers/ and docs/specs/ no longer exist\n- [ ] Exactly six live documents remain, as listed in spec \u00a74.2\n- [ ] Every link in all six resolves\n- [ ] bun data:import still green on all nine gates, data/entries byte-identical\n- [ ] patch/snapshot.ts's edit-replay docstring updated to say the file is archived, not deleted\n\n**Verify:** The link check in Step 5 prints nothing; `bun qa` green; `git status --short data/entries` \u2192 no output\n\n```json:metadata\n{\"files\": [\"README.md\", \"docs/glossary.md\", \"docs/archive/specs/\"], \"verifyCommand\": \"bun qa && bun data:import && bun qa:format && git status --short data/entries\", \"acceptanceCriteria\": [\"docs/v2, docs/superpowers, docs/specs gone\", \"six live documents\", \"all links resolve\", \"nine gates green\"], \"modelTier\": \"standard\"}\n```",
+      "blockedBy": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "subject": "Task 11: The memory audit",
+      "status": "pending",
+      "description": "**Goal:** Claude's 86 memory files for this project are reduced to what is true of the module as it now stands \u2014 with the maintainer approving every deletion.\n\n> **USER-ORDERED GATE \u2014 NON-SKIPPABLE.** This task was requested by the user in the current conversation. It MUST NOT be closed by walking around it, by declaring it \"verified inline\", or by substituting a cheaper check. Close only after every item in `acceptanceCriteria` has been re-validated independently, with output captured.\n\n**Files:**\n- Read: `~/.claude/projects/-Users-brian-Repositories-websites-jastrow/memory/*.md`\n- Modify: that directory's `MEMORY.md` index\n- Create: `project_pipeline_module_boundary.md`\n\n**Acceptance Criteria:**\n- [ ] All 86 files classified keep / rewrite / cut, each with a one-line reason\n- [ ] The list is presented to the maintainer and approved BEFORE any file is deleted\n- [ ] Every [[link]] in a kept file still resolves after the cuts, or the sentence is rewritten\n- [ ] MEMORY.md has exactly one line per remaining file\n- [ ] A new memory records the module boundary, the licence rule and the six live documents\n\n**Verify:** Count of files equals count of index lines; the dangling-link scan in Step 3 names no memory deleted by this task\n\n```json:metadata\n{\"files\": [\"/Users/brian/.claude/projects/-Users-brian-Repositories-websites-jastrow/memory/MEMORY.md\"], \"verifyCommand\": \"cd /Users/brian/.claude/projects/-Users-brian-Repositories-websites-jastrow/memory && ls *.md | wc -l && grep -c '^- \\\\[' MEMORY.md\", \"acceptanceCriteria\": [\"all 86 classified with reasons\", \"maintainer approved before any deletion\", \"no link dangles onto a deleted memory\", \"MEMORY.md one line per file\", \"boundary memory written\"], \"modelTier\": \"standard\", \"userGate\": true, \"tags\": [\"user-gate\"], \"gateScope\": \"the approval step: no memory file is deleted until the maintainer has seen the keep/cut table and said yes\", \"failurePolicy\": \"halt\"}\n```",
+      "blockedBy": [
+        9
+      ]
+    }
+  ],
+  "lastUpdated": "2026-09-22T18:09:54.280027"
+}
