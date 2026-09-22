@@ -215,7 +215,7 @@ describe('the gate set itself', () => {
 			'schema',
 			'chain',
 			'internalTargets',
-			'slugs',
+			'names',
 			'pages',
 			'composition',
 		];

@@ -44,7 +44,6 @@ function greenReport(): Report {
 		quarantine: [],
 		rows: [],
 		rules: [],
-		slugCollisions: {},
 		snapshot: { pin: `sha256:${'a'.repeat(64)}`, stalePins: 0 },
 		unresolved: [],
 		written: 1,
@@ -159,7 +158,6 @@ describe('renderBlessing', () => {
 		];
 		report.rules = [{ entries: 2, fired: 3, rule: 'bare-rtl-hebrew' }];
 		report.snapshot.stalePins = 4;
-		report.slugCollisions = { '2': 3 };
 		const quarantine: QuarantineRow[] = [
 			{ note: 'no match', rid: 'A00004', target: 'שלום' },
 		];
@@ -170,8 +168,8 @@ describe('renderBlessing', () => {
 			truth: {
 				headword: { text: 'אָב I' },
 				id: 'A00013',
+				sefariaHeadword: 'אָב I',
 				senses: [],
-				slug: 'av-i',
 			} satisfies TruthEntry,
 		};
 		const doc = renderBlessing(report, [sample]);
@@ -197,7 +195,7 @@ describe('renderBlessing', () => {
 			'- A00005: P000001 (ocr-marker): re-judge',
 		);
 		expect(section('Rule counts')).toContain('| bare-rtl-hebrew | 3 | 2 |');
-		expect(doc).toContain('## Slug collisions');
+		expect(doc).not.toContain('Slug collisions');
 		expect(doc).toContain('## Quarantined internal targets');
 		expect(doc).toContain('### A00013');
 	});

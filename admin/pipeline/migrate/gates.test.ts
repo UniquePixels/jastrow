@@ -3,8 +3,8 @@ import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import {
 	checkChain,
 	checkHeadwordRoundTrip,
+	checkNames,
 	checkPages,
-	checkSlugs,
 	checkTextConservation,
 } from './gates.ts';
 import type { Tally, TruthEntry } from './types.ts';
@@ -134,91 +134,104 @@ describe('checkChain', () => {
 	});
 });
 
-describe('checkSlugs', () => {
-	const forms = [
-		{ rid: 'A00001', text: 'אב' },
-		{ rid: 'A00002', text: 'גד' },
-		{ rid: 'A00003', text: 'הו' },
-	];
+/** One entry as gate 7 reads it: the form the name derives from, and
+ * the `sefariaHeadword` the run wrote. */
+function named(
+	id: string,
+	headword: TruthEntry['headword'],
+	sefariaHeadword: string,
+): TruthEntry {
+	return { headword, id, sefariaHeadword, senses: [] };
+}
 
-	it('fails a duplicate slug', () => {
-		const slugs = new Map([
-			['A00001', 'x'],
-			['A00002', 'x'],
-			['A00003', 'y'],
-		]);
-		const t = checkSlugs(forms, slugs);
-		expect(t.pass).toBe(2);
-		expect(t.total).toBe(3);
-		expect(t.failures).toEqual(['A00002: slug x taken by A00001']);
+const SOURCE = new Map([
+	['A00001', 'אָב'],
+	['A00002', 'אב'],
+	['A00003', 'גד'],
+]);
+
+describe('checkNames', () => {
+	it('passes distinct names carrying the snapshot headword', () => {
+		const t = checkNames(
+			[
+				named('A00001', { text: 'אָב' }, 'אָב'),
+				named('A00002', { text: 'אב' }, 'אב'),
+				named('A00003', { text: 'גד' }, 'גד'),
+			],
+			SOURCE,
+		);
+		// Two marks per entry: unique, and verbatim.
+		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(6);
+		expect(t.total).toBe(6);
 	});
 
-	it('fails a collided stem whose owner holds the bare slug', () => {
-		const collidedForms = [
-			{ rid: 'A00001', text: 'אָב' },
-			{ rid: 'A00002', text: 'אב' },
-			{ rid: 'A00003', text: 'גד' },
-		];
-		const slugs = new Map([
-			['A00001', 'אב'],
-			['A00002', 'אב-2'],
-			['A00003', 'גד'],
-		]);
-		const t = checkSlugs(collidedForms, slugs);
-		expect(t.pass).toBe(2);
-		expect(t.total).toBe(3);
-		expect(t.failures).toEqual(['A00001: slug אב']);
+	it('fails the second entry to hold a name', () => {
+		const t = checkNames(
+			[
+				named('A00001', { text: 'אָב' }, 'אָב'),
+				named('A00002', { homograph: 1, text: 'אָב' }, 'אב'),
+				named('A00003', { text: 'אָב' }, 'גד'),
+			],
+			SOURCE,
+		);
+		expect(t.failures).toEqual(['A00003: name אָב taken by A00001']);
+		expect(t.pass).toBe(5);
+		expect(t.total).toBe(6);
 	});
 
-	it('allows a frozen member to hold its family’s bare slug', () => {
-		// Same shape as the test above, but A00001's slug is frozen. A
-		// stem first held by one entry keeps that entry on the bare slug
-		// when a second arrives (spec §7.3); moving it is the one thing
-		// freezing forbids, so the gate reports rather than fails.
-		const collidedForms = [
-			{ rid: 'A00001', text: 'אָב' },
-			{ rid: 'A00002', text: 'אב' },
-			{ rid: 'A00003', text: 'גד' },
-		];
-		const slugs = new Map([
-			['A00001', 'אב'],
-			['A00002', 'אב-1'],
-			['A00003', 'גד'],
-		]);
-		const t = checkSlugs(collidedForms, slugs, new Map([['A00001', 'אב']]));
-		expect(t.pass).toBe(3);
+	it('compares in NFC, so a decomposed name still collides', () => {
+		// The dangerous shape: two spellings of one word are two distinct
+		// JS strings and one URL. Without the normalization the gate
+		// passes and the route map has an ambiguous key.
+		const t = checkNames(
+			[
+				named('A00001', { text: 'אָב'.normalize('NFC') }, 'אָב'),
+				named('A00002', { text: 'אָב'.normalize('NFD') }, 'אב'),
+			],
+			SOURCE,
+		);
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('taken by A00001');
+	});
+
+	it('keeps a reconstructed form distinct from its plain twin (U5)', () => {
+		// The 23 `*`/plain pairs. Drop the star from the formula and this
+		// case collides.
+		const t = checkNames(
+			[
+				named('A00001', { reconstructed: true, text: 'אָב' }, 'אָב'),
+				named('A00002', { text: 'אָב' }, 'אב'),
+			],
+			SOURCE,
+		);
 		expect(t.failures).toEqual([]);
 	});
 
-	it('fails when a frozen member sits at -1 and another took the bare slug', () => {
-		// The exception belongs to the frozen entry that HOLDS the bare
-		// slug. A frozen `אב-1` must not excuse a second member taking
-		// bare `אב` — that is the collision the clause exists for.
-		const collidedForms = [
-			{ rid: 'A00001', text: 'אָב' },
-			{ rid: 'A00002', text: 'אב' },
-			{ rid: 'A00003', text: 'גד' },
-		];
-		const slugs = new Map([
-			['A00001', 'אב-1'],
-			['A00002', 'אב'],
-			['A00003', 'גד'],
-		]);
-		const t = checkSlugs(collidedForms, slugs, new Map([['A00001', 'אב-1']]));
-		expect(t.pass).toBe(2);
-		expect(t.failures).toEqual(['A00002: slug אב']);
+	it('fails an entry whose name strips to nothing', () => {
+		// Not a collision — it is alone — so only the empty clause sees
+		// it. Without that clause the entry passes and has no URL.
+		const t = checkNames([named('A00001', { text: '(?)' }, 'אָב')], SOURCE);
+		expect(t.failures).toEqual(['A00001: name is empty from "(?)"']);
+		expect(t.pass).toBe(1);
+		expect(t.total).toBe(2);
 	});
 
-	it('still fails a duplicate slug when both rids are frozen', () => {
-		// Uniqueness is never relaxed: two entries on one URL is the
-		// failure this gate exists for, frozen or not.
-		const frozen = new Map([
-			['A00001', 'x'],
-			['A00002', 'x'],
-		]);
-		const t = checkSlugs(forms, new Map([...frozen, ['A00003', 'y']]), frozen);
-		expect(t.pass).toBe(2);
-		expect(t.failures).toEqual(['A00002: slug x taken by A00001']);
+	it('fails a sefariaHeadword that is not the snapshot string', () => {
+		const t = checkNames(
+			[named('A00001', { text: 'אָב' }, 'אָב edited by hand')],
+			SOURCE,
+		);
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('but the source says');
+	});
+
+	it('fails a rid the snapshot does not name', () => {
+		// `undefined` must not pass against an absent field: an entry with
+		// no source line has nothing to be verbatim from.
+		const t = checkNames([named('A09999', { text: 'אָב' }, 'אָב')], SOURCE);
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('the source says null');
 	});
 });
 
@@ -228,8 +241,8 @@ function minimalTruth(overrides: Partial<TruthEntry>): TruthEntry {
 	return {
 		headword: { text: 'x' },
 		id: 'A00014',
+		sefariaHeadword: 'x',
 		senses: [],
-		slug: 'x',
 		...overrides,
 	};
 }

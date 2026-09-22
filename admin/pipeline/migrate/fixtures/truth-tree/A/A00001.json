@@ -1,6 +1,6 @@
 {
 	"id": "A00001",
-	"slug": "אב",
+	"sefariaHeadword": "אב",
 	"headword": { "text": "אב" },
 	"page": { "number": 1, "column": "a" },
 	"senses": [{ "gloss": "father", "units": [] }]

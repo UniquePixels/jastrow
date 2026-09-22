@@ -5,15 +5,24 @@
 	"description": "Machine-readable spec of the v2 entry body model (docs/specs/2026-07-11-entry-body-model-design.md §2, decision B11). This schema is the documented generic spec of the format; examples in the design doc illustrate it, they do not define it.",
 	"type": "object",
 	"additionalProperties": false,
-	"required": ["id", "slug", "headword", "senses"],
+	"required": ["id", "sefariaHeadword", "headword", "senses"],
 	"properties": {
 		"id": {
 			"type": "string",
 			"pattern": "^[A-Z]\\d{5}$"
 		},
-		"slug": {
+		"sefariaHeadword": {
+			"description": "Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
 			"type": "string",
 			"minLength": 1
+		},
+		"formerNames": {
+			"description": "Names this entry has published under and no longer holds (URL names spec §5.1, U6). Absent until publication: nothing writes it yet.",
+			"type": "array",
+			"items": {
+				"type": "string",
+				"minLength": 1
+			}
 		},
 		"headword": { "$ref": "#/$defs/formObject" },
 		"altHeadwords": {

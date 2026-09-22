@@ -4,14 +4,12 @@ import {
 	classifyRows,
 	PUBLICATION,
 	publicationOf,
-	RETIRING_KINDS,
 } from './publication.ts';
 import { createReport, lineRow, type Publication } from './report.ts';
 
 // Spec §3.1.1, one tuple per kind.
 const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['headword-unparsed', 'blocks'],
-	['slug-unsafe', 'blocks'],
 	['upstream-fixed', 'blocks'],
 	['upstream-changed', 'blocks'],
 	['page-confidence-low', 'defer'],
@@ -25,11 +23,6 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['stranded-open-bracket', 'defer'],
 	['superscript-subsection-contradicts-link-sub-section', 'defer'],
 	['headword-multiword', 'note'],
-	['slug-changed', 'note'],
-	['slug-new', 'note'],
-	['slug-alias-new', 'note'],
-	['slug-bare-held', 'note'],
-	['slug-frozen-stem-drift', 'note'],
 ];
 
 describe('PUBLICATION', () => {
@@ -48,14 +41,13 @@ describe('PUBLICATION', () => {
 			expect(action.endsWith('.')).toBe(true);
 		}
 	});
-	it('lists exactly the slug kinds as retiring', () => {
-		// Both directions: a `slug-*` kind left out of RETIRING_KINDS
-		// would be triaged as live work, and a non-slug kind listed there
-		// would be announced as retiring when nothing retires it.
-		const retiring: string[] = [...RETIRING_KINDS];
-		expect(retiring.toSorted()).toEqual(
-			[...PUBLICATION.keys()].filter((k) => k.startsWith('slug-')).toSorted(),
-		);
+	it('names no slug kind: names replaced them (URL names spec §7)', () => {
+		// The six `slug-*` kinds retired WITH the field. A kind left
+		// behind here would be triaged as live work by a reader of the
+		// review report, and nothing on the import path can emit it.
+		expect(
+			[...PUBLICATION.keys()].filter((k) => k.startsWith('slug-')),
+		).toEqual([]);
 	});
 });
 
@@ -95,7 +87,7 @@ describe('classifyRows', () => {
 	it('stamps review rows and leaves faults bare', () => {
 		const report = createReport();
 		report.rows = [
-			lineRow('A00001: x', 'slug-unsafe'),
+			lineRow('A00001: x', 'headword-unparsed'),
 			lineRow('A00002: y', 'finish-failed', 'pipeline', 'fault'),
 		];
 		classifyRows(report);

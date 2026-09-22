@@ -19,8 +19,8 @@ function entry(over: Partial<TruthEntry> = {}): TruthEntry {
 	return {
 		headword: { text: 'אבג' },
 		id: 'A00001',
+		sefariaHeadword: 'אבג',
 		senses: [sense()],
-		slug: 'abg',
 		...over,
 	};
 }

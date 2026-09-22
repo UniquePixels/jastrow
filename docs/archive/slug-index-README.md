@@ -1,5 +1,9 @@
 # Slug index
 
+> **ARCHIVED 2026-09-21.** `data/slug-index/` and the slug itself were
+> retired by the [URL names spec](../specs/2026-09-21-url-names-design.md)
+> §7; nothing below describes the pipeline as it now runs.
+
 The record of which URL name belongs to which entry. **Reference data**
 (consolidation spec §1.1).
 

@@ -16,7 +16,7 @@ Patch corpus: 112 reviewed, 113 accepted, 230 applied, 61 carry-over absorbed, 5
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |
 | internalTargets | 0 / 0 | 0 |
-| slugs | 32512 / 32512 | 0 |
+| names | 65024 / 65024 | 0 |
 | pages | 32512 / 32512 | 0 |
 | composition | 65024 / 65024 | 0 |
 
@@ -2601,23 +2601,6 @@ Composed counts: each rule sees the text the rules before it left.
 | continuation-marker-em-dash-loss | 14 | 14 |
 | repairs:binyan-cleanup | 938 | 751 |
 
-## Slug collisions
-
-| members per stem | stems |
-|---|---|
-| 1 | 20872 |
-| 2 | 2806 |
-| 3 | 920 |
-| 4 | 396 |
-| 5 | 163 |
-| 6 | 68 |
-| 7 | 32 |
-| 8 | 15 |
-| 9 | 8 |
-| 10 | 1 |
-| 11 | 2 |
-| 13 | 1 |
-
 ## Quarantined internal targets
 
 _none_
@@ -2654,7 +2637,7 @@ Truth:
 ```json
 {
 	"id": "A00000",
-	"slug": "א-1",
+	"sefariaHeadword": "א",
 	"headword": {
 		"text": "א"
 	},
@@ -2716,7 +2699,7 @@ Truth:
 ```json
 {
 	"id": "A00812",
-	"slug": "אופן-2",
+	"sefariaHeadword": "אוֹפֶן",
 	"headword": {
 		"text": "אוֹפֶן"
 	},
@@ -2769,7 +2752,7 @@ Truth:
 ```json
 {
 	"id": "A01624",
-	"slug": "אישטטיון",
+	"sefariaHeadword": "אִישְׂטַטְיוֹן",
 	"headword": {
 		"text": "אִישְׂטַטְיוֹן"
 	},
@@ -2819,7 +2802,7 @@ Truth:
 ```json
 {
 	"id": "A02436",
-	"slug": "אסיל",
+	"sefariaHeadword": "אָסִיל",
 	"headword": {
 		"text": "אָסִיל"
 	},
@@ -2876,7 +2859,7 @@ Truth:
 ```json
 {
 	"id": "A03248",
-	"slug": "ארר-2",
+	"sefariaHeadword": "אֲרַר",
 	"headword": {
 		"text": "אֲרַר"
 	},
@@ -2931,7 +2914,7 @@ Truth:
 ```json
 {
 	"id": "B00603",
-	"slug": "ביישיא",
+	"sefariaHeadword": "ביישיא",
 	"headword": {
 		"text": "ביישיא"
 	},
@@ -3008,7 +2991,7 @@ Truth:
 ```json
 {
 	"id": "C00016",
-	"slug": "גאי-2",
+	"sefariaHeadword": "גְּאִי",
 	"headword": {
 		"text": "גְּאִי"
 	},
@@ -3089,7 +3072,7 @@ Truth:
 ```json
 {
 	"id": "E00039",
-	"slug": "הבכין",
+	"sefariaHeadword": "הַבְכֵין",
 	"headword": {
 		"text": "הַבְכֵין"
 	},
@@ -3141,7 +3124,7 @@ Truth:
 ```json
 {
 	"id": "D00207",
-	"slug": "דוהניתא",
+	"sefariaHeadword": "דּוּהֲנִיתָא",
 	"headword": {
 		"text": "דּוּהֲנִיתָא"
 	},
@@ -3196,7 +3179,7 @@ Truth:
 ```json
 {
 	"id": "E00343",
-	"slug": "הידוס",
+	"sefariaHeadword": "הִידּוּס",
 	"headword": {
 		"text": "הִידּוּס"
 	},
@@ -3251,7 +3234,7 @@ Truth:
 ```json
 {
 	"id": "E00667",
-	"slug": "הנה-1",
+	"sefariaHeadword": "הַנָּה",
 	"headword": {
 		"text": "הַנָּה"
 	},
@@ -3304,7 +3287,7 @@ Truth:
 ```json
 {
 	"id": "G00401",
-	"slug": "זיפת׳",
+	"sefariaHeadword": "זִיפְתּ׳",
 	"headword": {
 		"text": "זִיפְתּ׳"
 	},
@@ -3360,7 +3343,7 @@ Truth:
 ```json
 {
 	"id": "H00471",
-	"slug": "חורם",
+	"sefariaHeadword": "חוֹרֵם",
 	"headword": {
 		"text": "חוֹרֵם"
 	},
@@ -3413,7 +3396,7 @@ Truth:
 ```json
 {
 	"id": "I00369",
-	"slug": "טילמא",
+	"sefariaHeadword": "טִילְמָא",
 	"headword": {
 		"text": "טִילְמָא"
 	},
@@ -3469,7 +3452,7 @@ Truth:
 ```json
 {
 	"id": "H01095",
-	"slug": "חלמיש",
+	"sefariaHeadword": "חַלָּמִישׁ",
 	"headword": {
 		"text": "חַלָּמִישׁ"
 	},
@@ -3521,7 +3504,7 @@ Truth:
 ```json
 {
 	"id": "K00318",
-	"slug": "כוסא-2",
+	"sefariaHeadword": "כּוֹסָא ²",
 	"headword": {
 		"text": "כּוֹסָא",
 		"disambiguator": 2
@@ -3573,7 +3556,7 @@ Truth:
 ```json
 {
 	"id": "K01130",
-	"slug": "כרופסלה",
+	"sefariaHeadword": "כרופסלה",
 	"headword": {
 		"text": "כרופסלה"
 	},
@@ -3633,7 +3616,7 @@ Truth:
 ```json
 {
 	"id": "M01828",
-	"slug": "מסאב",
+	"sefariaHeadword": "מְסָאָב",
 	"headword": {
 		"text": "מְסָאָב"
 	},
@@ -3720,7 +3703,7 @@ Truth:
 ```json
 {
 	"id": "J00512",
-	"slug": "יפע-2",
+	"sefariaHeadword": "יְפַע",
 	"headword": {
 		"text": "יְפַע"
 	},
@@ -3800,7 +3783,7 @@ Truth:
 ```json
 {
 	"id": "L00171",
-	"slug": "לו-2",
+	"sefariaHeadword": "לוּ",
 	"headword": {
 		"text": "לוּ"
 	},
@@ -3855,7 +3838,7 @@ Truth:
 ```json
 {
 	"id": "M02264",
-	"slug": "מצבה-1",
+	"sefariaHeadword": "מַצָּבָה",
 	"headword": {
 		"text": "מַצָּבָה"
 	},
@@ -3914,7 +3897,7 @@ Truth:
 ```json
 {
 	"id": "M00076",
-	"slug": "מבואה",
+	"sefariaHeadword": "מְבוֹאָה",
 	"headword": {
 		"text": "מְבוֹאָה"
 	},
@@ -3993,7 +3976,7 @@ Truth:
 ```json
 {
 	"id": "M00888",
-	"slug": "מחלה-1",
+	"sefariaHeadword": "מְחִלָּה",
 	"headword": {
 		"text": "מְחִלָּה"
 	},
@@ -4067,7 +4050,7 @@ Truth:
 ```json
 {
 	"id": "N00588",
-	"slug": "נטרונא",
+	"sefariaHeadword": "נַטְרוֹנָא",
 	"headword": {
 		"text": "נַטְרוֹנָא"
 	},
@@ -4127,7 +4110,7 @@ Truth:
 ```json
 {
 	"id": "O01000",
-	"slug": "סלירא-2",
+	"sefariaHeadword": "סלירא",
 	"headword": {
 		"text": "סלירא"
 	},
@@ -4183,7 +4166,7 @@ Truth:
 ```json
 {
 	"id": "N01212",
-	"slug": "נקיפתא",
+	"sefariaHeadword": "נְקִיפְתָּא",
 	"headword": {
 		"text": "נְקִיפְתָּא"
 	},
@@ -4271,7 +4254,7 @@ Truth:
 ```json
 {
 	"id": "O01624",
-	"slug": "סריק-2",
+	"sefariaHeadword": "סָרֵיק ²",
 	"headword": {
 		"text": "סָרֵיק",
 		"disambiguator": 2
@@ -4356,7 +4339,7 @@ Truth:
 ```json
 {
 	"id": "P00715",
-	"slug": "עכבונית",
+	"sefariaHeadword": "עכבונית",
 	"headword": {
 		"text": "עכבונית"
 	},
@@ -4413,7 +4396,7 @@ Truth:
 ```json
 {
 	"id": "Q00976",
-	"slug": "פלומא",
+	"sefariaHeadword": "*פְּלוּמָא",
 	"headword": {
 		"text": "פְּלוּמָא",
 		"reconstructed": true
@@ -4472,7 +4455,7 @@ Truth:
 ```json
 {
 	"id": "Q01532",
-	"slug": "פרא-6",
+	"sefariaHeadword": "פָּרָא III",
 	"headword": {
 		"text": "פָּרָא",
 		"homograph": 3
@@ -4525,7 +4508,7 @@ Truth:
 ```json
 {
 	"id": "P01151",
-	"slug": "עקבה",
+	"sefariaHeadword": "עֲקֵבָה",
 	"headword": {
 		"text": "עֲקֵבָה"
 	},
@@ -4588,7 +4571,7 @@ Truth:
 ```json
 {
 	"id": "Q01836",
-	"slug": "פרישא",
+	"sefariaHeadword": "פָּרִישָׁא",
 	"headword": {
 		"text": "פָּרִישָׁא"
 	},
@@ -4654,7 +4637,7 @@ Truth:
 ```json
 {
 	"id": "S00186",
-	"slug": "קדריה",
+	"sefariaHeadword": "קדריה",
 	"headword": {
 		"text": "קדריה"
 	},
@@ -4707,7 +4690,7 @@ Truth:
 ```json
 {
 	"id": "S00998",
-	"slug": "קילתא-2",
+	"sefariaHeadword": "קִילְתָא",
 	"headword": {
 		"text": "קִילְתָא"
 	},
@@ -4780,7 +4763,7 @@ Truth:
 ```json
 {
 	"id": "T00615",
-	"slug": "ריח-1",
+	"sefariaHeadword": "רִיחַ",
 	"headword": {
 		"text": "רִיחַ"
 	},
@@ -4867,7 +4850,7 @@ Truth:
 ```json
 {
 	"id": "T00131",
-	"slug": "רבעא",
+	"sefariaHeadword": "רִבְעָא",
 	"headword": {
 		"text": "רִבְעָא"
 	},
@@ -4933,7 +4916,7 @@ Truth:
 ```json
 {
 	"id": "U00128",
-	"slug": "שביעה",
+	"sefariaHeadword": "שְׂבִיעָה",
 	"headword": {
 		"text": "שְׂבִיעָה"
 	},
@@ -4994,7 +4977,7 @@ Truth:
 ```json
 {
 	"id": "U01796",
-	"slug": "שפק",
+	"sefariaHeadword": "שָׂפַק",
 	"headword": {
 		"text": "שָׂפַק"
 	},
@@ -5052,7 +5035,7 @@ Truth:
 ```json
 {
 	"id": "V00466",
-	"slug": "תימן",
+	"sefariaHeadword": "תימן",
 	"headword": {
 		"text": "תימן"
 	},
@@ -5131,7 +5114,7 @@ Truth:
 ```json
 {
 	"id": "U01420",
-	"slug": "שמד-2",
+	"sefariaHeadword": "שְׁמַד",
 	"headword": {
 		"text": "שְׁמַד"
 	},

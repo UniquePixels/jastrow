@@ -236,4 +236,11 @@ function reviewReason(decomposed: Decomposed): HeadwordReview | undefined {
 }
 
 export type { Decomposed, HeadwordReview, HeadwordReviewKind };
-export { decomposeForm, isHeadwordReviewKind, regenerateForm, reviewReason };
+export {
+	decomposeForm,
+	intToRoman,
+	intToSup,
+	isHeadwordReviewKind,
+	regenerateForm,
+	reviewReason,
+};

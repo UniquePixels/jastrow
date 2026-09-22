@@ -6,7 +6,7 @@ import { expect, it } from 'bun:test';
  *
  * Nine sibling `plural_form` rows were discarded on one shared ground:
  * the field is not a v2 field. `entry.schema.json` sets
- * `additionalProperties: false` over `{id, slug, headword, altHeadwords,
+ * `additionalProperties: false` over `{id, sefariaHeadword, headword, altHeadwords,
  * page, grammar, senses, stems}`, and `rejoin.ts` concatenates only
  * `content.morphology`, `language_code`, `language_reference` and the
  * sense-1 text. That field-side argument is what the one test below

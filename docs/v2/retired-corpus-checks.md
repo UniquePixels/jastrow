@@ -49,15 +49,20 @@ guard it named is a review-detector candidate (spec §10) — it does
 not mean the defect the row describes has returned; the entry data
 still carries whatever import's gates and report cover today.
 
-**Highest priority.** The three `body/deletion-baseline.corpus.test.ts`
-rows below pinned the per-rule deleted-codepoint counts for the thirteen
-`text-repairs` rules that delete text (totaling 4,573 deleted codepoints).
-`checkNoLostText` (`transform/no-lost-text.ts`) is wired for
-`structural-repairs` only, and `migrate`'s `checkTextConservation`
-compares the composed body against the finished entry rather than per
-rule, so of everything in this table these three are the review detector
-to write first: without it a fourteenth deleting `text-repairs` rule now
-passes every gate and every test unremarked.
+**Covered since 2026-09-21** (this paragraph read "highest priority"
+until then). The three `body/deletion-baseline.corpus.test.ts` rows
+below pinned the per-rule deleted-codepoint counts for the thirteen
+`text-repairs` rules that delete text (totaling 4,573 deleted
+codepoints).
+`checkNoLostText` (`transform/no-lost-text.ts`) **now runs for every
+phase**, with a per-rule loss allowance — `LOSS_ALLOWANCES` for the
+nine `text-repairs` rules whose dropped codepoints are a fixed set, and
+a per-call `removes` declaration for the four whose are per-entry (PR
+[#127](https://github.com/UniquePixels/jastrow/pull/127), 2026-09-21).
+That is the replacement these three rows were waiting for, so they are
+no longer the detector to write first; what a per-rule corpus check
+still pinned and the gate does not is the exact COUNT of codepoints
+each rule drops, rather than the set it is allowed to drop.
 
 | Kind | Meaning |
 |---|---|
