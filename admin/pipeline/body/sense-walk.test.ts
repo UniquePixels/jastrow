@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceSense } from '../types.ts';
 import type { Boundary } from './sense-walk.ts';
 import { classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
-import type { SourceSense } from './types.ts';
 
 // The pattern the scanner replaced. `[^>]+` is what backtracks.
 const TAGS = /<[^>]+>/gu;
@@ -49,6 +49,7 @@ const CASES: [string, string][] = [
 	['אִיבּוּס <i>ib.</i> 4a', 'אִיבּוּס ib. 4a'],
 ];
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('stripTags', () => {
 	it.each(CASES)('strips %j to %j', (input, expected) => {
 		expect(stripTags(input)).toBe(expected);

@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import type { FormSectionParts } from './form-sections.ts';
 import { joinFormSection, splitFormSection } from './form-sections.ts';
 import { splitLettered } from './lettered.ts';
 import { walkSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 const PLURAL_FIXTURES = 'admin/pipeline/body/fixtures/plural.jsonl';
 const FORM_SECTION_FIXTURES =
@@ -69,7 +69,7 @@ function assertSplit(text: string): FormSectionParts {
 
 /** The text a definition presents to `splitFormSection` in the real
  * composition (design §3 order): after `lettered.ts`'s split, on its
- * resulting head — mirrors `dry-run.ts`'s `buildTextSense`. */
+ * resulting head — mirrors `trace.ts`'s `buildTextSense`. */
 function formSectionInputHead(definition: string): string {
 	const lettered = splitLettered(definition);
 	return lettered ? lettered.head : definition;

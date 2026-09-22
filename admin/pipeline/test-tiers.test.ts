@@ -40,7 +40,7 @@
  * about coverage is only worth what its detector actually matches.
  *
  * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
- * `dry-run.ts`, `count.ts` or `patch/apply-cli.ts`, each of which holds
+ * `count.ts` or `patch/apply-cli.ts`, each of which holds
  * its own no-argument read. No test does that today, and the
  * measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds

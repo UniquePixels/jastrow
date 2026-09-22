@@ -58,7 +58,7 @@
  * rather than chased, since a second pass would need the same evidence
  * for a different position and the row's count is stated at 18.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The one shape this rule accepts: a definition ending in a sense
@@ -135,6 +135,19 @@ function repairLevel(
 	return out;
 }
 
+/**
+ * A numbered sense trailing off into a bare `—N)` marker whose text
+ * sits unlabelled in the next sibling: the marker moves into that
+ * sibling's `number`, the field that exists to hold it. Runs in
+ * `structural-repairs`, first in the phase.
+ *
+ * Only an EMPTY residue matches, and that clause is the row rather
+ * than a guard on it — dropping it would find ten more, three of them
+ * carrying the real opening of sense 2, which a "delete the marker"
+ * rule would destroy. The marker's own trailing space is the one
+ * deletion and is declared through `removes`, so this rule does not
+ * quietly hand `trailing-whitespace-definition` new members.
+ */
 const stemHeadMarkerChop: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const records: TransformRecord[] = [];

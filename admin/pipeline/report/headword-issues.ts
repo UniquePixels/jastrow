@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one report: each row builder needs the same entry map, and splitting them would duplicate the load.
 /**
  * Headword issue report — every headword and alternate-headword shape
  * that a perfect-or-halt headword rule would have to rule on, grouped
@@ -19,9 +20,9 @@
  *
  * Run: bun run headword:issues
  */
-import { isHeadwordReviewKind } from './migrate/headwords.ts';
-import { nameOf } from './migrate/names.ts';
-import type { FormObject, TruthEntry } from './migrate/types.ts';
+import { isHeadwordReviewKind } from '../migrate/headwords.ts';
+import { nameOf } from '../migrate/names.ts';
+import type { FormObject, TruthEntry } from '../migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
 const REPORT_PATH = 'data/source/migration-report.json';
@@ -481,6 +482,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
  * A row is a question, never a verdict: the note says which numerals
  * are missing and how many unnumbered siblings could be carrying them,
  * so the print can settle it. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one pass over the homograph families; the gap test needs the whole family in scope.
 function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 	const families = new Map<
 		string,

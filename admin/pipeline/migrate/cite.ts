@@ -12,18 +12,28 @@
  * only: nothing stored is ever normalized, so gate 2's byte-exact
  * headword regeneration sees the source spelling untouched.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import type { RefResolver } from './markup.ts';
 
 const INTERNAL_PREFIX = 'Jastrow,_';
 const SENSE_SUFFIX = /\.\d+$/u;
 const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
 
+/** One internal `<cite ref>` target that no entry owns, with the rid
+ * it was met in. The target is the spelling the href actually carried:
+ * what reaches this list, and the quarantine row it has to match, is
+ * never the normalized form the map was queried with. */
 interface Unresolved {
 	rid: string;
 	target: string;
 }
 
+/** One pair on the reviewed quarantine list at
+ * `data/quarantine/internal-targets.json`: an internal target nothing
+ * resolves, a note about it, and the human sign-off below. Gate 6
+ * holds this list and the run's unresolved set to each other in both
+ * directions, so a row here is a claim that the pair is known — it
+ * cannot hide a target the run no longer meets. */
 interface QuarantineRow {
 	note: string;
 	/** The date a human accepted this row, `YYYY-MM-DD`. ABSENT until
@@ -148,5 +158,4 @@ export {
 	createResolver,
 	internalTarget,
 	loadQuarantine,
-	QUARANTINE_PATH,
 };

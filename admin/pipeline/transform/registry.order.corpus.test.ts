@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * Registry order's classes, EARNED over the corpus.
  *
@@ -13,7 +14,7 @@
  * registers, reclassifies or reorders a rule.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { tokenize } from './html.ts';
 import { anchors } from './links.ts';
 import { fieldsOf, textOf } from './no-new-text.ts';
@@ -87,6 +88,7 @@ let scanned: Promise<void> | null = null;
 
 /** The corpus pass itself, run once however many tests await it. */
 function scan(): Promise<void> {
+	// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: the branching is the test matrix itself; extracting it would hide which case is being asserted.
 	scanned ??= (async (): Promise<void> => {
 		for (const source of await sourceEntries()) {
 			const before = targetsOf(source);
@@ -153,6 +155,7 @@ function everDeclared(kind: string): string[] {
 		.toSorted(byId);
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('the classification is earned, not declared', () => {
 	it('exactly the UNLINK rules ever remove an anchor', async () => {
 		await scan();
@@ -189,6 +192,8 @@ describe('the classification is earned, not declared', () => {
 	//
 	// Asserted here rather than argued in a comment, because an argument
 	// would keep passing after a re-fetch changed the corpus.
+	// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: the branching is the test matrix itself; extracting it would hide which case is being asserted.
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('the cross-phase unlink rules orphan no target', async () => {
 		// Named apart from the file's own `targetsOf`, which returns a
 		// JSON signature of href/data-ref PAIRS for the classification

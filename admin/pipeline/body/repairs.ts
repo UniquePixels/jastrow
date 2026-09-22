@@ -9,10 +9,20 @@
  * field carries the reasoning a table here could not. `walkSensesDeep`
  * lives here and is shared with `migrate/orphan-refs.ts`.
  */
-import type { SourceEntry, SourceSense } from './types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 
+/** Which repair pass produced a `RepairRecord`. A closed union rather
+ * than a free string, so a corpus-wide pass has to be named here
+ * before it can record anything — and a repair keyed on a single rid,
+ * which belongs in `data/patches/reviewed/` (spec §4.1) instead, can
+ * never quietly acquire a name in this file. */
 type PassName = 'binyan-cleanup';
 
+/** One change `applyRepairs` made: which pass made it, the rid it was
+ * made on, and a human-readable `detail` of what changed. The passes
+ * edit upstream data, so none of them is allowed to be silent — these
+ * records are the trail a reviewer reads the corpus-wide repairs back
+ * from. */
 interface RepairRecord {
 	detail: string;
 	pass: PassName;

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { checkMarkup, damageOf } from './markup.ts';
 
 function entry(definition: string, headword = 'x'): SourceEntry {
@@ -58,6 +58,7 @@ describe('damageOf', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkMarkup', () => {
 	it('passes a rule that only wraps existing text', () => {
 		expect(

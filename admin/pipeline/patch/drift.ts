@@ -20,7 +20,7 @@
  * text folded into a neighbour — some definition ending with, or
  * holding exactly once, `token + expected_before`.
  */
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 import {
 	applyPatch,
 	countOccurrences,
@@ -32,6 +32,13 @@ import {
 	walkSenses,
 } from './schema.ts';
 
+/** What `classifyDrift` concluded about a patch whose precondition no
+ * longer holds — the two outcomes are not symmetric.
+ * `upstream-fixed` is a claim that the repair already landed, and it
+ * is made only when the post-state can be seen in the entry;
+ * `upstream-changed` is the default, and means a person re-judges the
+ * patch. The asymmetry is the point: a wrong "fixed" archives a patch
+ * that was still needed, a wrong "changed" costs one look. */
 type DriftOutcome = 'upstream-changed' | 'upstream-fixed';
 
 /** The senses a patch leaves where its target stood, computed by

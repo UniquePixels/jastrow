@@ -13,7 +13,7 @@
  * The classes live here rather than in either test so the order
  * assertions run on every `bun qa` without reading the source data.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import type { TagToken } from './html.ts';
 import { DIR_RTL, opensScope, tokenize } from './html.ts';
 import { fieldsOf } from './no-new-text.ts';
@@ -507,6 +507,14 @@ function coverageSignatureIn(field: string): [number, number[][]] {
 	return [opens, runs];
 }
 
+/** One entry's whole rtl-wrapper signature: `coverageSignatureIn`
+ * over every field `fieldsOf` walks, serialised so two entries
+ * compare with `===`.
+ *
+ * This is half (a) of the `WRAP` conjunction. A rule that leaves this
+ * string alone across the corpus moved no wrapper; one that changes it
+ * and leaves the tag-stripped text alone is a wrap rule, and must be
+ * named in `WRAP` or fail the corpus pass. */
 function rtlSpanCoverageOf(entry: SourceEntry): string {
 	return JSON.stringify(fieldsOf(entry).map(coverageSignatureIn));
 }

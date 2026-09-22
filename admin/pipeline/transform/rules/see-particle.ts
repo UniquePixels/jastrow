@@ -1,7 +1,7 @@
 /**
- * `see-particle-lost` (`docs/archive/transform-batch-8.md` §3) — the
- * second rule in the registry to MINT text, and the first to mint a
- * word rather than a codepoint.
+ * `see-particle-lost` (`docs/archive/transform-batch-8.md` §3) — a
+ * rule that MINTS text, and the only one that mints a WORD rather
+ * than a codepoint or a mark.
  *
  * ## The defect
  *
@@ -68,7 +68,7 @@
  * renders reversed — the same class of mistake `sectionBreakTerminator`
  * avoids by putting its period outside the closing `</i>`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The word this rule writes. */
@@ -158,6 +158,19 @@ function isWholeEntryStub(senses: readonly SourceSense[]): boolean {
 	return senses.length === 1 && (senses[0]?.senses ?? []).length === 0;
 }
 
+/**
+ * A whole-entry redirect stub whose see-particle slot is empty — the
+ * definition opening on its comma and running straight into the
+ * anchor — given back the `v.` that stood there. Runs in
+ * `text-repairs`.
+ *
+ * `allows` covers all three minted characters, and two restrictions
+ * bound them: the anchor must exhaust the definition, and the stub
+ * must BE the entry — one top-level sense with no children, which is
+ * what separates these four from the fourteen child senses carrying
+ * the same string shape. The particle is spliced in OUTSIDE the
+ * anchor, never into the display.
+ */
 const seeParticleRestore: Rule = {
 	// THE RULING. See the header: a null model of
 	// 7,270 populated slots against 4 empty ones, with a vocabulary of a
@@ -195,11 +208,4 @@ const seeParticleRestore: Rule = {
 	phase: 'text-repairs',
 };
 
-export {
-	isEmptySlot,
-	isWholeEntryStub,
-	PARTICLE,
-	restoreParticle,
-	seeParticleRestore,
-	stubSlot,
-};
+export { PARTICLE, restoreParticle, seeParticleRestore };

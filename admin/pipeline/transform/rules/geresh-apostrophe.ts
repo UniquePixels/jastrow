@@ -83,7 +83,7 @@
  * writes no link target, declares nothing to `link-target.ts`, and
  * leaves every `<…>` run byte-identical.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../html.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
@@ -187,6 +187,17 @@ function recordFor(
 	};
 }
 
+/**
+ * A geresh followed by an ASCII apostrophe standing where print sets
+ * a single gershayim, replaced by that one mark. Runs in
+ * `text-repairs`, on document text only — `repairText` blanks every
+ * tag before matching, so nothing inside a `<…>` can be reached and
+ * no link target is written.
+ *
+ * Two codepoints leave for every one that arrives, so both sides are
+ * declared: `allows` for the mark written, `removes` for each pair
+ * consumed.
+ */
 const gereshApostropheGershayim: Rule = {
 	// The OCR ruling: this call writes a `״` only where it
 	// removed a `׳'`, and that is what the allowance covers — what this

@@ -13,7 +13,7 @@
  * `fields.test.ts` asserts the parity rather than asserting it here
  * in a comment.
  */
-import type { SourceEntry, SourceGrammar, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceGrammar, SourceSense } from '../types.ts';
 
 /** Set by `one()` the first time the mapper returns something new, so
  * `mapFields` can hand back `undefined` for an unchanged entry. */
@@ -21,6 +21,11 @@ interface Moved {
 	any: boolean;
 }
 
+/** A rule's per-field text repair, as `mapFields` hands it each
+ * text-bearing field's whole value. Returning the argument unchanged
+ * is how it declines a field: `one` compares the result with `!==`,
+ * so an identical string moves nothing and `mapFields` can hand the
+ * caller back its own entry. */
 type Mapper = (text: string) => string;
 
 /** Applies `map` to one field and records on `moved` that something

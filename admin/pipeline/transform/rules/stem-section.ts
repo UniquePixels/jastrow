@@ -52,7 +52,7 @@
  * | multi-label / paren-prefixed head | 2 | `I00696`, `O01115` — real, but a shape this rule does not take |
  *
  * **The 100 are the row's hard half and they are a MODEL question.**
- * `buildTrace` (`dry-run.ts:252`) tests `.grammar` on
+ * `buildTrace` (`body/trace.ts`) tests `.grammar` on
  * `content.senses` only, and **0 entries in the corpus carry a
  * grammar object below top level** — so writing one there would
  * create a shape nothing reads and nothing else has. They are carried
@@ -115,7 +115,7 @@
  * source update that ends the coincidence rather than merely lucky in
  * this snapshot.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
@@ -297,6 +297,20 @@ function alreadyHasStem(entry: SourceEntry, stem: string): boolean {
 		.some((sense) => sense.grammar?.verbal_stem === stem);
 }
 
+/**
+ * A verb-stem section print sets as a heading and Sefaria left in the
+ * prose of a plain sense: the label is lifted into a new
+ * `grammar.verbal_stem` and the rest of the definition into a child
+ * sense, which is where a parsed stem block keeps its text. Runs in
+ * `structural-repairs`.
+ *
+ * It takes the top-level sense at index 0 and no other — `stems[]`
+ * has no representation below top level — and declines when a later
+ * sense already carries that stem, so it never mints a second block
+ * for a section the entry already represents. The seam prefix and the
+ * label's following space are its deletions, declared through
+ * `removes`.
+ */
 const strandedStemHead: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const [first] = entry.content.senses;

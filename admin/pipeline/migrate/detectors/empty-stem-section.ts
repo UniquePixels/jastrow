@@ -16,6 +16,9 @@ import type { TruthEntry, TruthStem } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, walkSequence } from './senses.ts';
 
+/** Catalogue id and report `kind` for a stem block whose senses carry
+ * no visible text — the reader meets a stem heading with nothing
+ * under it. */
 const EMPTY_STEM_SECTION = 'empty-stem-section';
 
 /** What the review report tells a reader to do about these rows. */

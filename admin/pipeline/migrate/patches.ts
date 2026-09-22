@@ -1,7 +1,7 @@
 /** Patch accounting for the migrate CLI (consolidation spec §3.3,
  * §4.2): the per-entry outcome rows a run's offered patches resolve
  * to, and the fault rows for a patch whose rid never streamed past. */
-import type { ComposeResult } from '../body/compose.ts';
+import type { ComposeResult } from '../compose.ts';
 import type { DriftMode } from '../patch/apply.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -95,4 +95,4 @@ function markMissingTargets(groups: PatchGroups, report: Report): void {
 }
 
 export type { PatchGroups };
-export { DRIFT_DETAIL, markMissingTargets, recordPatchOutcomes };
+export { markMissingTargets, recordPatchOutcomes };

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the run's stages in committed order; a split would hide the sequence the report depends on.
 /**
  * Migration — source snapshot to truth files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
@@ -14,12 +15,11 @@ import { existsSync } from 'node:fs';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
-import { composeEntry, TransformFailure } from './body/compose.ts';
-import { buildTrace } from './body/dry-run.ts';
-import { evaluateRoundTrip } from './body/dry-run-verify.ts';
 import type { PassName } from './body/repairs.ts';
+import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
-import type { BodyEntry, SourceEntry } from './body/types.ts';
+import { buildTrace } from './body/trace.ts';
+import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './migrate/biome.ts';
 import {
 	buildHeadwordMap,
@@ -76,6 +76,7 @@ import {
 import { computeSnapshot } from './patch/snapshot.ts';
 import entrySchema from './schema/entry.schema.json' with { type: 'json' };
 import { RULES } from './transform/registry.ts';
+import type { BodyEntry, SourceEntry } from './types.ts';
 
 const OUT_DIR = 'data/entries';
 const SAMPLE_COUNT = 40;
@@ -164,6 +165,7 @@ async function preparePatches(
  * composition failure is recorded on gate 9 and as a fault row, and the
  * entry is dropped from pass 2 — the walk keeps going so one run lists
  * every failure. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one entry through the three phases in order; the order is the contract.
 function composeOne(
 	source: SourceEntry,
 	groups: PatchGroups,
@@ -333,6 +335,7 @@ async function loadSourceHeadwords(): Promise<ReadonlyMap<string, string>> {
 }
 
 /** Pass 2: finish and gate every composed entry, in corpus order. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: the second pass, stage by stage; splitting it would hide the sequence the gates assume.
 function finishAll(
 	composed: readonly Composed[],
 	indexes: Indexes,
@@ -453,11 +456,15 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 	return (await scan.next()).done === true;
 }
 
-/** The D14 "writes once" guard, as its own step so a test can reach
- * it: `--write` refuses outright unless the truth tree is empty,
- * because the migration is a one-shot and a second pass over a
- * half-written tree would leave a mix of two runs (consolidation spec
- * R1 — permanent). */
+/** The empty-tree guard, as its own step so a test can reach it:
+ * `--write` refuses outright unless the entry tree is empty.
+ *
+ * NOT because the migration is a one-shot — R1 withdrew that, and this
+ * command is permanent and re-runnable. The guard stands in for the
+ * update run: until §3.2's three-way merge exists, a second `--write`
+ * over a populated tree would overwrite hand edits blindly. R11 calls
+ * it a relic of the withdrawn D14 rather than a safety property, and
+ * retires it when that merge ships. */
 async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
 		throw new Error(`${dir} already holds truth files; migration writes once`);
@@ -554,11 +561,17 @@ function printGates(report: Report): void {
 	);
 }
 
-/** The migrate CLI. Without `--write` it is a dry run: everything is
- * composed, gated and reported, and nothing is written to the truth
- * tree. With `--write` it refuses outright unless that tree is empty,
- * because the migration is a one-shot and a second pass over a
- * half-written tree would leave a mix of two runs. */
+/** The migrate CLI, and the pipeline's only entry point to a write.
+ *
+ * Without `--write` it is a dry run: every entry is composed, gated
+ * and reported, and nothing reaches `data/entries/`. The dry run is
+ * the normal way to use it — the three generated documents come back
+ * either way, so a change is measured before it is committed.
+ *
+ * `--write` adds the empty-tree guard (`refuseUnlessEmpty`) and
+ * re-runs every gate, refusing on any red one. `--strict` promotes a
+ * stale snapshot pin and a drifted patch precondition from report
+ * rows to refusals (consolidation spec §4.2). */
 async function main(): Promise<void> {
 	const options = runOptions(process.argv);
 	if (options.write) {

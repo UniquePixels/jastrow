@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import {
 	LABELS,
 	restoreStops,
@@ -15,6 +15,7 @@ const one = (definition: string): SourceEntry => ({
 const defOf = (e: SourceEntry): string | undefined =>
 	e.content.senses[0]?.definition;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('restoreStops', () => {
 	it('restores the period before a bare section head', () => {
 		expect(restoreStops('is severed—Pl. חבילין')?.repaired).toBe(

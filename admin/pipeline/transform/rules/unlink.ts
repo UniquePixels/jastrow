@@ -10,7 +10,7 @@
  * The markup-delta gate reads a dropped tag pair as an improvement, so
  * that count is the only check that the rule dropped what it meant to.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, unlink } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
@@ -353,6 +353,17 @@ function collectObserved(
 	}
 }
 
+/** The keys of `convention` that `raw` matched nowhere in `corpus` —
+ * empty while every enumerated exception is still live.
+ *
+ * The loud-on-drift half of an exclusion list, and it walks the whole
+ * corpus because the question is not one `Rule.apply` can answer: from
+ * inside a single entry, "this rid never came through" and "it came
+ * through and matched" both look like silence. Generic over the
+ * predicate and the corpus, so a later convention-exclusion rule calls
+ * this rather than re-deriving it. The long note above
+ * `collectObserved` is this function's own rationale and records where
+ * the check ran. */
 async function unobservedConvention(
 	convention: ReadonlySet<string>,
 	corpus: AsyncIterable<SourceEntry> | Iterable<SourceEntry>,
@@ -450,6 +461,17 @@ const ELLIPSIS_CONVENTION: ReadonlySet<string> = new Set([
 	'D00702|Jastrow, דיקלאי 1',
 ]);
 
+/**
+ * A word-head elision — print's `…X` for a stem the compositor did
+ * not re-set — whose printed tail the linker read as the whole lemma
+ * and anchored to a same-spelled headword. The anchor is dropped and
+ * the display text kept, this family's standing repair. Runs in
+ * `text-repairs`.
+ *
+ * `ellipsisRaw` is the defect and `ELLIPSIS_CONVENTION` subtracts the
+ * six occurrences where the ellipsis is ordinary sentence elision and
+ * the anchored word is complete and correct.
+ */
 const ellipsisFragment: Rule = {
 	apply: (entry: SourceEntry): TransformResult =>
 		unlinkOverDefinitions(
@@ -467,7 +489,6 @@ export {
 	apparatusCite,
 	ELLIPSIS_CONVENTION,
 	ellipsisFragment,
-	ellipsisRaw,
 	rabbiName,
 	unlinkMatching,
 	unlinkOverDefinitions,

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { BodyEntry, SourceEntry } from '../body/types.ts';
+import type { BodyEntry, SourceEntry } from '../types.ts';
 import { finishEntry } from './finish.ts';
 
 const source: SourceEntry = {
@@ -34,6 +34,7 @@ const context = {
 	sefariaHeadwords: new Map([['A00014', 'אָב II']]),
 };
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('finishEntry', () => {
 	it('assembles the truth entry in schema key order', () => {
 		const { entry, problems, unresolved } = finishEntry(source, body, context);

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule } from '../types.ts';
@@ -18,6 +18,7 @@ const entry = (definition: string): SourceEntry => ({
 const out = (rule: Rule, definition: string): string | undefined =>
 	rule.apply(entry(definition)).entry.content.senses[0]?.definition;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('bareRtlHebrew', () => {
 	it('wraps a quotation after a citation anchor', () => {
 		expect(out(bareRtlHebrew, '<a href="/x">Ber. 2ᵃ</a> שָׁלוֹם')).toBe(

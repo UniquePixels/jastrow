@@ -20,6 +20,9 @@ import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 
+/** Catalogue id and report `kind` for a trailing `<sup>` inside a
+ * `<cite>` that disagrees with the sub-section its `ref` ends on —
+ * the reader is shown one sub-section and taken to another. */
 const SUPERSCRIPT_SUBSECTION_CONTRADICTS =
 	'superscript-subsection-contradicts-link-sub-section';
 

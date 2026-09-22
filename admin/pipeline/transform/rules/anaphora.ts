@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the rule's evidence docstring is most of this file; the ruling belongs beside the code it licenses.
 /**
  * `ib-yoma-2a` (batch-2 link spec §4 row 8): a bare anaphoric citation
  * — "Ib.", *ibidem*, "the same place as the one just named" — anchored
@@ -325,7 +326,7 @@
  * Follow-up for whoever opens the next retarget work — do it BEFORE
  * adding a fourth arm, not after.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { serialize, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, retarget, type Target } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
@@ -454,6 +455,11 @@ const SIFRE_ANAPHOR = /^[Ii]b\.\s+(?<number>\d+)$/u;
  * introduces a third fails loudly.
  */
 const REF_LOCUS = /\s\d+(?::\d+)*(?:-\d+(?::\d+)*)?$/u;
+/** The same locus tail as `REF_LOCUS` above, in the `href`'s own
+ * spelling: dot-separated (`….309.6`) where the `data-ref` is spaced
+ * and colonned. Both are stripped off the SAME antecedent, so the
+ * corrected target's two halves are taken whole from one anchor
+ * rather than one being assembled from the other. */
 const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
 
 /**
@@ -1272,26 +1278,20 @@ export type { AntecedentRules };
 export {
 	ANAPHOR,
 	antecedentOf,
-	BOOK_LOCUS,
 	gapBetween,
 	HREF_LOCUS,
 	INTERVENING_CITATION,
 	ibAnaphora,
 	isCitation,
 	isSifreCitation,
-	isSifreMember,
 	isSinkMember,
 	isSpentAnaphor,
 	isTargumCitation,
 	isTargumMember,
 	REF_LOCUS,
-	SIFRE_ANAPHOR,
-	SIFRE_LABEL,
-	SIFRE_WORK,
 	sifreAnaphora,
 	TARGUM_WORKS,
 	targumAnaphora,
-	targumWorkOf,
 	textBetween,
 	usable,
 };

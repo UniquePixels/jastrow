@@ -1,4 +1,13 @@
-import type { SourceEntry } from '../../body/types.ts';
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the rule's evidence docstring is most of this file; the ruling belongs beside the code it licenses.
+/**
+ * The paren-boundary family: a `(` or a `)` sitting on the wrong side
+ * of an `</a>`, and the split Tosefta citation those anchors carry.
+ *
+ * The two rows, the walk they share, and why the halakha repair
+ * needed link-target gate case 7 are the block below, above
+ * `VARIANT_DISPLAY`.
+ */
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { serialize, type TextToken, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, retarget } from '../links.ts';

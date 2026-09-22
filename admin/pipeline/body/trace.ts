@@ -1,49 +1,39 @@
 /**
- * Full-corpus dry run (design doc §6.0). This module owns the §6.0
- * rule composition — `buildBody` wires the rejoin, lettered, units,
- * labels and grammar modules into one `BodyEntry` — and the
- * `bun body:dry-run` entry point, which streams the full corpus
- * through that composition and the round-trip verifier and writes the
- * gitignored blessing-gate report.
+ * The §6.0 body composition: `buildTrace` wires the rejoin, lettered,
+ * units, labels and grammar modules into one `BodyEntry`, and
+ * `buildBody` is the same walk with the trace's working detail
+ * dropped. `migrate.ts` imports both — this is import-path code, not a
+ * research tool.
  *
- * Round-trip verification lives in `dry-run-verify.ts` and the
- * accumulator, tally and schema-sample bookkeeping in
- * `dry-run-report.ts`. Neither depends back on this module, so
- * importing from them never forms a cycle; the split is to stay under
- * the per-file line budget.
- *
- * Run: bun body:dry-run
+ * It was extracted from `body/dry-run.ts`, whose other half was the
+ * `bun body:dry-run` full-corpus CLI. That CLI, its round-trip report
+ * accumulator (`dry-run-report.ts`) and the `body:dry-run` script were
+ * archived with the rest of the one-time research code at
+ * `refs/tags/archive/v2-research-2026-09`; the round-trip verifier
+ * they shared stayed, as `round-trip.ts`, because the migrate gate
+ * calls it.
  */
-import type { ValidateFunction } from 'ajv';
-import Ajv2020 from 'ajv/dist/2020';
-import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
-import type { Accumulator } from './dry-run-report.ts';
-import {
-	createAccumulator,
-	printSummary,
-	REPORT_PATH,
-	tallyGrammar,
-	tallyLabels,
-	tallyRoundTrip,
-	tallySchema,
-	tallyStructure,
-} from './dry-run-report.ts';
-import { evaluateRoundTrip } from './dry-run-verify.ts';
-import { splitFormSection } from './form-sections.ts';
-import { parseMarker } from './grammar.ts';
-import { parseLabel } from './labels.ts';
-import { splitLettered } from './lettered.ts';
-import { rejoinGlossHead } from './rejoin.ts';
-import { readSourceEntries } from './source.ts';
+
 import type {
 	BodyEntry,
 	BodySense,
 	BodyStem,
 	SourceEntry,
 	SourceSense,
-} from './types.ts';
+} from '../types.ts';
+import { splitFormSection } from './form-sections.ts';
+import { parseMarker } from './grammar.ts';
+import { parseLabel } from './labels.ts';
+import { splitLettered } from './lettered.ts';
+import { rejoinGlossHead } from './rejoin.ts';
 import { segmentUnits } from './units.ts';
 
+/** One value the §6.0 composition refused to interpret: the offending
+ * text, the rid it came from, and which rule quarantined it. Recording
+ * the raw value and carrying on is the deliberate alternative to
+ * guessing at it or dropping it — `buildBody` hands these back so a
+ * caller (migrate, or eyes-on review) can see what was left
+ * unparsed. */
 interface Problem {
 	detail: string;
 	rid: string;
@@ -64,6 +54,17 @@ interface SensePair {
 	original: string;
 }
 
+/** Everything one entry's build produced, kept together so the
+ * round-trip verifier never has to re-derive it: the composed
+ * `BodyEntry`, the (source text, built sense) `pairs`, the quarantined
+ * `problems`, and `formSectionSiblings`.
+ *
+ * That last set holds the B12 sibling senses by object identity rather
+ * than by shape, which is what lets the structural census exclude them
+ * from its lettered-split count — a form-section sibling's restarted
+ * numbered children look exactly like a lettered split from the
+ * outside. `buildBody` narrows this to the `body`/`problems` pair a
+ * caller outside the dry run needs. */
 interface Trace {
 	body: BodyEntry;
 	formSectionSiblings: Set<BodySense>;
@@ -284,44 +285,6 @@ function buildTrace(e: SourceEntry): Trace {
 function buildBody(e: SourceEntry): { body: BodyEntry; problems: Problem[] } {
 	const { body, problems } = buildTrace(e);
 	return { body, problems };
-}
-
-interface RunContext {
-	acc: Accumulator;
-	validate: ValidateFunction;
-}
-
-/** One corpus entry through the full composition + every tally: round
- * trips, labels, grammar, units, and the strided/fixtured schema
- * sample. */
-function processEntry(e: SourceEntry, index: number, ctx: RunContext): void {
-	ctx.acc.entries++;
-	const trace = buildTrace(e);
-	// trace.problems is unused on this run path by design: the report's
-	// quarantine counts come from tallyLabels/tallyGrammar's own independent
-	// tallies below, not from re-reading this trace; `problems` exists for
-	// the buildBody/migrate.ts contract instead.
-	tallyRoundTrip(ctx.acc, evaluateRoundTrip(e, trace));
-	tallyStructure(trace.body, trace.formSectionSiblings, ctx.acc);
-	tallyLabels(e, ctx.acc);
-	tallyGrammar(e, ctx.acc);
-	tallySchema({ body: trace.body, e, index }, ctx.validate, ctx.acc);
-}
-
-if (import.meta.main) {
-	const ajv = new Ajv2020({ allErrors: true, strict: true });
-	const validate = ajv.compile(entrySchema);
-	const acc = createAccumulator();
-	const ctx: RunContext = { acc, validate };
-
-	let index = 0;
-	for await (const e of readSourceEntries()) {
-		processEntry(e, index, ctx);
-		index++;
-	}
-
-	await Bun.write(REPORT_PATH, `${JSON.stringify(acc, null, '\t')}\n`);
-	printSummary(acc);
 }
 
 export type { Problem, SensePair, Trace };

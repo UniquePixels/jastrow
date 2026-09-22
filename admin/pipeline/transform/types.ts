@@ -6,7 +6,7 @@
  * in the catalogue and are read only by the audit harness — a source
  * re-fetch must re-baseline an audit, never break the pipeline.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 
 /** The two committed manifest phases a rule may run in
  * (`PHASE_MANIFEST` in `admin/pipeline/patch/apply.ts`). */
@@ -463,6 +463,23 @@ interface TransformResult {
 	}[];
 }
 
+/** THE TRANSFORM CONTRACT. One registered repair: the phase it runs
+ * in, what it may do to an entry, and what it must declare so the
+ * gates can check it.
+ *
+ * A rule is the only unit `applyTransforms` knows about, and the gates
+ * run per rule rather than per phase so a violation names its cause
+ * instead of surfacing as a mystery diff at the end of the walk.
+ * Everything a gate needs to decide whether the rule stayed inside its
+ * licence is stated on this object — `allows`, `copied`, `vouched` —
+ * because a gate that had to infer the licence from the diff could
+ * only ever re-derive what the rule already did.
+ *
+ * The field docs below are the binding part of the contract; the
+ * immutability clause on `apply` in particular is depended on by
+ * `run.ts`, which reads the entry's fields BEFORE calling a rule
+ * precisely so an in-place mutator cannot hide behind its own
+ * result. */
 interface Rule {
 	/** Text codepoints this rule may introduce beyond the input's own
 	 * bytes. Absent or empty means a strict sub-multiset. Every

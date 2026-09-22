@@ -17,7 +17,7 @@
  * strict sub-multiset of their input under the no-new-text gate. A gate
  * trip here is a bug in the rule, never a reason for an allowance.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Token } from '../html.ts';
 import {
 	attributeInterior,

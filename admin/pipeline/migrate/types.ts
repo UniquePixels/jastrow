@@ -30,6 +30,14 @@ interface FormObject {
 	text: string;
 }
 
+/** One sense of a written entry. `gloss` is the sense's own head text
+ * and `units` its numbered or lettered parts; `senses` nests for a
+ * sub-sense tree.
+ *
+ * `senses[0]` of the ENTRY is the gloss head, not a first numbered
+ * sense — a reader that drops an empty lead consumes sense 1. The
+ * distinction is invisible to a text-conservation check, because the
+ * bytes survive either way. */
 interface TruthSense {
 	gloss: string;
 	label?: string;
@@ -37,12 +45,23 @@ interface TruthSense {
 	units: string[];
 }
 
+/** A binyan section of a written entry: the stem label print gives,
+ * the headword forms it governs, and its senses. Sibling to the
+ * entry's own `senses`, so both can be present on one entry. */
 interface TruthStem {
 	forms: string[];
 	senses: TruthSense[];
 	stem: string;
 }
 
+/** One entry file under `data/entries/` — the unit the app reads, the
+ * admin tool edits and the update run merges into. It is the
+ * pipeline's OUTPUT contract: a field absent here is a field no
+ * consumer may assume, and a field present is one the gates check.
+ *
+ * The entry is addressed by `id` (the rid). Its NAME is not stored —
+ * it is derived from `headwords[0]` on demand, so it cannot drift from
+ * the headword the way a stored slug could (URL names spec §5.1). */
 interface TruthEntry {
 	/** How print laid the headword line out: a template whose `{n}`
 	 * inserts `headwords[n].text` and whose every other character is

@@ -80,6 +80,16 @@ const ATTRIBUTES = [
 	['data-ref', DATA_REF],
 ] as const;
 
+/** One `<a>` element as its field's token stream shows it: where its
+ * two tags sit, what its target attributes parse to, what a reader
+ * sees between them, and the two refusals — `malformed` and
+ * `interior` — that say neither editor may touch it.
+ *
+ * A VIEW, NOT A HANDLE. `open` and `close` are positions in the token
+ * array this anchor was read from, so any edit that adds or removes a
+ * token invalidates every anchor read before it; `rules/unlink.ts`'s
+ * `unlinkMatching` re-derives the list before each removal for
+ * exactly that reason. */
 interface Anchor {
 	/** Index of the `</a>` in the token array; -1 when unclosed. */
 	close: number;
@@ -111,6 +121,11 @@ interface Anchor {
 	tag: string;
 }
 
+/** The address pair an anchor carries: the `data-ref` Sefaria
+ * resolves and the `href` a reader follows. The two are always
+ * written together — `retarget` replaces both attribute values in one
+ * pass — because an anchor whose halves disagree points two places at
+ * once. */
 interface Target {
 	dataRef: string;
 	href: string;

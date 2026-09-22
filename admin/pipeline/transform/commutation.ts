@@ -68,7 +68,7 @@
  *   attribution, not about output" — but a reader consulting this
  *   list should not have to infer it from `compose()`'s docstring.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import type { Rule } from './types.ts';
 
 /** One pair whose two composition orders disagree. */

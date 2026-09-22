@@ -82,12 +82,6 @@ function parsePatterns(text: string): Pattern[] {
 	return rows;
 }
 
-/** Serialise the catalogue back to JSONL, one row per line and a
- * trailing newline — the inverse of `parsePatterns`. */
-function renderPatterns(rows: readonly Pattern[]): string {
-	return `${rows.map((r) => JSON.stringify(r)).join('\n')}\n`;
-}
-
 /** Append a pattern, rejecting a duplicate id loudly. */
 function addPattern(rows: readonly Pattern[], next: Pattern): Pattern[] {
 	if (rows.some((r) => r.id === next.id)) {
@@ -155,7 +149,5 @@ export {
 	checkEntanglement,
 	isSaturated,
 	parsePatterns,
-	renderPatterns,
-	SATURATION_ROUNDS,
 	transformQueue,
 };

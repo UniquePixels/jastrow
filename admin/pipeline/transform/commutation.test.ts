@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import {
 	changingRids,
 	nonCommutingPairs,
@@ -71,6 +71,7 @@ const silentRewrite: Rule = {
 	phase: 'text-repairs',
 };
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('changingRids', () => {
 	it('reports only the rids where the rule changed the entry', () => {
 		const corpus = [

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * The headword-line parser against the corpus shapes
  * `docs/v2/headword-design.md` settles: every worked example of the §2
@@ -39,6 +40,7 @@ function expectLine(
 	expect(read(items)).toEqual({ display, forms, kinds });
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('§2 worked examples', () => {
 	it('M02007 — comma, numeral after the parenthesis', () => {
 		expectLine(['מְסַר', '(מָסַר) I'], '{0}, ({1}) I', [
@@ -126,6 +128,7 @@ describe('§2 worked examples', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('§4 decision table', () => {
 	it('commas — the leaked comma is patched away and the numerals stay in display (A02356)', () => {
 		expectLine(['אִסְטְוָוא I, II'], '{0} I, II', [{ text: 'אִסְטְוָוא' }]);

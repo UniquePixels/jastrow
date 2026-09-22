@@ -16,7 +16,7 @@
  * pass this file while proving nothing about the clause it names.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import type { TransformResult } from '../types.ts';
 import { TWINS, vSubRedirectTwin } from './v-sub-twin.ts';
@@ -146,6 +146,7 @@ describe('vSubRedirectTwin', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('link-target case 8', () => {
 	it('licenses the honest claim', () => {
 		expect(verdict({})).toEqual([]);
@@ -240,6 +241,7 @@ describe('link-target case 8', () => {
  * ` 1`, measured — so these fixtures are the only thing standing
  * between the rewrite and a silent return of the same bugs.
  */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('review regressions', () => {
 	/** A stub preceded by an unrelated anchor that happens to share the
 	 * href value the target anchor carries. */

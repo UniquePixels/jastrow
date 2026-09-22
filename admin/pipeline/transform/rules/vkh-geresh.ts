@@ -47,7 +47,7 @@
  * All eleven are inside a `dir="rtl"` run in a definition. So this rule
  * writes no link target and no namespace key.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
@@ -86,10 +86,9 @@ function restoreVkhGeresh(text: string): string | null {
 /**
  * Restores the geresh on `וכ`.
  *
- * `allows` NAMES THE GERESH AND THAT IS A MINT — the second in the
- * registry after `sectionBreakTerminator`'s period and
- * `seeParticleRestore`'s word. It is justified by the null model in the
- * module doc and by nothing else; the predicate is what bounds it.
+ * `allows` NAMES THE GERESH AND THAT IS A MINT. It is justified by the
+ * null model in the module doc and by nothing else; the predicate is
+ * what bounds it.
  */
 const vkhGereshRestore: Rule = {
 	allows: [GERESH],

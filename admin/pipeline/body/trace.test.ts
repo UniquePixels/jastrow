@@ -1,9 +1,10 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import { buildBody, buildTrace } from './dry-run.ts';
-import { evaluateRoundTrip } from './dry-run-verify.ts';
+import type { SourceEntry } from '../types.ts';
 import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
+import { evaluateRoundTrip } from './round-trip.ts';
 import { readSourceEntries } from './source.ts';
-import type { SourceEntry } from './types.ts';
+import { buildBody, buildTrace } from './trace.ts';
 
 const FIXTURES_DIR = `${import.meta.dir}/fixtures`;
 
@@ -187,6 +188,7 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 	];
 
 	for (const file of fixtureFiles) {
+		// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: the branching is the test matrix itself; extracting it would hide which case is being asserted.
 		it(`round-trips rejoin/units/lettered/formSection for every entry in ${file}`, async () => {
 			const entries = await loadFixture(file);
 			expect(entries.length).toBeGreaterThan(0);
@@ -295,7 +297,7 @@ describe('evaluateRoundTrip canary: formSection flips false on a corrupted sibli
 	});
 });
 
-// `checkRejoin` (dry-run-verify.ts, not exported) always recomputes
+// `checkRejoin` (round-trip.ts, not exported) always recomputes
 // `rejoinGlossHead(e)` fresh from the same entry it verifies against, so
 // there's no seam in `e` to corrupt through `evaluateRoundTrip`'s public
 // surface — both sides of its comparison derive from the same entry and

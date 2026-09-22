@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { applyTransforms } from '../run.ts';
 import { strandedStemHead } from './stem-section.ts';
 
@@ -21,6 +21,7 @@ const TAIL = `${FORM} <i>to cover with powder</i>.`;
 const blockOf = (entry: SourceEntry): SourceSense =>
 	entry.content.senses[0] as SourceSense;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('strandedStemHead', () => {
 	it('lifts the label into a grammar block and the rest into a child', () => {
 		const result = strandedStemHead.apply(withHead(`, <i>Pi.</i> ${TAIL}`));

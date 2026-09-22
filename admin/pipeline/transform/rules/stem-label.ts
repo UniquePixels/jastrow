@@ -44,7 +44,7 @@
  * inference is needed to know what `"Pa. ."` was meant to be, and no
  * amount of reading recovers a name from `"*."`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** A complete binyan label followed by a stray space-period. Anchored
@@ -86,6 +86,18 @@ function trimLevel(
 	});
 }
 
+/**
+ * A complete binyan label carrying a stray trailing space-period —
+ * `"Pa. ."` — trimmed back to the label. Runs in `text-repairs`, on
+ * `grammar.verbal_stem`, a field that holds no markup anywhere in the
+ * corpus.
+ *
+ * Three of `asterisk-stem-label`'s sixty-nine values, and the only
+ * sub-shape a rule can repair: here the stem NAME is intact and only
+ * the appended pair is debris, where the other sub-shapes have lost
+ * the name itself and no amount of reading recovers it. The two
+ * deleted characters are declared through `removes`.
+ */
 const asteriskStemStrayPeriod: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const records: TransformRecord[] = [];

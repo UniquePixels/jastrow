@@ -1,5 +1,5 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	type EntryResult,
 	ManifestFormatError,
@@ -10,6 +10,7 @@ import {
 	unresolvedNeeds,
 	validateManifest,
 } from './manifest.ts';
+import type { SemanticPatch } from './schema.ts';
 
 /** Minimal valid record per disposition, for building test lines. */
 const CLEAN = { disposition: 'clean', patches: [], rid: 'A00001' };
@@ -55,6 +56,7 @@ function makePatch(id: string, rid: string): SemanticPatch {
 	};
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('parseManifestLine', () => {
 	it('parses every disposition shape', () => {
 		for (const record of [CLEAN, REPAIRED, NEEDS_PRINT, NEEDS_HUMAN]) {

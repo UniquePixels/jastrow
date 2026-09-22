@@ -39,7 +39,7 @@
  */
 import { applyRepairs } from '../../body/repairs.ts';
 import { readSourceEntries } from '../../body/source.ts';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { applyTransforms } from '../run.ts';
 
 let sourceMemo: readonly SourceEntry[] | undefined;
@@ -81,4 +81,4 @@ async function composedEntries(): Promise<readonly SourceEntry[]> {
 	return composedMemo;
 }
 
-export { composedEntries, repairedEntries, sourceEntries };
+export { composedEntries, sourceEntries };

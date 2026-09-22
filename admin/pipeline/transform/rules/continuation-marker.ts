@@ -67,7 +67,7 @@
  * the row keeps its unsettled status honestly rather than being emptied
  * by a rule that guessed.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
@@ -133,6 +133,18 @@ function repairLevel(
 	});
 }
 
+/**
+ * A continuation marker that lost its em dash — a sense `number`
+ * reading `N)` where print sets `—N)` — restored in
+ * `structural-repairs`.
+ *
+ * It fires only inside a MIXED sibling list, one whose other members
+ * already carry a dashed marker, and that restriction is what makes
+ * the declaration checkable: the dash goes out as `copied`, which the
+ * gate verifies against this entry's own input, where an `allows`
+ * would license an em dash anywhere in the diff on nothing but a
+ * maintainer's word.
+ */
 const continuationMarkerDash: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const records: TransformRecord[] = [];
@@ -156,4 +168,4 @@ const continuationMarkerDash: Rule = {
 	phase: 'structural-repairs',
 };
 
-export { BARE, continuationMarkerDash, DASH, DASHED, hasWitness, NOT_OURS };
+export { BARE, continuationMarkerDash, DASH, DASHED };

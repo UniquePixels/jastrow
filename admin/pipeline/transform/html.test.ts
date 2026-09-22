@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import {
 	attributeInterior,
@@ -205,6 +206,7 @@ describe('unquoted attribute values', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('damaged quoting', () => {
 	const texts = (html: string): string[] =>
 		tokenize(html)

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { parseLabel } from '../../body/labels.ts';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { continuationMarkerDash, DASH } from './continuation-marker.ts';
 
 const entry = (senses: SourceSense[]): SourceEntry => ({
@@ -20,6 +20,7 @@ const mixed = (bare = '3)'): SourceEntry =>
 		{ definition: 'third sense.', number: bare },
 	]);
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('continuationMarkerDash', () => {
 	it('restores the dash on a marker its siblings witness', () => {
 		const { entry: after, records } = continuationMarkerDash.apply(mixed());

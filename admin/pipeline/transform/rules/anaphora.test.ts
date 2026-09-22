@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * `ib-yoma-2a` (batch-2 task 7). Every number in `anaphora.ts`'s module
  * doc and in `docs/archive/catalogue-audit/ib-yoma-2a.md` came from a
@@ -15,7 +16,7 @@
  * hold would throw here rather than pass quietly.
  */
 import { expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';

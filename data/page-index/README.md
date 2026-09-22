@@ -5,8 +5,10 @@ The first headword beginning in each printed column of Marcus Jastrow's
 of every one of the 32,512 headwords.
 
 Built by `admin/pipeline/page-index/build.ts` (a one-time build;
-archived at `refs/tags/archive/v2-research-2026-09`). Checked by
-`admin/pipeline/page-index/verify.ts`.
+archived at `refs/tags/archive/v2-research-2026-09`). Its checker,
+`page-index/verify.ts`, was archived to the same tag on 2026-09-22: it
+compared a build against v1 `--prior` data that the v2 tree no longer
+holds.
 
 ## Files
 

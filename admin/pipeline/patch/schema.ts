@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one patch grammar: every op's validator beside the union it discriminates.
 /**
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
@@ -28,11 +29,18 @@
  * manifest gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
+/** `P<6 digits>` — the shape of a patch id. Exported because the
+ * manifest lists patch ids too, and it checks them against this rule
+ * rather than a copy of it. */
 const PATCH_ID = /^P\d{6}$/u;
+/** `<letter><5 digits>` — the shape of an entry id. Exported for the
+ * same reason as `PATCH_ID`: a manifest record's `rid` column and a
+ * patch record's `rid` are the same identifier, so they are held to
+ * one rule. */
 const RID = /^[A-Z]\d{5}$/u;
 const SNAPSHOT_PIN = /^sha256:[0-9a-f]{64}$/u;
 const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
@@ -49,7 +57,19 @@ const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
 
+/** How sure the patch's author was, as the record states it. It is
+ * provenance, not permission: nothing in the apply path branches on
+ * it, because what a patch may do is settled by the validators and by
+ * `author` (a reviewed patch is exempt from the no-new-text floor,
+ * a confident one is not). A low-confidence patch that passes every
+ * check still applies; the value is there for whoever reads the
+ * corpus back. */
 type Confidence = 'high' | 'low' | 'med';
+/** The kind of repair a patch makes. It is the discriminant of
+ * `SemanticPatch`, so each op's payload type travels with it, and the
+ * key every payload validator is registered under in
+ * `PAYLOAD_VALIDATORS` — which is typed `Record<PatchOp, …>`, so
+ * adding an op without its validator does not compile. */
 type PatchOp =
 	| 'delete'
 	| 'join'
@@ -207,6 +227,11 @@ interface UnrefPatch extends PatchBase {
 	payload: UnrefPayload;
 }
 
+/** One patch record: the common `PatchBase` fields narrowed by `op`
+ * to the payload that op takes. A discriminated union rather than a
+ * base with a loose `payload` so that `switch (patch.op)` in apply,
+ * drift and the no-new-text allowance each read an exactly-typed
+ * payload, and an op added without its arm fails to compile. */
 type SemanticPatch =
 	| DeletePatch
 	| JoinPatch
@@ -230,8 +255,8 @@ interface PatchTarget {
 /** A patch that failed schema validation, with every reason. */
 class PatchFormatError extends Error {
 	readonly reasons: string[];
-	constructor(context: string, reasons: string[]) {
-		super(`${context}: ${reasons.join('; ')}`);
+	constructor(context: string, reasons: string[], options?: ErrorOptions) {
+		super(`${context}: ${reasons.join('; ')}`, options);
 		this.name = 'PatchFormatError';
 		this.reasons = reasons;
 	}
@@ -702,8 +727,6 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 	return reasons;
 }
 
-/** Parse and validate one patch record. Collects every problem into
- * one PatchFormatError instead of stopping at the first. */
 /** The pre-§2 `reform` payload, read forward.
  *
  * **TRANSITIONAL.** `reform` shipped on 2026-09-20 with a payload of
@@ -743,6 +766,16 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
 }
 
+/** The record-level gate: one decoded JSON value in, a validated
+ * `SemanticPatch` out, or a `PatchFormatError` carrying **every**
+ * reason it failed — identity, target shape, anchor agreement,
+ * provenance and occurrence counts are all collected before the throw,
+ * never stopped at the first. An agent fixing a malformed record sees
+ * the whole list in one pass instead of one problem per run.
+ *
+ * It works on a shallow copy of `value`, so `readLegacyReform` can
+ * normalize the pre-2026-09-21 `reform` spelling forward without
+ * mutating the caller's object. */
 function parsePatch(value: unknown): SemanticPatch {
 	if (typeof value !== 'object' || value === null) {
 		throw new PatchFormatError('patch', ['record must be an object']);
@@ -786,14 +819,20 @@ function parsePatchLine(line: string, lineNumber: number): SemanticPatch {
 	let value: unknown;
 	try {
 		value = JSON.parse(line);
-	} catch {
-		throw new PatchFormatError(`line ${lineNumber}`, ['not valid JSON']);
+	} catch (e) {
+		// biome-ignore lint/style/useErrorCause: the cause IS passed — this Error subclass takes it as a third options argument, which the rule does not read.
+		throw new PatchFormatError(`line ${lineNumber}`, ['not valid JSON'], {
+			cause: e,
+		});
 	}
 	try {
 		return parsePatch(value);
 	} catch (e) {
 		if (e instanceof PatchFormatError) {
-			throw new PatchFormatError(`line ${lineNumber}`, e.reasons);
+			// biome-ignore lint/style/useErrorCause: the cause IS passed — this Error subclass takes it as a third options argument, which the rule does not read.
+			throw new PatchFormatError(`line ${lineNumber}`, e.reasons, {
+				cause: e,
+			});
 		}
 		throw e;
 	}
@@ -845,6 +884,7 @@ function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
 }
 
 /** Count non-overlapping occurrences of `needle` in `haystack`. */
+// biome-ignore lint/nursery/noMisleadingReturnType: a loop counter is a number; narrowing to its literal seeds would couple callers to the body.
 function countOccurrences(haystack: string, needle: string): number {
 	if (needle === '') {
 		return 0;

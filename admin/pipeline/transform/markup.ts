@@ -98,7 +98,7 @@
  * its own structural assertions — this gate will not carry them for
  * it.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { attributeInterior, opensScope, tokenize } from './html.ts';
 import { fieldsOf } from './no-new-text.ts';
 

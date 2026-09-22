@@ -128,7 +128,9 @@ describe('createRuleCounter', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('renderBlessing', () => {
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('renders every section, rows as "rid: detail" under their own heading', () => {
 		const report = greenReport();
 		report.rows = [

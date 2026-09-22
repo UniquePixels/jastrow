@@ -9,25 +9,28 @@ whole headword line into `headwords[]` plus an optional `display`,
 `"schemaVersion": 2`. Open work is tracked in issues #102–#111 and in
 the patch queue (§4.1).
 
-**Three things the implementation did not settle, and did not guess.**
-(1) **A02823's display.** §2's table gives `({0}) {1} I`, which §5 and
-§6 record as print's own placement, confirmed against the print and
-DIFFERENT from the source's. §5 rules that until the ~580 parenthesis
-placements are checked "only what the source shows is recorded", so
-the parser emits `{0}, ({1}) I` — moving a delimiter it cannot verify
-would be a hard-coded exception rather than a parse. (2) **The
-separator.** The upstream split cut print's line at its commas and did
-not keep them (§1), so no parser can tell M02007's line, which has
-one, from A02823's, which does not; §4 rules that the app supplies
-separators, and the template joins items with `, `. (3) **A name
-collision the correction creates.** G00674 (`זָרָה`, *fem. of* זָר) and
-G00675 (`זָרָה  I, II`, *v.* זרי I, II) are two bare cross-reference
-stubs for one spelling. Under HW-H1-xref the numeral list is display
-only with no `homograph`, so G00675's name strips to `זָרָה`, which
-G00674 holds — the shape HW-homograph-gaps describes, at
-[#111](https://github.com/UniquePixels/jastrow/issues/111). URL names
-§4 assigns it to the editor; the gate is left red rather than a
-disambiguator invented.
+**Three things the parser does not decide on its own.** Two were
+settled in the DATA by reviewed patch, under §4's rulings of
+2026-09-22 and applied in
+[#131](https://github.com/UniquePixels/jastrow/pull/131); the third is
+a rendering rule. (1) **A02823's display.** §5 rules that until the
+~580 parenthesis placements are checked "only what the source shows is
+recorded", so the parser stays source-faithful and still emits
+`{0}, ({1}) I`; §4's Parentheses ruling filed print's own reading as a
+patch rather than a code exception, and the entry now carries
+`({0}) {1} I`. (2) **The separator.** The upstream split cut print's
+line at its commas and did not keep them (§1), so no parser can tell
+M02007's line, which has one, from A02823's, which does not; §4 rules
+that the app supplies separators, and the template joins items with
+`, `. (3) **A name collision the correction created.** G00674
+(`זָרָה`, *fem. of* זָר) and G00675 (`זָרָה  I, II`, *v.* זרי I, II) are
+two bare cross-reference stubs for one spelling, and under HW-H1-xref
+the numeral list is display only with no `homograph`, so G00675's name
+stripped to the one G00674 already held — the shape HW-homograph-gaps
+describes, at
+[#111](https://github.com/UniquePixels/jastrow/issues/111). §4's
+Numeral-lists ruling gave G00675 `disambiguator: 2`, name `זָרָה²`,
+by patch; gate 7 is 65,024/65,024 and nothing is left red.
 
 Headwords are load-bearing — lookup, slugs, links all name them — so a
 headword defect **halts the pipeline** rather than joining a review list.

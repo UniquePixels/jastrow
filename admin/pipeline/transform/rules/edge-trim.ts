@@ -162,7 +162,7 @@
  *   this branch's three population-claiming rules got as far as they
  *   did.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
@@ -179,6 +179,16 @@ const TRAILING_EDGE = / <\/i> ?/gu;
 /** Whitespace at the very end of a field. */
 const TRAILING_WHITESPACE = /\s$/u;
 
+/**
+ * A space captured just inside an italic run's boundary, normalised
+ * to a single space OUTSIDE the run at either edge. Runs in
+ * `text-repairs`.
+ *
+ * One substitution per edge covers both of the module doc's
+ * dispositions without a branch: the captured space is DELETED where
+ * an outer one was already there and the two rendered doubled, and
+ * MOVED where it was the only thing holding two words apart.
+ */
 const emphasisRunEdgeSpace: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const healed = mapFields(entry, (text) =>
@@ -259,6 +269,17 @@ function trimAt(
 	return { changed: true, senses: out };
 }
 
+/**
+ * Trailing whitespace stripped from the entry's deepest-last sense —
+ * and from that sense only. Runs in `text-repairs`.
+ *
+ * The position filter IS the rule. Everywhere else the trailing space
+ * is the field-split separator holding a gloss head apart from the
+ * label that follows it, so a corpus-wide `trimEnd()` would weld the
+ * two across thousands of entries; `strippable` declines a definition
+ * that is whitespace and nothing else, which would be emptied rather
+ * than tidied.
+ */
 const trailingWhitespaceDefinition: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const path = lastPath(entry.content.senses);

@@ -9,7 +9,7 @@
  * by a message only that gate emits.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { applyTransforms } from './run.ts';
 import type { Rule } from './types.ts';
 
@@ -40,6 +40,7 @@ function rewriter(
 
 const upper = rewriter('spacer', 'a  b');
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('applyTransforms', () => {
 	it('skips rules from another phase', () => {
 		const out = applyTransforms(entry(), 'structural-repairs', [upper]);
@@ -81,6 +82,7 @@ describe('applyTransforms', () => {
 		expect(out.entry.content.senses[0]?.definition).toBe('b a!');
 	});
 
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	describe('each gate is wired', () => {
 		it('refuses invented text — checkNoNewText', () => {
 			expect(() => applyTransforms(entry(), 'text-repairs', [upper])).toThrow(

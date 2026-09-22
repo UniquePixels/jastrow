@@ -66,6 +66,10 @@ const HEBREW_RUN = new RegExp(
 	'gu',
 );
 
+/** A run of document text between two tags, carried verbatim.
+ * `serialize` concatenates `value` back, so nothing here is
+ * unescaped, trimmed or split at a word boundary — the round-trip
+ * contract the module doc names depends on it. */
 interface TextToken {
 	kind: 'text';
 	/** An ancestor element carries dir="rtl". */
@@ -73,6 +77,10 @@ interface TextToken {
 	value: string;
 }
 
+/** One `<…>` tag, opening or closing, with its raw bytes in `value`
+ * and its element name lowercased in `name`. The name is empty when
+ * the scanner can read none, which is the shape a malformed tag
+ * arrives in — `opensScope` below is the authority on that. */
 interface TagToken {
 	close: boolean;
 	kind: 'tag';
@@ -86,6 +94,10 @@ interface TagToken {
 	value: string;
 }
 
+/** One item of the stream. Tags and the text between them cover the
+ * field exhaustively and in order, which is what makes
+ * `serialize(tokenize(s)) === s` hold and what lets a rule rewrite one
+ * token and put the rest back untouched. */
 type Token = TagToken | TextToken;
 
 /** Whether an opening tag opens a scope on the stack. Self-closing

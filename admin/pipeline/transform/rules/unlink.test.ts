@@ -11,7 +11,7 @@
  * 5 and is listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { applyTransforms } from '../run.ts';
 import { apparatusCite, ellipsisFragment, rabbiName } from './unlink.ts';
 

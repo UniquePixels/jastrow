@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import {
 	adjacentVerbatimRepeat,
 	duplicatedOpeningRun,
@@ -42,6 +42,7 @@ describe('squarePrefix', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('duplicatedOpeningRun', () => {
 	it('deletes the duplicated opening and keeps the rest', () => {
 		const { entry: after, records } = duplicatedOpeningRun.apply(

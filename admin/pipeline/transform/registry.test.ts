@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import {
@@ -17,6 +18,7 @@ const catalogue = parsePatterns(
 	await Bun.file('data/patches/patterns.jsonl').text(),
 );
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('registry coverage', () => {
 	it('every rule id exists in the catalogue', () => {
 		const ids = new Set(catalogue.map((row) => row.id));
@@ -153,7 +155,7 @@ describe('registry coverage', () => {
 	//   are ONE finding counted twice. Both describe
 	//   `content.senses[0]`, and **index 0 is not a sense**:
 	//   `rejoin.ts:44` folds `content.senses[0]?.definition` into the
-	//   gloss head, and `dry-run.ts:257` then SKIPS index 0 in the sense
+	//   gloss head, and `body/trace.ts` then SKIPS index 0 in the sense
 	//   loop, because its content was already captured in the intro
 	//   sense. Both rows were catalogued against the SOURCE shape, where
 	//   index 0 looks like a stray or malformed sense.
@@ -342,6 +344,7 @@ describe('checkAdjacency', () => {
  * derived set alone cannot see scattering, and a span check alone
  * cannot see a missing edge.
  */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('entangledClusters', () => {
 	const rules = (ids: string[]): Rule[] => ids.map((id) => ({ id }) as Rule);
 

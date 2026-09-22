@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one parser for the whole headword LINE; print's grouping sits BETWEEN forms, so the passes cannot be separated.
 /**
  * The headword LINE — Sefaria's `headword` followed by its
  * `alt_headwords`, read back as the one line print sets
@@ -104,7 +105,7 @@ type HeadwordReviewKind =
 /** Every headword review kind, as a lookup. A `Record` over the union
  * rather than an array, so adding a kind is a TYPE ERROR here instead
  * of a silent omission from the report's headword list and from
- * `headword-issues.ts`'s flagged column. */
+ * `report/headword-issues.ts`'s flagged column. */
 const HEADWORD_REVIEW_KINDS: Readonly<Record<HeadwordReviewKind, true>> = {
 	'headword-duplicate-form': true,
 	'headword-partial-only': true,
@@ -657,12 +658,9 @@ export {
 	GERESH,
 	intToRoman,
 	intToSup,
-	isAbbreviated,
 	isHeadwordReviewKind,
 	isLexical,
 	PLACEHOLDER,
 	parseHeadwordLine,
 	renderDisplay,
-	romanToInt,
-	supToInt,
 };

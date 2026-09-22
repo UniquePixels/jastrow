@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { unbasedOrphans } from './orphan-refs.ts';
 
 const withAnchor = (rid: string, ref: string): SourceEntry => ({

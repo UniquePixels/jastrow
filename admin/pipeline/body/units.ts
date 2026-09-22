@@ -11,6 +11,15 @@
 import { findCitations } from './cite.ts';
 import { classifyBoundary } from './sense-walk.ts';
 
+/** One definition string decomposed by `segmentUnits`: the leading
+ * `gloss`, and the citation-anchored `units` that follow it in
+ * document order.
+ *
+ * The two are exhaustive and non-overlapping — `gloss + units.join('')`
+ * is the string that went in. That is the invariant the under-split
+ * failure mode rests on: a text with no recognized boundary comes back
+ * as all gloss and no units, which is still the whole text, where a
+ * text with dropped or duplicated spans would not be. */
 interface UnitSplit {
 	gloss: string;
 	units: string[];

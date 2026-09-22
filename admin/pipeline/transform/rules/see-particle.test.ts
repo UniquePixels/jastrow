@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import {
 	PARTICLE,
 	restoreParticle,
@@ -22,6 +22,7 @@ const stub = (definition: string): SourceEntry => ({
 const defOf = (e: SourceEntry): string | undefined =>
 	e.content.senses[0]?.definition;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('restoreParticle', () => {
 	it('restores the particle into a bare whole-definition stub', () => {
 		expect(restoreParticle(E00226)).toBe(

@@ -15,6 +15,12 @@ interface SourceGrammar {
 	verbal_stem?: string;
 }
 
+/** One node of the upstream sense tree, as the Sefaria dump spells it.
+ * Every field is optional because the dump omits rather than empties:
+ * a sense with no `definition` and no `senses` is a real shape there,
+ * and the composer has to decide what it means rather than assume the
+ * key is present. `senses` nests to arbitrary depth, so a reader that
+ * handles only two levels is reading a subset. */
 interface SourceSense {
 	definition?: string;
 	grammar?: SourceGrammar;
@@ -22,6 +28,13 @@ interface SourceSense {
 	senses?: SourceSense[];
 }
 
+/** One dictionary entry as the pipeline reads it — the upstream record
+ * plus the small number of fields a patch may supply. `rid` is the
+ * identity every report, patch and gate addresses the entry by; it is
+ * the only field guaranteed stable across a re-fetch.
+ *
+ * `content.senses` is the body; everything beside it is headword-line
+ * material the parser turns into form objects. */
 interface SourceEntry {
 	alt_headwords?: string[];
 	content: { morphology?: string; senses: SourceSense[] };
@@ -53,12 +66,22 @@ interface BodySense {
 	units: string[];
 }
 
+/** A binyan section of the body: the stem label as the print gives it,
+ * the headword forms that section governs, and the senses beneath it.
+ * A stem is a SIBLING of the entry's own senses rather than a wrapper
+ * around them, because an entry can carry both — ungoverned senses
+ * first, then one section per stem. */
 interface BodyStem {
 	forms: string[];
 	senses: BodySense[];
 	stem: string;
 }
 
+/** A composed entry body: the shape the model produces from a
+ * `SourceEntry` and the shape every later stage reads. `senses` is
+ * always present, `stems` only where the print has binyan sections, so
+ * a consumer walking `senses` alone sees a complete entry for the
+ * common case and an incomplete one for a verb. */
 interface BodyEntry {
 	grammar?: { gender?: 'm' | 'f' | 'c'; number?: 'pl' | 'du' };
 	id: string;

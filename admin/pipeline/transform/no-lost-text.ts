@@ -48,7 +48,7 @@
  * two already declared `removes` before this gate read it in their
  * phase; those declarations are load-bearing now.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { multiset, textOf } from './no-new-text.ts';
 
 /**

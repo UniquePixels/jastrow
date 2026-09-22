@@ -3,8 +3,19 @@
  * recursive sense walk, tag stripping, and the boundary vocabulary a
  * definition is segmented on.
  */
-import type { SourceSense } from './types.ts';
+import type { SourceSense } from '../types.ts';
 
+/** The punctuation class the tag-stripped text immediately before a
+ * citation anchor ends on — the vocabulary `classifyBoundary` returns.
+ * `sense-start` is an anchor with no text before it at all, and
+ * `embedded` one whose preceding text ends on none of the marks, i.e.
+ * mid-phrase.
+ *
+ * All six classes are distinguished even though `units.ts` opens a
+ * unit on only `period`, `dash` and `sense-start`: `semicolon` and
+ * `comma` are named rather than lumped into a single "not a boundary"
+ * case, so the terminator rule can be widened or narrowed without
+ * touching this classifier. */
 type Boundary =
 	| 'sense-start'
 	| 'period'

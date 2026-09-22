@@ -1,20 +1,21 @@
 /**
- * Full-corpus dry-run round-trip verifier (design doc §6.0; split
+ * The round-trip verifier (design doc §6.0; split
  * across three files only to stay under the per-file line budget). Given a built `Trace`
- * (the (source text, built sense) pairs `dry-run.ts`'s `buildTrace`
+ * (the (source text, built sense) pairs `trace.ts`'s `buildTrace`
  * records), verifies the `rejoin`/`units`/`lettered`/`formSection` rules
- * reconstruct their source byte-for-byte. No dependency on `dry-run.ts`
+ * reconstruct their source byte-for-byte. No dependency on `trace.ts`
  * itself (structural types stand in for its `SensePair`/`Trace`), so
- * importing this from `dry-run.ts` never forms a cycle.
+ * importing this from `trace.ts` never forms a cycle.
  */
+
+import type { BodySense, SourceEntry } from '../types.ts';
 import type { FormSectionParts } from './form-sections.ts';
 import { joinFormSection, splitFormSection } from './form-sections.ts';
 import type { LetteredParts } from './lettered.ts';
 import { joinLettered, splitLettered } from './lettered.ts';
 import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
-import type { BodySense, SourceEntry } from './types.ts';
 
-/** Structurally matches `dry-run.ts`'s `SensePair`/`Trace` without
+/** Structurally matches `trace.ts`'s `SensePair`/`Trace` without
  * importing them. TypeScript's structural typing accepts the real
  * `Trace` `buildTrace` returns here, excess `body`/`problems` fields and
  * all. */
@@ -28,6 +29,17 @@ interface TraceLike {
 	pairs: SensePairLike[];
 }
 
+/** One entry's verdict from the four structural round-trip gates:
+ * whether the `rejoin`, `units`, `lettered` and `formSection` rules
+ * each reconstructed their source text byte-for-byte. A rule's flag is
+ * true only when every pair in the entry passed it, so the entry — not
+ * the pair — is the unit the corpus tallies count.
+ *
+ * `formSectionMarker` is census rather than verdict: which marker a
+ * split pair carried (Pl./Part. pass./Fem./Denom.), or null when no
+ * pair in the entry split at all. It rides along here because
+ * `evaluateRoundTrip` has already done the split work the report's
+ * per-marker breakdown would otherwise have to repeat. */
 interface RoundTripResult {
 	formSection: boolean;
 	formSectionMarker: string | null;
@@ -208,7 +220,8 @@ function checkRejoin(e: SourceEntry): boolean {
  * entry passes a rule only if every one of its pairs does.
  * `formSectionMarker` reports which marker (Pl./Part. pass./Fem./Denom.)
  * a split pair carried, or null when no pair in this entry split at all
- * — `dry-run-report.ts`'s `formSectionSplits`/`formSectionSplitsByMarker`
+ * — the archived dry-run report's
+ * `formSectionSplits`/`formSectionSplitsByMarker`
  * counts sum this across the corpus, independent of `census.ts`'s
  * coarser `pluralSections` detector (archived at
  * `refs/tags/archive/v2-research-2026-09`; see form-sections.ts's

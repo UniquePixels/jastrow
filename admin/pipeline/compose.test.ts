@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'bun:test';
-import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
-import type { Rule } from '../transform/types.ts';
+import { readSourceEntries } from './body/source.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
-import { readSourceEntries } from './source.ts';
+import { contentAnchor, type SemanticPatch } from './patch/schema.ts';
+import type { Rule } from './transform/types.ts';
 import type { SourceEntry } from './types.ts';
 
-const FIXTURE_PATH = `${import.meta.dir}/fixtures/broken-sequences.jsonl`;
+const FIXTURE_PATH = `${import.meta.dir}/body/fixtures/broken-sequences.jsonl`;
 
 async function loadFixture(rid: string): Promise<SourceEntry> {
 	for await (const entry of readSourceEntries(FIXTURE_PATH)) {
@@ -16,6 +16,7 @@ async function loadFixture(rid: string): Promise<SourceEntry> {
 	throw new Error(`fixture missing: ${rid}`);
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('composeEntry', () => {
 	it("wraps C01331's Hebrew and leaves its heal to the reviewed patch", async () => {
 		const source = await loadFixture('C01331');

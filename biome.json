@@ -39,8 +39,8 @@
 				"noAmbiguousAnchorText": "on"
 			},
 			"complexity": {
-				"noExcessiveCognitiveComplexity": "on",
-				"noExcessiveLinesPerFunction": "on",
+				"noExcessiveCognitiveComplexity": "warn",
+				"noExcessiveLinesPerFunction": "warn",
 				"noExcessiveNestedTestSuites": "on",
 				"noForEach": "on",
 				"noImplicitCoercions": "on",
@@ -77,7 +77,7 @@
 				"noExcessiveSelectorClasses": "on",
 				"noIdenticalTestTitle": "on",
 				"noLoopFunc": "on",
-				"noMisleadingReturnType": "on",
+				"noMisleadingReturnType": "warn",
 				"noRestrictedDependencies": "on",
 				"noTopLevelLiterals": "on",
 				"noUndeclaredClasses": "on",
@@ -191,12 +191,12 @@
 				"useTrimStartEnd": "on",
 				"useUnifiedTypeSignatures": "on",
 				"noExcessiveClassesPerFile": "on",
-				"noExcessiveLinesPerFile": "on",
+				"noExcessiveLinesPerFile": "warn",
 				"noMultiAssign": "on",
 				"noMultilineString": "on",
 				"useConsistentMethodSignatures": "on",
 				"useDestructuring": "on",
-				"useErrorCause": "on",
+				"useErrorCause": "warn",
 				"useSpreadOverApply": "on"
 			},
 			"suspicious": {

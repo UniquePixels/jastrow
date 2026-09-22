@@ -20,6 +20,9 @@ import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
 
+/** Catalogue id and report `kind` for a sense whose own text ends
+ * with a bare `[` — the reader sees a bracket open and never close,
+ * its `]` having landed in a later sense. */
 const STRANDED_OPEN_BRACKET = 'stranded-open-bracket';
 
 /** What the review report tells a reader to do about these rows. */

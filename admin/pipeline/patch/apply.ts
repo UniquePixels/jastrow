@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the apply engine and its phase manifest; the manifest IS the order the engine asserts.
 /**
  * Patch apply engine + phase manifest (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §5).
@@ -18,11 +19,11 @@
  *
  * Run (dry, read-only): bun patch:replay, whose entry point is
  * `patch/apply-cli.ts` — it composes each entry through
- * `body/compose.ts` first, so it judges anchors against the same
+ * `compose.ts` first, so it judges anchors against the same
  * state `data:import` applies them to.
  */
 import { existsSync } from 'node:fs';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
 	type EntryResult,
@@ -43,20 +44,25 @@ import {
 } from './schema.ts';
 
 /** The committed patch corpus (spec §4.4): the pilot's files plus
- * every ingested tranche's. Absent files mean an empty corpus.
- * `CORPUS_PATH`/`MANIFEST_PATH` name a single-file layout nothing
- * writes; they are exported for callers that pass an explicit path,
- * and are not the live corpus. */
+ * every ingested tranche's. Absent files mean an empty corpus. */
 const PILOT_DIR = 'data/patches/pilot';
 const TRANCHES_DIR = 'data/patches/tranches';
-const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
-const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
 
 /** Human-authored patches (consolidation spec §4.2). Kept out of
  * `TRANCHES` on purpose: consolidation keeps one manifest record per
  * rid, and 11 reviewed rids also have agent records. */
 const REVIEWED_DIR = 'data/patches/reviewed';
 
+/** What `loadReviewedCorpus` finds in a reviewed patch directory: the
+ * human-authored patches, the findings a person flagged without
+ * repairing, and the manifest rows behind both.
+ *
+ * `records` is carried alongside `deferred` rather than being
+ * discarded once the `needs_*` rows are filtered out, because a
+ * reviewed patch may add bytes the no-new-text floor would otherwise
+ * refuse. `reviewedManifestProblems` needs the full row set to show
+ * that each such patch is accounted for by exactly one record before
+ * any of them applies. */
 interface ReviewedCorpus {
 	/** `needs_*` records: items a person has flagged and not repaired. */
 	deferred: EntryResult[];
@@ -156,6 +162,11 @@ const PHASE_MANIFEST = [
 	},
 ] as const;
 
+/** The name of one pipeline phase, derived from `PHASE_MANIFEST`
+ * itself rather than written out a second time. The manifest is the
+ * committed order, so a stage can only be named once it has a place
+ * in that order — `createPhaseTracker` still rejects an unknown name
+ * at runtime, for a value that reached it untyped. */
 type PhaseName = (typeof PHASE_MANIFEST)[number]['name'];
 
 /** A pipeline stage ran out of the committed order. */
@@ -765,7 +776,6 @@ export type {
 export {
 	applyCarryOver,
 	applyEntryPatches,
-	CORPUS_PATH,
 	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
@@ -773,13 +783,11 @@ export {
 	loadCorpus,
 	loadManifest,
 	loadReviewedCorpus,
-	MANIFEST_PATH,
 	orderedDirs,
 	PHASE_MANIFEST,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
-	REVIEWED_DIR,
 	reviewedManifestProblems,
 	stalePins,
 };

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';
 import { RULES } from './registry.ts';
 
@@ -15,6 +15,7 @@ const entry = (senses: SourceEntry['content']['senses']): SourceEntry => ({
 /** One sense, one definition — the shape most of these cases need. */
 const one = (definition: string): SourceEntry => entry([{ definition }]);
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkNoLostText', () => {
 	it('passes a rule that changed nothing', () => {
 		expect(checkNoLostText(one('to love'), one('to love'))).toEqual([]);

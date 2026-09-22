@@ -67,7 +67,7 @@
  * neither a `link-target.ts` case nor an exception table — unlike its
  * two batch-10 siblings, which need both.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 

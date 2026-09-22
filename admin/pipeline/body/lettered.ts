@@ -20,6 +20,16 @@ interface LetteredItem {
 	text: string;
 }
 
+/** One text decomposed around a lettered run: the `head` before the
+ * `a)` marker, and the lettered `items` in document order.
+ *
+ * The two only rejoin to the source as `splitLettered` produced them.
+ * The split repairs the italic spans it cuts through — appending
+ * `</i>` to the segment before a span-end marker, re-opening `<i>` on
+ * a span-start marker's own text — and `joinLettered` strips exactly
+ * those additions back off, keyed by each item's recorded raw
+ * `marker`. Edit a head or an item's text in between and the inverse
+ * no longer holds. */
 interface LetteredParts {
 	head: string;
 	items: LetteredItem[];

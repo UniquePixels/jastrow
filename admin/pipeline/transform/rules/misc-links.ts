@@ -198,7 +198,7 @@
  * The write-back task owns moving `patterns.jsonl`'s corpusCount to
  * 60/50 and carrying this block into the row's `reason`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Token } from '../html.ts';
 import { serialize, tokenize } from '../html.ts';
 import type { Anchor } from '../links.ts';
@@ -246,22 +246,6 @@ function skeleton(s: string): string {
  * member of this row's target takes. Captures the headword portion so
  * its skeleton can be compared to the display's. */
 const TARGET_RE = /^Jastrow, (?<hw>\D+?) \d+$/u;
-
-/** The TARGET-ENTRY IDENTITY of a `data-ref` — the skeleton of the
- * headword portion `TARGET_RE` captures, or `undefined` when the value
- * does not parse as one of this row's addresses. Exported so a test
- * measuring "does this entry carry an anchor to its OWN headword" (the
- * reachability question spec §3.2 case 2 asks) can compare identity
- * rather than a string prefix — a prefix test over-counts a sibling
- * spelled `<headword>+ִית` (which STARTS WITH the host's own headword
- * string) and under-counts a homograph headword whose Roman-numeral or
- * superscript suffix a target rarely spells the same way. See the
- * module doc's "The repair: UNLINK, by measurement" section. */
-function targetHeadwordSkeleton(dataRef: string): string | undefined {
-	const match = TARGET_RE.exec(stripPoints(dataRef));
-	const hw = match?.groups?.['hw'];
-	return hw === undefined ? undefined : skeleton(hw);
-}
 
 /** Every preceding TEXT token's value, concatenated up to `open` —
  * mirrors `rules/unlink.ts`'s private `leadOf`, restated here rather
@@ -311,9 +295,17 @@ function plLabelBoundary(lead: string): number | undefined {
  * spaces. A citation, an edition variant, or a cross-reference cue
  * anywhere in that span (Latin letters, digits, parentheses) means
  * this anchor is NOT the entry's own declared plural, whatever else it
- * looks like — see the module doc's nine excluded raw candidates, each
- * caught by exactly this test. */
+ * looks like — see the five raw candidates the module doc's
+ * decomposition attributes to this test (A02980, K01319, Q02197,
+ * U00688, U01486). The three it attributes to the self-link guard are
+ * caught earlier, in `pluralToFeminineRaw`, not here. */
 const CLEAN_SPAN_RE = new RegExp(String.raw`^[${LETTER}${POINT}\s,]*$`, 'u');
+/** Whether `anchor` stands inside the entry's own printed plural
+ * list: `plLabelBoundary` finds the nearest preceding `Pl.`/`pl.`
+ * label and `CLEAN_SPAN_RE` decides whether everything from it to the
+ * anchor's opening tag is pure. A lead carrying no label at all is a
+ * decline — an anchor outside every plural construct is never this
+ * row's, whatever its display and target look like. */
 function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
 	const lead = leadOf(tokens, open);
 	const boundary = plLabelBoundary(lead);
@@ -688,10 +680,7 @@ const shurukAsYodDisplayCorruption: Rule = {
 export {
 	inCleanPlSpan,
 	pluralToFeminineFinalLetter,
-	pluralToFeminineMatch,
-	pluralToFeminineRaw,
 	shurukAsYodDisplayCorruption,
 	shurukAsYodMatch,
 	skeleton,
-	targetHeadwordSkeleton,
 };

@@ -11,8 +11,18 @@ import {
 	tokenize,
 } from '../transform/html.ts';
 
+/** What an anchor's `href` and `data-ref` become as a `<cite ref>`
+ * value. The decision belongs to the caller — `cite.ts` builds one of
+ * these per entry over the headword map — so this module writes the
+ * answer down without knowing whether it is a rid, a canonical
+ * reference, or a target nothing resolves. */
 type RefResolver = (anchor: { dataRef: string; href: string }) => string;
 
+/** One field's translation: the rewritten markup, whatever the walk
+ * had to report about it, and what it left open for the next field.
+ * A `problems` entry is a report and never a refusal — an unbalanced
+ * close, a bare span, an off-vocabulary tag are all passed through
+ * verbatim — so `text` is always a whole field. */
 interface Translated {
 	/** Entries closed at the end of this call because the stack was
 	 * still open when the tokens ran out. Zero unless `carry` was

@@ -8,7 +8,14 @@ import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { actionOf } from './publication.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
 
+/** Where the run writes the rendered report. The document is
+ * committed, so the `blocks` count moves as a reviewable diff rather
+ * than only as console output of a run nobody kept. */
 const REVIEW_REPORT_PATH = 'docs/v2/review-report.md';
+/** The class catalogue the last section is read from.
+ * `loadUndetectedClasses` takes it as a default argument rather than
+ * reaching for the constant, so a test can hand it a fixture
+ * instead. */
 const PATTERNS_PATH = 'data/patches/patterns.jsonl';
 const CATALOGUED_TITLE = 'Catalogued, not yet detected';
 

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * Registry ORDER, as opposed to registry COVERAGE (`registry.test.ts`).
  *
@@ -122,8 +123,8 @@
  * `data/patches/patterns.jsonl`, so it runs on every `bun qa`.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
 import { parsePatterns } from '../patch/patterns.ts';
+import type { SourceEntry } from '../types.ts';
 import { textOf } from './no-new-text.ts';
 import {
 	checkAdjacency,
@@ -234,6 +235,7 @@ function lastWithin(
 	return Math.max(...same.map(at));
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('registry order', () => {
 	// Guards the orderings below against going vacuous: a new rule in
 	// none of the sets is unclassified, and they would then say nothing
@@ -406,6 +408,7 @@ describe('registry order', () => {
 	// scatter its members and it fails the span test below; register a
 	// new entangled pair and this fails until the pair is listed, which
 	// is the point at which someone has to look.
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('the registered entanglement clusters are exactly these', () => {
 		expect(entangledClusters(catalogue, RULES).map((c) => c.ids)).toEqual([
 			// THREE clusters became FOUR on 2026-08-27

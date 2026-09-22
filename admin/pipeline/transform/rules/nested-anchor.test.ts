@@ -15,7 +15,7 @@
  * step 5 and is listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import {
 	dupAnchorLanguageRef,
 	nestedAnchorDuplicate,

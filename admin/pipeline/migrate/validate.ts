@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one schema contract checked field by field; a split would spread one decision over several files.
 /**
  * Truth validation (consolidation spec §5.1): what every file under
  * `data/entries/` must satisfy, however it got there — the pipeline's
@@ -344,4 +345,4 @@ function validateTruth(
 }
 
 export type { TruthFile };
-export { loadTruthFiles, markupProblems, TRUTH_DIR, VOCABULARY, validateTruth };
+export { loadTruthFiles, markupProblems, VOCABULARY, validateTruth };

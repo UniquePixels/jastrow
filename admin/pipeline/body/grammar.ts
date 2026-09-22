@@ -9,7 +9,7 @@
  * measured those 8 is archived, so a re-fetch needs a fresh one
  * before the vocabulary can be widened.
  */
-import type { BodyEntry } from './types.ts';
+import type { BodyEntry } from '../types.ts';
 
 /** Reuses `BodyEntry.grammar`'s shape rather than redeclaring it. */
 type GrammarIndex = NonNullable<BodyEntry['grammar']>;

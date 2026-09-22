@@ -46,9 +46,10 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 The `data:` prefix groups the commands that move data from one form to
 the next, and only those. Step 10 gave it to `fetch` and `import` and
 reserved it for `compile`; no other script took it. Every other script
-keeps a prefix naming the module it runs — `body:dry-run`,
-`pageindex:verify`, `patch:replay`, `transform:count`,
-`transform:invariants` — or checks the repo (`qa`, `qa:*`).
+keeps a prefix naming the module it runs — `headword:issues`,
+`patch:replay`, `transform:count`, `transform:invariants` — or checks
+the repo (`qa`, `qa:*`). `body:dry-run` and `pageindex:verify` left
+with the one-shot tools they ran (2026-09-22).
 `pipeline:patches` became `patch:replay` in the same sweep, leaving no
 lone `pipeline:` prefix: it replays the committed patch corpus
 read-only and moves no data, so `data:` would have misdescribed it.
@@ -79,7 +80,7 @@ Everything import runs is one of three **buckets**:
 |---|---|---|
 | **rule** | general code that detects a defect and fixes it wherever it occurs | `admin/pipeline/transform/rules/` |
 | **patch** | one entry's judged fix, applied only when its precondition holds | `data/patches/` |
-| **review detector** | code that detects something a person must judge and emits a report row; fixes nothing | `admin/pipeline/migrate/` today |
+| **review detector** | code that detects something a person must judge and emits a report row; fixes nothing | `admin/pipeline/migrate/detectors/`, registered in `detectors/classes.ts` |
 
 | Term | Meaning |
 |---|---|
@@ -152,6 +153,9 @@ What a run reports for each patch:
 | migrate, migration (the command and the run) | import |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |
 | `research:apply`, then `pipeline:patches` | `patch:replay` |
+| `body:dry-run`, `body/dry-run.ts` | **`body/trace.ts`** (the composition `migrate.ts` imports) and **`body/round-trip.ts`** (the verifier the gate calls) — the full-corpus CLI and `dry-run-report.ts` were archived at `refs/tags/archive/v2-research-2026-09` on 2026-09-22 |
+| `pageindex:verify`, `page-index/verify.ts` | nothing: archived to the same tag on 2026-09-22; it compared a build against v1 `--prior` data the v2 tree no longer holds |
+| `body/types.ts`, `body/compose.ts` | **`admin/pipeline/types.ts`** and **`admin/pipeline/compose.ts`** — the shared model and the orchestrator are not body-specific (2026-09-22, review Q9) |
 | migration report | import report |
 | truth file, truth tree entry | entry file |
 | migration blessing | blessing doc (the file keeps the name `docs/v2/migration-blessing.md`, and its heading still reads "Migration blessing", until the code sweep: both are emitted by `migrate/report.ts`) |

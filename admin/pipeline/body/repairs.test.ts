@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import { applyRepairs } from './repairs.ts';
 import { readSourceEntries } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 const FIXTURE = `${import.meta.dir}/fixtures/broken-sequences.jsonl`;
 

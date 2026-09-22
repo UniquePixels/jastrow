@@ -1,5 +1,6 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { BodyEntry, SourceEntry } from '../body/types.ts';
+import type { BodyEntry, SourceEntry } from '../types.ts';
 import {
 	checkChain,
 	checkHeadwordLine,
@@ -36,6 +37,7 @@ const CHAIN_MAP = new Map([
 	['ג', 'A00003'],
 ]);
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkChain', () => {
 	it('passes an ordered chain', () => {
 		const t = checkChain(threeEntryChain(), CHAIN_MAP);
@@ -161,6 +163,7 @@ const SOURCE = new Map([
 	['A00003', 'גד'],
 ]);
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkNames', () => {
 	it('passes distinct names carrying the snapshot headword', () => {
 		const t = checkNames(
@@ -259,6 +262,7 @@ function minimalTruth(overrides: Partial<TruthEntry>): TruthEntry {
 	};
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkTextConservation', () => {
 	it('fails when a truth gloss drops a word', () => {
 		const body: BodyEntry = {
@@ -346,6 +350,7 @@ describe('checkTextConservation', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkHeadwordLine', () => {
 	/** One line through gate 2: the composed source items, and the
 	 * entry the run wrote for them. */

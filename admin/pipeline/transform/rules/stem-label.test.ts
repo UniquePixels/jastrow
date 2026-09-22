@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { applyTransforms } from '../run.ts';
 import { asteriskStemStrayPeriod } from './stem-label.ts';
 
@@ -22,6 +22,7 @@ const withStem = (verbal_stem: string): SourceEntry => ({
 const stemOf = (entry: SourceEntry): string | undefined =>
 	(entry.content.senses[0] as SourceSense).grammar?.verbal_stem;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('asteriskStemStrayPeriod', () => {
 	it('drops the appended space-period', () => {
 		const result = asteriskStemStrayPeriod.apply(withStem('Pa. .'));

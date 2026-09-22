@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
 import { parseSourceEntry } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 const FIXTURES_DIR = `${import.meta.dir}/fixtures`;
 

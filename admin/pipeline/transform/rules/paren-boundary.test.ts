@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * Fixture tier for `rules/paren-boundary.ts`. The corpus tier — the
  * catalogued populations, the per-entry gate stack and the
@@ -5,7 +6,7 @@
  * checks are listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { anchors } from '../links.ts';
@@ -335,6 +336,7 @@ describe('case 7’s declarer allowlist', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('toseftaPrimaryHalakha', () => {
 	it('writes the variant’s halakha onto the primary, both attributes', () => {
 		const out = toseftaPrimaryHalakha.apply(def(SPLIT));

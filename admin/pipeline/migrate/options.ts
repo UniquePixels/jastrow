@@ -7,6 +7,9 @@
  */
 import type { DriftMode } from '../patch/apply.ts';
 
+/** The switches one `bun data:import` run was started with. `drift`
+ * and `pins` are not switches of their own: both follow from
+ * `--strict`, which the run keeps beside them. */
 interface RunOptions {
 	/** What a patch whose precondition no longer holds becomes. */
 	drift: DriftMode;

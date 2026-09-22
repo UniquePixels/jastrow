@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { GERESH, restoreVkhGeresh, vkhGereshRestore } from './vkh-geresh.ts';
 
 /** The abbreviation, bare and whole. */

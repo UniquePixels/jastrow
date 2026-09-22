@@ -20,7 +20,7 @@
  * file past its line budget.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { textOf } from '../no-new-text.ts';
@@ -53,6 +53,7 @@ const usable = (html: string): boolean =>
  * only moved bytes around. */
 const bag = (s: string): string[] => [...s].sort();
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('unterminatedHref', () => {
 	it('D00478: leaves no anchor malformed, interior or unclosed', () => {
 		expect(usable(D_BAD)).toBe(false);

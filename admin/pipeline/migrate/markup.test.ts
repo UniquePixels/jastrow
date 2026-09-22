@@ -19,6 +19,7 @@ function textOf(html: string): string {
 		.join('');
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('translateMarkup', () => {
 	it('turns an rtl span into <he>', () => {
 		expect(translateMarkup('x <span dir="rtl">אב</span> y', resolve).text).toBe(

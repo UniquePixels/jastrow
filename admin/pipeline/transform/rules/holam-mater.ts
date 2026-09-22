@@ -59,7 +59,7 @@
  * `vSubRedirectTwin` carries its 50-row table. The entry's other fields
  * are repaired normally: only the namespace key is held back.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 import { inputTargets } from './point-claims.ts';
