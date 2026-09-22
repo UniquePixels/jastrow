@@ -1,5 +1,4 @@
 {"disposition":"clean","patches":[],"rid":"A00210"}
-{"disposition":"repaired","patches":["P000004"],"rid":"A00211"}
 {"disposition":"clean","patches":[],"rid":"A00212"}
 {"disposition":"clean","patches":[],"rid":"A00213"}
 {"disposition":"clean","patches":[],"rid":"A00214"}
@@ -48,7 +47,6 @@
 {"disposition":"clean","patches":[],"rid":"A00257"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00258","escalation":"Sense —3) anchor displays בֵּית א׳ (\"Beth-Aguddah\") but its href/data-ref target is Jastrow, מִלְוָון 1 — a full consonantal mismatch (not a vocalization-only variant), matching the class-11 wrong-link-target signature. The correct target bytes are not present elsewhere in the entry, so no replace is possible; needs maintainer verification of the intended destination.","resolution":{"decided_on":"2026-08-15","decision":"Sefaria linker error — the anchor on the compound reference is wrong (no correct target given); remove the incorrect link via admin tool / link-correction phase."}}
 {"disposition":"clean","patches":[],"rid":"A00259"}
-{"disposition":"repaired","patches":["P000005"],"rid":"A00260"}
 {"disposition":"clean","patches":[],"rid":"A00261"}
 {"disposition":"clean","patches":[],"rid":"A00262"}
 {"disposition":"clean","patches":[],"rid":"A00263"}
@@ -70,7 +68,6 @@
 {"disposition":"clean","patches":[],"rid":"A00279"}
 {"disposition":"clean","patches":[],"rid":"A00280"}
 {"disposition":"clean","patches":[],"rid":"A00281"}
-{"disposition":"repaired","patches":["P000006"],"rid":"A00282"}
 {"disposition":"clean","patches":[],"rid":"A00283"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00284","escalation":"alt_headwords contains \"תוס\" (Tos.), a token with no phonetic relation to headword אגושטוס or to sibling entries in this cluster (contrast A00271's alt_headwords \"(אגושטוס)\", which does match). Likely a misplaced annotation/abbreviation captured into the alt_headwords array rather than genuine variant spelling. No sense-scoped patch op can touch alt_headwords; needs print/source verification. Proposed novel class: misplaced-alt-headword."}
 {"disposition":"clean","patches":[],"rid":"A00285"}
@@ -90,7 +87,6 @@
 {"disposition":"clean","patches":[],"rid":"A00299"}
 {"disposition":"clean","patches":[],"rid":"A00300"}
 {"disposition":"needs_print_check","patches":[],"rid":"A00301","escalation":"Unbalanced parentheses: \"Ar. (ed. לאג׳. all must contribute towards keeping the city gates in repair.;\" opens a parenthetical after \"Ar.\" that is never closed (whole-entry paren count 3 open / 2 close, vs. the entry's other two balanced pairs). Likely a lost ')' after the variant reading לאג׳; restoring the byte needs the printed page."}
-{"disposition":"repaired","patches":["P000007"],"rid":"A00302"}
 {"disposition":"clean","patches":[],"rid":"A00303"}
 {"disposition":"clean","patches":[],"rid":"A00304"}
 {"disposition":"clean","patches":[],"rid":"A00305"}
@@ -127,7 +123,6 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00336","escalation":"Unclassified stem head: the single unnumbered sense opens with italicized 'Pa.' governing אַגַּר ('to heap up') embedded loose in running text instead of a classified grammar/verbal_stem section (cf. catalog class 5 example F00116's 'Pa. וַוְתֵּר'). No patch op writes grammar/stem structure; escalating for maintainer classification."}
 {"disposition":"needs_print_check","patches":[],"rid":"A00337","escalation":"Unnumbered sense's definition has a dangling unmatched ')' beyond the balanced '(√אג, v. חגר)' parenthetical: ' (√אג, v. חגר).). ' — an extra ')' (with stray '.') not opened anywhere in the entry (no language_code/language_reference cross-field convention applies here). Likely upstream loss or a print-carried mismatch; repair would need a byte not present, so escalating rather than guessing which."}
 {"disposition":"clean","patches":[],"rid":"A00338"}
-{"disposition":"repaired","patches":["P000008","P000009"],"rid":"A00339"}
 {"disposition":"clean","patches":[],"rid":"A00340"}
 {"disposition":"clean","patches":[],"rid":"A00341"}
 {"disposition":"clean","patches":[],"rid":"A00342"}
@@ -137,14 +132,12 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00346","escalation":"Gloss reads 'costum-collectors' translating a corrupt. of אגרונומי (cf. ἀγορανόμος, market/customs officer). 'Costum' is not an English word and reads as a likely OCR/print typo for 'custom-collectors' (duty/customs collectors), analogous to the batch-01 'heated store'/'stove' semantic-mismatch pattern. Low confidence without print verification; o→u is not a closed-grammar marker so no patch is possible."}
 {"disposition":"clean","patches":[],"rid":"A00347"}
 {"disposition":"clean","patches":[],"rid":"A00348"}
-{"disposition":"repaired","patches":["P000011"],"rid":"A00349"}
 {"disposition":"clean","patches":[],"rid":"A00350"}
 {"disposition":"clean","patches":[],"rid":"A00351"}
 {"disposition":"clean","patches":[],"rid":"A00352"}
 {"disposition":"clean","patches":[],"rid":"A00353"}
 {"disposition":"clean","patches":[],"rid":"A00354"}
 {"disposition":"clean","patches":[],"rid":"A00355"}
-{"disposition":"repaired","patches":["P000010"],"rid":"A00356"}
 {"disposition":"clean","patches":[],"rid":"A00357"}
 {"disposition":"clean","patches":[],"rid":"A00358"}
 {"disposition":"clean","patches":[],"rid":"A00359"}
@@ -155,7 +148,6 @@
 {"disposition":"clean","patches":[],"rid":"A00364"}
 {"disposition":"clean","patches":[],"rid":"A00365"}
 {"disposition":"clean","patches":[],"rid":"A00366"}
-{"disposition":"repaired","patches":["P000012"],"rid":"A00367"}
 {"disposition":"clean","patches":[],"rid":"A00368"}
 {"disposition":"clean","patches":[],"rid":"A00369"}
 {"disposition":"clean","patches":[],"rid":"A00370"}
@@ -205,7 +197,6 @@
 {"disposition":"clean","patches":[],"rid":"A00414"}
 {"disposition":"clean","patches":[],"rid":"A00415"}
 {"disposition":"clean","patches":[],"rid":"A00416"}
-{"disposition":"repaired","patches":["P000013"],"rid":"A00417"}
 {"disposition":"clean","patches":[],"rid":"A00418"}
 {"disposition":"clean","patches":[],"rid":"A00419"}
 {"disposition":"clean","patches":[],"rid":"A00420"}
@@ -224,13 +215,11 @@
 {"disposition":"clean","patches":[],"rid":"A00433"}
 {"disposition":"clean","patches":[],"rid":"A00434"}
 {"disposition":"clean","patches":[],"rid":"A00435"}
-{"disposition":"repaired","patches":["P000014"],"rid":"A00436"}
 {"disposition":"clean","patches":[],"rid":"A00437"}
 {"disposition":"clean","patches":[],"rid":"A00438"}
 {"disposition":"clean","patches":[],"rid":"A00439"}
 {"disposition":"clean","patches":[],"rid":"A00440"}
 {"disposition":"clean","patches":[],"rid":"A00441"}
-{"disposition":"repaired","patches":["P000015"],"rid":"A00442"}
 {"disposition":"clean","patches":[],"rid":"A00443"}
 {"disposition":"clean","patches":[],"rid":"A00444"}
 {"disposition":"clean","patches":[],"rid":"A00445"}
@@ -251,9 +240,7 @@
 {"disposition":"clean","patches":[],"rid":"A00460"}
 {"disposition":"clean","patches":[],"rid":"A00461"}
 {"disposition":"clean","patches":[],"rid":"A00462"}
-{"disposition":"repaired","patches":["P000016"],"rid":"A00463"}
 {"disposition":"clean","patches":[],"rid":"A00464"}
-{"disposition":"repaired","patches":["P000017"],"rid":"A00465"}
 {"disposition":"clean","patches":[],"rid":"A00466"}
 {"disposition":"clean","patches":[],"rid":"A00467"}
 {"disposition":"clean","patches":[],"rid":"A00468"}
@@ -307,12 +294,10 @@
 {"disposition":"clean","patches":[],"rid":"A00516"}
 {"disposition":"clean","patches":[],"rid":"A00517"}
 {"disposition":"clean","patches":[],"rid":"A00518"}
-{"disposition":"repaired","patches":["P000019"],"rid":"A00519"}
 {"disposition":"clean","patches":[],"rid":"A00520"}
 {"disposition":"clean","patches":[],"rid":"A00521"}
 {"disposition":"clean","patches":[],"rid":"A00522"}
 {"disposition":"clean","patches":[],"rid":"A00523"}
-{"disposition":"repaired","patches":["P000020"],"rid":"A00524"}
 {"disposition":"clean","patches":[],"rid":"A00525"}
 {"disposition":"clean","patches":[],"rid":"A00526"}
 {"disposition":"clean","patches":[],"rid":"A00527"}
@@ -365,7 +350,6 @@
 {"disposition":"clean","patches":[],"rid":"A00574"}
 {"disposition":"clean","patches":[],"rid":"A00575"}
 {"disposition":"clean","patches":[],"rid":"A00576"}
-{"disposition":"repaired","patches":["P000021"],"rid":"A00577"}
 {"disposition":"clean","patches":[],"rid":"A00578"}
 {"disposition":"clean","patches":[],"rid":"A00579"}
 {"disposition":"clean","patches":[],"rid":"A00580"}
@@ -399,7 +383,6 @@
 {"disposition":"clean","patches":[],"rid":"A00608"}
 {"disposition":"clean","patches":[],"rid":"A00609"}
 {"disposition":"clean","patches":[],"rid":"A00610"}
-{"disposition":"repaired","patches":["P000022"],"rid":"A00611"}
 {"disposition":"clean","patches":[],"rid":"A00612"}
 {"disposition":"clean","patches":[],"rid":"A00613"}
 {"disposition":"clean","patches":[],"rid":"A00614"}
@@ -416,7 +399,6 @@
 {"disposition":"clean","patches":[],"rid":"A00625"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00626","escalation":"Unclassified binyan head 'Pi.' embedded loose in sense[] (anchor 17b9da5e) definition text (' , Pi. אִיוָּה to desire, covet …') instead of opening a classified stem section — no patch op writes grammar/stem structure. Class 5 (unclassified-binyan)."}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00627","escalation":"anomaly_hint circular-v-ref accepted: sense[] (anchor 72be5352) definition anchor citing Gesenius' Hebrew Dict. s.v. אָוָה III has href/data-ref 'Jastrow, אוי ² 1' targeting this entry's own headword 'אוי ²', while the display text names a distinct homonym (III) from this entry's own root (alt_headwords: 'אָוָה II') — reads as an auto-linker circular self-link on an external-dictionary citation, not a legitimate self-mention. Class 11 (wrong-link-target / circular-v-ref); href correction requires bytes not present in the entry.","resolution":{"decided_on":"2026-08-14","decision":"over-ambitious Sefaria linker — the anchored word is a citation of another dictionary (Gesenius) for the same word and should not be a link at all. Remove the anchor markup; text stands."}}
-{"disposition":"repaired","patches":["P000023","P000024"],"rid":"A00628"}
 {"disposition":"clean","patches":[],"rid":"A00629"}
 {"disposition":"clean","patches":[],"rid":"A00630"}
 {"disposition":"clean","patches":[],"rid":"A00631"}
@@ -443,7 +425,6 @@
 {"disposition":"clean","patches":[],"rid":"A00658"}
 {"disposition":"clean","patches":[],"rid":"A00659"}
 {"disposition":"repaired","patches":["P000025"],"rid":"A00633"}
-{"disposition":"repaired","patches":["P000026"],"rid":"A00652"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00635","escalation":"refs[0] and refs[1] are both the identical string \"Jastrow, אָוִיר 1\" (verbatim-duplicated single-item run, class 12 duplicate-refs-block); the definition/language_reference only cite אָוִיר once (as \"same.\"), so the second refs entry has no corresponding second textual citation and looks like an accidental duplicate. refs is outside sense-patch scope; needs maintainer removal of the extra entry."}
 {"disposition":"needs_print_check","patches":[],"rid":"A00638","escalation":"anomaly_hint (truncated-formula) confirmed: \"(v. Rab. D. S. a.).\" is missing the \" l.\" that completes the corpus formula \"Rabb. D. S. a. l.\"; additionally \"Rab.\" itself is one byte short of the dominant \"Rabb.\" form used elsewhere in the corpus for this same formula (cf. A00647 in this chunk, which has the full \"Rabb. D. S. a. l.\"). Both are sub-token losses (class 8, lost-parenthetical) requiring bytes (\"b\", \" l.\") not present anywhere in this entry's own content, so no in-scope repair is possible. Matches the documented batch-01 miss for this exact rid."}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00644","escalation":"content.senses[0] is a completely empty object (no definition, no number field) preceding the numbered 1)/—2)/—3) senses — proposed novel class \"empty-stub-sense\". Parallel entries in this chunk (A00634, A00645) use this lead position for real introductory/etymological text before sense 1, so this may be a harmless empty placeholder or evidence that upstream lost the intro text at that position. No patch op can safely resolve which without a maintainer/print call: deleting an empty sense that print might restore text into is a structural decision outside this sweep's authority."}
@@ -510,7 +491,6 @@
 {"disposition":"clean","patches":[],"rid":"A00719"}
 {"disposition":"clean","patches":[],"rid":"A00720"}
 {"disposition":"clean","patches":[],"rid":"A00721"}
-{"disposition":"repaired","patches":["P000028","P000029"],"rid":"A00722"}
 {"disposition":"clean","patches":[],"rid":"A00723"}
 {"disposition":"clean","patches":[],"rid":"A00724"}
 {"disposition":"clean","patches":[],"rid":"A00725"}
@@ -549,7 +529,6 @@
 {"disposition":"clean","patches":[],"rid":"A00758"}
 {"disposition":"clean","patches":[],"rid":"A00759"}
 {"disposition":"clean","patches":[],"rid":"A00760"}
-{"disposition":"repaired","patches":["P000030"],"rid":"A00761"}
 {"disposition":"clean","patches":[],"rid":"A00762"}
 {"disposition":"clean","patches":[],"rid":"A00763"}
 {"disposition":"clean","patches":[],"rid":"A00764"}
@@ -609,7 +588,6 @@
 {"disposition":"clean","patches":[],"rid":"A00818"}
 {"disposition":"clean","patches":[],"rid":"A00819"}
 {"disposition":"clean","patches":[],"rid":"A00820"}
-{"disposition":"repaired","patches":["P000032"],"rid":"A00821"}
 {"disposition":"clean","patches":[],"rid":"A00822"}
 {"disposition":"clean","patches":[],"rid":"A00823"}
 {"disposition":"clean","patches":[],"rid":"A00824"}
@@ -628,7 +606,7 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00837","escalation":"The bracketed '[prob. אוֹקִימוּתָא]' anchor at the end of the definition has display text and href/data-ref identical to this entry's own headword (אוֹקִימוּתָא, /Jastrow,_אוֹקִימוּתָא.1) inside a 'probably read as' emendation note, rather than a plain mention or inflected surface form. No anomaly_hint fired (no 'v.' token, so the circular-v-ref detector would not catch it), but this looks like the same wrong-link-target/circular-reference phenomenon (class 11) under a 'prob.' construction: the proposed alternate reading appears to have been auto-linked back to the entry itself instead of to a distinct headword.","resolution":{"decided_on":"2026-08-14","decision":"over-ambitious Sefaria linker — remove the self-link. What Jastrow intends by אוֹקָמוּתָא is unresolved (the form is in neither the dictionary nor Targum); printed text stands as-is."}}
 {"disposition":"clean","patches":[],"rid":"A00838"}
 {"disposition":"clean","patches":[],"rid":"A00839"}
-{"disposition":"needs_print_check","patches":["P000033"],"rid":"A00840","escalation":"Sense —2) (act. v., anchor 866224db) has an unbalanced parenthesis: \"(the teacher had opened his (Samuel’s) eyes &c.\" opens and is never closed before the definition moves into further citations (net +1 open paren over the whole definition); a closing byte (likely after \"&c.\") appears lost upstream. Cannot repair without the printed page. (Separately, sense 1) carried a duplicated \"(neut. v.)\" tag, repaired via patch P000001.)"}
+{"disposition":"needs_print_check","patches":[],"rid":"A00840","escalation":"Sense —2) (act. v., anchor 866224db) has an unbalanced parenthesis: \"(the teacher had opened his (Samuel’s) eyes &c.\" opens and is never closed before the definition moves into further citations (net +1 open paren over the whole definition); a closing byte (likely after \"&c.\") appears lost upstream. Cannot repair without the printed page. (Separately, sense 1) carried a duplicated \"(neut. v.)\" tag, repaired via patch P000001.)"}
 {"disposition":"clean","patches":[],"rid":"A00841"}
 {"disposition":"clean","patches":[],"rid":"A00842"}
 {"disposition":"clean","patches":[],"rid":"A00843"}
@@ -651,7 +629,7 @@
 {"disposition":"needs_print_check","patches":[],"rid":"A00860","escalation":"lost-parenthetical (class 8): the sole sense (anchor b539758d) opens \"(b. h. herbs, esp. rocket...\" and that parenthesis is never closed through the rest of the definition (net +1 unbalanced paren); the trailing \"[Gen. R. s. 20 ... 3.]\" is a separate, self-contained balanced bracket aside, not the missing close. A closing byte appears lost upstream (plausibly after \"rocket\" or \"p. 93\"). Cannot repair without the printed page."}
 {"disposition":"clean","patches":[],"rid":"A00861"}
 {"disposition":"clean","patches":[],"rid":"A00862"}
-{"disposition":"needs_human_judgment","patches":["P000034"],"rid":"A00863","escalation":"wrong-link-target (class 11), co-located with the repaired duplicate-anchor-wrap: after collapsing the nested <a> duplication, the surviving cross-reference's display text \"אֻרְוָה\" disagrees with its href/data-ref target headword \"אֻרְיָה\" by one consonant (ו vs י). This entry's own headword family (אוּרְווֹת) uses the vav spelling, suggesting the href target may be the wrong one, but the destination cannot be corrected without maintainer verification."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A00863","escalation":"wrong-link-target (class 11), co-located with the repaired duplicate-anchor-wrap: after collapsing the nested <a> duplication, the surviving cross-reference's display text \"אֻרְוָה\" disagrees with its href/data-ref target headword \"אֻרְיָה\" by one consonant (ו vs י). This entry's own headword family (אוּרְווֹת) uses the vav spelling, suggesting the href target may be the wrong one, but the destination cannot be corrected without maintainer verification."}
 {"disposition":"clean","patches":[],"rid":"A00864"}
 {"disposition":"clean","patches":[],"rid":"A00865"}
 {"disposition":"needs_print_check","patches":[],"rid":"A00866","escalation":"anomaly_hint judged (rare-dotted-variant): \"Mas.\" (1x, anchor abdcf8e1) is a corpus-rare dotted abbreviation beside the dominant \"Ms.\"/\"Maas.\" forms. In context it introduces a manuscript-variant spelling of the headword, the same role \"Ms.\" plays elsewhere in this chunk (e.g. A00848, A00869), so \"Mas.\" is likely a transcription defect for \"Ms.\" — but correcting it is a byte change this process cannot make from the entry alone. needs_print_check per v3 rare-dotted-variant guidance."}
@@ -665,7 +643,7 @@
 {"disposition":"clean","patches":[],"rid":"A00874"}
 {"disposition":"clean","patches":[],"rid":"A00875"}
 {"disposition":"clean","patches":[],"rid":"A00876"}
-{"disposition":"needs_print_check","patches":["P000035"],"rid":"A00877","escalation":"anomaly_hint rare-dotted-variant: rare 'Tossaf.' (4x corpus-wide) beside dominant 'Tosaf.' at \"emend. in Tossaf. אורית\" (Kidd. 12b citation). One edit from the dominant sibling and too rare to be a stable convention; likely an OCR-doubled letter, but correcting 'Tossaf.' to 'Tosaf.' cannot be verified from the entry alone. Also repaired in this entry: class-10 duplicate-anchor-wrap around אוּרְתָּא (patch above)."}
+{"disposition":"needs_print_check","patches":[],"rid":"A00877","escalation":"anomaly_hint rare-dotted-variant: rare 'Tossaf.' (4x corpus-wide) beside dominant 'Tosaf.' at \"emend. in Tossaf. אורית\" (Kidd. 12b citation). One edit from the dominant sibling and too rare to be a stable convention; likely an OCR-doubled letter, but correcting 'Tossaf.' to 'Tosaf.' cannot be verified from the entry alone. Also repaired in this entry: class-10 duplicate-anchor-wrap around אוּרְתָּא (patch above)."}
 {"disposition":"clean","patches":[],"rid":"A00878"}
 {"disposition":"clean","patches":[],"rid":"A00879"}
 {"disposition":"clean","patches":[],"rid":"A00880"}
@@ -680,7 +658,6 @@
 {"disposition":"clean","patches":[],"rid":"A00889"}
 {"disposition":"clean","patches":[],"rid":"A00890"}
 {"disposition":"clean","patches":[],"rid":"A00891"}
-{"disposition":"repaired","patches":["P000036"],"rid":"A00892"}
 {"disposition":"clean","patches":[],"rid":"A00893"}
 {"disposition":"clean","patches":[],"rid":"A00894"}
 {"disposition":"clean","patches":[],"rid":"A00895"}
@@ -689,7 +666,6 @@
 {"disposition":"clean","patches":[],"rid":"A00898"}
 {"disposition":"clean","patches":[],"rid":"A00899"}
 {"disposition":"clean","patches":[],"rid":"A00900"}
-{"disposition":"repaired","patches":["P000037"],"rid":"A00901"}
 {"disposition":"clean","patches":[],"rid":"A00902"}
 {"disposition":"clean","patches":[],"rid":"A00903"}
 {"disposition":"clean","patches":[],"rid":"A00904"}
@@ -756,7 +732,6 @@
 {"disposition":"clean","patches":[],"rid":"A00965"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00966","escalation":"abbrev-mislink hint confirmed: geresh abbreviation 'אֵיז׳' (also recorded in this entry's own plural_form) abbreviates this entry's headword אֵזוֹר, but its <a> data-ref targets Jastrow, *אִזְתַּוְודָּא 1 (rid A00987), an unrelated headword ('attachment, handle'). Per v4 rule 4 the geresh abbreviation must resolve to this entry; no in-sense bytes exist to construct the correct self-referencing href via replace, so no patch is possible. Class 11 wrong-link-target (abbrev-mislink)."}
 {"disposition":"clean","patches":[],"rid":"A00967"}
-{"disposition":"repaired","patches":["P000038"],"rid":"A00968"}
 {"disposition":"clean","patches":[],"rid":"A00969"}
 {"disposition":"clean","patches":[],"rid":"A00970"}
 {"disposition":"clean","patches":[],"rid":"A00971"}
@@ -768,7 +743,6 @@
 {"disposition":"clean","patches":[],"rid":"A00977"}
 {"disposition":"clean","patches":[],"rid":"A00978"}
 {"disposition":"clean","patches":[],"rid":"A00979"}
-{"disposition":"repaired","patches":["P000039"],"rid":"A00980"}
 {"disposition":"clean","patches":[],"rid":"A00981"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A00982","escalation":"exact-headword-diverge hint confirmed: in sense 0, display 'אוּדְנָא' (itself a corpus headword) links via data-ref to 'Jastrow, אוֹדֶן 1' — a consonantally different headword (אוּדְנָא has 5 consonants incl. a trailing א; אוֹדֶן has 4, ending ן, no trailing א). Class 11 wrong-link-target; href correction needs bytes not present in this entry, so no patch is possible."}
 {"disposition":"clean","patches":[],"rid":"A00983"}
@@ -800,7 +774,6 @@
 {"disposition":"clean","patches":[],"rid":"A01009"}
 {"disposition":"clean","patches":[],"rid":"A01010"}
 {"disposition":"clean","patches":[],"rid":"A01011"}
-{"disposition":"repaired","patches":["P000040"],"rid":"A01012"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01013","escalation":"The parenthetical cross-reference displays 'כפר' but its anchor's data-ref/href target is 'Jastrow, בְּקִיעִין 1' — a consonantally unrelated headword (class 11 wrong-link-target; not an inflected form, plene/defective spelling, alt_headword, or niqqud-only difference from 'כפר'). The entry contains no evidence of the correct target (e.g. a headword 'כפר'/'כְּפַר' elsewhere in the entry), so the href/data-ref cannot be repaired with bytes already present in the entry; needs maintainer lookup of the intended target."}
 {"disposition":"clean","patches":[],"rid":"A01014"}
 {"disposition":"clean","patches":[],"rid":"A01015"}
@@ -813,10 +786,8 @@
 {"disposition":"clean","patches":[],"rid":"A01022"}
 {"disposition":"clean","patches":[],"rid":"A01023"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01024","escalation":"Mandatory display-vs-target check: the anchor \"<i>Pa</i>. אַחֵי\" displays אַחֵי (aleph-het-yod — morphologically reads as the Pa'el conjugation of this very entry's own headword אחי ², i.e. an inflected surface form of THIS entry), but its data-ref targets \"Jastrow, חֲיִי 1\" (het-yod-yod) — a different consonantal root, not an inflected form of that target and not covered by the niqqud/matres-lectionis/alt_headword carve-outs. Likely class 11 wrong-link-target (display is this entry's own conjugated headword but link goes to an unrelated root); cannot confirm or repair without seeing the חֲיִי entry."}
-{"disposition":"repaired","patches":["P000041"],"rid":"A01025"}
 {"disposition":"clean","patches":[],"rid":"A01026"}
 {"disposition":"clean","patches":[],"rid":"A01027"}
-{"disposition":"repaired","patches":["P000042"],"rid":"A01028"}
 {"disposition":"clean","patches":[],"rid":"A01029"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01030","escalation":"niqqud-twin-target: anchor displays א.ַח.ֲי.וֹת (with holam) and targets \"Jastrow, אַחֲיוֹת 1\", which within THIS SAME CHUNK (A01029, same headword) is confirmed to mean \"pl. of אָחוֹת\" (sisters) — but the surrounding gloss here reads \"resurrection of &c.\", matching this entry's own sense (אַחֲיוּתאָ, reanimation/resurrection). אַחֲיוֹת (sisters, holam) and אַחֲיוּת (resurrection, shuruk) share one consonantal skeleton (אחיות) and are distinguished only by niqqud — per v4's narrowed carve-out this is exactly the case the carve-out does not cover; the link almost certainly should target the resurrection-sense headword, not \"sisters.\" Not repairable (correct target/href bytes not present in this entry)."}
 {"disposition":"clean","patches":[],"rid":"A01031"}
@@ -830,7 +801,6 @@
 {"disposition":"clean","patches":[],"rid":"A01039"}
 {"disposition":"clean","patches":[],"rid":"A01040"}
 {"disposition":"clean","patches":[],"rid":"A01041"}
-{"disposition":"repaired","patches":["P000043"],"rid":"A01042"}
 {"disposition":"clean","patches":[],"rid":"A01043"}
 {"disposition":"clean","patches":[],"rid":"A01044"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01045","escalation":"duplicate-refs-block (class 12): the refs array contains the identical string \"Jastrow, אָחַר 1\" three times in a row (indices 0-2), though the entry's own text only links that headword once (language_reference \"same\"). Arrays are outside sense-patch scope; escalating for maintainer cleanup of the duplicated run."}
@@ -855,7 +825,7 @@
 {"disposition":"clean","patches":[],"rid":"A01064"}
 {"disposition":"clean","patches":[],"rid":"A01065"}
 {"disposition":"clean","patches":[],"rid":"A01066"}
-{"disposition":"needs_human_judgment","patches":["P000044"],"rid":"A01067","escalation":"Unclassified binyan head (class 5): 'Af.' appears loose in the definition text immediately before the Afel-conjugation form אַיְיטִי, rather than opening a classified grammar/stem section (this entry's sense has no `grammar` field). No patch op writes grammar/stem structure, so this is not repairable by us — flagging per the F00116/G00173 precedent. Separately, this entry's in-sense duplicate-anchor-wrap around יְטִי (class 10) was repaired via patch P000001."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A01067","escalation":"Unclassified binyan head (class 5): 'Af.' appears loose in the definition text immediately before the Afel-conjugation form אַיְיטִי, rather than opening a classified grammar/stem section (this entry's sense has no `grammar` field). No patch op writes grammar/stem structure, so this is not repairable by us — flagging per the F00116/G00173 precedent. Separately, this entry's in-sense duplicate-anchor-wrap around יְטִי (class 10) was repaired via patch P000001."}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01068","escalation":"Mandatory anchor check (class 11 candidate): the plural form אַטְבֵּי — a form of this entry's own headword אַטְבָּא, printed right beside the unlinked variant (אַטְבְּעֵי) which itself matches this entry's plural_form field — is anchored to href/data-ref \"Jastrow, טְבַל 1\", an unrelated root ('to dip') sharing only the letters ט-ב with the display. This is a real consonant mismatch (extra א, final ל vs י), not niqqud/plene/inflection of טְבַל, and not an attested alt_headword relationship visible in this chunk. Cannot repair: no correction bytes for the href exist within the anchor's own find-text."}
 {"disposition":"clean","patches":[],"rid":"A01069"}
 {"disposition":"clean","patches":[],"rid":"A01070"}
@@ -928,7 +898,7 @@
 {"disposition":"clean","patches":[],"rid":"A01137"}
 {"disposition":"clean","patches":[],"rid":"A01138"}
 {"disposition":"clean","patches":[],"rid":"A01139"}
-{"disposition":"needs_human_judgment","patches":["P000045"],"rid":"A01140","escalation":"Anomaly hint niqqud-twin-target confirmed: display אֲגוֹרָא (hataf-patach) is linked via href/data-ref \"Jastrow, אֱגוֹרָא I 1\" (hataf-segol); both אֲגוֹרָא and אֱגוֹרָא are corpus headwords sharing the consonantal skeleton אגורא, so the narrowed v4 niqqud carve-out cannot resolve which is meant. This entry's own refs array lists \"Jastrow, אֱגוֹרָא I 1\", matching the current href, but אֲגוֹרָא and אֱגוֹרָא I are both outside this chunk so their senses cannot be read to confirm the citation target from this chunk's evidence alone. (The duplicate-anchor-wrap markup defect on this same anchor is repaired in P000001.)"}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A01140","escalation":"Anomaly hint niqqud-twin-target confirmed: display אֲגוֹרָא (hataf-patach) is linked via href/data-ref \"Jastrow, אֱגוֹרָא I 1\" (hataf-segol); both אֲגוֹרָא and אֱגוֹרָא are corpus headwords sharing the consonantal skeleton אגורא, so the narrowed v4 niqqud carve-out cannot resolve which is meant. This entry's own refs array lists \"Jastrow, אֱגוֹרָא I 1\", matching the current href, but אֲגוֹרָא and אֱגוֹרָא I are both outside this chunk so their senses cannot be read to confirm the citation target from this chunk's evidence alone. (The duplicate-anchor-wrap markup defect on this same anchor is repaired in P000001.)"}
 {"disposition":"clean","patches":[],"rid":"A01141"}
 {"disposition":"clean","patches":[],"rid":"A01142"}
 {"disposition":"clean","patches":[],"rid":"A01143"}
@@ -941,9 +911,7 @@
 {"disposition":"clean","patches":[],"rid":"A01150"}
 {"disposition":"clean","patches":[],"rid":"A01151"}
 {"disposition":"clean","patches":[],"rid":"A01152"}
-{"disposition":"repaired","patches":["P000046"],"rid":"A01153"}
 {"disposition":"clean","patches":[],"rid":"A01154"}
-{"disposition":"repaired","patches":["P000047"],"rid":"A01155"}
 {"disposition":"clean","patches":[],"rid":"A01156"}
 {"disposition":"clean","patches":[],"rid":"A01157"}
 {"disposition":"clean","patches":[],"rid":"A01158"}
@@ -1008,7 +976,6 @@
 {"disposition":"clean","patches":[],"rid":"A01217"}
 {"disposition":"clean","patches":[],"rid":"A01218"}
 {"disposition":"clean","patches":[],"rid":"A01219"}
-{"disposition":"repaired","patches":["P000048"],"rid":"A01220"}
 {"disposition":"clean","patches":[],"rid":"A01221"}
 {"disposition":"clean","patches":[],"rid":"A01222"}
 {"disposition":"clean","patches":[],"rid":"A01223"}
@@ -1032,7 +999,6 @@
 {"disposition":"clean","patches":[],"rid":"A01241"}
 {"disposition":"clean","patches":[],"rid":"A01242"}
 {"disposition":"clean","patches":[],"rid":"A01243"}
-{"disposition":"repaired","patches":["P000049"],"rid":"A01244"}
 {"disposition":"clean","patches":[],"rid":"A01245"}
 {"disposition":"clean","patches":[],"rid":"A01246"}
 {"disposition":"clean","patches":[],"rid":"A01247"}
@@ -1134,11 +1100,10 @@
 {"disposition":"clean","patches":[],"rid":"A01343"}
 {"disposition":"clean","patches":[],"rid":"A01344"}
 {"disposition":"clean","patches":[],"rid":"A01345"}
-{"disposition":"repaired","patches":["P000051"],"rid":"A01346"}
 {"disposition":"clean","patches":[],"rid":"A01347"}
 {"disposition":"clean","patches":[],"rid":"A01348"}
 {"disposition":"clean","patches":[],"rid":"A01349"}
-{"disposition":"needs_human_judgment","patches":["P000052"],"rid":"A01350","escalation":"Repaired swallowed —2) marker in sense 1) (class 2). Separately, mandatory display-vs-target anchor check found multiple class-11 wrong-link-target anchors that cannot be repaired (no correct href bytes present in entry): (a) hinted abbrev-mislink — geresh 'אִמְּ׳' (this entry's own plural, listed in plural_form) links to Jastrow, מְצִי I 1 instead of self; (b) plural form 'אִימְּרִין' links to Jastrow, מְרַד 1, a consonantally unrelated headword; (c) plural form 'אִימְּרַיָּא' (also in this entry's own plural_form list) links to the neighboring twin headword Jastrow, אִימַר 1 (niqqud/dagesh-only difference from this entry's own אִימַּר) instead of self — niqqud-twin-target, carve-out cannot decide, needs maintainer read; (d) in the pr.n. sense, 'כפר א׳' (glossed 'K'far Imra', i.e. this headword) links to Jastrow, *איבּוּס 1, an unrelated headword. All four need maintainer link-target correction."}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A01350","escalation":"Repaired swallowed —2) marker in sense 1) (class 2). Separately, mandatory display-vs-target anchor check found multiple class-11 wrong-link-target anchors that cannot be repaired (no correct href bytes present in entry): (a) hinted abbrev-mislink — geresh 'אִמְּ׳' (this entry's own plural, listed in plural_form) links to Jastrow, מְצִי I 1 instead of self; (b) plural form 'אִימְּרִין' links to Jastrow, מְרַד 1, a consonantally unrelated headword; (c) plural form 'אִימְּרַיָּא' (also in this entry's own plural_form list) links to the neighboring twin headword Jastrow, אִימַר 1 (niqqud/dagesh-only difference from this entry's own אִימַּר) instead of self — niqqud-twin-target, carve-out cannot decide, needs maintainer read; (d) in the pr.n. sense, 'כפר א׳' (glossed 'K'far Imra', i.e. this headword) links to Jastrow, *איבּוּס 1, an unrelated headword. All four need maintainer link-target correction."}
 {"disposition":"clean","patches":[],"rid":"A01351"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01352","escalation":"Anomaly hint (exact-headword-diverge) confirmed: anchor displaying 'אֵימוּרִים II' targets Jastrow, אֵימוּרִים ² 1, but the bare display text 'אֵימוּרִים' (without the numeral) is itself a distinct corpus headword, consonantally different from the numbered target per the detector (plene/defective already excluded). Cannot repair (href bytes not present in entry); needs maintainer disambiguation."}
 {"disposition":"clean","patches":[],"rid":"A01353"}
@@ -1146,7 +1111,6 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01355","escalation":"Anomaly hint (niqqud-twin-target) confirmed: language_reference anchor displays 'אֵי' but targets Jastrow, אִי II 1; 'אֵי' and 'אִי' are both attested corpus headwords sharing one consonantal skeleton, so the niqqud carve-out cannot decide which is meant. Field is language_reference (outside sense/patch scope) and correct target is unverifiable from this entry alone; needs maintainer read of both candidate entries."}
 {"disposition":"clean","patches":[],"rid":"A01356"}
 {"disposition":"clean","patches":[],"rid":"A01357"}
-{"disposition":"repaired","patches":["P000053"],"rid":"A01358"}
 {"disposition":"clean","patches":[],"rid":"A01359"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01360","escalation":"Unclassified binyan head: definition opens \", Pi. אִיֵּין (= עִיֵּין, v. next w.) to look upon, investigate.\" with the Pi. label loose in running text instead of a classified grammar/stem section (class 5, per F00116/G00173 pattern). No patch op writes grammar structure; no text-surgery repair attempted."}
 {"disposition":"clean","patches":[],"rid":"A01361"}
@@ -1188,14 +1152,13 @@
 {"disposition":"clean","patches":[],"rid":"A01397"}
 {"disposition":"clean","patches":[],"rid":"A01398"}
 {"disposition":"clean","patches":[],"rid":"A01399"}
-{"disposition":"repaired","patches":["P000054"],"rid":"A01400"}
 {"disposition":"clean","patches":[],"rid":"A01401"}
 {"disposition":"clean","patches":[],"rid":"A01402"}
 {"disposition":"clean","patches":[],"rid":"A01403"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01404","escalation":"wrong-link-target (class 11): display אֵיסוּרִין ('prisoners', the plural of this entry's own sense 2) links to Jastrow, אֵימוּרִין 1 (an unrelated headword meaning the sacrificial portions burned on the altar) — a one-letter consonantal mismatch (ס vs מ). This is not a legitimate self-link since the target is a different headword, not this entry."}
 {"disposition":"clean","patches":[],"rid":"A01405"}
-{"disposition":"needs_print_check","patches":["P000055","P000056"],"rid":"A01406","escalation":"bare-abbrev anomaly hint confirmed: 'Yeb. 32ᵇ sq;' and 'Ḥull. 101ᵃ sq;' both use bare 'sq' where the corpus overwhelmingly writes 'sq.' (1289 vs 7 bare). Both are single-byte period losses (class 8) that cannot be repaired without introducing a new byte; needs print check. (Two other defects in this entry were repairable and are included as patches: an anchor-boundary paren fix and a duplicated citation/formula clause.)"}
-{"disposition":"needs_human_judgment","patches":["P000057"],"rid":"A01407","escalation":"duplicate-refs-block (class 12): the refs array lists 'Jastrow, אִיסּוּר II 1' twice consecutively (the first two entries are identical) — an array-scope defect with no patch op available. (A separate swallowed-marker defect in the sense text was repairable and is included as a patch.)"}
+{"disposition":"needs_print_check","patches":[],"rid":"A01406","escalation":"bare-abbrev anomaly hint confirmed: 'Yeb. 32ᵇ sq;' and 'Ḥull. 101ᵃ sq;' both use bare 'sq' where the corpus overwhelmingly writes 'sq.' (1289 vs 7 bare). Both are single-byte period losses (class 8) that cannot be repaired without introducing a new byte; needs print check. (Two other defects in this entry were repairable and are included as patches: an anchor-boundary paren fix and a duplicated citation/formula clause.)"}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A01407","escalation":"duplicate-refs-block (class 12): the refs array lists 'Jastrow, אִיסּוּר II 1' twice consecutively (the first two entries are identical) — an array-scope defect with no patch op available. (A separate swallowed-marker defect in the sense text was repairable and is included as a patch.)"}
 {"disposition":"clean","patches":[],"rid":"A01408"}
 {"disposition":"clean","patches":[],"rid":"A01409"}
 {"disposition":"clean","patches":[],"rid":"A01410"}
@@ -1203,8 +1166,6 @@
 {"disposition":"clean","patches":[],"rid":"A01412"}
 {"disposition":"clean","patches":[],"rid":"A01413"}
 {"disposition":"clean","patches":[],"rid":"A01414"}
-{"disposition":"repaired","patches":["P000058"],"rid":"A01415"}
-{"disposition":"repaired","patches":["P000059"],"rid":"A01416"}
 {"disposition":"clean","patches":[],"rid":"A01417"}
 {"disposition":"clean","patches":[],"rid":"A01418"}
 {"disposition":"clean","patches":[],"rid":"A01419"}
@@ -1256,8 +1217,7 @@
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01456","escalation":"abbrev-mislink hint confirmed: geresh abbreviation אַסְ׳ abbreviates this entry's own headword איסטרולוגוס, but its data-ref targets אִיסְטְבָא (a different headword), per v4 class-11 geresh rule. Correct href bytes are not present anywhere in the entry, so no patch op can repair the destination; escalating."}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01457","escalation":"abbrev-mislink hint confirmed: geresh abbreviation אִיסְ׳ abbreviates this entry's own headword איסטרטטי, but its data-ref targets אִיסְטְבָא (a different headword), per v4 class-11 geresh rule. Correct href bytes are not present anywhere in the entry, so no patch op can repair the destination; escalating."}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01465","escalation":"abbrev-mislink hint confirmed: geresh abbreviation אִסְ׳ abbreviates this entry's own headword אִיסְכֹּולִי, but its data-ref targets אִיסְטְבָא (a different headword), per v4 class-11 geresh rule. Correct href bytes are not present anywhere in the entry, so no patch op can repair the destination; escalating."}
-{"disposition":"repaired","patches":["P000060"],"rid":"A01458"}
-{"disposition":"needs_human_judgment","patches":["P000061"],"rid":"A01468","escalation":"abbrev-mislink hint confirmed: geresh abbreviation אִסְ׳ abbreviates this entry's own headword איסכלא, but its data-ref targets אִיסְטְבָא (a different headword), per v4 class-11 geresh rule. Correct href bytes are not present anywhere in the entry, so the destination cannot be repaired via patch ops; escalating. (The entry's separate nested duplicate-anchor-wrap markup defect around the same link is repaired by P000002.)"}
+{"disposition":"needs_human_judgment","patches":[],"rid":"A01468","escalation":"abbrev-mislink hint confirmed: geresh abbreviation אִסְ׳ abbreviates this entry's own headword איסכלא, but its data-ref targets אִיסְטְבָא (a different headword), per v4 class-11 geresh rule. Correct href bytes are not present anywhere in the entry, so the destination cannot be repaired via patch ops; escalating. (The entry's separate nested duplicate-anchor-wrap markup defect around the same link is repaired by P000002.)"}
 {"disposition":"clean","patches":[],"rid":"A01470"}
 {"disposition":"clean","patches":[],"rid":"A01471"}
 {"disposition":"clean","patches":[],"rid":"A01472"}
@@ -1297,7 +1257,6 @@
 {"disposition":"clean","patches":[],"rid":"A01506"}
 {"disposition":"clean","patches":[],"rid":"A01507"}
 {"disposition":"clean","patches":[],"rid":"A01508"}
-{"disposition":"repaired","patches":["P000062","P000063"],"rid":"A01509"}
 {"disposition":"clean","patches":[],"rid":"A01510"}
 {"disposition":"clean","patches":[],"rid":"A01511"}
 {"disposition":"clean","patches":[],"rid":"A01512"}
@@ -1331,8 +1290,6 @@
 {"disposition":"clean","patches":[],"rid":"A01540"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01541","escalation":"Self-found wrong-link-target (class 11, no precomputed hint): the 'Pl.' anchor displays this entry's own plural_form אֵיפוּסִין but its data-ref targets Jastrow, אֵירוּסִין 1 — a one-letter consonantal mismatch (פ vs ר) to an unrelated headword (betrothal root ארס). Flagged via the mandatory display-vs-target check; no corrective bytes available in the entry."}
 {"disposition":"clean","patches":[],"rid":"A01542"}
-{"disposition":"repaired","patches":["P000064"],"rid":"A01543"}
-{"disposition":"repaired","patches":["P000065"],"rid":"A01544"}
 {"disposition":"clean","patches":[],"rid":"A01545"}
 {"disposition":"needs_human_judgment","patches":[],"rid":"A01546","escalation":"Out-of-sample discovery (batch-02 r2, clean-03): display אוֹ׳ targets הוֹבְרָיָא — probable class 11 wrong-link-target."}
 {"disposition":"clean","patches":[],"rid":"A01547"}
@@ -1359,7 +1316,6 @@
 {"disposition":"clean","patches":[],"rid":"A01568"}
 {"disposition":"clean","patches":[],"rid":"A01569"}
 {"disposition":"clean","patches":[],"rid":"A01570"}
-{"disposition":"repaired","patches":["P000066"],"rid":"A01571"}
 {"disposition":"clean","patches":[],"rid":"A01572"}
 {"disposition":"clean","patches":[],"rid":"A01573"}
 {"disposition":"clean","patches":[],"rid":"A01574"}
@@ -1402,7 +1358,6 @@
 {"disposition":"clean","patches":[],"rid":"A01611"}
 {"disposition":"clean","patches":[],"rid":"A01612"}
 {"disposition":"clean","patches":[],"rid":"A01613"}
-{"disposition":"repaired","patches":["P000067"],"rid":"A01614"}
 {"disposition":"clean","patches":[],"rid":"A01615"}
 {"disposition":"clean","patches":[],"rid":"A01616"}
 {"disposition":"clean","patches":[],"rid":"A01617"}

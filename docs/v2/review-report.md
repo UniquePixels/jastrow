@@ -7,7 +7,7 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 | Publication | Rows |
 |---|---|
 | blocks | 2 |
-| defer | 2822 |
+| defer | 2811 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -20,7 +20,7 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 - A01175: אִידְרְעָא = אֶדְרְעָא — the line holds `=`, which introduces a gloss reference
 - A01345: אִימְנוֹן = הִמְנוֹן — the line holds `=`, which introduces a gloss reference
 
-## Deferred (2822)
+## Deferred (2811)
 
 ### empty-stem-section (342)
 
@@ -2751,22 +2751,6 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 - U01001: שַׁיְפָא, שַׁיְיפָא, שְׁיָיאפָא) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U01268: שֶׁלַח, שְׁלוּחַ) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - V00942: תַּרְגִּימָא, תְּרָגִימָא) — the line's parentheses do not balance, so the layout cannot be settled from the source
-
-### patch-consolidated-away (11)
-
-**What to do:** Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.
-
-- A00337: P000070 dropped: P000077 is the later record for A00337
-- A00339: P000068 dropped: P000078, P000079 is the later record for A00339
-- A00339: P000069 dropped: P000078, P000079 is the later record for A00339
-- A00878: P000071 dropped: no patch (needs_human_judgment) is the later record for A00878
-- A00074: P000072 dropped: no patch (needs_print_check) is the later record for A00074
-- A00337: P000073 dropped: P000077 is the later record for A00337
-- A00339: P000074 dropped: P000078, P000079 is the later record for A00339
-- A00339: P000075 dropped: P000078, P000079 is the later record for A00339
-- A00878: P000076 dropped: no patch (needs_human_judgment) is the later record for A00878
-- A00878: P000080 dropped: no patch (needs_human_judgment) is the later record for A00878
-- A00339: P000009 dropped: P000079 is the later record for A00339
 
 ### review-deferred (3)
 

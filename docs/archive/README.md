@@ -12,6 +12,17 @@ The code counterpart lives at `refs/tags/archive/v2-research-2026-09`:
 `body/migrate-dry.ts`, `body/fixtures/extract.ts`, and related tests)
 were archived to that branch and tag rather than deleted.
 
+## Retired patch records (2026-09-22)
+
+[`patches-retired-2026-09-22/`](patches-retired-2026-09-22/) is a later
+arrival, and the only one here that is not from step 6.
+`data/patches/` now holds only the records the import run applies, plus
+the `needs_*` escalations it defers (Brian's ruling, 2026-09-22). The 72
+patch records it no longer applies — 61 `superseded`, 11 consolidated
+away — and the sweep-era research residue moved there, byte-exact, under
+the directory layout they had. That directory's README lists every
+moved record with its rid, source directory and reason.
+
 ## Renamed on the way in
 
 `docs/specs/*` history is deliberately left unrewritten, so it still

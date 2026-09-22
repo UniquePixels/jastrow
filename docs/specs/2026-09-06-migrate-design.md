@@ -42,6 +42,8 @@ One stale supposition surfaced during design: `patch/apply.ts` reads
 date has applied zero patches while 88 accepted rows sit in
 `data/patches/pilot/patches.jsonl` and
 `data/patches/tranches/*/patches.jsonl`. §5 fixes the loader.
+(Both paths are as they stood in 2026-09; `pilot/` was archived
+2026-09-22.)
 
 ## 2. The finishing stages
 
@@ -225,7 +227,7 @@ Until step 3, no full-corpus pass writes anything (spec §6).
 | `admin/pipeline/migrate/gates.ts` | gates 2–8, one function each returning a tally | new |
 | `admin/pipeline/migrate/report.ts` | JSON report and the evidence doc | new |
 | `admin/pipeline/body/compose.ts` | per-entry composition extracted from `migrate-dry.ts` | extracted |
-| `admin/pipeline/patch/apply.ts` | `loadCorpus` reads `pilot/patches.jsonl` plus `tranches/*/patches.jsonl`, the glob `tranche.ts` already uses | fixed |
+| `admin/pipeline/patch/apply.ts` | `loadCorpus` reads `pilot/patches.jsonl` plus `tranches/*/patches.jsonl`, the glob `tranche.ts` already uses. **Superseded 2026-09-22:** `pilot/` moved to `docs/archive/patches-retired-2026-09-22/` and `PILOT_DIR` is gone; `loadCorpus` reads the tranches only | fixed |
 | `admin/pipeline/page-index/` | the branch's `scripts/pageindex/` code | moved |
 | `data/page-index/` | the branch's index data | merged as-is |
 | `data/quarantine/internal-targets.json` | reviewed unresolved internal targets | new |

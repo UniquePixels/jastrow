@@ -1,5 +1,11 @@
 # Residue batch 03 — residue-01 chunks r00005–r00009, sweep-v8
 
+> **2026-09-22 — no patch or record left this directory.** Its
+> sweep-era residue did: `rejects.jsonl` and the four
+> `verdicts-batch-03-*.jsonl` are at
+> [`docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/).
+> The loader never read them.
+
 The first residue batch to leave the head of the corpus. Maintainer go
 recorded **2026-09-04 20:07 CDT**; usage baseline marked
 `2026-09-05T01:21:03.162Z`. Sweep tier Opus, prompt `sweep-v8`

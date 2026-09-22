@@ -1,5 +1,14 @@
 # Residue batch 01 — residue-01 chunks r00001–r00005, sweep-v6
 
+> **2026-09-22 — this directory no longer has a `patches.jsonl`.** All
+> five of its patches (P000072–P000076) were consolidated away: a later
+> sweep holds the winning record for each of their rids. They are at
+> [`docs/archive/patches-retired-2026-09-22/tranches/batch-01-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-01-2026-09-04/),
+> with the two `repaired` records that held them and `rejects.jsonl`.
+> 148 manifest records stay — two are escalations that carried one of
+> those patches and lost only the reference. The measurements below are
+> of the sweep as it ran.
+
 The first residue batch under the re-derived population and the
 signed v6 prompt. Maintainer go recorded **2026-09-04 10:45 CDT**;
 usage baseline marked `2026-09-04T16:12:32.805Z`.

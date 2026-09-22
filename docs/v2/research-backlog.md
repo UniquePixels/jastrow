@@ -40,7 +40,7 @@ walk got, not of how much is wrong.
 | # | List | Open | Source |
 |---|---|---|---|
 | 1 | Residue-sweep escalations | 487 entries (371 judgment, 116 print check) | 7 manifests under `data/patches/tranches/` |
-| 2 | Earlier chunk-sweep escalations never re-swept | 101 entries (64 judgment, 37 print check) | `data/patches/pilot/`, `data/patches/tranches/tranche-01/` |
+| 2 | Earlier chunk-sweep escalations never re-swept | 101 entries (64 judgment, 37 print check) | `data/patches/tranches/tranche-01/`, and the pilot's manifest at [`docs/archive/patches-retired-2026-09-22/pilot/`](../archive/patches-retired-2026-09-22/pilot/) since 2026-09-22 |
 | 3 | Implied sense-`1)` candidates never decided | 21 entries | [body-review 08](../archive/body-review/08-implied-one-candidates.md) |
 | 4 | Pattern classes with no rule | 72 `judgment` + 5 `blocked` | `data/patches/patterns.jsonl` |
 
@@ -64,7 +64,20 @@ different findings, so neither closes the other.
 
 The pilot and `tranche-01` swept 1,710 entries on **pre-patch** text,
 before the transform rules ran, and escalated 205. The residue sweep
-later re-swept 104 of those. The other 101 lie inside the rid range
+later re-swept 104 of those.
+
+> **Where the 1,710 are, since 2026-09-22.** The figure no longer
+> reproduces from `data/patches/` alone. `tranche-01/manifest.jsonl`
+> holds 1,455 of those records; its other 45 were `repaired` rows whose
+> patches retired, and the pilot's 210 moved with its directory. Both
+> sets are at
+> [`docs/archive/patches-retired-2026-09-22/`](../archive/patches-retired-2026-09-22/),
+> so coverage is the live manifest plus the archived ones:
+> 1,455 + 45 + 210 = 1,710. **A coverage walk over
+> `data/patches/tranches/*/manifest.jsonl` alone will read those 255
+> entries as never swept.** The 205 escalations are unaffected — every
+> one is still where it was, except the pilot's 10, which travelled
+> inside its directory. The other 101 lie inside the rid range
 the residue sweep walked (A00000–A01739, contiguous), so they were
 skipped because they were not in the residue: no detector flags them
 after the rules run. The phase-2 class report excludes this sweep by

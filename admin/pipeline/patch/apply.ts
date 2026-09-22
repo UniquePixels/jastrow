@@ -46,9 +46,14 @@ import {
 	validateCorpus,
 } from './schema.ts';
 
-/** The committed patch corpus (spec §4.4): the pilot's files plus
- * every ingested tranche's. Absent files mean an empty corpus. */
-const PILOT_DIR = 'data/patches/pilot';
+/** The committed patch corpus (spec §4.4): every ingested tranche's
+ * files. Absent files mean an empty corpus.
+ *
+ * `data/patches/pilot/` was a third source until 2026-09-22. All three
+ * of its patches were `superseded` — a transform rule reached the
+ * defect first, so the run absorbed them and applied none — leaving it
+ * with no record the run applies, and it moved whole to
+ * `docs/archive/patches-retired-2026-09-22/pilot/`. */
 const TRANCHES_DIR = 'data/patches/tranches';
 
 /** Human-authored patches (consolidation spec §4.2). Kept out of
@@ -145,8 +150,6 @@ const TRANCHES: readonly { dir: string; stage: CorpusStage }[] = [
 	// reason.
 	{ dir: 'seed-doc-08-sense-runs', stage: 'healed' },
 ];
-/** The pilot directory's stage — swept pre-patch, like tranche-01. */
-const PILOT_STAGE: CorpusStage = 'pre-patch';
 
 /**
  * The committed ordered phase manifest (spec §5.2). Marker/text
@@ -277,19 +280,15 @@ function orderedDirs(
 	).map((t) => t.dir);
 }
 
-/** Every committed file with this basename: the pilot's, then each
- * tranche's, in `TRANCHES` ingest order. `stage` restricts
- * both to directories swept at that stage — pilot counts as
- * `PILOT_STAGE`; omit it for the raw, every-stage set the research
- * tools need. */
+/** Every committed file with this basename: each tranche's, in
+ * `TRANCHES` ingest order. `stage` restricts to directories swept at
+ * that stage; omit it for the raw, every-stage set the research tools
+ * need. */
 async function corpusFiles(
 	name: string,
 	stage?: CorpusStage,
 ): Promise<string[]> {
 	const files: string[] = [];
-	if (stage === undefined || stage === PILOT_STAGE) {
-		files.push(`${PILOT_DIR}/${name}`);
-	}
 	if (existsSync(TRANCHES_DIR)) {
 		const found = new Set<string>();
 		for await (const hit of new Bun.Glob(`*/${name}`).scan({
@@ -313,7 +312,7 @@ async function readLines(path: string): Promise<string[]> {
 }
 
 /** Load the patch corpus: one explicit file, or (no `path`) every
- * committed file, pilot first then tranches in `TRANCHES` order. A
+ * committed file, in `TRANCHES` order. A
  * `stage` restricts the no-`path` walk to that corpus
  * stage; omitted, the load is raw — every stage — which is what the
  * research tools need. Every entry is deep-frozen by `parsePatchLine`.
@@ -530,7 +529,7 @@ function consolidate(
 /** Load the accepted corpus: every HEALED-stage committed record and
  * patch (the files `TRANCHES` names at that stage, in ingest order),
  * reduced to one record per rid with the latest winning, plus the
- * pre-patch-stage `carryOver` set — a raw pilot or tranche-01 patch
+ * pre-patch-stage `carryOver` set — a raw tranche-01 patch
  * is carried over unless an accepted patch
  * already targets its exact (rid, target) — the healed one wins, and
  * that patch counts toward `superseded.prePatch.overlapping` instead.
