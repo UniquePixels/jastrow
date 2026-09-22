@@ -1,5 +1,13 @@
 # Residue calibration — residue-01 chunks r00001–r00005
 
+> **2026-09-22 — this directory no longer has a `patches.jsonl`.** All
+> four of its patches (P000068–P000071) were consolidated away: a later
+> sweep holds the winning record for each of their rids. They are at
+> [`docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/),
+> with `rejects.jsonl`. The 150 manifest records stay — three of them
+> are escalations that carried one of those patches and lost only the
+> reference. The measurements below are of the sweep as it ran.
+
 Phase 2.3 item 3, the first residue sweep ever dispatched. Five
 chunks of 30 against the healed corpus, run as a calibration before
 the remaining 128. Maintainer go recorded **2026-09-04 08:55 CDT**;

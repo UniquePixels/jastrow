@@ -1,5 +1,12 @@
 # Reviewed patches
 
+As of 2026-09-22 `data/patches/` holds only the patch records the import
+run applies, plus the `needs_*` escalations it defers. The 72 it no
+longer applies — 61 `superseded` carry-overs and 11 consolidated away —
+and the sweep-era research residue are at
+[`docs/archive/patches-retired-2026-09-22/`](../../../docs/archive/patches-retired-2026-09-22/).
+None of the 114 reviewed patches here moved.
+
 Patches a person wrote from a print check (consolidation spec §4.2).
 `patches.jsonl` holds the patches; `manifest.jsonl` holds one record
 per rid: `repaired` with its patch ids, or `needs_human_judgment` with

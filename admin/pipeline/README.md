@@ -42,7 +42,7 @@ original sketch it was derived from was archived 2026-09-21 as
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
 | `data/page-index/` | print locators (page/column) — reference data | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
-| `data/patches/` | per-entry judgments | yes | admin tool appends |
+| `data/patches/` | per-entry judgments — only records the run applies, plus the escalations it defers; what it no longer applies is at [`docs/archive/patches-retired-2026-09-22/`](../../docs/archive/patches-retired-2026-09-22/) (2026-09-22) | yes | admin tool appends |
 | `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 
 ### Running it

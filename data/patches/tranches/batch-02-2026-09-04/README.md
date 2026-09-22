@@ -1,5 +1,14 @@
 # Residue batch 02 — residue-01 chunks r00001–r00005, sweep-v7
 
+> **2026-09-22 — one patch left this directory.** P000080 (A00878) was
+> consolidated away; batch-03 holds the winning record for that rid.
+> It is at
+> [`docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/),
+> with `rejects.jsonl`. Three patches (P000077–P000079) stay and apply.
+> All 150 manifest records stay; A00878's escalation lost only its
+> reference to the retired patch. The measurements below are of the
+> sweep as it ran.
+
 Second residue batch, on the 3,885-entry population. Maintainer go
 recorded **2026-09-04 14:38 CDT**; usage baseline marked
 `2026-09-04T19:54:37.161Z`. Sweep tier Opus, prompt `sweep-v7`
