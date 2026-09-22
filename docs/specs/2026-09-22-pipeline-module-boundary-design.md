@@ -40,8 +40,8 @@ schema it does not own, and writes reports about what it did.
 
 | | |
 |---|---|
-| **Owns** | every file under `admin/pipeline/` |
-| **Consumes** | `data/source/`, `data/print/`, `data/patches/`, `data/page-index/`, `data/schema/entry.schema.json` |
+| **Owns** | every file under `admin/pipeline/`, including the patch records (M9) |
+| **Consumes** | `data/source/`, `data/print/`, `data/page-index/`, `data/schema/entry.schema.json` |
 | **Produces** | `data/entries/`, `data/quarantine/`, `docs/reports/` |
 | **Knows nothing of** | the app, the admin tool, Cloudflare, routing, rendering |
 
@@ -74,12 +74,16 @@ this spec.
 |---|---|---|
 | M1 | The repo stays the project monorepo. The pipeline is the only module written; app and admin tool join it later | splitting the pipeline into its own repo |
 | M2 | `admin/pipeline/` keeps its path. `admin/` is right long-term because the admin tool lands there | renaming to `pipeline/` — ~200 files of churn, and Sonar reads every moved file as new code |
-| M3 | The schema moves to `data/schema/`, with its test | a top-level `schema/`; the maintainer chose proximity to the entries it describes |
-| M4 | The README's licence paragraph is rewritten as a per-tree provenance table. `data/` holds work from at least four origins, and the CC-BY-NC claim does not survive checking (§5.1) | one line claiming all of `data/` is CC-BY-NC |
+| M3 | `entry.schema.json` moves to `data/schema/`, where the data it describes lives. Its test moves to `admin/pipeline/schema.test.ts` — tests are code | a top-level `schema/`; the maintainer wanted the root tidy and the location semantically right |
+| M4 | The licence rule is one sentence: **everything under `data/` is public domain, everything else is MIT.** The CC-BY-NC claim does not survive checking (§5.1) | the old line claiming all of `data/` is CC-BY-NC; and a carve-out exempting `data/schema/` |
 | M5 | Generated reports are written to `docs/reports/`, via a declared path | `data/reports/` — they are human-read markdown, not data |
 | M6 | `upstream-issues.md` and `sefaria-report.md` stay in `docs/` | moving them into the module; a cloner would not want Jastrow-specific findings |
 | M7 | Nineteen dated specs are archived. One `admin/pipeline/DESIGN.md` states what is true today | keeping the pipeline specs and marking each live or retired — the contradictions between dated specs would survive |
 | M8 | `docs/decisions.md` keeps only rulings still binding on the pipeline; the rest move to the archived copy | auditing all 157 rulings against the code first — rejected as too slow for the value |
+| M9 | The patch records move to `admin/pipeline/patch/records/`. They exist only to turn raw source into entries — import definition, the same category as the 81 transform rules, not data | keeping them in `data/`; or treating them as a project-wide artifact the admin tool would edit, which the maintainer ruled it will not |
+| M10 | `entry.schema.json` is dedicated to the public domain, so `data/` needs no exception. The maintainer's reasoning: the entries *are* the schema made concrete, so they share its status | keeping it MIT and carving it out of the `data/` rule |
+| M11 | `data/source/` is public domain (§5.1). Every `data/` subdirectory carries a README saying where its contents came from — attribution is owed even where no licence compels it | asserting a licence the repo cannot source |
+| M12 | `edit-replay.jsonl` is archived | keeping it as a seed for the admin tool |
 
 ## 4. What moves
 
@@ -87,8 +91,22 @@ this spec.
 
 | From | To | Note |
 |---|---|---|
-| `admin/pipeline/schema/` | `data/schema/` | `entry.schema.json` + `entry.schema.test.ts`; four import sites update |
+| `admin/pipeline/schema/entry.schema.json` | `data/schema/` | public domain (M10) |
+| `admin/pipeline/schema/entry.schema.test.ts` | `admin/pipeline/schema.test.ts` | code stays MIT; `admin/pipeline/schema/` is then empty and removed |
+| `data/patches/` | `admin/pipeline/patch/records/` | `patterns.jsonl`, `snapshot.lock`, `reviewed/`, `tranches/` — 29 files (M9) |
 | — | `admin/pipeline/paths.ts` | new; absorbs the 21 literals |
+
+**The schema is read at runtime, not imported.** Both load sites are
+compile-time imports today — `migrate.ts:78` and
+`migrate/validate.ts:11`, each `import entrySchema from
+'./schema/entry.schema.json' with { type: 'json' }`. With the schema
+in `data/` those become imports reaching out of the module, which §9
+check 2 must fail. They become a read through `paths.ts`, which is
+also the honest expression of "the module does not own the schema": a
+cloner points `paths.ts` at their own and nothing else changes.
+
+The cost, stated: TypeScript stops checking the schema literal at
+build time. Ajv compiles it at run, and `schema.test.ts` covers it.
 
 `test-tiers.test.ts` scans from the repo root (`cwd: '.'`, line 88), so
 the schema test stays inside the unit tier wherever it lands. No tier
@@ -100,7 +118,7 @@ Six files, and the archive.
 
 | File | Content |
 |---|---|
-| `README.md` | what the repo is; the pipeline is the only module written; the provenance table (M4) |
+| `README.md` | what the repo is; the pipeline is the only module written; the licence rule and attributions (M4, M11) |
 | `admin/pipeline/README.md` | how to run it: inputs, outputs, commands, gates |
 | `admin/pipeline/DESIGN.md` | what is true of the design **today** (M7) |
 | `docs/decisions.md` | rulings still binding (M8) |
@@ -147,16 +165,49 @@ already archived, sitting in the input tree. Move to
 
 `edit-replay.jsonl` is named only in a comment
 (`patch/snapshot.ts:28`) describing it as admin-tool provenance; no
-code reads it. **Open — needs the maintainer's call** (§8).
+code reads it. Archived (M12).
 
 Kept: `body-census-report.json` (read by `body/grammar.test.ts:58`),
 `manifest.json` (21 sites), `lexicons.json`, `migration-report.json`.
 
-## 5. The provenance table
+### 4.7 Provenance READMEs
 
-`data/` holds work from at least four origins. The README's current
-two sentences say all of `data/` is CC-BY-NC, which is wrong for the
-scans, wrong for the schema, and **unsupported for the Sefaria text**.
+Every subdirectory of `data/` carries a README naming where its
+contents came from (M11). Two exist and are already good models —
+`data/page-index/README.md` and `data/print/hocr/README.md`, the
+latter naming the scanning institution, the sponsor, both IA
+identifiers, leaf counts, OCR engines and MD5s.
+
+| Directory | README | Must record |
+|---|---|---|
+| `data/source/` | **new** | Sefaria, `lexicon_entry` where `parent_lexicon` is "Jastrow Dictionary", snapshot 2026-07-04, and which files are Sefaria's versus this pipeline's own reports |
+| `data/entries/` | **new** | derived from `data/source/` by `bun data:import`; regenerable, not hand-authored |
+| `data/quarantine/` | **new** | what the pipeline set aside and why |
+| `data/schema/` | **new** | hand-authored here; public domain (M10) |
+| `data/page-index/` | exists | add the *method* — see below |
+| `data/print/hocr/` | exists | no change |
+
+**The page-index method is currently recorded nowhere live.** The
+build chain — `build.ts`, `align.ts`, `bands.ts`, `columns.ts`,
+`spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`, `hocr.ts`,
+`verify.ts` and tests, twenty files — exists only at
+`refs/tags/archive/v2-research-2026-09` (verified on the remote,
+`a2e75bbd7`). It is deterministic: both volumes read as one
+continuous book, every headword placed at a token offset by weighted
+anchor alignment (nearer anchors weigh more, `1/(1+distance)`), page
+layout pinned at `1e6`, then isotonic regression to force
+monotonicity. No model call anywhere in the chain — all twenty files
+grepped for `anthropic|openai|claude|llm|prompt|fetch(`, zero hits.
+
+That paragraph belongs in `data/page-index/README.md`, because the
+question "was this AI or a script?" was asked in this session and the
+live tree could not answer it.
+
+## 5. Licence and provenance
+
+`data/` holds work from four origins. The README's current two
+sentences say all of it is CC-BY-NC, which is wrong for the Internet
+Archive scans and **unsourced for the Sefaria text**.
 
 ### 5.1 The CC-BY-NC claim does not survive checking
 
@@ -186,21 +237,28 @@ What might carry thin protection is Sefaria's added structural layer —
 entry splitting, the citation links — which is a question about the
 markup, not about the dictionary text.
 
-### 5.2 The table
+### 5.2 The rule
 
-| Tree | Origin | Rights |
+> **Everything under `data/` is public domain. Everything else is
+> MIT.**
+
+That is the whole licence statement, and it holds without exception
+once the patch records leave `data/` (M9) and the schema test leaves
+with them (M3). `data/` then contains only the 1903 dictionary, the
+scans of it, work derived from those by this project, and the schema
+that describes the result.
+
+| Tree | Origin | Attribution owed |
 |---|---|---|
-| `data/source/` | Sefaria MongoDB export of `lexicon_entry`, snapshot 2026-07-04 | **open** (§8) — Sefaria declares the 1903 text public domain; the lexicon collection declares nothing |
-| `data/entries/`, `data/quarantine/` | derived from `data/source/` by this pipeline | follows `data/source/` |
-| `data/print/hocr/` | Internet Archive / University of Toronto scans of Jastrow 1903; "the work is public domain, and neither item carries a licence or rights field" (`data/print/hocr/README.md`) | public domain |
-| `data/page-index/` | built by this project from the hOCR | project's own work over a public-domain source |
-| `data/schema/` | hand-authored by this project | MIT, with the rest of the code |
-| `data/patches/` | corrections authored by this project, carrying Sefaria text | follows `data/source/` for the text; the correction records are this project's |
+| `data/source/` | Sefaria MongoDB export of `lexicon_entry`, `parent_lexicon: "Jastrow Dictionary"`, snapshot 2026-07-04 | Sefaria, for the digitization |
+| `data/entries/`, `data/quarantine/` | derived from `data/source/` by this pipeline | Sefaria, upstream |
+| `data/print/hocr/` | Internet Archive / University of Toronto scans of Jastrow 1903 | UofT Robarts Library; Ontario Council of University Libraries; Internet Archive |
+| `data/page-index/` | built by this project from the hOCR | as above, upstream |
+| `data/schema/` | hand-authored by this project | — |
 
-Until §8.1 is settled the README states what is **known** — Jastrow
-1903 is public domain, the scans are public domain, the code and
-schema are MIT — and attributes the digitization to Sefaria without
-asserting a license on their behalf.
+Attribution is owed whether or not a licence compels it (M11), and
+§4.7 puts it in a README beside each directory rather than in one
+distant paragraph.
 
 ## 6. Memories
 
@@ -216,8 +274,9 @@ the store is not versioned and a deletion cannot be recovered.
 
 - It does not change any pipeline behaviour. Every gate that passes
   today passes after, on identical bytes.
-- It does not touch `data/entries/`, `data/patches/` or any other
-  entry content.
+- It does not touch the content of `data/entries/` or of the patch
+  records. The records change address (M9); not one byte of what they
+  say changes.
 - It does not re-open any ruling. M8 removes rulings from the live
   ledger; it does not reverse them.
 - It does not audit the 157 rulings for truth against the code. That
@@ -227,17 +286,16 @@ the store is not versioned and a deletion cannot be recovered.
 
 ## 8. Open
 
-Two, both for the maintainer, neither blocking the rest:
+None. Both questions this spec opened were settled in the same
+session: `data/source/` is public domain (M11), and
+`edit-replay.jsonl` is archived (M12).
 
-1. **What licence, if any, applies to `data/source/`.** §5.1 shows the
-   repo's CC-BY-NC claim is unsourced and contradicted by Sefaria's
-   own declaration for the 1903 text. The options are: state public
-   domain and attribute Sefaria as the digitizer; ask Sefaria
-   directly what they claim for the `lexicon_entry` collection; or
-   take advice. Claude should not settle this, and the interim
-   wording in §5.2 holds meanwhile.
-2. **`edit-replay.jsonl`.** Admin-tool provenance with no reader.
-   Archive it, or keep it as the admin tool's seed?
+One thing to revisit rather than decide: Sefaria's `lexicon_entry`
+collection declares no licence of its own, and the "Public Domain"
+declaration checked in §5.1 is for the `Jastrow` *text* index. Same
+1903 digitization, two collections. Worth a note to Sefaria asking
+them to declare on the lexicon too — as a courtesy to the next
+person, not because this project's position depends on it.
 
 ## 9. Verification
 
@@ -248,7 +306,13 @@ Two, both for the maintainer, neither blocking the rest:
 | 3 | The boundary is declared | no path literal for `data/`, `docs/` or `app/` outside `paths.ts` — asserted, like `test-tiers.test.ts` asserts the tier split |
 | 4 | No live doc names a retired one | every link in the six live documents resolves |
 | 5 | Reports regenerate in their new home | `bun data:import` writes `docs/reports/`, and `docs/v2/` is gone |
+| 6 | The licence rule holds | every subdirectory of `data/` has a README, and nothing under `data/` is `.ts` |
 
-Checks 2 and 3 are new tests in the unit tier. They are what keeps
-this from decaying: the module's independence becomes a thing `bun qa`
-fails on, not a thing a document claims.
+Checks 2, 3 and 6 are new tests in the unit tier. They are what keeps
+this from decaying: the module's independence and the licence line
+become things `bun qa` fails on, not things a document claims.
+
+Check 6 is the cheap mechanical form of M4. `data/` holding no
+TypeScript is not the whole of "everything there is public domain",
+but it catches the way the rule would actually be broken — someone
+dropping a helper beside the data it helps with.
