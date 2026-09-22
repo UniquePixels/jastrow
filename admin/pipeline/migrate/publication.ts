@@ -113,6 +113,19 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 		'blocks',
 		'Archive the patch: the new export already carries its post-state.',
 	],
+	// Consolidation spec §4.2: Ruling C's one-record-per-rid consolidation
+	// (and its carry-over overlap counterpart, Ruling F) drops a patch
+	// whenever a later sweep's record for the same rid wins — silently,
+	// until this row. A dropped agent patch is an un-reviewed judgement,
+	// same as `upstream-changed` / `upstream-fixed`, so it defers to a
+	// post-go-live look rather than a note (`patch/apply.ts`'s
+	// `AcceptedCorpus.dropped` / `droppedCarryOver`, `migrate/patches.ts`'s
+	// `recordConsolidatedAway`).
+	[
+		'patch-consolidated-away',
+		'defer',
+		'Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.',
+	],
 ];
 
 /** The lookup behind every publication decision: the detected classes

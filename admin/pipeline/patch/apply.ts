@@ -17,10 +17,13 @@
  * consumer-facing output. `createPhaseTracker` asserts that order at
  * runtime; a violated assertion aborts the run (`PhaseViolation`).
  *
- * Run (dry, read-only): bun patch:replay, whose entry point is
- * `patch/apply-cli.ts` — it composes each entry through
- * `compose.ts` first, so it judges anchors against the same
- * state `data:import` applies them to.
+ * `bun data:import`'s `preparePatches` (`migrate.ts`) is the one
+ * consumer of the corpus split and preflight built here. The dry,
+ * read-only replay that used to exercise this module on its own —
+ * `bun patch:replay`, `patch/apply-cli.ts` — was deleted 2026-09-22
+ * (Brian's ruling): it duplicated import's own preflight and could
+ * not complete on the corpus, blocking on the ~600 `needs_*`
+ * escalations import deliberately defers.
  */
 import { existsSync } from 'node:fs';
 import type { SourceEntry } from '../types.ts';
@@ -440,6 +443,17 @@ interface AcceptedCorpus {
 	 * patch id and decides, per patch, whether the healed corpus already
 	 * absorbed it. */
 	carryOver: SemanticPatch[];
+	/** Every healed-stage manifest record `consolidate` superseded
+	 * (Ruling C), in ingest order — the gap consolidation spec §4.2
+	 * closes: silent skipping is never allowed. `migrate/patches.ts`
+	 * turns each into a `patch-consolidated-away` report row. */
+	dropped: EntryResult[];
+	/** Pre-patch-stage patches EXCLUDED from `carryOver` because an
+	 * accepted patch already targets the same `(rid, target)` — Ruling
+	 * F's target-overlap counterpart to `dropped` above, counted at
+	 * `superseded.prePatch.overlapping` but, until now, given no row
+	 * either. */
+	droppedCarryOver: SemanticPatch[];
 	patches: SemanticPatch[];
 	records: EntryResult[];
 	superseded: {
@@ -460,6 +474,11 @@ interface AcceptedCorpus {
  * sees pre-patch rows (its callers pass it healed-stage input only, or
  * hand-built fixtures in tests), so it has nothing to report there. */
 interface ConsolidatedCorpus {
+	/** Every record `latest` was overwritten by a later one for the same
+	 * rid, in ingest order — the raw material for a
+	 * `patch-consolidated-away` row per patch it lists (consolidation
+	 * spec §4.2). */
+	dropped: EntryResult[];
 	patches: SemanticPatch[];
 	records: EntryResult[];
 	superseded: { patches: number; records: number };
@@ -479,10 +498,11 @@ function consolidate(
 	patches: readonly SemanticPatch[],
 ): ConsolidatedCorpus {
 	const latest = new Map<string, EntryResult>();
-	let supersededRecords = 0;
+	const dropped: EntryResult[] = [];
 	for (const record of records) {
-		if (latest.has(record.rid)) {
-			supersededRecords++;
+		const prior = latest.get(record.rid);
+		if (prior !== undefined) {
+			dropped.push(prior);
 		}
 		latest.set(record.rid, record);
 	}
@@ -497,11 +517,12 @@ function consolidate(
 	const keptIds = new Set(keptRecords.flatMap((record) => record.patches));
 	const keptPatches = patches.filter((patch) => keptIds.has(patch.id));
 	return {
+		dropped,
 		patches: keptPatches,
 		records: keptRecords,
 		superseded: {
 			patches: patches.length - keptPatches.length,
-			records: supersededRecords,
+			records: dropped.length,
 		},
 	};
 }
@@ -524,12 +545,18 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
 	const acceptedTargets = new Set(
 		consolidated.patches.map((patch) => `${patch.rid} ${patch.target}`),
 	);
-	const carryOver = prePatchPatches.filter(
-		(patch) => !acceptedTargets.has(`${patch.rid} ${patch.target}`),
-	);
+	const carryOver: SemanticPatch[] = [];
+	const droppedCarryOver: SemanticPatch[] = [];
+	for (const patch of prePatchPatches) {
+		(acceptedTargets.has(`${patch.rid} ${patch.target}`)
+			? droppedCarryOver
+			: carryOver
+		).push(patch);
+	}
 	return {
 		...consolidated,
 		carryOver,
+		droppedCarryOver,
 		superseded: {
 			...consolidated.superseded,
 			prePatch: {
@@ -781,7 +808,6 @@ export {
 	createPhaseTracker,
 	loadAcceptedCorpus,
 	loadCorpus,
-	loadManifest,
 	loadReviewedCorpus,
 	orderedDirs,
 	PHASE_MANIFEST,

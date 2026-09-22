@@ -43,6 +43,7 @@ import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
+	recordConsolidatedAway,
 	recordPatchOutcomes,
 } from './migrate/patches.ts';
 import { classifyRows } from './migrate/publication.ts';
@@ -153,6 +154,7 @@ async function preparePatches(
 			lineRow(`${r.rid}: ${r.escalation}`, 'review-deferred'),
 		),
 	);
+	recordConsolidatedAway(accepted, report);
 	return {
 		accepted: patchesByRid(accepted.patches),
 		carryOver: patchesByRid(accepted.carryOver),
