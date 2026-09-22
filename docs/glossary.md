@@ -118,12 +118,16 @@ What a run reports for each patch:
 | Term | Meaning |
 |---|---|
 | **rid** | Sefaria's permanent id for an entry (e.g. `A00077`); the entry's identity and print-order spine |
-| **name** | the entry's URL address: its current headword, shaped the way Sefaria shapes its own — notation (`( ) ? ,`) dropped, the reconstructed `*` kept, the Roman numeral and superscript appended ([URL names spec](specs/2026-09-21-url-names-design.md) §4, U2). Never stored; computed from `headword`, so it cannot drift from it |
+| **name** | the entry's URL address: its current headword, shaped the way Sefaria shapes its own — notation (`( ) ? ,`) dropped, the reconstructed `*` kept, the Roman numeral and superscript appended ([URL names spec](specs/2026-09-21-url-names-design.md) §4, U2). Never stored; computed from `headwords[0]`, so it cannot drift from it |
 | **sefariaHeadword** | Sefaria's own `headword` for the entry, byte for byte, on every entry file. Import is the only writer (U3). It is what a `sefaria.org` URL is looked up by after our headword is corrected |
 | **former name** | a name the entry has published under and no longer holds; it redirects to the current one (U6). `formerNames` is in the schema and absent from every entry until publication |
-| **headword** | the word an entry is filed under, stored as a form object: `text`, plus optional `homograph`, `disambiguator`, `reconstructed` |
-| **homograph** | Jastrow's printed Roman numeral separating same-spelled headwords |
+| **headwords** | every form print sets on the entry's headword line, in its order, each a form object. `headwords[0]` is the PRIMARY: the name, the search key and every link derive from it. It replaced the `headword`/`altHeadwords` pair on 2026-09-21 ([headword design](v2/headword-design.md) §2) |
+| **form object** | one headword form, holding only MEANING: `text` (clean Hebrew), plus optional `homograph`, `disambiguator`, `reconstructed`, `gender` and `partial`. Everything print sets AROUND the forms lives in `display` |
+| **display** | how print laid the headword line out: a template whose `{n}` inserts `headwords[n].text` and whose every other character is literal notation, never Hebrew. **Optional and never defaulted** — where the source cannot settle the layout the key is absent and the row is flagged ([headword design](v2/headword-design.md) §3) |
+| **partial** | a form shown exactly as printed that is never a lookup key: an ending after an ellipsis (`… טָה`), or a phrase holding an abbreviated word (`נְהַר פּ׳`). It applies only to a form with a sibling written out in full — an abbreviation that is an entry's ONLY name stays a key |
+| **homograph** | Jastrow's printed Roman numeral separating same-spelled headwords. TWO OR MORE numerals beside one form are not its number: they are a reference to other entries, and the form carries none |
 | **disambiguator** | a superscript number Sefaria added to tell same-spelled headwords apart |
+| **schemaVersion** | the entry-file format version, on every file. `2` is the [headword design](v2/headword-design.md) §2 shape |
 | **sense** | one meaning within an entry's definition |
 | **page / column** | where the entry sits in the 1903 print edition, from the reference data |
 
@@ -142,6 +146,8 @@ What a run reports for each patch:
 | Old | New |
 |---|---|
 | slug (the entry's URL address, points stripped and numbered on collision), slug index, slug stem, bare-stem alias | **name** (computed from the headword) and **sefariaHeadword** — retired 2026-09-21 by the [URL names spec](specs/2026-09-21-url-names-design.md) §7; `data/slug-index/` is gone and its README is archived at `docs/archive/slug-index-README.md` |
+| `headword` / `altHeadwords` (the entry-file pair) | **`headwords[]`** with index 0 primary, plus an optional **`display`** — retired 2026-09-21 by [headword design](v2/headword-design.md) §2 |
+| `headword-multiword` (review kind) | nothing: the line parser keeps a multi-word form as one form and says nothing about it ([headword design](v2/headword-design.md) §4) |
 | truth, truth tree | entry data |
 | migrate, migration (the command and the run) | import |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |

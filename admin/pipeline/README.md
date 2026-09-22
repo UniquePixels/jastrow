@@ -106,7 +106,10 @@ bun data:import --write   # after blessing: writes data/entries/
 Transforms the source snapshot into entry data, one JSON file per
 entry (`data/entries/`), per the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
-§6: headword decomposition, link typing, markup translation into the
+§6: the headword LINE read into `headwords[]` and an optional
+`display` template ([headword design](../../docs/v2/headword-design.md)
+§2 — the forms hold clean Hebrew, print's grouping and marks hold the
+layout), link typing, markup translation into the
 closed tag vocabulary, refs resolution, `sefariaHeadword` (Sefaria's
 own headword, verbatim, the field the URL routes key on), and the
 print-locator (`page`/`column`) enrichment — read from the hOCR page
