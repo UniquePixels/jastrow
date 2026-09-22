@@ -19,8 +19,8 @@
  *
  * Run: bun run headword:issues
  */
-import { isHeadwordReviewKind } from './migrate/headword.ts';
-import { deriveName } from './migrate/names.ts';
+import { isHeadwordReviewKind } from './migrate/headwords.ts';
+import { nameOf } from './migrate/names.ts';
 import type { FormObject, TruthEntry } from './migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
@@ -318,10 +318,10 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 		if (shape === undefined) {
 			continue;
 		}
-		const note = noteFor(shape, issue, text, entry.headword.text);
+		const note = noteFor(shape, issue, text, entry.headwords[0]?.text ?? '');
 		rows.push({
 			flagged: isFlagged,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note,
 			rid,
 			role,
@@ -339,7 +339,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 				: 'X7 abbreviation headword (׳/״)';
 		rows.push({
 			flagged: isFlagged,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note: '',
 			rid,
 			role,
@@ -378,9 +378,8 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 		families.set(key, [...(families.get(key) ?? []), { homograph, rid }]);
 	};
 	for (const [rid, entry] of entries) {
-		add(entry.headword.text, entry.headword.homograph, rid);
-		for (const alt of entry.altHeadwords ?? []) {
-			add(alt.text, alt.homograph, `${rid}/alt`);
+		for (const [i, form] of entry.headwords.entries()) {
+			add(form.text, form.homograph, i === 0 ? rid : `${rid}/alt`);
 		}
 	}
 	const rows: IssueRow[] = [];
@@ -416,7 +415,7 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 			.join('; ');
 		rows.push({
 			flagged: false,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
 			rid: first.rid.replace('/alt', ''),
 			// The family is keyed on the ALTERNATE's spelling when its
@@ -516,11 +515,15 @@ async function main(): Promise<void> {
 		a.id.localeCompare(b.id),
 	);
 	for (const entry of inRidOrder) {
-		rows.push(
-			...formRows({ entry, flagged, form: entry.headword, role: 'headword' }),
-		);
-		for (const alt of entry.altHeadwords ?? []) {
-			rows.push(...formRows({ entry, flagged, form: alt, role: 'alt' }));
+		for (const [i, form] of entry.headwords.entries()) {
+			rows.push(
+				...formRows({
+					entry,
+					flagged,
+					form,
+					role: i === 0 ? 'headword' : 'alt',
+				}),
+			);
 		}
 	}
 	rows.push(...homographGapRows(entries));

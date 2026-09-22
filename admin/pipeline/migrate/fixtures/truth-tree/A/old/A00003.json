@@ -1,7 +1,9 @@
 {
+	"schemaVersion": 2,
 	"id": "A00003",
 	"sefariaHeadword": "אבב",
-	"headword": { "text": "אבב" },
+	"headwords": [{ "text": "אבב" }],
+	"display": "{0}",
 	"page": { "number": 1, "column": "a" },
 	"senses": [{ "gloss": "father", "units": [] }]
 }

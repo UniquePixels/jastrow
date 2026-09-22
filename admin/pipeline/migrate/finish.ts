@@ -5,14 +5,10 @@
  */
 import type { BodyEntry, BodySense, SourceEntry } from '../body/types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
-import {
-	decomposeForm,
-	type HeadwordReviewKind,
-	reviewReason,
-} from './headword.ts';
+import { type HeadwordReviewKind, parseHeadwordLine } from './headwords.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
 import type { PagePlacement } from './page.ts';
-import type { FormObject, TruthEntry, TruthSense } from './types.ts';
+import { SCHEMA_VERSION, type TruthEntry, type TruthSense } from './types.ts';
 
 interface FinishContext {
 	headwordMap: ReadonlyMap<string, string>;
@@ -61,22 +57,6 @@ function finishEntry(
 	const headwordReview: HeadwordReviewRow[] = [];
 	const markupCarries: string[] = [];
 	const resolve = createResolver(context.headwordMap, source.rid, unresolved);
-
-	/** A marked headword string into its form object, noting on
-	 * `headwordReview` any string the grammar could not fully account
-	 * for. Closes over the entry's review list, so it is defined here
-	 * rather than at module scope. */
-	const form = (marked: string): FormObject => {
-		const decomposed = decomposeForm(marked);
-		const review = reviewReason(decomposed);
-		if (review !== undefined) {
-			headwordReview.push({
-				kind: review.kind,
-				line: `${source.rid}: ${marked} — ${review.reason}`,
-			});
-		}
-		return decomposed.form;
-	};
 
 	interface Field {
 		assign: (value: string) => void;
@@ -176,8 +156,18 @@ function finishEntry(
 	// Constraints): JSON.stringify writes keys in insertion order and
 	// the files are reviewed by eye. Conditional spreads keep absent
 	// optionals out of the object entirely (exactOptionalPropertyTypes).
-	const headword = form(source.headword);
-	const altHeadwords = (source.alt_headwords ?? []).map(form);
+	// ONE parse of the whole headword line, not one per item: print's
+	// grouping, its `?` and its `…` all sit BETWEEN the forms, and a
+	// parenthesis group opened in the headword can close in an
+	// alternate four items later (headword design §2).
+	const line = [source.headword, ...(source.alt_headwords ?? [])];
+	const parsed = parseHeadwordLine(line);
+	for (const review of parsed.reviews) {
+		headwordReview.push({
+			kind: review.kind,
+			line: `${source.rid}: ${line.join(', ')} — ${review.reason}`,
+		});
+	}
 	const grammar =
 		body.grammar !== undefined && Object.keys(body.grammar).length > 0
 			? { ...body.grammar }
@@ -189,10 +179,11 @@ function finishEntry(
 		stem: st.stem,
 	}));
 	const entry: TruthEntry = {
+		schemaVersion: SCHEMA_VERSION,
 		id: source.rid,
 		sefariaHeadword: sefariaHeadword ?? '',
-		headword,
-		...(altHeadwords.length > 0 ? { altHeadwords } : {}),
+		headwords: parsed.headwords,
+		...(parsed.display === undefined ? {} : { display: parsed.display }),
 		...(page === undefined
 			? {}
 			: { page: { number: page.number, column: page.column } }),

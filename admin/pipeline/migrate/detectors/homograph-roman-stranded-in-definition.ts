@@ -34,7 +34,7 @@ const LEADING_ROMAN = /^\s*,?\s*(?<numeral>[IVXLC]+)(?![\p{Ll}'’])/u;
 /** One row per entry whose lead gloss opens with a numeral its
  * headword does not carry. */
 function detectHomographRomanStranded(entry: TruthEntry): ClassRow[] {
-	if (entry.headword.homograph !== undefined) {
+	if (entry.headwords[0]?.homograph !== undefined) {
 		return entryRow(entry, HOMOGRAPH_ROMAN_STRANDED, []);
 	}
 	const lead = entry.senses[0];

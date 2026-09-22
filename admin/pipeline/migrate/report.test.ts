@@ -10,7 +10,7 @@ import {
 	renderBlessing,
 	writeReport,
 } from './report.ts';
-import type { Tally, TruthEntry } from './types.ts';
+import { SCHEMA_VERSION, type Tally, type TruthEntry } from './types.ts';
 
 /** A gate that ran once and passed. */
 function greenTally(): Tally {
@@ -166,8 +166,9 @@ describe('renderBlessing', () => {
 			rid: 'A00013',
 			source: { headword: 'אָב I', rid: 'A00013' },
 			truth: {
-				headword: { text: 'אָב I' },
+				headwords: [{ text: 'אָב I' }],
 				id: 'A00013',
+				schemaVersion: SCHEMA_VERSION,
 				sefariaHeadword: 'אָב I',
 				senses: [],
 			} satisfies TruthEntry,

@@ -2,12 +2,17 @@ import { describe, expect, it } from 'bun:test';
 import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import {
 	checkChain,
-	checkHeadwordRoundTrip,
+	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,
 } from './gates.ts';
-import type { Tally, TruthEntry } from './types.ts';
+import {
+	type FormObject,
+	SCHEMA_VERSION,
+	type Tally,
+	type TruthEntry,
+} from './types.ts';
 
 /** A 3-entry chain, in rid order, with `next_hw`/`prev_hw` naming the
  * neighbour's headword string (as the composed corpus does). */
@@ -138,10 +143,16 @@ describe('checkChain', () => {
  * the `sefariaHeadword` the run wrote. */
 function named(
 	id: string,
-	headword: TruthEntry['headword'],
+	primary: FormObject,
 	sefariaHeadword: string,
 ): TruthEntry {
-	return { headword, id, sefariaHeadword, senses: [] };
+	return {
+		headwords: [primary],
+		id,
+		schemaVersion: SCHEMA_VERSION,
+		sefariaHeadword,
+		senses: [],
+	};
 }
 
 const SOURCE = new Map([
@@ -239,8 +250,9 @@ describe('checkNames', () => {
  * one field and need the rest merely to exist. */
 function minimalTruth(overrides: Partial<TruthEntry>): TruthEntry {
 	return {
-		headword: { text: 'x' },
+		headwords: [{ text: 'x' }],
 		id: 'A00014',
+		schemaVersion: SCHEMA_VERSION,
 		sefariaHeadword: 'x',
 		senses: [],
 		...overrides,
@@ -334,19 +346,43 @@ describe('checkTextConservation', () => {
 	});
 });
 
-describe('checkHeadwordRoundTrip', () => {
-	it('fails when homograph is altered after decomposition', () => {
+describe('checkHeadwordLine', () => {
+	it('passes a line whose Hebrew reaches the forms', () => {
+		const composed: SourceEntry = {
+			alt_headwords: ['(אַבָּא) II'],
+			content: { senses: [] },
+			headword: 'אָב I',
+			rid: 'A00014',
+		};
+		const truth = minimalTruth({
+			display: '{0} I, ({1} II)',
+			headwords: [
+				{ homograph: 1, text: 'אָב' },
+				{ homograph: 2, text: 'אַבָּא' },
+			],
+		});
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(composed, truth, t);
+		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(1);
+		expect(t.total).toBe(1);
+	});
+
+	it('fails when a form drops a letter the line holds', () => {
 		const composed: SourceEntry = {
 			content: { senses: [] },
 			headword: 'אָב II',
 			rid: 'A00014',
 		};
-		const truth = minimalTruth({ headword: { homograph: 3, text: 'אָב' } });
+		const truth = minimalTruth({
+			display: '{0} II',
+			headwords: [{ homograph: 2, text: 'אָ' }],
+		});
 		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordRoundTrip(composed, truth, t);
-		expect(t.failures).toEqual(['A00014: headword']);
-		expect(t.pass).toBe(1);
-		expect(t.total).toBe(2);
+		checkHeadwordLine(composed, truth, t);
+		expect(t.failures.length).toBe(1);
+		expect(t.pass).toBe(0);
+		expect(t.total).toBe(1);
 	});
 });
 

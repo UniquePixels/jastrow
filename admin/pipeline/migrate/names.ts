@@ -7,12 +7,12 @@
  * headword the way a stored `slug` could (§5.1). `data/entries/`
  * therefore holds no field this module writes.
  *
- * The form object is the unit of derivation rather than the entry,
- * because headword-design §2 replaces `headword` with `headwords[]`
- * (index 0 primary) in a later PR. `deriveName` takes the FORM, so
- * that rename does not reach this file.
+ * The form object is the unit of derivation rather than the entry.
+ * headword-design §2 has since replaced `headword` with `headwords[]`
+ * (index 0 primary), and because `deriveName` takes the FORM, the
+ * rename reached only `nameOf` — which is the point of the split.
  */
-import { intToRoman, intToSup } from './headword.ts';
+import { intToRoman, intToSup } from './headwords.ts';
 import type { FormObject, TruthEntry } from './types.ts';
 
 /** Print notation that is ABOUT the word rather than part of it, and
@@ -66,9 +66,17 @@ function nameKey(name: string): string {
 	return name.normalize('NFC');
 }
 
-/** An entry's current name, from its primary headword form. */
-function nameOf(entry: Pick<TruthEntry, 'headword'>): string {
-	return deriveName(entry.headword);
+/** An entry's current name, from its PRIMARY headword form — the
+ * `headwords[0]` of headword-design §2 and URL names spec §4.
+ *
+ * An entry with no forms at all is not a shape the schema admits
+ * (`minItems: 1`), and it names the empty string rather than throwing:
+ * `nameCollisions` reports an empty name as its own problem, which is
+ * the reading a caller wants from a file that got past the schema by a
+ * hand edit. */
+function nameOf(entry: Pick<TruthEntry, 'headwords'>): string {
+	const primary = entry.headwords[0];
+	return primary === undefined ? '' : deriveName(primary);
 }
 
 /** One entry that cannot hold its name, and why. The rid is a FIELD
@@ -88,8 +96,8 @@ interface NameProblem {
  * apart).
  *
  * The EMPTY case is its own clause because uniqueness cannot see it:
- * one entry whose `headword.text` is all notation (`(?)`) strips to
- * nothing and collides with nobody, so it would pass both gates and
+ * one entry whose `headwords[0].text` is all notation (`(?)`) strips
+ * to nothing and collides with nobody, so it would pass both gates and
  * end up addressable by no URL at all. `slug-unsafe` and `checkSlugs`'
  * presence clause covered that family before; this replaces them.
  * Measured 0 over the committed 32,512.
@@ -102,7 +110,7 @@ interface NameProblem {
  * `formerNames` is in the schema and absent from every entry until
  * then. */
 function nameCollisions(
-	entries: readonly Pick<TruthEntry, 'headword' | 'id'>[],
+	entries: readonly Pick<TruthEntry, 'headwords' | 'id'>[],
 ): NameProblem[] {
 	const owners = new Map<string, string>();
 	const problems: NameProblem[] = [];
@@ -111,7 +119,7 @@ function nameCollisions(
 		const key = nameKey(name);
 		if (key === '') {
 			problems.push({
-				line: `${entry.id}: name is empty from ${JSON.stringify(entry.headword.text)}`,
+				line: `${entry.id}: name is empty from ${JSON.stringify(entry.headwords[0]?.text ?? null)}`,
 				rid: entry.id,
 			});
 			continue;

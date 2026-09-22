@@ -5,7 +5,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import type { PagePlacement } from './page.ts';
-import type { TruthEntry } from './types.ts';
+import { SCHEMA_VERSION, type TruthEntry } from './types.ts';
 import {
 	loadTruthFiles,
 	markupProblems,
@@ -17,9 +17,11 @@ import {
  * planted defect in either is the only thing the tree disagrees on. */
 function entry(id: string, headword: string, gloss: string): TruthEntry {
 	return {
+		schemaVersion: SCHEMA_VERSION,
 		id,
 		sefariaHeadword: headword,
-		headword: { text: headword },
+		headwords: [{ text: headword }],
+		display: '{0}',
 		page: { number: 1, column: 'a' },
 		senses: [{ gloss, units: [] }],
 	};
@@ -98,14 +100,14 @@ describe('validateTruth', () => {
 		],
 		[
 			'a duplicate current name',
-			tree(A(), { ...B(), headword: { text: 'אב' } }),
+			tree(A(), { ...B(), headwords: [{ text: 'אב' }] }),
 			'A00002: name אב taken by A00001',
 		],
 		[
 			'a name that collides only once the notation is stripped',
 			// §4 drops `( ) ? ,` from the name: `(אב)` and `אב` are two
 			// headwords and one URL, which nothing but this check sees.
-			tree(A(), { ...B(), headword: { text: '(אב)' } }),
+			tree(A(), { ...B(), headwords: [{ text: '(אב)' }] }),
 			'A00002: name אב taken by A00001',
 		],
 		[
@@ -115,13 +117,20 @@ describe('validateTruth', () => {
 		],
 		[
 			'markup in the headword',
-			tree({ ...A(), headword: { text: '<i>אב</i>' } }, B()),
-			'A00001: headword.text: markup in a plain-text field',
+			tree({ ...A(), headwords: [{ text: '<i>אב</i>' }] }, B()),
+			'A00001: headwords[0].text: markup in a plain-text field',
 		],
 		[
 			'markup in an alt headword',
-			tree({ ...A(), altHeadwords: [{ text: 'אבא</he>' }] }, B()),
-			'A00001: altHeadwords[0].text: markup in a plain-text field',
+			tree(
+				{
+					...A(),
+					headwords: [{ text: 'אב' }, { text: 'אבא</he>' }],
+					display: '{0}, {1}',
+				},
+				B(),
+			),
+			'A00001: headwords[1].text: markup in a plain-text field',
 		],
 		[
 			'markup in sefariaHeadword',
@@ -192,6 +201,41 @@ describe('validateTruth', () => {
 			'a page edited in truth alone',
 			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
 			'A00002: page p2b but the page index says p1a',
+		],
+		// The §3.1 rules, one planted defect each. Rule 4 is armed and
+		// HELD (`headword-rules.ts`), so it has no case here — its
+		// controls live in `headword-rules.test.ts`, where the switch can
+		// be read on both settings.
+		[
+			'a display that names the wrong slots (rule 1)',
+			tree(A(), {
+				...B(),
+				display: '{0}, {2}',
+				headwords: [{ text: 'אבא' }, { text: 'אבב' }],
+			}),
+			'A00002: display names slots [0,2] for 2 form(s) (§3.1 rule 1)',
+		],
+		[
+			'Hebrew written into the display (rule 2)',
+			tree(A(), { ...B(), display: '{0} אב' }),
+			'A00002: display carries Hebrew "א" (§3.1 rule 2)',
+		],
+		[
+			'a numeral in the display the form does not carry (rule 3)',
+			tree(A(), { ...B(), display: '{0} II' }),
+			'A00002: display says homograph II but the form says undefined (§3.1 rule 3)',
+		],
+		[
+			'a partial alternate with no full sibling (rule 5)',
+			tree(A(), {
+				...B(),
+				display: '{0}, {1}',
+				headwords: [
+					{ partial: true, text: 'אבא' },
+					{ partial: true, text: 'אבב' },
+				],
+			}),
+			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
 	])('reports %s', (_name, files, expected) => {
 		expect(validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([

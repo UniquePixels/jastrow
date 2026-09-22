@@ -3,7 +3,6 @@
  * with the composer and the CLI. */
 import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import { tokenize } from '../transform/html.ts';
-import { regenerateForm } from './headword.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { Tally, TruthEntry } from './types.ts';
@@ -34,28 +33,58 @@ function textOf(html: string): string {
 		.join('');
 }
 
-/** Gate 2: every form regenerates to the composed string. */
-function checkHeadwordRoundTrip(
+/** The headword line as the composed entry holds it: Sefaria's
+ * `headword`, then its `alt_headwords`, in source order. */
+function headwordLine(composed: SourceEntry): string {
+	return [composed.headword, ...(composed.alt_headwords ?? [])].join(' ');
+}
+
+/** Hebrew letters, points, geresh, gershayim and the combining dot
+ * above, in order, with everything else dropped. Written out by CODE
+ * POINT here rather than imported from the parser: gate 2 is the check
+ * ON the parser, and sharing its predicate would put the same code on
+ * both sides of the comparison. */
+function lexicalOf(line: string): string {
+	let out = '';
+	for (const ch of line) {
+		const c = ch.codePointAt(0) ?? 0;
+		if (
+			(c >= 0x05_d0 && c <= 0x05_ea) ||
+			(c >= 0x05_91 && c <= 0x05_c7) ||
+			c === 0x05_f3 ||
+			c === 0x05_f4 ||
+			c === 0x03_07
+		) {
+			out += ch;
+		}
+	}
+	return out;
+}
+
+/** Gate 2, text conservation: every Hebrew character of the composed
+ * headword line reaches a form, in order, and no form invents one.
+ *
+ * **This replaces byte regeneration, and it had to.** The old gate
+ * rebuilt each of Sefaria's split strings from its form object and
+ * compared bytes. Under headword-design §2 the parentheses, the `?`
+ * and the `…` live in `display` and the line's forms no longer
+ * correspond one-to-one with the source's items — a group split across
+ * four items is four forms and one template, and a torn word rejoined
+ * by a patch is one form from two items. Bytes cannot round-trip
+ * through a shape that deliberately regroups them; the TEXT can, and
+ * the text is what a lookup key, a slug and a link are made of. */
+function checkHeadwordLine(
 	composed: SourceEntry,
 	truth: TruthEntry,
 	t: Tally,
 ): void {
+	const before = lexicalOf(headwordLine(composed));
+	const after = lexicalOf(truth.headwords.map((f) => f.text).join(' '));
 	mark(
 		t,
-		regenerateForm(truth.headword) === composed.headword,
-		`${composed.rid}: headword`,
+		before === after,
+		`${composed.rid}: headword text not conserved: ${JSON.stringify(before)} → ${JSON.stringify(after)}`,
 	);
-	const alts = composed.alt_headwords ?? [];
-	const forms = truth.altHeadwords ?? [];
-	mark(t, alts.length === forms.length, `${composed.rid}: alt count`);
-	for (const [i, alt] of alts.entries()) {
-		const form = forms[i];
-		mark(
-			t,
-			form !== undefined && regenerateForm(form) === alt,
-			`${composed.rid}: alt ${i}`,
-		);
-	}
 }
 
 /** The three fields `pairs` reads. `BodySense` and `TruthSense` both
@@ -304,7 +333,7 @@ function checkPages(
 
 export {
 	checkChain,
-	checkHeadwordRoundTrip,
+	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,

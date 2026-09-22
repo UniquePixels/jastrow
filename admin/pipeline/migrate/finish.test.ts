@@ -40,17 +40,22 @@ describe('finishEntry', () => {
 		expect(problems).toEqual([]);
 		expect(unresolved).toEqual([]);
 		expect(Object.keys(entry)).toEqual([
+			'schemaVersion',
 			'id',
 			'sefariaHeadword',
-			'headword',
-			'altHeadwords',
+			'headwords',
+			'display',
 			'page',
 			'grammar',
 			'senses',
 			'stems',
 		]);
-		expect(entry.headword).toEqual({ homograph: 2, text: 'אָב' });
-		expect(entry.altHeadwords).toEqual([{ text: 'אבא' }]);
+		expect(entry.schemaVersion).toBe(2);
+		expect(entry.headwords).toEqual([
+			{ homograph: 2, text: 'אָב' },
+			{ text: 'אבא' },
+		]);
+		expect(entry.display).toBe('{0} II, {1}');
 		expect(entry.page).toEqual({ column: 'a', number: 2 });
 		expect(entry.senses[0]?.gloss).toBe('m. <he>אב</he> <i>father</i>');
 		expect(entry.senses[0]?.units[0]).toBe(
@@ -59,11 +64,10 @@ describe('finishEntry', () => {
 		expect(entry.stems?.[0]?.forms).toEqual(['נֶאֱבַד']);
 	});
 	it('carries a detector kind on each headword review row', () => {
-		// The split lives in `reviewReason`, so a multi-word alternate and
-		// a torn primary come out of ONE call under two different kinds —
-		// the report never has to re-read the reason text to tell them
-		// apart.
-		const { headwordReview } = finishEntry(
+		// The kind is decided by the parser, not by this call site, and it
+		// is the WHOLE LINE that is judged: a `=` anywhere on it is a text
+		// defect, and the review line quotes the line rather than one item.
+		const { entry, headwordReview } = finishEntry(
 			{
 				...source,
 				alt_headwords: ['פּוּם בְּדִיתָא'],
@@ -72,13 +76,22 @@ describe('finishEntry', () => {
 			body,
 			context,
 		);
-		expect(headwordReview.map((r) => r.kind)).toEqual([
-			'headword-unparsed',
-			'headword-multiword',
-		]);
-		expect(headwordReview[1]?.line).toBe(
-			'A00014: פּוּם בְּדִיתָא — multi-word form; the space is its only non-lexical character',
+		expect(headwordReview.map((r) => r.kind)).toEqual(['headword-unparsed']);
+		expect(headwordReview[0]?.line).toContain('A00014: אִידְרְעָא = אֶדְרְעָא');
+		expect(entry.display).toBeUndefined();
+	});
+
+	it('leaves display unset and flags a group the line never closes', () => {
+		const { entry, headwordReview } = finishEntry(
+			{ ...source, alt_headwords: ['אבא'], headword: '(אָב' },
+			body,
+			context,
 		);
+		expect(headwordReview.map((r) => r.kind)).toEqual([
+			'paren-group-close-unknown',
+		]);
+		expect(entry.display).toBeUndefined();
+		expect(entry.headwords).toEqual([{ text: 'אָב' }, { text: 'אבא' }]);
 	});
 	it('reports a missing page and keeps going', () => {
 		const { entry, problems } = finishEntry(source, body, {
@@ -108,7 +121,7 @@ describe('finishEntry', () => {
 			sefariaHeadwords: new Map([['A00014', 'אָב II']]),
 		});
 		expect(entry.sefariaHeadword).toBe('אָב II');
-		expect(entry.headword).toEqual({ homograph: 3, text: 'אָב' });
+		expect(entry.headwords[0]).toEqual({ homograph: 3, text: 'אָב' });
 	});
 	it('force-closes an <i> still open at the end of a sequence', () => {
 		// The last field of a flow has nowhere to carry to, so its

@@ -12,16 +12,20 @@ function errorPaths(): string[] {
 type Entry = Record<string, unknown>;
 
 const minimalEntry: Entry = {
+	schemaVersion: 2,
 	id: 'A00014',
 	sefariaHeadword: 'אָב II',
-	headword: { text: 'אָב' },
+	headwords: [{ text: 'אָב' }],
 	senses: [{ gloss: 'father' }],
 };
 
 const fullEntry: Entry = {
 	...minimalEntry,
-	headword: { text: 'אָב', homograph: 2 },
-	altHeadwords: [{ text: 'אבא', reconstructed: true }],
+	headwords: [
+		{ text: 'אָב', homograph: 2, gender: 'm' },
+		{ text: 'אבא', reconstructed: true, partial: true },
+	],
+	display: '{0} II m., ({1})',
 	page: { number: 2, column: 'a' },
 	grammar: { gender: 'm', number: 'pl', pos: 'noun' },
 	senses: [
@@ -138,8 +142,42 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 	},
 	{
 		name: 'a headword with homograph below minimum',
-		entry: { ...minimalEntry, headword: { text: 'x', homograph: 0 } },
-		errorPath: '/headword/homograph',
+		entry: { ...minimalEntry, headwords: [{ text: 'x', homograph: 0 }] },
+		errorPath: '/headwords/0/homograph',
+	},
+	{
+		name: 'an entry with no headwords at all',
+		entry: { ...minimalEntry, headwords: [] },
+		errorPath: '/headwords',
+	},
+	{
+		name: 'a schemaVersion that is not 2',
+		entry: { ...minimalEntry, schemaVersion: 1 },
+		errorPath: '/schemaVersion',
+	},
+	{
+		name: 'the pre-rewrite headword/altHeadwords pair',
+		entry: {
+			...minimalEntry,
+			headword: { text: 'x' },
+			altHeadwords: [{ text: 'y' }],
+		},
+		errorPath: '/',
+	},
+	{
+		name: 'a partial that is false rather than absent',
+		entry: { ...minimalEntry, headwords: [{ text: 'x', partial: false }] },
+		errorPath: '/headwords/0/partial',
+	},
+	{
+		name: 'a gender outside m/f on a form',
+		entry: { ...minimalEntry, headwords: [{ text: 'x', gender: 'c' }] },
+		errorPath: '/headwords/0/gender',
+	},
+	{
+		name: 'an empty display string',
+		entry: { ...minimalEntry, display: '' },
+		errorPath: '/display',
 	},
 	{
 		name: 'a stems forms item that is an empty string',
