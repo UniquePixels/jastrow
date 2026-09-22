@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00371",
-	"slug": "היימים",
-	"headword": {
-		"text": "היימים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "היימים",
+	"headwords": [
+		{
+			"text": "היימים"
+		},
 		{
 			"text": "היימיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 345,
 		"column": "a"

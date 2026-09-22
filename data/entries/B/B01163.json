@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01163",
-	"slug": "ברבוי",
-	"headword": {
-		"text": "ברבוי"
-	},
+	"sefariaHeadword": "ברבוי",
+	"headwords": [
+		{
+			"text": "ברבוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

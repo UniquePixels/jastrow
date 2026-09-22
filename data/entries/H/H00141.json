@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00141",
-	"slug": "חגוא",
-	"headword": {
-		"text": "חַגְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַגְוָא",
+	"headwords": [
+		{
+			"text": "חַגְוָא"
+		},
 		{
 			"text": "חַגְוֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 424,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00272",
-	"slug": "כוליה",
-	"headword": {
-		"text": "כּוּלְיָה"
-	},
+	"sefariaHeadword": "כּוּלְיָה",
+	"headwords": [
+		{
+			"text": "כּוּלְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

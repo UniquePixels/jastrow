@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01478",
-	"slug": "קמן-2",
-	"headword": {
-		"text": "קַמָּן"
-	},
+	"sefariaHeadword": "קַמָּן",
+	"headwords": [
+		{
+			"text": "קַמָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

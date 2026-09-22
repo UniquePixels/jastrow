@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01533",
-	"slug": "פראגר",
-	"headword": {
-		"text": "פראגר"
-	},
+	"sefariaHeadword": "פראגר",
+	"headwords": [
+		{
+			"text": "פראגר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "a"

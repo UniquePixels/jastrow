@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01051",
-	"slug": "גמלנא",
-	"headword": {
-		"text": "גַּמְלָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּמְלָנָא",
+	"headwords": [
+		{
+			"text": "גַּמְלָנָא"
+		},
 		{
 			"text": "גַּמְלָנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 254,
 		"column": "a"

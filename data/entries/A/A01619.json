@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01619",
-	"slug": "אישון",
-	"headword": {
-		"text": "אִישׁוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִישֹׁון",
+	"headwords": [
+		{
+			"text": "אִישׁוֹן"
+		},
 		{
 			"text": "אֲשׁוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 60,
 		"column": "b"

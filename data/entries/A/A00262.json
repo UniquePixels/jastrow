@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00262",
-	"slug": "אגוזה",
-	"headword": {
-		"text": "אֱגוֹזָה"
-	},
+	"sefariaHeadword": "אֱגוֹזָה",
+	"headwords": [
+		{
+			"text": "אֱגוֹזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

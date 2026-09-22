@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01071",
-	"slug": "כר-1",
-	"headword": {
-		"text": "כַּר"
-	},
+	"sefariaHeadword": "כַּר",
+	"headwords": [
+		{
+			"text": "כַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

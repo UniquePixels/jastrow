@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00433",
-	"slug": "ציץ-4",
-	"headword": {
-		"text": "צִיץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צִיץ II",
+	"headwords": [
+		{
+			"text": "צִיץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1279,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00101",
-	"slug": "מברכתה",
-	"headword": {
-		"text": "מַבְרַכְתָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַבְרַכְתָּה",
+	"headwords": [
+		{
+			"text": "מַבְרַכְתָּה"
+		},
 		{
 			"text": "מַבְרַכְתָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 725,
 		"column": "b"

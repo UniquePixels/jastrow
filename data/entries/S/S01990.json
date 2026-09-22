@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01990",
-	"slug": "קרטוב",
-	"headword": {
-		"text": "קַרְטוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטוּב",
+	"headwords": [
 		{
-			"text": "קוּרְ׳"
+			"text": "קַרְטוּב"
+		},
+		{
+			"text": "קוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1416,
 		"column": "a"

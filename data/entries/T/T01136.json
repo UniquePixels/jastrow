@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01136",
-	"slug": "רתית",
-	"headword": {
-		"text": "רְתֵית"
-	},
+	"sefariaHeadword": "רְתֵית",
+	"headwords": [
+		{
+			"text": "רְתֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "b"

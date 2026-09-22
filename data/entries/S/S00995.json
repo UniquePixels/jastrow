@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S00995",
-	"slug": "קילרין",
-	"headword": {
-		"text": "קִילָּרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילָּרִין",
+	"headwords": [
 		{
-			"text": "קִילּוּרִ׳"
+			"text": "קִילָּרִין"
 		},
 		{
-			"text": "קִלָּ׳"
+			"text": "קִילּוּרִ׳",
+			"partial": true
+		},
+		{
+			"text": "קִלָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 1361,
 		"column": "b"

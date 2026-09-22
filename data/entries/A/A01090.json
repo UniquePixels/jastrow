@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01090",
-	"slug": "אטלותא",
-	"headword": {
-		"text": "אַטְּלוּתָא"
-	},
+	"sefariaHeadword": "אַטְּלוּתָא",
+	"headwords": [
+		{
+			"text": "אַטְּלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

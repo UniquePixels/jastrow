@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00051",
-	"slug": "טביומי",
-	"headword": {
-		"text": "טַבְיוֹמִי"
-	},
+	"sefariaHeadword": "טַבְיוֹמִי",
+	"headwords": [
+		{
+			"text": "טַבְיוֹמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00130",
-	"slug": "טווח",
-	"headword": {
-		"text": "טְוָוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְוָוח",
+	"headwords": [
+		{
+			"text": "טְוָוח"
+		},
 		{
 			"text": "טְוָח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "a"

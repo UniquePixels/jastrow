@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "K01142",
-	"slug": "כרזים",
-	"headword": {
-		"text": "כַּרְזַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְזַיִם",
+	"headwords": [
+		{
+			"text": "כַּרְזַיִם"
+		},
 		{
 			"text": "כַּרְזַיִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 666,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

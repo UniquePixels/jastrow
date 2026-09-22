@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01384",
-	"slug": "בתולים",
-	"headword": {
-		"text": "בְּתוּלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּתוּלִים",
+	"headwords": [
+		{
+			"text": "בְּתוּלִים"
+		},
 		{
 			"text": "בְּתוּלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 200,
 		"column": "b"

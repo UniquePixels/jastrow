@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00110",
-	"slug": "נברשת",
-	"headword": {
-		"text": "נִבְרֶשֶׁת"
-	},
+	"sefariaHeadword": "נִבְרֶשֶׁת",
+	"headwords": [
+		{
+			"text": "נִבְרֶשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

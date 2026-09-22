@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00834",
-	"slug": "כנדוקא",
-	"headword": {
-		"text": "כַּנְדּוֹקָא"
-	},
+	"sefariaHeadword": "כַּנְדּוֹקָא",
+	"headwords": [
+		{
+			"text": "כַּנְדּוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00744",
-	"slug": "בישות",
-	"headword": {
-		"text": "בִּישׁוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּישׁוּת",
+	"headwords": [
+		{
+			"text": "בִּישׁוּת"
+		},
 		{
 			"text": "בִּישׁוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 167,
 		"column": "b"

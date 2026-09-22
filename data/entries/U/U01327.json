@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01327",
-	"slug": "שלימה",
-	"headword": {
-		"text": "שְׁלֵימָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלֵימָה",
+	"headwords": [
+		{
+			"text": "שְׁלֵימָה"
+		},
 		{
 			"text": "שְׁלֵימִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁלֵימִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1584,
 		"column": "a"

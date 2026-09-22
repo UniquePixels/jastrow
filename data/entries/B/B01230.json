@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01230",
-	"slug": "ברח-1",
-	"headword": {
-		"text": "בָּרַח"
-	},
+	"sefariaHeadword": "בָּרַח",
+	"headwords": [
+		{
+			"text": "בָּרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 192,
 		"column": "a"

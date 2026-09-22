@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01356",
-	"slug": "כתות",
-	"headword": {
-		"text": "כָּתוּת"
-	},
+	"sefariaHeadword": "כָּתוּת",
+	"headwords": [
+		{
+			"text": "כָּתוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "b"

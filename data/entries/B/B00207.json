@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00207",
-	"slug": "בוביתא",
-	"headword": {
-		"text": "בּוּבִיתָא"
-	},
+	"sefariaHeadword": "בּוּבִיתָא",
+	"headwords": [
+		{
+			"text": "בּוּבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

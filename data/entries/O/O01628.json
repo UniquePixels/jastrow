@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01628",
-	"slug": "סריקוסתא",
-	"headword": {
-		"text": "סריקוסתא"
-	},
+	"sefariaHeadword": "סריקוסתא",
+	"headwords": [
+		{
+			"text": "סריקוסתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "b"

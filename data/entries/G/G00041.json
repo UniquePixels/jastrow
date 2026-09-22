@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00041",
-	"slug": "זבינא-3",
-	"headword": {
-		"text": "זַבִּינָא"
-	},
+	"sefariaHeadword": "זַבִּינָא",
+	"headwords": [
+		{
+			"text": "זַבִּינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "a"

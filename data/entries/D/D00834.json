@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00834",
-	"slug": "דליפה",
-	"headword": {
-		"text": "דְּלִיפָה"
-	},
+	"sefariaHeadword": "דְּלִיפָה",
+	"headwords": [
+		{
+			"text": "דְּלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01026",
-	"slug": "גמיל",
-	"headword": {
-		"text": "גָּמֵיל"
-	},
+	"sefariaHeadword": "גָּמֵיל",
+	"headwords": [
+		{
+			"text": "גָּמֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

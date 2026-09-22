@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00598",
-	"slug": "לעג-4",
-	"headword": {
-		"text": "לַעַג",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "לַעַג ²",
+	"headwords": [
+		{
+			"text": "לַעַג",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 714,
 		"column": "a"

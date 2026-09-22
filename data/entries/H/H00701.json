@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00701",
-	"slug": "חיזרא-1",
-	"headword": {
-		"text": "חִיזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיזְרָא",
+	"headwords": [
+		{
+			"text": "חִיזְרָא"
+		},
 		{
 			"text": "חִזְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 453,
 		"column": "a"

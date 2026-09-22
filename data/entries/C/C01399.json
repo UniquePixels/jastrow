@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01399",
-	"slug": "גררין",
-	"headword": {
-		"text": "גררין"
-	},
+	"sefariaHeadword": "גררין",
+	"headwords": [
+		{
+			"text": "גררין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "a"

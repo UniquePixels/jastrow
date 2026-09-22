@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00542",
-	"slug": "יצעים",
-	"headword": {
-		"text": "יְצָעִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְצָעִים",
+	"headwords": [
+		{
+			"text": "יְצָעִים"
+		},
 		{
 			"text": "רְצָעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 589,
 		"column": "b"

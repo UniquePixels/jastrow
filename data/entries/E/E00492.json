@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00492",
-	"slug": "הישבון",
-	"headword": {
-		"text": "הֵישָׁבוֹן"
-	},
+	"sefariaHeadword": "הֵישָׁבוֹן",
+	"headwords": [
+		{
+			"text": "הֵישָׁבוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 349,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00318",
-	"slug": "פוקה",
-	"headword": {
-		"text": "פּוּקָה"
-	},
+	"sefariaHeadword": "פּוּקָה",
+	"headwords": [
+		{
+			"text": "פּוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

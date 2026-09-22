@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00746",
-	"slug": "אוניתא-2",
-	"headword": {
-		"text": "אוֹנָיָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹנָיָתָא",
+	"headwords": [
+		{
+			"text": "אוֹנָיָתָא"
+		},
 		{
 			"text": "אוֹנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 29,
 		"column": "a"

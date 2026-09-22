@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01109",
-	"slug": "שיתיא",
-	"headword": {
-		"text": "שִׁיתְיָא"
-	},
+	"sefariaHeadword": "שִׁיתְיָא",
+	"headwords": [
+		{
+			"text": "שִׁיתְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1570,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01336",
-	"slug": "קליל-3",
-	"headword": {
-		"text": "קַלִּיל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלִּיל II",
+	"headwords": [
+		{
+			"text": "קַלִּיל",
+			"homograph": 2
+		},
 		{
 			"text": "קַלִּילָא"
 		},
 		{
-			"text": "קְלִ׳"
+			"text": "קְלִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1376,
 		"column": "b"

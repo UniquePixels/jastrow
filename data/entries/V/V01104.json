@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01104",
-	"slug": "תשע-1",
-	"headword": {
-		"text": "תָּשַׁע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּשַׁע",
+	"headwords": [
+		{
+			"text": "תָּשַׁע"
+		},
 		{
 			"text": "תִּשֵּׁעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1704,
 		"column": "b"

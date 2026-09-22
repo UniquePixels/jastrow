@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01169",
-	"slug": "עקי",
-	"headword": {
-		"text": "עֲקֵי"
-	},
+	"sefariaHeadword": "עֲקֵי",
+	"headwords": [
+		{
+			"text": "עֲקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "b"

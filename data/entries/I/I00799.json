@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00799",
-	"slug": "טרימוטה",
-	"headword": {
-		"text": "טרימוטה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טרימוטה",
+	"headwords": [
+		{
+			"text": "טרימוטה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 553,
 		"column": "b"

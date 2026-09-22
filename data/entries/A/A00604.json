@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00604",
-	"slug": "אוזמיאות",
-	"headword": {
-		"text": "אוּזְמְיָאוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּזְמְיָאוֹת",
+	"headwords": [
+		{
+			"text": "אוּזְמְיָאוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01040",
-	"slug": "עסי-1",
-	"headword": {
-		"text": "עסי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עסי",
+	"headwords": [
+		{
+			"text": "עסי"
+		},
 		{
 			"text": "עָסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1097,
 		"column": "b"

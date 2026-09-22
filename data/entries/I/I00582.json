@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00582",
-	"slug": "טנף-2",
-	"headword": {
-		"text": "טְנַף"
-	},
+	"sefariaHeadword": "טְנַף",
+	"headwords": [
+		{
+			"text": "טְנַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "b"

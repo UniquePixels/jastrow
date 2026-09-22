@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01285",
-	"slug": "חנייה",
-	"headword": {
-		"text": "חֲנִיָּיה"
-	},
+	"sefariaHeadword": "חֲנִיָּיה",
+	"headwords": [
+		{
+			"text": "חֲנִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "a"

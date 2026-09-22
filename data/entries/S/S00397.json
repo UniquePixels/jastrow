@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00397",
-	"slug": "קומנטריסין",
-	"headword": {
-		"text": "קוּמַּנְטָרִיסִין"
-	},
+	"sefariaHeadword": "קוּמַּנְטָרִיסִין",
+	"headwords": [
+		{
+			"text": "קוּמַּנְטָרִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1333,
 		"column": "a"

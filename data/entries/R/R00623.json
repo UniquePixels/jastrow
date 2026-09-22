@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00623",
-	"slug": "צנינים",
-	"headword": {
-		"text": "צְנִינִים"
-	},
+	"sefariaHeadword": "צְנִינִים",
+	"headwords": [
+		{
+			"text": "צְנִינִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1291,
 		"column": "b"

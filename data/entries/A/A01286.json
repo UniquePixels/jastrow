@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01286",
-	"slug": "אילופיסה",
-	"headword": {
-		"text": "אִילוֹפִיסָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִילוֹפִיסָה",
+	"headwords": [
+		{
+			"text": "אִילוֹפִיסָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 49,
 		"column": "a"

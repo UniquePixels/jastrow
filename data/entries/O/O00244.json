@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00244",
-	"slug": "סוג-3",
-	"headword": {
-		"text": "סוּג",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סוּג II",
+	"headwords": [
+		{
+			"text": "סוּג",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 961,
 		"column": "a"

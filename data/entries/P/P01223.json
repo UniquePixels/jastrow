@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01223",
-	"slug": "עקרבלין",
-	"headword": {
-		"text": "עַקְרַבְלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַקְרַבְלִין",
+	"headwords": [
+		{
+			"text": "עַקְרַבְלִין"
+		},
 		{
 			"text": "עַקְרַבְנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1109,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01924",
-	"slug": "פרסומי-2",
-	"headword": {
-		"text": "פַּרְסוּמֵי"
-	},
+	"sefariaHeadword": "פַּרְסוּמֵי",
+	"headwords": [
+		{
+			"text": "פַּרְסוּמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1234,
 		"column": "a"

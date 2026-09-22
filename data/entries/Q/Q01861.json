@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01861",
-	"slug": "פרכיר",
-	"headword": {
-		"text": "פַּרְכִּיר"
-	},
+	"sefariaHeadword": "פַּרְכִּיר",
+	"headwords": [
+		{
+			"text": "פַּרְכִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

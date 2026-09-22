@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01361",
-	"slug": "ספינתא",
-	"headword": {
-		"text": "סְפִינְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפִינְתָּא",
+	"headwords": [
+		{
+			"text": "סְפִינְתָּא"
+		},
 		{
 			"text": "סְפִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1013,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00618",
-	"slug": "ריח-4",
-	"headword": {
-		"text": "רֵיחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיחַ ²",
+	"headwords": [
+		{
+			"text": "רֵיחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "רֵיחָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1474,
 		"column": "a"

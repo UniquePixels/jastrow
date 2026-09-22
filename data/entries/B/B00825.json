@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00825",
-	"slug": "בלווטי",
-	"headword": {
-		"text": "*(?)בַּלְוָוטִי"
-	},
+	"sefariaHeadword": "*(?)בַּלְוָוטִי",
+	"headwords": [
+		{
+			"text": "בַּלְוָוטִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*(?){0}",
 	"page": {
 		"number": 171,
 		"column": "a"

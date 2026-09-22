@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00330",
-	"slug": "תושלחתא",
-	"headword": {
-		"text": "תּוּשְׁלַחְתָּא"
-	},
+	"sefariaHeadword": "תּוּשְׁלַחְתָּא",
+	"headwords": [
+		{
+			"text": "תּוּשְׁלַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "a"

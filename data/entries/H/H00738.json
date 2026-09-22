@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00738",
-	"slug": "חיינא",
-	"headword": {
-		"text": "חֲיָינָא"
-	},
+	"sefariaHeadword": "חֲיָינָא",
+	"headwords": [
+		{
+			"text": "חֲיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "a"

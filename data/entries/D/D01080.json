@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01080",
-	"slug": "דרי-3",
-	"headword": {
-		"text": "דָּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּרֵי",
+	"headwords": [
 		{
-			"text": "בֵּי דָ׳"
+			"text": "דָּרֵי"
+		},
+		{
+			"text": "בֵּי דָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 323,
 		"column": "a"

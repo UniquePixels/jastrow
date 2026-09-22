@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00992",
-	"slug": "פלח-3",
-	"headword": {
-		"text": "פֶּלַח"
-	},
+	"sefariaHeadword": "פֶּלַח",
+	"headwords": [
+		{
+			"text": "פֶּלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "b"

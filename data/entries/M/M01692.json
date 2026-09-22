@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01692",
-	"slug": "מן-1",
-	"headword": {
-		"text": "מִן"
-	},
+	"sefariaHeadword": "מִן",
+	"headwords": [
+		{
+			"text": "מִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "a"

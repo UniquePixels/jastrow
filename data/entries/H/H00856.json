@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00856",
-	"slug": "חיפצא",
-	"headword": {
-		"text": "חִיפְצָא"
-	},
+	"sefariaHeadword": "חִיפְצָא",
+	"headwords": [
+		{
+			"text": "חִיפְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "b"

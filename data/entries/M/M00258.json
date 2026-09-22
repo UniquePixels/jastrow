@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00258",
-	"slug": "מדובלל",
-	"headword": {
-		"text": "מְדוּבְלָל"
-	},
+	"sefariaHeadword": "מְדוּבְלָל",
+	"headwords": [
+		{
+			"text": "מְדוּבְלָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

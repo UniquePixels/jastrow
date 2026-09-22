@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00300",
-	"slug": "יחנון",
-	"headword": {
-		"text": "יַחְנוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַחְנוּן",
+	"headwords": [
+		{
+			"text": "יַחְנוּן"
+		},
 		{
 			"text": "יַחְנוּנָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "יַחְנִינָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 575,
 		"column": "a"

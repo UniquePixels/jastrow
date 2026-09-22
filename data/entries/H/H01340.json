@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "H01340",
-	"slug": "חסדא-2",
-	"headword": {
-		"text": "חִסְדָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִסְדָּא ²",
+	"headwords": [
+		{
+			"text": "חִסְדָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "חִי׳",
-			"homograph": 3
+			"homograph": 3,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} III",
 	"page": {
 		"number": 486,
 		"column": "b"

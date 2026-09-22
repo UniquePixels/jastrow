@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00149",
-	"slug": "שבלתא",
-	"headword": {
-		"text": "שֻׁבַּלְתָּא"
-	},
+	"sefariaHeadword": "שֻׁבַּלְתָּא",
+	"headwords": [
+		{
+			"text": "שֻׁבַּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

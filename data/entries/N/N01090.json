@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01090",
-	"slug": "נץ-1",
-	"headword": {
-		"text": "נֵץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נֵץ I",
+	"headwords": [
+		{
+			"text": "נֵץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 927,
 		"column": "a"

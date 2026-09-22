@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01659",
-	"slug": "איתקוטלא",
-	"headword": {
-		"text": "אִיתְקוּטְלָא"
-	},
+	"sefariaHeadword": "אִיתְקוּטְלָא",
+	"headwords": [
+		{
+			"text": "אִיתְקוּטְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

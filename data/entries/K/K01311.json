@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01311",
-	"slug": "כשכש-2",
-	"headword": {
-		"text": "כַּשְׁכֵּשׁ"
-	},
+	"sefariaHeadword": "כַּשְׁכֵּשׁ",
+	"headwords": [
+		{
+			"text": "כַּשְׁכֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 676,
 		"column": "a"

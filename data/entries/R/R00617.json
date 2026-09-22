@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00617",
-	"slug": "צנורי",
-	"headword": {
-		"text": "צִנּוֹרִי"
-	},
+	"sefariaHeadword": "צִנּוֹרִי",
+	"headwords": [
+		{
+			"text": "צִנּוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1291,
 		"column": "b"

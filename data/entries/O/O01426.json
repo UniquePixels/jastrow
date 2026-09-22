@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01426",
-	"slug": "ספרא-3",
-	"headword": {
-		"text": "סִפְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפְרָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִפְרָא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1018,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00754",
-	"slug": "פיסטירין",
-	"headword": {
-		"text": "פיסטירין"
-	},
+	"sefariaHeadword": "פיסטירין",
+	"headwords": [
+		{
+			"text": "פיסטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02272",
-	"slug": "אנפטי",
-	"headword": {
-		"text": "אנפטי"
-	},
+	"sefariaHeadword": "אנפטי",
+	"headwords": [
+		{
+			"text": "אנפטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

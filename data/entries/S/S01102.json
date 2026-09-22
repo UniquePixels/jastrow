@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01102",
-	"slug": "קיפוף",
-	"headword": {
-		"text": "קִיפּוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיפּוֹף",
+	"headwords": [
 		{
-			"text": "קִפּ׳"
+			"text": "קִיפּוֹף"
+		},
+		{
+			"text": "קִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1366,
 		"column": "a"

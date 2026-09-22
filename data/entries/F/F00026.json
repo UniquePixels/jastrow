@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00026",
-	"slug": "וזרד",
-	"headword": {
-		"text": "וזרד"
-	},
+	"sefariaHeadword": "וזרד",
+	"headwords": [
+		{
+			"text": "וזרד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

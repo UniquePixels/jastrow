@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00370",
-	"slug": "בורכתא",
-	"headword": {
-		"text": "בּוּרְכְּתָא"
-	},
+	"sefariaHeadword": "בּוּרְכְּתָא",
+	"headwords": [
+		{
+			"text": "בּוּרְכְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01266",
-	"slug": "ערבו",
-	"headword": {
-		"text": "עַרְבוּ"
-	},
+	"sefariaHeadword": "עַרְבוּ",
+	"headwords": [
+		{
+			"text": "עַרְבוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1112,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01162",
-	"slug": "סנאי",
-	"headword": {
-		"text": "סְנָאֵי"
-	},
+	"sefariaHeadword": "סְנָאֵי",
+	"headwords": [
+		{
+			"text": "סְנָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

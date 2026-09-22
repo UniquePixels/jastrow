@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00236",
-	"slug": "אגבא",
-	"headword": {
-		"text": "אַגַּבָּא"
-	},
+	"sefariaHeadword": "אַגַּבָּא",
+	"headwords": [
+		{
+			"text": "אַגַּבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "a"

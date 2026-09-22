@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00544",
-	"slug": "שורה",
-	"headword": {
-		"text": "שׁוּרָה"
-	},
+	"sefariaHeadword": "שׁוּרָה",
+	"headwords": [
+		{
+			"text": "שׁוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "a"

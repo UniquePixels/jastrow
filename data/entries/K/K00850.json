@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00850",
-	"slug": "כני-2",
-	"headword": {
-		"text": "כני",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "כני ²",
+	"headwords": [
+		{
+			"text": "כני",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 648,
 		"column": "b"

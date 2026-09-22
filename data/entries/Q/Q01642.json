@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01642",
-	"slug": "פרוזבוטו",
-	"headword": {
-		"text": "פרוזבוטו"
-	},
+	"sefariaHeadword": "פרוזבוטו",
+	"headwords": [
+		{
+			"text": "פרוזבוטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "a"

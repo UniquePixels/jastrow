@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00570",
-	"slug": "זנו",
-	"headword": {
-		"text": "זְנוּ"
-	},
+	"sefariaHeadword": "זְנוּ",
+	"headwords": [
+		{
+			"text": "זְנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

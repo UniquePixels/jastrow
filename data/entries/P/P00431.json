@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00431",
-	"slug": "עזריה",
-	"headword": {
-		"text": "עֲזַרְיָה"
-	},
+	"sefariaHeadword": "עֲזַרְיָה",
+	"headwords": [
+		{
+			"text": "עֲזַרְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

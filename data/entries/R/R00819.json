@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00819",
-	"slug": "צתת-2",
-	"headword": {
-		"text": "צְתַת"
-	},
+	"sefariaHeadword": "צְתַת",
+	"headwords": [
+		{
+			"text": "צְתַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "b"

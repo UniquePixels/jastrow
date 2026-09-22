@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00703",
-	"slug": "עישורא",
-	"headword": {
-		"text": "עִישּׂוּרָא"
-	},
+	"sefariaHeadword": "עִישּׂוּרָא",
+	"headwords": [
+		{
+			"text": "עִישּׂוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

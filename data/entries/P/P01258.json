@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01258",
-	"slug": "ערבא-4",
-	"headword": {
-		"text": "עָרְבָּא"
-	},
+	"sefariaHeadword": "עָרְבָּא",
+	"headwords": [
+		{
+			"text": "עָרְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1111,
 		"column": "b"

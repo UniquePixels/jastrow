@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01085",
-	"slug": "שירקא",
-	"headword": {
-		"text": "שִׁירְקָא"
-	},
+	"sefariaHeadword": "שִׁירְקָא",
+	"headwords": [
+		{
+			"text": "שִׁירְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "b"

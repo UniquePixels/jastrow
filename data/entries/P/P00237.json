@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00237",
-	"slug": "עוית-2",
-	"headword": {
-		"text": "עַוִּית",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עַוִּית ²",
+	"headwords": [
+		{
+			"text": "עַוִּית",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1049,
 		"column": "b"

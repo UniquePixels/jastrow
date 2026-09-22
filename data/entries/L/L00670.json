@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00670",
-	"slug": "לקונא",
-	"headword": {
-		"text": "לְקוּנָא"
-	},
+	"sefariaHeadword": "לְקוּנָא",
+	"headwords": [
+		{
+			"text": "לְקוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

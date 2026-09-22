@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00480",
-	"slug": "רחוב",
-	"headword": {
-		"text": "רְחוֹב"
-	},
+	"sefariaHeadword": "רְחוֹב",
+	"headwords": [
+		{
+			"text": "רְחוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

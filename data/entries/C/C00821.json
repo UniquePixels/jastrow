@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00821",
-	"slug": "גירומים",
-	"headword": {
-		"text": "גֵּירוּמִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּירוּמִים",
+	"headwords": [
+		{
+			"text": "גֵּירוּמִים"
+		},
 		{
 			"text": "גֵּירוּמִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 242,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00448",
-	"slug": "עטיף-2",
-	"headword": {
-		"text": "עֲטֵיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטֵיף",
+	"headwords": [
+		{
+			"text": "עֲטֵיף"
+		},
 		{
 			"text": "עֲטִיפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1063,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00465",
-	"slug": "חורון-2",
-	"headword": {
-		"text": "חוֹרוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹרוֹן ²",
+	"headwords": [
+		{
+			"text": "חוֹרוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "חוֹרוֹנִין"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 440,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01200",
-	"slug": "עקמומיתא",
-	"headword": {
-		"text": "עַקְמוּמִיתָא"
-	},
+	"sefariaHeadword": "עַקְמוּמִיתָא",
+	"headwords": [
+		{
+			"text": "עַקְמוּמִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

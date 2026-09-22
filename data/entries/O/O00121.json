@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00121",
-	"slug": "סגי-2",
-	"headword": {
-		"text": "סְגֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגֵי ²",
+	"headwords": [
+		{
+			"text": "סְגֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְגָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 954,
 		"column": "a"

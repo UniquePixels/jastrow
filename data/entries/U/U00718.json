@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00718",
-	"slug": "שחרחרות",
-	"headword": {
-		"text": "שְׁחַרִחֲרוּת"
-	},
+	"sefariaHeadword": "שְׁחַרִחֲרוּת",
+	"headwords": [
+		{
+			"text": "שְׁחַרִחֲרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

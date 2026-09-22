@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02795",
-	"slug": "אפר-4",
-	"headword": {
-		"text": "אֲפַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲפַר ²",
+	"headwords": [
+		{
+			"text": "אֲפַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "אֶפְרָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "אֶפְרָה"
 		}
 	],
+	"display": "{0} ², {1} I, ({2})",
 	"page": {
 		"number": 107,
 		"column": "b"

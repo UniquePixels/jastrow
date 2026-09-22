@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00825",
-	"slug": "טריקסין",
-	"headword": {
-		"text": "טְרִיקְסִין"
-	},
+	"sefariaHeadword": "טְרִיקְסִין",
+	"headwords": [
+		{
+			"text": "טְרִיקְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

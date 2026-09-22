@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00029",
-	"slug": "וטוב",
-	"headword": {
-		"text": "וטוּב",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*וטוּב",
+	"headwords": [
+		{
+			"text": "וטוּב",
+			"reconstructed": true
+		},
 		{
 			"text": "וָטִיב"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 373,
 		"column": "a"

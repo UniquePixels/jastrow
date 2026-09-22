@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00909",
-	"slug": "מחסורייתא",
-	"headword": {
-		"text": "מַחְסוֹרְיָיתָא"
-	},
+	"sefariaHeadword": "מַחְסוֹרְיָיתָא",
+	"headwords": [
+		{
+			"text": "מַחְסוֹרְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00191",
-	"slug": "טוס-3",
-	"headword": {
-		"text": "טַוָּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַוָּס",
+	"headwords": [
+		{
+			"text": "טַוָּס"
+		},
 		{
 			"text": "טַוְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 525,
 		"column": "a"

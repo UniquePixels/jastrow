@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00156",
-	"slug": "טוי-5",
-	"headword": {
-		"text": "טָוִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָוִי",
+	"headwords": [
+		{
+			"text": "טָוִי"
+		},
 		{
 			"text": "טָיִוי"
 		},
@@ -12,9 +13,11 @@
 			"text": "טַוְיָא"
 		},
 		{
-			"text": "טַוְו׳"
+			"text": "טַוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 523,
 		"column": "b"

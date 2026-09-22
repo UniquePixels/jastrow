@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00554",
-	"slug": "דייג",
-	"headword": {
-		"text": "דָּיֵיג"
-	},
+	"sefariaHeadword": "דָּיֵיג",
+	"headwords": [
+		{
+			"text": "דָּיֵיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "a"

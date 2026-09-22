@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00542",
-	"slug": "אוגיא",
-	"headword": {
-		"text": "אוּגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּגְיָא",
+	"headwords": [
+		{
+			"text": "אוּגְיָא"
+		},
 		{
 			"text": "אֻגְיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 21,
 		"column": "b"

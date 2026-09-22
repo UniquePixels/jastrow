@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01414",
-	"slug": "איסטדומוטא",
-	"headword": {
-		"text": "איסטדומוטא"
-	},
+	"sefariaHeadword": "איסטדומוטא",
+	"headwords": [
+		{
+			"text": "איסטדומוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02235",
-	"slug": "קשי-1",
-	"headword": {
-		"text": "קשי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קשי",
+	"headwords": [
+		{
+			"text": "קשי"
+		},
 		{
 			"text": "קָשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1430,
 		"column": "a"

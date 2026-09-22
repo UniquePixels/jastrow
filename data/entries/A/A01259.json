@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01259",
-	"slug": "איכר",
-	"headword": {
-		"text": "אִיכָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיכָּר",
+	"headwords": [
+		{
+			"text": "אִיכָּר"
+		},
 		{
 			"text": "אִכָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "a"

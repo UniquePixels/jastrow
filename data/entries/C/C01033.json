@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01033",
-	"slug": "גמיקין",
-	"headword": {
-		"text": "גַּמִּיקִין"
-	},
+	"sefariaHeadword": "גַּמִּיקִין",
+	"headwords": [
+		{
+			"text": "גַּמִּיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "a"

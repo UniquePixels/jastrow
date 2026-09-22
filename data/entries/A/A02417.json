@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02417",
-	"slug": "אסטרטיוטין",
-	"headword": {
-		"text": "אִסְטְרַטְיוֹטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרַטְיוֹטִין",
+	"headwords": [
+		{
+			"text": "אִסְטְרַטְיוֹטִין"
+		},
 		{
 			"text": "אִסְטְרַטְיוֹטֵיס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אסטרטיוס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 92,
 		"column": "a"

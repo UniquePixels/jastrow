@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00717",
-	"slug": "פימלאות",
-	"headword": {
-		"text": "פימלאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פימלאות",
+	"headwords": [
+		{
+			"text": "פימלאות"
+		},
 		{
 			"text": "פימליאות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

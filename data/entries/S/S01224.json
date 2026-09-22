@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01224",
-	"slug": "קישרתא",
-	"headword": {
-		"text": "קִישַׁרְתָּא"
-	},
+	"sefariaHeadword": "קִישַׁרְתָּא",
+	"headwords": [
+		{
+			"text": "קִישַׁרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "b"

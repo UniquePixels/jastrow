@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02757",
-	"slug": "מרצע",
-	"headword": {
-		"text": "מַרְצֵעַ"
-	},
+	"sefariaHeadword": "מַרְצֵעַ",
+	"headwords": [
+		{
+			"text": "מַרְצֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

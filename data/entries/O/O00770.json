@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00770",
-	"slug": "סיעדא",
-	"headword": {
-		"text": "סִיעֲדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיעֲדָא",
+	"headwords": [
+		{
+			"text": "סִיעֲדָא"
+		},
 		{
 			"text": "סִיעֲדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 984,
 		"column": "b"

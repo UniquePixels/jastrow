@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00761",
-	"slug": "רכיב",
-	"headword": {
-		"text": "רְכֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְכֵיב",
+	"headwords": [
+		{
+			"text": "רְכֵיב"
+		},
 		{
 			"text": "רְכִיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1479,
 		"column": "b"

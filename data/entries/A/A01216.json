@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01216",
-	"slug": "איטליז",
-	"headword": {
-		"text": "אִיטְלֵיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיטְלֵיז",
+	"headwords": [
+		{
+			"text": "אִיטְלֵיז"
+		},
 		{
 			"text": "אִיטְלֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 47,
 		"column": "a"

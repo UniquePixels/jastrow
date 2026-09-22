@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01083",
-	"slug": "בצורתא-1",
-	"headword": {
-		"text": "בַּצּוֹרְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּצּוֹרְתָא",
+	"headwords": [
+		{
+			"text": "בַּצּוֹרְתָא"
+		},
 		{
 			"text": "בִּיצּוּרְתָּא"
 		},
@@ -12,9 +13,11 @@
 			"text": "בִּיצַּרְתָּא"
 		},
 		{
-			"text": "בּוּ׳"
+			"text": "בּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3})",
 	"page": {
 		"number": 184,
 		"column": "a"

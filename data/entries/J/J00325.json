@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00325",
-	"slug": "ייבא",
-	"headword": {
-		"text": "יֵיבָא"
-	},
+	"sefariaHeadword": "יֵיבָא",
+	"headwords": [
+		{
+			"text": "יֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

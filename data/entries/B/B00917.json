@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00917",
-	"slug": "בלש-2",
-	"headword": {
-		"text": "בְּלַשׁ"
-	},
+	"sefariaHeadword": "בְּלַשׁ",
+	"headwords": [
+		{
+			"text": "בְּלַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

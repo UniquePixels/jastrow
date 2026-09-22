@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02935",
-	"slug": "משמש-2",
-	"headword": {
-		"text": "מַשְׁמֵשׁ"
-	},
+	"sefariaHeadword": "מַשְׁמֵשׁ",
+	"headwords": [
+		{
+			"text": "מַשְׁמֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "b"

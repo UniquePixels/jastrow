@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "I00756",
-	"slug": "טרטימר",
-	"headword": {
-		"text": "טַרְטֵימַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְטֵימַר",
+	"headwords": [
 		{
-			"text": "טַרְתֵּ׳"
+			"text": "טַרְטֵימַר"
 		},
 		{
-			"text": "תַּרְטֵ׳"
+			"text": "טַרְתֵּ׳",
+			"partial": true
+		},
+		{
+			"text": "תַּרְטֵ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 552,
 		"column": "a"

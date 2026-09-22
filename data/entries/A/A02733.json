@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02733",
-	"slug": "אפל-3",
-	"headword": {
-		"text": "אָפֵל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אָפֵל I",
+	"headwords": [
+		{
+			"text": "אָפֵל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 105,
 		"column": "b"

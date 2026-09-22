@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00665",
-	"slug": "ירקרוקת",
-	"headword": {
-		"text": "יְרַקְרוֹקֶת"
-	},
+	"sefariaHeadword": "יְרַקְרוֹקֶת",
+	"headwords": [
+		{
+			"text": "יְרַקְרוֹקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "a"

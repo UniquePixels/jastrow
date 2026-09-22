@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00706",
-	"slug": "הסיח",
-	"headword": {
-		"text": "הֶסֵּיחַ"
-	},
+	"sefariaHeadword": "הֶסֵּיחַ",
+	"headwords": [
+		{
+			"text": "הֶסֵּיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"E00696\"><he>הֶיסֵּ׳</he></cite>",
+			"gloss": ", v. <cite ref=\"E00696\"><he>הֶיסֵּ׳</he></cite>",
 			"units": []
 		}
 	]

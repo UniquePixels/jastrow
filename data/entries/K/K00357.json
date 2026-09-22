@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00357",
-	"slug": "כופת",
-	"headword": {
-		"text": "כּוֹפֶת"
-	},
+	"sefariaHeadword": "כּוֹפֶת",
+	"headwords": [
+		{
+			"text": "כּוֹפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "b"

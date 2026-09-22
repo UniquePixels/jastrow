@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00204",
-	"slug": "מגפה",
-	"headword": {
-		"text": "מַגֵּפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגֵּפָה",
+	"headwords": [
 		{
-			"text": "מַגֵּי׳"
+			"text": "מַגֵּפָה"
+		},
+		{
+			"text": "מַגֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01093",
-	"slug": "קיף",
-	"headword": {
-		"text": "קַיָּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיָּף",
+	"headwords": [
+		{
+			"text": "קַיָּף"
+		},
 		{
 			"text": "קַיָּיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "b"

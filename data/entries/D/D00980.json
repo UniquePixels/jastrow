@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00980",
-	"slug": "דצי",
-	"headword": {
-		"text": "דְּצֵי"
-	},
+	"sefariaHeadword": "דְּצֵי",
+	"headwords": [
+		{
+			"text": "דְּצֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

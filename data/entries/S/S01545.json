@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01545",
-	"slug": "קנוניא",
-	"headword": {
-		"text": "קְנוֹנְיָא"
-	},
+	"sefariaHeadword": "קְנוֹנְיָא",
+	"headwords": [
+		{
+			"text": "קְנוֹנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

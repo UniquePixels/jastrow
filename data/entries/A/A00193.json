@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00193",
-	"slug": "אבקא",
-	"headword": {
-		"text": "אַבְקָא"
-	},
+	"sefariaHeadword": "אַבְקָא",
+	"headwords": [
+		{
+			"text": "אַבְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "b"

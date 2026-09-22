@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00579",
-	"slug": "טננא",
-	"headword": {
-		"text": "טְנָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְנָנָא",
+	"headwords": [
+		{
+			"text": "טְנָנָא"
+		},
 		{
 			"text": "טִינְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 541,
 		"column": "a"

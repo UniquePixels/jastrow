@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01835",
-	"slug": "פריש-3",
-	"headword": {
-		"text": "פָּרֵישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרֵישׁ",
+	"headwords": [
+		{
+			"text": "פָּרֵישׁ"
+		},
 		{
 			"text": "פָּרִישׁ"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּרִישָׁא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1228,
 		"column": "a"

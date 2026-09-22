@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A00339",
-	"slug": "אגר-5",
-	"headword": {
-		"text": "אֲגַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲגַר III",
+	"headwords": [
+		{
+			"text": "אֲגַר",
+			"homograph": 3
+		},
 		{
 			"text": "אַגְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 14,
 		"column": "a"

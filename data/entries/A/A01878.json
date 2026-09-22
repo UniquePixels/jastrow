@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01878",
-	"slug": "אליקים",
-	"headword": {
-		"text": "אֶלְיָקִים"
-	},
+	"sefariaHeadword": "אֶלְיָקִים",
+	"headwords": [
+		{
+			"text": "אֶלְיָקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

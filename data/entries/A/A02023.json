@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02023",
-	"slug": "אמילתא",
-	"headword": {
-		"text": "אֲמִילְתָא"
-	},
+	"sefariaHeadword": "אֲמִילְתָא",
+	"headwords": [
+		{
+			"text": "אֲמִילְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "a"

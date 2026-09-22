@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01605",
-	"slug": "חרדלית",
-	"headword": {
-		"text": "חַרְדְּלִית"
-	},
+	"sefariaHeadword": "חַרְדְּלִית",
+	"headwords": [
+		{
+			"text": "חַרְדְּלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "a"

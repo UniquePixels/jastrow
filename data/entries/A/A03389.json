@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03389",
-	"slug": "אשתקד",
-	"headword": {
-		"text": "אֶשְׁתָּקַד"
-	},
+	"sefariaHeadword": "אֶשְׁתָּקַד",
+	"headwords": [
+		{
+			"text": "אֶשְׁתָּקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "b"

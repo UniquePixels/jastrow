@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00736",
-	"slug": "חיים",
-	"headword": {
-		"text": "חַיִּים"
-	},
+	"sefariaHeadword": "חַיִּים",
+	"headwords": [
+		{
+			"text": "חַיִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

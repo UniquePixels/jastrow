@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K00451",
-	"slug": "כח-3",
-	"headword": {
-		"text": "כֹּחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֹּחַ ²",
+	"headwords": [
+		{
+			"text": "כֹּחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "כֹּחָא"
 		},
 		{
-			"text": "כּוֹ׳"
+			"text": "כּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 628,
 		"column": "b"

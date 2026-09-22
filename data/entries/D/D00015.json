@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00015",
-	"slug": "דאוסיניסי",
-	"headword": {
-		"text": "דאוסיניסי"
-	},
+	"sefariaHeadword": "דאוסיניסי",
+	"headwords": [
+		{
+			"text": "דאוסיניסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

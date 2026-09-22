@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00710",
-	"slug": "לשלשת",
-	"headword": {
-		"text": "לִשְׁלֶשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִשְׁלֶשֶׁת",
+	"headwords": [
 		{
-			"text": "לִי׳"
+			"text": "לִשְׁלֶשֶׁת"
+		},
+		{
+			"text": "לִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 720,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01878",
-	"slug": "מסופות",
-	"headword": {
-		"text": "מסופות"
-	},
+	"sefariaHeadword": "מסופות",
+	"headwords": [
+		{
+			"text": "מסופות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

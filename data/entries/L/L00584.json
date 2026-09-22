@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00584",
-	"slug": "לננן",
-	"headword": {
-		"text": "לָנְנָן"
-	},
+	"sefariaHeadword": "לָנְנָן",
+	"headwords": [
+		{
+			"text": "לָנְנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

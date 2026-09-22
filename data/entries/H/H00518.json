@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00518",
-	"slug": "חזות",
-	"headword": {
-		"text": "חָזוּת"
-	},
+	"sefariaHeadword": "חָזוּת",
+	"headwords": [
+		{
+			"text": "חָזוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

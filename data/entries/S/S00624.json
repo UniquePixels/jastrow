@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00624",
-	"slug": "קורנס",
-	"headword": {
-		"text": "קוּרְנָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְנָס",
+	"headwords": [
+		{
+			"text": "קוּרְנָס"
+		},
 		{
 			"text": "קוּרְנֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1343,
 		"column": "b"

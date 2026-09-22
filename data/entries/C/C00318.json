@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00318",
-	"slug": "גודרות",
-	"headword": {
-		"text": "גּוֹדְרוֹת"
-	},
+	"sefariaHeadword": "גּוֹדְרוֹת",
+	"headwords": [
+		{
+			"text": "גּוֹדְרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00793",
-	"slug": "שיבולא",
-	"headword": {
-		"text": "שִׁיבּוֹלָא"
-	},
+	"sefariaHeadword": "שִׁיבּוֹלָא",
+	"headwords": [
+		{
+			"text": "שִׁיבּוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "a"

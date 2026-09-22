@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00423",
-	"slug": "רופוס",
-	"headword": {
-		"text": "רוּפוֹס"
-	},
+	"sefariaHeadword": "רוּפוֹס",
+	"headwords": [
+		{
+			"text": "רוּפוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

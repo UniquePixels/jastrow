@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01583",
-	"slug": "שני-1",
-	"headword": {
-		"text": "שָׁנֵי"
-	},
+	"sefariaHeadword": "שָׁנֵי",
+	"headwords": [
+		{
+			"text": "שָׁנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

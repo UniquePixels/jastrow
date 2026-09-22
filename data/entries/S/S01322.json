@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01322",
-	"slug": "קליא",
-	"headword": {
-		"text": "קַלְיָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלְיָא II",
+	"headwords": [
+		{
+			"text": "קַלְיָא",
+			"homograph": 2
+		},
 		{
 			"text": "קָלְיָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1376,
 		"column": "a"

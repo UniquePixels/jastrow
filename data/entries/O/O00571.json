@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00571",
-	"slug": "סיגנין",
-	"headword": {
-		"text": "סִיגְנִין",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִיגְנִין II",
+	"headwords": [
+		{
+			"text": "סִיגְנִין",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 976,
 		"column": "a"

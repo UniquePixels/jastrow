@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00037",
-	"slug": "שאן-2",
-	"headword": {
-		"text": "שְׁאָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁאָן",
+	"headwords": [
 		{
-			"text": "בֵּית שְׁאָן"
+			"text": "שְׁאָן"
+		},
+		{
+			"text": "בֵּית שְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1508,
 		"column": "a"

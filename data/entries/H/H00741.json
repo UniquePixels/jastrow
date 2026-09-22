@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00741",
-	"slug": "חייס-3",
-	"headword": {
-		"text": "חַיִיס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַיִיס II",
+	"headwords": [
+		{
+			"text": "חַיִיס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 455,
 		"column": "a"

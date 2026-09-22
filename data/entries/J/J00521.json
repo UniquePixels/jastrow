@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00521",
-	"slug": "יצהר-2",
-	"headword": {
-		"text": "יִצְהָר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יִצְהָר II",
+	"headwords": [
+		{
+			"text": "יִצְהָר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 588,
 		"column": "a"

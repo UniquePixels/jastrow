@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00051",
-	"slug": "פגטי",
-	"headword": {
-		"text": "פגטי"
-	},
+	"sefariaHeadword": "פגטי",
+	"headwords": [
+		{
+			"text": "פגטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

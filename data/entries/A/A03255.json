@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03255",
-	"slug": "אשא-1",
-	"headword": {
-		"text": "אֶשָּׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשָּׁא",
+	"headwords": [
+		{
+			"text": "אֶשָּׁא"
+		},
 		{
 			"text": "אִישָּׁא"
 		},
@@ -15,9 +16,11 @@
 			"text": "אֶישָּׁתָא"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 126,
 		"column": "b"

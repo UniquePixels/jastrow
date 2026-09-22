@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00453",
-	"slug": "אדרומא",
-	"headword": {
-		"text": "אַדְרוֹמָא"
-	},
+	"sefariaHeadword": "אַדְרוֹמָא",
+	"headwords": [
+		{
+			"text": "אַדְרוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

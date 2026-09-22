@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00588",
-	"slug": "מוקי",
-	"headword": {
-		"text": "מוֹקִי"
-	},
+	"sefariaHeadword": "מוֹקִי",
+	"headwords": [
+		{
+			"text": "מוֹקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

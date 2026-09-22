@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00570",
-	"slug": "הלכתא",
-	"headword": {
-		"text": "הִלְכְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִלְכְתָא",
+	"headwords": [
 		{
-			"text": "הִילְ׳"
+			"text": "הִלְכְתָא"
+		},
+		{
+			"text": "הִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 353,
 		"column": "b"

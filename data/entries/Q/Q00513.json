@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00513",
-	"slug": "פטילוס",
-	"headword": {
-		"text": "פטילוס"
-	},
+	"sefariaHeadword": "פטילוס",
+	"headwords": [
+		{
+			"text": "פטילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "a"

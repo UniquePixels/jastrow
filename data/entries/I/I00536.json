@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00536",
-	"slug": "טמוס",
-	"headword": {
-		"text": "טֹמוֹס"
-	},
+	"sefariaHeadword": "טֹמוֹס",
+	"headwords": [
+		{
+			"text": "טֹמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 539,
 		"column": "a"

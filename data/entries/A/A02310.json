@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02310",
-	"slug": "אנתוסאי",
-	"headword": {
-		"text": "אַנְתּוּסָאֵי"
-	},
+	"sefariaHeadword": "אַנְתּוּסָאֵי",
+	"headwords": [
+		{
+			"text": "אַנְתּוּסָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

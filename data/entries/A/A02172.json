@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02172",
-	"slug": "אנטוקטא",
-	"headword": {
-		"text": "אנטוקטא"
-	},
+	"sefariaHeadword": "אנטוקטא",
+	"headwords": [
+		{
+			"text": "אנטוקטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

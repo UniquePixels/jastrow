@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00866",
-	"slug": "עמוד-1",
-	"headword": {
-		"text": "עַמּוּד"
-	},
+	"sefariaHeadword": "עַמּוּד",
+	"headwords": [
+		{
+			"text": "עַמּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "a"

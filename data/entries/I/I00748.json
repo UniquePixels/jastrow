@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00748",
-	"slug": "טרחא-2",
-	"headword": {
-		"text": "טִרְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִרְחָא",
+	"headwords": [
 		{
-			"text": "טִירְ׳"
+			"text": "טִרְחָא"
+		},
+		{
+			"text": "טִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "a"

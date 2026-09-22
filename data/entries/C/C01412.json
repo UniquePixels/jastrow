@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01412",
-	"slug": "גשוש",
-	"headword": {
-		"text": "גָּשׁוֹשׁ"
-	},
+	"sefariaHeadword": "גָּשׁוֹשׁ",
+	"headwords": [
+		{
+			"text": "גָּשׁוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "b"

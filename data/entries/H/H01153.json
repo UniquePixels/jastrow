@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01153",
-	"slug": "חמודא-1",
-	"headword": {
-		"text": "חֲמוּדָא"
-	},
+	"sefariaHeadword": "חֲמוּדָא",
+	"headwords": [
+		{
+			"text": "חֲמוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00205",
-	"slug": "תוכייה",
-	"headword": {
-		"text": "תוכייה"
-	},
+	"sefariaHeadword": "תוכייה",
+	"headwords": [
+		{
+			"text": "תוכייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

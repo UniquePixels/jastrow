@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U02037",
-	"slug": "שרש-2",
-	"headword": {
-		"text": "שֹׁרֶשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֹׁרֶשׁ ²",
+	"headwords": [
+		{
+			"text": "שֹׁרֶשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "שׁוֹרֶשׁ"
 		},
@@ -13,6 +14,7 @@
 			"text": "שׁוֹרְשָׁא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1635,
 		"column": "a"

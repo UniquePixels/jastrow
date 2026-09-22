@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00847",
-	"slug": "תפף-2",
-	"headword": {
-		"text": "תְּפַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תְּפַף I",
+	"headwords": [
+		{
+			"text": "תְּפַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1689,
 		"column": "a"

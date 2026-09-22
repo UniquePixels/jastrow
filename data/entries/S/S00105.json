@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00105",
-	"slug": "קברנט",
-	"headword": {
-		"text": "קברנט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קברנט",
+	"headwords": [
+		{
+			"text": "קברנט"
+		},
 		{
 			"text": "קברנטו"
 		},
@@ -12,6 +13,7 @@
 			"text": "קברנטן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1313,
 		"column": "a"

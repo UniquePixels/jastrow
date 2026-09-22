@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02570",
-	"slug": "מרובע",
-	"headword": {
-		"text": "מְרוּבָּע"
-	},
+	"sefariaHeadword": "מְרוּבָּע",
+	"headwords": [
+		{
+			"text": "מְרוּבָּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

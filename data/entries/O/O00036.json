@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00036",
-	"slug": "סבו",
-	"headword": {
-		"text": "סֵבוּ"
-	},
+	"sefariaHeadword": "סֵבוּ",
+	"headwords": [
+		{
+			"text": "סֵבוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

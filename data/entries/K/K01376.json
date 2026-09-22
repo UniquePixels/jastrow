@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01376",
-	"slug": "כתנת",
-	"headword": {
-		"text": "כְּתֹנֶת"
-	},
+	"sefariaHeadword": "כְּתֹנֶת",
+	"headwords": [
+		{
+			"text": "כְּתֹנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "a"

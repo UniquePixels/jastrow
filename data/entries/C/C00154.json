@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00154",
-	"slug": "גד-4",
-	"headword": {
-		"text": "גַּד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גַּד II",
+	"headwords": [
+		{
+			"text": "גַּד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 209,
 		"column": "b"

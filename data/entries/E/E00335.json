@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00335",
-	"slug": "היגא-2",
-	"headword": {
-		"text": "הֵיגָא"
-	},
+	"sefariaHeadword": "הֵיגָא",
+	"headwords": [
+		{
+			"text": "הֵיגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01525",
-	"slug": "קנביס",
-	"headword": {
-		"text": "קַנְבִּיס"
-	},
+	"sefariaHeadword": "קַנְבִּיס",
+	"headwords": [
+		{
+			"text": "קַנְבִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

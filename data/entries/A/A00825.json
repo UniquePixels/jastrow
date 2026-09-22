@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00825",
-	"slug": "אוצר",
-	"headword": {
-		"text": "אוֹצָר"
-	},
+	"sefariaHeadword": "אוֹצָר",
+	"headwords": [
+		{
+			"text": "אוֹצָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

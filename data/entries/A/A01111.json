@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01111",
-	"slug": "אי-3",
-	"headword": {
-		"text": "אִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִי II",
+	"headwords": [
+		{
+			"text": "אִי",
+			"homograph": 2
+		},
 		{
 			"text": "אֵי",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 43,
 		"column": "b"

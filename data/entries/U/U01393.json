@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "U01393",
-	"slug": "שלשול-3",
-	"headword": {
-		"text": "שִׁלְשׁוּל",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְשׁוּל ³",
+	"headwords": [
+		{
+			"text": "שִׁלְשׁוּל",
+			"disambiguator": 3
+		},
 		{
 			"text": "שׁי׳",
-			"homograph": 3
+			"homograph": 3,
+			"partial": true
 		}
 	],
+	"display": "{0} ³, {1} III",
 	"page": {
 		"number": 1589,
 		"column": "a"

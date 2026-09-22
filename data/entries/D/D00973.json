@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00973",
-	"slug": "דפק-2",
-	"headword": {
-		"text": "דְּפַק"
-	},
+	"sefariaHeadword": "דְּפַק",
+	"headwords": [
+		{
+			"text": "דְּפַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

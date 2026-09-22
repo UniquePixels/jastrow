@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00305",
-	"slug": "נוגרא",
-	"headword": {
-		"text": "נוּגרָא"
-	},
+	"sefariaHeadword": "נוּגרָא",
+	"headwords": [
+		{
+			"text": "נוּגרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

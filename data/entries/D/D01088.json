@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01088",
-	"slug": "דריכות",
-	"headword": {
-		"text": "דריכות"
-	},
+	"sefariaHeadword": "דריכות",
+	"headwords": [
+		{
+			"text": "דריכות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

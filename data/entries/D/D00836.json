@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00836",
-	"slug": "דליקה",
-	"headword": {
-		"text": "דְּלֵיקָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלֵיקָה",
+	"headwords": [
+		{
+			"text": "דְּלֵיקָה"
+		},
 		{
 			"text": "דְּלֵקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 310,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00257",
-	"slug": "טחול",
-	"headword": {
-		"text": "טְחוֹל"
-	},
+	"sefariaHeadword": "טְחוֹל",
+	"headwords": [
+		{
+			"text": "טְחוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

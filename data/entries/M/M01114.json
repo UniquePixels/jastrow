@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01114",
-	"slug": "מיחוס",
-	"headword": {
-		"text": "מֵיחוּס"
-	},
+	"sefariaHeadword": "מֵיחוּס",
+	"headwords": [
+		{
+			"text": "מֵיחוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

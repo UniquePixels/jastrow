@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00285",
-	"slug": "אגח",
-	"headword": {
-		"text": "אָגַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָגַח",
+	"headwords": [
+		{
+			"text": "אָגַח"
+		},
 		{
 			"text": "אֲגַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "a"

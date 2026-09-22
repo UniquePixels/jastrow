@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00066",
-	"slug": "דביתא",
-	"headword": {
-		"text": "דְּבֵיתָא"
-	},
+	"sefariaHeadword": "דְּבֵיתָא",
+	"headwords": [
+		{
+			"text": "דְּבֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "b"

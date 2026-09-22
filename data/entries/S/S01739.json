@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01739",
-	"slug": "קפיליטא",
-	"headword": {
-		"text": "קַפִּילִיטָא"
-	},
+	"sefariaHeadword": "קַפִּילִיטָא",
+	"headwords": [
+		{
+			"text": "קַפִּילִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

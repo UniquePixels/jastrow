@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01490",
-	"slug": "עשן-2",
-	"headword": {
-		"text": "עָשַׁן"
-	},
+	"sefariaHeadword": "עָשַׁן",
+	"headwords": [
+		{
+			"text": "עָשַׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1126,
 		"column": "a"

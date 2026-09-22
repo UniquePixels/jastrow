@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01404",
-	"slug": "מכמם",
-	"headword": {
-		"text": "מכמם"
-	},
+	"sefariaHeadword": "מכמם",
+	"headwords": [
+		{
+			"text": "מכמם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

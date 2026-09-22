@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00809",
-	"slug": "חימצא",
-	"headword": {
-		"text": "חִימְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִימְצָא",
+	"headwords": [
+		{
+			"text": "חִימְצָא"
+		},
 		{
 			"text": "חוּמְצָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 458,
 		"column": "a"

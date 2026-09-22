@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00134",
-	"slug": "טווסא",
-	"headword": {
-		"text": "טַוָּוסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַוָּוסָא",
+	"headwords": [
+		{
+			"text": "טַוָּוסָא"
+		},
 		{
 			"text": "טַוְוסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00310",
-	"slug": "דופלומטר",
-	"headword": {
-		"text": "דופלומטר"
-	},
+	"sefariaHeadword": "דופלומטר",
+	"headwords": [
+		{
+			"text": "דופלומטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "a"

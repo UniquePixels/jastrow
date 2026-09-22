@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00380",
-	"slug": "כוריתא",
-	"headword": {
-		"text": "כּוֹרִיתָא"
-	},
+	"sefariaHeadword": "כּוֹרִיתָא",
+	"headwords": [
+		{
+			"text": "כּוֹרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

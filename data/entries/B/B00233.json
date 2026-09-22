@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00233",
-	"slug": "בוטלן",
-	"headword": {
-		"text": "בּוּטְלָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּטְלָן",
+	"headwords": [
+		{
+			"text": "בּוּטְלָן"
+		},
 		{
 			"text": "בּוּטְלָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 145,
 		"column": "a"

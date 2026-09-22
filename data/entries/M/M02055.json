@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02055",
-	"slug": "מעבר",
-	"headword": {
-		"text": "מַעְבָּר"
-	},
+	"sefariaHeadword": "מַעְבָּר",
+	"headwords": [
+		{
+			"text": "מַעְבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02752",
-	"slug": "אפסוגין",
-	"headword": {
-		"text": "אפסוגין"
-	},
+	"sefariaHeadword": "אפסוגין",
+	"headwords": [
+		{
+			"text": "אפסוגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

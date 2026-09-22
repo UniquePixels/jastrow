@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B01064",
-	"slug": "בער-3",
-	"headword": {
-		"text": "בְּעַר",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בְּעַר II",
+	"headwords": [
+		{
+			"text": "בְּעַר",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 183,
 		"column": "a"

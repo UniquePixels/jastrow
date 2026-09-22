@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00844",
-	"slug": "דלמא",
-	"headword": {
-		"text": "דִּלְמָא  I, II,"
-	},
+	"sefariaHeadword": "דִּלְמָא  I, II,",
+	"headwords": [
+		{
+			"text": "דִּלְמָא"
+		}
+	],
+	"display": "{0} I, II",
 	"page": {
 		"number": 310,
 		"column": "b"

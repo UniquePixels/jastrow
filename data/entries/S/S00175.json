@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "S00175",
-	"slug": "קדר-8",
-	"headword": {
-		"text": "קְדַר",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְדַר ³",
+	"headwords": [
+		{
+			"text": "קְדַר",
+			"disambiguator": 3
+		},
 		{
 			"text": "קִדְרָא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		},
 		{
 			"text": "קְדֵירָא"
 		}
 	],
+	"display": "{0} ³, {1}, {2}, {3}",
 	"page": {
 		"number": 1318,
 		"column": "b"

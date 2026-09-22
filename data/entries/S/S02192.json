@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02192",
-	"slug": "קרר-1",
-	"headword": {
-		"text": "קָרָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָרָר",
+	"headwords": [
+		{
+			"text": "קָרָר"
+		},
 		{
 			"text": "קָארָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1427,
 		"column": "b"

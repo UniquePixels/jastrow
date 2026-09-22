@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O01263",
-	"slug": "סנקליטוס",
-	"headword": {
-		"text": "סִנְקְלִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנְקְלִיטוֹס",
+	"headwords": [
 		{
-			"text": "סִינְ׳"
+			"text": "סִנְקְלִיטוֹס"
 		},
 		{
-			"text": "סוּנְ׳"
+			"text": "סִינְ׳",
+			"partial": true
+		},
+		{
+			"text": "סוּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1008,
 		"column": "b"

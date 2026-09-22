@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00706",
-	"slug": "אומנון",
-	"headword": {
-		"text": "אומנון"
-	},
+	"sefariaHeadword": "אומנון",
+	"headwords": [
+		{
+			"text": "אומנון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

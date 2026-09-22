@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01034",
-	"slug": "מטננה",
-	"headword": {
-		"text": "מְטַנְּנָה"
-	},
+	"sefariaHeadword": "מְטַנְּנָה",
+	"headwords": [
+		{
+			"text": "מְטַנְּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 769,
 		"column": "a"

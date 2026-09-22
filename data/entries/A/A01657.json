@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01657",
-	"slug": "איתניס",
-	"headword": {
-		"text": "אִיתְנִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתְנִיס",
+	"headwords": [
+		{
+			"text": "אִיתְנִיס"
+		},
 		{
 			"text": "אִתְנִיס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִתְנַס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 62,
 		"column": "a"

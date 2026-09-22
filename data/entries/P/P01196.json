@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01196",
-	"slug": "עקלקלות",
-	"headword": {
-		"text": "עֲקַלְקַלּוֹת"
-	},
+	"sefariaHeadword": "עֲקַלְקַלּוֹת",
+	"headwords": [
+		{
+			"text": "עֲקַלְקַלּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00597",
-	"slug": "ניאוץ",
-	"headword": {
-		"text": "נִיאוּץ"
-	},
+	"sefariaHeadword": "נִיאוּץ",
+	"headwords": [
+		{
+			"text": "נִיאוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

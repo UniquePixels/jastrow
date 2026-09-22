@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02005",
-	"slug": "מסקתא",
-	"headword": {
-		"text": "מַסְקָתָא"
-	},
+	"sefariaHeadword": "מַסְקָתָא",
+	"headwords": [
+		{
+			"text": "מַסְקָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "b"

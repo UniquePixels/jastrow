@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01234",
-	"slug": "סניגרון-1",
-	"headword": {
-		"text": "סְנִיגְרוֹן"
-	},
+	"sefariaHeadword": "סְנִיגְרוֹן",
+	"headwords": [
+		{
+			"text": "סְנִיגְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

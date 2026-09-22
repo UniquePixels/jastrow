@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00438",
-	"slug": "כותש",
-	"headword": {
-		"text": "כּוֹתֶשׁ"
-	},
+	"sefariaHeadword": "כּוֹתֶשׁ",
+	"headwords": [
+		{
+			"text": "כּוֹתֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

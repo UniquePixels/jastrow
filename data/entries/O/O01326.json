@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01326",
-	"slug": "ספווא",
-	"headword": {
-		"text": "סִפְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפְוָוא",
+	"headwords": [
 		{
-			"text": "סִפְּ׳"
+			"text": "סִפְוָוא"
+		},
+		{
+			"text": "סִפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1012,
 		"column": "a"

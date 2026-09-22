@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00177",
-	"slug": "אבנט",
-	"headword": {
-		"text": "אַבְנֵט"
-	},
+	"sefariaHeadword": "אַבְנֵט",
+	"headwords": [
+		{
+			"text": "אַבְנֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

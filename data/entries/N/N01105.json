@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01105",
-	"slug": "נצוק",
-	"headword": {
-		"text": "נִצּוֹק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִצּוֹק",
+	"headwords": [
 		{
-			"text": "נִיצּ׳"
+			"text": "נִצּוֹק"
+		},
+		{
+			"text": "נִיצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 927,
 		"column": "b"

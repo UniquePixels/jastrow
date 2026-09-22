@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00631",
-	"slug": "עיסוריתא",
-	"headword": {
-		"text": "עִיסּוּרְיָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיסּוּרְיָתָא",
+	"headwords": [
 		{
-			"text": "עִיסֻּרְ׳"
+			"text": "עִיסּוּרְיָתָא"
 		},
 		{
-			"text": "עִישּׂוֹרְ׳"
+			"text": "עִיסֻּרְ׳",
+			"partial": true
+		},
+		{
+			"text": "עִישּׂוֹרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1073,
 		"column": "a"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C01130",
-	"slug": "גנה-4",
-	"headword": {
-		"text": "גְּנַה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גְּנַה II",
+	"headwords": [
+		{
+			"text": "גְּנַה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 259,
 		"column": "a"

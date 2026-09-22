@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V01038",
-	"slug": "תרעלה-1",
-	"headword": {
-		"text": "תַּרְעֵלָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תַּרְעֵלָה I",
+	"headwords": [
+		{
+			"text": "תַּרְעֵלָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1701,
 		"column": "a"

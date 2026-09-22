@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01053",
-	"slug": "חלין",
-	"headword": {
-		"text": "חִלִּין"
-	},
+	"sefariaHeadword": "חִלִּין",
+	"headwords": [
+		{
+			"text": "חִלִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "a"

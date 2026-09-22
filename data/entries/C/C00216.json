@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00216",
-	"slug": "גדירה-2",
-	"headword": {
-		"text": "גְּדִירָה"
-	},
+	"sefariaHeadword": "גְּדִירָה",
+	"headwords": [
+		{
+			"text": "גְּדִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "b"

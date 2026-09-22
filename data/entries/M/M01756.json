@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01756",
-	"slug": "מנזיקנא",
-	"headword": {
-		"text": "מַנְזִיקְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַנְזִיקְנָא",
+	"headwords": [
 		{
-			"text": "מַנְזִקְ׳"
+			"text": "מַנְזִיקְנָא"
+		},
+		{
+			"text": "מַנְזִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 798,
 		"column": "b"

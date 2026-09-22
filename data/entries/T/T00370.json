@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00370",
-	"slug": "רוככא",
-	"headword": {
-		"text": "רוּכְכָא"
-	},
+	"sefariaHeadword": "רוּכְכָא",
+	"headwords": [
+		{
+			"text": "רוּכְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

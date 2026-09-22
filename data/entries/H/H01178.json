@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01178",
-	"slug": "חמילה",
-	"headword": {
-		"text": "חֲמִילָה"
-	},
+	"sefariaHeadword": "חֲמִילָה",
+	"headwords": [
+		{
+			"text": "חֲמִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02574",
-	"slug": "אסתיוט",
-	"headword": {
-		"text": "אסתיוט"
-	},
+	"sefariaHeadword": "אסתיוט",
+	"headwords": [
+		{
+			"text": "אסתיוט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01819",
-	"slug": "אלונטית-2",
-	"headword": {
-		"text": "אֲלוּנְטִית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲלוּנְטִית II",
+	"headwords": [
+		{
+			"text": "אֲלוּנְטִית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 68,
 		"column": "a"

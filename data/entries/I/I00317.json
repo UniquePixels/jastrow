@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00317",
-	"slug": "טיהר",
-	"headword": {
-		"text": "טִיהָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיהָר",
+	"headwords": [
+		{
+			"text": "טִיהָר"
+		},
 		{
 			"text": "טִהָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 530,
 		"column": "a"

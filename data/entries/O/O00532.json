@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00532",
-	"slug": "סיבויי",
-	"headword": {
-		"text": "סיבויי"
-	},
+	"sefariaHeadword": "סיבויי",
+	"headwords": [
+		{
+			"text": "סיבויי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 974,
 		"column": "b"

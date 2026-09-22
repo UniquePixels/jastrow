@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00983",
-	"slug": "כפא-2",
-	"headword": {
-		"text": "כֵּפָא"
-	},
+	"sefariaHeadword": "כֵּפָא",
+	"headwords": [
+		{
+			"text": "כֵּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

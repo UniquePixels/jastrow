@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00827",
-	"slug": "חיס",
-	"headword": {
-		"text": "חֲיָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲיָס",
+	"headwords": [
+		{
+			"text": "חֲיָס"
+		},
 		{
 			"text": "חֲיָסָא"
 		},
 		{
-			"text": "חֲיָי׳"
+			"text": "חֲיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 458,
 		"column": "b"

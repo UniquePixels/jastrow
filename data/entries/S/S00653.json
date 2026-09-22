@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00653",
-	"slug": "קורקסוון",
-	"headword": {
-		"text": "קוּרְקַסְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְקַסְוָון",
+	"headwords": [
+		{
+			"text": "קוּרְקַסְוָון"
+		},
 		{
 			"text": "קוּרְקַסְוָותָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1344,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00759",
-	"slug": "הפקר",
-	"headword": {
-		"text": "הֶפְקֵר"
-	},
+	"sefariaHeadword": "הֶפְקֵר",
+	"headwords": [
+		{
+			"text": "הֶפְקֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "b"

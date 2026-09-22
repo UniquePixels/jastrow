@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01671",
-	"slug": "אכוורנקא",
-	"headword": {
-		"text": "אַכְוַורְנְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְוַורְנְקָא",
+	"headwords": [
+		{
+			"text": "אַכְוַורְנְקָא"
+		},
 		{
 			"text": "אַכְוַורְנְקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "a"

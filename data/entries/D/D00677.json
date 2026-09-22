@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00677",
-	"slug": "דיפלומטר",
-	"headword": {
-		"text": "דיפלומטר"
-	},
+	"sefariaHeadword": "דיפלומטר",
+	"headwords": [
+		{
+			"text": "דיפלומטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01655",
-	"slug": "איתן",
-	"headword": {
-		"text": "אֵיתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵיתָן",
+	"headwords": [
+		{
+			"text": "אֵיתָן"
+		},
 		{
 			"text": "אֵתָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03320",
-	"slug": "אשלך",
-	"headword": {
-		"text": "אשלך"
-	},
+	"sefariaHeadword": "אשלך",
+	"headwords": [
+		{
+			"text": "אשלך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00760",
-	"slug": "שטן-3",
-	"headword": {
-		"text": "שָׂטָן"
-	},
+	"sefariaHeadword": "שָׂטָן",
+	"headwords": [
+		{
+			"text": "שָׂטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1554,
 		"column": "b"

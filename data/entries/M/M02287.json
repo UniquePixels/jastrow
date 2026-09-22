@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02287",
-	"slug": "מצוי-2",
-	"headword": {
-		"text": "מָצוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָצוּי",
+	"headwords": [
+		{
+			"text": "מָצוּי"
+		},
 		{
 			"text": "מְצוּיִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 824,
 		"column": "a"

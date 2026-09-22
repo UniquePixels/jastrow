@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01084",
-	"slug": "חלם-4",
-	"headword": {
-		"text": "חֲלַם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלַם ²",
+	"headwords": [
+		{
+			"text": "חֲלַם",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲלִים"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 471,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01366",
-	"slug": "בשם-2",
-	"headword": {
-		"text": "בֹּשֶׂם"
-	},
+	"sefariaHeadword": "בֹּשֶׂם",
+	"headwords": [
+		{
+			"text": "בֹּשֶׂם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 199,
 		"column": "b"

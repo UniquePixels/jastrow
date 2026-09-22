@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00972",
-	"slug": "תרח",
-	"headword": {
-		"text": "תְּרַח"
-	},
+	"sefariaHeadword": "תְּרַח",
+	"headwords": [
+		{
+			"text": "תְּרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "b"

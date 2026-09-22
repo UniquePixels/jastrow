@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01054",
-	"slug": "כפרוסאי",
-	"headword": {
-		"text": "כַּפְרוּסָאֵי"
-	},
+	"sefariaHeadword": "כַּפְרוּסָאֵי",
+	"headwords": [
+		{
+			"text": "כַּפְרוּסָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 662,
 		"column": "b"

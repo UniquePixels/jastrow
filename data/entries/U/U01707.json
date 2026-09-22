@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01707",
-	"slug": "שפאי",
-	"headword": {
-		"text": "שַׁפַּאי"
-	},
+	"sefariaHeadword": "שַׁפַּאי",
+	"headwords": [
+		{
+			"text": "שַׁפַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1613,
 		"column": "b"

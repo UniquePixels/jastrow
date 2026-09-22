@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02068",
-	"slug": "קרינין",
-	"headword": {
-		"text": "קרינין"
-	},
+	"sefariaHeadword": "קרינין",
+	"headwords": [
+		{
+			"text": "קרינין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

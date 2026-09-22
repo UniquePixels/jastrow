@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00678",
-	"slug": "נימום",
-	"headword": {
-		"text": "נימום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נימום",
+	"headwords": [
+		{
+			"text": "נימום"
+		},
 		{
 			"text": "נימוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 905,
 		"column": "a"

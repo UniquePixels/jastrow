@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00517",
-	"slug": "דיונא",
-	"headword": {
-		"text": "דִּיּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיּוּנָא",
+	"headwords": [
+		{
+			"text": "דִּיּוּנָא"
+		},
 		{
 			"text": "דִּיּוּנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 296,
 		"column": "b"

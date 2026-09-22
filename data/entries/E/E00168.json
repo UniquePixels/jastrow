@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00168",
-	"slug": "הדרסיות",
-	"headword": {
-		"text": "הַדְרְסִיּוֹת"
-	},
+	"sefariaHeadword": "הַדְרְסִיּוֹת",
+	"headwords": [
+		{
+			"text": "הַדְרְסִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

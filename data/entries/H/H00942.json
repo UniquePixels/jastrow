@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00942",
-	"slug": "חכם-4",
-	"headword": {
-		"text": "חכם"
-	},
+	"sefariaHeadword": "חכם",
+	"headwords": [
+		{
+			"text": "חכם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "a"

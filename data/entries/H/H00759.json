@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00759",
-	"slug": "חילא-1",
-	"headword": {
-		"text": "חֵילָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֵילָא II",
+	"headwords": [
+		{
+			"text": "חֵילָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 456,
 		"column": "a"

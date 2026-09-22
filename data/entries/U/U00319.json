@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00319",
-	"slug": "שובך-2",
-	"headword": {
-		"text": "שׁוֹבָךְ"
-	},
+	"sefariaHeadword": "שׁוֹבָךְ",
+	"headwords": [
+		{
+			"text": "שׁוֹבָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "b"

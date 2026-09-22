@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00043",
-	"slug": "פגוזא",
-	"headword": {
-		"text": "פָּגוֹזָא"
-	},
+	"sefariaHeadword": "פָּגוֹזָא",
+	"headwords": [
+		{
+			"text": "פָּגוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

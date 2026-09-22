@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00479",
-	"slug": "תיפח",
-	"headword": {
-		"text": "תִּיפַּח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיפַּח",
+	"headwords": [
+		{
+			"text": "תִּיפַּח"
+		},
 		{
 			"text": "תִּפַּח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1665,
 		"column": "b"

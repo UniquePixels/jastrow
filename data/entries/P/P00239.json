@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00239",
-	"slug": "עוכלא",
-	"headword": {
-		"text": "עוּכְלָא"
-	},
+	"sefariaHeadword": "עוּכְלָא",
+	"headwords": [
+		{
+			"text": "עוּכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1050,
 		"column": "a"

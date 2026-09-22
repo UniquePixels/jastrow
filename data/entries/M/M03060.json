@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03060",
-	"slug": "מתינות",
-	"headword": {
-		"text": "מְתִינוּת"
-	},
+	"sefariaHeadword": "מְתִינוּת",
+	"headwords": [
+		{
+			"text": "מְתִינוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

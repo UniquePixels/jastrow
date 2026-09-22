@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00865",
-	"slug": "תפתיחא",
-	"headword": {
-		"text": "תַּפְתִּיחָא"
-	},
+	"sefariaHeadword": "תַּפְתִּיחָא",
+	"headwords": [
+		{
+			"text": "תַּפְתִּיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

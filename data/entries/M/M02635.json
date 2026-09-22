@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02635",
-	"slug": "מרחץ",
-	"headword": {
-		"text": "מֶרְחָץ"
-	},
+	"sefariaHeadword": "מֶרְחָץ",
+	"headwords": [
+		{
+			"text": "מֶרְחָץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 841,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00316",
-	"slug": "כוס-3",
-	"headword": {
-		"text": "כּוֹס",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹס III",
+	"headwords": [
+		{
+			"text": "כּוֹס",
+			"homograph": 3
+		},
 		{
 			"text": "כּוּס"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 623,
 		"column": "a"

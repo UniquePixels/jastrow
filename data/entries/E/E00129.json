@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00129",
-	"slug": "הדליקא",
-	"headword": {
-		"text": "הַדְלֵיקָא"
-	},
+	"sefariaHeadword": "הַדְלֵיקָא",
+	"headwords": [
+		{
+			"text": "הַדְלֵיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

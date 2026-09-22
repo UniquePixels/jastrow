@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00750",
-	"slug": "סיסטין",
-	"headword": {
-		"text": "סיסטין"
-	},
+	"sefariaHeadword": "סיסטין",
+	"headwords": [
+		{
+			"text": "סיסטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00304",
-	"slug": "לופי",
-	"headword": {
-		"text": "לוֹפֵי"
-	},
+	"sefariaHeadword": "לוֹפֵי",
+	"headwords": [
+		{
+			"text": "לוֹפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00258",
-	"slug": "עולימיא",
-	"headword": {
-		"text": "עוּלֵימַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּלֵימַיָּא",
+	"headwords": [
+		{
+			"text": "עוּלֵימַיָּא"
+		},
 		{
 			"text": "עוּלֵימִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1051,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00854",
-	"slug": "קיבוץ",
-	"headword": {
-		"text": "קִיבּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיבּוּץ",
+	"headwords": [
 		{
-			"text": "קִבּ׳"
+			"text": "קִיבּוּץ"
+		},
+		{
+			"text": "קִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1354,
 		"column": "a"

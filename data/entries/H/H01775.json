@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01775",
-	"slug": "חררה",
-	"headword": {
-		"text": "חֲרָרָה"
-	},
+	"sefariaHeadword": "חֲרָרָה",
+	"headwords": [
+		{
+			"text": "חֲרָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 506,
 		"column": "b"

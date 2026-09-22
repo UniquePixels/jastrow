@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00707",
-	"slug": "מותר-3",
-	"headword": {
-		"text": "מוֹתָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹתָר ²",
+	"headwords": [
+		{
+			"text": "מוֹתָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹתָרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 752,
 		"column": "b"

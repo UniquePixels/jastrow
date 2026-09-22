@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00886",
-	"slug": "פישקא",
-	"headword": {
-		"text": "פִּישְׁקָא"
-	},
+	"sefariaHeadword": "פִּישְׁקָא",
+	"headwords": [
+		{
+			"text": "פִּישְׁקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "b"

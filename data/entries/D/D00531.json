@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00531",
-	"slug": "דיופרא",
-	"headword": {
-		"text": "דְּיוֹפְרָא"
-	},
+	"sefariaHeadword": "דְּיוֹפְרָא",
+	"headwords": [
+		{
+			"text": "דְּיוֹפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

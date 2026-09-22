@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00007",
-	"slug": "גאוה",
-	"headword": {
-		"text": "גַּאֲוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּאֲוָה",
+	"headwords": [
+		{
+			"text": "גַּאֲוָה"
+		},
 		{
 			"text": "גַּאֲוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 201,
 		"column": "b"

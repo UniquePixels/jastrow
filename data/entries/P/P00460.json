@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00460",
-	"slug": "עטלותא",
-	"headword": {
-		"text": "עַטְלוּתָא"
-	},
+	"sefariaHeadword": "עַטְלוּתָא",
+	"headwords": [
+		{
+			"text": "עַטְלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

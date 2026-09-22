@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02157",
-	"slug": "קרק",
-	"headword": {
-		"text": "קְרַק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְרַק",
+	"headwords": [
+		{
+			"text": "קְרַק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

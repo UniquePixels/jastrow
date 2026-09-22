@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00589",
-	"slug": "אוורקסין",
-	"headword": {
-		"text": "אַוְורַקְסִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַוְורַקְסִין",
+	"headwords": [
+		{
+			"text": "אַוְורַקְסִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אברסקין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "a"

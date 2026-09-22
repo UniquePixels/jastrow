@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00145",
-	"slug": "חגז",
-	"headword": {
-		"text": "חָגָז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָגָז",
+	"headwords": [
+		{
+			"text": "חָגָז"
+		},
 		{
 			"text": "הָגָז"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲגָזִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 424,
 		"column": "a"

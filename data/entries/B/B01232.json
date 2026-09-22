@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01232",
-	"slug": "ברחא",
-	"headword": {
-		"text": "בַּרְחָא"
-	},
+	"sefariaHeadword": "בַּרְחָא",
+	"headwords": [
+		{
+			"text": "בַּרְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 192,
 		"column": "a"

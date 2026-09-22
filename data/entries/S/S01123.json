@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01123",
-	"slug": "קיצבה",
-	"headword": {
-		"text": "קִיצְבָה"
-	},
+	"sefariaHeadword": "קִיצְבָה",
+	"headwords": [
+		{
+			"text": "קִיצְבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

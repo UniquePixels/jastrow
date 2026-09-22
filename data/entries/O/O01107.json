@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01107",
-	"slug": "סמלנית",
-	"headword": {
-		"text": "סַמְלָנִית"
-	},
+	"sefariaHeadword": "סַמְלָנִית",
+	"headwords": [
+		{
+			"text": "סַמְלָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

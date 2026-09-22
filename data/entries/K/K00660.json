@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00660",
-	"slug": "ככי",
-	"headword": {
-		"text": "כְּכָי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּכָי",
+	"headwords": [
+		{
+			"text": "כְּכָי"
+		},
 		{
 			"text": "כְּכָיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 638,
 		"column": "a"

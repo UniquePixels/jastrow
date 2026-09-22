@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00862",
-	"slug": "טרף-4",
-	"headword": {
-		"text": "טֶרֶף"
-	},
+	"sefariaHeadword": "טֶרֶף",
+	"headwords": [
+		{
+			"text": "טֶרֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 556,
 		"column": "b"

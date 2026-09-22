@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01269",
-	"slug": "בריכסון",
-	"headword": {
-		"text": "בריכסון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בריכסון",
+	"headwords": [
+		{
+			"text": "בריכסון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

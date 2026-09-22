@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00050",
-	"slug": "גבה-5",
-	"headword": {
-		"text": "גְּבַהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבַהּ",
+	"headwords": [
+		{
+			"text": "גְּבַהּ"
+		},
 		{
 			"text": "גְּבִיהַּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 204,
 		"column": "b"

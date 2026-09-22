@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01406",
-	"slug": "איסור-3",
-	"headword": {
-		"text": "אִיסּוּר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסּוּר II",
+	"headwords": [
+		{
+			"text": "אִיסּוּר",
+			"homograph": 2
+		},
 		{
 			"text": "אִסּוּר"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 53,
 		"column": "b"

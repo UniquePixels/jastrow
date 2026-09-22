@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00076",
-	"slug": "בגדל",
-	"headword": {
-		"text": "בגדל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בגדל",
+	"headwords": [
+		{
+			"text": "בגדל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00711",
-	"slug": "אומפירטור",
-	"headword": {
-		"text": "אומפירטור"
-	},
+	"sefariaHeadword": "אומפירטור",
+	"headwords": [
+		{
+			"text": "אומפירטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

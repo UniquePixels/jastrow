@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00132",
-	"slug": "בדי-4",
-	"headword": {
-		"text": "בדי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בדי ²",
+	"headwords": [
+		{
+			"text": "בדי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 140,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00200",
-	"slug": "הוגנס",
-	"headword": {
-		"text": "הוּגְנֵס"
-	},
+	"sefariaHeadword": "הוּגְנֵס",
+	"headwords": [
+		{
+			"text": "הוּגְנֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00343",
-	"slug": "צייקן",
-	"headword": {
-		"text": "צַיְיקָן"
-	},
+	"sefariaHeadword": "צַיְיקָן",
+	"headwords": [
+		{
+			"text": "צַיְיקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

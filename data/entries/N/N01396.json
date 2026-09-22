@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N01396",
-	"slug": "נתרא-1",
-	"headword": {
-		"text": "נִתְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִתְרָא",
+	"headwords": [
+		{
+			"text": "נִתְרָא"
+		},
 		{
 			"text": "נִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 946,
 		"column": "b"

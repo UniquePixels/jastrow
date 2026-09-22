@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01602",
-	"slug": "פרהדיא",
-	"headword": {
-		"text": "פרהדיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרהדיא",
+	"headwords": [
 		{
-			"text": "פרח׳"
+			"text": "פרהדיא"
+		},
+		{
+			"text": "פרח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1216,
 		"column": "b"

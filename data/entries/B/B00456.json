@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00456",
-	"slug": "בזך",
-	"headword": {
-		"text": "בָּזָךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּזָךְ",
+	"headwords": [
+		{
+			"text": "בָּזָךְ"
+		},
 		{
 			"text": "בָּזִכָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 154,
 		"column": "a"

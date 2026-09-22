@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00941",
-	"slug": "מחרשת",
-	"headword": {
-		"text": "מַחֲרֶשֶׁת"
-	},
+	"sefariaHeadword": "מַחֲרֶשֶׁת",
+	"headwords": [
+		{
+			"text": "מַחֲרֶשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "b"

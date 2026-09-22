@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01052",
-	"slug": "דרדרא",
-	"headword": {
-		"text": "דַּרְדָּרָא"
-	},
+	"sefariaHeadword": "דַּרְדָּרָא",
+	"headwords": [
+		{
+			"text": "דַּרְדָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "b"

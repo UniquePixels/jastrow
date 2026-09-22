@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01057",
-	"slug": "כפרנא",
-	"headword": {
-		"text": "כַּפְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּפְרָנָא",
+	"headwords": [
 		{
-			"text": "כּוּפְ׳"
+			"text": "כַּפְרָנָא"
+		},
+		{
+			"text": "כּוּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 662,
 		"column": "b"

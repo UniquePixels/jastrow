@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00369",
-	"slug": "בורכייר-2",
-	"headword": {
-		"text": "בּוּרְכַּיָּיר"
-	},
+	"sefariaHeadword": "בּוּרְכַּיָּיר",
+	"headwords": [
+		{
+			"text": "בּוּרְכַּיָּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

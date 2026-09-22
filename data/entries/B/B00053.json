@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00053",
-	"slug": "בבה",
-	"headword": {
-		"text": "בָּבָה"
-	},
+	"sefariaHeadword": "בָּבָה",
+	"headwords": [
+		{
+			"text": "בָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "b"

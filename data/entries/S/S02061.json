@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02061",
-	"slug": "קרימה",
-	"headword": {
-		"text": "קְרִימָה"
-	},
+	"sefariaHeadword": "קְרִימָה",
+	"headwords": [
+		{
+			"text": "קְרִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

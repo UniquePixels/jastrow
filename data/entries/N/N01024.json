@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01024",
-	"slug": "נפוס",
-	"headword": {
-		"text": "נָפוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָפוֹס",
+	"headwords": [
+		{
+			"text": "נָפוֹס"
+		},
 		{
 			"text": "נָפוֹץ"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 922,
 		"column": "a"

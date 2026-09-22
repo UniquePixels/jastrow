@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00339",
-	"slug": "יינס",
-	"headword": {
-		"text": "יינס"
-	},
+	"sefariaHeadword": "יינס",
+	"headwords": [
+		{
+			"text": "יינס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

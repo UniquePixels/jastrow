@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00915",
-	"slug": "מחפרה",
-	"headword": {
-		"text": "מַחְפֵּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחְפֵּרָה",
+	"headwords": [
+		{
+			"text": "מַחְפֵּרָה"
+		},
 		{
 			"text": "מַחְפֶּרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 763,
 		"column": "a"

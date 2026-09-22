@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00607",
-	"slug": "כיפלא",
-	"headword": {
-		"text": "כֵּיפְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיפְלָא",
+	"headwords": [
+		{
+			"text": "כֵּיפְלָא"
+		},
 		{
 			"text": "כּוּפְלָא"
 		},
 		{
-			"text": "כֵּפְ׳"
+			"text": "כֵּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 635,
 		"column": "b"

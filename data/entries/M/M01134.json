@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01134",
-	"slug": "מיטריא",
-	"headword": {
-		"text": "מִיטַרְיָא"
-	},
+	"sefariaHeadword": "מִיטַרְיָא",
+	"headwords": [
+		{
+			"text": "מִיטַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

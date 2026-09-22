@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02146",
-	"slug": "אנונים",
-	"headword": {
-		"text": "אנונים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אנונים",
+	"headwords": [
+		{
+			"text": "אנונים"
+		},
 		{
 			"text": "אנונית"
 		},
@@ -12,6 +13,7 @@
 			"text": "אנונס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 82,
 		"column": "b"

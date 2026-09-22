@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00082",
-	"slug": "כבש-2",
-	"headword": {
-		"text": "כְּבַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּבַשׁ",
+	"headwords": [
+		{
+			"text": "כְּבַשׁ"
+		},
 		{
 			"text": "כְּבֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 610,
 		"column": "b"

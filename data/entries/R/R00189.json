@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00189",
-	"slug": "צוי-4",
-	"headword": {
-		"text": "צוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוי",
+	"headwords": [
+		{
+			"text": "צוי"
+		},
 		{
 			"text": "צָוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "a"

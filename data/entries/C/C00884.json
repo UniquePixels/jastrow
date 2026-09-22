@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00884",
-	"slug": "גלה-2",
-	"headword": {
-		"text": "גֻּלָּה"
-	},
+	"sefariaHeadword": "גֻּלָּה",
+	"headwords": [
+		{
+			"text": "גֻּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

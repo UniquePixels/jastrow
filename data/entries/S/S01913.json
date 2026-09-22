@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01913",
-	"slug": "קדריונטס-2",
-	"headword": {
-		"text": "קדריונטס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קדריונטס ²",
+	"headwords": [
+		{
+			"text": "קדריונטס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1412,
 		"column": "b"

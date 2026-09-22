@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01474",
-	"slug": "איספוסין",
-	"headword": {
-		"text": "איספוסין"
-	},
+	"sefariaHeadword": "איספוסין",
+	"headwords": [
+		{
+			"text": "איספוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

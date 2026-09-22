@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00394",
-	"slug": "אדיא",
-	"headword": {
-		"text": "אדיא"
-	},
+	"sefariaHeadword": "אדיא",
+	"headwords": [
+		{
+			"text": "אדיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

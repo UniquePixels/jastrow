@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00014",
-	"slug": "פאמא",
-	"headword": {
-		"text": "פאמא"
-	},
+	"sefariaHeadword": "פאמא",
+	"headwords": [
+		{
+			"text": "פאמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

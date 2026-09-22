@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00852",
-	"slug": "מחטבה",
-	"headword": {
-		"text": "מַחֲטָבָה"
-	},
+	"sefariaHeadword": "מַחֲטָבָה",
+	"headwords": [
+		{
+			"text": "מַחֲטָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 759,
 		"column": "a"

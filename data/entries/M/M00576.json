@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00576",
-	"slug": "מוצינא",
-	"headword": {
-		"text": "מוצינא"
-	},
+	"sefariaHeadword": "מוצינא",
+	"headwords": [
+		{
+			"text": "מוצינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "b"

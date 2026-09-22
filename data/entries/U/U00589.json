@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00589",
-	"slug": "שותפת-1",
-	"headword": {
-		"text": "שותפת"
-	},
+	"sefariaHeadword": "שותפת",
+	"headwords": [
+		{
+			"text": "שותפת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "b"

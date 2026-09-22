@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01076",
-	"slug": "עפר-2",
-	"headword": {
-		"text": "עָפַר"
-	},
+	"sefariaHeadword": "עָפַר",
+	"headwords": [
+		{
+			"text": "עָפַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

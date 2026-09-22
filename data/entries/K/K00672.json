@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00672",
-	"slug": "כלאה",
-	"headword": {
-		"text": "כְּלָאָה"
-	},
+	"sefariaHeadword": "כְּלָאָה",
+	"headwords": [
+		{
+			"text": "כְּלָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

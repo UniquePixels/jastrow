@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01096",
-	"slug": "בצלאל",
-	"headword": {
-		"text": "בְּצַלְאֵל"
-	},
+	"sefariaHeadword": "בְּצַלְאֵל",
+	"headwords": [
+		{
+			"text": "בְּצַלְאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

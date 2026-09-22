@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00583",
-	"slug": "זנק",
-	"headword": {
-		"text": "זָנַק"
-	},
+	"sefariaHeadword": "זָנַק",
+	"headwords": [
+		{
+			"text": "זָנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

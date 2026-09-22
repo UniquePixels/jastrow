@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02483",
-	"slug": "אספוסין",
-	"headword": {
-		"text": "אספוסין"
-	},
+	"sefariaHeadword": "אספוסין",
+	"headwords": [
+		{
+			"text": "אספוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

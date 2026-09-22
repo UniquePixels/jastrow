@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00546",
-	"slug": "עיים",
-	"headword": {
-		"text": "עיים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עיים",
+	"headwords": [
+		{
+			"text": "עיים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"

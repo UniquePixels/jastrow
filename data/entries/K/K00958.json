@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00958",
-	"slug": "כספתא",
-	"headword": {
-		"text": "כְּסַפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּסַפְתָּא",
+	"headwords": [
 		{
-			"text": "כְּסִיפְ׳"
+			"text": "כְּסַפְתָּא"
+		},
+		{
+			"text": "כְּסִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 655,
 		"column": "b"

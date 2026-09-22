@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01580",
-	"slug": "סרחנא",
-	"headword": {
-		"text": "סָרְחָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָרְחָנָא",
+	"headwords": [
+		{
+			"text": "סָרְחָנָא"
+		},
 		{
 			"text": "סַרְחָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1025,
 		"column": "a"

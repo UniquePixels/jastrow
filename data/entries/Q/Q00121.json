@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00121",
-	"slug": "פדיון",
-	"headword": {
-		"text": "פִּדְיוֹן"
-	},
+	"sefariaHeadword": "פִּדְיוֹן",
+	"headwords": [
+		{
+			"text": "פִּדְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "a"

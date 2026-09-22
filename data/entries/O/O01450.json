@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01450",
-	"slug": "סקבס",
-	"headword": {
-		"text": "סקבס"
-	},
+	"sefariaHeadword": "סקבס",
+	"headwords": [
+		{
+			"text": "סקבס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

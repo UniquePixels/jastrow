@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00177",
-	"slug": "חדה",
-	"headword": {
-		"text": "חַדָּה"
-	},
+	"sefariaHeadword": "חַדָּה",
+	"headwords": [
+		{
+			"text": "חַדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

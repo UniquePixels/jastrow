@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00201",
-	"slug": "רגישתא",
-	"headword": {
-		"text": "רְגִישְׁתָּא"
-	},
+	"sefariaHeadword": "רְגִישְׁתָּא",
+	"headwords": [
+		{
+			"text": "רְגִישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "b"

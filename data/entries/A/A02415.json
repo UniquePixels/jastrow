@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02415",
-	"slug": "אסטרטיגוס",
-	"headword": {
-		"text": "אִסְטַרְטֵיגוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַרְטֵיגוֹס",
+	"headwords": [
+		{
+			"text": "אִסְטַרְטֵיגוֹס"
+		},
 		{
 			"text": "אסטרטיג"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 92,
 		"column": "a"

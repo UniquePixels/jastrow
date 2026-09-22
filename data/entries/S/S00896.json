@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00896",
-	"slug": "קיטום",
-	"headword": {
-		"text": "קִיטּוּם"
-	},
+	"sefariaHeadword": "קִיטּוּם",
+	"headwords": [
+		{
+			"text": "קִיטּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1357,
 		"column": "a"

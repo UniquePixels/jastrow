@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01701",
-	"slug": "מנא-4",
-	"headword": {
-		"text": "מְנֵא"
-	},
+	"sefariaHeadword": "מְנֵא",
+	"headwords": [
+		{
+			"text": "מְנֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "b"

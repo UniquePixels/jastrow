@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00583",
-	"slug": "כיסופא",
-	"headword": {
-		"text": "כִּיסּוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסּוּפָא",
+	"headwords": [
 		{
-			"text": "כִּסּ׳"
+			"text": "כִּיסּוּפָא"
+		},
+		{
+			"text": "כִּסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "a"

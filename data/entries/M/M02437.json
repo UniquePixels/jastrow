@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02437",
-	"slug": "מקפנא",
-	"headword": {
-		"text": "מַקְּפָנָא"
-	},
+	"sefariaHeadword": "מַקְּפָנָא",
+	"headwords": [
+		{
+			"text": "מַקְּפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "b"

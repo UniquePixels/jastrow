@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00118",
-	"slug": "כדור",
-	"headword": {
-		"text": "כַּדּוּר"
-	},
+	"sefariaHeadword": "כַּדּוּר",
+	"headwords": [
+		{
+			"text": "כַּדּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 613,
 		"column": "a"

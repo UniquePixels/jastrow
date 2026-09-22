@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00313",
-	"slug": "הטולים",
-	"headword": {
-		"text": "הֲטוּלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲטוּלִים",
+	"headwords": [
 		{
-			"text": "חֲטוּ׳"
+			"text": "הֲטוּלִים"
+		},
+		{
+			"text": "חֲטוּ׳",
+			"partial": true
 		},
 		{
 			"text": "עֲטוּלִין"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 342,
 		"column": "b"

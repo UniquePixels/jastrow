@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01627",
-	"slug": "מלקטת",
-	"headword": {
-		"text": "מְלַקֶּטֶת"
-	},
+	"sefariaHeadword": "מְלַקֶּטֶת",
+	"headwords": [
+		{
+			"text": "מְלַקֶּטֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

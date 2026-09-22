@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00345",
-	"slug": "זייפא",
-	"headword": {
-		"text": "זְיָיפָא"
-	},
+	"sefariaHeadword": "זְיָיפָא",
+	"headwords": [
+		{
+			"text": "זְיָיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01759",
-	"slug": "אכשרותא",
-	"headword": {
-		"text": "אַכְשָׁרוּתָא"
-	},
+	"sefariaHeadword": "אַכְשָׁרוּתָא",
+	"headwords": [
+		{
+			"text": "אַכְשָׁרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

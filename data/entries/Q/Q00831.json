@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00831",
-	"slug": "פירוג-1",
-	"headword": {
-		"text": "פֵּירוּג",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּג I",
+	"headwords": [
+		{
+			"text": "פֵּירוּג",
+			"homograph": 1
+		},
 		{
 			"text": "פֵּרוּג"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1170,
 		"column": "b"

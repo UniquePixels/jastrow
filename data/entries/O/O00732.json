@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00732",
-	"slug": "סינופא",
-	"headword": {
-		"text": "סִינּוּפָא"
-	},
+	"sefariaHeadword": "סִינּוּפָא",
+	"headwords": [
+		{
+			"text": "סִינּוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

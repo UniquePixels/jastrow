@@ -1,21 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "A01949",
-	"slug": "אלקא",
-	"headword": {
-		"text": "אֱלָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֱלָקָא",
+	"headwords": [
+		{
+			"text": "אֱלָקָא"
+		},
 		{
 			"text": "אֱלֹקִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " = <cite ref=\"A01786\"><he>אֱלָהָא</he></cite>, <cite ref=\"A01789\"><he>אֱלֹהִים</he></cite>, v. <he>אֱלוֹהַּ</he>",
+			"gloss": " = <cite ref=\"A01786\"><he>אֱלָהָא</he></cite>, <cite ref=\"A01789\"><he>אֱלֹהִים</he></cite>, v. <he>אֱלוֹהַּ</he>",
 			"units": []
 		}
 	]

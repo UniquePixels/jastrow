@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01840",
-	"slug": "חשיל",
-	"headword": {
-		"text": "חֲשִׁיל"
-	},
+	"sefariaHeadword": "חֲשִׁיל",
+	"headwords": [
+		{
+			"text": "חֲשִׁיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

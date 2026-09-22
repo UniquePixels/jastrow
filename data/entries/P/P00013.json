@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00013",
-	"slug": "עבד-1",
-	"headword": {
-		"text": "עָבַד"
-	},
+	"sefariaHeadword": "עָבַד",
+	"headwords": [
+		{
+			"text": "עָבַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02600",
-	"slug": "מרועא",
-	"headword": {
-		"text": "מְרוֹעָא"
-	},
+	"sefariaHeadword": "מְרוֹעָא",
+	"headwords": [
+		{
+			"text": "מְרוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

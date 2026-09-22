@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01270",
-	"slug": "בריכתא",
-	"headword": {
-		"text": "בְּרֵיכְתָא"
-	},
+	"sefariaHeadword": "בְּרֵיכְתָא",
+	"headwords": [
+		{
+			"text": "בְּרֵיכְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

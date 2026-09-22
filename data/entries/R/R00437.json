@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00437",
-	"slug": "ציצותי",
-	"headword": {
-		"text": "ציצותי"
-	},
+	"sefariaHeadword": "ציצותי",
+	"headwords": [
+		{
+			"text": "ציצותי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

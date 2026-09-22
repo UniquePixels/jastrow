@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00797",
-	"slug": "שיבור",
-	"headword": {
-		"text": "שִׁיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבּוּר",
+	"headwords": [
 		{
-			"text": "שִׁבּ׳"
+			"text": "שִׁיבּוּר"
+		},
+		{
+			"text": "שִׁבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "a"

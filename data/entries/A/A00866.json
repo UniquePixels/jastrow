@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00866",
-	"slug": "אורוסטי",
-	"headword": {
-		"text": "אורוסטי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אורוסטי",
+	"headwords": [
+		{
+			"text": "אורוסטי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

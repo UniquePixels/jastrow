@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00001",
-	"slug": "כ׳",
-	"headword": {
-		"text": "כ׳"
-	},
+	"sefariaHeadword": "כ׳",
+	"headwords": [
+		{
+			"text": "כ׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 605,
 		"column": "a"

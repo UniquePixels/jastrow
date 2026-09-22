@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01229",
-	"slug": "פסגא",
-	"headword": {
-		"text": "פַּסְגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּסְגָּא",
+	"headwords": [
 		{
-			"text": "פִּסְ׳"
+			"text": "פַּסְגָּא"
 		},
 		{
-			"text": "פִּיסְ׳"
+			"text": "פִּסְ׳",
+			"partial": true
+		},
+		{
+			"text": "פִּיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1192,
 		"column": "a"

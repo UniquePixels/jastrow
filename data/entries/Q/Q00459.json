@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00459",
-	"slug": "פח״ז",
-	"headword": {
-		"text": "פח״ז"
-	},
+	"sefariaHeadword": "פח\"ז",
+	"headwords": [
+		{
+			"text": "פח״ז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "a"

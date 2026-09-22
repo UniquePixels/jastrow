@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02474",
-	"slug": "אסער",
-	"headword": {
-		"text": "אַסְעַר"
-	},
+	"sefariaHeadword": "אַסְעַר",
+	"headwords": [
+		{
+			"text": "אַסְעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

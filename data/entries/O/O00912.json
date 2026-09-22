@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00912",
-	"slug": "סכל-4",
-	"headword": {
-		"text": "סְכַל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְכַל ²",
+	"headwords": [
+		{
+			"text": "סְכַל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 991,
 		"column": "a"

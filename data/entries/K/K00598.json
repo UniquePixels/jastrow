@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00598",
-	"slug": "כיף-3",
-	"headword": {
-		"text": "כֵּיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיף",
+	"headwords": [
+		{
+			"text": "כֵּיף"
+		},
 		{
 			"text": "כֵּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "b"

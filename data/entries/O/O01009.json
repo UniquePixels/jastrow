@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01009",
-	"slug": "סלמנטון",
-	"headword": {
-		"text": "סַלְמִנְטוֹן"
-	},
+	"sefariaHeadword": "סַלְמִנְטוֹן",
+	"headwords": [
+		{
+			"text": "סַלְמִנְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01893",
-	"slug": "פרניקא",
-	"headword": {
-		"text": "פַּרְנִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְנִיקָא",
+	"headwords": [
+		{
+			"text": "פַּרְנִיקָא"
+		},
 		{
 			"text": "פַּרִינְקָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1231,
 		"column": "a"

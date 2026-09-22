@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00328",
-	"slug": "רווח-3",
-	"headword": {
-		"text": "רֶוַוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֶוַוח",
+	"headwords": [
+		{
+			"text": "רֶוַוח"
+		},
 		{
 			"text": "רֵוַח"
 		},
 		{
-			"text": "רֵי׳"
+			"text": "רֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1457,
 		"column": "a"

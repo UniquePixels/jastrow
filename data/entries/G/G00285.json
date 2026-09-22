@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00285",
-	"slug": "זיהוא",
-	"headword": {
-		"text": "זִיהֲוָא"
-	},
+	"sefariaHeadword": "זִיהֲוָא",
+	"headwords": [
+		{
+			"text": "זִיהֲוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00484",
-	"slug": "תיקו",
-	"headword": {
-		"text": "תֵּיקוּ"
-	},
+	"sefariaHeadword": "תֵּיקוּ",
+	"headwords": [
+		{
+			"text": "תֵּיקוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "a"

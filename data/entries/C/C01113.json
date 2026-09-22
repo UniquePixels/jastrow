@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01113",
-	"slug": "גנוס",
-	"headword": {
-		"text": "גְּנוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנוּס",
+	"headwords": [
+		{
+			"text": "גְּנוּס"
+		},
 		{
 			"text": "גְּנוּסִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּנוּסִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 258,
 		"column": "a"

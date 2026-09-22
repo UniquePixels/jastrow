@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00789",
-	"slug": "פיפני",
-	"headword": {
-		"text": "פִּיפָנִי"
-	},
+	"sefariaHeadword": "פִּיפָנִי",
+	"headwords": [
+		{
+			"text": "פִּיפָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

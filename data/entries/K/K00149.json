@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00149",
-	"slug": "כה-2",
-	"headword": {
-		"text": "כָּה"
-	},
+	"sefariaHeadword": "כָּה",
+	"headwords": [
+		{
+			"text": "כָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00673",
-	"slug": "נימא-3",
-	"headword": {
-		"text": "נִימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִימָא",
+	"headwords": [
+		{
+			"text": "נִימָא"
+		},
 		{
 			"text": "נִימָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 904,
 		"column": "b"

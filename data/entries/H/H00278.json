@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00278",
-	"slug": "חוורן",
-	"headword": {
-		"text": "חַוְורָן"
-	},
+	"sefariaHeadword": "חַוְורָן",
+	"headwords": [
+		{
+			"text": "חַוְורָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

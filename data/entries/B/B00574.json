@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00574",
-	"slug": "ביזתא-2",
-	"headword": {
-		"text": "בֵּיזְתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בֵּיזְתָא",
+	"headwords": [
+		{
+			"text": "בֵּיזְתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 160,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

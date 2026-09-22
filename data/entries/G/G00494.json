@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00494",
-	"slug": "זלילא",
-	"headword": {
-		"text": "זְלִילָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זְלִילָא II",
+	"headwords": [
+		{
+			"text": "זְלִילָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 401,
 		"column": "b"

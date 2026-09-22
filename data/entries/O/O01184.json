@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01184",
-	"slug": "סנדלפון",
-	"headword": {
-		"text": "סַנְדַּלְפוֹן"
-	},
+	"sefariaHeadword": "סַנְדַּלְפוֹן",
+	"headwords": [
+		{
+			"text": "סַנְדַּלְפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

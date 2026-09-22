@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02311",
-	"slug": "מציא-2",
-	"headword": {
-		"text": "מציא"
-	},
+	"sefariaHeadword": "מציא",
+	"headwords": [
+		{
+			"text": "מציא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

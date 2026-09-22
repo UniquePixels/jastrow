@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01228",
-	"slug": "נקמה",
-	"headword": {
-		"text": "נְקָמָה"
-	},
+	"sefariaHeadword": "נְקָמָה",
+	"headwords": [
+		{
+			"text": "נְקָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

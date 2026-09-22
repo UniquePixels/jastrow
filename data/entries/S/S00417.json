@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00417",
-	"slug": "קונדיטון",
-	"headword": {
-		"text": "קוֹנְדִּיטוֹן"
-	},
+	"sefariaHeadword": "קוֹנְדִּיטוֹן",
+	"headwords": [
+		{
+			"text": "קוֹנְדִּיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

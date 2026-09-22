@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00280",
-	"slug": "כולסא",
-	"headword": {
-		"text": "כולסא"
-	},
+	"sefariaHeadword": "כולסא",
+	"headwords": [
+		{
+			"text": "כולסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

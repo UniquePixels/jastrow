@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00665",
-	"slug": "ככרא",
-	"headword": {
-		"text": "כִּכְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּכְּרָא",
+	"headwords": [
 		{
-			"text": "כַּ׳"
+			"text": "כִּכְּרָא"
+		},
+		{
+			"text": "כַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 638,
 		"column": "a"

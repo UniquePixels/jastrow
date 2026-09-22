@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00386",
-	"slug": "לטט",
-	"headword": {
-		"text": "לְטַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְטַט",
+	"headwords": [
+		{
+			"text": "לְטַט"
+		},
 		{
 			"text": "לְטֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 705,
 		"column": "a"

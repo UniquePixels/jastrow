@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00049",
-	"slug": "ויקרא",
-	"headword": {
-		"text": "וַיִּקְרָא"
-	},
+	"sefariaHeadword": "וַיִּקְרָא",
+	"headwords": [
+		{
+			"text": "וַיִּקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

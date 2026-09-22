@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01189",
-	"slug": "איזביון",
-	"headword": {
-		"text": "אֵיזֹבְיָוָן"
-	},
+	"sefariaHeadword": "אֵיזֹבְיָוָן",
+	"headwords": [
+		{
+			"text": "אֵיזֹבְיָוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "a"

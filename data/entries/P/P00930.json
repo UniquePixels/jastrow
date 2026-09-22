@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00930",
-	"slug": "עמר-4",
-	"headword": {
-		"text": "עֹמֶר"
-	},
+	"sefariaHeadword": "עֹמֶר",
+	"headwords": [
+		{
+			"text": "עֹמֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

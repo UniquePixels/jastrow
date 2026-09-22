@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00195",
-	"slug": "תוך-3",
-	"headword": {
-		"text": "תּוֹךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תּוֹךְ I",
+	"headwords": [
+		{
+			"text": "תּוֹךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1652,
 		"column": "a"

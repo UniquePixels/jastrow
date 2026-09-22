@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00872",
-	"slug": "כנף-2",
-	"headword": {
-		"text": "כְּנַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כְּנַף I",
+	"headwords": [
+		{
+			"text": "כְּנַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 650,
 		"column": "b"

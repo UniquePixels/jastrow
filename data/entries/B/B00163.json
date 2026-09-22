@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00163",
-	"slug": "בהדי",
-	"headword": {
-		"text": "בַּהֲדֵי"
-	},
+	"sefariaHeadword": "בַּהֲדֵי",
+	"headwords": [
+		{
+			"text": "בַּהֲדֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "b"

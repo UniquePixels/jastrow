@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00312",
-	"slug": "לוץ",
-	"headword": {
-		"text": "לוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּץ",
+	"headwords": [
+		{
+			"text": "לוּץ"
+		},
 		{
 			"text": "לִיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 701,
 		"column": "a"

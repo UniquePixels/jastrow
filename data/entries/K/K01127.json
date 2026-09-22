@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01127",
-	"slug": "כרוספדא",
-	"headword": {
-		"text": "כְּרוּסְפְּדָא"
-	},
+	"sefariaHeadword": "כְּרוּסְפְּדָא",
+	"headwords": [
+		{
+			"text": "כְּרוּסְפְּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

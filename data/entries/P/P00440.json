@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00440",
-	"slug": "עטושיא",
-	"headword": {
-		"text": "עֲטוּשָׁיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטוּשָׁיָא",
+	"headwords": [
+		{
+			"text": "עֲטוּשָׁיָא"
+		},
 		{
 			"text": "עֲטוּשָׁיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1063,
 		"column": "a"

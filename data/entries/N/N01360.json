@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01360",
-	"slug": "נתז-1",
-	"headword": {
-		"text": "נָתַז"
-	},
+	"sefariaHeadword": "נָתַז",
+	"headwords": [
+		{
+			"text": "נָתַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00101",
-	"slug": "צדי-2",
-	"headword": {
-		"text": "צְדֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְדֵי",
+	"headwords": [
+		{
+			"text": "צְדֵי"
+		},
 		{
 			"text": "צְדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1262,
 		"column": "a"

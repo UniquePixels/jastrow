@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01486",
-	"slug": "עשירי",
-	"headword": {
-		"text": "עֲשִׂירִי"
-	},
+	"sefariaHeadword": "עֲשִׂירִי",
+	"headwords": [
+		{
+			"text": "עֲשִׂירִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1126,
 		"column": "a"

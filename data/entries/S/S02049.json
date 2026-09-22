@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S02049",
-	"slug": "קרייא-1",
-	"headword": {
-		"text": "קִרְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְיָיא",
+	"headwords": [
+		{
+			"text": "קִרְיָיא"
+		},
 		{
 			"text": "קִרְיָיה"
 		},
 		{
-			"text": "קוֹ׳"
+			"text": "קוֹ׳",
+			"partial": true
 		},
 		{
-			"text": "קוּ׳"
+			"text": "קוּ׳",
+			"partial": true
 		},
 		{
 			"text": "קִרְיְיתָא"
@@ -21,9 +24,11 @@
 			"text": "קִרְיְתָא"
 		},
 		{
-			"text": "קי׳"
+			"text": "קי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}, {6}",
 	"page": {
 		"number": 1420,
 		"column": "a"

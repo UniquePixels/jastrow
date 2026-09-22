@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00435",
-	"slug": "בזי-2",
-	"headword": {
-		"text": "בְּזֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּזֵי",
+	"headwords": [
+		{
+			"text": "בְּזֵי"
+		},
 		{
 			"text": "בְּזָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 152,
 		"column": "b"

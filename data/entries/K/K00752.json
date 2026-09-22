@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00752",
-	"slug": "כלכוס",
-	"headword": {
-		"text": "כַּלְכּוּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּלְכּוּס",
+	"headwords": [
+		{
+			"text": "כַּלְכּוּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 643,
 		"column": "b"

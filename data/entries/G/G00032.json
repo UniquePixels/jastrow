@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00032",
-	"slug": "זביד",
-	"headword": {
-		"text": "זְבִיד"
-	},
+	"sefariaHeadword": "זְבִיד",
+	"headwords": [
+		{
+			"text": "זְבִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "b"

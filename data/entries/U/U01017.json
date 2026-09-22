@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01017",
-	"slug": "שיפון",
-	"headword": {
-		"text": "שִׁיפוֹן"
-	},
+	"sefariaHeadword": "שִׁיפוֹן",
+	"headwords": [
+		{
+			"text": "שִׁיפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1566,
 		"column": "b"

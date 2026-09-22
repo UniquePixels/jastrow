@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01647",
-	"slug": "שעז",
-	"headword": {
-		"text": "שַׁעַז"
-	},
+	"sefariaHeadword": "שַׁעַז",
+	"headwords": [
+		{
+			"text": "שַׁעַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

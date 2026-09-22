@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00194",
-	"slug": "רגילה-2",
-	"headword": {
-		"text": "רְגִילָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְגִילָה II",
+	"headwords": [
+		{
+			"text": "רְגִילָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1448,
 		"column": "a"

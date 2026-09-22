@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00239",
-	"slug": "זוריון",
-	"headword": {
-		"text": "זוּרְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוּרְיוֹן",
+	"headwords": [
+		{
+			"text": "זוּרְיוֹן"
+		},
 		{
 			"text": "זִרְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 389,
 		"column": "b"

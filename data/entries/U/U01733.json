@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01733",
-	"slug": "שפטנא",
-	"headword": {
-		"text": "שֻׁפְטָנָא"
-	},
+	"sefariaHeadword": "שֻׁפְטָנָא",
+	"headwords": [
+		{
+			"text": "שֻׁפְטָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "b"

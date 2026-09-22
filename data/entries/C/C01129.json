@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01129",
-	"slug": "גנח-2",
-	"headword": {
-		"text": "גְּנַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גְּנַח I",
+	"headwords": [
+		{
+			"text": "גְּנַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 259,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01598",
-	"slug": "סריא",
-	"headword": {
-		"text": "סַרְיָא"
-	},
+	"sefariaHeadword": "סַרְיָא",
+	"headwords": [
+		{
+			"text": "סַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "a"

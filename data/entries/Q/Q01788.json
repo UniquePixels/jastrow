@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01788",
-	"slug": "פריגורי",
-	"headword": {
-		"text": "פְּרִיגוֹרִי"
-	},
+	"sefariaHeadword": "פְּרִיגוֹרִי",
+	"headwords": [
+		{
+			"text": "פְּרִיגוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "b"

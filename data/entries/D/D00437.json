@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00437",
-	"slug": "דחק-4",
-	"headword": {
-		"text": "דְּחַק",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּחַק II",
+	"headwords": [
+		{
+			"text": "דְּחַק",
+			"homograph": 2
+		},
 		{
 			"text": "דַּחְקָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 293,
 		"column": "b"

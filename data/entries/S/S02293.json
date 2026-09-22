@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S02293",
-	"slug": "קתליכוס",
-	"headword": {
-		"text": "קתליכוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קתליכוס",
+	"headwords": [
+		{
+			"text": "קתליכוס"
+		},
 		{
 			"text": "יקוס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1434,
 		"column": "b"

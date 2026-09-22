@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H00962",
-	"slug": "חלא-4",
-	"headword": {
-		"text": "חָלָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָלָא III",
+	"headwords": [
+		{
+			"text": "חָלָא",
+			"homograph": 3
+		},
 		{
 			"text": "חֲלָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "חַל"
 		}
 	],
+	"display": "{0} III, {1}, {2}",
 	"page": {
 		"number": 463,
 		"column": "b"

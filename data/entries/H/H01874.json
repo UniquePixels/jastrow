@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01874",
-	"slug": "חתול-1",
-	"headword": {
-		"text": "חָתוּל"
-	},
+	"sefariaHeadword": "חָתוּל",
+	"headwords": [
+		{
+			"text": "חָתוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "a"

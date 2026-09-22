@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00463",
-	"slug": "שומשמנא",
-	"headword": {
-		"text": "שׁוּמְשְׁמָנָא"
-	},
+	"sefariaHeadword": "שׁוּמְשְׁמָנָא",
+	"headwords": [
+		{
+			"text": "שׁוּמְשְׁמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "a"

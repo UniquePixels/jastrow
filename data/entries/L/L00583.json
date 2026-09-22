@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00583",
-	"slug": "לנין",
-	"headword": {
-		"text": "לָנִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לָנִין",
+	"headwords": [
+		{
+			"text": "לָנִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

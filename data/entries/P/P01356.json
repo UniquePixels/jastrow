@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P01356",
-	"slug": "עריך",
-	"headword": {
-		"text": "עֲרִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרִיךְ",
+	"headwords": [
+		{
+			"text": "עֲרִיךְ"
+		},
 		{
 			"text": "עְרוֹךְ"
 		},
 		{
-			"text": "עָ׳"
+			"text": "עָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1117,
 		"column": "a"

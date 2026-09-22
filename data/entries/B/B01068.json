@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01068",
-	"slug": "בעת-2",
-	"headword": {
-		"text": "בְּעֵת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּעֵת",
+	"headwords": [
+		{
+			"text": "בְּעֵת"
+		},
 		{
 			"text": "בְּעִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 183,
 		"column": "a"

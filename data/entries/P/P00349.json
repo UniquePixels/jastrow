@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00349",
-	"slug": "עורב",
-	"headword": {
-		"text": "עוֹרֵב"
-	},
+	"sefariaHeadword": "עוֹרֵב",
+	"headwords": [
+		{
+			"text": "עוֹרֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1058,
 		"column": "b"

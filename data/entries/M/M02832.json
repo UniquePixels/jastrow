@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02832",
-	"slug": "משומד",
-	"headword": {
-		"text": "מְשׁוּמָּד"
-	},
+	"sefariaHeadword": "מְשׁוּמָּד",
+	"headwords": [
+		{
+			"text": "מְשׁוּמָּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

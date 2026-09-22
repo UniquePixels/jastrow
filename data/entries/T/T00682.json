@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00682",
-	"slug": "ריפסא",
-	"headword": {
-		"text": "רִיפְסָא"
-	},
+	"sefariaHeadword": "רִיפְסָא",
+	"headwords": [
+		{
+			"text": "רִיפְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

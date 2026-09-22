@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01185",
-	"slug": "איוונטיאות",
-	"headword": {
-		"text": "איוונטיאות"
-	},
+	"sefariaHeadword": "איוונטיאות",
+	"headwords": [
+		{
+			"text": "איוונטיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01327",
-	"slug": "ערומאי",
-	"headword": {
-		"text": "עֲרוּמָאֵי"
-	},
+	"sefariaHeadword": "עֲרוּמָאֵי",
+	"headwords": [
+		{
+			"text": "עֲרוּמָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "b"

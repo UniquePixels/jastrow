@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00503",
-	"slug": "עיד-2",
-	"headword": {
-		"text": "עֵיד"
-	},
+	"sefariaHeadword": "עֵיד",
+	"headwords": [
+		{
+			"text": "עֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "a"

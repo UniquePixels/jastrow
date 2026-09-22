@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00381",
-	"slug": "צימצם",
-	"headword": {
-		"text": "צִימְצֵם"
-	},
+	"sefariaHeadword": "צִימְצֵם",
+	"headwords": [
+		{
+			"text": "צִימְצֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "b"

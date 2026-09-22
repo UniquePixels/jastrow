@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02849",
-	"slug": "אפתקא",
-	"headword": {
-		"text": "אַפְתְּקָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפְתְּקָא",
+	"headwords": [
+		{
+			"text": "אַפְתְּקָא",
+			"reconstructed": true
+		},
 		{
 			"text": "הַפְתְּקָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 110,
 		"column": "a"

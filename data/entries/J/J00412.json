@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00412",
-	"slug": "ימין",
-	"headword": {
-		"text": "יָמִין"
-	},
+	"sefariaHeadword": "יָמִין",
+	"headwords": [
+		{
+			"text": "יָמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "a"

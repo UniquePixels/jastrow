@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00919",
-	"slug": "אושוותא",
-	"headword": {
-		"text": "אוּשְׁוָותָא"
-	},
+	"sefariaHeadword": "אוּשְׁוָותָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

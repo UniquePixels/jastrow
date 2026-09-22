@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00686",
-	"slug": "מושכא",
-	"headword": {
-		"text": "מוּשְׁכָא"
-	},
+	"sefariaHeadword": "מוּשְׁכָא",
+	"headwords": [
+		{
+			"text": "מוּשְׁכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

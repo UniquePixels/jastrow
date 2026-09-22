@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00165",
-	"slug": "שבעתא",
-	"headword": {
-		"text": "שְׁבַעְתָּא"
-	},
+	"sefariaHeadword": "שְׁבַעְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁבַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1516,
 		"column": "b"

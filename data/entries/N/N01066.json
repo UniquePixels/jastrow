@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01066",
-	"slug": "נפף-1",
-	"headword": {
-		"text": "נָפַף"
-	},
+	"sefariaHeadword": "נָפַף",
+	"headwords": [
+		{
+			"text": "נָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 925,
 		"column": "a"

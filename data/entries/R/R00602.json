@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00602",
-	"slug": "צמת-2",
-	"headword": {
-		"text": "צְמַת"
-	},
+	"sefariaHeadword": "צְמַת",
+	"headwords": [
+		{
+			"text": "צְמַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1290,
 		"column": "a"

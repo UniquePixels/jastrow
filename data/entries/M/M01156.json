@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01156",
-	"slug": "מיכלותא",
-	"headword": {
-		"text": "מֵיכְלוּתָא"
-	},
+	"sefariaHeadword": "מֵיכְלוּתָא",
+	"headwords": [
+		{
+			"text": "מֵיכְלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "b"

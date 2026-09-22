@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00466",
-	"slug": "זכך",
-	"headword": {
-		"text": "זָכַךְ"
-	},
+	"sefariaHeadword": "זָכַךְ",
+	"headwords": [
+		{
+			"text": "זָכַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 399,
 		"column": "b"

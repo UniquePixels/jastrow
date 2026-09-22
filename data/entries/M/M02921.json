@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02921",
-	"slug": "משמהיג",
-	"headword": {
-		"text": "מָשְׁמָהִיג"
-	},
+	"sefariaHeadword": "מָשְׁמָהִיג",
+	"headwords": [
+		{
+			"text": "מָשְׁמָהִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

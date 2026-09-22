@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00336",
-	"slug": "לחה",
-	"headword": {
-		"text": "לֵחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵחָה",
+	"headwords": [
+		{
+			"text": "לֵחָה"
+		},
 		{
 			"text": "לֵיחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 702,
 		"column": "a"

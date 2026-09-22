@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01106",
-	"slug": "אטרי",
-	"headword": {
-		"text": "אִטְּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִטְּרִי",
+	"headwords": [
+		{
+			"text": "אִטְּרִי"
+		},
 		{
 			"text": "אִטְּרִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 43,
 		"column": "b"

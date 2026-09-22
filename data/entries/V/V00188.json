@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00188",
-	"slug": "תוטאי",
-	"headword": {
-		"text": "תּוּטַאי"
-	},
+	"sefariaHeadword": "תּוּטַאי",
+	"headwords": [
+		{
+			"text": "תּוּטַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

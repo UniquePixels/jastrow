@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00362",
-	"slug": "טיל",
-	"headword": {
-		"text": "טַיֵּל"
-	},
+	"sefariaHeadword": "טַיֵּל",
+	"headwords": [
+		{
+			"text": "טַיֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "b"

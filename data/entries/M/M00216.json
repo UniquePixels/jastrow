@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00216",
-	"slug": "מגרופיתא",
-	"headword": {
-		"text": "מַגְרוֹפִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְרוֹפִיתָא",
+	"headwords": [
+		{
+			"text": "מַגְרוֹפִיתָא"
+		},
 		{
 			"text": "מַגְרוֹפִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "a"

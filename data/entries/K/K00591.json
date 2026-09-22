@@ -1,23 +1,28 @@
 {
+	"schemaVersion": 2,
 	"id": "K00591",
-	"slug": "כיסנין-2",
-	"headword": {
-		"text": "כִּיסְנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסְנִין",
+	"headwords": [
+		{
+			"text": "כִּיסְנִין"
+		},
 		{
 			"text": "כִּיסְנֵי"
 		},
 		{
-			"text": "כִּסְ׳"
+			"text": "כִּסְ׳",
+			"partial": true
 		},
 		{
-			"text": "כִּיסָא׳"
+			"text": "כִּיסָא׳",
+			"partial": true
 		},
 		{
-			"text": "כְּסָא׳"
+			"text": "כְּסָא׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3}, {4})",
 	"page": {
 		"number": 634,
 		"column": "b"

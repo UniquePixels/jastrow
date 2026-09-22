@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01287",
-	"slug": "שלטוניה",
-	"headword": {
-		"text": "שלטוניה"
-	},
+	"sefariaHeadword": "שלטוניה",
+	"headwords": [
+		{
+			"text": "שלטוניה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1582,
 		"column": "a"

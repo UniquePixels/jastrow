@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01379",
-	"slug": "פעי-2",
-	"headword": {
-		"text": "פְּעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּעֵי",
+	"headwords": [
+		{
+			"text": "פְּעֵי"
+		},
 		{
 			"text": "פְּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1202,
 		"column": "a"

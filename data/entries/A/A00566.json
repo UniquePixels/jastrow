@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00566",
-	"slug": "אודיתא",
-	"headword": {
-		"text": "אוֹדִיתָא"
-	},
+	"sefariaHeadword": "אוֹדִיתָא",
+	"headwords": [
+		{
+			"text": "אוֹדִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

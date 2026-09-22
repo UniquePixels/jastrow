@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02178",
-	"slug": "קרקף",
-	"headword": {
-		"text": "קַרְקַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְקַף",
+	"headwords": [
+		{
+			"text": "קַרְקַף"
+		},
 		{
 			"text": "קַרְקְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1426,
 		"column": "b"

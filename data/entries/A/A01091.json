@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01091",
-	"slug": "אטליא",
-	"headword": {
-		"text": "אִטַלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִטַלְיָא",
+	"headwords": [
+		{
+			"text": "אִטַלְיָא"
+		},
 		{
 			"text": "אִטַלְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 43,
 		"column": "a"

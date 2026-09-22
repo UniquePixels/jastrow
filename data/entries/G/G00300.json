@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00300",
-	"slug": "זיו-2",
-	"headword": {
-		"text": "זִיו",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיו ²",
+	"headwords": [
+		{
+			"text": "זִיו",
+			"disambiguator": 2
+		},
 		{
 			"text": "זִיוָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 392,
 		"column": "a"

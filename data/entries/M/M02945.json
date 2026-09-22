@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02945",
-	"slug": "משניותא",
-	"headword": {
-		"text": "משניותא"
-	},
+	"sefariaHeadword": "משניותא",
+	"headwords": [
+		{
+			"text": "משניותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

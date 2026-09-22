@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00783",
-	"slug": "ניר-2",
-	"headword": {
-		"text": "נִיר"
-	},
+	"sefariaHeadword": "נִיר",
+	"headwords": [
+		{
+			"text": "נִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "a"

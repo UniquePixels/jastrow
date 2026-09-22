@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00871",
-	"slug": "מחיצא-2",
-	"headword": {
-		"text": "מְחִיצָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְחִיצָא II",
+	"headwords": [
+		{
+			"text": "מְחִיצָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 760,
 		"column": "b"

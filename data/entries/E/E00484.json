@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00484",
-	"slug": "היקף",
-	"headword": {
-		"text": "הֶיקֵּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיקֵּף",
+	"headwords": [
+		{
+			"text": "הֶיקֵּף"
+		},
 		{
 			"text": "הֶיקֵּיף"
 		},
@@ -15,6 +16,7 @@
 			"text": "הֶקֵּף"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 349,
 		"column": "a"

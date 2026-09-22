@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00691",
-	"slug": "דיצה",
-	"headword": {
-		"text": "דִּיצָה"
-	},
+	"sefariaHeadword": "דִּיצָה",
+	"headwords": [
+		{
+			"text": "דִּיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

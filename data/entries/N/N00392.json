@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00392",
-	"slug": "נופי",
-	"headword": {
-		"text": "נופי"
-	},
+	"sefariaHeadword": "נופי",
+	"headwords": [
+		{
+			"text": "נופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

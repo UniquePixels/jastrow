@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00501",
-	"slug": "רחימותא",
-	"headword": {
-		"text": "רְחִימוּתָא"
-	},
+	"sefariaHeadword": "רְחִימוּתָא",
+	"headwords": [
+		{
+			"text": "רְחִימוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "a"

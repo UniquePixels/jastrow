@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00447",
-	"slug": "נזיר-2",
-	"headword": {
-		"text": "נָזִיר"
-	},
+	"sefariaHeadword": "נָזִיר",
+	"headwords": [
+		{
+			"text": "נָזִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

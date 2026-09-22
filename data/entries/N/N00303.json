@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00303",
-	"slug": "נוגה-2",
-	"headword": {
-		"text": "נוֹגַהּ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוֹגַהּ ²",
+	"headwords": [
+		{
+			"text": "נוֹגַהּ",
+			"disambiguator": 2
+		},
 		{
 			"text": "נוֹגְהָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 883,
 		"column": "b"

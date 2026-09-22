@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00417",
-	"slug": "זיר-3",
-	"headword": {
-		"text": "זִיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיר ²",
+	"headwords": [
+		{
+			"text": "זִיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "זִירָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 396,
 		"column": "b"

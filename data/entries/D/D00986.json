@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00986",
-	"slug": "דק-3",
-	"headword": {
-		"text": "דַּק",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּק II",
+	"headwords": [
+		{
+			"text": "דַּק",
+			"homograph": 2
+		},
 		{
 			"text": "דֹּק"
 		},
@@ -13,6 +14,7 @@
 			"text": "דּוֹק"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 318,
 		"column": "a"

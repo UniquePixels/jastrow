@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01303",
-	"slug": "פסיספס",
-	"headword": {
-		"text": "פְּסִיסְפָּס"
-	},
+	"sefariaHeadword": "פְּסִיסְפָּס",
+	"headwords": [
+		{
+			"text": "פְּסִיסְפָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

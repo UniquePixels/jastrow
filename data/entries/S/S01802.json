@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01802",
-	"slug": "קצח",
-	"headword": {
-		"text": "קֶצַח"
-	},
+	"sefariaHeadword": "קֶצַח",
+	"headwords": [
+		{
+			"text": "קֶצַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00835",
-	"slug": "אוקיינוס",
-	"headword": {
-		"text": "אוֹקְיָינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹקְיָינוֹס",
+	"headwords": [
+		{
+			"text": "אוֹקְיָינוֹס"
+		},
 		{
 			"text": "אוֹקְיָנוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוֹקְיָאנוֹס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 32,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00313",
-	"slug": "מדנא-2",
-	"headword": {
-		"text": "מְדָנָא"
-	},
+	"sefariaHeadword": "מְדָנָא",
+	"headwords": [
+		{
+			"text": "מְדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

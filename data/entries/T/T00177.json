@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00177",
-	"slug": "רגז-5",
-	"headword": {
-		"text": "רַגָּז"
-	},
+	"sefariaHeadword": "רַגָּז",
+	"headwords": [
+		{
+			"text": "רַגָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "b"

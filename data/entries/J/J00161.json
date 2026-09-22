@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00161",
-	"slug": "יודאי",
-	"headword": {
-		"text": "יוּדַאי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יוּדַאי",
+	"headwords": [
+		{
+			"text": "יוּדַאי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

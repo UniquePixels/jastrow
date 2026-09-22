@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01068",
-	"slug": "אטבא",
-	"headword": {
-		"text": "אַטְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַטְבָּא",
+	"headwords": [
+		{
+			"text": "אַטְבָּא"
+		},
 		{
 			"text": "אַטְבְּעָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 42,
 		"column": "a"

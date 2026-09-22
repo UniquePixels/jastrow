@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00283",
-	"slug": "זיהא-1",
-	"headword": {
-		"text": "זָיְהָא"
-	},
+	"sefariaHeadword": "זָיְהָא",
+	"headwords": [
+		{
+			"text": "זָיְהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

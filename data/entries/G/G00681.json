@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00681",
-	"slug": "זרוקיניא",
-	"headword": {
-		"text": "זְרוּקִינְיָא"
-	},
+	"sefariaHeadword": "זְרוּקִינְיָא",
+	"headwords": [
+		{
+			"text": "זְרוּקִינְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00186",
-	"slug": "הוביר",
-	"headword": {
-		"text": "הוֹבִיר"
-	},
+	"sefariaHeadword": "הוֹבִיר",
+	"headwords": [
+		{
+			"text": "הוֹבִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

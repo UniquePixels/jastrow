@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02159",
-	"slug": "קרקבן",
-	"headword": {
-		"text": "קָרְקְבָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָרְקְבָן",
+	"headwords": [
+		{
+			"text": "קָרְקְבָן"
+		},
 		{
 			"text": "קָרְקְבָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1426,
 		"column": "a"

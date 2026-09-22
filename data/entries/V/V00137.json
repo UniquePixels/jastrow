@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00137",
-	"slug": "תוא-2",
-	"headword": {
-		"text": "תְּוָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּוָא II",
+	"headwords": [
+		{
+			"text": "תְּוָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1649,
 		"column": "b"

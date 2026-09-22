@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01586",
-	"slug": "פרדכשא",
-	"headword": {
-		"text": "פַּרְדַּכְשָׁא"
-	},
+	"sefariaHeadword": "פַּרְדַּכְשָׁא",
+	"headwords": [
+		{
+			"text": "פַּרְדַּכְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1216,
 		"column": "a"

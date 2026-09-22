@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01233",
-	"slug": "כרמל",
-	"headword": {
-		"text": "כַּרְמֶל"
-	},
+	"sefariaHeadword": "כַּרְמֶל",
+	"headwords": [
+		{
+			"text": "כַּרְמֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

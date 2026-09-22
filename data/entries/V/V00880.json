@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00880",
-	"slug": "תקיל",
-	"headword": {
-		"text": "תְּקֵיל"
-	},
+	"sefariaHeadword": "תְּקֵיל",
+	"headwords": [
+		{
+			"text": "תְּקֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

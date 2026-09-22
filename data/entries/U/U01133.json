@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01133",
-	"slug": "שכונה",
-	"headword": {
-		"text": "שְׁכוּנָה"
-	},
+	"sefariaHeadword": "שְׁכוּנָה",
+	"headwords": [
+		{
+			"text": "שְׁכוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "b"

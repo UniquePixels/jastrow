@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00733",
-	"slug": "צרבה",
-	"headword": {
-		"text": "צָרְבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָרְבָה",
+	"headwords": [
+		{
+			"text": "צָרְבָה"
+		},
 		{
 			"text": "צוֹרְבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1299,
 		"column": "b"

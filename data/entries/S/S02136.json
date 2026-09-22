@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02136",
-	"slug": "קרפיטא",
-	"headword": {
-		"text": "קַרְפִּיטָא"
-	},
+	"sefariaHeadword": "קַרְפִּיטָא",
+	"headwords": [
+		{
+			"text": "קַרְפִּיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1424,
 		"column": "b"

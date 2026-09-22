@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00516",
-	"slug": "יצא-2",
-	"headword": {
-		"text": "יצָא"
-	},
+	"sefariaHeadword": "יצָא",
+	"headwords": [
+		{
+			"text": "יצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

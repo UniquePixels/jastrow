@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01538",
-	"slug": "פראכורין",
-	"headword": {
-		"text": "פָּרָאכוֹרִין"
-	},
+	"sefariaHeadword": "פָּרָאכוֹרִין",
+	"headwords": [
+		{
+			"text": "פָּרָאכוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01311",
-	"slug": "ספא-2",
-	"headword": {
-		"text": "סְפָא"
-	},
+	"sefariaHeadword": "סְפָא",
+	"headwords": [
+		{
+			"text": "סְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1011,
 		"column": "a"

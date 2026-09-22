@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00265",
-	"slug": "סודרא",
-	"headword": {
-		"text": "סוּדָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּדָרָא",
+	"headwords": [
+		{
+			"text": "סוּדָרָא"
+		},
 		{
 			"text": "סוּדְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 962,
 		"column": "a"

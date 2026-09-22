@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00995",
-	"slug": "סליקוסתא-2",
-	"headword": {
-		"text": "סְלִיקוּסְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְלִיקוּסְתָּא II",
+	"headwords": [
+		{
+			"text": "סְלִיקוּסְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 995,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00019",
-	"slug": "עבדותא",
-	"headword": {
-		"text": "עַבְדּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַבְדּוּתָא",
+	"headwords": [
+		{
+			"text": "עַבְדּוּתָא"
+		},
 		{
 			"text": "עַבְדּוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1035,
 		"column": "b"

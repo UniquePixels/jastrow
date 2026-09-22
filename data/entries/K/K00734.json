@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00734",
-	"slug": "כליל-2",
-	"headword": {
-		"text": "כְּלִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּלִיל",
+	"headwords": [
+		{
+			"text": "כְּלִיל"
+		},
 		{
 			"text": "כְּלִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 642,
 		"column": "b"

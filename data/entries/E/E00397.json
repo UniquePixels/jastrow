@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00397",
-	"slug": "היליוני",
-	"headword": {
-		"text": "הִילְיוֹנִי"
-	},
+	"sefariaHeadword": "הִילְיוֹנִי",
+	"headwords": [
+		{
+			"text": "הִילְיוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "a"

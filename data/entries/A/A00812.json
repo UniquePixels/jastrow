@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00812",
-	"slug": "אופן-2",
-	"headword": {
-		"text": "אוֹפֶן"
-	},
+	"sefariaHeadword": "אוֹפֶן",
+	"headwords": [
+		{
+			"text": "אוֹפֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

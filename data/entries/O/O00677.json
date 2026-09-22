@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00677",
-	"slug": "סילתא-1",
-	"headword": {
-		"text": "סִילְתָּא"
-	},
+	"sefariaHeadword": "סִילְתָּא",
+	"headwords": [
+		{
+			"text": "סִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

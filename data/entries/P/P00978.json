@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00978",
-	"slug": "עניבא",
-	"headword": {
-		"text": "עֲנִיבָא"
-	},
+	"sefariaHeadword": "עֲנִיבָא",
+	"headwords": [
+		{
+			"text": "עֲנִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1094,
 		"column": "b"

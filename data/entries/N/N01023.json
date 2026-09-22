@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01023",
-	"slug": "נפולין",
-	"headword": {
-		"text": "נִפּוֹלִין"
-	},
+	"sefariaHeadword": "נִפּוֹלִין",
+	"headwords": [
+		{
+			"text": "נִפּוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

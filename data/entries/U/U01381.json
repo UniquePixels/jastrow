@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01381",
-	"slug": "שלק-2",
-	"headword": {
-		"text": "שְׁלַק"
-	},
+	"sefariaHeadword": "שְׁלַק",
+	"headwords": [
+		{
+			"text": "שְׁלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "a"

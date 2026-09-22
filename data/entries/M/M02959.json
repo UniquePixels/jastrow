@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02959",
-	"slug": "משקול",
-	"headword": {
-		"text": "מִשְׁקוֹל"
-	},
+	"sefariaHeadword": "מִשְׁקוֹל",
+	"headwords": [
+		{
+			"text": "מִשְׁקוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

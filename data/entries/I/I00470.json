@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00470",
-	"slug": "טלא",
-	"headword": {
-		"text": "טָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָלָא",
+	"headwords": [
+		{
+			"text": "טָלָא"
+		},
 		{
 			"text": "טְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 535,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00970",
-	"slug": "שינא-2",
-	"headword": {
-		"text": "שֵׁינָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שֵׁינָא II",
+	"headwords": [
+		{
+			"text": "שֵׁינָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1564,
 		"column": "a"

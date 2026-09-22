@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01015",
-	"slug": "פלטיות",
-	"headword": {
-		"text": "פַּלְטִיוַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְטִיוַת",
+	"headwords": [
+		{
+			"text": "פַּלְטִיוַת"
+		},
 		{
 			"text": "פַּלְטִיוָתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּלַטְיוּת"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1179,
 		"column": "b"

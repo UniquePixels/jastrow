@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01334",
-	"slug": "כשת-1",
-	"headword": {
-		"text": "כּשְׁתְּ"
-	},
+	"sefariaHeadword": "כּשְׁתְּ",
+	"headwords": [
+		{
+			"text": "כּשְׁתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "a"

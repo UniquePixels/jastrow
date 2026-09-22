@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00148",
-	"slug": "גג",
-	"headword": {
-		"text": "גַּג"
-	},
+	"sefariaHeadword": "גַּג",
+	"headwords": [
+		{
+			"text": "גַּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "b"

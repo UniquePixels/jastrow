@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00162",
-	"slug": "עדק-3",
-	"headword": {
-		"text": "עֲדָק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲדָק II",
+	"headwords": [
+		{
+			"text": "עֲדָק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1045,
 		"column": "b"

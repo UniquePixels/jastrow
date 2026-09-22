@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02034",
-	"slug": "אמלל",
-	"headword": {
-		"text": "אֻמְלָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֻמְלָל",
+	"headwords": [
+		{
+			"text": "אֻמְלָל"
+		},
 		{
 			"text": "אֲמֵלָל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 77,
 		"column": "a"

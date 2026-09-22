@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01005",
-	"slug": "חלוק-1",
-	"headword": {
-		"text": "חָלוּק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָלוּק I",
+	"headwords": [
+		{
+			"text": "חָלוּק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 465,
 		"column": "b"

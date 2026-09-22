@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01697",
-	"slug": "סתימא",
-	"headword": {
-		"text": "סְתִימָא"
-	},
+	"sefariaHeadword": "סְתִימָא",
+	"headwords": [
+		{
+			"text": "סְתִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

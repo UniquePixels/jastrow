@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01375",
-	"slug": "פעולתא",
-	"headword": {
-		"text": "פְּעוּלְתָּא"
-	},
+	"sefariaHeadword": "פְּעוּלְתָּא",
+	"headwords": [
+		{
+			"text": "פְּעוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1202,
 		"column": "a"

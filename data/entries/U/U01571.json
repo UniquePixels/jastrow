@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01571",
-	"slug": "שנה-2",
-	"headword": {
-		"text": "שָׁנָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁנָה II",
+	"headwords": [
+		{
+			"text": "שָׁנָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1604,
 		"column": "b"

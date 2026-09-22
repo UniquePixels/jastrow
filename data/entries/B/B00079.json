@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00079",
-	"slug": "בגומא",
-	"headword": {
-		"text": "בגומא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בגומא",
+	"headwords": [
+		{
+			"text": "בגומא",
+			"reconstructed": true
+		},
 		{
 			"text": "בגומין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 137,
 		"column": "b"

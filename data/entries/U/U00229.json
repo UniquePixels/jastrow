@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00229",
-	"slug": "שגל",
-	"headword": {
-		"text": "שֵׁגָל"
-	},
+	"sefariaHeadword": "שֵׁגָל",
+	"headwords": [
+		{
+			"text": "שֵׁגָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

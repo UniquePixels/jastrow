@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01585",
-	"slug": "קנייה",
-	"headword": {
-		"text": "קַנְיָיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְיָיה",
+	"headwords": [
 		{
-			"text": "עֲלֵי קַנְיָיה"
+			"text": "קַנְיָיה"
+		},
+		{
+			"text": "עֲלֵי קַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

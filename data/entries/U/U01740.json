@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01740",
-	"slug": "שפי-7",
-	"headword": {
-		"text": "שֶׁפִי"
-	},
+	"sefariaHeadword": "שֶׁפִי",
+	"headwords": [
+		{
+			"text": "שֶׁפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1615,
 		"column": "b"

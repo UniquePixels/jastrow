@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00856",
-	"slug": "כניש",
-	"headword": {
-		"text": "כְּנִישׁ"
-	},
+	"sefariaHeadword": "כְּנִישׁ",
+	"headwords": [
+		{
+			"text": "כְּנִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

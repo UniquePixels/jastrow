@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00137",
-	"slug": "גברת",
-	"headword": {
-		"text": "גְּבֶרֶת"
-	},
+	"sefariaHeadword": "גְּבֶרֶת",
+	"headwords": [
+		{
+			"text": "גְּבֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

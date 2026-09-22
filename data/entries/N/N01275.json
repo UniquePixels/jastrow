@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01275",
-	"slug": "נרשאה",
-	"headword": {
-		"text": "נַרְשָׁאָה"
-	},
+	"sefariaHeadword": "נַרְשָׁאָה",
+	"headwords": [
+		{
+			"text": "נַרְשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"

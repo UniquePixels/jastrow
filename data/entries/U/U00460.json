@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00460",
-	"slug": "שומשוק",
-	"headword": {
-		"text": "שׁוּמְשׁוּק"
-	},
+	"sefariaHeadword": "שׁוּמְשׁוּק",
+	"headwords": [
+		{
+			"text": "שׁוּמְשׁוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "a"

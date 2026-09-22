@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00131",
-	"slug": "כדין-2",
-	"headword": {
-		"text": "כְּדֵין"
-	},
+	"sefariaHeadword": "כְּדֵין",
+	"headwords": [
+		{
+			"text": "כְּדֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

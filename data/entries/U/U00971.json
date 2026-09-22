@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00971",
-	"slug": "שינדפין",
-	"headword": {
-		"text": "שִׁינְדְּפִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁינְדְּפִין",
+	"headwords": [
 		{
-			"text": "שִׁנְ׳"
+			"text": "שִׁינְדְּפִין"
+		},
+		{
+			"text": "שִׁנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1564,
 		"column": "a"

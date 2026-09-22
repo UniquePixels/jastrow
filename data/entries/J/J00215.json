@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00215",
-	"slug": "יוסטינה",
-	"headword": {
-		"text": "יוּסְטִינָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּסְטִינָה",
+	"headwords": [
+		{
+			"text": "יוּסְטִינָה"
+		},
 		{
 			"text": "יוּסְטִינִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 570,
 		"column": "b"

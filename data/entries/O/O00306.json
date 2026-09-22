@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00306",
-	"slug": "סוכלתן",
-	"headword": {
-		"text": "סוּכְלְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּכְלְתָן",
+	"headwords": [
+		{
+			"text": "סוּכְלְתָן"
+		},
 		{
 			"text": "סוּכְלְתָנָא"
 		},
 		{
-			"text": "שׂ׳"
+			"text": "שׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 964,
 		"column": "a"

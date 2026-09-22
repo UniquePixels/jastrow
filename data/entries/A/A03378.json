@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03378",
-	"slug": "אשתי",
-	"headword": {
-		"text": "אשתי"
-	},
+	"sefariaHeadword": "אשתי",
+	"headwords": [
+		{
+			"text": "אשתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "a"

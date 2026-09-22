@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00569",
-	"slug": "קורביטין",
-	"headword": {
-		"text": "קוּרְבִיטִין"
-	},
+	"sefariaHeadword": "קוּרְבִיטִין",
+	"headwords": [
+		{
+			"text": "קוּרְבִיטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "b"

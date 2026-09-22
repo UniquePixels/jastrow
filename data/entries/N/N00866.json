@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00866",
-	"slug": "נמורקין",
-	"headword": {
-		"text": "נמורקין"
-	},
+	"sefariaHeadword": "נמורקין",
+	"headwords": [
+		{
+			"text": "נמורקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

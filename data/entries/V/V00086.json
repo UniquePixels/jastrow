@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00086",
-	"slug": "תגלחת",
-	"headword": {
-		"text": "תַּגְלַחַת"
-	},
+	"sefariaHeadword": "תַּגְלַחַת",
+	"headwords": [
+		{
+			"text": "תַּגְלַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "b"

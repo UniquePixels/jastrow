@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00765",
-	"slug": "קטיפא",
-	"headword": {
-		"text": "קְטִיפָא"
-	},
+	"sefariaHeadword": "קְטִיפָא",
+	"headwords": [
+		{
+			"text": "קְטִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1348,
 		"column": "b"

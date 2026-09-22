@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00119",
-	"slug": "סגורא",
-	"headword": {
-		"text": "סְגוֹרָא"
-	},
+	"sefariaHeadword": "סְגוֹרָא",
+	"headwords": [
+		{
+			"text": "סְגוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

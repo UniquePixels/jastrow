@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00067",
-	"slug": "צבצין",
-	"headword": {
-		"text": "צבצין"
-	},
+	"sefariaHeadword": "צבצין",
+	"headwords": [
+		{
+			"text": "צבצין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "b"

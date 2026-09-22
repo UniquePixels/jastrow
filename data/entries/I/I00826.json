@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00826",
-	"slug": "טרית",
-	"headword": {
-		"text": "טָרִית"
-	},
+	"sefariaHeadword": "טָרִית",
+	"headwords": [
+		{
+			"text": "טָרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

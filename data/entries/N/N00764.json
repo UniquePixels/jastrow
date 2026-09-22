@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00764",
-	"slug": "ניקוי",
-	"headword": {
-		"text": "נִיקּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקּוּי",
+	"headwords": [
 		{
-			"text": "נִקּ׳"
+			"text": "נִיקּוּי"
+		},
+		{
+			"text": "נִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "a"

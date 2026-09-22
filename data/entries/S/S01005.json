@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01005",
-	"slug": "קימוס",
-	"headword": {
-		"text": "קִימּוֹס"
-	},
+	"sefariaHeadword": "קִימּוֹס",
+	"headwords": [
+		{
+			"text": "קִימּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

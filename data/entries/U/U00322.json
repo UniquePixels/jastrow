@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00322",
-	"slug": "שובל-2",
-	"headword": {
-		"text": "שׁוּבָּל"
-	},
+	"sefariaHeadword": "שׁוּבָּל",
+	"headwords": [
+		{
+			"text": "שׁוּבָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "a"

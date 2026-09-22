@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00068",
-	"slug": "צבר-1",
-	"headword": {
-		"text": "צָבַר"
-	},
+	"sefariaHeadword": "צָבַר",
+	"headwords": [
+		{
+			"text": "צָבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "b"

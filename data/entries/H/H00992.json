@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00992",
-	"slug": "חלוז",
-	"headword": {
-		"text": "חֲלוּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלוּז",
+	"headwords": [
+		{
+			"text": "חֲלוּז"
+		},
 		{
 			"text": "חִילּוּזָא"
 		},
 		{
-			"text": "הִי׳"
+			"text": "הִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 465,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01292",
-	"slug": "גרוגרת",
-	"headword": {
-		"text": "גְּרוֹגֶרֶת"
-	},
+	"sefariaHeadword": "גְּרוֹגֶרֶת",
+	"headwords": [
+		{
+			"text": "גְּרוֹגֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01247",
-	"slug": "שלוטחית",
-	"headword": {
-		"text": "שלוטחית"
-	},
+	"sefariaHeadword": "שלוטחית",
+	"headwords": [
+		{
+			"text": "שלוטחית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "a"

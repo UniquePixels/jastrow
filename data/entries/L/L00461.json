@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00461",
-	"slug": "ליכא-2",
-	"headword": {
-		"text": "לִיכָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "לִיכָּא II",
+	"headwords": [
+		{
+			"text": "לִיכָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 707,
 		"column": "a"

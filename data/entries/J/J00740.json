@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00740",
-	"slug": "יתירה",
-	"headword": {
-		"text": "יְתֵירָה"
-	},
+	"sefariaHeadword": "יְתֵירָה",
+	"headwords": [
+		{
+			"text": "יְתֵירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

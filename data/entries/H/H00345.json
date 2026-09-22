@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00345",
-	"slug": "חולי-1",
-	"headword": {
-		"text": "חוּלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלֵי",
+	"headwords": [
 		{
-			"text": "חוֹ׳"
+			"text": "חוּלֵי"
+		},
+		{
+			"text": "חוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 434,
 		"column": "a"

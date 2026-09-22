@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00350",
-	"slug": "רוחק",
-	"headword": {
-		"text": "רוֹחַק"
-	},
+	"sefariaHeadword": "רוֹחַק",
+	"headwords": [
+		{
+			"text": "רוֹחַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "b"

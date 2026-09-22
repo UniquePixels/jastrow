@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01635",
-	"slug": "שעה-2",
-	"headword": {
-		"text": "שָׁעָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁעָה II",
+	"headwords": [
+		{
+			"text": "שָׁעָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1609,
 		"column": "b"

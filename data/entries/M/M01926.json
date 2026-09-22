@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01926",
-	"slug": "מסיפס",
-	"headword": {
-		"text": "מְסִיפָס"
-	},
+	"sefariaHeadword": "מְסִיפָס",
+	"headwords": [
+		{
+			"text": "מְסִיפָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01876",
-	"slug": "חתום",
-	"headword": {
-		"text": "חִתּוּם"
-	},
+	"sefariaHeadword": "חִתּוּם",
+	"headwords": [
+		{
+			"text": "חִתּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "b"

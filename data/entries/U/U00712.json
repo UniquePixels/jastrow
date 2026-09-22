@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00712",
-	"slug": "שחרא",
-	"headword": {
-		"text": "שַׁחֲרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁחֲרָא",
+	"headwords": [
+		{
+			"text": "שַׁחֲרָא"
+		},
 		{
 			"text": "שַׁחֲרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1551,
 		"column": "b"

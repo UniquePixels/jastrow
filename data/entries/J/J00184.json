@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00184",
-	"slug": "יוכני",
-	"headword": {
-		"text": "יוֹכָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹכָנִי",
+	"headwords": [
 		{
-			"text": "בַּר יוֹכָנִי"
+			"text": "יוֹכָנִי"
+		},
+		{
+			"text": "בַּר י׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 568,
 		"column": "b"

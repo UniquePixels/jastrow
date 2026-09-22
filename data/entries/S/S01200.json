@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01200",
-	"slug": "קירקוס",
-	"headword": {
-		"text": "קירקוס"
-	},
+	"sefariaHeadword": "קירקוס",
+	"headwords": [
+		{
+			"text": "קירקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

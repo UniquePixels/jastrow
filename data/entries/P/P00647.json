@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00647",
-	"slug": "עיצור-2",
-	"headword": {
-		"text": "עִיצּוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיצּוּר ²",
+	"headwords": [
+		{
+			"text": "עִיצּוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִיצּוּרָא"
 		},
 		{
-			"text": "עִצּ׳"
+			"text": "עִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1074,
 		"column": "a"

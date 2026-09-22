@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "L00688",
-	"slug": "לקיט-3",
-	"headword": {
-		"text": "לָקִיט",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*לָקִיט I",
+	"headwords": [
+		{
+			"text": "לָקִיט",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 719,
 		"column": "a"

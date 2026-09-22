@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00599",
-	"slug": "אוזיא",
-	"headword": {
-		"text": "אוּזְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּזְיָא",
+	"headwords": [
+		{
+			"text": "אוּזְיָא"
+		},
 		{
 			"text": "אוּסְיָא",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 23,
 		"column": "b"

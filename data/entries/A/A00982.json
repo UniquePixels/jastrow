@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00982",
-	"slug": "אזן-2",
-	"headword": {
-		"text": "אֹזֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֹזֶן",
+	"headwords": [
+		{
+			"text": "אֹזֶן"
+		},
 		{
 			"text": "אוֹזֶן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 38,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03177",
-	"slug": "ארמילוס",
-	"headword": {
-		"text": "אַרְמִילוֹס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְמִילוֹס",
+	"headwords": [
+		{
+			"text": "אַרְמִילוֹס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 123,
 		"column": "a"

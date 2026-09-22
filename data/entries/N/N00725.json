@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00725",
-	"slug": "ניענוע",
-	"headword": {
-		"text": "נִיעֲנוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיעֲנוּעַ",
+	"headwords": [
+		{
+			"text": "נִיעֲנוּעַ"
+		},
 		{
 			"text": "נִיעֲנֵעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "a"

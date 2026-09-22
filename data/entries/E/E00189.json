@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00189",
-	"slug": "הובריא",
-	"headword": {
-		"text": "הוֹבְרָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוֹבְרָיָא",
+	"headwords": [
+		{
+			"text": "הוֹבְרָיָא"
+		},
 		{
 			"text": "הוֹבְרָיָיא"
 		},
 		{
-			"text": "אוֹ׳"
+			"text": "אוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 336,
 		"column": "b"

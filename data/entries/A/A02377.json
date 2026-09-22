@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02377",
-	"slug": "אסטלה",
-	"headword": {
-		"text": "אִסְטַלָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַלָּה",
+	"headwords": [
+		{
+			"text": "אִסְטַלָּה"
+		},
 		{
 			"text": "אִצְטַלָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 90,
 		"column": "b"

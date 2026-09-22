@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00832",
-	"slug": "מחוק",
-	"headword": {
-		"text": "מְחוֹק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחוֹק",
+	"headwords": [
+		{
+			"text": "מְחוֹק"
+		},
 		{
 			"text": "מָחָק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 758,
 		"column": "a"

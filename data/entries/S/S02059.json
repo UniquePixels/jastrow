@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02059",
-	"slug": "קריית",
-	"headword": {
-		"text": "קריית"
-	},
+	"sefariaHeadword": "קריית",
+	"headwords": [
+		{
+			"text": "קריית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

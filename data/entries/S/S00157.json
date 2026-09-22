@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00157",
-	"slug": "קדמונאה",
-	"headword": {
-		"text": "קַדְמוֹנָאָה"
-	},
+	"sefariaHeadword": "קַדְמוֹנָאָה",
+	"headwords": [
+		{
+			"text": "קַדְמוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1317,
 		"column": "a"

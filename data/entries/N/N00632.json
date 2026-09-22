@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00632",
-	"slug": "ניוולא",
-	"headword": {
-		"text": "נִיוּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיוּוּלָא",
+	"headwords": [
 		{
-			"text": "נִוּוּ׳"
+			"text": "נִיוּוּלָא"
+		},
+		{
+			"text": "נִוּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "b"

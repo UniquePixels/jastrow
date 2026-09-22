@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00767",
-	"slug": "עלבון",
-	"headword": {
-		"text": "עֶלְבּוֹן"
-	},
+	"sefariaHeadword": "עֶלְבּוֹן",
+	"headwords": [
+		{
+			"text": "עֶלְבּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "b"

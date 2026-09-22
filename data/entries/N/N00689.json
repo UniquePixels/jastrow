@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00689",
-	"slug": "נימרה",
-	"headword": {
-		"text": "נִימְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִימְרָה",
+	"headwords": [
+		{
+			"text": "נִימְרָה"
+		},
 		{
 			"text": "נימרון"
 		},
@@ -15,6 +16,7 @@
 			"text": "נִימְרִית"
 		}
 	],
+	"display": "{0}, ({1}), {2}, {3}",
 	"page": {
 		"number": 905,
 		"column": "b"

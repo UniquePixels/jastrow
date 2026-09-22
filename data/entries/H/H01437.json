@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01437",
-	"slug": "חפז",
-	"headword": {
-		"text": "חָפַז"
-	},
+	"sefariaHeadword": "חָפַז",
+	"headwords": [
+		{
+			"text": "חָפַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "a"

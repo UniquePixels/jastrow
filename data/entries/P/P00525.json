@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00525",
-	"slug": "עיזלא",
-	"headword": {
-		"text": "עִיזְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיזְלָא",
+	"headwords": [
+		{
+			"text": "עִיזְלָא"
+		},
 		{
 			"text": "עִיזְקָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִיזְקְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1068,
 		"column": "a"

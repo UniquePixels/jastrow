@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00054",
-	"slug": "אבו",
-	"headword": {
-		"text": "אִבּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִבּוּ",
+	"headwords": [
+		{
+			"text": "אִבּוּ"
+		},
 		{
 			"text": "אִיבּוּ"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַיְיבוּ"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 3,
 		"column": "b"

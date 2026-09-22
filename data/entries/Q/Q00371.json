@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00371",
-	"slug": "פורסן",
-	"headword": {
-		"text": "פּוּרְסָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְסָן",
+	"headwords": [
+		{
+			"text": "פּוּרְסָן"
+		},
 		{
 			"text": "פּוּרְסָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1147,
 		"column": "b"

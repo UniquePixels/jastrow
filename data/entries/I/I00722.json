@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "I00722",
-	"slug": "טרוויא",
-	"headword": {
-		"text": "טַרְוַויָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טַרְוַויָּא",
+	"headwords": [
 		{
-			"text": "נחל טַרְוַויָּא"
+			"text": "טַרְוַויָּא",
+			"reconstructed": true
+		},
+		{
+			"text": "נחל ט׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 550,
 		"column": "b"

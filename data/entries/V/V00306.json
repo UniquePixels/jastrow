@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00306",
-	"slug": "תורנגלא",
-	"headword": {
-		"text": "תּוּרְנַגְלָא"
-	},
+	"sefariaHeadword": "תּוּרְנַגְלָא",
+	"headwords": [
+		{
+			"text": "תּוּרְנַגְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "a"

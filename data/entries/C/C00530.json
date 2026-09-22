@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00530",
-	"slug": "גזומא",
-	"headword": {
-		"text": "גַּזּוֹמָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּזּוֹמָא",
+	"headwords": [
+		{
+			"text": "גַּזּוֹמָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

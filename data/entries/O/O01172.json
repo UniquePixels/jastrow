@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01172",
-	"slug": "סנגורין",
-	"headword": {
-		"text": "סנגורין"
-	},
+	"sefariaHeadword": "סנגורין",
+	"headwords": [
+		{
+			"text": "סנגורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

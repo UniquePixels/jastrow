@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02867",
-	"slug": "משיגא",
-	"headword": {
-		"text": "משיגא"
-	},
+	"sefariaHeadword": "משיגא",
+	"headwords": [
+		{
+			"text": "משיגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "a"

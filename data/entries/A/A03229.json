@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03229",
-	"slug": "ארפכסת",
-	"headword": {
-		"text": "ארפכסת"
-	},
+	"sefariaHeadword": "ארפכסת",
+	"headwords": [
+		{
+			"text": "ארפכסת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

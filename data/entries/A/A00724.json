@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00724",
-	"slug": "אונאי",
-	"headword": {
-		"text": "אונאי"
-	},
+	"sefariaHeadword": "אונאי",
+	"headwords": [
+		{
+			"text": "אונאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02793",
-	"slug": "מרתק",
-	"headword": {
-		"text": "מַרְתֵּק"
-	},
+	"sefariaHeadword": "מַרְתֵּק",
+	"headwords": [
+		{
+			"text": "מַרְתֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

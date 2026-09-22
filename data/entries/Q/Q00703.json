@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00703",
-	"slug": "פיליסמוסטיט",
-	"headword": {
-		"text": "פיליסמוסטיט"
-	},
+	"sefariaHeadword": "פיליסמוסטיט",
+	"headwords": [
+		{
+			"text": "פיליסמוסטיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

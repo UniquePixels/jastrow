@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00155",
-	"slug": "תוגרא",
-	"headword": {
-		"text": "תוגרא"
-	},
+	"sefariaHeadword": "תוגרא",
+	"headwords": [
+		{
+			"text": "תוגרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

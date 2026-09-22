@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00430",
-	"slug": "כותנאי",
-	"headword": {
-		"text": "כותנאי"
-	},
+	"sefariaHeadword": "כותנאי",
+	"headwords": [
+		{
+			"text": "כותנאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

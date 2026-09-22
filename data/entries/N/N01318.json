@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01318",
-	"slug": "נשיקה-2",
-	"headword": {
-		"text": "נְשִׁיקָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נְשִׁיקָה ²",
+	"headwords": [
+		{
+			"text": "נְשִׁיקָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 940,
 		"column": "a"

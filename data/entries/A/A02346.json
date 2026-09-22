@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02346",
-	"slug": "אסטאטיבא",
-	"headword": {
-		"text": "אִסטָאטִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסטָאטִיבָא",
+	"headwords": [
+		{
+			"text": "אִסטָאטִיבָא"
+		},
 		{
 			"text": "אִסטָטִיבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 89,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00123",
-	"slug": "יהודאית",
-	"headword": {
-		"text": "יְהוּדָאִית"
-	},
+	"sefariaHeadword": "יְהוּדָאִית",
+	"headwords": [
+		{
+			"text": "יְהוּדָאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "a"

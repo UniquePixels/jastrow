@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00158",
-	"slug": "בדקא",
-	"headword": {
-		"text": "בִּדְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּדְקָא",
+	"headwords": [
+		{
+			"text": "בִּדְקָא"
+		},
 		{
 			"text": "בִּידְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 141,
 		"column": "b"

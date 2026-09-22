@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02658",
-	"slug": "מריגז",
-	"headword": {
-		"text": "מְרִיגַז"
-	},
+	"sefariaHeadword": "מְרִיגַז",
+	"headwords": [
+		{
+			"text": "מְרִיגַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

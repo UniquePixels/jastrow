@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02573",
-	"slug": "אסתוניא",
-	"headword": {
-		"text": "אִסְתּוּנְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְתּוּנְיָא",
+	"headwords": [
+		{
+			"text": "אִסְתּוּנְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 99,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

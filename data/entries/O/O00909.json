@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00909",
-	"slug": "סכל-1",
-	"headword": {
-		"text": "סָכַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סָכַל I",
+	"headwords": [
+		{
+			"text": "סָכַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 990,
 		"column": "b"

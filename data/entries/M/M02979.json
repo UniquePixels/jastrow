@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02979",
-	"slug": "משרשיא",
-	"headword": {
-		"text": "מְשַׁרְשְׁיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשַׁרְשְׁיָא",
+	"headwords": [
+		{
+			"text": "מְשַׁרְשְׁיָא"
+		},
 		{
 			"text": "מְשַׁרְשְׁיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "b"

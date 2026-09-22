@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00010",
-	"slug": "עבא",
-	"headword": {
-		"text": "עָבָא"
-	},
+	"sefariaHeadword": "עָבָא",
+	"headwords": [
+		{
+			"text": "עָבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "a"

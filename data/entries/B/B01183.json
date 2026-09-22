@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01183",
-	"slug": "ברדלא",
-	"headword": {
-		"text": "בַּרְדְּלָא"
-	},
+	"sefariaHeadword": "בַּרְדְּלָא",
+	"headwords": [
+		{
+			"text": "בַּרְדְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

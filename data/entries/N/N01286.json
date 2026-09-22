@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01286",
-	"slug": "נשב-1",
-	"headword": {
-		"text": "נָשַׁב"
-	},
+	"sefariaHeadword": "נָשַׁב",
+	"headwords": [
+		{
+			"text": "נָשַׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "a"

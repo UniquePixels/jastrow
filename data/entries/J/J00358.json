@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00358",
-	"slug": "יכולני-1",
-	"headword": {
-		"text": "יְכוֹלְנִי"
-	},
+	"sefariaHeadword": "יְכוֹלְנִי",
+	"headwords": [
+		{
+			"text": "יְכוֹלְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

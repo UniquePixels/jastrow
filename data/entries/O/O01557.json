@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01557",
-	"slug": "סרוך",
-	"headword": {
-		"text": "סְרוֹךְ"
-	},
+	"sefariaHeadword": "סְרוֹךְ",
+	"headwords": [
+		{
+			"text": "סְרוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

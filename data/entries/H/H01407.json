@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H01407",
-	"slug": "חספא",
-	"headword": {
-		"text": "חַסְפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַסְפָּא",
+	"headwords": [
+		{
+			"text": "חַסְפָּא"
+		},
 		{
 			"text": "חִ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 489,
 		"column": "a"

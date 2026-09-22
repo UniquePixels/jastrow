@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02814",
-	"slug": "אפרחין",
-	"headword": {
-		"text": "אִפְרָחִין"
-	},
+	"sefariaHeadword": "אִפְרָחִין",
+	"headwords": [
+		{
+			"text": "אִפְרָחִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00981",
-	"slug": "שינצא",
-	"headword": {
-		"text": "שִׁינְצָא"
-	},
+	"sefariaHeadword": "שִׁינְצָא",
+	"headwords": [
+		{
+			"text": "שִׁינְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

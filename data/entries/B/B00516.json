@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00516",
-	"slug": "בטל-2",
-	"headword": {
-		"text": "בְּטֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּטֵל",
+	"headwords": [
+		{
+			"text": "בְּטֵל"
+		},
 		{
 			"text": "בְּטֵיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 157,
 		"column": "a"

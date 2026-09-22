@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02287",
-	"slug": "קתוליכוס",
-	"headword": {
-		"text": "קתוליכוס"
-	},
+	"sefariaHeadword": "קתוליכוס",
+	"headwords": [
+		{
+			"text": "קתוליכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "a"

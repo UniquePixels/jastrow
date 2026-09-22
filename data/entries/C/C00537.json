@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00537",
-	"slug": "גזז-1",
-	"headword": {
-		"text": "גָּזַז"
-	},
+	"sefariaHeadword": "גָּזַז",
+	"headwords": [
+		{
+			"text": "גָּזַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 229,
 		"column": "a"

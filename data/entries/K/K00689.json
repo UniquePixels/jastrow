@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00689",
-	"slug": "כלדי",
-	"headword": {
-		"text": "כַּלְדִּי"
-	},
+	"sefariaHeadword": "כַּלְדִּי",
+	"headwords": [
+		{
+			"text": "כַּלְדִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

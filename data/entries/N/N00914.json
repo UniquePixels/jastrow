@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00914",
-	"slug": "נסא-1",
-	"headword": {
-		"text": "נִסָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִסָּא II",
+	"headwords": [
+		{
+			"text": "נִסָּא",
+			"homograph": 2
+		},
 		{
 			"text": "נִסָּה"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 915,
 		"column": "a"

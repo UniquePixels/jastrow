@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01536",
-	"slug": "שמריין",
-	"headword": {
-		"text": "שָׁמְרַיִין"
-	},
+	"sefariaHeadword": "שָׁמְרַיִין",
+	"headwords": [
+		{
+			"text": "שָׁמְרַיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "b"

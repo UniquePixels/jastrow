@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00616",
-	"slug": "ירושה",
-	"headword": {
-		"text": "יְרוּשָּׁה"
-	},
+	"sefariaHeadword": "יְרוּשָּׁה",
+	"headwords": [
+		{
+			"text": "יְרוּשָּׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "a"

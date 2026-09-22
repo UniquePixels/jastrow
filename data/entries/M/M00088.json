@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00088",
-	"slug": "מבלעתא",
-	"headword": {
-		"text": "מַבְלַעְתָּא"
-	},
+	"sefariaHeadword": "מַבְלַעְתָּא",
+	"headwords": [
+		{
+			"text": "מַבְלַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

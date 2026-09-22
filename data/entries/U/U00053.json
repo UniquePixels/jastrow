@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00053",
-	"slug": "שארותא",
-	"headword": {
-		"text": "שְׁאָרוּתָא"
-	},
+	"sefariaHeadword": "שְׁאָרוּתָא",
+	"headwords": [
+		{
+			"text": "שְׁאָרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1509,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00545",
-	"slug": "נטולה",
-	"headword": {
-		"text": "נְטוּלָה"
-	},
+	"sefariaHeadword": "נְטוּלָה",
+	"headwords": [
+		{
+			"text": "נְטוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

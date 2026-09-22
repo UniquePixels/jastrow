@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00062",
-	"slug": "בבלאה",
-	"headword": {
-		"text": "בַּבְלָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּבְלָאָה",
+	"headwords": [
+		{
+			"text": "בַּבְלָאָה"
+		},
 		{
 			"text": "בַּבְלַאי"
 		},
@@ -15,6 +16,7 @@
 			"text": "בַּבְלָיָיא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 137,
 		"column": "a"

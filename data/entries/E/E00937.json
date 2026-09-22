@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00937",
-	"slug": "השקיה",
-	"headword": {
-		"text": "הַשְׁקָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַשְׁקָיָה",
+	"headwords": [
+		{
+			"text": "הַשְׁקָיָה"
+		},
 		{
 			"text": "הַשְׁקָיָיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הַשְׁקָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 370,
 		"column": "b"

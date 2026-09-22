@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00919",
-	"slug": "השיאה",
-	"headword": {
-		"text": "הֶשֵּׂיאָה"
-	},
+	"sefariaHeadword": "הֶשֵּׂיאָה",
+	"headwords": [
+		{
+			"text": "הֶשֵּׂיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "b"

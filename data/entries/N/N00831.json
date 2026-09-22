@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00831",
-	"slug": "נכית",
-	"headword": {
-		"text": "נְכֵית"
-	},
+	"sefariaHeadword": "נְכֵית",
+	"headwords": [
+		{
+			"text": "נְכֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01934",
-	"slug": "מסירה",
-	"headword": {
-		"text": "מְסִירָה"
-	},
+	"sefariaHeadword": "מְסִירָה",
+	"headwords": [
+		{
+			"text": "מְסִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "a"

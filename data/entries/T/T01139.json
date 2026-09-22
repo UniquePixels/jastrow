@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01139",
-	"slug": "רתך-2",
-	"headword": {
-		"text": "רְתַךְ"
-	},
+	"sefariaHeadword": "רְתַךְ",
+	"headwords": [
+		{
+			"text": "רְתַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "b"

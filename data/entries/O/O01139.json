@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01139",
-	"slug": "סמראי",
-	"headword": {
-		"text": "סְמָרָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְמָרָאֵי",
+	"headwords": [
+		{
+			"text": "סְמָרָאֵי"
+		},
 		{
 			"text": "סַמְרָאֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1003,
 		"column": "b"

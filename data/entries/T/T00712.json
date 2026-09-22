@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00712",
-	"slug": "ריר-1",
-	"headword": {
-		"text": "רִיר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רִיר I",
+	"headwords": [
+		{
+			"text": "רִיר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1477,
 		"column": "b"

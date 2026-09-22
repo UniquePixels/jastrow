@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01505",
-	"slug": "מלוח-1",
-	"headword": {
-		"text": "מָלוּחַ"
-	},
+	"sefariaHeadword": "מָלוּחַ",
+	"headwords": [
+		{
+			"text": "מָלוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

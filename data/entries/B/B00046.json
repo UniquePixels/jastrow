@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00046",
-	"slug": "בארי",
-	"headword": {
-		"text": "בְּאֵרַי"
-	},
+	"sefariaHeadword": "בְּאֵרַי",
+	"headwords": [
+		{
+			"text": "בְּאֵרַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

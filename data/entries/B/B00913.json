@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00913",
-	"slug": "בלריון",
-	"headword": {
-		"text": "בלריון"
-	},
+	"sefariaHeadword": "בלריון",
+	"headwords": [
+		{
+			"text": "בלריון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

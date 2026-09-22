@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02146",
-	"slug": "מען",
-	"headword": {
-		"text": "מען"
-	},
+	"sefariaHeadword": "מען",
+	"headwords": [
+		{
+			"text": "מען"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "a"

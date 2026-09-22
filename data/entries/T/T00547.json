@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00547",
-	"slug": "רחתנא",
-	"headword": {
-		"text": "רֵחְתָנָא"
-	},
+	"sefariaHeadword": "רֵחְתָנָא",
+	"headwords": [
+		{
+			"text": "רֵחְתָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1470,
 		"column": "b"

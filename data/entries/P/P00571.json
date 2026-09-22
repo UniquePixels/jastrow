@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00571",
-	"slug": "עילה",
-	"headword": {
-		"text": "עִילָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילָה",
+	"headwords": [
+		{
+			"text": "עִילָה"
+		},
 		{
 			"text": "עִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1070,
 		"column": "a"

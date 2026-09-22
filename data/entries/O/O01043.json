@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01043",
-	"slug": "סלת-3",
-	"headword": {
-		"text": "סַלָּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלָּת",
+	"headwords": [
+		{
+			"text": "סַלָּת"
+		},
 		{
 			"text": "סִילָּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 998,
 		"column": "a"

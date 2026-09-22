@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00582",
-	"slug": "ביטחון",
-	"headword": {
-		"text": "בִּיטָּחוֹן"
-	},
+	"sefariaHeadword": "בִּיטָּחוֹן",
+	"headwords": [
+		{
+			"text": "בִּיטָּחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "b"

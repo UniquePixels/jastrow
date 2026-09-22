@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02509",
-	"slug": "אספסיינוס",
-	"headword": {
-		"text": "אִסְפַּסְיָינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפַּסְיָינוֹס",
+	"headwords": [
+		{
+			"text": "אִסְפַּסְיָינוֹס"
+		},
 		{
 			"text": "אִסְפַּסְיָנוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"

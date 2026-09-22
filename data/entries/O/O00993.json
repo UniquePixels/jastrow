@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00993",
-	"slug": "סליקוס",
-	"headword": {
-		"text": "סְלִיקוֹס"
-	},
+	"sefariaHeadword": "סְלִיקוֹס",
+	"headwords": [
+		{
+			"text": "סְלִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

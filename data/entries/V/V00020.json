@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00020",
-	"slug": "תאיב",
-	"headword": {
-		"text": "תְּאֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּאֵיב",
+	"headwords": [
+		{
+			"text": "תְּאֵיב"
+		},
 		{
 			"text": "תָּאֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1642,
 		"column": "a"

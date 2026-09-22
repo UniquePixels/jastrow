@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00140",
-	"slug": "טוח-1",
-	"headword": {
-		"text": "טוּחַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוּחַ I",
+	"headwords": [
+		{
+			"text": "טוּחַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 522,
 		"column": "b"

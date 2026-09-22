@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03277",
-	"slug": "אשות",
-	"headword": {
-		"text": "אָשׁוּת"
-	},
+	"sefariaHeadword": "אָשׁוּת",
+	"headwords": [
+		{
+			"text": "אָשׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

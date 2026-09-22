@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02147",
-	"slug": "אניסא-1",
-	"headword": {
-		"text": "אָנִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָנִיסָא",
+	"headwords": [
+		{
+			"text": "אָנִיסָא"
+		},
 		{
 			"text": "אָנוֹסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוֹנָסָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 82,
 		"column": "b"

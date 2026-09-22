@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00600",
-	"slug": "בייר-2",
-	"headword": {
-		"text": "בַּיָּיר"
-	},
+	"sefariaHeadword": "בַּיָּיר",
+	"headwords": [
+		{
+			"text": "בַּיָּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

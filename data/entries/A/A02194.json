@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02194",
-	"slug": "אנטיפיטא",
-	"headword": {
-		"text": "אַנְטִיפִּיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְטִיפִּיטָא",
+	"headwords": [
+		{
+			"text": "אַנְטִיפִּיטָא"
+		},
 		{
 			"text": "אַנְטִיפִּיטָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "פִּיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 84,
 		"column": "a"

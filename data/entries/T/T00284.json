@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00284",
-	"slug": "רהיב",
-	"headword": {
-		"text": "רְהֵיב"
-	},
+	"sefariaHeadword": "רְהֵיב",
+	"headwords": [
+		{
+			"text": "רְהֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01413",
-	"slug": "קלקיס",
-	"headword": {
-		"text": "קלקיס"
-	},
+	"sefariaHeadword": "קלקיס",
+	"headwords": [
+		{
+			"text": "קלקיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

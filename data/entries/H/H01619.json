@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01619",
-	"slug": "חרודי",
-	"headword": {
-		"text": "חרודי"
-	},
+	"sefariaHeadword": "חרודי",
+	"headwords": [
+		{
+			"text": "חרודי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

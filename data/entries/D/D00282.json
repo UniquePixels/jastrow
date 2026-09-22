@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00282",
-	"slug": "דומיא",
-	"headword": {
-		"text": "דּוּמְיָא"
-	},
+	"sefariaHeadword": "דּוּמְיָא",
+	"headwords": [
+		{
+			"text": "דּוּמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

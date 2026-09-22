@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00425",
-	"slug": "חופיא",
-	"headword": {
-		"text": "חוּפְיָא"
-	},
+	"sefariaHeadword": "חוּפְיָא",
+	"headwords": [
+		{
+			"text": "חוּפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "b"

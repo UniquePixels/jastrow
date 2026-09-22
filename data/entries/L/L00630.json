@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00630",
-	"slug": "לפום",
-	"headword": {
-		"text": "לְפוּם"
-	},
+	"sefariaHeadword": "לְפוּם",
+	"headwords": [
+		{
+			"text": "לְפוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

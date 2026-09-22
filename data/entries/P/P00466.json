@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00466",
-	"slug": "עטן",
-	"headword": {
-		"text": "עָטַן"
-	},
+	"sefariaHeadword": "עָטַן",
+	"headwords": [
+		{
+			"text": "עָטַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

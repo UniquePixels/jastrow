@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00657",
-	"slug": "עיקולא",
-	"headword": {
-		"text": "עִיקּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקּוּלָא",
+	"headwords": [
 		{
-			"text": "עִקּ׳"
+			"text": "עִיקּוּלָא"
+		},
+		{
+			"text": "עִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "a"

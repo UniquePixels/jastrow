@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00312",
-	"slug": "נודירא",
-	"headword": {
-		"text": "נוֹדֵירָא"
-	},
+	"sefariaHeadword": "נוֹדֵירָא",
+	"headwords": [
+		{
+			"text": "נוֹדֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "a"

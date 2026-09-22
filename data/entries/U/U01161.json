@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01161",
-	"slug": "שכל-4",
-	"headword": {
-		"text": "שְׁכַל"
-	},
+	"sefariaHeadword": "שְׁכַל",
+	"headwords": [
+		{
+			"text": "שְׁכַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1574,
 		"column": "a"

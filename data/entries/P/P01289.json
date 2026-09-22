@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01289",
-	"slug": "ערברבין",
-	"headword": {
-		"text": "עֲרַבְרְבִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרַבְרְבִין",
+	"headwords": [
+		{
+			"text": "עֲרַבְרְבִין"
+		},
 		{
 			"text": "עֲרַבְרוּבִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1113,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01291",
-	"slug": "מירדא",
-	"headword": {
-		"text": "מֵירְדָא"
-	},
+	"sefariaHeadword": "מֵירְדָא",
+	"headwords": [
+		{
+			"text": "מֵירְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

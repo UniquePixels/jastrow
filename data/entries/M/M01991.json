@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01991",
-	"slug": "מספק",
-	"headword": {
-		"text": "מִסְפְּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְפְּק",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִסְפְּק"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 810,
 		"column": "a"

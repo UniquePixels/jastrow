@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00338",
-	"slug": "נוזלא",
-	"headword": {
-		"text": "נוזלא"
-	},
+	"sefariaHeadword": "נוזלא",
+	"headwords": [
+		{
+			"text": "נוזלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "b"

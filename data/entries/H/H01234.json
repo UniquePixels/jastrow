@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01234",
-	"slug": "חמשי",
-	"headword": {
-		"text": "חֲמִשִׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִשִׁי",
+	"headwords": [
+		{
+			"text": "חֲמִשִׁי"
+		},
 		{
 			"text": "חֲמִשַׁי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 480,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01100",
-	"slug": "עצה-1",
-	"headword": {
-		"text": "עֵצָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֵצָה I",
+	"headwords": [
+		{
+			"text": "עֵצָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1101,
 		"column": "b"

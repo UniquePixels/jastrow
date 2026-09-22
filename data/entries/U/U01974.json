@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01974",
-	"slug": "שרייה",
-	"headword": {
-		"text": "שְׁרִיָּיה"
-	},
+	"sefariaHeadword": "שְׁרִיָּיה",
+	"headwords": [
+		{
+			"text": "שְׁרִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00779",
-	"slug": "גיסטרא",
-	"headword": {
-		"text": "גִּיסְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיסְטְרָא",
+	"headwords": [
+		{
+			"text": "גִּיסְטְרָא"
+		},
 		{
 			"text": "גִּסְטְרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "גִּצְטְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 240,
 		"column": "b"

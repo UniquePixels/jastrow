@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01041",
-	"slug": "שיקול",
-	"headword": {
-		"text": "שִׁיקּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיקּוּל",
+	"headwords": [
 		{
-			"text": "שִׁקּ׳"
+			"text": "שִׁיקּוּל"
+		},
+		{
+			"text": "שִׁקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1567,
 		"column": "b"

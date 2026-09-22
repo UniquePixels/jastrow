@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01363",
-	"slug": "שלמתא",
-	"headword": {
-		"text": "שְׁלֵמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלֵמְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁלֵמְתָּא"
+		},
 		{
 			"text": "שְׁלֶמְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1587,
 		"column": "a"

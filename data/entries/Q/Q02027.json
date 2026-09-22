@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02027",
-	"slug": "פרשא-1",
-	"headword": {
-		"text": "פְּרָשָׁא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּרָשָׁא I",
+	"headwords": [
+		{
+			"text": "פְּרָשָׁא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1243,
 		"column": "b"

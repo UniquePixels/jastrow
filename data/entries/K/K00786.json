@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00786",
-	"slug": "כמא",
-	"headword": {
-		"text": "כְּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּמָא",
+	"headwords": [
+		{
+			"text": "כְּמָא"
+		},
 		{
 			"text": "כְּמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 645,
 		"column": "b"

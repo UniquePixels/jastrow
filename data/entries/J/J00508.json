@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00508",
-	"slug": "יפיפי",
-	"headword": {
-		"text": "יְפֵיפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְפֵיפִי",
+	"headwords": [
+		{
+			"text": "יְפֵיפִי"
+		},
 		{
 			"text": "יְפֵיפִיָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 586,
 		"column": "b"

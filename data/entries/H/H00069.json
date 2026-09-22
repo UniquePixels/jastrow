@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00069",
-	"slug": "חבין",
-	"headword": {
-		"text": "חבין"
-	},
+	"sefariaHeadword": "חבין",
+	"headwords": [
+		{
+			"text": "חבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "a"

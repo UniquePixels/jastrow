@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01913",
-	"slug": "אלמון-1",
-	"headword": {
-		"text": "אַלְמוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַלְמוֹן I",
+	"headwords": [
+		{
+			"text": "אַלְמוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 71,
 		"column": "b"

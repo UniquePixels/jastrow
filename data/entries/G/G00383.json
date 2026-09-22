@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00383",
-	"slug": "זינומתא",
-	"headword": {
-		"text": "זינומתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זינומתא",
+	"headwords": [
 		{
-			"text": "זנו׳"
+			"text": "זינומתא"
+		},
+		{
+			"text": "זנו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "a"

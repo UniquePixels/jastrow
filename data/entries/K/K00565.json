@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00565",
-	"slug": "כינה",
-	"headword": {
-		"text": "כִּינָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינָּה",
+	"headwords": [
+		{
+			"text": "כִּינָּה"
+		},
 		{
 			"text": "כִּנָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00420",
-	"slug": "ימן-2",
-	"headword": {
-		"text": "יְמַן"
-	},
+	"sefariaHeadword": "יְמַן",
+	"headwords": [
+		{
+			"text": "יְמַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

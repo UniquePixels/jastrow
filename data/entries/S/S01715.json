@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01715",
-	"slug": "קפוי",
-	"headword": {
-		"text": "קִפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִפּוּי",
+	"headwords": [
+		{
+			"text": "קִפּוּי"
+		},
 		{
 			"text": "קִפּוּל"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִפּוּלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1399,
 		"column": "a"

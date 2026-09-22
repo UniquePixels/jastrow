@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00702",
-	"slug": "ישפה",
-	"headword": {
-		"text": "יָשְׁפֵּה"
-	},
+	"sefariaHeadword": "יָשְׁפֵּה",
+	"headwords": [
+		{
+			"text": "יָשְׁפֵּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 601,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01654",
-	"slug": "חרחור-2",
-	"headword": {
-		"text": "חַרְחוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְחוּר",
+	"headwords": [
 		{
-			"text": "חִרְ׳"
+			"text": "חַרְחוּר"
+		},
+		{
+			"text": "חִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 501,
 		"column": "a"

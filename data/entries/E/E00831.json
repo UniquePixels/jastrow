@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00831",
-	"slug": "הרדפה",
-	"headword": {
-		"text": "הַרְדָּפָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הַרְדָּפָה",
+	"headwords": [
+		{
+			"text": "הַרְדָּפָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 366,
 		"column": "a"

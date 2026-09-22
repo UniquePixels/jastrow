@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00633",
-	"slug": "עיסקא",
-	"headword": {
-		"text": "עִיסְקָא"
-	},
+	"sefariaHeadword": "עִיסְקָא",
+	"headwords": [
+		{
+			"text": "עִיסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1073,
 		"column": "a"

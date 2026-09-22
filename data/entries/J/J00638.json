@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00638",
-	"slug": "יריעה",
-	"headword": {
-		"text": "יְרִיעָה"
-	},
+	"sefariaHeadword": "יְרִיעָה",
+	"headwords": [
+		{
+			"text": "יְרִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

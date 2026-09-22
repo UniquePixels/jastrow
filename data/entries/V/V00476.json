@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00476",
-	"slug": "תיסומן",
-	"headword": {
-		"text": "תיסומן"
-	},
+	"sefariaHeadword": "תיסומן",
+	"headwords": [
+		{
+			"text": "תיסומן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "b"

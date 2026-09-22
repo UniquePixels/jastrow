@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00577",
-	"slug": "ביט",
-	"headword": {
-		"text": "ביט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ביט",
+	"headwords": [
+		{
+			"text": "ביט"
+		},
 		{
 			"text": "ביטא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

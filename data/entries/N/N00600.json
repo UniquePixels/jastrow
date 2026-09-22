@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00600",
-	"slug": "ניאקא",
-	"headword": {
-		"text": "נְיָאקָא"
-	},
+	"sefariaHeadword": "נְיָאקָא",
+	"headwords": [
+		{
+			"text": "נְיָאקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01542",
-	"slug": "קנוטרוכוס",
-	"headword": {
-		"text": "קנוטרוכוס"
-	},
+	"sefariaHeadword": "קנוטרוכוס",
+	"headwords": [
+		{
+			"text": "קנוטרוכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01155",
-	"slug": "עקדה",
-	"headword": {
-		"text": "עֲקֵדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲקֵדָה",
+	"headwords": [
+		{
+			"text": "עֲקֵדָה"
+		},
 		{
 			"text": "עֲקֵדְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1105,
 		"column": "a"

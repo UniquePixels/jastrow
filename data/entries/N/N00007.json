@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00007",
-	"slug": "נאגנא",
-	"headword": {
-		"text": "נָאגָנָא"
-	},
+	"sefariaHeadword": "נָאגָנָא",
+	"headwords": [
+		{
+			"text": "נָאגָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "a"

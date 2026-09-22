@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01018",
-	"slug": "פלטים",
-	"headword": {
-		"text": "פלטים"
-	},
+	"sefariaHeadword": "פלטים",
+	"headwords": [
+		{
+			"text": "פלטים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "b"

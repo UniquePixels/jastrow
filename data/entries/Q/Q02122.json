@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02122",
-	"slug": "פתגומרין",
-	"headword": {
-		"text": "פַּתְגּוּמְרִין"
-	},
+	"sefariaHeadword": "פַּתְגּוּמְרִין",
+	"headwords": [
+		{
+			"text": "פַּתְגּוּמְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00070",
-	"slug": "תבר-1",
-	"headword": {
-		"text": "תָּבַר"
-	},
+	"sefariaHeadword": "תָּבַר",
+	"headwords": [
+		{
+			"text": "תָּבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1645,
 		"column": "b"

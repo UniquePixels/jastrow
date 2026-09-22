@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00504",
-	"slug": "זמא",
-	"headword": {
-		"text": "זְמָא"
-	},
+	"sefariaHeadword": "זְמָא",
+	"headwords": [
+		{
+			"text": "זְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "a"

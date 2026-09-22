@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N00406",
-	"slug": "נוקבא-2",
-	"headword": {
-		"text": "נוּקְבָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּקְבָא II",
+	"headwords": [
+		{
+			"text": "נוּקְבָא",
+			"homograph": 2
+		},
 		{
 			"text": "נוּקְבָה"
 		},
@@ -13,6 +14,7 @@
 			"text": "נוּקְבְתָא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 890,
 		"column": "a"

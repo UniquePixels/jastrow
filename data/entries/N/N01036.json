@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01036",
-	"slug": "נפי-1",
-	"headword": {
-		"text": "נפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נפי",
+	"headwords": [
+		{
+			"text": "נפי"
+		},
 		{
 			"text": "נָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 923,
 		"column": "b"

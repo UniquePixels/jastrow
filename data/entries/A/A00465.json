@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00465",
-	"slug": "אדריינטיס",
-	"headword": {
-		"text": "אדריינטיס"
-	},
+	"sefariaHeadword": "אדריינטיס",
+	"headwords": [
+		{
+			"text": "אדריינטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

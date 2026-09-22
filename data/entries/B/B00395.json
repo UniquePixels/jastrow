@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00395",
-	"slug": "בושה",
-	"headword": {
-		"text": "בּוּשָׁה"
-	},
+	"sefariaHeadword": "בּוּשָׁה",
+	"headwords": [
+		{
+			"text": "בּוּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "a"

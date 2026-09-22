@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01529",
-	"slug": "שמראי",
-	"headword": {
-		"text": "שַׁמְרַאי"
-	},
+	"sefariaHeadword": "שַׁמְרַאי",
+	"headwords": [
+		{
+			"text": "שַׁמְרַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "a"

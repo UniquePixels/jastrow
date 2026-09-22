@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00721",
-	"slug": "עכברי",
-	"headword": {
-		"text": "עַכְבְּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַכְבְּרֵי",
+	"headwords": [
+		{
+			"text": "עַכְבְּרֵי"
+		},
 		{
 			"text": "עַכְבְּרַיָּא"
 		},
@@ -12,12 +13,10 @@
 			"text": "עַכְבְּרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1078,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

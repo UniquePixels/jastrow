@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00325",
-	"slug": "רווז",
-	"headword": {
-		"text": "רְוַוז"
-	},
+	"sefariaHeadword": "רְוַוז",
+	"headwords": [
+		{
+			"text": "רְוַוז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "b"

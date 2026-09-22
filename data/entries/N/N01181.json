@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01181",
-	"slug": "נקוניא",
-	"headword": {
-		"text": "נקוניא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נקוניא",
+	"headwords": [
+		{
+			"text": "נקוניא"
+		},
 		{
 			"text": "נקוניקא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "b"

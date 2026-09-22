@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D01150",
-	"slug": "דשקתא",
-	"headword": {
-		"text": "דשקתא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דשקתא",
+	"headwords": [
+		{
+			"text": "דשקתא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 326,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00285",
-	"slug": "טטרוגא",
-	"headword": {
-		"text": "טטרוגא"
-	},
+	"sefariaHeadword": "טטרוגא",
+	"headwords": [
+		{
+			"text": "טטרוגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

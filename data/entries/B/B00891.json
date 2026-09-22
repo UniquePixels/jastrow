@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00891",
-	"slug": "בלנרין",
-	"headword": {
-		"text": "בַּלְנְרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְנְרִין",
+	"headwords": [
+		{
+			"text": "בַּלְנְרִין"
+		},
 		{
 			"text": "בַּלְרִין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 174,
 		"column": "a"
@@ -22,7 +24,7 @@
 			"label": "1"
 		},
 		{
-			"gloss": "<i>bath-house</i>, v. <cite ref=\"B00842\"><he>בלורין</he></cite>.—V. <cite ref=\"B00965\"><he>בַּנְּרִיּוֹת</he></cite>.",
+			"gloss": "<i>bath-house</i>, v. <cite ref=\"B00842\"><he>בלורין</he></cite>.—V. <cite ref=\"B00965\"><he>בַּנְּרִיּוֹת</he></cite>.",
 			"units": [],
 			"label": "2"
 		}

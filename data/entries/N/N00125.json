@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00125",
-	"slug": "נגדתא",
-	"headword": {
-		"text": "נַגַּדְתָּא"
-	},
+	"sefariaHeadword": "נַגַּדְתָּא",
+	"headwords": [
+		{
+			"text": "נַגַּדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 872,
 		"column": "b"

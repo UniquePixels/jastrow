@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01887",
-	"slug": "חתים",
-	"headword": {
-		"text": "חֲתִים"
-	},
+	"sefariaHeadword": "חֲתִים",
+	"headwords": [
+		{
+			"text": "חֲתִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "b"

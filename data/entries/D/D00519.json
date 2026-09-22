@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00519",
-	"slug": "דיוסטוס",
-	"headword": {
-		"text": "דיוסטוס"
-	},
+	"sefariaHeadword": "דיוסטוס",
+	"headwords": [
+		{
+			"text": "דיוסטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

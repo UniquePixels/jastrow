@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01559",
-	"slug": "פרגיון",
-	"headword": {
-		"text": "פַּרְגִּיוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְגִּיוָן",
+	"headwords": [
+		{
+			"text": "פַּרְגִּיוָן"
+		},
 		{
 			"text": "פַּרְגְּיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1214,
 		"column": "b"

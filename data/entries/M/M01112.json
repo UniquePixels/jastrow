@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01112",
-	"slug": "מיחא",
-	"headword": {
-		"text": "מֵיחָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מֵיחָא",
+	"headwords": [
+		{
+			"text": "מֵיחָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

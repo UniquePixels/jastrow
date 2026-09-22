@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01056",
-	"slug": "דרומא",
-	"headword": {
-		"text": "דָּרוֹמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּרוֹמָא",
+	"headwords": [
+		{
+			"text": "דָּרוֹמָא"
+		},
 		{
 			"text": "דָּרוֹמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 322,
 		"column": "a"

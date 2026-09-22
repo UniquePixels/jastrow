@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00765",
-	"slug": "כלמא-2",
-	"headword": {
-		"text": "כַּלְמָא"
-	},
+	"sefariaHeadword": "כַּלְמָא",
+	"headwords": [
+		{
+			"text": "כַּלְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

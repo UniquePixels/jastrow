@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00419",
-	"slug": "ציפורני",
-	"headword": {
-		"text": "צִיפּוֹרָנִי"
-	},
+	"sefariaHeadword": "צִיפּוֹרָנִי",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

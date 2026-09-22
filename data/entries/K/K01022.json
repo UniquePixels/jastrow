@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01022",
-	"slug": "כפישה",
-	"headword": {
-		"text": "כְּפִישָׁה"
-	},
+	"sefariaHeadword": "כְּפִישָׁה",
+	"headwords": [
+		{
+			"text": "כְּפִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "b"

@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "O00929",
-	"slug": "סכנין-1",
-	"headword": {
-		"text": "סִכְנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכְנִין",
+	"headwords": [
+		{
+			"text": "סִכְנִין"
+		},
 		{
 			"text": "סִכְנִי"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 992,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

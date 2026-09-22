@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02059",
-	"slug": "פשוש",
-	"headword": {
-		"text": "פשוש"
-	},
+	"sefariaHeadword": "פשוש",
+	"headwords": [
+		{
+			"text": "פשוש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1245,
 		"column": "b"

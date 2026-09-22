@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01212",
-	"slug": "שלד",
-	"headword": {
-		"text": "שֶׁלֶד"
-	},
+	"sefariaHeadword": "שֶׁלֶד",
+	"headwords": [
+		{
+			"text": "שֶׁלֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00536",
-	"slug": "אוגד",
-	"headword": {
-		"text": "אוּגָד"
-	},
+	"sefariaHeadword": "אוּגָד",
+	"headwords": [
+		{
+			"text": "אוּגָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

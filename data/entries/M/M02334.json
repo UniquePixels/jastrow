@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02334",
-	"slug": "מצמחא",
-	"headword": {
-		"text": "מִצְמְחָא"
-	},
+	"sefariaHeadword": "מִצְמְחָא",
+	"headwords": [
+		{
+			"text": "מִצְמְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

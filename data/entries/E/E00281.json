@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00281",
-	"slug": "הורמין",
-	"headword": {
-		"text": "הוֹרְמִין"
-	},
+	"sefariaHeadword": "הוֹרְמִין",
+	"headwords": [
+		{
+			"text": "הוֹרְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "a"

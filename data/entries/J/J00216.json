@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00216",
-	"slug": "יוסטתה",
-	"headword": {
-		"text": "יוסטתה"
-	},
+	"sefariaHeadword": "יוסטתה",
+	"headwords": [
+		{
+			"text": "יוסטתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "b"

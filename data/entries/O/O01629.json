@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01629",
-	"slug": "סריקות",
-	"headword": {
-		"text": "סריקות"
-	},
+	"sefariaHeadword": "סריקות",
+	"headwords": [
+		{
+			"text": "סריקות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "b"

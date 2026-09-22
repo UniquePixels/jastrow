@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00706",
-	"slug": "לשישית",
-	"headword": {
-		"text": "לְשִׁישִׁית"
-	},
+	"sefariaHeadword": "לְשִׁישִׁית",
+	"headwords": [
+		{
+			"text": "לְשִׁישִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "a"

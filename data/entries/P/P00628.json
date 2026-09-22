@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00628",
-	"slug": "עיסבא",
-	"headword": {
-		"text": "עִיסְבָּא"
-	},
+	"sefariaHeadword": "עִיסְבָּא",
+	"headwords": [
+		{
+			"text": "עִיסְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

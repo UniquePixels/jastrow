@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01820",
-	"slug": "אלוניסתין",
-	"headword": {
-		"text": "אלוניסתין"
-	},
+	"sefariaHeadword": "אלוניסתין",
+	"headwords": [
+		{
+			"text": "אלוניסתין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00382",
-	"slug": "נוס-1",
-	"headword": {
-		"text": "נוּס"
-	},
+	"sefariaHeadword": "נוּס",
+	"headwords": [
+		{
+			"text": "נוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01304",
-	"slug": "סעריא",
-	"headword": {
-		"text": "סְעָרַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעָרַיָּא",
+	"headwords": [
+		{
+			"text": "סְעָרַיָּא"
+		},
 		{
 			"text": "סְעָרֵי"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְעָרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1010,
 		"column": "b"

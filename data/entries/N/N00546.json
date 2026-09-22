@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00546",
-	"slug": "נטופא-1",
-	"headword": {
-		"text": "נְטוֹפָא"
-	},
+	"sefariaHeadword": "נְטוֹפָא",
+	"headwords": [
+		{
+			"text": "נְטוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

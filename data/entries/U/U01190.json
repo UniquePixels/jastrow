@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01190",
-	"slug": "שכרות",
-	"headword": {
-		"text": "שִׁכָּרוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכָּרוּת",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁכָּרוּת"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1576,
 		"column": "b"

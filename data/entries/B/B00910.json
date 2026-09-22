@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00910",
-	"slug": "בלקיא",
-	"headword": {
-		"text": "בלקיא"
-	},
+	"sefariaHeadword": "בלקיא",
+	"headwords": [
+		{
+			"text": "בלקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

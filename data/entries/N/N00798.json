@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00798",
-	"slug": "נישובים",
-	"headword": {
-		"text": "נישובים"
-	},
+	"sefariaHeadword": "נישובים",
+	"headwords": [
+		{
+			"text": "נישובים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

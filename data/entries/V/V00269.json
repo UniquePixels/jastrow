@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00269",
-	"slug": "תוקריבא",
-	"headword": {
-		"text": "תּוּקרֵיבָא"
-	},
+	"sefariaHeadword": "תּוּקרֵיבָא",
+	"headwords": [
+		{
+			"text": "תּוּקרֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "a"

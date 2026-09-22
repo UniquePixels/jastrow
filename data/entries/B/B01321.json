@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01321",
-	"slug": "ברקאי-2",
-	"headword": {
-		"text": "בַּרְקַאי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בַּרְקַאי II",
+	"headwords": [
+		{
+			"text": "בַּרְקַאי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 197,
 		"column": "a"

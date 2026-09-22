@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00068",
-	"slug": "רבוון",
-	"headword": {
-		"text": "רִבְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְוָון",
+	"headwords": [
+		{
+			"text": "רִבְוָון"
+		},
 		{
 			"text": "רִבְוָות"
 		},
@@ -12,6 +13,7 @@
 			"text": "רְבַוְותָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1440,
 		"column": "a"

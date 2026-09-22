@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01284",
-	"slug": "פסיינתא",
-	"headword": {
-		"text": "פִּסְיָינְתָּא"
-	},
+	"sefariaHeadword": "פִּסְיָינְתָּא",
+	"headwords": [
+		{
+			"text": "פִּסְיָינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "a"

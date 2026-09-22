@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00053",
-	"slug": "טבילה",
-	"headword": {
-		"text": "טְבִילָה"
-	},
+	"sefariaHeadword": "טְבִילָה",
+	"headwords": [
+		{
+			"text": "טְבִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "b"

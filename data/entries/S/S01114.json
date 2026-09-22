@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01114",
-	"slug": "קיפרוס",
-	"headword": {
-		"text": "קִיפְרוֹס"
-	},
+	"sefariaHeadword": "קִיפְרוֹס",
+	"headwords": [
+		{
+			"text": "קִיפְרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "b"

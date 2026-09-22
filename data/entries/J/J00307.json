@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00307",
-	"slug": "יחף-3",
-	"headword": {
-		"text": "יָחֵף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יָחֵף II",
+	"headwords": [
+		{
+			"text": "יָחֵף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 575,
 		"column": "b"

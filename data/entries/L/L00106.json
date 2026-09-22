@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00106",
-	"slug": "לבנו",
-	"headword": {
-		"text": "לַבְנוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַבְנוֹ",
+	"headwords": [
+		{
+			"text": "לַבְנוֹ"
+		},
 		{
 			"text": "לַבְנוֹב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00396",
-	"slug": "ילע",
-	"headword": {
-		"text": "ילע",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ילע",
+	"headwords": [
+		{
+			"text": "ילע",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

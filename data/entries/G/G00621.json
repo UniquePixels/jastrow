@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00621",
-	"slug": "זפק-1",
-	"headword": {
-		"text": "זֶפֶק"
-	},
+	"sefariaHeadword": "זֶפֶק",
+	"headwords": [
+		{
+			"text": "זֶפֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

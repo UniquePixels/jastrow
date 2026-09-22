@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00822",
-	"slug": "טריקלין",
-	"headword": {
-		"text": "טְרִיקְלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִיקְלִין",
+	"headwords": [
+		{
+			"text": "טְרִיקְלִין"
+		},
 		{
 			"text": "טְרַקְלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 554,
 		"column": "b"

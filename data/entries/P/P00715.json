@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00715",
-	"slug": "עכבונית",
-	"headword": {
-		"text": "עכבונית"
-	},
+	"sefariaHeadword": "עכבונית",
+	"headwords": [
+		{
+			"text": "עכבונית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

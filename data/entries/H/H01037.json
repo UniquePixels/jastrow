@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01037",
-	"slug": "חליטא-2",
-	"headword": {
-		"text": "חֲלִיטָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִיטָא II",
+	"headwords": [
+		{
+			"text": "חֲלִיטָא",
+			"homograph": 2
+		},
 		{
 			"text": "חֲלִיטָתָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 468,
 		"column": "a"

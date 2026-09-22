@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01121",
-	"slug": "רתות",
-	"headword": {
-		"text": "רִתּוּת"
-	},
+	"sefariaHeadword": "רִתּוּת",
+	"headwords": [
+		{
+			"text": "רִתּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "b"

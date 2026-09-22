@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00299",
-	"slug": "יחן",
-	"headword": {
-		"text": "יַחַן"
-	},
+	"sefariaHeadword": "יַחַן",
+	"headwords": [
+		{
+			"text": "יַחַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "a"

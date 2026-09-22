@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00431",
-	"slug": "רוק-2",
-	"headword": {
-		"text": "רוּק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רוּק II",
+	"headwords": [
+		{
+			"text": "רוּק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1463,
 		"column": "a"

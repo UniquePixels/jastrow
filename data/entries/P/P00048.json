@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00048",
-	"slug": "עבין",
-	"headword": {
-		"text": "עבין"
-	},
+	"sefariaHeadword": "עבין",
+	"headwords": [
+		{
+			"text": "עבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

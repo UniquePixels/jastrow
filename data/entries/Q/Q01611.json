@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01611",
-	"slug": "פרובגירון",
-	"headword": {
-		"text": "פרובגירון"
-	},
+	"sefariaHeadword": "פרובגירון",
+	"headwords": [
+		{
+			"text": "פרובגירון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "a"

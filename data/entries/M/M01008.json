@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01008",
-	"slug": "מטליה",
-	"headword": {
-		"text": "מטליה"
-	},
+	"sefariaHeadword": "מטליה",
+	"headwords": [
+		{
+			"text": "מטליה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

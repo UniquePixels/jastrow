@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00585",
-	"slug": "ביטנתא",
-	"headword": {
-		"text": "בִּיטְנָתָא"
-	},
+	"sefariaHeadword": "בִּיטְנָתָא",
+	"headwords": [
+		{
+			"text": "בִּיטְנָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "b"

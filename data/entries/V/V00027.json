@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00027",
-	"slug": "תאנה",
-	"headword": {
-		"text": "תְּאֵנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּאֵנָה",
+	"headwords": [
 		{
-			"text": "תְּאֵי׳"
+			"text": "תְּאֵנָה"
+		},
+		{
+			"text": "תְּאֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1642,
 		"column": "b"

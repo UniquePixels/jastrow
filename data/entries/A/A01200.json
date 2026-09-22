@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "A01200",
-	"slug": "איזמיל",
-	"headword": {
-		"text": "אִיזְמֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיזְמֵיל",
+	"headwords": [
+		{
+			"text": "אִיזְמֵיל"
+		},
 		{
 			"text": "אִיזְמֵל"
 		},
 		{
-			"text": "אִזְ׳"
+			"text": "אִזְ׳",
+			"partial": true
 		},
 		{
 			"text": "אוּזְמֵל"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 46,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01312",
-	"slug": "גרופינא",
-	"headword": {
-		"text": "גְּרוּפִּינָא"
-	},
+	"sefariaHeadword": "גְּרוּפִּינָא",
+	"headwords": [
+		{
+			"text": "גְּרוּפִּינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

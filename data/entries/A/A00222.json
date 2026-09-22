@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00222",
-	"slug": "אבריקין",
-	"headword": {
-		"text": "אַבְרִיקִין"
-	},
+	"sefariaHeadword": "אַבְרִיקִין",
+	"headwords": [
+		{
+			"text": "אַבְרִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

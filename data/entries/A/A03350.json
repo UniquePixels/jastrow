@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03350",
-	"slug": "אשר-4",
-	"headword": {
-		"text": "אֶשֶׁר"
-	},
+	"sefariaHeadword": "אֶשֶׁר",
+	"headwords": [
+		{
+			"text": "אֶשֶׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

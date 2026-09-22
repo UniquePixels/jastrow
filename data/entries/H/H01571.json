@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01571",
-	"slug": "חקרן",
-	"headword": {
-		"text": "חַקְרָן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חַקְרָן",
+	"headwords": [
+		{
+			"text": "חַקְרָן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 497,
 		"column": "b"

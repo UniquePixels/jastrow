@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00553",
-	"slug": "פטרגוס",
-	"headword": {
-		"text": "פטרגוס"
-	},
+	"sefariaHeadword": "פטרגוס",
+	"headwords": [
+		{
+			"text": "פטרגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

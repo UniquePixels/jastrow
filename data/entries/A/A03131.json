@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03131",
-	"slug": "ארכבתא",
-	"headword": {
-		"text": "אַרְכַּבְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְכַּבְתָּא",
+	"headwords": [
+		{
+			"text": "אַרְכַּבְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 121,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00103",
-	"slug": "סגדום",
-	"headword": {
-		"text": "סַגְדּוּם"
-	},
+	"sefariaHeadword": "סַגְדּוּם",
+	"headwords": [
+		{
+			"text": "סַגְדּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

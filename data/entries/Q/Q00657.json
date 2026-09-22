@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00657",
-	"slug": "פייסונא",
-	"headword": {
-		"text": "פַּיְיסוֹנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּיְיסוֹנָא",
+	"headwords": [
+		{
+			"text": "פַּיְיסוֹנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1163,
 		"column": "a"

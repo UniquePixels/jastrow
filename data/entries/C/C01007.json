@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01007",
-	"slug": "גמוד",
-	"headword": {
-		"text": "גָּמוּד"
-	},
+	"sefariaHeadword": "גָּמוּד",
+	"headwords": [
+		{
+			"text": "גָּמוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

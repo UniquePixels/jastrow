@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01949",
-	"slug": "פרעון",
-	"headword": {
-		"text": "פֵּרָעוֹן"
-	},
+	"sefariaHeadword": "פֵּרָעוֹן",
+	"headwords": [
+		{
+			"text": "פֵּרָעוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "a"

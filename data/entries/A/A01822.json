@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01822",
-	"slug": "אלונקי",
-	"headword": {
-		"text": "אַלּוּנְקֵי"
-	},
+	"sefariaHeadword": "אַלּוּנְקֵי",
+	"headwords": [
+		{
+			"text": "אַלּוּנְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

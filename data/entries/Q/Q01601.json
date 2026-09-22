@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01601",
-	"slug": "פרהגבנא",
-	"headword": {
-		"text": "פַּרְהֲגַבְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְהֲגַבְנָא",
+	"headwords": [
+		{
+			"text": "פַּרְהֲגַבְנָא"
+		},
 		{
 			"text": "פַּרְהֲגַוְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1216,
 		"column": "b"

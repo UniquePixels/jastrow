@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00249",
-	"slug": "קודקדא",
-	"headword": {
-		"text": "קוֹדְקְדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹדְקְדָא",
+	"headwords": [
+		{
+			"text": "קוֹדְקְדָא"
+		},
 		{
 			"text": "קוֹדְקוֹדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1324,
 		"column": "b"

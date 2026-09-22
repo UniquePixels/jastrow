@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00159",
-	"slug": "זוטי",
-	"headword": {
-		"text": "זוּטִי"
-	},
+	"sefariaHeadword": "זוּטִי",
+	"headwords": [
+		{
+			"text": "זוּטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

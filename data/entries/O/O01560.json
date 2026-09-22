@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01560",
-	"slug": "סרונכא",
-	"headword": {
-		"text": "סְרוּנְכָּא"
-	},
+	"sefariaHeadword": "סְרוּנְכָּא",
+	"headwords": [
+		{
+			"text": "סְרוּנְכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

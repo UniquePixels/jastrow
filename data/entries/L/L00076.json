@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00076",
-	"slug": "לביסיא",
-	"headword": {
-		"text": "לְבִיסַיָּא"
-	},
+	"sefariaHeadword": "לְבִיסַיָּא",
+	"headwords": [
+		{
+			"text": "לְבִיסַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

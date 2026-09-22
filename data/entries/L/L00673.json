@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00673",
-	"slug": "לקותא",
-	"headword": {
-		"text": "לָקוּתָא"
-	},
+	"sefariaHeadword": "לָקוּתָא",
+	"headwords": [
+		{
+			"text": "לָקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

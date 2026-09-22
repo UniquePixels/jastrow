@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00622",
-	"slug": "פיטורי",
-	"headword": {
-		"text": "פִּיטּוּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטּוּרֵי",
+	"headwords": [
+		{
+			"text": "פִּיטּוּרֵי"
+		},
 		{
 			"text": "פִּיטּוּרִין"
 		},
 		{
 			"text": "פִּטּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1161,
 		"column": "a"

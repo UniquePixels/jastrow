@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00214",
-	"slug": "לווטס",
-	"headword": {
-		"text": "לווטס"
-	},
+	"sefariaHeadword": "לווטס",
+	"headwords": [
+		{
+			"text": "לווטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

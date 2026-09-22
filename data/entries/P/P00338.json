@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00338",
-	"slug": "עוקמתא",
-	"headword": {
-		"text": "עוּקְמְתָא"
-	},
+	"sefariaHeadword": "עוּקְמְתָא",
+	"headwords": [
+		{
+			"text": "עוּקְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "b"

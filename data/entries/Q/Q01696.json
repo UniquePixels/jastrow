@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01696",
-	"slug": "פרונא",
-	"headword": {
-		"text": "פרונא"
-	},
+	"sefariaHeadword": "פרונא",
+	"headwords": [
+		{
+			"text": "פרונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

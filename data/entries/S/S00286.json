@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00286",
-	"slug": "קוט-1",
-	"headword": {
-		"text": "קוּט"
-	},
+	"sefariaHeadword": "קוּט",
+	"headwords": [
+		{
+			"text": "קוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

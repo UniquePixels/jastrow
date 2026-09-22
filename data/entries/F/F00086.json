@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00086",
-	"slug": "ורדוניא",
-	"headword": {
-		"text": "וַרְדּוּנְיָא"
-	},
+	"sefariaHeadword": "וַרְדּוּנְיָא",
+	"headwords": [
+		{
+			"text": "וַרְדּוּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00912",
-	"slug": "רעם-5",
-	"headword": {
-		"text": "רַעַם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַעַם ²",
+	"headwords": [
+		{
+			"text": "רַעַם",
+			"disambiguator": 2
+		},
 		{
 			"text": "רְעִים"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1488,
 		"column": "a"

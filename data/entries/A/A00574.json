@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00574",
-	"slug": "אוהל",
-	"headword": {
-		"text": "אוֹהֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹהֶל",
+	"headwords": [
+		{
+			"text": "אוֹהֶל"
+		},
 		{
 			"text": "אוֹהָל"
 		},
@@ -15,6 +16,7 @@
 			"text": "אוֹהֳלַיָּיא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 22,
 		"column": "b"

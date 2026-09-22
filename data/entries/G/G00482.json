@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00482",
-	"slug": "זלוף",
-	"headword": {
-		"text": "זִלּוּף"
-	},
+	"sefariaHeadword": "זִלּוּף",
+	"headwords": [
+		{
+			"text": "זִלּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

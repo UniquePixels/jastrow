@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "R00616",
-	"slug": "צנורא-3",
-	"headword": {
-		"text": "צִנּוֹרָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנּוֹרָא III",
+	"headwords": [
+		{
+			"text": "צִנּוֹרָא",
+			"homograph": 3
+		},
 		{
 			"text": "צִנּוֹרָה",
 			"homograph": 2
 		},
 		{
-			"text": "צִי׳"
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1} II, {2}",
 	"page": {
 		"number": 1291,
 		"column": "b"

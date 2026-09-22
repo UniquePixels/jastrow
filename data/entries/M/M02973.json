@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02973",
-	"slug": "משרוי",
-	"headword": {
-		"text": "מַשְׁרְוֵי"
-	},
+	"sefariaHeadword": "מַשְׁרְוֵי",
+	"headwords": [
+		{
+			"text": "מַשְׁרְוֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "b"

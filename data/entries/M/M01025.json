@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01025",
-	"slug": "מטמורא",
-	"headword": {
-		"text": "מַטְמוֹרָא"
-	},
+	"sefariaHeadword": "מַטְמוֹרָא",
+	"headwords": [
+		{
+			"text": "מַטְמוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

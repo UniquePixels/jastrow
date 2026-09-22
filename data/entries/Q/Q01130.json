@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01130",
-	"slug": "פלשתי",
-	"headword": {
-		"text": "פְּלִשְׁתִּי"
-	},
+	"sefariaHeadword": "פְּלִשְׁתִּי",
+	"headwords": [
+		{
+			"text": "פְּלִשְׁתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

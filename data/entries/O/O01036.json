@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01036",
-	"slug": "סלקנדית",
-	"headword": {
-		"text": "סלקנדית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סלקנדית",
+	"headwords": [
+		{
+			"text": "סלקנדית"
+		},
 		{
 			"text": "סלקנרית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 997,
 		"column": "b"

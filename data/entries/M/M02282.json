@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02282",
-	"slug": "מצודניות",
-	"headword": {
-		"text": "מצודניות"
-	},
+	"sefariaHeadword": "מצודניות",
+	"headwords": [
+		{
+			"text": "מצודניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "b"

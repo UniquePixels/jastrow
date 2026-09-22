@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00768",
-	"slug": "רכן-1",
-	"headword": {
-		"text": "רָכַן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָכַן I",
+	"headwords": [
+		{
+			"text": "רָכַן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1479,
 		"column": "b"

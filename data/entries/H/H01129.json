@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01129",
-	"slug": "חלשות",
-	"headword": {
-		"text": "חַלָּשׁוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַלָּשׁוּת",
+	"headwords": [
+		{
+			"text": "חַלָּשׁוּת"
+		},
 		{
 			"text": "חַלָּשׁוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 474,
 		"column": "b"

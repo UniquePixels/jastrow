@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "D00681",
-	"slug": "דיפרא",
-	"headword": {
-		"text": "דִּיפְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיפְרָא",
+	"headwords": [
 		{
-			"text": "דִּוּפְ׳"
+			"text": "דִּיפְרָא"
 		},
 		{
-			"text": "דִּפְ׳"
+			"text": "דִּוּפְ׳",
+			"partial": true
+		},
+		{
+			"text": "דִּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 304,
 		"column": "a"

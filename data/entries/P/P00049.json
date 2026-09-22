@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00049",
-	"slug": "עביצא",
-	"headword": {
-		"text": "עָבִיצָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עָבִיצָא",
+	"headwords": [
+		{
+			"text": "עָבִיצָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

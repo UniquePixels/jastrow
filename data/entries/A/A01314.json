@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01314",
-	"slug": "אילת-1",
-	"headword": {
-		"text": "אַיֶּלֶת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַיֶּלֶת I",
+	"headwords": [
+		{
+			"text": "אַיֶּלֶת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 50,
 		"column": "a"

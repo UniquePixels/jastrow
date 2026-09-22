@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00689",
-	"slug": "דיצא-1",
-	"headword": {
-		"text": "דִּיצָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּיצָא II",
+	"headwords": [
+		{
+			"text": "דִּיצָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 304,
 		"column": "a"

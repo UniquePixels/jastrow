@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01238",
-	"slug": "גרבל",
-	"headword": {
-		"text": "גַּרְבֵּל"
-	},
+	"sefariaHeadword": "גַּרְבֵּל",
+	"headwords": [
+		{
+			"text": "גַּרְבֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

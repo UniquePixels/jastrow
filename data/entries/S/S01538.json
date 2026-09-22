@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01538",
-	"slug": "קנובת",
-	"headword": {
-		"text": "קְנוֹבֶת"
-	},
+	"sefariaHeadword": "קְנוֹבֶת",
+	"headwords": [
+		{
+			"text": "קְנוֹבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

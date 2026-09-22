@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00531",
-	"slug": "שוקקי",
-	"headword": {
-		"text": "שׁוֹקְקֵי"
-	},
+	"sefariaHeadword": "שׁוֹקְקֵי",
+	"headwords": [
+		{
+			"text": "שׁוֹקְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "b"

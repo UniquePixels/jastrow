@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00137",
-	"slug": "זוהרא",
-	"headword": {
-		"text": "זוֹהֲרָא"
-	},
+	"sefariaHeadword": "זוֹהֲרָא",
+	"headwords": [
+		{
+			"text": "זוֹהֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "b"

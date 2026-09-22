@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00714",
-	"slug": "תמרתא",
-	"headword": {
-		"text": "תְּמַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּמַרְתָּא",
+	"headwords": [
 		{
-			"text": "תּוּמַ׳"
+			"text": "תְּמַרְתָּא"
+		},
+		{
+			"text": "תּוּמַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1679,
 		"column": "b"

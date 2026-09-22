@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00128",
-	"slug": "אביך",
-	"headword": {
-		"text": "אביך"
-	},
+	"sefariaHeadword": "אביך",
+	"headwords": [
+		{
+			"text": "אביך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 6,
 		"column": "a"

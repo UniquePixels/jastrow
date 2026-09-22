@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00230",
-	"slug": "כוזיבא",
-	"headword": {
-		"text": "כּוֹזִיבָא"
-	},
+	"sefariaHeadword": "כּוֹזִיבָא",
+	"headwords": [
+		{
+			"text": "כּוֹזִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

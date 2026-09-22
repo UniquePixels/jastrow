@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03261",
-	"slug": "אשגרה",
-	"headword": {
-		"text": "אַשְׁגָּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁגָּרָה",
+	"headwords": [
+		{
+			"text": "אַשְׁגָּרָה"
+		},
 		{
 			"text": "הַשְׁגָּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 126,
 		"column": "b"

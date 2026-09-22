@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01263",
-	"slug": "ערבה-2",
-	"headword": {
-		"text": "עֲרָבָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲרָבָה II",
+	"headwords": [
+		{
+			"text": "עֲרָבָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1112,
 		"column": "a"

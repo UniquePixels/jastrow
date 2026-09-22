@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00698",
-	"slug": "סימוק",
-	"headword": {
-		"text": "סִימּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימּוּק",
+	"headwords": [
+		{
+			"text": "סִימּוּק"
+		},
 		{
 			"text": "סִימּוּקָא"
 		},
 		{
-			"text": "סִמּ׳"
+			"text": "סִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 981,
 		"column": "a"

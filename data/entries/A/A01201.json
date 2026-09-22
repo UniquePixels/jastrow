@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01201",
-	"slug": "איזמר",
-	"headword": {
-		"text": "איזמר"
-	},
+	"sefariaHeadword": "איזמר",
+	"headwords": [
+		{
+			"text": "איזמר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

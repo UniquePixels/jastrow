@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01334",
-	"slug": "חסד-1",
-	"headword": {
-		"text": "חָסַד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָסַד I",
+	"headwords": [
+		{
+			"text": "חָסַד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 486,
 		"column": "a"

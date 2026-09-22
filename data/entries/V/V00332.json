@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00332",
-	"slug": "תושלמותא",
-	"headword": {
-		"text": "תּוּשְׁלָמוּתָא"
-	},
+	"sefariaHeadword": "תּוּשְׁלָמוּתָא",
+	"headwords": [
+		{
+			"text": "תּוּשְׁלָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "a"

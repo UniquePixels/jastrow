@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00593",
-	"slug": "מוקמת",
-	"headword": {
-		"text": "מוֹקְמַת־"
-	},
+	"sefariaHeadword": "מוֹקְמַת־",
+	"headwords": [
+		{
+			"text": "מוֹקְמַת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

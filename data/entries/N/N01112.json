@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01112",
-	"slug": "נצחא",
-	"headword": {
-		"text": "נַצְחָא"
-	},
+	"sefariaHeadword": "נַצְחָא",
+	"headwords": [
+		{
+			"text": "נַצְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 928,
 		"column": "a"

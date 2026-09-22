@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01792",
-	"slug": "אלו-2",
-	"headword": {
-		"text": "אִלּוּ"
-	},
+	"sefariaHeadword": "אִלּוּ",
+	"headwords": [
+		{
+			"text": "אִלּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "a"

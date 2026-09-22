@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01776",
-	"slug": "אלגביש",
-	"headword": {
-		"text": "אֶלְגָּבִישׁ"
-	},
+	"sefariaHeadword": "אֶלְגָּבִישׁ",
+	"headwords": [
+		{
+			"text": "אֶלְגָּבִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "b"

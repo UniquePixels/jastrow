@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00667",
-	"slug": "שחליים",
-	"headword": {
-		"text": "שִׁחְלַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁחְלַיִים",
+	"headwords": [
+		{
+			"text": "שִׁחְלַיִים"
+		},
 		{
 			"text": "שִׁחְלַיִם"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1548,
 		"column": "b"

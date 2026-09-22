@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00701",
-	"slug": "ישף",
-	"headword": {
-		"text": "יְשַׁף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְשַׁף",
+	"headwords": [
+		{
+			"text": "יְשַׁף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 601,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01463",
-	"slug": "עשאשיתא",
-	"headword": {
-		"text": "עֲשָׁאשִׁיתָא"
-	},
+	"sefariaHeadword": "עֲשָׁאשִׁיתָא",
+	"headwords": [
+		{
+			"text": "עֲשָׁאשִׁיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "a"

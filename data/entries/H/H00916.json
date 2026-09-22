@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00916",
-	"slug": "חכי-2",
-	"headword": {
-		"text": "חכי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חכי ²",
+	"headwords": [
+		{
+			"text": "חכי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 461,
 		"column": "b"

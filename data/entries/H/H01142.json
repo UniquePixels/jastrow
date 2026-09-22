@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01142",
-	"slug": "חמאה",
-	"headword": {
-		"text": "חֶמְאָה"
-	},
+	"sefariaHeadword": "חֶמְאָה",
+	"headwords": [
+		{
+			"text": "חֶמְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "a"

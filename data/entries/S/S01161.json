@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01161",
-	"slug": "קירווחין",
-	"headword": {
-		"text": "קִירְוָוחִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְוָוחִין",
+	"headwords": [
+		{
+			"text": "קִירְוָוחִין"
+		},
 		{
 			"text": "קִירוּחַ"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִירְוָחִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00376",
-	"slug": "גולגולת",
-	"headword": {
-		"text": "גּוּלְגּוֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּלְגּוֹלֶת",
+	"headwords": [
+		{
+			"text": "גּוּלְגּוֹלֶת"
+		},
 		{
 			"text": "גּוּלְגּוּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "b"

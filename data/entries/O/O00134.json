@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00134",
-	"slug": "סגילא",
-	"headword": {
-		"text": "סְגִילָא"
-	},
+	"sefariaHeadword": "סְגִילָא",
+	"headwords": [
+		{
+			"text": "סְגִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00973",
-	"slug": "אזל-1",
-	"headword": {
-		"text": "אֲזַל",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲזַל I",
+	"headwords": [
+		{
+			"text": "אֲזַל",
+			"homograph": 1
+		},
 		{
 			"text": "אָזַל"
 		},
@@ -13,6 +14,7 @@
 			"text": "אֲזִיל"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 37,
 		"column": "b"

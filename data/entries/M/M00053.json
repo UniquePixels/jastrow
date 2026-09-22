@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00053",
-	"slug": "מאסאסה",
-	"headword": {
-		"text": "מאסאסה"
-	},
+	"sefariaHeadword": "מאסאסה",
+	"headwords": [
+		{
+			"text": "מאסאסה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

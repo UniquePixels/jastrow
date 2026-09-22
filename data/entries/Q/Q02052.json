@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02052",
-	"slug": "פשה",
-	"headword": {
-		"text": "פָּשָׂה"
-	},
+	"sefariaHeadword": "פָּשָׂה",
+	"headwords": [
+		{
+			"text": "פָּשָׂה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "b"

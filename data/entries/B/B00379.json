@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B00379",
-	"slug": "בורניץ",
-	"headword": {
-		"text": "בּוּרְנִיץ",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בּוּרְנִיץ",
+	"headwords": [
 		{
-			"text": "נהר בּוּרְנִיץ"
+			"text": "בּוּרְנִיץ",
+			"reconstructed": true
+		},
+		{
+			"text": "נהר ב׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 150,
 		"column": "b"

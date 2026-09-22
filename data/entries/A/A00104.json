@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00104",
-	"slug": "אבטלה",
-	"headword": {
-		"text": "אַבְטָלָה"
-	},
+	"sefariaHeadword": "אַבְטָלָה",
+	"headwords": [
+		{
+			"text": "אַבְטָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

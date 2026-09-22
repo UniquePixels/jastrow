@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00145",
-	"slug": "מגוש",
-	"headword": {
-		"text": "מָגוֹשׁ"
-	},
+	"sefariaHeadword": "מָגוֹשׁ",
+	"headwords": [
+		{
+			"text": "מָגוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

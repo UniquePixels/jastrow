@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00662",
-	"slug": "ריסנא",
-	"headword": {
-		"text": "רִיסְנָא"
-	},
+	"sefariaHeadword": "רִיסְנָא",
+	"headwords": [
+		{
+			"text": "רִיסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

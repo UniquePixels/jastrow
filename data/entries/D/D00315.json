@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00315",
-	"slug": "דופני",
-	"headword": {
-		"text": "דּוֹפְנִי"
-	},
+	"sefariaHeadword": "דּוֹפְנִי",
+	"headwords": [
+		{
+			"text": "דּוֹפְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "b"

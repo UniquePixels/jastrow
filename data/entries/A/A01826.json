@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01826",
-	"slug": "אלוש",
-	"headword": {
-		"text": "אָלוּשׁ"
-	},
+	"sefariaHeadword": "אָלוּשׁ",
+	"headwords": [
+		{
+			"text": "אָלוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

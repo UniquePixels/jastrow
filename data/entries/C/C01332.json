@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01332",
-	"slug": "גריזמי",
-	"headword": {
-		"text": "גריזמי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גריזמי",
+	"headwords": [
+		{
+			"text": "גריזמי"
+		},
 		{
 			"text": "גריזמתה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 268,
 		"column": "b"

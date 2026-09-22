@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02234",
-	"slug": "אניסא-3",
-	"headword": {
-		"text": "אֲנִיסָא"
-	},
+	"sefariaHeadword": "אֲנִיסָא",
+	"headwords": [
+		{
+			"text": "אֲנִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00202",
-	"slug": "אבר-4",
-	"headword": {
-		"text": "אֵבֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵבֶר",
+	"headwords": [
+		{
+			"text": "אֵבֶר"
+		},
 		{
 			"text": "אֵיבֶר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 9,
 		"column": "a"

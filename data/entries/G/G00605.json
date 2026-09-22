@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00605",
-	"slug": "זעם-2",
-	"headword": {
-		"text": "זַעַם"
-	},
+	"sefariaHeadword": "זַעַם",
+	"headwords": [
+		{
+			"text": "זַעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

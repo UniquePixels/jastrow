@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00665",
-	"slug": "ריסתנא",
-	"headword": {
-		"text": "ריסתנא"
-	},
+	"sefariaHeadword": "ריסתנא",
+	"headwords": [
+		{
+			"text": "ריסתנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

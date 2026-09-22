@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01369",
-	"slug": "נתיך",
-	"headword": {
-		"text": "נַתִּיךְ"
-	},
+	"sefariaHeadword": "נַתִּיךְ",
+	"headwords": [
+		{
+			"text": "נַתִּיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

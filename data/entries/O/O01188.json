@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01188",
-	"slug": "סנדלת",
-	"headword": {
-		"text": "סַנְדְּלַת"
-	},
+	"sefariaHeadword": "סַנְדְּלַת",
+	"headwords": [
+		{
+			"text": "סַנְדְּלַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

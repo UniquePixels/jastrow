@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00617",
-	"slug": "שחול",
-	"headword": {
-		"text": "שָׁחוּל"
-	},
+	"sefariaHeadword": "שָׁחוּל",
+	"headwords": [
+		{
+			"text": "שָׁחוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00268",
-	"slug": "חוויא-1",
-	"headword": {
-		"text": "חֶוְויָא"
-	},
+	"sefariaHeadword": "חֶוְויָא",
+	"headwords": [
+		{
+			"text": "חֶוְויָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

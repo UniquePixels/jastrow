@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01689",
-	"slug": "אכילתא",
-	"headword": {
-		"text": "אֲכִילְתָּא"
-	},
+	"sefariaHeadword": "אֲכִילְתָּא",
+	"headwords": [
+		{
+			"text": "אֲכִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 63,
 		"column": "a"

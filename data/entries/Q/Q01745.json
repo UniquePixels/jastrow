@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01745",
-	"slug": "פרזדאון",
-	"headword": {
-		"text": "פַּרְזְדָאוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְזְדָאוָן",
+	"headwords": [
+		{
+			"text": "פַּרְזְדָאוָן"
+		},
 		{
 			"text": "פְּרַזְדָּוָון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1222,
 		"column": "b"

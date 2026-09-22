@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00910",
-	"slug": "סכל-2",
-	"headword": {
-		"text": "סְכַל"
-	},
+	"sefariaHeadword": "סְכַל",
+	"headwords": [
+		{
+			"text": "סְכַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 990,
 		"column": "b"

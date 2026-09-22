@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00100",
-	"slug": "אבטיחא",
-	"headword": {
-		"text": "אֲבַטִּיחָא"
-	},
+	"sefariaHeadword": "אֲבַטִּיחָא",
+	"headwords": [
+		{
+			"text": "אֲבַטִּיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

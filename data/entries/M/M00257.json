@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00257",
-	"slug": "מדואר",
-	"headword": {
-		"text": "מְדַוַּאר"
-	},
+	"sefariaHeadword": "מְדַוַּאר",
+	"headwords": [
+		{
+			"text": "מְדַוַּאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

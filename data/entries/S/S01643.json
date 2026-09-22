@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01643",
-	"slug": "קסוסטבן",
-	"headword": {
-		"text": "קסוסטבן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קסוסטבן",
+	"headwords": [
+		{
+			"text": "קסוסטבן"
+		},
 		{
 			"text": "קְסוּסְטִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "קְסוּסְטָרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1395,
 		"column": "b"

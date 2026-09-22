@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01682",
-	"slug": "חרינותא",
-	"headword": {
-		"text": "חֶרְיָנוּתָא"
-	},
+	"sefariaHeadword": "חֶרְיָנוּתָא",
+	"headwords": [
+		{
+			"text": "חֶרְיָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

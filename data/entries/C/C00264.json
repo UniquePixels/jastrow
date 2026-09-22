@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00264",
-	"slug": "גואה",
-	"headword": {
-		"text": "גַּוָּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּוָּאָה",
+	"headwords": [
 		{
-			"text": "גַּוָּו׳"
+			"text": "גַּוָּאָה"
+		},
+		{
+			"text": "גַּוָּו׳",
+			"partial": true
 		},
 		{
 			"text": "גַּוָּאִי"
@@ -15,6 +17,7 @@
 			"text": "גֵּיוָיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 216,
 		"column": "b"

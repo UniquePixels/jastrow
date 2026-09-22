@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01863",
-	"slug": "שקיע",
-	"headword": {
-		"text": "שַׁקִּיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁקִּיעַ",
+	"headwords": [
+		{
+			"text": "שַׁקִּיעַ"
+		},
 		{
 			"text": "שַׁקִּיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1622,
 		"column": "b"

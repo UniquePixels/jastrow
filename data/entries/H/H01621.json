@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01621",
-	"slug": "חרוז",
-	"headword": {
-		"text": "חָרוּז"
-	},
+	"sefariaHeadword": "חָרוּז",
+	"headwords": [
+		{
+			"text": "חָרוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

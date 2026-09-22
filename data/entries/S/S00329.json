@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00329",
-	"slug": "קולוטוס",
-	"headword": {
-		"text": "קולוטוס"
-	},
+	"sefariaHeadword": "קולוטוס",
+	"headwords": [
+		{
+			"text": "קולוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1328,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00045",
-	"slug": "דבדבניות",
-	"headword": {
-		"text": "דַּבְדְּבָנִיּוֹת"
-	},
+	"sefariaHeadword": "דַּבְדְּבָנִיּוֹת",
+	"headwords": [
+		{
+			"text": "דַּבְדְּבָנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "b"

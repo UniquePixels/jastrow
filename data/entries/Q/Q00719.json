@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00719",
-	"slug": "פין",
-	"headword": {
-		"text": "פִּין"
-	},
+	"sefariaHeadword": "פִּין",
+	"headwords": [
+		{
+			"text": "פִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "a"

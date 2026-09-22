@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03302",
-	"slug": "אשך",
-	"headword": {
-		"text": "אֶשֶׁךְ"
-	},
+	"sefariaHeadword": "אֶשֶׁךְ",
+	"headwords": [
+		{
+			"text": "אֶשֶׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00293",
-	"slug": "גובשא",
-	"headword": {
-		"text": "גּוּבְשָׁא"
-	},
+	"sefariaHeadword": "גּוּבְשָׁא",
+	"headwords": [
+		{
+			"text": "גּוּבְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

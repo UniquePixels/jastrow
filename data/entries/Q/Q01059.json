@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01059",
-	"slug": "פליית",
-	"headword": {
-		"text": "פָּלְיַית"
-	},
+	"sefariaHeadword": "פָּלְיַית",
+	"headwords": [
+		{
+			"text": "פָּלְיַית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

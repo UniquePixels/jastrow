@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00544",
-	"slug": "לכין",
-	"headword": {
-		"text": "לכין"
-	},
+	"sefariaHeadword": "לכין",
+	"headwords": [
+		{
+			"text": "לכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

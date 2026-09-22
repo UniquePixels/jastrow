@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00407",
-	"slug": "אדירא",
-	"headword": {
-		"text": "אֲדֵירָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲדֵירָא",
+	"headwords": [
+		{
+			"text": "אֲדֵירָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

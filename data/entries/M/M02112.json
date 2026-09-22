@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02112",
-	"slug": "מעים",
-	"headword": {
-		"text": "מֵעַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵעַיִם",
+	"headwords": [
+		{
+			"text": "מֵעַיִם"
+		},
 		{
 			"text": "מֵעַיִן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 816,
 		"column": "a"

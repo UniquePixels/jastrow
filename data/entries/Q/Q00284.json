@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00284",
-	"slug": "פונקלין",
-	"headword": {
-		"text": "פּוּנְקְלִין"
-	},
+	"sefariaHeadword": "פּוּנְקְלִין",
+	"headwords": [
+		{
+			"text": "פּוּנְקְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00020",
-	"slug": "עבדן",
-	"headword": {
-		"text": "עַבְּדן"
-	},
+	"sefariaHeadword": "עַבְּדן",
+	"headwords": [
+		{
+			"text": "עַבְּדן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1035,
 		"column": "b"

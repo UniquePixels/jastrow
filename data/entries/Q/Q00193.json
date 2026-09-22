@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00193",
-	"slug": "פוטיתא",
-	"headword": {
-		"text": "פּוּטִיתָא"
-	},
+	"sefariaHeadword": "פּוּטִיתָא",
+	"headwords": [
+		{
+			"text": "פּוּטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

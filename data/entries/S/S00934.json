@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00934",
-	"slug": "קיים-3",
-	"headword": {
-		"text": "קַיָּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיָּים",
+	"headwords": [
+		{
+			"text": "קַיָּים"
+		},
 		{
 			"text": "קַיָּם"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַיֶּימֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1359,
 		"column": "a"

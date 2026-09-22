@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01550",
-	"slug": "איפטיא",
-	"headword": {
-		"text": "אִיפַּטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיפַּטְיָא",
+	"headwords": [
+		{
+			"text": "אִיפַּטְיָא"
+		},
 		{
 			"text": "אִיפַּטִּיאָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִפַּטְיָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 58,
 		"column": "b"

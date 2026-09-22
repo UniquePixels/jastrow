@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02170",
-	"slug": "פתין",
-	"headword": {
-		"text": "פָּתִין"
-	},
+	"sefariaHeadword": "פָּתִין",
+	"headwords": [
+		{
+			"text": "פָּתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

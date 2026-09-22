@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00212",
-	"slug": "שגגתא",
-	"headword": {
-		"text": "שְׁגַגְתָּא"
-	},
+	"sefariaHeadword": "שְׁגַגְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁגַגְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "a"

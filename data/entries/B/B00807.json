@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00807",
-	"slug": "בלאות",
-	"headword": {
-		"text": "בְּלָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלָאוֹת",
+	"headwords": [
+		{
+			"text": "בְּלָאוֹת"
+		},
 		{
 			"text": "בְּלָיוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 170,
 		"column": "b"

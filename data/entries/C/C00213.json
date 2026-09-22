@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00213",
-	"slug": "גדיר",
-	"headword": {
-		"text": "גָּדֵיר"
-	},
+	"sefariaHeadword": "גָּדֵיר",
+	"headwords": [
+		{
+			"text": "גָּדֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00742",
-	"slug": "בישו",
-	"headword": {
-		"text": "בִּישׁוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּישׁוּ",
+	"headwords": [
+		{
+			"text": "בִּישׁוּ"
+		},
 		{
 			"text": "בִּושׁוּת"
 		},
@@ -12,9 +13,11 @@
 			"text": "בִּישׁוּתָא"
 		},
 		{
-			"text": "בְּאִישׁ׳"
+			"text": "בְּאִישׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 167,
 		"column": "a"

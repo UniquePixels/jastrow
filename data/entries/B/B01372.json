@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01372",
-	"slug": "בשרא-1",
-	"headword": {
-		"text": "בִּשְׂרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּשְׂרָא",
+	"headwords": [
+		{
+			"text": "בִּשְׂרָא"
+		},
 		{
 			"text": "בִּישְׂרָא",
 			"homograph": 1
@@ -19,6 +20,7 @@
 			"text": "בְּסַר"
 		}
 	],
+	"display": "{0}, {1} I, {2}, {3}, {4}",
 	"page": {
 		"number": 199,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00568",
-	"slug": "טנדו",
-	"headword": {
-		"text": "טַנְדּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַנְדּוּ",
+	"headwords": [
+		{
+			"text": "טַנְדּוּ"
+		},
 		{
 			"text": "טַן דּוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 540,
 		"column": "b"

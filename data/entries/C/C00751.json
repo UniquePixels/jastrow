@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00751",
-	"slug": "גינאי-2",
-	"headword": {
-		"text": "גִּינַּאי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינַּאי ²",
+	"headwords": [
+		{
+			"text": "גִּינַּאי",
+			"disambiguator": 2
+		},
 		{
 			"text": "גִּינַּיי",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 239,
 		"column": "b"

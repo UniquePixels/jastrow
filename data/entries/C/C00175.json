@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00175",
-	"slug": "גדודי",
-	"headword": {
-		"text": "גְּדוּדִי"
-	},
+	"sefariaHeadword": "גְּדוּדִי",
+	"headwords": [
+		{
+			"text": "גְּדוּדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "b"

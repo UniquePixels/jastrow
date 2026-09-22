@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01063",
-	"slug": "עפיאן",
-	"headword": {
-		"text": "עַפְיָאן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַפְיָאן",
+	"headwords": [
+		{
+			"text": "עַפְיָאן"
+		},
 		{
 			"text": "עַפְיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1100,
 		"column": "a"

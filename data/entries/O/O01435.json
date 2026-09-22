@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01435",
-	"slug": "ספרנא",
-	"headword": {
-		"text": "סַפְרָנָא"
-	},
+	"sefariaHeadword": "סַפְרָנָא",
+	"headwords": [
+		{
+			"text": "סַפְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

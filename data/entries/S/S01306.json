@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01306",
-	"slug": "קלחת",
-	"headword": {
-		"text": "קַלַּחַת"
-	},
+	"sefariaHeadword": "קַלַּחַת",
+	"headwords": [
+		{
+			"text": "קַלַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1374,
 		"column": "a"

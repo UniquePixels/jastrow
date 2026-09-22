@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00516",
-	"slug": "גזא-2",
-	"headword": {
-		"text": "גִּזָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּזָּא",
+	"headwords": [
+		{
+			"text": "גִּזָּא"
+		},
 		{
 			"text": "גַּזָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 228,
 		"column": "b"

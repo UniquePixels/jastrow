@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00518",
-	"slug": "הכנסה",
-	"headword": {
-		"text": "הַכְנָסָה"
-	},
+	"sefariaHeadword": "הַכְנָסָה",
+	"headwords": [
+		{
+			"text": "הַכְנָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "a"

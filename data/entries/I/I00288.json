@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00288",
-	"slug": "טטרטון",
-	"headword": {
-		"text": "טִטַרְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִטַרְטוֹן",
+	"headwords": [
+		{
+			"text": "טִטַרְטוֹן"
+		},
 		{
 			"text": "טטרטין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "a"

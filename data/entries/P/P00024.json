@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00024",
-	"slug": "עבוד-1",
-	"headword": {
-		"text": "עבוד"
-	},
+	"sefariaHeadword": "עבוד",
+	"headwords": [
+		{
+			"text": "עבוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "a"

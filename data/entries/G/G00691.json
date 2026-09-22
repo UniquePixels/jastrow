@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00691",
-	"slug": "זרזיר-1",
-	"headword": {
-		"text": "זַרְזִיר",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְזִיר I",
+	"headwords": [
+		{
+			"text": "זַרְזִיר",
+			"homograph": 1
+		},
 		{
 			"text": "זַרְזָר"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 413,
 		"column": "a"

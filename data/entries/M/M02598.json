@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02598",
-	"slug": "מרוני",
-	"headword": {
-		"text": "מֵרוֹנִי"
-	},
+	"sefariaHeadword": "מֵרוֹנִי",
+	"headwords": [
+		{
+			"text": "מֵרוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

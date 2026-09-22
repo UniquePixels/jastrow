@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00790",
-	"slug": "טרייאקונטא",
-	"headword": {
-		"text": "טְרִיָיאקוֹנְטָא"
-	},
+	"sefariaHeadword": "טְרִיָיאקוֹנְטָא",
+	"headwords": [
+		{
+			"text": "טְרִיָיאקוֹנְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

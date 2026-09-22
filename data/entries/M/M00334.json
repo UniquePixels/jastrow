@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00334",
-	"slug": "מדרס",
-	"headword": {
-		"text": "מִדְרָס"
-	},
+	"sefariaHeadword": "מִדְרָס",
+	"headwords": [
+		{
+			"text": "מִדְרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

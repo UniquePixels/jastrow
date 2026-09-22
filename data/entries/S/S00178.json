@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00178",
-	"slug": "קדרום",
-	"headword": {
-		"text": "קדרום"
-	},
+	"sefariaHeadword": "קדרום",
+	"headwords": [
+		{
+			"text": "קדרום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1318,
 		"column": "b"

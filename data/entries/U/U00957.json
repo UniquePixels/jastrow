@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00957",
-	"slug": "שימה",
-	"headword": {
-		"text": "שִׂימָה"
-	},
+	"sefariaHeadword": "שִׂימָה",
+	"headwords": [
+		{
+			"text": "שִׂימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

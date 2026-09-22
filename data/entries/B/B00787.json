@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00787",
-	"slug": "בכיין",
-	"headword": {
-		"text": "בַּכְיָין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בַּכְיָין",
+	"headwords": [
+		{
+			"text": "בַּכְיָין",
+			"reconstructed": true
+		},
 		{
 			"text": "בַּכְיָן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 170,
 		"column": "a"

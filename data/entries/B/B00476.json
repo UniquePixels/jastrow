@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00476",
-	"slug": "בחיר",
-	"headword": {
-		"text": "בְּחִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּחִיר",
+	"headwords": [
+		{
+			"text": "בְּחִיר"
+		},
 		{
 			"text": "בְּחִירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 155,
 		"column": "a"

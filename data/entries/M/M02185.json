@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02185",
-	"slug": "מערתא",
-	"headword": {
-		"text": "מְעַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְעַרְתָּא",
+	"headwords": [
+		{
+			"text": "מְעַרְתָּא"
+		},
 		{
 			"text": "מְעַרְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 819,
 		"column": "b"

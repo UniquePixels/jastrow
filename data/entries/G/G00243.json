@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00243",
-	"slug": "זחוח",
-	"headword": {
-		"text": "זָחוֹחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָחוֹחַ",
+	"headwords": [
+		{
+			"text": "זָחוֹחַ"
+		},
 		{
 			"text": "זָחוֹחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "a"

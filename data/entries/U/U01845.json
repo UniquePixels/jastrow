@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01845",
-	"slug": "שקט-3",
-	"headword": {
-		"text": "שְׁקַט"
-	},
+	"sefariaHeadword": "שְׁקַט",
+	"headwords": [
+		{
+			"text": "שְׁקַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "a"

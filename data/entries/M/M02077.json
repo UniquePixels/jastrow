@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02077",
-	"slug": "מעוטן",
-	"headword": {
-		"text": "מְעוּטָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְעוּטָן",
+	"headwords": [
+		{
+			"text": "מְעוּטָן"
+		},
 		{
 			"text": "מְעוּטְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 814,
 		"column": "a"

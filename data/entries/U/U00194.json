@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00194",
-	"slug": "שבשושין",
-	"headword": {
-		"text": "שַׁבְשׁוּשִׁין"
-	},
+	"sefariaHeadword": "שַׁבְשׁוּשִׁין",
+	"headwords": [
+		{
+			"text": "שַׁבְשׁוּשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1519,
 		"column": "a"

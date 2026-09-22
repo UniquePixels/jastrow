@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01020",
-	"slug": "גמי-1",
-	"headword": {
-		"text": "גְּמִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּמִי I",
+	"headwords": [
+		{
+			"text": "גְּמִי",
+			"homograph": 1
+		},
 		{
 			"text": "גְּמַע"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 252,
 		"column": "b"

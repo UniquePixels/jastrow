@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00558",
-	"slug": "הלך-1",
-	"headword": {
-		"text": "הֵלֵךְ"
-	},
+	"sefariaHeadword": "הֵלֵךְ",
+	"headwords": [
+		{
+			"text": "הֵלֵךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

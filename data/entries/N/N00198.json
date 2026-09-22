@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00198",
-	"slug": "נד",
-	"headword": {
-		"text": "נֵד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵד",
+	"headwords": [
+		{
+			"text": "נֵד"
+		},
 		{
 			"text": "נֹד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 877,
 		"column": "a"

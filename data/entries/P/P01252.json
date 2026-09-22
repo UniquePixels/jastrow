@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01252",
-	"slug": "ערב-11",
-	"headword": {
-		"text": "עֲרָב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲרָב I",
+	"headwords": [
+		{
+			"text": "עֲרָב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1111,
 		"column": "b"

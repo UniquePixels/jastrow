@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01325",
-	"slug": "חנק-2",
-	"headword": {
-		"text": "חֲנַק"
-	},
+	"sefariaHeadword": "חֲנַק",
+	"headwords": [
+		{
+			"text": "חֲנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 485,
 		"column": "a"

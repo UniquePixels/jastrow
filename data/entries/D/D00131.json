@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00131",
-	"slug": "דדי-1",
-	"headword": {
-		"text": "דדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דדי",
+	"headwords": [
+		{
+			"text": "דדי"
+		},
 		{
 			"text": "דָּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 280,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00080",
-	"slug": "גביהא",
-	"headword": {
-		"text": "גְּבִיהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבִיהָא",
+	"headwords": [
+		{
+			"text": "גְּבִיהָא"
+		},
 		{
 			"text": "גְּבִיהָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 206,
 		"column": "a"

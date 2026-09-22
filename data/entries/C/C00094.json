@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00094",
-	"slug": "גבינה",
-	"headword": {
-		"text": "גְּבִינָה"
-	},
+	"sefariaHeadword": "גְּבִינָה",
+	"headwords": [
+		{
+			"text": "גְּבִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

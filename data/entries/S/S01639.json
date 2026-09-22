@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01639",
-	"slug": "קסווא",
-	"headword": {
-		"text": "קַסְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַסְוָוא",
+	"headwords": [
 		{
-			"text": "קַשְׂ׳"
+			"text": "קַסְוָוא"
+		},
+		{
+			"text": "קַשְׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "b"

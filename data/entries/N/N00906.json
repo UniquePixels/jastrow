@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00906",
-	"slug": "נניס",
-	"headword": {
-		"text": "נַנִּיס"
-	},
+	"sefariaHeadword": "נַנִּיס",
+	"headwords": [
+		{
+			"text": "נַנִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

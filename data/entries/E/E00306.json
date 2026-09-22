@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00306",
-	"slug": "הזר",
-	"headword": {
-		"text": "הֲזָר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֲזָר",
+	"headwords": [
+		{
+			"text": "הֲזָר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

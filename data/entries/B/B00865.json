@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00865",
-	"slug": "בלינוס",
-	"headword": {
-		"text": "בלינוס"
-	},
+	"sefariaHeadword": "בלינוס",
+	"headwords": [
+		{
+			"text": "בלינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

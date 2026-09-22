@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00522",
-	"slug": "פטיקלין",
-	"headword": {
-		"text": "פטיקלין"
-	},
+	"sefariaHeadword": "פטיקלין",
+	"headwords": [
+		{
+			"text": "פטיקלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

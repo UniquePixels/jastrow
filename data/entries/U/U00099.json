@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00099",
-	"slug": "שבח-4",
-	"headword": {
-		"text": "שְׁבַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבַח",
+	"headwords": [
+		{
+			"text": "שְׁבַח"
+		},
 		{
 			"text": "שְׁבָחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1512,
 		"column": "b"

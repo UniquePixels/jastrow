@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00472",
-	"slug": "גוצין",
-	"headword": {
-		"text": "גּוּצִין"
-	},
+	"sefariaHeadword": "גּוּצִין",
+	"headwords": [
+		{
+			"text": "גּוּצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "a"

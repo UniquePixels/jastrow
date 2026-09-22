@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01154",
-	"slug": "פנדא-1",
-	"headword": {
-		"text": "פַּנְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּנְדָּא I",
+	"headwords": [
+		{
+			"text": "פַּנְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1186,
 		"column": "b"

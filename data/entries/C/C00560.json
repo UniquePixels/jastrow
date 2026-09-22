@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00560",
-	"slug": "גזל-3",
-	"headword": {
-		"text": "גָּזֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּזֵל",
+	"headwords": [
+		{
+			"text": "גָּזֵל"
+		},
 		{
 			"text": "גֶּזֶל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 230,
 		"column": "b"

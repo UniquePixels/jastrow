@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00415",
-	"slug": "גומיא",
-	"headword": {
-		"text": "גומיא"
-	},
+	"sefariaHeadword": "גומיא",
+	"headwords": [
+		{
+			"text": "גומיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

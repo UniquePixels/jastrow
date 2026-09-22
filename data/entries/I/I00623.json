@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00623",
-	"slug": "טף",
-	"headword": {
-		"text": "טַף"
-	},
+	"sefariaHeadword": "טַף",
+	"headwords": [
+		{
+			"text": "טַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

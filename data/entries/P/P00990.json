@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00990",
-	"slug": "ענייתא",
-	"headword": {
-		"text": "עַנְיְיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַנְיְיתָא",
+	"headwords": [
+		{
+			"text": "עַנְיְיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1095,
 		"column": "a"

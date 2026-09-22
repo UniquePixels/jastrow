@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00237",
-	"slug": "יורדנא",
-	"headword": {
-		"text": "יוֹרְדְּנָא"
-	},
+	"sefariaHeadword": "יוֹרְדְּנָא",
+	"headwords": [
+		{
+			"text": "יוֹרְדְּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "b"

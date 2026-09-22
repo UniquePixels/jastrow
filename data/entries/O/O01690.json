@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01690",
-	"slug": "סתור",
-	"headword": {
-		"text": "סְתוֹר"
-	},
+	"sefariaHeadword": "סְתוֹר",
+	"headwords": [
+		{
+			"text": "סְתוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

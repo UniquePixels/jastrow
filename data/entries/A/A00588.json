@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00588",
-	"slug": "אוורוס",
-	"headword": {
-		"text": "אוורוס"
-	},
+	"sefariaHeadword": "אוורוס",
+	"headwords": [
+		{
+			"text": "אוורוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "a"

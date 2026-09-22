@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00157",
-	"slug": "להג",
-	"headword": {
-		"text": "לַהַג"
-	},
+	"sefariaHeadword": "לַהַג",
+	"headwords": [
+		{
+			"text": "לַהַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

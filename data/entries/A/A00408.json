@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00408",
-	"slug": "אדיש",
-	"headword": {
-		"text": "אָדֵישׁ"
-	},
+	"sefariaHeadword": "אָדֵישׁ",
+	"headwords": [
+		{
+			"text": "אָדֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

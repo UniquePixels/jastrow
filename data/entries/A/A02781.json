@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02781",
-	"slug": "אפקסיון",
-	"headword": {
-		"text": "אפקסיון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפקסיון",
+	"headwords": [
+		{
+			"text": "אפקסיון"
+		},
 		{
 			"text": "אפקסינן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "a"

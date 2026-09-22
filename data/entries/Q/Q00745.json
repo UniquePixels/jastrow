@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00745",
-	"slug": "פיסגא",
-	"headword": {
-		"text": "פִּיסְגָּא"
-	},
+	"sefariaHeadword": "פִּיסְגָּא",
+	"headwords": [
+		{
+			"text": "פִּיסְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "a"

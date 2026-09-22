@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01009",
-	"slug": "כפיזא",
-	"headword": {
-		"text": "כְּפִיזָא"
-	},
+	"sefariaHeadword": "כְּפִיזָא",
+	"headwords": [
+		{
+			"text": "כְּפִיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "b"

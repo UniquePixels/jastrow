@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00150",
-	"slug": "מגי",
-	"headword": {
-		"text": "מְגֵי"
-	},
+	"sefariaHeadword": "מְגֵי",
+	"headwords": [
+		{
+			"text": "מְגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

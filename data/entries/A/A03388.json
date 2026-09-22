@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03388",
-	"slug": "אשתעממו",
-	"headword": {
-		"text": "אִשְׁתַּעֲמָמוּ"
-	},
+	"sefariaHeadword": "אִשְׁתַּעֲמָמוּ",
+	"headwords": [
+		{
+			"text": "אִשְׁתַּעֲמָמוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "b"

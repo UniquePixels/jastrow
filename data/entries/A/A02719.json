@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02719",
-	"slug": "אפיקריסין",
-	"headword": {
-		"text": "אפיקריסין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפיקריסין",
+	"headwords": [
+		{
+			"text": "אפיקריסין"
+		},
 		{
 			"text": "אפיקריתין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 104,
 		"column": "b"

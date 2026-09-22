@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00689",
-	"slug": "ריציתא",
-	"headword": {
-		"text": "רִיצִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיצִיתָא",
+	"headwords": [
+		{
+			"text": "רִיצִיתָא"
+		},
 		{
 			"text": "רִיצְנִיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רִיצְעֲתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1476,
 		"column": "b"

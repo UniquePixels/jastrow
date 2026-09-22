@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00829",
-	"slug": "גירותא",
-	"headword": {
-		"text": "גִּירוּתָא"
-	},
+	"sefariaHeadword": "גִּירוּתָא",
+	"headwords": [
+		{
+			"text": "גִּירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

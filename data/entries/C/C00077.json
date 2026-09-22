@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C00077",
-	"slug": "גביא-2",
-	"headword": {
-		"text": "גַּבְיָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גַּבְיָא II",
+	"headwords": [
+		{
+			"text": "גַּבְיָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 206,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00849",
-	"slug": "פירות",
-	"headword": {
-		"text": "פֵּירוֹת"
-	},
+	"sefariaHeadword": "פֵּירוֹת",
+	"headwords": [
+		{
+			"text": "פֵּירוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1171,
 		"column": "a"

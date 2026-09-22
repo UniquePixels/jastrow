@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00770",
-	"slug": "חילופא",
-	"headword": {
-		"text": "חִילּוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוּפָא",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוּפָא"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "b"

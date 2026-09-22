@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00544",
-	"slug": "כילופיס",
-	"headword": {
-		"text": "כילופיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כילופיס",
+	"headwords": [
+		{
+			"text": "כילופיס",
+			"reconstructed": true
+		},
 		{
 			"text": "כילסופיס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 632,
 		"column": "b"

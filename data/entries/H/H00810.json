@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00810",
-	"slug": "חימרא",
-	"headword": {
-		"text": "חֵימָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵימָרָא",
+	"headwords": [
 		{
-			"text": "חֵימְ׳"
+			"text": "חֵימָרָא"
 		},
 		{
-			"text": "חִמָ׳"
+			"text": "חֵימְ׳",
+			"partial": true
+		},
+		{
+			"text": "חִמָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 458,
 		"column": "a"

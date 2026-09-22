@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00345",
-	"slug": "סומכוון",
-	"headword": {
-		"text": "סוּמְכְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּמְכְוָון",
+	"headwords": [
+		{
+			"text": "סוּמְכְוָון"
+		},
 		{
 			"text": "סוּמְכְוָותָא"
 		},
 		{
-			"text": "סוּמְכְוָ׳"
+			"text": "סוּמְכְוָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 966,
 		"column": "a"

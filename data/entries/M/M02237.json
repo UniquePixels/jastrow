@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02237",
-	"slug": "מפצלת",
-	"headword": {
-		"text": "מְפַצֶּלֶּת"
-	},
+	"sefariaHeadword": "מְפַצֶּלֶּת",
+	"headwords": [
+		{
+			"text": "מְפַצֶּלֶּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00328",
-	"slug": "לז",
-	"headword": {
-		"text": "לָז"
-	},
+	"sefariaHeadword": "לָז",
+	"headwords": [
+		{
+			"text": "לָז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

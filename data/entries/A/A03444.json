@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03444",
-	"slug": "אתר",
-	"headword": {
-		"text": "אָתַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָתַר",
+	"headwords": [
+		{
+			"text": "אָתַר"
+		},
 		{
 			"text": "אֲתַר"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַתְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 133,
 		"column": "b"

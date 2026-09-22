@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00298",
-	"slug": "אגיר",
-	"headword": {
-		"text": "אָגִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָגִיר",
+	"headwords": [
+		{
+			"text": "אָגִיר"
+		},
 		{
 			"text": "אָגִירָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אַגִּירָא"
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 12,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00005",
-	"slug": "שאב-3",
-	"headword": {
-		"text": "שָׁאָב"
-	},
+	"sefariaHeadword": "שָׁאָב",
+	"headwords": [
+		{
+			"text": "שָׁאָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

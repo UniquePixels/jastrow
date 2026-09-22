@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00142",
-	"slug": "רבקא",
-	"headword": {
-		"text": "רִבְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְקָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִבְקָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1446,
 		"column": "a"

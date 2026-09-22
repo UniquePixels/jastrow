@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02289",
-	"slug": "קתוניא",
-	"headword": {
-		"text": "קתוניא"
-	},
+	"sefariaHeadword": "קתוניא",
+	"headwords": [
+		{
+			"text": "קתוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "b"

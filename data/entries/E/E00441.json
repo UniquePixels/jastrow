@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00441",
-	"slug": "הין-1",
-	"headword": {
-		"text": "הֵין"
-	},
+	"sefariaHeadword": "הֵין",
+	"headwords": [
+		{
+			"text": "הֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00295",
-	"slug": "סוך-2",
-	"headword": {
-		"text": "סוּךְ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סוּךְ ²",
+	"headwords": [
+		{
+			"text": "סוּךְ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 963,
 		"column": "b"

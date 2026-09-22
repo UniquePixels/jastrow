@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01575",
-	"slug": "קניגיא",
-	"headword": {
-		"text": "קְנִיגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנִיגְיָא",
+	"headwords": [
 		{
-			"text": "קִינִ׳"
+			"text": "קְנִיגְיָא"
+		},
+		{
+			"text": "קִינִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "a"

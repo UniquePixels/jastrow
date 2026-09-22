@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03100",
-	"slug": "אריכא-2",
-	"headword": {
-		"text": "אֲרֵיכָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲרֵיכָא",
+	"headwords": [
+		{
+			"text": "אֲרֵיכָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 120,
 		"column": "a"

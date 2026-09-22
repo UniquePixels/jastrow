@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01164",
-	"slug": "נקד-3",
-	"headword": {
-		"text": "נְקַד"
-	},
+	"sefariaHeadword": "נְקַד",
+	"headwords": [
+		{
+			"text": "נְקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "a"

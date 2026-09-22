@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01272",
-	"slug": "גרדאי",
-	"headword": {
-		"text": "גַּרְדַּאי"
-	},
+	"sefariaHeadword": "גַּרְדַּאי",
+	"headwords": [
+		{
+			"text": "גַּרְדַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 265,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01039",
-	"slug": "נפיורא",
-	"headword": {
-		"text": "נִפְיוֹרָא"
-	},
+	"sefariaHeadword": "נִפְיוֹרָא",
+	"headwords": [
+		{
+			"text": "נִפְיוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "b"

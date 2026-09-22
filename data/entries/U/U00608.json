@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00608",
-	"slug": "שזרה",
-	"headword": {
-		"text": "שִׁזְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁזְרָה",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁזְרָה"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1545,
 		"column": "a"

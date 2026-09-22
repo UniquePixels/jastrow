@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00557",
-	"slug": "מועד-2",
-	"headword": {
-		"text": "מוֹעֵד"
-	},
+	"sefariaHeadword": "מוֹעֵד",
+	"headwords": [
+		{
+			"text": "מוֹעֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "b"

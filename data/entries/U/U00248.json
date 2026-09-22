@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00248",
-	"slug": "שגשיא",
-	"headword": {
-		"text": "שַׁגִּשְׁיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁגִּשְׁיָא",
+	"headwords": [
 		{
-			"text": "שַׁגִּישְׁ׳"
+			"text": "שַׁגִּשְׁיָא"
+		},
+		{
+			"text": "שַׁגִּישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1523,
 		"column": "b"

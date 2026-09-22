@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01098",
-	"slug": "סמך-2",
-	"headword": {
-		"text": "סְמַךְ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְמַךְ I",
+	"headwords": [
+		{
+			"text": "סְמַךְ",
+			"homograph": 1
+		},
 		{
 			"text": "סְמֵיךְ"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1001,
 		"column": "a"

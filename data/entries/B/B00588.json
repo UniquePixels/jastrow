@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00588",
-	"slug": "בייא-1",
-	"headword": {
-		"text": "בִּיָיא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בִּיָיא I",
+	"headwords": [
+		{
+			"text": "בִּיָיא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 160,
 		"column": "b"

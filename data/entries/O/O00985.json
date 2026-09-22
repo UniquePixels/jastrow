@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00985",
-	"slug": "סליחותא",
-	"headword": {
-		"text": "סְלִיחוּתָא"
-	},
+	"sefariaHeadword": "סְלִיחוּתָא",
+	"headwords": [
+		{
+			"text": "סְלִיחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

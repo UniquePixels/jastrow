@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S02077",
-	"slug": "קריצתא",
-	"headword": {
-		"text": "קְרִיצְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרִיצְתָּא",
+	"headwords": [
+		{
+			"text": "קְרִיצְתָּא"
+		},
 		{
 			"text": "קְרִיצְתָּה"
 		},
 		{
-			"text": "קְרִצְ׳"
+			"text": "קְרִצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1421,
 		"column": "a"

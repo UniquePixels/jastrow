@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00509",
-	"slug": "צליב-1",
-	"headword": {
-		"text": "צליב"
-	},
+	"sefariaHeadword": "צליב",
+	"headwords": [
+		{
+			"text": "צליב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "b"

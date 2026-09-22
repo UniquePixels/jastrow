@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "O00190",
-	"slug": "סדן-2",
-	"headword": {
-		"text": "סַדָּן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַדָּן ²",
+	"headwords": [
+		{
+			"text": "סַדָּן",
+			"disambiguator": 2
+		},
 		{
 			"text": "סַדָּנָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "סְדָנָא"
 		}
 	],
+	"display": "{0} ², {1} I, {2}",
 	"page": {
 		"number": 957,
 		"column": "b"

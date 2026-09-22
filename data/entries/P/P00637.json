@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00637",
-	"slug": "עיף-3",
-	"headword": {
-		"text": "עִיף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיף II",
+	"headwords": [
+		{
+			"text": "עִיף",
+			"homograph": 2
+		},
 		{
 			"text": "עוּף"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1073,
 		"column": "b"

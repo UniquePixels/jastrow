@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00824",
-	"slug": "נכיל-2",
-	"headword": {
-		"text": "נְכִיל"
-	},
+	"sefariaHeadword": "נְכִיל",
+	"headwords": [
+		{
+			"text": "נְכִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "a"

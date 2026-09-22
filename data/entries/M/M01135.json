@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01135",
-	"slug": "מיטרין",
-	"headword": {
-		"text": "מִיטְרִין"
-	},
+	"sefariaHeadword": "מִיטְרִין",
+	"headwords": [
+		{
+			"text": "מִיטְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

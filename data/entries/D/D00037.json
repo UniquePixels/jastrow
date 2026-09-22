@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00037",
-	"slug": "דבא-3",
-	"headword": {
-		"text": "דָּבָא"
-	},
+	"sefariaHeadword": "דָּבָא",
+	"headwords": [
+		{
+			"text": "דָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

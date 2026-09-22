@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02257",
-	"slug": "מפתח-3",
-	"headword": {
-		"text": "מְפַתֵּחַ"
-	},
+	"sefariaHeadword": "מְפַתֵּחַ",
+	"headwords": [
+		{
+			"text": "מְפַתֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "b"

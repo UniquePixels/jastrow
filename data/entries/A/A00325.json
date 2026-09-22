@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00325",
-	"slug": "אגס",
-	"headword": {
-		"text": "אַגָּס"
-	},
+	"sefariaHeadword": "אַגָּס",
+	"headwords": [
+		{
+			"text": "אַגָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01584",
-	"slug": "סרטא",
-	"headword": {
-		"text": "סִרְטָא"
-	},
+	"sefariaHeadword": "סִרְטָא",
+	"headwords": [
+		{
+			"text": "סִרְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "b"

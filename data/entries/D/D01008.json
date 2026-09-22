@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01008",
-	"slug": "דקיתא-2",
-	"headword": {
-		"text": "דְּקִיתָא"
-	},
+	"sefariaHeadword": "דְּקִיתָא",
+	"headwords": [
+		{
+			"text": "דְּקִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 319,
 		"column": "a"

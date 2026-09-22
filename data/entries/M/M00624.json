@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00624",
-	"slug": "מורדיתא",
-	"headword": {
-		"text": "מוּרְדְּיָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּרְדְּיָתָא",
+	"headwords": [
+		{
+			"text": "מוּרְדְּיָתָא"
+		},
 		{
 			"text": "מוּרְדָּנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 749,
 		"column": "a"

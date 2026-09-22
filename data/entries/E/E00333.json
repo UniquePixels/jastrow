@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00333",
-	"slug": "היאך",
-	"headword": {
-		"text": "הֵיאַךְ"
-	},
+	"sefariaHeadword": "הֵיאַךְ",
+	"headwords": [
+		{
+			"text": "הֵיאַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

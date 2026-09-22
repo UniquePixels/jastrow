@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00176",
-	"slug": "יוחאי",
-	"headword": {
-		"text": "יוֹחַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹחַאי",
+	"headwords": [
+		{
+			"text": "יוֹחַאי"
+		},
 		{
 			"text": "יוֹחַי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 568,
 		"column": "a"

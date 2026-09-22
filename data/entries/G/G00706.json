@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00706",
-	"slug": "זריזות",
-	"headword": {
-		"text": "זְרִיזוּת"
-	},
+	"sefariaHeadword": "זְרִיזוּת",
+	"headwords": [
+		{
+			"text": "זְרִיזוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

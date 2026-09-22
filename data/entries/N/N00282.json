@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N00282",
-	"slug": "נהר-4",
-	"headword": {
-		"text": "נְהַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהַר II",
+	"headwords": [
+		{
+			"text": "נְהַר",
+			"homograph": 2
+		},
 		{
 			"text": "נַהֲרָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "נַהֲרָה"
 		}
 	],
+	"display": "{0} II, {1} I, {2}",
 	"page": {
 		"number": 882,
 		"column": "b"

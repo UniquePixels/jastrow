@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02251",
-	"slug": "אנלונטית",
-	"headword": {
-		"text": "אנלונטית"
-	},
+	"sefariaHeadword": "אנלונטית",
+	"headwords": [
+		{
+			"text": "אנלונטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "b"

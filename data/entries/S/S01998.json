@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "S01998",
-	"slug": "קרטיגני",
-	"headword": {
-		"text": "קַרְטִיגְנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטִיגְנִי",
+	"headwords": [
+		{
+			"text": "קַרְטִיגְנִי"
+		},
 		{
 			"text": "קַרְטִיגְנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1416,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

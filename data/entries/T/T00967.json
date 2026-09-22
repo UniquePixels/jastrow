@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00967",
-	"slug": "רפש-4",
-	"headword": {
-		"text": "רֶפֶשׂ"
-	},
+	"sefariaHeadword": "רֶפֶשׂ",
+	"headwords": [
+		{
+			"text": "רֶפֶשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "a"

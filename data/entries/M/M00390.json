@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00390",
-	"slug": "מובדנא",
-	"headword": {
-		"text": "מוֹבְדָנָא"
-	},
+	"sefariaHeadword": "מוֹבְדָנָא",
+	"headwords": [
+		{
+			"text": "מוֹבְדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

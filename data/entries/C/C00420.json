@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00420",
-	"slug": "גומנני",
-	"headword": {
-		"text": "גומנני"
-	},
+	"sefariaHeadword": "גומנני",
+	"headwords": [
+		{
+			"text": "גומנני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

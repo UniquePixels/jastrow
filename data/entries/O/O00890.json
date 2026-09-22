@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00890",
-	"slug": "סכותא-1",
-	"headword": {
-		"text": "סָכוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָכוּתָא",
+	"headwords": [
+		{
+			"text": "סָכוּתָא"
+		},
 		{
 			"text": "סְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 989,
 		"column": "a"

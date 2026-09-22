@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01400",
-	"slug": "ערמתא",
-	"headword": {
-		"text": "עֲרֵמְתָּא"
-	},
+	"sefariaHeadword": "עֲרֵמְתָּא",
+	"headwords": [
+		{
+			"text": "עֲרֵמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1120,
 		"column": "b"

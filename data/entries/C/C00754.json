@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00754",
-	"slug": "גינגלון",
-	"headword": {
-		"text": "גִּינְגְּלוֹן"
-	},
+	"sefariaHeadword": "גִּינְגְּלוֹן",
+	"headwords": [
+		{
+			"text": "גִּינְגְּלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00973",
-	"slug": "גלנו",
-	"headword": {
-		"text": "גלנו"
-	},
+	"sefariaHeadword": "גלנו",
+	"headwords": [
+		{
+			"text": "גלנו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01124",
-	"slug": "פלקא",
-	"headword": {
-		"text": "פַּלְקָא"
-	},
+	"sefariaHeadword": "פַּלְקָא",
+	"headwords": [
+		{
+			"text": "פַּלְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "a"

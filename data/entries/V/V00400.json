@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00400",
-	"slug": "תיאבון",
-	"headword": {
-		"text": "תֵּיאָבוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּיאָבוֹן",
+	"headwords": [
 		{
-			"text": "תֵּאָ׳"
+			"text": "תֵּיאָבוֹן"
+		},
+		{
+			"text": "תֵּאָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "a"

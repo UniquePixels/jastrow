@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01181",
-	"slug": "שכפא",
-	"headword": {
-		"text": "שַׁכָּפָא"
-	},
+	"sefariaHeadword": "שַׁכָּפָא",
+	"headwords": [
+		{
+			"text": "שַׁכָּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1575,
 		"column": "b"

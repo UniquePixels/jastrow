@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00059",
-	"slug": "רבה-2",
-	"headword": {
-		"text": "רָבֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָבֶה",
+	"headwords": [
+		{
+			"text": "רָבֶה"
+		},
 		{
 			"text": "רָבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1439,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02379",
-	"slug": "אסטלי-2",
-	"headword": {
-		"text": "אִסְטְלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְלִי",
+	"headwords": [
+		{
+			"text": "אִסְטְלִי"
+		},
 		{
 			"text": "אִסְטוֹלִי"
 		},
 		{
 			"text": "אִיסְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} II",
 	"page": {
 		"number": 90,
 		"column": "b"

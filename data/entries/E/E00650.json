@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00650",
-	"slug": "הן-3",
-	"headword": {
-		"text": "הָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָן",
+	"headwords": [
+		{
+			"text": "הָן"
+		},
 		{
 			"text": "הוֹן"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 356,
 		"column": "b"
@@ -40,7 +42,7 @@
 				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:2:33\">Y. Snh. I, 19ᵃ</cite> top; <cite ref=\"Jerusalem Talmud Nedarim 6:8:13\">Y. Ned. VI, 40ᵃ</cite> bot. <he>הן דמטא מטא</he> where he came to, he came to (and his order was obeyed). ",
 				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:11\">Y. Kil. IX, 32ᶜ</cite> bot. [read:] <he>להן דאשתלחית מינסבינן</he> to the place whither I was sent to take them; <cite ref=\"Jerusalem Talmud Ketubot 12:3:14\">Y. Keth. XII, 35ᵇ</cite> <he>להון דשלחית</he> (read <he>דאשתלחית</he>). ",
 				"<cite ref=\"Bereishit Rabbah 78:3\">Gen. R. s. 78</cite>, v. <cite ref=\"B01154\"><he>בְּרָא</he></cite>. ",
-				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot. <he>להן ייזיל</he> whither shall he go? Ib. II, 5ᵃ top <he>מן הן הוא</he> where is he from?; a. fr.—Pl. <cite ref=\"E00671\"><he>הַנְהוּ</he></cite>, <he>הַנֵּי</he>, <cite ref=\"E00684\"><he>הַנָּךְ</he></cite> <i>those, these</i>. ",
+				"<cite ref=\"Jerusalem Talmud Berakhot 2:8:9\">Y. Ber. II, 5ᶜ</cite> bot. <he>להן ייזיל</he> whither shall he go? Ib. II, 5ᵃ top <he>מן הן הוא</he> where is he from?; a. fr.—Pl. <cite ref=\"E00671\"><he>הַנְהוּ</he></cite>, <he>הַנֵּי</he>, <cite ref=\"E00684\"><he>הַנָּךְ</he></cite> <i>those, these</i>. ",
 				"<cite ref=\"Aramaic Targum to Esther 1:10\">Targ. Esth. I, 10</cite>; a. e.—",
 				"<cite ref=\"Tamid 32b:36\">Tam. 32ᵇ</cite>. ",
 				"<cite ref=\"Bava Metzia 117a:6\">B. Mets. 117ᵃ</cite>, v. <cite ref=\"E00174\"><he>הַהוּא</he></cite>.—",

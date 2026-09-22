@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00496",
-	"slug": "קופדא-1",
-	"headword": {
-		"text": "קוּפְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קוּפְדָּא I",
+	"headwords": [
+		{
+			"text": "קוּפְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1337,
 		"column": "b"

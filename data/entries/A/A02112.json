@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02112",
-	"slug": "אנדוכתרי",
-	"headword": {
-		"text": "אנדוכתרי"
-	},
+	"sefariaHeadword": "אנדוכתרי",
+	"headwords": [
+		{
+			"text": "אנדוכתרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

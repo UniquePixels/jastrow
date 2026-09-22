@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00675",
-	"slug": "ריערע",
-	"headword": {
-		"text": "רִיעֲרֵעַ"
-	},
+	"sefariaHeadword": "רִיעֲרֵעַ",
+	"headwords": [
+		{
+			"text": "רִיעֲרֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

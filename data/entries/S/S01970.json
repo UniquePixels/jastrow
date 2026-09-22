@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01970",
-	"slug": "קרח-5",
-	"headword": {
-		"text": "קֶרַח"
-	},
+	"sefariaHeadword": "קֶרַח",
+	"headwords": [
+		{
+			"text": "קֶרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "b"

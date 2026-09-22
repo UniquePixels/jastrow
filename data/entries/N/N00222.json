@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00222",
-	"slug": "נדי-1",
-	"headword": {
-		"text": "נדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נדי",
+	"headwords": [
+		{
+			"text": "נדי"
+		},
 		{
 			"text": "נָדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 878,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00350",
-	"slug": "נוטרין",
-	"headword": {
-		"text": "נוֹטָרִין"
-	},
+	"sefariaHeadword": "נוֹטָרִין",
+	"headwords": [
+		{
+			"text": "נוֹטָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

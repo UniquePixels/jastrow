@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00392",
-	"slug": "לטיסא",
-	"headword": {
-		"text": "לטיסא"
-	},
+	"sefariaHeadword": "לטיסא",
+	"headwords": [
+		{
+			"text": "לטיסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

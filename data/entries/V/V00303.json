@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00303",
-	"slug": "תורמסר",
-	"headword": {
-		"text": "תּוּרְמְסָר"
-	},
+	"sefariaHeadword": "תּוּרְמְסָר",
+	"headwords": [
+		{
+			"text": "תּוּרְמְסָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

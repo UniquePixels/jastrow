@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01392",
-	"slug": "פעפועין",
-	"headword": {
-		"text": "פַּעְפּוּעִין"
-	},
+	"sefariaHeadword": "פַּעְפּוּעִין",
+	"headwords": [
+		{
+			"text": "פַּעְפּוּעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "a"

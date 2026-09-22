@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00202",
-	"slug": "נדב-2",
-	"headword": {
-		"text": "נְדַב"
-	},
+	"sefariaHeadword": "נְדַב",
+	"headwords": [
+		{
+			"text": "נְדַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 877,
 		"column": "a"

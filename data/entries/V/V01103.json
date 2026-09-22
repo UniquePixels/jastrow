@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01103",
-	"slug": "תשסרי",
-	"headword": {
-		"text": "תְּשֵׁסְרֵי"
-	},
+	"sefariaHeadword": "תְּשֵׁסְרֵי",
+	"headwords": [
+		{
+			"text": "תְּשֵׁסְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "b"

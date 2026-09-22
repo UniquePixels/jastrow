@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01079",
-	"slug": "בצוצטרא",
-	"headword": {
-		"text": "בְּצוֹצְטְרָא"
-	},
+	"sefariaHeadword": "בְּצוֹצְטְרָא",
+	"headwords": [
+		{
+			"text": "בְּצוֹצְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "b"

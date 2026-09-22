@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01088",
-	"slug": "בציר-2",
-	"headword": {
-		"text": "בָּצִיר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּצִיר II",
+	"headwords": [
+		{
+			"text": "בָּצִיר",
+			"homograph": 2
+		},
 		{
 			"text": "בְּצִיר"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 184,
 		"column": "a"

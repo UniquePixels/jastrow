@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01312",
-	"slug": "ספאות",
-	"headword": {
-		"text": "סְפָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפָאוֹת",
+	"headwords": [
+		{
+			"text": "סְפָאוֹת"
+		},
 		{
 			"text": "סְפָאיוֹת"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1011,
 		"column": "a"

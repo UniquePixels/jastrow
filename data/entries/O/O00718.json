@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00718",
-	"slug": "סימפון",
-	"headword": {
-		"text": "סִימְפּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְפּוֹן",
+	"headwords": [
 		{
-			"text": "סִמְ׳"
+			"text": "סִימְפּוֹן"
+		},
+		{
+			"text": "סִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 982,
 		"column": "a"

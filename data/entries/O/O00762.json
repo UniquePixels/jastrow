@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00762",
-	"slug": "סיסרטא",
-	"headword": {
-		"text": "סיסרטא"
-	},
+	"sefariaHeadword": "סיסרטא",
+	"headwords": [
+		{
+			"text": "סיסרטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

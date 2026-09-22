@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00399",
-	"slug": "שויותא",
-	"headword": {
-		"text": "שַׁוְיוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁוְיוּתָא",
+	"headwords": [
 		{
-			"text": "שַׁוְו׳"
+			"text": "שַׁוְיוּתָא"
 		},
 		{
-			"text": "שַׁוְיָי׳"
+			"text": "שַׁוְו׳",
+			"partial": true
+		},
+		{
+			"text": "שַׁוְיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1533,
 		"column": "b"

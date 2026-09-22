@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02512",
-	"slug": "אספקטי",
-	"headword": {
-		"text": "אספקטי"
-	},
+	"sefariaHeadword": "אספקטי",
+	"headwords": [
+		{
+			"text": "אספקטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00511",
-	"slug": "גותייא",
-	"headword": {
-		"text": "גּוּתְיָיא"
-	},
+	"sefariaHeadword": "גּוּתְיָיא",
+	"headwords": [
+		{
+			"text": "גּוּתְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "a"

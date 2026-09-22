@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00367",
-	"slug": "גול-1",
-	"headword": {
-		"text": "גּוּל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּל",
+	"headwords": [
+		{
+			"text": "גּוּל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

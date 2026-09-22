@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02356",
-	"slug": "מצר-5",
-	"headword": {
-		"text": "מֵצַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵצַר",
+	"headwords": [
+		{
+			"text": "מֵצַר"
+		},
 		{
 			"text": "מֵיצַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 828,
 		"column": "a"

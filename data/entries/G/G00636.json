@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00636",
-	"slug": "זקיפה",
-	"headword": {
-		"text": "זְקִיפָה"
-	},
+	"sefariaHeadword": "זְקִיפָה",
+	"headwords": [
+		{
+			"text": "זְקִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

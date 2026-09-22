@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00275",
-	"slug": "חוורולין",
-	"headword": {
-		"text": "חַוְורוּלִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חַוְורוּלִין",
+	"headwords": [
+		{
+			"text": "חַוְורוּלִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

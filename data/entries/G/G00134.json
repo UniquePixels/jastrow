@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00134",
-	"slug": "זוהמא",
-	"headword": {
-		"text": "זוֹהֲמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹהֲמָא",
+	"headwords": [
+		{
+			"text": "זוֹהֲמָא"
+		},
 		{
 			"text": "זוֹהֲמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 384,
 		"column": "b"

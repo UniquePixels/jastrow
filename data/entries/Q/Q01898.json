@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01898",
-	"slug": "פרנס-3",
-	"headword": {
-		"text": "פַּרְנָס"
-	},
+	"sefariaHeadword": "פַּרְנָס",
+	"headwords": [
+		{
+			"text": "פַּרְנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "b"

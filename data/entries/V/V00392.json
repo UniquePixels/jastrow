@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00392",
-	"slug": "תחתאה",
-	"headword": {
-		"text": "תַּחְתָּאָה"
-	},
+	"sefariaHeadword": "תַּחְתָּאָה",
+	"headwords": [
+		{
+			"text": "תַּחְתָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00273",
-	"slug": "סווסטי",
-	"headword": {
-		"text": "סְוַוסְטִי"
-	},
+	"sefariaHeadword": "סְוַוסְטִי",
+	"headwords": [
+		{
+			"text": "סְוַוסְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

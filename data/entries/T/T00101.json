@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00101",
-	"slug": "רביעה",
-	"headword": {
-		"text": "רְבִיעָה"
-	},
+	"sefariaHeadword": "רְבִיעָה",
+	"headwords": [
+		{
+			"text": "רְבִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "b"

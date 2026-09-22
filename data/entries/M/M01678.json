@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01678",
-	"slug": "ממקק",
-	"headword": {
-		"text": "מִמְקָק"
-	},
+	"sefariaHeadword": "מִמְקָק",
+	"headwords": [
+		{
+			"text": "מִמְקָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 795,
 		"column": "b"

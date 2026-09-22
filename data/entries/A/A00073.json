@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00073",
-	"slug": "אבולין",
-	"headword": {
-		"text": "אבולין"
-	},
+	"sefariaHeadword": "אבולין",
+	"headwords": [
+		{
+			"text": "אבולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00443",
-	"slug": "חור-1",
-	"headword": {
-		"text": "חָוַר"
-	},
+	"sefariaHeadword": "חָוַר",
+	"headwords": [
+		{
+			"text": "חָוַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "b"

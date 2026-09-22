@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01378",
-	"slug": "ערכאה",
-	"headword": {
-		"text": "עַרְכָּאָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַרְכָּאָה",
+	"headwords": [
+		{
+			"text": "עַרְכָּאָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1119,
 		"column": "a"

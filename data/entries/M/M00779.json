@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00779",
-	"slug": "מזר",
-	"headword": {
-		"text": "מָזַר"
-	},
+	"sefariaHeadword": "מָזַר",
+	"headwords": [
+		{
+			"text": "מָזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

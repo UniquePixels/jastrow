@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00325",
-	"slug": "תושב-2",
-	"headword": {
-		"text": "תּוֹשָׁב",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "תּוֹשָׁב ²",
+	"headwords": [
+		{
+			"text": "תּוֹשָׁב",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1659,
 		"column": "a"

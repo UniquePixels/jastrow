@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01124",
-	"slug": "דרקון-2",
-	"headword": {
-		"text": "דְּרָקוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרָקוֹן ²",
+	"headwords": [
+		{
+			"text": "דְּרָקוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "דְּרָקוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 325,
 		"column": "a"

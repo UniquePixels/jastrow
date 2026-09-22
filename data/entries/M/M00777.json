@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00777",
-	"slug": "מזפו",
-	"headword": {
-		"text": "מִזְפּוּ"
-	},
+	"sefariaHeadword": "מִזְפּוּ",
+	"headwords": [
+		{
+			"text": "מִזְפּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

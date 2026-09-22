@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01119",
-	"slug": "קיץ-5",
-	"headword": {
-		"text": "קִיץ",
-		"disambiguator": 3
-	},
+	"sefariaHeadword": "קִיץ ³",
+	"headwords": [
+		{
+			"text": "קִיץ",
+			"disambiguator": 3
+		}
+	],
+	"display": "{0} ³",
 	"page": {
 		"number": 1367,
 		"column": "a"

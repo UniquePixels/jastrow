@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00812",
-	"slug": "צרר-6",
-	"headword": {
-		"text": "צְרָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרָר",
+	"headwords": [
+		{
+			"text": "צְרָר"
+		},
 		{
 			"text": "צְרָרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1305,
 		"column": "b"

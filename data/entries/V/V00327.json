@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00327",
-	"slug": "תושבחה",
-	"headword": {
-		"text": "תּוּשְׁבָּחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּשְׁבָּחָה",
+	"headwords": [
 		{
-			"text": "תִּשְׁ׳"
+			"text": "תּוּשְׁבָּחָה"
+		},
+		{
+			"text": "תִּשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1659,
 		"column": "a"

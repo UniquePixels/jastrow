@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01312",
-	"slug": "נשיכה",
-	"headword": {
-		"text": "נְשִׁיכָה"
-	},
+	"sefariaHeadword": "נְשִׁיכָה",
+	"headwords": [
+		{
+			"text": "נְשִׁיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 939,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00660",
-	"slug": "גיוותנא",
-	"headword": {
-		"text": "גֵּיווְתָנָא"
-	},
+	"sefariaHeadword": "גֵּיווְתָנָא",
+	"headwords": [
+		{
+			"text": "גֵּיווְתָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "a"

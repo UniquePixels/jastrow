@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00875",
-	"slug": "שיחרור-2",
-	"headword": {
-		"text": "שִׁיחְרוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיחְרוּר",
+	"headwords": [
 		{
-			"text": "שִׁחְ׳"
+			"text": "שִׁיחְרוּר"
+		},
+		{
+			"text": "שִׁחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1560,
 		"column": "a"

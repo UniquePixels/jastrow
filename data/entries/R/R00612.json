@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00612",
-	"slug": "צנוק",
-	"headword": {
-		"text": "צִנוֹק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנוֹק",
+	"headwords": [
+		{
+			"text": "צִנוֹק"
+		},
 		{
 			"text": "צִנוֹקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1291,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00671",
-	"slug": "פילגש",
-	"headword": {
-		"text": "פִּילֶּגֶשׁ"
-	},
+	"sefariaHeadword": "פִּילֶּגֶשׁ",
+	"headwords": [
+		{
+			"text": "פִּילֶּגֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

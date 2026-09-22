@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00948",
-	"slug": "פלגיסין",
-	"headword": {
-		"text": "פַּלְגִיסִין"
-	},
+	"sefariaHeadword": "פַּלְגִיסִין",
+	"headwords": [
+		{
+			"text": "פַּלְגִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

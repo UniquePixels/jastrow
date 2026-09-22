@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02750",
-	"slug": "מרפסת",
-	"headword": {
-		"text": "מַרְפֶּסֶת"
-	},
+	"sefariaHeadword": "מַרְפֶּסֶת",
+	"headwords": [
+		{
+			"text": "מַרְפֶּסֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

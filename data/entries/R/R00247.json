@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00247",
-	"slug": "צורא",
-	"headword": {
-		"text": "צוּרָא"
-	},
+	"sefariaHeadword": "צוּרָא",
+	"headwords": [
+		{
+			"text": "צוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "a"

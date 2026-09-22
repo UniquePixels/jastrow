@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00470",
-	"slug": "שוניתא",
-	"headword": {
-		"text": "שׁוּנִּיתָא"
-	},
+	"sefariaHeadword": "שׁוּנִּיתָא",
+	"headwords": [
+		{
+			"text": "שׁוּנִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "b"

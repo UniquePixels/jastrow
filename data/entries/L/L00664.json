@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00664",
-	"slug": "לקוחות",
-	"headword": {
-		"text": "לְקוּחוֹת"
-	},
+	"sefariaHeadword": "לְקוּחוֹת",
+	"headwords": [
+		{
+			"text": "לְקוּחוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "b"

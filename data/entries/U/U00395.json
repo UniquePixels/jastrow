@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00395",
-	"slug": "שוי-5",
-	"headword": {
-		"text": "שָׁוְי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁוְי",
+	"headwords": [
+		{
+			"text": "שָׁוְי"
+		},
 		{
 			"text": "שַׁוְיָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1533,
 		"column": "a"

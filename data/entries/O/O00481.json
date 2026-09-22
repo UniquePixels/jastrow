@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00481",
-	"slug": "סטי-2",
-	"headword": {
-		"text": "סְטֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְטֵי",
+	"headwords": [
+		{
+			"text": "סְטֵי"
+		},
 		{
 			"text": "סְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 972,
 		"column": "b"

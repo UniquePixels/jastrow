@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02086",
-	"slug": "קריתא-2",
-	"headword": {
-		"text": "קְרִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְרִיתָא",
+	"headwords": [
+		{
+			"text": "קְרִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1421,
 		"column": "b"

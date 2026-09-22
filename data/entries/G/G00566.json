@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00566",
-	"slug": "זנגבילא-1",
-	"headword": {
-		"text": "זנגבילא"
-	},
+	"sefariaHeadword": "זנגבילא",
+	"headwords": [
+		{
+			"text": "זנגבילא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

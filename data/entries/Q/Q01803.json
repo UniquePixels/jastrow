@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01803",
-	"slug": "פריטות",
-	"headword": {
-		"text": "פריטות"
-	},
+	"sefariaHeadword": "פריטות",
+	"headwords": [
+		{
+			"text": "פריטות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "b"

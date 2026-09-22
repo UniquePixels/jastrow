@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01996",
-	"slug": "פרקוס",
-	"headword": {
-		"text": "פִּרְקוּס"
-	},
+	"sefariaHeadword": "פִּרְקוּס",
+	"headwords": [
+		{
+			"text": "פִּרְקוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

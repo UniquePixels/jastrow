@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00453",
-	"slug": "שומפוזין",
-	"headword": {
-		"text": "שומפוזין"
-	},
+	"sefariaHeadword": "שומפוזין",
+	"headwords": [
+		{
+			"text": "שומפוזין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

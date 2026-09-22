@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00434",
-	"slug": "ינוקתא",
-	"headword": {
-		"text": "יָנוּקְתָּא"
-	},
+	"sefariaHeadword": "יָנוּקְתָּא",
+	"headwords": [
+		{
+			"text": "יָנוּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 581,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01888",
-	"slug": "חתימה",
-	"headword": {
-		"text": "חֲתִימָה"
-	},
+	"sefariaHeadword": "חֲתִימָה",
+	"headwords": [
+		{
+			"text": "חֲתִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "b"

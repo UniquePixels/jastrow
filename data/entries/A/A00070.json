@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00070",
-	"slug": "אבולא",
-	"headword": {
-		"text": "אִבּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִבּוּלָא",
+	"headwords": [
+		{
+			"text": "אִבּוּלָא"
+		},
 		{
 			"text": "אִיבּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 4,
 		"column": "a"

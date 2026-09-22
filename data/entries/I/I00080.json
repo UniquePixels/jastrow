@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00080",
-	"slug": "טבע-5",
-	"headword": {
-		"text": "טֶבַע"
-	},
+	"sefariaHeadword": "טֶבַע",
+	"headwords": [
+		{
+			"text": "טֶבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 519,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00047",
-	"slug": "דבו",
-	"headword": {
-		"text": "דְּבוּ"
-	},
+	"sefariaHeadword": "דְּבוּ",
+	"headwords": [
+		{
+			"text": "דְּבוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "b"

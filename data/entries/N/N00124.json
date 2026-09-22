@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00124",
-	"slug": "נגדא-5",
-	"headword": {
-		"text": "נַגָּדָא"
-	},
+	"sefariaHeadword": "נַגָּדָא",
+	"headwords": [
+		{
+			"text": "נַגָּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 872,
 		"column": "b"

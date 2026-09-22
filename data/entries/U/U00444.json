@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00444",
-	"slug": "שומה-1",
-	"headword": {
-		"text": "שׁוּמָה"
-	},
+	"sefariaHeadword": "שׁוּמָה",
+	"headwords": [
+		{
+			"text": "שׁוּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

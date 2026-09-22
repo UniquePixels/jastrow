@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "A02052",
-	"slug": "אמפיליא",
-	"headword": {
-		"text": "אִמְפִּילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִמְפִּילְיָא",
+	"headwords": [
+		{
+			"text": "אִמְפִּילְיָא"
+		},
 		{
 			"text": "אִמְפִּלְיָא"
 		},
 		{
-			"text": "אִנְפִּי׳"
+			"text": "אִנְפִּי׳",
+			"partial": true
 		},
 		{
-			"text": "אִנְפִּלְ׳"
+			"text": "אִנְפִּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 78,
 		"column": "a"

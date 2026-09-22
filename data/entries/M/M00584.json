@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00584",
-	"slug": "מוקדון",
-	"headword": {
-		"text": "מוּקְדּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּקְדּוֹן",
+	"headwords": [
+		{
+			"text": "מוּקְדּוֹן"
+		},
 		{
 			"text": "מַקְדּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 747,
 		"column": "a"

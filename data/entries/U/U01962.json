@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01962",
-	"slug": "שרי-5",
-	"headword": {
-		"text": "שָׁרִי"
-	},
+	"sefariaHeadword": "שָׁרִי",
+	"headwords": [
+		{
+			"text": "שָׁרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1630,
 		"column": "b"

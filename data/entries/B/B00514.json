@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00514",
-	"slug": "בטינתא",
-	"headword": {
-		"text": "בטינתא"
-	},
+	"sefariaHeadword": "בטינתא",
+	"headwords": [
+		{
+			"text": "בטינתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 157,
 		"column": "a"

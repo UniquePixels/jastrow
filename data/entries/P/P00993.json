@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00993",
-	"slug": "ענינא",
-	"headword": {
-		"text": "עִנְיָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְיָנָא",
+	"headwords": [
 		{
-			"text": "עִנְיָי׳"
+			"text": "עִנְיָנָא"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִנְיָי׳",
+			"partial": true
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1095,
 		"column": "a"

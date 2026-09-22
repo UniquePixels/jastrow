@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00761",
-	"slug": "צרי-3",
-	"headword": {
-		"text": "צֳרִי"
-	},
+	"sefariaHeadword": "צֳרִי",
+	"headwords": [
+		{
+			"text": "צֳרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "a"

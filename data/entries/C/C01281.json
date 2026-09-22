@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01281",
-	"slug": "גרדיתא",
-	"headword": {
-		"text": "גַּרְדִּיתָא"
-	},
+	"sefariaHeadword": "גַּרְדִּיתָא",
+	"headwords": [
+		{
+			"text": "גַּרְדִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01953",
-	"slug": "פרף",
-	"headword": {
-		"text": "פָּרַף"
-	},
+	"sefariaHeadword": "פָּרַף",
+	"headwords": [
+		{
+			"text": "פָּרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01711",
-	"slug": "פרוסה",
-	"headword": {
-		"text": "פְּרוּסָה"
-	},
+	"sefariaHeadword": "פְּרוּסָה",
+	"headwords": [
+		{
+			"text": "פְּרוּסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

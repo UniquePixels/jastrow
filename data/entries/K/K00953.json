@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00953",
-	"slug": "כסף-3",
-	"headword": {
-		"text": "כֶּסֶף"
-	},
+	"sefariaHeadword": "כֶּסֶף",
+	"headwords": [
+		{
+			"text": "כֶּסֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 655,
 		"column": "a"

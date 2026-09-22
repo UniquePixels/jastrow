@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02593",
-	"slug": "מרומה",
-	"headword": {
-		"text": "מְרוּמֶּה"
-	},
+	"sefariaHeadword": "מְרוּמֶּה",
+	"headwords": [
+		{
+			"text": "מְרוּמֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

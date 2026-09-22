@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00864",
-	"slug": "בלימה",
-	"headword": {
-		"text": "בְּלִימָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלִימָה",
+	"headwords": [
+		{
+			"text": "בְּלִימָה"
+		},
 		{
 			"text": "בְּלִי מָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 173,
 		"column": "a"

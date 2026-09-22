@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00443",
-	"slug": "שומדא",
-	"headword": {
-		"text": "שׁוּמְדָּא"
-	},
+	"sefariaHeadword": "שׁוּמְדָּא",
+	"headwords": [
+		{
+			"text": "שׁוּמְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

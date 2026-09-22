@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01949",
-	"slug": "קרומית-2",
-	"headword": {
-		"text": "קרומית"
-	},
+	"sefariaHeadword": "קרומית",
+	"headwords": [
+		{
+			"text": "קרומית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

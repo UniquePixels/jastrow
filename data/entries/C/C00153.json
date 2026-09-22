@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00153",
-	"slug": "גד-3",
-	"headword": {
-		"text": "גַּד",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּד I",
+	"headwords": [
+		{
+			"text": "גַּד",
+			"homograph": 1
+		},
 		{
 			"text": "גָּדָד"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 209,
 		"column": "b"

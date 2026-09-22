@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00427",
-	"slug": "כותירין",
-	"headword": {
-		"text": "כְּוָתִירִין"
-	},
+	"sefariaHeadword": "כְּוָתִירִין",
+	"headwords": [
+		{
+			"text": "כְּוָתִירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

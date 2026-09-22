@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00752",
-	"slug": "גינברא-1",
-	"headword": {
-		"text": "גִּינְבְּרָא"
-	},
+	"sefariaHeadword": "גִּינְבְּרָא",
+	"headwords": [
+		{
+			"text": "גִּינְבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

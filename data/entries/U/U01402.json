@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "U01402",
-	"slug": "שלשלתא",
-	"headword": {
-		"text": "שַׁלְשֶׁלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְשֶׁלְתָּא",
+	"headwords": [
 		{
-			"text": "שׁוּלְשֶׁילְ׳"
+			"text": "שַׁלְשֶׁלְתָּא"
 		},
 		{
-			"text": "שׁוֹשֶׁלְ׳"
+			"text": "שׁוּלְשֶׁילְ׳",
+			"partial": true
 		},
 		{
-			"text": "שִׁישֶׁ׳"
+			"text": "שׁוֹשֶׁלְ׳",
+			"partial": true
+		},
+		{
+			"text": "שִׁישֶׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1590,
 		"column": "a"

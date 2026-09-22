@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01402",
-	"slug": "גררתה",
-	"headword": {
-		"text": "גררתה"
-	},
+	"sefariaHeadword": "גררתה",
+	"headwords": [
+		{
+			"text": "גררתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "a"

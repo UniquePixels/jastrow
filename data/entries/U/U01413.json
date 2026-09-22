@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01413",
-	"slug": "שמאל-2",
-	"headword": {
-		"text": "שמאל"
-	},
+	"sefariaHeadword": "שמאל",
+	"headwords": [
+		{
+			"text": "שמאל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1591,
 		"column": "b"

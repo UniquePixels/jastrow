@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00882",
-	"slug": "פישונא",
-	"headword": {
-		"text": "פַּיְשׂוֹנָא"
-	},
+	"sefariaHeadword": "פַּיְשׂוֹנָא",
+	"headwords": [
+		{
+			"text": "פַּיְשׂוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "b"

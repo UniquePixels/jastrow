@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01783",
-	"slug": "קצב-1",
-	"headword": {
-		"text": "קָצַב"
-	},
+	"sefariaHeadword": "קָצַב",
+	"headwords": [
+		{
+			"text": "קָצַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "a"

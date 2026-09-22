@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00442",
-	"slug": "ליט",
-	"headword": {
-		"text": "לִיט"
-	},
+	"sefariaHeadword": "לִיט",
+	"headwords": [
+		{
+			"text": "לִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

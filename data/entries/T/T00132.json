@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00132",
-	"slug": "רבעותא-1",
-	"headword": {
-		"text": "רַבְעוּתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רַבְעוּתָא I",
+	"headwords": [
+		{
+			"text": "רַבְעוּתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1445,
 		"column": "a"

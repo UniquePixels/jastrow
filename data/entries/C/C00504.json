@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00504",
-	"slug": "גושא",
-	"headword": {
-		"text": "גּוּשָׁא"
-	},
+	"sefariaHeadword": "גּוּשָׁא",
+	"headwords": [
+		{
+			"text": "גּוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "a"

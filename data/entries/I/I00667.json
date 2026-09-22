@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00667",
-	"slug": "טפס-1",
-	"headword": {
-		"text": "טָפַס"
-	},
+	"sefariaHeadword": "טָפַס",
+	"headwords": [
+		{
+			"text": "טָפַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00866",
-	"slug": "תקו",
-	"headword": {
-		"text": "תֵּקוּ"
-	},
+	"sefariaHeadword": "תֵּקוּ",
+	"headwords": [
+		{
+			"text": "תֵּקוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

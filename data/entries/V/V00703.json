@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00703",
-	"slug": "תמר-1",
-	"headword": {
-		"text": "תָּמַר"
-	},
+	"sefariaHeadword": "תָּמַר",
+	"headwords": [
+		{
+			"text": "תָּמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1678,
 		"column": "b"

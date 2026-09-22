@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00156",
-	"slug": "צובא",
-	"headword": {
-		"text": "צוֹבָא"
-	},
+	"sefariaHeadword": "צוֹבָא",
+	"headwords": [
+		{
+			"text": "צוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "b"

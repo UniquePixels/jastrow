@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00323",
-	"slug": "דוץ-3",
-	"headword": {
-		"text": "דּוּץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דּוּץ II",
+	"headwords": [
+		{
+			"text": "דּוּץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 287,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00362",
-	"slug": "נול",
-	"headword": {
-		"text": "נָוֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָוֵל",
+	"headwords": [
+		{
+			"text": "נָוֵל"
+		},
 		{
 			"text": "נְוַל"
 		},
@@ -12,6 +13,7 @@
 			"text": "נַוְלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 887,
 		"column": "b"

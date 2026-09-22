@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03078",
-	"slug": "מתמהא",
-	"headword": {
-		"text": "מִתְמְהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִתְמְהָא",
+	"headwords": [
+		{
+			"text": "מִתְמְהָא"
+		},
 		{
 			"text": "מִתְמְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 863,
 		"column": "a"

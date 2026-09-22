@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00678",
-	"slug": "ריפוי",
-	"headword": {
-		"text": "רִיפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיפּוּי",
+	"headwords": [
 		{
-			"text": "רִפּ׳"
+			"text": "רִיפּוּי"
+		},
+		{
+			"text": "רִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1476,
 		"column": "a"

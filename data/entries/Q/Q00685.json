@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00685",
-	"slug": "פילוסאה",
-	"headword": {
-		"text": "פִּילוֹסָאָה"
-	},
+	"sefariaHeadword": "פִּילוֹסָאָה",
+	"headwords": [
+		{
+			"text": "פִּילוֹסָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

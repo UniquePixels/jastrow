@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S02145",
-	"slug": "קרץ-5",
-	"headword": {
-		"text": "קְרַץ",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַץ III",
+	"headwords": [
+		{
+			"text": "קְרַץ",
+			"homograph": 3
+		},
 		{
 			"text": "קַרְצָא"
 		},
 		{
-			"text": "קוּרְ׳"
+			"text": "קוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2}",
 	"page": {
 		"number": 1425,
 		"column": "b"

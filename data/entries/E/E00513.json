@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00513",
-	"slug": "הכל",
-	"headword": {
-		"text": "הַכֹּל"
-	},
+	"sefariaHeadword": "הַכֹּל",
+	"headwords": [
+		{
+			"text": "הַכֹּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

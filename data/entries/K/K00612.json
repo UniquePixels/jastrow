@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00612",
-	"slug": "כיפש",
-	"headword": {
-		"text": "כִּיפֵּשׁ"
-	},
+	"sefariaHeadword": "כִּיפֵּשׁ",
+	"headwords": [
+		{
+			"text": "כִּיפֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 636,
 		"column": "a"

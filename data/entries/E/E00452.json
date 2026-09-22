@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00452",
-	"slug": "הינדווי",
-	"headword": {
-		"text": "הִינְדְּוִוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִינְדְּוִוי",
+	"headwords": [
+		{
+			"text": "הִינְדְּוִוי"
+		},
 		{
 			"text": "הִינְדְּוִי"
 		},
 		{
-			"text": "הִנְ׳"
+			"text": "הִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 348,
 		"column": "a"

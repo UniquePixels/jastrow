@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00630",
-	"slug": "כיריו",
-	"headword": {
-		"text": "כִּירְיוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּירְיוֹ",
+	"headwords": [
+		{
+			"text": "כִּירְיוֹ"
+		},
 		{
 			"text": "כִּירְייוֹ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "a"

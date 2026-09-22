@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00688",
-	"slug": "נימפיון",
-	"headword": {
-		"text": "נִימְפִּיּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִימְפִּיּוֹן",
+	"headwords": [
 		{
-			"text": "נִמְ׳"
+			"text": "נִימְפִּיּוֹן"
+		},
+		{
+			"text": "נִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 905,
 		"column": "b"

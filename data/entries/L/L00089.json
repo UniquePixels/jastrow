@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00089",
-	"slug": "לבלו",
-	"headword": {
-		"text": "לַבְלֵו"
-	},
+	"sefariaHeadword": "לַבְלֵו",
+	"headwords": [
+		{
+			"text": "לַבְלֵו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "b"

@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "S01397",
-	"slug": "קלע-8",
-	"headword": {
-		"text": "קְלַע",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלַע ³",
+	"headwords": [
+		{
+			"text": "קְלַע",
+			"disambiguator": 3
+		},
 		{
 			"text": "קִלְעָא"
 		},
 		{
 			"text": "קִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} ³, {1}, {2} I",
 	"page": {
 		"number": 1380,
 		"column": "b"

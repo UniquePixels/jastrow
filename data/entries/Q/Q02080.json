@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02080",
-	"slug": "פשיפשין",
-	"headword": {
-		"text": "פְּשִׁיפְשִׁין"
-	},
+	"sefariaHeadword": "פְּשִׁיפְשִׁין",
+	"headwords": [
+		{
+			"text": "פְּשִׁיפְשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

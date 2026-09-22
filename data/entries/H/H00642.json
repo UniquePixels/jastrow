@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00642",
-	"slug": "חטפא-2",
-	"headword": {
-		"text": "חֲטָפָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטָפָא ²",
+	"headwords": [
+		{
+			"text": "חֲטָפָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲטָפָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 450,
 		"column": "a"

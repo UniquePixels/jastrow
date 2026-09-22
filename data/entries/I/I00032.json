@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00032",
-	"slug": "טבוח",
-	"headword": {
-		"text": "טָבוֹחַ"
-	},
+	"sefariaHeadword": "טָבוֹחַ",
+	"headwords": [
+		{
+			"text": "טָבוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01227",
-	"slug": "סניא-3",
-	"headword": {
-		"text": "סַנְיָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְיָא III",
+	"headwords": [
+		{
+			"text": "סַנְיָא",
+			"homograph": 3
+		},
 		{
 			"text": "סְנֵיָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1007,
 		"column": "a"

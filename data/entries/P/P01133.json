@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01133",
-	"slug": "עצרא-1",
-	"headword": {
-		"text": "עַצְרָא"
-	},
+	"sefariaHeadword": "עַצְרָא",
+	"headwords": [
+		{
+			"text": "עַצְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1103,
 		"column": "b"

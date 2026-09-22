@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01297",
-	"slug": "נשוותא",
-	"headword": {
-		"text": "נשוותא"
-	},
+	"sefariaHeadword": "נשוותא",
+	"headwords": [
+		{
+			"text": "נשוותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01086",
-	"slug": "כרבלת",
-	"headword": {
-		"text": "כַּרְבֶּלֶת"
-	},
+	"sefariaHeadword": "כַּרְבֶּלֶת",
+	"headwords": [
+		{
+			"text": "כַּרְבֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "a"

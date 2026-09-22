@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00066",
-	"slug": "בבליקון",
-	"headword": {
-		"text": "בבליקון"
-	},
+	"sefariaHeadword": "בבליקון",
+	"headwords": [
+		{
+			"text": "בבליקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

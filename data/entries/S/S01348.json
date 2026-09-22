@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01348",
-	"slug": "קליפה",
-	"headword": {
-		"text": "קְלִיפָה"
-	},
+	"sefariaHeadword": "קְלִיפָה",
+	"headwords": [
+		{
+			"text": "קְלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1377,
 		"column": "a"

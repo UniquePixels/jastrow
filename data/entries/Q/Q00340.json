@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00340",
-	"slug": "פורטיתא",
-	"headword": {
-		"text": "פּוּרְטִיתָא"
-	},
+	"sefariaHeadword": "פּוּרְטִיתָא",
+	"headwords": [
+		{
+			"text": "פּוּרְטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

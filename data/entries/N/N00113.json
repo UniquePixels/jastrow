@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00113",
-	"slug": "נגאנא",
-	"headword": {
-		"text": "נָגָאנָא"
-	},
+	"sefariaHeadword": "נָגָאנָא",
+	"headwords": [
+		{
+			"text": "נָגָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

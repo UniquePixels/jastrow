@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00778",
-	"slug": "חילמא",
-	"headword": {
-		"text": "חִילְמָא"
-	},
+	"sefariaHeadword": "חִילְמָא",
+	"headwords": [
+		{
+			"text": "חִילְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

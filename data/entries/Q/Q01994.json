@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01994",
-	"slug": "פרקונא",
-	"headword": {
-		"text": "פִּרְקוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְקוּנָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּרְקוּנָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "b"

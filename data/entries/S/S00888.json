@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00888",
-	"slug": "קיזאי",
-	"headword": {
-		"text": "קִיזַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיזַּאי",
+	"headwords": [
+		{
+			"text": "קִיזַּאי"
+		},
 		{
 			"text": "קִיזַּי"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִיזַּיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1357,
 		"column": "a"

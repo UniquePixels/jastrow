@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00991",
-	"slug": "בסימא",
-	"headword": {
-		"text": "בְּסִימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּסִימָא",
+	"headwords": [
+		{
+			"text": "בְּסִימָא"
+		},
 		{
 			"text": "בִּסְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 178,
 		"column": "b"

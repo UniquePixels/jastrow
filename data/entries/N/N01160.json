@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01160",
-	"slug": "נקבות",
-	"headword": {
-		"text": "נְקֵבוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקֵבוּת",
+	"headwords": [
 		{
-			"text": "נְקֵי׳"
+			"text": "נְקֵבוּת"
+		},
+		{
+			"text": "נְקֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 930,
 		"column": "b"

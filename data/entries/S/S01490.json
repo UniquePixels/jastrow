@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01490",
-	"slug": "קמצוץ",
-	"headword": {
-		"text": "קַמְצוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמְצוּץ",
+	"headwords": [
+		{
+			"text": "קַמְצוּץ"
+		},
 		{
 			"text": "קַמְצִיץ"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1386,
 		"column": "b"

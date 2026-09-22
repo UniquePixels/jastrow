@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01551",
-	"slug": "קנח-3",
-	"headword": {
-		"text": "קְנַח"
-	},
+	"sefariaHeadword": "קְנַח",
+	"headwords": [
+		{
+			"text": "קְנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

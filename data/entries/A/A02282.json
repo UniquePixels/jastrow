@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02282",
-	"slug": "אנפקינון",
-	"headword": {
-		"text": "אָנְפַּקִּינוֹן"
-	},
+	"sefariaHeadword": "אָנְפַּקִּינוֹן",
+	"headwords": [
+		{
+			"text": "אָנְפַּקִּינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

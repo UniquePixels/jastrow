@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00385",
-	"slug": "אדון",
-	"headword": {
-		"text": "אָדוֹן"
-	},
+	"sefariaHeadword": "אָדוֹן",
+	"headwords": [
+		{
+			"text": "אָדוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

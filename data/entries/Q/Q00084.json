@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00084",
-	"slug": "פגניקא",
-	"headword": {
-		"text": "פָּגָנִיקָא"
-	},
+	"sefariaHeadword": "פָּגָנִיקָא",
+	"headwords": [
+		{
+			"text": "פָּגָנִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1135,
 		"column": "a"

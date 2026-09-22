@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01270",
-	"slug": "ערבוביתא",
-	"headword": {
-		"text": "עִרְבּוּבִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִרְבּוּבִיתָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִרְבּוּבִיתָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1112,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00130",
-	"slug": "לגימא",
-	"headword": {
-		"text": "לְגִימָא"
-	},
+	"sefariaHeadword": "לְגִימָא",
+	"headwords": [
+		{
+			"text": "לְגִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 692,
 		"column": "b"

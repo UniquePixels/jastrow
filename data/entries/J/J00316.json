@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00316",
-	"slug": "יטי",
-	"headword": {
-		"text": "יְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְטִי",
+	"headwords": [
+		{
+			"text": "יְטִי"
+		},
 		{
 			"text": "יְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 576,
 		"column": "a"
@@ -26,7 +28,7 @@
 				{
 					"gloss": "<i>to adduce, prefer</i>. Y. Ber. II, 4ᵇ top <he>לית אפשר דלא י׳ מילה</he> it was impossible that he should not have brought on (in his lecture) a word (alluding to the exodus from Egypt); cmp. Bab. ",
 					"units": [
-						"<cite ref=\"Berakhot 13b:19\">Ber. 13ᵇ</cite> <he>מהדר רבי אשמעתא וכ׳</he>. [Vers. in Fr. Ahǎb. Zion: <he>יָטִיף</he>; ed. Lehm. <cite ref=\"J00354\"><he>יַיְתִי</he></cite>, v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>.]"
+						"<cite ref=\"Berakhot 13b:19\">Ber. 13ᵇ</cite> <he>מהדר רבי אשמעתא וכ׳</he>. [Vers. in Fr. Ahǎb. Zion: <he>יָטִיף</he>; ed. Lehm. <cite ref=\"J00354\"><he>יַיְתִי</he></cite>, v. <cite ref=\"A03397\"><he>אֲתָא</he></cite>.]"
 					]
 				}
 			],

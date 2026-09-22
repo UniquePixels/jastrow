@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03140",
-	"slug": "ארכי-1",
-	"headword": {
-		"text": "אַרְכִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְכִי I",
+	"headwords": [
+		{
+			"text": "אַרְכִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 121,
 		"column": "b"

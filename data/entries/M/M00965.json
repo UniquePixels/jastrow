@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00965",
-	"slug": "מטביע",
-	"headword": {
-		"text": "מַטְבֵּיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַטְבֵּיעַ",
+	"headwords": [
+		{
+			"text": "מַטְבֵּיעַ"
+		},
 		{
 			"text": "מַטְבֵּעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 765,
 		"column": "b"

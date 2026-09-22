@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00644",
-	"slug": "זקן-3",
-	"headword": {
-		"text": "זָקֵן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זָקֵן II",
+	"headwords": [
+		{
+			"text": "זָקֵן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 409,
 		"column": "a"

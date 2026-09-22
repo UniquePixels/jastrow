@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00290",
-	"slug": "בוסמן",
-	"headword": {
-		"text": "בּוּסְמָן"
-	},
+	"sefariaHeadword": "בּוּסְמָן",
+	"headwords": [
+		{
+			"text": "בּוּסְמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

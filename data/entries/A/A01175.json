@@ -1,9 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01175",
-	"slug": "אידרעא-=-אדרעא",
-	"headword": {
-		"text": "אִידְרְעָא = אֶדְרְעָא"
-	},
+	"sefariaHeadword": "אִידְרְעָא = אֶדְרְעָא",
+	"headwords": [
+		{
+			"text": "אִידְרְעָא = אֶדְרְעָא"
+		}
+	],
 	"page": {
 		"number": 45,
 		"column": "b"

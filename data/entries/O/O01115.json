@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01115",
-	"slug": "סמן-1",
-	"headword": {
-		"text": "סָמַן"
-	},
+	"sefariaHeadword": "סָמַן",
+	"headwords": [
+		{
+			"text": "סָמַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

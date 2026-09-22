@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00580",
-	"slug": "פיגור",
-	"headword": {
-		"text": "פִּיגּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיגּוּר",
+	"headwords": [
 		{
-			"text": "פִּגּ׳"
+			"text": "פִּיגּוּר"
+		},
+		{
+			"text": "פִּגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "a"

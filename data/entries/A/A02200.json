@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02200",
-	"slug": "אנטירידינאי",
-	"headword": {
-		"text": "אַנְטִירִידִינָאֵי"
-	},
+	"sefariaHeadword": "אַנְטִירִידִינָאֵי",
+	"headwords": [
+		{
+			"text": "אַנְטִירִידִינָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

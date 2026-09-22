@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00629",
-	"slug": "שחורה",
-	"headword": {
-		"text": "שְׁחוֹרָה"
-	},
+	"sefariaHeadword": "שְׁחוֹרָה",
+	"headwords": [
+		{
+			"text": "שְׁחוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "b"

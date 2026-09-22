@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00256",
-	"slug": "הופיא",
-	"headword": {
-		"text": "הוּפְיָא"
-	},
+	"sefariaHeadword": "הוּפְיָא",
+	"headwords": [
+		{
+			"text": "הוּפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

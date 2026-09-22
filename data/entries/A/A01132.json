@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01132",
-	"slug": "איבר",
-	"headword": {
-		"text": "אֵיבֶר"
-	},
+	"sefariaHeadword": "אֵיבֶר",
+	"headwords": [
+		{
+			"text": "אֵיבֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

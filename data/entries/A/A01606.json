@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01606",
-	"slug": "אירוסין",
-	"headword": {
-		"text": "אֵירוּסִין"
-	},
+	"sefariaHeadword": "אֵירוּסִין",
+	"headwords": [
+		{
+			"text": "אֵירוּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

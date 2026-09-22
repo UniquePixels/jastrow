@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01573",
-	"slug": "קניגון",
-	"headword": {
-		"text": "קניגון"
-	},
+	"sefariaHeadword": "קניגון",
+	"headwords": [
+		{
+			"text": "קניגון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01721",
-	"slug": "חרן",
-	"headword": {
-		"text": "חֹרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֹרָן",
+	"headwords": [
+		{
+			"text": "חֹרָן"
+		},
 		{
 			"text": "חֹרָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 504,
 		"column": "a"

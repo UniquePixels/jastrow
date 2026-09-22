@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00272",
-	"slug": "קוזזות",
-	"headword": {
-		"text": "קוֹזְזוֹת"
-	},
+	"sefariaHeadword": "קוֹזְזוֹת",
+	"headwords": [
+		{
+			"text": "קוֹזְזוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "b"

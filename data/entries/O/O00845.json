@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00845",
-	"slug": "סירחן",
-	"headword": {
-		"text": "סִירְחַן"
-	},
+	"sefariaHeadword": "סִירְחַן",
+	"headwords": [
+		{
+			"text": "סִירְחַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

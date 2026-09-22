@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00481",
-	"slug": "יעזק",
-	"headword": {
-		"text": "יַעְזֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַעְזֵק",
+	"headwords": [
 		{
-			"text": "בֵּיתי׳"
+			"text": "יַעְזֵק"
+		},
+		{
+			"text": "בֵּיתי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 584,
 		"column": "a"

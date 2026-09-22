@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02995",
-	"slug": "ארגנטריא",
-	"headword": {
-		"text": "אַרְגֶּנְטָרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְגֶּנְטָרְיָא",
+	"headwords": [
+		{
+			"text": "אַרְגֶּנְטָרְיָא"
+		},
 		{
 			"text": "אַרְגֶּנְטָארְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְגֶּנְטָרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 115,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02884",
-	"slug": "משיליא",
-	"headword": {
-		"text": "מְשִׁילְיָא"
-	},
+	"sefariaHeadword": "מְשִׁילְיָא",
+	"headwords": [
+		{
+			"text": "מְשִׁילְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 853,
 		"column": "a"

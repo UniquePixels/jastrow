@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00055",
-	"slug": "ויתק",
-	"headword": {
-		"text": "וִיתֵּק"
-	},
+	"sefariaHeadword": "וִיתֵּק",
+	"headwords": [
+		{
+			"text": "וִיתֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

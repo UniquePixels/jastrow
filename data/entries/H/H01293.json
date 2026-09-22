@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01293",
-	"slug": "חנינה",
-	"headword": {
-		"text": "חֲנִינָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲנִינָה II",
+	"headwords": [
+		{
+			"text": "חֲנִינָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 483,
 		"column": "b"

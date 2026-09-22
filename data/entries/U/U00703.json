@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00703",
-	"slug": "שחקא-2",
-	"headword": {
-		"text": "שַׁחֲקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שַׁחֲקָא II",
+	"headwords": [
+		{
+			"text": "שַׁחֲקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1551,
 		"column": "b"

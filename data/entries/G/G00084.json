@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00084",
-	"slug": "זהו",
-	"headword": {
-		"text": "זֶהוּ"
-	},
+	"sefariaHeadword": "זֶהוּ",
+	"headwords": [
+		{
+			"text": "זֶהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "a"

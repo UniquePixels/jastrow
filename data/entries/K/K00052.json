@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00052",
-	"slug": "כבינתא",
-	"headword": {
-		"text": "כְּבֵינְתָּא"
-	},
+	"sefariaHeadword": "כְּבֵינְתָּא",
+	"headwords": [
+		{
+			"text": "כְּבֵינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00372",
-	"slug": "ילדותא-2",
-	"headword": {
-		"text": "יַלָּדוּתָא"
-	},
+	"sefariaHeadword": "יַלָּדוּתָא",
+	"headwords": [
+		{
+			"text": "יַלָּדוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 578,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00060",
-	"slug": "יבם-3",
-	"headword": {
-		"text": "יַבֵּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבֵּם",
+	"headwords": [
+		{
+			"text": "יַבֵּם"
+		},
 		{
 			"text": "יַיבֵּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 561,
 		"column": "b"

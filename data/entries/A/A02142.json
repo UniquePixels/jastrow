@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02142",
-	"slug": "אנוך",
-	"headword": {
-		"text": "אָנוֹךְ"
-	},
+	"sefariaHeadword": "אָנוֹךְ",
+	"headwords": [
+		{
+			"text": "אָנוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

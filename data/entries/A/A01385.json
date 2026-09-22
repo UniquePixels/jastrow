@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01385",
-	"slug": "אינייני",
-	"headword": {
-		"text": "אִינְיָינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִינְיָינִי",
+	"headwords": [
+		{
+			"text": "אִינְיָינִי"
+		},
 		{
 			"text": "אִנְיָנִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִינִינְיָיא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 52,
 		"column": "b"

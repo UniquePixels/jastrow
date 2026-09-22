@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02114",
-	"slug": "קרסול",
-	"headword": {
-		"text": "קַרְסוֹל"
-	},
+	"sefariaHeadword": "קַרְסוֹל",
+	"headwords": [
+		{
+			"text": "קַרְסוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

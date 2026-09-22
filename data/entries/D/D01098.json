@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01098",
-	"slug": "דרכא-2",
-	"headword": {
-		"text": "דָּרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּרְכָא",
+	"headwords": [
+		{
+			"text": "דָּרְכָא"
+		},
 		{
 			"text": "דּוֹרְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 324,
 		"column": "a"

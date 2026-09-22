@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01203",
-	"slug": "שלבוקין",
-	"headword": {
-		"text": "שַׁלְבּוּקִין"
-	},
+	"sefariaHeadword": "שַׁלְבּוּקִין",
+	"headwords": [
+		{
+			"text": "שַׁלְבּוּקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

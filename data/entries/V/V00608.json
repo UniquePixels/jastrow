@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00608",
-	"slug": "תלמיד",
-	"headword": {
-		"text": "תַּלְמִיד"
-	},
+	"sefariaHeadword": "תַּלְמִיד",
+	"headwords": [
+		{
+			"text": "תַּלְמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

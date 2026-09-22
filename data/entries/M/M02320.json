@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02320",
-	"slug": "מצינפא",
-	"headword": {
-		"text": "מְצִינְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצִינְפָא",
+	"headwords": [
 		{
-			"text": "מַצִּי׳"
+			"text": "מְצִינְפָא"
+		},
+		{
+			"text": "מַצִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 826,
 		"column": "b"

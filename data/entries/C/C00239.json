@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00239",
-	"slug": "גדפא",
-	"headword": {
-		"text": "גַּדְפָא"
-	},
+	"sefariaHeadword": "גַּדְפָא",
+	"headwords": [
+		{
+			"text": "גַּדְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 214,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01313",
-	"slug": "גרופית",
-	"headword": {
-		"text": "גְּרוֹפִית"
-	},
+	"sefariaHeadword": "גְּרוֹפִית",
+	"headwords": [
+		{
+			"text": "גְּרוֹפִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

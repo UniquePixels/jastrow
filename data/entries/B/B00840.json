@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00840",
-	"slug": "בלוריא",
-	"headword": {
-		"text": "בְּלוּרְיָא"
-	},
+	"sefariaHeadword": "בְּלוּרְיָא",
+	"headwords": [
+		{
+			"text": "בְּלוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

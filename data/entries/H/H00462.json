@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00462",
-	"slug": "חורוד",
-	"headword": {
-		"text": "חורוד"
-	},
+	"sefariaHeadword": "חורוד",
+	"headwords": [
+		{
+			"text": "חורוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

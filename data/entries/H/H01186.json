@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01186",
-	"slug": "חמיע",
-	"headword": {
-		"text": "חֲמִיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִיעַ",
+	"headwords": [
+		{
+			"text": "חֲמִיעַ"
+		},
 		{
 			"text": "חֲמִיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 477,
 		"column": "b"

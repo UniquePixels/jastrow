@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01097",
-	"slug": "בצלה",
-	"headword": {
-		"text": "בצלה"
-	},
+	"sefariaHeadword": "בצלה",
+	"headwords": [
+		{
+			"text": "בצלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00374",
-	"slug": "טימורא",
-	"headword": {
-		"text": "טִימוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִימוּרָא",
+	"headwords": [
 		{
-			"text": "טִמוּ׳"
+			"text": "טִימוּרָא"
+		},
+		{
+			"text": "טִמוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02801",
-	"slug": "משאלה",
-	"headword": {
-		"text": "מִשְׁאָלָה"
-	},
+	"sefariaHeadword": "מִשְׁאָלָה",
+	"headwords": [
+		{
+			"text": "מִשְׁאָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

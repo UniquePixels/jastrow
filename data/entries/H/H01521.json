@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01521",
-	"slug": "חציבה",
-	"headword": {
-		"text": "חֲצִיבָה"
-	},
+	"sefariaHeadword": "חֲצִיבָה",
+	"headwords": [
+		{
+			"text": "חֲצִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00202",
-	"slug": "יונה-1",
-	"headword": {
-		"text": "יוֹנָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יוֹנָה I",
+	"headwords": [
+		{
+			"text": "יוֹנָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 570,
 		"column": "a"

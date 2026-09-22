@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B00322",
-	"slug": "בוקיא",
-	"headword": {
-		"text": "בּוּקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּקְיָא",
+	"headwords": [
 		{
-			"text": "בֵּית בּוּקְיָא"
+			"text": "בּוּקְיָא"
+		},
+		{
+			"text": "בֵּית ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 148,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01100",
-	"slug": "קיפונות",
-	"headword": {
-		"text": "קִיפוֹנוֹת"
-	},
+	"sefariaHeadword": "קִיפוֹנוֹת",
+	"headwords": [
+		{
+			"text": "קִיפוֹנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

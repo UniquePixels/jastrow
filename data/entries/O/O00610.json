@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00610",
-	"slug": "סיטנא",
-	"headword": {
-		"text": "סִיטְנָא"
-	},
+	"sefariaHeadword": "סִיטְנָא",
+	"headwords": [
+		{
+			"text": "סִיטְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

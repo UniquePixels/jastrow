@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02798",
-	"slug": "משא-4",
-	"headword": {
-		"text": "משא"
-	},
+	"sefariaHeadword": "משא",
+	"headwords": [
+		{
+			"text": "משא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

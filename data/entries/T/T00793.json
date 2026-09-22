@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00793",
-	"slug": "רמה-3",
-	"headword": {
-		"text": "רִמָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִמָּה",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִמָּה"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1481,
 		"column": "b"

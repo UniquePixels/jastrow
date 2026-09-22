@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00595",
-	"slug": "חטה-2",
-	"headword": {
-		"text": "חִטָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִטָּה",
+	"headwords": [
+		{
+			"text": "חִטָּה"
+		},
 		{
 			"text": "חִיטָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 448,
 		"column": "a"

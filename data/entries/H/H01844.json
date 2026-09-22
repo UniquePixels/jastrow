@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01844",
-	"slug": "חשיקה",
-	"headword": {
-		"text": "חֲשִׁיקָה"
-	},
+	"sefariaHeadword": "חֲשִׁיקָה",
+	"headwords": [
+		{
+			"text": "חֲשִׁיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "b"

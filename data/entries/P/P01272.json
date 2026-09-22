@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P01272",
-	"slug": "ערבון-1",
-	"headword": {
-		"text": "עֵרָבוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵרָבוֹן",
+	"headwords": [
+		{
+			"text": "עֵרָבוֹן"
+		},
 		{
 			"text": "עֵי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1112,
 		"column": "b"

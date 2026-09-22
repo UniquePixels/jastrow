@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01147",
-	"slug": "חמדה",
-	"headword": {
-		"text": "חֶמְדָּה"
-	},
+	"sefariaHeadword": "חֶמְדָּה",
+	"headwords": [
+		{
+			"text": "חֶמְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "b"
@@ -19,7 +23,7 @@
 		{
 			"gloss": " <cite ref=\"H01146\">same</cite>. ",
 			"units": [
-				"<cite ref=\"Shabbat 152a:11\">Sabb. 152ᵃ</cite> (expl. <he>אביונה</he>, <cite ref=\"Ecclesiastes 12:5\">Koh. XII, 5</cite>) <he>זו ח׳</he> that means the sexual appetite; (Koh. R. to l. c. <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>).)."
+				"<cite ref=\"Shabbat 152a:11\">Sabb. 152ᵃ</cite> (expl. <he>אביונה</he>, <cite ref=\"Ecclesiastes 12:5\">Koh. XII, 5</cite>) <he>זו ח׳</he> that means the sexual appetite; (Koh. R. to l. c. <cite ref=\"V00015\"><he>תַּאֲוָה</he></cite>).)."
 			],
 			"label": "1"
 		},

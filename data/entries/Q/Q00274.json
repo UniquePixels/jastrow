@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00274",
-	"slug": "פונדקרין",
-	"headword": {
-		"text": "פונדקרין"
-	},
+	"sefariaHeadword": "פונדקרין",
+	"headwords": [
+		{
+			"text": "פונדקרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

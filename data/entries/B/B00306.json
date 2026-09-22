@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00306",
-	"slug": "בוץ-1",
-	"headword": {
-		"text": "בּוּץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בּוּץ I",
+	"headwords": [
+		{
+			"text": "בּוּץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 147,
 		"column": "b"

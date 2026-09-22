@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00041",
-	"slug": "תבותא",
-	"headword": {
-		"text": "תֵּבוּתָא"
-	},
+	"sefariaHeadword": "תֵּבוּתָא",
+	"headwords": [
+		{
+			"text": "תֵּבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1643,
 		"column": "b"

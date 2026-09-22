@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00448",
-	"slug": "דיאוניסין",
-	"headword": {
-		"text": "דִּיאוֹנִיסִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דִּיאוֹנִיסִין",
+	"headwords": [
+		{
+			"text": "דִּיאוֹנִיסִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 294,
 		"column": "a"

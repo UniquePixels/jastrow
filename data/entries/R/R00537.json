@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00537",
-	"slug": "צלעה",
-	"headword": {
-		"text": "צַלָּעָה"
-	},
+	"sefariaHeadword": "צַלָּעָה",
+	"headwords": [
+		{
+			"text": "צַלָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1285,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00127",
-	"slug": "רבסא",
-	"headword": {
-		"text": "רַבַסָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַבַסָּא",
+	"headwords": [
+		{
+			"text": "רַבַסָּא"
+		},
 		{
 			"text": "רַבַסִּי"
 		},
 		{
-			"text": "רַבַּ׳"
+			"text": "רַבַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1444,
 		"column": "b"

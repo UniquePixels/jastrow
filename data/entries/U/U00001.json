@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00001",
-	"slug": "ש׳",
-	"headword": {
-		"text": "ש׳"
-	},
+	"sefariaHeadword": "ש׳",
+	"headwords": [
+		{
+			"text": "ש׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "a"

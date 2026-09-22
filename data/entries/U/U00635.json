@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00635",
-	"slug": "שחט-1",
-	"headword": {
-		"text": "שָׁחַט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שָׁחַט I",
+	"headwords": [
+		{
+			"text": "שָׁחַט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1546,
 		"column": "b"

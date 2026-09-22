@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00058",
-	"slug": "כבישתא",
-	"headword": {
-		"text": "כְּבִישְׁתָּא"
-	},
+	"sefariaHeadword": "כְּבִישְׁתָּא",
+	"headwords": [
+		{
+			"text": "כְּבִישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01361",
-	"slug": "שלמנא",
-	"headword": {
-		"text": "שַׁלְמָנָא"
-	},
+	"sefariaHeadword": "שַׁלְמָנָא",
+	"headwords": [
+		{
+			"text": "שַׁלְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1587,
 		"column": "a"

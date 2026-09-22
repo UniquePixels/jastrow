@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01236",
-	"slug": "גרבא",
-	"headword": {
-		"text": "גָּרְבָא"
-	},
+	"sefariaHeadword": "גָּרְבָא",
+	"headwords": [
+		{
+			"text": "גָּרְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00610",
-	"slug": "פיזמיקון",
-	"headword": {
-		"text": "פיזמיקון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פיזמיקון",
+	"headwords": [
+		{
+			"text": "פיזמיקון"
+		},
 		{
 			"text": "פיזמריקון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1160,
 		"column": "b"

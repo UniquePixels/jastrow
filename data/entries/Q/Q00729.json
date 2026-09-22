@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00729",
-	"slug": "פינטיגון",
-	"headword": {
-		"text": "פִּינְטִיגוֹן"
-	},
+	"sefariaHeadword": "פִּינְטִיגוֹן",
+	"headwords": [
+		{
+			"text": "פִּינְטִיגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

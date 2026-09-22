@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01340",
-	"slug": "קליסטרא",
-	"headword": {
-		"text": "קליסטרא"
-	},
+	"sefariaHeadword": "קליסטרא",
+	"headwords": [
+		{
+			"text": "קליסטרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

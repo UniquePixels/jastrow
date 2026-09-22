@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00752",
-	"slug": "אונניות",
-	"headword": {
-		"text": "אונניות"
-	},
+	"sefariaHeadword": "אונניות",
+	"headwords": [
+		{
+			"text": "אונניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 29,
 		"column": "a"

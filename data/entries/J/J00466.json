@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00466",
-	"slug": "יסם",
-	"headword": {
-		"text": "יָסַם"
-	},
+	"sefariaHeadword": "יָסַם",
+	"headwords": [
+		{
+			"text": "יָסַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "b"

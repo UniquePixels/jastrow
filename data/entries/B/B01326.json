@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01326",
-	"slug": "ברקיריא",
-	"headword": {
-		"text": "בַּרְקִירְיָא"
-	},
+	"sefariaHeadword": "בַּרְקִירְיָא",
+	"headwords": [
+		{
+			"text": "בַּרְקִירְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

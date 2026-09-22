@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00579",
-	"slug": "עיליין",
-	"headword": {
-		"text": "עִילְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילְיָין",
+	"headwords": [
+		{
+			"text": "עִילְיָין"
+		},
 		{
 			"text": "עִילְיָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1070,
 		"column": "b"

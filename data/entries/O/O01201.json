@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01201",
-	"slug": "סנוורתא",
-	"headword": {
-		"text": "סַנְוַורְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְוַורְתָּא",
+	"headwords": [
+		{
+			"text": "סַנְוַורְתָּא"
+		},
 		{
 			"text": "סַנְוַארְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "b"

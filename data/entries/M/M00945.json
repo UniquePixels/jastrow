@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00945",
-	"slug": "מחשבת",
-	"headword": {
-		"text": "מַחְשֶׁבֶת"
-	},
+	"sefariaHeadword": "מַחְשֶׁבֶת",
+	"headwords": [
+		{
+			"text": "מַחְשֶׁבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "b"

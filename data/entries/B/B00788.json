@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00788",
-	"slug": "בכין",
-	"headword": {
-		"text": "בְּכֵין"
-	},
+	"sefariaHeadword": "בְּכֵין",
+	"headwords": [
+		{
+			"text": "בְּכֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00075",
-	"slug": "חביצא",
-	"headword": {
-		"text": "חָבִיצָא"
-	},
+	"sefariaHeadword": "חָבִיצָא",
+	"headwords": [
+		{
+			"text": "חָבִיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "b"

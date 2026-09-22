@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00587",
-	"slug": "כיסלא",
-	"headword": {
-		"text": "כִּיסְלָא"
-	},
+	"sefariaHeadword": "כִּיסְלָא",
+	"headwords": [
+		{
+			"text": "כִּיסְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "b"

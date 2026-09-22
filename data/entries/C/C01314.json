@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01314",
-	"slug": "גרור",
-	"headword": {
-		"text": "גָּרוּר"
-	},
+	"sefariaHeadword": "גָּרוּר",
+	"headwords": [
+		{
+			"text": "גָּרוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01469",
-	"slug": "עשון",
-	"headword": {
-		"text": "עִשּׁוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִשּׁוּן",
+	"headwords": [
+		{
+			"text": "עִשּׁוּן"
+		},
 		{
 			"text": "עִשּׁוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1124,
 		"column": "b"

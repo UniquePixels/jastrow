@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02031",
-	"slug": "אמך",
-	"headword": {
-		"text": "אֲמַךְ"
-	},
+	"sefariaHeadword": "אֲמַךְ",
+	"headwords": [
+		{
+			"text": "אֲמַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00961",
-	"slug": "בנן",
-	"headword": {
-		"text": "בְּנָן"
-	},
+	"sefariaHeadword": "בְּנָן",
+	"headwords": [
+		{
+			"text": "בְּנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

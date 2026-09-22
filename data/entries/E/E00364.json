@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00364",
-	"slug": "היידי",
-	"headword": {
-		"text": "הַיְידִּי"
-	},
+	"sefariaHeadword": "הַיְידִּי",
+	"headwords": [
+		{
+			"text": "הַיְידִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "b"

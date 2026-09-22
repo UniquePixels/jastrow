@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01254",
-	"slug": "כרסס",
-	"headword": {
-		"text": "כרסס"
-	},
+	"sefariaHeadword": "כרסס",
+	"headwords": [
+		{
+			"text": "כרסס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

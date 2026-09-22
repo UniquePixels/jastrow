@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00097",
-	"slug": "רבינו",
-	"headword": {
-		"text": "רַבֵּינוּ"
-	},
+	"sefariaHeadword": "רַבֵּינוּ",
+	"headwords": [
+		{
+			"text": "רַבֵּינוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "b"

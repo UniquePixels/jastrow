@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00210",
-	"slug": "צונם",
-	"headword": {
-		"text": "צוֹנָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹנָם",
+	"headwords": [
+		{
+			"text": "צוֹנָם"
+		},
 		{
 			"text": "צוֹנָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1268,
 		"column": "a"

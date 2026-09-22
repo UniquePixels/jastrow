@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00551",
-	"slug": "זמרגד",
-	"headword": {
-		"text": "זְמַרְגַּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְמַרְגַּד",
+	"headwords": [
+		{
+			"text": "זְמַרְגַּד"
+		},
 		{
 			"text": "זְמַרְגְּדָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "זמרגדז"
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 405,
 		"column": "b"

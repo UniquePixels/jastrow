@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01241",
-	"slug": "כרניבאות",
-	"headword": {
-		"text": "כַּרְנִיבָּאוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּרְנִיבָּאוֹת",
+	"headwords": [
+		{
+			"text": "כַּרְנִיבָּאוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

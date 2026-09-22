@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00844",
-	"slug": "קטרת",
-	"headword": {
-		"text": "קְטֹרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטֹרֶת",
+	"headwords": [
 		{
-			"text": "קְטוֹ׳"
+			"text": "קְטֹרֶת"
+		},
+		{
+			"text": "קְטוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1353,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02518",
-	"slug": "אספרגל",
-	"headword": {
-		"text": "אִסְפַּרְגַּל"
-	},
+	"sefariaHeadword": "אִסְפַּרְגַּל",
+	"headwords": [
+		{
+			"text": "אִסְפַּרְגַּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "b"

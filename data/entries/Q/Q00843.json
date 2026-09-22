@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00843",
-	"slug": "פירוק",
-	"headword": {
-		"text": "פֵּירוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּק",
+	"headwords": [
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּירוּק"
+		},
+		{
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1170,
 		"column": "b"

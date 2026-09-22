@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01877",
-	"slug": "מסוסלא",
-	"headword": {
-		"text": "מסוסלא"
-	},
+	"sefariaHeadword": "מסוסלא",
+	"headwords": [
+		{
+			"text": "מסוסלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

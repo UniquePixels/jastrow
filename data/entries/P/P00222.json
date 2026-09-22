@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00222",
-	"slug": "עוזיה",
-	"headword": {
-		"text": "עוּזִּיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּזִּיָּה",
+	"headwords": [
+		{
+			"text": "עוּזִּיָּה"
+		},
 		{
 			"text": "עוּזִיָּהוּ"
 		},
 		{
-			"text": "עֻזִּ׳"
+			"text": "עֻזִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1049,
 		"column": "a"

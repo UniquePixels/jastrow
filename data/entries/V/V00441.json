@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00441",
-	"slug": "תייש",
-	"headword": {
-		"text": "תַּיִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּיִישׁ",
+	"headwords": [
+		{
+			"text": "תַּיִישׁ"
+		},
 		{
 			"text": "תְּיָישָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1664,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00536",
-	"slug": "כילוות",
-	"headword": {
-		"text": "כִּילָוַות"
-	},
+	"sefariaHeadword": "כִּילָוַות",
+	"headwords": [
+		{
+			"text": "כִּילָוַות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00478",
-	"slug": "מוכנס",
-	"headword": {
-		"text": "מוּכְנָס"
-	},
+	"sefariaHeadword": "מוּכְנָס",
+	"headwords": [
+		{
+			"text": "מוּכְנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00163",
-	"slug": "נגינתא",
-	"headword": {
-		"text": "נְגִינְתָא"
-	},
+	"sefariaHeadword": "נְגִינְתָא",
+	"headwords": [
+		{
+			"text": "נְגִינְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

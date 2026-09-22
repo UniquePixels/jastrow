@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00846",
-	"slug": "בלושא-2",
-	"headword": {
-		"text": "בָּלוֹשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּלוֹשָׁא",
+	"headwords": [
+		{
+			"text": "בָּלוֹשָׁא"
+		},
 		{
 			"text": "בָּלוֹשֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 172,
 		"column": "a"

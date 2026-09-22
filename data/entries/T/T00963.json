@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00963",
-	"slug": "רפרף",
-	"headword": {
-		"text": "רִפְרֵף"
-	},
+	"sefariaHeadword": "רִפְרֵף",
+	"headwords": [
+		{
+			"text": "רִפְרֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "a"

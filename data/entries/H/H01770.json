@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01770",
-	"slug": "חרר-7",
-	"headword": {
-		"text": "חָרַר",
-		"homograph": 4
-	},
+	"sefariaHeadword": "חָרַר IV",
+	"headwords": [
+		{
+			"text": "חָרַר",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 506,
 		"column": "b"

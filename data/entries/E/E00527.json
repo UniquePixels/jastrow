@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00527",
-	"slug": "הכשירא",
-	"headword": {
-		"text": "הֶכְשֵׁירָא"
-	},
+	"sefariaHeadword": "הֶכְשֵׁירָא",
+	"headwords": [
+		{
+			"text": "הֶכְשֵׁירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "b"

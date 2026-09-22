@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00128",
-	"slug": "חבת",
-	"headword": {
-		"text": "חבת"
-	},
+	"sefariaHeadword": "חבת",
+	"headwords": [
+		{
+			"text": "חבת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 423,
 		"column": "b"

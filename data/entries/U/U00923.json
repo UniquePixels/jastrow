@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00923",
-	"slug": "שיכלא",
-	"headword": {
-		"text": "שִׂיכְלָא"
-	},
+	"sefariaHeadword": "שִׂיכְלָא",
+	"headwords": [
+		{
+			"text": "שִׂיכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

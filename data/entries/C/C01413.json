@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01413",
-	"slug": "גשושא",
-	"headword": {
-		"text": "גָּשׁוֹשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּשׁוֹשָׁא",
+	"headwords": [
+		{
+			"text": "גָּשׁוֹשָׁא"
+		},
 		{
 			"text": "גְּשׁוֹשָׁאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 273,
 		"column": "b"

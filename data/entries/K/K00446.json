@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00446",
-	"slug": "כזית",
-	"headword": {
-		"text": "כַּזַּיִת"
-	},
+	"sefariaHeadword": "כַּזַּיִת",
+	"headwords": [
+		{
+			"text": "כַּזַּיִת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

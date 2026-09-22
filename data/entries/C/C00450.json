@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00450",
-	"slug": "גוסין",
-	"headword": {
-		"text": "גוסין"
-	},
+	"sefariaHeadword": "גוסין",
+	"headwords": [
+		{
+			"text": "גוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "b"

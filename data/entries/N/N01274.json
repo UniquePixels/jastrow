@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01274",
-	"slug": "נרש",
-	"headword": {
-		"text": "נָרָשׁ"
-	},
+	"sefariaHeadword": "נָרָשׁ",
+	"headwords": [
+		{
+			"text": "נָרָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01504",
-	"slug": "עשר-7",
-	"headword": {
-		"text": "עֲשַׂר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲשַׂר II",
+	"headwords": [
+		{
+			"text": "עֲשַׂר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1127,
 		"column": "b"

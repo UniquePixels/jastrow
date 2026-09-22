@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00646",
-	"slug": "חטרת",
-	"headword": {
-		"text": "חֲטֶרֶת"
-	},
+	"sefariaHeadword": "חֲטֶרֶת",
+	"headwords": [
+		{
+			"text": "חֲטֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "b"

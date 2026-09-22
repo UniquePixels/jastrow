@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00077",
-	"slug": "ועי",
-	"headword": {
-		"text": "ועי"
-	},
+	"sefariaHeadword": "ועי",
+	"headwords": [
+		{
+			"text": "ועי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

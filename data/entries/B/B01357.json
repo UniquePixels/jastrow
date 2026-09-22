@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01357",
-	"slug": "בשירותא",
-	"headword": {
-		"text": "בְּשִׂירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּשִׂירוּתָא",
+	"headwords": [
+		{
+			"text": "בְּשִׂירוּתָא"
+		},
 		{
 			"text": "בְּשִׂירוּתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 199,
 		"column": "a"

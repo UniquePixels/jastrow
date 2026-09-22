@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00509",
-	"slug": "שופר",
-	"headword": {
-		"text": "שׁוֹפָר"
-	},
+	"sefariaHeadword": "שֹׁופָר",
+	"headwords": [
+		{
+			"text": "שׁוֹפָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

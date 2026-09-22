@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "C00766",
-	"slug": "גיניסיא",
-	"headword": {
-		"text": "גִּינִיסְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינִיסְיָא",
+	"headwords": [
+		{
+			"text": "גִּינִיסְיָא"
+		},
 		{
 			"text": "גִּינִיסִין"
 		},
 		{
-			"text": "גִּינוּ׳"
+			"text": "גִּינוּ׳",
+			"partial": true
 		},
 		{
-			"text": "גְּנוּ׳"
+			"text": "גְּנוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 240,
 		"column": "a"
@@ -40,7 +44,7 @@
 			"label": "1"
 		},
 		{
-			"gloss": " (= γενέθλια) <i>descent, nobility of birth</i>. Pesik. Naḥămu p. 126ᵃ; 126ᵇ; <cite ref=\"Yalkut Shimoni on Torah 162:3\">Yalk. Gen. 162</cite> <he>הודעתם ג׳ שלי</he> (<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> <he>הודעתי הוגנוסים</he> corr. acc.) ye have made known my noble descent. Pesik. Haḥod. p. 53ᵃ <he>בת גִּינוּסִים</he>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>בת גינסין</he> (read <cite ref=\"C00766\"><he>גִּינִיסִין</he></cite>, <cite ref=\"Yalkut Shimoni on Torah 190\">Yalk. Ex. 190</cite> only <he>בת טובים</he>) a woman of noble birth. ",
+			"gloss": " (= γενέθλια) <i>descent, nobility of birth</i>. Pesik. Naḥămu p. 126ᵃ; 126ᵇ; <cite ref=\"Yalkut Shimoni on Torah 162:3\">Yalk. Gen. 162</cite> <he>הודעתם ג׳ שלי</he> (<cite ref=\"Bereishit Rabbah 100:9\">Gen. R. s. 100</cite> <he>הודעתי הוגנוסים</he> corr. acc.) ye have made known my noble descent. Pesik. Haḥod. p. 53ᵃ <he>בת גִּינוּסִים</he>; <cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>בת גינסין</he> (read <cite ref=\"C00766\"><he>גִּינִיסִין</he></cite>, <cite ref=\"Yalkut Shimoni on Torah 190\">Yalk. Ex. 190</cite> only <he>בת טובים</he>) a woman of noble birth. ",
 			"units": [
 				"<cite ref=\"Shir HaShirim Rabbah 1:2\">Cant. R. to I, 2</cite>; a. fr. [<cite ref=\"Sotah 36b:19\">Sot. 36ᵇ</cite> <he>גְּנִיסֵי מלכות וכ׳</he> Ar. (ed. <he>גְּנוּנֵי</he>) I recognize in him royal nobility.]"
 			],

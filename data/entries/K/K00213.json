@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00213",
-	"slug": "כוונה",
-	"headword": {
-		"text": "כַּוָּונָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּוָּונָה",
+	"headwords": [
+		{
+			"text": "כַּוָּונָה"
+		},
 		{
 			"text": "כַּוָּונוּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כַּוַּונְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 617,
 		"column": "b"

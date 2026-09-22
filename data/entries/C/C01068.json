@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01068",
-	"slug": "גמרי",
-	"headword": {
-		"text": "גַּמְּרִי"
-	},
+	"sefariaHeadword": "גַּמְּרִי",
+	"headwords": [
+		{
+			"text": "גַּמְּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

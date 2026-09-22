@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01252",
-	"slug": "פסוקה-2",
-	"headword": {
-		"text": "פְּסוּקָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פְּסוּקָה ²",
+	"headwords": [
+		{
+			"text": "פְּסוּקָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1193,
 		"column": "b"

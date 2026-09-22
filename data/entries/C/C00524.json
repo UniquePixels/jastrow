@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00524",
-	"slug": "גזוזטרא",
-	"headword": {
-		"text": "גְּזוּזְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזוּזְטְרָא",
+	"headwords": [
+		{
+			"text": "גְּזוּזְטְרָא"
+		},
 		{
 			"text": "גְּזוּזְטְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 228,
 		"column": "b"

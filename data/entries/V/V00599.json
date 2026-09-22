@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00599",
-	"slug": "תלמא-1",
-	"headword": {
-		"text": "תְּלָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלָמָא",
+	"headwords": [
+		{
+			"text": "תְּלָמָא"
+		},
 		{
 			"text": "תַּלְמָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1672,
 		"column": "a"

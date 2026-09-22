@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00293",
-	"slug": "סוירא",
-	"headword": {
-		"text": "סְוִירָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְוִירָא",
+	"headwords": [
+		{
+			"text": "סְוִירָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00531",
-	"slug": "פטל",
-	"headword": {
-		"text": "פְּטַל"
-	},
+	"sefariaHeadword": "פְּטַל",
+	"headwords": [
+		{
+			"text": "פְּטַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

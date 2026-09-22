@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00090",
-	"slug": "קבען",
-	"headword": {
-		"text": "קַבְעָן"
-	},
+	"sefariaHeadword": "קַבְעָן",
+	"headwords": [
+		{
+			"text": "קַבְעָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1312,
 		"column": "a"

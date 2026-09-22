@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00623",
-	"slug": "פיטורין",
-	"headword": {
-		"text": "פִּיטּוּרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטּוּרִין",
+	"headwords": [
+		{
+			"text": "פִּיטּוּרִין"
+		},
 		{
 			"text": "פִּטּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1161,
 		"column": "b"

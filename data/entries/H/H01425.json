@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H01425",
-	"slug": "חפויא",
-	"headword": {
-		"text": "חִפּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִפּוּיָא",
+	"headwords": [
+		{
+			"text": "חִפּוּיָא"
+		},
 		{
 			"text": "חִפּוּי"
 		},
 		{
-			"text": "חִי׳"
+			"text": "חִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 490,
 		"column": "b"

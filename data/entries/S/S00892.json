@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00892",
-	"slug": "קיטאות",
-	"headword": {
-		"text": "קִיטָּאוֹת"
-	},
+	"sefariaHeadword": "קִיטָּאוֹת",
+	"headwords": [
+		{
+			"text": "קִיטָּאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1357,
 		"column": "a"

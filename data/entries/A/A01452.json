@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01452",
-	"slug": "איסטרא",
-	"headword": {
-		"text": "אִיסְטְרָא"
-	},
+	"sefariaHeadword": "אִיסְטְרָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00410",
-	"slug": "נוקדן",
-	"headword": {
-		"text": "נוֹקְדָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוֹקְדָן",
+	"headwords": [
+		{
+			"text": "נוֹקְדָן"
+		},
 		{
 			"text": "נוֹקְדָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00777",
-	"slug": "בכי-2",
-	"headword": {
-		"text": "בכי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בכי ²",
+	"headwords": [
+		{
+			"text": "בכי",
+			"disambiguator": 2
+		},
 		{
 			"text": "בְּכָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 169,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00843",
-	"slug": "נכסתא",
-	"headword": {
-		"text": "נכְסְתָא"
-	},
+	"sefariaHeadword": "נכְסְתָא",
+	"headwords": [
+		{
+			"text": "נכְסְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "b"

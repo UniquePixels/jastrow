@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01213",
-	"slug": "נקיק",
-	"headword": {
-		"text": "נָקִיק"
-	},
+	"sefariaHeadword": "נָקִיק",
+	"headwords": [
+		{
+			"text": "נָקִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

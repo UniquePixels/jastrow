@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00857",
-	"slug": "טרסקמון",
-	"headword": {
-		"text": "טרסקמון"
-	},
+	"sefariaHeadword": "טרסקמון",
+	"headwords": [
+		{
+			"text": "טרסקמון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00553",
-	"slug": "מוסרה",
-	"headword": {
-		"text": "מוֹסֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹסֵרָה",
+	"headwords": [
+		{
+			"text": "מוֹסֵרָה"
+		},
 		{
 			"text": "מוֹסֵירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 745,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00399",
-	"slug": "מוגלא",
-	"headword": {
-		"text": "מוּגְלָא"
-	},
+	"sefariaHeadword": "מוּגְלָא",
+	"headwords": [
+		{
+			"text": "מוּגְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01170",
-	"slug": "מילה-3",
-	"headword": {
-		"text": "מִילָה"
-	},
+	"sefariaHeadword": "מִילָה",
+	"headwords": [
+		{
+			"text": "מִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "a"

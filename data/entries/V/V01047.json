@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01047",
-	"slug": "תרפותא",
-	"headword": {
-		"text": "תַּרְפּוּתָא"
-	},
+	"sefariaHeadword": "תַּרְפּוּתָא",
+	"headwords": [
+		{
+			"text": "תַּרְפּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

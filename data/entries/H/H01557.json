@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01557",
-	"slug": "חקיקה",
-	"headword": {
-		"text": "חֲקִיקָה"
-	},
+	"sefariaHeadword": "חֲקִיקָה",
+	"headwords": [
+		{
+			"text": "חֲקִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "a"

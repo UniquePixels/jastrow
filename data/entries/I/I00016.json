@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00016",
-	"slug": "טארגא",
-	"headword": {
-		"text": "טַארְגָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַארְגָא",
+	"headwords": [
+		{
+			"text": "טַארְגָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

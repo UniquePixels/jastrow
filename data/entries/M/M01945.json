@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M01945",
-	"slug": "מסכה-3",
-	"headword": {
-		"text": "מַסֵּכָה",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*מַסֵּכָה III",
+	"headwords": [
+		{
+			"text": "מַסֵּכָה",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 807,
 		"column": "b"

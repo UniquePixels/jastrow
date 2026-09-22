@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00779",
-	"slug": "חילמית",
-	"headword": {
-		"text": "חִילְמִית"
-	},
+	"sefariaHeadword": "חִילְמִית",
+	"headwords": [
+		{
+			"text": "חִילְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

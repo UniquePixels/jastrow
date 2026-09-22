@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01327",
-	"slug": "אימהן",
-	"headword": {
-		"text": "אימהן"
-	},
+	"sefariaHeadword": "אימהן",
+	"headwords": [
+		{
+			"text": "אימהן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "b"

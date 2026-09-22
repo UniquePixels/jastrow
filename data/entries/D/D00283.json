@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00283",
-	"slug": "דומיטינוס",
-	"headword": {
-		"text": "דּוֹמִיטְיָנוֹס"
-	},
+	"sefariaHeadword": "דּוֹמִיטְיָנוֹס",
+	"headwords": [
+		{
+			"text": "דּוֹמִיטְיָנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

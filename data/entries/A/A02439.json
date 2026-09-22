@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02439",
-	"slug": "אסינתא-1",
-	"headword": {
-		"text": "אַסִּינְתָּא"
-	},
+	"sefariaHeadword": "אַסִּינְתָּא",
+	"headwords": [
+		{
+			"text": "אַסִּינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

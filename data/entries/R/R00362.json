@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00362",
-	"slug": "צילעות",
-	"headword": {
-		"text": "צִילְעוֹת"
-	},
+	"sefariaHeadword": "צִילְעוֹת",
+	"headwords": [
+		{
+			"text": "צִילְעוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

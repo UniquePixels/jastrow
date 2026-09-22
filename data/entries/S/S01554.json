@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01554",
-	"slug": "קנטור",
-	"headword": {
-		"text": "קִנְטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְטוֹר",
+	"headwords": [
+		{
+			"text": "קִנְטוֹר"
+		},
 		{
 			"text": "קִנְטוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1389,
 		"column": "b"

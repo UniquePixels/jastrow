@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00650",
-	"slug": "ניחוניון",
-	"headword": {
-		"text": "נִיחוּנְיוֹן"
-	},
+	"sefariaHeadword": "נִיחוּנְיוֹן",
+	"headwords": [
+		{
+			"text": "נִיחוּנְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01290",
-	"slug": "חנין-1",
-	"headword": {
-		"text": "חַנִּין"
-	},
+	"sefariaHeadword": "חַנִּין",
+	"headwords": [
+		{
+			"text": "חַנִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "a"

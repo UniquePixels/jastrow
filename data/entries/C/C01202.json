@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01202",
-	"slug": "גפי",
-	"headword": {
-		"text": "גפי"
-	},
+	"sefariaHeadword": "גפי",
+	"headwords": [
+		{
+			"text": "גפי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

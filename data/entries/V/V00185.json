@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00185",
-	"slug": "תוחלנא",
-	"headword": {
-		"text": "תּוּחְלָנָא"
-	},
+	"sefariaHeadword": "תּוּחְלָנָא",
+	"headwords": [
+		{
+			"text": "תּוּחְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

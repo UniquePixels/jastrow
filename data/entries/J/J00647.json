@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00647",
-	"slug": "ירמיה",
-	"headword": {
-		"text": "יִרְמְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִרְמְיָה",
+	"headwords": [
+		{
+			"text": "יִרְמְיָה"
+		},
 		{
 			"text": "יִרְמְיָהוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 597,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01161",
-	"slug": "סנאה-3",
-	"headword": {
-		"text": "סְנָאָה"
-	},
+	"sefariaHeadword": "סְנָאָה",
+	"headwords": [
+		{
+			"text": "סְנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

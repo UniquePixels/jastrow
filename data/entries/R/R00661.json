@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00661",
-	"slug": "צער-1",
-	"headword": {
-		"text": "צָעַר"
-	},
+	"sefariaHeadword": "צָעַר",
+	"headwords": [
+		{
+			"text": "צָעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1294,
 		"column": "b"

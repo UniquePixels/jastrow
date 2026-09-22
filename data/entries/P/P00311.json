@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00311",
-	"slug": "עוף-1",
-	"headword": {
-		"text": "עוּף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עוּף I",
+	"headwords": [
+		{
+			"text": "עוּף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1055,
 		"column": "b"

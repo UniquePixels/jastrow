@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00722",
-	"slug": "גילגול",
-	"headword": {
-		"text": "גִּילְגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּילְגּוּל",
+	"headwords": [
+		{
+			"text": "גִּילְגּוּל"
+		},
 		{
 			"text": "גִּילְגֵּל"
 		},
@@ -18,6 +19,7 @@
 			"text": "גִּילְגְּלִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 238,
 		"column": "b"

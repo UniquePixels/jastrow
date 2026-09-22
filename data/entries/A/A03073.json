@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03073",
-	"slug": "ארטל",
-	"headword": {
-		"text": "ארטל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ארטל",
+	"headwords": [
 		{
-			"text": "ארטל ליפרן"
+			"text": "ארטל"
+		},
+		{
+			"text": "א׳ ליפרן",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 118,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00607",
-	"slug": "רידיא",
-	"headword": {
-		"text": "רִידְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִידְיָא",
+	"headwords": [
+		{
+			"text": "רִידְיָא"
+		},
 		{
 			"text": "רִידְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "b"

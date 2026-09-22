@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00879",
-	"slug": "דמהריא",
-	"headword": {
-		"text": "דַּמְהַרְיָא"
-	},
+	"sefariaHeadword": "דַּמְהַרְיָא",
+	"headwords": [
+		{
+			"text": "דַּמְהַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

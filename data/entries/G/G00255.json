@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00255",
-	"slug": "זטוט",
-	"headword": {
-		"text": "זַטּוּט"
-	},
+	"sefariaHeadword": "זַטּוּט",
+	"headwords": [
+		{
+			"text": "זַטּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

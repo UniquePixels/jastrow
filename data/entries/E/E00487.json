@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00487",
-	"slug": "היקשא",
-	"headword": {
-		"text": "הֶיקֵּשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיקֵּשָׁא",
+	"headwords": [
+		{
+			"text": "הֶיקֵּשָׁא"
+		},
 		{
 			"text": "הֶיקֵּישָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 349,
 		"column": "b"

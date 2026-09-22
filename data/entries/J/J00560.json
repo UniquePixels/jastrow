@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00560",
-	"slug": "יקוד",
-	"headword": {
-		"text": "יְקוֹד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְקוֹד",
+	"headwords": [
+		{
+			"text": "יְקוֹד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 591,
 		"column": "a"

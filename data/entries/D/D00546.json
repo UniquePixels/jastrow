@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00546",
-	"slug": "דיותקא",
-	"headword": {
-		"text": "דיותקא"
-	},
+	"sefariaHeadword": "דיותקא",
+	"headwords": [
+		{
+			"text": "דיותקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "a"

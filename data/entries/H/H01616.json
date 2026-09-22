@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01616",
-	"slug": "חרובית",
-	"headword": {
-		"text": "חֲרוּבִית"
-	},
+	"sefariaHeadword": "חֲרוּבִית",
+	"headwords": [
+		{
+			"text": "חֲרוּבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

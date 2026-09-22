@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00704",
-	"slug": "עישורייתא",
-	"headword": {
-		"text": "עִישּׂוֹרְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִישּׂוֹרְיָיתָא",
+	"headwords": [
+		{
+			"text": "עִישּׂוֹרְיָיתָא"
+		},
 		{
 			"text": "עִישּׂוֹרְיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "a"

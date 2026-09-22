@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00898",
-	"slug": "דמין-1",
-	"headword": {
-		"text": "דָּמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּמִין",
+	"headwords": [
+		{
+			"text": "דָּמִין"
+		},
 		{
 			"text": "דָּמֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 313,
 		"column": "b"

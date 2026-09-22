@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00467",
-	"slug": "גופתייה",
-	"headword": {
-		"text": "גּוּפְתָּיָיה"
-	},
+	"sefariaHeadword": "גּוּפְתָּיָיה",
+	"headwords": [
+		{
+			"text": "גּוּפְתָּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "a"

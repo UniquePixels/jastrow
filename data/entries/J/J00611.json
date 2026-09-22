@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00611",
-	"slug": "ירוקמי",
-	"headword": {
-		"text": "ירוקמי"
-	},
+	"sefariaHeadword": "ירוקמי",
+	"headwords": [
+		{
+			"text": "ירוקמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "a"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00118",
-	"slug": "מגדא-2",
-	"headword": {
-		"text": "מִגְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִגְדָּא",
+	"headwords": [
+		{
+			"text": "מִגְדָּא"
+		},
 		{
 			"text": "מִיגְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 726,
 		"column": "a"

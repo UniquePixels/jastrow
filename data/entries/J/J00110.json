@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00110",
-	"slug": "ידפת",
-	"headword": {
-		"text": "יָדְפָת"
-	},
+	"sefariaHeadword": "יָדְפָת",
+	"headwords": [
+		{
+			"text": "יָדְפָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 565,
 		"column": "b"

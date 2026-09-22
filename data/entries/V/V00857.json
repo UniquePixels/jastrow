@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00857",
-	"slug": "תפרא",
-	"headword": {
-		"text": "תַּפְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְרָא",
+	"headwords": [
 		{
-			"text": "תִּפְ׳"
+			"text": "תַּפְרָא"
+		},
+		{
+			"text": "תִּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "b"

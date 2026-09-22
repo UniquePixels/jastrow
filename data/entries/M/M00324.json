@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00324",
-	"slug": "מדר-1",
-	"headword": {
-		"text": "מֶדֶר"
-	},
+	"sefariaHeadword": "מֶדֶר",
+	"headwords": [
+		{
+			"text": "מֶדֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "a"

@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00995",
-	"slug": "פלחא-3",
-	"headword": {
-		"text": "פָּלְחָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּלְחָא ²",
+	"headwords": [
+		{
+			"text": "פָּלְחָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1178,
 		"column": "b"

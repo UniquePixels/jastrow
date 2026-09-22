@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02137",
-	"slug": "קרפיף",
-	"headword": {
-		"text": "קַרְפִּיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְפִּיף",
+	"headwords": [
+		{
+			"text": "קַרְפִּיף"
+		},
 		{
 			"text": "קַרְפִּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1424,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00233",
-	"slug": "נדנא",
-	"headword": {
-		"text": "נְדָנָא"
-	},
+	"sefariaHeadword": "נְדָנָא",
+	"headwords": [
+		{
+			"text": "נְדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

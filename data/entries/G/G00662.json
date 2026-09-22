@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00662",
-	"slug": "זרא-2",
-	"headword": {
-		"text": "זְרָא"
-	},
+	"sefariaHeadword": "זְרָא",
+	"headwords": [
+		{
+			"text": "זְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "a"

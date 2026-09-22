@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00220",
-	"slug": "טורוס",
-	"headword": {
-		"text": "טוֹרוּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טוֹרוּס",
+	"headwords": [
+		{
+			"text": "טוֹרוּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 526,
 		"column": "a"

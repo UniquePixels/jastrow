@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00143",
-	"slug": "נגוותא",
-	"headword": {
-		"text": "נַגְוָותָא"
-	},
+	"sefariaHeadword": "נַגְוָותָא",
+	"headwords": [
+		{
+			"text": "נַגְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "b"

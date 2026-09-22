@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00651",
-	"slug": "גיהוץ",
-	"headword": {
-		"text": "גִּיהוּץ"
-	},
+	"sefariaHeadword": "גִּיהוּץ",
+	"headwords": [
+		{
+			"text": "גִּיהוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00603",
-	"slug": "תלמוסא",
-	"headword": {
-		"text": "תלמוסא"
-	},
+	"sefariaHeadword": "תלמוסא",
+	"headwords": [
+		{
+			"text": "תלמוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01722",
-	"slug": "אכסי",
-	"headword": {
-		"text": "אכסי"
-	},
+	"sefariaHeadword": "אכסי",
+	"headwords": [
+		{
+			"text": "אכסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

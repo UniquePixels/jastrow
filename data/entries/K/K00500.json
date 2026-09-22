@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00500",
-	"slug": "כיהון",
-	"headword": {
-		"text": "כִּיהוּן"
-	},
+	"sefariaHeadword": "כִּיהוּן",
+	"headwords": [
+		{
+			"text": "כִּיהוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

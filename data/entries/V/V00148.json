@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00148",
-	"slug": "תובילא",
-	"headword": {
-		"text": "תּוֹבִילָא"
-	},
+	"sefariaHeadword": "תּוֹבִילָא",
+	"headwords": [
+		{
+			"text": "תּוֹבִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

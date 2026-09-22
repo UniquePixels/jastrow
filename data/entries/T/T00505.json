@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00505",
-	"slug": "רחיצה",
-	"headword": {
-		"text": "רְחִיצָה"
-	},
+	"sefariaHeadword": "רְחִיצָה",
+	"headwords": [
+		{
+			"text": "רְחִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "b"

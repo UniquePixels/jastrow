@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00192",
-	"slug": "טועי",
-	"headword": {
-		"text": "טוּעֵי"
-	},
+	"sefariaHeadword": "טוּעֵי",
+	"headwords": [
+		{
+			"text": "טוּעֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02926",
-	"slug": "משמע-3",
-	"headword": {
-		"text": "מַשְׁמַע"
-	},
+	"sefariaHeadword": "מַשְׁמַע",
+	"headwords": [
+		{
+			"text": "מַשְׁמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "a"

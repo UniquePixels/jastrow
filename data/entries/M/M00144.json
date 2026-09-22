@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00144",
-	"slug": "מגורתא",
-	"headword": {
-		"text": "מְגוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגוּרְתָּא",
+	"headwords": [
+		{
+			"text": "מְגוּרְתָּא"
+		},
 		{
 			"text": "מְגִירוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 727,
 		"column": "a"

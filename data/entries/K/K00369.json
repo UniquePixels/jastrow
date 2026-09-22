@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00369",
-	"slug": "כורא-4",
-	"headword": {
-		"text": "כַּוְרָא"
-	},
+	"sefariaHeadword": "כַּוְרָא",
+	"headwords": [
+		{
+			"text": "כַּוְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

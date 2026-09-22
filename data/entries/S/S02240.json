@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02240",
-	"slug": "קשיאתא",
-	"headword": {
-		"text": "קַשְׁיָאתָא"
-	},
+	"sefariaHeadword": "קַשְׁיָאתָא",
+	"headwords": [
+		{
+			"text": "קַשְׁיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1431,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00927",
-	"slug": "מחצלתא",
-	"headword": {
-		"text": "מַחְצַלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחְצַלְתָּא",
+	"headwords": [
+		{
+			"text": "מַחְצַלְתָּא"
+		},
 		{
 			"text": "מַחְצְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 763,
 		"column": "b"

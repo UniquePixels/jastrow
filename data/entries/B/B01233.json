@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01233",
-	"slug": "ברטיא",
-	"headword": {
-		"text": "ברטיא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ברטיא",
+	"headwords": [
+		{
+			"text": "ברטיא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 192,
 		"column": "a"

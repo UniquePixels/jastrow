@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01039",
-	"slug": "תרעלה-2",
-	"headword": {
-		"text": "תַּרְעֵלָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תַּרְעֵלָה II",
+	"headwords": [
+		{
+			"text": "תַּרְעֵלָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1701,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

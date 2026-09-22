@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00273",
-	"slug": "שדך-1",
-	"headword": {
-		"text": "שָׁדַךְ"
-	},
+	"sefariaHeadword": "שָׁדַךְ",
+	"headwords": [
+		{
+			"text": "שָׁדַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1525,
 		"column": "a"

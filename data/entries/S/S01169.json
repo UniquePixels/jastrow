@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01169",
-	"slug": "קירון",
-	"headword": {
-		"text": "קֵירוּן"
-	},
+	"sefariaHeadword": "קֵירוּן",
+	"headwords": [
+		{
+			"text": "קֵירוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

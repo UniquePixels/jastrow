@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00422",
-	"slug": "ציפיתא",
-	"headword": {
-		"text": "ציפיתא"
-	},
+	"sefariaHeadword": "ציפיתא",
+	"headwords": [
+		{
+			"text": "ציפיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01319",
-	"slug": "קלי-6",
-	"headword": {
-		"text": "קְלֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלֵי ²",
+	"headwords": [
+		{
+			"text": "קְלֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קְלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1375,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01700",
-	"slug": "אכלא",
-	"headword": {
-		"text": "אַכָּלָא"
-	},
+	"sefariaHeadword": "אַכָּלָא",
+	"headwords": [
+		{
+			"text": "אַכָּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 63,
 		"column": "b"

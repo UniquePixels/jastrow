@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01391",
-	"slug": "שלשול-1",
-	"headword": {
-		"text": "שִׁלְשׁוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְשׁוּל",
+	"headwords": [
+		{
+			"text": "שִׁלְשׁוּל"
+		},
 		{
 			"text": "שִׁי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1589,
 		"column": "a"

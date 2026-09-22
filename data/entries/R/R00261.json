@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00261",
-	"slug": "צורתא",
-	"headword": {
-		"text": "צוּרְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּרְתָא",
+	"headwords": [
+		{
+			"text": "צוּרְתָא"
+		},
 		{
 			"text": "צוּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "צוּרָה"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1272,
 		"column": "a"

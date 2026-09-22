@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00560",
-	"slug": "רטיא",
-	"headword": {
-		"text": "רָטַיָּא"
-	},
+	"sefariaHeadword": "רָטַיָּא",
+	"headwords": [
+		{
+			"text": "רָטַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "b"

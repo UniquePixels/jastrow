@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01969",
-	"slug": "קרח-4",
-	"headword": {
-		"text": "קְרַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קְרַח I",
+	"headwords": [
+		{
+			"text": "קְרַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1415,
 		"column": "b"

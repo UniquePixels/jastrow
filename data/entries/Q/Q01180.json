@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01180",
-	"slug": "פנטיתא",
-	"headword": {
-		"text": "פנטיתא"
-	},
+	"sefariaHeadword": "פנטיתא",
+	"headwords": [
+		{
+			"text": "פנטיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

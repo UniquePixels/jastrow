@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00810",
-	"slug": "פיקי",
-	"headword": {
-		"text": "פיקי"
-	},
+	"sefariaHeadword": "פיקי",
+	"headwords": [
+		{
+			"text": "פיקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "b"

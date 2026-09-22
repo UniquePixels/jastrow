@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00877",
-	"slug": "נמיל",
-	"headword": {
-		"text": "נָמֵיל"
-	},
+	"sefariaHeadword": "נָמֵיל",
+	"headwords": [
+		{
+			"text": "נָמֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

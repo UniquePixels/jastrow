@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00723",
-	"slug": "הערבה",
-	"headword": {
-		"text": "הַעֲרָבָה"
-	},
+	"sefariaHeadword": "הַעֲרָבָה",
+	"headwords": [
+		{
+			"text": "הַעֲרָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "b"

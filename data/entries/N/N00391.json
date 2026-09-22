@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00391",
-	"slug": "נופא",
-	"headword": {
-		"text": "נוֹפָא"
-	},
+	"sefariaHeadword": "נוֹפָא",
+	"headwords": [
+		{
+			"text": "נוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "a"

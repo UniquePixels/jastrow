@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00182",
-	"slug": "עובר-2",
-	"headword": {
-		"text": "עוּבָּר"
-	},
+	"sefariaHeadword": "עוּבָּר",
+	"headwords": [
+		{
+			"text": "עוּבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "a"

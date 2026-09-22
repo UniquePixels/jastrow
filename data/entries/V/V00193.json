@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00193",
-	"slug": "תוך-1",
-	"headword": {
-		"text": "תָּוֶךְ"
-	},
+	"sefariaHeadword": "תָּוֶךְ",
+	"headwords": [
+		{
+			"text": "תָּוֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00365",
-	"slug": "זימזום",
-	"headword": {
-		"text": "זִימְזוּם"
-	},
+	"sefariaHeadword": "זִימְזוּם",
+	"headwords": [
+		{
+			"text": "זִימְזוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "b"

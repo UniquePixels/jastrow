@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02108",
-	"slug": "שתימה",
-	"headword": {
-		"text": "שְׁתִימָה"
-	},
+	"sefariaHeadword": "שְׁתִימָה",
+	"headwords": [
+		{
+			"text": "שְׁתִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00094",
-	"slug": "וריר",
-	"headword": {
-		"text": "וָרִיר"
-	},
+	"sefariaHeadword": "וָרִיר",
+	"headwords": [
+		{
+			"text": "וָרִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

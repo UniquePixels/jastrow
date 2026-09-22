@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00007",
-	"slug": "פאוטות",
-	"headword": {
-		"text": "פָּאוֹטוֹת"
-	},
+	"sefariaHeadword": "פָּאוֹטוֹת",
+	"headwords": [
+		{
+			"text": "פָּאוֹטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00236",
-	"slug": "דוי-5",
-	"headword": {
-		"text": "דְּוַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּוַי",
+	"headwords": [
+		{
+			"text": "דְּוַי"
+		},
 		{
 			"text": "דְּוַוי"
 		},
@@ -12,6 +13,7 @@
 			"text": "דֵּיוָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 284,
 		"column": "b"

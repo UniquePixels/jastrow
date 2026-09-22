@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02815",
-	"slug": "אפרטוטות",
-	"headword": {
-		"text": "אפרטוטות"
-	},
+	"sefariaHeadword": "אפרטוטות",
+	"headwords": [
+		{
+			"text": "אפרטוטות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

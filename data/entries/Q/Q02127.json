@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02127",
-	"slug": "פתואל",
-	"headword": {
-		"text": "פְּתוּאֵל"
-	},
+	"sefariaHeadword": "פְּתוּאֵל",
+	"headwords": [
+		{
+			"text": "פְּתוּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

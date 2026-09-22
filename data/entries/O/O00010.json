@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00010",
-	"slug": "סאובתא",
-	"headword": {
-		"text": "סְאוֹבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְאוֹבְתָּא",
+	"headwords": [
+		{
+			"text": "סְאוֹבְתָּא"
+		},
 		{
 			"text": "סוֹאַבְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "סוֹבְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 947,
 		"column": "b"

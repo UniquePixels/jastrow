@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00262",
-	"slug": "בולוס",
-	"headword": {
-		"text": "בּוּלוֹס"
-	},
+	"sefariaHeadword": "בּוּלוֹס",
+	"headwords": [
+		{
+			"text": "בּוּלוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "a"

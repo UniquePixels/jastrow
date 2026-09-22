@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01146",
-	"slug": "רתק",
-	"headword": {
-		"text": "רָתַק"
-	},
+	"sefariaHeadword": "רָתַק",
+	"headwords": [
+		{
+			"text": "רָתַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1504,
 		"column": "a"

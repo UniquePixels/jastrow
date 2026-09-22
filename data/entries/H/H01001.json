@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01001",
-	"slug": "חלוף",
-	"headword": {
-		"text": "חִלּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלּוּף",
+	"headwords": [
+		{
+			"text": "חִלּוּף"
+		},
 		{
 			"text": "חִלּוּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 465,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01579",
-	"slug": "פרדיס",
-	"headword": {
-		"text": "פַּרְדֵּיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְדֵּיס",
+	"headwords": [
+		{
+			"text": "פַּרְדֵּיס"
+		},
 		{
 			"text": "פַּרְדֵּיסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1215,
 		"column": "b"

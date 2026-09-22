@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00122",
-	"slug": "בדולקי",
-	"headword": {
-		"text": "בדולקי"
-	},
+	"sefariaHeadword": "בדולקי",
+	"headwords": [
+		{
+			"text": "בדולקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00714",
-	"slug": "לתא",
-	"headword": {
-		"text": "לָתָא"
-	},
+	"sefariaHeadword": "לָתָא",
+	"headwords": [
+		{
+			"text": "לָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "b"

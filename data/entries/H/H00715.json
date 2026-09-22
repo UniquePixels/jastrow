@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00715",
-	"slug": "חיטתא",
-	"headword": {
-		"text": "חִיטְּתָא"
-	},
+	"sefariaHeadword": "חִיטְּתָא",
+	"headwords": [
+		{
+			"text": "חִיטְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

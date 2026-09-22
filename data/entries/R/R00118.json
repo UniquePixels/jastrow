@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00118",
-	"slug": "צדק-1",
-	"headword": {
-		"text": "צָדַק"
-	},
+	"sefariaHeadword": "צָדַק",
+	"headwords": [
+		{
+			"text": "צָדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1263,
 		"column": "a"

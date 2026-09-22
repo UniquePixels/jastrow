@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00036",
-	"slug": "יבבתא",
-	"headword": {
-		"text": "יַבַּבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבַּבְתָּא",
+	"headwords": [
+		{
+			"text": "יַבַּבְתָּא"
+		},
 		{
 			"text": "יַבֶּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 560,
 		"column": "b"

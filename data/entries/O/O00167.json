@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00167",
-	"slug": "סגר-3",
-	"headword": {
-		"text": "סֶגֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֶגֶר",
+	"headwords": [
+		{
+			"text": "סֶגֶר"
+		},
 		{
 			"text": "סְגָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 956,
 		"column": "b"

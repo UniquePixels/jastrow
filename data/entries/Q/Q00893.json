@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00893",
-	"slug": "פיתולא",
-	"headword": {
-		"text": "פִּיתּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיתּוּלָא",
+	"headwords": [
 		{
-			"text": "פִּתּ׳"
+			"text": "פִּיתּוּלָא"
+		},
+		{
+			"text": "פִּתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1173,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00816",
-	"slug": "שיגוש",
-	"headword": {
-		"text": "שִׁיגּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיגּוּשׁ",
+	"headwords": [
+		{
+			"text": "שִׁיגּוּשׁ"
+		},
 		{
 			"text": "שִׁיגּוּשָׁא"
 		},
 		{
-			"text": "שִׁגּ׳"
+			"text": "שִׁגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1557,
 		"column": "b"

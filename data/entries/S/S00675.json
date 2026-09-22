@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00675",
-	"slug": "קושש",
-	"headword": {
-		"text": "קוֹשֵׁשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹשֵׁשׁ",
+	"headwords": [
 		{
-			"text": "בֵּית קוֹשֵׁשׁ"
+			"text": "קוֹשֵׁשׁ"
+		},
+		{
+			"text": "בֵּית ק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1345,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

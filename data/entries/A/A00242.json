@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00242",
-	"slug": "אגד-4",
-	"headword": {
-		"text": "אֲגַד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲגַד II",
+	"headwords": [
+		{
+			"text": "אֲגַד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 10,
 		"column": "b"

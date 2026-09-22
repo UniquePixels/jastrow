@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01185",
-	"slug": "חמיסראה",
-	"headword": {
-		"text": "חֲמֵיסְרָאָה"
-	},
+	"sefariaHeadword": "חֲמֵיסְרָאָה",
+	"headwords": [
+		{
+			"text": "חֲמֵיסְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

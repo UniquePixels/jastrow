@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01216",
-	"slug": "סנטר-1",
-	"headword": {
-		"text": "סִנְטֵר"
-	},
+	"sefariaHeadword": "סִנְטֵר",
+	"headwords": [
+		{
+			"text": "סִנְטֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "a"

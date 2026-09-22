@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00338",
-	"slug": "ציידתה",
-	"headword": {
-		"text": "צְיַידְתָּה"
-	},
+	"sefariaHeadword": "צְיַידְתָּה",
+	"headwords": [
+		{
+			"text": "צְיַידְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

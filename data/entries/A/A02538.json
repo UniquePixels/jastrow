@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02538",
-	"slug": "אסקופת",
-	"headword": {
-		"text": "אסקופת"
-	},
+	"sefariaHeadword": "אסקופת",
+	"headwords": [
+		{
+			"text": "אסקופת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

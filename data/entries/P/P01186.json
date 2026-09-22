@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01186",
-	"slug": "עקיק",
-	"headword": {
-		"text": "עָקִיק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עָקִיק",
+	"headwords": [
+		{
+			"text": "עָקִיק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

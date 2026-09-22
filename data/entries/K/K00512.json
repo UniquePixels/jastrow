@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00512",
-	"slug": "כיור-2",
-	"headword": {
-		"text": "כִּיּוֹר"
-	},
+	"sefariaHeadword": "כִּיּוֹר",
+	"headwords": [
+		{
+			"text": "כִּיּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

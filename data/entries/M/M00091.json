@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00091",
-	"slug": "מבססין",
-	"headword": {
-		"text": "מבססין"
-	},
+	"sefariaHeadword": "מבססין",
+	"headwords": [
+		{
+			"text": "מבססין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

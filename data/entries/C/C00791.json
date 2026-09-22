@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00791",
-	"slug": "גיפוף-1",
-	"headword": {
-		"text": "גִּיפּוּף"
-	},
+	"sefariaHeadword": "גִּיפּוּף",
+	"headwords": [
+		{
+			"text": "גִּיפּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00593",
-	"slug": "גחלת",
-	"headword": {
-		"text": "גַּחֶלֶת"
-	},
+	"sefariaHeadword": "גַּחֶלֶת",
+	"headwords": [
+		{
+			"text": "גַּחֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

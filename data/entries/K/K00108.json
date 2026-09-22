@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K00108",
-	"slug": "כדבותא",
-	"headword": {
-		"text": "כַּדָּבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּדָּבוּתָא",
+	"headwords": [
 		{
-			"text": "כַּדְבוּ׳"
+			"text": "כַּדָּבוּתָא"
 		},
 		{
-			"text": "כַּדִּיבוּ׳"
+			"text": "כַּדְבוּ׳",
+			"partial": true
+		},
+		{
+			"text": "כַּדִּיבוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 612,
 		"column": "b"

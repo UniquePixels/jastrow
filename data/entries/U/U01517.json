@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01517",
-	"slug": "שמעון",
-	"headword": {
-		"text": "שִׁמְעוֹן"
-	},
+	"sefariaHeadword": "שִׁמְעוֹן",
+	"headwords": [
+		{
+			"text": "שִׁמְעוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1600,
 		"column": "a"

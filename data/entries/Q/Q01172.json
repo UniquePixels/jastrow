@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01172",
-	"slug": "פנחרין",
-	"headword": {
-		"text": "פנחרין"
-	},
+	"sefariaHeadword": "פנחרין",
+	"headwords": [
+		{
+			"text": "פנחרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

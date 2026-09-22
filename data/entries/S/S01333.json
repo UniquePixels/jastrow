@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01333",
-	"slug": "קליטה-2",
-	"headword": {
-		"text": "קליטה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קליטה",
+	"headwords": [
+		{
+			"text": "קליטה"
+		},
 		{
 			"text": "קליטי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1376,
 		"column": "b"

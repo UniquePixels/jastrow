@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01248",
-	"slug": "קליבינטירין",
-	"headword": {
-		"text": "קְלִיבִּינִטִירִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*קְלִיבִּינִטִירִין",
+	"headwords": [
+		{
+			"text": "קְלִיבִּינִטִירִין",
+			"reconstructed": true
+		},
 		{
 			"text": "קְלִיבִּינְטְרִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1372,
 		"column": "a"

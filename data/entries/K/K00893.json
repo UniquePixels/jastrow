@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00893",
-	"slug": "כסא-5",
-	"headword": {
-		"text": "כִּסֵּא"
-	},
+	"sefariaHeadword": "כִּסֵּא",
+	"headwords": [
+		{
+			"text": "כִּסֵּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "a"

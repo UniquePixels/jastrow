@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00717",
-	"slug": "ניסרפו",
-	"headword": {
-		"text": "ניסרפו"
-	},
+	"sefariaHeadword": "ניסרפו",
+	"headwords": [
+		{
+			"text": "ניסרפו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

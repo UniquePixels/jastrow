@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00599",
-	"slug": "ניאות",
-	"headword": {
-		"text": "נֵיאוֹת"
-	},
+	"sefariaHeadword": "נֵיאוֹת",
+	"headwords": [
+		{
+			"text": "נֵיאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

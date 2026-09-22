@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00878",
-	"slug": "כנריות",
-	"headword": {
-		"text": "כנריות"
-	},
+	"sefariaHeadword": "כנריות",
+	"headwords": [
+		{
+			"text": "כנריות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 651,
 		"column": "b"

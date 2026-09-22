@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00421",
-	"slug": "פזוזא",
-	"headword": {
-		"text": "פְּזוֹזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּזוֹזָא",
+	"headwords": [
+		{
+			"text": "פְּזוֹזָא"
+		},
 		{
 			"text": "פִּוזּוּזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1150,
 		"column": "a"

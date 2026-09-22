@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01508",
-	"slug": "קנא-2",
-	"headword": {
-		"text": "קְנָא"
-	},
+	"sefariaHeadword": "קְנָא",
+	"headwords": [
+		{
+			"text": "קְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "b"

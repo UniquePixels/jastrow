@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00154",
-	"slug": "תוגייל׳",
-	"headword": {
-		"text": "תוגייל׳"
-	},
+	"sefariaHeadword": "תוגייל׳",
+	"headwords": [
+		{
+			"text": "תוגייל׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00400",
-	"slug": "רומקי-2",
-	"headword": {
-		"text": "רומקי"
-	},
+	"sefariaHeadword": "רומקי",
+	"headwords": [
+		{
+			"text": "רומקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

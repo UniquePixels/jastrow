@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00831",
-	"slug": "רמס-3",
-	"headword": {
-		"text": "רֶמֶס"
-	},
+	"sefariaHeadword": "רֶמֶס",
+	"headwords": [
+		{
+			"text": "רֶמֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "b"

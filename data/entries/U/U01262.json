@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01262",
-	"slug": "שלות",
-	"headword": {
-		"text": "שלות"
-	},
+	"sefariaHeadword": "שלות",
+	"headwords": [
+		{
+			"text": "שלות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "b"

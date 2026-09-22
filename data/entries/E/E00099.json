@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00099",
-	"slug": "הדה-2",
-	"headword": {
-		"text": "הָדָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הָדָה II",
+	"headwords": [
+		{
+			"text": "הָדָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 332,
 		"column": "b"

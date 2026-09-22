@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00286",
-	"slug": "סוטה",
-	"headword": {
-		"text": "סוֹטָה"
-	},
+	"sefariaHeadword": "סוֹטָה",
+	"headwords": [
+		{
+			"text": "סוֹטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

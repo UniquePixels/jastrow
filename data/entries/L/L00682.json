@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00682",
-	"slug": "לקטיקא",
-	"headword": {
-		"text": "לֶקְטִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֶקְטִיקָא",
+	"headwords": [
+		{
+			"text": "לֶקְטִיקָא"
+		},
 		{
 			"text": "לֶקְטְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 718,
 		"column": "a"

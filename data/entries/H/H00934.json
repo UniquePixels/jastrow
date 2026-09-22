@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00934",
-	"slug": "חכירות",
-	"headword": {
-		"text": "חֲכִירוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲכִירוּת",
+	"headwords": [
+		{
+			"text": "חֲכִירוּת"
+		},
 		{
 			"text": "חֲכוּרוּת"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 462,
 		"column": "a"

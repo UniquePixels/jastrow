@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01606",
-	"slug": "קנסא",
-	"headword": {
-		"text": "קְנָסָא"
-	},
+	"sefariaHeadword": "קְנָסָא",
+	"headwords": [
+		{
+			"text": "קְנָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1394,
 		"column": "a"

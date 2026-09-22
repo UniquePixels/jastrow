@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00005",
-	"slug": "ואי",
-	"headword": {
-		"text": "וַאי"
-	},
+	"sefariaHeadword": "וַאי",
+	"headwords": [
+		{
+			"text": "וַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

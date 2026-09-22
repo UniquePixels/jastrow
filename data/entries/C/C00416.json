@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00416",
-	"slug": "גומים",
-	"headword": {
-		"text": "גומים"
-	},
+	"sefariaHeadword": "גומים",
+	"headwords": [
+		{
+			"text": "גומים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

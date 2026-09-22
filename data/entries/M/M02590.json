@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02590",
-	"slug": "מרום-3",
-	"headword": {
-		"text": "מָרוֹם"
-	},
+	"sefariaHeadword": "מָרוֹם",
+	"headwords": [
+		{
+			"text": "מָרוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

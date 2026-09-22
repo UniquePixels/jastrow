@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01889",
-	"slug": "אלך",
-	"headword": {
-		"text": "אִלֵּךְ"
-	},
+	"sefariaHeadword": "אִלֵּךְ",
+	"headwords": [
+		{
+			"text": "אִלֵּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "b"

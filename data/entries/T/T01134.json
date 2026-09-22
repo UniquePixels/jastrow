@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01134",
-	"slug": "רתימין",
-	"headword": {
-		"text": "רְתִימִין"
-	},
+	"sefariaHeadword": "רְתִימִין",
+	"headwords": [
+		{
+			"text": "רְתִימִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "b"

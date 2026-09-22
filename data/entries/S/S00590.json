@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00590",
-	"slug": "קורחתא",
-	"headword": {
-		"text": "קוּרְחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְחֲתָא",
+	"headwords": [
+		{
+			"text": "קוּרְחֲתָא"
+		},
 		{
 			"text": "קוּרַחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1342,
 		"column": "a"

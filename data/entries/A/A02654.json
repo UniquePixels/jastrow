@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02654",
-	"slug": "אפחזא",
-	"headword": {
-		"text": "אַפְחֲזָא"
-	},
+	"sefariaHeadword": "אַפְחֲזָא",
+	"headwords": [
+		{
+			"text": "אַפְחֲזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

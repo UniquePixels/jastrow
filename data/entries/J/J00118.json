@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00118",
-	"slug": "יהוא",
-	"headword": {
-		"text": "יֵהוּא"
-	},
+	"sefariaHeadword": "יֵהוּא",
+	"headwords": [
+		{
+			"text": "יֵהוּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "a"

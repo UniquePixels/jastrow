@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00221",
-	"slug": "קובה",
-	"headword": {
-		"text": "קוּבָּה"
-	},
+	"sefariaHeadword": "קוּבָּה",
+	"headwords": [
+		{
+			"text": "קוּבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "a"

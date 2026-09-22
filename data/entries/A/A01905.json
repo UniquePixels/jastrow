@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01905",
-	"slug": "אלם-2",
-	"headword": {
-		"text": "אֲלַם"
-	},
+	"sefariaHeadword": "אֲלַם",
+	"headwords": [
+		{
+			"text": "אֲלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "a"

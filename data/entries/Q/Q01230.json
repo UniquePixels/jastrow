@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01230",
-	"slug": "פסגה",
-	"headword": {
-		"text": "פִּסְגָּה"
-	},
+	"sefariaHeadword": "פִּסְגָּה",
+	"headwords": [
+		{
+			"text": "פִּסְגָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1192,
 		"column": "a"

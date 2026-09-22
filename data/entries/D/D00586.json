@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00586",
-	"slug": "דיכון",
-	"headword": {
-		"text": "דִּיכּוּן"
-	},
+	"sefariaHeadword": "דִּיכּוּן",
+	"headwords": [
+		{
+			"text": "דִּיכּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00815",
-	"slug": "גירדא-3",
-	"headword": {
-		"text": "גִּירְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּירְדָּא",
+	"headwords": [
+		{
+			"text": "גִּירְדָּא"
+		},
 		{
 			"text": "גִירְדַּאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 242,
 		"column": "b"

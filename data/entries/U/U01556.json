@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01556",
-	"slug": "שן-1",
-	"headword": {
-		"text": "שֵׁן"
-	},
+	"sefariaHeadword": "שֵׁן",
+	"headwords": [
+		{
+			"text": "שֵׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "b"

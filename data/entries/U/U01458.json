@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01458",
-	"slug": "שמטי",
-	"headword": {
-		"text": "שמטי"
-	},
+	"sefariaHeadword": "שמטי",
+	"headwords": [
+		{
+			"text": "שמטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "a"

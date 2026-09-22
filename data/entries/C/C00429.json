@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00429",
-	"slug": "גונבא-1",
-	"headword": {
-		"text": "גּוֹנְבָא"
-	},
+	"sefariaHeadword": "גּוֹנְבָא",
+	"headwords": [
+		{
+			"text": "גּוֹנְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

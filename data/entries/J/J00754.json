@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00754",
-	"slug": "יתרו",
-	"headword": {
-		"text": "יִתְרוֹ"
-	},
+	"sefariaHeadword": "יִתְרוֹ",
+	"headwords": [
+		{
+			"text": "יִתְרוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 605,
 		"column": "b"

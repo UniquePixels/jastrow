@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00229",
-	"slug": "צוציתא",
-	"headword": {
-		"text": "צוּצִיתָא"
-	},
+	"sefariaHeadword": "צוּצִיתָא",
+	"headwords": [
+		{
+			"text": "צוּצִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00659",
-	"slug": "ביסא-2",
-	"headword": {
-		"text": "ביסא"
-	},
+	"sefariaHeadword": "ביסא",
+	"headwords": [
+		{
+			"text": "ביסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

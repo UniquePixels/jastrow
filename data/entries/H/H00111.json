@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00111",
-	"slug": "חבר-5",
-	"headword": {
-		"text": "חַבָּר"
-	},
+	"sefariaHeadword": "חַבָּר",
+	"headwords": [
+		{
+			"text": "חַבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 422,
 		"column": "a"

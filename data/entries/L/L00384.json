@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00384",
-	"slug": "לטוסאי",
-	"headword": {
-		"text": "לְטוֹסָאֵי"
-	},
+	"sefariaHeadword": "לְטוֹסָאֵי",
+	"headwords": [
+		{
+			"text": "לְטוֹסָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

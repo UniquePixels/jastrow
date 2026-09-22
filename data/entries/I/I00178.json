@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00178",
-	"slug": "טומטום",
-	"headword": {
-		"text": "טוּמְטוּם"
-	},
+	"sefariaHeadword": "טוּמְטוּם",
+	"headwords": [
+		{
+			"text": "טוּמְטוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

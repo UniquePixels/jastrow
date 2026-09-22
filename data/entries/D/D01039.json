@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01039",
-	"slug": "דרגי",
-	"headword": {
-		"text": "דרגי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דרגי",
+	"headwords": [
+		{
+			"text": "דרגי"
+		},
 		{
 			"text": "דרגיבת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 321,
 		"column": "a"

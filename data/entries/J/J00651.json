@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00651",
-	"slug": "ירע-2",
-	"headword": {
-		"text": "ירַע"
-	},
+	"sefariaHeadword": "ירַע",
+	"headwords": [
+		{
+			"text": "ירַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "b"

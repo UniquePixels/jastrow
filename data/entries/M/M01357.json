@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01357",
-	"slug": "מכון",
-	"headword": {
-		"text": "מָכוֹן"
-	},
+	"sefariaHeadword": "מָכוֹן",
+	"headwords": [
+		{
+			"text": "מָכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "b"

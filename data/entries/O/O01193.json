@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01193",
-	"slug": "סנה",
-	"headword": {
-		"text": "סְנֶה"
-	},
+	"sefariaHeadword": "סְנֶה",
+	"headwords": [
+		{
+			"text": "סְנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

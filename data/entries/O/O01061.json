@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01061",
-	"slug": "סמדרקוס",
-	"headword": {
-		"text": "סְמַדְרְקוֹס"
-	},
+	"sefariaHeadword": "סְמַדְרְקוֹס",
+	"headwords": [
+		{
+			"text": "סְמַדְרְקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

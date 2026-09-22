@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01726",
-	"slug": "מנה-3",
-	"headword": {
-		"text": "מָנָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מָנָה II",
+	"headwords": [
+		{
+			"text": "מָנָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 798,
 		"column": "a"

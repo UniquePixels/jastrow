@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02110",
-	"slug": "מעיל-3",
-	"headword": {
-		"text": "מְעִיל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְעִיל ²",
+	"headwords": [
+		{
+			"text": "מְעִיל",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְעִילָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 815,
 		"column": "b"

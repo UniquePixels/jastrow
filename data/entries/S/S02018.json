@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02018",
-	"slug": "קרי-2",
-	"headword": {
-		"text": "קרי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קרי ²",
+	"headwords": [
+		{
+			"text": "קרי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קָרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1417,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00408",
-	"slug": "חוס-1",
-	"headword": {
-		"text": "חוּס"
-	},
+	"sefariaHeadword": "חוּס",
+	"headwords": [
+		{
+			"text": "חוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "b"

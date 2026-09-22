@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01608",
-	"slug": "מלף",
-	"headword": {
-		"text": "מַלֵּף"
-	},
+	"sefariaHeadword": "מַלֵּף",
+	"headwords": [
+		{
+			"text": "מַלֵּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "a"

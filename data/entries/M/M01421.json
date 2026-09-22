@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01421",
-	"slug": "מכסא-2",
-	"headword": {
-		"text": "מָכְסָא"
-	},
+	"sefariaHeadword": "מָכְסָא",
+	"headwords": [
+		{
+			"text": "מָכְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00649",
-	"slug": "ירסא",
-	"headword": {
-		"text": "יִרְסָא"
-	},
+	"sefariaHeadword": "יִרְסָא",
+	"headwords": [
+		{
+			"text": "יִרְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00935",
-	"slug": "השקאה",
-	"headword": {
-		"text": "הַשְׁקָאָה"
-	},
+	"sefariaHeadword": "הַשְׁקָאָה",
+	"headwords": [
+		{
+			"text": "הַשְׁקָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

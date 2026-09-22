@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01548",
-	"slug": "פרג-3",
-	"headword": {
-		"text": "פְּרַג",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּרַג II",
+	"headwords": [
+		{
+			"text": "פְּרַג",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1213,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00618",
-	"slug": "ניגמי",
-	"headword": {
-		"text": "ניגמי"
-	},
+	"sefariaHeadword": "ניגמי",
+	"headwords": [
+		{
+			"text": "ניגמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

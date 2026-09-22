@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02315",
-	"slug": "מציה",
-	"headword": {
-		"text": "מְצִיָּה"
-	},
+	"sefariaHeadword": "מְצִיָּה",
+	"headwords": [
+		{
+			"text": "מְצִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

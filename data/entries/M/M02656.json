@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02656",
-	"slug": "מריבג",
-	"headword": {
-		"text": "מְרִיבָג",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְרִיבָג",
+	"headwords": [
+		{
+			"text": "מְרִיבָג",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

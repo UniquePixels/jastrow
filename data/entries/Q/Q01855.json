@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01855",
-	"slug": "פרכוס",
-	"headword": {
-		"text": "פִּרִכּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרִכּוּס",
+	"headwords": [
+		{
+			"text": "פִּרִכּוּס"
+		},
 		{
 			"text": "פִּרְכּוּסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1229,
 		"column": "b"

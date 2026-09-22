@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01228",
-	"slug": "פסג-2",
-	"headword": {
-		"text": "פְּסַג"
-	},
+	"sefariaHeadword": "פְּסַג",
+	"headwords": [
+		{
+			"text": "פְּסַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1192,
 		"column": "a"

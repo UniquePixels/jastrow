@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00353",
-	"slug": "היזמתא",
-	"headword": {
-		"text": "הִיזְמְתָא"
-	},
+	"sefariaHeadword": "הִיזְמְתָא",
+	"headwords": [
+		{
+			"text": "הִיזְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "a"

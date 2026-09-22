@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00952",
-	"slug": "גלימא",
-	"headword": {
-		"text": "גְּלִימָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלִימָא II",
+	"headwords": [
+		{
+			"text": "גְּלִימָא",
+			"homograph": 2
+		},
 		{
 			"text": "גַּלְמָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 249,
 		"column": "a"

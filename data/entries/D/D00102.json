@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00102",
-	"slug": "דגול-2",
-	"headword": {
-		"text": "דָּגוּל"
-	},
+	"sefariaHeadword": "דָּגוּל",
+	"headwords": [
+		{
+			"text": "דָּגוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "b"

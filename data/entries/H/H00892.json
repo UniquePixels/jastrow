@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00892",
-	"slug": "חישוב",
-	"headword": {
-		"text": "חִישּׁוּב"
-	},
+	"sefariaHeadword": "חִישּׁוּב",
+	"headwords": [
+		{
+			"text": "חִישּׁוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

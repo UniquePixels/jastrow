@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00944",
-	"slug": "דעוון",
-	"headword": {
-		"text": "דַּעֲוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּעֲוָון",
+	"headwords": [
+		{
+			"text": "דַּעֲוָון"
+		},
 		{
 			"text": "דַּעֲוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 316,
 		"column": "a"

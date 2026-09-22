@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00743",
-	"slug": "גימ״ל",
-	"headword": {
-		"text": "גימ״ל"
-	},
+	"sefariaHeadword": "גימ\"ל",
+	"headwords": [
+		{
+			"text": "גימ״ל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

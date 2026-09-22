@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00971",
-	"slug": "קילופה",
-	"headword": {
-		"text": "קִילּוּפָה"
-	},
+	"sefariaHeadword": "קִילּוּפָה",
+	"headwords": [
+		{
+			"text": "קִילּוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1360,
 		"column": "b"

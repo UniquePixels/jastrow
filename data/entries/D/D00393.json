@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00393",
-	"slug": "דות",
-	"headword": {
-		"text": "דּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּת",
+	"headwords": [
+		{
+			"text": "דּוּת"
+		},
 		{
 			"text": "חַדּוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 291,
 		"column": "a"

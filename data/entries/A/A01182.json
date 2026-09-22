@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A01182",
-	"slug": "איהי-2",
-	"headword": {
-		"text": "אִיהִי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אִיהִי II",
+	"headwords": [
+		{
+			"text": "אִיהִי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 46,
 		"column": "a"

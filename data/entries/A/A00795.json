@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00795",
-	"slug": "אוסקניתא",
-	"headword": {
-		"text": "אוּסְקָנִיתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּסְקָנִיתא",
+	"headwords": [
+		{
+			"text": "אוּסְקָנִיתא"
+		},
 		{
 			"text": "סְקוּנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 31,
 		"column": "a"

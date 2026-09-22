@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02703",
-	"slug": "מרכוב",
-	"headword": {
-		"text": "מַרְכּוֹב"
-	},
+	"sefariaHeadword": "מַרְכּוֹב",
+	"headwords": [
+		{
+			"text": "מַרְכּוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

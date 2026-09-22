@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00727",
-	"slug": "קטורה",
-	"headword": {
-		"text": "קְטוּרָה"
-	},
+	"sefariaHeadword": "קְטוּרָה",
+	"headwords": [
+		{
+			"text": "קְטוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1347,
 		"column": "a"

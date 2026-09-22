@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00256",
-	"slug": "בולבוטיס",
-	"headword": {
-		"text": "בּוּלְבּוּטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּלְבּוּטֵיס",
+	"headwords": [
+		{
+			"text": "בּוּלְבּוּטֵיס"
+		},
 		{
 			"text": "בּוּלְבּוּטֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 146,
 		"column": "a"

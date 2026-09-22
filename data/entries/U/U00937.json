@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00937",
-	"slug": "שילהת",
-	"headword": {
-		"text": "שִׁילְהַת"
-	},
+	"sefariaHeadword": "שִׁילְהַת",
+	"headwords": [
+		{
+			"text": "שִׁילְהַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "b"

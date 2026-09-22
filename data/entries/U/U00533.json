@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00533",
-	"slug": "שור-1",
-	"headword": {
-		"text": "שְׁוַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוַר",
+	"headwords": [
+		{
+			"text": "שְׁוַר"
+		},
 		{
 			"text": "שַׁיָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1541,
 		"column": "b"

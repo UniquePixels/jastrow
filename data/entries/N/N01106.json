@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01106",
-	"slug": "נצור",
-	"headword": {
-		"text": "נָצוֹר"
-	},
+	"sefariaHeadword": "נָצוֹר",
+	"headwords": [
+		{
+			"text": "נָצוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

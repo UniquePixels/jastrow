@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00523",
-	"slug": "יצוע",
-	"headword": {
-		"text": "יָצוּעַ"
-	},
+	"sefariaHeadword": "יָצוּעַ",
+	"headwords": [
+		{
+			"text": "יָצוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

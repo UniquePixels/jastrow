@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01883",
-	"slug": "חתי-3",
-	"headword": {
-		"text": "חתי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חתי ²",
+	"headwords": [
+		{
+			"text": "חתי",
+			"disambiguator": 2
+		},
 		{
 			"text": "חָתָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 512,
 		"column": "b"

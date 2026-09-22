@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01040",
-	"slug": "תרעם",
-	"headword": {
-		"text": "תִּרְעֵם"
-	},
+	"sefariaHeadword": "תִּרְעֵם",
+	"headwords": [
+		{
+			"text": "תִּרְעֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "b"

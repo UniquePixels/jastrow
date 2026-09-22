@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00858",
-	"slug": "סירפיא",
-	"headword": {
-		"text": "סִירְפַיָּא"
-	},
+	"sefariaHeadword": "סִירְפַיָּא",
+	"headwords": [
+		{
+			"text": "סִירְפַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

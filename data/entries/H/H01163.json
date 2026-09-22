@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01163",
-	"slug": "חמור-1",
-	"headword": {
-		"text": "חֲמוֹר"
-	},
+	"sefariaHeadword": "חֲמוֹר",
+	"headwords": [
+		{
+			"text": "חֲמוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00475",
-	"slug": "טלה-2",
-	"headword": {
-		"text": "טָלֵה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָלֵה",
+	"headwords": [
+		{
+			"text": "טָלֵה"
+		},
 		{
 			"text": "טֶלַה",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 535,
 		"column": "b"

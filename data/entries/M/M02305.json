@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02305",
-	"slug": "מצטרא",
-	"headword": {
-		"text": "מִצְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְטְרָא",
+	"headwords": [
+		{
+			"text": "מִצְטְרָא"
+		},
 		{
 			"text": "מצטרו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 825,
 		"column": "a"

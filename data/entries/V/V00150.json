@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00150",
-	"slug": "תובלייא",
-	"headword": {
-		"text": "תּוּבְלְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּבְלְיָיא",
+	"headwords": [
+		{
+			"text": "תּוּבְלְיָיא"
+		},
 		{
 			"text": "תּוּבְלְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1650,
 		"column": "b"

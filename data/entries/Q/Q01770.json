@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01770",
-	"slug": "פרטא-3",
-	"headword": {
-		"text": "פִּרְטָא"
-	},
+	"sefariaHeadword": "פִּרְטָא",
+	"headwords": [
+		{
+			"text": "פִּרְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

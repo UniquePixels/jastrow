@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00426",
-	"slug": "ינאי",
-	"headword": {
-		"text": "יַנַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַנַּאי",
+	"headwords": [
+		{
+			"text": "יַנַּאי"
+		},
 		{
 			"text": "יַנַּיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00425",
-	"slug": "מוהבותא",
-	"headword": {
-		"text": "מוֹהֲבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹהֲבוּתָא",
+	"headwords": [
 		{
-			"text": "מוֹהֲבִי׳"
+			"text": "מוֹהֲבוּתָא"
+		},
+		{
+			"text": "מוֹהֲבִי׳",
+			"partial": true
 		},
 		{
 			"text": "מוֹהַבְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 739,
 		"column": "a"

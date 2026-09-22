@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00056",
-	"slug": "טביעה-1",
-	"headword": {
-		"text": "טְבִיעה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טְבִיעה I",
+	"headwords": [
+		{
+			"text": "טְבִיעה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 517,
 		"column": "a"

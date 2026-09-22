@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00797",
-	"slug": "רמונקי",
-	"headword": {
-		"text": "רמונקי"
-	},
+	"sefariaHeadword": "רמונקי",
+	"headwords": [
+		{
+			"text": "רמונקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1481,
 		"column": "b"

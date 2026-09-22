@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02005",
-	"slug": "פרקליטא",
-	"headword": {
-		"text": "פְּרַקְלִיטָא"
-	},
+	"sefariaHeadword": "פְּרַקְלִיטָא",
+	"headwords": [
+		{
+			"text": "פְּרַקְלִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01873",
-	"slug": "אליעזר",
-	"headword": {
-		"text": "אֱלִיעֶזֶר"
-	},
+	"sefariaHeadword": "אֱלִיעֶזֶר",
+	"headwords": [
+		{
+			"text": "אֱלִיעֶזֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

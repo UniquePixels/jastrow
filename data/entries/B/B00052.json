@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00052",
-	"slug": "בבא-2",
-	"headword": {
-		"text": "בָּבָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בָּבָא II",
+	"headwords": [
+		{
+			"text": "בָּבָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 136,
 		"column": "b"

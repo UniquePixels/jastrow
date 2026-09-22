@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00436",
-	"slug": "גונדרי",
-	"headword": {
-		"text": "גונדרי"
-	},
+	"sefariaHeadword": "גונדרי",
+	"headwords": [
+		{
+			"text": "גונדרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

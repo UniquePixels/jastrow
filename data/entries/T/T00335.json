@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00335",
-	"slug": "רווק",
-	"headword": {
-		"text": "רַוָּוק"
-	},
+	"sefariaHeadword": "רַוָּוק",
+	"headwords": [
+		{
+			"text": "רַוָּוק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1457,
 		"column": "b"

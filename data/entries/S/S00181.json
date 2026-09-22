@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00181",
-	"slug": "קדרון-3",
-	"headword": {
-		"text": "קדרון"
-	},
+	"sefariaHeadword": "קדרון",
+	"headwords": [
+		{
+			"text": "קדרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1318,
 		"column": "b"

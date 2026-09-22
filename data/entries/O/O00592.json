@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00592",
-	"slug": "סיומא",
-	"headword": {
-		"text": "סִיּוּמָא"
-	},
+	"sefariaHeadword": "סִיּוּמָא",
+	"headwords": [
+		{
+			"text": "סִיּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "a"

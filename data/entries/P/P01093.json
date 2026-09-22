@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01093",
-	"slug": "עצב-3",
-	"headword": {
-		"text": "עָצָב"
-	},
+	"sefariaHeadword": "עָצָב",
+	"headwords": [
+		{
+			"text": "עָצָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1101,
 		"column": "a"

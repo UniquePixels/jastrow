@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01197",
-	"slug": "סנוא",
-	"headword": {
-		"text": "סַנּוֹא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנּוֹא",
+	"headwords": [
+		{
+			"text": "סַנּוֹא"
+		},
 		{
 			"text": "סַנָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "b"

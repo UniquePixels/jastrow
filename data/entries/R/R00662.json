@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00662",
-	"slug": "צער-2",
-	"headword": {
-		"text": "צְעֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְעֵר",
+	"headwords": [
+		{
+			"text": "צְעֵר"
+		},
 		{
 			"text": "צְעֵיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1294,
 		"column": "b"

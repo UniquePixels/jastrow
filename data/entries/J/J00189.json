@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00189",
-	"slug": "יולדתא",
-	"headword": {
-		"text": "יוֹלַדְתָּא"
-	},
+	"sefariaHeadword": "יוֹלַדְתָּא",
+	"headwords": [
+		{
+			"text": "יוֹלַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 569,
 		"column": "a"

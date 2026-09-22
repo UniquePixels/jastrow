@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O01559",
-	"slug": "סרונגייא",
-	"headword": {
-		"text": "סְרוּנְגַּיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרוּנְגַּיָּיא",
+	"headwords": [
+		{
+			"text": "סְרוּנְגַּיָּיא"
+		},
 		{
 			"text": "סְרוּנְגִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1024,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

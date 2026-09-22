@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00698",
-	"slug": "טקסיוטי",
-	"headword": {
-		"text": "טַקְסְיוֹטֵי"
-	},
+	"sefariaHeadword": "טַקְסְיוֹטֵי",
+	"headwords": [
+		{
+			"text": "טַקְסְיוֹטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01543",
-	"slug": "פראפורנון",
-	"headword": {
-		"text": "פָּרָאפוּרְנוֹן"
-	},
+	"sefariaHeadword": "פָּרָאפוּרְנוֹן",
+	"headwords": [
+		{
+			"text": "פָּרָאפוּרְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00923",
-	"slug": "נסח-1",
-	"headword": {
-		"text": "נָסַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָסַח",
+	"headwords": [
+		{
+			"text": "נָסַח"
+		},
 		{
 			"text": "נָשַׂח"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 915,
 		"column": "b"

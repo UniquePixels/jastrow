@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "B01340",
-	"slug": "ברת-2",
-	"headword": {
-		"text": "בְּרַת",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרַת II",
+	"headwords": [
 		{
-			"text": "בְּרַת חווּרן"
+			"text": "בְּרַת",
+			"homograph": 2
+		},
+		{
+			"text": "ב׳ חווּרן",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 198,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

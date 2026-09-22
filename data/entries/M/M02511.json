@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02511",
-	"slug": "מרגועא",
-	"headword": {
-		"text": "מַרְגּוֹעָא"
-	},
+	"sefariaHeadword": "מַרְגּוֹעָא",
+	"headwords": [
+		{
+			"text": "מַרְגּוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

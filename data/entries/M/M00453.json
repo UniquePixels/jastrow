@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00453",
-	"slug": "מוח-1",
-	"headword": {
-		"text": "מוֹחַ"
-	},
+	"sefariaHeadword": "מוֹחַ",
+	"headwords": [
+		{
+			"text": "מוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

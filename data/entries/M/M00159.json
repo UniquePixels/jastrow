@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00159",
-	"slug": "מגינ",
-	"headword": {
-		"text": "מָגִינּ־"
-	},
+	"sefariaHeadword": "מָגִינּ־",
+	"headwords": [
+		{
+			"text": "מָגִינּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

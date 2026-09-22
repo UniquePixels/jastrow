@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02066",
-	"slug": "פשטינא",
-	"headword": {
-		"text": "פַּשְׁטִינָא"
-	},
+	"sefariaHeadword": "פַּשְׁטִינָא",
+	"headwords": [
+		{
+			"text": "פַּשְׁטִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

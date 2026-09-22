@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00832",
-	"slug": "שיהופא",
-	"headword": {
-		"text": "שיהופא"
-	},
+	"sefariaHeadword": "שיהופא",
+	"headwords": [
+		{
+			"text": "שיהופא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1558,
 		"column": "b"

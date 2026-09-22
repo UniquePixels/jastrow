@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00597",
-	"slug": "מוקצע",
-	"headword": {
-		"text": "מוקצע"
-	},
+	"sefariaHeadword": "מוקצע",
+	"headwords": [
+		{
+			"text": "מוקצע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 748,
 		"column": "a"

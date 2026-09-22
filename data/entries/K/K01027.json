@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01027",
-	"slug": "כפל-2",
-	"headword": {
-		"text": "כְּפַל"
-	},
+	"sefariaHeadword": "כְּפַל",
+	"headwords": [
+		{
+			"text": "כְּפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "a"

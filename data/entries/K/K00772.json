@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00772",
-	"slug": "כלניתא",
-	"headword": {
-		"text": "כַּלְנִיתָא"
-	},
+	"sefariaHeadword": "כַּלְנִיתָא",
+	"headwords": [
+		{
+			"text": "כַּלְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

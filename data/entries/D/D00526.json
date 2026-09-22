@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00526",
-	"slug": "דיופי",
-	"headword": {
-		"text": "דְּיוֹפִי"
-	},
+	"sefariaHeadword": "דְּיוֹפִי",
+	"headwords": [
+		{
+			"text": "דְּיוֹפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

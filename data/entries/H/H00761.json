@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00761",
-	"slug": "חילה",
-	"headword": {
-		"text": "חֵילָה"
-	},
+	"sefariaHeadword": "חֵילָה",
+	"headwords": [
+		{
+			"text": "חֵילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "a"

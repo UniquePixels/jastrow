@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00382",
-	"slug": "קומה",
-	"headword": {
-		"text": "קוֹמָה"
-	},
+	"sefariaHeadword": "קוֹמָה",
+	"headwords": [
+		{
+			"text": "קוֹמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1332,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00789",
-	"slug": "בכיר",
-	"headword": {
-		"text": "בַּכִּיר"
-	},
+	"sefariaHeadword": "בַּכִּיר",
+	"headwords": [
+		{
+			"text": "בַּכִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "a"

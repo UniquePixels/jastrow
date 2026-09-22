@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00041",
-	"slug": "חבט-2",
-	"headword": {
-		"text": "חֲבַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבַט",
+	"headwords": [
+		{
+			"text": "חֲבַט"
+		},
 		{
 			"text": "חֲבֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 417,
 		"column": "a"

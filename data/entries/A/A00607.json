@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00607",
-	"slug": "אוזנא",
-	"headword": {
-		"text": "אוּזְנָא"
-	},
+	"sefariaHeadword": "אוּזְנָא",
+	"headwords": [
+		{
+			"text": "אוּזְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

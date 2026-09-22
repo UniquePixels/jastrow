@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N01058",
-	"slug": "נפלא-1",
-	"headword": {
-		"text": "נִפְלָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִפְלָא I",
+	"headwords": [
+		{
+			"text": "נִפְלָא",
+			"homograph": 1
+		},
 		{
 			"text": "נְפֵלָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "נָפְלָא"
 		}
 	],
+	"display": "{0} I, ({1}, {2})",
 	"page": {
 		"number": 925,
 		"column": "a"

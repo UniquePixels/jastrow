@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02793",
-	"slug": "אפר-2",
-	"headword": {
-		"text": "אֵפֶר"
-	},
+	"sefariaHeadword": "אֵפֶר",
+	"headwords": [
+		{
+			"text": "אֵפֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00080",
-	"slug": "שבועא-2",
-	"headword": {
-		"text": "שְׁבוּעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבוּעָא",
+	"headwords": [
+		{
+			"text": "שְׁבוּעָא"
+		},
 		{
 			"text": "שְׁבוּעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1510,
 		"column": "b"

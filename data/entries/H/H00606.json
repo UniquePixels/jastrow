@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00606",
-	"slug": "חטחט",
-	"headword": {
-		"text": "חִטְחֵט"
-	},
+	"sefariaHeadword": "חִטְחֵט",
+	"headwords": [
+		{
+			"text": "חִטְחֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 448,
 		"column": "a"

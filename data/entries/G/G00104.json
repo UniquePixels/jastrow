@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00104",
-	"slug": "זהר-1",
-	"headword": {
-		"text": "זָהֵר"
-	},
+	"sefariaHeadword": "זָהֵר",
+	"headwords": [
+		{
+			"text": "זָהֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "a"

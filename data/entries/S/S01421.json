@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01421",
-	"slug": "קלקנתום",
-	"headword": {
-		"text": "(קַלְקַנְתּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(קַלְקַנְתּוּם",
+	"headwords": [
+		{
+			"text": "קַלְקַנְתּוּם"
+		},
 		{
 			"text": "קַלְקַנְתּוֹס"
 		},
 		{
-			"text": "קַנְ׳"
+			"text": "קַנְ׳",
+			"partial": true
 		}
 	],
 	"page": {

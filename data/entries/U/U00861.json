@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00861",
-	"slug": "שיחה-2",
-	"headword": {
-		"text": "שִׂיחָה"
-	},
+	"sefariaHeadword": "שִׂיחָה",
+	"headwords": [
+		{
+			"text": "שִׂיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

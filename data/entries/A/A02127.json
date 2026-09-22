@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02127",
-	"slug": "אנדרוניטין",
-	"headword": {
-		"text": "אַנְדְּרוֹנִיטִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַנְדְּרוֹנִיטִין",
+	"headwords": [
+		{
+			"text": "אַנְדְּרוֹנִיטִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אַנְדְרוֹנִיטִיס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "b"

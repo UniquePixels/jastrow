@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00542",
-	"slug": "דיור-2",
-	"headword": {
-		"text": "דַּיּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיּוֹר",
+	"headwords": [
+		{
+			"text": "דַּיּוֹר"
+		},
 		{
 			"text": "דַּיָּיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "b"

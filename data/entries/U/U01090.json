@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01090",
-	"slug": "שיש-2",
-	"headword": {
-		"text": "שַׁיִשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁיִשׁ",
+	"headwords": [
+		{
+			"text": "שַׁיִשׁ"
+		},
 		{
 			"text": "שַׁיִישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1569,
 		"column": "b"

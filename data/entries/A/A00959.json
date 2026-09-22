@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00959",
-	"slug": "אזדקפותא",
-	"headword": {
-		"text": "אִזְדְּקָפוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִזְדְּקָפוּתָא",
+	"headwords": [
+		{
+			"text": "אִזְדְּקָפוּתָא"
+		},
 		{
 			"text": "אִזְדַּקָּפוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 37,
 		"column": "a"

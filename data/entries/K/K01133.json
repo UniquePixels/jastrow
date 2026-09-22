@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01133",
-	"slug": "כרות-1",
-	"headword": {
-		"text": "כָּרוּת"
-	},
+	"sefariaHeadword": "כָּרוּת",
+	"headwords": [
+		{
+			"text": "כָּרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

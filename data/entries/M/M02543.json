@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02543",
-	"slug": "מרדו-2",
-	"headword": {
-		"text": "מַרְדּוּ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַרְדּוּ II",
+	"headwords": [
+		{
+			"text": "מַרְדּוּ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 837,
 		"column": "a"

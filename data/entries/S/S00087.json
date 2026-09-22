@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00087",
-	"slug": "קבע-4",
-	"headword": {
-		"text": "קְבַע",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קְבַע ²",
+	"headwords": [
+		{
+			"text": "קְבַע",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1311,
 		"column": "b"

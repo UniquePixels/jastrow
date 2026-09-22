@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02111",
-	"slug": "פת-2",
-	"headword": {
-		"text": "פַּת"
-	},
+	"sefariaHeadword": "פַּת",
+	"headwords": [
+		{
+			"text": "פַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

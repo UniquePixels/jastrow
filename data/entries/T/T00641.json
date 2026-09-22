@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00641",
-	"slug": "ריכסא",
-	"headword": {
-		"text": "רִיכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיכְסָא",
+	"headwords": [
+		{
+			"text": "רִיכְסָא"
+		},
 		{
 			"text": "רִיכְפָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רִיכְשָׁא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1474,
 		"column": "b"

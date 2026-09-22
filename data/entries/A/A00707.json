@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00707",
-	"slug": "אומנוס",
-	"headword": {
-		"text": "אומנוס"
-	},
+	"sefariaHeadword": "אומנוס",
+	"headwords": [
+		{
+			"text": "אומנוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

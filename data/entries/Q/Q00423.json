@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00423",
-	"slug": "פזור",
-	"headword": {
-		"text": "פִּזּוּר"
-	},
+	"sefariaHeadword": "פִּזּוּר",
+	"headwords": [
+		{
+			"text": "פִּזּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "a"

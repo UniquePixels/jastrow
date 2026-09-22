@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00658",
-	"slug": "נייח-1",
-	"headword": {
-		"text": "נְיַיח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְיַיח I",
+	"headwords": [
+		{
+			"text": "נְיַיח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 904,
 		"column": "a"

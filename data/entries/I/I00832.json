@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00832",
-	"slug": "טרכוס",
-	"headword": {
-		"text": "טרכוס"
-	},
+	"sefariaHeadword": "טרכוס",
+	"headwords": [
+		{
+			"text": "טרכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

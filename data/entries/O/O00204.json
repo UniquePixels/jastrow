@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00204",
-	"slug": "סדרונגיא",
-	"headword": {
-		"text": "סדרונגיא"
-	},
+	"sefariaHeadword": "סדרונגיא",
+	"headwords": [
+		{
+			"text": "סדרונגיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 959,
 		"column": "a"

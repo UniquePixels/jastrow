@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00846",
-	"slug": "עלתא",
-	"headword": {
-		"text": "עָלָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָלָתָא",
+	"headwords": [
 		{
-			"text": "עְ׳"
+			"text": "עָלָתָא"
+		},
+		{
+			"text": "עְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1085,
 		"column": "b"

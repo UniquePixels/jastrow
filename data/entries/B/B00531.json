@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B00531",
-	"slug": "בטניתא",
-	"headword": {
-		"text": "בָּטְנִיתָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בָּטְנִיתָא",
+	"headwords": [
 		{
-			"text": "בֵּי בָּטְנִיתָא"
+			"text": "בָּטְנִיתָא",
+			"reconstructed": true
+		},
+		{
+			"text": "בֵּי ב׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 158,
 		"column": "b"

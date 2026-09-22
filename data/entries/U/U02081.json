@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02081",
-	"slug": "שתוק",
-	"headword": {
-		"text": "שָׁתוּק"
-	},
+	"sefariaHeadword": "שָׁתוּק",
+	"headwords": [
+		{
+			"text": "שָׁתוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "b"

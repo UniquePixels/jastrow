@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00706",
-	"slug": "ניסיון",
-	"headword": {
-		"text": "נִיסָּיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיסָּיוֹן",
+	"headwords": [
+		{
+			"text": "נִיסָּיוֹן"
+		},
 		{
 			"text": "נִיסְיוֹנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִיסֵּיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 906,
 		"column": "b"

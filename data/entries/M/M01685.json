@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01685",
-	"slug": "ממש-2",
-	"headword": {
-		"text": "מַמָּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַמָּשׁ ²",
+	"headwords": [
+		{
+			"text": "מַמָּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַמָּשָׁא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 795,
 		"column": "b"

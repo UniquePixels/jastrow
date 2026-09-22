@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00766",
-	"slug": "הפרניא",
-	"headword": {
-		"text": "הפרניא"
-	},
+	"sefariaHeadword": "הפרניא",
+	"headwords": [
+		{
+			"text": "הפרניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "a"

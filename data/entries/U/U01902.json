@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01902",
-	"slug": "שקת",
-	"headword": {
-		"text": "שֹׁקֶת"
-	},
+	"sefariaHeadword": "שֹׁקֶת",
+	"headwords": [
+		{
+			"text": "שֹׁקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1626,
 		"column": "b"

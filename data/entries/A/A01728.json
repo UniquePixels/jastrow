@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01728",
-	"slug": "אכסיריה",
-	"headword": {
-		"text": "אכסיריה"
-	},
+	"sefariaHeadword": "אכסיריה",
+	"headwords": [
+		{
+			"text": "אכסיריה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "b"

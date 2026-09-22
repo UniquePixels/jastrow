@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00375",
-	"slug": "טימורתא",
-	"headword": {
-		"text": "טִימוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִימוּרְתָּא",
+	"headwords": [
 		{
-			"text": "טִמוּ׳"
+			"text": "טִימוּרְתָּא"
+		},
+		{
+			"text": "טִמוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "a"

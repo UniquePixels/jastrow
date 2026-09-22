@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00590",
-	"slug": "מוקירוס",
-	"headword": {
-		"text": "מוקירוס"
-	},
+	"sefariaHeadword": "מוקירוס",
+	"headwords": [
+		{
+			"text": "מוקירוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

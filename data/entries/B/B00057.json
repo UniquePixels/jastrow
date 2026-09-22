@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00057",
-	"slug": "בבי",
-	"headword": {
-		"text": "בֵּבַי"
-	},
+	"sefariaHeadword": "בֵּבַי",
+	"headwords": [
+		{
+			"text": "בֵּבַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "b"

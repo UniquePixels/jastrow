@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01092",
-	"slug": "דריש",
-	"headword": {
-		"text": "דָּרֵישׁ"
-	},
+	"sefariaHeadword": "דָּרֵישׁ",
+	"headwords": [
+		{
+			"text": "דָּרֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

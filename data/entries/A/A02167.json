@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02167",
-	"slug": "אנטולי",
-	"headword": {
-		"text": "אַנְטוֹלִי"
-	},
+	"sefariaHeadword": "אַנְטוֹלִי",
+	"headwords": [
+		{
+			"text": "אַנְטוֹלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"
@@ -13,7 +17,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "pr. n. m. (Ἀνατόλιος) <i>Antoli</i>. ",
+			"gloss": "pr. n. m. (Ἀνατόλιος) <i>Antoli</i>. ",
 			"units": [
 				"<cite ref=\"Jerusalem Talmud Demai 5:8:8\">Y. Dem. V, 24ᵈ</cite> bot."
 			]

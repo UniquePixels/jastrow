@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01186",
-	"slug": "ברדליס",
-	"headword": {
-		"text": "בַּרְדְּלִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְדְּלִיס",
+	"headwords": [
+		{
+			"text": "בַּרְדְּלִיס"
+		},
 		{
 			"text": "בַּרְדְּלֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 190,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00514",
-	"slug": "פטילייא",
-	"headword": {
-		"text": "פְּטִילְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּטִילְיָיא",
+	"headwords": [
+		{
+			"text": "פְּטִילְיָיא"
+		},
 		{
 			"text": "פְּטִילְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1155,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00458",
-	"slug": "הינוח",
-	"headword": {
-		"text": "הֵינוּחַ"
-	},
+	"sefariaHeadword": "הֵינוּחַ",
+	"headwords": [
+		{
+			"text": "הֵינוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

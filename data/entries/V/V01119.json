@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01119",
-	"slug": "תתיבה",
-	"headword": {
-		"text": "תתיבה"
-	},
+	"sefariaHeadword": "תתיבה",
+	"headwords": [
+		{
+			"text": "תתיבה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "b"

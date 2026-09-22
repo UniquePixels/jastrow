@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00366",
-	"slug": "שוחדא",
-	"headword": {
-		"text": "שׁוֹחֲדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹחֲדָא",
+	"headwords": [
 		{
-			"text": "שׁוּחֲ׳"
+			"text": "שׁוֹחֲדָא"
 		},
 		{
-			"text": "שׁוּחְ׳"
+			"text": "שׁוּחֲ׳",
+			"partial": true
+		},
+		{
+			"text": "שׁוּחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1530,
 		"column": "b"

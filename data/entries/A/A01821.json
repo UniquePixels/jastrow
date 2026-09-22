@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01821",
-	"slug": "אלונכא",
-	"headword": {
-		"text": "אֲלוּנְכָא"
-	},
+	"sefariaHeadword": "אֲלוּנְכָא",
+	"headwords": [
+		{
+			"text": "אֲלוּנְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

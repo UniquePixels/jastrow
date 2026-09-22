@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00329",
-	"slug": "שובענא",
-	"headword": {
-		"text": "שׂוּבְעָנָא"
-	},
+	"sefariaHeadword": "שׂוּבְעָנָא",
+	"headwords": [
+		{
+			"text": "שׂוּבְעָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "a"

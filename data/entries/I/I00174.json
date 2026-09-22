@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00174",
-	"slug": "טום-2",
-	"headword": {
-		"text": "טוּם",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "טוּם ²",
+	"headwords": [
+		{
+			"text": "טוּם",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 524,
 		"column": "a"

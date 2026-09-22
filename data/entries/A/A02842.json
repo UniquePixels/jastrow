@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02842",
-	"slug": "אפשח",
-	"headword": {
-		"text": "אַפְשַׁח"
-	},
+	"sefariaHeadword": "אַפְשַׁח",
+	"headwords": [
+		{
+			"text": "אַפְשַׁח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00583",
-	"slug": "טנר",
-	"headword": {
-		"text": "טִנָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִנָּר",
+	"headwords": [
+		{
+			"text": "טִנָּר"
+		},
 		{
 			"text": "טִנָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 541,
 		"column": "b"

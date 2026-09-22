@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00640",
-	"slug": "לפלוף",
-	"headword": {
-		"text": "לִפְלוּף"
-	},
+	"sefariaHeadword": "לִפְלוּף",
+	"headwords": [
+		{
+			"text": "לִפְלוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "b"

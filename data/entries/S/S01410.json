@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01410",
-	"slug": "קלק-2",
-	"headword": {
-		"text": "קְלַק"
-	},
+	"sefariaHeadword": "קְלַק",
+	"headwords": [
+		{
+			"text": "קְלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

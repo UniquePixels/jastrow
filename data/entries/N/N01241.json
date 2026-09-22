@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01241",
-	"slug": "נקר-1",
-	"headword": {
-		"text": "נָקַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָקַר I",
+	"headwords": [
+		{
+			"text": "נָקַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 935,
 		"column": "a"

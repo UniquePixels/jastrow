@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00129",
-	"slug": "חבתא-1",
-	"headword": {
-		"text": "חַבְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חַבְתָּא",
+	"headwords": [
+		{
+			"text": "חַבְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 423,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

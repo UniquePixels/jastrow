@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00166",
-	"slug": "תוהו-2",
-	"headword": {
-		"text": "תּוֹהוּ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹהוּ ²",
+	"headwords": [
+		{
+			"text": "תּוֹהוּ",
+			"disambiguator": 2
+		},
 		{
 			"text": "תֹּהוּ"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1651,
 		"column": "a"

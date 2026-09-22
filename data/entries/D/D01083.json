@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01083",
-	"slug": "דריגון",
-	"headword": {
-		"text": "דריגון"
-	},
+	"sefariaHeadword": "דריגון",
+	"headwords": [
+		{
+			"text": "דריגון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00379",
-	"slug": "היכיל",
-	"headword": {
-		"text": "הֵיכֵיל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֵיכֵיל",
+	"headwords": [
+		{
+			"text": "הֵיכֵיל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 345,
 		"column": "b"

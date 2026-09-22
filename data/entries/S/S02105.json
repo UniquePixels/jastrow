@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02105",
-	"slug": "קרנדול",
-	"headword": {
-		"text": "קַרְנָדוֹל"
-	},
+	"sefariaHeadword": "קַרְנָדוֹל",
+	"headwords": [
+		{
+			"text": "קַרְנָדוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "a"

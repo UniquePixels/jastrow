@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00557",
-	"slug": "קור-1",
-	"headword": {
-		"text": "קור"
-	},
+	"sefariaHeadword": "קור",
+	"headwords": [
+		{
+			"text": "קור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00951",
-	"slug": "התלעה",
-	"headword": {
-		"text": "הַתְלָעָה"
-	},
+	"sefariaHeadword": "הַתְלָעָה",
+	"headwords": [
+		{
+			"text": "הַתְלָעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

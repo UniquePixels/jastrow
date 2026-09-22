@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00475",
-	"slug": "פחיתה",
-	"headword": {
-		"text": "פְּחִיתָה"
-	},
+	"sefariaHeadword": "פְּחִיתָה",
+	"headwords": [
+		{
+			"text": "פְּחִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "b"

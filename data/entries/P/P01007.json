@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01007",
-	"slug": "ענק-2",
-	"headword": {
-		"text": "עֶנֶק"
-	},
+	"sefariaHeadword": "עֶנֶק",
+	"headwords": [
+		{
+			"text": "עֶנֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "a"

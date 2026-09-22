@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01670",
-	"slug": "ממל-2",
-	"headword": {
-		"text": "מַמָּל"
-	},
+	"sefariaHeadword": "מַמָּל",
+	"headwords": [
+		{
+			"text": "מַמָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 795,
 		"column": "a"

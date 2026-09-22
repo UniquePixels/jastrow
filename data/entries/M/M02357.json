@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "M02357",
-	"slug": "מצר-6",
-	"headword": {
-		"text": "מֵצַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵצַר ²",
+	"headwords": [
+		{
+			"text": "מֵצַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "מִצְרָא"
 		},
 		{
 			"text": "מִיצְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 828,
 		"column": "a"

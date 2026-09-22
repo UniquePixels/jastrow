@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U01780",
-	"slug": "שפלתא",
-	"headword": {
-		"text": "שְׁפֶלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁפֶלְתָּא",
+	"headwords": [
 		{
-			"text": "שְׁפֵלְ׳"
+			"text": "שְׁפֶלְתָּא"
 		},
 		{
-			"text": "שְׁפֵילְ׳"
+			"text": "שְׁפֵלְ׳",
+			"partial": true
+		},
+		{
+			"text": "שְׁפֵילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1618,
 		"column": "a"

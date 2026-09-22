@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00088",
-	"slug": "כבשה",
-	"headword": {
-		"text": "כִּבְשָׂה"
-	},
+	"sefariaHeadword": "כִּבְשָׂה",
+	"headwords": [
+		{
+			"text": "כִּבְשָׂה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 611,
 		"column": "b"

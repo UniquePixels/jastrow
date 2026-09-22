@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00117",
-	"slug": "הדיוט",
-	"headword": {
-		"text": "הֶדְיוֹט"
-	},
+	"sefariaHeadword": "הֶדְיוֹט",
+	"headwords": [
+		{
+			"text": "הֶדְיוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

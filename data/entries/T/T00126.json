@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00126",
-	"slug": "רבנתא",
-	"headword": {
-		"text": "רִבַּנְתָּא"
-	},
+	"sefariaHeadword": "רִבַּנְתָּא",
+	"headwords": [
+		{
+			"text": "רִבַּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1444,
 		"column": "b"

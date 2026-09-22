@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P01355",
-	"slug": "עריין",
-	"headword": {
-		"text": "עֵרָיִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵרָיִין",
+	"headwords": [
 		{
-			"text": "עֵי׳"
+			"text": "עֵרָיִין"
+		},
+		{
+			"text": "עֵי׳",
+			"partial": true
 		},
 		{
 			"text": "עֵירָאִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1117,
 		"column": "a"

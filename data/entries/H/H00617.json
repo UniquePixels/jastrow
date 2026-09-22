@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00617",
-	"slug": "חטי-5",
-	"headword": {
-		"text": "חֳטִי"
-	},
+	"sefariaHeadword": "חֳטִי",
+	"headwords": [
+		{
+			"text": "חֳטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 449,
 		"column": "a"

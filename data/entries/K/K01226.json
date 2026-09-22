@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01226",
-	"slug": "כרכשתא-2",
-	"headword": {
-		"text": "כַּרְכַּשְׁתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כַּרְכַּשְׁתָּא II",
+	"headwords": [
+		{
+			"text": "כַּרְכַּשְׁתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 671,
 		"column": "a"

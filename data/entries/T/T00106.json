@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00106",
-	"slug": "רביעין",
-	"headword": {
-		"text": "רְבִיעִין"
-	},
+	"sefariaHeadword": "רְבִיעִין",
+	"headwords": [
+		{
+			"text": "רְבִיעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1443,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01222",
-	"slug": "כרכש-1",
-	"headword": {
-		"text": "כַּרְכֵּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְכֵּשׁ",
+	"headwords": [
+		{
+			"text": "כַּרְכֵּשׁ"
+		},
 		{
 			"text": "כַּרְכֵּישׁ",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 670,
 		"column": "b"

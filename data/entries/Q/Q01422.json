@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01422",
-	"slug": "פצוליא",
-	"headword": {
-		"text": "פִּצּוּלַיָּא"
-	},
+	"sefariaHeadword": "פִּצּוּלַיָּא",
+	"headwords": [
+		{
+			"text": "פִּצּוּלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "b"

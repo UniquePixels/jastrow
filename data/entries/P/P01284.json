@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01284",
-	"slug": "ערבית-2",
-	"headword": {
-		"text": "עַרְבִית"
-	},
+	"sefariaHeadword": "עַרְבִית",
+	"headwords": [
+		{
+			"text": "עַרְבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "b"

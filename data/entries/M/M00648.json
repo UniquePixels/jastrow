@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00648",
-	"slug": "מורייה-2",
-	"headword": {
-		"text": "מורייה"
-	},
+	"sefariaHeadword": "מורייה",
+	"headwords": [
+		{
+			"text": "מורייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "a"

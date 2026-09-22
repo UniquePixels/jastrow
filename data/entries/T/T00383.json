@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "T00383",
-	"slug": "רומה",
-	"headword": {
-		"text": "רוּמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּמָה",
+	"headwords": [
+		{
+			"text": "רוּמָה"
+		},
 		{
 			"text": "רוּמָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1461,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

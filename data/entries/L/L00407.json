@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00407",
-	"slug": "ליבבא",
-	"headword": {
-		"text": "לִיבְבָא"
-	},
+	"sefariaHeadword": "לִיבְבָא",
+	"headwords": [
+		{
+			"text": "לִיבְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

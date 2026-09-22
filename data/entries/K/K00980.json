@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00980",
-	"slug": "כף-3",
-	"headword": {
-		"text": "כַּף"
-	},
+	"sefariaHeadword": "כַּף",
+	"headwords": [
+		{
+			"text": "כַּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "a"

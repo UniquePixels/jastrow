@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00427",
-	"slug": "תיומא",
-	"headword": {
-		"text": "תְּיוֹמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּיוֹמָא",
+	"headwords": [
 		{
-			"text": "תְּיוּ׳"
+			"text": "תְּיוֹמָא"
+		},
+		{
+			"text": "תְּיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1664,
 		"column": "a"

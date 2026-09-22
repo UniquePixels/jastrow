@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02752",
-	"slug": "מרפקא",
-	"headword": {
-		"text": "מַרְפְּקָא"
-	},
+	"sefariaHeadword": "מַרְפְּקָא",
+	"headwords": [
+		{
+			"text": "מַרְפְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

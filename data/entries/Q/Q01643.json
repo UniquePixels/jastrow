@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01643",
-	"slug": "פרוזבוטי",
-	"headword": {
-		"text": "פְּרוּזְבּוּטֵי"
-	},
+	"sefariaHeadword": "פְּרוּזְבּוּטֵי",
+	"headwords": [
+		{
+			"text": "פְּרוּזְבּוּטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "a"

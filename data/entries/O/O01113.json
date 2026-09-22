@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01113",
-	"slug": "סממנא",
-	"headword": {
-		"text": "סַמְמָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַמְמָנָא",
+	"headwords": [
+		{
+			"text": "סַמְמָנָא"
+		},
 		{
 			"text": "סַמָּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "b"

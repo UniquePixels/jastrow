@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00084",
-	"slug": "לבלב-1",
-	"headword": {
-		"text": "לִבְלֵב"
-	},
+	"sefariaHeadword": "לִבְלֵב",
+	"headwords": [
+		{
+			"text": "לִבְלֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

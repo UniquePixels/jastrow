@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00088",
-	"slug": "הגרוניא",
-	"headword": {
-		"text": "הַגְרוֹנְיָא"
-	},
+	"sefariaHeadword": "הַגְרוֹנְיָא",
+	"headwords": [
+		{
+			"text": "הַגְרוֹנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

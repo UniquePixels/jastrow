@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00804",
-	"slug": "מחבלתא",
-	"headword": {
-		"text": "מְחַבַּלְתָּא"
-	},
+	"sefariaHeadword": "מְחַבַּלְתָּא",
+	"headwords": [
+		{
+			"text": "מְחַבַּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "a"

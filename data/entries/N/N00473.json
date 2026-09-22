@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "N00473",
-	"slug": "נחה-2",
-	"headword": {
-		"text": "נָחָה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*נָחָה II",
+	"headwords": [
+		{
+			"text": "נָחָה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 893,
 		"column": "b"

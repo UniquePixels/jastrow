@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01171",
-	"slug": "גסטריות",
-	"headword": {
-		"text": "גַּסְטְרָיוֹת"
-	},
+	"sefariaHeadword": "גַּסְטְרָיוֹת",
+	"headwords": [
+		{
+			"text": "גַּסְטְרָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

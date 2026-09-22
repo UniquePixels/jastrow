@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00497",
-	"slug": "כידור",
-	"headword": {
-		"text": "כִּידוֹר"
-	},
+	"sefariaHeadword": "כִּידוֹר",
+	"headwords": [
+		{
+			"text": "כִּידוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

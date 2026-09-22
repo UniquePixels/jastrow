@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00113",
-	"slug": "פדורוילי",
-	"headword": {
-		"text": "פדורוילי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פדורוילי",
+	"headwords": [
+		{
+			"text": "פדורוילי"
+		},
 		{
 			"text": "פדורלי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1136,
 		"column": "b"

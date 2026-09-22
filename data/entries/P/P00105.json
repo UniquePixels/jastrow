@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00105",
-	"slug": "עגן-1",
-	"headword": {
-		"text": "עָגַן"
-	},
+	"sefariaHeadword": "עָגַן",
+	"headwords": [
+		{
+			"text": "עָגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "a"

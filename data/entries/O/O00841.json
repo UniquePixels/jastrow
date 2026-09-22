@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00841",
-	"slug": "סירוס",
-	"headword": {
-		"text": "סֵירוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵירוּס",
+	"headwords": [
 		{
-			"text": "סֵר׳"
+			"text": "סֵירוּס"
+		},
+		{
+			"text": "סֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "b"

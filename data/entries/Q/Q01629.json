@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01629",
-	"slug": "פרוואה",
-	"headword": {
-		"text": "פַּרְוָואָה"
-	},
+	"sefariaHeadword": "פַּרְוָואָה",
+	"headwords": [
+		{
+			"text": "פַּרְוָואָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

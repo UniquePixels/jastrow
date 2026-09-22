@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03345",
-	"slug": "אשקלתא",
-	"headword": {
-		"text": "אַשְׁקַלְתָּא"
-	},
+	"sefariaHeadword": "אַשְׁקַלְתָּא",
+	"headwords": [
+		{
+			"text": "אַשְׁקַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"

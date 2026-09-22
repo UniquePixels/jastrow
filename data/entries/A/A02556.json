@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02556",
-	"slug": "אסרה",
-	"headword": {
-		"text": "אֲסָרָה"
-	},
+	"sefariaHeadword": "אֲסָרָה",
+	"headwords": [
+		{
+			"text": "אֲסָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "a"

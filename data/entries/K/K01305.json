@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01305",
-	"slug": "כשיל",
-	"headword": {
-		"text": "כַּשִּׁיל"
-	},
+	"sefariaHeadword": "כַּשִּׁיל",
+	"headwords": [
+		{
+			"text": "כַּשִּׁיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01541",
-	"slug": "עתירתא-1",
-	"headword": {
-		"text": "עֲתִירְתָּא"
-	},
+	"sefariaHeadword": "עֲתִירְתָּא",
+	"headwords": [
+		{
+			"text": "עֲתִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1129,
 		"column": "b"

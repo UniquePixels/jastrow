@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01328",
-	"slug": "קליד",
-	"headword": {
-		"text": "קַלִּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלִּיד",
+	"headwords": [
+		{
+			"text": "קַלִּיד"
+		},
 		{
 			"text": "קַלִּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1376,
 		"column": "a"

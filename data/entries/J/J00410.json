@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00410",
-	"slug": "ימים-1",
-	"headword": {
-		"text": "יָמִים"
-	},
+	"sefariaHeadword": "יָמִים",
+	"headwords": [
+		{
+			"text": "יָמִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "a"

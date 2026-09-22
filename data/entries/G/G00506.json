@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00506",
-	"slug": "זמה",
-	"headword": {
-		"text": "זִמָּה"
-	},
+	"sefariaHeadword": "זִמָּה",
+	"headwords": [
+		{
+			"text": "זִמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "a"

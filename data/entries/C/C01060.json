@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01060",
-	"slug": "גמץ",
-	"headword": {
-		"text": "גְּמַץ"
-	},
+	"sefariaHeadword": "גְּמַץ",
+	"headwords": [
+		{
+			"text": "גְּמַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "b"

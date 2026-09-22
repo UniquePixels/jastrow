@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01558",
-	"slug": "חקירה",
-	"headword": {
-		"text": "חֲקִירָה"
-	},
+	"sefariaHeadword": "חֲקִירָה",
+	"headwords": [
+		{
+			"text": "חֲקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "a"

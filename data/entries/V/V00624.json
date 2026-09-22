@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00624",
-	"slug": "תלשר",
-	"headword": {
-		"text": "תְּלַשָׂר"
-	},
+	"sefariaHeadword": "תְּלַשָׂר",
+	"headwords": [
+		{
+			"text": "תְּלַשָׂר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "a"

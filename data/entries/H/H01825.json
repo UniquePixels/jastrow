@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01825",
-	"slug": "חשחש",
-	"headword": {
-		"text": "חַשְׁחַשׁ"
-	},
+	"sefariaHeadword": "חַשְׁחַשׁ",
+	"headwords": [
+		{
+			"text": "חַשְׁחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

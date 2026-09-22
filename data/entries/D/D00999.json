@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00999",
-	"slug": "דקוקיא",
-	"headword": {
-		"text": "דקוקיא"
-	},
+	"sefariaHeadword": "דקוקיא",
+	"headwords": [
+		{
+			"text": "דקוקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

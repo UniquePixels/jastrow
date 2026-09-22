@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00164",
-	"slug": "תוהא",
-	"headword": {
-		"text": "תִּוְהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּוְהָא",
+	"headwords": [
 		{
-			"text": "תִּוְו׳"
+			"text": "תִּוְהָא"
 		},
 		{
-			"text": "תִּיוְ׳"
+			"text": "תִּוְו׳",
+			"partial": true
+		},
+		{
+			"text": "תִּיוְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1651,
 		"column": "a"

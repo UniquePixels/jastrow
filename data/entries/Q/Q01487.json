@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01487",
-	"slug": "פקיסנא",
-	"headword": {
-		"text": "פְּקִיסְנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּקִיסְנָא",
+	"headwords": [
+		{
+			"text": "פְּקִיסְנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1209,
 		"column": "a"

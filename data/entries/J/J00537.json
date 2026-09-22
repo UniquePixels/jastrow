@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00537",
-	"slug": "יציר",
-	"headword": {
-		"text": "יְצִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְצִיר",
+	"headwords": [
+		{
+			"text": "יְצִיר"
+		},
 		{
 			"text": "יָצוּר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 589,
 		"column": "a"

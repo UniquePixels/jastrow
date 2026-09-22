@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01069",
-	"slug": "דרוסות",
-	"headword": {
-		"text": "דְּרוּסוֹת"
-	},
+	"sefariaHeadword": "דְּרוּסוֹת",
+	"headwords": [
+		{
+			"text": "דְּרוּסוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

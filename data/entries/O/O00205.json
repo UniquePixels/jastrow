@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00205",
-	"slug": "סדרותא",
-	"headword": {
-		"text": "סַדְרוּתָא"
-	},
+	"sefariaHeadword": "סַדְרוּתָא",
+	"headwords": [
+		{
+			"text": "סַדְרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 959,
 		"column": "a"

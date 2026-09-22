@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00860",
-	"slug": "תפש",
-	"headword": {
-		"text": "תָּפַשׂ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּפַשׂ",
+	"headwords": [
+		{
+			"text": "תָּפַשׂ"
+		},
 		{
 			"text": "תְּפַשׂ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "b"

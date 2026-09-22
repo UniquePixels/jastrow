@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00875",
-	"slug": "גלגלת",
-	"headword": {
-		"text": "גּלְגֹּלֶת"
-	},
+	"sefariaHeadword": "גּלְגֹּלֶת",
+	"headwords": [
+		{
+			"text": "גּלְגֹּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 245,
 		"column": "a"

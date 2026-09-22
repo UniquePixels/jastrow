@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02196",
-	"slug": "מפוח",
-	"headword": {
-		"text": "מַפּוּחַ"
-	},
+	"sefariaHeadword": "מַפּוּחַ",
+	"headwords": [
+		{
+			"text": "מַפּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00436",
-	"slug": "שום-4",
-	"headword": {
-		"text": "שׁוּם"
-	},
+	"sefariaHeadword": "שׁוּם",
+	"headwords": [
+		{
+			"text": "שׁוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1535,
 		"column": "a"

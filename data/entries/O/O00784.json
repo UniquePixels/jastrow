@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00784",
-	"slug": "סיפווא",
-	"headword": {
-		"text": "סִיפְוָוא"
-	},
+	"sefariaHeadword": "סִיפְוָוא",
+	"headwords": [
+		{
+			"text": "סִיפְוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "a"

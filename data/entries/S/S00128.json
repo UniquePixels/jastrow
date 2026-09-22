@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00128",
-	"slug": "קדחא",
-	"headword": {
-		"text": "קִדְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִדְחָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִדְחָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1315,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00321",
-	"slug": "הטמנה",
-	"headword": {
-		"text": "הַטְמָנָה"
-	},
+	"sefariaHeadword": "הַטְמָנָה",
+	"headwords": [
+		{
+			"text": "הַטְמָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

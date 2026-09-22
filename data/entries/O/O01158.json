@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01158",
-	"slug": "סנאב",
-	"headword": {
-		"text": "סִנְאָב"
-	},
+	"sefariaHeadword": "סִנְאָב",
+	"headwords": [
+		{
+			"text": "סִנְאָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

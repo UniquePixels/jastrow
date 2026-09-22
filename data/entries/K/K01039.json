@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01039",
-	"slug": "כפניתא",
-	"headword": {
-		"text": "כָּפְנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּפְנִיתָא",
+	"headwords": [
 		{
-			"text": "כּוּפְ׳"
+			"text": "כָּפְנִיתָא"
+		},
+		{
+			"text": "כּוּפְ׳",
+			"partial": true
 		},
 		{
 			"text": "כָּפְנִי"
@@ -15,6 +17,7 @@
 			"text": "כּוּפְנִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 661,
 		"column": "a"

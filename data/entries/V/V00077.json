@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00077",
-	"slug": "תבש״ט",
-	"headword": {
-		"text": "תבש״ט"
-	},
+	"sefariaHeadword": "תבש\"ט",
+	"headwords": [
+		{
+			"text": "תבש״ט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "a"

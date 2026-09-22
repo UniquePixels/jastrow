@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02045",
-	"slug": "שרשך",
-	"headword": {
-		"text": "שרשך"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שרשך",
+	"headwords": [
+		{
+			"text": "שרשך"
+		},
 		{
 			"text": "שרשן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1635,
 		"column": "b"

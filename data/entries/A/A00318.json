@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00318",
-	"slug": "אגנא",
-	"headword": {
-		"text": "אַגָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגָּנָא",
+	"headwords": [
+		{
+			"text": "אַגָּנָא"
+		},
 		{
 			"text": "אֲגָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 13,
 		"column": "a"

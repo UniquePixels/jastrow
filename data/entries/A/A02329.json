@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02329",
-	"slug": "אסוא",
-	"headword": {
-		"text": "אַסְוָא"
-	},
+	"sefariaHeadword": "אַסְוָא",
+	"headwords": [
+		{
+			"text": "אַסְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

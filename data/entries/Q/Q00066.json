@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00066",
-	"slug": "פגיעה",
-	"headword": {
-		"text": "פְּגִיעָה"
-	},
+	"sefariaHeadword": "פְּגִיעָה",
+	"headwords": [
+		{
+			"text": "פְּגִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "a"

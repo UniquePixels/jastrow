@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01615",
-	"slug": "סרייתו",
-	"headword": {
-		"text": "סרייתו"
-	},
+	"sefariaHeadword": "סרייתו",
+	"headwords": [
+		{
+			"text": "סרייתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

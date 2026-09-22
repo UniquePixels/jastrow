@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01852",
-	"slug": "קצרים",
-	"headword": {
-		"text": "קַצְרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַצְרִים",
+	"headwords": [
+		{
+			"text": "קַצְרִים"
+		},
 		{
 			"text": "קַצְרִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַצְרָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1409,
 		"column": "a"

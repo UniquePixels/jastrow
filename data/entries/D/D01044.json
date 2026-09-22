@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01044",
-	"slug": "דרדוגי",
-	"headword": {
-		"text": "דַּרְדּוּגֵי"
-	},
+	"sefariaHeadword": "דַּרְדּוּגֵי",
+	"headwords": [
+		{
+			"text": "דַּרְדּוּגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00694",
-	"slug": "מותא",
-	"headword": {
-		"text": "מוֹתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוֹתָא II",
+	"headwords": [
+		{
+			"text": "מוֹתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 752,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01358",
-	"slug": "פסקטר",
-	"headword": {
-		"text": "פְּסַקְטֵר"
-	},
+	"sefariaHeadword": "פְּסַקְטֵר",
+	"headwords": [
+		{
+			"text": "פְּסַקְטֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

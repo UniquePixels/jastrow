@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00607",
-	"slug": "טעינה",
-	"headword": {
-		"text": "טְעִינָה"
-	},
+	"sefariaHeadword": "טְעִינָה",
+	"headwords": [
+		{
+			"text": "טְעִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 543,
 		"column": "a"

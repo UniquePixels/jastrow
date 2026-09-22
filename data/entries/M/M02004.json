@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02004",
-	"slug": "מסקיין",
-	"headword": {
-		"text": "מַסִּקְיָין"
-	},
+	"sefariaHeadword": "מַסִּקְיָין",
+	"headwords": [
+		{
+			"text": "מַסִּקְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00229",
-	"slug": "חוא-1",
-	"headword": {
-		"text": "חֵוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵוָא",
+	"headwords": [
+		{
+			"text": "חֵוָא"
+		},
 		{
 			"text": "חֵוַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 428,
 		"column": "a"

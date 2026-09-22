@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N01359",
-	"slug": "נתופתי",
-	"headword": {
-		"text": "נְתוֹפָתִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְתוֹפָתִי",
+	"headwords": [
+		{
+			"text": "נְתוֹפָתִי"
+		},
 		{
 			"text": "נְתוֹצָתִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְתִיצָתִי"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 943,
 		"column": "a"

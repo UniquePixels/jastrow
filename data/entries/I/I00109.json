@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00109",
-	"slug": "טוב-3",
-	"headword": {
-		"text": "טוֹב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹב II",
+	"headwords": [
+		{
+			"text": "טוֹב",
+			"homograph": 2
+		},
 		{
 			"text": "טוֹבָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 521,
 		"column": "a"

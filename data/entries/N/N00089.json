@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00089",
-	"slug": "נבל-1",
-	"headword": {
-		"text": "נָבֵל"
-	},
+	"sefariaHeadword": "נָבֵל",
+	"headwords": [
+		{
+			"text": "נָבֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 869,
 		"column": "b"

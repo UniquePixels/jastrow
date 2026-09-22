@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00859",
-	"slug": "רסס-1",
-	"headword": {
-		"text": "רָסַס"
-	},
+	"sefariaHeadword": "רָסַס",
+	"headwords": [
+		{
+			"text": "רָסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"
@@ -12,7 +16,7 @@
 		{
 			"gloss": " (cmp. <cite ref=\"T01001\"><he>רָצַץ</he></cite>), <i>Pi.</i> <he>רִיסֵּס</he> <i>to crush, break into small pieces</i>. ",
 			"units": [
-				"<cite ref=\"Jerusalem Talmud Nazir 6:1:9\">Y. Naz. VI, 54ᵈ</cite> bot. <he>רִסְּסָן ואכלן</he> (or <he>רְסָסָן</he>) if he chopped them (the aṇts) and ate them (v. <cite ref=\"T00861\"><he>רָסַק</he></cite>). ",
+				"<cite ref=\"Jerusalem Talmud Nazir 6:1:9\">Y. Naz. VI, 54ᵈ</cite> bot. <he>רִסְּסָן ואכלן</he> (or <he>רְסָסָן</he>) if he chopped them (the aṇts) and ate them (v. <cite ref=\"T00861\"><he>רָסַק</he></cite>). ",
 				"<cite ref=\"Mishnah Oktzin 2:5\">Ukts. II, 5</cite>, sq. <he>עד שׁיְרַסֵּס</he> until he has cracked or broken the shell (and taken out the contents); <cite ref=\"Tosefta Uktsin 2:15\">Tosef. ib. II, 15</cite> <he>אע״פ שרי׳ … לפרק</he> although he has cracked the shell, the connection is not considered broken until he begins to pick; <he>וביצה טרומיטא אע״פ שרי׳ וכ׳</he> (not <he>טרמיסא</he>) and in the case of a boiled-down egg (v. <cite ref=\"I00726\"><he>טרומיטא</he></cite>) the connection remains, although he has crushed it, until he begins to peel it; a. e.—Part. pass. <he>מְרוּסָּס</he>. ",
 				"<cite ref=\"Mishnah Shabbat 8:5\">Sabb. VIII, 5</cite> <he>אם היה עב או מר׳</he> if the reed is thick or cracked."
 			]

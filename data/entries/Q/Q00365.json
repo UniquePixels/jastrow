@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00365",
-	"slug": "פורנין",
-	"headword": {
-		"text": "פורנין"
-	},
+	"sefariaHeadword": "פורנין",
+	"headwords": [
+		{
+			"text": "פורנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "b"

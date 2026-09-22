@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00838",
-	"slug": "אוקינין",
-	"headword": {
-		"text": "אוקינין"
-	},
+	"sefariaHeadword": "אוקינין",
+	"headwords": [
+		{
+			"text": "אוקינין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "b"

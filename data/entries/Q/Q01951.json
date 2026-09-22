@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01951",
-	"slug": "פרען",
-	"headword": {
-		"text": "פֻּרְעָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֻּרְעָן",
+	"headwords": [
+		{
+			"text": "פֻּרְעָן"
+		},
 		{
 			"text": "פֻּרְעָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1236,
 		"column": "a"

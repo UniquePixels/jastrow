@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00391",
-	"slug": "כורסגניות",
-	"headword": {
-		"text": "כורסגניות"
-	},
+	"sefariaHeadword": "כורסגניות",
+	"headwords": [
+		{
+			"text": "כורסגניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "a"

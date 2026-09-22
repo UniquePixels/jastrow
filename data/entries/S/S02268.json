@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02268",
-	"slug": "קשש-3",
-	"headword": {
-		"text": "קְשַׁשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קְשַׁשׁ I",
+	"headwords": [
+		{
+			"text": "קְשַׁשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1433,
 		"column": "a"

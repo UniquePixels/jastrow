@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01354",
-	"slug": "ספיח",
-	"headword": {
-		"text": "סָפִיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָפִיחַ",
+	"headwords": [
+		{
+			"text": "סָפִיחַ"
+		},
 		{
 			"text": "סֶפַח"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1013,
 		"column": "b"

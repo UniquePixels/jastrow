@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00050",
-	"slug": "פגח",
-	"headword": {
-		"text": "פְּגַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגַח",
+	"headwords": [
+		{
+			"text": "פְּגַח"
+		},
 		{
 			"text": "פְּגִיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1132,
 		"column": "b"

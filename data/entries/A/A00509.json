@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00509",
-	"slug": "אהמרא",
-	"headword": {
-		"text": "אהמרא"
-	},
+	"sefariaHeadword": "אהמרא",
+	"headwords": [
+		{
+			"text": "אהמרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

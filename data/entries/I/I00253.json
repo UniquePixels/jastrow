@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00253",
-	"slug": "טחא",
-	"headword": {
-		"text": "טְחָא"
-	},
+	"sefariaHeadword": "טְחָא",
+	"headwords": [
+		{
+			"text": "טְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

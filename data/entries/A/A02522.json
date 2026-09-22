@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02522",
-	"slug": "אספריסא",
-	"headword": {
-		"text": "אִסְפְּרִיסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְפְּרִיסָא",
+	"headwords": [
+		{
+			"text": "אִסְפְּרִיסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 96,
 		"column": "b"

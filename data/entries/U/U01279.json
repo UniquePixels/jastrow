@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01279",
-	"slug": "שלחף",
-	"headword": {
-		"text": "שַׁלְחֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְחֵף",
+	"headwords": [
+		{
+			"text": "שַׁלְחֵף"
+		},
 		{
 			"text": "שַׁלְחֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1581,
 		"column": "a"

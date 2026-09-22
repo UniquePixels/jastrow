@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00405",
-	"slug": "ימבריס",
-	"headword": {
-		"text": "יַמְבְּרִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַמְבְּרִיס",
+	"headwords": [
+		{
+			"text": "יַמְבְּרִיס"
+		},
 		{
 			"text": "יִמְבְּיֵס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 579,
 		"column": "b"

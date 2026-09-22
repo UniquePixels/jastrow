@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01142",
-	"slug": "איגורי",
-	"headword": {
-		"text": "אֵיגוֹרִי"
-	},
+	"sefariaHeadword": "אֵיגוֹרִי",
+	"headwords": [
+		{
+			"text": "אֵיגוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00340",
-	"slug": "היגתא",
-	"headword": {
-		"text": "הֵיגְתָא"
-	},
+	"sefariaHeadword": "הֵיגְתָא",
+	"headwords": [
+		{
+			"text": "הֵיגְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "b"

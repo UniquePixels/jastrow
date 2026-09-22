@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00802",
-	"slug": "סיפסף",
-	"headword": {
-		"text": "סִיפְסֵף"
-	},
+	"sefariaHeadword": "סִיפְסֵף",
+	"headwords": [
+		{
+			"text": "סִיפְסֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

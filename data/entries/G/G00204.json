@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00204",
-	"slug": "זונין-3",
-	"headword": {
-		"text": "זוֹנִין",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹנִין III",
+	"headwords": [
+		{
+			"text": "זוֹנִין",
+			"homograph": 3
+		},
 		{
 			"text": "זוֹנָן"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 388,
 		"column": "a"

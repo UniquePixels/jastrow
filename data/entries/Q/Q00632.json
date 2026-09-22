@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00632",
-	"slug": "פיטק",
-	"headword": {
-		"text": "פִּיטֵּק"
-	},
+	"sefariaHeadword": "פִּיטֵּק",
+	"headwords": [
+		{
+			"text": "פִּיטֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "b"

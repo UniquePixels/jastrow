@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00107",
-	"slug": "ותינייקי",
-	"headword": {
-		"text": "וְתִינְיָיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְתִינְיָיקִי",
+	"headwords": [
 		{
-			"text": "וְתוּ׳"
+			"text": "וְתִינְיָיקִי"
+		},
+		{
+			"text": "וְתוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 376,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01664",
-	"slug": "שעל",
-	"headword": {
-		"text": "שֹׁעַל"
-	},
+	"sefariaHeadword": "שֹׁעַל",
+	"headwords": [
+		{
+			"text": "שֹׁעַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1611,
 		"column": "a"

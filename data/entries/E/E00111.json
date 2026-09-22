@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00111",
-	"slug": "הדחה",
-	"headword": {
-		"text": "הֲדָחָה"
-	},
+	"sefariaHeadword": "הֲדָחָה",
+	"headwords": [
+		{
+			"text": "הֲדָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

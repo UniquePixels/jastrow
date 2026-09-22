@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00922",
-	"slug": "תראדא",
-	"headword": {
-		"text": "תְּרָאדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרָאדָא",
+	"headwords": [
+		{
+			"text": "תְּרָאדָא"
+		},
 		{
 			"text": "תְּרָארָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1694,
 		"column": "b"

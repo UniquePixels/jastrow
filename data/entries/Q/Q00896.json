@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00896",
-	"slug": "פיתוניא",
-	"headword": {
-		"text": "פִּיתוּנַיָּא"
-	},
+	"sefariaHeadword": "פִּיתוּנַיָּא",
+	"headwords": [
+		{
+			"text": "פִּיתוּנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "a"

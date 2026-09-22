@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00621",
-	"slug": "צנייתא",
-	"headword": {
-		"text": "צִנְּיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנְּיָיתָא",
+	"headwords": [
+		{
+			"text": "צִנְּיָיתָא"
+		},
 		{
 			"text": "צִנְּיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1291,
 		"column": "b"

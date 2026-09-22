@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01876",
-	"slug": "אליקה",
-	"headword": {
-		"text": "אֶלִּיקָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֶלִּיקָה",
+	"headwords": [
+		{
+			"text": "אֶלִּיקָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

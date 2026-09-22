@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00461",
-	"slug": "נזק-3",
-	"headword": {
-		"text": "נֵזֶק"
-	},
+	"sefariaHeadword": "נֵזֶק",
+	"headwords": [
+		{
+			"text": "נֵזֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 892,
 		"column": "b"

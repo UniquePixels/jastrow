@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01057",
-	"slug": "נפל-4",
-	"headword": {
-		"text": "נֵפֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵפֶל",
+	"headwords": [
 		{
-			"text": "נֵי׳"
+			"text": "נֵפֶל"
+		},
+		{
+			"text": "נֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 925,
 		"column": "a"

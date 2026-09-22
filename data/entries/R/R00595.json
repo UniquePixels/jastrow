@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00595",
-	"slug": "צמרא",
-	"headword": {
-		"text": "צִמְרָא"
-	},
+	"sefariaHeadword": "צִמְרָא",
+	"headwords": [
+		{
+			"text": "צִמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1289,
 		"column": "b"

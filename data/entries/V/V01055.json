@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01055",
-	"slug": "תרקא",
-	"headword": {
-		"text": "תַּרְקָא"
-	},
+	"sefariaHeadword": "תַּרְקָא",
+	"headwords": [
+		{
+			"text": "תַּרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

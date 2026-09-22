@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00617",
-	"slug": "ניגונא",
-	"headword": {
-		"text": "נִיגּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיגּוּנָא",
+	"headwords": [
 		{
-			"text": "נִגּ׳"
+			"text": "נִיגּוּנָא"
+		},
+		{
+			"text": "נִגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 902,
 		"column": "b"

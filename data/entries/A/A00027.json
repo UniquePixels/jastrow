@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00027",
-	"slug": "אבגינוס",
-	"headword": {
-		"text": "אֶבְגִּינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶבְגִּינוֹס",
+	"headwords": [
+		{
+			"text": "אֶבְגִּינוֹס"
+		},
 		{
 			"text": "אֶוְוגִּינוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֶוְגִּינֵס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 2,
 		"column": "b"

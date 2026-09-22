@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00235",
-	"slug": "שגר-3",
-	"headword": {
-		"text": "שְׁגַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שְׁגַר II",
+	"headwords": [
+		{
+			"text": "שְׁגַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1522,
 		"column": "b"

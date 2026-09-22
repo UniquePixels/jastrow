@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00160",
-	"slug": "הדרייני",
-	"headword": {
-		"text": "הַדְרְיָינִי"
-	},
+	"sefariaHeadword": "הַדְרְיָינִי",
+	"headwords": [
+		{
+			"text": "הַדְרְיָינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

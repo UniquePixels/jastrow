@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00856",
-	"slug": "רסיסא",
-	"headword": {
-		"text": "רְסִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְסִיסָא",
+	"headwords": [
+		{
+			"text": "רְסִיסָא"
+		},
 		{
 			"text": "רְסִיסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1484,
 		"column": "b"

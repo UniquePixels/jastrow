@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03042",
-	"slug": "מתחלא",
-	"headword": {
-		"text": "מַתְחֲלָא"
-	},
+	"sefariaHeadword": "מַתְחֲלָא",
+	"headwords": [
+		{
+			"text": "מַתְחֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "b"

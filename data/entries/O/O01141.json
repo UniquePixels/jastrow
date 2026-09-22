@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01141",
-	"slug": "סמרוסי",
-	"headword": {
-		"text": "סִמְרוֹסִי"
-	},
+	"sefariaHeadword": "סִמְרוֹסִי",
+	"headwords": [
+		{
+			"text": "סִמְרוֹסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00949",
-	"slug": "חכן",
-	"headword": {
-		"text": "חכן"
-	},
+	"sefariaHeadword": "חכן",
+	"headwords": [
+		{
+			"text": "חכן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "b"

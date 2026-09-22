@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01486",
-	"slug": "פקידה",
-	"headword": {
-		"text": "פְּקִידָה"
-	},
+	"sefariaHeadword": "פְּקִידָה",
+	"headwords": [
+		{
+			"text": "פְּקִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "a"

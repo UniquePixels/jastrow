@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00657",
-	"slug": "טפיפית",
-	"headword": {
-		"text": "טְפִיפִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְפִיפִית",
+	"headwords": [
+		{
+			"text": "טְפִיפִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

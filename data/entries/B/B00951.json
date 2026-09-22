@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00951",
-	"slug": "בניינות",
-	"headword": {
-		"text": "בניינות"
-	},
+	"sefariaHeadword": "בניינות",
+	"headwords": [
+		{
+			"text": "בניינות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "a"

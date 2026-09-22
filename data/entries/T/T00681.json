@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00681",
-	"slug": "ריפן",
-	"headword": {
-		"text": "ריפן"
-	},
+	"sefariaHeadword": "ריפן",
+	"headwords": [
+		{
+			"text": "ריפן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

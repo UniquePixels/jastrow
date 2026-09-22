@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01658",
-	"slug": "חרחר-2",
-	"headword": {
-		"text": "חִרְחֵר"
-	},
+	"sefariaHeadword": "חִרְחֵר",
+	"headwords": [
+		{
+			"text": "חִרְחֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "a"

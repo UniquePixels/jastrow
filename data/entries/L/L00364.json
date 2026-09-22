@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00364",
-	"slug": "לחם-2",
-	"headword": {
-		"text": "לָחַם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "לָחַם II",
+	"headwords": [
+		{
+			"text": "לָחַם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 703,
 		"column": "b"

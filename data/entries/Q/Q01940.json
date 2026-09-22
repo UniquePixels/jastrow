@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01940",
-	"slug": "פרסתקיה",
-	"headword": {
-		"text": "פרסתקיה"
-	},
+	"sefariaHeadword": "פרסתקיה",
+	"headwords": [
+		{
+			"text": "פרסתקיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1235,
 		"column": "a"

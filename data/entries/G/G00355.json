@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00355",
-	"slug": "זילאי",
-	"headword": {
-		"text": "זִילַאי"
-	},
+	"sefariaHeadword": "זִילַאי",
+	"headwords": [
+		{
+			"text": "זִילַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "a"

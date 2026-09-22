@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01851",
-	"slug": "אליטא",
-	"headword": {
-		"text": "אֲלִיטָא"
-	},
+	"sefariaHeadword": "אֲלִיטָא",
+	"headwords": [
+		{
+			"text": "אֲלִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

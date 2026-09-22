@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00676",
-	"slug": "סילת",
-	"headword": {
-		"text": "סִילָּת"
-	},
+	"sefariaHeadword": "סִילָּת",
+	"headwords": [
+		{
+			"text": "סִילָּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

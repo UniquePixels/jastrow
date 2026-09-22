@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01202",
-	"slug": "כרכור",
-	"headword": {
-		"text": "כִּרְכּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּרְכּוּר",
+	"headwords": [
 		{
-			"text": "כִּירְ׳"
+			"text": "כִּרְכּוּר"
+		},
+		{
+			"text": "כִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 669,
 		"column": "b"

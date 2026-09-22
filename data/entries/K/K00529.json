@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00529",
-	"slug": "כילאות",
-	"headword": {
-		"text": "כִּילָאוֹת"
-	},
+	"sefariaHeadword": "כִּילָאוֹת",
+	"headwords": [
+		{
+			"text": "כִּילָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

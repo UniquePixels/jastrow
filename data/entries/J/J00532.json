@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00532",
-	"slug": "יציע-1",
-	"headword": {
-		"text": "יָצִיעַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יָצִיעַ I",
+	"headwords": [
+		{
+			"text": "יָצִיעַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 589,
 		"column": "a"

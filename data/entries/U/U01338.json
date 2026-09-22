@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "U01338",
-	"slug": "שליתא",
-	"headword": {
-		"text": "שִׁלְיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְיְתָא",
+	"headwords": [
+		{
+			"text": "שִׁלְיְתָא"
+		},
 		{
 			"text": "שִׁלְיָא"
 		},
 		{
-			"text": "שִׁלְיי׳"
+			"text": "שִׁלְיי׳",
+			"partial": true
 		},
 		{
-			"text": "שִׁילְ׳"
+			"text": "שִׁילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1584,
 		"column": "b"

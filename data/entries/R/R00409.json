@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00409",
-	"slug": "ציפונא",
-	"headword": {
-		"text": "צִיפּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוּנָא",
+	"headwords": [
 		{
-			"text": "צִיפ׳"
+			"text": "צִיפּוּנָא"
 		},
 		{
-			"text": "צִפּ׳"
+			"text": "צִיפ׳",
+			"partial": true
+		},
+		{
+			"text": "צִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1278,
 		"column": "b"

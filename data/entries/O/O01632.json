@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01632",
-	"slug": "סריקין",
-	"headword": {
-		"text": "סְרִיקִין"
-	},
+	"sefariaHeadword": "סְרִיקִין",
+	"headwords": [
+		{
+			"text": "סְרִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "b"

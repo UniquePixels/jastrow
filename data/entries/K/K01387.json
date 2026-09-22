@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01387",
-	"slug": "כתר-2",
-	"headword": {
-		"text": "כְּתַר"
-	},
+	"sefariaHeadword": "כְּתַר",
+	"headwords": [
+		{
+			"text": "כְּתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "b"

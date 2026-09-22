@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00592",
-	"slug": "זעטוטא",
-	"headword": {
-		"text": "זַעֲטוּטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַעֲטוּטָא",
+	"headwords": [
+		{
+			"text": "זַעֲטוּטָא"
+		},
 		{
 			"text": "זַעֲטוּטֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 407,
 		"column": "b"

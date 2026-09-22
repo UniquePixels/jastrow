@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01870",
-	"slug": "חששא",
-	"headword": {
-		"text": "חֲשָׁשָׁא"
-	},
+	"sefariaHeadword": "חֲשָׁשָׁא",
+	"headwords": [
+		{
+			"text": "חֲשָׁשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "a"

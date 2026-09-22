@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00683",
-	"slug": "מושיחות",
-	"headword": {
-		"text": "מוֹשִׁיחוֹת"
-	},
+	"sefariaHeadword": "מוֹשִׁיחוֹת",
+	"headwords": [
+		{
+			"text": "מוֹשִׁיחוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

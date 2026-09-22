@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01444",
-	"slug": "קמואל",
-	"headword": {
-		"text": "קְמוּאֵל"
-	},
+	"sefariaHeadword": "קְמוּאֵל",
+	"headwords": [
+		{
+			"text": "קְמוּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

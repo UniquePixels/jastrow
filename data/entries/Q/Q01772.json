@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01772",
-	"slug": "פרטוטי",
-	"headword": {
-		"text": "פרטוטי"
-	},
+	"sefariaHeadword": "פרטוטי",
+	"headwords": [
+		{
+			"text": "פרטוטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

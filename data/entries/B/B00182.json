@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00182",
-	"slug": "בהמה",
-	"headword": {
-		"text": "בְּהֵמָה"
-	},
+	"sefariaHeadword": "בְּהֵמָה",
+	"headwords": [
+		{
+			"text": "בְּהֵמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 142,
 		"column": "b"

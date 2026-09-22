@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03448",
-	"slug": "אתרוגא",
-	"headword": {
-		"text": "אַתְרוֹגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַתְרוֹגָא",
+	"headwords": [
+		{
+			"text": "אַתְרוֹגָא"
+		},
 		{
 			"text": "אֶתְרוֹגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 134,
 		"column": "a"

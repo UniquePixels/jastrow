@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02185",
-	"slug": "אנטינוס",
-	"headword": {
-		"text": "אַנְטִינוּס"
-	},
+	"sefariaHeadword": "אַנְטִינוּס",
+	"headwords": [
+		{
+			"text": "אַנְטִינוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"
@@ -13,7 +17,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "pr. n. m. (Ἀντίνους) <i>Antinous;</i> v. <cite ref=\"A01078\"><he>אטיטס</he></cite>.",
+			"gloss": "pr. n. m. (Ἀντίνους) <i>Antinous;</i> v. <cite ref=\"A01078\"><he>אטיטס</he></cite>.",
 			"units": []
 		}
 	]

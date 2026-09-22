@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01588",
-	"slug": "שני-6",
-	"headword": {
-		"text": "שְׂנֵי"
-	},
+	"sefariaHeadword": "שְׂנֵי",
+	"headwords": [
+		{
+			"text": "שְׂנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1606,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02427",
-	"slug": "מקלט",
-	"headword": {
-		"text": "מִקְלָט"
-	},
+	"sefariaHeadword": "מִקְלָט",
+	"headwords": [
+		{
+			"text": "מִקְלָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "a"

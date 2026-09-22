@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01680",
-	"slug": "פרוילא",
-	"headword": {
-		"text": "פַּרְוִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוִילָא",
+	"headwords": [
 		{
-			"text": "פַּרְוִוי׳"
+			"text": "פַּרְוִילָא"
+		},
+		{
+			"text": "פַּרְוִוי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1220,
 		"column": "a"

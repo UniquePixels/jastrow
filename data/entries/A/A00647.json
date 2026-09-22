@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00647",
-	"slug": "אוכלוזא",
-	"headword": {
-		"text": "אוֹכְלוֹזא"
-	},
+	"sefariaHeadword": "אוֹכְלוֹזא",
+	"headwords": [
+		{
+			"text": "אוֹכְלוֹזא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

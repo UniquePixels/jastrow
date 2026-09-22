@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00211",
-	"slug": "חדקל",
-	"headword": {
-		"text": "חִדֶּקֶל"
-	},
+	"sefariaHeadword": "חִדֶּקֶל",
+	"headwords": [
+		{
+			"text": "חִדֶּקֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 427,
 		"column": "a"

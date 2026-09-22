@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00473",
-	"slug": "זכריה",
-	"headword": {
-		"text": "זְכַרְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְכַרְיָה",
+	"headwords": [
+		{
+			"text": "זְכַרְיָה"
+		},
 		{
 			"text": "זְכַרְיָהוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 400,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01131",
-	"slug": "סמקי",
-	"headword": {
-		"text": "סַמְקִי"
-	},
+	"sefariaHeadword": "סַמְקִי",
+	"headwords": [
+		{
+			"text": "סַמְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

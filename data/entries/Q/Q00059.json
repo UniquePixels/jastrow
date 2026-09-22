@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00059",
-	"slug": "פגימא",
-	"headword": {
-		"text": "פְּגִימָא"
-	},
+	"sefariaHeadword": "פְּגִימָא",
+	"headwords": [
+		{
+			"text": "פְּגִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

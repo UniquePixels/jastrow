@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00865",
-	"slug": "חיצרא",
-	"headword": {
-		"text": "חִיצְרָא"
-	},
+	"sefariaHeadword": "חִיצְרָא",
+	"headwords": [
+		{
+			"text": "חִיצְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "b"

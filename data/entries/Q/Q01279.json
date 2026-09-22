@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01279",
-	"slug": "פסיון-2",
-	"headword": {
-		"text": "פִּסְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְיוֹן",
+	"headwords": [
+		{
+			"text": "פִּסְיוֹן"
+		},
 		{
 			"text": "פִּסְיוֹנָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1194,
 		"column": "b"

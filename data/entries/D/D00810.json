@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00810",
-	"slug": "דל״ה",
-	"headword": {
-		"text": "דל״ה"
-	},
+	"sefariaHeadword": "דל\"ה",
+	"headwords": [
+		{
+			"text": "דל״ה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

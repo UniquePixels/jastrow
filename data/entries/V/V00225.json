@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00225",
-	"slug": "תום-2",
-	"headword": {
-		"text": "תּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּם",
+	"headwords": [
+		{
+			"text": "תּוּם"
+		},
 		{
 			"text": "תּוּמָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1654,
 		"column": "a"

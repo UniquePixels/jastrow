@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00072",
-	"slug": "סבל-2",
-	"headword": {
-		"text": "סְבַל"
-	},
+	"sefariaHeadword": "סְבַל",
+	"headwords": [
+		{
+			"text": "סְבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 950,
 		"column": "b"

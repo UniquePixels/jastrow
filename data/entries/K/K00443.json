@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00443",
-	"slug": "כזבנא",
-	"headword": {
-		"text": "כַּזְבָּנָא"
-	},
+	"sefariaHeadword": "כַּזְבָּנָא",
+	"headwords": [
+		{
+			"text": "כַּזְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

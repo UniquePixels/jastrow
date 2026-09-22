@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00701",
-	"slug": "טרא",
-	"headword": {
-		"text": "טְרָא"
-	},
+	"sefariaHeadword": "טְרָא",
+	"headwords": [
+		{
+			"text": "טְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

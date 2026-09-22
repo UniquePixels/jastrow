@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00481",
-	"slug": "כיבא-2",
-	"headword": {
-		"text": "כִּיבָּא"
-	},
+	"sefariaHeadword": "כִּיבָּא",
+	"headwords": [
+		{
+			"text": "כִּיבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "b"

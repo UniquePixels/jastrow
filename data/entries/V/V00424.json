@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00424",
-	"slug": "תיובא",
-	"headword": {
-		"text": "תְּיוּבָא"
-	},
+	"sefariaHeadword": "תְּיוּבָא",
+	"headwords": [
+		{
+			"text": "תְּיוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

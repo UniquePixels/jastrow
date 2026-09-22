@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01627",
-	"slug": "פרוה",
-	"headword": {
-		"text": "פַּרְוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוָה",
+	"headwords": [
+		{
+			"text": "פַּרְוָה"
+		},
 		{
 			"text": "פַּרְוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "b"

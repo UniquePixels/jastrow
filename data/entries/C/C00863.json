@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00863",
-	"slug": "גלגוטיקא",
-	"headword": {
-		"text": "גלגוטיקא"
-	},
+	"sefariaHeadword": "גלגוטיקא",
+	"headwords": [
+		{
+			"text": "גלגוטיקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 244,
 		"column": "a"

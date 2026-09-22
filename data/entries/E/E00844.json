@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00844",
-	"slug": "הרווחה",
-	"headword": {
-		"text": "הַרְוָוחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְוָוחָה",
+	"headwords": [
+		{
+			"text": "הַרְוָוחָה"
+		},
 		{
 			"text": "הַרְוָחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 366,
 		"column": "b"

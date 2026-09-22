@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01396",
-	"slug": "קלע-7",
-	"headword": {
-		"text": "קֶלַע",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קֶלַע III",
+	"headwords": [
+		{
+			"text": "קֶלַע",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1380,
 		"column": "b"

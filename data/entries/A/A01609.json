@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01609",
-	"slug": "אירימון",
-	"headword": {
-		"text": "אֱירִימוֹן"
-	},
+	"sefariaHeadword": "אֱירִימוֹן",
+	"headwords": [
+		{
+			"text": "אֱירִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

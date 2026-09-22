@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00084",
-	"slug": "אבזרא",
-	"headword": {
-		"text": "אֲבִזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבִזְרָא",
+	"headwords": [
+		{
+			"text": "אֲבִזְרָא"
+		},
 		{
 			"text": "אֲבִיזְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 4,
 		"column": "b"

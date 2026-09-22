@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00558",
-	"slug": "פטרוס",
-	"headword": {
-		"text": "פִּטְרוֹס"
-	},
+	"sefariaHeadword": "פִּטְרוֹס",
+	"headwords": [
+		{
+			"text": "פִּטְרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

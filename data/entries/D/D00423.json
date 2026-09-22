@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00423",
-	"slug": "דחלא-2",
-	"headword": {
-		"text": "דַּחֲלָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּחֲלָא II",
+	"headwords": [
+		{
+			"text": "דַּחֲלָא",
+			"homograph": 2
+		},
 		{
 			"text": "דַּחַלְתָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 292,
 		"column": "b"

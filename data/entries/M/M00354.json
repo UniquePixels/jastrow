@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00354",
-	"slug": "מהולתא-2",
-	"headword": {
-		"text": "מְהוּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְהוּלְתָּא",
+	"headwords": [
+		{
+			"text": "מְהוּלְתָּא"
+		},
 		{
 			"text": "מָ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 737,
 		"column": "a"

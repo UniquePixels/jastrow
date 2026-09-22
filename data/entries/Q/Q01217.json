@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01217",
-	"slug": "פנתיר",
-	"headword": {
-		"text": "פַּנְתֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְתֵּיר",
+	"headwords": [
+		{
+			"text": "פַּנְתֵּיר"
+		},
 		{
 			"text": "פַּנְתֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1191,
 		"column": "a"

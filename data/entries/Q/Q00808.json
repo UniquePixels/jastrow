@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00808",
-	"slug": "פיקטים",
-	"headword": {
-		"text": "פִּיקְטִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקְטִים",
+	"headwords": [
+		{
+			"text": "פִּיקְטִים"
+		},
 		{
 			"text": "פִּיקְטִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "b"

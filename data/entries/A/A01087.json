@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01087",
-	"slug": "אטיפא",
-	"headword": {
-		"text": "אַטִּיפָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַטִּיפָא",
+	"headwords": [
+		{
+			"text": "אַטִּיפָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01377",
-	"slug": "קלס-1",
-	"headword": {
-		"text": "קָלַס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָלַס I",
+	"headwords": [
+		{
+			"text": "קָלַס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1379,
 		"column": "a"

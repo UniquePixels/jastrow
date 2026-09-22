@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01075",
-	"slug": "כראכא",
-	"headword": {
-		"text": "כְּרָאכָא"
-	},
+	"sefariaHeadword": "כְּרָאכָא",
+	"headwords": [
+		{
+			"text": "כְּרָאכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

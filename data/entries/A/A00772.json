@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00772",
-	"slug": "אונקלה",
-	"headword": {
-		"text": "אוּנְקְלָה"
-	},
+	"sefariaHeadword": "אוּנְקְלָה",
+	"headwords": [
+		{
+			"text": "אוּנְקְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "a"

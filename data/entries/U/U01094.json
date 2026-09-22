@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01094",
-	"slug": "שישה",
-	"headword": {
-		"text": "שִׂישָׂה"
-	},
+	"sefariaHeadword": "שִׂישָׂה",
+	"headwords": [
+		{
+			"text": "שִׂישָׂה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "b"

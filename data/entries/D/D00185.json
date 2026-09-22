@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00185",
-	"slug": "דוגזר",
-	"headword": {
-		"text": "דוגזר"
-	},
+	"sefariaHeadword": "דוגזר",
+	"headwords": [
+		{
+			"text": "דוגזר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

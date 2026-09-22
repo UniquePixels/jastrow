@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01280",
-	"slug": "ברירותא",
-	"headword": {
-		"text": "בְּרִירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרִירוּתָא",
+	"headwords": [
+		{
+			"text": "בְּרִירוּתָא"
+		},
 		{
 			"text": "בָּרִירוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 194,
 		"column": "b"

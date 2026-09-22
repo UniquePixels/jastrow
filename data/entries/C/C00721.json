@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00721",
-	"slug": "גילבונה",
-	"headword": {
-		"text": "גִּילְבּוֹנָה"
-	},
+	"sefariaHeadword": "גִּילְבּוֹנָה",
+	"headwords": [
+		{
+			"text": "גִּילְבּוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

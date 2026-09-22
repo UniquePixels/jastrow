@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00250",
-	"slug": "סוגי",
-	"headword": {
-		"text": "סוּגֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּגֵי",
+	"headwords": [
+		{
+			"text": "סוּגֵי"
+		},
 		{
 			"text": "סוּגְאֵי"
 		},
@@ -16,6 +17,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2}, {3} I",
 	"page": {
 		"number": 961,
 		"column": "a"

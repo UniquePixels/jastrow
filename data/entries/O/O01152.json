@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01152",
-	"slug": "סמתרי",
-	"headword": {
-		"text": "סַמְתְּרֵי"
-	},
+	"sefariaHeadword": "סַמְתְּרֵי",
+	"headwords": [
+		{
+			"text": "סַמְתְּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

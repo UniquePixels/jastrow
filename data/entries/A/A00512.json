@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00512",
-	"slug": "אהרון",
-	"headword": {
-		"text": "אַהֲרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַהֲרוֹן",
+	"headwords": [
+		{
+			"text": "אַהֲרוֹן"
+		},
 		{
 			"text": "אַהֲרֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 20,
 		"column": "b"

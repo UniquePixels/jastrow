@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01760",
-	"slug": "אכתי",
-	"headword": {
-		"text": "אַכַּתִּי"
-	},
+	"sefariaHeadword": "אַכַּתִּי",
+	"headwords": [
+		{
+			"text": "אַכַּתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

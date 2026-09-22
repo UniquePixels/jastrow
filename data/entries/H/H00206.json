@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00206",
-	"slug": "חדק-2",
-	"headword": {
-		"text": "חֲדַק"
-	},
+	"sefariaHeadword": "חֲדַק",
+	"headwords": [
+		{
+			"text": "חֲדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

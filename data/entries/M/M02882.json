@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02882",
-	"slug": "משיכלא",
-	"headword": {
-		"text": "מְשִׁיכְלָא"
-	},
+	"sefariaHeadword": "מְשִׁיכְלָא",
+	"headwords": [
+		{
+			"text": "מְשִׁיכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02262",
-	"slug": "קשקשים-2",
-	"headword": {
-		"text": "קַשְׂקַשִּׂים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַשְׂקַשִּׂים",
+	"headwords": [
+		{
+			"text": "קַשְׂקַשִּׂים"
+		},
 		{
 			"text": "קַשְׂקַשִּׂין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1432,
 		"column": "a"

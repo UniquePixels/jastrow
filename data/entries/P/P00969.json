@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00969",
-	"slug": "ענטב",
-	"headword": {
-		"text": "עֵנטַב"
-	},
+	"sefariaHeadword": "עֵנטַב",
+	"headwords": [
+		{
+			"text": "עֵנטַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1093,
 		"column": "a"

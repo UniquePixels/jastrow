@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01110",
-	"slug": "דרן",
-	"headword": {
-		"text": "דֶּרֶן"
-	},
+	"sefariaHeadword": "דֶּרֶן",
+	"headwords": [
+		{
+			"text": "דֶּרֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

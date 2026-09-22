@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03421",
-	"slug": "אתכפיאיתא",
-	"headword": {
-		"text": "אִתְכַּפְיָאִיתָא"
-	},
+	"sefariaHeadword": "אִתְכַּפְיָאִיתָא",
+	"headwords": [
+		{
+			"text": "אִתְכַּפְיָאִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "a"

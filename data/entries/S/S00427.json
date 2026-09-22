@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00427",
-	"slug": "קונטברא",
-	"headword": {
-		"text": "קוֹנְטַבְרָא"
-	},
+	"sefariaHeadword": "קוֹנְטַבְרָא",
+	"headwords": [
+		{
+			"text": "קוֹנְטַבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

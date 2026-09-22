@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00681",
-	"slug": "מושבזג",
-	"headword": {
-		"text": "מושבזג"
-	},
+	"sefariaHeadword": "מושבזג",
+	"headwords": [
+		{
+			"text": "מושבזג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00539",
-	"slug": "מונייק",
-	"headword": {
-		"text": "מוּנְיָיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּנְיָיק",
+	"headwords": [
 		{
-			"text": "מָנְ׳"
+			"text": "מוּנְיָיק"
+		},
+		{
+			"text": "מָנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 744,
 		"column": "b"

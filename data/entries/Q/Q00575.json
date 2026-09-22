@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00575",
-	"slug": "פיבליה",
-	"headword": {
-		"text": "פיבליה"
-	},
+	"sefariaHeadword": "פיבליה",
+	"headwords": [
+		{
+			"text": "פיבליה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "a"

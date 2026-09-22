@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01130",
-	"slug": "סמקא",
-	"headword": {
-		"text": "סַמְקָא"
-	},
+	"sefariaHeadword": "סַמְקָא",
+	"headwords": [
+		{
+			"text": "סַמְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "a"

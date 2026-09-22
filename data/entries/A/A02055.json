@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02055",
-	"slug": "אמץ",
-	"headword": {
-		"text": "אָמַץ"
-	},
+	"sefariaHeadword": "אָמַץ",
+	"headwords": [
+		{
+			"text": "אָמַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "b"

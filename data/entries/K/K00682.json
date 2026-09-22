@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00682",
-	"slug": "כלבודא",
-	"headword": {
-		"text": "כלבודא"
-	},
+	"sefariaHeadword": "כלבודא",
+	"headwords": [
+		{
+			"text": "כלבודא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "a"

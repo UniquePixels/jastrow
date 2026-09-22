@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00732",
-	"slug": "תנופילין",
-	"headword": {
-		"text": "תנופילין"
-	},
+	"sefariaHeadword": "תנופילין",
+	"headwords": [
+		{
+			"text": "תנופילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

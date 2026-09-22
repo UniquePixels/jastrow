@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00087",
-	"slug": "אבטא-2",
-	"headword": {
-		"text": "אַבְטָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְטָא",
+	"headwords": [
+		{
+			"text": "אַבְטָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

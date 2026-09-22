@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00527",
-	"slug": "טלת",
-	"headword": {
-		"text": "טַלֵּת"
-	},
+	"sefariaHeadword": "טַלֵּת",
+	"headwords": [
+		{
+			"text": "טַלֵּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "b"

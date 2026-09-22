@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00684",
-	"slug": "ריפקא",
-	"headword": {
-		"text": "רִיפְקָא"
-	},
+	"sefariaHeadword": "רִיפְקָא",
+	"headwords": [
+		{
+			"text": "רִיפְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

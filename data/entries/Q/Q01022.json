@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01022",
-	"slug": "פלטירה",
-	"headword": {
-		"text": "פלטירה"
-	},
+	"sefariaHeadword": "פלטירה",
+	"headwords": [
+		{
+			"text": "פלטירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1180,
 		"column": "a"

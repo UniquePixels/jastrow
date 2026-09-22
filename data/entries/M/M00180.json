@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00180",
-	"slug": "מגל-2",
-	"headword": {
-		"text": "מַגַּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגַּל",
+	"headwords": [
+		{
+			"text": "מַגַּל"
+		},
 		{
 			"text": "מַגְּלָא"
 		},
 		{
-			"text": "מַגָּ׳"
+			"text": "מַגָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 728,
 		"column": "b"

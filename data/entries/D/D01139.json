@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D01139",
-	"slug": "דשא-2",
-	"headword": {
-		"text": "דַּשָּׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּשָּׁא",
+	"headwords": [
+		{
+			"text": "דַּשָּׁא"
+		},
 		{
 			"text": "דַּשָׁא"
 		},
 		{
-			"text": "דָּ׳"
+			"text": "דָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 326,
 		"column": "a"

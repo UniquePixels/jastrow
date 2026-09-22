@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01447",
-	"slug": "סקבטרין",
-	"headword": {
-		"text": "סקבטרין"
-	},
+	"sefariaHeadword": "סקבטרין",
+	"headwords": [
+		{
+			"text": "סקבטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

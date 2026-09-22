@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00816",
-	"slug": "טריקא",
-	"headword": {
-		"text": "טְרִיקָא"
-	},
+	"sefariaHeadword": "טְרִיקָא",
+	"headwords": [
+		{
+			"text": "טְרִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "a"

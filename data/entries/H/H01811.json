@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01811",
-	"slug": "חשד-1",
-	"headword": {
-		"text": "חָשַׂד"
-	},
+	"sefariaHeadword": "חָשַׂד",
+	"headwords": [
+		{
+			"text": "חָשַׂד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "a"

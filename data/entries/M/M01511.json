@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01511",
-	"slug": "מלויתא-1",
-	"headword": {
-		"text": "מְלוֹיְתָא"
-	},
+	"sefariaHeadword": "מְלוֹיְתָא",
+	"headwords": [
+		{
+			"text": "מְלוֹיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

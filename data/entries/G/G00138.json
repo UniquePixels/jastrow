@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00138",
-	"slug": "זווא-1",
-	"headword": {
-		"text": "זָוָוא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָוָוא I",
+	"headwords": [
+		{
+			"text": "זָוָוא",
+			"homograph": 1
+		},
 		{
 			"text": "זוּזָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 384,
 		"column": "b"

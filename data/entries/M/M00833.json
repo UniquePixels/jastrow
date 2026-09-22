@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00833",
-	"slug": "מחור",
-	"headword": {
-		"text": "מִחְוַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִחְוַר",
+	"headwords": [
 		{
-			"text": "מִיחְ׳"
+			"text": "מִחְוַר"
+		},
+		{
+			"text": "מִיחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 758,
 		"column": "b"

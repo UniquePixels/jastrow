@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00121",
-	"slug": "לגא",
-	"headword": {
-		"text": "לגא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לגא",
+	"headwords": [
+		{
+			"text": "לגא"
+		},
 		{
 			"text": "לגאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "b"

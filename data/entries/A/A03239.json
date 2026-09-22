@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03239",
-	"slug": "ארקילין",
-	"headword": {
-		"text": "ארקילין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*ארקילין",
+	"headwords": [
+		{
+			"text": "ארקילין",
+			"reconstructed": true
+		},
 		{
 			"text": "ארקלין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 125,
 		"column": "b"

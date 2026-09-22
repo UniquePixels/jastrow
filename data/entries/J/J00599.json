@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00599",
-	"slug": "ירדן",
-	"headword": {
-		"text": "יַרְדֵּן"
-	},
+	"sefariaHeadword": "יַרְדֵּן",
+	"headwords": [
+		{
+			"text": "יַרְדֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 594,
 		"column": "a"

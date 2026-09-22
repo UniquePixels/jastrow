@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02207",
-	"slug": "אנטנה",
-	"headword": {
-		"text": "אנטנה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנטנה",
+	"headwords": [
+		{
+			"text": "אנטנה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

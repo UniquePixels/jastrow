@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00021",
-	"slug": "צבאות",
-	"headword": {
-		"text": "צַבְאוּת"
-	},
+	"sefariaHeadword": "צַבְאוּת",
+	"headwords": [
+		{
+			"text": "צַבְאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "b"

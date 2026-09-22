@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00130",
-	"slug": "חבתא-2",
-	"headword": {
-		"text": "חִבְּתָא"
-	},
+	"sefariaHeadword": "חִבְּתָא",
+	"headwords": [
+		{
+			"text": "חִבְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 423,
 		"column": "b"

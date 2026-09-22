@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00610",
-	"slug": "אוזפיה",
-	"headword": {
-		"text": "*(אוזפיה)"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*(אוזפיה)",
+	"headwords": [
+		{
+			"text": "אוזפיה",
+			"reconstructed": true
+		},
 		{
 			"text": "אוֹזְפֵי"
 		}
 	],
+	"display": "*({0}), {1}",
 	"page": {
 		"number": 24,
 		"column": "a"

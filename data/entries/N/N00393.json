@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00393",
-	"slug": "נופך-1",
-	"headword": {
-		"text": "נוֹפֶךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נוֹפֶךְ I",
+	"headwords": [
+		{
+			"text": "נוֹפֶךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 889,
 		"column": "b"

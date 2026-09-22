@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00876",
-	"slug": "סכואה",
-	"headword": {
-		"text": "סַכְוָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַכְוָאָה",
+	"headwords": [
 		{
-			"text": "סַכְוָו׳"
+			"text": "סַכְוָאָה"
+		},
+		{
+			"text": "סַכְוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 989,
 		"column": "a"

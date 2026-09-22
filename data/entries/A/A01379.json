@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01379",
-	"slug": "אינחתא",
-	"headword": {
-		"text": "אִינַחְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִינַחְתָּא",
+	"headwords": [
+		{
+			"text": "אִינַחְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

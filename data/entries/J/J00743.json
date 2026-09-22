@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00743",
-	"slug": "יתם-1",
-	"headword": {
-		"text": "יָתַם"
-	},
+	"sefariaHeadword": "יָתַם",
+	"headwords": [
+		{
+			"text": "יָתַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

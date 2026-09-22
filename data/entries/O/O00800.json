@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00800",
-	"slug": "סיפסוף",
-	"headword": {
-		"text": "סִיפְסוּף"
-	},
+	"sefariaHeadword": "סִיפְסוּף",
+	"headwords": [
+		{
+			"text": "סִיפְסוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

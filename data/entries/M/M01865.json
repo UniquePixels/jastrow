@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01865",
-	"slug": "מסוטף",
-	"headword": {
-		"text": "מְסוּטָּף"
-	},
+	"sefariaHeadword": "מְסוּטָּף",
+	"headwords": [
+		{
+			"text": "מְסוּטָּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

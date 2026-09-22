@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01275",
-	"slug": "אילו-2",
-	"headword": {
-		"text": "אילו"
-	},
+	"sefariaHeadword": "אילו",
+	"headwords": [
+		{
+			"text": "אילו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "b"

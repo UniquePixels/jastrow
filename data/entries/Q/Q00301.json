@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00301",
-	"slug": "פועל-1",
-	"headword": {
-		"text": "פּוֹעַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פּוֹעַל I",
+	"headwords": [
+		{
+			"text": "פּוֹעַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1144,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "L00239",
-	"slug": "לוט-4",
-	"headword": {
-		"text": "לוּט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּט ²",
+	"headwords": [
+		{
+			"text": "לוּט",
+			"disambiguator": 2
+		},
 		{
 			"text": "לְוַט"
 		},
@@ -13,6 +14,7 @@
 			"text": "לְוַוט"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 696,
 		"column": "b"

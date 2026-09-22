@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00947",
-	"slug": "בניה",
-	"headword": {
-		"text": "בַּנָּיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּנָּיָה",
+	"headwords": [
+		{
+			"text": "בַּנָּיָה"
+		},
 		{
 			"text": "בַּנָּיָיה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 177,
 		"column": "a"

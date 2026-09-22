@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00653",
-	"slug": "ירק-1",
-	"headword": {
-		"text": "יָרַק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יָרַק I",
+	"headwords": [
+		{
+			"text": "יָרַק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 597,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00483",
-	"slug": "רחום",
-	"headword": {
-		"text": "רַחוּם"
-	},
+	"sefariaHeadword": "רַחוּם",
+	"headwords": [
+		{
+			"text": "רַחוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

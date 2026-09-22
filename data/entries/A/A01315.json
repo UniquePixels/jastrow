@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01315",
-	"slug": "אילת-2",
-	"headword": {
-		"text": "אַיֶּלֶת",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיֶּלֶת II",
+	"headwords": [
+		{
+			"text": "אַיֶּלֶת",
+			"homograph": 2
+		},
 		{
 			"text": "אַיֶּילֶת"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 50,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

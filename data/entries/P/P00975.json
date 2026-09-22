@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00975",
-	"slug": "עני-6",
-	"headword": {
-		"text": "עַנִּי"
-	},
+	"sefariaHeadword": "עַנִּי",
+	"headwords": [
+		{
+			"text": "עַנִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1094,
 		"column": "a"

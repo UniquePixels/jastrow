@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02348",
-	"slug": "מצפיא",
-	"headword": {
-		"text": "מִצְפַּיָּא"
-	},
+	"sefariaHeadword": "מִצְפַּיָּא",
+	"headwords": [
+		{
+			"text": "מִצְפַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

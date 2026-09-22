@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00832",
-	"slug": "נכיתה",
-	"headword": {
-		"text": "נְכִיתָה"
-	},
+	"sefariaHeadword": "נְכִיתָה",
+	"headwords": [
+		{
+			"text": "נְכִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "a"

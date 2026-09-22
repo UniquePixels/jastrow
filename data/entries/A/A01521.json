@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01521",
-	"slug": "איסתירא",
-	"headword": {
-		"text": "אִיסְתִּירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְתִּירָא",
+	"headwords": [
 		{
-			"text": "אִסְ׳"
+			"text": "אִיסְתִּירָא"
+		},
+		{
+			"text": "אִסְ׳",
+			"partial": true
 		},
 		{
 			"text": "אִיסְטְרָא"
@@ -15,6 +17,7 @@
 			"text": "אִיצְטְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 57,
 		"column": "b"

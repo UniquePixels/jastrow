@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00272",
-	"slug": "יחול",
-	"headword": {
-		"text": "יִחוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִחוּל",
+	"headwords": [
 		{
-			"text": "יִי׳"
+			"text": "יִחוּל"
+		},
+		{
+			"text": "יִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 573,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00459",
-	"slug": "חורג",
-	"headword": {
-		"text": "חוֹרֵג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹרֵג",
+	"headwords": [
+		{
+			"text": "חוֹרֵג"
+		},
 		{
 			"text": "חֹרֵג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 439,
 		"column": "b"

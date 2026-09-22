@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01986",
-	"slug": "פרקדון",
-	"headword": {
-		"text": "פרקדון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרקדון",
+	"headwords": [
+		{
+			"text": "פרקדון"
+		},
 		{
 			"text": "פרקדין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "b"

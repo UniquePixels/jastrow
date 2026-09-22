@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02864",
-	"slug": "אצט",
-	"headword": {
-		"text": "אִצְט־"
-	},
+	"sefariaHeadword": "אִצְט־",
+	"headwords": [
+		{
+			"text": "אִצְט־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

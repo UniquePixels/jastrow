@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00753",
-	"slug": "חיכוך",
-	"headword": {
-		"text": "חִיכּוּךְ"
-	},
+	"sefariaHeadword": "חִיכּוּךְ",
+	"headwords": [
+		{
+			"text": "חִיכּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "b"

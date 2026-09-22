@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01074",
-	"slug": "אטונא",
-	"headword": {
-		"text": "אֵטוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵטוּנָא",
+	"headwords": [
+		{
+			"text": "אֵטוּנָא"
+		},
 		{
 			"text": "אַטּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "a"

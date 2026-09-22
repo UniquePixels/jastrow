@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00786",
-	"slug": "הצעה",
-	"headword": {
-		"text": "הַצָּעָה"
-	},
+	"sefariaHeadword": "הַצָּעָה",
+	"headwords": [
+		{
+			"text": "הַצָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "a"

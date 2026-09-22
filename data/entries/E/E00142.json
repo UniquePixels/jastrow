@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00142",
-	"slug": "הדף-1",
-	"headword": {
-		"text": "הָדַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָדַף",
+	"headwords": [
+		{
+			"text": "הָדַף"
+		},
 		{
 			"text": "חָדַף"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 334,
 		"column": "a"

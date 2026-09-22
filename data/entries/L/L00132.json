@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00132",
-	"slug": "לגין-1",
-	"headword": {
-		"text": "לגין"
-	},
+	"sefariaHeadword": "לגין",
+	"headwords": [
+		{
+			"text": "לגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 692,
 		"column": "b"

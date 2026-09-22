@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00687",
-	"slug": "כלבתא",
-	"headword": {
-		"text": "כַּלְבְּתָא"
-	},
+	"sefariaHeadword": "כַּלְבְּתָא",
+	"headwords": [
+		{
+			"text": "כַּלְבְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

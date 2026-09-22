@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00125",
-	"slug": "מגדנין",
-	"headword": {
-		"text": "מִגְדָּנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִגְדָּנִין",
+	"headwords": [
 		{
-			"text": "מַגְ׳"
+			"text": "מִגְדָּנִין"
+		},
+		{
+			"text": "מַגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 726,
 		"column": "b"

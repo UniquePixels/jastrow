@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00674",
-	"slug": "צפוחא",
-	"headword": {
-		"text": "צִפּוּחָא"
-	},
+	"sefariaHeadword": "צִפּוּחָא",
+	"headwords": [
+		{
+			"text": "צִפּוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "b"

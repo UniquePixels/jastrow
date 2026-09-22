@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00568",
-	"slug": "תלאה",
-	"headword": {
-		"text": "תְּלָאָה"
-	},
+	"sefariaHeadword": "תְּלָאָה",
+	"headwords": [
+		{
+			"text": "תְּלָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02425",
-	"slug": "אסטרקלילא",
-	"headword": {
-		"text": "אִסְטַרְקְלִילָא"
-	},
+	"sefariaHeadword": "אִסְטַרְקְלִילָא",
+	"headwords": [
+		{
+			"text": "אִסְטַרְקְלִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 92,
 		"column": "b"

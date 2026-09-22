@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00026",
-	"slug": "צבועים",
-	"headword": {
-		"text": "צְבוֹעִים"
-	},
+	"sefariaHeadword": "צְבוֹעִים",
+	"headwords": [
+		{
+			"text": "צְבוֹעִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "b"

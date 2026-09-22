@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01534",
-	"slug": "מלט-2",
-	"headword": {
-		"text": "מְלַט"
-	},
+	"sefariaHeadword": "מְלַט",
+	"headwords": [
+		{
+			"text": "מְלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "a"

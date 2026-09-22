@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00996",
-	"slug": "פלחן",
-	"headword": {
-		"text": "פָּלְחָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּלְחָן",
+	"headwords": [
+		{
+			"text": "פָּלְחָן"
+		},
 		{
 			"text": "פָּלְחָנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פָּלְחָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1178,
 		"column": "b"

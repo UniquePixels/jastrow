@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00324",
-	"slug": "בוקינוס",
-	"headword": {
-		"text": "בוקינוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בוקינוס",
+	"headwords": [
+		{
+			"text": "בוקינוס"
+		},
 		{
 			"text": "בּוּקִינוֹת"
 		},

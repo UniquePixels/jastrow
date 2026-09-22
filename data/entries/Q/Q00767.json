@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00767",
-	"slug": "פיסקון",
-	"headword": {
-		"text": "פִּיסְקוֹן"
-	},
+	"sefariaHeadword": "פִּיסְקוֹן",
+	"headwords": [
+		{
+			"text": "פִּיסְקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

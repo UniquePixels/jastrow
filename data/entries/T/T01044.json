@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01044",
-	"slug": "רקמא",
-	"headword": {
-		"text": "רִקְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִקְמָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִקְמָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1497,
 		"column": "b"

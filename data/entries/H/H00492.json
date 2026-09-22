@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00492",
-	"slug": "חושלא",
-	"headword": {
-		"text": "חוּשְׁלָא"
-	},
+	"sefariaHeadword": "חוּשְׁלָא",
+	"headwords": [
+		{
+			"text": "חוּשְׁלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

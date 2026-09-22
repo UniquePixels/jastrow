@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00437",
-	"slug": "גונדריתא",
-	"headword": {
-		"text": "גּוּנְדְּרִיתָא"
-	},
+	"sefariaHeadword": "גּוּנְדְּרִיתָא",
+	"headwords": [
+		{
+			"text": "גּוּנְדְּרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

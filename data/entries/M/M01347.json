@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01347",
-	"slug": "מכבנתא",
-	"headword": {
-		"text": "מַכְבַּנְתָּא"
-	},
+	"sefariaHeadword": "מַכְבַּנְתָּא",
+	"headwords": [
+		{
+			"text": "מַכְבַּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00753",
-	"slug": "סיסיא",
-	"headword": {
-		"text": "סִיסְיָא"
-	},
+	"sefariaHeadword": "סִיסְיָא",
+	"headwords": [
+		{
+			"text": "סִיסְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

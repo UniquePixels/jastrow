@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00163",
-	"slug": "רגוזתא",
-	"headword": {
-		"text": "רְגוּזְתָּא"
-	},
+	"sefariaHeadword": "רְגוּזְתָּא",
+	"headwords": [
+		{
+			"text": "רְגוּזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

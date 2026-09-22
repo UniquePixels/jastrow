@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01515",
-	"slug": "איסרקא",
-	"headword": {
-		"text": "איסרקא"
-	},
+	"sefariaHeadword": "איסרקא",
+	"headwords": [
+		{
+			"text": "איסרקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "b"

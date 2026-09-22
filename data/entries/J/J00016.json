@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00016",
-	"slug": "יאיר",
-	"headword": {
-		"text": "יָאִיר"
-	},
+	"sefariaHeadword": "יָאִיר",
+	"headwords": [
+		{
+			"text": "יָאִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "b"

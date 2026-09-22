@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00771",
-	"slug": "צרייאתא",
-	"headword": {
-		"text": "צִרְיָיאתָא"
-	},
+	"sefariaHeadword": "צִרְיָיאתָא",
+	"headwords": [
+		{
+			"text": "צִרְיָיאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

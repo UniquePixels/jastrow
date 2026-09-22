@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "E00646",
-	"slug": "המתא",
-	"headword": {
-		"text": "הַמְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַמְתָא",
+	"headwords": [
+		{
+			"text": "הַמְתָא"
+		},
 		{
 			"text": "הֶמְתָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 356,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

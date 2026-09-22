@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01174",
-	"slug": "קירטום",
-	"headword": {
-		"text": "קִירְטוּם"
-	},
+	"sefariaHeadword": "קִירְטוּם",
+	"headwords": [
+		{
+			"text": "קִירְטוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

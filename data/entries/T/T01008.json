@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01008",
-	"slug": "רקב-1",
-	"headword": {
-		"text": "רָקֵב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָקֵב I",
+	"headwords": [
+		{
+			"text": "רָקֵב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1495,
 		"column": "b"

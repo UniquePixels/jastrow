@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00167",
-	"slug": "טולמא-1",
-	"headword": {
-		"text": "טוּלְמָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּלְמָא I",
+	"headwords": [
+		{
+			"text": "טוּלְמָא",
+			"homograph": 1
+		},
 		{
 			"text": "טוּלְמְתָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 524,
 		"column": "a"

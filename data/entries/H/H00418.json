@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00418",
-	"slug": "חוף-1",
-	"headword": {
-		"text": "חוּף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חוּף I",
+	"headwords": [
+		{
+			"text": "חוּף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 437,
 		"column": "a"

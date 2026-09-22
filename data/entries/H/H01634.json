@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01634",
-	"slug": "חרוץ",
-	"headword": {
-		"text": "חָרוּץ"
-	},
+	"sefariaHeadword": "חָרוּץ",
+	"headwords": [
+		{
+			"text": "חָרוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "a"

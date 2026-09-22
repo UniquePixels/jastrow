@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00793",
-	"slug": "עליבא",
-	"headword": {
-		"text": "עֲלִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלִיבָא",
+	"headwords": [
 		{
-			"text": "עֲלוּ׳"
+			"text": "עֲלִיבָא"
+		},
+		{
+			"text": "עֲלוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1082,
 		"column": "a"

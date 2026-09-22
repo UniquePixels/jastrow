@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00156",
-	"slug": "להבותא",
-	"headword": {
-		"text": "לַהֲבוּתָא"
-	},
+	"sefariaHeadword": "לַהֲבוּתָא",
+	"headwords": [
+		{
+			"text": "לַהֲבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

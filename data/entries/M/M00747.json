@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00747",
-	"slug": "מזיא",
-	"headword": {
-		"text": "מַזְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַזְיָא",
+	"headwords": [
+		{
+			"text": "מַזְיָא"
+		},
 		{
 			"text": "מַזְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִיזְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 754,
 		"column": "b"

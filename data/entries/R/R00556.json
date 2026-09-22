@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00556",
-	"slug": "צמאה",
-	"headword": {
-		"text": "צִמְאָה"
-	},
+	"sefariaHeadword": "צִמְאָה",
+	"headwords": [
+		{
+			"text": "צִמְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "b"

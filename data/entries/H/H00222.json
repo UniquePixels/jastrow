@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00222",
-	"slug": "חדת-1",
-	"headword": {
-		"text": "חֲדַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲדַת",
+	"headwords": [
+		{
+			"text": "חֲדַת"
+		},
 		{
 			"text": "חַדְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲדַתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 428,
 		"column": "a"

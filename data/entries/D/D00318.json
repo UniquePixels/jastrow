@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00318",
-	"slug": "דופקנין",
-	"headword": {
-		"text": "דּוֹפְקָנִין"
-	},
+	"sefariaHeadword": "דּוֹפְקָנִין",
+	"headwords": [
+		{
+			"text": "דּוֹפְקָנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "b"

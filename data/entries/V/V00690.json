@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00690",
-	"slug": "תמליון",
-	"headword": {
-		"text": "תְּמַלְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּמַלְיוֹן",
+	"headwords": [
 		{
-			"text": "בֶּן תְּמַלְיוֹן"
+			"text": "תְּמַלְיוֹן"
+		},
+		{
+			"text": "בֶּן תְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1677,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00979",
-	"slug": "נעילה",
-	"headword": {
-		"text": "נְעִילָה"
-	},
+	"sefariaHeadword": "נְעִילָה",
+	"headwords": [
+		{
+			"text": "נְעִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "b"

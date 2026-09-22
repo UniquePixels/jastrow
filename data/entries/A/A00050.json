@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00050",
-	"slug": "אבהו",
-	"headword": {
-		"text": "אַבָּהוּ"
-	},
+	"sefariaHeadword": "אַבָּהוּ",
+	"headwords": [
+		{
+			"text": "אַבָּהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "b"

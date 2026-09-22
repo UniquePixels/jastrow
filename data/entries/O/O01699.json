@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01699",
-	"slug": "סתימתא",
-	"headword": {
-		"text": "סְתִימְתָּא"
-	},
+	"sefariaHeadword": "סְתִימְתָּא",
+	"headwords": [
+		{
+			"text": "סְתִימְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

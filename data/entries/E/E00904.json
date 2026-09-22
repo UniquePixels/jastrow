@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00904",
-	"slug": "הרר",
-	"headword": {
-		"text": "הֶרֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶרֶר",
+	"headwords": [
+		{
+			"text": "הֶרֶר"
+		},
 		{
 			"text": "הֲרָרִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 369,
 		"column": "a"

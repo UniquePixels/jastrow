@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00763",
-	"slug": "ניקוד",
-	"headword": {
-		"text": "נִיקּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקּוּד",
+	"headwords": [
 		{
-			"text": "נִקּ׳"
+			"text": "נִיקּוּד"
+		},
+		{
+			"text": "נִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "a"

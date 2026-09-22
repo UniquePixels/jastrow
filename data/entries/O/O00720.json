@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00720",
-	"slug": "סימפוניא",
-	"headword": {
-		"text": "סִימְפּוֹנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְפּוֹנְיָא",
+	"headwords": [
+		{
+			"text": "סִימְפּוֹנְיָא"
+		},
 		{
 			"text": "סִימְפּוֹנְיָה"
 		},
@@ -12,9 +13,11 @@
 			"text": "סִימְפּוֹנְיָיא"
 		},
 		{
-			"text": "סִמְ׳"
+			"text": "סִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 982,
 		"column": "b"

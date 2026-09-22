@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00740",
-	"slug": "תנחומתא",
-	"headword": {
-		"text": "תַּנְחוּמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּנְחוּמְתָּא",
+	"headwords": [
 		{
-			"text": "תַּנְחֻמְ׳"
+			"text": "תַּנְחוּמְתָּא"
+		},
+		{
+			"text": "תַּנְחֻמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1681,
 		"column": "b"

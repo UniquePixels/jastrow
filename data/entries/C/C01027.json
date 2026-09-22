@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01027",
-	"slug": "גמילה-1",
-	"headword": {
-		"text": "גמילה"
-	},
+	"sefariaHeadword": "גמילה",
+	"headwords": [
+		{
+			"text": "גמילה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

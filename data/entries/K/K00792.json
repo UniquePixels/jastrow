@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00792",
-	"slug": "כמו",
-	"headword": {
-		"text": "כְּמוֹ"
-	},
+	"sefariaHeadword": "כְּמוֹ",
+	"headwords": [
+		{
+			"text": "כְּמוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "a"

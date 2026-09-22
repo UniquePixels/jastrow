@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00059",
-	"slug": "נבות",
-	"headword": {
-		"text": "נָבוֹת"
-	},
+	"sefariaHeadword": "נָבוֹת",
+	"headwords": [
+		{
+			"text": "נָבוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "a"

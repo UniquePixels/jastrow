@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00161",
-	"slug": "כהיל",
-	"headword": {
-		"text": "כָּהֵיל"
-	},
+	"sefariaHeadword": "כָּהֵיל",
+	"headwords": [
+		{
+			"text": "כָּהֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "a"

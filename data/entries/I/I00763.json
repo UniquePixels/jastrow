@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00763",
-	"slug": "טרטקל",
-	"headword": {
-		"text": "טַרְטְקָל"
-	},
+	"sefariaHeadword": "טַרְטְקָל",
+	"headwords": [
+		{
+			"text": "טַרְטְקָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 552,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00465",
-	"slug": "זכירי",
-	"headword": {
-		"text": "זכירי"
-	},
+	"sefariaHeadword": "זכירי",
+	"headwords": [
+		{
+			"text": "זכירי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 399,
 		"column": "b"

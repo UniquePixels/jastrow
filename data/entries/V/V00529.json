@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00529",
-	"slug": "תכטקא",
-	"headword": {
-		"text": "תכטקא"
-	},
+	"sefariaHeadword": "תכטקא",
+	"headwords": [
+		{
+			"text": "תכטקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

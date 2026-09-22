@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B00293",
-	"slug": "בוסמניא",
-	"headword": {
-		"text": "בּוּסְמָנַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּסְמָנַיָּא",
+	"headwords": [
+		{
+			"text": "בּוּסְמָנַיָּא"
+		},
 		{
 			"text": "בּוּסְמָנִין"
 		},
 		{
-			"text": "בּוּשְׂ׳"
+			"text": "בּוּשְׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 147,
 		"column": "a"

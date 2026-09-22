@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00376",
-	"slug": "אדדא",
-	"headword": {
-		"text": "אַדְדָא"
-	},
+	"sefariaHeadword": "אַדְדָא",
+	"headwords": [
+		{
+			"text": "אַדְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

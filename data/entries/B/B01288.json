@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01288",
-	"slug": "ברך-2",
-	"headword": {
-		"text": "בְּרַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרַךְ",
+	"headwords": [
+		{
+			"text": "בְּרַךְ"
+		},
 		{
 			"text": "בְּרֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 195,
 		"column": "a"

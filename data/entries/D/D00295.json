@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00295",
-	"slug": "דונאטיבא",
-	"headword": {
-		"text": "דּוֹנָאטִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹנָאטִיבָא",
+	"headwords": [
+		{
+			"text": "דּוֹנָאטִיבָא"
+		},
 		{
 			"text": "דּוֹנָטִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 286,
 		"column": "b"

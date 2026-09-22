@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00270",
-	"slug": "סווחי",
-	"headword": {
-		"text": "סווחי"
-	},
+	"sefariaHeadword": "סווחי",
+	"headwords": [
+		{
+			"text": "סווחי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

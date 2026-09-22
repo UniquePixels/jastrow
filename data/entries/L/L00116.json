@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00116",
-	"slug": "לבריון",
-	"headword": {
-		"text": "לבריון"
-	},
+	"sefariaHeadword": "לבריון",
+	"headwords": [
+		{
+			"text": "לבריון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

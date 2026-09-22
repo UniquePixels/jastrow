@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "C00674",
-	"slug": "גיותנא",
-	"headword": {
-		"text": "גֵּיוְתָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיוְתָנָא",
+	"headwords": [
 		{
-			"text": "גֵּאוְ׳"
+			"text": "גֵּיוְתָנָא"
 		},
 		{
-			"text": "גֵּוְ׳"
+			"text": "גֵּאוְ׳",
+			"partial": true
 		},
 		{
-			"text": "גֵּיפְ׳"
+			"text": "גֵּוְ׳",
+			"partial": true
+		},
+		{
+			"text": "גֵּיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 236,
 		"column": "b"

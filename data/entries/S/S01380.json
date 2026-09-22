@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01380",
-	"slug": "קלס-4",
-	"headword": {
-		"text": "קֹלָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֹלָס",
+	"headwords": [
+		{
+			"text": "קֹלָס"
+		},
 		{
 			"text": "קַלְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1379,
 		"column": "b"

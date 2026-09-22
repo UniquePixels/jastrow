@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00329",
-	"slug": "כוסמת",
-	"headword": {
-		"text": "כּוּסֶּמֶת"
-	},
+	"sefariaHeadword": "כּוּסֶּמֶת",
+	"headwords": [
+		{
+			"text": "כּוּסֶּמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00590",
-	"slug": "תליל",
-	"headword": {
-		"text": "תָּלִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּלִיל",
+	"headwords": [
+		{
+			"text": "תָּלִיל"
+		},
 		{
 			"text": "תְּלִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1672,
 		"column": "a"

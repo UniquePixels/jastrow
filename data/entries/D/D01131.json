@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01131",
-	"slug": "דרשא-1",
-	"headword": {
-		"text": "דָּרְשָׁא"
-	},
+	"sefariaHeadword": "דָּרְשָׁא",
+	"headwords": [
+		{
+			"text": "דָּרְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00149",
-	"slug": "חגידה",
-	"headword": {
-		"text": "חגידה"
-	},
+	"sefariaHeadword": "חגידה",
+	"headwords": [
+		{
+			"text": "חגידה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "b"

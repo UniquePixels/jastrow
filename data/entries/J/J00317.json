@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00317",
-	"slug": "יטסם",
-	"headword": {
-		"text": "יטסם"
-	},
+	"sefariaHeadword": "יטסם",
+	"headwords": [
+		{
+			"text": "יטסם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

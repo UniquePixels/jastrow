@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00117",
-	"slug": "צדעה",
-	"headword": {
-		"text": "צִדְעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִדְעָה",
+	"headwords": [
+		{
+			"text": "צִדְעָה"
+		},
 		{
 			"text": "צִדְעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1263,
 		"column": "a"

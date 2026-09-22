@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00078",
-	"slug": "כבריתא-1",
-	"headword": {
-		"text": "כַּבָּרִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּבָּרִיתָא",
+	"headwords": [
+		{
+			"text": "כַּבָּרִיתָא"
+		},
 		{
 			"text": "כָּבְרִיתָא"
 		},
 		{
-			"text": "כּוּבְ׳"
+			"text": "כּוּבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 609,
 		"column": "b"

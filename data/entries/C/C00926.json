@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00926",
-	"slug": "גלי-1",
-	"headword": {
-		"text": "גלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גלי",
+	"headwords": [
+		{
+			"text": "גלי"
+		},
 		{
 			"text": "גָּלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 247,
 		"column": "b"

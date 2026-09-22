@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00892",
-	"slug": "מחלף",
-	"headword": {
-		"text": "מַחֲלָף"
-	},
+	"sefariaHeadword": "מַחֲלָף",
+	"headwords": [
+		{
+			"text": "מַחֲלָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "a"

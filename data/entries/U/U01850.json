@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01850",
-	"slug": "שקי-2",
-	"headword": {
-		"text": "שקי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שקי ²",
+	"headwords": [
+		{
+			"text": "שקי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1622,
 		"column": "a"

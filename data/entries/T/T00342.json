@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00342",
-	"slug": "רוזן",
-	"headword": {
-		"text": "רוֹזֶן"
-	},
+	"sefariaHeadword": "רוֹזֶן",
+	"headwords": [
+		{
+			"text": "רוֹזֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "a"

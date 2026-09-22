@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00715",
-	"slug": "פילרוס",
-	"headword": {
-		"text": "פילרוס"
-	},
+	"sefariaHeadword": "פילרוס",
+	"headwords": [
+		{
+			"text": "פילרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "a"

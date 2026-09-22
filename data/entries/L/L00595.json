@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00595",
-	"slug": "לעג-1",
-	"headword": {
-		"text": "לָעַג"
-	},
+	"sefariaHeadword": "לָעַג",
+	"headwords": [
+		{
+			"text": "לָעַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00576",
-	"slug": "חט-2",
-	"headword": {
-		"text": "חֹט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֹט",
+	"headwords": [
+		{
+			"text": "חֹט"
+		},
 		{
 			"text": "חֻטִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 447,
 		"column": "a"

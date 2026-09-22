@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01235",
-	"slug": "שלוה-1",
-	"headword": {
-		"text": "שַׁלְוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְוָה",
+	"headwords": [
+		{
+			"text": "שַׁלְוָה"
+		},
 		{
 			"text": "שַׁלְוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1578,
 		"column": "b"

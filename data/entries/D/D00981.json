@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00981",
-	"slug": "דציא",
-	"headword": {
-		"text": "דָּצְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּצְיָא",
+	"headwords": [
+		{
+			"text": "דָּצְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

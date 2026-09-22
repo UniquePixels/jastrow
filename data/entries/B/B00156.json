@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00156",
-	"slug": "בדק-3",
-	"headword": {
-		"text": "בֶּדֶק"
-	},
+	"sefariaHeadword": "בֶּדֶק",
+	"headwords": [
+		{
+			"text": "בֶּדֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "b"

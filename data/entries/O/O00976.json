@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00976",
-	"slug": "סלטא",
-	"headword": {
-		"text": "סַלְטָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַלְטָא",
+	"headwords": [
+		{
+			"text": "סַלְטָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

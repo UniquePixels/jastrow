@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00382",
-	"slug": "צימצמאי",
-	"headword": {
-		"text": "צִימְצְמָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימְצְמָאֵי",
+	"headwords": [
 		{
-			"text": "צוּמְצְ׳"
+			"text": "צִימְצְמָאֵי"
+		},
+		{
+			"text": "צוּמְצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "b"

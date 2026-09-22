@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00624",
-	"slug": "נידוי",
-	"headword": {
-		"text": "נִידּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִידּוּי",
+	"headwords": [
 		{
-			"text": "נִדּ׳"
+			"text": "נִידּוּי"
+		},
+		{
+			"text": "נִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00588",
-	"slug": "צמק-1",
-	"headword": {
-		"text": "צָמַק"
-	},
+	"sefariaHeadword": "צָמַק",
+	"headwords": [
+		{
+			"text": "צָמַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1289,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00619",
-	"slug": "המירס",
-	"headword": {
-		"text": "המירס"
-	},
+	"sefariaHeadword": "המירס",
+	"headwords": [
+		{
+			"text": "המירס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

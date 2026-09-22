@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00281",
-	"slug": "קוזמיקון",
-	"headword": {
-		"text": "קוֹזְמִיקוֹן"
-	},
+	"sefariaHeadword": "קוֹזְמִיקוֹן",
+	"headwords": [
+		{
+			"text": "קוֹזְמִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

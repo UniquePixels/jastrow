@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01477",
-	"slug": "פקח-4",
-	"headword": {
-		"text": "פִּקֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקֵּחַ",
+	"headwords": [
 		{
-			"text": "פִּיקֵּ׳"
+			"text": "פִּקֵּחַ"
+		},
+		{
+			"text": "פִּיקֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1208,
 		"column": "b"

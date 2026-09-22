@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02113",
-	"slug": "אנדיסקי",
-	"headword": {
-		"text": "אַנְדִּיסְקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַנְדִּיסְקֵי",
+	"headwords": [
+		{
+			"text": "אַנְדִּיסְקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

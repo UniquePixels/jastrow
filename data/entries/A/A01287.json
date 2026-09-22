@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01287",
-	"slug": "אילטיס",
-	"headword": {
-		"text": "אילטיס"
-	},
+	"sefariaHeadword": "אילטיס",
+	"headwords": [
+		{
+			"text": "אילטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "a"

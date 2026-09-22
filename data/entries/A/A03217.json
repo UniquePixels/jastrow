@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A03217",
-	"slug": "ארע-3",
-	"headword": {
-		"text": "אָרַע",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אָרַע II",
+	"headwords": [
+		{
+			"text": "אָרַע",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 124,
 		"column": "b"

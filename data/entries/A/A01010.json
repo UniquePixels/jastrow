@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01010",
-	"slug": "אחויה",
-	"headword": {
-		"text": "אַחֲוָיָה"
-	},
+	"sefariaHeadword": "אַחֲוָיָה",
+	"headwords": [
+		{
+			"text": "אַחֲוָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

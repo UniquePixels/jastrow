@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00924",
-	"slug": "דנדנא",
-	"headword": {
-		"text": "דַּנְדָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּנְדָּנָא",
+	"headwords": [
+		{
+			"text": "דַּנְדָּנָא"
+		},
 		{
 			"text": "דַּנְדָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 315,
 		"column": "a"

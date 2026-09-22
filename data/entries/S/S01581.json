@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01581",
-	"slug": "קניט",
-	"headword": {
-		"text": "קָנִיט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָנִיט",
+	"headwords": [
+		{
+			"text": "קָנִיט"
+		},
 		{
 			"text": "קְנִיטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00995",
-	"slug": "נעמיתא",
-	"headword": {
-		"text": "נַעֲמיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַעֲמיתָא",
+	"headwords": [
 		{
-			"text": "נָעָ׳"
+			"text": "נַעֲמיתָא"
+		},
+		{
+			"text": "נָעָ׳",
+			"partial": true
 		},
 		{
 			"text": "נְעָמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 920,
 		"column": "b"

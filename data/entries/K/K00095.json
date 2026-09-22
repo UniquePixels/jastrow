@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00095",
-	"slug": "כבתותא",
-	"headword": {
-		"text": "כבתותא"
-	},
+	"sefariaHeadword": "כבתותא",
+	"headwords": [
+		{
+			"text": "כבתותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

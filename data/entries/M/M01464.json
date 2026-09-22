@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01464",
-	"slug": "מלא-5",
-	"headword": {
-		"text": "מְלֹא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְלֹא",
+	"headwords": [
+		{
+			"text": "מְלֹא"
+		},
 		{
 			"text": "מְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 785,
 		"column": "b"

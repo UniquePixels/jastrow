@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00673",
-	"slug": "תמידא",
-	"headword": {
-		"text": "תְּמִידָא"
-	},
+	"sefariaHeadword": "תְּמִידָא",
+	"headwords": [
+		{
+			"text": "תְּמִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "a"

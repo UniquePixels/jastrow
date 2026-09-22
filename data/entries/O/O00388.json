@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00388",
-	"slug": "סוף-5",
-	"headword": {
-		"text": "סוֹף"
-	},
+	"sefariaHeadword": "סוֹף",
+	"headwords": [
+		{
+			"text": "סוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "a"

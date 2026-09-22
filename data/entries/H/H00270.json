@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00270",
-	"slug": "חווילא",
-	"headword": {
-		"text": "חֲוִוילָא"
-	},
+	"sefariaHeadword": "חֲוִוילָא",
+	"headwords": [
+		{
+			"text": "חֲוִוילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

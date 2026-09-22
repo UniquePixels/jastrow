@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00753",
-	"slug": "דיתן",
-	"headword": {
-		"text": "דִּיתָן"
-	},
+	"sefariaHeadword": "דִּיתָן",
+	"headwords": [
+		{
+			"text": "דִּיתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "a"

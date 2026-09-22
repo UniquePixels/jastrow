@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00898",
-	"slug": "תקלתא-2",
-	"headword": {
-		"text": "תְּקַלְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּקַלְתָּא II",
+	"headwords": [
+		{
+			"text": "תְּקַלְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1691,
 		"column": "b"

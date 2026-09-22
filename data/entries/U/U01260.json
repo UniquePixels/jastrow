@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01260",
-	"slug": "שלוק-1",
-	"headword": {
-		"text": "שָׁלוּק"
-	},
+	"sefariaHeadword": "שָׁלוּק",
+	"headwords": [
+		{
+			"text": "שָׁלוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "b"

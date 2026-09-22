@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01388",
-	"slug": "מככא",
-	"headword": {
-		"text": "מַכָּכָא"
-	},
+	"sefariaHeadword": "מַכָּכָא",
+	"headwords": [
+		{
+			"text": "מַכָּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "a"

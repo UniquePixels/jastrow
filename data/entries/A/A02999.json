@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02999",
-	"slug": "ארד",
-	"headword": {
-		"text": "ארד"
-	},
+	"sefariaHeadword": "ארד",
+	"headwords": [
+		{
+			"text": "ארד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "b"

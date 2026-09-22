@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00213",
-	"slug": "שגדא",
-	"headword": {
-		"text": "שִׁגְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁי׳ שִׁגְדָּא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁגְדָּא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1521,
 		"column": "a"

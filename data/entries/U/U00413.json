@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00413",
-	"slug": "שוכלא",
-	"headword": {
-		"text": "שׂוּכְלָא"
-	},
+	"sefariaHeadword": "שׂוּכְלָא",
+	"headwords": [
+		{
+			"text": "שׂוּכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "a"

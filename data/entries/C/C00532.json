@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00532",
-	"slug": "גזורא",
-	"headword": {
-		"text": "גָּזוֹרָא"
-	},
+	"sefariaHeadword": "גָּזוֹרָא",
+	"headwords": [
+		{
+			"text": "גָּזוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 229,
 		"column": "a"

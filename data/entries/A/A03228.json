@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03228",
-	"slug": "ארפכס",
-	"headword": {
-		"text": "אַרְפְּכָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְפְּכָס",
+	"headwords": [
+		{
+			"text": "אַרְפְּכָס"
+		},
 		{
 			"text": "אֲפַרְכָּס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 125,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01507",
-	"slug": "פקעת",
-	"headword": {
-		"text": "פְּקַעַת"
-	},
+	"sefariaHeadword": "פְּקַעַת",
+	"headwords": [
+		{
+			"text": "פְּקַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1211,
 		"column": "a"

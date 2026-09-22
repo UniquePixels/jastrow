@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M03097",
-	"slug": "מתנתא",
-	"headword": {
-		"text": "מַתַּנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתַּנְתָּא",
+	"headwords": [
+		{
+			"text": "מַתַּנְתָּא"
+		},
 		{
 			"text": "מַתְּנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַתָּנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 864,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00566",
-	"slug": "דייציפי",
-	"headword": {
-		"text": "דַּיְיצִיפֵי"
-	},
+	"sefariaHeadword": "דַּיְיצִיפֵי",
+	"headwords": [
+		{
+			"text": "דַּיְיצִיפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

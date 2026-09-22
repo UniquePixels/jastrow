@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00282",
-	"slug": "אגורי-2",
-	"headword": {
-		"text": "אֵגוֹרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵגוֹרִי",
+	"headwords": [
+		{
+			"text": "אֵגוֹרִי"
+		},
 		{
 			"text": "אֵיגוֹרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01365",
-	"slug": "כתית",
-	"headword": {
-		"text": "כָּתִית"
-	},
+	"sefariaHeadword": "כָּתִית",
+	"headwords": [
+		{
+			"text": "כָּתִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "a"

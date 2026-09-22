@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00836",
-	"slug": "בלוספין",
-	"headword": {
-		"text": "בלוספין"
-	},
+	"sefariaHeadword": "בלוספין",
+	"headwords": [
+		{
+			"text": "בלוספין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

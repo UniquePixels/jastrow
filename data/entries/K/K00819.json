@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00819",
-	"slug": "כמר-3",
-	"headword": {
-		"text": "כֹּמֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֹּמֶר",
+	"headwords": [
+		{
+			"text": "כֹּמֶר"
+		},
 		{
 			"text": "כְּמָרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 647,
 		"column": "b"

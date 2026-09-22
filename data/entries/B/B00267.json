@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00267",
-	"slug": "בוליטין",
-	"headword": {
-		"text": "בוליטין"
-	},
+	"sefariaHeadword": "בוליטין",
+	"headwords": [
+		{
+			"text": "בוליטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

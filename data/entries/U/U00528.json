@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00528",
-	"slug": "שוקי",
-	"headword": {
-		"text": "שׁוֹקִי"
-	},
+	"sefariaHeadword": "שׁוֹקִי",
+	"headwords": [
+		{
+			"text": "שׁוֹקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "a"

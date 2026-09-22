@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00630",
-	"slug": "יריאה",
-	"headword": {
-		"text": "יְרֵיאָה"
-	},
+	"sefariaHeadword": "יְרֵיאָה",
+	"headwords": [
+		{
+			"text": "יְרֵיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00738",
-	"slug": "תנחומות",
-	"headword": {
-		"text": "תנחומות־"
-	},
+	"sefariaHeadword": "תנחומות־",
+	"headwords": [
+		{
+			"text": "תנחומות־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1681,
 		"column": "a"

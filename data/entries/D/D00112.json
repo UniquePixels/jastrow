@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00112",
-	"slug": "דגלום",
-	"headword": {
-		"text": "דגלום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דגלום",
+	"headwords": [
+		{
+			"text": "דגלום"
+		},
 		{
 			"text": "דגלוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 280,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01000",
-	"slug": "בסיר",
-	"headword": {
-		"text": "בְּסִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּסִיר",
+	"headwords": [
+		{
+			"text": "בְּסִיר"
+		},
 		{
 			"text": "בְּסִירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 179,
 		"column": "a"

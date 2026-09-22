@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00597",
-	"slug": "ביילין",
-	"headword": {
-		"text": "ביילין"
-	},
+	"sefariaHeadword": "ביילין",
+	"headwords": [
+		{
+			"text": "ביילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

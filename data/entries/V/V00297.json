@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00297",
-	"slug": "תורמוס",
-	"headword": {
-		"text": "תּוּרְמוֹס"
-	},
+	"sefariaHeadword": "תּוּרְמוֹס",
+	"headwords": [
+		{
+			"text": "תּוּרְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00671",
-	"slug": "דיעבך",
-	"headword": {
-		"text": "דִּיעֲבַך"
-	},
+	"sefariaHeadword": "דִּיעֲבַך",
+	"headwords": [
+		{
+			"text": "דִּיעֲבַך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

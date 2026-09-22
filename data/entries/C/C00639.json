@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00639",
-	"slug": "גידוע",
-	"headword": {
-		"text": "גִּידּוּעַ"
-	},
+	"sefariaHeadword": "גִּידּוּעַ",
+	"headwords": [
+		{
+			"text": "גִּידּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "b"

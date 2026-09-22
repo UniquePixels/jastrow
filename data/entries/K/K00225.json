@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00225",
-	"slug": "כוז",
-	"headword": {
-		"text": "כּוּז"
-	},
+	"sefariaHeadword": "כּוּז",
+	"headwords": [
+		{
+			"text": "כּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

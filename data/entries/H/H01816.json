@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01816",
-	"slug": "חשדא",
-	"headword": {
-		"text": "חֲשָׁדָא"
-	},
+	"sefariaHeadword": "חֲשָׁדָא",
+	"headwords": [
+		{
+			"text": "חֲשָׁדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

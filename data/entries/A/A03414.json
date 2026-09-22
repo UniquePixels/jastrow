@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03414",
-	"slug": "אתחנונתא",
-	"headword": {
-		"text": "אִתְחֲנוּנָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִתְחֲנוּנָתָא",
+	"headwords": [
+		{
+			"text": "אִתְחֲנוּנָתָא"
+		},
 		{
 			"text": "אִתְחַנָּנוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 133,
 		"column": "a"

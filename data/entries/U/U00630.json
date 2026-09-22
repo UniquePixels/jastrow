@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00630",
-	"slug": "שחורין",
-	"headword": {
-		"text": "שְׁחוֹרִין"
-	},
+	"sefariaHeadword": "שְׁחוֹרִין",
+	"headwords": [
+		{
+			"text": "שְׁחוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "b"

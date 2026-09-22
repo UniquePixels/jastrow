@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00454",
-	"slug": "צירא-1",
-	"headword": {
-		"text": "צִירָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צִירָא I",
+	"headwords": [
+		{
+			"text": "צִירָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1281,
 		"column": "a"

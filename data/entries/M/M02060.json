@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02060",
-	"slug": "מעגיל",
-	"headword": {
-		"text": "מַעֲגִיל"
-	},
+	"sefariaHeadword": "מַעֲגִיל",
+	"headwords": [
+		{
+			"text": "מַעֲגִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00725",
-	"slug": "כליה-1",
-	"headword": {
-		"text": "כִּלְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּלְיָה",
+	"headwords": [
+		{
+			"text": "כִּלְיָה"
+		},
 		{
 			"text": "כּוּלְיָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "יָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 642,
 		"column": "a"

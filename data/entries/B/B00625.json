@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00625",
-	"slug": "בילקאות",
-	"headword": {
-		"text": "בילקאות"
-	},
+	"sefariaHeadword": "בילקאות",
+	"headwords": [
+		{
+			"text": "בילקאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

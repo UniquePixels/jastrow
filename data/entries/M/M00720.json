@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00720",
-	"slug": "מזגא-5",
-	"headword": {
-		"text": "מָזְגָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָזְגָּא ²",
+	"headwords": [
 		{
-			"text": "מָזְגָּא חַמְרָא"
+			"text": "מָזְגָּא",
+			"disambiguator": 2
+		},
+		{
+			"text": "מ׳ חַמְרָא",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 753,
 		"column": "b"

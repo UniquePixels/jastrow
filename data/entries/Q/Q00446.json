@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00446",
-	"slug": "פחד-3",
-	"headword": {
-		"text": "פַּחַד"
-	},
+	"sefariaHeadword": "פַּחַד",
+	"headwords": [
+		{
+			"text": "פַּחַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "a"

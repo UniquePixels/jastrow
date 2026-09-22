@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00049",
-	"slug": "לבה",
-	"headword": {
-		"text": "לָבָה"
-	},
+	"sefariaHeadword": "לָבָה",
+	"headwords": [
+		{
+			"text": "לָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

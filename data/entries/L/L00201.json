@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00201",
-	"slug": "לודית-2",
-	"headword": {
-		"text": "לוּדִית"
-	},
+	"sefariaHeadword": "לוּדִית",
+	"headwords": [
+		{
+			"text": "לוּדִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

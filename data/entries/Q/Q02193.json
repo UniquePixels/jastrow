@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02193",
-	"slug": "פתפות",
-	"headword": {
-		"text": "פִּתְפּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּתְפּוּת",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּתְפּוּת"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1255,
 		"column": "a"

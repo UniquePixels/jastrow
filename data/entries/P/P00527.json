@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00527",
-	"slug": "עיט-2",
-	"headword": {
-		"text": "עַיִט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עַיִט I",
+	"headwords": [
+		{
+			"text": "עַיִט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1068,
 		"column": "a"

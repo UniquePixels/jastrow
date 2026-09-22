@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O01278",
-	"slug": "סעד-4",
-	"headword": {
-		"text": "סְעַד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעַד ²",
+	"headwords": [
+		{
+			"text": "סְעַד",
+			"disambiguator": 2
+		},
 		{
 			"text": "סַעֲדָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1009,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00605",
-	"slug": "טעין-1",
-	"headword": {
-		"text": "טְעֵין"
-	},
+	"sefariaHeadword": "טְעֵין",
+	"headwords": [
+		{
+			"text": "טְעֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 543,
 		"column": "a"

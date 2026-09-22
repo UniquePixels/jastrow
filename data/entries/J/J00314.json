@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "J00314",
-	"slug": "יטור-1",
-	"headword": {
-		"text": "יְטוּר",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*יְטוּר I",
+	"headwords": [
+		{
+			"text": "יְטוּר",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 576,
 		"column": "a"

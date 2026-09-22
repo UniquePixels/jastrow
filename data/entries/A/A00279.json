@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00279",
-	"slug": "אגורא-2",
-	"headword": {
-		"text": "אֲגוֹרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲגוֹרָא II",
+	"headwords": [
+		{
+			"text": "אֲגוֹרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 12,
 		"column": "a"

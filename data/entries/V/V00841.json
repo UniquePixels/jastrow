@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00841",
-	"slug": "תפני׳",
-	"headword": {
-		"text": "תפני׳"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תפני׳",
+	"headwords": [
+		{
+			"text": "תפני׳"
+		},
 		{
 			"text": "תפניס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1687,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00853",
-	"slug": "אורדיא",
-	"headword": {
-		"text": "אוּרְדַּיָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּרְדַּיָּא",
+	"headwords": [
+		{
+			"text": "אוּרְדַּיָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

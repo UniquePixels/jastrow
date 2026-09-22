@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00777",
-	"slug": "צריכותא",
-	"headword": {
-		"text": "צְרִיכוּתָא"
-	},
+	"sefariaHeadword": "צְרִיכוּתָא",
+	"headwords": [
+		{
+			"text": "צְרִיכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1302,
 		"column": "a"

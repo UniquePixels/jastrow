@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02684",
-	"slug": "מרירה",
-	"headword": {
-		"text": "מְרִירָה"
-	},
+	"sefariaHeadword": "מְרִירָה",
+	"headwords": [
+		{
+			"text": "מְרִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01861",
-	"slug": "קקבטון",
-	"headword": {
-		"text": "קקבטון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קקבטון",
+	"headwords": [
+		{
+			"text": "קקבטון"
+		},
 		{
 			"text": "קקבטין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "a"

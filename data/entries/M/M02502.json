@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02502",
-	"slug": "מרבית",
-	"headword": {
-		"text": "מַרְבִּית"
-	},
+	"sefariaHeadword": "מַרְבִּית",
+	"headwords": [
+		{
+			"text": "מַרְבִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

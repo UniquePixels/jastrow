@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00812",
-	"slug": "כמנון",
-	"headword": {
-		"text": "כִּמָּנוֹן"
-	},
+	"sefariaHeadword": "כִּמָּנוֹן",
+	"headwords": [
+		{
+			"text": "כִּמָּנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "a"

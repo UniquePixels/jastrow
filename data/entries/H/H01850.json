@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01850",
-	"slug": "חשך-6",
-	"headword": {
-		"text": "חשֶׁךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חשֶׁךְ",
+	"headwords": [
+		{
+			"text": "חשֶׁךְ"
+		},
 		{
 			"text": "חוֹשֶׁךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 511,
 		"column": "a"

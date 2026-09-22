@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00732",
-	"slug": "פינס",
-	"headword": {
-		"text": "פִּינָס"
-	},
+	"sefariaHeadword": "פִּינָס",
+	"headwords": [
+		{
+			"text": "פִּינָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

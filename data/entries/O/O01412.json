@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01412",
-	"slug": "ספקלטרים",
-	"headword": {
-		"text": "ספקלטרים"
-	},
+	"sefariaHeadword": "ספקלטרים",
+	"headwords": [
+		{
+			"text": "ספקלטרים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1017,
 		"column": "a"

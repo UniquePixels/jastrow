@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00484",
-	"slug": "כיבוי-2",
-	"headword": {
-		"text": "כיבוי"
-	},
+	"sefariaHeadword": "כיבוי",
+	"headwords": [
+		{
+			"text": "כיבוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "b"

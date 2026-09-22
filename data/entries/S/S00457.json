@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00457",
-	"slug": "קוס-2",
-	"headword": {
-		"text": "קוֹס"
-	},
+	"sefariaHeadword": "קוֹס",
+	"headwords": [
+		{
+			"text": "קוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "a"

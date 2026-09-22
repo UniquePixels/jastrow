@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00630",
-	"slug": "ריחתא",
-	"headword": {
-		"text": "רִיחתָא"
-	},
+	"sefariaHeadword": "רִיחתָא",
+	"headwords": [
+		{
+			"text": "רִיחתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

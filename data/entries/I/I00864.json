@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00864",
-	"slug": "טרפא-1",
-	"headword": {
-		"text": "טַרְפָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְפָא I",
+	"headwords": [
+		{
+			"text": "טַרְפָא",
+			"homograph": 1
+		},
 		{
 			"text": "טְרַף"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 557,
 		"column": "a"

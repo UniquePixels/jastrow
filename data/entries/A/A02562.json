@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02562",
-	"slug": "אסרטיגי",
-	"headword": {
-		"text": "אסרטיגי"
-	},
+	"sefariaHeadword": "אסרטיגי",
+	"headwords": [
+		{
+			"text": "אסרטיגי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

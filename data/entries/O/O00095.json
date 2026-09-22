@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00095",
-	"slug": "סבריקים",
-	"headword": {
-		"text": "סַבְרִיקִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַבְרִיקִים",
+	"headwords": [
+		{
+			"text": "סַבְרִיקִים"
+		},
 		{
 			"text": "סַבְרִיקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 953,
 		"column": "a"

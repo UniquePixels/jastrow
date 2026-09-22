@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01647",
-	"slug": "סרס-2",
-	"headword": {
-		"text": "סְרַס"
-	},
+	"sefariaHeadword": "סְרַס",
+	"headwords": [
+		{
+			"text": "סְרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1029,
 		"column": "a"

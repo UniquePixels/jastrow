@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00583",
-	"slug": "גזתא",
-	"headword": {
-		"text": "גִּזְּתָא"
-	},
+	"sefariaHeadword": "גִּזְּתָא",
+	"headwords": [
+		{
+			"text": "גִּזְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

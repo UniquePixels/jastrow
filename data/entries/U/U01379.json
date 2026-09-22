@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01379",
-	"slug": "שלציון",
-	"headword": {
-		"text": "שַׁלְצִיּוֹן"
-	},
+	"sefariaHeadword": "שַׁלְצִיּוֹן",
+	"headwords": [
+		{
+			"text": "שַׁלְצִיּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "a"

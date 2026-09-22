@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01386",
-	"slug": "קלסטירא",
-	"headword": {
-		"text": "קְלַסְטֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלַסְטֵירָא",
+	"headwords": [
+		{
+			"text": "קְלַסְטֵירָא"
+		},
 		{
 			"text": "קְלַסְטְרָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "קְלַסְתְּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1380,
 		"column": "a"

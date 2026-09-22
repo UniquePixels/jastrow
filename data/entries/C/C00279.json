@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00279",
-	"slug": "גובהא",
-	"headword": {
-		"text": "גּוֹבְהָא"
-	},
+	"sefariaHeadword": "גּוֹבְהָא",
+	"headwords": [
+		{
+			"text": "גּוֹבְהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00149",
-	"slug": "מגזתא",
-	"headword": {
-		"text": "מְגִזְתָּא"
-	},
+	"sefariaHeadword": "מְגִזְתָּא",
+	"headwords": [
+		{
+			"text": "מְגִזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

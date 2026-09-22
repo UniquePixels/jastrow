@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01882",
-	"slug": "חתי-2",
-	"headword": {
-		"text": "חֲתֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲתֵי",
+	"headwords": [
+		{
+			"text": "חֲתֵי"
+		},
 		{
 			"text": "חֲתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 512,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00097",
-	"slug": "כגני",
-	"headword": {
-		"text": "כגני"
-	},
+	"sefariaHeadword": "כגני",
+	"headwords": [
+		{
+			"text": "כגני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

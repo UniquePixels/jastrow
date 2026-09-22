@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00462",
-	"slug": "צירנייתן",
-	"headword": {
-		"text": "צִירְנַיְיתָן"
-	},
+	"sefariaHeadword": "צִירְנַיְיתָן",
+	"headwords": [
+		{
+			"text": "צִירְנַיְיתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

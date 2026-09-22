@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00365",
-	"slug": "חולשא",
-	"headword": {
-		"text": "חוּלְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלְשָׁא",
+	"headwords": [
+		{
+			"text": "חוּלְשָׁא"
+		},
 		{
 			"text": "חוּלָּשָׁא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 434,
 		"column": "b"

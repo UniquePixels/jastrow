@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01357",
-	"slug": "עריכה",
-	"headword": {
-		"text": "עֲרִיכָה"
-	},
+	"sefariaHeadword": "עֲרִיכָה",
+	"headwords": [
+		{
+			"text": "עֲרִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "a"

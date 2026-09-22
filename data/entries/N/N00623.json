@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00623",
-	"slug": "נידה",
-	"headword": {
-		"text": "נִידָּה"
-	},
+	"sefariaHeadword": "נִידָּה",
+	"headwords": [
+		{
+			"text": "נִידָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

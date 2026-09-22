@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01819",
-	"slug": "קציפה",
-	"headword": {
-		"text": "קְצִיפָה"
-	},
+	"sefariaHeadword": "קְצִיפָה",
+	"headwords": [
+		{
+			"text": "קְצִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "a"

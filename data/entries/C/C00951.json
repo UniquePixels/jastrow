@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00951",
-	"slug": "גלים",
-	"headword": {
-		"text": "גְּלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלִים",
+	"headwords": [
+		{
+			"text": "גְּלִים"
+		},
 		{
 			"text": "גְּלִימָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 249,
 		"column": "a"

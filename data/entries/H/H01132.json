@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01132",
-	"slug": "חלתותא",
-	"headword": {
-		"text": "חלתותא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חלתותא",
+	"headwords": [
+		{
+			"text": "חלתותא"
+		},
 		{
 			"text": "חִלְתִּית"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִלְתִּיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 474,
 		"column": "b"

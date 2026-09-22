@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00823",
-	"slug": "טריקלינא",
-	"headword": {
-		"text": "טְרִיקְלִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִיקְלִינָא",
+	"headwords": [
 		{
-			"text": "טְרַקְ׳"
+			"text": "טְרִיקְלִינָא"
+		},
+		{
+			"text": "טְרַקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 554,
 		"column": "b"

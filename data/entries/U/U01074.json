@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01074",
-	"slug": "שיריא",
-	"headword": {
-		"text": "שִׁירָיָא"
-	},
+	"sefariaHeadword": "שִׁירָיָא",
+	"headwords": [
+		{
+			"text": "שִׁירָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "a"

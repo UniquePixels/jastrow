@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01318",
-	"slug": "גרזימי",
-	"headword": {
-		"text": "גַּרְזִימִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְזִימִי",
+	"headwords": [
+		{
+			"text": "גַּרְזִימִי"
+		},
 		{
 			"text": "גַּרְזִימִיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "גַּרְזְמִיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 267,
 		"column": "b"

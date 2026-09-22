@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02503",
-	"slug": "אספני",
-	"headword": {
-		"text": "אִסְפָּנִי"
-	},
+	"sefariaHeadword": "אִסְפָּנִי",
+	"headwords": [
+		{
+			"text": "אִסְפָּנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "a"

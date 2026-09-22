@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01917",
-	"slug": "שרבב-3",
-	"headword": {
-		"text": "שַׁרְבֵּב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שַׁרְבֵּב II",
+	"headwords": [
+		{
+			"text": "שַׁרְבֵּב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1627,
 		"column": "b"

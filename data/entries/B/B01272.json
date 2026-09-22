@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01272",
-	"slug": "בריק",
-	"headword": {
-		"text": "בְּרֵיק"
-	},
+	"sefariaHeadword": "בְּרֵיק",
+	"headwords": [
+		{
+			"text": "בְּרֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

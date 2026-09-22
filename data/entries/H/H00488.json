@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00488",
-	"slug": "חוש-3",
-	"headword": {
-		"text": "חוּשׁ"
-	},
+	"sefariaHeadword": "חוּשׁ",
+	"headwords": [
+		{
+			"text": "חוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "a"

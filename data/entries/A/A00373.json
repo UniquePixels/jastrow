@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00373",
-	"slug": "אדאני",
-	"headword": {
-		"text": "אדאני"
-	},
+	"sefariaHeadword": "אדאני",
+	"headwords": [
+		{
+			"text": "אדאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

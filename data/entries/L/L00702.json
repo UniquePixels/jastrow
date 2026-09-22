@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00702",
-	"slug": "לקש-3",
-	"headword": {
-		"text": "לַקִּשׁ"
-	},
+	"sefariaHeadword": "לַקִּשׁ",
+	"headwords": [
+		{
+			"text": "לַקִּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01367",
-	"slug": "נתיב",
-	"headword": {
-		"text": "נָתִיב"
-	},
+	"sefariaHeadword": "נָתִיב",
+	"headwords": [
+		{
+			"text": "נָתִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

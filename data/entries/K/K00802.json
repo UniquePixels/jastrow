@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00802",
-	"slug": "כמיסת",
-	"headword": {
-		"text": "כְּמֵיסַת"
-	},
+	"sefariaHeadword": "כְּמֵיסַת",
+	"headwords": [
+		{
+			"text": "כְּמֵיסַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "b"

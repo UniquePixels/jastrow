@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00196",
-	"slug": "כוברים",
-	"headword": {
-		"text": "כוברים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כוברים",
+	"headwords": [
 		{
-			"text": "כובד׳"
+			"text": "כוברים"
+		},
+		{
+			"text": "כובד׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 616,
 		"column": "b"

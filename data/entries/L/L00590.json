@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00590",
-	"slug": "לסתא",
-	"headword": {
-		"text": "לִסְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִסְתָא",
+	"headwords": [
 		{
-			"text": "לִיסְ׳"
+			"text": "לִסְתָא"
+		},
+		{
+			"text": "לִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 713,
 		"column": "b"

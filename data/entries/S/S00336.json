@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00336",
-	"slug": "קוליא-1",
-	"headword": {
-		"text": "קוּלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּלְיָא",
+	"headwords": [
 		{
-			"text": "קוֹ׳"
+			"text": "קוּלְיָא"
+		},
+		{
+			"text": "קוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1328,
 		"column": "a"

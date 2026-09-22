@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03154",
-	"slug": "ארכיקיטון",
-	"headword": {
-		"text": "ארכיקיטון"
-	},
+	"sefariaHeadword": "ארכיקיטון",
+	"headwords": [
+		{
+			"text": "ארכיקיטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

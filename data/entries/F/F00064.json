@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00064",
-	"slug": "ווליס",
-	"headword": {
-		"text": "וָולִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָולִיס",
+	"headwords": [
+		{
+			"text": "וָולִיס"
+		},
 		{
 			"text": "וָולָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 374,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00737",
-	"slug": "כלימה",
-	"headword": {
-		"text": "כְּלִימָּה"
-	},
+	"sefariaHeadword": "כְּלִימָּה",
+	"headwords": [
+		{
+			"text": "כְּלִימָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00332",
-	"slug": "פורבי",
-	"headword": {
-		"text": "פּוּרְבִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פּוּרְבִּי",
+	"headwords": [
+		{
+			"text": "פּוּרְבִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

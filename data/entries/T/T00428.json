@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00428",
-	"slug": "רוצח",
-	"headword": {
-		"text": "רוֹצֵחַ"
-	},
+	"sefariaHeadword": "רוֹצֵחַ",
+	"headwords": [
+		{
+			"text": "רוֹצֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "a"

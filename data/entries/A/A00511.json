@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00511",
-	"slug": "אהנייתא",
-	"headword": {
-		"text": "אהנייתא"
-	},
+	"sefariaHeadword": "אהנייתא",
+	"headwords": [
+		{
+			"text": "אהנייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

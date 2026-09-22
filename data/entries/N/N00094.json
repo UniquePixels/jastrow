@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00094",
-	"slug": "נבל-6",
-	"headword": {
-		"text": "נֵבֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵבֶל",
+	"headwords": [
+		{
+			"text": "נֵבֶל"
+		},
 		{
 			"text": "נִבְלָא"
 		},
 		{
 			"text": "נִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 870,
 		"column": "a"

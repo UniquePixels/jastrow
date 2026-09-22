@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00039",
-	"slug": "עבי-1",
-	"headword": {
-		"text": "עבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עבי",
+	"headwords": [
+		{
+			"text": "עבי"
+		},
 		{
 			"text": "עָבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1037,
 		"column": "a"

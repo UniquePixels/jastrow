@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00261",
-	"slug": "תופס-1",
-	"headword": {
-		"text": "תּוֹפֶס"
-	},
+	"sefariaHeadword": "תּוֹפֶס",
+	"headwords": [
+		{
+			"text": "תּוֹפֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

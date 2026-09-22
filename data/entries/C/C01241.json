@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01241",
-	"slug": "גרבתן",
-	"headword": {
-		"text": "גְּרַבְתָּן"
-	},
+	"sefariaHeadword": "גְּרַבְתָּן",
+	"headwords": [
+		{
+			"text": "גְּרַבְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

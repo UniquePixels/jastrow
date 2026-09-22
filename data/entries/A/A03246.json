@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A03246",
-	"slug": "ארקתא-3",
-	"headword": {
-		"text": "אַרְקְתָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*אַרְקְתָא III",
+	"headwords": [
+		{
+			"text": "אַרְקְתָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 126,
 		"column": "a"

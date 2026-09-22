@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03099",
-	"slug": "מתק-1",
-	"headword": {
-		"text": "מָתַק"
-	},
+	"sefariaHeadword": "מָתַק",
+	"headwords": [
+		{
+			"text": "מָתַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "a"

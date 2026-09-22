@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00507",
-	"slug": "בטיטא",
-	"headword": {
-		"text": "בְּטִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּטִיטָא",
+	"headwords": [
+		{
+			"text": "בְּטִיטָא"
+		},
 		{
 			"text": "בּוֹטִיטָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 156,
 		"column": "b"

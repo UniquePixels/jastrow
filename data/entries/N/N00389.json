@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00389",
-	"slug": "נוף-3",
-	"headword": {
-		"text": "נוֹף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נוֹף I",
+	"headwords": [
+		{
+			"text": "נוֹף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 889,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

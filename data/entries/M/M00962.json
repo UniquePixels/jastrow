@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00962",
-	"slug": "מטאראתא",
-	"headword": {
-		"text": "מַטָּארָאתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַטָּארָאתָא",
+	"headwords": [
+		{
+			"text": "מַטָּארָאתָא"
+		},
 		{
 			"text": "מַטָּארָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 765,
 		"column": "b"

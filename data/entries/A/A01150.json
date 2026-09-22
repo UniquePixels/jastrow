@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01150",
-	"slug": "איגרתא",
-	"headword": {
-		"text": "אִיגַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיגַּרְתָּא",
+	"headwords": [
 		{
-			"text": "אִגַּ׳"
+			"text": "אִיגַּרְתָּא"
+		},
+		{
+			"text": "אִגַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 44,
 		"column": "b"

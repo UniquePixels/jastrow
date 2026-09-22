@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01598",
-	"slug": "חרד",
-	"headword": {
-		"text": "חָרֵד"
-	},
+	"sefariaHeadword": "חָרֵד",
+	"headwords": [
+		{
+			"text": "חָרֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

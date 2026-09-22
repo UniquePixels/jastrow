@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00717",
-	"slug": "און-2",
-	"headword": {
-		"text": "אוֹן"
-	},
+	"sefariaHeadword": "אוֹן",
+	"headwords": [
+		{
+			"text": "אוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "a"

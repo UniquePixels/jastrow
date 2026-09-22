@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00486",
-	"slug": "יעל-2",
-	"headword": {
-		"text": "יָעֵל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יָעֵל I",
+	"headwords": [
+		{
+			"text": "יָעֵל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 584,
 		"column": "b"

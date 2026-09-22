@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00674",
-	"slug": "דיף",
-	"headword": {
-		"text": "דיף"
-	},
+	"sefariaHeadword": "דיף",
+	"headwords": [
+		{
+			"text": "דיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

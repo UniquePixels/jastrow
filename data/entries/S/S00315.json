@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00315",
-	"slug": "קול-3",
-	"headword": {
-		"text": "קוּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּל ²",
+	"headwords": [
+		{
+			"text": "קוּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "קוֹל"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1327,
 		"column": "a"

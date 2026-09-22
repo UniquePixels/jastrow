@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01330",
-	"slug": "אימונים",
-	"headword": {
-		"text": "אימונים"
-	},
+	"sefariaHeadword": "אימונים",
+	"headwords": [
+		{
+			"text": "אימונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "b"

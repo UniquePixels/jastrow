@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00107",
-	"slug": "פדגוג",
-	"headword": {
-		"text": "פְּדָגוֹג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּדָגוֹג",
+	"headwords": [
 		{
-			"text": "פִּידָ׳"
+			"text": "פְּדָגוֹג"
+		},
+		{
+			"text": "פִּידָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1136,
 		"column": "b"

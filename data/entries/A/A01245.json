@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01245",
-	"slug": "איירינון",
-	"headword": {
-		"text": "אַיְירִינוֹן"
-	},
+	"sefariaHeadword": "אַיְירִינוֹן",
+	"headwords": [
+		{
+			"text": "אַיְירִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

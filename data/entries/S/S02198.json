@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02198",
-	"slug": "קרש-2",
-	"headword": {
-		"text": "קֶרֶשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קֶרֶשׁ II",
+	"headwords": [
+		{
+			"text": "קֶרֶשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1428,
 		"column": "a"

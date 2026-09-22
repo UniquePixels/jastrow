@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00513",
-	"slug": "בטינין",
-	"headword": {
-		"text": "בטינין"
-	},
+	"sefariaHeadword": "בטינין",
+	"headwords": [
+		{
+			"text": "בטינין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 157,
 		"column": "a"

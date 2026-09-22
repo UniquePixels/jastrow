@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00154",
-	"slug": "דהך",
-	"headword": {
-		"text": "דְּהַךְ"
-	},
+	"sefariaHeadword": "דְּהַךְ",
+	"headwords": [
+		{
+			"text": "דְּהַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "b"

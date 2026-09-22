@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00618",
-	"slug": "קורמין",
-	"headword": {
-		"text": "קוּרְמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְמִין",
+	"headwords": [
+		{
+			"text": "קוּרְמִין"
+		},
 		{
 			"text": "קוּרְמֶל"
 		},
@@ -12,6 +13,7 @@
 			"text": "קוּרְמָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1343,
 		"column": "a"

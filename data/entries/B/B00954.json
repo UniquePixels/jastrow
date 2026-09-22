@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00954",
-	"slug": "בנינא",
-	"headword": {
-		"text": "בִּנְיָנָא"
-	},
+	"sefariaHeadword": "בִּנְיָנָא",
+	"headwords": [
+		{
+			"text": "בִּנְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "a"

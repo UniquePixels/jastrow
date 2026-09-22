@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02653",
-	"slug": "אפחא",
-	"headword": {
-		"text": "אֵפְּחָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֵפְּחָא",
+	"headwords": [
+		{
+			"text": "אֵפְּחָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

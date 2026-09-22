@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00770",
-	"slug": "רכן-3",
-	"headword": {
-		"text": "רָכַן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רָכַן II",
+	"headwords": [
+		{
+			"text": "רָכַן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1480,
 		"column": "a"

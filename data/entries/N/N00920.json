@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00920",
-	"slug": "נסוחא",
-	"headword": {
-		"text": "נָסוֹחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָסוֹחָא",
+	"headwords": [
+		{
+			"text": "נָסוֹחָא"
+		},
 		{
 			"text": "נָסוֹחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 915,
 		"column": "b"

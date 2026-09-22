@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00337",
-	"slug": "דוקניתא",
-	"headword": {
-		"text": "דּוּקְנִיתָא"
-	},
+	"sefariaHeadword": "דּוּקְנִיתָא",
+	"headwords": [
+		{
+			"text": "דּוּקְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "b"

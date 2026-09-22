@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01319",
-	"slug": "גרזקי",
-	"headword": {
-		"text": "גרזקי"
-	},
+	"sefariaHeadword": "גרזקי",
+	"headwords": [
+		{
+			"text": "גרזקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00277",
-	"slug": "כולם",
-	"headword": {
-		"text": "כולם"
-	},
+	"sefariaHeadword": "כולם",
+	"headwords": [
+		{
+			"text": "כולם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

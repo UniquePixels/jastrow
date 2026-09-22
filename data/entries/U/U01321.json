@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01321",
-	"slug": "שלייתא",
-	"headword": {
-		"text": "שִׁלְיְיתָא"
-	},
+	"sefariaHeadword": "שִׁלְיְיתָא",
+	"headwords": [
+		{
+			"text": "שִׁלְיְיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "b"

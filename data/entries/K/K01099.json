@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01099",
-	"slug": "כרהנא",
-	"headword": {
-		"text": "כֻּרְהָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֻּרְהָנָא",
+	"headwords": [
 		{
-			"text": "כּוּרְ׳"
+			"text": "כֻּרְהָנָא"
+		},
+		{
+			"text": "כּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 664,
 		"column": "b"

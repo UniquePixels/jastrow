@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00439",
-	"slug": "תייר-2",
-	"headword": {
-		"text": "תַּיָּיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּיָּיר ²",
+	"headwords": [
+		{
+			"text": "תַּיָּיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּיָּר"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1664,
 		"column": "b"

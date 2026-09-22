@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01321",
-	"slug": "ספה",
-	"headword": {
-		"text": "סִפָּה"
-	},
+	"sefariaHeadword": "סִפָּה",
+	"headwords": [
+		{
+			"text": "סִפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

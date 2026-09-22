@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00594",
-	"slug": "לעב-3",
-	"headword": {
-		"text": "לְעֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְעֵב",
+	"headwords": [
+		{
+			"text": "לְעֵב"
+		},
 		{
 			"text": "לְעֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 713,
 		"column": "b"

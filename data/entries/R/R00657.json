@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00657",
-	"slug": "צעצועים",
-	"headword": {
-		"text": "צַעֲצוּעִים"
-	},
+	"sefariaHeadword": "צַעֲצוּעִים",
+	"headwords": [
+		{
+			"text": "צַעֲצוּעִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1294,
 		"column": "a"

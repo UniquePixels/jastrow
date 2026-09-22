@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01187",
-	"slug": "איול",
-	"headword": {
-		"text": "איול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איול",
+	"headwords": [
+		{
+			"text": "איול"
+		},
 		{
 			"text": "אייול"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 46,
 		"column": "a"

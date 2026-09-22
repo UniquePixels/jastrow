@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01254",
-	"slug": "קלדה",
-	"headword": {
-		"text": "קלדה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלדה",
+	"headwords": [
+		{
+			"text": "קלדה"
+		},
 		{
 			"text": "קלדהי"
 		},
@@ -12,6 +13,7 @@
 			"text": "קלדוהי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1372,
 		"column": "b"

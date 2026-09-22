@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00269",
-	"slug": "בולמוס",
-	"headword": {
-		"text": "בּוּלְמוֹס"
-	},
+	"sefariaHeadword": "בּוּלְמוֹס",
+	"headwords": [
+		{
+			"text": "בּוּלְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

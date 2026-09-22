@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02791",
-	"slug": "מרתף",
-	"headword": {
-		"text": "מַרְתֵּף"
-	},
+	"sefariaHeadword": "מַרְתֵּף",
+	"headwords": [
+		{
+			"text": "מַרְתֵּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

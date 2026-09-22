@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01271",
-	"slug": "נרמקי",
-	"headword": {
-		"text": "נרמקי"
-	},
+	"sefariaHeadword": "נרמקי",
+	"headwords": [
+		{
+			"text": "נרמקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"

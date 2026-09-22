@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01638",
-	"slug": "קסוה",
-	"headword": {
-		"text": "קִסְוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִסְוָה",
+	"headwords": [
+		{
+			"text": "קִסְוָה"
+		},
 		{
 			"text": "קִסְוָוא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "b"

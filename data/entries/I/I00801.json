@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00801",
-	"slug": "טרימיטרא",
-	"headword": {
-		"text": "טְרִימִיטְרָא"
-	},
+	"sefariaHeadword": "טְרִימִיטְרָא",
+	"headwords": [
+		{
+			"text": "טְרִימִיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "b"

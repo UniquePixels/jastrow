@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01564",
-	"slug": "קנטרופוס",
-	"headword": {
-		"text": "קַנְטְרוֹפּוֹס"
-	},
+	"sefariaHeadword": "קַנְטְרוֹפּוֹס",
+	"headwords": [
+		{
+			"text": "קַנְטְרוֹפּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1390,
 		"column": "b"

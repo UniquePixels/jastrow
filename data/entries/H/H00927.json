@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00927",
-	"slug": "חכינותא",
-	"headword": {
-		"text": "חכינותא"
-	},
+	"sefariaHeadword": "חכינותא",
+	"headwords": [
+		{
+			"text": "חכינותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "a"

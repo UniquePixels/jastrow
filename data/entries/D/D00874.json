@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00874",
-	"slug": "דמדם-1",
-	"headword": {
-		"text": "דִּמְדֵּם"
-	},
+	"sefariaHeadword": "דִּמְדֵּם",
+	"headwords": [
+		{
+			"text": "דִּמְדֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

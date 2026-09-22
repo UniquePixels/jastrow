@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00503",
-	"slug": "שופך",
-	"headword": {
-		"text": "שׁוֹפַךְ"
-	},
+	"sefariaHeadword": "שֹׁופַךְ",
+	"headwords": [
+		{
+			"text": "שׁוֹפַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00019",
-	"slug": "ודע",
-	"headword": {
-		"text": "וָדַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָדַע",
+	"headwords": [
+		{
+			"text": "וָדַע"
+		},
 		{
 			"text": "וְדַע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 372,
 		"column": "b"

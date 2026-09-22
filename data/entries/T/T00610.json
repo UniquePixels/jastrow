@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00610",
-	"slug": "ריהטון",
-	"headword": {
-		"text": "רִיהֲטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיהֲטוֹן",
+	"headwords": [
+		{
+			"text": "רִיהֲטוֹן"
+		},
 		{
 			"text": "רִיהֲטוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "b"

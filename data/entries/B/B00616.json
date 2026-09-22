@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00616",
-	"slug": "בילוות",
-	"headword": {
-		"text": "בילוות"
-	},
+	"sefariaHeadword": "בילוות",
+	"headwords": [
+		{
+			"text": "בילוות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

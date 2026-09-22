@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00357",
-	"slug": "שוורים",
-	"headword": {
-		"text": "שְׁוָורִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוָורִים",
+	"headwords": [
+		{
+			"text": "שְׁוָורִים"
+		},
 		{
 			"text": "שְׁוָורִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1530,
 		"column": "b"

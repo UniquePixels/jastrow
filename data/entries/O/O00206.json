@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00206",
-	"slug": "סדריוט",
-	"headword": {
-		"text": "סדריוט"
-	},
+	"sefariaHeadword": "סדריוט",
+	"headwords": [
+		{
+			"text": "סדריוט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 959,
 		"column": "a"

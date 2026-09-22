@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02237",
-	"slug": "קשי-3",
-	"headword": {
-		"text": "קְשִׁי"
-	},
+	"sefariaHeadword": "קְשִׁי",
+	"headwords": [
+		{
+			"text": "קְשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1430,
 		"column": "b"

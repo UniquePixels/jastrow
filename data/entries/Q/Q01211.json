@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01211",
-	"slug": "פנקאי",
-	"headword": {
-		"text": "פִּנְקַאי"
-	},
+	"sefariaHeadword": "פִּנְקַאי",
+	"headwords": [
+		{
+			"text": "פִּנְקַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1191,
 		"column": "a"

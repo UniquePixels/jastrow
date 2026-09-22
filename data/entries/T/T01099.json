@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01099",
-	"slug": "רשע-2",
-	"headword": {
-		"text": "רְשַׁע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רְשַׁע I",
+	"headwords": [
+		{
+			"text": "רְשַׁע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1501,
 		"column": "a"

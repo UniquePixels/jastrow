@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01125",
-	"slug": "דרקונוס",
-	"headword": {
-		"text": "דרקונוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דרקונוס",
+	"headwords": [
+		{
+			"text": "דרקונוס"
+		},
 		{
 			"text": "דרקוניס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 325,
 		"column": "a"

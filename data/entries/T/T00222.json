@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00222",
-	"slug": "רגרג",
-	"headword": {
-		"text": "רַגְרֵג"
-	},
+	"sefariaHeadword": "רַגְרֵג",
+	"headwords": [
+		{
+			"text": "רַגְרֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1450,
 		"column": "a"

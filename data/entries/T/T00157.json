@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00157",
-	"slug": "רגבא",
-	"headword": {
-		"text": "רִגְבָּא"
-	},
+	"sefariaHeadword": "רִגְבָּא",
+	"headwords": [
+		{
+			"text": "רִגְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

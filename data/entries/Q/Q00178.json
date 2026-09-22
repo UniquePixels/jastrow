@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00178",
-	"slug": "פוחח",
-	"headword": {
-		"text": "פּוֹחֵחַ"
-	},
+	"sefariaHeadword": "פּוֹחֵחַ",
+	"headwords": [
+		{
+			"text": "פּוֹחֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

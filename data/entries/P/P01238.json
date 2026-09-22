@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01238",
-	"slug": "ערא-1",
-	"headword": {
-		"text": "עָרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עָרָא I",
+	"headwords": [
+		{
+			"text": "עָרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1109,
 		"column": "b"

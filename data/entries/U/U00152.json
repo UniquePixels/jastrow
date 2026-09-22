@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00152",
-	"slug": "שבניה",
-	"headword": {
-		"text": "שבניה"
-	},
+	"sefariaHeadword": "שבניה",
+	"headwords": [
+		{
+			"text": "שבניה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00955",
-	"slug": "שים",
-	"headword": {
-		"text": "שִׂים"
-	},
+	"sefariaHeadword": "שִׂים",
+	"headwords": [
+		{
+			"text": "שִׂים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

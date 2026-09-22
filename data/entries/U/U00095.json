@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00095",
-	"slug": "שבזז",
-	"headword": {
-		"text": "שַׁבְזֵז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁבְזֵז",
+	"headwords": [
+		{
+			"text": "שַׁבְזֵז"
+		},
 		{
 			"text": "שַׁבְזֵיז"
 		},
@@ -12,6 +13,7 @@
 			"text": "שַׁבְזִיזָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1511,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01182",
-	"slug": "סנדלכונים",
-	"headword": {
-		"text": "סַנְדַּלְכוֹנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְדַּלְכוֹנִים",
+	"headwords": [
+		{
+			"text": "סַנְדַּלְכוֹנִים"
+		},
 		{
 			"text": "סַנְדַּלְכוֹנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "a"

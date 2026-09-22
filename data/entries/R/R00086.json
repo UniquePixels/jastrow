@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00086",
-	"slug": "צדדא",
-	"headword": {
-		"text": "צְדָדָא"
-	},
+	"sefariaHeadword": "צְדָדָא",
+	"headwords": [
+		{
+			"text": "צְדָדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "a"

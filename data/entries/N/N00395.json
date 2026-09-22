@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00395",
-	"slug": "נופר",
-	"headword": {
-		"text": "נוּפָר"
-	},
+	"sefariaHeadword": "נוּפָר",
+	"headwords": [
+		{
+			"text": "נוּפָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

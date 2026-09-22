@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00384",
-	"slug": "חומץ-1",
-	"headword": {
-		"text": "חוֹמֶץ"
-	},
+	"sefariaHeadword": "חוֹמֶץ",
+	"headwords": [
+		{
+			"text": "חוֹמֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

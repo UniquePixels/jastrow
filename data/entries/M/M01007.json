@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01007",
-	"slug": "מטליא",
-	"headword": {
-		"text": "מטליא"
-	},
+	"sefariaHeadword": "מטליא",
+	"headwords": [
+		{
+			"text": "מטליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

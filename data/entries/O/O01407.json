@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01407",
-	"slug": "ספק-6",
-	"headword": {
-		"text": "סָפֵק"
-	},
+	"sefariaHeadword": "סָפֵק",
+	"headwords": [
+		{
+			"text": "סָפֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1016,
 		"column": "a"

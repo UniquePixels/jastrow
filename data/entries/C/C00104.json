@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00104",
-	"slug": "גבל-2",
-	"headword": {
-		"text": "גְּבַל"
-	},
+	"sefariaHeadword": "גְּבַל",
+	"headwords": [
+		{
+			"text": "גְּבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "a"

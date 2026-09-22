@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02408",
-	"slug": "אסטרטא",
-	"headword": {
-		"text": "אִסְטְרָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרָטָא",
+	"headwords": [
 		{
-			"text": "אִיסְטְ׳"
+			"text": "אִסְטְרָטָא"
+		},
+		{
+			"text": "אִיסְטְ׳",
+			"partial": true
 		},
 		{
 			"text": "אִסְטְרָטָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 91,
 		"column": "b"

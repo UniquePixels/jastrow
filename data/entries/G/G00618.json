@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00618",
-	"slug": "זפירין",
-	"headword": {
-		"text": "זְפִירִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְפִירִין",
+	"headwords": [
+		{
+			"text": "זְפִירִין"
+		},
 		{
 			"text": "זִיפִירִין"
 		},
@@ -12,18 +13,17 @@
 			"text": "זִיפְרִין"
 		},
 		{
-			"text": "זוּפְ׳"
+			"text": "זוּפְ׳",
+			"partial": true
 		},
 		{
 			"text": "זוּפְרִים"
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3}, {4})",
 	"page": {
 		"number": 408,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

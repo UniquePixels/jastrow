@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01708",
-	"slug": "אכלי",
-	"headword": {
-		"text": "אַכְלִי"
-	},
+	"sefariaHeadword": "אַכְלִי",
+	"headwords": [
+		{
+			"text": "אַכְלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

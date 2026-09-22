@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02172",
-	"slug": "מערבלא",
-	"headword": {
-		"text": "מְעַרְבְּלָא"
-	},
+	"sefariaHeadword": "מְעַרְבְּלָא",
+	"headwords": [
+		{
+			"text": "מְעַרְבְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "a"

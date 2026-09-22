@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01481",
-	"slug": "חפשי",
-	"headword": {
-		"text": "חָפְשִׁי"
-	},
+	"sefariaHeadword": "חָפְשִׁי",
+	"headwords": [
+		{
+			"text": "חָפְשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 493,
 		"column": "a"

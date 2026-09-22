@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00013",
-	"slug": "כאי",
-	"headword": {
-		"text": "כְּאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּאֵי",
+	"headwords": [
 		{
-			"text": "כְּאֵי צַד"
+			"text": "כְּאֵי"
+		},
+		{
+			"text": "כ׳ צַד",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 606,
 		"column": "a"

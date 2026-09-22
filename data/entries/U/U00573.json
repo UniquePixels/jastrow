@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00573",
-	"slug": "שושמא",
-	"headword": {
-		"text": "שׁוּשִׁמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּשִׁמָא",
+	"headwords": [
+		{
+			"text": "שׁוּשִׁמָא"
+		},
 		{
 			"text": "שׁוּשְׁמָן"
 		},
@@ -12,6 +13,7 @@
 			"text": "שׁוּשְׁמָנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1543,
 		"column": "b"

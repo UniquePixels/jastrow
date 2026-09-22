@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02114",
-	"slug": "שתיתא",
-	"headword": {
-		"text": "שַׁתִּיתָא"
-	},
+	"sefariaHeadword": "שַׁתִּיתָא",
+	"headwords": [
+		{
+			"text": "שַׁתִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1638,
 		"column": "b"

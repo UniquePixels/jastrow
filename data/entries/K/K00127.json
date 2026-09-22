@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00127",
-	"slug": "כדיות",
-	"headword": {
-		"text": "כִּדִּיּוֹת"
-	},
+	"sefariaHeadword": "כִּדִּיּוֹת",
+	"headwords": [
+		{
+			"text": "כִּדִּיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 613,
 		"column": "b"

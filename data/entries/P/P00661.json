@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00661",
-	"slug": "עיקל-1",
-	"headword": {
-		"text": "עִיקֵּל"
-	},
+	"sefariaHeadword": "עִיקֵּל",
+	"headwords": [
+		{
+			"text": "עִיקֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00154",
-	"slug": "להבא",
-	"headword": {
-		"text": "לַהֲבָא"
-	},
+	"sefariaHeadword": "לַהֲבָא",
+	"headwords": [
+		{
+			"text": "לַהֲבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

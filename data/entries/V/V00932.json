@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00932",
-	"slug": "תרבית",
-	"headword": {
-		"text": "תַּרְבִּית"
-	},
+	"sefariaHeadword": "תַּרְבִּית",
+	"headwords": [
+		{
+			"text": "תַּרְבִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

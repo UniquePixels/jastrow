@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00117",
-	"slug": "סגוף-1",
-	"headword": {
-		"text": "סָגוּף"
-	},
+	"sefariaHeadword": "סָגוּף",
+	"headwords": [
+		{
+			"text": "סָגוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

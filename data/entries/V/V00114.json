@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00114",
-	"slug": "תהא",
-	"headword": {
-		"text": "תָּהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּהָא",
+	"headwords": [
+		{
+			"text": "תָּהָא"
+		},
 		{
 			"text": "תְּהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1648,
 		"column": "a"

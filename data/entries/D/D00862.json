@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00862",
-	"slug": "דלריא",
-	"headword": {
-		"text": "דלריא"
-	},
+	"sefariaHeadword": "דלריא",
+	"headwords": [
+		{
+			"text": "דלריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 311,
 		"column": "b"

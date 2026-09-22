@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00332",
-	"slug": "יילעו",
-	"headword": {
-		"text": "יילעו"
-	},
+	"sefariaHeadword": "יילעו",
+	"headwords": [
+		{
+			"text": "יילעו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

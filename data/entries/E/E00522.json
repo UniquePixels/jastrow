@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00522",
-	"slug": "הכרזה",
-	"headword": {
-		"text": "הַכְרָזָה"
-	},
+	"sefariaHeadword": "הַכְרָזָה",
+	"headwords": [
+		{
+			"text": "הַכְרָזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "a"

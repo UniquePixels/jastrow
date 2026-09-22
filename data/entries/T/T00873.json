@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00873",
-	"slug": "רעב-4",
-	"headword": {
-		"text": "רָעָב"
-	},
+	"sefariaHeadword": "רָעָב",
+	"headwords": [
+		{
+			"text": "רָעָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "b"

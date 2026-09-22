@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01714",
-	"slug": "חרם-1",
-	"headword": {
-		"text": "חָרַם"
-	},
+	"sefariaHeadword": "חָרַם",
+	"headwords": [
+		{
+			"text": "חָרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 503,
 		"column": "b"

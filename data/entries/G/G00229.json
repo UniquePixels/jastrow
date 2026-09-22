@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00229",
-	"slug": "זוקינא",
-	"headword": {
-		"text": "זַוְקִינָא"
-	},
+	"sefariaHeadword": "זַוְקִינָא",
+	"headwords": [
+		{
+			"text": "זַוְקִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "b"

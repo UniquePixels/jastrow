@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O00961",
-	"slug": "סלווכיא",
-	"headword": {
-		"text": "סַלְוַוכְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלְוַוכְיָא",
+	"headwords": [
+		{
+			"text": "סַלְוַוכְיָא"
+		},
 		{
 			"text": "סַלְוַוקְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

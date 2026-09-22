@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00830",
-	"slug": "פירה",
-	"headword": {
-		"text": "פירה"
-	},
+	"sefariaHeadword": "פירה",
+	"headwords": [
+		{
+			"text": "פירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

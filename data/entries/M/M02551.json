@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02551",
-	"slug": "מרדין-2",
-	"headword": {
-		"text": "מרדין"
-	},
+	"sefariaHeadword": "מרדין",
+	"headwords": [
+		{
+			"text": "מרדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

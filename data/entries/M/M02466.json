@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02466",
-	"slug": "מקרתא",
-	"headword": {
-		"text": "מְקֵרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקֵרְתָּא",
+	"headwords": [
+		{
+			"text": "מְקֵרְתָּא"
+		},
 		{
 			"text": "מְקֵירְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 833,
 		"column": "b"

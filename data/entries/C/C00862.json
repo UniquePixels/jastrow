@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00862",
-	"slug": "גלגא",
-	"headword": {
-		"text": "גַּלְגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְגָּא",
+	"headwords": [
+		{
+			"text": "גַּלְגָּא"
+		},
 		{
 			"text": "גַּלְגִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 244,
 		"column": "a"

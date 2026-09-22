@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00395",
-	"slug": "דחא",
-	"headword": {
-		"text": "דָּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּחָא",
+	"headwords": [
+		{
+			"text": "דָּחָא"
+		},
 		{
 			"text": "דְּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 291,
 		"column": "a"

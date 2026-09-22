@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00106",
-	"slug": "כדבב",
-	"headword": {
-		"text": "כַּדְבֵּב"
-	},
+	"sefariaHeadword": "כַּדְבֵּב",
+	"headwords": [
+		{
+			"text": "כַּדְבֵּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "b"

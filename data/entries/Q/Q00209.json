@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00209",
-	"slug": "פולא-2",
-	"headword": {
-		"text": "פּוֹלָא"
-	},
+	"sefariaHeadword": "פּוֹלָא",
+	"headwords": [
+		{
+			"text": "פּוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

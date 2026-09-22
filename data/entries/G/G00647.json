@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00647",
-	"slug": "זקנות",
-	"headword": {
-		"text": "זִקְנוּת"
-	},
+	"sefariaHeadword": "זִקְנוּת",
+	"headwords": [
+		{
+			"text": "זִקְנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00060",
-	"slug": "אבוד-2",
-	"headword": {
-		"text": "אבוד"
-	},
+	"sefariaHeadword": "אבוד",
+	"headwords": [
+		{
+			"text": "אבוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "b"

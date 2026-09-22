@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00669",
-	"slug": "שחלית",
-	"headword": {
-		"text": "שַׁחֲלִית"
-	},
+	"sefariaHeadword": "שַׁחֲלִית",
+	"headwords": [
+		{
+			"text": "שַׁחֲלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1548,
 		"column": "b"

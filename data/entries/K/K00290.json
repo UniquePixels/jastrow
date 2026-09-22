@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00290",
-	"slug": "כומר-1",
-	"headword": {
-		"text": "כּוֹמֶר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כּוֹמֶר I",
+	"headwords": [
+		{
+			"text": "כּוֹמֶר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 621,
 		"column": "a"

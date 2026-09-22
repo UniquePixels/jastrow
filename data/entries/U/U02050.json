@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02050",
-	"slug": "שרתא",
-	"headword": {
-		"text": "שרתא"
-	},
+	"sefariaHeadword": "שרתא",
+	"headwords": [
+		{
+			"text": "שרתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

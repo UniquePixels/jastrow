@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00563",
-	"slug": "גזלן",
-	"headword": {
-		"text": "גַּזְלָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּזְלָן",
+	"headwords": [
+		{
+			"text": "גַּזְלָן"
+		},
 		{
 			"text": "גּוֹזְלָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 231,
 		"column": "a"

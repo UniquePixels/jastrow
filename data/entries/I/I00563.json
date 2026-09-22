@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00563",
-	"slug": "טמשא",
-	"headword": {
-		"text": "טמשא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טמשא",
+	"headwords": [
+		{
+			"text": "טמשא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

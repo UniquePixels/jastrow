@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01390",
-	"slug": "כתרת",
-	"headword": {
-		"text": "כֹּתֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֹּתֶרֶת",
+	"headwords": [
+		{
+			"text": "כֹּתֶרֶת"
+		},
 		{
 			"text": "כֹּתַרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 682,
 		"column": "b"

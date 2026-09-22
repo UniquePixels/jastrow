@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00838",
-	"slug": "תפנוק",
-	"headword": {
-		"text": "תַּפְנוּק"
-	},
+	"sefariaHeadword": "תַּפְנוּק",
+	"headwords": [
+		{
+			"text": "תַּפְנוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1687,
 		"column": "b"

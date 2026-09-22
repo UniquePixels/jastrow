@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01143",
-	"slug": "איגיאה",
-	"headword": {
-		"text": "אִיגִיאָה"
-	},
+	"sefariaHeadword": "אִיגִיאָה",
+	"headwords": [
+		{
+			"text": "אִיגִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

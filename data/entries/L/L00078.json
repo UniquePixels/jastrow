@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00078",
-	"slug": "לביצין",
-	"headword": {
-		"text": "לְבֵיצִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבֵיצִין",
+	"headwords": [
 		{
-			"text": "לְבוּ׳"
+			"text": "לְבֵיצִין"
+		},
+		{
+			"text": "לְבוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 689,
 		"column": "a"

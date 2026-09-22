@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00621",
-	"slug": "נידא",
-	"headword": {
-		"text": "נידא"
-	},
+	"sefariaHeadword": "נידא",
+	"headwords": [
+		{
+			"text": "נידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00726",
-	"slug": "גילהי",
-	"headword": {
-		"text": "גִּילְהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּילְהֵי",
+	"headwords": [
+		{
+			"text": "גִּילְהֵי"
+		},
 		{
 			"text": "גּוּלְהֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 238,
 		"column": "b"

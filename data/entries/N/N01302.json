@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01302",
-	"slug": "נשח",
-	"headword": {
-		"text": "נָשַׂח"
-	},
+	"sefariaHeadword": "נָשַׂח",
+	"headwords": [
+		{
+			"text": "נָשַׂח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

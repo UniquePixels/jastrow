@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S01221",
-	"slug": "קישקושא-1",
-	"headword": {
-		"text": "קִישְׁקוּשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישְׁקוּשָׁא",
+	"headwords": [
+		{
+			"text": "קִישְׁקוּשָׁא"
+		},
 		{
 			"text": "קִשְׁ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1370,
 		"column": "b"

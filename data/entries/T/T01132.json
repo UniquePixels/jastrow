@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01132",
-	"slug": "רתיחה",
-	"headword": {
-		"text": "רְתִיחָה"
-	},
+	"sefariaHeadword": "רְתִיחָה",
+	"headwords": [
+		{
+			"text": "רְתִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "a"

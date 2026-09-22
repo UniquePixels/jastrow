@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00570",
-	"slug": "קורבין",
-	"headword": {
-		"text": "קוֹרְבִין"
-	},
+	"sefariaHeadword": "קוֹרְבִין",
+	"headwords": [
+		{
+			"text": "קוֹרְבִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "b"

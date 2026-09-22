@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00330",
-	"slug": "זיטיטוס",
-	"headword": {
-		"text": "זִיטִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיטִיטוֹס",
+	"headwords": [
+		{
+			"text": "זִיטִיטוֹס"
+		},
 		{
 			"text": "זִיטִיוְטוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "a"

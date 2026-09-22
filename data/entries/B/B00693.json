@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00693",
-	"slug": "ביקור",
-	"headword": {
-		"text": "בִּיקּוּר"
-	},
+	"sefariaHeadword": "בִּיקּוּר",
+	"headwords": [
+		{
+			"text": "בִּיקּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

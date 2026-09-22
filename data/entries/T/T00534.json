@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00534",
-	"slug": "רחף",
-	"headword": {
-		"text": "רָחַף"
-	},
+	"sefariaHeadword": "רָחַף",
+	"headwords": [
+		{
+			"text": "רָחַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "b"

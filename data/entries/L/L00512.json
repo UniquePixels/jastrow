@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00512",
-	"slug": "ליפתא",
-	"headword": {
-		"text": "לִיפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיפְתָּא",
+	"headwords": [
+		{
+			"text": "לִיפְתָּא"
+		},
 		{
 			"text": "לִיפְתּוּתָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "לִיפְתָּנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 709,
 		"column": "a"

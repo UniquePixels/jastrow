@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K01193",
-	"slug": "כרכדון",
-	"headword": {
-		"text": "כַּרְכְּדוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְכְּדוֹן",
+	"headwords": [
+		{
+			"text": "כַּרְכְּדוֹן"
+		},
 		{
 			"text": "כַּרְכְּדַיָּיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כרכדיינון"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 669,
 		"column": "a"

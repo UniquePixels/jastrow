@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00580",
-	"slug": "יקר-1",
-	"headword": {
-		"text": "יָקַר"
-	},
+	"sefariaHeadword": "יָקַר",
+	"headwords": [
+		{
+			"text": "יָקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 592,
 		"column": "a"

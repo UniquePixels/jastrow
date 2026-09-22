@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00086",
-	"slug": "אבטא-1",
-	"headword": {
-		"text": "אבטא"
-	},
+	"sefariaHeadword": "אבטא",
+	"headwords": [
+		{
+			"text": "אבטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

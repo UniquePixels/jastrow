@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02288",
-	"slug": "מצויינא",
-	"headword": {
-		"text": "מַצּוּיָינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַצּוּיָינָא",
+	"headwords": [
+		{
+			"text": "מַצּוּיָינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 824,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00637",
-	"slug": "מורט",
-	"headword": {
-		"text": "מוֹרָט"
-	},
+	"sefariaHeadword": "מוֹרָט",
+	"headwords": [
+		{
+			"text": "מוֹרָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00290",
-	"slug": "ציארא",
-	"headword": {
-		"text": "צְיָארָא"
-	},
+	"sefariaHeadword": "צְיָארָא",
+	"headwords": [
+		{
+			"text": "צְיָארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "a"

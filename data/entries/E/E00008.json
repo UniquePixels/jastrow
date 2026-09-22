@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00008",
-	"slug": "הא-4",
-	"headword": {
-		"text": "הִא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "הִא III",
+	"headwords": [
+		{
+			"text": "הִא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 328,
 		"column": "a"

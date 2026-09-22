@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01026",
-	"slug": "קינוח",
-	"headword": {
-		"text": "קִינּוּחַ"
-	},
+	"sefariaHeadword": "קִינּוּחַ",
+	"headwords": [
+		{
+			"text": "קִינּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "a"

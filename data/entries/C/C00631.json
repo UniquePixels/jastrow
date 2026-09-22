@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00631",
-	"slug": "גידוד-1",
-	"headword": {
-		"text": "גִּידּוֹד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גִּידּוֹד",
+	"headwords": [
+		{
+			"text": "גִּידּוֹד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 235,
 		"column": "a"

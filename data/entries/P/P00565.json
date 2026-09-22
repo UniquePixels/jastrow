@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "P00565",
-	"slug": "עיל-1",
-	"headword": {
-		"text": "עֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵיל",
+	"headwords": [
+		{
+			"text": "עֵיל"
+		},
 		{
 			"text": "עֵילָא"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		},
 		{
 			"text": "עֵלָא"
 		}
 	],
+	"display": "{0}, {1}, ({2}), {3}",
 	"page": {
 		"number": 1069,
 		"column": "b"

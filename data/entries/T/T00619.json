@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00619",
-	"slug": "ריחוף",
-	"headword": {
-		"text": "רִיחוּף"
-	},
+	"sefariaHeadword": "רִיחוּף",
+	"headwords": [
+		{
+			"text": "רִיחוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "a"

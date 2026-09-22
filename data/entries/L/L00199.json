@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00199",
-	"slug": "לודים",
-	"headword": {
-		"text": "לוּדִים"
-	},
+	"sefariaHeadword": "לוּדִים",
+	"headwords": [
+		{
+			"text": "לוּדִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

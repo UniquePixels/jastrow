@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01588",
-	"slug": "איקומיני",
-	"headword": {
-		"text": "אִיקוּמֵינֵי"
-	},
+	"sefariaHeadword": "אִיקוּמֵינֵי",
+	"headwords": [
+		{
+			"text": "אִיקוּמֵינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

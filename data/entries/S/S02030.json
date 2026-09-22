@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02030",
-	"slug": "קריאה",
-	"headword": {
-		"text": "קְרִיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרִיאָה",
+	"headwords": [
+		{
+			"text": "קְרִיאָה"
+		},
 		{
 			"text": "קְרִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1419,
 		"column": "a"

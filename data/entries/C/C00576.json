@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00576",
-	"slug": "גזר-4",
-	"headword": {
-		"text": "גֶּזֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֶּזֶר",
+	"headwords": [
+		{
+			"text": "גֶּזֶר"
+		},
 		{
 			"text": "גֶּיזֶר"
 		},
@@ -12,6 +13,7 @@
 			"text": "גָּזִיר"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 232,
 		"column": "a"

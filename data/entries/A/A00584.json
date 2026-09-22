@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00584",
-	"slug": "אווסוס",
-	"headword": {
-		"text": "אֶוְוסוֹס"
-	},
+	"sefariaHeadword": "אֶוְוסוֹס",
+	"headwords": [
+		{
+			"text": "אֶוְוסוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "a"

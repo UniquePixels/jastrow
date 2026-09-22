@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00257",
-	"slug": "הופכא",
-	"headword": {
-		"text": "הוּפְכָא"
-	},
+	"sefariaHeadword": "הוּפְכָא",
+	"headwords": [
+		{
+			"text": "הוּפְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

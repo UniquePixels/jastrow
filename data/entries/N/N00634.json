@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00634",
-	"slug": "ניויה",
-	"headword": {
-		"text": "נִיוְיָהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיוְיָהּ",
+	"headwords": [
+		{
+			"text": "נִיוְיָהּ"
+		},
 		{
 			"text": "נִיוְיוֹ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "b"

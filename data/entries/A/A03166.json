@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03166",
-	"slug": "ארמא-2",
-	"headword": {
-		"text": "אֲרָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרָמָא",
+	"headwords": [
+		{
+			"text": "אֲרָמָא"
+		},
 		{
 			"text": "אָרָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 122,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00568",
-	"slug": "קורבה",
-	"headword": {
-		"text": "קוֹרְבָה"
-	},
+	"sefariaHeadword": "קוֹרְבָה",
+	"headwords": [
+		{
+			"text": "קוֹרְבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "a"

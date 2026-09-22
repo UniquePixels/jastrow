@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01041",
-	"slug": "חליטה-3",
-	"headword": {
-		"text": "חֲלִיטָה",
-		"homograph": 3
-	},
+	"sefariaHeadword": "חֲלִיטָה III",
+	"headwords": [
+		{
+			"text": "חֲלִיטָה",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 468,
 		"column": "b"

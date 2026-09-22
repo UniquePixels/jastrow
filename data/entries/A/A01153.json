@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01153",
-	"slug": "אידא-2",
-	"headword": {
-		"text": "אֵידָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֵידָא II",
+	"headwords": [
+		{
+			"text": "אֵידָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 45,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00263",
-	"slug": "אגוטרי",
-	"headword": {
-		"text": "אגוטרי"
-	},
+	"sefariaHeadword": "אגוטרי",
+	"headwords": [
+		{
+			"text": "אגוטרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

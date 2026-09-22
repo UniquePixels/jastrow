@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00665",
-	"slug": "גיור",
-	"headword": {
-		"text": "גִּיּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיּוֹר",
+	"headwords": [
+		{
+			"text": "גִּיּוֹר"
+		},
 		{
 			"text": "גִּיּוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "b"

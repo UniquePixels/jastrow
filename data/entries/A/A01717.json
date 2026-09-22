@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01717",
-	"slug": "אכנס",
-	"headword": {
-		"text": "אכנס"
-	},
+	"sefariaHeadword": "אכנס",
+	"headwords": [
+		{
+			"text": "אכנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

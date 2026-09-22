@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01439",
-	"slug": "חפי-1",
-	"headword": {
-		"text": "חָפֵי"
-	},
+	"sefariaHeadword": "חָפֵי",
+	"headwords": [
+		{
+			"text": "חָפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "a"

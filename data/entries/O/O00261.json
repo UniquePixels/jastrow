@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00261",
-	"slug": "סודנא",
-	"headword": {
-		"text": "סוּדָנָא"
-	},
+	"sefariaHeadword": "סוּדָנָא",
+	"headwords": [
+		{
+			"text": "סוּדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "b"

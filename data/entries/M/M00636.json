@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00636",
-	"slug": "מורחת",
-	"headword": {
-		"text": "מוּרַחַת"
-	},
+	"sefariaHeadword": "מוּרַחַת",
+	"headwords": [
+		{
+			"text": "מוּרַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

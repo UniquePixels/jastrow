@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00847",
-	"slug": "חיפופי",
-	"headword": {
-		"text": "חִיפּוּפֵי"
-	},
+	"sefariaHeadword": "חִיפּוּפֵי",
+	"headwords": [
+		{
+			"text": "חִיפּוּפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "a"

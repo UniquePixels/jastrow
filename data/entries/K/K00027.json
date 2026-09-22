@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00027",
-	"slug": "כבאסא",
-	"headword": {
-		"text": "כְּבָאסָא"
-	},
+	"sefariaHeadword": "כְּבָאסָא",
+	"headwords": [
+		{
+			"text": "כְּבָאסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

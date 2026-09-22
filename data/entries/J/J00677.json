@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00677",
-	"slug": "ישבאב",
-	"headword": {
-		"text": "יֶשֶׁבְאָב"
-	},
+	"sefariaHeadword": "יֶשֶׁבְאָב",
+	"headwords": [
+		{
+			"text": "יֶשֶׁבְאָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 599,
 		"column": "b"

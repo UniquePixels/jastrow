@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01353",
-	"slug": "נשתם",
-	"headword": {
-		"text": "נַשְׁתֵּם"
-	},
+	"sefariaHeadword": "נַשְׁתֵּם",
+	"headwords": [
+		{
+			"text": "נַשְׁתֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 942,
 		"column": "b"

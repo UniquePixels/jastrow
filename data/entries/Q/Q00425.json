@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00425",
-	"slug": "פזי",
-	"headword": {
-		"text": "פַּזִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּזִּי",
+	"headwords": [
+		{
+			"text": "פַּזִּי"
+		},
 		{
 			"text": "פַּזְיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1150,
 		"column": "a"

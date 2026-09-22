@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00895",
-	"slug": "סכיא",
-	"headword": {
-		"text": "סַכְיָא"
-	},
+	"sefariaHeadword": "סַכְיָא",
+	"headwords": [
+		{
+			"text": "סַכְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "b"

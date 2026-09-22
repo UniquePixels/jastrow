@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01254",
-	"slug": "איכומא",
-	"headword": {
-		"text": "אִיכּוּמָא"
-	},
+	"sefariaHeadword": "אִיכּוּמָא",
+	"headwords": [
+		{
+			"text": "אִיכּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

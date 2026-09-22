@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00605",
-	"slug": "דילטוריא",
-	"headword": {
-		"text": "דִּילָטוֹרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּילָטוֹרְיָא",
+	"headwords": [
 		{
-			"text": "דִּלָ׳"
+			"text": "דִּילָטוֹרְיָא"
+		},
+		{
+			"text": "דִּלָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "b"

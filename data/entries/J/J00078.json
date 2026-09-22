@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00078",
-	"slug": "יגה",
-	"headword": {
-		"text": "יָגָה"
-	},
+	"sefariaHeadword": "יָגָה",
+	"headwords": [
+		{
+			"text": "יָגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

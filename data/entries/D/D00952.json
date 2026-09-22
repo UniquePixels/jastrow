@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00952",
-	"slug": "דף",
-	"headword": {
-		"text": "דַּף"
-	},
+	"sefariaHeadword": "דַּף",
+	"headwords": [
+		{
+			"text": "דַּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 316,
 		"column": "b"

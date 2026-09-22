@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00390",
-	"slug": "שוטר",
-	"headword": {
-		"text": "שׁוֹטֵר"
-	},
+	"sefariaHeadword": "שׁוֹטֵר",
+	"headwords": [
+		{
+			"text": "שׁוֹטֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1532,
 		"column": "a"

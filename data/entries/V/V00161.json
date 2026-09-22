@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00161",
-	"slug": "תוה-1",
-	"headword": {
-		"text": "תָּוָה"
-	},
+	"sefariaHeadword": "תָּוָה",
+	"headwords": [
+		{
+			"text": "תָּוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1651,
 		"column": "a"

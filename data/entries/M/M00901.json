@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00901",
-	"slug": "מחמצן",
-	"headword": {
-		"text": "מְחַמְּצָן"
-	},
+	"sefariaHeadword": "מְחַמְּצָן",
+	"headwords": [
+		{
+			"text": "מְחַמְּצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

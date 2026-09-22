@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02459",
-	"slug": "אסכריא",
-	"headword": {
-		"text": "אסכריא"
-	},
+	"sefariaHeadword": "אסכריא",
+	"headwords": [
+		{
+			"text": "אסכריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "b"

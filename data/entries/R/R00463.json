@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00463",
-	"slug": "צירנית",
-	"headword": {
-		"text": "צִירָנִית"
-	},
+	"sefariaHeadword": "צִירָנִית",
+	"headwords": [
+		{
+			"text": "צִירָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

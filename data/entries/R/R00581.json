@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00581",
-	"slug": "צמיתות",
-	"headword": {
-		"text": "צְמִיתוּת"
-	},
+	"sefariaHeadword": "צְמִיתוּת",
+	"headwords": [
+		{
+			"text": "צְמִיתוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "G00188",
-	"slug": "זומי",
-	"headword": {
-		"text": "זומי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זומי",
+	"headwords": [
 		{
-			"text": "זומי ליסטרא"
+			"text": "זומי"
 		},
 		{
-			"text": "זומי לסטרון"
+			"text": "ז׳ ליסטרא",
+			"partial": true
+		},
+		{
+			"text": "ז׳ לסטרון",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 387,
 		"column": "a"

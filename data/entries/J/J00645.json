@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00645",
-	"slug": "ירמוך",
-	"headword": {
-		"text": "יַרְמוּךְ"
-	},
+	"sefariaHeadword": "יַרְמוּךְ",
+	"headwords": [
+		{
+			"text": "יַרְמוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "a"

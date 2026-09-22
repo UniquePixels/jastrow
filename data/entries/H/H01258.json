@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01258",
-	"slug": "חנויא",
-	"headword": {
-		"text": "חֲנוֹיָא"
-	},
+	"sefariaHeadword": "חֲנוֹיָא",
+	"headwords": [
+		{
+			"text": "חֲנוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00887",
-	"slug": "עמיסה",
-	"headword": {
-		"text": "עֲמִיסָה"
-	},
+	"sefariaHeadword": "עֲמִיסָה",
+	"headwords": [
+		{
+			"text": "עֲמִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "a"

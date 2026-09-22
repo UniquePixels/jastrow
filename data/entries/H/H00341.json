@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00341",
-	"slug": "חולחולתא",
-	"headword": {
-		"text": "חוּלְחוּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלְחוּלְתָּא",
+	"headwords": [
+		{
+			"text": "חוּלְחוּלְתָּא"
+		},
 		{
 			"text": "חוּלְחַלְתָּא"
 		},
 		{
-			"text": "חַלְחוּלְ׳"
+			"text": "חַלְחוּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 434,
 		"column": "a"

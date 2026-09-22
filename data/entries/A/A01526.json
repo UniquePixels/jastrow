@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01526",
-	"slug": "איסתניסיה",
-	"headword": {
-		"text": "איסתניסיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איסתניסיה",
+	"headwords": [
 		{
-			"text": "איסט׳"
+			"text": "איסתניסיה"
+		},
+		{
+			"text": "איסט׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 58,
 		"column": "a"

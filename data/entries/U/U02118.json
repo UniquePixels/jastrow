@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02118",
-	"slug": "שתך-2",
-	"headword": {
-		"text": "שָׁתַךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁתַךְ ²",
+	"headwords": [
+		{
+			"text": "שָׁתַךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְּׁתֵיךְ"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1638,
 		"column": "b"

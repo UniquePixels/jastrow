@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00975",
-	"slug": "נעורת",
-	"headword": {
-		"text": "נְעוֹרֶת"
-	},
+	"sefariaHeadword": "נְעוֹרֶת",
+	"headwords": [
+		{
+			"text": "נְעוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "a"

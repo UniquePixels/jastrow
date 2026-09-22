@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01603",
-	"slug": "פרהדרין",
-	"headword": {
-		"text": "פַּרְהֶדְרִין"
-	},
+	"sefariaHeadword": "פַּרְהֶדְרִין",
+	"headwords": [
+		{
+			"text": "פַּרְהֶדְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1216,
 		"column": "b"

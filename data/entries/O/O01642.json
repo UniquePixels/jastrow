@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01642",
-	"slug": "סרנא",
-	"headword": {
-		"text": "סרנא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרנא",
+	"headwords": [
+		{
+			"text": "סרנא"
+		},
 		{
 			"text": "סרני"
 		},
@@ -12,6 +13,7 @@
 			"text": "סרנייא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1028,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02715",
-	"slug": "מרמיטה",
-	"headword": {
-		"text": "מרמיטה"
-	},
+	"sefariaHeadword": "מרמיטה",
+	"headwords": [
+		{
+			"text": "מרמיטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

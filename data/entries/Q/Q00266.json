@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00266",
-	"slug": "פונדקאה",
-	"headword": {
-		"text": "פּוּנְדְּקָאָה"
-	},
+	"sefariaHeadword": "פּוּנְדְּקָאָה",
+	"headwords": [
+		{
+			"text": "פּוּנְדְּקָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

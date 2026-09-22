@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00332",
-	"slug": "שובתא",
-	"headword": {
-		"text": "שׁוּבְּתָא"
-	},
+	"sefariaHeadword": "שׁוּבְּתָא",
+	"headwords": [
+		{
+			"text": "שׁוּבְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "a"

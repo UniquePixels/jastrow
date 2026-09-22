@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00836",
-	"slug": "סירוג",
-	"headword": {
-		"text": "סֵירוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵירוּג",
+	"headwords": [
 		{
-			"text": "סֵר׳"
+			"text": "סֵירוּג"
+		},
+		{
+			"text": "סֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "a"

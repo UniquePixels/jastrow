@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01094",
-	"slug": "בצל-2",
-	"headword": {
-		"text": "בָּצֵל"
-	},
+	"sefariaHeadword": "בָּצֵל",
+	"headwords": [
+		{
+			"text": "בָּצֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

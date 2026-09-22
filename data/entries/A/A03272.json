@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03272",
-	"slug": "אשון-2",
-	"headword": {
-		"text": "אָשׁוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָשׁוּן",
+	"headwords": [
+		{
+			"text": "אָשׁוּן"
+		},
 		{
 			"text": "אֲשׁוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "a"

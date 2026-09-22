@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00402",
-	"slug": "אדיניא",
-	"headword": {
-		"text": "אֲדִינַיָּא"
-	},
+	"sefariaHeadword": "אֲדִינַיָּא",
+	"headwords": [
+		{
+			"text": "אֲדִינַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

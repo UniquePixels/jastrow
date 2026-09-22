@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01919",
-	"slug": "אלמן",
-	"headword": {
-		"text": "אִלְמֵן"
-	},
+	"sefariaHeadword": "אִלְמֵן",
+	"headwords": [
+		{
+			"text": "אִלְמֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "a"

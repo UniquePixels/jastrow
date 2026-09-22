@@ -1,22 +1,27 @@
 {
+	"schemaVersion": 2,
 	"id": "A02348",
-	"slug": "אסטבלא",
-	"headword": {
-		"text": "אִסְטַבְלָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְטַבְלָא",
+	"headwords": [
 		{
-			"text": "אִצְ׳"
+			"text": "אִסְטַבְלָא",
+			"reconstructed": true
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִצְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		},
 		{
 			"text": "אִיצְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}, {3} II",
 	"page": {
 		"number": 89,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01346",
-	"slug": "בשא",
-	"headword": {
-		"text": "בשא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בשא",
+	"headwords": [
+		{
+			"text": "בשא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02492",
-	"slug": "מרבג",
-	"headword": {
-		"text": "מרבג"
-	},
+	"sefariaHeadword": "מרבג",
+	"headwords": [
+		{
+			"text": "מרבג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

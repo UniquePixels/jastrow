@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00163",
-	"slug": "דו-2",
-	"headword": {
-		"text": "דּוּ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דּוּ II",
+	"headwords": [
+		{
+			"text": "דּוּ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 282,
 		"column": "a"

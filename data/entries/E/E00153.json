@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00153",
-	"slug": "הדרה-1",
-	"headword": {
-		"text": "הֲדָרָה"
-	},
+	"sefariaHeadword": "הֲדָרָה",
+	"headwords": [
+		{
+			"text": "הֲדָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

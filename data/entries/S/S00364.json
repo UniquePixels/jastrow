@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00364",
-	"slug": "קולקס",
-	"headword": {
-		"text": "קוֹלְקָס"
-	},
+	"sefariaHeadword": "קוֹלְקָס",
+	"headwords": [
+		{
+			"text": "קוֹלְקָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1329,
 		"column": "b"

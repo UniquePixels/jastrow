@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01554",
-	"slug": "פרגול-2",
-	"headword": {
-		"text": "פִּרְגּוֹל",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פִּרְגּוֹל",
+	"headwords": [
+		{
+			"text": "פִּרְגּוֹל",
+			"reconstructed": true
+		},
 		{
 			"text": "פִּרְגָּל"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1214,
 		"column": "a"

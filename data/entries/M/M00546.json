@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00546",
-	"slug": "מוסמיס",
-	"headword": {
-		"text": "מוּסמִיס"
-	},
+	"sefariaHeadword": "מוּסמִיס",
+	"headwords": [
+		{
+			"text": "מוּסמִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00241",
-	"slug": "שגריר",
-	"headword": {
-		"text": "שַׁגְרִיר"
-	},
+	"sefariaHeadword": "שַׁגְרִיר",
+	"headwords": [
+		{
+			"text": "שַׁגְרִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1523,
 		"column": "a"

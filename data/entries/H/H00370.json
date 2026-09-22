@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00370",
-	"slug": "חום-2",
-	"headword": {
-		"text": "חוֹם"
-	},
+	"sefariaHeadword": "חוֹם",
+	"headwords": [
+		{
+			"text": "חוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "a"

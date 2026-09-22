@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00760",
-	"slug": "תסברתא",
-	"headword": {
-		"text": "תִּסְבַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְבַּרְתָּא",
+	"headwords": [
 		{
-			"text": "תִּסְוַו׳"
+			"text": "תִּסְבַּרְתָּא"
+		},
+		{
+			"text": "תִּסְוַו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1682,
 		"column": "b"

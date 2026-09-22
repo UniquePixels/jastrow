@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01507",
-	"slug": "עשרון",
-	"headword": {
-		"text": "עִשָּׂרוֹן"
-	},
+	"sefariaHeadword": "עִשָּׂרוֹן",
+	"headwords": [
+		{
+			"text": "עִשָּׂרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1127,
 		"column": "b"

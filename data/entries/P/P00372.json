@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00372",
-	"slug": "עושר",
-	"headword": {
-		"text": "עוֹשֶׁר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹשֶׁר",
+	"headwords": [
+		{
+			"text": "עוֹשֶׁר"
+		},
 		{
 			"text": "עשֶׁר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1059,
 		"column": "b"

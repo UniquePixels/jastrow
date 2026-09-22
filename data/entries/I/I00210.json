@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00210",
-	"slug": "טופרא",
-	"headword": {
-		"text": "טוּפְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּפְרָא",
+	"headwords": [
+		{
+			"text": "טוּפְרָא"
+		},
 		{
 			"text": "טְפַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 525,
 		"column": "b"

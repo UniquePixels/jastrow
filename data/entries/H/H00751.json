@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00751",
-	"slug": "חיך",
-	"headword": {
-		"text": "חֵיךְ"
-	},
+	"sefariaHeadword": "חֵיךְ",
+	"headwords": [
+		{
+			"text": "חֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "b"

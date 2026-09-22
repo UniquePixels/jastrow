@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01156",
-	"slug": "שכירות",
-	"headword": {
-		"text": "שְׂכִירוּת"
-	},
+	"sefariaHeadword": "שְׂכִירוּת",
+	"headwords": [
+		{
+			"text": "שְׂכִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "b"

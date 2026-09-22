@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00624",
-	"slug": "חטיבה-1",
-	"headword": {
-		"text": "חֲטִיבָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲטִיבָה I",
+	"headwords": [
+		{
+			"text": "חֲטִיבָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 449,
 		"column": "b"

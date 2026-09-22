@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01707",
-	"slug": "קפוד",
-	"headword": {
-		"text": "קִפּוֹד"
-	},
+	"sefariaHeadword": "קִפּוֹד",
+	"headwords": [
+		{
+			"text": "קִפּוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "b"

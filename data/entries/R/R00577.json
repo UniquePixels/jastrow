@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00577",
-	"slug": "צמייא",
-	"headword": {
-		"text": "צַמְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַמְיָיא",
+	"headwords": [
 		{
-			"text": "צַמְיָיא קַיְיטָא"
+			"text": "צַמְיָיא"
+		},
+		{
+			"text": "צַ׳ קַיְיטָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1288,
 		"column": "a"

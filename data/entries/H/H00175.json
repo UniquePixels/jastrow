@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00175",
-	"slug": "חדד-1",
-	"headword": {
-		"text": "חָדַד"
-	},
+	"sefariaHeadword": "חָדַד",
+	"headwords": [
+		{
+			"text": "חָדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

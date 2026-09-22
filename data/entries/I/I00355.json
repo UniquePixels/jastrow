@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00355",
-	"slug": "טייר-2",
-	"headword": {
-		"text": "טַיִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַיִּיר",
+	"headwords": [
+		{
+			"text": "טַיִּיר"
+		},
 		{
 			"text": "טְיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 531,
 		"column": "b"

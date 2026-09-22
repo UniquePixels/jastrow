@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00397",
-	"slug": "תחתית",
-	"headword": {
-		"text": "תַּחְתִּית"
-	},
+	"sefariaHeadword": "תַּחְתִּית",
+	"headwords": [
+		{
+			"text": "תַּחְתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "b"

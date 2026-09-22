@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00799",
-	"slug": "פיקדון",
-	"headword": {
-		"text": "פִּיקָּדוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקָּדוֹן",
+	"headwords": [
+		{
+			"text": "פִּיקָּדוֹן"
+		},
 		{
 			"text": "פִּיקְּדוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "a"

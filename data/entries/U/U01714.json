@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01714",
-	"slug": "שפוד",
-	"headword": {
-		"text": "שְׁפוּד"
-	},
+	"sefariaHeadword": "שְׁפוּד",
+	"headwords": [
+		{
+			"text": "שְׁפוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

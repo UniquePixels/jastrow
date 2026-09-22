@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01174",
-	"slug": "פנטוס",
-	"headword": {
-		"text": "פַּנְטוֹס"
-	},
+	"sefariaHeadword": "פַּנְטוֹס",
+	"headwords": [
+		{
+			"text": "פַּנְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

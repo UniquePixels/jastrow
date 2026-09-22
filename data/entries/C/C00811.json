@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00811",
-	"slug": "גירגבסין",
-	"headword": {
-		"text": "גִּירְגִּבְסִין"
-	},
+	"sefariaHeadword": "גִּירְגִּבְסִין",
+	"headwords": [
+		{
+			"text": "גִּירְגִּבְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "a"

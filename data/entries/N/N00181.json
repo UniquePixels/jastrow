@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00181",
-	"slug": "נגף-1",
-	"headword": {
-		"text": "נָגַף"
-	},
+	"sefariaHeadword": "נָגַף",
+	"headwords": [
+		{
+			"text": "נָגַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 875,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00551",
-	"slug": "אוגרנא",
-	"headword": {
-		"text": "אוגרנא"
-	},
+	"sefariaHeadword": "אוגרנא",
+	"headwords": [
+		{
+			"text": "אוגרנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

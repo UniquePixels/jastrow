@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00450",
-	"slug": "בזייני",
-	"headword": {
-		"text": "בִּזְיָינֵי"
-	},
+	"sefariaHeadword": "בִּזְיָינֵי",
+	"headwords": [
+		{
+			"text": "בִּזְיָינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "b"

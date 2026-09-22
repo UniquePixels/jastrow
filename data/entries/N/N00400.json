@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00400",
-	"slug": "נוצחייא",
-	"headword": {
-		"text": "נוצחייא"
-	},
+	"sefariaHeadword": "נוצחייא",
+	"headwords": [
+		{
+			"text": "נוצחייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

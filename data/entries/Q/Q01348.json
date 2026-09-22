@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01348",
-	"slug": "פספס-4",
-	"headword": {
-		"text": "פַּסְפֵּס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פַּסְפֵּס ²",
+	"headwords": [
+		{
+			"text": "פַּסְפֵּס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1199,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01032",
-	"slug": "תרעא-1",
-	"headword": {
-		"text": "תָּרָעָא"
-	},
+	"sefariaHeadword": "תָּרָעָא",
+	"headwords": [
+		{
+			"text": "תָּרָעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "a"

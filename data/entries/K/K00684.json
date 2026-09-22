@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00684",
-	"slug": "כלביא",
-	"headword": {
-		"text": "כִּלְבִּיָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כִּלְבִּיָּא",
+	"headwords": [
+		{
+			"text": "כִּלְבִּיָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

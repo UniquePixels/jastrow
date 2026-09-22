@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D01071",
-	"slug": "דרופתקי",
-	"headword": {
-		"text": "דָּרוּפִתְקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּרוּפִתְקֵי",
+	"headwords": [
+		{
+			"text": "דָּרוּפִתְקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

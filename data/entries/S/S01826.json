@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01826",
-	"slug": "קצירא",
-	"headword": {
-		"text": "קְצִירָא"
-	},
+	"sefariaHeadword": "קְצִירָא",
+	"headwords": [
+		{
+			"text": "קְצִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "b"

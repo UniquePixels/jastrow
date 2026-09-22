@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02560",
-	"slug": "אסרטיא-1",
-	"headword": {
-		"text": "אִסְרַטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְרַטְיָא",
+	"headwords": [
+		{
+			"text": "אִסְרַטְיָא"
+		},
 		{
 			"text": "אִיסְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 98,
 		"column": "b"

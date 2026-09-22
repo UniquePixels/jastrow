@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01054",
-	"slug": "סמא-5",
-	"headword": {
-		"text": "סָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָמָא",
+	"headwords": [
+		{
+			"text": "סָמָא"
+		},
 		{
 			"text": "סְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 998,
 		"column": "b"

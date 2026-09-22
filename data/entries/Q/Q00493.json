@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00493",
-	"slug": "פחתין",
-	"headword": {
-		"text": "פַּחֲתִין"
-	},
+	"sefariaHeadword": "פַּחֲתִין",
+	"headwords": [
+		{
+			"text": "פַּחֲתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

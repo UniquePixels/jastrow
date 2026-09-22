@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00914",
-	"slug": "שיירתא",
-	"headword": {
-		"text": "שְׁיַירְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁיַירְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁיַירְתָּא"
+		},
 		{
 			"text": "שְׁיַירְתָּה"
 		},
 		{
-			"text": "שְׁיַרְ׳"
+			"text": "שְׁיַרְ׳",
+			"partial": true
 		},
 		{
 			"text": "שְׁיָירָא"
@@ -18,6 +20,7 @@
 			"text": "שְׁיָרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1562,
 		"column": "a"

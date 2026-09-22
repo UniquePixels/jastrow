@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00328",
-	"slug": "כוסמים",
-	"headword": {
-		"text": "כּוּסְּמִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּסְּמִים",
+	"headwords": [
+		{
+			"text": "כּוּסְּמִים"
+		},
 		{
 			"text": "כּוּסְּמִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 623,
 		"column": "b"

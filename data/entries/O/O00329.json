@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00329",
-	"slug": "סולתין",
-	"headword": {
-		"text": "סולתין"
-	},
+	"sefariaHeadword": "סולתין",
+	"headwords": [
+		{
+			"text": "סולתין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

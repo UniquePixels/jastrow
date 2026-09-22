@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03001",
-	"slug": "משתמיהה",
-	"headword": {
-		"text": "משתמיהה"
-	},
+	"sefariaHeadword": "משתמיהה",
+	"headwords": [
+		{
+			"text": "משתמיהה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "b"

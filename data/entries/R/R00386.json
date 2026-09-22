@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00386",
-	"slug": "צינא-1",
-	"headword": {
-		"text": "צִינָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צִינָּא I",
+	"headwords": [
+		{
+			"text": "צִינָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1277,
 		"column": "b"

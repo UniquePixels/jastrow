@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00510",
-	"slug": "הכיני",
-	"headword": {
-		"text": "הָכֵינִי"
-	},
+	"sefariaHeadword": "הָכֵינִי",
+	"headwords": [
+		{
+			"text": "הָכֵינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

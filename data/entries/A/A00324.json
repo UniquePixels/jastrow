@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00324",
-	"slug": "אגנתא",
-	"headword": {
-		"text": "אֲגַנְתָּא"
-	},
+	"sefariaHeadword": "אֲגַנְתָּא",
+	"headwords": [
+		{
+			"text": "אֲגַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

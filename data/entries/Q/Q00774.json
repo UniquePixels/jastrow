@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00774",
-	"slug": "פיעור",
-	"headword": {
-		"text": "פִּיעוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיעוּר",
+	"headwords": [
+		{
+			"text": "פִּיעוּר"
+		},
 		{
 			"text": "פִּעוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1168,
 		"column": "a"

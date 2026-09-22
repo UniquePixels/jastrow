@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "U01905",
-	"slug": "שר-1",
-	"headword": {
-		"text": "שֵׁר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁר",
+	"headwords": [
+		{
+			"text": "שֵׁר"
+		},
 		{
 			"text": "שֵׁיד"
 		},
 		{
-			"text": "מִגְדַּל שׁ׳"
+			"text": "מִגְדַּל שׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1626,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

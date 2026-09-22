@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00296",
-	"slug": "פוע-1",
-	"headword": {
-		"text": "פּוּעַ"
-	},
+	"sefariaHeadword": "פּוּעַ",
+	"headwords": [
+		{
+			"text": "פּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00291",
-	"slug": "חוח",
-	"headword": {
-		"text": "חוֹחַ"
-	},
+	"sefariaHeadword": "חוֹחַ",
+	"headwords": [
+		{
+			"text": "חוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00162",
-	"slug": "צוד-2",
-	"headword": {
-		"text": "צוּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּד ²",
+	"headwords": [
+		{
+			"text": "צוּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִיד"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1266,
 		"column": "a"

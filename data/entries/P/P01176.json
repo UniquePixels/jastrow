@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01176",
-	"slug": "עקילס",
-	"headword": {
-		"text": "עֲקִילַס"
-	},
+	"sefariaHeadword": "עֲקִילַס",
+	"headwords": [
+		{
+			"text": "עֲקִילַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "b"

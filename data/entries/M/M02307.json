@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02307",
-	"slug": "מצי-2",
-	"headword": {
-		"text": "מְצִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצִי I",
+	"headwords": [
+		{
+			"text": "מְצִי",
+			"homograph": 1
+		},
 		{
 			"text": "מְצָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 825,
 		"column": "b"

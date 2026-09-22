@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00056",
-	"slug": "סבילה",
-	"headword": {
-		"text": "סְבִילָה"
-	},
+	"sefariaHeadword": "סְבִילָה",
+	"headwords": [
+		{
+			"text": "סְבִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

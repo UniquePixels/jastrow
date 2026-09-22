@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01222",
-	"slug": "ברזילא",
-	"headword": {
-		"text": "ברזילא"
-	},
+	"sefariaHeadword": "ברזילא",
+	"headwords": [
+		{
+			"text": "ברזילא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

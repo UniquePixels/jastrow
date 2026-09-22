@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00739",
-	"slug": "חייס-1",
-	"headword": {
-		"text": "חָיֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָיֵיס",
+	"headwords": [
+		{
+			"text": "חָיֵיס"
+		},
 		{
 			"text": "חַיֵּיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 455,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01267",
-	"slug": "כרפת",
-	"headword": {
-		"text": "כרפת"
-	},
+	"sefariaHeadword": "כרפת",
+	"headwords": [
+		{
+			"text": "כרפת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 673,
 		"column": "b"

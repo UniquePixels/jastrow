@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00650",
-	"slug": "קורקנות",
-	"headword": {
-		"text": "קוּרְקָנוֹת"
-	},
+	"sefariaHeadword": "קוּרְקָנוֹת",
+	"headwords": [
+		{
+			"text": "קוּרְקָנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "a"

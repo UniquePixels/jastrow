@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00444",
-	"slug": "גונתאי",
-	"headword": {
-		"text": "גּוּנְתָּאִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּנְתָּאִי",
+	"headwords": [
+		{
+			"text": "גּוּנְתָּאִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

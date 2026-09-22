@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01490",
-	"slug": "איספרגל",
-	"headword": {
-		"text": "אִיסְפַּרְגַּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְפַּרְגַּל",
+	"headwords": [
+		{
+			"text": "אִיסְפַּרְגַּל"
+		},
 		{
 			"text": "אספרלג"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 56,
 		"column": "b"

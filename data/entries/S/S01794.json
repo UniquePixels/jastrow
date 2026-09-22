@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01794",
-	"slug": "קצופה",
-	"headword": {
-		"text": "קְצוּפָה"
-	},
+	"sefariaHeadword": "קְצוּפָה",
+	"headwords": [
+		{
+			"text": "קְצוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

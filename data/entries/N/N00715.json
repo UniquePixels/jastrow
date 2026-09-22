@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00715",
-	"slug": "ניסרדי",
-	"headword": {
-		"text": "ניסרדי"
-	},
+	"sefariaHeadword": "ניסרדי",
+	"headwords": [
+		{
+			"text": "ניסרדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

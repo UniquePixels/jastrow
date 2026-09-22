@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02738",
-	"slug": "אפליון",
-	"headword": {
-		"text": "אַפַּלְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפַּלְיוֹן",
+	"headwords": [
+		{
+			"text": "אַפַּלְיוֹן"
+		},
 		{
 			"text": "פַּלְיוּם"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּלְיוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 105,
 		"column": "b"

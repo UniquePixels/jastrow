@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01474",
-	"slug": "מלאכי",
-	"headword": {
-		"text": "מַלְאָכִי"
-	},
+	"sefariaHeadword": "מַלְאָכִי",
+	"headwords": [
+		{
+			"text": "מַלְאָכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 786,
 		"column": "b"

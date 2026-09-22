@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00793",
-	"slug": "סיפותא",
-	"headword": {
-		"text": "סִיפְוָתָא"
-	},
+	"sefariaHeadword": "סִיפְוָתָא",
+	"headwords": [
+		{
+			"text": "סִיפְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

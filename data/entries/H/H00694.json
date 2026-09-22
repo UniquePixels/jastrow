@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00694",
-	"slug": "חיזון",
-	"headword": {
-		"text": "חִיזּוּן"
-	},
+	"sefariaHeadword": "חִיזּוּן",
+	"headwords": [
+		{
+			"text": "חִיזּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "a"

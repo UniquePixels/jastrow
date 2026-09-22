@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01370",
-	"slug": "נתין",
-	"headword": {
-		"text": "נָתִין"
-	},
+	"sefariaHeadword": "נָתִין",
+	"headwords": [
+		{
+			"text": "נָתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

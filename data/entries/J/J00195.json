@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00195",
-	"slug": "יום-2",
-	"headword": {
-		"text": "יוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹם ²",
+	"headwords": [
+		{
+			"text": "יוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "יוֹמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 569,
 		"column": "a"

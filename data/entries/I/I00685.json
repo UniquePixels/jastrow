@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00685",
-	"slug": "טפשות",
-	"headword": {
-		"text": "טִפְּשׁוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִפְּשׁוּת",
+	"headwords": [
 		{
-			"text": "טִיפְּ׳"
+			"text": "טִפְּשׁוּת"
+		},
+		{
+			"text": "טִיפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 549,
 		"column": "a"

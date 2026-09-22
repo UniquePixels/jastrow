@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00978",
-	"slug": "סלי-2",
-	"headword": {
-		"text": "סְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְלֵי",
+	"headwords": [
+		{
+			"text": "סְלֵי"
+		},
 		{
 			"text": "סְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "b"

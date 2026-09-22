@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02100",
-	"slug": "מעטן",
-	"headword": {
-		"text": "מַעֲטֵן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעֲטֵן",
+	"headwords": [
+		{
+			"text": "מַעֲטֵן"
+		},
 		{
 			"text": "מַעֲטֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 815,
 		"column": "b"

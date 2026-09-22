@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01533",
-	"slug": "קנה-1",
-	"headword": {
-		"text": "קָנָה"
-	},
+	"sefariaHeadword": "קָנָה",
+	"headwords": [
+		{
+			"text": "קָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

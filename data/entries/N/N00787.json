@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00787",
-	"slug": "ניר-6",
-	"headword": {
-		"text": "נִיר",
-		"homograph": 4
-	},
+	"sefariaHeadword": "נִיר IV",
+	"headwords": [
+		{
+			"text": "נִיר",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 909,
 		"column": "a"

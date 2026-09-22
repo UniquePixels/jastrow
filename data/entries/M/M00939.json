@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00939",
-	"slug": "מחרים",
-	"headword": {
-		"text": "מחרים"
-	},
+	"sefariaHeadword": "מחרים",
+	"headwords": [
+		{
+			"text": "מחרים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "b"

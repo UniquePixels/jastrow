@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01012",
-	"slug": "רקבא-1",
-	"headword": {
-		"text": "רִקְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִקְבָּא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִקְבָּא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1496,
 		"column": "a"

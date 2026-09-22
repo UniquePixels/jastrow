@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00484",
-	"slug": "נחותא-2",
-	"headword": {
-		"text": "נָחוֹתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָחוֹתָא",
+	"headwords": [
+		{
+			"text": "נָחוֹתָא"
+		},
 		{
 			"text": "נָחוֹתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 894,
 		"column": "a"

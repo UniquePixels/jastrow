@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01367",
-	"slug": "כתכתין",
-	"headword": {
-		"text": "כָּתְכָּתִין"
-	},
+	"sefariaHeadword": "כָּתְכָּתִין",
+	"headwords": [
+		{
+			"text": "כָּתְכָּתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "a"

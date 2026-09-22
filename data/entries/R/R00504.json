@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00504",
-	"slug": "צלחתא",
-	"headword": {
-		"text": "צִלְחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִלְחֲתָא",
+	"headwords": [
 		{
-			"text": "צִילְ׳"
+			"text": "צִלְחֲתָא"
+		},
+		{
+			"text": "צִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1283,
 		"column": "a"

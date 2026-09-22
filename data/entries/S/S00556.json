@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00556",
-	"slug": "קוקרא",
-	"headword": {
-		"text": "קוֹקָרָא"
-	},
+	"sefariaHeadword": "קוֹקָרָא",
+	"headwords": [
+		{
+			"text": "קוֹקָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

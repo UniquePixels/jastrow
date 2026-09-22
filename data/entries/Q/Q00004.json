@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00004",
-	"slug": "פאג",
-	"headword": {
-		"text": "פָּאג"
-	},
+	"sefariaHeadword": "פָּאג",
+	"headwords": [
+		{
+			"text": "פָּאג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1130,
 		"column": "a"

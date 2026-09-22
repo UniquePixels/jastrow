@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00393",
-	"slug": "הילוכא",
-	"headword": {
-		"text": "הִילּוּכָא"
-	},
+	"sefariaHeadword": "הִילּוּכָא",
+	"headwords": [
+		{
+			"text": "הִילּוּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "a"

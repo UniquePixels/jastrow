@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00467",
-	"slug": "עטנין",
-	"headword": {
-		"text": "עִטְּנִין"
-	},
+	"sefariaHeadword": "עִטְּנִין",
+	"headwords": [
+		{
+			"text": "עִטְּנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02415",
-	"slug": "מקטרג",
-	"headword": {
-		"text": "מְקַטְרֵג"
-	},
+	"sefariaHeadword": "מְקַטְרֵג",
+	"headwords": [
+		{
+			"text": "מְקַטְרֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "b"

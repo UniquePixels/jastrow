@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02314",
-	"slug": "מציבות",
-	"headword": {
-		"text": "מציבות"
-	},
+	"sefariaHeadword": "מציבות",
+	"headwords": [
+		{
+			"text": "מציבות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

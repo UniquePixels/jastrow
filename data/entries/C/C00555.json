@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00555",
-	"slug": "גזיריפטי",
-	"headword": {
-		"text": "גְּזִירִיפַּטֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזִירִיפַּטֵּי",
+	"headwords": [
+		{
+			"text": "גְּזִירִיפַּטֵּי"
+		},
 		{
 			"text": "גְּזִירְפַּטֵּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 230,
 		"column": "a"

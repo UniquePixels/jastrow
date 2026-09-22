@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00326",
-	"slug": "עוק-1",
-	"headword": {
-		"text": "עוּק"
-	},
+	"sefariaHeadword": "עוּק",
+	"headwords": [
+		{
+			"text": "עוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "a"

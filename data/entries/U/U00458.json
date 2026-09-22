@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00458",
-	"slug": "שומרון",
-	"headword": {
-		"text": "שׁוֹמְרוֹן"
-	},
+	"sefariaHeadword": "שׁוֹמְרוֹן",
+	"headwords": [
+		{
+			"text": "שׁוֹמְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "a"

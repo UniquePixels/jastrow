@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00172",
-	"slug": "בהיי",
-	"headword": {
-		"text": "בהיי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בהיי",
+	"headwords": [
+		{
+			"text": "בהיי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 142,
 		"column": "a"

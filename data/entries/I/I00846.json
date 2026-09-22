@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00846",
-	"slug": "טרס-2",
-	"headword": {
-		"text": "טֶרֶס"
-	},
+	"sefariaHeadword": "טֶרֶס",
+	"headwords": [
+		{
+			"text": "טֶרֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

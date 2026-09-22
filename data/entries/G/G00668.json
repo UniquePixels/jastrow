@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00668",
-	"slug": "זרגונה",
-	"headword": {
-		"text": "זַרְגּוּנָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זַרְגּוּנָה",
+	"headwords": [
+		{
+			"text": "זַרְגּוּנָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 411,
 		"column": "b"

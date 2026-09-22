@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01040",
-	"slug": "חליטה-2",
-	"headword": {
-		"text": "חֲלִיטָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִיטָה II",
+	"headwords": [
+		{
+			"text": "חֲלִיטָה",
+			"homograph": 2
+		},
 		{
 			"text": "הַחֲלָטָה"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 468,
 		"column": "b"

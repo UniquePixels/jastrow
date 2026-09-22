@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01555",
-	"slug": "חקיל",
-	"headword": {
-		"text": "חֲקִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲקִיל",
+	"headwords": [
+		{
+			"text": "חֲקִיל"
+		},
 		{
 			"text": "חֲקִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 496,
 		"column": "b"

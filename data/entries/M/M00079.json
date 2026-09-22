@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00079",
-	"slug": "מבול",
-	"headword": {
-		"text": "מַבּוּל"
-	},
+	"sefariaHeadword": "מַבּוּל",
+	"headwords": [
+		{
+			"text": "מַבּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

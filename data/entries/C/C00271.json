@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "C00271",
-	"slug": "גוב-3",
-	"headword": {
-		"text": "גּוֹב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוֹב ²",
+	"headwords": [
+		{
+			"text": "גּוֹב",
+			"disambiguator": 2
+		},
 		{
 			"text": "גּוּב"
 		},
@@ -22,6 +23,7 @@
 			"text": "גּוּבָּה"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 216,
 		"column": "b"

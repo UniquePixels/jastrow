@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00332",
-	"slug": "לזות",
-	"headword": {
-		"text": "לָזוּת"
-	},
+	"sefariaHeadword": "לָזוּת",
+	"headwords": [
+		{
+			"text": "לָזוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

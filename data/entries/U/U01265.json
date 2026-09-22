@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01265",
-	"slug": "שלח-1",
-	"headword": {
-		"text": "שָׁלַח"
-	},
+	"sefariaHeadword": "שָׁלַח",
+	"headwords": [
+		{
+			"text": "שָׁלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "b"

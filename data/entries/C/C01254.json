@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01254",
-	"slug": "גרגף",
-	"headword": {
-		"text": "גַּרְגֵּף"
-	},
+	"sefariaHeadword": "גַּרְגֵּף",
+	"headwords": [
+		{
+			"text": "גַּרְגֵּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

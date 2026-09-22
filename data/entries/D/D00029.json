@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00029",
-	"slug": "דארא",
-	"headword": {
-		"text": "דַּארָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דַּארָא",
+	"headwords": [
+		{
+			"text": "דַּארָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

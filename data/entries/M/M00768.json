@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00768",
-	"slug": "מזמור",
-	"headword": {
-		"text": "מִזְמוֹר"
-	},
+	"sefariaHeadword": "מִזְמוֹר",
+	"headwords": [
+		{
+			"text": "מִזְמוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

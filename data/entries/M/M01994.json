@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01994",
-	"slug": "מספר-2",
-	"headword": {
-		"text": "מַסְפָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַסְפָּר",
+	"headwords": [
+		{
+			"text": "מַסְפָּר"
+		},
 		{
 			"text": "מַסֵפְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 810,
 		"column": "a"

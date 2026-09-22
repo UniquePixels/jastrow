@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00716",
-	"slug": "יתד",
-	"headword": {
-		"text": "יָתֵד"
-	},
+	"sefariaHeadword": "יָתֵד",
+	"headwords": [
+		{
+			"text": "יָתֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 603,
 		"column": "a"

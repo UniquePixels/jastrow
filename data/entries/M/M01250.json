@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01250",
-	"slug": "מיסן",
-	"headword": {
-		"text": "מיסן"
-	},
+	"sefariaHeadword": "מיסן",
+	"headwords": [
+		{
+			"text": "מיסן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "b"

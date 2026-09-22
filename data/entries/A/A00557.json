@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00557",
-	"slug": "אודיא",
-	"headword": {
-		"text": "אוּדְיָא"
-	},
+	"sefariaHeadword": "אוּדְיָא",
+	"headwords": [
+		{
+			"text": "אוּדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

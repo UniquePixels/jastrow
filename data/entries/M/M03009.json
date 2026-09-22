@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03009",
-	"slug": "מתארא",
-	"headword": {
-		"text": "מְתָארָא"
-	},
+	"sefariaHeadword": "מְתָארָא",
+	"headwords": [
+		{
+			"text": "מְתָארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

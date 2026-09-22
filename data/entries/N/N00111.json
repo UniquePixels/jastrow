@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00111",
-	"slug": "נברשתא",
-	"headword": {
-		"text": "נֶבְרַשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֶבְרַשְׁתָּא",
+	"headwords": [
 		{
-			"text": "נִב׳"
+			"text": "נֶבְרַשְׁתָּא"
+		},
+		{
+			"text": "נִב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 871,
 		"column": "a"

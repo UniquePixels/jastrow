@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02124",
-	"slug": "פתגם",
-	"headword": {
-		"text": "פִּתְגָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּתְגָּם",
+	"headwords": [
+		{
+			"text": "פִּתְגָּם"
+		},
 		{
 			"text": "פִּתְגָּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1250,
 		"column": "a"

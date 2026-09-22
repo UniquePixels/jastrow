@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00116",
-	"slug": "פדחתא",
-	"headword": {
-		"text": "פְּדַחְתָּא"
-	},
+	"sefariaHeadword": "פְּדַחְתָּא",
+	"headwords": [
+		{
+			"text": "פְּדַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "b"

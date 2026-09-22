@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01278",
-	"slug": "אילווא",
-	"headword": {
-		"text": "אילווא"
-	},
+	"sefariaHeadword": "אילווא",
+	"headwords": [
+		{
+			"text": "אילווא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01140",
-	"slug": "סמרון",
-	"headword": {
-		"text": "סמרון"
-	},
+	"sefariaHeadword": "סמרון",
+	"headwords": [
+		{
+			"text": "סמרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

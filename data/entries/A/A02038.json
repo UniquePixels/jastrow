@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02038",
-	"slug": "אמן-1",
-	"headword": {
-		"text": "אָמַן"
-	},
+	"sefariaHeadword": "אָמַן",
+	"headwords": [
+		{
+			"text": "אָמַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "b"

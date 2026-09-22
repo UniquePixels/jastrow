@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02023",
-	"slug": "מסרוקה",
-	"headword": {
-		"text": "מַסְרוֹקָה"
-	},
+	"sefariaHeadword": "מַסְרוֹקָה",
+	"headwords": [
+		{
+			"text": "מַסְרוֹקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

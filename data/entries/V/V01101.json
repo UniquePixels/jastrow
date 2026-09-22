@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01101",
-	"slug": "תשניק",
-	"headword": {
-		"text": "תַּשְׁנִיק"
-	},
+	"sefariaHeadword": "תַּשְׁנִיק",
+	"headwords": [
+		{
+			"text": "תַּשְׁנִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "b"

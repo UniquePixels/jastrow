@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00477",
-	"slug": "בחירה",
-	"headword": {
-		"text": "בְּחִירָה"
-	},
+	"sefariaHeadword": "בְּחִירָה",
+	"headwords": [
+		{
+			"text": "בְּחִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "a"

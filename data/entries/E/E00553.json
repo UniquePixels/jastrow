@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00553",
-	"slug": "הליכה",
-	"headword": {
-		"text": "הֲלִיכָה"
-	},
+	"sefariaHeadword": "הֲלִיכָה",
+	"headwords": [
+		{
+			"text": "הֲלִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

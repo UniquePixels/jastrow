@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01023",
-	"slug": "בעבע-1",
-	"headword": {
-		"text": "בִּעְבֵּעַ"
-	},
+	"sefariaHeadword": "בִּעְבֵּעַ",
+	"headwords": [
+		{
+			"text": "בִּעְבֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "a"

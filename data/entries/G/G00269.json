@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00269",
-	"slug": "זיבורית",
-	"headword": {
-		"text": "זִיבּוּרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיבּוּרִית",
+	"headwords": [
 		{
-			"text": "זִבּ׳"
+			"text": "זִיבּוּרִית"
+		},
+		{
+			"text": "זִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00519",
-	"slug": "מומחא",
-	"headword": {
-		"text": "מוּמְחָא"
-	},
+	"sefariaHeadword": "מוּמְחָא",
+	"headwords": [
+		{
+			"text": "מוּמְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "b"

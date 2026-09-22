@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00935",
-	"slug": "נסיון-2",
-	"headword": {
-		"text": "נִסָּיוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִסָּיוֹן ²",
+	"headwords": [
+		{
+			"text": "נִסָּיוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "נִסְיוֹנָא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 916,
 		"column": "b"

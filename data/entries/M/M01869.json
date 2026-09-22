@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01869",
-	"slug": "מסוכסך",
-	"headword": {
-		"text": "מְסוּכְסָךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסוּכְסָךְ",
+	"headwords": [
+		{
+			"text": "מְסוּכְסָךְ"
+		},
 		{
 			"text": "מְסוּכְסֶכֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 804,
 		"column": "b"

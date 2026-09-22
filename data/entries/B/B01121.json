@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01121",
-	"slug": "בקיע-2",
-	"headword": {
-		"text": "בְּקִיעַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בְּקִיעַ II",
+	"headwords": [
+		{
+			"text": "בְּקִיעַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 186,
 		"column": "a"

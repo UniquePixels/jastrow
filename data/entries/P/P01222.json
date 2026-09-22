@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01222",
-	"slug": "עקרבין",
-	"headword": {
-		"text": "עַקְרַבִּין"
-	},
+	"sefariaHeadword": "עַקְרַבִּין",
+	"headwords": [
+		{
+			"text": "עַקְרַבִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

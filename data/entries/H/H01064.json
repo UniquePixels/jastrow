@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01064",
-	"slug": "חליקוסתא",
-	"headword": {
-		"text": "חליקוסתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חליקוסתא",
+	"headwords": [
+		{
+			"text": "חליקוסתא"
+		},
 		{
 			"text": "חלקוסתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 469,
 		"column": "b"

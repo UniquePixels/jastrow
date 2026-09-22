@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01066",
-	"slug": "דרוסא",
-	"headword": {
-		"text": "דְּרוֹסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרוֹסָא",
+	"headwords": [
+		{
+			"text": "דְּרוֹסָא"
+		},
 		{
 			"text": "דְּרוֹסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 322,
 		"column": "a"

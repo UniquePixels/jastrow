@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00798",
-	"slug": "חימה",
-	"headword": {
-		"text": "חֵימָה"
-	},
+	"sefariaHeadword": "חֵימָה",
+	"headwords": [
+		{
+			"text": "חֵימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

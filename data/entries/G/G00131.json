@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00131",
-	"slug": "זוד-2",
-	"headword": {
-		"text": "זְוַד"
-	},
+	"sefariaHeadword": "זְוַד",
+	"headwords": [
+		{
+			"text": "זְוַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "a"

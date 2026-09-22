@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00637",
-	"slug": "שחט-3",
-	"headword": {
-		"text": "שְׁחַט"
-	},
+	"sefariaHeadword": "שְׁחַט",
+	"headwords": [
+		{
+			"text": "שְׁחַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1547,
 		"column": "a"

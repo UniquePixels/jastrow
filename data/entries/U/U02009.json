@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U02009",
-	"slug": "שרף-7",
-	"headword": {
-		"text": "שָׂרָף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׂרָף II",
+	"headwords": [
+		{
+			"text": "שָׂרָף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1633,
 		"column": "a"

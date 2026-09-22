@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01266",
-	"slug": "כרפסא-2",
-	"headword": {
-		"text": "כַּרְפְּסָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כַּרְפְּסָא II",
+	"headwords": [
+		{
+			"text": "כַּרְפְּסָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 673,
 		"column": "b"

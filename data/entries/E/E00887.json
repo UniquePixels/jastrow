@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00887",
-	"slug": "הרס-1",
-	"headword": {
-		"text": "הָרַס"
-	},
+	"sefariaHeadword": "הָרַס",
+	"headwords": [
+		{
+			"text": "הָרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 368,
 		"column": "a"

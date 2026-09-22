@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00991",
-	"slug": "שיעור",
-	"headword": {
-		"text": "שִׁיעוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיעוּר",
+	"headwords": [
+		{
+			"text": "שִׁיעוּר"
+		},
 		{
 			"text": "שִׁעוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1565,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00299",
-	"slug": "פועה-2",
-	"headword": {
-		"text": "פּוּעָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פּוּעָה II",
+	"headwords": [
+		{
+			"text": "פּוּעָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1144,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00375",
-	"slug": "עות-3",
-	"headword": {
-		"text": "עות"
-	},
+	"sefariaHeadword": "עות",
+	"headwords": [
+		{
+			"text": "עות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "b"

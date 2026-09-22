@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00457",
-	"slug": "שומרה-2",
-	"headword": {
-		"text": "שׁוֹמֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹמֵרָה",
+	"headwords": [
+		{
+			"text": "שׁוֹמֵרָה"
+		},
 		{
 			"text": "שׁוֹמֵירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1537,
 		"column": "a"

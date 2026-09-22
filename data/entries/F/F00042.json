@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00042",
-	"slug": "וילסאות",
-	"headword": {
-		"text": "וילסאות"
-	},
+	"sefariaHeadword": "וילסאות",
+	"headwords": [
+		{
+			"text": "וילסאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

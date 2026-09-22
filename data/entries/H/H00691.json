@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00691",
-	"slug": "חיותא-1",
-	"headword": {
-		"text": "חַיּוּתָא"
-	},
+	"sefariaHeadword": "חַיּוּתָא",
+	"headwords": [
+		{
+			"text": "חַיּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00076",
-	"slug": "דבר-2",
-	"headword": {
-		"text": "דְּבַר"
-	},
+	"sefariaHeadword": "דְּבַר",
+	"headwords": [
+		{
+			"text": "דְּבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 278,
 		"column": "a"

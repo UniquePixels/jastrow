@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A00371",
-	"slug": "אדא-3",
-	"headword": {
-		"text": "אָדָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*אָדָא III",
+	"headwords": [
+		{
+			"text": "אָדָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 15,
 		"column": "b"

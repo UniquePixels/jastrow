@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01099",
-	"slug": "פלס",
-	"headword": {
-		"text": "פְּלַס"
-	},
+	"sefariaHeadword": "פְּלַס",
+	"headwords": [
+		{
+			"text": "פְּלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

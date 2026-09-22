@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "H00896",
-	"slug": "חישתא-2",
-	"headword": {
-		"text": "חִישְׁתָּא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*חִישְׁתָּא II",
+	"headwords": [
+		{
+			"text": "חִישְׁתָּא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 460,
 		"column": "b"

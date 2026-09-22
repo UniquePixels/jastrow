@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00170",
-	"slug": "צווח",
-	"headword": {
-		"text": "צָוַוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָוַוח",
+	"headwords": [
+		{
+			"text": "צָוַוח"
+		},
 		{
 			"text": "צָוַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1266,
 		"column": "a"
@@ -18,9 +20,9 @@
 			"gloss": "(b. h. <cite ref=\"R00185\"><he>צָוַח</he></cite>)<i>to cry, shout; to complain</i>. ",
 			"units": [
 				"<cite ref=\"Ketubot 14b:9\">Keth. 14ᵇ</cite> <he>ממזר וצוֹוֵחַ</he> one that is called a bastard and brings complaint, opp. <he>שותק</he>. ",
-				"<cite ref=\"Bava Metzia 24b:7\">B. Mets. 24ᵇ</cite> <he>והלא עומד וצווֵֹחַ</he> but does he (the loser) not stand up and cry (which shows that he has not given up the hope of recovery)? <he>נעשה כצווח על וכ׳</he> it is like one crying over his house that has fallen in &c. ",
-				"<cite ref=\"Bava Batra 138a:7\">B. Bath. 138ᵃ</cite> <he>בצָ׳ מעיקרא</he> (or <he>בצוֵֹחַ</he>), <he>בצָ׳ מעיקרו</he> when he cried out (refused the gift) at the start (when it was offered to him). ",
-				"<cite ref=\"Sotah 42b:1\">Sot. 42ᵇ</cite> <he>צוְֹחִין וכ׳</he> (better <cite ref=\"R00152\"><he>צווְֹ׳</he></cite>) they (the gentile soldiers) shout (before they attack) and stamp; <cite ref=\"Sifrei Devarim 192:3\">Sifré Deut. 192</cite> <he>צווְֹחִים</he>; a. fr."
+				"<cite ref=\"Bava Metzia 24b:7\">B. Mets. 24ᵇ</cite> <he>והלא עומד וצווֵֹחַ</he> but does he (the loser) not stand up and cry (which shows that he has not given up the hope of recovery)? <he>נעשה כצווח על וכ׳</he> it is like one crying over his house that has fallen in &c. ",
+				"<cite ref=\"Bava Batra 138a:7\">B. Bath. 138ᵃ</cite> <he>בצָ׳ מעיקרא</he> (or <he>בצוֵֹחַ</he>), <he>בצָ׳ מעיקרו</he> when he cried out (refused the gift) at the start (when it was offered to him). ",
+				"<cite ref=\"Sotah 42b:1\">Sot. 42ᵇ</cite> <he>צוְֹחִין וכ׳</he> (better <cite ref=\"R00152\"><he>צווְֹ׳</he></cite>) they (the gentile soldiers) shout (before they attack) and stamp; <cite ref=\"Sifrei Devarim 192:3\">Sifré Deut. 192</cite> <he>צווְֹחִים</he>; a. fr."
 			]
 		}
 	],

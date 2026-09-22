@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00429",
-	"slug": "ינון-1",
-	"headword": {
-		"text": "יִנוּן"
-	},
+	"sefariaHeadword": "יִנוּן",
+	"headwords": [
+		{
+			"text": "יִנוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

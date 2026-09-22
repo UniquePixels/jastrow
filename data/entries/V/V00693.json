@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00693",
-	"slug": "תמן",
-	"headword": {
-		"text": "תַּמָּן"
-	},
+	"sefariaHeadword": "תַּמָּן",
+	"headwords": [
+		{
+			"text": "תַּמָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1678,
 		"column": "a"

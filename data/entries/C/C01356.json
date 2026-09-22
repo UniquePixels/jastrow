@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01356",
-	"slug": "גרמומיא",
-	"headword": {
-		"text": "גרמומיא"
-	},
+	"sefariaHeadword": "גרמומיא",
+	"headwords": [
+		{
+			"text": "גרמומיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "a"

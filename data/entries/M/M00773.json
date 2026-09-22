@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00773",
-	"slug": "מזמנא",
-	"headword": {
-		"text": "מְזַמָּנָא"
-	},
+	"sefariaHeadword": "מְזַמָּנָא",
+	"headwords": [
+		{
+			"text": "מְזַמָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

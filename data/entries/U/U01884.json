@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01884",
-	"slug": "שקפא-2",
-	"headword": {
-		"text": "שִׁקְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁקְפָא",
+	"headwords": [
+		{
+			"text": "שִׁקְפָא"
+		},
 		{
 			"text": "שִׁקְפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1625,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01390",
-	"slug": "בתנייא",
-	"headword": {
-		"text": "בָּתְנַיָּיא"
-	},
+	"sefariaHeadword": "בָּתְנַיָּיא",
+	"headwords": [
+		{
+			"text": "בָּתְנַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00146",
-	"slug": "טוטלוותא",
-	"headword": {
-		"text": "טוֹטַלְוָותָא"
-	},
+	"sefariaHeadword": "טוֹטַלְוָותָא",
+	"headwords": [
+		{
+			"text": "טוֹטַלְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

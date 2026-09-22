@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00266",
-	"slug": "נהיקא",
-	"headword": {
-		"text": "נְהִיקָא"
-	},
+	"sefariaHeadword": "נְהִיקָא",
+	"headwords": [
+		{
+			"text": "נְהִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

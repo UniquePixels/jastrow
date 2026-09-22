@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00514",
-	"slug": "טלמיא",
-	"headword": {
-		"text": "טַלְמָיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַלְמָיָא",
+	"headwords": [
+		{
+			"text": "טַלְמָיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

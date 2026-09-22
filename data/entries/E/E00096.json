@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00096",
-	"slug": "הדא",
-	"headword": {
-		"text": "הָדָא"
-	},
+	"sefariaHeadword": "הָדָא",
+	"headwords": [
+		{
+			"text": "הָדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "b"

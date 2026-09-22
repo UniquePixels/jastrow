@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00795",
-	"slug": "טריכונוס",
-	"headword": {
-		"text": "טריכונוס"
-	},
+	"sefariaHeadword": "טריכונוס",
+	"headwords": [
+		{
+			"text": "טריכונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "b"

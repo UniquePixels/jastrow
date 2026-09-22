@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00186",
-	"slug": "רגיג",
-	"headword": {
-		"text": "רָגִיג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָגִיג",
+	"headwords": [
 		{
-			"text": "רְ׳"
+			"text": "רָגִיג"
+		},
+		{
+			"text": "רְ׳",
+			"partial": true
 		},
 		{
 			"text": "רְגִיגָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1448,
 		"column": "a"

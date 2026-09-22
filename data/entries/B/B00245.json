@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00245",
-	"slug": "בוכיאר",
-	"headword": {
-		"text": "בּוּכְיאר"
-	},
+	"sefariaHeadword": "בּוּכְיאר",
+	"headwords": [
+		{
+			"text": "בּוּכְיאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

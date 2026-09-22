@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00637",
-	"slug": "לפיכך",
-	"headword": {
-		"text": "לְפִיכָךְ"
-	},
+	"sefariaHeadword": "לְפִיכָךְ",
+	"headwords": [
+		{
+			"text": "לְפִיכָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

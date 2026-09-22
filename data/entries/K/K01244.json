@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01244",
-	"slug": "כרס-2",
-	"headword": {
-		"text": "כֶּרֶס"
-	},
+	"sefariaHeadword": "כֶּרֶס",
+	"headwords": [
+		{
+			"text": "כֶּרֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

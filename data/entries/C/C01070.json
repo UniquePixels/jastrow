@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01070",
-	"slug": "גמרנא",
-	"headword": {
-		"text": "גַּמְרָנָא"
-	},
+	"sefariaHeadword": "גַּמְרָנָא",
+	"headwords": [
+		{
+			"text": "גַּמְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

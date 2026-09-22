@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00916",
-	"slug": "רעף",
-	"headword": {
-		"text": "רַעַף"
-	},
+	"sefariaHeadword": "רַעַף",
+	"headwords": [
+		{
+			"text": "רַעַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1488,
 		"column": "b"

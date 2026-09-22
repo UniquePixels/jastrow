@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01147",
-	"slug": "מיכאל",
-	"headword": {
-		"text": "מִיכָאֵל"
-	},
+	"sefariaHeadword": "מִיכָאֵל",
+	"headwords": [
+		{
+			"text": "מִיכָאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "a"

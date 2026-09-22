@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00932",
-	"slug": "נסיובי",
-	"headword": {
-		"text": "נַסְיוּבֵי"
-	},
+	"sefariaHeadword": "נַסְיוּבֵי",
+	"headwords": [
+		{
+			"text": "נַסְיוּבֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 916,
 		"column": "b"

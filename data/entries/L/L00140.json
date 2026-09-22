@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00140",
-	"slug": "לגמן",
-	"headword": {
-		"text": "לגמן"
-	},
+	"sefariaHeadword": "לגמן",
+	"headwords": [
+		{
+			"text": "לגמן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

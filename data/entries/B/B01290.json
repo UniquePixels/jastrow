@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B01290",
-	"slug": "ברך-4",
-	"headword": {
-		"text": "בֶּרֶךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֶּרֶךְ ²",
+	"headwords": [
+		{
+			"text": "בֶּרֶךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "בִּרְכָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "בִּירְכָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 195,
 		"column": "b"

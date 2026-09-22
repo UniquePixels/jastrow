@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00796",
-	"slug": "הקמה",
-	"headword": {
-		"text": "הֲקָמָה"
-	},
+	"sefariaHeadword": "הֲקָמָה",
+	"headwords": [
+		{
+			"text": "הֲקָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

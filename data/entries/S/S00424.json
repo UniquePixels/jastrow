@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00424",
-	"slug": "קונה",
-	"headword": {
-		"text": "קוֹנֶה"
-	},
+	"sefariaHeadword": "קוֹנֶה",
+	"headwords": [
+		{
+			"text": "קוֹנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

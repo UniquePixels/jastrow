@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00224",
-	"slug": "קובטירה",
-	"headword": {
-		"text": "קובטירה"
-	},
+	"sefariaHeadword": "קובטירה",
+	"headwords": [
+		{
+			"text": "קובטירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "b"

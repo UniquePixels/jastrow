@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00561",
-	"slug": "למא-1",
-	"headword": {
-		"text": "לְמָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לְמָא I",
+	"headwords": [
+		{
+			"text": "לְמָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 711,
 		"column": "b"

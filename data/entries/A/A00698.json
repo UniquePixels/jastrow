@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00698",
-	"slug": "אומלל",
-	"headword": {
-		"text": "אוּמְלָל"
-	},
+	"sefariaHeadword": "אוּמְלָל",
+	"headwords": [
+		{
+			"text": "אוּמְלָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "a"

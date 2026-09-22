@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00288",
-	"slug": "קוטב",
-	"headword": {
-		"text": "קוֹטֶב"
-	},
+	"sefariaHeadword": "קוֹטֶב",
+	"headwords": [
+		{
+			"text": "קוֹטֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

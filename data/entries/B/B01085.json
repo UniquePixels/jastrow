@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01085",
-	"slug": "בצים-1",
-	"headword": {
-		"text": "בֵּצִים"
-	},
+	"sefariaHeadword": "בֵּצִים",
+	"headwords": [
+		{
+			"text": "בֵּצִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "a"

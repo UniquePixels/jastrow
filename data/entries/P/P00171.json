@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00171",
-	"slug": "עדשה",
-	"headword": {
-		"text": "עֲדָשָׁה"
-	},
+	"sefariaHeadword": "עֲדָשָׁה",
+	"headwords": [
+		{
+			"text": "עֲדָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "a"

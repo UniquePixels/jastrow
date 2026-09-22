@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00465",
-	"slug": "טכסים",
-	"headword": {
-		"text": "טכסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טכסים",
+	"headwords": [
+		{
+			"text": "טכסים"
+		},
 		{
 			"text": "טַכְסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 535,
 		"column": "b"

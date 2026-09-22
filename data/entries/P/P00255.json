@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00255",
-	"slug": "עולים",
-	"headword": {
-		"text": "עוּלֵים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּלֵים",
+	"headwords": [
+		{
+			"text": "עוּלֵים"
+		},
 		{
 			"text": "עוּלֵימָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "עוּלֵמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1051,
 		"column": "a"

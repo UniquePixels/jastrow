@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00920",
-	"slug": "סכמותא",
-	"headword": {
-		"text": "סְכָמוּתָא"
-	},
+	"sefariaHeadword": "סְכָמוּתָא",
+	"headwords": [
+		{
+			"text": "סְכָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 991,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00868",
-	"slug": "סיתקתא",
-	"headword": {
-		"text": "סִיתְקְתָא"
-	},
+	"sefariaHeadword": "סִיתְקְתָא",
+	"headwords": [
+		{
+			"text": "סִיתְקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01392",
-	"slug": "מכלא-2",
-	"headword": {
-		"text": "מְכִלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְכִלָא",
+	"headwords": [
+		{
+			"text": "מְכִלָא"
+		},
 		{
 			"text": "מְכִלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 783,
 		"column": "a"

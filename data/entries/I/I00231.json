@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00231",
-	"slug": "טורייא",
-	"headword": {
-		"text": "טוּרְיָיא"
-	},
+	"sefariaHeadword": "טוּרְיָיא",
+	"headwords": [
+		{
+			"text": "טוּרְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

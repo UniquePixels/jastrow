@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00533",
-	"slug": "חזיז-1",
-	"headword": {
-		"text": "חָזִיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָזִיז",
+	"headwords": [
+		{
+			"text": "חָזִיז"
+		},
 		{
 			"text": "חֲזִיז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 443,
 		"column": "b"

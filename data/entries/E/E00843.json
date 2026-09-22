@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00843",
-	"slug": "הרווחא",
-	"headword": {
-		"text": "הַרְוֵוחָא"
-	},
+	"sefariaHeadword": "הַרְוֵוחָא",
+	"headwords": [
+		{
+			"text": "הַרְוֵוחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "b"

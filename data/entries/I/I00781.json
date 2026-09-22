@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00781",
-	"slug": "טריזא",
-	"headword": {
-		"text": "טָרִיזָא"
-	},
+	"sefariaHeadword": "טָרִיזָא",
+	"headwords": [
+		{
+			"text": "טָרִיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

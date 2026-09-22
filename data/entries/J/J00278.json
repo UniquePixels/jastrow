@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00278",
-	"slug": "יחור",
-	"headword": {
-		"text": "יִחוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִחוּר",
+	"headwords": [
+		{
+			"text": "יִחוּר"
+		},
 		{
 			"text": "יִיחוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 574,
 		"column": "a"

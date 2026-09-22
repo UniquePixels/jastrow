@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01356",
-	"slug": "חסומית",
-	"headword": {
-		"text": "חֲסוֹמִית"
-	},
+	"sefariaHeadword": "חֲסוֹמִית",
+	"headwords": [
+		{
+			"text": "חֲסוֹמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

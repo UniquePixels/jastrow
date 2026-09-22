@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01519",
-	"slug": "פקרוס",
-	"headword": {
-		"text": "פקרוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פקרוס",
+	"headwords": [
+		{
+			"text": "פקרוס"
+		},
 		{
 			"text": "פקריסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1212,
 		"column": "a"

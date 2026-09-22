@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00801",
-	"slug": "אופיון",
-	"headword": {
-		"text": "אוֹפְיוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוֹפְיוֹן",
+	"headwords": [
+		{
+			"text": "אוֹפְיוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00552",
-	"slug": "הליך",
-	"headword": {
-		"text": "הֲלִיךְ"
-	},
+	"sefariaHeadword": "הֲלִיךְ",
+	"headwords": [
+		{
+			"text": "הֲלִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00711",
-	"slug": "הסתה",
-	"headword": {
-		"text": "הַסָּתָה"
-	},
+	"sefariaHeadword": "הַסָּתָה",
+	"headwords": [
+		{
+			"text": "הַסָּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "b"

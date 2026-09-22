@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00442",
-	"slug": "סחא",
-	"headword": {
-		"text": "סְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְחָא",
+	"headwords": [
+		{
+			"text": "סְחָא"
+		},
 		{
 			"text": "סְחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00913",
-	"slug": "רענן",
-	"headword": {
-		"text": "רַעֲנָן"
-	},
+	"sefariaHeadword": "רַעֲנָן",
+	"headwords": [
+		{
+			"text": "רַעֲנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1488,
 		"column": "a"

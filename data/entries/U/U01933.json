@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01933",
-	"slug": "שרדנגין",
-	"headword": {
-		"text": "שרדנגין"
-	},
+	"sefariaHeadword": "שרדנגין",
+	"headwords": [
+		{
+			"text": "שרדנגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "b"

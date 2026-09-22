@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00228",
-	"slug": "רגתא",
-	"headword": {
-		"text": "רִגְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִגְּתָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִגְּתָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1451,
 		"column": "a"

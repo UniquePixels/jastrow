@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02165",
-	"slug": "קרקייאות",
-	"headword": {
-		"text": "קרקייאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קרקייאות",
+	"headwords": [
+		{
+			"text": "קרקייאות"
+		},
 		{
 			"text": "קִרְקִיסְיָאוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1426,
 		"column": "a"

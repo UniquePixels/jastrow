@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00319",
-	"slug": "זיותן-1",
-	"headword": {
-		"text": "זֵיוְתָן"
-	},
+	"sefariaHeadword": "זֵיוְתָן",
+	"headwords": [
+		{
+			"text": "זֵיוְתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

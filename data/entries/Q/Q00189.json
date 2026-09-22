@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00189",
-	"slug": "פוטיולין",
-	"headword": {
-		"text": "פּוּטְיוֹלִין"
-	},
+	"sefariaHeadword": "פּוּטְיוֹלִין",
+	"headwords": [
+		{
+			"text": "פּוּטְיוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

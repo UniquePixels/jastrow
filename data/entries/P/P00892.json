@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00892",
-	"slug": "עמיר",
-	"headword": {
-		"text": "עָמִיר"
-	},
+	"sefariaHeadword": "עָמִיר",
+	"headwords": [
+		{
+			"text": "עָמִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "b"

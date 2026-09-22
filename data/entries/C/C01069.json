@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01069",
-	"slug": "גמרייה",
-	"headword": {
-		"text": "גמרייה"
-	},
+	"sefariaHeadword": "גמרייה",
+	"headwords": [
+		{
+			"text": "גמרייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

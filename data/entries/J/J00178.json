@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00178",
-	"slug": "יוחנא-2",
-	"headword": {
-		"text": "יוֹחָנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יוֹחָנָא II",
+	"headwords": [
+		{
+			"text": "יוֹחָנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 568,
 		"column": "a"

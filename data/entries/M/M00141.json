@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00141",
-	"slug": "מגורסי",
-	"headword": {
-		"text": "מגורסי"
-	},
+	"sefariaHeadword": "מגורסי",
+	"headwords": [
+		{
+			"text": "מגורסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02018",
-	"slug": "אמיט",
-	"headword": {
-		"text": "אָמֵיט"
-	},
+	"sefariaHeadword": "אָמֵיט",
+	"headwords": [
+		{
+			"text": "אָמֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02157",
-	"slug": "אנחנא",
-	"headword": {
-		"text": "אֲנַחְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲנַחְנָא",
+	"headwords": [
+		{
+			"text": "אֲנַחְנָא"
+		},
 		{
 			"text": "אֲנַחְנוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "b"

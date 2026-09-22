@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01710",
-	"slug": "פרוסדיות",
-	"headword": {
-		"text": "פְּרוֹסְדָּיוֹת"
-	},
+	"sefariaHeadword": "פְּרוֹסְדָּיוֹת",
+	"headwords": [
+		{
+			"text": "פְּרוֹסְדָּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

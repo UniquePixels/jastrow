@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00102",
-	"slug": "כדאי",
-	"headword": {
-		"text": "כְּדַאי"
-	},
+	"sefariaHeadword": "כְּדַאי",
+	"headwords": [
+		{
+			"text": "כְּדַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

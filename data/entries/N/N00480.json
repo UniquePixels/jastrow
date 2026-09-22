@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00480",
-	"slug": "נחושת",
-	"headword": {
-		"text": "נְחוֹשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחוֹשֶׁת",
+	"headwords": [
+		{
+			"text": "נְחוֹשֶׁת"
+		},
 		{
 			"text": "נְחשֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 893,
 		"column": "b"

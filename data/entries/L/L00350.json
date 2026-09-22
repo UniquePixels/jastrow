@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00350",
-	"slug": "לחינה",
-	"headword": {
-		"text": "לְחֵינָה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*לְחֵינָה",
+	"headwords": [
+		{
+			"text": "לְחֵינָה",
+			"reconstructed": true
+		},
 		{
 			"text": "לְחֵנָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 703,
 		"column": "a"

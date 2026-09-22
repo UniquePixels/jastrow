@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00964",
-	"slug": "סלול",
-	"headword": {
-		"text": "סָלוּל"
-	},
+	"sefariaHeadword": "סָלוּל",
+	"headwords": [
+		{
+			"text": "סָלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03417",
-	"slug": "אתינס",
-	"headword": {
-		"text": "אַתִּינָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַתִּינָס",
+	"headwords": [
+		{
+			"text": "אַתִּינָס"
+		},
 		{
 			"text": "אַתּוּנָא"
 		},
@@ -12,12 +13,10 @@
 			"text": "אַתִּינָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 133,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

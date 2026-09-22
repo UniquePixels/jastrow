@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00351",
-	"slug": "נוטריקון",
-	"headword": {
-		"text": "נוֹטָרִיקוֹן"
-	},
+	"sefariaHeadword": "נוֹטָרִיקוֹן",
+	"headwords": [
+		{
+			"text": "נוֹטָרִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00799",
-	"slug": "צרף-3",
-	"headword": {
-		"text": "צְרַף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְרַף II",
+	"headwords": [
+		{
+			"text": "צְרַף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1304,
 		"column": "b"

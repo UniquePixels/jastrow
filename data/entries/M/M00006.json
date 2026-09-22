@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00006",
-	"slug": "מאדים",
-	"headword": {
-		"text": "מַאֲדִים"
-	},
+	"sefariaHeadword": "מַאֲדִים",
+	"headwords": [
+		{
+			"text": "מַאֲדִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

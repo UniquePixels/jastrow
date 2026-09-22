@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01261",
-	"slug": "חנוכתא",
-	"headword": {
-		"text": "חֲנוּכְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנוּכְּתָא",
+	"headwords": [
 		{
-			"text": "חֲנֻכְּ׳"
+			"text": "חֲנוּכְּתָא"
+		},
+		{
+			"text": "חֲנֻכְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 481,
 		"column": "b"

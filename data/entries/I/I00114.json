@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00114",
-	"slug": "טוביה",
-	"headword": {
-		"text": "טוֹבִיָּה"
-	},
+	"sefariaHeadword": "טוֹבִיָּה",
+	"headwords": [
+		{
+			"text": "טוֹבִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 521,
 		"column": "b"

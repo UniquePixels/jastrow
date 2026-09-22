@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00463",
-	"slug": "פחזות",
-	"headword": {
-		"text": "פַּחֲזוּת"
-	},
+	"sefariaHeadword": "פַּחֲזוּת",
+	"headwords": [
+		{
+			"text": "פַּחֲזוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00998",
-	"slug": "נענא",
-	"headword": {
-		"text": "נַעְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַעְנָא",
+	"headwords": [
+		{
+			"text": "נַעְנָא"
+		},
 		{
 			"text": "נַעְנַע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 921,
 		"column": "a"

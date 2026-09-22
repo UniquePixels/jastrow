@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00724",
-	"slug": "גילה-1",
-	"headword": {
-		"text": "גִּילָה"
-	},
+	"sefariaHeadword": "גִּילָה",
+	"headwords": [
+		{
+			"text": "גִּילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01028",
-	"slug": "בעוד",
-	"headword": {
-		"text": "בְּעוֹד"
-	},
+	"sefariaHeadword": "בְּעוֹד",
+	"headwords": [
+		{
+			"text": "בְּעוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "b"

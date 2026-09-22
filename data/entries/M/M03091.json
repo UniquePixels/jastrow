@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03091",
-	"slug": "מתניה",
-	"headword": {
-		"text": "מַתַּנְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתַּנְיָה",
+	"headwords": [
+		{
+			"text": "מַתַּנְיָה"
+		},
 		{
 			"text": "מַתַּנְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 864,
 		"column": "a"

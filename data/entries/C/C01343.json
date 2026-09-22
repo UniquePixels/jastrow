@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01343",
-	"slug": "גריץ-2",
-	"headword": {
-		"text": "גְּרִיץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרִיץ",
+	"headwords": [
+		{
+			"text": "גְּרִיץ"
+		},
 		{
 			"text": "גְּרִיצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 268,
 		"column": "b"

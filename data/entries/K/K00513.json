@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00513",
-	"slug": "כיורא-1",
-	"headword": {
-		"text": "כִּיוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיוֹרָא",
+	"headwords": [
+		{
+			"text": "כִּיוֹרָא"
+		},
 		{
 			"text": "כִּיוּרָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 631,
 		"column": "b"

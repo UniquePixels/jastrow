@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00341",
-	"slug": "כופלא",
-	"headword": {
-		"text": "כּוּפְלָא"
-	},
+	"sefariaHeadword": "כּוּפְלָא",
+	"headwords": [
+		{
+			"text": "כּוּפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

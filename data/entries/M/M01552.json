@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01552",
-	"slug": "מליח",
-	"headword": {
-		"text": "מְלִיחַ"
-	},
+	"sefariaHeadword": "מְלִיחַ",
+	"headwords": [
+		{
+			"text": "מְלִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 790,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01984",
-	"slug": "שריקא",
-	"headword": {
-		"text": "שְׁרִיקָא"
-	},
+	"sefariaHeadword": "שְׁרִיקָא",
+	"headwords": [
+		{
+			"text": "שְׁרִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

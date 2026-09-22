@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00542",
-	"slug": "כילוס",
-	"headword": {
-		"text": "כילוס"
-	},
+	"sefariaHeadword": "כילוס",
+	"headwords": [
+		{
+			"text": "כילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

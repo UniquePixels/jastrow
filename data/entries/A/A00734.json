@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00734",
-	"slug": "אונטלית",
-	"headword": {
-		"text": "אונטלית"
-	},
+	"sefariaHeadword": "אונטלית",
+	"headwords": [
+		{
+			"text": "אונטלית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

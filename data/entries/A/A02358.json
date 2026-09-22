@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02358",
-	"slug": "אסטוורא",
-	"headword": {
-		"text": "אִסְטְוָורָא"
-	},
+	"sefariaHeadword": "אִסְטְוָורָא",
+	"headwords": [
+		{
+			"text": "אִסְטְוָורָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

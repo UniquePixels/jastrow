@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01088",
-	"slug": "שירתא",
-	"headword": {
-		"text": "שִׁירְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁירְתָא",
+	"headwords": [
+		{
+			"text": "שִׁירְתָא"
+		},
 		{
 			"text": "שִׁירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1569,
 		"column": "b"

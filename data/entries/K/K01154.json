@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01154",
-	"slug": "כריא-1",
-	"headword": {
-		"text": "כַּרְיָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְיָא I",
+	"headwords": [
+		{
+			"text": "כַּרְיָא",
+			"homograph": 1
+		},
 		{
 			"text": "כַּרְיָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 666,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00240",
-	"slug": "זותן",
-	"headword": {
-		"text": "זִוְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִוְתָן",
+	"headwords": [
+		{
+			"text": "זִוְתָן"
+		},
 		{
 			"text": "זַוְותַּנְיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "a"

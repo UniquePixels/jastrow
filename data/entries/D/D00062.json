@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00062",
-	"slug": "דביק",
-	"headword": {
-		"text": "דְּבֵיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבֵיק",
+	"headwords": [
+		{
+			"text": "דְּבֵיק"
+		},
 		{
 			"text": "דָּבֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 277,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00238",
-	"slug": "אגבין",
-	"headword": {
-		"text": "אַגְבִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַגְבִּין",
+	"headwords": [
+		{
+			"text": "אַגְבִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 10,
 		"column": "a"

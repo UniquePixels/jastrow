@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00477",
-	"slug": "תיעה",
-	"headword": {
-		"text": "תִּיעָה"
-	},
+	"sefariaHeadword": "תִּיעָה",
+	"headwords": [
+		{
+			"text": "תִּיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "b"

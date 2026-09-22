@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00234",
-	"slug": "פוליסוטות",
-	"headword": {
-		"text": "פוליסוטות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פוליסוטות",
+	"headwords": [
+		{
+			"text": "פוליסוטות"
+		},
 		{
 			"text": "פולוסטות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1142,
 		"column": "a"

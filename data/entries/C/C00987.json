@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00987",
-	"slug": "גלשא",
-	"headword": {
-		"text": "גַּלְשָׁא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גַּלְשָׁא",
+	"headwords": [
+		{
+			"text": "גַּלְשָׁא",
+			"reconstructed": true
+		},
 		{
 			"text": "גַּלְשִׁין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 251,
 		"column": "a"

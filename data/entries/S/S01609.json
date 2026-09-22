@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01609",
-	"slug": "קנקולין",
-	"headword": {
-		"text": "קנקולין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קנקולין",
+	"headwords": [
+		{
+			"text": "קנקולין"
+		},
 		{
 			"text": "קַנְקִיל"
 		},
@@ -15,6 +16,7 @@
 			"text": "קנקילן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1394,
 		"column": "a"

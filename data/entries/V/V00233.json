@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00233",
-	"slug": "תומר",
-	"headword": {
-		"text": "תּוֹמֶר"
-	},
+	"sefariaHeadword": "תּוֹמֶר",
+	"headwords": [
+		{
+			"text": "תּוֹמֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

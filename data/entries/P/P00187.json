@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00187",
-	"slug": "עוברתא-2",
-	"headword": {
-		"text": "עוּבַרְתָּא"
-	},
+	"sefariaHeadword": "עוּבַרְתָּא",
+	"headwords": [
+		{
+			"text": "עוּבַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "b"

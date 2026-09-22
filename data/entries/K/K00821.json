@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00821",
-	"slug": "כמרוסא",
-	"headword": {
-		"text": "כמרוסא"
-	},
+	"sefariaHeadword": "כמרוסא",
+	"headwords": [
+		{
+			"text": "כמרוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01022",
-	"slug": "דקתא",
-	"headword": {
-		"text": "דַּקְתָּא"
-	},
+	"sefariaHeadword": "דַּקְתָּא",
+	"headwords": [
+		{
+			"text": "דַּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "a"

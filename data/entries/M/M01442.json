@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01442",
-	"slug": "מכשיר",
-	"headword": {
-		"text": "מַכְשִׁיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַכְשִׁיר",
+	"headwords": [
+		{
+			"text": "מַכְשִׁיר"
+		},
 		{
 			"text": "מַכְשִׁירִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 784,
 		"column": "b"

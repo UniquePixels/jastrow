@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "J00052",
-	"slug": "יבלא-2",
-	"headword": {
-		"text": "יִבְלָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*יִבְלָא II",
+	"headwords": [
+		{
+			"text": "יִבְלָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 561,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00492",
-	"slug": "לינפה",
-	"headword": {
-		"text": "לינפה"
-	},
+	"sefariaHeadword": "לינפה",
+	"headwords": [
+		{
+			"text": "לינפה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 708,
 		"column": "b"

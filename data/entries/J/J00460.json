@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "J00460",
-	"slug": "יסורא",
-	"headword": {
-		"text": "יִסּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִסּוּרָא",
+	"headwords": [
 		{
-			"text": "יְסוּ׳"
+			"text": "יִסּוּרָא"
 		},
 		{
-			"text": "יִיסּוּ׳"
+			"text": "יְסוּ׳",
+			"partial": true
+		},
+		{
+			"text": "יִיסּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 582,
 		"column": "b"

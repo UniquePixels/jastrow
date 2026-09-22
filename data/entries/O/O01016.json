@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01016",
-	"slug": "סלעא",
-	"headword": {
-		"text": "סִלְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִלְעָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִלְעָא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 996,
 		"column": "a"

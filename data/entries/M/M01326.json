@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01326",
-	"slug": "מיתה",
-	"headword": {
-		"text": "מִיתָה"
-	},
+	"sefariaHeadword": "מִיתָה",
+	"headwords": [
+		{
+			"text": "מִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 780,
 		"column": "a"

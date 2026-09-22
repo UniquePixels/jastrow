@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01108",
-	"slug": "סמלק",
-	"headword": {
-		"text": "סִמְלָק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִמְלָק",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִמְלָק"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "a"

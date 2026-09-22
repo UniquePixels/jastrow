@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02514",
-	"slug": "אספקלריא",
-	"headword": {
-		"text": "אִסְפַּקְלַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפַּקְלַרְיָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְפַּקְלַרְיָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "b"

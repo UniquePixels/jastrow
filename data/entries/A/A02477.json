@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02477",
-	"slug": "אספגין",
-	"headword": {
-		"text": "אִסְפְּגִין"
-	},
+	"sefariaHeadword": "אִסְפְּגִין",
+	"headwords": [
+		{
+			"text": "אִסְפְּגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

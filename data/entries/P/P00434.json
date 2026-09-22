@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00434",
-	"slug": "עזתה",
-	"headword": {
-		"text": "עַזָּתָה"
-	},
+	"sefariaHeadword": "עַזָּתָה",
+	"headwords": [
+		{
+			"text": "עַזָּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

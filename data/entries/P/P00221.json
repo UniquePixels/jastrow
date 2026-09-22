@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00221",
-	"slug": "עוזיאל",
-	"headword": {
-		"text": "עוּזִּיאֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּזִּיאֵל",
+	"headwords": [
 		{
-			"text": "עֻזִּ׳"
+			"text": "עוּזִּיאֵל"
+		},
+		{
+			"text": "עֻזִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1049,
 		"column": "a"

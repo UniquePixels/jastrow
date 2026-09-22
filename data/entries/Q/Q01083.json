@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01083",
-	"slug": "פלמיטוס",
-	"headword": {
-		"text": "פלמיטוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלמיטוס",
+	"headwords": [
+		{
+			"text": "פלמיטוס"
+		},
 		{
 			"text": "פלמיטיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1183,
 		"column": "a"

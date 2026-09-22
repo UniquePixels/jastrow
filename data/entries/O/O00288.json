@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00288",
-	"slug": "סוטנהון",
-	"headword": {
-		"text": "סוטנהון"
-	},
+	"sefariaHeadword": "סוטנהון",
+	"headwords": [
+		{
+			"text": "סוטנהון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

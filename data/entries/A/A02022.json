@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02022",
-	"slug": "אמיינטון",
-	"headword": {
-		"text": "אַמְיַינְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְיַינְטוֹן",
+	"headwords": [
+		{
+			"text": "אַמְיַינְטוֹן"
+		},
 		{
 			"text": "אַמְיַנְטוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 76,
 		"column": "b"

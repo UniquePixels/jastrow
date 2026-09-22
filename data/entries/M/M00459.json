@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00459",
-	"slug": "מוט-2",
-	"headword": {
-		"text": "מוּט",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מוּט ²",
+	"headwords": [
+		{
+			"text": "מוּט",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 740,
 		"column": "b"

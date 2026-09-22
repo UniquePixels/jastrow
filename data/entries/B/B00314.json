@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00314",
-	"slug": "בוצלנא",
-	"headword": {
-		"text": "בּוּצְלָנָא"
-	},
+	"sefariaHeadword": "בּוּצְלָנָא",
+	"headwords": [
+		{
+			"text": "בּוּצְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"

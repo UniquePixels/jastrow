@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00471",
-	"slug": "אדרכון",
-	"headword": {
-		"text": "אֲדַרְכּוֹן"
-	},
+	"sefariaHeadword": "אֲדַרְכֹּון",
+	"headwords": [
+		{
+			"text": "אֲדַרְכּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "a"

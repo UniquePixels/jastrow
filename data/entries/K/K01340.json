@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01340",
-	"slug": "כתב-2",
-	"headword": {
-		"text": "כְּתַב",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתַב I",
+	"headwords": [
+		{
+			"text": "כְּתַב",
+			"homograph": 1
+		},
 		{
 			"text": "כְּתוֹב"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 679,
 		"column": "a"

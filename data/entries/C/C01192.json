@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01192",
-	"slug": "גער",
-	"headword": {
-		"text": "גְּעַר"
-	},
+	"sefariaHeadword": "גְּעַר",
+	"headwords": [
+		{
+			"text": "גְּעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "b"

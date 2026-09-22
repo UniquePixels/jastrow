@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00790",
-	"slug": "מחא-1",
-	"headword": {
-		"text": "מָחָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָחָא I",
+	"headwords": [
+		{
+			"text": "מָחָא",
+			"homograph": 1
+		},
 		{
 			"text": "מְחָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} I, {1} I",
 	"page": {
 		"number": 756,
 		"column": "b"

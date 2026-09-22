@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00224",
-	"slug": "אברך",
-	"headword": {
-		"text": "אַבְרֵךְ"
-	},
+	"sefariaHeadword": "אַבְרֵךְ",
+	"headwords": [
+		{
+			"text": "אַבְרֵךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

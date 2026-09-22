@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01658",
-	"slug": "סרף",
-	"headword": {
-		"text": "סָרַף"
-	},
+	"sefariaHeadword": "סָרַף",
+	"headwords": [
+		{
+			"text": "סָרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1029,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00584",
-	"slug": "ריבה",
-	"headword": {
-		"text": "רִיבָה"
-	},
+	"sefariaHeadword": "רִיבָה",
+	"headwords": [
+		{
+			"text": "רִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "b"

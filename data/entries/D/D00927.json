@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00927",
-	"slug": "דני",
-	"headword": {
-		"text": "דני"
-	},
+	"sefariaHeadword": "דני",
+	"headwords": [
+		{
+			"text": "דני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "a"

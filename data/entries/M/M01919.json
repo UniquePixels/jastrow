@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01919",
-	"slug": "מסיך",
-	"headword": {
-		"text": "מסיך"
-	},
+	"sefariaHeadword": "מסיך",
+	"headwords": [
+		{
+			"text": "מסיך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

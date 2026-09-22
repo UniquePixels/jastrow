@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00510",
-	"slug": "רחישה",
-	"headword": {
-		"text": "רְחִישָׁה"
-	},
+	"sefariaHeadword": "רְחִישָׁה",
+	"headwords": [
+		{
+			"text": "רְחִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "b"

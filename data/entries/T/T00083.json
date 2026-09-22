@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "T00083",
-	"slug": "רבי-4",
-	"headword": {
-		"text": "רְבֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*רְבֵי",
+	"headwords": [
+		{
+			"text": "רְבֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "רְבָא",
 			"homograph": 2
 		}
 	],
+	"display": "*{0}, {1} II",
 	"page": {
 		"number": 1441,
 		"column": "b"

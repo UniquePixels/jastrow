@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "C00806",
-	"slug": "גיר-4",
-	"headword": {
-		"text": "גִּיר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיר III",
+	"headwords": [
+		{
+			"text": "גִּיר",
+			"homograph": 3
+		},
 		{
 			"text": "גִּירָא",
 			"homograph": 2
@@ -14,6 +15,7 @@
 			"text": "גִּירְרָא"
 		}
 	],
+	"display": "{0} III, {1} II, {2}",
 	"page": {
 		"number": 242,
 		"column": "a"
@@ -42,7 +44,7 @@
 				"<cite ref=\"Targum Jonathan on Genesis 49:23\">Targ. Y. I Gen. XLIX, 23</cite>, <cite ref=\"Targum Jerusalem, Genesis 49:23\">Targ. Y. II, Gen. XLIX, 23</cite> (not <he>גיד׳</he>). ",
 				"<cite ref=\"Aramaic Targum to Psalms 120:4\">Targ. Ps. CXX, 4</cite>; a. fr.—",
 				"<cite ref=\"Sanhedrin 108b:21\">Snh. 108ᵇ</cite> <he>גילי והוו ג׳</he> he threw chaff and it turned into arrows. ",
-				"<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite>; v. <he>בְּזַק</he>. Y. ib. II, 13ᵇ bot. <he>מן קל גורי וכ׳</he> (corr. acc.) from the hissing sound of the arrows; a. fr."
+				"<cite ref=\"Bava Batra 73a\">B. Bath. 73ᵃ</cite>; v. <he>בְּזַק</he>. Y. ib. II, 13ᵇ bot. <he>מן קל גורי וכ׳</he> (corr. acc.) from the hissing sound of the arrows; a. fr."
 			],
 			"label": "1"
 		},

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00574",
-	"slug": "דייר-1",
-	"headword": {
-		"text": "דַּיָּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיָּיר",
+	"headwords": [
+		{
+			"text": "דַּיָּיר"
+		},
 		{
 			"text": "דַּיָּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "a"

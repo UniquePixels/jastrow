@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00096",
-	"slug": "כגון",
-	"headword": {
-		"text": "כְּגוֹן"
-	},
+	"sefariaHeadword": "כְּגוֹן",
+	"headwords": [
+		{
+			"text": "כְּגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

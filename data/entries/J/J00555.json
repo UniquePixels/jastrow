@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00555",
-	"slug": "יקב-2",
-	"headword": {
-		"text": "יֶקֶב"
-	},
+	"sefariaHeadword": "יֶקֶב",
+	"headwords": [
+		{
+			"text": "יֶקֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "a"

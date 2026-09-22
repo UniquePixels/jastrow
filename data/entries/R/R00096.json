@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00096",
-	"slug": "צדוקי-1",
-	"headword": {
-		"text": "צְדוּקִי"
-	},
+	"sefariaHeadword": "צְדוּקִי",
+	"headwords": [
+		{
+			"text": "צְדוּקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "b"

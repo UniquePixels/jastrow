@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00563",
-	"slug": "תל-1",
-	"headword": {
-		"text": "תֵּל"
-	},
+	"sefariaHeadword": "תֵּל",
+	"headwords": [
+		{
+			"text": "תֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01326",
-	"slug": "אימהות",
-	"headword": {
-		"text": "אִימָּהוֹת"
-	},
+	"sefariaHeadword": "אִימָּהוֹת",
+	"headwords": [
+		{
+			"text": "אִימָּהוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "b"

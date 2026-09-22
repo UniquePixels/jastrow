@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01031",
-	"slug": "נפחיא",
-	"headword": {
-		"text": "נְפָחַיָּא"
-	},
+	"sefariaHeadword": "נְפָחַיָּא",
+	"headwords": [
+		{
+			"text": "נְפָחַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

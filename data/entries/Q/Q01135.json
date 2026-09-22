@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01135",
-	"slug": "פם",
-	"headword": {
-		"text": "פֻּם"
-	},
+	"sefariaHeadword": "פֻּם",
+	"headwords": [
+		{
+			"text": "פֻּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

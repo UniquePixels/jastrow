@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00376",
-	"slug": "קום-3",
-	"headword": {
-		"text": "קוֹם"
-	},
+	"sefariaHeadword": "קוֹם",
+	"headwords": [
+		{
+			"text": "קוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1332,
 		"column": "a"

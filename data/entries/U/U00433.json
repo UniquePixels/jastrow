@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00433",
-	"slug": "שום-1",
-	"headword": {
-		"text": "שׂוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׂוּם",
+	"headwords": [
+		{
+			"text": "שׂוּם"
+		},
 		{
 			"text": "שִׂים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1535,
 		"column": "a"

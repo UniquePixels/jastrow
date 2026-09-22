@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00162",
-	"slug": "בהא",
-	"headword": {
-		"text": "בָּהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּהָא",
+	"headwords": [
+		{
+			"text": "בָּהָא"
+		},
 		{
 			"text": "בָּהָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 141,
 		"column": "b"

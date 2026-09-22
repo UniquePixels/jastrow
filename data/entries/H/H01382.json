@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01382",
-	"slug": "חסין-1",
-	"headword": {
-		"text": "חסין"
-	},
+	"sefariaHeadword": "חסין",
+	"headwords": [
+		{
+			"text": "חסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "b"

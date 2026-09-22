@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00638",
-	"slug": "זקיפתא",
-	"headword": {
-		"text": "זְקִיפְתָּא"
-	},
+	"sefariaHeadword": "זְקִיפְתָּא",
+	"headwords": [
+		{
+			"text": "זְקִיפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "a"

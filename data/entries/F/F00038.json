@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00038",
-	"slug": "ויירינון",
-	"headword": {
-		"text": "ויירינון"
-	},
+	"sefariaHeadword": "ויירינון",
+	"headwords": [
+		{
+			"text": "ויירינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

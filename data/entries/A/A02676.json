@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02676",
-	"slug": "אפיטרופיא",
-	"headword": {
-		"text": "אֶפִּיטְרוֹפְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפִּיטְרוֹפְיָא",
+	"headwords": [
+		{
+			"text": "אֶפִּיטְרוֹפְיָא"
+		},
 		{
 			"text": "אֶפִּיטְרוֹפָּא"
 		},
 		{
-			"text": "אַפּוֹ׳"
+			"text": "אַפּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 102,
 		"column": "b"

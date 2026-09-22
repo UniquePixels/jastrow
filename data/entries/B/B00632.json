@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00632",
-	"slug": "בימין",
-	"headword": {
-		"text": "בימין"
-	},
+	"sefariaHeadword": "בימין",
+	"headwords": [
+		{
+			"text": "בימין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 162,
 		"column": "b"

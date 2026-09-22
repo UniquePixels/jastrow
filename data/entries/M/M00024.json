@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00024",
-	"slug": "מאים",
-	"headword": {
-		"text": "מָאִים"
-	},
+	"sefariaHeadword": "מָאִים",
+	"headwords": [
+		{
+			"text": "מָאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

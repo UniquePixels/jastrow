@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00217",
-	"slug": "רגע-1",
-	"headword": {
-		"text": "רָגַע"
-	},
+	"sefariaHeadword": "רָגַע",
+	"headwords": [
+		{
+			"text": "רָגַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1450,
 		"column": "a"

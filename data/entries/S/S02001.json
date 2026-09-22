@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02001",
-	"slug": "קרטיס-1",
-	"headword": {
-		"text": "קַרְטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטֵיס",
+	"headwords": [
+		{
+			"text": "קַרְטֵיס"
+		},
 		{
 			"text": "קַרְטֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1416,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00522",
-	"slug": "דיוסק",
-	"headword": {
-		"text": "דיוסק"
-	},
+	"sefariaHeadword": "דיוסק",
+	"headwords": [
+		{
+			"text": "דיוסק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

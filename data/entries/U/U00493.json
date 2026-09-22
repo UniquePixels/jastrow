@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00493",
-	"slug": "שופה",
-	"headword": {
-		"text": "שׁוֹפָה"
-	},
+	"sefariaHeadword": "שׁוֹפָה",
+	"headwords": [
+		{
+			"text": "שׁוֹפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1539,
 		"column": "b"

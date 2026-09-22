@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00844",
-	"slug": "עלקא",
-	"headword": {
-		"text": "עַלְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַלְקָא",
+	"headwords": [
+		{
+			"text": "עַלְקָא"
+		},
 		{
 			"text": "עַלְקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1085,
 		"column": "b"

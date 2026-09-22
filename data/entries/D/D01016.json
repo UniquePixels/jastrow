@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01016",
-	"slug": "דקקה",
-	"headword": {
-		"text": "דְּקָקָה"
-	},
+	"sefariaHeadword": "דְּקָקָה",
+	"headwords": [
+		{
+			"text": "דְּקָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 319,
 		"column": "b"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "D01026",
-	"slug": "דר-4",
-	"headword": {
-		"text": "דָּר",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּר ³",
+	"headwords": [
+		{
+			"text": "דָּר",
+			"disambiguator": 3
+		},
 		{
 			"text": "דָּרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ³, {1} I",
 	"page": {
 		"number": 320,
 		"column": "a"
@@ -29,7 +31,7 @@
 				"<cite ref=\"Megillah 12a:15\">Meg. 12ᵃ</cite> (expl. <cite ref=\"D01024\"><he>דַּר</he></cite>, <cite ref=\"Esther 1:6\">Esth. I, 6</cite>) <he>ד׳ ד׳</he> ranges of mosaics. ",
 				"<cite ref=\"Niddah 20a:77\">Nidd. 20ᵃ</cite> <he>תלתא ד׳ וכ׳</he> there are three ranges of leaves, and three leaves in each. ",
 				"<cite ref=\"Berakhot 28a:1\">Ber. 28ᵃ</cite> <he>ד׳ חיוורתא</he> rows of white hair. ",
-				"<cite ref=\"Berakhot 62b\">Ib. 62ᵇ</cite> (phonetic etymol. of <cite ref=\"S01761\"><he>קפנדריא</he></cite>) <he>אַדָּ׳ וכ׳ אדמקיפנא</he> in place of going around the rows of houses &c. ",
+				"<cite ref=\"Berakhot 62b\">Ib. 62ᵇ</cite> (phonetic etymol. of <cite ref=\"S01761\"><he>קפנדריא</he></cite>) <he>אַדָּ׳ וכ׳ אדמקיפנא</he> in place of going around the rows of houses &c. ",
 				"<cite ref=\"Avodah Zarah 28a:8\">Ab. Zar. 28ᵃ</cite> <he>ומייתי דמא מבי דרי</he> ed. (Ms. M. <he>מבי ככי</he>); <cite ref=\"Yoma 84a:7\">Yoma 84ᵃ</cite> <he>ואתי דמא מבי ד׳</he> (Ms. M. <he>ומייתי ליה דמא מבי ככי ושיני</he>) and he makes blood come (and blood will come) out from between the rows of teeth. [<cite ref=\"Yoma 84a:6\">Ib.</cite> <he>בככי דריה</he>, v. <cite ref=\"D01126\"><he>דְּרָרָא</he></cite>.] [<cite ref=\"Taanit 3b:8\">Taan. 3ᵇ</cite>; <cite ref=\"Bava Metzia 73a:10\">B. Mets. 73ᵃ</cite>; <cite ref=\"Bava Kamma 113b:17\">B. Kam. 113ᵇ</cite> <cite ref=\"D01080\"><he>בי ד׳</he></cite>, v. <cite ref=\"D01080\"><he>דָּרֵי</he></cite>.]"
 			],
 			"label": "1"

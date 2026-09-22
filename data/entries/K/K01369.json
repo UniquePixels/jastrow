@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01369",
-	"slug": "כתליקין",
-	"headword": {
-		"text": "כתליקין"
-	},
+	"sefariaHeadword": "כתליקין",
+	"headwords": [
+		{
+			"text": "כתליקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "a"

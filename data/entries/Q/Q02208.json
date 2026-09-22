@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02208",
-	"slug": "פתרן",
-	"headword": {
-		"text": "פַּתְרָן"
-	},
+	"sefariaHeadword": "פַּתְרָן",
+	"headwords": [
+		{
+			"text": "פַּתְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

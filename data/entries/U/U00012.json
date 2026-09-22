@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00012",
-	"slug": "שאול-1",
-	"headword": {
-		"text": "שָׁאוּל"
-	},
+	"sefariaHeadword": "שָׁאוּל",
+	"headwords": [
+		{
+			"text": "שָׁאוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "b"

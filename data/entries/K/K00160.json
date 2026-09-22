@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00160",
-	"slug": "כהיי",
-	"headword": {
-		"text": "כַּהֲיִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּהֲיִי",
+	"headwords": [
+		{
+			"text": "כַּהֲיִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 615,
 		"column": "a"

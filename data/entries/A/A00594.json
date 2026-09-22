@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00594",
-	"slug": "אוותיננייה",
-	"headword": {
-		"text": "אוותיננייה"
-	},
+	"sefariaHeadword": "אוותיננייה",
+	"headwords": [
+		{
+			"text": "אוותיננייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

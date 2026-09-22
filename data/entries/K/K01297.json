@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01297",
-	"slug": "כשדאה",
-	"headword": {
-		"text": "כַּשְׂדָּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּשְׂדָּאָה",
+	"headwords": [
 		{
-			"text": "כַּסְ׳"
+			"text": "כַּשְׂדָּאָה"
+		},
+		{
+			"text": "כַּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 675,
 		"column": "a"

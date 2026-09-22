@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00531",
-	"slug": "תכיל-2",
-	"headword": {
-		"text": "תְּכִיל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "תְּכִיל ²",
+	"headwords": [
+		{
+			"text": "תְּכִיל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1668,
 		"column": "a"

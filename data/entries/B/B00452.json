@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00452",
-	"slug": "בזיך-2",
-	"headword": {
-		"text": "בָּזִיךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּזִיךְ ²",
+	"headwords": [
+		{
+			"text": "בָּזִיךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "בָּזִיכָא"
 		},
@@ -16,6 +17,7 @@
 			"text": "בָּזִכָּא"
 		}
 	],
+	"display": "{0} ², {1}, ({2}, {3})",
 	"page": {
 		"number": 153,
 		"column": "b"

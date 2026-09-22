@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01097",
-	"slug": "חלנונא",
-	"headword": {
-		"text": "חלנונא"
-	},
+	"sefariaHeadword": "חלנונא",
+	"headwords": [
+		{
+			"text": "חלנונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 471,
 		"column": "b"

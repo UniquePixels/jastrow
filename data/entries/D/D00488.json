@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00488",
-	"slug": "דיגמא",
-	"headword": {
-		"text": "דִּיגְמָא"
-	},
+	"sefariaHeadword": "דִּיגְמָא",
+	"headwords": [
+		{
+			"text": "דִּיגְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

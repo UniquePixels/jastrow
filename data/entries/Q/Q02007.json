@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02007",
-	"slug": "פרקלינין",
-	"headword": {
-		"text": "פרקלינין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרקלינין",
+	"headwords": [
+		{
+			"text": "פרקלינין"
+		},
 		{
 			"text": "פרקלנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1241,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00689",
-	"slug": "צפורתא",
-	"headword": {
-		"text": "צִפּוֹרְתָא"
-	},
+	"sefariaHeadword": "צִפּוֹרְתָא",
+	"headwords": [
+		{
+			"text": "צִפּוֹרְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1296,
 		"column": "b"

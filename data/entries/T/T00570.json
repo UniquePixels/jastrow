@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00570",
-	"slug": "רטן-2",
-	"headword": {
-		"text": "רְטַן"
-	},
+	"sefariaHeadword": "רְטַן",
+	"headwords": [
+		{
+			"text": "רְטַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "b"

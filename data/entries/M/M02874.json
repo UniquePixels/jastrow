@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02874",
-	"slug": "משיחה-2",
-	"headword": {
-		"text": "מְשִׁיחָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְשִׁיחָה II",
+	"headwords": [
+		{
+			"text": "מְשִׁיחָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 852,
 		"column": "b"

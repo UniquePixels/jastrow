@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M00797",
-	"slug": "מחבואה",
-	"headword": {
-		"text": "מַחֲבוֹאָה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*מַחֲבוֹאָה II",
+	"headwords": [
+		{
+			"text": "מַחֲבוֹאָה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 757,
 		"column": "a"

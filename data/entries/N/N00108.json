@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00108",
-	"slug": "נברכת",
-	"headword": {
-		"text": "נִבְרֶכֶת"
-	},
+	"sefariaHeadword": "נִבְרֶכֶת",
+	"headwords": [
+		{
+			"text": "נִבְרֶכֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

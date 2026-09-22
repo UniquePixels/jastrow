@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00742",
-	"slug": "סינר",
-	"headword": {
-		"text": "סִינָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינָר",
+	"headwords": [
+		{
+			"text": "סִינָר"
+		},
 		{
 			"text": "סִינָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "b"

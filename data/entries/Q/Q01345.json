@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01345",
-	"slug": "פספס-1",
-	"headword": {
-		"text": "פִּסְפֵּס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּסְפֵּס I",
+	"headwords": [
+		{
+			"text": "פִּסְפֵּס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1199,
 		"column": "a"

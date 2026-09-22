@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00528",
-	"slug": "כילא",
-	"headword": {
-		"text": "כַּיְלָא"
-	},
+	"sefariaHeadword": "כַּיְלָא",
+	"headwords": [
+		{
+			"text": "כַּיְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

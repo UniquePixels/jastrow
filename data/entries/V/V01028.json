@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V01028",
-	"slug": "תרסא",
-	"headword": {
-		"text": "תְּרֵסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרֵסָא",
+	"headwords": [
+		{
+			"text": "תְּרֵסָא"
+		},
 		{
 			"text": "תְּרֵסִיּוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "תְּרֵסִיּוֹתִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1700,
 		"column": "b"

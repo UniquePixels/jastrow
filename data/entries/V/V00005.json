@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00005",
-	"slug": "תאב-2",
-	"headword": {
-		"text": "תְּאֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּאֵב",
+	"headwords": [
+		{
+			"text": "תְּאֵב"
+		},
 		{
 			"text": "תְּאֵיב",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1641,
 		"column": "a"

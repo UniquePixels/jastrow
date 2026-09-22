@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00442",
-	"slug": "כזבן",
-	"headword": {
-		"text": "כַּזְבָּן"
-	},
+	"sefariaHeadword": "כַּזְבָּן",
+	"headwords": [
+		{
+			"text": "כַּזְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

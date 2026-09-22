@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00091",
-	"slug": "עגל-3",
-	"headword": {
-		"text": "עֵגֶל"
-	},
+	"sefariaHeadword": "עֵגֶל",
+	"headwords": [
+		{
+			"text": "עֵגֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1041,
 		"column": "a"

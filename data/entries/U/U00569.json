@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00569",
-	"slug": "שושיבתא",
-	"headword": {
-		"text": "שׁוֹשִׁיבְתָּא"
-	},
+	"sefariaHeadword": "שׁוֹשִׁיבְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוֹשִׁיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "b"

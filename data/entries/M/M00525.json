@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00525",
-	"slug": "מומר",
-	"headword": {
-		"text": "מוּמָר"
-	},
+	"sefariaHeadword": "מוּמָר",
+	"headwords": [
+		{
+			"text": "מוּמָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

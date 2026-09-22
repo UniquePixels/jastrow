@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01906",
-	"slug": "אלם-3",
-	"headword": {
-		"text": "אִלֵּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלֵּם",
+	"headwords": [
+		{
+			"text": "אִלֵּם"
+		},
 		{
 			"text": "אִילֵּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 71,
 		"column": "a"

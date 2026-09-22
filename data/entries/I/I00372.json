@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00372",
-	"slug": "טימוס",
-	"headword": {
-		"text": "טִימוֹס"
-	},
+	"sefariaHeadword": "טִימוֹס",
+	"headwords": [
+		{
+			"text": "טִימוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "a"

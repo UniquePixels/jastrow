@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00635",
-	"slug": "חטיפיתא",
-	"headword": {
-		"text": "חֲטִיפִיתָא"
-	},
+	"sefariaHeadword": "חֲטִיפִיתָא",
+	"headwords": [
+		{
+			"text": "חֲטִיפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "a"

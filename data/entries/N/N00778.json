@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00778",
-	"slug": "ניקלי",
-	"headword": {
-		"text": "נִיקְלַי"
-	},
+	"sefariaHeadword": "נִיקְלַי",
+	"headwords": [
+		{
+			"text": "נִיקְלַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "b"

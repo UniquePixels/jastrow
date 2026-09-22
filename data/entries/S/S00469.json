@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00469",
-	"slug": "קוסטנטינא",
-	"headword": {
-		"text": "קוּסְטַנְטִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּסְטַנְטִינָא",
+	"headwords": [
+		{
+			"text": "קוּסְטַנְטִינָא"
+		},
 		{
 			"text": "קוּ"
 		},
@@ -12,15 +13,18 @@
 			"text": "שְׁ"
 		},
 		{
-			"text": "ק … טִינֵי"
+			"text": "ק",
+			"partial": true
+		},
+		{
+			"text": "טִינֵי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3} … {4}",
 	"page": {
 		"number": 1336,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

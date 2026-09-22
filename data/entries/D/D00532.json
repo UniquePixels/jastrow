@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00532",
-	"slug": "דיופרוסוף",
-	"headword": {
-		"text": "דְּיוֹפְרוֹסוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיוֹפְרוֹסוֹף",
+	"headwords": [
+		{
+			"text": "דְּיוֹפְרוֹסוֹף"
+		},
 		{
 			"text": "דְּיוֹפַרְצוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "a"

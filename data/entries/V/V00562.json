@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00562",
-	"slug": "תכתקא",
-	"headword": {
-		"text": "תַּכְתַּקָּא"
-	},
+	"sefariaHeadword": "תַּכְתַּקָּא",
+	"headwords": [
+		{
+			"text": "תַּכְתַּקָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "b"

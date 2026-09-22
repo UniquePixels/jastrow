@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00088",
-	"slug": "סבר-5",
-	"headword": {
-		"text": "סַבַּר"
-	},
+	"sefariaHeadword": "סַבַּר",
+	"headwords": [
+		{
+			"text": "סַבַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 952,
 		"column": "b"

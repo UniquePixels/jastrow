@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00137",
-	"slug": "טוורוס",
-	"headword": {
-		"text": "טַוְורוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַוְורוֹס",
+	"headwords": [
 		{
-			"text": "טַוְורוֹס אוּמָנוֹס"
+			"text": "טַוְורוֹס"
+		},
+		{
+			"text": "ט׳ אוּמָנוֹס",
+			"partial": true
 		},
 		{
 			"text": "אוּמָנִיס"
@@ -15,6 +17,7 @@
 			"text": "מָנוֹס"
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 522,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01111",
-	"slug": "כרוז-3",
-	"headword": {
-		"text": "כָּרוֹז"
-	},
+	"sefariaHeadword": "כָּרוֹז",
+	"headwords": [
+		{
+			"text": "כָּרוֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "b"

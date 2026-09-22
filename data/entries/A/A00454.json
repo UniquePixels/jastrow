@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00454",
-	"slug": "אדרועא",
-	"headword": {
-		"text": "אֶדְרוֹעָא"
-	},
+	"sefariaHeadword": "אֶדְרוֹעָא",
+	"headwords": [
+		{
+			"text": "אֶדְרוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

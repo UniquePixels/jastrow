@@ -1,24 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "A02734",
-	"slug": "אפל-4",
-	"headword": {
-		"text": "אָפֵל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָפֵל II",
+	"headwords": [
+		{
+			"text": "אָפֵל",
+			"homograph": 2
+		},
 		{
 			"text": "אָפִיל"
 		},
 		{
-			"text": "קרן אָפֵל"
+			"text": "קרן א׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, ({1}), {2}",
 	"page": {
 		"number": 105,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

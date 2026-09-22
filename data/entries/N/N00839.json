@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00839",
-	"slug": "נכסותא",
-	"headword": {
-		"text": "נכסותא"
-	},
+	"sefariaHeadword": "נכסותא",
+	"headwords": [
+		{
+			"text": "נכסותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "b"

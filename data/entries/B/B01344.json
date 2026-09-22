@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01344",
-	"slug": "ברתי",
-	"headword": {
-		"text": "בְּרָתֵי"
-	},
+	"sefariaHeadword": "בְּרָתֵי",
+	"headwords": [
+		{
+			"text": "בְּרָתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

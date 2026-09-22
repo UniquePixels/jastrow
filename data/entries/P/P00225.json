@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00225",
-	"slug": "עוי-1",
-	"headword": {
-		"text": "עוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוי",
+	"headwords": [
+		{
+			"text": "עוי"
+		},
 		{
 			"text": "עָוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1049,
 		"column": "a"

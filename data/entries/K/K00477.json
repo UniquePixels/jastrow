@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00477",
-	"slug": "כיאורא",
-	"headword": {
-		"text": "כִּיאוּרָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כִּיאוּרָא",
+	"headwords": [
+		{
+			"text": "כִּיאוּרָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 630,
 		"column": "a"

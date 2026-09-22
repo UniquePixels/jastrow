@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00985",
-	"slug": "גלש-2",
-	"headword": {
-		"text": "גְּלַשׁ"
-	},
+	"sefariaHeadword": "גְּלַשׁ",
+	"headwords": [
+		{
+			"text": "גְּלַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "a"

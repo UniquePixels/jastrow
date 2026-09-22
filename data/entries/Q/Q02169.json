@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02169",
-	"slug": "פתילתה",
-	"headword": {
-		"text": "פתילתה"
-	},
+	"sefariaHeadword": "פתילתה",
+	"headwords": [
+		{
+			"text": "פתילתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

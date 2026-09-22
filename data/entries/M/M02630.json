@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02630",
-	"slug": "מרח-1",
-	"headword": {
-		"text": "מָרַח"
-	},
+	"sefariaHeadword": "מָרַח",
+	"headwords": [
+		{
+			"text": "מָרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01919",
-	"slug": "קרדנין",
-	"headword": {
-		"text": "קרדנין"
-	},
+	"sefariaHeadword": "קרדנין",
+	"headwords": [
+		{
+			"text": "קרדנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

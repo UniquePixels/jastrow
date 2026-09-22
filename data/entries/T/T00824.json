@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00824",
-	"slug": "רמכא",
-	"headword": {
-		"text": "רַמָּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַמָּכָא",
+	"headwords": [
+		{
+			"text": "רַמָּכָא"
+		},
 		{
 			"text": "רַמָּכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1483,
 		"column": "a"

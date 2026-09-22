@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00324",
-	"slug": "סולפירים",
-	"headword": {
-		"text": "סולפירים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סולפירים",
+	"headwords": [
+		{
+			"text": "סולפירים"
+		},
 		{
 			"text": "סולפירין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 965,
 		"column": "a"

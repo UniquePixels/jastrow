@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00028",
-	"slug": "מאיס-2",
-	"headword": {
-		"text": "מְאִיס"
-	},
+	"sefariaHeadword": "מְאִיס",
+	"headwords": [
+		{
+			"text": "מְאִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

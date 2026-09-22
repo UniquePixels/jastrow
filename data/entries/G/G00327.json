@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00327",
-	"slug": "זיח",
-	"headword": {
-		"text": "זִיחַ"
-	},
+	"sefariaHeadword": "זִיחַ",
+	"headwords": [
+		{
+			"text": "זִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "a"

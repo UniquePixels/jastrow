@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01673",
-	"slug": "אכוזא",
-	"headword": {
-		"text": "אֲכוּזָא"
-	},
+	"sefariaHeadword": "אֲכוּזָא",
+	"headwords": [
+		{
+			"text": "אֲכוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

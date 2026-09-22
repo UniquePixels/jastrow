@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00619",
-	"slug": "גיבר",
-	"headword": {
-		"text": "גִּיבַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיבַּר",
+	"headwords": [
+		{
+			"text": "גִּיבַּר"
+		},
 		{
 			"text": "גִּיבָּרָא"
 		},
 		{
-			"text": "גִּבּ׳"
+			"text": "גִּבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 234,
 		"column": "a"

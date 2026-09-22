@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02550",
-	"slug": "מרדין-1",
-	"headword": {
-		"text": "מִרְדִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מִרְדִּין",
+	"headwords": [
+		{
+			"text": "מִרְדִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

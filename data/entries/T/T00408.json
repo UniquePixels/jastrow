@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00408",
-	"slug": "רונקא",
-	"headword": {
-		"text": "רונקא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רונקא",
+	"headwords": [
+		{
+			"text": "רונקא"
+		},
 		{
 			"text": "רונקי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1462,
 		"column": "a"

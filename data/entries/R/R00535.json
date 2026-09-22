@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00535",
-	"slug": "צלע-3",
-	"headword": {
-		"text": "צֶלַע"
-	},
+	"sefariaHeadword": "צֶלַע",
+	"headwords": [
+		{
+			"text": "צֶלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1285,
 		"column": "b"

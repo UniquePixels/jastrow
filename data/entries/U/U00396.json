@@ -1,23 +1,27 @@
 {
+	"schemaVersion": 2,
 	"id": "U00396",
-	"slug": "שויא",
-	"headword": {
-		"text": "שַׁוְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁוְיָא",
+	"headwords": [
+		{
+			"text": "שַׁוְיָא"
+		},
 		{
 			"text": "שַׁוְויָא"
 		},
 		{
-			"text": "שִׁיוְו׳"
+			"text": "שִׁיוְו׳",
+			"partial": true
 		},
 		{
 			"text": "שִׁוּוּיָא"
 		},
 		{
-			"text": "שִׁיוּוּ׳"
+			"text": "שִׁיוּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1533,
 		"column": "a"

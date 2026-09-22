@@ -1,17 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A03171",
-	"slug": "ארמון-2",
-	"headword": {
-		"text": "אַרְמוֹן",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אַרְמוֹן II",
+	"headwords": [
+		{
+			"text": "אַרְמוֹן",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 122,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

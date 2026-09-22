@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00818",
-	"slug": "דלוחא",
-	"headword": {
-		"text": "דְּלוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלוּחָא",
+	"headwords": [
 		{
-			"text": "דְּלוֹ׳"
+			"text": "דְּלוּחָא"
+		},
+		{
+			"text": "דְּלוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 309,
 		"column": "a"

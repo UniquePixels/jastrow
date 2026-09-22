@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00073",
-	"slug": "צבת-3",
-	"headword": {
-		"text": "צֶבֶת"
-	},
+	"sefariaHeadword": "צֶבֶת",
+	"headwords": [
+		{
+			"text": "צֶבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1260,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00730",
-	"slug": "טרונוס",
-	"headword": {
-		"text": "טרונוס"
-	},
+	"sefariaHeadword": "טרונוס",
+	"headwords": [
+		{
+			"text": "טרונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

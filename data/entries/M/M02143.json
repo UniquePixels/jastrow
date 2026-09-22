@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02143",
-	"slug": "מעמד",
-	"headword": {
-		"text": "מַעֲמָד"
-	},
+	"sefariaHeadword": "מַעֲמָד",
+	"headwords": [
+		{
+			"text": "מַעֲמָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "a"

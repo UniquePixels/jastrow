@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00178",
-	"slug": "כוארא",
-	"headword": {
-		"text": "כַּוָּארָא"
-	},
+	"sefariaHeadword": "כַּוָּארָא",
+	"headwords": [
+		{
+			"text": "כַּוָּארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "a"

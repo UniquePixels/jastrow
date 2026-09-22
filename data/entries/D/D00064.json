@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00064",
-	"slug": "דביר",
-	"headword": {
-		"text": "דְּבִיר"
-	},
+	"sefariaHeadword": "דְּבִיר",
+	"headwords": [
+		{
+			"text": "דְּבִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "a"

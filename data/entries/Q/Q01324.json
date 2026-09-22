@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01324",
-	"slug": "פסכתרא",
-	"headword": {
-		"text": "פְּסַכְתֵּרָא"
-	},
+	"sefariaHeadword": "פְּסַכְתֵּרָא",
+	"headwords": [
+		{
+			"text": "פְּסַכְתֵּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1197,
 		"column": "a"

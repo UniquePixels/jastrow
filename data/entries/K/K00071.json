@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00071",
-	"slug": "כבר-1",
-	"headword": {
-		"text": "כְּבָר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כְּבָר I",
+	"headwords": [
+		{
+			"text": "כְּבָר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 609,
 		"column": "a"

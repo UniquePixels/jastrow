@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02927",
-	"slug": "משמעא",
-	"headword": {
-		"text": "מִשְׁמְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁמְעָא",
+	"headwords": [
+		{
+			"text": "מִשְׁמְעָא"
+		},
 		{
 			"text": "מִשְׁמָעְיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 856,
 		"column": "a"

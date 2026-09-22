@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00225",
-	"slug": "צוץ-4",
-	"headword": {
-		"text": "צוּץ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צוּץ ²",
+	"headwords": [
+		{
+			"text": "צוּץ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1269,
 		"column": "b"

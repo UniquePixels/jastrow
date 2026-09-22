@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00793",
-	"slug": "מחאה",
-	"headword": {
-		"text": "מְחָאָה"
-	},
+	"sefariaHeadword": "מְחָאָה",
+	"headwords": [
+		{
+			"text": "מְחָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "b"

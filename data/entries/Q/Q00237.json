@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00237",
-	"slug": "פולמוסא",
-	"headword": {
-		"text": "פּוֹלְמוֹסָא"
-	},
+	"sefariaHeadword": "פּוֹלְמוֹסָא",
+	"headwords": [
+		{
+			"text": "פּוֹלְמוֹסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

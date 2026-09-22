@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02392",
-	"slug": "אסטפניני",
-	"headword": {
-		"text": "אִסְטַפְנִינֵי"
-	},
+	"sefariaHeadword": "אִסְטַפְנִינֵי",
+	"headwords": [
+		{
+			"text": "אִסְטַפְנִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

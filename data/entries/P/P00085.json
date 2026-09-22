@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00085",
-	"slug": "עגול-4",
-	"headword": {
-		"text": "עִגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִגּוּל",
+	"headwords": [
+		{
+			"text": "עִגּוּל"
+		},
 		{
 			"text": "עִגּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1041,
 		"column": "a"

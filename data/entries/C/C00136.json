@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00136",
-	"slug": "גברית",
-	"headword": {
-		"text": "גַּבְרִית"
-	},
+	"sefariaHeadword": "גַּבְרִית",
+	"headwords": [
+		{
+			"text": "גַּבְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

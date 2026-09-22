@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02076",
-	"slug": "מעוטי",
-	"headword": {
-		"text": "מַעוּטֵי"
-	},
+	"sefariaHeadword": "מַעוּטֵי",
+	"headwords": [
+		{
+			"text": "מַעוּטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00146",
-	"slug": "דהבן",
-	"headword": {
-		"text": "דַּהֲבָן"
-	},
+	"sefariaHeadword": "דַּהֲבָן",
+	"headwords": [
+		{
+			"text": "דַּהֲבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "b"

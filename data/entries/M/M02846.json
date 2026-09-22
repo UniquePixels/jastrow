@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02846",
-	"slug": "משח-1",
-	"headword": {
-		"text": "מָשַׁח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָשַׁח I",
+	"headwords": [
+		{
+			"text": "מָשַׁח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 850,
 		"column": "b"

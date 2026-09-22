@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03400",
-	"slug": "אתדשא",
-	"headword": {
-		"text": "אִתְּדָשָׁא"
-	},
+	"sefariaHeadword": "אִתְּדָשָׁא",
+	"headwords": [
+		{
+			"text": "אִתְּדָשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 132,
 		"column": "b"

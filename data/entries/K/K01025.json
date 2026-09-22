@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01025",
-	"slug": "כפכף",
-	"headword": {
-		"text": "כַּפְכָּף"
-	},
+	"sefariaHeadword": "כַּפְכָּף",
+	"headwords": [
+		{
+			"text": "כַּפְכָּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "b"

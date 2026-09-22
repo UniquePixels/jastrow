@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00803",
-	"slug": "שיבין",
-	"headword": {
-		"text": "שִׁיבִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבִין",
+	"headwords": [
+		{
+			"text": "שִׁיבִין"
+		},
 		{
 			"text": "שִׁיבְיָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "b"

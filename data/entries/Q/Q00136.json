@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00136",
-	"slug": "פדרגימטא",
-	"headword": {
-		"text": "פדרגימטא"
-	},
+	"sefariaHeadword": "פדרגימטא",
+	"headwords": [
+		{
+			"text": "פדרגימטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

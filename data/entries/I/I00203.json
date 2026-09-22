@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00203",
-	"slug": "טופיסוס",
-	"headword": {
-		"text": "טופיסוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טופיסוס",
+	"headwords": [
+		{
+			"text": "טופיסוס"
+		},
 		{
 			"text": "טופיסטוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 525,
 		"column": "b"

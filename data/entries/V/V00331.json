@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00331",
-	"slug": "תושלימא",
-	"headword": {
-		"text": "תּוּשְׁלֵימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּשְׁלֵימָא",
+	"headwords": [
+		{
+			"text": "תּוּשְׁלֵימָא"
+		},
 		{
 			"text": "תּוּשְׁלָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1659,
 		"column": "a"

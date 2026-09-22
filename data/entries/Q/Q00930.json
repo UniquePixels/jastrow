@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00930",
-	"slug": "פלאטוני",
-	"headword": {
-		"text": "פלאטוני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלאטוני",
+	"headwords": [
+		{
+			"text": "פלאטוני"
+		},
 		{
 			"text": "פלאטיני"
 		},
@@ -12,6 +13,7 @@
 			"text": "פלאטנוס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1175,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02202",
-	"slug": "קרת",
-	"headword": {
-		"text": "קֶרֶת"
-	},
+	"sefariaHeadword": "קֶרֶת",
+	"headwords": [
+		{
+			"text": "קֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "a"

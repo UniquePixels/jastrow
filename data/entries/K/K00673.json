@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00673",
-	"slug": "כלאי",
-	"headword": {
-		"text": "כְּלָאֵי"
-	},
+	"sefariaHeadword": "כְּלָאֵי",
+	"headwords": [
+		{
+			"text": "כְּלָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

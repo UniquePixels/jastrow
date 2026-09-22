@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00193",
-	"slug": "צולאי",
-	"headword": {
-		"text": "צוּלָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּלָאֵי",
+	"headwords": [
 		{
-			"text": "בֵּית צוּלָאֵי"
+			"text": "צוּלָאֵי"
+		},
+		{
+			"text": "בֵּית צ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "b"

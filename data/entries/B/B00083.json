@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00083",
-	"slug": "בגלאי",
-	"headword": {
-		"text": "בִּגְלָאי"
-	},
+	"sefariaHeadword": "בִּגְלָאי",
+	"headwords": [
+		{
+			"text": "בִּגְלָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

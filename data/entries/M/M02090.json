@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02090",
-	"slug": "מעוסה",
-	"headword": {
-		"text": "מעוסה"
-	},
+	"sefariaHeadword": "מעוסה",
+	"headwords": [
+		{
+			"text": "מעוסה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

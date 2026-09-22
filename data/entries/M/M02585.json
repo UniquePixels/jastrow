@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02585",
-	"slug": "מרוית",
-	"headword": {
-		"text": "מַרְוִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְוִית",
+	"headwords": [
+		{
+			"text": "מַרְוִית"
+		},
 		{
 			"text": "מַרְוִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 838,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00256",
-	"slug": "גהט",
-	"headword": {
-		"text": "גְּהַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּהַט",
+	"headwords": [
+		{
+			"text": "גְּהַט"
+		},
 		{
 			"text": "גְּחַט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 215,
 		"column": "b"

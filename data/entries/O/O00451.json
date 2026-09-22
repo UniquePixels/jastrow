@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00451",
-	"slug": "סחותא",
-	"headword": {
-		"text": "סְחוּתָא"
-	},
+	"sefariaHeadword": "סְחוּתָא",
+	"headwords": [
+		{
+			"text": "סְחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

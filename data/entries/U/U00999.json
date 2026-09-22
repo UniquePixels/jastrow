@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00999",
-	"slug": "שיף-1",
-	"headword": {
-		"text": "שָׁיֵף"
-	},
+	"sefariaHeadword": "שָׁיֵף",
+	"headwords": [
+		{
+			"text": "שָׁיֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "b"

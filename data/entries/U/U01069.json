@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01069",
-	"slug": "שירותא-1",
-	"headword": {
-		"text": "שֵׁירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁירוּתָא",
+	"headwords": [
+		{
+			"text": "שֵׁירוּתָא"
+		},
 		{
 			"text": "שֵׁר׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1569,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00397",
-	"slug": "ילף",
-	"headword": {
-		"text": "יְלֵף"
-	},
+	"sefariaHeadword": "יְלֵף",
+	"headwords": [
+		{
+			"text": "יְלֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

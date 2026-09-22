@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00716",
-	"slug": "כלי-3",
-	"headword": {
-		"text": "כְּלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּלֵי",
+	"headwords": [
+		{
+			"text": "כְּלֵי"
+		},
 		{
 			"text": "כְּלָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 641,
 		"column": "b"

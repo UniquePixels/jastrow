@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02375",
-	"slug": "אסטל",
-	"headword": {
-		"text": "אִסְטֵל"
-	},
+	"sefariaHeadword": "אִסְטֵל",
+	"headwords": [
+		{
+			"text": "אִסְטֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "b"

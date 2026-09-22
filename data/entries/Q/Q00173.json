@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00173",
-	"slug": "פוזקמי",
-	"headword": {
-		"text": "פוזקמי"
-	},
+	"sefariaHeadword": "פוזקמי",
+	"headwords": [
+		{
+			"text": "פוזקמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

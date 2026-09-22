@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00432",
-	"slug": "טירודין",
-	"headword": {
-		"text": "טֵירוּדִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֵירוּדִין",
+	"headwords": [
 		{
-			"text": "טֵר׳"
+			"text": "טֵירוּדִין"
+		},
+		{
+			"text": "טֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 534,
 		"column": "a"

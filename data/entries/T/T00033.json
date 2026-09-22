@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00033",
-	"slug": "ראשון",
-	"headword": {
-		"text": "רִאשׁוֹן"
-	},
+	"sefariaHeadword": "רִאשׁוֹן",
+	"headwords": [
+		{
+			"text": "רִאשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1437,
 		"column": "b"

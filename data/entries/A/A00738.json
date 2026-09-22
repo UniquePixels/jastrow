@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00738",
-	"slug": "אוניא",
-	"headword": {
-		"text": "אוֹנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹנְיָא",
+	"headwords": [
+		{
+			"text": "אוֹנְיָא"
+		},
 		{
 			"text": "אוֹנְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אָנְיָיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 29,
 		"column": "a"

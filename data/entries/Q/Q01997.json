@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01997",
-	"slug": "פרקותא",
-	"headword": {
-		"text": "פַּרְקוּתָא"
-	},
+	"sefariaHeadword": "פַּרְקוּתָא",
+	"headwords": [
+		{
+			"text": "פַּרְקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

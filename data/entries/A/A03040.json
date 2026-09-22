@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03040",
-	"slug": "ארונקי",
-	"headword": {
-		"text": "ארונקי"
-	},
+	"sefariaHeadword": "ארונקי",
+	"headwords": [
+		{
+			"text": "ארונקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

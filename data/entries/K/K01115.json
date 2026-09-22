@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01115",
-	"slug": "כרויה",
-	"headword": {
-		"text": "כְּרוּיָה"
-	},
+	"sefariaHeadword": "כְּרוּיָה",
+	"headwords": [
+		{
+			"text": "כְּרוּיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

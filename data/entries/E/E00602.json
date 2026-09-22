@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00602",
-	"slug": "המי-1",
-	"headword": {
-		"text": "המי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "המי",
+	"headwords": [
+		{
+			"text": "המי"
+		},
 		{
 			"text": "הָמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 355,
 		"column": "a"

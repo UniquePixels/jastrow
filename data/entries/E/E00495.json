@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00495",
-	"slug": "היתר",
-	"headword": {
-		"text": "הֶיתֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיתֵּר",
+	"headwords": [
+		{
+			"text": "הֶיתֵּר"
+		},
 		{
 			"text": "הֶתֵּיר"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֶתֵּר"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 349,
 		"column": "b"

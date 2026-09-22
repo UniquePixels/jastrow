@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00297",
-	"slug": "מדינתא",
-	"headword": {
-		"text": "מְדִינְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְדִינְתָּא",
+	"headwords": [
 		{
-			"text": "… תָּה"
+			"text": "מְדִינְתָּא"
+		},
+		{
+			"text": "תָּה",
+			"partial": true
 		},
 		{
 			"text": "מְדִינָא"
 		}
 	],
+	"display": "{0}, (… {1}), {2}",
 	"page": {
 		"number": 734,
 		"column": "a"

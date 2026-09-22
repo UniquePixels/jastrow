@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00094",
-	"slug": "שבז",
-	"headword": {
-		"text": "שְׁבַז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שְׁבַז",
+	"headwords": [
+		{
+			"text": "שְׁבַז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1511,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00253",
-	"slug": "קודתא",
-	"headword": {
-		"text": "קוּדְּתָא"
-	},
+	"sefariaHeadword": "קוּדְּתָא",
+	"headwords": [
+		{
+			"text": "קוּדְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "a"

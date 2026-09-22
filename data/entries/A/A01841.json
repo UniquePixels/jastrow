@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01841",
-	"slug": "אליהוא",
-	"headword": {
-		"text": "אֱלִיהוּא"
-	},
+	"sefariaHeadword": "אֱלִיהוּא",
+	"headwords": [
+		{
+			"text": "אֱלִיהוּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

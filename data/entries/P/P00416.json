@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00416",
-	"slug": "עזלא",
-	"headword": {
-		"text": "עִזְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִזְלָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִזְלָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1062,
 		"column": "a"

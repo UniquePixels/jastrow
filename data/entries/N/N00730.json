@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00730",
-	"slug": "ניפולא",
-	"headword": {
-		"text": "נִיפּוֹלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיפּוֹלָא",
+	"headwords": [
+		{
+			"text": "נִיפּוֹלָא"
+		},
 		{
 			"text": "נִיפוֹלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01336",
-	"slug": "ספוקלטורא",
-	"headword": {
-		"text": "סְפוֹקְלָטוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפוֹקְלָטוֹרָא",
+	"headwords": [
+		{
+			"text": "סְפוֹקְלָטוֹרָא"
+		},
 		{
 			"text": "סְפוֹקְלְטָרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1012,
 		"column": "b"

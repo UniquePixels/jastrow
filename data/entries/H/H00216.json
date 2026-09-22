@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00216",
-	"slug": "חדרך",
-	"headword": {
-		"text": "חַדְרָךְ"
-	},
+	"sefariaHeadword": "חַדְרָךְ",
+	"headwords": [
+		{
+			"text": "חַדְרָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 427,
 		"column": "a"

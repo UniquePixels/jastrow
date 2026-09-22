@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00659",
-	"slug": "ככה",
-	"headword": {
-		"text": "כָּכָה"
-	},
+	"sefariaHeadword": "כָּכָה",
+	"headwords": [
+		{
+			"text": "כָּכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "a"

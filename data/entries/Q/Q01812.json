@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01812",
-	"slug": "פרינקא",
-	"headword": {
-		"text": "פַּרִינְקָא"
-	},
+	"sefariaHeadword": "פַּרִינְקָא",
+	"headwords": [
+		{
+			"text": "פַּרִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

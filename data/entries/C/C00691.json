@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00691",
-	"slug": "גיחוך",
-	"headword": {
-		"text": "גִּיחוּךְ"
-	},
+	"sefariaHeadword": "גִּיחוּךְ",
+	"headwords": [
+		{
+			"text": "גִּיחוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

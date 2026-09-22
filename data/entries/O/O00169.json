@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00169",
-	"slug": "סגרון",
-	"headword": {
-		"text": "סִגָּרוֹן"
-	},
+	"sefariaHeadword": "סִגָּרוֹן",
+	"headwords": [
+		{
+			"text": "סִגָּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

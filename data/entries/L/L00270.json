@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00270",
-	"slug": "לולב",
-	"headword": {
-		"text": "לוּלָב"
-	},
+	"sefariaHeadword": "לוּלָב",
+	"headwords": [
+		{
+			"text": "לוּלָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "b"

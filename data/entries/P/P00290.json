@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00290",
-	"slug": "עון-1",
-	"headword": {
-		"text": "עָוֹן"
-	},
+	"sefariaHeadword": "עָוֹן",
+	"headwords": [
+		{
+			"text": "עָוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U00060",
-	"slug": "שב-3",
-	"headword": {
-		"text": "שַׁב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁב ²",
+	"headwords": [
+		{
+			"text": "שַׁב",
+			"disambiguator": 2
+		},
 		{
 			"text": "שַׁבָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "שׁוּבָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1509,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00398",
-	"slug": "טינץ",
-	"headword": {
-		"text": "טינץ"
-	},
+	"sefariaHeadword": "טינץ",
+	"headwords": [
+		{
+			"text": "טינץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "a"

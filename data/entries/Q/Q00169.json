@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00169",
-	"slug": "פווסרוס",
-	"headword": {
-		"text": "פִּוְוסָרוֹס"
-	},
+	"sefariaHeadword": "פִּוְוסָרוֹס",
+	"headwords": [
+		{
+			"text": "פִּוְוסָרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "b"

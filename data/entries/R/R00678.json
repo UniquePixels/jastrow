@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00678",
-	"slug": "צפונא",
-	"headword": {
-		"text": "צִפּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוּנָא",
+	"headwords": [
+		{
+			"text": "צִפּוּנָא"
+		},
 		{
 			"text": "צִפּוּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1295,
 		"column": "b"

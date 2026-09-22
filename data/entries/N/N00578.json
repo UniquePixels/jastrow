@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00578",
-	"slug": "נטף-2",
-	"headword": {
-		"text": "נְטַף"
-	},
+	"sefariaHeadword": "נְטַף",
+	"headwords": [
+		{
+			"text": "נְטַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 901,
 		"column": "a"

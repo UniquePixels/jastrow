@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00239",
-	"slug": "הומהום",
-	"headword": {
-		"text": "הוּמְהוֹם"
-	},
+	"sefariaHeadword": "הוּמְהוֹם",
+	"headwords": [
+		{
+			"text": "הוּמְהוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

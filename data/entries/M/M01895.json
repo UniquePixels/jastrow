@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01895",
-	"slug": "מסטובא",
-	"headword": {
-		"text": "מִסְטוֹבָא"
-	},
+	"sefariaHeadword": "מִסְטוֹבָא",
+	"headwords": [
+		{
+			"text": "מִסְטוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "b"

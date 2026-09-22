@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "E00679",
-	"slug": "הנייה-2",
-	"headword": {
-		"text": "הֲנָיָיה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲנָיָיה ²",
+	"headwords": [
+		{
+			"text": "הֲנָיָיה",
+			"disambiguator": 2
+		},
 		{
 			"text": "הֲנייא"
 		},
@@ -13,6 +14,7 @@
 			"text": "הֲנָאָה"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 358,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00994",
-	"slug": "סליקוסתא-1",
-	"headword": {
-		"text": "סְלִיקוּסְתָּא"
-	},
+	"sefariaHeadword": "סְלִיקוּסְתָּא",
+	"headwords": [
+		{
+			"text": "סְלִיקוּסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02389",
-	"slug": "מקוה-2",
-	"headword": {
-		"text": "מִקְוֵה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִקְוֵה I",
+	"headwords": [
+		{
+			"text": "מִקְוֵה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 829,
 		"column": "b"

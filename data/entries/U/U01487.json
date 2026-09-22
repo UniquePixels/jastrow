@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01487",
-	"slug": "שמכא",
-	"headword": {
-		"text": "שַׁמְכָּא"
-	},
+	"sefariaHeadword": "שַׁמְכָּא",
+	"headwords": [
+		{
+			"text": "שַׁמְכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1596,
 		"column": "b"

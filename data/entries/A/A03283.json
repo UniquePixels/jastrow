@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03283",
-	"slug": "אשי",
-	"headword": {
-		"text": "אַשֵּׁי"
-	},
+	"sefariaHeadword": "אַשֵּׁי",
+	"headwords": [
+		{
+			"text": "אַשֵּׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

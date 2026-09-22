@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00755",
-	"slug": "פיסטליות",
-	"headword": {
-		"text": "פִּיסְטַלְיוֹת"
-	},
+	"sefariaHeadword": "פִּיסְטַלְיוֹת",
+	"headwords": [
+		{
+			"text": "פִּיסְטַלְיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "b"

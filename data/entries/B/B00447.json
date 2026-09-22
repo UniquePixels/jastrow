@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00447",
-	"slug": "בזיזי-2",
-	"headword": {
-		"text": "בזיזי"
-	},
+	"sefariaHeadword": "בזיזי",
+	"headwords": [
+		{
+			"text": "בזיזי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "b"

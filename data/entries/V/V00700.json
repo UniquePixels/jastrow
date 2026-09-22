@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00700",
-	"slug": "תמנת",
-	"headword": {
-		"text": "תִּמְנָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּמְנָת",
+	"headwords": [
+		{
+			"text": "תִּמְנָת"
+		},
 		{
 			"text": "תמנתא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תִּמְנָתָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1678,
 		"column": "b"

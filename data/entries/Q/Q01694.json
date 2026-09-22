@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01694",
-	"slug": "פרומלוכוס",
-	"headword": {
-		"text": "פרומלוכוס"
-	},
+	"sefariaHeadword": "פרומלוכוס",
+	"headwords": [
+		{
+			"text": "פרומלוכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01208",
-	"slug": "נקייה",
-	"headword": {
-		"text": "נְקִיָּיה"
-	},
+	"sefariaHeadword": "נְקִיָּיה",
+	"headwords": [
+		{
+			"text": "נְקִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

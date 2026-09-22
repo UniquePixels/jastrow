@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00347",
-	"slug": "לחיך",
-	"headword": {
-		"text": "לְחֵיךְ"
-	},
+	"sefariaHeadword": "לְחֵיךְ",
+	"headwords": [
+		{
+			"text": "לְחֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

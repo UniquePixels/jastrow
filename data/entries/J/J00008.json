@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00008",
-	"slug": "יאורא",
-	"headword": {
-		"text": "יְאוֹרָא"
-	},
+	"sefariaHeadword": "יְאוֹרָא",
+	"headwords": [
+		{
+			"text": "יְאוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00843",
-	"slug": "מחזירה",
-	"headword": {
-		"text": "מַחְזִירָה"
-	},
+	"sefariaHeadword": "מַחְזִירָה",
+	"headwords": [
+		{
+			"text": "מַחְזִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

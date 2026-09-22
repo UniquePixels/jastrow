@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00667",
-	"slug": "גיורי",
-	"headword": {
-		"text": "גִּיּוֹרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיּוֹרֵי",
+	"headwords": [
 		{
-			"text": "בר גִּיּוֹרֵי"
+			"text": "גִּיּוֹרֵי"
+		},
+		{
+			"text": "בר ג׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "b"

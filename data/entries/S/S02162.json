@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02162",
-	"slug": "קרקומניקיא",
-	"headword": {
-		"text": "קרקומניקיא"
-	},
+	"sefariaHeadword": "קרקומניקיא",
+	"headwords": [
+		{
+			"text": "קרקומניקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

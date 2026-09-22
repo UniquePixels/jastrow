@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00423",
-	"slug": "סורחנותא",
-	"headword": {
-		"text": "סוּרְחָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּרְחָנוּתָא",
+	"headwords": [
+		{
+			"text": "סוּרְחָנוּתָא"
+		},
 		{
 			"text": "סוּרְחַנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01019",
-	"slug": "מטמוט",
-	"headword": {
-		"text": "מִטְמוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִטְמוּט",
+	"headwords": [
 		{
-			"text": "מִיטְ׳"
+			"text": "מִטְמוּט"
+		},
+		{
+			"text": "מִיטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 768,
 		"column": "b"

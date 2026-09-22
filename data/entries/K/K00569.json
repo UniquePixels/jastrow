@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00569",
-	"slug": "כינופיא",
-	"headword": {
-		"text": "כִּינּוּפְיָא"
-	},
+	"sefariaHeadword": "כִּינּוּפְיָא",
+	"headwords": [
+		{
+			"text": "כִּינּוּפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00651",
-	"slug": "תמה-1",
-	"headword": {
-		"text": "תָּמַהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּמַהּ",
+	"headwords": [
+		{
+			"text": "תָּמַהּ"
+		},
 		{
 			"text": "תָּמֵהַּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1675,
 		"column": "a"

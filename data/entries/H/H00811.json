@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00811",
-	"slug": "חימתא-1",
-	"headword": {
-		"text": "חֵימְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵימְתָא",
+	"headwords": [
 		{
-			"text": "חוּ׳"
+			"text": "חֵימְתָא"
+		},
+		{
+			"text": "חוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 458,
 		"column": "a"

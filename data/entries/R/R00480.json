@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00480",
-	"slug": "צלב-2",
-	"headword": {
-		"text": "צְלַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְלַב",
+	"headwords": [
+		{
+			"text": "צְלַב"
+		},
 		{
 			"text": "צְלֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1282,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00290",
-	"slug": "סוטרא",
-	"headword": {
-		"text": "סוּטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּטְרָא",
+	"headwords": [
 		{
-			"text": "סוֹ׳"
+			"text": "סוּטְרָא"
+		},
+		{
+			"text": "סוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 963,
 		"column": "a"

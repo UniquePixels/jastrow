@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01626",
-	"slug": "פרודתקיון",
-	"headword": {
-		"text": "פרודתקיון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרודתקיון",
+	"headwords": [
+		{
+			"text": "פרודתקיון"
+		},
 		{
 			"text": "פרודתקין"
 		},
@@ -12,6 +13,7 @@
 			"text": "פרותקינן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1217,
 		"column": "b"

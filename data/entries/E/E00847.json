@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00847",
-	"slug": "הרזבונית",
-	"headword": {
-		"text": "הַרְזְבוֹנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְזְבוֹנִית",
+	"headwords": [
 		{
-			"text": "הַרְזְבָנִ׳"
+			"text": "הַרְזְבוֹנִית"
+		},
+		{
+			"text": "הַרְזְבָנִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 366,
 		"column": "b"

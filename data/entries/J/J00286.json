@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00286",
-	"slug": "יחידאה",
-	"headword": {
-		"text": "יְחִידָאָה"
-	},
+	"sefariaHeadword": "יְחִידָאָה",
+	"headwords": [
+		{
+			"text": "יְחִידָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 574,
 		"column": "b"

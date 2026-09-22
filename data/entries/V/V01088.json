@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01088",
-	"slug": "תשיעיתא",
-	"headword": {
-		"text": "תְּשִׁיעֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּשִׁיעֵיתָא",
+	"headwords": [
+		{
+			"text": "תְּשִׁיעֵיתָא"
+		},
 		{
 			"text": "תְּשִׁיעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1703,
 		"column": "b"

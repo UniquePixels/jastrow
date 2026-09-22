@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02213",
-	"slug": "פתת-1",
-	"headword": {
-		"text": "פָּתַת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פָּתַת I",
+	"headwords": [
+		{
+			"text": "פָּתַת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1256,
 		"column": "b"

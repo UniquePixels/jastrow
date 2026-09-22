@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02454",
-	"slug": "מקרוא",
-	"headword": {
-		"text": "מקרוא"
-	},
+	"sefariaHeadword": "מקרוא",
+	"headwords": [
+		{
+			"text": "מקרוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00670",
-	"slug": "כלא",
-	"headword": {
-		"text": "כָּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּלָא",
+	"headwords": [
+		{
+			"text": "כָּלָא"
+		},
 		{
 			"text": "כְּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 638,
 		"column": "b"

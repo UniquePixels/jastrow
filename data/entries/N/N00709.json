@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00709",
-	"slug": "ניסל",
-	"headword": {
-		"text": "נִיסֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיסֵל",
+	"headwords": [
+		{
+			"text": "נִיסֵל"
+		},
 		{
 			"text": "נֵסֶל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 906,
 		"column": "b"

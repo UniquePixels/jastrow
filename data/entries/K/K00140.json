@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00140",
-	"slug": "כדכריינון",
-	"headword": {
-		"text": "כדכריינון"
-	},
+	"sefariaHeadword": "כדכריינון",
+	"headwords": [
+		{
+			"text": "כדכריינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

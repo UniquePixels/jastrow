@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00984",
-	"slug": "קילפא",
-	"headword": {
-		"text": "קִילְפָא"
-	},
+	"sefariaHeadword": "קִילְפָא",
+	"headwords": [
+		{
+			"text": "קִילְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1361,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00181",
-	"slug": "יוחס",
-	"headword": {
-		"text": "יוֹחָס"
-	},
+	"sefariaHeadword": "יוֹחָס",
+	"headwords": [
+		{
+			"text": "יוֹחָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 568,
 		"column": "b"

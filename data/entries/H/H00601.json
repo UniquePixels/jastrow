@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00601",
-	"slug": "חטוניא",
-	"headword": {
-		"text": "חטוניא"
-	},
+	"sefariaHeadword": "חטוניא",
+	"headwords": [
+		{
+			"text": "חטוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 448,
 		"column": "a"

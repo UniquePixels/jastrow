@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00513",
-	"slug": "תירקי",
-	"headword": {
-		"text": "תירקי"
-	},
+	"sefariaHeadword": "תירקי",
+	"headwords": [
+		{
+			"text": "תירקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

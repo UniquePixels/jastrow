@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00104",
-	"slug": "צדיא-1",
-	"headword": {
-		"text": "צַדְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צַדְיָא I",
+	"headwords": [
+		{
+			"text": "צַדְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1262,
 		"column": "a"

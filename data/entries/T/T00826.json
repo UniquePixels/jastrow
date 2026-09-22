@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00826",
-	"slug": "רמם",
-	"headword": {
-		"text": "רָמַם"
-	},
+	"sefariaHeadword": "רָמַם",
+	"headwords": [
+		{
+			"text": "רָמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

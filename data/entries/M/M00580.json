@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00580",
-	"slug": "מוקא",
-	"headword": {
-		"text": "מוֹקָא"
-	},
+	"sefariaHeadword": "מוֹקָא",
+	"headwords": [
+		{
+			"text": "מוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "a"

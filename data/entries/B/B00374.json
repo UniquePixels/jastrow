@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00374",
-	"slug": "בורמא",
-	"headword": {
-		"text": "בּוּרְמָא"
-	},
+	"sefariaHeadword": "בּוּרְמָא",
+	"headwords": [
+		{
+			"text": "בּוּרְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

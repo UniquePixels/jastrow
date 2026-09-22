@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00055",
-	"slug": "פגיון",
-	"headword": {
-		"text": "פִּגְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּגְיוֹן",
+	"headwords": [
 		{
-			"text": "פִּיגְ׳"
+			"text": "פִּגְיוֹן"
+		},
+		{
+			"text": "פִּיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1132,
 		"column": "b"

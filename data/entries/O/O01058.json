@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01058",
-	"slug": "סמדאי",
-	"headword": {
-		"text": "סמדאי"
-	},
+	"sefariaHeadword": "סמדאי",
+	"headwords": [
+		{
+			"text": "סמדאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

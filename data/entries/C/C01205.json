@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01205",
-	"slug": "גפנא",
-	"headword": {
-		"text": "גָּפְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּפְנָא",
+	"headwords": [
+		{
+			"text": "גָּפְנָא"
+		},
 		{
 			"text": "גָּפְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 262,
 		"column": "b"

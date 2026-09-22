@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00189",
-	"slug": "תוטיני",
-	"headword": {
-		"text": "תוטיני"
-	},
+	"sefariaHeadword": "תוטיני",
+	"headwords": [
+		{
+			"text": "תוטיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

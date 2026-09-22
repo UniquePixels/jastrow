@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00119",
-	"slug": "הדייב",
-	"headword": {
-		"text": "הַדְיֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַדְיֵיב",
+	"headwords": [
+		{
+			"text": "הַדְיֵיב"
+		},
 		{
 			"text": "הַדְיֵב"
 		},
 		{
-			"text": "חַ׳"
+			"text": "חַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 333,
 		"column": "b"

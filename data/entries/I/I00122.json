@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00122",
-	"slug": "טובעני-1",
-	"headword": {
-		"text": "טוֹבְעָנִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוֹבְעָנִי I",
+	"headwords": [
+		{
+			"text": "טוֹבְעָנִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 522,
 		"column": "a"

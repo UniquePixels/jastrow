@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00812",
-	"slug": "חימתא-2",
-	"headword": {
-		"text": "חימתא"
-	},
+	"sefariaHeadword": "חימתא",
+	"headwords": [
+		{
+			"text": "חימתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "a"

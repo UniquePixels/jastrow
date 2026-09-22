@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00897",
-	"slug": "עמל-2",
-	"headword": {
-		"text": "עֲמַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲמַל I",
+	"headwords": [
+		{
+			"text": "עֲמַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1089,
 		"column": "a"

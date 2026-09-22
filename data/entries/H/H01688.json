@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01688",
-	"slug": "חריפותא",
-	"headword": {
-		"text": "חֲרִיפוּתָא"
-	},
+	"sefariaHeadword": "חֲרִיפוּתָא",
+	"headwords": [
+		{
+			"text": "חֲרִיפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "b"

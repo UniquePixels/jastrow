@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01763",
-	"slug": "מנחש-2",
-	"headword": {
-		"text": "מְנַחֵשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְנַחֵשׁ ²",
+	"headwords": [
+		{
+			"text": "מְנַחֵשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְנַחְשָׁא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 799,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00029",
-	"slug": "תאנתא",
-	"headword": {
-		"text": "תְּאֵנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּאֵנְתָּא",
+	"headwords": [
 		{
-			"text": "תְּאֵינְ׳"
+			"text": "תְּאֵנְתָּא"
+		},
+		{
+			"text": "תְּאֵינְ׳",
+			"partial": true
 		},
 		{
 			"text": "תֵּינְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1642,
 		"column": "b"

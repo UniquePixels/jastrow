@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00306",
-	"slug": "כונישרא",
-	"headword": {
-		"text": "כּוּנִישְׁרָא"
-	},
+	"sefariaHeadword": "כּוּנִישְׁרָא",
+	"headwords": [
+		{
+			"text": "כּוּנִישְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

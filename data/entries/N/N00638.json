@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00638",
-	"slug": "ניומתא",
-	"headword": {
-		"text": "נִיוּמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיוּמְתָּא",
+	"headwords": [
 		{
-			"text": "נְיוּ׳"
+			"text": "נִיוּמְתָּא"
+		},
+		{
+			"text": "נְיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00145",
-	"slug": "עדיף-2",
-	"headword": {
-		"text": "עָדִיף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָדִיף ²",
+	"headwords": [
+		{
+			"text": "עָדִיף",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֲדִיף"
 		},
@@ -13,6 +14,7 @@
 			"text": "עֲדִיפָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1044,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01104",
-	"slug": "נצולה",
-	"headword": {
-		"text": "נְצוּלָה"
-	},
+	"sefariaHeadword": "נְצוּלָה",
+	"headwords": [
+		{
+			"text": "נְצוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

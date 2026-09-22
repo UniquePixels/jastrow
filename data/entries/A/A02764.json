@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02764",
-	"slug": "אפסקימא",
-	"headword": {
-		"text": "אַפְסְקִימָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפְסְקִימָא",
+	"headwords": [
+		{
+			"text": "אַפְסְקִימָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אפסיקמא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אפסיקימא"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 106,
 		"column": "b"

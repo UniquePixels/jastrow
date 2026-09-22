@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01284",
-	"slug": "קלוסקא",
-	"headword": {
-		"text": "קְלוּסְקָא"
-	},
+	"sefariaHeadword": "קְלוּסְקָא",
+	"headwords": [
+		{
+			"text": "קְלוּסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

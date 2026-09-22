@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00409",
-	"slug": "אד״ך",
-	"headword": {
-		"text": "אד״ך"
-	},
+	"sefariaHeadword": "אד\"ך",
+	"headwords": [
+		{
+			"text": "אד״ך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

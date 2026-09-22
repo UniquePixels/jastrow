@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00391",
-	"slug": "אדורי",
-	"headword": {
-		"text": "אֲדוּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲדוּרֵי",
+	"headwords": [
+		{
+			"text": "אֲדוּרֵי"
+		},
 		{
 			"text": "אַהֲדוּרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 16,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00614",
-	"slug": "גיבול",
-	"headword": {
-		"text": "גּיבּוּל"
-	},
+	"sefariaHeadword": "גּיבּוּל",
+	"headwords": [
+		{
+			"text": "גּיבּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

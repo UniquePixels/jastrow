@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01783",
-	"slug": "חרש-8",
-	"headword": {
-		"text": "חֶרֶשׂ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶרֶשׂ ²",
+	"headwords": [
+		{
+			"text": "חֶרֶשׂ",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֶרֶשׁ"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 507,
 		"column": "b"

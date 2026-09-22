@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00343",
-	"slug": "זייף-1",
-	"headword": {
-		"text": "זִיֵּיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיֵּיף",
+	"headwords": [
+		{
+			"text": "זִיֵּיף"
+		},
 		{
 			"text": "זַיֵּיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00651",
-	"slug": "חיב",
-	"headword": {
-		"text": "חַיָּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַיָּב",
+	"headwords": [
+		{
+			"text": "חַיָּב"
+		},
 		{
 			"text": "חַיָּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 450,
 		"column": "b"

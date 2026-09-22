@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00171",
-	"slug": "ציוח",
-	"headword": {
-		"text": "צְיַוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְיַוח",
+	"headwords": [
+		{
+			"text": "צְיַוח"
+		},
 		{
 			"text": "צְוַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1266,
 		"column": "b"

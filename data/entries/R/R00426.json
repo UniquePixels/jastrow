@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00426",
-	"slug": "ציפרין",
-	"headword": {
-		"text": "ציפרין"
-	},
+	"sefariaHeadword": "ציפרין",
+	"headwords": [
+		{
+			"text": "ציפרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

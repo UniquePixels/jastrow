@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00439",
-	"slug": "רוקי",
-	"headword": {
-		"text": "רוקי"
-	},
+	"sefariaHeadword": "רוקי",
+	"headwords": [
+		{
+			"text": "רוקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "b"

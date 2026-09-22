@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01017",
-	"slug": "מטלת",
-	"headword": {
-		"text": "מְטֶלֶת"
-	},
+	"sefariaHeadword": "מְטֶלֶת",
+	"headwords": [
+		{
+			"text": "מְטֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "a"

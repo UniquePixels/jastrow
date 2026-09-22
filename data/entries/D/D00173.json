@@ -1,12 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00173",
-	"slug": "דובא",
-	"headword": {
-		"text": "דּוֹבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹבָא",
+	"headwords": [
 		{
-			"text": "דּווָֹא"
+			"text": "דּוֹבָא"
+		},
+		{
+			"text": "דּווָֹא"
 		},
 		{
 			"text": "דְּוָיָא"
@@ -15,6 +16,7 @@
 			"text": "דִּיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 282,
 		"column": "b"

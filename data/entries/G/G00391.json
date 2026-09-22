@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "G00391",
-	"slug": "זיעתא",
-	"headword": {
-		"text": "זִיעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיעֲתָא",
+	"headwords": [
+		{
+			"text": "זִיעֲתָא"
+		},
 		{
 			"text": "זִיעָא"
 		},
 		{
-			"text": "זֵי׳"
+			"text": "זֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 395,
 		"column": "b"

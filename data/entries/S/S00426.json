@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00426",
-	"slug": "קונטא",
-	"headword": {
-		"text": "קוֹנְטָא"
-	},
+	"sefariaHeadword": "קוֹנְטָא",
+	"headwords": [
+		{
+			"text": "קוֹנְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

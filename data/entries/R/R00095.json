@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00095",
-	"slug": "צדוקה",
-	"headword": {
-		"text": "צדוקה"
-	},
+	"sefariaHeadword": "צדוקה",
+	"headwords": [
+		{
+			"text": "צדוקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "b"

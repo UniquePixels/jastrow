@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00748",
-	"slug": "עכסילו",
-	"headword": {
-		"text": "עכסילו",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עכסילו",
+	"headwords": [
+		{
+			"text": "עכסילו",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1079,
 		"column": "b"

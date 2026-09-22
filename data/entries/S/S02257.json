@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02257",
-	"slug": "קשקש-2",
-	"headword": {
-		"text": "קַשְׁקֵשׁ"
-	},
+	"sefariaHeadword": "קַשְׁקֵשׁ",
+	"headwords": [
+		{
+			"text": "קַשְׁקֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1432,
 		"column": "a"

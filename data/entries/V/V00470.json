@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00470",
-	"slug": "תינוק",
-	"headword": {
-		"text": "תִּינוֹק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּינוֹק",
+	"headwords": [
 		{
-			"text": "תִּנּ׳"
+			"text": "תִּינוֹק"
+		},
+		{
+			"text": "תִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1665,
 		"column": "b"

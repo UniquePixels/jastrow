@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00429",
-	"slug": "חוץ-2",
-	"headword": {
-		"text": "חוּץ"
-	},
+	"sefariaHeadword": "חוּץ",
+	"headwords": [
+		{
+			"text": "חוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "b"

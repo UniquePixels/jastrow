@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01053",
-	"slug": "דרוכות",
-	"headword": {
-		"text": "דָּרוֹכוֹת"
-	},
+	"sefariaHeadword": "דָּרוֹכוֹת",
+	"headwords": [
+		{
+			"text": "דָּרוֹכוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "b"

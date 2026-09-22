@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00593",
-	"slug": "צמר-3",
-	"headword": {
-		"text": "צמר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צמר",
+	"headwords": [
 		{
-			"text": "צמר מורייה"
+			"text": "צמר"
 		},
 		{
-			"text": "צמר מורין"
+			"text": "צ׳ מורייה",
+			"partial": true
+		},
+		{
+			"text": "צ׳ מורין",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1289,
 		"column": "b"

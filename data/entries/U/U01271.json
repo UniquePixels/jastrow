@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01271",
-	"slug": "שלחא-1",
-	"headword": {
-		"text": "שִׁלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְחָא",
+	"headwords": [
+		{
+			"text": "שִׁלְחָא"
+		},
 		{
 			"text": "שִׁי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1580,
 		"column": "b"

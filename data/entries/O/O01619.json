@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01619",
-	"slug": "סרינא",
-	"headword": {
-		"text": "סִרְיָנָא"
-	},
+	"sefariaHeadword": "סִרְיָנָא",
+	"headwords": [
+		{
+			"text": "סִרְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

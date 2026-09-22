@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01120",
-	"slug": "תתיה",
-	"headword": {
-		"text": "תתיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תתיה",
+	"headwords": [
 		{
-			"text": "אין תתיה"
+			"text": "תתיה"
+		},
+		{
+			"text": "אין ת׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1705,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K01007",
-	"slug": "כפי-1",
-	"headword": {
-		"text": "כפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כפי",
+	"headwords": [
+		{
+			"text": "כפי"
+		},
 		{
 			"text": "כָּפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כָּפָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 658,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00190",
-	"slug": "נגרא-1",
-	"headword": {
-		"text": "נַגְרָא"
-	},
+	"sefariaHeadword": "נַגְרָא",
+	"headwords": [
+		{
+			"text": "נַגְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 876,
 		"column": "b"

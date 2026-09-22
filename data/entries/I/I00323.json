@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00323",
-	"slug": "טיופא-1",
-	"headword": {
-		"text": "טְיוּפָא"
-	},
+	"sefariaHeadword": "טְיוּפָא",
+	"headwords": [
+		{
+			"text": "טְיוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

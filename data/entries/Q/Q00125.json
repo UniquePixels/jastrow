@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00125",
-	"slug": "פדיסין",
-	"headword": {
-		"text": "פדיסין"
-	},
+	"sefariaHeadword": "פדיסין",
+	"headwords": [
+		{
+			"text": "פדיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01612",
-	"slug": "מלפניא",
-	"headword": {
-		"text": "מלפניא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מלפניא",
+	"headwords": [
+		{
+			"text": "מלפניא"
+		},
 		{
 			"text": "מִלְפִּפּוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִלְפִּפּוֹנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 793,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00591",
-	"slug": "תלילות",
-	"headword": {
-		"text": "תלילות"
-	},
+	"sefariaHeadword": "תלילות",
+	"headwords": [
+		{
+			"text": "תלילות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "a"

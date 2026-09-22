@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01369",
-	"slug": "בשר-2",
-	"headword": {
-		"text": "בְּשַׂר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּשַׂר",
+	"headwords": [
+		{
+			"text": "בְּשַׂר"
+		},
 		{
 			"text": "בְּסַר",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 199,
 		"column": "b"
@@ -44,7 +46,7 @@
 			"stem": "Pa."
 		},
 		{
-			"forms": ["אִתְבַּשַּׂר"],
+			"forms": ["אִתְבַּשַּׂר"],
 			"senses": [
 				{
 					"gloss": " as <cite ref=\"B01368\">preced.</cite> <i>Nithpa.</i> ",

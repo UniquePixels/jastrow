@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00693",
-	"slug": "אומולוגייא",
-	"headword": {
-		"text": "אוֹמוֹלוֹגְיָיא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוֹמוֹלוֹגְיָיא",
+	"headwords": [
+		{
+			"text": "אוֹמוֹלוֹגְיָיא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 27,
 		"column": "a"

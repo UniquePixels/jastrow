@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "M00121",
-	"slug": "מגדל-2",
-	"headword": {
-		"text": "מִגְדַּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִגְדַּל",
+	"headwords": [
+		{
+			"text": "מִגְדַּל"
+		},
 		{
 			"text": "מִגְדְּלָא"
 		},
 		{
-			"text": "מַגְ׳"
+			"text": "מַגְ׳",
+			"partial": true
 		},
 		{
-			"text": "מוּגְ׳"
+			"text": "מוּגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 726,
 		"column": "b"

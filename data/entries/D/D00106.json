@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00106",
-	"slug": "דגל-1",
-	"headword": {
-		"text": "דָּגַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דָּגַל I",
+	"headwords": [
+		{
+			"text": "דָּגַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 279,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01699",
-	"slug": "מנא-2",
-	"headword": {
-		"text": "מְנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְנָא II",
+	"headwords": [
+		{
+			"text": "מְנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 796,
 		"column": "b"

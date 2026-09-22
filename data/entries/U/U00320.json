@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00320",
-	"slug": "שובכא",
-	"headword": {
-		"text": "שׁוֹבְכָא"
-	},
+	"sefariaHeadword": "שׁוֹבְכָא",
+	"headwords": [
+		{
+			"text": "שׁוֹבְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "b"

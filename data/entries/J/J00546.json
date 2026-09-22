@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "J00546",
-	"slug": "יצף-4",
-	"headword": {
-		"text": "יְצַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְצַף",
+	"headwords": [
+		{
+			"text": "יְצַף"
+		},
 		{
 			"text": "יִצְפָּא"
 		},
 		{
-			"text": "יוּצְ׳"
+			"text": "יוּצְ׳",
+			"partial": true
 		},
 		{
-			"text": "יִיצְ׳"
+			"text": "יִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 590,
 		"column": "a"

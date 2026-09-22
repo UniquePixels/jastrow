@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00055",
-	"slug": "רבד-1",
-	"headword": {
-		"text": "רָבַד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רָבַד",
+	"headwords": [
+		{
+			"text": "רָבַד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1439,
 		"column": "b"

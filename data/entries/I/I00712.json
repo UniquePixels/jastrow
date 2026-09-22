@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00712",
-	"slug": "טרד-1",
-	"headword": {
-		"text": "טָרַד"
-	},
+	"sefariaHeadword": "טָרַד",
+	"headwords": [
+		{
+			"text": "טָרַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "a"

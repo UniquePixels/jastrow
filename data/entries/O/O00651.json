@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00651",
-	"slug": "סיכסא",
-	"headword": {
-		"text": "סִיכְסָא"
-	},
+	"sefariaHeadword": "סִיכְסָא",
+	"headwords": [
+		{
+			"text": "סִיכְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "b"

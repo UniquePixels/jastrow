@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03121",
-	"slug": "ארישא",
-	"headword": {
-		"text": "אֲרִישָׂא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִישָׂא",
+	"headwords": [
+		{
+			"text": "אֲרִישָׂא"
+		},
 		{
 			"text": "אֲרִישָׁא"
 		},
@@ -18,6 +19,7 @@
 			"text": "ארישן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 120,
 		"column": "b"

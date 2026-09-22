@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00185",
-	"slug": "פוטטין",
-	"headword": {
-		"text": "פוטטין"
-	},
+	"sefariaHeadword": "פוטטין",
+	"headwords": [
+		{
+			"text": "פוטטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

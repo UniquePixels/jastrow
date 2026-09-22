@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00554",
-	"slug": "גזירה-2",
-	"headword": {
-		"text": "גזירה"
-	},
+	"sefariaHeadword": "גזירה",
+	"headwords": [
+		{
+			"text": "גזירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

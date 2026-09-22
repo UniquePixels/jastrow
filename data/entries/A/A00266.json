@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00266",
-	"slug": "אגון",
-	"headword": {
-		"text": "אָגוֹן"
-	},
+	"sefariaHeadword": "אָגוֹן",
+	"headwords": [
+		{
+			"text": "אָגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

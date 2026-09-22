@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00178",
-	"slug": "אבנימוס",
-	"headword": {
-		"text": "אַבְנִימוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְנִימוֹס",
+	"headwords": [
+		{
+			"text": "אַבְנִימוֹס"
+		},
 		{
 			"text": "נִימוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 8,
 		"column": "a"

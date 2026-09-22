@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00879",
-	"slug": "תקופה",
-	"headword": {
-		"text": "תְּקוּפָה"
-	},
+	"sefariaHeadword": "תְּקוּפָה",
+	"headwords": [
+		{
+			"text": "תְּקוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

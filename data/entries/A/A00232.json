@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00232",
-	"slug": "אבשין",
-	"headword": {
-		"text": "אֻבְשִׁין"
-	},
+	"sefariaHeadword": "אֻבְשִׁין",
+	"headwords": [
+		{
+			"text": "אֻבְשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "a"

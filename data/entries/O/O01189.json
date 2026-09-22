@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01189",
-	"slug": "סנדרוס",
-	"headword": {
-		"text": "סַנְדְּרוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְדְּרוֹס",
+	"headwords": [
+		{
+			"text": "סַנְדְּרוֹס"
+		},
 		{
 			"text": "סַנְדְּרִיאוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01002",
-	"slug": "עננא",
-	"headword": {
-		"text": "עָנְנָא"
-	},
+	"sefariaHeadword": "עָנְנָא",
+	"headwords": [
+		{
+			"text": "עָנְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01205",
-	"slug": "פנך",
-	"headword": {
-		"text": "פְּנַךְ"
-	},
+	"sefariaHeadword": "פְּנַךְ",
+	"headwords": [
+		{
+			"text": "פְּנַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "a"

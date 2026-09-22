@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00284",
-	"slug": "גובלא",
-	"headword": {
-		"text": "גּוּבְלָא"
-	},
+	"sefariaHeadword": "גּוּבְלָא",
+	"headwords": [
+		{
+			"text": "גּוּבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

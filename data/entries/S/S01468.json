@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01468",
-	"slug": "קמי-2",
-	"headword": {
-		"text": "קַמֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמֵּי",
+	"headwords": [
+		{
+			"text": "קַמֵּי"
+		},
 		{
 			"text": "קַמּ־"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1385,
 		"column": "a"

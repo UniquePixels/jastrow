@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00564",
-	"slug": "דייסיקיא",
-	"headword": {
-		"text": "דייסיקיא"
-	},
+	"sefariaHeadword": "דייסיקיא",
+	"headwords": [
+		{
+			"text": "דייסיקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

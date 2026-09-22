@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00787",
-	"slug": "חילק-1",
-	"headword": {
-		"text": "חֵילֶק",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵילֶק I",
+	"headwords": [
+		{
+			"text": "חֵילֶק",
+			"homograph": 1
+		},
 		{
 			"text": "חֵלֶק"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 457,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01028",
-	"slug": "קינומא",
-	"headword": {
-		"text": "קִינוּמָא"
-	},
+	"sefariaHeadword": "קִינוּמָא",
+	"headwords": [
+		{
+			"text": "קִינוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "a"

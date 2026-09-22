@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00776",
-	"slug": "מזנון",
-	"headword": {
-		"text": "מַזְנוֹן"
-	},
+	"sefariaHeadword": "מַזְנוֹן",
+	"headwords": [
+		{
+			"text": "מַזְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

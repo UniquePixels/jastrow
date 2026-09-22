@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00805",
-	"slug": "כמכא",
-	"headword": {
-		"text": "כָּמְכָא"
-	},
+	"sefariaHeadword": "כָּמְכָא",
+	"headwords": [
+		{
+			"text": "כָּמְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01477",
-	"slug": "איספי",
-	"headword": {
-		"text": "איספי"
-	},
+	"sefariaHeadword": "איספי",
+	"headwords": [
+		{
+			"text": "איספי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00672",
-	"slug": "ריעות",
-	"headword": {
-		"text": "רֵיעוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיעוּת",
+	"headwords": [
+		{
+			"text": "רֵיעוּת"
+		},
 		{
 			"text": "רֵעוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1476,
 		"column": "a"

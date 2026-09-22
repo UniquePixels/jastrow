@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00857",
-	"slug": "הרי-1",
-	"headword": {
-		"text": "הֲרֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲרֵי I",
+	"headwords": [
+		{
+			"text": "הֲרֵי",
+			"homograph": 1
+		},
 		{
 			"text": "הֲרִי"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 367,
 		"column": "a"

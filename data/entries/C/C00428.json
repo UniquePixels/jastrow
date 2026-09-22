@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00428",
-	"slug": "גון-3",
-	"headword": {
-		"text": "גַּוָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּוָּן",
+	"headwords": [
+		{
+			"text": "גַּוָּן"
+		},
 		{
 			"text": "גּוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "גַּוְנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 223,
 		"column": "b"

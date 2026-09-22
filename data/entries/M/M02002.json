@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02002",
-	"slug": "מסקום",
-	"headword": {
-		"text": "מסקום"
-	},
+	"sefariaHeadword": "מסקום",
+	"headwords": [
+		{
+			"text": "מסקום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "b"

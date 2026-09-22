@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01042",
-	"slug": "רקם-4",
-	"headword": {
-		"text": "רְקָם",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְקָם I",
+	"headwords": [
+		{
+			"text": "רְקָם",
+			"homograph": 1
+		},
 		{
 			"text": "רֶקֶם"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1497,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00853",
-	"slug": "כניסא",
-	"headword": {
-		"text": "כְּנִיסָא"
-	},
+	"sefariaHeadword": "כְּנִיסָא",
+	"headwords": [
+		{
+			"text": "כְּנִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

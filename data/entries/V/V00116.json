@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00116",
-	"slug": "תהה",
-	"headword": {
-		"text": "תָּהָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּהָה",
+	"headwords": [
+		{
+			"text": "תָּהָה"
+		},
 		{
 			"text": "תְּהַהּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1648,
 		"column": "a"

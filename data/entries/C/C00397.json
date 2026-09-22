@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00397",
-	"slug": "גוללא",
-	"headword": {
-		"text": "גּוֹלְלָא"
-	},
+	"sefariaHeadword": "גּוֹלְלָא",
+	"headwords": [
+		{
+			"text": "גּוֹלְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "a"

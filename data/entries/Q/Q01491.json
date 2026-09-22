@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01491",
-	"slug": "פקיעיות",
-	"headword": {
-		"text": "פקיעיות"
-	},
+	"sefariaHeadword": "פקיעיות",
+	"headwords": [
+		{
+			"text": "פקיעיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "b"

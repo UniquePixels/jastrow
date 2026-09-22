@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00018",
-	"slug": "חבו",
-	"headword": {
-		"text": "חָבוּ"
-	},
+	"sefariaHeadword": "חָבוּ",
+	"headwords": [
+		{
+			"text": "חָבוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

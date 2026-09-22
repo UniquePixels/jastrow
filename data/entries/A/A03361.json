@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03361",
-	"slug": "אשש-1",
-	"headword": {
-		"text": "אָשַׁשׁ"
-	},
+	"sefariaHeadword": "אָשַׁשׁ",
+	"headwords": [
+		{
+			"text": "אָשַׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

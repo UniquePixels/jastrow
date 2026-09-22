@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00953",
-	"slug": "התם-2",
-	"headword": {
-		"text": "התם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*התם",
+	"headwords": [
+		{
+			"text": "התם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 371,
 		"column": "b"

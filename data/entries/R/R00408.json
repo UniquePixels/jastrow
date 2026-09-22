@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00408",
-	"slug": "ציפוי",
-	"headword": {
-		"text": "צִיפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוּי",
+	"headwords": [
+		{
+			"text": "צִיפּוּי"
+		},
 		{
 			"text": "צִפּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1278,
 		"column": "b"

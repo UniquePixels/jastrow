@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00171",
-	"slug": "נגני-1",
-	"headword": {
-		"text": "נָגָנֵי"
-	},
+	"sefariaHeadword": "נָגָנֵי",
+	"headwords": [
+		{
+			"text": "נָגָנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

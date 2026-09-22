@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00356",
-	"slug": "בורזינקא",
-	"headword": {
-		"text": "בּוּרְזִינְקָא"
-	},
+	"sefariaHeadword": "בּוּרְזִינְקָא",
+	"headwords": [
+		{
+			"text": "בּוּרְזִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "a"

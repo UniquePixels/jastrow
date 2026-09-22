@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00257",
-	"slug": "אגוד",
-	"headword": {
-		"text": "אֱגוֹד"
-	},
+	"sefariaHeadword": "אֱגוֹד",
+	"headwords": [
+		{
+			"text": "אֱגוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "a"

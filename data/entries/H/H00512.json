@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00512",
-	"slug": "חזון",
-	"headword": {
-		"text": "חָזוֹן"
-	},
+	"sefariaHeadword": "חָזוֹן",
+	"headwords": [
+		{
+			"text": "חָזוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "a"

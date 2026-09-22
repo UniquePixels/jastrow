@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00028",
-	"slug": "גאני",
-	"headword": {
-		"text": "גָּאנֵי"
-	},
+	"sefariaHeadword": "גָּאנֵי",
+	"headwords": [
+		{
+			"text": "גָּאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "a"

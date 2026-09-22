@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02161",
-	"slug": "קרקום",
-	"headword": {
-		"text": "קַרְקוֹם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְקוֹם",
+	"headwords": [
+		{
+			"text": "קַרְקוֹם"
+		},
 		{
 			"text": "קַרְקוֹמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1426,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00566",
-	"slug": "גזלנותא",
-	"headword": {
-		"text": "גַּזְלָנוּתָא"
-	},
+	"sefariaHeadword": "גַּזְלָנוּתָא",
+	"headwords": [
+		{
+			"text": "גַּזְלָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 231,
 		"column": "a"

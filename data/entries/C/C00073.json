@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00073",
-	"slug": "גבי-2",
-	"headword": {
-		"text": "גבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גבי",
+	"headwords": [
+		{
+			"text": "גבי"
+		},
 		{
 			"text": "גָּבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 205,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00852",
-	"slug": "גלאי",
-	"headword": {
-		"text": "גְּלָאי"
-	},
+	"sefariaHeadword": "גְּלָאי",
+	"headwords": [
+		{
+			"text": "גְּלָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "b"

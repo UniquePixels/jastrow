@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00439",
-	"slug": "יניבא",
-	"headword": {
-		"text": "יָנִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָנִיבָא",
+	"headwords": [
+		{
+			"text": "יָנִיבָא"
+		},
 		{
 			"text": "יָאנִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 581,
 		"column": "a"

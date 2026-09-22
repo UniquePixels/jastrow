@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01125",
-	"slug": "קיצה-2",
-	"headword": {
-		"text": "קִיצָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קִיצָה I",
+	"headwords": [
+		{
+			"text": "קִיצָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1367,
 		"column": "a"

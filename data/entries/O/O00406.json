@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00406",
-	"slug": "סופתקא",
-	"headword": {
-		"text": "סוּפְתְּקָא"
-	},
+	"sefariaHeadword": "סוּפְתְּקָא",
+	"headwords": [
+		{
+			"text": "סוּפְתְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "a"

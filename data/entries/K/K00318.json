@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00318",
-	"slug": "כוסא-2",
-	"headword": {
-		"text": "כּוֹסָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "כּוֹסָא ²",
+	"headwords": [
+		{
+			"text": "כּוֹסָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 623,
 		"column": "a"

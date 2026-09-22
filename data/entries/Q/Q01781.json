@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01781",
-	"slug": "פרטתא-1",
-	"headword": {
-		"text": "פִּרְטְתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּרְטְתָא I",
+	"headwords": [
+		{
+			"text": "פִּרְטְתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1225,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00592",
-	"slug": "שזב",
-	"headword": {
-		"text": "שֵׁזֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁזֵב",
+	"headwords": [
+		{
+			"text": "שֵׁזֵב"
+		},
 		{
 			"text": "שֵׁזְבָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "שֵׁזָבוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1544,
 		"column": "b"

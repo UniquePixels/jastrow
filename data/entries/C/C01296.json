@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01296",
-	"slug": "גרוטי",
-	"headword": {
-		"text": "גְּרוּטִי"
-	},
+	"sefariaHeadword": "גְּרוּטִי",
+	"headwords": [
+		{
+			"text": "גְּרוּטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

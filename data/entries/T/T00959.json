@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00959",
-	"slug": "רפפות",
-	"headword": {
-		"text": "רְפָפוֹת"
-	},
+	"sefariaHeadword": "רְפָפוֹת",
+	"headwords": [
+		{
+			"text": "רְפָפוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1491,
 		"column": "b"

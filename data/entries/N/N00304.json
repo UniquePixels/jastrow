@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00304",
-	"slug": "נוגחן",
-	"headword": {
-		"text": "נוֹגְחָן"
-	},
+	"sefariaHeadword": "נוֹגְחָן",
+	"headwords": [
+		{
+			"text": "נוֹגְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

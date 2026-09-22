@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A01161",
-	"slug": "אידין",
-	"headword": {
-		"text": "אֵידֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵידֵין",
+	"headwords": [
+		{
+			"text": "אֵידֵין"
+		},
 		{
 			"text": "אֵידְנָא"
 		},
 		{
-			"text": "אַיְידָא אֵידָא"
+			"text": "אַיְידָא"
+		},
+		{
+			"text": "אֵידָא"
 		},
 		{
 			"text": "אַיְידִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, ({4})",
 	"page": {
 		"number": 45,
 		"column": "a"

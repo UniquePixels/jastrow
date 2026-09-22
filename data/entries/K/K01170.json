@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01170",
-	"slug": "כריסו",
-	"headword": {
-		"text": "כְּרִיסוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרִיסוֹ",
+	"headwords": [
 		{
-			"text": "כְּרִיסוֹ אַרְגִּירָא"
+			"text": "כְּרִיסוֹ"
+		},
+		{
+			"text": "כ׳ אַרְגִּירָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 667,
 		"column": "a"

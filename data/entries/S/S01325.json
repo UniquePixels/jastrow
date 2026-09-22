@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01325",
-	"slug": "קליבוסתא",
-	"headword": {
-		"text": "קְלִיבוּסְתָּא"
-	},
+	"sefariaHeadword": "קְלִיבוּסְתָּא",
+	"headwords": [
+		{
+			"text": "קְלִיבוּסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00075",
-	"slug": "לבינתא",
-	"headword": {
-		"text": "לְבֵינְתָא"
-	},
+	"sefariaHeadword": "לְבֵינְתָא",
+	"headwords": [
+		{
+			"text": "לְבֵינְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00368",
-	"slug": "חולתא-2",
-	"headword": {
-		"text": "חוּלְתָא"
-	},
+	"sefariaHeadword": "חוּלְתָא",
+	"headwords": [
+		{
+			"text": "חוּלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "a"

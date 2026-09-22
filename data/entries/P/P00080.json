@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00080",
-	"slug": "עגה-1",
-	"headword": {
-		"text": "עָגָה"
-	},
+	"sefariaHeadword": "עָגָה",
+	"headwords": [
+		{
+			"text": "עָגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "b"

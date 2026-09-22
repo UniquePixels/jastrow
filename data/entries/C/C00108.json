@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00108",
-	"slug": "גבלא-2",
-	"headword": {
-		"text": "גַּבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּבְלָא",
+	"headwords": [
+		{
+			"text": "גַּבְלָא"
+		},
 		{
 			"text": "גְּבָל"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּבֵל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 207,
 		"column": "b"

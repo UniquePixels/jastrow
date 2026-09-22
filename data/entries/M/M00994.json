@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00994",
-	"slug": "מטטרון",
-	"headword": {
-		"text": "מַטַּטְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַטַּטְרוֹן",
+	"headwords": [
 		{
-			"text": "מִיטַּ׳"
+			"text": "מַטַּטְרוֹן"
+		},
+		{
+			"text": "מִיטַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 767,
 		"column": "a"

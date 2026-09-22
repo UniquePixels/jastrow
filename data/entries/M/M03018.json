@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03018",
-	"slug": "מתוביתא",
-	"headword": {
-		"text": "מְתוּבִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתוּבִיתָא",
+	"headwords": [
+		{
+			"text": "מְתוּבִיתָא"
+		},
 		{
 			"text": "מְתוּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 860,
 		"column": "a"

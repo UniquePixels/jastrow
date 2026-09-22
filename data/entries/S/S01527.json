@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01527",
-	"slug": "קנגיון",
-	"headword": {
-		"text": "קְנִגְיוֹן"
-	},
+	"sefariaHeadword": "קְנִגְיוֹן",
+	"headwords": [
+		{
+			"text": "קְנִגְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

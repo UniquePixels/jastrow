@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01638",
-	"slug": "חרורי-2",
-	"headword": {
-		"text": "חֲרוּרֵי"
-	},
+	"sefariaHeadword": "חֲרוּרֵי",
+	"headwords": [
+		{
+			"text": "חֲרוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00363",
-	"slug": "טילא-1",
-	"headword": {
-		"text": "טִילָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טִילָא I",
+	"headwords": [
+		{
+			"text": "טִילָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 531,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00832",
-	"slug": "דליל-1",
-	"headword": {
-		"text": "דָּלִיל"
-	},
+	"sefariaHeadword": "דָּלִיל",
+	"headwords": [
+		{
+			"text": "דָּלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "a"

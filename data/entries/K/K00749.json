@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00749",
-	"slug": "כלך-1",
-	"headword": {
-		"text": "כַּלָּךְ"
-	},
+	"sefariaHeadword": "כַּלָּךְ",
+	"headwords": [
+		{
+			"text": "כַּלָּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01248",
-	"slug": "שלוכתא",
-	"headword": {
-		"text": "שְׁלוּכְתָּא"
-	},
+	"sefariaHeadword": "שְׁלוּכְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁלוּכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "a"

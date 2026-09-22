@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00461",
-	"slug": "חורגתא",
-	"headword": {
-		"text": "חוּרְגְּתָא"
-	},
+	"sefariaHeadword": "חוּרְגְּתָא",
+	"headwords": [
+		{
+			"text": "חוּרְגְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

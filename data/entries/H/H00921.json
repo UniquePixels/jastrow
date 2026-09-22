@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00921",
-	"slug": "חכימתא",
-	"headword": {
-		"text": "חַכִּימְתָּא"
-	},
+	"sefariaHeadword": "חַכִּימְתָּא",
+	"headwords": [
+		{
+			"text": "חַכִּימְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "b"

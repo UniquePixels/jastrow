@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01246",
-	"slug": "שלוט",
-	"headword": {
-		"text": "שִׁלּוּט"
-	},
+	"sefariaHeadword": "שִׁלּוּט",
+	"headwords": [
+		{
+			"text": "שִׁלּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "a"

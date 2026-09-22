@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00496",
-	"slug": "צלולפונית",
-	"headword": {
-		"text": "צלולפונית"
-	},
+	"sefariaHeadword": "צלולפונית",
+	"headwords": [
+		{
+			"text": "צלולפונית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

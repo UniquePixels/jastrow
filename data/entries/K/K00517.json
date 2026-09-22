@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00517",
-	"slug": "כיח",
-	"headword": {
-		"text": "כִּיחַ"
-	},
+	"sefariaHeadword": "כִּיחַ",
+	"headwords": [
+		{
+			"text": "כִּיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

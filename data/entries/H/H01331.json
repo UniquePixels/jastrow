@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01331",
-	"slug": "חסא-2",
-	"headword": {
-		"text": "חָסָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָסָא I",
+	"headwords": [
+		{
+			"text": "חָסָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 485,
 		"column": "b"

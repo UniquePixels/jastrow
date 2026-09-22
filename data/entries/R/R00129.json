@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00129",
-	"slug": "צדרא",
-	"headword": {
-		"text": "צְדָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְדָרָא",
+	"headwords": [
+		{
+			"text": "צְדָרָא"
+		},
 		{
 			"text": "צְדָרוֹיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "צְדַרְיָתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1264,
 		"column": "a"

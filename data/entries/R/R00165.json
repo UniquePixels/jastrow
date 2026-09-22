@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00165",
-	"slug": "צוה",
-	"headword": {
-		"text": "צָוָה"
-	},
+	"sefariaHeadword": "צָוָה",
+	"headwords": [
+		{
+			"text": "צָוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

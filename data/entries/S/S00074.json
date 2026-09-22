@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00074",
-	"slug": "קבלן-1",
-	"headword": {
-		"text": "קַבָּלָן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַבָּלָן",
+	"headwords": [
+		{
+			"text": "קַבָּלָן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1310,
 		"column": "a"

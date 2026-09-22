@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01649",
-	"slug": "איתימוס",
-	"headword": {
-		"text": "איתימוס"
-	},
+	"sefariaHeadword": "איתימוס",
+	"headwords": [
+		{
+			"text": "איתימוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

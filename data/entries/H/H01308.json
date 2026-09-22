@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01308",
-	"slug": "חנמאל",
-	"headword": {
-		"text": "חֲנַמְאֵל"
-	},
+	"sefariaHeadword": "חֲנַמְאֵל",
+	"headwords": [
+		{
+			"text": "חֲנַמְאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 484,
 		"column": "a"

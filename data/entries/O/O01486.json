@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01486",
-	"slug": "סקל-2",
-	"headword": {
-		"text": "סְקַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְקַל I",
+	"headwords": [
+		{
+			"text": "סְקַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1020,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00630",
-	"slug": "גידדא",
-	"headword": {
-		"text": "גִּידְדָא"
-	},
+	"sefariaHeadword": "גִּידְדָא",
+	"headwords": [
+		{
+			"text": "גִּידְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "a"

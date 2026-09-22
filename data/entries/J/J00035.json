@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00035",
-	"slug": "יבבי",
-	"headword": {
-		"text": "יבבי"
-	},
+	"sefariaHeadword": "יבבי",
+	"headwords": [
+		{
+			"text": "יבבי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00272",
-	"slug": "פונדקית",
-	"headword": {
-		"text": "פּוּנְדָּקִית"
-	},
+	"sefariaHeadword": "פּוּנְדָּקִית",
+	"headwords": [
+		{
+			"text": "פּוּנְדָּקִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

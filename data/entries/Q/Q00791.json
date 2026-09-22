@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00791",
-	"slug": "פיץ",
-	"headword": {
-		"text": "פִּיץ"
-	},
+	"sefariaHeadword": "פִּיץ",
+	"headwords": [
+		{
+			"text": "פִּיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

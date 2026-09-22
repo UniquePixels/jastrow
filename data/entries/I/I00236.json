@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00236",
-	"slug": "טורמיטא",
-	"headword": {
-		"text": "טורמיטא"
-	},
+	"sefariaHeadword": "טורמיטא",
+	"headwords": [
+		{
+			"text": "טורמיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

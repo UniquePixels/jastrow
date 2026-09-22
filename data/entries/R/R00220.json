@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00220",
-	"slug": "צופים",
-	"headword": {
-		"text": "צוֹפִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹפִים",
+	"headwords": [
 		{
-			"text": "הַצּ׳"
+			"text": "צוֹפִים"
+		},
+		{
+			"text": "הַצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1269,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00302",
-	"slug": "סוכות",
-	"headword": {
-		"text": "סוּכּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּכּוֹת",
+	"headwords": [
+		{
+			"text": "סוּכּוֹת"
+		},
 		{
 			"text": "סֻכּוֹת"
 		},
 		{
-			"text": "סוּכּוֹת בְּנוֹת"
+			"text": "ס׳ בְּנוֹת",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 964,
 		"column": "a"

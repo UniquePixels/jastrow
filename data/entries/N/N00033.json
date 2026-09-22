@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00033",
-	"slug": "נאקתא",
-	"headword": {
-		"text": "נָאקְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָאקְתָא",
+	"headwords": [
+		{
+			"text": "נָאקְתָא"
+		},
 		{
 			"text": "נָקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 867,
 		"column": "a"

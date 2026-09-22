@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00209",
-	"slug": "דוואר",
-	"headword": {
-		"text": "דַּוָּואר"
-	},
+	"sefariaHeadword": "דַּוָּואר",
+	"headwords": [
+		{
+			"text": "דַּוָּואר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00362",
-	"slug": "בוריא-3",
-	"headword": {
-		"text": "בּוֹרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוֹרְיָא",
+	"headwords": [
+		{
+			"text": "בּוֹרְיָא"
+		},
 		{
 			"text": "בּוּרְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 150,
 		"column": "a"

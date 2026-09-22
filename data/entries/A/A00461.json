@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00461",
-	"slug": "אדריב",
-	"headword": {
-		"text": "אַדְרִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְרִיב",
+	"headwords": [
+		{
+			"text": "אַדְרִיב"
+		},
 		{
 			"text": "אַדְרִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 18,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01406",
-	"slug": "פפי-1",
-	"headword": {
-		"text": "פפי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פפי",
+	"headwords": [
+		{
+			"text": "פפי",
+			"reconstructed": true
+		},
 		{
 			"text": "פָּפָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1204,
 		"column": "a"

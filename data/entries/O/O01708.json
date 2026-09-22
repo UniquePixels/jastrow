@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01708",
-	"slug": "סתמא",
-	"headword": {
-		"text": "סְתָמָא"
-	},
+	"sefariaHeadword": "סְתָמָא",
+	"headwords": [
+		{
+			"text": "סְתָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1032,
 		"column": "b"

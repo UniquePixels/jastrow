@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00776",
-	"slug": "פיף",
-	"headword": {
-		"text": "פִּיף"
-	},
+	"sefariaHeadword": "פִּיף",
+	"headwords": [
+		{
+			"text": "פִּיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

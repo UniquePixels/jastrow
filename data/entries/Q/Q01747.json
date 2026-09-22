@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01747",
-	"slug": "פרזומא-2",
-	"headword": {
-		"text": "פִּרְזוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְזוּמָא",
+	"headwords": [
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּרְזוּמָא"
+		},
+		{
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1223,
 		"column": "a"

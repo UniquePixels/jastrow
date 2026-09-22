@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01997",
-	"slug": "אמודין",
-	"headword": {
-		"text": "אמודין"
-	},
+	"sefariaHeadword": "אמודין",
+	"headwords": [
+		{
+			"text": "אמודין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

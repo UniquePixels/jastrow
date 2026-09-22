@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01000",
-	"slug": "קים-2",
-	"headword": {
-		"text": "קַיָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיָּם",
+	"headwords": [
+		{
+			"text": "קַיָּם"
+		},
 		{
 			"text": "קְיָם"
 		},
@@ -15,6 +16,7 @@
 			"text": "קַיָּמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1362,
 		"column": "a"

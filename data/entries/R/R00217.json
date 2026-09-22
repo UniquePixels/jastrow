@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00217",
-	"slug": "צוף-2",
-	"headword": {
-		"text": "צוּף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צוּף ²",
+	"headwords": [
+		{
+			"text": "צוּף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1269,
 		"column": "a"

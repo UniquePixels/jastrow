@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00445",
-	"slug": "גוס-1",
-	"headword": {
-		"text": "גּוּס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּס I",
+	"headwords": [
+		{
+			"text": "גּוּס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 224,
 		"column": "a"

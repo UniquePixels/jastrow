@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00588",
-	"slug": "סיוגא",
-	"headword": {
-		"text": "סְיוּגָא"
-	},
+	"sefariaHeadword": "סְיוּגָא",
+	"headwords": [
+		{
+			"text": "סְיוּגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "a"

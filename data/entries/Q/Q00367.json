@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00367",
-	"slug": "פורנס",
-	"headword": {
-		"text": "פורנס"
-	},
+	"sefariaHeadword": "פורנס",
+	"headwords": [
+		{
+			"text": "פורנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "b"

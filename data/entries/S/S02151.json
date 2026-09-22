@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02151",
-	"slug": "קרצטיונא",
-	"headword": {
-		"text": "קְרִצְטְיוֹנָא"
-	},
+	"sefariaHeadword": "קְרִצְטְיוֹנָא",
+	"headwords": [
+		{
+			"text": "קְרִצְטְיוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

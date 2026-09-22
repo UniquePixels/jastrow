@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01740",
-	"slug": "חרף-3",
-	"headword": {
-		"text": "חֲרַף"
-	},
+	"sefariaHeadword": "חֲרַף",
+	"headwords": [
+		{
+			"text": "חֲרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "a"

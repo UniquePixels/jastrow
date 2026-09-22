@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00370",
-	"slug": "פורסישמנג",
-	"headword": {
-		"text": "(פורסישמנג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(פורסישמנג",
+	"headwords": [
+		{
+			"text": "פורסישמנג"
+		},
 		{
 			"text": "פּוֹרְסִישְׁנָמַג"
 		}

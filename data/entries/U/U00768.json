@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00768",
-	"slug": "שטר-3",
-	"headword": {
-		"text": "שְׁטַר"
-	},
+	"sefariaHeadword": "שְׁטַר",
+	"headwords": [
+		{
+			"text": "שְׁטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1555,
 		"column": "b"

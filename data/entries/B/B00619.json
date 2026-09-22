@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00619",
-	"slug": "בילוס",
-	"headword": {
-		"text": "בילוס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בילוס",
+	"headwords": [
+		{
+			"text": "בילוס",
+			"reconstructed": true
+		},
 		{
 			"text": "כילוס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 161,
 		"column": "b"

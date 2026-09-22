@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02662",
-	"slug": "אפטניות",
-	"headword": {
-		"text": "אַפֹּטְנִיּוֹת"
-	},
+	"sefariaHeadword": "אַפֹּטְנִיּוֹת",
+	"headwords": [
+		{
+			"text": "אַפֹּטְנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01810",
-	"slug": "קציון",
-	"headword": {
-		"text": "קציון"
-	},
+	"sefariaHeadword": "קציון",
+	"headwords": [
+		{
+			"text": "קציון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "b"

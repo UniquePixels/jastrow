@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00217",
-	"slug": "דיוקא-1",
-	"headword": {
-		"text": "דַּיְוקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיְוקָא",
+	"headwords": [
+		{
+			"text": "דַּיְוקָא"
+		},
 		{
 			"text": "דַּוְוקָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 284,
 		"column": "a"

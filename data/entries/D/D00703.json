@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00703",
-	"slug": "דיקולוגוס",
-	"headword": {
-		"text": "דִּיקוֹלוֹגוֹס"
-	},
+	"sefariaHeadword": "דִּיקוֹלוֹגוֹס",
+	"headwords": [
+		{
+			"text": "דִּיקוֹלוֹגוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

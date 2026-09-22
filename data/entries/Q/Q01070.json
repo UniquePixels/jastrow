@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01070",
-	"slug": "פלך-1",
-	"headword": {
-		"text": "פֶּלֶךְ"
-	},
+	"sefariaHeadword": "פֶּלֶךְ",
+	"headwords": [
+		{
+			"text": "פֶּלֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01847",
-	"slug": "פרך-4",
-	"headword": {
-		"text": "פֶּרֶךְ"
-	},
+	"sefariaHeadword": "פֶּרֶךְ",
+	"headwords": [
+		{
+			"text": "פֶּרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "a"

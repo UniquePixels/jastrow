@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00179",
-	"slug": "כוב",
-	"headword": {
-		"text": "כּוּב"
-	},
+	"sefariaHeadword": "כּוּב",
+	"headwords": [
+		{
+			"text": "כּוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "a"

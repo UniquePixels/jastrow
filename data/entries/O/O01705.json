@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01705",
-	"slug": "סתם-1",
-	"headword": {
-		"text": "סָתַם"
-	},
+	"sefariaHeadword": "סָתַם",
+	"headwords": [
+		{
+			"text": "סָתַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "b"

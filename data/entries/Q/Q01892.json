@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01892",
-	"slug": "פרניס",
-	"headword": {
-		"text": "פַּרְנִיס"
-	},
+	"sefariaHeadword": "פַּרְנִיס",
+	"headwords": [
+		{
+			"text": "פַּרְנִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"

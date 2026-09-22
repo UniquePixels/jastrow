@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02539",
-	"slug": "מרדאיות",
-	"headword": {
-		"text": "מַרְדָּאִיּוֹת"
-	},
+	"sefariaHeadword": "מַרְדָּאִיּוֹת",
+	"headwords": [
+		{
+			"text": "מַרְדָּאִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "a"

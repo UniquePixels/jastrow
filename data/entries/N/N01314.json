@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01314",
-	"slug": "נשימה",
-	"headword": {
-		"text": "נְשִׁימָה"
-	},
+	"sefariaHeadword": "נְשִׁימָה",
+	"headwords": [
+		{
+			"text": "נְשִׁימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 939,
 		"column": "b"

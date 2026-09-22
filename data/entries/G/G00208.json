@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00208",
-	"slug": "זוניתא-2",
-	"headword": {
-		"text": "זוֹנִיתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוֹנִיתָא II",
+	"headwords": [
+		{
+			"text": "זוֹנִיתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 388,
 		"column": "b"

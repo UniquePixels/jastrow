@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02717",
-	"slug": "מרמירא",
-	"headword": {
-		"text": "מַרְמִירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְמִירָא",
+	"headwords": [
 		{
-			"text": "מַרְמֵי׳"
+			"text": "מַרְמִירָא"
+		},
+		{
+			"text": "מַרְמֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 844,
 		"column": "b"

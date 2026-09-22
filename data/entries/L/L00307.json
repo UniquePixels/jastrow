@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00307",
-	"slug": "לופין",
-	"headword": {
-		"text": "לוֹפְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוֹפְיָן",
+	"headwords": [
+		{
+			"text": "לוֹפְיָן"
+		},
 		{
 			"text": "לִיפָן"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 700,
 		"column": "b"

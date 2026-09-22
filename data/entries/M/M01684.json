@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01684",
-	"slug": "ממש-1",
-	"headword": {
-		"text": "מַמָּשׁ"
-	},
+	"sefariaHeadword": "מַמָּשׁ",
+	"headwords": [
+		{
+			"text": "מַמָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 795,
 		"column": "b"

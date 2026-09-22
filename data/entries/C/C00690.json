@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00690",
-	"slug": "גיח",
-	"headword": {
-		"text": "גִּיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיחַ",
+	"headwords": [
+		{
+			"text": "גִּיחַ"
+		},
 		{
 			"text": "גּוּחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 237,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02420",
-	"slug": "אסטרטינוס",
-	"headword": {
-		"text": "אסטרטינוס"
-	},
+	"sefariaHeadword": "אסטרטינוס",
+	"headwords": [
+		{
+			"text": "אסטרטינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 92,
 		"column": "b"

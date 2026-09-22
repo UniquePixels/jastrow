@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00379",
-	"slug": "אדהכי",
-	"headword": {
-		"text": "אַדְּהָכִי"
-	},
+	"sefariaHeadword": "אַדְּהָכִי",
+	"headwords": [
+		{
+			"text": "אַדְּהָכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

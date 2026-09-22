@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00427",
-	"slug": "שולטתא",
-	"headword": {
-		"text": "שׁוּלְטָתָא"
-	},
+	"sefariaHeadword": "שׁוּלְטָתָא",
+	"headwords": [
+		{
+			"text": "שׁוּלְטָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00217",
-	"slug": "חדש-1",
-	"headword": {
-		"text": "חָדַשׁ"
-	},
+	"sefariaHeadword": "חָדַשׁ",
+	"headwords": [
+		{
+			"text": "חָדַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 427,
 		"column": "a"

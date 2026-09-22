@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00412",
-	"slug": "ציפורה",
-	"headword": {
-		"text": "צִיפּוֹרָה"
-	},
+	"sefariaHeadword": "צִיפּוֹרָה",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

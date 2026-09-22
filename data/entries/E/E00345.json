@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00345",
-	"slug": "הידור-2",
-	"headword": {
-		"text": "הִידּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִידּוּר",
+	"headwords": [
+		{
+			"text": "הִידּוּר"
+		},
 		{
 			"text": "הִדּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 343,
 		"column": "b"

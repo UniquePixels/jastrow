@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00655",
-	"slug": "שחיקה-2",
-	"headword": {
-		"text": "שְׁחִיקָה"
-	},
+	"sefariaHeadword": "שְׁחִיקָה",
+	"headwords": [
+		{
+			"text": "שְׁחִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1547,
 		"column": "b"

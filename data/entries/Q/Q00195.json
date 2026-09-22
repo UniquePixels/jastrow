@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00195",
-	"slug": "פוטנג",
-	"headword": {
-		"text": "פּוּטְנַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּטְנַג",
+	"headwords": [
+		{
+			"text": "פּוּטְנַג"
+		},
 		{
 			"text": "פּוּטְנַק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1140,
 		"column": "b"

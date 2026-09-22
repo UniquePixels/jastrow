@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01936",
-	"slug": "קרוי-2",
-	"headword": {
-		"text": "קָרוֹי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָרוֹי",
+	"headwords": [
+		{
+			"text": "קָרוֹי"
+		},
 		{
 			"text": "קָרוֹיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1413,
 		"column": "b"

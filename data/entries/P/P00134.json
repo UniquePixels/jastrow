@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00134",
-	"slug": "עדי-7",
-	"headword": {
-		"text": "עָדִי"
-	},
+	"sefariaHeadword": "עָדִי",
+	"headwords": [
+		{
+			"text": "עָדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

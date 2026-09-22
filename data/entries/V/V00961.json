@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00961",
-	"slug": "תרוכין",
-	"headword": {
-		"text": "תִּרוּכִין"
-	},
+	"sefariaHeadword": "תִּרוּכִין",
+	"headwords": [
+		{
+			"text": "תִּרוּכִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1696,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01582",
-	"slug": "שנט",
-	"headword": {
-		"text": "שָׂנַט"
-	},
+	"sefariaHeadword": "שָׂנַט",
+	"headwords": [
+		{
+			"text": "שָׂנַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

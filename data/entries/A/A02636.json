@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02636",
-	"slug": "אפופלסמון",
-	"headword": {
-		"text": "אפופלסמון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפופלסמון",
+	"headwords": [
+		{
+			"text": "אפופלסמון"
+		},
 		{
 			"text": "א"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "a"

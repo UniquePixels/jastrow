@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01197",
-	"slug": "של-3",
-	"headword": {
-		"text": "שֶׁל"
-	},
+	"sefariaHeadword": "שֶׁל",
+	"headwords": [
+		{
+			"text": "שֶׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "a"

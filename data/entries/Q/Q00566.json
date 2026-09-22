@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00566",
-	"slug": "פטריקון",
-	"headword": {
-		"text": "פַּטְרִיקוֹן"
-	},
+	"sefariaHeadword": "פַּטְרִיקוֹן",
+	"headwords": [
+		{
+			"text": "פַּטְרִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

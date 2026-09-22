@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01964",
-	"slug": "שריב",
-	"headword": {
-		"text": "שְׁרֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁרֵיב",
+	"headwords": [
+		{
+			"text": "שְׁרֵיב"
+		},
 		{
 			"text": "שְׁרִיב"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁרִיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1630,
 		"column": "b"

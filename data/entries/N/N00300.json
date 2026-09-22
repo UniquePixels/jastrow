@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00300",
-	"slug": "נוגבא",
-	"headword": {
-		"text": "נוּגְבָא"
-	},
+	"sefariaHeadword": "נוּגְבָא",
+	"headwords": [
+		{
+			"text": "נוּגְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

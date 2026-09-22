@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00413",
-	"slug": "רוסינקא",
-	"headword": {
-		"text": "רוסינקא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוסינקא",
+	"headwords": [
+		{
+			"text": "רוסינקא"
+		},
 		{
 			"text": "רוסנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1462,
 		"column": "b"

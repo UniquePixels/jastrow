@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00695",
-	"slug": "ישמעאלי",
-	"headword": {
-		"text": "יִשְׁמְעֵאלִי"
-	},
+	"sefariaHeadword": "יִשְׁמְעֵאלִי",
+	"headwords": [
+		{
+			"text": "יִשְׁמְעֵאלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 601,
 		"column": "a"

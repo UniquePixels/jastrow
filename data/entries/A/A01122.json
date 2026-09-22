@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01122",
-	"slug": "איבוד",
-	"headword": {
-		"text": "אִיבּוּד"
-	},
+	"sefariaHeadword": "אִיבּוּד",
+	"headwords": [
+		{
+			"text": "אִיבּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "a"

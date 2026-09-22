@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01049",
-	"slug": "נפיש-1",
-	"headword": {
-		"text": "נְפֵישׁ"
-	},
+	"sefariaHeadword": "נְפֵישׁ",
+	"headwords": [
+		{
+			"text": "נְפֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "a"

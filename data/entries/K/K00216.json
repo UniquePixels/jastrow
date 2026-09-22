@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00216",
-	"slug": "כוורא",
-	"headword": {
-		"text": "כַּוְורָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּוְורָא",
+	"headwords": [
+		{
+			"text": "כַּוְורָא"
+		},
 		{
 			"text": "כַּוְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 617,
 		"column": "b"

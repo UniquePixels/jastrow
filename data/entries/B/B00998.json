@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00998",
-	"slug": "בסיס-3",
-	"headword": {
-		"text": "בְּסִיס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּסִיס ²",
+	"headwords": [
+		{
+			"text": "בְּסִיס",
+			"disambiguator": 2
+		},
 		{
 			"text": "בְּסִיסָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 179,
 		"column": "a"

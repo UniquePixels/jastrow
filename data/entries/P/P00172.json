@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00172",
-	"slug": "עוב-1",
-	"headword": {
-		"text": "עוּב"
-	},
+	"sefariaHeadword": "עוּב",
+	"headwords": [
+		{
+			"text": "עוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "b"

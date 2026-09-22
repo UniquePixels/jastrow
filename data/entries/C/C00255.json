@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00255",
-	"slug": "גהה",
-	"headword": {
-		"text": "גָּהָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּהָה",
+	"headwords": [
+		{
+			"text": "גָּהָה"
+		},
 		{
 			"text": "גָּחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 215,
 		"column": "b"

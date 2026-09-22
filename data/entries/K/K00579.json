@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00579",
-	"slug": "כיסאני",
-	"headword": {
-		"text": "כִּיסָאנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסָאנֵי",
+	"headwords": [
+		{
+			"text": "כִּיסָאנֵי"
+		},
 		{
 			"text": "כִּיסָאנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "a"

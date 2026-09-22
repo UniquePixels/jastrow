@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02411",
-	"slug": "אסטרטטי׳",
-	"headword": {
-		"text": "אסטרטטי׳"
-	},
+	"sefariaHeadword": "אסטרטטי׳",
+	"headwords": [
+		{
+			"text": "אסטרטטי׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

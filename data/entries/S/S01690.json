@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01690",
-	"slug": "קעקע-2",
-	"headword": {
-		"text": "קִעְקֵעַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קִעְקֵעַ II",
+	"headwords": [
+		{
+			"text": "קִעְקֵעַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1397,
 		"column": "b"

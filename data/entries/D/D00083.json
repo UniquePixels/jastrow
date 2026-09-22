@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00083",
-	"slug": "דברה",
-	"headword": {
-		"text": "דִּבְּרָה"
-	},
+	"sefariaHeadword": "דִּבְּרָה",
+	"headwords": [
+		{
+			"text": "דִּבְּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00017",
-	"slug": "סאמא",
-	"headword": {
-		"text": "סָאמָא"
-	},
+	"sefariaHeadword": "סָאמָא",
+	"headwords": [
+		{
+			"text": "סָאמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

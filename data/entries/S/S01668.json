@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "S01668",
-	"slug": "קסם-4",
-	"headword": {
-		"text": "קְסַם",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְסַם II",
+	"headwords": [
+		{
+			"text": "קְסַם",
+			"homograph": 2
+		},
 		{
 			"text": "קִסְמָא"
 		},
 		{
-			"text": "קוּ׳"
+			"text": "קוּ׳",
+			"partial": true
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 1397,
 		"column": "a"

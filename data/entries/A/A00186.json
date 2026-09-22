@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00186",
-	"slug": "אבעיה",
-	"headword": {
-		"text": "אַבְעָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְעָיָה",
+	"headwords": [
+		{
+			"text": "אַבְעָיָה"
+		},
 		{
 			"text": "אוּבְעָיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 8,
 		"column": "a"

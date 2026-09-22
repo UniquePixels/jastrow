@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02893",
-	"slug": "אקהא",
-	"headword": {
-		"text": "אַקְהָא"
-	},
+	"sefariaHeadword": "אַקְהָא",
+	"headwords": [
+		{
+			"text": "אַקְהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "b"

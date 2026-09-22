@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00979",
-	"slug": "עניבה-1",
-	"headword": {
-		"text": "עֲנִיבָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲנִיבָה I",
+	"headwords": [
+		{
+			"text": "עֲנִיבָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1094,
 		"column": "b"

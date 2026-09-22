@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01102",
-	"slug": "בצעה",
-	"headword": {
-		"text": "בִּצְעָה"
-	},
+	"sefariaHeadword": "בִּצְעָה",
+	"headwords": [
+		{
+			"text": "בִּצְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

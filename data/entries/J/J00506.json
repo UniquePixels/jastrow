@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00506",
-	"slug": "יפיפה",
-	"headword": {
-		"text": "יְפֵיפָה"
-	},
+	"sefariaHeadword": "יְפֵיפָה",
+	"headwords": [
+		{
+			"text": "יְפֵיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

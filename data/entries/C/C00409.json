@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00409",
-	"slug": "גום-1",
-	"headword": {
-		"text": "גּוּם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּם I",
+	"headwords": [
+		{
+			"text": "גּוּם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 222,
 		"column": "b"

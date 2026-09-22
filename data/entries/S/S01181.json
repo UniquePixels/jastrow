@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01181",
-	"slug": "קיריוסים",
-	"headword": {
-		"text": "קִירְיוֹסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְיוֹסִים",
+	"headwords": [
+		{
+			"text": "קִירְיוֹסִים"
+		},
 		{
 			"text": "קִירִיוֹסִין"
 		},
 		{
-			"text": "קִרְ׳"
+			"text": "קִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1369,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01460",
-	"slug": "סקופה",
-	"headword": {
-		"text": "סְקוּפָה"
-	},
+	"sefariaHeadword": "סְקוּפָה",
+	"headwords": [
+		{
+			"text": "סְקוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

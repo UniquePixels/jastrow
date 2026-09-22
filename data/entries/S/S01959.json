@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01959",
-	"slug": "קרוצא",
-	"headword": {
-		"text": "קָרוֹצָא"
-	},
+	"sefariaHeadword": "קָרוֹצָא",
+	"headwords": [
+		{
+			"text": "קָרוֹצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00645",
-	"slug": "דיניס",
-	"headword": {
-		"text": "דיניס"
-	},
+	"sefariaHeadword": "דיניס",
+	"headwords": [
+		{
+			"text": "דיניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

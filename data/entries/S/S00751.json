@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S00751",
-	"slug": "קטין-2",
-	"headword": {
-		"text": "קַטִּין",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַטִּין II",
+	"headwords": [
+		{
+			"text": "קַטִּין",
+			"homograph": 2
+		},
 		{
 			"text": "קַטִּינָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "קַטִּינְתָּא"
 		}
 	],
+	"display": "{0} II, {1} I, {2}",
 	"page": {
 		"number": 1348,
 		"column": "a"

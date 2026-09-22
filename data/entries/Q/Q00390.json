@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00390",
-	"slug": "פורקופי",
-	"headword": {
-		"text": "פורקופי"
-	},
+	"sefariaHeadword": "פורקופי",
+	"headwords": [
+		{
+			"text": "פורקופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1148,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00594",
-	"slug": "ריבעא",
-	"headword": {
-		"text": "רִיבְעָא"
-	},
+	"sefariaHeadword": "רִיבְעָא",
+	"headwords": [
+		{
+			"text": "רִיבְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

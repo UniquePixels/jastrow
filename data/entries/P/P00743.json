@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00743",
-	"slug": "עכנא",
-	"headword": {
-		"text": "עַכְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַכְנָא",
+	"headwords": [
+		{
+			"text": "עַכְנָא"
+		},
 		{
 			"text": "עֲכִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1079,
 		"column": "a"

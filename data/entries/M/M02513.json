@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02513",
-	"slug": "מרגזאות",
-	"headword": {
-		"text": "מרגזאות"
-	},
+	"sefariaHeadword": "מרגזאות",
+	"headwords": [
+		{
+			"text": "מרגזאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

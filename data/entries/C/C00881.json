@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00881",
-	"slug": "גלדאה",
-	"headword": {
-		"text": "גִּלְדָּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלְדָּאָה",
+	"headwords": [
 		{
-			"text": "גִּילְ׳"
+			"text": "גִּלְדָּאָה"
+		},
+		{
+			"text": "גִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 245,
 		"column": "b"

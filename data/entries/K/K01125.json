@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01125",
-	"slug": "כרומשא",
-	"headword": {
-		"text": "כְּרוּמְשָׁא"
-	},
+	"sefariaHeadword": "כְּרוּמְשָׁא",
+	"headwords": [
+		{
+			"text": "כְּרוּמְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

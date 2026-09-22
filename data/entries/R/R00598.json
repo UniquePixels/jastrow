@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00598",
-	"slug": "צמרמורייה",
-	"headword": {
-		"text": "צְמַרְמוֹרַיָּיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְמַרְמוֹרַיָּיה",
+	"headwords": [
+		{
+			"text": "צְמַרְמוֹרַיָּיה"
+		},
 		{
 			"text": "צְמַרְמוֹרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1289,
 		"column": "b"

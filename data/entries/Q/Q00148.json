@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00148",
-	"slug": "פהיא",
-	"headword": {
-		"text": "פָּהְיָא"
-	},
+	"sefariaHeadword": "פָּהְיָא",
+	"headwords": [
+		{
+			"text": "פָּהְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "b"

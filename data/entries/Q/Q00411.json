@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00411",
-	"slug": "פותא",
-	"headword": {
-		"text": "פּוּתָא"
-	},
+	"sefariaHeadword": "פּוּתָא",
+	"headwords": [
+		{
+			"text": "פּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00683",
-	"slug": "זרורזי",
-	"headword": {
-		"text": "זרורזי"
-	},
+	"sefariaHeadword": "זרורזי",
+	"headwords": [
+		{
+			"text": "זרורזי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

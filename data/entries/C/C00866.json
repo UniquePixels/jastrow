@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00866",
-	"slug": "גלגיל",
-	"headword": {
-		"text": "גַּלְגֵּיל"
-	},
+	"sefariaHeadword": "גַּלְגֵּיל",
+	"headwords": [
+		{
+			"text": "גַּלְגֵּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 244,
 		"column": "a"

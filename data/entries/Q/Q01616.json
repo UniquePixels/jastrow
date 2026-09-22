@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01616",
-	"slug": "פרוג",
-	"headword": {
-		"text": "פֵּרוּג"
-	},
+	"sefariaHeadword": "פֵּרוּג",
+	"headwords": [
+		{
+			"text": "פֵּרוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

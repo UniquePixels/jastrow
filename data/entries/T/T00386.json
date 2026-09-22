@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00386",
-	"slug": "רומח",
-	"headword": {
-		"text": "רוֹמַח"
-	},
+	"sefariaHeadword": "רוֹמַח",
+	"headwords": [
+		{
+			"text": "רוֹמַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "a"

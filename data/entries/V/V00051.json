@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00051",
-	"slug": "תבל-2",
-	"headword": {
-		"text": "תְּבַל"
-	},
+	"sefariaHeadword": "תְּבַל",
+	"headwords": [
+		{
+			"text": "תְּבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1644,
 		"column": "a"

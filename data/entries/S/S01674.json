@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01674",
-	"slug": "קסמית",
-	"headword": {
-		"text": "קִסְמִית"
-	},
+	"sefariaHeadword": "קִסְמִית",
+	"headwords": [
+		{
+			"text": "קִסְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

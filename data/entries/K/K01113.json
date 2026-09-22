@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01113",
-	"slug": "כרוזא",
-	"headword": {
-		"text": "כָּרוֹזָא"
-	},
+	"sefariaHeadword": "כָּרוֹזָא",
+	"headwords": [
+		{
+			"text": "כָּרוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

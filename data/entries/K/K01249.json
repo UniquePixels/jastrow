@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01249",
-	"slug": "כרסטייתא",
-	"headword": {
-		"text": "כרסטייתא"
-	},
+	"sefariaHeadword": "כרסטייתא",
+	"headwords": [
+		{
+			"text": "כרסטייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

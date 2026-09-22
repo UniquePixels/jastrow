@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00452",
-	"slug": "טירסאי",
-	"headword": {
-		"text": "טִירְסָאֵי"
-	},
+	"sefariaHeadword": "טִירְסָאֵי",
+	"headwords": [
+		{
+			"text": "טִירְסָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01624",
-	"slug": "שסתם",
-	"headword": {
-		"text": "שַׁסְתֵּם"
-	},
+	"sefariaHeadword": "שַׁסְתֵּם",
+	"headwords": [
+		{
+			"text": "שַׁסְתֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "b"

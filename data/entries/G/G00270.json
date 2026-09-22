@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00270",
-	"slug": "זיבות",
-	"headword": {
-		"text": "זִיבוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיבוּת",
+	"headwords": [
+		{
+			"text": "זִיבוּת"
+		},
 		{
 			"text": "זָבוּת"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 391,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01458",
-	"slug": "סקוסים",
-	"headword": {
-		"text": "סקוסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סקוסים",
+	"headwords": [
+		{
+			"text": "סקוסים"
+		},
 		{
 			"text": "סקוסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1019,
 		"column": "b"

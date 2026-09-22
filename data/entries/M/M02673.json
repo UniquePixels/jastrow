@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02673",
-	"slug": "מרימר",
-	"headword": {
-		"text": "מְרֵימַר"
-	},
+	"sefariaHeadword": "מְרֵימַר",
+	"headwords": [
+		{
+			"text": "מְרֵימַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

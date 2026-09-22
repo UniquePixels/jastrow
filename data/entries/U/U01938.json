@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01938",
-	"slug": "שרובא",
-	"headword": {
-		"text": "שָׁרוֹבָא"
-	},
+	"sefariaHeadword": "שָׁרוֹבָא",
+	"headwords": [
+		{
+			"text": "שָׁרוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "b"

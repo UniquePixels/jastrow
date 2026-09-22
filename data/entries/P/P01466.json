@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01466",
-	"slug": "עשה",
-	"headword": {
-		"text": "עָשָׂה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָשָׂה",
+	"headwords": [
+		{
+			"text": "עָשָׂה"
+		},
 		{
 			"text": "עַשֵׂה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1124,
 		"column": "a"

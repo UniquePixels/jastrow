@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00821",
-	"slug": "הרגת",
-	"headword": {
-		"text": "הַרְגַּת"
-	},
+	"sefariaHeadword": "הַרְגַּת",
+	"headwords": [
+		{
+			"text": "הַרְגַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

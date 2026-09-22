@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00205",
-	"slug": "הודאה-3",
-	"headword": {
-		"text": "הודאה"
-	},
+	"sefariaHeadword": "הודאה",
+	"headwords": [
+		{
+			"text": "הודאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "b"

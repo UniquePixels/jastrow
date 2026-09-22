@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01113",
-	"slug": "חלק-2",
-	"headword": {
-		"text": "חָלָק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָלָק",
+	"headwords": [
+		{
+			"text": "חָלָק"
+		},
 		{
 			"text": "חָלוּק"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 473,
 		"column": "b"

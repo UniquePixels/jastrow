@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01309",
-	"slug": "גרוע-2",
-	"headword": {
-		"text": "גָּרוֹעַ"
-	},
+	"sefariaHeadword": "גָּרוֹעַ",
+	"headwords": [
+		{
+			"text": "גָּרוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

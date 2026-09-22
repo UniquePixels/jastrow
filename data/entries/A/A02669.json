@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02669",
-	"slug": "אפיא",
-	"headword": {
-		"text": "אַפַּיָּא"
-	},
+	"sefariaHeadword": "אַפַּיָּא",
+	"headwords": [
+		{
+			"text": "אַפַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00864",
-	"slug": "עמה-2",
-	"headword": {
-		"text": "עֵמָּה"
-	},
+	"sefariaHeadword": "עֵמָּה",
+	"headwords": [
+		{
+			"text": "עֵמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1086,
 		"column": "b"

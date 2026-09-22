@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00400",
-	"slug": "סופק",
-	"headword": {
-		"text": "סוֹפֵק"
-	},
+	"sefariaHeadword": "סוֹפֵק",
+	"headwords": [
+		{
+			"text": "סוֹפֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "b"

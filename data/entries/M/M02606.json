@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02606",
-	"slug": "מרורא",
-	"headword": {
-		"text": "מְרוֹרָא"
-	},
+	"sefariaHeadword": "מְרוֹרָא",
+	"headwords": [
+		{
+			"text": "מְרוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

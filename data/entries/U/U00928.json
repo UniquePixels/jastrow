@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00928",
-	"slug": "שיכמי",
-	"headword": {
-		"text": "שִׁיכְמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיכְמִי",
+	"headwords": [
 		{
-			"text": "שִׁכְ׳"
+			"text": "שִׁיכְמִי"
+		},
+		{
+			"text": "שִׁכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1562,
 		"column": "b"

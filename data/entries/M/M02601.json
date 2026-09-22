@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02601",
-	"slug": "מרוצה-1",
-	"headword": {
-		"text": "מרוּצָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מרוּצָה I",
+	"headwords": [
+		{
+			"text": "מרוּצָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 839,
 		"column": "a"

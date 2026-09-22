@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00257",
-	"slug": "נהוריתא-1",
-	"headword": {
-		"text": "נְהוֹרִיתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְהוֹרִיתָא I",
+	"headwords": [
+		{
+			"text": "נְהוֹרִיתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 881,
 		"column": "b"

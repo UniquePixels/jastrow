@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00575",
-	"slug": "מוצטבה",
-	"headword": {
-		"text": "מוצטבה"
-	},
+	"sefariaHeadword": "מוצטבה",
+	"headwords": [
+		{
+			"text": "מוצטבה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "b"

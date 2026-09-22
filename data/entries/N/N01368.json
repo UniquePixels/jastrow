@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01368",
-	"slug": "נתיבתא",
-	"headword": {
-		"text": "נְתִיבְתָּא"
-	},
+	"sefariaHeadword": "נְתִיבְתָּא",
+	"headwords": [
+		{
+			"text": "נְתִיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

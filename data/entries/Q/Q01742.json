@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01742",
-	"slug": "פרותא",
-	"headword": {
-		"text": "פַּרְוָתָא"
-	},
+	"sefariaHeadword": "פַּרְוָתָא",
+	"headwords": [
+		{
+			"text": "פַּרְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "b"

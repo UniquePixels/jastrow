@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00036",
-	"slug": "הביל",
-	"headword": {
-		"text": "הֲבִיל"
-	},
+	"sefariaHeadword": "הֲבִיל",
+	"headwords": [
+		{
+			"text": "הֲבִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "b"

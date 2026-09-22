@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00321",
-	"slug": "זיז-1",
-	"headword": {
-		"text": "זִיז",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זִיז I",
+	"headwords": [
+		{
+			"text": "זִיז",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 393,
 		"column": "a"

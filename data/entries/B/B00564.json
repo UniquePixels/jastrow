@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00564",
-	"slug": "ביזה",
-	"headword": {
-		"text": "בִּיזָּה"
-	},
+	"sefariaHeadword": "בִּיזָּה",
+	"headwords": [
+		{
+			"text": "בִּיזָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

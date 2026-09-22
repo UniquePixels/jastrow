@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "F00062",
-	"slug": "ולד-3",
-	"headword": {
-		"text": "וְלַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְלַד",
+	"headwords": [
+		{
+			"text": "וְלַד"
+		},
 		{
 			"text": "וָולַד"
 		},
@@ -12,6 +13,7 @@
 			"text": "וַלְדָּא"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 374,
 		"column": "a"

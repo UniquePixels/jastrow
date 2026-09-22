@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00861",
-	"slug": "דלקתא",
-	"headword": {
-		"text": "דְּלֵקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלֵקְתָּא",
+	"headwords": [
+		{
+			"text": "דְּלֵקְתָּא"
+		},
 		{
 			"text": "דַּלֶּקְתָּא"
 		},
 		{
-			"text": "דְּלֶקְ׳"
+			"text": "דְּלֶקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 311,
 		"column": "b"

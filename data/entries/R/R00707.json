@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00707",
-	"slug": "צפצף-2",
-	"headword": {
-		"text": "צַפְצֵף"
-	},
+	"sefariaHeadword": "צַפְצֵף",
+	"headwords": [
+		{
+			"text": "צַפְצֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1298,
 		"column": "a"

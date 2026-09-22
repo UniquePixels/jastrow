@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00274",
-	"slug": "כולך",
-	"headword": {
-		"text": "כּוּלָּךְ"
-	},
+	"sefariaHeadword": "כּוּלָּךְ",
+	"headwords": [
+		{
+			"text": "כּוּלָּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

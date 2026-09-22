@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01074",
-	"slug": "נפק-1",
-	"headword": {
-		"text": "נָפַק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָפַק",
+	"headwords": [
+		{
+			"text": "נָפַק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 925,
 		"column": "b"

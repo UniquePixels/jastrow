@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00350",
-	"slug": "תחוב",
-	"headword": {
-		"text": "תָּחוּב"
-	},
+	"sefariaHeadword": "תָּחוּב",
+	"headwords": [
+		{
+			"text": "תָּחוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

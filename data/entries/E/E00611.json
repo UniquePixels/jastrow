@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00611",
-	"slug": "המים",
-	"headword": {
-		"text": "הָמִים"
-	},
+	"sefariaHeadword": "הָמִים",
+	"headwords": [
+		{
+			"text": "הָמִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

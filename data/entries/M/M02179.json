@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02179",
-	"slug": "מערכה",
-	"headword": {
-		"text": "מַעֲרָכָה"
-	},
+	"sefariaHeadword": "מַעֲרָכָה",
+	"headwords": [
+		{
+			"text": "מַעֲרָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "b"

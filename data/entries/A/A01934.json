@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01934",
-	"slug": "אלף-3",
-	"headword": {
-		"text": "אֲלַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלַף II",
+	"headwords": [
+		{
+			"text": "אֲלַף",
+			"homograph": 2
+		},
 		{
 			"text": "אֲלֵיף"
 		},
@@ -13,6 +14,7 @@
 			"text": "יְלֵיף"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 72,
 		"column": "b"

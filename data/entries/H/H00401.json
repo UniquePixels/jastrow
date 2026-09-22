@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00401",
-	"slug": "חומתי",
-	"headword": {
-		"text": "חוּמְתִי"
-	},
+	"sefariaHeadword": "חוּמְתִי",
+	"headwords": [
+		{
+			"text": "חוּמְתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "b"

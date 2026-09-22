@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00046",
-	"slug": "נבואה-2",
-	"headword": {
-		"text": "נְבוּאָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבוּאָה ²",
+	"headwords": [
+		{
+			"text": "נְבוּאָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "נְבוּאֲתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 867,
 		"column": "b"

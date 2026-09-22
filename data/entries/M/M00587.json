@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00587",
-	"slug": "מוקדש",
-	"headword": {
-		"text": "מוּקְדָּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּקְדָּשׁ",
+	"headwords": [
+		{
+			"text": "מוּקְדָּשׁ"
+		},
 		{
 			"text": "מוּקְדְּשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 747,
 		"column": "b"

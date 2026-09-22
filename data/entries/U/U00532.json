@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00532",
-	"slug": "שוקת",
-	"headword": {
-		"text": "שׁוֹקֶת"
-	},
+	"sefariaHeadword": "שׁוֹקֶת",
+	"headwords": [
+		{
+			"text": "שׁוֹקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "b"

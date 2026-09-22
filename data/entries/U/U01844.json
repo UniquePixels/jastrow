@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01844",
-	"slug": "שקט-2",
-	"headword": {
-		"text": "שָׁקַט",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁקַט II",
+	"headwords": [
+		{
+			"text": "שָׁקַט",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1621,
 		"column": "b"

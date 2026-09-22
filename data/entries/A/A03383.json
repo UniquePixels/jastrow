@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03383",
-	"slug": "אשתמודע-2",
-	"headword": {
-		"text": "אִשְׁתְּמוֹדַע",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אִשְׁתְּמוֹדַע II",
+	"headwords": [
+		{
+			"text": "אִשְׁתְּמוֹדַע",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 131,
 		"column": "b"

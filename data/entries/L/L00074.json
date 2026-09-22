@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00074",
-	"slug": "לבינה",
-	"headword": {
-		"text": "לְבֵינָה"
-	},
+	"sefariaHeadword": "לְבֵינָה",
+	"headwords": [
+		{
+			"text": "לְבֵינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

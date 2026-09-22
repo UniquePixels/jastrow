@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00509",
-	"slug": "בטיל-1",
-	"headword": {
-		"text": "בְּטֵיל"
-	},
+	"sefariaHeadword": "בְּטֵיל",
+	"headwords": [
+		{
+			"text": "בְּטֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "b"

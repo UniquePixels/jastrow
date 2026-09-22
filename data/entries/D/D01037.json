@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01037",
-	"slug": "דרגון",
-	"headword": {
-		"text": "דַּרְגּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְגּוֹן",
+	"headwords": [
+		{
+			"text": "דַּרְגּוֹן"
+		},
 		{
 			"text": "דּוּרְגּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 321,
 		"column": "a"

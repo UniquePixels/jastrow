@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00258",
-	"slug": "טחולא",
-	"headword": {
-		"text": "טְחוֹלָא"
-	},
+	"sefariaHeadword": "טְחוֹלָא",
+	"headwords": [
+		{
+			"text": "טְחוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02139",
-	"slug": "מעלנא",
-	"headword": {
-		"text": "מַעֲלָנָא"
-	},
+	"sefariaHeadword": "מַעֲלָנָא",
+	"headwords": [
+		{
+			"text": "מַעֲלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

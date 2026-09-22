@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00790",
-	"slug": "דכסס",
-	"headword": {
-		"text": "דִּכְסָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכְסָס",
+	"headwords": [
+		{
+			"text": "דִּכְסָס"
+		},
 		{
 			"text": "דּוּכְסָס"
 		},
 		{
-			"text": "דִּיכְ׳"
+			"text": "דִּיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 307,
 		"column": "b"

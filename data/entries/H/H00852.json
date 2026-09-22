@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00852",
-	"slug": "חיפושית",
-	"headword": {
-		"text": "חִיפּוּשִׂית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיפּוּשִׂית",
+	"headwords": [
+		{
+			"text": "חִיפּוּשִׂית"
+		},
 		{
 			"text": "חִפּוּשִׂית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 459,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02016",
-	"slug": "אמטתא",
-	"headword": {
-		"text": "אַמִּטְּתָא"
-	},
+	"sefariaHeadword": "אַמִּטְּתָא",
+	"headwords": [
+		{
+			"text": "אַמִּטְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

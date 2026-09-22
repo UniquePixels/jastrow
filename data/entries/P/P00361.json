@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00361",
-	"slug": "עורפילא",
-	"headword": {
-		"text": "עוּרְפִּילָא"
-	},
+	"sefariaHeadword": "עוּרְפִּילָא",
+	"headwords": [
+		{
+			"text": "עוּרְפִּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

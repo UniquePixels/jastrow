@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01743",
-	"slug": "שפיחלא",
-	"headword": {
-		"text": "שָׁפֵיחָלָא"
-	},
+	"sefariaHeadword": "שָׁפֵיחָלָא",
+	"headwords": [
+		{
+			"text": "שָׁפֵיחָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1615,
 		"column": "b"

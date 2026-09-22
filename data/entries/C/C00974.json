@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00974",
-	"slug": "גלע",
-	"headword": {
-		"text": "גָּלַע"
-	},
+	"sefariaHeadword": "גָּלַע",
+	"headwords": [
+		{
+			"text": "גָּלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

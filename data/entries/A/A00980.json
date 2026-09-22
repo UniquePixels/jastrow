@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00980",
-	"slug": "אזמרגד",
-	"headword": {
-		"text": "אִזְמַרְגַּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִזְמַרְגַּד",
+	"headwords": [
+		{
+			"text": "אִזְמַרְגַּד"
+		},
 		{
 			"text": "אִזְמַרְגְּדָא"
 		},
@@ -18,6 +19,7 @@
 			"text": "אִזְמְרַגְדִּין"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3}, {4})",
 	"page": {
 		"number": 38,
 		"column": "a"

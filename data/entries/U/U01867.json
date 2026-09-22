@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01867",
-	"slug": "שקיפא",
-	"headword": {
-		"text": "שְׁקִיפָא"
-	},
+	"sefariaHeadword": "שְׁקִיפָא",
+	"headwords": [
+		{
+			"text": "שְׁקִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1623,
 		"column": "a"

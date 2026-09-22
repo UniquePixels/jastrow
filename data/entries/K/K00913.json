@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00913",
-	"slug": "כסח-1",
-	"headword": {
-		"text": "כָּסַח"
-	},
+	"sefariaHeadword": "כָּסַח",
+	"headwords": [
+		{
+			"text": "כָּסַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

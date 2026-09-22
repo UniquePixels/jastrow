@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00586",
-	"slug": "עילתא",
-	"headword": {
-		"text": "עִילְתָא"
-	},
+	"sefariaHeadword": "עִילְתָא",
+	"headwords": [
+		{
+			"text": "עִילְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

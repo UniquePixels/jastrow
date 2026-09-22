@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00534",
-	"slug": "הלבון",
-	"headword": {
-		"text": "הֶלְבּוֹן"
-	},
+	"sefariaHeadword": "הֶלְבּוֹן",
+	"headwords": [
+		{
+			"text": "הֶלְבּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00235",
-	"slug": "טורמי",
-	"headword": {
-		"text": "טוּרְמִי"
-	},
+	"sefariaHeadword": "טוּרְמִי",
+	"headwords": [
+		{
+			"text": "טוּרְמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

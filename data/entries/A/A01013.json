@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01013",
-	"slug": "אחום",
-	"headword": {
-		"text": "אחום"
-	},
+	"sefariaHeadword": "אחום",
+	"headwords": [
+		{
+			"text": "אחום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

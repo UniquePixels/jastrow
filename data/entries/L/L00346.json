@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00346",
-	"slug": "לחייתא",
-	"headword": {
-		"text": "לְחָיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחָיָיתָא",
+	"headwords": [
 		{
-			"text": "לְחַיָּ׳"
+			"text": "לְחָיָיתָא"
+		},
+		{
+			"text": "לְחַיָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 702,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01474",
-	"slug": "עשי-1",
-	"headword": {
-		"text": "עשי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עשי",
+	"headwords": [
+		{
+			"text": "עשי"
+		},
 		{
 			"text": "עָשָׂה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1124,
 		"column": "b"

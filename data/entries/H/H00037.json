@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00037",
-	"slug": "חבוש",
-	"headword": {
-		"text": "חָבוּשׁ"
-	},
+	"sefariaHeadword": "חָבוּשׁ",
+	"headwords": [
+		{
+			"text": "חָבוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 417,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01657",
-	"slug": "פרוזדאות",
-	"headword": {
-		"text": "פְּרוּזְדָּאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוּזְדָּאוֹת",
+	"headwords": [
+		{
+			"text": "פְּרוּזְדָּאוֹת"
+		},
 		{
 			"text": "פְּרוּסְדָּאוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּיוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1219,
 		"column": "a"

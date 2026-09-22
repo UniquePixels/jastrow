@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00427",
-	"slug": "הימלתא",
-	"headword": {
-		"text": "הִימַלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִימַלְתָּא",
+	"headwords": [
+		{
+			"text": "הִימַלְתָּא"
+		},
 		{
 			"text": "הֲמַלְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֲמַלְתּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 347,
 		"column": "a"

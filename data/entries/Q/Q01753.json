@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01753",
-	"slug": "פרזק",
-	"headword": {
-		"text": "פַּרְזָק"
-	},
+	"sefariaHeadword": "פַּרְזָק",
+	"headwords": [
+		{
+			"text": "פַּרְזָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1223,
 		"column": "a"

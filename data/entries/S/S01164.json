@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01164",
-	"slug": "קירויא",
-	"headword": {
-		"text": "קִירְוָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְוָיָא",
+	"headwords": [
+		{
+			"text": "קִירְוָיָא"
+		},
 		{
 			"text": "קִירְוָיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1368,
 		"column": "b"

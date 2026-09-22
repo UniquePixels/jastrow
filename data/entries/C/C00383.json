@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00383",
-	"slug": "גולגסיים",
-	"headword": {
-		"text": "גולגסיים"
-	},
+	"sefariaHeadword": "גולגסיים",
+	"headwords": [
+		{
+			"text": "גולגסיים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

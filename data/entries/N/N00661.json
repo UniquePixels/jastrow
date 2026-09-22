@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00661",
-	"slug": "נייחה",
-	"headword": {
-		"text": "נְיָיחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְיָיחָה",
+	"headwords": [
+		{
+			"text": "נְיָיחָה"
+		},
 		{
 			"text": "נְיָחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 904,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00942",
-	"slug": "נסיס-2",
-	"headword": {
-		"text": "נְסִיס"
-	},
+	"sefariaHeadword": "נְסִיס",
+	"headwords": [
+		{
+			"text": "נְסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 917,
 		"column": "a"

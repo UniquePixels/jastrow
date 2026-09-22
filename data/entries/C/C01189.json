@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01189",
-	"slug": "געילה",
-	"headword": {
-		"text": "גְּעִילָה"
-	},
+	"sefariaHeadword": "גְּעִילָה",
+	"headwords": [
+		{
+			"text": "גְּעִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "b"

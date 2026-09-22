@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00662",
-	"slug": "אולוגלוגין",
-	"headword": {
-		"text": "אולוגלוגין"
-	},
+	"sefariaHeadword": "אולוגלוגין",
+	"headwords": [
+		{
+			"text": "אולוגלוגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

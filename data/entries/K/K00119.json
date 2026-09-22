@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00119",
-	"slug": "כדורא",
-	"headword": {
-		"text": "כַּדּוּרָא"
-	},
+	"sefariaHeadword": "כַּדּוּרָא",
+	"headwords": [
+		{
+			"text": "כַּדּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 613,
 		"column": "a"

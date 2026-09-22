@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00069",
-	"slug": "פגל-2",
-	"headword": {
-		"text": "פְּגַל"
-	},
+	"sefariaHeadword": "פְּגַל",
+	"headwords": [
+		{
+			"text": "פְּגַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "b"

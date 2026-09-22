@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00948",
-	"slug": "גלילה",
-	"headword": {
-		"text": "גְּלִילָה"
-	},
+	"sefariaHeadword": "גְּלִילָה",
+	"headwords": [
+		{
+			"text": "גְּלִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

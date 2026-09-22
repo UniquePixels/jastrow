@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00709",
-	"slug": "עיתא-2",
-	"headword": {
-		"text": "עַיְתָא"
-	},
+	"sefariaHeadword": "עַיְתָא",
+	"headwords": [
+		{
+			"text": "עַיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

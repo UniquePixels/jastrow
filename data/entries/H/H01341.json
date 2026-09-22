@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01341",
-	"slug": "חסדאה",
-	"headword": {
-		"text": "חִסְדָּאָה"
-	},
+	"sefariaHeadword": "חִסְדָּאָה",
+	"headwords": [
+		{
+			"text": "חִסְדָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

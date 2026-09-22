@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00850",
-	"slug": "דלף-1",
-	"headword": {
-		"text": "דָּלַף"
-	},
+	"sefariaHeadword": "דָּלַף",
+	"headwords": [
+		{
+			"text": "דָּלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 311,
 		"column": "a"

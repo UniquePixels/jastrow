@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03342",
-	"slug": "אשפת",
-	"headword": {
-		"text": "אַשְׁפֹּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁפֹּת",
+	"headwords": [
+		{
+			"text": "אַשְׁפֹּת"
+		},
 		{
 			"text": "אִישְׁפֹּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 130,
 		"column": "a"

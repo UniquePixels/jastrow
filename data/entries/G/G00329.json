@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00329",
-	"slug": "זיטויטוס",
-	"headword": {
-		"text": "זיטויטוס"
-	},
+	"sefariaHeadword": "זיטויטוס",
+	"headwords": [
+		{
+			"text": "זיטויטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "a"

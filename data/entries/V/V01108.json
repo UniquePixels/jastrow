@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01108",
-	"slug": "תשקופים",
-	"headword": {
-		"text": "תַּשְׂקוּפִים"
-	},
+	"sefariaHeadword": "תַּשְׂקוּפִים",
+	"headwords": [
+		{
+			"text": "תַּשְׂקוּפִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "a"

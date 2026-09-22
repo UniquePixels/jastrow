@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01418",
-	"slug": "פץ",
-	"headword": {
-		"text": "פַּץ"
-	},
+	"sefariaHeadword": "פַּץ",
+	"headwords": [
+		{
+			"text": "פַּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "b"

@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "M01574",
-	"slug": "מלך-6",
-	"headword": {
-		"text": "מֵלַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵלַךְ",
+	"headwords": [
 		{
-			"text": "מֵי׳"
+			"text": "מֵלַךְ"
+		},
+		{
+			"text": "מֵי׳",
+			"partial": true
 		},
 		{
 			"text": "מִלְכָא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 791,
 		"column": "b"

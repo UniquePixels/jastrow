@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00664",
-	"slug": "חידוד",
-	"headword": {
-		"text": "חִידּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִידּוּד",
+	"headwords": [
+		{
+			"text": "חִידּוּד"
+		},
 		{
 			"text": "חִדּוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 451,
 		"column": "a"

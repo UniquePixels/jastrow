@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00569",
-	"slug": "הלכשיש",
-	"headword": {
-		"text": "הַלְכְּשִׁישׁ",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*הַלְכְּשִׁישׁ",
+	"headwords": [
+		{
+			"text": "הַלְכְּשִׁישׁ",
+			"reconstructed": true
+		},
 		{
 			"text": "הַלְכְּשׁוּשׁ"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 353,
 		"column": "b"

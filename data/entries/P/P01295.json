@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01295",
-	"slug": "ערד-2",
-	"headword": {
-		"text": "עֲרָד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרָד",
+	"headwords": [
+		{
+			"text": "עֲרָד"
+		},
 		{
 			"text": "עֲרָדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1114,
 		"column": "a"

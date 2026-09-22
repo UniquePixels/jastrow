@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00436",
-	"slug": "כותרת",
-	"headword": {
-		"text": "כּוֹתֶרֶת"
-	},
+	"sefariaHeadword": "כּוֹתֶרֶת",
+	"headwords": [
+		{
+			"text": "כּוֹתֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

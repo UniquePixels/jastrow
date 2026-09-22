@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01360",
-	"slug": "אין-1",
-	"headword": {
-		"text": "אָיַן"
-	},
+	"sefariaHeadword": "אָיַן",
+	"headwords": [
+		{
+			"text": "אָיַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "a"

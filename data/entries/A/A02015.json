@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02015",
-	"slug": "אמטל",
-	"headword": {
-		"text": "אַמְטֻל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְטֻל",
+	"headwords": [
+		{
+			"text": "אַמְטֻל"
+		},
 		{
 			"text": "אַמְטֻלְתּ־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 76,
 		"column": "b"

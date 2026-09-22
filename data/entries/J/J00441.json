@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00441",
-	"slug": "יניס",
-	"headword": {
-		"text": "יַנִּיס"
-	},
+	"sefariaHeadword": "יַנִּיס",
+	"headwords": [
+		{
+			"text": "יַנִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 581,
 		"column": "a"

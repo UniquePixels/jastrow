@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01677",
-	"slug": "סרקין-2",
-	"headword": {
-		"text": "סַרְקִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*סַרְקִין",
+	"headwords": [
+		{
+			"text": "סַרְקִין",
+			"reconstructed": true
+		},
 		{
 			"text": "סְרָקִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1030,
 		"column": "b"

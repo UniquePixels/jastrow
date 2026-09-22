@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01463",
-	"slug": "איסי",
-	"headword": {
-		"text": "אִיסִי"
-	},
+	"sefariaHeadword": "אִיסִי",
+	"headwords": [
+		{
+			"text": "אִיסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

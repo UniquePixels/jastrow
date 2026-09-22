@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00746",
-	"slug": "ניצוח",
-	"headword": {
-		"text": "נִיצּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצּוּחַ",
+	"headwords": [
 		{
-			"text": "נִצּ׳"
+			"text": "נִיצּוּחַ"
+		},
+		{
+			"text": "נִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "b"

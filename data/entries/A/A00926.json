@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00926",
-	"slug": "אושליא",
-	"headword": {
-		"text": "אוּשְׁלַיָּא"
-	},
+	"sefariaHeadword": "אוּשְׁלַיָּא",
+	"headwords": [
+		{
+			"text": "אוּשְׁלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

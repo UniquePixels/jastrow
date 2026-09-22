@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00921",
-	"slug": "דנב",
-	"headword": {
-		"text": "דָּנָב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּנָב",
+	"headwords": [
+		{
+			"text": "דָּנָב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 315,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

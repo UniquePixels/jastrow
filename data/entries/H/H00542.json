@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00542",
-	"slug": "חזיר-2",
-	"headword": {
-		"text": "חֲזִיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲזִיר ²",
+	"headwords": [
+		{
+			"text": "חֲזִיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲזִירָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 444,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03111",
-	"slug": "אריסה",
-	"headword": {
-		"text": "אֲרִיסָה"
-	},
+	"sefariaHeadword": "אֲרִיסָה",
+	"headwords": [
+		{
+			"text": "אֲרִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "b"

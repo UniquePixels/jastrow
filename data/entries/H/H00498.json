@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00498",
-	"slug": "חותם",
-	"headword": {
-		"text": "חוֹתָם"
-	},
+	"sefariaHeadword": "חוֹתָם",
+	"headwords": [
+		{
+			"text": "חוֹתָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

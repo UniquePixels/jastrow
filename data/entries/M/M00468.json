@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00468",
-	"slug": "מוטרין",
-	"headword": {
-		"text": "מוטרין"
-	},
+	"sefariaHeadword": "מוטרין",
+	"headwords": [
+		{
+			"text": "מוטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "a"

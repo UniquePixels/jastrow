@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00648",
-	"slug": "לפצא",
-	"headword": {
-		"text": "לִפְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִפְצָא",
+	"headwords": [
+		{
+			"text": "לִפְצָא"
+		},
 		{
 			"text": "לִפְצָה"
 		},
 		{
-			"text": "לִי׳"
+			"text": "לִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 716,
 		"column": "a"

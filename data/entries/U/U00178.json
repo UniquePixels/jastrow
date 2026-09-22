@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00178",
-	"slug": "שבר-7",
-	"headword": {
-		"text": "שִׁבַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבַר",
+	"headwords": [
+		{
+			"text": "שִׁבַר"
+		},
 		{
 			"text": "שַׁבְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1518,
 		"column": "a"

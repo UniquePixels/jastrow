@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00377",
-	"slug": "מהפכנא",
-	"headword": {
-		"text": "מְהַפְּכָנָא"
-	},
+	"sefariaHeadword": "מְהַפְּכָנָא",
+	"headwords": [
+		{
+			"text": "מְהַפְּכָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

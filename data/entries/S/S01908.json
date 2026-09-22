@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01908",
-	"slug": "קרדון",
-	"headword": {
-		"text": "קַרְדּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדּוּן",
+	"headwords": [
+		{
+			"text": "קַרְדּוּן"
+		},
 		{
 			"text": "קַרְדּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1412,
 		"column": "b"

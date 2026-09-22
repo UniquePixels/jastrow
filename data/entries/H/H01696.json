@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01696",
-	"slug": "חריר-2",
-	"headword": {
-		"text": "חֲרִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרִיר",
+	"headwords": [
+		{
+			"text": "חֲרִיר"
+		},
 		{
 			"text": "חַרֵיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "b"

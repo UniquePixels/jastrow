@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00147",
-	"slug": "זוז-3",
-	"headword": {
-		"text": "זוּז",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּז II",
+	"headwords": [
+		{
+			"text": "זוּז",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 385,
 		"column": "a"

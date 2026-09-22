@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01036",
-	"slug": "בעי-1",
-	"headword": {
-		"text": "בעי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בעי",
+	"headwords": [
+		{
+			"text": "בעי"
+		},
 		{
 			"text": "בָּעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 181,
 		"column": "a"

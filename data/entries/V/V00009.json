@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00009",
-	"slug": "תאגא",
-	"headword": {
-		"text": "תָּאגָא"
-	},
+	"sefariaHeadword": "תָּאגָא",
+	"headwords": [
+		{
+			"text": "תָּאגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1641,
 		"column": "b"

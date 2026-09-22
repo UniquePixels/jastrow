@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01762",
-	"slug": "קפס",
-	"headword": {
-		"text": "קָפַס"
-	},
+	"sefariaHeadword": "קָפַס",
+	"headwords": [
+		{
+			"text": "קָפַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

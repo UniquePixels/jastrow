@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01042",
-	"slug": "דרגשא",
-	"headword": {
-		"text": "דַּרְגְּשָׁא"
-	},
+	"sefariaHeadword": "דַּרְגְּשָׁא",
+	"headwords": [
+		{
+			"text": "דַּרְגְּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00223",
-	"slug": "אברית",
-	"headword": {
-		"text": "אברית"
-	},
+	"sefariaHeadword": "אברית",
+	"headwords": [
+		{
+			"text": "אברית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

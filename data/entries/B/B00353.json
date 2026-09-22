@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00353",
-	"slug": "בורדקאי",
-	"headword": {
-		"text": "בורדקאי"
-	},
+	"sefariaHeadword": "בורדקאי",
+	"headwords": [
+		{
+			"text": "בורדקאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

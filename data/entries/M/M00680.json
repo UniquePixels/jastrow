@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00680",
-	"slug": "מושב",
-	"headword": {
-		"text": "מוֹשָׁב"
-	},
+	"sefariaHeadword": "מוֹשָׁב",
+	"headwords": [
+		{
+			"text": "מוֹשָׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

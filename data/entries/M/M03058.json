@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03058",
-	"slug": "מתינה-1",
-	"headword": {
-		"text": "מְתִינָּה"
-	},
+	"sefariaHeadword": "מְתִינָּה",
+	"headwords": [
+		{
+			"text": "מְתִינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

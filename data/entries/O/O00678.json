@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00678",
-	"slug": "סילתא-2",
-	"headword": {
-		"text": "סִילְּתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סִילְּתָא I",
+	"headwords": [
+		{
+			"text": "סִילְּתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 980,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00230",
-	"slug": "טוריות",
-	"headword": {
-		"text": "טוּרָיוֹת"
-	},
+	"sefariaHeadword": "טוּרָיוֹת",
+	"headwords": [
+		{
+			"text": "טוּרָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

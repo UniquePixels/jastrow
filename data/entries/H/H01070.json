@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01070",
-	"slug": "חלישתא",
-	"headword": {
-		"text": "חלישתא"
-	},
+	"sefariaHeadword": "חלישתא",
+	"headwords": [
+		{
+			"text": "חלישתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "b"

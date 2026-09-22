@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00530",
-	"slug": "שוקעת",
-	"headword": {
-		"text": "שׁוֹקַעַת"
-	},
+	"sefariaHeadword": "שׁוֹקַעַת",
+	"headwords": [
+		{
+			"text": "שׁוֹקַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "b"

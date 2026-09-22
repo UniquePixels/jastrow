@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H01560",
-	"slug": "חקל-2",
-	"headword": {
-		"text": "חֲקַל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲקַל ²",
+	"headwords": [
+		{
+			"text": "חֲקַל",
+			"disambiguator": 2
+		},
 		{
 			"text": "חַקְלָא",
 			"homograph": 2
@@ -14,6 +15,7 @@
 			"text": "חֲקַלְתָּא"
 		}
 	],
+	"display": "{0} ², {1} II, {2}",
 	"page": {
 		"number": 497,
 		"column": "a"

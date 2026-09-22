@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02664",
-	"slug": "מריוטאי",
-	"headword": {
-		"text": "מַרְיוֹטָאֵי"
-	},
+	"sefariaHeadword": "מַרְיוֹטָאֵי",
+	"headwords": [
+		{
+			"text": "מַרְיוֹטָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

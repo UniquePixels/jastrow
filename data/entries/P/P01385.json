@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P01385",
-	"slug": "ערל-3",
-	"headword": {
-		"text": "עָרֵל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָרֵל ²",
+	"headwords": [
+		{
+			"text": "עָרֵל",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֲרַל"
 		},
@@ -22,6 +23,7 @@
 			"text": "עַרְלַאי"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1119,
 		"column": "b"

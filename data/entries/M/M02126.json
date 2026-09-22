@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02126",
-	"slug": "מעל-4",
-	"headword": {
-		"text": "מְעַל"
-	},
+	"sefariaHeadword": "מְעַל",
+	"headwords": [
+		{
+			"text": "מְעַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "a"

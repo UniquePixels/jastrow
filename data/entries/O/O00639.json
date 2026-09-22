@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00639",
-	"slug": "סיכא",
-	"headword": {
-		"text": "סִיכָּא"
-	},
+	"sefariaHeadword": "סִיכָּא",
+	"headwords": [
+		{
+			"text": "סִיכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

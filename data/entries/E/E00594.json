@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00594",
-	"slug": "המדך",
-	"headword": {
-		"text": "המדך"
-	},
+	"sefariaHeadword": "המדך",
+	"headwords": [
+		{
+			"text": "המדך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

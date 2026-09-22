@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00630",
-	"slug": "מורה-5",
-	"headword": {
-		"text": "מוֹרֶה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מוֹרֶה I",
+	"headwords": [
+		{
+			"text": "מוֹרֶה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 749,
 		"column": "b"

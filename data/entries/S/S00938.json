@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00938",
-	"slug": "קיימת",
-	"headword": {
-		"text": "קַיֶּימֶת"
-	},
+	"sefariaHeadword": "קַיֶּימֶת",
+	"headwords": [
+		{
+			"text": "קַיֶּימֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "a"

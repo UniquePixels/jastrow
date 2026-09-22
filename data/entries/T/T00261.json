@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00261",
-	"slug": "רדיף",
-	"headword": {
-		"text": "רְדִיף"
-	},
+	"sefariaHeadword": "רְדִיף",
+	"headwords": [
+		{
+			"text": "רְדִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00504",
-	"slug": "בטי-2",
-	"headword": {
-		"text": "בטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בטי",
+	"headwords": [
+		{
+			"text": "בטי"
+		},
 		{
 			"text": "בָּטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּטָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 156,
 		"column": "b"

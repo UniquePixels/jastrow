@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00062",
-	"slug": "מארופה",
-	"headword": {
-		"text": "מַאֲרוֹפָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַאֲרוֹפָה",
+	"headwords": [
+		{
+			"text": "מַאֲרוֹפָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

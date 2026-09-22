@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00486",
-	"slug": "היקש",
-	"headword": {
-		"text": "הֶיקֵּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיקֵּשׁ",
+	"headwords": [
+		{
+			"text": "הֶיקֵּשׁ"
+		},
 		{
 			"text": "הֶיקֵּישׁ"
 		},
@@ -15,6 +16,7 @@
 			"text": "הֶקֵּשׁ"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 349,
 		"column": "b"

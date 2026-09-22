@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00655",
-	"slug": "גיהר",
-	"headword": {
-		"text": "גִּיהַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיהַר",
+	"headwords": [
+		{
+			"text": "גִּיהַר"
+		},
 		{
 			"text": "גּוּהַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "a"

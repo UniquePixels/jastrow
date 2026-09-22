@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "F00065",
-	"slug": "ווס-2",
-	"headword": {
-		"text": "ווּס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ווּס ²",
+	"headwords": [
+		{
+			"text": "ווּס",
+			"disambiguator": 2
+		},
 		{
 			"text": "וִיס"
 		},
@@ -13,6 +14,7 @@
 			"text": "וְסִי"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 374,
 		"column": "a"

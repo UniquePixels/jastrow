@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01185",
-	"slug": "סנדלפונין",
-	"headword": {
-		"text": "סנדלפונין"
-	},
+	"sefariaHeadword": "סנדלפונין",
+	"headwords": [
+		{
+			"text": "סנדלפונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00722",
-	"slug": "שחרתא",
-	"headword": {
-		"text": "שְׁחַרְתָּא"
-	},
+	"sefariaHeadword": "שְׁחַרְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁחַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

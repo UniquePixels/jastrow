@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00882",
-	"slug": "הרמניא",
-	"headword": {
-		"text": "הַרְמַנְיָא"
-	},
+	"sefariaHeadword": "הַרְמַנְיָא",
+	"headwords": [
+		{
+			"text": "הַרְמַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 368,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00149",
-	"slug": "קדלהי",
-	"headword": {
-		"text": "קדלהי"
-	},
+	"sefariaHeadword": "קדלהי",
+	"headwords": [
+		{
+			"text": "קדלהי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1316,
 		"column": "a"

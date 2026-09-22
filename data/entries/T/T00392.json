@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00392",
-	"slug": "רומילוס",
-	"headword": {
-		"text": "רוֹמִילוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוֹמִילוֹס",
+	"headwords": [
+		{
+			"text": "רוֹמִילוֹס"
+		},
 		{
 			"text": "רוֹמִילָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1461,
 		"column": "b"

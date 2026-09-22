@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02491",
-	"slug": "מרב",
-	"headword": {
-		"text": "מֵרַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵרַב",
+	"headwords": [
+		{
+			"text": "מֵרַב"
+		},
 		{
 			"text": "מֵירַב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "a"

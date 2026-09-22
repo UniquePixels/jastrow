@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01879",
-	"slug": "אלירא",
-	"headword": {
-		"text": "אלירא"
-	},
+	"sefariaHeadword": "אלירא",
+	"headwords": [
+		{
+			"text": "אלירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

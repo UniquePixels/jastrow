@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01344",
-	"slug": "אימן-2",
-	"headword": {
-		"text": "אִימֵּן"
-	},
+	"sefariaHeadword": "אִימֵּן",
+	"headwords": [
+		{
+			"text": "אִימֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

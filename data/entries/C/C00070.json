@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00070",
-	"slug": "גבחת-2",
-	"headword": {
-		"text": "גַּבַּחַת"
-	},
+	"sefariaHeadword": "גַּבַּחַת",
+	"headwords": [
+		{
+			"text": "גַּבַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

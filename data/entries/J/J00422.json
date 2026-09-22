@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00422",
-	"slug": "ימס",
-	"headword": {
-		"text": "יְמַס"
-	},
+	"sefariaHeadword": "יְמַס",
+	"headwords": [
+		{
+			"text": "יְמַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00354",
-	"slug": "רוטב",
-	"headword": {
-		"text": "רוֹטֶב"
-	},
+	"sefariaHeadword": "רוֹטֶב",
+	"headwords": [
+		{
+			"text": "רוֹטֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "b"

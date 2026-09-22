@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00045",
-	"slug": "בארג",
-	"headword": {
-		"text": "בָּארַג"
-	},
+	"sefariaHeadword": "בָּארַג",
+	"headwords": [
+		{
+			"text": "בָּארַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "a"

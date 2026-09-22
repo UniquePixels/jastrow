@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01734",
-	"slug": "קפידותא",
-	"headword": {
-		"text": "קְפִידוּתָא"
-	},
+	"sefariaHeadword": "קְפִידוּתָא",
+	"headwords": [
+		{
+			"text": "קְפִידוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

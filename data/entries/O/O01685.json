@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O01685",
-	"slug": "סתוונית",
-	"headword": {
-		"text": "סִתְוָונִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִתְוָונִית",
+	"headwords": [
 		{
-			"text": "סִתְוָנִ׳"
+			"text": "סִתְוָונִית"
 		},
 		{
-			"text": "סִיתְ׳"
+			"text": "סִתְוָנִ׳",
+			"partial": true
+		},
+		{
+			"text": "סִיתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1030,
 		"column": "b"

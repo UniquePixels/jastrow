@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00532",
-	"slug": "אובצנא",
-	"headword": {
-		"text": "אוּבְצָנָא"
-	},
+	"sefariaHeadword": "אוּבְצָנָא",
+	"headwords": [
+		{
+			"text": "אוּבְצָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

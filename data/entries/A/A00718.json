@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00718",
-	"slug": "אינא-1",
-	"headword": {
-		"text": "אַיְנָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיְנָא I",
+	"headwords": [
+		{
+			"text": "אַיְנָא",
+			"homograph": 1
+		},
 		{
 			"text": "אַוְונָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אֲוָונָא"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 28,
 		"column": "a"

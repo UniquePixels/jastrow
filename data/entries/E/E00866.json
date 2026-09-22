@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00866",
-	"slug": "הריפה",
-	"headword": {
-		"text": "הֲרִיפָה"
-	},
+	"sefariaHeadword": "הֲרִיפָה",
+	"headwords": [
+		{
+			"text": "הֲרִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

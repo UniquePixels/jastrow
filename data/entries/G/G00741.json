@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00741",
-	"slug": "זתים",
-	"headword": {
-		"text": "זֵתִים"
-	},
+	"sefariaHeadword": "זֵתִים",
+	"headwords": [
+		{
+			"text": "זֵתִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

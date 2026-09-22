@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00914",
-	"slug": "רעע-1",
-	"headword": {
-		"text": "רָעַע"
-	},
+	"sefariaHeadword": "רָעַע",
+	"headwords": [
+		{
+			"text": "רָעַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1488,
 		"column": "a"

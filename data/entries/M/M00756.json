@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00756",
-	"slug": "מזין",
-	"headword": {
-		"text": "מַזְיָן"
-	},
+	"sefariaHeadword": "מַזְיָן",
+	"headwords": [
+		{
+			"text": "מַזְיָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

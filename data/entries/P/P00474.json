@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00474",
-	"slug": "עטף-6",
-	"headword": {
-		"text": "עֲטַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטַף",
+	"headwords": [
+		{
+			"text": "עֲטַף"
+		},
 		{
 			"text": "עִטְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1064,
 		"column": "a"

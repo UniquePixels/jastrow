@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01076",
-	"slug": "דרוריה",
-	"headword": {
-		"text": "דְּרוֹרִיָּה"
-	},
+	"sefariaHeadword": "דְּרוֹרִיָּה",
+	"headwords": [
+		{
+			"text": "דְּרוֹרִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

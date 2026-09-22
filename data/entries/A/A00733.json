@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00733",
-	"slug": "אונטוס",
-	"headword": {
-		"text": "אוֹנְטוֹס"
-	},
+	"sefariaHeadword": "אוֹנְטוֹס",
+	"headwords": [
+		{
+			"text": "אוֹנְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

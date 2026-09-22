@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "U00327",
-	"slug": "שובע-2",
-	"headword": {
-		"text": "שׂוֹבַע",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׂוֹבַע ²",
+	"headwords": [
+		{
+			"text": "שׂוֹבַע",
+			"disambiguator": 2
+		},
 		{
 			"text": "שׂוֹבְעָא"
 		},
 		{
-			"text": "שׂוּ׳"
+			"text": "שׂוּ׳",
+			"partial": true
 		},
 		{
 			"text": "שַׂבְעָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1529,
 		"column": "a"

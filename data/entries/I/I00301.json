@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00301",
-	"slug": "טיבולא",
-	"headword": {
-		"text": "טִיבּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיבּוּלָא",
+	"headwords": [
 		{
-			"text": "טִבּ׳"
+			"text": "טִיבּוּלָא"
+		},
+		{
+			"text": "טִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "b"

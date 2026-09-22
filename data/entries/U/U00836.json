@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00836",
-	"slug": "שיווין",
-	"headword": {
-		"text": "שִׁיוְוִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיוְוִין",
+	"headwords": [
+		{
+			"text": "שִׁיוְוִין"
+		},
 		{
 			"text": "שֵׁיוִוִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1558,
 		"column": "b"

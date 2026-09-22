@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01408",
-	"slug": "קלצטונירי",
-	"headword": {
-		"text": "קְלַצְטוֹנִירִי"
-	},
+	"sefariaHeadword": "קְלַצְטוֹנִירִי",
+	"headwords": [
+		{
+			"text": "קְלַצְטוֹנִירִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

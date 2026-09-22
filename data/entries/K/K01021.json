@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01021",
-	"slug": "כפישא",
-	"headword": {
-		"text": "כְּפִישָׁא"
-	},
+	"sefariaHeadword": "כְּפִישָׁא",
+	"headwords": [
+		{
+			"text": "כְּפִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "b"

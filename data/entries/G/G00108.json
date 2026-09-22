@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00108",
-	"slug": "זהרה",
-	"headword": {
-		"text": "זַהֲרָה"
-	},
+	"sefariaHeadword": "זַהֲרָה",
+	"headwords": [
+		{
+			"text": "זַהֲרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "b"

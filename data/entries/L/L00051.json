@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00051",
-	"slug": "לבוי",
-	"headword": {
-		"text": "לִבּוּי"
-	},
+	"sefariaHeadword": "לִבּוּי",
+	"headwords": [
+		{
+			"text": "לִבּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "a"

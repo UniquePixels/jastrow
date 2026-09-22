@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00166",
-	"slug": "דואג",
-	"headword": {
-		"text": "דּוֹאֵג"
-	},
+	"sefariaHeadword": "דּוֹאֵג",
+	"headwords": [
+		{
+			"text": "דּוֹאֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "a"

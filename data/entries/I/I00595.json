@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00595",
-	"slug": "טעו",
-	"headword": {
-		"text": "טָעוּ"
-	},
+	"sefariaHeadword": "טָעוּ",
+	"headwords": [
+		{
+			"text": "טָעוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "a"

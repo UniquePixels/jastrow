@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01180",
-	"slug": "קיריאה",
-	"headword": {
-		"text": "קִירְיָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְיָאָה",
+	"headwords": [
+		{
+			"text": "קִירְיָאָה"
+		},
 		{
 			"text": "קִירְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1369,
 		"column": "a"

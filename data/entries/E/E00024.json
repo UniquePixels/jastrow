@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00024",
-	"slug": "הבאה",
-	"headword": {
-		"text": "הֲבָאָה"
-	},
+	"sefariaHeadword": "הֲבָאָה",
+	"headwords": [
+		{
+			"text": "הֲבָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "b"

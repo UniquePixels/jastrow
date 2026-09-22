@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00925",
-	"slug": "קייא",
-	"headword": {
-		"text": "קָיָיא"
-	},
+	"sefariaHeadword": "קָיָיא",
+	"headwords": [
+		{
+			"text": "קָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1358,
 		"column": "b"

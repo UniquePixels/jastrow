@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00909",
-	"slug": "ננעא",
-	"headword": {
-		"text": "נַנְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַנְעָא",
+	"headwords": [
+		{
+			"text": "נַנְעָא"
+		},
 		{
 			"text": "נַנְעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 914,
 		"column": "b"

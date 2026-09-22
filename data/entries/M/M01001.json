@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01001",
-	"slug": "מטלול",
-	"headword": {
-		"text": "מַטְלוּל"
-	},
+	"sefariaHeadword": "מַטְלוּל",
+	"headwords": [
+		{
+			"text": "מַטְלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

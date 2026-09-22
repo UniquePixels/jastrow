@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01149",
-	"slug": "פנג",
-	"headword": {
-		"text": "פנג"
-	},
+	"sefariaHeadword": "פנג",
+	"headwords": [
+		{
+			"text": "פנג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

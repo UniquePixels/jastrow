@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00482",
-	"slug": "יעט",
-	"headword": {
-		"text": "יְעַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְעַט",
+	"headwords": [
+		{
+			"text": "יְעַט"
+		},
 		{
 			"text": "יָעַט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 584,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02281",
-	"slug": "מצודה",
-	"headword": {
-		"text": "מְצוּדָה"
-	},
+	"sefariaHeadword": "מְצוּדָה",
+	"headwords": [
+		{
+			"text": "מְצוּדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00785",
-	"slug": "טריטא",
-	"headword": {
-		"text": "טְרִיטָא"
-	},
+	"sefariaHeadword": "טְרִיטָא",
+	"headwords": [
+		{
+			"text": "טְרִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

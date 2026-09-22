@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00772",
-	"slug": "דכי-2",
-	"headword": {
-		"text": "דְּכִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּכִי",
+	"headwords": [
+		{
+			"text": "דְּכִי"
+		},
 		{
 			"text": "דְּכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 307,
 		"column": "a"

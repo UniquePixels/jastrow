@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01653",
-	"slug": "סרסיא-2",
-	"headword": {
-		"text": "סַרְסָיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַרְסָיָא",
+	"headwords": [
+		{
+			"text": "סַרְסָיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1029,
 		"column": "b"

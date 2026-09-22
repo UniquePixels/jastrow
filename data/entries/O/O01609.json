@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01609",
-	"slug": "סריון",
-	"headword": {
-		"text": "סִרְיוֹן"
-	},
+	"sefariaHeadword": "סִרְיוֹן",
+	"headwords": [
+		{
+			"text": "סִרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

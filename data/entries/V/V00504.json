@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00504",
-	"slug": "תירוס",
-	"headword": {
-		"text": "תֵּירוּס"
-	},
+	"sefariaHeadword": "תֵּירוּס",
+	"headwords": [
+		{
+			"text": "תֵּירוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

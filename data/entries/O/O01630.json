@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01630",
-	"slug": "סריקותא-1",
-	"headword": {
-		"text": "סְרִיקוּתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְרִיקוּתָא I",
+	"headwords": [
+		{
+			"text": "סְרִיקוּתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1027,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00900",
-	"slug": "רעיונא",
-	"headword": {
-		"text": "רַעְיוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַעְיוֹנָא",
+	"headwords": [
+		{
+			"text": "רַעְיוֹנָא"
+		},
 		{
 			"text": "רַעֲיָינָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רַעֲיָנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1487,
 		"column": "a"

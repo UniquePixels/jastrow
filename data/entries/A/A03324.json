@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03324",
-	"slug": "אשמא-1",
-	"headword": {
-		"text": "אַשְׁמָא"
-	},
+	"sefariaHeadword": "אַשְׁמָא",
+	"headwords": [
+		{
+			"text": "אַשְׁמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02218",
-	"slug": "אניא",
-	"headword": {
-		"text": "אָנְיָא"
-	},
+	"sefariaHeadword": "אָנְיָא",
+	"headwords": [
+		{
+			"text": "אָנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "b"

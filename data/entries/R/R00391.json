@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00391",
-	"slug": "צינוק",
-	"headword": {
-		"text": "צִינוֹק"
-	},
+	"sefariaHeadword": "צִינוֹק",
+	"headwords": [
+		{
+			"text": "צִינוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "a"

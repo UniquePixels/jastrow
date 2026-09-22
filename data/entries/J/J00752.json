@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00752",
-	"slug": "יתרא-2",
-	"headword": {
-		"text": "יִתְרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יִתְרָא II",
+	"headwords": [
+		{
+			"text": "יִתְרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 605,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00832",
-	"slug": "הרדפוני",
-	"headword": {
-		"text": "הרדפוני"
-	},
+	"sefariaHeadword": "הרדפוני",
+	"headwords": [
+		{
+			"text": "הרדפוני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "a"

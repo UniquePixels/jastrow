@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00805",
-	"slug": "דלג-2",
-	"headword": {
-		"text": "דְּלַג"
-	},
+	"sefariaHeadword": "דְּלַג",
+	"headwords": [
+		{
+			"text": "דְּלַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 308,
 		"column": "b"

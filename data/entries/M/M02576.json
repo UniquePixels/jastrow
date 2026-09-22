@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02576",
-	"slug": "מרודנית",
-	"headword": {
-		"text": "מְרוֹדָנִית"
-	},
+	"sefariaHeadword": "מְרוֹדָנִית",
+	"headwords": [
+		{
+			"text": "מְרוֹדָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

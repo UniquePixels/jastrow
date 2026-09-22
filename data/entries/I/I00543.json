@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00543",
-	"slug": "טמי-1",
-	"headword": {
-		"text": "טְמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְמִי",
+	"headwords": [
+		{
+			"text": "טְמִי"
+		},
 		{
 			"text": "טְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 539,
 		"column": "a"

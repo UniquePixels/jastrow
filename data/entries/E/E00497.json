@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00497",
-	"slug": "הך-1",
-	"headword": {
-		"text": "הַךְ"
-	},
+	"sefariaHeadword": "הַךְ",
+	"headwords": [
+		{
+			"text": "הַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "a"

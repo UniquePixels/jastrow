@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00048",
-	"slug": "סבותא",
-	"headword": {
-		"text": "סָבוּתָא"
-	},
+	"sefariaHeadword": "סָבוּתָא",
+	"headwords": [
+		{
+			"text": "סָבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

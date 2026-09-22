@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00177",
-	"slug": "כואנגר",
-	"headword": {
-		"text": "כְּוַאנְגַּר"
-	},
+	"sefariaHeadword": "כְּוַאנְגַּר",
+	"headwords": [
+		{
+			"text": "כְּוַאנְגַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "a"

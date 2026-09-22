@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00570",
-	"slug": "עילבו",
-	"headword": {
-		"text": "עילבו"
-	},
+	"sefariaHeadword": "עילבו",
+	"headwords": [
+		{
+			"text": "עילבו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "a"

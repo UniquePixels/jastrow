@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02798",
-	"slug": "אפרגיזא",
-	"headword": {
-		"text": "אפרגיזא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפרגיזא",
+	"headwords": [
+		{
+			"text": "אפרגיזא"
+		},
 		{
 			"text": "אפרגייס"
 		},
@@ -15,6 +16,7 @@
 			"text": "אפרגיס"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 108,
 		"column": "a"

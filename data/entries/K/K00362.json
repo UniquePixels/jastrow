@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00362",
-	"slug": "כור-1",
-	"headword": {
-		"text": "כּוֹר"
-	},
+	"sefariaHeadword": "כּוֹר",
+	"headwords": [
+		{
+			"text": "כּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "a"

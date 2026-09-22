@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01448",
-	"slug": "סקבל",
-	"headword": {
-		"text": "סַקְבֵּל"
-	},
+	"sefariaHeadword": "סַקְבֵּל",
+	"headwords": [
+		{
+			"text": "סַקְבֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

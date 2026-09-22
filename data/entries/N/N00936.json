@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00936",
-	"slug": "נסיותא",
-	"headword": {
-		"text": "נַסְיוּתָא"
-	},
+	"sefariaHeadword": "נַסְיוּתָא",
+	"headwords": [
+		{
+			"text": "נַסְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 916,
 		"column": "b"

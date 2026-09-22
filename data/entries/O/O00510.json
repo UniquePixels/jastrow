@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00510",
-	"slug": "סטרטיוט",
-	"headword": {
-		"text": "סְטַרְטְיוֹט"
-	},
+	"sefariaHeadword": "סְטַרְטְיוֹט",
+	"headwords": [
+		{
+			"text": "סְטַרְטְיוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

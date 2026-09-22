@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00105",
-	"slug": "תדיא",
-	"headword": {
-		"text": "תדיא"
-	},
+	"sefariaHeadword": "תדיא",
+	"headwords": [
+		{
+			"text": "תדיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

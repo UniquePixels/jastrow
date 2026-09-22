@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00567",
-	"slug": "שושטה",
-	"headword": {
-		"text": "שׁוֹשָׁטָה"
-	},
+	"sefariaHeadword": "שׁוֹשָׁטָה",
+	"headwords": [
+		{
+			"text": "שׁוֹשָׁטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "b"

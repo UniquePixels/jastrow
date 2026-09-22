@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01762",
-	"slug": "חרקא",
-	"headword": {
-		"text": "חִרְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִרְקָא",
+	"headwords": [
 		{
-			"text": "חִירְ׳"
+			"text": "חִרְקָא"
+		},
+		{
+			"text": "חִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 506,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00593",
-	"slug": "זעי",
-	"headword": {
-		"text": "זְעִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זְעִי",
+	"headwords": [
+		{
+			"text": "זְעִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 407,
 		"column": "b"

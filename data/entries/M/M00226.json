@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00226",
-	"slug": "מגררתא",
-	"headword": {
-		"text": "מַגְרַרְתָּא"
-	},
+	"sefariaHeadword": "מַגְרַרְתָּא",
+	"headwords": [
+		{
+			"text": "מַגְרַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

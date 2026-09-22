@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00939",
-	"slug": "ענא",
-	"headword": {
-		"text": "עֲנָא"
-	},
+	"sefariaHeadword": "עֲנָא",
+	"headwords": [
+		{
+			"text": "עֲנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

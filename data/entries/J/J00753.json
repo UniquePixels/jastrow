@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00753",
-	"slug": "יתרה",
-	"headword": {
-		"text": "יְתִרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְתִרָה",
+	"headwords": [
+		{
+			"text": "יְתִרָה"
+		},
 		{
 			"text": "יְתֶרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 605,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00581",
-	"slug": "הלני",
-	"headword": {
-		"text": "הִלְנִי"
-	},
+	"sefariaHeadword": "הִלְנִי",
+	"headwords": [
+		{
+			"text": "הִלְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "a"

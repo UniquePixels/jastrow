@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00351",
-	"slug": "סומק-2",
-	"headword": {
-		"text": "סוּמַּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּמַּק",
+	"headwords": [
+		{
+			"text": "סוּמַּק"
+		},
 		{
 			"text": "סוּמְּקָא"
 		},
 		{
 			"text": "סוּמְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 966,
 		"column": "b"

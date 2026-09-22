@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00099",
-	"slug": "גביעא",
-	"headword": {
-		"text": "גְּבִיעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבִיעָא",
+	"headwords": [
+		{
+			"text": "גְּבִיעָא"
+		},
 		{
 			"text": "גְּבִיעָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 207,
 		"column": "a"

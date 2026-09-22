@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00857",
-	"slug": "מחי-1",
-	"headword": {
-		"text": "מחי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מחי",
+	"headwords": [
+		{
+			"text": "מחי"
+		},
 		{
 			"text": "מָחָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "מָחַח"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 759,
 		"column": "a"

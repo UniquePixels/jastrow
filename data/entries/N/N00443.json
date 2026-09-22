@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00443",
-	"slug": "נזיפותא",
-	"headword": {
-		"text": "נְזִיפוּתָא"
-	},
+	"sefariaHeadword": "נְזִיפוּתָא",
+	"headwords": [
+		{
+			"text": "נְזִיפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

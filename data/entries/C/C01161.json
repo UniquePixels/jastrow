@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01161",
-	"slug": "גס-3",
-	"headword": {
-		"text": "גַּס",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּס III",
+	"headwords": [
+		{
+			"text": "גַּס",
+			"homograph": 3
+		},
 		{
 			"text": "גַּסָּה"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 260,
 		"column": "a"

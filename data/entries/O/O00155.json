@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00155",
-	"slug": "סגן-2",
-	"headword": {
-		"text": "סְגַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגַן",
+	"headwords": [
+		{
+			"text": "סְגַן"
+		},
 		{
 			"text": "סִגְנָא"
 		},
 		{
 			"text": "סִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 955,
 		"column": "b"

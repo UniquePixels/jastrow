@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01596",
-	"slug": "שנים",
-	"headword": {
-		"text": "שְׁנַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁנַיִם",
+	"headwords": [
+		{
+			"text": "שְׁנַיִם"
+		},
 		{
 			"text": "שְׁנֵי"
 		},
@@ -15,6 +16,7 @@
 			"text": "שְׁתֵּי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1607,
 		"column": "a"

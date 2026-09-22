@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02014",
-	"slug": "שרפה",
-	"headword": {
-		"text": "שְׂרֵפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׂרֵפָה",
+	"headwords": [
 		{
-			"text": "שְׂרֵי׳"
+			"text": "שְׂרֵפָה"
+		},
+		{
+			"text": "שְׂרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1633,
 		"column": "b"

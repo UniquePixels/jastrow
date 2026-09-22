@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00797",
-	"slug": "טרים",
-	"headword": {
-		"text": "טרים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טרים",
+	"headwords": [
+		{
+			"text": "טרים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 553,
 		"column": "b"

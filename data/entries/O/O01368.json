@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O01368",
-	"slug": "ספיקולא-1",
-	"headword": {
-		"text": "סְפִיקוּלָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפִיקוּלָא I",
+	"headwords": [
+		{
+			"text": "סְפִיקוּלָא",
+			"homograph": 1
+		},
 		{
 			"text": "סְפִיקוּלָה"
 		},
 		{
-			"text": "סְפִקוּלָ׳"
+			"text": "סְפִקוּלָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, ({2})",
 	"page": {
 		"number": 1014,
 		"column": "a"

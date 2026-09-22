@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00274",
-	"slug": "בולקס",
-	"headword": {
-		"text": "בולקס"
-	},
+	"sefariaHeadword": "בולקס",
+	"headwords": [
+		{
+			"text": "בולקס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

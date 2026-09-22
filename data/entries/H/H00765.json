@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00765",
-	"slug": "חילול",
-	"headword": {
-		"text": "חִילּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוּל",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוּל"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "a"

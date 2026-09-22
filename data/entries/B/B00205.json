@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00205",
-	"slug": "בוביאר",
-	"headword": {
-		"text": "בוביאר"
-	},
+	"sefariaHeadword": "בוביאר",
+	"headwords": [
+		{
+			"text": "בוביאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00026",
-	"slug": "כבאי",
-	"headword": {
-		"text": "כבאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כבאי",
+	"headwords": [
+		{
+			"text": "כבאי"
+		},
 		{
 			"text": "כביי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 606,
 		"column": "b"

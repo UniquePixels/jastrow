@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00089",
-	"slug": "גבין-1",
-	"headword": {
-		"text": "גָּבְיָן"
-	},
+	"sefariaHeadword": "גָּבְיָן",
+	"headwords": [
+		{
+			"text": "גָּבְיָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

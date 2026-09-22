@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00803",
-	"slug": "אופיי",
-	"headword": {
-		"text": "אוּפְיֵי"
-	},
+	"sefariaHeadword": "אוּפְיֵי",
+	"headwords": [
+		{
+			"text": "אוּפְיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

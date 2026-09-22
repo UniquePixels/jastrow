@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00342",
-	"slug": "כופני",
-	"headword": {
-		"text": "כּוּפְנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּפְנִי",
+	"headwords": [
+		{
+			"text": "כּוּפְנִי"
+		},
 		{
 			"text": "כּוּפְנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 624,
 		"column": "a"

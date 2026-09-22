@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00077",
-	"slug": "הגן-2",
-	"headword": {
-		"text": "הֲגַן"
-	},
+	"sefariaHeadword": "הֲגַן",
+	"headwords": [
+		{
+			"text": "הֲגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00567",
-	"slug": "תלא-3",
-	"headword": {
-		"text": "תָּלָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "תָּלָא ²",
+	"headwords": [
+		{
+			"text": "תָּלָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1670,
 		"column": "a"

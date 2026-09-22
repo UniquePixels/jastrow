@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00710",
-	"slug": "כלוסין",
-	"headword": {
-		"text": "כלוסין"
-	},
+	"sefariaHeadword": "כלוסין",
+	"headwords": [
+		{
+			"text": "כלוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "b"

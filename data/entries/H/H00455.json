@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00455",
-	"slug": "חורבא-2",
-	"headword": {
-		"text": "חוּרְבָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּרְבָּא II",
+	"headwords": [
+		{
+			"text": "חוּרְבָּא",
+			"homograph": 2
+		},
 		{
 			"text": "חָרְבָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 439,
 		"column": "b"

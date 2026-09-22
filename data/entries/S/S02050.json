@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02050",
-	"slug": "קרייא-2",
-	"headword": {
-		"text": "קַרָיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרָיָיא",
+	"headwords": [
+		{
+			"text": "קַרָיָיא"
+		},
 		{
 			"text": "קַרַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1420,
 		"column": "a"

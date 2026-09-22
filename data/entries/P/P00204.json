@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00204",
-	"slug": "עודפא",
-	"headword": {
-		"text": "עוּדְפָא"
-	},
+	"sefariaHeadword": "עוּדְפָא",
+	"headwords": [
+		{
+			"text": "עוּדְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

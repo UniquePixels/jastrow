@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00814",
-	"slug": "צררייא",
-	"headword": {
-		"text": "צְרָרַיָּיא"
-	},
+	"sefariaHeadword": "צְרָרַיָּיא",
+	"headwords": [
+		{
+			"text": "צְרָרַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "a"

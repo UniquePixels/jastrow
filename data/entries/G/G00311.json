@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00311",
-	"slug": "זיון",
-	"headword": {
-		"text": "זִיּוּן"
-	},
+	"sefariaHeadword": "זִיּוּן",
+	"headwords": [
+		{
+			"text": "זִיּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

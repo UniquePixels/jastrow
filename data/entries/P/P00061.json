@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00061",
-	"slug": "עבר-3",
-	"headword": {
-		"text": "עֵבֶר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֵבֶר I",
+	"headwords": [
+		{
+			"text": "עֵבֶר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1040,
 		"column": "a"

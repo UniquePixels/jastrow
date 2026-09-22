@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03082",
-	"slug": "אריא",
-	"headword": {
-		"text": "אִרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִרְיָא",
+	"headwords": [
+		{
+			"text": "אִרְיָא"
+		},
 		{
 			"text": "אִירְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִירְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 119,
 		"column": "a"

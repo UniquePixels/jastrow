@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00616",
-	"slug": "סייג-1",
-	"headword": {
-		"text": "סְיָיג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְיָיג",
+	"headwords": [
+		{
+			"text": "סְיָיג"
+		},
 		{
 			"text": "סְיָג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 978,
 		"column": "a"

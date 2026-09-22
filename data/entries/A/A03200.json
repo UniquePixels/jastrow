@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03200",
-	"slug": "ארנטוס",
-	"headword": {
-		"text": "אָרְנָטוּס"
-	},
+	"sefariaHeadword": "אָרְנָטוּס",
+	"headwords": [
+		{
+			"text": "אָרְנָטוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00107",
-	"slug": "עגנא",
-	"headword": {
-		"text": "עַגְנָא"
-	},
+	"sefariaHeadword": "עַגְנָא",
+	"headwords": [
+		{
+			"text": "עַגְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "a"

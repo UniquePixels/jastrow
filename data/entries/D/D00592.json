@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00592",
-	"slug": "דיכסאים",
-	"headword": {
-		"text": "דיכסאים"
-	},
+	"sefariaHeadword": "דיכסאים",
+	"headwords": [
+		{
+			"text": "דיכסאים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

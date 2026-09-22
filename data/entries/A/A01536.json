@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01536",
-	"slug": "איפוכי",
-	"headword": {
-		"text": "אִיפּוּכִי"
-	},
+	"sefariaHeadword": "אִיפּוּכִי",
+	"headwords": [
+		{
+			"text": "אִיפּוּכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

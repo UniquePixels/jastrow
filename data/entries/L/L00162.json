@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00162",
-	"slug": "להטייה",
-	"headword": {
-		"text": "להטייה"
-	},
+	"sefariaHeadword": "להטייה",
+	"headwords": [
+		{
+			"text": "להטייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

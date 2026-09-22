@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01384",
-	"slug": "גרעין",
-	"headword": {
-		"text": "גַּרְעִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְעִין",
+	"headwords": [
+		{
+			"text": "גַּרְעִין"
+		},
 		{
 			"text": "גַּלְעִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "גַּרְאִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 271,
 		"column": "b"

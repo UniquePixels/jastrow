@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00683",
-	"slug": "ריפע",
-	"headword": {
-		"text": "ריפע"
-	},
+	"sefariaHeadword": "ריפע",
+	"headwords": [
+		{
+			"text": "ריפע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

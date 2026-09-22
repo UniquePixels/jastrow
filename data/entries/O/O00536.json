@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00536",
-	"slug": "סיבור",
-	"headword": {
-		"text": "סִיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיבּוּר",
+	"headwords": [
+		{
+			"text": "סִיבּוּר"
+		},
 		{
 			"text": "סִיבּוּרָא"
 		},
 		{
 			"text": "סִבּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 974,
 		"column": "b"

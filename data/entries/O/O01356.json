@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01356",
-	"slug": "ספייא",
-	"headword": {
-		"text": "סַפְיָיא"
-	},
+	"sefariaHeadword": "סַפְיָיא",
+	"headwords": [
+		{
+			"text": "סַפְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

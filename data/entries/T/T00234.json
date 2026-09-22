@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00234",
-	"slug": "רדדא",
-	"headword": {
-		"text": "רַדְדָא"
-	},
+	"sefariaHeadword": "רַדְדָא",
+	"headwords": [
+		{
+			"text": "רַדְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1451,
 		"column": "a"

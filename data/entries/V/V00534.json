@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00534",
-	"slug": "תכיפה",
-	"headword": {
-		"text": "תְּכִיפָה"
-	},
+	"sefariaHeadword": "תְּכִיפָה",
+	"headwords": [
+		{
+			"text": "תְּכִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

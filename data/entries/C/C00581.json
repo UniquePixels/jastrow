@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00581",
-	"slug": "גזרה-2",
-	"headword": {
-		"text": "גְּזֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזֵרָה",
+	"headwords": [
+		{
+			"text": "גְּזֵרָה"
+		},
 		{
 			"text": "גְּזֵירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 232,
 		"column": "b"

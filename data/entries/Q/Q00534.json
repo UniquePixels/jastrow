@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00534",
-	"slug": "פטליקין",
-	"headword": {
-		"text": "פטליקין"
-	},
+	"sefariaHeadword": "פטליקין",
+	"headwords": [
+		{
+			"text": "פטליקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1156,
 		"column": "a"

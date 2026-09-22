@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01188",
-	"slug": "קירמא",
-	"headword": {
-		"text": "קִירְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְמָא",
+	"headwords": [
+		{
+			"text": "קִירְמָא"
+		},
 		{
 			"text": "קִירָמֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1369,
 		"column": "b"

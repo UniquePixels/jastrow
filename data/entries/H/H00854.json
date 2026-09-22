@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00854",
-	"slug": "חיפזון",
-	"headword": {
-		"text": "חִיפָּזוֹן"
-	},
+	"sefariaHeadword": "חִיפָּזוֹן",
+	"headwords": [
+		{
+			"text": "חִיפָּזוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "b"

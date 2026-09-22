@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01251",
-	"slug": "כרסלא",
-	"headword": {
-		"text": "כרסלא"
-	},
+	"sefariaHeadword": "כרסלא",
+	"headwords": [
+		{
+			"text": "כרסלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

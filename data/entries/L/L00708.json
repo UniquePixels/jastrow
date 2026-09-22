@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00708",
-	"slug": "לשכתא",
-	"headword": {
-		"text": "לִשְׁכְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִשְׁכְּתָא",
+	"headwords": [
 		{
-			"text": "לִישְׁ׳"
+			"text": "לִשְׁכְּתָא"
+		},
+		{
+			"text": "לִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 720,
 		"column": "b"

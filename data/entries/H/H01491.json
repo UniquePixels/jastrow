@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01491",
-	"slug": "חצב-3",
-	"headword": {
-		"text": "חַצָּב"
-	},
+	"sefariaHeadword": "חַצָּב",
+	"headwords": [
+		{
+			"text": "חַצָּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 494,
 		"column": "a"

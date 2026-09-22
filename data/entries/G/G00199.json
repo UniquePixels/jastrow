@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00199",
-	"slug": "זוני",
-	"headword": {
-		"text": "זוֹנִי"
-	},
+	"sefariaHeadword": "זוֹנִי",
+	"headwords": [
+		{
+			"text": "זוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "a"

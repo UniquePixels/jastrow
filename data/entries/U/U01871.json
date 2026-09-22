@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01871",
-	"slug": "שקל-2",
-	"headword": {
-		"text": "שְׁקַל"
-	},
+	"sefariaHeadword": "שְׁקַל",
+	"headwords": [
+		{
+			"text": "שְׁקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1623,
 		"column": "b"

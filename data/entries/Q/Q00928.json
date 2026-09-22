@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00928",
-	"slug": "פלאגי",
-	"headword": {
-		"text": "פְּלָאגֵי"
-	},
+	"sefariaHeadword": "פְּלָאגֵי",
+	"headwords": [
+		{
+			"text": "פְּלָאגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "b"

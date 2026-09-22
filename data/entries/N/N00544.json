@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00544",
-	"slug": "נטולא",
-	"headword": {
-		"text": "נְטוּלָא"
-	},
+	"sefariaHeadword": "נְטוּלָא",
+	"headwords": [
+		{
+			"text": "נְטוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

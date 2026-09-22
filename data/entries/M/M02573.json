@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M02573",
-	"slug": "מרוד-3",
-	"headword": {
-		"text": "מָרוֹד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרוֹד ²",
+	"headwords": [
+		{
+			"text": "מָרוֹד",
+			"disambiguator": 2
+		},
 		{
 			"text": "מָרוֹדָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 838,
 		"column": "b"

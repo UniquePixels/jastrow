@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00792",
-	"slug": "שיבוטא",
-	"headword": {
-		"text": "שִׁיבּוּטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבּוּטָא",
+	"headwords": [
 		{
-			"text": "שִׁבּ׳"
+			"text": "שִׁיבּוּטָא"
+		},
+		{
+			"text": "שִׁבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1556,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01668",
-	"slug": "חרי-3",
-	"headword": {
-		"text": "חרי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חרי",
+	"headwords": [
+		{
+			"text": "חרי"
+		},
 		{
 			"text": "חָרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 501,
 		"column": "b"

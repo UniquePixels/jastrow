@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01563",
-	"slug": "שנאב",
-	"headword": {
-		"text": "שִׁנְאָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁנְאָב",
+	"headwords": [
+		{
+			"text": "שִׁנְאָב"
+		},
 		{
 			"text": "שִׂנְאָב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1604,
 		"column": "a"

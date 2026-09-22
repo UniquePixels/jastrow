@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02007",
-	"slug": "קרטלין",
-	"headword": {
-		"text": "קַרְטַלִּין"
-	},
+	"sefariaHeadword": "קַרְטַלִּין",
+	"headwords": [
+		{
+			"text": "קַרְטַלִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1417,
 		"column": "a"

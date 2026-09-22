@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01079",
-	"slug": "רשות-1",
-	"headword": {
-		"text": "רָשׁוּת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָשׁוּת I",
+	"headwords": [
+		{
+			"text": "רָשׁוּת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1499,
 		"column": "a"

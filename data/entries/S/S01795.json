@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01795",
-	"slug": "קצוצא",
-	"headword": {
-		"text": "קְצוּצָא"
-	},
+	"sefariaHeadword": "קְצוּצָא",
+	"headwords": [
+		{
+			"text": "קְצוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

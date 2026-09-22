@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00119",
-	"slug": "צדק-2",
-	"headword": {
-		"text": "צְדַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְדַק",
+	"headwords": [
+		{
+			"text": "צְדַק"
+		},
 		{
 			"text": "צְדֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1263,
 		"column": "b"

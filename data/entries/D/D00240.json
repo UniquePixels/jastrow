@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00240",
-	"slug": "דויל",
-	"headword": {
-		"text": "דְּוִיל"
-	},
+	"sefariaHeadword": "דְּוִיל",
+	"headwords": [
+		{
+			"text": "דְּוִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 284,
 		"column": "b"

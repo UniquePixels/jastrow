@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00906",
-	"slug": "תקע-2",
-	"headword": {
-		"text": "תְּקַע"
-	},
+	"sefariaHeadword": "תְּקַע",
+	"headwords": [
+		{
+			"text": "תְּקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1693,
 		"column": "b"

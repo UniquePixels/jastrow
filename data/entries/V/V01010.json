@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01010",
-	"slug": "תרכוסא",
-	"headword": {
-		"text": "תרכוסא"
-	},
+	"sefariaHeadword": "תרכוסא",
+	"headwords": [
+		{
+			"text": "תרכוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "b"

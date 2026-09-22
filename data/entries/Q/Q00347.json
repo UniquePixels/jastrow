@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00347",
-	"slug": "פוריומא",
-	"headword": {
-		"text": "פּוּרְיוֹמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְיוֹמָא",
+	"headwords": [
 		{
-			"text": "פִּרְ׳"
+			"text": "פּוּרְיוֹמָא"
+		},
+		{
+			"text": "פִּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1147,
 		"column": "a"

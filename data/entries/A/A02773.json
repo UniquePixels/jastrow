@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02773",
-	"slug": "אפץ-2",
-	"headword": {
-		"text": "אֲפַץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲפַץ",
+	"headwords": [
+		{
+			"text": "אֲפַץ"
+		},
 		{
 			"text": "עֲפַץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "a"

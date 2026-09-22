@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00271",
-	"slug": "בולסא",
-	"headword": {
-		"text": "בּוּלְסָא"
-	},
+	"sefariaHeadword": "בּוּלְסָא",
+	"headwords": [
+		{
+			"text": "בּוּלְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

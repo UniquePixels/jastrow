@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00644",
-	"slug": "סיכוך",
-	"headword": {
-		"text": "סִיכּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכּוּךְ",
+	"headwords": [
 		{
-			"text": "סִכּ׳"
+			"text": "סִיכּוּךְ"
+		},
+		{
+			"text": "סִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

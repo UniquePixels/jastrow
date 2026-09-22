@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01613",
-	"slug": "אירסיה",
-	"headword": {
-		"text": "אִירְסַיָּה"
-	},
+	"sefariaHeadword": "אִירְסַיָּה",
+	"headwords": [
+		{
+			"text": "אִירְסַיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

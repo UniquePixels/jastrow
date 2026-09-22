@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00081",
-	"slug": "בגין",
-	"headword": {
-		"text": "בְּגִין"
-	},
+	"sefariaHeadword": "בְּגִין",
+	"headwords": [
+		{
+			"text": "בְּגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

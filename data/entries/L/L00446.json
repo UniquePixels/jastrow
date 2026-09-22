@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00446",
-	"slug": "ליטמא",
-	"headword": {
-		"text": "ליטמא"
-	},
+	"sefariaHeadword": "ליטמא",
+	"headwords": [
+		{
+			"text": "ליטמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

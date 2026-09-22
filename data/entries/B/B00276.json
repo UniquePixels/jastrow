@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00276",
-	"slug": "בולרין-1",
-	"headword": {
-		"text": "בּוֹלְרִין"
-	},
+	"sefariaHeadword": "בּוֹלְרִין",
+	"headwords": [
+		{
+			"text": "בּוֹלְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

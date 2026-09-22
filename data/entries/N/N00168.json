@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00168",
-	"slug": "נגן-1",
-	"headword": {
-		"text": "נָגַן"
-	},
+	"sefariaHeadword": "נָגַן",
+	"headwords": [
+		{
+			"text": "נָגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

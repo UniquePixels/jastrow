@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00218",
-	"slug": "כווריתא",
-	"headword": {
-		"text": "כַּוָּורִיתָא"
-	},
+	"sefariaHeadword": "כַּוָּורִיתָא",
+	"headwords": [
+		{
+			"text": "כַּוָּורִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

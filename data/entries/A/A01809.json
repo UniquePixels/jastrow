@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01809",
-	"slug": "אלול",
-	"headword": {
-		"text": "אֱלוּל"
-	},
+	"sefariaHeadword": "אֱלוּל",
+	"headwords": [
+		{
+			"text": "אֱלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

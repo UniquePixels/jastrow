@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00250",
-	"slug": "פומבייני",
-	"headword": {
-		"text": "פּוּמְבְּיָינֵי"
-	},
+	"sefariaHeadword": "פּוּמְבְּיָינֵי",
+	"headwords": [
+		{
+			"text": "פּוּמְבְּיָינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "b"

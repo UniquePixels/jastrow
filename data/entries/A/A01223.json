@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01223",
-	"slug": "איטן",
-	"headword": {
-		"text": "אִיטָּן"
-	},
+	"sefariaHeadword": "אִיטָּן",
+	"headwords": [
+		{
+			"text": "אִיטָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

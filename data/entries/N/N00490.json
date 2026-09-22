@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00490",
-	"slug": "נחיצה",
-	"headword": {
-		"text": "נְחִיצָה"
-	},
+	"sefariaHeadword": "נְחִיצָה",
+	"headwords": [
+		{
+			"text": "נְחִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

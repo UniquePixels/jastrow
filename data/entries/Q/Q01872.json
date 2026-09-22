@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01872",
-	"slug": "פרמוטין",
-	"headword": {
-		"text": "פרמוטין"
-	},
+	"sefariaHeadword": "פרמוטין",
+	"headwords": [
+		{
+			"text": "פרמוטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00048",
-	"slug": "לבדקס",
-	"headword": {
-		"text": "לבדקס"
-	},
+	"sefariaHeadword": "לבדקס",
+	"headwords": [
+		{
+			"text": "לבדקס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

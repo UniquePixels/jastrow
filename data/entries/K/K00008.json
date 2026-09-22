@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00008",
-	"slug": "כאגני",
-	"headword": {
-		"text": "כאגני"
-	},
+	"sefariaHeadword": "כאגני",
+	"headwords": [
+		{
+			"text": "כאגני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

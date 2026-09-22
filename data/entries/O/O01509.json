@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01509",
-	"slug": "סר-3",
-	"headword": {
-		"text": "סָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָר ²",
+	"headwords": [
+		{
+			"text": "סָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "סָר אָפִיס"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1021,
 		"column": "b"

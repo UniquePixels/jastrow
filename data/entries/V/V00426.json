@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00426",
-	"slug": "תיום",
-	"headword": {
-		"text": "תְּיוֹם"
-	},
+	"sefariaHeadword": "תְּיוֹם",
+	"headwords": [
+		{
+			"text": "תְּיוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02941",
-	"slug": "אקרופיטא",
-	"headword": {
-		"text": "אקרופיטא"
-	},
+	"sefariaHeadword": "אקרופיטא",
+	"headwords": [
+		{
+			"text": "אקרופיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

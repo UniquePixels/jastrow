@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01422",
-	"slug": "מכסאני",
-	"headword": {
-		"text": "מכסאני"
-	},
+	"sefariaHeadword": "מכסאני",
+	"headwords": [
+		{
+			"text": "מכסאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

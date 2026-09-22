@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00457",
-	"slug": "גוף-3",
-	"headword": {
-		"text": "גּוּף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גּוּף II",
+	"headwords": [
+		{
+			"text": "גּוּף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 225,
 		"column": "a"
@@ -14,7 +18,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m.(b. h. <cite ref=\"C00458\"><he>גּוּפָה</he></cite>, <cite ref=\"C01195\"><he>גַּף</he></cite>, cmp. <cite ref=\"C00366\"><he>גְּוִיָּה</he></cite>, <he>גֵּוּ</he>)<i>body, person, self</i>. ",
+			"gloss": "m.(b. h. <cite ref=\"C00458\"><he>גּוּפָה</he></cite>, <cite ref=\"C01195\"><he>גַּף</he></cite>, cmp. <cite ref=\"C00366\"><he>גְּוִיָּה</he></cite>, <he>גֵּוּ</he>)<i>body, person, self</i>. ",
 			"units": [
 				"<cite ref=\"Kiddushin 20a:6\">Kidd. 20ᵃ</cite> (expl. <i>b’gappo</i> <cite ref=\"Exodus 21:3\">Ex. XXI, 3</cite>) <he>בגוּפוֹ נכנס וכ׳</he> of himself he entered, of himself he shall go out (free, in the seventh year) but not, like a gentile slave, on losing a limb. ",
 				"<cite ref=\"Sanhedrin 91a:17\">Snh. 91ᵃ</cite> <he>ג׳ ונשמה וכ׳</he> the body and the soul may try to escape judgment (shifting the responsibility one on the other). ",

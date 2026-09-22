@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00108",
-	"slug": "הדורא",
-	"headword": {
-		"text": "הֲדוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲדוּרָא",
+	"headwords": [
+		{
+			"text": "הֲדוּרָא"
+		},
 		{
 			"text": "הַדְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 332,
 		"column": "b"

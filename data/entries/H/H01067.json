@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01067",
-	"slug": "חליש-2",
-	"headword": {
-		"text": "חֲלִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִישׁ",
+	"headwords": [
+		{
+			"text": "חֲלִישׁ"
+		},
 		{
 			"text": "חָלִישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 469,
 		"column": "b"

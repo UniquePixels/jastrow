@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00766",
-	"slug": "פיסקא",
-	"headword": {
-		"text": "פִּיסְקָא"
-	},
+	"sefariaHeadword": "פִּיסְקָא",
+	"headwords": [
+		{
+			"text": "פִּיסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

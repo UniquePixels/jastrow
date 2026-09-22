@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00295",
-	"slug": "מדינה",
-	"headword": {
-		"text": "מְדִינָה"
-	},
+	"sefariaHeadword": "מְדִינָה",
+	"headwords": [
+		{
+			"text": "מְדִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

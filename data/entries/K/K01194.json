@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01194",
-	"slug": "כרכה",
-	"headword": {
-		"text": "כְּרַכָּה"
-	},
+	"sefariaHeadword": "כְּרַכָּה",
+	"headwords": [
+		{
+			"text": "כְּרַכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 669,
 		"column": "a"

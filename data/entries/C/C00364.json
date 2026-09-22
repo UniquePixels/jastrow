@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00364",
-	"slug": "גויל",
-	"headword": {
-		"text": "גְּוִיל"
-	},
+	"sefariaHeadword": "גְּוִיל",
+	"headwords": [
+		{
+			"text": "גְּוִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00850",
-	"slug": "מחט-2",
-	"headword": {
-		"text": "מַחַט"
-	},
+	"sefariaHeadword": "מַחַט",
+	"headwords": [
+		{
+			"text": "מַחַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 759,
 		"column": "a"

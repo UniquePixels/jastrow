@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00354",
-	"slug": "צילא",
-	"headword": {
-		"text": "צִילָא"
-	},
+	"sefariaHeadword": "צִילָא",
+	"headwords": [
+		{
+			"text": "צִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "b"

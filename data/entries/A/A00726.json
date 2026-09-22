@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00726",
-	"slug": "אונדפא",
-	"headword": {
-		"text": "אונדפא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אונדפא",
+	"headwords": [
+		{
+			"text": "אונדפא"
+		},
 		{
 			"text": "אונדפי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 28,
 		"column": "b"

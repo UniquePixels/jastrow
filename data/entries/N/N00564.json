@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00564",
-	"slug": "נטיפה",
-	"headword": {
-		"text": "נטיפה"
-	},
+	"sefariaHeadword": "נטיפה",
+	"headwords": [
+		{
+			"text": "נטיפה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "b"

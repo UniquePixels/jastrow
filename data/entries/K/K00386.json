@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00386",
-	"slug": "כורם",
-	"headword": {
-		"text": "כּוֹרֵם"
-	},
+	"sefariaHeadword": "כּוֹרֵם",
+	"headwords": [
+		{
+			"text": "כּוֹרֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

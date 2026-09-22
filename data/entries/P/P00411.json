@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00411",
-	"slug": "עזיזותא",
-	"headword": {
-		"text": "עֲזִיזוּתָא"
-	},
+	"sefariaHeadword": "עֲזִיזוּתָא",
+	"headwords": [
+		{
+			"text": "עֲזִיזוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1061,
 		"column": "b"

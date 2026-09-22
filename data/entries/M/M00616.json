@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00616",
-	"slug": "מורגוון",
-	"headword": {
-		"text": "מורגוון"
-	},
+	"sefariaHeadword": "מורגוון",
+	"headwords": [
+		{
+			"text": "מורגוון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

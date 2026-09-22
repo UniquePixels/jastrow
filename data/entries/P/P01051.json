@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01051",
-	"slug": "עססית",
-	"headword": {
-		"text": "עֲסָסִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲסָסִית",
+	"headwords": [
+		{
+			"text": "עֲסָסִית"
+		},
 		{
 			"text": "עֲסִיסִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1098,
 		"column": "a"

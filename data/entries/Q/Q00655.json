@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00655",
-	"slug": "פייס-2",
-	"headword": {
-		"text": "פַּיִיס"
-	},
+	"sefariaHeadword": "פַּיִיס",
+	"headwords": [
+		{
+			"text": "פַּיִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "b"

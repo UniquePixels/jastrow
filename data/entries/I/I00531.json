@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00531",
-	"slug": "טמא-4",
-	"headword": {
-		"text": "טָמֵא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָמֵא II",
+	"headwords": [
+		{
+			"text": "טָמֵא",
+			"homograph": 2
+		},
 		{
 			"text": "טְמֵאָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 538,
 		"column": "b"

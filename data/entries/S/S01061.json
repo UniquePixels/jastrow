@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01061",
-	"slug": "קיסוס",
-	"headword": {
-		"text": "קִיסוֹס"
-	},
+	"sefariaHeadword": "קִיסוֹס",
+	"headwords": [
+		{
+			"text": "קִיסוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "b"

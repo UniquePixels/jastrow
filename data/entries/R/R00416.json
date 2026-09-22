@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00416",
-	"slug": "ציפורים",
-	"headword": {
-		"text": "צִיפּוֹרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוֹרִים",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרִים"
+		},
 		{
 			"text": "צִיפּוֹרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1279,
 		"column": "a"

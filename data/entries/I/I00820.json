@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00820",
-	"slug": "טריקלונא",
-	"headword": {
-		"text": "טריקלונא"
-	},
+	"sefariaHeadword": "טריקלונא",
+	"headwords": [
+		{
+			"text": "טריקלונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

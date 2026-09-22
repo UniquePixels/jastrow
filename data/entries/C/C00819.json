@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00819",
-	"slug": "גירה-2",
-	"headword": {
-		"text": "גִּירָה"
-	},
+	"sefariaHeadword": "גִּירָה",
+	"headwords": [
+		{
+			"text": "גִּירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

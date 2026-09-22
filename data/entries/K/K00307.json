@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00307",
-	"slug": "כונן",
-	"headword": {
-		"text": "כּוֹנָן"
-	},
+	"sefariaHeadword": "כּוֹנָן",
+	"headwords": [
+		{
+			"text": "כּוֹנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

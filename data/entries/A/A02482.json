@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02482",
-	"slug": "אספון",
-	"headword": {
-		"text": "אספון"
-	},
+	"sefariaHeadword": "אספון",
+	"headwords": [
+		{
+			"text": "אספון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

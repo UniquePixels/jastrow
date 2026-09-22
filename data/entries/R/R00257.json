@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00257",
-	"slug": "צורן",
-	"headword": {
-		"text": "צוֹרָן"
-	},
+	"sefariaHeadword": "צוֹרָן",
+	"headwords": [
+		{
+			"text": "צוֹרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

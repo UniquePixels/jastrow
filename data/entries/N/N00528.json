@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00528",
-	"slug": "נחשירכן",
-	"headword": {
-		"text": "נַחְשִׁירְכָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַחְשִׁירְכָן",
+	"headwords": [
 		{
-			"text": "נַחְשִׁרְ׳"
+			"text": "נַחְשִׁירְכָן"
+		},
+		{
+			"text": "נַחְשִׁרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 897,
 		"column": "a"

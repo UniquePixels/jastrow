@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01041",
-	"slug": "אחמתא",
-	"headword": {
-		"text": "אַחְמְתָא"
-	},
+	"sefariaHeadword": "אַחְמְתָא",
+	"headwords": [
+		{
+			"text": "אַחְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 40,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

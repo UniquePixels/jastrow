@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00326",
-	"slug": "בוקר",
-	"headword": {
-		"text": "בּוֹקֶר"
-	},
+	"sefariaHeadword": "בֹּוקֶר",
+	"headwords": [
+		{
+			"text": "בּוֹקֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "b"

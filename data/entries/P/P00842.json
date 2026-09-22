@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00842",
-	"slug": "עלץ",
-	"headword": {
-		"text": "עָלַץ"
-	},
+	"sefariaHeadword": "עָלַץ",
+	"headwords": [
+		{
+			"text": "עָלַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

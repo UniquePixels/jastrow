@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00428",
-	"slug": "ינובריס",
-	"headword": {
-		"text": "יָנוּבְרִיס"
-	},
+	"sefariaHeadword": "יָנוּבְרִיס",
+	"headwords": [
+		{
+			"text": "יָנוּבְרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

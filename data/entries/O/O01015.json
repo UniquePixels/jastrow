@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01015",
-	"slug": "סלע",
-	"headword": {
-		"text": "סֶלַע"
-	},
+	"sefariaHeadword": "סֶלַע",
+	"headwords": [
+		{
+			"text": "סֶלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "a"

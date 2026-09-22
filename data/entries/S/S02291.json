@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02291",
-	"slug": "קתכו",
-	"headword": {
-		"text": "קתכו"
-	},
+	"sefariaHeadword": "קתכו",
+	"headwords": [
+		{
+			"text": "קתכו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "b"

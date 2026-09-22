@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00474",
-	"slug": "גור-2",
-	"headword": {
-		"text": "גּוּר"
-	},
+	"sefariaHeadword": "גּוּר",
+	"headwords": [
+		{
+			"text": "גּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "a"

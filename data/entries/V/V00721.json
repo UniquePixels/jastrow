@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00721",
-	"slug": "תנה",
-	"headword": {
-		"text": "תָּנָה"
-	},
+	"sefariaHeadword": "תָּנָה",
+	"headwords": [
+		{
+			"text": "תָּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

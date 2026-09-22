@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02764",
-	"slug": "מרקוליס",
-	"headword": {
-		"text": "מֶרְקוּלִיס"
-	},
+	"sefariaHeadword": "מֶרְקוּלִיס",
+	"headwords": [
+		{
+			"text": "מֶרְקוּלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "a"

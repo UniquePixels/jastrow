@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00321",
-	"slug": "כוסבר-2",
-	"headword": {
-		"text": "כּוּסְבַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּסְבַּר",
+	"headwords": [
+		{
+			"text": "כּוּסְבַּר"
+		},
 		{
 			"text": "כּוּסְבּרָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "כּוּסְבַּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 623,
 		"column": "a"

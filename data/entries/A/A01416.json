@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01416",
-	"slug": "איסטדין",
-	"headword": {
-		"text": "איסטדין"
-	},
+	"sefariaHeadword": "איסטדין",
+	"headwords": [
+		{
+			"text": "איסטדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

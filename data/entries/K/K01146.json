@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01146",
-	"slug": "כרח-2",
-	"headword": {
-		"text": "כְּרַח"
-	},
+	"sefariaHeadword": "כְּרַח",
+	"headwords": [
+		{
+			"text": "כְּרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 666,
 		"column": "a"

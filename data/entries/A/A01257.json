@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01257",
-	"slug": "איכפייה",
-	"headword": {
-		"text": "איכפייה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איכפייה",
+	"headwords": [
+		{
+			"text": "איכפייה"
+		},
 		{
 			"text": "איכפית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "a"

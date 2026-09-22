@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00970",
-	"slug": "פלוטית",
-	"headword": {
-		"text": "פלוטית"
-	},
+	"sefariaHeadword": "פלוטית",
+	"headwords": [
+		{
+			"text": "פלוטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

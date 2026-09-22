@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00641",
-	"slug": "ניזק",
-	"headword": {
-		"text": "נִיזָּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיזָּק",
+	"headwords": [
+		{
+			"text": "נִיזָּק"
+		},
 		{
 			"text": "נִזָּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "b"

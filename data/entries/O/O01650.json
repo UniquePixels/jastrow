@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01650",
-	"slug": "סרסור-1",
-	"headword": {
-		"text": "סִרְסוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִרְסוּר",
+	"headwords": [
 		{
-			"text": "סִירְ׳"
+			"text": "סִרְסוּר"
+		},
+		{
+			"text": "סִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1029,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01227",
-	"slug": "מיניקת",
-	"headword": {
-		"text": "מֵינֶיקֶת"
-	},
+	"sefariaHeadword": "מֵינֶיקֶת",
+	"headwords": [
+		{
+			"text": "מֵינֶיקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "a"

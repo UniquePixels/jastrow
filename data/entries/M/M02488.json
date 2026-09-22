@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02488",
-	"slug": "מראית",
-	"headword": {
-		"text": "מַרְאִית"
-	},
+	"sefariaHeadword": "מַרְאִית",
+	"headwords": [
+		{
+			"text": "מַרְאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

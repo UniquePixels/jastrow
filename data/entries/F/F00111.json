@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00111",
-	"slug": "ותמר",
-	"headword": {
-		"text": "וַתְּמַר"
-	},
+	"sefariaHeadword": "וַתְּמַר",
+	"headwords": [
+		{
+			"text": "וַתְּמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "b"

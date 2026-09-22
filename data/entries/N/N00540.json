@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00540",
-	"slug": "נטא",
-	"headword": {
-		"text": "נְטָא"
-	},
+	"sefariaHeadword": "נְטָא",
+	"headwords": [
+		{
+			"text": "נְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

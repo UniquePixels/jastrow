@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00219",
-	"slug": "קוב",
-	"headword": {
-		"text": "קוֹב"
-	},
+	"sefariaHeadword": "קוֹב",
+	"headwords": [
+		{
+			"text": "קוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "a"

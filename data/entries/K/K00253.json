@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00253",
-	"slug": "כוכבתא",
-	"headword": {
-		"text": "כּוֹכַבְתָּא"
-	},
+	"sefariaHeadword": "כּוֹכַבְתָּא",
+	"headwords": [
+		{
+			"text": "כּוֹכַבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00313",
-	"slug": "תורפא-1",
-	"headword": {
-		"text": "תּוֹרְפָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תּוֹרְפָא I",
+	"headwords": [
+		{
+			"text": "תּוֹרְפָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1658,
 		"column": "b"

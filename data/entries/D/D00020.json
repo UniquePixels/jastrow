@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00020",
-	"slug": "דאיסקרתא",
-	"headword": {
-		"text": "דְּאִיסְקַרְתָּא"
-	},
+	"sefariaHeadword": "דְּאִיסְקַרְתָּא",
+	"headwords": [
+		{
+			"text": "דְּאִיסְקַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

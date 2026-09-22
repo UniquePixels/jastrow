@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01066",
-	"slug": "כפתה",
-	"headword": {
-		"text": "כְּפָתָה"
-	},
+	"sefariaHeadword": "כְּפָתָה",
+	"headwords": [
+		{
+			"text": "כְּפָתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "a"

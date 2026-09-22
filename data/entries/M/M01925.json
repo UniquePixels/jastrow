@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01925",
-	"slug": "מסיע",
-	"headword": {
-		"text": "מסיע"
-	},
+	"sefariaHeadword": "מסיע",
+	"headwords": [
+		{
+			"text": "מסיע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

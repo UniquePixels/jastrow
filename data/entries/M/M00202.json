@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00202",
-	"slug": "מגעורי",
-	"headword": {
-		"text": "מַגְעוּרִי"
-	},
+	"sefariaHeadword": "מַגְעוּרִי",
+	"headwords": [
+		{
+			"text": "מַגְעוּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00361",
-	"slug": "תחייה",
-	"headword": {
-		"text": "תְּחִיָּיה"
-	},
+	"sefariaHeadword": "תְּחִיָּיה",
+	"headwords": [
+		{
+			"text": "תְּחִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

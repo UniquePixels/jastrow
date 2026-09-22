@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00818",
-	"slug": "חינוגא",
-	"headword": {
-		"text": "חִינּוּגָא"
-	},
+	"sefariaHeadword": "חִינּוּגָא",
+	"headwords": [
+		{
+			"text": "חִינּוּגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "a"

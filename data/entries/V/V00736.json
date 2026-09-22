@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00736",
-	"slug": "תנחום",
-	"headword": {
-		"text": "תַּנְחוּם"
-	},
+	"sefariaHeadword": "תַּנְחוּם",
+	"headwords": [
+		{
+			"text": "תַּנְחוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1681,
 		"column": "a"

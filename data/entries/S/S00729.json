@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00729",
-	"slug": "קטורנים",
-	"headword": {
-		"text": "קטורנים"
-	},
+	"sefariaHeadword": "קטורנים",
+	"headwords": [
+		{
+			"text": "קטורנים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1347,
 		"column": "a"

@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "T00349",
-	"slug": "רוחצן",
-	"headword": {
-		"text": "רוּחְצָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּחְצָן",
+	"headwords": [
+		{
+			"text": "רוּחְצָן"
+		},
 		{
 			"text": "רוּחְצָנָא"
 		},
 		{
-			"text": "רוֹ׳"
+			"text": "רוֹ׳",
+			"partial": true
 		},
 		{
-			"text": "רָחֲצָ׳"
+			"text": "רָחֲצָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1458,
 		"column": "b"

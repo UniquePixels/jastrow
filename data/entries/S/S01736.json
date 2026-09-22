@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01736",
-	"slug": "קפיחה",
-	"headword": {
-		"text": "קְפִיחָה"
-	},
+	"sefariaHeadword": "קְפִיחָה",
+	"headwords": [
+		{
+			"text": "קְפִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

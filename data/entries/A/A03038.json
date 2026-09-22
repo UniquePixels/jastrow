@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03038",
-	"slug": "ארונים",
-	"headword": {
-		"text": "אֲרוֹנִים"
-	},
+	"sefariaHeadword": "אֲרוֹנִים",
+	"headwords": [
+		{
+			"text": "אֲרוֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

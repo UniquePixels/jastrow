@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00729",
-	"slug": "תנויין",
-	"headword": {
-		"text": "תְּנוּיִין"
-	},
+	"sefariaHeadword": "תְּנוּיִין",
+	"headwords": [
+		{
+			"text": "תְּנוּיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

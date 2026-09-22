@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01044",
-	"slug": "שיקוץ-1",
-	"headword": {
-		"text": "שִׁיקּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיקּוּץ",
+	"headwords": [
 		{
-			"text": "שִׁקּ׳"
+			"text": "שִׁיקּוּץ"
+		},
+		{
+			"text": "שִׁקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1567,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01025",
-	"slug": "שיפלות",
-	"headword": {
-		"text": "שִׁיפְלוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיפְלוּת",
+	"headwords": [
+		{
+			"text": "שִׁיפְלוּת"
+		},
 		{
 			"text": "שִׁיפְלוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1567,
 		"column": "a"

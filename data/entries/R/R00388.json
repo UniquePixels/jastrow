@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00388",
-	"slug": "צינבראה",
-	"headword": {
-		"text": "צִינַּבְרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִינַּבְרָאָה",
+	"headwords": [
+		{
+			"text": "צִינַּבְרָאָה"
+		},
 		{
 			"text": "צִינַּבְרַיי"
 		},
 		{
-			"text": "צִנַּ׳"
+			"text": "צִנַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1278,
 		"column": "a"

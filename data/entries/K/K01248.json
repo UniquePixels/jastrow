@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01248",
-	"slug": "כרסום",
-	"headword": {
-		"text": "כרסום"
-	},
+	"sefariaHeadword": "כרסום",
+	"headwords": [
+		{
+			"text": "כרסום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

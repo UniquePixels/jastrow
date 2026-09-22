@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00234",
-	"slug": "סובך",
-	"headword": {
-		"text": "סוֹבֶךְ"
-	},
+	"sefariaHeadword": "סוֹבֶךְ",
+	"headwords": [
+		{
+			"text": "סוֹבֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

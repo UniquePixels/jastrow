@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00623",
-	"slug": "אוטם-2",
-	"headword": {
-		"text": "אוטם"
-	},
+	"sefariaHeadword": "אוטם",
+	"headwords": [
+		{
+			"text": "אוטם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

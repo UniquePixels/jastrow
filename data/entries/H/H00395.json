@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00395",
-	"slug": "חומרא-4",
-	"headword": {
-		"text": "חוֹמְרָא"
-	},
+	"sefariaHeadword": "חוֹמְרָא",
+	"headwords": [
+		{
+			"text": "חוֹמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01445",
-	"slug": "סקבא-1",
-	"headword": {
-		"text": "סַקְבָּא"
-	},
+	"sefariaHeadword": "סַקְבָּא",
+	"headwords": [
+		{
+			"text": "סַקְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

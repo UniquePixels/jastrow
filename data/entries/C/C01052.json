@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01052",
-	"slug": "גמלת",
-	"headword": {
-		"text": "גַּמֶּלֶת"
-	},
+	"sefariaHeadword": "גַּמֶּלֶת",
+	"headwords": [
+		{
+			"text": "גַּמֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

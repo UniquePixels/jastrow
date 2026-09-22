@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01037",
-	"slug": "בעי-2",
-	"headword": {
-		"text": "בְּעֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּעֵי I",
+	"headwords": [
+		{
+			"text": "בְּעֵי",
+			"homograph": 1
+		},
 		{
 			"text": "בְּעָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 181,
 		"column": "a"

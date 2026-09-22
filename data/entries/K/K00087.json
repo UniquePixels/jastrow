@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00087",
-	"slug": "כבשא",
-	"headword": {
-		"text": "כַּבְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּבְשָׁא",
+	"headwords": [
+		{
+			"text": "כַּבְשָׁא"
+		},
 		{
 			"text": "כַּבְשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 611,
 		"column": "b"

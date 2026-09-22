@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00618",
-	"slug": "לעיסה-2",
-	"headword": {
-		"text": "לְעִיסָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "לְעִיסָה ²",
+	"headwords": [
+		{
+			"text": "לְעִיסָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 714,
 		"column": "b"

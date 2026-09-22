@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00820",
-	"slug": "תפיני",
-	"headword": {
-		"text": "תֻּפִינֵי"
-	},
+	"sefariaHeadword": "תֻּפִינֵי",
+	"headwords": [
+		{
+			"text": "תֻּפִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "a"

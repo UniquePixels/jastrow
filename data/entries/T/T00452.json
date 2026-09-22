@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00452",
-	"slug": "רושמתא",
-	"headword": {
-		"text": "רוּשְׁמְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּשְׁמְתָא",
+	"headwords": [
+		{
+			"text": "רוּשְׁמְתָא"
+		},
 		{
 			"text": "רוּשְׁמָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1464,
 		"column": "a"

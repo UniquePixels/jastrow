@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00917",
-	"slug": "פכי-2",
-	"headword": {
-		"text": "פכי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פכי ²",
+	"headwords": [
+		{
+			"text": "פכי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1174,
 		"column": "a"

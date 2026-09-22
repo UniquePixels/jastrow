@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00124",
-	"slug": "שביס",
-	"headword": {
-		"text": "שָׁבִיס"
-	},
+	"sefariaHeadword": "שָׁבִיס",
+	"headwords": [
+		{
+			"text": "שָׁבִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

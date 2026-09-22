@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "T00600",
-	"slug": "ריגוש-2",
-	"headword": {
-		"text": "רִיגּוּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיגּוּשׁ ²",
+	"headwords": [
+		{
+			"text": "רִיגּוּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "רִיגּוּשָׁא"
 		},
 		{
-			"text": "רִגּ׳"
+			"text": "רִגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1473,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02003",
-	"slug": "אמורא",
-	"headword": {
-		"text": "אֲמוֹרָא"
-	},
+	"sefariaHeadword": "אֲמוֹרָא",
+	"headwords": [
+		{
+			"text": "אֲמוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

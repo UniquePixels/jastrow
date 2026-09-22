@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00974",
-	"slug": "חלביצין",
-	"headword": {
-		"text": "חֶלְבֵּיצִין"
-	},
+	"sefariaHeadword": "חֶלְבֵּיצִין",
+	"headwords": [
+		{
+			"text": "חֶלְבֵּיצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

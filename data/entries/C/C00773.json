@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00773",
-	"slug": "גיס-2",
-	"headword": {
-		"text": "גִּיס",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיס II",
+	"headwords": [
+		{
+			"text": "גִּיס",
+			"homograph": 2
+		},
 		{
 			"text": "גָּיֵיס"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 240,
 		"column": "a"

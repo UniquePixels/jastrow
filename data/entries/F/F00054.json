@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00054",
-	"slug": "וויתניא",
-	"headword": {
-		"text": "וַויְתָנַיָּא"
-	},
+	"sefariaHeadword": "וַויְתָנַיָּא",
+	"headwords": [
+		{
+			"text": "וַויְתָנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

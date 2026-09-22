@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00640",
-	"slug": "זקירה",
-	"headword": {
-		"text": "זְקִירָה"
-	},
+	"sefariaHeadword": "זְקִירָה",
+	"headwords": [
+		{
+			"text": "זְקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "a"

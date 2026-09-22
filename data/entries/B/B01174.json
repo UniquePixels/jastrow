@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01174",
-	"slug": "ברגזא",
-	"headword": {
-		"text": "בַּרְגְּזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְגְּזָא",
+	"headwords": [
+		{
+			"text": "בַּרְגְּזָא"
+		},
 		{
 			"text": "בַּרְגַּזָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 190,
 		"column": "a"

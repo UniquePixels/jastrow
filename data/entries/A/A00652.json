@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00652",
-	"slug": "אוכמתא",
-	"headword": {
-		"text": "אוּכַּמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּכַּמְתָּא",
+	"headwords": [
+		{
+			"text": "אוּכַּמְתָּא"
+		},
 		{
 			"text": "אוּכְמְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 25,
 		"column": "b"

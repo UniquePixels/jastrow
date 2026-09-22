@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00350",
-	"slug": "טייעות",
-	"headword": {
-		"text": "טַיָּיעוּת"
-	},
+	"sefariaHeadword": "טַיָּיעוּת",
+	"headwords": [
+		{
+			"text": "טַיָּיעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "b"

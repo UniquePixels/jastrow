@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00103",
-	"slug": "קברן",
-	"headword": {
-		"text": "קַבְּרָן"
-	},
+	"sefariaHeadword": "קַבְּרָן",
+	"headwords": [
+		{
+			"text": "קַבְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1313,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00543",
-	"slug": "צלצל-1",
-	"headword": {
-		"text": "צִלְצֵל"
-	},
+	"sefariaHeadword": "צִלְצֵל",
+	"headwords": [
+		{
+			"text": "צִלְצֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "a"

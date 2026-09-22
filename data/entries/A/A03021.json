@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03021",
-	"slug": "ארווד",
-	"headword": {
-		"text": "אַרְוָוד"
-	},
+	"sefariaHeadword": "אַרְוָוד",
+	"headwords": [
+		{
+			"text": "אַרְוָוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

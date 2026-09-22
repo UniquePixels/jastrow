@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01452",
-	"slug": "פקדונא",
-	"headword": {
-		"text": "פִּקְדּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקְדּוֹנָא",
+	"headwords": [
 		{
-			"text": "פִּיקְ׳"
+			"text": "פִּקְדּוֹנָא"
+		},
+		{
+			"text": "פִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1207,
 		"column": "b"

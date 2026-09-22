@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00255",
-	"slug": "בולאות",
-	"headword": {
-		"text": "בּוּלָאוֹת"
-	},
+	"sefariaHeadword": "בּוּלָאוֹת",
+	"headwords": [
+		{
+			"text": "בּוּלָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "a"

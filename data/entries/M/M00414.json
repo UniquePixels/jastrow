@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00414",
-	"slug": "מודלה",
-	"headword": {
-		"text": "מוּדְלֶה"
-	},
+	"sefariaHeadword": "מוּדְלֶה",
+	"headwords": [
+		{
+			"text": "מוּדְלֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00069",
-	"slug": "מאשי",
-	"headword": {
-		"text": "מָאשֵׁי"
-	},
+	"sefariaHeadword": "מָאשֵׁי",
+	"headwords": [
+		{
+			"text": "מָאשֵׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

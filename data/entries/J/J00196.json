@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00196",
-	"slug": "יומחרא",
-	"headword": {
-		"text": "יוֹמָחְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹמָחְרָא",
+	"headwords": [
+		{
+			"text": "יוֹמָחְרָא"
+		},
 		{
 			"text": "יוֹמָחֲרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 569,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00904",
-	"slug": "אורלוגין",
-	"headword": {
-		"text": "אוֹרְלוֹגִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרְלוֹגִין",
+	"headwords": [
+		{
+			"text": "אוֹרְלוֹגִין"
+		},
 		{
 			"text": "אוֹרוֹלוֹגִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 35,
 		"column": "a"

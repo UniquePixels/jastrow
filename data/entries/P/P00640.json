@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00640",
-	"slug": "עיפוי",
-	"headword": {
-		"text": "עִיפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיפּוּי",
+	"headwords": [
 		{
-			"text": "עִפּ׳"
+			"text": "עִיפּוּי"
+		},
+		{
+			"text": "עִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1073,
 		"column": "b"

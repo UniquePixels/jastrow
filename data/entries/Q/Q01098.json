@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01098",
-	"slug": "פלנתא",
-	"headword": {
-		"text": "פְּלַנְתָּא"
-	},
+	"sefariaHeadword": "פְּלַנְתָּא",
+	"headwords": [
+		{
+			"text": "פְּלַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00642",
-	"slug": "בינה",
-	"headword": {
-		"text": "בִּינָה"
-	},
+	"sefariaHeadword": "בִּינָה",
+	"headwords": [
+		{
+			"text": "בִּינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "a"

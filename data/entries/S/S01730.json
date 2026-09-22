@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01730",
-	"slug": "קפי-1",
-	"headword": {
-		"text": "קפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קפי",
+	"headwords": [
+		{
+			"text": "קפי"
+		},
 		{
 			"text": "קָפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קָפָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1400,
 		"column": "a"

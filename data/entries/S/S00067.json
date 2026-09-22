@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "S00067",
-	"slug": "קבלא-3",
-	"headword": {
-		"text": "קִבְלָא",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִבְלָא ³",
+	"headwords": [
+		{
+			"text": "קִבְלָא",
+			"disambiguator": 3
+		},
 		{
 			"text": "קִי׳",
-			"homograph": 4
+			"homograph": 4,
+			"partial": true
 		}
 	],
+	"display": "{0} ³, {1} IV",
 	"page": {
 		"number": 1310,
 		"column": "a"

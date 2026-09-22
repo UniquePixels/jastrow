@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00531",
-	"slug": "נחשת",
-	"headword": {
-		"text": "נְחשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחשֶׁת",
+	"headwords": [
+		{
+			"text": "נְחשֶׁת"
+		},
 		{
 			"text": "נְחֻשְׁתָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 897,
 		"column": "a"

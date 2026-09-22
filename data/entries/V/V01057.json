@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01057",
-	"slug": "תרקבא",
-	"headword": {
-		"text": "תַּרְקַבָּא"
-	},
+	"sefariaHeadword": "תַּרְקַבָּא",
+	"headwords": [
+		{
+			"text": "תַּרְקַבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01018",
-	"slug": "סלעם-2",
-	"headword": {
-		"text": "סָלְעָם"
-	},
+	"sefariaHeadword": "סָלְעָם",
+	"headwords": [
+		{
+			"text": "סָלְעָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02868",
-	"slug": "אצטלות",
-	"headword": {
-		"text": "אִצְטַלּוּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִצְטַלּוּת",
+	"headwords": [
+		{
+			"text": "אִצְטַלּוּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

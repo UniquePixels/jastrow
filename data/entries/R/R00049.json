@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00049",
-	"slug": "צבירה",
-	"headword": {
-		"text": "צְבִירָה"
-	},
+	"sefariaHeadword": "צְבִירָה",
+	"headwords": [
+		{
+			"text": "צְבִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U01631",
-	"slug": "שעבוד-2",
-	"headword": {
-		"text": "שִׁעְבּוּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁעְבּוּד ²",
+	"headwords": [
+		{
+			"text": "שִׁעְבּוּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁעְבּוּדָא"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1609,
 		"column": "b"

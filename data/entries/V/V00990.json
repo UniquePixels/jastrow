@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00990",
-	"slug": "תריך",
-	"headword": {
-		"text": "תָּרֵיךְ"
-	},
+	"sefariaHeadword": "תָּרֵיךְ",
+	"headwords": [
+		{
+			"text": "תָּרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

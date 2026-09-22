@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00675",
-	"slug": "חיואי",
-	"headword": {
-		"text": "חִיוַאי"
-	},
+	"sefariaHeadword": "חִיוַאי",
+	"headwords": [
+		{
+			"text": "חִיוַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "a"

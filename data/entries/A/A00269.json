@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00269",
-	"slug": "אגוסטאן",
-	"headword": {
-		"text": "אָגוּסְטָאן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָגוּסְטָאן",
+	"headwords": [
+		{
+			"text": "אָגוּסְטָאן",
+			"reconstructed": true
+		},
 		{
 			"text": "אָגוּסְטְיָין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 11,
 		"column": "b"

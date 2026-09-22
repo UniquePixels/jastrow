@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01661",
-	"slug": "קסיטרון",
-	"headword": {
-		"text": "קַסִּיטְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַסִּיטְרוֹן",
+	"headwords": [
 		{
-			"text": "קַסִּטְ׳"
+			"text": "קַסִּיטְרוֹן"
+		},
+		{
+			"text": "קַסִּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1396,
 		"column": "a"

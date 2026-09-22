@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01221",
-	"slug": "עקרבא-2",
-	"headword": {
-		"text": "עַקְרַבָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַקְרַבָּא ²",
+	"headwords": [
+		{
+			"text": "עַקְרַבָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "עַקְרַבָּה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1109,
 		"column": "a"

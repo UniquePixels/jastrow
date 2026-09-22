@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00855",
-	"slug": "סירכא",
-	"headword": {
-		"text": "סִירְכָא"
-	},
+	"sefariaHeadword": "סִירְכָא",
+	"headwords": [
+		{
+			"text": "סִירְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

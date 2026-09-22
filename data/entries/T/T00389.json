@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00389",
-	"slug": "רומי-2",
-	"headword": {
-		"text": "רוֹמִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רוֹמִי II",
+	"headwords": [
+		{
+			"text": "רוֹמִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1461,
 		"column": "b"

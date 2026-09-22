@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00182",
-	"slug": "קדרונין",
-	"headword": {
-		"text": "קִדְרוֹנִין"
-	},
+	"sefariaHeadword": "קִדְרוֹנִין",
+	"headwords": [
+		{
+			"text": "קִדְרוֹנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1318,
 		"column": "b"

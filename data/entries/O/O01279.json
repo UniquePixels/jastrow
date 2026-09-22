@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01279",
-	"slug": "סעדא",
-	"headword": {
-		"text": "סַעֲדָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַעֲדָא II",
+	"headwords": [
+		{
+			"text": "סַעֲדָא",
+			"homograph": 2
+		},
 		{
 			"text": "סָעֲדָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1009,
 		"column": "b"

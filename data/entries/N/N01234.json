@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01234",
-	"slug": "נקף-2",
-	"headword": {
-		"text": "נְקַף"
-	},
+	"sefariaHeadword": "נְקַף",
+	"headwords": [
+		{
+			"text": "נְקַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 934,
 		"column": "a"

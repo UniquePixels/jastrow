@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00505",
-	"slug": "נחמה",
-	"headword": {
-		"text": "נֶחָמָה"
-	},
+	"sefariaHeadword": "נֶחָמָה",
+	"headwords": [
+		{
+			"text": "נֶחָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 895,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02619",
-	"slug": "מרזובות",
-	"headword": {
-		"text": "מַרְזוֹבוֹת"
-	},
+	"sefariaHeadword": "מַרְזוֹבוֹת",
+	"headwords": [
+		{
+			"text": "מַרְזוֹבוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00861",
-	"slug": "קיבלי",
-	"headword": {
-		"text": "קִיבְלַי"
-	},
+	"sefariaHeadword": "קִיבְלַי",
+	"headwords": [
+		{
+			"text": "קִיבְלַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

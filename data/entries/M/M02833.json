@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02833",
-	"slug": "משומדות",
-	"headword": {
-		"text": "מְשׁוּמָּדוּת"
-	},
+	"sefariaHeadword": "מְשׁוּמָּדוּת",
+	"headwords": [
+		{
+			"text": "מְשׁוּמָּדוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

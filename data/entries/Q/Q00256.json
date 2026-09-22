@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00256",
-	"slug": "פון",
-	"headword": {
-		"text": "פּוֹן"
-	},
+	"sefariaHeadword": "פּוֹן",
+	"headwords": [
+		{
+			"text": "פּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "a"

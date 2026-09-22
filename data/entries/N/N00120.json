@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00120",
-	"slug": "נגדא-1",
-	"headword": {
-		"text": "נָגְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָגְדָּא",
+	"headwords": [
 		{
-			"text": "נַגְ׳"
+			"text": "נָגְדָּא"
 		},
 		{
-			"text": "נוּגְ׳"
+			"text": "נַגְ׳",
+			"partial": true
+		},
+		{
+			"text": "נוּגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 872,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01885",
-	"slug": "אליתא-3",
-	"headword": {
-		"text": "אַלְיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְיְתָא",
+	"headwords": [
+		{
+			"text": "אַלְיְתָא"
+		},
 		{
 			"text": "אַלִּיתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 70,
 		"column": "a"

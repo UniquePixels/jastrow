@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02151",
-	"slug": "אנזיקא",
-	"headword": {
-		"text": "אַנְזִיקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַנְזִיקָא",
+	"headwords": [
+		{
+			"text": "אַנְזִיקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01859",
-	"slug": "שקיטא",
-	"headword": {
-		"text": "שְׁקֵיטָא"
-	},
+	"sefariaHeadword": "שְׁקֵיטָא",
+	"headwords": [
+		{
+			"text": "שְׁקֵיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "b"

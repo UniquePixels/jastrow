@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00480",
-	"slug": "בחל-2",
-	"headword": {
-		"text": "בָּחַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בָּחַל II",
+	"headwords": [
+		{
+			"text": "בָּחַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 155,
 		"column": "a"

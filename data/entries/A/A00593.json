@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00593",
-	"slug": "אוותיאוס",
-	"headword": {
-		"text": "אֶוְותִּיאוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶוְותִּיאוֹס",
+	"headwords": [
+		{
+			"text": "אֶוְותִּיאוֹס"
+		},
 		{
 			"text": "אֶוְתִּיוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אותיום"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 23,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K00711",
-	"slug": "כלופסין",
-	"headword": {
-		"text": "כְּלוּפְסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּלוּפְסִין",
+	"headwords": [
 		{
-			"text": "גְּלוּפְ׳"
+			"text": "כְּלוּפְסִין"
 		},
 		{
-			"text": "קְלוּפְ׳"
+			"text": "גְּלוּפְ׳",
+			"partial": true
+		},
+		{
+			"text": "קְלוּפְ׳",
+			"partial": true
 		},
 		{
 			"text": "לִבְסִים"
@@ -18,6 +21,7 @@
 			"text": "לִבְסִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 640,
 		"column": "b"

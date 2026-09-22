@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01620",
-	"slug": "שסע-1",
-	"headword": {
-		"text": "שָׁסַע"
-	},
+	"sefariaHeadword": "שָׁסַע",
+	"headwords": [
+		{
+			"text": "שָׁסַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "a"

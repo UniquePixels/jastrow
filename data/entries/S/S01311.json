@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01311",
-	"slug": "קלטא-3",
-	"headword": {
-		"text": "קִלְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְטָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִלְטָא"
 		},
 		{
-			"text": "קוּ׳"
+			"text": "קִי׳",
+			"partial": true
+		},
+		{
+			"text": "קוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1375,
 		"column": "a"

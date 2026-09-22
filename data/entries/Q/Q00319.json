@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00319",
-	"slug": "פוקטו",
-	"headword": {
-		"text": "פוקטו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פוקטו",
+	"headwords": [
+		{
+			"text": "פוקטו"
+		},
 		{
 			"text": "פוקטי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1145,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01852",
-	"slug": "פרכוטס",
-	"headword": {
-		"text": "פָּרָכוּטֵס"
-	},
+	"sefariaHeadword": "פָּרָכוּטֵס",
+	"headwords": [
+		{
+			"text": "פָּרָכוּטֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

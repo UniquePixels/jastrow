@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00753",
-	"slug": "טרטט",
-	"headword": {
-		"text": "טִרְטֵט"
-	},
+	"sefariaHeadword": "טִרְטֵט",
+	"headwords": [
+		{
+			"text": "טִרְטֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 552,
 		"column": "a"

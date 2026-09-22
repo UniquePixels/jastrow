@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00479",
-	"slug": "לימוד",
-	"headword": {
-		"text": "לִימּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִימּוּד",
+	"headwords": [
+		{
+			"text": "לִימּוּד"
+		},
 		{
 			"text": "לִמּוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 708,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02990",
-	"slug": "משתויין",
-	"headword": {
-		"text": "מִשְׁתּוּיִין"
-	},
+	"sefariaHeadword": "מִשְׁתּוּיִין",
+	"headwords": [
+		{
+			"text": "מִשְׁתּוּיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "a"

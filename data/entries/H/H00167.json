@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00167",
-	"slug": "חגתא",
-	"headword": {
-		"text": "חַגְּתָא"
-	},
+	"sefariaHeadword": "חַגְּתָא",
+	"headwords": [
+		{
+			"text": "חַגְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "a"

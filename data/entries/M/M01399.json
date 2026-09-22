@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01399",
-	"slug": "מכלתא",
-	"headword": {
-		"text": "מְכִלְתָּא"
-	},
+	"sefariaHeadword": "מְכִלְתָּא",
+	"headwords": [
+		{
+			"text": "מְכִלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "a"

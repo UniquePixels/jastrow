@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00157",
-	"slug": "מגיזתא-2",
-	"headword": {
-		"text": "מְגִיזְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְגִיזְתָּא II",
+	"headwords": [
+		{
+			"text": "מְגִיזְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 727,
 		"column": "b"

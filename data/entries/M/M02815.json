@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02815",
-	"slug": "משהיג",
-	"headword": {
-		"text": "משהיג"
-	},
+	"sefariaHeadword": "משהיג",
+	"headwords": [
+		{
+			"text": "משהיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "b"

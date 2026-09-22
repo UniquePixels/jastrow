@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00257",
-	"slug": "לויטס",
-	"headword": {
-		"text": "לְוִיטָס"
-	},
+	"sefariaHeadword": "לְוִיטָס",
+	"headwords": [
+		{
+			"text": "לְוִיטָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

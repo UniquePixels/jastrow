@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U00761",
-	"slug": "שטן-4",
-	"headword": {
-		"text": "שָׂטָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׂטָן ²",
+	"headwords": [
+		{
+			"text": "שָׂטָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׂטַן"
 		},
@@ -13,9 +14,11 @@
 			"text": "שִׂטְנָא"
 		},
 		{
-			"text": "שִׂי׳"
+			"text": "שִׂי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1554,
 		"column": "b"

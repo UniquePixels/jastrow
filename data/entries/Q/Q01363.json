@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01363",
-	"slug": "פסקן",
-	"headword": {
-		"text": "פסקן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פסקן",
+	"headwords": [
+		{
+			"text": "פסקן"
+		},
 		{
 			"text": "פסקנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1201,
 		"column": "b"

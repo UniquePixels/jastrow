@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01063",
-	"slug": "שירו",
-	"headword": {
-		"text": "שֵׁירוּ"
-	},
+	"sefariaHeadword": "שֵׁירוּ",
+	"headwords": [
+		{
+			"text": "שֵׁירוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "a"

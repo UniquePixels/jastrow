@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01644",
-	"slug": "איתודאה",
-	"headword": {
-		"text": "אִיתּוֹדָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתֹּודָאָה",
+	"headwords": [
 		{
-			"text": "אִתּוֹ׳"
+			"text": "אִיתּוֹדָאָה"
+		},
+		{
+			"text": "אִתּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 61,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00503",
-	"slug": "צלחית",
-	"headword": {
-		"text": "צְלֹחִית"
-	},
+	"sefariaHeadword": "צְלֹחִית",
+	"headwords": [
+		{
+			"text": "צְלֹחִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

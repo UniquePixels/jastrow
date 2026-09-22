@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01803",
-	"slug": "חשאי-1",
-	"headword": {
-		"text": "חֲשָׁאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשָׁאֵי",
+	"headwords": [
+		{
+			"text": "חֲשָׁאֵי"
+		},
 		{
 			"text": "חָשֵׁי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 508,
 		"column": "a"

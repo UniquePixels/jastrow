@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01594",
-	"slug": "פרדשכא",
-	"headword": {
-		"text": "פַּרְדַּשְׁכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְדַּשְׁכָּא",
+	"headwords": [
+		{
+			"text": "פַּרְדַּשְׁכָּא"
+		},
 		{
 			"text": "פַּרְדַּכְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1216,
 		"column": "b"

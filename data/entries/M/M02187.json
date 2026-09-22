@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02187",
-	"slug": "מעשנא",
-	"headword": {
-		"text": "מַעְשְׁנָא"
-	},
+	"sefariaHeadword": "מַעְשְׁנָא",
+	"headwords": [
+		{
+			"text": "מַעְשְׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "a"

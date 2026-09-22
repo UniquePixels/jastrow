@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00012",
-	"slug": "אב-1",
-	"headword": {
-		"text": "אַב־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַב־",
+	"headwords": [
+		{
+			"text": "אַב־"
+		},
 		{
 			"text": "אֶבְ־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1,
 		"column": "a"

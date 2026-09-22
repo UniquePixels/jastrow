@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00561",
-	"slug": "נטילה-2",
-	"headword": {
-		"text": "נטילה"
-	},
+	"sefariaHeadword": "נטילה",
+	"headwords": [
+		{
+			"text": "נטילה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "a"

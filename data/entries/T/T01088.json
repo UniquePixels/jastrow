@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01088",
-	"slug": "רשישים",
-	"headword": {
-		"text": "רְשִׁישִׁים"
-	},
+	"sefariaHeadword": "רְשִׁישִׁים",
+	"headwords": [
+		{
+			"text": "רְשִׁישִׁים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1500,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00029",
-	"slug": "צבותא",
-	"headword": {
-		"text": "צְבוּתָא"
-	},
+	"sefariaHeadword": "צְבוּתָא",
+	"headwords": [
+		{
+			"text": "צְבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "b"

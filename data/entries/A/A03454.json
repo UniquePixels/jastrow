@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03454",
-	"slug": "אתרן",
-	"headword": {
-		"text": "אִתְּרַן"
-	},
+	"sefariaHeadword": "אִתְּרַן",
+	"headwords": [
+		{
+			"text": "אִתְּרַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02483",
-	"slug": "מרא-3",
-	"headword": {
-		"text": "מֻרָּא"
-	},
+	"sefariaHeadword": "מֻרָּא",
+	"headwords": [
+		{
+			"text": "מֻרָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 834,
 		"column": "b"

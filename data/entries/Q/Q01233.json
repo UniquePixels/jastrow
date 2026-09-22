@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01233",
-	"slug": "פסדא",
-	"headword": {
-		"text": "פְּסֵדָא"
-	},
+	"sefariaHeadword": "פְּסֵדָא",
+	"headwords": [
+		{
+			"text": "פְּסֵדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1192,
 		"column": "b"

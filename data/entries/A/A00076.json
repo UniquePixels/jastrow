@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00076",
-	"slug": "אבונגרי",
-	"headword": {
-		"text": "אבונגרי"
-	},
+	"sefariaHeadword": "אבונגרי",
+	"headwords": [
+		{
+			"text": "אבונגרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

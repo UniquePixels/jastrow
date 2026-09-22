@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00845",
-	"slug": "פירור",
-	"headword": {
-		"text": "פֵּירוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּר",
+	"headwords": [
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּירוּר"
+		},
+		{
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1171,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00143",
-	"slug": "טוחן",
-	"headword": {
-		"text": "טוֹחֵן"
-	},
+	"sefariaHeadword": "טוֹחֵן",
+	"headwords": [
+		{
+			"text": "טוֹחֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

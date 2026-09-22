@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01423",
-	"slug": "מכסה",
-	"headword": {
-		"text": "מִכְסֶה"
-	},
+	"sefariaHeadword": "מִכְסֶה",
+	"headwords": [
+		{
+			"text": "מִכְסֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

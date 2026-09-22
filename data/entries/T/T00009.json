@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00009",
-	"slug": "ראה-2",
-	"headword": {
-		"text": "רָאָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רָאָה II",
+	"headwords": [
+		{
+			"text": "רָאָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1435,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00961",
-	"slug": "דפי",
-	"headword": {
-		"text": "דֹּפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דֹּפִי",
+	"headwords": [
+		{
+			"text": "דֹּפִי"
+		},
 		{
 			"text": "דָּפְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּפְיוּ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 317,
 		"column": "a"

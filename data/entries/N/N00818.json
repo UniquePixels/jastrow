@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00818",
-	"slug": "נכי-1",
-	"headword": {
-		"text": "נכי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נכי",
+	"headwords": [
+		{
+			"text": "נכי"
+		},
 		{
 			"text": "נָכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 910,
 		"column": "b"

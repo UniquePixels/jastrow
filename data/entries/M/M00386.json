@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00386",
-	"slug": "מואבי",
-	"headword": {
-		"text": "מוֹאָבִי"
-	},
+	"sefariaHeadword": "מוֹאָבִי",
+	"headwords": [
+		{
+			"text": "מוֹאָבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01151",
-	"slug": "דשרין",
-	"headword": {
-		"text": "דשרין"
-	},
+	"sefariaHeadword": "דשרין",
+	"headwords": [
+		{
+			"text": "דשרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "b"

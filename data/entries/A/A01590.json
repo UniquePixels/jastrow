@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01590",
-	"slug": "איקון",
-	"headword": {
-		"text": "אִיקוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיקוֹן",
+	"headwords": [
+		{
+			"text": "אִיקוֹן"
+		},
 		{
 			"text": "אִיקוּנָא"
 		},
 		{
-			"text": "אִק׳"
+			"text": "אִק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 59,
 		"column": "b"

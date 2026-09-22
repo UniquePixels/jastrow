@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00387",
-	"slug": "קומטון",
-	"headword": {
-		"text": "קומטון"
-	},
+	"sefariaHeadword": "קומטון",
+	"headwords": [
+		{
+			"text": "קומטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1332,
 		"column": "b"

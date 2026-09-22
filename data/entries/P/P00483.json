@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00483",
-	"slug": "עטרנא",
-	"headword": {
-		"text": "עִטְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִטְרָנָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִטְרָנָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1065,
 		"column": "a"

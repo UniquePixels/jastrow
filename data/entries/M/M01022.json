@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01022",
-	"slug": "מטמונת",
-	"headword": {
-		"text": "מַטְמוֹנֶת"
-	},
+	"sefariaHeadword": "מַטְמוֹנֶת",
+	"headwords": [
+		{
+			"text": "מַטְמוֹנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00289",
-	"slug": "גובני",
-	"headword": {
-		"text": "גּוֹבַנֵּי"
-	},
+	"sefariaHeadword": "גּוֹבַנֵּי",
+	"headwords": [
+		{
+			"text": "גּוֹבַנֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00081",
-	"slug": "פגן-3",
-	"headword": {
-		"text": "פָּגָן"
-	},
+	"sefariaHeadword": "פָּגָן",
+	"headwords": [
+		{
+			"text": "פָּגָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1134,
 		"column": "b"

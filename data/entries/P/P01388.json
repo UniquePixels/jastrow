@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01388",
-	"slug": "ערלות",
-	"headword": {
-		"text": "עַרְלוּת"
-	},
+	"sefariaHeadword": "עַרְלוּת",
+	"headwords": [
+		{
+			"text": "עַרְלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1120,
 		"column": "a"

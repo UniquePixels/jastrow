@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00263",
-	"slug": "בולטיתא",
-	"headword": {
-		"text": "בּוּלְטִיתָא"
-	},
+	"sefariaHeadword": "בּוּלְטִיתָא",
+	"headwords": [
+		{
+			"text": "בּוּלְטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "a"

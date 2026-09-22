@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00757",
-	"slug": "בי״תא",
-	"headword": {
-		"text": "בי״תא"
-	},
+	"sefariaHeadword": "בי\"תא",
+	"headwords": [
+		{
+			"text": "בי״תא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"

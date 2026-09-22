@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01104",
-	"slug": "קיפוץ",
-	"headword": {
-		"text": "קִיפּוּץ"
-	},
+	"sefariaHeadword": "קִיפּוּץ",
+	"headwords": [
+		{
+			"text": "קִיפּוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

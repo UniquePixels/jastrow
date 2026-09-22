@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01678",
-	"slug": "חריך",
-	"headword": {
-		"text": "חָרִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרִיךְ",
+	"headwords": [
+		{
+			"text": "חָרִיךְ"
+		},
 		{
 			"text": "חֲרֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "a"

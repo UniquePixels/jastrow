@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01084",
-	"slug": "דריוש",
-	"headword": {
-		"text": "דָּרְיָוֶשׁ"
-	},
+	"sefariaHeadword": "דָּרְיָוֶשׁ",
+	"headwords": [
+		{
+			"text": "דָּרְיָוֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

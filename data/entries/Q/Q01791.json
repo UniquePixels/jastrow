@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01791",
-	"slug": "פרידה",
-	"headword": {
-		"text": "פְּרִידָה"
-	},
+	"sefariaHeadword": "פְּרִידָה",
+	"headwords": [
+		{
+			"text": "פְּרִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"

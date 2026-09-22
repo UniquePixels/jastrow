@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00347",
-	"slug": "רוחא-2",
-	"headword": {
-		"text": "רַוְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַוְחָא",
+	"headwords": [
+		{
+			"text": "רַוְחָא"
+		},
 		{
 			"text": "רְוָחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1458,
 		"column": "b"

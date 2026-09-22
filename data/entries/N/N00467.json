@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00467",
-	"slug": "נזרא",
-	"headword": {
-		"text": "נִזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִזְרָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִזְרָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 893,
 		"column": "b"

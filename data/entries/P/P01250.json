@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01250",
-	"slug": "ערב-9",
-	"headword": {
-		"text": "עֹרֵב"
-	},
+	"sefariaHeadword": "עֹרֵב",
+	"headwords": [
+		{
+			"text": "עֹרֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1111,
 		"column": "a"

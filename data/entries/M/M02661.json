@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02661",
-	"slug": "מרידה",
-	"headword": {
-		"text": "מְרִידָה"
-	},
+	"sefariaHeadword": "מְרִידָה",
+	"headwords": [
+		{
+			"text": "מְרִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02106",
-	"slug": "שתיל-3",
-	"headword": {
-		"text": "שָׁתִיל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁתִיל ²",
+	"headwords": [
+		{
+			"text": "שָׁתִיל",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁתִילָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1637,
 		"column": "b"

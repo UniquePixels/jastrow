@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01508",
-	"slug": "שמנים",
-	"headword": {
-		"text": "שְׁמֹנִים"
-	},
+	"sefariaHeadword": "שְׁמֹנִים",
+	"headwords": [
+		{
+			"text": "שְׁמֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1598,
 		"column": "b"

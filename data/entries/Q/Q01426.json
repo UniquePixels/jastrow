@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01426",
-	"slug": "פצי",
-	"headword": {
-		"text": "פְּצֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּצֵי",
+	"headwords": [
+		{
+			"text": "פְּצֵי"
+		},
 		{
 			"text": "פְּצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1204,
 		"column": "b"

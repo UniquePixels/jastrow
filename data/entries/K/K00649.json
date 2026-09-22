@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00649",
-	"slug": "כיתות",
-	"headword": {
-		"text": "כִּיתּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיתּוֹת",
+	"headwords": [
+		{
+			"text": "כִּיתּוֹת"
+		},
 		{
 			"text": "כִּיתִּים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "b"

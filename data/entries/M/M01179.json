@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01179",
-	"slug": "מילטמיא",
-	"headword": {
-		"text": "מילטמיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מילטמיא",
+	"headwords": [
+		{
+			"text": "מילטמיא"
+		},
 		{
 			"text": "מילטמיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 774,
 		"column": "b"

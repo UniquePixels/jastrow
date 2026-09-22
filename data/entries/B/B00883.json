@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00883",
-	"slug": "בלם-3",
-	"headword": {
-		"text": "בְּלַם"
-	},
+	"sefariaHeadword": "בְּלַם",
+	"headwords": [
+		{
+			"text": "בְּלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "b"

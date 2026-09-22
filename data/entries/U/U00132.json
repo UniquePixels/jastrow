@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00132",
-	"slug": "שביק",
-	"headword": {
-		"text": "שְׁבִיק"
-	},
+	"sefariaHeadword": "שְׁבִיק",
+	"headwords": [
+		{
+			"text": "שְׁבִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

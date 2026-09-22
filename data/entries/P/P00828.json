@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00828",
-	"slug": "עלמת",
-	"headword": {
-		"text": "עַלְמַת"
-	},
+	"sefariaHeadword": "עַלְמַת",
+	"headwords": [
+		{
+			"text": "עַלְמַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

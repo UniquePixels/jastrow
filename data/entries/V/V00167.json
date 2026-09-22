@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00167",
-	"slug": "תוהות",
-	"headword": {
-		"text": "תַּוְהוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּוְהוּת",
+	"headwords": [
 		{
-			"text": "תַּוְו׳"
+			"text": "תַּוְהוּת"
+		},
+		{
+			"text": "תַּוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1651,
 		"column": "a"

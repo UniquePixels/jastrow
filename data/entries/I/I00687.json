@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00687",
-	"slug": "טפשית",
-	"headword": {
-		"text": "טִפְּשִׁית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִפְּשִׁית",
+	"headwords": [
+		{
+			"text": "טִפְּשִׁית"
+		},
 		{
 			"text": "טִפֶּשֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 549,
 		"column": "a"

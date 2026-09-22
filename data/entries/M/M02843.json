@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02843",
-	"slug": "משורר",
-	"headword": {
-		"text": "מְשׁוֹרֵר"
-	},
+	"sefariaHeadword": "מְשֹׁורֵר",
+	"headwords": [
+		{
+			"text": "מְשׁוֹרֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02857",
-	"slug": "אצו",
-	"headword": {
-		"text": "אָצוּ"
-	},
+	"sefariaHeadword": "אָצוּ",
+	"headwords": [
+		{
+			"text": "אָצוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00735",
-	"slug": "תנח-2",
-	"headword": {
-		"text": "תְּנַח"
-	},
+	"sefariaHeadword": "תְּנַח",
+	"headwords": [
+		{
+			"text": "תְּנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00392",
-	"slug": "סופיינוס",
-	"headword": {
-		"text": "סופיינוס"
-	},
+	"sefariaHeadword": "סופיינוס",
+	"headwords": [
+		{
+			"text": "סופיינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "a"

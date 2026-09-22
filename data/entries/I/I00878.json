@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00878",
-	"slug": "טרפישא",
-	"headword": {
-		"text": "טַרְפִּישָׁא"
-	},
+	"sefariaHeadword": "טַרְפִּישָׁא",
+	"headwords": [
+		{
+			"text": "טַרְפִּישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "b"

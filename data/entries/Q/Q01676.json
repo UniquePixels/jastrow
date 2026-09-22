@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01676",
-	"slug": "פרוטיקטור",
-	"headword": {
-		"text": "פְּרוֹטִיקְטוֹר"
-	},
+	"sefariaHeadword": "פְּרוֹטִיקְטוֹר",
+	"headwords": [
+		{
+			"text": "פְּרוֹטִיקְטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

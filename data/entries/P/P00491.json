@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00491",
-	"slug": "עיבור-1",
-	"headword": {
-		"text": "עִיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיבּוּר",
+	"headwords": [
 		{
-			"text": "עִבּ׳"
+			"text": "עִיבּוּר"
+		},
+		{
+			"text": "עִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1065,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01268",
-	"slug": "פסטקא",
-	"headword": {
-		"text": "פִּסְטְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְטְקָא",
+	"headwords": [
+		{
+			"text": "פִּסְטְקָא"
+		},
 		{
 			"text": "פִּסְטְקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1194,
 		"column": "b"

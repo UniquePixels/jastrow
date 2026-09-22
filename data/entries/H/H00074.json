@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00074",
-	"slug": "חביץ-2",
-	"headword": {
-		"text": "חָבִיץ"
-	},
+	"sefariaHeadword": "חָבִיץ",
+	"headwords": [
+		{
+			"text": "חָבִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "a"

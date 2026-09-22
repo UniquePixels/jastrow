@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01894",
-	"slug": "קרביטין",
-	"headword": {
-		"text": "קַרְבִיטִין"
-	},
+	"sefariaHeadword": "קַרְבִיטִין",
+	"headwords": [
+		{
+			"text": "קַרְבִיטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1411,
 		"column": "b"

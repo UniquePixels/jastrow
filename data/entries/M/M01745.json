@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01745",
-	"slug": "מנומר",
-	"headword": {
-		"text": "מְנוּמָּר"
-	},
+	"sefariaHeadword": "מְנוּמָּר",
+	"headwords": [
+		{
+			"text": "מְנוּמָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "b"

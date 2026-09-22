@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00318",
-	"slug": "נוהג",
-	"headword": {
-		"text": "נוֹהַג"
-	},
+	"sefariaHeadword": "נוֹהַג",
+	"headwords": [
+		{
+			"text": "נוֹהַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "b"

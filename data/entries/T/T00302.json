@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00302",
-	"slug": "רובה-2",
-	"headword": {
-		"text": "רוֹבֶה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רוֹבֶה II",
+	"headwords": [
+		{
+			"text": "רוֹבֶה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1455,
 		"column": "b"

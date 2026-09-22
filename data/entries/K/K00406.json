@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00406",
-	"slug": "כושפן",
-	"headword": {
-		"text": "כּוֹשְׁפָן"
-	},
+	"sefariaHeadword": "כּוֹשְׁפָן",
+	"headwords": [
+		{
+			"text": "כּוֹשְׁפָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "b"

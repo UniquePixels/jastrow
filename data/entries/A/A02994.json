@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02994",
-	"slug": "ארגנטין",
-	"headword": {
-		"text": "ארגנטין"
-	},
+	"sefariaHeadword": "ארגנטין",
+	"headwords": [
+		{
+			"text": "ארגנטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "b"

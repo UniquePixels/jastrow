@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00991",
-	"slug": "גלשלשן",
-	"headword": {
-		"text": "גִּלְשַׁלְשַׁן"
-	},
+	"sefariaHeadword": "גִּלְשַׁלְשַׁן",
+	"headwords": [
+		{
+			"text": "גִּלְשַׁלְשַׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "a"

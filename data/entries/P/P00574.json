@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00574",
-	"slug": "עילויא",
-	"headword": {
-		"text": "עִילּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילּוּיָא",
+	"headwords": [
 		{
-			"text": "עִלּ׳"
+			"text": "עִילּוּיָא"
+		},
+		{
+			"text": "עִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1070,
 		"column": "a"

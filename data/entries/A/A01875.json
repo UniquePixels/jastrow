@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01875",
-	"slug": "אליפיס",
-	"headword": {
-		"text": "אליפיס"
-	},
+	"sefariaHeadword": "אליפיס",
+	"headwords": [
+		{
+			"text": "אליפיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00306",
-	"slug": "זיוויין",
-	"headword": {
-		"text": "זִיוְויָין"
-	},
+	"sefariaHeadword": "זִיוְויָין",
+	"headwords": [
+		{
+			"text": "זִיוְויָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

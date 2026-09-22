@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01037",
-	"slug": "כפנים",
-	"headword": {
-		"text": "כָּפְנִים"
-	},
+	"sefariaHeadword": "כָּפְנִים",
+	"headwords": [
+		{
+			"text": "כָּפְנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

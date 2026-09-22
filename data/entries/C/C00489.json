@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00489",
-	"slug": "גורדינון",
-	"headword": {
-		"text": "גּוּרְדיָנוֹן"
-	},
+	"sefariaHeadword": "גּוּרְדיָנוֹן",
+	"headwords": [
+		{
+			"text": "גּוּרְדיָנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 227,
 		"column": "a"

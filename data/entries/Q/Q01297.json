@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01297",
-	"slug": "פסים-2",
-	"headword": {
-		"text": "פַּסִּים",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּסִּים ²",
+	"headwords": [
+		{
+			"text": "פַּסִּים",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּסִּים"
 		},
@@ -13,6 +14,7 @@
 			"text": "פִּסִּין"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1195,
 		"column": "b"

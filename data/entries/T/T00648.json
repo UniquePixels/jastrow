@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00648",
-	"slug": "רימצא",
-	"headword": {
-		"text": "רִימְצָא"
-	},
+	"sefariaHeadword": "רִימְצָא",
+	"headwords": [
+		{
+			"text": "רִימְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

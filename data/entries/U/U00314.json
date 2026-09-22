@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00314",
-	"slug": "שובא-2",
-	"headword": {
-		"text": "שׁוּבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּבָּא",
+	"headwords": [
+		{
+			"text": "שׁוּבָּא"
+		},
 		{
 			"text": "שובאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1528,
 		"column": "b"

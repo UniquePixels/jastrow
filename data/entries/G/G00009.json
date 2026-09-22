@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00009",
-	"slug": "זבד",
-	"headword": {
-		"text": "זְבַד"
-	},
+	"sefariaHeadword": "זְבַד",
+	"headwords": [
+		{
+			"text": "זְבַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "b"

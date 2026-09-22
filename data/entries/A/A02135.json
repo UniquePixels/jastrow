@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02135",
-	"slug": "אנדרכטוס",
-	"headword": {
-		"text": "אנדרכטוס"
-	},
+	"sefariaHeadword": "אנדרכטוס",
+	"headwords": [
+		{
+			"text": "אנדרכטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

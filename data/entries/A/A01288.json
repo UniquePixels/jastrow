@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01288",
-	"slug": "איליא",
-	"headword": {
-		"text": "אִילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִילְיָא",
+	"headwords": [
+		{
+			"text": "אִילְיָא"
+		},
 		{
 			"text": "אִילְיָיא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אֶלְיָיה"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 49,
 		"column": "a"

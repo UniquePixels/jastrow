@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01174",
-	"slug": "גסיסין",
-	"headword": {
-		"text": "גסיסין"
-	},
+	"sefariaHeadword": "גסיסין",
+	"headwords": [
+		{
+			"text": "גסיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

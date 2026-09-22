@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00613",
-	"slug": "גיבוי",
-	"headword": {
-		"text": "גִּיבּוּי"
-	},
+	"sefariaHeadword": "גִּיבּוּי",
+	"headwords": [
+		{
+			"text": "גִּיבּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

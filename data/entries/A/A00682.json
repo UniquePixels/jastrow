@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00682",
-	"slug": "אולר",
-	"headword": {
-		"text": "אולר"
-	},
+	"sefariaHeadword": "אולר",
+	"headwords": [
+		{
+			"text": "אולר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "b"

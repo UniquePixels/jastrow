@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00212",
-	"slug": "עוונייא",
-	"headword": {
-		"text": "עוונייא"
-	},
+	"sefariaHeadword": "עוונייא",
+	"headwords": [
+		{
+			"text": "עוונייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

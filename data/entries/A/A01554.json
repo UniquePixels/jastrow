@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01554",
-	"slug": "איפליקתא",
-	"headword": {
-		"text": "איפליקתא"
-	},
+	"sefariaHeadword": "איפליקתא",
+	"headwords": [
+		{
+			"text": "איפליקתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

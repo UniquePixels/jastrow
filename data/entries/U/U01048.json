@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01048",
-	"slug": "שיקטנא",
-	"headword": {
-		"text": "שִׁיקְטָנָא"
-	},
+	"sefariaHeadword": "שִׁיקְטָנָא",
+	"headwords": [
+		{
+			"text": "שִׁיקְטָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1568,
 		"column": "a"

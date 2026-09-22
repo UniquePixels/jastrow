@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01200",
-	"slug": "פנימון",
-	"headword": {
-		"text": "פְּנִימוֹן"
-	},
+	"sefariaHeadword": "פְּנִימוֹן",
+	"headwords": [
+		{
+			"text": "פְּנִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00448",
-	"slug": "פחדה",
-	"headword": {
-		"text": "פַּחְדָּה"
-	},
+	"sefariaHeadword": "פַּחְדָּה",
+	"headwords": [
+		{
+			"text": "פַּחְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "b"

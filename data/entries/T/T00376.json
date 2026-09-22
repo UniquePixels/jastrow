@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00376",
-	"slug": "רום-3",
-	"headword": {
-		"text": "רוּם",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּם II",
+	"headwords": [
+		{
+			"text": "רוּם",
+			"homograph": 2
+		},
 		{
 			"text": "רוֹם"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1460,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00439",
-	"slug": "מוועי",
-	"headword": {
-		"text": "מַוְועֵי"
-	},
+	"sefariaHeadword": "מַוְועֵי",
+	"headwords": [
+		{
+			"text": "מַוְועֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

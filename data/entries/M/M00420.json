@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00420",
-	"slug": "מודעת",
-	"headword": {
-		"text": "מוֹדַעַת"
-	},
+	"sefariaHeadword": "מוֹדַעַת",
+	"headwords": [
+		{
+			"text": "מוֹדַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

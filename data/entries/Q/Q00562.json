@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00562",
-	"slug": "פטריות",
-	"headword": {
-		"text": "פַּטְרָיוֹת"
-	},
+	"sefariaHeadword": "פַּטְרָיוֹת",
+	"headwords": [
+		{
+			"text": "פַּטְרָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

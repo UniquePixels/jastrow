@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01356",
-	"slug": "פסקה-2",
-	"headword": {
-		"text": "פסקה"
-	},
+	"sefariaHeadword": "פסקה",
+	"headwords": [
+		{
+			"text": "פסקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

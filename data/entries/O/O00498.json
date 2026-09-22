@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00498",
-	"slug": "סטן-2",
-	"headword": {
-		"text": "סְטַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְטַן",
+	"headwords": [
+		{
+			"text": "סְטַן"
+		},
 		{
 			"text": "שְׂטַן",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 973,
 		"column": "a"

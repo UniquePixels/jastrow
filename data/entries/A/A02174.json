@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02174",
-	"slug": "אנטיגרפין",
-	"headword": {
-		"text": "אַנְטִיגְרָפִין"
-	},
+	"sefariaHeadword": "אַנְטִיגְרָפִין",
+	"headwords": [
+		{
+			"text": "אַנְטִיגְרָפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

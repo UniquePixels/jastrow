@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00293",
-	"slug": "חוט-1",
-	"headword": {
-		"text": "חוֹט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹט",
+	"headwords": [
+		{
+			"text": "חוֹט"
+		},
 		{
 			"text": "חוּטִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 431,
 		"column": "a"

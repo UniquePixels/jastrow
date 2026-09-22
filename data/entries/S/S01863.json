@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01863",
-	"slug": "קקואי",
-	"headword": {
-		"text": "קַקְוַאי"
-	},
+	"sefariaHeadword": "קַקְוַאי",
+	"headwords": [
+		{
+			"text": "קַקְוַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

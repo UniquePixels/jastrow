@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01498",
-	"slug": "שמן-3",
-	"headword": {
-		"text": "שָׁמֵן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁמֵן",
+	"headwords": [
+		{
+			"text": "שָׁמֵן"
+		},
 		{
 			"text": "שְׁמֵנָה"
 		},
 		{
-			"text": "שְׁמֵי׳"
+			"text": "שְׁמֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1597,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01555",
-	"slug": "קנטורים",
-	"headword": {
-		"text": "קנטורים"
-	},
+	"sefariaHeadword": "קנטורים",
+	"headwords": [
+		{
+			"text": "קנטורים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

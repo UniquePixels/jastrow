@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01789",
-	"slug": "חרשין",
-	"headword": {
-		"text": "חַרְשִׁין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְשִׁין",
+	"headwords": [
+		{
+			"text": "חַרְשִׁין"
+		},
 		{
 			"text": "חַרְשַׁיָּיא"
 		},
@@ -12,9 +13,11 @@
 			"text": "חַרְשֵׁי"
 		},
 		{
-			"text": "חֲרָ׳"
+			"text": "חֲרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 507,
 		"column": "b"

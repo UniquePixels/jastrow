@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00875",
-	"slug": "סכה-2",
-	"headword": {
-		"text": "סֻכָּה"
-	},
+	"sefariaHeadword": "סֻכָּה",
+	"headwords": [
+		{
+			"text": "סֻכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

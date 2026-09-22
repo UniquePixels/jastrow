@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01161",
-	"slug": "בראי",
-	"headword": {
-		"text": "בְּרָאִי"
-	},
+	"sefariaHeadword": "בְּרָאִי",
+	"headwords": [
+		{
+			"text": "בְּרָאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "a"

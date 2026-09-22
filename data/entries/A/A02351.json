@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02351",
-	"slug": "אסטגנין",
-	"headword": {
-		"text": "אִסְטַגְנֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַגְנֵין",
+	"headwords": [
 		{
-			"text": "אִצְטַ׳"
+			"text": "אִסְטַגְנֵין"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִצְטַ׳",
+			"partial": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 89,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00595",
-	"slug": "זעייתא",
-	"headword": {
-		"text": "זַעֲיָיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זַעֲיָיתָא",
+	"headwords": [
+		{
+			"text": "זַעֲיָיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 407,
 		"column": "b"

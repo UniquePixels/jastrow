@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00779",
-	"slug": "כלקטירין",
-	"headword": {
-		"text": "כַּלַּקְטֵירִין"
-	},
+	"sefariaHeadword": "כַּלַּקְטֵירִין",
+	"headwords": [
+		{
+			"text": "כַּלַּקְטֵירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "b"

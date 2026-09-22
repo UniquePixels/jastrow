@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "B00741",
-	"slug": "ביש-2",
-	"headword": {
-		"text": "בִּישׁ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּישׁ II",
+	"headwords": [
 		{
-			"text": "כְּפַר בִּישׁ"
+			"text": "בִּישׁ",
+			"homograph": 2
+		},
+		{
+			"text": "כְּפַר ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 167,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

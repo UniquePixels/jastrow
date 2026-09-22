@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01892",
-	"slug": "אלכסין",
-	"headword": {
-		"text": "אֲלַכְסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלַכְסִין",
+	"headwords": [
+		{
+			"text": "אֲלַכְסִין"
+		},
 		{
 			"text": "אֲלַכְסַנְדְּרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 70,
 		"column": "b"

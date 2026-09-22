@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00369",
-	"slug": "עושפא",
-	"headword": {
-		"text": "עוּשְׁפָּא"
-	},
+	"sefariaHeadword": "עוּשְׁפָּא",
+	"headwords": [
+		{
+			"text": "עוּשְׁפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

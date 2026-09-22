@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02209",
-	"slug": "קרתיסיה",
-	"headword": {
-		"text": "קַרְתִּיסָיָה"
-	},
+	"sefariaHeadword": "קַרְתִּיסָיָה",
+	"headwords": [
+		{
+			"text": "קַרְתִּיסָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00191",
-	"slug": "דוגמטרין",
-	"headword": {
-		"text": "דּוּגְמַטְרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּגְמַטְרִין",
+	"headwords": [
+		{
+			"text": "דּוּגְמַטְרִין"
+		},
 		{
 			"text": "דִּגְמַטְרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 283,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01419",
-	"slug": "גשף",
-	"headword": {
-		"text": "גשף"
-	},
+	"sefariaHeadword": "גשף",
+	"headwords": [
+		{
+			"text": "גשף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 274,
 		"column": "a"

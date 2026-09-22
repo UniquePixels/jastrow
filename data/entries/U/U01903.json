@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01903",
-	"slug": "שקתא",
-	"headword": {
-		"text": "שקתא"
-	},
+	"sefariaHeadword": "שקתא",
+	"headwords": [
+		{
+			"text": "שקתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1626,
 		"column": "b"

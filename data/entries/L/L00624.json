@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00624",
-	"slug": "לעס-2",
-	"headword": {
-		"text": "לְעַס"
-	},
+	"sefariaHeadword": "לְעַס",
+	"headwords": [
+		{
+			"text": "לְעַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

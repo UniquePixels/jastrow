@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00952",
-	"slug": "סלא-4",
-	"headword": {
-		"text": "סָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָלָא",
+	"headwords": [
+		{
+			"text": "סָלָא"
+		},
 		{
 			"text": "סְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 993,
 		"column": "b"

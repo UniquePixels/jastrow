@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03101",
-	"slug": "מתקולתא",
-	"headword": {
-		"text": "מַתְקוּלְתָּא"
-	},
+	"sefariaHeadword": "מַתְקוּלְתָּא",
+	"headwords": [
+		{
+			"text": "מַתְקוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "b"

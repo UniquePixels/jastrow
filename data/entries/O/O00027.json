@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00027",
-	"slug": "סבא-1",
-	"headword": {
-		"text": "סָבָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סָבָא II",
+	"headwords": [
+		{
+			"text": "סָבָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 948,
 		"column": "a"

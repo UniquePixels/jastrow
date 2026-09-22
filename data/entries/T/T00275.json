@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00275",
-	"slug": "רהוטא",
-	"headword": {
-		"text": "רָהוֹטָא"
-	},
+	"sefariaHeadword": "רָהוֹטָא",
+	"headwords": [
+		{
+			"text": "רָהוֹטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "a"

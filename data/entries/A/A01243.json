@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01243",
-	"slug": "איירא",
-	"headword": {
-		"text": "אֲיָירָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲיָירָא",
+	"headwords": [
+		{
+			"text": "אֲיָירָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

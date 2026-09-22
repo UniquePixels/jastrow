@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00403",
-	"slug": "זיק",
-	"headword": {
-		"text": "זֵיק"
-	},
+	"sefariaHeadword": "זֵיק",
+	"headwords": [
+		{
+			"text": "זֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

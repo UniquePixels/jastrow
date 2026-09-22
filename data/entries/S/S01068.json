@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01068",
-	"slug": "קיסים",
-	"headword": {
-		"text": "קיסים"
-	},
+	"sefariaHeadword": "קיסים",
+	"headwords": [
+		{
+			"text": "קיסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

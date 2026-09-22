@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01618",
-	"slug": "סרימיסין",
-	"headword": {
-		"text": "סרימיסין"
-	},
+	"sefariaHeadword": "סרימיסין",
+	"headwords": [
+		{
+			"text": "סרימיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

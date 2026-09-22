@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02126",
-	"slug": "פתהן",
-	"headword": {
-		"text": "פָּתְהֶן"
-	},
+	"sefariaHeadword": "פָּתְהֶן",
+	"headwords": [
+		{
+			"text": "פָּתְהֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

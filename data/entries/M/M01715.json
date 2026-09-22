@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01715",
-	"slug": "מנדיאן",
-	"headword": {
-		"text": "מַנְדְּיָאן"
-	},
+	"sefariaHeadword": "מַנְדְּיָאן",
+	"headwords": [
+		{
+			"text": "מַנְדְּיָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 797,
 		"column": "a"

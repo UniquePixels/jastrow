@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00264",
-	"slug": "אגויסטור",
-	"headword": {
-		"text": "אַגְוִיסְטוֹר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַגְוִיסְטוֹר",
+	"headwords": [
+		{
+			"text": "אַגְוִיסְטוֹר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

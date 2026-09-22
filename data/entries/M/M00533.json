@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00533",
-	"slug": "מונהי",
-	"headword": {
-		"text": "מונהי"
-	},
+	"sefariaHeadword": "מונהי",
+	"headwords": [
+		{
+			"text": "מונהי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

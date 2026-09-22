@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00828",
-	"slug": "פירבורין",
-	"headword": {
-		"text": "פירבורין"
-	},
+	"sefariaHeadword": "פירבורין",
+	"headwords": [
+		{
+			"text": "פירבורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

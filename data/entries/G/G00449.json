@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00449",
-	"slug": "זכורא",
-	"headword": {
-		"text": "זְכוּרָא"
-	},
+	"sefariaHeadword": "זְכוּרָא",
+	"headwords": [
+		{
+			"text": "זְכוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 398,
 		"column": "a"

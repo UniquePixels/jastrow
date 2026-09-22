@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00405",
-	"slug": "בותרא",
-	"headword": {
-		"text": "בותרא"
-	},
+	"sefariaHeadword": "בותרא",
+	"headwords": [
+		{
+			"text": "בותרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

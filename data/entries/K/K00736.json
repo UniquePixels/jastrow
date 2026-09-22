@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00736",
-	"slug": "כלילתא",
-	"headword": {
-		"text": "כְּלִילְתָּא"
-	},
+	"sefariaHeadword": "כְּלִילְתָּא",
+	"headwords": [
+		{
+			"text": "כְּלִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

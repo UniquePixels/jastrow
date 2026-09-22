@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01878",
-	"slug": "חתון",
-	"headword": {
-		"text": "חִתּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִתּוּן",
+	"headwords": [
+		{
+			"text": "חִתּוּן"
+		},
 		{
 			"text": "חִתּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 512,
 		"column": "b"

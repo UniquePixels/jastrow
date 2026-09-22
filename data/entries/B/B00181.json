@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00181",
-	"slug": "בהם",
-	"headword": {
-		"text": "בַּהָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּהָם",
+	"headwords": [
+		{
+			"text": "בַּהָם"
+		},
 		{
 			"text": "בֶּהֱמִי"
 		}

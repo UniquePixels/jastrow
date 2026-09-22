@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00806",
-	"slug": "חימוצתא",
-	"headword": {
-		"text": "חִימּוּצָתָא"
-	},
+	"sefariaHeadword": "חִימּוּצָתָא",
+	"headwords": [
+		{
+			"text": "חִימּוּצָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

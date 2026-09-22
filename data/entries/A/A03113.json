@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03113",
-	"slug": "אריסותא",
-	"headword": {
-		"text": "אֲרִיסוּתָא"
-	},
+	"sefariaHeadword": "אֲרִיסוּתָא",
+	"headwords": [
+		{
+			"text": "אֲרִיסוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "b"

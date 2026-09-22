@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02680",
-	"slug": "מריקא",
-	"headword": {
-		"text": "מָרֵיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרֵיקָא",
+	"headwords": [
+		{
+			"text": "מָרֵיקָא"
+		},
 		{
 			"text": "מָרֵיקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 843,
 		"column": "a"

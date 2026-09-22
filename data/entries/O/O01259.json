@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01259",
-	"slug": "סנקדרין",
-	"headword": {
-		"text": "סנקדרין"
-	},
+	"sefariaHeadword": "סנקדרין",
+	"headwords": [
+		{
+			"text": "סנקדרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

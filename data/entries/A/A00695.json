@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00695",
-	"slug": "אומוניאה",
-	"headword": {
-		"text": "אומוניאה"
-	},
+	"sefariaHeadword": "אומוניאה",
+	"headwords": [
+		{
+			"text": "אומוניאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "a"

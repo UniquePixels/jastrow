@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00827",
-	"slug": "מחוך-2",
-	"headword": {
-		"text": "מָחוֹךְ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָחוֹךְ II",
+	"headwords": [
+		{
+			"text": "מָחוֹךְ",
+			"homograph": 2
+		},
 		{
 			"text": "מְחוֹכָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 758,
 		"column": "a"

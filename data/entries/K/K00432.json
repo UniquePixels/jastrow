@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00432",
-	"slug": "כותניין",
-	"headword": {
-		"text": "כותניין"
-	},
+	"sefariaHeadword": "כותניין",
+	"headwords": [
+		{
+			"text": "כותניין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

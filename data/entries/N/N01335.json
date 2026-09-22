@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01335",
-	"slug": "נשמתא",
-	"headword": {
-		"text": "נִשְׁמְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִשְׁמְתָא",
+	"headwords": [
+		{
+			"text": "נִשְׁמְתָא"
+		},
 		{
 			"text": "נִשְׁמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 941,
 		"column": "a"

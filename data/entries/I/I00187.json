@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00187",
-	"slug": "טונוס",
-	"headword": {
-		"text": "טונוס"
-	},
+	"sefariaHeadword": "טונוס",
+	"headwords": [
+		{
+			"text": "טונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

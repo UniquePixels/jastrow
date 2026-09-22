@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00118",
-	"slug": "גבנון",
-	"headword": {
-		"text": "גַּבְנוּן"
-	},
+	"sefariaHeadword": "גַּבְנוּן",
+	"headwords": [
+		{
+			"text": "גַּבְנוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

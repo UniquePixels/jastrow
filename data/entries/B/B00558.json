@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00558",
-	"slug": "ביוכא",
-	"headword": {
-		"text": "ביוכא"
-	},
+	"sefariaHeadword": "ביוכא",
+	"headwords": [
+		{
+			"text": "ביוכא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "b"

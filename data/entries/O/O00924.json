@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00924",
-	"slug": "סכן-4",
-	"headword": {
-		"text": "סְכֵן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְכֵן",
+	"headwords": [
+		{
+			"text": "סְכֵן"
+		},
 		{
 			"text": "סְכֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 991,
 		"column": "b"

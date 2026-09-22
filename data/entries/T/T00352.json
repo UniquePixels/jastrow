@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00352",
-	"slug": "רוחתא-1",
-	"headword": {
-		"text": "רְוַחְתָּא"
-	},
+	"sefariaHeadword": "רְוַחְתָּא",
+	"headwords": [
+		{
+			"text": "רְוַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "b"

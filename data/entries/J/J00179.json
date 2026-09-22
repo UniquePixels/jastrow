@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00179",
-	"slug": "יוחני",
-	"headword": {
-		"text": "יוֹחָנִי"
-	},
+	"sefariaHeadword": "יוֹחָנִי",
+	"headwords": [
+		{
+			"text": "יוֹחָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 568,
 		"column": "a"

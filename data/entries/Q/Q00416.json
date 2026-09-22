@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00416",
-	"slug": "פותיא",
-	"headword": {
-		"text": "פּוּתְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּתְיָא",
+	"headwords": [
+		{
+			"text": "פּוּתְיָא"
+		},
 		{
 			"text": "פּוּתְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1149,
 		"column": "b"

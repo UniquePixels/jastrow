@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00986",
-	"slug": "קילקול",
-	"headword": {
-		"text": "קִילְקוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילְקוּל",
+	"headwords": [
 		{
-			"text": "קִלְ׳"
+			"text": "קִילְקוּל"
+		},
+		{
+			"text": "קִלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1361,
 		"column": "a"

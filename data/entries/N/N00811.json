@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00811",
-	"slug": "נכה-3",
-	"headword": {
-		"text": "נְכֹה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְכֹה",
+	"headwords": [
 		{
-			"text": "פַּרְעֹה נְכֹה"
+			"text": "נְכֹה"
+		},
+		{
+			"text": "פַּרְעֹה נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 910,
 		"column": "a"

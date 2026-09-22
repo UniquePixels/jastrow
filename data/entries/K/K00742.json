@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00742",
-	"slug": "כלינס",
-	"headword": {
-		"text": "כלינס"
-	},
+	"sefariaHeadword": "כלינס",
+	"headwords": [
+		{
+			"text": "כלינס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

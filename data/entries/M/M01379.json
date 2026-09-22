@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01379",
-	"slug": "מכילא",
-	"headword": {
-		"text": "מְכִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְכִילָא",
+	"headwords": [
+		{
+			"text": "מְכִילָא"
+		},
 		{
 			"text": "מְכִילְתָּא"
 		},
 		{
-			"text": "מְכִל׳"
+			"text": "מְכִל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 782,
 		"column": "b"

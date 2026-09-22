@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02010",
-	"slug": "מסרא",
-	"headword": {
-		"text": "מְסָרָא"
-	},
+	"sefariaHeadword": "מְסָרָא",
+	"headwords": [
+		{
+			"text": "מְסָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

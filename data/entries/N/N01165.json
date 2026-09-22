@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01165",
-	"slug": "נקדוד",
-	"headword": {
-		"text": "נַקְדּוּד"
-	},
+	"sefariaHeadword": "נַקְדּוּד",
+	"headwords": [
+		{
+			"text": "נַקְדּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "a"

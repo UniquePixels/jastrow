@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00295",
-	"slug": "בוסרא",
-	"headword": {
-		"text": "בּוּסְרָא"
-	},
+	"sefariaHeadword": "בּוּסְרָא",
+	"headwords": [
+		{
+			"text": "בּוּסְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

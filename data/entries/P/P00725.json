@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00725",
-	"slug": "עכוב",
-	"headword": {
-		"text": "עִכּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִכּוּב",
+	"headwords": [
+		{
+			"text": "עִכּוּב"
+		},
 		{
 			"text": "עִכּוּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1078,
 		"column": "b"

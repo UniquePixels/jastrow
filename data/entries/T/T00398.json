@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00398",
-	"slug": "רומניא",
-	"headword": {
-		"text": "רומניא"
-	},
+	"sefariaHeadword": "רומניא",
+	"headwords": [
+		{
+			"text": "רומניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

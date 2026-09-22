@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00356",
-	"slug": "לחלוח",
-	"headword": {
-		"text": "לִחְלוּחַ"
-	},
+	"sefariaHeadword": "לִחְלוּחַ",
+	"headwords": [
+		{
+			"text": "לִחְלוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

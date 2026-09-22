@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01680",
-	"slug": "סררה-2",
-	"headword": {
-		"text": "סְרָרָה"
-	},
+	"sefariaHeadword": "סְרָרָה",
+	"headwords": [
+		{
+			"text": "סְרָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1030,
 		"column": "b"

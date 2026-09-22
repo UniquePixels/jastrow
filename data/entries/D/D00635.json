@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00635",
-	"slug": "דין-5",
-	"headword": {
-		"text": "דִּין",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּין II",
+	"headwords": [
+		{
+			"text": "דִּין",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 301,
 		"column": "b"

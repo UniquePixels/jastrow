@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03237",
-	"slug": "ארקולאון",
-	"headword": {
-		"text": "ארקולאון"
-	},
+	"sefariaHeadword": "ארקולאון",
+	"headwords": [
+		{
+			"text": "ארקולאון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

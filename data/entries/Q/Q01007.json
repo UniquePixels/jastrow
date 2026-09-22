@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01007",
-	"slug": "פלטי",
-	"headword": {
-		"text": "פַּלְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְטִי",
+	"headwords": [
+		{
+			"text": "פַּלְטִי"
+		},
 		{
 			"text": "פַּלְטִיאֵל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1179,
 		"column": "b"

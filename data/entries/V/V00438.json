@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00438",
-	"slug": "תייר-1",
-	"headword": {
-		"text": "תַּיָּיר"
-	},
+	"sefariaHeadword": "תַּיָּיר",
+	"headwords": [
+		{
+			"text": "תַּיָּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

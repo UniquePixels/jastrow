@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01473",
-	"slug": "קמיעה",
-	"headword": {
-		"text": "קמיעה"
-	},
+	"sefariaHeadword": "קמיעה",
+	"headwords": [
+		{
+			"text": "קמיעה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

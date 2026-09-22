@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00960",
-	"slug": "אזהו",
-	"headword": {
-		"text": "אֵזֶהוּ"
-	},
+	"sefariaHeadword": "אֵזֶהוּ",
+	"headwords": [
+		{
+			"text": "אֵזֶהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "a"

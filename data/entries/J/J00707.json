@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00707",
-	"slug": "ישראל",
-	"headword": {
-		"text": "יִשְׂרָאֵל"
-	},
+	"sefariaHeadword": "יִשְׂרָאֵל",
+	"headwords": [
+		{
+			"text": "יִשְׂרָאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 602,
 		"column": "a"

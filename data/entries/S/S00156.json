@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00156",
-	"slug": "קדמון",
-	"headword": {
-		"text": "קַדְמוֹן"
-	},
+	"sefariaHeadword": "קַדְמוֹן",
+	"headwords": [
+		{
+			"text": "קַדְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1317,
 		"column": "a"

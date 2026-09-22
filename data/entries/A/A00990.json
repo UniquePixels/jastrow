@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00990",
-	"slug": "אח-3",
-	"headword": {
-		"text": "אָח",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אָח II",
+	"headwords": [
+		{
+			"text": "אָח",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 38,
 		"column": "b"

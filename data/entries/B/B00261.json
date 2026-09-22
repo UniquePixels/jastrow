@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00261",
-	"slug": "בולווטס",
-	"headword": {
-		"text": "בּוּלֶוְוטֵס"
-	},
+	"sefariaHeadword": "בּוּלֶוְוטֵס",
+	"headwords": [
+		{
+			"text": "בּוּלֶוְוטֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "a"

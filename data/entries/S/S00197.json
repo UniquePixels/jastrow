@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00197",
-	"slug": "קדש-7",
-	"headword": {
-		"text": "קַדַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַדַשׁ",
+	"headwords": [
 		{
-			"text": "קַדַשׁ נוּנָא"
+			"text": "קַדַשׁ"
+		},
+		{
+			"text": "קַ׳ נוּנָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1321,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00446",
-	"slug": "שומירה-1",
-	"headword": {
-		"text": "שׁוּמִּירָה"
-	},
+	"sefariaHeadword": "שׁוּמִּירָה",
+	"headwords": [
+		{
+			"text": "שׁוּמִּירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00497",
-	"slug": "עיגול-1",
-	"headword": {
-		"text": "עִיגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיגּוּל",
+	"headwords": [
 		{
-			"text": "עִגּ׳"
+			"text": "עִיגּוּל"
+		},
+		{
+			"text": "עִגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1066,
 		"column": "b"

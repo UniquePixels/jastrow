@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01958",
-	"slug": "פרפיסא",
-	"headword": {
-		"text": "פַּרְפִּיסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּרְפִּיסָא",
+	"headwords": [
+		{
+			"text": "פַּרְפִּיסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1236,
 		"column": "b"

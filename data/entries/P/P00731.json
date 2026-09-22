@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00731",
-	"slug": "עכ״ום",
-	"headword": {
-		"text": "עכ״ום"
-	},
+	"sefariaHeadword": "עכ\"ום",
+	"headwords": [
+		{
+			"text": "עכ״ום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "b"

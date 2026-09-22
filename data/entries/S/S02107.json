@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02107",
-	"slug": "קרנזול",
-	"headword": {
-		"text": "קַרְנָזוֹל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַרְנָזוֹל",
+	"headwords": [
+		{
+			"text": "קַרְנָזוֹל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1423,
 		"column": "a"

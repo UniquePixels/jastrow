@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00908",
-	"slug": "סככה",
-	"headword": {
-		"text": "סְכָכָה"
-	},
+	"sefariaHeadword": "סְכָכָה",
+	"headwords": [
+		{
+			"text": "סְכָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 990,
 		"column": "b"

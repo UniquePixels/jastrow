@@ -1,21 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "D00828",
-	"slug": "דלי-2",
-	"headword": {
-		"text": "דְּלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלֵי",
+	"headwords": [
+		{
+			"text": "דְּלֵי"
+		},
 		{
 			"text": "דְּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 309,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " ch. <cite ref=\"D00827\">same</cite><i>to be suspended</i>. Part. pl. <he>דַּלְיָין</he> suspended. ",
+			"gloss": " ch. <cite ref=\"D00827\">same</cite><i>to be suspended</i>. Part. pl. <he>דַּלְיָין</he> suspended. ",
 			"units": [
 				"<cite ref=\"Aramaic Targum to Esther 1:6\">Targ. Esth. I, 6</cite>."
 			],

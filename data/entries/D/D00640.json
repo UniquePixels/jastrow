@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00640",
-	"slug": "דינה",
-	"headword": {
-		"text": "דִּינָה"
-	},
+	"sefariaHeadword": "דִּינָה",
+	"headwords": [
+		{
+			"text": "דִּינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

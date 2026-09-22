@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00241",
-	"slug": "לוטוס",
-	"headword": {
-		"text": "לוטוס"
-	},
+	"sefariaHeadword": "לוטוס",
+	"headwords": [
+		{
+			"text": "לוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 696,
 		"column": "b"

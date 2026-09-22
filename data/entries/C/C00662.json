@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00662",
-	"slug": "גיונברי",
-	"headword": {
-		"text": "גיונברי"
-	},
+	"sefariaHeadword": "גיונברי",
+	"headwords": [
+		{
+			"text": "גיונברי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "a"

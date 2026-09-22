@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00831",
-	"slug": "חיסולא",
-	"headword": {
-		"text": "חִיסּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיסּוּלָא",
+	"headwords": [
 		{
-			"text": "חִסּ׳"
+			"text": "חִיסּוּלָא"
+		},
+		{
+			"text": "חִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "b"

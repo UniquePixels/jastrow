@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02763",
-	"slug": "אפסניא",
-	"headword": {
-		"text": "אָפְסַנְיָא"
-	},
+	"sefariaHeadword": "אָפְסַנְיָא",
+	"headwords": [
+		{
+			"text": "אָפְסַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "b"

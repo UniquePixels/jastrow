@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00163",
-	"slug": "אבלונים",
-	"headword": {
-		"text": "אבלונים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אבלונים",
+	"headwords": [
+		{
+			"text": "אבלונים",
+			"reconstructed": true
+		},
 		{
 			"text": "אבליניס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 7,
 		"column": "a"

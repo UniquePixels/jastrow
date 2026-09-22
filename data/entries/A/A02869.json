@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02869",
-	"slug": "אצטרא",
-	"headword": {
-		"text": "אצטרא"
-	},
+	"sefariaHeadword": "אצטרא",
+	"headwords": [
+		{
+			"text": "אצטרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

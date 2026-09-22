@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00721",
-	"slug": "זרניך",
-	"headword": {
-		"text": "זַרְנִיךְ"
-	},
+	"sefariaHeadword": "זַרְנִיךְ",
+	"headwords": [
+		{
+			"text": "זַרְנִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

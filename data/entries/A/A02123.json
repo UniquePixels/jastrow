@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02123",
-	"slug": "אנדרולומוסיא",
-	"headword": {
-		"text": "אנדרולומוסיא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנדרולומוסיא",
+	"headwords": [
+		{
+			"text": "אנדרולומוסיא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

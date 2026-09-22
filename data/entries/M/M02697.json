@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02697",
-	"slug": "מרך-3",
-	"headword": {
-		"text": "מְרַךְ"
-	},
+	"sefariaHeadword": "מְרַךְ",
+	"headwords": [
+		{
+			"text": "מְרַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00249",
-	"slug": "בוכרא-1",
-	"headword": {
-		"text": "בּוּכְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בּוּכְרָא I",
+	"headwords": [
+		{
+			"text": "בּוּכְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 145,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00997",
-	"slug": "תריסר",
-	"headword": {
-		"text": "תְּרֵיסַר"
-	},
+	"sefariaHeadword": "תְּרֵיסַר",
+	"headwords": [
+		{
+			"text": "תְּרֵיסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00739",
-	"slug": "עכמאי",
-	"headword": {
-		"text": "עַכְמַאי"
-	},
+	"sefariaHeadword": "עַכְמַאי",
+	"headwords": [
+		{
+			"text": "עַכְמַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1079,
 		"column": "a"

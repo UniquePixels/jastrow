@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00268",
-	"slug": "בולים",
-	"headword": {
-		"text": "בולים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בולים",
+	"headwords": [
+		{
+			"text": "בולים"
+		},
 		{
 			"text": "בוליס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 146,
 		"column": "b"

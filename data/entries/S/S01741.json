@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01741",
-	"slug": "קפיפה",
-	"headword": {
-		"text": "קְפִיפָה"
-	},
+	"sefariaHeadword": "קְפִיפָה",
+	"headwords": [
+		{
+			"text": "קְפִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

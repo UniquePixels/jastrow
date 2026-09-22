@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01912",
-	"slug": "חתרתא",
-	"headword": {
-		"text": "חֲתַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲתַרְתָּא",
+	"headwords": [
+		{
+			"text": "חֲתַרְתָּא"
+		},
 		{
 			"text": "חֲתַרְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 515,
 		"column": "b"

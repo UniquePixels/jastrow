@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00722",
-	"slug": "יתור-1",
-	"headword": {
-		"text": "יִתּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִתּוּר",
+	"headwords": [
+		{
+			"text": "יִתּוּר"
+		},
 		{
 			"text": "יִיתּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 603,
 		"column": "b"

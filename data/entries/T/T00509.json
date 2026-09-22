@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00509",
-	"slug": "רחיש",
-	"headword": {
-		"text": "רְחֵישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחֵישׁ",
+	"headwords": [
+		{
+			"text": "רְחֵישׁ"
+		},
 		{
 			"text": "רְחִישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1466,
 		"column": "b"

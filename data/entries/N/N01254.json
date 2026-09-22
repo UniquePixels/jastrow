@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01254",
-	"slug": "נקשונין",
-	"headword": {
-		"text": "נקשונין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נקשונין",
+	"headwords": [
+		{
+			"text": "נקשונין"
+		},
 		{
 			"text": "נקשנון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 936,
 		"column": "a"

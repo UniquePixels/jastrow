@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00065",
-	"slug": "הגזר",
-	"headword": {
-		"text": "הֶגְזֵר"
-	},
+	"sefariaHeadword": "הֶגְזֵר",
+	"headwords": [
+		{
+			"text": "הֶגְזֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "a"

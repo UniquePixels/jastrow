@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00658",
-	"slug": "מורם",
-	"headword": {
-		"text": "מוּרָם"
-	},
+	"sefariaHeadword": "מוּרָם",
+	"headwords": [
+		{
+			"text": "מוּרָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

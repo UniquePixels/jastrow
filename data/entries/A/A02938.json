@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02938",
-	"slug": "אקקיא",
-	"headword": {
-		"text": "אֲקַקְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲקַקְיָא",
+	"headwords": [
+		{
+			"text": "אֲקַקְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

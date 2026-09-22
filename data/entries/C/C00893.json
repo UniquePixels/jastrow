@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00893",
-	"slug": "גלודקי",
-	"headword": {
-		"text": "גלודקי"
-	},
+	"sefariaHeadword": "גלודקי",
+	"headwords": [
+		{
+			"text": "גלודקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

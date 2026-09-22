@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02318",
-	"slug": "מצילה",
-	"headword": {
-		"text": "מְצִילָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצִילָּה",
+	"headwords": [
+		{
+			"text": "מְצִילָּה"
+		},
 		{
 			"text": "מְצִילּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 826,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V00321",
-	"slug": "תורתא-2",
-	"headword": {
-		"text": "תּוֹרְתָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרְתָּא ²",
+	"headwords": [
+		{
+			"text": "תּוֹרְתָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "תּוֹרְתָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "תּוֹרְתָּה"
 		},
 		{
-			"text": "בֶּן תּוֹרְתָּא"
+			"text": "בֶּן תּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1658,
 		"column": "b"

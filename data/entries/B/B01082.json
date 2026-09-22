@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01082",
-	"slug": "בצורת",
-	"headword": {
-		"text": "בַּצּוֹרֶת"
-	},
+	"sefariaHeadword": "בַּצּוֹרֶת",
+	"headwords": [
+		{
+			"text": "בַּצּוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "a"

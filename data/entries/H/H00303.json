@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00303",
-	"slug": "חוטר",
-	"headword": {
-		"text": "חוֹטֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹטֶר",
+	"headwords": [
+		{
+			"text": "חוֹטֶר"
+		},
 		{
 			"text": "חוּטְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 431,
 		"column": "b"

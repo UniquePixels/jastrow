@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01549",
-	"slug": "פרגא",
-	"headword": {
-		"text": "פרגא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרגא",
+	"headwords": [
+		{
+			"text": "פרגא"
+		},
 		{
 			"text": "פרגה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1214,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00482",
-	"slug": "לימין-1",
-	"headword": {
-		"text": "לִימֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִימֵין",
+	"headwords": [
+		{
+			"text": "לִימֵין"
+		},
 		{
 			"text": "לִימֵן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 708,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00255",
-	"slug": "צורך",
-	"headword": {
-		"text": "צוֹרֶךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹרֶךְ",
+	"headwords": [
+		{
+			"text": "צוֹרֶךְ"
+		},
 		{
 			"text": "צֹרֶךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1271,
 		"column": "b"

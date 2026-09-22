@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "H01301",
-	"slug": "חניתא",
-	"headword": {
-		"text": "חֲנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנִיתָא",
+	"headwords": [
+		{
+			"text": "חֲנִיתָא"
+		},
 		{
 			"text": "חֲנִיתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 483,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

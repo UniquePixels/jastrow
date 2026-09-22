@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00159",
-	"slug": "עדף-2",
-	"headword": {
-		"text": "עֲדַף"
-	},
+	"sefariaHeadword": "עֲדַף",
+	"headwords": [
+		{
+			"text": "עֲדַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1045,
 		"column": "a"

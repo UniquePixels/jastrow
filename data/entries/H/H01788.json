@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01788",
-	"slug": "חרשיותא",
-	"headword": {
-		"text": "חַרְשְׁיוּתָא"
-	},
+	"sefariaHeadword": "חַרְשְׁיוּתָא",
+	"headwords": [
+		{
+			"text": "חַרְשְׁיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 507,
 		"column": "b"

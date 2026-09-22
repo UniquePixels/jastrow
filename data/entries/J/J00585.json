@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00585",
-	"slug": "יקר-6",
-	"headword": {
-		"text": "יַקִּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַקִּר",
+	"headwords": [
+		{
+			"text": "יַקִּר"
+		},
 		{
 			"text": "יַקִּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "יַקְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 593,
 		"column": "a"

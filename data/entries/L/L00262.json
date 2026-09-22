@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00262",
-	"slug": "לויתן",
-	"headword": {
-		"text": "לִוְיָתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִוְיָתָן",
+	"headwords": [
 		{
-			"text": "לִיוְ׳"
+			"text": "לִוְיָתָן"
+		},
+		{
+			"text": "לִיוְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 698,
 		"column": "a"

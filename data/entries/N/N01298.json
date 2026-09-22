@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01298",
-	"slug": "נשופות",
-	"headword": {
-		"text": "נִשּׁוֹפוֹת"
-	},
+	"sefariaHeadword": "נִשּׁוֹפוֹת",
+	"headwords": [
+		{
+			"text": "נִשּׁוֹפוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

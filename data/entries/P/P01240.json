@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01240",
-	"slug": "עראה",
-	"headword": {
-		"text": "עֲרָאָה"
-	},
+	"sefariaHeadword": "עֲרָאָה",
+	"headwords": [
+		{
+			"text": "עֲרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "b"

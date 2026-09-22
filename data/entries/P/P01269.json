@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01269",
-	"slug": "ערבוביא",
-	"headword": {
-		"text": "עַרְבּוּבְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְבּוּבְיָא",
+	"headwords": [
 		{
-			"text": "עִרְ׳"
+			"text": "עַרְבּוּבְיָא"
 		},
 		{
-			"text": "עִירְ׳"
+			"text": "עִרְ׳",
+			"partial": true
+		},
+		{
+			"text": "עִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1112,
 		"column": "b"

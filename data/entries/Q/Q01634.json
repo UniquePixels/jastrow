@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01634",
-	"slug": "פרוויטות",
-	"headword": {
-		"text": "פַּרְוִויטוֹת"
-	},
+	"sefariaHeadword": "פַּרְוִויטוֹת",
+	"headwords": [
+		{
+			"text": "פַּרְוִויטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

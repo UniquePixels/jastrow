@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01858",
-	"slug": "שקיזמי",
-	"headword": {
-		"text": "שְׁקִיזְמֵי"
-	},
+	"sefariaHeadword": "שְׁקִיזְמֵי",
+	"headwords": [
+		{
+			"text": "שְׁקִיזְמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00201",
-	"slug": "פוייטן",
-	"headword": {
-		"text": "פּוֹיְיטָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹיְיטָן",
+	"headwords": [
+		{
+			"text": "פּוֹיְיטָן"
+		},
 		{
 			"text": "פּוֹיְיטָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1141,
 		"column": "a"

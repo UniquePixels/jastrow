@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01144",
-	"slug": "בקרות",
-	"headword": {
-		"text": "בַּקְרוּת"
-	},
+	"sefariaHeadword": "בַּקְרוּת",
+	"headwords": [
+		{
+			"text": "בַּקְרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 188,
 		"column": "a"

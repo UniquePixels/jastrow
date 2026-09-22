@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01998",
-	"slug": "פרקטונין",
-	"headword": {
-		"text": "פַּרְקְטוֹנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְקְטוֹנִין",
+	"headwords": [
+		{
+			"text": "פַּרְקְטוֹנִין"
+		},
 		{
 			"text": "פְּרַקְטָנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "b"

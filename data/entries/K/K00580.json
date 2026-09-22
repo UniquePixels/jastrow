@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00580",
-	"slug": "כיסוח",
-	"headword": {
-		"text": "כִּיסּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסּוּחַ",
+	"headwords": [
 		{
-			"text": "כּסּ׳"
+			"text": "כִּיסּוּחַ"
+		},
+		{
+			"text": "כּסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "a"

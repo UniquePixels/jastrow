@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01194",
-	"slug": "חמישי-2",
-	"headword": {
-		"text": "חֲמִישַׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִישַׁי",
+	"headwords": [
+		{
+			"text": "חֲמִישַׁי"
+		},
 		{
 			"text": "שַׁאי"
 		},
@@ -12,6 +13,7 @@
 			"text": "שָׁאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 477,
 		"column": "b"

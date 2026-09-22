@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00589",
-	"slug": "מוקיון",
-	"headword": {
-		"text": "מוּקְיוֹן"
-	},
+	"sefariaHeadword": "מוּקְיוֹן",
+	"headwords": [
+		{
+			"text": "מוּקְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

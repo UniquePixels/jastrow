@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01955",
-	"slug": "פרפור",
-	"headword": {
-		"text": "פִּרְפּוּר"
-	},
+	"sefariaHeadword": "פִּרְפּוּר",
+	"headwords": [
+		{
+			"text": "פִּרְפּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "b"

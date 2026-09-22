@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00003",
-	"slug": "דא-1",
-	"headword": {
-		"text": "דָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּא I",
+	"headwords": [
+		{
+			"text": "דָּא",
+			"homograph": 1
+		},
 		{
 			"text": "דָּה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 275,
 		"column": "a"

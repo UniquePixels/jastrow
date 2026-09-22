@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00532",
-	"slug": "עיטוף",
-	"headword": {
-		"text": "עִיטּוּף"
-	},
+	"sefariaHeadword": "עִיטּוּף",
+	"headwords": [
+		{
+			"text": "עִיטּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

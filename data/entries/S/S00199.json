@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00199",
-	"slug": "קדשא",
-	"headword": {
-		"text": "קָדָשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָדָשָׁא",
+	"headwords": [
 		{
-			"text": "קְדָ׳"
+			"text": "קָדָשָׁא"
+		},
+		{
+			"text": "קְדָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1321,
 		"column": "a"

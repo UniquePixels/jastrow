@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00602",
-	"slug": "מור-1",
-	"headword": {
-		"text": "מוּר"
-	},
+	"sefariaHeadword": "מוּר",
+	"headwords": [
+		{
+			"text": "מוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 748,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00859",
-	"slug": "גלבין",
-	"headword": {
-		"text": "גַּלְבִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּלְבִּין",
+	"headwords": [
+		{
+			"text": "גַּלְבִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 243,
 		"column": "b"

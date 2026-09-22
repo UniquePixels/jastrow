@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01182",
-	"slug": "חמין",
-	"headword": {
-		"text": "חַמִּין"
-	},
+	"sefariaHeadword": "חַמִּין",
+	"headwords": [
+		{
+			"text": "חַמִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "a"

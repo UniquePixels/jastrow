@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00590",
-	"slug": "טסורא",
-	"headword": {
-		"text": "טסורא"
-	},
+	"sefariaHeadword": "טסורא",
+	"headwords": [
+		{
+			"text": "טסורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "b"

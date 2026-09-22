@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00734",
-	"slug": "סינוריא",
-	"headword": {
-		"text": "סינוריא"
-	},
+	"sefariaHeadword": "סינוריא",
+	"headwords": [
+		{
+			"text": "סינוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

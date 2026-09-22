@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01382",
-	"slug": "גרע-4",
-	"headword": {
-		"text": "גָּרָע"
-	},
+	"sefariaHeadword": "גָּרָע",
+	"headwords": [
+		{
+			"text": "גָּרָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 271,
 		"column": "b"

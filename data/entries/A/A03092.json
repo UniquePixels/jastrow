@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03092",
-	"slug": "אריח-1",
-	"headword": {
-		"text": "אָרִיחַ"
-	},
+	"sefariaHeadword": "אָרִיחַ",
+	"headwords": [
+		{
+			"text": "אָרִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "b"

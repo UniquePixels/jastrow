@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02600",
-	"slug": "אפא-3",
-	"headword": {
-		"text": "אָפָא"
-	},
+	"sefariaHeadword": "אָפָא",
+	"headwords": [
+		{
+			"text": "אָפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "b"

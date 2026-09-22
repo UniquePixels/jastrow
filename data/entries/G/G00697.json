@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00697",
-	"slug": "זרי-2",
-	"headword": {
-		"text": "זרי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זרי ²",
+	"headwords": [
+		{
+			"text": "זרי",
+			"disambiguator": 2
+		},
 		{
 			"text": "זְרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 413,
 		"column": "a"

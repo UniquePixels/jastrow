@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01169",
-	"slug": "כריס",
-	"headword": {
-		"text": "כְּרֵיס־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרֵיס־",
+	"headwords": [
+		{
+			"text": "כְּרֵיס־"
+		},
 		{
 			"text": "כְּרֵיסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 667,
 		"column": "a"

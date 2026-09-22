@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01357",
-	"slug": "אימתא",
-	"headword": {
-		"text": "אֵימְתָא"
-	},
+	"sefariaHeadword": "אֵימְתָא",
+	"headwords": [
+		{
+			"text": "אֵימְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "b"

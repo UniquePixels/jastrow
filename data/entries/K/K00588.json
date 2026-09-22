@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00588",
-	"slug": "כיסנא",
-	"headword": {
-		"text": "כִּיסְנָא"
-	},
+	"sefariaHeadword": "כִּיסְנָא",
+	"headwords": [
+		{
+			"text": "כִּיסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "b"

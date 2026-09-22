@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00380",
-	"slug": "אדוותא",
-	"headword": {
-		"text": "אַדְווּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְווּתָא",
+	"headwords": [
+		{
+			"text": "אַדְווּתָא"
+		},
 		{
 			"text": "אֲדוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 15,
 		"column": "b"

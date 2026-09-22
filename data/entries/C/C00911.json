@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00911",
-	"slug": "גלוסקמא",
-	"headword": {
-		"text": "גְּלוֹסְקְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלוֹסְקְמָא",
+	"headwords": [
+		{
+			"text": "גְּלוֹסְקְמָא"
+		},
 		{
 			"text": "גְּלוֹסְקוֹם"
 		},
@@ -12,6 +13,7 @@
 			"text": "דְּלוּסְקְמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 247,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01598",
-	"slug": "פרה-2",
-	"headword": {
-		"text": "פָּרָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרָה II",
+	"headwords": [
+		{
+			"text": "פָּרָה",
+			"homograph": 2
+		},
 		{
 			"text": "פָּרֶה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1216,
 		"column": "b"

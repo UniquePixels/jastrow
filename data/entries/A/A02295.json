@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02295",
-	"slug": "אנקלווסים",
-	"headword": {
-		"text": "אנקלווסים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אנקלווסים",
+	"headwords": [
+		{
+			"text": "אנקלווסים",
+			"reconstructed": true
+		},
 		{
 			"text": "אנקלווסיס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 88,
 		"column": "a"

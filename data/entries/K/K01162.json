@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01162",
-	"slug": "כריך-2",
-	"headword": {
-		"text": "כָּרִיךְ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כָּרִיךְ",
+	"headwords": [
+		{
+			"text": "כָּרִיךְ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 667,
 		"column": "a"

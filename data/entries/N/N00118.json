@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00118",
-	"slug": "נגד-2",
-	"headword": {
-		"text": "נְגַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגַד",
+	"headwords": [
+		{
+			"text": "נְגַד"
+		},
 		{
 			"text": "נְגִיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 871,
 		"column": "b"

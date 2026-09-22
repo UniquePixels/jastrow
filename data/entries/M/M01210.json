@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01210",
-	"slug": "מינא-2",
-	"headword": {
-		"text": "מִינָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִינָא II",
+	"headwords": [
+		{
+			"text": "מִינָא",
+			"homograph": 2
+		},
 		{
 			"text": "מִינָאָה"
 		},
@@ -16,6 +17,7 @@
 			"text": "מִינָיָיא"
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 776,
 		"column": "a"

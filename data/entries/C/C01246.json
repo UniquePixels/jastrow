@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01246",
-	"slug": "גרגילא",
-	"headword": {
-		"text": "גַּרְגִּילָא"
-	},
+	"sefariaHeadword": "גַּרְגִּילָא",
+	"headwords": [
+		{
+			"text": "גַּרְגִּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01591",
-	"slug": "קנכירי",
-	"headword": {
-		"text": "קַנְכֵּירִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְכֵּירִי",
+	"headwords": [
+		{
+			"text": "קַנְכֵּירִי"
+		},
 		{
 			"text": "קַנְכֵּרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1393,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01432",
-	"slug": "ספרינון",
-	"headword": {
-		"text": "סַפִּרִינוֹן"
-	},
+	"sefariaHeadword": "סַפִּרִינוֹן",
+	"headwords": [
+		{
+			"text": "סַפִּרִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

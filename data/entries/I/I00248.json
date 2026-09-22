@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00248",
-	"slug": "טוש-1",
-	"headword": {
-		"text": "טוּשׂ"
-	},
+	"sefariaHeadword": "טוּשׂ",
+	"headwords": [
+		{
+			"text": "טוּשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

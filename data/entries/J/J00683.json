@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00683",
-	"slug": "ישון",
-	"headword": {
-		"text": "יִשּׁוּן"
-	},
+	"sefariaHeadword": "יִשּׁוּן",
+	"headwords": [
+		{
+			"text": "יִשּׁוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 600,
 		"column": "a"

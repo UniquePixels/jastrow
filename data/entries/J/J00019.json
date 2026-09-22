@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00019",
-	"slug": "יאנא",
-	"headword": {
-		"text": "יאנא"
-	},
+	"sefariaHeadword": "יאנא",
+	"headwords": [
+		{
+			"text": "יאנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "b"

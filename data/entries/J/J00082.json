@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00082",
-	"slug": "יגור",
-	"headword": {
-		"text": "יְגוֹר"
-	},
+	"sefariaHeadword": "יְגוֹר",
+	"headwords": [
+		{
+			"text": "יְגוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

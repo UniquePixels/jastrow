@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02383",
-	"slug": "מקד״ש",
-	"headword": {
-		"text": "מקד״ש"
-	},
+	"sefariaHeadword": "מקד\"ש",
+	"headwords": [
+		{
+			"text": "מקד״ש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

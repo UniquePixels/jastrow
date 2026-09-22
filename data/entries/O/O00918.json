@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00918",
-	"slug": "סכם-1",
-	"headword": {
-		"text": "סָכַם"
-	},
+	"sefariaHeadword": "סָכַם",
+	"headwords": [
+		{
+			"text": "סָכַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 991,
 		"column": "a"

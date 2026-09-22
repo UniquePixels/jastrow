@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00323",
-	"slug": "תורתייה",
-	"headword": {
-		"text": "תּוּרְתָּיָיה"
-	},
+	"sefariaHeadword": "תּוּרְתָּיָיה",
+	"headwords": [
+		{
+			"text": "תּוּרְתָּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "a"

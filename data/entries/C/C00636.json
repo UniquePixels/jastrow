@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00636",
-	"slug": "גידול-2",
-	"headword": {
-		"text": "גִּידּוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּידּוֹל",
+	"headwords": [
+		{
+			"text": "גִּידּוֹל"
+		},
 		{
 			"text": "גִּידָּל"
 		},
@@ -12,6 +13,7 @@
 			"text": "גִּדָּל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 235,
 		"column": "a"

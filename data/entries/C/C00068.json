@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00068",
-	"slug": "גבח-2",
-	"headword": {
-		"text": "גָּבֵחַ"
-	},
+	"sefariaHeadword": "גָּבֵחַ",
+	"headwords": [
+		{
+			"text": "גָּבֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

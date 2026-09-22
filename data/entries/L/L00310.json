@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00310",
-	"slug": "לופר",
-	"headword": {
-		"text": "לוּפָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּפָר",
+	"headwords": [
+		{
+			"text": "לוּפָר"
+		},
 		{
 			"text": "לִיפוֹר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 700,
 		"column": "b"

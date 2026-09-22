@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01257",
-	"slug": "בריחי",
-	"headword": {
-		"text": "בריחי"
-	},
+	"sefariaHeadword": "בריחי",
+	"headwords": [
+		{
+			"text": "בריחי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

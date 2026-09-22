@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00393",
-	"slug": "רומינוס",
-	"headword": {
-		"text": "רומינוס"
-	},
+	"sefariaHeadword": "רומינוס",
+	"headwords": [
+		{
+			"text": "רומינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

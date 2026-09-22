@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00940",
-	"slug": "נסיכה",
-	"headword": {
-		"text": "נְסִיכָה"
-	},
+	"sefariaHeadword": "נְסִיכָה",
+	"headwords": [
+		{
+			"text": "נְסִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 917,
 		"column": "a"

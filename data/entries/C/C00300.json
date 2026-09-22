@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00300",
-	"slug": "גוד-1",
-	"headword": {
-		"text": "גּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּד",
+	"headwords": [
+		{
+			"text": "גּוּד"
+		},
 		{
 			"text": "גּוֹד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 218,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01148",
-	"slug": "שכיכה",
-	"headword": {
-		"text": "שְׁכִיכָה"
-	},
+	"sefariaHeadword": "שְׁכִיכָה",
+	"headwords": [
+		{
+			"text": "שְׁכִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "a"

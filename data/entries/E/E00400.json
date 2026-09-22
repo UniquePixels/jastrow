@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00400",
-	"slug": "הילך-1",
-	"headword": {
-		"text": "הֵילָךְ"
-	},
+	"sefariaHeadword": "הֵילָךְ",
+	"headwords": [
+		{
+			"text": "הֵילָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "b"

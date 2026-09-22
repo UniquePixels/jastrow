@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00864",
-	"slug": "כנסיה",
-	"headword": {
-		"text": "כְּנֵסִיָּה"
-	},
+	"sefariaHeadword": "כְּנֵסִיָּה",
+	"headwords": [
+		{
+			"text": "כְּנֵסִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "a"

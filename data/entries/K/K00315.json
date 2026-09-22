@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "K00315",
-	"slug": "כוס-2",
-	"headword": {
-		"text": "כּוֹס",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*כּוֹס II",
+	"headwords": [
+		{
+			"text": "כּוֹס",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 623,
 		"column": "a"

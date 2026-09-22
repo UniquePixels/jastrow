@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00658",
-	"slug": "לץ-1",
-	"headword": {
-		"text": "לָץ"
-	},
+	"sefariaHeadword": "לָץ",
+	"headwords": [
+		{
+			"text": "לָץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "b"

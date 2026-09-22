@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00154",
-	"slug": "רג",
-	"headword": {
-		"text": "רג"
-	},
+	"sefariaHeadword": "רג",
+	"headwords": [
+		{
+			"text": "רג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

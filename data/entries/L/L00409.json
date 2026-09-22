@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00409",
-	"slug": "ליבדה",
-	"headword": {
-		"text": "ליבדה"
-	},
+	"sefariaHeadword": "ליבדה",
+	"headwords": [
+		{
+			"text": "ליבדה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

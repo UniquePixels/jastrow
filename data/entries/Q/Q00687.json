@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00687",
-	"slug": "פילוסים",
-	"headword": {
-		"text": "פִּילוּסִים"
-	},
+	"sefariaHeadword": "פִּילוּסִים",
+	"headwords": [
+		{
+			"text": "פִּילוּסִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00624",
-	"slug": "אוטנס",
-	"headword": {
-		"text": "אוטנס"
-	},
+	"sefariaHeadword": "אוטנס",
+	"headwords": [
+		{
+			"text": "אוטנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

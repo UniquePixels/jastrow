@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00598",
-	"slug": "עימק",
-	"headword": {
-		"text": "עֵימַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵימַק",
+	"headwords": [
+		{
+			"text": "עֵימַק"
+		},
 		{
 			"text": "עִימְקְוָון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1071,
 		"column": "a"

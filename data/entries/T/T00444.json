@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00444",
-	"slug": "רור",
-	"headword": {
-		"text": "רור"
-	},
+	"sefariaHeadword": "רור",
+	"headwords": [
+		{
+			"text": "רור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

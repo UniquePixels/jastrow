@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02404",
-	"slug": "אסטרולוגייא",
-	"headword": {
-		"text": "אַסְטְרוֹלוֹגַיָּיא"
-	},
+	"sefariaHeadword": "אַסְטְרוֹלוֹגַיָּיא",
+	"headwords": [
+		{
+			"text": "אַסְטְרוֹלוֹגַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

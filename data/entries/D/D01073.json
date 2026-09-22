@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01073",
-	"slug": "דרוקרא",
-	"headword": {
-		"text": "דרוקרא"
-	},
+	"sefariaHeadword": "דרוקרא",
+	"headwords": [
+		{
+			"text": "דרוקרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

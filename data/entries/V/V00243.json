@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00243",
-	"slug": "תוניא",
-	"headword": {
-		"text": "תּוּנְיָא"
-	},
+	"sefariaHeadword": "תּוּנְיָא",
+	"headwords": [
+		{
+			"text": "תּוּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

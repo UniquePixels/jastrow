@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00650",
-	"slug": "רינון",
-	"headword": {
-		"text": "רִינּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִינּוּן",
+	"headwords": [
 		{
-			"text": "רִנּ׳"
+			"text": "רִינּוּן"
+		},
+		{
+			"text": "רִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1475,
 		"column": "a"

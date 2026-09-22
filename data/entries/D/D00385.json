@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00385",
-	"slug": "דורקין",
-	"headword": {
-		"text": "דורקין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דורקין",
+	"headwords": [
+		{
+			"text": "דורקין"
+		},
 		{
 			"text": "דורקן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 290,
 		"column": "b"

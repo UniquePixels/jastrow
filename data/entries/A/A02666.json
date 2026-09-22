@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02666",
-	"slug": "אפי-1",
-	"headword": {
-		"text": "אפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפי",
+	"headwords": [
 		{
-			"text": "אפי בלסמון"
+			"text": "אפי"
+		},
+		{
+			"text": "א׳ בלסמון",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 102,
 		"column": "a"

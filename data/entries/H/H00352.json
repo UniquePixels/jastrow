@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00352",
-	"slug": "חוליץ",
-	"headword": {
-		"text": "חוֹלֵיץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹלֵיץ",
+	"headwords": [
+		{
+			"text": "חוֹלֵיץ"
+		},
 		{
 			"text": "חוֹלֵץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 434,
 		"column": "b"

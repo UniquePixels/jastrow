@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00922",
-	"slug": "אושכי",
-	"headword": {
-		"text": "אוּשְׁכִּי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אוּשְׁכִּי",
+	"headwords": [
+		{
+			"text": "אוּשְׁכִּי",
+			"reconstructed": true
+		},
 		{
 			"text": "אַשְׁכִּי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 35,
 		"column": "b"

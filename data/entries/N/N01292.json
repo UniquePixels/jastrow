@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01292",
-	"slug": "נשה-2",
-	"headword": {
-		"text": "נָשֶׁה"
-	},
+	"sefariaHeadword": "נָשֶׁה",
+	"headwords": [
+		{
+			"text": "נָשֶׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

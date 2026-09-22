@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00914",
-	"slug": "בלריות",
-	"headword": {
-		"text": "בְּלֵרִיּוֹת"
-	},
+	"sefariaHeadword": "בְּלֵרִיּוֹת",
+	"headwords": [
+		{
+			"text": "בְּלֵרִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

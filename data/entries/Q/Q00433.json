@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00433",
-	"slug": "פזמריקון",
-	"headword": {
-		"text": "פזמריקון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פזמריקון",
+	"headwords": [
 		{
-			"text": "פיז׳"
+			"text": "פזמריקון"
+		},
+		{
+			"text": "פיז׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1150,
 		"column": "b"

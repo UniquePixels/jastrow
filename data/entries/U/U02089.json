@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02089",
-	"slug": "שתחויה",
-	"headword": {
-		"text": "שְׁתַחְוָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתַחְוָיָה",
+	"headwords": [
 		{
-			"text": "שְׁתַּ׳"
+			"text": "שְׁתַחְוָיָה"
+		},
+		{
+			"text": "שְׁתַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1637,
 		"column": "a"

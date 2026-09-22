@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00032",
-	"slug": "באלא",
-	"headword": {
-		"text": "בָּאלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּאלָא",
+	"headwords": [
+		{
+			"text": "בָּאלָא"
+		},
 		{
 			"text": "בָּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 135,
 		"column": "b"

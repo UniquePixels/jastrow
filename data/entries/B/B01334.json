@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01334",
-	"slug": "ברקתי",
-	"headword": {
-		"text": "בְּרַקְתִּי"
-	},
+	"sefariaHeadword": "בְּרַקְתִּי",
+	"headwords": [
+		{
+			"text": "בְּרַקְתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "b"

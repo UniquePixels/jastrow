@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01450",
-	"slug": "ערקין",
-	"headword": {
-		"text": "עַרְקִין"
-	},
+	"sefariaHeadword": "עַרְקִין",
+	"headwords": [
+		{
+			"text": "עַרְקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "b"

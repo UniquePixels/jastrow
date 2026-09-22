@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00109",
-	"slug": "אביב-1",
-	"headword": {
-		"text": "אָבִיב"
-	},
+	"sefariaHeadword": "אָבִיב",
+	"headwords": [
+		{
+			"text": "אָבִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

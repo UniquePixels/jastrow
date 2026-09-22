@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02191",
-	"slug": "קרקשתא",
-	"headword": {
-		"text": "קַרְקַשְׁתָּא"
-	},
+	"sefariaHeadword": "קַרְקַשְׁתָּא",
+	"headwords": [
+		{
+			"text": "קַרְקַשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1427,
 		"column": "b"

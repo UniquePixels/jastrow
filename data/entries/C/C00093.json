@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00093",
-	"slug": "גבינא-2",
-	"headword": {
-		"text": "גְּבִינָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּבִינָא II",
+	"headwords": [
+		{
+			"text": "גְּבִינָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 206,
 		"column": "b"

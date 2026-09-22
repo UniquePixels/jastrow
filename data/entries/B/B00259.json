@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00259",
-	"slug": "בולבסין",
-	"headword": {
-		"text": "בּוּלְבְּסִין"
-	},
+	"sefariaHeadword": "בּוּלְבְּסִין",
+	"headwords": [
+		{
+			"text": "בּוּלְבְּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "a"

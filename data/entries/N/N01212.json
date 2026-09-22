@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N01212",
-	"slug": "נקיפתא",
-	"headword": {
-		"text": "נְקִיפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקִיפְתָּא",
+	"headwords": [
 		{
-			"text": "נְקִיפְתָּא דְעִיּוֹן"
+			"text": "נְקִיפְתָּא"
+		},
+		{
+			"text": "נְ׳ דְעִיּוֹן",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

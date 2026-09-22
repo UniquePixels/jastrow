@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00203",
-	"slug": "בוביא-2",
-	"headword": {
-		"text": "בּוּבְיָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּבְיָא II",
+	"headwords": [
+		{
+			"text": "בּוּבְיָא",
+			"homograph": 2
+		},
 		{
 			"text": "בּוּבְיָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 144,
 		"column": "a"

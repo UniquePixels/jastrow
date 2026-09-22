@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01044",
-	"slug": "פליגא-2",
-	"headword": {
-		"text": "פְּלִיגָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלִיגָא II",
+	"headwords": [
 		{
-			"text": "טוּרָא פְּלִיגָא"
+			"text": "פְּלִיגָא",
+			"homograph": 2
+		},
+		{
+			"text": "טוּרָא פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1181,
 		"column": "b"

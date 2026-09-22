@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00742",
-	"slug": "טרזיא",
-	"headword": {
-		"text": "טַרְזַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְזַיָּא",
+	"headwords": [
+		{
+			"text": "טַרְזַיָּא"
+		},
 		{
 			"text": "טַרְזְיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 551,
 		"column": "b"

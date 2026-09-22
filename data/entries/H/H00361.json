@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00361",
-	"slug": "חולפנא",
-	"headword": {
-		"text": "חוּלְפָנָא"
-	},
+	"sefariaHeadword": "חוּלְפָנָא",
+	"headwords": [
+		{
+			"text": "חוּלְפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

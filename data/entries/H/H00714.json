@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00714",
-	"slug": "חיטפא",
-	"headword": {
-		"text": "חִיטְפָא"
-	},
+	"sefariaHeadword": "חִיטְפָא",
+	"headwords": [
+		{
+			"text": "חִיטְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

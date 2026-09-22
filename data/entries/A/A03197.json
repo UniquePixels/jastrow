@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03197",
-	"slug": "ארנון-1",
-	"headword": {
-		"text": "ארנון"
-	},
+	"sefariaHeadword": "ארנון",
+	"headwords": [
+		{
+			"text": "ארנון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

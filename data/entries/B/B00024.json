@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00024",
-	"slug": "באימה",
-	"headword": {
-		"text": "בְּאִימָה"
-	},
+	"sefariaHeadword": "בְּאִימָה",
+	"headwords": [
+		{
+			"text": "בְּאִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "a"

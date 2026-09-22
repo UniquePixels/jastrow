@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01663",
-	"slug": "קסילופונוס",
-	"headword": {
-		"text": "קסילופונוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קסילופונוס",
+	"headwords": [
+		{
+			"text": "קסילופונוס"
+		},
 		{
 			"text": "קְסִילוֹפָנוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1396,
 		"column": "b"

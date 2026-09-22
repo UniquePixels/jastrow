@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00946",
-	"slug": "התזה",
-	"headword": {
-		"text": "הַתָּזָה"
-	},
+	"sefariaHeadword": "הַתָּזָה",
+	"headwords": [
+		{
+			"text": "הַתָּזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01074",
-	"slug": "קיסמא-1",
-	"headword": {
-		"text": "קִיסְמָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קִיסְמָא I",
+	"headwords": [
+		{
+			"text": "קִיסְמָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1365,
 		"column": "a"

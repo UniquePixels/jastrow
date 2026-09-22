@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03074",
-	"slug": "ארטלאי",
-	"headword": {
-		"text": "אַרְטְלָאֵי"
-	},
+	"sefariaHeadword": "אַרְטְלָאֵי",
+	"headwords": [
+		{
+			"text": "אַרְטְלָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

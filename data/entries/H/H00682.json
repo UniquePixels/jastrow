@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00682",
-	"slug": "חיוותא",
-	"headword": {
-		"text": "חֵיוְותָא"
-	},
+	"sefariaHeadword": "חֵיוְותָא",
+	"headwords": [
+		{
+			"text": "חֵיוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "a"

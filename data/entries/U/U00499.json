@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00499",
-	"slug": "שופי-2",
-	"headword": {
-		"text": "שׁוֹפִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שֹׁופִי II",
+	"headwords": [
+		{
+			"text": "שׁוֹפִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1539,
 		"column": "b"

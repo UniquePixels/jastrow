@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "O00852",
-	"slug": "סיריקא",
-	"headword": {
-		"text": "סִירִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִירִיקָא",
+	"headwords": [
+		{
+			"text": "סִירִיקָא"
+		},
 		{
 			"text": "סִירִיקָה"
 		},
 		{
-			"text": "בִּירַת סִירִיקָא"
+			"text": "בִּירַת ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 988,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02096",
-	"slug": "שתיא-1",
-	"headword": {
-		"text": "שִׁתְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁתְיָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁתְיָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1637,
 		"column": "b"

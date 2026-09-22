@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00680",
-	"slug": "ביצוע",
-	"headword": {
-		"text": "בִּיצּוּעַ"
-	},
+	"sefariaHeadword": "בִּיצּוּעַ",
+	"headwords": [
+		{
+			"text": "בִּיצּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "b"

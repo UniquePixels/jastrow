@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01793",
-	"slug": "מנלן",
-	"headword": {
-		"text": "מְנָלָן"
-	},
+	"sefariaHeadword": "מְנָלָן",
+	"headwords": [
+		{
+			"text": "מְנָלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

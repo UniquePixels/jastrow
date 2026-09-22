@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00194",
-	"slug": "עוגין",
-	"headword": {
-		"text": "עוֹגֵין"
-	},
+	"sefariaHeadword": "עוֹגֵין",
+	"headwords": [
+		{
+			"text": "עוֹגֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "b"

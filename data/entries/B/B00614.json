@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00614",
-	"slug": "בילדין",
-	"headword": {
-		"text": "בילדין"
-	},
+	"sefariaHeadword": "בילדין",
+	"headwords": [
+		{
+			"text": "בילדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

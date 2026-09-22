@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00047",
-	"slug": "שאר-1",
-	"headword": {
-		"text": "שָׁאַר"
-	},
+	"sefariaHeadword": "שָׁאַר",
+	"headwords": [
+		{
+			"text": "שָׁאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "b"

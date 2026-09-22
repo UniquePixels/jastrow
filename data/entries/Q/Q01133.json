@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01133",
-	"slug": "פלתי",
-	"headword": {
-		"text": "פְּלֵתִי"
-	},
+	"sefariaHeadword": "פְּלֵתִי",
+	"headwords": [
+		{
+			"text": "פְּלֵתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

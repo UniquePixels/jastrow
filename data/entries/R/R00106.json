@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00106",
-	"slug": "צדיא-3",
-	"headword": {
-		"text": "צדיא"
-	},
+	"sefariaHeadword": "צדיא",
+	"headwords": [
+		{
+			"text": "צדיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1262,
 		"column": "b"

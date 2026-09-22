@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01170",
-	"slug": "עקיב",
-	"headword": {
-		"text": "עֲקֵיב־"
-	},
+	"sefariaHeadword": "עֲקֵיב־",
+	"headwords": [
+		{
+			"text": "עֲקֵיב־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "b"

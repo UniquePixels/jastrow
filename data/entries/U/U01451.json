@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01451",
-	"slug": "שמחה",
-	"headword": {
-		"text": "שִׂמְחָה"
-	},
+	"sefariaHeadword": "שִׂמְחָה",
+	"headwords": [
+		{
+			"text": "שִׂמְחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1593,
 		"column": "b"

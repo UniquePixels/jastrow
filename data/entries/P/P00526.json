@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00526",
-	"slug": "עיט-1",
-	"headword": {
-		"text": "עֵיט"
-	},
+	"sefariaHeadword": "עֵיט",
+	"headwords": [
+		{
+			"text": "עֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

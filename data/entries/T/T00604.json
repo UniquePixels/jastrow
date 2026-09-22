@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00604",
-	"slug": "ריגמא",
-	"headword": {
-		"text": "רִיגְמָא"
-	},
+	"sefariaHeadword": "רִיגְמָא",
+	"headwords": [
+		{
+			"text": "רִיגְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

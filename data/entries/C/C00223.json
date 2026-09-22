@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00223",
-	"slug": "גדל-1",
-	"headword": {
-		"text": "גָּדַל",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּדַל I",
+	"headwords": [
+		{
+			"text": "גָּדַל",
+			"homograph": 1
+		},
 		{
 			"text": "גָּדֵל"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 212,
 		"column": "b"
@@ -44,7 +46,7 @@
 					"gloss": "<i>to raise to dignity, make famous; to praise</i>. ",
 					"units": [
 						"<cite ref=\"Horayot 9a:2\">Hor. 9ᵃ</cite> (ref. to <cite ref=\"Leviticus 21:10\">Lev. XXI, 10</cite>) whence do we know <he>אם אין לו שחייבין לגַדְּלוֹ</he> when he (the Highpriest) is poor, that they (the brethren) are bound to raise him (make him independent)? <cite ref=\"Leviticus 21:10\">Ib.</cite> <he>גַּדְּלֵהוּ משל אחיו</he> raise him by a collection from his brethren (v. Rabb. D. S. a. l.). ",
-						"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> <he>למה גִדְּלוֹ</he> for what purpose did (the Lord) raise him? <cite ref=\"Yalkut Shimoni on Nach 1053:40\">Yalk. Esth. 1053</cite> <he>עד היכן גִּידְּלוֹ וכ׳</he> how high did he raise him? Fifty cubits (to the gallows); a. fr.—Y. Meg. III, end, 74ᶜ (ref. to <he>הגדול</he>, <cite ref=\"Nehemiah 8:6\">Neh. VIII, 6</cite>) <he>במה גִידְּלוֹ</he> wherewith did he magnify the Lord (describe His greatness)?; <cite ref=\"Yoma 69b:3\">Yoma 69ᵇ</cite> <he>ג׳ בשם וכ׳</he> he praised the Lord by pronouncing the tetragrammaton; Y. Ber. VII, 11ᶜ <he>גודלו</he> (corr. acc.)—Part. pass. <he>מְגוּדָּל</he> <i>well grown</i>. ",
+						"<cite ref=\"Esther Rabbah 7:1\">Esth. R. to III, 1</cite> <he>למה גִדְּלוֹ</he> for what purpose did (the Lord) raise him? <cite ref=\"Yalkut Shimoni on Nach 1053:40\">Yalk. Esth. 1053</cite> <he>עד היכן גִּידְּלוֹ וכ׳</he> how high did he raise him? Fifty cubits (to the gallows); a. fr.—Y. Meg. III, end, 74ᶜ (ref. to <he>הגדול</he>, <cite ref=\"Nehemiah 8:6\">Neh. VIII, 6</cite>) <he>במה גִידְּלוֹ</he> wherewith did he magnify the Lord (describe His greatness)?; <cite ref=\"Yoma 69b:3\">Yoma 69ᵇ</cite> <he>ג׳ בשם וכ׳</he> he praised the Lord by pronouncing the tetragrammaton; Y. Ber. VII, 11ᶜ <he>גודלו</he> (corr. acc.)—Part. pass. <he>מְגוּדָּל</he> <i>well grown</i>. ",
 						"<cite ref=\"Berakhot 11a\">Ber. 11ᵃ</cite>; a. fr.—",
 						"<cite ref=\"Kiddushin 49a:10\">Kidd. 49ᵃ</cite>; <cite ref=\"Kiddushin 49b\">49ᵇ</cite>, v. <cite ref=\"C00230\"><he>גַּדֶּלֶת</he></cite>."
 					],

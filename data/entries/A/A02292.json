@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02292",
-	"slug": "אנקיינוס",
-	"headword": {
-		"text": "אנקיינוס"
-	},
+	"sefariaHeadword": "אנקיינוס",
+	"headwords": [
+		{
+			"text": "אנקיינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

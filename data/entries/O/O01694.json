@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01694",
-	"slug": "סתי",
-	"headword": {
-		"text": "סָתֵי"
-	},
+	"sefariaHeadword": "סָתֵי",
+	"headwords": [
+		{
+			"text": "סָתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00025",
-	"slug": "קב-2",
-	"headword": {
-		"text": "קַב"
-	},
+	"sefariaHeadword": "קַב",
+	"headwords": [
+		{
+			"text": "קַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1307,
 		"column": "a"

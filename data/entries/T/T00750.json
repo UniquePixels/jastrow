@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00750",
-	"slug": "רכבא-2",
-	"headword": {
-		"text": "רָכְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָכְבָא",
+	"headwords": [
+		{
+			"text": "רָכְבָא"
+		},
 		{
 			"text": "רַכָּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1479,
 		"column": "a"

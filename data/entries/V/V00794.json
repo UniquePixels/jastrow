@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00794",
-	"slug": "תערובת",
-	"headword": {
-		"text": "תַּעֲרוּבֶת"
-	},
+	"sefariaHeadword": "תַּעֲרוּבֶת",
+	"headwords": [
+		{
+			"text": "תַּעֲרוּבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "b"

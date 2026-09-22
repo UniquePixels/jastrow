@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00294",
-	"slug": "יחם-1",
-	"headword": {
-		"text": "יָחַם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יָחַם",
+	"headwords": [
+		{
+			"text": "יָחַם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 574,
 		"column": "b"

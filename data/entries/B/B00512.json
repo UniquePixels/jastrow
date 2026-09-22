@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00512",
-	"slug": "בטין",
-	"headword": {
-		"text": "בְּטֵין"
-	},
+	"sefariaHeadword": "בְּטֵין",
+	"headwords": [
+		{
+			"text": "בְּטֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 157,
 		"column": "a"

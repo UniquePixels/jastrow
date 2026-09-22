@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00945",
-	"slug": "קייץ-2",
-	"headword": {
-		"text": "קַיִיץ"
-	},
+	"sefariaHeadword": "קַיִיץ",
+	"headwords": [
+		{
+			"text": "קַיִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "b"

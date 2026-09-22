@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01245",
-	"slug": "בריבי",
-	"headword": {
-		"text": "בְּרִיבִּי"
-	},
+	"sefariaHeadword": "בְּרִיבִּי",
+	"headwords": [
+		{
+			"text": "בְּרִיבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "a"

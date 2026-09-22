@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02249",
-	"slug": "אנלגין",
-	"headword": {
-		"text": "אנלגין"
-	},
+	"sefariaHeadword": "אנלגין",
+	"headwords": [
+		{
+			"text": "אנלגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "b"

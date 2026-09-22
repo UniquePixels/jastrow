@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00464",
-	"slug": "ליל-1",
-	"headword": {
-		"text": "ליל"
-	},
+	"sefariaHeadword": "ליל",
+	"headwords": [
+		{
+			"text": "ליל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

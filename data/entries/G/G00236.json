@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00236",
-	"slug": "זורד",
-	"headword": {
-		"text": "זורד"
-	},
+	"sefariaHeadword": "זורד",
+	"headwords": [
+		{
+			"text": "זורד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "b"

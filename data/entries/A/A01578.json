@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01578",
-	"slug": "איצטיוראן",
-	"headword": {
-		"text": "איצטיוראן"
-	},
+	"sefariaHeadword": "איצטיוראן",
+	"headwords": [
+		{
+			"text": "איצטיוראן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

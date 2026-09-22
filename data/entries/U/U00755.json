@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00755",
-	"slug": "שטיפה",
-	"headword": {
-		"text": "שְׁטִיפָה"
-	},
+	"sefariaHeadword": "שְׁטִיפָה",
+	"headwords": [
+		{
+			"text": "שְׁטִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1554,
 		"column": "a"

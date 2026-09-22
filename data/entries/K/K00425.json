@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00425",
-	"slug": "כותי-2",
-	"headword": {
-		"text": "כּוּתִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כּוּתִי II",
+	"headwords": [
+		{
+			"text": "כּוּתִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 627,
 		"column": "a"

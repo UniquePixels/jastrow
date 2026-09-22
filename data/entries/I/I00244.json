@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00244",
-	"slug": "טורסי",
-	"headword": {
-		"text": "טוּרְסִי"
-	},
+	"sefariaHeadword": "טוּרְסִי",
+	"headwords": [
+		{
+			"text": "טוּרְסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

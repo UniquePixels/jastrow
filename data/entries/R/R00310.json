@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00310",
-	"slug": "צידה",
-	"headword": {
-		"text": "צֵידָה"
-	},
+	"sefariaHeadword": "צֵידָה",
+	"headwords": [
+		{
+			"text": "צֵידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "b"

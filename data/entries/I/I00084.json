@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00084",
-	"slug": "טבעוני",
-	"headword": {
-		"text": "טִבְעוֹנִי"
-	},
+	"sefariaHeadword": "טִבְעוֹנִי",
+	"headwords": [
+		{
+			"text": "טִבְעוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 519,
 		"column": "a"

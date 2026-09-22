@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02708",
-	"slug": "אפיקומון",
-	"headword": {
-		"text": "אֶפִּיקוֹמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפִּיקוֹמוֹן",
+	"headwords": [
+		{
+			"text": "אֶפִּיקוֹמוֹן"
+		},
 		{
 			"text": "אֶפִּיקוֹמִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 104,
 		"column": "a"

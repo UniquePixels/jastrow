@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01286",
-	"slug": "מיקם",
-	"headword": {
-		"text": "מֵיקַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵיקַם",
+	"headwords": [
+		{
+			"text": "מֵיקַם"
+		},
 		{
 			"text": "מֵקַם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "b"

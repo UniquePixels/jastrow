@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00342",
-	"slug": "ייסי",
-	"headword": {
-		"text": "ייסי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ייסי",
+	"headwords": [
+		{
+			"text": "ייסי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

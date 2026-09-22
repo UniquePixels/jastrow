@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00609",
-	"slug": "עיניון",
-	"headword": {
-		"text": "עֵינָיָון"
-	},
+	"sefariaHeadword": "עֵינָיָון",
+	"headwords": [
+		{
+			"text": "עֵינָיָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "a"

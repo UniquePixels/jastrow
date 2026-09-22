@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00676",
-	"slug": "פילוטימיא",
-	"headword": {
-		"text": "פִּילוֹטִימְיָא"
-	},
+	"sefariaHeadword": "פִּילוֹטִימְיָא",
+	"headwords": [
+		{
+			"text": "פִּילוֹטִימְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

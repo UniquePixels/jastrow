@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01251",
-	"slug": "גרגישתא",
-	"headword": {
-		"text": "גַּרְגִּישְׁתָּא"
-	},
+	"sefariaHeadword": "גַּרְגִּישְׁתָּא",
+	"headwords": [
+		{
+			"text": "גַּרְגִּישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

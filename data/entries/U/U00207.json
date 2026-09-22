@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00207",
-	"slug": "שגב-1",
-	"headword": {
-		"text": "שָׂגַב"
-	},
+	"sefariaHeadword": "שָׂגַב",
+	"headwords": [
+		{
+			"text": "שָׂגַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1520,
 		"column": "b"

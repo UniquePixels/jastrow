@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00086",
-	"slug": "פגע-2",
-	"headword": {
-		"text": "פְּגַע",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגַע I",
+	"headwords": [
+		{
+			"text": "פְּגַע",
+			"homograph": 1
+		},
 		{
 			"text": "פְּגִיעַ"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1135,
 		"column": "a"

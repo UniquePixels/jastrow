@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00704",
-	"slug": "טרגול",
-	"headword": {
-		"text": "טרגול"
-	},
+	"sefariaHeadword": "טרגול",
+	"headwords": [
+		{
+			"text": "טרגול"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

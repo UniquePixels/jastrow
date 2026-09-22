@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00217",
-	"slug": "עוז-3",
-	"headword": {
-		"text": "עוֹז",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עוֹז II",
+	"headwords": [
+		{
+			"text": "עוֹז",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1049,
 		"column": "a"

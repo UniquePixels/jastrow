@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02061",
-	"slug": "אמר-2",
-	"headword": {
-		"text": "אֲמַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲמַר",
+	"headwords": [
+		{
+			"text": "אֲמַר"
+		},
 		{
 			"text": "אָמַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 79,
 		"column": "a"

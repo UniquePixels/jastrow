@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00144",
-	"slug": "זוותנא",
-	"headword": {
-		"text": "זֵוְותָּנָא"
-	},
+	"sefariaHeadword": "זֵוְותָּנָא",
+	"headwords": [
+		{
+			"text": "זֵוְותָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 385,
 		"column": "a"

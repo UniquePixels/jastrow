@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00081",
-	"slug": "לבישה",
-	"headword": {
-		"text": "לְבִישָׁה"
-	},
+	"sefariaHeadword": "לְבִישָׁה",
+	"headwords": [
+		{
+			"text": "לְבִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

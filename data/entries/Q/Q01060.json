@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01060",
-	"slug": "פליל",
-	"headword": {
-		"text": "פָּלִיל"
-	},
+	"sefariaHeadword": "פָּלִיל",
+	"headwords": [
+		{
+			"text": "פָּלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

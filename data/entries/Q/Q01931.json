@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01931",
-	"slug": "פרסים",
-	"headword": {
-		"text": "פַּרְסֵים"
-	},
+	"sefariaHeadword": "פַּרְסֵים",
+	"headwords": [
+		{
+			"text": "פַּרְסֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1234,
 		"column": "a"

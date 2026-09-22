@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02206",
-	"slug": "קרתויים",
-	"headword": {
-		"text": "קַרְתּוּיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְתּוּיִים",
+	"headwords": [
+		{
+			"text": "קַרְתּוּיִים"
+		},
 		{
 			"text": "קַרְתּוּיִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1428,
 		"column": "b"

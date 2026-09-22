@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01685",
-	"slug": "שער-7",
-	"headword": {
-		"text": "שְׂעַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׂעַר ²",
+	"headwords": [
+		{
+			"text": "שְׂעַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "שֵׂעָר"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1612,
 		"column": "b"

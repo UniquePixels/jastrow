@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00754",
-	"slug": "ניצוק",
-	"headword": {
-		"text": "נִיצּוֹק"
-	},
+	"sefariaHeadword": "נִיצּוֹק",
+	"headwords": [
+		{
+			"text": "נִיצּוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

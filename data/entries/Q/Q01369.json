@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01369",
-	"slug": "פסתיין",
-	"headword": {
-		"text": "פסתיין"
-	},
+	"sefariaHeadword": "פסתיין",
+	"headwords": [
+		{
+			"text": "פסתיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

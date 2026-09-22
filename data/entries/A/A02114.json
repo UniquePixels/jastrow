@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02114",
-	"slug": "אנדיפא",
-	"headword": {
-		"text": "אַנְדִּיפָא"
-	},
+	"sefariaHeadword": "אַנְדִּיפָא",
+	"headwords": [
+		{
+			"text": "אַנְדִּיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01149",
-	"slug": "כרטוסה",
-	"headword": {
-		"text": "כרטוסה"
-	},
+	"sefariaHeadword": "כרטוסה",
+	"headwords": [
+		{
+			"text": "כרטוסה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 666,
 		"column": "a"

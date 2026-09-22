@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01476",
-	"slug": "שמיעא-2",
-	"headword": {
-		"text": "שְׁמִיעָא"
-	},
+	"sefariaHeadword": "שְׁמִיעָא",
+	"headwords": [
+		{
+			"text": "שְׁמִיעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1596,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00902",
-	"slug": "טרקנין",
-	"headword": {
-		"text": "טרקנין"
-	},
+	"sefariaHeadword": "טרקנין",
+	"headwords": [
+		{
+			"text": "טרקנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

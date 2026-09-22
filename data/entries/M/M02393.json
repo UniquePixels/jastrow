@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02393",
-	"slug": "מקולס",
-	"headword": {
-		"text": "מְקוּלָּס"
-	},
+	"sefariaHeadword": "מְקוּלָּס",
+	"headwords": [
+		{
+			"text": "מְקוּלָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "b"

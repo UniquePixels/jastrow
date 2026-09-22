@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00876",
-	"slug": "בליעתא",
-	"headword": {
-		"text": "בְּלִיעֲתָא"
-	},
+	"sefariaHeadword": "בְּלִיעֲתָא",
+	"headwords": [
+		{
+			"text": "בְּלִיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

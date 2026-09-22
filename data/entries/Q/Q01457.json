@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01457",
-	"slug": "פקודה",
-	"headword": {
-		"text": "פְּקוּדָּה"
-	},
+	"sefariaHeadword": "פְּקוּדָּה",
+	"headwords": [
+		{
+			"text": "פְּקוּדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

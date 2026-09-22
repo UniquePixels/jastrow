@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00933",
-	"slug": "שיל",
-	"headword": {
-		"text": "שְׁיֵל"
-	},
+	"sefariaHeadword": "שְׁיֵל",
+	"headwords": [
+		{
+			"text": "שְׁיֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "b"

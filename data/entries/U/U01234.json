@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01234",
-	"slug": "שלוב",
-	"headword": {
-		"text": "שְׁלוּב"
-	},
+	"sefariaHeadword": "שְׁלוּב",
+	"headwords": [
+		{
+			"text": "שְׁלוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1578,
 		"column": "b"

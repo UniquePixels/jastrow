@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01015",
-	"slug": "בסרייא",
-	"headword": {
-		"text": "בסרייא"
-	},
+	"sefariaHeadword": "בסרייא",
+	"headwords": [
+		{
+			"text": "בסרייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "a"

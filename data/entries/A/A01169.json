@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01169",
-	"slug": "אידר",
-	"headword": {
-		"text": "אִידַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִידַּר",
+	"headwords": [
+		{
+			"text": "אִידַּר"
+		},
 		{
 			"text": "אִידְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 45,
 		"column": "b"

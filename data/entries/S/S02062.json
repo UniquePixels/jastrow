@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02062",
-	"slug": "קרימיון",
-	"headword": {
-		"text": "קרימיון"
-	},
+	"sefariaHeadword": "קרימיון",
+	"headwords": [
+		{
+			"text": "קרימיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

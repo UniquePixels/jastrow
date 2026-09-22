@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00657",
-	"slug": "חיבוצא",
-	"headword": {
-		"text": "חִיבּוּצָא"
-	},
+	"sefariaHeadword": "חִיבּוּצָא",
+	"headwords": [
+		{
+			"text": "חִיבּוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 451,
 		"column": "a"

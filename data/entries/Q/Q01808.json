@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01808",
-	"slug": "פריכורין",
-	"headword": {
-		"text": "פְּרִיכוֹרִין"
-	},
+	"sefariaHeadword": "פְּרִיכוֹרִין",
+	"headwords": [
+		{
+			"text": "פְּרִיכוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "b"

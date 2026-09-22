@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00522",
-	"slug": "צללא-1",
-	"headword": {
-		"text": "צְלָלָא"
-	},
+	"sefariaHeadword": "צְלָלָא",
+	"headwords": [
+		{
+			"text": "צְלָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01854",
-	"slug": "פרכוניס",
-	"headword": {
-		"text": "פרכוניס"
-	},
+	"sefariaHeadword": "פרכוניס",
+	"headwords": [
+		{
+			"text": "פרכוניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

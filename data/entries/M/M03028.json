@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03028",
-	"slug": "מתונא",
-	"headword": {
-		"text": "מְתוּנָּא"
-	},
+	"sefariaHeadword": "מְתוּנָּא",
+	"headwords": [
+		{
+			"text": "מְתוּנָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "b"

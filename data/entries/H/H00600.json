@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00600",
-	"slug": "חטולים",
-	"headword": {
-		"text": "חֲטוּלִים"
-	},
+	"sefariaHeadword": "חֲטוּלִים",
+	"headwords": [
+		{
+			"text": "חֲטוּלִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 448,
 		"column": "a"

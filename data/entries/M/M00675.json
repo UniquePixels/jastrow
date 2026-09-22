@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00675",
-	"slug": "מורשה",
-	"headword": {
-		"text": "מוֹרָשָׁה"
-	},
+	"sefariaHeadword": "מוֹרָשָׁה",
+	"headwords": [
+		{
+			"text": "מוֹרָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

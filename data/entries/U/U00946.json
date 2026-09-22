@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00946",
-	"slug": "שילטון",
-	"headword": {
-		"text": "שִׁילטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁילטוֹן",
+	"headwords": [
+		{
+			"text": "שִׁילטוֹן"
+		},
 		{
 			"text": "שִׁילְטוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "a"

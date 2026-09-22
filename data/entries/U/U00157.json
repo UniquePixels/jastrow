@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00157",
-	"slug": "שבע-3",
-	"headword": {
-		"text": "שָׁבַע"
-	},
+	"sefariaHeadword": "שָׁבַע",
+	"headwords": [
+		{
+			"text": "שָׁבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "b"

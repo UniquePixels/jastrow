@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00464",
-	"slug": "זכירה",
-	"headword": {
-		"text": "זְכִירָה"
-	},
+	"sefariaHeadword": "זְכִירָה",
+	"headwords": [
+		{
+			"text": "זְכִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 399,
 		"column": "b"

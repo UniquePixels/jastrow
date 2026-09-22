@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00691",
-	"slug": "עירית",
-	"headword": {
-		"text": "עִירִית"
-	},
+	"sefariaHeadword": "עִירִית",
+	"headwords": [
+		{
+			"text": "עִירִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

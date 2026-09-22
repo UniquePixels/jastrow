@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01948",
-	"slug": "קרומית-1",
-	"headword": {
-		"text": "קְרוֹמִית"
-	},
+	"sefariaHeadword": "קְרוֹמִית",
+	"headwords": [
+		{
+			"text": "קְרוֹמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

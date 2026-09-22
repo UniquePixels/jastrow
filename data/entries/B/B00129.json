@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00129",
-	"slug": "בדי-1",
-	"headword": {
-		"text": "בדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בדי",
+	"headwords": [
+		{
+			"text": "בדי"
+		},
 		{
 			"text": "בָּדָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּדָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 139,
 		"column": "b"

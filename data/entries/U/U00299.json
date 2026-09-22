@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00299",
-	"slug": "שהי-1",
-	"headword": {
-		"text": "שהי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שהי",
+	"headwords": [
+		{
+			"text": "שהי"
+		},
 		{
 			"text": "שָׁהָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "שָׁהָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1526,
 		"column": "b"

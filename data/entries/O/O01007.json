@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01007",
-	"slug": "סלמינטין",
-	"headword": {
-		"text": "סלמינטין"
-	},
+	"sefariaHeadword": "סלמינטין",
+	"headwords": [
+		{
+			"text": "סלמינטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "b"

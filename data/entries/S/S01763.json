@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01763",
-	"slug": "קפסא",
-	"headword": {
-		"text": "קַפְסָא"
-	},
+	"sefariaHeadword": "קַפְסָא",
+	"headwords": [
+		{
+			"text": "קַפְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

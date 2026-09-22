@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "E00590",
-	"slug": "המגניא",
-	"headword": {
-		"text": "הַמְגַּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַמְגַּנְיָא",
+	"headwords": [
+		{
+			"text": "הַמְגַּנְיָא"
+		},
 		{
 			"text": "הַמְגַּנְיָיה"
 		},
 		{
-			"text": "בֵּית הַמְגַּנְיָא"
+			"text": "בֵּית ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 354,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

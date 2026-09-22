@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00437",
-	"slug": "רוקבא-3",
-	"headword": {
-		"text": "רוּקְבָּא"
-	},
+	"sefariaHeadword": "רוּקְבָּא",
+	"headwords": [
+		{
+			"text": "רוּקְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "b"

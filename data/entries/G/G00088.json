@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00088",
-	"slug": "זהונייא",
-	"headword": {
-		"text": "זהונייא"
-	},
+	"sefariaHeadword": "זהונייא",
+	"headwords": [
+		{
+			"text": "זהונייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

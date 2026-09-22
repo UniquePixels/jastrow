@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02351",
-	"slug": "מצק",
-	"headword": {
-		"text": "מָצַּק"
-	},
+	"sefariaHeadword": "מָצַּק",
+	"headwords": [
+		{
+			"text": "מָצַּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

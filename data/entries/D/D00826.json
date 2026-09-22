@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00826",
-	"slug": "דלט׳",
-	"headword": {
-		"text": "דִּלָט׳"
-	},
+	"sefariaHeadword": "דִּלָט׳",
+	"headwords": [
+		{
+			"text": "דִּלָט׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "b"

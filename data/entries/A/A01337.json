@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01337",
-	"slug": "אימטין",
-	"headword": {
-		"text": "אִימְּטִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִימְּטִין",
+	"headwords": [
+		{
+			"text": "אִימְּטִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 50,
 		"column": "b"

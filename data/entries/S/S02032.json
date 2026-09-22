@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02032",
-	"slug": "קריב-1",
-	"headword": {
-		"text": "קְרֵיב"
-	},
+	"sefariaHeadword": "קְרֵיב",
+	"headwords": [
+		{
+			"text": "קְרֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "b"

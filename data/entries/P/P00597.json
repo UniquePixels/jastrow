@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00597",
-	"slug": "עימעם",
-	"headword": {
-		"text": "עִימְעֵם"
-	},
+	"sefariaHeadword": "עִימְעֵם",
+	"headwords": [
+		{
+			"text": "עִימְעֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1071,
 		"column": "a"

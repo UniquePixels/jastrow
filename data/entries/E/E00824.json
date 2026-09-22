@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00824",
-	"slug": "הרדוליס",
-	"headword": {
-		"text": "הִרְדַּוְלִיס"
-	},
+	"sefariaHeadword": "הִרְדַּוְלִיס",
+	"headwords": [
+		{
+			"text": "הִרְדַּוְלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

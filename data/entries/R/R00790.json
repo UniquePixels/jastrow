@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00790",
-	"slug": "צרם",
-	"headword": {
-		"text": "צָרַם"
-	},
+	"sefariaHeadword": "צָרַם",
+	"headwords": [
+		{
+			"text": "צָרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1303,
 		"column": "a"

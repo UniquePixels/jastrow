@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01360",
-	"slug": "כתילקין",
-	"headword": {
-		"text": "כתילקין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כתילקין",
+	"headwords": [
+		{
+			"text": "כתילקין"
+		},
 		{
 			"text": "כתליקין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 681,
 		"column": "a"

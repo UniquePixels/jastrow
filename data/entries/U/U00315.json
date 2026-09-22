@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00315",
-	"slug": "שובדא",
-	"headword": {
-		"text": "שובדא"
-	},
+	"sefariaHeadword": "שובדא",
+	"headwords": [
+		{
+			"text": "שובדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "b"

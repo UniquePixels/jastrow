@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00883",
-	"slug": "נמנומא",
-	"headword": {
-		"text": "נַמְנוּמָא"
-	},
+	"sefariaHeadword": "נַמְנוּמָא",
+	"headwords": [
+		{
+			"text": "נַמְנוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

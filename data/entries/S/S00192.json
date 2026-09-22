@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00192",
-	"slug": "קדש-2",
-	"headword": {
-		"text": "קָדַשׁ"
-	},
+	"sefariaHeadword": "קָדַשׁ",
+	"headwords": [
+		{
+			"text": "קָדַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1319,
 		"column": "a"

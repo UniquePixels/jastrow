@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H01003",
-	"slug": "חלוצא",
-	"headword": {
-		"text": "חֲלוּצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלוּצָא",
+	"headwords": [
+		{
+			"text": "חֲלוּצָא"
+		},
 		{
 			"text": "חֲלוּצָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 465,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01256",
-	"slug": "איכן",
-	"headword": {
-		"text": "אֵיכַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵיכַן",
+	"headwords": [
+		{
+			"text": "אֵיכַן"
+		},
 		{
 			"text": "אֵיכָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "a"

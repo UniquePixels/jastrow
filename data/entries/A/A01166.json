@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01166",
-	"slug": "אידן",
-	"headword": {
-		"text": "אִידָּן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִידָּן",
+	"headwords": [
+		{
+			"text": "אִידָּן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

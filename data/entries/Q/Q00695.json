@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00695",
-	"slug": "פילי-2",
-	"headword": {
-		"text": "פִּילֵי"
-	},
+	"sefariaHeadword": "פִּילֵי",
+	"headwords": [
+		{
+			"text": "פִּילֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01679",
-	"slug": "שער-1",
-	"headword": {
-		"text": "שָׁעַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שָׁעַר I",
+	"headwords": [
+		{
+			"text": "שָׁעַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1612,
 		"column": "a"

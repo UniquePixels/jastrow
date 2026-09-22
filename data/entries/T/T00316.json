@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00316",
-	"slug": "רוגלות",
-	"headword": {
-		"text": "רוֹגְלוֹת"
-	},
+	"sefariaHeadword": "רוֹגְלוֹת",
+	"headwords": [
+		{
+			"text": "רוֹגְלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

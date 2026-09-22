@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02614",
-	"slug": "מרזב",
-	"headword": {
-		"text": "מַרְזֵב"
-	},
+	"sefariaHeadword": "מַרְזֵב",
+	"headwords": [
+		{
+			"text": "מַרְזֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

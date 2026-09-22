@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00708",
-	"slug": "חיטוי",
-	"headword": {
-		"text": "חִיטּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיטּוּי",
+	"headwords": [
+		{
+			"text": "חִיטּוּי"
+		},
 		{
 			"text": "חִטּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 453,
 		"column": "b"

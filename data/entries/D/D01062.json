@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01062",
-	"slug": "דרומילוס",
-	"headword": {
-		"text": "דרומילוס"
-	},
+	"sefariaHeadword": "דרומילוס",
+	"headwords": [
+		{
+			"text": "דרומילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

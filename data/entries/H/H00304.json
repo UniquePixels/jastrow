@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00304",
-	"slug": "חוטרא-1",
-	"headword": {
-		"text": "חוּטְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּטְרָא II",
+	"headwords": [
+		{
+			"text": "חוּטְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "חַטְרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 431,
 		"column": "b"

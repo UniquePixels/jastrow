@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00023",
-	"slug": "תאלי",
-	"headword": {
-		"text": "תָּאלֵי"
-	},
+	"sefariaHeadword": "תָּאלֵי",
+	"headwords": [
+		{
+			"text": "תָּאלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

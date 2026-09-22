@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A03075",
-	"slug": "ארטסיס",
-	"headword": {
-		"text": "ארטסיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*ארטסיס",
+	"headwords": [
+		{
+			"text": "ארטסיס",
+			"reconstructed": true
+		},
 		{
 			"text": "ארסטוס"
 		},
@@ -13,6 +14,7 @@
 			"text": "ארסיסיס"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 118,
 		"column": "a"

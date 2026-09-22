@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01352",
-	"slug": "גרם-4",
-	"headword": {
-		"text": "גָּרָם"
-	},
+	"sefariaHeadword": "גָּרָם",
+	"headwords": [
+		{
+			"text": "גָּרָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "a"

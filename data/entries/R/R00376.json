@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00376",
-	"slug": "צימוקא",
-	"headword": {
-		"text": "צִימּוּקָא"
-	},
+	"sefariaHeadword": "צִימּוּקָא",
+	"headwords": [
+		{
+			"text": "צִימּוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

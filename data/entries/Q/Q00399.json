@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00399",
-	"slug": "פושונה",
-	"headword": {
-		"text": "פושונה"
-	},
+	"sefariaHeadword": "פושונה",
+	"headwords": [
+		{
+			"text": "פושונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

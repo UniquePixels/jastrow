@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00330",
-	"slug": "בור-3",
-	"headword": {
-		"text": "בּוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בּוּר II",
+	"headwords": [
+		{
+			"text": "בּוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 148,
 		"column": "b"

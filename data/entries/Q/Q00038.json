@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00038",
-	"slug": "פגא-2",
-	"headword": {
-		"text": "פַּגָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פַּגָּא II",
+	"headwords": [
+		{
+			"text": "פַּגָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1132,
 		"column": "a"

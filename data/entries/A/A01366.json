@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01366",
-	"slug": "אינא-2",
-	"headword": {
-		"text": "אִינָא"
-	},
+	"sefariaHeadword": "אִינָא",
+	"headwords": [
+		{
+			"text": "אִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00496",
-	"slug": "שופטא",
-	"headword": {
-		"text": "שׁוּפְטָא"
-	},
+	"sefariaHeadword": "שׁוּפְטָא",
+	"headwords": [
+		{
+			"text": "שׁוּפְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1539,
 		"column": "b"

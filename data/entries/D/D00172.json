@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00172",
-	"slug": "דוב-3",
-	"headword": {
-		"text": "דּוֹב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹב ²",
+	"headwords": [
+		{
+			"text": "דּוֹב",
+			"disambiguator": 2
+		},
 		{
 			"text": "דֹּב"
 		},
@@ -13,6 +14,7 @@
 			"text": "דּוּבָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 282,
 		"column": "a"

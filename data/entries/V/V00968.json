@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00968",
-	"slug": "תרועייא",
-	"headword": {
-		"text": "תְּרוֹעָיָיא"
-	},
+	"sefariaHeadword": "תְּרוֹעָיָיא",
+	"headwords": [
+		{
+			"text": "תְּרוֹעָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

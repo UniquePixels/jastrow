@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00909",
-	"slug": "פך",
-	"headword": {
-		"text": "פַּךְ"
-	},
+	"sefariaHeadword": "פַּךְ",
+	"headwords": [
+		{
+			"text": "פַּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "b"

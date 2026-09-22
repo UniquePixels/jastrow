@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00015",
-	"slug": "קאמא",
-	"headword": {
-		"text": "קָאמָא"
-	},
+	"sefariaHeadword": "קָאמָא",
+	"headwords": [
+		{
+			"text": "קָאמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "b"

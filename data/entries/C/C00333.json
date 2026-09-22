@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00333",
-	"slug": "גוולנה",
-	"headword": {
-		"text": "גוולנה"
-	},
+	"sefariaHeadword": "גוולנה",
+	"headwords": [
+		{
+			"text": "גוולנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "b"

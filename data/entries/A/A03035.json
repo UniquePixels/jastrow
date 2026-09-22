@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03035",
-	"slug": "ארונא",
-	"headword": {
-		"text": "אֲרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרוֹנָא",
+	"headwords": [
+		{
+			"text": "אֲרוֹנָא"
+		},
 		{
 			"text": "אֲרוֹנָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 117,
 		"column": "a"

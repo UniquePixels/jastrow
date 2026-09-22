@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03026",
-	"slug": "ארוך",
-	"headword": {
-		"text": "אָרוּךְ"
-	},
+	"sefariaHeadword": "אָרוּךְ",
+	"headwords": [
+		{
+			"text": "אָרוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "b"

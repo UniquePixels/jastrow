@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02508",
-	"slug": "אספסיאני",
-	"headword": {
-		"text": "אִסְפַּסְיָאנִי"
-	},
+	"sefariaHeadword": "אִסְפַּסְיָאנִי",
+	"headwords": [
+		{
+			"text": "אִסְפַּסְיָאנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01396",
-	"slug": "ספסירותא",
-	"headword": {
-		"text": "סַפְסִירוּתָא"
-	},
+	"sefariaHeadword": "סַפְסִירוּתָא",
+	"headwords": [
+		{
+			"text": "סַפְסִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "a"

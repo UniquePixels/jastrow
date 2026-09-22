@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00260",
-	"slug": "חודאי",
-	"headword": {
-		"text": "חוּדַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּדַאי",
+	"headwords": [
 		{
-			"text": "חוֹ׳"
+			"text": "חוּדַאי"
+		},
+		{
+			"text": "חוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 430,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01175",
-	"slug": "מילול",
-	"headword": {
-		"text": "מִילּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִילּוּל",
+	"headwords": [
+		{
+			"text": "מִילּוּל"
+		},
 		{
 			"text": "מִילּוּלָא"
 		},
 		{
-			"text": "מִלּ׳"
+			"text": "מִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 774,
 		"column": "b"

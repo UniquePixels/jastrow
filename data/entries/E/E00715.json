@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00715",
-	"slug": "העדפה",
-	"headword": {
-		"text": "הַעֲדָפָה"
-	},
+	"sefariaHeadword": "הַעֲדָפָה",
+	"headwords": [
+		{
+			"text": "הַעֲדָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "a"

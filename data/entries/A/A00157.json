@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00157",
-	"slug": "אבל-6",
-	"headword": {
-		"text": "אֵבֶל"
-	},
+	"sefariaHeadword": "אֵבֶל",
+	"headwords": [
+		{
+			"text": "אֵבֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 6,
 		"column": "b"

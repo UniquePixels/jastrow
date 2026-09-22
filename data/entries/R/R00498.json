@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00498",
-	"slug": "צלופחא",
-	"headword": {
-		"text": "צְלוֹפְחָא"
-	},
+	"sefariaHeadword": "צְלוֹפְחָא",
+	"headwords": [
+		{
+			"text": "צְלוֹפְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

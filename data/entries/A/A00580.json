@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00580",
-	"slug": "אוולם",
-	"headword": {
-		"text": "אוולם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוולם",
+	"headwords": [
+		{
+			"text": "אוולם"
+		},
 		{
 			"text": "אוולס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "a"

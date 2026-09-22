@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01877",
-	"slug": "חתומא",
-	"headword": {
-		"text": "חָתוֹמָא"
-	},
+	"sefariaHeadword": "חָתוֹמָא",
+	"headwords": [
+		{
+			"text": "חָתוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "b"

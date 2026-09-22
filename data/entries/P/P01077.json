@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01077",
-	"slug": "עפר-3",
-	"headword": {
-		"text": "עָפָר"
-	},
+	"sefariaHeadword": "עָפָר",
+	"headwords": [
+		{
+			"text": "עָפָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

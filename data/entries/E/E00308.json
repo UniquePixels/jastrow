@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00308",
-	"slug": "החלטה",
-	"headword": {
-		"text": "הַחֲלָטָה"
-	},
+	"sefariaHeadword": "הַחֲלָטָה",
+	"headwords": [
+		{
+			"text": "הַחֲלָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

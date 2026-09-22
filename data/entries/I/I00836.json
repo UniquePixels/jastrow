@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00836",
-	"slug": "טרכסיד",
-	"headword": {
-		"text": "טְרַכְסִיד"
-	},
+	"sefariaHeadword": "טְרַכְסִיד",
+	"headwords": [
+		{
+			"text": "טְרַכְסִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00717",
-	"slug": "העלם",
-	"headword": {
-		"text": "הֵעָלֵם"
-	},
+	"sefariaHeadword": "הֵעָלֵם",
+	"headwords": [
+		{
+			"text": "הֵעָלֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "a"

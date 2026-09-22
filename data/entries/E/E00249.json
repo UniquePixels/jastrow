@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00249",
-	"slug": "הונאה",
-	"headword": {
-		"text": "הוֹנָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוֹנָאָה",
+	"headwords": [
+		{
+			"text": "הוֹנָאָה"
+		},
 		{
 			"text": "הוֹנָיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 339,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00417",
-	"slug": "גומל",
-	"headword": {
-		"text": "גּוּמָּל"
-	},
+	"sefariaHeadword": "גּוּמָּל",
+	"headwords": [
+		{
+			"text": "גּוּמָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

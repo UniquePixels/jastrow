@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02132",
-	"slug": "שתף-2",
-	"headword": {
-		"text": "שְׁתַף"
-	},
+	"sefariaHeadword": "שְׁתַף",
+	"headwords": [
+		{
+			"text": "שְׁתַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1639,
 		"column": "b"

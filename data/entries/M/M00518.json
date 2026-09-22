@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00518",
-	"slug": "מומזר",
-	"headword": {
-		"text": "מומזר"
-	},
+	"sefariaHeadword": "מומזר",
+	"headwords": [
+		{
+			"text": "מומזר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00392",
-	"slug": "בורתידה",
-	"headword": {
-		"text": "בורתידה"
-	},
+	"sefariaHeadword": "בורתידה",
+	"headwords": [
+		{
+			"text": "בורתידה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "a"

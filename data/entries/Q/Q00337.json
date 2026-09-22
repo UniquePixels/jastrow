@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00337",
-	"slug": "פורזלא",
-	"headword": {
-		"text": "פּוּרְזְלָא"
-	},
+	"sefariaHeadword": "פּוּרְזְלָא",
+	"headwords": [
+		{
+			"text": "פּוּרְזְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

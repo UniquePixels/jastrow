@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00944",
-	"slug": "ענבה",
-	"headword": {
-		"text": "עֲנָבָה"
-	},
+	"sefariaHeadword": "עֲנָבָה",
+	"headwords": [
+		{
+			"text": "עֲנָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "b"

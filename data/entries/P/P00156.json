@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00156",
-	"slug": "עדן-5",
-	"headword": {
-		"text": "עדן"
-	},
+	"sefariaHeadword": "עדן",
+	"headwords": [
+		{
+			"text": "עדן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1045,
 		"column": "a"

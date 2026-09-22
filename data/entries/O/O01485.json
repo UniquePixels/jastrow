@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01485",
-	"slug": "סקל-1",
-	"headword": {
-		"text": "סָקַל"
-	},
+	"sefariaHeadword": "סָקַל",
+	"headwords": [
+		{
+			"text": "סָקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "b"

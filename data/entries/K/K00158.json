@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00158",
-	"slug": "כהיון",
-	"headword": {
-		"text": "כֵּהָיוֹן"
-	},
+	"sefariaHeadword": "כֵּהָיוֹן",
+	"headwords": [
+		{
+			"text": "כֵּהָיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "a"

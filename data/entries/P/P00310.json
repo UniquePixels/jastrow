@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00310",
-	"slug": "עוסקן",
-	"headword": {
-		"text": "עוֹסְקָן"
-	},
+	"sefariaHeadword": "עוֹסְקָן",
+	"headwords": [
+		{
+			"text": "עוֹסְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00029",
-	"slug": "לאקאי",
-	"headword": {
-		"text": "לאקאי"
-	},
+	"sefariaHeadword": "לאקאי",
+	"headwords": [
+		{
+			"text": "לאקאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "b"

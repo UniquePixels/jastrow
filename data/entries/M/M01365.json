@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01365",
-	"slug": "מכוש-1",
-	"headword": {
-		"text": "מַכּוֹשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַכּוֹשׁ I",
+	"headwords": [
+		{
+			"text": "מַכּוֹשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 781,
 		"column": "b"

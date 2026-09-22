@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00470",
-	"slug": "קוסטנטינוס",
-	"headword": {
-		"text": "קוּסְטַנְטִינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּסְטַנְטִינוֹס",
+	"headwords": [
 		{
-			"text": "קוּסְטַאנְטִ׳"
+			"text": "קוּסְטַנְטִינוֹס"
+		},
+		{
+			"text": "קוּסְטַאנְטִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1336,
 		"column": "b"

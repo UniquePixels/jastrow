@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03071",
-	"slug": "ארטיגוס",
-	"headword": {
-		"text": "ארטיגוס"
-	},
+	"sefariaHeadword": "ארטיגוס",
+	"headwords": [
+		{
+			"text": "ארטיגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

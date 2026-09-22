@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00310",
-	"slug": "חוי-3",
-	"headword": {
-		"text": "חִוֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִוֵּי",
+	"headwords": [
+		{
+			"text": "חִוֵּי"
+		},
 		{
 			"text": "חֵוֵי"
 		},
@@ -12,9 +13,11 @@
 			"text": "חִוְיָא"
 		},
 		{
-			"text": "חֵיְ׳"
+			"text": "חֵיְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 432,
 		"column": "a"

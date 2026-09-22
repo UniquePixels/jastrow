@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01085",
-	"slug": "גנבית",
-	"headword": {
-		"text": "גַּנָּבִית"
-	},
+	"sefariaHeadword": "גַּנָּבִית",
+	"headwords": [
+		{
+			"text": "גַּנָּבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 257,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00702",
-	"slug": "הסחוס",
-	"headword": {
-		"text": "הַסְחוּס"
-	},
+	"sefariaHeadword": "הַסְחוּס",
+	"headwords": [
+		{
+			"text": "הַסְחוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

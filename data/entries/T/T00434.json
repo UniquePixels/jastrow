@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "T00434",
-	"slug": "רוק-5",
-	"headword": {
-		"text": "רוֹק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוֹק ²",
+	"headwords": [
+		{
+			"text": "רוֹק",
+			"disambiguator": 2
+		},
 		{
 			"text": "רוּקָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "רוֹקָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1463,
 		"column": "b"

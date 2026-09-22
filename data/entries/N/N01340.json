@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01340",
-	"slug": "נשפא",
-	"headword": {
-		"text": "נִשְׁפָּא"
-	},
+	"sefariaHeadword": "נִשְׁפָּא",
+	"headwords": [
+		{
+			"text": "נִשְׁפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 941,
 		"column": "b"

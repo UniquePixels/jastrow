@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01040",
-	"slug": "נפיחה",
-	"headword": {
-		"text": "נְפִיחָה"
-	},
+	"sefariaHeadword": "נְפִיחָה",
+	"headwords": [
+		{
+			"text": "נְפִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00418",
-	"slug": "ליבלר",
-	"headword": {
-		"text": "לִיבְלָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיבְלָר",
+	"headwords": [
+		{
+			"text": "לִיבְלָר"
+		},
 		{
 			"text": "לִיבְלָרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 706,
 		"column": "a"

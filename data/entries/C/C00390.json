@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00390",
-	"slug": "גוליא",
-	"headword": {
-		"text": "גּוֹלְיָא"
-	},
+	"sefariaHeadword": "גּוֹלְיָא",
+	"headwords": [
+		{
+			"text": "גּוֹלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02285",
-	"slug": "מצוה-2",
-	"headword": {
-		"text": "מִצְוָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְוָה ²",
+	"headwords": [
+		{
+			"text": "מִצְוָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "מִצְוְותָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "מִצְוְתָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 824,
 		"column": "a"

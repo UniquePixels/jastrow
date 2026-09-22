@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00230",
-	"slug": "הוי-2",
-	"headword": {
-		"text": "הוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוי",
+	"headwords": [
+		{
+			"text": "הוי"
+		},
 		{
 			"text": "הָוָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הָיָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 338,
 		"column": "a"
@@ -25,7 +27,7 @@
 				"<cite ref=\"Pirkei Avot 1:13\">Ab. I, 13</cite> <he>הוא ה׳ אומר</he> the same used to say. ",
 				"<cite ref=\"Bereishit Rabbah 2:4\">Gen. R. s. 2</cite> <he>ה׳ ללמה ולא כלום</he> became a nothing; a. v. fr.—Apocopate forms: <he>אֱהִי</he>, <he>אֱהֵא</he>, <cite ref=\"V00123\"><he>תְּהִי</he></cite>, <cite ref=\"V00114\"><he>תְּהֵא</he></cite>, <cite ref=\"J00139\"><he>יְהִי</he></cite>, <he>יְהֵא</he>; <cite ref=\"V00117\"><he>תְּהוּ</he></cite> (= <he>תִּהְיוּ</he>), <he>יְהוּ</he> (= <he>יִהְיוּ</he>). ",
 				"<cite ref=\"Yoma 66b:3\">Yoma 66ᵇ</cite> <he>אהא בשלום אני נכ׳</he> (<cite ref=\"Tosefta Yoma 4:6\">Tosef. ib. IV</cite> (<cite ref=\"Tosefta Yoma 3:14\">III</cite>), 14 <he>נִהְיֶה</he>) may I and you be as well; Y. ib. VI, 43ᶜ bot. <he>כן תהו וכ׳</he> so may ye be well. ",
-				"<cite ref=\"Bava Metzia 35a:11\">B. Mets. 35ᵃ</cite> <he>תהא במאמינו</he> let this be (speak of a case) when he accepts his opponent’s statement; a. v. fr.—Part. <he>הוֶֹה</he>, <he>הוֶוֹה</he> "
+				"<cite ref=\"Bava Metzia 35a:11\">B. Mets. 35ᵃ</cite> <he>תהא במאמינו</he> let this be (speak of a case) when he accepts his opponent’s statement; a. v. fr.—Part. <he>הוֶֹה</he>, <he>הוֶוֹה</he> "
 			]
 		},
 		{
@@ -38,7 +40,7 @@
 		{
 			"gloss": "<i>existing, enduring</i>. ",
 			"units": [
-				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>, end <he>הם הווִֹים ודומים</he> [<he>להקב״ה</he>] they shall be existing for themselves (not merely as an attachment) and resembling [the Lord]; <cite ref=\"Pesikta Rabbati 11:1\">ib.</cite> <he>אף הם הווים אש וכ׳</he> they, too, shall endure as a consuming fire.—",
+				"<cite ref=\"Pesikta Rabbati 11:1\">Pesik. R. s. 11</cite>, end <he>הם הווִֹים ודומים</he> [<he>להקב״ה</he>] they shall be existing for themselves (not merely as an attachment) and resembling [the Lord]; <cite ref=\"Pesikta Rabbati 11:1\">ib.</cite> <he>אף הם הווים אש וכ׳</he> they, too, shall endure as a consuming fire.—",
 				"<cite ref=\"Shir HaShirim Rabbah 2:13:4\">Cant. R. to II, 13</cite> <he>עניות ירבה ויוקר הווה</he> (read <he>תרבה</he>) poverty shall increase, and prices remain high (different in <cite ref=\"Sanhedrin 97a:4\">Snh. 97ᵃ</cite> a. ",
 				"<cite ref=\"Sotah 49b:8\">Sot. 49ᵇ</cite>, v. <cite ref=\"A02062\"><he>אָמַר</he> II</cite>). <i>Imper</i>. <cite ref=\"E00231\"><he>הֱוֵי</he></cite>, <he>הֱוֵא</he>; pl. <cite ref=\"E00218\"><he>הֱווּ</he></cite>. ",
 				"<cite ref=\"Pirkei Avot 1:4\">Ab. I, 4</cite>. ",

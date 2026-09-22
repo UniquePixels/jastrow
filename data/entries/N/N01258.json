@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01258",
-	"slug": "נרגול",
-	"headword": {
-		"text": "נֵרְגוֹל"
-	},
+	"sefariaHeadword": "נֵרְגוֹל",
+	"headwords": [
+		{
+			"text": "נֵרְגוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

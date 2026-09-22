@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01966",
-	"slug": "שריד-2",
-	"headword": {
-		"text": "שריד"
-	},
+	"sefariaHeadword": "שריד",
+	"headwords": [
+		{
+			"text": "שריד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "a"

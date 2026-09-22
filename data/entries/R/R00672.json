@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00672",
-	"slug": "צפה-1",
-	"headword": {
-		"text": "צָפָה"
-	},
+	"sefariaHeadword": "צָפָה",
+	"headwords": [
+		{
+			"text": "צָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01764",
-	"slug": "מנחתא",
-	"headword": {
-		"text": "מִנְחָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנְחָתָא",
+	"headwords": [
 		{
-			"text": "מִנְחֲ׳"
+			"text": "מִנְחָתָא"
+		},
+		{
+			"text": "מִנְחֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 799,
 		"column": "a"

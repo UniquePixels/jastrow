@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00166",
-	"slug": "רגומא-1",
-	"headword": {
-		"text": "רָגוֹמָא"
-	},
+	"sefariaHeadword": "רָגוֹמָא",
+	"headwords": [
+		{
+			"text": "רָגוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

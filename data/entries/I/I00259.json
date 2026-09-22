@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00259",
-	"slug": "טחון",
-	"headword": {
-		"text": "טְחוֹן"
-	},
+	"sefariaHeadword": "טְחוֹן",
+	"headwords": [
+		{
+			"text": "טְחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

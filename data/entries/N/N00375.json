@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00375",
-	"slug": "נומיתא",
-	"headword": {
-		"text": "נוּמִיתָא"
-	},
+	"sefariaHeadword": "נוּמִיתָא",
+	"headwords": [
+		{
+			"text": "נוּמִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "a"

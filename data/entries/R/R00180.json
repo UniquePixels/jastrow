@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00180",
-	"slug": "צוויינות",
-	"headword": {
-		"text": "צוויינות"
-	},
+	"sefariaHeadword": "צוויינות",
+	"headwords": [
+		{
+			"text": "צוויינות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

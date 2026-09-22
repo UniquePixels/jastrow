@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02711",
-	"slug": "אפיקורוס",
-	"headword": {
-		"text": "אַפִּיקוֹרוֹס"
-	},
+	"sefariaHeadword": "אַפִּיקוֹרוֹס",
+	"headwords": [
+		{
+			"text": "אַפִּיקוֹרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00371",
-	"slug": "עושקא",
-	"headword": {
-		"text": "עוּשְׁקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּשְׁקָא",
+	"headwords": [
 		{
-			"text": "עוֹ׳"
+			"text": "עוּשְׁקָא"
+		},
+		{
+			"text": "עוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1059,
 		"column": "b"

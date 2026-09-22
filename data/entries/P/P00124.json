@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "P00124",
-	"slug": "עדה-2",
-	"headword": {
-		"text": "עֵדָה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*עֵדָה II",
+	"headwords": [
+		{
+			"text": "עֵדָה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1043,
 		"column": "a"

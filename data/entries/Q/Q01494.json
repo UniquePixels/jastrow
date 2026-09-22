@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01494",
-	"slug": "פקלוניא",
-	"headword": {
-		"text": "פקלוניא"
-	},
+	"sefariaHeadword": "פקלוניא",
+	"headwords": [
+		{
+			"text": "פקלוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "b"

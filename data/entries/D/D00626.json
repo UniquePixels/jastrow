@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00626",
-	"slug": "דימוסנאי",
-	"headword": {
-		"text": "דִּימוֹסְנָאֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*דִּימוֹסְנָאֵי",
+	"headwords": [
+		{
+			"text": "דִּימוֹסְנָאֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "דִּימְסוֹנָאֵי"
 		},
@@ -13,6 +14,7 @@
 			"text": "דימסנאי"
 		}
 	],
+	"display": "*{0}, {1}, ({2})",
 	"page": {
 		"number": 300,
 		"column": "b"

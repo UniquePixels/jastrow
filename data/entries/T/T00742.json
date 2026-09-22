@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00742",
-	"slug": "רך-1",
-	"headword": {
-		"text": "רַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רַךְ I",
+	"headwords": [
+		{
+			"text": "רַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1478,
 		"column": "b"

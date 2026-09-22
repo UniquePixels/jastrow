@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00631",
-	"slug": "חטייא-2",
-	"headword": {
-		"text": "חֶטְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶטְיָיא",
+	"headwords": [
+		{
+			"text": "חֶטְיָיא"
+		},
 		{
 			"text": "חֶטְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 449,
 		"column": "b"

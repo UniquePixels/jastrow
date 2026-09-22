@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00323",
-	"slug": "לוקניתא",
-	"headword": {
-		"text": "לוּקְנִיתָא"
-	},
+	"sefariaHeadword": "לוּקְנִיתָא",
+	"headwords": [
+		{
+			"text": "לוּקְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

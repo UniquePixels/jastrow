@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01675",
-	"slug": "סרקיא",
-	"headword": {
-		"text": "סַרְקָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְקָיָא",
+	"headwords": [
+		{
+			"text": "סַרְקָיָא"
+		},
 		{
 			"text": "סַרְקַיי"
 		},
@@ -15,9 +16,11 @@
 			"text": "סַרְקַאי"
 		},
 		{
-			"text": "סִירְ׳"
+			"text": "סִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1030,
 		"column": "b"

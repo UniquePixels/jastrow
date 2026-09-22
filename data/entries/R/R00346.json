@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00346",
-	"slug": "צייר-3",
-	"headword": {
-		"text": "צְיָיר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צְיָיר I",
+	"headwords": [
+		{
+			"text": "צְיָיר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1276,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

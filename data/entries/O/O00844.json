@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00844",
-	"slug": "סירחון",
-	"headword": {
-		"text": "סֵירָחוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵירָחוֹן",
+	"headwords": [
 		{
-			"text": "סֵרָ׳"
+			"text": "סֵירָחוֹן"
+		},
+		{
+			"text": "סֵרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "b"

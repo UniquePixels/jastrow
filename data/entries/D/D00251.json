@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00251",
-	"slug": "דוכנה",
-	"headword": {
-		"text": "דּוֹכְנָה"
-	},
+	"sefariaHeadword": "דּוֹכְנָה",
+	"headwords": [
+		{
+			"text": "דּוֹכְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 285,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00479",
-	"slug": "סטטירין",
-	"headword": {
-		"text": "סטטירין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סטטירין",
+	"headwords": [
+		{
+			"text": "סטטירין"
+		},
 		{
 			"text": "סטיטירין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 972,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00288",
-	"slug": "נהרדעאי",
-	"headword": {
-		"text": "נְהַרְדְּעָאִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהַרְדְּעָאִי",
+	"headwords": [
+		{
+			"text": "נְהַרְדְּעָאִי"
+		},
 		{
 			"text": "נְהַרְדָּעִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 883,
 		"column": "a"

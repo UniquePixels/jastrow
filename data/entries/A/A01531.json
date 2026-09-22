@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01531",
-	"slug": "איפה-1",
-	"headword": {
-		"text": "אֵיפָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֵיפָה I",
+	"headwords": [
+		{
+			"text": "אֵיפָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 58,
 		"column": "a"

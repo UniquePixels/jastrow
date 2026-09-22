@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00953",
-	"slug": "דפא",
-	"headword": {
-		"text": "דַּפָּא"
-	},
+	"sefariaHeadword": "דַּפָּא",
+	"headwords": [
+		{
+			"text": "דַּפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

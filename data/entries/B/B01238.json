@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01238",
-	"slug": "ברי-4",
-	"headword": {
-		"text": "ברי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ברי II",
+	"headwords": [
+		{
+			"text": "ברי",
+			"homograph": 2
+		},
 		{
 			"text": "בָּרָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 192,
 		"column": "b"

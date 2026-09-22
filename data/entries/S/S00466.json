@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00466",
-	"slug": "קוסטור",
-	"headword": {
-		"text": "קוּסְטוֹר"
-	},
+	"sefariaHeadword": "קוּסְטוֹר",
+	"headwords": [
+		{
+			"text": "קוּסְטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "b"

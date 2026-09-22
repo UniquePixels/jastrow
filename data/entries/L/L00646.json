@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00646",
-	"slug": "לפף-1",
-	"headword": {
-		"text": "לָפַף"
-	},
+	"sefariaHeadword": "לָפַף",
+	"headwords": [
+		{
+			"text": "לָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "b"

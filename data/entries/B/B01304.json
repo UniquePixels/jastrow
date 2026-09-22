@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "B01304",
-	"slug": "ברנש",
-	"headword": {
-		"text": "בַּרְנֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְנֵשׁ",
+	"headwords": [
+		{
+			"text": "בַּרְנֵשׁ"
+		},
 		{
 			"text": "בַּרְנֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 196,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

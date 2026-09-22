@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00092",
-	"slug": "פגר-3",
-	"headword": {
-		"text": "פְּגַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּגַר II",
+	"headwords": [
+		{
+			"text": "פְּגַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1135,
 		"column": "b"

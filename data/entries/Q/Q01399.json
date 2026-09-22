@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01399",
-	"slug": "פפא-2",
-	"headword": {
-		"text": "פַּפָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּפָּא II",
+	"headwords": [
 		{
-			"text": "נְהַר פּ׳"
+			"text": "פַּפָּא",
+			"homograph": 2
+		},
+		{
+			"text": "נְהַר פּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1203,
 		"column": "b"

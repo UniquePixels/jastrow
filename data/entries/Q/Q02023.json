@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02023",
-	"slug": "פרש-4",
-	"headword": {
-		"text": "פְּרַשׁ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פְּרַשׁ ²",
+	"headwords": [
+		{
+			"text": "פְּרַשׁ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1243,
 		"column": "a"

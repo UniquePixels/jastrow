@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00626",
-	"slug": "שחוק",
-	"headword": {
-		"text": "שְׂחוֹק"
-	},
+	"sefariaHeadword": "שְׂחוֹק",
+	"headwords": [
+		{
+			"text": "שְׂחוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "a"

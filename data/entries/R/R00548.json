@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00548",
-	"slug": "צלצלתא",
-	"headword": {
-		"text": "צִלְצַלְתָּא"
-	},
+	"sefariaHeadword": "צִלְצַלְתָּא",
+	"headwords": [
+		{
+			"text": "צִלְצַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "a"

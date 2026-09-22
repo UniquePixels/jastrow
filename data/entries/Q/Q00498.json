@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00498",
-	"slug": "פטולייא",
-	"headword": {
-		"text": "פְּטוּלְיָיא"
-	},
+	"sefariaHeadword": "פְּטוּלְיָיא",
+	"headwords": [
+		{
+			"text": "פְּטוּלְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

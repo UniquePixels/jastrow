@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01328",
-	"slug": "מיתון",
-	"headword": {
-		"text": "מִיתּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיתּוּן",
+	"headwords": [
 		{
-			"text": "מִתּ׳"
+			"text": "מִיתּוּן"
+		},
+		{
+			"text": "מִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 780,
 		"column": "b"

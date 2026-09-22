@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00216",
-	"slug": "דוון-2",
-	"headword": {
-		"text": "דְּוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּוָון",
+	"headwords": [
+		{
+			"text": "דְּוָון"
+		},
 		{
 			"text": "דָּווֹנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דְּוָונָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 284,
 		"column": "a"

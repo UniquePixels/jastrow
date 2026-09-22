@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01985",
-	"slug": "אמד-2",
-	"headword": {
-		"text": "אֲמַד"
-	},
+	"sefariaHeadword": "אֲמַד",
+	"headwords": [
+		{
+			"text": "אֲמַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

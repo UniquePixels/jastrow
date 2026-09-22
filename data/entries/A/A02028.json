@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02028",
-	"slug": "אמיתא",
-	"headword": {
-		"text": "אַמִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמִּיתָא",
+	"headwords": [
+		{
+			"text": "אַמִּיתָא"
+		},
 		{
 			"text": "חַמִּיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 77,
 		"column": "a"

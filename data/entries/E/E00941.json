@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00941",
-	"slug": "השתחואה",
-	"headword": {
-		"text": "הִשְׁתַּחֲוָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִשְׁתַּחֲוָאָה",
+	"headwords": [
+		{
+			"text": "הִשְׁתַּחֲוָאָה"
+		},
 		{
 			"text": "הִשְׁתַּחֲוָיָה"
 		},
@@ -12,9 +13,11 @@
 			"text": "וָיָיה"
 		},
 		{
-			"text": "הִשְׁתַּחֲוָו׳"
+			"text": "הִשְׁתַּחֲוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 370,
 		"column": "b"

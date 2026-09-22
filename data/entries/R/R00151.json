@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00151",
-	"slug": "צואר",
-	"headword": {
-		"text": "צַוָּאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַוָּאר",
+	"headwords": [
+		{
+			"text": "צַוָּאר"
+		},
 		{
 			"text": "צַוָּואר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1265,
 		"column": "a"

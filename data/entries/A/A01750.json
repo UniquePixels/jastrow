@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01750",
-	"slug": "אכרגא",
-	"headword": {
-		"text": "אֲכַרְגָּא"
-	},
+	"sefariaHeadword": "אֲכַרְגָּא",
+	"headwords": [
+		{
+			"text": "אֲכַרְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

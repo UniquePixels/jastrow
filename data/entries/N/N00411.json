@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00411",
-	"slug": "נוקל",
-	"headword": {
-		"text": "נוקל"
-	},
+	"sefariaHeadword": "נוקל",
+	"headwords": [
+		{
+			"text": "נוקל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

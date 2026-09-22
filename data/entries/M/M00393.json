@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00393",
-	"slug": "מובל",
-	"headword": {
-		"text": "מוּבָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּבָל",
+	"headwords": [
+		{
+			"text": "מוּבָל"
+		},
 		{
 			"text": "מוּבְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "a"

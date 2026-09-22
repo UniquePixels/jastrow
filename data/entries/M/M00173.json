@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00173",
-	"slug": "מגירוס",
-	"headword": {
-		"text": "מגִירוֹס"
-	},
+	"sefariaHeadword": "מגִירוֹס",
+	"headwords": [
+		{
+			"text": "מגִירוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "b"

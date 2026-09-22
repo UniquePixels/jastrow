@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00667",
-	"slug": "אולוסיריקא",
-	"headword": {
-		"text": "אוֹלוֹסֵירִיקָא"
-	},
+	"sefariaHeadword": "אוֹלוֹסֵירִיקָא",
+	"headwords": [
+		{
+			"text": "אוֹלוֹסֵירִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

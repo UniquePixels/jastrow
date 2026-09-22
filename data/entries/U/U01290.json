@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01290",
-	"slug": "שלי-1",
-	"headword": {
-		"text": "שלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שלי",
+	"headwords": [
+		{
+			"text": "שלי"
+		},
 		{
 			"text": "שָׁלָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1582,
 		"column": "a"

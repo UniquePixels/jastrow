@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00977",
-	"slug": "תרי-1",
-	"headword": {
-		"text": "תָּרַי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תָּרַי",
+	"headwords": [
+		{
+			"text": "תָּרַי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1697,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

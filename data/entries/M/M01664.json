@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01664",
-	"slug": "ממזרת",
-	"headword": {
-		"text": "מַמְזֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַמְזֶרֶת",
+	"headwords": [
+		{
+			"text": "מַמְזֶרֶת"
+		},
 		{
 			"text": "מַמְזֵרְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַמְזֵרְתָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 795,
 		"column": "a"

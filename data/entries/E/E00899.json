@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00899",
-	"slug": "הרצאה",
-	"headword": {
-		"text": "הַרְצָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְצָאָה",
+	"headwords": [
+		{
+			"text": "הַרְצָאָה"
+		},
 		{
 			"text": "הַרְצָיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 368,
 		"column": "b"

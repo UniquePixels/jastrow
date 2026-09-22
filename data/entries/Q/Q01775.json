@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01775",
-	"slug": "פרטטא",
-	"headword": {
-		"text": "פְּרָטָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרָטָטָא",
+	"headwords": [
+		{
+			"text": "פְּרָטָטָא"
+		},
 		{
 			"text": "פְּרָטָאטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּרָאטָאטָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1225,
 		"column": "a"

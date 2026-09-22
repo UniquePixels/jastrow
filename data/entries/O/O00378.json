@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00378",
-	"slug": "סוסתא",
-	"headword": {
-		"text": "סוסתא"
-	},
+	"sefariaHeadword": "סוסתא",
+	"headwords": [
+		{
+			"text": "סוסתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "b"

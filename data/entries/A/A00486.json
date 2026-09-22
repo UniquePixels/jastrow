@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00486",
-	"slug": "אהו",
-	"headword": {
-		"text": "אהו"
-	},
+	"sefariaHeadword": "אהו",
+	"headwords": [
+		{
+			"text": "אהו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "b"

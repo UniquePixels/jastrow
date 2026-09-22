@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00397",
-	"slug": "מוגדלא",
-	"headword": {
-		"text": "מוּגְדְּלָא"
-	},
+	"sefariaHeadword": "מוּגְדְּלָא",
+	"headwords": [
+		{
+			"text": "מוּגְדְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

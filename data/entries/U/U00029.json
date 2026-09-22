@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00029",
-	"slug": "שאיר",
-	"headword": {
-		"text": "שְׁאֵיר"
-	},
+	"sefariaHeadword": "שְׁאֵיר",
+	"headwords": [
+		{
+			"text": "שְׁאֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

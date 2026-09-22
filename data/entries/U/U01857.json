@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01857",
-	"slug": "שקיותא",
-	"headword": {
-		"text": "שַׁקְיוּתָא"
-	},
+	"sefariaHeadword": "שַׁקְיוּתָא",
+	"headwords": [
+		{
+			"text": "שַׁקְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "b"

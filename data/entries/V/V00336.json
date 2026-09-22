@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00336",
-	"slug": "תותא",
-	"headword": {
-		"text": "תּוּתָא"
-	},
+	"sefariaHeadword": "תּוּתָא",
+	"headwords": [
+		{
+			"text": "תּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "b"

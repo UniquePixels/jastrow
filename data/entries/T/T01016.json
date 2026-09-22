@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01016",
-	"slug": "רקבון",
-	"headword": {
-		"text": "רִקָּבוֹן"
-	},
+	"sefariaHeadword": "רִקָּבוֹן",
+	"headwords": [
+		{
+			"text": "רִקָּבוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "a"

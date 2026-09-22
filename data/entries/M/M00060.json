@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00060",
-	"slug": "מאר",
-	"headword": {
-		"text": "מָאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָאר",
+	"headwords": [
+		{
+			"text": "מָאר"
+		},
 		{
 			"text": "מָארָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 724,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01539",
-	"slug": "עתירה-3",
-	"headword": {
-		"text": "עַתִּירָה"
-	},
+	"sefariaHeadword": "עַתִּירָה",
+	"headwords": [
+		{
+			"text": "עַתִּירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1129,
 		"column": "b"

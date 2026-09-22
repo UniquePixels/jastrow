@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01228",
-	"slug": "כרם-1",
-	"headword": {
-		"text": "כָּרַם"
-	},
+	"sefariaHeadword": "כָּרַם",
+	"headwords": [
+		{
+			"text": "כָּרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "a"

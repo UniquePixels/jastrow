@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00958",
-	"slug": "אזדעזעותא",
-	"headword": {
-		"text": "אִזְדַּעֲזָעוּתָא"
-	},
+	"sefariaHeadword": "אִזְדַּעֲזָעוּתָא",
+	"headwords": [
+		{
+			"text": "אִזְדַּעֲזָעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00474",
-	"slug": "ליליינוס",
-	"headword": {
-		"text": "לִילְיָינוֹס"
-	},
+	"sefariaHeadword": "לִילְיָינוֹס",
+	"headwords": [
+		{
+			"text": "לִילְיָינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

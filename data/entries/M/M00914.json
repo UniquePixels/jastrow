@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00914",
-	"slug": "מחפ״ז",
-	"headword": {
-		"text": "מחפ״ז"
-	},
+	"sefariaHeadword": "מחפ\"ז",
+	"headwords": [
+		{
+			"text": "מחפ״ז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

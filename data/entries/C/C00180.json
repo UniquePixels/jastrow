@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00180",
-	"slug": "גדול-1",
-	"headword": {
-		"text": "גָּדוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּדוֹל",
+	"headwords": [
+		{
+			"text": "גָּדוֹל"
+		},
 		{
 			"text": "גְּדוֹלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 211,
 		"column": "a"

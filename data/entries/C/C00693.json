@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00693",
-	"slug": "גיחון",
-	"headword": {
-		"text": "גִּיחוֹן"
-	},
+	"sefariaHeadword": "גִּיחוֹן",
+	"headwords": [
+		{
+			"text": "גִּיחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

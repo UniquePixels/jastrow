@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00222",
-	"slug": "טורזינא",
-	"headword": {
-		"text": "טוּרְזַיָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְזַיָּנָא",
+	"headwords": [
 		{
-			"text": "טַרְ׳"
+			"text": "טוּרְזַיָּנָא"
+		},
+		{
+			"text": "טַרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 526,
 		"column": "b"

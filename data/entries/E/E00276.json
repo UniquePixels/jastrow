@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00276",
-	"slug": "הורה-2",
-	"headword": {
-		"text": "הוֹרָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הוֹרָה II",
+	"headwords": [
+		{
+			"text": "הוֹרָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 341,
 		"column": "a"

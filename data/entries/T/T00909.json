@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00909",
-	"slug": "רעם-2",
-	"headword": {
-		"text": "רְעַם",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעַם I",
+	"headwords": [
+		{
+			"text": "רְעַם",
+			"homograph": 1
+		},
 		{
 			"text": "רְעֵם"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1487,
 		"column": "b"

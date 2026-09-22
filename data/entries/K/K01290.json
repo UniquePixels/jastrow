@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01290",
-	"slug": "כרתינון",
-	"headword": {
-		"text": "כְּרֵתִינוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרֵתִינוֹן",
+	"headwords": [
 		{
-			"text": "כְּרֵיתִ׳"
+			"text": "כְּרֵתִינוֹן"
+		},
+		{
+			"text": "כְּרֵיתִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 675,
 		"column": "a"

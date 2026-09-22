@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00512",
-	"slug": "גותנא",
-	"headword": {
-		"text": "גַּוְתָנָא"
-	},
+	"sefariaHeadword": "גַּוְתָנָא",
+	"headwords": [
+		{
+			"text": "גַּוְתָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "a"

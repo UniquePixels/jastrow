@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00389",
-	"slug": "סוף-6",
-	"headword": {
-		"text": "סוֹף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹף ²",
+	"headwords": [
+		{
+			"text": "סוֹף",
+			"disambiguator": 2
+		},
 		{
 			"text": "סוֹפָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 968,
 		"column": "a"

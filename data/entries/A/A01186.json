@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01186",
-	"slug": "איויא",
-	"headword": {
-		"text": "אִיוְיָא"
-	},
+	"sefariaHeadword": "אִיוְיָא",
+	"headwords": [
+		{
+			"text": "אִיוְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "a"

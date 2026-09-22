@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01561",
-	"slug": "שנא-4",
-	"headword": {
-		"text": "שְׁנָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁנָא I",
+	"headwords": [
+		{
+			"text": "שְׁנָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1604,
 		"column": "a"

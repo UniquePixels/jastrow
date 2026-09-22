@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03010",
-	"slug": "מתבן",
-	"headword": {
-		"text": "מַתְבֵּן"
-	},
+	"sefariaHeadword": "מַתְבֵּן",
+	"headwords": [
+		{
+			"text": "מַתְבֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

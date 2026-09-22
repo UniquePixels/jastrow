@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00733",
-	"slug": "טרופאה",
-	"headword": {
-		"text": "טְרוֹפָאָה"
-	},
+	"sefariaHeadword": "טְרוֹפָאָה",
+	"headwords": [
+		{
+			"text": "טְרוֹפָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

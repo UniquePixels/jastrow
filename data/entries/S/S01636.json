@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01636",
-	"slug": "קסדור",
-	"headword": {
-		"text": "קִסְדּוֹר"
-	},
+	"sefariaHeadword": "קִסְדּוֹר",
+	"headwords": [
+		{
+			"text": "קִסְדּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

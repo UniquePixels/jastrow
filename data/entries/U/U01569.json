@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01569",
-	"slug": "שנדפין",
-	"headword": {
-		"text": "שִׁנְדְּפִין"
-	},
+	"sefariaHeadword": "שִׁנְדְּפִין",
+	"headwords": [
+		{
+			"text": "שִׁנְדְּפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "b"

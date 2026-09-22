@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02753",
-	"slug": "מרץ",
-	"headword": {
-		"text": "מָרַץ"
-	},
+	"sefariaHeadword": "מָרַץ",
+	"headwords": [
+		{
+			"text": "מָרַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

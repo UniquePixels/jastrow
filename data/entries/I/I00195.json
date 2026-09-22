@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00195",
-	"slug": "טוף",
-	"headword": {
-		"text": "טוּף"
-	},
+	"sefariaHeadword": "טוּף",
+	"headwords": [
+		{
+			"text": "טוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "a"

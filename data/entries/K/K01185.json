@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01185",
-	"slug": "כרך-1",
-	"headword": {
-		"text": "כָּרַךְ"
-	},
+	"sefariaHeadword": "כָּרַךְ",
+	"headwords": [
+		{
+			"text": "כָּרַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 668,
 		"column": "a"

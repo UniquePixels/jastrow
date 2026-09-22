@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00579",
-	"slug": "תלול",
-	"headword": {
-		"text": "תִּלּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּלּוּל",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּלּוּל"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "b"

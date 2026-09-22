@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00815",
-	"slug": "בלבל-2",
-	"headword": {
-		"text": "בַּלְבֵּל"
-	},
+	"sefariaHeadword": "בַּלְבֵּל",
+	"headwords": [
+		{
+			"text": "בַּלְבֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

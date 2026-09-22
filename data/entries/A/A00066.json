@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00066",
-	"slug": "אבויה",
-	"headword": {
-		"text": "אֲבוּיָה"
-	},
+	"sefariaHeadword": "אֲבוּיָה",
+	"headwords": [
+		{
+			"text": "אֲבוּיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

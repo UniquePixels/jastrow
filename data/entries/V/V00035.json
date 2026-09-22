@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00035",
-	"slug": "תבה",
-	"headword": {
-		"text": "תֵּבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּבָה",
+	"headwords": [
+		{
+			"text": "תֵּבָה"
+		},
 		{
 			"text": "תֵּיבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1643,
 		"column": "a"

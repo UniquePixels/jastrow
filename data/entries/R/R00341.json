@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00341",
-	"slug": "ציימנית",
-	"headword": {
-		"text": "צַיְימָנִית"
-	},
+	"sefariaHeadword": "צַיְימָנִית",
+	"headwords": [
+		{
+			"text": "צַיְימָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00306",
-	"slug": "אגלקי",
-	"headword": {
-		"text": "אגלקי"
-	},
+	"sefariaHeadword": "אגלקי",
+	"headwords": [
+		{
+			"text": "אגלקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

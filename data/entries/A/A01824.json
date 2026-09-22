@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01824",
-	"slug": "אלוסטרוס",
-	"headword": {
-		"text": "אלוסטרוס"
-	},
+	"sefariaHeadword": "אלוסטרוס",
+	"headwords": [
+		{
+			"text": "אלוסטרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

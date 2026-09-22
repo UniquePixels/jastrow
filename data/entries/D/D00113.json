@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00113",
-	"slug": "דגלותא",
-	"headword": {
-		"text": "דַּגָּלוּתָא"
-	},
+	"sefariaHeadword": "דַּגָּלוּתָא",
+	"headwords": [
+		{
+			"text": "דַּגָּלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 280,
 		"column": "a"

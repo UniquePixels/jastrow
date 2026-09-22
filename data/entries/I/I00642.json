@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00642",
-	"slug": "טפי-1",
-	"headword": {
-		"text": "טְפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְפֵי",
+	"headwords": [
+		{
+			"text": "טְפֵי"
+		},
 		{
 			"text": "טְפָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 546,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00019",
-	"slug": "מאזנים",
-	"headword": {
-		"text": "מֹאזְנַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֹאזְנַיִם",
+	"headwords": [
+		{
+			"text": "מֹאזְנַיִם"
+		},
 		{
 			"text": "מֹאזְנַיִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 722,
 		"column": "a"

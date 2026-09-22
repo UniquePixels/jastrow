@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01780",
-	"slug": "מנייק",
-	"headword": {
-		"text": "מָנְיָיק"
-	},
+	"sefariaHeadword": "מָנְיָיק",
+	"headwords": [
+		{
+			"text": "מָנְיָיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "a"

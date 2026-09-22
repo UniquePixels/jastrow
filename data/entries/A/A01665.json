@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01665",
-	"slug": "אכאטיס",
-	"headword": {
-		"text": "אֲכָאטֵיס"
-	},
+	"sefariaHeadword": "אֲכָאטֵיס",
+	"headwords": [
+		{
+			"text": "אֲכָאטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

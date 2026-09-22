@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02472",
-	"slug": "אסנפר",
-	"headword": {
-		"text": "אָסְנַפַּר"
-	},
+	"sefariaHeadword": "אָסְנַפַּר",
+	"headwords": [
+		{
+			"text": "אָסְנַפַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

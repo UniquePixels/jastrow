@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01653",
-	"slug": "קסטרא",
-	"headword": {
-		"text": "קַסְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַסְטְרָא",
+	"headwords": [
+		{
+			"text": "קַסְטְרָא"
+		},
 		{
 			"text": "קַסְטְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1396,
 		"column": "a"

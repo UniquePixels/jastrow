@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01907",
-	"slug": "חתנותא",
-	"headword": {
-		"text": "חַתְנוּתָא"
-	},
+	"sefariaHeadword": "חַתְנוּתָא",
+	"headwords": [
+		{
+			"text": "חַתְנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 514,
 		"column": "b"

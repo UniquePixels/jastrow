@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00873",
-	"slug": "דמדום",
-	"headword": {
-		"text": "דִּמְדּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּמְדּוּם",
+	"headwords": [
 		{
-			"text": "דִּימְ׳"
+			"text": "דִּמְדּוּם"
+		},
+		{
+			"text": "דִּימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 312,
 		"column": "b"
@@ -18,7 +21,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m., pl. <he>דִּמְדּוּמִין</he>, (<cite ref=\"D00903\"><he>דַּמַם</he></cite>) <he>דִּי׳</he> <i>stand-still, stillness;</i> <he>דִּמְדּוּמֵי חמה</he> the time in the morning and the evening when the sun appears to stand still or be silent (cmp. ",
+			"gloss": "m., pl. <he>דִּמְדּוּמִין</he>, (<cite ref=\"D00903\"><he>דַּמַם</he></cite>) <he>דִּי׳</he> <i>stand-still, stillness;</i> <he>דִּמְדּוּמֵי חמה</he> the time in the morning and the evening when the sun appears to stand still or be silent (cmp. ",
 			"units": [
 				"<cite ref=\"Yoma 20b\">Yoma 20ᵇ</cite>), <i>dawn and sunset</i>. ",
 				"<cite ref=\"Shabbat 118b:6\">Sabb. 118ᵇ</cite>; <cite ref=\"Berakhot 29b:9\">Ber. 29ᵇ</cite>; a. fr. ",

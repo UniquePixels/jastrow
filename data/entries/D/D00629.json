@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00629",
-	"slug": "דימחמרא",
-	"headword": {
-		"text": "דִּימְחַמְרָא"
-	},
+	"sefariaHeadword": "דִּימְחַמְרָא",
+	"headwords": [
+		{
+			"text": "דִּימְחַמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "b"

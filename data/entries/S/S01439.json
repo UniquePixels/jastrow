@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01439",
-	"slug": "קמא-3",
-	"headword": {
-		"text": "קַמָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמָּא",
+	"headwords": [
+		{
+			"text": "קַמָּא"
+		},
 		{
 			"text": "קַמָּאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1383,
 		"column": "b"

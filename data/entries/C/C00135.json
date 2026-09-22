@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00135",
-	"slug": "גבריאל",
-	"headword": {
-		"text": "גַּבְרִיאֵל"
-	},
+	"sefariaHeadword": "גַּבְרִיאֵל",
+	"headwords": [
+		{
+			"text": "גַּבְרִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "S01060",
-	"slug": "קיסומא-2",
-	"headword": {
-		"text": "קִיסּוּמָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסּוּמָא ²",
+	"headwords": [
+		{
+			"text": "קִיסּוּמָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִסּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1364,
 		"column": "b"

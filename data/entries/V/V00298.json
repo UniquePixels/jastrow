@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00298",
-	"slug": "תורמוסא",
-	"headword": {
-		"text": "תורמוסא"
-	},
+	"sefariaHeadword": "תורמוסא",
+	"headwords": [
+		{
+			"text": "תורמוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

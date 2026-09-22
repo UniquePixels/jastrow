@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00205",
-	"slug": "שגא-1",
-	"headword": {
-		"text": "שָׁגָא"
-	},
+	"sefariaHeadword": "שָׁגָא",
+	"headwords": [
+		{
+			"text": "שָׁגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1520,
 		"column": "b"

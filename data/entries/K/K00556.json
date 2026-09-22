@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00556",
-	"slug": "כילרין",
-	"headword": {
-		"text": "כילרין"
-	},
+	"sefariaHeadword": "כילרין",
+	"headwords": [
+		{
+			"text": "כילרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "a"

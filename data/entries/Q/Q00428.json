@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00428",
-	"slug": "פזיח",
-	"headword": {
-		"text": "פָּזִיחַ"
-	},
+	"sefariaHeadword": "פָּזִיחַ",
+	"headwords": [
+		{
+			"text": "פָּזִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "a"

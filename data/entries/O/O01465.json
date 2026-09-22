@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01465",
-	"slug": "סקות",
-	"headword": {
-		"text": "סָקוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סָקוֹת",
+	"headwords": [
+		{
+			"text": "סָקוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

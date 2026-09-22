@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00337",
-	"slug": "לחואתא",
-	"headword": {
-		"text": "לְחוֹאָתָא"
-	},
+	"sefariaHeadword": "לְחוֹאָתָא",
+	"headwords": [
+		{
+			"text": "לְחוֹאָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 702,
 		"column": "a"

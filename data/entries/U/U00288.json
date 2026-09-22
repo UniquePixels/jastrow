@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00288",
-	"slug": "שדרגזין",
-	"headword": {
-		"text": "שדרגזין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שדרגזין",
+	"headwords": [
+		{
+			"text": "שדרגזין"
+		},
 		{
 			"text": "שדרגנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1526,
 		"column": "a"

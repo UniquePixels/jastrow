@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00486",
-	"slug": "זלזלנא",
-	"headword": {
-		"text": "זַלְזְלָנָא"
-	},
+	"sefariaHeadword": "זַלְזְלָנָא",
+	"headwords": [
+		{
+			"text": "זַלְזְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

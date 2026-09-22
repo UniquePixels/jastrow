@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01732",
-	"slug": "שפטא",
-	"headword": {
-		"text": "שִׁפְטָא"
-	},
+	"sefariaHeadword": "שִׁפְטָא",
+	"headwords": [
+		{
+			"text": "שִׁפְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "b"

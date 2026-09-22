@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00722",
-	"slug": "קטוף-2",
-	"headword": {
-		"text": "קְטוֹף"
-	},
+	"sefariaHeadword": "קְטוֹף",
+	"headwords": [
+		{
+			"text": "קְטוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

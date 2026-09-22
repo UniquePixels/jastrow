@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00192",
-	"slug": "תויכמדא",
-	"headword": {
-		"text": "תויכמדא"
-	},
+	"sefariaHeadword": "תויכמדא",
+	"headwords": [
+		{
+			"text": "תויכמדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

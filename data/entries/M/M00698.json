@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00698",
-	"slug": "מותיבתא",
-	"headword": {
-		"text": "מוֹתִיבְתָּא"
-	},
+	"sefariaHeadword": "מוֹתִיבְתָּא",
+	"headwords": [
+		{
+			"text": "מוֹתִיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

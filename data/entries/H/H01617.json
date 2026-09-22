@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01617",
-	"slug": "חרוביתא",
-	"headword": {
-		"text": "חֲרוּבִיתָא"
-	},
+	"sefariaHeadword": "חֲרוּבִיתָא",
+	"headwords": [
+		{
+			"text": "חֲרוּבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

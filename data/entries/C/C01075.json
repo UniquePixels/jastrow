@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01075",
-	"slug": "גנאה",
-	"headword": {
-		"text": "גִּנָּאָה"
-	},
+	"sefariaHeadword": "גִּנָּאָה",
+	"headwords": [
+		{
+			"text": "גִּנָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

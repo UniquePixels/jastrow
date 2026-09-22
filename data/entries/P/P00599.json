@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00599",
-	"slug": "עימקותא",
-	"headword": {
-		"text": "עִימְקוּתָא"
-	},
+	"sefariaHeadword": "עִימְקוּתָא",
+	"headwords": [
+		{
+			"text": "עִימְקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1071,
 		"column": "a"

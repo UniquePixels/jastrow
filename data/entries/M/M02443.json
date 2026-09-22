@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02443",
-	"slug": "מקק-1",
-	"headword": {
-		"text": "מָקַק"
-	},
+	"sefariaHeadword": "מָקַק",
+	"headwords": [
+		{
+			"text": "מָקַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 832,
 		"column": "b"

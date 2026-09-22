@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01645",
-	"slug": "פרוזבוטיס",
-	"headword": {
-		"text": "פְּרוּזְבּוּטֵיס"
-	},
+	"sefariaHeadword": "פְּרוּזְבּוּטֵיס",
+	"headwords": [
+		{
+			"text": "פְּרוּזְבּוּטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "b"

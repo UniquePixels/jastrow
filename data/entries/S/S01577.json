@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01577",
-	"slug": "קניגיזיא",
-	"headword": {
-		"text": "קְנִיגִיזְיָא"
-	},
+	"sefariaHeadword": "קְנִיגִיזְיָא",
+	"headwords": [
+		{
+			"text": "קְנִיגִיזְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "b"

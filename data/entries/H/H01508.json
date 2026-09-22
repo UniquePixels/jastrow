@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01508",
-	"slug": "חצובה-1",
-	"headword": {
-		"text": "חֲצוּבָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲצוּבָה I",
+	"headwords": [
+		{
+			"text": "חֲצוּבָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 494,
 		"column": "b"

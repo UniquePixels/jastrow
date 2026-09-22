@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00994",
-	"slug": "פלחא-2",
-	"headword": {
-		"text": "פָּלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּלְחָא",
+	"headwords": [
+		{
+			"text": "פָּלְחָא"
+		},
 		{
 			"text": "פַּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1178,
 		"column": "b"

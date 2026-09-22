@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00921",
-	"slug": "מחצבא",
-	"headword": {
-		"text": "מַחְצָבָא"
-	},
+	"sefariaHeadword": "מַחְצָבָא",
+	"headwords": [
+		{
+			"text": "מַחְצָבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

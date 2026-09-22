@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00226",
-	"slug": "סואר",
-	"headword": {
-		"text": "סַוָּאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַוָּאר",
+	"headwords": [
+		{
+			"text": "סַוָּאר"
+		},
 		{
 			"text": "סַוָּואר"
 		},
@@ -12,6 +13,7 @@
 			"text": "סַוָּור"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 960,
 		"column": "a"

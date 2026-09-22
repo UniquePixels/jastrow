@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00491",
-	"slug": "סטיתא",
-	"headword": {
-		"text": "סְטִיתָא"
-	},
+	"sefariaHeadword": "סְטִיתָא",
+	"headwords": [
+		{
+			"text": "סְטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

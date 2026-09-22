@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "H00051",
-	"slug": "חביב-2",
-	"headword": {
-		"text": "חָבִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָבִיב",
+	"headwords": [
 		{
-			"text": "חֲ׳"
+			"text": "חָבִיב"
 		},
 		{
-			"text": "חַבִּ׳"
+			"text": "חֲ׳",
+			"partial": true
+		},
+		{
+			"text": "חַבִּ׳",
+			"partial": true
 		},
 		{
 			"text": "חֲבִיבָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2}, {3} I",
 	"page": {
 		"number": 418,
 		"column": "b"

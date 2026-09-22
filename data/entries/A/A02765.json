@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02765",
-	"slug": "אפסר",
-	"headword": {
-		"text": "אַפְסָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְסָר",
+	"headwords": [
+		{
+			"text": "אַפְסָר"
+		},
 		{
 			"text": "אִיפְסָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 106,
 		"column": "b"

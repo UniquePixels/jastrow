@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01075",
-	"slug": "תשוע",
-	"headword": {
-		"text": "תִּשּׁוּעַ"
-	},
+	"sefariaHeadword": "תִּשּׁוּעַ",
+	"headwords": [
+		{
+			"text": "תִּשּׁוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "a"

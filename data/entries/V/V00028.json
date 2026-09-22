@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00028",
-	"slug": "תאני",
-	"headword": {
-		"text": "תָּאנֵי"
-	},
+	"sefariaHeadword": "תָּאנֵי",
+	"headwords": [
+		{
+			"text": "תָּאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "b"

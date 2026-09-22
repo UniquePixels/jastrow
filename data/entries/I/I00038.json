@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00038",
-	"slug": "טבות-2",
-	"headword": {
-		"text": "טָבוּת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טָבוּת II",
+	"headwords": [
+		{
+			"text": "טָבוּת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 516,
 		"column": "a"

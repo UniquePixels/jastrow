@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01595",
-	"slug": "חרגולא",
-	"headword": {
-		"text": "חַרְגּוֹלָא"
-	},
+	"sefariaHeadword": "חַרְגּוֹלָא",
+	"headwords": [
+		{
+			"text": "חַרְגּוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

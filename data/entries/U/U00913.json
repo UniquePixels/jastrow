@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00913",
-	"slug": "שיירי",
-	"headword": {
-		"text": "שיירי"
-	},
+	"sefariaHeadword": "שיירי",
+	"headwords": [
+		{
+			"text": "שיירי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

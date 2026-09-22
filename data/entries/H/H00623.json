@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00623",
-	"slug": "חטיבא",
-	"headword": {
-		"text": "חֲטִיבָא"
-	},
+	"sefariaHeadword": "חֲטִיבָא",
+	"headwords": [
+		{
+			"text": "חֲטִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 449,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00261",
-	"slug": "הופקנה",
-	"headword": {
-		"text": "הופקנה"
-	},
+	"sefariaHeadword": "הופקנה",
+	"headwords": [
+		{
+			"text": "הופקנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

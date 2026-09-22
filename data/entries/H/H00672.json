@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00672",
-	"slug": "חיה-2",
-	"headword": {
-		"text": "חַיָּה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חַיָּה I",
+	"headwords": [
+		{
+			"text": "חַיָּה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 451,
 		"column": "b"

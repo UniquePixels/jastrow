@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00665",
-	"slug": "ניכו׳",
-	"headword": {
-		"text": "ניכו׳"
-	},
+	"sefariaHeadword": "ניכו׳",
+	"headwords": [
+		{
+			"text": "ניכו׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

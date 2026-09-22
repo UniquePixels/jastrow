@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00061",
-	"slug": "פגימין",
-	"headword": {
-		"text": "פְּגִימִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגִימִין",
+	"headwords": [
+		{
+			"text": "פְּגִימִין"
+		},
 		{
 			"text": "פִּגְמִין"
 		},
 		{
-			"text": "פִּי׳"
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1133,
 		"column": "a"

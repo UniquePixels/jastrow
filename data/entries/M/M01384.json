@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01384",
-	"slug": "מכיצטרכי",
-	"headword": {
-		"text": "מכיצטרכי"
-	},
+	"sefariaHeadword": "מכיצטרכי",
+	"headwords": [
+		{
+			"text": "מכיצטרכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 782,
 		"column": "b"

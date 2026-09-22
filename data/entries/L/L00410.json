@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00410",
-	"slug": "ליבדקוס",
-	"headword": {
-		"text": "לִיבְדְּקוֹס"
-	},
+	"sefariaHeadword": "לִיבְדְּקוֹס",
+	"headwords": [
+		{
+			"text": "לִיבְדְּקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

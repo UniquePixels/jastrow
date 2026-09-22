@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00315",
-	"slug": "אגמון-2",
-	"headword": {
-		"text": "אַגְמוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגְמוֹן ²",
+	"headwords": [
+		{
+			"text": "אַגְמוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "אַגְמוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 13,
 		"column": "a"

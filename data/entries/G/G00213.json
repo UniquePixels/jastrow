@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00213",
-	"slug": "זוסטא",
-	"headword": {
-		"text": "זוסטא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוסטא",
+	"headwords": [
+		{
+			"text": "זוסטא"
+		},
 		{
 			"text": "זוסטה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 388,
 		"column": "b"

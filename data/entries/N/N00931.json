@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00931",
-	"slug": "נסיבא-2",
-	"headword": {
-		"text": "נְסִיבָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְסִיבָא II",
+	"headwords": [
+		{
+			"text": "נְסִיבָא",
+			"homograph": 2
+		},
 		{
 			"text": "נְסִיבְתָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 916,
 		"column": "b"

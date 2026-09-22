@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00824",
-	"slug": "סיקרין",
-	"headword": {
-		"text": "סִיקָרִין"
-	},
+	"sefariaHeadword": "סִיקָרִין",
+	"headwords": [
+		{
+			"text": "סִיקָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "b"

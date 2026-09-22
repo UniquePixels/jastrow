@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01006",
-	"slug": "כפח-2",
-	"headword": {
-		"text": "כִּפֵּחַ"
-	},
+	"sefariaHeadword": "כִּפֵּחַ",
+	"headwords": [
+		{
+			"text": "כִּפֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "a"

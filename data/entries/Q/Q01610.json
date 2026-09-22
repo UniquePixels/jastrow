@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01610",
-	"slug": "פרואר",
-	"headword": {
-		"text": "פַּרְוָאר"
-	},
+	"sefariaHeadword": "פַּרְוָאר",
+	"headwords": [
+		{
+			"text": "פַּרְוָאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "a"

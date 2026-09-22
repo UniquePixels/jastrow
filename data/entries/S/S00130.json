@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00130",
-	"slug": "קדי-1",
-	"headword": {
-		"text": "קדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קדי",
+	"headwords": [
+		{
+			"text": "קדי"
+		},
 		{
 			"text": "קָדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1315,
 		"column": "b"

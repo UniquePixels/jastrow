@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00263",
-	"slug": "נהילאי",
-	"headword": {
-		"text": "נְהִילַאי"
-	},
+	"sefariaHeadword": "נְהִילַאי",
+	"headwords": [
+		{
+			"text": "נְהִילַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

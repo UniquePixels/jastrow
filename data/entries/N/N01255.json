@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01255",
-	"slug": "נר",
-	"headword": {
-		"text": "נֵר"
-	},
+	"sefariaHeadword": "נֵר",
+	"headwords": [
+		{
+			"text": "נֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "a"

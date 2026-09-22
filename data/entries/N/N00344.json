@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00344",
-	"slug": "נוח-5",
-	"headword": {
-		"text": "נוֹחַ",
-		"homograph": 3
-	},
+	"sefariaHeadword": "נוֹחַ III",
+	"headwords": [
+		{
+			"text": "נוֹחַ",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 886,
 		"column": "b"

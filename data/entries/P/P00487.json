@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00487",
-	"slug": "עיב",
-	"headword": {
-		"text": "עִיב"
-	},
+	"sefariaHeadword": "עִיב",
+	"headwords": [
+		{
+			"text": "עִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "b"

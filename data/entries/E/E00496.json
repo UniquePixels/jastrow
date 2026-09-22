@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00496",
-	"slug": "היתרא",
-	"headword": {
-		"text": "הֶיתֵּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיתֵּרָא",
+	"headwords": [
+		{
+			"text": "הֶיתֵּרָא"
+		},
 		{
 			"text": "הֶיתֵּירָא"
 		},
 		{
-			"text": "הֶתֵּ׳"
+			"text": "הֶתֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 349,
 		"column": "b"

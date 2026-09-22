@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01212",
-	"slug": "חמץ-2",
-	"headword": {
-		"text": "חָמֵץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָמֵץ I",
+	"headwords": [
+		{
+			"text": "חָמֵץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 479,
 		"column": "a"

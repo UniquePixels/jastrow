@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01715",
-	"slug": "פרוסטומא",
-	"headword": {
-		"text": "פרוסטומא"
-	},
+	"sefariaHeadword": "פרוסטומא",
+	"headwords": [
+		{
+			"text": "פרוסטומא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

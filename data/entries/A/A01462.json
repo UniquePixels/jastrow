@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01462",
-	"slug": "איסטרכין",
-	"headword": {
-		"text": "אִיסְטַרְכִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיסְטַרְכִין",
+	"headwords": [
+		{
+			"text": "אִיסְטַרְכִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

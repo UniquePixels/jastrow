@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02017",
-	"slug": "קרי-1",
-	"headword": {
-		"text": "קרי"
-	},
+	"sefariaHeadword": "קרי",
+	"headwords": [
+		{
+			"text": "קרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1417,
 		"column": "b"

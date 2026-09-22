@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00452",
-	"slug": "תילים-2",
-	"headword": {
-		"text": "תִּילִּים",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּילִּים ²",
+	"headwords": [
+		{
+			"text": "תִּילִּים",
+			"disambiguator": 2
+		},
 		{
 			"text": "תִּילִּין"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1664,
 		"column": "b"

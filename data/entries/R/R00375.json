@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00375",
-	"slug": "צימוק",
-	"headword": {
-		"text": "צִימּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימּוּק",
+	"headwords": [
 		{
-			"text": "צִמּ׳"
+			"text": "צִימּוּק"
+		},
+		{
+			"text": "צִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "a"

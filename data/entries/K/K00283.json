@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00283",
-	"slug": "כולקוס",
-	"headword": {
-		"text": "כולקוס"
-	},
+	"sefariaHeadword": "כולקוס",
+	"headwords": [
+		{
+			"text": "כולקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

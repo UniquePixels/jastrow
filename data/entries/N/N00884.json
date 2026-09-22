@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00884",
-	"slug": "נמנם",
-	"headword": {
-		"text": "נִמְנֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִמְנֵם",
+	"headwords": [
+		{
+			"text": "נִמְנֵם"
+		},
 		{
 			"text": "נַמְנֵם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 913,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01578",
-	"slug": "מלכו-2",
-	"headword": {
-		"text": "מַלְכוּ"
-	},
+	"sefariaHeadword": "מַלְכוּ",
+	"headwords": [
+		{
+			"text": "מַלְכוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 791,
 		"column": "b"

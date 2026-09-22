@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02469",
-	"slug": "אסנא-2",
-	"headword": {
-		"text": "אַסָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסָּנָא",
+	"headwords": [
+		{
+			"text": "אַסָּנָא"
+		},
 		{
 			"text": "אֲסָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 95,
 		"column": "a"

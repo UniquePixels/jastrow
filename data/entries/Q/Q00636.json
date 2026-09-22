@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00636",
-	"slug": "פיטרא-3",
-	"headword": {
-		"text": "פִּיטְרָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְרָא III",
+	"headwords": [
+		{
+			"text": "פִּיטְרָא",
+			"homograph": 3
+		},
 		{
 			"text": "פִּיטְרָה"
 		},
 		{
-			"text": "פִּטְ׳"
+			"text": "פִּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2}",
 	"page": {
 		"number": 1162,
 		"column": "a"

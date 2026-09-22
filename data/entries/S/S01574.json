@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01574",
-	"slug": "קניגי",
-	"headword": {
-		"text": "קְנִיגִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנִיגִי",
+	"headwords": [
+		{
+			"text": "קְנִיגִי"
+		},
 		{
 			"text": "קִינִיגִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00749",
-	"slug": "צרור-1",
-	"headword": {
-		"text": "צֵרוּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צֵרוּר",
+	"headwords": [
+		{
+			"text": "צֵרוּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1300,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00700",
-	"slug": "זריד",
-	"headword": {
-		"text": "זָרִיד"
-	},
+	"sefariaHeadword": "זָרִיד",
+	"headwords": [
+		{
+			"text": "זָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

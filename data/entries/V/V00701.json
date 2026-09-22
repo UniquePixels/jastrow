@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00701",
-	"slug": "תמצות",
-	"headword": {
-		"text": "תַּמְצוּת"
-	},
+	"sefariaHeadword": "תַּמְצוּת",
+	"headwords": [
+		{
+			"text": "תַּמְצוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1678,
 		"column": "b"

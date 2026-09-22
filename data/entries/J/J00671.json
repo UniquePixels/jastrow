@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00671",
-	"slug": "ירתא-1",
-	"headword": {
-		"text": "יַרְתָא"
-	},
+	"sefariaHeadword": "יַרְתָא",
+	"headwords": [
+		{
+			"text": "יַרְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "b"

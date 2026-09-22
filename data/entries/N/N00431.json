@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00431",
-	"slug": "נזז-2",
-	"headword": {
-		"text": "נְזֵז"
-	},
+	"sefariaHeadword": "נְזֵז",
+	"headwords": [
+		{
+			"text": "נְזֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

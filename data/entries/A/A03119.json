@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03119",
-	"slug": "ארירה",
-	"headword": {
-		"text": "אֲרִירָה"
-	},
+	"sefariaHeadword": "אֲרִירָה",
+	"headwords": [
+		{
+			"text": "אֲרִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00554",
-	"slug": "כילכית",
-	"headword": {
-		"text": "כִּילְכִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּילְכִּית",
+	"headwords": [
+		{
+			"text": "כִּילְכִּית"
+		},
 		{
 			"text": "כִּילְבִּית"
 		},
 		{
-			"text": "כִּלְ׳"
+			"text": "כִּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 632,
 		"column": "b"

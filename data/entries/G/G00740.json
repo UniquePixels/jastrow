@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00740",
-	"slug": "זתא",
-	"headword": {
-		"text": "זֵתָא"
-	},
+	"sefariaHeadword": "זֵתָא",
+	"headwords": [
+		{
+			"text": "זֵתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

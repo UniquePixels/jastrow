@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00553",
-	"slug": "צמא-1",
-	"headword": {
-		"text": "צָמֵא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָמֵא I",
+	"headwords": [
+		{
+			"text": "צָמֵא",
+			"homograph": 1
+		},
 		{
 			"text": "צְמֵאָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1286,
 		"column": "b"

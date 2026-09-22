@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01394",
-	"slug": "חסכון",
-	"headword": {
-		"text": "חִסָּכוֹן"
-	},
+	"sefariaHeadword": "חִסָּכוֹן",
+	"headwords": [
+		{
+			"text": "חִסָּכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 488,
 		"column": "a"

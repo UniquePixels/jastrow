@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00194",
-	"slug": "אבקאות",
-	"headword": {
-		"text": "אבקאות"
-	},
+	"sefariaHeadword": "אבקאות",
+	"headwords": [
+		{
+			"text": "אבקאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "b"

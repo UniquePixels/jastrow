@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00753",
-	"slug": "רכובא-1",
-	"headword": {
-		"text": "רְכוּבָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רְכוּבָא I",
+	"headwords": [
+		{
+			"text": "רְכוּבָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1479,
 		"column": "b"

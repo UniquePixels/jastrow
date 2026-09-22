@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00679",
-	"slug": "זרוע-2",
-	"headword": {
-		"text": "זֵרוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֵרוּעַ",
+	"headwords": [
 		{
-			"text": "זֵיר׳"
+			"text": "זֵרוּעַ"
+		},
+		{
+			"text": "זֵיר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 412,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00204",
-	"slug": "שבתאי",
-	"headword": {
-		"text": "שַׁבְּתַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁבְּתַאי",
+	"headwords": [
+		{
+			"text": "שַׁבְּתַאי"
+		},
 		{
 			"text": "שַׁבְּתַי"
 		},
@@ -12,6 +13,7 @@
 			"text": "שַׁבְּתַיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1520,
 		"column": "b"

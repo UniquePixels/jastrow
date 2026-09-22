@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S02080",
-	"slug": "קריר-2",
-	"headword": {
-		"text": "קָרִיר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָרִיר II",
+	"headwords": [
+		{
+			"text": "קָרִיר",
+			"homograph": 2
+		},
 		{
 			"text": "קְרִירָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "קְרִירְתָּא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1421,
 		"column": "a"

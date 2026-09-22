@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00700",
-	"slug": "טר",
-	"headword": {
-		"text": "טַר"
-	},
+	"sefariaHeadword": "טַר",
+	"headwords": [
+		{
+			"text": "טַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

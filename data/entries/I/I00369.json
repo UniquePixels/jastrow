@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00369",
-	"slug": "טילמא",
-	"headword": {
-		"text": "טִילְמָא"
-	},
+	"sefariaHeadword": "טִילְמָא",
+	"headwords": [
+		{
+			"text": "טִילְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "a"

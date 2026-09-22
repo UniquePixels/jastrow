@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00333",
-	"slug": "דוקינר",
-	"headword": {
-		"text": "דּוּקִינָר"
-	},
+	"sefariaHeadword": "דּוּקִינָר",
+	"headwords": [
+		{
+			"text": "דּוּקִינָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "a"

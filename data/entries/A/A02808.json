@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02808",
-	"slug": "אפרוטוס",
-	"headword": {
-		"text": "אפרוטוס"
-	},
+	"sefariaHeadword": "אפרוטוס",
+	"headwords": [
+		{
+			"text": "אפרוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

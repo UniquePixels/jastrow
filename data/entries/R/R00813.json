@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00813",
-	"slug": "צררא",
-	"headword": {
-		"text": "צְרָרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְרָרָא II",
+	"headwords": [
+		{
+			"text": "צְרָרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1305,
 		"column": "b"

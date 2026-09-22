@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00187",
-	"slug": "זומות",
-	"headword": {
-		"text": "זומות"
-	},
+	"sefariaHeadword": "זומות",
+	"headwords": [
+		{
+			"text": "זומות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

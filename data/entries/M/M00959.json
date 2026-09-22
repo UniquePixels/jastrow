@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00959",
-	"slug": "מט",
-	"headword": {
-		"text": "מָט"
-	},
+	"sefariaHeadword": "מָט",
+	"headwords": [
+		{
+			"text": "מָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "a"

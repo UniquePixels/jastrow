@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01274",
-	"slug": "כרשינא",
-	"headword": {
-		"text": "כַּרְשִׁינָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כַּרְשִׁינָא I",
+	"headwords": [
+		{
+			"text": "כַּרְשִׁינָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 673,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00160",
-	"slug": "עדק-1",
-	"headword": {
-		"text": "עֲדַק"
-	},
+	"sefariaHeadword": "עֲדַק",
+	"headwords": [
+		{
+			"text": "עֲדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1045,
 		"column": "b"

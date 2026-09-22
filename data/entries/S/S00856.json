@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00856",
-	"slug": "קיבוריא",
-	"headword": {
-		"text": "קיבוריא"
-	},
+	"sefariaHeadword": "קיבוריא",
+	"headwords": [
+		{
+			"text": "קיבוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

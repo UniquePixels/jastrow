@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00781",
-	"slug": "חילפא-1",
-	"headword": {
-		"text": "חִילְפָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילְפָא I",
+	"headwords": [
 		{
-			"text": "חִלְ׳"
+			"text": "חִילְפָא",
+			"homograph": 1
+		},
+		{
+			"text": "חִלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 457,
 		"column": "a"

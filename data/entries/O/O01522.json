@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01522",
-	"slug": "סרבנות",
-	"headword": {
-		"text": "סַרְבָּנוּת"
-	},
+	"sefariaHeadword": "סַרְבָּנוּת",
+	"headwords": [
+		{
+			"text": "סַרְבָּנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "a"

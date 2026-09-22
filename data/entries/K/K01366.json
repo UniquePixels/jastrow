@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01366",
-	"slug": "כתיתא",
-	"headword": {
-		"text": "כְּתִיתָא"
-	},
+	"sefariaHeadword": "כְּתִיתָא",
+	"headwords": [
+		{
+			"text": "כְּתִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "b"

@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00669",
-	"slug": "חידקי",
-	"headword": {
-		"text": "חִידְקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִידְקִי",
+	"headwords": [
 		{
-			"text": "חוּדְ׳"
+			"text": "חִידְקִי"
+		},
+		{
+			"text": "חוּדְ׳",
+			"partial": true
 		},
 		{
 			"text": "חִירְקִי"
@@ -18,12 +20,10 @@
 			"text": "חִזְקִי"
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3}, {4})",
 	"page": {
 		"number": 451,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

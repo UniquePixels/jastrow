@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01907",
-	"slug": "קרדום-2",
-	"headword": {
-		"text": "קרדום"
-	},
+	"sefariaHeadword": "קרדום",
+	"headwords": [
+		{
+			"text": "קרדום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

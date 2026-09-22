@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U00859",
-	"slug": "שיח-7",
-	"headword": {
-		"text": "שִׁיחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיחַ ²",
+	"headwords": [
+		{
+			"text": "שִׁיחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁיַח"
 		},
@@ -13,6 +14,7 @@
 			"text": "שִׁיחָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1559,
 		"column": "b"

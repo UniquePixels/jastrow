@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00696",
-	"slug": "צפייה",
-	"headword": {
-		"text": "צִפְיָיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפְיָיה",
+	"headwords": [
+		{
+			"text": "צִפְיָיה"
+		},
 		{
 			"text": "צְפִיָּיה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1297,
 		"column": "a"

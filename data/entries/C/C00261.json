@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00261",
-	"slug": "גהר",
-	"headword": {
-		"text": "גַּהַר"
-	},
+	"sefariaHeadword": "גַּהַר",
+	"headwords": [
+		{
+			"text": "גַּהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 216,
 		"column": "a"

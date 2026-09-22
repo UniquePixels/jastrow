@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00550",
-	"slug": "צלקת",
-	"headword": {
-		"text": "צָלֶקֶת"
-	},
+	"sefariaHeadword": "צָלֶקֶת",
+	"headwords": [
+		{
+			"text": "צָלֶקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "a"

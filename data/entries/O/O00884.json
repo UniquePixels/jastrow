@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00884",
-	"slug": "סכום-2",
-	"headword": {
-		"text": "סְכוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְכוֹם ²",
+	"headwords": [
+		{
+			"text": "סְכוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְכוֹמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 989,
 		"column": "a"

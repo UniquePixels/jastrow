@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B01361",
-	"slug": "בשל-3",
-	"headword": {
-		"text": "בָּשֵׁל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּשֵׁל",
+	"headwords": [
+		{
+			"text": "בָּשֵׁל"
+		},
 		{
 			"text": "בְּשֵׁלָה"
 		},
 		{
-			"text": "בְּשֵׁי׳"
+			"text": "בְּשֵׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 199,
 		"column": "a"

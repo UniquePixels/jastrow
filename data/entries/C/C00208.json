@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00208",
-	"slug": "גדילה-2",
-	"headword": {
-		"text": "גְּדִילָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּדִילָה II",
+	"headwords": [
+		{
+			"text": "גְּדִילָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 212,
 		"column": "a"

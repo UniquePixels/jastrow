@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00726",
-	"slug": "ניף",
-	"headword": {
-		"text": "נִיף"
-	},
+	"sefariaHeadword": "נִיף",
+	"headwords": [
+		{
+			"text": "נִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

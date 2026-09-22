@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00970",
-	"slug": "גלמודא",
-	"headword": {
-		"text": "גַּלְמוּדָא"
-	},
+	"sefariaHeadword": "גַּלְמוּדָא",
+	"headwords": [
+		{
+			"text": "גַּלְמוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

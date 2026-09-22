@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00370",
-	"slug": "צימד",
-	"headword": {
-		"text": "צִימְדּ־"
-	},
+	"sefariaHeadword": "צִימְדּ־",
+	"headwords": [
+		{
+			"text": "צִימְדּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

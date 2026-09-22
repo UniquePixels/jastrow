@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01505",
-	"slug": "קן-2",
-	"headword": {
-		"text": "קֵן"
-	},
+	"sefariaHeadword": "קֵן",
+	"headwords": [
+		{
+			"text": "קֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "b"

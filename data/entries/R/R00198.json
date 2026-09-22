@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00198",
-	"slug": "צום-3",
-	"headword": {
-		"text": "צוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹם ²",
+	"headwords": [
+		{
+			"text": "צוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "צוֹמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1268,
 		"column": "a"

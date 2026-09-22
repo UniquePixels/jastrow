@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01011",
-	"slug": "ענקא",
-	"headword": {
-		"text": "עִנְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְקָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִנְקָא"
 		},
 		{
-			"text": "עוּ׳"
+			"text": "עִי׳",
+			"partial": true
+		},
+		{
+			"text": "עוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1096,
 		"column": "b"

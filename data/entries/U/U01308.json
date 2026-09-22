@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01308",
-	"slug": "שליח-1",
-	"headword": {
-		"text": "שָׁלִיחַ"
-	},
+	"sefariaHeadword": "שָׁלִיחַ",
+	"headwords": [
+		{
+			"text": "שָׁלִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "a"

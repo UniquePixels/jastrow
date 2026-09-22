@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00782",
-	"slug": "חילפא-2",
-	"headword": {
-		"text": "חִילְפָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חִילְפָא II",
+	"headwords": [
+		{
+			"text": "חִילְפָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 457,
 		"column": "a"

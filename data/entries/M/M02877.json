@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02877",
-	"slug": "משיילא",
-	"headword": {
-		"text": "מְשָׁיְילָא"
-	},
+	"sefariaHeadword": "מְשָׁיְילָא",
+	"headwords": [
+		{
+			"text": "מְשָׁיְילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

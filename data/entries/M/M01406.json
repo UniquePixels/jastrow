@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01406",
-	"slug": "מכמר-1",
-	"headword": {
-		"text": "מִכְמַר"
-	},
+	"sefariaHeadword": "מִכְמַר",
+	"headwords": [
+		{
+			"text": "מִכְמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

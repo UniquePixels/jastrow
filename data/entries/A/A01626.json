@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01626",
-	"slug": "אישפותי",
-	"headword": {
-		"text": "אישפותי"
-	},
+	"sefariaHeadword": "אישפותי",
+	"headwords": [
+		{
+			"text": "אישפותי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

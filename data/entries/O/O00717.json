@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00717",
-	"slug": "סימנית",
-	"headword": {
-		"text": "סִימָנִית"
-	},
+	"sefariaHeadword": "סִימָנִית",
+	"headwords": [
+		{
+			"text": "סִימָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 982,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01547",
-	"slug": "סרהבינין",
-	"headword": {
-		"text": "סַרְהָבִינִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְהָבִינִין",
+	"headwords": [
+		{
+			"text": "סַרְהָבִינִין"
+		},
 		{
 			"text": "סַרְהֲבַנְיָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1023,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01522",
-	"slug": "עת",
-	"headword": {
-		"text": "עֵת"
-	},
+	"sefariaHeadword": "עֵת",
+	"headwords": [
+		{
+			"text": "עֵת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1128,
 		"column": "a"

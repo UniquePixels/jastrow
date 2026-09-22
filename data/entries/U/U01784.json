@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01784",
-	"slug": "שפן-2",
-	"headword": {
-		"text": "שָׁפָן"
-	},
+	"sefariaHeadword": "שָׁפָן",
+	"headwords": [
+		{
+			"text": "שָׁפָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1618,
 		"column": "a"

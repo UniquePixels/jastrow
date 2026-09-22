@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00485",
-	"slug": "גורגרן",
-	"headword": {
-		"text": "גּוּרְגְּרָן"
-	},
+	"sefariaHeadword": "גּוּרְגְּרָן",
+	"headwords": [
+		{
+			"text": "גּוּרְגְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

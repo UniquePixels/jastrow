@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00091",
-	"slug": "בגרונדי",
-	"headword": {
-		"text": "בגרונדי"
-	},
+	"sefariaHeadword": "בגרונדי",
+	"headwords": [
+		{
+			"text": "בגרונדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "a"

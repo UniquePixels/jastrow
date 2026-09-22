@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S02002",
-	"slug": "קרטיס-2",
-	"headword": {
-		"text": "קַרְטֵיס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטֵיס ²",
+	"headwords": [
+		{
+			"text": "קַרְטֵיס",
+			"disambiguator": 2
+		},
 		{
 			"text": "קַרְטֵיסָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "סָה"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1416,
 		"column": "b"

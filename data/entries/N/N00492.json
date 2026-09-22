@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00492",
-	"slug": "נחירא",
-	"headword": {
-		"text": "נְחִירָא"
-	},
+	"sefariaHeadword": "נְחִירָא",
+	"headwords": [
+		{
+			"text": "נְחִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

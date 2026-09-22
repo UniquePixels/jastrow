@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01020",
-	"slug": "חלט-1",
-	"headword": {
-		"text": "חָלַט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָלַט I",
+	"headwords": [
+		{
+			"text": "חָלַט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 466,
 		"column": "b"

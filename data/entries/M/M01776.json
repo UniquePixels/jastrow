@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01776",
-	"slug": "מניט",
-	"headword": {
-		"text": "מָנֵיט"
-	},
+	"sefariaHeadword": "מָנֵיט",
+	"headwords": [
+		{
+			"text": "מָנֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "a"

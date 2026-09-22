@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00078",
-	"slug": "רבותא-2",
-	"headword": {
-		"text": "רְבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְבוּתָא",
+	"headwords": [
+		{
+			"text": "רְבוּתָא"
+		},
 		{
 			"text": "רְבוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1440,
 		"column": "b"

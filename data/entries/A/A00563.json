@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A00563",
-	"slug": "אודייתא-2",
-	"headword": {
-		"text": "אוּדְיָיתָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אוּדְיָיתָא II",
+	"headwords": [
+		{
+			"text": "אוּדְיָיתָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 22,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00211",
-	"slug": "סהד-2",
-	"headword": {
-		"text": "סְהֵד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְהֵד",
+	"headwords": [
+		{
+			"text": "סְהֵד"
+		},
 		{
 			"text": "סְהֵיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 959,
 		"column": "b"

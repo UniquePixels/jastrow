@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00197",
-	"slug": "פוטרה",
-	"headword": {
-		"text": "פּוּטְרה"
-	},
+	"sefariaHeadword": "פּוּטְרה",
+	"headwords": [
+		{
+			"text": "פּוּטְרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

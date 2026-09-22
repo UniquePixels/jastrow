@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00490",
-	"slug": "עיבוד",
-	"headword": {
-		"text": "עִיבּוּד"
-	},
+	"sefariaHeadword": "עִיבּוּד",
+	"headwords": [
+		{
+			"text": "עִיבּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "b"

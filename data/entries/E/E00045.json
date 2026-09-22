@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00045",
-	"slug": "הבלילא",
-	"headword": {
-		"text": "הַבְלִילָא"
-	},
+	"sefariaHeadword": "הַבְלִילָא",
+	"headwords": [
+		{
+			"text": "הַבְלִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "a"

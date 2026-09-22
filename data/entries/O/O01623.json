@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01623",
-	"slug": "סריק-1",
-	"headword": {
-		"text": "סָרֵיק"
-	},
+	"sefariaHeadword": "סָרֵיק",
+	"headwords": [
+		{
+			"text": "סָרֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01024",
-	"slug": "סלפיתא",
-	"headword": {
-		"text": "סַלְפִּיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַלְפִּיתָא",
+	"headwords": [
+		{
+			"text": "סַלְפִּיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00547",
-	"slug": "סיברתא",
-	"headword": {
-		"text": "סִיבַּרְתָּא"
-	},
+	"sefariaHeadword": "סִיבַּרְתָּא",
+	"headwords": [
+		{
+			"text": "סִיבַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "a"

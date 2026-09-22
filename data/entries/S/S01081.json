@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01081",
-	"slug": "קיסרא",
-	"headword": {
-		"text": "קֵיסָרָא"
-	},
+	"sefariaHeadword": "קֵיסָרָא",
+	"headwords": [
+		{
+			"text": "קֵיסָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03328",
-	"slug": "אשמה",
-	"headword": {
-		"text": "אַשְׁמָה"
-	},
+	"sefariaHeadword": "אַשְׁמָה",
+	"headwords": [
+		{
+			"text": "אַשְׁמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "b"

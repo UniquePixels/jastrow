@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01391",
-	"slug": "בתר-1",
-	"headword": {
-		"text": "בֶּתֶר"
-	},
+	"sefariaHeadword": "בֶּתֶר",
+	"headwords": [
+		{
+			"text": "בֶּתֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "a"

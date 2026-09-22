@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00492",
-	"slug": "סטכטון",
-	"headword": {
-		"text": "סְטַכְטוֹן"
-	},
+	"sefariaHeadword": "סְטַכְטוֹן",
+	"headwords": [
+		{
+			"text": "סְטַכְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

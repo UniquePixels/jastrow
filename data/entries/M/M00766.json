@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00766",
-	"slug": "מזלותא",
-	"headword": {
-		"text": "מזלותא"
-	},
+	"sefariaHeadword": "מזלותא",
+	"headwords": [
+		{
+			"text": "מזלותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

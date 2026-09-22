@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00964",
-	"slug": "מטבחים",
-	"headword": {
-		"text": "מִטְבָּחִים"
-	},
+	"sefariaHeadword": "מִטְבָּחִים",
+	"headwords": [
+		{
+			"text": "מִטְבָּחִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "b"

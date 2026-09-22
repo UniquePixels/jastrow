@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01599",
-	"slug": "מללותא",
-	"headword": {
-		"text": "מַלָּלוּתָא"
-	},
+	"sefariaHeadword": "מַלָּלוּתָא",
+	"headwords": [
+		{
+			"text": "מַלָּלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "a"

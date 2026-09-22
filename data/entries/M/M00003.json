@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00003",
-	"slug": "מא",
-	"headword": {
-		"text": "מָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָא",
+	"headwords": [
+		{
+			"text": "מָא"
+		},
 		{
 			"text": "מַא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 721,
 		"column": "a"

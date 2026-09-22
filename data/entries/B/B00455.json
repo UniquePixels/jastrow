@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00455",
-	"slug": "בזיקיא",
-	"headword": {
-		"text": "בְּזִיקַיָּא"
-	},
+	"sefariaHeadword": "בְּזִיקַיָּא",
+	"headwords": [
+		{
+			"text": "בְּזִיקַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "b"

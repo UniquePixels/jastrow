@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00980",
-	"slug": "פלומי",
-	"headword": {
-		"text": "פלומי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלומי",
+	"headwords": [
 		{
-			"text": "פלומי פילון"
+			"text": "פלומי"
+		},
+		{
+			"text": "פ׳ פילון",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1178,
 		"column": "a"

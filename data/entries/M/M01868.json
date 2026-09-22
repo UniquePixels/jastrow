@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01868",
-	"slug": "מסוכן",
-	"headword": {
-		"text": "מְסוּכָּן"
-	},
+	"sefariaHeadword": "מְסוּכָּן",
+	"headwords": [
+		{
+			"text": "מְסוּכָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

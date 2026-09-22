@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01627",
-	"slug": "אישפת",
-	"headword": {
-		"text": "אִישְׁפֹּת"
-	},
+	"sefariaHeadword": "אִישְׁפֹּת",
+	"headwords": [
+		{
+			"text": "אִישְׁפֹּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

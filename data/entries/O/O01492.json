@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01492",
-	"slug": "סקף-1",
-	"headword": {
-		"text": "סָקַף"
-	},
+	"sefariaHeadword": "סָקַף",
+	"headwords": [
+		{
+			"text": "סָקַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "a"

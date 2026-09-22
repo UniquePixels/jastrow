@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01184",
-	"slug": "ברדלה",
-	"headword": {
-		"text": "ברדלה"
-	},
+	"sefariaHeadword": "ברדלה",
+	"headwords": [
+		{
+			"text": "ברדלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

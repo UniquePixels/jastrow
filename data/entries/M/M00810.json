@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00810",
-	"slug": "מחוא",
-	"headword": {
-		"text": "מַחְוָא"
-	},
+	"sefariaHeadword": "מַחְוָא",
+	"headwords": [
+		{
+			"text": "מַחְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "b"

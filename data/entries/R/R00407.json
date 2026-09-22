@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00407",
-	"slug": "ציפוחא",
-	"headword": {
-		"text": "צִיפּוּחָא"
-	},
+	"sefariaHeadword": "צִיפּוּחָא",
+	"headwords": [
+		{
+			"text": "צִיפּוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "b"

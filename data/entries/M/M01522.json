@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01522",
-	"slug": "מלח-3",
-	"headword": {
-		"text": "מְלַח",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְלַח II",
+	"headwords": [
+		{
+			"text": "מְלַח",
+			"homograph": 2
+		},
 		{
 			"text": "מַלֵּחַ"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 788,
 		"column": "b"

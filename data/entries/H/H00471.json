@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00471",
-	"slug": "חורם",
-	"headword": {
-		"text": "חוֹרֵם"
-	},
+	"sefariaHeadword": "חוֹרֵם",
+	"headwords": [
+		{
+			"text": "חוֹרֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

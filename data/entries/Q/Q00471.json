@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00471",
-	"slug": "פחים",
-	"headword": {
-		"text": "פָּחֵים"
-	},
+	"sefariaHeadword": "פָּחֵים",
+	"headwords": [
+		{
+			"text": "פָּחֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "b"

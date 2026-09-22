@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01707",
-	"slug": "חרך-1",
-	"headword": {
-		"text": "חָרַךְ"
-	},
+	"sefariaHeadword": "חָרַךְ",
+	"headwords": [
+		{
+			"text": "חָרַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 503,
 		"column": "a"

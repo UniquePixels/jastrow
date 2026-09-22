@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03005",
-	"slug": "מתאי",
-	"headword": {
-		"text": "מַתַּאי"
-	},
+	"sefariaHeadword": "מַתַּאי",
+	"headwords": [
+		{
+			"text": "מַתַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "b"

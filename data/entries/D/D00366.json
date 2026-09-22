@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00366",
-	"slug": "דוריות",
-	"headword": {
-		"text": "דּוֹרָיוֹת"
-	},
+	"sefariaHeadword": "דּוֹרָיוֹת",
+	"headwords": [
+		{
+			"text": "דּוֹרָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "a"

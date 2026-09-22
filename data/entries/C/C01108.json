@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01108",
-	"slug": "גנונים",
-	"headword": {
-		"text": "גְּנוּנִים"
-	},
+	"sefariaHeadword": "גְּנוּנִים",
+	"headwords": [
+		{
+			"text": "גְּנוּנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

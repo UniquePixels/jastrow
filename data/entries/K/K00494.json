@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00494",
-	"slug": "כידון-1",
-	"headword": {
-		"text": "כִּידוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כִּידוֹן I",
+	"headwords": [
+		{
+			"text": "כִּידוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 631,
 		"column": "a"

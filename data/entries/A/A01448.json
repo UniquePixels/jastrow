@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01448",
-	"slug": "איסטניס",
-	"headword": {
-		"text": "אִיסְטְנִיס"
-	},
+	"sefariaHeadword": "אִיסְטְנִיס",
+	"headwords": [
+		{
+			"text": "אִיסְטְנִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

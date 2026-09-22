@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02069",
-	"slug": "שת-2",
-	"headword": {
-		"text": "שֵׁת"
-	},
+	"sefariaHeadword": "שֵׁת",
+	"headwords": [
+		{
+			"text": "שֵׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "b"

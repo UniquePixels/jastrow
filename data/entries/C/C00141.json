@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00141",
-	"slug": "גבש-1",
-	"headword": {
-		"text": "גָּבַשׁ"
-	},
+	"sefariaHeadword": "גָּבַשׁ",
+	"headwords": [
+		{
+			"text": "גָּבַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00706",
-	"slug": "ריקן-3",
-	"headword": {
-		"text": "רֵיקָן"
-	},
+	"sefariaHeadword": "רֵיקָן",
+	"headwords": [
+		{
+			"text": "רֵיקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "a"

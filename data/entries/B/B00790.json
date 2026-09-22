@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00790",
-	"slug": "בכירותא",
-	"headword": {
-		"text": "בְּכֵירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּכֵירוּתָא",
+	"headwords": [
+		{
+			"text": "בְּכֵירוּתָא"
+		},
 		{
 			"text": "בְּכֵרוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 170,
 		"column": "a"

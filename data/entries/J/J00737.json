@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "J00737",
-	"slug": "יתור-2",
-	"headword": {
-		"text": "יַתִּור",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַתִּור I",
+	"headwords": [
+		{
+			"text": "יַתִּור",
+			"homograph": 1
+		},
 		{
 			"text": "יַתִּירָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "יַתִּירְתָּא"
 		},
 		{
-			"text": "יְתֵיר׳"
+			"text": "יְתֵיר׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}",
 	"page": {
 		"number": 604,
 		"column": "a"

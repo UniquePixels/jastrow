@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00120",
-	"slug": "רבן-2",
-	"headword": {
-		"text": "רַבָּן"
-	},
+	"sefariaHeadword": "רַבָּן",
+	"headwords": [
+		{
+			"text": "רַבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1444,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00184",
-	"slug": "דוג",
-	"headword": {
-		"text": "דּוּג"
-	},
+	"sefariaHeadword": "דּוּג",
+	"headwords": [
+		{
+			"text": "דּוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

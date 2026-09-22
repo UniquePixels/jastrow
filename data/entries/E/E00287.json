@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00287",
-	"slug": "הושעה",
-	"headword": {
-		"text": "הוֹשָׁעָה"
-	},
+	"sefariaHeadword": "הוֹשָׁעָה",
+	"headwords": [
+		{
+			"text": "הוֹשָׁעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "b"

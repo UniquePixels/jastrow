@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00164",
-	"slug": "רגול-1",
-	"headword": {
-		"text": "רָגוּל"
-	},
+	"sefariaHeadword": "רָגוּל",
+	"headwords": [
+		{
+			"text": "רָגוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

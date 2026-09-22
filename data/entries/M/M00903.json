@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00903",
-	"slug": "מחמת",
-	"headword": {
-		"text": "מֵחַמַּת"
-	},
+	"sefariaHeadword": "מֵחַמַּת",
+	"headwords": [
+		{
+			"text": "מֵחַמַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01834",
-	"slug": "פריש-2",
-	"headword": {
-		"text": "פָּרִישׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פָּרִישׁ II",
+	"headwords": [
+		{
+			"text": "פָּרִישׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1228,
 		"column": "a"

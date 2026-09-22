@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00506",
-	"slug": "צלי-2",
-	"headword": {
-		"text": "צְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְלֵי",
+	"headwords": [
+		{
+			"text": "צְלֵי"
+		},
 		{
 			"text": "צְלָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1283,
 		"column": "b"

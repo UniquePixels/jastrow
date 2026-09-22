@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00246",
-	"slug": "טורקוס",
-	"headword": {
-		"text": "טורקוס"
-	},
+	"sefariaHeadword": "טורקוס",
+	"headwords": [
+		{
+			"text": "טורקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

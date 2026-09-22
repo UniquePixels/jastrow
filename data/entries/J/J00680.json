@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00680",
-	"slug": "ישו",
-	"headword": {
-		"text": "יֵשׁוּ"
-	},
+	"sefariaHeadword": "יֵשׁוּ",
+	"headwords": [
+		{
+			"text": "יֵשׁוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 599,
 		"column": "b"

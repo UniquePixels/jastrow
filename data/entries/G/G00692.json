@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00692",
-	"slug": "זרזיר-2",
-	"headword": {
-		"text": "זַרְזִיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זַרְזִיר II",
+	"headwords": [
+		{
+			"text": "זַרְזִיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 413,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00511",
-	"slug": "טלל-5",
-	"headword": {
-		"text": "טְלַל",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְלַל III",
+	"headwords": [
+		{
+			"text": "טְלַל",
+			"homograph": 3
+		},
 		{
 			"text": "טְלָלָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 537,
 		"column": "b"

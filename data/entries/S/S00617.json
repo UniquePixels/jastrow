@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00617",
-	"slug": "קורמי",
-	"headword": {
-		"text": "קוּרָמֵי"
-	},
+	"sefariaHeadword": "קוּרָמֵי",
+	"headwords": [
+		{
+			"text": "קוּרָמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

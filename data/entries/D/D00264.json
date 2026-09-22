@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00264",
-	"slug": "דול-1",
-	"headword": {
-		"text": "דּוּל"
-	},
+	"sefariaHeadword": "דּוּל",
+	"headwords": [
+		{
+			"text": "דּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 285,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00024",
-	"slug": "פאר-2",
-	"headword": {
-		"text": "פָּאַר"
-	},
+	"sefariaHeadword": "פָּאַר",
+	"headwords": [
+		{
+			"text": "פָּאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

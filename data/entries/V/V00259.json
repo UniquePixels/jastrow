@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00259",
-	"slug": "תופיני",
-	"headword": {
-		"text": "תּוּפִינֵי"
-	},
+	"sefariaHeadword": "תּוּפִינֵי",
+	"headwords": [
+		{
+			"text": "תּוּפִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

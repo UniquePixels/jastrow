@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00140",
-	"slug": "עדיינה",
-	"headword": {
-		"text": "עֶדְיָינָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עֶדְיָינָה",
+	"headwords": [
+		{
+			"text": "עֶדְיָינָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

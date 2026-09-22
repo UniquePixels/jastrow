@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00730",
-	"slug": "דירא-2",
-	"headword": {
-		"text": "דְּיָרָא"
-	},
+	"sefariaHeadword": "דְּיָרָא",
+	"headwords": [
+		{
+			"text": "דְּיָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "b"

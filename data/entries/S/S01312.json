@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01312",
-	"slug": "קלטור",
-	"headword": {
-		"text": "קָלָטוֹר"
-	},
+	"sefariaHeadword": "קָלָטוֹר",
+	"headwords": [
+		{
+			"text": "קָלָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1375,
 		"column": "a"

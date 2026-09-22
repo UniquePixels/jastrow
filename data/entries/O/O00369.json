@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00369",
-	"slug": "סוסביל",
-	"headword": {
-		"text": "סוּסְבֵּיל"
-	},
+	"sefariaHeadword": "סוּסְבֵּיל",
+	"headwords": [
+		{
+			"text": "סוּסְבֵּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "a"

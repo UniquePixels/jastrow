@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00072",
-	"slug": "לבילדין",
-	"headword": {
-		"text": "לבילדין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לבילדין",
+	"headwords": [
+		{
+			"text": "לבילדין"
+		},
 		{
 			"text": "לבילרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 689,
 		"column": "a"

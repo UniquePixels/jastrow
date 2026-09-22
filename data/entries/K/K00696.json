@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00696",
-	"slug": "כלובא",
-	"headword": {
-		"text": "כְּלוּבָא"
-	},
+	"sefariaHeadword": "כְּלוּבָא",
+	"headwords": [
+		{
+			"text": "כְּלוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00023",
-	"slug": "גאלה",
-	"headword": {
-		"text": "גאלה"
-	},
+	"sefariaHeadword": "גאלה",
+	"headwords": [
+		{
+			"text": "גאלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

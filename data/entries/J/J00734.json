@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00734",
-	"slug": "יתין",
-	"headword": {
-		"text": "יַתְיַן"
-	},
+	"sefariaHeadword": "יַתְיַן",
+	"headwords": [
+		{
+			"text": "יַתְיַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

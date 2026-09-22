@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00093",
-	"slug": "מבע",
-	"headword": {
-		"text": "מַבַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַבַּע",
+	"headwords": [
+		{
+			"text": "מַבַּע"
+		},
 		{
 			"text": "מַבְּעָא"
 		},
 		{
-			"text": "מִבְ׳"
+			"text": "מִבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 725,
 		"column": "a"

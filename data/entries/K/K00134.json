@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00134",
-	"slug": "כדכדון",
-	"headword": {
-		"text": "כַּדְכְּדוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּדְכְּדוֹן",
+	"headwords": [
+		{
+			"text": "כַּדְכְּדוֹן"
+		},
 		{
 			"text": "כַּרְכְּדוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "כַּדְכְּדָנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 614,
 		"column": "a"

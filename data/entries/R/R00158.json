@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00158",
-	"slug": "צובה-2",
-	"headword": {
-		"text": "צוֹבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹבָה",
+	"headwords": [
+		{
+			"text": "צוֹבָה"
+		},
 		{
 			"text": "צוֹבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1265,
 		"column": "b"

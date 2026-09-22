@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02547",
-	"slug": "אסקריטון",
-	"headword": {
-		"text": "אִסְקְרִיטָוָן"
-	},
+	"sefariaHeadword": "אִסְקְרִיטָוָן",
+	"headwords": [
+		{
+			"text": "אִסְקְרִיטָוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

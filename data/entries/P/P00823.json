@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00823",
-	"slug": "עלם-6",
-	"headword": {
-		"text": "עָלַם",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָלַם III",
+	"headwords": [
+		{
+			"text": "עָלַם",
+			"homograph": 3
+		},
 		{
 			"text": "עֲלַם"
 		},
@@ -13,9 +14,11 @@
 			"text": "עָלְמָא"
 		},
 		{
-			"text": "עַלְ׳"
+			"text": "עַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2}, {3}",
 	"page": {
 		"number": 1084,
 		"column": "b"

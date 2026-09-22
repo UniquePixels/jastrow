@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00215",
-	"slug": "בוהיין",
-	"headword": {
-		"text": "בּוֹהֲיָין"
-	},
+	"sefariaHeadword": "בּוֹהֲיָין",
+	"headwords": [
+		{
+			"text": "בּוֹהֲיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

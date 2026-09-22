@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00342",
-	"slug": "פוריא-2",
-	"headword": {
-		"text": "פּוֹרַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹרַיָּא",
+	"headwords": [
+		{
+			"text": "פּוֹרַיָּא"
+		},
 		{
 			"text": "פּוֹרַיָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1146,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01430",
-	"slug": "שמוט-2",
-	"headword": {
-		"text": "שָׁמוּט"
-	},
+	"sefariaHeadword": "שָׁמוּט",
+	"headwords": [
+		{
+			"text": "שָׁמוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1592,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00328",
-	"slug": "גווזא-1",
-	"headword": {
-		"text": "גַּוָּוזָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גַּוָּוזָא I",
+	"headwords": [
+		{
+			"text": "גַּוָּוזָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 219,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00256",
-	"slug": "זטחא",
-	"headword": {
-		"text": "זטחא"
-	},
+	"sefariaHeadword": "זטחא",
+	"headwords": [
+		{
+			"text": "זטחא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

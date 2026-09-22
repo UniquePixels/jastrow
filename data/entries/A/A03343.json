@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03343",
-	"slug": "אשקוקה",
-	"headword": {
-		"text": "אַשְׁקוּקָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁקוּקָה",
+	"headwords": [
+		{
+			"text": "אַשְׁקוּקָה"
+		},
 		{
 			"text": "אשקיקה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 130,
 		"column": "a"

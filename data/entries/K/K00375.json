@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00375",
-	"slug": "כורז",
-	"headword": {
-		"text": "כּוֹרֵז"
-	},
+	"sefariaHeadword": "כּוֹרֵז",
+	"headwords": [
+		{
+			"text": "כּוֹרֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

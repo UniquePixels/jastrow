@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02098",
-	"slug": "אנגיטוס",
-	"headword": {
-		"text": "אנגיטוס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנגיטוס",
+	"headwords": [
+		{
+			"text": "אנגיטוס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

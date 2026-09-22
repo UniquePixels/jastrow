@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00623",
-	"slug": "ירח-2",
-	"headword": {
-		"text": "יֶרַח"
-	},
+	"sefariaHeadword": "יֶרַח",
+	"headwords": [
+		{
+			"text": "יֶרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "b"

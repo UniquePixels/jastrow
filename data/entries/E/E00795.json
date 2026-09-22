@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00795",
-	"slug": "הקם",
-	"headword": {
-		"text": "הָקֵם"
-	},
+	"sefariaHeadword": "הָקֵם",
+	"headwords": [
+		{
+			"text": "הָקֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

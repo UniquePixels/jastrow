@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01357",
-	"slug": "ספיין",
-	"headword": {
-		"text": "סְפָיִין"
-	},
+	"sefariaHeadword": "סְפָיִין",
+	"headwords": [
+		{
+			"text": "סְפָיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

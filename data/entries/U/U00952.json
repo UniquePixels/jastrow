@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00952",
-	"slug": "שילפוחא",
-	"headword": {
-		"text": "שִׁילְפּוּחָא"
-	},
+	"sefariaHeadword": "שִׁילְפּוּחָא",
+	"headwords": [
+		{
+			"text": "שִׁילְפּוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

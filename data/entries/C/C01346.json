@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01346",
-	"slug": "גרירה",
-	"headword": {
-		"text": "גְּרִירָה"
-	},
+	"sefariaHeadword": "גְּרִירָה",
+	"headwords": [
+		{
+			"text": "גְּרִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 269,
 		"column": "a"

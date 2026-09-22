@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00026",
-	"slug": "גאם-1",
-	"headword": {
-		"text": "גַּאַם"
-	},
+	"sefariaHeadword": "גַּאַם",
+	"headwords": [
+		{
+			"text": "גַּאַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

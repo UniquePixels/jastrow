@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02633",
-	"slug": "אפוספיס",
-	"headword": {
-		"text": "אפוספיס"
-	},
+	"sefariaHeadword": "אפוספיס",
+	"headwords": [
+		{
+			"text": "אפוספיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

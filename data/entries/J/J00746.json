@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00746",
-	"slug": "יתר-1",
-	"headword": {
-		"text": "יָתַר"
-	},
+	"sefariaHeadword": "יָתַר",
+	"headwords": [
+		{
+			"text": "יָתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "b"

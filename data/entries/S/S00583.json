@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00583",
-	"slug": "קורדקין",
-	"headword": {
-		"text": "קוּרְדְּקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְדְּקִין",
+	"headwords": [
+		{
+			"text": "קוּרְדְּקִין"
+		},
 		{
 			"text": "קוּרְדְּקִיסִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "קוּרְדְּקַיְיסִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1341,
 		"column": "b"

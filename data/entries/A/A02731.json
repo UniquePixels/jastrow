@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02731",
-	"slug": "אפל-1",
-	"headword": {
-		"text": "אָפַל"
-	},
+	"sefariaHeadword": "אָפַל",
+	"headwords": [
+		{
+			"text": "אָפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "a"

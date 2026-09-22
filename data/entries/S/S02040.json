@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S02040",
-	"slug": "קריה-2",
-	"headword": {
-		"text": "קִרְיָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְיָה II",
+	"headwords": [
 		{
-			"text": "קִירְ׳"
+			"text": "קִרְיָה",
+			"homograph": 2
+		},
+		{
+			"text": "קִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1419,
 		"column": "b"

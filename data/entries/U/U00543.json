@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00543",
-	"slug": "שורבינא",
-	"headword": {
-		"text": "שׁוּרְבִּינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּרְבִּינָא",
+	"headwords": [
+		{
+			"text": "שׁוּרְבִּינָא"
+		},
 		{
 			"text": "שׁוּרְבָּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1542,
 		"column": "a"

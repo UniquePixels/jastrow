@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "F00089",
-	"slug": "ורדינא-2",
-	"headword": {
-		"text": "וַרְדִּינָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וַרְדִּינָא II",
+	"headwords": [
+		{
+			"text": "וַרְדִּינָא",
+			"homograph": 2
+		},
 		{
 			"text": "וַרְדַּנְיָא"
 		},
@@ -13,12 +14,10 @@
 			"text": "וַרְדּוּנְיָא"
 		}
 	],
+	"display": "{0} II, ({1}, {2})",
 	"page": {
 		"number": 375,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01939",
-	"slug": "שרוול",
-	"headword": {
-		"text": "שַׁרְוָול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁרְוָול",
+	"headwords": [
+		{
+			"text": "שַׁרְוָול"
+		},
 		{
 			"text": "שַׁרְוָל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1628,
 		"column": "b"

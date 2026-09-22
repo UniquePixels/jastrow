@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00845",
-	"slug": "עלת",
-	"headword": {
-		"text": "עַלַּת"
-	},
+	"sefariaHeadword": "עַלַּת",
+	"headwords": [
+		{
+			"text": "עַלַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

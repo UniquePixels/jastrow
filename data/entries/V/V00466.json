@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00466",
-	"slug": "תימן",
-	"headword": {
-		"text": "תימן"
-	},
+	"sefariaHeadword": "תימן",
+	"headwords": [
+		{
+			"text": "תימן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

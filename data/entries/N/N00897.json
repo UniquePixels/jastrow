@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00897",
-	"slug": "נן",
-	"headword": {
-		"text": "נַן"
-	},
+	"sefariaHeadword": "נַן",
+	"headwords": [
+		{
+			"text": "נַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

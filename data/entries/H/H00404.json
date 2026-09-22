@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00404",
-	"slug": "חוני",
-	"headword": {
-		"text": "חוֹנִי"
-	},
+	"sefariaHeadword": "חוֹנִי",
+	"headwords": [
+		{
+			"text": "חוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00337",
-	"slug": "חולות",
-	"headword": {
-		"text": "חוֹלוֹת"
-	},
+	"sefariaHeadword": "חוֹלוֹת",
+	"headwords": [
+		{
+			"text": "חוֹלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "a"

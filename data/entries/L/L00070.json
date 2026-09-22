@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00070",
-	"slug": "לבידין",
-	"headword": {
-		"text": "לְבִידִין"
-	},
+	"sefariaHeadword": "לְבִידִין",
+	"headwords": [
+		{
+			"text": "לְבִידִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

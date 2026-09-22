@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00326",
-	"slug": "פוקרים",
-	"headword": {
-		"text": "פוקרים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פוקרים",
+	"headwords": [
 		{
-			"text": "בני פוקרים"
+			"text": "פוקרים"
+		},
+		{
+			"text": "בני פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1146,
 		"column": "a"

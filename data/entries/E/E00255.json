@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00255",
-	"slug": "הונים",
-	"headword": {
-		"text": "הונים"
-	},
+	"sefariaHeadword": "הונים",
+	"headwords": [
+		{
+			"text": "הונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

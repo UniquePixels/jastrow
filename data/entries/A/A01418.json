@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01418",
-	"slug": "איסטהר",
-	"headword": {
-		"text": "אִיסְטַהַר"
-	},
+	"sefariaHeadword": "אִיסְטַהַר",
+	"headwords": [
+		{
+			"text": "אִיסְטַהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

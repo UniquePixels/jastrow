@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00047",
-	"slug": "תביר-2",
-	"headword": {
-		"text": "תְּבִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּבִיר",
+	"headwords": [
+		{
+			"text": "תְּבִיר"
+		},
 		{
 			"text": "תְּבִירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1643,
 		"column": "b"

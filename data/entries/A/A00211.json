@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00211",
-	"slug": "אברוורי",
-	"headword": {
-		"text": "אַבְרַוְורֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְרַוְורֵי",
+	"headwords": [
+		{
+			"text": "אַבְרַוְורֵי"
+		},
 		{
 			"text": "אַבְרוּרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 9,
 		"column": "a"

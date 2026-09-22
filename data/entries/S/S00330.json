@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00330",
-	"slug": "קולון",
-	"headword": {
-		"text": "קוֹלוֹן"
-	},
+	"sefariaHeadword": "קוֹלוֹן",
+	"headwords": [
+		{
+			"text": "קוֹלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1328,
 		"column": "a"

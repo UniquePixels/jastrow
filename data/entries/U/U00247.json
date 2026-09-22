@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00247",
-	"slug": "שגשג-2",
-	"headword": {
-		"text": "שַׁגְשֵׁג"
-	},
+	"sefariaHeadword": "שַׁגְשֵׁג",
+	"headwords": [
+		{
+			"text": "שַׁגְשֵׁג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1523,
 		"column": "b"

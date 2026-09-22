@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00738",
-	"slug": "שטופא",
-	"headword": {
-		"text": "שִׁטּוּפָא"
-	},
+	"sefariaHeadword": "שִׁטּוּפָא",
+	"headwords": [
+		{
+			"text": "שִׁטּוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1553,
 		"column": "a"

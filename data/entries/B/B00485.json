@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00485",
-	"slug": "בחרות",
-	"headword": {
-		"text": "בַּחֲרוּת"
-	},
+	"sefariaHeadword": "בַּחֲרוּת",
+	"headwords": [
+		{
+			"text": "בַּחֲרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00940",
-	"slug": "סכר-1",
-	"headword": {
-		"text": "סָכַר"
-	},
+	"sefariaHeadword": "סָכַר",
+	"headwords": [
+		{
+			"text": "סָכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 992,
 		"column": "b"

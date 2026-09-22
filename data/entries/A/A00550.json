@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00550",
-	"slug": "אוגרים",
-	"headword": {
-		"text": "אוגרים"
-	},
+	"sefariaHeadword": "אוגרים",
+	"headwords": [
+		{
+			"text": "אוגרים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

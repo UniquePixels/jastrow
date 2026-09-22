@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01820",
-	"slug": "שצת",
-	"headword": {
-		"text": "שֶׁצֶת"
-	},
+	"sefariaHeadword": "שֶׁצֶת",
+	"headwords": [
+		{
+			"text": "שֶׁצֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

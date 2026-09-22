@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02139",
-	"slug": "פתור-3",
-	"headword": {
-		"text": "פָּתוֹר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּתוֹר ²",
+	"headwords": [
+		{
+			"text": "פָּתוֹר",
+			"disambiguator": 2
+		},
 		{
 			"text": "פָּתוֹרָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1250,
 		"column": "b"

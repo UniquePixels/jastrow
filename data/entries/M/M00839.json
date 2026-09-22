@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00839",
-	"slug": "מחזהא",
-	"headword": {
-		"text": "מחְזָהָא"
-	},
+	"sefariaHeadword": "מחְזָהָא",
+	"headwords": [
+		{
+			"text": "מחְזָהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

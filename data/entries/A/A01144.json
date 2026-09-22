@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01144",
-	"slug": "איגלא",
-	"headword": {
-		"text": "איגְלָא"
-	},
+	"sefariaHeadword": "איגְלָא",
+	"headwords": [
+		{
+			"text": "איגְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

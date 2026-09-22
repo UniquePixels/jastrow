@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00621",
-	"slug": "גיברותא",
-	"headword": {
-		"text": "גִּיבָּרוּתָא"
-	},
+	"sefariaHeadword": "גִּיבָּרוּתָא",
+	"headwords": [
+		{
+			"text": "גִּיבָּרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "b"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00067",
-	"slug": "שבבין",
-	"headword": {
-		"text": "שִׁבְּבִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבְּבִין",
+	"headwords": [
 		{
-			"text": "שִׁבְ׳"
+			"text": "שִׁבְּבִין"
 		},
 		{
-			"text": "שֵׁיבְ׳"
+			"text": "שִׁבְ׳",
+			"partial": true
+		},
+		{
+			"text": "שֵׁיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1510,
 		"column": "a"

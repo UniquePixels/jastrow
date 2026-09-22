@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00040",
-	"slug": "שאסא",
-	"headword": {
-		"text": "שָׂאסָא"
-	},
+	"sefariaHeadword": "שָׂאסָא",
+	"headwords": [
+		{
+			"text": "שָׂאסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "b"

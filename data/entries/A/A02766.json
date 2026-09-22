@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02766",
-	"slug": "אפסרא",
-	"headword": {
-		"text": "אַפְסָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְסָרָא",
+	"headwords": [
+		{
+			"text": "אַפְסָרָא"
+		},
 		{
 			"text": "אַפְסִירָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 106,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01175",
-	"slug": "כריעה",
-	"headword": {
-		"text": "כְּרִיעָה"
-	},
+	"sefariaHeadword": "כְּרִיעָה",
+	"headwords": [
+		{
+			"text": "כְּרִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "b"

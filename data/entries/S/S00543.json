@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00543",
-	"slug": "קוצר",
-	"headword": {
-		"text": "קוֹצֶר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוֹצֶר",
+	"headwords": [
+		{
+			"text": "קוֹצֶר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

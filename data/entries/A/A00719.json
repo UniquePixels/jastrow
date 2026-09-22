@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00719",
-	"slug": "אונא-1",
-	"headword": {
-		"text": "אֲוָנָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲוָנָא II",
+	"headwords": [
+		{
+			"text": "אֲוָנָא",
+			"homograph": 2
+		},
 		{
 			"text": "אֲוָונָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 28,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

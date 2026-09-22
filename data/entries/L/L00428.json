@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00428",
-	"slug": "ליגנין",
-	"headword": {
-		"text": "ליגנין"
-	},
+	"sefariaHeadword": "ליגנין",
+	"headwords": [
+		{
+			"text": "ליגנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

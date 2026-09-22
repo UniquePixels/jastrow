@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01532",
-	"slug": "עתיק-1",
-	"headword": {
-		"text": "עַתִּיק"
-	},
+	"sefariaHeadword": "עַתִּיק",
+	"headwords": [
+		{
+			"text": "עַתִּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1129,
 		"column": "b"

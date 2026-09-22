@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00188",
-	"slug": "אבק-1",
-	"headword": {
-		"text": "אָבָק"
-	},
+	"sefariaHeadword": "אָבָק",
+	"headwords": [
+		{
+			"text": "אָבָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "a"

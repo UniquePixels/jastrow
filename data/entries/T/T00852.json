@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00852",
-	"slug": "רסוס",
-	"headword": {
-		"text": "רִסּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִסּוּס",
+	"headwords": [
+		{
+			"text": "רִסּוּס"
+		},
 		{
 			"text": "רִסּוּק"
 		},
@@ -12,6 +13,7 @@
 			"text": "רִסּוּקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1484,
 		"column": "b"

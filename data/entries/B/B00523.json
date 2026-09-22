@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00523",
-	"slug": "בטן-1",
-	"headword": {
-		"text": "בְּטַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּטַן",
+	"headwords": [
+		{
+			"text": "בְּטַן"
+		},
 		{
 			"text": "בְּטֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 158,
 		"column": "a"

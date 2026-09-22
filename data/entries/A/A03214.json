@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03214",
-	"slug": "ארסקינס",
-	"headword": {
-		"text": "אָרְסְקִינָס"
-	},
+	"sefariaHeadword": "אָרְסְקִינָס",
+	"headwords": [
+		{
+			"text": "אָרְסְקִינָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "b"

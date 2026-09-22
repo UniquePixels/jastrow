@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02350",
-	"slug": "מצץ-2",
-	"headword": {
-		"text": "מְצַּץ"
-	},
+	"sefariaHeadword": "מְצַּץ",
+	"headwords": [
+		{
+			"text": "מְצַּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

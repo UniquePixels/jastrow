@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01972",
-	"slug": "פרצא-2",
-	"headword": {
-		"text": "פַּרְצָא"
-	},
+	"sefariaHeadword": "פַּרְצָא",
+	"headwords": [
+		{
+			"text": "פַּרְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1237,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01068",
-	"slug": "עפלא",
-	"headword": {
-		"text": "עָפְלָא"
-	},
+	"sefariaHeadword": "עָפְלָא",
+	"headwords": [
+		{
+			"text": "עָפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

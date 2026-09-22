@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03437",
-	"slug": "אתנשאה",
-	"headword": {
-		"text": "אִתְנְשָׁאָה"
-	},
+	"sefariaHeadword": "אִתְנְשָׁאָה",
+	"headwords": [
+		{
+			"text": "אִתְנְשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

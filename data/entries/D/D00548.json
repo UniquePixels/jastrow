@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00548",
-	"slug": "דיחוק",
-	"headword": {
-		"text": "דִּיחוּק"
-	},
+	"sefariaHeadword": "דִּיחוּק",
+	"headwords": [
+		{
+			"text": "דִּיחוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02133",
-	"slug": "קרפדאי",
-	"headword": {
-		"text": "קַרְפְּדַאי"
-	},
+	"sefariaHeadword": "קַרְפְּדַאי",
+	"headwords": [
+		{
+			"text": "קַרְפְּדַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1424,
 		"column": "b"

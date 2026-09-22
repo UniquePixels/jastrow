@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02341",
-	"slug": "אסורין",
-	"headword": {
-		"text": "אֲסוּרִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲסוּרִין",
+	"headwords": [
+		{
+			"text": "אֲסוּרִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 89,
 		"column": "b"

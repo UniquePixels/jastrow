@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03023",
-	"slug": "ארווסא",
-	"headword": {
-		"text": "אַרְוָוסָא"
-	},
+	"sefariaHeadword": "אַרְוָוסָא",
+	"headwords": [
+		{
+			"text": "אַרְוָוסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "b"

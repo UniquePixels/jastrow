@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01182",
-	"slug": "פנטסכינאי",
-	"headword": {
-		"text": "פַּנְטַסְכִינָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְטַסְכִינָאֵי",
+	"headwords": [
 		{
-			"text": "פַּנְטַסְכְנָ׳"
+			"text": "פַּנְטַסְכִינָאֵי"
+		},
+		{
+			"text": "פַּנְטַסְכְנָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1187,
 		"column": "a"

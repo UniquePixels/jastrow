@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00189",
-	"slug": "טוס-1",
-	"headword": {
-		"text": "טוּס"
-	},
+	"sefariaHeadword": "טוּס",
+	"headwords": [
+		{
+			"text": "טוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00374",
-	"slug": "לחש-4",
-	"headword": {
-		"text": "לַחַשׁ"
-	},
+	"sefariaHeadword": "לַחַשׁ",
+	"headwords": [
+		{
+			"text": "לַחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 704,
 		"column": "b"

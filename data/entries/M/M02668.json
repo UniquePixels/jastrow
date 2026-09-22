@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02668",
-	"slug": "מריח",
-	"headword": {
-		"text": "מָרִיחַ"
-	},
+	"sefariaHeadword": "מָרִיחַ",
+	"headwords": [
+		{
+			"text": "מָרִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

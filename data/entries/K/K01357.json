@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01357",
-	"slug": "כתיב",
-	"headword": {
-		"text": "כְּתִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתִיב",
+	"headwords": [
+		{
+			"text": "כְּתִיב"
+		},
 		{
 			"text": "כְּתִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 680,
 		"column": "b"

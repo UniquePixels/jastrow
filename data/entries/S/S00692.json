@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00692",
-	"slug": "קטאות",
-	"headword": {
-		"text": "קִטָּאוֹת"
-	},
+	"sefariaHeadword": "קִטָּאוֹת",
+	"headwords": [
+		{
+			"text": "קִטָּאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "a"

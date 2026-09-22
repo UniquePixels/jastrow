@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00420",
-	"slug": "קונדיקוס",
-	"headword": {
-		"text": "קונדיקוס"
-	},
+	"sefariaHeadword": "קונדיקוס",
+	"headwords": [
+		{
+			"text": "קונדיקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00678",
-	"slug": "דיפלון",
-	"headword": {
-		"text": "דיפלון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דיפלון",
+	"headwords": [
+		{
+			"text": "דיפלון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

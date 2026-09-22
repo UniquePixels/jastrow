@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01384",
-	"slug": "חסינה",
-	"headword": {
-		"text": "חֲסִינָה"
-	},
+	"sefariaHeadword": "חֲסִינָה",
+	"headwords": [
+		{
+			"text": "חֲסִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "b"

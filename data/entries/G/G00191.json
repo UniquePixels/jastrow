@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00191",
-	"slug": "זון-1",
-	"headword": {
-		"text": "זוּן"
-	},
+	"sefariaHeadword": "זוּן",
+	"headwords": [
+		{
+			"text": "זוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "b"

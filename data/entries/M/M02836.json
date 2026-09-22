@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02836",
-	"slug": "משונית",
-	"headword": {
-		"text": "מְשׁוּנִּית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְשׁוּנִּית",
+	"headwords": [
+		{
+			"text": "מְשׁוּנִּית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

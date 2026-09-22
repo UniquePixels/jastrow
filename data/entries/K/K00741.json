@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00741",
-	"slug": "כלינידין",
-	"headword": {
-		"text": "כְּלִינִידִין"
-	},
+	"sefariaHeadword": "כְּלִינִידִין",
+	"headwords": [
+		{
+			"text": "כְּלִינִידִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

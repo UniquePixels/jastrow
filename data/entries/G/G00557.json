@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00557",
-	"slug": "זמתני",
-	"headword": {
-		"text": "זִמְתָּנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִמְתָּנֵי",
+	"headwords": [
+		{
+			"text": "זִמְתָּנֵי"
+		},
 		{
 			"text": "זִימְתָנֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 405,
 		"column": "b"

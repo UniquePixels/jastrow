@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02856",
-	"slug": "משחית",
-	"headword": {
-		"text": "מַשְׁחִית"
-	},
+	"sefariaHeadword": "מַשְׁחִית",
+	"headwords": [
+		{
+			"text": "מַשְׁחִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "b"

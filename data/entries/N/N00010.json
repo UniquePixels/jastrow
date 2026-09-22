@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00010",
-	"slug": "נאה-1",
-	"headword": {
-		"text": "נָאֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָאֶה",
+	"headwords": [
+		{
+			"text": "נָאֶה"
+		},
 		{
 			"text": "נָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 865,
 		"column": "b"

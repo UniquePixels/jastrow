@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01196",
-	"slug": "פניי",
-	"headword": {
-		"text": "פְּנַיי"
-	},
+	"sefariaHeadword": "פְּנַיי",
+	"headwords": [
+		{
+			"text": "פְּנַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1189,
 		"column": "a"

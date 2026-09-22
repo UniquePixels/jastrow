@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02941",
-	"slug": "משנה-3",
-	"headword": {
-		"text": "מִשְׁנָה"
-	},
+	"sefariaHeadword": "מִשְׁנָה",
+	"headwords": [
+		{
+			"text": "מִשְׁנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "a"

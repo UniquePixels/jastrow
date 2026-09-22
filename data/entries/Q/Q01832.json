@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01832",
-	"slug": "פרירא-2",
-	"headword": {
-		"text": "פְּרִירָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִירָא II",
+	"headwords": [
+		{
+			"text": "פְּרִירָא",
+			"homograph": 2
+		},
 		{
 			"text": "פְּרִירִי"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1228,
 		"column": "a"

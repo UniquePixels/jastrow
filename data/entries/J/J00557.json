@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00557",
-	"slug": "יקד-2",
-	"headword": {
-		"text": "יְקַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְקַד",
+	"headwords": [
+		{
+			"text": "יְקַד"
+		},
 		{
 			"text": "יְקֵיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 591,
 		"column": "a"

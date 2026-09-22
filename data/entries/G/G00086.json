@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00086",
-	"slug": "זהוה",
-	"headword": {
-		"text": "זָהוֹהַּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָהוֹהַּ",
+	"headwords": [
+		{
+			"text": "זָהוֹהַּ"
+		},
 		{
 			"text": "זָחוֹחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 381,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00330",
-	"slug": "דוקייא",
-	"headword": {
-		"text": "דּוֹקְיָיא"
-	},
+	"sefariaHeadword": "דּוֹקְיָיא",
+	"headwords": [
+		{
+			"text": "דּוֹקְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "a"

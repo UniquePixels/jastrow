@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00193",
-	"slug": "גדי-3",
-	"headword": {
-		"text": "גְּדִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּדִי ²",
+	"headwords": [
+		{
+			"text": "גְּדִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "גַּדְיָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 211,
 		"column": "b"

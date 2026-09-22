@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01068",
-	"slug": "רשאנא",
-	"headword": {
-		"text": "רָשָׁאנָא"
-	},
+	"sefariaHeadword": "רָשָׁאנָא",
+	"headwords": [
+		{
+			"text": "רָשָׁאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "b"

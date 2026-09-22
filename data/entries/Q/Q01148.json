@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01148",
-	"slug": "פנאי",
-	"headword": {
-		"text": "פְּנַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנַאי",
+	"headwords": [
+		{
+			"text": "פְּנַאי"
+		},
 		{
 			"text": "פְּנַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1186,
 		"column": "a"

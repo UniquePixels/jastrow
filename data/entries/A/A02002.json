@@ -1,10 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A02002",
-	"slug": "כפר-א׳-אמוס",
-	"headword": {
-		"text": "כְּפַר א׳ אָמוּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּפַר א׳ אָמוּס",
+	"headwords": [
+		{
+			"text": "כְּפַר א׳ אָמוּס",
+			"reconstructed": true,
+			"partial": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

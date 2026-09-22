@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00691",
-	"slug": "מות-2",
-	"headword": {
-		"text": "מוּת"
-	},
+	"sefariaHeadword": "מוּת",
+	"headwords": [
+		{
+			"text": "מוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

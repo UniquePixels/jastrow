@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00672",
-	"slug": "לקושין",
-	"headword": {
-		"text": "לְקוּשִׁין"
-	},
+	"sefariaHeadword": "לְקוּשִׁין",
+	"headwords": [
+		{
+			"text": "לְקוּשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

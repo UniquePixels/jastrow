@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00592",
-	"slug": "פידגרה",
-	"headword": {
-		"text": "פידגרה"
-	},
+	"sefariaHeadword": "פידגרה",
+	"headwords": [
+		{
+			"text": "פידגרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

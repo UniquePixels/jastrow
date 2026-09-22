@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00109",
-	"slug": "צדיותא",
-	"headword": {
-		"text": "צַדְיוּתָא"
-	},
+	"sefariaHeadword": "צַדְיוּתָא",
+	"headwords": [
+		{
+			"text": "צַדְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1262,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01064",
-	"slug": "תרתא-1",
-	"headword": {
-		"text": "תרתא"
-	},
+	"sefariaHeadword": "תרתא",
+	"headwords": [
+		{
+			"text": "תרתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01910",
-	"slug": "קרדונין",
-	"headword": {
-		"text": "קרדונין"
-	},
+	"sefariaHeadword": "קרדונין",
+	"headwords": [
+		{
+			"text": "קרדונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

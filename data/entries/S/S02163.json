@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02163",
-	"slug": "קרקור",
-	"headword": {
-		"text": "קִרְקוּר"
-	},
+	"sefariaHeadword": "קִרְקוּר",
+	"headwords": [
+		{
+			"text": "קִרְקוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

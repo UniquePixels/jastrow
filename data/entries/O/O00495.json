@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00495",
-	"slug": "סטם",
-	"headword": {
-		"text": "סְטַם"
-	},
+	"sefariaHeadword": "סְטַם",
+	"headwords": [
+		{
+			"text": "סְטַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

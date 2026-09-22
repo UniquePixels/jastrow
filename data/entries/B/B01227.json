@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01227",
-	"slug": "ברזל-1",
-	"headword": {
-		"text": "בַּרְזֶל"
-	},
+	"sefariaHeadword": "בַּרְזֶל",
+	"headwords": [
+		{
+			"text": "בַּרְזֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

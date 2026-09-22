@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00880",
-	"slug": "דמו",
-	"headword": {
-		"text": "דְּמוּ"
-	},
+	"sefariaHeadword": "דְּמוּ",
+	"headwords": [
+		{
+			"text": "דְּמוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

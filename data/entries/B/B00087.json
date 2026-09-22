@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00087",
-	"slug": "בגר-2",
-	"headword": {
-		"text": "בְּגַר"
-	},
+	"sefariaHeadword": "בְּגַר",
+	"headwords": [
+		{
+			"text": "בְּגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

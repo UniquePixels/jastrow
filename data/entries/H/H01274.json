@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01274",
-	"slug": "חנט-2",
-	"headword": {
-		"text": "חֲנַט"
-	},
+	"sefariaHeadword": "חֲנַט",
+	"headwords": [
+		{
+			"text": "חֲנַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 482,
 		"column": "b"

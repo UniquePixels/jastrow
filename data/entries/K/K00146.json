@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00146",
-	"slug": "כדר-1",
-	"headword": {
-		"text": "כָּדַר"
-	},
+	"sefariaHeadword": "כָּדַר",
+	"headwords": [
+		{
+			"text": "כָּדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

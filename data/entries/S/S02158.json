@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02158",
-	"slug": "קרקא",
-	"headword": {
-		"text": "קַרְקָא"
-	},
+	"sefariaHeadword": "קַרְקָא",
+	"headwords": [
+		{
+			"text": "קַרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00778",
-	"slug": "דכירא",
-	"headword": {
-		"text": "דְּכִירָא"
-	},
+	"sefariaHeadword": "דְּכִירָא",
+	"headwords": [
+		{
+			"text": "דְּכִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00695",
-	"slug": "ניניא-2",
-	"headword": {
-		"text": "נִינְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִינְיָא",
+	"headwords": [
+		{
+			"text": "נִינְיָא"
+		},
 		{
 			"text": "נִנְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 905,
 		"column": "b"

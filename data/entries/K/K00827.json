@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00827",
-	"slug": "כן-3",
-	"headword": {
-		"text": "כֵּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּן",
+	"headwords": [
+		{
+			"text": "כֵּן"
+		},
 		{
 			"text": "כֵּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 647,
 		"column": "b"

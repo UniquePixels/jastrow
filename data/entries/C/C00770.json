@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00770",
-	"slug": "גינסין",
-	"headword": {
-		"text": "גינסין"
-	},
+	"sefariaHeadword": "גינסין",
+	"headwords": [
+		{
+			"text": "גינסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 240,
 		"column": "a"

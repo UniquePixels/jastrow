@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01607",
-	"slug": "אירוע",
-	"headword": {
-		"text": "אִירוּעַ"
-	},
+	"sefariaHeadword": "אִירוּעַ",
+	"headwords": [
+		{
+			"text": "אִירוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

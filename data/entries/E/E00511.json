@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00511",
-	"slug": "הכיצד",
-	"headword": {
-		"text": "הָכֵיצַד"
-	},
+	"sefariaHeadword": "הָכֵיצַד",
+	"headwords": [
+		{
+			"text": "הָכֵיצַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

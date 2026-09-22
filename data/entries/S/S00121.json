@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00121",
-	"slug": "קדוש-3",
-	"headword": {
-		"text": "קִדּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִדּוּשׁ",
+	"headwords": [
+		{
+			"text": "קִדּוּשׁ"
+		},
 		{
 			"text": "קִדּוּשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1314,
 		"column": "a"

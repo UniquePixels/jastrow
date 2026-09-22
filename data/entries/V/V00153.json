@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00153",
-	"slug": "תוגה",
-	"headword": {
-		"text": "תּוּגָה"
-	},
+	"sefariaHeadword": "תּוּגָה",
+	"headwords": [
+		{
+			"text": "תּוּגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

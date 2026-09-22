@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00660",
-	"slug": "עיקור",
-	"headword": {
-		"text": "עִיקּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקּוּר",
+	"headwords": [
 		{
-			"text": "עִקּ׳"
+			"text": "עִיקּוּר"
+		},
+		{
+			"text": "עִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "a"

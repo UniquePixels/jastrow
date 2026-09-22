@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02284",
-	"slug": "מצוה-1",
-	"headword": {
-		"text": "מִצְוָה"
-	},
+	"sefariaHeadword": "מִצְוָה",
+	"headwords": [
+		{
+			"text": "מִצְוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "b"

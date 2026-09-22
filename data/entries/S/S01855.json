@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01855",
-	"slug": "קצרקטון",
-	"headword": {
-		"text": "קְצִרְקְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְצִרְקְטוֹן",
+	"headwords": [
+		{
+			"text": "קְצִרְקְטוֹן"
+		},
 		{
 			"text": "קצרקטין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "a"

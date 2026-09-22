@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00950",
-	"slug": "כסס-2",
-	"headword": {
-		"text": "כְּסַס"
-	},
+	"sefariaHeadword": "כְּסַס",
+	"headwords": [
+		{
+			"text": "כְּסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 655,
 		"column": "a"

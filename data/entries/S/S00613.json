@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00613",
-	"slug": "קוריסין",
-	"headword": {
-		"text": "קוּרִיסִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוּרִיסִין",
+	"headwords": [
+		{
+			"text": "קוּרִיסִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

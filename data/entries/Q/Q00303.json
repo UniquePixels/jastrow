@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00303",
-	"slug": "פועל-3",
-	"headword": {
-		"text": "פּוֹעַל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹעַל II",
+	"headwords": [
+		{
+			"text": "פּוֹעַל",
+			"homograph": 2
+		},
 		{
 			"text": "פּוֹעֲלָא",
 			"homograph": 1
 		},
 		{
-			"text": "פֹּעֲ׳"
+			"text": "פֹּעֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1} I, {2}",
 	"page": {
 		"number": 1145,
 		"column": "a"

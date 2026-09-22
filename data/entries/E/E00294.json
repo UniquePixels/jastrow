@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00294",
-	"slug": "הזיה",
-	"headword": {
-		"text": "הַזָּיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַזָּיָה",
+	"headwords": [
+		{
+			"text": "הַזָּיָה"
+		},
 		{
 			"text": "הַזָּיָיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הַזָּאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 341,
 		"column": "b"

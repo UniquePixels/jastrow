@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01916",
-	"slug": "פרסאה",
-	"headword": {
-		"text": "פַּרְסָאָה"
-	},
+	"sefariaHeadword": "פַּרְסָאָה",
+	"headwords": [
+		{
+			"text": "פַּרְסָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1233,
 		"column": "b"

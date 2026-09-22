@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00200",
-	"slug": "טופח-2",
-	"headword": {
-		"text": "טוֹפַח"
-	},
+	"sefariaHeadword": "טוֹפַח",
+	"headwords": [
+		{
+			"text": "טוֹפַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

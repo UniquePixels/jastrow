@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00688",
-	"slug": "צפורת",
-	"headword": {
-		"text": "צִפּוֹרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוֹרֶת",
+	"headwords": [
 		{
-			"text": "צִיפּ׳"
+			"text": "צִפּוֹרֶת"
+		},
+		{
+			"text": "צִיפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1296,
 		"column": "b"

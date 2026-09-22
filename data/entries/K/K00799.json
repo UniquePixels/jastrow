@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00799",
-	"slug": "כמיך",
-	"headword": {
-		"text": "כמיך"
-	},
+	"sefariaHeadword": "כמיך",
+	"headwords": [
+		{
+			"text": "כמיך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00562",
-	"slug": "סיגמטין",
-	"headword": {
-		"text": "סִיגְמָטִין"
-	},
+	"sefariaHeadword": "סִיגְמָטִין",
+	"headwords": [
+		{
+			"text": "סִיגְמָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "b"

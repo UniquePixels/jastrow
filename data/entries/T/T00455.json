@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00455",
-	"slug": "רותח",
-	"headword": {
-		"text": "רוֹתֵחַ"
-	},
+	"sefariaHeadword": "רוֹתֵחַ",
+	"headwords": [
+		{
+			"text": "רוֹתֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

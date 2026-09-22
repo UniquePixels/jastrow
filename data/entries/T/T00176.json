@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00176",
-	"slug": "רגז-4",
-	"headword": {
-		"text": "רְגַז",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְגַז II",
+	"headwords": [
+		{
+			"text": "רְגַז",
+			"homograph": 2
+		},
 		{
 			"text": "רְגוֹז"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1447,
 		"column": "b"

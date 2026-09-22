@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00769",
-	"slug": "מזמורא",
-	"headword": {
-		"text": "מִזְמוֹרָא"
-	},
+	"sefariaHeadword": "מִזְמוֹרָא",
+	"headwords": [
+		{
+			"text": "מִזְמוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

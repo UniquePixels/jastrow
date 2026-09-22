@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00192",
-	"slug": "פוטירין",
-	"headword": {
-		"text": "פּוֹטִירִין"
-	},
+	"sefariaHeadword": "פּוֹטִירִין",
+	"headwords": [
+		{
+			"text": "פּוֹטִירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01733",
-	"slug": "חרסית-2",
-	"headword": {
-		"text": "חַרְסִית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַרְסִית II",
+	"headwords": [
+		{
+			"text": "חַרְסִית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 504,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00808",
-	"slug": "טריסית",
-	"headword": {
-		"text": "טְרִיסִית"
-	},
+	"sefariaHeadword": "טְרִיסִית",
+	"headwords": [
+		{
+			"text": "טְרִיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "a"

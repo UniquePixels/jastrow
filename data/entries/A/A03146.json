@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03146",
-	"slug": "ארכילוסטקיא",
-	"headword": {
-		"text": "ארכילוסטקיא"
-	},
+	"sefariaHeadword": "ארכילוסטקיא",
+	"headwords": [
+		{
+			"text": "ארכילוסטקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

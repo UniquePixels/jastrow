@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00212",
-	"slug": "מגרוס",
-	"headword": {
-		"text": "מַגְרוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְרוֹס",
+	"headwords": [
+		{
+			"text": "מַגְרוֹס"
+		},
 		{
 			"text": "מגריס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "a"

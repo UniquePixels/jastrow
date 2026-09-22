@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01437",
-	"slug": "ערפלא",
-	"headword": {
-		"text": "עַרְפְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְפְּלָא",
+	"headwords": [
+		{
+			"text": "עַרְפְּלָא"
+		},
 		{
 			"text": "עֲרָפֵילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1123,
 		"column": "a"

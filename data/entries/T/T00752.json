@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00752",
-	"slug": "רכוב",
-	"headword": {
-		"text": "רְכוּב"
-	},
+	"sefariaHeadword": "רְכוּב",
+	"headwords": [
+		{
+			"text": "רְכוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "a"

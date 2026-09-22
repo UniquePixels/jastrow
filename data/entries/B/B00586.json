@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00586",
-	"slug": "ביטשא",
-	"headword": {
-		"text": "בִּיטְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיטְשָׁא",
+	"headwords": [
+		{
+			"text": "בִּיטְשָׁא"
+		},
 		{
 			"text": "בּוּטְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "b"

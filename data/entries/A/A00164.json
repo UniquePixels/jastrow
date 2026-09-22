@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00164",
-	"slug": "אבלוסמוס",
-	"headword": {
-		"text": "אַבְלוּסְמוֹס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְלוּסְמוֹס",
+	"headwords": [
+		{
+			"text": "אַבְלוּסְמוֹס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 7,
 		"column": "a"

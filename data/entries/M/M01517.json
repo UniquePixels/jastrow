@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01517",
-	"slug": "מלון",
-	"headword": {
-		"text": "מָלוֹן"
-	},
+	"sefariaHeadword": "מָלוֹן",
+	"headwords": [
+		{
+			"text": "מָלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

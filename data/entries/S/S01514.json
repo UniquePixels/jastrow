@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01514",
-	"slug": "קנאי-2",
-	"headword": {
-		"text": "קַנַּאי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנַּאי ²",
+	"headwords": [
+		{
+			"text": "קַנַּאי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קַנָּא"
 		},
@@ -16,6 +17,7 @@
 			"text": "קַנָאַן"
 		}
 	],
+	"display": "{0} ², {1}, {2}, ({3})",
 	"page": {
 		"number": 1388,
 		"column": "a"

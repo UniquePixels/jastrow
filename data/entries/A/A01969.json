@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01969",
-	"slug": "אמבוה",
-	"headword": {
-		"text": "אַמְבּוּהָ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְבּוּהָ",
+	"headwords": [
+		{
+			"text": "אַמְבּוּהָ"
+		},
 		{
 			"text": "אַמְבּוּהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 74,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01361",
-	"slug": "חסחום",
-	"headword": {
-		"text": "חסחום"
-	},
+	"sefariaHeadword": "חסחום",
+	"headwords": [
+		{
+			"text": "חסחום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00090",
-	"slug": "טבריטי",
-	"headword": {
-		"text": "טבריטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טבריטי",
+	"headwords": [
+		{
+			"text": "טבריטי"
+		},
 		{
 			"text": "טברטי"
 		},
@@ -12,6 +13,7 @@
 			"text": "טברירי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 519,
 		"column": "b"

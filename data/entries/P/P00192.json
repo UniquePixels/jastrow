@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00192",
-	"slug": "עוגה",
-	"headword": {
-		"text": "עוּגָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּגָּה",
+	"headwords": [
+		{
+			"text": "עוּגָּה"
+		},
 		{
 			"text": "עוּגָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1047,
 		"column": "b"

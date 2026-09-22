@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00384",
-	"slug": "נוע-1",
-	"headword": {
-		"text": "נוּעַ"
-	},
+	"sefariaHeadword": "נוּעַ",
+	"headwords": [
+		{
+			"text": "נוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "b"

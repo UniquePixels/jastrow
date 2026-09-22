@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00423",
-	"slug": "חופה",
-	"headword": {
-		"text": "חוּפָּה"
-	},
+	"sefariaHeadword": "חוּפָּה",
+	"headwords": [
+		{
+			"text": "חוּפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00906",
-	"slug": "גלוסטראה",
-	"headword": {
-		"text": "גְּלוּסְטְרָאָה"
-	},
+	"sefariaHeadword": "גְּלוּסְטְרָאָה",
+	"headwords": [
+		{
+			"text": "גְּלוּסְטְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "b"

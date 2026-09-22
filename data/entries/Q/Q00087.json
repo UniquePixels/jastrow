@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00087",
-	"slug": "פגע-3",
-	"headword": {
-		"text": "פֶּגַע"
-	},
+	"sefariaHeadword": "פֶּגַע",
+	"headwords": [
+		{
+			"text": "פֶּגַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1135,
 		"column": "a"

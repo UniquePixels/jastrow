@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00458",
-	"slug": "כחוש",
-	"headword": {
-		"text": "כָּחוּשׁ"
-	},
+	"sefariaHeadword": "כָּחוּשׁ",
+	"headwords": [
+		{
+			"text": "כָּחוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01510",
-	"slug": "פקפוקתא",
-	"headword": {
-		"text": "פִּקְפּוּקְתָּא"
-	},
+	"sefariaHeadword": "פִּקְפּוּקְתָּא",
+	"headwords": [
+		{
+			"text": "פִּקְפּוּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1211,
 		"column": "a"

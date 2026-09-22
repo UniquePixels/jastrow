@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02275",
-	"slug": "אנפילוגיס",
-	"headword": {
-		"text": "אנפילוגיס"
-	},
+	"sefariaHeadword": "אנפילוגיס",
+	"headwords": [
+		{
+			"text": "אנפילוגיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

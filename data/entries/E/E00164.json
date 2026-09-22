@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00164",
-	"slug": "הדרניאל",
-	"headword": {
-		"text": "הֲדַרְנִיאֵל"
-	},
+	"sefariaHeadword": "הֲדַרְנִיאֵל",
+	"headwords": [
+		{
+			"text": "הֲדַרְנִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

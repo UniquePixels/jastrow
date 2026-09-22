@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00157",
-	"slug": "נגידותא",
-	"headword": {
-		"text": "נְגִידוּתָא"
-	},
+	"sefariaHeadword": "נְגִידוּתָא",
+	"headwords": [
+		{
+			"text": "נְגִידוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "a"

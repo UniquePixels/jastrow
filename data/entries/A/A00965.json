@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00965",
-	"slug": "אזובא",
-	"headword": {
-		"text": "אֵזוֹבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵזוֹבָא",
+	"headwords": [
+		{
+			"text": "אֵזוֹבָא"
+		},
 		{
 			"text": "אֵיזוֹבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 37,
 		"column": "a"

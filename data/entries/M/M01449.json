@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01449",
-	"slug": "מכתבא-1",
-	"headword": {
-		"text": "מְכַתְּבָא"
-	},
+	"sefariaHeadword": "מְכַתְּבָא",
+	"headwords": [
+		{
+			"text": "מְכַתְּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "a"

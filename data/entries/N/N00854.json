@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00854",
-	"slug": "נכתמא",
-	"headword": {
-		"text": "נִכְתְּמָא"
-	},
+	"sefariaHeadword": "נִכְתְּמָא",
+	"headwords": [
+		{
+			"text": "נִכְתְּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 912,
 		"column": "b"

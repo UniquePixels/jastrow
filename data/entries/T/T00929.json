@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00929",
-	"slug": "רפאיות",
-	"headword": {
-		"text": "רפאיות"
-	},
+	"sefariaHeadword": "רפאיות",
+	"headwords": [
+		{
+			"text": "רפאיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

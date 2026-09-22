@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00098",
-	"slug": "שבח-3",
-	"headword": {
-		"text": "שֶׁבַח"
-	},
+	"sefariaHeadword": "שֶׁבַח",
+	"headwords": [
+		{
+			"text": "שֶׁבַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1512,
 		"column": "a"

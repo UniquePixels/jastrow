@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01231",
-	"slug": "שלו-3",
-	"headword": {
-		"text": "שָׁלֵו",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁלֵו ²",
+	"headwords": [
+		{
+			"text": "שָׁלֵו",
+			"disambiguator": 2
+		},
 		{
 			"text": "שָׁלֵיו"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1578,
 		"column": "b"

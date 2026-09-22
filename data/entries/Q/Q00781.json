@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00781",
-	"slug": "פיפורין",
-	"headword": {
-		"text": "פיפורין"
-	},
+	"sefariaHeadword": "פיפורין",
+	"headwords": [
+		{
+			"text": "פיפורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

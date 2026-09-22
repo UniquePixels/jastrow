@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00758",
-	"slug": "הפקעה",
-	"headword": {
-		"text": "הַפְקָעָה"
-	},
+	"sefariaHeadword": "הַפְקָעָה",
+	"headwords": [
+		{
+			"text": "הַפְקָעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "b"

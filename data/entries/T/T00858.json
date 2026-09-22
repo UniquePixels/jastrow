@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00858",
-	"slug": "רסנא",
-	"headword": {
-		"text": "רִסְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִסְנָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִסְנָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1484,
 		"column": "b"

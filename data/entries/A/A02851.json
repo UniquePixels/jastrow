@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02851",
-	"slug": "אצא",
-	"headword": {
-		"text": "אִצָּא"
-	},
+	"sefariaHeadword": "אִצָּא",
+	"headwords": [
+		{
+			"text": "אִצָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00028",
-	"slug": "הבדלה",
-	"headword": {
-		"text": "הַבְדָּלָה"
-	},
+	"sefariaHeadword": "הַבְדָּלָה",
+	"headwords": [
+		{
+			"text": "הַבְדָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "a"

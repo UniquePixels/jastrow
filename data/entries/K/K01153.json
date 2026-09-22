@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01153",
-	"slug": "כרי-3",
-	"headword": {
-		"text": "כְּרִי"
-	},
+	"sefariaHeadword": "כְּרִי",
+	"headwords": [
+		{
+			"text": "כְּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 666,
 		"column": "b"

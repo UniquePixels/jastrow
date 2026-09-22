@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00543",
-	"slug": "הלום-2",
-	"headword": {
-		"text": "הֲלוֹם"
-	},
+	"sefariaHeadword": "הֲלוֹם",
+	"headwords": [
+		{
+			"text": "הֲלוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

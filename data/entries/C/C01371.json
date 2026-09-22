@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01371",
-	"slug": "גרן-2",
-	"headword": {
-		"text": "גָּרַן"
-	},
+	"sefariaHeadword": "גָּרַן",
+	"headwords": [
+		{
+			"text": "גָּרַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00691",
-	"slug": "כלה-2",
-	"headword": {
-		"text": "כַּלָּה"
-	},
+	"sefariaHeadword": "כַּלָּה",
+	"headwords": [
+		{
+			"text": "כַּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

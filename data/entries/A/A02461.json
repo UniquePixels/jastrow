@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02461",
-	"slug": "אסלא-1",
-	"headword": {
-		"text": "אַסְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַסְלָא I",
+	"headwords": [
+		{
+			"text": "אַסְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 94,
 		"column": "b"

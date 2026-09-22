@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00846",
-	"slug": "גיתא",
-	"headword": {
-		"text": "גֵּיתָא"
-	},
+	"sefariaHeadword": "גֵּיתָא",
+	"headwords": [
+		{
+			"text": "גֵּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

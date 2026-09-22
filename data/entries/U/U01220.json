@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01220",
-	"slug": "שלהובא",
-	"headword": {
-		"text": "שַׁלְהוֹבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְהוֹבָא",
+	"headwords": [
 		{
-			"text": "שַׁלְהֵי׳"
+			"text": "שַׁלְהוֹבָא"
+		},
+		{
+			"text": "שַׁלְהֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1578,
 		"column": "a"

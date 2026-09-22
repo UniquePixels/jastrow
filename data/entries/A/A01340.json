@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01340",
-	"slug": "אימירון",
-	"headword": {
-		"text": "אִימִירוֹן"
-	},
+	"sefariaHeadword": "אִימִירוֹן",
+	"headwords": [
+		{
+			"text": "אִימִירוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

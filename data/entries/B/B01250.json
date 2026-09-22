@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01250",
-	"slug": "בריונא",
-	"headword": {
-		"text": "בַּרְיוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְיוֹנָא",
+	"headwords": [
+		{
+			"text": "בַּרְיוֹנָא"
+		},
 		{
 			"text": "בִּירְיוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 193,
 		"column": "b"

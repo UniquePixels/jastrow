@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00071",
-	"slug": "אבולאי",
-	"headword": {
-		"text": "אִבּוּלָאֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִבּוּלָאֵי",
+	"headwords": [
+		{
+			"text": "אִבּוּלָאֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

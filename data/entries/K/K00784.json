@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K00784",
-	"slug": "כלתא",
-	"headword": {
-		"text": "כַּלְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּלְּתָא",
+	"headwords": [
 		{
-			"text": "כַּלְ׳"
+			"text": "כַּלְּתָא"
 		},
 		{
-			"text": "כַּלָּ׳"
+			"text": "כַּלְ׳",
+			"partial": true
+		},
+		{
+			"text": "כַּלָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 645,
 		"column": "b"

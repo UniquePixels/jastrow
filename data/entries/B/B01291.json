@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01291",
-	"slug": "ברכא",
-	"headword": {
-		"text": "בִּרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּרְכָא",
+	"headwords": [
+		{
+			"text": "בִּרְכָא"
+		},
 		{
 			"text": "בִּירְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 195,
 		"column": "b"

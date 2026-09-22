@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00513",
-	"slug": "אהרונית",
-	"headword": {
-		"text": "אַהֲרוֹנִית"
-	},
+	"sefariaHeadword": "אַהֲרוֹנִית",
+	"headwords": [
+		{
+			"text": "אַהֲרוֹנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

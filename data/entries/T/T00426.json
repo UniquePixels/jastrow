@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00426",
-	"slug": "רופש",
-	"headword": {
-		"text": "רופש"
-	},
+	"sefariaHeadword": "רופש",
+	"headwords": [
+		{
+			"text": "רופש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "a"

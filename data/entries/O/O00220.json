@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00220",
-	"slug": "סהרון",
-	"headword": {
-		"text": "סַהֲרוֹן"
-	},
+	"sefariaHeadword": "סַהֲרוֹן",
+	"headwords": [
+		{
+			"text": "סַהֲרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "a"

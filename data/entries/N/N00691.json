@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00691",
-	"slug": "נינגי",
-	"headword": {
-		"text": "נינגי"
-	},
+	"sefariaHeadword": "נינגי",
+	"headwords": [
+		{
+			"text": "נינגי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

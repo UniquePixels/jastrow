@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03441",
-	"slug": "אתקטלא",
-	"headword": {
-		"text": "אִתְקְטָלָא"
-	},
+	"sefariaHeadword": "אִתְקְטָלָא",
+	"headwords": [
+		{
+			"text": "אִתְקְטָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

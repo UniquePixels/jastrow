@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00057",
-	"slug": "יבלת",
-	"headword": {
-		"text": "יַבֶּלֶת"
-	},
+	"sefariaHeadword": "יַבֶּלֶת",
+	"headwords": [
+		{
+			"text": "יַבֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 561,
 		"column": "a"

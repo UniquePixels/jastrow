@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01672",
-	"slug": "ממלא-2",
-	"headword": {
-		"text": "מַמְלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַמְלָא II",
+	"headwords": [
+		{
+			"text": "מַמְלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 795,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

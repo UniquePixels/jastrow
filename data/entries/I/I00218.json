@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00218",
-	"slug": "טורביל",
-	"headword": {
-		"text": "טוּרְבִּיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְבִּיל",
+	"headwords": [
+		{
+			"text": "טוּרְבִּיל"
+		},
 		{
 			"text": "טוּרְבֵּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 526,
 		"column": "a"

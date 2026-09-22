@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01238",
-	"slug": "נקפתא",
-	"headword": {
-		"text": "נְקֶפְתָּא"
-	},
+	"sefariaHeadword": "נְקֶפְתָּא",
+	"headwords": [
+		{
+			"text": "נְקֶפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "a"

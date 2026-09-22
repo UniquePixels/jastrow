@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02890",
-	"slug": "אצר-3",
-	"headword": {
-		"text": "אַצָּר"
-	},
+	"sefariaHeadword": "אַצָּר",
+	"headwords": [
+		{
+			"text": "אַצָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "b"

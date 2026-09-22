@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01440",
-	"slug": "סק-2",
-	"headword": {
-		"text": "סַק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סַק II",
+	"headwords": [
+		{
+			"text": "סַק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1019,
 		"column": "a"

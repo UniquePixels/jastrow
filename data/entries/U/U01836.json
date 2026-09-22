@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01836",
-	"slug": "שקוע",
-	"headword": {
-		"text": "שִׁקּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁקּוּעַ",
+	"headwords": [
+		{
+			"text": "שִׁקּוּעַ"
+		},
 		{
 			"text": "שִׁקּוּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1621,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00977",
-	"slug": "נעות",
-	"headword": {
-		"text": "נֵעוֹת"
-	},
+	"sefariaHeadword": "נֵעוֹת",
+	"headwords": [
+		{
+			"text": "נֵעוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "b"

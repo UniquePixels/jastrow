@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00858",
-	"slug": "עמד-2",
-	"headword": {
-		"text": "עֹמֶד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֹמֶד",
+	"headwords": [
 		{
-			"text": "עוֹ׳"
+			"text": "עֹמֶד"
+		},
+		{
+			"text": "עוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1086,
 		"column": "b"

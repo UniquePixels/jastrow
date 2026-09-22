@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01404",
-	"slug": "איסור-1",
-	"headword": {
-		"text": "אֵיסוּר"
-	},
+	"sefariaHeadword": "אֵיסוּר",
+	"headwords": [
+		{
+			"text": "אֵיסוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 53,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00049",
-	"slug": "פגוש",
-	"headword": {
-		"text": "פָּגוֹשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּגוֹשׁ",
+	"headwords": [
+		{
+			"text": "פָּגוֹשׁ"
+		},
 		{
 			"text": "פָּגוֹשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1132,
 		"column": "b"

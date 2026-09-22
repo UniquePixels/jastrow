@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02289",
-	"slug": "אנקה-2",
-	"headword": {
-		"text": "אֲנָקָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲנָקָה II",
+	"headwords": [
+		{
+			"text": "אֲנָקָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 87,
 		"column": "b"

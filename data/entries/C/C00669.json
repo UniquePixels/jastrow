@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00669",
-	"slug": "גיורתא-1",
-	"headword": {
-		"text": "גִּיּוֹרְתָּא"
-	},
+	"sefariaHeadword": "גִּיּוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "גִּיּוֹרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "b"

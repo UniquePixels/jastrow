@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00580",
-	"slug": "עיליש",
-	"headword": {
-		"text": "עִילִישׁ"
-	},
+	"sefariaHeadword": "עִילִישׁ",
+	"headwords": [
+		{
+			"text": "עִילִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

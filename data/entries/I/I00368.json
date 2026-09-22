@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00368",
-	"slug": "טיליא",
-	"headword": {
-		"text": "טִילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִילְיָא",
+	"headwords": [
+		{
+			"text": "טִילְיָא"
+		},
 		{
 			"text": "טִילְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00414",
-	"slug": "דחילו",
-	"headword": {
-		"text": "דְּחִילוּ"
-	},
+	"sefariaHeadword": "דְּחִילוּ",
+	"headwords": [
+		{
+			"text": "דְּחִילוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

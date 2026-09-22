@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01034",
-	"slug": "סלקטירין",
-	"headword": {
-		"text": "סלקטירין"
-	},
+	"sefariaHeadword": "סלקטירין",
+	"headwords": [
+		{
+			"text": "סלקטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 997,
 		"column": "b"

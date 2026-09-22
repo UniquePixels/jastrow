@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01225",
-	"slug": "איטר",
-	"headword": {
-		"text": "אִיטֵּר"
-	},
+	"sefariaHeadword": "אִיטֵּר",
+	"headwords": [
+		{
+			"text": "אִיטֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

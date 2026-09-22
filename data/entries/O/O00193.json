@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00193",
-	"slug": "סדק-1",
-	"headword": {
-		"text": "סָדַק"
-	},
+	"sefariaHeadword": "סָדַק",
+	"headwords": [
+		{
+			"text": "סָדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "b"

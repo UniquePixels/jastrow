@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00240",
-	"slug": "רדופיכון",
-	"headword": {
-		"text": "רדופיכון"
-	},
+	"sefariaHeadword": "רדופיכון",
+	"headwords": [
+		{
+			"text": "רדופיכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1451,
 		"column": "b"

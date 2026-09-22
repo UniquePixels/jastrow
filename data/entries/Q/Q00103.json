@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00103",
-	"slug": "פדא-2",
-	"headword": {
-		"text": "פַּדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּדָּא",
+	"headwords": [
+		{
+			"text": "פַּדָּא"
+		},
 		{
 			"text": "פַּנְדָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1136,
 		"column": "a"

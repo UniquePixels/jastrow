@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00713",
-	"slug": "גייר",
-	"headword": {
-		"text": "גִּיֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיֵּיר",
+	"headwords": [
+		{
+			"text": "גִּיֵּיר"
+		},
 		{
 			"text": "גַּיֵּיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 238,
 		"column": "a"

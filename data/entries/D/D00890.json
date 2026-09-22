@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00890",
-	"slug": "דמחמרא",
-	"headword": {
-		"text": "דִּמְחַמְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּמְחַמְרָא",
+	"headwords": [
 		{
-			"text": "דִּימְ׳"
+			"text": "דִּמְחַמְרָא"
+		},
+		{
+			"text": "דִּימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 312,
 		"column": "b"

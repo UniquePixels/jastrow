@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03061",
-	"slug": "מתינתא",
-	"headword": {
-		"text": "מְתִינתָּא"
-	},
+	"sefariaHeadword": "מְתִינתָּא",
+	"headwords": [
+		{
+			"text": "מְתִינתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00657",
-	"slug": "מורכנין",
-	"headword": {
-		"text": "מורכנין"
-	},
+	"sefariaHeadword": "מורכנין",
+	"headwords": [
+		{
+			"text": "מורכנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

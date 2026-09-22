@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00068",
-	"slug": "הגי-3",
-	"headword": {
-		"text": "הֲגִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲגִי",
+	"headwords": [
+		{
+			"text": "הֲגִי"
+		},
 		{
 			"text": "הַגְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 331,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00957",
-	"slug": "מחתרת",
-	"headword": {
-		"text": "מַחְתֶּרֶת"
-	},
+	"sefariaHeadword": "מַחְתֶּרֶת",
+	"headwords": [
+		{
+			"text": "מַחְתֶּרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "a"

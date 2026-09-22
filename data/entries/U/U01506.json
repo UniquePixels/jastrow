@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01506",
-	"slug": "שמנוניתא",
-	"headword": {
-		"text": "שַׁמְנוּנִיתָא"
-	},
+	"sefariaHeadword": "שַׁמְנוּנִיתָא",
+	"headwords": [
+		{
+			"text": "שַׁמְנוּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1598,
 		"column": "a"

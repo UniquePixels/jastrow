@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00966",
-	"slug": "מטבעא",
-	"headword": {
-		"text": "מַטְבְּעָא"
-	},
+	"sefariaHeadword": "מַטְבְּעָא",
+	"headwords": [
+		{
+			"text": "מַטְבְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "b"

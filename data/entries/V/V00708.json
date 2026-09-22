@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00708",
-	"slug": "תמרה-2",
-	"headword": {
-		"text": "תִּמְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּמְרָה",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּמְרָה"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1679,
 		"column": "a"

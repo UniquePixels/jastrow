@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01873",
-	"slug": "שקמא",
-	"headword": {
-		"text": "שִׁקְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁקְמָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁקְמָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1623,
 		"column": "b"

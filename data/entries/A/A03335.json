@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03335",
-	"slug": "אשף-2",
-	"headword": {
-		"text": "אַשָּׁף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אַשָּׁף ²",
+	"headwords": [
+		{
+			"text": "אַשָּׁף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 129,
 		"column": "b"

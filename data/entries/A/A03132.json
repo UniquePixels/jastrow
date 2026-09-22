@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03132",
-	"slug": "ארכה",
-	"headword": {
-		"text": "אַרְכָה"
-	},
+	"sefariaHeadword": "אַרְכָה",
+	"headwords": [
+		{
+			"text": "אַרְכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 121,
 		"column": "a"

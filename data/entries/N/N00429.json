@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00429",
-	"slug": "נזופא",
-	"headword": {
-		"text": "נְזוּפָא"
-	},
+	"sefariaHeadword": "נְזוּפָא",
+	"headwords": [
+		{
+			"text": "נְזוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

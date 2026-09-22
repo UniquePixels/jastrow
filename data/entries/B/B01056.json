@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01056",
-	"slug": "בעלא",
-	"headword": {
-		"text": "בַּעֲלָא"
-	},
+	"sefariaHeadword": "בַּעֲלָא",
+	"headwords": [
+		{
+			"text": "בַּעֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "b"

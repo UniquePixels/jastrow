@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02021",
-	"slug": "אמיטתא",
-	"headword": {
-		"text": "אֲמִיטְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲמִיטְתָא",
+	"headwords": [
+		{
+			"text": "אֲמִיטְתָא"
+		},
 		{
 			"text": "אַמִּטְּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲמִיטְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 76,
 		"column": "b"

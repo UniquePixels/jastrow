@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01614",
-	"slug": "אירע",
-	"headword": {
-		"text": "אִירַע"
-	},
+	"sefariaHeadword": "אִירַע",
+	"headwords": [
+		{
+			"text": "אִירַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

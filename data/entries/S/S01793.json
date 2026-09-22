@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01793",
-	"slug": "קצוע-2",
-	"headword": {
-		"text": "קָצוֹעַ"
-	},
+	"sefariaHeadword": "קָצוֹעַ",
+	"headwords": [
+		{
+			"text": "קָצוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

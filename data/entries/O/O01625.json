@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01625",
-	"slug": "סריקא-1",
-	"headword": {
-		"text": "סְרִיקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְרִיקָא II",
+	"headwords": [
+		{
+			"text": "סְרִיקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1027,
 		"column": "b"

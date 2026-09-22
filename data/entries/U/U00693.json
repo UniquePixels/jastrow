@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00693",
-	"slug": "שחצן",
-	"headword": {
-		"text": "שַׁחֲצָן"
-	},
+	"sefariaHeadword": "שַׁחֲצָן",
+	"headwords": [
+		{
+			"text": "שַׁחֲצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1550,
 		"column": "a"

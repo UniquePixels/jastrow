@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00929",
-	"slug": "השמה",
-	"headword": {
-		"text": "הֲשָׂמָה"
-	},
+	"sefariaHeadword": "הֲשָׂמָה",
+	"headwords": [
+		{
+			"text": "הֲשָׂמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

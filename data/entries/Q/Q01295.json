@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01295",
-	"slug": "פסילתא",
-	"headword": {
-		"text": "פְּסִילְתָּא"
-	},
+	"sefariaHeadword": "פְּסִילְתָּא",
+	"headwords": [
+		{
+			"text": "פְּסִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00490",
-	"slug": "יען",
-	"headword": {
-		"text": "יַעַן"
-	},
+	"sefariaHeadword": "יַעַן",
+	"headwords": [
+		{
+			"text": "יַעַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 585,
 		"column": "a"

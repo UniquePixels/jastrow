@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00228",
-	"slug": "נדיריא",
-	"headword": {
-		"text": "נדיריא"
-	},
+	"sefariaHeadword": "נדיריא",
+	"headwords": [
+		{
+			"text": "נדיריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

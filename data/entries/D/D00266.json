@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00266",
-	"slug": "דולבא",
-	"headword": {
-		"text": "דּוּלְבָּא"
-	},
+	"sefariaHeadword": "דּוּלְבָּא",
+	"headwords": [
+		{
+			"text": "דּוּלְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

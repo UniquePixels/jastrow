@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00073",
-	"slug": "קבלותא",
-	"headword": {
-		"text": "קַבָּלוּתָא"
-	},
+	"sefariaHeadword": "קַבָּלוּתָא",
+	"headwords": [
+		{
+			"text": "קַבָּלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1310,
 		"column": "a"

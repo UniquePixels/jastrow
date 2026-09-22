@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02756",
-	"slug": "אפסטיתה",
-	"headword": {
-		"text": "אֲפַסְטִיתָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲפַסְטִיתָה",
+	"headwords": [
+		{
+			"text": "אֲפַסְטִיתָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

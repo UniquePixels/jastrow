@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01246",
-	"slug": "נקרא",
-	"headword": {
-		"text": "נִקְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקְרָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִקְרָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 935,
 		"column": "b"

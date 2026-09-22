@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00556",
-	"slug": "לכנון",
-	"headword": {
-		"text": "לכנון"
-	},
+	"sefariaHeadword": "לכנון",
+	"headwords": [
+		{
+			"text": "לכנון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

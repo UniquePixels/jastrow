@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00863",
-	"slug": "מחייא",
-	"headword": {
-		"text": "מחייא"
-	},
+	"sefariaHeadword": "מחייא",
+	"headwords": [
+		{
+			"text": "מחייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 760,
 		"column": "b"

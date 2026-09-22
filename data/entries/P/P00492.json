@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00492",
-	"slug": "עיבור-2",
-	"headword": {
-		"text": "עִיבּוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיבּוּר ²",
+	"headwords": [
+		{
+			"text": "עִיבּוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִיבּוּרָא"
 		},
 		{
-			"text": "עִבּ׳"
+			"text": "עִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1066,
 		"column": "a"

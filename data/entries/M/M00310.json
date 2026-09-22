@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00310",
-	"slug": "מדן-1",
-	"headword": {
-		"text": "מָדֵן"
-	},
+	"sefariaHeadword": "מָדֵן",
+	"headwords": [
+		{
+			"text": "מָדֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

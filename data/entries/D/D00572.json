@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00572",
-	"slug": "דייקלירא",
-	"headword": {
-		"text": "דייקלירא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דייקלירא",
+	"headwords": [
 		{
-			"text": "דייקלר׳"
+			"text": "דייקלירא"
+		},
+		{
+			"text": "דייקלר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "a"

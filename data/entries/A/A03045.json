@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03045",
-	"slug": "ארורא",
-	"headword": {
-		"text": "ארורא"
-	},
+	"sefariaHeadword": "ארורא",
+	"headwords": [
+		{
+			"text": "ארורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

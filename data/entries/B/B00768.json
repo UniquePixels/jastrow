@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00768",
-	"slug": "בכוליאר",
-	"headword": {
-		"text": "בכוליאר"
-	},
+	"sefariaHeadword": "בכוליאר",
+	"headwords": [
+		{
+			"text": "בכוליאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "a"

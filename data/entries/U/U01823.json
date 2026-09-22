@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01823",
-	"slug": "שק-3",
-	"headword": {
-		"text": "שַׂק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׂק ²",
+	"headwords": [
+		{
+			"text": "שַׂק",
+			"disambiguator": 2
+		},
 		{
 			"text": "שַׂקָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1620,
 		"column": "b"

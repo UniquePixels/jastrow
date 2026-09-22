@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00349",
-	"slug": "נוטירין",
-	"headword": {
-		"text": "נוטירין"
-	},
+	"sefariaHeadword": "נוטירין",
+	"headwords": [
+		{
+			"text": "נוטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

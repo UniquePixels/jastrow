@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00338",
-	"slug": "זי״ין",
-	"headword": {
-		"text": "זַיִ״ין"
-	},
+	"sefariaHeadword": "זַיִ\"ין",
+	"headwords": [
+		{
+			"text": "זַיִ״ין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

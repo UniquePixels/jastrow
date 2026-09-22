@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00943",
-	"slug": "נסיע",
-	"headword": {
-		"text": "נסיע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נסיע",
+	"headwords": [
+		{
+			"text": "נסיע"
+		},
 		{
 			"text": "נסיעה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 917,
 		"column": "a"

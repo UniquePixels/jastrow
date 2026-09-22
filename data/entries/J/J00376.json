@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00376",
-	"slug": "ילוד-2",
-	"headword": {
-		"text": "יָלוּד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "יָלוּד ²",
+	"headwords": [
+		{
+			"text": "יָלוּד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 578,
 		"column": "b"

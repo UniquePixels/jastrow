@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00312",
-	"slug": "צידוק",
-	"headword": {
-		"text": "צִידּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִידּוּק",
+	"headwords": [
 		{
-			"text": "צִדּ׳"
+			"text": "צִידּוּק"
+		},
+		{
+			"text": "צִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1275,
 		"column": "a"

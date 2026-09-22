@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01101",
-	"slug": "פלסטון",
-	"headword": {
-		"text": "פְּלַסְטוֹן"
-	},
+	"sefariaHeadword": "פְּלַסְטוֹן",
+	"headwords": [
+		{
+			"text": "פְּלַסְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

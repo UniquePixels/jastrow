@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00710",
-	"slug": "בירוצין",
-	"headword": {
-		"text": "בִּירוּצִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּירוּצִין",
+	"headwords": [
+		{
+			"text": "בִּירוּצִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

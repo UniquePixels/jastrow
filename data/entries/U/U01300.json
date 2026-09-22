@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01300",
-	"slug": "שליביא",
-	"headword": {
-		"text": "שְׁלִיבַיָּא"
-	},
+	"sefariaHeadword": "שְׁלִיבַיָּא",
+	"headwords": [
+		{
+			"text": "שְׁלִיבַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "a"

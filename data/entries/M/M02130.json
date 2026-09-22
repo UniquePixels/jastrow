@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02130",
-	"slug": "מעלה-3",
-	"headword": {
-		"text": "מַעֲלָה"
-	},
+	"sefariaHeadword": "מַעֲלָה",
+	"headwords": [
+		{
+			"text": "מַעֲלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "a"

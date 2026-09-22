@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00039",
-	"slug": "וייתניא",
-	"headword": {
-		"text": "וַיְיתָנַיָּא"
-	},
+	"sefariaHeadword": "וַיְיתָנַיָּא",
+	"headwords": [
+		{
+			"text": "וַיְיתָנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

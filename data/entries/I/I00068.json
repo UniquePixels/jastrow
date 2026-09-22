@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00068",
-	"slug": "טבלא-2",
-	"headword": {
-		"text": "טַבְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טַבְלָא I",
+	"headwords": [
+		{
+			"text": "טַבְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 518,
 		"column": "a"

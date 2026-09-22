@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00842",
-	"slug": "שיורא",
-	"headword": {
-		"text": "שִׁיּוּרָא"
-	},
+	"sefariaHeadword": "שִׁיּוּרָא",
+	"headwords": [
+		{
+			"text": "שִׁיּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1558,
 		"column": "b"

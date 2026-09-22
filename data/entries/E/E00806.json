@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00806",
-	"slug": "הקש",
-	"headword": {
-		"text": "הֶקֵּשׁ"
-	},
+	"sefariaHeadword": "הֶקֵּשׁ",
+	"headwords": [
+		{
+			"text": "הֶקֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "a"

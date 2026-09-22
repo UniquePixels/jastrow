@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00543",
-	"slug": "לכוסין",
-	"headword": {
-		"text": "לכוסין"
-	},
+	"sefariaHeadword": "לכוסין",
+	"headwords": [
+		{
+			"text": "לכוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

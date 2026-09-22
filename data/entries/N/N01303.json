@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01303",
-	"slug": "נשיא-1",
-	"headword": {
-		"text": "נַשְׁיָא"
-	},
+	"sefariaHeadword": "נַשְׁיָא",
+	"headwords": [
+		{
+			"text": "נַשְׁיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

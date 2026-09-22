@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02028",
-	"slug": "מסרק",
-	"headword": {
-		"text": "מַסְרֵק"
-	},
+	"sefariaHeadword": "מַסְרֵק",
+	"headwords": [
+		{
+			"text": "מַסְרֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

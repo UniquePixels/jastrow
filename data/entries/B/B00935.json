@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00935",
-	"slug": "בנאי-1",
-	"headword": {
-		"text": "בַּנַּאי"
-	},
+	"sefariaHeadword": "בַּנַּאי",
+	"headwords": [
+		{
+			"text": "בַּנַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

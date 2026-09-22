@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00974",
-	"slug": "פלולינא",
-	"headword": {
-		"text": "פלולינא"
-	},
+	"sefariaHeadword": "פלולינא",
+	"headwords": [
+		{
+			"text": "פלולינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

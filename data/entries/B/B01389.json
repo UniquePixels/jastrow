@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01389",
-	"slug": "בתירא",
-	"headword": {
-		"text": "בְּתֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּתֵירָא",
+	"headwords": [
+		{
+			"text": "בְּתֵירָא"
+		},
 		{
 			"text": "בְּתֵירָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "בְּתֵרָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 201,
 		"column": "a"

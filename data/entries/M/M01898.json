@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01898",
-	"slug": "מסטונא",
-	"headword": {
-		"text": "מסטונא"
-	},
+	"sefariaHeadword": "מסטונא",
+	"headwords": [
+		{
+			"text": "מסטונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "b"

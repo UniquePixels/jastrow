@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00240",
-	"slug": "לוט-5",
-	"headword": {
-		"text": "לְוָט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָט",
+	"headwords": [
+		{
+			"text": "לְוָט"
+		},
 		{
 			"text": "לְוָוט"
 		},
@@ -12,6 +13,7 @@
 			"text": "לְוָוטָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 696,
 		"column": "b"

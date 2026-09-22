@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02088",
-	"slug": "פשפוש",
-	"headword": {
-		"text": "פִּשְׁפּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּשְׁפּוּשׁ",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּשְׁפּוּשׁ"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1247,
 		"column": "b"

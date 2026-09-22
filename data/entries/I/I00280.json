@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00280",
-	"slug": "טטראמולי",
-	"headword": {
-		"text": "טֶטְרָאמוּלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֶטְרָאמוּלִי",
+	"headwords": [
+		{
+			"text": "טֶטְרָאמוּלִי"
+		},
 		{
 			"text": "טֶטְרָאמוּלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 528,
 		"column": "b"

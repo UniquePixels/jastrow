@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00600",
-	"slug": "דילוג",
-	"headword": {
-		"text": "דִּילּוּג"
-	},
+	"sefariaHeadword": "דִּילּוּג",
+	"headwords": [
+		{
+			"text": "דִּילּוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00680",
-	"slug": "נימוס-2",
-	"headword": {
-		"text": "נִימוֹס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נִימוֹס I",
+	"headwords": [
+		{
+			"text": "נִימוֹס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 905,
 		"column": "a"

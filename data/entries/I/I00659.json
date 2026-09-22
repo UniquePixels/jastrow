@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00659",
-	"slug": "טפיתא",
-	"headword": {
-		"text": "טְפִיתָא"
-	},
+	"sefariaHeadword": "טְפִיתָא",
+	"headwords": [
+		{
+			"text": "טְפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

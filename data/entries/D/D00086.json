@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00086",
-	"slug": "דברית",
-	"headword": {
-		"text": "דַּבָּרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּבָּרִית",
+	"headwords": [
+		{
+			"text": "דַּבָּרִית"
+		},
 		{
 			"text": "דַּבָּרִיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דַּבְּרַיְיתָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 279,
 		"column": "a"

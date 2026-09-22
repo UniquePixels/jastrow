@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00339",
-	"slug": "גוז-2",
-	"headword": {
-		"text": "גּוּז",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "גּוּז ²",
+	"headwords": [
+		{
+			"text": "גּוּז",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 220,
 		"column": "a"

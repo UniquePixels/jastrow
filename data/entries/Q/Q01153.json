@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01153",
-	"slug": "פנגר",
-	"headword": {
-		"text": "פַּנְגַּר"
-	},
+	"sefariaHeadword": "פַּנְגַּר",
+	"headwords": [
+		{
+			"text": "פַּנְגַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

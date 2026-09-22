@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00464",
-	"slug": "יסיח",
-	"headword": {
-		"text": "יסיח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יסיח",
+	"headwords": [
 		{
-			"text": "יסיח לי"
+			"text": "יסיח"
+		},
+		{
+			"text": "י׳ לי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 582,
 		"column": "b"

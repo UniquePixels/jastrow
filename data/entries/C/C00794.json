@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00794",
-	"slug": "גיפן",
-	"headword": {
-		"text": "גיפן"
-	},
+	"sefariaHeadword": "גיפן",
+	"headwords": [
+		{
+			"text": "גיפן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

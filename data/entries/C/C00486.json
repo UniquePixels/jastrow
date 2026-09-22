@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00486",
-	"slug": "גורדיון",
-	"headword": {
-		"text": "גורדיון"
-	},
+	"sefariaHeadword": "גורדיון",
+	"headwords": [
+		{
+			"text": "גורדיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

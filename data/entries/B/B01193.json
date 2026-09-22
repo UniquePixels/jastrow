@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01193",
-	"slug": "ברובה",
-	"headword": {
-		"text": "ברובה"
-	},
+	"sefariaHeadword": "ברובה",
+	"headwords": [
+		{
+			"text": "ברובה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

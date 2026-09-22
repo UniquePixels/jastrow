@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00240",
-	"slug": "חובה-1",
-	"headword": {
-		"text": "חוּבָּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוּבָּה II",
+	"headwords": [
+		{
+			"text": "חוּבָּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 429,
 		"column": "a"

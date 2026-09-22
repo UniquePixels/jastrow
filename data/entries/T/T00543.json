@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00543",
-	"slug": "רחש-4",
-	"headword": {
-		"text": "רְחֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחֵשׁ",
+	"headwords": [
+		{
+			"text": "רְחֵשׁ"
+		},
 		{
 			"text": "רְחִישׁ"
 		},
@@ -12,9 +13,11 @@
 			"text": "רַחֲשָׁא"
 		},
 		{
-			"text": "רִו׳"
+			"text": "רִו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1470,
 		"column": "a"

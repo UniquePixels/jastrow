@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01137",
-	"slug": "גניבותא",
-	"headword": {
-		"text": "גְּנֵיבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנֵיבוּתָא",
+	"headwords": [
+		{
+			"text": "גְּנֵיבוּתָא"
+		},
 		{
 			"text": "גְּנֵיבְתָּא"
 		},
 		{
-			"text": "גְּנֵבְ׳"
+			"text": "גְּנֵבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 259,
 		"column": "b"

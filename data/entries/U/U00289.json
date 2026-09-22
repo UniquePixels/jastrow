@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00289",
-	"slug": "שדרה",
-	"headword": {
-		"text": "שִׁדְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁדְרָה",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁדְרָה"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1526,
 		"column": "a"

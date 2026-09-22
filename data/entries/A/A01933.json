@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01933",
-	"slug": "אלף-2",
-	"headword": {
-		"text": "אֲלַף",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלַף I",
+	"headwords": [
+		{
+			"text": "אֲלַף",
+			"homograph": 1
+		},
 		{
 			"text": "אַלַּף"
 		},
@@ -13,6 +14,7 @@
 			"text": "אַלְפָא"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 72,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01199",
-	"slug": "ברין-1",
-	"headword": {
-		"text": "בִּרְיָן"
-	},
+	"sefariaHeadword": "בִּרְיָן",
+	"headwords": [
+		{
+			"text": "בִּרְיָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

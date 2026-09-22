@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00126",
-	"slug": "זוגא-3",
-	"headword": {
-		"text": "זוּגָּא"
-	},
+	"sefariaHeadword": "זוּגָּא",
+	"headwords": [
+		{
+			"text": "זוּגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "a"

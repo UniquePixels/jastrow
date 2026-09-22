@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01559",
-	"slug": "חקל-1",
-	"headword": {
-		"text": "חֲקַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲקַל",
+	"headwords": [
+		{
+			"text": "חֲקַל"
+		},
 		{
 			"text": "חַקְלָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 497,
 		"column": "a"

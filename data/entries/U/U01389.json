@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01389",
-	"slug": "שלשא",
-	"headword": {
-		"text": "שַׁלְשָׁא"
-	},
+	"sefariaHeadword": "שַׁלְשָׁא",
+	"headwords": [
+		{
+			"text": "שַׁלְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1589,
 		"column": "a"

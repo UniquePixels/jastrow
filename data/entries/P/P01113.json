@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01113",
-	"slug": "עצותא",
-	"headword": {
-		"text": "עַצְוָתָא"
-	},
+	"sefariaHeadword": "עַצְוָתָא",
+	"headwords": [
+		{
+			"text": "עַצְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

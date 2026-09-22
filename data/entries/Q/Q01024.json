@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01024",
-	"slug": "פלטנוס",
-	"headword": {
-		"text": "פלטנוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלטנוס",
+	"headwords": [
+		{
+			"text": "פלטנוס"
+		},
 		{
 			"text": "פלטנות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1180,
 		"column": "a"

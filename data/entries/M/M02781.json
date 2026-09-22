@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02781",
-	"slug": "מרשותא",
-	"headword": {
-		"text": "מְרַשְׁוָתָא"
-	},
+	"sefariaHeadword": "מְרַשְׁוָתָא",
+	"headwords": [
+		{
+			"text": "מְרַשְׁוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

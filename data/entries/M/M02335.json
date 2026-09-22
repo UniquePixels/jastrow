@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02335",
-	"slug": "מצמץ",
-	"headword": {
-		"text": "מִצְמֵץ"
-	},
+	"sefariaHeadword": "מִצְמֵץ",
+	"headwords": [
+		{
+			"text": "מִצְמֵץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

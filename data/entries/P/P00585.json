@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00585",
-	"slug": "עילעא",
-	"headword": {
-		"text": "עִילְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילְעָא",
+	"headwords": [
+		{
+			"text": "עִילְעָא"
+		},
 		{
 			"text": "עִילְעוֹל"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִילְעֵל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1070,
 		"column": "b"

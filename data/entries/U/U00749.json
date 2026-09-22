@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00749",
-	"slug": "שטיח",
-	"headword": {
-		"text": "שָׁטִיחַ"
-	},
+	"sefariaHeadword": "שָׁטִיחַ",
+	"headwords": [
+		{
+			"text": "שָׁטִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1554,
 		"column": "a"

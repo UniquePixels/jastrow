@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01597",
-	"slug": "איקליטא",
-	"headword": {
-		"text": "אֶיקְלִיטָא"
-	},
+	"sefariaHeadword": "אֶיקְלִיטָא",
+	"headwords": [
+		{
+			"text": "אֶיקְלִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "a"

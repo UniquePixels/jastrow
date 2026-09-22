@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00021",
-	"slug": "עבדקן",
-	"headword": {
-		"text": "עַבְדְּקַן"
-	},
+	"sefariaHeadword": "עַבְדְּקַן",
+	"headwords": [
+		{
+			"text": "עַבְדְּקַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1035,
 		"column": "b"

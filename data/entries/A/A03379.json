@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03379",
-	"slug": "אשתין",
-	"headword": {
-		"text": "אשתין"
-	},
+	"sefariaHeadword": "אשתין",
+	"headwords": [
+		{
+			"text": "אשתין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "a"

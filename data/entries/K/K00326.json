@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00326",
-	"slug": "כוסכוס",
-	"headword": {
-		"text": "כּוּסְכּוּס"
-	},
+	"sefariaHeadword": "כּוּסְכּוּס",
+	"headwords": [
+		{
+			"text": "כּוּסְכּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

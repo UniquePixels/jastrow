@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00496",
-	"slug": "עיבר-2",
-	"headword": {
-		"text": "עֵיבַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵיבַר II",
+	"headwords": [
+		{
+			"text": "עֵיבַר",
+			"homograph": 2
+		},
 		{
 			"text": "עִיבְרָא"
 		},
 		{
-			"text": "עֶבְ׳"
+			"text": "עֶבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1066,
 		"column": "b"

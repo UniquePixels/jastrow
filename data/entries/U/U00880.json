@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00880",
-	"slug": "שיטא-2",
-	"headword": {
-		"text": "שִׁיטָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיטָּא",
+	"headwords": [
+		{
+			"text": "שִׁיטָּא"
+		},
 		{
 			"text": "שִׁטָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1560,
 		"column": "a"

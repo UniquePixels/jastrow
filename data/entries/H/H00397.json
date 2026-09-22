@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00397",
-	"slug": "חומש",
-	"headword": {
-		"text": "חוֹמֶשׁ"
-	},
+	"sefariaHeadword": "חוֹמֶשׁ",
+	"headwords": [
+		{
+			"text": "חוֹמֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "b"

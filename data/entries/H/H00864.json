@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00864",
-	"slug": "חיצוני",
-	"headword": {
-		"text": "חִיצוֹנִי"
-	},
+	"sefariaHeadword": "חִיצוֹנִי",
+	"headwords": [
+		{
+			"text": "חִיצוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "b"

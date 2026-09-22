@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "S00789",
-	"slug": "קטם-5",
-	"headword": {
-		"text": "קְטַם",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטַם III",
+	"headwords": [
+		{
+			"text": "קְטַם",
+			"homograph": 3
+		},
 		{
 			"text": "קִטְמָא"
 		},
 		{
 			"text": "קִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2} I",
 	"page": {
 		"number": 1350,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00293",
-	"slug": "זיהרא-1",
-	"headword": {
-		"text": "זִיהֲרָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיהֲרָא I",
+	"headwords": [
+		{
+			"text": "זִיהֲרָא",
+			"homograph": 1
+		},
 		{
 			"text": "זַהֲרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 391,
 		"column": "b"

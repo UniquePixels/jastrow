@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00522",
-	"slug": "זמירא",
-	"headword": {
-		"text": "זְמִירָא"
-	},
+	"sefariaHeadword": "זְמִירָא",
+	"headwords": [
+		{
+			"text": "זְמִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

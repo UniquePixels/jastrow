@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01063",
-	"slug": "תרת",
-	"headword": {
-		"text": "תרת"
-	},
+	"sefariaHeadword": "תרת",
+	"headwords": [
+		{
+			"text": "תרת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

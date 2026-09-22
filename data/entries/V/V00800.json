@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00800",
-	"slug": "תפאתה",
-	"headword": {
-		"text": "תְּפָאתָה"
-	},
+	"sefariaHeadword": "תְּפָאתָה",
+	"headwords": [
+		{
+			"text": "תְּפָאתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1685,
 		"column": "a"

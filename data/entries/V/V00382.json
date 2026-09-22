@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00382",
-	"slug": "תחנונא",
-	"headword": {
-		"text": "תַּחֲנוּנָא"
-	},
+	"sefariaHeadword": "תַּחֲנוּנָא",
+	"headwords": [
+		{
+			"text": "תַּחֲנוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01066",
-	"slug": "עפל-1",
-	"headword": {
-		"text": "עָפַל"
-	},
+	"sefariaHeadword": "עָפַל",
+	"headwords": [
+		{
+			"text": "עָפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

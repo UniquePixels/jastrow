@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00141",
-	"slug": "רבצן",
-	"headword": {
-		"text": "רַבְצָן"
-	},
+	"sefariaHeadword": "רַבְצָן",
+	"headwords": [
+		{
+			"text": "רַבְצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "a"

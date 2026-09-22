@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00848",
-	"slug": "בלח",
-	"headword": {
-		"text": "בָּלַח",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בָּלַח",
+	"headwords": [
+		{
+			"text": "בָּלַח",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 172,
 		"column": "a"

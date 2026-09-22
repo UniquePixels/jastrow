@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00809",
-	"slug": "טריפא",
-	"headword": {
-		"text": "טְרֵיפָא"
-	},
+	"sefariaHeadword": "טְרֵיפָא",
+	"headwords": [
+		{
+			"text": "טְרֵיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "a"

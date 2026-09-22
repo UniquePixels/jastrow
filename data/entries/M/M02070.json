@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02070",
-	"slug": "מעה-1",
-	"headword": {
-		"text": "מְעָה"
-	},
+	"sefariaHeadword": "מְעָה",
+	"headwords": [
+		{
+			"text": "מְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "b"

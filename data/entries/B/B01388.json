@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01388",
-	"slug": "בתיה",
-	"headword": {
-		"text": "בִּתְיָה"
-	},
+	"sefariaHeadword": "בִּתְיָה",
+	"headwords": [
+		{
+			"text": "בִּתְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 200,
 		"column": "b"

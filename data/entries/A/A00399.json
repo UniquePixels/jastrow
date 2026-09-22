@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00399",
-	"slug": "אדילי",
-	"headword": {
-		"text": "אַדִּילֵי"
-	},
+	"sefariaHeadword": "אַדִּילֵי",
+	"headwords": [
+		{
+			"text": "אַדִּילֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

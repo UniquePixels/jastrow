@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00355",
-	"slug": "שוור-1",
-	"headword": {
-		"text": "שְׁוַור"
-	},
+	"sefariaHeadword": "שְׁוַור",
+	"headwords": [
+		{
+			"text": "שְׁוַור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "a"

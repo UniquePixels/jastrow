@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00149",
-	"slug": "רברבנא",
-	"headword": {
-		"text": "רַבְרְבָנָא"
-	},
+	"sefariaHeadword": "רַבְרְבָנָא",
+	"headwords": [
+		{
+			"text": "רַבְרְבָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

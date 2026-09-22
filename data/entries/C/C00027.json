@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00027",
-	"slug": "גאם-2",
-	"headword": {
-		"text": "גְּאַם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּאַם",
+	"headwords": [
+		{
+			"text": "גְּאַם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00290",
-	"slug": "תורה",
-	"headword": {
-		"text": "תּוֹרָה"
-	},
+	"sefariaHeadword": "תּוֹרָה",
+	"headwords": [
+		{
+			"text": "תּוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "a"

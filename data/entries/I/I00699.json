@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00699",
-	"slug": "טקסים",
-	"headword": {
-		"text": "טקסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טקסים",
+	"headwords": [
+		{
+			"text": "טקסים"
+		},
 		{
 			"text": "טַקְסִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "טַקְסִיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 549,
 		"column": "b"

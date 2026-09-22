@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00993",
-	"slug": "בסימותא",
-	"headword": {
-		"text": "בְּסִימוּתָא"
-	},
+	"sefariaHeadword": "בְּסִימוּתָא",
+	"headwords": [
+		{
+			"text": "בְּסִימוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

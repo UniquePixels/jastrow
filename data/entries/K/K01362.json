@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01362",
-	"slug": "כתיש",
-	"headword": {
-		"text": "כַּתִּישׁ"
-	},
+	"sefariaHeadword": "כַּתִּישׁ",
+	"headwords": [
+		{
+			"text": "כַּתִּישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "a"

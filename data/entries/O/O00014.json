@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00014",
-	"slug": "סאיב",
-	"headword": {
-		"text": "סָאֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָאֵיב",
+	"headwords": [
+		{
+			"text": "סָאֵיב"
+		},
 		{
 			"text": "סָאִיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 947,
 		"column": "b"

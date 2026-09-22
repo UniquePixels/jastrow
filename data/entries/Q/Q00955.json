@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00955",
-	"slug": "פלגתא",
-	"headword": {
-		"text": "פְּלֻגְתָּא"
-	},
+	"sefariaHeadword": "פְּלֻגְתָּא",
+	"headwords": [
+		{
+			"text": "פְּלֻגְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00611",
-	"slug": "תלמיון",
-	"headword": {
-		"text": "תְּלַמְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלַמְיוֹן",
+	"headwords": [
 		{
-			"text": "בַּר תְּלַמְיוֹן"
+			"text": "תְּלַמְיוֹן"
+		},
+		{
+			"text": "בַּר תְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1672,
 		"column": "b"

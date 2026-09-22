@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00732",
-	"slug": "כליכה",
-	"headword": {
-		"text": "כליכה"
-	},
+	"sefariaHeadword": "כליכה",
+	"headwords": [
+		{
+			"text": "כליכה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

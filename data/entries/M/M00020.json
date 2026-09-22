@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00020",
-	"slug": "מאחא",
-	"headword": {
-		"text": "מְאָחָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מְאָחָא",
+	"headwords": [
 		{
-			"text": "מֵ׳"
+			"text": "מְאָחָא",
+			"reconstructed": true
+		},
+		{
+			"text": "מֵ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 722,
 		"column": "a"

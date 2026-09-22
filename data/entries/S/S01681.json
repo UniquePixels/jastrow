@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01681",
-	"slug": "קסרטל",
-	"headword": {
-		"text": "קסרטל"
-	},
+	"sefariaHeadword": "קסרטל",
+	"headwords": [
+		{
+			"text": "קסרטל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

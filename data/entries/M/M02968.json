@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02968",
-	"slug": "משקרי",
-	"headword": {
-		"text": "משקרי"
-	},
+	"sefariaHeadword": "משקרי",
+	"headwords": [
+		{
+			"text": "משקרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

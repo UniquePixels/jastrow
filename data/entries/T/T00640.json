@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00640",
-	"slug": "ריכונא",
-	"headword": {
-		"text": "רִיכּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיכּוּנָא",
+	"headwords": [
 		{
-			"text": "רִכּ׳"
+			"text": "רִיכּוּנָא"
+		},
+		{
+			"text": "רִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1474,
 		"column": "b"

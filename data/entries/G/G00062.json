@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00062",
-	"slug": "זגזג",
-	"headword": {
-		"text": "זִגְזֵג"
-	},
+	"sefariaHeadword": "זִגְזֵג",
+	"headwords": [
+		{
+			"text": "זִגְזֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "a"

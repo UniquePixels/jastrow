@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00397",
-	"slug": "שויאו",
-	"headword": {
-		"text": "שְׁוִיאוּ"
-	},
+	"sefariaHeadword": "שְׁוִיאוּ",
+	"headwords": [
+		{
+			"text": "שְׁוִיאוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

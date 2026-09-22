@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00792",
-	"slug": "צרע-2",
-	"headword": {
-		"text": "צְרַע"
-	},
+	"sefariaHeadword": "צְרַע",
+	"headwords": [
+		{
+			"text": "צְרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1303,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01115",
-	"slug": "דרסה",
-	"headword": {
-		"text": "דְּרָסָה"
-	},
+	"sefariaHeadword": "דְּרָסָה",
+	"headwords": [
+		{
+			"text": "דְּרָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00739",
-	"slug": "זרתא",
-	"headword": {
-		"text": "זַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְתָּא",
+	"headwords": [
+		{
+			"text": "זַרְתָּא"
+		},
 		{
 			"text": "זֵירְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 415,
 		"column": "b"

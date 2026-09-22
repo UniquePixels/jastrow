@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00415",
-	"slug": "טיפונא",
-	"headword": {
-		"text": "טִיפוּנָא"
-	},
+	"sefariaHeadword": "טִיפוּנָא",
+	"headwords": [
+		{
+			"text": "טִיפוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

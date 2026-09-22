@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02334",
-	"slug": "אסופי",
-	"headword": {
-		"text": "אֲסוּפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲסוּפִי",
+	"headwords": [
+		{
+			"text": "אֲסוּפִי"
+		},
 		{
 			"text": "אֲסוּפִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 89,
 		"column": "a"

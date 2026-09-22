@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01380",
-	"slug": "ספירינון",
-	"headword": {
-		"text": "סַפִּירִינוֹן"
-	},
+	"sefariaHeadword": "סַפִּירִינוֹן",
+	"headwords": [
+		{
+			"text": "סַפִּירִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

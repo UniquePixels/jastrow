@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02736",
-	"slug": "אפלון",
-	"headword": {
-		"text": "אפלון"
-	},
+	"sefariaHeadword": "אפלון",
+	"headwords": [
+		{
+			"text": "אפלון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "b"

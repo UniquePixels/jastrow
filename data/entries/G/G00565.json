@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00565",
-	"slug": "זנגאי",
-	"headword": {
-		"text": "זִנְגָּאֵי"
-	},
+	"sefariaHeadword": "זִנְגָּאֵי",
+	"headwords": [
+		{
+			"text": "זִנְגָּאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

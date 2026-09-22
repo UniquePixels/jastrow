@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01883",
-	"slug": "פרנדא",
-	"headword": {
-		"text": "פְּרַנְדָּא"
-	},
+	"sefariaHeadword": "פְּרַנְדָּא",
+	"headwords": [
+		{
+			"text": "פְּרַנְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "b"

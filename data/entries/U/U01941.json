@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01941",
-	"slug": "שרוי-1",
-	"headword": {
-		"text": "שָׁרוּי"
-	},
+	"sefariaHeadword": "שָׁרוּי",
+	"headwords": [
+		{
+			"text": "שָׁרוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00433",
-	"slug": "ליואה",
-	"headword": {
-		"text": "לֵיוָאָה"
-	},
+	"sefariaHeadword": "לֵיוָאָה",
+	"headwords": [
+		{
+			"text": "לֵיוָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

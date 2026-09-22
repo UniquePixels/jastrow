@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00793",
-	"slug": "פיצטלין",
-	"headword": {
-		"text": "פִּיצְטְלִין"
-	},
+	"sefariaHeadword": "פִּיצְטְלִין",
+	"headwords": [
+		{
+			"text": "פִּיצְטְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "a"

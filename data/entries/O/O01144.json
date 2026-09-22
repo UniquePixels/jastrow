@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01144",
-	"slug": "סמרטין",
-	"headword": {
-		"text": "סְמַרְטִין"
-	},
+	"sefariaHeadword": "סְמַרְטִין",
+	"headwords": [
+		{
+			"text": "סְמַרְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

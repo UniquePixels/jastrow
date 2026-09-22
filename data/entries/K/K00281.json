@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00281",
-	"slug": "כולף",
-	"headword": {
-		"text": "כּוֹלֵף"
-	},
+	"sefariaHeadword": "כּוֹלֵף",
+	"headwords": [
+		{
+			"text": "כּוֹלֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

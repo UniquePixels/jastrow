@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00597",
-	"slug": "ירד",
-	"headword": {
-		"text": "יָרַד"
-	},
+	"sefariaHeadword": "יָרַד",
+	"headwords": [
+		{
+			"text": "יָרַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 594,
 		"column": "a"

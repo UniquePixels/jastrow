@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02297",
-	"slug": "מצורע",
-	"headword": {
-		"text": "מְצוֹרָע"
-	},
+	"sefariaHeadword": "מְצוֹרָע",
+	"headwords": [
+		{
+			"text": "מְצוֹרָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

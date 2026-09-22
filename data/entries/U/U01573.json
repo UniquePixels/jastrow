@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01573",
-	"slug": "שנו",
-	"headword": {
-		"text": "שְׁנוּ"
-	},
+	"sefariaHeadword": "שְׁנוּ",
+	"headwords": [
+		{
+			"text": "שְׁנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "b"

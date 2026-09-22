@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00522",
-	"slug": "חזזית",
-	"headword": {
-		"text": "חֲזָזִית"
-	},
+	"sefariaHeadword": "חֲזָזִית",
+	"headwords": [
+		{
+			"text": "חֲזָזִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

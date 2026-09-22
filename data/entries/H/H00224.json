@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00224",
-	"slug": "חדתא",
-	"headword": {
-		"text": "חַדְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַדְתָּא",
+	"headwords": [
+		{
+			"text": "חַדְתָּא"
+		},
 		{
 			"text": "חֲדַתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 428,
 		"column": "a"

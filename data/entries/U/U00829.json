@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00829",
-	"slug": "שידכא",
-	"headword": {
-		"text": "שִׁידְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁידְכָא",
+	"headwords": [
+		{
+			"text": "שִׁידְכָא"
+		},
 		{
 			"text": "שִׁידָּפוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁידְּפוֹנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1558,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02818",
-	"slug": "אפריזא",
-	"headword": {
-		"text": "אַפְרִיזָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַפְרִיזָא",
+	"headwords": [
+		{
+			"text": "אַפְרִיזָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

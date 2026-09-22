@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01277",
-	"slug": "כרשני",
-	"headword": {
-		"text": "כַּרְשִׁנֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְשִׁנֵּי",
+	"headwords": [
+		{
+			"text": "כַּרְשִׁנֵּי"
+		},
 		{
 			"text": "כַּרְשִׁנִּים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 674,
 		"column": "a"

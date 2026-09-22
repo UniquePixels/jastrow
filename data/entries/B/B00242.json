@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00242",
-	"slug": "בוך",
-	"headword": {
-		"text": "בּוּךְ"
-	},
+	"sefariaHeadword": "בּוּךְ",
+	"headwords": [
+		{
+			"text": "בּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

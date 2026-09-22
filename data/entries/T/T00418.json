@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00418",
-	"slug": "רועה",
-	"headword": {
-		"text": "רוֹעֶה"
-	},
+	"sefariaHeadword": "רוֹעֶה",
+	"headwords": [
+		{
+			"text": "רוֹעֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

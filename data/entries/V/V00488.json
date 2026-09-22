@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00488",
-	"slug": "תיקון",
-	"headword": {
-		"text": "תִּיקּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיקּוּן",
+	"headwords": [
+		{
+			"text": "תִּיקּוּן"
+		},
 		{
 			"text": "תִּקּוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1666,
 		"column": "a"

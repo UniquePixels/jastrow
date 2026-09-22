@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01136",
-	"slug": "סמר-1",
-	"headword": {
-		"text": "סָמַר"
-	},
+	"sefariaHeadword": "סָמַר",
+	"headwords": [
+		{
+			"text": "סָמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "a"

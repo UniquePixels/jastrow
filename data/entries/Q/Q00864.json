@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00864",
-	"slug": "פירמא",
-	"headword": {
-		"text": "פִּירְמָא"
-	},
+	"sefariaHeadword": "פִּירְמָא",
+	"headwords": [
+		{
+			"text": "פִּירְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

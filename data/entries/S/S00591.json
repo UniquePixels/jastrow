@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00591",
-	"slug": "קורט",
-	"headword": {
-		"text": "קוֹרֶט"
-	},
+	"sefariaHeadword": "קוֹרֶט",
+	"headwords": [
+		{
+			"text": "קוֹרֶט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1342,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01001",
-	"slug": "כפורת",
-	"headword": {
-		"text": "כַּפּוֹרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּפּוֹרֶת",
+	"headwords": [
+		{
+			"text": "כַּפּוֹרֶת"
+		},
 		{
 			"text": "כַּפֹּרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 658,
 		"column": "a"

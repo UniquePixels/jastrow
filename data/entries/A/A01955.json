@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01955",
-	"slug": "אלריא-2",
-	"headword": {
-		"text": "אלריא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אלריא",
+	"headwords": [
+		{
+			"text": "אלריא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

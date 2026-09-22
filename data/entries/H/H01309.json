@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01309",
-	"slug": "חנמל",
-	"headword": {
-		"text": "חֲנָמַל"
-	},
+	"sefariaHeadword": "חֲנָמַל",
+	"headwords": [
+		{
+			"text": "חֲנָמַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 484,
 		"column": "a"

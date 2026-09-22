@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00048",
-	"slug": "באתר",
-	"headword": {
-		"text": "בָּאתַר"
-	},
+	"sefariaHeadword": "בָּאתַר",
+	"headwords": [
+		{
+			"text": "בָּאתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "a"

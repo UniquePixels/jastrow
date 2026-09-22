@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01107",
-	"slug": "פלסטרו",
-	"headword": {
-		"text": "פלסטרו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלסטרו",
+	"headwords": [
+		{
+			"text": "פלסטרו"
+		},
 		{
 			"text": "פלסטרון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

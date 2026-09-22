@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00389",
-	"slug": "אדור",
-	"headword": {
-		"text": "אִדּוּר"
-	},
+	"sefariaHeadword": "אִדּוּר",
+	"headwords": [
+		{
+			"text": "אִדּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01813",
-	"slug": "שפתא",
-	"headword": {
-		"text": "שִׂפְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׂפְתָא",
+	"headwords": [
 		{
-			"text": "שִׂי׳"
+			"text": "שִׂפְתָא"
+		},
+		{
+			"text": "שִׂי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1620,
 		"column": "a"

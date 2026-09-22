@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00570",
-	"slug": "אודנא-2",
-	"headword": {
-		"text": "אוּדְנָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּדְנָא III",
+	"headwords": [
+		{
+			"text": "אוּדְנָא",
+			"homograph": 3
+		},
 		{
 			"text": "אֲדִינָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 22,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00441",
-	"slug": "כזב-3",
-	"headword": {
-		"text": "כָּזָב"
-	},
+	"sefariaHeadword": "כָּזָב",
+	"headwords": [
+		{
+			"text": "כָּזָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00633",
-	"slug": "תלתותא-2",
-	"headword": {
-		"text": "תַּלָּתוּתָא"
-	},
+	"sefariaHeadword": "תַּלָּתוּתָא",
+	"headwords": [
+		{
+			"text": "תַּלָּתוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03230",
-	"slug": "ארץ",
-	"headword": {
-		"text": "אֶרֶץ"
-	},
+	"sefariaHeadword": "אֶרֶץ",
+	"headwords": [
+		{
+			"text": "אֶרֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01233",
-	"slug": "נקף-1",
-	"headword": {
-		"text": "נָקַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָקַף I",
+	"headwords": [
+		{
+			"text": "נָקַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 934,
 		"column": "a"

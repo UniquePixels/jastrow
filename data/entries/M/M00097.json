@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00097",
-	"slug": "מברחת",
-	"headword": {
-		"text": "מַבְרַחַת"
-	},
+	"sefariaHeadword": "מַבְרַחַת",
+	"headwords": [
+		{
+			"text": "מַבְרַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02895",
-	"slug": "אקוביטון",
-	"headword": {
-		"text": "אַקּוּבִּיטוֹן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַקּוּבִּיטוֹן",
+	"headwords": [
+		{
+			"text": "אַקּוּבִּיטוֹן",
+			"reconstructed": true
+		},
 		{
 			"text": "אַקְקוּבְטוֹן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 111,
 		"column": "b"

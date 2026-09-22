@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02331",
-	"slug": "מצלצלין",
-	"headword": {
-		"text": "מְצֶלְצְלִין"
-	},
+	"sefariaHeadword": "מְצֶלְצְלִין",
+	"headwords": [
+		{
+			"text": "מְצֶלְצְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

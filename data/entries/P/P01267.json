@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01267",
-	"slug": "ערבוב-1",
-	"headword": {
-		"text": "עִרְבּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִרְבּוּב",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִרְבּוּב"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1112,
 		"column": "b"

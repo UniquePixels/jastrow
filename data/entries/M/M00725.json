@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00725",
-	"slug": "מזה",
-	"headword": {
-		"text": "מַזֶּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַזֶּה II",
+	"headwords": [
+		{
+			"text": "מַזֶּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 753,
 		"column": "b"

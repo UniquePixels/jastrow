@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00637",
-	"slug": "סיירא",
-	"headword": {
-		"text": "סַיָּירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיָּירָא",
+	"headwords": [
+		{
+			"text": "סַיָּירָא"
+		},
 		{
 			"text": "סַיָּיארָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

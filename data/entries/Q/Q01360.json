@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01360",
-	"slug": "פסקיות",
-	"headword": {
-		"text": "פִּסְקָיוֹת"
-	},
+	"sefariaHeadword": "פִּסְקָיוֹת",
+	"headwords": [
+		{
+			"text": "פִּסְקָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

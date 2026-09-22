@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01011",
-	"slug": "קימליא",
-	"headword": {
-		"text": "קימליא"
-	},
+	"sefariaHeadword": "קימליא",
+	"headwords": [
+		{
+			"text": "קימליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00211",
-	"slug": "פולגוון",
-	"headword": {
-		"text": "פּוּלְגְּוָון"
-	},
+	"sefariaHeadword": "פּוּלְגְּוָון",
+	"headwords": [
+		{
+			"text": "פּוּלְגְּוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

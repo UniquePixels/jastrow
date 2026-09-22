@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02896",
-	"slug": "משכבא",
-	"headword": {
-		"text": "מַשְׁכְּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁכְּבָא",
+	"headwords": [
 		{
-			"text": "מִשְׁ׳"
+			"text": "מַשְׁכְּבָא"
+		},
+		{
+			"text": "מִשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 854,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00116",
-	"slug": "סגום",
-	"headword": {
-		"text": "סָגוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָגוּם",
+	"headwords": [
+		{
+			"text": "סָגוּם"
+		},
 		{
 			"text": "סָגוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 953,
 		"column": "b"

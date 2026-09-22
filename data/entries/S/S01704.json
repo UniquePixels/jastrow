@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01704",
-	"slug": "קפה-1",
-	"headword": {
-		"text": "קָפָה"
-	},
+	"sefariaHeadword": "קָפָה",
+	"headwords": [
+		{
+			"text": "קָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "b"

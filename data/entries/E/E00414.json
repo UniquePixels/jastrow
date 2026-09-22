@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00414",
-	"slug": "הימג",
-	"headword": {
-		"text": "הֵימַג"
-	},
+	"sefariaHeadword": "הֵימַג",
+	"headwords": [
+		{
+			"text": "הֵימַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "a"

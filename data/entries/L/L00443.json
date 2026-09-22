@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00443",
-	"slug": "ליטור",
-	"headword": {
-		"text": "ליטור"
-	},
+	"sefariaHeadword": "ליטור",
+	"headwords": [
+		{
+			"text": "ליטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

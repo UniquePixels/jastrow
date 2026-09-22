@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01561",
-	"slug": "פרגינן",
-	"headword": {
-		"text": "פרגינן"
-	},
+	"sefariaHeadword": "פרגינן",
+	"headwords": [
+		{
+			"text": "פרגינן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00331",
-	"slug": "זיטימא",
-	"headword": {
-		"text": "זִיטִימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיטִימָא",
+	"headwords": [
+		{
+			"text": "זִיטִימָא"
+		},
 		{
 			"text": "זִיטְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "a"

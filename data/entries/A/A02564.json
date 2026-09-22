@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02564",
-	"slug": "אסרטיון",
-	"headword": {
-		"text": "אסרטיון"
-	},
+	"sefariaHeadword": "אסרטיון",
+	"headwords": [
+		{
+			"text": "אסרטיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

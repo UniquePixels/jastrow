@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00461",
-	"slug": "פחז-2",
-	"headword": {
-		"text": "פָּחָז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּחָז",
+	"headwords": [
+		{
+			"text": "פָּחָז"
+		},
 		{
 			"text": "פָּחוֹז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1152,
 		"column": "a"

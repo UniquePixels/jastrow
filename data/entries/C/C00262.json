@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00262",
-	"slug": "גו-1",
-	"headword": {
-		"text": "גֵּו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּו",
+	"headwords": [
+		{
+			"text": "גֵּו"
+		},
 		{
 			"text": "גַּו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 216,
 		"column": "a"

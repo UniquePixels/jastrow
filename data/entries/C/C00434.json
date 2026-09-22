@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00434",
-	"slug": "גונדא-2",
-	"headword": {
-		"text": "גּוּנְדָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גּוּנְדָּא II",
+	"headwords": [
+		{
+			"text": "גּוּנְדָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 223,
 		"column": "b"

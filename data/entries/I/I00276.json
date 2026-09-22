@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00276",
-	"slug": "טט",
-	"headword": {
-		"text": "טֹט",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טֹט",
+	"headwords": [
+		{
+			"text": "טֹט",
+			"reconstructed": true
+		},
 		{
 			"text": "טָט"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 528,
 		"column": "b"

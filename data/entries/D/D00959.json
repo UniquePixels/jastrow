@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00959",
-	"slug": "דפטא",
-	"headword": {
-		"text": "דפטא"
-	},
+	"sefariaHeadword": "דפטא",
+	"headwords": [
+		{
+			"text": "דפטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

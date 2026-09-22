@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02092",
-	"slug": "מעורב",
-	"headword": {
-		"text": "מְעוֹרָב"
-	},
+	"sefariaHeadword": "מְעוֹרָב",
+	"headwords": [
+		{
+			"text": "מְעוֹרָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

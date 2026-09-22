@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00338",
-	"slug": "סומבק",
-	"headword": {
-		"text": "סומבק"
-	},
+	"sefariaHeadword": "סומבק",
+	"headwords": [
+		{
+			"text": "סומבק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "a"

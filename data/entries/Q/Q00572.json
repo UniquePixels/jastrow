@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00572",
-	"slug": "פיאה",
-	"headword": {
-		"text": "פֵּיאָה"
-	},
+	"sefariaHeadword": "פֵּיאָה",
+	"headwords": [
+		{
+			"text": "פֵּיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "a"

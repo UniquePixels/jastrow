@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01859",
-	"slug": "פרכיל",
-	"headword": {
-		"text": "פַּרְכִּיל"
-	},
+	"sefariaHeadword": "פַּרְכִּיל",
+	"headwords": [
+		{
+			"text": "פַּרְכִּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

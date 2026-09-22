@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01073",
-	"slug": "קיסם-3",
-	"headword": {
-		"text": "קֵיסַם"
-	},
+	"sefariaHeadword": "קֵיסַם",
+	"headwords": [
+		{
+			"text": "קֵיסַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

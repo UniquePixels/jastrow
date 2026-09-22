@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00269",
-	"slug": "יחד-2",
-	"headword": {
-		"text": "יְחַד"
-	},
+	"sefariaHeadword": "יְחַד",
+	"headwords": [
+		{
+			"text": "יְחַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 573,
 		"column": "a"

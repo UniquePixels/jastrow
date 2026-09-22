@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00569",
-	"slug": "צמח-5",
-	"headword": {
-		"text": "צֶמַח",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֶמַח III",
+	"headwords": [
 		{
-			"text": "כְּפַר צֶמַח"
+			"text": "צֶמַח",
+			"homograph": 3
+		},
+		{
+			"text": "כְּפַר צֶ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1287,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

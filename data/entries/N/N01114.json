@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01114",
-	"slug": "נצחן-1",
-	"headword": {
-		"text": "נַצְחָן"
-	},
+	"sefariaHeadword": "נַצְחָן",
+	"headwords": [
+		{
+			"text": "נַצְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 928,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00663",
-	"slug": "גיוס",
-	"headword": {
-		"text": "גַּיּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּיּוּס",
+	"headwords": [
+		{
+			"text": "גַּיּוּס"
+		},
 		{
 			"text": "גַּיּיוּס"
 		},
@@ -12,6 +13,7 @@
 			"text": "גייס"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 236,
 		"column": "a"

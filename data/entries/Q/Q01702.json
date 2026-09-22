@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01702",
-	"slug": "פרוס-4",
-	"headword": {
-		"text": "פרוס"
-	},
+	"sefariaHeadword": "פרוס",
+	"headwords": [
+		{
+			"text": "פרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

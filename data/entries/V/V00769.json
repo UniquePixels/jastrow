@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00769",
-	"slug": "תסקופא",
-	"headword": {
-		"text": "תַּסְקוֹפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּסְקוֹפָא",
+	"headwords": [
 		{
-			"text": "תִּסְ׳"
+			"text": "תַּסְקוֹפָא"
+		},
+		{
+			"text": "תִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1683,
 		"column": "a"

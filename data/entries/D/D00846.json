@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00846",
-	"slug": "דלמטיקין",
-	"headword": {
-		"text": "דַּלְמָטִיקִין"
-	},
+	"sefariaHeadword": "דַּלְמָטִיקִין",
+	"headwords": [
+		{
+			"text": "דַּלְמָטִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "b"

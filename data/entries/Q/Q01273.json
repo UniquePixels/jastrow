@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01273",
-	"slug": "פסיאני",
-	"headword": {
-		"text": "פִּסְיָאנִי"
-	},
+	"sefariaHeadword": "פִּסְיָאנִי",
+	"headwords": [
+		{
+			"text": "פִּסְיָאנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "b"

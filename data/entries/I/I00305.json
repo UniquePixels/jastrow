@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00305",
-	"slug": "טיבותא",
-	"headword": {
-		"text": "טֵיבוּתָא"
-	},
+	"sefariaHeadword": "טֵיבוּתָא",
+	"headwords": [
+		{
+			"text": "טֵיבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "b"

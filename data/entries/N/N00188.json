@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00188",
-	"slug": "נגר-5",
-	"headword": {
-		"text": "נַגָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַגָּר ²",
+	"headwords": [
+		{
+			"text": "נַגָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "נַגָּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 876,
 		"column": "a"

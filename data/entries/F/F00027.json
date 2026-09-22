@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00027",
-	"slug": "וחי",
-	"headword": {
-		"text": "וחי"
-	},
+	"sefariaHeadword": "וחי",
+	"headwords": [
+		{
+			"text": "וחי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

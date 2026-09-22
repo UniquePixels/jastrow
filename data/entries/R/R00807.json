@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00807",
-	"slug": "צרצרא",
-	"headword": {
-		"text": "צַרְצְרָא"
-	},
+	"sefariaHeadword": "צַרְצְרָא",
+	"headwords": [
+		{
+			"text": "צַרְצְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1305,
 		"column": "a"

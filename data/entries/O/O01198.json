@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01198",
-	"slug": "סנוארתה",
-	"headword": {
-		"text": "סַנְוַארְתָּה"
-	},
+	"sefariaHeadword": "סַנְוַארְתָּה",
+	"headwords": [
+		{
+			"text": "סַנְוַארְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "b"

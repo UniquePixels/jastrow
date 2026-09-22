@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00228",
-	"slug": "אברסקין",
-	"headword": {
-		"text": "אברסקין"
-	},
+	"sefariaHeadword": "אברסקין",
+	"headwords": [
+		{
+			"text": "אברסקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

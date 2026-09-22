@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00656",
-	"slug": "חיבוליא",
-	"headword": {
-		"text": "חִיבּוּלְיָא"
-	},
+	"sefariaHeadword": "חִיבּוּלְיָא",
+	"headwords": [
+		{
+			"text": "חִיבּוּלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 451,
 		"column": "a"

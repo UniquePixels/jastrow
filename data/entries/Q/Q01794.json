@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01794",
-	"slug": "פריה-2",
-	"headword": {
-		"text": "פִּרְיָה"
-	},
+	"sefariaHeadword": "פִּרְיָה",
+	"headwords": [
+		{
+			"text": "פִּרְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"

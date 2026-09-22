@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00588",
-	"slug": "קורה-5",
-	"headword": {
-		"text": "קוּרָה"
-	},
+	"sefariaHeadword": "קוּרָה",
+	"headwords": [
+		{
+			"text": "קוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1342,
 		"column": "a"

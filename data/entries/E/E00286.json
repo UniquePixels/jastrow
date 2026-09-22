@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00286",
-	"slug": "הושן",
-	"headword": {
-		"text": "הוֹשֶׁן"
-	},
+	"sefariaHeadword": "הוֹשֶׁן",
+	"headwords": [
+		{
+			"text": "הוֹשֶׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "b"

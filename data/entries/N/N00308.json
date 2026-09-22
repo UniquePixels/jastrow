@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00308",
-	"slug": "נוד-2",
-	"headword": {
-		"text": "נוּד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נוּד ²",
+	"headwords": [
+		{
+			"text": "נוּד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 883,
 		"column": "b"

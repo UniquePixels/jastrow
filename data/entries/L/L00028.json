@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00028",
-	"slug": "לאפרש",
-	"headword": {
-		"text": "לְאַפְרַשׁ"
-	},
+	"sefariaHeadword": "לְאַפְרַשׁ",
+	"headwords": [
+		{
+			"text": "לְאַפְרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "b"

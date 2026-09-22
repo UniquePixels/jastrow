@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00203",
-	"slug": "צומים",
-	"headword": {
-		"text": "צוּמִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּמִּים",
+	"headwords": [
+		{
+			"text": "צוּמִּים"
+		},
 		{
 			"text": "צוּמָּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1268,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01199",
-	"slug": "סנואתא",
-	"headword": {
-		"text": "סְנוּאֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְנוּאֲתָא",
+	"headwords": [
 		{
-			"text": "שְׂ׳"
+			"text": "סְנוּאֲתָא"
+		},
+		{
+			"text": "שְׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "b"

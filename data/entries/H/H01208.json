@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01208",
-	"slug": "חמסן",
-	"headword": {
-		"text": "חַמְסָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמְסָן",
+	"headwords": [
+		{
+			"text": "חַמְסָן"
+		},
 		{
 			"text": "חומְסָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 478,
 		"column": "b"

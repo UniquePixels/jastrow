@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01403",
-	"slug": "איסופוליטייא",
-	"headword": {
-		"text": "אִיסוֹפּוֹלִיטְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסוֹפֹּולִיטְיָיא",
+	"headwords": [
+		{
+			"text": "אִיסוֹפּוֹלִיטְיָיא"
+		},
 		{
 			"text": "אספלטייא",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 53,
 		"column": "a"

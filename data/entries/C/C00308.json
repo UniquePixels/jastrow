@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00308",
-	"slug": "גודגדין",
-	"headword": {
-		"text": "גּוּדְגַּדִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּדְגַּדִּין",
+	"headwords": [
+		{
+			"text": "גּוּדְגַּדִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01183",
-	"slug": "כריתינון",
-	"headword": {
-		"text": "כְּרֵיתִינוֹן"
-	},
+	"sefariaHeadword": "כְּרֵיתִינוֹן",
+	"headwords": [
+		{
+			"text": "כְּרֵיתִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 668,
 		"column": "a"

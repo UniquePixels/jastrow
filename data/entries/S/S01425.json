@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01425",
-	"slug": "קלרין",
-	"headword": {
-		"text": "קִלָּרִין"
-	},
+	"sefariaHeadword": "קִלָּרִין",
+	"headwords": [
+		{
+			"text": "קִלָּרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "a"

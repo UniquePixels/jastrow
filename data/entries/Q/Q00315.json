@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00315",
-	"slug": "פוק-2",
-	"headword": {
-		"text": "פּוּק",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פּוּק ²",
+	"headwords": [
+		{
+			"text": "פּוּק",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1145,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01509",
-	"slug": "עשריה",
-	"headword": {
-		"text": "עֲשִׂרָיָה"
-	},
+	"sefariaHeadword": "עֲשִׂרָיָה",
+	"headwords": [
+		{
+			"text": "עֲשִׂרָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1127,
 		"column": "b"

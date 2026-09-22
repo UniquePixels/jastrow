@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01009",
-	"slug": "קימחא",
-	"headword": {
-		"text": "קִימְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִימְחָא",
+	"headwords": [
+		{
+			"text": "קִימְחָא"
+		},
 		{
 			"text": "קִימְחוּנְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִימְחִית"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1362,
 		"column": "b"

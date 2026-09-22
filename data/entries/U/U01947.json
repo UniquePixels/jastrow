@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01947",
-	"slug": "שרורת",
-	"headword": {
-		"text": "שרורת"
-	},
+	"sefariaHeadword": "שרורת",
+	"headwords": [
+		{
+			"text": "שרורת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

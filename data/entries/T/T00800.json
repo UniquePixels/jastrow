@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00800",
-	"slug": "רמותא",
-	"headword": {
-		"text": "רָמוּתָא"
-	},
+	"sefariaHeadword": "רָמוּתָא",
+	"headwords": [
+		{
+			"text": "רָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1481,
 		"column": "b"

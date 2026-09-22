@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01086",
-	"slug": "גנברא-1",
-	"headword": {
-		"text": "גִּנְבָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּנְבָּרָא",
+	"headwords": [
+		{
+			"text": "גִּנְבָּרָא"
+		},
 		{
 			"text": "גִּינְבָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 257,
 		"column": "a"

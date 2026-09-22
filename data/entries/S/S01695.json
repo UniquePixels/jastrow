@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01695",
-	"slug": "קפא-2",
-	"headword": {
-		"text": "קַפָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַפָּא I",
+	"headwords": [
+		{
+			"text": "קַפָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1398,
 		"column": "a"

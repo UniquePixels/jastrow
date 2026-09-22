@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01169",
-	"slug": "גסטרא-2",
-	"headword": {
-		"text": "גַּסְטְרָא"
-	},
+	"sefariaHeadword": "גַּסְטְרָא",
+	"headwords": [
+		{
+			"text": "גַּסְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

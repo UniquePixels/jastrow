@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01278",
-	"slug": "קלוסטור",
-	"headword": {
-		"text": "קלוסטור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלוסטור",
+	"headwords": [
+		{
+			"text": "קלוסטור"
+		},
 		{
 			"text": "קלוסטר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1373,
 		"column": "a"

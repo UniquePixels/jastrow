@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03234",
-	"slug": "ארקא-2",
-	"headword": {
-		"text": "אַרְקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַרְקָא II",
+	"headwords": [
+		{
+			"text": "אַרְקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 125,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

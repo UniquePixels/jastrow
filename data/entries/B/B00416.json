@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00416",
-	"slug": "בזבזיך",
-	"headword": {
-		"text": "בזבזיך"
-	},
+	"sefariaHeadword": "בזבזיך",
+	"headwords": [
+		{
+			"text": "בזבזיך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "a"

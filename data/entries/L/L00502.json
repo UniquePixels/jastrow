@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00502",
-	"slug": "ליסתא",
-	"headword": {
-		"text": "לִיסְתָּא"
-	},
+	"sefariaHeadword": "לִיסְתָּא",
+	"headwords": [
+		{
+			"text": "לִיסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

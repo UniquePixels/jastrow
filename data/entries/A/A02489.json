@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02489",
-	"slug": "אספינדמון",
-	"headword": {
-		"text": "אספינדמון"
-	},
+	"sefariaHeadword": "אספינדמון",
+	"headwords": [
+		{
+			"text": "אספינדמון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

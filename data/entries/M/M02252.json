@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02252",
-	"slug": "מפרקת",
-	"headword": {
-		"text": "מִפְרֶקֶת"
-	},
+	"sefariaHeadword": "מִפְרֶקֶת",
+	"headwords": [
+		{
+			"text": "מִפְרֶקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

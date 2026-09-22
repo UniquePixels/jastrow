@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00509",
-	"slug": "מוליתא-1",
-	"headword": {
-		"text": "מוּלִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּלִיתָא",
+	"headwords": [
+		{
+			"text": "מוּלִיתָא"
+		},
 		{
 			"text": "מוּלְיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 743,
 		"column": "a"

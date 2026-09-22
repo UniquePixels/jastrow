@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00444",
-	"slug": "כזז",
-	"headword": {
-		"text": "כְּזַז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּזַז",
+	"headwords": [
+		{
+			"text": "כְּזַז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

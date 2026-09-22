@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00585",
-	"slug": "תלחא",
-	"headword": {
-		"text": "תִּלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּלְחָא",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּלְחָא"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "b"

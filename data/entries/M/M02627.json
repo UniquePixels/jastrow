@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02627",
-	"slug": "מרזיח",
-	"headword": {
-		"text": "מַרְזֵיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְזֵיחַ",
+	"headwords": [
+		{
+			"text": "מַרְזֵיחַ"
+		},
 		{
 			"text": "מַרְזֵיחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 840,
 		"column": "b"

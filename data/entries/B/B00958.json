@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00958",
-	"slug": "בניפיקרין",
-	"headword": {
-		"text": "בְּנִיפִיקָרִין"
-	},
+	"sefariaHeadword": "בְּנִיפִיקָרִין",
+	"headwords": [
+		{
+			"text": "בְּנִיפִיקָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

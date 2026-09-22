@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00355",
-	"slug": "אגריפא",
-	"headword": {
-		"text": "אַגְרִיפָּא"
-	},
+	"sefariaHeadword": "אַגְרִיפָּא",
+	"headwords": [
+		{
+			"text": "אַגְרִיפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

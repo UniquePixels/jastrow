@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01047",
-	"slug": "מטקס",
-	"headword": {
-		"text": "מַטְקַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַטְקַס",
+	"headwords": [
+		{
+			"text": "מַטְקַס"
+		},
 		{
 			"text": "מְטַקַּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 769,
 		"column": "b"

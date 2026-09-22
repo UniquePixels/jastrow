@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01839",
-	"slug": "מסב-2",
-	"headword": {
-		"text": "מֵסֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵסֵב",
+	"headwords": [
 		{
-			"text": "מֵי׳"
+			"text": "מֵסֵב"
+		},
+		{
+			"text": "מֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 803,
 		"column": "b"

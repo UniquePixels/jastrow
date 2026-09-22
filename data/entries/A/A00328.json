@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00328",
-	"slug": "אגסיטרין",
-	"headword": {
-		"text": "אֶגְסִיטֵרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶגְסִיטֵרִין",
+	"headwords": [
+		{
+			"text": "אֶגְסִיטֵרִין"
+		},
 		{
 			"text": "אֶכְסִיטֵירִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 13,
 		"column": "b"

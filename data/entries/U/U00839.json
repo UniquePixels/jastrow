@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00839",
-	"slug": "שיוסקי",
-	"headword": {
-		"text": "שיוסקי"
-	},
+	"sefariaHeadword": "שיוסקי",
+	"headwords": [
+		{
+			"text": "שיוסקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1558,
 		"column": "b"

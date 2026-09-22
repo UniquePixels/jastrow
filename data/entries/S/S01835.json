@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01835",
-	"slug": "קצפין",
-	"headword": {
-		"text": "קצפין"
-	},
+	"sefariaHeadword": "קצפין",
+	"headwords": [
+		{
+			"text": "קצפין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1407,
 		"column": "a"

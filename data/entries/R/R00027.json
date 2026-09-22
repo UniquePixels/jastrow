@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00027",
-	"slug": "צבור",
-	"headword": {
-		"text": "צִבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבּוּר",
+	"headwords": [
+		{
+			"text": "צִבּוּר"
+		},
 		{
 			"text": "צִבּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1257,
 		"column": "b"

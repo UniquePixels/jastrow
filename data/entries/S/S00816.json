@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00816",
-	"slug": "קטפורס",
-	"headword": {
-		"text": "קָטָפוֹרַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטָפוֹרַס",
+	"headwords": [
+		{
+			"text": "קָטָפוֹרַס"
+		},
 		{
 			"text": "קָטָפְרַס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1352,
 		"column": "a"

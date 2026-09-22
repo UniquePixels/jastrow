@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02164",
-	"slug": "אנטוכי",
-	"headword": {
-		"text": "אַנְטוּכִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְטוּכִי",
+	"headwords": [
+		{
+			"text": "אַנְטוּכִי"
+		},
 		{
 			"text": "אַנְטְיוֹכִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 83,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00381",
-	"slug": "רומאה",
-	"headword": {
-		"text": "רוֹמָאָה"
-	},
+	"sefariaHeadword": "רוֹמָאָה",
+	"headwords": [
+		{
+			"text": "רוֹמָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1460,
 		"column": "b"

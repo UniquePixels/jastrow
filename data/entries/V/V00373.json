@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00373",
-	"slug": "תחליפא",
-	"headword": {
-		"text": "תַּחְלִיפָא"
-	},
+	"sefariaHeadword": "תַּחְלִיפָא",
+	"headwords": [
+		{
+			"text": "תַּחְלִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "b"

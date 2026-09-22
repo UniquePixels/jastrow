@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00633",
-	"slug": "פיטקא",
-	"headword": {
-		"text": "פִּיטְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְקָא",
+	"headwords": [
 		{
-			"text": "פִּטְ׳"
+			"text": "פִּיטְקָא"
+		},
+		{
+			"text": "פִּטְ׳",
+			"partial": true
 		},
 		{
 			"text": "פְּטִיקָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1162,
 		"column": "a"

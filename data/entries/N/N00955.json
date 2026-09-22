@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00955",
-	"slug": "נסע-2",
-	"headword": {
-		"text": "נְסַע"
-	},
+	"sefariaHeadword": "נְסַע",
+	"headwords": [
+		{
+			"text": "נְסַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 918,
 		"column": "a"

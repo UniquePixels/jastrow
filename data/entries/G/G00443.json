@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00443",
-	"slug": "זכה",
-	"headword": {
-		"text": "זָכָה"
-	},
+	"sefariaHeadword": "זָכָה",
+	"headwords": [
+		{
+			"text": "זָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 398,
 		"column": "a"

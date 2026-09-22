@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00673",
-	"slug": "טפסרא",
-	"headword": {
-		"text": "טַפְסְרָא"
-	},
+	"sefariaHeadword": "טַפְסְרָא",
+	"headwords": [
+		{
+			"text": "טַפְסְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

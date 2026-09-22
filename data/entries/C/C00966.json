@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00966",
-	"slug": "גלם-3",
-	"headword": {
-		"text": "גְּלָם"
-	},
+	"sefariaHeadword": "גְּלָם",
+	"headwords": [
+		{
+			"text": "גְּלָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "a"

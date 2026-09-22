@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01298",
-	"slug": "כשדי",
-	"headword": {
-		"text": "כַּשְׂדִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּשְׂדִּי",
+	"headwords": [
+		{
+			"text": "כַּשְׂדִּי"
+		},
 		{
 			"text": "כַּשְׂדִיִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 675,
 		"column": "a"

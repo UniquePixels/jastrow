@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00454",
-	"slug": "דיאיקיטא",
-	"headword": {
-		"text": "דִּיאִיקִיטָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*דִּיאִיקִיטָא",
+	"headwords": [
+		{
+			"text": "דִּיאִיקִיטָא",
+			"reconstructed": true
+		},
 		{
 			"text": "דִּיאִיקִיטֵיס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 294,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00374",
-	"slug": "מהמורין",
-	"headword": {
-		"text": "מַהֲמוֹרִין"
-	},
+	"sefariaHeadword": "מַהֲמוֹרִין",
+	"headwords": [
+		{
+			"text": "מַהֲמוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

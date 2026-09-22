@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00818",
-	"slug": "פיקעין",
-	"headword": {
-		"text": "פִּיקְעִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקְעִין",
+	"headwords": [
 		{
-			"text": "פִּקְ׳"
+			"text": "פִּיקְעִין"
+		},
+		{
+			"text": "פִּקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1170,
 		"column": "a"

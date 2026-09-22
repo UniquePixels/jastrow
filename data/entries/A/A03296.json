@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03296",
-	"slug": "אשישיין",
-	"headword": {
-		"text": "אֲשִׁישְׁיַין"
-	},
+	"sefariaHeadword": "אֲשִׁישְׁיַין",
+	"headwords": [
+		{
+			"text": "אֲשִׁישְׁיַין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "a"

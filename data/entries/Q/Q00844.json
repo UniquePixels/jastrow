@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00844",
-	"slug": "פירוקא",
-	"headword": {
-		"text": "פֵּירוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּקָא",
+	"headwords": [
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּירוּקָא"
+		},
+		{
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1171,
 		"column": "a"

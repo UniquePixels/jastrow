@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03052",
-	"slug": "ארזה",
-	"headword": {
-		"text": "אַרְזָה"
-	},
+	"sefariaHeadword": "אַרְזָה",
+	"headwords": [
+		{
+			"text": "אַרְזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

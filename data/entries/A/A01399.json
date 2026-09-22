@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01399",
-	"slug": "איסגנטירין",
-	"headword": {
-		"text": "איסגנטירין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איסגנטירין",
+	"headwords": [
+		{
+			"text": "איסגנטירין"
+		},
 		{
 			"text": "איסגינטרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 53,
 		"column": "a"

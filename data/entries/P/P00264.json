@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00264",
-	"slug": "עוללה-2",
-	"headword": {
-		"text": "עוֹלֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹלֵלָה",
+	"headwords": [
+		{
+			"text": "עוֹלֵלָה"
+		},
 		{
 			"text": "עוֹלֶלֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1051,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00926",
-	"slug": "תרבוסים",
-	"headword": {
-		"text": "תרבוסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תרבוסים",
+	"headwords": [
+		{
+			"text": "תרבוסים"
+		},
 		{
 			"text": "תרבוסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1694,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00933",
-	"slug": "רפואה",
-	"headword": {
-		"text": "רְפוּאָה"
-	},
+	"sefariaHeadword": "רְפוּאָה",
+	"headwords": [
+		{
+			"text": "רְפוּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00481",
-	"slug": "גורגוס",
-	"headword": {
-		"text": "גּוֹרְגּוֹס"
-	},
+	"sefariaHeadword": "גּוֹרְגּוֹס",
+	"headwords": [
+		{
+			"text": "גּוֹרְגּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

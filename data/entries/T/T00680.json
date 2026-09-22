@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00680",
-	"slug": "ריפין",
-	"headword": {
-		"text": "רִיפִין"
-	},
+	"sefariaHeadword": "רִיפִין",
+	"headwords": [
+		{
+			"text": "רִיפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

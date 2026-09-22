@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01177",
-	"slug": "ברדא-2",
-	"headword": {
-		"text": "בַּרְדָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בַּרְדָּא II",
+	"headwords": [
+		{
+			"text": "בַּרְדָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 190,
 		"column": "a"

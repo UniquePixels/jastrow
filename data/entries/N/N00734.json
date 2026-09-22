@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00734",
-	"slug": "ניפחא",
-	"headword": {
-		"text": "נִיפְחָא"
-	},
+	"sefariaHeadword": "נִיפְחָא",
+	"headwords": [
+		{
+			"text": "נִיפְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

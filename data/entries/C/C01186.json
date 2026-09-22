@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01186",
-	"slug": "געי-2",
-	"headword": {
-		"text": "גְּעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּעִי",
+	"headwords": [
+		{
+			"text": "גְּעִי"
+		},
 		{
 			"text": "גְּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 261,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01047",
-	"slug": "אחר-4",
-	"headword": {
-		"text": "אַחֵר"
-	},
+	"sefariaHeadword": "אַחֵר",
+	"headwords": [
+		{
+			"text": "אַחֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 41,
 		"column": "a"

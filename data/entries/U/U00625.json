@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00625",
-	"slug": "שחוץ",
-	"headword": {
-		"text": "שָׁחוּץ"
-	},
+	"sefariaHeadword": "שָׁחוּץ",
+	"headwords": [
+		{
+			"text": "שָׁחוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "a"

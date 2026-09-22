@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00368",
-	"slug": "גול-2",
-	"headword": {
-		"text": "גּוּל"
-	},
+	"sefariaHeadword": "גּוּל",
+	"headwords": [
+		{
+			"text": "גּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

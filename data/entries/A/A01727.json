@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01727",
-	"slug": "אכסילין",
-	"headword": {
-		"text": "אכסילין"
-	},
+	"sefariaHeadword": "אכסילין",
+	"headwords": [
+		{
+			"text": "אכסילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "b"

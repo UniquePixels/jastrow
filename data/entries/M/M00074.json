@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00074",
-	"slug": "מבהתנא",
-	"headword": {
-		"text": "מְבַהֲתָנָא"
-	},
+	"sefariaHeadword": "מְבַהֲתָנָא",
+	"headwords": [
+		{
+			"text": "מְבַהֲתָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

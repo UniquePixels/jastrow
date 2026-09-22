@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00928",
-	"slug": "כסיפותא",
-	"headword": {
-		"text": "כְּסִיפוּתָא"
-	},
+	"sefariaHeadword": "כְּסִיפוּתָא",
+	"headwords": [
+		{
+			"text": "כְּסִיפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "a"

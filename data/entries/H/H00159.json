@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00159",
-	"slug": "חגר-4",
-	"headword": {
-		"text": "חֲגַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חֲגַר ²",
+	"headwords": [
+		{
+			"text": "חֲגַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 424,
 		"column": "b"

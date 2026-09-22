@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "D00668",
-	"slug": "דיסתנא-2",
-	"headword": {
-		"text": "דִּיסְתָּנָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְתָּנָא ²",
+	"headwords": [
+		{
+			"text": "דִּיסְתָּנָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "דִּסְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 303,
 		"column": "a"

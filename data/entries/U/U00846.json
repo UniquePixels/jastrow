@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00846",
-	"slug": "שיזבי",
-	"headword": {
-		"text": "שֵׁיזְבִי"
-	},
+	"sefariaHeadword": "שֵׁיזְבִי",
+	"headwords": [
+		{
+			"text": "שֵׁיזְבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "a"

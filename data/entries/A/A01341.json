@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01341",
-	"slug": "אימלא",
-	"headword": {
-		"text": "אִימְלָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִימְלָא",
+	"headwords": [
+		{
+			"text": "אִימְלָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

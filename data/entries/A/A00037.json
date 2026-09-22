@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00037",
-	"slug": "אבדימי",
-	"headword": {
-		"text": "אבדימי"
-	},
+	"sefariaHeadword": "אבדימי",
+	"headwords": [
+		{
+			"text": "אבדימי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

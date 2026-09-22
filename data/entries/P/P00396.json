@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00396",
-	"slug": "עזה-1",
-	"headword": {
-		"text": "עַזָּה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עַזָּה I",
+	"headwords": [
+		{
+			"text": "עַזָּה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1061,
 		"column": "a"

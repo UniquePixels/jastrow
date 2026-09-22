@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01687",
-	"slug": "ממשלה",
-	"headword": {
-		"text": "מֶמְשָׁלָה"
-	},
+	"sefariaHeadword": "מֶמְשָׁלָה",
+	"headwords": [
+		{
+			"text": "מֶמְשָׁלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 795,
 		"column": "b"

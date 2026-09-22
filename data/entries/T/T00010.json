@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00010",
-	"slug": "ראומטיקוס",
-	"headword": {
-		"text": "רֶאוְמָטִיקוֹס"
-	},
+	"sefariaHeadword": "רֶאוְמָטִיקוֹס",
+	"headwords": [
+		{
+			"text": "רֶאוְמָטִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1435,
 		"column": "a"

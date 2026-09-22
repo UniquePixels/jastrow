@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00622",
-	"slug": "חטיאה",
-	"headword": {
-		"text": "חטיאה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חטיאה",
+	"headwords": [
 		{
-			"text": "כפר חטיאה"
+			"text": "חטיאה"
+		},
+		{
+			"text": "כפר ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 449,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00242",
-	"slug": "קוד",
-	"headword": {
-		"text": "קוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹד",
+	"headwords": [
+		{
+			"text": "קוֹד"
+		},
 		{
 			"text": "קוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1324,
 		"column": "a"

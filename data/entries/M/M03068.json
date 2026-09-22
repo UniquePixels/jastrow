@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03068",
-	"slug": "מתכוליתא",
-	"headword": {
-		"text": "מַתְכּוּלִיתָא"
-	},
+	"sefariaHeadword": "מַתְכּוּלִיתָא",
+	"headwords": [
+		{
+			"text": "מַתְכּוּלִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

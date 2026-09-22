@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00756",
-	"slug": "תסבר",
-	"headword": {
-		"text": "תִּסְבָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְבָּר",
+	"headwords": [
 		{
-			"text": "תִּיסְ׳"
+			"text": "תִּסְבָּר"
+		},
+		{
+			"text": "תִּיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1682,
 		"column": "b"

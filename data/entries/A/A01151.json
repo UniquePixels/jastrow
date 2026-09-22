@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01151",
-	"slug": "איד",
-	"headword": {
-		"text": "אֵיד"
-	},
+	"sefariaHeadword": "אֵיד",
+	"headwords": [
+		{
+			"text": "אֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "a"

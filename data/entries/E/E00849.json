@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00849",
-	"slug": "הרזיפו",
-	"headword": {
-		"text": "הַרְזיפּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְזיפּוּ",
+	"headwords": [
+		{
+			"text": "הַרְזיפּוּ"
+		},
 		{
 			"text": "הַרְזִיפֵּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 366,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00732",
-	"slug": "אונוס-2",
-	"headword": {
-		"text": "אוֹנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹנוֹס",
+	"headwords": [
 		{
-			"text": "אוֹנוֹס קִטְמִין"
+			"text": "אוֹנוֹס"
+		},
+		{
+			"text": "א׳ קִטְמִין",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 28,
 		"column": "b"

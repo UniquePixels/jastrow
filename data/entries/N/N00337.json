@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00337",
-	"slug": "נוז-2",
-	"headword": {
-		"text": "נוּז",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נוּז ²",
+	"headwords": [
+		{
+			"text": "נוּז",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 885,
 		"column": "b"

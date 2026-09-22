@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02495",
-	"slug": "מרביינא",
-	"headword": {
-		"text": "מַרְבְּיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְבְּיָינָא",
+	"headwords": [
+		{
+			"text": "מַרְבְּיָינָא"
+		},
 		{
 			"text": "מַרְבְּיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "a"

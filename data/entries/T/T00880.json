@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00880",
-	"slug": "רעדע",
-	"headword": {
-		"text": "רעדע"
-	},
+	"sefariaHeadword": "רעדע",
+	"headwords": [
+		{
+			"text": "רעדע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1486,
 		"column": "a"

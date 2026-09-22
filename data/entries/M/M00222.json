@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00222",
-	"slug": "מגרף",
-	"headword": {
-		"text": "מַגְרֵף"
-	},
+	"sefariaHeadword": "מַגְרֵף",
+	"headwords": [
+		{
+			"text": "מַגְרֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00643",
-	"slug": "פיטרס",
-	"headword": {
-		"text": "פִּיטְרָס"
-	},
+	"sefariaHeadword": "פִּיטְרָס",
+	"headwords": [
+		{
+			"text": "פִּיטְרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

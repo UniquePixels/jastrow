@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00585",
-	"slug": "שותף-1",
-	"headword": {
-		"text": "שׁוּתָּף"
-	},
+	"sefariaHeadword": "שׁוּתָּף",
+	"headwords": [
+		{
+			"text": "שׁוּתָּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "a"

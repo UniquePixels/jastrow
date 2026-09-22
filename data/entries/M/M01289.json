@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01289",
-	"slug": "מיקר",
-	"headword": {
-		"text": "מֵיקַר"
-	},
+	"sefariaHeadword": "מֵיקַר",
+	"headwords": [
+		{
+			"text": "מֵיקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

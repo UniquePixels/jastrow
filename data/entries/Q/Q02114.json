@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02114",
-	"slug": "פתא-3",
-	"headword": {
-		"text": "פְּתָא"
-	},
+	"sefariaHeadword": "פְּתָא",
+	"headwords": [
+		{
+			"text": "פְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

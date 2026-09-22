@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00326",
-	"slug": "קולבין",
-	"headword": {
-		"text": "קוֹלְבִין"
-	},
+	"sefariaHeadword": "קוֹלְבִין",
+	"headwords": [
+		{
+			"text": "קוֹלְבִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1328,
 		"column": "a"

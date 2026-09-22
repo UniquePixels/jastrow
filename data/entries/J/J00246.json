@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00246",
-	"slug": "יורקמי",
-	"headword": {
-		"text": "יוּרְקָמִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יוּרְקָמִי",
+	"headwords": [
+		{
+			"text": "יוּרְקָמִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

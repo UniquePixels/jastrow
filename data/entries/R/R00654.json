@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00654",
-	"slug": "צעיק",
-	"headword": {
-		"text": "צְעֵיק"
-	},
+	"sefariaHeadword": "צְעֵיק",
+	"headwords": [
+		{
+			"text": "צְעֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

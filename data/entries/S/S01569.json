@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S01569",
-	"slug": "קני-4",
-	"headword": {
-		"text": "קְנֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנֵי ²",
+	"headwords": [
+		{
+			"text": "קְנֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קְנָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1391,
 		"column": "b"

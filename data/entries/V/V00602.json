@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00602",
-	"slug": "תלמודא",
-	"headword": {
-		"text": "תַּלְמוּדָא"
-	},
+	"sefariaHeadword": "תַּלְמוּדָא",
+	"headwords": [
+		{
+			"text": "תַּלְמוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

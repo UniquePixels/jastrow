@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01538",
-	"slug": "סרדה",
-	"headword": {
-		"text": "סרדה"
-	},
+	"sefariaHeadword": "סרדה",
+	"headwords": [
+		{
+			"text": "סרדה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "a"

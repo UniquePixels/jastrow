@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00524",
-	"slug": "סיב-2",
-	"headword": {
-		"text": "סִיב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיב II",
+	"headwords": [
+		{
+			"text": "סִיב",
+			"homograph": 2
+		},
 		{
 			"text": "סִיב"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 974,
 		"column": "a"

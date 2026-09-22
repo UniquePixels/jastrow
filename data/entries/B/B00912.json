@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00912",
-	"slug": "בלרי",
-	"headword": {
-		"text": "בַּלְרֵי"
-	},
+	"sefariaHeadword": "בַּלְרֵי",
+	"headwords": [
+		{
+			"text": "בַּלְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

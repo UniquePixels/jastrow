@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01177",
-	"slug": "פנטיגון",
-	"headword": {
-		"text": "פֶּנְטִיגוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּנְטִיגוֹן",
+	"headwords": [
 		{
-			"text": "פִּינְ׳"
+			"text": "פֶּנְטִיגוֹן"
 		},
 		{
-			"text": "פּוּנְ׳"
+			"text": "פִּינְ׳",
+			"partial": true
+		},
+		{
+			"text": "פּוּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1187,
 		"column": "a"

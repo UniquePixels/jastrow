@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00398",
-	"slug": "ציננא",
-	"headword": {
-		"text": "צִינְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִינְנָא",
+	"headwords": [
+		{
+			"text": "צִינְנָא"
+		},
 		{
 			"text": "צִינְעָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "צִינְעָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1278,
 		"column": "a"

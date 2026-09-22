@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00469",
-	"slug": "תינא",
-	"headword": {
-		"text": "תֵּינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּינָא",
+	"headwords": [
+		{
+			"text": "תֵּינָא"
+		},
 		{
 			"text": "תֵּינִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "תֵּינַיָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1665,
 		"column": "b"

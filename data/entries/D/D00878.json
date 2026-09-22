@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00878",
-	"slug": "דמה-2",
-	"headword": {
-		"text": "דָּמָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "דָּמָה ²",
+	"headwords": [
+		{
+			"text": "דָּמָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 312,
 		"column": "b"

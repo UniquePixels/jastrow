@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01554",
-	"slug": "מלייא",
-	"headword": {
-		"text": "מַלְיָיא"
-	},
+	"sefariaHeadword": "מַלְיָיא",
+	"headwords": [
+		{
+			"text": "מַלְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 790,
 		"column": "a"

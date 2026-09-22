@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01055",
-	"slug": "רקרק",
-	"headword": {
-		"text": "רַקְרַק"
-	},
+	"sefariaHeadword": "רַקְרַק",
+	"headwords": [
+		{
+			"text": "רַקְרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

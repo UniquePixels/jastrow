@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00222",
-	"slug": "יופי",
-	"headword": {
-		"text": "יוֹפִי"
-	},
+	"sefariaHeadword": "יוֹפִי",
+	"headwords": [
+		{
+			"text": "יוֹפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "a"

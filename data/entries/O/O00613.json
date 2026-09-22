@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00613",
-	"slug": "סייב",
-	"headword": {
-		"text": "סַיֵּיב"
-	},
+	"sefariaHeadword": "סַיֵּיב",
+	"headwords": [
+		{
+			"text": "סַיֵּיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

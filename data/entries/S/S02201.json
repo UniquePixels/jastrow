@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02201",
-	"slug": "קרשינא",
-	"headword": {
-		"text": "קַרְשִׁינָא"
-	},
+	"sefariaHeadword": "קַרְשִׁינָא",
+	"headwords": [
+		{
+			"text": "קַרְשִׁינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02186",
-	"slug": "קרקרנות",
-	"headword": {
-		"text": "קרקרנות"
-	},
+	"sefariaHeadword": "קרקרנות",
+	"headwords": [
+		{
+			"text": "קרקרנות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1427,
 		"column": "a"

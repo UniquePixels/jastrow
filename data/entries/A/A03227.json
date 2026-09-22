@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03227",
-	"slug": "ארפכוסיא",
-	"headword": {
-		"text": "ארפכוסיא"
-	},
+	"sefariaHeadword": "ארפכוסיא",
+	"headwords": [
+		{
+			"text": "ארפכוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

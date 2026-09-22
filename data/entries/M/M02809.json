@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02809",
-	"slug": "משבקא-2",
-	"headword": {
-		"text": "מְשַׁבְּקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְשַׁבְּקָא II",
+	"headwords": [
+		{
+			"text": "מְשַׁבְּקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 849,
 		"column": "a"

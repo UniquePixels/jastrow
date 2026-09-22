@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00010",
-	"slug": "פאחים",
-	"headword": {
-		"text": "פָּאחֵים"
-	},
+	"sefariaHeadword": "פָּאחֵים",
+	"headwords": [
+		{
+			"text": "פָּאחֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "a"

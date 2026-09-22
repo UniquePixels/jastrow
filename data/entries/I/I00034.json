@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00034",
-	"slug": "טבוסה",
-	"headword": {
-		"text": "טבוסה"
-	},
+	"sefariaHeadword": "טבוסה",
+	"headwords": [
+		{
+			"text": "טבוסה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

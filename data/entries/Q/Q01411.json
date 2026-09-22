@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01411",
-	"slug": "פפייס",
-	"headword": {
-		"text": "פַּפְּיָיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּפְּיָיס",
+	"headwords": [
+		{
+			"text": "פַּפְּיָיס"
+		},
 		{
 			"text": "פַּפְּיָס"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּפְּיָאס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1204,
 		"column": "a"

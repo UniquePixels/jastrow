@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00308",
-	"slug": "סוכר",
-	"headword": {
-		"text": "סוֹכֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹכֵר",
+	"headwords": [
 		{
-			"text": "עֵין סוֹכֵר"
+			"text": "סוֹכֵר"
+		},
+		{
+			"text": "עֵין ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 964,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

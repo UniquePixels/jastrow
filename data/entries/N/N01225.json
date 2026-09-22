@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01225",
-	"slug": "נקם-1",
-	"headword": {
-		"text": "נָקַם"
-	},
+	"sefariaHeadword": "נָקַם",
+	"headwords": [
+		{
+			"text": "נָקַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

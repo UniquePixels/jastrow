@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00528",
-	"slug": "אובלא-1",
-	"headword": {
-		"text": "אוּבְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּבְלָא I",
+	"headwords": [
+		{
+			"text": "אוּבְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 21,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01509",
-	"slug": "איסרא-1",
-	"headword": {
-		"text": "אִיסְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אִיסְרָא I",
+	"headwords": [
+		{
+			"text": "אִיסְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 57,
 		"column": "a"

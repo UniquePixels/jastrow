@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00647",
-	"slug": "רימנא",
-	"headword": {
-		"text": "רֵימָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵימָנָא",
+	"headwords": [
 		{
-			"text": "רֵימְ׳"
+			"text": "רֵימָנָא"
+		},
+		{
+			"text": "רֵימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1475,
 		"column": "a"

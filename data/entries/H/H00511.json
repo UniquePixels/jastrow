@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00511",
-	"slug": "חזויתיה",
-	"headword": {
-		"text": "חזויתיה"
-	},
+	"sefariaHeadword": "חזויתיה",
+	"headwords": [
+		{
+			"text": "חזויתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00103",
-	"slug": "מבתא",
-	"headword": {
-		"text": "מְבָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְבָתָא",
+	"headwords": [
+		{
+			"text": "מְבָתָא"
+		},
 		{
 			"text": "מִבְתוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 725,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01631",
-	"slug": "חרוף",
-	"headword": {
-		"text": "חֵרוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵרוּף",
+	"headwords": [
+		{
+			"text": "חֵרוּף"
+		},
 		{
 			"text": "חֵרוּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 500,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00897",
-	"slug": "חי״ת",
-	"headword": {
-		"text": "חי״ת"
-	},
+	"sefariaHeadword": "חי\"ת",
+	"headwords": [
+		{
+			"text": "חי״ת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

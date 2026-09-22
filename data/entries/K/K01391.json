@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01391",
-	"slug": "כתש-1",
-	"headword": {
-		"text": "כָּתַשׁ"
-	},
+	"sefariaHeadword": "כָּתַשׁ",
+	"headwords": [
+		{
+			"text": "כָּתַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "b"

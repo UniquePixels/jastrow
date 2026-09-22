@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00644",
-	"slug": "אוכלא-1",
-	"headword": {
-		"text": "אוּכְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּכְלָא I",
+	"headwords": [
+		{
+			"text": "אוּכְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 25,
 		"column": "a"

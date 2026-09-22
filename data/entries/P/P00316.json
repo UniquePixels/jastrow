@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00316",
-	"slug": "עוף-6",
-	"headword": {
-		"text": "עוֹף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹף ²",
+	"headwords": [
+		{
+			"text": "עוֹף",
+			"disambiguator": 2
+		},
 		{
 			"text": "עוֹפָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1055,
 		"column": "b"

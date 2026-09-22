@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01545",
-	"slug": "פרבר",
-	"headword": {
-		"text": "פַּרְבָּר"
-	},
+	"sefariaHeadword": "פַּרְבָּר",
+	"headwords": [
+		{
+			"text": "פַּרְבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

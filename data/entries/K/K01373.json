@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01373",
-	"slug": "כתמא",
-	"headword": {
-		"text": "כִּתְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּתְמָא",
+	"headwords": [
 		{
-			"text": "כִּי׳"
+			"text": "כִּתְמָא"
+		},
+		{
+			"text": "כִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 682,
 		"column": "a"

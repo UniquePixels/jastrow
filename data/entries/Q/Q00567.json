@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00567",
-	"slug": "פטריקי",
-	"headword": {
-		"text": "פַּטִרִיקִי"
-	},
+	"sefariaHeadword": "פַּטִרִיקִי",
+	"headwords": [
+		{
+			"text": "פַּטִרִיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

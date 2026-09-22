@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00928",
-	"slug": "נסיא",
-	"headword": {
-		"text": "נסיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נסיא",
+	"headwords": [
+		{
+			"text": "נסיא"
+		},
 		{
 			"text": "נסייא"
 		},
 		{
-			"text": "אתא נסיא"
+			"text": "אתא נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 916,
 		"column": "a"

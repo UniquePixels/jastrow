@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00145",
-	"slug": "בדיק",
-	"headword": {
-		"text": "בְּדִיק"
-	},
+	"sefariaHeadword": "בְּדִיק",
+	"headwords": [
+		{
+			"text": "בְּדִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00162",
-	"slug": "טול-2",
-	"headword": {
-		"text": "טוּל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוּל I",
+	"headwords": [
+		{
+			"text": "טוּל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 523,
 		"column": "b"

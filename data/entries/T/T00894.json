@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00894",
-	"slug": "רעי-6",
-	"headword": {
-		"text": "רֵעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵעִי",
+	"headwords": [
+		{
+			"text": "רֵעִי"
+		},
 		{
 			"text": "רַעֲיָא",
 			"homograph": 1
@@ -13,9 +14,11 @@
 			"text": "רֵעָא"
 		},
 		{
-			"text": "רֵי׳"
+			"text": "רֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I, {2}, {3}",
 	"page": {
 		"number": 1487,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02725",
-	"slug": "אפירסמן",
-	"headword": {
-		"text": "אפירסמן"
-	},
+	"sefariaHeadword": "אפירסמן",
+	"headwords": [
+		{
+			"text": "אפירסמן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

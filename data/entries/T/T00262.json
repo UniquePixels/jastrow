@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00262",
-	"slug": "רדיפה-1",
-	"headword": {
-		"text": "רְדִיפָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רְדִיפָה I",
+	"headwords": [
+		{
+			"text": "רְדִיפָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1452,
 		"column": "b"

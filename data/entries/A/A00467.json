@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00467",
-	"slug": "אדריכולין",
-	"headword": {
-		"text": "אדריכולין"
-	},
+	"sefariaHeadword": "אדריכולין",
+	"headwords": [
+		{
+			"text": "אדריכולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "a"

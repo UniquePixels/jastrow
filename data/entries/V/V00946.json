@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00946",
-	"slug": "תרגן",
-	"headword": {
-		"text": "תַּרְגֵּן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תַּרְגֵּן",
+	"headwords": [
+		{
+			"text": "תַּרְגֵּן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1696,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00514",
-	"slug": "יפתח",
-	"headword": {
-		"text": "יִפְתָּח"
-	},
+	"sefariaHeadword": "יִפְתָּח",
+	"headwords": [
+		{
+			"text": "יִפְתָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 587,
 		"column": "a"

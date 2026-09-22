@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01302",
-	"slug": "כשות-1",
-	"headword": {
-		"text": "כָּשׁוּת"
-	},
+	"sefariaHeadword": "כָּשׁוּת",
+	"headwords": [
+		{
+			"text": "כָּשׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "b"

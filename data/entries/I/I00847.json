@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00847",
-	"slug": "טרסאה",
-	"headword": {
-		"text": "טַרְסָאָה"
-	},
+	"sefariaHeadword": "טַרְסָאָה",
+	"headwords": [
+		{
+			"text": "טַרְסָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

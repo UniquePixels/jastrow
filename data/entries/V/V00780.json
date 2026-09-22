@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00780",
-	"slug": "תעיב",
-	"headword": {
-		"text": "תְּעֵיב"
-	},
+	"sefariaHeadword": "תְּעֵיב",
+	"headwords": [
+		{
+			"text": "תְּעֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1683,
 		"column": "b"

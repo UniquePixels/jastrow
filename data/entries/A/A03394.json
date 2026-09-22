@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03394",
-	"slug": "את-3",
-	"headword": {
-		"text": "אָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָת",
+	"headwords": [
+		{
+			"text": "אָת"
+		},
 		{
 			"text": "אַת"
 		},
@@ -16,6 +17,7 @@
 			"text": "אַתְוָא"
 		}
 	],
+	"display": "{0}, {1}, {2} I, {3}",
 	"page": {
 		"number": 132,
 		"column": "a"

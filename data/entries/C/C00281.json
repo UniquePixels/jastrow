@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00281",
-	"slug": "גוביינא",
-	"headword": {
-		"text": "גּוֹבַיְינָא"
-	},
+	"sefariaHeadword": "גּוֹבַיְינָא",
+	"headwords": [
+		{
+			"text": "גּוֹבַיְינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

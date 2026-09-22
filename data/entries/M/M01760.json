@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01760",
-	"slug": "מנחם",
-	"headword": {
-		"text": "מְנַחֵם"
-	},
+	"sefariaHeadword": "מְנַחֵם",
+	"headwords": [
+		{
+			"text": "מְנַחֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 799,
 		"column": "a"

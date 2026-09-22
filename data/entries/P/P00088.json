@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00088",
-	"slug": "עגיל-2",
-	"headword": {
-		"text": "עֲגִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲגִיל",
+	"headwords": [
+		{
+			"text": "עֲגִיל"
+		},
 		{
 			"text": "עֲגִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1041,
 		"column": "a"

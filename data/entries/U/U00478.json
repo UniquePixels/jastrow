@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00478",
-	"slug": "שוע-4",
-	"headword": {
-		"text": "שׁוֹעַ"
-	},
+	"sefariaHeadword": "שׁוֹעַ",
+	"headwords": [
+		{
+			"text": "שׁוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "a"

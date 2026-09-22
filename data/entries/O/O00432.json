@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00432",
-	"slug": "סורכייתא",
-	"headword": {
-		"text": "סורכייתא"
-	},
+	"sefariaHeadword": "סורכייתא",
+	"headwords": [
+		{
+			"text": "סורכייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

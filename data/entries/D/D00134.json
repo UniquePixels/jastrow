@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00134",
-	"slug": "דדכאות",
-	"headword": {
-		"text": "דדכאות"
-	},
+	"sefariaHeadword": "דדכאות",
+	"headwords": [
+		{
+			"text": "דדכאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02042",
-	"slug": "שרשורא",
-	"headword": {
-		"text": "שִׁרְשׁוּרָא"
-	},
+	"sefariaHeadword": "שִׁרְשׁוּרָא",
+	"headwords": [
+		{
+			"text": "שִׁרְשׁוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

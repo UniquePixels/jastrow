@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01276",
-	"slug": "נרתיק",
-	"headword": {
-		"text": "נַרְתֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַרְתֵּיק",
+	"headwords": [
+		{
+			"text": "נַרְתֵּיק"
+		},
 		{
 			"text": "נַרְתֵּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 937,
 		"column": "a"

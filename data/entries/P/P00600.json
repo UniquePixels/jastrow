@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00600",
-	"slug": "עי״ן",
-	"headword": {
-		"text": "עי״ן"
-	},
+	"sefariaHeadword": "עי\"ן",
+	"headwords": [
+		{
+			"text": "עי״ן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1071,
 		"column": "a"

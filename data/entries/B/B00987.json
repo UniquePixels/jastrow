@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00987",
-	"slug": "בסיליוס",
-	"headword": {
-		"text": "בָּסִילְיוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּסִילְיוֹס",
+	"headwords": [
+		{
+			"text": "בָּסִילְיוֹס"
+		},
 		{
 			"text": "בָּסִילְייוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 178,
 		"column": "a"

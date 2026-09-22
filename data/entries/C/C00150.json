@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00150",
-	"slug": "גגמי",
-	"headword": {
-		"text": "גַּגְמֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גַּגְמֵי",
+	"headwords": [
+		{
+			"text": "גַּגְמֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "גּוּגְמֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 209,
 		"column": "b"

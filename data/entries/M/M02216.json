@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02216",
-	"slug": "מפיריא",
-	"headword": {
-		"text": "מפיריא"
-	},
+	"sefariaHeadword": "מפיריא",
+	"headwords": [
+		{
+			"text": "מפיריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

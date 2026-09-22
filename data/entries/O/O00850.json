@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00850",
-	"slug": "סיריי",
-	"headword": {
-		"text": "סִירְיִי"
-	},
+	"sefariaHeadword": "סִירְיִי",
+	"headwords": [
+		{
+			"text": "סִירְיִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

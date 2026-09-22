@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00053",
-	"slug": "פגי-2",
-	"headword": {
-		"text": "פַּגֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּגֵּי",
+	"headwords": [
 		{
-			"text": "בֵּית פַּגֵּי"
+			"text": "פַּגֵּי"
+		},
+		{
+			"text": "בֵּית פַּ׳",
+			"partial": true
 		},
 		{
 			"text": "בֵּי"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1132,
 		"column": "b"

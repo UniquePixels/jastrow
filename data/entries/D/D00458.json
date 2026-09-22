@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00458",
-	"slug": "דיאתימון",
-	"headword": {
-		"text": "דיאתימון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דיאתימון",
+	"headwords": [
+		{
+			"text": "דיאתימון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 294,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02085",
-	"slug": "מעונאה",
-	"headword": {
-		"text": "מְעוֹנָאָה"
-	},
+	"sefariaHeadword": "מְעוֹנָאָה",
+	"headwords": [
+		{
+			"text": "מְעוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "a"

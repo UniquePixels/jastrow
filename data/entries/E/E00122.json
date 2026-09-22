@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00122",
-	"slug": "הדיין",
-	"headword": {
-		"text": "הדיין"
-	},
+	"sefariaHeadword": "הדיין",
+	"headwords": [
+		{
+			"text": "הדיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01680",
-	"slug": "אכזרא",
-	"headword": {
-		"text": "אַכְזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְזְרָא",
+	"headwords": [
+		{
+			"text": "אַכְזְרָא"
+		},
 		{
 			"text": "אַכְזְרָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "b"

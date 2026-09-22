@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02257",
-	"slug": "אננקי",
-	"headword": {
-		"text": "אֲנַנְקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲנַנְקֵי",
+	"headwords": [
+		{
+			"text": "אֲנַנְקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 86,
 		"column": "a"

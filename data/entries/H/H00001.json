@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00001",
-	"slug": "ח׳",
-	"headword": {
-		"text": "ח׳"
-	},
+	"sefariaHeadword": "ח׳",
+	"headwords": [
+		{
+			"text": "ח׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

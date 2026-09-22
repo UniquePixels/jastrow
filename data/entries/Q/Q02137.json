@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02137",
-	"slug": "פתור-1",
-	"headword": {
-		"text": "פתור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פתור",
+	"headwords": [
+		{
+			"text": "פתור"
+		},
 		{
 			"text": "פְּתַוְרֵיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1250,
 		"column": "b"

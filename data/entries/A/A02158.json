@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02158",
-	"slug": "אנחתא-1",
-	"headword": {
-		"text": "אֲנַחְתָּא"
-	},
+	"sefariaHeadword": "אֲנַחְתָּא",
+	"headwords": [
+		{
+			"text": "אֲנַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

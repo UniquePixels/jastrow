@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01463",
-	"slug": "חפס",
-	"headword": {
-		"text": "חֲפַס"
-	},
+	"sefariaHeadword": "חֲפַס",
+	"headwords": [
+		{
+			"text": "חֲפַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 492,
 		"column": "a"

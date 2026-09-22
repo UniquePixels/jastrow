@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00040",
-	"slug": "טבזא",
-	"headword": {
-		"text": "טַבְזָא"
-	},
+	"sefariaHeadword": "טַבְזָא",
+	"headwords": [
+		{
+			"text": "טַבְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03147",
-	"slug": "ארכיליסטוטין",
-	"headword": {
-		"text": "ארכיליסטוטין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ארכיליסטוטין",
+	"headwords": [
+		{
+			"text": "ארכיליסטוטין"
+		},
 		{
 			"text": "ליסטוסין"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְכִילִיסְטִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 122,
 		"column": "a"

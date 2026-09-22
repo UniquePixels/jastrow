@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02357",
-	"slug": "אסטוונא",
-	"headword": {
-		"text": "אִסְטְוָונָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְוָונָא",
+	"headwords": [
+		{
+			"text": "אִסְטְוָונָא"
+		},
 		{
 			"text": "אִסְטְוָונִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 90,
 		"column": "a"

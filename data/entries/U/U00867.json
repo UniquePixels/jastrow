@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00867",
-	"slug": "שיחי",
-	"headword": {
-		"text": "שֵׁיחִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיחִי",
+	"headwords": [
+		{
+			"text": "שֵׁיחִי"
+		},
 		{
 			"text": "שִׁיחְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיחְיָיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1559,
 		"column": "b"

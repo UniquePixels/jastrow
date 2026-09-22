@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00197",
-	"slug": "סדקאריס",
-	"headword": {
-		"text": "סדקאריס"
-	},
+	"sefariaHeadword": "סדקאריס",
+	"headwords": [
+		{
+			"text": "סדקאריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 958,
 		"column": "a"

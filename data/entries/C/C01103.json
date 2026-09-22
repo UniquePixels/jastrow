@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01103",
-	"slug": "גנוגנית",
-	"headword": {
-		"text": "גְּנוֹגְנִית",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גְּנוֹגְנִית",
+	"headwords": [
+		{
+			"text": "גְּנוֹגְנִית",
+			"reconstructed": true
+		},
 		{
 			"text": "גְּנוֹגֶנֶת"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 257,
 		"column": "b"

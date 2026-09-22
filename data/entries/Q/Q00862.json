@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00862",
-	"slug": "פירכורין",
-	"headword": {
-		"text": "פירכורין"
-	},
+	"sefariaHeadword": "פירכורין",
+	"headwords": [
+		{
+			"text": "פירכורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

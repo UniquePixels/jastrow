@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01054",
-	"slug": "גמם-1",
-	"headword": {
-		"text": "גָּמַם"
-	},
+	"sefariaHeadword": "גָּמַם",
+	"headwords": [
+		{
+			"text": "גָּמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

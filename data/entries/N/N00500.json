@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00500",
-	"slug": "נחל-3",
-	"headword": {
-		"text": "נָחַל"
-	},
+	"sefariaHeadword": "נָחַל",
+	"headwords": [
+		{
+			"text": "נָחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

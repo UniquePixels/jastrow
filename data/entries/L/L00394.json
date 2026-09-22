@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00394",
-	"slug": "לטישה",
-	"headword": {
-		"text": "לְטִישָׁה"
-	},
+	"sefariaHeadword": "לְטִישָׁה",
+	"headwords": [
+		{
+			"text": "לְטִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

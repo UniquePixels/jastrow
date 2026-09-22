@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00735",
-	"slug": "הפיכא",
-	"headword": {
-		"text": "הָפִיכָא"
-	},
+	"sefariaHeadword": "הָפִיכָא",
+	"headwords": [
+		{
+			"text": "הָפִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 361,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00685",
-	"slug": "עירוע",
-	"headword": {
-		"text": "עֵירוּעַ"
-	},
+	"sefariaHeadword": "עֵירוּעַ",
+	"headwords": [
+		{
+			"text": "עֵירוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

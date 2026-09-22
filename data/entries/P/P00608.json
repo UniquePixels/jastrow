@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00608",
-	"slug": "עינוג",
-	"headword": {
-		"text": "עִינּוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינּוּג",
+	"headwords": [
 		{
-			"text": "עִנּ׳"
+			"text": "עִינּוּג"
+		},
+		{
+			"text": "עִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1072,
 		"column": "a"

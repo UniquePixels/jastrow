@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00126",
-	"slug": "טוהר",
-	"headword": {
-		"text": "טוֹהַר"
-	},
+	"sefariaHeadword": "טוֹהַר",
+	"headwords": [
+		{
+			"text": "טוֹהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

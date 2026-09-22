@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00729",
-	"slug": "רישעא",
-	"headword": {
-		"text": "רִישְׁעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִישְׁעָא",
+	"headwords": [
+		{
+			"text": "רִישְׁעָא"
+		},
 		{
 			"text": "רִישְׁעָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "רִישְׁעוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1478,
 		"column": "a"

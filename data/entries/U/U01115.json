@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01115",
-	"slug": "שכב-2",
-	"headword": {
-		"text": "שְׁכֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁכֵב",
+	"headwords": [
+		{
+			"text": "שְׁכֵב"
+		},
 		{
 			"text": "שְׁכוּב"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁכֵיב"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1570,
 		"column": "b"

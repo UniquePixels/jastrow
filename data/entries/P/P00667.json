@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00667",
-	"slug": "עיקר-2",
-	"headword": {
-		"text": "עִיקָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקָּר ²",
+	"headwords": [
+		{
+			"text": "עִיקָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִיקָּרָא"
 		},
 		{
-			"text": "עִקָּ׳"
+			"text": "עִקָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1075,
 		"column": "a"

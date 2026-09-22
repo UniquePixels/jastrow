@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "J00463",
-	"slug": "יסי",
-	"headword": {
-		"text": "יַסֵּי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*יַסֵּי",
+	"headwords": [
 		{
-			"text": "יַיַסֵּי חֳלִי"
+			"text": "יַסֵּי",
+			"reconstructed": true
+		},
+		{
+			"text": "יַי׳ חֳלִי",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 582,
 		"column": "b"

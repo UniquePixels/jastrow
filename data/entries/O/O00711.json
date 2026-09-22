@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00711",
-	"slug": "סימן-2",
-	"headword": {
-		"text": "סִימָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימָן ²",
+	"headwords": [
+		{
+			"text": "סִימָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "סִימָנָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 981,
 		"column": "b"

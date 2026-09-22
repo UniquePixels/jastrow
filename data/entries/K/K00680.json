@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00680",
-	"slug": "כלבא-2",
-	"headword": {
-		"text": "כַּלְבָּא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּלְבָּא III",
+	"headwords": [
+		{
+			"text": "כַּלְבָּא",
+			"homograph": 3
+		},
 		{
 			"text": "כְּלֵבָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 639,
 		"column": "a"

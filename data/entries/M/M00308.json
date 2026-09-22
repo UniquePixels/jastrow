@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00308",
-	"slug": "מדמכא",
-	"headword": {
-		"text": "מְדַמְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְדַמְכָא",
+	"headwords": [
+		{
+			"text": "מְדַמְכָא"
+		},
 		{
 			"text": "מִדְמְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 734,
 		"column": "b"

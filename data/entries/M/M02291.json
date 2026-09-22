@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02291",
-	"slug": "מצולתא",
-	"headword": {
-		"text": "מְצוּלְתָּא"
-	},
+	"sefariaHeadword": "מְצוּלְתָּא",
+	"headwords": [
+		{
+			"text": "מְצוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

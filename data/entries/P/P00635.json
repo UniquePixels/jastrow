@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00635",
-	"slug": "עיף-1",
-	"headword": {
-		"text": "עָיֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָיֵף",
+	"headwords": [
+		{
+			"text": "עָיֵף"
+		},
 		{
 			"text": "עָיֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1073,
 		"column": "b"

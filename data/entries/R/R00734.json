@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00734",
-	"slug": "צרבת",
-	"headword": {
-		"text": "צָרֶבֶת"
-	},
+	"sefariaHeadword": "צָרֶבֶת",
+	"headwords": [
+		{
+			"text": "צָרֶבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "b"

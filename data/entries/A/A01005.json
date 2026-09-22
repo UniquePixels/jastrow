@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01005",
-	"slug": "אחווינא",
-	"headword": {
-		"text": "אחווינא"
-	},
+	"sefariaHeadword": "אחווינא",
+	"headwords": [
+		{
+			"text": "אחווינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

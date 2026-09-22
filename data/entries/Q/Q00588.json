@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00588",
-	"slug": "פיגעא",
-	"headword": {
-		"text": "פִּיגְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיגְעָא",
+	"headwords": [
+		{
+			"text": "פִּיגְעָא"
+		},
 		{
 			"text": "פִּיגְעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "b"

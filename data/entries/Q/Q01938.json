@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01938",
-	"slug": "פרסקא",
-	"headword": {
-		"text": "פִּרְסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְסְקָא",
+	"headwords": [
+		{
+			"text": "פִּרְסְקָא"
+		},
 		{
 			"text": "פִּרְסִיקָא"
 		},
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1235,
 		"column": "a"

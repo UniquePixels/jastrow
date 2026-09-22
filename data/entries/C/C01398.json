@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01398",
-	"slug": "גררה",
-	"headword": {
-		"text": "גְּרָרָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּרָרָה",
+	"headwords": [
+		{
+			"text": "גְּרָרָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 273,
 		"column": "a"

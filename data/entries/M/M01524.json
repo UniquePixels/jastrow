@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01524",
-	"slug": "מלח-5",
-	"headword": {
-		"text": "מֶלַח",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֶלַח ²",
+	"headwords": [
+		{
+			"text": "מֶלַח",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְלַח"
 		},
@@ -13,9 +14,11 @@
 			"text": "מִלְחָא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 788,
 		"column": "b"

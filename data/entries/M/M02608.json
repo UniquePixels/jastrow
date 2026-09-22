@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02608",
-	"slug": "מרושא",
-	"headword": {
-		"text": "מרושא"
-	},
+	"sefariaHeadword": "מרושא",
+	"headwords": [
+		{
+			"text": "מרושא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00572",
-	"slug": "תלבוש",
-	"headword": {
-		"text": "תַּלְבּוּשׁ"
-	},
+	"sefariaHeadword": "תַּלְבּוּשׁ",
+	"headwords": [
+		{
+			"text": "תַּלְבּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

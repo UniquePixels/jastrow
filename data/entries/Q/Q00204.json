@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00204",
-	"slug": "פוכלתרין",
-	"headword": {
-		"text": "פוכלתרין"
-	},
+	"sefariaHeadword": "פוכלתרין",
+	"headwords": [
+		{
+			"text": "פוכלתרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

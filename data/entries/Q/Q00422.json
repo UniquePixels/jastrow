@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00422",
-	"slug": "פזומקי",
-	"headword": {
-		"text": "פזומקי"
-	},
+	"sefariaHeadword": "פזומקי",
+	"headwords": [
+		{
+			"text": "פזומקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "a"

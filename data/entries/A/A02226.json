@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02226",
-	"slug": "אנייקא",
-	"headword": {
-		"text": "אַנְיָיקָא"
-	},
+	"sefariaHeadword": "אַנְיָיקָא",
+	"headwords": [
+		{
+			"text": "אַנְיָיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

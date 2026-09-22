@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00351",
-	"slug": "שוולאנאי",
-	"headword": {
-		"text": "שַׁוְולָאנַאי"
-	},
+	"sefariaHeadword": "שַׁוְולָאנַאי",
+	"headwords": [
+		{
+			"text": "שַׁוְולָאנַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00166",
-	"slug": "שבעתי",
-	"headword": {
-		"text": "שְׁבַעְתֵּי"
-	},
+	"sefariaHeadword": "שְׁבַעְתֵּי",
+	"headwords": [
+		{
+			"text": "שְׁבַעְתֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1516,
 		"column": "b"

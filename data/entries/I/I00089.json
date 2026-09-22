@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00089",
-	"slug": "טבריוס",
-	"headword": {
-		"text": "טְבִרְיוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְבִרְיוֹס",
+	"headwords": [
 		{
-			"text": "טְבִירְ׳"
+			"text": "טְבִרְיוֹס"
+		},
+		{
+			"text": "טְבִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 519,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00182",
-	"slug": "פוחתא",
-	"headword": {
-		"text": "פּוּחֲתָא"
-	},
+	"sefariaHeadword": "פּוּחֲתָא",
+	"headwords": [
+		{
+			"text": "פּוּחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

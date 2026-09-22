@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00762",
-	"slug": "ניקבא",
-	"headword": {
-		"text": "נִיקְבָּא"
-	},
+	"sefariaHeadword": "נִיקְבָּא",
+	"headwords": [
+		{
+			"text": "נִיקְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

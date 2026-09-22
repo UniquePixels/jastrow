@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02813",
-	"slug": "משה",
-	"headword": {
-		"text": "משֶׁה"
-	},
+	"sefariaHeadword": "משֶׁה",
+	"headwords": [
+		{
+			"text": "משֶׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "a"

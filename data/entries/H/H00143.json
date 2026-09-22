@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00143",
-	"slug": "חגור-2",
-	"headword": {
-		"text": "חֲגוֹר"
-	},
+	"sefariaHeadword": "חֲגוֹר",
+	"headwords": [
+		{
+			"text": "חֲגוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00420",
-	"slug": "אדמדם",
-	"headword": {
-		"text": "אֲדַמְדָּם"
-	},
+	"sefariaHeadword": "אֲדַמְדָּם",
+	"headwords": [
+		{
+			"text": "אֲדַמְדָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01118",
-	"slug": "תתי",
-	"headword": {
-		"text": "תְּתֵי"
-	},
+	"sefariaHeadword": "תְּתֵי",
+	"headwords": [
+		{
+			"text": "תְּתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "b"

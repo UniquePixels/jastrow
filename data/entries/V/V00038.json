@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00038",
-	"slug": "תבוסה",
-	"headword": {
-		"text": "תְּבוּסָה"
-	},
+	"sefariaHeadword": "תְּבוּסָה",
+	"headwords": [
+		{
+			"text": "תְּבוּסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1643,
 		"column": "b"

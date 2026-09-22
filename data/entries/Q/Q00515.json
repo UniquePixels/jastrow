@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00515",
-	"slug": "פטיליק",
-	"headword": {
-		"text": "פּטִילִיק",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פּטִילִיק",
+	"headwords": [
+		{
+			"text": "פּטִילִיק",
+			"reconstructed": true
+		},
 		{
 			"text": "פְּטִילִיקוֹן"
 		},
@@ -13,6 +14,7 @@
 			"text": "פְּטִילִיקִי"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 1155,
 		"column": "a"

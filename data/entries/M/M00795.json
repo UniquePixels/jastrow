@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00795",
-	"slug": "מחבא-2",
-	"headword": {
-		"text": "מַחֲבֵא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחֲבֵא II",
+	"headwords": [
+		{
+			"text": "מַחֲבֵא",
+			"homograph": 2
+		},
 		{
 			"text": "מַחֲבוֹא"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 757,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00824",
-	"slug": "פיקרסין",
-	"headword": {
-		"text": "פִּיקַרְסִין"
-	},
+	"sefariaHeadword": "פִּיקַרְסִין",
+	"headwords": [
+		{
+			"text": "פִּיקַרְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "a"

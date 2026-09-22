@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00087",
-	"slug": "הגרום",
-	"headword": {
-		"text": "הגרום"
-	},
+	"sefariaHeadword": "הגרום",
+	"headwords": [
+		{
+			"text": "הגרום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

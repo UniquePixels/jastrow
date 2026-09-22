@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00907",
-	"slug": "גלוסקא",
-	"headword": {
-		"text": "גְּלוּסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלוּסְקָא",
+	"headwords": [
+		{
+			"text": "גְּלוּסְקָא"
+		},
 		{
 			"text": "קְלוּסְקָא"
 		},
@@ -12,13 +13,14 @@
 			"text": "קין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 246,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " c. (a contraction of <he>גלוסביקא</he> or <he>גלופסיקא</he>, Lesbiacus, Lesbiaca, v. <cite ref=\"K00711\"><he>כְּלוּפְסִין</he></cite>, <cite ref=\"K00711\"><he>לִבְסִים</he></cite>, <cite ref=\"K00711\"><he>קְלוּפְ׳</he></cite>, <cite ref=\"K00711\"><he>גְּלוּפְ׳</he></cite>; as to guttural before <cite ref=\"L00000\"><he>ל</he></cite>, v. <cite ref=\"C00889\"><he>גְּלוּגְדְּקָא</he></cite>) <i>relating to Lesbos</i> (an island of the Aegean Sea, noted for its fertility and luxuries), <i>Lesbian</i>, whence ",
+			"gloss": " c. (a contraction of <he>גלוסביקא</he> or <he>גלופסיקא</he>, Lesbiacus, Lesbiaca, v. <cite ref=\"K00711\"><he>כְּלוּפְסִין</he></cite>, <cite ref=\"K00711\"><he>לִבְסִים</he></cite>, <cite ref=\"K00711\"><he>קְלוּפְ׳</he></cite>, <cite ref=\"K00711\"><he>גְּלוּפְ׳</he></cite>; as to guttural before <cite ref=\"L00000\"><he>ל</he></cite>, v. <cite ref=\"C00889\"><he>גְּלוּגְדְּקָא</he></cite>) <i>relating to Lesbos</i> (an island of the Aegean Sea, noted for its fertility and luxuries), <i>Lesbian</i>, whence ",
 			"units": []
 		},
 		{

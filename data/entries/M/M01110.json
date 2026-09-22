@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01110",
-	"slug": "מיזפו",
-	"headword": {
-		"text": "מִיזְפוּ"
-	},
+	"sefariaHeadword": "מִיזְפוּ",
+	"headwords": [
+		{
+			"text": "מִיזְפוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00519",
-	"slug": "או-5",
-	"headword": {
-		"text": "אוּ"
-	},
+	"sefariaHeadword": "אוּ",
+	"headwords": [
+		{
+			"text": "אוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "a"

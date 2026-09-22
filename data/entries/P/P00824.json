@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00824",
-	"slug": "עלמה",
-	"headword": {
-		"text": "עַלְמָה"
-	},
+	"sefariaHeadword": "עַלְמָה",
+	"headwords": [
+		{
+			"text": "עַלְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "a"

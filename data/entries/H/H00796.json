@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00796",
-	"slug": "חילתית",
-	"headword": {
-		"text": "חִילְתִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילְתִּית",
+	"headwords": [
 		{
-			"text": "חִלְתִּ׳"
+			"text": "חִילְתִּית"
+		},
+		{
+			"text": "חִלְתִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 457,
 		"column": "b"

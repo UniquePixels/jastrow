@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03174",
-	"slug": "ארמי-1",
-	"headword": {
-		"text": "אֲרַמִּי"
-	},
+	"sefariaHeadword": "אֲרַמִּי",
+	"headwords": [
+		{
+			"text": "אֲרַמִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "a"

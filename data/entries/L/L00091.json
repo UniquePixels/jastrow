@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00091",
-	"slug": "לבלין",
-	"headword": {
-		"text": "לבלין"
-	},
+	"sefariaHeadword": "לבלין",
+	"headwords": [
+		{
+			"text": "לבלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "b"

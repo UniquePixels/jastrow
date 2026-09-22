@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00276",
-	"slug": "עומד-1",
-	"headword": {
-		"text": "עוּמָד"
-	},
+	"sefariaHeadword": "עוּמָד",
+	"headwords": [
+		{
+			"text": "עוּמָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "b"

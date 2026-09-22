@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02201",
-	"slug": "פתר-2",
-	"headword": {
-		"text": "פְּתַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּתַר I",
+	"headwords": [
+		{
+			"text": "פְּתַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1255,
 		"column": "b"

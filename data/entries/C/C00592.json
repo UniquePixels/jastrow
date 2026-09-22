@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00592",
-	"slug": "גחל",
-	"headword": {
-		"text": "גֶּחָל"
-	},
+	"sefariaHeadword": "גֶּחָל",
+	"headwords": [
+		{
+			"text": "גֶּחָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

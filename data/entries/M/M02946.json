@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02946",
-	"slug": "משנים",
-	"headword": {
-		"text": "מִשְׁנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁנִים",
+	"headwords": [
+		{
+			"text": "מִשְׁנִים"
+		},
 		{
 			"text": "מִשְׁנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 857,
 		"column": "b"

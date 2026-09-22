@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00005",
-	"slug": "כאב-2",
-	"headword": {
-		"text": "כְּאֵב",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּאֵב I",
+	"headwords": [
+		{
+			"text": "כְּאֵב",
+			"homograph": 1
+		},
 		{
 			"text": "כְּאֵיב"
 		},
@@ -13,6 +14,7 @@
 			"text": "כֵּיב"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 606,
 		"column": "a"

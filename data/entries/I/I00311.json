@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00311",
-	"slug": "טיגן",
-	"headword": {
-		"text": "טִיגָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיגָּן",
+	"headwords": [
+		{
+			"text": "טִיגָּן"
+		},
 		{
 			"text": "טִיגְנוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "טִגְנָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 530,
 		"column": "a"

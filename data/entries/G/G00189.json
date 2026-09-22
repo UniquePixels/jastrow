@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00189",
-	"slug": "זומית",
-	"headword": {
-		"text": "זוֹמִית"
-	},
+	"sefariaHeadword": "זוֹמִית",
+	"headwords": [
+		{
+			"text": "זוֹמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

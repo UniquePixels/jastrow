@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00609",
-	"slug": "מוראה-1",
-	"headword": {
-		"text": "מוֹרְאָה"
-	},
+	"sefariaHeadword": "מוֹרְאָה",
+	"headwords": [
+		{
+			"text": "מוֹרְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

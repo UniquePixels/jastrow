@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00153",
-	"slug": "קדם-4",
-	"headword": {
-		"text": "קֶדֶם",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קֶדֶם ²",
+	"headwords": [
+		{
+			"text": "קֶדֶם",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1316,
 		"column": "b"

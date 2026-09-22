@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01867",
-	"slug": "פרכת",
-	"headword": {
-		"text": "פָּרֹכֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרֹכֶת",
+	"headwords": [
+		{
+			"text": "פָּרֹכֶת"
+		},
 		{
 			"text": "פָּרֻכְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1230,
 		"column": "a"

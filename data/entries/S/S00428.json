@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00428",
-	"slug": "קונטוס",
-	"headword": {
-		"text": "קוֹנְטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹנְטוֹס",
+	"headwords": [
+		{
+			"text": "קוֹנְטוֹס"
+		},
 		{
 			"text": "קוֹנְטָס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קוֹנְדָּס"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1334,
 		"column": "b"

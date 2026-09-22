@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00858",
-	"slug": "בליוטוס",
-	"headword": {
-		"text": "בליוטוס"
-	},
+	"sefariaHeadword": "בליוטוס",
+	"headwords": [
+		{
+			"text": "בליוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "b"

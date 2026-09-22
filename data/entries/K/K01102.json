@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01102",
-	"slug": "כרוב-2",
-	"headword": {
-		"text": "כְּרוּב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כְּרוּב II",
+	"headwords": [
+		{
+			"text": "כְּרוּב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 664,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01651",
-	"slug": "איתכלא",
-	"headword": {
-		"text": "אִיתְכָּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתְכָּלָא",
+	"headwords": [
+		{
+			"text": "אִיתְכָּלָא"
+		},
 		{
 			"text": "אֶתְכָּלָא"
 		},
 		{
-			"text": "אַתְ׳"
+			"text": "אַתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 61,
 		"column": "b"

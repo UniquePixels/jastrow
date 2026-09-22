@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00508",
-	"slug": "ליפוד",
-	"headword": {
-		"text": "לִיפוֹד"
-	},
+	"sefariaHeadword": "לִיפוֹד",
+	"headwords": [
+		{
+			"text": "לִיפוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

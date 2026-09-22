@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00834",
-	"slug": "גירסא-2",
-	"headword": {
-		"text": "גִּירְסָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גִּירְסָא II",
+	"headwords": [
+		{
+			"text": "גִּירְסָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 243,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01734",
-	"slug": "אכסן-2",
-	"headword": {
-		"text": "אַכְסָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְסָן",
+	"headwords": [
+		{
+			"text": "אַכְסָן"
+		},
 		{
 			"text": "אַכְסְנָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 64,
 		"column": "b"

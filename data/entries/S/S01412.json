@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01412",
-	"slug": "קלקיא",
-	"headword": {
-		"text": "קלקיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלקיא",
+	"headwords": [
+		{
+			"text": "קלקיא"
+		},
 		{
 			"text": "קלקיליאה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1381,
 		"column": "b"

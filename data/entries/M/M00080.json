@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00080",
-	"slug": "מבולא",
-	"headword": {
-		"text": "מַבּוּלָא"
-	},
+	"sefariaHeadword": "מַבּוּלָא",
+	"headwords": [
+		{
+			"text": "מַבּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

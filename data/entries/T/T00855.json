@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00855",
-	"slug": "רסיס",
-	"headword": {
-		"text": "רָסִיס"
-	},
+	"sefariaHeadword": "רָסִיס",
+	"headwords": [
+		{
+			"text": "רָסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00050",
-	"slug": "טביא",
-	"headword": {
-		"text": "טַבְיָא"
-	},
+	"sefariaHeadword": "טַבְיָא",
+	"headwords": [
+		{
+			"text": "טַבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00688",
-	"slug": "ריצוי",
-	"headword": {
-		"text": "רִיצּוּי"
-	},
+	"sefariaHeadword": "רִיצּוּי",
+	"headwords": [
+		{
+			"text": "רִיצּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "b"

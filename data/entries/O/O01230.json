@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01230",
-	"slug": "סניאתא",
-	"headword": {
-		"text": "סְנִיאֲתָא"
-	},
+	"sefariaHeadword": "סְנִיאֲתָא",
+	"headwords": [
+		{
+			"text": "סְנִיאֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "a"

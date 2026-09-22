@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00372",
-	"slug": "גולאי",
-	"headword": {
-		"text": "גולאי"
-	},
+	"sefariaHeadword": "גולאי",
+	"headwords": [
+		{
+			"text": "גולאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

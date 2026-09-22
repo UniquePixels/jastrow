@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00554",
-	"slug": "זמרה-2",
-	"headword": {
-		"text": "זִמְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִמְרָה",
+	"headwords": [
 		{
-			"text": "זִימְ׳"
+			"text": "זִמְרָה"
+		},
+		{
+			"text": "זִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 405,
 		"column": "b"

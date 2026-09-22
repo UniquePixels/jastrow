@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00622",
-	"slug": "טעק",
-	"headword": {
-		"text": "טְעַק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְעַק",
+	"headwords": [
+		{
+			"text": "טְעַק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

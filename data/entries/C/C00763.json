@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00763",
-	"slug": "גיניאך",
-	"headword": {
-		"text": "גּיניאך"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּיניאך",
+	"headwords": [
 		{
-			"text": "גּיניאך טַעֲוָותָא"
+			"text": "גּיניאך"
+		},
+		{
+			"text": "גּ׳ טַעֲוָותָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 239,
 		"column": "b"

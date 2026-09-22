@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00864",
-	"slug": "הריס",
-	"headword": {
-		"text": "הָרִיס"
-	},
+	"sefariaHeadword": "הָרִיס",
+	"headwords": [
+		{
+			"text": "הָרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

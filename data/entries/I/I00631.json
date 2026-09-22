@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00631",
-	"slug": "טפוטין",
-	"headword": {
-		"text": "טפוטין"
-	},
+	"sefariaHeadword": "טפוטין",
+	"headwords": [
+		{
+			"text": "טפוטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "b"

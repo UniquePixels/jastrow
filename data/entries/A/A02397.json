@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02397",
-	"slug": "אסטראטיגא",
-	"headword": {
-		"text": "אִסְטְרָאטֵיגָא"
-	},
+	"sefariaHeadword": "אִסְטְרָאטֵיגָא",
+	"headwords": [
+		{
+			"text": "אִסְטְרָאטֵיגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

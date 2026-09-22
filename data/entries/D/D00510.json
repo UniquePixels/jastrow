@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00510",
-	"slug": "דיוטא",
-	"headword": {
-		"text": "דְּיוֹטָא"
-	},
+	"sefariaHeadword": "דְּיוֹטָא",
+	"headwords": [
+		{
+			"text": "דְּיוֹטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

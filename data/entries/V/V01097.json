@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01097",
-	"slug": "תשמיש-1",
-	"headword": {
-		"text": "תַּשְׁמִישׁ"
-	},
+	"sefariaHeadword": "תַּשְׁמִישׁ",
+	"headwords": [
+		{
+			"text": "תַּשְׁמִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "b"

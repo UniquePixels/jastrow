@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00559",
-	"slug": "סיגורין",
-	"headword": {
-		"text": "סיגורין"
-	},
+	"sefariaHeadword": "סיגורין",
+	"headwords": [
+		{
+			"text": "סיגורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "b"

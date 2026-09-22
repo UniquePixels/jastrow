@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00378",
-	"slug": "קומא-1",
-	"headword": {
-		"text": "קוֹמָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קוֹמָא I",
+	"headwords": [
+		{
+			"text": "קוֹמָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1332,
 		"column": "a"

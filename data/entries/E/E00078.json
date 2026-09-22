@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00078",
-	"slug": "הגס",
-	"headword": {
-		"text": "הַגַּס"
-	},
+	"sefariaHeadword": "הַגַּס",
+	"headwords": [
+		{
+			"text": "הַגַּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "b"

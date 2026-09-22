@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00792",
-	"slug": "טריינוס",
-	"headword": {
-		"text": "טְרָיָינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרָיָינוֹס",
+	"headwords": [
 		{
-			"text": "טוּרְ׳"
+			"text": "טְרָיָינוֹס"
+		},
+		{
+			"text": "טוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 553,
 		"column": "b"

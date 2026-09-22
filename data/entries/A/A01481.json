@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01481",
-	"slug": "איספנדמנוס",
-	"headword": {
-		"text": "אִיסְפֶנְדַּמְנוֹס"
-	},
+	"sefariaHeadword": "אִיסְפֶנְדַּמְנוֹס",
+	"headwords": [
+		{
+			"text": "אִיסְפֶנְדַּמְנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

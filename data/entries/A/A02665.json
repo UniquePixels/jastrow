@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02665",
-	"slug": "אפטרתא",
-	"headword": {
-		"text": "אַפְטַרְתָּא"
-	},
+	"sefariaHeadword": "אַפְטַרְתָּא",
+	"headwords": [
+		{
+			"text": "אַפְטַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

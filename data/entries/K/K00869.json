@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00869",
-	"slug": "כנענאה",
-	"headword": {
-		"text": "כְּנַעֲנָאָה"
-	},
+	"sefariaHeadword": "כְּנַעֲנָאָה",
+	"headwords": [
+		{
+			"text": "כְּנַעֲנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "b"

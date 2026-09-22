@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01757",
-	"slug": "אכרמוניא",
-	"headword": {
-		"text": "אכרמוניא"
-	},
+	"sefariaHeadword": "אכרמוניא",
+	"headwords": [
+		{
+			"text": "אכרמוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00251",
-	"slug": "חובשין",
-	"headword": {
-		"text": "חוּבְשִׁין"
-	},
+	"sefariaHeadword": "חוּבְשִׁין",
+	"headwords": [
+		{
+			"text": "חוּבְשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "b"

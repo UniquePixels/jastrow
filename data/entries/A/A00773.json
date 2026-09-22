@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00773",
-	"slug": "אונקלוס",
-	"headword": {
-		"text": "אוֹנְקְלוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹנְקְלוֹס",
+	"headwords": [
+		{
+			"text": "אוֹנְקְלוֹס"
+		},
 		{
 			"text": "אָנְקְלוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 30,
 		"column": "a"

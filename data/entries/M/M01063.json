@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01063",
-	"slug": "מטריפולין",
-	"headword": {
-		"text": "מטריפולין"
-	},
+	"sefariaHeadword": "מטריפולין",
+	"headwords": [
+		{
+			"text": "מטריפולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 770,
 		"column": "a"

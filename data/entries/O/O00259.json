@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00259",
-	"slug": "סוד-3",
-	"headword": {
-		"text": "סוּד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סוּד ²",
+	"headwords": [
+		{
+			"text": "סוּד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 961,
 		"column": "b"

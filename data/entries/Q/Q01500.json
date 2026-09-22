@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01500",
-	"slug": "פקסוסיה",
-	"headword": {
-		"text": "פַּקְסוּסַיָּה"
-	},
+	"sefariaHeadword": "פַּקְסוּסַיָּה",
+	"headwords": [
+		{
+			"text": "פַּקְסוּסַיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1210,
 		"column": "a"

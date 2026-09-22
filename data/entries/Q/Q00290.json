@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00290",
-	"slug": "פוסיאני",
-	"headword": {
-		"text": "פּוּסְיָאנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּסְיָאנִי",
+	"headwords": [
+		{
+			"text": "פּוּסְיָאנִי"
+		},
 		{
 			"text": "פּוּסְיוֹנִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "פּוּסְיָינִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1144,
 		"column": "b"

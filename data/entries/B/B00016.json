@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00016",
-	"slug": "באות",
-	"headword": {
-		"text": "בָּאוָת"
-	},
+	"sefariaHeadword": "בָּאוָת",
+	"headwords": [
+		{
+			"text": "בָּאוָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "a"

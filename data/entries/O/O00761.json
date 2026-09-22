@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00761",
-	"slug": "סיסרא",
-	"headword": {
-		"text": "סִיסְרָא"
-	},
+	"sefariaHeadword": "סִיסְרָא",
+	"headwords": [
+		{
+			"text": "סִיסְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

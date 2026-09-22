@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00192",
-	"slug": "גדי-2",
-	"headword": {
-		"text": "גְּדִי"
-	},
+	"sefariaHeadword": "גְּדִי",
+	"headwords": [
+		{
+			"text": "גְּדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "b"

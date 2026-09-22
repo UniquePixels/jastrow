@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00176",
-	"slug": "נגע-1",
-	"headword": {
-		"text": "נָגַע"
-	},
+	"sefariaHeadword": "נָגַע",
+	"headwords": [
+		{
+			"text": "נָגַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

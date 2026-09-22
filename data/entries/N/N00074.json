@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00074",
-	"slug": "נביא-1",
-	"headword": {
-		"text": "נָבִיא"
-	},
+	"sefariaHeadword": "נָבִיא",
+	"headwords": [
+		{
+			"text": "נָבִיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "b"

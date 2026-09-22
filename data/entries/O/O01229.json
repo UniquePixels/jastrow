@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01229",
-	"slug": "סניאס",
-	"headword": {
-		"text": "סְנִיאָס"
-	},
+	"sefariaHeadword": "סְנִיאָס",
+	"headwords": [
+		{
+			"text": "סְנִיאָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "a"

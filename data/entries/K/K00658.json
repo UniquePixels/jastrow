@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00658",
-	"slug": "ככדיתא",
-	"headword": {
-		"text": "ככדיתא"
-	},
+	"sefariaHeadword": "ככדיתא",
+	"headwords": [
+		{
+			"text": "ככדיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "a"

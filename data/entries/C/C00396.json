@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00396",
-	"slug": "גולל",
-	"headword": {
-		"text": "גּוֹלֵל"
-	},
+	"sefariaHeadword": "גּוֹלֵל",
+	"headwords": [
+		{
+			"text": "גּוֹלֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "a"

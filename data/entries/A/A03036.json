@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03036",
-	"slug": "ארונטס",
-	"headword": {
-		"text": "ארונטס"
-	},
+	"sefariaHeadword": "ארונטס",
+	"headwords": [
+		{
+			"text": "ארונטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

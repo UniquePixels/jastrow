@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01526",
-	"slug": "קנגי",
-	"headword": {
-		"text": "קנגי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קנגי",
+	"headwords": [
+		{
+			"text": "קנגי"
+		},
 		{
 			"text": "קנדי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1388,
 		"column": "b"

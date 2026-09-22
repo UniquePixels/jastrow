@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00056",
-	"slug": "פגיח",
-	"headword": {
-		"text": "פְּגִיחַ"
-	},
+	"sefariaHeadword": "פְּגִיחַ",
+	"headwords": [
+		{
+			"text": "פְּגִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

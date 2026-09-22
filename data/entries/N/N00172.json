@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00172",
-	"slug": "נגנין",
-	"headword": {
-		"text": "נגנין"
-	},
+	"sefariaHeadword": "נגנין",
+	"headwords": [
+		{
+			"text": "נגנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

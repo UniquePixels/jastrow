@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00390",
-	"slug": "עזאי",
-	"headword": {
-		"text": "עַזַּאי"
-	},
+	"sefariaHeadword": "עַזַּאי",
+	"headwords": [
+		{
+			"text": "עַזַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "b"

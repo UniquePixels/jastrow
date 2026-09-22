@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00003",
-	"slug": "ווא",
-	"headword": {
-		"text": "וָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָוא",
+	"headwords": [
+		{
+			"text": "וָוא"
+		},
 		{
 			"text": "וָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 371,
 		"column": "b"

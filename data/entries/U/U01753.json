@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01753",
-	"slug": "שפיפון",
-	"headword": {
-		"text": "שְׁפִיפוֹן"
-	},
+	"sefariaHeadword": "שְׁפִיפוֹן",
+	"headwords": [
+		{
+			"text": "שְׁפִיפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1616,
 		"column": "a"

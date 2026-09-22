@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01545",
-	"slug": "עתק-3",
-	"headword": {
-		"text": "עֲתַק"
-	},
+	"sefariaHeadword": "עֲתַק",
+	"headwords": [
+		{
+			"text": "עֲתַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1130,
 		"column": "b"

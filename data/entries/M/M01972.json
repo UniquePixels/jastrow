@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01972",
-	"slug": "מסמתא",
-	"headword": {
-		"text": "מְסַמְתָּא"
-	},
+	"sefariaHeadword": "מְסַמְתָּא",
+	"headwords": [
+		{
+			"text": "מְסַמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 809,
 		"column": "b"

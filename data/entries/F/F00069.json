@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "F00069",
-	"slug": "ווסתנית",
-	"headword": {
-		"text": "וֶוסְתָּנִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*וֶוסְתָּנִית",
+	"headwords": [
+		{
+			"text": "וֶוסְתָּנִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 374,
 		"column": "b"

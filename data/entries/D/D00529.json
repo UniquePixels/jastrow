@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00529",
-	"slug": "דיופלוסטון",
-	"headword": {
-		"text": "דיופלוסטון"
-	},
+	"sefariaHeadword": "דיופלוסטון",
+	"headwords": [
+		{
+			"text": "דיופלוסטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01860",
-	"slug": "מסובלא",
-	"headword": {
-		"text": "מְסוּבְלָא"
-	},
+	"sefariaHeadword": "מְסוּבְלָא",
+	"headwords": [
+		{
+			"text": "מְסוּבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

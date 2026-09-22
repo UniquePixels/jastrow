@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00295",
-	"slug": "ציבור-1",
-	"headword": {
-		"text": "צִיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיבּוּר",
+	"headwords": [
 		{
-			"text": "צִבּ׳"
+			"text": "צִיבּוּר"
+		},
+		{
+			"text": "צִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1274,
 		"column": "a"

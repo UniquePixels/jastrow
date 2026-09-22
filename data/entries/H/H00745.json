@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00745",
-	"slug": "חייצאות",
-	"headword": {
-		"text": "חַיְיצָאוֹת"
-	},
+	"sefariaHeadword": "חַיְיצָאוֹת",
+	"headwords": [
+		{
+			"text": "חַיְיצָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "a"

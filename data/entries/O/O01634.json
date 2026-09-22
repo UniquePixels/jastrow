@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01634",
-	"slug": "סרך-1",
-	"headword": {
-		"text": "סְרַךְ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרַךְ I",
+	"headwords": [
+		{
+			"text": "סְרַךְ",
+			"homograph": 1
+		},
 		{
 			"text": "סְרֵיךְ"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1027,
 		"column": "b"

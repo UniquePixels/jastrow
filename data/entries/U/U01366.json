@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "U01366",
-	"slug": "שלניא",
-	"headword": {
-		"text": "שְׁלַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלַנְיָא",
+	"headwords": [
+		{
+			"text": "שְׁלַנְיָא"
+		},
 		{
 			"text": "שְׁלַנְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1587,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

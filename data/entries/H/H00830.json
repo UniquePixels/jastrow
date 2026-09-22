@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00830",
-	"slug": "חיסודא",
-	"headword": {
-		"text": "חִיסּוּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיסּוּדָא",
+	"headwords": [
 		{
-			"text": "חִסּ׳"
+			"text": "חִיסּוּדָא"
+		},
+		{
+			"text": "חִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "b"

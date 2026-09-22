@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00164",
-	"slug": "מגיסטאר",
-	"headword": {
-		"text": "מגיסטאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מגיסטאר",
+	"headwords": [
+		{
+			"text": "מגיסטאר"
+		},
 		{
 			"text": "מגיסטי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 728,
 		"column": "a"

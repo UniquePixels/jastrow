@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00435",
-	"slug": "נזיד",
-	"headword": {
-		"text": "נָזִיד"
-	},
+	"sefariaHeadword": "נָזִיד",
+	"headwords": [
+		{
+			"text": "נָזִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

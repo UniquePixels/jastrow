@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00297",
-	"slug": "יחמור",
-	"headword": {
-		"text": "יַחְמוּר"
-	},
+	"sefariaHeadword": "יַחְמוּר",
+	"headwords": [
+		{
+			"text": "יַחְמוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01280",
-	"slug": "שלחת",
-	"headword": {
-		"text": "שלחת"
-	},
+	"sefariaHeadword": "שלחת",
+	"headwords": [
+		{
+			"text": "שלחת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1581,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00268",
-	"slug": "רדת",
-	"headword": {
-		"text": "רֶדֶת"
-	},
+	"sefariaHeadword": "רֶדֶת",
+	"headwords": [
+		{
+			"text": "רֶדֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1453,
 		"column": "b"

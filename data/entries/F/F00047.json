@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00047",
-	"slug": "ויסלאות",
-	"headword": {
-		"text": "ויסלאות"
-	},
+	"sefariaHeadword": "ויסלאות",
+	"headwords": [
+		{
+			"text": "ויסלאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

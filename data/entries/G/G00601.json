@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00601",
-	"slug": "זעירא-2",
-	"headword": {
-		"text": "זְעֵירָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זְעֵירָא II",
+	"headwords": [
+		{
+			"text": "זְעֵירָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 407,
 		"column": "b"

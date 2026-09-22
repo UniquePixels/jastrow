@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00185",
-	"slug": "סדין",
-	"headword": {
-		"text": "סָדִין"
-	},
+	"sefariaHeadword": "סָדִין",
+	"headwords": [
+		{
+			"text": "סָדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00129",
-	"slug": "פדן",
-	"headword": {
-		"text": "פַּדָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּדָּן",
+	"headwords": [
+		{
+			"text": "פַּדָּן"
+		},
 		{
 			"text": "פַּדְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1137,
 		"column": "b"

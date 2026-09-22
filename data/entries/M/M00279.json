@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00279",
-	"slug": "מדושה",
-	"headword": {
-		"text": "מְדוּשָּׁה"
-	},
+	"sefariaHeadword": "מְדוּשָּׁה",
+	"headwords": [
+		{
+			"text": "מְדוּשָּׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "b"

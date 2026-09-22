@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00990",
-	"slug": "בסים-2",
-	"headword": {
-		"text": "בָּסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּסִים",
+	"headwords": [
+		{
+			"text": "בָּסִים"
+		},
 		{
 			"text": "בְּסִימָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בְּסִימְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 178,
 		"column": "b"

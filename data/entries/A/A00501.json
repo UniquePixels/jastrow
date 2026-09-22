@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00501",
-	"slug": "אהל-2",
-	"headword": {
-		"text": "אֹהֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֹהֶל",
+	"headwords": [
+		{
+			"text": "אֹהֶל"
+		},
 		{
 			"text": "אוֹהֶל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 20,
 		"column": "a"

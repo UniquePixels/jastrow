@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03247",
-	"slug": "ארר-1",
-	"headword": {
-		"text": "אָרַר"
-	},
+	"sefariaHeadword": "אָרַר",
+	"headwords": [
+		{
+			"text": "אָרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01172",
-	"slug": "ברבריא",
-	"headword": {
-		"text": "בַּרְבַּרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְבַּרְיָא",
+	"headwords": [
+		{
+			"text": "בַּרְבַּרְיָא"
+		},
 		{
 			"text": "בַּרְבַּרְיָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "בַּרְבָּרִיאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 190,
 		"column": "a"

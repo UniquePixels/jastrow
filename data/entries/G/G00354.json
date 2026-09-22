@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00354",
-	"slug": "זילא",
-	"headword": {
-		"text": "זִילָא"
-	},
+	"sefariaHeadword": "זִילָא",
+	"headwords": [
+		{
+			"text": "זִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "a"

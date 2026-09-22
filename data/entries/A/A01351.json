@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01351",
-	"slug": "אימרה",
-	"headword": {
-		"text": "אִימְּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִימְּרָה",
+	"headwords": [
+		{
+			"text": "אִימְּרָה"
+		},
 		{
 			"text": "אִימְּרָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 51,
 		"column": "b"

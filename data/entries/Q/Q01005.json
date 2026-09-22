@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01005",
-	"slug": "פלטורא",
-	"headword": {
-		"text": "פָּלָטוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּלָטוֹרָא",
+	"headwords": [
 		{
-			"text": "פַּלְ׳"
+			"text": "פָּלָטוֹרָא"
+		},
+		{
+			"text": "פַּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1179,
 		"column": "a"

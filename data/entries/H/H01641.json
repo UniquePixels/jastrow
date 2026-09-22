@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01641",
-	"slug": "חרות-2",
-	"headword": {
-		"text": "חָרוּת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָרוּת I",
+	"headwords": [
+		{
+			"text": "חָרוּת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 500,
 		"column": "a"

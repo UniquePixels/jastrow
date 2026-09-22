@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01082",
-	"slug": "אטימיטא",
-	"headword": {
-		"text": "אֲטִימיטָא"
-	},
+	"sefariaHeadword": "אֲטִימיטָא",
+	"headwords": [
+		{
+			"text": "אֲטִימיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

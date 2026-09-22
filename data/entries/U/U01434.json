@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01434",
-	"slug": "שמונה",
-	"headword": {
-		"text": "שְׁמוֹנֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמוֹנֶה",
+	"headwords": [
+		{
+			"text": "שְׁמוֹנֶה"
+		},
 		{
 			"text": "שְׁמוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1592,
 		"column": "b"

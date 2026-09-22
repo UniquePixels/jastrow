@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00024",
-	"slug": "דאיתאה",
-	"headword": {
-		"text": "דְּאִיתְאָה"
-	},
+	"sefariaHeadword": "דְּאִיתְאָה",
+	"headwords": [
+		{
+			"text": "דְּאִיתְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

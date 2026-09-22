@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00450",
-	"slug": "תילחא",
-	"headword": {
-		"text": "תִּילְחָא"
-	},
+	"sefariaHeadword": "תִּילְחָא",
+	"headwords": [
+		{
+			"text": "תִּילְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

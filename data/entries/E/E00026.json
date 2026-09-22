@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00026",
-	"slug": "הבאשה",
-	"headword": {
-		"text": "הַבְאָשָׁה"
-	},
+	"sefariaHeadword": "הַבְאָשָׁה",
+	"headwords": [
+		{
+			"text": "הַבְאָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "a"

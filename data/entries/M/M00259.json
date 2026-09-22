@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00259",
-	"slug": "מדוברי",
-	"headword": {
-		"text": "מדוברי"
-	},
+	"sefariaHeadword": "מדוברי",
+	"headwords": [
+		{
+			"text": "מדוברי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

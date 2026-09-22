@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00180",
-	"slug": "טומיות",
-	"headword": {
-		"text": "טומיות"
-	},
+	"sefariaHeadword": "טומיות",
+	"headwords": [
+		{
+			"text": "טומיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

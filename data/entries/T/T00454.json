@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00454",
-	"slug": "רות",
-	"headword": {
-		"text": "רוּת"
-	},
+	"sefariaHeadword": "רוּת",
+	"headwords": [
+		{
+			"text": "רוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

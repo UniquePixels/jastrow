@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00170",
-	"slug": "מגיר-1",
-	"headword": {
-		"text": "מָגִיר"
-	},
+	"sefariaHeadword": "מָגִיר",
+	"headwords": [
+		{
+			"text": "מָגִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01042",
-	"slug": "חליטר",
-	"headword": {
-		"text": "חֲלִיטָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִיטָר",
+	"headwords": [
+		{
+			"text": "חֲלִיטָר"
+		},
 		{
 			"text": "חֲלִיטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 468,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01604",
-	"slug": "סריגות",
-	"headword": {
-		"text": "סְרִיגוּת"
-	},
+	"sefariaHeadword": "סְרִיגוּת",
+	"headwords": [
+		{
+			"text": "סְרִיגוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

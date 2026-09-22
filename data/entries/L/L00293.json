@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00293",
-	"slug": "לונטית",
-	"headword": {
-		"text": "לוּנְטִית"
-	},
+	"sefariaHeadword": "לוּנְטִית",
+	"headwords": [
+		{
+			"text": "לוּנְטִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

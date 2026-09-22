@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00103",
-	"slug": "חבצלת",
-	"headword": {
-		"text": "חֲבַצֶּלֶת"
-	},
+	"sefariaHeadword": "חֲבַצֶּלֶת",
+	"headwords": [
+		{
+			"text": "חֲבַצֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 421,
 		"column": "a"

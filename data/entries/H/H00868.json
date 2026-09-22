@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00868",
-	"slug": "חיקוק",
-	"headword": {
-		"text": "חִיקוֹק"
-	},
+	"sefariaHeadword": "חִיקוֹק",
+	"headwords": [
+		{
+			"text": "חִיקוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

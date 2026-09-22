@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02588",
-	"slug": "אסתרוקנית",
-	"headword": {
-		"text": "אִסְתְּרוֹקָנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְתְּרוֹקָנִית",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְתְּרוֹקָנִית"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 99,
 		"column": "a"

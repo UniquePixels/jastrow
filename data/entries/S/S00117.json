@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00117",
-	"slug": "קדום",
-	"headword": {
-		"text": "קִדּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִדּוּם",
+	"headwords": [
+		{
+			"text": "קִדּוּם"
+		},
 		{
 			"text": "קִדּוּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1313,
 		"column": "b"

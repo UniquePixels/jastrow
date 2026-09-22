@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01185",
-	"slug": "מילך-2",
-	"headword": {
-		"text": "מֵילַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵילַךְ",
+	"headwords": [
+		{
+			"text": "מֵילַךְ"
+		},
 		{
 			"text": "מִילְכָא"
 		},
@@ -18,6 +19,7 @@
 			"text": "מִילְכְּתָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 774,
 		"column": "b"

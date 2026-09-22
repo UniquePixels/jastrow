@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00159",
-	"slug": "דהניתא",
-	"headword": {
-		"text": "דַּהַנְיְתָא"
-	},
+	"sefariaHeadword": "דַּהַנְיְתָא",
+	"headwords": [
+		{
+			"text": "דַּהַנְיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "b"

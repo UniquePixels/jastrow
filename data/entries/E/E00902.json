@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00902",
-	"slug": "הרקיד",
-	"headword": {
-		"text": "הֶרְקֵיד"
-	},
+	"sefariaHeadword": "הֶרְקֵיד",
+	"headwords": [
+		{
+			"text": "הֶרְקֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

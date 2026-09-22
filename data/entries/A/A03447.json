@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03447",
-	"slug": "אתרוג",
-	"headword": {
-		"text": "אֶתְרוֹג"
-	},
+	"sefariaHeadword": "אֶתְרוֹג",
+	"headwords": [
+		{
+			"text": "אֶתְרוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "a"

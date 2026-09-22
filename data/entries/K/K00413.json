@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "K00413",
-	"slug": "כות-2",
-	"headword": {
-		"text": "כּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּת",
+	"headwords": [
+		{
+			"text": "כּוּת"
+		},
 		{
 			"text": "כּוּתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 627,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

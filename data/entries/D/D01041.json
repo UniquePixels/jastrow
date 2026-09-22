@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01041",
-	"slug": "דרגש",
-	"headword": {
-		"text": "דַּרְגֵּשׁ"
-	},
+	"sefariaHeadword": "דַּרְגֵּשׁ",
+	"headwords": [
+		{
+			"text": "דַּרְגֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

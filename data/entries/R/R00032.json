@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00032",
-	"slug": "צבטה",
-	"headword": {
-		"text": "צְבָטָה"
-	},
+	"sefariaHeadword": "צְבָטָה",
+	"headwords": [
+		{
+			"text": "צְבָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00986",
-	"slug": "רצינתא",
-	"headword": {
-		"text": "רְצִינְתָּא"
-	},
+	"sefariaHeadword": "רְצִינְתָּא",
+	"headwords": [
+		{
+			"text": "רְצִינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "a"

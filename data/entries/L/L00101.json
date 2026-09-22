@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00101",
-	"slug": "לבן-8",
-	"headword": {
-		"text": "לֹבֶן"
-	},
+	"sefariaHeadword": "לֹבֶן",
+	"headwords": [
+		{
+			"text": "לֹבֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 690,
 		"column": "b"

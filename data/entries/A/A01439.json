@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01439",
-	"slug": "איסטילין",
-	"headword": {
-		"text": "איסטילין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איסטילין",
+	"headwords": [
+		{
+			"text": "איסטילין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 55,
 		"column": "a"

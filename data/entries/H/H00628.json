@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00628",
-	"slug": "חטיטוב",
-	"headword": {
-		"text": "חֲטִיטוּב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חֲטִיטוּב",
+	"headwords": [
+		{
+			"text": "חֲטִיטוּב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 449,
 		"column": "b"

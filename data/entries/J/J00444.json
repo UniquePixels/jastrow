@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00444",
-	"slug": "ינץ",
-	"headword": {
-		"text": "יְנַץ"
-	},
+	"sefariaHeadword": "יְנַץ",
+	"headwords": [
+		{
+			"text": "יְנַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 581,
 		"column": "b"

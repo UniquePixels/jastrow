@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01107",
-	"slug": "קיפלאות",
-	"headword": {
-		"text": "קִיפְלָאוֹת"
-	},
+	"sefariaHeadword": "קִיפְלָאוֹת",
+	"headwords": [
+		{
+			"text": "קִיפְלָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

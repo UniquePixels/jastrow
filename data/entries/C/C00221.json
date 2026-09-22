@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00221",
-	"slug": "גדישותא",
-	"headword": {
-		"text": "גְּדִישׁוּתָא"
-	},
+	"sefariaHeadword": "גְּדִישׁוּתָא",
+	"headwords": [
+		{
+			"text": "גְּדִישׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "b"

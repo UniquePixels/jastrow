@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01127",
-	"slug": "קיצונא",
-	"headword": {
-		"text": "קִיצוֹנָא"
-	},
+	"sefariaHeadword": "קִיצוֹנָא",
+	"headwords": [
+		{
+			"text": "קִיצוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

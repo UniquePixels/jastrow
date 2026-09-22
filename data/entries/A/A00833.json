@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00833",
-	"slug": "אוקיאנוס",
-	"headword": {
-		"text": "אוֹקְיָאנוֹס"
-	},
+	"sefariaHeadword": "אוֹקְיָאנוֹס",
+	"headwords": [
+		{
+			"text": "אוֹקְיָאנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

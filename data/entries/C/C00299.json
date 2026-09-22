@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00299",
-	"slug": "גוך",
-	"headword": {
-		"text": "גּוּך"
-	},
+	"sefariaHeadword": "גּוּך",
+	"headwords": [
+		{
+			"text": "גּוּך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "a"

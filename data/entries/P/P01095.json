@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01095",
-	"slug": "עצב-5",
-	"headword": {
-		"text": "עָצֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָצֵב",
+	"headwords": [
+		{
+			"text": "עָצֵב"
+		},
 		{
 			"text": "עצֵבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1101,
 		"column": "b"

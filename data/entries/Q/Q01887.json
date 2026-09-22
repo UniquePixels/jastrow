@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01887",
-	"slug": "פרנוק",
-	"headword": {
-		"text": "פִּרְנוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְנוּק",
+	"headwords": [
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּרְנוּק"
+		},
+		{
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1231,
 		"column": "a"

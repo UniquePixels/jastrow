@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01565",
-	"slug": "מליקה",
-	"headword": {
-		"text": "מְלִיקָה"
-	},
+	"sefariaHeadword": "מְלִיקָה",
+	"headwords": [
+		{
+			"text": "מְלִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 790,
 		"column": "b"

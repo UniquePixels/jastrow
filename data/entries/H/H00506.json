@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00506",
-	"slug": "חזו-2",
-	"headword": {
-		"text": "חֵזוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵזוּ",
+	"headwords": [
+		{
+			"text": "חֵזוּ"
+		},
 		{
 			"text": "חֵיזוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 442,
 		"column": "a"

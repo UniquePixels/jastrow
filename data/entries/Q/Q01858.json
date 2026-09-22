@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01858",
-	"slug": "פרכיי׳",
-	"headword": {
-		"text": "פרכיי׳"
-	},
+	"sefariaHeadword": "פרכיי׳",
+	"headwords": [
+		{
+			"text": "פרכיי׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00879",
-	"slug": "מחיר",
-	"headword": {
-		"text": "מְחִיר"
-	},
+	"sefariaHeadword": "מְחִיר",
+	"headwords": [
+		{
+			"text": "מְחִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

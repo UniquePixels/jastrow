@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00484",
-	"slug": "זלזילא",
-	"headword": {
-		"text": "זַלְזִילָא"
-	},
+	"sefariaHeadword": "זַלְזִילָא",
+	"headwords": [
+		{
+			"text": "זַלְזִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

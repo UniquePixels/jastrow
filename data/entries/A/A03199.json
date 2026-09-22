@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A03199",
-	"slug": "ארנון-3",
-	"headword": {
-		"text": "אַרְנוֹן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְנוֹן II",
+	"headwords": [
+		{
+			"text": "אַרְנוֹן",
+			"homograph": 2
+		},
 		{
 			"text": "אַרְנוֹנָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אַרְנוֹנָה"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 123,
 		"column": "b"

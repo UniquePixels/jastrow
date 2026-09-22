@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01338",
-	"slug": "כתא-2",
-	"headword": {
-		"text": "כָּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּתָא",
+	"headwords": [
+		{
+			"text": "כָּתָא"
+		},
 		{
 			"text": "כַּתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 678,
 		"column": "b"

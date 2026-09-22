@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00202",
-	"slug": "צומחתה",
-	"headword": {
-		"text": "צוּמַחְתָּה"
-	},
+	"sefariaHeadword": "צוּמַחְתָּה",
+	"headwords": [
+		{
+			"text": "צוּמַחְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

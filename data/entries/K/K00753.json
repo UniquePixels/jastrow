@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00753",
-	"slug": "כלכיד",
-	"headword": {
-		"text": "כַּלְכִּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּלְכִּיד",
+	"headwords": [
+		{
+			"text": "כַּלְכִּיד"
+		},
 		{
 			"text": "כַּלְכִּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 643,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01023",
-	"slug": "דר-1",
-	"headword": {
-		"text": "דֹּר"
-	},
+	"sefariaHeadword": "דֹּר",
+	"headwords": [
+		{
+			"text": "דֹּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "a"

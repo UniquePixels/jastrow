@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00504",
-	"slug": "הכחיש",
-	"headword": {
-		"text": "הֶכְחֵישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶכְחֵישׁ",
+	"headwords": [
+		{
+			"text": "הֶכְחֵישׁ"
+		},
 		{
 			"text": "הֶכְחֵשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 350,
 		"column": "a"

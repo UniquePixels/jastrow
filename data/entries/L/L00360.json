@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00360",
-	"slug": "לחלוך",
-	"headword": {
-		"text": "לִחְלוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִחְלוּךְ",
+	"headwords": [
 		{
-			"text": "לִיחְ׳"
+			"text": "לִחְלוּךְ"
+		},
+		{
+			"text": "לִיחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 703,
 		"column": "b"

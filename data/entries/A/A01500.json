@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01500",
-	"slug": "איסקופא",
-	"headword": {
-		"text": "אִיסְקוּפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְקוּפָּא",
+	"headwords": [
+		{
+			"text": "אִיסְקוּפָּא"
+		},
 		{
 			"text": "אִיסְקוּפָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִיסְקוּפְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 57,
 		"column": "a"

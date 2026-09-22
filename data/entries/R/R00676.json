@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00676",
-	"slug": "צפון-1",
-	"headword": {
-		"text": "צָפוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צָפוֹן I",
+	"headwords": [
+		{
+			"text": "צָפוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1295,
 		"column": "b"

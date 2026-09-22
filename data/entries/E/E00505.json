@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00505",
-	"slug": "הכחשה",
-	"headword": {
-		"text": "הַכְחָשָׁה"
-	},
+	"sefariaHeadword": "הַכְחָשָׁה",
+	"headwords": [
+		{
+			"text": "הַכְחָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "a"

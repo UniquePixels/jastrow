@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00698",
-	"slug": "תמניתא-1",
-	"headword": {
-		"text": "תַּמְנִיתָא"
-	},
+	"sefariaHeadword": "תַּמְנִיתָא",
+	"headwords": [
+		{
+			"text": "תַּמְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1678,
 		"column": "b"

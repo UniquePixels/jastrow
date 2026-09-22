@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00784",
-	"slug": "גיעגוע",
-	"headword": {
-		"text": "גִּיעֲגוּעַ"
-	},
+	"sefariaHeadword": "גִּיעֲגוּעַ",
+	"headwords": [
+		{
+			"text": "גִּיעֲגוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

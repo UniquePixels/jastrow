@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00763",
-	"slug": "תסילא",
-	"headword": {
-		"text": "תָּסִילָא"
-	},
+	"sefariaHeadword": "תָּסִילָא",
+	"headwords": [
+		{
+			"text": "תָּסִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1682,
 		"column": "b"

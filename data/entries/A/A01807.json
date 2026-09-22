@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01807",
-	"slug": "אלווס",
-	"headword": {
-		"text": "אלווס"
-	},
+	"sefariaHeadword": "אלווס",
+	"headwords": [
+		{
+			"text": "אלווס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

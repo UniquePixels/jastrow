@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00280",
-	"slug": "יחט-1",
-	"headword": {
-		"text": "יָחַט"
-	},
+	"sefariaHeadword": "יָחַט",
+	"headwords": [
+		{
+			"text": "יָחַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 574,
 		"column": "a"

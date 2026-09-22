@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01141",
-	"slug": "נצצא",
-	"headword": {
-		"text": "נְצָצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְצָצָא",
+	"headwords": [
+		{
+			"text": "נְצָצָא"
+		},
 		{
 			"text": "נִיצְצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 929,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02834",
-	"slug": "משומשנא",
-	"headword": {
-		"text": "מְשׁוּמְשָׁנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשׁוּמְשָׁנָא",
+	"headwords": [
+		{
+			"text": "מְשׁוּמְשָׁנָא"
+		},
 		{
 			"text": "מְשֻׁמְּשָׁנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 850,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00940",
-	"slug": "רפח-3",
-	"headword": {
-		"text": "רְפִחַ"
-	},
+	"sefariaHeadword": "רְפִחַ",
+	"headwords": [
+		{
+			"text": "רְפִחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "b"

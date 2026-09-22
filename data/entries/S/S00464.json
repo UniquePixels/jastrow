@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00464",
-	"slug": "קוסטה",
-	"headword": {
-		"text": "קוּסְטָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּסְטָה",
+	"headwords": [
+		{
+			"text": "קוּסְטָה"
+		},
 		{
 			"text": "קוּסְטוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1336,
 		"column": "b"

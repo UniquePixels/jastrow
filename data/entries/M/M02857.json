@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02857",
-	"slug": "משחן",
-	"headword": {
-		"text": "מִשְׁחָן"
-	},
+	"sefariaHeadword": "מִשְׁחָן",
+	"headwords": [
+		{
+			"text": "מִשְׁחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "b"

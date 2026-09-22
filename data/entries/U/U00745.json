@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00745",
-	"slug": "שטי-3",
-	"headword": {
-		"text": "שטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שטי",
+	"headwords": [
+		{
+			"text": "שטי"
+		},
 		{
 			"text": "שָׁטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1553,
 		"column": "b"

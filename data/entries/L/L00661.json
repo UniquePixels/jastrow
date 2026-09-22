@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00661",
-	"slug": "לצן",
-	"headword": {
-		"text": "לֵצָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵצָן",
+	"headwords": [
+		{
+			"text": "לֵצָן"
+		},
 		{
 			"text": "לֵצָנוּת"
 		},
@@ -12,6 +13,7 @@
 			"text": "לֵצָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 716,
 		"column": "b"

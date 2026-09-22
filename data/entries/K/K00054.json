@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00054",
-	"slug": "כביש-1",
-	"headword": {
-		"text": "כְּבֵישׁ"
-	},
+	"sefariaHeadword": "כְּבֵישׁ",
+	"headwords": [
+		{
+			"text": "כְּבֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

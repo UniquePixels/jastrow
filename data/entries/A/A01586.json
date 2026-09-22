@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01586",
-	"slug": "איקוטטא",
-	"headword": {
-		"text": "איקוטטא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איקוטטא",
+	"headwords": [
+		{
+			"text": "איקוטטא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

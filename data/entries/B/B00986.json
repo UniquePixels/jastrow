@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00986",
-	"slug": "בסיליון",
-	"headword": {
-		"text": "בָּסִילְיוֹן"
-	},
+	"sefariaHeadword": "בָּסִילְיוֹן",
+	"headwords": [
+		{
+			"text": "בָּסִילְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

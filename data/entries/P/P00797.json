@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00797",
-	"slug": "עליז",
-	"headword": {
-		"text": "עַלִּיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַלִּיז",
+	"headwords": [
+		{
+			"text": "עַלִּיז"
+		},
 		{
 			"text": "עַלִּיזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1083,
 		"column": "a"

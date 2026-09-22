@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01231",
-	"slug": "עקת",
-	"headword": {
-		"text": "עָקַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָקַת",
+	"headwords": [
+		{
+			"text": "עָקַת"
+		},
 		{
 			"text": "עַקְתָא"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1109,
 		"column": "a"

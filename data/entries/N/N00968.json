@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00968",
-	"slug": "נעה",
-	"headword": {
-		"text": "נָעֶה"
-	},
+	"sefariaHeadword": "נָעֶה",
+	"headwords": [
+		{
+			"text": "נָעֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "a"

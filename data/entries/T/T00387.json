@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00387",
-	"slug": "רומחא",
-	"headword": {
-		"text": "רוּמְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּמְחָא",
+	"headwords": [
 		{
-			"text": "רוֹ׳"
+			"text": "רוּמְחָא"
+		},
+		{
+			"text": "רוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1461,
 		"column": "a"

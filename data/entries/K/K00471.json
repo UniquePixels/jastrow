@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00471",
-	"slug": "כחשא",
-	"headword": {
-		"text": "כַּחֲשָׁא"
-	},
+	"sefariaHeadword": "כַּחֲשָׁא",
+	"headwords": [
+		{
+			"text": "כַּחֲשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "b"

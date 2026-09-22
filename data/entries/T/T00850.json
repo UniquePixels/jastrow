@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00850",
-	"slug": "רננה",
-	"headword": {
-		"text": "רְנָנָה"
-	},
+	"sefariaHeadword": "רְנָנָה",
+	"headwords": [
+		{
+			"text": "רְנָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"

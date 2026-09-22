@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00099",
-	"slug": "סגא",
-	"headword": {
-		"text": "סְגָא"
-	},
+	"sefariaHeadword": "סְגָא",
+	"headwords": [
+		{
+			"text": "סְגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00893",
-	"slug": "נמרידה",
-	"headword": {
-		"text": "נמרידה"
-	},
+	"sefariaHeadword": "נמרידה",
+	"headwords": [
+		{
+			"text": "נמרידה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "a"

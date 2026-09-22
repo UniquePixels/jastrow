@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00520",
-	"slug": "חזז",
-	"headword": {
-		"text": "חָזַז"
-	},
+	"sefariaHeadword": "חָזַז",
+	"headwords": [
+		{
+			"text": "חָזַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

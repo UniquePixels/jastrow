@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01306",
-	"slug": "חנכתא",
-	"headword": {
-		"text": "חֲנֻכְּתָא"
-	},
+	"sefariaHeadword": "חֲנֻכְּתָא",
+	"headwords": [
+		{
+			"text": "חֲנֻכְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 484,
 		"column": "a"

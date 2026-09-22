@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00510",
-	"slug": "אהן",
-	"headword": {
-		"text": "אֲהָן"
-	},
+	"sefariaHeadword": "אֲהָן",
+	"headwords": [
+		{
+			"text": "אֲהָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

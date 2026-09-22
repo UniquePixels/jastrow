@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00892",
-	"slug": "דמי-2",
-	"headword": {
-		"text": "דְּמֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּמֵי I",
+	"headwords": [
+		{
+			"text": "דְּמֵי",
+			"homograph": 1
+		},
 		{
 			"text": "דְּמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 313,
 		"column": "a"
@@ -65,7 +67,7 @@
 			"stem": "Pa."
 		},
 		{
-			"forms": ["אִיתְדְּמֵי", "אִידְּמֵי"],
+			"forms": ["אִיתְדְּמֵי", "אִידְּמֵי"],
 			"senses": [
 				{
 					"gloss": ", <cite ref=\"D00792\"><he>אִדְּ׳</he></cite> ",

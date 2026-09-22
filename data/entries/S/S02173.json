@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02173",
-	"slug": "קרקסיות",
-	"headword": {
-		"text": "קִרְקְסָיוֹת"
-	},
+	"sefariaHeadword": "קִרְקְסָיוֹת",
+	"headwords": [
+		{
+			"text": "קִרְקְסָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

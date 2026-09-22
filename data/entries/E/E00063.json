@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00063",
-	"slug": "הגה-3",
-	"headword": {
-		"text": "הֵגֶה"
-	},
+	"sefariaHeadword": "הֵגֶה",
+	"headwords": [
+		{
+			"text": "הֵגֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "a"

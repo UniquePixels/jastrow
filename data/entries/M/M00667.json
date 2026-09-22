@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00667",
-	"slug": "מורסין",
-	"headword": {
-		"text": "מורסין"
-	},
+	"sefariaHeadword": "מורסין",
+	"headwords": [
+		{
+			"text": "מורסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

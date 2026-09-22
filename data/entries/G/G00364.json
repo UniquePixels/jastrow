@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00364",
-	"slug": "זימונא",
-	"headword": {
-		"text": "זִימּוּנָא"
-	},
+	"sefariaHeadword": "זִימּוּנָא",
+	"headwords": [
+		{
+			"text": "זִימּוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00971",
-	"slug": "רפתא",
-	"headword": {
-		"text": "רִפְתָּא"
-	},
+	"sefariaHeadword": "רִפְתָּא",
+	"headwords": [
+		{
+			"text": "רִפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "a"

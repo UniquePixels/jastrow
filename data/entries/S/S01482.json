@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01482",
-	"slug": "קמפון",
-	"headword": {
-		"text": "קַמְפּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמְפּוֹן",
+	"headwords": [
 		{
-			"text": "קוּמְ׳"
+			"text": "קַמְפּוֹן"
+		},
+		{
+			"text": "קוּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1386,
 		"column": "a"

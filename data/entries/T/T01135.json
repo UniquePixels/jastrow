@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01135",
-	"slug": "רתיע",
-	"headword": {
-		"text": "רְתִיעַ"
-	},
+	"sefariaHeadword": "רְתִיעַ",
+	"headwords": [
+		{
+			"text": "רְתִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "b"

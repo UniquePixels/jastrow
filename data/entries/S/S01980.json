@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01980",
-	"slug": "קרחיים",
-	"headword": {
-		"text": "קַרְחַיִים"
-	},
+	"sefariaHeadword": "קַרְחַיִים",
+	"headwords": [
+		{
+			"text": "קַרְחַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

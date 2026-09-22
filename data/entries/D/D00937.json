@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00937",
-	"slug": "דס",
-	"headword": {
-		"text": "דִּסְ־"
-	},
+	"sefariaHeadword": "דִּסְ־",
+	"headwords": [
+		{
+			"text": "דִּסְ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

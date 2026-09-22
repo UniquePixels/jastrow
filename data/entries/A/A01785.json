@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01785",
-	"slug": "אלה-6",
-	"headword": {
-		"text": "אַלָּה"
-	},
+	"sefariaHeadword": "אַלָּה",
+	"headwords": [
+		{
+			"text": "אַלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00401",
-	"slug": "גולמי",
-	"headword": {
-		"text": "גּוֹלָמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוֹלָמִי",
+	"headwords": [
+		{
+			"text": "גּוֹלָמִי"
+		},
 		{
 			"text": "גּוֹלָמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 222,
 		"column": "b"

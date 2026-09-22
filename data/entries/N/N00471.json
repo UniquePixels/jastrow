@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00471",
-	"slug": "נחבל",
-	"headword": {
-		"text": "נֶחְבָּל"
-	},
+	"sefariaHeadword": "נֶחְבָּל",
+	"headwords": [
+		{
+			"text": "נֶחְבָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 893,
 		"column": "b"

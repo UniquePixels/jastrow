@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00839",
-	"slug": "סירון",
-	"headword": {
-		"text": "סִירוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִירוֹן",
+	"headwords": [
+		{
+			"text": "סִירוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 987,
 		"column": "b"

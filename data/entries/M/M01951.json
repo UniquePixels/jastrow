@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01951",
-	"slug": "מסכן-5",
-	"headword": {
-		"text": "מַסְכֵּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַסְכֵּן",
+	"headwords": [
+		{
+			"text": "מַסְכֵּן"
+		},
 		{
 			"text": "מַסְכֵּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 808,
 		"column": "a"

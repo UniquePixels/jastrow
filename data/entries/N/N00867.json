@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00867",
-	"slug": "נמטא",
-	"headword": {
-		"text": "נַמְטָא"
-	},
+	"sefariaHeadword": "נַמְטָא",
+	"headwords": [
+		{
+			"text": "נַמְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

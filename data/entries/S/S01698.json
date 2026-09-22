@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01698",
-	"slug": "קפאטיות",
-	"headword": {
-		"text": "קפאטיות"
-	},
+	"sefariaHeadword": "קפאטיות",
+	"headwords": [
+		{
+			"text": "קפאטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "a"

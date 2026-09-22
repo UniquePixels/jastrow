@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01145",
-	"slug": "סמרטיקי",
-	"headword": {
-		"text": "סְמַרְטִיקִי"
-	},
+	"sefariaHeadword": "סְמַרְטִיקִי",
+	"headwords": [
+		{
+			"text": "סְמַרְטִיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

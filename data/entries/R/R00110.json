@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00110",
-	"slug": "צדייה",
-	"headword": {
-		"text": "צְדִיָּיה"
-	},
+	"sefariaHeadword": "צְדִיָּיה",
+	"headwords": [
+		{
+			"text": "צְדִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1262,
 		"column": "b"

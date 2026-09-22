@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02049",
-	"slug": "אמפומיות",
-	"headword": {
-		"text": "אמפומיות",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אמפומיות",
+	"headwords": [
+		{
+			"text": "אמפומיות",
+			"reconstructed": true
+		},
 		{
 			"text": "אמפיביות"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 78,
 		"column": "a"

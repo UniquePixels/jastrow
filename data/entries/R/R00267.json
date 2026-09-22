@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00267",
-	"slug": "צחא",
-	"headword": {
-		"text": "צְחָא"
-	},
+	"sefariaHeadword": "צְחָא",
+	"headwords": [
+		{
+			"text": "צְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "b"

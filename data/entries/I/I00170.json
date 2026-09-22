@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00170",
-	"slug": "טולמיסין",
-	"headword": {
-		"text": "טוֹלְמִיסִין"
-	},
+	"sefariaHeadword": "טוֹלְמִיסִין",
+	"headwords": [
+		{
+			"text": "טוֹלְמִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "a"

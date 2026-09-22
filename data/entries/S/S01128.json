@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01128",
-	"slug": "קיצונים",
-	"headword": {
-		"text": "קִיצוֹנִים"
-	},
+	"sefariaHeadword": "קִיצוֹנִים",
+	"headwords": [
+		{
+			"text": "קִיצוֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

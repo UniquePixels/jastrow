@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00630",
-	"slug": "בימוס",
-	"headword": {
-		"text": "בִּימוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּימוּס",
+	"headwords": [
+		{
+			"text": "בִּימוּס"
+		},
 		{
 			"text": "בִּימָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 162,
 		"column": "a"

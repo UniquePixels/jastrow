@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01119",
-	"slug": "נצי-1",
-	"headword": {
-		"text": "נצי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נצי",
+	"headwords": [
+		{
+			"text": "נצי"
+		},
 		{
 			"text": "נָצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 928,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00034",
-	"slug": "חבורה-2",
-	"headword": {
-		"text": "חַבּוּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַבּוּרָה",
+	"headwords": [
+		{
+			"text": "חַבּוּרָה"
+		},
 		{
 			"text": "חֲבוּרָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 416,
 		"column": "b"

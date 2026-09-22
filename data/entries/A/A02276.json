@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02276",
-	"slug": "אנפילון",
-	"headword": {
-		"text": "אנפילון"
-	},
+	"sefariaHeadword": "אנפילון",
+	"headwords": [
+		{
+			"text": "אנפילון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

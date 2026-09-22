@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00609",
-	"slug": "דילמא-3",
-	"headword": {
-		"text": "דילמא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דילמא",
+	"headwords": [
+		{
+			"text": "דילמא"
+		},
 		{
 			"text": "דולמא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 300,
 		"column": "a"

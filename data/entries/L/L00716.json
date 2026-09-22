@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00716",
-	"slug": "לתך",
-	"headword": {
-		"text": "לֶתֶךְ"
-	},
+	"sefariaHeadword": "לֶתֶךְ",
+	"headwords": [
+		{
+			"text": "לֶתֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "b"

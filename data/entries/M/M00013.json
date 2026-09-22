@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00013",
-	"slug": "מאוס-1",
-	"headword": {
-		"text": "מָאוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָאוּס",
+	"headwords": [
+		{
+			"text": "מָאוּס"
+		},
 		{
 			"text": "מַאוָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 721,
 		"column": "b"

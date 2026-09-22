@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00616",
-	"slug": "פיטום",
-	"headword": {
-		"text": "פִּיטּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטּוּם",
+	"headwords": [
 		{
-			"text": "פִּטּ׳"
+			"text": "פִּיטּוּם"
+		},
+		{
+			"text": "פִּטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1160,
 		"column": "b"

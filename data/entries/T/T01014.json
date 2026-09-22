@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01014",
-	"slug": "רקבובית-1",
-	"headword": {
-		"text": "רַקְבּוּבִית"
-	},
+	"sefariaHeadword": "רַקְבּוּבִית",
+	"headwords": [
+		{
+			"text": "רַקְבּוּבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "a"

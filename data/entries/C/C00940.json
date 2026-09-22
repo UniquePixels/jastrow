@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00940",
-	"slug": "גליד-2",
-	"headword": {
-		"text": "גְּלִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלִיד",
+	"headwords": [
+		{
+			"text": "גְּלִיד"
+		},
 		{
 			"text": "גְּלִידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 248,
 		"column": "b"

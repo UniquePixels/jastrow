@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00507",
-	"slug": "תירוש",
-	"headword": {
-		"text": "תִּירוֹשׁ"
-	},
+	"sefariaHeadword": "תִּירוֹשׁ",
+	"headwords": [
+		{
+			"text": "תִּירוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

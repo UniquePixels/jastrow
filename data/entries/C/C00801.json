@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00801",
-	"slug": "גיפתן",
-	"headword": {
-		"text": "גֵּיפְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיפְתָן",
+	"headwords": [
+		{
+			"text": "גֵּיפְתָן"
+		},
 		{
 			"text": "גֵּיפְתָנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "גֵּיפְתָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 241,
 		"column": "b"

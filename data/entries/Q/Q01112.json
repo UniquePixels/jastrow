@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01112",
-	"slug": "פלפולא",
-	"headword": {
-		"text": "פִּלְפּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלְפּוּלָא",
+	"headwords": [
 		{
-			"text": "פִּילְ׳"
+			"text": "פִּלְפּוּלָא"
+		},
+		{
+			"text": "פִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

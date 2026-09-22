@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00310",
-	"slug": "כונסה",
-	"headword": {
-		"text": "כּוֹנְסָה"
-	},
+	"sefariaHeadword": "כּוֹנְסָה",
+	"headwords": [
+		{
+			"text": "כּוֹנְסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

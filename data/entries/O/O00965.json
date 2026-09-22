@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00965",
-	"slug": "סלולה",
-	"headword": {
-		"text": "סְלוּלָה"
-	},
+	"sefariaHeadword": "סְלוּלָה",
+	"headwords": [
+		{
+			"text": "סְלוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

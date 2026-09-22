@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00027",
-	"slug": "הבב",
-	"headword": {
-		"text": "הָבַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָבַב",
+	"headwords": [
+		{
+			"text": "הָבַב"
+		},
 		{
 			"text": "הֲבַב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 329,
 		"column": "a"

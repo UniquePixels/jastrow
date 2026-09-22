@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00629",
-	"slug": "גידא-3",
-	"headword": {
-		"text": "גִּידָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּידָּא II",
+	"headwords": [
+		{
+			"text": "גִּידָּא",
+			"homograph": 2
+		},
 		{
 			"text": "גִּידְדָא"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 234,
 		"column": "b"

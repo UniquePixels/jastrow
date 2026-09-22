@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00879",
-	"slug": "גלד-3",
-	"headword": {
-		"text": "גֶּלֶד"
-	},
+	"sefariaHeadword": "גֶּלֶד",
+	"headwords": [
+		{
+			"text": "גֶּלֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 245,
 		"column": "b"

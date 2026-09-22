@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00822",
-	"slug": "תפירה",
-	"headword": {
-		"text": "תְּפִירָה"
-	},
+	"sefariaHeadword": "תְּפִירָה",
+	"headwords": [
+		{
+			"text": "תְּפִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "b"

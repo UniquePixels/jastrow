@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00129",
-	"slug": "סגיד",
-	"headword": {
-		"text": "סְגֵיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגֵיד",
+	"headwords": [
+		{
+			"text": "סְגֵיד"
+		},
 		{
 			"text": "סָגֵיד"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְגִידָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 954,
 		"column": "b"

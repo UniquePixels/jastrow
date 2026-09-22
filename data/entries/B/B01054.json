@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01054",
-	"slug": "בעל-2",
-	"headword": {
-		"text": "בְּעַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּעַל",
+	"headwords": [
+		{
+			"text": "בְּעַל"
+		},
 		{
 			"text": "בְּעֵיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 182,
 		"column": "a"

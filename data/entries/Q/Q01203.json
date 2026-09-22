@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01203",
-	"slug": "פניקטין",
-	"headword": {
-		"text": "פַּנִּיקְטִין"
-	},
+	"sefariaHeadword": "פַּנִּיקְטִין",
+	"headwords": [
+		{
+			"text": "פַּנִּיקְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "a"

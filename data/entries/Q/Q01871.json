@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01871",
-	"slug": "פרמוטה",
-	"headword": {
-		"text": "פרמוטה"
-	},
+	"sefariaHeadword": "פרמוטה",
+	"headwords": [
+		{
+			"text": "פרמוטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

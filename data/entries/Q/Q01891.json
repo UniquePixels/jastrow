@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01891",
-	"slug": "פרניטוס",
-	"headword": {
-		"text": "פַּרְנִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְנִיטוֹס",
+	"headwords": [
+		{
+			"text": "פַּרְנִיטוֹס"
+		},
 		{
 			"text": "פַּרְנִטוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1231,
 		"column": "a"

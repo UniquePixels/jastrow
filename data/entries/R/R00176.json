@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00176",
-	"slug": "ציור-1",
-	"headword": {
-		"text": "צַיַּור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיַּור",
+	"headwords": [
+		{
+			"text": "צַיַּור"
+		},
 		{
 			"text": "צַוְורָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "a"

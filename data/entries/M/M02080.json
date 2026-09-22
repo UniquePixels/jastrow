@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02080",
-	"slug": "מעוכיא",
-	"headword": {
-		"text": "מָעוֹכַיָּא"
-	},
+	"sefariaHeadword": "מָעוֹכַיָּא",
+	"headwords": [
+		{
+			"text": "מָעוֹכַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "a"

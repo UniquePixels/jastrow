@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00649",
-	"slug": "לפקקה",
-	"headword": {
-		"text": "לפקקה"
-	},
+	"sefariaHeadword": "לפקקה",
+	"headwords": [
+		{
+			"text": "לפקקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "a"

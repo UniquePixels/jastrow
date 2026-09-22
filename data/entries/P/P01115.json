@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01115",
-	"slug": "עציא",
-	"headword": {
-		"text": "עַצְיָא"
-	},
+	"sefariaHeadword": "עַצְיָא",
+	"headwords": [
+		{
+			"text": "עַצְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00767",
-	"slug": "בכא",
-	"headword": {
-		"text": "בְּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּכָא",
+	"headwords": [
+		{
+			"text": "בְּכָא"
+		},
 		{
 			"text": "בָּכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 169,
 		"column": "a"

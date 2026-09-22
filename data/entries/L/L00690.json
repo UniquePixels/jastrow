@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00690",
-	"slug": "לקיטה",
-	"headword": {
-		"text": "לְקִיטָה"
-	},
+	"sefariaHeadword": "לְקִיטָה",
+	"headwords": [
+		{
+			"text": "לְקִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 719,
 		"column": "a"

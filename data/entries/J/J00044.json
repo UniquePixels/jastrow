@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00044",
-	"slug": "יביש-1",
-	"headword": {
-		"text": "יְבֵישּׁ"
-	},
+	"sefariaHeadword": "יְבֵישּׁ",
+	"headwords": [
+		{
+			"text": "יְבֵישּׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

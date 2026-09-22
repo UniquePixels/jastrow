@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00689",
-	"slug": "זרזיף",
-	"headword": {
-		"text": "זִרְזֵיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִרְזֵיף",
+	"headwords": [
+		{
+			"text": "זִרְזֵיף"
+		},
 		{
 			"text": "זִרְזֵף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 412,
 		"column": "b"

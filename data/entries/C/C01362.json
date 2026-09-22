@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01362",
-	"slug": "גרממיא",
-	"headword": {
-		"text": "גִּרְמַמְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּרְמַמְיָא",
+	"headwords": [
+		{
+			"text": "גִּרְמַמְיָא"
+		},
 		{
 			"text": "גִּרְמַנְיָא"
 		},
 		{
-			"text": "גִּירְ׳"
+			"text": "גִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 270,
 		"column": "b"

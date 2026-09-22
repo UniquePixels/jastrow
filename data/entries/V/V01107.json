@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01107",
-	"slug": "תשעה",
-	"headword": {
-		"text": "תִּשְׁעָה"
-	},
+	"sefariaHeadword": "תִּשְׁעָה",
+	"headwords": [
+		{
+			"text": "תִּשְׁעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "a"

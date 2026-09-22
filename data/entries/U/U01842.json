@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01842",
-	"slug": "שקותא",
-	"headword": {
-		"text": "שָׁקוּתָא"
-	},
+	"sefariaHeadword": "שָׁקוּתָא",
+	"headwords": [
+		{
+			"text": "שָׁקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1621,
 		"column": "b"

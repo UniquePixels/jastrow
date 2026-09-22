@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02860",
-	"slug": "משחתא",
-	"headword": {
-		"text": "מְשַׁחְתָּא"
-	},
+	"sefariaHeadword": "מְשַׁחְתָּא",
+	"headwords": [
+		{
+			"text": "מְשַׁחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "b"

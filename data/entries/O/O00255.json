@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00255",
-	"slug": "סוגעתא",
-	"headword": {
-		"text": "סוּגְעֲתָא"
-	},
+	"sefariaHeadword": "סוּגְעֲתָא",
+	"headwords": [
+		{
+			"text": "סוּגְעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "b"

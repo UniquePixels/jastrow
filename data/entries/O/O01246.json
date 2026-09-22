@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01246",
-	"slug": "סנסון",
-	"headword": {
-		"text": "סנסון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סנסון",
+	"headwords": [
+		{
+			"text": "סנסון"
+		},
 		{
 			"text": "סנסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1008,
 		"column": "a"

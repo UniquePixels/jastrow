@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00847",
-	"slug": "אוראה",
-	"headword": {
-		"text": "אוֹרָאָה"
-	},
+	"sefariaHeadword": "אוֹרָאָה",
+	"headwords": [
+		{
+			"text": "אוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "b"

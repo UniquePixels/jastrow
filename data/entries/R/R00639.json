@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00639",
-	"slug": "צנע-2",
-	"headword": {
-		"text": "צְנַע"
-	},
+	"sefariaHeadword": "צְנַע",
+	"headwords": [
+		{
+			"text": "צְנַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "a"

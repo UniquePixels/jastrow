@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00757",
-	"slug": "חיל-3",
-	"headword": {
-		"text": "חִיל"
-	},
+	"sefariaHeadword": "חִיל",
+	"headwords": [
+		{
+			"text": "חִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "b"

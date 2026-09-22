@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00412",
-	"slug": "שוכחן",
-	"headword": {
-		"text": "שׁוֹכְחָן"
-	},
+	"sefariaHeadword": "שׁוֹכְחָן",
+	"headwords": [
+		{
+			"text": "שׁוֹכְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00995",
-	"slug": "עניץ",
-	"headword": {
-		"text": "עָנִיץ"
-	},
+	"sefariaHeadword": "עָנִיץ",
+	"headwords": [
+		{
+			"text": "עָנִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1095,
 		"column": "b"

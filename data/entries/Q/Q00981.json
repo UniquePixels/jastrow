@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00981",
-	"slug": "פלומקיא",
-	"headword": {
-		"text": "פְּלוּמַקְיָא"
-	},
+	"sefariaHeadword": "פְּלוּמַקְיָא",
+	"headwords": [
+		{
+			"text": "פְּלוּמַקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

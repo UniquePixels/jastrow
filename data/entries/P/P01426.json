@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01426",
-	"slug": "ערף-1",
-	"headword": {
-		"text": "עָרַף"
-	},
+	"sefariaHeadword": "עָרַף",
+	"headwords": [
+		{
+			"text": "עָרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1122,
 		"column": "a"

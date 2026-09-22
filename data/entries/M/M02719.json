@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02719",
-	"slug": "מרמס",
-	"headword": {
-		"text": "מִרְמָס"
-	},
+	"sefariaHeadword": "מִרְמָס",
+	"headwords": [
+		{
+			"text": "מִרְמָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

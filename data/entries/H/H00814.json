@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00814",
-	"slug": "חינא",
-	"headword": {
-		"text": "חֵינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵינָא",
+	"headwords": [
+		{
+			"text": "חֵינָא"
+		},
 		{
 			"text": "חֲיָינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "a"

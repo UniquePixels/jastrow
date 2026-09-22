@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00156",
-	"slug": "גד-6",
-	"headword": {
-		"text": "גָּד",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּד ³",
+	"headwords": [
+		{
+			"text": "גָּד",
+			"disambiguator": 3
+		},
 		{
 			"text": "גַּדָּא"
 		}
 	],
+	"display": "{0} ³, {1}",
 	"page": {
 		"number": 210,
 		"column": "a"

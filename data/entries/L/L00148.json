@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00148",
-	"slug": "לדנא",
-	"headword": {
-		"text": "לְדָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְדָנָא",
+	"headwords": [
+		{
+			"text": "לְדָנָא"
+		},
 		{
 			"text": "לִידְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 693,
 		"column": "a"

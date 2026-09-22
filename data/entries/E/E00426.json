@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "E00426",
-	"slug": "הימלטא",
-	"headword": {
-		"text": "הִימְלְטָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*הִימְלְטָא",
+	"headwords": [
+		{
+			"text": "הִימְלְטָא",
+			"reconstructed": true
+		},
 		{
 			"text": "הַמְלְטָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "הִימְלְטֵי"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 347,
 		"column": "a"

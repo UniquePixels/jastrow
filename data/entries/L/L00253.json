@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00253",
-	"slug": "לויאנוס",
-	"headword": {
-		"text": "לִוְיָאנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִוְיָאנוֹס",
+	"headwords": [
 		{
-			"text": "בר לִוְיָאנוֹס"
+			"text": "לִוְיָאנוֹס"
+		},
+		{
+			"text": "בר ל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 697,
 		"column": "b"

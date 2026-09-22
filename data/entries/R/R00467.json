@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00467",
-	"slug": "צית-1",
-	"headword": {
-		"text": "צִית"
-	},
+	"sefariaHeadword": "צִית",
+	"headwords": [
+		{
+			"text": "צִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

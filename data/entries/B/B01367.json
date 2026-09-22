@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01367",
-	"slug": "בשקר",
-	"headword": {
-		"text": "בַּשְׁקַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּשְׁקַר",
+	"headwords": [
+		{
+			"text": "בַּשְׁקַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 199,
 		"column": "b"

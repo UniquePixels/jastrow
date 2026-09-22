@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00016",
-	"slug": "סאין",
-	"headword": {
-		"text": "סָאִין"
-	},
+	"sefariaHeadword": "סָאִין",
+	"headwords": [
+		{
+			"text": "סָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

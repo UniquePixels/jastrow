@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01191",
-	"slug": "קירני",
-	"headword": {
-		"text": "קִירְנֵי"
-	},
+	"sefariaHeadword": "קִירְנֵי",
+	"headwords": [
+		{
+			"text": "קִירְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U02087",
-	"slug": "שתותא",
-	"headword": {
-		"text": "שְׁתוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתוּתָא",
+	"headwords": [
+		{
+			"text": "שְׁתוּתָא"
+		},
 		{
 			"text": "שְׁתִיתָא"
 		},
 		{
-			"text": "שְׁתּ׳"
+			"text": "שְׁתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1637,
 		"column": "a"

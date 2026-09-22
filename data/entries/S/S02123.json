@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02123",
-	"slug": "קרסיות",
-	"headword": {
-		"text": "קרסיות"
-	},
+	"sefariaHeadword": "קרסיות",
+	"headwords": [
+		{
+			"text": "קרסיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

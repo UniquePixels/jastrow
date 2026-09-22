@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01244",
-	"slug": "גרגותא",
-	"headword": {
-		"text": "גַּרגּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרגּוּתָא",
+	"headwords": [
+		{
+			"text": "גַּרגּוּתָא"
+		},
 		{
 			"text": "גַּרְגִּיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "גַּרְגְּרִיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 264,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00962",
-	"slug": "כעבים",
-	"headword": {
-		"text": "כעבים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כעבים",
+	"headwords": [
+		{
+			"text": "כעבים"
+		},
 		{
 			"text": "כעבין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 656,
 		"column": "a"

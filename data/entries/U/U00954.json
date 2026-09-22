@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00954",
-	"slug": "שילת",
-	"headword": {
-		"text": "שִׁילַת"
-	},
+	"sefariaHeadword": "שִׁילַת",
+	"headwords": [
+		{
+			"text": "שִׁילַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

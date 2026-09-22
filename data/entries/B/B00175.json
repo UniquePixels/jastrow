@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00175",
-	"slug": "בהיר",
-	"headword": {
-		"text": "בָּהִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּהִיר",
+	"headwords": [
+		{
+			"text": "בָּהִיר"
+		},
 		{
 			"text": "בָּהוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 142,
 		"column": "a"

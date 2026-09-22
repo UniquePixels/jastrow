@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00166",
-	"slug": "חגרתא",
-	"headword": {
-		"text": "חִגַּרְתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*חִגַּרְתָּא",
+	"headwords": [
 		{
-			"text": "חִיגַּ׳"
+			"text": "חִגַּרְתָּא",
+			"reconstructed": true
+		},
+		{
+			"text": "חִיגַּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 425,
 		"column": "a"

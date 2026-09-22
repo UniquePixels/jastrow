@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01136",
-	"slug": "איבריה",
-	"headword": {
-		"text": "אִיבְרָיָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיבְרָיָה",
+	"headwords": [
+		{
+			"text": "אִיבְרָיָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

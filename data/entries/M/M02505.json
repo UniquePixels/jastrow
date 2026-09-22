@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02505",
-	"slug": "מרבך",
-	"headword": {
-		"text": "מִרְבּךְ"
-	},
+	"sefariaHeadword": "מִרְבּךְ",
+	"headwords": [
+		{
+			"text": "מִרְבּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

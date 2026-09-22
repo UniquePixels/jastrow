@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00747",
-	"slug": "הפכתא",
-	"headword": {
-		"text": "הֲפֵכְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲפֵכְתָּא",
+	"headwords": [
 		{
-			"text": "הֲפֵי׳"
+			"text": "הֲפֵכְתָּא"
+		},
+		{
+			"text": "הֲפֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 361,
 		"column": "b"

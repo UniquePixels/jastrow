@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01220",
-	"slug": "פס-1",
-	"headword": {
-		"text": "פָּס"
-	},
+	"sefariaHeadword": "פָּס",
+	"headwords": [
+		{
+			"text": "פָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1191,
 		"column": "a"

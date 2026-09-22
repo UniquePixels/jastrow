@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N01158",
-	"slug": "נקבא",
-	"headword": {
-		"text": "נִקְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקְבָּא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִקְבָּא"
 		},
 		{
-			"text": "נוּ׳"
+			"text": "נִי׳",
+			"partial": true
+		},
+		{
+			"text": "נוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 930,
 		"column": "b"

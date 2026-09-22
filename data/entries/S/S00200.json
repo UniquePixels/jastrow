@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00200",
-	"slug": "קדשין",
-	"headword": {
-		"text": "קָדָשִׁין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קָדָשִׁין",
+	"headwords": [
+		{
+			"text": "קָדָשִׁין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1321,
 		"column": "b"

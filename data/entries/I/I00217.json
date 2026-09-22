@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00217",
-	"slug": "טורא-2",
-	"headword": {
-		"text": "טוּרָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*טוּרָא III",
+	"headwords": [
+		{
+			"text": "טוּרָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 526,
 		"column": "a"

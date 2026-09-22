@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02787",
-	"slug": "אפקרסותא",
-	"headword": {
-		"text": "אַפְקְרָסוּתָא"
-	},
+	"sefariaHeadword": "אַפְקְרָסוּתָא",
+	"headwords": [
+		{
+			"text": "אַפְקְרָסוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "b"

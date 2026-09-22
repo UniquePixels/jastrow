@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00581",
-	"slug": "דייתיכוס",
-	"headword": {
-		"text": "דְּיָיּתִּיכוֹס"
-	},
+	"sefariaHeadword": "דְּיָיּתִּיכוֹס",
+	"headwords": [
+		{
+			"text": "דְּיָיּתִּיכוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "a"

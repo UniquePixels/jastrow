@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01000",
-	"slug": "כפורי",
-	"headword": {
-		"text": "כַּפּוֹרֵי"
-	},
+	"sefariaHeadword": "כַּפּוֹרֵי",
+	"headwords": [
+		{
+			"text": "כַּפּוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "a"

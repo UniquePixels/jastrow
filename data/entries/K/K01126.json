@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01126",
-	"slug": "כרוסא",
-	"headword": {
-		"text": "כרוסא"
-	},
+	"sefariaHeadword": "כרוסא",
+	"headwords": [
+		{
+			"text": "כרוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02786",
-	"slug": "מרתוקא",
-	"headword": {
-		"text": "מַרְתּוֹקָא"
-	},
+	"sefariaHeadword": "מַרְתּוֹקָא",
+	"headwords": [
+		{
+			"text": "מַרְתּוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

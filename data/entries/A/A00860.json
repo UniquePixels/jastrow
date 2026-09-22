@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00860",
-	"slug": "אורה-2",
-	"headword": {
-		"text": "אוֹרָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אוֹרָה II",
+	"headwords": [
+		{
+			"text": "אוֹרָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 33,
 		"column": "a"

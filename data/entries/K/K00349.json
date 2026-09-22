@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00349",
-	"slug": "כופראה",
-	"headword": {
-		"text": "כּוּפְרָאָה"
-	},
+	"sefariaHeadword": "כּוּפְרָאָה",
+	"headwords": [
+		{
+			"text": "כּוּפְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "b"

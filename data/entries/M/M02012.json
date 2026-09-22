@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02012",
-	"slug": "מסרביי",
-	"headword": {
-		"text": "מְסַרְבַּיי"
-	},
+	"sefariaHeadword": "מְסַרְבַּיי",
+	"headwords": [
+		{
+			"text": "מְסַרְבַּיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

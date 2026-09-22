@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00066",
-	"slug": "סבך-4",
-	"headword": {
-		"text": "סַבָּךְ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַבָּךְ",
+	"headwords": [
+		{
+			"text": "סַבָּךְ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 950,
 		"column": "a"

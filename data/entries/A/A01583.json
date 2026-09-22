@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01583",
-	"slug": "איצרולוגין",
-	"headword": {
-		"text": "אִיצְרוֹלוֹגִין"
-	},
+	"sefariaHeadword": "אִיצְרוֹלוֹגִין",
+	"headwords": [
+		{
+			"text": "אִיצְרוֹלוֹגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

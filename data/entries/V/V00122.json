@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00122",
-	"slug": "תהי-1",
-	"headword": {
-		"text": "תהי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תהי",
+	"headwords": [
+		{
+			"text": "תהי"
+		},
 		{
 			"text": "תָּהָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תָּהָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1648,
 		"column": "b"

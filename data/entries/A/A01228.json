@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01228",
-	"slug": "איטרטלין",
-	"headword": {
-		"text": "איטרטלין"
-	},
+	"sefariaHeadword": "איטרטלין",
+	"headwords": [
+		{
+			"text": "איטרטלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

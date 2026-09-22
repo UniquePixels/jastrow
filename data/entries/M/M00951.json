@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00951",
-	"slug": "מחתה",
-	"headword": {
-		"text": "מַחְתָּה"
-	},
+	"sefariaHeadword": "מַחְתָּה",
+	"headwords": [
+		{
+			"text": "מַחְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00704",
-	"slug": "צפעון",
-	"headword": {
-		"text": "צִפְעוֹן"
-	},
+	"sefariaHeadword": "צִפְעוֹן",
+	"headwords": [
+		{
+			"text": "צִפְעוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1297,
 		"column": "b"

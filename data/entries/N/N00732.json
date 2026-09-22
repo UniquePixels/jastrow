@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00732",
-	"slug": "ניפוליה",
-	"headword": {
-		"text": "ניפוליה"
-	},
+	"sefariaHeadword": "ניפוליה",
+	"headwords": [
+		{
+			"text": "ניפוליה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

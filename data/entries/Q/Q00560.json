@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00560",
-	"slug": "פטרוקי",
-	"headword": {
-		"text": "פַּטְרוֹקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּטְרוֹקִי",
+	"headwords": [
+		{
+			"text": "פַּטְרוֹקִי"
+		},
 		{
 			"text": "פַּטְרִיקִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1158,
 		"column": "b"

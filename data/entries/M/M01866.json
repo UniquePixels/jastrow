@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01866",
-	"slug": "מסוי",
-	"headword": {
-		"text": "מַסּוֹי"
-	},
+	"sefariaHeadword": "מַסּוֹי",
+	"headwords": [
+		{
+			"text": "מַסּוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

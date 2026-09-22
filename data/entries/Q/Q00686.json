@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00686",
-	"slug": "פילוסופוס",
-	"headword": {
-		"text": "פִּילוֹסוֹפוֹס"
-	},
+	"sefariaHeadword": "פִּילוֹסוֹפוֹס",
+	"headwords": [
+		{
+			"text": "פִּילוֹסוֹפוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

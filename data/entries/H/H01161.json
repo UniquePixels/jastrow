@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01161",
-	"slug": "חמוץ",
-	"headword": {
-		"text": "חִמּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִמּוּץ",
+	"headwords": [
+		{
+			"text": "חִמּוּץ"
+		},
 		{
 			"text": "חִמּוּצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 476,
 		"column": "a"

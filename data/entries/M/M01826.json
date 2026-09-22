@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01826",
-	"slug": "מסא-3",
-	"headword": {
-		"text": "מַסָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַסָּא II",
+	"headwords": [
+		{
+			"text": "מַסָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 803,
 		"column": "a"

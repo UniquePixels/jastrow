@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00674",
-	"slug": "טפף-1",
-	"headword": {
-		"text": "טָפַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טָפַף I",
+	"headwords": [
+		{
+			"text": "טָפַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 548,
 		"column": "b"

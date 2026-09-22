@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00096",
-	"slug": "נבלא-2",
-	"headword": {
-		"text": "נְבֵלָא"
-	},
+	"sefariaHeadword": "נְבֵלָא",
+	"headwords": [
+		{
+			"text": "נְבֵלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 870,
 		"column": "a"

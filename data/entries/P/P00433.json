@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00433",
-	"slug": "עזת",
-	"headword": {
-		"text": "עַזָּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַזָּת",
+	"headwords": [
+		{
+			"text": "עַזָּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

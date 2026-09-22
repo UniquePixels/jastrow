@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00402",
-	"slug": "חון",
-	"headword": {
-		"text": "חוּן"
-	},
+	"sefariaHeadword": "חוּן",
+	"headwords": [
+		{
+			"text": "חוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "b"

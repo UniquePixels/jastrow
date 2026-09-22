@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01431",
-	"slug": "פציחאי",
-	"headword": {
-		"text": "פַּצִּיחָאֵי"
-	},
+	"sefariaHeadword": "פַּצִּיחָאֵי",
+	"headwords": [
+		{
+			"text": "פַּצִּיחָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "a"

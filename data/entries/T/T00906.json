@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00906",
-	"slug": "רעל-2",
-	"headword": {
-		"text": "רְעַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעַל",
+	"headwords": [
+		{
+			"text": "רְעַל"
+		},
 		{
 			"text": "רְעֵל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1487,
 		"column": "b"

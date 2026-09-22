@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00077",
-	"slug": "לביסים",
-	"headword": {
-		"text": "לְבִיסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבִיסִים",
+	"headwords": [
+		{
+			"text": "לְבִיסִים"
+		},
 		{
 			"text": "לְבִיסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 689,
 		"column": "a"

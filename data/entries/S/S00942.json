@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00942",
-	"slug": "קייסא",
-	"headword": {
-		"text": "קַיְיסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַיְיסָא",
+	"headwords": [
+		{
+			"text": "קַיְיסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1359,
 		"column": "b"

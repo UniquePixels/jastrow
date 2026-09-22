@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00271",
-	"slug": "לולבא",
-	"headword": {
-		"text": "לוּלָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּלָבָא",
+	"headwords": [
+		{
+			"text": "לוּלָבָא"
+		},
 		{
 			"text": "לוּלֵיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 699,
 		"column": "a"

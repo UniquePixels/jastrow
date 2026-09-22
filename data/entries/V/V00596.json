@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00596",
-	"slug": "תליתיתי",
-	"headword": {
-		"text": "תְּלֵיתִיתֵי"
-	},
+	"sefariaHeadword": "תְּלֵיתִיתֵי",
+	"headwords": [
+		{
+			"text": "תְּלֵיתִיתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02024",
-	"slug": "אמינטון",
-	"headword": {
-		"text": "אַמְיַנְטוֹן"
-	},
+	"sefariaHeadword": "אַמְיַנְטוֹן",
+	"headwords": [
+		{
+			"text": "אַמְיַנְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "a"

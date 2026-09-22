@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00487",
-	"slug": "גורדייני",
-	"headword": {
-		"text": "גּוֹרְדְּיָינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוֹרְדְּיָינִי",
+	"headwords": [
+		{
+			"text": "גּוֹרְדְּיָינִי"
+		},
 		{
 			"text": "גּוֹרְדְּיָינוֹן"
 		},
 		{
-			"text": "גּוֹרְדְּיָ׳"
+			"text": "גּוֹרְדְּיָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 226,
 		"column": "b"

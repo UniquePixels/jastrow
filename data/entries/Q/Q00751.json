@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00751",
-	"slug": "פיסוק",
-	"headword": {
-		"text": "פִּיסּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסּוּק",
+	"headwords": [
 		{
-			"text": "פִּסּ׳"
+			"text": "פִּיסּוּק"
+		},
+		{
+			"text": "פִּסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1167,
 		"column": "a"

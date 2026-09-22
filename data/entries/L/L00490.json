@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00490",
-	"slug": "ליניא",
-	"headword": {
-		"text": "לִינְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִינְיָא",
+	"headwords": [
+		{
+			"text": "לִינְיָא"
+		},
 		{
 			"text": "לִינְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 708,
 		"column": "b"

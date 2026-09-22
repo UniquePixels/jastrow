@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00302",
-	"slug": "חוטמא",
-	"headword": {
-		"text": "חוּטְמָא"
-	},
+	"sefariaHeadword": "חוּטְמָא",
+	"headwords": [
+		{
+			"text": "חוּטְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 431,
 		"column": "b"

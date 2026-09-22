@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01053",
-	"slug": "נפך",
-	"headword": {
-		"text": "נֹפֶךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֹפֶךְ",
+	"headwords": [
 		{
-			"text": "נוֹ׳"
+			"text": "נֹפֶךְ"
+		},
+		{
+			"text": "נוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 924,
 		"column": "b"

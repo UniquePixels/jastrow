@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01636",
-	"slug": "סרך-3",
-	"headword": {
-		"text": "סֶרֶךְ"
-	},
+	"sefariaHeadword": "סֶרֶךְ",
+	"headwords": [
+		{
+			"text": "סֶרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1028,
 		"column": "a"

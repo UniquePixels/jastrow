@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01925",
-	"slug": "אלס-1",
-	"headword": {
-		"text": "אֲלַס"
-	},
+	"sefariaHeadword": "אֲלַס",
+	"headwords": [
+		{
+			"text": "אֲלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "a"

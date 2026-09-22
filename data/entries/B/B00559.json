@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00559",
-	"slug": "ביונא",
-	"headword": {
-		"text": "בִּיּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיּוּנָא",
+	"headwords": [
+		{
+			"text": "בִּיּוּנָא"
+		},
 		{
 			"text": "בִּיּוּנָנוּתָא"
 		},
@@ -12,9 +13,11 @@
 			"text": "בִּיּוּנְתָּא"
 		},
 		{
-			"text": "בְּיוּ׳"
+			"text": "בְּיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 159,
 		"column": "b"

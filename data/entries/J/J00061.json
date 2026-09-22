@@ -1,13 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "J00061",
-	"slug": "יבם-4",
-	"headword": {
-		"text": "יָבָם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָבָם ²",
+	"headwords": [
 		{
-			"text": "יָי׳"
+			"text": "יָבָם",
+			"disambiguator": 2
+		},
+		{
+			"text": "יָי׳",
+			"partial": true
 		},
 		{
 			"text": "יַבְמָא"
@@ -16,6 +18,7 @@
 			"text": "יְבִימָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 561,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01012",
-	"slug": "בסר-3",
-	"headword": {
-		"text": "בָּסַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בָּסַר II",
+	"headwords": [
+		{
+			"text": "בָּסַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 180,
 		"column": "a"

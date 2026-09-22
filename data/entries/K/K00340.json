@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00340",
-	"slug": "כופיתא",
-	"headword": {
-		"text": "כופיתא"
-	},
+	"sefariaHeadword": "כופיתא",
+	"headwords": [
+		{
+			"text": "כופיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

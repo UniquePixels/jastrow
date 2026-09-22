@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02780",
-	"slug": "אפקלין",
-	"headword": {
-		"text": "אֲפִקְלִין"
-	},
+	"sefariaHeadword": "אֲפִקְלִין",
+	"headwords": [
+		{
+			"text": "אֲפִקְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "a"

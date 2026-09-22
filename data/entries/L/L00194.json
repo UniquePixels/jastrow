@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00194",
-	"slug": "לודא",
-	"headword": {
-		"text": "לוּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּדָא",
+	"headwords": [
+		{
+			"text": "לוּדָא"
+		},
 		{
 			"text": "לוּדָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "לוּדָאָה"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 694,
 		"column": "b"

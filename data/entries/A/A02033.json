@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02033",
-	"slug": "אמלוגין",
-	"headword": {
-		"text": "אמלוגין"
-	},
+	"sefariaHeadword": "אמלוגין",
+	"headwords": [
+		{
+			"text": "אמלוגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "a"

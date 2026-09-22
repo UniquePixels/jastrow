@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00535",
-	"slug": "עיטיין",
-	"headword": {
-		"text": "עֵיטְיַין"
-	},
+	"sefariaHeadword": "עֵיטְיַין",
+	"headwords": [
+		{
+			"text": "עֵיטְיַין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

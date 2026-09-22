@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01417",
-	"slug": "איסטדירא",
-	"headword": {
-		"text": "אִיסְטְדִירָא"
-	},
+	"sefariaHeadword": "אִיסְטְדִירָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְדִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

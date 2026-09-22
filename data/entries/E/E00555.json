@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00555",
-	"slug": "הלילא",
-	"headword": {
-		"text": "הַלֵּילָא"
-	},
+	"sefariaHeadword": "הַלֵּילָא",
+	"headwords": [
+		{
+			"text": "הַלֵּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

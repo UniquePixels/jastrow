@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01082",
-	"slug": "דריאבון",
-	"headword": {
-		"text": "דריאבון"
-	},
+	"sefariaHeadword": "דריאבון",
+	"headwords": [
+		{
+			"text": "דריאבון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00739",
-	"slug": "בירתית",
-	"headword": {
-		"text": "בִּירְתִית"
-	},
+	"sefariaHeadword": "בִּירְתִית",
+	"headwords": [
+		{
+			"text": "בִּירְתִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00818",
-	"slug": "רמייא",
-	"headword": {
-		"text": "רַמְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַמְיָיא",
+	"headwords": [
+		{
+			"text": "רַמְיָיא"
+		},
 		{
 			"text": "רַמְיָיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "רְמַיְיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1483,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00820",
-	"slug": "גירוי",
-	"headword": {
-		"text": "גֵּירוּי"
-	},
+	"sefariaHeadword": "גֵּירוּי",
+	"headwords": [
+		{
+			"text": "גֵּירוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

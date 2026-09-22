@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01387",
-	"slug": "חסיר-1",
-	"headword": {
-		"text": "חָסֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָסֵיר",
+	"headwords": [
+		{
+			"text": "חָסֵיר"
+		},
 		{
 			"text": "חֲסֵירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 487,
 		"column": "b"

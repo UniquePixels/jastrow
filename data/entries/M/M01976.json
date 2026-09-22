@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01976",
-	"slug": "מסננת",
-	"headword": {
-		"text": "מְסַנֶּנֶת"
-	},
+	"sefariaHeadword": "מְסַנֶּנֶת",
+	"headwords": [
+		{
+			"text": "מְסַנֶּנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 809,
 		"column": "b"

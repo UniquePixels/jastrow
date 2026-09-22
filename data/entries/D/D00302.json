@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00302",
-	"slug": "דוסא",
-	"headword": {
-		"text": "דּוֹסָא"
-	},
+	"sefariaHeadword": "דּוֹסָא",
+	"headwords": [
+		{
+			"text": "דּוֹסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

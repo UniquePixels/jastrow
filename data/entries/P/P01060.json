@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01060",
-	"slug": "עפוריים",
-	"headword": {
-		"text": "עפוריים"
-	},
+	"sefariaHeadword": "עפוריים",
+	"headwords": [
+		{
+			"text": "עפוריים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1099,
 		"column": "b"

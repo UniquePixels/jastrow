@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01029",
-	"slug": "בעוט",
-	"headword": {
-		"text": "בְּעוֹט"
-	},
+	"sefariaHeadword": "בְּעוֹט",
+	"headwords": [
+		{
+			"text": "בְּעוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "b"

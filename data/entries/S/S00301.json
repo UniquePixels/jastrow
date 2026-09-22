@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00301",
-	"slug": "קוטנין",
-	"headword": {
-		"text": "קוּטְנִין"
-	},
+	"sefariaHeadword": "קוּטְנִין",
+	"headwords": [
+		{
+			"text": "קוּטְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

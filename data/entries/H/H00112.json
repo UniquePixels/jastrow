@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00112",
-	"slug": "חבר-6",
-	"headword": {
-		"text": "חַבָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַבָּר ²",
+	"headwords": [
+		{
+			"text": "חַבָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "חַבָּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 422,
 		"column": "a"

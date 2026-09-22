@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00478",
-	"slug": "יעדה",
-	"headword": {
-		"text": "יְעָדָה"
-	},
+	"sefariaHeadword": "יְעָדָה",
+	"headwords": [
+		{
+			"text": "יְעָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 584,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00735",
-	"slug": "ניפיורא",
-	"headword": {
-		"text": "נִיפְיוֹרָא"
-	},
+	"sefariaHeadword": "נִיפְיוֹרָא",
+	"headwords": [
+		{
+			"text": "נִיפְיוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

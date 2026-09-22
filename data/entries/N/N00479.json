@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00479",
-	"slug": "נחוש",
-	"headword": {
-		"text": "נִחוּשׁ"
-	},
+	"sefariaHeadword": "נִחוּשׁ",
+	"headwords": [
+		{
+			"text": "נִחוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 893,
 		"column": "b"

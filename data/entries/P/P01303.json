@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01303",
-	"slug": "ערדסקוס",
-	"headword": {
-		"text": "עַרְדַּסְקוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְדַּסְקוֹס",
+	"headwords": [
+		{
+			"text": "עַרְדַּסְקוֹס"
+		},
 		{
 			"text": "עַרְדִּיסְקוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1114,
 		"column": "a"

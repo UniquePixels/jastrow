@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00057",
-	"slug": "חביבי",
-	"headword": {
-		"text": "חֲבִיבַי"
-	},
+	"sefariaHeadword": "חֲבִיבַי",
+	"headwords": [
+		{
+			"text": "חֲבִיבַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

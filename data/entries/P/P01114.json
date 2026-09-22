@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01114",
-	"slug": "עצי",
-	"headword": {
-		"text": "עֲצֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲצֵי",
+	"headwords": [
+		{
+			"text": "עֲצֵי"
+		},
 		{
 			"text": "עֲצָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲצָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1102,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00428",
-	"slug": "חוץ-1",
-	"headword": {
-		"text": "חוּץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חוּץ I",
+	"headwords": [
+		{
+			"text": "חוּץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 437,
 		"column": "b"

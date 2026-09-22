@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01073",
-	"slug": "פלכא",
-	"headword": {
-		"text": "פִּלְכָא"
-	},
+	"sefariaHeadword": "פִּלְכָא",
+	"headwords": [
+		{
+			"text": "פִּלְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "b"

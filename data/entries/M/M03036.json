@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M03036",
-	"slug": "מתורגמן-2",
-	"headword": {
-		"text": "מְתוּרְגְּמָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתוּרְגְּמָן ²",
+	"headwords": [
+		{
+			"text": "מְתוּרְגְּמָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְתוּרְגְּמָנָא"
 		},
 		{
-			"text": "מְתֻרְ׳"
+			"text": "מְתֻרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 861,
 		"column": "a"

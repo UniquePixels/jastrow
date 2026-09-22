@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00031",
-	"slug": "מאיר",
-	"headword": {
-		"text": "מֵאִיר"
-	},
+	"sefariaHeadword": "מֵאִיר",
+	"headwords": [
+		{
+			"text": "מֵאִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "U01059",
-	"slug": "שירא-1",
-	"headword": {
-		"text": "שִׁירָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*שִׁירָא II",
+	"headwords": [
+		{
+			"text": "שִׁירָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1568,
 		"column": "b"

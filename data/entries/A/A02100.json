@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02100",
-	"slug": "אנגיטריס",
-	"headword": {
-		"text": "אנגיטריס"
-	},
+	"sefariaHeadword": "אנגיטריס",
+	"headwords": [
+		{
+			"text": "אנגיטריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

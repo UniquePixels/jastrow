@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00656",
-	"slug": "בינתא-3",
-	"headword": {
-		"text": "בִּינְתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בִּינְתָא II",
+	"headwords": [
+		{
+			"text": "בִּינְתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 163,
 		"column": "b"

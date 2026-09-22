@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01181",
-	"slug": "ברדינין",
-	"headword": {
-		"text": "ברדינין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ברדינין",
+	"headwords": [
+		{
+			"text": "ברדינין"
+		},
 		{
 			"text": "ברדנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 190,
 		"column": "a"

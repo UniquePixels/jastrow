@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00747",
-	"slug": "רכב-3",
-	"headword": {
-		"text": "רַכָּב"
-	},
+	"sefariaHeadword": "רַכָּב",
+	"headwords": [
+		{
+			"text": "רַכָּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "a"

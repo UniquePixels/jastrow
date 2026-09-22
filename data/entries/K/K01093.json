@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01093",
-	"slug": "כרדיטין",
-	"headword": {
-		"text": "כַּרְדִּיטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְדִּיטִין",
+	"headwords": [
 		{
-			"text": "כַּרְדּוּ׳"
+			"text": "כַּרְדִּיטִין"
+		},
+		{
+			"text": "כַּרְדּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 664,
 		"column": "a"

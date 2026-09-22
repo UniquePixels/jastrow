@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00592",
-	"slug": "צמר-2",
-	"headword": {
-		"text": "צַמָּר"
-	},
+	"sefariaHeadword": "צַמָּר",
+	"headwords": [
+		{
+			"text": "צַמָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1289,
 		"column": "b"

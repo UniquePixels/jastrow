@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01780",
-	"slug": "פרטרא",
-	"headword": {
-		"text": "פַּרְטֵרָא"
-	},
+	"sefariaHeadword": "פַּרְטֵרָא",
+	"headwords": [
+		{
+			"text": "פַּרְטֵרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

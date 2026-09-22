@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00286",
-	"slug": "דומינקי",
-	"headword": {
-		"text": "דּוֹמִינְקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹמִינְקֵי",
+	"headwords": [
+		{
+			"text": "דּוֹמִינְקֵי"
+		},
 		{
 			"text": "דּוֹמְנִיקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 286,
 		"column": "b"

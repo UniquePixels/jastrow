@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00728",
-	"slug": "בירלא",
-	"headword": {
-		"text": "בִּירְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּירְלָא",
+	"headwords": [
+		{
+			"text": "בִּירְלָא"
+		},
 		{
 			"text": "בּוּרְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 166,
 		"column": "b"

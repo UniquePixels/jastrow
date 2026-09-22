@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00857",
-	"slug": "סירסור",
-	"headword": {
-		"text": "סִירְסוּר"
-	},
+	"sefariaHeadword": "סִירְסוּר",
+	"headwords": [
+		{
+			"text": "סִירְסוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

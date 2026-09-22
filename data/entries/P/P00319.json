@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00319",
-	"slug": "עופל",
-	"headword": {
-		"text": "עוֹפֶל"
-	},
+	"sefariaHeadword": "עוֹפֶל",
+	"headwords": [
+		{
+			"text": "עוֹפֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "b"

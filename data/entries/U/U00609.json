@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00609",
-	"slug": "שזרתא",
-	"headword": {
-		"text": "שֵׁזַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁזַרְתָּא",
+	"headwords": [
 		{
-			"text": "שִׁ׳"
+			"text": "שֵׁזַרְתָּא"
 		},
 		{
-			"text": "שֵׁי׳"
+			"text": "שִׁ׳",
+			"partial": true
+		},
+		{
+			"text": "שֵׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1545,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00656",
-	"slug": "ריסא-1",
-	"headword": {
-		"text": "רֵיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיסָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רֵיסָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1475,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00595",
-	"slug": "פיהי",
-	"headword": {
-		"text": "פִּיהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיהֵי",
+	"headwords": [
+		{
+			"text": "פִּיהֵי"
+		},
 		{
 			"text": "פִּהֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "b"

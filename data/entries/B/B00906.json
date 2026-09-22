@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00906",
-	"slug": "בלצא",
-	"headword": {
-		"text": "בַּלְצָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּלְצָא",
+	"headwords": [
+		{
+			"text": "בַּלְצָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 175,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00215",
-	"slug": "מגרופית",
-	"headword": {
-		"text": "מַגְרוֹפִית"
-	},
+	"sefariaHeadword": "מַגְרוֹפִית",
+	"headwords": [
+		{
+			"text": "מַגְרוֹפִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

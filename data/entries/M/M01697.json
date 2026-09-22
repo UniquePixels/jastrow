@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M01697",
-	"slug": "מן-6",
-	"headword": {
-		"text": "מָן",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָן III",
+	"headwords": [
+		{
+			"text": "מָן",
+			"homograph": 3
+		},
 		{
 			"text": "מָנָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 796,
 		"column": "b"

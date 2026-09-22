@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00291",
-	"slug": "עון-2",
-	"headword": {
-		"text": "עוּן"
-	},
+	"sefariaHeadword": "עוּן",
+	"headwords": [
+		{
+			"text": "עוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02167",
-	"slug": "פתילה",
-	"headword": {
-		"text": "פְּתִילָה"
-	},
+	"sefariaHeadword": "פְּתִילָה",
+	"headwords": [
+		{
+			"text": "פְּתִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

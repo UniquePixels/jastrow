@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00538",
-	"slug": "תכל-1",
-	"headword": {
-		"text": "תְּכַל"
-	},
+	"sefariaHeadword": "תְּכַל",
+	"headwords": [
+		{
+			"text": "תְּכַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

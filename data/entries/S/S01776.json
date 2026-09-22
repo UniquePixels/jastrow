@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01776",
-	"slug": "קפת",
-	"headword": {
-		"text": "קפת"
-	},
+	"sefariaHeadword": "קפת",
+	"headwords": [
+		{
+			"text": "קפת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1403,
 		"column": "b"

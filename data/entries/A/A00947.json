@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00947",
-	"slug": "אותניתיה",
-	"headword": {
-		"text": "אותניתיה"
-	},
+	"sefariaHeadword": "אותניתיה",
+	"headwords": [
+		{
+			"text": "אותניתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

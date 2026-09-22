@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01056",
-	"slug": "אחרינא",
-	"headword": {
-		"text": "אַחֲרִינָא"
-	},
+	"sefariaHeadword": "אַחֲרִינָא",
+	"headwords": [
+		{
+			"text": "אַחֲרִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 41,
 		"column": "b"

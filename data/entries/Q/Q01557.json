@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01557",
-	"slug": "פרגזתא",
-	"headword": {
-		"text": "פַּרְגַּזְתָּא"
-	},
+	"sefariaHeadword": "פַּרְגַּזְתָּא",
+	"headwords": [
+		{
+			"text": "פַּרְגַּזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "a"

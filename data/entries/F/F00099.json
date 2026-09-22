@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00099",
-	"slug": "ות-2",
-	"headword": {
-		"text": "וַתְּ"
-	},
+	"sefariaHeadword": "וַתְּ",
+	"headwords": [
+		{
+			"text": "וַתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

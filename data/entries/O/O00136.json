@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00136",
-	"slug": "סגילריא",
-	"headword": {
-		"text": "סְגִילָרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגִילָרְיָא",
+	"headwords": [
+		{
+			"text": "סְגִילָרְיָא"
+		},
 		{
 			"text": "סְגִילָרְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 954,
 		"column": "b"

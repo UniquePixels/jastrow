@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00017",
-	"slug": "כאיצד",
-	"headword": {
-		"text": "כְּאֵיצַד"
-	},
+	"sefariaHeadword": "כְּאֵיצַד",
+	"headwords": [
+		{
+			"text": "כְּאֵיצַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

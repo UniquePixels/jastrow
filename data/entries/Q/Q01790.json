@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01790",
-	"slug": "פרידא-2",
-	"headword": {
-		"text": "פְּרִידָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּרִידָא II",
+	"headwords": [
+		{
+			"text": "פְּרִידָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1226,
 		"column": "a"

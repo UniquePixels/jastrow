@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00044",
-	"slug": "כבוסה",
-	"headword": {
-		"text": "כְּבוּסָה"
-	},
+	"sefariaHeadword": "כְּבוּסָה",
+	"headwords": [
+		{
+			"text": "כְּבוּסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

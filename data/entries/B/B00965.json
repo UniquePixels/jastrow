@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00965",
-	"slug": "בנריות",
-	"headword": {
-		"text": "בַּנְּרִיּוֹת"
-	},
+	"sefariaHeadword": "בַּנְּרִיּוֹת",
+	"headwords": [
+		{
+			"text": "בַּנְּרִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

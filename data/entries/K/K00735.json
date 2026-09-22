@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00735",
-	"slug": "כלילאי",
-	"headword": {
-		"text": "כְּלִילָאֵי"
-	},
+	"sefariaHeadword": "כְּלִילָאֵי",
+	"headwords": [
+		{
+			"text": "כְּלִילָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00260",
-	"slug": "זיאר",
-	"headword": {
-		"text": "זִיאֵר"
-	},
+	"sefariaHeadword": "זִיאֵר",
+	"headwords": [
+		{
+			"text": "זִיאֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

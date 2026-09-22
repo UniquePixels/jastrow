@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B01281",
-	"slug": "בריש",
-	"headword": {
-		"text": "בריש",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בריש",
+	"headwords": [
 		{
-			"text": "פילי בריש"
+			"text": "בריש",
+			"reconstructed": true
+		},
+		{
+			"text": "פילי ב׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 194,
 		"column": "b"

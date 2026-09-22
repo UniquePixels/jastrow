@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00522",
-	"slug": "טלף-2",
-	"headword": {
-		"text": "טְלַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְלַף",
+	"headwords": [
+		{
+			"text": "טְלַף"
+		},
 		{
 			"text": "טַלְפָא"
 		},
 		{
-			"text": "טִילְ׳"
+			"text": "טִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 538,
 		"column": "a"

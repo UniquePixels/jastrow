@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01850",
-	"slug": "פרכואי",
-	"headword": {
-		"text": "פַּרְכְּוָאֵי"
-	},
+	"sefariaHeadword": "פַּרְכְּוָאֵי",
+	"headwords": [
+		{
+			"text": "פַּרְכְּוָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "a"

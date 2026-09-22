@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00814",
-	"slug": "דלוב",
-	"headword": {
-		"text": "דְּלוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלוּב",
+	"headwords": [
+		{
+			"text": "דְּלוּב"
+		},
 		{
 			"text": "דּוּלְבָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 309,
 		"column": "a"

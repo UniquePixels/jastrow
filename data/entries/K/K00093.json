@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00093",
-	"slug": "כבשת",
-	"headword": {
-		"text": "כַּבֶּשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּבֶּשֶׁת",
+	"headwords": [
 		{
-			"text": "כּוּבֶּ׳"
+			"text": "כַּבֶּשֶׁת"
+		},
+		{
+			"text": "כּוּבֶּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 612,
 		"column": "a"

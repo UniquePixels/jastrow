@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00790",
-	"slug": "גיפא",
-	"headword": {
-		"text": "גַּיָּפָא"
-	},
+	"sefariaHeadword": "גַּיָּפָא",
+	"headwords": [
+		{
+			"text": "גַּיָּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00054",
-	"slug": "נבוכדנאצר",
-	"headword": {
-		"text": "נְבוּכַדְנֶאצַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבוּכַדְנֶאצַּר",
+	"headwords": [
+		{
+			"text": "נְבוּכַדְנֶאצַּר"
+		},
 		{
 			"text": "נְבוּכַדְנֶצַּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 867,
 		"column": "b"

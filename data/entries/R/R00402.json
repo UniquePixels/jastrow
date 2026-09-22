@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "R00402",
-	"slug": "ציפא-2",
-	"headword": {
-		"text": "צִיפָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפָּא II",
+	"headwords": [
+		{
+			"text": "צִיפָּא",
+			"homograph": 2
+		},
 		{
 			"text": "צֵיפָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "צֵפָא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1278,
 		"column": "a"

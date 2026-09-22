@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01535",
-	"slug": "שמריי",
-	"headword": {
-		"text": "שַׁמְרַיי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁמְרַיי",
+	"headwords": [
+		{
+			"text": "שַׁמְרַיי"
+		},
 		{
 			"text": "שַׁמְרַאי"
 		},
@@ -12,6 +13,7 @@
 			"text": "שֹׁמְרוֹנָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1601,
 		"column": "b"

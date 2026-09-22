@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00560",
-	"slug": "דיין-1",
-	"headword": {
-		"text": "דַּיָּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיָּין",
+	"headwords": [
+		{
+			"text": "דַּיָּין"
+		},
 		{
 			"text": "דַּיָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 298,
 		"column": "b"

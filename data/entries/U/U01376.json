@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01376",
-	"slug": "שלפופי",
-	"headword": {
-		"text": "שַׁלְפּוּפֵי"
-	},
+	"sefariaHeadword": "שַׁלְפּוּפֵי",
+	"headwords": [
+		{
+			"text": "שַׁלְפּוּפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "a"

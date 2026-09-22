@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "S01588",
-	"slug": "קנין-2",
-	"headword": {
-		"text": "קִנְיָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְיָן ²",
+	"headwords": [
+		{
+			"text": "קִנְיָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִנְיָנָא"
 		},
 		{
-			"text": "קִנְיָי׳"
+			"text": "קִנְיָי׳",
+			"partial": true
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1393,
 		"column": "a"

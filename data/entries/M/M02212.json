@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02212",
-	"slug": "מפיחנא",
-	"headword": {
-		"text": "מפיחנא"
-	},
+	"sefariaHeadword": "מפיחנא",
+	"headwords": [
+		{
+			"text": "מפיחנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

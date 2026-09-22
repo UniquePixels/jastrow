@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00420",
-	"slug": "ליבנוס",
-	"headword": {
-		"text": "לִיבְנוֹס"
-	},
+	"sefariaHeadword": "לִיבְנוֹס",
+	"headwords": [
+		{
+			"text": "לִיבְנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

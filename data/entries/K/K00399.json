@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00399",
-	"slug": "כוש-2",
-	"headword": {
-		"text": "כּוּשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כּוּשׁ II",
+	"headwords": [
+		{
+			"text": "כּוּשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 626,
 		"column": "a"

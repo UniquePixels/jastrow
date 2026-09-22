@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00927",
-	"slug": "קייט",
-	"headword": {
-		"text": "קַיָּיט"
-	},
+	"sefariaHeadword": "קַיָּיט",
+	"headwords": [
+		{
+			"text": "קַיָּיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1358,
 		"column": "b"

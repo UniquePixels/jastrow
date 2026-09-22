@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00170",
-	"slug": "קדר-3",
-	"headword": {
-		"text": "קָדַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָדַר II",
+	"headwords": [
+		{
+			"text": "קָדַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1318,
 		"column": "a"

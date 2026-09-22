@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00967",
-	"slug": "אזורא",
-	"headword": {
-		"text": "אֵזוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵזוֹרָא",
+	"headwords": [
+		{
+			"text": "אֵזוֹרָא"
+		},
 		{
 			"text": "אֵיזוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 37,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00351",
-	"slug": "גוזניא",
-	"headword": {
-		"text": "גַּוְזַנְיָא"
-	},
+	"sefariaHeadword": "גַּוְזַנְיָא",
+	"headwords": [
+		{
+			"text": "גַּוְזַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00774",
-	"slug": "שי-1",
-	"headword": {
-		"text": "שַׁי"
-	},
+	"sefariaHeadword": "שַׁי",
+	"headwords": [
+		{
+			"text": "שַׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "a"

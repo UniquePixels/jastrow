@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02822",
-	"slug": "משוח-1",
-	"headword": {
-		"text": "מָשׁוּחַ"
-	},
+	"sefariaHeadword": "מָשׁוּחַ",
+	"headwords": [
+		{
+			"text": "מָשׁוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "b"

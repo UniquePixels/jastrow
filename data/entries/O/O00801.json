@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00801",
-	"slug": "סיפסלה",
-	"headword": {
-		"text": "סִיפְסְלָה"
-	},
+	"sefariaHeadword": "סִיפְסְלָה",
+	"headwords": [
+		{
+			"text": "סִיפְסְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02387",
-	"slug": "מקובא",
-	"headword": {
-		"text": "מַקּוּבָא"
-	},
+	"sefariaHeadword": "מַקּוּבָא",
+	"headwords": [
+		{
+			"text": "מַקּוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "b"

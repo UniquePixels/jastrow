@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01165",
-	"slug": "מילא-5",
-	"headword": {
-		"text": "מִילָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִילָּא II",
+	"headwords": [
+		{
+			"text": "מִילָּא",
+			"homograph": 2
+		},
 		{
 			"text": "מִלָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "מִלָּה"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 774,
 		"column": "a"

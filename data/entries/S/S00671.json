@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00671",
-	"slug": "קושקר",
-	"headword": {
-		"text": "קַוְשֶׁקֶר"
-	},
+	"sefariaHeadword": "קַוְשֶׁקֶר",
+	"headwords": [
+		{
+			"text": "קַוְשֶׁקֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1345,
 		"column": "a"

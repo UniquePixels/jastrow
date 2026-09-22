@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00024",
-	"slug": "שאילא",
-	"headword": {
-		"text": "שְׁאֵילָא"
-	},
+	"sefariaHeadword": "שְׁאֵילָא",
+	"headwords": [
+		{
+			"text": "שְׁאֵילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

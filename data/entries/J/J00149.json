@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00149",
-	"slug": "יואש",
-	"headword": {
-		"text": "יוֹאָשׁ"
-	},
+	"sefariaHeadword": "יוֹאָשׁ",
+	"headwords": [
+		{
+			"text": "יוֹאָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02548",
-	"slug": "אסקריטי",
-	"headword": {
-		"text": "אסקריטי"
-	},
+	"sefariaHeadword": "אסקריטי",
+	"headwords": [
+		{
+			"text": "אסקריטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01610",
-	"slug": "אירימיאה",
-	"headword": {
-		"text": "אֱירֵימִיאָה"
-	},
+	"sefariaHeadword": "אֱירֵימִיאָה",
+	"headwords": [
+		{
+			"text": "אֱירֵימִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

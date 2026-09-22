@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K01276",
-	"slug": "כרשינה-2",
-	"headword": {
-		"text": "כַּרְשִׁינָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְשִׁינָה II",
+	"headwords": [
+		{
+			"text": "כַּרְשִׁינָה",
+			"homograph": 2
+		},
 		{
 			"text": "כַּרְשִׁינָא",
 			"homograph": 3
 		}
 	],
+	"display": "{0} II, ({1} III)",
 	"page": {
 		"number": 673,
 		"column": "b"

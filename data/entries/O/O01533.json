@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01533",
-	"slug": "סרגל-3",
-	"headword": {
-		"text": "סַרְגֵּל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סַרְגֵּל ²",
+	"headwords": [
+		{
+			"text": "סַרְגֵּל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1023,
 		"column": "a"

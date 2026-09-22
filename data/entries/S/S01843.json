@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01843",
-	"slug": "קצצתא-2",
-	"headword": {
-		"text": "קְצַצְתָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְצַצְתָּא II",
+	"headwords": [
+		{
+			"text": "קְצַצְתָּא",
+			"homograph": 2
+		},
 		{
 			"text": "קְצַצְתָּה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1408,
 		"column": "a"

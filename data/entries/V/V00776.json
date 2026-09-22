@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00776",
-	"slug": "תעה",
-	"headword": {
-		"text": "תָּעָה"
-	},
+	"sefariaHeadword": "תָּעָה",
+	"headwords": [
+		{
+			"text": "תָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1683,
 		"column": "b"

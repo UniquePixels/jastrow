@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00915",
-	"slug": "תקרובתא",
-	"headword": {
-		"text": "תִּקְרוּבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּקְרוּבְתָּא",
+	"headwords": [
 		{
-			"text": "תִּיקְ׳"
+			"text": "תִּקְרוּבְתָּא"
+		},
+		{
+			"text": "תִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1694,
 		"column": "b"

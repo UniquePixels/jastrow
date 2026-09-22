@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S02020",
-	"slug": "קרי-4",
-	"headword": {
-		"text": "קרי",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קרי ³",
+	"headwords": [
+		{
+			"text": "קרי",
+			"disambiguator": 3
+		},
 		{
 			"text": "קָרָה",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "קָרָא"
 		}
 	],
+	"display": "{0} ³, {1} I, ({2})",
 	"page": {
 		"number": 1418,
 		"column": "b"

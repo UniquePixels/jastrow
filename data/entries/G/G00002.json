@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00002",
-	"slug": "זאזא",
-	"headword": {
-		"text": "זָאזָא"
-	},
+	"sefariaHeadword": "זָאזָא",
+	"headwords": [
+		{
+			"text": "זָאזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "a"

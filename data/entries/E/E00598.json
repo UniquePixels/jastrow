@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00598",
-	"slug": "המון-2",
-	"headword": {
-		"text": "הָמוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָמוֹן ²",
+	"headwords": [
+		{
+			"text": "הָמוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "הֲמוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 354,
 		"column": "b"

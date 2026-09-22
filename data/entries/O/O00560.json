@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00560",
-	"slug": "סיגים",
-	"headword": {
-		"text": "סיגים"
-	},
+	"sefariaHeadword": "סיגים",
+	"headwords": [
+		{
+			"text": "סיגים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "b"

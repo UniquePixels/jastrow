@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00303",
-	"slug": "רובה-3",
-	"headword": {
-		"text": "רוֹבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוֹבָה",
+	"headwords": [
+		{
+			"text": "רוֹבָה"
+		},
 		{
 			"text": "רוֹבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1455,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01299",
-	"slug": "נשט",
-	"headword": {
-		"text": "נְשַׁט"
-	},
+	"sefariaHeadword": "נְשַׁט",
+	"headwords": [
+		{
+			"text": "נְשַׁט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

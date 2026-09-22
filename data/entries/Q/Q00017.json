@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00017",
-	"slug": "פאנקין",
-	"headword": {
-		"text": "פאנקין"
-	},
+	"sefariaHeadword": "פאנקין",
+	"headwords": [
+		{
+			"text": "פאנקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

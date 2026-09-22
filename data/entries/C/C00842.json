@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00842",
-	"slug": "גישה",
-	"headword": {
-		"text": "גִּישָׁה"
-	},
+	"sefariaHeadword": "גִּישָׁה",
+	"headwords": [
+		{
+			"text": "גִּישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

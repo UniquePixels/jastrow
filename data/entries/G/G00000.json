@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00000",
-	"slug": "ז",
-	"headword": {
-		"text": "ז"
-	},
+	"sefariaHeadword": "ז",
+	"headwords": [
+		{
+			"text": "ז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "a"

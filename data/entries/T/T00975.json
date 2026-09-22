@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00975",
-	"slug": "רצוי",
-	"headword": {
-		"text": "רִצּוּי"
-	},
+	"sefariaHeadword": "רִצּוּי",
+	"headwords": [
+		{
+			"text": "רִצּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "b"

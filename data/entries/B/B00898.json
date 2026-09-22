@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00898",
-	"slug": "בלע-1",
-	"headword": {
-		"text": "בָּלַע"
-	},
+	"sefariaHeadword": "בָּלַע",
+	"headwords": [
+		{
+			"text": "בָּלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "b"

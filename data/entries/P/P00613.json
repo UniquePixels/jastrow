@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00613",
-	"slug": "עינויא-1",
-	"headword": {
-		"text": "עִינּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינּוּיָא",
+	"headwords": [
+		{
+			"text": "עִינּוּיָא"
+		},
 		{
 			"text": "עִנּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1072,
 		"column": "b"

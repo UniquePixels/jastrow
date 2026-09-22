@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00976",
-	"slug": "פלומא",
-	"headword": {
-		"text": "פְּלוּמָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פְּלוּמָא",
+	"headwords": [
+		{
+			"text": "פְּלוּמָא",
+			"reconstructed": true
+		},
 		{
 			"text": "פְּלוּמָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1177,
 		"column": "b"

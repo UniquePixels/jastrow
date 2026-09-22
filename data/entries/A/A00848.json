@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00848",
-	"slug": "אורבא",
-	"headword": {
-		"text": "אוּרְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּרְבָּא",
+	"headwords": [
+		{
+			"text": "אוּרְבָּא"
+		},
 		{
 			"text": "אָרְבָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 33,
 		"column": "a"

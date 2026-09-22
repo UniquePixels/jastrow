@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01080",
-	"slug": "בצוצרה",
-	"headword": {
-		"text": "בְּצוֹצְרָה"
-	},
+	"sefariaHeadword": "בְּצוֹצְרָה",
+	"headwords": [
+		{
+			"text": "בְּצוֹצְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "b"

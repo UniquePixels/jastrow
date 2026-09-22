@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K00981",
-	"slug": "כף-4",
-	"headword": {
-		"text": "כַּף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּף ²",
+	"headwords": [
+		{
+			"text": "כַּף",
+			"disambiguator": 2
+		},
 		{
 			"text": "כַּפָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 657,
 		"column": "a"

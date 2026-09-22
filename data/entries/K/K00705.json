@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00705",
-	"slug": "כלונוס",
-	"headword": {
-		"text": "כלונוס"
-	},
+	"sefariaHeadword": "כלונוס",
+	"headwords": [
+		{
+			"text": "כלונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "b"

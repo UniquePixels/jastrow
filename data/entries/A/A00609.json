@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00609",
-	"slug": "אוזפותא",
-	"headword": {
-		"text": "אוֹזָפוּתָא"
-	},
+	"sefariaHeadword": "אוֹזָפוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹזָפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00363",
-	"slug": "חולץ",
-	"headword": {
-		"text": "חוֹלֵץ"
-	},
+	"sefariaHeadword": "חוֹלֵץ",
+	"headwords": [
+		{
+			"text": "חוֹלֵץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

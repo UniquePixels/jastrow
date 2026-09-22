@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02737",
-	"slug": "אפלטור",
-	"headword": {
-		"text": "אַפְלָטוֹר"
-	},
+	"sefariaHeadword": "אַפְלָטוֹר",
+	"headwords": [
+		{
+			"text": "אַפְלָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "b"

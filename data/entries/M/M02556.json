@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02556",
-	"slug": "מרדעא",
-	"headword": {
-		"text": "מַרְדְּעָא"
-	},
+	"sefariaHeadword": "מַרְדְּעָא",
+	"headwords": [
+		{
+			"text": "מַרְדְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

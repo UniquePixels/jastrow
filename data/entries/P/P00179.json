@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00179",
-	"slug": "עוביא",
-	"headword": {
-		"text": "עוּבְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּבְיָא",
+	"headwords": [
+		{
+			"text": "עוּבְיָא"
+		},
 		{
 			"text": "עוּבְיָה"
 		},
 		{
-			"text": "עוּבְיָי׳"
+			"text": "עוּבְיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1047,
 		"column": "a"

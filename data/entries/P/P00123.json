@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00123",
-	"slug": "עדה-1",
-	"headword": {
-		"text": "עֵדָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֵדָה I",
+	"headwords": [
+		{
+			"text": "עֵדָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1043,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00664",
-	"slug": "ככר-2",
-	"headword": {
-		"text": "כִּכָּר"
-	},
+	"sefariaHeadword": "כִּכָּר",
+	"headwords": [
+		{
+			"text": "כִּכָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "a"

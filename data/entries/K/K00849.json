@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00849",
-	"slug": "כני-1",
-	"headword": {
-		"text": "כני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כני",
+	"headwords": [
+		{
+			"text": "כני"
+		},
 		{
 			"text": "כָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 648,
 		"column": "b"

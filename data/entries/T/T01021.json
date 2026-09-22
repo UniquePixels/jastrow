@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01021",
-	"slug": "רקדנין",
-	"headword": {
-		"text": "רקדנין"
-	},
+	"sefariaHeadword": "רקדנין",
+	"headwords": [
+		{
+			"text": "רקדנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

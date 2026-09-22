@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00343",
-	"slug": "לחי-2",
-	"headword": {
-		"text": "לֶחִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֶחִי II",
+	"headwords": [
+		{
+			"text": "לֶחִי",
+			"homograph": 2
+		},
 		{
 			"text": "לְחִי"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 702,
 		"column": "b"

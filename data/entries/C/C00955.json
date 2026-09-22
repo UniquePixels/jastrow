@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00955",
-	"slug": "גליפה",
-	"headword": {
-		"text": "גְּלִיפָה"
-	},
+	"sefariaHeadword": "גְּלִיפָה",
+	"headwords": [
+		{
+			"text": "גְּלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "b"

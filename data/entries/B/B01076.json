@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01076",
-	"slug": "בצבץ-2",
-	"headword": {
-		"text": "בַּצְבֵּץ"
-	},
+	"sefariaHeadword": "בַּצְבֵּץ",
+	"headwords": [
+		{
+			"text": "בַּצְבֵּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00979",
-	"slug": "אזמל",
-	"headword": {
-		"text": "אִזְמֵל"
-	},
+	"sefariaHeadword": "אִזְמֵל",
+	"headwords": [
+		{
+			"text": "אִזְמֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

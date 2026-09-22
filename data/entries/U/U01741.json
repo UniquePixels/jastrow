@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01741",
-	"slug": "שפיות",
-	"headword": {
-		"text": "שִׁפְיוּת"
-	},
+	"sefariaHeadword": "שִׁפְיוּת",
+	"headwords": [
+		{
+			"text": "שִׁפְיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1615,
 		"column": "b"

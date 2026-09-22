@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01261",
-	"slug": "נרגילא",
-	"headword": {
-		"text": "נַרְגִּילָא"
-	},
+	"sefariaHeadword": "נַרְגִּילָא",
+	"headwords": [
+		{
+			"text": "נַרְגִּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

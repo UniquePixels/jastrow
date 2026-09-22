@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00446",
-	"slug": "ינק-2",
-	"headword": {
-		"text": "יְנַק"
-	},
+	"sefariaHeadword": "יְנַק",
+	"headwords": [
+		{
+			"text": "יְנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 581,
 		"column": "b"

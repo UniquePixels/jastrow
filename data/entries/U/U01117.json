@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01117",
-	"slug": "שכבא",
-	"headword": {
-		"text": "שִׁכְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכְבָּא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁכְבָּא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1571,
 		"column": "a"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H01222",
-	"slug": "חמר-5",
-	"headword": {
-		"text": "חֲמַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמַר III",
+	"headwords": [
+		{
+			"text": "חֲמַר",
+			"homograph": 3
+		},
 		{
 			"text": "חַמְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 480,
 		"column": "a"

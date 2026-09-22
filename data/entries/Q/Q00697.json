@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00697",
-	"slug": "פיליא-2",
-	"headword": {
-		"text": "פיליא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פיליא",
+	"headwords": [
 		{
-			"text": "פיליא ביארי"
+			"text": "פיליא"
+		},
+		{
+			"text": "פ׳ ביארי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1164,
 		"column": "b"

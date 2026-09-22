@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01100",
-	"slug": "כרו",
-	"headword": {
-		"text": "כרו"
-	},
+	"sefariaHeadword": "כרו",
+	"headwords": [
+		{
+			"text": "כרו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "b"

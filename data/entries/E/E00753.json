@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00753",
-	"slug": "הפסדא",
-	"headword": {
-		"text": "הֶפְסֵדָא"
-	},
+	"sefariaHeadword": "הֶפְסֵדָא",
+	"headwords": [
+		{
+			"text": "הֶפְסֵדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "a"

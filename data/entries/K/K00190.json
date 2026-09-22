@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00190",
-	"slug": "כובלת",
-	"headword": {
-		"text": "כּוֹבֶלֶת"
-	},
+	"sefariaHeadword": "כּוֹבֶלֶת",
+	"headwords": [
+		{
+			"text": "כּוֹבֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

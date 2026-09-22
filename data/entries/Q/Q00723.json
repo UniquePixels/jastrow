@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00723",
-	"slug": "פינולס",
-	"headword": {
-		"text": "פִּינוֹלֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינוֹלֵס",
+	"headwords": [
+		{
+			"text": "פִּינוֹלֵס"
+		},
 		{
 			"text": "פִּילוֹנֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

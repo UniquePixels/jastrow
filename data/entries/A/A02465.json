@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02465",
-	"slug": "אסלי",
-	"headword": {
-		"text": "אַסְלֵי"
-	},
+	"sefariaHeadword": "אַסְלֵי",
+	"headwords": [
+		{
+			"text": "אַסְלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "b"

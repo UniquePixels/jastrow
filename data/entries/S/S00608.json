@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00608",
-	"slug": "קורייטי",
-	"headword": {
-		"text": "קוּרְיָיטֵי"
-	},
+	"sefariaHeadword": "קוּרְיָיטֵי",
+	"headwords": [
+		{
+			"text": "קוּרְיָיטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

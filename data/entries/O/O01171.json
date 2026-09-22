@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01171",
-	"slug": "סנגוריא",
-	"headword": {
-		"text": "סנגוריא"
-	},
+	"sefariaHeadword": "סנגוריא",
+	"headwords": [
+		{
+			"text": "סנגוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

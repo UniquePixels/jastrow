@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00499",
-	"slug": "חותמא",
-	"headword": {
-		"text": "חוֹתָמָא"
-	},
+	"sefariaHeadword": "חוֹתָמָא",
+	"headwords": [
+		{
+			"text": "חוֹתָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "a"

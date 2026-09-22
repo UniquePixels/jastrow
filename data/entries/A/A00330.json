@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00330",
-	"slug": "אגף-1",
-	"headword": {
-		"text": "אָגַף"
-	},
+	"sefariaHeadword": "אָגַף",
+	"headwords": [
+		{
+			"text": "אָגַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

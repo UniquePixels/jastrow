@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00348",
-	"slug": "שווטא",
-	"headword": {
-		"text": "שְׁוָוטָא"
-	},
+	"sefariaHeadword": "שְׁוָוטָא",
+	"headwords": [
+		{
+			"text": "שְׁוָוטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "a"

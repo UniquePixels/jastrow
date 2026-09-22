@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01126",
-	"slug": "עצלן",
-	"headword": {
-		"text": "עַצְּלָן"
-	},
+	"sefariaHeadword": "עַצְּלָן",
+	"headwords": [
+		{
+			"text": "עַצְּלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "b"

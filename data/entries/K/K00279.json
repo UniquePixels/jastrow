@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00279",
-	"slug": "כולניתא",
-	"headword": {
-		"text": "כּוּלְנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּלְנִיתָא",
+	"headwords": [
+		{
+			"text": "כּוּלְנִיתָא"
+		},
 		{
 			"text": "כַּלְנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 620,
 		"column": "b"

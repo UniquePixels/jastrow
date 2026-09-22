@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01967",
-	"slug": "קרח-2",
-	"headword": {
-		"text": "קֵרֵחַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קֵרֵחַ ²",
+	"headwords": [
+		{
+			"text": "קֵרֵחַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1415,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01018",
-	"slug": "מטלתא",
-	"headword": {
-		"text": "מְטַלְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְטַלְּתָא",
+	"headwords": [
+		{
+			"text": "מְטַלְּתָא"
+		},
 		{
 			"text": "מַטְלְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 768,
 		"column": "b"

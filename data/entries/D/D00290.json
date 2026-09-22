@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00290",
-	"slug": "דומסיא",
-	"headword": {
-		"text": "דומסיא"
-	},
+	"sefariaHeadword": "דומסיא",
+	"headwords": [
+		{
+			"text": "דומסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00231",
-	"slug": "בוטיטה",
-	"headword": {
-		"text": "בּוֹטִיטָה"
-	},
+	"sefariaHeadword": "בּוֹטִיטָה",
+	"headwords": [
+		{
+			"text": "בּוֹטִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00378",
-	"slug": "רומא-1",
-	"headword": {
-		"text": "רוּמָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רוּמָא II",
+	"headwords": [
+		{
+			"text": "רוּמָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1460,
 		"column": "b"

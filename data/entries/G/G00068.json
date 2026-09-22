@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00068",
-	"slug": "זגנוגאל",
-	"headword": {
-		"text": "זגנוגאל"
-	},
+	"sefariaHeadword": "זגנוגאל",
+	"headwords": [
+		{
+			"text": "זגנוגאל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "b"

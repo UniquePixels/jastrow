@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00567",
-	"slug": "חזרינותא",
-	"headword": {
-		"text": "חזרינותא"
-	},
+	"sefariaHeadword": "חזרינותא",
+	"headwords": [
+		{
+			"text": "חזרינותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

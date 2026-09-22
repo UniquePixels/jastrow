@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01243",
-	"slug": "קלאפנדר",
-	"headword": {
-		"text": "קְלָאפַנְדָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלָאפַנְדָּר",
+	"headwords": [
 		{
-			"text": "קְלָפַ׳"
+			"text": "קְלָאפַנְדָּר"
+		},
+		{
+			"text": "קְלָפַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1372,
 		"column": "a"

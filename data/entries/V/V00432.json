@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00432",
-	"slug": "תיטא",
-	"headword": {
-		"text": "תִּיטָא"
-	},
+	"sefariaHeadword": "תִּיטָא",
+	"headwords": [
+		{
+			"text": "תִּיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

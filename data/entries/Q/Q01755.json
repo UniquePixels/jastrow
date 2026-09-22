@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01755",
-	"slug": "פרח-2",
-	"headword": {
-		"text": "פְּרַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּרַח I",
+	"headwords": [
+		{
+			"text": "פְּרַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1223,
 		"column": "b"

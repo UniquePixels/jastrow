@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00723",
-	"slug": "מזדרע",
-	"headword": {
-		"text": "מִזְדְּרַע"
-	},
+	"sefariaHeadword": "מִזְדְּרַע",
+	"headwords": [
+		{
+			"text": "מִזְדְּרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 753,
 		"column": "b"

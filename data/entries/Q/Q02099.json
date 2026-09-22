@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02099",
-	"slug": "פשר-2",
-	"headword": {
-		"text": "פְּשַׁר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּשַׁר I",
+	"headwords": [
+		{
+			"text": "פְּשַׁר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1249,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01879",
-	"slug": "מסוקא",
-	"headword": {
-		"text": "מַסּוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַסּוֹקָא",
+	"headwords": [
+		{
+			"text": "מַסּוֹקָא"
+		},
 		{
 			"text": "מסוקיותא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 804,
 		"column": "b"

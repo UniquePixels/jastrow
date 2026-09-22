@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01492",
-	"slug": "עשנא",
-	"headword": {
-		"text": "עָשְׁנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָשְׁנָא",
+	"headwords": [
 		{
-			"text": "עוֹשְׁ׳"
+			"text": "עָשְׁנָא"
 		},
 		{
-			"text": "עוּשְׁ׳"
+			"text": "עוֹשְׁ׳",
+			"partial": true
+		},
+		{
+			"text": "עוּשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1126,
 		"column": "b"

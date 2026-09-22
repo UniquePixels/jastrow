@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00030",
-	"slug": "נאקה-1",
-	"headword": {
-		"text": "נְאָקָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְאָקָה I",
+	"headwords": [
+		{
+			"text": "נְאָקָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 866,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00295",
-	"slug": "לונכא",
-	"headword": {
-		"text": "לוֹנְכָא"
-	},
+	"sefariaHeadword": "לוֹנְכָא",
+	"headwords": [
+		{
+			"text": "לוֹנְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01485",
-	"slug": "עשירות",
-	"headword": {
-		"text": "עֲשִׁירוּת"
-	},
+	"sefariaHeadword": "עֲשִׁירוּת",
+	"headwords": [
+		{
+			"text": "עֲשִׁירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1126,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00537",
-	"slug": "הלהולתא",
-	"headword": {
-		"text": "הַלְהוּלְתָּא"
-	},
+	"sefariaHeadword": "הַלְהוּלְתָּא",
+	"headwords": [
+		{
+			"text": "הַלְהוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

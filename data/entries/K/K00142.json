@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00142",
-	"slug": "כדן",
-	"headword": {
-		"text": "כָּדַן"
-	},
+	"sefariaHeadword": "כָּדַן",
+	"headwords": [
+		{
+			"text": "כָּדַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

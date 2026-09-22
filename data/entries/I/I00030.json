@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00030",
-	"slug": "טבוא",
-	"headword": {
-		"text": "טַבְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַבְוָא",
+	"headwords": [
+		{
+			"text": "טַבְוָא"
+		},
 		{
 			"text": "טַבְוָוא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 516,
 		"column": "a"

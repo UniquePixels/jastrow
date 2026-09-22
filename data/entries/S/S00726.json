@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00726",
-	"slug": "קטור-2",
-	"headword": {
-		"text": "קְטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטוֹר",
+	"headwords": [
+		{
+			"text": "קְטוֹר"
+		},
 		{
 			"text": "קְטוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1346,
 		"column": "b"

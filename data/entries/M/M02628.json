@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02628",
-	"slug": "מרזמא",
-	"headword": {
-		"text": "מַרְזְמָא"
-	},
+	"sefariaHeadword": "מַרְזְמָא",
+	"headwords": [
+		{
+			"text": "מַרְזְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

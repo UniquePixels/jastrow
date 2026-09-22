@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01578",
-	"slug": "שנון-1",
-	"headword": {
-		"text": "שָׁנוּן"
-	},
+	"sefariaHeadword": "שָׁנוּן",
+	"headwords": [
+		{
+			"text": "שָׁנוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01070",
-	"slug": "דרועא",
-	"headword": {
-		"text": "דְּרוֹעָא"
-	},
+	"sefariaHeadword": "דְּרוֹעָא",
+	"headwords": [
+		{
+			"text": "דְּרוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

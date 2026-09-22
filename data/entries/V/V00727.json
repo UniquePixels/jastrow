@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00727",
-	"slug": "תנויי-1",
-	"headword": {
-		"text": "תַּנּוֹיי"
-	},
+	"sefariaHeadword": "תַּנּוֹיי",
+	"headwords": [
+		{
+			"text": "תַּנּוֹיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

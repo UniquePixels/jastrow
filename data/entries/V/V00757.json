@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00757",
-	"slug": "תסברא-1",
-	"headword": {
-		"text": "תִּסְבָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְבָּרָא",
+	"headwords": [
 		{
-			"text": "תִּיסְ׳"
+			"text": "תִּסְבָּרָא"
 		},
 		{
-			"text": "תּוּסְ׳"
+			"text": "תִּיסְ׳",
+			"partial": true
+		},
+		{
+			"text": "תּוּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1682,
 		"column": "b"

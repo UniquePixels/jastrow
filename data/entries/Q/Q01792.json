@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01792",
-	"slug": "פרידתא",
-	"headword": {
-		"text": "פָּרִידְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרִידְתָּא",
+	"headwords": [
 		{
-			"text": "פָּרִדְ׳"
+			"text": "פָּרִידְתָּא"
+		},
+		{
+			"text": "פָּרִדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1226,
 		"column": "a"

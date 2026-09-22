@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01845",
-	"slug": "קצר-2",
-	"headword": {
-		"text": "קְצַר"
-	},
+	"sefariaHeadword": "קְצַר",
+	"headwords": [
+		{
+			"text": "קְצַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1408,
 		"column": "b"

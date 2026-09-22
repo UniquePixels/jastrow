@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00719",
-	"slug": "זרנא",
-	"headword": {
-		"text": "זָרָנָא"
-	},
+	"sefariaHeadword": "זָרָנָא",
+	"headwords": [
+		{
+			"text": "זָרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

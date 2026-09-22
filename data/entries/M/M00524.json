@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00524",
-	"slug": "מומסין",
-	"headword": {
-		"text": "מוּמְסִין"
-	},
+	"sefariaHeadword": "מוּמְסִין",
+	"headwords": [
+		{
+			"text": "מוּמְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

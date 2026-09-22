@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01988",
-	"slug": "פרקדין",
-	"headword": {
-		"text": "פרקדין"
-	},
+	"sefariaHeadword": "פרקדין",
+	"headwords": [
+		{
+			"text": "פרקדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01382",
-	"slug": "ספלא",
-	"headword": {
-		"text": "סִפְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפְלָא",
+	"headwords": [
 		{
-			"text": "סִיפְ׳"
+			"text": "סִפְלָא"
+		},
+		{
+			"text": "סִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1014,
 		"column": "b"

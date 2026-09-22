@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01820",
-	"slug": "מנת-1",
-	"headword": {
-		"text": "מְנָת"
-	},
+	"sefariaHeadword": "מְנָת",
+	"headwords": [
+		{
+			"text": "מְנָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "b"

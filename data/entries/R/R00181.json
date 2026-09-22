@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00181",
-	"slug": "צוות-1",
-	"headword": {
-		"text": "צָוַות"
-	},
+	"sefariaHeadword": "צָוַות",
+	"headwords": [
+		{
+			"text": "צָוַות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00564",
-	"slug": "כינאי",
-	"headword": {
-		"text": "כִּינַאי"
-	},
+	"sefariaHeadword": "כִּינַאי",
+	"headwords": [
+		{
+			"text": "כִּינַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "a"

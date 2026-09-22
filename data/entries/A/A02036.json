@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02036",
-	"slug": "אמלתרא",
-	"headword": {
-		"text": "אֲמַלְתְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲמַלְתְּרָא",
+	"headwords": [
+		{
+			"text": "אֲמַלְתְּרָא"
+		},
 		{
 			"text": "מַלְתְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 77,
 		"column": "a"

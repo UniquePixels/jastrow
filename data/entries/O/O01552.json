@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01552",
-	"slug": "סרודה",
-	"headword": {
-		"text": "סְרוּדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרוּדָה",
+	"headwords": [
+		{
+			"text": "סְרוּדָה"
+		},
 		{
 			"text": "סְרוּדוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1024,
 		"column": "a"

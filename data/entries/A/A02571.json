@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02571",
-	"slug": "אסתוורא",
-	"headword": {
-		"text": "אִסְתְּוָורָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְתְּוָורָא",
+	"headwords": [
+		{
+			"text": "אִסְתְּוָורָא"
+		},
 		{
 			"text": "אִסְתְּוִירָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִסְתּוּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 98,
 		"column": "b"

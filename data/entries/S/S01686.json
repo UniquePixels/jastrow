@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01686",
-	"slug": "קסתות",
-	"headword": {
-		"text": "קסתות"
-	},
+	"sefariaHeadword": "קסתות",
+	"headwords": [
+		{
+			"text": "קסתות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

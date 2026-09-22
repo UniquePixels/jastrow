@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00764",
-	"slug": "רכילות",
-	"headword": {
-		"text": "רְכִילוּת"
-	},
+	"sefariaHeadword": "רְכִילוּת",
+	"headwords": [
+		{
+			"text": "רְכִילוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

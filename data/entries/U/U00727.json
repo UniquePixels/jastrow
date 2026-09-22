@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00727",
-	"slug": "שחתא-1",
-	"headword": {
-		"text": "שִׁחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁחֲתָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁחֲתָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1552,
 		"column": "b"

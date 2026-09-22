@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00097",
-	"slug": "הדדי",
-	"headword": {
-		"text": "הֲדָדֵי"
-	},
+	"sefariaHeadword": "הֲדָדֵי",
+	"headwords": [
+		{
+			"text": "הֲדָדֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "b"

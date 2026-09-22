@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00411",
-	"slug": "ציפוראה",
-	"headword": {
-		"text": "צִיפּוֹרָאָה"
-	},
+	"sefariaHeadword": "צִיפּוֹרָאָה",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

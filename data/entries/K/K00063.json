@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00063",
-	"slug": "כבלא",
-	"headword": {
-		"text": "כַּבְלָא"
-	},
+	"sefariaHeadword": "כַּבְלָא",
+	"headwords": [
+		{
+			"text": "כַּבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "b"

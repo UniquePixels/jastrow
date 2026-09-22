@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00546",
-	"slug": "תכלית",
-	"headword": {
-		"text": "תַּכְלִית"
-	},
+	"sefariaHeadword": "תַּכְלִית",
+	"headwords": [
+		{
+			"text": "תַּכְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "b"

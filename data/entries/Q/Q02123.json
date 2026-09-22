@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02123",
-	"slug": "פתגותא",
-	"headword": {
-		"text": "פַּתְגּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתְגּוּתָא",
+	"headwords": [
+		{
+			"text": "פַּתְגּוּתָא"
+		},
 		{
 			"text": "פַּתְגִּיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1250,
 		"column": "a"

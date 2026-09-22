@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "I00612",
-	"slug": "טעם-4",
-	"headword": {
-		"text": "טְעַם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְעַם ²",
+	"headwords": [
+		{
+			"text": "טְעַם",
+			"disambiguator": 2
+		},
 		{
 			"text": "טְעֵם"
 		},
@@ -16,6 +17,7 @@
 			"text": "טַעֲמָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 543,
 		"column": "b"

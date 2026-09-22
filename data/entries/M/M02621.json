@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02621",
-	"slug": "מרזובנן",
-	"headword": {
-		"text": "מַרְזוּבְנָן"
-	},
+	"sefariaHeadword": "מַרְזוּבְנָן",
+	"headwords": [
+		{
+			"text": "מַרְזוּבְנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

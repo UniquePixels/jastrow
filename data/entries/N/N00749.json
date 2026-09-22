@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00749",
-	"slug": "ניצולית",
-	"headword": {
-		"text": "ניצולית"
-	},
+	"sefariaHeadword": "ניצולית",
+	"headwords": [
+		{
+			"text": "ניצולית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "b"

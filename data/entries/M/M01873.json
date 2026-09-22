@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01873",
-	"slug": "מסומיס",
-	"headword": {
-		"text": "מסומיס"
-	},
+	"sefariaHeadword": "מסומיס",
+	"headwords": [
+		{
+			"text": "מסומיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

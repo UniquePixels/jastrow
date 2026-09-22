@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01164",
-	"slug": "ברבורים",
-	"headword": {
-		"text": "בַּרְבּוּרִים"
-	},
+	"sefariaHeadword": "בַּרְבּוּרִים",
+	"headwords": [
+		{
+			"text": "בַּרְבּוּרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02825",
-	"slug": "אפרכא",
-	"headword": {
-		"text": "אִפַּרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִפַּרְכָא",
+	"headwords": [
+		{
+			"text": "אִפַּרְכָא"
+		},
 		{
 			"text": "אִפַּרְכוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 109,
 		"column": "a"

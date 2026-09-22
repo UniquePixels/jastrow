@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00527",
-	"slug": "רחמין",
-	"headword": {
-		"text": "רַחֲמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחֲמִין",
+	"headwords": [
+		{
+			"text": "רַחֲמִין"
+		},
 		{
 			"text": "רַחֲמֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1468,
 		"column": "a"

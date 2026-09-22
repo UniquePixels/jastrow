@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01901",
-	"slug": "פרנסה",
-	"headword": {
-		"text": "פַּרְנָסָה"
-	},
+	"sefariaHeadword": "פַּרְנָסָה",
+	"headwords": [
+		{
+			"text": "פַּרְנָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "b"

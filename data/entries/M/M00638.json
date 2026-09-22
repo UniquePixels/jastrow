@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00638",
-	"slug": "מורטניא",
-	"headword": {
-		"text": "מוּרְטַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּרְטַנְיָא",
+	"headwords": [
 		{
-			"text": "מַרְטַ׳"
+			"text": "מוּרְטַנְיָא"
+		},
+		{
+			"text": "מַרְטַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 749,
 		"column": "b"

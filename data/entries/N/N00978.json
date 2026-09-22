@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00978",
-	"slug": "נעי",
-	"headword": {
-		"text": "נְעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְעֵי",
+	"headwords": [
+		{
+			"text": "נְעֵי"
+		},
 		{
 			"text": "נְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 919,
 		"column": "b"

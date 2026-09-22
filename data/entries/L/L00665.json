@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00665",
-	"slug": "לקוח",
-	"headword": {
-		"text": "לִקּוּחַ"
-	},
+	"sefariaHeadword": "לִקּוּחַ",
+	"headwords": [
+		{
+			"text": "לִקּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "b"

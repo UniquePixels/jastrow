@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "M02851",
-	"slug": "משח-6",
-	"headword": {
-		"text": "מְשַׁח",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשַׁח IV",
+	"headwords": [
+		{
+			"text": "מְשַׁח",
+			"homograph": 4
+		},
 		{
 			"text": "מִשְׁחָא"
 		},
 		{
 			"text": "מִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} IV, {1}, {2} II",
 	"page": {
 		"number": 851,
 		"column": "a"

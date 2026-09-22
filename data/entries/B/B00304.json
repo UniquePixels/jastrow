@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00304",
-	"slug": "בועתא-2",
-	"headword": {
-		"text": "בּוּעֲתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בּוּעֲתָא II",
+	"headwords": [
+		{
+			"text": "בּוּעֲתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 147,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00354",
-	"slug": "נוי-3",
-	"headword": {
-		"text": "נוֹי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוֹי",
+	"headwords": [
+		{
+			"text": "נוֹי"
+		},
 		{
 			"text": "נוֹא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 887,
 		"column": "a"

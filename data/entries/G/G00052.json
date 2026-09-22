@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00052",
-	"slug": "זבן",
-	"headword": {
-		"text": "זְבַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְבַן",
+	"headwords": [
+		{
+			"text": "זְבַן"
+		},
 		{
 			"text": "זְבֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 379,
 		"column": "b"

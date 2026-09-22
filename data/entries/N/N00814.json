@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00814",
-	"slug": "נכוש-1",
-	"headword": {
-		"text": "נִכּוּשׁ"
-	},
+	"sefariaHeadword": "נִכּוּשׁ",
+	"headwords": [
+		{
+			"text": "נִכּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 910,
 		"column": "b"

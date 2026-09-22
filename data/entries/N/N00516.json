@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00516",
-	"slug": "נחר-2",
-	"headword": {
-		"text": "נְחַר"
-	},
+	"sefariaHeadword": "נְחַר",
+	"headwords": [
+		{
+			"text": "נְחַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

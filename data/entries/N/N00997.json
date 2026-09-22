@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00997",
-	"slug": "נעמן-2",
-	"headword": {
-		"text": "נַעֲמָן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נַעֲמָן II",
+	"headwords": [
+		{
+			"text": "נַעֲמָן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 920,
 		"column": "b"

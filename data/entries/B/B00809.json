@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00809",
-	"slug": "בלאי-2",
-	"headword": {
-		"text": "בְּלָאֵי"
-	},
+	"sefariaHeadword": "בְּלָאֵי",
+	"headwords": [
+		{
+			"text": "בְּלָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00988",
-	"slug": "גלשה",
-	"headword": {
-		"text": "גְּלָשָׁה"
-	},
+	"sefariaHeadword": "גְּלָשָׁה",
+	"headwords": [
+		{
+			"text": "גְּלָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "a"

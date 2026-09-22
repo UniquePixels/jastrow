@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00656",
-	"slug": "צעיר-2",
-	"headword": {
-		"text": "צָעִיר"
-	},
+	"sefariaHeadword": "צָעִיר",
+	"headwords": [
+		{
+			"text": "צָעִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

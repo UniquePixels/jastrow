@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01263",
-	"slug": "איל-1",
-	"headword": {
-		"text": "אֱיָל",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֱיָל",
+	"headwords": [
+		{
+			"text": "אֱיָל",
+			"reconstructed": true
+		},
 		{
 			"text": "אֱיָיל"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00248",
-	"slug": "אגדה-2",
-	"headword": {
-		"text": "אֲגֻדָּה"
-	},
+	"sefariaHeadword": "אֲגֻדָּה",
+	"headwords": [
+		{
+			"text": "אֲגֻדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "b"

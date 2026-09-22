@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00086",
-	"slug": "כבש-6",
-	"headword": {
-		"text": "כֵּבַשׁ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּבַשׁ II",
+	"headwords": [
+		{
+			"text": "כֵּבַשׁ",
+			"homograph": 2
+		},
 		{
 			"text": "כִּבְשָׁא"
 		},
@@ -13,6 +14,7 @@
 			"text": "כִּיבְשָׁא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 611,
 		"column": "b"

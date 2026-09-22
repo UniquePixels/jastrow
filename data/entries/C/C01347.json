@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01347",
-	"slug": "גריש",
-	"headword": {
-		"text": "גָּרִישׂ"
-	},
+	"sefariaHeadword": "גָּרִישׂ",
+	"headwords": [
+		{
+			"text": "גָּרִישׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 269,
 		"column": "a"

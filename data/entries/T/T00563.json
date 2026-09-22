@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00563",
-	"slug": "רטיבא-2",
-	"headword": {
-		"text": "רְטִיבָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "רְטִיבָא III",
+	"headwords": [
+		{
+			"text": "רְטִיבָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1471,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00348",
-	"slug": "נוטי",
-	"headword": {
-		"text": "נוטי"
-	},
+	"sefariaHeadword": "נוטי",
+	"headwords": [
+		{
+			"text": "נוטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

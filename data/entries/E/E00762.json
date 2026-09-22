@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00762",
-	"slug": "הפרה",
-	"headword": {
-		"text": "הֲפָרָה"
-	},
+	"sefariaHeadword": "הֲפָרָה",
+	"headwords": [
+		{
+			"text": "הֲפָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "a"

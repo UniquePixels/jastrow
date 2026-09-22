@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01897",
-	"slug": "שקר-6",
-	"headword": {
-		"text": "שְׁקַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁקַר",
+	"headwords": [
+		{
+			"text": "שְׁקַר"
+		},
 		{
 			"text": "שִׁקְרָא"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1626,
 		"column": "b"

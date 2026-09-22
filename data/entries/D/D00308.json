@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00308",
-	"slug": "דופי",
-	"headword": {
-		"text": "דּוֹפִי"
-	},
+	"sefariaHeadword": "דּוֹפִי",
+	"headwords": [
+		{
+			"text": "דּוֹפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "a"

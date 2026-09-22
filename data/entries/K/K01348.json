@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01348",
-	"slug": "כתובא-1",
-	"headword": {
-		"text": "כְּתוּבָא"
-	},
+	"sefariaHeadword": "כְּתוּבָא",
+	"headwords": [
+		{
+			"text": "כְּתוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "a"

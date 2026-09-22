@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00531",
-	"slug": "הל-2",
-	"headword": {
-		"text": "הל"
-	},
+	"sefariaHeadword": "הל",
+	"headwords": [
+		{
+			"text": "הל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

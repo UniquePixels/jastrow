@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00755",
-	"slug": "רכובה",
-	"headword": {
-		"text": "רְכוּבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְכוּבָה",
+	"headwords": [
+		{
+			"text": "רְכוּבָה"
+		},
 		{
 			"text": "רְכוּבָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1479,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00290",
-	"slug": "מדין-1",
-	"headword": {
-		"text": "מַדֵּין"
-	},
+	"sefariaHeadword": "מַדֵּין",
+	"headwords": [
+		{
+			"text": "מַדֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

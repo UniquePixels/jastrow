@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01433",
-	"slug": "ערפה",
-	"headword": {
-		"text": "עָרְפָּה"
-	},
+	"sefariaHeadword": "עָרְפָּה",
+	"headwords": [
+		{
+			"text": "עָרְפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1122,
 		"column": "b"

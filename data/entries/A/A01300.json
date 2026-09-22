@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01300",
-	"slug": "איליתא",
-	"headword": {
-		"text": "אֲיֵלִיתָא"
-	},
+	"sefariaHeadword": "אֲיֵלִיתָא",
+	"headwords": [
+		{
+			"text": "אֲיֵלִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "b"

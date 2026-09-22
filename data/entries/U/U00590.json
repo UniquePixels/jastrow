@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00590",
-	"slug": "שותפת-2",
-	"headword": {
-		"text": "שׁוּתֶּפֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּתֶּפֶת",
+	"headwords": [
+		{
+			"text": "שׁוּתֶּפֶת"
+		},
 		{
 			"text": "שׁוּתַּפְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1544,
 		"column": "b"

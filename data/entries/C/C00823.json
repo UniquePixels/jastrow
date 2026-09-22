@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00823",
-	"slug": "גירונין",
-	"headword": {
-		"text": "גירונין"
-	},
+	"sefariaHeadword": "גירונין",
+	"headwords": [
+		{
+			"text": "גירונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

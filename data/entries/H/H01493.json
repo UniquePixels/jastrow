@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01493",
-	"slug": "חצב-5",
-	"headword": {
-		"text": "חֲצָב",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲצָב I",
+	"headwords": [
+		{
+			"text": "חֲצָב",
+			"homograph": 1
+		},
 		{
 			"text": "חֲצָד"
 		}
 	],
+	"display": "{0} I, ({1})",
 	"page": {
 		"number": 494,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01402",
-	"slug": "חסן-2",
-	"headword": {
-		"text": "חֲסַן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲסַן II",
+	"headwords": [
+		{
+			"text": "חֲסַן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 489,
 		"column": "a"

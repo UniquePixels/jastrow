@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00884",
-	"slug": "הרנוגא",
-	"headword": {
-		"text": "הַרְנוֹגָא"
-	},
+	"sefariaHeadword": "הַרְנוֹגָא",
+	"headwords": [
+		{
+			"text": "הַרְנוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 368,
 		"column": "a"

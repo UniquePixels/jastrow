@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01495",
-	"slug": "איסקבטיריי",
-	"headword": {
-		"text": "איסקבטיריי"
-	},
+	"sefariaHeadword": "איסקבטיריי",
+	"headwords": [
+		{
+			"text": "איסקבטיריי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

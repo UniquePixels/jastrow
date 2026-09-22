@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00919",
-	"slug": "נסבא-2",
-	"headword": {
-		"text": "נִסְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִסְבָא",
+	"headwords": [
+		{
+			"text": "נִסְבָא"
+		},
 		{
 			"text": "נִסְבְּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 915,
 		"column": "b"

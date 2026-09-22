@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00837",
-	"slug": "דליקתא",
-	"headword": {
-		"text": "דְּלֵיקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלֵיקְתָּא",
+	"headwords": [
 		{
-			"text": "דְּלֵקְ׳"
+			"text": "דְּלֵיקְתָּא"
+		},
+		{
+			"text": "דְּלֵקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 310,
 		"column": "a"

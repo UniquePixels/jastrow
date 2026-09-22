@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B00059",
-	"slug": "בביתא-2",
-	"headword": {
-		"text": "בָּבִיתָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בָּבִיתָא II",
+	"headwords": [
+		{
+			"text": "בָּבִיתָא",
+			"reconstructed": true,
+			"homograph": 2
+		},
 		{
 			"text": "בּוּבִיתָא"
 		}
 	],
+	"display": "*{0} II, {1}",
 	"page": {
 		"number": 136,
 		"column": "b"

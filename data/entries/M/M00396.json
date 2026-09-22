@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00396",
-	"slug": "מוג-2",
-	"headword": {
-		"text": "מוֹג"
-	},
+	"sefariaHeadword": "מוֹג",
+	"headwords": [
+		{
+			"text": "מוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

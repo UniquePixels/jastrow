@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00211",
-	"slug": "כוון-2",
-	"headword": {
-		"text": "כִּוּוּן"
-	},
+	"sefariaHeadword": "כִּוּוּן",
+	"headwords": [
+		{
+			"text": "כִּוּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

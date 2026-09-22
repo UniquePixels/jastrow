@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00712",
-	"slug": "קטולא",
-	"headword": {
-		"text": "קָטוֹלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטוֹלָא",
+	"headwords": [
+		{
+			"text": "קָטוֹלָא"
+		},
 		{
 			"text": "קָטוֹלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1346,
 		"column": "b"

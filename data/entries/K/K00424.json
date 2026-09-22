@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00424",
-	"slug": "כותי-1",
-	"headword": {
-		"text": "כּוּתִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כּוּתִי I",
+	"headwords": [
+		{
+			"text": "כּוּתִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 627,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

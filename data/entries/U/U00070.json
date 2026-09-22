@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00070",
-	"slug": "שבהר",
-	"headword": {
-		"text": "שַׁבְהַר"
-	},
+	"sefariaHeadword": "שַׁבְהַר",
+	"headwords": [
+		{
+			"text": "שַׁבְהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "a"

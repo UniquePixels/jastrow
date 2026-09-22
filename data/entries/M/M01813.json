@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01813",
-	"slug": "מנקטא",
-	"headword": {
-		"text": "מְנַקְטָא"
-	},
+	"sefariaHeadword": "מְנַקְטָא",
+	"headwords": [
+		{
+			"text": "מְנַקְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "b"

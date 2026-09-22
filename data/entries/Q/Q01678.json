@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01678",
-	"slug": "פרוי",
-	"headword": {
-		"text": "פֵּרוּי"
-	},
+	"sefariaHeadword": "פֵּרוּי",
+	"headwords": [
+		{
+			"text": "פֵּרוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

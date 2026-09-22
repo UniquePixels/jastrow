@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00888",
-	"slug": "טרק-2",
-	"headword": {
-		"text": "טְרַק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טְרַק I",
+	"headwords": [
+		{
+			"text": "טְרַק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 557,
 		"column": "b"

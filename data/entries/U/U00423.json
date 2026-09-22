@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00423",
-	"slug": "שולטן-1",
-	"headword": {
-		"text": "שׁוּלְטָן"
-	},
+	"sefariaHeadword": "שׁוּלְטָן",
+	"headwords": [
+		{
+			"text": "שׁוּלְטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "b"

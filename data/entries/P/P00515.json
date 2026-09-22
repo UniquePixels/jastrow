@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00515",
-	"slug": "עידן-2",
-	"headword": {
-		"text": "עִידָּן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִידָּן ²",
+	"headwords": [
+		{
+			"text": "עִידָּן",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִידָּנָא"
 		},
 		{
-			"text": "עִדָּ׳"
+			"text": "עִדָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1067,
 		"column": "b"

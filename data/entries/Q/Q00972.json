@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00972",
-	"slug": "פלול",
-	"headword": {
-		"text": "פִּלּוּל"
-	},
+	"sefariaHeadword": "פִּלּוּל",
+	"headwords": [
+		{
+			"text": "פִּלּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

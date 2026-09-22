@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01351",
-	"slug": "פסק-2",
-	"headword": {
-		"text": "פְּסַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסַק",
+	"headwords": [
+		{
+			"text": "פְּסַק"
+		},
 		{
 			"text": "פְּסֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1200,
 		"column": "a"

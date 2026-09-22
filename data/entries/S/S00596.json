@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00596",
-	"slug": "קורטור",
-	"headword": {
-		"text": "קוֹרְטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹרְטוֹר",
+	"headwords": [
 		{
-			"text": "קוּ׳"
+			"text": "קוֹרְטוֹר"
+		},
+		{
+			"text": "קוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1342,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00979",
-	"slug": "בסורה",
-	"headword": {
-		"text": "בְּסוֹרָה"
-	},
+	"sefariaHeadword": "בְּסוֹרָה",
+	"headwords": [
+		{
+			"text": "בְּסוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

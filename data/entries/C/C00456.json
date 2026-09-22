@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00456",
-	"slug": "גוף-2",
-	"headword": {
-		"text": "גּוּף"
-	},
+	"sefariaHeadword": "גּוּף",
+	"headwords": [
+		{
+			"text": "גּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 225,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01565",
-	"slug": "איפרכוס",
-	"headword": {
-		"text": "אִיפַּרְכוֹס"
-	},
+	"sefariaHeadword": "אִיפַּרְכוֹס",
+	"headwords": [
+		{
+			"text": "אִיפַּרְכוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

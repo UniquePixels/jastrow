@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01451",
-	"slug": "מכתובים",
-	"headword": {
-		"text": "מכתובים"
-	},
+	"sefariaHeadword": "מכתובים",
+	"headwords": [
+		{
+			"text": "מכתובים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "a"

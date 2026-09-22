@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00085",
-	"slug": "מבינא",
-	"headword": {
-		"text": "מְבִינָא"
-	},
+	"sefariaHeadword": "מְבִינָא",
+	"headwords": [
+		{
+			"text": "מְבִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

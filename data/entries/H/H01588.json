@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01588",
-	"slug": "חרבונא-2",
-	"headword": {
-		"text": "חַרְבוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְבוֹנָא",
+	"headwords": [
+		{
+			"text": "חַרְבוֹנָא"
+		},
 		{
 			"text": "חַרְבוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 498,
 		"column": "b"

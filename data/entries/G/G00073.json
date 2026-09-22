@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00073",
-	"slug": "זדון-3",
-	"headword": {
-		"text": "זָדוֹן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זָדוֹן ²",
+	"headwords": [
+		{
+			"text": "זָדוֹן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 380,
 		"column": "b"

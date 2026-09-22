@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00951",
-	"slug": "ענד",
-	"headword": {
-		"text": "ענד"
-	},
+	"sefariaHeadword": "ענד",
+	"headwords": [
+		{
+			"text": "ענד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00979",
-	"slug": "קיליטיס",
-	"headword": {
-		"text": "קֵילֵיטֵיס"
-	},
+	"sefariaHeadword": "קֵילֵיטֵיס",
+	"headwords": [
+		{
+			"text": "קֵילֵיטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1361,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00169",
-	"slug": "הדרקון",
-	"headword": {
-		"text": "הִדְרָקוֹן"
-	},
+	"sefariaHeadword": "הִדְרָקוֹן",
+	"headwords": [
+		{
+			"text": "הִדְרָקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

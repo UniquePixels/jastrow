@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00660",
-	"slug": "מורנא",
-	"headword": {
-		"text": "מוּרָנָא"
-	},
+	"sefariaHeadword": "מוּרָנָא",
+	"headwords": [
+		{
+			"text": "מוּרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

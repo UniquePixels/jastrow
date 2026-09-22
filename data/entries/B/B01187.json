@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01187",
-	"slug": "ברדניקוס",
-	"headword": {
-		"text": "ברדניקוס"
-	},
+	"sefariaHeadword": "ברדניקוס",
+	"headwords": [
+		{
+			"text": "ברדניקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

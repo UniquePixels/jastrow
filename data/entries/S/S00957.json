@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00957",
-	"slug": "קילוון",
-	"headword": {
-		"text": "קִילְוָון"
-	},
+	"sefariaHeadword": "קִילְוָון",
+	"headwords": [
+		{
+			"text": "קִילְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1360,
 		"column": "a"

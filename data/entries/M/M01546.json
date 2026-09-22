@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01546",
-	"slug": "מליא",
-	"headword": {
-		"text": "מַלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְיָא",
+	"headwords": [
+		{
+			"text": "מַלְיָא"
+		},
 		{
 			"text": "מַלְיָיא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 789,
 		"column": "b"

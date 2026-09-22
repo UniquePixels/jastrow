@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00066",
-	"slug": "עבראי",
-	"headword": {
-		"text": "עֲבָרָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבָרָאֵי",
+	"headwords": [
+		{
+			"text": "עֲבָרָאֵי"
+		},
 		{
 			"text": "עַבְרָאֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1040,
 		"column": "a"

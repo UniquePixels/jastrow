@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03089",
-	"slug": "מתנה-3",
-	"headword": {
-		"text": "מַתָּנָה"
-	},
+	"sefariaHeadword": "מַתָּנָה",
+	"headwords": [
+		{
+			"text": "מַתָּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 863,
 		"column": "b"

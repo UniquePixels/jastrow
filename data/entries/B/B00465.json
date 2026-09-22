@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00465",
-	"slug": "בזקה",
-	"headword": {
-		"text": "בזקה"
-	},
+	"sefariaHeadword": "בזקה",
+	"headwords": [
+		{
+			"text": "בזקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "b"

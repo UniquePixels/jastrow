@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00615",
-	"slug": "סייבא",
-	"headword": {
-		"text": "סייבא"
-	},
+	"sefariaHeadword": "סייבא",
+	"headwords": [
+		{
+			"text": "סייבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

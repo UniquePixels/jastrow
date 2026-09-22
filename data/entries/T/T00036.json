@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00036",
-	"slug": "ראשית",
-	"headword": {
-		"text": "רֵאשִׁית"
-	},
+	"sefariaHeadword": "רֵאשִׁית",
+	"headwords": [
+		{
+			"text": "רֵאשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1438,
 		"column": "a"

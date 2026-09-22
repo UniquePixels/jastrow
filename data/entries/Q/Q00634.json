@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00634",
-	"slug": "פיטרא-1",
-	"headword": {
-		"text": "פִּיטְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּיטְרָא I",
+	"headwords": [
+		{
+			"text": "פִּיטְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1162,
 		"column": "a"

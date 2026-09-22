@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01443",
-	"slug": "מכשף",
-	"headword": {
-		"text": "מְכַשֵּׁף"
-	},
+	"sefariaHeadword": "מְכַשֵּׁף",
+	"headwords": [
+		{
+			"text": "מְכַשֵּׁף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "a"

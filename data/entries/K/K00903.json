@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00903",
-	"slug": "כסוח",
-	"headword": {
-		"text": "כִּסּוּחַ"
-	},
+	"sefariaHeadword": "כִּסּוּחַ",
+	"headwords": [
+		{
+			"text": "כִּסּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

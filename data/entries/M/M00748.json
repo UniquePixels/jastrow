@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00748",
-	"slug": "מזיגא",
-	"headword": {
-		"text": "מְזִיגָא"
-	},
+	"sefariaHeadword": "מְזִיגָא",
+	"headwords": [
+		{
+			"text": "מְזִיגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "b"

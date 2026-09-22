@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00437",
-	"slug": "שום-5",
-	"headword": {
-		"text": "שׁוּם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שׁוּם II",
+	"headwords": [
+		{
+			"text": "שׁוּם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1535,
 		"column": "b"

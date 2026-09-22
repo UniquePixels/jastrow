@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00708",
-	"slug": "ישראלי",
-	"headword": {
-		"text": "יִשְׂרְאֵלִי"
-	},
+	"sefariaHeadword": "יִשְׂרְאֵלִי",
+	"headwords": [
+		{
+			"text": "יִשְׂרְאֵלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 602,
 		"column": "a"

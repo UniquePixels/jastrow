@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00422",
-	"slug": "הימין",
-	"headword": {
-		"text": "הֵימִין"
-	},
+	"sefariaHeadword": "הֵימִין",
+	"headwords": [
+		{
+			"text": "הֵימִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "a"

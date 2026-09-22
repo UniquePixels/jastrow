@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02710",
-	"slug": "מרמה",
-	"headword": {
-		"text": "מִרְמָה"
-	},
+	"sefariaHeadword": "מִרְמָה",
+	"headwords": [
+		{
+			"text": "מִרְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

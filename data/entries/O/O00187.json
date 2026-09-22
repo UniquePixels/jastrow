@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00187",
-	"slug": "סדיק",
-	"headword": {
-		"text": "סְדֵיק"
-	},
+	"sefariaHeadword": "סְדֵיק",
+	"headwords": [
+		{
+			"text": "סְדֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "a"

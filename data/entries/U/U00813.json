@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00813",
-	"slug": "שיבתי",
-	"headword": {
-		"text": "שִׁיבְּתַי"
-	},
+	"sefariaHeadword": "שִׁיבְּתַי",
+	"headwords": [
+		{
+			"text": "שִׁיבְּתַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

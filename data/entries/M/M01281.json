@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01281",
-	"slug": "מיצף",
-	"headword": {
-		"text": "מֵיצֵף"
-	},
+	"sefariaHeadword": "מֵיצֵף",
+	"headwords": [
+		{
+			"text": "מֵיצֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

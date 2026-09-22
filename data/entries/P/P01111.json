@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01111",
-	"slug": "עצור-2",
-	"headword": {
-		"text": "עִצּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִצּוּר",
+	"headwords": [
+		{
+			"text": "עִצּוּר"
+		},
 		{
 			"text": "עִצּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1102,
 		"column": "a"

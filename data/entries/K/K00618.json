@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00618",
-	"slug": "כירבי",
-	"headword": {
-		"text": "כירבי"
-	},
+	"sefariaHeadword": "כירבי",
+	"headwords": [
+		{
+			"text": "כירבי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 636,
 		"column": "a"

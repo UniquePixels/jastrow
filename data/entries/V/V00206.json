@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00206",
-	"slug": "תוכין",
-	"headword": {
-		"text": "תוכין"
-	},
+	"sefariaHeadword": "תוכין",
+	"headwords": [
+		{
+			"text": "תוכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

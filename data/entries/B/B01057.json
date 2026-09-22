@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01057",
-	"slug": "בעלה",
-	"headword": {
-		"text": "בַּעֲלָה"
-	},
+	"sefariaHeadword": "בַּעֲלָה",
+	"headwords": [
+		{
+			"text": "בַּעֲלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "b"

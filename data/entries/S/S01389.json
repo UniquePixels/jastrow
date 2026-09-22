@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01389",
-	"slug": "קלסתורא",
-	"headword": {
-		"text": "קְלַסְתּוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלַסְתּוֹרָא",
+	"headwords": [
+		{
+			"text": "קְלַסְתּוֹרָא"
+		},
 		{
 			"text": "קְלַסְתֵּיר"
 		},
@@ -15,6 +16,7 @@
 			"text": "קְלַסְתְּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1380,
 		"column": "a"

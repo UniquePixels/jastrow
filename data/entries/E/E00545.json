@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00545",
-	"slug": "הלזה",
-	"headword": {
-		"text": "הֲלָזָה"
-	},
+	"sefariaHeadword": "הֲלָזָה",
+	"headwords": [
+		{
+			"text": "הֲלָזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

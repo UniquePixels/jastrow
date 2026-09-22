@@ -1,18 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "S01398",
-	"slug": "קלעא-1",
-	"headword": {
-		"text": "קִלְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְעָא",
+	"headwords": [
 		{
-			"text": "קִי׳",
-			"homograph": 2
+			"text": "קִלְעָא"
 		},
 		{
-			"text": "קַלְ׳"
+			"text": "קִי׳",
+			"homograph": 2,
+			"partial": true
+		},
+		{
+			"text": "קַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II, {2}",
 	"page": {
 		"number": 1381,
 		"column": "a"

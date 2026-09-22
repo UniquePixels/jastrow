@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00619",
-	"slug": "ניגני",
-	"headword": {
-		"text": "ניגני"
-	},
+	"sefariaHeadword": "ניגני",
+	"headwords": [
+		{
+			"text": "ניגני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

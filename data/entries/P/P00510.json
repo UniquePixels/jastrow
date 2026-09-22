@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00510",
-	"slug": "עידונא",
-	"headword": {
-		"text": "עִידּוֹנָא"
-	},
+	"sefariaHeadword": "עִידּוֹנָא",
+	"headwords": [
+		{
+			"text": "עִידּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "b"

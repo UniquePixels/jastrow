@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00365",
-	"slug": "יכרותה",
-	"headword": {
-		"text": "יכרותה"
-	},
+	"sefariaHeadword": "יכרותה",
+	"headwords": [
+		{
+			"text": "יכרותה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "b"

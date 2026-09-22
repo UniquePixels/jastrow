@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00599",
-	"slug": "צמרמורת",
-	"headword": {
-		"text": "צְמַרְמוֹרֶת"
-	},
+	"sefariaHeadword": "צְמַרְמוֹרֶת",
+	"headwords": [
+		{
+			"text": "צְמַרְמוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1289,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00923",
-	"slug": "כסייה",
-	"headword": {
-		"text": "כְּסִיָּיה"
-	},
+	"sefariaHeadword": "כְּסִיָּיה",
+	"headwords": [
+		{
+			"text": "כְּסִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 653,
 		"column": "b"

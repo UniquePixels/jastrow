@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01513",
-	"slug": "עשרתי",
-	"headword": {
-		"text": "עֲשַׂרְתֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשַׂרְתֵּי",
+	"headwords": [
+		{
+			"text": "עֲשַׂרְתֵּי"
+		},
 		{
 			"text": "עִישַׂרְתֵּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1127,
 		"column": "b"

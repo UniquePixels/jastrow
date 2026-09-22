@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02219",
-	"slug": "מפלצת",
-	"headword": {
-		"text": "מִפְלֶצֶת"
-	},
+	"sefariaHeadword": "מִפְלֶצֶת",
+	"headwords": [
+		{
+			"text": "מִפְלֶצֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

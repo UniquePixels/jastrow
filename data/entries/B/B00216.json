@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00216",
-	"slug": "בוהק",
-	"headword": {
-		"text": "בּוֹהַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֹּוהַק",
+	"headwords": [
+		{
+			"text": "בּוֹהַק"
+		},
 		{
 			"text": "בֹּהַק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 144,
 		"column": "a"

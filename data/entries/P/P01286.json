@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01286",
-	"slug": "ערבלא",
-	"headword": {
-		"text": "עַרְבְּלָא"
-	},
+	"sefariaHeadword": "עַרְבְּלָא",
+	"headwords": [
+		{
+			"text": "עַרְבְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "b"

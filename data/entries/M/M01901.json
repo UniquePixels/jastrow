@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01901",
-	"slug": "מסטי",
-	"headword": {
-		"text": "מַסְטֵי"
-	},
+	"sefariaHeadword": "מַסְטֵי",
+	"headwords": [
+		{
+			"text": "מַסְטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "a"

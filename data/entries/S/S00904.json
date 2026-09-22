@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00904",
-	"slug": "קיטופא",
-	"headword": {
-		"text": "קִיטּוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטּוּפָא",
+	"headwords": [
 		{
-			"text": "קִטּ׳"
+			"text": "קִיטּוּפָא"
+		},
+		{
+			"text": "קִטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1357,
 		"column": "b"

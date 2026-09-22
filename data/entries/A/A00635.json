@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00635",
-	"slug": "אוירא-1",
-	"headword": {
-		"text": "אָוֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָוֵירָא",
+	"headwords": [
+		{
+			"text": "אָוֵירָא"
+		},
 		{
 			"text": "אֲוִירָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אַוֵּירָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 24,
 		"column": "b"

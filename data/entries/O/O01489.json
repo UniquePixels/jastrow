@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01489",
-	"slug": "סקליטין",
-	"headword": {
-		"text": "סקליטין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סקליטין",
+	"headwords": [
+		{
+			"text": "סקליטין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1020,
 		"column": "b"

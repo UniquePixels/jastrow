@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00682",
-	"slug": "טפש-2",
-	"headword": {
-		"text": "טְפֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְפֵשׁ",
+	"headwords": [
+		{
+			"text": "טְפֵשׁ"
+		},
 		{
 			"text": "טְפֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 549,
 		"column": "a"

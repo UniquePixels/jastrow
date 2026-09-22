@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00781",
-	"slug": "צריפא",
-	"headword": {
-		"text": "צְרִיפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרִיפָא",
+	"headwords": [
+		{
+			"text": "צְרִיפָא"
+		},
 		{
 			"text": "צְרִיפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1302,
 		"column": "a"

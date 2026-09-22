@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01368",
-	"slug": "קלן-1",
-	"headword": {
-		"text": "קַלָּן"
-	},
+	"sefariaHeadword": "קַלָּן",
+	"headwords": [
+		{
+			"text": "קַלָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

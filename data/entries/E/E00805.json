@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00805",
-	"slug": "הקריה",
-	"headword": {
-		"text": "הַקְרָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַקְרָיָה",
+	"headwords": [
+		{
+			"text": "הַקְרָיָה"
+		},
 		{
 			"text": "הַקְרָיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 365,
 		"column": "a"

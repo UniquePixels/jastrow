@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00412",
-	"slug": "מודיעים",
-	"headword": {
-		"text": "מוֹדִיעִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹדִיעִים",
+	"headwords": [
+		{
+			"text": "מוֹדִיעִים"
+		},
 		{
 			"text": "מוֹדִיעִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 739,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00533",
-	"slug": "אובריזא",
-	"headword": {
-		"text": "אוֹבְרִיזָא"
-	},
+	"sefariaHeadword": "אוֹבְרִיזָא",
+	"headwords": [
+		{
+			"text": "אוֹבְרִיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

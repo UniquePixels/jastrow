@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00280",
-	"slug": "פוניין",
-	"headword": {
-		"text": "פוניין"
-	},
+	"sefariaHeadword": "פוניין",
+	"headwords": [
+		{
+			"text": "פוניין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

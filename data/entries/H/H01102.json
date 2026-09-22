@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01102",
-	"slug": "חלף-5",
-	"headword": {
-		"text": "חֶלֶף"
-	},
+	"sefariaHeadword": "חֶלֶף",
+	"headwords": [
+		{
+			"text": "חֶלֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

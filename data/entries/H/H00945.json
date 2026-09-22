@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00945",
-	"slug": "חכמה-1",
-	"headword": {
-		"text": "חֲכָמָה"
-	},
+	"sefariaHeadword": "חֲכָמָה",
+	"headwords": [
+		{
+			"text": "חֲכָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00374",
-	"slug": "תחלתא",
-	"headword": {
-		"text": "תְּחַלְתָּא"
-	},
+	"sefariaHeadword": "תְּחַלְתָּא",
+	"headwords": [
+		{
+			"text": "תְּחַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "b"

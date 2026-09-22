@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00192",
-	"slug": "דוגמניות",
-	"headword": {
-		"text": "דוגמניות"
-	},
+	"sefariaHeadword": "דוגמניות",
+	"headwords": [
+		{
+			"text": "דוגמניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "a"

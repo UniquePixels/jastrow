@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00962",
-	"slug": "דפיח",
-	"headword": {
-		"text": "דְּפִיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּפִיחַ",
+	"headwords": [
+		{
+			"text": "דְּפִיחַ"
+		},
 		{
 			"text": "דְּפִיעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 317,
 		"column": "a"

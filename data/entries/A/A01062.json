@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01062",
-	"slug": "אחשדרפניא",
-	"headword": {
-		"text": "אֲחַשְׁדַּרְפְּנַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲחַשְׁדַּרְפְּנַיָּא",
+	"headwords": [
+		{
+			"text": "אֲחַשְׁדַּרְפְּנַיָּא"
+		},
 		{
 			"text": "נִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "a"

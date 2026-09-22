@@ -1,26 +1,28 @@
 {
+	"schemaVersion": 2,
 	"id": "C00767",
-	"slug": "גיניסר",
-	"headword": {
-		"text": "גִּינֵּיסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינֵּיסַר",
+	"headwords": [
 		{
-			"text": "גִּינּוֹ׳"
+			"text": "גִּינֵּיסַר"
 		},
 		{
-			"text": "גְּנֵי׳"
+			"text": "גִּינּוֹ׳",
+			"partial": true
 		},
 		{
-			"text": "גְּנוֹ׳"
+			"text": "גְּנֵי׳",
+			"partial": true
+		},
+		{
+			"text": "גְּנוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3})",
 	"page": {
 		"number": 240,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01336",
-	"slug": "כת",
-	"headword": {
-		"text": "כַּתְּ"
-	},
+	"sefariaHeadword": "כַּתְּ",
+	"headwords": [
+		{
+			"text": "כַּתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "b"

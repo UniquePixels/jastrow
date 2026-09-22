@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00265",
-	"slug": "צותרא",
-	"headword": {
-		"text": "צוּתְרָא"
-	},
+	"sefariaHeadword": "צוּתְרָא",
+	"headwords": [
+		{
+			"text": "צוּתְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "b"

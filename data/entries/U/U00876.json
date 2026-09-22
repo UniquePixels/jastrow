@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00876",
-	"slug": "שיחרורא",
-	"headword": {
-		"text": "שִׁיחְרוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיחְרוּרָא",
+	"headwords": [
 		{
-			"text": "שִׁחְ׳"
+			"text": "שִׁיחְרוּרָא"
+		},
+		{
+			"text": "שִׁחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1560,
 		"column": "a"

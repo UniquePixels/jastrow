@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01840",
-	"slug": "שקוץ",
-	"headword": {
-		"text": "שִׁקּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁקּוּץ",
+	"headwords": [
+		{
+			"text": "שִׁקּוּץ"
+		},
 		{
 			"text": "שִׁקּוּצָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "שקורי"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1621,
 		"column": "b"

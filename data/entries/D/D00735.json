@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00735",
-	"slug": "דירכאות",
-	"headword": {
-		"text": "דִּירְכָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּירְכָאוֹת",
+	"headwords": [
+		{
+			"text": "דִּירְכָאוֹת"
+		},
 		{
 			"text": "דִּירְכִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 305,
 		"column": "b"

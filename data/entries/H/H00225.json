@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00225",
-	"slug": "חדתון",
-	"headword": {
-		"text": "חדתון"
-	},
+	"sefariaHeadword": "חדתון",
+	"headwords": [
+		{
+			"text": "חדתון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 428,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00292",
-	"slug": "בוסמנו",
-	"headword": {
-		"text": "בּוּסְמָנוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּסְמָנוּ",
+	"headwords": [
 		{
-			"text": "בֻּסְ׳"
+			"text": "בּוּסְמָנוּ"
+		},
+		{
+			"text": "בֻּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 147,
 		"column": "a"

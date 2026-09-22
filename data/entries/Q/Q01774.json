@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01774",
-	"slug": "פרטורייני",
-	"headword": {
-		"text": "פַּרְטוֹרְיָינִי"
-	},
+	"sefariaHeadword": "פַּרְטוֹרְיָינִי",
+	"headwords": [
+		{
+			"text": "פַּרְטוֹרְיָינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

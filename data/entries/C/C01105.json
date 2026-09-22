@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01105",
-	"slug": "גנויה",
-	"headword": {
-		"text": "גנויה"
-	},
+	"sefariaHeadword": "גנויה",
+	"headwords": [
+		{
+			"text": "גנויה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 257,
 		"column": "b"

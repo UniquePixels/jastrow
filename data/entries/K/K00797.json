@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00797",
-	"slug": "כמות",
-	"headword": {
-		"text": "כְּמוֹת"
-	},
+	"sefariaHeadword": "כְּמוֹת",
+	"headwords": [
+		{
+			"text": "כְּמוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "a"

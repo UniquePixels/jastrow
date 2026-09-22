@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01563",
-	"slug": "איפרוטוס",
-	"headword": {
-		"text": "איפרוטוס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איפרוטוס",
+	"headwords": [
+		{
+			"text": "איפרוטוס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00485",
-	"slug": "תיקי",
-	"headword": {
-		"text": "תֵּיקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּיקֵי",
+	"headwords": [
+		{
+			"text": "תֵּיקֵי"
+		},
 		{
 			"text": "תֵּקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1666,
 		"column": "a"

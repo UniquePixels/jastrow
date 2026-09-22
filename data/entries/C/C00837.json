@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00837",
-	"slug": "גירצא",
-	"headword": {
-		"text": "גִּירְצָא"
-	},
+	"sefariaHeadword": "גִּירְצָא",
+	"headwords": [
+		{
+			"text": "גִּירְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00535",
-	"slug": "זמן-1",
-	"headword": {
-		"text": "זָמַן"
-	},
+	"sefariaHeadword": "זָמַן",
+	"headwords": [
+		{
+			"text": "זָמַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 404,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00782",
-	"slug": "סיפדא",
-	"headword": {
-		"text": "סִיפְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפְדָּא",
+	"headwords": [
 		{
-			"text": "סִפְ׳"
+			"text": "סִיפְדָּא"
+		},
+		{
+			"text": "סִפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 985,
 		"column": "a"

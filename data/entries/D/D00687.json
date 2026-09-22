@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00687",
-	"slug": "דיץ-1",
-	"headword": {
-		"text": "דִּיץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דִּיץ I",
+	"headwords": [
+		{
+			"text": "דִּיץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 304,
 		"column": "a"

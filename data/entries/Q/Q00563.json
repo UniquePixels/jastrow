@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00563",
-	"slug": "פטרין",
-	"headword": {
-		"text": "פטרין"
-	},
+	"sefariaHeadword": "פטרין",
+	"headwords": [
+		{
+			"text": "פטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

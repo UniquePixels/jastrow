@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00957",
-	"slug": "בניפיקין",
-	"headword": {
-		"text": "בְּנִיפִיקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּנִיפִיקִין",
+	"headwords": [
+		{
+			"text": "בְּנִיפִיקִין"
+		},
 		{
 			"text": "בנפיקין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 177,
 		"column": "b"

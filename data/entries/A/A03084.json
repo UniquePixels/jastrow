@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03084",
-	"slug": "אריג",
-	"headword": {
-		"text": "אָרִיג"
-	},
+	"sefariaHeadword": "אָרִיג",
+	"headwords": [
+		{
+			"text": "אָרִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "a"

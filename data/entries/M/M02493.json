@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02493",
-	"slug": "מרבה",
-	"headword": {
-		"text": "מְרֻבֶּה"
-	},
+	"sefariaHeadword": "מְרֻבֶּה",
+	"headwords": [
+		{
+			"text": "מְרֻבֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

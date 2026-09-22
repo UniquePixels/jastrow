@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00856",
-	"slug": "תפר-3",
-	"headword": {
-		"text": "תֹּפֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֹּפֶר",
+	"headwords": [
+		{
+			"text": "תֹּפֶר"
+		},
 		{
 			"text": "תֶּפֶר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "b"

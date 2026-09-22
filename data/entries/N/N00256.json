@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00256",
-	"slug": "נהוראי",
-	"headword": {
-		"text": "נְהוֹרַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהוֹרַאי",
+	"headwords": [
+		{
+			"text": "נְהוֹרַאי"
+		},
 		{
 			"text": "נְהוֹרַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 881,
 		"column": "b"

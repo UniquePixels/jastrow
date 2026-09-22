@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01011",
-	"slug": "סלסל",
-	"headword": {
-		"text": "סִלְסֵל"
-	},
+	"sefariaHeadword": "סִלְסֵל",
+	"headwords": [
+		{
+			"text": "סִלְסֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "b"

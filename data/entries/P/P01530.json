@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01530",
-	"slug": "עתיד-1",
-	"headword": {
-		"text": "עָתִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָתִיד",
+	"headwords": [
+		{
+			"text": "עָתִיד"
+		},
 		{
 			"text": "עֲתִידָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1129,
 		"column": "a"

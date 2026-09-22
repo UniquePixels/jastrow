@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01092",
-	"slug": "חלמונא",
-	"headword": {
-		"text": "חֶלְמוֹנָא"
-	},
+	"sefariaHeadword": "חֶלְמוֹנָא",
+	"headwords": [
+		{
+			"text": "חֶלְמוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 471,
 		"column": "b"

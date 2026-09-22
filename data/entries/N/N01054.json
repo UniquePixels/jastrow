@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01054",
-	"slug": "נפל-1",
-	"headword": {
-		"text": "נָפַל"
-	},
+	"sefariaHeadword": "נָפַל",
+	"headwords": [
+		{
+			"text": "נָפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "b"

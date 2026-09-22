@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00259",
-	"slug": "הופעותא",
-	"headword": {
-		"text": "הוֹפָעוּתָא"
-	},
+	"sefariaHeadword": "הוֹפָעוּתָא",
+	"headwords": [
+		{
+			"text": "הוֹפָעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

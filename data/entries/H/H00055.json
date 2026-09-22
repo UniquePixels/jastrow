@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00055",
-	"slug": "חביבה",
-	"headword": {
-		"text": "חֲבִיבָה"
-	},
+	"sefariaHeadword": "חֲבִיבָה",
+	"headwords": [
+		{
+			"text": "חֲבִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

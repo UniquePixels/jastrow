@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00640",
-	"slug": "סיכה-1",
-	"headword": {
-		"text": "סיכָה"
-	},
+	"sefariaHeadword": "סיכָה",
+	"headwords": [
+		{
+			"text": "סיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

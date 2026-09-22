@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01958",
-	"slug": "אלתית",
-	"headword": {
-		"text": "אִלְתִּית"
-	},
+	"sefariaHeadword": "אִלְתִּית",
+	"headwords": [
+		{
+			"text": "אִלְתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "a"

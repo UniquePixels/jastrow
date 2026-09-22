@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02614",
-	"slug": "אפוטיקון",
-	"headword": {
-		"text": "אפוטיקון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אפוטיקון",
+	"headwords": [
+		{
+			"text": "אפוטיקון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

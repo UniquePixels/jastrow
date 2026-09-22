@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00768",
-	"slug": "דכורו",
-	"headword": {
-		"text": "דְּכוּרוּ"
-	},
+	"sefariaHeadword": "דְּכוּרוּ",
+	"headwords": [
+		{
+			"text": "דְּכוּרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00318",
-	"slug": "יט״ת",
-	"headword": {
-		"text": "יט״ת"
-	},
+	"sefariaHeadword": "יט\"ת",
+	"headwords": [
+		{
+			"text": "יט״ת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

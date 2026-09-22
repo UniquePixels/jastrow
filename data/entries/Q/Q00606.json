@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00606",
-	"slug": "פיותא",
-	"headword": {
-		"text": "פַּיּוּתָא"
-	},
+	"sefariaHeadword": "פַּיּוּתָא",
+	"headwords": [
+		{
+			"text": "פַּיּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

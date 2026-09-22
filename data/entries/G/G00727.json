@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00727",
-	"slug": "זרעות",
-	"headword": {
-		"text": "זרעות"
-	},
+	"sefariaHeadword": "זרעות",
+	"headwords": [
+		{
+			"text": "זרעות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "b"

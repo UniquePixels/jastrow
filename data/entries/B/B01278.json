@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01278",
-	"slug": "ברירו",
-	"headword": {
-		"text": "בָּרִירוּ"
-	},
+	"sefariaHeadword": "בָּרִירוּ",
+	"headwords": [
+		{
+			"text": "בָּרִירוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "b"

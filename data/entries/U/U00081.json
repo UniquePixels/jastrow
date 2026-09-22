@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00081",
-	"slug": "שבועה",
-	"headword": {
-		"text": "שְׁבוּעָה"
-	},
+	"sefariaHeadword": "שְׁבוּעָה",
+	"headwords": [
+		{
+			"text": "שְׁבוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00253",
-	"slug": "חוג",
-	"headword": {
-		"text": "חוּג"
-	},
+	"sefariaHeadword": "חוּג",
+	"headwords": [
+		{
+			"text": "חוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

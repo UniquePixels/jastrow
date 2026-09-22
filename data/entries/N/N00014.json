@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00014",
-	"slug": "נאוסא",
-	"headword": {
-		"text": "נָאוּסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָאוּסָא",
+	"headwords": [
+		{
+			"text": "נָאוּסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 866,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01312",
-	"slug": "אילפי",
-	"headword": {
-		"text": "אִילְפַי"
-	},
+	"sefariaHeadword": "אִילְפַי",
+	"headwords": [
+		{
+			"text": "אִילְפַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "a"

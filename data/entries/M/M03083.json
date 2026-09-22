@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03083",
-	"slug": "מתנא-1",
-	"headword": {
-		"text": "מַתְּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְּנָא",
+	"headwords": [
+		{
+			"text": "מַתְּנָא"
+		},
 		{
 			"text": "מַתָּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 863,
 		"column": "b"

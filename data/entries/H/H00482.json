@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00482",
-	"slug": "חורש",
-	"headword": {
-		"text": "חוֹרֶשׁ"
-	},
+	"sefariaHeadword": "חוֹרֶשׁ",
+	"headwords": [
+		{
+			"text": "חוֹרֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

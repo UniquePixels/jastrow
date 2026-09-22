@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01122",
-	"slug": "פלצור",
-	"headword": {
-		"text": "פְּלָצוּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּלָצוּר",
+	"headwords": [
+		{
+			"text": "פְּלָצוּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1185,
 		"column": "a"

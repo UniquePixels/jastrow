@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01904",
-	"slug": "חתן-3",
-	"headword": {
-		"text": "חָתָן"
-	},
+	"sefariaHeadword": "חָתָן",
+	"headwords": [
+		{
+			"text": "חָתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 514,
 		"column": "a"

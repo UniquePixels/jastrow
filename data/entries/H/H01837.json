@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01837",
-	"slug": "חשיכה-1",
-	"headword": {
-		"text": "חֲשֵׁיכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשֵׁיכָה",
+	"headwords": [
+		{
+			"text": "חֲשֵׁיכָה"
+		},
 		{
 			"text": "חֲשֵׁכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 510,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00293",
-	"slug": "נואי",
-	"headword": {
-		"text": "נְוַאי"
-	},
+	"sefariaHeadword": "נְוַאי",
+	"headwords": [
+		{
+			"text": "נְוַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00629",
-	"slug": "ניהל",
-	"headword": {
-		"text": "נִיהֲל־"
-	},
+	"sefariaHeadword": "נִיהֲל־",
+	"headwords": [
+		{
+			"text": "נִיהֲל־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

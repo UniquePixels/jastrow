@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00531",
-	"slug": "עיטה",
-	"headword": {
-		"text": "עיטה"
-	},
+	"sefariaHeadword": "עיטה",
+	"headwords": [
+		{
+			"text": "עיטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

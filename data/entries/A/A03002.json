@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03002",
-	"slug": "ארדב",
-	"headword": {
-		"text": "אַרְדַּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְדַּב",
+	"headwords": [
+		{
+			"text": "אַרְדַּב"
+		},
 		{
 			"text": "אַרְדְּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 115,
 		"column": "b"

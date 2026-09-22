@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02164",
-	"slug": "קרקיא",
-	"headword": {
-		"text": "קרקיא"
-	},
+	"sefariaHeadword": "קרקיא",
+	"headwords": [
+		{
+			"text": "קרקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

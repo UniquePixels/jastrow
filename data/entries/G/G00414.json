@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00414",
-	"slug": "זיקתא",
-	"headword": {
-		"text": "זִיקְתָא"
-	},
+	"sefariaHeadword": "זִיקְתָא",
+	"headwords": [
+		{
+			"text": "זִיקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "b"

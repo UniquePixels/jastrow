@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01280",
-	"slug": "חני",
-	"headword": {
-		"text": "חני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חני",
+	"headwords": [
+		{
+			"text": "חני"
+		},
 		{
 			"text": "חָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 482,
 		"column": "b"

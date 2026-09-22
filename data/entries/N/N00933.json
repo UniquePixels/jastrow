@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00933",
-	"slug": "נסיוטאי",
-	"headword": {
-		"text": "נסיוטאי"
-	},
+	"sefariaHeadword": "נסיוטאי",
+	"headwords": [
+		{
+			"text": "נסיוטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 916,
 		"column": "b"

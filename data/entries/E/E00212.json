@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00212",
-	"slug": "הודרנא",
-	"headword": {
-		"text": "הוּדְרָנָא"
-	},
+	"sefariaHeadword": "הוּדְרָנָא",
+	"headwords": [
+		{
+			"text": "הוּדְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "b"

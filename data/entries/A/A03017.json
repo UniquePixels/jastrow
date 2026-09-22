@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03017",
-	"slug": "ארוגנוטיס",
-	"headword": {
-		"text": "אֲרוֹגְנַוְטֵיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲרוֹגְנַוְטֵיס",
+	"headwords": [
+		{
+			"text": "אֲרוֹגְנַוְטֵיס",
+			"reconstructed": true
+		},
 		{
 			"text": "אֲרוֹגְנַוְטֵין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 116,
 		"column": "a"

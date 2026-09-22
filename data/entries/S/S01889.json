@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01889",
-	"slug": "קרבה",
-	"headword": {
-		"text": "קְרֵבָה"
-	},
+	"sefariaHeadword": "קְרֵבָה",
+	"headwords": [
+		{
+			"text": "קְרֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1411,
 		"column": "b"

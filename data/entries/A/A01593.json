@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01593",
-	"slug": "איקוניא-2",
-	"headword": {
-		"text": "אִיקוֹנְיָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִיקוֹנְיָא II",
+	"headwords": [
+		{
+			"text": "אִיקוֹנְיָא",
+			"reconstructed": true,
+			"homograph": 2
+		},
 		{
 			"text": "אִיקוּנְיָא"
 		}
 	],
+	"display": "*{0} II, {1}",
 	"page": {
 		"number": 60,
 		"column": "a"

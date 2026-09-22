@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00329",
-	"slug": "ציור-3",
-	"headword": {
-		"text": "צִיּוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיּוּר ²",
+	"headwords": [
+		{
+			"text": "צִיּוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִיּוּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1275,
 		"column": "b"

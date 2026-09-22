@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01198",
-	"slug": "שלא",
-	"headword": {
-		"text": "שְׁלָא"
-	},
+	"sefariaHeadword": "שְׁלָא",
+	"headwords": [
+		{
+			"text": "שְׁלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

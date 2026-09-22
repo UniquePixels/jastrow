@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01326",
-	"slug": "נשך-2",
-	"headword": {
-		"text": "נֶשֶׁךְ"
-	},
+	"sefariaHeadword": "נֶשֶׁךְ",
+	"headwords": [
+		{
+			"text": "נֶשֶׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "b"

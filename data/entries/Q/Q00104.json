@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00104",
-	"slug": "פדא-3",
-	"headword": {
-		"text": "פָּדָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פָּדָא I",
+	"headwords": [
+		{
+			"text": "פָּדָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1136,
 		"column": "a"

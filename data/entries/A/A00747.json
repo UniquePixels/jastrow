@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00747",
-	"slug": "אונכין",
-	"headword": {
-		"text": "אוּנְכִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּנְכִין",
+	"headwords": [
+		{
+			"text": "אוּנְכִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 29,
 		"column": "a"

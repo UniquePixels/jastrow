@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01520",
-	"slug": "עשתור",
-	"headword": {
-		"text": "עַשְׁתּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַשְׁתּוֹר",
+	"headwords": [
 		{
-			"text": "בַּר עַשְׁתּוֹר"
+			"text": "עַשְׁתּוֹר"
+		},
+		{
+			"text": "בַּר עַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1128,
 		"column": "a"

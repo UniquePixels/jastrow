@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02904",
-	"slug": "אקופיא",
-	"headword": {
-		"text": "אקופיא"
-	},
+	"sefariaHeadword": "אקופיא",
+	"headwords": [
+		{
+			"text": "אקופיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

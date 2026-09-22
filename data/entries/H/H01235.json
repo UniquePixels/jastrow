@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01235",
-	"slug": "חמשיתא",
-	"headword": {
-		"text": "חַמְשִׁיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמְשִׁיתָא",
+	"headwords": [
+		{
+			"text": "חַמְשִׁיתָא"
+		},
 		{
 			"text": "חֲמַשְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 480,
 		"column": "b"

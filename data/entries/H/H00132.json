@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00132",
-	"slug": "חג-1",
-	"headword": {
-		"text": "חָג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָג",
+	"headwords": [
+		{
+			"text": "חָג"
+		},
 		{
 			"text": "חַג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 423,
 		"column": "b"

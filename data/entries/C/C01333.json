@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01333",
-	"slug": "גריטות",
-	"headword": {
-		"text": "גְּרִיטוֹת"
-	},
+	"sefariaHeadword": "גְּרִיטוֹת",
+	"headwords": [
+		{
+			"text": "גְּרִיטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 268,
 		"column": "b"

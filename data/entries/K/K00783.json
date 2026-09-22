@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00783",
-	"slug": "כלרייה",
-	"headword": {
-		"text": "כלרייה"
-	},
+	"sefariaHeadword": "כלרייה",
+	"headwords": [
+		{
+			"text": "כלרייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "b"

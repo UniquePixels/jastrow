@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00827",
-	"slug": "הרדופה",
-	"headword": {
-		"text": "הִרְדּוֹפָה"
-	},
+	"sefariaHeadword": "הִרְדֹּופָה",
+	"headwords": [
+		{
+			"text": "הִרְדּוֹפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00267",
-	"slug": "לול-2",
-	"headword": {
-		"text": "לוּל"
-	},
+	"sefariaHeadword": "לוּל",
+	"headwords": [
+		{
+			"text": "לוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "b"

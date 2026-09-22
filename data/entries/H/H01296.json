@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01296",
-	"slug": "חניף",
-	"headword": {
-		"text": "חֲנֵיף"
-	},
+	"sefariaHeadword": "חֲנֵיף",
+	"headwords": [
+		{
+			"text": "חֲנֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "b"

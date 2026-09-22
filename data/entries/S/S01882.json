@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01882",
-	"slug": "קראי",
-	"headword": {
-		"text": "קְרָאִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרָאִי",
+	"headwords": [
+		{
+			"text": "קְרָאִי"
+		},
 		{
 			"text": "קְרַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1410,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00598",
-	"slug": "פיוט",
-	"headword": {
-		"text": "פִּיּוּט"
-	},
+	"sefariaHeadword": "פִּיּוּט",
+	"headwords": [
+		{
+			"text": "פִּיּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

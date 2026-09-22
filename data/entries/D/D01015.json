@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01015",
-	"slug": "דקק-2",
-	"headword": {
-		"text": "דְּקַק"
-	},
+	"sefariaHeadword": "דְּקַק",
+	"headwords": [
+		{
+			"text": "דְּקַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 319,
 		"column": "b"

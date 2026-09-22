@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00963",
-	"slug": "תרומי",
-	"headword": {
-		"text": "תֵּרוֹמֵי"
-	},
+	"sefariaHeadword": "תֵּרוֹמֵי",
+	"headwords": [
+		{
+			"text": "תֵּרוֹמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

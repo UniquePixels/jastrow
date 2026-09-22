@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01220",
-	"slug": "כרכר-3",
-	"headword": {
-		"text": "כַּרְכָּר",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כַּרְכָּר",
+	"headwords": [
+		{
+			"text": "כַּרְכָּר",
+			"reconstructed": true
+		},
 		{
 			"text": "כַּרְכָּרָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 670,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03183",
-	"slug": "ארמלתא",
-	"headword": {
-		"text": "אַרְמַלְתָּא"
-	},
+	"sefariaHeadword": "אַרְמַלְתָּא",
+	"headwords": [
+		{
+			"text": "אַרְמַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

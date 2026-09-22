@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00110",
-	"slug": "לבנין",
-	"headword": {
-		"text": "לִבְנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִבְנִין",
+	"headwords": [
+		{
+			"text": "לִבְנִין"
+		},
 		{
 			"text": "לִבְנֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00144",
-	"slug": "נגזל",
-	"headword": {
-		"text": "נִגְזָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִגְזָל",
+	"headwords": [
 		{
-			"text": "נִיגְ׳"
+			"text": "נִגְזָל"
+		},
+		{
+			"text": "נִיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 873,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00767",
-	"slug": "דכורא",
-	"headword": {
-		"text": "דְּכוּרָא"
-	},
+	"sefariaHeadword": "דְּכוּרָא",
+	"headwords": [
+		{
+			"text": "דְּכוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "b"

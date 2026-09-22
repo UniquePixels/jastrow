@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00642",
-	"slug": "תם-1",
-	"headword": {
-		"text": "תָּם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תָּם I",
+	"headwords": [
+		{
+			"text": "תָּם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1674,
 		"column": "b"

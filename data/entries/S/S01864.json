@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01864",
-	"slug": "קקואתא",
-	"headword": {
-		"text": "קַקְוָאתָא"
-	},
+	"sefariaHeadword": "קַקְוָאתָא",
+	"headwords": [
+		{
+			"text": "קַקְוָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

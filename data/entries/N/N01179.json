@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01179",
-	"slug": "נקוטאי",
-	"headword": {
-		"text": "נְקוֹטָאֵי"
-	},
+	"sefariaHeadword": "נְקוֹטָאֵי",
+	"headwords": [
+		{
+			"text": "נְקוֹטָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00592",
-	"slug": "עימור-1",
-	"headword": {
-		"text": "עִימּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִימּוּר",
+	"headwords": [
+		{
+			"text": "עִימּוּר"
+		},
 		{
 			"text": "עִמּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1070,
 		"column": "b"

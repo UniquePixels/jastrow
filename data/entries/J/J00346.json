@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00346",
-	"slug": "ייקינטין",
-	"headword": {
-		"text": "יָיקִינְטִין"
-	},
+	"sefariaHeadword": "יָיקִינְטִין",
+	"headwords": [
+		{
+			"text": "יָיקִינְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

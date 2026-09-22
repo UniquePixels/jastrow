@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02442",
-	"slug": "מקצת",
-	"headword": {
-		"text": "מִקְצָת"
-	},
+	"sefariaHeadword": "מִקְצָת",
+	"headwords": [
+		{
+			"text": "מִקְצָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 832,
 		"column": "a"

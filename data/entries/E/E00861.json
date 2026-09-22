@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00861",
-	"slug": "הריון",
-	"headword": {
-		"text": "הֵרָיוֹן"
-	},
+	"sefariaHeadword": "הֵרָיוֹן",
+	"headwords": [
+		{
+			"text": "הֵרָיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

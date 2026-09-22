@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00685",
-	"slug": "כלבית",
-	"headword": {
-		"text": "כִּלְבִּית"
-	},
+	"sefariaHeadword": "כִּלְבִּית",
+	"headwords": [
+		{
+			"text": "כִּלְבִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "G00296",
-	"slug": "זיהרורא-1",
-	"headword": {
-		"text": "זִיהֲרוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיהֲרוֹרָא",
+	"headwords": [
+		{
+			"text": "זִיהֲרוֹרָא"
+		},
 		{
 			"text": "זִיהֲרָרָא"
 		},
 		{
-			"text": "זִהֲ׳"
+			"text": "זִהֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 392,
 		"column": "a"

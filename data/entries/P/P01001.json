@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01001",
-	"slug": "ענן-5",
-	"headword": {
-		"text": "עֲנַן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲנַן II",
+	"headwords": [
+		{
+			"text": "עֲנַן",
+			"homograph": 2
+		},
 		{
 			"text": "עֲנָנָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1095,
 		"column": "b"

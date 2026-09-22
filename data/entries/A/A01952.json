@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01952",
-	"slug": "אלקפרין",
-	"headword": {
-		"text": "אלקפרין"
-	},
+	"sefariaHeadword": "אלקפרין",
+	"headwords": [
+		{
+			"text": "אלקפרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

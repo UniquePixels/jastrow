@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02177",
-	"slug": "קרקעיתא",
-	"headword": {
-		"text": "קַרְקָעִיתָא"
-	},
+	"sefariaHeadword": "קַרְקָעִיתָא",
+	"headwords": [
+		{
+			"text": "קַרְקָעִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "b"

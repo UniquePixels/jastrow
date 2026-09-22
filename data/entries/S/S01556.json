@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01556",
-	"slug": "קנטין",
-	"headword": {
-		"text": "קִנְטִין"
-	},
+	"sefariaHeadword": "קִנְטִין",
+	"headwords": [
+		{
+			"text": "קִנְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

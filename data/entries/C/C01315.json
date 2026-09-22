@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01315",
-	"slug": "גרוש",
-	"headword": {
-		"text": "גָּרוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּרוּשׁ",
+	"headwords": [
+		{
+			"text": "גָּרוּשׁ"
+		},
 		{
 			"text": "גְּרוּשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 267,
 		"column": "a"

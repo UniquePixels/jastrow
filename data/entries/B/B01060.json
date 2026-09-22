@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01060",
-	"slug": "בעץ-2",
-	"headword": {
-		"text": "בַּעַץ"
-	},
+	"sefariaHeadword": "בַּעַץ",
+	"headwords": [
+		{
+			"text": "בַּעַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "b"

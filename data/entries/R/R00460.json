@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00460",
-	"slug": "צירן",
-	"headword": {
-		"text": "צִירָן"
-	},
+	"sefariaHeadword": "צִירָן",
+	"headwords": [
+		{
+			"text": "צִירָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "a"

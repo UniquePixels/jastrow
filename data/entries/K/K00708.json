@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00708",
-	"slug": "כלונס",
-	"headword": {
-		"text": "כְּלוֹנָס"
-	},
+	"sefariaHeadword": "כְּלוֹנָס",
+	"headwords": [
+		{
+			"text": "כְּלוֹנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "b"

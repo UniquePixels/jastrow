@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01331",
-	"slug": "ברקת",
-	"headword": {
-		"text": "בָּרֶקֶת"
-	},
+	"sefariaHeadword": "בָּרֶקֶת",
+	"headwords": [
+		{
+			"text": "בָּרֶקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00409",
-	"slug": "רונקי",
-	"headword": {
-		"text": "רוּנְקֵי"
-	},
+	"sefariaHeadword": "רוּנְקֵי",
+	"headwords": [
+		{
+			"text": "רוּנְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

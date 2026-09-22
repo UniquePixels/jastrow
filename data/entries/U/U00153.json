@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00153",
-	"slug": "שבסיס",
-	"headword": {
-		"text": "שַׁבְסֵיס"
-	},
+	"sefariaHeadword": "שַׁבְסֵיס",
+	"headwords": [
+		{
+			"text": "שַׁבְסֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "b"

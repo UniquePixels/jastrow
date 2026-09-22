@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00817",
-	"slug": "טריקטא",
-	"headword": {
-		"text": "טְרִיקְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִיקְטָא",
+	"headwords": [
+		{
+			"text": "טְרִיקְטָא"
+		},
 		{
 			"text": "טְרַקְטָהִ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 554,
 		"column": "a"

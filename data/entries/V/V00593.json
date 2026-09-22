@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00593",
-	"slug": "תלישה",
-	"headword": {
-		"text": "תְּלִישָׁה"
-	},
+	"sefariaHeadword": "תְּלִישָׁה",
+	"headwords": [
+		{
+			"text": "תְּלִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "a"

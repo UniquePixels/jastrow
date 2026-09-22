@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00297",
-	"slug": "שהוא",
-	"headword": {
-		"text": "שַׁהֲוָא"
-	},
+	"sefariaHeadword": "שַׁהֲוָא",
+	"headwords": [
+		{
+			"text": "שַׁהֲוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1526,
 		"column": "b"

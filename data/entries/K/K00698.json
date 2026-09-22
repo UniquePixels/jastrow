@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00698",
-	"slug": "כלוזא",
-	"headword": {
-		"text": "כְּלוֹזָא"
-	},
+	"sefariaHeadword": "כְּלוֹזָא",
+	"headwords": [
+		{
+			"text": "כְּלוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

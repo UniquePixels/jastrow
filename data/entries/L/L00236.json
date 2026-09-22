@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00236",
-	"slug": "לוט-1",
-	"headword": {
-		"text": "לוֹט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לוֹט I",
+	"headwords": [
+		{
+			"text": "לוֹט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 696,
 		"column": "b"

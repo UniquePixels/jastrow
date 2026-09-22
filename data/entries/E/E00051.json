@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00051",
-	"slug": "הבראה",
-	"headword": {
-		"text": "הַבְרָאָה"
-	},
+	"sefariaHeadword": "הַבְרָאָה",
+	"headwords": [
+		{
+			"text": "הַבְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "b"

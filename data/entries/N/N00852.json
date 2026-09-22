@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00852",
-	"slug": "נכת-2",
-	"headword": {
-		"text": "נְכַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְכַת",
+	"headwords": [
+		{
+			"text": "נְכַת"
+		},
 		{
 			"text": "נְכֵית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 912,
 		"column": "b"

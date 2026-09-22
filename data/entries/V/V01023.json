@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01023",
-	"slug": "תרנגולא",
-	"headword": {
-		"text": "תַּרְנְגוֹלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תַּרְנְגוֹלָא II",
+	"headwords": [
+		{
+			"text": "תַּרְנְגוֹלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1700,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02095",
-	"slug": "קרמיון",
-	"headword": {
-		"text": "קְרַמְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַמְיוֹן",
+	"headwords": [
 		{
-			"text": "קִירַ׳"
+			"text": "קְרַמְיוֹן"
+		},
+		{
+			"text": "קִירַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1422,
 		"column": "a"

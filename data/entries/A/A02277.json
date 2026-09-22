@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02277",
-	"slug": "אנפיליא",
-	"headword": {
-		"text": "אִנְפִּילְיָא"
-	},
+	"sefariaHeadword": "אִנְפִּילְיָא",
+	"headwords": [
+		{
+			"text": "אִנְפִּילְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

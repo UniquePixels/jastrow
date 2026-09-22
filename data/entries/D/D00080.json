@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00080",
-	"slug": "דברא-1",
-	"headword": {
-		"text": "דַּבָּרָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּבָּרָא I",
+	"headwords": [
+		{
+			"text": "דַּבָּרָא",
+			"homograph": 1
+		},
 		{
 			"text": "דְּבָרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 279,
 		"column": "a"

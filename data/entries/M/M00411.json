@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00411",
-	"slug": "מודיע",
-	"headword": {
-		"text": "מוֹדִיעַ"
-	},
+	"sefariaHeadword": "מוֹדִיעַ",
+	"headwords": [
+		{
+			"text": "מוֹדִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

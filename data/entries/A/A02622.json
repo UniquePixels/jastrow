@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02622",
-	"slug": "אפולים",
-	"headword": {
-		"text": "אֲפוֹלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲפוֹלִים",
+	"headwords": [
+		{
+			"text": "אֲפוֹלִים"
+		},
 		{
 			"text": "אִיפוֹלִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִיפוֹלִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 100,
 		"column": "b"

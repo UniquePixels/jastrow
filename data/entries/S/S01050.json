@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01050",
-	"slug": "קינסין",
-	"headword": {
-		"text": "קִינְסִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קִינְסִין",
+	"headwords": [
+		{
+			"text": "קִינְסִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U00884",
-	"slug": "שיטה-3",
-	"headword": {
-		"text": "שִׁיטָּה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיטָּה ²",
+	"headwords": [
+		{
+			"text": "שִׁיטָּה",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁטָּה",
 			"homograph": 3
 		}
 	],
+	"display": "{0} ², {1} III",
 	"page": {
 		"number": 1560,
 		"column": "a"

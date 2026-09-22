@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01429",
-	"slug": "פציח-2",
-	"headword": {
-		"text": "פְּצִיחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּצִיחַ II",
+	"headwords": [
+		{
+			"text": "פְּצִיחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1205,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

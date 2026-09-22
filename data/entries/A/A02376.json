@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02376",
-	"slug": "אסטלא",
-	"headword": {
-		"text": "אִסְטְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְלָא",
+	"headwords": [
+		{
+			"text": "אִסְטְלָא"
+		},
 		{
 			"text": "אִצְטְלָא"
 		},
@@ -12,9 +13,11 @@
 			"text": "אִסְטוֹלָא"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 90,
 		"column": "b"

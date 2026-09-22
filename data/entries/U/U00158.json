@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00158",
-	"slug": "שבע-4",
-	"headword": {
-		"text": "שְׁבַע",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שְׁבַע II",
+	"headwords": [
+		{
+			"text": "שְׁבַע",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1515,
 		"column": "b"

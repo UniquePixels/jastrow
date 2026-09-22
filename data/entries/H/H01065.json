@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01065",
-	"slug": "חליקופרי",
-	"headword": {
-		"text": "חֲלִיקוּפְרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִיקוּפְרִי",
+	"headwords": [
+		{
+			"text": "חֲלִיקוּפְרִי"
+		},
 		{
 			"text": "חֲלִי קוּפְרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 469,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00611",
-	"slug": "ניבלא",
-	"headword": {
-		"text": "נִיבְלָא"
-	},
+	"sefariaHeadword": "נִיבְלָא",
+	"headwords": [
+		{
+			"text": "נִיבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

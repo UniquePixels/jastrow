@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01455",
-	"slug": "איסטרוגי",
-	"headword": {
-		"text": "אִיסְטְרוֹגֵי"
-	},
+	"sefariaHeadword": "אִיסְטְרוֹגֵי",
+	"headwords": [
+		{
+			"text": "אִיסְטְרוֹגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

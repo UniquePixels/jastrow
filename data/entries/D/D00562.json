@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00562",
-	"slug": "דייסא",
-	"headword": {
-		"text": "דַּיְּיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיְּיסָא",
+	"headwords": [
+		{
+			"text": "דַּיְּיסָא"
+		},
 		{
 			"text": "דַּיְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 298,
 		"column": "b"

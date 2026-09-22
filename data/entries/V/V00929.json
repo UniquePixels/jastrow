@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00929",
-	"slug": "תרבינא",
-	"headword": {
-		"text": "תֻּרְבְּיָנָא"
-	},
+	"sefariaHeadword": "תֻּרְבְּיָנָא",
+	"headwords": [
+		{
+			"text": "תֻּרְבְּיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

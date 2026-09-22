@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00257",
-	"slug": "תופא",
-	"headword": {
-		"text": "תּוּפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּפָּא",
+	"headwords": [
+		{
+			"text": "תּוּפָּא"
+		},
 		{
 			"text": "תֻּפָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "a"

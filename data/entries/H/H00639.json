@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00639",
-	"slug": "חטף-1",
-	"headword": {
-		"text": "חָטַף"
-	},
+	"sefariaHeadword": "חָטַף",
+	"headwords": [
+		{
+			"text": "חָטַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "a"

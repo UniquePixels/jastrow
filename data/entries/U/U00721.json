@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00721",
-	"slug": "שהרר",
-	"headword": {
-		"text": "שַׁהְרֵר"
-	},
+	"sefariaHeadword": "שַׁהְרֵר",
+	"headwords": [
+		{
+			"text": "שַׁהְרֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

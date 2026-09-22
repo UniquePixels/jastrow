@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00039",
-	"slug": "מאכל",
-	"headword": {
-		"text": "מַאֲכָל"
-	},
+	"sefariaHeadword": "מַאֲכָל",
+	"headwords": [
+		{
+			"text": "מַאֲכָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

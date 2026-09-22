@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00615",
-	"slug": "מורג",
-	"headword": {
-		"text": "מוֹרָג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרָג",
+	"headwords": [
+		{
+			"text": "מוֹרָג"
+		},
 		{
 			"text": "מוֹרֵג"
 		},
@@ -12,6 +13,7 @@
 			"text": "מוֹרְגָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 749,
 		"column": "a"

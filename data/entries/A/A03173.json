@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03173",
-	"slug": "ארמותא",
-	"headword": {
-		"text": "אָרָמוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָרָמוּתָא",
+	"headwords": [
 		{
-			"text": "אֲרָ׳"
+			"text": "אָרָמוּתָא"
+		},
+		{
+			"text": "אֲרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 122,
 		"column": "b"

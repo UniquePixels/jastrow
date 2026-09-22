@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00487",
-	"slug": "רחוק-1",
-	"headword": {
-		"text": "רִחוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחוּק",
+	"headwords": [
+		{
+			"text": "רִחוּק"
+		},
 		{
 			"text": "רִחוֹק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1465,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01772",
-	"slug": "מני-5",
-	"headword": {
-		"text": "מני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מני",
+	"headwords": [
+		{
+			"text": "מני"
+		},
 		{
 			"text": "מָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 799,
 		"column": "b"

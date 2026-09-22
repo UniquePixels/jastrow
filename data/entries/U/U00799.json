@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00799",
-	"slug": "שיבות",
-	"headword": {
-		"text": "שֵׂיבוּת"
-	},
+	"sefariaHeadword": "שֵׂיבוּת",
+	"headwords": [
+		{
+			"text": "שֵׂיבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

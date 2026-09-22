@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02135",
-	"slug": "פתולא",
-	"headword": {
-		"text": "פִּתּוּלָא"
-	},
+	"sefariaHeadword": "פִּתּוּלָא",
+	"headwords": [
+		{
+			"text": "פִּתּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

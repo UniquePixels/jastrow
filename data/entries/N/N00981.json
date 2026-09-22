@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00981",
-	"slug": "נעים-2",
-	"headword": {
-		"text": "נָעִים"
-	},
+	"sefariaHeadword": "נָעִים",
+	"headwords": [
+		{
+			"text": "נָעִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "b"

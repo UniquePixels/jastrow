@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02079",
-	"slug": "אמתני",
-	"headword": {
-		"text": "אֶמְתָנִי"
-	},
+	"sefariaHeadword": "אֶמְתָנִי",
+	"headwords": [
+		{
+			"text": "אֶמְתָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00661",
-	"slug": "תמונה",
-	"headword": {
-		"text": "תְּמוּנָה"
-	},
+	"sefariaHeadword": "תְּמוּנָה",
+	"headwords": [
+		{
+			"text": "תְּמוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

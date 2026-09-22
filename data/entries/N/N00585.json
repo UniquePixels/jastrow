@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00585",
-	"slug": "נטר-3",
-	"headword": {
-		"text": "נָּטֵר"
-	},
+	"sefariaHeadword": "נָּטֵר",
+	"headwords": [
+		{
+			"text": "נָּטֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 901,
 		"column": "b"

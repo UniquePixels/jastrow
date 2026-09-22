@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00388",
-	"slug": "אדונקי",
-	"headword": {
-		"text": "אדונקי"
-	},
+	"sefariaHeadword": "אדונקי",
+	"headwords": [
+		{
+			"text": "אדונקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

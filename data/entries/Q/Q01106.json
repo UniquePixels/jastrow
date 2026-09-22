@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01106",
-	"slug": "פלסטיר",
-	"headword": {
-		"text": "פְּלַסְטִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַסְטִיר",
+	"headwords": [
+		{
+			"text": "פְּלַסְטִיר"
+		},
 		{
 			"text": "פְּלַסְטֵר"
 		},
@@ -12,6 +13,7 @@
 			"text": "פלסתר"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1184,
 		"column": "a"

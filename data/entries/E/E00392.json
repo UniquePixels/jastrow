@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00392",
-	"slug": "הילוך",
-	"headword": {
-		"text": "הִילּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִילּוּךְ",
+	"headwords": [
+		{
+			"text": "הִילּוּךְ"
+		},
 		{
 			"text": "הִלּוּךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 346,
 		"column": "a"

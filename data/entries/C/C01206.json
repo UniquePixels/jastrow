@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01206",
-	"slug": "גפס",
-	"headword": {
-		"text": "גָּפַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּפַס",
+	"headwords": [
+		{
+			"text": "גָּפַס"
+		},
 		{
 			"text": "גָּפַת"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 262,
 		"column": "b"

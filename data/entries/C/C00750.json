@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00750",
-	"slug": "גינאי-1",
-	"headword": {
-		"text": "גִּינַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינַּאי",
+	"headwords": [
+		{
+			"text": "גִּינַּאי"
+		},
 		{
 			"text": "גִּינַּיי",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 239,
 		"column": "b"

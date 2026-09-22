@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00356",
-	"slug": "דורגון",
-	"headword": {
-		"text": "דּוּרְגּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּרְגּוֹן",
+	"headwords": [
+		{
+			"text": "דּוּרְגּוֹן"
+		},
 		{
 			"text": "דַּרְגּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 289,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00877",
-	"slug": "טרפירא",
-	"headword": {
-		"text": "טרפירא"
-	},
+	"sefariaHeadword": "טרפירא",
+	"headwords": [
+		{
+			"text": "טרפירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "b"

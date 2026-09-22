@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00499",
-	"slug": "תירגם",
-	"headword": {
-		"text": "תִּירְגֵּם"
-	},
+	"sefariaHeadword": "תִּירְגֵּם",
+	"headwords": [
+		{
+			"text": "תִּירְגֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00360",
-	"slug": "טיכני",
-	"headword": {
-		"text": "טִיכְנִי"
-	},
+	"sefariaHeadword": "טִיכְנִי",
+	"headwords": [
+		{
+			"text": "טִיכְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "b"

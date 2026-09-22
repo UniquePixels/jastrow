@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01482",
-	"slug": "סקיפסטי",
-	"headword": {
-		"text": "סְקִיפַּסְטִי"
-	},
+	"sefariaHeadword": "סְקִיפַּסְטִי",
+	"headwords": [
+		{
+			"text": "סְקִיפַּסְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00004",
-	"slug": "עאן",
-	"headword": {
-		"text": "עָאן"
-	},
+	"sefariaHeadword": "עָאן",
+	"headwords": [
+		{
+			"text": "עָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "a"

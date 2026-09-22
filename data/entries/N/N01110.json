@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01110",
-	"slug": "נצח-3",
-	"headword": {
-		"text": "נִצֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִצֵּחַ",
+	"headwords": [
+		{
+			"text": "נִצֵּחַ"
+		},
 		{
 			"text": "נִצַּחַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 928,
 		"column": "a"

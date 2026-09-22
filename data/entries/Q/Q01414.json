@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01414",
-	"slug": "פפיס",
-	"headword": {
-		"text": "פַּפְּיָס"
-	},
+	"sefariaHeadword": "פַּפְּיָס",
+	"headwords": [
+		{
+			"text": "פַּפְּיָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "b"

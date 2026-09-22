@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00618",
-	"slug": "בילוניא",
-	"headword": {
-		"text": "בילוניא"
-	},
+	"sefariaHeadword": "בילוניא",
+	"headwords": [
+		{
+			"text": "בילוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

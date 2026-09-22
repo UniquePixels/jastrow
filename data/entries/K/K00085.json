@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00085",
-	"slug": "כבש-5",
-	"headword": {
-		"text": "כֵּבַשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כֵּבַשׁ I",
+	"headwords": [
+		{
+			"text": "כֵּבַשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 611,
 		"column": "b"

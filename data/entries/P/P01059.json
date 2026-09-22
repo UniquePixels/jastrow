@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01059",
-	"slug": "עפוי",
-	"headword": {
-		"text": "עִפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִפּוּי",
+	"headwords": [
+		{
+			"text": "עִפּוּי"
+		},
 		{
 			"text": "עִפּוּשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1099,
 		"column": "b"

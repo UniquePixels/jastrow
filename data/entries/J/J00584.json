@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00584",
-	"slug": "יקר-5",
-	"headword": {
-		"text": "יְקָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְקָר ²",
+	"headwords": [
+		{
+			"text": "יְקָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "יְקָרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 593,
 		"column": "a"

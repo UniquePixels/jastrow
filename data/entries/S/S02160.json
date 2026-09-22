@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02160",
-	"slug": "קרקוזאה",
-	"headword": {
-		"text": "קַרְקוּזָאָה"
-	},
+	"sefariaHeadword": "קַרְקוּזָאָה",
+	"headwords": [
+		{
+			"text": "קַרְקוּזָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

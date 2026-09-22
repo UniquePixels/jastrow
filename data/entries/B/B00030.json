@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00030",
-	"slug": "באישות",
-	"headword": {
-		"text": "בְּאִישׁוּת"
-	},
+	"sefariaHeadword": "בְּאִישׁוּת",
+	"headwords": [
+		{
+			"text": "בְּאִישׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

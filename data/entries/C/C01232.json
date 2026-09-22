@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01232",
-	"slug": "גרב-3",
-	"headword": {
-		"text": "גָּרָב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גָּרָב I",
+	"headwords": [
+		{
+			"text": "גָּרָב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 263,
 		"column": "b"

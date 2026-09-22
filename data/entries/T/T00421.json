@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00421",
-	"slug": "רוף",
-	"headword": {
-		"text": "רוּף"
-	},
+	"sefariaHeadword": "רוּף",
+	"headwords": [
+		{
+			"text": "רוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

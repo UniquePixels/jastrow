@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00032",
-	"slug": "ויא",
-	"headword": {
-		"text": "וָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָיָא",
+	"headwords": [
+		{
+			"text": "וָיָא"
+		},
 		{
 			"text": "וַיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 373,
 		"column": "a"

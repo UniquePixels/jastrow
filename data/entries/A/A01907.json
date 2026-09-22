@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01907",
-	"slug": "אלמא-1",
-	"headword": {
-		"text": "אִלְּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְּמָא",
+	"headwords": [
+		{
+			"text": "אִלְּמָא"
+		},
 		{
 			"text": "אִילְּמָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אֲלוּמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 71,
 		"column": "b"

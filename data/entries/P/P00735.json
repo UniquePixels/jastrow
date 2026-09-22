@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00735",
-	"slug": "עכירה",
-	"headword": {
-		"text": "עֲכִירָה"
-	},
+	"sefariaHeadword": "עֲכִירָה",
+	"headwords": [
+		{
+			"text": "עֲכִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "b"

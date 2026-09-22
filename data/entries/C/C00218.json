@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00218",
-	"slug": "גדיש-2",
-	"headword": {
-		"text": "גָּדִישׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גָּדִישׁ I",
+	"headwords": [
+		{
+			"text": "גָּדִישׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 212,
 		"column": "b"

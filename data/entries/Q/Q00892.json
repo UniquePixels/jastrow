@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00892",
-	"slug": "פיתוי",
-	"headword": {
-		"text": "פִּיתּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיתּוּי",
+	"headwords": [
 		{
-			"text": "פִּתּ׳"
+			"text": "פִּיתּוּי"
+		},
+		{
+			"text": "פִּתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1173,
 		"column": "a"

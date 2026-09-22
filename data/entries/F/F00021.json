@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00021",
-	"slug": "ווה",
-	"headword": {
-		"text": "וָוה"
-	},
+	"sefariaHeadword": "וָוה",
+	"headwords": [
+		{
+			"text": "וָוה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

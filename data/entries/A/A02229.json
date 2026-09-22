@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02229",
-	"slug": "אנינה",
-	"headword": {
-		"text": "אֲנִינָה"
-	},
+	"sefariaHeadword": "אֲנִינָה",
+	"headwords": [
+		{
+			"text": "אֲנִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

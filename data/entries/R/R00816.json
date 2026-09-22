@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00816",
-	"slug": "צרתי",
-	"headword": {
-		"text": "צִרְתֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִרְתֵּי",
+	"headwords": [
+		{
+			"text": "צִרְתֵּי"
+		},
 		{
 			"text": "צִתְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1306,
 		"column": "a"

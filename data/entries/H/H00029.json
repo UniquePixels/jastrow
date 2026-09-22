@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00029",
-	"slug": "חבור",
-	"headword": {
-		"text": "חִבּוּר"
-	},
+	"sefariaHeadword": "חִבּוּר",
+	"headwords": [
+		{
+			"text": "חִבּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "b"

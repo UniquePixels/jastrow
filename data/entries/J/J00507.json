@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00507",
-	"slug": "יפיפות",
-	"headword": {
-		"text": "יָפְיָפוּת"
-	},
+	"sefariaHeadword": "יָפְיָפוּת",
+	"headwords": [
+		{
+			"text": "יָפְיָפוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

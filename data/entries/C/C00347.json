@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00347",
-	"slug": "גוזלא-1",
-	"headword": {
-		"text": "גּוֹזָלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוֹזָלָא I",
+	"headwords": [
+		{
+			"text": "גּוֹזָלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 220,
 		"column": "a"

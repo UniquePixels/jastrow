@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00507",
-	"slug": "סטרומטין",
-	"headword": {
-		"text": "סִטְרוֹמָטִין"
-	},
+	"sefariaHeadword": "סִטְרוֹמָטִין",
+	"headwords": [
+		{
+			"text": "סִטְרוֹמָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

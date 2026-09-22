@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00060",
-	"slug": "צבעא-1",
-	"headword": {
-		"text": "צַבָּעָא"
-	},
+	"sefariaHeadword": "צַבָּעָא",
+	"headwords": [
+		{
+			"text": "צַבָּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "b"

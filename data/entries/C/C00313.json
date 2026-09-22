@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00313",
-	"slug": "גודלנא",
-	"headword": {
-		"text": "גּוֹדְלָנָא"
-	},
+	"sefariaHeadword": "גּוֹדְלָנָא",
+	"headwords": [
+		{
+			"text": "גּוֹדְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

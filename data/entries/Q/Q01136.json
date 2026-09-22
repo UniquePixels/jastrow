@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01136",
-	"slug": "פמוט",
-	"headword": {
-		"text": "פָּמוֹט"
-	},
+	"sefariaHeadword": "פָּמוֹט",
+	"headwords": [
+		{
+			"text": "פָּמוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

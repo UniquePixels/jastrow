@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00139",
-	"slug": "סגיעא",
-	"headword": {
-		"text": "סַגִּיעָא"
-	},
+	"sefariaHeadword": "סַגִּיעָא",
+	"headwords": [
+		{
+			"text": "סַגִּיעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

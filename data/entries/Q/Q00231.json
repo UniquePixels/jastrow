@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00231",
-	"slug": "פולימרכוס",
-	"headword": {
-		"text": "פּוֹלִימַרְכוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹלִימַרְכוֹס",
+	"headwords": [
 		{
-			"text": "פּוֹלְמַ׳"
+			"text": "פּוֹלִימַרְכוֹס"
+		},
+		{
+			"text": "פּוֹלְמַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1141,
 		"column": "b"

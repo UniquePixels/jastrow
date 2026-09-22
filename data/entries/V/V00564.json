@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00564",
-	"slug": "תל-2",
-	"headword": {
-		"text": "תֵּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּל ²",
+	"headwords": [
+		{
+			"text": "תֵּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "תִּלָּא"
 		},
 		{
-			"text": "תִּי׳"
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1670,
 		"column": "a"

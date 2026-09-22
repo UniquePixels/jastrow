@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01500",
-	"slug": "עשר-3",
-	"headword": {
-		"text": "עשֶׁר"
-	},
+	"sefariaHeadword": "עשֶׁר",
+	"headwords": [
+		{
+			"text": "עשֶׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1127,
 		"column": "a"

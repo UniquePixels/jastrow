@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01600",
-	"slug": "פרהבא",
-	"headword": {
-		"text": "פַּרְהֲבָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּרְהֲבָא",
+	"headwords": [
+		{
+			"text": "פַּרְהֲבָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1216,
 		"column": "b"

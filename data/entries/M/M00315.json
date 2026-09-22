@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00315",
-	"slug": "מדע-1",
-	"headword": {
-		"text": "מַדָּע"
-	},
+	"sefariaHeadword": "מַדָּע",
+	"headwords": [
+		{
+			"text": "מַדָּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

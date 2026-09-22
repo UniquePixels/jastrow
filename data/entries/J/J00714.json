@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00714",
-	"slug": "יתב-3",
-	"headword": {
-		"text": "יָתֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָתֵב",
+	"headwords": [
+		{
+			"text": "יָתֵב"
+		},
 		{
 			"text": "יָתֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 603,
 		"column": "a"

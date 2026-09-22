@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00551",
-	"slug": "צלתא",
-	"headword": {
-		"text": "צַלְתָּא"
-	},
+	"sefariaHeadword": "צַלְתָּא",
+	"headwords": [
+		{
+			"text": "צַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

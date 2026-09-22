@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00932",
-	"slug": "חכירא-1",
-	"headword": {
-		"text": "חֲכִירָא"
-	},
+	"sefariaHeadword": "חֲכִירָא",
+	"headwords": [
+		{
+			"text": "חֲכִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "a"

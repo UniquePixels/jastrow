@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01081",
-	"slug": "פלמטרין",
-	"headword": {
-		"text": "פלמטרין"
-	},
+	"sefariaHeadword": "פלמטרין",
+	"headwords": [
+		{
+			"text": "פלמטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

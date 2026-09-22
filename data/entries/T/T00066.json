@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "T00066",
-	"slug": "רבובה-1",
-	"headword": {
-		"text": "רְבוּבָה",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*רְבוּבָה I",
+	"headwords": [
+		{
+			"text": "רְבוּבָה",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1440,
 		"column": "a"

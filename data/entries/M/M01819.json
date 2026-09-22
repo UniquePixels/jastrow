@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01819",
-	"slug": "מנשייא",
-	"headword": {
-		"text": "מְנַשְׁיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְנַשְׁיָיא",
+	"headwords": [
+		{
+			"text": "מְנַשְׁיָיא"
+		},
 		{
 			"text": "מְנַשְׁיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 802,
 		"column": "b"

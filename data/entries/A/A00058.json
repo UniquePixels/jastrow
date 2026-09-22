@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00058",
-	"slug": "אבוברם",
-	"headword": {
-		"text": "אַבּוּבְרָם"
-	},
+	"sefariaHeadword": "אַבּוּבְרָם",
+	"headwords": [
+		{
+			"text": "אַבּוּבְרָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "b"

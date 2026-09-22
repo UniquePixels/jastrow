@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00127",
-	"slug": "בדותא",
-	"headword": {
-		"text": "בָּדוּתָא"
-	},
+	"sefariaHeadword": "בָּדוּתָא",
+	"headwords": [
+		{
+			"text": "בָּדוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "b"

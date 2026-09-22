@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01766",
-	"slug": "מנטר",
-	"headword": {
-		"text": "מִנְטַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִי׳ מִנְטַר",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִנְטַר"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 799,
 		"column": "b"

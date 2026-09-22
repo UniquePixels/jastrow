@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00414",
-	"slug": "בזבזי",
-	"headword": {
-		"text": "בִּזְבְּזֵי"
-	},
+	"sefariaHeadword": "בִּזְבְּזֵי",
+	"headwords": [
+		{
+			"text": "בִּזְבְּזֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "a"

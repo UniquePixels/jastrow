@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00151",
-	"slug": "נגיבא",
-	"headword": {
-		"text": "נְגִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגִיבָא",
+	"headwords": [
+		{
+			"text": "נְגִיבָא"
+		},
 		{
 			"text": "נְגִיבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 874,
 		"column": "a"

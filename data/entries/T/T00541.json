@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00541",
-	"slug": "רחש-2",
-	"headword": {
-		"text": "רְחַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחַשׁ",
+	"headwords": [
+		{
+			"text": "רְחַשׁ"
+		},
 		{
 			"text": "רְחֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1470,
 		"column": "a"

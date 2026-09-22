@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01633",
-	"slug": "אישתא",
-	"headword": {
-		"text": "אֶישְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶישְׁתָּא",
+	"headwords": [
+		{
+			"text": "אֶישְׁתָּא"
+		},
 		{
 			"text": "אֶשְׁתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֶשְׁתָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 61,
 		"column": "a"

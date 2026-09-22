@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00611",
-	"slug": "סיטנו",
-	"headword": {
-		"text": "סיטנו"
-	},
+	"sefariaHeadword": "סיטנו",
+	"headwords": [
+		{
+			"text": "סיטנו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

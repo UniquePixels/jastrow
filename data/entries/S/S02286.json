@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02286",
-	"slug": "קתדרין",
-	"headword": {
-		"text": "קְתִדְרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְתִדְרִין",
+	"headwords": [
 		{
-			"text": "קְתִידְ׳"
+			"text": "קְתִדְרִין"
+		},
+		{
+			"text": "קְתִידְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1434,
 		"column": "a"

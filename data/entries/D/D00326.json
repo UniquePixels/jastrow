@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00326",
-	"slug": "דוקא-1",
-	"headword": {
-		"text": "דַּוְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּוְקָא",
+	"headwords": [
+		{
+			"text": "דַּוְקָא"
+		},
 		{
 			"text": "דַּוְוקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 287,
 		"column": "b"

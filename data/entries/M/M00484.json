@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00484",
-	"slug": "מול-3",
-	"headword": {
-		"text": "מוּל"
-	},
+	"sefariaHeadword": "מוּל",
+	"headwords": [
+		{
+			"text": "מוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "a"

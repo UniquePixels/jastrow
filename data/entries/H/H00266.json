@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00266",
-	"slug": "חוה",
-	"headword": {
-		"text": "חַוָּהּ"
-	},
+	"sefariaHeadword": "חַוָּהּ",
+	"headwords": [
+		{
+			"text": "חַוָּהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00922",
-	"slug": "מחצה",
-	"headword": {
-		"text": "מֶחֱצָה"
-	},
+	"sefariaHeadword": "מֶחֱצָה",
+	"headwords": [
+		{
+			"text": "מֶחֱצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

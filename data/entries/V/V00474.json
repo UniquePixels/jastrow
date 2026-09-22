@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00474",
-	"slug": "תינתא",
-	"headword": {
-		"text": "תֵּינְתָא"
-	},
+	"sefariaHeadword": "תֵּינְתָא",
+	"headwords": [
+		{
+			"text": "תֵּינְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00878",
-	"slug": "מחיקתא",
-	"headword": {
-		"text": "מְחִיקָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְחִיקָתָא",
+	"headwords": [
+		{
+			"text": "מְחִיקָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

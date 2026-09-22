@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01464",
-	"slug": "פקוסים-2",
-	"headword": {
-		"text": "פִּקּוּסִים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פִּקּוּסִים",
+	"headwords": [
+		{
+			"text": "פִּקּוּסִים",
+			"reconstructed": true
+		},
 		{
 			"text": "פִּקּוּסִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1208,
 		"column": "a"

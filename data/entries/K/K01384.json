@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01384",
-	"slug": "כתפי",
-	"headword": {
-		"text": "כַּתְּפִי"
-	},
+	"sefariaHeadword": "כַּתְּפִי",
+	"headwords": [
+		{
+			"text": "כַּתְּפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "b"

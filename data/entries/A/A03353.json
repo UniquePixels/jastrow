@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03353",
-	"slug": "אשראי-2",
-	"headword": {
-		"text": "אַשְׁרַאי"
-	},
+	"sefariaHeadword": "אַשְׁרַאי",
+	"headwords": [
+		{
+			"text": "אַשְׁרַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00023",
-	"slug": "סאתא-1",
-	"headword": {
-		"text": "סָאתָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָאתָא I",
+	"headwords": [
+		{
+			"text": "סָאתָא",
+			"homograph": 1
+		},
 		{
 			"text": "סָאתָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 948,
 		"column": "a"

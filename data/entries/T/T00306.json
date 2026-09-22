@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00306",
-	"slug": "רובי-1",
-	"headword": {
-		"text": "רוֹבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוֹבִי",
+	"headwords": [
+		{
+			"text": "רוֹבִי"
+		},
 		{
 			"text": "רוֹבְיָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1455,
 		"column": "b"

@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00329",
-	"slug": "גווזא-2",
-	"headword": {
-		"text": "גַּוָּוזָא , II"
-	},
+	"sefariaHeadword": "גַּוָּוזָא , II",
+	"headwords": [
+		{
+			"text": "גַּוָּוזָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 219,
 		"column": "b"

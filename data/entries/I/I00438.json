@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00438",
-	"slug": "טירוניא-2",
-	"headword": {
-		"text": "טִירוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִירוּנְיָא",
+	"headwords": [
+		{
+			"text": "טִירוּנְיָא"
+		},
 		{
 			"text": "טִירוּנְיָיא"
 		},
 		{
-			"text": "טִר׳"
+			"text": "טִר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 534,
 		"column": "b"

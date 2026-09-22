@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00957",
-	"slug": "כספיא",
-	"headword": {
-		"text": "כָּסִפְיָא"
-	},
+	"sefariaHeadword": "כָּסִפְיָא",
+	"headwords": [
+		{
+			"text": "כָּסִפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 655,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00972",
-	"slug": "אזכרה",
-	"headword": {
-		"text": "אַזְכָּרָה"
-	},
+	"sefariaHeadword": "אַזְכָּרָה",
+	"headwords": [
+		{
+			"text": "אַזְכָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "b"

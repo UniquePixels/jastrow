@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00501",
-	"slug": "תירוכין",
-	"headword": {
-		"text": "תִּירוּכִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּירוּכִין",
+	"headwords": [
 		{
-			"text": "תִּר׳"
+			"text": "תִּירוּכִין"
+		},
+		{
+			"text": "תִּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1666,
 		"column": "b"

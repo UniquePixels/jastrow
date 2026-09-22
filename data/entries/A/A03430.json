@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03430",
-	"slug": "אתנא-1",
-	"headword": {
-		"text": "אתנא"
-	},
+	"sefariaHeadword": "אתנא",
+	"headwords": [
+		{
+			"text": "אתנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

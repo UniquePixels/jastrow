@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00050",
-	"slug": "יבל-3",
-	"headword": {
-		"text": "יָבַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יָבַל II",
+	"headwords": [
+		{
+			"text": "יָבַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 561,
 		"column": "a"

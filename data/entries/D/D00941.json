@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00941",
-	"slug": "דעדק-1",
-	"headword": {
-		"text": "דַּעְדֵּק"
-	},
+	"sefariaHeadword": "דַּעְדֵּק",
+	"headwords": [
+		{
+			"text": "דַּעְדֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 316,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01691",
-	"slug": "שערה",
-	"headword": {
-		"text": "שַׂעֲרָה"
-	},
+	"sefariaHeadword": "שַׂעֲרָה",
+	"headwords": [
+		{
+			"text": "שַׂעֲרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1613,
 		"column": "a"

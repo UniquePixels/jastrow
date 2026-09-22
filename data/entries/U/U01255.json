@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01255",
-	"slug": "שלומי",
-	"headword": {
-		"text": "שְׁלוֹמִי"
-	},
+	"sefariaHeadword": "שְׁלוֹמִי",
+	"headwords": [
+		{
+			"text": "שְׁלוֹמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "b"

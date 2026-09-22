@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00652",
-	"slug": "צעידה",
-	"headword": {
-		"text": "צְעִידָה"
-	},
+	"sefariaHeadword": "צְעִידָה",
+	"headwords": [
+		{
+			"text": "צְעִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

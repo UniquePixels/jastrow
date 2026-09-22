@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01521",
-	"slug": "עשתרות",
-	"headword": {
-		"text": "עַשְׁתְּרוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַשְׁתְּרוֹת",
+	"headwords": [
+		{
+			"text": "עַשְׁתְּרוֹת"
+		},
 		{
 			"text": "עַ׳קַרְנַיִם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1128,
 		"column": "a"

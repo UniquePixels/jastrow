@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00344",
-	"slug": "הידור-1",
-	"headword": {
-		"text": "הִידוֹר"
-	},
+	"sefariaHeadword": "הִידוֹר",
+	"headwords": [
+		{
+			"text": "הִידוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "b"

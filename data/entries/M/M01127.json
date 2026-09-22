@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01127",
-	"slug": "מיטטור",
-	"headword": {
-		"text": "מִיטָטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיטָטוֹר",
+	"headwords": [
 		{
-			"text": "מְטָ׳"
+			"text": "מִיטָטוֹר"
+		},
+		{
+			"text": "מְטָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 772,
 		"column": "a"

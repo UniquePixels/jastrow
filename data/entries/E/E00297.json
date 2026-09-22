@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00297",
-	"slug": "הזיק",
-	"headword": {
-		"text": "הֶזֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶזֵּיק",
+	"headwords": [
+		{
+			"text": "הֶזֵּיק"
+		},
 		{
 			"text": "הֶזֵּיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 342,
 		"column": "a"

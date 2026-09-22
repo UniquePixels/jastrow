@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00687",
-	"slug": "ביציתא",
-	"headword": {
-		"text": "בִּיצִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיצִּיתָא",
+	"headwords": [
+		{
+			"text": "בִּיצִּיתָא"
+		},
 		{
 			"text": "בּוּצִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 164,
 		"column": "b"

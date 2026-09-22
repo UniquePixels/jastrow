@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00204",
-	"slug": "יונוס",
-	"headword": {
-		"text": "יונוס"
-	},
+	"sefariaHeadword": "יונוס",
+	"headwords": [
+		{
+			"text": "יונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "a"

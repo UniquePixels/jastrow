@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01014",
-	"slug": "גמזו",
-	"headword": {
-		"text": "גִּמְזוֹ"
-	},
+	"sefariaHeadword": "גִּמְזוֹ",
+	"headwords": [
+		{
+			"text": "גִּמְזוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00472",
-	"slug": "פחימא",
-	"headword": {
-		"text": "פְּחִימָא"
-	},
+	"sefariaHeadword": "פְּחִימָא",
+	"headwords": [
+		{
+			"text": "פְּחִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "b"

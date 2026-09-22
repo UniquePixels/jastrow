@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00867",
-	"slug": "בלינירין",
-	"headword": {
-		"text": "בלינירין"
-	},
+	"sefariaHeadword": "בלינירין",
+	"headwords": [
+		{
+			"text": "בלינירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00063",
-	"slug": "גבוריא",
-	"headword": {
-		"text": "גבוריא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גבוריא",
+	"headwords": [
 		{
-			"text": "כפר גבוריא"
+			"text": "גבוריא"
+		},
+		{
+			"text": "כפר ג׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 205,
 		"column": "a"

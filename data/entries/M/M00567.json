@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00567",
-	"slug": "מופת-2",
-	"headword": {
-		"text": "מוֹפֵת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹפֵת ²",
+	"headwords": [
+		{
+			"text": "מוֹפֵת",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹפְתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 746,
 		"column": "b"

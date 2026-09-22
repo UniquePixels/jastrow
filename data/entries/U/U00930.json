@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00930",
-	"slug": "שיכרא",
-	"headword": {
-		"text": "שִׁיכְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיכְרָא",
+	"headwords": [
+		{
+			"text": "שִׁיכְרָא"
+		},
 		{
 			"text": "שִׁיכָּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיכָּרוּת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1562,
 		"column": "b"

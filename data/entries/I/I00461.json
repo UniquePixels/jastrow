@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00461",
-	"slug": "טכס-1",
-	"headword": {
-		"text": "טָכַס"
-	},
+	"sefariaHeadword": "טָכַס",
+	"headwords": [
+		{
+			"text": "טָכַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

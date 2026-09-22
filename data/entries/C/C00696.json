@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00696",
-	"slug": "גיחורא",
-	"headword": {
-		"text": "גִּיחוֹרָא"
-	},
+	"sefariaHeadword": "גִּיחוֹרָא",
+	"headwords": [
+		{
+			"text": "גִּיחוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

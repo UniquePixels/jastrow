@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00511",
-	"slug": "נחמני",
-	"headword": {
-		"text": "נַחְמָנִי"
-	},
+	"sefariaHeadword": "נַחְמָנִי",
+	"headwords": [
+		{
+			"text": "נַחְמָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

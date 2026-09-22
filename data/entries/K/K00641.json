@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00641",
-	"slug": "כישרון",
-	"headword": {
-		"text": "כִּישָּׁרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּישָּׁרוֹן",
+	"headwords": [
 		{
-			"text": "כִּשָּׁ׳"
+			"text": "כִּישָּׁרוֹן"
+		},
+		{
+			"text": "כִּשָּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "a"

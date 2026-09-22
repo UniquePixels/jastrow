@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01408",
-	"slug": "חספיה",
-	"headword": {
-		"text": "חַסְפְּיָה"
-	},
+	"sefariaHeadword": "חַסְפְּיָה",
+	"headwords": [
+		{
+			"text": "חַסְפְּיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 489,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

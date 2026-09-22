@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00881",
-	"slug": "סכולא",
-	"headword": {
-		"text": "סִכּוּלָא"
-	},
+	"sefariaHeadword": "סִכּוּלָא",
+	"headwords": [
+		{
+			"text": "סִכּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

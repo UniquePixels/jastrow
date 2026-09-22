@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01731",
-	"slug": "חרסות",
-	"headword": {
-		"text": "חרסות"
-	},
+	"sefariaHeadword": "חרסות",
+	"headwords": [
+		{
+			"text": "חרסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "b"

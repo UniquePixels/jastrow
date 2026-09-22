@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00784",
-	"slug": "מזרים",
-	"headword": {
-		"text": "מְזָרִים"
-	},
+	"sefariaHeadword": "מְזָרִים",
+	"headwords": [
+		{
+			"text": "מְזָרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "b"

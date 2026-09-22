@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00664",
-	"slug": "מורניתא",
-	"headword": {
-		"text": "מוֹרָנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרָנִיתָא",
+	"headwords": [
 		{
-			"text": "מוּרְנִי׳"
+			"text": "מוֹרָנִיתָא"
+		},
+		{
+			"text": "מוּרְנִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00070",
-	"slug": "סבכתא",
-	"headword": {
-		"text": "סְבַכְתָּא"
-	},
+	"sefariaHeadword": "סְבַכְתָּא",
+	"headwords": [
+		{
+			"text": "סְבַכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 950,
 		"column": "b"

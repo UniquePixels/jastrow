@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00902",
-	"slug": "חיתום",
-	"headword": {
-		"text": "חִיתּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיתּוּם",
+	"headwords": [
 		{
-			"text": "חִתּ׳"
+			"text": "חִיתּוּם"
+		},
+		{
+			"text": "חִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 461,
 		"column": "a"

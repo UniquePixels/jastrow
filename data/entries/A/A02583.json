@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02583",
-	"slug": "אסתפניני",
-	"headword": {
-		"text": "אִסְתַּפְנִינֵי"
-	},
+	"sefariaHeadword": "אִסְתַּפְנִינֵי",
+	"headwords": [
+		{
+			"text": "אִסְתַּפְנִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

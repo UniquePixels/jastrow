@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01903",
-	"slug": "פרנסותא",
-	"headword": {
-		"text": "פַּרְנָסוּתָא"
-	},
+	"sefariaHeadword": "פַּרְנָסוּתָא",
+	"headwords": [
+		{
+			"text": "פַּרְנָסוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1232,
 		"column": "a"

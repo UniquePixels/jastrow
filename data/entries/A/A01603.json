@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01603",
-	"slug": "אירונית",
-	"headword": {
-		"text": "אִירוֹנִית",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִירוֹנִית",
+	"headwords": [
+		{
+			"text": "אִירוֹנִית",
+			"reconstructed": true
+		},
 		{
 			"text": "אִרוֹנִית"
 		},
@@ -22,6 +23,7 @@
 			"text": "עִרָנִית"
 		}
 	],
+	"display": "*{0}, ({1}), {2}, {3}, {4}, ({5})",
 	"page": {
 		"number": 60,
 		"column": "a"

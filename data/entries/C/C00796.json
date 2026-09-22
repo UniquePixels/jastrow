@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00796",
-	"slug": "גיפסים",
-	"headword": {
-		"text": "גִּיפְסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיפְסִים",
+	"headwords": [
+		{
+			"text": "גִּיפְסִים"
+		},
 		{
 			"text": "גיפסיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 241,
 		"column": "a"

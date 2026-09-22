@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00030",
-	"slug": "כבד-1",
-	"headword": {
-		"text": "כָּבֵד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כָּבֵד I",
+	"headwords": [
+		{
+			"text": "כָּבֵד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 606,
 		"column": "b"
@@ -41,7 +45,7 @@
 						"<cite ref=\"Mishnah Berakhot 8:4\">Ber. VIII, 4</cite> <he>מכבדיו את הבית וכ׳</he> (after meal) the room is put in order (the crumbs swept), and then &c. ",
 						"<cite ref=\"Mishnah Beitzah 2:7\">Bets. II, 7</cite> (<cite ref=\"Beitzah 22b:9\">22ᵇ</cite>) <he>מכבדין בין המטות</he> (Bab. ed. <he>בית המטות</he>) (on Holy Days) you may sweep between the dining couches (the dining room); Y. ib. II, 61ᶜ bot. ",
 						"<cite ref=\"Mishnah Tamid 5:5\">Tam. V, 5</cite> <he>היה מְכַבְּדָן לאמה</he> one swept them (the coals) into the duct; a. fr.—",
-						"<cite ref=\"Mishnah Mikvaot 8:4\">Mikv. VIII, 4</cite> <he>כִּיבְּדָֹה את</he>, <he>הבית</he>, v. <cite ref=\"B00753\"><he>בַּיִת</he></cite> 6.—[Ruth R. end <he>וכבד</he> some ed., read: <he>וכָבַר</he>.]"
+						"<cite ref=\"Mishnah Mikvaot 8:4\">Mikv. VIII, 4</cite> <he>כִּיבְּדָֹה את</he>, <he>הבית</he>, v. <cite ref=\"B00753\"><he>בַּיִת</he></cite> 6.—[Ruth R. end <he>וכבד</he> some ed., read: <he>וכָבַר</he>.]"
 					],
 					"label": "3"
 				}

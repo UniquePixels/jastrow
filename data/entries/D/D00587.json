@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00587",
-	"slug": "דיכונא",
-	"headword": {
-		"text": "דִּיכּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיכּוּנָא",
+	"headwords": [
+		{
+			"text": "דִּיכּוּנָא"
+		},
 		{
 			"text": "דִּכּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00949",
-	"slug": "התך",
-	"headword": {
-		"text": "התך"
-	},
+	"sefariaHeadword": "התך",
+	"headwords": [
+		{
+			"text": "התך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

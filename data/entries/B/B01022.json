@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01022",
-	"slug": "בעבוע",
-	"headword": {
-		"text": "בִּעְבּוּעַ"
-	},
+	"sefariaHeadword": "בִּעְבּוּעַ",
+	"headwords": [
+		{
+			"text": "בִּעְבּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "a"

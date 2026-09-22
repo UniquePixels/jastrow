@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01281",
-	"slug": "קלוסים",
-	"headword": {
-		"text": "קלוסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלוסים",
+	"headwords": [
+		{
+			"text": "קלוסים"
+		},
 		{
 			"text": "קלוסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1373,
 		"column": "b"

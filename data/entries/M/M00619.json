@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00619",
-	"slug": "מורד-2",
-	"headword": {
-		"text": "מוֹרִד"
-	},
+	"sefariaHeadword": "מוֹרִד",
+	"headwords": [
+		{
+			"text": "מוֹרִד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

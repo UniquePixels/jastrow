@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01693",
-	"slug": "סתות",
-	"headword": {
-		"text": "סִתּוּת"
-	},
+	"sefariaHeadword": "סִתּוּת",
+	"headwords": [
+		{
+			"text": "סִתּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

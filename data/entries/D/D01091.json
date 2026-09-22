@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01091",
-	"slug": "דריסה",
-	"headword": {
-		"text": "דְּרִיסָה"
-	},
+	"sefariaHeadword": "דְּרִיסָה",
+	"headwords": [
+		{
+			"text": "דְּרִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

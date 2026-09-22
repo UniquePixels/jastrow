@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00328",
-	"slug": "טיט",
-	"headword": {
-		"text": "טִיט"
-	},
+	"sefariaHeadword": "טִיט",
+	"headwords": [
+		{
+			"text": "טִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00103",
-	"slug": "ידידות",
-	"headword": {
-		"text": "יְדִידוּת"
-	},
+	"sefariaHeadword": "יְדִידוּת",
+	"headwords": [
+		{
+			"text": "יְדִידוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 564,
 		"column": "b"

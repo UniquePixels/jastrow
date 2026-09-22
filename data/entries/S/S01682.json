@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01682",
-	"slug": "קסרי",
-	"headword": {
-		"text": "קִסְרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִסְרִי",
+	"headwords": [
+		{
+			"text": "קִסְרִי"
+		},
 		{
 			"text": "קֵסַרְיוֹן"
 		},
@@ -15,6 +16,7 @@
 			"text": "קִסרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1397,
 		"column": "a"

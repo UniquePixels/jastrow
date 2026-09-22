@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01324",
-	"slug": "שלילית",
-	"headword": {
-		"text": "שְׁלִילִית"
-	},
+	"sefariaHeadword": "שְׁלִילִית",
+	"headwords": [
+		{
+			"text": "שְׁלִילִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "a"

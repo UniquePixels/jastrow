@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00106",
-	"slug": "אבטניות",
-	"headword": {
-		"text": "אבטניות"
-	},
+	"sefariaHeadword": "אבטניות",
+	"headwords": [
+		{
+			"text": "אבטניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

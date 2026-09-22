@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02418",
-	"slug": "אסטרטילוס",
-	"headword": {
-		"text": "אסטרטילוס"
-	},
+	"sefariaHeadword": "אסטרטילוס",
+	"headwords": [
+		{
+			"text": "אסטרטילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 92,
 		"column": "a"

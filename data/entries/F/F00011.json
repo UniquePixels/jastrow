@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00011",
-	"slug": "וביבא",
-	"headword": {
-		"text": "וביבא"
-	},
+	"sefariaHeadword": "וביבא",
+	"headwords": [
+		{
+			"text": "וביבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

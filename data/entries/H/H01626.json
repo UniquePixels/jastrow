@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01626",
-	"slug": "חרול",
-	"headword": {
-		"text": "חָרוּל"
-	},
+	"sefariaHeadword": "חָרוּל",
+	"headwords": [
+		{
+			"text": "חָרוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

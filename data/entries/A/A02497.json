@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02497",
-	"slug": "אספליטון",
-	"headword": {
-		"text": "אספליטון"
-	},
+	"sefariaHeadword": "אספליטון",
+	"headwords": [
+		{
+			"text": "אספליטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

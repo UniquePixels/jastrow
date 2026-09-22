@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00671",
-	"slug": "ביעורא",
-	"headword": {
-		"text": "בִּיעוּרָא"
-	},
+	"sefariaHeadword": "בִּיעוּרָא",
+	"headwords": [
+		{
+			"text": "בִּיעוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

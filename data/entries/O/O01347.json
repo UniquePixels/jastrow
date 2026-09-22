@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01347",
-	"slug": "ספטני",
-	"headword": {
-		"text": "סְפַטְנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְפַטְנִי",
+	"headwords": [
+		{
+			"text": "סְפַטְנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1013,
 		"column": "a"

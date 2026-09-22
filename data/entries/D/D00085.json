@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00085",
-	"slug": "דברותא",
-	"headword": {
-		"text": "דברותא"
-	},
+	"sefariaHeadword": "דברותא",
+	"headwords": [
+		{
+			"text": "דברותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "a"

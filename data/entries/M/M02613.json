@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02613",
-	"slug": "מרותא",
-	"headword": {
-		"text": "מָרוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרוּתָא",
+	"headwords": [
+		{
+			"text": "מָרוּתָא"
+		},
 		{
 			"text": "מָרְוְתָא"
 		},
 		{
-			"text": "מָרְוְו׳"
+			"text": "מָרְוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 840,
 		"column": "a"

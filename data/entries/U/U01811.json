@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01811",
-	"slug": "שפשפת",
-	"headword": {
-		"text": "שַׁפְשֶׁפֶת"
-	},
+	"sefariaHeadword": "שַׁפְשֶׁפֶת",
+	"headwords": [
+		{
+			"text": "שַׁפְשֶׁפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"

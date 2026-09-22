@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00336",
-	"slug": "עוקמנא",
-	"headword": {
-		"text": "עוּקְמָנָא"
-	},
+	"sefariaHeadword": "עוּקְמָנָא",
+	"headwords": [
+		{
+			"text": "עוּקְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00722",
-	"slug": "אונאה",
-	"headword": {
-		"text": "אוֹנָאָה"
-	},
+	"sefariaHeadword": "אוֹנָאָה",
+	"headwords": [
+		{
+			"text": "אוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "a"

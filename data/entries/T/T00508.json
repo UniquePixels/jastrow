@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "T00508",
-	"slug": "רחיק-3",
-	"headword": {
-		"text": "רָחִיק",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָחִיק II",
+	"headwords": [
+		{
+			"text": "רָחִיק",
+			"homograph": 2
+		},
 		{
 			"text": "רַחִיקָא"
 		},
 		{
-			"text": "רְ׳"
+			"text": "רְ׳",
+			"partial": true
 		},
 		{
 			"text": "רְחִיקְתָּא"
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 1466,
 		"column": "b"

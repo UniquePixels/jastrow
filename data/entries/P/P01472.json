@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01472",
-	"slug": "עשות",
-	"headword": {
-		"text": "עשות"
-	},
+	"sefariaHeadword": "עשות",
+	"headwords": [
+		{
+			"text": "עשות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "b"

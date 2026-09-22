@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00834",
-	"slug": "תפלות",
-	"headword": {
-		"text": "תִּפְלוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּפְלוּת",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּפְלוּת"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1687,
 		"column": "a"

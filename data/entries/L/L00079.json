@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00079",
-	"slug": "לביש",
-	"headword": {
-		"text": "לְבֵישׁ"
-	},
+	"sefariaHeadword": "לְבֵישׁ",
+	"headwords": [
+		{
+			"text": "לְבֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

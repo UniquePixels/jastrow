@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00174",
-	"slug": "לואי-1",
-	"headword": {
-		"text": "לְוָאי"
-	},
+	"sefariaHeadword": "לְוָאי",
+	"headwords": [
+		{
+			"text": "לְוָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00895",
-	"slug": "כסאן",
-	"headword": {
-		"text": "כְּסָאן"
-	},
+	"sefariaHeadword": "כְּסָאן",
+	"headwords": [
+		{
+			"text": "כְּסָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00234",
-	"slug": "מדאתא",
-	"headword": {
-		"text": "מַדָּאתָא"
-	},
+	"sefariaHeadword": "מַדָּאתָא",
+	"headwords": [
+		{
+			"text": "מַדָּאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01085",
-	"slug": "רשיא-2",
-	"headword": {
-		"text": "רָשַׁיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָשַׁיָּא",
+	"headwords": [
 		{
-			"text": "רַשַּׁ׳"
+			"text": "רָשַׁיָּא"
+		},
+		{
+			"text": "רַשַּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1500,
 		"column": "a"

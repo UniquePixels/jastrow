@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00021",
-	"slug": "באטי",
-	"headword": {
-		"text": "בָּאטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּאטִי",
+	"headwords": [
+		{
+			"text": "בָּאטִי"
+		},
 		{
 			"text": "בָּטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 135,
 		"column": "a"

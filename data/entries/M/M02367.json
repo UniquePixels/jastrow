@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02367",
-	"slug": "מצרית",
-	"headword": {
-		"text": "מִצְרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְרִית",
+	"headwords": [
+		{
+			"text": "מִצְרִית"
+		},
 		{
 			"text": "מִצְרֵיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 828,
 		"column": "b"

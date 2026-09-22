@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00469",
-	"slug": "היסב-2",
-	"headword": {
-		"text": "הֶיסֵּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיסֵּב",
+	"headwords": [
+		{
+			"text": "הֶיסֵּב"
+		},
 		{
 			"text": "הֶיסֵּבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 348,
 		"column": "b"

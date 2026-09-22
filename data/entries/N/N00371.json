@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00371",
-	"slug": "נומוס",
-	"headword": {
-		"text": "נוֹמוֹס"
-	},
+	"sefariaHeadword": "נוֹמוֹס",
+	"headwords": [
+		{
+			"text": "נוֹמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

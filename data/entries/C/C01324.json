@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01324",
-	"slug": "גריד-1",
-	"headword": {
-		"text": "גָּרֵיד"
-	},
+	"sefariaHeadword": "גָּרֵיד",
+	"headwords": [
+		{
+			"text": "גָּרֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 268,
 		"column": "a"

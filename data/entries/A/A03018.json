@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03018",
-	"slug": "ארוא",
-	"headword": {
-		"text": "ארְוָא"
-	},
+	"sefariaHeadword": "ארְוָא",
+	"headwords": [
+		{
+			"text": "ארְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

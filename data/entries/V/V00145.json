@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00145",
-	"slug": "תובה",
-	"headword": {
-		"text": "תובה"
-	},
+	"sefariaHeadword": "תובה",
+	"headwords": [
+		{
+			"text": "תובה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "a"

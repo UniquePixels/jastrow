@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01126",
-	"slug": "סמפורין",
-	"headword": {
-		"text": "סִמְפּוֹרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִמְפּוֹרִין",
+	"headwords": [
 		{
-			"text": "סִימְ׳"
+			"text": "סִמְפּוֹרִין"
+		},
+		{
+			"text": "סִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1003,
 		"column": "a"

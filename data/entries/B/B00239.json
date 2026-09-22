@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00239",
-	"slug": "בוטרגונין",
-	"headword": {
-		"text": "בוטרגונין"
-	},
+	"sefariaHeadword": "בוטרגונין",
+	"headwords": [
+		{
+			"text": "בוטרגונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

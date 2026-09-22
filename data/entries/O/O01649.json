@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01649",
-	"slug": "סרסא",
-	"headword": {
-		"text": "סָרְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָרְסָא",
+	"headwords": [
+		{
+			"text": "סָרְסָא"
+		},
 		{
 			"text": "סָרְסָיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1029,
 		"column": "a"

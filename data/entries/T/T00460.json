@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00460",
-	"slug": "רז-2",
-	"headword": {
-		"text": "רָז",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָז ²",
+	"headwords": [
+		{
+			"text": "רָז",
+			"disambiguator": 2
+		},
 		{
 			"text": "רָזָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1464,
 		"column": "b"

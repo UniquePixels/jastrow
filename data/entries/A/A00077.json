@@ -1,17 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A00077",
-	"slug": "אבוס",
-	"headword": {
-		"text": "אֵבוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵבוּס",
+	"headwords": [
+		{
+			"text": "אֵבוּס"
+		},
 		{
 			"text": "אֵיבוּס"
 		},
 		{
-			"text": "?אִיבּוּס"
+			"text": "אִיבּוּס"
 		}
 	],
+	"display": "{0}, {1}, (?{2})",
 	"page": {
 		"number": 4,
 		"column": "a"

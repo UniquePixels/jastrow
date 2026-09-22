@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00960",
-	"slug": "שימור",
-	"headword": {
-		"text": "שִׁימּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁימּוּר",
+	"headwords": [
 		{
-			"text": "שִׁמּ׳"
+			"text": "שִׁימּוּר"
+		},
+		{
+			"text": "שִׁמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "b"

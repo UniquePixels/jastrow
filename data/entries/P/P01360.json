@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01360",
-	"slug": "ערים-1",
-	"headword": {
-		"text": "עֲרֵים"
-	},
+	"sefariaHeadword": "עֲרֵים",
+	"headwords": [
+		{
+			"text": "עֲרֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "b"

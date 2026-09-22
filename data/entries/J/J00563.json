@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00563",
-	"slug": "יקומא",
-	"headword": {
-		"text": "יְקוּמָא"
-	},
+	"sefariaHeadword": "יְקוּמָא",
+	"headwords": [
+		{
+			"text": "יְקוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "a"

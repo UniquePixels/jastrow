@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00428",
-	"slug": "כותל",
-	"headword": {
-		"text": "כּוֹתָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹתָל",
+	"headwords": [
+		{
+			"text": "כּוֹתָל"
+		},
 		{
 			"text": "כּוֹתֶל"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 627,
 		"column": "b"

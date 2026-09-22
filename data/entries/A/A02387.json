@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02387",
-	"slug": "אסטנינותיא",
-	"headword": {
-		"text": "אסטנינותיא"
-	},
+	"sefariaHeadword": "אסטנינותיא",
+	"headwords": [
+		{
+			"text": "אסטנינותיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

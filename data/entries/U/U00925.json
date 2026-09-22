@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00925",
-	"slug": "שיכלולא",
-	"headword": {
-		"text": "שִׁיכלוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיכלוּלָא",
+	"headwords": [
 		{
-			"text": "שִׁכְ׳"
+			"text": "שִׁיכלוּלָא"
 		},
 		{
-			"text": "שַׁכ׳"
+			"text": "שִׁכְ׳",
+			"partial": true
+		},
+		{
+			"text": "שַׁכ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1562,
 		"column": "a"

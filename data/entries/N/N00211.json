@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00211",
-	"slug": "נדד-1",
-	"headword": {
-		"text": "נָדַד"
-	},
+	"sefariaHeadword": "נָדַד",
+	"headwords": [
+		{
+			"text": "נָדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 877,
 		"column": "b"

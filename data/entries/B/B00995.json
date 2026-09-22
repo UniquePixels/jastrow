@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00995",
-	"slug": "בסין",
-	"headword": {
-		"text": "בַּסִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּסִּין",
+	"headwords": [
+		{
+			"text": "בַּסִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

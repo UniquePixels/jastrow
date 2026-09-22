@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02063",
-	"slug": "קרינא-1",
-	"headword": {
-		"text": "קַרְיָנָא"
-	},
+	"sefariaHeadword": "קַרְיָנָא",
+	"headwords": [
+		{
+			"text": "קַרְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

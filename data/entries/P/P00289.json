@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00289",
-	"slug": "עומרא",
-	"headword": {
-		"text": "עוּמְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּמְרָא",
+	"headwords": [
+		{
+			"text": "עוּמְרָא"
+		},
 		{
 			"text": "עָמְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1053,
 		"column": "b"

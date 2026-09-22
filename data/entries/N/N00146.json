@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00146",
-	"slug": "נגח-2",
-	"headword": {
-		"text": "נְגַח"
-	},
+	"sefariaHeadword": "נְגַח",
+	"headwords": [
+		{
+			"text": "נְגַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "b"

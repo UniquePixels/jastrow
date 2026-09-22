@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02933",
-	"slug": "אקסיל",
-	"headword": {
-		"text": "אַקְסִיל"
-	},
+	"sefariaHeadword": "אַקְסִיל",
+	"headwords": [
+		{
+			"text": "אַקְסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

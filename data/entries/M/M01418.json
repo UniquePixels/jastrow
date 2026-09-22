@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01418",
-	"slug": "מכס-1",
-	"headword": {
-		"text": "מָכַס"
-	},
+	"sefariaHeadword": "מָכַס",
+	"headwords": [
+		{
+			"text": "מָכַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

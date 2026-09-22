@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01471",
-	"slug": "איסניא",
-	"headword": {
-		"text": "איסניא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איסניא",
+	"headwords": [
+		{
+			"text": "איסניא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01210",
-	"slug": "נקיפא",
-	"headword": {
-		"text": "נְקִיפָא"
-	},
+	"sefariaHeadword": "נְקִיפָא",
+	"headwords": [
+		{
+			"text": "נְקִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

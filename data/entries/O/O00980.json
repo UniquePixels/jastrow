@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00980",
-	"slug": "סליו-2",
-	"headword": {
-		"text": "סְלָיו",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְלָיו ²",
+	"headwords": [
+		{
+			"text": "סְלָיו",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 994,
 		"column": "b"

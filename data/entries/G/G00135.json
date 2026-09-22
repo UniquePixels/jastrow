@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00135",
-	"slug": "זוהמאי",
-	"headword": {
-		"text": "זוֹהֲמַאי"
-	},
+	"sefariaHeadword": "זוֹהֲמַאי",
+	"headwords": [
+		{
+			"text": "זוֹהֲמַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "b"

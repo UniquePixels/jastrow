@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01350",
-	"slug": "עריבתא",
-	"headword": {
-		"text": "עריבתא"
-	},
+	"sefariaHeadword": "עריבתא",
+	"headwords": [
+		{
+			"text": "עריבתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "a"

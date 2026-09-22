@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01514",
-	"slug": "עשש",
-	"headword": {
-		"text": "עֲשַׁשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עֲשַׁשׁ",
+	"headwords": [
+		{
+			"text": "עֲשַׁשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1127,
 		"column": "b"

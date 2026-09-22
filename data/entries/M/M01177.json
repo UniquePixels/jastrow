@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01177",
-	"slug": "מילותא",
-	"headword": {
-		"text": "מִילְוָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מִילְוָתָא",
+	"headwords": [
+		{
+			"text": "מִילְוָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

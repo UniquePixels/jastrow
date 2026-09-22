@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00643",
-	"slug": "בינוני",
-	"headword": {
-		"text": "בֵּינוֹנִי"
-	},
+	"sefariaHeadword": "בֵּינוֹנִי",
+	"headwords": [
+		{
+			"text": "בֵּינוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01627",
-	"slug": "חרום-1",
-	"headword": {
-		"text": "חָרוּם"
-	},
+	"sefariaHeadword": "חָרוּם",
+	"headwords": [
+		{
+			"text": "חָרוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

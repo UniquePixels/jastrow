@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D01048",
-	"slug": "דרדסא",
-	"headword": {
-		"text": "דַּרְדְּסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְדְּסָא",
+	"headwords": [
+		{
+			"text": "דַּרְדְּסָא"
+		},
 		{
 			"text": "דַּרְדְּסִין"
 		},
 		{
-			"text": "דּוּרְ׳"
+			"text": "דּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 321,
 		"column": "b"

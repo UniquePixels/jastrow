@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01317",
-	"slug": "ערוגה",
-	"headword": {
-		"text": "עֲרוּגָה"
-	},
+	"sefariaHeadword": "עֲרוּגָה",
+	"headwords": [
+		{
+			"text": "עֲרוּגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "b"

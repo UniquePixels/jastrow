@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02826",
-	"slug": "משוט-2",
-	"headword": {
-		"text": "מָשׁוֹט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָשֹׁוט ²",
+	"headwords": [
+		{
+			"text": "מָשׁוֹט",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְשׁוֹטָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 850,
 		"column": "a"

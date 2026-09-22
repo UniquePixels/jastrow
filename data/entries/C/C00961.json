@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00961",
-	"slug": "גלל-3",
-	"headword": {
-		"text": "גָּלָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּלָל",
+	"headwords": [
+		{
+			"text": "גָּלָל"
+		},
 		{
 			"text": "גְּלַל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 250,
 		"column": "a"

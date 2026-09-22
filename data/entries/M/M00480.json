@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M00480",
-	"slug": "מוכס-2",
-	"headword": {
-		"text": "מוֹכֵס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹכֵס ²",
+	"headwords": [
+		{
+			"text": "מוֹכֵס",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹכְסָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "מָכְסָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 742,
 		"column": "a"

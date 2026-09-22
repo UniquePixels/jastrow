@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00363",
-	"slug": "היידא",
-	"headword": {
-		"text": "הַיְידָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַיְידָּא",
+	"headwords": [
+		{
+			"text": "הַיְידָּא"
+		},
 		{
 			"text": "הַיְידָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 344,
 		"column": "b"

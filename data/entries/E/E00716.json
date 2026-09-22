@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00716",
-	"slug": "העלאה",
-	"headword": {
-		"text": "הַעֲלָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַעֲלָאָה",
+	"headwords": [
+		{
+			"text": "הַעֲלָאָה"
+		},
 		{
 			"text": "הַעֲלָיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 360,
 		"column": "a"

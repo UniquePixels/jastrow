@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00372",
-	"slug": "אדא-4",
-	"headword": {
-		"text": "אָדָא",
-		"homograph": 4
-	},
+	"sefariaHeadword": "אָדָא IV",
+	"headwords": [
+		{
+			"text": "אָדָא",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 15,
 		"column": "b"

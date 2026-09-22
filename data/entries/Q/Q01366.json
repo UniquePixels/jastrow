@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01366",
-	"slug": "פסקתר",
-	"headword": {
-		"text": "פְּסַקְתֵּר"
-	},
+	"sefariaHeadword": "פְּסַקְתֵּר",
+	"headwords": [
+		{
+			"text": "פְּסַקְתֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

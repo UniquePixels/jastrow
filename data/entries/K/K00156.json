@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00156",
-	"slug": "כהי-1",
-	"headword": {
-		"text": "כהי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כהי",
+	"headwords": [
+		{
+			"text": "כהי"
+		},
 		{
 			"text": "כָּהָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 614,
 		"column": "b"

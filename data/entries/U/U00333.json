@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00333",
-	"slug": "שובתי",
-	"headword": {
-		"text": "שׁוּבְּתַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּבְּתַי",
+	"headwords": [
+		{
+			"text": "שׁוּבְּתַי"
+		},
 		{
 			"text": "שׁוּבְּתַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1529,
 		"column": "a"

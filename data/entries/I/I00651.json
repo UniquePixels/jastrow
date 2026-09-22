@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00651",
-	"slug": "טפיטא",
-	"headword": {
-		"text": "טַפִּיטָא"
-	},
+	"sefariaHeadword": "טַפִּיטָא",
+	"headwords": [
+		{
+			"text": "טַפִּיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

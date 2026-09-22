@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00418",
-	"slug": "נורא",
-	"headword": {
-		"text": "נוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוֹרָא",
+	"headwords": [
+		{
+			"text": "נוֹרָא"
+		},
 		{
 			"text": "נוֹרָאוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "a"

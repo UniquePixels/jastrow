@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00839",
-	"slug": "תפנוקא",
-	"headword": {
-		"text": "תַּפְנוּקָא"
-	},
+	"sefariaHeadword": "תַּפְנוּקָא",
+	"headwords": [
+		{
+			"text": "תַּפְנוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1687,
 		"column": "b"

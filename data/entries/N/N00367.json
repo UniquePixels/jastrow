@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00367",
-	"slug": "נום-3",
-	"headword": {
-		"text": "נוּם"
-	},
+	"sefariaHeadword": "נוּם",
+	"headwords": [
+		{
+			"text": "נוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

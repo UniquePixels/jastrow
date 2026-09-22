@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00240",
-	"slug": "תונויא",
-	"headword": {
-		"text": "תּוּנוֹיָא"
-	},
+	"sefariaHeadword": "תּוּנוֹיָא",
+	"headwords": [
+		{
+			"text": "תּוּנוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

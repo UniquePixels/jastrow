@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00449",
-	"slug": "פחדות",
-	"headword": {
-		"text": "פחדות"
-	},
+	"sefariaHeadword": "פחדות",
+	"headwords": [
+		{
+			"text": "פחדות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "b"

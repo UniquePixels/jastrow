@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02258",
-	"slug": "מפתח-4",
-	"headword": {
-		"text": "מַפְתֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַפְתֵּחַ",
+	"headwords": [
+		{
+			"text": "מַפְתֵּחַ"
+		},
 		{
 			"text": "מַפְתֵּיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 822,
 		"column": "b"

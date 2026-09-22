@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00523",
-	"slug": "פטיר",
-	"headword": {
-		"text": "פַּטִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּטִּיר",
+	"headwords": [
+		{
+			"text": "פַּטִּיר"
+		},
 		{
 			"text": "פַּטִּירָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּטִּירְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1155,
 		"column": "b"

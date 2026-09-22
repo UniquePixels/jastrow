@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00784",
-	"slug": "עלון",
-	"headword": {
-		"text": "עָלָוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָלָוָן",
+	"headwords": [
 		{
-			"text": "עֲלָ׳"
+			"text": "עָלָוָן"
+		},
+		{
+			"text": "עֲלָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1081,
 		"column": "a"

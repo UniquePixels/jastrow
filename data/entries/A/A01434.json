@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01434",
-	"slug": "איסטיו",
-	"headword": {
-		"text": "אִיסְטֵיו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטֵיו",
+	"headwords": [
 		{
-			"text": "אִסְ׳"
+			"text": "אִיסְטֵיו"
+		},
+		{
+			"text": "אִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 55,
 		"column": "a"

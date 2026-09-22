@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00283",
-	"slug": "אגוריאות",
-	"headword": {
-		"text": "אגוריאות"
-	},
+	"sefariaHeadword": "אגוריאות",
+	"headwords": [
+		{
+			"text": "אגוריאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01272",
-	"slug": "ססגונא",
-	"headword": {
-		"text": "סַסְגּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַסְגּוֹנָא",
+	"headwords": [
 		{
-			"text": "סַסְגְּוָו׳"
+			"text": "סַסְגּוֹנָא"
+		},
+		{
+			"text": "סַסְגְּוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1009,
 		"column": "a"

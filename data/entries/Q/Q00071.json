@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00071",
-	"slug": "פגליא",
-	"headword": {
-		"text": "פִּגְלַיָּא"
-	},
+	"sefariaHeadword": "פִּגְלַיָּא",
+	"headwords": [
+		{
+			"text": "פִּגְלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "b"

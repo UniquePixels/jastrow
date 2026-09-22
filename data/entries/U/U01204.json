@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01204",
-	"slug": "שלביות",
-	"headword": {
-		"text": "שְׁלַבִּיּוֹת"
-	},
+	"sefariaHeadword": "שְׁלַבִּיּוֹת",
+	"headwords": [
+		{
+			"text": "שְׁלַבִּיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

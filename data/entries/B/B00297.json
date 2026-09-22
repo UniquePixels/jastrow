@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00297",
-	"slug": "בוסתנא",
-	"headword": {
-		"text": "בּוּסְתָּנָא"
-	},
+	"sefariaHeadword": "בּוּסְתָּנָא",
+	"headwords": [
+		{
+			"text": "בּוּסְתָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

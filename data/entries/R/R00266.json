@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00266",
-	"slug": "צח",
-	"headword": {
-		"text": "צַח"
-	},
+	"sefariaHeadword": "צַח",
+	"headwords": [
+		{
+			"text": "צַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "b"

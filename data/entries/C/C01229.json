@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01229",
-	"slug": "גראפא",
-	"headword": {
-		"text": "גְּרָאפָא"
-	},
+	"sefariaHeadword": "גְּרָאפָא",
+	"headwords": [
+		{
+			"text": "גְּרָאפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "b"

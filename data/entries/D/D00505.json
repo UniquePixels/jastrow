@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00505",
-	"slug": "דיוביט",
-	"headword": {
-		"text": "דְּיוֹבִיט"
-	},
+	"sefariaHeadword": "דְּיוֹבִיט",
+	"headwords": [
+		{
+			"text": "דְּיוֹבִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

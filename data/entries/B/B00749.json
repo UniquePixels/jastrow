@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00749",
-	"slug": "בישרנא",
-	"headword": {
-		"text": "בִּישְׂרָנָא"
-	},
+	"sefariaHeadword": "בִּישְׂרָנָא",
+	"headwords": [
+		{
+			"text": "בִּישְׂרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "b"

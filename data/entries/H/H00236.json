@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00236",
-	"slug": "חובא-2",
-	"headword": {
-		"text": "חוּבָא"
-	},
+	"sefariaHeadword": "חוּבָא",
+	"headwords": [
+		{
+			"text": "חוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "a"

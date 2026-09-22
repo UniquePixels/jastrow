@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00607",
-	"slug": "צנה-1",
-	"headword": {
-		"text": "צִנָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנָּה",
+	"headwords": [
+		{
+			"text": "צִנָּה"
+		},
 		{
 			"text": "צִינָּה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1290,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00398",
-	"slug": "עזה-3",
-	"headword": {
-		"text": "עִזָּה"
-	},
+	"sefariaHeadword": "עִזָּה",
+	"headwords": [
+		{
+			"text": "עִזָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1061,
 		"column": "a"

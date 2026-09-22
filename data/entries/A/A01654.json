@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01654",
-	"slug": "איתמל",
-	"headword": {
-		"text": "אִיתְּמָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתְּמָל",
+	"headwords": [
+		{
+			"text": "אִיתְּמָל"
+		},
 		{
 			"text": "אִיתְּמָלֵי"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִתְּמוֹל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 61,
 		"column": "b"

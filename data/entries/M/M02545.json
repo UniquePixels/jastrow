@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02545",
-	"slug": "מרדות-2",
-	"headword": {
-		"text": "מַרְדּוּת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַרְדּוּת II",
+	"headwords": [
+		{
+			"text": "מַרְדּוּת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 837,
 		"column": "a"

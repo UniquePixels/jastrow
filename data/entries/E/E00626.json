@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00626",
-	"slug": "הממה",
-	"headword": {
-		"text": "הֲמָמָה"
-	},
+	"sefariaHeadword": "הֲמָמָה",
+	"headwords": [
+		{
+			"text": "הֲמָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "a"

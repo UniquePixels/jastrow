@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00548",
-	"slug": "תכלתא",
-	"headword": {
-		"text": "תְּכֶלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּכֶלְתָּא",
+	"headwords": [
 		{
-			"text": "תְּכֶילְ׳"
+			"text": "תְּכֶלְתָּא"
+		},
+		{
+			"text": "תְּכֶילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1669,
 		"column": "a"

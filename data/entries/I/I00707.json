@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00707",
-	"slug": "טרגיא",
-	"headword": {
-		"text": "טרגיא"
-	},
+	"sefariaHeadword": "טרגיא",
+	"headwords": [
+		{
+			"text": "טרגיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

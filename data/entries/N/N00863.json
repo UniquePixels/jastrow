@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00863",
-	"slug": "נמור",
-	"headword": {
-		"text": "נְמוֹר"
-	},
+	"sefariaHeadword": "נְמוֹר",
+	"headwords": [
+		{
+			"text": "נְמוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

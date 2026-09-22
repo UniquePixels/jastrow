@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00359",
-	"slug": "קולפא",
-	"headword": {
-		"text": "קוּלְפָא"
-	},
+	"sefariaHeadword": "קוּלְפָא",
+	"headwords": [
+		{
+			"text": "קוּלְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1329,
 		"column": "a"

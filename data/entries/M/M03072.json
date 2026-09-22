@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03072",
-	"slug": "מתכת",
-	"headword": {
-		"text": "מַתֶּכֶת"
-	},
+	"sefariaHeadword": "מַתֶּכֶת",
+	"headwords": [
+		{
+			"text": "מַתֶּכֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

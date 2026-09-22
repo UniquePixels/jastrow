@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B01284",
-	"slug": "בריתא-1",
-	"headword": {
-		"text": "בִּרְיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּרְיְתָא",
+	"headwords": [
+		{
+			"text": "בִּרְיְתָא"
+		},
 		{
 			"text": "בִּרְיָא"
 		},
 		{
-			"text": "בי׳"
+			"text": "בי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 194,
 		"column": "b"

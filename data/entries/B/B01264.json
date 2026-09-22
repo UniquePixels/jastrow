@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01264",
-	"slug": "ברייתא-1",
-	"headword": {
-		"text": "בָּרַיְיתָא"
-	},
+	"sefariaHeadword": "בָּרַיְיתָא",
+	"headwords": [
+		{
+			"text": "בָּרַיְיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

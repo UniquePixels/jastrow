@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00014",
-	"slug": "תאובתא",
-	"headword": {
-		"text": "תִּאוּבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּאוּבְתָּא",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּאוּבְתָּא"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1641,
 		"column": "b"

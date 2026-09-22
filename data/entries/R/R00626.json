@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00626",
-	"slug": "צניעותא",
-	"headword": {
-		"text": "צְנִיעוּתָא"
-	},
+	"sefariaHeadword": "צְנִיעוּתָא",
+	"headwords": [
+		{
+			"text": "צְנִיעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1292,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02925",
-	"slug": "אקנוס",
-	"headword": {
-		"text": "אקנוס"
-	},
+	"sefariaHeadword": "אקנוס",
+	"headwords": [
+		{
+			"text": "אקנוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00014",
-	"slug": "שאול-3",
-	"headword": {
-		"text": "שְׁאוֹל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שְׁאוֹל ²",
+	"headwords": [
+		{
+			"text": "שְׁאוֹל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1505,
 		"column": "b"

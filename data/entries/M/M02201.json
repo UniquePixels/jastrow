@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02201",
-	"slug": "מפוקים",
-	"headword": {
-		"text": "מְפוּקִים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְפוּקִים",
+	"headwords": [
+		{
+			"text": "מְפוּקִים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

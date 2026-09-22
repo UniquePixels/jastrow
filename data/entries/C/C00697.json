@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00697",
-	"slug": "גיחיא",
-	"headword": {
-		"text": "גִּיחְיָא"
-	},
+	"sefariaHeadword": "גִּיחְיָא",
+	"headwords": [
+		{
+			"text": "גִּיחְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02804",
-	"slug": "משארת",
-	"headword": {
-		"text": "מִשְׁאֶרֶת"
-	},
+	"sefariaHeadword": "מִשְׁאֶרֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁאֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

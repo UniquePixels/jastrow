@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01377",
-	"slug": "נתיצה",
-	"headword": {
-		"text": "נְתִיצָה"
-	},
+	"sefariaHeadword": "נְתִיצָה",
+	"headwords": [
+		{
+			"text": "נְתִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "a"

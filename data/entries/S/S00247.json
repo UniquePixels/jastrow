@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00247",
-	"slug": "קודם-2",
-	"headword": {
-		"text": "קוֹדֶם"
-	},
+	"sefariaHeadword": "קוֹדֶם",
+	"headwords": [
+		{
+			"text": "קוֹדֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1324,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01485",
-	"slug": "פקיד",
-	"headword": {
-		"text": "פָּקִיד"
-	},
+	"sefariaHeadword": "פָּקִיד",
+	"headwords": [
+		{
+			"text": "פָּקִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "a"

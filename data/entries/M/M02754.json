@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02754",
-	"slug": "מרצומי",
-	"headword": {
-		"text": "מַרְצוּמִי"
-	},
+	"sefariaHeadword": "מַרְצוּמִי",
+	"headwords": [
+		{
+			"text": "מַרְצוּמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

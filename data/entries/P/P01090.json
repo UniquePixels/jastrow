@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01090",
-	"slug": "עצא-2",
-	"headword": {
-		"text": "עַצָא"
-	},
+	"sefariaHeadword": "עַצָא",
+	"headwords": [
+		{
+			"text": "עַצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1101,
 		"column": "a"

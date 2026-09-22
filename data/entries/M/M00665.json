@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00665",
-	"slug": "מורנס",
-	"headword": {
-		"text": "מורנס"
-	},
+	"sefariaHeadword": "מורנס",
+	"headwords": [
+		{
+			"text": "מורנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

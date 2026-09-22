@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00625",
-	"slug": "לעת",
-	"headword": {
-		"text": "לעת־"
-	},
+	"sefariaHeadword": "לעת־",
+	"headwords": [
+		{
+			"text": "לעת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

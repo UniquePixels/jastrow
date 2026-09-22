@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01170",
-	"slug": "סנגדודין",
-	"headword": {
-		"text": "סנגדודין"
-	},
+	"sefariaHeadword": "סנגדודין",
+	"headwords": [
+		{
+			"text": "סנגדודין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

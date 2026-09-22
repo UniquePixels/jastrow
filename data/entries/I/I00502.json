@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00502",
-	"slug": "טלימון",
-	"headword": {
-		"text": "טְלִימוֹן"
-	},
+	"sefariaHeadword": "טְלִימוֹן",
+	"headwords": [
+		{
+			"text": "טְלִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 537,
 		"column": "a"

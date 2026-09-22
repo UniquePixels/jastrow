@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01942",
-	"slug": "שרוי-2",
-	"headword": {
-		"text": "שֵׁרוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁרוּי",
+	"headwords": [
+		{
+			"text": "שֵׁרוּי"
+		},
 		{
 			"text": "שֵׁרוּיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1628,
 		"column": "b"

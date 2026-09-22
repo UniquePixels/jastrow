@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00866",
-	"slug": "קיבתא",
-	"headword": {
-		"text": "קֵיבְתָא"
-	},
+	"sefariaHeadword": "קֵיבְתָא",
+	"headwords": [
+		{
+			"text": "קֵיבְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

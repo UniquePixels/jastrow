@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00655",
-	"slug": "לפתם",
-	"headword": {
-		"text": "לִפְתָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִפְתָּם",
+	"headwords": [
+		{
+			"text": "לִפְתָּם"
+		},
 		{
 			"text": "לִפְתָּן",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 716,
 		"column": "a"

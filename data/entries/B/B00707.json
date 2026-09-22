@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00707",
-	"slug": "בירולין",
-	"headword": {
-		"text": "בֵּירוּלִין"
-	},
+	"sefariaHeadword": "בֵּירוּלִין",
+	"headwords": [
+		{
+			"text": "בֵּירוּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

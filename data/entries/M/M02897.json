@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02897",
-	"slug": "משכובית",
-	"headword": {
-		"text": "משכובית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "משכובית",
+	"headwords": [
+		{
+			"text": "משכובית"
+		},
 		{
 			"text": "משכוביתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 854,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00725",
-	"slug": "צקלון",
-	"headword": {
-		"text": "צִקָּלוֹן"
-	},
+	"sefariaHeadword": "צִקָּלוֹן",
+	"headwords": [
+		{
+			"text": "צִקָּלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

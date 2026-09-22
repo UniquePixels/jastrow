@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00354",
-	"slug": "גוזרתא",
-	"headword": {
-		"text": "גּוּזַרְתָּא"
-	},
+	"sefariaHeadword": "גּוּזַרְתָּא",
+	"headwords": [
+		{
+			"text": "גּוּזַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

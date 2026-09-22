@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00329",
-	"slug": "תושיה",
-	"headword": {
-		"text": "תּוּשִׁיָּה"
-	},
+	"sefariaHeadword": "תּוּשִׁיָּה",
+	"headwords": [
+		{
+			"text": "תּוּשִׁיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "a"

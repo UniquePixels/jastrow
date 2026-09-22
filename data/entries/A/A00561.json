@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00561",
-	"slug": "אודייני",
-	"headword": {
-		"text": "אוּדְיָינִי"
-	},
+	"sefariaHeadword": "אוּדְיָינִי",
+	"headwords": [
+		{
+			"text": "אוּדְיָינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

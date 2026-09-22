@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01038",
-	"slug": "שיצניתא",
-	"headword": {
-		"text": "שֵׁיצָנִיתָא"
-	},
+	"sefariaHeadword": "שֵׁיצָנִיתָא",
+	"headwords": [
+		{
+			"text": "שֵׁיצָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1567,
 		"column": "b"

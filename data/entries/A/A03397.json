@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03397",
-	"slug": "אתא-2",
-	"headword": {
-		"text": "אֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲתָא",
+	"headwords": [
+		{
+			"text": "אֲתָא"
+		},
 		{
 			"text": "אָתָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 132,
 		"column": "a"

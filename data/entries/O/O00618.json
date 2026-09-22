@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00618",
-	"slug": "סייד-1",
-	"headword": {
-		"text": "סִיֵּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיֵּיד",
+	"headwords": [
+		{
+			"text": "סִיֵּיד"
+		},
 		{
 			"text": "סַיֵּיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 978,
 		"column": "a"

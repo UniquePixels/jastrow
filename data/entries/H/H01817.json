@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01817",
-	"slug": "חשה",
-	"headword": {
-		"text": "חָשָׁה"
-	},
+	"sefariaHeadword": "חָשָׁה",
+	"headwords": [
+		{
+			"text": "חָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

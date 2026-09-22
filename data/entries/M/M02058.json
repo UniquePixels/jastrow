@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02058",
-	"slug": "מעברה",
-	"headword": {
-		"text": "מַעְבָּרָה"
-	},
+	"sefariaHeadword": "מַעְבָּרָה",
+	"headwords": [
+		{
+			"text": "מַעְבָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

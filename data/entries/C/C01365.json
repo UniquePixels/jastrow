@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01365",
-	"slug": "גרמני-2",
-	"headword": {
-		"text": "גרמני"
-	},
+	"sefariaHeadword": "גרמני",
+	"headwords": [
+		{
+			"text": "גרמני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

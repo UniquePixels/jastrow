@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00881",
-	"slug": "רעה-1",
-	"headword": {
-		"text": "רָעָה"
-	},
+	"sefariaHeadword": "רָעָה",
+	"headwords": [
+		{
+			"text": "רָעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1486,
 		"column": "a"

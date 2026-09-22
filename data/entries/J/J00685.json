@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00685",
-	"slug": "ישועה",
-	"headword": {
-		"text": "יְשׁוּעָה"
-	},
+	"sefariaHeadword": "יְשׁוּעָה",
+	"headwords": [
+		{
+			"text": "יְשׁוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 600,
 		"column": "a"

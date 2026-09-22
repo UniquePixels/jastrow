@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00349",
-	"slug": "אגרונימוס",
-	"headword": {
-		"text": "אַגְרוֹנִימוֹס"
-	},
+	"sefariaHeadword": "אַגְרוֹנִימוֹס",
+	"headwords": [
+		{
+			"text": "אַגְרוֹנִימוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02714",
-	"slug": "מרמטא",
-	"headword": {
-		"text": "מרמטא"
-	},
+	"sefariaHeadword": "מרמטא",
+	"headwords": [
+		{
+			"text": "מרמטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

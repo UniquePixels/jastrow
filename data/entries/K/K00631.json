@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00631",
-	"slug": "כירים-1",
-	"headword": {
-		"text": "כִּירַיִם"
-	},
+	"sefariaHeadword": "כִּירַיִם",
+	"headwords": [
+		{
+			"text": "כִּירַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 637,
 		"column": "a"

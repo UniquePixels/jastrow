@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02200",
-	"slug": "קרש-4",
-	"headword": {
-		"text": "קְרַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַשׁ",
+	"headwords": [
+		{
+			"text": "קְרַשׁ"
+		},
 		{
 			"text": "קְרֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1428,
 		"column": "a"

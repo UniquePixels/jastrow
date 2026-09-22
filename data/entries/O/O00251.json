@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00251",
-	"slug": "סוגיא",
-	"headword": {
-		"text": "סוּגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּגְיָא",
+	"headwords": [
+		{
+			"text": "סוּגְיָא"
+		},
 		{
 			"text": "סוּגְיָיא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 961,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01110",
-	"slug": "סממית",
-	"headword": {
-		"text": "סְמָמִית"
-	},
+	"sefariaHeadword": "סְמָמִית",
+	"headwords": [
+		{
+			"text": "סְמָמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

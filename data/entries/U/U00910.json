@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00910",
-	"slug": "שיירא-1",
-	"headword": {
-		"text": "שְׁיָירָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁיָירָא I",
+	"headwords": [
+		{
+			"text": "שְׁיָירָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1561,
 		"column": "b"

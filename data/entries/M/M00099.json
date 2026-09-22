@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00099",
-	"slug": "מברין",
-	"headword": {
-		"text": "מברין"
-	},
+	"sefariaHeadword": "מברין",
+	"headwords": [
+		{
+			"text": "מברין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

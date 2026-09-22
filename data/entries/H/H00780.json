@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00780",
-	"slug": "חילף",
-	"headword": {
-		"text": "חֵילֶף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵילֶף",
+	"headwords": [
+		{
+			"text": "חֵילֶף"
+		},
 		{
 			"text": "חֵלֶף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "b"

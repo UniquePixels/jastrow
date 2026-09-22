@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00798",
-	"slug": "בכרותא",
-	"headword": {
-		"text": "בְּכֵרוּתָא"
-	},
+	"sefariaHeadword": "בְּכֵרוּתָא",
+	"headwords": [
+		{
+			"text": "בְּכֵרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01370",
-	"slug": "חסידה",
-	"headword": {
-		"text": "חֲסִידָה"
-	},
+	"sefariaHeadword": "חֲסִידָה",
+	"headwords": [
+		{
+			"text": "חֲסִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00435",
-	"slug": "הימניק",
-	"headword": {
-		"text": "הִימְנֵיק"
-	},
+	"sefariaHeadword": "הִימְנֵיק",
+	"headwords": [
+		{
+			"text": "הִימְנֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

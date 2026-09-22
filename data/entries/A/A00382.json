@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00382",
-	"slug": "אדום-1",
-	"headword": {
-		"text": "אָדוֹם"
-	},
+	"sefariaHeadword": "אָדוֹם",
+	"headwords": [
+		{
+			"text": "אָדוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

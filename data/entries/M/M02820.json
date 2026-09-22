@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02820",
-	"slug": "משוורא",
-	"headword": {
-		"text": "מְשַׁוְּורָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְשַׁוְּורָא",
+	"headwords": [
+		{
+			"text": "מְשַׁוְּורָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 849,
 		"column": "b"

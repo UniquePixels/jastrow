@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00703",
-	"slug": "גיידור",
-	"headword": {
-		"text": "גַּיְידּוֹר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּיְידּוֹר",
+	"headwords": [
+		{
+			"text": "גַּיְידּוֹר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

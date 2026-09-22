@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00539",
-	"slug": "רחק-2",
-	"headword": {
-		"text": "רִחֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחֵק",
+	"headwords": [
+		{
+			"text": "רִחֵק"
+		},
 		{
 			"text": "רְחֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1469,
 		"column": "b"

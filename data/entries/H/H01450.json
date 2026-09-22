@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "H01450",
-	"slug": "חפיפותא-1",
-	"headword": {
-		"text": "חֲפִיפוּתָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*חֲפִיפוּתָא I",
+	"headwords": [
+		{
+			"text": "חֲפִיפוּתָא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 491,
 		"column": "b"

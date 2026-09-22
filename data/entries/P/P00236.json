@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00236",
-	"slug": "עוית-1",
-	"headword": {
-		"text": "עַוִּית"
-	},
+	"sefariaHeadword": "עַוִּית",
+	"headwords": [
+		{
+			"text": "עַוִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1049,
 		"column": "b"

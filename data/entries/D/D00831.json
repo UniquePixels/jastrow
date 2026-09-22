@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00831",
-	"slug": "דליה",
-	"headword": {
-		"text": "דְּלִיָּה"
-	},
+	"sefariaHeadword": "דְּלִיָּה",
+	"headwords": [
+		{
+			"text": "דְּלִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "a"

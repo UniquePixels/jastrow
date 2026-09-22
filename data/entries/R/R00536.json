@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00536",
-	"slug": "צלע-4",
-	"headword": {
-		"text": "צֵלָע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֵלָע",
+	"headwords": [
+		{
+			"text": "צֵלָע"
+		},
 		{
 			"text": "צַלְעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1285,
 		"column": "b"

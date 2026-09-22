@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00940",
-	"slug": "קיינא",
-	"headword": {
-		"text": "קַיְינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַיְינָא",
+	"headwords": [
+		{
+			"text": "קַיְינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1359,
 		"column": "a"

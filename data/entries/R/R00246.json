@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00246",
-	"slug": "צור-7",
-	"headword": {
-		"text": "צַוַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַוַּר",
+	"headwords": [
+		{
+			"text": "צַוַּר"
+		},
 		{
 			"text": "צַוְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1271,
 		"column": "a"

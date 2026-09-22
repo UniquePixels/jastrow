@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00574",
-	"slug": "טניס",
-	"headword": {
-		"text": "טָנֵיס"
-	},
+	"sefariaHeadword": "טָנֵיס",
+	"headwords": [
+		{
+			"text": "טָנֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "a"

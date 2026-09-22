@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02058",
-	"slug": "פשורא",
-	"headword": {
-		"text": "פְּשׁוּרָא"
-	},
+	"sefariaHeadword": "פְּשׁוּרָא",
+	"headwords": [
+		{
+			"text": "פְּשׁוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1245,
 		"column": "a"

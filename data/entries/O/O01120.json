@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01120",
-	"slug": "סמניירין",
-	"headword": {
-		"text": "סמניירין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סמניירין",
+	"headwords": [
+		{
+			"text": "סמניירין"
+		},
 		{
 			"text": "סמננין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "b"

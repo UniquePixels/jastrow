@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01344",
-	"slug": "פסף",
-	"headword": {
-		"text": "פְּסַף"
-	},
+	"sefariaHeadword": "פְּסַף",
+	"headwords": [
+		{
+			"text": "פְּסַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1199,
 		"column": "a"

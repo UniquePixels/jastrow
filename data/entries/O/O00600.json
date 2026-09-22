@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00600",
-	"slug": "סיחה",
-	"headword": {
-		"text": "סִיחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיחָה",
+	"headwords": [
+		{
+			"text": "סִיחָה"
+		},
 		{
 			"text": "שִׂיחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 977,
 		"column": "b"

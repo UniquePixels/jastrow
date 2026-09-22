@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01096",
-	"slug": "פלנית",
-	"headword": {
-		"text": "פְּלֹנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלֹנִית",
+	"headwords": [
+		{
+			"text": "פְּלֹנִית"
+		},
 		{
 			"text": "פְּלָנִית"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּלָנִיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1183,
 		"column": "b"

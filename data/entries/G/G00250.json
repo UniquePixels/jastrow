@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00250",
-	"slug": "זחלא",
-	"headword": {
-		"text": "זַחֲלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַחֲלָא",
+	"headwords": [
+		{
+			"text": "זַחֲלָא"
+		},
 		{
 			"text": "זַחְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "a"

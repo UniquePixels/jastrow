@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00059",
-	"slug": "דבילה",
-	"headword": {
-		"text": "דְּבֵילָה"
-	},
+	"sefariaHeadword": "דְּבֵילָה",
+	"headwords": [
+		{
+			"text": "דְּבֵילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "a"

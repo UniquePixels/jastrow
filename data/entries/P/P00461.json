@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00461",
-	"slug": "עטליז",
-	"headword": {
-		"text": "עַטְלֵיז"
-	},
+	"sefariaHeadword": "עַטְלֵיז",
+	"headwords": [
+		{
+			"text": "עַטְלֵיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01276",
-	"slug": "סעד-2",
-	"headword": {
-		"text": "סְעַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעַד",
+	"headwords": [
+		{
+			"text": "סְעַד"
+		},
 		{
 			"text": "סְעוֹד"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְעֵיד"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1009,
 		"column": "b"

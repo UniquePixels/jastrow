@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00445",
-	"slug": "חור-3",
-	"headword": {
-		"text": "חָוַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָוַּר",
+	"headwords": [
+		{
+			"text": "חָוַּר"
+		},
 		{
 			"text": "חִוְּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִוַּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 439,
 		"column": "a"

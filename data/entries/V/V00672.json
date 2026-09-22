@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00672",
-	"slug": "תמיד",
-	"headword": {
-		"text": "תָּמִיד"
-	},
+	"sefariaHeadword": "תָּמִיד",
+	"headwords": [
+		{
+			"text": "תָּמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "b"

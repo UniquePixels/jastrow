@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01065",
-	"slug": "פלינקרא",
-	"headword": {
-		"text": "פלינקרא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלינקרא",
+	"headwords": [
+		{
+			"text": "פלינקרא"
+		},
 		{
 			"text": "פלינקריא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1182,
 		"column": "a"

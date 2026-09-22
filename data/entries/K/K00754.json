@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00754",
-	"slug": "כלכית",
-	"headword": {
-		"text": "כִּלְכִּית"
-	},
+	"sefariaHeadword": "כִּלְכִּית",
+	"headwords": [
+		{
+			"text": "כִּלְכִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "b"

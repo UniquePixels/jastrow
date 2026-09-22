@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00033",
-	"slug": "שאלה",
-	"headword": {
-		"text": "שְׁאֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁאֵלָה",
+	"headwords": [
 		{
-			"text": "שְׁאִי׳"
+			"text": "שְׁאֵלָה"
+		},
+		{
+			"text": "שְׁאִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1508,
 		"column": "a"

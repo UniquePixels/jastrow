@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00806",
-	"slug": "טריסין-2",
-	"headword": {
-		"text": "טְרִיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִיסִין",
+	"headwords": [
+		{
+			"text": "טְרִיסִין"
+		},
 		{
 			"text": "טְרִיסִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 553,
 		"column": "b"

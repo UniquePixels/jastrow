@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00157",
-	"slug": "יובשני",
-	"headword": {
-		"text": "יוֹבְשָׁנִי"
-	},
+	"sefariaHeadword": "יוֹבְשָׁנִי",
+	"headwords": [
+		{
+			"text": "יוֹבְשָׁנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

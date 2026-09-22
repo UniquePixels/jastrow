@@ -1,17 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00300",
-	"slug": "עוני-3",
-	"headword": {
-		"text": "עוֹנִי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*עוֹנִי II",
+	"headwords": [
+		{
+			"text": "עוֹנִי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1055,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00646",
-	"slug": "אוכלה",
-	"headword": {
-		"text": "אוֹכְלָה"
-	},
+	"sefariaHeadword": "אוֹכְלָה",
+	"headwords": [
+		{
+			"text": "אוֹכְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

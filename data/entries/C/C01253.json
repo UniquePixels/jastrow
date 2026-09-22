@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01253",
-	"slug": "גרגלידא",
-	"headword": {
-		"text": "גַּרְגְּלִידָא"
-	},
+	"sefariaHeadword": "גַּרְגְּלִידָא",
+	"headwords": [
+		{
+			"text": "גַּרְגְּלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

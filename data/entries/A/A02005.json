@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02005",
-	"slug": "אמוראה-2",
-	"headword": {
-		"text": "אֱמוֹרָאָה"
-	},
+	"sefariaHeadword": "אֱמוֹרָאָה",
+	"headwords": [
+		{
+			"text": "אֱמוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

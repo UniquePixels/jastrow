@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00162",
-	"slug": "חגרא-1",
-	"headword": {
-		"text": "חַגְרָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַגְרָא I",
+	"headwords": [
+		{
+			"text": "חַגְרָא",
+			"homograph": 1
+		},
 		{
 			"text": "חַגְרָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 425,
 		"column": "a"

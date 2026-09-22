@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00664",
-	"slug": "פיל-5",
-	"headword": {
-		"text": "פִּיל",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיל III",
+	"headwords": [
+		{
+			"text": "פִּיל",
+			"homograph": 3
+		},
 		{
 			"text": "פִּילָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} III, {1} II",
 	"page": {
 		"number": 1163,
 		"column": "a"

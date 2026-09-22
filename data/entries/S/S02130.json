@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02130",
-	"slug": "קרע-3",
-	"headword": {
-		"text": "קֶרַע"
-	},
+	"sefariaHeadword": "קֶרַע",
+	"headwords": [
+		{
+			"text": "קֶרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1424,
 		"column": "b"

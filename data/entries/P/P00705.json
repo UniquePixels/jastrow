@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00705",
-	"slug": "עישרתי",
-	"headword": {
-		"text": "עִישַׂרְתֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִישַׂרְתֵּי",
+	"headwords": [
+		{
+			"text": "עִישַׂרְתֵּי"
+		},
 		{
 			"text": "עִישְׂרְתֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "a"

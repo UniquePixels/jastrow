@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01295",
-	"slug": "מירוק-1",
-	"headword": {
-		"text": "מֵירוּק"
-	},
+	"sefariaHeadword": "מֵירוּק",
+	"headwords": [
+		{
+			"text": "מֵירוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

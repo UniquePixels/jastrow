@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02227",
-	"slug": "מפנקו",
-	"headword": {
-		"text": "מְפַנְקוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְפַנְקוּ",
+	"headwords": [
+		{
+			"text": "מְפַנְקוּ"
+		},
 		{
 			"text": "מְפַנְקוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 821,
 		"column": "a"

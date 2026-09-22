@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01631",
-	"slug": "אישת",
-	"headword": {
-		"text": "אִישַׁת"
-	},
+	"sefariaHeadword": "אִישַׁת",
+	"headwords": [
+		{
+			"text": "אִישַׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

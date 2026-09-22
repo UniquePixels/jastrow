@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02449",
-	"slug": "אסכדיא",
-	"headword": {
-		"text": "אִסְכַּדְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְכַּדְיָא",
+	"headwords": [
+		{
+			"text": "אִסְכַּדְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 94,
 		"column": "a"

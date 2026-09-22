@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01526",
-	"slug": "פר",
-	"headword": {
-		"text": "פָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּר",
+	"headwords": [
+		{
+			"text": "פָּר"
+		},
 		{
 			"text": "פַּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1212,
 		"column": "b"

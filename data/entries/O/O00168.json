@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00168",
-	"slug": "סגרגר",
-	"headword": {
-		"text": "סגרגר"
-	},
+	"sefariaHeadword": "סגרגר",
+	"headwords": [
+		{
+			"text": "סגרגר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

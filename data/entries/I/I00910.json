@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00910",
-	"slug": "טרשי",
-	"headword": {
-		"text": "טַרְשִׁי"
-	},
+	"sefariaHeadword": "טַרְשִׁי",
+	"headwords": [
+		{
+			"text": "טַרְשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01791",
-	"slug": "שפעה-2",
-	"headword": {
-		"text": "שִׁפְעָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁפְעָה II",
+	"headwords": [
+		{
+			"text": "שִׁפְעָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1619,
 		"column": "a"

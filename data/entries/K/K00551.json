@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00551",
-	"slug": "כיליינא",
-	"headword": {
-		"text": "כיליינא"
-	},
+	"sefariaHeadword": "כיליינא",
+	"headwords": [
+		{
+			"text": "כיליינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

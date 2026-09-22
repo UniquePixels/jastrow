@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03062",
-	"slug": "מתיק",
-	"headword": {
-		"text": "מְתִיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתִיק",
+	"headwords": [
+		{
+			"text": "מְתִיק"
+		},
 		{
 			"text": "מְתִיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 862,
 		"column": "a"

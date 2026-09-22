@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00638",
-	"slug": "תלתכים",
-	"headword": {
-		"text": "תלתכים"
-	},
+	"sefariaHeadword": "תלתכים",
+	"headwords": [
+		{
+			"text": "תלתכים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

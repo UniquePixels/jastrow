@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00669",
-	"slug": "טפסא-1",
-	"headword": {
-		"text": "טַפְסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַפְסָא",
+	"headwords": [
+		{
+			"text": "טַפְסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

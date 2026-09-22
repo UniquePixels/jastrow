@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01068",
-	"slug": "שירות",
-	"headword": {
-		"text": "שֵׁירוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁירוּת",
+	"headwords": [
+		{
+			"text": "שֵׁירוּת"
+		},
 		{
 			"text": "שֵׁרוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1569,
 		"column": "a"

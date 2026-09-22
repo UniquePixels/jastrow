@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00107",
-	"slug": "קברניט-2",
-	"headword": {
-		"text": "קְבַרְנִיט",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קְבַרְנִיט II",
+	"headwords": [
+		{
+			"text": "קְבַרְנִיט",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1313,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01152",
-	"slug": "נקא-2",
-	"headword": {
-		"text": "נָקָא"
-	},
+	"sefariaHeadword": "נָקָא",
+	"headwords": [
+		{
+			"text": "נָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 930,
 		"column": "a"

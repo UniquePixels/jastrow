@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01014",
-	"slug": "קין-1",
-	"headword": {
-		"text": "קַיִן"
-	},
+	"sefariaHeadword": "קַיִן",
+	"headwords": [
+		{
+			"text": "קַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

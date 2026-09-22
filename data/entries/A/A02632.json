@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02632",
-	"slug": "אפוסטומוס",
-	"headword": {
-		"text": "אַפּוֹסְטוֹמוֹס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפֹּוסְטוֹמוֹס",
+	"headwords": [
+		{
+			"text": "אַפּוֹסְטוֹמוֹס",
+			"reconstructed": true
+		},
 		{
 			"text": "אַפּוֹסְטְמוֹס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "a"

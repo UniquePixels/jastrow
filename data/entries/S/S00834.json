@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00834",
-	"slug": "קטרונים",
-	"headword": {
-		"text": "קִטְּרוֹנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִטְּרוֹנִים",
+	"headwords": [
+		{
+			"text": "קִטְּרוֹנִים"
+		},
 		{
 			"text": "קִטְּרוֹנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1353,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00799",
-	"slug": "רמוצא-2",
-	"headword": {
-		"text": "רְמוּצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְמוּצָא",
+	"headwords": [
+		{
+			"text": "רְמוּצָא"
+		},
 		{
 			"text": "רְמוּצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1481,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00473",
-	"slug": "דיבי",
-	"headword": {
-		"text": "דִּיבֵי"
-	},
+	"sefariaHeadword": "דִּיבֵי",
+	"headwords": [
+		{
+			"text": "דִּיבֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "a"

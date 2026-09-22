@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01257",
-	"slug": "ערבא-3",
-	"headword": {
-		"text": "ערְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ערְבָּא",
+	"headwords": [
+		{
+			"text": "ערְבָּא"
+		},
 		{
 			"text": "עַרְבָא",
 			"homograph": 3
 		}
 	],
+	"display": "{0}, ({1} III)",
 	"page": {
 		"number": 1111,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00322",
-	"slug": "הטפה",
-	"headword": {
-		"text": "הַטָּפָה"
-	},
+	"sefariaHeadword": "הַטָּפָה",
+	"headwords": [
+		{
+			"text": "הַטָּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00635",
-	"slug": "המסמסה",
-	"headword": {
-		"text": "הֲמַסְמָסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲמַסְמָסָה",
+	"headwords": [
+		{
+			"text": "הֲמַסְמָסָה"
+		},
 		{
 			"text": "מַסְמָסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 356,
 		"column": "a"

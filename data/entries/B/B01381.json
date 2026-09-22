@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01381",
-	"slug": "בתוא",
-	"headword": {
-		"text": "בַּתְוָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בַּתְוָא",
+	"headwords": [
+		{
+			"text": "בַּתְוָא",
+			"reconstructed": true
+		},
 		{
 			"text": "בַּתְוָותָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 200,
 		"column": "b"

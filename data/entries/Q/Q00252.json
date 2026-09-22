@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00252",
-	"slug": "פומיליוס",
-	"headword": {
-		"text": "פומיליוס"
-	},
+	"sefariaHeadword": "פומיליוס",
+	"headwords": [
+		{
+			"text": "פומיליוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "a"

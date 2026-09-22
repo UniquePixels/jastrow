@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01461",
-	"slug": "איסטריפומטא",
-	"headword": {
-		"text": "איסטריפומטא"
-	},
+	"sefariaHeadword": "איסטריפומטא",
+	"headwords": [
+		{
+			"text": "איסטריפומטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00393",
-	"slug": "זיף-2",
-	"headword": {
-		"text": "זִיף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זִיף II",
+	"headwords": [
+		{
+			"text": "זִיף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 395,
 		"column": "b"

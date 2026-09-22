@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00038",
-	"slug": "באני",
-	"headword": {
-		"text": "בַּאנִּי"
-	},
+	"sefariaHeadword": "בַּאנִּי",
+	"headwords": [
+		{
+			"text": "בַּאנִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

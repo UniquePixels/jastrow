@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00086",
-	"slug": "יגיעה",
-	"headword": {
-		"text": "יְגִיעָה"
-	},
+	"sefariaHeadword": "יְגִיעָה",
+	"headwords": [
+		{
+			"text": "יְגִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

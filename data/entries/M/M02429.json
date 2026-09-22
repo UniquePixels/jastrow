@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02429",
-	"slug": "מקלעה",
-	"headword": {
-		"text": "מִקְלָעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִקְלָעָה",
+	"headwords": [
+		{
+			"text": "מִקְלָעָה"
+		},
 		{
 			"text": "מִקְלָעוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 831,
 		"column": "b"

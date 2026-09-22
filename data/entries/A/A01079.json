@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01079",
-	"slug": "אטימוייס",
-	"headword": {
-		"text": "אטימוייס"
-	},
+	"sefariaHeadword": "אטימוייס",
+	"headwords": [
+		{
+			"text": "אטימוייס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

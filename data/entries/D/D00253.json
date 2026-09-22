@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00253",
-	"slug": "דוכסוסטון",
-	"headword": {
-		"text": "דוכסוסטון"
-	},
+	"sefariaHeadword": "דוכסוסטון",
+	"headwords": [
+		{
+			"text": "דוכסוסטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 285,
 		"column": "b"

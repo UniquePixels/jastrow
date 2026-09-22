@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01522",
-	"slug": "קנבא",
-	"headword": {
-		"text": "קִנְבָּא"
-	},
+	"sefariaHeadword": "קִנְבָּא",
+	"headwords": [
+		{
+			"text": "קִנְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

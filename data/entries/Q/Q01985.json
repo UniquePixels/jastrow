@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01985",
-	"slug": "פרקד-2",
-	"headword": {
-		"text": "פַּרִקֵד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרִקֵד",
+	"headwords": [
+		{
+			"text": "פַּרִקֵד"
+		},
 		{
 			"text": "פַּרְקֵיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "a"

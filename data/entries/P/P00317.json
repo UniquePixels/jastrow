@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "P00317",
-	"slug": "עופא-1",
-	"headword": {
-		"text": "עוֹפָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*עוֹפָא II",
+	"headwords": [
+		{
+			"text": "עוֹפָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1055,
 		"column": "b"

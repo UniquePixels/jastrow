@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00444",
-	"slug": "ליטורגיא",
-	"headword": {
-		"text": "לִיטוּרְגְּיָא"
-	},
+	"sefariaHeadword": "לִיטוּרְגְּיָא",
+	"headwords": [
+		{
+			"text": "לִיטוּרְגְּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

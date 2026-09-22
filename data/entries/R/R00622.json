@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00622",
-	"slug": "צנינא",
-	"headword": {
-		"text": "צְנִינָא"
-	},
+	"sefariaHeadword": "צְנִינָא",
+	"headwords": [
+		{
+			"text": "צְנִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1291,
 		"column": "b"

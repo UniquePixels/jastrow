@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00312",
-	"slug": "רוגז",
-	"headword": {
-		"text": "רוֹגֶז"
-	},
+	"sefariaHeadword": "רוֹגֶז",
+	"headwords": [
+		{
+			"text": "רוֹגֶז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

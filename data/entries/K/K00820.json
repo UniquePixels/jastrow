@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00820",
-	"slug": "כמריאתא",
-	"headword": {
-		"text": "כְּמַרְיָאתָא"
-	},
+	"sefariaHeadword": "כְּמַרְיָאתָא",
+	"headwords": [
+		{
+			"text": "כְּמַרְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "b"

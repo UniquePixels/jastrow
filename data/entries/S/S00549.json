@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00549",
-	"slug": "קוקו",
-	"headword": {
-		"text": "קַוְקַו"
-	},
+	"sefariaHeadword": "קַוְקַו",
+	"headwords": [
+		{
+			"text": "קַוְקַו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

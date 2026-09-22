@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01712",
-	"slug": "מנדה",
-	"headword": {
-		"text": "מִנְדָּה"
-	},
+	"sefariaHeadword": "מִנְדָּה",
+	"headwords": [
+		{
+			"text": "מִנְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 797,
 		"column": "a"

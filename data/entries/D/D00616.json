@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00616",
-	"slug": "דימונק",
-	"headword": {
-		"text": "דימונ־ק־"
-	},
+	"sefariaHeadword": "דימונ־ק־",
+	"headwords": [
+		{
+			"text": "דימונ־ק־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "a"

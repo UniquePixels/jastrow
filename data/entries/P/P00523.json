@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00523",
-	"slug": "עיזה",
-	"headword": {
-		"text": "עִיזָּה"
-	},
+	"sefariaHeadword": "עִיזָּה",
+	"headwords": [
+		{
+			"text": "עִיזָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

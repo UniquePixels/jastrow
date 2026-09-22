@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01015",
-	"slug": "כפילתא",
-	"headword": {
-		"text": "כָּפֵילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּפֵילְתָּא",
+	"headwords": [
+		{
+			"text": "כָּפֵילְתָּא"
+		},
 		{
 			"text": "כָּפֶלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 659,
 		"column": "a"

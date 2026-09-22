@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00503",
-	"slug": "סטר-2",
-	"headword": {
-		"text": "סְטַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְטַר I",
+	"headwords": [
+		{
+			"text": "סְטַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 973,
 		"column": "b"

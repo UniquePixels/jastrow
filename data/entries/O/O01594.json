@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01594",
-	"slug": "סרי-1",
-	"headword": {
-		"text": "סְרֵי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְרֵי I",
+	"headwords": [
+		{
+			"text": "סְרֵי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1026,
 		"column": "a"

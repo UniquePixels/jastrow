@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01143",
-	"slug": "עקב-1",
-	"headword": {
-		"text": "עָקַב"
-	},
+	"sefariaHeadword": "עָקַב",
+	"headwords": [
+		{
+			"text": "עָקַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1104,
 		"column": "a"

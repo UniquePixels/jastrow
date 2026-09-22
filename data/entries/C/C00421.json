@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00421",
-	"slug": "גומסית",
-	"headword": {
-		"text": "גּוּמָּסִית"
-	},
+	"sefariaHeadword": "גּוּמָּסִית",
+	"headwords": [
+		{
+			"text": "גּוּמָּסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

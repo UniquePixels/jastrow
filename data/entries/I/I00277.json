@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00277",
-	"slug": "טטלפוש",
-	"headword": {
-		"text": "טַטְלָפוּשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַטְלָפוּשׁ",
+	"headwords": [
+		{
+			"text": "טַטְלָפוּשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 528,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

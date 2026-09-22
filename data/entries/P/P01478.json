@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01478",
-	"slug": "עשין-2",
-	"headword": {
-		"text": "עַשִּׁין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַשִּׁין",
+	"headwords": [
+		{
+			"text": "עַשִּׁין"
+		},
 		{
 			"text": "עָשִׁין"
 		},
@@ -12,9 +13,11 @@
 			"text": "עַשִּׁינָא"
 		},
 		{
-			"text": "עֲשִׁי׳"
+			"text": "עֲשִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}, {3}",
 	"page": {
 		"number": 1125,
 		"column": "b"

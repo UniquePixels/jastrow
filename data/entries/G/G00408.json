@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00408",
-	"slug": "זיקו",
-	"headword": {
-		"text": "זיקו"
-	},
+	"sefariaHeadword": "זיקו",
+	"headwords": [
+		{
+			"text": "זיקו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "a"

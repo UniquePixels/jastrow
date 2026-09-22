@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01457",
-	"slug": "איסטרטטי",
-	"headword": {
-		"text": "איסטרטטי"
-	},
+	"sefariaHeadword": "איסטרטטי",
+	"headwords": [
+		{
+			"text": "איסטרטטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

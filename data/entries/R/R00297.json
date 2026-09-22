@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00297",
-	"slug": "ציבותא",
-	"headword": {
-		"text": "צִיבְוָתָא"
-	},
+	"sefariaHeadword": "צִיבְוָתָא",
+	"headwords": [
+		{
+			"text": "צִיבְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "b"

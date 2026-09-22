@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00103",
-	"slug": "הדוק",
-	"headword": {
-		"text": "הִדּוּק"
-	},
+	"sefariaHeadword": "הִדּוּק",
+	"headwords": [
+		{
+			"text": "הִדּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "b"

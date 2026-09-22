@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00681",
-	"slug": "חיוור",
-	"headword": {
-		"text": "חִיוַּור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיוַּור",
+	"headwords": [
+		{
+			"text": "חִיוַּור"
+		},
 		{
 			"text": "חִיוְורָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִיוַּורְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 452,
 		"column": "a"

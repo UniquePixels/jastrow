@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01520",
-	"slug": "סרבן-2",
-	"headword": {
-		"text": "סַרְבָּן"
-	},
+	"sefariaHeadword": "סַרְבָּן",
+	"headwords": [
+		{
+			"text": "סַרְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "a"

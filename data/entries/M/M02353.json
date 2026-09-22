@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02353",
-	"slug": "מצר-2",
-	"headword": {
-		"text": "מְצַר"
-	},
+	"sefariaHeadword": "מְצַר",
+	"headwords": [
+		{
+			"text": "מְצַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

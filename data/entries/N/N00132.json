@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00132",
-	"slug": "נגובתא",
-	"headword": {
-		"text": "נְגוּבְתָּא"
-	},
+	"sefariaHeadword": "נְגוּבְתָּא",
+	"headwords": [
+		{
+			"text": "נְגוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "a"

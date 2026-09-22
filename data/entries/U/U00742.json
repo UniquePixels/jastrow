@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00742",
-	"slug": "שטח-2",
-	"headword": {
-		"text": "שְׁטַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁטַח",
+	"headwords": [
+		{
+			"text": "שְׁטַח"
+		},
 		{
 			"text": "שְׁטֵיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1553,
 		"column": "a"

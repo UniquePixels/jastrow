@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00482",
-	"slug": "היקיף",
-	"headword": {
-		"text": "הֶיקֵּיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיקֵּיף",
+	"headwords": [
+		{
+			"text": "הֶיקֵּיף"
+		},
 		{
 			"text": "הֶיקֵּיפָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "הֶיקֵּישָׁא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 349,
 		"column": "a"

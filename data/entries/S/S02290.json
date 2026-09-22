@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S02290",
-	"slug": "קתיליקון",
-	"headword": {
-		"text": "קתיליקון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קתיליקון",
+	"headwords": [
+		{
+			"text": "קתיליקון"
+		},
 		{
 			"text": "קוס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1434,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00689",
-	"slug": "עיריא",
-	"headword": {
-		"text": "עִירְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִירְיָא",
+	"headwords": [
+		{
+			"text": "עִירְיָא"
+		},
 		{
 			"text": "עִירְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִירְיְיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1076,
 		"column": "b"

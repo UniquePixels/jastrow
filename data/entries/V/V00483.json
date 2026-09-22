@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00483",
-	"slug": "תיקא-2",
-	"headword": {
-		"text": "תְּיָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּיָקָא",
+	"headwords": [
+		{
+			"text": "תְּיָקָא"
+		},
 		{
 			"text": "תְּיָיקָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "תֵּיקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1666,
 		"column": "a"

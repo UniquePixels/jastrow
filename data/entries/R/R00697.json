@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00697",
-	"slug": "צפיר",
-	"headword": {
-		"text": "צְפִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְפִיר",
+	"headwords": [
+		{
+			"text": "צְפִיר"
+		},
 		{
 			"text": "צְפִירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1297,
 		"column": "a"

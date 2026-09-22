@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02037",
-	"slug": "מסתורין",
-	"headword": {
-		"text": "מִסְתּוֹרִין"
-	},
+	"sefariaHeadword": "מִסְתּוֹרִין",
+	"headwords": [
+		{
+			"text": "מִסְתּוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "a"

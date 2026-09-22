@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00288",
-	"slug": "זיהומתא",
-	"headword": {
-		"text": "זִיהוּמְתָּא"
-	},
+	"sefariaHeadword": "זִיהוּמְתָּא",
+	"headwords": [
+		{
+			"text": "זִיהוּמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

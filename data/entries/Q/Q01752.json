@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01752",
-	"slug": "פרזם",
-	"headword": {
-		"text": "פַּרְזֵם"
-	},
+	"sefariaHeadword": "פַּרְזֵם",
+	"headwords": [
+		{
+			"text": "פַּרְזֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1223,
 		"column": "a"

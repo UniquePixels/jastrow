@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00739",
-	"slug": "צרדה",
-	"headword": {
-		"text": "צְרֵדָה"
-	},
+	"sefariaHeadword": "צְרֵדָה",
+	"headwords": [
+		{
+			"text": "צְרֵדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "b"

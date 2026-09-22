@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00337",
-	"slug": "ציידן",
-	"headword": {
-		"text": "צַיְידָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיְידָּן",
+	"headwords": [
+		{
+			"text": "צַיְידָּן"
+		},
 		{
 			"text": "צַיְידַּנְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "צַיְידַּנְיָיה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1276,
 		"column": "a"

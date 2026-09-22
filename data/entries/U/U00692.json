@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00692",
-	"slug": "שחצית",
-	"headword": {
-		"text": "שַׁחֲצִית"
-	},
+	"sefariaHeadword": "שַׁחֲצִית",
+	"headwords": [
+		{
+			"text": "שַׁחֲצִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1550,
 		"column": "a"

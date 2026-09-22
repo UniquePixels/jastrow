@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00291",
-	"slug": "זיהיא",
-	"headword": {
-		"text": "זיהיא"
-	},
+	"sefariaHeadword": "זיהיא",
+	"headwords": [
+		{
+			"text": "זיהיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

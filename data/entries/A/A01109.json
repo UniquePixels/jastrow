@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01109",
-	"slug": "אי-1",
-	"headword": {
-		"text": "אִי־"
-	},
+	"sefariaHeadword": "אִי־",
+	"headwords": [
+		{
+			"text": "אִי־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "b"

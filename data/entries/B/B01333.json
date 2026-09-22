@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01333",
-	"slug": "ברקתא-2",
-	"headword": {
-		"text": "בַּרְקָתָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בַּרְקָתָא ²",
+	"headwords": [
+		{
+			"text": "בַּרְקָתָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 197,
 		"column": "b"

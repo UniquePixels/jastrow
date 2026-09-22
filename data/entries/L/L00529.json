@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00529",
-	"slug": "לישכה",
-	"headword": {
-		"text": "לִישְׁכָּה"
-	},
+	"sefariaHeadword": "לִישְׁכָּה",
+	"headwords": [
+		{
+			"text": "לִישְׁכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 710,
 		"column": "a"

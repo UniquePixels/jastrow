@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00203",
-	"slug": "פוכיאיא",
-	"headword": {
-		"text": "פוכיאיא"
-	},
+	"sefariaHeadword": "פוכיאיא",
+	"headwords": [
+		{
+			"text": "פוכיאיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

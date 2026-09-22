@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02900",
-	"slug": "משכון-1",
-	"headword": {
-		"text": "מַשְׁכּוֹן"
-	},
+	"sefariaHeadword": "מַשְׁכּוֹן",
+	"headwords": [
+		{
+			"text": "מַשְׁכּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 854,
 		"column": "a"

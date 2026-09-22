@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02965",
-	"slug": "משקיצתא",
-	"headword": {
-		"text": "מַשְׁקֵיצָתָא"
-	},
+	"sefariaHeadword": "מַשְׁקֵיצָתָא",
+	"headwords": [
+		{
+			"text": "מַשְׁקֵיצָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

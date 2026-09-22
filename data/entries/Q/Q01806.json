@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01806",
-	"slug": "פריך",
-	"headword": {
-		"text": "פְּרִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִיךְ",
+	"headwords": [
+		{
+			"text": "פְּרִיךְ"
+		},
 		{
 			"text": "פְּרִיכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1226,
 		"column": "b"

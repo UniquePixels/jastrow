@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00501",
-	"slug": "זלף-2",
-	"headword": {
-		"text": "זְלַף"
-	},
+	"sefariaHeadword": "זְלַף",
+	"headwords": [
+		{
+			"text": "זְלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "a"

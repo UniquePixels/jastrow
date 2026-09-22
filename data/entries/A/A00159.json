@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00159",
-	"slug": "אבלא-1",
-	"headword": {
-		"text": "אֲבֵלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבֵלָא",
+	"headwords": [
+		{
+			"text": "אֲבֵלָא"
+		},
 		{
 			"text": "אָבִיל"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֲבֵילָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 7,
 		"column": "a"

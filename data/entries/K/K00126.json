@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00126",
-	"slug": "כדידית",
-	"headword": {
-		"text": "כְּדִידִית"
-	},
+	"sefariaHeadword": "כְּדִידִית",
+	"headwords": [
+		{
+			"text": "כְּדִידִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 613,
 		"column": "b"

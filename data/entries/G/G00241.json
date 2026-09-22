@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00241",
-	"slug": "זזי",
-	"headword": {
-		"text": "זָזֵי"
-	},
+	"sefariaHeadword": "זָזֵי",
+	"headwords": [
+		{
+			"text": "זָזֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "a"

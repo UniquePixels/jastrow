@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01171",
-	"slug": "חמטה",
-	"headword": {
-		"text": "חֲמָטָה"
-	},
+	"sefariaHeadword": "חֲמָטָה",
+	"headwords": [
+		{
+			"text": "חֲמָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "b"

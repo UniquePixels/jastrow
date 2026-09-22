@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00006",
-	"slug": "דאב-2",
-	"headword": {
-		"text": "דְּאִב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּאִב",
+	"headwords": [
+		{
+			"text": "דְּאִב"
+		},
 		{
 			"text": "דָּאֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 275,
 		"column": "a"

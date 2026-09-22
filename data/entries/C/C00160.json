@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00160",
-	"slug": "גדגד",
-	"headword": {
-		"text": "גדגד"
-	},
+	"sefariaHeadword": "גדגד",
+	"headwords": [
+		{
+			"text": "גדגד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

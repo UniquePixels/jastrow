@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01060",
-	"slug": "ררם",
-	"headword": {
-		"text": "רְרַם"
-	},
+	"sefariaHeadword": "רְרַם",
+	"headwords": [
+		{
+			"text": "רְרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

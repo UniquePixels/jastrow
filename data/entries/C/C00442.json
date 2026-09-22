@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00442",
-	"slug": "גוניסר",
-	"headword": {
-		"text": "גוניסר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גוניסר",
+	"headwords": [
+		{
+			"text": "גוניסר"
+		},
 		{
 			"text": "גוניסריות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 224,
 		"column": "a"

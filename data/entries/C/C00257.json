@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00257",
-	"slug": "גהינם",
-	"headword": {
-		"text": "גֵּהִינָּם"
-	},
+	"sefariaHeadword": "גֵּהִינָּם",
+	"headwords": [
+		{
+			"text": "גֵּהִינָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "b"

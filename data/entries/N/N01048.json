@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01048",
-	"slug": "נפיקא",
-	"headword": {
-		"text": "נפיקא"
-	},
+	"sefariaHeadword": "נפיקא",
+	"headwords": [
+		{
+			"text": "נפיקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "a"

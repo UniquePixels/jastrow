@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00450",
-	"slug": "כח-2",
-	"headword": {
-		"text": "כֹּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֹּחַ",
+	"headwords": [
+		{
+			"text": "כֹּחַ"
+		},
 		{
 			"text": "כּוֹחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 628,
 		"column": "a"

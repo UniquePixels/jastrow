@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01085",
-	"slug": "אטימסיאה",
-	"headword": {
-		"text": "אֱטִימָסִיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֱטִימָסִיאָה",
+	"headwords": [
 		{
-			"text": "אִיטִ׳"
+			"text": "אֱטִימָסִיאָה"
+		},
+		{
+			"text": "אִיטִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "b"

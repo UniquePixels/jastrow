@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01251",
-	"slug": "קלגס",
-	"headword": {
-		"text": "קַלְגָּס"
-	},
+	"sefariaHeadword": "קַלְגָּס",
+	"headwords": [
+		{
+			"text": "קַלְגָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

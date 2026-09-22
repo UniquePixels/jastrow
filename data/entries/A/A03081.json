@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03081",
-	"slug": "ארי-5",
-	"headword": {
-		"text": "אֲרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִי",
+	"headwords": [
+		{
+			"text": "אֲרִי"
+		},
 		{
 			"text": "אַרְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְיָוָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 118,
 		"column": "b"

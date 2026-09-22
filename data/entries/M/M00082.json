@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00082",
-	"slug": "מבוע-2",
-	"headword": {
-		"text": "מַבּוּעַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַבּוּעַ ²",
+	"headwords": [
+		{
+			"text": "מַבּוּעַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַבּוּעָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 725,
 		"column": "a"

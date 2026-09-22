@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01630",
-	"slug": "חרוסת",
-	"headword": {
-		"text": "חֲרוֹסֶת"
-	},
+	"sefariaHeadword": "חֲרוֹסֶת",
+	"headwords": [
+		{
+			"text": "חֲרוֹסֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "a"

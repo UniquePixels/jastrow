@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00188",
-	"slug": "לוגמא",
-	"headword": {
-		"text": "לוּגְמָא"
-	},
+	"sefariaHeadword": "לוּגְמָא",
+	"headwords": [
+		{
+			"text": "לוּגְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "b"

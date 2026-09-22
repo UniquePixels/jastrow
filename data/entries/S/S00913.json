@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00913",
-	"slug": "קיטליזקי",
-	"headword": {
-		"text": "קִיטְלִיזְקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטְלִיזְקֵי",
+	"headwords": [
+		{
+			"text": "קִיטְלִיזְקֵי"
+		},
 		{
 			"text": "קִיטְלִיסְקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1358,
 		"column": "a"

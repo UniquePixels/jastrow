@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00845",
-	"slug": "כנופיא",
-	"headword": {
-		"text": "כְּנוּפְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּנוּפְיָא",
+	"headwords": [
+		{
+			"text": "כְּנוּפְיָא"
+		},
 		{
 			"text": "כִּינּוּפְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 648,
 		"column": "b"

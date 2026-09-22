@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00771",
-	"slug": "סיעה",
-	"headword": {
-		"text": "סִיעָה"
-	},
+	"sefariaHeadword": "סִיעָה",
+	"headwords": [
+		{
+			"text": "סִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "b"

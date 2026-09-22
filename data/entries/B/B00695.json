@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00695",
-	"slug": "ביקיא",
-	"headword": {
-		"text": "בִּיקְיָא"
-	},
+	"sefariaHeadword": "בִּיקְיָא",
+	"headwords": [
+		{
+			"text": "בִּיקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

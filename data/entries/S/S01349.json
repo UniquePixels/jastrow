@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01349",
-	"slug": "קליקין",
-	"headword": {
-		"text": "קליקין"
-	},
+	"sefariaHeadword": "קליקין",
+	"headwords": [
+		{
+			"text": "קליקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1377,
 		"column": "a"

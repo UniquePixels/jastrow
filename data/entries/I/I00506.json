@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00506",
-	"slug": "טליתא",
-	"headword": {
-		"text": "טַלְיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַלְיְתָא",
+	"headwords": [
 		{
-			"text": "טַלְיְי׳"
+			"text": "טַלְיְתָא"
+		},
+		{
+			"text": "טַלְיְי׳",
+			"partial": true
 		},
 		{
 			"text": "טַלְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 537,
 		"column": "b"

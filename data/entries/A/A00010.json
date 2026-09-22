@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00010",
-	"slug": "אאלר״ן",
-	"headword": {
-		"text": "אאלר״ן"
-	},
+	"sefariaHeadword": "אאלר\"ן",
+	"headwords": [
+		{
+			"text": "אאלר״ן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1,
 		"column": "a"

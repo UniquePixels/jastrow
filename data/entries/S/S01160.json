@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01160",
-	"slug": "קירווא",
-	"headword": {
-		"text": "קִירְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְוָוא",
+	"headwords": [
+		{
+			"text": "קִירְוָוא"
+		},
 		{
 			"text": "קִירְוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1368,
 		"column": "b"

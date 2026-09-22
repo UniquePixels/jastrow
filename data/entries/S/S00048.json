@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00048",
-	"slug": "קביותא",
-	"headword": {
-		"text": "קביותא"
-	},
+	"sefariaHeadword": "קביותא",
+	"headwords": [
+		{
+			"text": "קביותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1308,
 		"column": "a"

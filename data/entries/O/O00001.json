@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00001",
-	"slug": "ס׳",
-	"headword": {
-		"text": "ס׳"
-	},
+	"sefariaHeadword": "ס׳",
+	"headwords": [
+		{
+			"text": "ס׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "a"

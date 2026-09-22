@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00792",
-	"slug": "פיצוליא",
-	"headword": {
-		"text": "פִּיצּוּלַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיצּוּלַיָּא",
+	"headwords": [
 		{
-			"text": "פִּצּ׳"
+			"text": "פִּיצּוּלַיָּא"
+		},
+		{
+			"text": "פִּצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1168,
 		"column": "b"

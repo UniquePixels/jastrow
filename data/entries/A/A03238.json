@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03238",
-	"slug": "ארקוליאני",
-	"headword": {
-		"text": "אַרְקוּלְיָאנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְקוּלְיָאנֵי",
+	"headwords": [
+		{
+			"text": "אַרְקוּלְיָאנֵי"
+		},
 		{
 			"text": "אַרְקוּרְיָאנֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 125,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00101",
-	"slug": "שבחתא",
-	"headword": {
-		"text": "שְׁבַחְתָּא"
-	},
+	"sefariaHeadword": "שְׁבַחְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁבַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1512,
 		"column": "b"

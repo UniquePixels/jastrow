@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00071",
-	"slug": "טבלאי",
-	"headword": {
-		"text": "טַבְלַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַבְלַאי",
+	"headwords": [
+		{
+			"text": "טַבְלַאי"
+		},
 		{
 			"text": "טַבְלַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 518,
 		"column": "b"

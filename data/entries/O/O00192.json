@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00192",
-	"slug": "סדסים",
-	"headword": {
-		"text": "סדסים"
-	},
+	"sefariaHeadword": "סדסים",
+	"headwords": [
+		{
+			"text": "סדסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "b"

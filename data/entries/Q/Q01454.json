@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01454",
-	"slug": "פקוד-1",
-	"headword": {
-		"text": "פָּקוּד"
-	},
+	"sefariaHeadword": "פָּקוּד",
+	"headwords": [
+		{
+			"text": "פָּקוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

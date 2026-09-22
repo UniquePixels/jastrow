@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00200",
-	"slug": "יון-3",
-	"headword": {
-		"text": "יוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹן",
+	"headwords": [
+		{
+			"text": "יוֹן"
+		},
 		{
 			"text": "יוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 569,
 		"column": "b"

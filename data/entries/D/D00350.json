@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00350",
-	"slug": "דורא-4",
-	"headword": {
-		"text": "דּוּרָא",
-		"homograph": 4
-	},
+	"sefariaHeadword": "דּוּרָא IV",
+	"headwords": [
+		{
+			"text": "דּוּרָא",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 289,
 		"column": "a"

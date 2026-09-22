@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00986",
-	"slug": "שיסראה",
-	"headword": {
-		"text": "שִׁיסְּרָאָה"
-	},
+	"sefariaHeadword": "שִׁיסְּרָאָה",
+	"headwords": [
+		{
+			"text": "שִׁיסְּרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "a"

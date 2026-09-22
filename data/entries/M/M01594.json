@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01594",
-	"slug": "מלל-6",
-	"headword": {
-		"text": "מָלַל",
-		"homograph": 3
-	},
+	"sefariaHeadword": "מָלַל III",
+	"headwords": [
+		{
+			"text": "מָלַל",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 792,
 		"column": "b"

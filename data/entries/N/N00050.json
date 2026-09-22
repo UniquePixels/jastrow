@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00050",
-	"slug": "נבוז",
-	"headword": {
-		"text": "נָבוֹז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָבוֹז",
+	"headwords": [
+		{
+			"text": "נָבוֹז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 867,
 		"column": "b"

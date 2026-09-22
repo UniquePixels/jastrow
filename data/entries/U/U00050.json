@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00050",
-	"slug": "שאר-4",
-	"headword": {
-		"text": "שְׁאֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁאֵר",
+	"headwords": [
+		{
+			"text": "שְׁאֵר"
+		},
 		{
 			"text": "שְׁאֵיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1509,
 		"column": "a"

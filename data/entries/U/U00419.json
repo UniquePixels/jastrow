@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00419",
-	"slug": "שולגא",
-	"headword": {
-		"text": "שׁוּלְגָּא"
-	},
+	"sefariaHeadword": "שׁוּלְגָּא",
+	"headwords": [
+		{
+			"text": "שׁוּלְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "a"

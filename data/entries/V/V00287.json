@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00287",
-	"slug": "תורגמן",
-	"headword": {
-		"text": "תּוּרְגְּמָן"
-	},
+	"sefariaHeadword": "תּוּרְגְּמָן",
+	"headwords": [
+		{
+			"text": "תּוּרְגְּמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "b"

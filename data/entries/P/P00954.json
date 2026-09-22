@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00954",
-	"slug": "ענוא",
-	"headword": {
-		"text": "עַנְוָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עַנְוָא",
+	"headwords": [
+		{
+			"text": "עַנְוָא",
+			"reconstructed": true
+		},
 		{
 			"text": "עַנְוָוא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1092,
 		"column": "a"

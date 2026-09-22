@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01114",
-	"slug": "בקולסא",
-	"headword": {
-		"text": "בַּקּוֹלְסָא"
-	},
+	"sefariaHeadword": "בַּקּוֹלְסָא",
+	"headwords": [
+		{
+			"text": "בַּקּוֹלְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 185,
 		"column": "b"

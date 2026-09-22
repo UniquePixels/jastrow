@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00178",
-	"slug": "זולטא",
-	"headword": {
-		"text": "זולטא"
-	},
+	"sefariaHeadword": "זולטא",
+	"headwords": [
+		{
+			"text": "זולטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

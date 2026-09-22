@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01149",
-	"slug": "סמתירא",
-	"headword": {
-		"text": "סַמְתֵּירָא"
-	},
+	"sefariaHeadword": "סַמְתֵּירָא",
+	"headwords": [
+		{
+			"text": "סַמְתֵּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00519",
-	"slug": "גזא-4",
-	"headword": {
-		"text": "גְּזָא"
-	},
+	"sefariaHeadword": "גְּזָא",
+	"headwords": [
+		{
+			"text": "גְּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00420",
-	"slug": "סורחא",
-	"headword": {
-		"text": "סוּרְחָא"
-	},
+	"sefariaHeadword": "סוּרְחָא",
+	"headwords": [
+		{
+			"text": "סוּרְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "b"

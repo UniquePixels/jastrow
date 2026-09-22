@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01575",
-	"slug": "סרח-7",
-	"headword": {
-		"text": "סֶרַח"
-	},
+	"sefariaHeadword": "סֶרַח",
+	"headwords": [
+		{
+			"text": "סֶרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "a"

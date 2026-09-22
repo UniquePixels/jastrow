@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00292",
-	"slug": "הזדה",
-	"headword": {
-		"text": "הֲזָדָה"
-	},
+	"sefariaHeadword": "הֲזָדָה",
+	"headwords": [
+		{
+			"text": "הֲזָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00376",
-	"slug": "היכדא",
-	"headword": {
-		"text": "הֵיכְדָא"
-	},
+	"sefariaHeadword": "הֵיכְדָא",
+	"headwords": [
+		{
+			"text": "הֵיכְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 345,
 		"column": "b"

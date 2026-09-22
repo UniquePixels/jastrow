@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02618",
-	"slug": "אפוטריקא-1",
-	"headword": {
-		"text": "אפוטריקא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אפוטריקא",
+	"headwords": [
+		{
+			"text": "אפוטריקא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

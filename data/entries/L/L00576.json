@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00576",
-	"slug": "למלא",
-	"headword": {
-		"text": "למלא"
-	},
+	"sefariaHeadword": "למלא",
+	"headwords": [
+		{
+			"text": "למלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

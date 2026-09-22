@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00159",
-	"slug": "קדמותא",
-	"headword": {
-		"text": "קַדְמוּתָא"
-	},
+	"sefariaHeadword": "קַדְמוּתָא",
+	"headwords": [
+		{
+			"text": "קַדְמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1317,
 		"column": "a"

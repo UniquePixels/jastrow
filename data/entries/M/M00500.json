@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00500",
-	"slug": "מולידא",
-	"headword": {
-		"text": "מוֹלִידָא"
-	},
+	"sefariaHeadword": "מוֹלִידָא",
+	"headwords": [
+		{
+			"text": "מוֹלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

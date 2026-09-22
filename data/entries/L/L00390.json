@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00390",
-	"slug": "לטימיא",
-	"headword": {
-		"text": "לטימיא"
-	},
+	"sefariaHeadword": "לטימיא",
+	"headwords": [
+		{
+			"text": "לטימיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

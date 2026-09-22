@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00636",
-	"slug": "סייר",
-	"headword": {
-		"text": "סִיֵּיר"
-	},
+	"sefariaHeadword": "סִיֵּיר",
+	"headwords": [
+		{
+			"text": "סִיֵּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

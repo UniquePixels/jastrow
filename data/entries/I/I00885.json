@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00885",
-	"slug": "טרפקעי",
-	"headword": {
-		"text": "טרפקעי"
-	},
+	"sefariaHeadword": "טרפקעי",
+	"headwords": [
+		{
+			"text": "טרפקעי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00397",
-	"slug": "טיננא",
-	"headword": {
-		"text": "טִינְנָא"
-	},
+	"sefariaHeadword": "טִינְנָא",
+	"headwords": [
+		{
+			"text": "טִינְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "a"

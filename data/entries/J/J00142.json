@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00142",
-	"slug": "יהירותא",
-	"headword": {
-		"text": "יְהִירוּתָא"
-	},
+	"sefariaHeadword": "יְהִירוּתָא",
+	"headwords": [
+		{
+			"text": "יְהִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00229",
-	"slug": "טורטיני",
-	"headword": {
-		"text": "טוּרְטִינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְטִינִי",
+	"headwords": [
+		{
+			"text": "טוּרְטִינִי"
+		},
 		{
 			"text": "טוּרְטָנִי"
 		},
@@ -15,6 +16,7 @@
 			"text": "טְרִיטָנִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 526,
 		"column": "b"

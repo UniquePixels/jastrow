@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00072",
-	"slug": "פגלין",
-	"headword": {
-		"text": "פגלין"
-	},
+	"sefariaHeadword": "פגלין",
+	"headwords": [
+		{
+			"text": "פגלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "b"

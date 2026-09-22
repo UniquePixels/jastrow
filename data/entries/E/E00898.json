@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00898",
-	"slug": "הרפתקא",
-	"headword": {
-		"text": "הַרְפַּתְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְפַּתְקָא",
+	"headwords": [
+		{
+			"text": "הַרְפַּתְקָא"
+		},
 		{
 			"text": "הַרְפַּתְקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 368,
 		"column": "b"

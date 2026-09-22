@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00571",
-	"slug": "מוץ-4",
-	"headword": {
-		"text": "מוֹץ",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹץ ³",
+	"headwords": [
+		{
+			"text": "מוֹץ",
+			"disambiguator": 3
+		},
 		{
 			"text": "מוֹצָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ³, {1} I",
 	"page": {
 		"number": 746,
 		"column": "b"

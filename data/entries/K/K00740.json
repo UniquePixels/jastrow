@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00740",
-	"slug": "כלינוס",
-	"headword": {
-		"text": "כָּלִינוֹס"
-	},
+	"sefariaHeadword": "כָּלִינוֹס",
+	"headwords": [
+		{
+			"text": "כָּלִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

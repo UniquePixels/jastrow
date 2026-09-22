@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00207",
-	"slug": "צומת-2",
-	"headword": {
-		"text": "צוֹמֶת"
-	},
+	"sefariaHeadword": "צוֹמֶת",
+	"headwords": [
+		{
+			"text": "צוֹמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

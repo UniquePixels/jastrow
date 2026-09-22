@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01154",
-	"slug": "מיכלא",
-	"headword": {
-		"text": "מֵיכְלָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵיכְלָא II",
+	"headwords": [
+		{
+			"text": "מֵיכְלָא",
+			"homograph": 2
+		},
 		{
 			"text": "מֵיכְלָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 773,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00535",
-	"slug": "אוג",
-	"headword": {
-		"text": "אוֹג"
-	},
+	"sefariaHeadword": "אוֹג",
+	"headwords": [
+		{
+			"text": "אוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

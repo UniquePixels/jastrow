@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01255",
-	"slug": "גרגר-1",
-	"headword": {
-		"text": "גִּרְגֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּרְגֵּר",
+	"headwords": [
+		{
+			"text": "גִּרְגֵּר"
+		},
 		{
 			"text": "גִּירְגֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 264,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00314",
-	"slug": "גודלת",
-	"headword": {
-		"text": "גּוֹדֶלֶת"
-	},
+	"sefariaHeadword": "גּוֹדֶלֶת",
+	"headwords": [
+		{
+			"text": "גּוֹדֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

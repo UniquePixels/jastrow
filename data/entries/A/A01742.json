@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01742",
-	"slug": "אכספטיאס",
-	"headword": {
-		"text": "אכספטיאס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אכספטיאס",
+	"headwords": [
+		{
+			"text": "אכספטיאס",
+			"reconstructed": true
+		},
 		{
 			"text": "אכספטייס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 65,
 		"column": "a"

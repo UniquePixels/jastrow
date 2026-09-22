@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00663",
-	"slug": "מורנית",
-	"headword": {
-		"text": "מוֹרָנִית"
-	},
+	"sefariaHeadword": "מוֹרָנִית",
+	"headwords": [
+		{
+			"text": "מוֹרָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

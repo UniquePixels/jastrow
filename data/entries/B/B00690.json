@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00690",
-	"slug": "ביצרתא",
-	"headword": {
-		"text": "בִּיצַרְתָּא"
-	},
+	"sefariaHeadword": "בִּיצַרְתָּא",
+	"headwords": [
+		{
+			"text": "בִּיצַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

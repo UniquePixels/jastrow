@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00322",
-	"slug": "עוץ",
-	"headword": {
-		"text": "עוּץ"
-	},
+	"sefariaHeadword": "עוּץ",
+	"headwords": [
+		{
+			"text": "עוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "a"

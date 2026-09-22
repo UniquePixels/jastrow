@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00022",
-	"slug": "יארוד",
-	"headword": {
-		"text": "יָארוֹד"
-	},
+	"sefariaHeadword": "יָארוֹד",
+	"headwords": [
+		{
+			"text": "יָארוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "a"

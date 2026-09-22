@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01346",
-	"slug": "חסודא-2",
-	"headword": {
-		"text": "חֲסוּדָא"
-	},
+	"sefariaHeadword": "חֲסוּדָא",
+	"headwords": [
+		{
+			"text": "חֲסוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

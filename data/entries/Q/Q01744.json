@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01744",
-	"slug": "פרז",
-	"headword": {
-		"text": "פָּרַז"
-	},
+	"sefariaHeadword": "פָּרַז",
+	"headwords": [
+		{
+			"text": "פָּרַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00709",
-	"slug": "תמרוקא",
-	"headword": {
-		"text": "תַּמְרוּקָא"
-	},
+	"sefariaHeadword": "תַּמְרוּקָא",
+	"headwords": [
+		{
+			"text": "תַּמְרוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00036",
-	"slug": "אבדומא-2",
-	"headword": {
-		"text": "אבדומא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אבדומא",
+	"headwords": [
+		{
+			"text": "אבדומא"
+		},
 		{
 			"text": "אבדומה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "a"

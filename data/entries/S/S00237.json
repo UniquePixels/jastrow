@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00237",
-	"slug": "קובעיא",
-	"headword": {
-		"text": "קוֹבְעַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹבְעַיָּא",
+	"headwords": [
 		{
-			"text": "קוֹבְעַיָּא דְעַיְיתָא"
+			"text": "קוֹבְעַיָּא"
+		},
+		{
+			"text": "ק׳ דְעַיְיתָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1324,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

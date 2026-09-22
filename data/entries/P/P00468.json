@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00468",
-	"slug": "עטעמה",
-	"headword": {
-		"text": "עטעמה"
-	},
+	"sefariaHeadword": "עטעמה",
+	"headwords": [
+		{
+			"text": "עטעמה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

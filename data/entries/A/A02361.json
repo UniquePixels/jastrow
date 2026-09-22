@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02361",
-	"slug": "אסטומוכריאה",
-	"headword": {
-		"text": "אסטומוכריאה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אסטומוכריאה",
+	"headwords": [
+		{
+			"text": "אסטומוכריאה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

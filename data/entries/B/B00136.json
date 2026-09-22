@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00136",
-	"slug": "בדיות",
-	"headword": {
-		"text": "בַּדָּיוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּדָּיוּת",
+	"headwords": [
+		{
+			"text": "בַּדָּיוּת"
+		},
 		{
 			"text": "בַּדָּאוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 140,
 		"column": "a"

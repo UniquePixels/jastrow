@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01242",
-	"slug": "בריאה",
-	"headword": {
-		"text": "בְּרִיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרִיאָה",
+	"headwords": [
+		{
+			"text": "בְּרִיאָה"
+		},
 		{
 			"text": "בְּרִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 192,
 		"column": "b"

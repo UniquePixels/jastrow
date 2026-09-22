@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00677",
-	"slug": "נימול",
-	"headword": {
-		"text": "נִימּוֹל"
-	},
+	"sefariaHeadword": "נִימּוֹל",
+	"headwords": [
+		{
+			"text": "נִימּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "a"

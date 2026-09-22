@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01349",
-	"slug": "עריבה",
-	"headword": {
-		"text": "עֲרֵיבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרֵיבָה",
+	"headwords": [
+		{
+			"text": "עֲרֵיבָה"
+		},
 		{
 			"text": "עֲרֵבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1117,
 		"column": "a"

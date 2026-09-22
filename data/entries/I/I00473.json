@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00473",
-	"slug": "טלאי-3",
-	"headword": {
-		"text": "טְלָאֵי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טְלָאֵי II",
+	"headwords": [
+		{
+			"text": "טְלָאֵי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 535,
 		"column": "b"

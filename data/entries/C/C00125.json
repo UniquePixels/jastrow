@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00125",
-	"slug": "גבעונאי",
-	"headword": {
-		"text": "גִּבְעוֹנָאֵי"
-	},
+	"sefariaHeadword": "גִּבְעוֹנָאֵי",
+	"headwords": [
+		{
+			"text": "גִּבְעוֹנָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

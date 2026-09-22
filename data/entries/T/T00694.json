@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00694",
-	"slug": "ריקבא",
-	"headword": {
-		"text": "רִיקְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיקְבָּא",
+	"headwords": [
+		{
+			"text": "רִיקְבָּא"
+		},
 		{
 			"text": "רִיקָּבוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1476,
 		"column": "b"

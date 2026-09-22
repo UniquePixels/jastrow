@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00000",
-	"slug": "מ-1",
-	"headword": {
-		"text": "מ"
-	},
+	"sefariaHeadword": "מ",
+	"headwords": [
+		{
+			"text": "מ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

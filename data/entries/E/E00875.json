@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00875",
-	"slug": "הרכנה",
-	"headword": {
-		"text": "הַרְכָּנָה"
-	},
+	"sefariaHeadword": "הַרְכָּנָה",
+	"headwords": [
+		{
+			"text": "הַרְכָּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

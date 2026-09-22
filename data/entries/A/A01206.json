@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01206",
-	"slug": "איחורא",
-	"headword": {
-		"text": "אִיחוּרָא"
-	},
+	"sefariaHeadword": "אִיחוּרָא",
+	"headwords": [
+		{
+			"text": "אִיחוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

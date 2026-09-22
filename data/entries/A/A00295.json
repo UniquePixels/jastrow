@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00295",
-	"slug": "אגיס",
-	"headword": {
-		"text": "אָגִיס"
-	},
+	"sefariaHeadword": "אָגִיס",
+	"headwords": [
+		{
+			"text": "אָגִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

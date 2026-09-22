@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00179",
-	"slug": "גדודתה",
-	"headword": {
-		"text": "גדודתה"
-	},
+	"sefariaHeadword": "גדודתה",
+	"headwords": [
+		{
+			"text": "גדודתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "a"

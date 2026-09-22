@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00167",
-	"slug": "עדרא",
-	"headword": {
-		"text": "עַדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַדְרָא",
+	"headwords": [
 		{
-			"text": "עֶ׳"
+			"text": "עַדְרָא"
+		},
+		{
+			"text": "עֶ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1046,
 		"column": "a"

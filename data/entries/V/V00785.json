@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00785",
-	"slug": "תעלומה",
-	"headword": {
-		"text": "תַּעֲלוּמָה"
-	},
+	"sefariaHeadword": "תַּעֲלוּמָה",
+	"headwords": [
+		{
+			"text": "תַּעֲלוּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "a"

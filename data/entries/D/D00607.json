@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00607",
-	"slug": "דילמא-1",
-	"headword": {
-		"text": "דִּילְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּילְמָא",
+	"headwords": [
+		{
+			"text": "דִּילְמָא"
+		},
 		{
 			"text": "דִּלְמָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 299,
 		"column": "b"

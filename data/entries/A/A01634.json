@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01634",
-	"slug": "אישתטית",
-	"headword": {
-		"text": "אִישְׁתַּטִּית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִישְׁתַּטִּית",
+	"headwords": [
+		{
+			"text": "אִישְׁתַּטִּית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 61,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

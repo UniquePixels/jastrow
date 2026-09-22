@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01971",
-	"slug": "שריי-1",
-	"headword": {
-		"text": "שַׁרְיֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁרְיֵי",
+	"headwords": [
 		{
-			"text": "שַּׁ׳"
+			"text": "שַׁרְיֵי"
+		},
+		{
+			"text": "שַּׁ׳",
+			"partial": true
 		},
 		{
 			"text": "הַ"
@@ -15,15 +17,14 @@
 			"text": "בֵּית"
 		},
 		{
-			"text": "בֵּי שַׁרְיֵי"
+			"text": "בֵּי שַׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2}), {3}, {4}",
 	"page": {
 		"number": 1631,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

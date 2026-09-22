@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00007",
-	"slug": "מאדנין",
-	"headword": {
-		"text": "מֹאדְנִין"
-	},
+	"sefariaHeadword": "מֹאדְנִין",
+	"headwords": [
+		{
+			"text": "מֹאדְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

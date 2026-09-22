@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02033",
-	"slug": "מסת",
-	"headword": {
-		"text": "מִסַּת"
-	},
+	"sefariaHeadword": "מִסַּת",
+	"headwords": [
+		{
+			"text": "מִסַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "a"

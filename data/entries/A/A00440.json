@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00440",
-	"slug": "אדקולאון",
-	"headword": {
-		"text": "אדקולאון",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אדקולאון",
+	"headwords": [
+		{
+			"text": "אדקולאון",
+			"reconstructed": true
+		},
 		{
 			"text": "ארקולאון"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 17,
 		"column": "b"

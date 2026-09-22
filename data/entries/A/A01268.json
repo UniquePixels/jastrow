@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01268",
-	"slug": "אילא-3",
-	"headword": {
-		"text": "אִילָא"
-	},
+	"sefariaHeadword": "אִילָא",
+	"headwords": [
+		{
+			"text": "אִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "b"

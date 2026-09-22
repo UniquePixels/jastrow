@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00816",
-	"slug": "גירדונא",
-	"headword": {
-		"text": "גִּירְדּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּירְדּוֹנָא",
+	"headwords": [
+		{
+			"text": "גִּירְדּוֹנָא"
+		},
 		{
 			"text": "גִּידְרוֹנָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 242,
 		"column": "b"

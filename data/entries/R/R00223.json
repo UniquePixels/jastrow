@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00223",
-	"slug": "צוץ-2",
-	"headword": {
-		"text": "צְוַץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְוַץ",
+	"headwords": [
+		{
+			"text": "צְוַץ"
+		},
 		{
 			"text": "צְיַץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1269,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00462",
-	"slug": "עטליפא",
-	"headword": {
-		"text": "עֲטַלֵּיפָא"
-	},
+	"sefariaHeadword": "עֲטַלֵּיפָא",
+	"headwords": [
+		{
+			"text": "עֲטַלֵּיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

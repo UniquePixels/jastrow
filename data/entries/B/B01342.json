@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01342",
-	"slug": "ברתא-2",
-	"headword": {
-		"text": "בְּרָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרָתָא",
+	"headwords": [
+		{
+			"text": "בְּרָתָא"
+		},
 		{
 			"text": "בְּרוֹתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בְּרָאתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 198,
 		"column": "a"

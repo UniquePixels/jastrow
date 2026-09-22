@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01308",
-	"slug": "סף-1",
-	"headword": {
-		"text": "סַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַף",
+	"headwords": [
+		{
+			"text": "סַף"
+		},
 		{
 			"text": "סָף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1010,
 		"column": "b"

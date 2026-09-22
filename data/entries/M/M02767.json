@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02767",
-	"slug": "מרקוש",
-	"headword": {
-		"text": "מרקוש"
-	},
+	"sefariaHeadword": "מרקוש",
+	"headwords": [
+		{
+			"text": "מרקוש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "a"

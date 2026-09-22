@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01051",
-	"slug": "קינקילון",
-	"headword": {
-		"text": "קינקילון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קינקילון",
+	"headwords": [
+		{
+			"text": "קינקילון"
+		},
 		{
 			"text": "קינקל"
 		},
@@ -18,6 +19,7 @@
 			"text": "קינקלין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1364,
 		"column": "a"

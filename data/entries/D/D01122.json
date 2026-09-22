@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01122",
-	"slug": "דרק",
-	"headword": {
-		"text": "דְּרַק"
-	},
+	"sefariaHeadword": "דְּרַק",
+	"headwords": [
+		{
+			"text": "דְּרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "a"

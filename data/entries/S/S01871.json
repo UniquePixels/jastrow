@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01871",
-	"slug": "קקתא",
-	"headword": {
-		"text": "קָקְתָא"
-	},
+	"sefariaHeadword": "קָקְתָא",
+	"headwords": [
+		{
+			"text": "קָקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

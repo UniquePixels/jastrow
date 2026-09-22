@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01178",
-	"slug": "עקים-2",
-	"headword": {
-		"text": "עָקִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָקִים",
+	"headwords": [
+		{
+			"text": "עָקִים"
+		},
 		{
 			"text": "עֲקִימָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲקִימְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1106,
 		"column": "a"

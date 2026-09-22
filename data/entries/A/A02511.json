@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02511",
-	"slug": "אספסתורין",
-	"headword": {
-		"text": "אספסתורין"
-	},
+	"sefariaHeadword": "אספסתורין",
+	"headwords": [
+		{
+			"text": "אספסתורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "a"

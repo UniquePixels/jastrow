@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02515",
-	"slug": "אספקרפסטי",
-	"headword": {
-		"text": "אספקרפסטי"
-	},
+	"sefariaHeadword": "אספקרפסטי",
+	"headwords": [
+		{
+			"text": "אספקרפסטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 96,
 		"column": "b"

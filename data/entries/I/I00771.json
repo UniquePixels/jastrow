@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00771",
-	"slug": "טריא-4",
-	"headword": {
-		"text": "טְרָיָא"
-	},
+	"sefariaHeadword": "טְרָיָא",
+	"headwords": [
+		{
+			"text": "טְרָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

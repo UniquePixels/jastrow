@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00654",
-	"slug": "גיהינם",
-	"headword": {
-		"text": "גֵּיהִינָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיהִינָּם",
+	"headwords": [
+		{
+			"text": "גֵּיהִינָּם"
+		},
 		{
 			"text": "גֵּיהִנָּם"
 		},
@@ -12,6 +13,7 @@
 			"text": "גֵּהִינָּם"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 236,
 		"column": "a"

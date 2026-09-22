@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00675",
-	"slug": "ישב-1",
-	"headword": {
-		"text": "יָשַׁב"
-	},
+	"sefariaHeadword": "יָשַׁב",
+	"headwords": [
+		{
+			"text": "יָשַׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 599,
 		"column": "a"

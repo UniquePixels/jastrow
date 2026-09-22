@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00159",
-	"slug": "טויה",
-	"headword": {
-		"text": "טַוְיָה"
-	},
+	"sefariaHeadword": "טַוְיָה",
+	"headwords": [
+		{
+			"text": "טַוְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01839",
-	"slug": "חשיכתא",
-	"headword": {
-		"text": "חֲשִׁיכְתָּא"
-	},
+	"sefariaHeadword": "חֲשִׁיכְתָּא",
+	"headwords": [
+		{
+			"text": "חֲשִׁיכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

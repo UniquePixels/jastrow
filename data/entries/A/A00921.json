@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00921",
-	"slug": "אושייתא",
-	"headword": {
-		"text": "אוּשְׁיָיתָא"
-	},
+	"sefariaHeadword": "אוּשְׁיָיתָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

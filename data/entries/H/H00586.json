@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00586",
-	"slug": "חטאה-2",
-	"headword": {
-		"text": "חֶטְאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶטְאָה",
+	"headwords": [
 		{
-			"text": "חַטְ׳"
+			"text": "חֶטְאָה"
+		},
+		{
+			"text": "חַטְ׳",
+			"partial": true
 		},
 		{
 			"text": "חֶטְהָא"
@@ -21,6 +23,7 @@
 			"text": "חֵיטָא"
 		}
 	],
+	"display": "{0}, ({1}), {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 447,
 		"column": "b"

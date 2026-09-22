@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01437",
-	"slug": "קמא-1",
-	"headword": {
-		"text": "קָמָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָמָא I",
+	"headwords": [
+		{
+			"text": "קָמָא",
+			"homograph": 1
+		},
 		{
 			"text": "קָאמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1383,
 		"column": "b"

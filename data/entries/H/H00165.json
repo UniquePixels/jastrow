@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00165",
-	"slug": "חגרה",
-	"headword": {
-		"text": "חַגְרָה"
-	},
+	"sefariaHeadword": "חַגְרָה",
+	"headwords": [
+		{
+			"text": "חַגְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00517",
-	"slug": "בטל-3",
-	"headword": {
-		"text": "בָּטֵל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּטֵל II",
+	"headwords": [
+		{
+			"text": "בָּטֵל",
+			"homograph": 2
+		},
 		{
 			"text": "בָּטֵיל"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 157,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01544",
-	"slug": "קנון",
-	"headword": {
-		"text": "קָנוֹן"
-	},
+	"sefariaHeadword": "קָנוֹן",
+	"headwords": [
+		{
+			"text": "קָנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

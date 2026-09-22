@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00725",
-	"slug": "סינאה",
-	"headword": {
-		"text": "סִינְאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינְאָה",
+	"headwords": [
+		{
+			"text": "סִינְאָה"
+		},
 		{
 			"text": "סִינְאֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 982,
 		"column": "b"

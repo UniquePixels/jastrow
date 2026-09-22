@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03075",
-	"slug": "מתלא",
-	"headword": {
-		"text": "מָתְלָא"
-	},
+	"sefariaHeadword": "מָתְלָא",
+	"headwords": [
+		{
+			"text": "מָתְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 863,
 		"column": "a"

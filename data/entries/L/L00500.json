@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00500",
-	"slug": "ליסטר",
-	"headword": {
-		"text": "ליסטר"
-	},
+	"sefariaHeadword": "ליסטר",
+	"headwords": [
+		{
+			"text": "ליסטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

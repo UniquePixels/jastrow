@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00424",
-	"slug": "פזז",
-	"headword": {
-		"text": "פָּזַז"
-	},
+	"sefariaHeadword": "פָּזַז",
+	"headwords": [
+		{
+			"text": "פָּזַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "a"

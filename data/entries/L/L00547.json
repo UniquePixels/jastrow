@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00547",
-	"slug": "לכך-1",
-	"headword": {
-		"text": "לְכָךְ"
-	},
+	"sefariaHeadword": "לְכָךְ",
+	"headwords": [
+		{
+			"text": "לְכָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

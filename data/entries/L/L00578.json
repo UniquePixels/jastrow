@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00578",
-	"slug": "למן",
-	"headword": {
-		"text": "לְמֵן"
-	},
+	"sefariaHeadword": "לְמֵן",
+	"headwords": [
+		{
+			"text": "לְמֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

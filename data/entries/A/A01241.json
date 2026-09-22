@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01241",
-	"slug": "איינים",
-	"headword": {
-		"text": "איינים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*איינים",
+	"headwords": [
+		{
+			"text": "איינים",
+			"reconstructed": true
+		},
 		{
 			"text": "אייניס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 47,
 		"column": "b"

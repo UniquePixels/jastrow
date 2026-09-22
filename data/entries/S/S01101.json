@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01101",
-	"slug": "קיפוסולין",
-	"headword": {
-		"text": "קיפוסולין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קיפוסולין",
+	"headwords": [
+		{
+			"text": "קיפוסולין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

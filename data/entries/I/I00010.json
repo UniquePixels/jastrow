@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00010",
-	"slug": "טאיף",
-	"headword": {
-		"text": "טָאֵיף"
-	},
+	"sefariaHeadword": "טָאֵיף",
+	"headwords": [
+		{
+			"text": "טָאֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

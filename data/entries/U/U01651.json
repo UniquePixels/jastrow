@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01651",
-	"slug": "שעטנזא",
-	"headword": {
-		"text": "שַׁעַטְנֵזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁעַטְנֵזָא",
+	"headwords": [
+		{
+			"text": "שַׁעַטְנֵזָא"
+		},
 		{
 			"text": "שַׁעַטְנֵיזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1610,
 		"column": "b"

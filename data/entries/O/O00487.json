@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00487",
-	"slug": "סטיין",
-	"headword": {
-		"text": "סטיין"
-	},
+	"sefariaHeadword": "סטיין",
+	"headwords": [
+		{
+			"text": "סטיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

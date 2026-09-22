@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01445",
-	"slug": "חפינה",
-	"headword": {
-		"text": "חֲפִינָה"
-	},
+	"sefariaHeadword": "חֲפִינָה",
+	"headwords": [
+		{
+			"text": "חֲפִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "b"

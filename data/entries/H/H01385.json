@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01385",
-	"slug": "חסיסא",
-	"headword": {
-		"text": "חֲסִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲסִיסָא",
+	"headwords": [
+		{
+			"text": "חֲסִיסָא"
+		},
 		{
 			"text": "חֲסִיסֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 487,
 		"column": "b"

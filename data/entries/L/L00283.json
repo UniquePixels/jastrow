@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00283",
-	"slug": "לוליתא",
-	"headword": {
-		"text": "לוליתא"
-	},
+	"sefariaHeadword": "לוליתא",
+	"headwords": [
+		{
+			"text": "לוליתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "b"

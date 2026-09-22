@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01313",
-	"slug": "כשל-1",
-	"headword": {
-		"text": "כָּשַׁל"
-	},
+	"sefariaHeadword": "כָּשַׁל",
+	"headwords": [
+		{
+			"text": "כָּשַׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 676,
 		"column": "a"

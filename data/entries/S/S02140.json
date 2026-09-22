@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02140",
-	"slug": "קרפף",
-	"headword": {
-		"text": "קַרְפִּף"
-	},
+	"sefariaHeadword": "קַרְפִּף",
+	"headwords": [
+		{
+			"text": "קַרְפִּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "a"

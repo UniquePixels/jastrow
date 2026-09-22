@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00901",
-	"slug": "גלול",
-	"headword": {
-		"text": "גִּלּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלּוּל",
+	"headwords": [
+		{
+			"text": "גִּלּוּל"
+		},
 		{
 			"text": "גִּילּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 246,
 		"column": "b"

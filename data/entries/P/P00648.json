@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00648",
-	"slug": "עיציא",
-	"headword": {
-		"text": "עִיצְיָא"
-	},
+	"sefariaHeadword": "עִיצְיָא",
+	"headwords": [
+		{
+			"text": "עִיצְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

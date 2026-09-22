@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M01784",
-	"slug": "מנימין",
-	"headword": {
-		"text": "מִנְיָמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנְיָמִין",
+	"headwords": [
 		{
-			"text": "מִנְיָי׳"
+			"text": "מִנְיָמִין"
 		},
 		{
-			"text": "מִינְ׳"
+			"text": "מִנְיָי׳",
+			"partial": true
+		},
+		{
+			"text": "מִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 801,
 		"column": "a"

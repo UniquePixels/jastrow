@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00358",
-	"slug": "פורן-2",
-	"headword": {
-		"text": "פּוּרַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרַן",
+	"headwords": [
+		{
+			"text": "פּוּרַן"
+		},
 		{
 			"text": "פּוּרְנָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1147,
 		"column": "b"

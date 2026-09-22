@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00475",
-	"slug": "לילין",
-	"headword": {
-		"text": "לִילִין"
-	},
+	"sefariaHeadword": "לִילִין",
+	"headwords": [
+		{
+			"text": "לִילִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

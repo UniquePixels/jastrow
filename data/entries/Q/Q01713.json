@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01713",
-	"slug": "פרוסטגמא",
-	"headword": {
-		"text": "פְּרוֹסְטַגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹסְטַגְמָא",
+	"headwords": [
+		{
+			"text": "פְּרוֹסְטַגְמָא"
+		},
 		{
 			"text": "פְּרוֹזְדַּגְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1221,
 		"column": "a"

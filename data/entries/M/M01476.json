@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01476",
-	"slug": "מלאתא",
-	"headword": {
-		"text": "מַלְאֲתָא"
-	},
+	"sefariaHeadword": "מַלְאֲתָא",
+	"headwords": [
+		{
+			"text": "מַלְאֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 786,
 		"column": "b"

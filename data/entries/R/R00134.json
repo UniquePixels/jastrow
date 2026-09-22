@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00134",
-	"slug": "צהוונא",
-	"headword": {
-		"text": "צהוונא"
-	},
+	"sefariaHeadword": "צהוונא",
+	"headwords": [
+		{
+			"text": "צהוונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

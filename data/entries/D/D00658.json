@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00658",
-	"slug": "דיסקוס-2",
-	"headword": {
-		"text": "דִּיסְקוֹס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּיסְקוֹס II",
+	"headwords": [
+		{
+			"text": "דִּיסְקוֹס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 302,
 		"column": "b"

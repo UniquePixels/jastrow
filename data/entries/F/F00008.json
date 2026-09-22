@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00008",
-	"slug": "ואני",
-	"headword": {
-		"text": "וָאנַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָאנַי",
+	"headwords": [
+		{
+			"text": "וָאנַי"
+		},
 		{
 			"text": "וָואנַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 372,
 		"column": "a"

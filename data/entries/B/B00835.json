@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00835",
-	"slug": "בלוסא",
-	"headword": {
-		"text": "בלוסא"
-	},
+	"sefariaHeadword": "בלוסא",
+	"headwords": [
+		{
+			"text": "בלוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

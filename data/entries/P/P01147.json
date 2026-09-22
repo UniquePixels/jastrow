@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01147",
-	"slug": "עקב-5",
-	"headword": {
-		"text": "עֵקֶב",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עֵקֶב ²",
+	"headwords": [
+		{
+			"text": "עֵקֶב",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1104,
 		"column": "b"

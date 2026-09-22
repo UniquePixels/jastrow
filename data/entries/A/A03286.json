@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03286",
-	"slug": "אשיד",
-	"headword": {
-		"text": "אֲשֵׁיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲשֵׁיד",
+	"headwords": [
+		{
+			"text": "אֲשֵׁיד"
+		},
 		{
 			"text": "אָשֵׁיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "b"

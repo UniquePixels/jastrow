@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00582",
-	"slug": "עיליתא-2",
-	"headword": {
-		"text": "עִילִיתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילִיתָא II",
+	"headwords": [
+		{
+			"text": "עִילִיתָא",
+			"homograph": 2
+		},
 		{
 			"text": "עִלִיתָא"
 		},
 		{
-			"text": "עֲלִי׳"
+			"text": "עֲלִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1070,
 		"column": "b"

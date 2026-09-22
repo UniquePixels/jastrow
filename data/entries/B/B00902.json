@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00902",
-	"slug": "בלע-5",
-	"headword": {
-		"text": "בְּלַע",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלַע ²",
+	"headwords": [
+		{
+			"text": "בְּלַע",
+			"disambiguator": 2
+		},
 		{
 			"text": "בְּלְעָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "בִּלְעָה"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 175,
 		"column": "a"

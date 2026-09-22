@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00637",
-	"slug": "קורצין-2",
-	"headword": {
-		"text": "קוּרְצִין"
-	},
+	"sefariaHeadword": "קוּרְצִין",
+	"headwords": [
+		{
+			"text": "קוּרְצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "a"

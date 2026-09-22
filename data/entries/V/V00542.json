@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "V00542",
-	"slug": "תכלא-1",
-	"headword": {
-		"text": "תִּכְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּכְלָא",
+	"headwords": [
+		{
+			"text": "תִּכְלָא"
+		},
 		{
 			"text": "תִּי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1668,
 		"column": "b"

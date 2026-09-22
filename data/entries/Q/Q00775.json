@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00775",
-	"slug": "פיעפועא",
-	"headword": {
-		"text": "פִּיעפּוּעָא"
-	},
+	"sefariaHeadword": "פִּיעפּוּעָא",
+	"headwords": [
+		{
+			"text": "פִּיעפּוּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

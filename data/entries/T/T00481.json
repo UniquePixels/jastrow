@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00481",
-	"slug": "רחוותא",
-	"headword": {
-		"text": "רַחֲוָותָא"
-	},
+	"sefariaHeadword": "רַחֲוָותָא",
+	"headwords": [
+		{
+			"text": "רַחֲוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

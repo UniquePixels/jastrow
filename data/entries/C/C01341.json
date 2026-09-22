@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01341",
-	"slug": "גריפוס",
-	"headword": {
-		"text": "גריפוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גריפוס",
+	"headwords": [
+		{
+			"text": "גריפוס"
+		},
 		{
 			"text": "גריפס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 268,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02098",
-	"slug": "מעט-2",
-	"headword": {
-		"text": "מְעַט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְעַט I",
+	"headwords": [
+		{
+			"text": "מְעַט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 815,
 		"column": "b"

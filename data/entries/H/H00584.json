@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00584",
-	"slug": "חטא-6",
-	"headword": {
-		"text": "חַטָּא"
-	},
+	"sefariaHeadword": "חַטָּא",
+	"headwords": [
+		{
+			"text": "חַטָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "b"

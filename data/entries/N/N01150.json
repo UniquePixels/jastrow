@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01150",
-	"slug": "נצרפי",
-	"headword": {
-		"text": "נִצְרְפֵי"
-	},
+	"sefariaHeadword": "נִצְרְפֵי",
+	"headwords": [
+		{
+			"text": "נִצְרְפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 930,
 		"column": "a"

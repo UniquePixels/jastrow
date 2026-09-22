@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00881",
-	"slug": "פישון-2",
-	"headword": {
-		"text": "פִּישׁוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פִּישׁוֹן II",
+	"headwords": [
+		{
+			"text": "פִּישׁוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1172,
 		"column": "b"

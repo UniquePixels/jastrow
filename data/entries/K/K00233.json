@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00233",
-	"slug": "כוזנתא",
-	"headword": {
-		"text": "כּוּזַנְתָּא"
-	},
+	"sefariaHeadword": "כּוּזַנְתָּא",
+	"headwords": [
+		{
+			"text": "כּוּזַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

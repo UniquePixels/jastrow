@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02366",
-	"slug": "אסטטיון",
-	"headword": {
-		"text": "אִסְטַטְיוֹן"
-	},
+	"sefariaHeadword": "אִסְטַטְיוֹן",
+	"headwords": [
+		{
+			"text": "אִסְטַטְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

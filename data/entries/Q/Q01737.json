@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01737",
-	"slug": "פרורי",
-	"headword": {
-		"text": "פְּרוּרִי"
-	},
+	"sefariaHeadword": "פְּרוּרִי",
+	"headwords": [
+		{
+			"text": "פְּרוּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "a"

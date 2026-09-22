@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01641",
-	"slug": "שעור",
-	"headword": {
-		"text": "שִׁעוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁעוּר",
+	"headwords": [
+		{
+			"text": "שִׁעוּר"
+		},
 		{
 			"text": "שִׁעוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1610,
 		"column": "a"

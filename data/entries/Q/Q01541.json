@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01541",
-	"slug": "פראסופא",
-	"headword": {
-		"text": "פָּרָאסוֹפָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פָּרָאסוֹפָא",
+	"headwords": [
+		{
+			"text": "פָּרָאסוֹפָא",
+			"reconstructed": true
+		},
 		{
 			"text": "פְּרוֹסוֹפָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1213,
 		"column": "b"

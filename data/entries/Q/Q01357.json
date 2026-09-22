@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01357",
-	"slug": "פסקון",
-	"headword": {
-		"text": "פִּסְקוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְקוֹן",
+	"headwords": [
+		{
+			"text": "פִּסְקוֹן"
+		},
 		{
 			"text": "פִּסְקוֹנִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1201,
 		"column": "b"

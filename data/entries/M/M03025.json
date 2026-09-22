@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M03025",
-	"slug": "מתון-1",
-	"headword": {
-		"text": "מָתוּן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָתוּן I",
+	"headwords": [
+		{
+			"text": "מָתוּן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 860,
 		"column": "b"

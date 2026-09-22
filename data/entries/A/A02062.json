@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02062",
-	"slug": "אמר-3",
-	"headword": {
-		"text": "אָמַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אָמַר II",
+	"headwords": [
+		{
+			"text": "אָמַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 79,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00588",
-	"slug": "נטרונא",
-	"headword": {
-		"text": "נַטְרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַטְרוֹנָא",
+	"headwords": [
+		{
+			"text": "נַטְרוֹנָא"
+		},
 		{
 			"text": "נַטְרוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 901,
 		"column": "b"

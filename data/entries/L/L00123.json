@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00123",
-	"slug": "לגומיא",
-	"headword": {
-		"text": "לגומיא"
-	},
+	"sefariaHeadword": "לגומיא",
+	"headwords": [
+		{
+			"text": "לגומיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 692,
 		"column": "a"

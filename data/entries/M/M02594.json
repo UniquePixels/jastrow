@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02594",
-	"slug": "מרון-1",
-	"headword": {
-		"text": "מָרוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָרוֹן I",
+	"headwords": [
+		{
+			"text": "מָרוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 839,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01154",
-	"slug": "שכינה-2",
-	"headword": {
-		"text": "שְׁכִינָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁכִינָה ²",
+	"headwords": [
+		{
+			"text": "שְׁכִינָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁכִינתָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1573,
 		"column": "b"

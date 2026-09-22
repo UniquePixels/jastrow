@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01167",
-	"slug": "אידנא-1",
-	"headword": {
-		"text": "אֵידְנָא"
-	},
+	"sefariaHeadword": "אֵידְנָא",
+	"headwords": [
+		{
+			"text": "אֵידְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

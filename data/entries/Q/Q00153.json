@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00153",
-	"slug": "פוג-2",
-	"headword": {
-		"text": "פּוּג",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פּוּג ²",
+	"headwords": [
+		{
+			"text": "פּוּג",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1139,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00891",
-	"slug": "תקל-2",
-	"headword": {
-		"text": "תָּקַל"
-	},
+	"sefariaHeadword": "תָּקַל",
+	"headwords": [
+		{
+			"text": "תָּקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1691,
 		"column": "a"

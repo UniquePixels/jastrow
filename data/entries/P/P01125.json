@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01125",
-	"slug": "עצלות",
-	"headword": {
-		"text": "עַצְלוּת"
-	},
+	"sefariaHeadword": "עַצְלוּת",
+	"headwords": [
+		{
+			"text": "עַצְלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "b"

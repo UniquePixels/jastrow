@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00662",
-	"slug": "טפל-3",
-	"headword": {
-		"text": "טָפֵל"
-	},
+	"sefariaHeadword": "טָפֵל",
+	"headwords": [
+		{
+			"text": "טָפֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "a"

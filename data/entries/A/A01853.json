@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01853",
-	"slug": "אלייסטן",
-	"headword": {
-		"text": "אִלְיַיסְטֹן"
-	},
+	"sefariaHeadword": "אִלְיַיסְטֹן",
+	"headwords": [
+		{
+			"text": "אִלְיַיסְטֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

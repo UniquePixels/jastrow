@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02094",
-	"slug": "מעזיבה",
-	"headword": {
-		"text": "מַעֲזִיבָה"
-	},
+	"sefariaHeadword": "מַעֲזִיבָה",
+	"headwords": [
+		{
+			"text": "מַעֲזִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

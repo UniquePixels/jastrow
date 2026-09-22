@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00221",
-	"slug": "בוז-2",
-	"headword": {
-		"text": "בּוּז",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בּוּז ²",
+	"headwords": [
+		{
+			"text": "בּוּז",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 144,
 		"column": "b"

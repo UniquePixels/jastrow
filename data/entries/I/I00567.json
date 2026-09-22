@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00567",
-	"slug": "טנבורא",
-	"headword": {
-		"text": "טַנְבּוּרָא"
-	},
+	"sefariaHeadword": "טַנְבּוּרָא",
+	"headwords": [
+		{
+			"text": "טַנְבּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

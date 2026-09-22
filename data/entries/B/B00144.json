@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00144",
-	"slug": "בדין-2",
-	"headword": {
-		"text": "בִּדִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּדִּין",
+	"headwords": [
+		{
+			"text": "בִּדִּין"
+		},
 		{
 			"text": "בִּידִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 140,
 		"column": "b"

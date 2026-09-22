@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00095",
-	"slug": "מבעיר",
-	"headword": {
-		"text": "מַבְעִיר"
-	},
+	"sefariaHeadword": "מַבְעִיר",
+	"headwords": [
+		{
+			"text": "מַבְעִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

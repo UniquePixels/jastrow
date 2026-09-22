@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00749",
-	"slug": "אונכרי",
-	"headword": {
-		"text": "אֲוַנְכְּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲוַנְכְּרֵי",
+	"headwords": [
+		{
+			"text": "אֲוַנְכְּרֵי"
+		},
 		{
 			"text": "אֲוַונְכְּרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 29,
 		"column": "a"

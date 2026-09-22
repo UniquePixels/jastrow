@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01567",
-	"slug": "איפרכי",
-	"headword": {
-		"text": "אִיפַּרְכִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיפַּרְכִי",
+	"headwords": [
+		{
+			"text": "אִיפַּרְכִי"
+		},
 		{
 			"text": "אִיפַּרְכְיָא"
 		},
 		{
-			"text": "אִפַּ׳"
+			"text": "אִפַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 59,
 		"column": "a"

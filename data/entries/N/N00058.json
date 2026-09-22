@@ -1,26 +1,27 @@
 {
+	"schemaVersion": 2,
 	"id": "N00058",
-	"slug": "נבוריא",
-	"headword": {
-		"text": "נִבּוּרַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִבּוּרַיָּא",
+	"headwords": [
+		{
+			"text": "נִבּוּרַיָּא"
+		},
 		{
 			"text": "נִבּוּרַיָּיא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		},
 		{
-			"text": "כְּפַר נִבּוּרַיָּא"
+			"text": "כְּפַר נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 867,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

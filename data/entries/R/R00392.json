@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00392",
-	"slug": "צינוקא",
-	"headword": {
-		"text": "צִינוֹקָא"
-	},
+	"sefariaHeadword": "צִינוֹקָא",
+	"headwords": [
+		{
+			"text": "צִינוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00836",
-	"slug": "גירעון",
-	"headword": {
-		"text": "גֵּירָעוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּירָעוֹן",
+	"headwords": [
 		{
-			"text": "גֵּרָ׳"
+			"text": "גֵּירָעוֹן"
+		},
+		{
+			"text": "גֵּרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 243,
 		"column": "a"

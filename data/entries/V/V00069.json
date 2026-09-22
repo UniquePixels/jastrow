@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00069",
-	"slug": "תבקיון",
-	"headword": {
-		"text": "תבקיון"
-	},
+	"sefariaHeadword": "תבקיון",
+	"headwords": [
+		{
+			"text": "תבקיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1645,
 		"column": "b"

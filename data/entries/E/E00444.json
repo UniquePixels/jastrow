@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00444",
-	"slug": "הינא-1",
-	"headword": {
-		"text": "הִינָא"
-	},
+	"sefariaHeadword": "הִינָא",
+	"headwords": [
+		{
+			"text": "הִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

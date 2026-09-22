@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03385",
-	"slug": "אשתממו",
-	"headword": {
-		"text": "אִשְׁתְּמָמוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִשְׁתְּמָמוּ",
+	"headwords": [
+		{
+			"text": "אִשְׁתְּמָמוּ"
+		},
 		{
 			"text": "אִשְׁתְּמָמוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 131,
 		"column": "b"

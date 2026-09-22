@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02955",
-	"slug": "משפלת",
-	"headword": {
-		"text": "מִשְׁפֶּלֶת"
-	},
+	"sefariaHeadword": "מִשְׁפֶּלֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁפֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

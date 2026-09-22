@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00650",
-	"slug": "זקף-2",
-	"headword": {
-		"text": "זְקַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְקַף",
+	"headwords": [
+		{
+			"text": "זְקַף"
+		},
 		{
 			"text": "זְקוֹף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 410,
 		"column": "a"

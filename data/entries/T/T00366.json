@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00366",
-	"slug": "רויתא",
-	"headword": {
-		"text": "רְוִיתָא"
-	},
+	"sefariaHeadword": "רְוִיתָא",
+	"headwords": [
+		{
+			"text": "רְוִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

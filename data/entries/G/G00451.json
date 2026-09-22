@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00451",
-	"slug": "זכורו-2",
-	"headword": {
-		"text": "זְכוּרוּ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זְכוּרוּ ²",
+	"headwords": [
+		{
+			"text": "זְכוּרוּ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 398,
 		"column": "a"

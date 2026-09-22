@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A02952",
-	"slug": "ארבא-2",
-	"headword": {
-		"text": "אַרְבָּא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אַרְבָּא II",
+	"headwords": [
+		{
+			"text": "אַרְבָּא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 113,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00252",
-	"slug": "זחרתיה",
-	"headword": {
-		"text": "זחרתיה"
-	},
+	"sefariaHeadword": "זחרתיה",
+	"headwords": [
+		{
+			"text": "זחרתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "a"

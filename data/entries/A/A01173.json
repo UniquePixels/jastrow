@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01173",
-	"slug": "אידרונה",
-	"headword": {
-		"text": "אִידְּרוֹנָה"
-	},
+	"sefariaHeadword": "אִידְּרוֹנָה",
+	"headwords": [
+		{
+			"text": "אִידְּרוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

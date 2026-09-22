@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00248",
-	"slug": "בוכנה",
-	"headword": {
-		"text": "בּוּכְנָה"
-	},
+	"sefariaHeadword": "בּוּכְנָה",
+	"headwords": [
+		{
+			"text": "בּוּכְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "b"

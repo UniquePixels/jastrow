@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00613",
-	"slug": "ירוקת",
-	"headword": {
-		"text": "יְרוֹקֶת"
-	},
+	"sefariaHeadword": "יְרוֹקֶת",
+	"headwords": [
+		{
+			"text": "יְרוֹקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "a"

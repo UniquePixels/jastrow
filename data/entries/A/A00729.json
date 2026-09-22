@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00729",
-	"slug": "אונו-1",
-	"headword": {
-		"text": "אוֹנוּ"
-	},
+	"sefariaHeadword": "אוֹנוּ",
+	"headwords": [
+		{
+			"text": "אוֹנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

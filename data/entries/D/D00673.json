@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00673",
-	"slug": "דיעתא",
-	"headword": {
-		"text": "דִּיעֲתָא"
-	},
+	"sefariaHeadword": "דִּיעֲתָא",
+	"headwords": [
+		{
+			"text": "דִּיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

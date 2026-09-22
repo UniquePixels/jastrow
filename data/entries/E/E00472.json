@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00472",
-	"slug": "היסטא",
-	"headword": {
-		"text": "הֶיסֵּטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיסֵּטָא",
+	"headwords": [
 		{
-			"text": "הֶיסֵּי׳"
+			"text": "הֶיסֵּטָא"
+		},
+		{
+			"text": "הֶיסֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 349,
 		"column": "a"

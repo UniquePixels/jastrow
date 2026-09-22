@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03056",
-	"slug": "ארזין",
-	"headword": {
-		"text": "אֲרָזִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲרָזִין",
+	"headwords": [
+		{
+			"text": "אֲרָזִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00528",
-	"slug": "פטיש-1",
-	"headword": {
-		"text": "פַּטִּישׁ"
-	},
+	"sefariaHeadword": "פַּטִּישׁ",
+	"headwords": [
+		{
+			"text": "פַּטִּישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

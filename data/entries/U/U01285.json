@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01285",
-	"slug": "שלטון-1",
-	"headword": {
-		"text": "שִׁלְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְטוֹן",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁלְטוֹן"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1581,
 		"column": "b"

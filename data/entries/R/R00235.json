@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00235",
-	"slug": "צוק-1",
-	"headword": {
-		"text": "צוּק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צוּק I",
+	"headwords": [
+		{
+			"text": "צוּק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1270,
 		"column": "a"

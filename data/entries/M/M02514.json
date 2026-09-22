@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02514",
-	"slug": "מרגזאן",
-	"headword": {
-		"text": "מרגזאן"
-	},
+	"sefariaHeadword": "מרגזאן",
+	"headwords": [
+		{
+			"text": "מרגזאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00595",
-	"slug": "בייכא",
-	"headword": {
-		"text": "בַּיְיכָא"
-	},
+	"sefariaHeadword": "בַּיְיכָא",
+	"headwords": [
+		{
+			"text": "בַּיְיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00711",
-	"slug": "ניסן-2",
-	"headword": {
-		"text": "נִיסַן"
-	},
+	"sefariaHeadword": "נִיסַן",
+	"headwords": [
+		{
+			"text": "נִיסַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00024",
-	"slug": "טבאג",
-	"headword": {
-		"text": "טַבְאָג",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַבְאָג",
+	"headwords": [
+		{
+			"text": "טַבְאָג",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 515,
 		"column": "b"

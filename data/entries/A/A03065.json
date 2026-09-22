@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03065",
-	"slug": "ארטא",
-	"headword": {
-		"text": "אַרְטָא"
-	},
+	"sefariaHeadword": "אַרְטָא",
+	"headwords": [
+		{
+			"text": "אַרְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

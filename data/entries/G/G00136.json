@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00136",
-	"slug": "זוהמה",
-	"headword": {
-		"text": "זוֹהֲמָה"
-	},
+	"sefariaHeadword": "זוֹהֲמָה",
+	"headwords": [
+		{
+			"text": "זוֹהֲמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "b"

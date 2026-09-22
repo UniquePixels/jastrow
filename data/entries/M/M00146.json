@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00146",
-	"slug": "מגושא",
-	"headword": {
-		"text": "מָגוֹשָׁא"
-	},
+	"sefariaHeadword": "מָגוֹשָׁא",
+	"headwords": [
+		{
+			"text": "מָגוֹשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

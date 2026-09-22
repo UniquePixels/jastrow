@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00751",
-	"slug": "כלכול",
-	"headword": {
-		"text": "כִּלְכּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּלְכּוּל",
+	"headwords": [
 		{
-			"text": "כִּילְ׳"
+			"text": "כִּלְכּוּל"
+		},
+		{
+			"text": "כִּילְ׳",
+			"partial": true
 		},
 		{
 			"text": "כַּלְכָּל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 643,
 		"column": "a"

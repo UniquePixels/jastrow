@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00340",
-	"slug": "תותבא",
-	"headword": {
-		"text": "תּוֹתָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹתָבָא",
+	"headwords": [
+		{
+			"text": "תּוֹתָבָא"
+		},
 		{
 			"text": "תּוֹתָבָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1659,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01252",
-	"slug": "שלום-2",
-	"headword": {
-		"text": "שָׁלוֹם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁלוֹם II",
+	"headwords": [
+		{
+			"text": "שָׁלוֹם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1579,
 		"column": "b"

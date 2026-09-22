@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00347",
-	"slug": "תזקיטא",
-	"headword": {
-		"text": "תזקיטא"
-	},
+	"sefariaHeadword": "תזקיטא",
+	"headwords": [
+		{
+			"text": "תזקיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00233",
-	"slug": "הוינא",
-	"headword": {
-		"text": "הַוְיָנָא"
-	},
+	"sefariaHeadword": "הַוְיָנָא",
+	"headwords": [
+		{
+			"text": "הַוְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

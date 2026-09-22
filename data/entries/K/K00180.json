@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00180",
-	"slug": "כובא-1",
-	"headword": {
-		"text": "כּוּבָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּבָּא I",
+	"headwords": [
+		{
+			"text": "כּוּבָּא",
+			"homograph": 1
+		},
 		{
 			"text": "כֻּבָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 616,
 		"column": "a"

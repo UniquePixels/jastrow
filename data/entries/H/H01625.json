@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01625",
-	"slug": "חרוכא",
-	"headword": {
-		"text": "חֲרוֹכָא"
-	},
+	"sefariaHeadword": "חֲרוֹכָא",
+	"headwords": [
+		{
+			"text": "חֲרוֹכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00104",
-	"slug": "בדאות",
-	"headword": {
-		"text": "בַּדָּאוּת"
-	},
+	"sefariaHeadword": "בַּדָּאוּת",
+	"headwords": [
+		{
+			"text": "בַּדָּאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "b"

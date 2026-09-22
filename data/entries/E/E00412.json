@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00412",
-	"slug": "הילקטי",
-	"headword": {
-		"text": "הִילְקְטִי"
-	},
+	"sefariaHeadword": "הִילְקְטִי",
+	"headwords": [
+		{
+			"text": "הִילְקְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "b"

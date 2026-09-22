@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01832",
-	"slug": "קצף-3",
-	"headword": {
-		"text": "קֶצֶף"
-	},
+	"sefariaHeadword": "קֶצֶף",
+	"headwords": [
+		{
+			"text": "קֶצֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "b"

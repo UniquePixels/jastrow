@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B00125",
-	"slug": "בדור",
-	"headword": {
-		"text": "בִּדּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּדּוּר",
+	"headwords": [
+		{
+			"text": "בִּדּוּר"
+		},
 		{
 			"text": "בִּדּוּרָא"
 		},
 		{
-			"text": "בִּי׳"
+			"text": "בִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 139,
 		"column": "b"

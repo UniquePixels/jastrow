@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00454",
-	"slug": "גוע",
-	"headword": {
-		"text": "גָּוַע"
-	},
+	"sefariaHeadword": "גָּוַע",
+	"headwords": [
+		{
+			"text": "גָּוַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "b"

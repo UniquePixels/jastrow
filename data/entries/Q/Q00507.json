@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00507",
-	"slug": "פטטה",
-	"headword": {
-		"text": "פַּטָּטָה"
-	},
+	"sefariaHeadword": "פַּטָּטָה",
+	"headwords": [
+		{
+			"text": "פַּטָּטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

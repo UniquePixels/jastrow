@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00165",
-	"slug": "מגיסטיר",
-	"headword": {
-		"text": "מָגִיסְטֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָגִיסְטֵיר",
+	"headwords": [
 		{
-			"text": "מָגִסְ׳"
+			"text": "מָגִיסְטֵיר"
+		},
+		{
+			"text": "מָגִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 728,
 		"column": "a"

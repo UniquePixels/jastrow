@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00885",
-	"slug": "מחל-1",
-	"headword": {
-		"text": "מָחַל"
-	},
+	"sefariaHeadword": "מָחַל",
+	"headwords": [
+		{
+			"text": "מָחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

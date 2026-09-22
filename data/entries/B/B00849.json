@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00849",
-	"slug": "בלחוד",
-	"headword": {
-		"text": "בִּלְחוֹד"
-	},
+	"sefariaHeadword": "בִּלְחוֹד",
+	"headwords": [
+		{
+			"text": "בִּלְחוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "a"

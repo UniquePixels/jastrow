@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00018",
-	"slug": "פאפאי",
-	"headword": {
-		"text": "פאפאי"
-	},
+	"sefariaHeadword": "פאפאי",
+	"headwords": [
+		{
+			"text": "פאפאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

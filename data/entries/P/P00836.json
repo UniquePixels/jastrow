@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00836",
-	"slug": "עלעל-2",
-	"headword": {
-		"text": "עַלְעֵל"
-	},
+	"sefariaHeadword": "עַלְעֵל",
+	"headwords": [
+		{
+			"text": "עַלְעֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

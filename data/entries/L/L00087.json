@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00087",
-	"slug": "לבלבא",
-	"headword": {
-		"text": "לַבְלְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַבְלְבָא",
+	"headwords": [
+		{
+			"text": "לַבְלְבָא"
+		},
 		{
 			"text": "לִבְלוּבָא"
 		},
 		{
-			"text": "לִיבְ׳"
+			"text": "לִיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 689,
 		"column": "b"

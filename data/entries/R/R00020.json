@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00020",
-	"slug": "צבא-4",
-	"headword": {
-		"text": "צָבָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צָבָא ²",
+	"headwords": [
+		{
+			"text": "צָבָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1257,
 		"column": "a"

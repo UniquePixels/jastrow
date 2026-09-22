@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01153",
-	"slug": "שכינה-1",
-	"headword": {
-		"text": "שְׁכִינָה"
-	},
+	"sefariaHeadword": "שְׁכִינָה",
+	"headwords": [
+		{
+			"text": "שְׁכִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "b"

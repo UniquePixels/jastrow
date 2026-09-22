@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00516",
-	"slug": "עיוות",
-	"headword": {
-		"text": "עִיוּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיוּוּת",
+	"headwords": [
+		{
+			"text": "עִיוּוּת"
+		},
 		{
 			"text": "עִוּוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1067,
 		"column": "b"

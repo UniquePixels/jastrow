@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02105",
-	"slug": "מעיילא",
-	"headword": {
-		"text": "מְעַיְּילָא"
-	},
+	"sefariaHeadword": "מְעַיְּילָא",
+	"headwords": [
+		{
+			"text": "מְעַיְּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

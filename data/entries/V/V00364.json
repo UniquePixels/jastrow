@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00364",
-	"slug": "תחינה",
-	"headword": {
-		"text": "תְּחִינָּה"
-	},
+	"sefariaHeadword": "תְּחִינָּה",
+	"headwords": [
+		{
+			"text": "תְּחִינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

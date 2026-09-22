@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01249",
-	"slug": "נקרן",
-	"headword": {
-		"text": "נַקְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַקְרָן",
+	"headwords": [
+		{
+			"text": "נַקְרָן"
+		},
 		{
 			"text": "נוֹקְרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 935,
 		"column": "b"

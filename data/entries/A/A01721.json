@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01721",
-	"slug": "אכסוריה",
-	"headword": {
-		"text": "אֶכְסוֹרִיָּה"
-	},
+	"sefariaHeadword": "אֶכְסוֹרִיָּה",
+	"headwords": [
+		{
+			"text": "אֶכְסוֹרִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

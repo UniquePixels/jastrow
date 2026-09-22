@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01423",
-	"slug": "שמדון",
-	"headword": {
-		"text": "שְׁמָדוֹן"
-	},
+	"sefariaHeadword": "שְׁמָדוֹן",
+	"headwords": [
+		{
+			"text": "שְׁמָדוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1592,
 		"column": "a"

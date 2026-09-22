@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02804",
-	"slug": "אפרוודין",
-	"headword": {
-		"text": "אפרוודין"
-	},
+	"sefariaHeadword": "אפרוודין",
+	"headwords": [
+		{
+			"text": "אפרוודין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00731",
-	"slug": "גילול",
-	"headword": {
-		"text": "גִּילּוּל"
-	},
+	"sefariaHeadword": "גִּילּוּל",
+	"headwords": [
+		{
+			"text": "גִּילּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

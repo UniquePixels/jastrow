@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01463",
-	"slug": "מלא-4",
-	"headword": {
-		"text": "מָלֵא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָלֵא II",
+	"headwords": [
+		{
+			"text": "מָלֵא",
+			"homograph": 2
+		},
 		{
 			"text": "מְלֵאָה"
 		},
@@ -13,6 +14,7 @@
 			"text": "מְלֵיאָה"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 785,
 		"column": "b"

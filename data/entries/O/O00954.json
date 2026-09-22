@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00954",
-	"slug": "סלגיתא",
-	"headword": {
-		"text": "סַלְגִּיתָא"
-	},
+	"sefariaHeadword": "סַלְגִּיתָא",
+	"headwords": [
+		{
+			"text": "סַלְגִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

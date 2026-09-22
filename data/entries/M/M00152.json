@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00152",
-	"slug": "מגידונית",
-	"headword": {
-		"text": "מגידונית"
-	},
+	"sefariaHeadword": "מגידונית",
+	"headwords": [
+		{
+			"text": "מגידונית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

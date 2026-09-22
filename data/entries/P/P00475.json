@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00475",
-	"slug": "עטר-1",
-	"headword": {
-		"text": "עָטַר"
-	},
+	"sefariaHeadword": "עָטַר",
+	"headwords": [
+		{
+			"text": "עָטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1064,
 		"column": "a"

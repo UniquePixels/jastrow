@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00530",
-	"slug": "סיבו",
-	"headword": {
-		"text": "סֵיבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵיבוּ",
+	"headwords": [
+		{
+			"text": "סֵיבוּ"
+		},
 		{
 			"text": "סֵיבוּתָא"
 		},
 		{
-			"text": "סֵב׳"
+			"text": "סֵב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 974,
 		"column": "b"

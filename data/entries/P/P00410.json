@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00410",
-	"slug": "עזיזא",
-	"headword": {
-		"text": "עַזִּיזָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַזִּיזָא II",
+	"headwords": [
+		{
+			"text": "עַזִּיזָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1061,
 		"column": "b"

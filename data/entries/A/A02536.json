@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02536",
-	"slug": "אסקופא",
-	"headword": {
-		"text": "אִסְקוּפָּא"
-	},
+	"sefariaHeadword": "אִסְקוּפָּא",
+	"headwords": [
+		{
+			"text": "אִסְקוּפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "a"

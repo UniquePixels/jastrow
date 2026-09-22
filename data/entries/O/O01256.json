@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O01256",
-	"slug": "סנפתא",
-	"headword": {
-		"text": "סְנַפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְנַפְתָּא",
+	"headwords": [
+		{
+			"text": "סְנַפְתָּא"
+		},
 		{
 			"text": "סְנַפְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1008,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

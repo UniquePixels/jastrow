@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01317",
-	"slug": "אים",
-	"headword": {
-		"text": "אָיַם"
-	},
+	"sefariaHeadword": "אָיַם",
+	"headwords": [
+		{
+			"text": "אָיַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "a"

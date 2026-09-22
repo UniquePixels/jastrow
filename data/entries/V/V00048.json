@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00048",
-	"slug": "תבירא",
-	"headword": {
-		"text": "תְּבִירָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּבִירָא II",
+	"headwords": [
+		{
+			"text": "תְּבִירָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1644,
 		"column": "a"

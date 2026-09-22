@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00024",
-	"slug": "ראמא",
-	"headword": {
-		"text": "רָאמָא"
-	},
+	"sefariaHeadword": "רָאמָא",
+	"headwords": [
+		{
+			"text": "רָאמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1437,
 		"column": "a"

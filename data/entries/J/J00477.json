@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00477",
-	"slug": "יעד-2",
-	"headword": {
-		"text": "יְעַד"
-	},
+	"sefariaHeadword": "יְעַד",
+	"headwords": [
+		{
+			"text": "יְעַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 584,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01010",
-	"slug": "סלסול",
-	"headword": {
-		"text": "סִלְסוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִלְסוּל",
+	"headwords": [
 		{
-			"text": "סִילְ׳"
+			"text": "סִלְסוּל"
+		},
+		{
+			"text": "סִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 995,
 		"column": "b"

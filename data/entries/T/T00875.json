@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00875",
-	"slug": "רעבתן",
-	"headword": {
-		"text": "רַעַבְתָן"
-	},
+	"sefariaHeadword": "רַעַבְתָן",
+	"headwords": [
+		{
+			"text": "רַעַבְתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00540",
-	"slug": "זמר-2",
-	"headword": {
-		"text": "זְמַר"
-	},
+	"sefariaHeadword": "זְמַר",
+	"headwords": [
+		{
+			"text": "זְמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 405,
 		"column": "a"

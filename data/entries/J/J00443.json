@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00443",
-	"slug": "ינן",
-	"headword": {
-		"text": "יָנַן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יָנַן",
+	"headwords": [
+		{
+			"text": "יָנַן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 581,
 		"column": "b"

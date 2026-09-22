@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01357",
-	"slug": "קללה",
-	"headword": {
-		"text": "קְלָלָה"
-	},
+	"sefariaHeadword": "קְלָלָה",
+	"headwords": [
+		{
+			"text": "קְלָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00663",
-	"slug": "הנדית",
-	"headword": {
-		"text": "הִנְדִּית"
-	},
+	"sefariaHeadword": "הִנְדִּית",
+	"headwords": [
+		{
+			"text": "הִנְדִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "b"

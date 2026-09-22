@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00514",
-	"slug": "צליחתא",
-	"headword": {
-		"text": "צְלִיחְתָּא"
-	},
+	"sefariaHeadword": "צְלִיחְתָּא",
+	"headwords": [
+		{
+			"text": "צְלִיחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00603",
-	"slug": "המי-2",
-	"headword": {
-		"text": "המי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "המי ²",
+	"headwords": [
+		{
+			"text": "המי",
+			"disambiguator": 2
+		},
 		{
 			"text": "הֲמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 355,
 		"column": "a"

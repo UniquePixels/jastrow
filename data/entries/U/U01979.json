@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01979",
-	"slug": "שרין",
-	"headword": {
-		"text": "שִׁרְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁרְיָן",
+	"headwords": [
+		{
+			"text": "שִׁרְיָן"
+		},
 		{
 			"text": "שִׁרְיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1631,
 		"column": "b"

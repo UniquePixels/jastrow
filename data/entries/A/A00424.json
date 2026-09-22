@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00424",
-	"slug": "אדמון",
-	"headword": {
-		"text": "אַדְמוֹן"
-	},
+	"sefariaHeadword": "אַדְמוֹן",
+	"headwords": [
+		{
+			"text": "אַדְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

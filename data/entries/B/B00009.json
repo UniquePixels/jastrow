@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00009",
-	"slug": "באגא",
-	"headword": {
-		"text": "בָּאגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּאגָא",
+	"headwords": [
+		{
+			"text": "בָּאגָא"
+		},
 		{
 			"text": "בָּגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 134,
 		"column": "b"

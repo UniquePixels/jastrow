@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00706",
-	"slug": "עישתונא",
-	"headword": {
-		"text": "עִישְׁתּוֹנָא"
-	},
+	"sefariaHeadword": "עִישְׁתּוֹנָא",
+	"headwords": [
+		{
+			"text": "עִישְׁתּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

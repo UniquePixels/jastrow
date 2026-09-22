@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00263",
-	"slug": "תופת",
-	"headword": {
-		"text": "תּוֹפֶת"
-	},
+	"sefariaHeadword": "תּוֹפֶת",
+	"headwords": [
+		{
+			"text": "תּוֹפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

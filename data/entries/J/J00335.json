@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00335",
-	"slug": "יין",
-	"headword": {
-		"text": "יַיִן"
-	},
+	"sefariaHeadword": "יַיִן",
+	"headwords": [
+		{
+			"text": "יַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00117",
-	"slug": "עדא-2",
-	"headword": {
-		"text": "עֲדָא"
-	},
+	"sefariaHeadword": "עֲדָא",
+	"headwords": [
+		{
+			"text": "עֲדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1043,
 		"column": "a"

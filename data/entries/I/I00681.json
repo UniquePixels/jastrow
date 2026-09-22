@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00681",
-	"slug": "טפש-1",
-	"headword": {
-		"text": "טָפַשׁ"
-	},
+	"sefariaHeadword": "טָפַשׁ",
+	"headwords": [
+		{
+			"text": "טָפַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

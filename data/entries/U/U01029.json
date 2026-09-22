@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01029",
-	"slug": "שיץ-1",
-	"headword": {
-		"text": "שִׁיץ"
-	},
+	"sefariaHeadword": "שִׁיץ",
+	"headwords": [
+		{
+			"text": "שִׁיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1567,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02318",
-	"slug": "אס-2",
-	"headword": {
-		"text": "אס"
-	},
+	"sefariaHeadword": "אס",
+	"headwords": [
+		{
+			"text": "אס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

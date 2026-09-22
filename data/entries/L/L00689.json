@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00689",
-	"slug": "לקיט-4",
-	"headword": {
-		"text": "לָקִיט",
-		"homograph": 2
-	},
+	"sefariaHeadword": "לָקִיט II",
+	"headwords": [
+		{
+			"text": "לָקִיט",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 719,
 		"column": "a"

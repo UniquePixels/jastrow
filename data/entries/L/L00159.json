@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00159",
-	"slug": "להוב",
-	"headword": {
-		"text": "לְהוֹב"
-	},
+	"sefariaHeadword": "לְהוֹב",
+	"headwords": [
+		{
+			"text": "לְהוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00364",
-	"slug": "סוניתא",
-	"headword": {
-		"text": "סוּנִיתָא"
-	},
+	"sefariaHeadword": "סוּנִיתָא",
+	"headwords": [
+		{
+			"text": "סוּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

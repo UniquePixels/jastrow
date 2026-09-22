@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01325",
-	"slug": "שלים-1",
-	"headword": {
-		"text": "שְׁלֵים"
-	},
+	"sefariaHeadword": "שְׁלֵים",
+	"headwords": [
+		{
+			"text": "שְׁלֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "a"

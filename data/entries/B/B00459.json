@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00459",
-	"slug": "בזע",
-	"headword": {
-		"text": "בְּזַע"
-	},
+	"sefariaHeadword": "בְּזַע",
+	"headwords": [
+		{
+			"text": "בְּזַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "a"

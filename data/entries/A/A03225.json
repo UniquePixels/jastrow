@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03225",
-	"slug": "ארעית",
-	"headword": {
-		"text": "אַרְעִית"
-	},
+	"sefariaHeadword": "אַרְעִית",
+	"headwords": [
+		{
+			"text": "אַרְעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

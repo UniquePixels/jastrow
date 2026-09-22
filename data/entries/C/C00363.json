@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00363",
-	"slug": "גוייתא",
-	"headword": {
-		"text": "גְּוִיְיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּוִיְיתָא",
+	"headwords": [
 		{
-			"text": "גִּיוְיְי׳"
+			"text": "גְּוִיְיתָא"
+		},
+		{
+			"text": "גִּיוְיְי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "a"

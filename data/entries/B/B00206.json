@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00206",
-	"slug": "בוביה",
-	"headword": {
-		"text": "בּוּבְיָה"
-	},
+	"sefariaHeadword": "בּוּבְיָה",
+	"headwords": [
+		{
+			"text": "בּוּבְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

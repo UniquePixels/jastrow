@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01207",
-	"slug": "סנורים",
-	"headword": {
-		"text": "סַנְוֵרִים"
-	},
+	"sefariaHeadword": "סַנְוֵרִים",
+	"headwords": [
+		{
+			"text": "סַנְוֵרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00334",
-	"slug": "צייד-1",
-	"headword": {
-		"text": "צַיָּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיָּיד",
+	"headwords": [
+		{
+			"text": "צַיָּיד"
+		},
 		{
 			"text": "צַיָּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

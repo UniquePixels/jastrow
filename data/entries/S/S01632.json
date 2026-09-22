@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01632",
-	"slug": "קסאות",
-	"headword": {
-		"text": "קְסָאוֹת"
-	},
+	"sefariaHeadword": "קְסָאוֹת",
+	"headwords": [
+		{
+			"text": "קְסָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

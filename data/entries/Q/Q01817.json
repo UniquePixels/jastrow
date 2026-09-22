@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01817",
-	"slug": "פריסתקא",
-	"headword": {
-		"text": "פְּרִיסְתְּקָא"
-	},
+	"sefariaHeadword": "פְּרִיסְתְּקָא",
+	"headwords": [
+		{
+			"text": "פְּרִיסְתְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02472",
-	"slug": "מקשיי",
-	"headword": {
-		"text": "מַקְשָׁיִי"
-	},
+	"sefariaHeadword": "מַקְשָׁיִי",
+	"headwords": [
+		{
+			"text": "מַקְשָׁיִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "b"

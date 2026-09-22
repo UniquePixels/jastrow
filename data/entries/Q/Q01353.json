@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01353",
-	"slug": "פסקא",
-	"headword": {
-		"text": "פִּסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְקָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּסְקָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1201,
 		"column": "a"

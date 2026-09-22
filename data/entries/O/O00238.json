@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00238",
-	"slug": "סוברא-1",
-	"headword": {
-		"text": "סוּבְרָא"
-	},
+	"sefariaHeadword": "סוּבְרָא",
+	"headwords": [
+		{
+			"text": "סוּבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

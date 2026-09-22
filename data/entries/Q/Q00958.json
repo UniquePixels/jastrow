@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00958",
-	"slug": "פלדיסין",
-	"headword": {
-		"text": "פַּלְדֵּיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְדֵּיסִין",
+	"headwords": [
+		{
+			"text": "פַּלְדֵּיסִין"
+		},
 		{
 			"text": "פִּלְדְּסִין"
 		},
 		{
-			"text": "פִּילְדֵּי׳"
+			"text": "פִּילְדֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1177,
 		"column": "a"

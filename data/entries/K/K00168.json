@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00168",
-	"slug": "כהני",
-	"headword": {
-		"text": "כֹּהֲנִי"
-	},
+	"sefariaHeadword": "כֹּהֲנִי",
+	"headwords": [
+		{
+			"text": "כֹּהֲנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01730",
-	"slug": "פרוקטו",
-	"headword": {
-		"text": "פרוקטו"
-	},
+	"sefariaHeadword": "פרוקטו",
+	"headwords": [
+		{
+			"text": "פרוקטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "a"

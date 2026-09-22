@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01191",
-	"slug": "פני-4",
-	"headword": {
-		"text": "פְּנֵי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנֵי II",
+	"headwords": [
+		{
+			"text": "פְּנֵי",
+			"homograph": 2
+		},
 		{
 			"text": "פָּנֵי"
 		},
@@ -17,6 +18,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1}, {2}, ({3} ) I",
 	"page": {
 		"number": 1188,
 		"column": "b"

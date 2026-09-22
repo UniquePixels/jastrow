@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00983",
-	"slug": "אזניות",
-	"headword": {
-		"text": "אָזְנִיּוֹת"
-	},
+	"sefariaHeadword": "אָזְנִיֹּות",
+	"headwords": [
+		{
+			"text": "אָזְנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

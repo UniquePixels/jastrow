@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01887",
-	"slug": "קרב-5",
-	"headword": {
-		"text": "קְרָב"
-	},
+	"sefariaHeadword": "קְרָב",
+	"headwords": [
+		{
+			"text": "קְרָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1411,
 		"column": "a"

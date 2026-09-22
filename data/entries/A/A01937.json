@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01937",
-	"slug": "אלפא-1",
-	"headword": {
-		"text": "אַלְפָא"
-	},
+	"sefariaHeadword": "אַלְפָא",
+	"headwords": [
+		{
+			"text": "אַלְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "a"

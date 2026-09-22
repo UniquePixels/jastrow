@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00399",
-	"slug": "נוצה",
-	"headword": {
-		"text": "נוֹצָה"
-	},
+	"sefariaHeadword": "נוֹצָה",
+	"headwords": [
+		{
+			"text": "נוֹצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

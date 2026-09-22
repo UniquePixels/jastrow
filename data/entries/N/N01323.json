@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01323",
-	"slug": "נשירתא",
-	"headword": {
-		"text": "נְשִׁירְתָּא"
-	},
+	"sefariaHeadword": "נְשִׁירְתָּא",
+	"headwords": [
+		{
+			"text": "נְשִׁירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

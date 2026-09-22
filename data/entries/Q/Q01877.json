@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01877",
-	"slug": "פרמשת",
-	"headword": {
-		"text": "פַּרְמַשְׁתְּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְמַשְׁתְּ",
+	"headwords": [
+		{
+			"text": "פַּרְמַשְׁתְּ"
+		},
 		{
 			"text": "פַּרְמַשְׁתַּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1230,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00035",
-	"slug": "שאמם",
-	"headword": {
-		"text": "שַׁאֲמֵם"
-	},
+	"sefariaHeadword": "שַׁאֲמֵם",
+	"headwords": [
+		{
+			"text": "שַׁאֲמֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "a"

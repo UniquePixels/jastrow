@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00897",
-	"slug": "שייור",
-	"headword": {
-		"text": "שִׁיּיוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיּיוּר",
+	"headwords": [
+		{
+			"text": "שִׁיּיוּר"
+		},
 		{
 			"text": "שִׁיּיוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "a"

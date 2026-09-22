@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01002",
-	"slug": "אחוה-1",
-	"headword": {
-		"text": "אַחֲוָה"
-	},
+	"sefariaHeadword": "אַחֲוָה",
+	"headwords": [
+		{
+			"text": "אַחֲוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

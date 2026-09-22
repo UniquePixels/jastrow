@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03038",
-	"slug": "מתושע",
-	"headword": {
-		"text": "מְתוּשּׁע"
-	},
+	"sefariaHeadword": "מְתוּשּׁע",
+	"headwords": [
+		{
+			"text": "מְתוּשּׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "a"

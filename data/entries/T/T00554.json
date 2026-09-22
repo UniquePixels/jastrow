@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00554",
-	"slug": "רטוב",
-	"headword": {
-		"text": "רָטוֹב"
-	},
+	"sefariaHeadword": "רָטוֹב",
+	"headwords": [
+		{
+			"text": "רָטוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "a"

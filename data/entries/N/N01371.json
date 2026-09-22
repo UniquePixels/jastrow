@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01371",
-	"slug": "נתינאה",
-	"headword": {
-		"text": "נְתִינָאָה"
-	},
+	"sefariaHeadword": "נְתִינָאָה",
+	"headwords": [
+		{
+			"text": "נְתִינָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

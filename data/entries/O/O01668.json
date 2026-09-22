@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01668",
-	"slug": "סרק-7",
-	"headword": {
-		"text": "סֶרֶק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סֶרֶק",
+	"headwords": [
+		{
+			"text": "סֶרֶק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1030,
 		"column": "a"

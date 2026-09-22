@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01080",
-	"slug": "תשותא",
-	"headword": {
-		"text": "תַּשּׁוּתָא"
-	},
+	"sefariaHeadword": "תַּשּׁוּתָא",
+	"headwords": [
+		{
+			"text": "תַּשּׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "b"

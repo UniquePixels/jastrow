@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00027",
-	"slug": "פארור",
-	"headword": {
-		"text": "פָּארוּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פָּארוּר",
+	"headwords": [
+		{
+			"text": "פָּארוּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

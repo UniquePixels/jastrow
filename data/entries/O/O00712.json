@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00712",
-	"slug": "סימנא",
-	"headword": {
-		"text": "סִימָנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִימָנָא II",
+	"headwords": [
+		{
+			"text": "סִימָנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 982,
 		"column": "a"

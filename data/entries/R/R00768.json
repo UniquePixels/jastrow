@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00768",
-	"slug": "צרידתא",
-	"headword": {
-		"text": "צְרֵידָתָא"
-	},
+	"sefariaHeadword": "צְרֵידָתָא",
+	"headwords": [
+		{
+			"text": "צְרֵידָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

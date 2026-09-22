@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00128",
-	"slug": "תהפוכה",
-	"headword": {
-		"text": "תַּהְפּוּכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּהְפּוּכָה",
+	"headwords": [
+		{
+			"text": "תַּהְפּוּכָה"
+		},
 		{
 			"text": "תַּהְפּוֹכֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1649,
 		"column": "a"

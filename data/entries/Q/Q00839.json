@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00839",
-	"slug": "פירוכייא",
-	"headword": {
-		"text": "פֵּירוּכְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּכְיָיא",
+	"headwords": [
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּירוּכְיָיא"
+		},
+		{
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1170,
 		"column": "b"

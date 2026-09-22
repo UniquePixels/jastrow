@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00267",
-	"slug": "יחא",
-	"headword": {
-		"text": "יְחָא"
-	},
+	"sefariaHeadword": "יְחָא",
+	"headwords": [
+		{
+			"text": "יְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "b"

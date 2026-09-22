@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00130",
-	"slug": "עדי-3",
-	"headword": {
-		"text": "עדי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עדי ²",
+	"headwords": [
+		{
+			"text": "עדי",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָדָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1044,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00540",
-	"slug": "טמורה",
-	"headword": {
-		"text": "טמורה"
-	},
+	"sefariaHeadword": "טמורה",
+	"headwords": [
+		{
+			"text": "טמורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 539,
 		"column": "a"

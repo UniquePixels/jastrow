@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03107",
-	"slug": "מתרין",
-	"headword": {
-		"text": "מתרין"
-	},
+	"sefariaHeadword": "מתרין",
+	"headwords": [
+		{
+			"text": "מתרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "b"

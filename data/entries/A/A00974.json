@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00974",
-	"slug": "אזל-2",
-	"headword": {
-		"text": "אֲזַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲזַל II",
+	"headwords": [
+		{
+			"text": "אֲזַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 38,
 		"column": "a"

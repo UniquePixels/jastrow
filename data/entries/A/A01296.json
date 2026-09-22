@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01296",
-	"slug": "אילין-1",
-	"headword": {
-		"text": "אילין"
-	},
+	"sefariaHeadword": "אילין",
+	"headwords": [
+		{
+			"text": "אילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "b"

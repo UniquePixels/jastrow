@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01286",
-	"slug": "סעודתא",
-	"headword": {
-		"text": "סְעוּדְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעוּדְתָּא",
+	"headwords": [
+		{
+			"text": "סְעוּדְתָּא"
+		},
 		{
 			"text": "סְעוּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1010,
 		"column": "a"

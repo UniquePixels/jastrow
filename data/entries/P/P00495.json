@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00495",
-	"slug": "עיבר-1",
-	"headword": {
-		"text": "עֵיבַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֵיבַר I",
+	"headwords": [
+		{
+			"text": "עֵיבַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1066,
 		"column": "b"

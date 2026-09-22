@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00900",
-	"slug": "תקן-2",
-	"headword": {
-		"text": "תְּקֵן"
-	},
+	"sefariaHeadword": "תְּקֵן",
+	"headwords": [
+		{
+			"text": "תְּקֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1692,
 		"column": "a"
@@ -91,7 +95,7 @@
 					"gloss": "<i>to introduce, ordain, innovate, reform</i>. ",
 					"units": [
 						"<cite ref=\"Rosh Hashanah 34a\">R. Hash. 34ᵃ</cite> <he>איתקין ר׳ אבהו וכ׳</he> (read: <cite ref=\"A01651\"><he>אַתְ׳</he></cite>; Ms. M. <cite ref=\"V00899\"><he>הִתְקִין</he></cite> Hebr.) R. A. introduced the custom in Cæsaræa of sounding one T’ḳiʿah, three notes of Sh’barim, and one T’ḳiʿah. ",
-						"<cite ref=\"Rosh Hashanah 34a:22\">Ib.</cite> <he>מאי א׳</he> what has he improved (what has he achieved with his ordinance)? <cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> <he>א׳ רב יהודה וכ׳</he> Rab Judah introduced the formula for the sale of slaves: ‘this slave &c.’ Y. Ḥag. I, 76ᶜ <he>ר׳ יודה … למַתְקְנָא לון וכ׳</he> (or <he>למְתַקְּנָא</he>, <i>Pa.</i>) R. Judah the Nasi sent out R. Ḥ…, that they should pass the towns … to institute teachers of Bible and of Mishnah for them; <cite ref=\"Midrash Tehillim 127\">Midr. Till. to Ps. CXXVII</cite>; Lam. R. introd., beg. <he>דיפקון ויַתְקְנוּן קרייתא וכ׳</he> (or <he>ויתַקְּנוּן</he>) that they should go and improve (the education of) the towns in Palestine; a. fr."
+						"<cite ref=\"Rosh Hashanah 34a:22\">Ib.</cite> <he>מאי א׳</he> what has he improved (what has he achieved with his ordinance)? <cite ref=\"Gittin 86a:2\">Gitt. 86ᵃ</cite> <he>א׳ רב יהודה וכ׳</he> Rab Judah introduced the formula for the sale of slaves: ‘this slave &c.’ Y. Ḥag. I, 76ᶜ <he>ר׳ יודה … למַתְקְנָא לון וכ׳</he> (or <he>למְתַקְּנָא</he>, <i>Pa.</i>) R. Judah the Nasi sent out R. Ḥ…, that they should pass the towns … to institute teachers of Bible and of Mishnah for them; <cite ref=\"Midrash Tehillim 127\">Midr. Till. to Ps. CXXVII</cite>; Lam. R. introd., beg. <he>דיפקון ויַתְקְנוּן קרייתא וכ׳</he> (or <he>ויתַקְּנוּן</he>) that they should go and improve (the education of) the towns in Palestine; a. fr."
 					],
 					"label": "3"
 				}

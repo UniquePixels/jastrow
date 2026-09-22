@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00530",
-	"slug": "פטישא",
-	"headword": {
-		"text": "פַּטִּישָׁא"
-	},
+	"sefariaHeadword": "פַּטִּישָׁא",
+	"headwords": [
+		{
+			"text": "פַּטִּישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

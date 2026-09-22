@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00293",
-	"slug": "פוסקא",
-	"headword": {
-		"text": "פּוּסְקָא"
-	},
+	"sefariaHeadword": "פּוּסְקָא",
+	"headwords": [
+		{
+			"text": "פּוּסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "b"

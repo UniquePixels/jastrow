@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00984",
-	"slug": "אזר",
-	"headword": {
-		"text": "אָזַר"
-	},
+	"sefariaHeadword": "אָזַר",
+	"headwords": [
+		{
+			"text": "אָזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

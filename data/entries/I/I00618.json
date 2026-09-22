@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00618",
-	"slug": "טען-5",
-	"headword": {
-		"text": "טְעַן",
-		"homograph": 3
-	},
+	"sefariaHeadword": "טְעַן III",
+	"headwords": [
+		{
+			"text": "טְעַן",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 544,
 		"column": "b"

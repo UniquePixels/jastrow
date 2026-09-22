@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00884",
-	"slug": "דמולא",
-	"headword": {
-		"text": "דמולא"
-	},
+	"sefariaHeadword": "דמולא",
+	"headwords": [
+		{
+			"text": "דמולא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

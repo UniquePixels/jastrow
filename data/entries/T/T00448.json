@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00448",
-	"slug": "רוש",
-	"headword": {
-		"text": "רוֹשׁ"
-	},
+	"sefariaHeadword": "רוֹשׁ",
+	"headwords": [
+		{
+			"text": "רוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

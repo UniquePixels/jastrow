@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00670",
-	"slug": "תמותה",
-	"headword": {
-		"text": "תְּמוּתָה"
-	},
+	"sefariaHeadword": "תְּמוּתָה",
+	"headwords": [
+		{
+			"text": "תְּמוּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "b"

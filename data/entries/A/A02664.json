@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02664",
-	"slug": "אפטרופולין",
-	"headword": {
-		"text": "אפטרופולין"
-	},
+	"sefariaHeadword": "אפטרופולין",
+	"headwords": [
+		{
+			"text": "אפטרופולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

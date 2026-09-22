@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00628",
-	"slug": "שחור-2",
-	"headword": {
-		"text": "שָׁחוֹר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁחוֹר II",
+	"headwords": [
+		{
+			"text": "שָׁחוֹר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1546,
 		"column": "b"

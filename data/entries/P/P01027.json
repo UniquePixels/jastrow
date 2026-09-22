@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01027",
-	"slug": "ענתוניא",
-	"headword": {
-		"text": "עֵנְתּוּנָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵנְתּוּנָיָא",
+	"headwords": [
+		{
+			"text": "עֵנְתּוּנָיָא"
+		},
 		{
 			"text": "יָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֵנְתְּנָיָיה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1097,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02454",
-	"slug": "אסכלא-1",
-	"headword": {
-		"text": "אַסְכָּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסְכָּלָא",
+	"headwords": [
+		{
+			"text": "אַסְכָּלָא"
+		},
 		{
 			"text": "אַסְכָּלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 94,
 		"column": "a"

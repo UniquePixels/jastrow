@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01363",
-	"slug": "בשלא-2",
-	"headword": {
-		"text": "בַּשָּׁלָא"
-	},
+	"sefariaHeadword": "בַּשָּׁלָא",
+	"headwords": [
+		{
+			"text": "בַּשָּׁלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 199,
 		"column": "a"

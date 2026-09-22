@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00422",
-	"slug": "קונדס",
-	"headword": {
-		"text": "קוּנְדָּס"
-	},
+	"sefariaHeadword": "קוּנְדָּס",
+	"headwords": [
+		{
+			"text": "קוּנְדָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

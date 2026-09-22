@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00951",
-	"slug": "רפיש",
-	"headword": {
-		"text": "רְפֵישׂ"
-	},
+	"sefariaHeadword": "רְפֵישׂ",
+	"headwords": [
+		{
+			"text": "רְפֵישׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1490,
 		"column": "b"

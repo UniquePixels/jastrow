@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00106",
-	"slug": "שבט-5",
-	"headword": {
-		"text": "שְׁבָט"
-	},
+	"sefariaHeadword": "שְׁבָט",
+	"headwords": [
+		{
+			"text": "שְׁבָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1513,
 		"column": "a"

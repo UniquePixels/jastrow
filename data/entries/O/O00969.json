@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00969",
-	"slug": "סלופתא",
-	"headword": {
-		"text": "סְלוּפְתָּא"
-	},
+	"sefariaHeadword": "סְלוּפְתָּא",
+	"headwords": [
+		{
+			"text": "סְלוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

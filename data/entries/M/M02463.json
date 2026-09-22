@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02463",
-	"slug": "מקרען",
-	"headword": {
-		"text": "מַקְרְעָן"
-	},
+	"sefariaHeadword": "מַקְרְעָן",
+	"headwords": [
+		{
+			"text": "מַקְרְעָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "b"

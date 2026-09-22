@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00433",
-	"slug": "סורמקי",
-	"headword": {
-		"text": "סוּרְמָקִי"
-	},
+	"sefariaHeadword": "סוּרְמָקִי",
+	"headwords": [
+		{
+			"text": "סוּרְמָקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00413",
-	"slug": "ליבון-1",
-	"headword": {
-		"text": "לִיבּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיבּוּן",
+	"headwords": [
 		{
-			"text": "לִבּ׳"
+			"text": "לִיבּוּן"
+		},
+		{
+			"text": "לִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 706,
 		"column": "a"

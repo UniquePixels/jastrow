@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01322",
-	"slug": "פסכתיר",
-	"headword": {
-		"text": "פְּסַכְתֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסַכְתֵּיר",
+	"headwords": [
+		{
+			"text": "פְּסַכְתֵּיר"
+		},
 		{
 			"text": "פְּסַכְתֵּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1197,
 		"column": "a"

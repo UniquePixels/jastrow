@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00971",
-	"slug": "כעס-2",
-	"headword": {
-		"text": "כְּעַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּעַס",
+	"headwords": [
+		{
+			"text": "כְּעַס"
+		},
 		{
 			"text": "כְּעֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 656,
 		"column": "b"

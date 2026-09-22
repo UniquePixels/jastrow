@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00459",
-	"slug": "עטלוזא",
-	"headword": {
-		"text": "עטלוזא"
-	},
+	"sefariaHeadword": "עטלוזא",
+	"headwords": [
+		{
+			"text": "עטלוזא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

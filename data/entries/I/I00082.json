@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00082",
-	"slug": "טבעא",
-	"headword": {
-		"text": "טִבְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִבְעָא",
+	"headwords": [
+		{
+			"text": "טִבְעָא"
+		},
 		{
 			"text": "טִיבְעָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 519,
 		"column": "a"

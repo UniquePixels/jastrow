@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00594",
-	"slug": "בייך",
-	"headword": {
-		"text": "בָּיֵיךְ"
-	},
+	"sefariaHeadword": "בָּיֵיךְ",
+	"headwords": [
+		{
+			"text": "בָּיֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

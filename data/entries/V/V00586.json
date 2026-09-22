@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00586",
-	"slug": "תלי-1",
-	"headword": {
-		"text": "תלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תלי",
+	"headwords": [
+		{
+			"text": "תלי"
+		},
 		{
 			"text": "תָּלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "b"

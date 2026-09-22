@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01121",
-	"slug": "פלץ",
-	"headword": {
-		"text": "פָּלַץ"
-	},
+	"sefariaHeadword": "פָּלַץ",
+	"headwords": [
+		{
+			"text": "פָּלַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "a"

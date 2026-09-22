@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01046",
-	"slug": "רקמתא",
-	"headword": {
-		"text": "רִקְמְתָא"
-	},
+	"sefariaHeadword": "רִקְמְתָא",
+	"headwords": [
+		{
+			"text": "רִקְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00485",
-	"slug": "היקפא",
-	"headword": {
-		"text": "הֶיקֵּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיקֵּפָא",
+	"headwords": [
+		{
+			"text": "הֶיקֵּפָא"
+		},
 		{
 			"text": "הֶיקֵּיפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 349,
 		"column": "a"

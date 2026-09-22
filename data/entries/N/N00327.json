@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N00327",
-	"slug": "נוול-5",
-	"headword": {
-		"text": "נְוַול",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְוַול ³",
+	"headwords": [
+		{
+			"text": "נְוַול",
+			"disambiguator": 3
+		},
 		{
 			"text": "נְוַל",
 			"homograph": 3
@@ -15,6 +16,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} ³, {1} III, {2} I",
 	"page": {
 		"number": 885,
 		"column": "a"

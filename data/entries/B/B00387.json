@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00387",
-	"slug": "בורסקי",
-	"headword": {
-		"text": "בּוּרְסְקִי"
-	},
+	"sefariaHeadword": "בּוּרְסְקִי",
+	"headwords": [
+		{
+			"text": "בּוּרְסְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

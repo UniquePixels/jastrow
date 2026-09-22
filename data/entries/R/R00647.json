@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00647",
-	"slug": "צעא",
-	"headword": {
-		"text": "צָעָא"
-	},
+	"sefariaHeadword": "צָעָא",
+	"headwords": [
+		{
+			"text": "צָעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

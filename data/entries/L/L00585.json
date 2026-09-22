@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00585",
-	"slug": "לסוטה",
-	"headword": {
-		"text": "לְסוֹטָה"
-	},
+	"sefariaHeadword": "לְסוֹטָה",
+	"headwords": [
+		{
+			"text": "לְסוֹטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

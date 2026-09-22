@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00401",
-	"slug": "שויליא",
-	"headword": {
-		"text": "שְׁוִילְיָא"
-	},
+	"sefariaHeadword": "שְׁוִילְיָא",
+	"headwords": [
+		{
+			"text": "שְׁוִילְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

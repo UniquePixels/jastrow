@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02646",
-	"slug": "אפורייא",
-	"headword": {
-		"text": "אָפּוֹרְיָיא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָפֹּורְיָיא",
+	"headwords": [
+		{
+			"text": "אָפּוֹרְיָיא",
+			"reconstructed": true
+		},
 		{
 			"text": "אוֹפּוֹרְיָיא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00362",
-	"slug": "שוח-3",
-	"headword": {
-		"text": "שׁוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּחַ",
+	"headwords": [
+		{
+			"text": "שׁוּחַ"
+		},
 		{
 			"text": "שְׁיַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1530,
 		"column": "b"

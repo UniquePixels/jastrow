@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00065",
-	"slug": "נבט-1",
-	"headword": {
-		"text": "נָבַט"
-	},
+	"sefariaHeadword": "נָבַט",
+	"headwords": [
+		{
+			"text": "נָבַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "a"

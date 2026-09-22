@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01109",
-	"slug": "בצראה",
-	"headword": {
-		"text": "בָּצְרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּצְרָאָה",
+	"headwords": [
+		{
+			"text": "בָּצְרָאָה"
+		},
 		{
 			"text": "בָּצְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 185,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01430",
-	"slug": "ספרווה",
-	"headword": {
-		"text": "ספרווה"
-	},
+	"sefariaHeadword": "ספרווה",
+	"headwords": [
+		{
+			"text": "ספרווה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

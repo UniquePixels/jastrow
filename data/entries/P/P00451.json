@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00451",
-	"slug": "עטיר-1",
-	"headword": {
-		"text": "עַטִּיר"
-	},
+	"sefariaHeadword": "עַטִּיר",
+	"headwords": [
+		{
+			"text": "עַטִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "a"

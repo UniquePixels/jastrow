@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00655",
-	"slug": "אוכפא",
-	"headword": {
-		"text": "אוּכָּפָא"
-	},
+	"sefariaHeadword": "אוּכָּפָא",
+	"headwords": [
+		{
+			"text": "אוּכָּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00969",
-	"slug": "חלב-4",
-	"headword": {
-		"text": "חֲלַב"
-	},
+	"sefariaHeadword": "חֲלַב",
+	"headwords": [
+		{
+			"text": "חֲלַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

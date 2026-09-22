@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01713",
-	"slug": "מנדו",
-	"headword": {
-		"text": "מַנְדּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַנְדּוּ",
+	"headwords": [
 		{
-			"text": "כְּפַר מַנְדּוּ"
+			"text": "מַנְדּוּ"
+		},
+		{
+			"text": "כְּפַר מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 797,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00763",
-	"slug": "כלם-2",
-	"headword": {
-		"text": "כְּלַם"
-	},
+	"sefariaHeadword": "כְּלַם",
+	"headwords": [
+		{
+			"text": "כְּלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 644,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01364",
-	"slug": "גרמני-1",
-	"headword": {
-		"text": "גִּרְמָנִי"
-	},
+	"sefariaHeadword": "גִּרְמָנִי",
+	"headwords": [
+		{
+			"text": "גִּרְמָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

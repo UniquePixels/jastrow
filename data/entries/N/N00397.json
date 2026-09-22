@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00397",
-	"slug": "נוץ-1",
-	"headword": {
-		"text": "נוּץ"
-	},
+	"sefariaHeadword": "נוּץ",
+	"headwords": [
+		{
+			"text": "נוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

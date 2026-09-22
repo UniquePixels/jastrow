@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00953",
-	"slug": "קילא-2",
-	"headword": {
-		"text": "קִילָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילָא II",
+	"headwords": [
+		{
+			"text": "קִילָא",
+			"homograph": 2
+		},
 		{
 			"text": "קִילָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1359,
 		"column": "b"

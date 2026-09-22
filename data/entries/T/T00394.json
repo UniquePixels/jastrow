@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00394",
-	"slug": "רוממות",
-	"headword": {
-		"text": "רוֹמֵמוּת"
-	},
+	"sefariaHeadword": "רוֹמֵמוּת",
+	"headwords": [
+		{
+			"text": "רוֹמֵמוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

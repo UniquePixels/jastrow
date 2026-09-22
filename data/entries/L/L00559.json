@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00559",
-	"slug": "לכתא",
-	"headword": {
-		"text": "לֶכְתָּא"
-	},
+	"sefariaHeadword": "לֶכְתָּא",
+	"headwords": [
+		{
+			"text": "לֶכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02923",
-	"slug": "אקמתא",
-	"headword": {
-		"text": "אַקְמְתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַקְמְתָא",
+	"headwords": [
+		{
+			"text": "אַקְמְתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

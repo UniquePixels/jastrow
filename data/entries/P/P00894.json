@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00894",
-	"slug": "עמירה",
-	"headword": {
-		"text": "עמירה"
-	},
+	"sefariaHeadword": "עמירה",
+	"headwords": [
+		{
+			"text": "עמירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "b"

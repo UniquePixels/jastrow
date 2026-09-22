@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01179",
-	"slug": "ברדילא",
-	"headword": {
-		"text": "בַּרְדִּילָא"
-	},
+	"sefariaHeadword": "בַּרְדִּילָא",
+	"headwords": [
+		{
+			"text": "בַּרְדִּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

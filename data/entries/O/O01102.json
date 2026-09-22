@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01102",
-	"slug": "סמל-1",
-	"headword": {
-		"text": "סֶמֶל"
-	},
+	"sefariaHeadword": "סֶמֶל",
+	"headwords": [
+		{
+			"text": "סֶמֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

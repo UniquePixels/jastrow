@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00857",
-	"slug": "פירייפרין",
-	"headword": {
-		"text": "פִּירְיָיפְרִין"
-	},
+	"sefariaHeadword": "פִּירְיָיפְרִין",
+	"headwords": [
+		{
+			"text": "פִּירְיָיפְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1171,
 		"column": "b"

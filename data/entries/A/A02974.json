@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02974",
-	"slug": "ארבתא",
-	"headword": {
-		"text": "אֲרַבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרַבְתָּא",
+	"headwords": [
+		{
+			"text": "אֲרַבְתָּא"
+		},
 		{
 			"text": "אַרְבָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 114,
 		"column": "b"

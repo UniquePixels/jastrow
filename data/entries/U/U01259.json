@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01259",
-	"slug": "שלופאפי",
-	"headword": {
-		"text": "שְׁלוֹפָאפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלוֹפָאפֵי",
+	"headwords": [
+		{
+			"text": "שְׁלוֹפָאפֵי"
+		},
 		{
 			"text": "שְׁלוֹפָפֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1579,
 		"column": "b"

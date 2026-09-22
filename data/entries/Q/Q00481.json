@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00481",
-	"slug": "פחמי",
-	"headword": {
-		"text": "פֶּחָמִי"
-	},
+	"sefariaHeadword": "פֶּחָמִי",
+	"headwords": [
+		{
+			"text": "פֶּחָמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1153,
 		"column": "a"

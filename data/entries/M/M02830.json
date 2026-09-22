@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02830",
-	"slug": "משולחת",
-	"headword": {
-		"text": "מְשׁוּלַּחַת"
-	},
+	"sefariaHeadword": "מְשׁוּלַּחַת",
+	"headwords": [
+		{
+			"text": "מְשׁוּלַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

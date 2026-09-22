@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00040",
-	"slug": "כבול-1",
-	"headword": {
-		"text": "כָּבוּל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כָּבוּל I",
+	"headwords": [
+		{
+			"text": "כָּבוּל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 607,
 		"column": "b"

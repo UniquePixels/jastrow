@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00537",
-	"slug": "אוגדויי",
-	"headword": {
-		"text": "אוגדויי"
-	},
+	"sefariaHeadword": "אוגדויי",
+	"headwords": [
+		{
+			"text": "אוגדויי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

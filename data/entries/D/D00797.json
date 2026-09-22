@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00797",
-	"slug": "דל-1",
-	"headword": {
-		"text": "דִּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּל",
+	"headwords": [
+		{
+			"text": "דִּל"
+		},
 		{
 			"text": "דּיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 308,
 		"column": "a"

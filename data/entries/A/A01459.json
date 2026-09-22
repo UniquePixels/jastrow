@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01459",
-	"slug": "איסטריבוליא",
-	"headword": {
-		"text": "איסטריבוליא"
-	},
+	"sefariaHeadword": "איסטריבוליא",
+	"headwords": [
+		{
+			"text": "איסטריבוליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

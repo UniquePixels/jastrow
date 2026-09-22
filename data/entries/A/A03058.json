@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03058",
-	"slug": "ארזנאי",
-	"headword": {
-		"text": "אַרְזְנָאֵי"
-	},
+	"sefariaHeadword": "אַרְזְנָאֵי",
+	"headwords": [
+		{
+			"text": "אַרְזְנָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

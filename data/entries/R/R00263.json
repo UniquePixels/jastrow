@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00263",
-	"slug": "צות-2",
-	"headword": {
-		"text": "צוּת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּת ²",
+	"headwords": [
+		{
+			"text": "צוּת",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִית"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1272,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02152",
-	"slug": "מעפורת",
-	"headword": {
-		"text": "מַעֲפוֹרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעֲפוֹרֶת",
+	"headwords": [
+		{
+			"text": "מַעֲפוֹרֶת"
+		},
 		{
 			"text": "מַעֲפֶרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 818,
 		"column": "b"

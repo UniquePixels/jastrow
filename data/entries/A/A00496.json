@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00496",
-	"slug": "אהילאי",
-	"headword": {
-		"text": "אֲהִילַאי"
-	},
+	"sefariaHeadword": "אֲהִילַאי",
+	"headwords": [
+		{
+			"text": "אֲהִילַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02452",
-	"slug": "אסכופתא",
-	"headword": {
-		"text": "אִסְכּוּפְתָּא"
-	},
+	"sefariaHeadword": "אִסְכּוּפְתָּא",
+	"headwords": [
+		{
+			"text": "אִסְכּוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "a"

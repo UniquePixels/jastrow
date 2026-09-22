@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00006",
-	"slug": "ואלה",
-	"headword": {
-		"text": "וְאֵלֶּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְאֵלֶּה",
+	"headwords": [
 		{
-			"text": "וְאֵלֶּה שְׁמוֹת"
+			"text": "וְאֵלֶּה"
+		},
+		{
+			"text": "ו׳ שְׁמוֹת",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 372,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00719",
-	"slug": "העמדה",
-	"headword": {
-		"text": "הַעֲמָדָה"
-	},
+	"sefariaHeadword": "הַעֲמָדָה",
+	"headwords": [
+		{
+			"text": "הַעֲמָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "a"

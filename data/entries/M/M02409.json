@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02409",
-	"slug": "מקזתא",
-	"headword": {
-		"text": "מַקַּזְתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מַקַּזְתָּא",
+	"headwords": [
+		{
+			"text": "מַקַּזְתָּא",
+			"reconstructed": true
+		},
 		{
 			"text": "תָּה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 830,
 		"column": "b"

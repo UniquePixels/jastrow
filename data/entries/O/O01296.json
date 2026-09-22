@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01296",
-	"slug": "סער-4",
-	"headword": {
-		"text": "סְעַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְעַר ²",
+	"headwords": [
+		{
+			"text": "סְעַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1010,
 		"column": "a"

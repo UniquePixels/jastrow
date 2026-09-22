@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01031",
-	"slug": "חלי-4",
-	"headword": {
-		"text": "חֳלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֳלִי",
+	"headwords": [
+		{
+			"text": "חֳלִי"
+		},
 		{
 			"text": "חוֹלִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 468,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02947",
-	"slug": "אראל",
-	"headword": {
-		"text": "אֶרְאֵל"
-	},
+	"sefariaHeadword": "אֶרְאֵל",
+	"headwords": [
+		{
+			"text": "אֶרְאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

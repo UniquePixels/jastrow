@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03236",
-	"slug": "ארקבסא",
-	"headword": {
-		"text": "ארקבסא"
-	},
+	"sefariaHeadword": "ארקבסא",
+	"headwords": [
+		{
+			"text": "ארקבסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

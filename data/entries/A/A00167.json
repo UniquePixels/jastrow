@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00167",
-	"slug": "אבליג",
-	"headword": {
-		"text": "אבליג",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אבליג",
+	"headwords": [
+		{
+			"text": "אבליג",
+			"reconstructed": true
+		},
 		{
 			"text": "אבליגה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 7,
 		"column": "a"

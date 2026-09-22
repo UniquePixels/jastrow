@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00301",
-	"slug": "סוכו",
-	"headword": {
-		"text": "סוֹכוֹ"
-	},
+	"sefariaHeadword": "סוֹכוֹ",
+	"headwords": [
+		{
+			"text": "סוֹכוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

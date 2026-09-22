@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00100",
-	"slug": "עגלתא-2",
-	"headword": {
-		"text": "עֲגַלְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲגַלְתָּא II",
+	"headwords": [
+		{
+			"text": "עֲגַלְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1041,
 		"column": "b"

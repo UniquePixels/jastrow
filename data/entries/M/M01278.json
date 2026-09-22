@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01278",
-	"slug": "מיצלת",
-	"headword": {
-		"text": "מִיצְלַת"
-	},
+	"sefariaHeadword": "מִיצְלַת",
+	"headwords": [
+		{
+			"text": "מִיצְלַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

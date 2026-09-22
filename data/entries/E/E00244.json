@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00244",
-	"slug": "הומר",
-	"headword": {
-		"text": "הוֹמֶר"
-	},
+	"sefariaHeadword": "הוֹמֶר",
+	"headwords": [
+		{
+			"text": "הוֹמֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

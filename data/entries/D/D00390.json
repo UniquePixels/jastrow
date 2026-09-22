@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00390",
-	"slug": "דוש-2",
-	"headword": {
-		"text": "דּוּשׁ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "דּוּשׁ ²",
+	"headwords": [
+		{
+			"text": "דּוּשׁ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 290,
 		"column": "b"

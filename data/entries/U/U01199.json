@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01199",
-	"slug": "שלאהותא",
-	"headword": {
-		"text": "שַׁלְאֲהוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְאֲהוּתָא",
+	"headwords": [
 		{
-			"text": "שְׁלַאֲ׳"
+			"text": "שַׁלְאֲהוּתָא"
+		},
+		{
+			"text": "שְׁלַאֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1577,
 		"column": "b"

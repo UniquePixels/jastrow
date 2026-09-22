@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00152",
-	"slug": "תוברות",
-	"headword": {
-		"text": "תּוֹבְרוֹת"
-	},
+	"sefariaHeadword": "תּוֹבְרוֹת",
+	"headwords": [
+		{
+			"text": "תּוֹבְרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

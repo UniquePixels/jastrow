@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00762",
-	"slug": "ביתותא",
-	"headword": {
-		"text": "בִּיתוּתָא"
-	},
+	"sefariaHeadword": "בִּיתוּתָא",
+	"headwords": [
+		{
+			"text": "בִּיתוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"

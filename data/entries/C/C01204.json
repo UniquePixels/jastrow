@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01204",
-	"slug": "גפן",
-	"headword": {
-		"text": "גֶּפֶן"
-	},
+	"sefariaHeadword": "גֶּפֶן",
+	"headwords": [
+		{
+			"text": "גֶּפֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

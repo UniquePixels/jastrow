@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00081",
-	"slug": "וקתא",
-	"headword": {
-		"text": "וקתא"
-	},
+	"sefariaHeadword": "וקתא",
+	"headwords": [
+		{
+			"text": "וקתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

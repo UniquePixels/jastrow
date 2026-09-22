@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00806",
-	"slug": "תפוסה",
-	"headword": {
-		"text": "תְּפוּסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּפוּסָה",
+	"headwords": [
+		{
+			"text": "תְּפוּסָה"
+		},
 		{
 			"text": "תְּפוּשָׂה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1685,
 		"column": "a"

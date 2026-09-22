@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00021",
-	"slug": "יאסין",
-	"headword": {
-		"text": "יָאסְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָאסְיָן",
+	"headwords": [
+		{
+			"text": "יָאסְיָן"
+		},
 		{
 			"text": "יַסְיָאן"
 		},
@@ -12,6 +13,7 @@
 			"text": "יָאסְיָין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 559,
 		"column": "b"

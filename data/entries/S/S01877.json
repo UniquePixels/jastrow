@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01877",
-	"slug": "קרא-5",
-	"headword": {
-		"text": "קַרָא"
-	},
+	"sefariaHeadword": "קַרָא",
+	"headwords": [
+		{
+			"text": "קַרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

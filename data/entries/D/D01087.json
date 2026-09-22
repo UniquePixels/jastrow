@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01087",
-	"slug": "דריכון",
-	"headword": {
-		"text": "דָּרִיכוֹן"
-	},
+	"sefariaHeadword": "דָּרִיכוֹן",
+	"headwords": [
+		{
+			"text": "דָּרִיכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

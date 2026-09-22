@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U02093",
-	"slug": "שתי-4",
-	"headword": {
-		"text": "שתי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שתי ²",
+	"headwords": [
+		{
+			"text": "שתי",
+			"disambiguator": 2
+		},
 		{
 			"text": "שָׁתָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1637,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00342",
-	"slug": "תותי",
-	"headword": {
-		"text": "תּוֹתֵי"
-	},
+	"sefariaHeadword": "תּוֹתֵי",
+	"headwords": [
+		{
+			"text": "תּוֹתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

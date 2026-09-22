@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00435",
-	"slug": "קונטרין",
-	"headword": {
-		"text": "קוּנְטְרִין"
-	},
+	"sefariaHeadword": "קוּנְטְרִין",
+	"headwords": [
+		{
+			"text": "קוּנְטְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1335,
 		"column": "a"

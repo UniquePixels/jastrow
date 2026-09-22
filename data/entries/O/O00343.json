@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00343",
-	"slug": "סומך",
-	"headword": {
-		"text": "סוֹמֶךְ"
-	},
+	"sefariaHeadword": "סוֹמֶךְ",
+	"headwords": [
+		{
+			"text": "סוֹמֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "a"

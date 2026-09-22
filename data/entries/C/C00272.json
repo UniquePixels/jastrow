@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00272",
-	"slug": "גובא",
-	"headword": {
-		"text": "גּוֹבָא"
-	},
+	"sefariaHeadword": "גּוֹבָא",
+	"headwords": [
+		{
+			"text": "גּוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "a"

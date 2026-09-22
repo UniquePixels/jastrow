@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00694",
-	"slug": "עירניה",
-	"headword": {
-		"text": "עירניה"
-	},
+	"sefariaHeadword": "עירניה",
+	"headwords": [
+		{
+			"text": "עירניה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

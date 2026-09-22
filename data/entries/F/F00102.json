@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00102",
-	"slug": "ותוקין",
-	"headword": {
-		"text": "ותוקין"
-	},
+	"sefariaHeadword": "ותוקין",
+	"headwords": [
+		{
+			"text": "ותוקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

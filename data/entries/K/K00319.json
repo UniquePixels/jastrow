@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00319",
-	"slug": "כוסאתא",
-	"headword": {
-		"text": "כּוֹסָאתָא"
-	},
+	"sefariaHeadword": "כּוֹסָאתָא",
+	"headwords": [
+		{
+			"text": "כּוֹסָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "a"

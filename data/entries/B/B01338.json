@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01338",
-	"slug": "ברשאן",
-	"headword": {
-		"text": "ברשאן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*ברשאן",
+	"headwords": [
+		{
+			"text": "ברשאן",
+			"reconstructed": true
+		},
 		{
 			"text": "בִּרְשָׁן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 198,
 		"column": "a"

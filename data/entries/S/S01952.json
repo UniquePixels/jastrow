@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01952",
-	"slug": "קרונה",
-	"headword": {
-		"text": "קְרוֹנָה"
-	},
+	"sefariaHeadword": "קְרוֹנָה",
+	"headwords": [
+		{
+			"text": "קְרוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "b"

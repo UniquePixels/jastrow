@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01198",
-	"slug": "קירצוף",
-	"headword": {
-		"text": "קִירְצוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְצוּף",
+	"headwords": [
 		{
-			"text": "קִרְ׳"
+			"text": "קִירְצוּף"
+		},
+		{
+			"text": "קִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1369,
 		"column": "b"

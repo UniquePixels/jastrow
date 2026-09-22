@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00028",
-	"slug": "חבוליא",
-	"headword": {
-		"text": "חֲבוּלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבוּלְיָא",
+	"headwords": [
 		{
-			"text": "חִבּוּ׳"
+			"text": "חֲבוּלְיָא"
 		},
 		{
-			"text": "חִיבּ׳"
+			"text": "חִבּוּ׳",
+			"partial": true
+		},
+		{
+			"text": "חִיבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 416,
 		"column": "b"

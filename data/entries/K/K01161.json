@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01161",
-	"slug": "כריך-1",
-	"headword": {
-		"text": "כְּרֵיךְ"
-	},
+	"sefariaHeadword": "כְּרֵיךְ",
+	"headwords": [
+		{
+			"text": "כְּרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "a"

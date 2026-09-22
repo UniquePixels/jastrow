@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00712",
-	"slug": "לשן-2",
-	"headword": {
-		"text": "לְשַׁן"
-	},
+	"sefariaHeadword": "לְשַׁן",
+	"headwords": [
+		{
+			"text": "לְשַׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "b"

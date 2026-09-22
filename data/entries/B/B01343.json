@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01343",
-	"slug": "ברתותא",
-	"headword": {
-		"text": "בַּרְתּוֹתָא"
-	},
+	"sefariaHeadword": "בַּרְתּוֹתָא",
+	"headwords": [
+		{
+			"text": "בַּרְתּוֹתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01200",
-	"slug": "כרכומא",
-	"headword": {
-		"text": "כַּרְכּוֹמָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כַּרְכּוֹמָא II",
+	"headwords": [
+		{
+			"text": "כַּרְכּוֹמָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 669,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00809",
-	"slug": "נכה-1",
-	"headword": {
-		"text": "נָכָה"
-	},
+	"sefariaHeadword": "נָכָה",
+	"headwords": [
+		{
+			"text": "נָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 910,
 		"column": "a"

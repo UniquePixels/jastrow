@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00316",
-	"slug": "מדע-2",
-	"headword": {
-		"text": "מַדַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַדַּע",
+	"headwords": [
+		{
+			"text": "מַדַּע"
+		},
 		{
 			"text": "מַדְּעָא"
 		},
 		{
-			"text": "מִ׳"
+			"text": "מִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 734,
 		"column": "b"

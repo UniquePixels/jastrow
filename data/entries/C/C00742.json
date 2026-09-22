@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00742",
-	"slug": "גימטריון",
-	"headword": {
-		"text": "גִּימַטְרְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּימַטְרְיוֹן",
+	"headwords": [
+		{
+			"text": "גִּימַטְרְיוֹן"
+		},
 		{
 			"text": "גִּימַטְרִיקוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 239,
 		"column": "a"

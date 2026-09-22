@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00243",
-	"slug": "לוטם",
-	"headword": {
-		"text": "לוטם"
-	},
+	"sefariaHeadword": "לוטם",
+	"headwords": [
+		{
+			"text": "לוטם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 697,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01029",
-	"slug": "קינוניא",
-	"headword": {
-		"text": "קִינוֹנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינוֹנְיָא",
+	"headwords": [
 		{
-			"text": "קְנוֹ׳"
+			"text": "קִינוֹנְיָא"
+		},
+		{
+			"text": "קְנוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1363,
 		"column": "a"

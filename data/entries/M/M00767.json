@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00767",
-	"slug": "מזמוטין",
-	"headword": {
-		"text": "מַזְמוּטִין"
-	},
+	"sefariaHeadword": "מַזְמוּטִין",
+	"headwords": [
+		{
+			"text": "מַזְמוּטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

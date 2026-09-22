@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "I00296",
-	"slug": "טיב-3",
-	"headword": {
-		"text": "טִיב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיב II",
+	"headwords": [
+		{
+			"text": "טִיב",
+			"homograph": 2
+		},
 		{
 			"text": "טִיבָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "טִיבָא"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 529,
 		"column": "a"

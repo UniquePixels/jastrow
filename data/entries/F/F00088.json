@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "F00088",
-	"slug": "ורדינא-1",
-	"headword": {
-		"text": "וַרְדִּינָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "וַרְדִּינָא I",
+	"headwords": [
+		{
+			"text": "וַרְדִּינָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 375,
 		"column": "b"

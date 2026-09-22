@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01207",
-	"slug": "עקנא",
-	"headword": {
-		"text": "עַקְנָא"
-	},
+	"sefariaHeadword": "עַקְנָא",
+	"headwords": [
+		{
+			"text": "עַקְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00544",
-	"slug": "זמר-6",
-	"headword": {
-		"text": "זֶמֶר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זֶמֶר I",
+	"headwords": [
+		{
+			"text": "זֶמֶר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 405,
 		"column": "a"

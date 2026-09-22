@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01545",
-	"slug": "שמשוך",
-	"headword": {
-		"text": "שִׁמְשׁוֹךְ"
-	},
+	"sefariaHeadword": "שִׁמְשׁוֹךְ",
+	"headwords": [
+		{
+			"text": "שִׁמְשׁוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "a"

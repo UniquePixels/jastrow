@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02837",
-	"slug": "משוניתא",
-	"headword": {
-		"text": "מְשׁוּנִּיתָא"
-	},
+	"sefariaHeadword": "מְשׁוּנִּיתָא",
+	"headwords": [
+		{
+			"text": "מְשׁוּנִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00627",
-	"slug": "המן",
-	"headword": {
-		"text": "הָמָן"
-	},
+	"sefariaHeadword": "הָמָן",
+	"headwords": [
+		{
+			"text": "הָמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02875",
-	"slug": "משיחות",
-	"headword": {
-		"text": "מְשִׁיחוּת"
-	},
+	"sefariaHeadword": "מְשִׁיחוּת",
+	"headwords": [
+		{
+			"text": "מְשִׁיחוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

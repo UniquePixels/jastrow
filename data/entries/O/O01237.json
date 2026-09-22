@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01237",
-	"slug": "סניותא",
-	"headword": {
-		"text": "סַנְיוּתָא"
-	},
+	"sefariaHeadword": "סַנְיוּתָא",
+	"headwords": [
+		{
+			"text": "סַנְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

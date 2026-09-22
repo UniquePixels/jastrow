@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01003",
-	"slug": "גמדא-1",
-	"headword": {
-		"text": "גַּמְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גַּמְדָּא I",
+	"headwords": [
+		{
+			"text": "גַּמְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 252,
 		"column": "a"

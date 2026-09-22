@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00462",
-	"slug": "רזב",
-	"headword": {
-		"text": "רזב"
-	},
+	"sefariaHeadword": "רזב",
+	"headwords": [
+		{
+			"text": "רזב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

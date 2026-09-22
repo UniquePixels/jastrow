@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01611",
-	"slug": "שנק-2",
-	"headword": {
-		"text": "שְׁנַק"
-	},
+	"sefariaHeadword": "שְׁנַק",
+	"headwords": [
+		{
+			"text": "שְׁנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1607,
 		"column": "b"

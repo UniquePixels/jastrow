@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00110",
-	"slug": "טוב-4",
-	"headword": {
-		"text": "טוּב"
-	},
+	"sefariaHeadword": "טוּב",
+	"headwords": [
+		{
+			"text": "טוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 521,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00503",
-	"slug": "זלתא",
-	"headword": {
-		"text": "זַלְתָּא"
-	},
+	"sefariaHeadword": "זַלְתָּא",
+	"headwords": [
+		{
+			"text": "זַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "a"

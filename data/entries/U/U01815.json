@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01815",
-	"slug": "שפתות",
-	"headword": {
-		"text": "שְׂפָתוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׂפָתוֹת",
+	"headwords": [
+		{
+			"text": "שְׂפָתוֹת"
+		},
 		{
 			"text": "שְׂפָתַיִם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1620,
 		"column": "b"

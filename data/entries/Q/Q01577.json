@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01577",
-	"slug": "פרדיגמטא",
-	"headword": {
-		"text": "פָּרָדִיגְמָטָא"
-	},
+	"sefariaHeadword": "פָּרָדִיגְמָטָא",
+	"headwords": [
+		{
+			"text": "פָּרָדִיגְמָטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1215,
 		"column": "b"

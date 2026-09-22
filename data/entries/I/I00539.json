@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00539",
-	"slug": "טמור-2",
-	"headword": {
-		"text": "טִמוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִמוּר",
+	"headwords": [
+		{
+			"text": "טִמוּר"
+		},
 		{
 			"text": "טִמוּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 539,
 		"column": "a"

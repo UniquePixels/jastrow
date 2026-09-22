@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00742",
-	"slug": "תני-1",
-	"headword": {
-		"text": "תני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תני",
+	"headwords": [
+		{
+			"text": "תני"
+		},
 		{
 			"text": "תָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1681,
 		"column": "b"

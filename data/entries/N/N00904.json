@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00904",
-	"slug": "נני",
-	"headword": {
-		"text": "נַנַּי"
-	},
+	"sefariaHeadword": "נַנַּי",
+	"headwords": [
+		{
+			"text": "נַנַּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

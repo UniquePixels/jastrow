@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01014",
-	"slug": "ענקמון",
-	"headword": {
-		"text": "עִנְקָמוֹן"
-	},
+	"sefariaHeadword": "עִנְקָמוֹן",
+	"headwords": [
+		{
+			"text": "עִנְקָמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "b"

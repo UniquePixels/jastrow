@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01237",
-	"slug": "כרן",
-	"headword": {
-		"text": "כְּרָן"
-	},
+	"sefariaHeadword": "כְּרָן",
+	"headwords": [
+		{
+			"text": "כְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

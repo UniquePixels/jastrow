@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00126",
-	"slug": "תהלה",
-	"headword": {
-		"text": "תְּהִלָּה"
-	},
+	"sefariaHeadword": "תְּהִלָּה",
+	"headwords": [
+		{
+			"text": "תְּהִלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "a"

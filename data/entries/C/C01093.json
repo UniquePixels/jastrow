@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01093",
-	"slug": "גנדר-2",
-	"headword": {
-		"text": "גַּנְדַּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גַּנְדַּר II",
+	"headwords": [
+		{
+			"text": "גַּנְדַּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 257,
 		"column": "a"

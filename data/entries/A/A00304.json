@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00304",
-	"slug": "אגלין",
-	"headword": {
-		"text": "אגלין"
-	},
+	"sefariaHeadword": "אגלין",
+	"headwords": [
+		{
+			"text": "אגלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

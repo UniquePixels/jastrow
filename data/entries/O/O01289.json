@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01289",
-	"slug": "סעורין",
-	"headword": {
-		"text": "סְעוֹרִין"
-	},
+	"sefariaHeadword": "סְעוֹרִין",
+	"headwords": [
+		{
+			"text": "סְעוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1010,
 		"column": "a"

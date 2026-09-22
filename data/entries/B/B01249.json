@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01249",
-	"slug": "בריון",
-	"headword": {
-		"text": "בִּרְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּרְיוֹן",
+	"headwords": [
+		{
+			"text": "בִּרְיוֹן"
+		},
 		{
 			"text": "בִּירְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 193,
 		"column": "a"

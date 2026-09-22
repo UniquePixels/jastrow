@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02704",
-	"slug": "מרכול",
-	"headword": {
-		"text": "מַרְכּוֹל"
-	},
+	"sefariaHeadword": "מַרְכּוֹל",
+	"headwords": [
+		{
+			"text": "מַרְכּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

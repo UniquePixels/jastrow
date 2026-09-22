@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00780",
-	"slug": "קטלוזא",
-	"headword": {
-		"text": "קַטְלוֹזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַטְלוֹזָא",
+	"headwords": [
+		{
+			"text": "קַטְלוֹזָא"
+		},
 		{
 			"text": "קַטְלָזוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1349,
 		"column": "b"

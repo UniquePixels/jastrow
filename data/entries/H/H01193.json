@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01193",
-	"slug": "חמישי-1",
-	"headword": {
-		"text": "חֲמִישִׁי"
-	},
+	"sefariaHeadword": "חֲמִישִׁי",
+	"headwords": [
+		{
+			"text": "חֲמִישִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

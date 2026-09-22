@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00284",
-	"slug": "לולניאות",
-	"headword": {
-		"text": "לולניאות"
-	},
+	"sefariaHeadword": "לולניאות",
+	"headwords": [
+		{
+			"text": "לולניאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "b"

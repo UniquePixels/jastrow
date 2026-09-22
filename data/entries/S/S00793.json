@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00793",
-	"slug": "קטמנא",
-	"headword": {
-		"text": "קִטְמָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִטְמָנָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִטְמָנָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1350,
 		"column": "a"

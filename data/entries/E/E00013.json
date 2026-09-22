@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00013",
-	"slug": "האיק",
-	"headword": {
-		"text": "הָאֵיק"
-	},
+	"sefariaHeadword": "הָאֵיק",
+	"headwords": [
+		{
+			"text": "הָאֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "a"

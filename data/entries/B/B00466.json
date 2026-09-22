@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00466",
-	"slug": "בזר-1",
-	"headword": {
-		"text": "בָּזַר"
-	},
+	"sefariaHeadword": "בָּזַר",
+	"headwords": [
+		{
+			"text": "בָּזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "b"

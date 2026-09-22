@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00859",
-	"slug": "פירכוס-1",
-	"headword": {
-		"text": "פִּירְכּוּס",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְכּוּס I",
+	"headwords": [
+		{
+			"text": "פִּירְכּוּס",
+			"homograph": 1
+		},
 		{
 			"text": "פִּירְקוּס"
 		},
 		{
-			"text": "פִּרְ׳"
+			"text": "פִּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 1171,
 		"column": "b"

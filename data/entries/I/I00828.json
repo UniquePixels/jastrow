@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00828",
-	"slug": "טרך-1",
-	"headword": {
-		"text": "טֶרֶךְ"
-	},
+	"sefariaHeadword": "טֶרֶךְ",
+	"headwords": [
+		{
+			"text": "טֶרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

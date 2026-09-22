@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00727",
-	"slug": "כליונים",
-	"headword": {
-		"text": "כליונים"
-	},
+	"sefariaHeadword": "כליונים",
+	"headwords": [
+		{
+			"text": "כליונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "a"

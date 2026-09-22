@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00185",
-	"slug": "כובדים",
-	"headword": {
-		"text": "כובדים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כובדים",
+	"headwords": [
+		{
+			"text": "כובדים"
+		},
 		{
 			"text": "כובדין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 616,
 		"column": "b"

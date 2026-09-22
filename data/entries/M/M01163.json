@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01163",
-	"slug": "מילא-3",
-	"headword": {
-		"text": "מֵילָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מֵילָא II",
+	"headwords": [
+		{
+			"text": "מֵילָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 773,
 		"column": "b"

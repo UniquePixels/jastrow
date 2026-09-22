@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00240",
-	"slug": "נדר-2",
-	"headword": {
-		"text": "נְדַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְדַר I",
+	"headwords": [
+		{
+			"text": "נְדַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 879,
 		"column": "b"

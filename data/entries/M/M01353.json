@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01353",
-	"slug": "מכוה",
-	"headword": {
-		"text": "מִכְוָה"
-	},
+	"sefariaHeadword": "מִכְוָה",
+	"headwords": [
+		{
+			"text": "מִכְוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "b"

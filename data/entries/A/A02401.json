@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02401",
-	"slug": "אסטרוגול",
-	"headword": {
-		"text": "אסטרוגול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אסטרוגול",
+	"headwords": [
+		{
+			"text": "אסטרוגול"
+		},
 		{
 			"text": "אסטרוגילא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 91,
 		"column": "a"

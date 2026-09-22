@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02090",
-	"slug": "אנבונין",
-	"headword": {
-		"text": "אִנְבּוֹנִין"
-	},
+	"sefariaHeadword": "אִנְבֹּונִין",
+	"headwords": [
+		{
+			"text": "אִנְבּוֹנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00060",
-	"slug": "תבן-1",
-	"headword": {
-		"text": "תָּבַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּבַן",
+	"headwords": [
+		{
+			"text": "תָּבַן"
+		},
 		{
 			"text": "תִּבֵּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1644,
 		"column": "b"

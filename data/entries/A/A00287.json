@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00287",
-	"slug": "אגטין",
-	"headword": {
-		"text": "אגטין"
-	},
+	"sefariaHeadword": "אגטין",
+	"headwords": [
+		{
+			"text": "אגטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

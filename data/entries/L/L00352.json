@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00352",
-	"slug": "לחישא",
-	"headword": {
-		"text": "לְחִישָׁא"
-	},
+	"sefariaHeadword": "לְחִישָׁא",
+	"headwords": [
+		{
+			"text": "לְחִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00513",
-	"slug": "עידיתא",
-	"headword": {
-		"text": "עִידִּיתָא"
-	},
+	"sefariaHeadword": "עִידִּיתָא",
+	"headwords": [
+		{
+			"text": "עִידִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "b"

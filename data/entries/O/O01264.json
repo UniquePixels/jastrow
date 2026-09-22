@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01264",
-	"slug": "סנקליטור",
-	"headword": {
-		"text": "סנקליטור"
-	},
+	"sefariaHeadword": "סנקליטור",
+	"headwords": [
+		{
+			"text": "סנקליטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

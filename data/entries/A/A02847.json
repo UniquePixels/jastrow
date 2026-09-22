@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02847",
-	"slug": "אפתיסיס",
-	"headword": {
-		"text": "אפתיסיס"
-	},
+	"sefariaHeadword": "אפתיסיס",
+	"headwords": [
+		{
+			"text": "אפתיסיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "b"

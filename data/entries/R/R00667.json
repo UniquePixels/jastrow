@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00667",
-	"slug": "צף",
-	"headword": {
-		"text": "צָף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָף",
+	"headwords": [
+		{
+			"text": "צָף"
+		},
 		{
 			"text": "צָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1295,
 		"column": "a"

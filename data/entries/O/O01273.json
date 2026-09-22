@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01273",
-	"slug": "ססגוניתא",
-	"headword": {
-		"text": "סַסְגּוֹנִיתָא"
-	},
+	"sefariaHeadword": "סַסְגּוֹנִיתָא",
+	"headwords": [
+		{
+			"text": "סַסְגּוֹנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "a"

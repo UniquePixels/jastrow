@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02066",
-	"slug": "מעדן-1",
-	"headword": {
-		"text": "מַעֲדֵן",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעֲדֵן I",
+	"headwords": [
+		{
+			"text": "מַעֲדֵן",
+			"homograph": 1
+		},
 		{
 			"text": "מַעֲדַנִים"
 		},
@@ -13,6 +14,7 @@
 			"text": "מַעֲדַנִּין"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 813,
 		"column": "a"

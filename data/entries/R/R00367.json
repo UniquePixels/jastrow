@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00367",
-	"slug": "צילצלון",
-	"headword": {
-		"text": "צִילְצְלָוָן"
-	},
+	"sefariaHeadword": "צִילְצְלָוָן",
+	"headwords": [
+		{
+			"text": "צִילְצְלָוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

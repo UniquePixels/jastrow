@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00721",
-	"slug": "אונא-3",
-	"headword": {
-		"text": "אוּנָא"
-	},
+	"sefariaHeadword": "אוּנָא",
+	"headwords": [
+		{
+			"text": "אוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "a"

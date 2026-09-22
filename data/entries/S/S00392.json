@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "S00392",
-	"slug": "קומי-3",
-	"headword": {
-		"text": "קוֹמִי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*קוֹמִי II",
+	"headwords": [
+		{
+			"text": "קוֹמִי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1333,
 		"column": "a"

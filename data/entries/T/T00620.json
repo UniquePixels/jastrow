@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00620",
-	"slug": "ריחוק-1",
-	"headword": {
-		"text": "רִיחוּק"
-	},
+	"sefariaHeadword": "רִיחוּק",
+	"headwords": [
+		{
+			"text": "רִיחוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "a"

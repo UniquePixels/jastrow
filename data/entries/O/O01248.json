@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01248",
-	"slug": "סנסן-2",
-	"headword": {
-		"text": "סַנְסַן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סַנְסַן II",
+	"headwords": [
+		{
+			"text": "סַנְסַן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1008,
 		"column": "a"

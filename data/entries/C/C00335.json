@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00335",
-	"slug": "גוון-1",
-	"headword": {
-		"text": "גַּוָּון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּוָּון",
+	"headwords": [
+		{
+			"text": "גַּוָּון"
+		},
 		{
 			"text": "גַּוָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 219,
 		"column": "b"

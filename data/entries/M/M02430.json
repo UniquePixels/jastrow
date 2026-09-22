@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02430",
-	"slug": "מקם",
-	"headword": {
-		"text": "מְקָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקָם",
+	"headwords": [
+		{
+			"text": "מְקָם"
+		},
 		{
 			"text": "מְקָמָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 831,
 		"column": "b"

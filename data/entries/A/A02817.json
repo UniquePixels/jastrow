@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02817",
-	"slug": "אפריון",
-	"headword": {
-		"text": "אַפִּרְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפִּרְיוֹן",
+	"headwords": [
+		{
+			"text": "אַפִּרְיוֹן"
+		},
 		{
 			"text": "אַפִּירְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 108,
 		"column": "b"

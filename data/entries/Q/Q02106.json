@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02106",
-	"slug": "פשתיכנא",
-	"headword": {
-		"text": "פשתיכנא"
-	},
+	"sefariaHeadword": "פשתיכנא",
+	"headwords": [
+		{
+			"text": "פשתיכנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

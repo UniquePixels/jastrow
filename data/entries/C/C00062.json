@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00062",
-	"slug": "גבורה",
-	"headword": {
-		"text": "גְּבוּרָה"
-	},
+	"sefariaHeadword": "גְּבוּרָה",
+	"headwords": [
+		{
+			"text": "גְּבוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "a"
@@ -47,7 +51,7 @@
 				{
 					"gloss": " <i>G’buroth</i>, the second section of the T’fillah (v. <he>אָבוֹת</he>), praising the powers of the Lord, also called <he>תְּחִיַית הַמֵּתִים</he>. Y. Ber. IV, end, 8ᶜ this is the order &c. <he>אבות וג׳ וכ׳</he> Aboth, G’buroth, and Kiddush hash-Shem (K’dushah).—ג׳ גְּשָׁמִים <i>the power of rain</i>, a clause praising the Lord for giving rains, inserted in <i>G’buroth</i>. ",
 					"units": [
-						"<cite ref=\"Mishnah Berakhot 5:2\">Ber. V, 2</cite> <he>מזכירין ג׳ גש׳</he> we mention ‘the power of rain’, i.e. insert the clause, in ‘<i>the Resurrection</i>’, contrad. to the prayer for rain (<cite ref=\"U00033\"><he>שַׁאֲלָה</he></cite>). ",
+						"<cite ref=\"Mishnah Berakhot 5:2\">Ber. V, 2</cite> <he>מזכירין ג׳ גש׳</he> we mention ‘the power of rain’, i.e. insert the clause, in ‘<i>the Resurrection</i>’, contrad. to the prayer for rain (<cite ref=\"U00033\"><he>שַׁאֲלָה</he></cite>). ",
 						"<cite ref=\"Taanit 2a:8\">Taan. 2ᵃ</cite> <he>מאי ג׳ גש׳ וכ׳</he> why is it named <i>G’buroth G’shamim?</i> Ans. <he>מפני שיורדין בגבורה</he> because the rains come down through (God’s) wonderful power (ref. to <cite ref=\"Job 5:9-10\">Job. V, 9—10</cite>).—"
 					],
 					"label": "2"

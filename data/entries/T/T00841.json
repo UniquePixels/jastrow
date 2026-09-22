@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00841",
-	"slug": "רמתא",
-	"headword": {
-		"text": "רָמָתָא"
-	},
+	"sefariaHeadword": "רָמָתָא",
+	"headwords": [
+		{
+			"text": "רָמָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "a"

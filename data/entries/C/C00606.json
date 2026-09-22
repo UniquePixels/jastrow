@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00606",
-	"slug": "גיאיותא",
-	"headword": {
-		"text": "גֵּיאיוּתָא"
-	},
+	"sefariaHeadword": "גֵּיאיוּתָא",
+	"headwords": [
+		{
+			"text": "גֵּיאיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

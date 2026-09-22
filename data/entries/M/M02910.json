@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02910",
-	"slug": "משכנתא",
-	"headword": {
-		"text": "מַשְׁכַּנְתָּא"
-	},
+	"sefariaHeadword": "מַשְׁכַּנְתָּא",
+	"headwords": [
+		{
+			"text": "מַשְׁכַּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 855,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00039",
-	"slug": "דבב-2",
-	"headword": {
-		"text": "דָּבַב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דָּבַב II",
+	"headwords": [
+		{
+			"text": "דָּבַב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 276,
 		"column": "a"

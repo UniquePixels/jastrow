@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03034",
-	"slug": "מתוקן",
-	"headword": {
-		"text": "מְתוּקָּן"
-	},
+	"sefariaHeadword": "מְתוּקָּן",
+	"headwords": [
+		{
+			"text": "מְתוּקָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "b"

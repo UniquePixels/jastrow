@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00570",
-	"slug": "גזע-1",
-	"headword": {
-		"text": "גָּזַע",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גָּזַע",
+	"headwords": [
+		{
+			"text": "גָּזַע",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 231,
 		"column": "a"

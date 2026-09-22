@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00650",
-	"slug": "גיהא-2",
-	"headword": {
-		"text": "גִּיהָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גִּיהָא II",
+	"headwords": [
+		{
+			"text": "גִּיהָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 235,
 		"column": "b"

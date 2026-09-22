@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H00649",
-	"slug": "חי-2",
-	"headword": {
-		"text": "חַי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַי ²",
+	"headwords": [
+		{
+			"text": "חַי",
+			"disambiguator": 2
+		},
 		{
 			"text": "חַיָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "חַיָּיא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 450,
 		"column": "b"

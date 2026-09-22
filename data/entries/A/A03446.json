@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03446",
-	"slug": "אתרגושא",
-	"headword": {
-		"text": "אִתְרְגוּשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִתְרְגוּשָׁא",
+	"headwords": [
+		{
+			"text": "אִתְרְגוּשָׁא"
+		},
 		{
 			"text": "אִתְרְגוּשְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 134,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00482",
-	"slug": "עטרן",
-	"headword": {
-		"text": "עִטְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִטְרָן",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִטְרָן"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1065,
 		"column": "a"

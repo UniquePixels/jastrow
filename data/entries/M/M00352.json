@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00352",
-	"slug": "מהולא-3",
-	"headword": {
-		"text": "מְהוּלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְהוּלָא II",
+	"headwords": [
+		{
+			"text": "מְהוּלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 737,
 		"column": "a"

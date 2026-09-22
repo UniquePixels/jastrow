@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01454",
-	"slug": "איסטרובילוס",
-	"headword": {
-		"text": "אִיסְטְרוֹבִילוֹס"
-	},
+	"sefariaHeadword": "אִיסְטְרוֹבִילוֹס",
+	"headwords": [
+		{
+			"text": "אִיסְטְרוֹבִילוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

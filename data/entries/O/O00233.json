@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00233",
-	"slug": "סובין-2",
-	"headword": {
-		"text": "סוּבִּין"
-	},
+	"sefariaHeadword": "סוּבִּין",
+	"headwords": [
+		{
+			"text": "סוּבִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

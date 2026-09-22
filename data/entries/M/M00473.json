@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00473",
-	"slug": "מוכיח",
-	"headword": {
-		"text": "מוֹכִיחַ"
-	},
+	"sefariaHeadword": "מוֹכִיחַ",
+	"headwords": [
+		{
+			"text": "מוֹכִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

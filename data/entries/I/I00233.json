@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00233",
-	"slug": "טוריסקי",
-	"headword": {
-		"text": "טוריסקי"
-	},
+	"sefariaHeadword": "טוריסקי",
+	"headwords": [
+		{
+			"text": "טוריסקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00668",
-	"slug": "ריע-1",
-	"headword": {
-		"text": "רִיעַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רִיעַ I",
+	"headwords": [
+		{
+			"text": "רִיעַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1475,
 		"column": "b"

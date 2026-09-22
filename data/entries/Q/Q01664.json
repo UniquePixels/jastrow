@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01664",
-	"slug": "פרוזתימייא",
-	"headword": {
-		"text": "פרוזתימייא"
-	},
+	"sefariaHeadword": "פרוזתימייא",
+	"headwords": [
+		{
+			"text": "פרוזתימייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

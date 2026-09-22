@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00747",
-	"slug": "כלירקין",
-	"headword": {
-		"text": "כלירקין"
-	},
+	"sefariaHeadword": "כלירקין",
+	"headwords": [
+		{
+			"text": "כלירקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

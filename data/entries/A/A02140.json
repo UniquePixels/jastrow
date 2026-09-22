@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02140",
-	"slug": "אנהרותא",
-	"headword": {
-		"text": "אַנְהָרוּתָא"
-	},
+	"sefariaHeadword": "אַנְהָרוּתָא",
+	"headwords": [
+		{
+			"text": "אַנְהָרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

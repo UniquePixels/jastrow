@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00917",
-	"slug": "דן-1",
-	"headword": {
-		"text": "דָּן"
-	},
+	"sefariaHeadword": "דָּן",
+	"headwords": [
+		{
+			"text": "דָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00638",
-	"slug": "לפיסא",
-	"headword": {
-		"text": "לְפִיסָא"
-	},
+	"sefariaHeadword": "לְפִיסָא",
+	"headwords": [
+		{
+			"text": "לְפִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

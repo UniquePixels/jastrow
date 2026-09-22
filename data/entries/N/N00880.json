@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00880",
-	"slug": "נמך",
-	"headword": {
-		"text": "נָמַךְ"
-	},
+	"sefariaHeadword": "נָמַךְ",
+	"headwords": [
+		{
+			"text": "נָמַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

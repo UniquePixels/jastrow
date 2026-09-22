@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00044",
-	"slug": "דבבו",
-	"headword": {
-		"text": "דְּבָבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבָבוּ",
+	"headwords": [
+		{
+			"text": "דְּבָבוּ"
+		},
 		{
 			"text": "דְּבָבוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 276,
 		"column": "b"

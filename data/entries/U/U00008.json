@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00008",
-	"slug": "שאגא",
-	"headword": {
-		"text": "שָׁאגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁאגָא",
+	"headwords": [
+		{
+			"text": "שָׁאגָא"
+		},
 		{
 			"text": "שָׁגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1505,
 		"column": "b"

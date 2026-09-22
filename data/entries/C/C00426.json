@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00426",
-	"slug": "גון-1",
-	"headword": {
-		"text": "גּוּן"
-	},
+	"sefariaHeadword": "גּוּן",
+	"headwords": [
+		{
+			"text": "גּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00676",
-	"slug": "עירבא",
-	"headword": {
-		"text": "עִירְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִירְבָא",
+	"headwords": [
+		{
+			"text": "עִירְבָא"
+		},
 		{
 			"text": "עִירְבֵּב"
 		},
@@ -24,6 +25,7 @@
 			"text": "עֵירָבוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}, {6}",
 	"page": {
 		"number": 1075,
 		"column": "b"

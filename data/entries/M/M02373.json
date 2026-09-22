@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02373",
-	"slug": "מקבא",
-	"headword": {
-		"text": "מַקָּבָא"
-	},
+	"sefariaHeadword": "מַקָּבָא",
+	"headwords": [
+		{
+			"text": "מַקָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

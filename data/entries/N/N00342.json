@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00342",
-	"slug": "נוח-3",
-	"headword": {
-		"text": "נוֹחַ"
-	},
+	"sefariaHeadword": "נוֹחַ",
+	"headwords": [
+		{
+			"text": "נוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

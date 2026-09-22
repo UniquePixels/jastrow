@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02349",
-	"slug": "אסטבלאטא",
-	"headword": {
-		"text": "אִסְטַבְלָאטָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְטַבְלָאטָא",
+	"headwords": [
+		{
+			"text": "אִסְטַבְלָאטָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 89,
 		"column": "b"

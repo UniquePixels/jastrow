@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00247",
-	"slug": "יורקנא",
-	"headword": {
-		"text": "יוּרְקָנָא"
-	},
+	"sefariaHeadword": "יוּרְקָנָא",
+	"headwords": [
+		{
+			"text": "יוּרְקָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

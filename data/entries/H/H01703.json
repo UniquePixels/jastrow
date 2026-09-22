@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01703",
-	"slug": "חרישות",
-	"headword": {
-		"text": "חֲרִישׁוּת"
-	},
+	"sefariaHeadword": "חֲרִישׁוּת",
+	"headwords": [
+		{
+			"text": "חֲרִישׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 503,
 		"column": "a"

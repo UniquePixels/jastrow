@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00559",
-	"slug": "יקה",
-	"headword": {
-		"text": "יָקֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָקֶה",
+	"headwords": [
+		{
+			"text": "יָקֶה"
+		},
 		{
 			"text": "יָקֶא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 591,
 		"column": "a"

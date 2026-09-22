@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01380",
-	"slug": "חסימה-1",
-	"headword": {
-		"text": "חֲסִימָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲסִימָה I",
+	"headwords": [
+		{
+			"text": "חֲסִימָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 487,
 		"column": "b"

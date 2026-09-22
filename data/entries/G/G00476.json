@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00476",
-	"slug": "זלא",
-	"headword": {
-		"text": "זְלָא"
-	},
+	"sefariaHeadword": "זְלָא",
+	"headwords": [
+		{
+			"text": "זְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

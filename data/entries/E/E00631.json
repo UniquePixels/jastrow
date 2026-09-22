@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00631",
-	"slug": "המניכא",
-	"headword": {
-		"text": "הַמְנִיכָא"
-	},
+	"sefariaHeadword": "הַמְנִיכָא",
+	"headwords": [
+		{
+			"text": "הַמְנִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "a"

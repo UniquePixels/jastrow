@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02855",
-	"slug": "אצבעתא",
-	"headword": {
-		"text": "אצבעתא"
-	},
+	"sefariaHeadword": "אצבעתא",
+	"headwords": [
+		{
+			"text": "אצבעתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

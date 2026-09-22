@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00682",
-	"slug": "קח",
-	"headword": {
-		"text": "קָח"
-	},
+	"sefariaHeadword": "קָח",
+	"headwords": [
+		{
+			"text": "קָח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1345,
 		"column": "b"

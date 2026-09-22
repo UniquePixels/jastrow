@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00623",
-	"slug": "עיניין",
-	"headword": {
-		"text": "עִינְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינְיָין",
+	"headwords": [
+		{
+			"text": "עִינְיָין"
+		},
 		{
 			"text": "עִינְיָינָא"
 		},
 		{
-			"text": "עִינְיָ׳"
+			"text": "עִינְיָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1072,
 		"column": "b"

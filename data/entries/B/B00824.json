@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00824",
-	"slug": "בלו",
-	"headword": {
-		"text": "בְּלוֹ"
-	},
+	"sefariaHeadword": "בְּלוֹ",
+	"headwords": [
+		{
+			"text": "בְּלוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

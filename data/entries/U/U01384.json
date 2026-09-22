@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01384",
-	"slug": "שלקוקיה",
-	"headword": {
-		"text": "שַׁלְקוּקַיָּה"
-	},
+	"sefariaHeadword": "שַׁלְקוּקַיָּה",
+	"headwords": [
+		{
+			"text": "שַׁלְקוּקַיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "b"

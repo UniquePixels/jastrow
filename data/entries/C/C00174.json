@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00174",
-	"slug": "גדודא-2",
-	"headword": {
-		"text": "גְּדוּדָא"
-	},
+	"sefariaHeadword": "גְּדוּדָא",
+	"headwords": [
+		{
+			"text": "גְּדוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "b"

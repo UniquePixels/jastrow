@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00397",
-	"slug": "סופלני",
-	"headword": {
-		"text": "סופלני"
-	},
+	"sefariaHeadword": "סופלני",
+	"headwords": [
+		{
+			"text": "סופלני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "b"

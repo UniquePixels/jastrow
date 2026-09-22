@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00583",
-	"slug": "הלפשיש",
-	"headword": {
-		"text": "הלפשיש"
-	},
+	"sefariaHeadword": "הלפשיש",
+	"headwords": [
+		{
+			"text": "הלפשיש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

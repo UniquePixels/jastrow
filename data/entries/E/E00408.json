@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00408",
-	"slug": "הילני-1",
-	"headword": {
-		"text": "הִילְנִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הִילְנִי I",
+	"headwords": [
+		{
+			"text": "הִילְנִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 346,
 		"column": "b"

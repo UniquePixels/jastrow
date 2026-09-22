@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02569",
-	"slug": "מרובה",
-	"headword": {
-		"text": "מְרוּבֶּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרוּבֶּה",
+	"headwords": [
+		{
+			"text": "מְרוּבֶּה"
+		},
 		{
 			"text": "מְרוּבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 838,
 		"column": "a"

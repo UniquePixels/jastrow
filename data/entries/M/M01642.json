@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01642",
-	"slug": "מלתירה",
-	"headword": {
-		"text": "מלתירה"
-	},
+	"sefariaHeadword": "מלתירה",
+	"headwords": [
+		{
+			"text": "מלתירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

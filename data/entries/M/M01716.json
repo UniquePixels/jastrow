@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01716",
-	"slug": "מנדין",
-	"headword": {
-		"text": "מַנְדִּין"
-	},
+	"sefariaHeadword": "מַנְדִּין",
+	"headwords": [
+		{
+			"text": "מַנְדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 797,
 		"column": "a"

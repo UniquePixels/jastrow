@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01376",
-	"slug": "ערך-2",
-	"headword": {
-		"text": "עֲרַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרַךְ",
+	"headwords": [
+		{
+			"text": "עֲרַךְ"
+		},
 		{
 			"text": "עֲרֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1118,
 		"column": "b"

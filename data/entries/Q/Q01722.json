@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01722",
-	"slug": "פרוע-2",
-	"headword": {
-		"text": "פֵּרוּעַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּרוּעַ ²",
+	"headwords": [
 		{
-			"text": "פֵּיר׳"
+			"text": "פֵּרוּעַ",
+			"disambiguator": 2
+		},
+		{
+			"text": "פֵּיר׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1221,
 		"column": "b"

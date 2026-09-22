@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00366",
-	"slug": "נום-2",
-	"headword": {
-		"text": "נוּם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נוּם II",
+	"headwords": [
+		{
+			"text": "נוּם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 887,
 		"column": "b"

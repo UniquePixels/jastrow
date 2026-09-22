@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00482",
-	"slug": "פחס",
-	"headword": {
-		"text": "פָּחַס"
-	},
+	"sefariaHeadword": "פָּחַס",
+	"headwords": [
+		{
+			"text": "פָּחַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1153,
 		"column": "a"

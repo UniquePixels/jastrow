@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00073",
-	"slug": "טבליי",
-	"headword": {
-		"text": "טַבְלַיי"
-	},
+	"sefariaHeadword": "טַבְלַיי",
+	"headwords": [
+		{
+			"text": "טַבְלַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 518,
 		"column": "b"

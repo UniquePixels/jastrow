@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00675",
-	"slug": "זרה-2",
-	"headword": {
-		"text": "זָרָה  I, II"
-	},
+	"sefariaHeadword": "זָרָה  I, II",
+	"headwords": [
+		{
+			"text": "זָרָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0}² I, II",
 	"page": {
 		"number": 412,
 		"column": "a"

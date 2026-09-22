@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00259",
-	"slug": "יזופתא",
-	"headword": {
-		"text": "יְזוּפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְזוּפְתָּא",
+	"headwords": [
 		{
-			"text": "יְזִיפְ׳"
+			"text": "יְזוּפְתָּא"
+		},
+		{
+			"text": "יְזִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 572,
 		"column": "b"

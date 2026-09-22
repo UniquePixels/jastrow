@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02778",
-	"slug": "מררה",
-	"headword": {
-		"text": "מְרֹרָה"
-	},
+	"sefariaHeadword": "מְרֹרָה",
+	"headwords": [
+		{
+			"text": "מְרֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

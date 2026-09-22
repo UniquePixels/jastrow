@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01956",
-	"slug": "קרוסטלינין",
-	"headword": {
-		"text": "קְרוּסְטָלִינִין"
-	},
+	"sefariaHeadword": "קְרוּסְטָלִינִין",
+	"headwords": [
+		{
+			"text": "קְרוּסְטָלִינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "b"

@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00965",
-	"slug": "פלוגתא-2",
-	"headword": {
-		"text": "פְּלוּגְתָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלוּגְתָּא II",
+	"headwords": [
+		{
+			"text": "פְּלוּגְתָּא",
+			"homograph": 2
+		},
 		{
 			"text": "פְּלוּגְתָּה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1177,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00016",
-	"slug": "כאיף",
-	"headword": {
-		"text": "כָּאִיף"
-	},
+	"sefariaHeadword": "כָּאִיף",
+	"headwords": [
+		{
+			"text": "כָּאִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

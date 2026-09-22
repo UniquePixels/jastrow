@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00511",
-	"slug": "כיור-1",
-	"headword": {
-		"text": "כִּיּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיּוּר",
+	"headwords": [
+		{
+			"text": "כִּיּוּר"
+		},
 		{
 			"text": "כִּיּוּד"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 631,
 		"column": "b"

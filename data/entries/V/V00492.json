@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00492",
-	"slug": "תיקעותא",
-	"headword": {
-		"text": "תִּיקְעוּתָא"
-	},
+	"sefariaHeadword": "תִּיקְעוּתָא",
+	"headwords": [
+		{
+			"text": "תִּיקְעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

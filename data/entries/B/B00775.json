@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00775",
-	"slug": "בכותא",
-	"headword": {
-		"text": "בָּכוּתָא"
-	},
+	"sefariaHeadword": "בָּכוּתָא",
+	"headwords": [
+		{
+			"text": "בָּכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00290",
-	"slug": "חוזרר",
-	"headword": {
-		"text": "חוֹזְרָר"
-	},
+	"sefariaHeadword": "חוֹזְרָר",
+	"headwords": [
+		{
+			"text": "חוֹזְרָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

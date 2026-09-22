@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00580",
-	"slug": "דייתא",
-	"headword": {
-		"text": "דַּיְּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיְּיתָא",
+	"headwords": [
+		{
+			"text": "דַּיְּיתָא"
+		},
 		{
 			"text": "דַּיְּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דַּיּוּ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 299,
 		"column": "a"

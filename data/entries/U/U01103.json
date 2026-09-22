@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01103",
-	"slug": "שית-4",
-	"headword": {
-		"text": "שִׁית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁית",
+	"headwords": [
+		{
+			"text": "שִׁית"
+		},
 		{
 			"text": "שֵׁית"
 		},
@@ -15,9 +16,11 @@
 			"text": "שִׁיתָּה"
 		},
 		{
-			"text": "שִׁתָּ׳"
+			"text": "שִׁתָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1570,
 		"column": "a"

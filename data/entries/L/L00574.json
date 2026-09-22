@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00574",
-	"slug": "למין",
-	"headword": {
-		"text": "לְמֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְמֵין",
+	"headwords": [
+		{
+			"text": "לְמֵין"
+		},
 		{
 			"text": "לִימֵן"
 		},
@@ -12,6 +13,7 @@
 			"text": "לִימֵין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 712,
 		"column": "b"

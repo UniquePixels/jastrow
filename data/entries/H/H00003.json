@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00003",
-	"slug": "חאיך",
-	"headword": {
-		"text": "חָאִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָאִיךְ",
+	"headwords": [
+		{
+			"text": "חָאִיךְ"
+		},
 		{
 			"text": "חָאִיס"
 		},
@@ -12,6 +13,7 @@
 			"text": "חָאִיק"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 415,
 		"column": "a"

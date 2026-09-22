@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00785",
-	"slug": "דכס",
-	"headword": {
-		"text": "דָּכַס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּכַס",
+	"headwords": [
+		{
+			"text": "דָּכַס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 307,
 		"column": "b"

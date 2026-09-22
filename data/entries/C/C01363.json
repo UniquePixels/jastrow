@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01363",
-	"slug": "גרמנא",
-	"headword": {
-		"text": "גרמנא"
-	},
+	"sefariaHeadword": "גרמנא",
+	"headwords": [
+		{
+			"text": "גרמנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

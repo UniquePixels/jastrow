@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00438",
-	"slug": "מוול",
-	"headword": {
-		"text": "מוּוָל"
-	},
+	"sefariaHeadword": "מוּוָל",
+	"headwords": [
+		{
+			"text": "מוּוָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

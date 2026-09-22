@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00502",
-	"slug": "רחימתא",
-	"headword": {
-		"text": "רְחִימְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחִימְתָּא",
+	"headwords": [
+		{
+			"text": "רְחִימְתָּא"
+		},
 		{
 			"text": "רְחִימְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1466,
 		"column": "a"

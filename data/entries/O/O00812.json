@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00812",
-	"slug": "סיקוף",
-	"headword": {
-		"text": "סִיקוּף"
-	},
+	"sefariaHeadword": "סִיקוּף",
+	"headwords": [
+		{
+			"text": "סִיקוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00936",
-	"slug": "עמתו",
-	"headword": {
-		"text": "עַמְּתוּ"
-	},
+	"sefariaHeadword": "עַמְּתוּ",
+	"headwords": [
+		{
+			"text": "עַמְּתוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

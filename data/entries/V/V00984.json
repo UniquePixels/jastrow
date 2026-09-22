@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00984",
-	"slug": "תריד",
-	"headword": {
-		"text": "תָּרִיד"
-	},
+	"sefariaHeadword": "תָּרִיד",
+	"headwords": [
+		{
+			"text": "תָּרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

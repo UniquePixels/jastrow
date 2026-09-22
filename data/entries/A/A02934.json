@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02934",
-	"slug": "אקסילאליאיין",
-	"headword": {
-		"text": "אַקְסִילָאלִיאָיָין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַקְסִילָאלִיאָיָין",
+	"headwords": [
+		{
+			"text": "אַקְסִילָאלִיאָיָין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

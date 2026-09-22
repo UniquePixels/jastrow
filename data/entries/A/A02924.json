@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02924",
-	"slug": "אקן",
-	"headword": {
-		"text": "אֲקַן"
-	},
+	"sefariaHeadword": "אֲקַן",
+	"headwords": [
+		{
+			"text": "אֲקַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

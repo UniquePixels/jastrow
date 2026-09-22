@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00346",
-	"slug": "זייפי",
-	"headword": {
-		"text": "זְיָיפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְיָיפִי",
+	"headwords": [
+		{
+			"text": "זְיָיפִי"
+		},
 		{
 			"text": "זַיָּיפִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "b"

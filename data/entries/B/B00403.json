@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00403",
-	"slug": "בותניאס",
-	"headword": {
-		"text": "בּוֹתְנִיאָס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בּוֹתְנִיאָס",
+	"headwords": [
+		{
+			"text": "בּוֹתְנִיאָס",
+			"reconstructed": true
+		},
 		{
 			"text": "בּוֹתְנְיָיס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 151,
 		"column": "b"

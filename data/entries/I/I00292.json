@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00292",
-	"slug": "טיאטרון",
-	"headword": {
-		"text": "טיאטרון"
-	},
+	"sefariaHeadword": "טיאטרון",
+	"headwords": [
+		{
+			"text": "טיאטרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

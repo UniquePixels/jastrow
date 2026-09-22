@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01132",
-	"slug": "מיטר",
-	"headword": {
-		"text": "מִיטַּר"
-	},
+	"sefariaHeadword": "מִיטַּר",
+	"headwords": [
+		{
+			"text": "מִיטַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

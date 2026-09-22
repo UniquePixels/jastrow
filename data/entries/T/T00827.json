@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00827",
-	"slug": "רממא",
-	"headword": {
-		"text": "רָמְמָא"
-	},
+	"sefariaHeadword": "רָמְמָא",
+	"headwords": [
+		{
+			"text": "רָמְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00511",
-	"slug": "פטיות",
-	"headword": {
-		"text": "פטיות"
-	},
+	"sefariaHeadword": "פטיות",
+	"headwords": [
+		{
+			"text": "פטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "a"

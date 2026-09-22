@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01186",
-	"slug": "נקורות",
-	"headword": {
-		"text": "נְקוֹרוֹת"
-	},
+	"sefariaHeadword": "נְקוֹרוֹת",
+	"headwords": [
+		{
+			"text": "נְקוֹרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

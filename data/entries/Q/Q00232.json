@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00232",
-	"slug": "פולין",
-	"headword": {
-		"text": "פולין"
-	},
+	"sefariaHeadword": "פולין",
+	"headwords": [
+		{
+			"text": "פולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

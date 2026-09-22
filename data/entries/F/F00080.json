@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00080",
-	"slug": "ווקלטה",
-	"headword": {
-		"text": "ווקלטה"
-	},
+	"sefariaHeadword": "ווקלטה",
+	"headwords": [
+		{
+			"text": "ווקלטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

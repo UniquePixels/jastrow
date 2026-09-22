@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00162",
-	"slug": "זוטר-2",
-	"headword": {
-		"text": "זוּטַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוּטַר II",
+	"headwords": [
+		{
+			"text": "זוּטַר",
+			"homograph": 2
+		},
 		{
 			"text": "זוּטְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 386,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02222",
-	"slug": "מפנה",
-	"headword": {
-		"text": "מָפְנֶה"
-	},
+	"sefariaHeadword": "מָפְנֶה",
+	"headwords": [
+		{
+			"text": "מָפְנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

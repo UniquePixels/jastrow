@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02198",
-	"slug": "מפולם",
-	"headword": {
-		"text": "מְפוּלָּם"
-	},
+	"sefariaHeadword": "מְפוּלָּם",
+	"headwords": [
+		{
+			"text": "מְפוּלָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

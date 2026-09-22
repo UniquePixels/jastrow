@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00025",
-	"slug": "חבול-2",
-	"headword": {
-		"text": "חִבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִבּוּל",
+	"headwords": [
+		{
+			"text": "חִבּוּל"
+		},
 		{
 			"text": "חִבּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 416,
 		"column": "b"

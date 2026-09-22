@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00822",
-	"slug": "מחוי-1",
-	"headword": {
-		"text": "מְחַוֵּי"
-	},
+	"sefariaHeadword": "מְחַוֵּי",
+	"headwords": [
+		{
+			"text": "מְחַוֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

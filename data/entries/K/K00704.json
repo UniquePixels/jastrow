@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00704",
-	"slug": "כלומר",
-	"headword": {
-		"text": "כְּלוֹמַר"
-	},
+	"sefariaHeadword": "כְּלוֹמַר",
+	"headwords": [
+		{
+			"text": "כְּלוֹמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "b"

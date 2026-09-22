@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00158",
-	"slug": "דהנאן",
-	"headword": {
-		"text": "דַּהֲנַאן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דַּהֲנַאן",
+	"headwords": [
+		{
+			"text": "דַּהֲנַאן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 281,
 		"column": "b"

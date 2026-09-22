@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00928",
-	"slug": "השמדה",
-	"headword": {
-		"text": "הַשְׁמָדָה"
-	},
+	"sefariaHeadword": "הַשְׁמָדָה",
+	"headwords": [
+		{
+			"text": "הַשְׁמָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

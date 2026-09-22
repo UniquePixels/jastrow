@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01423",
-	"slug": "חפה-2",
-	"headword": {
-		"text": "חָפָה"
-	},
+	"sefariaHeadword": "חָפָה",
+	"headwords": [
+		{
+			"text": "חָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 490,
 		"column": "b"

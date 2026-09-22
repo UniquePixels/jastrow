@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00833",
-	"slug": "פירודא",
-	"headword": {
-		"text": "פֵּירוּדָא"
-	},
+	"sefariaHeadword": "פֵּירוּדָא",
+	"headwords": [
+		{
+			"text": "פֵּירוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02396",
-	"slug": "אסטראות",
-	"headword": {
-		"text": "אִסְטְרָאוֹת"
-	},
+	"sefariaHeadword": "אִסְטְרָאוֹת",
+	"headwords": [
+		{
+			"text": "אִסְטְרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

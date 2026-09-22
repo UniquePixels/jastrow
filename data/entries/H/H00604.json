@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00604",
-	"slug": "חטורא",
-	"headword": {
-		"text": "חֲטוּרָא"
-	},
+	"sefariaHeadword": "חֲטוּרָא",
+	"headwords": [
+		{
+			"text": "חֲטוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 448,
 		"column": "a"

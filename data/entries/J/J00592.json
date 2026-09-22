@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00592",
-	"slug": "יראה",
-	"headword": {
-		"text": "יִרְאָה"
-	},
+	"sefariaHeadword": "יִרְאָה",
+	"headwords": [
+		{
+			"text": "יִרְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "b"

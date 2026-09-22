@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01395",
-	"slug": "ספסירא-2",
-	"headword": {
-		"text": "סַפְסִירָא"
-	},
+	"sefariaHeadword": "סַפְסִירָא",
+	"headwords": [
+		{
+			"text": "סַפְסִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "a"

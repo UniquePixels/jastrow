@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00354",
-	"slug": "ייתי",
-	"headword": {
-		"text": "יַיתֵי"
-	},
+	"sefariaHeadword": "יַיתֵי",
+	"headwords": [
+		{
+			"text": "יַיתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

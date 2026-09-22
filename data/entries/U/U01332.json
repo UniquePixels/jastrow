@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01332",
-	"slug": "שליפה",
-	"headword": {
-		"text": "שְׁלִיפָה"
-	},
+	"sefariaHeadword": "שְׁלִיפָה",
+	"headwords": [
+		{
+			"text": "שְׁלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "a"

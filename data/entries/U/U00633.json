@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00633",
-	"slug": "שחז-2",
-	"headword": {
-		"text": "שְׁחַז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁחַז",
+	"headwords": [
+		{
+			"text": "שְׁחַז"
+		},
 		{
 			"text": "שְׁחֵיז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1546,
 		"column": "b"

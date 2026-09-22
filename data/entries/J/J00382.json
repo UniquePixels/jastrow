@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00382",
-	"slug": "ילידתא",
-	"headword": {
-		"text": "יָלֵידְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָלֵידְתָּא",
+	"headwords": [
 		{
-			"text": "יְלֵיד׳"
+			"text": "יָלֵידְתָּא"
+		},
+		{
+			"text": "יְלֵיד׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 579,
 		"column": "a"

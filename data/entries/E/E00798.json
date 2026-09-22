@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00798",
-	"slug": "הקף",
-	"headword": {
-		"text": "הֶקֵּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶקֵּף",
+	"headwords": [
+		{
+			"text": "הֶקֵּף"
+		},
 		{
 			"text": "הֶקֵּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 364,
 		"column": "b"

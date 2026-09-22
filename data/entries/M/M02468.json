@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02468",
-	"slug": "מקשאות",
-	"headword": {
-		"text": "מִקְשָׁאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִקְשָׁאוֹת",
+	"headwords": [
+		{
+			"text": "מִקְשָׁאוֹת"
+		},
 		{
 			"text": "מִקְשָׁאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 833,
 		"column": "b"

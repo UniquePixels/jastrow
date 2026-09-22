@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00435",
-	"slug": "סורסי",
-	"headword": {
-		"text": "סוּרְסִי"
-	},
+	"sefariaHeadword": "סוּרְסִי",
+	"headwords": [
+		{
+			"text": "סוּרְסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

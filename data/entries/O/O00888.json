@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00888",
-	"slug": "סכות-1",
-	"headword": {
-		"text": "סִכּוּת"
-	},
+	"sefariaHeadword": "סִכּוּת",
+	"headwords": [
+		{
+			"text": "סִכּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

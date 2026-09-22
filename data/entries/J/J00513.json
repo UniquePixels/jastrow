@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00513",
-	"slug": "יפת",
-	"headword": {
-		"text": "יֶפֶת"
-	},
+	"sefariaHeadword": "יֶפֶת",
+	"headwords": [
+		{
+			"text": "יֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

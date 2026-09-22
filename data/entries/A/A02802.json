@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02802",
-	"slug": "אפרהנג",
-	"headword": {
-		"text": "אפרהנג"
-	},
+	"sefariaHeadword": "אפרהנג",
+	"headwords": [
+		{
+			"text": "אפרהנג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

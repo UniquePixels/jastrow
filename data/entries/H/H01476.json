@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01476",
-	"slug": "חפר-4",
-	"headword": {
-		"text": "חֵפֶר"
-	},
+	"sefariaHeadword": "חֵפֶר",
+	"headwords": [
+		{
+			"text": "חֵפֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 493,
 		"column": "a"

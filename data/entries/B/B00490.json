@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00490",
-	"slug": "בטאריקי",
-	"headword": {
-		"text": "בטאריקי"
-	},
+	"sefariaHeadword": "בטאריקי",
+	"headwords": [
+		{
+			"text": "בטאריקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "a"

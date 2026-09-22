@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00237",
-	"slug": "גדף-1",
-	"headword": {
-		"text": "גָּדַף"
-	},
+	"sefariaHeadword": "גָּדַף",
+	"headwords": [
+		{
+			"text": "גָּדַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 214,
 		"column": "a"

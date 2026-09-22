@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00841",
-	"slug": "טרמיות",
-	"headword": {
-		"text": "טרמיות"
-	},
+	"sefariaHeadword": "טרמיות",
+	"headwords": [
+		{
+			"text": "טרמיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

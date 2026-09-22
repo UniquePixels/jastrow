@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01072",
-	"slug": "אטד-2",
-	"headword": {
-		"text": "אָטָד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָטָד ²",
+	"headwords": [
+		{
+			"text": "אָטָד",
+			"disambiguator": 2
+		},
 		{
 			"text": "אַטְדָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 42,
 		"column": "a"

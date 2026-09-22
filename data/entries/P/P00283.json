@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00283",
-	"slug": "עומק",
-	"headword": {
-		"text": "עוֹמֶק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹמֶק",
+	"headwords": [
+		{
+			"text": "עוֹמֶק"
+		},
 		{
 			"text": "עֹמֶק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1053,
 		"column": "a"

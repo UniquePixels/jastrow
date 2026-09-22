@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00731",
-	"slug": "כלייה-3",
-	"headword": {
-		"text": "כְּלָיָיה"
-	},
+	"sefariaHeadword": "כְּלָיָיה",
+	"headwords": [
+		{
+			"text": "כְּלָיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "a"

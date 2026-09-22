@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00549",
-	"slug": "הלי",
-	"headword": {
-		"text": "הֲלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲלִי",
+	"headwords": [
+		{
+			"text": "הֲלִי"
+		},
 		{
 			"text": "הֲלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 352,
 		"column": "b"

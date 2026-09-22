@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00170",
-	"slug": "סגריות",
-	"headword": {
-		"text": "סִגָּרִיוֹת"
-	},
+	"sefariaHeadword": "סִגָּרִיוֹת",
+	"headwords": [
+		{
+			"text": "סִגָּרִיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

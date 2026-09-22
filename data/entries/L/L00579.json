@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00579",
-	"slug": "למס-1",
-	"headword": {
-		"text": "לָמַס"
-	},
+	"sefariaHeadword": "לָמַס",
+	"headwords": [
+		{
+			"text": "לָמַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

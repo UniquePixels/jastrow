@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00066",
-	"slug": "וסת",
-	"headword": {
-		"text": "וֶסֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וֶסֶת",
+	"headwords": [
 		{
-			"text": "וֶו׳"
+			"text": "וֶסֶת"
+		},
+		{
+			"text": "וֶו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 374,
 		"column": "b"

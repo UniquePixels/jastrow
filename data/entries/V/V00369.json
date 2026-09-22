@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00369",
-	"slug": "תחלה",
-	"headword": {
-		"text": "תְּחִלָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחִלָּה",
+	"headwords": [
+		{
+			"text": "תְּחִלָּה"
+		},
 		{
 			"text": "תְּחִילָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1661,
 		"column": "b"

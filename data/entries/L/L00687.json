@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00687",
-	"slug": "לקיט-2",
-	"headword": {
-		"text": "לָקִיט"
-	},
+	"sefariaHeadword": "לָקִיט",
+	"headwords": [
+		{
+			"text": "לָקִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 719,
 		"column": "a"

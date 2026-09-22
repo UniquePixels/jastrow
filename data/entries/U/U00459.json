@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00459",
-	"slug": "שומשום",
-	"headword": {
-		"text": "שׁוּמְשׁוּם"
-	},
+	"sefariaHeadword": "שׁוּמְשׁוּם",
+	"headwords": [
+		{
+			"text": "שׁוּמְשׁוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "a"

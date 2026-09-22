@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00483",
-	"slug": "יעידה",
-	"headword": {
-		"text": "יְעִידָה"
-	},
+	"sefariaHeadword": "יְעִידָה",
+	"headwords": [
+		{
+			"text": "יְעִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 584,
 		"column": "b"

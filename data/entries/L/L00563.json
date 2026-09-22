@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00563",
-	"slug": "למברניא",
-	"headword": {
-		"text": "לַמְבַּרְנְיָא"
-	},
+	"sefariaHeadword": "לַמְבַּרְנְיָא",
+	"headwords": [
+		{
+			"text": "לַמְבַּרְנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00797",
-	"slug": "נישיותה",
-	"headword": {
-		"text": "נישיותה"
-	},
+	"sefariaHeadword": "נישיותה",
+	"headwords": [
+		{
+			"text": "נישיותה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

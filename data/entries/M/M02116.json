@@ -1,9 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02116",
-	"slug": "מעיינא-מעינא",
-	"headword": {
-		"text": "מַעְיָינָא מַעְיָנָא"
-	},
+	"sefariaHeadword": "מַעְיָינָא מַעְיָנָא",
+	"headwords": [
+		{
+			"text": "מַעְיָינָא"
+		},
+		{
+			"text": "מַעְיָנָא"
+		}
+	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 816,
 		"column": "a"

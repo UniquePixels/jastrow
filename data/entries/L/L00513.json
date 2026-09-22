@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00513",
-	"slug": "ליץ",
-	"headword": {
-		"text": "לִיץ"
-	},
+	"sefariaHeadword": "לִיץ",
+	"headwords": [
+		{
+			"text": "לִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

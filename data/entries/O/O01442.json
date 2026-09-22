@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01442",
-	"slug": "סקאה",
-	"headword": {
-		"text": "סַקָּאָה"
-	},
+	"sefariaHeadword": "סַקָּאָה",
+	"headwords": [
+		{
+			"text": "סַקָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

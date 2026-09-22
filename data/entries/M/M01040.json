@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01040",
-	"slug": "מטעמא",
-	"headword": {
-		"text": "מַטְעֲמָא"
-	},
+	"sefariaHeadword": "מַטְעֲמָא",
+	"headwords": [
+		{
+			"text": "מַטְעֲמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 769,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00930",
-	"slug": "נסיבא-1",
-	"headword": {
-		"text": "נְסִיבָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְסִיבָא I",
+	"headwords": [
+		{
+			"text": "נְסִיבָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 916,
 		"column": "b"

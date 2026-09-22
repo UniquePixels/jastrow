@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00110",
-	"slug": "גבלות",
-	"headword": {
-		"text": "גבלות"
-	},
+	"sefariaHeadword": "גבלות",
+	"headwords": [
+		{
+			"text": "גבלות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "b"

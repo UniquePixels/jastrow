@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01552",
-	"slug": "שמת",
-	"headword": {
-		"text": "שְׁמַת"
-	},
+	"sefariaHeadword": "שְׁמַת",
+	"headwords": [
+		{
+			"text": "שְׁמַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "a"

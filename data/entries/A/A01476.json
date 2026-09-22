@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01476",
-	"slug": "איספטר",
-	"headword": {
-		"text": "איספטר"
-	},
+	"sefariaHeadword": "איספטר",
+	"headwords": [
+		{
+			"text": "איספטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

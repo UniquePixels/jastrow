@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00607",
-	"slug": "פיזא",
-	"headword": {
-		"text": "פִּיזָּא"
-	},
+	"sefariaHeadword": "פִּיזָּא",
+	"headwords": [
+		{
+			"text": "פִּיזָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

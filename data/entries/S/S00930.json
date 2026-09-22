@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00930",
-	"slug": "קייטא-3",
-	"headword": {
-		"text": "קייטא"
-	},
+	"sefariaHeadword": "קייטא",
+	"headwords": [
+		{
+			"text": "קייטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01695",
-	"slug": "אככמה",
-	"headword": {
-		"text": "אככמה"
-	},
+	"sefariaHeadword": "אככמה",
+	"headwords": [
+		{
+			"text": "אככמה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 63,
 		"column": "a"

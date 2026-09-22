@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01081",
-	"slug": "כרביא",
-	"headword": {
-		"text": "כְּרֻבַּיָּא"
-	},
+	"sefariaHeadword": "כְּרֻבַּיָּא",
+	"headwords": [
+		{
+			"text": "כְּרֻבַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

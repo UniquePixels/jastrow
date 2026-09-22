@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "O00373",
-	"slug": "סוסיא-3",
-	"headword": {
-		"text": "סוּסְיָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*סוּסְיָא II",
+	"headwords": [
+		{
+			"text": "סוּסְיָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 967,
 		"column": "a"

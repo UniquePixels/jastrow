@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01025",
-	"slug": "בעד",
-	"headword": {
-		"text": "בעד"
-	},
+	"sefariaHeadword": "בעד",
+	"headwords": [
+		{
+			"text": "בעד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "b"

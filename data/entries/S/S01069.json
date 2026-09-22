@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01069",
-	"slug": "קיסיניתא",
-	"headword": {
-		"text": "קיסיניתא"
-	},
+	"sefariaHeadword": "קיסיניתא",
+	"headwords": [
+		{
+			"text": "קיסיניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

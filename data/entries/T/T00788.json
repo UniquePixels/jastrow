@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00788",
-	"slug": "רמאי-1",
-	"headword": {
-		"text": "רַמַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַמַּאי",
+	"headwords": [
+		{
+			"text": "רַמַּאי"
+		},
 		{
 			"text": "רַמַּיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1481,
 		"column": "a"

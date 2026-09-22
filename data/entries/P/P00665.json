@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00665",
-	"slug": "עיקמנין",
-	"headword": {
-		"text": "עיקמנין"
-	},
+	"sefariaHeadword": "עיקמנין",
+	"headwords": [
+		{
+			"text": "עיקמנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "b"

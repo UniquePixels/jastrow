@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00430",
-	"slug": "ציץ-1",
-	"headword": {
-		"text": "צָיַץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָיַץ",
+	"headwords": [
+		{
+			"text": "צָיַץ"
+		},
 		{
 			"text": "צְיַץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1279,
 		"column": "b"

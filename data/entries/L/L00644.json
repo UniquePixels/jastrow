@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00644",
-	"slug": "לפסא",
-	"headword": {
-		"text": "לִפְסָא"
-	},
+	"sefariaHeadword": "לִפְסָא",
+	"headwords": [
+		{
+			"text": "לִפְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "b"

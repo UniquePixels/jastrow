@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00262",
-	"slug": "כול-4",
-	"headword": {
-		"text": "כּוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹל",
+	"headwords": [
+		{
+			"text": "כּוֹל"
+		},
 		{
 			"text": "כּוֹלָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כּוֹלָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 620,
 		"column": "a"

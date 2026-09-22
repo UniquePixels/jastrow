@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00885",
-	"slug": "כנתי",
-	"headword": {
-		"text": "כנתי"
-	},
+	"sefariaHeadword": "כנתי",
+	"headwords": [
+		{
+			"text": "כנתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "a"

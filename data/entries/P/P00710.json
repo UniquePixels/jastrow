@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00710",
-	"slug": "עיתור",
-	"headword": {
-		"text": "עיתור"
-	},
+	"sefariaHeadword": "עיתור",
+	"headwords": [
+		{
+			"text": "עיתור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01152",
-	"slug": "דשש-1",
-	"headword": {
-		"text": "דָּשַׁשׁ"
-	},
+	"sefariaHeadword": "דָּשַׁשׁ",
+	"headwords": [
+		{
+			"text": "דָּשַׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "b"

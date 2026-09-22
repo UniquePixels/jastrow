@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00305",
-	"slug": "כונים",
-	"headword": {
-		"text": "כַּוָּנִים"
-	},
+	"sefariaHeadword": "כַּוָּנִים",
+	"headwords": [
+		{
+			"text": "כַּוָּנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

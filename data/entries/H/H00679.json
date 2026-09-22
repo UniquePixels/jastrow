@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00679",
-	"slug": "חיווא",
-	"headword": {
-		"text": "חֵיוָוא"
-	},
+	"sefariaHeadword": "חֵיוָוא",
+	"headwords": [
+		{
+			"text": "חֵיוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "a"

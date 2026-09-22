@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01196",
-	"slug": "קירפיות",
-	"headword": {
-		"text": "קִירְפָּיוֹת"
-	},
+	"sefariaHeadword": "קִירְפָּיוֹת",
+	"headwords": [
+		{
+			"text": "קִירְפָּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

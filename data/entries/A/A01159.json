@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01159",
-	"slug": "אידי-1",
-	"headword": {
-		"text": "אִידֵּי"
-	},
+	"sefariaHeadword": "אִידֵּי",
+	"headwords": [
+		{
+			"text": "אִידֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "a"

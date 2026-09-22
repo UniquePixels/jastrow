@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00820",
-	"slug": "אוץ",
-	"headword": {
-		"text": "אוּץ"
-	},
+	"sefariaHeadword": "אוּץ",
+	"headwords": [
+		{
+			"text": "אוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01833",
-	"slug": "מסאנא-2",
-	"headword": {
-		"text": "מסאנא"
-	},
+	"sefariaHeadword": "מסאנא",
+	"headwords": [
+		{
+			"text": "מסאנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 803,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01640",
-	"slug": "מלתחה",
-	"headword": {
-		"text": "מֶלְתָּחָה"
-	},
+	"sefariaHeadword": "מֶלְתָּחָה",
+	"headwords": [
+		{
+			"text": "מֶלְתָּחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

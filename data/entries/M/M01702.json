@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01702",
-	"slug": "מנא-5",
-	"headword": {
-		"text": "מָנָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָנָא III",
+	"headwords": [
+		{
+			"text": "מָנָא",
+			"homograph": 3
+		},
 		{
 			"text": "מוֹנָא"
 		}
 	],
+	"display": "{0} III, ({1})",
 	"page": {
 		"number": 796,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00221",
-	"slug": "אברייאה",
-	"headword": {
-		"text": "אַבְרְיָיאָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְרְיָיאָה",
+	"headwords": [
+		{
+			"text": "אַבְרְיָיאָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

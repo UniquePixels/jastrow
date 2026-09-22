@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01379",
-	"slug": "ספירות",
-	"headword": {
-		"text": "סְפִירוּת"
-	},
+	"sefariaHeadword": "סְפִירוּת",
+	"headwords": [
+		{
+			"text": "סְפִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

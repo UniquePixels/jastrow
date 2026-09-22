@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S00885",
-	"slug": "קיום-2",
-	"headword": {
-		"text": "קִיּוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיּוּם ²",
+	"headwords": [
+		{
+			"text": "קִיּוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִיּוּמָא"
 		},
 		{
-			"text": "קִיּי׳"
+			"text": "קִיּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1356,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00702",
-	"slug": "כלול",
-	"headword": {
-		"text": "כָּלוּל"
-	},
+	"sefariaHeadword": "כָּלוּל",
+	"headwords": [
+		{
+			"text": "כָּלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

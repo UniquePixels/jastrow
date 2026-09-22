@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01118",
-	"slug": "גנות",
-	"headword": {
-		"text": "גְּנוּת"
-	},
+	"sefariaHeadword": "גְּנוּת",
+	"headwords": [
+		{
+			"text": "גְּנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

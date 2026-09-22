@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00764",
-	"slug": "כלמא-1",
-	"headword": {
-		"text": "כְּלָמָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כְּלָמָא",
+	"headwords": [
+		{
+			"text": "כְּלָמָא",
+			"reconstructed": true
+		},
 		{
 			"text": "כְּלוּמָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 645,
 		"column": "a"

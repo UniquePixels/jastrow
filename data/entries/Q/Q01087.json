@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01087",
-	"slug": "פלמרכוס",
-	"headword": {
-		"text": "פלמרכוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלמרכוס",
+	"headwords": [
+		{
+			"text": "פלמרכוס"
+		},
 		{
 			"text": "פלמרכון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1183,
 		"column": "b"

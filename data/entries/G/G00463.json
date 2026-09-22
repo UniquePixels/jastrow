@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00463",
-	"slug": "זכיך",
-	"headword": {
-		"text": "זַכִּיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַכִּיךְ",
+	"headwords": [
+		{
+			"text": "זַכִּיךְ"
+		},
 		{
 			"text": "זַכִּיכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 399,
 		"column": "b"

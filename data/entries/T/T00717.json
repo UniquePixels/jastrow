@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00717",
-	"slug": "רי״ש",
-	"headword": {
-		"text": "ריִ״ש"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ריִ\"ש",
+	"headwords": [
+		{
+			"text": "ריִ״ש"
+		},
 		{
 			"text": "רֵישׁ",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1477,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00196",
-	"slug": "בהת",
-	"headword": {
-		"text": "בְּהַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּהַת",
+	"headwords": [
+		{
+			"text": "בְּהַת"
+		},
 		{
 			"text": "בְּהֵית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 143,
 		"column": "b"

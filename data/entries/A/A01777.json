@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01777",
-	"slug": "אלגומיא",
-	"headword": {
-		"text": "אַלְגּוּמַּיָּא"
-	},
+	"sefariaHeadword": "אַלְגּוּמַּיָּא",
+	"headwords": [
+		{
+			"text": "אַלְגּוּמַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "b"

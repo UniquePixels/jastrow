@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00375",
-	"slug": "מהן",
-	"headword": {
-		"text": "מַהָן"
-	},
+	"sefariaHeadword": "מַהָן",
+	"headwords": [
+		{
+			"text": "מַהָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00285",
-	"slug": "תורגמא",
-	"headword": {
-		"text": "תּוּרְגְּמָא"
-	},
+	"sefariaHeadword": "תּוּרְגְּמָא",
+	"headwords": [
+		{
+			"text": "תּוּרְגְּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "b"

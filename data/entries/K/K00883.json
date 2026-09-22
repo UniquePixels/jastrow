@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00883",
-	"slug": "כנשתא",
-	"headword": {
-		"text": "כְּנִשְׁתָּא"
-	},
+	"sefariaHeadword": "כְּנִשְׁתָּא",
+	"headwords": [
+		{
+			"text": "כְּנִשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "a"

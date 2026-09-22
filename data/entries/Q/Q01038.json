@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01038",
-	"slug": "פליא-1",
-	"headword": {
-		"text": "פִּלְיָא"
-	},
+	"sefariaHeadword": "פִּלְיָא",
+	"headwords": [
+		{
+			"text": "פִּלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1181,
 		"column": "a"

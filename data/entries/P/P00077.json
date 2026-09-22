@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00077",
-	"slug": "עגבאי",
-	"headword": {
-		"text": "עַגְבָאֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עַגְבָאֵי",
+	"headwords": [
+		{
+			"text": "עַגְבָאֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "עֲגֵיבָאֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1040,
 		"column": "b"

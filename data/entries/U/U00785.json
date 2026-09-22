@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00785",
-	"slug": "שיבבותא",
-	"headword": {
-		"text": "שֵׁיבְבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיבְבוּתָא",
+	"headwords": [
 		{
-			"text": "שֵׁבְ׳"
+			"text": "שֵׁיבְבוּתָא"
+		},
+		{
+			"text": "שֵׁבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1556,
 		"column": "b"

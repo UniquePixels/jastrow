@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00032",
-	"slug": "סבבא",
-	"headword": {
-		"text": "סִבְבָא"
-	},
+	"sefariaHeadword": "סִבְבָא",
+	"headwords": [
+		{
+			"text": "סִבְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 948,
 		"column": "b"

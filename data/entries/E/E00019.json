@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00019",
-	"slug": "האנא",
-	"headword": {
-		"text": "הָאנָא"
-	},
+	"sefariaHeadword": "הָאנָא",
+	"headwords": [
+		{
+			"text": "הָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "b"

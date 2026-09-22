@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00514",
-	"slug": "תירתאה",
-	"headword": {
-		"text": "תִּירְתָּאָה"
-	},
+	"sefariaHeadword": "תִּירְתָּאָה",
+	"headwords": [
+		{
+			"text": "תִּירְתָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00556",
-	"slug": "עייקא",
-	"headword": {
-		"text": "עָיְיקָא"
-	},
+	"sefariaHeadword": "עָיְיקָא",
+	"headwords": [
+		{
+			"text": "עָיְיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"

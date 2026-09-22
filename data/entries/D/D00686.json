@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00686",
-	"slug": "דיפתרא",
-	"headword": {
-		"text": "דִּיפְתְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיפְתְּרָא",
+	"headwords": [
 		{
-			"text": "דִּפְ׳"
+			"text": "דִּיפְתְּרָא"
+		},
+		{
+			"text": "דִּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 304,
 		"column": "a"

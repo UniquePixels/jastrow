@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01350",
-	"slug": "חסוח",
-	"headword": {
-		"text": "חסוח"
-	},
+	"sefariaHeadword": "חסוח",
+	"headwords": [
+		{
+			"text": "חסוח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

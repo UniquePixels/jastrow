@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02674",
-	"slug": "מרינוס",
-	"headword": {
-		"text": "מָרִינוֹס"
-	},
+	"sefariaHeadword": "מָרִינוֹס",
+	"headwords": [
+		{
+			"text": "מָרִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

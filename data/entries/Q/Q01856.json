@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01856",
-	"slug": "פרכיות",
-	"headword": {
-		"text": "פָּרֹכִיּוֹת"
-	},
+	"sefariaHeadword": "פָּרֹכִיּוֹת",
+	"headwords": [
+		{
+			"text": "פָּרֹכִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

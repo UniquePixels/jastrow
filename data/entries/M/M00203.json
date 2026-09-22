@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00203",
-	"slug": "מגף",
-	"headword": {
-		"text": "מֵגֵף"
-	},
+	"sefariaHeadword": "מֵגֵף",
+	"headwords": [
+		{
+			"text": "מֵגֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

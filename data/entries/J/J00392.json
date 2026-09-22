@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00392",
-	"slug": "ילל-3",
-	"headword": {
-		"text": "יְלֵל"
-	},
+	"sefariaHeadword": "יְלֵל",
+	"headwords": [
+		{
+			"text": "יְלֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "a"

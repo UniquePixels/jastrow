@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00843",
-	"slug": "אור-4",
-	"headword": {
-		"text": "אוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּר I",
+	"headwords": [
+		{
+			"text": "אוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 32,
 		"column": "b"

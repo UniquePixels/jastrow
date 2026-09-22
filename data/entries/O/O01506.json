@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01506",
-	"slug": "סקרתא",
-	"headword": {
-		"text": "סְקַרְתָּא"
-	},
+	"sefariaHeadword": "סְקַרְתָּא",
+	"headwords": [
+		{
+			"text": "סְקַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "b"

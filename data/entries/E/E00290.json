@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00290",
-	"slug": "הותא",
-	"headword": {
-		"text": "הותא"
-	},
+	"sefariaHeadword": "הותא",
+	"headwords": [
+		{
+			"text": "הותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "b"

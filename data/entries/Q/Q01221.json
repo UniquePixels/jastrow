@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01221",
-	"slug": "פס-2",
-	"headword": {
-		"text": "פַּס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּס I",
+	"headwords": [
+		{
+			"text": "פַּס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1191,
 		"column": "a"

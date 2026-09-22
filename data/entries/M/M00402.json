@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00402",
-	"slug": "מוגמרין",
-	"headword": {
-		"text": "מוגמרין"
-	},
+	"sefariaHeadword": "מוגמרין",
+	"headwords": [
+		{
+			"text": "מוגמרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

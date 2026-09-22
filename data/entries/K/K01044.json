@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01044",
-	"slug": "כפף-2",
-	"headword": {
-		"text": "כְּפַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּפַף",
+	"headwords": [
+		{
+			"text": "כְּפַף"
+		},
 		{
 			"text": "כְּפֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 661,
 		"column": "a"

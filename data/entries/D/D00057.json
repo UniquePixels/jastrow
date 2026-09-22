@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00057",
-	"slug": "דביבה",
-	"headword": {
-		"text": "דביבה"
-	},
+	"sefariaHeadword": "דביבה",
+	"headwords": [
+		{
+			"text": "דביבה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "a"

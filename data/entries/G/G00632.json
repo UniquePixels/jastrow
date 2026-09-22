@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00632",
-	"slug": "זקיף-1",
-	"headword": {
-		"text": "זְקִיף"
-	},
+	"sefariaHeadword": "זְקִיף",
+	"headwords": [
+		{
+			"text": "זְקִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00560",
-	"slug": "לכתחילה",
-	"headword": {
-		"text": "לְכַתְּחִילָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְכַתְּחִילָּה",
+	"headwords": [
+		{
+			"text": "לְכַתְּחִילָּה"
+		},
 		{
 			"text": "לְכַתְּחִלָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 711,
 		"column": "b"

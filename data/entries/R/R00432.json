@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00432",
-	"slug": "ציץ-3",
-	"headword": {
-		"text": "צִיץ"
-	},
+	"sefariaHeadword": "צִיץ",
+	"headwords": [
+		{
+			"text": "צִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00310",
-	"slug": "סוכתא",
-	"headword": {
-		"text": "סוֹכְתָא"
-	},
+	"sefariaHeadword": "סוֹכְתָא",
+	"headwords": [
+		{
+			"text": "סוֹכְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "a"

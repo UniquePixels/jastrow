@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01711",
-	"slug": "אכלן",
-	"headword": {
-		"text": "אַכְלָן"
-	},
+	"sefariaHeadword": "אַכְלָן",
+	"headwords": [
+		{
+			"text": "אַכְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

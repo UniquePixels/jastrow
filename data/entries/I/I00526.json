@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00526",
-	"slug": "טלריתא",
-	"headword": {
-		"text": "טְלָרִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְלָרִיתָא",
+	"headwords": [
+		{
+			"text": "טְלָרִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 538,
 		"column": "b"

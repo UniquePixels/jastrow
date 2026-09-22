@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01448",
-	"slug": "חפיפה-2",
-	"headword": {
-		"text": "חֲפִיפָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲפִיפָה II",
+	"headwords": [
+		{
+			"text": "חֲפִיפָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 491,
 		"column": "b"

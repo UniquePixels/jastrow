@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P01465",
-	"slug": "עשב-2",
-	"headword": {
-		"text": "עֲשַׂב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשַׂב",
+	"headwords": [
+		{
+			"text": "עֲשַׂב"
+		},
 		{
 			"text": "עִשְׂבָּא"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1124,
 		"column": "a"

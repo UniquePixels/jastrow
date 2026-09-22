@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00325",
-	"slug": "בוקלסא",
-	"headword": {
-		"text": "בוקלסא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בוקלסא",
+	"headwords": [
+		{
+			"text": "בוקלסא"
+		},
 		{
 			"text": "בוקלסה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 148,
 		"column": "b"

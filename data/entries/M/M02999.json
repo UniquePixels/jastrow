@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02999",
-	"slug": "משתיתא-2",
-	"headword": {
-		"text": "מַשְׁתִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁתִּיתָא",
+	"headwords": [
 		{
-			"text": "מַשְׁתֵּי׳"
+			"text": "מַשְׁתִּיתָא"
+		},
+		{
+			"text": "מַשְׁתֵּי׳",
+			"partial": true
 		},
 		{
 			"text": "מַשְׁתֵּי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 859,
 		"column": "b"

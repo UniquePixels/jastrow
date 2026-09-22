@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00020",
-	"slug": "קארי",
-	"headword": {
-		"text": "קָאֲרִי"
-	},
+	"sefariaHeadword": "קָאֲרִי",
+	"headwords": [
+		{
+			"text": "קָאֲרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "b"

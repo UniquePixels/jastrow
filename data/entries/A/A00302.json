@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00302",
-	"slug": "אגלווקי",
-	"headword": {
-		"text": "אגלווקי"
-	},
+	"sefariaHeadword": "אגלווקי",
+	"headwords": [
+		{
+			"text": "אגלווקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

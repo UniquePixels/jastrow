@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00872",
-	"slug": "בליספימיא",
-	"headword": {
-		"text": "בליספימיא"
-	},
+	"sefariaHeadword": "בליספימיא",
+	"headwords": [
+		{
+			"text": "בליספימיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

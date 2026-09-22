@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00470",
-	"slug": "חורלא",
-	"headword": {
-		"text": "חוּרְלָא"
-	},
+	"sefariaHeadword": "חוּרְלָא",
+	"headwords": [
+		{
+			"text": "חוּרְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

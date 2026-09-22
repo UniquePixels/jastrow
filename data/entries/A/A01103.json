@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01103",
-	"slug": "אטרבוליס",
-	"headword": {
-		"text": "אַטְרִבּוֹלִיס"
-	},
+	"sefariaHeadword": "אַטְרִבֹּולִיס",
+	"headwords": [
+		{
+			"text": "אַטְרִבּוֹלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

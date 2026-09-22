@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00834",
-	"slug": "חיסור",
-	"headword": {
-		"text": "חִיסּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיסּוּר",
+	"headwords": [
 		{
-			"text": "חִסּ׳"
+			"text": "חִיסּוּר"
+		},
+		{
+			"text": "חִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "b"

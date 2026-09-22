@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00465",
-	"slug": "יסכה",
-	"headword": {
-		"text": "יִסְכָּה"
-	},
+	"sefariaHeadword": "יִסְכָּה",
+	"headwords": [
+		{
+			"text": "יִסְכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00755",
-	"slug": "טרטיוטין",
-	"headword": {
-		"text": "טרטיוטין"
-	},
+	"sefariaHeadword": "טרטיוטין",
+	"headwords": [
+		{
+			"text": "טרטיוטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 552,
 		"column": "a"

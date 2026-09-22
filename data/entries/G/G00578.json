@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00578",
-	"slug": "זני-1",
-	"headword": {
-		"text": "זני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זני",
+	"headwords": [
+		{
+			"text": "זני"
+		},
 		{
 			"text": "זָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 406,
 		"column": "b"

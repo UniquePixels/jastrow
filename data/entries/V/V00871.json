@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00871",
-	"slug": "תקומה-2",
-	"headword": {
-		"text": "תְּקוּמָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "תְּקוּמָה ²",
+	"headwords": [
+		{
+			"text": "תְּקוּמָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1690,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01358",
-	"slug": "עריכות",
-	"headword": {
-		"text": "עֲרִיכוּת"
-	},
+	"sefariaHeadword": "עֲרִיכוּת",
+	"headwords": [
+		{
+			"text": "עֲרִיכוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "a"

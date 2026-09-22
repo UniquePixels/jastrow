@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00081",
-	"slug": "כבש-1",
-	"headword": {
-		"text": "כָּבַשׁ"
-	},
+	"sefariaHeadword": "כָּבַשׁ",
+	"headwords": [
+		{
+			"text": "כָּבַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 610,
 		"column": "a"
@@ -12,7 +16,7 @@
 		{
 			"gloss": "(b. h.; cmp. <cite ref=\"K00067\"><he>כָּבַס</he></cite>)<i>to press, squeeze</i>. Ohol. VIII, 5 <he>כ׳ את האבן וכ׳</he> if one pressed a stone on (weighted) the sheet. ",
 			"units": [
-				"<cite ref=\"Beitzah 23b:4\">Bets. 23ᵇ</cite> <he>שהיא כּוֹבֶשֶׁת</he> because it (the wagon) presses (the ground) down. ",
+				"<cite ref=\"Beitzah 23b:4\">Bets. 23ᵇ</cite> <he>שהיא כּוֹבֶשֶׁת</he> because it (the wagon) presses (the ground) down. ",
 				"<cite ref=\"Mishnah Shabbat 20:5\">Sabb. XX, 5</cite> <he>לא כוֹבְשִׁין</he> you must not screw down, v. <cite ref=\"M01350\"><he>מַכְבֵּשׁ</he></cite>; a. fr.—<i>Part. pass.</i> <cite ref=\"K00046\"><he>כָּבוּשׁ</he></cite>, f. <cite ref=\"K01002\"><he>כְּבוּשָׁה</he></cite> <i>pressed, compressed; pressing</i>. ",
 				"<cite ref=\"Shabbat 135a\">Ib. 135ᵃ</cite>; <cite ref=\"Tosefta Shabbat 15:9\">Tosef. ib. XV</cite> (<cite ref=\"Tosefta Shabbat 16:9\">XVI</cite>), 9; a. e. <he>ערלה כ׳ היא</he> the foreskin (which seems to be wanting) is pressed (to the membrum). ",
 				"<cite ref=\"Tosefta Ohalot 9:4\">Tosef. Ohol. IX, 4</cite> <he>כאילו אבנים כְּבוּשׁוֹת וכ׳</he> as if stones were placed tightly upon them. ",
@@ -31,7 +35,7 @@
 			"gloss": " <i>to press vegetables, meat</i> &c.; <i>to preserve, pickle</i>. ",
 			"units": [
 				"<cite ref=\"Mishnah Tahorot 2:1\">Toh. II, 1</cite> <he>האשה … כּוֹבֶשֶׁת וכ׳</he> if a woman was pressing vegetables in a pot. ",
-				"<cite ref=\"Mishnah Oktzin 2:1\">Ukts. II, 1</cite> <he>זתים שכְּבָשָׁן וכ׳</he> olives which one pressed with their leaves; a. fr.—Part. pass. <cite ref=\"K00046\"><he>כָּבוּשׁ</he></cite> <i>preserved substance, pickle</i>. ",
+				"<cite ref=\"Mishnah Oktzin 2:1\">Ukts. II, 1</cite> <he>זתים שכְּבָשָׁן וכ׳</he> olives which one pressed with their leaves; a. fr.—Part. pass. <cite ref=\"K00046\"><he>כָּבוּשׁ</he></cite> <i>preserved substance, pickle</i>. ",
 				"<cite ref=\"Chullin 97b:4\">Ḥull. 97ᵇ</cite>, a. fr. <he>כ׳ הרי הוא כמבושל</he> preserved substances are in ritual law like cooked.—Pl. <he>כְּבוּשִׁין</he>. ",
 				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite>. ",
 				"<cite ref=\"Jerusalem Talmud Shabbat 1:4:5\">Y. Sabb. I, 3ᶜ</cite> bot. <he>כְּבוּשֵׁיהֶן</he> preserves made by gentiles; a. fr."

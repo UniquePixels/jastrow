@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02725",
-	"slug": "מרס-2",
-	"headword": {
-		"text": "מָרַס"
-	},
+	"sefariaHeadword": "מָרַס",
+	"headwords": [
+		{
+			"text": "מָרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

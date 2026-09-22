@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00332",
-	"slug": "ציחין",
-	"headword": {
-		"text": "צִיחִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צִיחִין",
+	"headwords": [
+		{
+			"text": "צִיחִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

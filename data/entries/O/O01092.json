@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01092",
-	"slug": "סמיכות",
-	"headword": {
-		"text": "סְמִיכוּת"
-	},
+	"sefariaHeadword": "סְמִיכוּת",
+	"headwords": [
+		{
+			"text": "סְמִיכוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1000,
 		"column": "b"

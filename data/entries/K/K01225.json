@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01225",
-	"slug": "כרכשתא-1",
-	"headword": {
-		"text": "כַּרְכַּשְׁתָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְכַּשְׁתָּא I",
+	"headwords": [
+		{
+			"text": "כַּרְכַּשְׁתָּא",
+			"homograph": 1
+		},
 		{
 			"text": "קַרְקַשְׁתָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 671,
 		"column": "a"

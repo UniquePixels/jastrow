@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00444",
-	"slug": "טיריות",
-	"headword": {
-		"text": "טִירָיוֹת"
-	},
+	"sefariaHeadword": "טִירָיוֹת",
+	"headwords": [
+		{
+			"text": "טִירָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "b"

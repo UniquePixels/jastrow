@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01388",
-	"slug": "אינך",
-	"headword": {
-		"text": "אִינָךְ"
-	},
+	"sefariaHeadword": "אִינָךְ",
+	"headwords": [
+		{
+			"text": "אִינָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

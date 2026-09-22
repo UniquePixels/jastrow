@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01273",
-	"slug": "נרקיס",
-	"headword": {
-		"text": "נַרְקֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַרְקֵיס",
+	"headwords": [
+		{
+			"text": "נַרְקֵיס"
+		},
 		{
 			"text": "נַרְקֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 937,
 		"column": "a"

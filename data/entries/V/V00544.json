@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00544",
-	"slug": "תכלא-3",
-	"headword": {
-		"text": "תכלא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תכלא",
+	"headwords": [
+		{
+			"text": "תכלא"
+		},
 		{
 			"text": "תיכלא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1668,
 		"column": "b"

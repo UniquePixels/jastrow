@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00663",
-	"slug": "ביסמן",
-	"headword": {
-		"text": "בִּיסְמָן"
-	},
+	"sefariaHeadword": "בִּיסְמָן",
+	"headwords": [
+		{
+			"text": "בִּיסְמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00626",
-	"slug": "בילרין",
-	"headword": {
-		"text": "בילרין"
-	},
+	"sefariaHeadword": "בילרין",
+	"headwords": [
+		{
+			"text": "בילרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 162,
 		"column": "a"

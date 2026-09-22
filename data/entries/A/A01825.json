@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01825",
-	"slug": "אלוף",
-	"headword": {
-		"text": "אַלּוּף"
-	},
+	"sefariaHeadword": "אַלּוּף",
+	"headwords": [
+		{
+			"text": "אַלּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

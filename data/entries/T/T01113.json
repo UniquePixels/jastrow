@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01113",
-	"slug": "רששין",
-	"headword": {
-		"text": "רְשָׁשִׁין"
-	},
+	"sefariaHeadword": "רְשָׁשִׁין",
+	"headwords": [
+		{
+			"text": "רְשָׁשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

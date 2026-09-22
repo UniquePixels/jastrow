@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01472",
-	"slug": "סקילוס",
-	"headword": {
-		"text": "סקילוס"
-	},
+	"sefariaHeadword": "סקילוס",
+	"headwords": [
+		{
+			"text": "סקילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

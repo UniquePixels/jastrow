@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00419",
-	"slug": "הימוס",
-	"headword": {
-		"text": "הימוס"
-	},
+	"sefariaHeadword": "הימוס",
+	"headwords": [
+		{
+			"text": "הימוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "a"

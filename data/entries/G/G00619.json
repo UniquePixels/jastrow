@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00619",
-	"slug": "זפלן",
-	"headword": {
-		"text": "זִפְלָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִפְלָן",
+	"headwords": [
 		{
-			"text": "זִיפְ׳"
+			"text": "זִפְלָן"
+		},
+		{
+			"text": "זִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 408,
 		"column": "b"

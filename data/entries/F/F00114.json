@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00114",
-	"slug": "ותק",
-	"headword": {
-		"text": "וְתַק"
-	},
+	"sefariaHeadword": "וְתַק",
+	"headwords": [
+		{
+			"text": "וְתַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "b"

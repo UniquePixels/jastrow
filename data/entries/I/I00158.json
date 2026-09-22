@@ -1,14 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "I00158",
-	"slug": "טוייה-טויה",
-	"headword": {
-		"text": "טְוִיָּיה טְוִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְוִיָּיה טְוִיָּה",
+	"headwords": [
+		{
+			"text": "טְוִיָּיה"
+		},
+		{
+			"text": "טְוִיָּה"
+		},
 		{
 			"text": "טְוִויָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 523,
 		"column": "b"

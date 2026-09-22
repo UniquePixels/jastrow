@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00804",
-	"slug": "הקרבה",
-	"headword": {
-		"text": "הַקְרָבָה"
-	},
+	"sefariaHeadword": "הַקְרָבָה",
+	"headwords": [
+		{
+			"text": "הַקְרָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

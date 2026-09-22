@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02747",
-	"slug": "אפנתי",
-	"headword": {
-		"text": "אפנתי"
-	},
+	"sefariaHeadword": "אפנתי",
+	"headwords": [
+		{
+			"text": "אפנתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

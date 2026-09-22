@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00093",
-	"slug": "רביכא",
-	"headword": {
-		"text": "רְבִיכָא"
-	},
+	"sefariaHeadword": "רְבִיכָא",
+	"headwords": [
+		{
+			"text": "רְבִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "b"

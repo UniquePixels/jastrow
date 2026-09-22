@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01067",
-	"slug": "גמרא",
-	"headword": {
-		"text": "גְּמָרָא"
-	},
+	"sefariaHeadword": "גְּמָרָא",
+	"headwords": [
+		{
+			"text": "גְּמָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 255,
 		"column": "b"

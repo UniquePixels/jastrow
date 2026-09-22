@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02244",
-	"slug": "מפרחייתא",
-	"headword": {
-		"text": "מַפְרַחְיָיתָא"
-	},
+	"sefariaHeadword": "מַפְרַחְיָיתָא",
+	"headwords": [
+		{
+			"text": "מַפְרַחְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

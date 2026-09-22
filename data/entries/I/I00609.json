@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00609",
-	"slug": "טעם-1",
-	"headword": {
-		"text": "טָעַם"
-	},
+	"sefariaHeadword": "טָעַם",
+	"headwords": [
+		{
+			"text": "טָעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 543,
 		"column": "a"

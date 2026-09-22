@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00248",
-	"slug": "יורש",
-	"headword": {
-		"text": "יוֹרֵשׁ"
-	},
+	"sefariaHeadword": "יוֹרֵשׁ",
+	"headwords": [
+		{
+			"text": "יוֹרֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

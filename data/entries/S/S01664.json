@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01664",
-	"slug": "קסלפונוס",
-	"headword": {
-		"text": "קסלפונוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קסלפונוס",
+	"headwords": [
+		{
+			"text": "קסלפונוס"
+		},
 		{
 			"text": "קסלפינוס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קסלפיניס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1396,
 		"column": "b"

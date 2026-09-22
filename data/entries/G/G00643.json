@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00643",
-	"slug": "זקן-2",
-	"headword": {
-		"text": "זְקַן"
-	},
+	"sefariaHeadword": "זְקַן",
+	"headwords": [
+		{
+			"text": "זְקַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "a"

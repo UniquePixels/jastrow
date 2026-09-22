@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00220",
-	"slug": "כוורת",
-	"headword": {
-		"text": "כְּוֶורֶת"
-	},
+	"sefariaHeadword": "כְּוֶורֶת",
+	"headwords": [
+		{
+			"text": "כְּוֶורֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

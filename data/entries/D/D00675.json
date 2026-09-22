@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00675",
-	"slug": "דיפל",
-	"headword": {
-		"text": "דיפל"
-	},
+	"sefariaHeadword": "דיפל",
+	"headwords": [
+		{
+			"text": "דיפל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

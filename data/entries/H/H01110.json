@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01110",
-	"slug": "חלץ-2",
-	"headword": {
-		"text": "חֲלַץ"
-	},
+	"sefariaHeadword": "חֲלַץ",
+	"headwords": [
+		{
+			"text": "חֲלַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "b"

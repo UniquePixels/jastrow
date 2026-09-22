@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02097",
-	"slug": "קרמית",
-	"headword": {
-		"text": "קַרְמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְמִית",
+	"headwords": [
+		{
+			"text": "קַרְמִית"
+		},
 		{
 			"text": "קְרָמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1422,
 		"column": "a"

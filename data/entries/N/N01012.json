@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01012",
-	"slug": "נערן",
-	"headword": {
-		"text": "נַעֲרָן"
-	},
+	"sefariaHeadword": "נַעֲרָן",
+	"headwords": [
+		{
+			"text": "נַעֲרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

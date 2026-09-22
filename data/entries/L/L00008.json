@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00008",
-	"slug": "לאה",
-	"headword": {
-		"text": "לָאָה"
-	},
+	"sefariaHeadword": "לָאָה",
+	"headwords": [
+		{
+			"text": "לָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 685,
 		"column": "b"

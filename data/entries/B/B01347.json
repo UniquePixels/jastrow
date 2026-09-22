@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01347",
-	"slug": "בשול",
-	"headword": {
-		"text": "בִּשּׁוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּשּׁוּל",
+	"headwords": [
+		{
+			"text": "בִּשּׁוּל"
+		},
 		{
 			"text": "בִּישּׁוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 198,
 		"column": "b"

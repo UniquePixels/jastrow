@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00448",
-	"slug": "מוזלא-2",
-	"headword": {
-		"text": "מוֹזְלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוֹזְלָא II",
+	"headwords": [
+		{
+			"text": "מוֹזְלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 740,
 		"column": "a"

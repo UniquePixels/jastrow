@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01451",
-	"slug": "איסטפלינין",
-	"headword": {
-		"text": "אִיסְטַפְלִינִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטַפְלִינִין",
+	"headwords": [
+		{
+			"text": "אִיסְטַפְלִינִין"
+		},
 		{
 			"text": "אִיסְטַפְנִינֵי"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִיסְתַּפְנִינֵי"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 55,
 		"column": "b"

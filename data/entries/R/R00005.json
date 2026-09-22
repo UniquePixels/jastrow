@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00005",
-	"slug": "צאוי",
-	"headword": {
-		"text": "צָאוִי"
-	},
+	"sefariaHeadword": "צָאוִי",
+	"headwords": [
+		{
+			"text": "צָאוִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

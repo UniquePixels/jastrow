@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00610",
-	"slug": "טעם-2",
-	"headword": {
-		"text": "טְעַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְעַם",
+	"headwords": [
+		{
+			"text": "טְעַם"
+		},
 		{
 			"text": "טְעֵים"
 		},
@@ -12,6 +13,7 @@
 			"text": "טָעִים"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 543,
 		"column": "a"

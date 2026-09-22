@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00658",
-	"slug": "ריסוס",
-	"headword": {
-		"text": "רִיסּוּס"
-	},
+	"sefariaHeadword": "רִיסּוּס",
+	"headwords": [
+		{
+			"text": "רִיסּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

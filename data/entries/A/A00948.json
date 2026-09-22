@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00948",
-	"slug": "אזא-1",
-	"headword": {
-		"text": "אֲזָא"
-	},
+	"sefariaHeadword": "אֲזָא",
+	"headwords": [
+		{
+			"text": "אֲזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

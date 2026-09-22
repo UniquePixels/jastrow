@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00674",
-	"slug": "מורשא",
-	"headword": {
-		"text": "מוֹרְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרְשָׁא",
+	"headwords": [
+		{
+			"text": "מוֹרְשָׁא"
+		},
 		{
 			"text": "מוֹרְשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 751,
 		"column": "a"

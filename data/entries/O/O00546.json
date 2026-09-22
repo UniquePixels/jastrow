@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00546",
-	"slug": "סיברא",
-	"headword": {
-		"text": "סִיבְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיבְרָא",
+	"headwords": [
+		{
+			"text": "סִיבְרָא"
+		},
 		{
 			"text": "סִיבְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "a"

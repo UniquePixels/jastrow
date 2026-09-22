@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00072",
-	"slug": "רבון-2",
-	"headword": {
-		"text": "רִבּוֹן"
-	},
+	"sefariaHeadword": "רִבּוֹן",
+	"headwords": [
+		{
+			"text": "רִבּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1440,
 		"column": "a"

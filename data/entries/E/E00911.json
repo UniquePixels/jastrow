@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00911",
-	"slug": "השבון",
-	"headword": {
-		"text": "הֵשָׁבוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵשָׁבוֹן",
+	"headwords": [
 		{
-			"text": "הֵישָׁ׳"
+			"text": "הֵשָׁבוֹן"
+		},
+		{
+			"text": "הֵישָׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 369,
 		"column": "a"

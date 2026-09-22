@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00703",
-	"slug": "חיזרד",
-	"headword": {
-		"text": "חִיזְרָד"
-	},
+	"sefariaHeadword": "חִיזְרָד",
+	"headwords": [
+		{
+			"text": "חִיזְרָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

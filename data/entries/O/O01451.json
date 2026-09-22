@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01451",
-	"slug": "סקד",
-	"headword": {
-		"text": "סְקַד"
-	},
+	"sefariaHeadword": "סְקַד",
+	"headwords": [
+		{
+			"text": "סְקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

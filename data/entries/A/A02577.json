@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02577",
-	"slug": "אסתליתא",
-	"headword": {
-		"text": "אִסְתַּלְיָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְתַּלְיָתָא",
+	"headwords": [
+		{
+			"text": "אִסְתַּלְיָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

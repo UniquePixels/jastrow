@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00406",
-	"slug": "הילמי-1",
-	"headword": {
-		"text": "הִילְמִי"
-	},
+	"sefariaHeadword": "הִילְמִי",
+	"headwords": [
+		{
+			"text": "הִילְמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "b"

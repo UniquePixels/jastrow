@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02111",
-	"slug": "מעילה",
-	"headword": {
-		"text": "מְעִילָה"
-	},
+	"sefariaHeadword": "מְעִילָה",
+	"headwords": [
+		{
+			"text": "מְעִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

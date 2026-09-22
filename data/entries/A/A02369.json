@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02369",
-	"slug": "אסטיוט",
-	"headword": {
-		"text": "אסטיוט"
-	},
+	"sefariaHeadword": "אסטיוט",
+	"headwords": [
+		{
+			"text": "אסטיוט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

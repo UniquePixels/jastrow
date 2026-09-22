@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00212",
-	"slug": "אברוטי",
-	"headword": {
-		"text": "אִבְרוֹטִי"
-	},
+	"sefariaHeadword": "אִבְרוֹטִי",
+	"headwords": [
+		{
+			"text": "אִבְרוֹטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

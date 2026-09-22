@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01036",
-	"slug": "רקיקה",
-	"headword": {
-		"text": "רְקִיקָה"
-	},
+	"sefariaHeadword": "רְקִיקָה",
+	"headwords": [
+		{
+			"text": "רְקִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "a"

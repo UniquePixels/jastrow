@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00194",
-	"slug": "צולצלא",
-	"headword": {
-		"text": "צוּלְצְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּלְצְלָא",
+	"headwords": [
+		{
+			"text": "צוּלְצְלָא"
+		},
 		{
 			"text": "צוּלְצִילְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "b"

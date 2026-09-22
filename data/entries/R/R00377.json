@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00377",
-	"slug": "צימח",
-	"headword": {
-		"text": "צִימֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימֵּחַ",
+	"headwords": [
 		{
-			"text": "צִמֵּ׳"
+			"text": "צִימֵּחַ"
+		},
+		{
+			"text": "צִמֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "a"

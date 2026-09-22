@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00636",
-	"slug": "ניולי",
-	"headword": {
-		"text": "נִיוְלִי"
-	},
+	"sefariaHeadword": "נִיוְלִי",
+	"headwords": [
+		{
+			"text": "נִיוְלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "b"

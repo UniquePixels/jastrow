@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00152",
-	"slug": "רבתי",
-	"headword": {
-		"text": "רַבָּתִי"
-	},
+	"sefariaHeadword": "רַבָּתִי",
+	"headwords": [
+		{
+			"text": "רַבָּתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

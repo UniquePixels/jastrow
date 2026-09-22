@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00877",
-	"slug": "שיחתא",
-	"headword": {
-		"text": "שִׁיחֲתָא"
-	},
+	"sefariaHeadword": "שִׁיחֲתָא",
+	"headwords": [
+		{
+			"text": "שִׁיחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1560,
 		"column": "a"

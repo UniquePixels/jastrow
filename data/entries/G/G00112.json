@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00112",
-	"slug": "זהריתא",
-	"headword": {
-		"text": "זָהֳרֵיתָא"
-	},
+	"sefariaHeadword": "זָהֳרֵיתָא",
+	"headwords": [
+		{
+			"text": "זָהֳרֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "b"

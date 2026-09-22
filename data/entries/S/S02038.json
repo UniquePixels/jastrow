@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02038",
-	"slug": "קריד",
-	"headword": {
-		"text": "קָרִיד"
-	},
+	"sefariaHeadword": "קָרִיד",
+	"headwords": [
+		{
+			"text": "קָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "b"

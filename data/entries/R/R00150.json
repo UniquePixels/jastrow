@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00150",
-	"slug": "צואי",
-	"headword": {
-		"text": "צוֹאִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹאִי",
+	"headwords": [
+		{
+			"text": "צוֹאִי"
+		},
 		{
 			"text": "צֹאִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1265,
 		"column": "a"

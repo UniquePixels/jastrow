@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00731",
-	"slug": "מזוזתא",
-	"headword": {
-		"text": "מְזוֹזְתָּא"
-	},
+	"sefariaHeadword": "מְזוֹזְתָּא",
+	"headwords": [
+		{
+			"text": "מְזוֹזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "a"

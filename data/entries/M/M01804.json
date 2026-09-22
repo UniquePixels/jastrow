@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01804",
-	"slug": "מנעל",
-	"headword": {
-		"text": "מַנְעָל"
-	},
+	"sefariaHeadword": "מַנְעָל",
+	"headwords": [
+		{
+			"text": "מַנְעָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

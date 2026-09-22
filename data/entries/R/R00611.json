@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00611",
-	"slug": "צנוע",
-	"headword": {
-		"text": "צָנוּעַ"
-	},
+	"sefariaHeadword": "צָנוּעַ",
+	"headwords": [
+		{
+			"text": "צָנוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1290,
 		"column": "b"

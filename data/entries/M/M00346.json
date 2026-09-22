@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00346",
-	"slug": "מהה",
-	"headword": {
-		"text": "מָהָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָהָה",
+	"headwords": [
+		{
+			"text": "מָהָה"
+		},
 		{
 			"text": "מָהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 736,
 		"column": "b"

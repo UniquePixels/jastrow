@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01282",
-	"slug": "סעוד-2",
-	"headword": {
-		"text": "סָעוֹד"
-	},
+	"sefariaHeadword": "סָעוֹד",
+	"headwords": [
+		{
+			"text": "סָעוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "b"

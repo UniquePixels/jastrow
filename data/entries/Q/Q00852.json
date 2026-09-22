@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00852",
-	"slug": "פירטא-1",
-	"headword": {
-		"text": "פִּירְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְטָא",
+	"headwords": [
+		{
+			"text": "פִּירְטָא"
+		},
 		{
 			"text": "פִּירְטְתָא"
 		},
 		{
-			"text": "פִּרְ׳"
+			"text": "פִּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1171,
 		"column": "b"

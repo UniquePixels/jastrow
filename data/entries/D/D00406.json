@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00406",
-	"slug": "דחי-1",
-	"headword": {
-		"text": "דחי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דחי",
+	"headwords": [
+		{
+			"text": "דחי"
+		},
 		{
 			"text": "דָּחָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּחָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 291,
 		"column": "a"

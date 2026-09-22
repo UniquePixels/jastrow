@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00129",
-	"slug": "נגהקיהו",
-	"headword": {
-		"text": "נגהקיהו"
-	},
+	"sefariaHeadword": "נגהקיהו",
+	"headwords": [
+		{
+			"text": "נגהקיהו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00496",
-	"slug": "סטמיא",
-	"headword": {
-		"text": "סטמיא"
-	},
+	"sefariaHeadword": "סטמיא",
+	"headwords": [
+		{
+			"text": "סטמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

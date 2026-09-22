@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00373",
-	"slug": "כורוון",
-	"headword": {
-		"text": "כּוּרְוָון"
-	},
+	"sefariaHeadword": "כּוּרְוָון",
+	"headwords": [
+		{
+			"text": "כּוּרְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

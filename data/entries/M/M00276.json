@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00276",
-	"slug": "מדורה",
-	"headword": {
-		"text": "מְדוּרָה"
-	},
+	"sefariaHeadword": "מְדוּרָה",
+	"headwords": [
+		{
+			"text": "מְדוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "b"

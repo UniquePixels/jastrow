@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02163",
-	"slug": "אנטוכאי",
-	"headword": {
-		"text": "אַנְטוּכָאֵי"
-	},
+	"sefariaHeadword": "אַנְטוּכָאֵי",
+	"headwords": [
+		{
+			"text": "אַנְטוּכָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

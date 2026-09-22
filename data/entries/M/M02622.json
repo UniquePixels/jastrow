@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02622",
-	"slug": "מרזוח",
-	"headword": {
-		"text": "מַרְזוֹחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְזוֹחַ",
+	"headwords": [
+		{
+			"text": "מַרְזוֹחַ"
+		},
 		{
 			"text": "מַרְזוֹחִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 840,
 		"column": "b"

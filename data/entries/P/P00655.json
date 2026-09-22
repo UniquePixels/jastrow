@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00655",
-	"slug": "עיקה",
-	"headword": {
-		"text": "עִיקָה"
-	},
+	"sefariaHeadword": "עִיקָה",
+	"headwords": [
+		{
+			"text": "עִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

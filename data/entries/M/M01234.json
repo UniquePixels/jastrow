@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01234",
-	"slug": "מינקת-2",
-	"headword": {
-		"text": "מִינְקַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִינְקַת",
+	"headwords": [
 		{
-			"text": "מִינְקַת חִיוְיָא"
+			"text": "מִינְקַת"
+		},
+		{
+			"text": "מ׳ חִיוְיָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 777,
 		"column": "a"

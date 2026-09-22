@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01124",
-	"slug": "כרום-2",
-	"headword": {
-		"text": "כְּרוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרוּם ²",
+	"headwords": [
+		{
+			"text": "כְּרוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "כְּרוּמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 665,
 		"column": "a"

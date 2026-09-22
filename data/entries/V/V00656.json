@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00656",
-	"slug": "תמוד",
-	"headword": {
-		"text": "תַּמּוֹד"
-	},
+	"sefariaHeadword": "תַּמּוֹד",
+	"headwords": [
+		{
+			"text": "תַּמּוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1675,
 		"column": "b"

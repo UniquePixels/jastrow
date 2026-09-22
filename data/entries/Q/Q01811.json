@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01811",
-	"slug": "פרימיתן",
-	"headword": {
-		"text": "פרימיתן"
-	},
+	"sefariaHeadword": "פרימיתן",
+	"headwords": [
+		{
+			"text": "פרימיתן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

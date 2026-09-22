@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00616",
-	"slug": "לעינין",
-	"headword": {
-		"text": "לְעֵינִין"
-	},
+	"sefariaHeadword": "לְעֵינִין",
+	"headwords": [
+		{
+			"text": "לְעֵינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

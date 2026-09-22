@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00528",
-	"slug": "סיבבא",
-	"headword": {
-		"text": "סִיבְבָא"
-	},
+	"sefariaHeadword": "סִיבְבָא",
+	"headwords": [
+		{
+			"text": "סִיבְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 974,
 		"column": "b"

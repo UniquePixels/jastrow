@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00546",
-	"slug": "אוגנס",
-	"headword": {
-		"text": "אֶוְגְּנֵס"
-	},
+	"sefariaHeadword": "אֶוְגְּנֵס",
+	"headwords": [
+		{
+			"text": "אֶוְגְּנֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

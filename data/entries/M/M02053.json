@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02053",
-	"slug": "מעבט",
-	"headword": {
-		"text": "מַעְבֵּט"
-	},
+	"sefariaHeadword": "מַעְבֵּט",
+	"headwords": [
+		{
+			"text": "מַעְבֵּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

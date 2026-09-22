@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00545",
-	"slug": "ביבי-1",
-	"headword": {
-		"text": "בִּיבֵי"
-	},
+	"sefariaHeadword": "בִּיבֵי",
+	"headwords": [
+		{
+			"text": "בִּיבֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "a"

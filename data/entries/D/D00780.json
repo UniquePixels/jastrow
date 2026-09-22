@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00780",
-	"slug": "דכך-2",
-	"headword": {
-		"text": "דְּכַךְ"
-	},
+	"sefariaHeadword": "דְּכַךְ",
+	"headwords": [
+		{
+			"text": "דְּכַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "b"
@@ -18,7 +22,7 @@
 	],
 	"stems": [
 		{
-			"forms": ["דַּכֵּךְ"],
+			"forms": ["דַּכֵּךְ"],
 			"senses": [
 				{
 					"gloss": "<i>to crush</i>. ",

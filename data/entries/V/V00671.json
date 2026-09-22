@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00671",
-	"slug": "תמחוי",
-	"headword": {
-		"text": "תַּמְחוּי"
-	},
+	"sefariaHeadword": "תַּמְחוּי",
+	"headwords": [
+		{
+			"text": "תַּמְחוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "b"

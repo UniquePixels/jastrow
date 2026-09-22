@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A00526",
-	"slug": "אוביסוס",
-	"headword": {
-		"text": "אוֹבִיסוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹבִיסוֹס",
+	"headwords": [
+		{
+			"text": "אוֹבִיסוֹס"
+		},
 		{
 			"text": "אֶוְוסוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

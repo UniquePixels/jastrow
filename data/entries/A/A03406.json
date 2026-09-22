@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03406",
-	"slug": "אתון",
-	"headword": {
-		"text": "אַתּוּן"
-	},
+	"sefariaHeadword": "אַתּוּן",
+	"headwords": [
+		{
+			"text": "אַתּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 132,
 		"column": "b"

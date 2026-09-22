@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00359",
-	"slug": "מהיבא",
-	"headword": {
-		"text": "מְהִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְהִיבָא",
+	"headwords": [
+		{
+			"text": "מְהִיבָא"
+		},
 		{
 			"text": "מהיכא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 737,
 		"column": "a"

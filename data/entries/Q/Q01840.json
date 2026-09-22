@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01840",
-	"slug": "פרישותא",
-	"headword": {
-		"text": "פְּרִישׁוּתָא"
-	},
+	"sefariaHeadword": "פְּרִישׁוּתָא",
+	"headwords": [
+		{
+			"text": "פְּרִישׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1228,
 		"column": "b"

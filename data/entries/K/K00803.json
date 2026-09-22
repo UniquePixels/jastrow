@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00803",
-	"slug": "כמיש",
-	"headword": {
-		"text": "כְּמֵישׁ"
-	},
+	"sefariaHeadword": "כְּמֵישׁ",
+	"headwords": [
+		{
+			"text": "כְּמֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00855",
-	"slug": "כניסתא",
-	"headword": {
-		"text": "כניסתא"
-	},
+	"sefariaHeadword": "כניסתא",
+	"headwords": [
+		{
+			"text": "כניסתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

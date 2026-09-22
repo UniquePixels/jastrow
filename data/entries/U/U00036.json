@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00036",
-	"slug": "שאן-1",
-	"headword": {
-		"text": "שאן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שאן",
+	"headwords": [
 		{
-			"text": "בר שאן"
+			"text": "שאן"
+		},
+		{
+			"text": "בר ש׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1508,
 		"column": "a"

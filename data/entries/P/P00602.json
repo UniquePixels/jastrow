@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00602",
-	"slug": "עין-2",
-	"headword": {
-		"text": "עַיִן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַיִן ²",
+	"headwords": [
+		{
+			"text": "עַיִן",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֵינָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "עַיְינָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1071,
 		"column": "b"

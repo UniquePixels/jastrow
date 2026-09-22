@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00161",
-	"slug": "נגינה",
-	"headword": {
-		"text": "נְגִינָה"
-	},
+	"sefariaHeadword": "נְגִינָה",
+	"headwords": [
+		{
+			"text": "נְגִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

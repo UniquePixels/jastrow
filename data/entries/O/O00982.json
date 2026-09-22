@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00982",
-	"slug": "סליוקוס",
-	"headword": {
-		"text": "סְלֶיוְקוֹס"
-	},
+	"sefariaHeadword": "סְלֶיוְקוֹס",
+	"headwords": [
+		{
+			"text": "סְלֶיוְקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

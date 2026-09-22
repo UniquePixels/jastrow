@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00522",
-	"slug": "יצול",
-	"headword": {
-		"text": "יָצוּל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יָצוּל",
+	"headwords": [
+		{
+			"text": "יָצוּל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

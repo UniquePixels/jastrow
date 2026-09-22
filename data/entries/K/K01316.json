@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01316",
-	"slug": "כשלים",
-	"headword": {
-		"text": "כשלים"
-	},
+	"sefariaHeadword": "כשלים",
+	"headwords": [
+		{
+			"text": "כשלים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 676,
 		"column": "b"

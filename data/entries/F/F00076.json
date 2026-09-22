@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00076",
-	"slug": "ועודי",
-	"headword": {
-		"text": "וְעוֹדִי"
-	},
+	"sefariaHeadword": "וְעוֹדִי",
+	"headwords": [
+		{
+			"text": "וְעוֹדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

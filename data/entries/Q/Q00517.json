@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00517",
-	"slug": "פטים-2",
-	"headword": {
-		"text": "פַּטִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּטִּים",
+	"headwords": [
+		{
+			"text": "פַּטִּים"
+		},
 		{
 			"text": "פַּטִּימָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1155,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00468",
-	"slug": "טל-1",
-	"headword": {
-		"text": "טַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַל",
+	"headwords": [
+		{
+			"text": "טַל"
+		},
 		{
 			"text": "טְלָל"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 535,
 		"column": "b"

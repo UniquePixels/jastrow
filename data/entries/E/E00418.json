@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00418",
-	"slug": "הימוניא",
-	"headword": {
-		"text": "הימוניא"
-	},
+	"sefariaHeadword": "הימוניא",
+	"headwords": [
+		{
+			"text": "הימוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "a"

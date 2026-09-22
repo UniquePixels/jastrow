@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00461",
-	"slug": "תימורתא",
-	"headword": {
-		"text": "תִּימוֹרְתָּא"
-	},
+	"sefariaHeadword": "תִּימוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "תִּימוֹרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

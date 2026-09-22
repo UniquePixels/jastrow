@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00481",
-	"slug": "מוכססים",
-	"headword": {
-		"text": "מוֹכְסָסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹכְסָסִים",
+	"headwords": [
+		{
+			"text": "מוֹכְסָסִים"
+		},
 		{
 			"text": "מוֹכְסָסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 742,
 		"column": "a"

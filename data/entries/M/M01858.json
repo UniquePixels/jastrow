@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01858",
-	"slug": "מסובה",
-	"headword": {
-		"text": "מְסוּבֶּה"
-	},
+	"sefariaHeadword": "מְסוּבֶּה",
+	"headwords": [
+		{
+			"text": "מְסוּבֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

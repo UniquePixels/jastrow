@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00584",
-	"slug": "כיסיות",
-	"headword": {
-		"text": "כִּיסִּיּוֹת"
-	},
+	"sefariaHeadword": "כִּיסִּיּוֹת",
+	"headwords": [
+		{
+			"text": "כִּיסִּיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "a"

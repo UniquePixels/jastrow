@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01298",
-	"slug": "ערדילו",
-	"headword": {
-		"text": "ערדילו"
-	},
+	"sefariaHeadword": "ערדילו",
+	"headwords": [
+		{
+			"text": "ערדילו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

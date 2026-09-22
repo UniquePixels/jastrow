@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01903",
-	"slug": "אלליא",
-	"headword": {
-		"text": "אַלְלַיָּא"
-	},
+	"sefariaHeadword": "אַלְלַיָּא",
+	"headwords": [
+		{
+			"text": "אַלְלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "a"

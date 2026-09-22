@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00723",
-	"slug": "כליד",
-	"headword": {
-		"text": "כַּלִּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּלִּיד",
+	"headwords": [
+		{
+			"text": "כַּלִּיד"
+		},
 		{
 			"text": "כַּלִּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 642,
 		"column": "a"

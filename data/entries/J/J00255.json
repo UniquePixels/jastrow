@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00255",
-	"slug": "יותר-1",
-	"headword": {
-		"text": "יוֹתֵר"
-	},
+	"sefariaHeadword": "יוֹתֵר",
+	"headwords": [
+		{
+			"text": "יוֹתֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

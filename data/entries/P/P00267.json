@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00267",
-	"slug": "עולם-2",
-	"headword": {
-		"text": "עוּלֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּלֵם",
+	"headwords": [
+		{
+			"text": "עוּלֵם"
+		},
 		{
 			"text": "עוּלֵמָא"
 		},
@@ -21,6 +22,7 @@
 			"text": "עוּלֵמִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1052,
 		"column": "b"

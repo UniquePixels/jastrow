@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01329",
-	"slug": "קלידא",
-	"headword": {
-		"text": "קְלִידָא"
-	},
+	"sefariaHeadword": "קְלִידָא",
+	"headwords": [
+		{
+			"text": "קְלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

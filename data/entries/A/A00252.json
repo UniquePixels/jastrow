@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00252",
-	"slug": "אגדנא",
-	"headword": {
-		"text": "אַגְדָּנָא"
-	},
+	"sefariaHeadword": "אַגְדָּנָא",
+	"headwords": [
+		{
+			"text": "אַגְדָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "a"

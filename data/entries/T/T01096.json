@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01096",
-	"slug": "רשן",
-	"headword": {
-		"text": "רשן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רשן",
+	"headwords": [
+		{
+			"text": "רשן"
+		},
 		{
 			"text": "רשין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1501,
 		"column": "a"

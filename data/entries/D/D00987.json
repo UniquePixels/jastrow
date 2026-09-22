@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00987",
-	"slug": "דקדוק",
-	"headword": {
-		"text": "דִּקְדּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּקְדּוּק",
+	"headwords": [
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּקְדּוּק"
+		},
+		{
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 318,
 		"column": "a"

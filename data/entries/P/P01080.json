@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01080",
-	"slug": "עפרורית",
-	"headword": {
-		"text": "עַפְרוּרִית"
-	},
+	"sefariaHeadword": "עַפְרוּרִית",
+	"headwords": [
+		{
+			"text": "עַפְרוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "b"

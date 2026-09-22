@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00439",
-	"slug": "קוניא-1",
-	"headword": {
-		"text": "קוֹנְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוֹנְיָא",
+	"headwords": [
+		{
+			"text": "קוֹנְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1335,
 		"column": "a"

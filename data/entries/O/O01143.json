@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01143",
-	"slug": "סמרטוטא",
-	"headword": {
-		"text": "סְמַרְטוּטָא"
-	},
+	"sefariaHeadword": "סְמַרְטוּטָא",
+	"headwords": [
+		{
+			"text": "סְמַרְטוּטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

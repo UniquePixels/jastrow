@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00638",
-	"slug": "ריכוכא",
-	"headword": {
-		"text": "ריכוכא"
-	},
+	"sefariaHeadword": "ריכוכא",
+	"headwords": [
+		{
+			"text": "ריכוכא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

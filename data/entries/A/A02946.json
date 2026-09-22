@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02946",
-	"slug": "ארא-3",
-	"headword": {
-		"text": "ארא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*ארא",
+	"headwords": [
 		{
-			"text": "ארא׳"
+			"text": "ארא",
+			"reconstructed": true
+		},
+		{
+			"text": "ארא׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 113,
 		"column": "b"

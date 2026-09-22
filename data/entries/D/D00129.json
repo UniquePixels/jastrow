@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00129",
-	"slug": "דדהין",
-	"headword": {
-		"text": "דִּדְהֵין"
-	},
+	"sefariaHeadword": "דִּדְהֵין",
+	"headwords": [
+		{
+			"text": "דִּדְהֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 280,
 		"column": "b"

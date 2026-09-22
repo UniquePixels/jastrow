@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00693",
-	"slug": "דיציבון",
-	"headword": {
-		"text": "דיציבון"
-	},
+	"sefariaHeadword": "דיציבון",
+	"headwords": [
+		{
+			"text": "דיציבון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

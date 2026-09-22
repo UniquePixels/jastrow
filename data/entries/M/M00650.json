@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00650",
-	"slug": "מורייס",
-	"headword": {
-		"text": "מוּרְיִיס"
-	},
+	"sefariaHeadword": "מוּרְיִיס",
+	"headwords": [
+		{
+			"text": "מוּרְיִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "a"

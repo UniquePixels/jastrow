@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00958",
-	"slug": "שימוט",
-	"headword": {
-		"text": "שִׁימּוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁימּוּט",
+	"headwords": [
 		{
-			"text": "שִׁמּ׳"
+			"text": "שִׁימּוּט"
+		},
+		{
+			"text": "שִׁמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "b"

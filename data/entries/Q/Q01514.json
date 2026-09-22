@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01514",
-	"slug": "פקק-1",
-	"headword": {
-		"text": "פָּקַק"
-	},
+	"sefariaHeadword": "פָּקַק",
+	"headwords": [
+		{
+			"text": "פָּקַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1211,
 		"column": "b"

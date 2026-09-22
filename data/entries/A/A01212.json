@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01212",
-	"slug": "איטימוס",
-	"headword": {
-		"text": "אִיטִימוֹס"
-	},
+	"sefariaHeadword": "אִיטִימוֹס",
+	"headwords": [
+		{
+			"text": "אִיטִימוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "a"

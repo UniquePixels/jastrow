@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00808",
-	"slug": "שיבעא",
-	"headword": {
-		"text": "שִׂיבְעָא"
-	},
+	"sefariaHeadword": "שִׂיבְעָא",
+	"headwords": [
+		{
+			"text": "שִׂיבְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

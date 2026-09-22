@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00777",
-	"slug": "פיפה",
-	"headword": {
-		"text": "פִּיפָה"
-	},
+	"sefariaHeadword": "פִּיפָה",
+	"headwords": [
+		{
+			"text": "פִּיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

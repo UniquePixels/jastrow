@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00539",
-	"slug": "חזייה",
-	"headword": {
-		"text": "חֲזִיָּיה"
-	},
+	"sefariaHeadword": "חֲזִיָּיה",
+	"headwords": [
+		{
+			"text": "חֲזִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 443,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01976",
-	"slug": "אמבטיתא",
-	"headword": {
-		"text": "אַמְבְּטִיתָא"
-	},
+	"sefariaHeadword": "אַמְבְּטִיתָא",
+	"headwords": [
+		{
+			"text": "אַמְבְּטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

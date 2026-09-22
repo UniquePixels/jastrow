@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00802",
-	"slug": "חימוע",
-	"headword": {
-		"text": "חִימּוּעַ"
-	},
+	"sefariaHeadword": "חִימּוּעַ",
+	"headwords": [
+		{
+			"text": "חִימּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

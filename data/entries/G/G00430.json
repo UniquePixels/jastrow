@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00430",
-	"slug": "זית",
-	"headword": {
-		"text": "זַיִת"
-	},
+	"sefariaHeadword": "זַיִת",
+	"headwords": [
+		{
+			"text": "זַיִת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

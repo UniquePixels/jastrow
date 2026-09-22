@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00931",
-	"slug": "אושפיז",
-	"headword": {
-		"text": "אוּשְׁפֵּיז"
-	},
+	"sefariaHeadword": "אוּשְׁפֵּיז",
+	"headwords": [
+		{
+			"text": "אוּשְׁפֵּיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

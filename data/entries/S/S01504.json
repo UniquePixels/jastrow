@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01504",
-	"slug": "קן-1",
-	"headword": {
-		"text": "קַן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַן",
+	"headwords": [
+		{
+			"text": "קַן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1387,
 		"column": "b"

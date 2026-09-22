@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00175",
-	"slug": "ההין",
-	"headword": {
-		"text": "הַהֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַהֵין",
+	"headwords": [
+		{
+			"text": "הַהֵין"
+		},
 		{
 			"text": "הָהָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 335,
 		"column": "b"

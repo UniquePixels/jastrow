@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01730",
-	"slug": "מנהיג",
-	"headword": {
-		"text": "מַנְהִיג"
-	},
+	"sefariaHeadword": "מַנְהִיג",
+	"headwords": [
+		{
+			"text": "מַנְהִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00854",
-	"slug": "רסי",
-	"headword": {
-		"text": "רְסֵי"
-	},
+	"sefariaHeadword": "רְסֵי",
+	"headwords": [
+		{
+			"text": "רְסֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00972",
-	"slug": "חלבון",
-	"headword": {
-		"text": "חֶלְבּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶלְבּוֹן",
+	"headwords": [
+		{
+			"text": "חֶלְבּוֹן"
+		},
 		{
 			"text": "הֶלְבּוֹן"
 		}

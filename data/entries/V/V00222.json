@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00222",
-	"slug": "תולשמי",
-	"headword": {
-		"text": "תּוּלְשָׁמִי"
-	},
+	"sefariaHeadword": "תּוּלְשָׁמִי",
+	"headwords": [
+		{
+			"text": "תּוּלְשָׁמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00388",
-	"slug": "גולהא",
-	"headword": {
-		"text": "גולהא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גולהא",
+	"headwords": [
+		{
+			"text": "גולהא"
+		},
 		{
 			"text": "גולהי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "b"

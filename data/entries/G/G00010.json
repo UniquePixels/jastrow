@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00010",
-	"slug": "זבדא",
-	"headword": {
-		"text": "זַבְדָּא"
-	},
+	"sefariaHeadword": "זַבְדָּא",
+	"headwords": [
+		{
+			"text": "זַבְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "b"

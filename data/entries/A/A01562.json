@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01562",
-	"slug": "איפרוון",
-	"headword": {
-		"text": "אִיפַּרְוָון"
-	},
+	"sefariaHeadword": "אִיפַּרְוָון",
+	"headwords": [
+		{
+			"text": "אִיפַּרְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

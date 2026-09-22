@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00023",
-	"slug": "נאמן",
-	"headword": {
-		"text": "נֶאֱמָן"
-	},
+	"sefariaHeadword": "נֶאֱמָן",
+	"headwords": [
+		{
+			"text": "נֶאֱמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "a"

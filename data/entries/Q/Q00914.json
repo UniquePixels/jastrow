@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00914",
-	"slug": "פכח-2",
-	"headword": {
-		"text": "פְּכַח"
-	},
+	"sefariaHeadword": "פְּכַח",
+	"headwords": [
+		{
+			"text": "פְּכַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

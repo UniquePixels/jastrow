@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00163",
-	"slug": "צודני",
-	"headword": {
-		"text": "צוֹדָנִי"
-	},
+	"sefariaHeadword": "צוֹדָנִי",
+	"headwords": [
+		{
+			"text": "צוֹדָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

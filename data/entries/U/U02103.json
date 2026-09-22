@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02103",
-	"slug": "שתיך",
-	"headword": {
-		"text": "שְׁתֵיךְ"
-	},
+	"sefariaHeadword": "שְׁתֵיךְ",
+	"headwords": [
+		{
+			"text": "שְׁתֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

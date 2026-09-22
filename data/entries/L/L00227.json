@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00227",
-	"slug": "לוז-3",
-	"headword": {
-		"text": "לוּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּז",
+	"headwords": [
+		{
+			"text": "לוּז"
+		},
 		{
 			"text": "לוּזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 696,
 		"column": "a"

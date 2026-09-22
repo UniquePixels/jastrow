@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00852",
-	"slug": "תפקידתא",
-	"headword": {
-		"text": "תַּפְקִידְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְקִידְתָּא",
+	"headwords": [
 		{
-			"text": "תַּפְקִדְ׳"
+			"text": "תַּפְקִידְתָּא"
 		},
 		{
-			"text": "תַּפְקֶדְ׳"
+			"text": "תַּפְקִדְ׳",
+			"partial": true
+		},
+		{
+			"text": "תַּפְקֶדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1689,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00963",
-	"slug": "כעוס",
-	"headword": {
-		"text": "כָּעוּס"
-	},
+	"sefariaHeadword": "כָּעוּס",
+	"headwords": [
+		{
+			"text": "כָּעוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

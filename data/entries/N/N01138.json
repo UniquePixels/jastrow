@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01138",
-	"slug": "נצפה",
-	"headword": {
-		"text": "נִצְפָּה"
-	},
+	"sefariaHeadword": "נִצְפָּה",
+	"headwords": [
+		{
+			"text": "נִצְפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "b"

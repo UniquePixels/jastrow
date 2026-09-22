@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01533",
-	"slug": "חצץ-1",
-	"headword": {
-		"text": "חָצַץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָצַץ I",
+	"headwords": [
+		{
+			"text": "חָצַץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 496,
 		"column": "a"

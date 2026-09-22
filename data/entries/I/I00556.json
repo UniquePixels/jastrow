@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00556",
-	"slug": "טמן-1",
-	"headword": {
-		"text": "טָמַן"
-	},
+	"sefariaHeadword": "טָמַן",
+	"headwords": [
+		{
+			"text": "טָמַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "a"

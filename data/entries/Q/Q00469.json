@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00469",
-	"slug": "פחיא",
-	"headword": {
-		"text": "פַּחְיָא"
-	},
+	"sefariaHeadword": "פַּחְיָא",
+	"headwords": [
+		{
+			"text": "פַּחְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "b"

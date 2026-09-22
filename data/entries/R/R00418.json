@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00418",
-	"slug": "ציפורן",
-	"headword": {
-		"text": "צִיפּוֹרֶן"
-	},
+	"sefariaHeadword": "צִיפּוֹרֶן",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

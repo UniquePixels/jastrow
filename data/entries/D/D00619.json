@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00619",
-	"slug": "דימוסא",
-	"headword": {
-		"text": "דִּימוֹסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּימוֹסָא",
+	"headwords": [
+		{
+			"text": "דִּימוֹסָא"
+		},
 		{
 			"text": "דִּימוֹסַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 300,
 		"column": "a"

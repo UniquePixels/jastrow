@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00321",
-	"slug": "קולב-1",
-	"headword": {
-		"text": "קוֹלָב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוֹלָב",
+	"headwords": [
+		{
+			"text": "קוֹלָב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1327,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00572",
-	"slug": "זנונים",
-	"headword": {
-		"text": "זְנוּנִים"
-	},
+	"sefariaHeadword": "זְנוּנִים",
+	"headwords": [
+		{
+			"text": "זְנוּנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

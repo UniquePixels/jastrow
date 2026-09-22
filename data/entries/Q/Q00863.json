@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00863",
-	"slug": "פירכס",
-	"headword": {
-		"text": "פִּירְכֵּס"
-	},
+	"sefariaHeadword": "פִּירְכֵּס",
+	"headwords": [
+		{
+			"text": "פִּירְכֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

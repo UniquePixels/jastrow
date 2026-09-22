@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00805",
-	"slug": "שיבלי",
-	"headword": {
-		"text": "שִׁיבְלַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבְלַי",
+	"headwords": [
 		{
-			"text": "שִׁבְ׳"
+			"text": "שִׁיבְלַי"
 		},
 		{
-			"text": "שִׂ׳"
+			"text": "שִׁבְ׳",
+			"partial": true
+		},
+		{
+			"text": "שִׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1557,
 		"column": "b"

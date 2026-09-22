@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00666",
-	"slug": "הנדקוקי",
-	"headword": {
-		"text": "הִנְדְּקוֹקֵי"
-	},
+	"sefariaHeadword": "הִנְדְּקוֹקֵי",
+	"headwords": [
+		{
+			"text": "הִנְדְּקוֹקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "b"

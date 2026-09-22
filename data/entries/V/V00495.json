@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00495",
-	"slug": "תיר-1",
-	"headword": {
-		"text": "תַּיָּר"
-	},
+	"sefariaHeadword": "תַּיָּר",
+	"headwords": [
+		{
+			"text": "תַּיָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

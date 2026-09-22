@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00355",
-	"slug": "ייתיך",
-	"headword": {
-		"text": "יַיתִּיךְ"
-	},
+	"sefariaHeadword": "יַיתִּיךְ",
+	"headwords": [
+		{
+			"text": "יַיתִּיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

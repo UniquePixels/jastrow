@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00177",
-	"slug": "יוחנא-1",
-	"headword": {
-		"text": "יוֹחָנָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹחָנָא I",
+	"headwords": [
+		{
+			"text": "יוֹחָנָא",
+			"homograph": 1
+		},
 		{
 			"text": "יוֹחָנָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 568,
 		"column": "a"

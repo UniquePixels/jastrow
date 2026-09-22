@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00064",
-	"slug": "נבחן",
-	"headword": {
-		"text": "נִבְחָן"
-	},
+	"sefariaHeadword": "נִבְחָן",
+	"headwords": [
+		{
+			"text": "נִבְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00282",
-	"slug": "כולפסון",
-	"headword": {
-		"text": "כולפסון"
-	},
+	"sefariaHeadword": "כולפסון",
+	"headwords": [
+		{
+			"text": "כולפסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

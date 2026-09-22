@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00575",
-	"slug": "ביחושא",
-	"headword": {
-		"text": "בִּיחוּשָׁא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּיחוּשָׁא",
+	"headwords": [
+		{
+			"text": "בִּיחוּשָׁא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

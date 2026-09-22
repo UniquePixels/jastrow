@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00405",
-	"slug": "שוירי",
-	"headword": {
-		"text": "שַׁוִּירֵי"
-	},
+	"sefariaHeadword": "שַׁוִּירֵי",
+	"headwords": [
+		{
+			"text": "שַׁוִּירֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

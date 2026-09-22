@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02854",
-	"slug": "משחה-2",
-	"headword": {
-		"text": "מִשְׁחָה"
-	},
+	"sefariaHeadword": "מִשְׁחָה",
+	"headwords": [
+		{
+			"text": "מִשְׁחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "a"

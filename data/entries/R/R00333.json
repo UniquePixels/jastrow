@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00333",
-	"slug": "ציחצוח",
-	"headword": {
-		"text": "צִיחְצוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיחְצוּחַ",
+	"headwords": [
+		{
+			"text": "צִיחְצוּחַ"
+		},
 		{
 			"text": "צִיחצוּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

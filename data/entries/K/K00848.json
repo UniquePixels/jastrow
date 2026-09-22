@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00848",
-	"slug": "כנושאה",
-	"headword": {
-		"text": "כְּנוֹשָׁאָה"
-	},
+	"sefariaHeadword": "כְּנוֹשָׁאָה",
+	"headwords": [
+		{
+			"text": "כְּנוֹשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "b"

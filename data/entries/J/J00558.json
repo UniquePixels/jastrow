@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00558",
-	"slug": "יקדא",
-	"headword": {
-		"text": "יְקֵדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְקֵדָא",
+	"headwords": [
+		{
+			"text": "יְקֵדָא"
+		},
 		{
 			"text": "יְקֵדְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 591,
 		"column": "a"

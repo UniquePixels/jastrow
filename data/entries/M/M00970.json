@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00970",
-	"slug": "מטה-4",
-	"headword": {
-		"text": "מֹטָה"
-	},
+	"sefariaHeadword": "מֹטָה",
+	"headwords": [
+		{
+			"text": "מֹטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "a"

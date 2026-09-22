@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01149",
-	"slug": "דשנא",
-	"headword": {
-		"text": "דָּשְׁנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּשְׁנָא",
+	"headwords": [
+		{
+			"text": "דָּשְׁנָא"
+		},
 		{
 			"text": "דִּישְׁנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 326,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00229",
-	"slug": "הוי-1",
-	"headword": {
-		"text": "הוֹי"
-	},
+	"sefariaHeadword": "הוֹי",
+	"headwords": [
+		{
+			"text": "הוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

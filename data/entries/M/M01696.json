@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01696",
-	"slug": "מן-5",
-	"headword": {
-		"text": "מַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַן",
+	"headwords": [
+		{
+			"text": "מַן"
+		},
 		{
 			"text": "מָן",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 796,
 		"column": "b"

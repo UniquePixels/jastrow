@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00766",
-	"slug": "קטיפה-1",
-	"headword": {
-		"text": "קְטִיפָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קְטִיפָה I",
+	"headwords": [
+		{
+			"text": "קְטִיפָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1348,
 		"column": "b"

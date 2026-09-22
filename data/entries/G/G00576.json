@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00576",
-	"slug": "זנח-1",
-	"headword": {
-		"text": "זָנַח"
-	},
+	"sefariaHeadword": "זָנַח",
+	"headwords": [
+		{
+			"text": "זָנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00323",
-	"slug": "כוסיא",
-	"headword": {
-		"text": "כוסיא"
-	},
+	"sefariaHeadword": "כוסיא",
+	"headwords": [
+		{
+			"text": "כוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

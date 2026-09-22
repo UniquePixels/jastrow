@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00438",
-	"slug": "רוקח",
-	"headword": {
-		"text": "רוֹקֵחַ"
-	},
+	"sefariaHeadword": "רוֹקֵחַ",
+	"headwords": [
+		{
+			"text": "רוֹקֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "b"

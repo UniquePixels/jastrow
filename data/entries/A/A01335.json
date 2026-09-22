@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "A01335",
-	"slug": "אימורים-2",
-	"headword": {
-		"text": "אֵימוּרִים",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵימוּרִים ²",
+	"headwords": [
+		{
+			"text": "אֵימוּרִים",
+			"disambiguator": 2
+		},
 		{
 			"text": "אֵימוּרִין"
 		},
 		{
 			"text": "אֲמוּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2} II",
 	"page": {
 		"number": 50,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01391",
-	"slug": "ספסוניא",
-	"headword": {
-		"text": "ספסוניא"
-	},
+	"sefariaHeadword": "ספסוניא",
+	"headwords": [
+		{
+			"text": "ספסוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "a"

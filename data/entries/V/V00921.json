@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00921",
-	"slug": "תרא-3",
-	"headword": {
-		"text": "תְּרָא"
-	},
+	"sefariaHeadword": "תְּרָא",
+	"headwords": [
+		{
+			"text": "תְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00974",
-	"slug": "תרטיא",
-	"headword": {
-		"text": "תרטיא"
-	},
+	"sefariaHeadword": "תרטיא",
+	"headwords": [
+		{
+			"text": "תרטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "b"

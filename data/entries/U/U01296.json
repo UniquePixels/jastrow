@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "U01296",
-	"slug": "שליא-3",
-	"headword": {
-		"text": "שִׁלְיָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְיָא ²",
+	"headwords": [
+		{
+			"text": "שִׁלְיָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1582,
 		"column": "b"

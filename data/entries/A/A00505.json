@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00505",
-	"slug": "אהלויא",
-	"headword": {
-		"text": "אָהֳלוֹיָא"
-	},
+	"sefariaHeadword": "אָהֳלוֹיָא",
+	"headwords": [
+		{
+			"text": "אָהֳלוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

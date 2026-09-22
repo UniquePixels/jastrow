@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00253",
-	"slug": "צורי-1",
-	"headword": {
-		"text": "צֳורִי"
-	},
+	"sefariaHeadword": "צֳורִי",
+	"headwords": [
+		{
+			"text": "צֳורִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "b"

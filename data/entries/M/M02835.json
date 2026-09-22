@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02835",
-	"slug": "משומת",
-	"headword": {
-		"text": "מְשׁוּמָּת"
-	},
+	"sefariaHeadword": "מְשׁוּמָּת",
+	"headwords": [
+		{
+			"text": "מְשׁוּמָּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

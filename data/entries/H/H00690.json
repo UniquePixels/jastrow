@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00690",
-	"slug": "חיות",
-	"headword": {
-		"text": "חַיּוּת"
-	},
+	"sefariaHeadword": "חַיּוּת",
+	"headwords": [
+		{
+			"text": "חַיּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

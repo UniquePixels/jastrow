@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00166",
-	"slug": "טולימותא",
-	"headword": {
-		"text": "טוּלִימוֹתָא"
-	},
+	"sefariaHeadword": "טוּלִימוֹתָא",
+	"headwords": [
+		{
+			"text": "טוּלִימוֹתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "a"

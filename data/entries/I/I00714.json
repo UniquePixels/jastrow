@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00714",
-	"slug": "טרד-3",
-	"headword": {
-		"text": "טְרַד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טְרַד II",
+	"headwords": [
+		{
+			"text": "טְרַד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 550,
 		"column": "b"

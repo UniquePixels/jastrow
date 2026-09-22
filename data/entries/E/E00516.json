@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "E00516",
-	"slug": "הכן-2",
-	"headword": {
-		"text": "הָכֵן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָכֵן ²",
+	"headwords": [
+		{
+			"text": "הָכֵן",
+			"disambiguator": 2
+		},
 		{
 			"text": "הָכֵין",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 350,
 		"column": "b"

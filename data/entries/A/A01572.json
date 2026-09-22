@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01572",
-	"slug": "איפתוסים",
-	"headword": {
-		"text": "איפתוסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איפתוסים",
+	"headwords": [
+		{
+			"text": "איפתוסים"
+		},
 		{
 			"text": "איפתיסיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 59,
 		"column": "a"

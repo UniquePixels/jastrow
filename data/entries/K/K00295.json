@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00295",
-	"slug": "כומתא",
-	"headword": {
-		"text": "כּוּמְתָא"
-	},
+	"sefariaHeadword": "כּוּמְתָא",
+	"headwords": [
+		{
+			"text": "כּוּמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 621,
 		"column": "a"

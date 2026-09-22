@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00950",
-	"slug": "קיל-1",
-	"headword": {
-		"text": "קִיל",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיל I",
+	"headwords": [
+		{
+			"text": "קִיל",
+			"homograph": 1
+		},
 		{
 			"text": "קִילָא"
 		}
 	],
+	"display": "{0} I, ({1})",
 	"page": {
 		"number": 1359,
 		"column": "b"

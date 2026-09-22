@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02487",
-	"slug": "מראטאי",
-	"headword": {
-		"text": "מראטאי"
-	},
+	"sefariaHeadword": "מראטאי",
+	"headwords": [
+		{
+			"text": "מראטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

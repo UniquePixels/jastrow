@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00163",
-	"slug": "פודופסילא",
-	"headword": {
-		"text": "פּוֹדוֹפְסִילָא"
-	},
+	"sefariaHeadword": "פּוֹדוֹפְסִילָא",
+	"headwords": [
+		{
+			"text": "פּוֹדוֹפְסִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "b"

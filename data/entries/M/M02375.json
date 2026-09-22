@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02375",
-	"slug": "מקבילות",
-	"headword": {
-		"text": "מַקְבִּילוֹת"
-	},
+	"sefariaHeadword": "מַקְבִּילוֹת",
+	"headwords": [
+		{
+			"text": "מַקְבִּילוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

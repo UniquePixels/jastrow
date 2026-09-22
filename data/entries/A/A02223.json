@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02223",
-	"slug": "אניגרון-1",
-	"headword": {
-		"text": "אניגרון"
-	},
+	"sefariaHeadword": "אניגרון",
+	"headwords": [
+		{
+			"text": "אניגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "b"

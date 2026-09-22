@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01794",
-	"slug": "מנם",
-	"headword": {
-		"text": "מנם"
-	},
+	"sefariaHeadword": "מנם",
+	"headwords": [
+		{
+			"text": "מנם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00596",
-	"slug": "זעיק",
-	"headword": {
-		"text": "זְעֵיק"
-	},
+	"sefariaHeadword": "זְעֵיק",
+	"headwords": [
+		{
+			"text": "זְעֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "b"

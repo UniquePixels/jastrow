@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00434",
-	"slug": "ליווקאי",
-	"headword": {
-		"text": "לִיוְוקָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיוְוקָאֵי",
+	"headwords": [
 		{
-			"text": "לְוְו׳"
+			"text": "לִיוְוקָאֵי"
+		},
+		{
+			"text": "לְוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 706,
 		"column": "b"

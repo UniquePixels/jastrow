@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02772",
-	"slug": "מרקע",
-	"headword": {
-		"text": "מַרְקַע"
-	},
+	"sefariaHeadword": "מַרְקַע",
+	"headwords": [
+		{
+			"text": "מַרְקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "b"

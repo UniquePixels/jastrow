@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00204",
-	"slug": "אבר-6",
-	"headword": {
-		"text": "אֲבָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבָר ²",
+	"headwords": [
+		{
+			"text": "אֲבָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "אֲבָרָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אַבְרָא"
 		}
 	],
+	"display": "{0} ², {1}, ({2})",
 	"page": {
 		"number": 9,
 		"column": "a"

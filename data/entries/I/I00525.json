@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00525",
-	"slug": "טלק",
-	"headword": {
-		"text": "טְלַק"
-	},
+	"sefariaHeadword": "טְלַק",
+	"headwords": [
+		{
+			"text": "טְלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "b"

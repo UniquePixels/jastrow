@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00739",
-	"slug": "כלין",
-	"headword": {
-		"text": "כַּלִּין"
-	},
+	"sefariaHeadword": "כַּלִּין",
+	"headwords": [
+		{
+			"text": "כַּלִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

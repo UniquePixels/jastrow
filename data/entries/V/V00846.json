@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00846",
-	"slug": "תפף-1",
-	"headword": {
-		"text": "תָּפַף"
-	},
+	"sefariaHeadword": "תָּפַף",
+	"headwords": [
+		{
+			"text": "תָּפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "a"

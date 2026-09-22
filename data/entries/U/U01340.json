@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01340",
-	"slug": "שלך-2",
-	"headword": {
-		"text": "שָׁלָךְ"
-	},
+	"sefariaHeadword": "שָׁלָךְ",
+	"headwords": [
+		{
+			"text": "שָׁלָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1585,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00516",
-	"slug": "דיומסית",
-	"headword": {
-		"text": "דיומסית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיומסית",
+	"headwords": [
+		{
+			"text": "דיומסית"
+		},
 		{
 			"text": "דיומסת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 296,
 		"column": "b"

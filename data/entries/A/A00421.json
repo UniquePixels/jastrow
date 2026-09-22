@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00421",
-	"slug": "אדמדמני",
-	"headword": {
-		"text": "אֲדַמְדְּמָנֵי"
-	},
+	"sefariaHeadword": "אֲדַמְדְּמָנֵי",
+	"headwords": [
+		{
+			"text": "אֲדַמְדְּמָנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

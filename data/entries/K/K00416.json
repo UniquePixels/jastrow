@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00416",
-	"slug": "כותא-3",
-	"headword": {
-		"text": "כַּוְתָא"
-	},
+	"sefariaHeadword": "כַּוְתָא",
+	"headwords": [
+		{
+			"text": "כַּוְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "a"

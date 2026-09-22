@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00945",
-	"slug": "תרגמוניא",
-	"headword": {
-		"text": "תרגמוניא"
-	},
+	"sefariaHeadword": "תרגמוניא",
+	"headwords": [
+		{
+			"text": "תרגמוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1696,
 		"column": "a"

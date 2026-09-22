@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00579",
-	"slug": "שושתרי",
-	"headword": {
-		"text": "שׁוּשְׁתְּרֵי"
-	},
+	"sefariaHeadword": "שׁוּשְׁתְּרֵי",
+	"headwords": [
+		{
+			"text": "שׁוּשְׁתְּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

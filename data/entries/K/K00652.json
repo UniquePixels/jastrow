@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00652",
-	"slug": "כיתנאי",
-	"headword": {
-		"text": "כיתנאי"
-	},
+	"sefariaHeadword": "כיתנאי",
+	"headwords": [
+		{
+			"text": "כיתנאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 637,
 		"column": "b"

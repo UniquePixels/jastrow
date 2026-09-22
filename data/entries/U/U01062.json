@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01062",
-	"slug": "שירה",
-	"headword": {
-		"text": "שִׁירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁירָה II",
+	"headwords": [
+		{
+			"text": "שִׁירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1568,
 		"column": "b"

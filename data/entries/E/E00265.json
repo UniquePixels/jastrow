@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00265",
-	"slug": "הוצא-2",
-	"headword": {
-		"text": "הוּצָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הוּצָא II",
+	"headwords": [
+		{
+			"text": "הוּצָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 340,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

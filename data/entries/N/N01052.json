@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01052",
-	"slug": "נפיתא",
-	"headword": {
-		"text": "נָפִיתָא"
-	},
+	"sefariaHeadword": "נָפִיתָא",
+	"headwords": [
+		{
+			"text": "נָפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "b"

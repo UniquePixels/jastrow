@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00236",
-	"slug": "רדו",
-	"headword": {
-		"text": "רָדוּ"
-	},
+	"sefariaHeadword": "רָדוּ",
+	"headwords": [
+		{
+			"text": "רָדוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1451,
 		"column": "b"

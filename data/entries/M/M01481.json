@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01481",
-	"slug": "מלביש",
-	"headword": {
-		"text": "מַלְבִּישׁ"
-	},
+	"sefariaHeadword": "מַלְבִּישׁ",
+	"headwords": [
+		{
+			"text": "מַלְבִּישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 786,
 		"column": "b"

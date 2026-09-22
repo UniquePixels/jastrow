@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00967",
-	"slug": "תרועה",
-	"headword": {
-		"text": "תְּרוּעָה"
-	},
+	"sefariaHeadword": "תְּרוּעָה",
+	"headwords": [
+		{
+			"text": "תְּרוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

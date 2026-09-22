@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00410",
-	"slug": "סור-3",
-	"headword": {
-		"text": "סוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סוּר II",
+	"headwords": [
+		{
+			"text": "סוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 969,
 		"column": "a"

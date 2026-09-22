@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03106",
-	"slug": "ארימין",
-	"headword": {
-		"text": "אֱרִימִין"
-	},
+	"sefariaHeadword": "אֱרִימִין",
+	"headwords": [
+		{
+			"text": "אֱרִימִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "a"

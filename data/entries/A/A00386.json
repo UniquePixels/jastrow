@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00386",
-	"slug": "אדונה",
-	"headword": {
-		"text": "אֲדוֹנָה"
-	},
+	"sefariaHeadword": "אֲדוֹנָה",
+	"headwords": [
+		{
+			"text": "אֲדוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

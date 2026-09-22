@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00653",
-	"slug": "כיתניתא",
-	"headword": {
-		"text": "כִּיתָּנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיתָּנִיתָא",
+	"headwords": [
 		{
-			"text": "כִּיתְ׳"
+			"text": "כִּיתָּנִיתָא"
+		},
+		{
+			"text": "כִּיתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "b"

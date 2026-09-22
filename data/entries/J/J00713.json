@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00713",
-	"slug": "יתב-2",
-	"headword": {
-		"text": "יְתֵב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יְתֵב II",
+	"headwords": [
+		{
+			"text": "יְתֵב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 603,
 		"column": "a"

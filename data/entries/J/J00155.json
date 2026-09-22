@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00155",
-	"slug": "יובקא",
-	"headword": {
-		"text": "יוּבְּקָא"
-	},
+	"sefariaHeadword": "יוּבְּקָא",
+	"headwords": [
+		{
+			"text": "יוּבְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

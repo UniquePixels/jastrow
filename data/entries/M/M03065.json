@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03065",
-	"slug": "מתירקנה",
-	"headword": {
-		"text": "מתירקנה"
-	},
+	"sefariaHeadword": "מתירקנה",
+	"headwords": [
+		{
+			"text": "מתירקנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

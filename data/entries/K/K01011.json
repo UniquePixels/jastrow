@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01011",
-	"slug": "כפיל-1",
-	"headword": {
-		"text": "כְּפֵיל"
-	},
+	"sefariaHeadword": "כְּפֵיל",
+	"headwords": [
+		{
+			"text": "כְּפֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "a"

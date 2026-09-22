@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01275",
-	"slug": "סעד-1",
-	"headword": {
-		"text": "סָעַד"
-	},
+	"sefariaHeadword": "סָעַד",
+	"headwords": [
+		{
+			"text": "סָעַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "a"

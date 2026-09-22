@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00691",
-	"slug": "צפי-1",
-	"headword": {
-		"text": "צפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צפי",
+	"headwords": [
+		{
+			"text": "צפי"
+		},
 		{
 			"text": "צָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1296,
 		"column": "b"

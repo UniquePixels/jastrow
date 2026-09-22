@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00266",
-	"slug": "זיבולא",
-	"headword": {
-		"text": "זִיבּוּלָא"
-	},
+	"sefariaHeadword": "זִיבּוּלָא",
+	"headwords": [
+		{
+			"text": "זִיבּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

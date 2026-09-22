@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02259",
-	"slug": "קשקש-4",
-	"headword": {
-		"text": "קִשְׁקֵשׁ",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קִשְׁקֵשׁ III",
+	"headwords": [
+		{
+			"text": "קִשְׁקֵשׁ",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1432,
 		"column": "a"

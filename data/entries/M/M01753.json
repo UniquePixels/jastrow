@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01753",
-	"slug": "מנותא",
-	"headword": {
-		"text": "מַנְוָתָא"
-	},
+	"sefariaHeadword": "מַנְוָתָא",
+	"headwords": [
+		{
+			"text": "מַנְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "b"

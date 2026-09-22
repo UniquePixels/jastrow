@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00854",
-	"slug": "אורדילאי",
-	"headword": {
-		"text": "אוּרְדִּילָאֵי"
-	},
+	"sefariaHeadword": "אוּרְדִּילָאֵי",
+	"headwords": [
+		{
+			"text": "אוּרְדִּילָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

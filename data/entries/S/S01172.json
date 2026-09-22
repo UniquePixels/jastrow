@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01172",
-	"slug": "קירוס-3",
-	"headword": {
-		"text": "קירוס"
-	},
+	"sefariaHeadword": "קירוס",
+	"headwords": [
+		{
+			"text": "קירוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

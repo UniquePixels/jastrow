@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01309",
-	"slug": "סף-2",
-	"headword": {
-		"text": "סַף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סַף ²",
+	"headwords": [
+		{
+			"text": "סַף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1010,
 		"column": "b"

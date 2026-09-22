@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01965",
-	"slug": "שריד-1",
-	"headword": {
-		"text": "שָׂרִיד"
-	},
+	"sefariaHeadword": "שָׂרִיד",
+	"headwords": [
+		{
+			"text": "שָׂרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1630,
 		"column": "b"

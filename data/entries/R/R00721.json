@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00721",
-	"slug": "צפרתא",
-	"headword": {
-		"text": "צִפַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפַּרְתָּא",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִפַּרְתָּא"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1299,
 		"column": "a"

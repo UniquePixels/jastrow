@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00610",
-	"slug": "ניבזין",
-	"headword": {
-		"text": "נִיבְזִין"
-	},
+	"sefariaHeadword": "נִיבְזִין",
+	"headwords": [
+		{
+			"text": "נִיבְזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

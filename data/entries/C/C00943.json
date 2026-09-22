@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00943",
-	"slug": "גלייר",
-	"headword": {
-		"text": "גַּלְיָיר"
-	},
+	"sefariaHeadword": "גַּלְיָיר",
+	"headwords": [
+		{
+			"text": "גַּלְיָיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00822",
-	"slug": "גירומסין",
-	"headword": {
-		"text": "גירומסין"
-	},
+	"sefariaHeadword": "גירומסין",
+	"headwords": [
+		{
+			"text": "גירומסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

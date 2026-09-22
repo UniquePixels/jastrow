@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00998",
-	"slug": "אחדבוי",
-	"headword": {
-		"text": "אֲחַדְבּוֹי"
-	},
+	"sefariaHeadword": "אֲחַדְבֹּוי",
+	"headwords": [
+		{
+			"text": "אֲחַדְבּוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

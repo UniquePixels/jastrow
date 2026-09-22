@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01890",
-	"slug": "חתימייא",
-	"headword": {
-		"text": "חתימייא"
-	},
+	"sefariaHeadword": "חתימייא",
+	"headwords": [
+		{
+			"text": "חתימייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 513,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00518",
-	"slug": "צליל",
-	"headword": {
-		"text": "צָלִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָלִיל",
+	"headwords": [
+		{
+			"text": "צָלִיל"
+		},
 		{
 			"text": "צְלִיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1284,
 		"column": "a"

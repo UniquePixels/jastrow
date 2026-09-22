@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M02093",
-	"slug": "מעזי",
-	"headword": {
-		"text": "מֵעַזֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵעַזֵּי",
+	"headwords": [
+		{
+			"text": "מֵעַזֵּי"
+		},
 		{
 			"text": "מֵעַזְּיָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "מֵעִיזַּיָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 814,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01833",
-	"slug": "קצפא",
-	"headword": {
-		"text": "קִצְפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִצְפָּא",
+	"headwords": [
 		{
-			"text": "קִיצְ׳"
+			"text": "קִצְפָּא"
+		},
+		{
+			"text": "קִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1407,
 		"column": "a"

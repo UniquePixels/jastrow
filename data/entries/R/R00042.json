@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00042",
-	"slug": "צבייה",
-	"headword": {
-		"text": "צְבִיָּיה"
-	},
+	"sefariaHeadword": "צְבִיָּיה",
+	"headwords": [
+		{
+			"text": "צְבִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "b"

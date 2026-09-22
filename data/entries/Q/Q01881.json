@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01881",
-	"slug": "פרן-4",
-	"headword": {
-		"text": "פְּרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרָן",
+	"headwords": [
+		{
+			"text": "פְּרָן"
+		},
 		{
 			"text": "פַּרְנָא"
 		},
@@ -18,6 +19,7 @@
 			"text": "פַּרְנוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1230,
 		"column": "b"

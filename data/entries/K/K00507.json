@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00507",
-	"slug": "כיונא-1",
-	"headword": {
-		"text": "כֵּיוָנָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כֵּיוָנָא I",
+	"headwords": [
+		{
+			"text": "כֵּיוָנָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 631,
 		"column": "b"

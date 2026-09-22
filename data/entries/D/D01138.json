@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01138",
-	"slug": "דשא-1",
-	"headword": {
-		"text": "דֶּשֶׁא"
-	},
+	"sefariaHeadword": "דֶּשֶׁא",
+	"headwords": [
+		{
+			"text": "דֶּשֶׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "a"

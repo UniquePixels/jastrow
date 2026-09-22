@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01057",
-	"slug": "שיר-5",
-	"headword": {
-		"text": "שֵׁיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיר ²",
+	"headwords": [
+		{
+			"text": "שֵׁיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "שֵׁירָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1568,
 		"column": "b"

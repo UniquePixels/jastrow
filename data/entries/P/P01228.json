@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01228",
-	"slug": "עקש-1",
-	"headword": {
-		"text": "עִקֵּשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עִקֵּשׁ I",
+	"headwords": [
+		{
+			"text": "עִקֵּשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1109,
 		"column": "a"

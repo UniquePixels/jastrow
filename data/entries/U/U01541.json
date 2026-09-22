@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01541",
-	"slug": "שמש-3",
-	"headword": {
-		"text": "שַׁמָּשׁ"
-	},
+	"sefariaHeadword": "שַׁמָּשׁ",
+	"headwords": [
+		{
+			"text": "שַׁמָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1602,
 		"column": "a"

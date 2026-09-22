@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00015",
-	"slug": "יאייא",
-	"headword": {
-		"text": "יָאיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָאיָיא",
+	"headwords": [
+		{
+			"text": "יָאיָיא"
+		},
 		{
 			"text": "יָאִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 559,
 		"column": "b"

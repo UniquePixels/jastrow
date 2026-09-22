@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00049",
-	"slug": "סבטא",
-	"headword": {
-		"text": "סַבְטָא"
-	},
+	"sefariaHeadword": "סַבְטָא",
+	"headwords": [
+		{
+			"text": "סַבְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

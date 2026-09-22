@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00141",
-	"slug": "פ״ה",
-	"headword": {
-		"text": "פ״ה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פ\"ה",
+	"headwords": [
+		{
+			"text": "פ״ה"
+		},
 		{
 			"text": "פ״א"
 		},
@@ -12,6 +13,7 @@
 			"text": "פ״י"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1138,
 		"column": "b"

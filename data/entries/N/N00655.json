@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00655",
-	"slug": "ניטליתא",
-	"headword": {
-		"text": "ניטליתא"
-	},
+	"sefariaHeadword": "ניטליתא",
+	"headwords": [
+		{
+			"text": "ניטליתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

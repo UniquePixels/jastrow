@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01944",
-	"slug": "מסכה-2",
-	"headword": {
-		"text": "מַסֵּכָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַסֵּכָה II",
+	"headwords": [
+		{
+			"text": "מַסֵּכָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 807,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01429",
-	"slug": "מכסנא",
-	"headword": {
-		"text": "מַכְסָנָא"
-	},
+	"sefariaHeadword": "מַכְסָנָא",
+	"headwords": [
+		{
+			"text": "מַכְסָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

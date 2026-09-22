@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00660",
-	"slug": "תמון",
-	"headword": {
-		"text": "תַּמְוָן"
-	},
+	"sefariaHeadword": "תַּמְוָן",
+	"headwords": [
+		{
+			"text": "תַּמְוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

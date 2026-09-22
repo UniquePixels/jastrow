@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00474",
-	"slug": "חורן-1",
-	"headword": {
-		"text": "חַוְרָן"
-	},
+	"sefariaHeadword": "חַוְרָן",
+	"headwords": [
+		{
+			"text": "חַוְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00040",
-	"slug": "חבט-1",
-	"headword": {
-		"text": "חָבַט"
-	},
+	"sefariaHeadword": "חָבַט",
+	"headwords": [
+		{
+			"text": "חָבַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 417,
 		"column": "a"

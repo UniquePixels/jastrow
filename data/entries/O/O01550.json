@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01550",
-	"slug": "סרהוביא",
-	"headword": {
-		"text": "סַרְהוֹבְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְהוֹבְיָא",
+	"headwords": [
+		{
+			"text": "סַרְהוֹבְיָא"
+		},
 		{
 			"text": "סַרְהוֹבְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1023,
 		"column": "b"

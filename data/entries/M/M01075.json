@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01075",
-	"slug": "מי-4",
-	"headword": {
-		"text": "מַי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מַי ²",
+	"headwords": [
+		{
+			"text": "מַי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 770,
 		"column": "b"

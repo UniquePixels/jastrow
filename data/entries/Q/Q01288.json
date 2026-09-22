@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01288",
-	"slug": "פסילה",
-	"headword": {
-		"text": "פְּסִילָה"
-	},
+	"sefariaHeadword": "פְּסִילָה",
+	"headwords": [
+		{
+			"text": "פְּסִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "a"

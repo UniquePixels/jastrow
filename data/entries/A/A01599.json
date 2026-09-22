@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01599",
-	"slug": "איקלס",
-	"headword": {
-		"text": "אִיקְלַס"
-	},
+	"sefariaHeadword": "אִיקְלַס",
+	"headwords": [
+		{
+			"text": "אִיקְלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00282",
-	"slug": "יחטא",
-	"headword": {
-		"text": "יַחֲטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַחֲטָא",
+	"headwords": [
+		{
+			"text": "יַחֲטָא"
+		},
 		{
 			"text": "יַחָטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 574,
 		"column": "a"

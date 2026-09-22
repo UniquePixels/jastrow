@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00571",
-	"slug": "גזע-2",
-	"headword": {
-		"text": "גֶּזַע"
-	},
+	"sefariaHeadword": "גֶּזַע",
+	"headwords": [
+		{
+			"text": "גֶּזַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 231,
 		"column": "a"

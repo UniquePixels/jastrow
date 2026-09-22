@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00338",
-	"slug": "יינון",
-	"headword": {
-		"text": "יִינוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִינוּן",
+	"headwords": [
+		{
+			"text": "יִינוּן"
+		},
 		{
 			"text": "יִנוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 576,
 		"column": "b"

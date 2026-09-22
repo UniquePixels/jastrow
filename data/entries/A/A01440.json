@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01440",
-	"slug": "איסטיס-1",
-	"headword": {
-		"text": "איסטיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איסטיס",
+	"headwords": [
+		{
+			"text": "איסטיס"
+		},
 		{
 			"text": "איסטית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 55,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01496",
-	"slug": "שמן-1",
-	"headword": {
-		"text": "שָׁמֵן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שָׁמֵן I",
+	"headwords": [
+		{
+			"text": "שָׁמֵן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1597,
 		"column": "a"

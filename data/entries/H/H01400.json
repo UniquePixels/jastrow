@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01400",
-	"slug": "חסם-4",
-	"headword": {
-		"text": "חֲסַם",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חֲסַם ²",
+	"headwords": [
+		{
+			"text": "חֲסַם",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 488,
 		"column": "b"

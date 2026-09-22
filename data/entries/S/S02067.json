@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02067",
-	"slug": "קרינטון",
-	"headword": {
-		"text": "קרינטון"
-	},
+	"sefariaHeadword": "קרינטון",
+	"headwords": [
+		{
+			"text": "קרינטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

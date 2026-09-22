@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01922",
-	"slug": "מסימיס",
-	"headword": {
-		"text": "מְסִימִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסִימִיס",
+	"headwords": [
+		{
+			"text": "מְסִימִיס"
+		},
 		{
 			"text": "מִיסְמֵס"
 		},
 		{
-			"text": "מוּסְ׳"
+			"text": "מוּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 806,
 		"column": "b"

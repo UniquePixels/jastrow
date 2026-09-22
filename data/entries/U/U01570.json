@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01570",
-	"slug": "שנה-1",
-	"headword": {
-		"text": "שָׁנָה"
-	},
+	"sefariaHeadword": "שָׁנָה",
+	"headwords": [
+		{
+			"text": "שָׁנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "b"

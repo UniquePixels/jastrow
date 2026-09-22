@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01912",
-	"slug": "שרב-2",
-	"headword": {
-		"text": "שְׁרֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁרֵב",
+	"headwords": [
+		{
+			"text": "שְׁרֵב"
+		},
 		{
 			"text": "שְׁרֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1627,
 		"column": "a"

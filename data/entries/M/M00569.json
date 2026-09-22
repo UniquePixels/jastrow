@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00569",
-	"slug": "מוץ-2",
-	"headword": {
-		"text": "מוֹץ"
-	},
+	"sefariaHeadword": "מוֹץ",
+	"headwords": [
+		{
+			"text": "מוֹץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "b"

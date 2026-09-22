@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00066",
-	"slug": "שבבא",
-	"headword": {
-		"text": "שֵׁבָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁבָבָא",
+	"headwords": [
+		{
+			"text": "שֵׁבָבָא"
+		},
 		{
 			"text": "שֵׁבְבוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1510,
 		"column": "a"

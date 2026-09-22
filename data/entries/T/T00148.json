@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00148",
-	"slug": "רברבותא",
-	"headword": {
-		"text": "רַבְרְבוּתָא"
-	},
+	"sefariaHeadword": "רַבְרְבוּתָא",
+	"headwords": [
+		{
+			"text": "רַבְרְבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

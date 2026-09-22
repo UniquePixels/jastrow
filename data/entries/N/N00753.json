@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00753",
-	"slug": "ניצוציא",
-	"headword": {
-		"text": "נִיצוֹצְיָא"
-	},
+	"sefariaHeadword": "נִיצוֹצְיָא",
+	"headwords": [
+		{
+			"text": "נִיצוֹצְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

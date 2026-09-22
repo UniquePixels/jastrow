@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00661",
-	"slug": "סילונית",
-	"headword": {
-		"text": "סילונית"
-	},
+	"sefariaHeadword": "סילונית",
+	"headwords": [
+		{
+			"text": "סילונית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

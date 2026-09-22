@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C01394",
-	"slug": "גרר-3",
-	"headword": {
-		"text": "גָּרַר",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גָּרַר II",
+	"headwords": [
+		{
+			"text": "גָּרַר",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 272,
 		"column": "b"

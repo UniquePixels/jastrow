@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00949",
-	"slug": "רפיע",
-	"headword": {
-		"text": "רְפִיעַ"
-	},
+	"sefariaHeadword": "רְפִיעַ",
+	"headwords": [
+		{
+			"text": "רְפִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1490,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01196",
-	"slug": "נקי-4",
-	"headword": {
-		"text": "נָקִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נָקִי II",
+	"headwords": [
+		{
+			"text": "נָקִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 932,
 		"column": "b"

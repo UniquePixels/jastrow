@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00649",
-	"slug": "פיילי-1",
-	"headword": {
-		"text": "פְּיָילִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּיָילִי I",
+	"headwords": [
+		{
+			"text": "פְּיָילִי",
+			"homograph": 1
+		},
 		{
 			"text": "פְּיָילָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1162,
 		"column": "b"

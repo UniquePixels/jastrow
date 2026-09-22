@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01379",
-	"slug": "ערכאות",
-	"headword": {
-		"text": "עַרְכָאוֹת"
-	},
+	"sefariaHeadword": "עַרְכָאוֹת",
+	"headwords": [
+		{
+			"text": "עַרְכָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1119,
 		"column": "a"

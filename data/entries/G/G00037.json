@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00037",
-	"slug": "זבילא-2",
-	"headword": {
-		"text": "זְבִילָא"
-	},
+	"sefariaHeadword": "זְבִילָא",
+	"headwords": [
+		{
+			"text": "זְבִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "b"

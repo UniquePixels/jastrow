@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00265",
-	"slug": "שדוכיא",
-	"headword": {
-		"text": "שְׁדוּכְיָא"
-	},
+	"sefariaHeadword": "שְׁדוּכְיָא",
+	"headwords": [
+		{
+			"text": "שְׁדוּכְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1524,
 		"column": "a"

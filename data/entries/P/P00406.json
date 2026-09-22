@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00406",
-	"slug": "עזיא",
-	"headword": {
-		"text": "עֻזְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֻזְיָא",
+	"headwords": [
+		{
+			"text": "עֻזְיָא"
+		},
 		{
 			"text": "עֻזְיָה"
 		},
 		{
-			"text": "עַזְ׳"
+			"text": "עַזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1061,
 		"column": "b"

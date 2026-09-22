@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00149",
-	"slug": "לדקי",
-	"headword": {
-		"text": "לִדְקִי"
-	},
+	"sefariaHeadword": "לִדְקִי",
+	"headwords": [
+		{
+			"text": "לִדְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

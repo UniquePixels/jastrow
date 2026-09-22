@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00343",
-	"slug": "בורגנרה",
-	"headword": {
-		"text": "בורגנרה"
-	},
+	"sefariaHeadword": "בורגנרה",
+	"headwords": [
+		{
+			"text": "בורגנרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

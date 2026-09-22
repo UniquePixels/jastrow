@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00053",
-	"slug": "כביסה",
-	"headword": {
-		"text": "כְּבִיסָה"
-	},
+	"sefariaHeadword": "כְּבִיסָה",
+	"headwords": [
+		{
+			"text": "כְּבִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

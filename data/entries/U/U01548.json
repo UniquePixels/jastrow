@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01548",
-	"slug": "שמשוץ",
-	"headword": {
-		"text": "שִׁמְשׁוֹץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁמְשׁוֹץ",
+	"headwords": [
+		{
+			"text": "שִׁמְשׁוֹץ"
+		},
 		{
 			"text": "שִׁמְשׁוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1603,
 		"column": "a"

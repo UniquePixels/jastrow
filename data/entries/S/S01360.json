@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01360",
-	"slug": "קלמא-2",
-	"headword": {
-		"text": "קלמא"
-	},
+	"sefariaHeadword": "קלמא",
+	"headwords": [
+		{
+			"text": "קלמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

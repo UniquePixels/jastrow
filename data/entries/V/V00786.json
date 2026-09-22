@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00786",
-	"slug": "תענוג",
-	"headword": {
-		"text": "תַּענוּג"
-	},
+	"sefariaHeadword": "תַּענוּג",
+	"headwords": [
+		{
+			"text": "תַּענוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "a"

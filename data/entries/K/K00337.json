@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00337",
-	"slug": "כופח",
-	"headword": {
-		"text": "כּוּפָּח"
-	},
+	"sefariaHeadword": "כּוּפָּח",
+	"headwords": [
+		{
+			"text": "כּוּפָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

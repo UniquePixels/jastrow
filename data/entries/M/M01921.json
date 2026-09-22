@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01921",
-	"slug": "מסילה",
-	"headword": {
-		"text": "מְסִילָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסִילָּה",
+	"headwords": [
+		{
+			"text": "מְסִילָּה"
+		},
 		{
 			"text": "מְסִלָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 806,
 		"column": "b"

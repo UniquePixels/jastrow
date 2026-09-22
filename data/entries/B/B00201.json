@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00201",
-	"slug": "בואת",
-	"headword": {
-		"text": "בואת"
-	},
+	"sefariaHeadword": "בואת",
+	"headwords": [
+		{
+			"text": "בואת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

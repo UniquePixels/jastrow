@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02009",
-	"slug": "אמורים",
-	"headword": {
-		"text": "אֲמוּרִים"
-	},
+	"sefariaHeadword": "אֲמוּרִים",
+	"headwords": [
+		{
+			"text": "אֲמוּרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

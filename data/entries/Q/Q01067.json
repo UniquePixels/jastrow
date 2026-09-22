@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01067",
-	"slug": "פליספוס",
-	"headword": {
-		"text": "פליספוס"
-	},
+	"sefariaHeadword": "פליספוס",
+	"headwords": [
+		{
+			"text": "פליספוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

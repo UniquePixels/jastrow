@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00285",
-	"slug": "כולתא",
-	"headword": {
-		"text": "כּוּלְתָא"
-	},
+	"sefariaHeadword": "כּוּלְתָא",
+	"headwords": [
+		{
+			"text": "כּוּלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01729",
-	"slug": "פרוקופי",
-	"headword": {
-		"text": "פְּרוֹקוֹפִּי"
-	},
+	"sefariaHeadword": "פְּרוֹקוֹפִּי",
+	"headwords": [
+		{
+			"text": "פְּרוֹקוֹפִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

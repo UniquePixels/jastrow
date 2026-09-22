@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01111",
-	"slug": "דרנא",
-	"headword": {
-		"text": "דַּרְנָא"
-	},
+	"sefariaHeadword": "דַּרְנָא",
+	"headwords": [
+		{
+			"text": "דַּרְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

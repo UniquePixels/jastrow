@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01869",
-	"slug": "חשש-2",
-	"headword": {
-		"text": "חֲשַׁשׁ"
-	},
+	"sefariaHeadword": "חֲשַׁשׁ",
+	"headwords": [
+		{
+			"text": "חֲשַׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "a"

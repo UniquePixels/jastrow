@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00561",
-	"slug": "מועט",
-	"headword": {
-		"text": "מוּעָט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּעָט",
+	"headwords": [
+		{
+			"text": "מוּעָט"
+		},
 		{
 			"text": "מוּעֶטֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 746,
 		"column": "a"

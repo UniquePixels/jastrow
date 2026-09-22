@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00475",
-	"slug": "זל",
-	"headword": {
-		"text": "זָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָל",
+	"headwords": [
+		{
+			"text": "זָל"
+		},
 		{
 			"text": "זַל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 401,
 		"column": "a"

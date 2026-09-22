@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01593",
-	"slug": "פרדסקין",
-	"headword": {
-		"text": "פַּרְדַּסְקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְדַּסְקִין",
+	"headwords": [
+		{
+			"text": "פַּרְדַּסְקִין"
+		},
 		{
 			"text": "פרסטקין"
 		},
 		{
-			"text": "פרסתק׳"
+			"text": "פרסתק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 1216,
 		"column": "a"

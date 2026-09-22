@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00295",
-	"slug": "חוט-3",
-	"headword": {
-		"text": "חוּט"
-	},
+	"sefariaHeadword": "חוּט",
+	"headwords": [
+		{
+			"text": "חוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 431,
 		"column": "a"

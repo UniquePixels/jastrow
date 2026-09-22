@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01359",
-	"slug": "חסורין",
-	"headword": {
-		"text": "חֲסוֹרִין"
-	},
+	"sefariaHeadword": "חֲסוֹרִין",
+	"headwords": [
+		{
+			"text": "חֲסוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

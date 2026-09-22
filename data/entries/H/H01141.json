@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01141",
-	"slug": "חמא-5",
-	"headword": {
-		"text": "חַמָּא"
-	},
+	"sefariaHeadword": "חַמָּא",
+	"headwords": [
+		{
+			"text": "חַמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "a"

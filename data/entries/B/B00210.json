@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00210",
-	"slug": "בוגר",
-	"headword": {
-		"text": "בּוֹגֶר"
-	},
+	"sefariaHeadword": "בּוֹגֶר",
+	"headwords": [
+		{
+			"text": "בּוֹגֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

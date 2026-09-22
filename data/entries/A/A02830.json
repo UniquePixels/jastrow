@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02830",
-	"slug": "אפרכסת",
-	"headword": {
-		"text": "אֲפַרְכֶסֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲפַרְכֶסֶת",
+	"headwords": [
+		{
+			"text": "אֲפַרְכֶסֶת"
+		},
 		{
 			"text": "אֲפַרְכֵס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 109,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02179",
-	"slug": "אנטיטיה",
-	"headword": {
-		"text": "אנטיטיה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אנטיטיה",
+	"headwords": [
+		{
+			"text": "אנטיטיה",
+			"reconstructed": true
+		},
 		{
 			"text": "אנטינייא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 83,
 		"column": "b"

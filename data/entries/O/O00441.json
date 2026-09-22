@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00441",
-	"slug": "סותורייתא",
-	"headword": {
-		"text": "סותורייתא"
-	},
+	"sefariaHeadword": "סותורייתא",
+	"headwords": [
+		{
+			"text": "סותורייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

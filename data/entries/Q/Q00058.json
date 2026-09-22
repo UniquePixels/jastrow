@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00058",
-	"slug": "פגים",
-	"headword": {
-		"text": "פָּגִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּגִים",
+	"headwords": [
+		{
+			"text": "פָּגִים"
+		},
 		{
 			"text": "פְּגִימָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּגִימְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1132,
 		"column": "b"

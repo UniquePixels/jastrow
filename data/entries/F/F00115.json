@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00115",
-	"slug": "ותר-1",
-	"headword": {
-		"text": "וָתַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָתַר",
+	"headwords": [
+		{
+			"text": "וָתַר"
+		},
 		{
 			"text": "וָותַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 376,
 		"column": "b"

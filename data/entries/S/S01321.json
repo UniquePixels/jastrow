@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01321",
-	"slug": "קלי-8",
-	"headword": {
-		"text": "קָלִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָלִי ²",
+	"headwords": [
+		{
+			"text": "קָלִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קְלֵי",
 			"homograph": 2
@@ -15,6 +16,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} II, {2} I",
 	"page": {
 		"number": 1375,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00552",
-	"slug": "רטב-4",
-	"headword": {
-		"text": "רֶטֶב"
-	},
+	"sefariaHeadword": "רֶטֶב",
+	"headwords": [
+		{
+			"text": "רֶטֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "a"

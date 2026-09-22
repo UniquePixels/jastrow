@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00648",
-	"slug": "זקנותא",
-	"headword": {
-		"text": "זִקְנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִקְנוּתָא",
+	"headwords": [
+		{
+			"text": "זִקְנוּתָא"
+		},
 		{
 			"text": "זִקְנְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 409,
 		"column": "b"

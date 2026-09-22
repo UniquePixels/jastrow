@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00056",
-	"slug": "יבלן",
-	"headword": {
-		"text": "יַבְּלָן"
-	},
+	"sefariaHeadword": "יַבְּלָן",
+	"headwords": [
+		{
+			"text": "יַבְּלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 561,
 		"column": "a"

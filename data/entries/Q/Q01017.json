@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01017",
-	"slug": "פלטייאני",
-	"headword": {
-		"text": "פלטייאני"
-	},
+	"sefariaHeadword": "פלטייאני",
+	"headwords": [
+		{
+			"text": "פלטייאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "b"

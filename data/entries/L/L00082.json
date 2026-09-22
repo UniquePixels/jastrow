@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00082",
-	"slug": "לבך",
-	"headword": {
-		"text": "לְבַךְ"
-	},
+	"sefariaHeadword": "לְבַךְ",
+	"headwords": [
+		{
+			"text": "לְבַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

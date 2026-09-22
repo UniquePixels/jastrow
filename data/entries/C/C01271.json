@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01271",
-	"slug": "גרדא",
-	"headword": {
-		"text": "גַּרְדָּא"
-	},
+	"sefariaHeadword": "גַּרְדָּא",
+	"headwords": [
+		{
+			"text": "גַּרְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 265,
 		"column": "b"

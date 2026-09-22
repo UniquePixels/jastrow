@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02985",
-	"slug": "ארגזא",
-	"headword": {
-		"text": "אַרְגָּזָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְגָּזָא",
+	"headwords": [
+		{
+			"text": "אַרְגָּזָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00013",
-	"slug": "צארי",
-	"headword": {
-		"text": "צָארֵי"
-	},
+	"sefariaHeadword": "צָארֵי",
+	"headwords": [
+		{
+			"text": "צָארֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

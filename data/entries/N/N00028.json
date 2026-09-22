@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00028",
-	"slug": "נאץ",
-	"headword": {
-		"text": "נָאַץ"
-	},
+	"sefariaHeadword": "נָאַץ",
+	"headwords": [
+		{
+			"text": "נָאַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "b"

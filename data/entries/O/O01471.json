@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01471",
-	"slug": "סקילה",
-	"headword": {
-		"text": "סְקִילָה"
-	},
+	"sefariaHeadword": "סְקִילָה",
+	"headwords": [
+		{
+			"text": "סְקִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

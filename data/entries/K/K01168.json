@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01168",
-	"slug": "כרים",
-	"headword": {
-		"text": "כרים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כרים",
+	"headwords": [
+		{
+			"text": "כרים"
+		},
 		{
 			"text": "כְּרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 667,
 		"column": "a"

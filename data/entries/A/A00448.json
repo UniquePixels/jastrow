@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00448",
-	"slug": "אדרא-2",
-	"headword": {
-		"text": "אַדְרָא"
-	},
+	"sefariaHeadword": "אַדְרָא",
+	"headwords": [
+		{
+			"text": "אַדְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "a"

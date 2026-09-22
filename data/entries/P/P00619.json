@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00619",
-	"slug": "עינותא-2",
-	"headword": {
-		"text": "עֵינוּתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עֵינוּתָא",
+	"headwords": [
+		{
+			"text": "עֵינוּתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

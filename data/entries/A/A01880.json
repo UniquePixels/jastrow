@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01880",
-	"slug": "אלישע",
-	"headword": {
-		"text": "אֶלִישָׁע"
-	},
+	"sefariaHeadword": "אֶלִישָׁע",
+	"headwords": [
+		{
+			"text": "אֶלִישָׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00876",
-	"slug": "חירות-1",
-	"headword": {
-		"text": "חֵירוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵירוּת",
+	"headwords": [
+		{
+			"text": "חֵירוּת"
+		},
 		{
 			"text": "חֵרוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

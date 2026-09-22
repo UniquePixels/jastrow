@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00802",
-	"slug": "עליל-1",
-	"headword": {
-		"text": "עַלֵּיל"
-	},
+	"sefariaHeadword": "עַלֵּיל",
+	"headwords": [
+		{
+			"text": "עַלֵּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "a"

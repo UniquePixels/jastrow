@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02444",
-	"slug": "אסיפה",
-	"headword": {
-		"text": "אֲסִיפָה"
-	},
+	"sefariaHeadword": "אֲסִיפָה",
+	"headwords": [
+		{
+			"text": "אֲסִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

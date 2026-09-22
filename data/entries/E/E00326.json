@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00326",
-	"slug": "ה״י",
-	"headword": {
-		"text": "ה״י"
-	},
+	"sefariaHeadword": "ה\"י",
+	"headwords": [
+		{
+			"text": "ה״י"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

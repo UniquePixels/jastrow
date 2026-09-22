@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01015",
-	"slug": "נעתא",
-	"headword": {
-		"text": "נָעָתָא"
-	},
+	"sefariaHeadword": "נָעָתָא",
+	"headwords": [
+		{
+			"text": "נָעָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

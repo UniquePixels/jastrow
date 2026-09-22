@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01951",
-	"slug": "קרון",
-	"headword": {
-		"text": "קָרוֹן"
-	},
+	"sefariaHeadword": "קָרוֹן",
+	"headwords": [
+		{
+			"text": "קָרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

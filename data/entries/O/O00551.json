@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00551",
-	"slug": "סיג-3",
-	"headword": {
-		"text": "סְיָג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְיָג",
+	"headwords": [
+		{
+			"text": "סְיָג"
+		},
 		{
 			"text": "סְיָגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "b"

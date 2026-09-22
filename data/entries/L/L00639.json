@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00639",
-	"slug": "לפיף",
-	"headword": {
-		"text": "לָפֵיף"
-	},
+	"sefariaHeadword": "לָפֵיף",
+	"headwords": [
+		{
+			"text": "לָפֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "b"

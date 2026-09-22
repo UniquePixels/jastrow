@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00326",
-	"slug": "רווח-1",
-	"headword": {
-		"text": "רָוַוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָוַוח",
+	"headwords": [
+		{
+			"text": "רָוַוח"
+		},
 		{
 			"text": "רָוַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1456,
 		"column": "b"
@@ -17,7 +19,7 @@
 		{
 			"gloss": " (b. h.) <i>to be wide, roomy; to spread</i>. ",
 			"units": [
-				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:4:3\">Y. Snh. I, 19ᶜ</cite> top <he>משם התורה יוצאה ורווַֹחַת וכ׳</he> from there (the hall of the Sanhedrin) the law went forth and spread (with authority) for all Israel; Tosef. ib. VII, 1; <cite ref=\"Tosefta Chagigah 2:9\">Tosef. Ḥag. II, 9</cite>. ",
+				"<cite ref=\"Jerusalem Talmud Sanhedrin 1:4:3\">Y. Snh. I, 19ᶜ</cite> top <he>משם התורה יוצאה ורווַֹחַת וכ׳</he> from there (the hall of the Sanhedrin) the law went forth and spread (with authority) for all Israel; Tosef. ib. VII, 1; <cite ref=\"Tosefta Chagigah 2:9\">Tosef. Ḥag. II, 9</cite>. ",
 				"<cite ref=\"Jerusalem Talmud Yevamot 1:6:3\">Y. Yeb. I, 3ᵃ</cite> bot. <he>ראה … רווחת בישראל</he> see how this decision will spread (what its effect will be) in Israel; a. e.—Part. pass. <he>רָווּחַ</he>; pl. <he>רְווּחִים</he>. ",
 				"<cite ref=\"Pirkei Avot 5:5\">Ab. V, 5</cite>, a. e. <he>משתחוים</he>, <he>ר׳</he>, v. <cite ref=\"R00705\"><he>צָפַף</he></cite>; [Mish. ed. <he>רְוָחִים</he>, pl. of <cite ref=\"T00343\"><he>רָוָח</he></cite>.]"
 			]

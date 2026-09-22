@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01634",
-	"slug": "שעה-1",
-	"headword": {
-		"text": "שָׁעָה"
-	},
+	"sefariaHeadword": "שָׁעָה",
+	"headwords": [
+		{
+			"text": "שָׁעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1609,
 		"column": "b"

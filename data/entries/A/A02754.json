@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02754",
-	"slug": "אפסחתיה",
-	"headword": {
-		"text": "אפסחתיה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אפסחתיה",
+	"headwords": [
+		{
+			"text": "אפסחתיה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

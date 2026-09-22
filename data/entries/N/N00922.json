@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00922",
-	"slug": "נסורתה",
-	"headword": {
-		"text": "נְסוֹרְתָּה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נְסוֹרְתָּה",
+	"headwords": [
+		{
+			"text": "נְסוֹרְתָּה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 915,
 		"column": "b"

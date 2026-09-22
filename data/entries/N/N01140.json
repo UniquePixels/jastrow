@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01140",
-	"slug": "נצץ-2",
-	"headword": {
-		"text": "נְצַץ"
-	},
+	"sefariaHeadword": "נְצַץ",
+	"headwords": [
+		{
+			"text": "נְצַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "b"

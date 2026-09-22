@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01697",
-	"slug": "חרירא",
-	"headword": {
-		"text": "חֲרִירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרִירָא",
+	"headwords": [
+		{
+			"text": "חֲרִירָא"
+		},
 		{
 			"text": "חֲרִירָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "b"

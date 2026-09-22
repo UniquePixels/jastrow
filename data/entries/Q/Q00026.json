@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00026",
-	"slug": "פארדוכסוס",
-	"headword": {
-		"text": "פארדוכסוס"
-	},
+	"sefariaHeadword": "פארדוכסוס",
+	"headwords": [
+		{
+			"text": "פארדוכסוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

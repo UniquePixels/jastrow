@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00758",
-	"slug": "מזיק-2",
-	"headword": {
-		"text": "מַזִּיק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַזִּיק ²",
+	"headwords": [
+		{
+			"text": "מַזִּיק",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַזִּיקָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 755,
 		"column": "a"

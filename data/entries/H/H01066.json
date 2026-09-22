@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01066",
-	"slug": "חליש-1",
-	"headword": {
-		"text": "חָלִישׁ"
-	},
+	"sefariaHeadword": "חָלִישׁ",
+	"headwords": [
+		{
+			"text": "חָלִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "b"

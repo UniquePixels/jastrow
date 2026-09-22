@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00119",
-	"slug": "שביח",
-	"headword": {
-		"text": "שְׁבִיחַ"
-	},
+	"sefariaHeadword": "שְׁבִיחַ",
+	"headwords": [
+		{
+			"text": "שְׁבִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1513,
 		"column": "b"

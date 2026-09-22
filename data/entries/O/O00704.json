@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00704",
-	"slug": "סימיי",
-	"headword": {
-		"text": "סִימַיי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימַיי",
+	"headwords": [
+		{
+			"text": "סִימַיי"
+		},
 		{
 			"text": "סִימַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "a"

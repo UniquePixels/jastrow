@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00432",
-	"slug": "שולמית",
-	"headword": {
-		"text": "שׁוּלַמִּית"
-	},
+	"sefariaHeadword": "שׁוּלַמִּית",
+	"headwords": [
+		{
+			"text": "שׁוּלַמִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1535,
 		"column": "a"

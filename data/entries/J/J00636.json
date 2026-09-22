@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00636",
-	"slug": "יריכונא",
-	"headword": {
-		"text": "יְרֵיכוֹנָא"
-	},
+	"sefariaHeadword": "יְרֵיכוֹנָא",
+	"headwords": [
+		{
+			"text": "יְרֵיכוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

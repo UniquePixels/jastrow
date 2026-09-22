@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00993",
-	"slug": "שיעלא",
-	"headword": {
-		"text": "שִׁיעֲלָא"
-	},
+	"sefariaHeadword": "שִׁיעֲלָא",
+	"headwords": [
+		{
+			"text": "שִׁיעֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "b"

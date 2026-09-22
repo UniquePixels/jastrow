@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00956",
-	"slug": "גליצור",
-	"headword": {
-		"text": "גַּלִּיצוּר"
-	},
+	"sefariaHeadword": "גַּלִּיצוּר",
+	"headwords": [
+		{
+			"text": "גַּלִּיצוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "b"

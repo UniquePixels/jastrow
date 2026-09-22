@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00047",
-	"slug": "הבער",
-	"headword": {
-		"text": "הֶבְעֵר"
-	},
+	"sefariaHeadword": "הֶבְעֵר",
+	"headwords": [
+		{
+			"text": "הֶבְעֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "a"

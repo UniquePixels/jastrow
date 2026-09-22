@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01862",
-	"slug": "קקו",
-	"headword": {
-		"text": "קָקוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָקוֹ",
+	"headwords": [
 		{
-			"text": "קָקוֹ פדיפטי"
+			"text": "קָקוֹ"
+		},
+		{
+			"text": "ק׳ פדיפטי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "a"

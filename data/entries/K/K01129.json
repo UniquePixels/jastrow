@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01129",
-	"slug": "כרופייתא",
-	"headword": {
-		"text": "כְּרוֹפְיָיתָא"
-	},
+	"sefariaHeadword": "כְּרוֹפְיָיתָא",
+	"headwords": [
+		{
+			"text": "כְּרוֹפְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

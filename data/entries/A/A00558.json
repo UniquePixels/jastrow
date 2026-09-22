@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00558",
-	"slug": "אודיאר",
-	"headword": {
-		"text": "אודיאר"
-	},
+	"sefariaHeadword": "אודיאר",
+	"headwords": [
+		{
+			"text": "אודיאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

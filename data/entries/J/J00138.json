@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00138",
-	"slug": "יהט",
-	"headword": {
-		"text": "יהט"
-	},
+	"sefariaHeadword": "יהט",
+	"headwords": [
+		{
+			"text": "יהט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

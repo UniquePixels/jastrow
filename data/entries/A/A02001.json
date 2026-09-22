@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02001",
-	"slug": "אמונה",
-	"headword": {
-		"text": "אֱמוּנָה"
-	},
+	"sefariaHeadword": "אֱמוּנָה",
+	"headwords": [
+		{
+			"text": "אֱמוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

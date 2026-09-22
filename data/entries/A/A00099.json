@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00099",
-	"slug": "אבטיח",
-	"headword": {
-		"text": "אֲבַטִּיחַ"
-	},
+	"sefariaHeadword": "אֲבַטִּיחַ",
+	"headwords": [
+		{
+			"text": "אֲבַטִּיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

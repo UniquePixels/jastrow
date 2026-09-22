@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00721",
-	"slug": "יתום-2",
-	"headword": {
-		"text": "יָתוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָתוֹם ²",
+	"headwords": [
+		{
+			"text": "יָתוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "יְתוֹמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 603,
 		"column": "b"

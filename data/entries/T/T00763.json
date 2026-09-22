@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00763",
-	"slug": "רכיכו",
-	"headword": {
-		"text": "רַכִּיכוּ"
-	},
+	"sefariaHeadword": "רַכִּיכוּ",
+	"headwords": [
+		{
+			"text": "רַכִּיכוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

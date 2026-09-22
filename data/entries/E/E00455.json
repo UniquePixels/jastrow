@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00455",
-	"slug": "הינדיקי",
-	"headword": {
-		"text": "הִינְדִּיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִינְדִּיקִי",
+	"headwords": [
 		{
-			"text": "הִנְ׳"
+			"text": "הִינְדִּיקִי"
+		},
+		{
+			"text": "הִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 348,
 		"column": "a"

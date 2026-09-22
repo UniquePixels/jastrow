@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01756",
-	"slug": "קפלטות",
-	"headword": {
-		"text": "קַפְלָטוֹת"
-	},
+	"sefariaHeadword": "קַפְלָטוֹת",
+	"headwords": [
+		{
+			"text": "קַפְלָטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00546",
-	"slug": "כיליא",
-	"headword": {
-		"text": "כִּילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּילְיָא",
+	"headwords": [
+		{
+			"text": "כִּילְיָא"
+		},
 		{
 			"text": "כִּילְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 632,
 		"column": "b"

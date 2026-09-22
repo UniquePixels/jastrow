@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00639",
-	"slug": "תלתל",
-	"headword": {
-		"text": "תַּלְתַּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּלְתַּל",
+	"headwords": [
+		{
+			"text": "תַּלְתַּל"
+		},
 		{
 			"text": "תַּלְתַּלִּים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1674,
 		"column": "b"

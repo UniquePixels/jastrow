@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01262",
-	"slug": "כרפוונה",
-	"headword": {
-		"text": "כרפוונה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כרפוונה",
+	"headwords": [
+		{
+			"text": "כרפוונה"
+		},
 		{
 			"text": "כרפוזנה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 673,
 		"column": "a"

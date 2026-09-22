@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03069",
-	"slug": "ארטבן",
-	"headword": {
-		"text": "אַרְטְבַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְטְבַן",
+	"headwords": [
+		{
+			"text": "אַרְטְבַן"
+		},
 		{
 			"text": "אַרְטְבָאן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 118,
 		"column": "a"

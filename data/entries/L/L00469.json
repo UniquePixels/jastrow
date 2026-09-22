@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00469",
-	"slug": "לילו",
-	"headword": {
-		"text": "לֵילוּ"
-	},
+	"sefariaHeadword": "לֵילוּ",
+	"headwords": [
+		{
+			"text": "לֵילוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

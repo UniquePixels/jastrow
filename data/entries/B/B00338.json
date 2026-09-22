@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00338",
-	"slug": "בורגין",
-	"headword": {
-		"text": "בּוּרְגִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּרְגִּין",
+	"headwords": [
+		{
+			"text": "בּוּרְגִּין"
+		},
 		{
 			"text": "בּוּרְגִּן"
 		},
@@ -12,6 +13,7 @@
 			"text": "בּוּרְגָּס"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 149,
 		"column": "a"

@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00399",
-	"slug": "רומקי-1",
-	"headword": {
-		"text": "רוּמְקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּמְקִי",
+	"headwords": [
 		{
-			"text": "כְּרַךְ רוּמְקִי"
+			"text": "רוּמְקִי"
+		},
+		{
+			"text": "כְּרַךְ ר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1461,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

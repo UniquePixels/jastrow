@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00437",
-	"slug": "תיימת",
-	"headword": {
-		"text": "תַּיֶּימֶת"
-	},
+	"sefariaHeadword": "תַּיֶּימֶת",
+	"headwords": [
+		{
+			"text": "תַּיֶּימֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

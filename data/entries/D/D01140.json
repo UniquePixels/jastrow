@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01140",
-	"slug": "דשדש",
-	"headword": {
-		"text": "דַּשְׁדֵּשׁ"
-	},
+	"sefariaHeadword": "דַּשְׁדֵּשׁ",
+	"headwords": [
+		{
+			"text": "דַּשְׁדֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "a"

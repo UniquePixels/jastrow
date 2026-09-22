@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00401",
-	"slug": "אדין",
-	"headword": {
-		"text": "אֱדַיִן"
-	},
+	"sefariaHeadword": "אֱדַיִן",
+	"headwords": [
+		{
+			"text": "אֱדַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

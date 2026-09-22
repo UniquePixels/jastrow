@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00686",
-	"slug": "סימא-4",
-	"headword": {
-		"text": "סימא"
-	},
+	"sefariaHeadword": "סימא",
+	"headwords": [
+		{
+			"text": "סימא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01666",
-	"slug": "ממיקנותא",
-	"headword": {
-		"text": "מְמִיקְנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְמִיקְנוּתָא",
+	"headwords": [
 		{
-			"text": "מְמִקְ׳"
+			"text": "מְמִיקְנוּתָא"
+		},
+		{
+			"text": "מְמִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 795,
 		"column": "a"

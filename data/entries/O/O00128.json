@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00128",
-	"slug": "סגיאותא",
-	"headword": {
-		"text": "סְגִיאוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגִיאוּתָא",
+	"headwords": [
+		{
+			"text": "סְגִיאוּתָא"
+		},
 		{
 			"text": "סְגִיּוּתָא"
 		},
 		{
-			"text": "סַגְיוּ׳"
+			"text": "סַגְיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 954,
 		"column": "b"

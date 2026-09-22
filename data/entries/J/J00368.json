@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00368",
-	"slug": "ילד-2",
-	"headword": {
-		"text": "יְלֵד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְלֵד",
+	"headwords": [
+		{
+			"text": "יְלֵד"
+		},
 		{
 			"text": "יְלֵיד"
 		},
@@ -12,6 +13,7 @@
 			"text": "יְלִיד"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 578,
 		"column": "a"

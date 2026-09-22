@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00234",
-	"slug": "גדנפא",
-	"headword": {
-		"text": "גְּדָנְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּדָנְפָא",
+	"headwords": [
+		{
+			"text": "גְּדָנְפָא"
+		},
 		{
 			"text": "גַּדְפָנָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 213,
 		"column": "b"

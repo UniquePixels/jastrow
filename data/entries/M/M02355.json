@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02355",
-	"slug": "מצר-4",
-	"headword": {
-		"text": "מְצַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מְצַר ²",
+	"headwords": [
+		{
+			"text": "מְצַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 827,
 		"column": "b"

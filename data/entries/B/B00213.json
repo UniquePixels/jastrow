@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00213",
-	"slug": "בודחא",
-	"headword": {
-		"text": "בּוּדְחָא"
-	},
+	"sefariaHeadword": "בּוּדְחָא",
+	"headwords": [
+		{
+			"text": "בּוּדְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

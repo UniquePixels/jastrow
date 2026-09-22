@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00088",
-	"slug": "גבילית",
-	"headword": {
-		"text": "גְּבִילִית"
-	},
+	"sefariaHeadword": "גְּבִילִית",
+	"headwords": [
+		{
+			"text": "גְּבִילִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

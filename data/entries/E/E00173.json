@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00173",
-	"slug": "הה-2",
-	"headword": {
-		"text": "הֵה"
-	},
+	"sefariaHeadword": "הֵה",
+	"headwords": [
+		{
+			"text": "הֵה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01280",
-	"slug": "נש",
-	"headword": {
-		"text": "נָשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָשׁ",
+	"headwords": [
+		{
+			"text": "נָשׁ"
+		},
 		{
 			"text": "נָשָׁא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 937,
 		"column": "a"

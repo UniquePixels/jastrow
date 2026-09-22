@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00142",
-	"slug": "נגוסטרי",
-	"headword": {
-		"text": "נגוסטרי"
-	},
+	"sefariaHeadword": "נגוסטרי",
+	"headwords": [
+		{
+			"text": "נגוסטרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "b"

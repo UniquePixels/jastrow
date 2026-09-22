@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00998",
-	"slug": "חלום-1",
-	"headword": {
-		"text": "חָלוּם"
-	},
+	"sefariaHeadword": "חָלוּם",
+	"headwords": [
+		{
+			"text": "חָלוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 465,
 		"column": "b"

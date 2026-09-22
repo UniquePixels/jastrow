@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01656",
-	"slug": "סרסרות",
-	"headword": {
-		"text": "סַרְסָרוּת"
-	},
+	"sefariaHeadword": "סַרְסָרוּת",
+	"headwords": [
+		{
+			"text": "סַרְסָרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1029,
 		"column": "b"

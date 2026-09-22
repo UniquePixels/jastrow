@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00798",
-	"slug": "תפארות",
-	"headword": {
-		"text": "תפארות"
-	},
+	"sefariaHeadword": "תפארות",
+	"headwords": [
+		{
+			"text": "תפארות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "b"

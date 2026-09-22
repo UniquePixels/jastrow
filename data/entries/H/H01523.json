@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01523",
-	"slug": "חציף",
-	"headword": {
-		"text": "חָצִיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָצִיף",
+	"headwords": [
+		{
+			"text": "חָצִיף"
+		},
 		{
 			"text": "חֲצִיפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 495,
 		"column": "b"

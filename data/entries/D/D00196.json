@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00196",
-	"slug": "דודא-2",
-	"headword": {
-		"text": "דּוּדָא"
-	},
+	"sefariaHeadword": "דּוּדָא",
+	"headwords": [
+		{
+			"text": "דּוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

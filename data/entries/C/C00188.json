@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "C00188",
-	"slug": "גדורא",
-	"headword": {
-		"text": "גְּדוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּדוּרָא",
+	"headwords": [
+		{
+			"text": "גְּדוּרָא"
+		},
 		{
 			"text": "גְּדוּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 211,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

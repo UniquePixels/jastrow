@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01786",
-	"slug": "שפע-1",
-	"headword": {
-		"text": "שָׁפַע"
-	},
+	"sefariaHeadword": "שָׁפַע",
+	"headwords": [
+		{
+			"text": "שָׁפַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1618,
 		"column": "a"

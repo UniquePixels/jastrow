@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00299",
-	"slug": "נובר",
-	"headword": {
-		"text": "נוֹבַר"
-	},
+	"sefariaHeadword": "נוֹבַר",
+	"headwords": [
+		{
+			"text": "נוֹבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

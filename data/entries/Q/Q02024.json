@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02024",
-	"slug": "פרש-5",
-	"headword": {
-		"text": "פֶּרֶשׁ"
-	},
+	"sefariaHeadword": "פֶּרֶשׁ",
+	"headwords": [
+		{
+			"text": "פֶּרֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1243,
 		"column": "a"

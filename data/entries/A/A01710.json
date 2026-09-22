@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01710",
-	"slug": "אכלים",
-	"headword": {
-		"text": "אכלים"
-	},
+	"sefariaHeadword": "אכלים",
+	"headwords": [
+		{
+			"text": "אכלים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

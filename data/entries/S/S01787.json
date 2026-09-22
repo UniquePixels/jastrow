@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01787",
-	"slug": "קצדור",
-	"headword": {
-		"text": "קַצְדּוֹר"
-	},
+	"sefariaHeadword": "קַצְדּוֹר",
+	"headwords": [
+		{
+			"text": "קַצְדּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

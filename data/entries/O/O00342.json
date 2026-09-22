@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00342",
-	"slug": "סומוקריי",
-	"headword": {
-		"text": "סוּמוֹקְרַיי"
-	},
+	"sefariaHeadword": "סוּמוֹקְרַיי",
+	"headwords": [
+		{
+			"text": "סוּמוֹקְרַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "a"

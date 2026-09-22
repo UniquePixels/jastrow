@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02263",
-	"slug": "קשקשת",
-	"headword": {
-		"text": "קַשְׂקֶשֶׂת"
-	},
+	"sefariaHeadword": "קַשְׂקֶשֶׂת",
+	"headwords": [
+		{
+			"text": "קַשְׂקֶשֶׂת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1432,
 		"column": "a"

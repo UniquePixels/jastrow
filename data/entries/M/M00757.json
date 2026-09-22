@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00757",
-	"slug": "מזיק-1",
-	"headword": {
-		"text": "מַזִּיק"
-	},
+	"sefariaHeadword": "מַזִּיק",
+	"headwords": [
+		{
+			"text": "מַזִּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

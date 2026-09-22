@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00687",
-	"slug": "תמכה",
-	"headword": {
-		"text": "תַּמְכָה"
-	},
+	"sefariaHeadword": "תַּמְכָה",
+	"headwords": [
+		{
+			"text": "תַּמְכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

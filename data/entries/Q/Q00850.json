@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00850",
-	"slug": "פירזומטא",
-	"headword": {
-		"text": "פירזומטא"
-	},
+	"sefariaHeadword": "פירזומטא",
+	"headwords": [
+		{
+			"text": "פירזומטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1171,
 		"column": "b"

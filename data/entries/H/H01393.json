@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01393",
-	"slug": "חסך-2",
-	"headword": {
-		"text": "חֲסַךְ"
-	},
+	"sefariaHeadword": "חֲסַךְ",
+	"headwords": [
+		{
+			"text": "חֲסַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 488,
 		"column": "a"

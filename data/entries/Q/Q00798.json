@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00798",
-	"slug": "פיקא-3",
-	"headword": {
-		"text": "פִּיקָא",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקָא ³",
+	"headwords": [
+		{
+			"text": "פִּיקָא",
+			"disambiguator": 3
+		},
 		{
 			"text": "פִּיקָה",
 			"homograph": 3
 		},
 		{
-			"text": "בר פִּיקָא"
+			"text": "בר פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ³, {1} III, {2}",
 	"page": {
 		"number": 1169,
 		"column": "a"

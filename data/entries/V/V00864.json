@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00864",
-	"slug": "תפתה",
-	"headword": {
-		"text": "תָּפְתֶּה"
-	},
+	"sefariaHeadword": "תָּפְתֶּה",
+	"headwords": [
+		{
+			"text": "תָּפְתֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

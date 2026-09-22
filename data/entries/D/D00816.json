@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00816",
-	"slug": "דלובקי",
-	"headword": {
-		"text": "דְּלוּבְקִי"
-	},
+	"sefariaHeadword": "דְּלוּבְקִי",
+	"headwords": [
+		{
+			"text": "דְּלוּבְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

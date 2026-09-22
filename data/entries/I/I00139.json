@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00139",
-	"slug": "טוות-2",
-	"headword": {
-		"text": "טוות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוות",
+	"headwords": [
+		{
+			"text": "טוות"
+		},
 		{
 			"text": "טוותא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "b"

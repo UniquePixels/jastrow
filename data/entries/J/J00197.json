@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00197",
-	"slug": "יומנא",
-	"headword": {
-		"text": "יוֹמָנָא"
-	},
+	"sefariaHeadword": "יוֹמָנָא",
+	"headwords": [
+		{
+			"text": "יוֹמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 569,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00514",
-	"slug": "עידן-1",
-	"headword": {
-		"text": "עִידָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִידָּן",
+	"headwords": [
+		{
+			"text": "עִידָּן"
+		},
 		{
 			"text": "עִדָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1067,
 		"column": "b"

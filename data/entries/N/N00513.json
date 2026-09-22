@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00513",
-	"slug": "נחנא",
-	"headword": {
-		"text": "נַחְנָא"
-	},
+	"sefariaHeadword": "נַחְנָא",
+	"headwords": [
+		{
+			"text": "נַחְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

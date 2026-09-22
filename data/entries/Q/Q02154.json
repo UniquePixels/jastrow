@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02154",
-	"slug": "פתי-4",
-	"headword": {
-		"text": "פֶּתִי"
-	},
+	"sefariaHeadword": "פֶּתִי",
+	"headwords": [
+		{
+			"text": "פֶּתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1253,
 		"column": "a"

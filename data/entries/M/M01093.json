@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01093",
-	"slug": "מידה",
-	"headword": {
-		"text": "מִידָּה"
-	},
+	"sefariaHeadword": "מִידָּה",
+	"headwords": [
+		{
+			"text": "מִידָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "a"

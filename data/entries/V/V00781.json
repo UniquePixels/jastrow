@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00781",
-	"slug": "תעל",
-	"headword": {
-		"text": "תַּעַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּעַל",
+	"headwords": [
+		{
+			"text": "תַּעַל"
+		},
 		{
 			"text": "תַּעֲלָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "תַּעֲלָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1683,
 		"column": "b"

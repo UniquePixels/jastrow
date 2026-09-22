@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01613",
-	"slug": "מלק-1",
-	"headword": {
-		"text": "מָלַק"
-	},
+	"sefariaHeadword": "מָלַק",
+	"headwords": [
+		{
+			"text": "מָלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "a"

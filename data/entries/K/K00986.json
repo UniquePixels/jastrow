@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00986",
-	"slug": "כפה-1",
-	"headword": {
-		"text": "כִּפָּה"
-	},
+	"sefariaHeadword": "כִּפָּה",
+	"headwords": [
+		{
+			"text": "כִּפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

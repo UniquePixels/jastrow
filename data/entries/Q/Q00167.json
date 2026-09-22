@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00167",
-	"slug": "פוולא",
-	"headword": {
-		"text": "פִּוְולָא"
-	},
+	"sefariaHeadword": "פִּוְולָא",
+	"headwords": [
+		{
+			"text": "פִּוְולָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01911",
-	"slug": "קרדוס",
-	"headword": {
-		"text": "קרדוס"
-	},
+	"sefariaHeadword": "קרדוס",
+	"headwords": [
+		{
+			"text": "קרדוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

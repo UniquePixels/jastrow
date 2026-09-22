@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00744",
-	"slug": "גימל",
-	"headword": {
-		"text": "גִּימֵל"
-	},
+	"sefariaHeadword": "גִּימֵל",
+	"headwords": [
+		{
+			"text": "גִּימֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

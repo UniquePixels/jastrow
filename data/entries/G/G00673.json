@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00673",
-	"slug": "זרדתא",
-	"headword": {
-		"text": "זַרְדְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְדְּתָא",
+	"headwords": [
+		{
+			"text": "זַרְדְּתָא"
+		},
 		{
 			"text": "זַרְתָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 412,
 		"column": "a"

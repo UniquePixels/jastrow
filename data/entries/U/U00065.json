@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00065",
-	"slug": "שבב",
-	"headword": {
-		"text": "שָׁבַב"
-	},
+	"sefariaHeadword": "שָׁבַב",
+	"headwords": [
+		{
+			"text": "שָׁבַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "a"

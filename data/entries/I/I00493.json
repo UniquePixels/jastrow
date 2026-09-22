@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00493",
-	"slug": "טלי-2",
-	"headword": {
-		"text": "טְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְלֵי",
+	"headwords": [
+		{
+			"text": "טְלֵי"
+		},
 		{
 			"text": "טְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 536,
 		"column": "b"

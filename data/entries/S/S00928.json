@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00928",
-	"slug": "קייטא-1",
-	"headword": {
-		"text": "קַיְיטָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַיְיטָא I",
+	"headwords": [
+		{
+			"text": "קַיְיטָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1358,
 		"column": "b"

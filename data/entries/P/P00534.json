@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00534",
-	"slug": "עיטורין",
-	"headword": {
-		"text": "עיטורין"
-	},
+	"sefariaHeadword": "עיטורין",
+	"headwords": [
+		{
+			"text": "עיטורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

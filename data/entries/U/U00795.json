@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00795",
-	"slug": "שיבולתא",
-	"headword": {
-		"text": "שִׁיבּוּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבּוּלְתָּא",
+	"headwords": [
 		{
-			"text": "שִׁבּ׳"
+			"text": "שִׁיבּוּלְתָּא"
+		},
+		{
+			"text": "שִׁבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "a"

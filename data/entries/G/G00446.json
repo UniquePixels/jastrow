@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00446",
-	"slug": "זכוכיתא",
-	"headword": {
-		"text": "זְכוּכִיתָא"
-	},
+	"sefariaHeadword": "זְכוּכִיתָא",
+	"headwords": [
+		{
+			"text": "זְכוּכִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 398,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00182",
-	"slug": "גדולה",
-	"headword": {
-		"text": "גְּדוּלָּה"
-	},
+	"sefariaHeadword": "גְּדוּלָּה",
+	"headwords": [
+		{
+			"text": "גְּדוּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "a"

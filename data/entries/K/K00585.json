@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00585",
-	"slug": "כיסיתא",
-	"headword": {
-		"text": "כִּיסִיתָא"
-	},
+	"sefariaHeadword": "כִּיסִיתָא",
+	"headwords": [
+		{
+			"text": "כִּיסִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "a"

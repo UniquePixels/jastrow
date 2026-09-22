@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01959",
-	"slug": "פרפיראן",
-	"headword": {
-		"text": "פרפיראן"
-	},
+	"sefariaHeadword": "פרפיראן",
+	"headwords": [
+		{
+			"text": "פרפיראן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "b"

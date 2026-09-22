@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00978",
-	"slug": "אזמורד",
-	"headword": {
-		"text": "אזמורד"
-	},
+	"sefariaHeadword": "אזמורד",
+	"headwords": [
+		{
+			"text": "אזמורד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02115",
-	"slug": "קרסולא-1",
-	"headword": {
-		"text": "קַרְסוּלָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְסוּלָּא I",
+	"headwords": [
+		{
+			"text": "קַרְסוּלָּא",
+			"homograph": 1
+		},
 		{
 			"text": "קַרְסוּלָּה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1423,
 		"column": "b"

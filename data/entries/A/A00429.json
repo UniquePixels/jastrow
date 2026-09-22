@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00429",
-	"slug": "אדן-2",
-	"headword": {
-		"text": "אֻדַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֻדַן",
+	"headwords": [
+		{
+			"text": "אֻדַן"
+		},
 		{
 			"text": "אֻדְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 17,
 		"column": "a"

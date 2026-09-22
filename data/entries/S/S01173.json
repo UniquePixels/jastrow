@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01173",
-	"slug": "קירותא",
-	"headword": {
-		"text": "קִירוּתָא"
-	},
+	"sefariaHeadword": "קִירוּתָא",
+	"headwords": [
+		{
+			"text": "קִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

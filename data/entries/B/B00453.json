@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00453",
-	"slug": "בזיני",
-	"headword": {
-		"text": "בזיני"
-	},
+	"sefariaHeadword": "בזיני",
+	"headwords": [
+		{
+			"text": "בזיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00764",
-	"slug": "פיספס-2",
-	"headword": {
-		"text": "פִּיסְפָּס"
-	},
+	"sefariaHeadword": "פִּיסְפָּס",
+	"headwords": [
+		{
+			"text": "פִּיסְפָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

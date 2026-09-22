@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02961",
-	"slug": "משקולתא",
-	"headword": {
-		"text": "מַשְׁקוּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁקוּלְתָּא",
+	"headwords": [
+		{
+			"text": "מַשְׁקוּלְתָּא"
+		},
 		{
 			"text": "מִשְׁקַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "a"

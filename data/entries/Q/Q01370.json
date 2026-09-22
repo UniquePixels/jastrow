@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01370",
-	"slug": "פסתינון",
-	"headword": {
-		"text": "פסתינון"
-	},
+	"sefariaHeadword": "פסתינון",
+	"headwords": [
+		{
+			"text": "פסתינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

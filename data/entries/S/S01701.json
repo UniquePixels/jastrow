@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01701",
-	"slug": "קפדא",
-	"headword": {
-		"text": "קְפָדָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְפָדָא",
+	"headwords": [
+		{
+			"text": "קְפָדָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1398,
 		"column": "b"

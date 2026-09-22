@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00120",
-	"slug": "תהום-2",
-	"headword": {
-		"text": "תְּהוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּהוֹם ²",
+	"headwords": [
+		{
+			"text": "תְּהוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "תְּהוֹמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1648,
 		"column": "a"

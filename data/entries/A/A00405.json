@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00405",
-	"slug": "אדיר-1",
-	"headword": {
-		"text": "אַדִּיר"
-	},
+	"sefariaHeadword": "אַדִּיר",
+	"headwords": [
+		{
+			"text": "אַדִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02295",
-	"slug": "קתרא",
-	"headword": {
-		"text": "קְתָרָא"
-	},
+	"sefariaHeadword": "קְתָרָא",
+	"headwords": [
+		{
+			"text": "קְתָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "b"

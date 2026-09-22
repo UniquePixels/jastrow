@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01268",
-	"slug": "בריכה-2",
-	"headword": {
-		"text": "בְּרֵיכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרֵיכָה",
+	"headwords": [
+		{
+			"text": "בְּרֵיכָה"
+		},
 		{
 			"text": "בְּרֵכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 194,
 		"column": "a"

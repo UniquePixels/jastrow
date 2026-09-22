@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01078",
-	"slug": "כרבא-1",
-	"headword": {
-		"text": "כְּרָבָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כְּרָבָא I",
+	"headwords": [
+		{
+			"text": "כְּרָבָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 663,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01709",
-	"slug": "קפודקיא-1",
-	"headword": {
-		"text": "קַפּוּדְקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַפּוּדְקְיָא",
+	"headwords": [
+		{
+			"text": "קַפּוּדְקְיָא"
+		},
 		{
 			"text": "קַפּוּדְקְיָיא"
 		},
 		{
-			"text": "קַפּוּטְ׳"
+			"text": "קַפּוּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1398,
 		"column": "b"

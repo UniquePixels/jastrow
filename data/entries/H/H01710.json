@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01710",
-	"slug": "חרך-4",
-	"headword": {
-		"text": "חֲרָךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲרָךְ I",
+	"headwords": [
+		{
+			"text": "חֲרָךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 503,
 		"column": "a"

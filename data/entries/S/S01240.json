@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01240",
-	"slug": "קלאילן",
-	"headword": {
-		"text": "קְלָאִילָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלָאִילָּן",
+	"headwords": [
+		{
+			"text": "קְלָאִילָּן"
+		},
 		{
 			"text": "קְלָא אִילָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1371,
 		"column": "b"

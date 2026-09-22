@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C01432",
-	"slug": "גתית",
-	"headword": {
-		"text": "גִּתִּית",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גִּתִּית",
+	"headwords": [
 		{
-			"text": "גִּיתִּ׳"
+			"text": "גִּתִּית",
+			"reconstructed": true
+		},
+		{
+			"text": "גִּיתִּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 275,
 		"column": "a"

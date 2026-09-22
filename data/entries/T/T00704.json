@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00704",
-	"slug": "ריקן-1",
-	"headword": {
-		"text": "רִיקֵן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רִיקֵן I",
+	"headwords": [
+		{
+			"text": "רִיקֵן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1477,
 		"column": "a"

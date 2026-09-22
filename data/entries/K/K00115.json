@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00115",
-	"slug": "כדום-2",
-	"headword": {
-		"text": "כדום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כדום",
+	"headwords": [
 		{
-			"text": "עינבין דכדום"
+			"text": "כדום"
+		},
+		{
+			"text": "עינבין דכ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 613,
 		"column": "a"

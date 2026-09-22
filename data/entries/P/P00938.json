@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00938",
-	"slug": "ען",
-	"headword": {
-		"text": "עָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָן",
+	"headwords": [
+		{
+			"text": "עָן"
+		},
 		{
 			"text": "עָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1091,
 		"column": "a"

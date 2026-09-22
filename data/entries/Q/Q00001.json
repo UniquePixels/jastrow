@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00001",
-	"slug": "פ׳",
-	"headword": {
-		"text": "פ׳"
-	},
+	"sefariaHeadword": "פ׳",
+	"headwords": [
+		{
+			"text": "פ׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1130,
 		"column": "a"

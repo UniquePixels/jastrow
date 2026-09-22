@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00347",
-	"slug": "נוטומי",
-	"headword": {
-		"text": "נוטומי"
-	},
+	"sefariaHeadword": "נוטומי",
+	"headwords": [
+		{
+			"text": "נוטומי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

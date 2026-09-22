@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01551",
-	"slug": "שמשק",
-	"headword": {
-		"text": "שמשק"
-	},
+	"sefariaHeadword": "שמשק",
+	"headwords": [
+		{
+			"text": "שמשק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "a"

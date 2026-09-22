@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C00932",
-	"slug": "גליא-2",
-	"headword": {
-		"text": "גַּלְיָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גַּלְיָא II",
+	"headwords": [
+		{
+			"text": "גַּלְיָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 248,
 		"column": "b"

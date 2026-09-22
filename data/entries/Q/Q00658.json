@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00658",
-	"slug": "פייסנתא",
-	"headword": {
-		"text": "פַּיְיסַנְתָּא"
-	},
+	"sefariaHeadword": "פַּיְיסַנְתָּא",
+	"headwords": [
+		{
+			"text": "פַּיְיסַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "a"

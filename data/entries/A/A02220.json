@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02220",
-	"slug": "אניגורין",
-	"headword": {
-		"text": "אניגּורין"
-	},
+	"sefariaHeadword": "אניגּורין",
+	"headwords": [
+		{
+			"text": "אניגּורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "b"

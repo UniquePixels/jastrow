@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01368",
-	"slug": "פסתיגון",
-	"headword": {
-		"text": "פסתיגון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פסתיגון",
+	"headwords": [
+		{
+			"text": "פסתיגון"
+		},
 		{
 			"text": "פסתינון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1201,
 		"column": "b"

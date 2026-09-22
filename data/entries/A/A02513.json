@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02513",
-	"slug": "אספקלטור",
-	"headword": {
-		"text": "אִסְפִּקְלָטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפִּקְלָטוֹר",
+	"headwords": [
+		{
+			"text": "אִסְפִּקְלָטוֹר"
+		},
 		{
 			"text": "אִסְפַּקְלָטוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "b"

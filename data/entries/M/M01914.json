@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01914",
-	"slug": "מסיא-2",
-	"headword": {
-		"text": "מַסְּיָא"
-	},
+	"sefariaHeadword": "מַסְּיָא",
+	"headwords": [
+		{
+			"text": "מַסְּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

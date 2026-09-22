@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01142",
-	"slug": "מיירי",
-	"headword": {
-		"text": "מַיְירֵי"
-	},
+	"sefariaHeadword": "מַיְירֵי",
+	"headwords": [
+		{
+			"text": "מַיְירֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

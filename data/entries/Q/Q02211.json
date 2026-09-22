@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02211",
-	"slug": "פתשגן",
-	"headword": {
-		"text": "פַּתְשֶׁגֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתְשֶׁגֶן",
+	"headwords": [
+		{
+			"text": "פַּתְשֶׁגֶן"
+		},
 		{
 			"text": "פַּרְשֶׁגֶן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1256,
 		"column": "b"

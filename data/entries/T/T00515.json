@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00515",
-	"slug": "רחלא",
-	"headword": {
-		"text": "רְחֵלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחֵלָא",
+	"headwords": [
 		{
-			"text": "רְחֵי׳"
+			"text": "רְחֵלָא"
+		},
+		{
+			"text": "רְחֵי׳",
+			"partial": true
 		},
 		{
 			"text": "רַחְלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1467,
 		"column": "a"

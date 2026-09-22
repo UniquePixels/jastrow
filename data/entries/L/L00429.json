@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00429",
-	"slug": "ליד",
-	"headword": {
-		"text": "לֵיד"
-	},
+	"sefariaHeadword": "לֵיד",
+	"headwords": [
+		{
+			"text": "לֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

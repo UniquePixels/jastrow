@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00075",
-	"slug": "סבלון",
-	"headword": {
-		"text": "סִבְּלוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבְּלוֹן",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִבְּלוֹן"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 950,
 		"column": "b"

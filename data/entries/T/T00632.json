@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00632",
-	"slug": "ריטלין",
-	"headword": {
-		"text": "רִיטְלִין"
-	},
+	"sefariaHeadword": "רִיטְלִין",
+	"headwords": [
+		{
+			"text": "רִיטְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

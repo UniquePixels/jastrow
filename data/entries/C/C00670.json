@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00670",
-	"slug": "גיורתא-2",
-	"headword": {
-		"text": "גַּיּוֹרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּיּוֹרְתָּא",
+	"headwords": [
 		{
-			"text": "גִּיּוֹ׳"
+			"text": "גַּיּוֹרְתָּא"
+		},
+		{
+			"text": "גִּיּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 236,
 		"column": "b"

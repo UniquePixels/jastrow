@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00083",
-	"slug": "סבקין",
-	"headword": {
-		"text": "סִבְקִין"
-	},
+	"sefariaHeadword": "סִבְקִין",
+	"headwords": [
+		{
+			"text": "סִבְקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 951,
 		"column": "b"

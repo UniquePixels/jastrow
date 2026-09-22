@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01077",
-	"slug": "סמטריה",
-	"headword": {
-		"text": "סְמַטְרְיָה"
-	},
+	"sefariaHeadword": "סְמַטְרְיָה",
+	"headwords": [
+		{
+			"text": "סְמַטְרְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 999,
 		"column": "a"

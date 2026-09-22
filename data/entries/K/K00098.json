@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00098",
-	"slug": "כד-1",
-	"headword": {
-		"text": "כַּד",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּד I",
+	"headwords": [
+		{
+			"text": "כַּד",
+			"homograph": 1
+		},
 		{
 			"text": "כִּיד"
 		},
@@ -16,6 +17,7 @@
 			"text": "כִּידּ־"
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}",
 	"page": {
 		"number": 612,
 		"column": "a"

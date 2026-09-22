@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00620",
-	"slug": "לענה-1",
-	"headword": {
-		"text": "לַעֲנָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לַעֲנָה I",
+	"headwords": [
+		{
+			"text": "לַעֲנָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 714,
 		"column": "b"

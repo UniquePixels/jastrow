@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00232",
-	"slug": "כוזני",
-	"headword": {
-		"text": "כוזני"
-	},
+	"sefariaHeadword": "כוזני",
+	"headwords": [
+		{
+			"text": "כוזני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

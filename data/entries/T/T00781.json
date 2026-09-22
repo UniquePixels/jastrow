@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00781",
-	"slug": "רם-2",
-	"headword": {
-		"text": "רָם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָם ²",
+	"headwords": [
+		{
+			"text": "רָם",
+			"disambiguator": 2
+		},
 		{
 			"text": "רָם בָּרִין"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1481,
 		"column": "a"

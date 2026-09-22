@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00450",
-	"slug": "רושם-1",
-	"headword": {
-		"text": "רוֹשֶׁם"
-	},
+	"sefariaHeadword": "רוֹשֶׁם",
+	"headwords": [
+		{
+			"text": "רוֹשֶׁם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

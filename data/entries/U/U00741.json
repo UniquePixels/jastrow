@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00741",
-	"slug": "שטח-1",
-	"headword": {
-		"text": "שָׁטַח"
-	},
+	"sefariaHeadword": "שָׁטַח",
+	"headwords": [
+		{
+			"text": "שָׁטַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1553,
 		"column": "a"

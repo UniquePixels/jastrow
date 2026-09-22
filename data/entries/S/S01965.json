@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01965",
-	"slug": "קרזל",
-	"headword": {
-		"text": "קִרְזֵל"
-	},
+	"sefariaHeadword": "קִרְזֵל",
+	"headwords": [
+		{
+			"text": "קִרְזֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "a"

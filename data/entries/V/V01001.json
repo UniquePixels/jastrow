@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01001",
-	"slug": "תריצאית",
-	"headword": {
-		"text": "תְּרִיצָאִית"
-	},
+	"sefariaHeadword": "תְּרִיצָאִית",
+	"headwords": [
+		{
+			"text": "תְּרִיצָאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

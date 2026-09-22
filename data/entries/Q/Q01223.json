@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01223",
-	"slug": "פס-4",
-	"headword": {
-		"text": "פַּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּס",
+	"headwords": [
+		{
+			"text": "פַּס"
+		},
 		{
 			"text": "פַּסָּא"
 		},
@@ -12,9 +13,11 @@
 			"text": "פִּסָּא"
 		},
 		{
-			"text": "פִּי׳"
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1191,
 		"column": "b"

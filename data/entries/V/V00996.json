@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00996",
-	"slug": "תריסיות",
-	"headword": {
-		"text": "תְּרֵיסִיּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרֵיסִיּוֹת",
+	"headwords": [
 		{
-			"text": "תְּרֵסִ׳"
+			"text": "תְּרֵיסִיּוֹת"
+		},
+		{
+			"text": "תְּרֵסִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1698,
 		"column": "b"

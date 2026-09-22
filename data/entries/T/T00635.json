@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00635",
-	"slug": "ריכבא",
-	"headword": {
-		"text": "רִיכְבָּא"
-	},
+	"sefariaHeadword": "רִיכְבָּא",
+	"headwords": [
+		{
+			"text": "רִיכְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

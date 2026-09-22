@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01366",
-	"slug": "קלמרין",
-	"headword": {
-		"text": "קַלְמָרִין"
-	},
+	"sefariaHeadword": "קַלְמָרִין",
+	"headwords": [
+		{
+			"text": "קַלְמָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

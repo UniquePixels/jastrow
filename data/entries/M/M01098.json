@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01098",
-	"slug": "מידעם",
-	"headword": {
-		"text": "מִידַּעַם"
-	},
+	"sefariaHeadword": "מִידַּעַם",
+	"headwords": [
+		{
+			"text": "מִידַּעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

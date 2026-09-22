@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00242",
-	"slug": "הומניא",
-	"headword": {
-		"text": "הוּמַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוּמַנְיָא",
+	"headwords": [
 		{
-			"text": "הִי׳"
+			"text": "הוּמַנְיָא"
+		},
+		{
+			"text": "הִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 339,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00376",
-	"slug": "כורזילא",
-	"headword": {
-		"text": "כּוּרְזִילָא"
-	},
+	"sefariaHeadword": "כּוּרְזִילָא",
+	"headwords": [
+		{
+			"text": "כּוּרְזִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00330",
-	"slug": "שובר-1",
-	"headword": {
-		"text": "שׂוֹבַר"
-	},
+	"sefariaHeadword": "שׂוֹבַר",
+	"headwords": [
+		{
+			"text": "שׂוֹבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01077",
-	"slug": "נפקא",
-	"headword": {
-		"text": "נִפִקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִפִקָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִפִקָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 926,
 		"column": "b"

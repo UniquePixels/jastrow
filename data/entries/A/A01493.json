@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01493",
-	"slug": "איספתרין",
-	"headword": {
-		"text": "אִיסְפַּתְרִין"
-	},
+	"sefariaHeadword": "אִיסְפַּתְרִין",
+	"headwords": [
+		{
+			"text": "אִיסְפַּתְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

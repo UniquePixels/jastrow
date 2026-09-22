@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01295",
-	"slug": "נשואר",
-	"headword": {
-		"text": "נִשְׁוָאר"
-	},
+	"sefariaHeadword": "נִשְׁוָאר",
+	"headwords": [
+		{
+			"text": "נִשְׁוָאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

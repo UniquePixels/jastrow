@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00663",
-	"slug": "דיסקרין",
-	"headword": {
-		"text": "דִּיסְקְרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְקְרִין",
+	"headwords": [
 		{
-			"text": "דִּסְ׳"
+			"text": "דִּיסְקְרִין"
+		},
+		{
+			"text": "דִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 303,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00113",
-	"slug": "זו",
-	"headword": {
-		"text": "זוּ"
-	},
+	"sefariaHeadword": "זוּ",
+	"headwords": [
+		{
+			"text": "זוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "b"

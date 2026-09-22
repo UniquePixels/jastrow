@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00627",
-	"slug": "פיטם",
-	"headword": {
-		"text": "פִּיטָּם"
-	},
+	"sefariaHeadword": "פִּיטָּם",
+	"headwords": [
+		{
+			"text": "פִּיטָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "b"

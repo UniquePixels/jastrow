@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02343",
-	"slug": "אסותא",
-	"headword": {
-		"text": "אָסוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָסוּתָא",
+	"headwords": [
+		{
+			"text": "אָסוּתָא"
+		},
 		{
 			"text": "אָסוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 89,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00455",
-	"slug": "שומר-2",
-	"headword": {
-		"text": "שׁוּמָּר"
-	},
+	"sefariaHeadword": "שׁוּמָּר",
+	"headwords": [
+		{
+			"text": "שׁוּמָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "a"

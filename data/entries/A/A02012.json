@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02012",
-	"slug": "אמטולתא",
-	"headword": {
-		"text": "אַמְטוּלָתָא"
-	},
+	"sefariaHeadword": "אַמְטוּלָתָא",
+	"headwords": [
+		{
+			"text": "אַמְטוּלָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

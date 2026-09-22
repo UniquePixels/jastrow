@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00527",
-	"slug": "נחשון",
-	"headword": {
-		"text": "נַחְשׁוֹן"
-	},
+	"sefariaHeadword": "נַחְשׁוֹן",
+	"headwords": [
+		{
+			"text": "נַחְשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 897,
 		"column": "a"

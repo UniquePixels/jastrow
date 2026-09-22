@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01860",
-	"slug": "חשמונאי",
-	"headword": {
-		"text": "חַשְׁמוֹנַאי"
-	},
+	"sefariaHeadword": "חַשְׁמוֹנַאי",
+	"headwords": [
+		{
+			"text": "חַשְׁמוֹנַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 511,
 		"column": "b"

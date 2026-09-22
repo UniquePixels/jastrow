@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02526",
-	"slug": "אספרקמי",
-	"headword": {
-		"text": "אספרקמי"
-	},
+	"sefariaHeadword": "אספרקמי",
+	"headwords": [
+		{
+			"text": "אספרקמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "a"

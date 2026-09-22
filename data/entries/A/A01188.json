@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01188",
-	"slug": "איזא",
-	"headword": {
-		"text": "אִיזָּא"
-	},
+	"sefariaHeadword": "אִיזָּא",
+	"headwords": [
+		{
+			"text": "אִיזָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "a"

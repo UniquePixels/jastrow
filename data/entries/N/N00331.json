@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00331",
-	"slug": "נוונא-1",
-	"headword": {
-		"text": "נוונא"
-	},
+	"sefariaHeadword": "נוונא",
+	"headwords": [
+		{
+			"text": "נוונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "a"

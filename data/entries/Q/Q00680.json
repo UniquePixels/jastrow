@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00680",
-	"slug": "פילון-2",
-	"headword": {
-		"text": "פִּילּוֹן"
-	},
+	"sefariaHeadword": "פִּילֹּון",
+	"headwords": [
+		{
+			"text": "פִּילּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

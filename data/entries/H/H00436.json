@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00436",
-	"slug": "חוצנא",
-	"headword": {
-		"text": "חוּצְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּצְנָא",
+	"headwords": [
+		{
+			"text": "חוּצְנָא"
+		},
 		{
 			"text": "חוּצְנַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 438,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00376",
-	"slug": "נומס",
-	"headword": {
-		"text": "נוֹמָס"
-	},
+	"sefariaHeadword": "נוֹמָס",
+	"headwords": [
+		{
+			"text": "נוֹמָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "a"

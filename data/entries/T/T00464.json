@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00464",
-	"slug": "רזה",
-	"headword": {
-		"text": "רָזֶה"
-	},
+	"sefariaHeadword": "רָזֶה",
+	"headwords": [
+		{
+			"text": "רָזֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

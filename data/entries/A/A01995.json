@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01995",
-	"slug": "אמהתא-2",
-	"headword": {
-		"text": "אַמָּהָתָא"
-	},
+	"sefariaHeadword": "אַמָּהָתָא",
+	"headwords": [
+		{
+			"text": "אַמָּהָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00210",
-	"slug": "רגליות",
-	"headword": {
-		"text": "רַגְלִיּוֹת"
-	},
+	"sefariaHeadword": "רַגְלִיּוֹת",
+	"headwords": [
+		{
+			"text": "רַגְלִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1449,
 		"column": "b"

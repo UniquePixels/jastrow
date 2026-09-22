@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01376",
-	"slug": "בשת",
-	"headword": {
-		"text": "בּשֶׁת"
-	},
+	"sefariaHeadword": "בּשֶׁת",
+	"headwords": [
+		{
+			"text": "בּשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 200,
 		"column": "a"

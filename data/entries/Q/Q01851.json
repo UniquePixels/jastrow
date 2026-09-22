@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01851",
-	"slug": "פרכווי",
-	"headword": {
-		"text": "פַּרְכְּוִוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְכְּוִוי",
+	"headwords": [
+		{
+			"text": "פַּרְכְּוִוי"
+		},
 		{
 			"text": "פַּרְכְּוִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1229,
 		"column": "a"

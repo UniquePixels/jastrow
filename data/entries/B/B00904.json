@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00904",
-	"slug": "בלעם",
-	"headword": {
-		"text": "בִּלְעָם"
-	},
+	"sefariaHeadword": "בִּלְעָם",
+	"headwords": [
+		{
+			"text": "בִּלְעָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00417",
-	"slug": "נור-2",
-	"headword": {
-		"text": "נוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּר ²",
+	"headwords": [
+		{
+			"text": "נוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "נוּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 890,
 		"column": "a"

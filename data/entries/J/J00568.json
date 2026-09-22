@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "J00568",
-	"slug": "יקידא",
-	"headword": {
-		"text": "יְקֵידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְקֵידָא",
+	"headwords": [
+		{
+			"text": "יְקֵידָא"
+		},
 		{
 			"text": "יְקֵידְתָּא"
 		},
 		{
-			"text": "יְקֵדְ׳"
+			"text": "יְקֵדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 591,
 		"column": "b"

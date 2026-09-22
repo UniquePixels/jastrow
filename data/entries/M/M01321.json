@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01321",
-	"slug": "מית-1",
-	"headword": {
-		"text": "מִית",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִית I",
+	"headwords": [
+		{
+			"text": "מִית",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 780,
 		"column": "a"

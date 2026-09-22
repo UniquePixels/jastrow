@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00443",
-	"slug": "סחו",
-	"headword": {
-		"text": "סָחוּ"
-	},
+	"sefariaHeadword": "סָחוּ",
+	"headwords": [
+		{
+			"text": "סָחוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01585",
-	"slug": "סרטאות",
-	"headword": {
-		"text": "סרטאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרטאות",
+	"headwords": [
+		{
+			"text": "סרטאות"
+		},
 		{
 			"text": "סרטאיות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1025,
 		"column": "b"

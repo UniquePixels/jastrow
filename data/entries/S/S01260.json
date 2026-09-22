@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01260",
-	"slug": "קלודיא",
-	"headword": {
-		"text": "קַלּוּדַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלּוּדַיָּא",
+	"headwords": [
+		{
+			"text": "קַלּוּדַיָּא"
+		},
 		{
 			"text": "קלוריא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1372,
 		"column": "b"

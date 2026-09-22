@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00930",
-	"slug": "רפדה",
-	"headword": {
-		"text": "רִפְדָּה"
-	},
+	"sefariaHeadword": "רִפְדָּה",
+	"headwords": [
+		{
+			"text": "רִפְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

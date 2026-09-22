@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02938",
-	"slug": "משן",
-	"headword": {
-		"text": "מֵשָׁן"
-	},
+	"sefariaHeadword": "מֵשָׁן",
+	"headwords": [
+		{
+			"text": "מֵשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "a"

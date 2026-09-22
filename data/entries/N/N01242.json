@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01242",
-	"slug": "נקר-2",
-	"headword": {
-		"text": "נְקַר"
-	},
+	"sefariaHeadword": "נְקַר",
+	"headwords": [
+		{
+			"text": "נְקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "a"

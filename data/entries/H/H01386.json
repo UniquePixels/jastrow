@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01386",
-	"slug": "חסיסה",
-	"headword": {
-		"text": "חֲסִיסָה"
-	},
+	"sefariaHeadword": "חֲסִיסָה",
+	"headwords": [
+		{
+			"text": "חֲסִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00006",
-	"slug": "עאתא",
-	"headword": {
-		"text": "עָאֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָאֲתָא",
+	"headwords": [
+		{
+			"text": "עָאֲתָא"
+		},
 		{
 			"text": "עָאתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1034,
 		"column": "a"

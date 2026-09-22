@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00323",
-	"slug": "בוקיון",
-	"headword": {
-		"text": "בּוּקְיוֹן"
-	},
+	"sefariaHeadword": "בּוּקְיוֹן",
+	"headwords": [
+		{
+			"text": "בּוּקְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"

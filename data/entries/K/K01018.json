@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01018",
-	"slug": "כפיס",
-	"headword": {
-		"text": "כָּפִיס"
-	},
+	"sefariaHeadword": "כָּפִיס",
+	"headwords": [
+		{
+			"text": "כָּפִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "a"

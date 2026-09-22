@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00496",
-	"slug": "מולי-2",
-	"headword": {
-		"text": "מוּלִי"
-	},
+	"sefariaHeadword": "מוּלִי",
+	"headwords": [
+		{
+			"text": "מוּלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

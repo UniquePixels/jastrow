@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00973",
-	"slug": "נעוריתא",
-	"headword": {
-		"text": "נעוריתא"
-	},
+	"sefariaHeadword": "נעוריתא",
+	"headwords": [
+		{
+			"text": "נעוריתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "a"

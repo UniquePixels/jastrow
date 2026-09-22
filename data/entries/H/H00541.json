@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00541",
-	"slug": "חזיר-1",
-	"headword": {
-		"text": "חֲזִיר"
-	},
+	"sefariaHeadword": "חֲזִיר",
+	"headwords": [
+		{
+			"text": "חֲזִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 443,
 		"column": "b"

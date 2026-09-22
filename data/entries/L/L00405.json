@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00405",
-	"slug": "ליבא-1",
-	"headword": {
-		"text": "לִיבָּא"
-	},
+	"sefariaHeadword": "לִיבָּא",
+	"headwords": [
+		{
+			"text": "לִיבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

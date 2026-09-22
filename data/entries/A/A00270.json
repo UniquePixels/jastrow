@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00270",
-	"slug": "אגוסטולי",
-	"headword": {
-		"text": "אגוסטולי"
-	},
+	"sefariaHeadword": "אגוסטולי",
+	"headwords": [
+		{
+			"text": "אגוסטולי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

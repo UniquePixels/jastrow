@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00408",
-	"slug": "נוקד-1",
-	"headword": {
-		"text": "נוֹקֵד"
-	},
+	"sefariaHeadword": "נוֹקֵד",
+	"headwords": [
+		{
+			"text": "נוֹקֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00398",
-	"slug": "מוגורות",
-	"headword": {
-		"text": "מוגורות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוגורות",
+	"headwords": [
+		{
+			"text": "מוגורות"
+		},
 		{
 			"text": "מוֹגֵירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00550",
-	"slug": "דיטגמא",
-	"headword": {
-		"text": "דִּיטַגְמָא"
-	},
+	"sefariaHeadword": "דִּיטַגְמָא",
+	"headwords": [
+		{
+			"text": "דִּיטַגְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "a"

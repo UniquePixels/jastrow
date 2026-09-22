@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00133",
-	"slug": "זוה",
-	"headword": {
-		"text": "זוּהַּ"
-	},
+	"sefariaHeadword": "זוּהַּ",
+	"headwords": [
+		{
+			"text": "זוּהַּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 384,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02246",
-	"slug": "מפריע",
-	"headword": {
-		"text": "מִפְרִיעַ"
-	},
+	"sefariaHeadword": "מִפְרִיעַ",
+	"headwords": [
+		{
+			"text": "מִפְרִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

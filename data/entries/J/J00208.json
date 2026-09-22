@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00208",
-	"slug": "יונק",
-	"headword": {
-		"text": "יוֹנֵק"
-	},
+	"sefariaHeadword": "יוֹנֵק",
+	"headwords": [
+		{
+			"text": "יוֹנֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "a"

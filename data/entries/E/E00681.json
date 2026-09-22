@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00681",
-	"slug": "הניפה",
-	"headword": {
-		"text": "הֲנִיפָה"
-	},
+	"sefariaHeadword": "הֲנִיפָה",
+	"headwords": [
+		{
+			"text": "הֲנִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 358,
 		"column": "b"

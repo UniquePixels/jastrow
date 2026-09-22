@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00810",
-	"slug": "כמנא",
-	"headword": {
-		"text": "כְּמָנָא"
-	},
+	"sefariaHeadword": "כְּמָנָא",
+	"headwords": [
+		{
+			"text": "כְּמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "b"

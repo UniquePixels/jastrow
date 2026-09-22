@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00624",
-	"slug": "גיגל",
-	"headword": {
-		"text": "גִּיגַּל"
-	},
+	"sefariaHeadword": "גִּיגַּל",
+	"headwords": [
+		{
+			"text": "גִּיגַּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00578",
-	"slug": "סידוק",
-	"headword": {
-		"text": "סִידּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִידּוּק",
+	"headwords": [
 		{
-			"text": "סִדּ׳"
+			"text": "סִידּוּק"
+		},
+		{
+			"text": "סִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 976,
 		"column": "a"

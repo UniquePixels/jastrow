@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00010",
-	"slug": "כאור",
-	"headword": {
-		"text": "כָּאוּר"
-	},
+	"sefariaHeadword": "כָּאוּר",
+	"headwords": [
+		{
+			"text": "כָּאוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00005",
-	"slug": "גאה-2",
-	"headword": {
-		"text": "גֵּאֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּאֶה",
+	"headwords": [
+		{
+			"text": "גֵּאֶה"
+		},
 		{
 			"text": "גֵּיאֶה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 201,
 		"column": "a"

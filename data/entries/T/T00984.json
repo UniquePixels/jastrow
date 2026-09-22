@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00984",
-	"slug": "רציחה",
-	"headword": {
-		"text": "רְצִיחָה"
-	},
+	"sefariaHeadword": "רְצִיחָה",
+	"headwords": [
+		{
+			"text": "רְצִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1493,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00064",
-	"slug": "עברא",
-	"headword": {
-		"text": "עַבְּרָא"
-	},
+	"sefariaHeadword": "עַבְּרָא",
+	"headwords": [
+		{
+			"text": "עַבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "a"

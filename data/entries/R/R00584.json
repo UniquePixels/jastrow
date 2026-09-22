@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00584",
-	"slug": "צמץ",
-	"headword": {
-		"text": "צמץ"
-	},
+	"sefariaHeadword": "צמץ",
+	"headwords": [
+		{
+			"text": "צמץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "b"

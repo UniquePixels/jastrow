@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00080",
-	"slug": "לבישא",
-	"headword": {
-		"text": "לְבִישָׁא"
-	},
+	"sefariaHeadword": "לְבִישָׁא",
+	"headwords": [
+		{
+			"text": "לְבִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

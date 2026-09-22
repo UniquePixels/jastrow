@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00847",
-	"slug": "מחזרו",
-	"headword": {
-		"text": "מחזרו"
-	},
+	"sefariaHeadword": "מחזרו",
+	"headwords": [
+		{
+			"text": "מחזרו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

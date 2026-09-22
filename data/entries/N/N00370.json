@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00370",
-	"slug": "נומויון",
-	"headword": {
-		"text": "נומויון"
-	},
+	"sefariaHeadword": "נומויון",
+	"headwords": [
+		{
+			"text": "נומויון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

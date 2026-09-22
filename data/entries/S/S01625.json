@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01625",
-	"slug": "קנתל",
-	"headword": {
-		"text": "קַנְתֵּל"
-	},
+	"sefariaHeadword": "קַנְתֵּל",
+	"headwords": [
+		{
+			"text": "קַנְתֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

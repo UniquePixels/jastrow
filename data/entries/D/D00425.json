@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00425",
-	"slug": "דחלולא",
-	"headword": {
-		"text": "דַּחֲלוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּחֲלוּלָא",
+	"headwords": [
+		{
+			"text": "דַּחֲלוּלָא"
+		},
 		{
 			"text": "דַּחֲלוּלֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 292,
 		"column": "b"

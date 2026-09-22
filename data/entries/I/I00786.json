@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00786",
-	"slug": "טריטני",
-	"headword": {
-		"text": "טְרִיטָנִי"
-	},
+	"sefariaHeadword": "טְרִיטָנִי",
+	"headwords": [
+		{
+			"text": "טְרִיטָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

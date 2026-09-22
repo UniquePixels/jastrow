@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00116",
-	"slug": "הדיה",
-	"headword": {
-		"text": "הֲדָיָה"
-	},
+	"sefariaHeadword": "הֲדָיָה",
+	"headwords": [
+		{
+			"text": "הֲדָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

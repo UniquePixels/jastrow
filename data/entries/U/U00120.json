@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00120",
-	"slug": "שביט",
-	"headword": {
-		"text": "שְׁבִיט"
-	},
+	"sefariaHeadword": "שְׁבִיט",
+	"headwords": [
+		{
+			"text": "שְׁבִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1513,
 		"column": "b"

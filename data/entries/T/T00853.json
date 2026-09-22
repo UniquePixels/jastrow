@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00853",
-	"slug": "רסטקאות",
-	"headword": {
-		"text": "רסטקאות"
-	},
+	"sefariaHeadword": "רסטקאות",
+	"headwords": [
+		{
+			"text": "רסטקאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"

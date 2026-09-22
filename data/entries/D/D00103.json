@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00103",
-	"slug": "דגון",
-	"headword": {
-		"text": "דָּגוֹן"
-	},
+	"sefariaHeadword": "דָּגוֹן",
+	"headwords": [
+		{
+			"text": "דָּגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00243",
-	"slug": "דוך-3",
-	"headword": {
-		"text": "דּוּךְ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּךְ II",
+	"headwords": [
+		{
+			"text": "דּוּךְ",
+			"homograph": 2
+		},
 		{
 			"text": "דּוּכָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 285,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00445",
-	"slug": "זכוכית",
-	"headword": {
-		"text": "זְכוּכִית"
-	},
+	"sefariaHeadword": "זְכוּכִית",
+	"headwords": [
+		{
+			"text": "זְכוּכִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 398,
 		"column": "a"

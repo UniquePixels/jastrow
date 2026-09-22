@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00672",
-	"slug": "מורע-2",
-	"headword": {
-		"text": "מורע"
-	},
+	"sefariaHeadword": "מורע",
+	"headwords": [
+		{
+			"text": "מורע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

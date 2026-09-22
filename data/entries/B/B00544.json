@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00544",
-	"slug": "ביבון",
-	"headword": {
-		"text": "ביבון"
-	},
+	"sefariaHeadword": "ביבון",
+	"headwords": [
+		{
+			"text": "ביבון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "a"

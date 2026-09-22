@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00555",
-	"slug": "פטרוזא",
-	"headword": {
-		"text": "פַּטְרוֹזָא"
-	},
+	"sefariaHeadword": "פַּטְרוֹזָא",
+	"headwords": [
+		{
+			"text": "פַּטְרוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

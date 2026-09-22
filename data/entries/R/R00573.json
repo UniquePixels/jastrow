@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00573",
-	"slug": "צמי",
-	"headword": {
-		"text": "צְמֵי"
-	},
+	"sefariaHeadword": "צְמֵי",
+	"headwords": [
+		{
+			"text": "צְמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"
@@ -33,7 +37,7 @@
 				{
 					"gloss": "<i>to cause to suffer want, afflict</i>. ",
 					"units": [
-						"<cite ref=\"Aramaic Targum to Psalms 81:8\">Targ. Ps. LXXXI, 8</cite> <he>צַמַּית</he> ed. Lag. (oth. ed. <he>ענית</he>; h. text <he>אענך</he>; v. <cite ref=\"R00196\"><he>צוּם</he></cite>)."
+						"<cite ref=\"Aramaic Targum to Psalms 81:8\">Targ. Ps. LXXXI, 8</cite> <he>צַמַּית</he> ed. Lag. (oth. ed. <he>ענית</he>; h. text <he>אענך</he>; v. <cite ref=\"R00196\"><he>צוּם</he></cite>)."
 					]
 				}
 			],

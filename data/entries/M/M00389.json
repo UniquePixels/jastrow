@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00389",
-	"slug": "מובאת",
-	"headword": {
-		"text": "מוּבָאת"
-	},
+	"sefariaHeadword": "מוּבָאת",
+	"headwords": [
+		{
+			"text": "מוּבָאת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

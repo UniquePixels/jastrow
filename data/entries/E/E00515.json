@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00515",
-	"slug": "הכן-1",
-	"headword": {
-		"text": "הָכֵן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָכֵן",
+	"headwords": [
+		{
+			"text": "הָכֵן"
+		},
 		{
 			"text": "הָכֵין",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 350,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00220",
-	"slug": "מגרמתא",
-	"headword": {
-		"text": "מַגְרַמְתָּא"
-	},
+	"sefariaHeadword": "מַגְרַמְתָּא",
+	"headwords": [
+		{
+			"text": "מַגְרַמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

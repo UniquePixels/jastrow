@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00884",
-	"slug": "כנתא",
-	"headword": {
-		"text": "כַּנְתָא"
-	},
+	"sefariaHeadword": "כַּנְתָא",
+	"headwords": [
+		{
+			"text": "כַּנְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "a"

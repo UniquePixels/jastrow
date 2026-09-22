@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00178",
-	"slug": "עובי",
-	"headword": {
-		"text": "עוֹבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹבִי",
+	"headwords": [
+		{
+			"text": "עוֹבִי"
+		},
 		{
 			"text": "עֳבִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1047,
 		"column": "a"

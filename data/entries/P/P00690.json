@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00690",
-	"slug": "עיריסיות",
-	"headword": {
-		"text": "עיריסיות"
-	},
+	"sefariaHeadword": "עיריסיות",
+	"headwords": [
+		{
+			"text": "עיריסיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

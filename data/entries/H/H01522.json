@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01522",
-	"slug": "חצינא",
-	"headword": {
-		"text": "חֲצִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲצִינָא",
+	"headwords": [
+		{
+			"text": "חֲצִינָא"
+		},
 		{
 			"text": "חֲצֵינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 495,
 		"column": "a"

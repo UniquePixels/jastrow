@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01651",
-	"slug": "חרח",
-	"headword": {
-		"text": "חֲרַח"
-	},
+	"sefariaHeadword": "חֲרַח",
+	"headwords": [
+		{
+			"text": "חֲרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "a"

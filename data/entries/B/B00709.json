@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00709",
-	"slug": "בירוץ",
-	"headword": {
-		"text": "בֵּירוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּירוּץ",
+	"headwords": [
+		{
+			"text": "בֵּירוּץ"
+		},
 		{
 			"text": "בֵּרוּץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 166,
 		"column": "a"

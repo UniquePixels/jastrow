@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00071",
-	"slug": "דבלתא",
-	"headword": {
-		"text": "דְּבֶלְתָּא"
-	},
+	"sefariaHeadword": "דְּבֶלְתָּא",
+	"headwords": [
+		{
+			"text": "דְּבֶלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "b"

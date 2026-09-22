@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01309",
-	"slug": "ברץ-1",
-	"headword": {
-		"text": "בָּרַץ"
-	},
+	"sefariaHeadword": "בָּרַץ",
+	"headwords": [
+		{
+			"text": "בָּרַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

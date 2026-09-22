@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00346",
-	"slug": "אגרומי",
-	"headword": {
-		"text": "אַגְרוֹמֵי"
-	},
+	"sefariaHeadword": "אַגְרוֹמֵי",
+	"headwords": [
+		{
+			"text": "אַגְרוֹמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

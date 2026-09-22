@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00849",
-	"slug": "אורבינא",
-	"headword": {
-		"text": "אוּרְבִּינָא"
-	},
+	"sefariaHeadword": "אוּרְבִּינָא",
+	"headwords": [
+		{
+			"text": "אוּרְבִּינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

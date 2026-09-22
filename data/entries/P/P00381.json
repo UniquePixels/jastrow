@@ -1,26 +1,27 @@
 {
+	"schemaVersion": 2,
 	"id": "P00381",
-	"slug": "עותנאי",
-	"headword": {
-		"text": "עַוְתָנַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַוְתָנַאי",
+	"headwords": [
+		{
+			"text": "עַוְתָנַאי"
+		},
 		{
 			"text": "עַוְתָנַי"
 		},
 		{
-			"text": "עַוְו׳"
+			"text": "עַוְו׳",
+			"partial": true
 		},
 		{
-			"text": "כְּפַר עַוְתָנַאי"
+			"text": "כְּפַר ע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1060,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

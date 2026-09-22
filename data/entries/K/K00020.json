@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00020",
-	"slug": "כאמי",
-	"headword": {
-		"text": "כאמי"
-	},
+	"sefariaHeadword": "כאמי",
+	"headwords": [
+		{
+			"text": "כאמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

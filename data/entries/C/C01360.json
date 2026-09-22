@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01360",
-	"slug": "גרמיני",
-	"headword": {
-		"text": "גרמיני"
-	},
+	"sefariaHeadword": "גרמיני",
+	"headwords": [
+		{
+			"text": "גרמיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "a"

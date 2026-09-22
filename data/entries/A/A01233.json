@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01233",
-	"slug": "אייזן",
-	"headword": {
-		"text": "אייזן"
-	},
+	"sefariaHeadword": "אייזן",
+	"headwords": [
+		{
+			"text": "אייזן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

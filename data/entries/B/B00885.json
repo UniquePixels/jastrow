@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00885",
-	"slug": "בלן-1",
-	"headword": {
-		"text": "בַּלָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלָּן",
+	"headwords": [
+		{
+			"text": "בַּלָּן"
+		},
 		{
 			"text": "בַּלָּנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 174,
 		"column": "a"

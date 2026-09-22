@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00027",
-	"slug": "שאילתא-1",
-	"headword": {
-		"text": "שְׁאִילְתָּא"
-	},
+	"sefariaHeadword": "שְׁאִילְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁאִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00423",
-	"slug": "עזקתא",
-	"headword": {
-		"text": "עִזְקִתָא"
-	},
+	"sefariaHeadword": "עִזְקִתָא",
+	"headwords": [
+		{
+			"text": "עִזְקִתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "a"

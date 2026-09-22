@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00257",
-	"slug": "כוכליאס",
-	"headword": {
-		"text": "כּוֹכְלִיאָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹכְלִיאָס",
+	"headwords": [
+		{
+			"text": "כּוֹכְלִיאָס"
+		},
 		{
 			"text": "כּוֹכְלְיָיס"
 		},
 		{
-			"text": "קוֹכְ׳"
+			"text": "קוֹכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 619,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01346",
-	"slug": "כתוב-1",
-	"headword": {
-		"text": "כְּתוֹב"
-	},
+	"sefariaHeadword": "כְּתוֹב",
+	"headwords": [
+		{
+			"text": "כְּתוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 679,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "C00872",
-	"slug": "גלגל-4",
-	"headword": {
-		"text": "גַּלְגַּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְגַּל ²",
+	"headwords": [
+		{
+			"text": "גַּלְגַּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "גִּלְגְּלָא"
 		},
 		{
-			"text": "גִּילְ׳"
+			"text": "גִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 245,
 		"column": "a"

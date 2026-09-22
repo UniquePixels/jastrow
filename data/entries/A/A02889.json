@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02889",
-	"slug": "אצר-2",
-	"headword": {
-		"text": "אֲצַר",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲצַר I",
+	"headwords": [
+		{
+			"text": "אֲצַר",
+			"homograph": 1
+		},
 		{
 			"text": "אָצַר"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 111,
 		"column": "b"

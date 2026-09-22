@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01019",
-	"slug": "סלעמיתא",
-	"headword": {
-		"text": "סַלְעֲמִיתָא"
-	},
+	"sefariaHeadword": "סַלְעֲמִיתָא",
+	"headwords": [
+		{
+			"text": "סַלְעֲמִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

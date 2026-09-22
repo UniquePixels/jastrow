@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00391",
-	"slug": "דושא",
-	"headword": {
-		"text": "דַּוְשָׁא"
-	},
+	"sefariaHeadword": "דַּוְשָׁא",
+	"headwords": [
+		{
+			"text": "דַּוְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "b"

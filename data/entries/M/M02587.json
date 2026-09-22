@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02587",
-	"slug": "מרוך",
-	"headword": {
-		"text": "מרוך"
-	},
+	"sefariaHeadword": "מרוך",
+	"headwords": [
+		{
+			"text": "מרוך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

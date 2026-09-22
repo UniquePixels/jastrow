@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00172",
-	"slug": "שבר-1",
-	"headword": {
-		"text": "שֵׂבֶר"
-	},
+	"sefariaHeadword": "שֵׂבֶר",
+	"headwords": [
+		{
+			"text": "שֵׂבֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1517,
 		"column": "a"

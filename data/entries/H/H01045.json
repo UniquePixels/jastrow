@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01045",
-	"slug": "חליל-2",
-	"headword": {
-		"text": "חָלִיל"
-	},
+	"sefariaHeadword": "חָלִיל",
+	"headwords": [
+		{
+			"text": "חָלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 468,
 		"column": "b"

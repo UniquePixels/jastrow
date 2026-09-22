@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A00530",
-	"slug": "אובלים",
-	"headword": {
-		"text": "אוּבְלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּבְלִים",
+	"headwords": [
+		{
+			"text": "אוּבְלִים"
+		},
 		{
 			"text": "אוּבְלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

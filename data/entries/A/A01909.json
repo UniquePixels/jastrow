@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01909",
-	"slug": "אלמא-3",
-	"headword": {
-		"text": "אַלְמָא"
-	},
+	"sefariaHeadword": "אַלְמָא",
+	"headwords": [
+		{
+			"text": "אַלְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "b"

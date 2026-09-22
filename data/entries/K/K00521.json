@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00521",
-	"slug": "כייל-1",
-	"headword": {
-		"text": "כָּיִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּיִיל",
+	"headwords": [
+		{
+			"text": "כָּיִיל"
+		},
 		{
 			"text": "כַּיִּיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 631,
 		"column": "b"

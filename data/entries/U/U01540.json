@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01540",
-	"slug": "שמש-2",
-	"headword": {
-		"text": "שְׁמַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמַשׁ",
+	"headwords": [
+		{
+			"text": "שְׁמַשׁ"
+		},
 		{
 			"text": "שַׁמֵּשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1602,
 		"column": "a"

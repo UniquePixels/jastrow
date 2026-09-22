@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00682",
-	"slug": "ביצור",
-	"headword": {
-		"text": "בִּיצּוּר"
-	},
+	"sefariaHeadword": "בִּיצּוּר",
+	"headwords": [
+		{
+			"text": "בִּיצּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "b"

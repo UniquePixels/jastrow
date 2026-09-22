@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00874",
-	"slug": "מחיצותא",
-	"headword": {
-		"text": "מְחִיצוּתָא"
-	},
+	"sefariaHeadword": "מְחִיצוּתָא",
+	"headwords": [
+		{
+			"text": "מְחִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

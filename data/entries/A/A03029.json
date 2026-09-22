@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03029",
-	"slug": "ארוכה-2",
-	"headword": {
-		"text": "אֲרוּכָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲרוּכָה II",
+	"headwords": [
+		{
+			"text": "אֲרוּכָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 116,
 		"column": "b"

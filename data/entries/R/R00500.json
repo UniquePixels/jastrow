@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00500",
-	"slug": "צלח-1",
-	"headword": {
-		"text": "צָלַח"
-	},
+	"sefariaHeadword": "צָלַח",
+	"headwords": [
+		{
+			"text": "צָלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

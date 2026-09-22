@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00744",
-	"slug": "חייץ-2",
-	"headword": {
-		"text": "חַיִיץ"
-	},
+	"sefariaHeadword": "חַיִיץ",
+	"headwords": [
+		{
+			"text": "חַיִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "a"

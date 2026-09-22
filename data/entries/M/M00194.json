@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00194",
-	"slug": "מגנון",
-	"headword": {
-		"text": "מַגְּנוֹן"
-	},
+	"sefariaHeadword": "מַגְּנוֹן",
+	"headwords": [
+		{
+			"text": "מַגְּנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "b"

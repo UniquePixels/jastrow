@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00030",
-	"slug": "עבופיא",
-	"headword": {
-		"text": "עַבּוּפְיָא"
-	},
+	"sefariaHeadword": "עַבּוּפְיָא",
+	"headwords": [
+		{
+			"text": "עַבּוּפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

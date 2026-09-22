@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00228",
-	"slug": "כוזכא",
-	"headword": {
-		"text": "כּוֹזְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹזְכָא",
+	"headwords": [
+		{
+			"text": "כּוֹזְכָא"
+		},
 		{
 			"text": "כּוֹזְבָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "כּוֹזִיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 618,
 		"column": "a"

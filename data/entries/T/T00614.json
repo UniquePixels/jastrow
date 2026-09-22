@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00614",
-	"slug": "ריותא",
-	"headword": {
-		"text": "ריותא"
-	},
+	"sefariaHeadword": "ריותא",
+	"headwords": [
+		{
+			"text": "ריותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "b"

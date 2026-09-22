@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01256",
-	"slug": "ערבא-2",
-	"headword": {
-		"text": "עַרְבָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַרְבָא II",
+	"headwords": [
+		{
+			"text": "עַרְבָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1111,
 		"column": "b"

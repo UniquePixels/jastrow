@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03181",
-	"slug": "ארמלגוס",
-	"headword": {
-		"text": "ארמלגוס"
-	},
+	"sefariaHeadword": "ארמלגוס",
+	"headwords": [
+		{
+			"text": "ארמלגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "a"

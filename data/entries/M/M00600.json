@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00600",
-	"slug": "מוקש",
-	"headword": {
-		"text": "מוּקָּשׁ"
-	},
+	"sefariaHeadword": "מוּקָּשׁ",
+	"headwords": [
+		{
+			"text": "מוּקָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 748,
 		"column": "a"

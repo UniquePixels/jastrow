@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00406",
-	"slug": "זיקא-3",
-	"headword": {
-		"text": "זִיקָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "זִיקָא III",
+	"headwords": [
+		{
+			"text": "זִיקָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 396,
 		"column": "a"

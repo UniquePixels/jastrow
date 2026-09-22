@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02805",
-	"slug": "אפרוורין",
-	"headword": {
-		"text": "אִפַּרְוָורִין"
-	},
+	"sefariaHeadword": "אִפַּרְוָורִין",
+	"headwords": [
+		{
+			"text": "אִפַּרְוָורִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

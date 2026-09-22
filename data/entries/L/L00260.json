@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00260",
-	"slug": "לויקן",
-	"headword": {
-		"text": "לויקן"
-	},
+	"sefariaHeadword": "לויקן",
+	"headwords": [
+		{
+			"text": "לויקן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

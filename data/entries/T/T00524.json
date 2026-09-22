@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00524",
-	"slug": "רחמו",
-	"headword": {
-		"text": "רַחֲמוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחֲמוּ",
+	"headwords": [
+		{
+			"text": "רַחֲמוּ"
+		},
 		{
 			"text": "רַחֲמוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1468,
 		"column": "a"

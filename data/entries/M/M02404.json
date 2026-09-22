@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02404",
-	"slug": "מקושש-1",
-	"headword": {
-		"text": "מְקוֹשֵׁשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְקוֹשֵׁשׁ I",
+	"headwords": [
+		{
+			"text": "מְקוֹשֵׁשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 830,
 		"column": "a"

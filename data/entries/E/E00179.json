@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "E00179",
-	"slug": "הוא-2",
-	"headword": {
-		"text": "הוּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוּא ²",
+	"headwords": [
+		{
+			"text": "הוּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "הוּ"
 		},
@@ -16,6 +17,7 @@
 			"text": "הִי"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 336,
 		"column": "a"

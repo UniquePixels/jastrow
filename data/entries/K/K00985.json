@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00985",
-	"slug": "כפאתין",
-	"headword": {
-		"text": "כְּפָאתִין"
-	},
+	"sefariaHeadword": "כְּפָאתִין",
+	"headwords": [
+		{
+			"text": "כְּפָאתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

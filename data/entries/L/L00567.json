@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00567",
-	"slug": "למה-1",
-	"headword": {
-		"text": "לְמָה"
-	},
+	"sefariaHeadword": "לְמָה",
+	"headwords": [
+		{
+			"text": "לְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 712,
 		"column": "b"

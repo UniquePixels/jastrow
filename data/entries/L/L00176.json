@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00176",
-	"slug": "לוב",
-	"headword": {
-		"text": "לוּב"
-	},
+	"sefariaHeadword": "לוּב",
+	"headwords": [
+		{
+			"text": "לוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

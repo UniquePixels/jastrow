@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00034",
-	"slug": "מאית",
-	"headword": {
-		"text": "מָאִית"
-	},
+	"sefariaHeadword": "מָאִית",
+	"headwords": [
+		{
+			"text": "מָאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

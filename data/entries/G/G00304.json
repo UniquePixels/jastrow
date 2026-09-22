@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00304",
-	"slug": "זיוו",
-	"headword": {
-		"text": "זִיוו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיוו",
+	"headwords": [
+		{
+			"text": "זִיוו"
+		},
 		{
 			"text": "זִיוָוא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 392,
 		"column": "a"

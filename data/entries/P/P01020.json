@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01020",
-	"slug": "ענת",
-	"headword": {
-		"text": "עֲנָת"
-	},
+	"sefariaHeadword": "עֲנָת",
+	"headwords": [
+		{
+			"text": "עֲנָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1097,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00574",
-	"slug": "פיאס",
-	"headword": {
-		"text": "פַּיָּאס"
-	},
+	"sefariaHeadword": "פַּיָּאס",
+	"headwords": [
+		{
+			"text": "פַּיָּאס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "a"

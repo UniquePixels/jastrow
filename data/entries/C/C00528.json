@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00528",
-	"slug": "גזולא",
-	"headword": {
-		"text": "גזולא"
-	},
+	"sefariaHeadword": "גזולא",
+	"headwords": [
+		{
+			"text": "גזולא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

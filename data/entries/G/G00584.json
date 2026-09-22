@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00584",
-	"slug": "זע",
-	"headword": {
-		"text": "זָע"
-	},
+	"sefariaHeadword": "זָע",
+	"headwords": [
+		{
+			"text": "זָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00685",
-	"slug": "לקיחה",
-	"headword": {
-		"text": "לְקִיחָה"
-	},
+	"sefariaHeadword": "לְקִיחָה",
+	"headwords": [
+		{
+			"text": "לְקִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 719,
 		"column": "a"

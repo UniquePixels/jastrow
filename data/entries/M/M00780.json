@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00780",
-	"slug": "מזרה",
-	"headword": {
-		"text": "מִזְרֶה"
-	},
+	"sefariaHeadword": "מִזְרֶה",
+	"headwords": [
+		{
+			"text": "מִזְרֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

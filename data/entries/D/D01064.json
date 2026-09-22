@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01064",
-	"slug": "דרומנה",
-	"headword": {
-		"text": "דרומנה"
-	},
+	"sefariaHeadword": "דרומנה",
+	"headwords": [
+		{
+			"text": "דרומנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01810",
-	"slug": "מנצפ״ך",
-	"headword": {
-		"text": "מַנְצְפַ״ךְ"
-	},
+	"sefariaHeadword": "מַנְצְפַ\"ךְ",
+	"headwords": [
+		{
+			"text": "מַנְצְפַ״ךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

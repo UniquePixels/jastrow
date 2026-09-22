@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01105",
-	"slug": "אטרון",
-	"headword": {
-		"text": "אִטְרוֹן"
-	},
+	"sefariaHeadword": "אִטְרוֹן",
+	"headwords": [
+		{
+			"text": "אִטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "b"

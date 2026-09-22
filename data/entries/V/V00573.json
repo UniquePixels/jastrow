@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00573",
-	"slug": "תלג-1",
-	"headword": {
-		"text": "תְּלַג",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תְּלַג I",
+	"headwords": [
+		{
+			"text": "תְּלַג",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1670,
 		"column": "a"

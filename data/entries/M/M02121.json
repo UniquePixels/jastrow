@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02121",
-	"slug": "מעך-1",
-	"headword": {
-		"text": "מָעַךְ"
-	},
+	"sefariaHeadword": "מָעַךְ",
+	"headwords": [
+		{
+			"text": "מָעַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 816,
 		"column": "b"

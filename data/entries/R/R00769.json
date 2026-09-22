@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00769",
-	"slug": "צריח-1",
-	"headword": {
-		"text": "צְרֵיחַ"
-	},
+	"sefariaHeadword": "צְרֵיחַ",
+	"headwords": [
+		{
+			"text": "צְרֵיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

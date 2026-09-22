@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00343",
-	"slug": "תותרי-1",
-	"headword": {
-		"text": "תּוּתְּרֵי"
-	},
+	"sefariaHeadword": "תּוּתְּרֵי",
+	"headwords": [
+		{
+			"text": "תּוּתְּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00431",
-	"slug": "מוהר",
-	"headword": {
-		"text": "מוֹהַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹהַר",
+	"headwords": [
+		{
+			"text": "מוֹהַר"
+		},
 		{
 			"text": "מֹהַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 739,
 		"column": "b"

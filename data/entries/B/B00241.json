@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00241",
-	"slug": "בוישן",
-	"headword": {
-		"text": "בּוֹיְשָׁן"
-	},
+	"sefariaHeadword": "בּוֹיְשָׁן",
+	"headwords": [
+		{
+			"text": "בּוֹיְשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

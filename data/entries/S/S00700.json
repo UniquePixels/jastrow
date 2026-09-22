@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00700",
-	"slug": "קטבלי",
-	"headword": {
-		"text": "קָטָבְלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטָבְלִי",
+	"headwords": [
+		{
+			"text": "קָטָבְלִי"
+		},
 		{
 			"text": "קָטָבְלְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1346,
 		"column": "a"

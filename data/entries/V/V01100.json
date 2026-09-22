@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01100",
-	"slug": "תשנוק",
-	"headword": {
-		"text": "תַּשְׁנוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּשְׁנוּק",
+	"headwords": [
+		{
+			"text": "תַּשְׁנוּק"
+		},
 		{
 			"text": "תַּשְׁנִיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1704,
 		"column": "b"

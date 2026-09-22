@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01723",
-	"slug": "פרופוסיטוס",
-	"headword": {
-		"text": "פְּרוֹפּוֹסִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹפּוֹסִיטוֹס",
+	"headwords": [
 		{
-			"text": "פְּרוֹפְסִ׳"
+			"text": "פְּרוֹפּוֹסִיטוֹס"
+		},
+		{
+			"text": "פְּרוֹפְסִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1221,
 		"column": "b"

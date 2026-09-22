@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00793",
-	"slug": "נישבא",
-	"headword": {
-		"text": "נִישְׁבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִישְׁבָּא",
+	"headwords": [
+		{
+			"text": "נִישְׁבָּא"
+		},
 		{
 			"text": "נִישְׁבִּים"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִישְׁבִּין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 909,
 		"column": "b"

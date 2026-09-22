@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00893",
-	"slug": "אוריירא",
-	"headword": {
-		"text": "אוּרְיָירָא"
-	},
+	"sefariaHeadword": "אוּרְיָירָא",
+	"headwords": [
+		{
+			"text": "אוּרְיָירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

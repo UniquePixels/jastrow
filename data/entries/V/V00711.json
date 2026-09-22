@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00711",
-	"slug": "תמרי",
-	"headword": {
-		"text": "תִּמְרֵי"
-	},
+	"sefariaHeadword": "תִּמְרֵי",
+	"headwords": [
+		{
+			"text": "תִּמְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "a"

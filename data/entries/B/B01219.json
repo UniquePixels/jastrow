@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01219",
-	"slug": "ברזג",
-	"headword": {
-		"text": "בַּרְזֵג"
-	},
+	"sefariaHeadword": "בַּרְזֵג",
+	"headwords": [
+		{
+			"text": "בַּרְזֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

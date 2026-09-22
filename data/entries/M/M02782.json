@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02782",
-	"slug": "מרשיא",
-	"headword": {
-		"text": "מרשיא"
-	},
+	"sefariaHeadword": "מרשיא",
+	"headwords": [
+		{
+			"text": "מרשיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

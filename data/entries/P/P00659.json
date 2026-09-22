@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00659",
-	"slug": "עיקומא",
-	"headword": {
-		"text": "עִיקּוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקּוּמָא",
+	"headwords": [
 		{
-			"text": "עִקּ׳"
+			"text": "עִיקּוּמָא"
+		},
+		{
+			"text": "עִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "a"

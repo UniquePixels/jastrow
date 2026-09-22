@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01145",
-	"slug": "קיקלין",
-	"headword": {
-		"text": "קִיקְלִין"
-	},
+	"sefariaHeadword": "קִיקְלִין",
+	"headwords": [
+		{
+			"text": "קִיקְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "a"

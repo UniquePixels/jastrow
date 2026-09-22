@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01264",
-	"slug": "גרגרנית",
-	"headword": {
-		"text": "גַּרְגְּרָנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְגְּרָנִית",
+	"headwords": [
+		{
+			"text": "גַּרְגְּרָנִית"
+		},
 		{
 			"text": "גַּרְגְּרָנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 265,
 		"column": "a"

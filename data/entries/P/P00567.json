@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00567",
-	"slug": "עילא-1",
-	"headword": {
-		"text": "עִילָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עִילָא II",
+	"headwords": [
+		{
+			"text": "עִילָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1069,
 		"column": "b"

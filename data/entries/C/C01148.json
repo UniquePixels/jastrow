@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01148",
-	"slug": "גניסר",
-	"headword": {
-		"text": "גְּנֵיסַר"
-	},
+	"sefariaHeadword": "גְּנֵיסַר",
+	"headwords": [
+		{
+			"text": "גְּנֵיסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "a"

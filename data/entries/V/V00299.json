@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00299",
-	"slug": "תורמי",
-	"headword": {
-		"text": "תּוּרְמִי"
-	},
+	"sefariaHeadword": "תּוּרְמִי",
+	"headwords": [
+		{
+			"text": "תּוּרְמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

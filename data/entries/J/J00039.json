@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00039",
-	"slug": "יבום",
-	"headword": {
-		"text": "יִבּוּם"
-	},
+	"sefariaHeadword": "יִבּוּם",
+	"headwords": [
+		{
+			"text": "יִבּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

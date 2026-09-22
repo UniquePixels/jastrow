@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00020",
-	"slug": "חבוורתא",
-	"headword": {
-		"text": "חבוורתא"
-	},
+	"sefariaHeadword": "חבוורתא",
+	"headwords": [
+		{
+			"text": "חבוורתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

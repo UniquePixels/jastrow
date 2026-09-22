@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00682",
-	"slug": "פילונס",
-	"headword": {
-		"text": "פִּילוֹנֵס"
-	},
+	"sefariaHeadword": "פִּילוֹנֵס",
+	"headwords": [
+		{
+			"text": "פִּילוֹנֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

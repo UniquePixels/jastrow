@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00967",
-	"slug": "בנרסיי",
-	"headword": {
-		"text": "בנרסיי"
-	},
+	"sefariaHeadword": "בנרסיי",
+	"headwords": [
+		{
+			"text": "בנרסיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00736",
-	"slug": "אוני-2",
-	"headword": {
-		"text": "אוֹנִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹנִי I",
+	"headwords": [
+		{
+			"text": "אוֹנִי",
+			"homograph": 1
+		},
 		{
 			"text": "אוֹנִי"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 28,
 		"column": "b"

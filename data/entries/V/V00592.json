@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00592",
-	"slug": "תליסר",
-	"headword": {
-		"text": "תְּלֵיסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלֵיסַר",
+	"headwords": [
+		{
+			"text": "תְּלֵיסַר"
+		},
 		{
 			"text": "תְּלֵיסְרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1672,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00245",
-	"slug": "זחיל",
-	"headword": {
-		"text": "זָחֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָחֵיל",
+	"headwords": [
+		{
+			"text": "זָחֵיל"
+		},
 		{
 			"text": "זְחִיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "a"

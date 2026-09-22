@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02027",
-	"slug": "אמירה-2",
-	"headword": {
-		"text": "אֲמִירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲמִירָה II",
+	"headwords": [
+		{
+			"text": "אֲמִירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 77,
 		"column": "a"

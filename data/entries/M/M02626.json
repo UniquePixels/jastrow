@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02626",
-	"slug": "מרזיבא",
-	"headword": {
-		"text": "מַרְזֵיבָא"
-	},
+	"sefariaHeadword": "מַרְזֵיבָא",
+	"headwords": [
+		{
+			"text": "מַרְזֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

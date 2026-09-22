@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00772",
-	"slug": "צריך-1",
-	"headword": {
-		"text": "צָרִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָרִיךְ",
+	"headwords": [
+		{
+			"text": "צָרִיךְ"
+		},
 		{
 			"text": "צְרִיכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1301,
 		"column": "b"

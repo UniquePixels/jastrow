@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01747",
-	"slug": "מנונא",
-	"headword": {
-		"text": "מַנּוֹנָא"
-	},
+	"sefariaHeadword": "מַנּוֹנָא",
+	"headwords": [
+		{
+			"text": "מַנּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "b"

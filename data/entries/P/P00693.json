@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00693",
-	"slug": "עירני",
-	"headword": {
-		"text": "עִירָנִי"
-	},
+	"sefariaHeadword": "עִירָנִי",
+	"headwords": [
+		{
+			"text": "עִירָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

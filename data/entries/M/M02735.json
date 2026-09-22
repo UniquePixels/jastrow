@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M02735",
-	"slug": "מרעי-1",
-	"headword": {
-		"text": "מַרְעֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְעֵי I",
+	"headwords": [
+		{
+			"text": "מַרְעֵי",
+			"homograph": 1
+		},
 		{
 			"text": "מִירְעָא"
 		},
 		{
-			"text": "מִרְ׳"
+			"text": "מִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 845,
 		"column": "b"

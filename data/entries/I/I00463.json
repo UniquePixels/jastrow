@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00463",
-	"slug": "טכסא",
-	"headword": {
-		"text": "טִכְסָא"
-	},
+	"sefariaHeadword": "טִכְסָא",
+	"headwords": [
+		{
+			"text": "טִכְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02912",
-	"slug": "משל-2",
-	"headword": {
-		"text": "מָשַׁל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מָשַׁל II",
+	"headwords": [
+		{
+			"text": "מָשַׁל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 855,
 		"column": "a"

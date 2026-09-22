@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02111",
-	"slug": "קרס-1",
-	"headword": {
-		"text": "קָרַס"
-	},
+	"sefariaHeadword": "קָרַס",
+	"headwords": [
+		{
+			"text": "קָרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "a"

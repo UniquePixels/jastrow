@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01172",
-	"slug": "שכמי",
-	"headword": {
-		"text": "שִׁכְמִי"
-	},
+	"sefariaHeadword": "שִׁכְמִי",
+	"headwords": [
+		{
+			"text": "שִׁכְמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1575,
 		"column": "a"

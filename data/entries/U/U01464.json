@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01464",
-	"slug": "שמיטא-2",
-	"headword": {
-		"text": "שְׁמִיטָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמִיטָּא",
+	"headwords": [
+		{
+			"text": "שְׁמִיטָּא"
+		},
 		{
 			"text": "שְׁמִיטָּה"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁמִיטְּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1595,
 		"column": "b"

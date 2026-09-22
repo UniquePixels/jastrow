@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01730",
-	"slug": "חרסונא",
-	"headword": {
-		"text": "חַרְסוֹנָא"
-	},
+	"sefariaHeadword": "חַרְסוֹנָא",
+	"headwords": [
+		{
+			"text": "חַרְסוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "b"

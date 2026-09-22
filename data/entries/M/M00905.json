@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00905",
-	"slug": "מחסא",
-	"headword": {
-		"text": "מְחָסָא"
-	},
+	"sefariaHeadword": "מְחָסָא",
+	"headwords": [
+		{
+			"text": "מְחָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

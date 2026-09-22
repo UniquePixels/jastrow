@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01650",
-	"slug": "איתינן",
-	"headword": {
-		"text": "אִיתִינָן"
-	},
+	"sefariaHeadword": "אִיתִינָן",
+	"headwords": [
+		{
+			"text": "אִיתִינָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

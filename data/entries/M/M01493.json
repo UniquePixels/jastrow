@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01493",
-	"slug": "מלוא-2",
-	"headword": {
-		"text": "מְלוֹא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְלוֹא ²",
+	"headwords": [
+		{
+			"text": "מְלוֹא",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 787,
 		"column": "a"

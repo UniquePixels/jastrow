@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02086",
-	"slug": "פשע-2",
-	"headword": {
-		"text": "פְּשַׁע"
-	},
+	"sefariaHeadword": "פְּשַׁע",
+	"headwords": [
+		{
+			"text": "פְּשַׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "b"

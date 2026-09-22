@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N01305",
-	"slug": "נשיאה-1",
-	"headword": {
-		"text": "נְשִׂיאָה",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְשִׂיאָה I",
+	"headwords": [
+		{
+			"text": "נְשִׂיאָה",
+			"homograph": 1
+		},
 		{
 			"text": "נְשִׂיָּיא"
 		},
@@ -13,9 +14,11 @@
 			"text": "נְשִׂיָּיה"
 		},
 		{
-			"text": "נְסִ׳"
+			"text": "נְסִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}",
 	"page": {
 		"number": 939,
 		"column": "a"

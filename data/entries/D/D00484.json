@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00484",
-	"slug": "דיגון-2",
-	"headword": {
-		"text": "דִּיגוֹן"
-	},
+	"sefariaHeadword": "דִּיגוֹן",
+	"headwords": [
+		{
+			"text": "דִּיגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

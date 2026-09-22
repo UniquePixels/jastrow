@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00797",
-	"slug": "פיקא-2",
-	"headword": {
-		"text": "פִּיקָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקָא ²",
+	"headwords": [
+		{
+			"text": "פִּיקָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּיקָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1169,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00641",
-	"slug": "פיטרין",
-	"headword": {
-		"text": "פיטרין"
-	},
+	"sefariaHeadword": "פיטרין",
+	"headwords": [
+		{
+			"text": "פיטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

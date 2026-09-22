@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00533",
-	"slug": "לית",
-	"headword": {
-		"text": "לַיִת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַיִת",
+	"headwords": [
+		{
+			"text": "לַיִת"
+		},
 		{
 			"text": "לֵית"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 710,
 		"column": "b"

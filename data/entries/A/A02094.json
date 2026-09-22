@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02094",
-	"slug": "אנביל",
-	"headword": {
-		"text": "אנביל"
-	},
+	"sefariaHeadword": "אנביל",
+	"headwords": [
+		{
+			"text": "אנביל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02012",
-	"slug": "קרטס-2",
-	"headword": {
-		"text": "קַרְטֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטֵס",
+	"headwords": [
+		{
+			"text": "קַרְטֵס"
+		},
 		{
 			"text": "קַרְטְסָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1417,
 		"column": "a"

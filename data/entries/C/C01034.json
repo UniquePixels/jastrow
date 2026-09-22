@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01034",
-	"slug": "גמיקיסום",
-	"headword": {
-		"text": "גמיקיסום"
-	},
+	"sefariaHeadword": "גמיקיסום",
+	"headwords": [
+		{
+			"text": "גמיקיסום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00245",
-	"slug": "קודלא",
-	"headword": {
-		"text": "קוּדְלָא"
-	},
+	"sefariaHeadword": "קוּדְלָא",
+	"headwords": [
+		{
+			"text": "קוּדְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1324,
 		"column": "a"

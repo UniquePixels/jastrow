@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00688",
-	"slug": "חיוריין",
-	"headword": {
-		"text": "חִיוַּרְיַיִן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*חִיוַּרְיַיִן",
+	"headwords": [
+		{
+			"text": "חִיוַּרְיַיִן",
+			"reconstructed": true
+		},
 		{
 			"text": "חִיוְּרַיִן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 452,
 		"column": "b"

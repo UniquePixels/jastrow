@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01475",
-	"slug": "סקיסתן",
-	"headword": {
-		"text": "סָקִיסְתָּן"
-	},
+	"sefariaHeadword": "סָקִיסְתָּן",
+	"headwords": [
+		{
+			"text": "סָקִיסְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

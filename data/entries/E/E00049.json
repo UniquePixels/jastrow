@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00049",
-	"slug": "הבקר",
-	"headword": {
-		"text": "הֶבְקֵר"
-	},
+	"sefariaHeadword": "הֶבְקֵר",
+	"headwords": [
+		{
+			"text": "הֶבְקֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "a"

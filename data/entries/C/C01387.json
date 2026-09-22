@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01387",
-	"slug": "גרעינותא",
-	"headword": {
-		"text": "גַּרְעִינוּתָא"
-	},
+	"sefariaHeadword": "גַּרְעִינוּתָא",
+	"headwords": [
+		{
+			"text": "גַּרְעִינוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 271,
 		"column": "b"

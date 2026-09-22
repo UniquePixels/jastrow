@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00817",
-	"slug": "הרגל",
-	"headword": {
-		"text": "הֶרְגֵּל"
-	},
+	"sefariaHeadword": "הֶרְגֵּל",
+	"headwords": [
+		{
+			"text": "הֶרְגֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

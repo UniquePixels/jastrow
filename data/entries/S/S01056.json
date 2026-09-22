@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01056",
-	"slug": "קיסא",
-	"headword": {
-		"text": "קֵיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵיסָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קֵיסָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1364,
 		"column": "b"

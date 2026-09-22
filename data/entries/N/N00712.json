@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00712",
-	"slug": "ניסני",
-	"headword": {
-		"text": "נִיסָנֵי"
-	},
+	"sefariaHeadword": "נִיסָנֵי",
+	"headwords": [
+		{
+			"text": "נִיסָנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00398",
-	"slug": "בושר׳",
-	"headword": {
-		"text": "בושׂר׳"
-	},
+	"sefariaHeadword": "בושׂר׳",
+	"headwords": [
+		{
+			"text": "בושׂר׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

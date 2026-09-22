@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00158",
-	"slug": "פוגלא",
-	"headword": {
-		"text": "פּוּגְלָא"
-	},
+	"sefariaHeadword": "פּוּגְלָא",
+	"headwords": [
+		{
+			"text": "פּוּגְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "a"

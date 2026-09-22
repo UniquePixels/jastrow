@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00416",
-	"slug": "חוסר",
-	"headword": {
-		"text": "חוֹסֶר"
-	},
+	"sefariaHeadword": "חוֹסֶר",
+	"headwords": [
+		{
+			"text": "חוֹסֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

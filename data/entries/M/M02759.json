@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02759",
-	"slug": "מרצף",
-	"headword": {
-		"text": "מַרְצֵף"
-	},
+	"sefariaHeadword": "מַרְצֵף",
+	"headwords": [
+		{
+			"text": "מַרְצֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01010",
-	"slug": "דקלא",
-	"headword": {
-		"text": "דִּקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּקְלָא",
+	"headwords": [
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּקְלָא"
+		},
+		{
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 319,
 		"column": "a"

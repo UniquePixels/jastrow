@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01178",
-	"slug": "סנדל",
-	"headword": {
-		"text": "סַנְדָּל"
-	},
+	"sefariaHeadword": "סַנְדָּל",
+	"headwords": [
+		{
+			"text": "סַנְדָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

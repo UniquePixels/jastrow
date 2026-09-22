@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00962",
-	"slug": "רפקא",
-	"headword": {
-		"text": "רִפְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִפְקָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִפְקָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1492,
 		"column": "a"

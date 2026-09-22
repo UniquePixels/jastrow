@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00483",
-	"slug": "לימין-2",
-	"headword": {
-		"text": "לימין"
-	},
+	"sefariaHeadword": "לימין",
+	"headwords": [
+		{
+			"text": "לימין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 708,
 		"column": "a"

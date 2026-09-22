@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00210",
-	"slug": "גדילתא",
-	"headword": {
-		"text": "גְּדִילְתָּא"
-	},
+	"sefariaHeadword": "גְּדִילְתָּא",
+	"headwords": [
+		{
+			"text": "גְּדִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

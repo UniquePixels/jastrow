@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01778",
-	"slug": "אלגוסין",
-	"headword": {
-		"text": "אלגוסין"
-	},
+	"sefariaHeadword": "אלגוסין",
+	"headwords": [
+		{
+			"text": "אלגוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01181",
-	"slug": "חמימתא",
-	"headword": {
-		"text": "חֲמִימָתָא"
-	},
+	"sefariaHeadword": "חֲמִימָתָא",
+	"headwords": [
+		{
+			"text": "חֲמִימָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00260",
-	"slug": "סודמי",
-	"headword": {
-		"text": "סוֹדָמִי"
-	},
+	"sefariaHeadword": "סוֹדָמִי",
+	"headwords": [
+		{
+			"text": "סוֹדָמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "b"

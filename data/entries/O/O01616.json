@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01616",
-	"slug": "סריך",
-	"headword": {
-		"text": "סְרִיךְ"
-	},
+	"sefariaHeadword": "סְרִיךְ",
+	"headwords": [
+		{
+			"text": "סְרִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

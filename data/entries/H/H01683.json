@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01683",
-	"slug": "חריסית",
-	"headword": {
-		"text": "חֲרִיסִית"
-	},
+	"sefariaHeadword": "חֲרִיסִית",
+	"headwords": [
+		{
+			"text": "חֲרִיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

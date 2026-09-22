@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00391",
-	"slug": "טינדיסין",
-	"headword": {
-		"text": "טינדיסין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טינדיסין",
+	"headwords": [
 		{
-			"text": "טנ׳"
+			"text": "טינדיסין"
+		},
+		{
+			"text": "טנ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "b"

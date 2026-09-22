@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00006",
-	"slug": "צאי-1",
-	"headword": {
-		"text": "צאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צאי",
+	"headwords": [
+		{
+			"text": "צאי"
+		},
 		{
 			"text": "צָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1256,
 		"column": "b"

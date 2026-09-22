@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00609",
-	"slug": "ירוק-2",
-	"headword": {
-		"text": "יָרוֹק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָרוֹק ²",
+	"headwords": [
+		{
+			"text": "יָרוֹק",
+			"disambiguator": 2
+		},
 		{
 			"text": "יָרוֹקָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 595,
 		"column": "a"

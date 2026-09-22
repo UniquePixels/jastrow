@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00249",
-	"slug": "תועב",
-	"headword": {
-		"text": "תּוֹעֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹעֵב",
+	"headwords": [
+		{
+			"text": "תּוֹעֵב"
+		},
 		{
 			"text": "תּוֹעֲבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "a"

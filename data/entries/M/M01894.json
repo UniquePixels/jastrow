@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01894",
-	"slug": "מסחתא",
-	"headword": {
-		"text": "מִסְחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְחֲתָא",
+	"headwords": [
+		{
+			"text": "מִסְחֲתָא"
+		},
 		{
 			"text": "מְסַחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 805,
 		"column": "b"

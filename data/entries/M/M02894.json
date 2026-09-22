@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02894",
-	"slug": "משכא",
-	"headword": {
-		"text": "מְשָׁכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשָׁכָא",
+	"headwords": [
 		{
-			"text": "בֵּי מְשָׁכָא"
+			"text": "מְשָׁכָא"
+		},
+		{
+			"text": "בֵּי מְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 854,
 		"column": "a"

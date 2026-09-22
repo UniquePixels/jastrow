@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00330",
-	"slug": "מדרוכיתא",
-	"headword": {
-		"text": "מַדְרוֹכִיתָא"
-	},
+	"sefariaHeadword": "מַדְרוֹכִיתָא",
+	"headwords": [
+		{
+			"text": "מַדְרוֹכִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

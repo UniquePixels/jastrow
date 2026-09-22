@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01806",
-	"slug": "שפרפרא",
-	"headword": {
-		"text": "שְׁפַרְפָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁפַרְפָּרָא",
+	"headwords": [
+		{
+			"text": "שְׁפַרְפָּרָא"
+		},
 		{
 			"text": "שְׁפַרְפֵּרָא"
 		},
 		{
-			"text": "שְׁפַרְפְּ׳"
+			"text": "שְׁפַרְפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1620,
 		"column": "a"

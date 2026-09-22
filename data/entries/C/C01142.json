@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01142",
-	"slug": "גניינן",
-	"headword": {
-		"text": "גניינן"
-	},
+	"sefariaHeadword": "גניינן",
+	"headwords": [
+		{
+			"text": "גניינן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "b"

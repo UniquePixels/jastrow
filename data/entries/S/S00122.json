@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00122",
-	"slug": "קדושא",
-	"headword": {
-		"text": "קְדוּשָּׁא"
-	},
+	"sefariaHeadword": "קְדוּשָּׁא",
+	"headwords": [
+		{
+			"text": "קְדוּשָּׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1314,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00545",
-	"slug": "אוגנא",
-	"headword": {
-		"text": "אוֹגָנָא"
-	},
+	"sefariaHeadword": "אוֹגָנָא",
+	"headwords": [
+		{
+			"text": "אוֹגָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

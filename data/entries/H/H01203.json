@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01203",
-	"slug": "חמן",
-	"headword": {
-		"text": "חַמָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמָּן",
+	"headwords": [
+		{
+			"text": "חַמָּן"
+		},
 		{
 			"text": "חַמָּנִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 478,
 		"column": "a"

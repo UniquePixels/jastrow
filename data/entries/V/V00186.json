@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00186",
-	"slug": "תוחלת",
-	"headword": {
-		"text": "תּוֹחֶלֶת"
-	},
+	"sefariaHeadword": "תּוֹחֶלֶת",
+	"headwords": [
+		{
+			"text": "תּוֹחֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01840",
-	"slug": "אליהו",
-	"headword": {
-		"text": "אֵלִיָּהוּ"
-	},
+	"sefariaHeadword": "אֵלִיָּהוּ",
+	"headwords": [
+		{
+			"text": "אֵלִיָּהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

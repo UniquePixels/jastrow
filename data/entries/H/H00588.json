@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00588",
-	"slug": "חטאתא",
-	"headword": {
-		"text": "חַטָּאתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַטָּאתָא",
+	"headwords": [
+		{
+			"text": "חַטָּאתָא"
+		},
 		{
 			"text": "חַטָּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חַטָּאת"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 447,
 		"column": "b"

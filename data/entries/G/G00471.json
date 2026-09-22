@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00471",
-	"slug": "זכרות",
-	"headword": {
-		"text": "זַכְרוּת"
-	},
+	"sefariaHeadword": "זַכְרוּת",
+	"headwords": [
+		{
+			"text": "זַכְרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 400,
 		"column": "b"

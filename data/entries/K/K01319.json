@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01319",
-	"slug": "כשף-3",
-	"headword": {
-		"text": "כַּשָּׁף"
-	},
+	"sefariaHeadword": "כַּשָּׁף",
+	"headwords": [
+		{
+			"text": "כַּשָּׁף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 677,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01286",
-	"slug": "פסיל",
-	"headword": {
-		"text": "פָּסִיל"
-	},
+	"sefariaHeadword": "פָּסִיל",
+	"headwords": [
+		{
+			"text": "פָּסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "a"

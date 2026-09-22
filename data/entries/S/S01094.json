@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01094",
-	"slug": "קיפא",
-	"headword": {
-		"text": "קֵיפֶא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵיפֶא",
+	"headwords": [
+		{
+			"text": "קֵיפֶא"
+		},
 		{
 			"text": "קֵיפֶה"
 		},
@@ -15,6 +16,7 @@
 			"text": "קֵפֶה"
 		}
 	],
+	"display": "{0}, {1}, ({2}), {3}",
 	"page": {
 		"number": 1365,
 		"column": "b"

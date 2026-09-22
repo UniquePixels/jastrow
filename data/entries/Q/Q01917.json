@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01917",
-	"slug": "פרסאות",
-	"headword": {
-		"text": "פַּרְסָאוֹת"
-	},
+	"sefariaHeadword": "פַּרְסָאוֹת",
+	"headwords": [
+		{
+			"text": "פַּרְסָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1233,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00117",
-	"slug": "בדוחא-1",
-	"headword": {
-		"text": "בָּדוֹחָא"
-	},
+	"sefariaHeadword": "בָּדוֹחָא",
+	"headwords": [
+		{
+			"text": "בָּדוֹחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00335",
-	"slug": "סום-4",
-	"headword": {
-		"text": "סוּם",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סוּם ²",
+	"headwords": [
+		{
+			"text": "סוּם",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 966,
 		"column": "a"

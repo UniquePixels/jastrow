@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02590",
-	"slug": "אע",
-	"headword": {
-		"text": "אָע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָע",
+	"headwords": [
+		{
+			"text": "אָע"
+		},
 		{
 			"text": "אָעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 99,
 		"column": "a"

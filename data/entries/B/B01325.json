@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01325",
-	"slug": "ברקין",
-	"headword": {
-		"text": "בְּרַקִּין"
-	},
+	"sefariaHeadword": "בְּרַקִּין",
+	"headwords": [
+		{
+			"text": "בְּרַקִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02035",
-	"slug": "שררתיה",
-	"headword": {
-		"text": "שררתיה"
-	},
+	"sefariaHeadword": "שררתיה",
+	"headwords": [
+		{
+			"text": "שררתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "b"

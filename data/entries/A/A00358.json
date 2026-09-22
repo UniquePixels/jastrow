@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00358",
-	"slug": "אגרמא",
-	"headword": {
-		"text": "אגרמא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אגרמא",
+	"headwords": [
+		{
+			"text": "אגרמא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

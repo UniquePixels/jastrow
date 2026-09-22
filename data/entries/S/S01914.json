@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01914",
-	"slug": "קרדימא",
-	"headword": {
-		"text": "קַרְדִּימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדִּימָא",
+	"headwords": [
 		{
-			"text": "בַּר קַרְדִּימָא"
+			"text": "קַרְדִּימָא"
+		},
+		{
+			"text": "בַּר קַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1412,
 		"column": "b"

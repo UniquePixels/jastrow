@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00081",
-	"slug": "זהבי",
-	"headword": {
-		"text": "זָהָבִי"
-	},
+	"sefariaHeadword": "זָהָבִי",
+	"headwords": [
+		{
+			"text": "זָהָבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "a"

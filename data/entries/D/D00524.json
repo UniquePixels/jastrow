@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00524",
-	"slug": "דיופוטא",
-	"headword": {
-		"text": "דיופוטא"
-	},
+	"sefariaHeadword": "דיופוטא",
+	"headwords": [
+		{
+			"text": "דיופוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

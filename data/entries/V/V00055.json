@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00055",
-	"slug": "תבלא-1",
-	"headword": {
-		"text": "תַּבְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תַּבְלָא I",
+	"headwords": [
+		{
+			"text": "תַּבְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1644,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00202",
-	"slug": "עודה-2",
-	"headword": {
-		"text": "עודה"
-	},
+	"sefariaHeadword": "עודה",
+	"headwords": [
+		{
+			"text": "עודה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

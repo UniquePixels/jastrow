@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01317",
-	"slug": "ספדא-1",
-	"headword": {
-		"text": "סָפְדָּא"
-	},
+	"sefariaHeadword": "סָפְדָּא",
+	"headwords": [
+		{
+			"text": "סָפְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1011,
 		"column": "b"

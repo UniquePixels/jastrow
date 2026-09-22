@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00224",
-	"slug": "רגש-1",
-	"headword": {
-		"text": "רָגַשׁ"
-	},
+	"sefariaHeadword": "רָגַשׁ",
+	"headwords": [
+		{
+			"text": "רָגַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1450,
 		"column": "a"

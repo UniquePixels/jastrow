@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00442",
-	"slug": "יניק",
-	"headword": {
-		"text": "יַנִּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַנִּיק",
+	"headwords": [
+		{
+			"text": "יַנִּיק"
+		},
 		{
 			"text": "יָנִיק"
 		},
@@ -12,6 +13,7 @@
 			"text": "יָנִיקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 581,
 		"column": "a"

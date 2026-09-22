@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00959",
-	"slug": "שימוע",
-	"headword": {
-		"text": "שִׁימּוּעַ"
-	},
+	"sefariaHeadword": "שִׁימּוּעַ",
+	"headwords": [
+		{
+			"text": "שִׁימּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

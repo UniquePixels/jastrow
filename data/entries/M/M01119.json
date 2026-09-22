@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01119",
-	"slug": "מיחם",
-	"headword": {
-		"text": "מֵיחַם"
-	},
+	"sefariaHeadword": "מֵיחַם",
+	"headwords": [
+		{
+			"text": "מֵיחַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

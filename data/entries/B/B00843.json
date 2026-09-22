@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00843",
-	"slug": "בלורית",
-	"headword": {
-		"text": "בְּלוּרִית"
-	},
+	"sefariaHeadword": "בְּלוּרִית",
+	"headwords": [
+		{
+			"text": "בְּלוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

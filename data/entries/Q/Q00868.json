@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00868",
-	"slug": "פירסומי",
-	"headword": {
-		"text": "פִּירְסוּמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְסוּמֵי",
+	"headwords": [
 		{
-			"text": "פִּרְ׳"
+			"text": "פִּירְסוּמֵי"
+		},
+		{
+			"text": "פִּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1172,
 		"column": "a"

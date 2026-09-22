@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01513",
-	"slug": "פקץ",
-	"headword": {
-		"text": "פָּקַץ"
-	},
+	"sefariaHeadword": "פָּקַץ",
+	"headwords": [
+		{
+			"text": "פָּקַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1211,
 		"column": "b"

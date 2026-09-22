@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03106",
-	"slug": "מתרותא",
-	"headword": {
-		"text": "מַתְרוּתָא"
-	},
+	"sefariaHeadword": "מַתְרוּתָא",
+	"headwords": [
+		{
+			"text": "מַתְרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "b"

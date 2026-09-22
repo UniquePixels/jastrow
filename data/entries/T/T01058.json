@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01058",
-	"slug": "רר",
-	"headword": {
-		"text": "רָר"
-	},
+	"sefariaHeadword": "רָר",
+	"headwords": [
+		{
+			"text": "רָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

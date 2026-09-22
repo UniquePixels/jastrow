@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00771",
-	"slug": "רכן-4",
-	"headword": {
-		"text": "רְכַן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רְכַן ²",
+	"headwords": [
+		{
+			"text": "רְכַן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1480,
 		"column": "a"

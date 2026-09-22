@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00831",
-	"slug": "גירמא",
-	"headword": {
-		"text": "גִּירְמָא"
-	},
+	"sefariaHeadword": "גִּירְמָא",
+	"headwords": [
+		{
+			"text": "גִּירְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

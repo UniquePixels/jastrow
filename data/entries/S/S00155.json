@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00155",
-	"slug": "קדמאה",
-	"headword": {
-		"text": "קַדְמָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַדְמָאָה",
+	"headwords": [
+		{
+			"text": "קַדְמָאָה"
+		},
 		{
 			"text": "קַדְמַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1317,
 		"column": "a"

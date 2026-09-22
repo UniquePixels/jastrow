@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01815",
-	"slug": "מנקירותא",
-	"headword": {
-		"text": "מְנַקִּירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְנַקִּירוּתָא",
+	"headwords": [
+		{
+			"text": "מְנַקִּירוּתָא"
+		},
 		{
 			"text": "מְנַקְּרוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 802,
 		"column": "b"

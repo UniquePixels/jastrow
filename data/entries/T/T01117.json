@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01117",
-	"slug": "רתה",
-	"headword": {
-		"text": "רָתָה"
-	},
+	"sefariaHeadword": "רָתָה",
+	"headwords": [
+		{
+			"text": "רָתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

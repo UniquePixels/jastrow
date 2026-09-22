@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00893",
-	"slug": "דמי-3",
-	"headword": {
-		"text": "דְּמֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דְּמֵי II",
+	"headwords": [
+		{
+			"text": "דְּמֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 313,
 		"column": "b"

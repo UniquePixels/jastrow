@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00198",
-	"slug": "בו",
-	"headword": {
-		"text": "בּוֹ"
-	},
+	"sefariaHeadword": "בּוֹ",
+	"headwords": [
+		{
+			"text": "בּוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "b"

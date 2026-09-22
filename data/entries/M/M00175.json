@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00175",
-	"slug": "מגיריון",
-	"headword": {
-		"text": "מָגִירְיוֹן"
-	},
+	"sefariaHeadword": "מָגִירְיוֹן",
+	"headwords": [
+		{
+			"text": "מָגִירְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "b"

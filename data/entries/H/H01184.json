@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01184",
-	"slug": "חמיסר",
-	"headword": {
-		"text": "חֲמֵיסַר"
-	},
+	"sefariaHeadword": "חֲמֵיסַר",
+	"headwords": [
+		{
+			"text": "חֲמֵיסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

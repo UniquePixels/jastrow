@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01581",
-	"slug": "סרט-1",
-	"headword": {
-		"text": "סָרַט"
-	},
+	"sefariaHeadword": "סָרַט",
+	"headwords": [
+		{
+			"text": "סָרַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "a"

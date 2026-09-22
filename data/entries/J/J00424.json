@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00424",
-	"slug": "ימריס",
-	"headword": {
-		"text": "יַמרִיס"
-	},
+	"sefariaHeadword": "יַמרִיס",
+	"headwords": [
+		{
+			"text": "יַמרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

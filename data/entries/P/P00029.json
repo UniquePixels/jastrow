@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00029",
-	"slug": "עבוף",
-	"headword": {
-		"text": "עַבּוֹף"
-	},
+	"sefariaHeadword": "עַבּוֹף",
+	"headwords": [
+		{
+			"text": "עַבּוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

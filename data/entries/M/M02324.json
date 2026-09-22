@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02324",
-	"slug": "מציעיתא",
-	"headword": {
-		"text": "מְצִיעֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצִיעֵיתָא",
+	"headwords": [
+		{
+			"text": "מְצִיעֵיתָא"
+		},
 		{
 			"text": "מְצִיעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 826,
 		"column": "b"

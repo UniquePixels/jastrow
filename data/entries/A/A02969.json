@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02969",
-	"slug": "ארבעא",
-	"headword": {
-		"text": "אַרְבְּעָא"
-	},
+	"sefariaHeadword": "אַרְבְּעָא",
+	"headwords": [
+		{
+			"text": "אַרְבְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 114,
 		"column": "a"

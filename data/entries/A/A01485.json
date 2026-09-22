@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01485",
-	"slug": "איספקלטורא",
-	"headword": {
-		"text": "אִיסְפַּקְלָטוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְפַּקְלָטוֹרָא",
+	"headwords": [
+		{
+			"text": "אִיסְפַּקְלָטוֹרָא"
+		},
 		{
 			"text": "סְפוֹקְלָטוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 56,
 		"column": "b"

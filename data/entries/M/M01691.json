@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01691",
-	"slug": "ממתקים",
-	"headword": {
-		"text": "מַמְתַּקִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַמְתַּקִּים",
+	"headwords": [
+		{
+			"text": "מַמְתַּקִּים"
+		},
 		{
 			"text": "מַמְתַּקִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 796,
 		"column": "a"

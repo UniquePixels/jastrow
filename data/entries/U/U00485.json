@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00485",
-	"slug": "שועל-2",
-	"headword": {
-		"text": "שׁוֹעָל"
-	},
+	"sefariaHeadword": "שׁוֹעָל",
+	"headwords": [
+		{
+			"text": "שׁוֹעָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00172",
-	"slug": "גדוד-3",
-	"headword": {
-		"text": "גִּדּוּד"
-	},
+	"sefariaHeadword": "גִּדּוּד",
+	"headwords": [
+		{
+			"text": "גִּדּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "b"

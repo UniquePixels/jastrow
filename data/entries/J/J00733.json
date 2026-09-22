@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00733",
-	"slug": "יתימתא",
-	"headword": {
-		"text": "יְתִימְתָּא"
-	},
+	"sefariaHeadword": "יְתִימְתָּא",
+	"headwords": [
+		{
+			"text": "יְתִימְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01060",
-	"slug": "דרומי",
-	"headword": {
-		"text": "דְּרוֹמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרוֹמִי",
+	"headwords": [
+		{
+			"text": "דְּרוֹמִי"
+		},
 		{
 			"text": "דְּרוֹמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 322,
 		"column": "a"

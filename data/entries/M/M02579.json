@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02579",
-	"slug": "מרוותא",
-	"headword": {
-		"text": "מָרְוְותָא"
-	},
+	"sefariaHeadword": "מָרְוְותָא",
+	"headwords": [
+		{
+			"text": "מָרְוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

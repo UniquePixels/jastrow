@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02506",
-	"slug": "אספניקי",
-	"headword": {
-		"text": "אִסְפְּנִיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפְּנִיקִי",
+	"headwords": [
+		{
+			"text": "אִסְפְּנִיקִי"
+		},
 		{
 			"text": "אִסְפִּנְקִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"

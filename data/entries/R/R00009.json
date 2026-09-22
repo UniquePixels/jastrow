@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00009",
-	"slug": "צאיר",
-	"headword": {
-		"text": "צָאֵיר"
-	},
+	"sefariaHeadword": "צָאֵיר",
+	"headwords": [
+		{
+			"text": "צָאֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

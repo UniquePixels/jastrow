@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02643",
-	"slug": "אפוקסנין",
-	"headword": {
-		"text": "אפוקסנין"
-	},
+	"sefariaHeadword": "אפוקסנין",
+	"headwords": [
+		{
+			"text": "אפוקסנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

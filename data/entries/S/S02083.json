@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02083",
-	"slug": "קריש",
-	"headword": {
-		"text": "קַרִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרִישׁ",
+	"headwords": [
+		{
+			"text": "קַרִישׁ"
+		},
 		{
 			"text": "קַרִישָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1421,
 		"column": "b"

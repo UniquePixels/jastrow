@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00534",
-	"slug": "קוץ-9",
-	"headword": {
-		"text": "קוֹץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קוֹץ I",
+	"headwords": [
+		{
+			"text": "קוֹץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1339,
 		"column": "b"

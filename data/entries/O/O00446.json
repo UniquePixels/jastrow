@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00446",
-	"slug": "סחוס",
-	"headword": {
-		"text": "סְחוֹס"
-	},
+	"sefariaHeadword": "סְחוֹס",
+	"headwords": [
+		{
+			"text": "סְחוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

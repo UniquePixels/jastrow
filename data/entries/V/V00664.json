@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00664",
-	"slug": "תמוקה",
-	"headword": {
-		"text": "תְּמוּקָה"
-	},
+	"sefariaHeadword": "תְּמוּקָה",
+	"headwords": [
+		{
+			"text": "תְּמוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

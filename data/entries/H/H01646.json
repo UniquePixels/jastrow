@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01646",
-	"slug": "חרז-1",
-	"headword": {
-		"text": "חָרַז"
-	},
+	"sefariaHeadword": "חָרַז",
+	"headwords": [
+		{
+			"text": "חָרַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "b"

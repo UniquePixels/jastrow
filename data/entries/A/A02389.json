@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02389",
-	"slug": "אסטנית",
-	"headword": {
-		"text": "אִסְטָנִית",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְטָנִית",
+	"headwords": [
+		{
+			"text": "אִסְטָנִית",
+			"reconstructed": true
+		},
 		{
 			"text": "אִיסְטַטִּית"
 		},
@@ -13,6 +14,7 @@
 			"text": "אִיסְטַסִּית"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 91,
 		"column": "a"

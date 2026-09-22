@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00703",
-	"slug": "מותנין",
-	"headword": {
-		"text": "מוֹתְנִין"
-	},
+	"sefariaHeadword": "מוֹתְנִין",
+	"headwords": [
+		{
+			"text": "מוֹתְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

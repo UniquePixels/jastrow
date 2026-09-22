@@ -1,20 +1,26 @@
 {
+	"schemaVersion": 2,
 	"id": "A01480",
-	"slug": "איספלידא",
-	"headword": {
-		"text": "אִיסְפְּלִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְפְּלִידָא",
+	"headwords": [
+		{
+			"text": "אִיסְפְּלִידָא"
+		},
 		{
 			"text": "איספליטון"
 		},
 		{
-			"text": "אִיסְפְּלָנִית(א)"
+			"text": "אִיסְפְּלָנִית"
+		},
+		{
+			"text": "א",
+			"partial": true
 		},
 		{
 			"text": "אִיסְפַּמְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}({3}), {4}",
 	"page": {
 		"number": 56,
 		"column": "b"

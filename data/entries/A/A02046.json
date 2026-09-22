@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02046",
-	"slug": "אמפוטמא",
-	"headword": {
-		"text": "אמפוטמא"
-	},
+	"sefariaHeadword": "אמפוטמא",
+	"headwords": [
+		{
+			"text": "אמפוטמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "a"

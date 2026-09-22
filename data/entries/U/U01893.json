@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01893",
-	"slug": "שקר-2",
-	"headword": {
-		"text": "שָׁקַר"
-	},
+	"sefariaHeadword": "שָׁקַר",
+	"headwords": [
+		{
+			"text": "שָׁקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1626,
 		"column": "a"

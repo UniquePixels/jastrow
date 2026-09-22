@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00361",
-	"slug": "לחלח-1",
-	"headword": {
-		"text": "לִחְלֵחַ"
-	},
+	"sefariaHeadword": "לִחְלֵחַ",
+	"headwords": [
+		{
+			"text": "לִחְלֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "b"

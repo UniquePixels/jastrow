@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00345",
-	"slug": "אגרוי",
-	"headword": {
-		"text": "אגרוי"
-	},
+	"sefariaHeadword": "אגרוי",
+	"headwords": [
+		{
+			"text": "אגרוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

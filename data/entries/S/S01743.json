@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01743",
-	"slug": "קפיץ-2",
-	"headword": {
-		"text": "קֻפִּיץ"
-	},
+	"sefariaHeadword": "קֻפִּיץ",
+	"headwords": [
+		{
+			"text": "קֻפִּיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "b"

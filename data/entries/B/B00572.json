@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00572",
-	"slug": "ביזרא",
-	"headword": {
-		"text": "בִּיזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיזְרָא",
+	"headwords": [
+		{
+			"text": "בִּיזְרָא"
+		},
 		{
 			"text": "בִּיזְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

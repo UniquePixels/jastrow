@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02927",
-	"slug": "אקניותא",
-	"headword": {
-		"text": "אַקְנָיוּתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַקְנָיוּתָא",
+	"headwords": [
+		{
+			"text": "אַקְנָיוּתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

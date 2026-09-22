@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01866",
-	"slug": "שקיף",
-	"headword": {
-		"text": "שָׁקִיף"
-	},
+	"sefariaHeadword": "שָׁקִיף",
+	"headwords": [
+		{
+			"text": "שָׁקִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1623,
 		"column": "a"

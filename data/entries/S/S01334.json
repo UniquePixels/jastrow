@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01334",
-	"slug": "קליל-1",
-	"headword": {
-		"text": "קָלִיל"
-	},
+	"sefariaHeadword": "קָלִיל",
+	"headwords": [
+		{
+			"text": "קָלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

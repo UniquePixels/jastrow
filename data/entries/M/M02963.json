@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02963",
-	"slug": "משקופי",
-	"headword": {
-		"text": "מַשְׁקוֹפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁקוֹפִי",
+	"headwords": [
 		{
-			"text": "מַשְׁקוּ׳"
+			"text": "מַשְׁקוֹפִי"
+		},
+		{
+			"text": "מַשְׁקוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "a"

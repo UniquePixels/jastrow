@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00728",
-	"slug": "גילוח-2",
-	"headword": {
-		"text": "גִּילוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּילוּחַ",
+	"headwords": [
+		{
+			"text": "גִּילוּחַ"
+		},
 		{
 			"text": "גִּלוּחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 238,
 		"column": "b"

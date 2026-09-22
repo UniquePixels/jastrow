@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01813",
-	"slug": "פריסא",
-	"headword": {
-		"text": "פְּרִיסָא"
-	},
+	"sefariaHeadword": "פְּרִיסָא",
+	"headwords": [
+		{
+			"text": "פְּרִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00453",
-	"slug": "רושש",
-	"headword": {
-		"text": "רוֹשֵׁשׁ"
-	},
+	"sefariaHeadword": "רוֹשֵׁשׁ",
+	"headwords": [
+		{
+			"text": "רוֹשֵׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

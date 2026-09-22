@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00013",
-	"slug": "ודאה",
-	"headword": {
-		"text": "וַדָּאָה"
-	},
+	"sefariaHeadword": "וַדָּאָה",
+	"headwords": [
+		{
+			"text": "וַדָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

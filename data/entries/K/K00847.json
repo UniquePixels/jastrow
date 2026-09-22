@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00847",
-	"slug": "כנורא",
-	"headword": {
-		"text": "כִּנּוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנּוֹרָא",
+	"headwords": [
 		{
-			"text": "כִּינּוֹ׳"
+			"text": "כִּנּוֹרָא"
+		},
+		{
+			"text": "כִּינּוֹ׳",
+			"partial": true
 		},
 		{
 			"text": "כִּנָרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 648,
 		"column": "b"

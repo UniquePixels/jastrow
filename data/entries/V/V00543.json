@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00543",
-	"slug": "תכלא-2",
-	"headword": {
-		"text": "תִּכְלָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "תִּכְלָא III",
+	"headwords": [
+		{
+			"text": "תִּכְלָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1668,
 		"column": "b"

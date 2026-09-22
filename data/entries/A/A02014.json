@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02014",
-	"slug": "אמטיתא",
-	"headword": {
-		"text": "אַמְטִיתָא"
-	},
+	"sefariaHeadword": "אַמְטִיתָא",
+	"headwords": [
+		{
+			"text": "אַמְטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

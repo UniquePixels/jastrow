@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02255",
-	"slug": "אננא",
-	"headword": {
-		"text": "אֲנָנָא"
-	},
+	"sefariaHeadword": "אֲנָנָא",
+	"headwords": [
+		{
+			"text": "אֲנָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "a"

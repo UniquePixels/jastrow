@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01494",
-	"slug": "איסק",
-	"headword": {
-		"text": "אִיסָק"
-	},
+	"sefariaHeadword": "אִיסָק",
+	"headwords": [
+		{
+			"text": "אִיסָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

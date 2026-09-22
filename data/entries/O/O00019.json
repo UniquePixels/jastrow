@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00019",
-	"slug": "סאני",
-	"headword": {
-		"text": "סָאנֵי"
-	},
+	"sefariaHeadword": "סָאנֵי",
+	"headwords": [
+		{
+			"text": "סָאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

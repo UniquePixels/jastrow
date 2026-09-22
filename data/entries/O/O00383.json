@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00383",
-	"slug": "סוערן",
-	"headword": {
-		"text": "סוֹעֲרָן"
-	},
+	"sefariaHeadword": "סוֹעֲרָן",
+	"headwords": [
+		{
+			"text": "סוֹעֲרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "b"

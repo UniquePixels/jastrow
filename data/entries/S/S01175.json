@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01175",
-	"slug": "קירטון",
-	"headword": {
-		"text": "קירטון"
-	},
+	"sefariaHeadword": "קירטון",
+	"headwords": [
+		{
+			"text": "קירטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01287",
-	"slug": "סעורא",
-	"headword": {
-		"text": "סְעוֹרָא"
-	},
+	"sefariaHeadword": "סְעוֹרָא",
+	"headwords": [
+		{
+			"text": "סְעוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1010,
 		"column": "a"

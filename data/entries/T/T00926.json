@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00926",
-	"slug": "רף",
-	"headword": {
-		"text": "רַף"
-	},
+	"sefariaHeadword": "רַף",
+	"headwords": [
+		{
+			"text": "רַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

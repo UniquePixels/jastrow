@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00301",
-	"slug": "חוטם",
-	"headword": {
-		"text": "חוֹטָם"
-	},
+	"sefariaHeadword": "חוֹטָם",
+	"headwords": [
+		{
+			"text": "חוֹטָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 431,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01001",
-	"slug": "אחודתא",
-	"headword": {
-		"text": "אֲחוּדְתָּא"
-	},
+	"sefariaHeadword": "אֲחוּדְתָּא",
+	"headwords": [
+		{
+			"text": "אֲחוּדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00220",
-	"slug": "לוונטי",
-	"headword": {
-		"text": "לְוַונְטִי"
-	},
+	"sefariaHeadword": "לְוַונְטִי",
+	"headwords": [
+		{
+			"text": "לְוַונְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

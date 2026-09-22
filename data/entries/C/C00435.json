@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00435",
-	"slug": "גונדלית",
-	"headword": {
-		"text": "גּוּנְדְּלִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּנְדְּלִית",
+	"headwords": [
+		{
+			"text": "גּוּנְדְּלִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

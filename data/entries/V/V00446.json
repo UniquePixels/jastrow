@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00446",
-	"slug": "תילאנא",
-	"headword": {
-		"text": "תִּילָאנָא"
-	},
+	"sefariaHeadword": "תִּילָאנָא",
+	"headwords": [
+		{
+			"text": "תִּילָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

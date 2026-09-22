@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00288",
-	"slug": "רהיטני",
-	"headword": {
-		"text": "רְהִיטְנִי"
-	},
+	"sefariaHeadword": "רְהִיטְנִי",
+	"headwords": [
+		{
+			"text": "רְהִיטְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

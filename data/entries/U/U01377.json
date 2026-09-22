@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01377",
-	"slug": "שלפוקין",
-	"headword": {
-		"text": "שַׁלִפּוּקִין"
-	},
+	"sefariaHeadword": "שַׁלִפּוּקִין",
+	"headwords": [
+		{
+			"text": "שַׁלִפּוּקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "a"

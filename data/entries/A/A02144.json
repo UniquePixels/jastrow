@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02144",
-	"slug": "אנון",
-	"headword": {
-		"text": "אִנּוּן"
-	},
+	"sefariaHeadword": "אִנּוּן",
+	"headwords": [
+		{
+			"text": "אִנּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00527",
-	"slug": "אובל",
-	"headword": {
-		"text": "אוּבָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּבָל",
+	"headwords": [
+		{
+			"text": "אוּבָל"
+		},
 		{
 			"text": "אֻבָל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "a"

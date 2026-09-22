@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01821",
-	"slug": "פריעה",
-	"headword": {
-		"text": "פְּרִיעָה"
-	},
+	"sefariaHeadword": "פְּרִיעָה",
+	"headwords": [
+		{
+			"text": "פְּרִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

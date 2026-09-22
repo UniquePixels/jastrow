@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00923",
-	"slug": "תרב",
-	"headword": {
-		"text": "תְּרָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרָב",
+	"headwords": [
+		{
+			"text": "תְּרָב"
+		},
 		{
 			"text": "תַּרְבָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תְּרֵיב"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1694,
 		"column": "b"

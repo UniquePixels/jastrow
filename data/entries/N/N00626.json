@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00626",
-	"slug": "ניה",
-	"headword": {
-		"text": "נָיָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָיָה",
+	"headwords": [
+		{
+			"text": "נָיָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 903,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

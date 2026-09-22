@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01754",
-	"slug": "שפיפונא",
-	"headword": {
-		"text": "שְׁפִיפוֹנָא"
-	},
+	"sefariaHeadword": "שְׁפִיפוֹנָא",
+	"headwords": [
+		{
+			"text": "שְׁפִיפוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1616,
 		"column": "a"

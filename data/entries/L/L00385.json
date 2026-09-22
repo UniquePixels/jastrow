@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00385",
-	"slug": "לטותא",
-	"headword": {
-		"text": "לְטוּתָא"
-	},
+	"sefariaHeadword": "לְטוּתָא",
+	"headwords": [
+		{
+			"text": "לְטוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

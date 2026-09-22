@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01190",
-	"slug": "סנדרי",
-	"headword": {
-		"text": "סַנְדְּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְדְּרֵי",
+	"headwords": [
+		{
+			"text": "סַנְדְּרֵי"
+		},
 		{
 			"text": "סַנֶּדְרָאוֹת"
 		},
@@ -15,6 +16,7 @@
 			"text": "סַנְדַּרְיָיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1005,
 		"column": "a"

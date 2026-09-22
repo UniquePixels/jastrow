@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00983",
-	"slug": "פלוניא",
-	"headword": {
-		"text": "פלוניא"
-	},
+	"sefariaHeadword": "פלוניא",
+	"headwords": [
+		{
+			"text": "פלוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

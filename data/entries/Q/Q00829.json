@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00829",
-	"slug": "פירדה",
-	"headword": {
-		"text": "פִּירְדָּה"
-	},
+	"sefariaHeadword": "פִּירְדָּה",
+	"headwords": [
+		{
+			"text": "פִּירְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

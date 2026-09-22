@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00279",
-	"slug": "תורביינא",
-	"headword": {
-		"text": "תּוּרְבְּיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּרְבְּיָינָא",
+	"headwords": [
+		{
+			"text": "תּוּרְבְּיָינָא"
+		},
 		{
 			"text": "תּוּרְבְּיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1656,
 		"column": "b"

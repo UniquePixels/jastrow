@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01184",
-	"slug": "עקיפים",
-	"headword": {
-		"text": "עֲקִיפִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲקִיפִים",
+	"headwords": [
+		{
+			"text": "עֲקִיפִים"
+		},
 		{
 			"text": "עֲקִיפִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1106,
 		"column": "a"

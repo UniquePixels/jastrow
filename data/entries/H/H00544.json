@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00544",
-	"slug": "חזירה-1",
-	"headword": {
-		"text": "חֲזִירָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲזִירָה I",
+	"headwords": [
+		{
+			"text": "חֲזִירָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 444,
 		"column": "a"

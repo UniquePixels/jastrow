@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00227",
-	"slug": "רגשא",
-	"headword": {
-		"text": "רְגָשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְגָשָׁא",
+	"headwords": [
+		{
+			"text": "רְגָשָׁא"
+		},
 		{
 			"text": "רִגְשָׁא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1451,
 		"column": "a"

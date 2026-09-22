@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01417",
-	"slug": "מכנשתא",
-	"headword": {
-		"text": "מַכְנַשְׁתָּא"
-	},
+	"sefariaHeadword": "מַכְנַשְׁתָּא",
+	"headwords": [
+		{
+			"text": "מַכְנַשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

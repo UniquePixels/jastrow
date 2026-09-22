@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01688",
-	"slug": "סתומתאה",
-	"headword": {
-		"text": "סְתוּמְתָּאָה"
-	},
+	"sefariaHeadword": "סְתוּמְתָּאָה",
+	"headwords": [
+		{
+			"text": "סְתוּמְתָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

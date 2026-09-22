@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00857",
-	"slug": "אורדען",
-	"headword": {
-		"text": "אורדען"
-	},
+	"sefariaHeadword": "אורדען",
+	"headwords": [
+		{
+			"text": "אורדען"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

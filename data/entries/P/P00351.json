@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00351",
-	"slug": "עורבי",
-	"headword": {
-		"text": "עוֹרְבִי"
-	},
+	"sefariaHeadword": "עוֹרְבִי",
+	"headwords": [
+		{
+			"text": "עוֹרְבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1058,
 		"column": "b"

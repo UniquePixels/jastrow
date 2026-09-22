@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03443",
-	"slug": "אתקפתא",
-	"headword": {
-		"text": "אַתְקַפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַתְקַפְתָּא",
+	"headwords": [
 		{
-			"text": "אִיתְ׳"
+			"text": "אַתְקַפְתָּא"
+		},
+		{
+			"text": "אִיתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 133,
 		"column": "b"

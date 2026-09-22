@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00924",
-	"slug": "גלטורי",
-	"headword": {
-		"text": "גלטורי"
-	},
+	"sefariaHeadword": "גלטורי",
+	"headwords": [
+		{
+			"text": "גלטורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "b"

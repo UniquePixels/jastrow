@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00108",
-	"slug": "בדד-2",
-	"headword": {
-		"text": "בָּדָד"
-	},
+	"sefariaHeadword": "בָּדָד",
+	"headwords": [
+		{
+			"text": "בָּדָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "a"

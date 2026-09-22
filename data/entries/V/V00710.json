@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00710",
-	"slug": "תמרורים",
-	"headword": {
-		"text": "תַּמְרוּרִים"
-	},
+	"sefariaHeadword": "תַּמְרוּרִים",
+	"headwords": [
+		{
+			"text": "תַּמְרוּרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "a"

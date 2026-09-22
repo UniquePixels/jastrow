@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00497",
-	"slug": "יער",
-	"headword": {
-		"text": "יַעַר"
-	},
+	"sefariaHeadword": "יַעַר",
+	"headwords": [
+		{
+			"text": "יַעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 585,
 		"column": "b"

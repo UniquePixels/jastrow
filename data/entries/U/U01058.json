@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01058",
-	"slug": "שיר-6",
-	"headword": {
-		"text": "שִׁיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיר",
+	"headwords": [
+		{
+			"text": "שִׁיר"
+		},
 		{
 			"text": "שִׁירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1568,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00146",
-	"slug": "קדיש",
-	"headword": {
-		"text": "קַדִּישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַדִּישׁ",
+	"headwords": [
+		{
+			"text": "קַדִּישׁ"
+		},
 		{
 			"text": "קָדִישׁ"
 		},

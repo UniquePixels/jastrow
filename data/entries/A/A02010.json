@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02010",
-	"slug": "אמטו",
-	"headword": {
-		"text": "אַמְטוּ"
-	},
+	"sefariaHeadword": "אַמְטוּ",
+	"headwords": [
+		{
+			"text": "אַמְטוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

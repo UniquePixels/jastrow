@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00660",
-	"slug": "צעקה",
-	"headword": {
-		"text": "צְעָקָה"
-	},
+	"sefariaHeadword": "צְעָקָה",
+	"headwords": [
+		{
+			"text": "צְעָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1294,
 		"column": "a"

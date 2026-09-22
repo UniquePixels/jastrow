@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00098",
-	"slug": "חבננא",
-	"headword": {
-		"text": "חבננא"
-	},
+	"sefariaHeadword": "חבננא",
+	"headwords": [
+		{
+			"text": "חבננא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 420,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00047",
-	"slug": "עביטא",
-	"headword": {
-		"text": "עֲבִיטָא"
-	},
+	"sefariaHeadword": "עֲבִיטָא",
+	"headwords": [
+		{
+			"text": "עֲבִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

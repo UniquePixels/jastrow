@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00575",
-	"slug": "צמיד-1",
-	"headword": {
-		"text": "צָמִיד"
-	},
+	"sefariaHeadword": "צָמִיד",
+	"headwords": [
+		{
+			"text": "צָמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"

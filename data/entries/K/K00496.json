@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00496",
-	"slug": "כידוס",
-	"headword": {
-		"text": "כידוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כידוס",
+	"headwords": [
+		{
+			"text": "כידוס"
+		},
 		{
 			"text": "כידום"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 631,
 		"column": "a"

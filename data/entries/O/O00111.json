@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00111",
-	"slug": "סגולא",
-	"headword": {
-		"text": "סְגוּלָא"
-	},
+	"sefariaHeadword": "סְגוּלָא",
+	"headwords": [
+		{
+			"text": "סְגוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

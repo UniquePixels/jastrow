@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00110",
-	"slug": "רביצה",
-	"headword": {
-		"text": "רְבִיצָה"
-	},
+	"sefariaHeadword": "רְבִיצָה",
+	"headwords": [
+		{
+			"text": "רְבִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1443,
 		"column": "a"

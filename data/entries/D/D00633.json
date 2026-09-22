@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00633",
-	"slug": "דין-3",
-	"headword": {
-		"text": "דִּין",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּין I",
+	"headwords": [
+		{
+			"text": "דִּין",
+			"homograph": 1
+		},
 		{
 			"text": "דּוּן"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 300,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00269",
-	"slug": "עולמית-2",
-	"headword": {
-		"text": "עוּלֵמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּלֵמִית",
+	"headwords": [
+		{
+			"text": "עוּלֵמִית"
+		},
 		{
 			"text": "עוּלֵמְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עוּלֶמְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1052,
 		"column": "b"

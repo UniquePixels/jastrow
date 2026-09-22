@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01544",
-	"slug": "מלו",
-	"headword": {
-		"text": "מלו"
-	},
+	"sefariaHeadword": "מלו",
+	"headwords": [
+		{
+			"text": "מלו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "b"

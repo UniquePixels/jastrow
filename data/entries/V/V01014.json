@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V01014",
-	"slug": "תרמוסרה",
-	"headword": {
-		"text": "תִּרְמוּסְרָה"
-	},
+	"sefariaHeadword": "תִּרְמוּסְרָה",
+	"headwords": [
+		{
+			"text": "תִּרְמוּסְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"V00303\"><he>תַּוּרְמְסָר</he></cite>",
+			"gloss": ", v. <cite ref=\"V00303\"><he>תַּוּרְמְסָר</he></cite>",
 			"units": []
 		}
 	]

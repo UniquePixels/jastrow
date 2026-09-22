@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00677",
-	"slug": "טפף-4",
-	"headword": {
-		"text": "טֶפֶף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טֶפֶף",
+	"headwords": [
+		{
+			"text": "טֶפֶף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

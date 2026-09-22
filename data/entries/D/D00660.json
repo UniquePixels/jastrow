@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00660",
-	"slug": "דיסקיפלינא",
-	"headword": {
-		"text": "דִּיסְקִיפְלִינָא"
-	},
+	"sefariaHeadword": "דִּיסְקִיפְלִינָא",
+	"headwords": [
+		{
+			"text": "דִּיסְקִיפְלִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "b"

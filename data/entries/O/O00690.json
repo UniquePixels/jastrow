@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00690",
-	"slug": "סימואות",
-	"headword": {
-		"text": "סִימְוָאוֹת"
-	},
+	"sefariaHeadword": "סִימְוָאוֹת",
+	"headwords": [
+		{
+			"text": "סִימְוָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 981,
 		"column": "a"

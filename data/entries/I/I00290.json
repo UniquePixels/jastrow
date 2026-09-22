@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00290",
-	"slug": "טטרפלין",
-	"headword": {
-		"text": "טטרפלין"
-	},
+	"sefariaHeadword": "טטרפלין",
+	"headwords": [
+		{
+			"text": "טטרפלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

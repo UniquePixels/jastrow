@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00156",
-	"slug": "יובש",
-	"headword": {
-		"text": "יוֹבֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹבֶשׁ",
+	"headwords": [
+		{
+			"text": "יוֹבֶשׁ"
+		},
 		{
 			"text": "יוּבְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 567,
 		"column": "b"

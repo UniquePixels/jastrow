@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00487",
-	"slug": "תיקולא",
-	"headword": {
-		"text": "תִּיקּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיקּוּלָא",
+	"headwords": [
+		{
+			"text": "תִּיקּוּלָא"
+		},
 		{
 			"text": "תִּיקּוּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1666,
 		"column": "a"

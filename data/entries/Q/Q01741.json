@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01741",
-	"slug": "פרות",
-	"headword": {
-		"text": "פֵּרוֹת"
-	},
+	"sefariaHeadword": "פֵּרוֹת",
+	"headwords": [
+		{
+			"text": "פֵּרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "b"

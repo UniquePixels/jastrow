@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00002",
-	"slug": "ש-2",
-	"headword": {
-		"text": "שֶׁ־"
-	},
+	"sefariaHeadword": "שֶׁ־",
+	"headwords": [
+		{
+			"text": "שֶׁ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02550",
-	"slug": "אסר-1",
-	"headword": {
-		"text": "אָסַר"
-	},
+	"sefariaHeadword": "אָסַר",
+	"headwords": [
+		{
+			"text": "אָסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "a"

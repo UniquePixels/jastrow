@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00688",
-	"slug": "גיזתא",
-	"headword": {
-		"text": "גִּיזְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיזְּתָא",
+	"headwords": [
+		{
+			"text": "גִּיזְּתָא"
+		},
 		{
 			"text": "גִּיזָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 237,
 		"column": "a"

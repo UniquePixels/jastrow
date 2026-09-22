@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00975",
-	"slug": "חלבנא",
-	"headword": {
-		"text": "חֶלְבָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶלְבָּנָא",
+	"headwords": [
+		{
+			"text": "חֶלְבָּנָא"
+		},
 		{
 			"text": "חֶלְבָּנַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 464,
 		"column": "a"

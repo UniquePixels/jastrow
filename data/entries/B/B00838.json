@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00838",
-	"slug": "בלופסין",
-	"headword": {
-		"text": "בלופסין"
-	},
+	"sefariaHeadword": "בלופסין",
+	"headwords": [
+		{
+			"text": "בלופסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

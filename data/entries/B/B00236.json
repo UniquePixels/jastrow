@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00236",
-	"slug": "בוטנא-2",
-	"headword": {
-		"text": "בּוּטְנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בּוּטְנָא II",
+	"headwords": [
+		{
+			"text": "בּוּטְנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 145,
 		"column": "a"

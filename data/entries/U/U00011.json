@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00011",
-	"slug": "שאובתא",
-	"headword": {
-		"text": "שָׁאוּבְתָּא"
-	},
+	"sefariaHeadword": "שָׁאוּבְתָּא",
+	"headwords": [
+		{
+			"text": "שָׁאוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "b"

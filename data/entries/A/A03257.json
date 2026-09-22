@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03257",
-	"slug": "אשא-3",
-	"headword": {
-		"text": "אָשָׁא"
-	},
+	"sefariaHeadword": "אָשָׁא",
+	"headwords": [
+		{
+			"text": "אָשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "b"

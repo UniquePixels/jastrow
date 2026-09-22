@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00545",
-	"slug": "טמיא-1",
-	"headword": {
-		"text": "טַמְיָא"
-	},
+	"sefariaHeadword": "טַמְיָא",
+	"headwords": [
+		{
+			"text": "טַמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 539,
 		"column": "b"

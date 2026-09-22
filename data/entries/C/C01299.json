@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01299",
-	"slug": "גרומי",
-	"headword": {
-		"text": "גְּרוּמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרוּמֵי",
+	"headwords": [
+		{
+			"text": "גְּרוּמֵי"
+		},
 		{
 			"text": "גְּרוּמְנֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "b"

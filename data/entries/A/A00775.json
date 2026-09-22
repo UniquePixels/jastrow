@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00775",
-	"slug": "אונקלי-1",
-	"headword": {
-		"text": "אוּנְקְלַי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּנְקְלַי I",
+	"headwords": [
+		{
+			"text": "אוּנְקְלַי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 30,
 		"column": "a"

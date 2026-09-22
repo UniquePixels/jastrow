@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02097",
-	"slug": "מעט-1",
-	"headword": {
-		"text": "מָעַט"
-	},
+	"sefariaHeadword": "מָעַט",
+	"headwords": [
+		{
+			"text": "מָעַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

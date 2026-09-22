@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01366",
-	"slug": "חסי",
-	"headword": {
-		"text": "חֲסִי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*חֲסִי",
+	"headwords": [
+		{
+			"text": "חֲסִי",
+			"reconstructed": true
+		},
 		{
 			"text": "חֲסָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 487,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01143",
-	"slug": "כרזימין",
-	"headword": {
-		"text": "כַּרְזִימִין"
-	},
+	"sefariaHeadword": "כַּרְזִימִין",
+	"headwords": [
+		{
+			"text": "כַּרְזִימִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 666,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00326",
-	"slug": "טיחה",
-	"headword": {
-		"text": "טִיחָה"
-	},
+	"sefariaHeadword": "טִיחָה",
+	"headwords": [
+		{
+			"text": "טִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

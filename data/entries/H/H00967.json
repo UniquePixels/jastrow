@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00967",
-	"slug": "חלב-2",
-	"headword": {
-		"text": "חֲלָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלָב",
+	"headwords": [
+		{
+			"text": "חֲלָב"
+		},
 		{
 			"text": "חַלְבָּא"
 		},
 		{
-			"text": "חֶלְ׳"
+			"text": "חֶלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 464,
 		"column": "a"

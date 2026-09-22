@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03348",
-	"slug": "אשר-2",
-	"headword": {
-		"text": "אָשַׁר"
-	},
+	"sefariaHeadword": "אָשַׁר",
+	"headwords": [
+		{
+			"text": "אָשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"
@@ -25,7 +29,7 @@
 				{
 					"gloss": "<i>to exalt, praise, declare happy</i>. ",
 					"units": [
-						"<cite ref=\"Pesikta Rabbati 45:1\">Pesik. R. s. 45</cite> <he>התחיל מְאַשְּׁרֵם</he> he commenced by declaring them happy; v. <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite>."
+						"<cite ref=\"Pesikta Rabbati 45:1\">Pesik. R. s. 45</cite> <he>התחיל מְאַשְּׁרֵם</he> he commenced by declaring them happy; v. <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite>."
 					],
 					"label": "1"
 				},

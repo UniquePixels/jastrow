@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02347",
-	"slug": "אסטבא",
-	"headword": {
-		"text": "אִסְטְבָא"
-	},
+	"sefariaHeadword": "אִסְטְבָא",
+	"headwords": [
+		{
+			"text": "אִסְטְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "b"

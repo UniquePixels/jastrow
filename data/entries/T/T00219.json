@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00219",
-	"slug": "רגעא",
-	"headword": {
-		"text": "רִגְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִגְעָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִגְעָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1450,
 		"column": "a"

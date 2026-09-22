@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00219",
-	"slug": "בוותא",
-	"headword": {
-		"text": "בַּוְותָא"
-	},
+	"sefariaHeadword": "בַּוְותָא",
+	"headwords": [
+		{
+			"text": "בַּוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01706",
-	"slug": "אכלונס",
-	"headword": {
-		"text": "אַכְלוֹנָס"
-	},
+	"sefariaHeadword": "אַכְלוֹנָס",
+	"headwords": [
+		{
+			"text": "אַכְלוֹנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

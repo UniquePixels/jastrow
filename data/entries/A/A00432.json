@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00432",
-	"slug": "אדנות",
-	"headword": {
-		"text": "אַדְנוּת"
-	},
+	"sefariaHeadword": "אַדְנוּת",
+	"headwords": [
+		{
+			"text": "אַדְנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "b"

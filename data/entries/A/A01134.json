@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01134",
-	"slug": "איברא-2",
-	"headword": {
-		"text": "אִיבְרָא"
-	},
+	"sefariaHeadword": "אִיבְרָא",
+	"headwords": [
+		{
+			"text": "אִיבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

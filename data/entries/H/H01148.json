@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01148",
-	"slug": "חמדן",
-	"headword": {
-		"text": "חַמְדָּן"
-	},
+	"sefariaHeadword": "חַמְדָּן",
+	"headwords": [
+		{
+			"text": "חַמְדָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "b"

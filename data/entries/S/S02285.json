@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S02285",
-	"slug": "קתדרא",
-	"headword": {
-		"text": "קְתִדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְתִדְרָא",
+	"headwords": [
+		{
+			"text": "קְתִדְרָא"
+		},
 		{
 			"text": "קְתִדְרָה"
 		},
 		{
-			"text": "קְתִידְ׳"
+			"text": "קְתִידְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1434,
 		"column": "a"

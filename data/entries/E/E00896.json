@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00896",
-	"slug": "הרפיא",
-	"headword": {
-		"text": "הרפיא"
-	},
+	"sefariaHeadword": "הרפיא",
+	"headwords": [
+		{
+			"text": "הרפיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 368,
 		"column": "b"

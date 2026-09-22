@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02629",
-	"slug": "מרזפתא",
-	"headword": {
-		"text": "מַרְזַפְתָּא"
-	},
+	"sefariaHeadword": "מַרְזַפְתָּא",
+	"headwords": [
+		{
+			"text": "מַרְזַפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

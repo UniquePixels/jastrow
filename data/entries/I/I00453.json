@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00453",
-	"slug": "טירפא",
-	"headword": {
-		"text": "טִירְפָּא"
-	},
+	"sefariaHeadword": "טִירְפָּא",
+	"headwords": [
+		{
+			"text": "טִירְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

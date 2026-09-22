@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00808",
-	"slug": "בלאי-1",
-	"headword": {
-		"text": "בלאי"
-	},
+	"sefariaHeadword": "בלאי",
+	"headwords": [
+		{
+			"text": "בלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "b"

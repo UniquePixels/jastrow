@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00715",
-	"slug": "קטוניות",
-	"headword": {
-		"text": "קטוניות"
-	},
+	"sefariaHeadword": "קטוניות",
+	"headwords": [
+		{
+			"text": "קטוניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01822",
-	"slug": "פריפוסיטין",
-	"headword": {
-		"text": "פְּרִיפּוֹסִיטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִיפּוֹסִיטִין",
+	"headwords": [
 		{
-			"text": "פריפיס׳"
+			"text": "פְּרִיפּוֹסִיטִין"
+		},
+		{
+			"text": "פריפיס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1227,
 		"column": "b"

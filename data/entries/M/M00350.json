@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00350",
-	"slug": "מהולא-1",
-	"headword": {
-		"text": "מָהוֹלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָהוֹלָא",
+	"headwords": [
+		{
+			"text": "מָהוֹלָא"
+		},
 		{
 			"text": "מוֹהֲלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 737,
 		"column": "a"

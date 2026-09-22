@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03358",
-	"slug": "אשרנא",
-	"headword": {
-		"text": "אֻשַּׁרְנָא"
-	},
+	"sefariaHeadword": "אֻשַּׁרְנָא",
+	"headwords": [
+		{
+			"text": "אֻשַּׁרְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

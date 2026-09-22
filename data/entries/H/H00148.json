@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00148",
-	"slug": "חגיגה",
-	"headword": {
-		"text": "חֲגִיגָה"
-	},
+	"sefariaHeadword": "חֲגִיגָה",
+	"headwords": [
+		{
+			"text": "חֲגִיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "a"

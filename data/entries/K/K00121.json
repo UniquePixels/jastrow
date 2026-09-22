@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00121",
-	"slug": "כדי-1",
-	"headword": {
-		"text": "כְּדִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּדִי I",
+	"headwords": [
+		{
+			"text": "כְּדִי",
+			"homograph": 1
+		},
 		{
 			"text": "כַּדִּי"
 		},
@@ -13,6 +14,7 @@
 			"text": "כְּדֵי"
 		}
 	],
+	"display": "{0} I, ({1}, {2})",
 	"page": {
 		"number": 613,
 		"column": "a"

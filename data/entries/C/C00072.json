@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00072",
-	"slug": "גבי-1",
-	"headword": {
-		"text": "גֵּבַי"
-	},
+	"sefariaHeadword": "גֵּבַי",
+	"headwords": [
+		{
+			"text": "גֵּבַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

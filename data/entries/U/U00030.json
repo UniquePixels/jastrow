@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00030",
-	"slug": "שאל-1",
-	"headword": {
-		"text": "שָׁאַל"
-	},
+	"sefariaHeadword": "שָׁאַל",
+	"headwords": [
+		{
+			"text": "שָׁאַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

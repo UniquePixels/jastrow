@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00041",
-	"slug": "הבל-2",
-	"headword": {
-		"text": "הֲבַל"
-	},
+	"sefariaHeadword": "הֲבַל",
+	"headwords": [
+		{
+			"text": "הֲבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "b"

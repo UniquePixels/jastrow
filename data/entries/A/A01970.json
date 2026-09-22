@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01970",
-	"slug": "אמבול",
-	"headword": {
-		"text": "אִמְבּוֹל"
-	},
+	"sefariaHeadword": "אִמְבֹּול",
+	"headwords": [
+		{
+			"text": "אִמְבּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "b"

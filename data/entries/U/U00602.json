@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00602",
-	"slug": "שזפין",
-	"headword": {
-		"text": "שִׁזְפִין"
-	},
+	"sefariaHeadword": "שִׁזְפִין",
+	"headwords": [
+		{
+			"text": "שִׁזְפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

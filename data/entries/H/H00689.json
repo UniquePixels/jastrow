@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00689",
-	"slug": "חיוריתא",
-	"headword": {
-		"text": "חִיוָּרִיּתָא"
-	},
+	"sefariaHeadword": "חִיוָּרִיּתָא",
+	"headwords": [
+		{
+			"text": "חִיוָּרִיּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

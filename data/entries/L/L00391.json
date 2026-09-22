@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00391",
-	"slug": "לטינוס",
-	"headword": {
-		"text": "לטינוס"
-	},
+	"sefariaHeadword": "לטינוס",
+	"headwords": [
+		{
+			"text": "לטינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

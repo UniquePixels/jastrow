@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01023",
-	"slug": "גמיד",
-	"headword": {
-		"text": "גְּמִיד"
-	},
+	"sefariaHeadword": "גְּמִיד",
+	"headwords": [
+		{
+			"text": "גְּמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

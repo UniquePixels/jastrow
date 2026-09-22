@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00714",
-	"slug": "פילקתא",
-	"headword": {
-		"text": "פִּילַּקְתָּא"
-	},
+	"sefariaHeadword": "פִּילַּקְתָּא",
+	"headwords": [
+		{
+			"text": "פִּילַּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01472",
-	"slug": "פקורין",
-	"headword": {
-		"text": "פקורין"
-	},
+	"sefariaHeadword": "פקורין",
+	"headwords": [
+		{
+			"text": "פקורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

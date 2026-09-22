@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00404",
-	"slug": "נוצרין",
-	"headword": {
-		"text": "נוֹצְרִין"
-	},
+	"sefariaHeadword": "נוֹצְרִין",
+	"headwords": [
+		{
+			"text": "נוֹצְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

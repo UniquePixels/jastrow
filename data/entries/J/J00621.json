@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00621",
-	"slug": "ירותא-2",
-	"headword": {
-		"text": "יְרוּתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְרוּתָּא",
+	"headwords": [
+		{
+			"text": "יְרוּתָּא"
+		},
 		{
 			"text": "יְרוּתְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "יְרֻתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 595,
 		"column": "b"

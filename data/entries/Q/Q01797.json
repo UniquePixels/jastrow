@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01797",
-	"slug": "פריונא",
-	"headword": {
-		"text": "פִּרְיוֹנָא"
-	},
+	"sefariaHeadword": "פִּרְיוֹנָא",
+	"headwords": [
+		{
+			"text": "פִּרְיוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"

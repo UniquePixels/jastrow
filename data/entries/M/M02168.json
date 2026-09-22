@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02168",
-	"slug": "מערבא",
-	"headword": {
-		"text": "מַעֲרָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעֲרָבָא",
+	"headwords": [
+		{
+			"text": "מַעֲרָבָא"
+		},
 		{
 			"text": "מַעַרְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 819,
 		"column": "a"

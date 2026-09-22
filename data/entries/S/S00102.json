@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00102",
-	"slug": "קברינט",
-	"headword": {
-		"text": "קברינט"
-	},
+	"sefariaHeadword": "קברינט",
+	"headwords": [
+		{
+			"text": "קברינט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1313,
 		"column": "a"

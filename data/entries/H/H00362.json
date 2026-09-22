@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00362",
-	"slug": "חולפניתא",
-	"headword": {
-		"text": "חולפניתא"
-	},
+	"sefariaHeadword": "חולפניתא",
+	"headwords": [
+		{
+			"text": "חולפניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

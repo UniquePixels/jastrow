@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01392",
-	"slug": "נתר-1",
-	"headword": {
-		"text": "נָתַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָתַר I",
+	"headwords": [
+		{
+			"text": "נָתַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 945,
 		"column": "b"

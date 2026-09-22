@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V01015",
-	"slug": "תרמיל",
-	"headword": {
-		"text": "תַּרְמִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְמִיל",
+	"headwords": [
+		{
+			"text": "תַּרְמִיל"
+		},
 		{
 			"text": "תַּרְמֵל"
 		},
 		{
-			"text": "תּוּרְ׳"
+			"text": "תּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1699,
 		"column": "b"

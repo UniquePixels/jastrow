@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01754",
-	"slug": "חרצא-2",
-	"headword": {
-		"text": "חַרְצָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַרְצָא II",
+	"headwords": [
+		{
+			"text": "חַרְצָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 505,
 		"column": "b"

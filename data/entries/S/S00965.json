@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00965",
-	"slug": "קילוני",
-	"headword": {
-		"text": "קִילוֹנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קִילוֹנִי",
+	"headwords": [
+		{
+			"text": "קִילוֹנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1360,
 		"column": "a"

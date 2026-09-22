@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00161",
-	"slug": "בדרסין",
-	"headword": {
-		"text": "בדרסין"
-	},
+	"sefariaHeadword": "בדרסין",
+	"headwords": [
+		{
+			"text": "בדרסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "b"

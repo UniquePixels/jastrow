@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00344",
-	"slug": "אגרו",
-	"headword": {
-		"text": "אִגְּרוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִגְּרוּ",
+	"headwords": [
+		{
+			"text": "אִגְּרוּ"
+		},
 		{
 			"text": "אִיגְּרוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 14,
 		"column": "b"

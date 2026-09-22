@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00154",
-	"slug": "שבסר",
-	"headword": {
-		"text": "שֵׁבְסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁבְסַר",
+	"headwords": [
+		{
+			"text": "שֵׁבְסַר"
+		},
 		{
 			"text": "שֵׁבְסְרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1515,
 		"column": "b"

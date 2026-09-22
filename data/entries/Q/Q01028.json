@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01028",
-	"slug": "פלטר-3",
-	"headword": {
-		"text": "פַּלְטֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְטֵר",
+	"headwords": [
+		{
+			"text": "פַּלְטֵר"
+		},
 		{
 			"text": "פַּלְטֵרָא"
 		},
 		{
-			"text": "פַּלְטֵי׳"
+			"text": "פַּלְטֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1180,
 		"column": "b"

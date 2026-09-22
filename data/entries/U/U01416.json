@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01416",
-	"slug": "שמאליתא",
-	"headword": {
-		"text": "שְׂמָאלִיתָא"
-	},
+	"sefariaHeadword": "שְׂמָאלִיתָא",
+	"headwords": [
+		{
+			"text": "שְׂמָאלִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1591,
 		"column": "b"

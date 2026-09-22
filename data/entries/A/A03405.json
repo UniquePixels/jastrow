@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03405",
-	"slug": "אתודאה",
-	"headword": {
-		"text": "אִתּוֹדָאָה"
-	},
+	"sefariaHeadword": "אִתּוֹדָאָה",
+	"headwords": [
+		{
+			"text": "אִתּוֹדָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 132,
 		"column": "b"

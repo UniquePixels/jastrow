@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00259",
-	"slug": "גהץ",
-	"headword": {
-		"text": "גָּהַץ"
-	},
+	"sefariaHeadword": "גָּהַץ",
+	"headwords": [
+		{
+			"text": "גָּהַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "b"

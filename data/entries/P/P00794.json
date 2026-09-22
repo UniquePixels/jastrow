@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00794",
-	"slug": "עליה",
-	"headword": {
-		"text": "עֲלִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלִיָּה",
+	"headwords": [
+		{
+			"text": "עֲלִיָּה"
+		},
 		{
 			"text": "עֲלִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1082,
 		"column": "b"

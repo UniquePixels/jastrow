@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00983",
-	"slug": "מטולטלת",
-	"headword": {
-		"text": "מְטוֹלְטֶלֶת"
-	},
+	"sefariaHeadword": "מְטוֹלְטֶלֶת",
+	"headwords": [
+		{
+			"text": "מְטוֹלְטֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01436",
-	"slug": "קמ-2",
-	"headword": {
-		"text": "קָמ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָמ־",
+	"headwords": [
+		{
+			"text": "קָמ־"
+		},
 		{
 			"text": "קָמֵי־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1383,
 		"column": "b"

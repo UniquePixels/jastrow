@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02706",
-	"slug": "מרכיותא",
-	"headword": {
-		"text": "מָרְכְּיוֹתָא"
-	},
+	"sefariaHeadword": "מָרְכְּיוֹתָא",
+	"headwords": [
+		{
+			"text": "מָרְכְּיוֹתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

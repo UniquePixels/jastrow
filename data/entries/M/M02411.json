@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02411",
-	"slug": "מקטורא",
-	"headword": {
-		"text": "מִקְטוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִקְטוֹרָא",
+	"headwords": [
+		{
+			"text": "מִקְטוֹרָא"
+		},
 		{
 			"text": "מִקְטוֹרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 830,
 		"column": "b"

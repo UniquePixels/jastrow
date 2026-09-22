@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00977",
-	"slug": "בסוס",
-	"headword": {
-		"text": "בסוס"
-	},
+	"sefariaHeadword": "בסוס",
+	"headwords": [
+		{
+			"text": "בסוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

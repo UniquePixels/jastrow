@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01359",
-	"slug": "מכונתא",
-	"headword": {
-		"text": "מְכַוַּנְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְכַוַּנְתָּא",
+	"headwords": [
+		{
+			"text": "מְכַוַּנְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 781,
 		"column": "b"

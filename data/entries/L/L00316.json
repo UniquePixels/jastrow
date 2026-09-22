@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00316",
-	"slug": "לוקוס",
-	"headword": {
-		"text": "לוּקוֹס"
-	},
+	"sefariaHeadword": "לוּקוֹס",
+	"headwords": [
+		{
+			"text": "לוּקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00529",
-	"slug": "גזום",
-	"headword": {
-		"text": "גִּזּוּם"
-	},
+	"sefariaHeadword": "גִּזּוּם",
+	"headwords": [
+		{
+			"text": "גִּזּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

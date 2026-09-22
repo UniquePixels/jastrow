@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00320",
-	"slug": "ציוו",
-	"headword": {
-		"text": "ציוו"
-	},
+	"sefariaHeadword": "ציוו",
+	"headwords": [
+		{
+			"text": "ציוו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "a"

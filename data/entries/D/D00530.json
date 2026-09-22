@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00530",
-	"slug": "דיופלין",
-	"headword": {
-		"text": "דיופלין"
-	},
+	"sefariaHeadword": "דיופלין",
+	"headwords": [
+		{
+			"text": "דיופלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

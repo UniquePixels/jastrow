@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00456",
-	"slug": "הינו-1",
-	"headword": {
-		"text": "הִינוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִינוּ",
+	"headwords": [
 		{
-			"text": "בית הִינוּ"
+			"text": "הִינוּ"
+		},
+		{
+			"text": "בית ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 348,
 		"column": "a"

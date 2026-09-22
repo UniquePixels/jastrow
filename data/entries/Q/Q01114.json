@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01114",
-	"slug": "פלפל-1",
-	"headword": {
-		"text": "פִּלְפֵּל"
-	},
+	"sefariaHeadword": "פִּלְפֵּל",
+	"headwords": [
+		{
+			"text": "פִּלְפֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1184,
 		"column": "b"

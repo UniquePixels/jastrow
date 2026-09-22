@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00617",
-	"slug": "ריח-3",
-	"headword": {
-		"text": "רֵיחַ"
-	},
+	"sefariaHeadword": "רֵיחַ",
+	"headwords": [
+		{
+			"text": "רֵיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "a"

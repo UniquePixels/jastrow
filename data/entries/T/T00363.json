@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00363",
-	"slug": "רויו",
-	"headword": {
-		"text": "רַוְיוּ"
-	},
+	"sefariaHeadword": "רַוְיוּ",
+	"headwords": [
+		{
+			"text": "רַוְיוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

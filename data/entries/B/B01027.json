@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01027",
-	"slug": "בעו",
-	"headword": {
-		"text": "בָּעוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּעוּ",
+	"headwords": [
+		{
+			"text": "בָּעוּ"
+		},
 		{
 			"text": "בָּעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 180,
 		"column": "b"

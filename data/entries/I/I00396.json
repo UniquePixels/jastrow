@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00396",
-	"slug": "טינופת",
-	"headword": {
-		"text": "טִינּוֹפֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִינּוֹפֶת",
+	"headwords": [
 		{
-			"text": "טִנּ׳"
+			"text": "טִינּוֹפֶת"
+		},
+		{
+			"text": "טִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "b"

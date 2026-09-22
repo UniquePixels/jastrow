@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01040",
-	"slug": "קיני-1",
-	"headword": {
-		"text": "קֵינַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵינַי",
+	"headwords": [
+		{
+			"text": "קֵינַי"
+		},
 		{
 			"text": "קֵינַיי"
 		},
@@ -12,9 +13,11 @@
 			"text": "קֵינָאָה"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1363,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01084",
-	"slug": "בצורתא-2",
-	"headword": {
-		"text": "בְּצוּרְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּצוּרְתָא",
+	"headwords": [
+		{
+			"text": "בְּצוּרְתָא"
+		},
 		{
 			"text": "בצירתא"
 		},
@@ -12,6 +13,7 @@
 			"text": "ביצורתא"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 184,
 		"column": "a"

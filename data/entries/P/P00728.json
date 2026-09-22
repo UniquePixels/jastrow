@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00728",
-	"slug": "עכוביתא-2",
-	"headword": {
-		"text": "עַכּוֹבִיתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַכּוֹבִיתָא II",
+	"headwords": [
+		{
+			"text": "עַכּוֹבִיתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1078,
 		"column": "b"

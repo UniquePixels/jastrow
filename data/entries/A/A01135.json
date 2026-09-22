@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01135",
-	"slug": "איבריאתא",
-	"headword": {
-		"text": "אִיבְרָיָאתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיבְרָיָאתָא",
+	"headwords": [
+		{
+			"text": "אִיבְרָיָאתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

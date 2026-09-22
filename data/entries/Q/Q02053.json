@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02053",
-	"slug": "פשוט-1",
-	"headword": {
-		"text": "פִּשּׁוּט"
-	},
+	"sefariaHeadword": "פִּשּׁוּט",
+	"headwords": [
+		{
+			"text": "פִּשּׁוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "b"

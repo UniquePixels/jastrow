@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00227",
-	"slug": "אברנסי",
-	"headword": {
-		"text": "אַבְרַנְסֵי"
-	},
+	"sefariaHeadword": "אַבְרַנְסֵי",
+	"headwords": [
+		{
+			"text": "אַבְרַנְסֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

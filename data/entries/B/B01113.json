@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01113",
-	"slug": "בקוותא",
-	"headword": {
-		"text": "בקוותא"
-	},
+	"sefariaHeadword": "בקוותא",
+	"headwords": [
+		{
+			"text": "בקוותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 185,
 		"column": "b"

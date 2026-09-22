@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02108",
-	"slug": "אנגריא",
-	"headword": {
-		"text": "אַנְגַּרְיָא"
-	},
+	"sefariaHeadword": "אַנְגַּרְיָא",
+	"headwords": [
+		{
+			"text": "אַנְגַּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

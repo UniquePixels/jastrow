@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01156",
-	"slug": "נקב-2",
-	"headword": {
-		"text": "נְקַב"
-	},
+	"sefariaHeadword": "נְקַב",
+	"headwords": [
+		{
+			"text": "נְקַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 930,
 		"column": "b"

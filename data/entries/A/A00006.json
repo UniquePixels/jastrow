@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00006",
-	"slug": "א׳",
-	"headword": {
-		"text": "א׳"
-	},
+	"sefariaHeadword": "א׳",
+	"headwords": [
+		{
+			"text": "א׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1,
 		"column": "a"

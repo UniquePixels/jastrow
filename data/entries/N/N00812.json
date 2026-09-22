@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00812",
-	"slug": "נכון",
-	"headword": {
-		"text": "נָכוֹן"
-	},
+	"sefariaHeadword": "נָכוֹן",
+	"headwords": [
+		{
+			"text": "נָכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 910,
 		"column": "a"

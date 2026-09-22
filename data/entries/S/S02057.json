@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02057",
-	"slug": "קריינא",
-	"headword": {
-		"text": "קַרְיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְיָינָא",
+	"headwords": [
+		{
+			"text": "קַרְיָינָא"
+		},
 		{
 			"text": "קַרְיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1420,
 		"column": "b"

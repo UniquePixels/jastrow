@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00259",
-	"slug": "רדים",
-	"headword": {
-		"text": "רָדִים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רָדִים",
+	"headwords": [
+		{
+			"text": "רָדִים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00338",
-	"slug": "לחוד",
-	"headword": {
-		"text": "לְחוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחוֹד",
+	"headwords": [
+		{
+			"text": "לְחוֹד"
+		},
 		{
 			"text": "לְחוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 702,
 		"column": "a"

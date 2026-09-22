@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00171",
-	"slug": "טולר",
-	"headword": {
-		"text": "טולר"
-	},
+	"sefariaHeadword": "טולר",
+	"headwords": [
+		{
+			"text": "טולר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "a"

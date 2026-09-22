@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00586",
-	"slug": "אוורא",
-	"headword": {
-		"text": "אַוְורָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַוְורָא",
+	"headwords": [
+		{
+			"text": "אַוְורָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 23,
 		"column": "a"

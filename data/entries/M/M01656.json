@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01656",
-	"slug": "ממזור",
-	"headword": {
-		"text": "מֵמְזוּר"
-	},
+	"sefariaHeadword": "מֵמְזוּר",
+	"headwords": [
+		{
+			"text": "מֵמְזוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

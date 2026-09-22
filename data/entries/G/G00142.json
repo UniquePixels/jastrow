@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00142",
-	"slug": "זוויי",
-	"headword": {
-		"text": "זַוְויֵי"
-	},
+	"sefariaHeadword": "זַוְויֵי",
+	"headwords": [
+		{
+			"text": "זַוְויֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 385,
 		"column": "a"

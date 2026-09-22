@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01585",
-	"slug": "איקוביטון",
-	"headword": {
-		"text": "איקוביטון"
-	},
+	"sefariaHeadword": "איקוביטון",
+	"headwords": [
+		{
+			"text": "איקוביטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

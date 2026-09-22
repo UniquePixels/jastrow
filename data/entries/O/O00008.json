@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00008",
-	"slug": "סאה-2",
-	"headword": {
-		"text": "סְאָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְאָה ²",
+	"headwords": [
+		{
+			"text": "סְאָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְאָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 947,
 		"column": "b"

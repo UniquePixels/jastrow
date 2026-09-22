@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01013",
-	"slug": "ענקלין",
-	"headword": {
-		"text": "עֲנִקְלִין"
-	},
+	"sefariaHeadword": "עֲנִקְלִין",
+	"headwords": [
+		{
+			"text": "עֲנִקְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "b"

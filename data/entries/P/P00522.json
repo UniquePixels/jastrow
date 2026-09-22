@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00522",
-	"slug": "עיז",
-	"headword": {
-		"text": "עִיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיז",
+	"headwords": [
+		{
+			"text": "עִיז"
+		},
 		{
 			"text": "עִיזָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִזָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1068,
 		"column": "a"

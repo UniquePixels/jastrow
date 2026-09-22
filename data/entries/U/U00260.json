@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00260",
-	"slug": "שדה-2",
-	"headword": {
-		"text": "שִׁדָּה"
-	},
+	"sefariaHeadword": "שִׁדָּה",
+	"headwords": [
+		{
+			"text": "שִׁדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1524,
 		"column": "a"

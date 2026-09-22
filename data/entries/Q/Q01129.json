@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01129",
-	"slug": "פלשתאה",
-	"headword": {
-		"text": "פְּלִשְׁתָּאָה"
-	},
+	"sefariaHeadword": "פְּלִשְׁתָּאָה",
+	"headwords": [
+		{
+			"text": "פְּלִשְׁתָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

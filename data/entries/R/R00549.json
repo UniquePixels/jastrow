@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00549",
-	"slug": "צלק",
-	"headword": {
-		"text": "צְלַק"
-	},
+	"sefariaHeadword": "צְלַק",
+	"headwords": [
+		{
+			"text": "צְלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "a"

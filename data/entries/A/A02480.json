@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02480",
-	"slug": "אספוגית",
-	"headword": {
-		"text": "אִסְפּוֹגִית"
-	},
+	"sefariaHeadword": "אִסְפּוֹגִית",
+	"headwords": [
+		{
+			"text": "אִסְפּוֹגִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

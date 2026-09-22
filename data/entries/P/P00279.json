@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00279",
-	"slug": "עומדות",
-	"headword": {
-		"text": "עוֹמְדוֹת"
-	},
+	"sefariaHeadword": "עוֹמְדוֹת",
+	"headwords": [
+		{
+			"text": "עוֹמְדוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "b"

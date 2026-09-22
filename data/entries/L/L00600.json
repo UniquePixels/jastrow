@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00600",
-	"slug": "לעוזא",
-	"headword": {
-		"text": "לָעוֹזָא"
-	},
+	"sefariaHeadword": "לָעוֹזָא",
+	"headwords": [
+		{
+			"text": "לָעוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "a"

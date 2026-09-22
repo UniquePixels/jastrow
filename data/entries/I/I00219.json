@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00219",
-	"slug": "טורגינוס",
-	"headword": {
-		"text": "טורגינוס"
-	},
+	"sefariaHeadword": "טורגינוס",
+	"headwords": [
+		{
+			"text": "טורגינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 526,
 		"column": "a"

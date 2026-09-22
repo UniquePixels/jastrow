@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00093",
-	"slug": "זהורית",
-	"headword": {
-		"text": "זְהוֹרִית"
-	},
+	"sefariaHeadword": "זְהוֹרִית",
+	"headwords": [
+		{
+			"text": "זְהוֹרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

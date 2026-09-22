@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00974",
-	"slug": "דפרא",
-	"headword": {
-		"text": "דִּפְרָא"
-	},
+	"sefariaHeadword": "דִּפְרָא",
+	"headwords": [
+		{
+			"text": "דִּפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00562",
-	"slug": "למא-2",
-	"headword": {
-		"text": "לְמָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְמָא II",
+	"headwords": [
+		{
+			"text": "לְמָא",
+			"homograph": 2
+		},
 		{
 			"text": "לָמָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 711,
 		"column": "b"

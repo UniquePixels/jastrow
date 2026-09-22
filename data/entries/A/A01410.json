@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01410",
-	"slug": "איסט",
-	"headword": {
-		"text": "אִיסְט־"
-	},
+	"sefariaHeadword": "אִיסְט־",
+	"headwords": [
+		{
+			"text": "אִיסְט־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "a"

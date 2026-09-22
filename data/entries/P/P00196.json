@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00196",
-	"slug": "עוגל",
-	"headword": {
-		"text": "עוֹגֶל"
-	},
+	"sefariaHeadword": "עוֹגֶל",
+	"headwords": [
+		{
+			"text": "עוֹגֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "a"

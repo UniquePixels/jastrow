@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00895",
-	"slug": "אורית",
-	"headword": {
-		"text": "אוּרִית"
-	},
+	"sefariaHeadword": "אוּרִית",
+	"headwords": [
+		{
+			"text": "אוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

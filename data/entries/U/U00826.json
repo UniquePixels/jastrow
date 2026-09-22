@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00826",
-	"slug": "שידוך",
-	"headword": {
-		"text": "שִׁידּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁידּוּךְ",
+	"headwords": [
+		{
+			"text": "שִׁידּוּךְ"
+		},
 		{
 			"text": "שִׁידּוּכִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1558,
 		"column": "a"

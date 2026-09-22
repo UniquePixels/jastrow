@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00712",
-	"slug": "אומצא",
-	"headword": {
-		"text": "אוּמְצָא"
-	},
+	"sefariaHeadword": "אוּמְצָא",
+	"headwords": [
+		{
+			"text": "אוּמְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

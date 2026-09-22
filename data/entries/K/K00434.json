@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00434",
-	"slug": "כותרא",
-	"headword": {
-		"text": "כּוּתְרָא"
-	},
+	"sefariaHeadword": "כּוּתְרָא",
+	"headwords": [
+		{
+			"text": "כּוּתְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

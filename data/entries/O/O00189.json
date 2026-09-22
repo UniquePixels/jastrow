@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00189",
-	"slug": "סדן-1",
-	"headword": {
-		"text": "סַדָּן"
-	},
+	"sefariaHeadword": "סַדָּן",
+	"headwords": [
+		{
+			"text": "סַדָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "a"

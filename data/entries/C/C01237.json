@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01237",
-	"slug": "גרביתא",
-	"headword": {
-		"text": "גַּרְבִּיתָא"
-	},
+	"sefariaHeadword": "גַּרְבִּיתָא",
+	"headwords": [
+		{
+			"text": "גַּרְבִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

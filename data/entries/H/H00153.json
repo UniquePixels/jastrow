@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00153",
-	"slug": "חגירה",
-	"headword": {
-		"text": "חֲגִירָה"
-	},
+	"sefariaHeadword": "חֲגִירָה",
+	"headwords": [
+		{
+			"text": "חֲגִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "b"

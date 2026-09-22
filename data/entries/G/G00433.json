@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00433",
-	"slug": "זיתום",
-	"headword": {
-		"text": "זִיתוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיתוּם",
+	"headwords": [
+		{
+			"text": "זִיתוּם"
+		},
 		{
 			"text": "זִיתוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 397,
 		"column": "b"

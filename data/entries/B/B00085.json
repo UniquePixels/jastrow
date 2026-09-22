@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00085",
-	"slug": "בגן",
-	"headword": {
-		"text": "בָּגַן"
-	},
+	"sefariaHeadword": "בָּגַן",
+	"headwords": [
+		{
+			"text": "בָּגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00109",
-	"slug": "פדגרא",
-	"headword": {
-		"text": "פֹּדַגְרָא"
-	},
+	"sefariaHeadword": "פֹּדַגְרָא",
+	"headwords": [
+		{
+			"text": "פֹּדַגְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "b"

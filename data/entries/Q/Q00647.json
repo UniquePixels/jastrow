@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00647",
-	"slug": "פיילא",
-	"headword": {
-		"text": "פְּיָילָא"
-	},
+	"sefariaHeadword": "פְּיָילָא",
+	"headwords": [
+		{
+			"text": "פְּיָילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "b"

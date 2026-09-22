@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00833",
-	"slug": "גירסא-1",
-	"headword": {
-		"text": "גִּירְסָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּירְסָא I",
+	"headwords": [
+		{
+			"text": "גִּירְסָא",
+			"homograph": 1
+		},
 		{
 			"text": "גִּרְסָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 242,
 		"column": "b"

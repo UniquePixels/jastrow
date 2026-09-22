@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01890",
-	"slug": "מסחיט",
-	"headword": {
-		"text": "מַסְחֵיט"
-	},
+	"sefariaHeadword": "מַסְחֵיט",
+	"headwords": [
+		{
+			"text": "מַסְחֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "b"

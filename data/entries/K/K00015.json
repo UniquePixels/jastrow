@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00015",
-	"slug": "כאיל",
-	"headword": {
-		"text": "כָּאִיל"
-	},
+	"sefariaHeadword": "כָּאִיל",
+	"headwords": [
+		{
+			"text": "כָּאִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

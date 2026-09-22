@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00224",
-	"slug": "הוועדה",
-	"headword": {
-		"text": "הוועדה"
-	},
+	"sefariaHeadword": "הוועדה",
+	"headwords": [
+		{
+			"text": "הוועדה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

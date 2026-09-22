@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00815",
-	"slug": "עלל-1",
-	"headword": {
-		"text": "עָלַל"
-	},
+	"sefariaHeadword": "עָלַל",
+	"headwords": [
+		{
+			"text": "עָלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "b"

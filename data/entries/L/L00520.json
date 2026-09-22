@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00520",
-	"slug": "ליקוט",
-	"headword": {
-		"text": "לִיקּוּט"
-	},
+	"sefariaHeadword": "לִיקּוּט",
+	"headwords": [
+		{
+			"text": "לִיקּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "b"

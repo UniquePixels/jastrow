@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00324",
-	"slug": "כוסיות",
-	"headword": {
-		"text": "כוסיות"
-	},
+	"sefariaHeadword": "כוסיות",
+	"headwords": [
+		{
+			"text": "כוסיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

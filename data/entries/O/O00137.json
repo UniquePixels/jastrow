@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00137",
-	"slug": "סגינים",
-	"headword": {
-		"text": "סגינים"
-	},
+	"sefariaHeadword": "סגינים",
+	"headwords": [
+		{
+			"text": "סגינים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

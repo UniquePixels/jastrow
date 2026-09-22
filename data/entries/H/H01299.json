@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01299",
-	"slug": "חניקה",
-	"headword": {
-		"text": "חֲנִיקָה"
-	},
+	"sefariaHeadword": "חֲנִיקָה",
+	"headwords": [
+		{
+			"text": "חֲנִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "b"

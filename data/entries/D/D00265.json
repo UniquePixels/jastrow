@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00265",
-	"slug": "דול-2",
-	"headword": {
-		"text": "דְּוַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּוַל",
+	"headwords": [
+		{
+			"text": "דְּוַל"
+		},
 		{
 			"text": "דַּוְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 286,
 		"column": "a"

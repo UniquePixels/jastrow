@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00166",
-	"slug": "סגר-2",
-	"headword": {
-		"text": "סְגַר"
-	},
+	"sefariaHeadword": "סְגַר",
+	"headwords": [
+		{
+			"text": "סְגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

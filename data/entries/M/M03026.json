@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03026",
-	"slug": "מתון-2",
-	"headword": {
-		"text": "מָתוּן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָתוּן II",
+	"headwords": [
+		{
+			"text": "מָתוּן",
+			"homograph": 2
+		},
 		{
 			"text": "מְתוּנָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 860,
 		"column": "b"

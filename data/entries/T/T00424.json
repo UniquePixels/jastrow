@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00424",
-	"slug": "רופיטון",
-	"headword": {
-		"text": "רוֹפִיטוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רוֹפִיטוֹן",
+	"headwords": [
+		{
+			"text": "רוֹפִיטוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

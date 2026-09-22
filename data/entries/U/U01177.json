@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01177",
-	"slug": "שכניה-1",
-	"headword": {
-		"text": "שְׁכַנְיָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁכַנְיָה I",
+	"headwords": [
+		{
+			"text": "שְׁכַנְיָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1575,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01617",
-	"slug": "קנקנתום",
-	"headword": {
-		"text": "קַנְקַנְתּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְקַנְתּוּם",
+	"headwords": [
+		{
+			"text": "קַנְקַנְתּוּם"
+		},
 		{
 			"text": "קַנְקַנְתּוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "a"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00481",
-	"slug": "נחושתן-1",
-	"headword": {
-		"text": "נְחוּשְׁתָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחוּשְׁתָּן",
+	"headwords": [
+		{
+			"text": "נְחוּשְׁתָּן"
+		},
 		{
 			"text": "נְחֻשְׁ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 894,
 		"column": "a"

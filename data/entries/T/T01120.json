@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01120",
-	"slug": "רתוי",
-	"headword": {
-		"text": "רִתּוּי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*רִתּוּי",
+	"headwords": [
+		{
+			"text": "רִתּוּי",
+			"reconstructed": true
+		},
 		{
 			"text": "רָתוּי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1502,
 		"column": "a"

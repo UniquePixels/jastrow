@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00008",
-	"slug": "מאה-1",
-	"headword": {
-		"text": "מֵאָה"
-	},
+	"sefariaHeadword": "מֵאָה",
+	"headwords": [
+		{
+			"text": "מֵאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

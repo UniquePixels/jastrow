@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01301",
-	"slug": "גרומיתא",
-	"headword": {
-		"text": "גְּרוֹמִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרוֹמִיתָא",
+	"headwords": [
+		{
+			"text": "גְּרוֹמִיתָא"
+		},
 		{
 			"text": "גְּרוּמְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "b"

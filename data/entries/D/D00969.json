@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00969",
-	"slug": "דפנא-4",
-	"headword": {
-		"text": "דפנא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דפנא",
+	"headwords": [
+		{
+			"text": "דפנא"
+		},
 		{
 			"text": "דפנו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 317,
 		"column": "b"

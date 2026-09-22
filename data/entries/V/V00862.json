@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00862",
-	"slug": "תפשיטא",
-	"headword": {
-		"text": "תַּפְשִׁיטָא"
-	},
+	"sefariaHeadword": "תַּפְשִׁיטָא",
+	"headwords": [
+		{
+			"text": "תַּפְשִׁיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

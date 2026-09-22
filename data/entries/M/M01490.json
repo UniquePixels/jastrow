@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01490",
-	"slug": "מל״ה",
-	"headword": {
-		"text": "מל״ה"
-	},
+	"sefariaHeadword": "מל\"ה",
+	"headwords": [
+		{
+			"text": "מל״ה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 787,
 		"column": "a"

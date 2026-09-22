@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00573",
-	"slug": "מוצא-2",
-	"headword": {
-		"text": "מוֹצָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "מוֹצָא III",
+	"headwords": [
+		{
+			"text": "מוֹצָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 746,
 		"column": "b"

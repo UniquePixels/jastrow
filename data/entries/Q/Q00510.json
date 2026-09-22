@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00510",
-	"slug": "פטיט",
-	"headword": {
-		"text": "פַּטִּיט"
-	},
+	"sefariaHeadword": "פַּטִּיט",
+	"headwords": [
+		{
+			"text": "פַּטִּיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01684",
-	"slug": "אכזרית",
-	"headword": {
-		"text": "אַכְזָרִית"
-	},
+	"sefariaHeadword": "אַכְזָרִית",
+	"headwords": [
+		{
+			"text": "אַכְזָרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

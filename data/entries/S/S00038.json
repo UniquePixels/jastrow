@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00038",
-	"slug": "קבוסאי",
-	"headword": {
-		"text": "קְבוּסַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְבוּסַאי",
+	"headwords": [
+		{
+			"text": "קְבוּסַאי"
+		},
 		{
 			"text": "קְבוּסַיי"
 		},
 		{
-			"text": "קְפוּ׳"
+			"text": "קְפוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1307,
 		"column": "b"

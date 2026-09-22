@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00680",
-	"slug": "תמימותא",
-	"headword": {
-		"text": "תְּמִימוּתָא"
-	},
+	"sefariaHeadword": "תְּמִימוּתָא",
+	"headwords": [
+		{
+			"text": "תְּמִימוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

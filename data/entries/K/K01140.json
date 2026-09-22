@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01140",
-	"slug": "כרזיים",
-	"headword": {
-		"text": "כַּרְזַיִים"
-	},
+	"sefariaHeadword": "כַּרְזַיִים",
+	"headwords": [
+		{
+			"text": "כַּרְזַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

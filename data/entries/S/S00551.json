@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00551",
-	"slug": "קוקיא",
-	"headword": {
-		"text": "קְוַקְיָא"
-	},
+	"sefariaHeadword": "קְוַקְיָא",
+	"headwords": [
+		{
+			"text": "קְוַקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

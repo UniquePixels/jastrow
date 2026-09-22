@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00457",
-	"slug": "טישטושא",
-	"headword": {
-		"text": "טִישְׁטוּשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִישְׁטוּשָׁא",
+	"headwords": [
 		{
-			"text": "טִשְׁ׳"
+			"text": "טִישְׁטוּשָׁא"
+		},
+		{
+			"text": "טִשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 535,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00216",
-	"slug": "קיא-1",
-	"headword": {
-		"text": "קַיָּא"
-	},
+	"sefariaHeadword": "קַיָּא",
+	"headwords": [
+		{
+			"text": "קַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "a"

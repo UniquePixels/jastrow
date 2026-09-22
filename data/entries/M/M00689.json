@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00689",
-	"slug": "מושק",
-	"headword": {
-		"text": "מוֹשְׁקְ"
-	},
+	"sefariaHeadword": "מוֹשְׁקְ",
+	"headwords": [
+		{
+			"text": "מוֹשְׁקְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00924",
-	"slug": "השלחה",
-	"headword": {
-		"text": "הַשְׁלָחָה"
-	},
+	"sefariaHeadword": "הַשְׁלָחָה",
+	"headwords": [
+		{
+			"text": "הַשְׁלָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

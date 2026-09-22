@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02180",
-	"slug": "אנטייריס",
-	"headword": {
-		"text": "אנטייריס"
-	},
+	"sefariaHeadword": "אנטייריס",
+	"headwords": [
+		{
+			"text": "אנטייריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00517",
-	"slug": "טלניתא",
-	"headword": {
-		"text": "טְלָנֵיתָא"
-	},
+	"sefariaHeadword": "טְלָנֵיתָא",
+	"headwords": [
+		{
+			"text": "טְלָנֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

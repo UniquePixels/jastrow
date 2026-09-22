@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01307",
-	"slug": "פסיעתא",
-	"headword": {
-		"text": "פְּסִיעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִיעֲתָא",
+	"headwords": [
+		{
+			"text": "פְּסִיעֲתָא"
+		},
 		{
 			"text": "פְּסִיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1196,
 		"column": "a"

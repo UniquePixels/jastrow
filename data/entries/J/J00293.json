@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00293",
-	"slug": "יחל",
-	"headword": {
-		"text": "יָחַל"
-	},
+	"sefariaHeadword": "יָחַל",
+	"headwords": [
+		{
+			"text": "יָחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 574,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00458",
-	"slug": "סחיפא",
-	"headword": {
-		"text": "סְחִיפָא"
-	},
+	"sefariaHeadword": "סְחִיפָא",
+	"headwords": [
+		{
+			"text": "סְחִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "a"

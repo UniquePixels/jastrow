@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01421",
-	"slug": "חפאים",
-	"headword": {
-		"text": "חֳפָאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֳפָאִים",
+	"headwords": [
+		{
+			"text": "חֳפָאִים"
+		},
 		{
 			"text": "חֳפָאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 490,
 		"column": "b"

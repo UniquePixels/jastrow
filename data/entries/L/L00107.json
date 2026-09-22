@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00107",
-	"slug": "לבנון",
-	"headword": {
-		"text": "לְבָנוֹן"
-	},
+	"sefariaHeadword": "לְבָנוֹן",
+	"headwords": [
+		{
+			"text": "לְבָנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

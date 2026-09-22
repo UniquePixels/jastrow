@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00668",
-	"slug": "נילוס",
-	"headword": {
-		"text": "נִילוֹס"
-	},
+	"sefariaHeadword": "נִילוֹס",
+	"headwords": [
+		{
+			"text": "נִילוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

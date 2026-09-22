@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01785",
-	"slug": "קצבא",
-	"headword": {
-		"text": "קַצָּבָא"
-	},
+	"sefariaHeadword": "קַצָּבָא",
+	"headwords": [
+		{
+			"text": "קַצָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "a"

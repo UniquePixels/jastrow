@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00524",
-	"slug": "ת-2",
-	"headword": {
-		"text": "תִּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּ",
+	"headwords": [
+		{
+			"text": "תִּ"
+		},
 		{
 			"text": "כְבּוֹסֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1667,
 		"column": "b"

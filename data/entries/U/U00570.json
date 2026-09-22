@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00570",
-	"slug": "שושילתא",
-	"headword": {
-		"text": "שׁוֹשִּׁילְתָּא"
-	},
+	"sefariaHeadword": "שׁוֹשִּׁילְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוֹשִּׁילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "b"

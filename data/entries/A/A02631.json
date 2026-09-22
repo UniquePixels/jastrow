@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02631",
-	"slug": "אפונראות",
-	"headword": {
-		"text": "אפונראות"
-	},
+	"sefariaHeadword": "אפונראות",
+	"headwords": [
+		{
+			"text": "אפונראות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00518",
-	"slug": "עיון-2",
-	"headword": {
-		"text": "עִיּוֹן"
-	},
+	"sefariaHeadword": "עִיּוֹן",
+	"headwords": [
+		{
+			"text": "עִיּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

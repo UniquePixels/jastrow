@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00495",
-	"slug": "רחיים",
-	"headword": {
-		"text": "רֵחַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵחַיִים",
+	"headwords": [
+		{
+			"text": "רֵחַיִים"
+		},
 		{
 			"text": "רִחַיִם"
 		},
 		{
-			"text": "רֵי׳"
+			"text": "רֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1466,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00275",
-	"slug": "מדורא",
-	"headword": {
-		"text": "מְדוּרָא"
-	},
+	"sefariaHeadword": "מְדוּרָא",
+	"headwords": [
+		{
+			"text": "מְדוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "b"

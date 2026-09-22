@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01865",
-	"slug": "קקוזית",
-	"headword": {
-		"text": "קָקוּזִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָקוּזִית",
+	"headwords": [
+		{
+			"text": "קָקוּזִית"
+		},
 		{
 			"text": "קָקוּזִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "b"

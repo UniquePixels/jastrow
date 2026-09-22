@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01433",
-	"slug": "פצים-2",
-	"headword": {
-		"text": "פַּצִּים",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּצִּים ²",
+	"headwords": [
+		{
+			"text": "פַּצִּים",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּצִּימָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1205,
 		"column": "a"

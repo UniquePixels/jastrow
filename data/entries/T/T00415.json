@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00415",
-	"slug": "רוע-1",
-	"headword": {
-		"text": "רוּעַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רוּעַ I",
+	"headwords": [
+		{
+			"text": "רוּעַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1462,
 		"column": "b"

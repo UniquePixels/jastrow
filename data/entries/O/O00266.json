@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00266",
-	"slug": "סודרין",
-	"headword": {
-		"text": "סוּדָרִין"
-	},
+	"sefariaHeadword": "סוּדָרִין",
+	"headwords": [
+		{
+			"text": "סוּדָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

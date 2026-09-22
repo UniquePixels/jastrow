@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00340",
-	"slug": "רוזגר",
-	"headword": {
-		"text": "רוֹזְגָר"
-	},
+	"sefariaHeadword": "רוֹזְגָר",
+	"headwords": [
+		{
+			"text": "רוֹזְגָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "a"

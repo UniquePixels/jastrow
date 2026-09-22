@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00264",
-	"slug": "פונדק",
-	"headword": {
-		"text": "פּוּנְדָּק"
-	},
+	"sefariaHeadword": "פּוּנְדָּק",
+	"headwords": [
+		{
+			"text": "פּוּנְדָּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

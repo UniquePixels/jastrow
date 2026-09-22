@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00373",
-	"slug": "רוכלות",
-	"headword": {
-		"text": "רוֹכְלוֹת"
-	},
+	"sefariaHeadword": "רוֹכְלוֹת",
+	"headwords": [
+		{
+			"text": "רוֹכְלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

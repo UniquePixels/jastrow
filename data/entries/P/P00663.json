@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00663",
-	"slug": "עיקלא",
-	"headword": {
-		"text": "עִיקְלָא"
-	},
+	"sefariaHeadword": "עִיקְלָא",
+	"headwords": [
+		{
+			"text": "עִיקְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "b"

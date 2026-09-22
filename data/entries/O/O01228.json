@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01228",
-	"slug": "סניא-4",
-	"headword": {
-		"text": "סַנְיָא",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְיָא IV",
+	"headwords": [
+		{
+			"text": "סַנְיָא",
+			"homograph": 4
+		},
 		{
 			"text": "סַנֵּי"
 		}
 	],
+	"display": "{0} IV, {1}",
 	"page": {
 		"number": 1007,
 		"column": "a"

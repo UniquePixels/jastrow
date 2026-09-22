@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00330",
-	"slug": "ציורות",
-	"headword": {
-		"text": "צַיּוֹרוֹת"
-	},
+	"sefariaHeadword": "צַיּוֹרוֹת",
+	"headwords": [
+		{
+			"text": "צַיּוֹרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01294",
-	"slug": "גרודא",
-	"headword": {
-		"text": "גְּרוּדָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּרוּדָא",
+	"headwords": [
+		{
+			"text": "גְּרוּדָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 266,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

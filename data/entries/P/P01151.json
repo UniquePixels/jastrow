@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01151",
-	"slug": "עקבה",
-	"headword": {
-		"text": "עֲקֵבָה"
-	},
+	"sefariaHeadword": "עֲקֵבָה",
+	"headwords": [
+		{
+			"text": "עֲקֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1104,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01700",
-	"slug": "חרישה-1",
-	"headword": {
-		"text": "חֲרִישָׁה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲרִישָׁה I",
+	"headwords": [
+		{
+			"text": "חֲרִישָׁה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 503,
 		"column": "a"

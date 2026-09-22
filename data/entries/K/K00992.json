@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00992",
-	"slug": "כפור-1",
-	"headword": {
-		"text": "כִּפּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּפּוּר",
+	"headwords": [
 		{
-			"text": "כִּיפּ׳"
+			"text": "כִּפּוּר"
+		},
+		{
+			"text": "כִּיפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 657,
 		"column": "b"

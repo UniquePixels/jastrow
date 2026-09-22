@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03068",
-	"slug": "ארטבלאי",
-	"headword": {
-		"text": "ארטבלאי"
-	},
+	"sefariaHeadword": "ארטבלאי",
+	"headwords": [
+		{
+			"text": "ארטבלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02721",
-	"slug": "מרמר-1",
-	"headword": {
-		"text": "מִרְמֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִרְמֵר",
+	"headwords": [
+		{
+			"text": "מִרְמֵר"
+		},
 		{
 			"text": "מַרְמֵר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 844,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01441",
-	"slug": "קמאיות",
-	"headword": {
-		"text": "קמאיות"
-	},
+	"sefariaHeadword": "קמאיות",
+	"headwords": [
+		{
+			"text": "קמאיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "b"

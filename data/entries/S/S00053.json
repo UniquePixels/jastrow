@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00053",
-	"slug": "קבילתא",
-	"headword": {
-		"text": "קְבֵילְתָּא"
-	},
+	"sefariaHeadword": "קְבֵילְתָּא",
+	"headwords": [
+		{
+			"text": "קְבֵילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1308,
 		"column": "a"

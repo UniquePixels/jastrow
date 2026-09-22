@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01100",
-	"slug": "נצה",
-	"headword": {
-		"text": "נָצָה"
-	},
+	"sefariaHeadword": "נָצָה",
+	"headwords": [
+		{
+			"text": "נָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

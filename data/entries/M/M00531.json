@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00531",
-	"slug": "מונגינוס",
-	"headword": {
-		"text": "מוֹנְגִּינוֹס"
-	},
+	"sefariaHeadword": "מוֹנְגִּינוֹס",
+	"headwords": [
+		{
+			"text": "מוֹנְגִּינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

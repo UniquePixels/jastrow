@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00849",
-	"slug": "דלעת",
-	"headword": {
-		"text": "דְּלַעַת"
-	},
+	"sefariaHeadword": "דְּלַעַת",
+	"headwords": [
+		{
+			"text": "דְּלַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 311,
 		"column": "a"

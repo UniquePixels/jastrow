@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01086",
-	"slug": "נפת",
-	"headword": {
-		"text": "נֹפֶת"
-	},
+	"sefariaHeadword": "נֹפֶת",
+	"headwords": [
+		{
+			"text": "נֹפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "a"

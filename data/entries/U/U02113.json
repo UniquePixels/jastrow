@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02113",
-	"slug": "שתית",
-	"headword": {
-		"text": "שַׁתִּית"
-	},
+	"sefariaHeadword": "שַׁתִּית",
+	"headwords": [
+		{
+			"text": "שַׁתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1638,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00735",
-	"slug": "טרופין",
-	"headword": {
-		"text": "טרופין"
-	},
+	"sefariaHeadword": "טרופין",
+	"headwords": [
+		{
+			"text": "טרופין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

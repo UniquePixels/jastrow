@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01168",
-	"slug": "שכם-1",
-	"headword": {
-		"text": "שָׂכַם"
-	},
+	"sefariaHeadword": "שָׂכַם",
+	"headwords": [
+		{
+			"text": "שָׂכַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1574,
 		"column": "b"

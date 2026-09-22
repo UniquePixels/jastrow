@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01962",
-	"slug": "פרפר-2",
-	"headword": {
-		"text": "פַּרְפֵּר"
-	},
+	"sefariaHeadword": "פַּרְפֵּר",
+	"headwords": [
+		{
+			"text": "פַּרְפֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00033",
-	"slug": "סבה",
-	"headword": {
-		"text": "סִבָּה"
-	},
+	"sefariaHeadword": "סִבָּה",
+	"headwords": [
+		{
+			"text": "סִבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 948,
 		"column": "b"

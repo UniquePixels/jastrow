@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00418",
-	"slug": "דחיפה",
-	"headword": {
-		"text": "דְּחִיפָה"
-	},
+	"sefariaHeadword": "דְּחִיפָה",
+	"headwords": [
+		{
+			"text": "דְּחִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00673",
-	"slug": "סילקא",
-	"headword": {
-		"text": "סִילְקָא"
-	},
+	"sefariaHeadword": "סִילְקָא",
+	"headwords": [
+		{
+			"text": "סִילְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

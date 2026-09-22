@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00790",
-	"slug": "פיפקין",
-	"headword": {
-		"text": "פיפקין"
-	},
+	"sefariaHeadword": "פיפקין",
+	"headwords": [
+		{
+			"text": "פיפקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

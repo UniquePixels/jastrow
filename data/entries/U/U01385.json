@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01385",
-	"slug": "שלקות",
-	"headword": {
-		"text": "שַׁלְקוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְקוּת",
+	"headwords": [
+		{
+			"text": "שַׁלְקוּת"
+		},
 		{
 			"text": "שַׁלְקִית"
 		},
 		{
-			"text": "בֶּן שַׁלְקוּת"
+			"text": "בֶּן שַׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1588,
 		"column": "b"

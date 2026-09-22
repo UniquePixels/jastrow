@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00925",
-	"slug": "עמקי",
-	"headword": {
-		"text": "עִמְקִי"
-	},
+	"sefariaHeadword": "עִמְקִי",
+	"headwords": [
+		{
+			"text": "עִמְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00693",
-	"slug": "לקיש-1",
-	"headword": {
-		"text": "לָקִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לָקִישׁ",
+	"headwords": [
+		{
+			"text": "לָקִישׁ"
+		},
 		{
 			"text": "לְקִישָׁא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 719,
 		"column": "b"

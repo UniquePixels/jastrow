@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00582",
-	"slug": "תלולית",
-	"headword": {
-		"text": "תְּלוּלִית"
-	},
+	"sefariaHeadword": "תְּלוּלִית",
+	"headwords": [
+		{
+			"text": "תְּלוּלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "b"

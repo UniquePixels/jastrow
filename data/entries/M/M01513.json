@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01513",
-	"slug": "מלוך",
-	"headword": {
-		"text": "מַלּוּךְ"
-	},
+	"sefariaHeadword": "מַלּוּךְ",
+	"headwords": [
+		{
+			"text": "מַלּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

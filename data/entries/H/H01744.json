@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01744",
-	"slug": "חרפופיתא",
-	"headword": {
-		"text": "חַרְפּוּפִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְפּוּפִיתָא",
+	"headwords": [
+		{
+			"text": "חַרְפּוּפִיתָא"
+		},
 		{
 			"text": "חַרְפּוּפְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 505,
 		"column": "b"

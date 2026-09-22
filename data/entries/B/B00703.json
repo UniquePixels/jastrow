@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00703",
-	"slug": "בירבלין",
-	"headword": {
-		"text": "בירבלין"
-	},
+	"sefariaHeadword": "בירבלין",
+	"headwords": [
+		{
+			"text": "בירבלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "b"

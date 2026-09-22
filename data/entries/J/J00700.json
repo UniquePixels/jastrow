@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00700",
-	"slug": "ישע",
-	"headword": {
-		"text": "יָשַׁע"
-	},
+	"sefariaHeadword": "יָשַׁע",
+	"headwords": [
+		{
+			"text": "יָשַׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 601,
 		"column": "b"
@@ -35,7 +39,7 @@
 			"forms": ["נוֹשַׁע"],
 			"senses": [
 				{
-					"gloss": "<i>to be saved, released</i>. Midr. Till. l. c. <he>אִוָּשֵׁעַ מן וכ׳</he> let me be delivered from my enemies, and I shall call the Lord the praised One. Tanḥ. Aḥǎré 12 (ref. to <he>ויושע</he>, <cite ref=\"Exodus 14:30\">Ex. XIV, 30</cite>) <he>וַיִוָּשַׁע כתיב כביכול הוא נ׳</he> it may be read <i>vayivvasha</i> (and he was saved), He, as if it were, was delivered. ",
+					"gloss": "<i>to be saved, released</i>. Midr. Till. l. c. <he>אִוָּשֵׁעַ מן וכ׳</he> let me be delivered from my enemies, and I shall call the Lord the praised One. Tanḥ. Aḥǎré 12 (ref. to <he>ויושע</he>, <cite ref=\"Exodus 14:30\">Ex. XIV, 30</cite>) <he>וַיִוָּשַׁע כתיב כביכול הוא נ׳</he> it may be read <i>vayivvasha</i> (and he was saved), He, as if it were, was delivered. ",
 					"units": [
 						"<cite ref=\"Exodus 14:30\">Ib.</cite> <he>בעוה״ז הייתם נוֹשָׁעִים ע״י ב״א</he> in this world (the past) you were delivered through human agencies."
 					]

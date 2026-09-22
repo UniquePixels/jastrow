@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02542",
-	"slug": "אסקפא",
-	"headword": {
-		"text": "אִסְקָפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְקָפָא",
+	"headwords": [
+		{
+			"text": "אִסְקָפָא"
+		},
 		{
 			"text": "אִסְקָפִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00639",
-	"slug": "בינא-1",
-	"headword": {
-		"text": "בִּינָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּינָא I",
+	"headwords": [
+		{
+			"text": "בִּינָא",
+			"homograph": 1
+		},
 		{
 			"text": "בִּינָתָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 163,
 		"column": "a"

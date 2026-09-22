@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00097",
-	"slug": "שבח-2",
-	"headword": {
-		"text": "שְׁבַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁבַח I",
+	"headwords": [
+		{
+			"text": "שְׁבַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1512,
 		"column": "a"

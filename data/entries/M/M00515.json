@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00515",
-	"slug": "מום-1",
-	"headword": {
-		"text": "מוּם"
-	},
+	"sefariaHeadword": "מוּם",
+	"headwords": [
+		{
+			"text": "מוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "a"

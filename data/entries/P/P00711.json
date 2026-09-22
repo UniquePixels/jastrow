@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00711",
-	"slug": "עיתות",
-	"headword": {
-		"text": "עִיתּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיתּוֹת",
+	"headwords": [
+		{
+			"text": "עִיתּוֹת"
+		},
 		{
 			"text": "עִיתִּים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "b"

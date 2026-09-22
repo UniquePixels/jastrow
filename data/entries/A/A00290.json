@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00290",
-	"slug": "אגיח",
-	"headword": {
-		"text": "אָגִיחַ"
-	},
+	"sefariaHeadword": "אָגִיחַ",
+	"headwords": [
+		{
+			"text": "אָגִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

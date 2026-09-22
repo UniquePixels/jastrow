@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00732",
-	"slug": "רישתא",
-	"headword": {
-		"text": "רֵישְׁתָּא"
-	},
+	"sefariaHeadword": "רֵישְׁתָּא",
+	"headwords": [
+		{
+			"text": "רֵישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

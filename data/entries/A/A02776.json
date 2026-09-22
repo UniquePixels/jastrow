@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02776",
-	"slug": "אפקוליס",
-	"headword": {
-		"text": "אפקוליס"
-	},
+	"sefariaHeadword": "אפקוליס",
+	"headwords": [
+		{
+			"text": "אפקוליס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "a"

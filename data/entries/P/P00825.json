@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00825",
-	"slug": "עלמות",
-	"headword": {
-		"text": "עַלְמוּת"
-	},
+	"sefariaHeadword": "עַלְמוּת",
+	"headwords": [
+		{
+			"text": "עַלְמוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "a"

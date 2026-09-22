@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00954",
-	"slug": "התקנה",
-	"headword": {
-		"text": "הַתְקָנָה"
-	},
+	"sefariaHeadword": "הַתְקָנָה",
+	"headwords": [
+		{
+			"text": "הַתְקָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "b"

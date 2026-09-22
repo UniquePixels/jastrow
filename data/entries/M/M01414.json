@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01414",
-	"slug": "מכנס",
-	"headword": {
-		"text": "מִכְנָס"
-	},
+	"sefariaHeadword": "מִכְנָס",
+	"headwords": [
+		{
+			"text": "מִכְנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

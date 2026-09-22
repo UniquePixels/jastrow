@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00099",
-	"slug": "ידוע-3",
-	"headword": {
-		"text": "יָדוּעַ"
-	},
+	"sefariaHeadword": "יָדוּעַ",
+	"headwords": [
+		{
+			"text": "יָדוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 564,
 		"column": "a"

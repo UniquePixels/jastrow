@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00590",
-	"slug": "סיוטא",
-	"headword": {
-		"text": "סְיוּטָא"
-	},
+	"sefariaHeadword": "סְיוּטָא",
+	"headwords": [
+		{
+			"text": "סְיוּטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "a"

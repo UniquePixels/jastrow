@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01849",
-	"slug": "אליותרופוליס",
-	"headword": {
-		"text": "אֱלֶיוְתְּרוֹפּוֹלִיס"
-	},
+	"sefariaHeadword": "אֱלֶיוְתְּרוֹפּוֹלִיס",
+	"headwords": [
+		{
+			"text": "אֱלֶיוְתְּרוֹפּוֹלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00588",
-	"slug": "לסיטה",
-	"headword": {
-		"text": "לסיטה"
-	},
+	"sefariaHeadword": "לסיטה",
+	"headwords": [
+		{
+			"text": "לסיטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "b"

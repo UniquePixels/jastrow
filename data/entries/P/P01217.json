@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P01217",
-	"slug": "עקר-5",
-	"headword": {
-		"text": "עֲקַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲקַר II",
+	"headwords": [
+		{
+			"text": "עֲקַר",
+			"homograph": 2
+		},
 		{
 			"text": "עַקְרָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "עֲקַרְתָּא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1108,
 		"column": "b"

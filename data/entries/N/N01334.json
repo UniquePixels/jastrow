@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01334",
-	"slug": "נשמה",
-	"headword": {
-		"text": "נְשָׁמָה"
-	},
+	"sefariaHeadword": "נְשָׁמָה",
+	"headwords": [
+		{
+			"text": "נְשָׁמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 941,
 		"column": "a"

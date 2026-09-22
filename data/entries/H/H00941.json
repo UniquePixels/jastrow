@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00941",
-	"slug": "חכם-3",
-	"headword": {
-		"text": "חָכָם"
-	},
+	"sefariaHeadword": "חָכָם",
+	"headwords": [
+		{
+			"text": "חָכָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "a"

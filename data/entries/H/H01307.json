@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01307",
-	"slug": "חנם",
-	"headword": {
-		"text": "חִנָּם"
-	},
+	"sefariaHeadword": "חִנָּם",
+	"headwords": [
+		{
+			"text": "חִנָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 484,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00787",
-	"slug": "טריי",
-	"headword": {
-		"text": "טַרְיִי"
-	},
+	"sefariaHeadword": "טַרְיִי",
+	"headwords": [
+		{
+			"text": "טַרְיִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

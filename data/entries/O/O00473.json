@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00473",
-	"slug": "סט",
-	"headword": {
-		"text": "סֵט"
-	},
+	"sefariaHeadword": "סֵט",
+	"headwords": [
+		{
+			"text": "סֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "a"

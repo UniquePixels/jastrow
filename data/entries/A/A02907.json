@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02907",
-	"slug": "אקושא",
-	"headword": {
-		"text": "אָקוֹשָׁא"
-	},
+	"sefariaHeadword": "אָקוֹשָׁא",
+	"headwords": [
+		{
+			"text": "אָקוֹשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02634",
-	"slug": "אפופודין",
-	"headword": {
-		"text": "אִפּוֹפּוֹדִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִפֹּופֹּודִין",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִפּוֹפּוֹדִין"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "a"

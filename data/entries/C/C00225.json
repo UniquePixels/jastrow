@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00225",
-	"slug": "גדל-3",
-	"headword": {
-		"text": "גָּדַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גָּדַל II",
+	"headwords": [
+		{
+			"text": "גָּדַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 213,
 		"column": "a"

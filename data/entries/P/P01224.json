@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01224",
-	"slug": "עקרבת",
-	"headword": {
-		"text": "עַקְרַבַּת"
-	},
+	"sefariaHeadword": "עַקְרַבַּת",
+	"headwords": [
+		{
+			"text": "עַקְרַבַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

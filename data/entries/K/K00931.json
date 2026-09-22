@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00931",
-	"slug": "כסירא",
-	"headword": {
-		"text": "כסירא"
-	},
+	"sefariaHeadword": "כסירא",
+	"headwords": [
+		{
+			"text": "כסירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "a"

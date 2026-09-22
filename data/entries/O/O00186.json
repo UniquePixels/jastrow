@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00186",
-	"slug": "סדינא",
-	"headword": {
-		"text": "סְדִינָא"
-	},
+	"sefariaHeadword": "סְדִינָא",
+	"headwords": [
+		{
+			"text": "סְדִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 957,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00430",
-	"slug": "שולשילתא",
-	"headword": {
-		"text": "שׁוּלְשֶׁילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּלְשֶׁילְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוּלְשֶׁילְתָּא"
+		},
 		{
 			"text": "שׁוּלְשְׁלָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שׁוּלְשֶׁלְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1534,
 		"column": "b"

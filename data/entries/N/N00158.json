@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00158",
-	"slug": "נגיחא",
-	"headword": {
-		"text": "נְגִיחָא"
-	},
+	"sefariaHeadword": "נְגִיחָא",
+	"headwords": [
+		{
+			"text": "נְגִיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "a"

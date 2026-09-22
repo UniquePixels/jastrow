@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00693",
-	"slug": "הנצה",
-	"headword": {
-		"text": "הֲנָצָה"
-	},
+	"sefariaHeadword": "הֲנָצָה",
+	"headwords": [
+		{
+			"text": "הֲנָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

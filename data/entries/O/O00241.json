@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00241",
-	"slug": "סובתא",
-	"headword": {
-		"text": "סוֹבְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹבְתָא",
+	"headwords": [
+		{
+			"text": "סוֹבְתָא"
+		},
 		{
 			"text": "סוּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 960,
 		"column": "b"

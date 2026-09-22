@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00554",
-	"slug": "קוקלא",
-	"headword": {
-		"text": "קוּקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּקְלָא",
+	"headwords": [
+		{
+			"text": "קוּקְלָא"
+		},
 		{
 			"text": "קוֹקֶלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1340,
 		"column": "b"

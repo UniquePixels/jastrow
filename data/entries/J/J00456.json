@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00456",
-	"slug": "יסוד-2",
-	"headword": {
-		"text": "יְסוֹד"
-	},
+	"sefariaHeadword": "יְסוֹד",
+	"headwords": [
+		{
+			"text": "יְסוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "a"

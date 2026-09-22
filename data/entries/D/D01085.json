@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01085",
-	"slug": "דריך",
-	"headword": {
-		"text": "דְּרֵיךְ"
-	},
+	"sefariaHeadword": "דְּרֵיךְ",
+	"headwords": [
+		{
+			"text": "דְּרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

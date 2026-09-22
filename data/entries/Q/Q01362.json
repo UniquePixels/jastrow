@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01362",
-	"slug": "פסקית",
-	"headword": {
-		"text": "פַּסְקִית"
-	},
+	"sefariaHeadword": "פַּסְקִית",
+	"headwords": [
+		{
+			"text": "פַּסְקִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

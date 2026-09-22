@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01164",
-	"slug": "אידך",
-	"headword": {
-		"text": "אִידֵּךְ"
-	},
+	"sefariaHeadword": "אִידֵּךְ",
+	"headwords": [
+		{
+			"text": "אִידֵּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

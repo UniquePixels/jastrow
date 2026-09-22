@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01642",
-	"slug": "שעורה",
-	"headword": {
-		"text": "שְׂעוֹרָה"
-	},
+	"sefariaHeadword": "שְׂעוֹרָה",
+	"headwords": [
+		{
+			"text": "שְׂעוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

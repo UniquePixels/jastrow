@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00373",
-	"slug": "זימנה",
-	"headword": {
-		"text": "זִימְנָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זִימְנָה",
+	"headwords": [
+		{
+			"text": "זִימְנָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

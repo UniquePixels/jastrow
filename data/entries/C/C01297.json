@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01297",
-	"slug": "גרויא",
-	"headword": {
-		"text": "גרויא"
-	},
+	"sefariaHeadword": "גרויא",
+	"headwords": [
+		{
+			"text": "גרויא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

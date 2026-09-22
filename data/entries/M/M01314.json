@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01314",
-	"slug": "מישלם",
-	"headword": {
-		"text": "מִישְׁלָם"
-	},
+	"sefariaHeadword": "מִישְׁלָם",
+	"headwords": [
+		{
+			"text": "מִישְׁלָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "b"

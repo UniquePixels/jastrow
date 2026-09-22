@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00324",
-	"slug": "תושב-1",
-	"headword": {
-		"text": "תּוֹשָׁב"
-	},
+	"sefariaHeadword": "תּוֹשָׁב",
+	"headwords": [
+		{
+			"text": "תּוֹשָׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "a"

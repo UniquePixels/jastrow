@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00403",
-	"slug": "רונגר",
-	"headword": {
-		"text": "רוּנְגָּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רוּנְגָּר",
+	"headwords": [
+		{
+			"text": "רוּנְגָּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

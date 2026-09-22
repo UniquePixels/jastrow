@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01304",
-	"slug": "כשט",
-	"headword": {
-		"text": "כְּשַּׁט",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּשַּׁט",
+	"headwords": [
+		{
+			"text": "כְּשַּׁט",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 675,
 		"column": "b"

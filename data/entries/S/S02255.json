@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S02255",
-	"slug": "קשקוש",
-	"headword": {
-		"text": "קִשְׁקוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִשְׁקוּשׁ",
+	"headwords": [
+		{
+			"text": "קִשְׁקוּשׁ"
+		},
 		{
 			"text": "קִשְׁקוּשָׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִשְׁקוּשֵׁי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1431,
 		"column": "b"

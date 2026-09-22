@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02642",
-	"slug": "מרט-1",
-	"headword": {
-		"text": "מָרַט"
-	},
+	"sefariaHeadword": "מָרַט",
+	"headwords": [
+		{
+			"text": "מָרַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 841,
 		"column": "b"

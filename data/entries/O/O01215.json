@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01215",
-	"slug": "סנטיראי",
-	"headword": {
-		"text": "סנטיראי"
-	},
+	"sefariaHeadword": "סנטיראי",
+	"headwords": [
+		{
+			"text": "סנטיראי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "a"

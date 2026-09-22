@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00234",
-	"slug": "קובלנא",
-	"headword": {
-		"text": "קוּבְלָנָא"
-	},
+	"sefariaHeadword": "קוּבְלָנָא",
+	"headwords": [
+		{
+			"text": "קוּבְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "b"

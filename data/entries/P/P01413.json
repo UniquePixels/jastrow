@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01413",
-	"slug": "ערעור",
-	"headword": {
-		"text": "עִרְעוּר"
-	},
+	"sefariaHeadword": "עִרְעוּר",
+	"headwords": [
+		{
+			"text": "עִרְעוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1121,
 		"column": "b"

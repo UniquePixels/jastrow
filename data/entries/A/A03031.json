@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03031",
-	"slug": "ארומא",
-	"headword": {
-		"text": "אֲרוּמָא"
-	},
+	"sefariaHeadword": "אֲרוּמָא",
+	"headwords": [
+		{
+			"text": "אֲרוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

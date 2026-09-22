@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00550",
-	"slug": "גזים",
-	"headword": {
-		"text": "גְּזִים"
-	},
+	"sefariaHeadword": "גְּזִים",
+	"headwords": [
+		{
+			"text": "גְּזִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

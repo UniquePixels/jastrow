@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00270",
-	"slug": "צחור",
-	"headword": {
-		"text": "צָחוֹר"
-	},
+	"sefariaHeadword": "צָחוֹר",
+	"headwords": [
+		{
+			"text": "צָחוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1273,
 		"column": "a"

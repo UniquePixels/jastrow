@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00196",
-	"slug": "צום-1",
-	"headword": {
-		"text": "צוּם"
-	},
+	"sefariaHeadword": "צוּם",
+	"headwords": [
+		{
+			"text": "צוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "b"

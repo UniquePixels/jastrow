@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00580",
-	"slug": "ריב-1",
-	"headword": {
-		"text": "רִיב",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיב I",
+	"headwords": [
+		{
+			"text": "רִיב",
+			"homograph": 1
+		},
 		{
 			"text": "רוּב"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1472,
 		"column": "a"

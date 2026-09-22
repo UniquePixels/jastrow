@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00817",
-	"slug": "אופסנון",
-	"headword": {
-		"text": "אופסנון"
-	},
+	"sefariaHeadword": "אופסנון",
+	"headwords": [
+		{
+			"text": "אופסנון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

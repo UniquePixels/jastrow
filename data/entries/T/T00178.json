@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00178",
-	"slug": "רגזא",
-	"headword": {
-		"text": "רָגְזָא"
-	},
+	"sefariaHeadword": "רָגְזָא",
+	"headwords": [
+		{
+			"text": "רָגְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "b"

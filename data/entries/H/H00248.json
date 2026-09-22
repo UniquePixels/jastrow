@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00248",
-	"slug": "חובץ-2",
-	"headword": {
-		"text": "חוּבָּץ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּבָּץ II",
+	"headwords": [
+		{
+			"text": "חוּבָּץ",
+			"homograph": 2
+		},
 		{
 			"text": "חוּבְצָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 429,
 		"column": "b"

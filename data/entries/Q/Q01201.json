@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01201",
-	"slug": "פנימי",
-	"headword": {
-		"text": "פְּנִימִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנִימִי",
+	"headwords": [
+		{
+			"text": "פְּנִימִי"
+		},
 		{
 			"text": "פְּנִימִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1190,
 		"column": "a"

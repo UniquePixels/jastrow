@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00195",
-	"slug": "כובעה",
-	"headword": {
-		"text": "כּוֹבְעָה"
-	},
+	"sefariaHeadword": "כּוֹבְעָה",
+	"headwords": [
+		{
+			"text": "כּוֹבְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

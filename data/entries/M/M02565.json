@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02565",
-	"slug": "מרהביא",
-	"headword": {
-		"text": "מַרְהַבְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַרְהַבְיָא",
+	"headwords": [
+		{
+			"text": "מַרְהַבְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 838,
 		"column": "a"

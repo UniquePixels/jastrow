@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01727",
-	"slug": "מנהג",
-	"headword": {
-		"text": "מִנְהָג"
-	},
+	"sefariaHeadword": "מִנְהָג",
+	"headwords": [
+		{
+			"text": "מִנְהָג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "a"

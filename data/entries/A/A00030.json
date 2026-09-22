@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00030",
-	"slug": "אבד-1",
-	"headword": {
-		"text": "אָבַד"
-	},
+	"sefariaHeadword": "אָבַד",
+	"headwords": [
+		{
+			"text": "אָבַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 2,
 		"column": "b"

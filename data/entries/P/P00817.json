@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00817",
-	"slug": "עלל-3",
-	"headword": {
-		"text": "עֲלַל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלַל II",
+	"headwords": [
+		{
+			"text": "עֲלַל",
+			"homograph": 2
+		},
 		{
 			"text": "עֲלָלָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "עֲלַלְתָּא"
 		},
 		{
-			"text": "עָ׳"
+			"text": "עָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 1084,
 		"column": "a"

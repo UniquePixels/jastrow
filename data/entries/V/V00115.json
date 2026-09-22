@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00115",
-	"slug": "תהב",
-	"headword": {
-		"text": "תָּהַב"
-	},
+	"sefariaHeadword": "תָּהַב",
+	"headwords": [
+		{
+			"text": "תָּהַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1648,
 		"column": "a"

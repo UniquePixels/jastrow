@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00453",
-	"slug": "הינדזא",
-	"headword": {
-		"text": "הִינְדְּזָא"
-	},
+	"sefariaHeadword": "הִינְדְּזָא",
+	"headwords": [
+		{
+			"text": "הִינְדְּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

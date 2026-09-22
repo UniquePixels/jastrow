@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00283",
-	"slug": "הורקנוס",
-	"headword": {
-		"text": "הוֹרְקְנוֹס"
-	},
+	"sefariaHeadword": "הוֹרְקְנוֹס",
+	"headwords": [
+		{
+			"text": "הוֹרְקְנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "a"

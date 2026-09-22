@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00649",
-	"slug": "דינר-1",
-	"headword": {
-		"text": "דִּינָר"
-	},
+	"sefariaHeadword": "דִּינָר",
+	"headwords": [
+		{
+			"text": "דִּינָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

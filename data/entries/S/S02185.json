@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02185",
-	"slug": "קרקרה",
-	"headword": {
-		"text": "קַרְקָרָה"
-	},
+	"sefariaHeadword": "קַרְקָרָה",
+	"headwords": [
+		{
+			"text": "קַרְקָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1427,
 		"column": "a"

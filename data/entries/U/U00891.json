@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00891",
-	"slug": "שייא-2",
-	"headword": {
-		"text": "שַׁיָּיא"
-	},
+	"sefariaHeadword": "שַׁיָּיא",
+	"headwords": [
+		{
+			"text": "שַׁיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1561,
 		"column": "a"

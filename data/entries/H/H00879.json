@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00879",
-	"slug": "חירחור",
-	"headword": {
-		"text": "חִירְחוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִירְחוּר",
+	"headwords": [
+		{
+			"text": "חִירְחוּר"
+		},
 		{
 			"text": "חִירְחוּרִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

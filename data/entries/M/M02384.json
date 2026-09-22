@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02384",
-	"slug": "מקדש-1",
-	"headword": {
-		"text": "מִקְדָּשׁ"
-	},
+	"sefariaHeadword": "מִקְדָּשׁ",
+	"headwords": [
+		{
+			"text": "מִקְדָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

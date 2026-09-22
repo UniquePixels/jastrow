@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U02071",
-	"slug": "שת-4",
-	"headword": {
-		"text": "שִׁתְּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁתְּ",
+	"headwords": [
+		{
+			"text": "שִׁתְּ"
+		},
 		{
 			"text": "שֵׁת"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1636,
 		"column": "b"

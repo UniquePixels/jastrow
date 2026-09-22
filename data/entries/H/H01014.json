@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01014",
-	"slug": "חלזונא",
-	"headword": {
-		"text": "חִלְזוֹנָא"
-	},
+	"sefariaHeadword": "חִלְזוֹנָא",
+	"headwords": [
+		{
+			"text": "חִלְזוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03317",
-	"slug": "אשלג",
-	"headword": {
-		"text": "אַשְׁלֵג"
-	},
+	"sefariaHeadword": "אַשְׁלֵג",
+	"headwords": [
+		{
+			"text": "אַשְׁלֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "a"

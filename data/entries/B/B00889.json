@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00889",
-	"slug": "בלני-2",
-	"headword": {
-		"text": "בַּלְנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְנֵי",
+	"headwords": [
+		{
+			"text": "בַּלְנֵי"
+		},
 		{
 			"text": "בַּלִּינֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 174,
 		"column": "a"

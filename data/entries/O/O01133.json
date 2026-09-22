@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01133",
-	"slug": "סמקריי",
-	"headword": {
-		"text": "סַמְקְרָיי"
-	},
+	"sefariaHeadword": "סַמְקְרָיי",
+	"headwords": [
+		{
+			"text": "סַמְקְרָיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "a"

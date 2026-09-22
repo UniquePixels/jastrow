@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01128",
-	"slug": "איביריתא",
-	"headword": {
-		"text": "אִיבִּירְיָתָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִיבִּירְיָתָא",
+	"headwords": [
+		{
+			"text": "אִיבִּירְיָתָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אִיבִּירְיָתָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 44,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01058",
-	"slug": "פלייא",
-	"headword": {
-		"text": "פַּלִּיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלִּיָיא",
+	"headwords": [
+		{
+			"text": "פַּלִּיָיא"
+		},
 		{
 			"text": "פַּלִּיָיאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1182,
 		"column": "a"

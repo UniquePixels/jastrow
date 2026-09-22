@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00118",
-	"slug": "בדוחא-2",
-	"headword": {
-		"text": "בְּדוֹחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּדוֹחָא",
+	"headwords": [
+		{
+			"text": "בְּדוֹחָא"
+		},
 		{
 			"text": "בּוּדְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 139,
 		"column": "a"

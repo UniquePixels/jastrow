@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00410",
-	"slug": "זיקוקא-1",
-	"headword": {
-		"text": "זִיקוּקָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיקוּקָא I",
+	"headwords": [
+		{
+			"text": "זִיקוּקָא",
+			"homograph": 1
+		},
 		{
 			"text": "זִקּוּקָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 396,
 		"column": "b"

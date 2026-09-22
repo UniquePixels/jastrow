@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00264",
-	"slug": "לוכסון",
-	"headword": {
-		"text": "לוֹכְסוֹן"
-	},
+	"sefariaHeadword": "לוֹכְסוֹן",
+	"headwords": [
+		{
+			"text": "לוֹכְסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

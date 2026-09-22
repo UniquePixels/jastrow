@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00479",
-	"slug": "פחם-2",
-	"headword": {
-		"text": "פְּחַם"
-	},
+	"sefariaHeadword": "פְּחַם",
+	"headwords": [
+		{
+			"text": "פְּחַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1153,
 		"column": "a"

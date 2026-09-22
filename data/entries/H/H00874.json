@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00874",
-	"slug": "חירוף",
-	"headword": {
-		"text": "חֵירוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵירוּף",
+	"headwords": [
+		{
+			"text": "חֵירוּף"
+		},
 		{
 			"text": "חִרוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

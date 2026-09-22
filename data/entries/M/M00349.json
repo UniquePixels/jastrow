@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00349",
-	"slug": "מהוכיא",
-	"headword": {
-		"text": "מהוכיא"
-	},
+	"sefariaHeadword": "מהוכיא",
+	"headwords": [
+		{
+			"text": "מהוכיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

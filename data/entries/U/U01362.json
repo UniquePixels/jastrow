@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01362",
-	"slug": "שלמצה",
-	"headword": {
-		"text": "שְׁלַמְצָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלַמְצָה",
+	"headwords": [
+		{
+			"text": "שְׁלַמְצָה"
+		},
 		{
 			"text": "שְׁלַמְצוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1587,
 		"column": "a"

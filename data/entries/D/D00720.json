@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00720",
-	"slug": "דיקלטיאנוס",
-	"headword": {
-		"text": "דִּיקְלִטְיָאנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיקְלִטְיָאנוֹס",
+	"headwords": [
+		{
+			"text": "דִּיקְלִטְיָאנוֹס"
+		},
 		{
 			"text": "דִּיקְלִיטְיָינוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "דּיקְלִיטְיָנוֹס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 305,
 		"column": "a"

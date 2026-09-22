@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00904",
-	"slug": "מחנה",
-	"headword": {
-		"text": "מַחֲנֶה"
-	},
+	"sefariaHeadword": "מַחֲנֶה",
+	"headwords": [
+		{
+			"text": "מַחֲנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

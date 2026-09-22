@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00842",
-	"slug": "קטרקון",
-	"headword": {
-		"text": "קטרקון"
-	},
+	"sefariaHeadword": "קטרקון",
+	"headwords": [
+		{
+			"text": "קטרקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1353,
 		"column": "b"

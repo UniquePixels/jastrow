@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00804",
-	"slug": "רמ״ח",
-	"headword": {
-		"text": "רמ״ח"
-	},
+	"sefariaHeadword": "רמ\"ח",
+	"headwords": [
+		{
+			"text": "רמ״ח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1482,
 		"column": "a"

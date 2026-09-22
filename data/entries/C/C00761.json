@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00761",
-	"slug": "גינזק",
-	"headword": {
-		"text": "גִּינְזֵק"
-	},
+	"sefariaHeadword": "גִּינְזֵק",
+	"headwords": [
+		{
+			"text": "גִּינְזֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

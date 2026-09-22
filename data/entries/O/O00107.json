@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00107",
-	"slug": "סגוד-1",
-	"headword": {
-		"text": "סִגוֹד"
-	},
+	"sefariaHeadword": "סִגוֹד",
+	"headwords": [
+		{
+			"text": "סִגוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

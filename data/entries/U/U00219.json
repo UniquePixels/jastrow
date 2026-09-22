@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00219",
-	"slug": "שגח-1",
-	"headword": {
-		"text": "שָׁגַח"
-	},
+	"sefariaHeadword": "שָׁגַח",
+	"headwords": [
+		{
+			"text": "שָׁגַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "b"

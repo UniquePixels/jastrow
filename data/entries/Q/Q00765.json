@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00765",
-	"slug": "פיסק",
-	"headword": {
-		"text": "פִּיסָּק"
-	},
+	"sefariaHeadword": "פִּיסָּק",
+	"headwords": [
+		{
+			"text": "פִּיסָּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

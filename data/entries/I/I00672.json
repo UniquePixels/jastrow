@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00672",
-	"slug": "טפסר",
-	"headword": {
-		"text": "טִפְסָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִפְסָר",
+	"headwords": [
 		{
-			"text": "טַ׳"
+			"text": "טִפְסָר"
+		},
+		{
+			"text": "טַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 548,
 		"column": "b"

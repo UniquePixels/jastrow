@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00842",
-	"slug": "רנא",
-	"headword": {
-		"text": "רְנָא"
-	},
+	"sefariaHeadword": "רְנָא",
+	"headwords": [
+		{
+			"text": "רְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "a"

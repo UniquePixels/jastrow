@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01807",
-	"slug": "פריכה",
-	"headword": {
-		"text": "פְּרִיכָה"
-	},
+	"sefariaHeadword": "פְּרִיכָה",
+	"headwords": [
+		{
+			"text": "פְּרִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "b"

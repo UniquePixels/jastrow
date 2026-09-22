@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02166",
-	"slug": "פתילא",
-	"headword": {
-		"text": "פְּתִילָא"
-	},
+	"sefariaHeadword": "פְּתִילָא",
+	"headwords": [
+		{
+			"text": "פְּתִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

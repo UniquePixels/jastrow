@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00371",
-	"slug": "דורמוס",
-	"headword": {
-		"text": "דוּרְמוֹס"
-	},
+	"sefariaHeadword": "דוּרְמוֹס",
+	"headwords": [
+		{
+			"text": "דוּרְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "a"

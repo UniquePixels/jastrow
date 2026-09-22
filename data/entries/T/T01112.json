@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01112",
-	"slug": "רששות",
-	"headword": {
-		"text": "רששות"
-	},
+	"sefariaHeadword": "רששות",
+	"headwords": [
+		{
+			"text": "רששות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

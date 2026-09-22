@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00327",
-	"slug": "כוסלא",
-	"headword": {
-		"text": "כּוּסְלָא"
-	},
+	"sefariaHeadword": "כּוּסְלָא",
+	"headwords": [
+		{
+			"text": "כּוּסְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

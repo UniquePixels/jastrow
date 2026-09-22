@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00880",
-	"slug": "עמיא",
-	"headword": {
-		"text": "עַמְיָא"
-	},
+	"sefariaHeadword": "עַמְיָא",
+	"headwords": [
+		{
+			"text": "עַמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

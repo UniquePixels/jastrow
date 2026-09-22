@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00302",
-	"slug": "יחס-2",
-	"headword": {
-		"text": "יְחַס"
-	},
+	"sefariaHeadword": "יְחַס",
+	"headwords": [
+		{
+			"text": "יְחַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "a"

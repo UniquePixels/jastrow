@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01009",
-	"slug": "גמולא",
-	"headword": {
-		"text": "גְּמוּלָא"
-	},
+	"sefariaHeadword": "גְּמוּלָא",
+	"headwords": [
+		{
+			"text": "גְּמוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

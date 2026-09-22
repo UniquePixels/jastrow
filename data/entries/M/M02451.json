@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02451",
-	"slug": "מקרא-2",
-	"headword": {
-		"text": "מְקֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקֹרָא",
+	"headwords": [
+		{
+			"text": "מְקֹרָא"
+		},
 		{
 			"text": "מְקוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 832,
 		"column": "b"

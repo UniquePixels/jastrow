@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00612",
-	"slug": "דילפינין",
-	"headword": {
-		"text": "דִּילְפִינִין"
-	},
+	"sefariaHeadword": "דִּילְפִינִין",
+	"headwords": [
+		{
+			"text": "דִּילְפִינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "a"

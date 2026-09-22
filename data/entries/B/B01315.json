@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01315",
-	"slug": "ברק-3",
-	"headword": {
-		"text": "בָּרָק"
-	},
+	"sefariaHeadword": "בָּרָק",
+	"headwords": [
+		{
+			"text": "בָּרָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "b"

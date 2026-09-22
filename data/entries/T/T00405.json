@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00405",
-	"slug": "רוניא",
-	"headword": {
-		"text": "רוֹנְיָא"
-	},
+	"sefariaHeadword": "רוֹנְיָא",
+	"headwords": [
+		{
+			"text": "רוֹנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

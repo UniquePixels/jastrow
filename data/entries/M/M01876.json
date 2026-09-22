@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01876",
-	"slug": "מסוסטולא",
-	"headword": {
-		"text": "מְסוֹסְטוּלָא"
-	},
+	"sefariaHeadword": "מְסוֹסְטוּלָא",
+	"headwords": [
+		{
+			"text": "מְסוֹסְטוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "b"

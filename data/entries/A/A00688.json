@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00688",
-	"slug": "אומאה",
-	"headword": {
-		"text": "אוֹמָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹמָאָה",
+	"headwords": [
+		{
+			"text": "אוֹמָאָה"
+		},
 		{
 			"text": "אוֹמָתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "הוֹמָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 26,
 		"column": "b"

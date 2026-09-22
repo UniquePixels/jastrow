@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01083",
-	"slug": "כרביתא",
-	"headword": {
-		"text": "כַּרְבִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּרְבִיתָא",
+	"headwords": [
+		{
+			"text": "כַּרְבִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

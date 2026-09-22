@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01195",
-	"slug": "מילת-1",
-	"headword": {
-		"text": "מִילַּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִילַּת",
+	"headwords": [
+		{
+			"text": "מִילַּת"
+		},
 		{
 			"text": "מִלַּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 775,
 		"column": "a"

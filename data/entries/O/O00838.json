@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00838",
-	"slug": "סירוות",
-	"headword": {
-		"text": "סִירְוַות"
-	},
+	"sefariaHeadword": "סִירְוַות",
+	"headwords": [
+		{
+			"text": "סִירְוַות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 987,
 		"column": "b"

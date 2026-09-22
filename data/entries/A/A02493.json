@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02493",
-	"slug": "אספירכא",
-	"headword": {
-		"text": "אספירכא"
-	},
+	"sefariaHeadword": "אספירכא",
+	"headwords": [
+		{
+			"text": "אספירכא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

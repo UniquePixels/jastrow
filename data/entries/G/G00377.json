@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00377",
-	"slug": "זין-3",
-	"headword": {
-		"text": "זַיִן"
-	},
+	"sefariaHeadword": "זַיִן",
+	"headwords": [
+		{
+			"text": "זַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

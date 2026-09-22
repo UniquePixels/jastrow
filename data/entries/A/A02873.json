@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02873",
-	"slug": "אצטרכיא",
-	"headword": {
-		"text": "אִצְטַרְכַיָּא"
-	},
+	"sefariaHeadword": "אִצְטַרְכַיָּא",
+	"headwords": [
+		{
+			"text": "אִצְטַרְכַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "a"

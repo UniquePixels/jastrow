@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00890",
-	"slug": "קיטא-1",
-	"headword": {
-		"text": "קַיְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיְטָא",
+	"headwords": [
 		{
-			"text": "קַיְי׳"
+			"text": "קַיְטָא"
+		},
+		{
+			"text": "קַיְי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1357,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01939",
-	"slug": "אלפבטרין",
-	"headword": {
-		"text": "אַלְפַבֵּטָרִין"
-	},
+	"sefariaHeadword": "אַלְפַבֵּטָרִין",
+	"headwords": [
+		{
+			"text": "אַלְפַבֵּטָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "a"

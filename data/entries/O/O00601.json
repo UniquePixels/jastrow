@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00601",
-	"slug": "סיחוי",
-	"headword": {
-		"text": "סַיחוּי"
-	},
+	"sefariaHeadword": "סַיחוּי",
+	"headwords": [
+		{
+			"text": "סַיחוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00186",
-	"slug": "זומאליסטרון",
-	"headword": {
-		"text": "זוֹמָאלִיסְטְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹמָאלִיסְטְרוֹן",
+	"headwords": [
+		{
+			"text": "זוֹמָאלִיסְטְרוֹן"
+		},
 		{
 			"text": "זוֹמִילִיסְטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 387,
 		"column": "a"

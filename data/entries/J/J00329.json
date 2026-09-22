@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00329",
-	"slug": "ייטור",
-	"headword": {
-		"text": "יְיטוּר"
-	},
+	"sefariaHeadword": "יְיטוּר",
+	"headwords": [
+		{
+			"text": "יְיטוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

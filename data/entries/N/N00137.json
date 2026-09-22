@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00137",
-	"slug": "נגודא-3",
-	"headword": {
-		"text": "נְגוּדָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגוּדָא I",
+	"headwords": [
+		{
+			"text": "נְגוּדָא",
+			"homograph": 1
+		},
 		{
 			"text": "נְגוֹדָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 873,
 		"column": "a"

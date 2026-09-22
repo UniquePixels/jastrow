@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01532",
-	"slug": "קנדקי",
-	"headword": {
-		"text": "קנדקי"
-	},
+	"sefariaHeadword": "קנדקי",
+	"headwords": [
+		{
+			"text": "קנדקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

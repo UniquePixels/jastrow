@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01489",
-	"slug": "איספרגוס",
-	"headword": {
-		"text": "אִיסְפַּרְגּוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְפַּרְגּוֹס",
+	"headwords": [
 		{
-			"text": "אִסְפַּ׳"
+			"text": "אִיסְפַּרְגּוֹס"
+		},
+		{
+			"text": "אִסְפַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 56,
 		"column": "b"

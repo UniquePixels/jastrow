@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01230",
-	"slug": "נקמתא",
-	"headword": {
-		"text": "נִקְמְתָא"
-	},
+	"sefariaHeadword": "נִקְמְתָא",
+	"headwords": [
+		{
+			"text": "נִקְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 934,
 		"column": "a"

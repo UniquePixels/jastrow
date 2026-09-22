@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00540",
-	"slug": "סיבטא",
-	"headword": {
-		"text": "סיבטא"
-	},
+	"sefariaHeadword": "סיבטא",
+	"headwords": [
+		{
+			"text": "סיבטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "a"

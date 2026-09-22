@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00474",
-	"slug": "רחב-2",
-	"headword": {
-		"text": "רָחַב"
-	},
+	"sefariaHeadword": "רָחַב",
+	"headwords": [
+		{
+			"text": "רָחַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "a"

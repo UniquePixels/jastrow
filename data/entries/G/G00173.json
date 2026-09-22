@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00173",
-	"slug": "זול-1",
-	"headword": {
-		"text": "זוּל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זוּל I",
+	"headwords": [
+		{
+			"text": "זוּל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 386,
 		"column": "b"

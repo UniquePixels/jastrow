@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00970",
-	"slug": "אזינא",
-	"headword": {
-		"text": "אֲזֵינָא"
-	},
+	"sefariaHeadword": "אֲזֵינָא",
+	"headwords": [
+		{
+			"text": "אֲזֵינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "b"

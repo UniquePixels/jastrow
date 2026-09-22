@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00307",
-	"slug": "דופורון",
-	"headword": {
-		"text": "דופורון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דופורון",
+	"headwords": [
+		{
+			"text": "דופורון"
+		},
 		{
 			"text": "דופורין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 287,
 		"column": "a"

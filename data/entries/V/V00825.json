@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00825",
-	"slug": "תפל-1",
-	"headword": {
-		"text": "תָּפַל"
-	},
+	"sefariaHeadword": "תָּפַל",
+	"headwords": [
+		{
+			"text": "תָּפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "b"

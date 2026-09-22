@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01111",
-	"slug": "פלפול",
-	"headword": {
-		"text": "פִּלְפּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלְפּוּל",
+	"headwords": [
 		{
-			"text": "פִּילְ׳"
+			"text": "פִּלְפּוּל"
+		},
+		{
+			"text": "פִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

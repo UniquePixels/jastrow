@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00539",
-	"slug": "נחתם",
-	"headword": {
-		"text": "נַחְתֹּם"
-	},
+	"sefariaHeadword": "נַחְתֹּם",
+	"headwords": [
+		{
+			"text": "נַחְתֹּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

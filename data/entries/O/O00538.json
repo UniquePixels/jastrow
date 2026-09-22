@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00538",
-	"slug": "סיבות",
-	"headword": {
-		"text": "סֵיבוּת"
-	},
+	"sefariaHeadword": "סֵיבוּת",
+	"headwords": [
+		{
+			"text": "סֵיבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 974,
 		"column": "b"

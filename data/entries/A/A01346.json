@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01346",
-	"slug": "איממריי",
-	"headword": {
-		"text": "איממריי"
-	},
+	"sefariaHeadword": "איממריי",
+	"headwords": [
+		{
+			"text": "איממריי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

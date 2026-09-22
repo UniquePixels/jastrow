@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "E00442",
-	"slug": "הין-2",
-	"headword": {
-		"text": "הִין",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*הִין I",
+	"headwords": [
+		{
+			"text": "הִין",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 347,
 		"column": "b"

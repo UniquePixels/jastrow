@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00973",
-	"slug": "בסבסטי",
-	"headword": {
-		"text": "בסבסטי"
-	},
+	"sefariaHeadword": "בסבסטי",
+	"headwords": [
+		{
+			"text": "בסבסטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00877",
-	"slug": "עמוראה",
-	"headword": {
-		"text": "עֲמוֹרָאָה"
-	},
+	"sefariaHeadword": "עֲמוֹרָאָה",
+	"headwords": [
+		{
+			"text": "עֲמוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

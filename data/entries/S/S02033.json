@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02033",
-	"slug": "קריב-2",
-	"headword": {
-		"text": "קָרֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָרֵיב",
+	"headwords": [
+		{
+			"text": "קָרֵיב"
+		},
 		{
 			"text": "קָרֵב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1419,
 		"column": "b"

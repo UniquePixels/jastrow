@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01105",
-	"slug": "עצוותא",
-	"headword": {
-		"text": "עַצְוָותָא"
-	},
+	"sefariaHeadword": "עַצְוָותָא",
+	"headwords": [
+		{
+			"text": "עַצְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

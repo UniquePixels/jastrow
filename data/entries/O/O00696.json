@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00696",
-	"slug": "סימונאי",
-	"headword": {
-		"text": "סִימוֹנַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימוֹנַאי",
+	"headwords": [
+		{
+			"text": "סִימוֹנַאי"
+		},
 		{
 			"text": "סִימוֹנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "a"

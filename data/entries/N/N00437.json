@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00437",
-	"slug": "נזיוה",
-	"headword": {
-		"text": "נזיוה"
-	},
+	"sefariaHeadword": "נזיוה",
+	"headwords": [
+		{
+			"text": "נזיוה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

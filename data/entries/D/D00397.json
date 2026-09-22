@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00397",
-	"slug": "דחה-1",
-	"headword": {
-		"text": "דָּחָה"
-	},
+	"sefariaHeadword": "דָּחָה",
+	"headwords": [
+		{
+			"text": "דָּחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 291,
 		"column": "a"

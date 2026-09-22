@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02063",
-	"slug": "פשט-1",
-	"headword": {
-		"text": "פָּשַׁט"
-	},
+	"sefariaHeadword": "פָּשַׁט",
+	"headwords": [
+		{
+			"text": "פָּשַׁט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1245,
 		"column": "b"

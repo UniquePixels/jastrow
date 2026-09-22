@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00549",
-	"slug": "גזילה",
-	"headword": {
-		"text": "גְּזֵילָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזֵילָה",
+	"headwords": [
+		{
+			"text": "גְּזֵילָה"
+		},
 		{
 			"text": "גְּזֵלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 230,
 		"column": "a"

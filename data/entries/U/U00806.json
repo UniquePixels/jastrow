@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00806",
-	"slug": "שיבלת",
-	"headword": {
-		"text": "שִׁיבֹּלֶת"
-	},
+	"sefariaHeadword": "שִׁיבֹּלֶת",
+	"headwords": [
+		{
+			"text": "שִׁיבֹּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

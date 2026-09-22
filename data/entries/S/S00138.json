@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00138",
-	"slug": "קדים-2",
-	"headword": {
-		"text": "קְדִים"
-	},
+	"sefariaHeadword": "קְדִים",
+	"headwords": [
+		{
+			"text": "קְדִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

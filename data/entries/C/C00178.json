@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00178",
-	"slug": "גדודקי",
-	"headword": {
-		"text": "גדודקי"
-	},
+	"sefariaHeadword": "גדודקי",
+	"headwords": [
+		{
+			"text": "גדודקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "b"

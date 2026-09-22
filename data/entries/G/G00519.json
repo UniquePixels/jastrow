@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00519",
-	"slug": "זמינא-1",
-	"headword": {
-		"text": "זְמִינָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זְמִינָא I",
+	"headwords": [
+		{
+			"text": "זְמִינָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 402,
 		"column": "b"

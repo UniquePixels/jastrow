@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00564",
-	"slug": "מופלא",
-	"headword": {
-		"text": "מוּפְלָא"
-	},
+	"sefariaHeadword": "מוּפְלָא",
+	"headwords": [
+		{
+			"text": "מוּפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "a"

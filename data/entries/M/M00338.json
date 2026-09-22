@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00338",
-	"slug": "מדרשא",
-	"headword": {
-		"text": "מִדְרָשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִדְרָשָׁא",
+	"headwords": [
 		{
-			"text": "מֶדְ׳"
+			"text": "מִדְרָשָׁא"
+		},
+		{
+			"text": "מֶדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 736,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00925",
-	"slug": "גלטינון",
-	"headword": {
-		"text": "גלטינון"
-	},
+	"sefariaHeadword": "גלטינון",
+	"headwords": [
+		{
+			"text": "גלטינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00794",
-	"slug": "אוספלידא",
-	"headword": {
-		"text": "אוּסְפְּלִידָא"
-	},
+	"sefariaHeadword": "אוּסְפְּלִידָא",
+	"headwords": [
+		{
+			"text": "אוּסְפְּלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

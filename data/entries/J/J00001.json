@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00001",
-	"slug": "י׳",
-	"headword": {
-		"text": "י׳"
-	},
+	"sefariaHeadword": "י׳",
+	"headwords": [
+		{
+			"text": "י׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "a"

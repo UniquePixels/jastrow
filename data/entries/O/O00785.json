@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00785",
-	"slug": "סיפווניות",
-	"headword": {
-		"text": "סִיפְוָונִיּוֹת"
-	},
+	"sefariaHeadword": "סִיפְוָונִיּוֹת",
+	"headwords": [
+		{
+			"text": "סִיפְוָונִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "a"

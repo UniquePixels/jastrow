@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01747",
-	"slug": "אכפה",
-	"headword": {
-		"text": "אִכְפָּה"
-	},
+	"sefariaHeadword": "אִכְפָּה",
+	"headwords": [
+		{
+			"text": "אִכְפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00058",
-	"slug": "עבץ-2",
-	"headword": {
-		"text": "עֲבַץ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבַץ II",
+	"headwords": [
+		{
+			"text": "עֲבַץ",
+			"homograph": 2
+		},
 		{
 			"text": "עֲבָצָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1038,
 		"column": "a"

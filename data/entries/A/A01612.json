@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01612",
-	"slug": "אירס",
-	"headword": {
-		"text": "אֶירֶס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶירֶס",
+	"headwords": [
+		{
+			"text": "אֶירֶס"
+		},
 		{
 			"text": "אֵירְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 60,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01505",
-	"slug": "סקררין",
-	"headword": {
-		"text": "סַקְרָרִין"
-	},
+	"sefariaHeadword": "סַקְרָרִין",
+	"headwords": [
+		{
+			"text": "סַקְרָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "b"

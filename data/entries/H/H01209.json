@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01209",
-	"slug": "חמע-1",
-	"headword": {
-		"text": "חָמֵעַ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חָמֵעַ",
+	"headwords": [
+		{
+			"text": "חָמֵעַ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 478,
 		"column": "b"

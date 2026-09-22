@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00600",
-	"slug": "שזיר",
-	"headword": {
-		"text": "שְׁזִיר"
-	},
+	"sefariaHeadword": "שְׁזִיר",
+	"headwords": [
+		{
+			"text": "שְׁזִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

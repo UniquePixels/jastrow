@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00299",
-	"slug": "לועא",
-	"headword": {
-		"text": "לוֹעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוֹעָא",
+	"headwords": [
 		{
-			"text": "לוּ׳"
+			"text": "לוֹעָא"
+		},
+		{
+			"text": "לוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 700,
 		"column": "a"

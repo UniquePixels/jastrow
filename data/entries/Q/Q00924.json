@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00924",
-	"slug": "פכר-2",
-	"headword": {
-		"text": "פְּכַר"
-	},
+	"sefariaHeadword": "פְּכַר",
+	"headwords": [
+		{
+			"text": "פְּכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "b"

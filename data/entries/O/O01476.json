@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01476",
-	"slug": "סקיף",
-	"headword": {
-		"text": "סְקִיף"
-	},
+	"sefariaHeadword": "סְקִיף",
+	"headwords": [
+		{
+			"text": "סְקִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

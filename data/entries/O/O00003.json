@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00003",
-	"slug": "סאב-1",
-	"headword": {
-		"text": "סָאַב"
-	},
+	"sefariaHeadword": "סָאַב",
+	"headwords": [
+		{
+			"text": "סָאַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02765",
-	"slug": "מרקוע-1",
-	"headword": {
-		"text": "מַרְקוֹעַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַרְקוֹעַ I",
+	"headwords": [
+		{
+			"text": "מַרְקוֹעַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 847,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00660",
-	"slug": "לצות",
-	"headword": {
-		"text": "לָצוּת"
-	},
+	"sefariaHeadword": "לָצוּת",
+	"headwords": [
+		{
+			"text": "לָצוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "b"

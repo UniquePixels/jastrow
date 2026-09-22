@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01905",
-	"slug": "פרנק-1",
-	"headword": {
-		"text": "פִּרְנֵק"
-	},
+	"sefariaHeadword": "פִּרְנֵק",
+	"headwords": [
+		{
+			"text": "פִּרְנֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1232,
 		"column": "a"

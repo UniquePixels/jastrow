@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01355",
-	"slug": "חסום",
-	"headword": {
-		"text": "חֲסוֹם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲסוֹם",
+	"headwords": [
+		{
+			"text": "חֲסוֹם"
+		},
 		{
 			"text": "חוֹסָם"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 486,
 		"column": "b"

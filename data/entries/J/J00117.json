@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00117",
-	"slug": "יהדות",
-	"headword": {
-		"text": "יַהֲדוּת"
-	},
+	"sefariaHeadword": "יַהֲדוּת",
+	"headwords": [
+		{
+			"text": "יַהֲדוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "a"

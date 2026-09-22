@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02458",
-	"slug": "אסכרא",
-	"headword": {
-		"text": "אַסְכְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסְכְּרָא",
+	"headwords": [
+		{
+			"text": "אַסְכְּרָא"
+		},
 		{
 			"text": "אַסְכָּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 94,
 		"column": "b"

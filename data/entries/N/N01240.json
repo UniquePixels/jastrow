@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01240",
-	"slug": "נקצא",
-	"headword": {
-		"text": "נִקְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקְצָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִקְצָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 935,
 		"column": "a"

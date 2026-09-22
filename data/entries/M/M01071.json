@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01071",
-	"slug": "מטרתא",
-	"headword": {
-		"text": "מַטַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַטַּרְתָּא",
+	"headwords": [
 		{
-			"text": "מְטַ׳"
+			"text": "מַטַּרְתָּא"
+		},
+		{
+			"text": "מְטַ׳",
+			"partial": true
 		},
 		{
 			"text": "מַטָּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 770,
 		"column": "a"

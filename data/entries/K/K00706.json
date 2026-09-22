@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00706",
-	"slug": "כלוניא",
-	"headword": {
-		"text": "כלוניא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כלוניא",
+	"headwords": [
+		{
+			"text": "כלוניא"
+		},
 		{
 			"text": "כלונייס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 640,
 		"column": "b"

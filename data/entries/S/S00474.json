@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00474",
-	"slug": "קוסי-2",
-	"headword": {
-		"text": "קוסי"
-	},
+	"sefariaHeadword": "קוסי",
+	"headwords": [
+		{
+			"text": "קוסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "b"

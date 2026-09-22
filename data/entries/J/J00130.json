@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00130",
-	"slug": "יהוידע",
-	"headword": {
-		"text": "יְהוֹיָדָע"
-	},
+	"sefariaHeadword": "יְהוֹיָדָע",
+	"headwords": [
+		{
+			"text": "יְהוֹיָדָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "b"

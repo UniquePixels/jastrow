@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01561",
-	"slug": "קנטר-3",
-	"headword": {
-		"text": "קַנְטָר"
-	},
+	"sefariaHeadword": "קַנְטָר",
+	"headwords": [
+		{
+			"text": "קַנְטָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1390,
 		"column": "a"

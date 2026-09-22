@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01311",
-	"slug": "מישור",
-	"headword": {
-		"text": "מִישׁוֹר"
-	},
+	"sefariaHeadword": "מִישׁוֹר",
+	"headwords": [
+		{
+			"text": "מִישׁוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "b"

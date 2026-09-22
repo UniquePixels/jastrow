@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01479",
-	"slug": "חפש-2",
-	"headword": {
-		"text": "חֲפַשׂ"
-	},
+	"sefariaHeadword": "חֲפַשׂ",
+	"headwords": [
+		{
+			"text": "חֲפַשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 493,
 		"column": "a"

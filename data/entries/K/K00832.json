@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00832",
-	"slug": "כנדא-1",
-	"headword": {
-		"text": "כַּנְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כַּנְדָּא I",
+	"headwords": [
+		{
+			"text": "כַּנְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 648,
 		"column": "a"

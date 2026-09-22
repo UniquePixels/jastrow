@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00794",
-	"slug": "קטן-1",
-	"headword": {
-		"text": "קטן"
-	},
+	"sefariaHeadword": "קטן",
+	"headwords": [
+		{
+			"text": "קטן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1350,
 		"column": "a"

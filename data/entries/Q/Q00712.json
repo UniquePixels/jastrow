@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00712",
-	"slug": "פילקי",
-	"headword": {
-		"text": "פִּילָקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילָקִי",
+	"headwords": [
 		{
-			"text": "פִּלָ׳"
+			"text": "פִּילָקִי"
+		},
+		{
+			"text": "פִּלָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

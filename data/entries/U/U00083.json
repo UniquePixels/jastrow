@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00083",
-	"slug": "שבועתא",
-	"headword": {
-		"text": "שְׁבוּעַתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבוּעַתָּא",
+	"headwords": [
+		{
+			"text": "שְׁבוּעַתָּא"
+		},
 		{
 			"text": "שְׁבוּעָתָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "שְׁבוּעֲתָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1511,
 		"column": "a"

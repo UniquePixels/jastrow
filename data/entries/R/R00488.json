@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00488",
-	"slug": "צלו",
-	"headword": {
-		"text": "צְלוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְלוֹ",
+	"headwords": [
+		{
+			"text": "צְלוֹ"
+		},
 		{
 			"text": "צְלוֹתָא"
 		},
 		{
-			"text": "צְלוּ׳"
+			"text": "צְלוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1282,
 		"column": "b"

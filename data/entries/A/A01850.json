@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01850",
-	"slug": "אליחרוק",
-	"headword": {
-		"text": "אַלִּיחְרוֹק"
-	},
+	"sefariaHeadword": "אַלִּיחְרוֹק",
+	"headwords": [
+		{
+			"text": "אַלִּיחְרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00211",
-	"slug": "יונתא",
-	"headword": {
-		"text": "יוֹנְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹנְתָא",
+	"headwords": [
+		{
+			"text": "יוֹנְתָא"
+		},
 		{
 			"text": "יוֹנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "יוֹנָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 570,
 		"column": "a"

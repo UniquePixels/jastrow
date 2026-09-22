@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00560",
-	"slug": "זנאי",
-	"headword": {
-		"text": "זַנַּאי"
-	},
+	"sefariaHeadword": "זַנַּאי",
+	"headwords": [
+		{
+			"text": "זַנַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 405,
 		"column": "b"

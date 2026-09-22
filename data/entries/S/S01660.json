@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01660",
-	"slug": "קסיטרא",
-	"headword": {
-		"text": "קַסִּיטְרָא"
-	},
+	"sefariaHeadword": "קַסִּיטְרָא",
+	"headwords": [
+		{
+			"text": "קַסִּיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01307",
-	"slug": "קלט-1",
-	"headword": {
-		"text": "קָלַט"
-	},
+	"sefariaHeadword": "קָלַט",
+	"headwords": [
+		{
+			"text": "קָלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1374,
 		"column": "a"

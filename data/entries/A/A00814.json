@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00814",
-	"slug": "אופנא-2",
-	"headword": {
-		"text": "אוֹפְנָא"
-	},
+	"sefariaHeadword": "אוֹפְנָא",
+	"headwords": [
+		{
+			"text": "אוֹפְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

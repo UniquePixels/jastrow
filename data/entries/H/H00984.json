@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00984",
-	"slug": "חלדואות",
-	"headword": {
-		"text": "חלדואות"
-	},
+	"sefariaHeadword": "חלדואות",
+	"headwords": [
+		{
+			"text": "חלדואות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

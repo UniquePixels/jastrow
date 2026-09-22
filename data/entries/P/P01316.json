@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01316",
-	"slug": "ערוג",
-	"headword": {
-		"text": "עָרוּג"
-	},
+	"sefariaHeadword": "עָרוּג",
+	"headwords": [
+		{
+			"text": "עָרוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "b"

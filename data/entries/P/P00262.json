@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00262",
-	"slug": "עוללא",
-	"headword": {
-		"text": "עוֹלְלָא"
-	},
+	"sefariaHeadword": "עוֹלְלָא",
+	"headwords": [
+		{
+			"text": "עוֹלְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1051,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00002",
-	"slug": "סאא",
-	"headword": {
-		"text": "סְאָא"
-	},
+	"sefariaHeadword": "סְאָא",
+	"headwords": [
+		{
+			"text": "סְאָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "a"

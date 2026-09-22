@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00100",
-	"slug": "וותא",
-	"headword": {
-		"text": "וָוְתָא"
-	},
+	"sefariaHeadword": "וָוְתָא",
+	"headwords": [
+		{
+			"text": "וָוְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

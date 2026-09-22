@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00079",
-	"slug": "גביה",
-	"headword": {
-		"text": "גְּבִיהַּ"
-	},
+	"sefariaHeadword": "גְּבִיהַּ",
+	"headwords": [
+		{
+			"text": "גְּבִיהַּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "a"

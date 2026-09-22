@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01804",
-	"slug": "שפרנונא",
-	"headword": {
-		"text": "שְׁפַרְנוּנָא"
-	},
+	"sefariaHeadword": "שְׁפַרְנוּנָא",
+	"headwords": [
+		{
+			"text": "שְׁפַרְנוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"

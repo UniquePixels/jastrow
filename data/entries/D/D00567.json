@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00567",
-	"slug": "דייקא",
-	"headword": {
-		"text": "דַּיְיקָא"
-	},
+	"sefariaHeadword": "דַּיְיקָא",
+	"headwords": [
+		{
+			"text": "דַּיְיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01944",
-	"slug": "שרון",
-	"headword": {
-		"text": "שָׁרוֹן"
-	},
+	"sefariaHeadword": "שָׁרוֹן",
+	"headwords": [
+		{
+			"text": "שָׁרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

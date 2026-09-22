@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00775",
-	"slug": "מזמריא",
-	"headword": {
-		"text": "מְזַמְּרַיָּא"
-	},
+	"sefariaHeadword": "מְזַמְּרַיָּא",
+	"headwords": [
+		{
+			"text": "מְזַמְּרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00281",
-	"slug": "שדפון",
-	"headword": {
-		"text": "שִׁדָּפוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁדָּפוֹן",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁדָּפוֹן"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1525,
 		"column": "b"

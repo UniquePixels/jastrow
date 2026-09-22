@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00779",
-	"slug": "תעי-2",
-	"headword": {
-		"text": "תְּעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּעֵי",
+	"headwords": [
+		{
+			"text": "תְּעֵי"
+		},
 		{
 			"text": "תְּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1683,
 		"column": "b"

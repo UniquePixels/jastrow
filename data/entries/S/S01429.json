@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01429",
-	"slug": "קלת-2",
-	"headword": {
-		"text": "קֶלֶת"
-	},
+	"sefariaHeadword": "קֶלֶת",
+	"headwords": [
+		{
+			"text": "קֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "a"

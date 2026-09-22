@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00062",
-	"slug": "חביים",
-	"headword": {
-		"text": "חביים"
-	},
+	"sefariaHeadword": "חביים",
+	"headwords": [
+		{
+			"text": "חביים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

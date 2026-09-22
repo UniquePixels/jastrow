@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01662",
-	"slug": "סרק-1",
-	"headword": {
-		"text": "סָרַק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סָרַק I",
+	"headwords": [
+		{
+			"text": "סָרַק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1029,
 		"column": "b"

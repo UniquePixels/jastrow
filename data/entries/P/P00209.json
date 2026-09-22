@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00209",
-	"slug": "עוולא",
-	"headword": {
-		"text": "עַוְולָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַוְולָא",
+	"headwords": [
+		{
+			"text": "עַוְולָא"
+		},
 		{
 			"text": "עַוָּולָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "עַוְולְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1048,
 		"column": "b"

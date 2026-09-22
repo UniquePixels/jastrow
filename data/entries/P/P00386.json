@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00386",
-	"slug": "עז-2",
-	"headword": {
-		"text": "עֹז"
-	},
+	"sefariaHeadword": "עֹז",
+	"headwords": [
+		{
+			"text": "עֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "b"

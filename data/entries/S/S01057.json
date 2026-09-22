@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01057",
-	"slug": "קיסווא",
-	"headword": {
-		"text": "קִיסְוָוא"
-	},
+	"sefariaHeadword": "קִיסְוָוא",
+	"headwords": [
+		{
+			"text": "קִיסְוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01537",
-	"slug": "איפולין",
-	"headword": {
-		"text": "אִיפוֹלִין"
-	},
+	"sefariaHeadword": "אִיפוֹלִין",
+	"headwords": [
+		{
+			"text": "אִיפוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

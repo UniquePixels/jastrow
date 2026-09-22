@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01612",
-	"slug": "קנקלטון",
-	"headword": {
-		"text": "קנקלטון"
-	},
+	"sefariaHeadword": "קנקלטון",
+	"headwords": [
+		{
+			"text": "קנקלטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1394,
 		"column": "b"

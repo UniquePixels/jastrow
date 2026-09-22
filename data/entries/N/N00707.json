@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00707",
-	"slug": "ניסיותא",
-	"headword": {
-		"text": "ניסיותא"
-	},
+	"sefariaHeadword": "ניסיותא",
+	"headwords": [
+		{
+			"text": "ניסיותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

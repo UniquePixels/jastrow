@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00261",
-	"slug": "לויתא",
-	"headword": {
-		"text": "לִוְיָתָא"
-	},
+	"sefariaHeadword": "לִוְיָתָא",
+	"headwords": [
+		{
+			"text": "לִוְיָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00957",
-	"slug": "סלדיה",
-	"headword": {
-		"text": "סלדיה"
-	},
+	"sefariaHeadword": "סלדיה",
+	"headwords": [
+		{
+			"text": "סלדיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

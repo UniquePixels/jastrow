@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01108",
-	"slug": "עצומה",
-	"headword": {
-		"text": "עֲצוּמָה"
-	},
+	"sefariaHeadword": "עֲצוּמָה",
+	"headwords": [
+		{
+			"text": "עֲצוּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

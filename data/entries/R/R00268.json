@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00268",
-	"slug": "צחוונא",
-	"headword": {
-		"text": "צַחֲוָונָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַחֲוָונָא",
+	"headwords": [
+		{
+			"text": "צַחֲוָונָא"
+		},
 		{
 			"text": "צַחֲוָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1272,
 		"column": "b"

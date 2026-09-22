@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01202",
-	"slug": "קירקנות",
-	"headword": {
-		"text": "קִירְקָנוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְקָנוֹת",
+	"headwords": [
 		{
-			"text": "קוּרְ׳"
+			"text": "קִירְקָנוֹת"
+		},
+		{
+			"text": "קוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00357",
-	"slug": "תחותי",
-	"headword": {
-		"text": "תְּחוֹתֵי"
-	},
+	"sefariaHeadword": "תְּחוֹתֵי",
+	"headwords": [
+		{
+			"text": "תְּחוֹתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

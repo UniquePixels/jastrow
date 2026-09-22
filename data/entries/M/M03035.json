@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03035",
-	"slug": "מתורגמן-1",
-	"headword": {
-		"text": "מְתוּרְגְּמָן"
-	},
+	"sefariaHeadword": "מְתוּרְגְּמָן",
+	"headwords": [
+		{
+			"text": "מְתוּרְגְּמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "b"

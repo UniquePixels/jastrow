@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01034",
-	"slug": "קינטור-1",
-	"headword": {
-		"text": "קִינְטוֹר"
-	},
+	"sefariaHeadword": "קִינְטוֹר",
+	"headwords": [
+		{
+			"text": "קִינְטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

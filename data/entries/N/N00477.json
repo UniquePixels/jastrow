@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00477",
-	"slug": "נחוניא",
-	"headword": {
-		"text": "נְחוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחוּנְיָא",
+	"headwords": [
+		{
+			"text": "נְחוּנְיָא"
+		},
 		{
 			"text": "נְחוּנְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 893,
 		"column": "b"

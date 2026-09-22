@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01017",
-	"slug": "גמזית",
-	"headword": {
-		"text": "גַּמָּזִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּמָּזִית",
+	"headwords": [
+		{
+			"text": "גַּמָּזִית"
+		},
 		{
 			"text": "גַּמָּזִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 252,
 		"column": "b"

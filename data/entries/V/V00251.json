@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00251",
-	"slug": "תועבתא",
-	"headword": {
-		"text": "תּוֹעֵבְתָּא"
-	},
+	"sefariaHeadword": "תּוֹעֵבְתָּא",
+	"headwords": [
+		{
+			"text": "תּוֹעֵבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "a"

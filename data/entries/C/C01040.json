@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01040",
-	"slug": "גמל-4",
-	"headword": {
-		"text": "גַּמָּל"
-	},
+	"sefariaHeadword": "גַּמָּל",
+	"headwords": [
+		{
+			"text": "גַּמָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "b"

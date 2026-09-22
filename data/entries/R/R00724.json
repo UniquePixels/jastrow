@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00724",
-	"slug": "צקלג",
-	"headword": {
-		"text": "צִקְלָג"
-	},
+	"sefariaHeadword": "צִקְלָג",
+	"headwords": [
+		{
+			"text": "צִקְלָג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

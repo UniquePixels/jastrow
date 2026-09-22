@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00665",
-	"slug": "אולוכרוסון",
-	"headword": {
-		"text": "אוֹלוֹכְרוּסוֹן"
-	},
+	"sefariaHeadword": "אוֹלוֹכְרוּסוֹן",
+	"headwords": [
+		{
+			"text": "אוֹלוֹכְרוּסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

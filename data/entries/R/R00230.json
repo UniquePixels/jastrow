@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00230",
-	"slug": "צוצל",
-	"headword": {
-		"text": "צוֹצָל"
-	},
+	"sefariaHeadword": "צוֹצָל",
+	"headwords": [
+		{
+			"text": "צוֹצָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

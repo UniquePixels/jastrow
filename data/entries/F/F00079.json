@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00079",
-	"slug": "וועצא",
-	"headword": {
-		"text": "וועצא"
-	},
+	"sefariaHeadword": "וועצא",
+	"headwords": [
+		{
+			"text": "וועצא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

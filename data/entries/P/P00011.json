@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00011",
-	"slug": "עבב",
-	"headword": {
-		"text": "עָבַב"
-	},
+	"sefariaHeadword": "עָבַב",
+	"headwords": [
+		{
+			"text": "עָבַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "a"

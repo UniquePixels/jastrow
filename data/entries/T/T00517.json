@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00517",
-	"slug": "רחם-2",
-	"headword": {
-		"text": "רְחֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחֵם",
+	"headwords": [
+		{
+			"text": "רְחֵם"
+		},
 		{
 			"text": "רְחֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1467,
 		"column": "a"

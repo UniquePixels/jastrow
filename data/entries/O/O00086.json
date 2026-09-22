@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00086",
-	"slug": "סבר-3",
-	"headword": {
-		"text": "סְבַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְבַר II",
+	"headwords": [
+		{
+			"text": "סְבַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 952,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02465",
-	"slug": "מקרקע",
-	"headword": {
-		"text": "מְקַרְקַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקַרְקַע",
+	"headwords": [
+		{
+			"text": "מְקַרְקַע"
+		},
 		{
 			"text": "מְקַרְקְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 833,
 		"column": "b"

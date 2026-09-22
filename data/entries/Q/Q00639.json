@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00639",
-	"slug": "פיטרוסילינון",
-	"headword": {
-		"text": "פִּיטְרוֹסִילִינוֹן"
-	},
+	"sefariaHeadword": "פִּיטְרוֹסִילִינוֹן",
+	"headwords": [
+		{
+			"text": "פִּיטְרוֹסִילִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

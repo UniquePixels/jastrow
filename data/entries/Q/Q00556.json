@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00556",
-	"slug": "פטרוכא",
-	"headword": {
-		"text": "פַּטְרוֹכָא"
-	},
+	"sefariaHeadword": "פַּטְרוֹכָא",
+	"headwords": [
+		{
+			"text": "פַּטְרוֹכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

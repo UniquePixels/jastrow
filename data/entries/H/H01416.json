@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01416",
-	"slug": "חסרונא",
-	"headword": {
-		"text": "חֶסְרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶסְרוֹנָא",
+	"headwords": [
+		{
+			"text": "חֶסְרוֹנָא"
+		},
 		{
 			"text": "חֶסְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 490,
 		"column": "a"

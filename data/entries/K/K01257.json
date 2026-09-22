@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01257",
-	"slug": "כרע-1",
-	"headword": {
-		"text": "כָּרַע"
-	},
+	"sefariaHeadword": "כָּרַע",
+	"headwords": [
+		{
+			"text": "כָּרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

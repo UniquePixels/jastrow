@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00412",
-	"slug": "תיבותא-2",
-	"headword": {
-		"text": "תִּיבוּתָא"
-	},
+	"sefariaHeadword": "תִּיבוּתָא",
+	"headwords": [
+		{
+			"text": "תִּיבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

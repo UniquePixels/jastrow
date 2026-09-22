@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01481",
-	"slug": "סקיפס",
-	"headword": {
-		"text": "סְקִיפַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְקִיפַס",
+	"headwords": [
 		{
-			"text": "שְׁקִי׳"
+			"text": "סְקִיפַס"
+		},
+		{
+			"text": "שְׁקִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1020,
 		"column": "a"

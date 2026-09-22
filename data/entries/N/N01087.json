@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01087",
-	"slug": "נפתאי",
-	"headword": {
-		"text": "נִפְתָּאֵי"
-	},
+	"sefariaHeadword": "נִפְתָּאֵי",
+	"headwords": [
+		{
+			"text": "נִפְתָּאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "a"

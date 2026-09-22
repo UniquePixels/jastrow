@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00665",
-	"slug": "סילין",
-	"headword": {
-		"text": "סילין"
-	},
+	"sefariaHeadword": "סילין",
+	"headwords": [
+		{
+			"text": "סילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

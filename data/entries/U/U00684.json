@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00684",
-	"slug": "שחפותא",
-	"headword": {
-		"text": "שַׁחְפּוּתָא"
-	},
+	"sefariaHeadword": "שַׁחְפּוּתָא",
+	"headwords": [
+		{
+			"text": "שַׁחְפּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1549,
 		"column": "b"

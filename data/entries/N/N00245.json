@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00245",
-	"slug": "נדרית",
-	"headword": {
-		"text": "נַדָּרִית"
-	},
+	"sefariaHeadword": "נַדָּרִית",
+	"headwords": [
+		{
+			"text": "נַדָּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 880,
 		"column": "b"

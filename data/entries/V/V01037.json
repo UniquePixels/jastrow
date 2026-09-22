@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01037",
-	"slug": "תרעיתא",
-	"headword": {
-		"text": "תַּרְעִיתָא"
-	},
+	"sefariaHeadword": "תַּרְעִיתָא",
+	"headwords": [
+		{
+			"text": "תַּרְעִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "a"

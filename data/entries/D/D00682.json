@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00682",
-	"slug": "דיפרוסוף",
-	"headword": {
-		"text": "דִּיפְּרוֹסוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיפְּרוֹסוֹף",
+	"headwords": [
+		{
+			"text": "דִּיפְּרוֹסוֹף"
+		},
 		{
 			"text": "דִּיפַּרְצוֹף"
 		},
@@ -15,6 +16,7 @@
 			"text": "דִּיפַּרְצוֹפִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 304,
 		"column": "a"

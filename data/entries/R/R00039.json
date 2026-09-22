@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00039",
-	"slug": "צביון",
-	"headword": {
-		"text": "צִבְיוֹן"
-	},
+	"sefariaHeadword": "צִבְיוֹן",
+	"headwords": [
+		{
+			"text": "צִבְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00530",
-	"slug": "לישלושתא",
-	"headword": {
-		"text": "לִישְׁלוּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִישְׁלוּשְׁתָּא",
+	"headwords": [
+		{
+			"text": "לִישְׁלוּשְׁתָּא"
+		},
 		{
 			"text": "לִישְׁלֶשֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 710,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00669",
-	"slug": "עיקש",
-	"headword": {
-		"text": "עִיקֵּשׁ"
-	},
+	"sefariaHeadword": "עִיקֵּשׁ",
+	"headwords": [
+		{
+			"text": "עִיקֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1075,
 		"column": "a"

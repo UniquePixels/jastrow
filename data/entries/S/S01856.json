@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01856",
-	"slug": "קצרת",
-	"headword": {
-		"text": "קַצְרַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַצְרַת",
+	"headwords": [
+		{
+			"text": "קַצְרַת"
+		},
 		{
 			"text": "קְצַרְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קְצַרְתָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1409,
 		"column": "a"

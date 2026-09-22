@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03138",
-	"slug": "ארכונטוס",
-	"headword": {
-		"text": "אַרְכוֹנְטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְכוֹנְטוֹס",
+	"headwords": [
+		{
+			"text": "אַרְכוֹנְטוֹס"
+		},
 		{
 			"text": "אַרְכוֹנְטָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 121,
 		"column": "b"

@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A01752",
-	"slug": "אכרום",
-	"headword": {
-		"text": "אִכְרוּם",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִכְרוּם",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִכְרוּם",
+			"reconstructed": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		},
 		{
 			"text": "אִכְּרוּם"
 		},
 		{
-			"text": "אֶכְּ׳"
+			"text": "אֶכְּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 65,
 		"column": "b"

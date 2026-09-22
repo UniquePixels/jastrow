@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00854",
-	"slug": "גלאקסינון",
-	"headword": {
-		"text": "גַּלְאַקְסִינוֹן"
-	},
+	"sefariaHeadword": "גַּלְאַקְסִינוֹן",
+	"headwords": [
+		{
+			"text": "גַּלְאַקְסִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "b"

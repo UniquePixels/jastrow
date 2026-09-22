@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00667",
-	"slug": "חידות",
-	"headword": {
-		"text": "חידות"
-	},
+	"sefariaHeadword": "חידות",
+	"headwords": [
+		{
+			"text": "חידות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 451,
 		"column": "b"

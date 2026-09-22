@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01874",
-	"slug": "אליף",
-	"headword": {
-		"text": "אֲלֵיף"
-	},
+	"sefariaHeadword": "אֲלֵיף",
+	"headwords": [
+		{
+			"text": "אֲלֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

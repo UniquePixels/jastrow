@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00649",
-	"slug": "ניחום",
-	"headword": {
-		"text": "נִיחוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיחוּם",
+	"headwords": [
 		{
-			"text": "נִח׳"
+			"text": "נִיחוּם"
+		},
+		{
+			"text": "נִח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 904,
 		"column": "a"

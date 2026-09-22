@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00433",
-	"slug": "נזי",
-	"headword": {
-		"text": "נזי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נזי",
+	"headwords": [
+		{
+			"text": "נזי"
+		},
 		{
 			"text": "נָזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "b"

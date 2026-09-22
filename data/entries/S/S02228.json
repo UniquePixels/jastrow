@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02228",
-	"slug": "קשות-2",
-	"headword": {
-		"text": "קָשׁוּת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָשׁוּת II",
+	"headwords": [
+		{
+			"text": "קָשׁוּת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1429,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00834",
-	"slug": "שיהיא",
-	"headword": {
-		"text": "שיהיא"
-	},
+	"sefariaHeadword": "שיהיא",
+	"headwords": [
+		{
+			"text": "שיהיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1558,
 		"column": "b"

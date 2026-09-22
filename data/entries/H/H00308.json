@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00308",
-	"slug": "חוי-1",
-	"headword": {
-		"text": "חוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוי",
+	"headwords": [
+		{
+			"text": "חוי"
+		},
 		{
 			"text": "חָוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 432,
 		"column": "a"

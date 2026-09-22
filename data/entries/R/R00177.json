@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00177",
-	"slug": "צוורוניתא",
-	"headword": {
-		"text": "צַוְּורוֹנְיָתָא"
-	},
+	"sefariaHeadword": "צַוְּורוֹנְיָתָא",
+	"headwords": [
+		{
+			"text": "צַוְּורוֹנְיָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

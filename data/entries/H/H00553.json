@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00553",
-	"slug": "חזק-1",
-	"headword": {
-		"text": "חָזַק"
-	},
+	"sefariaHeadword": "חָזַק",
+	"headwords": [
+		{
+			"text": "חָזַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 444,
 		"column": "b"

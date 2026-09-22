@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02918",
-	"slug": "אקלידא",
-	"headword": {
-		"text": "אַקְלִידָא"
-	},
+	"sefariaHeadword": "אַקְלִידָא",
+	"headwords": [
+		{
+			"text": "אַקְלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

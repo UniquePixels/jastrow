@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00155",
-	"slug": "דהכא",
-	"headword": {
-		"text": "דַּהֲכָא"
-	},
+	"sefariaHeadword": "דַּהֲכָא",
+	"headwords": [
+		{
+			"text": "דַּהֲכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "b"

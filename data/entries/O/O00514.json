@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00514",
-	"slug": "סטרנלייא",
-	"headword": {
-		"text": "סְטַרְנַלְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְטַרְנַלְיָיא",
+	"headwords": [
+		{
+			"text": "סְטַרְנַלְיָיא"
+		},
 		{
 			"text": "סְטַרְנַלְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 973,
 		"column": "b"

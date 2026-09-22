@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02812",
-	"slug": "משדרתא",
-	"headword": {
-		"text": "מְשַׁדַּרְתָּא"
-	},
+	"sefariaHeadword": "מְשַׁדַּרְתָּא",
+	"headwords": [
+		{
+			"text": "מְשַׁדַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "a"

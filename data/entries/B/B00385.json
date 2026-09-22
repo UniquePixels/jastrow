@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00385",
-	"slug": "בורסים",
-	"headword": {
-		"text": "בּוּרְסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּרְסִים",
+	"headwords": [
+		{
+			"text": "בּוּרְסִים"
+		},
 		{
 			"text": "בּוּרְסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 150,
 		"column": "b"

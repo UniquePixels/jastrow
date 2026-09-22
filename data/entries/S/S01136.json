@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01136",
-	"slug": "קיצרה",
-	"headword": {
-		"text": "קיצרה"
-	},
+	"sefariaHeadword": "קיצרה",
+	"headwords": [
+		{
+			"text": "קיצרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

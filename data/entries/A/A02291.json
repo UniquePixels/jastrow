@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02291",
-	"slug": "אנקטמין",
-	"headword": {
-		"text": "אָנְקִטְמִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָנְקִטְמִין",
+	"headwords": [
+		{
+			"text": "אָנְקִטְמִין",
+			"reconstructed": true
+		},
 		{
 			"text": "לוּקִטְמִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 87,
 		"column": "b"

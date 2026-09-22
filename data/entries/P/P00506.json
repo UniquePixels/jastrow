@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00506",
-	"slug": "עידוי-1",
-	"headword": {
-		"text": "עִידּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִידּוּי",
+	"headwords": [
 		{
-			"text": "עִדּ׳"
+			"text": "עִידּוּי"
+		},
+		{
+			"text": "עִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1067,
 		"column": "a"

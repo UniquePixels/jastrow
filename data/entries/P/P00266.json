@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00266",
-	"slug": "עולם-1",
-	"headword": {
-		"text": "עוֹלָם"
-	},
+	"sefariaHeadword": "עוֹלָם",
+	"headwords": [
+		{
+			"text": "עוֹלָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01012",
-	"slug": "חלז",
-	"headword": {
-		"text": "חֲלַז"
-	},
+	"sefariaHeadword": "חֲלַז",
+	"headwords": [
+		{
+			"text": "חֲלַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "a"

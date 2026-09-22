@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01686",
-	"slug": "חריף-2",
-	"headword": {
-		"text": "חָרִיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרִיף",
+	"headwords": [
+		{
+			"text": "חָרִיף"
+		},
 		{
 			"text": "חֲרִיפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲרִיפְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 502,
 		"column": "a"

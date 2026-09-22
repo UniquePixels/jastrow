@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02810",
-	"slug": "אפרומביא",
-	"headword": {
-		"text": "אַפְרוֹמְבְּיָא"
-	},
+	"sefariaHeadword": "אַפְרוֹמְבְּיָא",
+	"headwords": [
+		{
+			"text": "אַפְרוֹמְבְּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00614",
-	"slug": "מורבית-2",
-	"headword": {
-		"text": "מוּרְבִּית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוּרְבִּית II",
+	"headwords": [
+		{
+			"text": "מוּרְבִּית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 749,
 		"column": "a"

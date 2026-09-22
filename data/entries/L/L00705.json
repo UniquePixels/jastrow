@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00705",
-	"slug": "לשון",
-	"headword": {
-		"text": "לָשׁוֹן"
-	},
+	"sefariaHeadword": "לָשׁוֹן",
+	"headwords": [
+		{
+			"text": "לָשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "a"

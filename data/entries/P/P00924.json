@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00924",
-	"slug": "עמקותא",
-	"headword": {
-		"text": "עִמְקוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִמְקוּתָא",
+	"headwords": [
 		{
-			"text": "עִימְ׳"
+			"text": "עִמְקוּתָא"
+		},
+		{
+			"text": "עִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1090,
 		"column": "b"

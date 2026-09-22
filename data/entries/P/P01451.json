@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01451",
-	"slug": "ערקל",
-	"headword": {
-		"text": "עַרְקֵל"
-	},
+	"sefariaHeadword": "עַרְקֵל",
+	"headwords": [
+		{
+			"text": "עַרְקֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "b"

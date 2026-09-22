@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00136",
-	"slug": "כדכודא",
-	"headword": {
-		"text": "כַּדְכּוֹדָא"
-	},
+	"sefariaHeadword": "כַּדְכּוֹדָא",
+	"headwords": [
+		{
+			"text": "כַּדְכּוֹדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

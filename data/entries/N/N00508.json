@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00508",
-	"slug": "נחמם",
-	"headword": {
-		"text": "נַחְמָם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נַחְמָם",
+	"headwords": [
+		{
+			"text": "נַחְמָם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

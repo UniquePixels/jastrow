@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02929",
-	"slug": "משמר-1",
-	"headword": {
-		"text": "משמר"
-	},
+	"sefariaHeadword": "משמר",
+	"headwords": [
+		{
+			"text": "משמר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "b"

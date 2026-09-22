@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01298",
-	"slug": "גרום",
-	"headword": {
-		"text": "גָּרוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּרוּם",
+	"headwords": [
+		{
+			"text": "גָּרוּם"
+		},
 		{
 			"text": "גְּרוּמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "b"

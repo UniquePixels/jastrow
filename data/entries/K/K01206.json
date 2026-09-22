@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01206",
-	"slug": "כרכיש",
-	"headword": {
-		"text": "כַּרְכֵּישׁ"
-	},
+	"sefariaHeadword": "כַּרְכֵּישׁ",
+	"headwords": [
+		{
+			"text": "כַּרְכֵּישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "a"

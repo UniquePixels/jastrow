@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00122",
-	"slug": "פדייא",
-	"headword": {
-		"text": "פדייא"
-	},
+	"sefariaHeadword": "פדייא",
+	"headwords": [
+		{
+			"text": "פדייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

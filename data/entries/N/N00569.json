@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00569",
-	"slug": "נטירותא",
-	"headword": {
-		"text": "נְטִירוּתָא"
-	},
+	"sefariaHeadword": "נְטִירוּתָא",
+	"headwords": [
+		{
+			"text": "נְטִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "b"

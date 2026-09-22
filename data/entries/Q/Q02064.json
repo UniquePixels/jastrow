@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02064",
-	"slug": "פשט-2",
-	"headword": {
-		"text": "פְּשַׁט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּשַׁט",
+	"headwords": [
+		{
+			"text": "פְּשַׁט"
+		},
 		{
 			"text": "פְּשֵׁיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1246,
 		"column": "a"

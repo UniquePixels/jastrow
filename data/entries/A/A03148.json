@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03148",
-	"slug": "ארכיליסטיס",
-	"headword": {
-		"text": "אַרְכִילֵיסְטֵיס"
-	},
+	"sefariaHeadword": "אַרְכִילֵיסְטֵיס",
+	"headwords": [
+		{
+			"text": "אַרְכִילֵיסְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

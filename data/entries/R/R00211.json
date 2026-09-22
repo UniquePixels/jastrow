@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00211",
-	"slug": "צונן",
-	"headword": {
-		"text": "צוֹנָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹנָן",
+	"headwords": [
+		{
+			"text": "צוֹנָן"
+		},
 		{
 			"text": "צוֹנֶנֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1268,
 		"column": "b"

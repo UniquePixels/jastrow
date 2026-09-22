@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01308",
-	"slug": "ברסנה",
-	"headword": {
-		"text": "ברסנה"
-	},
+	"sefariaHeadword": "ברסנה",
+	"headwords": [
+		{
+			"text": "ברסנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

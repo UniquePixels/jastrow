@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00800",
-	"slug": "חימום",
-	"headword": {
-		"text": "חִימּוּם"
-	},
+	"sefariaHeadword": "חִימּוּם",
+	"headwords": [
+		{
+			"text": "חִימּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

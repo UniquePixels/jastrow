@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00650",
-	"slug": "ביניתא",
-	"headword": {
-		"text": "בִּינִיתָא"
-	},
+	"sefariaHeadword": "בִּינִיתָא",
+	"headwords": [
+		{
+			"text": "בִּינִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "b"

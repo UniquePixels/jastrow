@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00353",
-	"slug": "דוראי",
-	"headword": {
-		"text": "דּוּרַאי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דּוּרַאי",
+	"headwords": [
+		{
+			"text": "דּוּרַאי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

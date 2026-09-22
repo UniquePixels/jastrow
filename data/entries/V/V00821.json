@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00821",
-	"slug": "תפיסה",
-	"headword": {
-		"text": "תְּפִיסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּפִיסָה",
+	"headwords": [
+		{
+			"text": "תְּפִיסָה"
+		},
 		{
 			"text": "תְּפִישָׂה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1686,
 		"column": "a"

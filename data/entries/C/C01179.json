@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01179",
-	"slug": "געא-1",
-	"headword": {
-		"text": "גְּעָא"
-	},
+	"sefariaHeadword": "גְּעָא",
+	"headwords": [
+		{
+			"text": "גְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

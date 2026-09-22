@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B00303",
-	"slug": "בועתא-1",
-	"headword": {
-		"text": "בּוּעֲתָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בּוּעֲתָא I",
+	"headwords": [
+		{
+			"text": "בּוּעֲתָא",
+			"reconstructed": true,
+			"homograph": 1
+		},
 		{
 			"text": "בּוּתָא"
 		}
 	],
+	"display": "*{0} I, ({1})",
 	"page": {
 		"number": 147,
 		"column": "b"

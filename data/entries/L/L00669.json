@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00669",
-	"slug": "לקוטינטיס",
-	"headword": {
-		"text": "לקוטינטיס"
-	},
+	"sefariaHeadword": "לקוטינטיס",
+	"headwords": [
+		{
+			"text": "לקוטינטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

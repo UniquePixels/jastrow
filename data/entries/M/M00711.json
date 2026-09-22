@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00711",
-	"slug": "מזבננא",
-	"headword": {
-		"text": "מְזַבְּנָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְזַבְּנָנָא",
+	"headwords": [
 		{
-			"text": "מְזוֹבְנָ׳"
+			"text": "מְזַבְּנָנָא"
+		},
+		{
+			"text": "מְזוֹבְנָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 752,
 		"column": "b"

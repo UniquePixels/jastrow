@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00915",
-	"slug": "דמשקאה",
-	"headword": {
-		"text": "דַּמַּשְׂקָאָה"
-	},
+	"sefariaHeadword": "דַּמַּשְׂקָאָה",
+	"headwords": [
+		{
+			"text": "דַּמַּשְׂקָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "b"

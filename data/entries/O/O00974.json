@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00974",
-	"slug": "סלח-1",
-	"headword": {
-		"text": "סָלַח"
-	},
+	"sefariaHeadword": "סָלַח",
+	"headwords": [
+		{
+			"text": "סָלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

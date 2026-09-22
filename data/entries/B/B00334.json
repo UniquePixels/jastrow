@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00334",
-	"slug": "בורא-1",
-	"headword": {
-		"text": "בּוֹרֵא"
-	},
+	"sefariaHeadword": "בּוֹרֵא",
+	"headwords": [
+		{
+			"text": "בּוֹרֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "a"

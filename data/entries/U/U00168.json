@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00168",
-	"slug": "שבק-1",
-	"headword": {
-		"text": "שָׁבַק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שָׁבַק",
+	"headwords": [
+		{
+			"text": "שָׁבַק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1516,
 		"column": "b"

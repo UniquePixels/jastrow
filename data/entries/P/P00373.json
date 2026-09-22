@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00373",
-	"slug": "עות-1",
-	"headword": {
-		"text": "עוּת"
-	},
+	"sefariaHeadword": "עוּת",
+	"headwords": [
+		{
+			"text": "עוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "b"

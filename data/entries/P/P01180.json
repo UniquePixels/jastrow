@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01180",
-	"slug": "עקימה-2",
-	"headword": {
-		"text": "עֲקִימָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲקִימָה II",
+	"headwords": [
+		{
+			"text": "עֲקִימָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1106,
 		"column": "a"

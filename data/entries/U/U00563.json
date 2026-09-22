@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00563",
-	"slug": "שושבינותא",
-	"headword": {
-		"text": "שׁוֹשְׁבִינוּתָא"
-	},
+	"sefariaHeadword": "שׁוֹשְׁבִינוּתָא",
+	"headwords": [
+		{
+			"text": "שׁוֹשְׁבִינוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "a"

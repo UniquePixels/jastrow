@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01851",
-	"slug": "שקי-3",
-	"headword": {
-		"text": "שָׁקֵי"
-	},
+	"sefariaHeadword": "שָׁקֵי",
+	"headwords": [
+		{
+			"text": "שָׁקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "a"

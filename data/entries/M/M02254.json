@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02254",
-	"slug": "מפשוטיתא",
-	"headword": {
-		"text": "מַפְשׁוּטִיתָא"
-	},
+	"sefariaHeadword": "מַפְשׁוּטִיתָא",
+	"headwords": [
+		{
+			"text": "מַפְשׁוּטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

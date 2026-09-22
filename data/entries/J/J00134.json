@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00134",
-	"slug": "יהורם",
-	"headword": {
-		"text": "יְהוֹרָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְהוֹרָם",
+	"headwords": [
+		{
+			"text": "יְהוֹרָם"
+		},
 		{
 			"text": "יוֹרָם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 566,
 		"column": "b"

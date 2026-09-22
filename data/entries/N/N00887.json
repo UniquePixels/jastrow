@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00887",
-	"slug": "נמסינן",
-	"headword": {
-		"text": "נמסינן"
-	},
+	"sefariaHeadword": "נמסינן",
+	"headwords": [
+		{
+			"text": "נמסינן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

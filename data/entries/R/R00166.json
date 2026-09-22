@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00166",
-	"slug": "צוהר",
-	"headword": {
-		"text": "צוֹהַר"
-	},
+	"sefariaHeadword": "צוֹהַר",
+	"headwords": [
+		{
+			"text": "צוֹהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

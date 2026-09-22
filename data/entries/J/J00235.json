@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00235",
-	"slug": "יוקרת",
-	"headword": {
-		"text": "יוֹקֶרֶת"
-	},
+	"sefariaHeadword": "יוֹקֶרֶת",
+	"headwords": [
+		{
+			"text": "יוֹקֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "b"

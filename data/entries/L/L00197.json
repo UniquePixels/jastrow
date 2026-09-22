@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00197",
-	"slug": "לודי",
-	"headword": {
-		"text": "לוֹדִי"
-	},
+	"sefariaHeadword": "לוֹדִי",
+	"headwords": [
+		{
+			"text": "לוֹדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

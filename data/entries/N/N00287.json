@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00287",
-	"slug": "נהרדעא",
-	"headword": {
-		"text": "נְהַרְדְּעָא"
-	},
+	"sefariaHeadword": "נְהַרְדְּעָא",
+	"headwords": [
+		{
+			"text": "נְהַרְדְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

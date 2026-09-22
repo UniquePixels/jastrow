@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01057",
-	"slug": "סמבטיון",
-	"headword": {
-		"text": "סַמְבַּטְיוֹן"
-	},
+	"sefariaHeadword": "סַמְבַּטְיוֹן",
+	"headwords": [
+		{
+			"text": "סַמְבַּטְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

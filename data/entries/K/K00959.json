@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00959",
-	"slug": "כספתיאס",
-	"headword": {
-		"text": "כספתיאס"
-	},
+	"sefariaHeadword": "כספתיאס",
+	"headwords": [
+		{
+			"text": "כספתיאס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

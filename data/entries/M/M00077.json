@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00077",
-	"slug": "מבוג",
-	"headword": {
-		"text": "מָבוֹג"
-	},
+	"sefariaHeadword": "מָבוֹג",
+	"headwords": [
+		{
+			"text": "מָבוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

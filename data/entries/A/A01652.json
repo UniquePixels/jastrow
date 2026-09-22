@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01652",
-	"slug": "איתליס",
-	"headword": {
-		"text": "אִיתְּלִיס"
-	},
+	"sefariaHeadword": "אִיתְּלִיס",
+	"headwords": [
+		{
+			"text": "אִיתְּלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

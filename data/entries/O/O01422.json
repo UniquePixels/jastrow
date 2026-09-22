@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01422",
-	"slug": "ספר-8",
-	"headword": {
-		"text": "סֵפֶר"
-	},
+	"sefariaHeadword": "סֵפֶר",
+	"headwords": [
+		{
+			"text": "סֵפֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1017,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00119",
-	"slug": "פדיה-1",
-	"headword": {
-		"text": "פְּדִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּדִיָּה",
+	"headwords": [
+		{
+			"text": "פְּדִיָּה"
+		},
 		{
 			"text": "פְּדִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1137,
 		"column": "a"

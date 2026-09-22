@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00556",
-	"slug": "מועד-1",
-	"headword": {
-		"text": "מוּעָד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּעָד",
+	"headwords": [
+		{
+			"text": "מוּעָד"
+		},
 		{
 			"text": "מוּעֶדֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 745,
 		"column": "b"

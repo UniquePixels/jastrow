@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00718",
-	"slug": "צפרדע",
-	"headword": {
-		"text": "צְפַרְדֵּעַ"
-	},
+	"sefariaHeadword": "צְפַרְדֵּעַ",
+	"headwords": [
+		{
+			"text": "צְפַרְדֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

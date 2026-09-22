@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00012",
-	"slug": "יאותא",
-	"headword": {
-		"text": "יֵאוּתָא"
-	},
+	"sefariaHeadword": "יֵאוּתָא",
+	"headwords": [
+		{
+			"text": "יֵאוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01806",
-	"slug": "אלוונתית",
-	"headword": {
-		"text": "אלוונתית"
-	},
+	"sefariaHeadword": "אלוונתית",
+	"headwords": [
+		{
+			"text": "אלוונתית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

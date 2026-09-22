@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00377",
-	"slug": "שוט-6",
-	"headword": {
-		"text": "שׁוּט",
-		"disambiguator": 3
-	},
+	"sefariaHeadword": "שׁוּט ³",
+	"headwords": [
+		{
+			"text": "שׁוּט",
+			"disambiguator": 3
+		}
+	],
+	"display": "{0} ³",
 	"page": {
 		"number": 1531,
 		"column": "b"

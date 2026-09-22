@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00185",
-	"slug": "מגלונאה",
-	"headword": {
-		"text": "מַגְלוֹנָאָה"
-	},
+	"sefariaHeadword": "מַגְלוֹנָאָה",
+	"headwords": [
+		{
+			"text": "מַגְלוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "a"

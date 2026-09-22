@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03271",
-	"slug": "אשון-1",
-	"headword": {
-		"text": "אֲשׁוּן"
-	},
+	"sefariaHeadword": "אֲשׁוּן",
+	"headwords": [
+		{
+			"text": "אֲשׁוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

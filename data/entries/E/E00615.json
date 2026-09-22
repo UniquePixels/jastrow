@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00615",
-	"slug": "המיסו",
-	"headword": {
-		"text": "המיסו"
-	},
+	"sefariaHeadword": "המיסו",
+	"headwords": [
+		{
+			"text": "המיסו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

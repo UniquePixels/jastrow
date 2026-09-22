@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02641",
-	"slug": "אפוקי-2",
-	"headword": {
-		"text": "אַפּוֹקֵי"
-	},
+	"sefariaHeadword": "אַפֹּוקֵי",
+	"headwords": [
+		{
+			"text": "אַפּוֹקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

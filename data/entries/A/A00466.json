@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00466",
-	"slug": "אדרייני",
-	"headword": {
-		"text": "אַדְרְיָינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְרְיָינִי",
+	"headwords": [
+		{
+			"text": "אַדְרְיָינִי"
+		},
 		{
 			"text": "הַדְרְיָינִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 18,
 		"column": "b"

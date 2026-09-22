@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00167",
-	"slug": "זוי-2",
-	"headword": {
-		"text": "זְוִי"
-	},
+	"sefariaHeadword": "זְוִי",
+	"headwords": [
+		{
+			"text": "זְוִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

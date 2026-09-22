@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00551",
-	"slug": "נטופתא",
-	"headword": {
-		"text": "נִטּוֹפְתָּא"
-	},
+	"sefariaHeadword": "נִטּוֹפְתָּא",
+	"headwords": [
+		{
+			"text": "נִטּוֹפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

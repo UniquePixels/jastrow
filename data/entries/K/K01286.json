@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01286",
-	"slug": "כרתי-2",
-	"headword": {
-		"text": "כָּרֵתִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרֵתִי",
+	"headwords": [
+		{
+			"text": "כָּרֵתִי"
+		},
 		{
 			"text": "כַּרְתִי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 675,
 		"column": "a"

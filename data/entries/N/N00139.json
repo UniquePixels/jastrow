@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00139",
-	"slug": "נגוון",
-	"headword": {
-		"text": "נַגְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַגְוָון",
+	"headwords": [
+		{
+			"text": "נַגְוָון"
+		},
 		{
 			"text": "נַגְוָותָא"
 		},
 		{
-			"text": "נַגְוָ׳"
+			"text": "נַגְוָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 873,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00848",
-	"slug": "דלסתי",
-	"headword": {
-		"text": "דלסתי"
-	},
+	"sefariaHeadword": "דלסתי",
+	"headwords": [
+		{
+			"text": "דלסתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 311,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00078",
-	"slug": "בגדתאה",
-	"headword": {
-		"text": "בַּגְדַתָּאָה"
-	},
+	"sefariaHeadword": "בַּגְדַתָּאָה",
+	"headwords": [
+		{
+			"text": "בַּגְדַתָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

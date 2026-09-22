@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00984",
-	"slug": "דק-1",
-	"headword": {
-		"text": "דַּק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דַּק I",
+	"headwords": [
+		{
+			"text": "דַּק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 317,
 		"column": "b"

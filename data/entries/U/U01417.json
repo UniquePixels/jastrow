@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01417",
-	"slug": "שמגז",
-	"headword": {
-		"text": "שַׁמְגַּז"
-	},
+	"sefariaHeadword": "שַׁמְגַּז",
+	"headwords": [
+		{
+			"text": "שַׁמְגַּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1591,
 		"column": "b"

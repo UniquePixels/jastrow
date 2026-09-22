@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00436",
-	"slug": "סורקין",
-	"headword": {
-		"text": "סורקין"
-	},
+	"sefariaHeadword": "סורקין",
+	"headwords": [
+		{
+			"text": "סורקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

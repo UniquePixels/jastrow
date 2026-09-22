@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01045",
-	"slug": "רקמה",
-	"headword": {
-		"text": "רִקְמָה"
-	},
+	"sefariaHeadword": "רִקְמָה",
+	"headwords": [
+		{
+			"text": "רִקְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "b"

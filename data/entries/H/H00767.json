@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00767",
-	"slug": "חילוני",
-	"headword": {
-		"text": "חִילּוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוֹנִי",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוֹנִי"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "a"

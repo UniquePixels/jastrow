@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01326",
-	"slug": "כשר-3",
-	"headword": {
-		"text": "כָּשֵׁר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כָּשֵׁר II",
+	"headwords": [
+		{
+			"text": "כָּשֵׁר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 677,
 		"column": "a"

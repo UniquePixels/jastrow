@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02901",
-	"slug": "אקונבי",
-	"headword": {
-		"text": "אֲקוּנְבִּי"
-	},
+	"sefariaHeadword": "אֲקוּנְבִּי",
+	"headwords": [
+		{
+			"text": "אֲקוּנְבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

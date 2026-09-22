@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02712",
-	"slug": "אפיקורין",
-	"headword": {
-		"text": "אַפִּיקוֹרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפִּיקוֹרִין",
+	"headwords": [
+		{
+			"text": "אַפִּיקוֹרִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אַפִּיקוֹרָן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 104,
 		"column": "b"

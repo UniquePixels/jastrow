@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00736",
-	"slug": "פינקטין",
-	"headword": {
-		"text": "פינקטין"
-	},
+	"sefariaHeadword": "פינקטין",
+	"headwords": [
+		{
+			"text": "פינקטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

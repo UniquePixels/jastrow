@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00491",
-	"slug": "נחיר",
-	"headword": {
-		"text": "נָחִיר"
-	},
+	"sefariaHeadword": "נָחִיר",
+	"headwords": [
+		{
+			"text": "נָחִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

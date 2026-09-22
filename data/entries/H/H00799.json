@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00799",
-	"slug": "חימוד",
-	"headword": {
-		"text": "חִימּוּד"
-	},
+	"sefariaHeadword": "חִימּוּד",
+	"headwords": [
+		{
+			"text": "חִימּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

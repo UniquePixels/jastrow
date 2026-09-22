@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01484",
-	"slug": "עשיראה",
-	"headword": {
-		"text": "עֲשִׂירָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשִׂירָאָה",
+	"headwords": [
 		{
-			"text": "עֲסִ׳"
+			"text": "עֲשִׂירָאָה"
+		},
+		{
+			"text": "עֲסִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1126,
 		"column": "a"

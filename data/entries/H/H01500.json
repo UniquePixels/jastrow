@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01500",
-	"slug": "חצדא-1",
-	"headword": {
-		"text": "חֲצָדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲצָדָא",
+	"headwords": [
+		{
+			"text": "חֲצָדָא"
+		},
 		{
 			"text": "חַצְדָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, ({1}) I",
 	"page": {
 		"number": 494,
 		"column": "b"

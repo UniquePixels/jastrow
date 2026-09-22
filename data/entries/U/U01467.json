@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01467",
-	"slug": "שמיכה",
-	"headword": {
-		"text": "שְׂמִיכָה"
-	},
+	"sefariaHeadword": "שְׂמִיכָה",
+	"headwords": [
+		{
+			"text": "שְׂמִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

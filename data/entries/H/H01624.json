@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01624",
-	"slug": "חרויין",
-	"headword": {
-		"text": "חרויין"
-	},
+	"sefariaHeadword": "חרויין",
+	"headwords": [
+		{
+			"text": "חרויין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

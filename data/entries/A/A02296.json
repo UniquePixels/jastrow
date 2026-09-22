@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02296",
-	"slug": "אנקלומא",
-	"headword": {
-		"text": "אֶנְקְלוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶנְקְלוּמָא",
+	"headwords": [
+		{
+			"text": "אֶנְקְלוּמָא"
+		},
 		{
 			"text": "אנקלומה",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 88,
 		"column": "a"

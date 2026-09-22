@@ -1,24 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "O00564",
-	"slug": "סיגנא-2",
-	"headword": {
-		"text": "סִיגְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיגְנָא",
+	"headwords": [
 		{
-			"text": "סִגְ׳",
-			"homograph": 2
+			"text": "סִיגְנָא"
 		},
 		{
-			"text": "כְּפַר סִיגְנָא"
+			"text": "סִגְ׳",
+			"homograph": 2,
+			"partial": true
+		},
+		{
+			"text": "כְּפַר ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II, {2}",
 	"page": {
 		"number": 975,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

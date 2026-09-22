@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00676",
-	"slug": "ביץ",
-	"headword": {
-		"text": "בִּיץ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּיץ",
+	"headwords": [
+		{
+			"text": "בִּיץ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 164,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02075",
-	"slug": "אמתות",
-	"headword": {
-		"text": "אֲמָתוֹת"
-	},
+	"sefariaHeadword": "אֲמָתוֹת",
+	"headwords": [
+		{
+			"text": "אֲמָתוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

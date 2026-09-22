@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01516",
-	"slug": "קנאיתא",
-	"headword": {
-		"text": "קִנְאֵיתָא"
-	},
+	"sefariaHeadword": "קִנְאֵיתָא",
+	"headwords": [
+		{
+			"text": "קִנְאֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "a"

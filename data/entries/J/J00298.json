@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00298",
-	"slug": "יחמורא",
-	"headword": {
-		"text": "יַחְמוּרָא"
-	},
+	"sefariaHeadword": "יַחְמוּרָא",
+	"headwords": [
+		{
+			"text": "יַחְמוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "a"

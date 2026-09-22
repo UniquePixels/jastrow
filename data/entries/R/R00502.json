@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00502",
-	"slug": "צלחא",
-	"headword": {
-		"text": "צַלְחָא"
-	},
+	"sefariaHeadword": "צַלְחָא",
+	"headwords": [
+		{
+			"text": "צַלְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

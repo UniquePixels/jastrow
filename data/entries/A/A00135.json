@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00135",
-	"slug": "אבילין",
-	"headword": {
-		"text": "אֲבֵילִין"
-	},
+	"sefariaHeadword": "אֲבֵילִין",
+	"headwords": [
+		{
+			"text": "אֲבֵילִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 6,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

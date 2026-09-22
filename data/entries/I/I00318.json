@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00318",
-	"slug": "טיהרא",
-	"headword": {
-		"text": "טִיהֲרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיהֲרָא",
+	"headwords": [
 		{
-			"text": "טִהֲ׳"
+			"text": "טִיהֲרָא"
+		},
+		{
+			"text": "טִהֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 530,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00490",
-	"slug": "זלחא",
-	"headword": {
-		"text": "זִלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִלְחָא",
+	"headwords": [
+		{
+			"text": "זִלְחָא"
+		},
 		{
 			"text": "זִילְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 401,
 		"column": "b"

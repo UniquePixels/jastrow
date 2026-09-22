@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00044",
-	"slug": "עביד",
-	"headword": {
-		"text": "עֲבִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבִיד",
+	"headwords": [
+		{
+			"text": "עֲבִיד"
+		},
 		{
 			"text": "עֲבֵיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1037,
 		"column": "b"

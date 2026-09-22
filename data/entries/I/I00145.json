@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00145",
-	"slug": "טוט",
-	"headword": {
-		"text": "טוֹט"
-	},
+	"sefariaHeadword": "טוֹט",
+	"headwords": [
+		{
+			"text": "טוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

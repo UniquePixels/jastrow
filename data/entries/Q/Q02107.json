@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02107",
-	"slug": "פשתים",
-	"headword": {
-		"text": "פִּשְׁתִּים"
-	},
+	"sefariaHeadword": "פִּשְׁתִּים",
+	"headwords": [
+		{
+			"text": "פִּשְׁתִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

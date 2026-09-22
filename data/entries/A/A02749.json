@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02749",
-	"slug": "אפס-2",
-	"headword": {
-		"text": "אָפֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָפֵס",
+	"headwords": [
+		{
+			"text": "אָפֵס"
+		},
 		{
 			"text": "אָפֶס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 106,
 		"column": "a"

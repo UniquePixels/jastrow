@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01086",
-	"slug": "דריכה",
-	"headword": {
-		"text": "דְּרִיכָה"
-	},
+	"sefariaHeadword": "דְּרִיכָה",
+	"headwords": [
+		{
+			"text": "דְּרִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

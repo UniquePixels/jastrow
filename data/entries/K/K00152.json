@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00152",
-	"slug": "כהונה",
-	"headword": {
-		"text": "כְּהוּנָּה"
-	},
+	"sefariaHeadword": "כְּהוּנָּה",
+	"headwords": [
+		{
+			"text": "כְּהוּנָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "b"

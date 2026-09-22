@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00898",
-	"slug": "פיתותא",
-	"headword": {
-		"text": "פִּיתּוּתָא"
-	},
+	"sefariaHeadword": "פִּיתּוּתָא",
+	"headwords": [
+		{
+			"text": "פִּיתּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "a"

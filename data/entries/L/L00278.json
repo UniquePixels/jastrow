@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "L00278",
-	"slug": "לוליבא-2",
-	"headword": {
-		"text": "לוּלֵיבָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*לוּלֵיבָא II",
+	"headwords": [
+		{
+			"text": "לוּלֵיבָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 699,
 		"column": "a"

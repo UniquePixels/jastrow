@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02395",
-	"slug": "מקום-2",
-	"headword": {
-		"text": "מקום"
-	},
+	"sefariaHeadword": "מקום",
+	"headwords": [
+		{
+			"text": "מקום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

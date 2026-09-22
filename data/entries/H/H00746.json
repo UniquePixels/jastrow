@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00746",
-	"slug": "חייש",
-	"headword": {
-		"text": "חָיֵישׁ"
-	},
+	"sefariaHeadword": "חָיֵישׁ",
+	"headwords": [
+		{
+			"text": "חָיֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 455,
 		"column": "a"

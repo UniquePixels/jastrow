@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00626",
-	"slug": "טפו",
-	"headword": {
-		"text": "טפו"
-	},
+	"sefariaHeadword": "טפו",
+	"headwords": [
+		{
+			"text": "טפו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

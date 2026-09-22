@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02858",
-	"slug": "אצוא",
-	"headword": {
-		"text": "אַצְוָא"
-	},
+	"sefariaHeadword": "אַצְוָא",
+	"headwords": [
+		{
+			"text": "אַצְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

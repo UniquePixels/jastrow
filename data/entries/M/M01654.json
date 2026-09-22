@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01654",
-	"slug": "ממוש",
-	"headword": {
-		"text": "מְמוּשׁ"
-	},
+	"sefariaHeadword": "מְמוּשׁ",
+	"headwords": [
+		{
+			"text": "מְמוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

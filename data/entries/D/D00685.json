@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "D00685",
-	"slug": "דיפתי",
-	"headword": {
-		"text": "דִּיפְתִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיפְתִּי",
+	"headwords": [
+		{
+			"text": "דִּיפְתִּי"
+		},
 		{
 			"text": "דִּפְתִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 304,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

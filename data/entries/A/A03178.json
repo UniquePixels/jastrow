@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03178",
-	"slug": "ארמיניא",
-	"headword": {
-		"text": "אַרְמִינְיָא"
-	},
+	"sefariaHeadword": "אַרְמִינְיָא",
+	"headwords": [
+		{
+			"text": "אַרְמִינְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "a"

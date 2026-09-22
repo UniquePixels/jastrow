@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00247",
-	"slug": "חובץ-1",
-	"headword": {
-		"text": "חוּבָּץ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּבָּץ I",
+	"headwords": [
 		{
-			"text": "בַּר׳ ח׳"
+			"text": "חוּבָּץ",
+			"homograph": 1
+		},
+		{
+			"text": "בַּר׳ ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 429,
 		"column": "b"

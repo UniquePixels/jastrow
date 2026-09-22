@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00302",
-	"slug": "טיבועין",
-	"headword": {
-		"text": "טִיבּוּעִין"
-	},
+	"sefariaHeadword": "טִיבּוּעִין",
+	"headwords": [
+		{
+			"text": "טִיבּוּעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "b"

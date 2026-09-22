@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00187",
-	"slug": "לוגלגן",
-	"headword": {
-		"text": "לוֹגְלְגָן"
-	},
+	"sefariaHeadword": "לוֹגְלְגָן",
+	"headwords": [
+		{
+			"text": "לוֹגְלְגָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00707",
-	"slug": "עית",
-	"headword": {
-		"text": "עִיתּ־"
-	},
+	"sefariaHeadword": "עִיתּ־",
+	"headwords": [
+		{
+			"text": "עִיתּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

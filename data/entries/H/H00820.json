@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00820",
-	"slug": "חינוכא",
-	"headword": {
-		"text": "חִינּוּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינּוּכָא",
+	"headwords": [
 		{
-			"text": "חִנּ׳"
+			"text": "חִינּוּכָא"
+		},
+		{
+			"text": "חִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "b"

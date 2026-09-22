@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02166",
-	"slug": "מעקתא",
-	"headword": {
-		"text": "מְעָקָתָא"
-	},
+	"sefariaHeadword": "מְעָקָתָא",
+	"headwords": [
+		{
+			"text": "מְעָקָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "a"

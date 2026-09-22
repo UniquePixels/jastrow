@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00666",
-	"slug": "חידוש",
-	"headword": {
-		"text": "חִידּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִידּוּשׁ",
+	"headwords": [
 		{
-			"text": "חִדּ׳"
+			"text": "חִידּוּשׁ"
+		},
+		{
+			"text": "חִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 451,
 		"column": "a"

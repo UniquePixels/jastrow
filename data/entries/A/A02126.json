@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02126",
-	"slug": "אנדרונא",
-	"headword": {
-		"text": "אִנְדְּרוֹנָא"
-	},
+	"sefariaHeadword": "אִנְדְּרוֹנָא",
+	"headwords": [
+		{
+			"text": "אִנְדְּרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

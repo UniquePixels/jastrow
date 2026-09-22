@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01036",
-	"slug": "כפני",
-	"headword": {
-		"text": "כָּפְנִי"
-	},
+	"sefariaHeadword": "כָּפְנִי",
+	"headwords": [
+		{
+			"text": "כָּפְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

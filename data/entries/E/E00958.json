@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00958",
-	"slug": "התריה",
-	"headword": {
-		"text": "הַתְרָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַתְרָיָה",
+	"headwords": [
+		{
+			"text": "הַתְרָיָה"
+		},
 		{
 			"text": "הַתְרָיָיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הַתְרָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 371,
 		"column": "b"

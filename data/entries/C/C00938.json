@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00938",
-	"slug": "גליגאס",
-	"headword": {
-		"text": "גַּלִּיגָאס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גַּלִּיגָאס",
+	"headwords": [
+		{
+			"text": "גַּלִּיגָאס",
+			"reconstructed": true
+		},
 		{
 			"text": "גַּלִּיגָס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 248,
 		"column": "b"

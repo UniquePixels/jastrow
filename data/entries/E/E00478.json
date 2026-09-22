@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00478",
-	"slug": "היפר",
-	"headword": {
-		"text": "הֵיפֵר"
-	},
+	"sefariaHeadword": "הֵיפֵר",
+	"headwords": [
+		{
+			"text": "הֵיפֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 349,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01322",
-	"slug": "כשפן",
-	"headword": {
-		"text": "כַּשְׁפָּן"
-	},
+	"sefariaHeadword": "כַּשְׁפָּן",
+	"headwords": [
+		{
+			"text": "כַּשְׁפָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 677,
 		"column": "a"

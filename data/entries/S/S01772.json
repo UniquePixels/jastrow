@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01772",
-	"slug": "קפריסין",
-	"headword": {
-		"text": "קַפְרִיסִין"
-	},
+	"sefariaHeadword": "קַפְרִיסִין",
+	"headwords": [
+		{
+			"text": "קַפְרִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1403,
 		"column": "b"

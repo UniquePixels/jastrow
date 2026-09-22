@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01049",
-	"slug": "קינסון",
-	"headword": {
-		"text": "קינסון"
-	},
+	"sefariaHeadword": "קינסון",
+	"headwords": [
+		{
+			"text": "קינסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

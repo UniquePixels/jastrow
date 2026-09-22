@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00008",
-	"slug": "טאיב",
-	"headword": {
-		"text": "טְאֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְאֵיב",
+	"headwords": [
+		{
+			"text": "טְאֵיב"
+		},
 		{
 			"text": "טָאִיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 515,
 		"column": "a"

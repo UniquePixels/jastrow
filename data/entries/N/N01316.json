@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01316",
-	"slug": "נשיק",
-	"headword": {
-		"text": "נְשֵׁיק"
-	},
+	"sefariaHeadword": "נְשֵׁיק",
+	"headwords": [
+		{
+			"text": "נְשֵׁיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

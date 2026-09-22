@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00447",
-	"slug": "חור-5",
-	"headword": {
-		"text": "חוֹר",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹר I",
+	"headwords": [
+		{
+			"text": "חוֹר",
+			"homograph": 1
+		},
 		{
 			"text": "חוּר",
 			"homograph": 2
 		}
 	],
+	"display": "{0} I, {1} II",
 	"page": {
 		"number": 439,
 		"column": "a"

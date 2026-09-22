@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01551",
-	"slug": "סרוד",
-	"headword": {
-		"text": "סָרוּד"
-	},
+	"sefariaHeadword": "סָרוּד",
+	"headwords": [
+		{
+			"text": "סָרוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "b"

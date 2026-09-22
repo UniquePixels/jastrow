@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00677",
-	"slug": "פילול",
-	"headword": {
-		"text": "פִּילּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילּוּל",
+	"headwords": [
 		{
-			"text": "פּלּ׳"
+			"text": "פִּילּוּל"
+		},
+		{
+			"text": "פּלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1163,
 		"column": "b"

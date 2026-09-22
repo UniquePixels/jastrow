@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01022",
-	"slug": "ענתא-2",
-	"headword": {
-		"text": "עַנְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַנְתָּא",
+	"headwords": [
+		{
+			"text": "עַנְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1097,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00944",
-	"slug": "נסיעה",
-	"headword": {
-		"text": "נְסִיעָה"
-	},
+	"sefariaHeadword": "נְסִיעָה",
+	"headwords": [
+		{
+			"text": "נְסִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 917,
 		"column": "a"

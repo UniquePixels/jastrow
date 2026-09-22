@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00553",
-	"slug": "זמרה-1",
-	"headword": {
-		"text": "זְמֹרָה"
-	},
+	"sefariaHeadword": "זְמֹרָה",
+	"headwords": [
+		{
+			"text": "זְמֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 405,
 		"column": "b"

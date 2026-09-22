@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00612",
-	"slug": "המין",
-	"headword": {
-		"text": "הִמִין"
-	},
+	"sefariaHeadword": "הִמִין",
+	"headwords": [
+		{
+			"text": "הִמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

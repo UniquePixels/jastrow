@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00284",
-	"slug": "הורת",
-	"headword": {
-		"text": "הוֹרָת"
-	},
+	"sefariaHeadword": "הוֹרָת",
+	"headwords": [
+		{
+			"text": "הוֹרָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "a"

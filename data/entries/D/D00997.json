@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00997",
-	"slug": "דקונתיה",
-	"headword": {
-		"text": "דקונתיה"
-	},
+	"sefariaHeadword": "דקונתיה",
+	"headwords": [
+		{
+			"text": "דקונתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01649",
-	"slug": "שעטנ״ז",
-	"headword": {
-		"text": "שעטנ״ז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שעטנ\"ז",
+	"headwords": [
 		{
-			"text": "שעטנ״ז ג״ץ"
+			"text": "שעטנ״ז"
+		},
+		{
+			"text": "ש׳ ג״ץ",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1610,
 		"column": "a"

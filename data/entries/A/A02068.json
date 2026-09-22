@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02068",
-	"slug": "אמרכול",
-	"headword": {
-		"text": "אֲמַרְכּוֹל",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲמַרְכֹּול",
+	"headwords": [
+		{
+			"text": "אֲמַרְכּוֹל",
+			"reconstructed": true
+		},
 		{
 			"text": "אֲמַרְכָּל"
 		},
 		{
-			"text": "אַמַּ׳"
+			"text": "אַמַּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, ({2})",
 	"page": {
 		"number": 79,
 		"column": "b"

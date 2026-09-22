@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00025",
-	"slug": "לאן",
-	"headword": {
-		"text": "לְאָן"
-	},
+	"sefariaHeadword": "לְאָן",
+	"headwords": [
+		{
+			"text": "לְאָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

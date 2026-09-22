@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00366",
-	"slug": "גויעה",
-	"headword": {
-		"text": "גְּוִיעָה"
-	},
+	"sefariaHeadword": "גְּוִיעָה",
+	"headwords": [
+		{
+			"text": "גְּוִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

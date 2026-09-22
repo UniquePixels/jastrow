@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00390",
-	"slug": "זיעזע",
-	"headword": {
-		"text": "זִיעֲזֵעַ"
-	},
+	"sefariaHeadword": "זִיעֲזֵעַ",
+	"headwords": [
+		{
+			"text": "זִיעֲזֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

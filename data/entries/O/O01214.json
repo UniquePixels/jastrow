@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01214",
-	"slug": "סנטיר",
-	"headword": {
-		"text": "סִנְטֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנְטֵיר",
+	"headwords": [
+		{
+			"text": "סִנְטֵיר"
+		},
 		{
 			"text": "סַנְטֵיר"
 		},
@@ -12,6 +13,7 @@
 			"text": "סַנְטֵירָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1006,
 		"column": "a"

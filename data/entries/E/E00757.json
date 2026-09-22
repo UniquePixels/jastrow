@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00757",
-	"slug": "הפקירא",
-	"headword": {
-		"text": "הֶפְקֵירָא"
-	},
+	"sefariaHeadword": "הֶפְקֵירָא",
+	"headwords": [
+		{
+			"text": "הֶפְקֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "b"

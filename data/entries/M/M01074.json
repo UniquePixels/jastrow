@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01074",
-	"slug": "מי-3",
-	"headword": {
-		"text": "מַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַי",
+	"headwords": [
+		{
+			"text": "מַי"
+		},
 		{
 			"text": "מַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 770,
 		"column": "b"

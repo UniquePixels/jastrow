@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00279",
-	"slug": "הורכינוס",
-	"headword": {
-		"text": "הוֹרְכִּינוֹס"
-	},
+	"sefariaHeadword": "הוֹרְכִּינוֹס",
+	"headwords": [
+		{
+			"text": "הוֹרְכִּינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "a"

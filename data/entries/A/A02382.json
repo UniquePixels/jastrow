@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02382",
-	"slug": "אסטמא",
-	"headword": {
-		"text": "אִסְטְמָא"
-	},
+	"sefariaHeadword": "אִסְטְמָא",
+	"headwords": [
+		{
+			"text": "אִסְטְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "b"

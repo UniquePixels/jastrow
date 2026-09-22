@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00817",
-	"slug": "פיקעא",
-	"headword": {
-		"text": "פִּיקְעָא"
-	},
+	"sefariaHeadword": "פִּיקְעָא",
+	"headwords": [
+		{
+			"text": "פִּיקְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "a"

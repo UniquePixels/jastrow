@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00843",
-	"slug": "דלם",
-	"headword": {
-		"text": "דֶּלֶם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דֶּלֶם",
+	"headwords": [
+		{
+			"text": "דֶּלֶם"
+		},
 		{
 			"text": "דְּלוּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 310,
 		"column": "b"

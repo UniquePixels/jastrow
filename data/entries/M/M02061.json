@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02061",
-	"slug": "מעגילה",
-	"headword": {
-		"text": "מַעֲגִילָה"
-	},
+	"sefariaHeadword": "מַעֲגִילָה",
+	"headwords": [
+		{
+			"text": "מַעֲגִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00403",
-	"slug": "מוגרה",
-	"headword": {
-		"text": "מוֹגֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹגֵרָה",
+	"headwords": [
+		{
+			"text": "מוֹגֵרָה"
+		},
 		{
 			"text": "מוֹגֶרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "b"

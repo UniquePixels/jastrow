@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01269",
-	"slug": "פסי-1",
-	"headword": {
-		"text": "פסי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פסי",
+	"headwords": [
+		{
+			"text": "פסי"
+		},
 		{
 			"text": "פָּסָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "פָּשָׂה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1194,
 		"column": "b"

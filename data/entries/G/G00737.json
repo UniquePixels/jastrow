@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00737",
-	"slug": "זרר",
-	"headword": {
-		"text": "זָרַר"
-	},
+	"sefariaHeadword": "זָרַר",
+	"headwords": [
+		{
+			"text": "זָרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "b"

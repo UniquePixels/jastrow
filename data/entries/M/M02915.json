@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02915",
-	"slug": "משלחת",
-	"headword": {
-		"text": "מִשְׁלַחַת"
-	},
+	"sefariaHeadword": "מִשְׁלַחַת",
+	"headwords": [
+		{
+			"text": "מִשְׁלַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 855,
 		"column": "b"

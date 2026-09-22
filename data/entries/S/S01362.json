@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01362",
-	"slug": "קלמז",
-	"headword": {
-		"text": "קלמז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלמז",
+	"headwords": [
+		{
+			"text": "קלמז"
+		},
 		{
 			"text": "קלמזמסיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קלמסמסיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1378,
 		"column": "b"

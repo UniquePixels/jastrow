@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00485",
-	"slug": "טלח",
-	"headword": {
-		"text": "טְלַח",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְלַח",
+	"headwords": [
+		{
+			"text": "טְלַח",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 536,
 		"column": "a"

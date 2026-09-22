@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01089",
-	"slug": "סמיי",
-	"headword": {
-		"text": "סמיי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סמיי",
+	"headwords": [
 		{
-			"text": "כפר סמיי"
+			"text": "סמיי"
+		},
+		{
+			"text": "כפר ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1000,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03099",
-	"slug": "אריכא-1",
-	"headword": {
-		"text": "אָרֵיכָא"
-	},
+	"sefariaHeadword": "אָרֵיכָא",
+	"headwords": [
+		{
+			"text": "אָרֵיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "a"

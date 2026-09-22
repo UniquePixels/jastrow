@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00896",
-	"slug": "רעיא",
-	"headword": {
-		"text": "רָעֲיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָעֲיָא",
+	"headwords": [
+		{
+			"text": "רָעֲיָא"
+		},
 		{
 			"text": "רַעְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רַעֲוָיָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1487,
 		"column": "a"

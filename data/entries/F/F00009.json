@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00009",
-	"slug": "וארךוניא",
-	"headword": {
-		"text": "וַארְךּוּנְיָא"
-	},
+	"sefariaHeadword": "וַארְךּוּנְיָא",
+	"headwords": [
+		{
+			"text": "וַארְדּוּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

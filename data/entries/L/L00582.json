@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00582",
-	"slug": "למפדס",
-	"headword": {
-		"text": "לַמְפַּדֹּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַמְפַּדֹּס",
+	"headwords": [
+		{
+			"text": "לַמְפַּדֹּס"
+		},
 		{
 			"text": "למפרס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 713,
 		"column": "a"

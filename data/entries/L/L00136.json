@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00136",
-	"slug": "לגלג-2",
-	"headword": {
-		"text": "לַגְלֵג",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לַגְלֵג I",
+	"headwords": [
+		{
+			"text": "לַגְלֵג",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 693,
 		"column": "a"

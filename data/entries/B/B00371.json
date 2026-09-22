@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00371",
-	"slug": "בורלא-1",
-	"headword": {
-		"text": "בּוּרְלָא"
-	},
+	"sefariaHeadword": "בּוּרְלָא",
+	"headwords": [
+		{
+			"text": "בּוּרְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

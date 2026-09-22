@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03096",
-	"slug": "אריך-2",
-	"headword": {
-		"text": "אֲרִיךְ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִיךְ II",
+	"headwords": [
+		{
+			"text": "אֲרִיךְ",
+			"homograph": 2
+		},
 		{
 			"text": "אֲרִיכָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 119,
 		"column": "b"

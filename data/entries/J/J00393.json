@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00393",
-	"slug": "יללא",
-	"headword": {
-		"text": "יְלָלָא"
-	},
+	"sefariaHeadword": "יְלָלָא",
+	"headwords": [
+		{
+			"text": "יְלָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00520",
-	"slug": "אוארא",
-	"headword": {
-		"text": "אַוָּארָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַוָּארָא",
+	"headwords": [
+		{
+			"text": "אַוָּארָא"
+		},
 		{
 			"text": "אַוִּירָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 21,
 		"column": "a"

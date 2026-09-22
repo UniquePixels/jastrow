@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02710",
-	"slug": "אפיקורא",
-	"headword": {
-		"text": "אַפִּיקוֹרָא"
-	},
+	"sefariaHeadword": "אַפִּיקוֹרָא",
+	"headwords": [
+		{
+			"text": "אַפִּיקוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "a"

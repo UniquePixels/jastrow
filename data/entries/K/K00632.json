@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00632",
-	"slug": "כירים-2",
-	"headword": {
-		"text": "כִּירִים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כִּירִים",
+	"headwords": [
+		{
+			"text": "כִּירִים",
+			"reconstructed": true
+		},
 		{
 			"text": "כִּירִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "a"

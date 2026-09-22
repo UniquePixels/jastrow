@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01289",
-	"slug": "חניכיים",
-	"headword": {
-		"text": "חֲנִיכַיִים",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲנִיכַיִים I",
+	"headwords": [
+		{
+			"text": "חֲנִיכַיִים",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 483,
 		"column": "a"

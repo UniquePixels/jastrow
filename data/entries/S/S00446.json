@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00446",
-	"slug": "קונם",
-	"headword": {
-		"text": "קוֹנָם"
-	},
+	"sefariaHeadword": "קוֹנָם",
+	"headwords": [
+		{
+			"text": "קוֹנָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1335,
 		"column": "b"

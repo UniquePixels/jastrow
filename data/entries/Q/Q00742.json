@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00742",
-	"slug": "פיס-3",
-	"headword": {
-		"text": "פִּיס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיס ²",
+	"headwords": [
+		{
+			"text": "פִּיס",
+			"disambiguator": 2
+		},
 		{
 			"text": "פְּסֵי"
 		}
 	],
+	"display": "{0} ², ({1})",
 	"page": {
 		"number": 1166,
 		"column": "b"

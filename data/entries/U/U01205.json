@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01205",
-	"slug": "שלבין",
-	"headword": {
-		"text": "שְׁלַבִּין"
-	},
+	"sefariaHeadword": "שְׁלַבִּין",
+	"headwords": [
+		{
+			"text": "שְׁלַבִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

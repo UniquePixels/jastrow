@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00536",
-	"slug": "יציקה",
-	"headword": {
-		"text": "יְצִיקָה"
-	},
+	"sefariaHeadword": "יְצִיקָה",
+	"headwords": [
+		{
+			"text": "יְצִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "a"

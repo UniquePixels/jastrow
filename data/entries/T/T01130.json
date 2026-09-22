@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01130",
-	"slug": "רתיון",
-	"headword": {
-		"text": "רִתְיוֹן"
-	},
+	"sefariaHeadword": "רִתְיוֹן",
+	"headwords": [
+		{
+			"text": "רִתְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "a"

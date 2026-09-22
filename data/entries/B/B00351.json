@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00351",
-	"slug": "בורדס",
-	"headword": {
-		"text": "בורדס"
-	},
+	"sefariaHeadword": "בורדס",
+	"headwords": [
+		{
+			"text": "בורדס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

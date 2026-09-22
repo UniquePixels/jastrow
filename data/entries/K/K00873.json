@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00873",
-	"slug": "כנף-3",
-	"headword": {
-		"text": "כָּנָף"
-	},
+	"sefariaHeadword": "כָּנָף",
+	"headwords": [
+		{
+			"text": "כָּנָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 651,
 		"column": "a"

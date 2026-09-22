@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00383",
-	"slug": "לטומיא",
-	"headword": {
-		"text": "לָטוֹמְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לָטוֹמְיָא",
+	"headwords": [
+		{
+			"text": "לָטוֹמְיָא"
+		},
 		{
 			"text": "לַאוְטוּמְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 705,
 		"column": "a"

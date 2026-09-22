@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01702",
-	"slug": "קפדן",
-	"headword": {
-		"text": "קַפְדָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַפְדָּן",
+	"headwords": [
+		{
+			"text": "קַפְדָּן"
+		},
 		{
 			"text": "קוֹפְדָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1398,
 		"column": "b"

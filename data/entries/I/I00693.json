@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00693",
-	"slug": "טקוס",
-	"headword": {
-		"text": "טִקּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִקּוּס",
+	"headwords": [
+		{
+			"text": "טִקּוּס"
+		},
 		{
 			"text": "טִקּוּסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 549,
 		"column": "b"

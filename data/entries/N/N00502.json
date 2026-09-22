@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00502",
-	"slug": "נחלה",
-	"headword": {
-		"text": "נַחֲלָה"
-	},
+	"sefariaHeadword": "נַחֲלָה",
+	"headwords": [
+		{
+			"text": "נַחֲלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 895,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00310",
-	"slug": "פופסדס",
-	"headword": {
-		"text": "פופסדס"
-	},
+	"sefariaHeadword": "פופסדס",
+	"headwords": [
+		{
+			"text": "פופסדס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01568",
-	"slug": "שנאן",
-	"headword": {
-		"text": "שִׁנְאָן"
-	},
+	"sefariaHeadword": "שִׁנְאָן",
+	"headwords": [
+		{
+			"text": "שִׁנְאָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "b"

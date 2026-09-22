@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00095",
-	"slug": "ידד",
-	"headword": {
-		"text": "יְדַד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְדַד",
+	"headwords": [
+		{
+			"text": "יְדַד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 564,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

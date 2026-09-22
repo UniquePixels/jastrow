@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00582",
-	"slug": "נטפיק",
-	"headword": {
-		"text": "נַטְפִּיק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נַטְפִּיק",
+	"headwords": [
+		{
+			"text": "נַטְפִּיק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 901,
 		"column": "a"

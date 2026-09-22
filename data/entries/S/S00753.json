@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00753",
-	"slug": "קטינא-2",
-	"headword": {
-		"text": "קַטִּינָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קַטִּינָא III",
+	"headwords": [
+		{
+			"text": "קַטִּינָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1348,
 		"column": "a"

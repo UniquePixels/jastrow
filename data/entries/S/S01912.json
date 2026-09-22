@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01912",
-	"slug": "קרדי",
-	"headword": {
-		"text": "קרדי"
-	},
+	"sefariaHeadword": "קרדי",
+	"headwords": [
+		{
+			"text": "קרדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

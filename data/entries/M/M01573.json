@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01573",
-	"slug": "מלך-5",
-	"headword": {
-		"text": "מֶלֶךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֶלֶךְ ²",
+	"headwords": [
+		{
+			"text": "מֶלֶךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְלֵיךְ"
 		},
@@ -13,6 +14,7 @@
 			"text": "מַלְכָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 791,
 		"column": "b"

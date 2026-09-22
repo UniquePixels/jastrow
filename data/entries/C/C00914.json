@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00914",
-	"slug": "גלופקרא",
-	"headword": {
-		"text": "גְּלוּפְקְרָא"
-	},
+	"sefariaHeadword": "גְּלוּפְקְרָא",
+	"headwords": [
+		{
+			"text": "גְּלוּפְקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

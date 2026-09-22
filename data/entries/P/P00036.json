@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00036",
-	"slug": "עבות-2",
-	"headword": {
-		"text": "עֲבוֹת"
-	},
+	"sefariaHeadword": "עֲבוֹת",
+	"headwords": [
+		{
+			"text": "עֲבוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1037,
 		"column": "a"

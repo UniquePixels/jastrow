@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00752",
-	"slug": "דיתכאות",
-	"headword": {
-		"text": "דיתכאות"
-	},
+	"sefariaHeadword": "דיתכאות",
+	"headwords": [
+		{
+			"text": "דיתכאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "a"

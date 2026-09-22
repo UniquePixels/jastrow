@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01654",
-	"slug": "קסטרון",
-	"headword": {
-		"text": "קַסִּטְרוֹן"
-	},
+	"sefariaHeadword": "קַסִּטְרוֹן",
+	"headwords": [
+		{
+			"text": "קַסִּטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00970",
-	"slug": "קילופא",
-	"headword": {
-		"text": "קִילּוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילּוּפָא",
+	"headwords": [
 		{
-			"text": "קִלּ׳"
+			"text": "קִילּוּפָא"
+		},
+		{
+			"text": "קִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1360,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01163",
-	"slug": "אידית",
-	"headword": {
-		"text": "אִידִית"
-	},
+	"sefariaHeadword": "אִידִית",
+	"headwords": [
+		{
+			"text": "אִידִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

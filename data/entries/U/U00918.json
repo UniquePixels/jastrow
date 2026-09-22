@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00918",
-	"slug": "שיכוי",
-	"headword": {
-		"text": "שִׂיכּוּי"
-	},
+	"sefariaHeadword": "שִׂיכּוּי",
+	"headwords": [
+		{
+			"text": "שִׂיכּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01624",
-	"slug": "קנתור-3",
-	"headword": {
-		"text": "(קנתור)"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(קנתור)",
+	"headwords": [
+		{
+			"text": "קנתור"
+		},
 		{
 			"text": "קִנְתִּינַר"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִנְתֵּיר"
 		}
 	],
+	"display": "({0}), {1}, {2}",
 	"page": {
 		"number": 1395,
 		"column": "a"

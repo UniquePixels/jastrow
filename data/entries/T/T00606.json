@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00606",
-	"slug": "רידוותא",
-	"headword": {
-		"text": "רִידְוָותָא"
-	},
+	"sefariaHeadword": "רִידְוָותָא",
+	"headwords": [
+		{
+			"text": "רִידְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

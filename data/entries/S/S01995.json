@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01995",
-	"slug": "קרטופנא",
-	"headword": {
-		"text": "קַרְטוּפְנָא"
-	},
+	"sefariaHeadword": "קַרְטוּפְנָא",
+	"headwords": [
+		{
+			"text": "קַרְטוּפְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00936",
-	"slug": "דנרסי",
-	"headword": {
-		"text": "דנרסי"
-	},
+	"sefariaHeadword": "דנרסי",
+	"headwords": [
+		{
+			"text": "דנרסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"D01048\"><he>דַּרְדֵּסִין</he></cite>",
+			"gloss": ", v. <cite ref=\"D01048\"><he>דַּרְדֵּסִין</he></cite>",
 			"units": []
 		}
 	]

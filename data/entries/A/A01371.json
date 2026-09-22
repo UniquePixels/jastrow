@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01371",
-	"slug": "אינדרא",
-	"headword": {
-		"text": "אִינְדְּרָא"
-	},
+	"sefariaHeadword": "אִינְדְּרָא",
+	"headwords": [
+		{
+			"text": "אִינְדְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

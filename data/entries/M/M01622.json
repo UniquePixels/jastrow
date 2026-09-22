@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01622",
-	"slug": "מלקחת",
-	"headword": {
-		"text": "מֶלְקַחַת"
-	},
+	"sefariaHeadword": "מֶלְקַחַת",
+	"headwords": [
+		{
+			"text": "מֶלְקַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "b"

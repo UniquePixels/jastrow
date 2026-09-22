@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00311",
-	"slug": "תורף-1",
-	"headword": {
-		"text": "תּוֹרֶף"
-	},
+	"sefariaHeadword": "תּוֹרֶף",
+	"headwords": [
+		{
+			"text": "תּוֹרֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "a"

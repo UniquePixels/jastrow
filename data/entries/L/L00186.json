@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00186",
-	"slug": "לוגיסטיס",
-	"headword": {
-		"text": "לוֹגִיסְטֵיס"
-	},
+	"sefariaHeadword": "לוֹגִיסְטֵיס",
+	"headwords": [
+		{
+			"text": "לוֹגִיסְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "b"

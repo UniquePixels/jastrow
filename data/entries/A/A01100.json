@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01100",
-	"slug": "אטפא",
-	"headword": {
-		"text": "אַטְּפָא"
-	},
+	"sefariaHeadword": "אַטְּפָא",
+	"headwords": [
+		{
+			"text": "אַטְּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "a"

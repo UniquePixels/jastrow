@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00670",
-	"slug": "ריע-3",
-	"headword": {
-		"text": "רִיע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיע",
+	"headwords": [
+		{
+			"text": "רִיע"
+		},
 		{
 			"text": "רֵעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1475,
 		"column": "b"

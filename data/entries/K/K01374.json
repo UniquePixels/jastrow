@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01374",
-	"slug": "כתן-1",
-	"headword": {
-		"text": "כִּתַּן"
-	},
+	"sefariaHeadword": "כִּתַּן",
+	"headwords": [
+		{
+			"text": "כִּתַּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "a"

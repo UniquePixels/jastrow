@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00766",
-	"slug": "רכך-1",
-	"headword": {
-		"text": "רָכַךְ"
-	},
+	"sefariaHeadword": "רָכַךְ",
+	"headwords": [
+		{
+			"text": "רָכַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

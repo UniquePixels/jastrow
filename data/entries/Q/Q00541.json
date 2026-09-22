@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00541",
-	"slug": "פטפוט",
-	"headword": {
-		"text": "פִּטְפּוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּטְפּוּט",
+	"headwords": [
 		{
-			"text": "פִּיטְ׳"
+			"text": "פִּטְפּוּט"
+		},
+		{
+			"text": "פִּיטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1156,
 		"column": "b"

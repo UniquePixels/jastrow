@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01367",
-	"slug": "אינב",
-	"headword": {
-		"text": "אֵינָב"
-	},
+	"sefariaHeadword": "אֵינָב",
+	"headwords": [
+		{
+			"text": "אֵינָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "a"

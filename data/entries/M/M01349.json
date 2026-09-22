@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01349",
-	"slug": "מכברה",
-	"headword": {
-		"text": "מַכְבֵּרָה"
-	},
+	"sefariaHeadword": "מַכְבֵּרָה",
+	"headwords": [
+		{
+			"text": "מַכְבֵּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "a"

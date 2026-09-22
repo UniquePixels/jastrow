@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01498",
-	"slug": "פקס-3",
-	"headword": {
-		"text": "פְּקַס"
-	},
+	"sefariaHeadword": "פְּקַס",
+	"headwords": [
+		{
+			"text": "פְּקַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1210,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00808",
-	"slug": "מחדוי",
-	"headword": {
-		"text": "מחדוי"
-	},
+	"sefariaHeadword": "מחדוי",
+	"headwords": [
+		{
+			"text": "מחדוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "b"

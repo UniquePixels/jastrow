@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01293",
-	"slug": "קלוקלון",
-	"headword": {
-		"text": "קלוקלון"
-	},
+	"sefariaHeadword": "קלוקלון",
+	"headwords": [
+		{
+			"text": "קלוקלון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

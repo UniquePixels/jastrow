@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00511",
-	"slug": "עידור",
-	"headword": {
-		"text": "עִידּוּר"
-	},
+	"sefariaHeadword": "עִידּוּר",
+	"headwords": [
+		{
+			"text": "עִידּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "b"

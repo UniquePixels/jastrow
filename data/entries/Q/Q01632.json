@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01632",
-	"slug": "פרווה",
-	"headword": {
-		"text": "פַּרְוָוה"
-	},
+	"sefariaHeadword": "פַּרְוָוה",
+	"headwords": [
+		{
+			"text": "פַּרְוָוה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

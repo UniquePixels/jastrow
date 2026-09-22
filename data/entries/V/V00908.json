@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00908",
-	"slug": "תקף-1",
-	"headword": {
-		"text": "תָּקַף"
-	},
+	"sefariaHeadword": "תָּקַף",
+	"headwords": [
+		{
+			"text": "תָּקַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1693,
 		"column": "b"

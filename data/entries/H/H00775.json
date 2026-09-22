@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00775",
-	"slug": "חילחול",
-	"headword": {
-		"text": "חִילְחוּל"
-	},
+	"sefariaHeadword": "חִילְחוּל",
+	"headwords": [
+		{
+			"text": "חִילְחוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00276",
-	"slug": "קוזמוקטור",
-	"headword": {
-		"text": "קוזמוקטור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוזמוקטור",
+	"headwords": [
+		{
+			"text": "קוזמוקטור"
+		},
 		{
 			"text": "קוזמוקיטר"
 		},
@@ -12,12 +13,14 @@
 			"text": "קוזמוקלוטור"
 		},
 		{
-			"text": "קוזמוקלט׳"
+			"text": "קוזמוקלט׳",
+			"partial": true
 		},
 		{
 			"text": "קוזמוקרוטור"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1325,
 		"column": "b"

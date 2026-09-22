@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00330",
-	"slug": "הי-4",
-	"headword": {
-		"text": "הִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הִי II",
+	"headwords": [
+		{
+			"text": "הִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 343,
 		"column": "a"

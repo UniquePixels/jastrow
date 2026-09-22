@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00825",
-	"slug": "מחויאתא",
-	"headword": {
-		"text": "מְחוּיָאתָא"
-	},
+	"sefariaHeadword": "מְחוּיָאתָא",
+	"headwords": [
+		{
+			"text": "מְחוּיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

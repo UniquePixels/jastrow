@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00425",
-	"slug": "ציפרי",
-	"headword": {
-		"text": "צִיפֹּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפֹּרֵי",
+	"headwords": [
+		{
+			"text": "צִיפֹּרֵי"
+		},
 		{
 			"text": "צִיפֹּרָיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1279,
 		"column": "a"

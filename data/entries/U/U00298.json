@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00298",
-	"slug": "שהות",
-	"headword": {
-		"text": "שָׁהוּת"
-	},
+	"sefariaHeadword": "שָׁהוּת",
+	"headwords": [
+		{
+			"text": "שָׁהוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1526,
 		"column": "b"

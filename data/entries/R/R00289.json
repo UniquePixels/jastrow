@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00289",
-	"slug": "צטר",
-	"headword": {
-		"text": "צְטַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְטַר",
+	"headwords": [
+		{
+			"text": "צְטַר"
+		},
 		{
 			"text": "צִטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1274,
 		"column": "a"

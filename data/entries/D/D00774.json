@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00774",
-	"slug": "דכיח",
-	"headword": {
-		"text": "דכיח"
-	},
+	"sefariaHeadword": "דכיח",
+	"headwords": [
+		{
+			"text": "דכיח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00078",
-	"slug": "עגבה",
-	"headword": {
-		"text": "עֲגָבָה"
-	},
+	"sefariaHeadword": "עֲגָבָה",
+	"headwords": [
+		{
+			"text": "עֲגָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "b"

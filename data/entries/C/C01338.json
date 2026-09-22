@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01338",
-	"slug": "גריע",
-	"headword": {
-		"text": "גְּרִיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרִיעַ",
+	"headwords": [
+		{
+			"text": "גְּרִיעַ"
+		},
 		{
 			"text": "גְּרִיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 268,
 		"column": "b"

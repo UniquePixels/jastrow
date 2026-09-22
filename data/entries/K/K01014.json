@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01014",
-	"slug": "כפילה",
-	"headword": {
-		"text": "כְּפֵילָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּפֵילָה",
+	"headwords": [
+		{
+			"text": "כְּפֵילָה"
+		},
 		{
 			"text": "כְּפֵלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 659,
 		"column": "a"

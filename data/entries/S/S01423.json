@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01423",
-	"slug": "קלרה",
-	"headword": {
-		"text": "קַלְרָה"
-	},
+	"sefariaHeadword": "קַלְרָה",
+	"headwords": [
+		{
+			"text": "קַלְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1382,
 		"column": "b"

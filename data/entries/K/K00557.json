@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00557",
-	"slug": "כילתא-1",
-	"headword": {
-		"text": "כִּילְתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כִּילְתָא I",
+	"headwords": [
+		{
+			"text": "כִּילְתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 633,
 		"column": "a"

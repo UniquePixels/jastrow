@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00380",
-	"slug": "דורסות",
-	"headword": {
-		"text": "דורסות"
-	},
+	"sefariaHeadword": "דורסות",
+	"headwords": [
+		{
+			"text": "דורסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "a"

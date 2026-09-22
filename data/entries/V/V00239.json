@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00239",
-	"slug": "תונבא",
-	"headword": {
-		"text": "תּוּנְבָּא"
-	},
+	"sefariaHeadword": "תּוּנְבָּא",
+	"headwords": [
+		{
+			"text": "תּוּנְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

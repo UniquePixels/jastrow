@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00254",
-	"slug": "הונייקי",
-	"headword": {
-		"text": "הוּנְיָיקִי"
-	},
+	"sefariaHeadword": "הוּנְיָיקִי",
+	"headwords": [
+		{
+			"text": "הוּנְיָיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

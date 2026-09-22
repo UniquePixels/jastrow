@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01528",
-	"slug": "חציר-1",
-	"headword": {
-		"text": "חֲצֵיר־"
-	},
+	"sefariaHeadword": "חֲצֵיר־",
+	"headwords": [
+		{
+			"text": "חֲצֵיר־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "b"

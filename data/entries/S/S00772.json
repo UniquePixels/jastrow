@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00772",
-	"slug": "קטיריקי",
-	"headword": {
-		"text": "קטיריקי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קטיריקי",
+	"headwords": [
+		{
+			"text": "קטיריקי"
+		},
 		{
 			"text": "קטירקי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1349,
 		"column": "a"

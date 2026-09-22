@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00733",
-	"slug": "זרפא",
-	"headword": {
-		"text": "זִרְפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִרְפָּא",
+	"headwords": [
 		{
-			"text": "זִירְ׳"
+			"text": "זִרְפָּא"
+		},
+		{
+			"text": "זִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 415,
 		"column": "a"

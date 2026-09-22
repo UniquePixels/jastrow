@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00698",
-	"slug": "גיחכא",
-	"headword": {
-		"text": "גִּיחֲכָא"
-	},
+	"sefariaHeadword": "גִּיחֲכָא",
+	"headwords": [
+		{
+			"text": "גִּיחֲכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

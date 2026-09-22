@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00707",
-	"slug": "דיקונתיה",
-	"headword": {
-		"text": "דיקונתיה"
-	},
+	"sefariaHeadword": "דיקונתיה",
+	"headwords": [
+		{
+			"text": "דיקונתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

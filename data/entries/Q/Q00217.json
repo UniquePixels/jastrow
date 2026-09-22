@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00217",
-	"slug": "פולח",
-	"headword": {
-		"text": "פּוֹלִחַ"
-	},
+	"sefariaHeadword": "פּוֹלִחַ",
+	"headwords": [
+		{
+			"text": "פּוֹלִחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

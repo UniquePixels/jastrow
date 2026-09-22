@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00143",
-	"slug": "דהבאי",
-	"headword": {
-		"text": "דַּהֲבַאי"
-	},
+	"sefariaHeadword": "דַּהֲבַאי",
+	"headwords": [
+		{
+			"text": "דַּהֲבַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

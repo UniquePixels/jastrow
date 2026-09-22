@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00394",
-	"slug": "הילול",
-	"headword": {
-		"text": "הִילּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִילּוּל",
+	"headwords": [
+		{
+			"text": "הִילּוּל"
+		},
 		{
 			"text": "הִלּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 346,
 		"column": "a"

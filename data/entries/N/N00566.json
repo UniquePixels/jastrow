@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00566",
-	"slug": "נטיר-2",
-	"headword": {
-		"text": "נְטִיר"
-	},
+	"sefariaHeadword": "נְטִיר",
+	"headwords": [
+		{
+			"text": "נְטִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02372",
-	"slug": "אסטית",
-	"headword": {
-		"text": "אסטית"
-	},
+	"sefariaHeadword": "אסטית",
+	"headwords": [
+		{
+			"text": "אסטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

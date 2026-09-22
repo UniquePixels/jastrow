@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01470",
-	"slug": "סקילא",
-	"headword": {
-		"text": "סקילא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סקילא",
+	"headwords": [
+		{
+			"text": "סקילא"
+		},
 		{
 			"text": "סיקלא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1019,
 		"column": "b"

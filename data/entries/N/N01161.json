@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01161",
-	"slug": "נקבתא",
-	"headword": {
-		"text": "נְקֵבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקֵבְתָּא",
+	"headwords": [
+		{
+			"text": "נְקֵבְתָּא"
+		},
 		{
 			"text": "נְקֵבְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02601",
-	"slug": "אפדייני",
-	"headword": {
-		"text": "אפדייני"
-	},
+	"sefariaHeadword": "אפדייני",
+	"headwords": [
+		{
+			"text": "אפדייני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

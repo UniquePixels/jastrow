@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00711",
-	"slug": "בירור",
-	"headword": {
-		"text": "בֵּירוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּירוּר",
+	"headwords": [
+		{
+			"text": "בֵּירוּר"
+		},
 		{
 			"text": "בֵּרוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 166,
 		"column": "a"

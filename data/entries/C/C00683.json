@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00683",
-	"slug": "גיזין",
-	"headword": {
-		"text": "גִּיזִּין"
-	},
+	"sefariaHeadword": "גִּיזִּין",
+	"headwords": [
+		{
+			"text": "גִּיזִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

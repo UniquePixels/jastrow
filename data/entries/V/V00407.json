@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00407",
-	"slug": "תיב",
-	"headword": {
-		"text": "תִּיב"
-	},
+	"sefariaHeadword": "תִּיב",
+	"headwords": [
+		{
+			"text": "תִּיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

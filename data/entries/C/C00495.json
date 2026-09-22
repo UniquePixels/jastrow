@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00495",
-	"slug": "גוריון",
-	"headword": {
-		"text": "גּוּרְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּרְיוֹן",
+	"headwords": [
+		{
+			"text": "גּוּרְיוֹן"
+		},
 		{
 			"text": "גּוּרְיָין"
 		},
@@ -12,6 +13,7 @@
 			"text": "גּוּרְיָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 227,
 		"column": "a"

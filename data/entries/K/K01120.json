@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01120",
-	"slug": "כרוכין",
-	"headword": {
-		"text": "כרוכין"
-	},
+	"sefariaHeadword": "כרוכין",
+	"headwords": [
+		{
+			"text": "כרוכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

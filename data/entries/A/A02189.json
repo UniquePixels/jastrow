@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02189",
-	"slug": "אנטיפטרין",
-	"headword": {
-		"text": "אנטיפטרין"
-	},
+	"sefariaHeadword": "אנטיפטרין",
+	"headwords": [
+		{
+			"text": "אנטיפטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

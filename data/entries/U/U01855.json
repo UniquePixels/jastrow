@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01855",
-	"slug": "שקיד",
-	"headword": {
-		"text": "שָׁקֵיד"
-	},
+	"sefariaHeadword": "שָׁקֵיד",
+	"headwords": [
+		{
+			"text": "שָׁקֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "b"

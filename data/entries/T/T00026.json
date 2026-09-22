@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00026",
-	"slug": "ראני",
-	"headword": {
-		"text": "רָאנֵי"
-	},
+	"sefariaHeadword": "רָאנֵי",
+	"headwords": [
+		{
+			"text": "רָאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1437,
 		"column": "a"

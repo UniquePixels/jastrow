@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00659",
-	"slug": "חיבורא",
-	"headword": {
-		"text": "חִיבּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיבּוּרָא",
+	"headwords": [
 		{
-			"text": "חִבּ׳"
+			"text": "חִיבּוּרָא"
+		},
+		{
+			"text": "חִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 451,
 		"column": "a"

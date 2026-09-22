@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03054",
-	"slug": "ארזון",
-	"headword": {
-		"text": "ארזון"
-	},
+	"sefariaHeadword": "ארזון",
+	"headwords": [
+		{
+			"text": "ארזון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

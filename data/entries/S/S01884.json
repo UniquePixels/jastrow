@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01884",
-	"slug": "קרב-2",
-	"headword": {
-		"text": "קְרֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרֵב",
+	"headwords": [
+		{
+			"text": "קְרֵב"
+		},
 		{
 			"text": "קְרֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1410,
 		"column": "b"

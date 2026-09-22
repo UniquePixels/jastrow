@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01159",
-	"slug": "ברא-3",
-	"headword": {
-		"text": "בְּרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בְּרָא II",
+	"headwords": [
+		{
+			"text": "בְּרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 189,
 		"column": "a"

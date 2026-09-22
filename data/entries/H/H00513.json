@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00513",
-	"slug": "חזונא-1",
-	"headword": {
-		"text": "חָזוֹנָא"
-	},
+	"sefariaHeadword": "חָזוֹנָא",
+	"headwords": [
+		{
+			"text": "חָזוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

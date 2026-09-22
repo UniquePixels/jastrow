@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03423",
-	"slug": "אתמהא",
-	"headword": {
-		"text": "אֶתְמְהָא"
-	},
+	"sefariaHeadword": "אֶתְמְהָא",
+	"headwords": [
+		{
+			"text": "אֶתְמְהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "a"

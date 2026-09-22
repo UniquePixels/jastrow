@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00376",
-	"slug": "פורענות",
-	"headword": {
-		"text": "פּוּרְעָנוּת"
-	},
+	"sefariaHeadword": "פּוּרְעָנוּת",
+	"headwords": [
+		{
+			"text": "פּוּרְעָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1148,
 		"column": "a"

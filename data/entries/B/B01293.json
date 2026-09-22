@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01293",
-	"slug": "ברכוייד",
-	"headword": {
-		"text": "ברכוייד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ברכוייד",
+	"headwords": [
+		{
+			"text": "ברכוייד"
+		},
 		{
 			"text": "ברכוייר"
 		},
@@ -12,6 +13,7 @@
 			"text": "בורכייד"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 196,
 		"column": "a"

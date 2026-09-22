@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01053",
-	"slug": "עסק-2",
-	"headword": {
-		"text": "עֲסֵק"
-	},
+	"sefariaHeadword": "עֲסֵק",
+	"headwords": [
+		{
+			"text": "עֲסֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1099,
 		"column": "a"

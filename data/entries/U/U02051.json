@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02051",
-	"slug": "שרתוע",
-	"headword": {
-		"text": "שִׁרְתּוּעַ"
-	},
+	"sefariaHeadword": "שִׁרְתּוּעַ",
+	"headwords": [
+		{
+			"text": "שִׁרְתּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

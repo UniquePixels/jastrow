@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02501",
-	"slug": "מרביצי",
-	"headword": {
-		"text": "מרביצי"
-	},
+	"sefariaHeadword": "מרביצי",
+	"headwords": [
+		{
+			"text": "מרביצי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

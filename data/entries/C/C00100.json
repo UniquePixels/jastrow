@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00100",
-	"slug": "גביעה",
-	"headword": {
-		"text": "גְּבִיעָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּבִיעָה II",
+	"headwords": [
+		{
+			"text": "גְּבִיעָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 207,
 		"column": "a"

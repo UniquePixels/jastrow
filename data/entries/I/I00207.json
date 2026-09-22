@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00207",
-	"slug": "טופנא",
-	"headword": {
-		"text": "טוֹפָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹפָנָא",
+	"headwords": [
 		{
-			"text": "טוּ׳"
+			"text": "טוֹפָנָא"
+		},
+		{
+			"text": "טוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 525,
 		"column": "b"

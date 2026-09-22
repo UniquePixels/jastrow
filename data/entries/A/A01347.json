@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01347",
-	"slug": "אימצי",
-	"headword": {
-		"text": "אִימְצִי"
-	},
+	"sefariaHeadword": "אִימְצִי",
+	"headwords": [
+		{
+			"text": "אִימְצִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

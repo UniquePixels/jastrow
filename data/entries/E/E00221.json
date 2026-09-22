@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00221",
-	"slug": "הווינא-2",
-	"headword": {
-		"text": "הֲוִוינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲוִוינָא",
+	"headwords": [
+		{
+			"text": "הֲוִוינָא"
+		},
 		{
 			"text": "הֲוִוינָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 338,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00614",
-	"slug": "זעקה",
-	"headword": {
-		"text": "זְעָקָה"
-	},
+	"sefariaHeadword": "זְעָקָה",
+	"headwords": [
+		{
+			"text": "זְעָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

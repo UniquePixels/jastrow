@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00624",
-	"slug": "שחוף",
-	"headword": {
-		"text": "שָׁחוּף"
-	},
+	"sefariaHeadword": "שָׁחוּף",
+	"headwords": [
+		{
+			"text": "שָׁחוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "a"

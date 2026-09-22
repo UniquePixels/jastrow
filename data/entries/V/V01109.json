@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01109",
-	"slug": "תשרי",
-	"headword": {
-		"text": "תִּשְׁרִי"
-	},
+	"sefariaHeadword": "תִּשְׁרִי",
+	"headwords": [
+		{
+			"text": "תִּשְׁרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "a"

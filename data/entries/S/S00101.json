@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00101",
-	"slug": "קברין-2",
-	"headword": {
-		"text": "קברין",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קברין ²",
+	"headwords": [
+		{
+			"text": "קברין",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1313,
 		"column": "a"

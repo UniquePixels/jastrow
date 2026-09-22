@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00578",
-	"slug": "תלוי",
-	"headword": {
-		"text": "תְּלוֹי"
-	},
+	"sefariaHeadword": "תְּלוֹי",
+	"headwords": [
+		{
+			"text": "תְּלוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "b"

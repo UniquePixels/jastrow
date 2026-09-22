@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "G00294",
-	"slug": "זיהרא-2",
-	"headword": {
-		"text": "זִיהֲרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיהֲרָא II",
+	"headwords": [
+		{
+			"text": "זִיהֲרָא",
+			"homograph": 2
+		},
 		{
 			"text": "זַהֲרָא"
 		}

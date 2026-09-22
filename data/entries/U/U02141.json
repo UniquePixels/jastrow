@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U02141",
-	"slug": "שתת-3",
-	"headword": {
-		"text": "שָׁתַת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁתַת II",
+	"headwords": [
+		{
+			"text": "שָׁתַת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1640,
 		"column": "b"

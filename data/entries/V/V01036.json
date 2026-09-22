@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01036",
-	"slug": "תרעילה",
-	"headword": {
-		"text": "תַּרְעֵילָה"
-	},
+	"sefariaHeadword": "תַּרְעֵילָה",
+	"headwords": [
+		{
+			"text": "תַּרְעֵילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "a"

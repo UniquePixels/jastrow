@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00489",
-	"slug": "רחוקה",
-	"headword": {
-		"text": "רְחוּקָה"
-	},
+	"sefariaHeadword": "רְחוּקָה",
+	"headwords": [
+		{
+			"text": "רְחוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01288",
-	"slug": "מיקן",
-	"headword": {
-		"text": "מִיקַן"
-	},
+	"sefariaHeadword": "מִיקַן",
+	"headwords": [
+		{
+			"text": "מִיקַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

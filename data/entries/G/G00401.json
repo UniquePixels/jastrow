@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00401",
-	"slug": "זיפת׳",
-	"headword": {
-		"text": "זִיפְתּ׳"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיפְתּ׳",
+	"headwords": [
+		{
+			"text": "זִיפְתּ׳"
+		},
 		{
 			"text": "זִיפְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00134",
-	"slug": "גברותא",
-	"headword": {
-		"text": "גִּבָּרוּתָא"
-	},
+	"sefariaHeadword": "גִּבָּרוּתָא",
+	"headwords": [
+		{
+			"text": "גִּבָּרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

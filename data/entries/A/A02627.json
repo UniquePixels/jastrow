@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02627",
-	"slug": "אפון",
-	"headword": {
-		"text": "אָפוּן"
-	},
+	"sefariaHeadword": "אָפוּן",
+	"headwords": [
+		{
+			"text": "אָפוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01119",
-	"slug": "דרפתקי",
-	"headword": {
-		"text": "דרפתקי"
-	},
+	"sefariaHeadword": "דרפתקי",
+	"headwords": [
+		{
+			"text": "דרפתקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "a"

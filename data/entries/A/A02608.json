@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02608",
-	"slug": "אפובלסמון",
-	"headword": {
-		"text": "אָפּוֹבַּלְסְמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָפֹּובַּלְסְמוֹן",
+	"headwords": [
 		{
-			"text": "אָפּוֹפַּלְסְמוֹן"
+			"text": "אָפּוֹבַּלְסְמוֹן"
+		},
+		{
+			"text": "אָפּוֹפַּלְסְמוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 100,
 		"column": "a"

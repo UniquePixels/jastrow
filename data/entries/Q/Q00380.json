@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00380",
-	"slug": "פורפורא",
-	"headword": {
-		"text": "פּוּרְפּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְפּוּרָא",
+	"headwords": [
+		{
+			"text": "פּוּרְפּוּרָא"
+		},
 		{
 			"text": "פּוּרְפּוּרָה"
 		},
 		{
-			"text": "פּוּרְפִּי׳"
+			"text": "פּוּרְפִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1148,
 		"column": "a"

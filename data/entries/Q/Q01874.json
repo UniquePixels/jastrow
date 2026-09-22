@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01874",
-	"slug": "פרמועה",
-	"headword": {
-		"text": "פַּרְמוֹעָה"
-	},
+	"sefariaHeadword": "פַּרְמוֹעָה",
+	"headwords": [
+		{
+			"text": "פַּרְמוֹעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

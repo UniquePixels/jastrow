@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00822",
-	"slug": "דלוף",
-	"headword": {
-		"text": "דְּלוּף"
-	},
+	"sefariaHeadword": "דְּלוּף",
+	"headwords": [
+		{
+			"text": "דְּלוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

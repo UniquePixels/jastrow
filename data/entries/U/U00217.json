@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00217",
-	"slug": "שגושא",
-	"headword": {
-		"text": "שָׁגוֹשָׁא"
-	},
+	"sefariaHeadword": "שָׁגוֹשָׁא",
+	"headwords": [
+		{
+			"text": "שָׁגוֹשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "b"

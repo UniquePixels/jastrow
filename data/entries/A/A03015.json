@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03015",
-	"slug": "ארובה",
-	"headword": {
-		"text": "אֲרוּבָּה"
-	},
+	"sefariaHeadword": "אֲרוּבָּה",
+	"headwords": [
+		{
+			"text": "אֲרוּבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

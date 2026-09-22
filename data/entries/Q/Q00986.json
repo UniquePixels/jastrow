@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00986",
-	"slug": "פלוסלוס-2",
-	"headword": {
-		"text": "פְּלוֹסְלוֹס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּלוֹסְלוֹס II",
+	"headwords": [
+		{
+			"text": "פְּלוֹסְלוֹס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1178,
 		"column": "a"

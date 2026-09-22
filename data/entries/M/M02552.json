@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02552",
-	"slug": "מרדכי",
-	"headword": {
-		"text": "מָרְדְּכַי"
-	},
+	"sefariaHeadword": "מָרְדְּכַי",
+	"headwords": [
+		{
+			"text": "מָרְדְּכַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

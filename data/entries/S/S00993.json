@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00993",
-	"slug": "קילקלין",
-	"headword": {
-		"text": "קִילְקִלִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילְקִלִּין",
+	"headwords": [
 		{
-			"text": "קִילְקִילִּ׳"
+			"text": "קִילְקִלִּין"
+		},
+		{
+			"text": "קִילְקִילִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1361,
 		"column": "b"

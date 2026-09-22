@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00690",
-	"slug": "כלה-1",
-	"headword": {
-		"text": "כְּלָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּלָה",
+	"headwords": [
+		{
+			"text": "כְּלָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

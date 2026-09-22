@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01546",
-	"slug": "סרהב-2",
-	"headword": {
-		"text": "סַרְהֵב"
-	},
+	"sefariaHeadword": "סַרְהֵב",
+	"headwords": [
+		{
+			"text": "סַרְהֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "b"

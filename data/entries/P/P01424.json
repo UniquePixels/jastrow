@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01424",
-	"slug": "ערער-8",
-	"headword": {
-		"text": "עַרְעַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְעַר",
+	"headwords": [
+		{
+			"text": "עַרְעַר"
+		},
 		{
 			"text": "עִרְעוּר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1122,
 		"column": "a"

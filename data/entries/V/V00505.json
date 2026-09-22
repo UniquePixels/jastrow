@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00505",
-	"slug": "תירוצא",
-	"headword": {
-		"text": "תִּירוּצָא"
-	},
+	"sefariaHeadword": "תִּירוּצָא",
+	"headwords": [
+		{
+			"text": "תִּירוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

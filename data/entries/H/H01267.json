@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01267",
-	"slug": "חנוני",
-	"headword": {
-		"text": "חֶנְוָנִי"
-	},
+	"sefariaHeadword": "חֶנְוָנִי",
+	"headwords": [
+		{
+			"text": "חֶנְוָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 482,
 		"column": "a"

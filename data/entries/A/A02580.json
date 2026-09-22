@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02580",
-	"slug": "אסתניא",
-	"headword": {
-		"text": "אִסְתַּנְיָא"
-	},
+	"sefariaHeadword": "אִסְתַּנְיָא",
+	"headwords": [
+		{
+			"text": "אִסְתַּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

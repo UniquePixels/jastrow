@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02283",
-	"slug": "קתאתי",
-	"headword": {
-		"text": "קַתָּאתֵי"
-	},
+	"sefariaHeadword": "קַתָּאתֵי",
+	"headwords": [
+		{
+			"text": "קַתָּאתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00396",
-	"slug": "סופלי",
-	"headword": {
-		"text": "סוּפְלֵי"
-	},
+	"sefariaHeadword": "סוּפְלֵי",
+	"headwords": [
+		{
+			"text": "סוּפְלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "a"

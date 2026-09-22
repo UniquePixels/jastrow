@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00605",
-	"slug": "סיטון",
-	"headword": {
-		"text": "סִיטוֹן"
-	},
+	"sefariaHeadword": "סִיטוֹן",
+	"headwords": [
+		{
+			"text": "סִיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

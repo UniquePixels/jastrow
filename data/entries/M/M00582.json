@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00582",
-	"slug": "מוקד-2",
-	"headword": {
-		"text": "מוֹקֵד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹקֵד ²",
+	"headwords": [
+		{
+			"text": "מוֹקֵד",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹקְדָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 747,
 		"column": "a"

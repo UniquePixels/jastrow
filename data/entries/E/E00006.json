@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "E00006",
-	"slug": "הא-2",
-	"headword": {
-		"text": "הָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָא II",
+	"headwords": [
+		{
+			"text": "הָא",
+			"homograph": 2
+		},
 		{
 			"text": "הֵא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 328,
 		"column": "a"

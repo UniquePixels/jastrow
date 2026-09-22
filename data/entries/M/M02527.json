@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02527",
-	"slug": "מרגשות",
-	"headword": {
-		"text": "מַרְגֵּשׁוֹת"
-	},
+	"sefariaHeadword": "מַרְגֵּשׁוֹת",
+	"headwords": [
+		{
+			"text": "מַרְגֵּשׁוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 836,
 		"column": "a"

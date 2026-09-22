@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00323",
-	"slug": "הטרח",
-	"headword": {
-		"text": "הֶטְרֵחַ"
-	},
+	"sefariaHeadword": "הֶטְרֵחַ",
+	"headwords": [
+		{
+			"text": "הֶטְרֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

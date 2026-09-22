@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00609",
-	"slug": "גיב-1",
-	"headword": {
-		"text": "גִּיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיב",
+	"headwords": [
+		{
+			"text": "גִּיב"
+		},
 		{
 			"text": "גּוּב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 234,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00577",
-	"slug": "אווז",
-	"headword": {
-		"text": "אָוָוז"
-	},
+	"sefariaHeadword": "אָוָוז",
+	"headwords": [
+		{
+			"text": "אָוָוז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

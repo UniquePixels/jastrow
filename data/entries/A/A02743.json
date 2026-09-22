@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02743",
-	"slug": "אפנטי",
-	"headword": {
-		"text": "אַפַּנְטֵי"
-	},
+	"sefariaHeadword": "אַפַּנְטֵי",
+	"headwords": [
+		{
+			"text": "אַפַּנְטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "b"

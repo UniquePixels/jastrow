@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00035",
-	"slug": "באלי-2",
-	"headword": {
-		"text": "בָּאלִי"
-	},
+	"sefariaHeadword": "בָּאלִי",
+	"headwords": [
+		{
+			"text": "בָּאלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

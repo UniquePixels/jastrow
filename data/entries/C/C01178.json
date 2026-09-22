@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01178",
-	"slug": "גסתרא",
-	"headword": {
-		"text": "גסתרא"
-	},
+	"sefariaHeadword": "גסתרא",
+	"headwords": [
+		{
+			"text": "גסתרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

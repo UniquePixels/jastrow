@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01590",
-	"slug": "קנישקין",
-	"headword": {
-		"text": "קְנִישְׁקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנִישְׁקִין",
+	"headwords": [
+		{
+			"text": "קְנִישְׁקִין"
+		},
 		{
 			"text": "קְנִישְׁקָנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1393,
 		"column": "a"

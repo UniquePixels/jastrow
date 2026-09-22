@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00926",
-	"slug": "חכינה-2",
-	"headword": {
-		"text": "חכינה"
-	},
+	"sefariaHeadword": "חכינה",
+	"headwords": [
+		{
+			"text": "חכינה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "a"

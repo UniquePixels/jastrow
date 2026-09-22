@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00509",
-	"slug": "ליפופא",
-	"headword": {
-		"text": "לִיפּוּפָא"
-	},
+	"sefariaHeadword": "לִיפּוּפָא",
+	"headwords": [
+		{
+			"text": "לִיפּוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00197",
-	"slug": "רגינא",
-	"headword": {
-		"text": "רגינא"
-	},
+	"sefariaHeadword": "רגינא",
+	"headwords": [
+		{
+			"text": "רגינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "b"

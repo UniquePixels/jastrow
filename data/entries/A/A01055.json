@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01055",
-	"slug": "אחרייא",
-	"headword": {
-		"text": "אַחֲרָיָיא"
-	},
+	"sefariaHeadword": "אַחֲרָיָיא",
+	"headwords": [
+		{
+			"text": "אַחֲרָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 41,
 		"column": "b"

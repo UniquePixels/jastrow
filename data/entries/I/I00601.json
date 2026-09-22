@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00601",
-	"slug": "טעי-1",
-	"headword": {
-		"text": "טעי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טעי",
+	"headwords": [
+		{
+			"text": "טעי"
+		},
 		{
 			"text": "טָעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 542,
 		"column": "a"

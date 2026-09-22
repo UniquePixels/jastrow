@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00918",
-	"slug": "תר",
-	"headword": {
-		"text": "תֹּר"
-	},
+	"sefariaHeadword": "תֹּר",
+	"headwords": [
+		{
+			"text": "תֹּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "b"

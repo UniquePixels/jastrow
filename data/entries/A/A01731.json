@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01731",
-	"slug": "אכסלגים",
-	"headword": {
-		"text": "אכסלגים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אכסלגים",
+	"headwords": [
+		{
+			"text": "אכסלגים"
+		},
 		{
 			"text": "אַכְסִלְגָּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 64,
 		"column": "b"

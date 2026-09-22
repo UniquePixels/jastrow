@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00915",
-	"slug": "בלרין",
-	"headword": {
-		"text": "בלרין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בלרין",
+	"headwords": [
+		{
+			"text": "בלרין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

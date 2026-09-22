@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00451",
-	"slug": "קונפון",
-	"headword": {
-		"text": "קוּנְפּוֹן"
-	},
+	"sefariaHeadword": "קוּנְפּוֹן",
+	"headwords": [
+		{
+			"text": "קוּנְפּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "a"

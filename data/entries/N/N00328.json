@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00328",
-	"slug": "נוולא",
-	"headword": {
-		"text": "נַוְולָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נַוְולָא II",
+	"headwords": [
+		{
+			"text": "נַוְולָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 885,
 		"column": "a"

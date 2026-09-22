@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02962",
-	"slug": "משקוף",
-	"headword": {
-		"text": "מַשְׁקוֹף"
-	},
+	"sefariaHeadword": "מַשְׁקוֹף",
+	"headwords": [
+		{
+			"text": "מַשְׁקוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

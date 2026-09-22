@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00708",
-	"slug": "פילסונו",
-	"headword": {
-		"text": "פילסונו"
-	},
+	"sefariaHeadword": "פילסונו",
+	"headwords": [
+		{
+			"text": "פילסונו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

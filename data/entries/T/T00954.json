@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00954",
-	"slug": "רפסא",
-	"headword": {
-		"text": "רִפְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִפְסָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִפְסָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1491,
 		"column": "a"

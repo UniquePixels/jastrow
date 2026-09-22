@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00633",
-	"slug": "ניוטאי",
-	"headword": {
-		"text": "ניוטאי"
-	},
+	"sefariaHeadword": "ניוטאי",
+	"headwords": [
+		{
+			"text": "ניוטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "b"

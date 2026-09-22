@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01778",
-	"slug": "פרטליס",
-	"headword": {
-		"text": "פרטליס"
-	},
+	"sefariaHeadword": "פרטליס",
+	"headwords": [
+		{
+			"text": "פרטליס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

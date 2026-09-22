@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00726",
-	"slug": "מזו",
-	"headword": {
-		"text": "מַזּוּ"
-	},
+	"sefariaHeadword": "מַזּוּ",
+	"headwords": [
+		{
+			"text": "מַזּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 753,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00922",
-	"slug": "בלתי",
-	"headword": {
-		"text": "בַּלְתִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְתִּי",
+	"headwords": [
+		{
+			"text": "בַּלְתִּי"
+		},
 		{
 			"text": "בַּלְתִּין"
 		},
@@ -12,15 +13,14 @@
 			"text": "בַּלְתָּן"
 		},
 		{
-			"text": "בית בַּלְתִּי"
+			"text": "בית ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 176,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

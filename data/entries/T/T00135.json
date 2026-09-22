@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00135",
-	"slug": "רבעיות",
-	"headword": {
-		"text": "רִבְעִיּוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רִבְעִיּוֹת",
+	"headwords": [
+		{
+			"text": "רִבְעִיּוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1445,
 		"column": "b"

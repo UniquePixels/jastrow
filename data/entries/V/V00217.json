@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00217",
-	"slug": "תולע",
-	"headword": {
-		"text": "תּוֹלָע"
-	},
+	"sefariaHeadword": "תּוֹלָע",
+	"headwords": [
+		{
+			"text": "תּוֹלָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00916",
-	"slug": "תקרת",
-	"headword": {
-		"text": "תִּקְרַת"
-	},
+	"sefariaHeadword": "תִּקְרַת",
+	"headwords": [
+		{
+			"text": "תִּקְרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "b"

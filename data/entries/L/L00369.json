@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00369",
-	"slug": "לחנה",
-	"headword": {
-		"text": "לְחֵנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחֵנָה",
+	"headwords": [
+		{
+			"text": "לְחֵנָה"
+		},
 		{
 			"text": "לְחֵנְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 704,
 		"column": "a"

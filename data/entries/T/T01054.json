@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01054",
-	"slug": "רקקה",
-	"headword": {
-		"text": "רקקה"
-	},
+	"sefariaHeadword": "רקקה",
+	"headwords": [
+		{
+			"text": "רקקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

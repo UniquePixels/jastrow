@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03395",
-	"slug": "את-4",
-	"headword": {
-		"text": "אֵת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵת",
+	"headwords": [
+		{
+			"text": "אֵת"
+		},
 		{
 			"text": "אֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 132,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01276",
-	"slug": "גרדון",
-	"headword": {
-		"text": "גַּרְדּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְדּוֹן",
+	"headwords": [
+		{
+			"text": "גַּרְדּוֹן"
+		},
 		{
 			"text": "גרדין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "a"

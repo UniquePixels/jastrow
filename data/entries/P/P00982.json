@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00982",
-	"slug": "עניה-2",
-	"headword": {
-		"text": "עֲנִיָּה",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲנִיָּה I",
+	"headwords": [
+		{
+			"text": "עֲנִיָּה",
+			"homograph": 1
+		},
 		{
 			"text": "עֲנִיָּיה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1094,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00689",
-	"slug": "ישיבה",
-	"headword": {
-		"text": "יְשִׁיבָה"
-	},
+	"sefariaHeadword": "יְשִׁיבָה",
+	"headwords": [
+		{
+			"text": "יְשִׁיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 600,
 		"column": "b"

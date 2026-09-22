@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01579",
-	"slug": "מלכות",
-	"headword": {
-		"text": "מַלְכוּת"
-	},
+	"sefariaHeadword": "מַלְכוּת",
+	"headwords": [
+		{
+			"text": "מַלְכוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 791,
 		"column": "b"

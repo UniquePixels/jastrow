@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02913",
-	"slug": "אקילוס",
-	"headword": {
-		"text": "אֲקִילוֹס"
-	},
+	"sefariaHeadword": "אֲקִילוֹס",
+	"headwords": [
+		{
+			"text": "אֲקִילוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

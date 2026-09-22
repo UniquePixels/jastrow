@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02009",
-	"slug": "מסר-4",
-	"headword": {
-		"text": "מַסָּר"
-	},
+	"sefariaHeadword": "מַסָּר",
+	"headwords": [
+		{
+			"text": "מַסָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00955",
-	"slug": "רפסודות",
-	"headword": {
-		"text": "רַפְסוֹדוֹת"
-	},
+	"sefariaHeadword": "רַפְסוֹדוֹת",
+	"headwords": [
+		{
+			"text": "רַפְסוֹדוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1491,
 		"column": "a"

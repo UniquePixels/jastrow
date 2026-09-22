@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00389",
-	"slug": "קומטרא",
-	"headword": {
-		"text": "קוּמְטְרָא"
-	},
+	"sefariaHeadword": "קוּמְטְרָא",
+	"headwords": [
+		{
+			"text": "קוּמְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1332,
 		"column": "b"

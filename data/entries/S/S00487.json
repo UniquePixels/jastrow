@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00487",
-	"slug": "קו״ף",
-	"headword": {
-		"text": "קו״ף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קו\"ף",
+	"headwords": [
+		{
+			"text": "קו״ף"
+		},
 		{
 			"text": "קוֹף",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1337,
 		"column": "a"

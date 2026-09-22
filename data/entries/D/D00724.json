@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00724",
-	"slug": "דיקריון",
-	"headword": {
-		"text": "דיקריון"
-	},
+	"sefariaHeadword": "דיקריון",
+	"headwords": [
+		{
+			"text": "דיקריון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "b"

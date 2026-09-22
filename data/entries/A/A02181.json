@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02181",
-	"slug": "אנטיכי",
-	"headword": {
-		"text": "אַנְטִיכִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַנְטִיכִי",
+	"headwords": [
+		{
+			"text": "אַנְטִיכִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

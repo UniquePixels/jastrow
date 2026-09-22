@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01327",
-	"slug": "ספוון",
-	"headword": {
-		"text": "סִפְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפְוָון",
+	"headwords": [
+		{
+			"text": "סִפְוָון"
+		},
 		{
 			"text": "סִפְוָותָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1012,
 		"column": "a"

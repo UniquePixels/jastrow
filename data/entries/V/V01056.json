@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01056",
-	"slug": "תרקב",
-	"headword": {
-		"text": "תַּרְקַב"
-	},
+	"sefariaHeadword": "תַּרְקַב",
+	"headwords": [
+		{
+			"text": "תַּרְקַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

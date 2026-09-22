@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01194",
-	"slug": "ברווזא",
-	"headword": {
-		"text": "ברווזא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ברווזא",
+	"headwords": [
+		{
+			"text": "ברווזא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

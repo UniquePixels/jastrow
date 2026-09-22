@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00312",
-	"slug": "טיגנא-1",
-	"headword": {
-		"text": "טִיגָּנָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טִיגָּנָא I",
+	"headwords": [
+		{
+			"text": "טִיגָּנָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 530,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00067",
-	"slug": "מארע",
-	"headword": {
-		"text": "מְאָרַע"
-	},
+	"sefariaHeadword": "מְאָרַע",
+	"headwords": [
+		{
+			"text": "מְאָרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

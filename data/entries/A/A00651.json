@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00651",
-	"slug": "אוכמנא",
-	"headword": {
-		"text": "אוכמנא"
-	},
+	"sefariaHeadword": "אוכמנא",
+	"headwords": [
+		{
+			"text": "אוכמנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02048",
-	"slug": "פרתוויא",
-	"headword": {
-		"text": "פרתוויא"
-	},
+	"sefariaHeadword": "פרתוויא",
+	"headwords": [
+		{
+			"text": "פרתוויא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "b"

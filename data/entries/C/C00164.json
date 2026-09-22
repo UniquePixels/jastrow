@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00164",
-	"slug": "גדגלידא",
-	"headword": {
-		"text": "גדגלידא"
-	},
+	"sefariaHeadword": "גדגלידא",
+	"headwords": [
+		{
+			"text": "גדגלידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

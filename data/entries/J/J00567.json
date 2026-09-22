@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00567",
-	"slug": "יקיד-2",
-	"headword": {
-		"text": "יָקִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָקִיד",
+	"headwords": [
+		{
+			"text": "יָקִיד"
+		},
 		{
 			"text": "יַקִּיד"
 		},
@@ -15,6 +16,7 @@
 			"text": "יְקִידְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 591,
 		"column": "b"

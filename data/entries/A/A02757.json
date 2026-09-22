@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02757",
-	"slug": "אפסטקין",
-	"headword": {
-		"text": "אַפִּסְטְקִין"
-	},
+	"sefariaHeadword": "אַפִּסְטְקִין",
+	"headwords": [
+		{
+			"text": "אַפִּסְטְקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

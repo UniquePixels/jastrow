@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01140",
-	"slug": "מיינוקא",
-	"headword": {
-		"text": "מְיַינּוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְיַינּוֹקָא",
+	"headwords": [
+		{
+			"text": "מְיַינּוֹקָא"
+		},
 		{
 			"text": "מְיַינּוּקְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מְיַינְּקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 772,
 		"column": "b"

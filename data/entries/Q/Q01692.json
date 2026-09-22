@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01692",
-	"slug": "פרומביא",
-	"headword": {
-		"text": "פְּרוּמְבְּיָא"
-	},
+	"sefariaHeadword": "פְּרוּמְבְּיָא",
+	"headwords": [
+		{
+			"text": "פְּרוּמְבְּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

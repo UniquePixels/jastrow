@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01592",
-	"slug": "פרדסאות",
-	"headword": {
-		"text": "פרדסאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרדסאות",
+	"headwords": [
+		{
+			"text": "פרדסאות"
+		},
 		{
 			"text": "פרדסיאות"
 		},
@@ -12,6 +13,7 @@
 			"text": "פרדסייות"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1216,
 		"column": "a"

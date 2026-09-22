@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01869",
-	"slug": "קקיס",
-	"headword": {
-		"text": "קקיס"
-	},
+	"sefariaHeadword": "קקיס",
+	"headwords": [
+		{
+			"text": "קקיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

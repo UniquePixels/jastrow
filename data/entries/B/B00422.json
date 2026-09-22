@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00422",
-	"slug": "בזוז",
-	"headword": {
-		"text": "בָּזוֹז"
-	},
+	"sefariaHeadword": "בָּזוֹז",
+	"headwords": [
+		{
+			"text": "בָּזוֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "a"

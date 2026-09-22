@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01399",
-	"slug": "ספסף",
-	"headword": {
-		"text": "סִפְסֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפְסֵף",
+	"headwords": [
 		{
-			"text": "סִיפְ׳"
+			"text": "סִפְסֵף"
+		},
+		{
+			"text": "סִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1015,
 		"column": "b"

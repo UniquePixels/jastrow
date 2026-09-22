@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01659",
-	"slug": "קסיטולין",
-	"headword": {
-		"text": "קסיטולין"
-	},
+	"sefariaHeadword": "קסיטולין",
+	"headwords": [
+		{
+			"text": "קסיטולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

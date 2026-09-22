@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00659",
-	"slug": "הנדזא",
-	"headword": {
-		"text": "הַנְדְּזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַנְדְּזָא",
+	"headwords": [
+		{
+			"text": "הַנְדְּזָא"
+		},
 		{
 			"text": "הִינְדְּזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 357,
 		"column": "a"

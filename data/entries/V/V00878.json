@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00878",
-	"slug": "תקוף-2",
-	"headword": {
-		"text": "תְּקוֹף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "תְּקוֹף ²",
+	"headwords": [
+		{
+			"text": "תְּקוֹף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1690,
 		"column": "a"

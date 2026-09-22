@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00557",
-	"slug": "תכריך",
-	"headword": {
-		"text": "תַּכְרִיךְ"
-	},
+	"sefariaHeadword": "תַּכְרִיךְ",
+	"headwords": [
+		{
+			"text": "תַּכְרִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "b"

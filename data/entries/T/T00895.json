@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "T00895",
-	"slug": "רעי-7",
-	"headword": {
-		"text": "רְעִי",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעִי III",
+	"headwords": [
+		{
+			"text": "רְעִי",
+			"homograph": 3
+		},
 		{
 			"text": "רִעְיָא"
 		},
@@ -17,6 +18,7 @@
 			"homograph": 2
 		}
 	],
+	"display": "{0} III, {1}, {2}, ({3} II)",
 	"page": {
 		"number": 1487,
 		"column": "a"

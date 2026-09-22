@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00298",
-	"slug": "עוני-1",
-	"headword": {
-		"text": "עוֹנִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹנִי I",
+	"headwords": [
+		{
+			"text": "עוֹנִי",
+			"homograph": 1
+		},
 		{
 			"text": "עֹנִי"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1055,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01094",
-	"slug": "תשלום-2",
-	"headword": {
-		"text": "תַּשְׁלוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּשְׁלוּם ²",
+	"headwords": [
+		{
+			"text": "תַּשְׁלוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּשְׁלוּמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1704,
 		"column": "a"

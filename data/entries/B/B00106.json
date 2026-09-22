@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00106",
-	"slug": "בדאן",
-	"headword": {
-		"text": "בָּדָאן"
-	},
+	"sefariaHeadword": "בָּדָאן",
+	"headwords": [
+		{
+			"text": "בָּדָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "b"

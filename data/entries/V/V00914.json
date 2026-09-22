@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00914",
-	"slug": "תקרובת",
-	"headword": {
-		"text": "תִּקְרוֹבֶת"
-	},
+	"sefariaHeadword": "תִּקְרוֹבֶת",
+	"headwords": [
+		{
+			"text": "תִּקְרוֹבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "b"

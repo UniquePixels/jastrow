@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01086",
-	"slug": "חלמא-1",
-	"headword": {
-		"text": "חֶלְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶלְמָא",
+	"headwords": [
 		{
-			"text": "חִילְ׳"
+			"text": "חֶלְמָא"
+		},
+		{
+			"text": "חִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 471,
 		"column": "a"

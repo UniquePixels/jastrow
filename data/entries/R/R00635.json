@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00635",
-	"slug": "צנן-1",
-	"headword": {
-		"text": "צָנַן"
-	},
+	"sefariaHeadword": "צָנַן",
+	"headwords": [
+		{
+			"text": "צָנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1292,
 		"column": "a"

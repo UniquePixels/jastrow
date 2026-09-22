@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01492",
-	"slug": "איספרנמין",
-	"headword": {
-		"text": "איספרנמין"
-	},
+	"sefariaHeadword": "איספרנמין",
+	"headwords": [
+		{
+			"text": "איספרנמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

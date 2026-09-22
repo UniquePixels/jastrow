@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00898",
-	"slug": "טרקילין",
-	"headword": {
-		"text": "טרקילין"
-	},
+	"sefariaHeadword": "טרקילין",
+	"headwords": [
+		{
+			"text": "טרקילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

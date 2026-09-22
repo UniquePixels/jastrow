@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00940",
-	"slug": "תרגומא",
-	"headword": {
-		"text": "תַּרְגּוּמָא"
-	},
+	"sefariaHeadword": "תַּרְגּוּמָא",
+	"headwords": [
+		{
+			"text": "תַּרְגּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "b"

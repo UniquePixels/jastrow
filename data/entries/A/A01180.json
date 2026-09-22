@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01180",
-	"slug": "איהו",
-	"headword": {
-		"text": "אִיהוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיהוּ",
+	"headwords": [
+		{
+			"text": "אִיהוּ"
+		},
 		{
 			"text": "אִיהוּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 46,
 		"column": "a"

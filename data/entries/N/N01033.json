@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01033",
-	"slug": "נפט-2",
-	"headword": {
-		"text": "נֵפְטְ"
-	},
+	"sefariaHeadword": "נֵפְטְ",
+	"headwords": [
+		{
+			"text": "נֵפְטְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "a"

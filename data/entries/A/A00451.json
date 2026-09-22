@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00451",
-	"slug": "אדרבליס",
-	"headword": {
-		"text": "אִדְרַבְלִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִדְרַבְלִיס",
+	"headwords": [
+		{
+			"text": "אִדְרַבְלִיס"
+		},
 		{
 			"text": "אִרְדַּבְלִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 18,
 		"column": "b"

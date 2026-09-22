@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00519",
-	"slug": "הכר",
-	"headword": {
-		"text": "הַכֶּר"
-	},
+	"sefariaHeadword": "הַכֶּר",
+	"headwords": [
+		{
+			"text": "הַכֶּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "a"

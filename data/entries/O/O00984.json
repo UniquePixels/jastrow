@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00984",
-	"slug": "סליחה",
-	"headword": {
-		"text": "סְלִיחָה"
-	},
+	"sefariaHeadword": "סְלִיחָה",
+	"headwords": [
+		{
+			"text": "סְלִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

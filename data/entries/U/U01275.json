@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01275",
-	"slug": "שלחופות",
-	"headword": {
-		"text": "שלחופות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שלחופות",
+	"headwords": [
+		{
+			"text": "שלחופות"
+		},
 		{
 			"text": "שלחופית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1581,
 		"column": "a"

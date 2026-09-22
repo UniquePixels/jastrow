@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00257",
-	"slug": "סוד-1",
-	"headword": {
-		"text": "סוֹד"
-	},
+	"sefariaHeadword": "סוֹד",
+	"headwords": [
+		{
+			"text": "סוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "b"

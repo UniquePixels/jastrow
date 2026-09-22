@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00591",
-	"slug": "פידגוג",
-	"headword": {
-		"text": "פִּידָגוֹג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּידָגוֹג",
+	"headwords": [
+		{
+			"text": "פִּידָגוֹג"
+		},
 		{
 			"text": "פִּידְגּוּגְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "b"

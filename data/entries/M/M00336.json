@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00336",
-	"slug": "מדרקא",
-	"headword": {
-		"text": "מדרקא"
-	},
+	"sefariaHeadword": "מדרקא",
+	"headwords": [
+		{
+			"text": "מדרקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

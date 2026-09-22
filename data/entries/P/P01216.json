@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01216",
-	"slug": "עקר-4",
-	"headword": {
-		"text": "עָקָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָקָר",
+	"headwords": [
+		{
+			"text": "עָקָר"
+		},
 		{
 			"text": "עֲקָרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1108,
 		"column": "b"

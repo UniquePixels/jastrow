@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00817",
-	"slug": "שיגושיא",
-	"headword": {
-		"text": "שִׁיגּוּשְׁיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיגּוּשְׁיָא",
+	"headwords": [
 		{
-			"text": "שִׁגּ׳"
+			"text": "שִׁיגּוּשְׁיָא"
+		},
+		{
+			"text": "שִׁגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "b"

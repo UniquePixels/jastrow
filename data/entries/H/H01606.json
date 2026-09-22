@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01606",
-	"slug": "חרדנא",
-	"headword": {
-		"text": "חַרְדְּנָא"
-	},
+	"sefariaHeadword": "חַרְדְּנָא",
+	"headwords": [
+		{
+			"text": "חַרְדְּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "a"

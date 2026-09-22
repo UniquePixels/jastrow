@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00141",
-	"slug": "תואר",
-	"headword": {
-		"text": "תּוֹאַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹאַר",
+	"headwords": [
+		{
+			"text": "תּוֹאַר"
+		},
 		{
 			"text": "תֹּאַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1649,
 		"column": "b"

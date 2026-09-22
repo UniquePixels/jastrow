@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01797",
-	"slug": "שפקין",
-	"headword": {
-		"text": "שפקין"
-	},
+	"sefariaHeadword": "שפקין",
+	"headwords": [
+		{
+			"text": "שפקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1619,
 		"column": "b"

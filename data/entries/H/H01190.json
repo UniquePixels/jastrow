@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H01190",
-	"slug": "חמיר-2",
-	"headword": {
-		"text": "חֲמִיר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִיר II",
+	"headwords": [
+		{
+			"text": "חֲמִיר",
+			"homograph": 2
+		},
 		{
 			"text": "חָמִיר"
 		},
@@ -13,6 +14,7 @@
 			"text": "חֲמִירָא"
 		}
 	],
+	"display": "{0} II, ({1}), {2}",
 	"page": {
 		"number": 477,
 		"column": "b"

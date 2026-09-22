@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00397",
-	"slug": "כורת",
-	"headword": {
-		"text": "כְּוֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוֶרֶת",
+	"headwords": [
+		{
+			"text": "כְּוֶרֶת"
+		},
 		{
 			"text": "כְּוַרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 626,
 		"column": "a"

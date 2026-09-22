@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00617",
-	"slug": "סייג-2",
-	"headword": {
-		"text": "סְיָיג",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְיָיג ²",
+	"headwords": [
+		{
+			"text": "סְיָיג",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְיָיגָא"
 		},
 		{
-			"text": "סְיָ׳"
+			"text": "סְיָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 978,
 		"column": "a"

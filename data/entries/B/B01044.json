@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01044",
-	"slug": "בעיטא",
-	"headword": {
-		"text": "בְּעִיטָא"
-	},
+	"sefariaHeadword": "בְּעִיטָא",
+	"headwords": [
+		{
+			"text": "בְּעִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

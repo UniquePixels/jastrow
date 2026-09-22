@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01024",
-	"slug": "בעבע-2",
-	"headword": {
-		"text": "בַּעְבַּע",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּעְבַּע",
+	"headwords": [
+		{
+			"text": "בַּעְבַּע",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 180,
 		"column": "b"

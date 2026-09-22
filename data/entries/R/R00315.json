@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00315",
-	"slug": "צידניא",
-	"headword": {
-		"text": "צַיְדַנְיָא"
-	},
+	"sefariaHeadword": "צַיְדַנְיָא",
+	"headwords": [
+		{
+			"text": "צַיְדַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "a"

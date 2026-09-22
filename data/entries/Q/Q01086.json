@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01086",
-	"slug": "פלמנסר",
-	"headword": {
-		"text": "פלמנסר"
-	},
+	"sefariaHeadword": "פלמנסר",
+	"headwords": [
+		{
+			"text": "פלמנסר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

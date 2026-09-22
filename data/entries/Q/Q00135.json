@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00135",
-	"slug": "פדרא",
-	"headword": {
-		"text": "פִּדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּדְרָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּדְרָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1137,
 		"column": "b"

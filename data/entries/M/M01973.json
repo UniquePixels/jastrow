@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01973",
-	"slug": "מסן",
-	"headword": {
-		"text": "מְסַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסַן",
+	"headwords": [
+		{
+			"text": "מְסַן"
+		},
 		{
 			"text": "מְסָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 809,
 		"column": "b"

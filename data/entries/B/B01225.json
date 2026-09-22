@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01225",
-	"slug": "ברזית",
-	"headword": {
-		"text": "בִּרְזַיִת"
-	},
+	"sefariaHeadword": "בִּרְזַיִת",
+	"headwords": [
+		{
+			"text": "בִּרְזַיִת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

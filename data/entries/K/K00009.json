@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00009",
-	"slug": "כאוותא",
-	"headword": {
-		"text": "כַּאֲוָותָא"
-	},
+	"sefariaHeadword": "כַּאֲוָותָא",
+	"headwords": [
+		{
+			"text": "כַּאֲוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

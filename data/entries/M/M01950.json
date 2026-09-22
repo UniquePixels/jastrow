@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "M01950",
-	"slug": "מסכן-4",
-	"headword": {
-		"text": "מִסְכֵּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְכֵּן",
+	"headwords": [
+		{
+			"text": "מִסְכֵּן"
+		},
 		{
 			"text": "מִסְכֵּנָא"
 		},
 		{
-			"text": "מִסְכֵּי׳"
+			"text": "מִסְכֵּי׳",
+			"partial": true
 		},
 		{
-			"text": "מִיסְ׳"
+			"text": "מִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 808,
 		"column": "a"

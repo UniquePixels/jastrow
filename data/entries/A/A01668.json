@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01668",
-	"slug": "אכדן",
-	"headword": {
-		"text": "אֵכְדֵן"
-	},
+	"sefariaHeadword": "אֵכְדֵן",
+	"headwords": [
+		{
+			"text": "אֵכְדֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

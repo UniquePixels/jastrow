@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02913",
-	"slug": "משל-3",
-	"headword": {
-		"text": "מָשָׁל"
-	},
+	"sefariaHeadword": "מָשָׁל",
+	"headwords": [
+		{
+			"text": "מָשָׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 855,
 		"column": "b"

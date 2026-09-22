@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00074",
-	"slug": "עבריינא",
-	"headword": {
-		"text": "עֲבַרְיָינָא"
-	},
+	"sefariaHeadword": "עֲבַרְיָינָא",
+	"headwords": [
+		{
+			"text": "עֲבַרְיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "b"

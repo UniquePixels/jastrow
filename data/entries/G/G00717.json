@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00717",
-	"slug": "זרכל",
-	"headword": {
-		"text": "זַרְכֵּל"
-	},
+	"sefariaHeadword": "זַרְכֵּל",
+	"headwords": [
+		{
+			"text": "זַרְכֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

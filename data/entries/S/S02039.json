@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02039",
-	"slug": "קריה-1",
-	"headword": {
-		"text": "קִרְיָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קִרְיָה I",
+	"headwords": [
+		{
+			"text": "קִרְיָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1419,
 		"column": "b"

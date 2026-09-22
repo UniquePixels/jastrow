@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00784",
-	"slug": "הצלפוני",
-	"headword": {
-		"text": "הצֶּלְפּוֹנִי"
-	},
+	"sefariaHeadword": "הצֶּלְפּוֹנִי",
+	"headwords": [
+		{
+			"text": "הצֶּלְפּוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "b"

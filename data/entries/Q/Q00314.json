@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00314",
-	"slug": "פוק-1",
-	"headword": {
-		"text": "פּוּק"
-	},
+	"sefariaHeadword": "פּוּק",
+	"headwords": [
+		{
+			"text": "פּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

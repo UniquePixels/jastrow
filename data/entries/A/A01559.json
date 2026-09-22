@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01559",
-	"slug": "איפקרסין",
-	"headword": {
-		"text": "אִיפְקַרְסִין"
-	},
+	"sefariaHeadword": "אִיפְקַרְסִין",
+	"headwords": [
+		{
+			"text": "אִיפְקַרְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

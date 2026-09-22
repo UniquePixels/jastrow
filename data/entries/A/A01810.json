@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01810",
-	"slug": "אלולוגין",
-	"headword": {
-		"text": "אלולוגין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אלולוגין",
+	"headwords": [
+		{
+			"text": "אלולוגין"
+		},
 		{
 			"text": "אלולננין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 67,
 		"column": "b"

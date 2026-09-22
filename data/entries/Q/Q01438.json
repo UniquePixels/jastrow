@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01438",
-	"slug": "פצם",
-	"headword": {
-		"text": "פְּצַם"
-	},
+	"sefariaHeadword": "פְּצַם",
+	"headwords": [
+		{
+			"text": "פְּצַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "b"

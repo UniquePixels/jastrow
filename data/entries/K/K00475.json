@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00475",
-	"slug": "כי-3",
-	"headword": {
-		"text": "כִּי"
-	},
+	"sefariaHeadword": "כִּי",
+	"headwords": [
+		{
+			"text": "כִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "a"

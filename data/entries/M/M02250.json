@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02250",
-	"slug": "מפרעתא",
-	"headword": {
-		"text": "מַפְרַעְתָּא"
-	},
+	"sefariaHeadword": "מַפְרַעְתָּא",
+	"headwords": [
+		{
+			"text": "מַפְרַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

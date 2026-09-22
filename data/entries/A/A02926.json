@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02926",
-	"slug": "אקניאתא",
-	"headword": {
-		"text": "אַקְנָיָאתָא"
-	},
+	"sefariaHeadword": "אַקְנָיָאתָא",
+	"headwords": [
+		{
+			"text": "אַקְנָיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

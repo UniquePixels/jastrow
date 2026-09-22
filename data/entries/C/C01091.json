@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01091",
-	"slug": "גנגלים",
-	"headword": {
-		"text": "גנגלים"
-	},
+	"sefariaHeadword": "גנגלים",
+	"headwords": [
+		{
+			"text": "גנגלים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 257,
 		"column": "a"

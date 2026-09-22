@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00409",
-	"slug": "פות-1",
-	"headword": {
-		"text": "פות"
-	},
+	"sefariaHeadword": "פות",
+	"headwords": [
+		{
+			"text": "פות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

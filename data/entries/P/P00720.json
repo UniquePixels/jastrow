@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00720",
-	"slug": "עכבר-2",
-	"headword": {
-		"text": "עַכְבָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַכְבָּר ²",
+	"headwords": [
+		{
+			"text": "עַכְבָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "עַכְבְּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1078,
 		"column": "a"

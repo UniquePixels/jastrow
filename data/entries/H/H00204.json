@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00204",
-	"slug": "חדסרי",
-	"headword": {
-		"text": "חַדְסְרֵי"
-	},
+	"sefariaHeadword": "חַדְסְרֵי",
+	"headwords": [
+		{
+			"text": "חַדְסְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

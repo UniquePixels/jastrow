@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00541",
-	"slug": "צלצול",
-	"headword": {
-		"text": "צִלְצוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִלְצוּל",
+	"headwords": [
 		{
-			"text": "צִילְ׳"
+			"text": "צִלְצוּל"
+		},
+		{
+			"text": "צִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1285,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00947",
-	"slug": "רפיון",
-	"headword": {
-		"text": "רִפְיוֹן"
-	},
+	"sefariaHeadword": "רִפְיוֹן",
+	"headwords": [
+		{
+			"text": "רִפְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1490,
 		"column": "b"

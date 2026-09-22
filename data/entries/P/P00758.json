@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00758",
-	"slug": "על-3",
-	"headword": {
-		"text": "עַל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עַל ²",
+	"headwords": [
+		{
+			"text": "עַל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1080,
 		"column": "a"

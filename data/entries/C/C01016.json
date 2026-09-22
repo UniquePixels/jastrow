@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01016",
-	"slug": "גמזוזינייה",
-	"headword": {
-		"text": "גַּמְזוּזִינַיָּיה"
-	},
+	"sefariaHeadword": "גַּמְזוּזִינַיָּיה",
+	"headwords": [
+		{
+			"text": "גַּמְזוּזִינַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

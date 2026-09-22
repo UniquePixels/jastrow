@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00108",
-	"slug": "עגעג",
-	"headword": {
-		"text": "עַגְעַג"
-	},
+	"sefariaHeadword": "עַגְעַג",
+	"headwords": [
+		{
+			"text": "עַגְעַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "b"

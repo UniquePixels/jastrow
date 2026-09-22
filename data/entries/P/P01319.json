@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01319",
-	"slug": "ערוד-2",
-	"headword": {
-		"text": "עָרוֹד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָרוֹד II",
+	"headwords": [
+		{
+			"text": "עָרוֹד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1114,
 		"column": "b"

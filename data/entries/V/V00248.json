@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00248",
-	"slug": "תוסקפא",
-	"headword": {
-		"text": "תּוּסְקָפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּסְקָפָא",
+	"headwords": [
+		{
+			"text": "תּוּסְקָפָא"
+		},
 		{
 			"text": "תּוּסְקַפְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "a"

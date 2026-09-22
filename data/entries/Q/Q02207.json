@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02207",
-	"slug": "פתרין",
-	"headword": {
-		"text": "פתרין"
-	},
+	"sefariaHeadword": "פתרין",
+	"headwords": [
+		{
+			"text": "פתרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

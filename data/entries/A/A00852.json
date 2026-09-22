@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00852",
-	"slug": "אורדי",
-	"headword": {
-		"text": "אורדי"
-	},
+	"sefariaHeadword": "אורדי",
+	"headwords": [
+		{
+			"text": "אורדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00598",
-	"slug": "חטוטרת",
-	"headword": {
-		"text": "חֲטוֹטֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטוֹטֶרֶת",
+	"headwords": [
+		{
+			"text": "חֲטוֹטֶרֶת"
+		},
 		{
 			"text": "חֲטֶרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 448,
 		"column": "a"

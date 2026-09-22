@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00982",
-	"slug": "דציצא",
-	"headword": {
-		"text": "דְּצִיצָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דְּצִיצָא",
+	"headwords": [
+		{
+			"text": "דְּצִיצָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

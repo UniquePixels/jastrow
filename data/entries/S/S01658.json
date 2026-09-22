@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01658",
-	"slug": "קסיט",
-	"headword": {
-		"text": "קסיט"
-	},
+	"sefariaHeadword": "קסיט",
+	"headwords": [
+		{
+			"text": "קסיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

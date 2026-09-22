@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00947",
-	"slug": "כסן-2",
-	"headword": {
-		"text": "כְּסָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּסָן",
+	"headwords": [
+		{
+			"text": "כְּסָן"
+		},
 		{
 			"text": "כְּסָאן"
 		},
@@ -12,6 +13,7 @@
 			"text": "כִּיסְנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 654,
 		"column": "b"

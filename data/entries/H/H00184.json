@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00184",
-	"slug": "חדווא",
-	"headword": {
-		"text": "חֶדְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶדְוָוא",
+	"headwords": [
+		{
+			"text": "חֶדְוָוא"
+		},
 		{
 			"text": "חֶדְוְותָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 426,
 		"column": "a"

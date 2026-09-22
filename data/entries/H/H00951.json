@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00951",
-	"slug": "חכר-2",
-	"headword": {
-		"text": "חֲכַר"
-	},
+	"sefariaHeadword": "חֲכַר",
+	"headwords": [
+		{
+			"text": "חֲכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "b"

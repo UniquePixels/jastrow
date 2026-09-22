@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00735",
-	"slug": "חיילותא",
-	"headword": {
-		"text": "חיילותא"
-	},
+	"sefariaHeadword": "חיילותא",
+	"headwords": [
+		{
+			"text": "חיילותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

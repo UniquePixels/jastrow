@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03300",
-	"slug": "אשיתא-1",
-	"headword": {
-		"text": "אַשְׁיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁיְתָא",
+	"headwords": [
+		{
+			"text": "אַשְׁיְתָא"
+		},
 		{
 			"text": "אֲשִׁיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוּשְׁיְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 128,
 		"column": "a"
@@ -28,7 +30,7 @@
 				"<cite ref=\"Berakhot 56a:16\">Ber. 56ᵃ</cite> <he>א׳ דנפל</he> (read <he>דנפלא</he>; Ms. M. <he>דשא ברייתא</he>) that my wall fell in.—Pl. <cite ref=\"A03267\"><he>אַשְׁיָיתָא</he></cite>, <cite ref=\"A03300\"><he>אוּשְׁיָתָא</he></cite>, <cite ref=\"A00921\"><he>אוּשָׁיָיתָא</he></cite>, also <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>, <cite ref=\"A00919\"><he>אוּשְׁוָותָא</he></cite>. ",
 				"<cite ref=\"Aramaic Targum to Psalms 11:3\">Targ. Ps. XI, 3</cite> (h. text <cite ref=\"U02085\"><he>שתות</he></cite>); a. fr.—",
 				"<cite ref=\"Berakhot 28a:14\">Ber. 28ᵃ</cite> <he>אשיָתָא וכ׳</he> the walls of his house. ",
-				"<cite ref=\"Bava Kamma 20b\">B. Kam. 20ᵇ</cite>.—[Not to be confounded with <he>אוּשָּׁא</he> <i>foundation</i>.] V. <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>, <cite ref=\"A03267\"><he>אַשְׁוָה</he></cite>."
+				"<cite ref=\"Bava Kamma 20b\">B. Kam. 20ᵇ</cite>.—[Not to be confounded with <he>אוּשָּׁא</he> <i>foundation</i>.] V. <cite ref=\"A03279\"><he>אַשְׁוָתָא</he></cite>, <cite ref=\"A03267\"><he>אַשְׁוָה</he></cite>."
 			]
 		}
 	]

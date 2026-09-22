@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01146",
-	"slug": "גניסייא",
-	"headword": {
-		"text": "גְּנִיסַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנִיסַיָּיא",
+	"headwords": [
 		{
-			"text": "גְּנוּ׳"
+			"text": "גְּנִיסַיָּיא"
+		},
+		{
+			"text": "גְּנוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 260,
 		"column": "a"

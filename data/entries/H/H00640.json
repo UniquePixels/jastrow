@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00640",
-	"slug": "חטף-2",
-	"headword": {
-		"text": "חֲטַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטַף",
+	"headwords": [
+		{
+			"text": "חֲטַף"
+		},
 		{
 			"text": "חֲטֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 450,
 		"column": "a"

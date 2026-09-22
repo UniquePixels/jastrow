@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02870",
-	"slug": "אצטרבאמוטא",
-	"headword": {
-		"text": "אצטרבאמוטא"
-	},
+	"sefariaHeadword": "אצטרבאמוטא",
+	"headwords": [
+		{
+			"text": "אצטרבאמוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

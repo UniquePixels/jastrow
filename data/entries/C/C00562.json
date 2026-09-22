@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00562",
-	"slug": "גזלי",
-	"headword": {
-		"text": "גזלי"
-	},
+	"sefariaHeadword": "גזלי",
+	"headwords": [
+		{
+			"text": "גזלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 231,
 		"column": "a"

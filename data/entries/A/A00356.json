@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00356",
-	"slug": "אגריפס",
-	"headword": {
-		"text": "אַגְרִיפַּס"
-	},
+	"sefariaHeadword": "אַגְרִיפַּס",
+	"headwords": [
+		{
+			"text": "אַגְרִיפַּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

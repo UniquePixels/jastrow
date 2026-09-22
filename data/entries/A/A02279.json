@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02279",
-	"slug": "אנפק",
-	"headword": {
-		"text": "אַנְפַּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְפַּק",
+	"headwords": [
+		{
+			"text": "אַנְפַּק"
+		},
 		{
 			"text": "אַנְפְּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 87,
 		"column": "a"

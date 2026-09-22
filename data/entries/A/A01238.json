@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01238",
-	"slug": "איין",
-	"headword": {
-		"text": "אִיֵּין"
-	},
+	"sefariaHeadword": "אִיֵּין",
+	"headwords": [
+		{
+			"text": "אִיֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00094",
-	"slug": "פגר-5",
-	"headword": {
-		"text": "פֶּגֶר"
-	},
+	"sefariaHeadword": "פֶּגֶר",
+	"headwords": [
+		{
+			"text": "פֶּגֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02393",
-	"slug": "אסטקטון",
-	"headword": {
-		"text": "אִסְטַקְטוֹן"
-	},
+	"sefariaHeadword": "אִסְטַקְטוֹן",
+	"headwords": [
+		{
+			"text": "אִסְטַקְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01118",
-	"slug": "כרוכא",
-	"headword": {
-		"text": "כְּרוֹכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרוֹכָא",
+	"headwords": [
+		{
+			"text": "כְּרוֹכָא"
+		},
 		{
 			"text": "כְּרוֹכַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 665,
 		"column": "a"

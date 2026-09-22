@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00431",
-	"slug": "חוצב",
-	"headword": {
-		"text": "חוֹצֵב"
-	},
+	"sefariaHeadword": "חוֹצֵב",
+	"headwords": [
+		{
+			"text": "חוֹצֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "a"

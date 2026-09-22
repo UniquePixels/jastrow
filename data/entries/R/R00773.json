@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00773",
-	"slug": "צריך-2",
-	"headword": {
-		"text": "צריך"
-	},
+	"sefariaHeadword": "צריך",
+	"headwords": [
+		{
+			"text": "צריך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

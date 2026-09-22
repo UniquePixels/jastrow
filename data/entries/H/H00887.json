@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00887",
-	"slug": "חירר",
-	"headword": {
-		"text": "חֵירַר"
-	},
+	"sefariaHeadword": "חֵירַר",
+	"headwords": [
+		{
+			"text": "חֵירַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

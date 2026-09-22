@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00474",
-	"slug": "אדרכן",
-	"headword": {
-		"text": "אֲדַרְכָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲדַרְכָּן",
+	"headwords": [
+		{
+			"text": "אֲדַרְכָּן"
+		},
 		{
 			"text": "אֲדַרְכִּיאָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 19,
 		"column": "a"

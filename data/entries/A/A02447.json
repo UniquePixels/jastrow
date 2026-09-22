@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02447",
-	"slug": "אסירה",
-	"headword": {
-		"text": "אֲסִירָה"
-	},
+	"sefariaHeadword": "אֲסִירָה",
+	"headwords": [
+		{
+			"text": "אֲסִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01363",
-	"slug": "כתישא",
-	"headword": {
-		"text": "כְּתִישָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתִישָׁא",
+	"headwords": [
 		{
-			"text": "כְּתוּ׳"
+			"text": "כְּתִישָׁא"
+		},
+		{
+			"text": "כְּתוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 681,
 		"column": "a"

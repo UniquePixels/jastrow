@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00016",
-	"slug": "לאי-4",
-	"headword": {
-		"text": "לַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַאי",
+	"headwords": [
+		{
+			"text": "לַאי"
+		},
 		{
 			"text": "לַאיי"
 		},
@@ -12,6 +13,7 @@
 			"text": "לַיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 686,
 		"column": "a"

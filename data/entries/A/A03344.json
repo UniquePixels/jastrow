@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03344",
-	"slug": "אשקלון",
-	"headword": {
-		"text": "אַשְׁקְלוֹן"
-	},
+	"sefariaHeadword": "אַשְׁקְלוֹן",
+	"headwords": [
+		{
+			"text": "אַשְׁקְלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

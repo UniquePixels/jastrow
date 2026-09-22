@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00538",
-	"slug": "עיטפא",
-	"headword": {
-		"text": "עִיטְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיטְפָא",
+	"headwords": [
 		{
-			"text": "עִטְ׳"
+			"text": "עִיטְפָא"
+		},
+		{
+			"text": "עִטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1068,
 		"column": "b"

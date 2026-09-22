@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01065",
-	"slug": "שירוי",
-	"headword": {
-		"text": "שֵׁירוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁירוּי",
+	"headwords": [
+		{
+			"text": "שֵׁירוּי"
+		},
 		{
 			"text": "שֵׁירוּיָא"
 		},
 		{
-			"text": "שֵׁר׳"
+			"text": "שֵׁר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1569,
 		"column": "a"

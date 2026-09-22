@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00998",
-	"slug": "תריעה",
-	"headword": {
-		"text": "תְּרִיעָה"
-	},
+	"sefariaHeadword": "תְּרִיעָה",
+	"headwords": [
+		{
+			"text": "תְּרִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

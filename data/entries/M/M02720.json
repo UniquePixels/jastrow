@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02720",
-	"slug": "מרמצא",
-	"headword": {
-		"text": "מְרַמְצָא"
-	},
+	"sefariaHeadword": "מְרַמְצָא",
+	"headwords": [
+		{
+			"text": "מְרַמְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

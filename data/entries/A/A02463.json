@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02463",
-	"slug": "אסלא-3",
-	"headword": {
-		"text": "אַסְלֵא"
-	},
+	"sefariaHeadword": "אַסְלֵא",
+	"headwords": [
+		{
+			"text": "אַסְלֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "b"

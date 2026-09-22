@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00083",
-	"slug": "לבל",
-	"headword": {
-		"text": "לְבַֹל"
-	},
+	"sefariaHeadword": "לְבַֹל",
+	"headwords": [
+		{
+			"text": "לְבַֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

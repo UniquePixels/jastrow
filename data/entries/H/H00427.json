@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00427",
-	"slug": "חופר",
-	"headword": {
-		"text": "חוֹפֵר"
-	},
+	"sefariaHeadword": "חוֹפֵר",
+	"headwords": [
+		{
+			"text": "חוֹפֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "b"

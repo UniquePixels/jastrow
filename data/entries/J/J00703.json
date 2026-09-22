@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00703",
-	"slug": "ישר-1",
-	"headword": {
-		"text": "יָשַׁר"
-	},
+	"sefariaHeadword": "יָשַׁר",
+	"headwords": [
+		{
+			"text": "יָשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 601,
 		"column": "b"

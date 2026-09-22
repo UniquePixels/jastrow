@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01424",
-	"slug": "חפוי",
-	"headword": {
-		"text": "חִפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִפּוּי",
+	"headwords": [
 		{
-			"text": "חִי׳"
+			"text": "חִפּוּי"
+		},
+		{
+			"text": "חִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 490,
 		"column": "b"

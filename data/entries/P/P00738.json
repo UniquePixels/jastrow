@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00738",
-	"slug": "עכל-2",
-	"headword": {
-		"text": "עֲכַל"
-	},
+	"sefariaHeadword": "עֲכַל",
+	"headwords": [
+		{
+			"text": "עֲכַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1079,
 		"column": "a"

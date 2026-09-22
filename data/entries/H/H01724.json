@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01724",
-	"slug": "חרס-1",
-	"headword": {
-		"text": "חֶרֶס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֶרֶס I",
+	"headwords": [
+		{
+			"text": "חֶרֶס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 504,
 		"column": "b"

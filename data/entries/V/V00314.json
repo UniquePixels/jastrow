@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00314",
-	"slug": "תורפא-2",
-	"headword": {
-		"text": "תּוֹרְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרְפָא",
+	"headwords": [
 		{
-			"text": "תּוּ׳"
+			"text": "תּוֹרְפָא"
+		},
+		{
+			"text": "תּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1658,
 		"column": "b"

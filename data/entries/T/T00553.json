@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00553",
-	"slug": "רטה",
-	"headword": {
-		"text": "רָטָה"
-	},
+	"sefariaHeadword": "רָטָה",
+	"headwords": [
+		{
+			"text": "רָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "a"

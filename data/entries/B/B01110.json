@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01110",
-	"slug": "בצת",
-	"headword": {
-		"text": "בֶּצֶת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בֶּצֶת",
+	"headwords": [
+		{
+			"text": "בֶּצֶת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 185,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

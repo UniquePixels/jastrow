@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01750",
-	"slug": "מנוסה",
-	"headword": {
-		"text": "מְנוּסָה"
-	},
+	"sefariaHeadword": "מְנוּסָה",
+	"headwords": [
+		{
+			"text": "מְנוּסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "b"

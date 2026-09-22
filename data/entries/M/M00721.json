@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00721",
-	"slug": "מזגג",
-	"headword": {
-		"text": "מִזְגָּג"
-	},
+	"sefariaHeadword": "מִזְגָּג",
+	"headwords": [
+		{
+			"text": "מִזְגָּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 753,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00500",
-	"slug": "פטומא",
-	"headword": {
-		"text": "פְּטוּמָא"
-	},
+	"sefariaHeadword": "פְּטוּמָא",
+	"headwords": [
+		{
+			"text": "פְּטוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

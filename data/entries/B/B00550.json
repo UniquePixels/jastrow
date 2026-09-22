@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00550",
-	"slug": "ביבריא",
-	"headword": {
-		"text": "בִּיבָרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיבָרְיָא",
+	"headwords": [
+		{
+			"text": "בִּיבָרְיָא"
+		},
 		{
 			"text": "בִּיבָרְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 159,
 		"column": "b"

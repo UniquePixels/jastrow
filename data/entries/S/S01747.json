@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01747",
-	"slug": "קפל-2",
-	"headword": {
-		"text": "קְפַל"
-	},
+	"sefariaHeadword": "קְפַל",
+	"headwords": [
+		{
+			"text": "קְפַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "a"

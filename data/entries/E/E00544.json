@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00544",
-	"slug": "הלז",
-	"headword": {
-		"text": "הַלָּז"
-	},
+	"sefariaHeadword": "הַלָּז",
+	"headwords": [
+		{
+			"text": "הַלָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

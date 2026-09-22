@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02639",
-	"slug": "אפופרין",
-	"headword": {
-		"text": "אפופרין"
-	},
+	"sefariaHeadword": "אפופרין",
+	"headwords": [
+		{
+			"text": "אפופרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

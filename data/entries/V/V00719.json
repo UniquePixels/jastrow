@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00719",
-	"slug": "תנאי-1",
-	"headword": {
-		"text": "תְּנַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּנַאי",
+	"headwords": [
+		{
+			"text": "תְּנַאי"
+		},
 		{
 			"text": "תְּנַּיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1679,
 		"column": "b"

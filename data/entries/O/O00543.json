@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00543",
-	"slug": "סיבני",
-	"headword": {
-		"text": "סִיבְנִּי"
-	},
+	"sefariaHeadword": "סִיבְנִּי",
+	"headwords": [
+		{
+			"text": "סִיבְנִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "a"

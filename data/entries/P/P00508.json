@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00508",
-	"slug": "עידון-1",
-	"headword": {
-		"text": "עִידּוּן"
-	},
+	"sefariaHeadword": "עִידּוּן",
+	"headwords": [
+		{
+			"text": "עִידּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "b"

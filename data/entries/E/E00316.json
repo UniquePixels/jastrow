@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00316",
-	"slug": "הטיומא",
-	"headword": {
-		"text": "הטיומא"
-	},
+	"sefariaHeadword": "הטיומא",
+	"headwords": [
+		{
+			"text": "הטיומא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "b"

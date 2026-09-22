@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01829",
-	"slug": "אלותא-2",
-	"headword": {
-		"text": "אַלּוּתָא"
-	},
+	"sefariaHeadword": "אַלּוּתָא",
+	"headwords": [
+		{
+			"text": "אַלּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

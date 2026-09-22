@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00479",
-	"slug": "גורגא",
-	"headword": {
-		"text": "גּוּרְגָּא"
-	},
+	"sefariaHeadword": "גּוּרְגָּא",
+	"headwords": [
+		{
+			"text": "גּוּרְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

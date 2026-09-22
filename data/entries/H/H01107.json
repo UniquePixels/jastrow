@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01107",
-	"slug": "חלפתא-1",
-	"headword": {
-		"text": "חֲלַפְתָּא"
-	},
+	"sefariaHeadword": "חֲלַפְתָּא",
+	"headwords": [
+		{
+			"text": "חֲלַפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "a"

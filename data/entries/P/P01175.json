@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P01175",
-	"slug": "עקידתא",
-	"headword": {
-		"text": "עֲקֵידְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲקֵידְתָּא",
+	"headwords": [
+		{
+			"text": "עֲקֵידְתָּא"
+		},
 		{
 			"text": "עֲקֵידְתָּה"
 		},
 		{
-			"text": "עֲקֵדְ׳"
+			"text": "עֲקֵדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1105,
 		"column": "b"

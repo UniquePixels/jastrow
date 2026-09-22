@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02760",
-	"slug": "אפסינתין",
-	"headword": {
-		"text": "אַפְסִינְתִּין"
-	},
+	"sefariaHeadword": "אַפְסִינְתִּין",
+	"headwords": [
+		{
+			"text": "אַפְסִינְתִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "b"

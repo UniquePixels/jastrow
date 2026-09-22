@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01169",
-	"slug": "ברברון",
-	"headword": {
-		"text": "בַּרְבַּרוֹן"
-	},
+	"sefariaHeadword": "בַּרְבַּרוֹן",
+	"headwords": [
+		{
+			"text": "בַּרְבַּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

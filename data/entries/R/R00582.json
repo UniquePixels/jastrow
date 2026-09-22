@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00582",
-	"slug": "צמל",
-	"headword": {
-		"text": "צֶמֶל"
-	},
+	"sefariaHeadword": "צֶמֶל",
+	"headwords": [
+		{
+			"text": "צֶמֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "b"

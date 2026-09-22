@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00247",
-	"slug": "רדיא-2",
-	"headword": {
-		"text": "רִדְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִדְיָא",
+	"headwords": [
+		{
+			"text": "רִדְיָא"
+		},
 		{
 			"text": "רִדְיָיא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1452,
 		"column": "a"

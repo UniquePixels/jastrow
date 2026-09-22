@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01132",
-	"slug": "סמקן",
-	"headword": {
-		"text": "סָמְקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָמְקָן",
+	"headwords": [
 		{
-			"text": "סַ׳"
+			"text": "סָמְקָן"
+		},
+		{
+			"text": "סַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1003,
 		"column": "a"

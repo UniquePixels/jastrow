@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00339",
-	"slug": "עוקסא",
-	"headword": {
-		"text": "עוּקְסָא"
-	},
+	"sefariaHeadword": "עוּקְסָא",
+	"headwords": [
+		{
+			"text": "עוּקְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1057,
 		"column": "a"

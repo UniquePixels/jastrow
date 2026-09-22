@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00806",
-	"slug": "סיפתא-1",
-	"headword": {
-		"text": "סִיפְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפְתָא",
+	"headwords": [
 		{
-			"text": "סִפְ׳"
+			"text": "סִיפְתָא"
 		},
 		{
-			"text": "שִׂ׳"
+			"text": "סִפְ׳",
+			"partial": true
+		},
+		{
+			"text": "שִׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 985,
 		"column": "b"

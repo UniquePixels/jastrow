@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00281",
-	"slug": "אגורי-1",
-	"headword": {
-		"text": "אֲגוּרֵי"
-	},
+	"sefariaHeadword": "אֲגוּרֵי",
+	"headwords": [
+		{
+			"text": "אֲגוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

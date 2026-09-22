@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00409",
-	"slug": "עזיז",
-	"headword": {
-		"text": "עַזִּיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַזִּיז",
+	"headwords": [
+		{
+			"text": "עַזִּיז"
+		},
 		{
 			"text": "עַזִּיזָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1061,
 		"column": "b"

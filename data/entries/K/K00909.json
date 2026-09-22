@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00909",
-	"slug": "כסופא",
-	"headword": {
-		"text": "כִּסּוּפָא"
-	},
+	"sefariaHeadword": "כִּסּוּפָא",
+	"headwords": [
+		{
+			"text": "כִּסּוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

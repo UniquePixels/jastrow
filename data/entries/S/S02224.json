@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02224",
-	"slug": "קשוה",
-	"headword": {
-		"text": "קִשְׂוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִשְׂוָה",
+	"headwords": [
+		{
+			"text": "קִשְׂוָה"
+		},
 		{
 			"text": "קַשְׂוָוא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1429,
 		"column": "a"

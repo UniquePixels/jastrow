@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00903",
-	"slug": "סכך-1",
-	"headword": {
-		"text": "סָכַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סָכַךְ I",
+	"headwords": [
+		{
+			"text": "סָכַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 990,
 		"column": "a"

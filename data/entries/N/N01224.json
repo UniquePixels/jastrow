@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01224",
-	"slug": "נקליטין",
-	"headword": {
-		"text": "נַקְלִיטִין"
-	},
+	"sefariaHeadword": "נַקְלִיטִין",
+	"headwords": [
+		{
+			"text": "נַקְלִיטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

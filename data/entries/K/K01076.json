@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "K01076",
-	"slug": "כרב-1",
-	"headword": {
-		"text": "כְּרַב",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*כְּרַב I",
+	"headwords": [
+		{
+			"text": "כְּרַב",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 663,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00101",
-	"slug": "עגלתא-3",
-	"headword": {
-		"text": "עֶגְלְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֶגְלְתָא",
+	"headwords": [
 		{
-			"text": "עֵגְ׳"
+			"text": "עֶגְלְתָא"
 		},
 		{
-			"text": "עִיגְ׳"
+			"text": "עֵגְ׳",
+			"partial": true
+		},
+		{
+			"text": "עִיגְ׳",
+			"partial": true
 		},
 		{
 			"text": "עֶגְלָא"
@@ -19,6 +22,7 @@
 			"homograph": 3
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, ({4} III)",
 	"page": {
 		"number": 1041,
 		"column": "b"

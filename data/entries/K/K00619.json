@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00619",
-	"slug": "כירה-1",
-	"headword": {
-		"text": "כֵּירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּירָה",
+	"headwords": [
+		{
+			"text": "כֵּירָה"
+		},
 		{
 			"text": "כֵּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 636,
 		"column": "b"

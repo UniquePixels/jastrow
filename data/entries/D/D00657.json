@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00657",
-	"slug": "דיסקוס-1",
-	"headword": {
-		"text": "דִּיסְקוֹס",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְקוֹס I",
+	"headwords": [
+		{
+			"text": "דִּיסְקוֹס",
+			"homograph": 1
+		},
 		{
 			"text": "דִּסְקוֹס"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 302,
 		"column": "b"

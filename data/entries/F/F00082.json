@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "F00082",
-	"slug": "ורד-1",
-	"headword": {
-		"text": "וֶרֶד",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*וֶרֶד I",
+	"headwords": [
+		{
+			"text": "וֶרֶד",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 375,
 		"column": "a"

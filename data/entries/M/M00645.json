@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00645",
-	"slug": "מורטינוס",
-	"headword": {
-		"text": "מְוָרִטִינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְוָרִטִינוֹס",
+	"headwords": [
+		{
+			"text": "מְוָרִטִינוֹס"
+		},
 		{
 			"text": "מַוְורִיאָטִינוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01873",
-	"slug": "פרמוסקא",
-	"headword": {
-		"text": "פַּרְמוּסְקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּרְמוּסְקָא",
+	"headwords": [
+		{
+			"text": "פַּרְמוּסְקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

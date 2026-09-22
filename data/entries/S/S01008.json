@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01008",
-	"slug": "קימושא",
-	"headword": {
-		"text": "קִימּוֹשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִימּוֹשָׁא",
+	"headwords": [
 		{
-			"text": "קִמּ׳"
+			"text": "קִימּוֹשָׁא"
+		},
+		{
+			"text": "קִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1362,
 		"column": "a"

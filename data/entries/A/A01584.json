@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01584",
-	"slug": "איקא",
-	"headword": {
-		"text": "אִיקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיקָא",
+	"headwords": [
+		{
+			"text": "אִיקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

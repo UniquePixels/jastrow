@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00426",
-	"slug": "נזה-1",
-	"headword": {
-		"text": "נָזָה"
-	},
+	"sefariaHeadword": "נָזָה",
+	"headwords": [
+		{
+			"text": "נָזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

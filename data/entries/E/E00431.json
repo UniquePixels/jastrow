@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00431",
-	"slug": "הימנון",
-	"headword": {
-		"text": "הִימְנוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִימְנוֹן",
+	"headwords": [
 		{
-			"text": "הִמְ׳"
+			"text": "הִימְנוֹן"
+		},
+		{
+			"text": "הִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 347,
 		"column": "b"

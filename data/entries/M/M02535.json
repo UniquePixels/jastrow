@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02535",
-	"slug": "מרדא-2",
-	"headword": {
-		"text": "מַרְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַרְדָּא I",
+	"headwords": [
+		{
+			"text": "מַרְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 837,
 		"column": "a"

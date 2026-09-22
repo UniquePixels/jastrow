@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00764",
-	"slug": "אונקי",
-	"headword": {
-		"text": "אוּנְקַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּנְקַי",
+	"headwords": [
+		{
+			"text": "אוּנְקַי"
+		},
 		{
 			"text": "אוּנְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 29,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01736",
-	"slug": "חרספותייא",
-	"headword": {
-		"text": "חרספותייא"
-	},
+	"sefariaHeadword": "חרספותייא",
+	"headwords": [
+		{
+			"text": "חרספותייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00598",
-	"slug": "תלם-2",
-	"headword": {
-		"text": "תֶּלֶם"
-	},
+	"sefariaHeadword": "תֶּלֶם",
+	"headwords": [
+		{
+			"text": "תֶּלֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "a"

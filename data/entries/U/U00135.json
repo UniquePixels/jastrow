@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00135",
-	"slug": "שבירה",
-	"headword": {
-		"text": "שְׁבִירָה"
-	},
+	"sefariaHeadword": "שְׁבִירָה",
+	"headwords": [
+		{
+			"text": "שְׁבִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00427",
-	"slug": "אדמתא",
-	"headword": {
-		"text": "אֲדַמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲדַמְתָּא",
+	"headwords": [
+		{
+			"text": "אֲדַמְתָּא"
+		},
 		{
 			"text": "אַדְמְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 17,
 		"column": "a"

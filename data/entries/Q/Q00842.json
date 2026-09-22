@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00842",
-	"slug": "פירוצין",
-	"headword": {
-		"text": "פִּירוּצִין"
-	},
+	"sefariaHeadword": "פִּירוּצִין",
+	"headwords": [
+		{
+			"text": "פִּירוּצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

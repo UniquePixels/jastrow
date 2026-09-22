@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01738",
-	"slug": "פרוש-1",
-	"headword": {
-		"text": "פָּרוּשׁ"
-	},
+	"sefariaHeadword": "פָּרוּשׁ",
+	"headwords": [
+		{
+			"text": "פָּרוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "a"

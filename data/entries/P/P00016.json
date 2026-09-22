@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00016",
-	"slug": "עבד-4",
-	"headword": {
-		"text": "עֲבַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבַד",
+	"headwords": [
+		{
+			"text": "עֲבַד"
+		},
 		{
 			"text": "עֲבֵד"
 		},
@@ -16,6 +17,7 @@
 			"text": "עַבְדָּא"
 		}
 	],
+	"display": "{0}, {1}, {2} II, {3}",
 	"page": {
 		"number": 1035,
 		"column": "b"

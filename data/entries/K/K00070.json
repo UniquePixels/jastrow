@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00070",
-	"slug": "כבסא",
-	"headword": {
-		"text": "כְּבָסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּבָסָא",
+	"headwords": [
+		{
+			"text": "כְּבָסָא"
+		},
 		{
 			"text": "כּוּבְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 609,
 		"column": "a"

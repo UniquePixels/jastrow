@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00184",
-	"slug": "לוגא-1",
-	"headword": {
-		"text": "לוּגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּגָּא",
+	"headwords": [
+		{
+			"text": "לוּגָּא"
+		},
 		{
 			"text": "לֻגָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 694,
 		"column": "a"

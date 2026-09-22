@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02980",
-	"slug": "ארגובלא",
-	"headword": {
-		"text": "אַרְגּוּבְלָא"
-	},
+	"sefariaHeadword": "אַרְגּוּבְלָא",
+	"headwords": [
+		{
+			"text": "אַרְגּוּבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

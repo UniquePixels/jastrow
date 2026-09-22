@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00907",
-	"slug": "טרש-2",
-	"headword": {
-		"text": "טְרַשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טְרַשׁ II",
+	"headwords": [
+		{
+			"text": "טְרַשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 558,
 		"column": "b"

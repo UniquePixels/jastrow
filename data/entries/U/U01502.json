@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01502",
-	"slug": "שמנא",
-	"headword": {
-		"text": "שְׁמֵנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמֵנָא",
+	"headwords": [
 		{
-			"text": "שְׁמֵי׳"
+			"text": "שְׁמֵנָא"
+		},
+		{
+			"text": "שְׁמֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1598,
 		"column": "a"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00968",
-	"slug": "ענותנותא",
-	"headword": {
-		"text": "עִנְוְתָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְוְתָנוּתָא",
+	"headwords": [
 		{
-			"text": "עִנְוְו׳"
+			"text": "עִנְוְתָנוּתָא"
 		},
 		{
-			"text": "עִינְ׳"
+			"text": "עִנְוְו׳",
+			"partial": true
+		},
+		{
+			"text": "עִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1093,
 		"column": "a"

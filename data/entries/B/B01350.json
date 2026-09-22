@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01350",
-	"slug": "בשומין",
-	"headword": {
-		"text": "בשומין"
-	},
+	"sefariaHeadword": "בשומין",
+	"headwords": [
+		{
+			"text": "בשומין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01469",
-	"slug": "קמיליא",
-	"headword": {
-		"text": "קמיליא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קמיליא",
+	"headwords": [
+		{
+			"text": "קמיליא"
+		},
 		{
 			"text": "קמליא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1385,
 		"column": "b"

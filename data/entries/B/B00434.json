@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00434",
-	"slug": "בזי-1",
-	"headword": {
-		"text": "בזי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בזי",
+	"headwords": [
+		{
+			"text": "בזי"
+		},
 		{
 			"text": "בָּזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 152,
 		"column": "b"

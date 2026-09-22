@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00439",
-	"slug": "נזיח",
-	"headword": {
-		"text": "נָזִיחַ"
-	},
+	"sefariaHeadword": "נָזִיחַ",
+	"headwords": [
+		{
+			"text": "נָזִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

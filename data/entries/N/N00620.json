@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00620",
-	"slug": "ניגרא",
-	"headword": {
-		"text": "נִיגְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיגְרָא",
+	"headwords": [
 		{
-			"text": "נִגְ׳"
+			"text": "נִיגְרָא"
+		},
+		{
+			"text": "נִגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 902,
 		"column": "b"

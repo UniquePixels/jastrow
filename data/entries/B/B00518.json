@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00518",
-	"slug": "בטלה",
-	"headword": {
-		"text": "בַּטָּלָה"
-	},
+	"sefariaHeadword": "בַּטָּלָה",
+	"headwords": [
+		{
+			"text": "בַּטָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

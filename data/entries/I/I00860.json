@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00860",
-	"slug": "טרף-2",
-	"headword": {
-		"text": "טְרַף",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרַף I",
+	"headwords": [
+		{
+			"text": "טְרַף",
+			"homograph": 1
+		},
 		{
 			"text": "טְרֵיף"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 556,
 		"column": "b"

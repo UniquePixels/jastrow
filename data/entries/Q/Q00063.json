@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00063",
-	"slug": "פגינותא",
-	"headword": {
-		"text": "פְּגִינוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגִינוּתָא",
+	"headwords": [
+		{
+			"text": "פְּגִינוּתָא"
+		},
 		{
 			"text": "פְּגִינְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1133,
 		"column": "a"

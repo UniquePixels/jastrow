@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00346",
-	"slug": "כופרא-1",
-	"headword": {
-		"text": "כּוּפְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כּוּפְרָא I",
+	"headwords": [
+		{
+			"text": "כּוּפְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 624,
 		"column": "a"

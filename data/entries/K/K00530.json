@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00530",
-	"slug": "כילבית",
-	"headword": {
-		"text": "כִּילְבִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּילְבִּית",
+	"headwords": [
 		{
-			"text": "כִּלְ׳"
+			"text": "כִּילְבִּית"
+		},
+		{
+			"text": "כִּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 632,
 		"column": "a"

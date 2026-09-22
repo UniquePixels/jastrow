@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00389",
-	"slug": "ילך",
-	"headword": {
-		"text": "יָלַךְ"
-	},
+	"sefariaHeadword": "יָלַךְ",
+	"headwords": [
+		{
+			"text": "יָלַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "a"

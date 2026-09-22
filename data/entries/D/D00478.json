@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00478",
-	"slug": "דיבר",
-	"headword": {
-		"text": "דִּיבֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיבֵּר",
+	"headwords": [
+		{
+			"text": "דִּיבֵּר"
+		},
 		{
 			"text": "דִּבֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 295,
 		"column": "a"

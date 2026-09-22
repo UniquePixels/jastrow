@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00235",
-	"slug": "זוראן",
-	"headword": {
-		"text": "זוראן"
-	},
+	"sefariaHeadword": "זוראן",
+	"headwords": [
+		{
+			"text": "זוראן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "b"

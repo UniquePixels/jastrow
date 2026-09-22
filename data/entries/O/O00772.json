@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00772",
-	"slug": "סיעור",
-	"headword": {
-		"text": "סִיעוּר"
-	},
+	"sefariaHeadword": "סִיעוּר",
+	"headwords": [
+		{
+			"text": "סִיעוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "b"

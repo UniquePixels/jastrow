@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00153",
-	"slug": "מגידם",
-	"headword": {
-		"text": "מגידם"
-	},
+	"sefariaHeadword": "מגידם",
+	"headwords": [
+		{
+			"text": "מגידם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

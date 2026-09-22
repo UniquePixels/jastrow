@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01049",
-	"slug": "תרפיון",
-	"headword": {
-		"text": "תְּרַפְיוֹן"
-	},
+	"sefariaHeadword": "תְּרַפְיוֹן",
+	"headwords": [
+		{
+			"text": "תְּרַפְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

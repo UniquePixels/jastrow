@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00977",
-	"slug": "קילחא",
-	"headword": {
-		"text": "קִילְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילְחָא",
+	"headwords": [
+		{
+			"text": "קִילְחָא"
+		},
 		{
 			"text": "קִילְחוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִילְחֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1361,
 		"column": "a"

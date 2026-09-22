@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01225",
-	"slug": "חמר-8",
-	"headword": {
-		"text": "חַמָּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַמָּר II",
+	"headwords": [
+		{
+			"text": "חַמָּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 480,
 		"column": "a"

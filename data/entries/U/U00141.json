@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00141",
-	"slug": "שבלול",
-	"headword": {
-		"text": "שַׁבְּלוּל"
-	},
+	"sefariaHeadword": "שַׁבְּלוּל",
+	"headwords": [
+		{
+			"text": "שַׁבְּלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

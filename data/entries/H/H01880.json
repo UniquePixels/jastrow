@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01880",
-	"slug": "חתות",
-	"headword": {
-		"text": "חתות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חתות",
+	"headwords": [
+		{
+			"text": "חתות"
+		},
 		{
 			"text": "חִתִּית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 512,
 		"column": "b"

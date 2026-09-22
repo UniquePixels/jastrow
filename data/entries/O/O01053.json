@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01053",
-	"slug": "סמא-4",
-	"headword": {
-		"text": "סִמָא"
-	},
+	"sefariaHeadword": "סִמָא",
+	"headwords": [
+		{
+			"text": "סִמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

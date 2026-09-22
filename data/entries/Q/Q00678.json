@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00678",
-	"slug": "פילומא",
-	"headword": {
-		"text": "פִּילוֹמָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פִּילוֹמָא",
+	"headwords": [
+		{
+			"text": "פִּילוֹמָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

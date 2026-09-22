@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02150",
-	"slug": "פתחיה",
-	"headword": {
-		"text": "פְּתַחְיָה"
-	},
+	"sefariaHeadword": "פְּתַחְיָה",
+	"headwords": [
+		{
+			"text": "פְּתַחְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1252,
 		"column": "b"

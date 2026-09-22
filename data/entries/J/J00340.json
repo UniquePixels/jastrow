@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00340",
-	"slug": "ייס",
-	"headword": {
-		"text": "ייס"
-	},
+	"sefariaHeadword": "ייס",
+	"headwords": [
+		{
+			"text": "ייס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

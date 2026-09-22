@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00434",
-	"slug": "אדני-2",
-	"headword": {
-		"text": "אַדְנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְנֵי",
+	"headwords": [
+		{
+			"text": "אַדְנֵי"
+		},
 		{
 			"text": "אַבְנֵי"
 		},
 		{
-			"text": "אַדְנֵי הַשָּׂדֶה"
+			"text": "א׳ הַשָּׂדֶה",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 17,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01178",
-	"slug": "נקודה",
-	"headword": {
-		"text": "נְקוּדָּה"
-	},
+	"sefariaHeadword": "נְקוּדָּה",
+	"headwords": [
+		{
+			"text": "נְקוּדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

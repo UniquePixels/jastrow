@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01400",
-	"slug": "מכלתייא",
-	"headword": {
-		"text": "מכלתייא"
-	},
+	"sefariaHeadword": "מכלתייא",
+	"headwords": [
+		{
+			"text": "מכלתייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "a"

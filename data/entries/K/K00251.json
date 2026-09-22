@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00251",
-	"slug": "כוכביתא",
-	"headword": {
-		"text": "כּוֹכְבִיתָא"
-	},
+	"sefariaHeadword": "כּוֹכְבִיתָא",
+	"headwords": [
+		{
+			"text": "כּוֹכְבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "a"

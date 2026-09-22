@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03066",
-	"slug": "מתך",
-	"headword": {
-		"text": "מַתַּךְ"
-	},
+	"sefariaHeadword": "מַתַּךְ",
+	"headwords": [
+		{
+			"text": "מַתַּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

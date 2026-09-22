@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00984",
-	"slug": "נעימתא",
-	"headword": {
-		"text": "נְעִימְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְעִימְתָּא",
+	"headwords": [
+		{
+			"text": "נְעִימְתָּא"
+		},
 		{
 			"text": "נְעִימָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 920,
 		"column": "a"

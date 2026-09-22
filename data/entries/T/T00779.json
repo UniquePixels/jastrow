@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00779",
-	"slug": "רכשא",
-	"headword": {
-		"text": "רִכְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִכְשָׁא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִכְשָׁא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1481,
 		"column": "a"

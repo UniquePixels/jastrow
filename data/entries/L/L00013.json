@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00013",
-	"slug": "לאי-1",
-	"headword": {
-		"text": "לְאֵי"
-	},
+	"sefariaHeadword": "לְאֵי",
+	"headwords": [
+		{
+			"text": "לְאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

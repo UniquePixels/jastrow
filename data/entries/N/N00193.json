@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00193",
-	"slug": "נגרותא",
-	"headword": {
-		"text": "נַגָּרוּתָא"
-	},
+	"sefariaHeadword": "נַגָּרוּתָא",
+	"headwords": [
+		{
+			"text": "נַגָּרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 876,
 		"column": "b"

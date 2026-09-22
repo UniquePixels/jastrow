@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00633",
-	"slug": "בימס",
-	"headword": {
-		"text": "בִּימָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּימָס",
+	"headwords": [
+		{
+			"text": "בִּימָס"
+		},
 		{
 			"text": "בִּימָסוֹת"
 		},
@@ -15,6 +16,7 @@
 			"text": "בִּימַסְיוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 162,
 		"column": "b"

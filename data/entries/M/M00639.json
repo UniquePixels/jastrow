@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00639",
-	"slug": "מורי",
-	"headword": {
-		"text": "מורי"
-	},
+	"sefariaHeadword": "מורי",
+	"headwords": [
+		{
+			"text": "מורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

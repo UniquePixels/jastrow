@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00608",
-	"slug": "כיפלה",
-	"headword": {
-		"text": "כֵּיפְלָה"
-	},
+	"sefariaHeadword": "כֵּיפְלָה",
+	"headwords": [
+		{
+			"text": "כֵּיפְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 635,
 		"column": "b"

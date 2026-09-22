@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00908",
-	"slug": "מחסור-2",
-	"headword": {
-		"text": "מַחְסוֹר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מַחְסוֹר ²",
+	"headwords": [
+		{
+			"text": "מַחְסוֹר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 762,
 		"column": "b"

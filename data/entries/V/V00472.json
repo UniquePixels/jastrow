@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00472",
-	"slug": "תינחא",
-	"headword": {
-		"text": "תִּינָחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּינָחָא",
+	"headwords": [
+		{
+			"text": "תִּינָחָא"
+		},
 		{
 			"text": "תִּינְחֲתָא"
 		},
 		{
-			"text": "תִּנְ׳"
+			"text": "תִּנְ׳",
+			"partial": true
 		},
 		{
 			"text": "תּוּנְחָא"
@@ -18,9 +20,11 @@
 			"text": "תּוּנַחְתָּא"
 		},
 		{
-			"text": "תְּנַח׳"
+			"text": "תְּנַח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1665,
 		"column": "b"

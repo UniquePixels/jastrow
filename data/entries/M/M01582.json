@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01582",
-	"slug": "מלכיא-1",
-	"headword": {
-		"text": "מַלַכְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַלַכְיָא",
+	"headwords": [
+		{
+			"text": "מַלַכְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 792,
 		"column": "a"

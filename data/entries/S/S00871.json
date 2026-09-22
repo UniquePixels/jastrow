@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00871",
-	"slug": "קידום",
-	"headword": {
-		"text": "קִידּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִידּוּם",
+	"headwords": [
+		{
+			"text": "קִידּוּם"
+		},
 		{
 			"text": "קִידּוּמָא"
 		},
 		{
-			"text": "קִדּ׳"
+			"text": "קִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1355,
 		"column": "a"

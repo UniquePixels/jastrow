@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00106",
-	"slug": "פדאמי",
-	"headword": {
-		"text": "פְּדָאמֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּדָאמֵי",
+	"headwords": [
+		{
+			"text": "פְּדָאמֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1136,
 		"column": "b"

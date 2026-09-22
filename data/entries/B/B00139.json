@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00139",
-	"slug": "בדיחותא",
-	"headword": {
-		"text": "בְּדִיחוּתָא"
-	},
+	"sefariaHeadword": "בְּדִיחוּתָא",
+	"headwords": [
+		{
+			"text": "בְּדִיחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "a"

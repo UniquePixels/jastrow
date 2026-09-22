@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00683",
-	"slug": "פילוס",
-	"headword": {
-		"text": "פילוס"
-	},
+	"sefariaHeadword": "פילוס",
+	"headwords": [
+		{
+			"text": "פילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

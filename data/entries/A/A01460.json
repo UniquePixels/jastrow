@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A01460",
-	"slug": "איסטרידא",
-	"headword": {
-		"text": "אִיסְטְרִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְרִידָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְרִידָא"
+		},
 		{
 			"text": "איסטדירא",
 			"reconstructed": true
 		},
 		{
-			"text": "אִיסְתְּ׳"
+			"text": "אִיסְתְּ׳",
+			"partial": true
 		},
 		{
-			"text": "אִצְטְ׳"
+			"text": "אִצְטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, *({1}), {2}, {3}",
 	"page": {
 		"number": 55,
 		"column": "b"

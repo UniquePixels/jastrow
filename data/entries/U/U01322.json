@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01322",
-	"slug": "שליל",
-	"headword": {
-		"text": "שָׁלִיל"
-	},
+	"sefariaHeadword": "שָׁלִיל",
+	"headwords": [
+		{
+			"text": "שָׁלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "b"

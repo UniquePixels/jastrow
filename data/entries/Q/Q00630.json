@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00630",
-	"slug": "פיטס",
-	"headword": {
-		"text": "פִּיטָּס"
-	},
+	"sefariaHeadword": "פִּיטָּס",
+	"headwords": [
+		{
+			"text": "פִּיטָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "b"

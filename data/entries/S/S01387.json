@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01387",
-	"slug": "קלסריקין",
-	"headword": {
-		"text": "קְלַסְרִיקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְלַסְרִיקִין",
+	"headwords": [
+		{
+			"text": "קְלַסְרִיקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1380,
 		"column": "a"

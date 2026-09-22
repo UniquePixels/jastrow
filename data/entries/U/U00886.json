@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00886",
-	"slug": "שיטנו",
-	"headword": {
-		"text": "שיטנו"
-	},
+	"sefariaHeadword": "שיטנו",
+	"headwords": [
+		{
+			"text": "שיטנו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1560,
 		"column": "b"

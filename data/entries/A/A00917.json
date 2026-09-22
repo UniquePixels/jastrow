@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00917",
-	"slug": "אושא-1",
-	"headword": {
-		"text": "אוּשָּׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּשָּׁא",
+	"headwords": [
+		{
+			"text": "אוּשָּׁא"
+		},
 		{
 			"text": "אֻשָּׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַוְשָׁא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 35,
 		"column": "b"

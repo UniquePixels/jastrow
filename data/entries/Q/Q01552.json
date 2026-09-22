@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01552",
-	"slug": "פרגוד-2",
-	"headword": {
-		"text": "פַּרְגּוֹד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְגּוֹד ²",
+	"headwords": [
+		{
+			"text": "פַּרְגּוֹד",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּרְגּוֹדָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1214,
 		"column": "a"

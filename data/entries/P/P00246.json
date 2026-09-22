@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00246",
-	"slug": "עולא-2",
-	"headword": {
-		"text": "עַוָּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַוָּלָא",
+	"headwords": [
 		{
-			"text": "עַוָּו׳"
+			"text": "עַוָּלָא"
+		},
+		{
+			"text": "עַוָּו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1050,
 		"column": "b"

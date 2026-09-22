@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00393",
-	"slug": "צינור",
-	"headword": {
-		"text": "צִינּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִינּוֹר",
+	"headwords": [
+		{
+			"text": "צִינּוֹר"
+		},
 		{
 			"text": "צִינּוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1278,
 		"column": "a"

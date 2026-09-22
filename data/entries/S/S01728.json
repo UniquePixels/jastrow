@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01728",
-	"slug": "קפחותא",
-	"headword": {
-		"text": "קַפָּחוּתָא"
-	},
+	"sefariaHeadword": "קַפָּחוּתָא",
+	"headwords": [
+		{
+			"text": "קַפָּחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1400,
 		"column": "a"

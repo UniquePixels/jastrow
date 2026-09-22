@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03307",
-	"slug": "אשכל",
-	"headword": {
-		"text": "אֶשְׁכֹּל"
-	},
+	"sefariaHeadword": "אֶשְׁכֹּל",
+	"headwords": [
+		{
+			"text": "אֶשְׁכֹּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

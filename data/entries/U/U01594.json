@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01594",
-	"slug": "שנייא-1",
-	"headword": {
-		"text": "שַׁנְיָיא"
-	},
+	"sefariaHeadword": "שַׁנְיָיא",
+	"headwords": [
+		{
+			"text": "שַׁנְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1607,
 		"column": "a"

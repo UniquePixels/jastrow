@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01206",
-	"slug": "פנס",
-	"headword": {
-		"text": "פָּנָס"
-	},
+	"sefariaHeadword": "פָּנָס",
+	"headwords": [
+		{
+			"text": "פָּנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "b"

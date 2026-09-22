@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00416",
-	"slug": "טיפוס",
-	"headword": {
-		"text": "טִיפּוּס"
-	},
+	"sefariaHeadword": "טִיפּוּס",
+	"headwords": [
+		{
+			"text": "טִיפּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

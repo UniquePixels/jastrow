@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00494",
-	"slug": "תיקרת",
-	"headword": {
-		"text": "תִּיקְרַת"
-	},
+	"sefariaHeadword": "תִּיקְרַת",
+	"headwords": [
+		{
+			"text": "תִּיקְרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

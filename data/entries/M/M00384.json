@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00384",
-	"slug": "מואבא",
-	"headword": {
-		"text": "מואבא"
-	},
+	"sefariaHeadword": "מואבא",
+	"headwords": [
+		{
+			"text": "מואבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

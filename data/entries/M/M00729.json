@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00729",
-	"slug": "מזודה",
-	"headword": {
-		"text": "מְזוּדָה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מְזוּדָה",
+	"headwords": [
+		{
+			"text": "מְזוּדָה",
+			"reconstructed": true
+		},
 		{
 			"text": "מִזְוָדָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 753,
 		"column": "b"

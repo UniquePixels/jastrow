@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00849",
-	"slug": "קיבה",
-	"headword": {
-		"text": "קֵיבָה"
-	},
+	"sefariaHeadword": "קֵיבָה",
+	"headwords": [
+		{
+			"text": "קֵיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "a"

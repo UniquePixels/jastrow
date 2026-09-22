@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01012",
-	"slug": "קימעא",
-	"headword": {
-		"text": "קִימְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִימְעָא",
+	"headwords": [
+		{
+			"text": "קִימְעָא"
+		},
 		{
 			"text": "קִימְעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1362,
 		"column": "b"

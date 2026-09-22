@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00383",
-	"slug": "קומוס-1",
-	"headword": {
-		"text": "קוּמּוֹס"
-	},
+	"sefariaHeadword": "קוּמּוֹס",
+	"headwords": [
+		{
+			"text": "קוּמּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1332,
 		"column": "b"

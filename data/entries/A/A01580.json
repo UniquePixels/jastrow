@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01580",
-	"slug": "איצטרי",
-	"headword": {
-		"text": "איצטרי"
-	},
+	"sefariaHeadword": "איצטרי",
+	"headwords": [
+		{
+			"text": "איצטרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

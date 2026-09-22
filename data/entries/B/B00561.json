@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00561",
-	"slug": "ביזא-2",
-	"headword": {
-		"text": "בִּיזָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיזָּא",
+	"headwords": [
+		{
+			"text": "בִּיזָּא"
+		},
 		{
 			"text": "בִּזָּא",
 			"homograph": 2
@@ -16,6 +17,7 @@
 			"text": "בִּזְּתָא"
 		}
 	],
+	"display": "{0}, {1} II, {2}, {3}",
 	"page": {
 		"number": 159,
 		"column": "b"

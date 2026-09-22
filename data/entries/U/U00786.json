@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00786",
-	"slug": "שיבבין",
-	"headword": {
-		"text": "שֵׁיבְבִין"
-	},
+	"sefariaHeadword": "שֵׁיבְבִין",
+	"headwords": [
+		{
+			"text": "שֵׁיבְבִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "b"

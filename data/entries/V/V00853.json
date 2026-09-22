@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00853",
-	"slug": "תפקן",
-	"headword": {
-		"text": "תַּפְקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְקָן",
+	"headwords": [
 		{
-			"text": "בַּר תַּפְקָן"
+			"text": "תַּפְקָן"
+		},
+		{
+			"text": "בַּר תַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "a"

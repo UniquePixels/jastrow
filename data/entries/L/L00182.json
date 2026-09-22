@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00182",
-	"slug": "לובן",
-	"headword": {
-		"text": "לוֹבֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוֹבֶן",
+	"headwords": [
+		{
+			"text": "לוֹבֶן"
+		},
 		{
 			"text": "לֹבֶן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 694,
 		"column": "a"

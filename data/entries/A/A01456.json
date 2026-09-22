@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01456",
-	"slug": "איסטרולוגוס",
-	"headword": {
-		"text": "איסטרולוגוס"
-	},
+	"sefariaHeadword": "איסטרולוגוס",
+	"headwords": [
+		{
+			"text": "איסטרולוגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

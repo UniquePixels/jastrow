@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00041",
-	"slug": "מאכסני",
-	"headword": {
-		"text": "מאכסני"
-	},
+	"sefariaHeadword": "מאכסני",
+	"headwords": [
+		{
+			"text": "מאכסני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

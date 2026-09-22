@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00016",
-	"slug": "פאנס",
-	"headword": {
-		"text": "פָּאנָס"
-	},
+	"sefariaHeadword": "פָּאנָס",
+	"headwords": [
+		{
+			"text": "פָּאנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00286",
-	"slug": "שדר-4",
-	"headword": {
-		"text": "שֶׁדֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁדֶר",
+	"headwords": [
+		{
+			"text": "שֶׁדֶר"
+		},
 		{
 			"text": "שִׁדְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1526,
 		"column": "a"

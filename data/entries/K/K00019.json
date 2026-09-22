@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00019",
-	"slug": "כאליריקין",
-	"headword": {
-		"text": "כאליריקין"
-	},
+	"sefariaHeadword": "כאליריקין",
+	"headwords": [
+		{
+			"text": "כאליריקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

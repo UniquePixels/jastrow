@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00640",
-	"slug": "המראה-1",
-	"headword": {
-		"text": "הַמְרָאָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הַמְרָאָה I",
+	"headwords": [
+		{
+			"text": "הַמְרָאָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 356,
 		"column": "b"

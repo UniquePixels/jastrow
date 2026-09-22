@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00876",
-	"slug": "תקועה",
-	"headword": {
-		"text": "תְּקוֹעָה"
-	},
+	"sefariaHeadword": "תְּקוֹעָה",
+	"headwords": [
+		{
+			"text": "תְּקוֹעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

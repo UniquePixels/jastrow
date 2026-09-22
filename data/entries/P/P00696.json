@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00696",
-	"slug": "עירנית-2",
-	"headword": {
-		"text": "עִירָנִית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עִירָנִית II",
+	"headwords": [
+		{
+			"text": "עִירָנִית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1076,
 		"column": "b"

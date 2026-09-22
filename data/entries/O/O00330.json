@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00330",
-	"slug": "סולתנית",
-	"headword": {
-		"text": "סוּלְתָּנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּלְתָּנִית",
+	"headwords": [
+		{
+			"text": "סוּלְתָּנִית"
+		},
 		{
 			"text": "סוּלְתָּנוּת"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 965,
 		"column": "a"

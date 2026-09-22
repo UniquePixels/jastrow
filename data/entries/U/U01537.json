@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01537",
-	"slug": "שמרין",
-	"headword": {
-		"text": "שמרין"
-	},
+	"sefariaHeadword": "שמרין",
+	"headwords": [
+		{
+			"text": "שמרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "b"

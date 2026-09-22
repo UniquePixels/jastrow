@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01159",
-	"slug": "עקוד",
-	"headword": {
-		"text": "עָקוֹד"
-	},
+	"sefariaHeadword": "עָקוֹד",
+	"headwords": [
+		{
+			"text": "עָקוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00239",
-	"slug": "חובאה",
-	"headword": {
-		"text": "חוֹבָאָה"
-	},
+	"sefariaHeadword": "חוֹבָאָה",
+	"headwords": [
+		{
+			"text": "חוֹבָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "a"

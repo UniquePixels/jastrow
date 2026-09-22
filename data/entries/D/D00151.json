@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00151",
-	"slug": "דהין-1",
-	"headword": {
-		"text": "דְּהֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּהֵין",
+	"headwords": [
+		{
+			"text": "דְּהֵין"
+		},
 		{
 			"text": "דְּהַן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 281,
 		"column": "b"

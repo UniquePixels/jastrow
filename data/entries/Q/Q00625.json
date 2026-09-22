@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00625",
-	"slug": "פיטיריה",
-	"headword": {
-		"text": "פִּיטִירַיָּה"
-	},
+	"sefariaHeadword": "פִּיטִירַיָּה",
+	"headwords": [
+		{
+			"text": "פִּיטִירַיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "b"

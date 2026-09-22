@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00008",
-	"slug": "דאבן",
-	"headword": {
-		"text": "דַּאֲבַן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דַּאֲבַן",
+	"headwords": [
+		{
+			"text": "דַּאֲבַן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

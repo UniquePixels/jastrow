@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00440",
-	"slug": "גוניות",
-	"headword": {
-		"text": "גוניות"
-	},
+	"sefariaHeadword": "גוניות",
+	"headwords": [
+		{
+			"text": "גוניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

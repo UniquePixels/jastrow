@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00387",
-	"slug": "מואביתא",
-	"headword": {
-		"text": "מוֹאֲבִיתָא"
-	},
+	"sefariaHeadword": "מוֹאֲבִיתָא",
+	"headwords": [
+		{
+			"text": "מוֹאֲבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

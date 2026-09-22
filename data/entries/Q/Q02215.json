@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02215",
-	"slug": "פתת-3",
-	"headword": {
-		"text": "פָּתַת",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*פָּתַת II",
+	"headwords": [
+		{
+			"text": "פָּתַת",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1256,
 		"column": "b"

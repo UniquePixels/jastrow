@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00608",
-	"slug": "סיטיון",
-	"headword": {
-		"text": "סיטיון"
-	},
+	"sefariaHeadword": "סיטיון",
+	"headwords": [
+		{
+			"text": "סיטיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

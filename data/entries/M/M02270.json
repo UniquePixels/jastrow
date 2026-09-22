@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02270",
-	"slug": "מצדתא",
-	"headword": {
-		"text": "מְצַדְתָּא"
-	},
+	"sefariaHeadword": "מְצַדְתָּא",
+	"headwords": [
+		{
+			"text": "מְצַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "a"

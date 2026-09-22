@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00738",
-	"slug": "צרדא-3",
-	"headword": {
-		"text": "צְרָדָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרָדָא II",
+	"headwords": [
+		{
+			"text": "צְרָדָא",
+			"homograph": 2
+		},
 		{
 			"text": "צְרָדָה"
 		},
 		{
-			"text": "רוּחַ צְרָדָא"
+			"text": "רוּחַ צְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, ({1}), {2}",
 	"page": {
 		"number": 1299,
 		"column": "b"

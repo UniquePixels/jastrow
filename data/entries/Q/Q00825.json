@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00825",
-	"slug": "פיר",
-	"headword": {
-		"text": "פִּיר"
-	},
+	"sefariaHeadword": "פִּיר",
+	"headwords": [
+		{
+			"text": "פִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "a"

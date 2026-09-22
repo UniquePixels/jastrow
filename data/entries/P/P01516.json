@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01516",
-	"slug": "עששית-2",
-	"headword": {
-		"text": "עֲשָׁשִׁית",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשָׁשִׁית ²",
+	"headwords": [
+		{
+			"text": "עֲשָׁשִׁית",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֲשָׁשִׁיתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1128,
 		"column": "a"

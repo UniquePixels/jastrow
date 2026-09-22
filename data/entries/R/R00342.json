@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00342",
-	"slug": "ציין",
-	"headword": {
-		"text": "צִיֵּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיֵּין",
+	"headwords": [
+		{
+			"text": "צִיֵּין"
+		},
 		{
 			"text": "צַיֵּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00782",
-	"slug": "הצלה",
-	"headword": {
-		"text": "הַצָּלָה"
-	},
+	"sefariaHeadword": "הַצָּלָה",
+	"headwords": [
+		{
+			"text": "הַצָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "b"

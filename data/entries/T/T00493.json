@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00493",
-	"slug": "רחזיונות",
-	"headword": {
-		"text": "רחזיונות"
-	},
+	"sefariaHeadword": "רחזיונות",
+	"headwords": [
+		{
+			"text": "רחזיונות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "a"

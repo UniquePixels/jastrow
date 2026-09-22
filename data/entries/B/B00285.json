@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00285",
-	"slug": "בוניא",
-	"headword": {
-		"text": "בּוּנְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּוּנְיָא",
+	"headwords": [
+		{
+			"text": "בּוּנְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

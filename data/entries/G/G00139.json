@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00139",
-	"slug": "זווא-2",
-	"headword": {
-		"text": "זָוָוא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זָוָוא II",
+	"headwords": [
+		{
+			"text": "זָוָוא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 385,
 		"column": "a"

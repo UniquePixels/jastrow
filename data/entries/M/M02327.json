@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02327",
-	"slug": "מציק",
-	"headword": {
-		"text": "מֵצִיק"
-	},
+	"sefariaHeadword": "מֵצִיק",
+	"headwords": [
+		{
+			"text": "מֵצִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

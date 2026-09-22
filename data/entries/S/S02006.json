@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02006",
-	"slug": "קרטלא",
-	"headword": {
-		"text": "קַרְטַלָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטַלָּא",
+	"headwords": [
+		{
+			"text": "קַרְטַלָּא"
+		},
 		{
 			"text": "קַרְטִילָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1417,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01122",
-	"slug": "בקיעא",
-	"headword": {
-		"text": "בְּקִיעָא"
-	},
+	"sefariaHeadword": "בְּקִיעָא",
+	"headwords": [
+		{
+			"text": "בְּקִיעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 186,
 		"column": "a"

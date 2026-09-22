@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00488",
-	"slug": "פחת-3",
-	"headword": {
-		"text": "פַּחַת"
-	},
+	"sefariaHeadword": "פַּחַת",
+	"headwords": [
+		{
+			"text": "פַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "a"

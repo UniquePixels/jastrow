@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00464",
-	"slug": "עטלפא",
-	"headword": {
-		"text": "עֲטַלֵּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטַלֵּפָא",
+	"headwords": [
 		{
-			"text": "עֲטַלֵּי׳"
+			"text": "עֲטַלֵּפָא"
+		},
+		{
+			"text": "עֲטַלֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1063,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00912",
-	"slug": "מחפורא",
-	"headword": {
-		"text": "מַחְפּוֹרָא"
-	},
+	"sefariaHeadword": "מַחְפּוֹרָא",
+	"headwords": [
+		{
+			"text": "מַחְפּוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

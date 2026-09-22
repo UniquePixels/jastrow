@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01052",
-	"slug": "בעית",
-	"headword": {
-		"text": "בְּעֵית"
-	},
+	"sefariaHeadword": "בְּעֵית",
+	"headwords": [
+		{
+			"text": "בְּעֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "a"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00238",
-	"slug": "חובא-4",
-	"headword": {
-		"text": "חוּבָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּבָּא II",
+	"headwords": [
+		{
+			"text": "חוּבָּא",
+			"homograph": 2
+		},
 		{
 			"text": "חוּבָּה",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 429,
 		"column": "a"

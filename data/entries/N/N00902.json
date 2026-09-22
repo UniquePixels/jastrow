@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00902",
-	"slug": "ננהו",
-	"headword": {
-		"text": "נִנְהוּ"
-	},
+	"sefariaHeadword": "נִנְהוּ",
+	"headwords": [
+		{
+			"text": "נִנְהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

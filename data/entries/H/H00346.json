@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00346",
-	"slug": "חולי-2",
-	"headword": {
-		"text": "חוֹלִי"
-	},
+	"sefariaHeadword": "חוֹלִי",
+	"headwords": [
+		{
+			"text": "חוֹלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "a"

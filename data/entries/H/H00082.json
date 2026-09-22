@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00082",
-	"slug": "חביתים",
-	"headword": {
-		"text": "חֲבִיתִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבִיתִּים",
+	"headwords": [
+		{
+			"text": "חֲבִיתִּים"
+		},
 		{
 			"text": "חֲבִיתִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 419,
 		"column": "b"

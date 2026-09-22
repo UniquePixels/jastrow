@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01002",
-	"slug": "בסלקי",
-	"headword": {
-		"text": "בסלקי"
-	},
+	"sefariaHeadword": "בסלקי",
+	"headwords": [
+		{
+			"text": "בסלקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 179,
 		"column": "a"

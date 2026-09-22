@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00615",
-	"slug": "שחוור",
-	"headword": {
-		"text": "שַׁחְוַור"
-	},
+	"sefariaHeadword": "שַׁחְוַור",
+	"headwords": [
+		{
+			"text": "שַׁחְוַור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00163",
-	"slug": "להטים",
-	"headword": {
-		"text": "לְהָטִים"
-	},
+	"sefariaHeadword": "לְהָטִים",
+	"headwords": [
+		{
+			"text": "לְהָטִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

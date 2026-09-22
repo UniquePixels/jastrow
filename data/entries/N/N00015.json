@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00015",
-	"slug": "נאוף",
-	"headword": {
-		"text": "נִאוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִאוּף",
+	"headwords": [
+		{
+			"text": "נִאוּף"
+		},
 		{
 			"text": "נִאוּץ"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִאוּצָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 866,
 		"column": "a"

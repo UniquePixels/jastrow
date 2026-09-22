@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01643",
-	"slug": "סרנוקא",
-	"headword": {
-		"text": "סַרְנוֹקָא"
-	},
+	"sefariaHeadword": "סַרְנוֹקָא",
+	"headwords": [
+		{
+			"text": "סַרְנוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1028,
 		"column": "b"

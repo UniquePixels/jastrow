@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02936",
-	"slug": "אקפותא",
-	"headword": {
-		"text": "אַקָּפוּתָא"
-	},
+	"sefariaHeadword": "אַקָּפוּתָא",
+	"headwords": [
+		{
+			"text": "אַקָּפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

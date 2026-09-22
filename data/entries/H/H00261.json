@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00261",
-	"slug": "חודיתא",
-	"headword": {
-		"text": "חוּדִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּדִיתָא",
+	"headwords": [
+		{
+			"text": "חוּדִיתָא"
+		},
 		{
 			"text": "חוּדְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִידְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 430,
 		"column": "a"

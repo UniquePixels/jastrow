@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02410",
-	"slug": "מקח",
-	"headword": {
-		"text": "מִקָּח"
-	},
+	"sefariaHeadword": "מִקָּח",
+	"headwords": [
+		{
+			"text": "מִקָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "b"

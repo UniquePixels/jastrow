@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00074",
-	"slug": "אבון",
-	"headword": {
-		"text": "אַבּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבּוּן",
+	"headwords": [
+		{
+			"text": "אַבּוּן"
+		},
 		{
 			"text": "אבין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 4,
 		"column": "a"

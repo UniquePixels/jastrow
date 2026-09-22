@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00911",
-	"slug": "עמסוני",
-	"headword": {
-		"text": "עִמְסוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִמְסוֹנִי",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִמְסוֹנִי"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1090,
 		"column": "a"

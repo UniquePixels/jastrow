@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B01201",
-	"slug": "ברונא-2",
-	"headword": {
-		"text": "בְּרוּנָא",
-		"homograph": 1,
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בְּרוּנָא I ²",
+	"headwords": [
+		{
+			"text": "בְּרוּנָא",
+			"disambiguator": 2,
+			"homograph": 1
+		}
+	],
+	"display": "{0} I ²",
 	"page": {
 		"number": 190,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01307",
-	"slug": "כשיר",
-	"headword": {
-		"text": "כשיר־"
-	},
+	"sefariaHeadword": "כשיר־",
+	"headwords": [
+		{
+			"text": "כשיר־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 676,
 		"column": "a"

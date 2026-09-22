@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00939",
-	"slug": "סכף-2",
-	"headword": {
-		"text": "סְכַף"
-	},
+	"sefariaHeadword": "סְכַף",
+	"headwords": [
+		{
+			"text": "סְכַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 992,
 		"column": "b"

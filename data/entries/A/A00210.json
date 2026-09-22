@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00210",
-	"slug": "אברויי",
-	"headword": {
-		"text": "אַבְרוּיֵי"
-	},
+	"sefariaHeadword": "אַבְרוּיֵי",
+	"headwords": [
+		{
+			"text": "אַבְרוּיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "a"

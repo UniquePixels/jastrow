@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01353",
-	"slug": "ספידא",
-	"headword": {
-		"text": "סְפִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפִידָא",
+	"headwords": [
+		{
+			"text": "סְפִידָא"
+		},
 		{
 			"text": "סַפִּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1013,
 		"column": "b"

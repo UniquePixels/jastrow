@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00050",
-	"slug": "בב-2",
-	"headword": {
-		"text": "בָּב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּב II",
+	"headwords": [
+		{
+			"text": "בָּב",
+			"homograph": 2
+		},
 		{
 			"text": "בַּב נַהֲרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 136,
 		"column": "a"

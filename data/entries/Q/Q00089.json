@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00089",
-	"slug": "פגעין",
-	"headword": {
-		"text": "פִּגְעִין"
-	},
+	"sefariaHeadword": "פִּגְעִין",
+	"headwords": [
+		{
+			"text": "פִּגְעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1135,
 		"column": "b"

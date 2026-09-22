@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00320",
-	"slug": "זיותן-2",
-	"headword": {
-		"text": "זִיוְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיוְתָן",
+	"headwords": [
+		{
+			"text": "זִיוְתָן"
+		},
 		{
 			"text": "זִיוְתָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 392,
 		"column": "b"

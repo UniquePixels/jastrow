@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00800",
-	"slug": "בל-1",
-	"headword": {
-		"text": "בַּל"
-	},
+	"sefariaHeadword": "בַּל",
+	"headwords": [
+		{
+			"text": "בַּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "b"

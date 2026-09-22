@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00169",
-	"slug": "ציואה",
-	"headword": {
-		"text": "צַיָּואָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיָּואָה",
+	"headwords": [
+		{
+			"text": "צַיָּואָה"
+		},
 		{
 			"text": "צַוָּואר"
 		},
@@ -15,6 +16,7 @@
 			"text": "צַוַּוארְנוֹיָיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1266,
 		"column": "a"

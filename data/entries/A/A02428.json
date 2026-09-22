@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02428",
-	"slug": "אסי-3",
-	"headword": {
-		"text": "אָסֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָסֵי",
+	"headwords": [
+		{
+			"text": "אָסֵי"
+		},
 		{
 			"text": "אָסְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַסְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 93,
 		"column": "a"

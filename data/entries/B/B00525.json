@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00525",
-	"slug": "בטנא",
-	"headword": {
-		"text": "בִּטְנָא"
-	},
+	"sefariaHeadword": "בִּטְנָא",
+	"headwords": [
+		{
+			"text": "בִּטְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

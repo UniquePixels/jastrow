@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00221",
-	"slug": "צופריאות",
-	"headword": {
-		"text": "צופריאות"
-	},
+	"sefariaHeadword": "צופריאות",
+	"headwords": [
+		{
+			"text": "צופריאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1269,
 		"column": "a"

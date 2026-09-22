@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00423",
-	"slug": "טיקוסא",
-	"headword": {
-		"text": "טִיקּוּסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיקּוּסָא",
+	"headwords": [
 		{
-			"text": "טִקּ׳"
+			"text": "טִיקּוּסָא"
+		},
+		{
+			"text": "טִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 534,
 		"column": "a"

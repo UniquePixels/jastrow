@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00544",
-	"slug": "אוגן",
-	"headword": {
-		"text": "אוֹגֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹגֶן",
+	"headwords": [
+		{
+			"text": "אוֹגֶן"
+		},
 		{
 			"text": "הוֹגֶן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "b"

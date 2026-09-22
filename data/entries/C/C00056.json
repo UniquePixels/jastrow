@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C00056",
-	"slug": "גבול-2",
-	"headword": {
-		"text": "גְּבוּל",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גְּבוּל II",
+	"headwords": [
+		{
+			"text": "גְּבוּל",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 205,
 		"column": "a"

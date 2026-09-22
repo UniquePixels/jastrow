@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00869",
-	"slug": "נמי-2",
-	"headword": {
-		"text": "נַמִּי"
-	},
+	"sefariaHeadword": "נַמִּי",
+	"headwords": [
+		{
+			"text": "נַמִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

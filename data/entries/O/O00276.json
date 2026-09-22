@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00276",
-	"slug": "סווריקין",
-	"headword": {
-		"text": "סַוְורִיקִין"
-	},
+	"sefariaHeadword": "סַוְורִיקִין",
+	"headwords": [
+		{
+			"text": "סַוְורִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

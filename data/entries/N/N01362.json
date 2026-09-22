@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01362",
-	"slug": "נתזה",
-	"headword": {
-		"text": "נִתזָה"
-	},
+	"sefariaHeadword": "נִתזָה",
+	"headwords": [
+		{
+			"text": "נִתזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "a"

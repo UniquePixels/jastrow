@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00545",
-	"slug": "רחת",
-	"headword": {
-		"text": "רַחַת"
-	},
+	"sefariaHeadword": "רַחַת",
+	"headwords": [
+		{
+			"text": "רַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1470,
 		"column": "b"

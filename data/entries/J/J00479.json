@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00479",
-	"slug": "יעדוט",
-	"headword": {
-		"text": "יַעֲדוּט"
-	},
+	"sefariaHeadword": "יַעֲדוּט",
+	"headwords": [
+		{
+			"text": "יַעֲדוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 584,
 		"column": "a"

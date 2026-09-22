@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00628",
-	"slug": "ניהוג",
-	"headword": {
-		"text": "נִיהוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיהוּג",
+	"headwords": [
+		{
+			"text": "נִיהוּג"
+		},
 		{
 			"text": "נִהוּג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "a"

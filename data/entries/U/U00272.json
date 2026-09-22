@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00272",
-	"slug": "שדימא",
-	"headword": {
-		"text": "שְׁדֵימָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*שְׁדֵימָא",
+	"headwords": [
+		{
+			"text": "שְׁדֵימָא",
+			"reconstructed": true
+		},
 		{
 			"text": "שְׁדֵימָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1524,
 		"column": "b"

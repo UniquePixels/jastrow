@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00731",
-	"slug": "תנופה",
-	"headword": {
-		"text": "תְּנוּפָה"
-	},
+	"sefariaHeadword": "תְּנוּפָה",
+	"headwords": [
+		{
+			"text": "תְּנוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

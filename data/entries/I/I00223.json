@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00223",
-	"slug": "טורח",
-	"headword": {
-		"text": "טוֹרַח"
-	},
+	"sefariaHeadword": "טוֹרַח",
+	"headwords": [
+		{
+			"text": "טוֹרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 526,
 		"column": "b"

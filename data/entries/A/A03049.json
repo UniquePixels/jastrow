@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03049",
-	"slug": "ארזא",
-	"headword": {
-		"text": "אַרְזָא"
-	},
+	"sefariaHeadword": "אַרְזָא",
+	"headwords": [
+		{
+			"text": "אַרְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

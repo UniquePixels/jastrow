@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01103",
-	"slug": "חלף-6",
-	"headword": {
-		"text": "חֲלַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלַף II",
+	"headwords": [
+		{
+			"text": "חֲלַף",
+			"homograph": 2
+		},
 		{
 			"text": "חוֹלַף"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 472,
 		"column": "a"

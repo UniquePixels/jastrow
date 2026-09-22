@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00154",
-	"slug": "טוי-3",
-	"headword": {
-		"text": "טְוִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְוִי II",
+	"headwords": [
+		{
+			"text": "טְוִי",
+			"homograph": 2
+		},
 		{
 			"text": "טְוָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 523,
 		"column": "a"

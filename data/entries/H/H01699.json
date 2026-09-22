@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01699",
-	"slug": "חריש-2",
-	"headword": {
-		"text": "חָרִישׁ"
-	},
+	"sefariaHeadword": "חָרִישׁ",
+	"headwords": [
+		{
+			"text": "חָרִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "b"

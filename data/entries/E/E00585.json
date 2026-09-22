@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00585",
-	"slug": "הלקיט",
-	"headword": {
-		"text": "הַלְקֵיט"
-	},
+	"sefariaHeadword": "הַלְקֵיט",
+	"headwords": [
+		{
+			"text": "הַלְקֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

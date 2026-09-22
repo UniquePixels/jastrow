@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00310",
-	"slug": "הטבה",
-	"headword": {
-		"text": "הֲטָבָה"
-	},
+	"sefariaHeadword": "הֲטָבָה",
+	"headwords": [
+		{
+			"text": "הֲטָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "b"

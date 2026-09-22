@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00878",
-	"slug": "חירזא",
-	"headword": {
-		"text": "חִירְזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִירְזָא",
+	"headwords": [
+		{
+			"text": "חִירְזָא"
+		},
 		{
 			"text": "חִרְזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

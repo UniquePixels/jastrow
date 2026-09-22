@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00152",
-	"slug": "סגלה",
-	"headword": {
-		"text": "סְגֻלָּה"
-	},
+	"sefariaHeadword": "סְגֻלָּה",
+	"headwords": [
+		{
+			"text": "סְגֻלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "b"

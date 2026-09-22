@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03297",
-	"slug": "אשישים",
-	"headword": {
-		"text": "אֲשִׁישִׁים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲשִׁישִׁים",
+	"headwords": [
+		{
+			"text": "אֲשִׁישִׁים"
+		},
 		{
 			"text": "אֲשִׁישִׁין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 128,
 		"column": "a"

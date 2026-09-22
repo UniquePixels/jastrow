@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01149",
-	"slug": "חמדתא",
-	"headword": {
-		"text": "חֶמְדָּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶמְדָּתָא",
+	"headwords": [
 		{
-			"text": "חֶמְדְּ׳"
+			"text": "חֶמְדָּתָא"
+		},
+		{
+			"text": "חֶמְדְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 475,
 		"column": "b"

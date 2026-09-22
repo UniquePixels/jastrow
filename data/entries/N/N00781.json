@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00781",
-	"slug": "ניקצא",
-	"headword": {
-		"text": "נִיקְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקְצָא",
+	"headwords": [
+		{
+			"text": "נִיקְצָא"
+		},
 		{
 			"text": "נִיקְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 909,
 		"column": "a"

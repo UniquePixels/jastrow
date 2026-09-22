@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01946",
-	"slug": "אלקט",
-	"headword": {
-		"text": "אלקט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אלקט",
+	"headwords": [
+		{
+			"text": "אלקט"
+		},
 		{
 			"text": "אילקט"
 		},
@@ -12,6 +13,7 @@
 			"text": "אלקטו"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 73,
 		"column": "a"

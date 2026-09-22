@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01253",
-	"slug": "איכול",
-	"headword": {
-		"text": "אִיכּוּל"
-	},
+	"sefariaHeadword": "אִיכּוּל",
+	"headwords": [
+		{
+			"text": "אִיכּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

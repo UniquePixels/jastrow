@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00198",
-	"slug": "לודייא",
-	"headword": {
-		"text": "לוּדָיָיא"
-	},
+	"sefariaHeadword": "לוּדָיָיא",
+	"headwords": [
+		{
+			"text": "לוּדָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

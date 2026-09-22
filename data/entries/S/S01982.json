@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01982",
-	"slug": "קרחינא",
-	"headword": {
-		"text": "קַרְחִינָא"
-	},
+	"sefariaHeadword": "קַרְחִינָא",
+	"headwords": [
+		{
+			"text": "קַרְחִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

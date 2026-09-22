@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01198",
-	"slug": "נקיבה",
-	"headword": {
-		"text": "נְקֵיבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקֵיבָה",
+	"headwords": [
+		{
+			"text": "נְקֵיבָה"
+		},
 		{
 			"text": "נְקֵיבוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01584",
-	"slug": "חרבא",
-	"headword": {
-		"text": "חָרְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרְבָּא",
+	"headwords": [
+		{
+			"text": "חָרְבָּא"
+		},
 		{
 			"text": "חֲרֵבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 498,
 		"column": "b"

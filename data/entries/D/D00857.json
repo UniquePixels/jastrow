@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00857",
-	"slug": "דלק-2",
-	"headword": {
-		"text": "דְּלַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּלַק",
+	"headwords": [
+		{
+			"text": "דְּלַק"
+		},
 		{
 			"text": "דְּלֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 311,
 		"column": "b"

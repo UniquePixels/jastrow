@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01067",
-	"slug": "שירוף",
-	"headword": {
-		"text": "שֵׂירוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׂירוּף",
+	"headwords": [
 		{
-			"text": "שֵׂר׳"
+			"text": "שֵׂירוּף"
+		},
+		{
+			"text": "שֵׂר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1569,
 		"column": "a"

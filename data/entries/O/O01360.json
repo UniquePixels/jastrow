@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01360",
-	"slug": "ספינה",
-	"headword": {
-		"text": "סְפִינָה"
-	},
+	"sefariaHeadword": "סְפִינָה",
+	"headwords": [
+		{
+			"text": "סְפִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

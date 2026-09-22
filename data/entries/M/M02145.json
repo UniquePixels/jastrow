@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02145",
-	"slug": "מעמקים",
-	"headword": {
-		"text": "מַעֲמַקִּים"
-	},
+	"sefariaHeadword": "מַעֲמַקִּים",
+	"headwords": [
+		{
+			"text": "מַעֲמַקִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "a"

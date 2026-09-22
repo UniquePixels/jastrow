@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00769",
-	"slug": "פיסקינות",
-	"headword": {
-		"text": "פִּיסְקִינוֹת"
-	},
+	"sefariaHeadword": "פִּיסְקִינוֹת",
+	"headwords": [
+		{
+			"text": "פִּיסְקִינוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

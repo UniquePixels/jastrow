@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00566",
-	"slug": "ביזיא",
-	"headword": {
-		"text": "בִּיזְיָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בִּיזְיָא",
+	"headwords": [
+		{
+			"text": "בִּיזְיָא",
+			"reconstructed": true
+		},
 		{
 			"text": "בִּזְיָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

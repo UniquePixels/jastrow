@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00194",
-	"slug": "דוד-2",
-	"headword": {
-		"text": "דּוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹד",
+	"headwords": [
+		{
+			"text": "דּוֹד"
+		},
 		{
 			"text": "דֹּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 283,
 		"column": "a"

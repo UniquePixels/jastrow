@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02852",
-	"slug": "משחביב",
-	"headword": {
-		"text": "משחביב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*משחביב",
+	"headwords": [
+		{
+			"text": "משחביב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 851,
 		"column": "a"

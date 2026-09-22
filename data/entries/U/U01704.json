@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01704",
-	"slug": "שפא-3",
-	"headword": {
-		"text": "שִׁפָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שִׁפָּא I",
+	"headwords": [
+		{
+			"text": "שִׁפָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1613,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00679",
-	"slug": "ריפי",
-	"headword": {
-		"text": "רִיפֵי"
-	},
+	"sefariaHeadword": "רִיפֵי",
+	"headwords": [
+		{
+			"text": "רִיפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

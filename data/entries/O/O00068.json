@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00068",
-	"slug": "סבכה",
-	"headword": {
-		"text": "סְבָכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְבָכָה",
+	"headwords": [
 		{
-			"text": "שְׂ׳"
+			"text": "סְבָכָה"
+		},
+		{
+			"text": "שְׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 950,
 		"column": "a"

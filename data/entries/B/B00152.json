@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00152",
-	"slug": "בדן",
-	"headword": {
-		"text": "בָּדָן"
-	},
+	"sefariaHeadword": "בָּדָן",
+	"headwords": [
+		{
+			"text": "בָּדָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "a"

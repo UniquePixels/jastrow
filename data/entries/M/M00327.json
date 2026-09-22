@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00327",
-	"slug": "מדרא-2",
-	"headword": {
-		"text": "מַדְרָא"
-	},
+	"sefariaHeadword": "מַדְרָא",
+	"headwords": [
+		{
+			"text": "מַדְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01020",
-	"slug": "פלטינוס",
-	"headword": {
-		"text": "פַּלָּטִינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלָּטִינוֹס",
+	"headwords": [
 		{
-			"text": "פַּלָּאטִ׳"
+			"text": "פַּלָּטִינוֹס"
+		},
+		{
+			"text": "פַּלָּאטִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1180,
 		"column": "a"

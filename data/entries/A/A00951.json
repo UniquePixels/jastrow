@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00951",
-	"slug": "אזגא",
-	"headword": {
-		"text": "אַזְגָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַזְגָּא",
+	"headwords": [
+		{
+			"text": "אַזְגָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00423",
-	"slug": "גומרא",
-	"headword": {
-		"text": "גּוּמְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּמְרָא",
+	"headwords": [
+		{
+			"text": "גּוּמְרָא"
+		},
 		{
 			"text": "גּוּמְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 223,
 		"column": "a"

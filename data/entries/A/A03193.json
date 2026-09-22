@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03193",
-	"slug": "ארנב",
-	"headword": {
-		"text": "אַרְנָב"
-	},
+	"sefariaHeadword": "אַרְנָב",
+	"headwords": [
+		{
+			"text": "אַרְנָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

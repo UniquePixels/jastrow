@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01498",
-	"slug": "איסקומדרי",
-	"headword": {
-		"text": "איסקומדרי"
-	},
+	"sefariaHeadword": "איסקומדרי",
+	"headwords": [
+		{
+			"text": "איסקומדרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "a"

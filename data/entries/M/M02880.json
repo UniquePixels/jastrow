@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02880",
-	"slug": "משיכות",
-	"headword": {
-		"text": "משיכות"
-	},
+	"sefariaHeadword": "משיכות",
+	"headwords": [
+		{
+			"text": "משיכות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

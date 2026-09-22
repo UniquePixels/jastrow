@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01393",
-	"slug": "ספסיל",
-	"headword": {
-		"text": "סַפְסִיל"
-	},
+	"sefariaHeadword": "סַפְסִיל",
+	"headwords": [
+		{
+			"text": "סַפְסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "a"

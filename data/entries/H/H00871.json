@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00871",
-	"slug": "חירה",
-	"headword": {
-		"text": "חִירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִירָה",
+	"headwords": [
+		{
+			"text": "חִירָה"
+		},
 		{
 			"text": "חִירוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

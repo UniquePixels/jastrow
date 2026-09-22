@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00755",
-	"slug": "תנתא",
-	"headword": {
-		"text": "תנתא"
-	},
+	"sefariaHeadword": "תנתא",
+	"headwords": [
+		{
+			"text": "תנתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1682,
 		"column": "b"

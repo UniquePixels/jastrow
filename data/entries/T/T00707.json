@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "T00707",
-	"slug": "ריקן-4",
-	"headword": {
-		"text": "רֵיקָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיקָן ²",
+	"headwords": [
+		{
+			"text": "רֵיקָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "רֵיקָנָא"
 		},
 		{
-			"text": "רִקָ׳"
+			"text": "רִקָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1477,
 		"column": "a"

@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "R00415",
-	"slug": "ציפוריא",
-	"headword": {
-		"text": "צִיפּוֹרָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוֹרָיָא",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרָיָא"
+		},
 		{
 			"text": "צִיפּוֹרָאָה"
 		},
 		{
-			"text": "צִיפֹּרָ׳"
+			"text": "צִיפֹּרָ׳",
+			"partial": true
 		},
 		{
-			"text": "צִפּ׳"
+			"text": "צִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1279,
 		"column": "a"

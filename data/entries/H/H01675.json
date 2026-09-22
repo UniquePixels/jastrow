@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01675",
-	"slug": "חריה",
-	"headword": {
-		"text": "חֶרְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶרְיָה",
+	"headwords": [
+		{
+			"text": "חֶרְיָה"
+		},
 		{
 			"text": "חֳרָיוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00191",
-	"slug": "הוגדס",
-	"headword": {
-		"text": "הוּגְדֵּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הוּגְדֵּס",
+	"headwords": [
+		{
+			"text": "הוּגְדֵּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

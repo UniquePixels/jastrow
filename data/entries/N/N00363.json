@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00363",
-	"slug": "נולד",
-	"headword": {
-		"text": "נוֹלָד"
-	},
+	"sefariaHeadword": "נוֹלָד",
+	"headwords": [
+		{
+			"text": "נוֹלָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

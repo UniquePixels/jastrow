@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01322",
-	"slug": "נשירה",
-	"headword": {
-		"text": "נְשִׁירָה"
-	},
+	"sefariaHeadword": "נְשִׁירָה",
+	"headwords": [
+		{
+			"text": "נְשִׁירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

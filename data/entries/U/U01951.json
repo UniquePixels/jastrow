@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01951",
-	"slug": "שרט-1",
-	"headword": {
-		"text": "שָׂרַט"
-	},
+	"sefariaHeadword": "שָׂרַט",
+	"headwords": [
+		{
+			"text": "שָׂרַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

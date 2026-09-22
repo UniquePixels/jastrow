@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00976",
-	"slug": "רצון",
-	"headword": {
-		"text": "רָצוֹן"
-	},
+	"sefariaHeadword": "רָצוֹן",
+	"headwords": [
+		{
+			"text": "רָצוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "b"

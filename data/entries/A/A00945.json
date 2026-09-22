@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00945",
-	"slug": "אותיום",
-	"headword": {
-		"text": "אותיום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אותיום",
+	"headwords": [
+		{
+			"text": "אותיום"
+		},
 		{
 			"text": "אֶוְתִּיוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 36,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01926",
-	"slug": "קרוב-2",
-	"headword": {
-		"text": "קָרוֹב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָרוֹב I",
+	"headwords": [
+		{
+			"text": "קָרוֹב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1413,
 		"column": "a"

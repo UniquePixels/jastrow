@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00423",
-	"slug": "כותח-2",
-	"headword": {
-		"text": "כּוּתַּח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּתַּח",
+	"headwords": [
+		{
+			"text": "כּוּתַּח"
+		},
 		{
 			"text": "כּוּתְּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 627,
 		"column": "a"

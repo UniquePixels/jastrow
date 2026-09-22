@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00935",
-	"slug": "אושפיזכנא",
-	"headword": {
-		"text": "אוּשְׁפִּיזְכָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּשְׁפִּיזְכָנָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁפִּיזְכָנָא"
+		},
 		{
 			"text": "אוּשְׁפִּיזִיכְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 36,
 		"column": "a"

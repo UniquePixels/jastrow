@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00902",
-	"slug": "קיטועה",
-	"headword": {
-		"text": "קִיטּוּעָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קִיטּוּעָה",
+	"headwords": [
+		{
+			"text": "קִיטּוּעָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1357,
 		"column": "b"

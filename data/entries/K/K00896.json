@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00896",
-	"slug": "כסאנין",
-	"headword": {
-		"text": "כְּסָאנִין"
-	},
+	"sefariaHeadword": "כְּסָאנִין",
+	"headwords": [
+		{
+			"text": "כְּסָאנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01206",
-	"slug": "מין-1",
-	"headword": {
-		"text": "מִין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִין I",
+	"headwords": [
+		{
+			"text": "מִין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 775,
 		"column": "b"

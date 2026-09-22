@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00800",
-	"slug": "גיפתי",
-	"headword": {
-		"text": "גיפתי"
-	},
+	"sefariaHeadword": "גיפתי",
+	"headwords": [
+		{
+			"text": "גיפתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "b"

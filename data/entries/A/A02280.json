@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02280",
-	"slug": "אנפקות",
-	"headword": {
-		"text": "אַנְפָּקוּת"
-	},
+	"sefariaHeadword": "אַנְפָּקוּת",
+	"headwords": [
+		{
+			"text": "אַנְפָּקוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

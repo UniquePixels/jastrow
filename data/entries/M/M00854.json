@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00854",
-	"slug": "מחטי",
-	"headword": {
-		"text": "מִחְטֵי"
-	},
+	"sefariaHeadword": "מִחְטֵי",
+	"headwords": [
+		{
+			"text": "מִחְטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 759,
 		"column": "a"

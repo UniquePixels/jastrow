@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00408",
-	"slug": "שוך-2",
-	"headword": {
-		"text": "שׁוֹךְ"
-	},
+	"sefariaHeadword": "שׁוֹךְ",
+	"headwords": [
+		{
+			"text": "שׁוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

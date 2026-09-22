@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00359",
-	"slug": "גויא-1",
-	"headword": {
-		"text": "גַּוְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּוְיָא",
+	"headwords": [
+		{
+			"text": "גַּוְיָא"
+		},
 		{
 			"text": "גַּוְיָאתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 220,
 		"column": "b"

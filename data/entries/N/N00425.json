@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00425",
-	"slug": "נזבא",
-	"headword": {
-		"text": "נִזְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִזְבָּא",
+	"headwords": [
 		{
-			"text": "נִיזְ׳"
+			"text": "נִזְבָּא"
+		},
+		{
+			"text": "נִיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "b"

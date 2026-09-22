@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00952",
-	"slug": "אזגד",
-	"headword": {
-		"text": "אִזְגַּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִזְגַּד",
+	"headwords": [
+		{
+			"text": "אִזְגַּד"
+		},
 		{
 			"text": "אִזְגַּדָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 36,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00506",
-	"slug": "סטרגלים",
-	"headword": {
-		"text": "סטרגלים"
-	},
+	"sefariaHeadword": "סטרגלים",
+	"headwords": [
+		{
+			"text": "סטרגלים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

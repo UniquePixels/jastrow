@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00018",
-	"slug": "קאקגריסין",
-	"headword": {
-		"text": "קאקגריסין"
-	},
+	"sefariaHeadword": "קאקגריסין",
+	"headwords": [
+		{
+			"text": "קאקגריסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "b"

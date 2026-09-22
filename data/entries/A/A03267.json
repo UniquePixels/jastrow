@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03267",
-	"slug": "אשוה",
-	"headword": {
-		"text": "אַשְׁוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁוָה",
+	"headwords": [
+		{
+			"text": "אַשְׁוָה"
+		},
 		{
 			"text": "אַשְׁוָוה"
 		},
@@ -12,9 +13,11 @@
 			"text": "אַשְׁיָיָא"
 		},
 		{
-			"text": "אַשְׁוָו׳"
+			"text": "אַשְׁוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 127,
 		"column": "a"

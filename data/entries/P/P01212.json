@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01212",
-	"slug": "עקץ-2",
-	"headword": {
-		"text": "עֲקַץ"
-	},
+	"sefariaHeadword": "עֲקַץ",
+	"headwords": [
+		{
+			"text": "עֲקַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1108,
 		"column": "a"

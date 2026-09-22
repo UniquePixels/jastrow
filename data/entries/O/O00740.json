@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00740",
-	"slug": "סינפון",
-	"headword": {
-		"text": "סִינְפּוֹן"
-	},
+	"sefariaHeadword": "סִינְפּוֹן",
+	"headwords": [
+		{
+			"text": "סִינְפּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

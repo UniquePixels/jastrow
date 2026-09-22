@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02865",
-	"slug": "אצטדיא",
-	"headword": {
-		"text": "אִצְטַדְיָא"
-	},
+	"sefariaHeadword": "אִצְטַדְיָא",
+	"headwords": [
+		{
+			"text": "אִצְטַדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

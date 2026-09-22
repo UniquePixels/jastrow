@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02118",
-	"slug": "קרסוף",
-	"headword": {
-		"text": "קִרְסוּף"
-	},
+	"sefariaHeadword": "קִרְסוּף",
+	"headwords": [
+		{
+			"text": "קִרְסוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

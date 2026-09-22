@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01183",
-	"slug": "קירייא",
-	"headword": {
-		"text": "קִירַיָּיא"
-	},
+	"sefariaHeadword": "קִירַיָּיא",
+	"headwords": [
+		{
+			"text": "קִירַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

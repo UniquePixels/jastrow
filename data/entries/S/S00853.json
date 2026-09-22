@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00853",
-	"slug": "קיבוסת",
-	"headword": {
-		"text": "קִיבּוֹסֶת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קִיבּוֹסֶת",
+	"headwords": [
+		{
+			"text": "קִיבּוֹסֶת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1354,
 		"column": "a"

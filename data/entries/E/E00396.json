@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00396",
-	"slug": "הילוף",
-	"headword": {
-		"text": "הִילוּף"
-	},
+	"sefariaHeadword": "הִילוּף",
+	"headwords": [
+		{
+			"text": "הִילוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "a"

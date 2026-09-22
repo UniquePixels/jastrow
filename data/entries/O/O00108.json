@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00108",
-	"slug": "סגוד-2",
-	"headword": {
-		"text": "סְגוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגוּד",
+	"headwords": [
+		{
+			"text": "סְגוּד"
+		},
 		{
 			"text": "סְגוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 953,
 		"column": "b"

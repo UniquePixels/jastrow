@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00490",
-	"slug": "קופא-1",
-	"headword": {
-		"text": "קוֹפָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קוֹפָא II",
+	"headwords": [
+		{
+			"text": "קוֹפָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1337,
 		"column": "b"

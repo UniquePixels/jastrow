@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00176",
-	"slug": "מגיריית",
-	"headword": {
-		"text": "מגיריית"
-	},
+	"sefariaHeadword": "מגיריית",
+	"headwords": [
+		{
+			"text": "מגיריית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "b"

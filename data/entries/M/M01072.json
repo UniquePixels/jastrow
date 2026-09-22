@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01072",
-	"slug": "מי-1",
-	"headword": {
-		"text": "מִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִי I",
+	"headwords": [
+		{
+			"text": "מִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 770,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00173",
-	"slug": "צווחה",
-	"headword": {
-		"text": "צְוָוחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְוָוחָה",
+	"headwords": [
+		{
+			"text": "צְוָוחָה"
+		},
 		{
 			"text": "צְיָחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1266,
 		"column": "b"

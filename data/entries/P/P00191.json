@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00191",
-	"slug": "עוגא",
-	"headword": {
-		"text": "עוּגָּא"
-	},
+	"sefariaHeadword": "עוּגָּא",
+	"headwords": [
+		{
+			"text": "עוּגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "b"

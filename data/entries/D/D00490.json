@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00490",
-	"slug": "דיד",
-	"headword": {
-		"text": "דִּיד־"
-	},
+	"sefariaHeadword": "דִּיד־",
+	"headwords": [
+		{
+			"text": "דִּיד־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

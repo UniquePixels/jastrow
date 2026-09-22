@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00126",
-	"slug": "לגיא",
-	"headword": {
-		"text": "לָגְיָא"
-	},
+	"sefariaHeadword": "לָגְיָא",
+	"headwords": [
+		{
+			"text": "לָגְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 692,
 		"column": "a"

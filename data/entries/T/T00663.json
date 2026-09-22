@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00663",
-	"slug": "ריספק",
-	"headword": {
-		"text": "רִיסְפַּק"
-	},
+	"sefariaHeadword": "רִיסְפַּק",
+	"headwords": [
+		{
+			"text": "רִיסְפַּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

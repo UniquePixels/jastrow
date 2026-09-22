@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00868",
-	"slug": "הריקא",
-	"headword": {
-		"text": "הֲרִיקָא"
-	},
+	"sefariaHeadword": "הֲרִיקָא",
+	"headwords": [
+		{
+			"text": "הֲרִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

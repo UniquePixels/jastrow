@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02693",
-	"slug": "מרישא",
-	"headword": {
-		"text": "מָרֵישָׁא"
-	},
+	"sefariaHeadword": "מָרֵישָׁא",
+	"headwords": [
+		{
+			"text": "מָרֵישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02397",
-	"slug": "מקוף",
-	"headword": {
-		"text": "מָקוֹף"
-	},
+	"sefariaHeadword": "מָקוֹף",
+	"headwords": [
+		{
+			"text": "מָקוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

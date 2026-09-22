@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00057",
-	"slug": "רבדא",
-	"headword": {
-		"text": "רִבְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְדָּא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִבְדָּא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1439,
 		"column": "b"

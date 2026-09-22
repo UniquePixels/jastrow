@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00968",
-	"slug": "סלוני",
-	"headword": {
-		"text": "סַלּוּנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלּוּנִי",
+	"headwords": [
 		{
-			"text": "בֵּית סַלּוּנִי"
+			"text": "סַלּוּנִי"
+		},
+		{
+			"text": "בֵּית ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "a"

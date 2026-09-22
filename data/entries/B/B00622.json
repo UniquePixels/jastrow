@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00622",
-	"slug": "בילני",
-	"headword": {
-		"text": "בילני"
-	},
+	"sefariaHeadword": "בילני",
+	"headwords": [
+		{
+			"text": "בילני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

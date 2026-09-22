@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00714",
-	"slug": "עכבה",
-	"headword": {
-		"text": "עַכָּבָה"
-	},
+	"sefariaHeadword": "עַכָּבָה",
+	"headwords": [
+		{
+			"text": "עַכָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

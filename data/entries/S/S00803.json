@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00803",
-	"slug": "קטנתן",
-	"headword": {
-		"text": "קְטַנְתָּן"
-	},
+	"sefariaHeadword": "קְטַנְתָּן",
+	"headwords": [
+		{
+			"text": "קְטַנְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1351,
 		"column": "a"

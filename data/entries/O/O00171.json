@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00171",
-	"slug": "סגריס",
-	"headword": {
-		"text": "סגריס"
-	},
+	"sefariaHeadword": "סגריס",
+	"headwords": [
+		{
+			"text": "סגריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

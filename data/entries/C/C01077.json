@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01077",
-	"slug": "גנאי-2",
-	"headword": {
-		"text": "גְּנַאי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנַאי ²",
+	"headwords": [
+		{
+			"text": "גְּנַאי",
+			"disambiguator": 2
+		},
 		{
 			"text": "גְּנַיי"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 256,
 		"column": "b"

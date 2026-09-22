@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01501",
-	"slug": "מלוויתא",
-	"headword": {
-		"text": "מְלַוִּויתָא"
-	},
+	"sefariaHeadword": "מְלַוִּויתָא",
+	"headwords": [
+		{
+			"text": "מְלַוִּויתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 787,
 		"column": "b"

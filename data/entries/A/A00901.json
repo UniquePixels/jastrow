@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00901",
-	"slug": "אורכותא",
-	"headword": {
-		"text": "אוֹרָכוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרָכוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹרָכוּתָא"
+		},
 		{
 			"text": "אוֹרִיכוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 34,
 		"column": "b"

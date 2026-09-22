@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00338",
-	"slug": "כופיא",
-	"headword": {
-		"text": "כּוּפְיָא"
-	},
+	"sefariaHeadword": "כּוּפְיָא",
+	"headwords": [
+		{
+			"text": "כּוּפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

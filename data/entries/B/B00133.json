@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00133",
-	"slug": "בדיאי",
-	"headword": {
-		"text": "בְּדִיאֵי"
-	},
+	"sefariaHeadword": "בְּדִיאֵי",
+	"headwords": [
+		{
+			"text": "בְּדִיאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "a"

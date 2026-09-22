@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00524",
-	"slug": "טלפירא",
-	"headword": {
-		"text": "טלפירא"
-	},
+	"sefariaHeadword": "טלפירא",
+	"headwords": [
+		{
+			"text": "טלפירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "b"

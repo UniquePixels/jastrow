@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02325",
-	"slug": "מציצא-1",
-	"headword": {
-		"text": "מְצַיְצָא"
-	},
+	"sefariaHeadword": "מְצַיְצָא",
+	"headwords": [
+		{
+			"text": "מְצַיְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

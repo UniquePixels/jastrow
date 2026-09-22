@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00741",
-	"slug": "טרז",
-	"headword": {
-		"text": "טָרִז"
-	},
+	"sefariaHeadword": "טָרִז",
+	"headwords": [
+		{
+			"text": "טָרִז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "b"

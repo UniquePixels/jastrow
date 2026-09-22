@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01781",
-	"slug": "שפם-1",
-	"headword": {
-		"text": "שָׂפָם"
-	},
+	"sefariaHeadword": "שָׂפָם",
+	"headwords": [
+		{
+			"text": "שָׂפָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1618,
 		"column": "a"

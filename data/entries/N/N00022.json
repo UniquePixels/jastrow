@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00022",
-	"slug": "נאם",
-	"headword": {
-		"text": "נָאַם"
-	},
+	"sefariaHeadword": "נָאַם",
+	"headwords": [
+		{
+			"text": "נָאַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "a"

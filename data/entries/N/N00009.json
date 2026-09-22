@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00009",
-	"slug": "נאדי",
-	"headword": {
-		"text": "נָאדִי"
-	},
+	"sefariaHeadword": "נָאדִי",
+	"headwords": [
+		{
+			"text": "נָאדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "a"

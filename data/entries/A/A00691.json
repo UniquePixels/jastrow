@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00691",
-	"slug": "אומדנא",
-	"headword": {
-		"text": "אוּמְדָּנָא"
-	},
+	"sefariaHeadword": "אוּמְדָּנָא",
+	"headwords": [
+		{
+			"text": "אוּמְדָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "b"

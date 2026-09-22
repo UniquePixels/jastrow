@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01570",
-	"slug": "פרגמטיוטא",
-	"headword": {
-		"text": "פְּרַגְמָטִיוְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַגְמָטִיוְטָא",
+	"headwords": [
+		{
+			"text": "פְּרַגְמָטִיוְטָא"
+		},
 		{
 			"text": "פְּרַגְמָטִיוְטֵיס"
 		},
 		{
-			"text": "פרגמיט׳"
+			"text": "פרגמיט׳",
+			"partial": true
 		},
 		{
 			"text": "פרגמיטורא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1215,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00063",
-	"slug": "חביל-1",
-	"headword": {
-		"text": "חֲבִיל"
-	},
+	"sefariaHeadword": "חֲבִיל",
+	"headwords": [
+		{
+			"text": "חֲבִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

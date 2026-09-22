@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00662",
-	"slug": "ניימתא",
-	"headword": {
-		"text": "נַיְימָתָא"
-	},
+	"sefariaHeadword": "נַיְימָתָא",
+	"headwords": [
+		{
+			"text": "נַיְימָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

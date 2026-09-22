@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00041",
-	"slug": "דבב-4",
-	"headword": {
-		"text": "דְּבָב"
-	},
+	"sefariaHeadword": "דְּבָב",
+	"headwords": [
+		{
+			"text": "דְּבָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "b"

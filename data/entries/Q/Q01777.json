@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01777",
-	"slug": "פרטירא",
-	"headword": {
-		"text": "פַּרְטֵירָא"
-	},
+	"sefariaHeadword": "פַּרְטֵירָא",
+	"headwords": [
+		{
+			"text": "פַּרְטֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

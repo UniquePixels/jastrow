@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01010",
-	"slug": "כפייה",
-	"headword": {
-		"text": "כְּפִיָיה"
-	},
+	"sefariaHeadword": "כְּפִיָיה",
+	"headwords": [
+		{
+			"text": "כְּפִיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "b"

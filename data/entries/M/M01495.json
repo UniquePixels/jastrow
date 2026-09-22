@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01495",
-	"slug": "מלוג",
-	"headword": {
-		"text": "מְלוֹג"
-	},
+	"sefariaHeadword": "מְלוֹג",
+	"headwords": [
+		{
+			"text": "מְלוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 787,
 		"column": "b"

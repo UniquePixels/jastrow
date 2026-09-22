@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01728",
-	"slug": "חרסום",
-	"headword": {
-		"text": "חַרְסוּם"
-	},
+	"sefariaHeadword": "חַרְסוּם",
+	"headwords": [
+		{
+			"text": "חַרְסוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "b"

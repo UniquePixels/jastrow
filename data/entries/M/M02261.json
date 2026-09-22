@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02261",
-	"slug": "מץ",
-	"headword": {
-		"text": "מֹץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֹץ",
+	"headwords": [
+		{
+			"text": "מֹץ"
+		},
 		{
 			"text": "מֹצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 822,
 		"column": "b"

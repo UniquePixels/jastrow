@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01137",
-	"slug": "איבריו",
-	"headword": {
-		"text": "איבריו"
-	},
+	"sefariaHeadword": "איבריו",
+	"headwords": [
+		{
+			"text": "איבריו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

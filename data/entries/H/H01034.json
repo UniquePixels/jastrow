@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01034",
-	"slug": "חליז-1",
-	"headword": {
-		"text": "חִלִּיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלִּיז",
+	"headwords": [
 		{
-			"text": "חִילִּ׳"
+			"text": "חִלִּיז"
+		},
+		{
+			"text": "חִילִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 468,
 		"column": "a"

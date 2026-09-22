@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00165",
-	"slug": "נגיר",
-	"headword": {
-		"text": "נְגִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגִיר",
+	"headwords": [
+		{
+			"text": "נְגִיר"
+		},
 		{
 			"text": "נְגִירָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "נְגִירוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 874,
 		"column": "b"

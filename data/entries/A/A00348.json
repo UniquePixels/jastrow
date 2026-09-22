@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00348",
-	"slug": "אגרונימון",
-	"headword": {
-		"text": "אַגְרוֹנִימוֹן"
-	},
+	"sefariaHeadword": "אַגְרוֹנִימוֹן",
+	"headwords": [
+		{
+			"text": "אַגְרוֹנִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

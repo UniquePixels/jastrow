@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01326",
-	"slug": "פסל-2",
-	"headword": {
-		"text": "פְּסַל"
-	},
+	"sefariaHeadword": "פְּסַל",
+	"headwords": [
+		{
+			"text": "פְּסַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1197,
 		"column": "b"

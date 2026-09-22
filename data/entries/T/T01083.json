@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01083",
-	"slug": "רשי-2",
-	"headword": {
-		"text": "רְשֵׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְשֵׁי",
+	"headwords": [
+		{
+			"text": "רְשֵׁי"
+		},
 		{
 			"text": "רְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1500,
 		"column": "a"

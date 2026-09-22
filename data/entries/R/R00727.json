@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00727",
-	"slug": "צר-2",
-	"headword": {
-		"text": "צַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צַר I",
+	"headwords": [
+		{
+			"text": "צַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1299,
 		"column": "a"

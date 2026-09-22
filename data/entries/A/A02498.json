@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02498",
-	"slug": "אספלני",
-	"headword": {
-		"text": "אִסְפְּלָנִי"
-	},
+	"sefariaHeadword": "אִסְפְּלָנִי",
+	"headwords": [
+		{
+			"text": "אִסְפְּלָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

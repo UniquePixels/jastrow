@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00680",
-	"slug": "חיוטא",
-	"headword": {
-		"text": "חיוטא"
-	},
+	"sefariaHeadword": "חיוטא",
+	"headwords": [
+		{
+			"text": "חיוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "a"

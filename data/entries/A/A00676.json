@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00676",
-	"slug": "אולמא-1",
-	"headword": {
-		"text": "אוּלָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּלָמָא",
+	"headwords": [
+		{
+			"text": "אוּלָמָא"
+		},
 		{
 			"text": "אוּלַמָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 26,
 		"column": "a"

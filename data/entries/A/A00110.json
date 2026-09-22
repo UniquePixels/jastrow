@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00110",
-	"slug": "אביב-2",
-	"headword": {
-		"text": "אָבִיב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָבִיב ²",
+	"headwords": [
+		{
+			"text": "אָבִיב",
+			"disambiguator": 2
+		},
 		{
 			"text": "אָבִיבָא"
 		},
@@ -16,6 +17,7 @@
 			"text": "אַבִּיבָא"
 		}
 	],
+	"display": "{0} ², {1}, ({2}, {3})",
 	"page": {
 		"number": 5,
 		"column": "b"

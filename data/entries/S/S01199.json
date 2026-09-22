@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01199",
-	"slug": "קירצף",
-	"headword": {
-		"text": "קִירְצֵף"
-	},
+	"sefariaHeadword": "קִירְצֵף",
+	"headwords": [
+		{
+			"text": "קִירְצֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

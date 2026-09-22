@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00986",
-	"slug": "אזרעא",
-	"headword": {
-		"text": "אֶזְרְעָא"
-	},
+	"sefariaHeadword": "אֶזְרְעָא",
+	"headwords": [
+		{
+			"text": "אֶזְרְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

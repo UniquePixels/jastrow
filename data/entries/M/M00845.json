@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00845",
-	"slug": "מחזיתא",
-	"headword": {
-		"text": "מַחְזִיתָא"
-	},
+	"sefariaHeadword": "מַחְזִיתָא",
+	"headwords": [
+		{
+			"text": "מַחְזִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

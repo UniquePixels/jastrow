@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01197",
-	"slug": "כרכום-1",
-	"headword": {
-		"text": "כַּרְכּוֹם",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְכּוֹם I",
+	"headwords": [
+		{
+			"text": "כַּרְכּוֹם",
+			"homograph": 1
+		},
 		{
 			"text": "כַּרְקוֹם"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 669,
 		"column": "b"

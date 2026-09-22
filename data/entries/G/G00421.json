@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00421",
-	"slug": "זירוד-1",
-	"headword": {
-		"text": "זֵירוּד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זֵירוּד I",
+	"headwords": [
+		{
+			"text": "זֵירוּד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 396,
 		"column": "b"

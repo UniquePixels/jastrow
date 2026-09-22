@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00176",
-	"slug": "אבנגר",
-	"headword": {
-		"text": "אבנגר"
-	},
+	"sefariaHeadword": "אבנגר",
+	"headwords": [
+		{
+			"text": "אבנגר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00357",
-	"slug": "גוטא",
-	"headword": {
-		"text": "גוטא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גוטא",
+	"headwords": [
+		{
+			"text": "גוטא"
+		},
 		{
 			"text": "גוטה"
 		},
@@ -15,6 +16,7 @@
 			"text": "גוטס"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 220,
 		"column": "b"

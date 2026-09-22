@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01003",
-	"slug": "ממלונית",
-	"headword": {
-		"text": "מַמְלוֹנִית"
-	},
+	"sefariaHeadword": "מַמְלוֹנִית",
+	"headwords": [
+		{
+			"text": "מַמְלוֹנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

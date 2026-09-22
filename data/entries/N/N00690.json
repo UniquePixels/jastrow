@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00690",
-	"slug": "נין",
-	"headword": {
-		"text": "נִין"
-	},
+	"sefariaHeadword": "נִין",
+	"headwords": [
+		{
+			"text": "נִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00642",
-	"slug": "המרה",
-	"headword": {
-		"text": "הֲמָרָה"
-	},
+	"sefariaHeadword": "הֲמָרָה",
+	"headwords": [
+		{
+			"text": "הֲמָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "b"

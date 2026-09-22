@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02644",
-	"slug": "אפורדכיס",
-	"headword": {
-		"text": "אפורדכיס"
-	},
+	"sefariaHeadword": "אפורדכיס",
+	"headwords": [
+		{
+			"text": "אפורדכיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

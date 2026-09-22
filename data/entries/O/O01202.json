@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01202",
-	"slug": "סנוותאה",
-	"headword": {
-		"text": "סְנַוְותָּאָה"
-	},
+	"sefariaHeadword": "סְנַוְותָּאָה",
+	"headwords": [
+		{
+			"text": "סְנַוְותָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "b"

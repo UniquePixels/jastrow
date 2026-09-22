@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00260",
-	"slug": "קווסרין",
-	"headword": {
-		"text": "קַוְוסְרִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַוְוסְרִין",
+	"headwords": [
+		{
+			"text": "קַוְוסְרִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1325,
 		"column": "a"

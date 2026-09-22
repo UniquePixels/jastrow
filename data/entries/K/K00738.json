@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00738",
-	"slug": "כלימך",
-	"headword": {
-		"text": "כלימך"
-	},
+	"sefariaHeadword": "כלימך",
+	"headwords": [
+		{
+			"text": "כלימך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "b"

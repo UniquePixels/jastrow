@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00292",
-	"slug": "כומרא-1",
-	"headword": {
-		"text": "כּוּמָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּמָרָא",
+	"headwords": [
+		{
+			"text": "כּוּמָרָא"
+		},
 		{
 			"text": "כּוּמְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 621,
 		"column": "a"

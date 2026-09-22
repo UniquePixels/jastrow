@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00081",
-	"slug": "גביות",
-	"headword": {
-		"text": "גַּבָּיוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּבָּיוּת",
+	"headwords": [
+		{
+			"text": "גַּבָּיוּת"
+		},
 		{
 			"text": "גַּבָּאוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 206,
 		"column": "a"

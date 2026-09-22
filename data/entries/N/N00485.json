@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00485",
-	"slug": "נחי",
-	"headword": {
-		"text": "נחי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נחי",
+	"headwords": [
+		{
+			"text": "נחי"
+		},
 		{
 			"text": "נָחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 894,
 		"column": "a"

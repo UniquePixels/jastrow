@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00056",
-	"slug": "שאת",
-	"headword": {
-		"text": "שְׂאֵת"
-	},
+	"sefariaHeadword": "שְׂאֵת",
+	"headwords": [
+		{
+			"text": "שְׂאֵת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1509,
 		"column": "b"

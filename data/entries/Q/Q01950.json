@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01950",
-	"slug": "פרעוש",
-	"headword": {
-		"text": "פַּרְעוֹשׁ"
-	},
+	"sefariaHeadword": "פַּרְעוֹשׁ",
+	"headwords": [
+		{
+			"text": "פַּרְעוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "a"

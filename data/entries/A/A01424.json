@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01424",
-	"slug": "איסטוורא",
-	"headword": {
-		"text": "אִיסטְוָורָא"
-	},
+	"sefariaHeadword": "אִיסטְוָורָא",
+	"headwords": [
+		{
+			"text": "אִיסטְוָורָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01026",
-	"slug": "ענתודריא",
-	"headword": {
-		"text": "עֵנְתּוֹדְרָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵנְתּוֹדְרָיָא",
+	"headwords": [
 		{
-			"text": "עֵנְתּוֹנְדְּ׳"
+			"text": "עֵנְתּוֹדְרָיָא"
+		},
+		{
+			"text": "עֵנְתּוֹנְדְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1097,
 		"column": "a"

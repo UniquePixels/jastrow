@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00900",
-	"slug": "הרקדה",
-	"headword": {
-		"text": "הַרְקָדָה"
-	},
+	"sefariaHeadword": "הַרְקָדָה",
+	"headwords": [
+		{
+			"text": "הַרְקָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

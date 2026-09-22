@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00810",
-	"slug": "גיראה",
-	"headword": {
-		"text": "גִּירָאָה"
-	},
+	"sefariaHeadword": "גִּירָאָה",
+	"headwords": [
+		{
+			"text": "גִּירָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "a"

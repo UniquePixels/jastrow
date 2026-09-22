@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00417",
-	"slug": "רועדא",
-	"headword": {
-		"text": "רועדא"
-	},
+	"sefariaHeadword": "רועדא",
+	"headwords": [
+		{
+			"text": "רועדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

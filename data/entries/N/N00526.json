@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00526",
-	"slug": "נחשול-2",
-	"headword": {
-		"text": "נַחְשׁוֹל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַחְשׁוֹל ²",
+	"headwords": [
+		{
+			"text": "נַחְשׁוֹל",
+			"disambiguator": 2
+		},
 		{
 			"text": "נַחְשׁוֹלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 897,
 		"column": "a"

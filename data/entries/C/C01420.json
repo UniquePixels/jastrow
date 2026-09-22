@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01420",
-	"slug": "גשקרא",
-	"headword": {
-		"text": "גִּשְׁקְרָא"
-	},
+	"sefariaHeadword": "גִּשְׁקְרָא",
+	"headwords": [
+		{
+			"text": "גִּשְׁקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 274,
 		"column": "a"

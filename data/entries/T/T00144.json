@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00144",
-	"slug": "רבקה-2",
-	"headword": {
-		"text": "רִבְקָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רִבְקָה II",
+	"headwords": [
+		{
+			"text": "רִבְקָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1446,
 		"column": "a"

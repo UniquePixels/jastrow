@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00421",
-	"slug": "שולחני",
-	"headword": {
-		"text": "שׁוּלְחָנִי"
-	},
+	"sefariaHeadword": "שׁוּלְחָנִי",
+	"headwords": [
+		{
+			"text": "שׁוּלְחָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "b"

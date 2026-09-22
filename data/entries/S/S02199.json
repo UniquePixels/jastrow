@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02199",
-	"slug": "קרש-3",
-	"headword": {
-		"text": "קָרַשׁ"
-	},
+	"sefariaHeadword": "קָרַשׁ",
+	"headwords": [
+		{
+			"text": "קָרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "a"

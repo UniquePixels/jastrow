@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01834",
-	"slug": "מסאסא",
-	"headword": {
-		"text": "מַסָּאסָא"
-	},
+	"sefariaHeadword": "מַסָּאסָא",
+	"headwords": [
+		{
+			"text": "מַסָּאסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 803,
 		"column": "b"

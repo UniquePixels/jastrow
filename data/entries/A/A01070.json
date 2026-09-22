@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01070",
-	"slug": "אטבעא",
-	"headword": {
-		"text": "אַטְבְּעָא"
-	},
+	"sefariaHeadword": "אַטְבְּעָא",
+	"headwords": [
+		{
+			"text": "אַטְבְּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "a"

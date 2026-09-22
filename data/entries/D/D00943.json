@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00943",
-	"slug": "דעה",
-	"headword": {
-		"text": "דֵּעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דֵּעָה",
+	"headwords": [
+		{
+			"text": "דֵּעָה"
+		},
 		{
 			"text": "דֵּיעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 316,
 		"column": "a"

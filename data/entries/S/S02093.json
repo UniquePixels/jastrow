@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02093",
-	"slug": "קרמולין",
-	"headword": {
-		"text": "קַרְמוּלִין"
-	},
+	"sefariaHeadword": "קַרְמוּלִין",
+	"headwords": [
+		{
+			"text": "קַרְמוּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "b"

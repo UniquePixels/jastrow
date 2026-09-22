@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00670",
-	"slug": "סילני",
-	"headword": {
-		"text": "סילני"
-	},
+	"sefariaHeadword": "סילני",
+	"headwords": [
+		{
+			"text": "סילני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

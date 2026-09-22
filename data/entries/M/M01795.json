@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01795",
-	"slug": "מנמנמי",
-	"headword": {
-		"text": "מנמנמי"
-	},
+	"sefariaHeadword": "מנמנמי",
+	"headwords": [
+		{
+			"text": "מנמנמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

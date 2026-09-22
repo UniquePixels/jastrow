@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00498",
-	"slug": "דיהנא",
-	"headword": {
-		"text": "דִּיהֲנָא"
-	},
+	"sefariaHeadword": "דִּיהֲנָא",
+	"headwords": [
+		{
+			"text": "דִּיהֲנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00626",
-	"slug": "לפד",
-	"headword": {
-		"text": "לַפִּד"
-	},
+	"sefariaHeadword": "לַפִּד",
+	"headwords": [
+		{
+			"text": "לַפִּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

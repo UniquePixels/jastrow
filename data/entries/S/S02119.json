@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02119",
-	"slug": "קרסטילין",
-	"headword": {
-		"text": "קרסטילין"
-	},
+	"sefariaHeadword": "קרסטילין",
+	"headwords": [
+		{
+			"text": "קרסטילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

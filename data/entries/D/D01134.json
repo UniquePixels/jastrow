@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D01134",
-	"slug": "דרתא-1",
-	"headword": {
-		"text": "דַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְתָּא",
+	"headwords": [
+		{
+			"text": "דַּרְתָּא"
+		},
 		{
 			"text": "דָּרְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 326,
 		"column": "a"

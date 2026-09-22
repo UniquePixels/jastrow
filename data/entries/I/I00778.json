@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00778",
-	"slug": "טריין-2",
-	"headword": {
-		"text": "טריין"
-	},
+	"sefariaHeadword": "טריין",
+	"headwords": [
+		{
+			"text": "טריין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

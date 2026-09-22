@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00132",
-	"slug": "קדיא-1",
-	"headword": {
-		"text": "קַדְיָא"
-	},
+	"sefariaHeadword": "קַדְיָא",
+	"headwords": [
+		{
+			"text": "קַדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

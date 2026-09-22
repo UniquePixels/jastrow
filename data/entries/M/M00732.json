@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00732",
-	"slug": "מזוכיתא",
-	"headword": {
-		"text": "מְזוֹכִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְזוֹכִיתָא",
+	"headwords": [
+		{
+			"text": "מְזוֹכִיתָא"
+		},
 		{
 			"text": "מְזוֹכָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 754,
 		"column": "a"

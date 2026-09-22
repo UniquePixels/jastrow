@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01522",
-	"slug": "שמצא",
-	"headword": {
-		"text": "שִׁמְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁמְצָא",
+	"headwords": [
 		{
-			"text": "שִׁימְ׳"
+			"text": "שִׁמְצָא"
+		},
+		{
+			"text": "שִׁימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1600,
 		"column": "b"

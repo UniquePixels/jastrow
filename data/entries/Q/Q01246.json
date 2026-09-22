@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01246",
-	"slug": "פסולה",
-	"headword": {
-		"text": "פְּסוּלָה"
-	},
+	"sefariaHeadword": "פְּסוּלָה",
+	"headwords": [
+		{
+			"text": "פְּסוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01215",
-	"slug": "פנרתא",
-	"headword": {
-		"text": "פנרתא"
-	},
+	"sefariaHeadword": "פנרתא",
+	"headwords": [
+		{
+			"text": "פנרתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1191,
 		"column": "a"

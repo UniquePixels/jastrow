@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00214",
-	"slug": "שגדונא",
-	"headword": {
-		"text": "שגדונא"
-	},
+	"sefariaHeadword": "שגדונא",
+	"headwords": [
+		{
+			"text": "שגדונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "a"

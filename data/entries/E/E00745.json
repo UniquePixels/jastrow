@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00745",
-	"slug": "הפכפך",
-	"headword": {
-		"text": "הֲפַכְפָּךְ"
-	},
+	"sefariaHeadword": "הֲפַכְפָּךְ",
+	"headwords": [
+		{
+			"text": "הֲפַכְפָּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 361,
 		"column": "b"

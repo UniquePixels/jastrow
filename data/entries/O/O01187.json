@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01187",
-	"slug": "סנדלריאות",
-	"headword": {
-		"text": "סנדלריאות"
-	},
+	"sefariaHeadword": "סנדלריאות",
+	"headwords": [
+		{
+			"text": "סנדלריאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

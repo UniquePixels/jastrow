@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00427",
-	"slug": "דחלתא",
-	"headword": {
-		"text": "דַּחְלְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּחְלְתָא",
+	"headwords": [
+		{
+			"text": "דַּחְלְתָא"
+		},
 		{
 			"text": "דַּחַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 292,
 		"column": "b"

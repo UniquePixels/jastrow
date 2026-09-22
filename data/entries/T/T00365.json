@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00365",
-	"slug": "רוייתא",
-	"headword": {
-		"text": "רַוְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַוְיָיתָא",
+	"headwords": [
+		{
+			"text": "רַוְיָיתָא"
+		},
 		{
 			"text": "רַוְיָתָא"
 		},
 		{
-			"text": "רַוְו׳"
+			"text": "רַוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1459,
 		"column": "b"

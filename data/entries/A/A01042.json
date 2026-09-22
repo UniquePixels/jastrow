@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01042",
-	"slug": "אח״ס",
-	"headword": {
-		"text": "אח״ס"
-	},
+	"sefariaHeadword": "אח\"ס",
+	"headwords": [
+		{
+			"text": "אח״ס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 40,
 		"column": "b"

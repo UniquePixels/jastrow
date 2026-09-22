@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02797",
-	"slug": "אפרגיא",
-	"headword": {
-		"text": "אַפְּרַגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְּרַגְיָא",
+	"headwords": [
+		{
+			"text": "אַפְּרַגְיָא"
+		},
 		{
 			"text": "אַפְּרַגְזְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַפְּרַגְסְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 108,
 		"column": "a"

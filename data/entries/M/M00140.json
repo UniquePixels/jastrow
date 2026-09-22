@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00140",
-	"slug": "מגורה-3",
-	"headword": {
-		"text": "מגורה"
-	},
+	"sefariaHeadword": "מגורה",
+	"headwords": [
+		{
+			"text": "מגורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

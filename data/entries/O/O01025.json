@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01025",
-	"slug": "סלק-1",
-	"headword": {
-		"text": "סָלַק"
-	},
+	"sefariaHeadword": "סָלַק",
+	"headwords": [
+		{
+			"text": "סָלַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

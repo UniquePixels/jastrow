@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01456",
-	"slug": "סקול",
-	"headword": {
-		"text": "סִקּוּל"
-	},
+	"sefariaHeadword": "סִקּוּל",
+	"headwords": [
+		{
+			"text": "סִקּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00790",
-	"slug": "חילקא-1",
-	"headword": {
-		"text": "חֶילְקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֶילְקָא I",
+	"headwords": [
+		{
+			"text": "חֶילְקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 457,
 		"column": "a"

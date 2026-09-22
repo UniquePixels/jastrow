@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01067",
-	"slug": "דרוסה-1",
-	"headword": {
-		"text": "דָּרוֹסָה"
-	},
+	"sefariaHeadword": "דָּרוֹסָה",
+	"headwords": [
+		{
+			"text": "דָּרוֹסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00792",
-	"slug": "רמה-2",
-	"headword": {
-		"text": "רָמָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רָמָה II",
+	"headwords": [
+		{
+			"text": "רָמָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1481,
 		"column": "b"

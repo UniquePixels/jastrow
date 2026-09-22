@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00581",
-	"slug": "אוון",
-	"headword": {
-		"text": "אָוֶון"
-	},
+	"sefariaHeadword": "אָוֶון",
+	"headwords": [
+		{
+			"text": "אָוֶון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "a"

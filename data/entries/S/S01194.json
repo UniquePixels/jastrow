@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01194",
-	"slug": "קירסוף",
-	"headword": {
-		"text": "קִירְסוּף"
-	},
+	"sefariaHeadword": "קִירְסוּף",
+	"headwords": [
+		{
+			"text": "קִירְסוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

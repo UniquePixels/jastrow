@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00234",
-	"slug": "נדנד",
-	"headword": {
-		"text": "נִדְנֵד"
-	},
+	"sefariaHeadword": "נִדְנֵד",
+	"headwords": [
+		{
+			"text": "נִדְנֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

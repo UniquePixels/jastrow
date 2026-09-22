@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00697",
-	"slug": "כלודי",
-	"headword": {
-		"text": "כלודי"
-	},
+	"sefariaHeadword": "כלודי",
+	"headwords": [
+		{
+			"text": "כלודי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01221",
-	"slug": "נקלוגוס",
-	"headword": {
-		"text": "נקלוגוס"
-	},
+	"sefariaHeadword": "נקלוגוס",
+	"headwords": [
+		{
+			"text": "נקלוגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

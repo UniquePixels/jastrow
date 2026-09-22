@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02682",
-	"slug": "אפיל",
-	"headword": {
-		"text": "אָפִיל"
-	},
+	"sefariaHeadword": "אָפִיל",
+	"headwords": [
+		{
+			"text": "אָפִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 103,
 		"column": "a"

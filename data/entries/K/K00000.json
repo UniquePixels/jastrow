@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00000",
-	"slug": "כ-1",
-	"headword": {
-		"text": "כ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כ",
+	"headwords": [
+		{
+			"text": "כ"
+		},
 		{
 			"text": "ך"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 605,
 		"column": "a"

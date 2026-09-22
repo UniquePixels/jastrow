@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02110",
-	"slug": "פת-1",
-	"headword": {
-		"text": "פת"
-	},
+	"sefariaHeadword": "פת",
+	"headwords": [
+		{
+			"text": "פת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

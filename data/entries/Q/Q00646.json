@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00646",
-	"slug": "פייטן",
-	"headword": {
-		"text": "פַּיְיטָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּיְיטָן",
+	"headwords": [
+		{
+			"text": "פַּיְיטָן"
+		},
 		{
 			"text": "פַּיְיטָנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּיְיטָנָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1162,
 		"column": "a"

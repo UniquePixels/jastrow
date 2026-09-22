@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00830",
-	"slug": "עלע-2",
-	"headword": {
-		"text": "עֲלַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלַע",
+	"headwords": [
+		{
+			"text": "עֲלַע"
+		},
 		{
 			"text": "עִלְעָא"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1085,
 		"column": "a"

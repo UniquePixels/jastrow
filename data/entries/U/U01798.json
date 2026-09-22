@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01798",
-	"slug": "שפר-1",
-	"headword": {
-		"text": "שָׁפַר"
-	},
+	"sefariaHeadword": "שָׁפַר",
+	"headwords": [
+		{
+			"text": "שָׁפַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1619,
 		"column": "b"

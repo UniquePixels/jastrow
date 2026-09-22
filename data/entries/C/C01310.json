@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01310",
-	"slug": "גרוף",
-	"headword": {
-		"text": "גְּרוֹף"
-	},
+	"sefariaHeadword": "גְּרוֹף",
+	"headwords": [
+		{
+			"text": "גְּרוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00016",
-	"slug": "דאי",
-	"headword": {
-		"text": "דַּאי"
-	},
+	"sefariaHeadword": "דַּאי",
+	"headwords": [
+		{
+			"text": "דַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

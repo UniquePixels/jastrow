@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00039",
-	"slug": "פגאנים",
-	"headword": {
-		"text": "פָּגָאנִים"
-	},
+	"sefariaHeadword": "פָּגָאנִים",
+	"headwords": [
+		{
+			"text": "פָּגָאנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

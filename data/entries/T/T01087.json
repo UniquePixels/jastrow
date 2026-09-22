@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T01087",
-	"slug": "רשיעא",
-	"headword": {
-		"text": "רַשִּׁיעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַשִּׁיעָא",
+	"headwords": [
+		{
+			"text": "רַשִּׁיעָא"
+		},
 		{
 			"text": "רַשִּׁיעָה"
 		},
 		{
-			"text": "רָשִׁ׳"
+			"text": "רָשִׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1500,
 		"column": "a"

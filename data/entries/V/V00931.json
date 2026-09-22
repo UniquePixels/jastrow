@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00931",
-	"slug": "תרביצא",
-	"headword": {
-		"text": "תַּרְבִּיצָא"
-	},
+	"sefariaHeadword": "תַּרְבִּיצָא",
+	"headwords": [
+		{
+			"text": "תַּרְבִּיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

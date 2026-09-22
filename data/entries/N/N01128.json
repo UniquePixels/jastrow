@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01128",
-	"slug": "נציף",
-	"headword": {
-		"text": "נְצֵיף"
-	},
+	"sefariaHeadword": "נְצֵיף",
+	"headwords": [
+		{
+			"text": "נְצֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "a"

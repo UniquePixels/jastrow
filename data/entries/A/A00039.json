@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00039",
-	"slug": "אבדוקוס",
-	"headword": {
-		"text": "אֶבְדּוֹקוֹס"
-	},
+	"sefariaHeadword": "אֶבְדּוֹקוֹס",
+	"headwords": [
+		{
+			"text": "אֶבְדּוֹקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

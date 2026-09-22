@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00075",
-	"slug": "דבר-1",
-	"headword": {
-		"text": "דָּבַר"
-	},
+	"sefariaHeadword": "דָּבַר",
+	"headwords": [
+		{
+			"text": "דָּבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 278,
 		"column": "a"
@@ -16,7 +20,7 @@
 	],
 	"stems": [
 		{
-			"forms": ["דִּבֵּר", "דִּיבֵּר"],
+			"forms": ["דִּבֵּר", "דִּיבֵּר"],
 			"senses": [
 				{
 					"gloss": " (b. h.) <i>to converse, speak</i>. ",

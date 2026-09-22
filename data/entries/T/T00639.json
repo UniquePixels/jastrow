@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00639",
-	"slug": "ריכון",
-	"headword": {
-		"text": "רִיכּוּן"
-	},
+	"sefariaHeadword": "רִיכּוּן",
+	"headwords": [
+		{
+			"text": "רִיכּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

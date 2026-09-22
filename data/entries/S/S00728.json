@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00728",
-	"slug": "קטורין",
-	"headword": {
-		"text": "קטורין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קטורין",
+	"headwords": [
 		{
-			"text": "כל קטורין"
+			"text": "קטורין"
+		},
+		{
+			"text": "כל ק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1347,
 		"column": "a"

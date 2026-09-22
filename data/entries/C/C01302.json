@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01302",
-	"slug": "גרון",
-	"headword": {
-		"text": "גָּרוֹן"
-	},
+	"sefariaHeadword": "גָּרוֹן",
+	"headwords": [
+		{
+			"text": "גָּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00692",
-	"slug": "עיריתא",
-	"headword": {
-		"text": "עִירִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִירִיתָא",
+	"headwords": [
+		{
+			"text": "עִירִיתָא"
+		},
 		{
 			"text": "עִירְיְתָא"
 		},
 		{
-			"text": "עִירְיְי׳"
+			"text": "עִירְיְי׳",
+			"partial": true
 		},
 		{
 			"text": "עִירְיָא"
@@ -18,9 +20,11 @@
 			"text": "עִירְיָיא"
 		},
 		{
-			"text": "עֶרְ׳"
+			"text": "עֶרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1076,
 		"column": "b"

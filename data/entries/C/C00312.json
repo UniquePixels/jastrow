@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00312",
-	"slug": "גודל-2",
-	"headword": {
-		"text": "גּוּדָל"
-	},
+	"sefariaHeadword": "גּוּדָל",
+	"headwords": [
+		{
+			"text": "גּוּדָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

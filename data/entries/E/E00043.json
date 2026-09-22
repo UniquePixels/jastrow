@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00043",
-	"slug": "הבלא",
-	"headword": {
-		"text": "הַבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַבְלָא",
+	"headwords": [
+		{
+			"text": "הַבְלָא"
+		},
 		{
 			"text": "הֶבְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 330,
 		"column": "a"

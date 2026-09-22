@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00621",
-	"slug": "בילן",
-	"headword": {
-		"text": "בילן"
-	},
+	"sefariaHeadword": "בילן",
+	"headwords": [
+		{
+			"text": "בילן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

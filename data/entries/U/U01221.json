@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01221",
-	"slug": "שלהוביתא",
-	"headword": {
-		"text": "שַׁלְהוֹבִיתָא"
-	},
+	"sefariaHeadword": "שַׁלְהוֹבִיתָא",
+	"headwords": [
+		{
+			"text": "שַׁלְהוֹבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1578,
 		"column": "a"

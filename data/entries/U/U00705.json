@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00705",
-	"slug": "שחר-2",
-	"headword": {
-		"text": "שְׁחַר"
-	},
+	"sefariaHeadword": "שְׁחַר",
+	"headwords": [
+		{
+			"text": "שְׁחַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1551,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01231",
-	"slug": "כרמון",
-	"headword": {
-		"text": "כַּרְמון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּרְמון",
+	"headwords": [
+		{
+			"text": "כַּרְמון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01113",
-	"slug": "פלפילין",
-	"headword": {
-		"text": "פלפילין"
-	},
+	"sefariaHeadword": "פלפילין",
+	"headwords": [
+		{
+			"text": "פלפילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1184,
 		"column": "b"

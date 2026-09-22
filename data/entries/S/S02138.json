@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02138",
-	"slug": "קרפיפא",
-	"headword": {
-		"text": "קַרְפִּיפָא"
-	},
+	"sefariaHeadword": "קַרְפִּיפָא",
+	"headwords": [
+		{
+			"text": "קַרְפִּיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "a"

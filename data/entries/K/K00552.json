@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00552",
-	"slug": "כילכול",
-	"headword": {
-		"text": "כִּילְכּוּל"
-	},
+	"sefariaHeadword": "כִּילְכּוּל",
+	"headwords": [
+		{
+			"text": "כִּילְכּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

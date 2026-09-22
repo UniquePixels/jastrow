@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01095",
-	"slug": "בצלא",
-	"headword": {
-		"text": "בָּצְלָא"
-	},
+	"sefariaHeadword": "בָּצְלָא",
+	"headwords": [
+		{
+			"text": "בָּצְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

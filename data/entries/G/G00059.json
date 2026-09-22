@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00059",
-	"slug": "זגדום",
-	"headword": {
-		"text": "זַגְדּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַגְדּוּם",
+	"headwords": [
+		{
+			"text": "זַגְדּוּם"
+		},
 		{
 			"text": "זַגְדָּן"
 		},
@@ -12,6 +13,7 @@
 			"text": "זוּגְדֵּס"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 380,
 		"column": "a"

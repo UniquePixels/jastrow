@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02184",
-	"slug": "מערקא-2",
-	"headword": {
-		"text": "מְעַרְקָא"
-	},
+	"sefariaHeadword": "מְעַרְקָא",
+	"headwords": [
+		{
+			"text": "מְעַרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "b"

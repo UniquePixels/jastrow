@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00643",
-	"slug": "סיכויא",
-	"headword": {
-		"text": "סִיכּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכּוּיָא",
+	"headwords": [
 		{
-			"text": "סִכּ׳"
+			"text": "סִיכּוּיָא"
+		},
+		{
+			"text": "סִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01138",
-	"slug": "סמר-3",
-	"headword": {
-		"text": "סְמַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְמַר II",
+	"headwords": [
+		{
+			"text": "סְמַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1003,
 		"column": "b"

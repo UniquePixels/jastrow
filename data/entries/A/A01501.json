@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01501",
-	"slug": "איסקורטיא",
-	"headword": {
-		"text": "אִיסְקוֹרטְיָא"
-	},
+	"sefariaHeadword": "אִיסְקוֹרטְיָא",
+	"headwords": [
+		{
+			"text": "אִיסְקוֹרטְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "a"

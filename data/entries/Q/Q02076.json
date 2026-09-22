@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02076",
-	"slug": "פשיטנא",
-	"headword": {
-		"text": "פְּשִׁיטְנָא"
-	},
+	"sefariaHeadword": "פְּשִׁיטְנָא",
+	"headwords": [
+		{
+			"text": "פְּשִׁיטְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

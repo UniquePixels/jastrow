@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02869",
-	"slug": "משיזבתא",
-	"headword": {
-		"text": "מְשֵׁיזֵבְתָּא"
-	},
+	"sefariaHeadword": "מְשֵׁיזֵבְתָּא",
+	"headwords": [
+		{
+			"text": "מְשֵׁיזֵבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "a"

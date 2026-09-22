@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01004",
-	"slug": "בסם-2",
-	"headword": {
-		"text": "בְּסַם"
-	},
+	"sefariaHeadword": "בְּסַם",
+	"headwords": [
+		{
+			"text": "בְּסַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 179,
 		"column": "a"

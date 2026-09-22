@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01265",
-	"slug": "קלווסין",
-	"headword": {
-		"text": "קְלִוְוסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלִוְוסִין",
+	"headwords": [
+		{
+			"text": "קְלִוְוסִין"
+		},
 		{
 			"text": "קְלִוְוסִיס"
 		},
 		{
-			"text": "קִילִ׳"
+			"text": "קִילִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1372,
 		"column": "b"

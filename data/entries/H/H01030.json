@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01030",
-	"slug": "חלי-3",
-	"headword": {
-		"text": "חָלֵי"
-	},
+	"sefariaHeadword": "חָלֵי",
+	"headwords": [
+		{
+			"text": "חָלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 468,
 		"column": "a"

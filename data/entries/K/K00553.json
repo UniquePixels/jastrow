@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00553",
-	"slug": "כילכיד",
-	"headword": {
-		"text": "כילכיד"
-	},
+	"sefariaHeadword": "כילכיד",
+	"headwords": [
+		{
+			"text": "כילכיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

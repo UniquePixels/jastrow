@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00361",
-	"slug": "כוץ",
-	"headword": {
-		"text": "כְּוֵץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוֵץ",
+	"headwords": [
+		{
+			"text": "כְּוֵץ"
+		},
 		{
 			"text": "כְּוֵיץ"
 		},
@@ -12,6 +13,7 @@
 			"text": "כְּוַוץ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 625,
 		"column": "a"

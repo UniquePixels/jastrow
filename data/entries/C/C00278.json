@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00278",
-	"slug": "גובה",
-	"headword": {
-		"text": "גּוֹבַהּ"
-	},
+	"sefariaHeadword": "גּוֹבַהּ",
+	"headwords": [
+		{
+			"text": "גּוֹבַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "a"

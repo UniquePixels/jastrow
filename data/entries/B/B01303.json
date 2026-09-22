@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01303",
-	"slug": "ברנקיא",
-	"headword": {
-		"text": "ברנקיא"
-	},
+	"sefariaHeadword": "ברנקיא",
+	"headwords": [
+		{
+			"text": "ברנקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

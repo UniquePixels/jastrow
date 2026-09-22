@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01426",
-	"slug": "שמהן",
-	"headword": {
-		"text": "שְׁמָהָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמָהָן",
+	"headwords": [
+		{
+			"text": "שְׁמָהָן"
+		},
 		{
 			"text": "שְׁמָהָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1592,
 		"column": "a"

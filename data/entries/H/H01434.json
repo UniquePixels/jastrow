@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01434",
-	"slug": "חפורתא",
-	"headword": {
-		"text": "חֲפוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲפוּרְתָּא",
+	"headwords": [
+		{
+			"text": "חֲפוּרְתָּא"
+		},
 		{
 			"text": "חֲפוּרַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 491,
 		"column": "a"

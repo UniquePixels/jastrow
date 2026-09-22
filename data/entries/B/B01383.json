@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01383",
-	"slug": "בתולה",
-	"headword": {
-		"text": "בְּתוּלָה"
-	},
+	"sefariaHeadword": "בְּתוּלָה",
+	"headwords": [
+		{
+			"text": "בְּתוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 200,
 		"column": "b"

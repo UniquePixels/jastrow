@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00820",
-	"slug": "רמילוס",
-	"headword": {
-		"text": "רמילוס"
-	},
+	"sefariaHeadword": "רמילוס",
+	"headwords": [
+		{
+			"text": "רמילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

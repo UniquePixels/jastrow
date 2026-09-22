@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00081",
-	"slug": "אבורנקי",
-	"headword": {
-		"text": "אבורנקי"
-	},
+	"sefariaHeadword": "אבורנקי",
+	"headwords": [
+		{
+			"text": "אבורנקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01021",
-	"slug": "דקרן",
-	"headword": {
-		"text": "דַּקְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּקְרָן",
+	"headwords": [
+		{
+			"text": "דַּקְרָן"
+		},
 		{
 			"text": "דַּקְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 320,
 		"column": "a"

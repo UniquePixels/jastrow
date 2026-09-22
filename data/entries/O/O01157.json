@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01157",
-	"slug": "סנא-3",
-	"headword": {
-		"text": "סָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָנָא",
+	"headwords": [
+		{
+			"text": "סָנָא"
+		},
 		{
 			"text": "סְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1004,
 		"column": "a"

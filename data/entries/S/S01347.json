@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01347",
-	"slug": "קליפא",
-	"headword": {
-		"text": "קְלִיפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלִיפָא",
+	"headwords": [
 		{
-			"text": "קַלִּי׳"
+			"text": "קְלִיפָא"
+		},
+		{
+			"text": "קַלִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1377,
 		"column": "a"

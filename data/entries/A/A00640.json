@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00640",
-	"slug": "אוכטא",
-	"headword": {
-		"text": "אוֹכְטָא"
-	},
+	"sefariaHeadword": "אוֹכְטָא",
+	"headwords": [
+		{
+			"text": "אוֹכְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

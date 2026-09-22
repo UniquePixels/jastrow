@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01135",
-	"slug": "עצרי",
-	"headword": {
-		"text": "עַצְרִי"
-	},
+	"sefariaHeadword": "עַצְרִי",
+	"headwords": [
+		{
+			"text": "עַצְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1103,
 		"column": "b"

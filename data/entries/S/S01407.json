@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01407",
-	"slug": "קלפי",
-	"headword": {
-		"text": "קַלְפִּי"
-	},
+	"sefariaHeadword": "קַלְפִּי",
+	"headwords": [
+		{
+			"text": "קַלְפִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

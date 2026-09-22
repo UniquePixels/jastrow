@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01154",
-	"slug": "סן",
-	"headword": {
-		"text": "סֵן"
-	},
+	"sefariaHeadword": "סֵן",
+	"headwords": [
+		{
+			"text": "סֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

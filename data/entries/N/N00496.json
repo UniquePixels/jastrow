@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00496",
-	"slug": "נחיתי",
-	"headword": {
-		"text": "נחיתי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נחיתי",
+	"headwords": [
 		{
-			"text": "נחיתי ימא"
+			"text": "נחיתי"
+		},
+		{
+			"text": "נ׳ ימא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 894,
 		"column": "b"

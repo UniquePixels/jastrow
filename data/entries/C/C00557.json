@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00557",
-	"slug": "גזית",
-	"headword": {
-		"text": "גָּזִית"
-	},
+	"sefariaHeadword": "גָּזִית",
+	"headwords": [
+		{
+			"text": "גָּזִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "b"

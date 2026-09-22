@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00329",
-	"slug": "בור-2",
-	"headword": {
-		"text": "בּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּר",
+	"headwords": [
+		{
+			"text": "בּוּר"
+		},
 		{
 			"text": "בִּיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 148,
 		"column": "b"

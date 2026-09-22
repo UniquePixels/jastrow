@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00683",
-	"slug": "צפוראה",
-	"headword": {
-		"text": "צִפּוֹרָאָה"
-	},
+	"sefariaHeadword": "צִפּוֹרָאָה",
+	"headwords": [
+		{
+			"text": "צִפּוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1296,
 		"column": "a"

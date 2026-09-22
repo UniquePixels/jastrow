@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00300",
-	"slug": "שהי-2",
-	"headword": {
-		"text": "שְׁהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁהֵי",
+	"headwords": [
+		{
+			"text": "שְׁהֵי"
+		},
 		{
 			"text": "שְׁהָא"
 		},

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01445",
-	"slug": "איסטמא",
-	"headword": {
-		"text": "אִיסְטְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְמָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְמָא"
+		},
 		{
 			"text": "אִצְטְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 55,
 		"column": "b"

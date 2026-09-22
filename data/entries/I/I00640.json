@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00640",
-	"slug": "טפטיאות",
-	"headword": {
-		"text": "טפטיאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טפטיאות",
+	"headwords": [
+		{
+			"text": "טפטיאות"
+		},
 		{
 			"text": "טפטיות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 546,
 		"column": "a"

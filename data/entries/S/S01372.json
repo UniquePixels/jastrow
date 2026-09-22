@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01372",
-	"slug": "קלנדס",
-	"headword": {
-		"text": "קָלִנְדַּס"
-	},
+	"sefariaHeadword": "קָלִנְדַּס",
+	"headwords": [
+		{
+			"text": "קָלִנְדַּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1379,
 		"column": "a"

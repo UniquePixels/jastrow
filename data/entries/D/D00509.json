@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00509",
-	"slug": "דיוזוגי",
-	"headword": {
-		"text": "דְּיוֹזוּגֵי"
-	},
+	"sefariaHeadword": "דְּיוֹזוּגֵי",
+	"headwords": [
+		{
+			"text": "דְּיוֹזוּגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

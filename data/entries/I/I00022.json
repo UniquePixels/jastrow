@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00022",
-	"slug": "טבא-2",
-	"headword": {
-		"text": "טִבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִבָּא",
+	"headwords": [
+		{
+			"text": "טִבָּא"
+		},
 		{
 			"text": "טָבָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 515,
 		"column": "b"

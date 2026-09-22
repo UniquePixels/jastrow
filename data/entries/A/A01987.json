@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01987",
-	"slug": "אמדלאי",
-	"headword": {
-		"text": "אמדלאי"
-	},
+	"sefariaHeadword": "אמדלאי",
+	"headwords": [
+		{
+			"text": "אמדלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "b"

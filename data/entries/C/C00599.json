@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "C00599",
-	"slug": "גט-2",
-	"headword": {
-		"text": "גֵּט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּט ²",
+	"headwords": [
+		{
+			"text": "גֵּט",
+			"disambiguator": 2
+		},
 		{
 			"text": "גִּטָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "גִּיטָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 233,
 		"column": "b"

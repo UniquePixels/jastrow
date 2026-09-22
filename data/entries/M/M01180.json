@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01180",
-	"slug": "מילי-1",
-	"headword": {
-		"text": "מילי"
-	},
+	"sefariaHeadword": "מילי",
+	"headwords": [
+		{
+			"text": "מילי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

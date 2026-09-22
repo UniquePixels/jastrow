@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00537",
-	"slug": "תכך-3",
-	"headword": {
-		"text": "תְּכָךְ"
-	},
+	"sefariaHeadword": "תְּכָךְ",
+	"headwords": [
+		{
+			"text": "תְּכָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

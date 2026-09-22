@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00759",
-	"slug": "פיסיטים",
-	"headword": {
-		"text": "פיסיטים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פיסיטים",
+	"headwords": [
+		{
+			"text": "פיסיטים"
+		},
 		{
 			"text": "פיסיטיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1167,
 		"column": "b"

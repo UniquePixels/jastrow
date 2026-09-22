@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00616",
-	"slug": "קורם",
-	"headword": {
-		"text": "קורם"
-	},
+	"sefariaHeadword": "קורם",
+	"headwords": [
+		{
+			"text": "קורם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

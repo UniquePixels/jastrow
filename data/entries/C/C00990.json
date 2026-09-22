@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00990",
-	"slug": "גלשלושתא",
-	"headword": {
-		"text": "גִּלְשְׁלוּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלְשְׁלוּשְׁתָּא",
+	"headwords": [
+		{
+			"text": "גִּלְשְׁלוּשְׁתָּא"
+		},
 		{
 			"text": "גִּלְשְׁלָשׁוּתָא"
 		},
@@ -12,9 +13,11 @@
 			"text": "גִּלְשׁוּלֶשְׁתָּא"
 		},
 		{
-			"text": "גִּילְ׳"
+			"text": "גִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 251,
 		"column": "a"

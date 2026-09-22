@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00377",
-	"slug": "אדדם",
-	"headword": {
-		"text": "אדדם"
-	},
+	"sefariaHeadword": "אדדם",
+	"headwords": [
+		{
+			"text": "אדדם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

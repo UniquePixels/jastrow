@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00938",
-	"slug": "אושר",
-	"headword": {
-		"text": "אֶוְשַׁר"
-	},
+	"sefariaHeadword": "אֶוְשַׁר",
+	"headwords": [
+		{
+			"text": "אֶוְשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "a"

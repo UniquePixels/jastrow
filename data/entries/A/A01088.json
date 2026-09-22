@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01088",
-	"slug": "אטל",
-	"headword": {
-		"text": "אַטֵּל"
-	},
+	"sefariaHeadword": "אַטֵּל",
+	"headwords": [
+		{
+			"text": "אַטֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

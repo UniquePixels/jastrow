@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00242",
-	"slug": "טורנסרופוס",
-	"headword": {
-		"text": "טורנסרופוס"
-	},
+	"sefariaHeadword": "טורנסרופוס",
+	"headwords": [
+		{
+			"text": "טורנסרופוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

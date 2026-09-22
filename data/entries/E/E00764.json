@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00764",
-	"slug": "הפרכוס",
-	"headword": {
-		"text": "הִפַּרְכוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִפַּרְכוֹס",
+	"headwords": [
 		{
-			"text": "הִי׳"
+			"text": "הִפַּרְכוֹס"
+		},
+		{
+			"text": "הִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 363,
 		"column": "a"

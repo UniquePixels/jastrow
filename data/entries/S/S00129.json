@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00129",
-	"slug": "קדחותא",
-	"headword": {
-		"text": "קַדְחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַדְחוּתָא",
+	"headwords": [
+		{
+			"text": "קַדְחוּתָא"
+		},
 		{
 			"text": "קַדַּחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1315,
 		"column": "a"

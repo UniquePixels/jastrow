@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01091",
-	"slug": "קיסרנאה",
-	"headword": {
-		"text": "קִיסְרְנָאָה"
-	},
+	"sefariaHeadword": "קִיסְרְנָאָה",
+	"headwords": [
+		{
+			"text": "קִיסְרְנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A03107",
-	"slug": "אריס-1",
-	"headword": {
-		"text": "אָרִיס",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*אָרִיס I",
+	"headwords": [
+		{
+			"text": "אָרִיס",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 120,
 		"column": "a"

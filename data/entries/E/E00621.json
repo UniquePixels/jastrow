@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00621",
-	"slug": "המלתא",
-	"headword": {
-		"text": "הֲמַלְתָּא"
-	},
+	"sefariaHeadword": "הֲמַלְתָּא",
+	"headwords": [
+		{
+			"text": "הֲמַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

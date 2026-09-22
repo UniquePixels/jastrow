@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00965",
-	"slug": "תרונוס",
-	"headword": {
-		"text": "תְּרוֹנוֹס"
-	},
+	"sefariaHeadword": "תְּרוֹנוֹס",
+	"headwords": [
+		{
+			"text": "תְּרוֹנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

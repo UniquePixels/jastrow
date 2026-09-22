@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01214",
-	"slug": "פנקריסין",
-	"headword": {
-		"text": "פַּנְקְרִיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְקְרִיסִין",
+	"headwords": [
+		{
+			"text": "פַּנְקְרִיסִין"
+		},
 		{
 			"text": "פַּנְקְרִסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1191,
 		"column": "a"

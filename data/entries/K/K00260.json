@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00260",
-	"slug": "כול-2",
-	"headword": {
-		"text": "כּוּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּל ²",
+	"headwords": [
+		{
+			"text": "כּוּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "כִּיל"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 619,
 		"column": "b"

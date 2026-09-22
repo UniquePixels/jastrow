@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02678",
-	"slug": "אפייה",
-	"headword": {
-		"text": "אֲפִיָיה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֲפִיָיה I",
+	"headwords": [
+		{
+			"text": "אֲפִיָיה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 102,
 		"column": "b"

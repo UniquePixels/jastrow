@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01183",
-	"slug": "עקיסה",
-	"headword": {
-		"text": "עֲקִיסָה"
-	},
+	"sefariaHeadword": "עֲקִיסָה",
+	"headwords": [
+		{
+			"text": "עֲקִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

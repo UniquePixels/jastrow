@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00924",
-	"slug": "חכינאנות",
-	"headword": {
-		"text": "חכינאנות"
-	},
+	"sefariaHeadword": "חכינאנות",
+	"headwords": [
+		{
+			"text": "חכינאנות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "b"

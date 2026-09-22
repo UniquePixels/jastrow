@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00612",
-	"slug": "גיבביי",
-	"headword": {
-		"text": "גיבביי"
-	},
+	"sefariaHeadword": "גיבביי",
+	"headwords": [
+		{
+			"text": "גיבביי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

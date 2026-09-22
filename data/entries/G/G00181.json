@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00181",
-	"slug": "זולשפט",
-	"headword": {
-		"text": "זוּלְשָׁפָט"
-	},
+	"sefariaHeadword": "זוּלְשָׁפָט",
+	"headwords": [
+		{
+			"text": "זוּלְשָׁפָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

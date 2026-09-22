@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00158",
-	"slug": "חגר-3",
-	"headword": {
-		"text": "חָגַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חָגַר II",
+	"headwords": [
+		{
+			"text": "חָגַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 424,
 		"column": "b"

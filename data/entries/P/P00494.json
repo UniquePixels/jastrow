@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00494",
-	"slug": "עיבל",
-	"headword": {
-		"text": "עֵיבָל"
-	},
+	"sefariaHeadword": "עֵיבָל",
+	"headwords": [
+		{
+			"text": "עֵיבָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1066,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00150",
-	"slug": "דהיך",
-	"headword": {
-		"text": "דְּהֵיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּהֵיךְ",
+	"headwords": [
+		{
+			"text": "דְּהֵיךְ"
+		},
 		{
 			"text": "דְּהַךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 281,
 		"column": "b"

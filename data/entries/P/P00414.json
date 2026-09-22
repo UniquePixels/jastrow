@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00414",
-	"slug": "עזיקה",
-	"headword": {
-		"text": "עֲזֵיקָה"
-	},
+	"sefariaHeadword": "עֲזֵיקָה",
+	"headwords": [
+		{
+			"text": "עֲזֵיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1061,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00943",
-	"slug": "רפי-1",
-	"headword": {
-		"text": "רפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רפי",
+	"headwords": [
+		{
+			"text": "רפי"
+		},
 		{
 			"text": "רָפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1489,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00779",
-	"slug": "ניקליטין",
-	"headword": {
-		"text": "נִיקְלִיטִין"
-	},
+	"sefariaHeadword": "נִיקְלִיטִין",
+	"headwords": [
+		{
+			"text": "נִיקְלִיטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "b"

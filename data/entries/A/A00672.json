@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00672",
-	"slug": "אולירין",
-	"headword": {
-		"text": "אולירין"
-	},
+	"sefariaHeadword": "אולירין",
+	"headwords": [
+		{
+			"text": "אולירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "a"

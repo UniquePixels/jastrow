@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00662",
-	"slug": "תמונתא",
-	"headword": {
-		"text": "תמונתא"
-	},
+	"sefariaHeadword": "תמונתא",
+	"headwords": [
+		{
+			"text": "תמונתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

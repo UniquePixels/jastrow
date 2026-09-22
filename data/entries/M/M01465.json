@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01465",
-	"slug": "מלאה",
-	"headword": {
-		"text": "מְלֵאָה"
-	},
+	"sefariaHeadword": "מְלֵאָה",
+	"headwords": [
+		{
+			"text": "מְלֵאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "b"

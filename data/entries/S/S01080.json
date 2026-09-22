@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01080",
-	"slug": "קיסר",
-	"headword": {
-		"text": "קֵיסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵיסַר",
+	"headwords": [
+		{
+			"text": "קֵיסַר"
+		},
 		{
 			"text": "קֵסַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00472",
-	"slug": "בחור",
-	"headword": {
-		"text": "בָּחוּר"
-	},
+	"sefariaHeadword": "בָּחוּר",
+	"headwords": [
+		{
+			"text": "בָּחוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "b"

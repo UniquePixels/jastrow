@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U01176",
-	"slug": "שכן-4",
-	"headword": {
-		"text": "שָׁכֵן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁכֵן ²",
+	"headwords": [
+		{
+			"text": "שָׁכֵן",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁכֵנָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "שָׁכְנָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1575,
 		"column": "b"

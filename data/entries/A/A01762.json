@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01762",
-	"slug": "אכתר",
-	"headword": {
-		"text": "אַכְתַּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַכְתַּר",
+	"headwords": [
+		{
+			"text": "אַכְתַּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

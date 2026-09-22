@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00098",
-	"slug": "גביע",
-	"headword": {
-		"text": "גָּבִיעַ"
-	},
+	"sefariaHeadword": "גָּבִיעַ",
+	"headwords": [
+		{
+			"text": "גָּבִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "a"

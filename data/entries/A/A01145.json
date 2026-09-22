@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01145",
-	"slug": "איגר",
-	"headword": {
-		"text": "אִיגָר"
-	},
+	"sefariaHeadword": "אִיגָר",
+	"headwords": [
+		{
+			"text": "אִיגָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

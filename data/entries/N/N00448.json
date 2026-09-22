@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00448",
-	"slug": "נזיר-3",
-	"headword": {
-		"text": "נָזִיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָזִיר ²",
+	"headwords": [
+		{
+			"text": "נָזִיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "נְזִירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 891,
 		"column": "b"

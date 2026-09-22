@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03108",
-	"slug": "מתרכא",
-	"headword": {
-		"text": "מְתַרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתַרְכָא",
+	"headwords": [
 		{
-			"text": "מְתָ׳"
+			"text": "מְתַרְכָא"
+		},
+		{
+			"text": "מְתָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 865,
 		"column": "a"

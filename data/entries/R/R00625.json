@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00625",
-	"slug": "צניעות",
-	"headword": {
-		"text": "צְנִיעוּת"
-	},
+	"sefariaHeadword": "צְנִיעוּת",
+	"headwords": [
+		{
+			"text": "צְנִיעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1291,
 		"column": "b"

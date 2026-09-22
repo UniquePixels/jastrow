@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02188",
-	"slug": "אנטיפטרוס",
-	"headword": {
-		"text": "אנטיפטרוס"
-	},
+	"sefariaHeadword": "אנטיפטרוס",
+	"headwords": [
+		{
+			"text": "אנטיפטרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

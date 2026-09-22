@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00928",
-	"slug": "רפאות",
-	"headword": {
-		"text": "רִפְאוּת"
-	},
+	"sefariaHeadword": "רִפְאוּת",
+	"headwords": [
+		{
+			"text": "רִפְאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

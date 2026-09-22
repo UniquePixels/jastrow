@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00426",
-	"slug": "דחלונא",
-	"headword": {
-		"text": "דַּחֲלוֹנָא"
-	},
+	"sefariaHeadword": "דַּחֲלוֹנָא",
+	"headwords": [
+		{
+			"text": "דַּחֲלוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

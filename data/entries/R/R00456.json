@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00456",
-	"slug": "צירוכין",
-	"headword": {
-		"text": "צירוכין"
-	},
+	"sefariaHeadword": "צירוכין",
+	"headwords": [
+		{
+			"text": "צירוכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "a"

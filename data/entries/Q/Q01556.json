@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01556",
-	"slug": "פרגזיות",
-	"headword": {
-		"text": "פְּרַגְזִיּוֹת"
-	},
+	"sefariaHeadword": "פְּרַגְזִיּוֹת",
+	"headwords": [
+		{
+			"text": "פְּרַגְזִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "a"

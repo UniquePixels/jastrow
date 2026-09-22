@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02931",
-	"slug": "אקסיגרון",
-	"headword": {
-		"text": "אָקְסִיגָרוֹן"
-	},
+	"sefariaHeadword": "אָקְסִיגָרוֹן",
+	"headwords": [
+		{
+			"text": "אָקְסִיגָרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

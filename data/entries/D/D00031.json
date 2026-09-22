@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00031",
-	"slug": "דארזי",
-	"headword": {
-		"text": "דארזי"
-	},
+	"sefariaHeadword": "דארזי",
+	"headwords": [
+		{
+			"text": "דארזי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

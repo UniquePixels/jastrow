@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01873",
-	"slug": "חתוך",
-	"headword": {
-		"text": "חִתּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִתּוּךְ",
+	"headwords": [
+		{
+			"text": "חִתּוּךְ"
+		},
 		{
 			"text": "חִתּוּכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 512,
 		"column": "a"

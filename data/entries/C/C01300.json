@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01300",
-	"slug": "גרומין",
-	"headword": {
-		"text": "גֵּרוּמִין"
-	},
+	"sefariaHeadword": "גֵּרוּמִין",
+	"headwords": [
+		{
+			"text": "גֵּרוּמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

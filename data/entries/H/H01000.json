@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01000",
-	"slug": "חלון",
-	"headword": {
-		"text": "חַלּוֹן"
-	},
+	"sefariaHeadword": "חַלּוֹן",
+	"headwords": [
+		{
+			"text": "חַלּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 465,
 		"column": "b"

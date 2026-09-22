@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00549",
-	"slug": "מוספא",
-	"headword": {
-		"text": "מוּסָפָא"
-	},
+	"sefariaHeadword": "מוּסָפָא",
+	"headwords": [
+		{
+			"text": "מוּסָפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

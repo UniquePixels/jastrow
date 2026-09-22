@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00631",
-	"slug": "יריד",
-	"headword": {
-		"text": "יָרִיד"
-	},
+	"sefariaHeadword": "יָרִיד",
+	"headwords": [
+		{
+			"text": "יָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

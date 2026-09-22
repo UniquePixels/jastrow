@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "C01013",
-	"slug": "גמזא",
-	"headword": {
-		"text": "גַּמְזָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גַּמְזָא",
+	"headwords": [
 		{
-			"text": "בַּר גַּמְזָא"
+			"text": "גַּמְזָא",
+			"reconstructed": true
+		},
+		{
+			"text": "בַּר ג׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 252,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

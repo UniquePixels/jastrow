@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01990",
-	"slug": "פרקדן-1",
-	"headword": {
-		"text": "פְּרַקְדָּן"
-	},
+	"sefariaHeadword": "פְּרַקְדָּן",
+	"headwords": [
+		{
+			"text": "פְּרַקְדָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

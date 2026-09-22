@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00372",
-	"slug": "פורסנית",
-	"headword": {
-		"text": "פּוּרְסָנִית"
-	},
+	"sefariaHeadword": "פּוּרְסָנִית",
+	"headwords": [
+		{
+			"text": "פּוּרְסָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "b"

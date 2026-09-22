@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00206",
-	"slug": "פול-2",
-	"headword": {
-		"text": "פּוֹל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פּוֹל ²",
+	"headwords": [
+		{
+			"text": "פּוֹל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1141,
 		"column": "a"

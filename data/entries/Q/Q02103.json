@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02103",
-	"slug": "פשרה",
-	"headword": {
-		"text": "פְּשָׁרָה"
-	},
+	"sefariaHeadword": "פְּשָׁרָה",
+	"headwords": [
+		{
+			"text": "פְּשָׁרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

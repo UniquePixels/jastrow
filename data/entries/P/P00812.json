@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00812",
-	"slug": "עליצה",
-	"headword": {
-		"text": "עֲלִיצָה"
-	},
+	"sefariaHeadword": "עֲלִיצָה",
+	"headwords": [
+		{
+			"text": "עֲלִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "b"

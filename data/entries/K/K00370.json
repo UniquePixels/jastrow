@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00370",
-	"slug": "כורבלין",
-	"headword": {
-		"text": "כּוֹרַבְלִין"
-	},
+	"sefariaHeadword": "כּוֹרַבְלִין",
+	"headwords": [
+		{
+			"text": "כּוֹרַבְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

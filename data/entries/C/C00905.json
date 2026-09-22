@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00905",
-	"slug": "גלוסטרא",
-	"headword": {
-		"text": "גְּלוֹסְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלוֹסְטְרָא",
+	"headwords": [
+		{
+			"text": "גְּלוֹסְטְרָא"
+		},
 		{
 			"text": "קְלוֹסְטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 246,
 		"column": "b"

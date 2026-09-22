@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00177",
-	"slug": "טומוס",
-	"headword": {
-		"text": "טוֹמוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹמוֹס",
+	"headwords": [
+		{
+			"text": "טוֹמוֹס"
+		},
 		{
 			"text": "טִימוֹס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 524,
 		"column": "a"

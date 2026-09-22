@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00046",
-	"slug": "עביט",
-	"headword": {
-		"text": "עָבִיט"
-	},
+	"sefariaHeadword": "עָבִיט",
+	"headwords": [
+		{
+			"text": "עָבִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

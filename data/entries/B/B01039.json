@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01039",
-	"slug": "בעיא-1",
-	"headword": {
-		"text": "בַּעְיָא"
-	},
+	"sefariaHeadword": "בַּעְיָא",
+	"headwords": [
+		{
+			"text": "בַּעְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

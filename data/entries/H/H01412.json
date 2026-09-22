@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H01412",
-	"slug": "חסר-3",
-	"headword": {
-		"text": "חָסֵר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָסֵר II",
+	"headwords": [
+		{
+			"text": "חָסֵר",
+			"homograph": 2
+		},
 		{
 			"text": "חֲסֵרָה"
 		},
 		{
-			"text": "חֲסֵי׳"
+			"text": "חֲסֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 489,
 		"column": "b"

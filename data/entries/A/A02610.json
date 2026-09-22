@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02610",
-	"slug": "אפוזייני",
-	"headword": {
-		"text": "אֲפוּזְיָינֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲפוּזְיָינֵי",
+	"headwords": [
+		{
+			"text": "אֲפוּזְיָינֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "אָפְזְיָינֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 100,
 		"column": "a"

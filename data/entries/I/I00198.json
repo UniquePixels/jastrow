@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00198",
-	"slug": "טופוס",
-	"headword": {
-		"text": "טוֹפוֹס"
-	},
+	"sefariaHeadword": "טוֹפוֹס",
+	"headwords": [
+		{
+			"text": "טוֹפוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

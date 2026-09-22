@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01757",
-	"slug": "מנזירנא",
-	"headword": {
-		"text": "מַנְזִירְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַנְזִירְנָא",
+	"headwords": [
+		{
+			"text": "מַנְזִירְנָא"
+		},
 		{
 			"text": "מַנְזִרְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 799,
 		"column": "a"

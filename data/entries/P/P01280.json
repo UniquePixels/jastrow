@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01280",
-	"slug": "ערבי-2",
-	"headword": {
-		"text": "עֲרָבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרָבִי",
+	"headwords": [
+		{
+			"text": "עֲרָבִי"
+		},
 		{
 			"text": "עַרְבִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1113,
 		"column": "a"

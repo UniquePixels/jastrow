@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00148",
-	"slug": "קדל",
-	"headword": {
-		"text": "קְדָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְדָל",
+	"headwords": [
+		{
+			"text": "קְדָל"
+		},
 		{
 			"text": "קְדָלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1316,
 		"column": "a"

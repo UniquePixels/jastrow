@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00683",
-	"slug": "עירוי",
-	"headword": {
-		"text": "עֵירוּי"
-	},
+	"sefariaHeadword": "עֵירוּי",
+	"headwords": [
+		{
+			"text": "עֵירוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "a"

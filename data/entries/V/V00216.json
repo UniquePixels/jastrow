@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00216",
-	"slug": "תולסין",
-	"headword": {
-		"text": "תולסין"
-	},
+	"sefariaHeadword": "תולסין",
+	"headwords": [
+		{
+			"text": "תולסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "b"

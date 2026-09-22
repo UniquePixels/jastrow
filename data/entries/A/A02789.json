@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02789",
-	"slug": "אפקרסין",
-	"headword": {
-		"text": "אַפְקַרְסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְקַרְסִין",
+	"headwords": [
+		{
+			"text": "אַפְקַרְסִין"
+		},
 		{
 			"text": "אַפִּיקַרְסִין"
 		},
@@ -12,9 +13,11 @@
 			"text": "אַפִּיקְרִיסִין"
 		},
 		{
-			"text": "אִיפְ׳"
+			"text": "אִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 107,
 		"column": "b"

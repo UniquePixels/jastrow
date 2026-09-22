@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00317",
-	"slug": "מדעם",
-	"headword": {
-		"text": "מִדַּעַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִדַּעַם",
+	"headwords": [
 		{
-			"text": "מִידַּ׳"
+			"text": "מִדַּעַם"
+		},
+		{
+			"text": "מִידַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 734,
 		"column": "b"

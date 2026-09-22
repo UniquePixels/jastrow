@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00247",
-	"slug": "כוך-1",
-	"headword": {
-		"text": "כּוּךְ"
-	},
+	"sefariaHeadword": "כּוּךְ",
+	"headwords": [
+		{
+			"text": "כּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "a"

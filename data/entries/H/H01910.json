@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01910",
-	"slug": "חתר-1",
-	"headword": {
-		"text": "חָתַר"
-	},
+	"sefariaHeadword": "חָתַר",
+	"headwords": [
+		{
+			"text": "חָתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 514,
 		"column": "b"

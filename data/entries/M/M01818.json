@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01818",
-	"slug": "מנשה",
-	"headword": {
-		"text": "מְנַשֶּׁה"
-	},
+	"sefariaHeadword": "מְנַשֶּׁה",
+	"headwords": [
+		{
+			"text": "מְנַשֶּׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "b"

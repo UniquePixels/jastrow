@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02252",
-	"slug": "קשישותא",
-	"headword": {
-		"text": "קַשִּׁישׁוּתָא"
-	},
+	"sefariaHeadword": "קַשִּׁישׁוּתָא",
+	"headwords": [
+		{
+			"text": "קַשִּׁישׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1431,
 		"column": "b"

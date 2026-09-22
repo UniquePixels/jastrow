@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01120",
-	"slug": "איבה",
-	"headword": {
-		"text": "אֵיבָה"
-	},
+	"sefariaHeadword": "אֵיבָה",
+	"headwords": [
+		{
+			"text": "אֵיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "a"

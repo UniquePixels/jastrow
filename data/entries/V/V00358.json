@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00358",
-	"slug": "תחח",
-	"headword": {
-		"text": "תחח"
-	},
+	"sefariaHeadword": "תחח",
+	"headwords": [
+		{
+			"text": "תחח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

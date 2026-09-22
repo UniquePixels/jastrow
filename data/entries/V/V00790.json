@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00790",
-	"slug": "תעק",
-	"headword": {
-		"text": "תְּעַק"
-	},
+	"sefariaHeadword": "תְּעַק",
+	"headwords": [
+		{
+			"text": "תְּעַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "a"

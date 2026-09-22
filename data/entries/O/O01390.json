@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01390",
-	"slug": "ספנא-2",
-	"headword": {
-		"text": "סַפְנָא"
-	},
+	"sefariaHeadword": "סַפְנָא",
+	"headwords": [
+		{
+			"text": "סַפְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "a"

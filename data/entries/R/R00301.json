@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00301",
-	"slug": "ציבתא-2",
-	"headword": {
-		"text": "צִיבְתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צִיבְתָא II",
+	"headwords": [
+		{
+			"text": "צִיבְתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1274,
 		"column": "b"

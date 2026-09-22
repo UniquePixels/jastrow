@@ -1,18 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "M00117",
-	"slug": "מגדא-1",
-	"headword": {
-		"text": "מַגְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְדָּא",
+	"headwords": [
 		{
-			"text": "מִגְ׳"
+			"text": "מַגְדָּא"
+		},
+		{
+			"text": "מִגְ׳",
+			"partial": true
 		},
 		{
 			"text": "מִיגְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 726,
 		"column": "a"

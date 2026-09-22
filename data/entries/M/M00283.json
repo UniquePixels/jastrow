@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00283",
-	"slug": "מדיבה",
-	"headword": {
-		"text": "מדיבה"
-	},
+	"sefariaHeadword": "מדיבה",
+	"headwords": [
+		{
+			"text": "מדיבה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01457",
-	"slug": "סקונדרי",
-	"headword": {
-		"text": "סְקוּנְדְּרֵי"
-	},
+	"sefariaHeadword": "סְקוּנְדְּרֵי",
+	"headwords": [
+		{
+			"text": "סְקוּנְדְּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

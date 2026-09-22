@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00203",
-	"slug": "חדסראה",
-	"headword": {
-		"text": "חַדְסְרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַדְסְרָאָה",
+	"headwords": [
+		{
+			"text": "חַדְסְרָאָה"
+		},
 		{
 			"text": "חַדְסְרַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 426,
 		"column": "b"

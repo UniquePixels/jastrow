@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00969",
-	"slug": "אזיל",
-	"headword": {
-		"text": "אֲזִיל"
-	},
+	"sefariaHeadword": "אֲזִיל",
+	"headwords": [
+		{
+			"text": "אֲזִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "b"

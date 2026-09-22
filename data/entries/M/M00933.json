@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00933",
-	"slug": "מחקא-1",
-	"headword": {
-		"text": "מְחָקָא"
-	},
+	"sefariaHeadword": "מְחָקָא",
+	"headwords": [
+		{
+			"text": "מְחָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "a"

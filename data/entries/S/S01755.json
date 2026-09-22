@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01755",
-	"slug": "קפלוריא",
-	"headword": {
-		"text": "קִפְלוּרְיָא"
-	},
+	"sefariaHeadword": "קִפְלוּרְיָא",
+	"headwords": [
+		{
+			"text": "קִפְלוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

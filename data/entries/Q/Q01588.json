@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01588",
-	"slug": "פרדלס",
-	"headword": {
-		"text": "פַּרְדְּלִס"
-	},
+	"sefariaHeadword": "פַּרְדְּלִס",
+	"headwords": [
+		{
+			"text": "פַּרְדְּלִס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1216,
 		"column": "a"

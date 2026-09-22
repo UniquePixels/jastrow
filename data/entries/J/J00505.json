@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00505",
-	"slug": "יפיות",
-	"headword": {
-		"text": "יָפְיוּת"
-	},
+	"sefariaHeadword": "יָפְיוּת",
+	"headwords": [
+		{
+			"text": "יָפְיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "a"

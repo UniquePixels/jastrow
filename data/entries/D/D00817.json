@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00817",
-	"slug": "דלוותא",
-	"headword": {
-		"text": "דַּלְוָותָא"
-	},
+	"sefariaHeadword": "דַּלְוָותָא",
+	"headwords": [
+		{
+			"text": "דַּלְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

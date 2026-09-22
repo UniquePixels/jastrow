@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00926",
-	"slug": "דנח",
-	"headword": {
-		"text": "דְּנַח"
-	},
+	"sefariaHeadword": "דְּנַח",
+	"headwords": [
+		{
+			"text": "דְּנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "a"

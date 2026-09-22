@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00901",
-	"slug": "טרקלרין",
-	"headword": {
-		"text": "טָרְקְלָרִין"
-	},
+	"sefariaHeadword": "טָרְקְלָרִין",
+	"headwords": [
+		{
+			"text": "טָרְקְלָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00133",
-	"slug": "טווס",
-	"headword": {
-		"text": "טַוָּוס"
-	},
+	"sefariaHeadword": "טַוָּוס",
+	"headwords": [
+		{
+			"text": "טַוָּוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

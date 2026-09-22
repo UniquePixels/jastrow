@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00248",
-	"slug": "רדיא-3",
-	"headword": {
-		"text": "רָדַיָּא"
-	},
+	"sefariaHeadword": "רָדַיָּא",
+	"headwords": [
+		{
+			"text": "רָדַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "a"

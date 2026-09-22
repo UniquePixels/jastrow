@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03327",
-	"slug": "אשמדאי",
-	"headword": {
-		"text": "אַשְׁמְדַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁמְדַאי",
+	"headwords": [
+		{
+			"text": "אַשְׁמְדַאי"
+		},
 		{
 			"text": "אַשְׁמְדַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 129,
 		"column": "a"

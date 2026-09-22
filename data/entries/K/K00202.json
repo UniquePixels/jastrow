@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00202",
-	"slug": "כודא",
-	"headword": {
-		"text": "כּוּדָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כּוּדָא",
+	"headwords": [
+		{
+			"text": "כּוּדָא",
+			"reconstructed": true
+		},
 		{
 			"text": "כַּוְדָּא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 617,
 		"column": "a"

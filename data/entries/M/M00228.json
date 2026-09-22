@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00228",
-	"slug": "מגרת-1",
-	"headword": {
-		"text": "מְגֶרֶת"
-	},
+	"sefariaHeadword": "מְגֶרֶת",
+	"headwords": [
+		{
+			"text": "מְגֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

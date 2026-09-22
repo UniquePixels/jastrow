@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01671",
-	"slug": "ממלא-1",
-	"headword": {
-		"text": "מַמְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַמְלָא I",
+	"headwords": [
+		{
+			"text": "מַמְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 795,
 		"column": "a"

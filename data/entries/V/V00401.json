@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00401",
-	"slug": "תיאדורוס",
-	"headword": {
-		"text": "תִּיאָדוֹרוֹס"
-	},
+	"sefariaHeadword": "תִּיאָדוֹרוֹס",
+	"headwords": [
+		{
+			"text": "תִּיאָדוֹרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "a"

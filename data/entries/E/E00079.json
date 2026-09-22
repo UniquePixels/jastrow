@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00079",
-	"slug": "הגעה",
-	"headword": {
-		"text": "הַגָּעָה"
-	},
+	"sefariaHeadword": "הַגָּעָה",
+	"headwords": [
+		{
+			"text": "הַגָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "b"

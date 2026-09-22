@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01228",
-	"slug": "חמרא-2",
-	"headword": {
-		"text": "חֲמָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמָרָא",
+	"headwords": [
+		{
+			"text": "חֲמָרָא"
+		},
 		{
 			"text": "חַמְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 480,
 		"column": "a"

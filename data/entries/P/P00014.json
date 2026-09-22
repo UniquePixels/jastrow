@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00014",
-	"slug": "עבד-2",
-	"headword": {
-		"text": "עֲבַד",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבַד I",
+	"headwords": [
+		{
+			"text": "עֲבַד",
+			"homograph": 1
+		},
 		{
 			"text": "עֲבֵיד"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1035,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00427",
-	"slug": "מוהי",
-	"headword": {
-		"text": "מַוְהֵי"
-	},
+	"sefariaHeadword": "מַוְהֵי",
+	"headwords": [
+		{
+			"text": "מַוְהֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "b"

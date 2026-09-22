@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00310",
-	"slug": "שיאר",
-	"headword": {
-		"text": "שַׁיַּאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁיַּאר",
+	"headwords": [
+		{
+			"text": "שַׁיַּאר"
+		},
 		{
 			"text": "שַׁוָּאר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1528,
 		"column": "a"

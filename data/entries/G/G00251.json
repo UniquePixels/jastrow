@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00251",
-	"slug": "זחלל",
-	"headword": {
-		"text": "זחלל"
-	},
+	"sefariaHeadword": "זחלל",
+	"headwords": [
+		{
+			"text": "זחלל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "a"

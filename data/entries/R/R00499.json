@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00499",
-	"slug": "צלותא",
-	"headword": {
-		"text": "צְלוֹתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְלוֹתָא",
+	"headwords": [
 		{
-			"text": "צְלוּ׳"
+			"text": "צְלוֹתָא"
+		},
+		{
+			"text": "צְלוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1283,
 		"column": "a"

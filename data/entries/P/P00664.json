@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00664",
-	"slug": "עיקלן",
-	"headword": {
-		"text": "עִיקְלָן"
-	},
+	"sefariaHeadword": "עִיקְלָן",
+	"headwords": [
+		{
+			"text": "עִיקְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "b"

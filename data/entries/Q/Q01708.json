@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01708",
-	"slug": "פרוסדוגמא",
-	"headword": {
-		"text": "פרוסדוגמא"
-	},
+	"sefariaHeadword": "פרוסדוגמא",
+	"headwords": [
+		{
+			"text": "פרוסדוגמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

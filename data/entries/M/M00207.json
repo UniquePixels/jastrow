@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00207",
-	"slug": "מגר-1",
-	"headword": {
-		"text": "מְגַר"
-	},
+	"sefariaHeadword": "מְגַר",
+	"headwords": [
+		{
+			"text": "מְגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

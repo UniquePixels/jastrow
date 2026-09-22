@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00407",
-	"slug": "מודגראות",
-	"headword": {
-		"text": "מודגראות"
-	},
+	"sefariaHeadword": "מודגראות",
+	"headwords": [
+		{
+			"text": "מודגראות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

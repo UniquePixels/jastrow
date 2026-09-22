@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01854",
-	"slug": "אליית",
-	"headword": {
-		"text": "אַלְיָית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְיָית",
+	"headwords": [
+		{
+			"text": "אַלְיָית"
+		},
 		{
 			"text": "אַלְיָת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 69,
 		"column": "a"

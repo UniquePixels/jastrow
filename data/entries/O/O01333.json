@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01333",
-	"slug": "ספוסטא",
-	"headword": {
-		"text": "ספוסטא"
-	},
+	"sefariaHeadword": "ספוסטא",
+	"headwords": [
+		{
+			"text": "ספוסטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "b"

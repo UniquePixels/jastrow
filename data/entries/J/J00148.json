@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00148",
-	"slug": "יואני",
-	"headword": {
-		"text": "יואני"
-	},
+	"sefariaHeadword": "יואני",
+	"headwords": [
+		{
+			"text": "יואני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

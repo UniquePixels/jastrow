@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00522",
-	"slug": "קופר",
-	"headword": {
-		"text": "קופר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קופר",
+	"headwords": [
+		{
+			"text": "קופר"
+		},
 		{
 			"text": "קופרא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1339,
 		"column": "a"

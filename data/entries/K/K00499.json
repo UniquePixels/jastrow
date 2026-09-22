@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00499",
-	"slug": "כידים",
-	"headword": {
-		"text": "כידים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כידים",
+	"headwords": [
+		{
+			"text": "כידים"
+		},
 		{
 			"text": "כידין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 631,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03043",
-	"slug": "ארוסין",
-	"headword": {
-		"text": "אֵרוּסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵרוּסִין",
+	"headwords": [
+		{
+			"text": "אֵרוּסִין"
+		},
 		{
 			"text": "אֵירוּסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 117,
 		"column": "a"

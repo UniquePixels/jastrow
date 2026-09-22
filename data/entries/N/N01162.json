@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01162",
-	"slug": "נקד-1",
-	"headword": {
-		"text": "נָקַד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָקַד I",
+	"headwords": [
+		{
+			"text": "נָקַד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 931,
 		"column": "a"

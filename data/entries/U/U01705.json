@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01705",
-	"slug": "שפא-4",
-	"headword": {
-		"text": "שִׁפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁפָּא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁפָּא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1613,
 		"column": "b"

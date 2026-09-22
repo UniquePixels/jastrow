@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00366",
-	"slug": "ילא",
-	"headword": {
-		"text": "יָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָלָא",
+	"headwords": [
+		{
+			"text": "יָלָא"
+		},
 		{
 			"text": "יַלָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 577,
 		"column": "b"

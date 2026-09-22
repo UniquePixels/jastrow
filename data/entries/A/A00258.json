@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00258",
-	"slug": "אגודה",
-	"headword": {
-		"text": "אֲגוּדָּה"
-	},
+	"sefariaHeadword": "אֲגוּדָּה",
+	"headwords": [
+		{
+			"text": "אֲגוּדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

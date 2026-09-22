@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00161",
-	"slug": "זוטר-1",
-	"headword": {
-		"text": "זוּטַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זוּטַר I",
+	"headwords": [
+		{
+			"text": "זוּטַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 386,
 		"column": "a"

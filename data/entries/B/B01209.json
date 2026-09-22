@@ -1,23 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "B01209",
-	"slug": "ברור-3",
-	"headword": {
-		"text": "בְּרוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרוֹר",
+	"headwords": [
 		{
-			"text": "בְּרוֹר חַיִל"
+			"text": "בְּרוֹר"
 		},
 		{
-			"text": "בְּרוֹר חֵיל"
+			"text": "ב׳ חַיִל",
+			"partial": true
+		},
+		{
+			"text": "ב׳ חֵיל",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 191,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

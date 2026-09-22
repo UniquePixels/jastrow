@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00122",
-	"slug": "מגדלאה",
-	"headword": {
-		"text": "מַגְדְּלָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְדְּלָאָה",
+	"headwords": [
+		{
+			"text": "מַגְדְּלָאָה"
+		},
 		{
 			"text": "מַגְדְּלָיָא"
 		},
 		{
-			"text": "מוּגְ׳"
+			"text": "מוּגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 726,
 		"column": "b"

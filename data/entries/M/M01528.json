@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01528",
-	"slug": "מלחא-3",
-	"headword": {
-		"text": "מַלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְחָא",
+	"headwords": [
 		{
-			"text": "מִגְּדַּל מַלְחָא"
+			"text": "מַלְחָא"
+		},
+		{
+			"text": "מִגְּדַּל מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 789,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

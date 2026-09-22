@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00072",
-	"slug": "קבלות",
-	"headword": {
-		"text": "קַבָּלוּת"
-	},
+	"sefariaHeadword": "קַבָּלוּת",
+	"headwords": [
+		{
+			"text": "קַבָּלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1310,
 		"column": "a"

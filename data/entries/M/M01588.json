@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01588",
-	"slug": "מלכתנותא",
-	"headword": {
-		"text": "מִלְכְּתָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלְכְּתָנוּתָא",
+	"headwords": [
 		{
-			"text": "מִילְ׳"
+			"text": "מִלְכְּתָנוּתָא"
+		},
+		{
+			"text": "מִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 792,
 		"column": "a"

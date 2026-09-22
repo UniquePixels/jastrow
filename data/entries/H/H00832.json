@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00832",
-	"slug": "חיסום-1",
-	"headword": {
-		"text": "חִיסּוּם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חִיסּוּם I",
+	"headwords": [
+		{
+			"text": "חִיסּוּם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 458,
 		"column": "b"

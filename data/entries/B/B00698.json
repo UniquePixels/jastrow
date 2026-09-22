@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00698",
-	"slug": "ביקתא",
-	"headword": {
-		"text": "בִּיקְתָא"
-	},
+	"sefariaHeadword": "בִּיקְתָא",
+	"headwords": [
+		{
+			"text": "בִּיקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

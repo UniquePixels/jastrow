@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00538",
-	"slug": "יצירה",
-	"headword": {
-		"text": "יְצִירָה"
-	},
+	"sefariaHeadword": "יְצִירָה",
+	"headwords": [
+		{
+			"text": "יְצִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "a"

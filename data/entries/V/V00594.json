@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00594",
-	"slug": "תליתא",
-	"headword": {
-		"text": "תְּלִיתָא"
-	},
+	"sefariaHeadword": "תְּלִיתָא",
+	"headwords": [
+		{
+			"text": "תְּלִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "a"

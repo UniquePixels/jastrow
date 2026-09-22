@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00611",
-	"slug": "ריהטן",
-	"headword": {
-		"text": "ריהטן"
-	},
+	"sefariaHeadword": "ריהטן",
+	"headwords": [
+		{
+			"text": "ריהטן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "b"

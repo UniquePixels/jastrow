@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00604",
-	"slug": "עינבול-1",
-	"headword": {
-		"text": "עֵינְבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵינְבּוּל",
+	"headwords": [
 		{
-			"text": "עֵנְ׳"
+			"text": "עֵינְבּוּל"
+		},
+		{
+			"text": "עֵנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1072,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

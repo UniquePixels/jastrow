@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01064",
-	"slug": "קיסט",
-	"headword": {
-		"text": "קִיסְטְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְטְ",
+	"headwords": [
+		{
+			"text": "קִיסְטְ"
+		},
 		{
 			"text": "קִיסְטָא"
 		},
 		{
 			"text": "קִסְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1364,
 		"column": "b"

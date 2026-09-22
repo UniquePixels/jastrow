@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00500",
-	"slug": "תירדין",
-	"headword": {
-		"text": "תִּירְדִּין"
-	},
+	"sefariaHeadword": "תִּירְדִּין",
+	"headwords": [
+		{
+			"text": "תִּירְדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

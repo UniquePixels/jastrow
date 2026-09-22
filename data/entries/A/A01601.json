@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01601",
-	"slug": "איקר",
-	"headword": {
-		"text": "אִיקָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיקָר",
+	"headwords": [
+		{
+			"text": "אִיקָר"
+		},
 		{
 			"text": "אִיקָרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 60,
 		"column": "a"

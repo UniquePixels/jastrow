@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00739",
-	"slug": "יתירא",
-	"headword": {
-		"text": "יְתֵירָא"
-	},
+	"sefariaHeadword": "יְתֵירָא",
+	"headwords": [
+		{
+			"text": "יְתֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

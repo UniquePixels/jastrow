@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01566",
-	"slug": "מלישות",
-	"headword": {
-		"text": "מלישות"
-	},
+	"sefariaHeadword": "מלישות",
+	"headwords": [
+		{
+			"text": "מלישות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 790,
 		"column": "b"

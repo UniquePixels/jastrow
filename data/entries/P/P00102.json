@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00102",
-	"slug": "עגם-1",
-	"headword": {
-		"text": "עָגַם"
-	},
+	"sefariaHeadword": "עָגַם",
+	"headwords": [
+		{
+			"text": "עָגַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1041,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00369",
-	"slug": "רוכבה",
-	"headword": {
-		"text": "רוֹכְבָה"
-	},
+	"sefariaHeadword": "רוֹכְבָה",
+	"headwords": [
+		{
+			"text": "רוֹכְבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

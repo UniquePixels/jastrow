@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00620",
-	"slug": "פיטוס",
-	"headword": {
-		"text": "פִּיטּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטּוּס",
+	"headwords": [
+		{
+			"text": "פִּיטּוּס"
+		},
 		{
 			"text": "פִּיטָּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1161,
 		"column": "a"

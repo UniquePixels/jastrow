@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01946",
-	"slug": "קרומדים",
-	"headword": {
-		"text": "קרומדים"
-	},
+	"sefariaHeadword": "קרומדים",
+	"headwords": [
+		{
+			"text": "קרומדים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

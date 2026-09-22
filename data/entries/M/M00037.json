@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00037",
-	"slug": "מאכא",
-	"headword": {
-		"text": "מָאכָא"
-	},
+	"sefariaHeadword": "מָאכָא",
+	"headwords": [
+		{
+			"text": "מָאכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

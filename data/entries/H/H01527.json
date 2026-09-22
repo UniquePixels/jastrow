@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01527",
-	"slug": "חציצה",
-	"headword": {
-		"text": "חֲצִיצָה"
-	},
+	"sefariaHeadword": "חֲצִיצָה",
+	"headwords": [
+		{
+			"text": "חֲצִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "b"

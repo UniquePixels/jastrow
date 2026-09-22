@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01517",
-	"slug": "עשת-1",
-	"headword": {
-		"text": "עֲשַׁת"
-	},
+	"sefariaHeadword": "עֲשַׁת",
+	"headwords": [
+		{
+			"text": "עֲשַׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1128,
 		"column": "a"

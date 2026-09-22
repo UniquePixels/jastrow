@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02080",
-	"slug": "שתומא",
-	"headword": {
-		"text": "שִׁתּוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁתּוּמָא",
+	"headwords": [
+		{
+			"text": "שִׁתּוּמָא"
+		},
 		{
 			"text": "שִׁתּוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1636,
 		"column": "b"

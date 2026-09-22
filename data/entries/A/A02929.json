@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02929",
-	"slug": "אקניתא",
-	"headword": {
-		"text": "אקניתא"
-	},
+	"sefariaHeadword": "אקניתא",
+	"headwords": [
+		{
+			"text": "אקניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

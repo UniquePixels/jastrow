@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01239",
-	"slug": "גרבן",
-	"headword": {
-		"text": "גַּרְבָּן"
-	},
+	"sefariaHeadword": "גַּרְבָּן",
+	"headwords": [
+		{
+			"text": "גַּרְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

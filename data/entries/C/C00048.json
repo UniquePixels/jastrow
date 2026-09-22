@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00048",
-	"slug": "גבה-3",
-	"headword": {
-		"text": "גֹּבַהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֹּבַהּ",
+	"headwords": [
+		{
+			"text": "גֹּבַהּ"
+		},
 		{
 			"text": "גָּבֹהַּ"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּבַהּ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 204,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00875",
-	"slug": "טרפיזיטיס",
-	"headword": {
-		"text": "טְרַפִּיזִיטֵיס"
-	},
+	"sefariaHeadword": "טְרַפִּיזִיטֵיס",
+	"headwords": [
+		{
+			"text": "טְרַפִּיזִיטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "a"

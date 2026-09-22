@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00228",
-	"slug": "תומיי׳",
-	"headword": {
-		"text": "תומיי׳"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תומיי׳",
+	"headwords": [
+		{
+			"text": "תומיי׳"
+		},
 		{
 			"text": "תומיין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1654,
 		"column": "a"

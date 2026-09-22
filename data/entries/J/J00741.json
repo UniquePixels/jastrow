@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00741",
-	"slug": "יתירתא",
-	"headword": {
-		"text": "יַתִּירְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַתִּירְתָּא",
+	"headwords": [
+		{
+			"text": "יַתִּירְתָּא"
+		},
 		{
 			"text": "יְתֵירְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 604,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00074",
-	"slug": "סבלה",
-	"headword": {
-		"text": "סִבְלָה"
-	},
+	"sefariaHeadword": "סִבְלָה",
+	"headwords": [
+		{
+			"text": "סִבְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 950,
 		"column": "b"

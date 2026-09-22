@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01016",
-	"slug": "מטלעתא",
-	"headword": {
-		"text": "מִטְלַעְתָּא"
-	},
+	"sefariaHeadword": "מִטְלַעְתָּא",
+	"headwords": [
+		{
+			"text": "מִטְלַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "a"

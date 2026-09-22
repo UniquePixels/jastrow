@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00388",
-	"slug": "מואדנוון",
-	"headword": {
-		"text": "מוֹאדְנָוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹאדְנָוָון",
+	"headwords": [
+		{
+			"text": "מוֹאדְנָוָון"
+		},
 		{
 			"text": "מוֹאדְנִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "מוֹאַדְנִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 738,
 		"column": "a"

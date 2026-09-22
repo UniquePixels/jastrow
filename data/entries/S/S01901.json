@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01901",
-	"slug": "קרדו-1",
-	"headword": {
-		"text": "קַרְדּוּ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדּוּ I",
+	"headwords": [
+		{
+			"text": "קַרְדּוּ",
+			"homograph": 1
+		},
 		{
 			"text": "קַרְדּוּן"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1412,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00370",
-	"slug": "ילדות",
-	"headword": {
-		"text": "יַלְדּוּת"
-	},
+	"sefariaHeadword": "יַלְדּוּת",
+	"headwords": [
+		{
+			"text": "יַלְדּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 578,
 		"column": "b"

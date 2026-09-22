@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01640",
-	"slug": "שעועית",
-	"headword": {
-		"text": "שְׁעוּעִית"
-	},
+	"sefariaHeadword": "שְׁעוּעִית",
+	"headwords": [
+		{
+			"text": "שְׁעוּעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

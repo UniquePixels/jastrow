@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01630",
-	"slug": "קנתרן",
-	"headword": {
-		"text": "קַנְתְּרָן"
-	},
+	"sefariaHeadword": "קַנְתְּרָן",
+	"headwords": [
+		{
+			"text": "קַנְתְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

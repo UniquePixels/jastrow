@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00238",
-	"slug": "טורמנטין",
-	"headword": {
-		"text": "טוּרְמִנְטִין"
-	},
+	"sefariaHeadword": "טוּרְמִנְטִין",
+	"headwords": [
+		{
+			"text": "טוּרְמִנְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02402",
-	"slug": "מקורזל",
-	"headword": {
-		"text": "מְקוּרְזָל"
-	},
+	"sefariaHeadword": "מְקוּרְזָל",
+	"headwords": [
+		{
+			"text": "מְקוּרְזָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

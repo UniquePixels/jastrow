@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00325",
-	"slug": "טיח",
-	"headword": {
-		"text": "טִיחַ"
-	},
+	"sefariaHeadword": "טִיחַ",
+	"headwords": [
+		{
+			"text": "טִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

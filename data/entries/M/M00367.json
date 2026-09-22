@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00367",
-	"slug": "מהל-2",
-	"headword": {
-		"text": "מְהַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְהַל I",
+	"headwords": [
+		{
+			"text": "מְהַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 737,
 		"column": "a"

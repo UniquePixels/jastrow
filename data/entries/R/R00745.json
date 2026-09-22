@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00745",
-	"slug": "צרוב",
-	"headword": {
-		"text": "צָרוֹב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צָרוֹב",
+	"headwords": [
+		{
+			"text": "צָרוֹב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1300,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00472",
-	"slug": "חורמה",
-	"headword": {
-		"text": "חוּרְמָה"
-	},
+	"sefariaHeadword": "חוּרְמָה",
+	"headwords": [
+		{
+			"text": "חוּרְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "a"

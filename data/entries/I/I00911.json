@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00911",
-	"slug": "טש",
-	"headword": {
-		"text": "טָשּׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָשּׁ",
+	"headwords": [
+		{
+			"text": "טָשּׁ"
+		},
 		{
 			"text": "טַשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 558,
 		"column": "b"

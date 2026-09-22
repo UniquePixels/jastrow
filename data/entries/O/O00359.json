@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00359",
-	"slug": "סון",
-	"headword": {
-		"text": "סוּן"
-	},
+	"sefariaHeadword": "סוּן",
+	"headwords": [
+		{
+			"text": "סוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01602",
-	"slug": "סריגה",
-	"headword": {
-		"text": "סְרִיגָה"
-	},
+	"sefariaHeadword": "סְרִיגָה",
+	"headwords": [
+		{
+			"text": "סְרִיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

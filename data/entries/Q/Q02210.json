@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02210",
-	"slug": "פתרניה",
-	"headword": {
-		"text": "פתרניה"
-	},
+	"sefariaHeadword": "פתרניה",
+	"headwords": [
+		{
+			"text": "פתרניה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

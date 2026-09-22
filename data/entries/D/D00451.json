@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00451",
-	"slug": "דיאטה",
-	"headword": {
-		"text": "דִּיאֵטָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיאֵטָה",
+	"headwords": [
+		{
+			"text": "דִּיאֵטָה"
+		},
 		{
 			"text": "דִּיאֵטוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 294,
 		"column": "a"

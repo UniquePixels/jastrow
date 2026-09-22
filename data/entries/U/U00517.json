@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00517",
-	"slug": "שוצינא",
-	"headword": {
-		"text": "שׁוּצִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּצִינָא",
+	"headwords": [
+		{
+			"text": "שׁוּצִינָא"
+		},
 		{
 			"text": "שׁוּצָנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1540,
 		"column": "b"

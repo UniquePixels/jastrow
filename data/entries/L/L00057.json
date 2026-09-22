@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00057",
-	"slug": "לבוצין",
-	"headword": {
-		"text": "לבוצין"
-	},
+	"sefariaHeadword": "לבוצין",
+	"headwords": [
+		{
+			"text": "לבוצין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "a"

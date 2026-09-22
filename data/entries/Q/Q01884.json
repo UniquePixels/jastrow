@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01884",
-	"slug": "פרנדסין",
-	"headword": {
-		"text": "פְּרַנְדְּסִין"
-	},
+	"sefariaHeadword": "פְּרַנְדְּסִין",
+	"headwords": [
+		{
+			"text": "פְּרַנְדְּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

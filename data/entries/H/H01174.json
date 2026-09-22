@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01174",
-	"slug": "חמידתא",
-	"headword": {
-		"text": "חֲמִידְתָּא"
-	},
+	"sefariaHeadword": "חֲמִידְתָּא",
+	"headwords": [
+		{
+			"text": "חֲמִידְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "a"

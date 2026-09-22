@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01139",
-	"slug": "שכח-3",
-	"headword": {
-		"text": "שְׁכַח",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שְׁכַח II",
+	"headwords": [
+		{
+			"text": "שְׁכַח",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1572,
 		"column": "b"

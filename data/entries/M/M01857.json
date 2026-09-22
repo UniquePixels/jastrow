@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01857",
-	"slug": "מסואה",
-	"headword": {
-		"text": "מַסּוּאָה"
-	},
+	"sefariaHeadword": "מַסּוּאָה",
+	"headwords": [
+		{
+			"text": "מַסּוּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01009",
-	"slug": "חלוקה-1",
-	"headword": {
-		"text": "חֲלוּקָּה"
-	},
+	"sefariaHeadword": "חֲלוּקָּה",
+	"headwords": [
+		{
+			"text": "חֲלוּקָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "a"

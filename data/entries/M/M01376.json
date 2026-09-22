@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01376",
-	"slug": "מכיך",
-	"headword": {
-		"text": "מַכִּיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַכִּיךְ",
+	"headwords": [
+		{
+			"text": "מַכִּיךְ"
+		},
 		{
 			"text": "מַכִּיכָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַכִּיכְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 782,
 		"column": "a"

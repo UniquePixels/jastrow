@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02075",
-	"slug": "פשיטותא",
-	"headword": {
-		"text": "פְּשִׁיטוּתָא"
-	},
+	"sefariaHeadword": "פְּשִׁיטוּתָא",
+	"headwords": [
+		{
+			"text": "פְּשִׁיטוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

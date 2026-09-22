@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00947",
-	"slug": "סל-1",
-	"headword": {
-		"text": "סֹל"
-	},
+	"sefariaHeadword": "סֹל",
+	"headwords": [
+		{
+			"text": "סֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01043",
-	"slug": "מטעמיתה",
-	"headword": {
-		"text": "מַטְעֲמִיתָה"
-	},
+	"sefariaHeadword": "מַטְעֲמִיתָה",
+	"headwords": [
+		{
+			"text": "מַטְעֲמִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 769,
 		"column": "a"

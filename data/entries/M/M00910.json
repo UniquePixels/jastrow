@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00910",
-	"slug": "מחסיא",
-	"headword": {
-		"text": "מְחַסְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחַסְיָא",
+	"headwords": [
 		{
-			"text": "מָתָא מְחַסְיָא"
+			"text": "מְחַסְיָא"
+		},
+		{
+			"text": "מָתָא מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 763,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

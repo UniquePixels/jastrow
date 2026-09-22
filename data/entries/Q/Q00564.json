@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00564",
-	"slug": "פטריס",
-	"headword": {
-		"text": "פטריס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פטריס",
+	"headwords": [
+		{
+			"text": "פטריס"
+		},
 		{
 			"text": "פטרוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1158,
 		"column": "b"

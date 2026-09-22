@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00298",
-	"slug": "לוע",
-	"headword": {
-		"text": "לוֹעַ"
-	},
+	"sefariaHeadword": "לוֹעַ",
+	"headwords": [
+		{
+			"text": "לוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

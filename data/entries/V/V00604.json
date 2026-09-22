@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00604",
-	"slug": "תלמוסין",
-	"headword": {
-		"text": "תלמוסין"
-	},
+	"sefariaHeadword": "תלמוסין",
+	"headwords": [
+		{
+			"text": "תלמוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

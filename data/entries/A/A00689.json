@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00689",
-	"slug": "אומד",
-	"headword": {
-		"text": "אוּמָד"
-	},
+	"sefariaHeadword": "אוּמָד",
+	"headwords": [
+		{
+			"text": "אוּמָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "b"

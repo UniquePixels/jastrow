@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01192",
-	"slug": "סנדרנא",
-	"headword": {
-		"text": "סנדרנא"
-	},
+	"sefariaHeadword": "סנדרנא",
+	"headwords": [
+		{
+			"text": "סנדרנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00829",
-	"slug": "עלע-1",
-	"headword": {
-		"text": "עָלַע"
-	},
+	"sefariaHeadword": "עָלַע",
+	"headwords": [
+		{
+			"text": "עָלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "a"

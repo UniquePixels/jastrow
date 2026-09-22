@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00091",
-	"slug": "דברתא-2",
-	"headword": {
-		"text": "דְּבַרְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דְּבַרְתָּא II",
+	"headwords": [
+		{
+			"text": "דְּבַרְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 279,
 		"column": "a"

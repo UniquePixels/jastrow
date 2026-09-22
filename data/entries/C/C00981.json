@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00981",
-	"slug": "גלפטרה",
-	"headword": {
-		"text": "גַּלְפָּטְרָה"
-	},
+	"sefariaHeadword": "גַּלְפָּטְרָה",
+	"headwords": [
+		{
+			"text": "גַּלְפָּטְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

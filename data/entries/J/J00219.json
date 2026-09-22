@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00219",
-	"slug": "יוסף",
-	"headword": {
-		"text": "יוֹסֵף"
-	},
+	"sefariaHeadword": "יוֹסֵף",
+	"headwords": [
+		{
+			"text": "יוֹסֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00560",
-	"slug": "אודיין",
-	"headword": {
-		"text": "אודיין"
-	},
+	"sefariaHeadword": "אודיין",
+	"headwords": [
+		{
+			"text": "אודיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

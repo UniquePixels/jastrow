@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02072",
-	"slug": "מעואי",
-	"headword": {
-		"text": "מְעַוְאַי"
-	},
+	"sefariaHeadword": "מְעַוְאַי",
+	"headwords": [
+		{
+			"text": "מְעַוְאַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00119",
-	"slug": "בדוי",
-	"headword": {
-		"text": "בָּדוּי"
-	},
+	"sefariaHeadword": "בָּדוּי",
+	"headwords": [
+		{
+			"text": "בָּדוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02920",
-	"slug": "אקלס",
-	"headword": {
-		"text": "אִקְּלַס"
-	},
+	"sefariaHeadword": "אִקְּלַס",
+	"headwords": [
+		{
+			"text": "אִקְּלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

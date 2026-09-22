@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01104",
-	"slug": "בצק",
-	"headword": {
-		"text": "בָּצֵק"
-	},
+	"sefariaHeadword": "בָּצֵק",
+	"headwords": [
+		{
+			"text": "בָּצֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 185,
 		"column": "a"

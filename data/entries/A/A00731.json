@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00731",
-	"slug": "אונוס-1",
-	"headword": {
-		"text": "אונוס"
-	},
+	"sefariaHeadword": "אונוס",
+	"headwords": [
+		{
+			"text": "אונוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

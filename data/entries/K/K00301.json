@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00301",
-	"slug": "כונדקא",
-	"headword": {
-		"text": "כונדקא"
-	},
+	"sefariaHeadword": "כונדקא",
+	"headwords": [
+		{
+			"text": "כונדקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

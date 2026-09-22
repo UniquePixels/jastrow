@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01462",
-	"slug": "סקופתא",
-	"headword": {
-		"text": "סְקוּפְתָּא"
-	},
+	"sefariaHeadword": "סְקוּפְתָּא",
+	"headwords": [
+		{
+			"text": "סְקוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

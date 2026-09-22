@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00275",
-	"slug": "טחר",
-	"headword": {
-		"text": "טְחַר"
-	},
+	"sefariaHeadword": "טְחַר",
+	"headwords": [
+		{
+			"text": "טְחַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

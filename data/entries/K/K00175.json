@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00175",
-	"slug": "כואה",
-	"headword": {
-		"text": "כְּוָאָה"
-	},
+	"sefariaHeadword": "כְּוָאָה",
+	"headwords": [
+		{
+			"text": "כְּוָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

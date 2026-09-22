@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02081",
-	"slug": "פשישנא",
-	"headword": {
-		"text": "פשישנא"
-	},
+	"sefariaHeadword": "פשישנא",
+	"headwords": [
+		{
+			"text": "פשישנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

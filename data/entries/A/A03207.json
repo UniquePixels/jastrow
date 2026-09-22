@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03207",
-	"slug": "ארנתא",
-	"headword": {
-		"text": "ארנתא"
-	},
+	"sefariaHeadword": "ארנתא",
+	"headwords": [
+		{
+			"text": "ארנתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

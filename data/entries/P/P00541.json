@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00541",
-	"slug": "עיטתא",
-	"headword": {
-		"text": "עֵיטְתָא"
-	},
+	"sefariaHeadword": "עֵיטְתָא",
+	"headwords": [
+		{
+			"text": "עֵיטְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

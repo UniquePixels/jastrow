@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01156",
-	"slug": "כריה",
-	"headword": {
-		"text": "כְּרִיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרִיָה",
+	"headwords": [
+		{
+			"text": "כְּרִיָה"
+		},
 		{
 			"text": "כְּרִיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 666,
 		"column": "b"

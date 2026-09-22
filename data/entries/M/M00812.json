@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00812",
-	"slug": "מחווא",
-	"headword": {
-		"text": "מַחְוָוא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מַחְוָוא",
+	"headwords": [
+		{
+			"text": "מַחְוָוא",
+			"reconstructed": true
+		},
 		{
 			"text": "מַחְוָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 757,
 		"column": "b"

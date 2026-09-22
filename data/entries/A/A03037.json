@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03037",
-	"slug": "ארוני",
-	"headword": {
-		"text": "אֲרוֹנֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲרוֹנֵי",
+	"headwords": [
+		{
+			"text": "אֲרוֹנֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "אֲרָאנֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 117,
 		"column": "a"

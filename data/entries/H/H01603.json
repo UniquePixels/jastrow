@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01603",
-	"slug": "חרדל",
-	"headword": {
-		"text": "חַרְדָּל"
-	},
+	"sefariaHeadword": "חַרְדָּל",
+	"headwords": [
+		{
+			"text": "חַרְדָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "a"

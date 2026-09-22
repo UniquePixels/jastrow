@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00345",
-	"slug": "בורגרות",
-	"headword": {
-		"text": "בּוּרְגָּרוּת"
-	},
+	"sefariaHeadword": "בּוּרְגָּרוּת",
+	"headwords": [
+		{
+			"text": "בּוּרְגָּרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

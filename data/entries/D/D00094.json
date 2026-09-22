@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00094",
-	"slug": "דבש-2",
-	"headword": {
-		"text": "דְּבַשׁ"
-	},
+	"sefariaHeadword": "דְּבַשׁ",
+	"headwords": [
+		{
+			"text": "דְּבַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "a"

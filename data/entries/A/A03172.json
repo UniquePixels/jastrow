@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03172",
-	"slug": "ארמון-3",
-	"headword": {
-		"text": "אַרְמוֹן",
-		"homograph": 3
-	},
+	"sefariaHeadword": "אַרְמוֹן III",
+	"headwords": [
+		{
+			"text": "אַרְמוֹן",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 122,
 		"column": "b"

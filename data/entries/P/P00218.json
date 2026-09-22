@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00218",
-	"slug": "עוזא-1",
-	"headword": {
-		"text": "עִוּזָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִוּזָּא I",
+	"headwords": [
+		{
+			"text": "עִוּזָּא",
+			"homograph": 1
+		},
 		{
 			"text": "עֻזָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1049,
 		"column": "a"

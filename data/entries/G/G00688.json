@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "G00688",
-	"slug": "זרז-4",
-	"headword": {
-		"text": "זְרַז",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְרַז II",
+	"headwords": [
+		{
+			"text": "זְרַז",
+			"homograph": 2
+		},
 		{
 			"text": "זַרְזָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "זָרִיז"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 412,
 		"column": "b"

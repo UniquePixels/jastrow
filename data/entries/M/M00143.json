@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00143",
-	"slug": "מגורת",
-	"headword": {
-		"text": "מְגוֹרֶת"
-	},
+	"sefariaHeadword": "מְגוֹרֶת",
+	"headwords": [
+		{
+			"text": "מְגוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

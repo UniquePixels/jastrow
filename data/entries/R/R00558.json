@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00558",
-	"slug": "צמד-1",
-	"headword": {
-		"text": "צָמַד"
-	},
+	"sefariaHeadword": "צָמַד",
+	"headwords": [
+		{
+			"text": "צָמַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "b"

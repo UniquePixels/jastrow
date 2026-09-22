@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00286",
-	"slug": "אגחותא",
-	"headword": {
-		"text": "אַגָּחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגָּחוּתָא",
+	"headwords": [
+		{
+			"text": "אַגָּחוּתָא"
+		},
 		{
 			"text": "אָגָחוּתָא"
 		},
 		{
-			"text": "אֲגִיח׳"
+			"text": "אֲגִיח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 12,
 		"column": "a"

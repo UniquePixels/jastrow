@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02671",
-	"slug": "מרים",
-	"headword": {
-		"text": "מִרְיָם"
-	},
+	"sefariaHeadword": "מִרְיָם",
+	"headwords": [
+		{
+			"text": "מִרְיָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

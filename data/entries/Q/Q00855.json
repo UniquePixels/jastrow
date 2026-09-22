@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00855",
-	"slug": "פירטתא-2",
-	"headword": {
-		"text": "פִּירְטְתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פִּירְטְתָא II",
+	"headwords": [
+		{
+			"text": "פִּירְטְתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1171,
 		"column": "b"

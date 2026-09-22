@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00160",
-	"slug": "בדר-2",
-	"headword": {
-		"text": "בְּדַר"
-	},
+	"sefariaHeadword": "בְּדַר",
+	"headwords": [
+		{
+			"text": "בְּדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00473",
-	"slug": "בחורא",
-	"headword": {
-		"text": "בחורא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בחורא",
+	"headwords": [
+		{
+			"text": "בחורא"
+		},
 		{
 			"text": "בחורין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 155,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00360",
-	"slug": "היי",
-	"headword": {
-		"text": "הַיי"
-	},
+	"sefariaHeadword": "הַיי",
+	"headwords": [
+		{
+			"text": "הַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "a"

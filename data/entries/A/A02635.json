@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02635",
-	"slug": "אפופיירות",
-	"headword": {
-		"text": "אפופיירות"
-	},
+	"sefariaHeadword": "אפופיירות",
+	"headwords": [
+		{
+			"text": "אפופיירות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

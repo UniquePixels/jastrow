@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00602",
-	"slug": "ריגלותא",
-	"headword": {
-		"text": "ריגלותא"
-	},
+	"sefariaHeadword": "ריגלותא",
+	"headwords": [
+		{
+			"text": "ריגלותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

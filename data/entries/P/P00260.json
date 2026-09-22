@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00260",
-	"slug": "עוליתא",
-	"headword": {
-		"text": "עוּלְיָתָא"
-	},
+	"sefariaHeadword": "עוּלְיָתָא",
+	"headwords": [
+		{
+			"text": "עוּלְיָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1051,
 		"column": "b"

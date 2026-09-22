@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00920",
-	"slug": "עמק-4",
-	"headword": {
-		"text": "עֵמֶק"
-	},
+	"sefariaHeadword": "עֵמֶק",
+	"headwords": [
+		{
+			"text": "עֵמֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "a"

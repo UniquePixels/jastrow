@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00101",
-	"slug": "טהר-1",
-	"headword": {
-		"text": "טָהֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָהֵר",
+	"headwords": [
+		{
+			"text": "טָהֵר"
+		},
 		{
 			"text": "טָהַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 520,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00654",
-	"slug": "מוריש",
-	"headword": {
-		"text": "מוֹרִישׁ"
-	},
+	"sefariaHeadword": "מוֹרִישׁ",
+	"headwords": [
+		{
+			"text": "מוֹרִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

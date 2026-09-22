@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00690",
-	"slug": "מות-1",
-	"headword": {
-		"text": "מוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹת",
+	"headwords": [
+		{
+			"text": "מוֹת"
+		},
 		{
 			"text": "מוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 751,
 		"column": "b"

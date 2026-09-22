@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00060",
-	"slug": "חביונה",
-	"headword": {
-		"text": "חֶבְיוֹנָה"
-	},
+	"sefariaHeadword": "חֶבְיוֹנָה",
+	"headwords": [
+		{
+			"text": "חֶבְיוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

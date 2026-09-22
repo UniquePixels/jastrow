@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00516",
-	"slug": "או-2",
-	"headword": {
-		"text": "אוֹ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוֹ I",
+	"headwords": [
+		{
+			"text": "אוֹ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 20,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00085",
-	"slug": "וורדאן",
-	"headword": {
-		"text": "וַורְדָּאן"
-	},
+	"sefariaHeadword": "וַורְדָּאן",
+	"headwords": [
+		{
+			"text": "וַורְדָּאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "b"

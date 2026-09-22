@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00095",
-	"slug": "זהיינא",
-	"headword": {
-		"text": "זַהֲיָינָא"
-	},
+	"sefariaHeadword": "זַהֲיָינָא",
+	"headwords": [
+		{
+			"text": "זַהֲיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

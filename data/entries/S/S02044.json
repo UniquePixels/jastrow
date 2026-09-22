@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02044",
-	"slug": "קריוסי",
-	"headword": {
-		"text": "קִרְיוֹסִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְיוֹסִי",
+	"headwords": [
+		{
+			"text": "קִרְיוֹסִי"
+		},
 		{
 			"text": "קִרְיוֹסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1420,
 		"column": "a"

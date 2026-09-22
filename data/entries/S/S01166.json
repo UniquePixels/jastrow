@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01166",
-	"slug": "קירום",
-	"headword": {
-		"text": "קירום"
-	},
+	"sefariaHeadword": "קירום",
+	"headwords": [
+		{
+			"text": "קירום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02065",
-	"slug": "קרינון",
-	"headword": {
-		"text": "קְרִינוֹן"
-	},
+	"sefariaHeadword": "קְרִינוֹן",
+	"headwords": [
+		{
+			"text": "קְרִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

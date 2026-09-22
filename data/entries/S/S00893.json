@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00893",
-	"slug": "קיטבלאות",
-	"headword": {
-		"text": "קיטבלאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קיטבלאות",
+	"headwords": [
+		{
+			"text": "קיטבלאות"
+		},
 		{
 			"text": "קיטבליא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1357,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01672",
-	"slug": "אכוז",
-	"headword": {
-		"text": "אָכוּז",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָכוּז",
+	"headwords": [
+		{
+			"text": "אָכוּז",
+			"reconstructed": true
+		},
 		{
 			"text": "עָכוּז"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "a"

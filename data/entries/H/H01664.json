@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01664",
-	"slug": "חרטום-2",
-	"headword": {
-		"text": "חַרְטוֹם"
-	},
+	"sefariaHeadword": "חַרְטוֹם",
+	"headwords": [
+		{
+			"text": "חַרְטוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "b"

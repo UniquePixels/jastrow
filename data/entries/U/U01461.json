@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01461",
-	"slug": "שמי-2",
-	"headword": {
-		"text": "שְׁמֵי"
-	},
+	"sefariaHeadword": "שְׁמֵי",
+	"headwords": [
+		{
+			"text": "שְׁמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

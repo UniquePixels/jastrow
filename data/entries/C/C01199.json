@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01199",
-	"slug": "גפה-1",
-	"headword": {
-		"text": "גַּפָּה"
-	},
+	"sefariaHeadword": "גַּפָּה",
+	"headwords": [
+		{
+			"text": "גַּפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "a"

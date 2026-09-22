@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00667",
-	"slug": "תמורה",
-	"headword": {
-		"text": "תְּמוּרָה"
-	},
+	"sefariaHeadword": "תְּמוּרָה",
+	"headwords": [
+		{
+			"text": "תְּמוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

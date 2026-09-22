@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00579",
-	"slug": "ריאה",
-	"headword": {
-		"text": "רֵיאָה"
-	},
+	"sefariaHeadword": "רֵיאָה",
+	"headwords": [
+		{
+			"text": "רֵיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "a"

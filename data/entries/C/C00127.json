@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00127",
-	"slug": "גבעתא",
-	"headword": {
-		"text": "גִּבְעֲתָא"
-	},
+	"sefariaHeadword": "גִּבְעֲתָא",
+	"headwords": [
+		{
+			"text": "גִּבְעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

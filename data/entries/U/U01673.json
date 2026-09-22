@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01673",
-	"slug": "שעממותא",
-	"headword": {
-		"text": "שַׁעֲמָמוּתָא"
-	},
+	"sefariaHeadword": "שַׁעֲמָמוּתָא",
+	"headwords": [
+		{
+			"text": "שַׁעֲמָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1611,
 		"column": "b"

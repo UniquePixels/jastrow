@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00344",
-	"slug": "שווח-2",
-	"headword": {
-		"text": "שְׁוַוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוַוח",
+	"headwords": [
+		{
+			"text": "שְׁוַוח"
+		},
 		{
 			"text": "שְׁוַח"
 		},

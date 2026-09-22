@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00878",
-	"slug": "בליקוס",
-	"headword": {
-		"text": "בליקוס"
-	},
+	"sefariaHeadword": "בליקוס",
+	"headwords": [
+		{
+			"text": "בליקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

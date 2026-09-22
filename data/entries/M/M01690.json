@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01690",
-	"slug": "ממתו״ס",
-	"headword": {
-		"text": "ממתו״ס"
-	},
+	"sefariaHeadword": "ממתו\"ס",
+	"headwords": [
+		{
+			"text": "ממתו״ס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "a"

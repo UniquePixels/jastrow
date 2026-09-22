@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00185",
-	"slug": "טונא-1",
-	"headword": {
-		"text": "טוּנָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוּנָא I",
+	"headwords": [
+		{
+			"text": "טוּנָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 524,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00070",
-	"slug": "קבלה-2",
-	"headword": {
-		"text": "קַבָּלָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַבָּלָה I",
+	"headwords": [
+		{
+			"text": "קַבָּלָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1310,
 		"column": "a"

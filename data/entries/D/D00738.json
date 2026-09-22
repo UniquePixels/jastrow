@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00738",
-	"slug": "דיש-2",
-	"headword": {
-		"text": "דַּיִשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיִשׁ ²",
+	"headwords": [
+		{
+			"text": "דַּיִשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "דְּיָשָׁא"
 		},
@@ -13,6 +14,7 @@
 			"text": "דַּיִישׁ"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 306,
 		"column": "a"

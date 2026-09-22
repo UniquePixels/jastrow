@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00149",
-	"slug": "פהק",
-	"headword": {
-		"text": "פָּהַק"
-	},
+	"sefariaHeadword": "פָּהַק",
+	"headwords": [
+		{
+			"text": "פָּהַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "b"

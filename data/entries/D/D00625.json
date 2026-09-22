@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00625",
-	"slug": "דימוסיות",
-	"headword": {
-		"text": "דִּימוֹסִיּוֹת"
-	},
+	"sefariaHeadword": "דִּימוֹסִיּוֹת",
+	"headwords": [
+		{
+			"text": "דִּימוֹסִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "b"

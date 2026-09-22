@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01813",
-	"slug": "קציין",
-	"headword": {
-		"text": "קַצְיָין"
-	},
+	"sefariaHeadword": "קַצְיָין",
+	"headwords": [
+		{
+			"text": "קַצְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "b"

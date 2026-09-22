@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00039",
-	"slug": "כבויא",
-	"headword": {
-		"text": "כְּבוּיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּבוּיָא",
+	"headwords": [
+		{
+			"text": "כְּבוּיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

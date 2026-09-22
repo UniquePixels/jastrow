@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01387",
-	"slug": "בתולתא-2",
-	"headword": {
-		"text": "בְּתוּלְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בְּתוּלְתָּא II",
+	"headwords": [
+		{
+			"text": "בְּתוּלְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 200,
 		"column": "b"

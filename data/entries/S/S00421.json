@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00421",
-	"slug": "קונדיריקון",
-	"headword": {
-		"text": "קונדיריקון"
-	},
+	"sefariaHeadword": "קונדיריקון",
+	"headwords": [
+		{
+			"text": "קונדיריקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

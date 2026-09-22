@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00552",
-	"slug": "גזירא",
-	"headword": {
-		"text": "גְּזֵירָא"
-	},
+	"sefariaHeadword": "גְּזֵירָא",
+	"headwords": [
+		{
+			"text": "גְּזֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

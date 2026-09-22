@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00294",
-	"slug": "ציבוותא",
-	"headword": {
-		"text": "צִיבְוָותָא"
-	},
+	"sefariaHeadword": "צִיבְוָותָא",
+	"headwords": [
+		{
+			"text": "צִיבְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "a"

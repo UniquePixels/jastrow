@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00652",
-	"slug": "גיהיא",
-	"headword": {
-		"text": "גִּיהְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיהְיָא",
+	"headwords": [
+		{
+			"text": "גִּיהְיָא"
+		},
 		{
 			"text": "גִּיחְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "a"

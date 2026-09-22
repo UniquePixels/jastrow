@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00126",
-	"slug": "עדוי",
-	"headword": {
-		"text": "עִדּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִדּוּי",
+	"headwords": [
+		{
+			"text": "עִדּוּי"
+		},
 		{
 			"text": "עִדּוּן"
 		},
@@ -15,6 +16,7 @@
 			"text": "עִדּוּר"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1043,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01966",
-	"slug": "פרפריין",
-	"headword": {
-		"text": "פַּרְפַּרְיָין"
-	},
+	"sefariaHeadword": "פַּרְפַּרְיָין",
+	"headwords": [
+		{
+			"text": "פַּרְפַּרְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1237,
 		"column": "a"

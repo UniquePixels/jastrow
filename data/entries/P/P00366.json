@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00366",
-	"slug": "עושינא",
-	"headword": {
-		"text": "עושינא"
-	},
+	"sefariaHeadword": "עושינא",
+	"headwords": [
+		{
+			"text": "עושינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

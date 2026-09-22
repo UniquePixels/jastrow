@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01124",
-	"slug": "עצל-3",
-	"headword": {
-		"text": "עָצֵל"
-	},
+	"sefariaHeadword": "עָצֵל",
+	"headwords": [
+		{
+			"text": "עָצֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "b"

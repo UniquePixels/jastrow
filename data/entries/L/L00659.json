@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00659",
-	"slug": "לץ-2",
-	"headword": {
-		"text": "לֵץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵץ",
+	"headwords": [
+		{
+			"text": "לֵץ"
+		},
 		{
 			"text": "לֵיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 716,
 		"column": "b"

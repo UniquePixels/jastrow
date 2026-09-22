@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01025",
-	"slug": "חלטנית",
-	"headword": {
-		"text": "חַלְטָנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַלְטָנִית",
+	"headwords": [
 		{
-			"text": "חוּלְ׳"
+			"text": "חַלְטָנִית"
+		},
+		{
+			"text": "חוּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 467,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00892",
-	"slug": "נמרה",
-	"headword": {
-		"text": "נִמְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִמְרָה",
+	"headwords": [
 		{
-			"text": "בֵּית נִמְרָה"
+			"text": "נִמְרָה"
+		},
+		{
+			"text": "בֵּית נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 914,
 		"column": "a"

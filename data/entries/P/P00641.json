@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00641",
-	"slug": "עיפושא",
-	"headword": {
-		"text": "עִיפּוּשָׁא"
-	},
+	"sefariaHeadword": "עִיפּוּשָׁא",
+	"headwords": [
+		{
+			"text": "עִיפּוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1073,
 		"column": "b"

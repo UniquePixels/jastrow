@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00658",
-	"slug": "ירקא",
-	"headword": {
-		"text": "יַרְקָא"
-	},
+	"sefariaHeadword": "יַרְקָא",
+	"headwords": [
+		{
+			"text": "יַרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "a"

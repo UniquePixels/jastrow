@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00114",
-	"slug": "כדום-1",
-	"headword": {
-		"text": "כַּדּוּם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּדּוּם",
+	"headwords": [
+		{
+			"text": "כַּדּוּם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 612,
 		"column": "b"

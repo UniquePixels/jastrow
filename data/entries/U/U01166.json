@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01166",
-	"slug": "שכלל-1",
-	"headword": {
-		"text": "שִׁכְלֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכְלֵל",
+	"headwords": [
 		{
-			"text": "שִׁיכְ׳"
+			"text": "שִׁכְלֵל"
+		},
+		{
+			"text": "שִׁיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1574,
 		"column": "b"

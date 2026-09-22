@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01633",
-	"slug": "חרופה-2",
-	"headword": {
-		"text": "חֲרוּפָה"
-	},
+	"sefariaHeadword": "חֲרוּפָה",
+	"headwords": [
+		{
+			"text": "חֲרוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "a"

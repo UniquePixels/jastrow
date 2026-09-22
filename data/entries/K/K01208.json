@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01208",
-	"slug": "כרכם",
-	"headword": {
-		"text": "כִּרְכִּם"
-	},
+	"sefariaHeadword": "כִּרְכִּם",
+	"headwords": [
+		{
+			"text": "כִּרְכִּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00874",
-	"slug": "רעבון",
-	"headword": {
-		"text": "רְעָבוֹן"
-	},
+	"sefariaHeadword": "רְעָבוֹן",
+	"headwords": [
+		{
+			"text": "רְעָבוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "b"

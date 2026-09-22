@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00247",
-	"slug": "לוי-1",
-	"headword": {
-		"text": "לוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוי",
+	"headwords": [
+		{
+			"text": "לוי"
+		},
 		{
 			"text": "לָוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 697,
 		"column": "a"
@@ -27,10 +29,10 @@
 			"gloss": " (cmp. Sm. Ant. s. v. Nexum) <i>to assume an obligation; to borrow</i>. ",
 			"units": [
 				"<cite ref=\"Shevuot 41b\">Shebu. 41ᵇ</cite>; <cite ref=\"Ketubot 88a:10\">Keth. 88ᵃ</cite>; <cite ref=\"Bava Batra 6a:6\">B. Bath. 6ᵃ</cite> <he>האומר לא לָוִיתִי וכ׳</he> he who (being sued for a loan duly testified by witnesses) says, ‘I have not contracted any loan’, is considered as admitting that he has not paid. ",
-				"<cite ref=\"Chullin 84a:22\">Ḥull. 84ᵃ</cite> <he>כגון אנו לווִֹין אוכלין</he> (delicate persons) like ourselves may buy food on credit. ",
-				"<cite ref=\"Bava Metzia 72b:15\">B. Mets. 72ᵇ</cite> <he>אין לווִֹין על שער וכ׳</he> (also <he>לוִֹין</he>) you must not borrow money with the choice of repaying in grain at the present price; (another defin., v. Rashi a. l.). ",
-				"<cite ref=\"Beitzah 15b:18\">Bets. 15ᵇ</cite> <he>לְווּ עלי</he> make a loan on my (the Lord’s) account; a. v. fr.—Esp. <cite ref=\"L00247\"><he>לווֶֹה</he></cite>, <he>לוֶֹה</he> <i>debtor</i>, opp. to <cite ref=\"M01499\"><he>מַלְוֶה</he></cite> creditor. ",
-				"<cite ref=\"Shevuot 47a:7\">Shebu. 47ᵃ</cite> <he>מת ל׳ בחיי מ׳</he> if the debtor died before the creditor; a. fr.—Pl. <he>לווִֹין</he>. ",
+				"<cite ref=\"Chullin 84a:22\">Ḥull. 84ᵃ</cite> <he>כגון אנו לווִֹין אוכלין</he> (delicate persons) like ourselves may buy food on credit. ",
+				"<cite ref=\"Bava Metzia 72b:15\">B. Mets. 72ᵇ</cite> <he>אין לווִֹין על שער וכ׳</he> (also <he>לוִֹין</he>) you must not borrow money with the choice of repaying in grain at the present price; (another defin., v. Rashi a. l.). ",
+				"<cite ref=\"Beitzah 15b:18\">Bets. 15ᵇ</cite> <he>לְווּ עלי</he> make a loan on my (the Lord’s) account; a. v. fr.—Esp. <cite ref=\"L00247\"><he>לווֶֹה</he></cite>, <he>לוֶֹה</he> <i>debtor</i>, opp. to <cite ref=\"M01499\"><he>מַלְוֶה</he></cite> creditor. ",
+				"<cite ref=\"Shevuot 47a:7\">Shebu. 47ᵃ</cite> <he>מת ל׳ בחיי מ׳</he> if the debtor died before the creditor; a. fr.—Pl. <he>לווִֹין</he>. ",
 				"<cite ref=\"Shevuot 47b:11\">Ib.ᵇ</cite> <he>שני מלווין ושני ל׳</he> two (different) creditors and two debtors."
 			],
 			"label": "2"

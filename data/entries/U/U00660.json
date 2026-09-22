@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "U00660",
-	"slug": "שחל-1",
-	"headword": {
-		"text": "שָׁחַל",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*שָׁחַל I",
+	"headwords": [
+		{
+			"text": "שָׁחַל",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1548,
 		"column": "a"

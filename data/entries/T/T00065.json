@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "T00065",
-	"slug": "רבוא-2",
-	"headword": {
-		"text": "רִבּוֹא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבּוֹא ²",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִבּוֹא",
+			"disambiguator": 2
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1440,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01146",
-	"slug": "סמריטין",
-	"headword": {
-		"text": "סמריטין"
-	},
+	"sefariaHeadword": "סמריטין",
+	"headwords": [
+		{
+			"text": "סמריטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

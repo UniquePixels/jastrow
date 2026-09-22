@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00061",
-	"slug": "טביתה",
-	"headword": {
-		"text": "טָבִיתָה"
-	},
+	"sefariaHeadword": "טָבִיתָה",
+	"headwords": [
+		{
+			"text": "טָבִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 517,
 		"column": "a"

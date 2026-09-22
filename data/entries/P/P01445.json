@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01445",
-	"slug": "ערקא",
-	"headword": {
-		"text": "עַרְקָא"
-	},
+	"sefariaHeadword": "עַרְקָא",
+	"headwords": [
+		{
+			"text": "עַרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "a"

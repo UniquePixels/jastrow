@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00657",
-	"slug": "תמווין",
-	"headword": {
-		"text": "תַּמְוִוין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּמְוִוין",
+	"headwords": [
+		{
+			"text": "תַּמְוִוין"
+		},
 		{
 			"text": "תַּמְוָון"
 		},
@@ -12,6 +13,7 @@
 			"text": "תַּמְוָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1675,
 		"column": "b"

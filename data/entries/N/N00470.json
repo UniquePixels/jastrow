@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00470",
-	"slug": "נחבי",
-	"headword": {
-		"text": "נַחְבִּי"
-	},
+	"sefariaHeadword": "נַחְבִּי",
+	"headwords": [
+		{
+			"text": "נַחְבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 893,
 		"column": "b"

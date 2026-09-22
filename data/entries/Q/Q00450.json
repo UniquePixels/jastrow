@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00450",
-	"slug": "פחדין",
-	"headword": {
-		"text": "פַּחְדִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּחְדִּין",
+	"headwords": [
 		{
-			"text": "פַּחֲדִ׳"
+			"text": "פַּחְדִּין"
+		},
+		{
+			"text": "פַּחֲדִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1151,
 		"column": "b"

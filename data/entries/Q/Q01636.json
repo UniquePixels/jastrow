@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01636",
-	"slug": "פרוון",
-	"headword": {
-		"text": "פַּרְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוָון",
+	"headwords": [
+		{
+			"text": "פַּרְוָון"
+		},
 		{
 			"text": "פַּרְוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00805",
-	"slug": "רמח-1",
-	"headword": {
-		"text": "רמח"
-	},
+	"sefariaHeadword": "רמח",
+	"headwords": [
+		{
+			"text": "רמח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1482,
 		"column": "a"

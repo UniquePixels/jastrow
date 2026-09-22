@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00300",
-	"slug": "דונה",
-	"headword": {
-		"text": "דונה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דונה",
+	"headwords": [
+		{
+			"text": "דונה"
+		},
 		{
 			"text": "דונה טיבה"
 		},
@@ -12,6 +13,7 @@
 			"text": "דונהטיבה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 286,
 		"column": "b"

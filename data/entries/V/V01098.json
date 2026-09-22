@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01098",
-	"slug": "תשמיש-2",
-	"headword": {
-		"text": "תַּשְׁמִישׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּשְׁמִישׁ ²",
+	"headwords": [
+		{
+			"text": "תַּשְׁמִישׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּשְׁמִישָׁא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1704,
 		"column": "b"

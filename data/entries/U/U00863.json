@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00863",
-	"slug": "שיחון",
-	"headword": {
-		"text": "שיחון"
-	},
+	"sefariaHeadword": "שיחון",
+	"headwords": [
+		{
+			"text": "שיחון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

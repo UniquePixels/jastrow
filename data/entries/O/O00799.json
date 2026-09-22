@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00799",
-	"slug": "סיפנים",
-	"headword": {
-		"text": "סַיְפָנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיְפָנִים",
+	"headwords": [
+		{
+			"text": "סַיְפָנִים"
+		},
 		{
 			"text": "סֵיפָנִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 985,
 		"column": "b"

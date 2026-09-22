@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00306",
-	"slug": "גודאות",
-	"headword": {
-		"text": "גודאות"
-	},
+	"sefariaHeadword": "גודאות",
+	"headwords": [
+		{
+			"text": "גודאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

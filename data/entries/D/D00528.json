@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00528",
-	"slug": "דיופלא",
-	"headword": {
-		"text": "דְּיוּפְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיוּפְּלָא",
+	"headwords": [
+		{
+			"text": "דְּיוּפְּלָא"
+		},
 		{
 			"text": "דְּיוּפְּלֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "a"

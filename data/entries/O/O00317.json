@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00317",
-	"slug": "סוליים",
-	"headword": {
-		"text": "סוליים"
-	},
+	"sefariaHeadword": "סוליים",
+	"headwords": [
+		{
+			"text": "סוליים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "b"

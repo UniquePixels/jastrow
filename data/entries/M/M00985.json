@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00985",
-	"slug": "מטונך",
-	"headword": {
-		"text": "מִטּוּנָךְ"
-	},
+	"sefariaHeadword": "מִטּוּנָךְ",
+	"headwords": [
+		{
+			"text": "מִטּוּנָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "b"

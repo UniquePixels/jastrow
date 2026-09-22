@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00858",
-	"slug": "טרעפיקא",
-	"headword": {
-		"text": "טְרַעְפִּיקָא"
-	},
+	"sefariaHeadword": "טְרַעְפִּיקָא",
+	"headwords": [
+		{
+			"text": "טְרַעְפִּיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

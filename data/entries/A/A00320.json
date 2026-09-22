@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00320",
-	"slug": "אגנטין",
-	"headword": {
-		"text": "אגנטין"
-	},
+	"sefariaHeadword": "אגנטין",
+	"headwords": [
+		{
+			"text": "אגנטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "a"

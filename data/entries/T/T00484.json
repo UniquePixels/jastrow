@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00484",
-	"slug": "רחומי",
-	"headword": {
-		"text": "רְחוּמִי"
-	},
+	"sefariaHeadword": "רְחוּמִי",
+	"headwords": [
+		{
+			"text": "רְחוּמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

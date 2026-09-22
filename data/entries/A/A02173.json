@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02173",
-	"slug": "אנטיגנוס",
-	"headword": {
-		"text": "אַנְטִיגְנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְטִיגְנוֹס",
+	"headwords": [
+		{
+			"text": "אַנְטִיגְנוֹס"
+		},
 		{
 			"text": "אַנְטִיגְנָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 83,
 		"column": "a"
@@ -18,7 +20,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "pr. n. m. (Ἀντίγονος) <i>Antigonus</i>, ",
+			"gloss": "pr. n. m. (Ἀντίγονος) <i>Antigonus</i>, ",
 			"units": []
 		},
 		{

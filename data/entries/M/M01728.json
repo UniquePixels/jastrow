@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01728",
-	"slug": "מנהגא",
-	"headword": {
-		"text": "מִנְהָגָא"
-	},
+	"sefariaHeadword": "מִנְהָגָא",
+	"headwords": [
+		{
+			"text": "מִנְהָגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "a"

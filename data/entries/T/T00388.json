@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00388",
-	"slug": "רומי-1",
-	"headword": {
-		"text": "רוֹמִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוֹמִי I",
+	"headwords": [
+		{
+			"text": "רוֹמִי",
+			"homograph": 1
+		},
 		{
 			"text": "רוֹמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1461,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

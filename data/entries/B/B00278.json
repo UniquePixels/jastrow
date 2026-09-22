@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00278",
-	"slug": "בולשפטי",
-	"headword": {
-		"text": "בולשפטי"
-	},
+	"sefariaHeadword": "בולשפטי",
+	"headwords": [
+		{
+			"text": "בולשפטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

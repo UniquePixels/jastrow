@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00596",
-	"slug": "טעון-1",
-	"headword": {
-		"text": "טְעוּן"
-	},
+	"sefariaHeadword": "טְעוּן",
+	"headwords": [
+		{
+			"text": "טְעוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "a"

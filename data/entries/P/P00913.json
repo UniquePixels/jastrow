@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00913",
-	"slug": "עמעום",
-	"headword": {
-		"text": "עִמְעוּם"
-	},
+	"sefariaHeadword": "עִמְעוּם",
+	"headwords": [
+		{
+			"text": "עִמְעוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "a"

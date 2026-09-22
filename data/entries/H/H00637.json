@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00637",
-	"slug": "חטם",
-	"headword": {
-		"text": "חֲטָם"
-	},
+	"sefariaHeadword": "חֲטָם",
+	"headwords": [
+		{
+			"text": "חֲטָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "a"

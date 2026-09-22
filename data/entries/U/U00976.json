@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "U00976",
-	"slug": "שינוקא",
-	"headword": {
-		"text": "שִׁינּוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁינּוּקָא",
+	"headwords": [
 		{
-			"text": "שִׁנּ׳"
+			"text": "שִׁינּוּקָא"
 		},
 		{
-			"text": "שִׁירְנ׳"
+			"text": "שִׁנּ׳",
+			"partial": true
 		},
 		{
-			"text": "שִׁרְנ׳"
+			"text": "שִׁירְנ׳",
+			"partial": true
+		},
+		{
+			"text": "שִׁרְנ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1564,
 		"column": "b"

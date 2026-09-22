@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02681",
-	"slug": "מריקה",
-	"headword": {
-		"text": "מְרִיקָה"
-	},
+	"sefariaHeadword": "מְרִיקָה",
+	"headwords": [
+		{
+			"text": "מְרִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

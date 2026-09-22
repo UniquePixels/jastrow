@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02905",
-	"slug": "אקורפיטא",
-	"headword": {
-		"text": "אקורפיטא"
-	},
+	"sefariaHeadword": "אקורפיטא",
+	"headwords": [
+		{
+			"text": "אקורפיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

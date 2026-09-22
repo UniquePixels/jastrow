@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "I00212",
-	"slug": "טופת",
-	"headword": {
-		"text": "טוֹפֶת",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טוֹפֶת",
+	"headwords": [
 		{
-			"text": "בקעת בית טוֹפֶת"
+			"text": "טוֹפֶת",
+			"reconstructed": true
+		},
+		{
+			"text": "בקעת בית ט׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 526,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00721",
-	"slug": "טרודא",
-	"headword": {
-		"text": "טָרוֹדָא"
-	},
+	"sefariaHeadword": "טָרוֹדָא",
+	"headwords": [
+		{
+			"text": "טָרוֹדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "b"

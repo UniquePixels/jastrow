@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01012",
-	"slug": "ענקוקלות",
-	"headword": {
-		"text": "עַנְקוֹקְלוֹת"
-	},
+	"sefariaHeadword": "עַנְקוֹקְלוֹת",
+	"headwords": [
+		{
+			"text": "עַנְקוֹקְלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00171",
-	"slug": "אבמכוס",
-	"headword": {
-		"text": "אֶבְמָכוֹס"
-	},
+	"sefariaHeadword": "אֶבְמָכוֹס",
+	"headwords": [
+		{
+			"text": "אֶבְמָכוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

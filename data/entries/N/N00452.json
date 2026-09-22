@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00452",
-	"slug": "נזירות",
-	"headword": {
-		"text": "נְזִירוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְזִירוּת",
+	"headwords": [
+		{
+			"text": "נְזִירוּת"
+		},
 		{
 			"text": "נְזִירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 891,
 		"column": "b"

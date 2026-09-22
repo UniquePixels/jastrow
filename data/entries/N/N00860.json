@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00860",
-	"slug": "נמוס-2",
-	"headword": {
-		"text": "נִמּוֹס"
-	},
+	"sefariaHeadword": "נִמּוֹס",
+	"headwords": [
+		{
+			"text": "נִמּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

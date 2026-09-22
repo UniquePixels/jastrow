@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01150",
-	"slug": "כרטיס",
-	"headword": {
-		"text": "כַּרְטֵיס"
-	},
+	"sefariaHeadword": "כַּרְטֵיס",
+	"headwords": [
+		{
+			"text": "כַּרְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 666,
 		"column": "a"

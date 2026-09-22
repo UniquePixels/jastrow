@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01671",
-	"slug": "פרוטטות",
-	"headword": {
-		"text": "פְּרוֹטְטוֹת"
-	},
+	"sefariaHeadword": "פְּרוֹטְטוֹת",
+	"headwords": [
+		{
+			"text": "פְּרוֹטְטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "b"

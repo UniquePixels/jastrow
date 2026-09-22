@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01204",
-	"slug": "קירקוסיי",
-	"headword": {
-		"text": "קירקוסיי"
-	},
+	"sefariaHeadword": "קירקוסיי",
+	"headwords": [
+		{
+			"text": "קירקוסיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "a"

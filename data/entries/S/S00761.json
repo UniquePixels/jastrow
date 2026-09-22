@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00761",
-	"slug": "קטיע",
-	"headword": {
-		"text": "קַטִּיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַטִּיעַ",
+	"headwords": [
+		{
+			"text": "קַטִּיעַ"
+		},
 		{
 			"text": "קַטִּיעָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַטִּיעֲתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1348,
 		"column": "b"

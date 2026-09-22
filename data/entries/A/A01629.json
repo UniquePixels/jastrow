@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01629",
-	"slug": "אישר-1",
-	"headword": {
-		"text": "אַיְשַׁר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיְשַׁר",
+	"headwords": [
+		{
+			"text": "אַיְשַׁר"
+		},
 		{
 			"text": "אַיְישַׁר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 61,
 		"column": "a"

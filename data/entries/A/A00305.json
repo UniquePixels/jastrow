@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00305",
-	"slug": "אגלפותא",
-	"headword": {
-		"text": "אַגְלָפוּתָא"
-	},
+	"sefariaHeadword": "אַגְלָפוּתָא",
+	"headwords": [
+		{
+			"text": "אַגְלָפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

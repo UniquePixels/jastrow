@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00432",
-	"slug": "פזמקי",
-	"headword": {
-		"text": "פַּזְמְקֵי"
-	},
+	"sefariaHeadword": "פַּזְמְקֵי",
+	"headwords": [
+		{
+			"text": "פַּזְמְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01283",
-	"slug": "חניטיא",
-	"headword": {
-		"text": "חֲנִיטַּיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנִיטַּיָּא",
+	"headwords": [
+		{
+			"text": "חֲנִיטַּיָּא"
+		},
 		{
 			"text": "חֲנִטַּיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 483,
 		"column": "a"

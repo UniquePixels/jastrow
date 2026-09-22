@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00617",
-	"slug": "לעיסה-1",
-	"headword": {
-		"text": "לְעִיסָה"
-	},
+	"sefariaHeadword": "לְעִיסָה",
+	"headwords": [
+		{
+			"text": "לְעִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

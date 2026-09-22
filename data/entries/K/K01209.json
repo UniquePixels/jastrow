@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01209",
-	"slug": "כרכמא",
-	"headword": {
-		"text": "כרכמא"
-	},
+	"sefariaHeadword": "כרכמא",
+	"headwords": [
+		{
+			"text": "כרכמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "a"

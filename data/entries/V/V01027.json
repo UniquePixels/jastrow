@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01027",
-	"slug": "תרס-2",
-	"headword": {
-		"text": "תְּרַס"
-	},
+	"sefariaHeadword": "תְּרַס",
+	"headwords": [
+		{
+			"text": "תְּרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1700,
 		"column": "b"
@@ -30,7 +34,7 @@
 			"label": "2"
 		},
 		{
-			"gloss": "<i>to put on armor</i>. Y. Kidd. III, 63ᵈ <he>והוה … מתרס כליו וכ׳</he> and R. Ḥ. put his armor on against (took up a debate with) &c.",
+			"gloss": "<i>to put on armor</i>. Y. Kidd. III, 63ᵈ <he>והוה … מתרס כליו וכ׳</he> and R. Ḥ. put his armor on against (took up a debate with) &c.",
 			"units": [],
 			"label": "3"
 		}

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01392",
-	"slug": "גרר-1",
-	"headword": {
-		"text": "גָּרַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גָּרַר I",
+	"headwords": [
+		{
+			"text": "גָּרַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 272,
 		"column": "a"

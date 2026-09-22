@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01656",
-	"slug": "פרוזג",
-	"headword": {
-		"text": "פְּרוֹזָג"
-	},
+	"sefariaHeadword": "פְּרוֹזָג",
+	"headwords": [
+		{
+			"text": "פְּרוֹזָג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

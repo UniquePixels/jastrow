@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00798",
-	"slug": "סיפלני",
-	"headword": {
-		"text": "סִיפְלָנִי"
-	},
+	"sefariaHeadword": "סִיפְלָנִי",
+	"headwords": [
+		{
+			"text": "סִיפְלָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

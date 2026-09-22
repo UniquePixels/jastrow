@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01626",
-	"slug": "סריקא-2",
-	"headword": {
-		"text": "סָרִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָרִיקָא",
+	"headwords": [
 		{
-			"text": "בִּירַת סָרִיקָא"
+			"text": "סָרִיקָא"
+		},
+		{
+			"text": "בִּירַת ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1027,
 		"column": "b"

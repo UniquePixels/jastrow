@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01141",
-	"slug": "גניי",
-	"headword": {
-		"text": "גְּנַיי"
-	},
+	"sefariaHeadword": "גְּנַיי",
+	"headwords": [
+		{
+			"text": "גְּנַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "b"

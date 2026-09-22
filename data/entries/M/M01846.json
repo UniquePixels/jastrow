@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01846",
-	"slug": "מסגירא",
-	"headword": {
-		"text": "מַסְגֵּירָא"
-	},
+	"sefariaHeadword": "מַסְגֵּירָא",
+	"headwords": [
+		{
+			"text": "מַסְגֵּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

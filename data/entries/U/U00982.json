@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00982",
-	"slug": "שינרא",
-	"headword": {
-		"text": "שִׁינָּרָא"
-	},
+	"sefariaHeadword": "שִׁינָּרָא",
+	"headwords": [
+		{
+			"text": "שִׁינָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

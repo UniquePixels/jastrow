@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "K00270",
-	"slug": "כוליא",
-	"headword": {
-		"text": "כּוֹלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹלְיָא",
+	"headwords": [
+		{
+			"text": "כּוֹלְיָא"
+		},
 		{
 			"text": "כּוֹלְיָיא"
 		},
 		{
-			"text": "כּוּל׳"
+			"text": "כּוּל׳",
+			"partial": true
 		},
 		{
-			"text": "כָּלְ׳"
+			"text": "כָּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2}, {3})",
 	"page": {
 		"number": 620,
 		"column": "a"

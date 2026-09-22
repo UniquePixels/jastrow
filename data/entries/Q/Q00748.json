@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00748",
-	"slug": "פיסול",
-	"headword": {
-		"text": "פִּיסּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסּוּל",
+	"headwords": [
 		{
-			"text": "פִּסּ׳"
+			"text": "פִּיסּוּל"
+		},
+		{
+			"text": "פִּסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1167,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00579",
-	"slug": "אוול",
-	"headword": {
-		"text": "אֲוַול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲוַול",
+	"headwords": [
+		{
+			"text": "אֲוַול"
+		},
 		{
 			"text": "אַוְולָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "a"

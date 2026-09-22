@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00548",
-	"slug": "כיליון",
-	"headword": {
-		"text": "כִּילְיוֹן"
-	},
+	"sefariaHeadword": "כִּילְיוֹן",
+	"headwords": [
+		{
+			"text": "כִּילְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

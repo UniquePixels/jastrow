@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00837",
-	"slug": "קטריגון",
-	"headword": {
-		"text": "קטריגון"
-	},
+	"sefariaHeadword": "קטריגון",
+	"headwords": [
+		{
+			"text": "קטריגון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1353,
 		"column": "b"

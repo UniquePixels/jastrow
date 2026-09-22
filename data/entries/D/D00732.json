@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00732",
-	"slug": "דירה-2",
-	"headword": {
-		"text": "דִּירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּירָה II",
+	"headwords": [
+		{
+			"text": "דִּירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 305,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00222",
-	"slug": "שגי-2",
-	"headword": {
-		"text": "שְׁגֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁגֵי",
+	"headwords": [
+		{
+			"text": "שְׁגֵי"
+		},
 		{
 			"text": "שְׁגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1521,
 		"column": "b"

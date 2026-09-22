@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00605",
-	"slug": "המיונס",
-	"headword": {
-		"text": "הֵמְיוֹנָס"
-	},
+	"sefariaHeadword": "הֵמְיוֹנָס",
+	"headwords": [
+		{
+			"text": "הֵמְיוֹנָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "a"

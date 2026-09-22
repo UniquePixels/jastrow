@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00594",
-	"slug": "פיהוק",
-	"headword": {
-		"text": "פִּיהוּק"
-	},
+	"sefariaHeadword": "פִּיהוּק",
+	"headwords": [
+		{
+			"text": "פִּיהוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00312",
-	"slug": "בוצית",
-	"headword": {
-		"text": "בּוּצִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּצִית",
+	"headwords": [
+		{
+			"text": "בּוּצִית"
+		},
 		{
 			"text": "בּוּצִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 148,
 		"column": "a"

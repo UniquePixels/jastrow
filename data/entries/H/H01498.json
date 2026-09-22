@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01498",
-	"slug": "חצד-2",
-	"headword": {
-		"text": "חֲצַד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲצַד I",
+	"headwords": [
+		{
+			"text": "חֲצַד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 494,
 		"column": "a"

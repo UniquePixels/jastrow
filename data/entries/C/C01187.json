@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01187",
-	"slug": "געייה",
-	"headword": {
-		"text": "גְּעִיָּיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּעִיָּיה",
+	"headwords": [
+		{
+			"text": "גְּעִיָּיה"
+		},
 		{
 			"text": "גְּעִיָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 261,
 		"column": "b"

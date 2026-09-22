@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00603",
-	"slug": "צן",
-	"headword": {
-		"text": "צַן"
-	},
+	"sefariaHeadword": "צַן",
+	"headwords": [
+		{
+			"text": "צַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1290,
 		"column": "a"

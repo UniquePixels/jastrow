@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02051",
-	"slug": "אמפורין",
-	"headword": {
-		"text": "אַמְפּוּרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַמְפּוּרִין",
+	"headwords": [
+		{
+			"text": "אַמְפּוּרִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אִמְפּוֹרִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 78,
 		"column": "a"

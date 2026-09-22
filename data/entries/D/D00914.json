@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00914",
-	"slug": "דמשק",
-	"headword": {
-		"text": "דַּמֶּשֶׂק"
-	},
+	"sefariaHeadword": "דַּמֶּשֶׂק",
+	"headwords": [
+		{
+			"text": "דַּמֶּשֶׂק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "b"

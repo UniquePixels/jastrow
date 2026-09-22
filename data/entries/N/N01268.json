@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01268",
-	"slug": "נרדשיר",
-	"headword": {
-		"text": "נַרְדְּשִׁיר"
-	},
+	"sefariaHeadword": "נַרְדְּשִׁיר",
+	"headwords": [
+		{
+			"text": "נַרְדְּשִׁיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

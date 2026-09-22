@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01942",
-	"slug": "מסכא",
-	"headword": {
-		"text": "מִסְכָא"
-	},
+	"sefariaHeadword": "מִסְכָא",
+	"headwords": [
+		{
+			"text": "מִסְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "b"

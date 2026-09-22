@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01640",
-	"slug": "פרוותא",
-	"headword": {
-		"text": "פַּרְוָותָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוָותָא",
+	"headwords": [
+		{
+			"text": "פַּרְוָותָא"
+		},
 		{
 			"text": "פַּרְוָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1218,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02274",
-	"slug": "מצו",
-	"headword": {
-		"text": "מַצּוּ"
-	},
+	"sefariaHeadword": "מַצּוּ",
+	"headwords": [
+		{
+			"text": "מַצּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "a"

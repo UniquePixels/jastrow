@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00927",
-	"slug": "נסי-3",
-	"headword": {
-		"text": "נְסֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְסֵי",
+	"headwords": [
+		{
+			"text": "נְסֵי"
+		},
 		{
 			"text": "נְסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְשָׂא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 916,
 		"column": "a"

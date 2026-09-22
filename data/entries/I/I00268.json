@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00268",
-	"slug": "טחינין",
-	"headword": {
-		"text": "טְחִינִין"
-	},
+	"sefariaHeadword": "טְחִינִין",
+	"headwords": [
+		{
+			"text": "טְחִינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

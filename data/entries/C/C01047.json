@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01047",
-	"slug": "גמלון",
-	"headword": {
-		"text": "גַּמְלוֹן"
-	},
+	"sefariaHeadword": "גַּמְלוֹן",
+	"headwords": [
+		{
+			"text": "גַּמְלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

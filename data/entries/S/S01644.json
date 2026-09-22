@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01644",
-	"slug": "קסוסנון",
-	"headword": {
-		"text": "קסוסנון"
-	},
+	"sefariaHeadword": "קסוסנון",
+	"headwords": [
+		{
+			"text": "קסוסנון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

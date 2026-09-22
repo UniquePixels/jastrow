@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00087",
-	"slug": "טברטי",
-	"headword": {
-		"text": "טברטי"
-	},
+	"sefariaHeadword": "טברטי",
+	"headwords": [
+		{
+			"text": "טברטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 519,
 		"column": "b"

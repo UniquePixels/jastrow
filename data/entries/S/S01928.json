@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01928",
-	"slug": "קרובה",
-	"headword": {
-		"text": "קְרוֹבָה"
-	},
+	"sefariaHeadword": "קְרוֹבָה",
+	"headwords": [
+		{
+			"text": "קְרוֹבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "a"

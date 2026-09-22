@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00646",
-	"slug": "רימוצא",
-	"headword": {
-		"text": "רִימּוּצָא"
-	},
+	"sefariaHeadword": "רִימּוּצָא",
+	"headwords": [
+		{
+			"text": "רִימּוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

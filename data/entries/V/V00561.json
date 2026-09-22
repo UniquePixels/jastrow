@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00561",
-	"slug": "תכשיטא",
-	"headword": {
-		"text": "תַּכְשִׁיטָא"
-	},
+	"sefariaHeadword": "תַּכְשִׁיטָא",
+	"headwords": [
+		{
+			"text": "תַּכְשִׁיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "b"

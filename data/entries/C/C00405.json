@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00405",
-	"slug": "גולנית",
-	"headword": {
-		"text": "גּוֹלָנִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גֹּולָנִית",
+	"headwords": [
+		{
+			"text": "גּוֹלָנִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 222,
 		"column": "b"

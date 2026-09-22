@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00871",
-	"slug": "בליסטרי",
-	"headword": {
-		"text": "בַּלִּיסְטָרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלִּיסְטָרִי",
+	"headwords": [
+		{
+			"text": "בַּלִּיסְטָרִי"
+		},
 		{
 			"text": "בליסטורי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 173,
 		"column": "a"

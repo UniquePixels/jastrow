@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00841",
-	"slug": "דלל-1",
-	"headword": {
-		"text": "דָּלַל"
-	},
+	"sefariaHeadword": "דָּלַל",
+	"headwords": [
+		{
+			"text": "דָּלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "b"

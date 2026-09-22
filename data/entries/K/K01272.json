@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01272",
-	"slug": "כרר",
-	"headword": {
-		"text": "כָּרָר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כָּרָר",
+	"headwords": [
+		{
+			"text": "כָּרָר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 673,
 		"column": "b"

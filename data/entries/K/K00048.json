@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00048",
-	"slug": "כבי-2",
-	"headword": {
-		"text": "כְּבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּבִי",
+	"headwords": [
+		{
+			"text": "כְּבִי"
+		},
 		{
 			"text": "כְּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 608,
 		"column": "a"

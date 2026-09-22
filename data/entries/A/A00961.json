@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00961",
-	"slug": "אזהרא",
-	"headword": {
-		"text": "אַזְהָרָא"
-	},
+	"sefariaHeadword": "אַזְהָרָא",
+	"headwords": [
+		{
+			"text": "אַזְהָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "a"

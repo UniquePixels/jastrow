@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02943",
-	"slug": "אקרפטא",
-	"headword": {
-		"text": "אַקְרַפְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַקְרַפְטָא",
+	"headwords": [
+		{
+			"text": "אַקְרַפְטָא"
+		},
 		{
 			"text": "קְרַפְטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַרְפִּיטָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 113,
 		"column": "b"

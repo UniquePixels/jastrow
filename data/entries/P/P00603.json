@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00603",
-	"slug": "עינב",
-	"headword": {
-		"text": "עֵינָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵינָב",
+	"headwords": [
+		{
+			"text": "עֵינָב"
+		},
 		{
 			"text": "עִינְּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1072,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01719",
-	"slug": "פרוספיא",
-	"headword": {
-		"text": "פרוספיא"
-	},
+	"sefariaHeadword": "פרוספיא",
+	"headwords": [
+		{
+			"text": "פרוספיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

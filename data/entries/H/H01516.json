@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01516",
-	"slug": "חצי-1",
-	"headword": {
-		"text": "חצי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חצי",
+	"headwords": [
+		{
+			"text": "חצי"
+		},
 		{
 			"text": "חָצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 495,
 		"column": "a"

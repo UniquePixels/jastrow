@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00724",
-	"slug": "רישינא",
-	"headword": {
-		"text": "רישינא"
-	},
+	"sefariaHeadword": "רישינא",
+	"headwords": [
+		{
+			"text": "רישינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "a"

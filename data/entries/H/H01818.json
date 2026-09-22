@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01818",
-	"slug": "חשו",
-	"headword": {
-		"text": "חָשׁוּ"
-	},
+	"sefariaHeadword": "חָשׁוּ",
+	"headwords": [
+		{
+			"text": "חָשׁוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

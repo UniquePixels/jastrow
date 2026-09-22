@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01315",
-	"slug": "ערובתא-3",
-	"headword": {
-		"text": "עֲרוּבְתָּא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרוּבְתָּא III",
+	"headwords": [
+		{
+			"text": "עֲרוּבְתָּא",
+			"homograph": 3
+		},
 		{
 			"text": "עֲרוּבָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1114,
 		"column": "b"

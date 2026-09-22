@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00601",
-	"slug": "דילועין",
-	"headword": {
-		"text": "דִּילּוּעִין"
-	},
+	"sefariaHeadword": "דִּילּוּעִין",
+	"headwords": [
+		{
+			"text": "דִּילּוּעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

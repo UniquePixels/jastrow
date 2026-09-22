@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00606",
-	"slug": "זעע",
-	"headword": {
-		"text": "זעע"
-	},
+	"sefariaHeadword": "זעע",
+	"headwords": [
+		{
+			"text": "זעע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

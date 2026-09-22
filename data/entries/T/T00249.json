@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00249",
-	"slug": "רדיד-1",
-	"headword": {
-		"text": "רַדִּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַדִּיד",
+	"headwords": [
+		{
+			"text": "רַדִּיד"
+		},
 		{
 			"text": "רַדִּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1452,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02047",
-	"slug": "מעבדא-2",
-	"headword": {
-		"text": "מְעַבְּדָא"
-	},
+	"sefariaHeadword": "מְעַבְּדָא",
+	"headwords": [
+		{
+			"text": "מְעַבְּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "b"

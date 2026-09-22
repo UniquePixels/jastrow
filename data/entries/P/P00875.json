@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00875",
-	"slug": "עמור",
-	"headword": {
-		"text": "עִמּוּר"
-	},
+	"sefariaHeadword": "עִמּוּר",
+	"headwords": [
+		{
+			"text": "עִמּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

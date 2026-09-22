@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00771",
-	"slug": "דכי-1",
-	"headword": {
-		"text": "דכי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דכי",
+	"headwords": [
+		{
+			"text": "דכי"
+		},
 		{
 			"text": "דָּכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 307,
 		"column": "a"
@@ -24,7 +26,7 @@
 			"forms": [],
 			"senses": [
 				{
-					"gloss": "<cite ref=\"D00771\"><he>דִּכָּה</he></cite> (Aramaism, v. <cite ref=\"D00772\">next w.</cite>) <i>to declare clean</i>. ",
+					"gloss": "<cite ref=\"D00771\"><he>דִּכָּה</he></cite> (Aramaism, v. <cite ref=\"D00772\">next w.</cite>) <i>to declare clean</i>. ",
 					"units": [
 						"<cite ref=\"Niddah 25a:49\">Nidd. 25ᵃ</cite> <he>לא דִכּוּ וכ׳</he> the scholars never declared clean &c."
 					]

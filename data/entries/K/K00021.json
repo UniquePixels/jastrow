@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00021",
-	"slug": "כאן",
-	"headword": {
-		"text": "כַּאַן"
-	},
+	"sefariaHeadword": "כַּאַן",
+	"headwords": [
+		{
+			"text": "כַּאַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

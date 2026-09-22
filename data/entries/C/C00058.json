@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00058",
-	"slug": "גבונתא",
-	"headword": {
-		"text": "גבונתא"
-	},
+	"sefariaHeadword": "גבונתא",
+	"headwords": [
+		{
+			"text": "גבונתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "a"

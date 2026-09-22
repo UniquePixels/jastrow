@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00302",
-	"slug": "קוטנית",
-	"headword": {
-		"text": "קוטנית"
-	},
+	"sefariaHeadword": "קוטנית",
+	"headwords": [
+		{
+			"text": "קוטנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

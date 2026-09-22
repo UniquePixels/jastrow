@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00548",
-	"slug": "ביבר",
-	"headword": {
-		"text": "בִּיבָר"
-	},
+	"sefariaHeadword": "בִּיבָר",
+	"headwords": [
+		{
+			"text": "בִּיבָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "b"

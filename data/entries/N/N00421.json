@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00421",
-	"slug": "נוריתא",
-	"headword": {
-		"text": "נוּרִיתָא"
-	},
+	"sefariaHeadword": "נוּרִיתָא",
+	"headwords": [
+		{
+			"text": "נוּרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

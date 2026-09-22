@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00254",
-	"slug": "גדש-4",
-	"headword": {
-		"text": "גְּדַשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּדַשׁ II",
+	"headwords": [
+		{
+			"text": "גְּדַשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 215,
 		"column": "b"

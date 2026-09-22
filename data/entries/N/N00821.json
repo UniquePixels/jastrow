@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00821",
-	"slug": "נכי-4",
-	"headword": {
-		"text": "נַכֵּי"
-	},
+	"sefariaHeadword": "נַכֵּי",
+	"headwords": [
+		{
+			"text": "נַכֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 910,
 		"column": "b"

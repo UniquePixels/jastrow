@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00406",
-	"slug": "ציפה",
-	"headword": {
-		"text": "צִיפָּה"
-	},
+	"sefariaHeadword": "צִיפָּה",
+	"headwords": [
+		{
+			"text": "צִיפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "b"

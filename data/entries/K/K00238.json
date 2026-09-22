@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00238",
-	"slug": "כוחל",
-	"headword": {
-		"text": "כּוֹחָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹחָל",
+	"headwords": [
+		{
+			"text": "כּוֹחָל"
+		},
 		{
 			"text": "כְּחוֹל"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 618,
 		"column": "a"

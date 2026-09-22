@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01214",
-	"slug": "גפר-2",
-	"headword": {
-		"text": "גְּפַר"
-	},
+	"sefariaHeadword": "גְּפַר",
+	"headwords": [
+		{
+			"text": "גְּפַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "a"

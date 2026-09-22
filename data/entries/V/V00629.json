@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00629",
-	"slug": "תלתול",
-	"headword": {
-		"text": "תִּלְתּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּלְתּוּל",
+	"headwords": [
 		{
-			"text": "תִּילְ׳"
+			"text": "תִּלְתּוּל"
+		},
+		{
+			"text": "תִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1674,
 		"column": "a"

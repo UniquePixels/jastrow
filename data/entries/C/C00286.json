@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00286",
-	"slug": "גובלית",
-	"headword": {
-		"text": "גּוּבְלִית"
-	},
+	"sefariaHeadword": "גּוּבְלִית",
+	"headwords": [
+		{
+			"text": "גּוּבְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00443",
-	"slug": "קונייה",
-	"headword": {
-		"text": "קוֹנְיָיה"
-	},
+	"sefariaHeadword": "קוֹנְיָיה",
+	"headwords": [
+		{
+			"text": "קוֹנְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1335,
 		"column": "b"

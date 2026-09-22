@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02147",
-	"slug": "קרצוד",
-	"headword": {
-		"text": "קרצוד"
-	},
+	"sefariaHeadword": "קרצוד",
+	"headwords": [
+		{
+			"text": "קרצוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

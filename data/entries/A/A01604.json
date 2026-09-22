@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01604",
-	"slug": "אירוס-1",
-	"headword": {
-		"text": "אֵירוּס",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵירוּס I",
+	"headwords": [
+		{
+			"text": "אֵירוּס",
+			"homograph": 1
+		},
 		{
 			"text": "אֵרוּס"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 60,
 		"column": "b"

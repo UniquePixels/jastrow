@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00425",
-	"slug": "גומתא",
-	"headword": {
-		"text": "גּוּמְתָא"
-	},
+	"sefariaHeadword": "גּוּמְתָא",
+	"headwords": [
+		{
+			"text": "גּוּמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

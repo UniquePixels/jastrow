@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00529",
-	"slug": "סיבה",
-	"headword": {
-		"text": "סִיבָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיבָּה",
+	"headwords": [
+		{
+			"text": "סִיבָּה"
+		},
 		{
 			"text": "סִבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 974,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00713",
-	"slug": "כלותא",
-	"headword": {
-		"text": "כְּלוּתָא"
-	},
+	"sefariaHeadword": "כְּלוּתָא",
+	"headwords": [
+		{
+			"text": "כְּלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 641,
 		"column": "a"

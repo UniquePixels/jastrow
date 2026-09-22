@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00978",
-	"slug": "פלומטר",
-	"headword": {
-		"text": "פְּלוּמְטַר"
-	},
+	"sefariaHeadword": "פְּלוּמְטַר",
+	"headwords": [
+		{
+			"text": "פְּלוּמְטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

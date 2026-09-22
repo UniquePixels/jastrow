@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01133",
-	"slug": "בקעת",
-	"headword": {
-		"text": "בְּקַעַת"
-	},
+	"sefariaHeadword": "בְּקַעַת",
+	"headwords": [
+		{
+			"text": "בְּקַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 187,
 		"column": "a"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O01085",
-	"slug": "סמיונא",
-	"headword": {
-		"text": "סִמְיוֹנָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*סִמְיוֹנָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִמְיוֹנָא",
+			"reconstructed": true
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1000,
 		"column": "a"

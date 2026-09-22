@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01240",
-	"slug": "שלוותא-1",
-	"headword": {
-		"text": "שַׁלְוְותָא"
-	},
+	"sefariaHeadword": "שַׁלְוְותָא",
+	"headwords": [
+		{
+			"text": "שַׁלְוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "a"

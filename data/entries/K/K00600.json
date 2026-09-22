@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00600",
-	"slug": "כיפא",
-	"headword": {
-		"text": "כֵּיפָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כֵּיפָא II",
+	"headwords": [
+		{
+			"text": "כֵּיפָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 635,
 		"column": "a"

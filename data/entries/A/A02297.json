@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02297",
-	"slug": "אנקליטון-1",
-	"headword": {
-		"text": "אֶנְקְלִיטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶנְקְלִיטוֹן",
+	"headwords": [
 		{
-			"text": "אונק׳"
+			"text": "אֶנְקְלִיטוֹן"
+		},
+		{
+			"text": "אונק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 88,
 		"column": "a"

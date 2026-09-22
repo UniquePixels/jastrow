@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01096",
-	"slug": "שישי",
-	"headword": {
-		"text": "שִׁישִּׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁישִּׁי",
+	"headwords": [
+		{
+			"text": "שִׁישִּׁי"
+		},
 		{
 			"text": "שִׁישִּׁית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1570,
 		"column": "a"

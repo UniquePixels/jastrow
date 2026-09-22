@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00111",
-	"slug": "כדה",
-	"headword": {
-		"text": "כַּדָּה"
-	},
+	"sefariaHeadword": "כַּדָּה",
+	"headwords": [
+		{
+			"text": "כַּדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "b"

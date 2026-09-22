@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00093",
-	"slug": "בד-1",
-	"headword": {
-		"text": "בִּדְּ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּדְּ־",
+	"headwords": [
+		{
+			"text": "בִּדְּ־"
+		},
 		{
 			"text": "בִּידְּ־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 138,
 		"column": "a"

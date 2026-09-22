@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00677",
-	"slug": "שחן-2",
-	"headword": {
-		"text": "שְׁחַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁחַן",
+	"headwords": [
+		{
+			"text": "שְׁחַן"
+		},
 		{
 			"text": "שְׁחֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1549,
 		"column": "a"

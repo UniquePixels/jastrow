@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00326",
-	"slug": "ייאבך",
-	"headword": {
-		"text": "יֵיאבָךְ"
-	},
+	"sefariaHeadword": "יֵיאבָךְ",
+	"headwords": [
+		{
+			"text": "יֵיאבָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

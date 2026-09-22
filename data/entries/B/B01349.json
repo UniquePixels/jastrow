@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01349",
-	"slug": "בשום",
-	"headword": {
-		"text": "בָּשׂוּם"
-	},
+	"sefariaHeadword": "בָּשׂוּם",
+	"headwords": [
+		{
+			"text": "בָּשׂוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

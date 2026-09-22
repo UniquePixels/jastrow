@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00763",
-	"slug": "חילוזא",
-	"headword": {
-		"text": "חִילּוּזָא"
-	},
+	"sefariaHeadword": "חִילּוּזָא",
+	"headwords": [
+		{
+			"text": "חִילּוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "a"

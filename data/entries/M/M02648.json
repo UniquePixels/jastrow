@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02648",
-	"slug": "מרטנאי",
-	"headword": {
-		"text": "מרטנאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מרטנאי",
+	"headwords": [
+		{
+			"text": "מרטנאי"
+		},
 		{
 			"text": "מַרְטַנְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 841,
 		"column": "b"

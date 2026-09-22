@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01078",
-	"slug": "קיסנייתא",
-	"headword": {
-		"text": "קִיסְנְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְנְיָיתָא",
+	"headwords": [
 		{
-			"text": "קִסְ׳"
+			"text": "קִיסְנְיָיתָא"
+		},
+		{
+			"text": "קִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "a"

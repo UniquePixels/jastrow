@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00522",
-	"slug": "בטלנות",
-	"headword": {
-		"text": "בַּטְלָנוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּטְלָנוּת",
+	"headwords": [
+		{
+			"text": "בַּטְלָנוּת"
+		},
 		{
 			"text": "בִּטָּלוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 158,
 		"column": "a"

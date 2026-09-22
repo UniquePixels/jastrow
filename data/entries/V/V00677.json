@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00677",
-	"slug": "תמים-1",
-	"headword": {
-		"text": "תָּמִים"
-	},
+	"sefariaHeadword": "תָּמִים",
+	"headwords": [
+		{
+			"text": "תָּמִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "a"

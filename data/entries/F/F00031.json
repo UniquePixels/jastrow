@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "F00031",
-	"slug": "וי",
-	"headword": {
-		"text": "וַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וַי",
+	"headwords": [
+		{
+			"text": "וַי"
+		},
 		{
 			"text": "וַוי"
 		},
@@ -12,6 +13,7 @@
 			"text": "וַיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 373,
 		"column": "a"

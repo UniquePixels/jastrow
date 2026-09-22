@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02109",
-	"slug": "מעיל-2",
-	"headword": {
-		"text": "מְעִיל"
-	},
+	"sefariaHeadword": "מְעִיל",
+	"headwords": [
+		{
+			"text": "מְעִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

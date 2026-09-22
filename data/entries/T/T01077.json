@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01077",
-	"slug": "רשוש",
-	"headword": {
-		"text": "רָשׁוֹשׁ"
-	},
+	"sefariaHeadword": "רָשׁוֹשׁ",
+	"headwords": [
+		{
+			"text": "רָשׁוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

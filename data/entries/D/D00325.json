@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00325",
-	"slug": "דוק-2",
-	"headword": {
-		"text": "דּוּק"
-	},
+	"sefariaHeadword": "דּוּק",
+	"headwords": [
+		{
+			"text": "דּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "b"

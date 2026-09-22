@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00818",
-	"slug": "הרגנא",
-	"headword": {
-		"text": "הרגנא"
-	},
+	"sefariaHeadword": "הרגנא",
+	"headwords": [
+		{
+			"text": "הרגנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01108",
-	"slug": "פלסלוס",
-	"headword": {
-		"text": "פְּלֹסְלוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלֹסְלוֹס",
+	"headwords": [
+		{
+			"text": "פְּלֹסְלוֹס"
+		},
 		{
 			"text": "פְּלוֹסלוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01277",
-	"slug": "נרתיקא",
-	"headword": {
-		"text": "נַרְתֵּיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַרְתֵּיקָא",
+	"headwords": [
+		{
+			"text": "נַרְתֵּיקָא"
+		},
 		{
 			"text": "נַרְתֵּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 937,
 		"column": "a"

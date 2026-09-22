@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00894",
-	"slug": "קיטה",
-	"headword": {
-		"text": "קִיטָה"
-	},
+	"sefariaHeadword": "קִיטָה",
+	"headwords": [
+		{
+			"text": "קִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1357,
 		"column": "a"

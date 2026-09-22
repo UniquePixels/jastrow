@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00616",
-	"slug": "המיצתא",
-	"headword": {
-		"text": "הֲמִיצְתָּא"
-	},
+	"sefariaHeadword": "הֲמִיצְתָּא",
+	"headwords": [
+		{
+			"text": "הֲמִיצְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

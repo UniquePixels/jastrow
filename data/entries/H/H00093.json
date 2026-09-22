@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00093",
-	"slug": "חבלה-1",
-	"headword": {
-		"text": "חַבְלָה"
-	},
+	"sefariaHeadword": "חַבְלָה",
+	"headwords": [
+		{
+			"text": "חַבְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 420,
 		"column": "b"

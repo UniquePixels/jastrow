@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00257",
-	"slug": "זטר",
-	"headword": {
-		"text": "זְטַר"
-	},
+	"sefariaHeadword": "זְטַר",
+	"headwords": [
+		{
+			"text": "זְטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

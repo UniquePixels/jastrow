@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00157",
-	"slug": "פ״וגחמ״ט",
-	"headword": {
-		"text": "פ״וגחמ״ט"
-	},
+	"sefariaHeadword": "פ\"וגחמ\"ט",
+	"headwords": [
+		{
+			"text": "פ״וגחמ״ט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "a"

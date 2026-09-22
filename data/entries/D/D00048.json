@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00048",
-	"slug": "דבונא",
-	"headword": {
-		"text": "דָּבוֹנָא"
-	},
+	"sefariaHeadword": "דָּבוֹנָא",
+	"headwords": [
+		{
+			"text": "דָּבוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "b"

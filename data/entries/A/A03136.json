@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03136",
-	"slug": "ארכוליפורין",
-	"headword": {
-		"text": "ארכוליפורין"
-	},
+	"sefariaHeadword": "ארכוליפורין",
+	"headwords": [
+		{
+			"text": "ארכוליפורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 121,
 		"column": "b"

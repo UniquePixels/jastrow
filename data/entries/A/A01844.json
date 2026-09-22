@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01844",
-	"slug": "אליון-2",
-	"headword": {
-		"text": "אִלְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְיוֹן",
+	"headwords": [
+		{
+			"text": "אִלְיוֹן"
+		},
 		{
 			"text": "אִלְיוֹנָא"
 		},
 		{
-			"text": "אִיל׳"
+			"text": "אִיל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 69,
 		"column": "a"

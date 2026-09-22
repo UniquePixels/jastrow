@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01405",
-	"slug": "קלפא",
-	"headword": {
-		"text": "קַלְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלְפָא",
+	"headwords": [
 		{
-			"text": "קִלְ׳"
+			"text": "קַלְפָא"
 		},
 		{
-			"text": "קִילְ׳"
+			"text": "קִלְ׳",
+			"partial": true
+		},
+		{
+			"text": "קִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1381,
 		"column": "b"

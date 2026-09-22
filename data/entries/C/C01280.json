@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01280",
-	"slug": "גרדיקי",
-	"headword": {
-		"text": "גרדיקי"
-	},
+	"sefariaHeadword": "גרדיקי",
+	"headwords": [
+		{
+			"text": "גרדיקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "a"

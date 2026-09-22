@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00964",
-	"slug": "חלאה",
-	"headword": {
-		"text": "חֶלְאָה"
-	},
+	"sefariaHeadword": "חֶלְאָה",
+	"headwords": [
+		{
+			"text": "חֶלְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

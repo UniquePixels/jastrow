@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00055",
-	"slug": "מאספוטמיא",
-	"headword": {
-		"text": "מאספוטמיא"
-	},
+	"sefariaHeadword": "מאספוטמיא",
+	"headwords": [
+		{
+			"text": "מאספוטמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01108",
-	"slug": "נצח-1",
-	"headword": {
-		"text": "נָצַח"
-	},
+	"sefariaHeadword": "נָצַח",
+	"headwords": [
+		{
+			"text": "נָצַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

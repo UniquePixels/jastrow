@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01063",
-	"slug": "דרומיסקוס",
-	"headword": {
-		"text": "דרומיסקוס"
-	},
+	"sefariaHeadword": "דרומיסקוס",
+	"headwords": [
+		{
+			"text": "דרומיסקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

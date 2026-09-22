@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01198",
-	"slug": "ברולקי",
-	"headword": {
-		"text": "ברולקי"
-	},
+	"sefariaHeadword": "ברולקי",
+	"headwords": [
+		{
+			"text": "ברולקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

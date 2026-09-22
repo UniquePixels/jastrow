@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00540",
-	"slug": "מוניני",
-	"headword": {
-		"text": "מוֹנִינֵי"
-	},
+	"sefariaHeadword": "מוֹנִינֵי",
+	"headwords": [
+		{
+			"text": "מוֹנִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

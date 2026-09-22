@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00215",
-	"slug": "שגה",
-	"headword": {
-		"text": "שָׁגָה"
-	},
+	"sefariaHeadword": "שָׁגָה",
+	"headwords": [
+		{
+			"text": "שָׁגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00650",
-	"slug": "דינר-2",
-	"headword": {
-		"text": "דִּינָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּינָר ²",
+	"headwords": [
+		{
+			"text": "דִּינָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "דִּינָרָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "דִּינְרָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 302,
 		"column": "a"

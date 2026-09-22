@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00591",
-	"slug": "לעא",
-	"headword": {
-		"text": "לְעָא"
-	},
+	"sefariaHeadword": "לְעָא",
+	"headwords": [
+		{
+			"text": "לְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "b"

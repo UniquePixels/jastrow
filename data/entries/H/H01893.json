@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01893",
-	"slug": "חתירה",
-	"headword": {
-		"text": "חֲתִירָה"
-	},
+	"sefariaHeadword": "חֲתִירָה",
+	"headwords": [
+		{
+			"text": "חֲתִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 513,
 		"column": "a"

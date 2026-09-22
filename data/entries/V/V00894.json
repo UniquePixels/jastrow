@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00894",
-	"slug": "תקלא-2",
-	"headword": {
-		"text": "תַּקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּקְלָא",
+	"headwords": [
 		{
-			"text": "תּוּקְ׳"
+			"text": "תַּקְלָא"
+		},
+		{
+			"text": "תּוּקְ׳",
+			"partial": true
 		},
 		{
 			"text": "תַּקָּלָא"
@@ -16,9 +18,11 @@
 		},
 		{
 			"text": "תִּי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4} II",
 	"page": {
 		"number": 1691,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02519",
-	"slug": "אספרווא",
-	"headword": {
-		"text": "אִסְפַּרְוָוא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְפַּרְוָוא",
+	"headwords": [
+		{
+			"text": "אִסְפַּרְוָוא",
+			"reconstructed": true
+		},
 		{
 			"text": "אִסְפַּרְוָוה"
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 96,
 		"column": "b"

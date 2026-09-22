@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00702",
-	"slug": "ניסה",
-	"headword": {
-		"text": "נִיסָה"
-	},
+	"sefariaHeadword": "נִיסָה",
+	"headwords": [
+		{
+			"text": "נִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01603",
-	"slug": "קנס-1",
-	"headword": {
-		"text": "קָנַס"
-	},
+	"sefariaHeadword": "קָנַס",
+	"headwords": [
+		{
+			"text": "קָנַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "b"

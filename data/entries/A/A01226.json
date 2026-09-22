@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01226",
-	"slug": "איטרא",
-	"headword": {
-		"text": "אִיטְרָא"
-	},
+	"sefariaHeadword": "אִיטְרָא",
+	"headwords": [
+		{
+			"text": "אִיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

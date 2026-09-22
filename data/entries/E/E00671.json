@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00671",
-	"slug": "הנהו",
-	"headword": {
-		"text": "הַנְהוּ"
-	},
+	"sefariaHeadword": "הַנְהוּ",
+	"headwords": [
+		{
+			"text": "הַנְהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "b"

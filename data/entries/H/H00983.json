@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00983",
-	"slug": "חלדה",
-	"headword": {
-		"text": "חֲלָדָה"
-	},
+	"sefariaHeadword": "חֲלָדָה",
+	"headwords": [
+		{
+			"text": "חֲלָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

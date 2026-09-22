@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00721",
-	"slug": "דיקנא",
-	"headword": {
-		"text": "דִּיקְנָא"
-	},
+	"sefariaHeadword": "דִּיקְנָא",
+	"headwords": [
+		{
+			"text": "דִּיקְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00127",
-	"slug": "צדקת",
-	"headword": {
-		"text": "צַדֶּקֶת"
-	},
+	"sefariaHeadword": "צַדֶּקֶת",
+	"headwords": [
+		{
+			"text": "צַדֶּקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "a"

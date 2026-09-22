@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00243",
-	"slug": "גדר-1",
-	"headword": {
-		"text": "גַּדַּר"
-	},
+	"sefariaHeadword": "גַּדַּר",
+	"headwords": [
+		{
+			"text": "גַּדַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 214,
 		"column": "b"

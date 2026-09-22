@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01118",
-	"slug": "סמנון",
-	"headword": {
-		"text": "סְמָנוֹן"
-	},
+	"sefariaHeadword": "סְמָנוֹן",
+	"headwords": [
+		{
+			"text": "סְמָנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

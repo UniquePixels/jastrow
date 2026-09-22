@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00209",
-	"slug": "טופסא",
-	"headword": {
-		"text": "טוּפְסָא"
-	},
+	"sefariaHeadword": "טוּפְסָא",
+	"headwords": [
+		{
+			"text": "טוּפְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00510",
-	"slug": "גותאי",
-	"headword": {
-		"text": "גּוּתָאִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּתָאִי",
+	"headwords": [
+		{
+			"text": "גּוּתָאִי"
+		},
 		{
 			"text": "גּוּתָיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 228,
 		"column": "a"

@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B01312",
-	"slug": "ברציתא",
-	"headword": {
-		"text": "בַּרְצִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְצִיתָא",
+	"headwords": [
 		{
-			"text": "בֵּי בַּרְצִיתָא"
+			"text": "בַּרְצִיתָא"
+		},
+		{
+			"text": "בֵּי ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 196,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

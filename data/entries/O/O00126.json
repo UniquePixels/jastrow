@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00126",
-	"slug": "סגיא-2",
-	"headword": {
-		"text": "סַגְיָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סַגְיָא II",
+	"headwords": [
+		{
+			"text": "סַגְיָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 954,
 		"column": "b"

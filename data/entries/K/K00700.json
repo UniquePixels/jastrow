@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00700",
-	"slug": "כלוט",
-	"headword": {
-		"text": "כלוט"
-	},
+	"sefariaHeadword": "כלוט",
+	"headwords": [
+		{
+			"text": "כלוט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01632",
-	"slug": "שעבז",
-	"headword": {
-		"text": "שִׁעְבֵּז"
-	},
+	"sefariaHeadword": "שִׁעְבֵּז",
+	"headwords": [
+		{
+			"text": "שִׁעְבֵּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1609,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00842",
-	"slug": "מחזי",
-	"headword": {
-		"text": "מִחְזֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִחְזֵי",
+	"headwords": [
 		{
-			"text": "מִיחְ׳"
+			"text": "מִחְזֵי"
+		},
+		{
+			"text": "מִיחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 758,
 		"column": "b"

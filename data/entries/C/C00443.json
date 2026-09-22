@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00443",
-	"slug": "גונכא",
-	"headword": {
-		"text": "גּוּנְכָא"
-	},
+	"sefariaHeadword": "גּוּנְכָא",
+	"headwords": [
+		{
+			"text": "גּוּנְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02040",
-	"slug": "מסתירין",
-	"headword": {
-		"text": "מסתירין"
-	},
+	"sefariaHeadword": "מסתירין",
+	"headwords": [
+		{
+			"text": "מסתירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00176",
-	"slug": "עובדתא",
-	"headword": {
-		"text": "עוֹבַדְתָּא"
-	},
+	"sefariaHeadword": "עוֹבַדְתָּא",
+	"headwords": [
+		{
+			"text": "עוֹבַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "b"

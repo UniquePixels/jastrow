@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00246",
-	"slug": "הון-2",
-	"headword": {
-		"text": "הוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הוֹן II",
+	"headwords": [
+		{
+			"text": "הוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 339,
 		"column": "b"

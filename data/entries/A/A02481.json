@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02481",
-	"slug": "אספוטמיא",
-	"headword": {
-		"text": "אספוטמיא"
-	},
+	"sefariaHeadword": "אספוטמיא",
+	"headwords": [
+		{
+			"text": "אספוטמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

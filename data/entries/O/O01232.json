@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01232",
-	"slug": "סניגורא",
-	"headword": {
-		"text": "סַנִּיגוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנִּיגוֹרָא",
+	"headwords": [
 		{
-			"text": "בַּר סַנִּיגוֹרָא"
+			"text": "סַנִּיגוֹרָא"
+		},
+		{
+			"text": "בַּר ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1007,
 		"column": "b"

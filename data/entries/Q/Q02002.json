@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02002",
-	"slug": "פרקינא",
-	"headword": {
-		"text": "פרקינא"
-	},
+	"sefariaHeadword": "פרקינא",
+	"headwords": [
+		{
+			"text": "פרקינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

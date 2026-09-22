@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00533",
-	"slug": "סיבוך",
-	"headword": {
-		"text": "סיבוך"
-	},
+	"sefariaHeadword": "סיבוך",
+	"headwords": [
+		{
+			"text": "סיבוך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 974,
 		"column": "b"

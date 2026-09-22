@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02615",
-	"slug": "אפוטמים",
-	"headword": {
-		"text": "אפוטמים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפוטמים",
+	"headwords": [
+		{
+			"text": "אפוטמים"
+		},
 		{
 			"text": "אפוטמות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 100,
 		"column": "a"

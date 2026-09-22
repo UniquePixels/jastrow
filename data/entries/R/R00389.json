@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00389",
-	"slug": "צינה",
-	"headword": {
-		"text": "צִינָּה"
-	},
+	"sefariaHeadword": "צִינָּה",
+	"headwords": [
+		{
+			"text": "צִינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "a"

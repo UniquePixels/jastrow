@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "V00112",
-	"slug": "תדל",
-	"headword": {
-		"text": "תַּדָּל",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*תַּדָּל",
+	"headwords": [
 		{
-			"text": "בֶּן תַּדָּל"
+			"text": "תַּדָּל",
+			"reconstructed": true
+		},
+		{
+			"text": "בֶּן תַּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1648,
 		"column": "a"

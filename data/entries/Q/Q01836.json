@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01836",
-	"slug": "פרישא",
-	"headword": {
-		"text": "פָּרִישָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרִישָׁא",
+	"headwords": [
 		{
-			"text": "פְּ׳"
+			"text": "פָּרִישָׁא"
+		},
+		{
+			"text": "פְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1228,
 		"column": "a"

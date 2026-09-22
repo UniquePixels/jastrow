@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00471",
-	"slug": "קוסטר",
-	"headword": {
-		"text": "קוסטר"
-	},
+	"sefariaHeadword": "קוסטר",
+	"headwords": [
+		{
+			"text": "קוסטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "b"

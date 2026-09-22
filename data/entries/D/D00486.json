@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00486",
-	"slug": "דיגלא",
-	"headword": {
-		"text": "דִּיגְלָא"
-	},
+	"sefariaHeadword": "דִּיגְלָא",
+	"headwords": [
+		{
+			"text": "דִּיגְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

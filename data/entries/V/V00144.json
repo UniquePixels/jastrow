@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00144",
-	"slug": "תובא",
-	"headword": {
-		"text": "תּוּבָא"
-	},
+	"sefariaHeadword": "תּוּבָא",
+	"headwords": [
+		{
+			"text": "תּוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "a"

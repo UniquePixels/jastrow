@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00057",
-	"slug": "תבלול",
-	"headword": {
-		"text": "תְּבַלּוּל"
-	},
+	"sefariaHeadword": "תְּבַלּוּל",
+	"headwords": [
+		{
+			"text": "תְּבַלּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1644,
 		"column": "b"

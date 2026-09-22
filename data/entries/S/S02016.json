@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02016",
-	"slug": "קרטע-2",
-	"headword": {
-		"text": "קַרְטֵעַ"
-	},
+	"sefariaHeadword": "קַרְטֵעַ",
+	"headwords": [
+		{
+			"text": "קַרְטֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1417,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00867",
-	"slug": "כנעה",
-	"headword": {
-		"text": "כנעה"
-	},
+	"sefariaHeadword": "כנעה",
+	"headwords": [
+		{
+			"text": "כנעה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "b"

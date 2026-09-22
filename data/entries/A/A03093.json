@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03093",
-	"slug": "אריח-2",
-	"headword": {
-		"text": "אֲרִיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִיחַ",
+	"headwords": [
+		{
+			"text": "אֲרִיחַ"
+		},
 		{
 			"text": "אריה"
 		},
@@ -12,12 +13,10 @@
 			"text": "אריא"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 119,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

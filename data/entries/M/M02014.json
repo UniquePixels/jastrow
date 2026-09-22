@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02014",
-	"slug": "מסרדי",
-	"headword": {
-		"text": "מסרדי"
-	},
+	"sefariaHeadword": "מסרדי",
+	"headwords": [
+		{
+			"text": "מסרדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

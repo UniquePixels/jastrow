@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00506",
-	"slug": "גושפנא",
-	"headword": {
-		"text": "גושפנא"
-	},
+	"sefariaHeadword": "גושפנא",
+	"headwords": [
+		{
+			"text": "גושפנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "a"

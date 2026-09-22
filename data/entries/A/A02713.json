@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02713",
-	"slug": "אפיקורסות",
-	"headword": {
-		"text": "אַפִּיקוֹרְסוּת"
-	},
+	"sefariaHeadword": "אַפִּיקוֹרְסוּת",
+	"headwords": [
+		{
+			"text": "אַפִּיקוֹרְסוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

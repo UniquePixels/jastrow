@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00832",
-	"slug": "סירה-1",
-	"headword": {
-		"text": "סִירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִירָה",
+	"headwords": [
+		{
+			"text": "סִירָה"
+		},
 		{
 			"text": "סִירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 987,
 		"column": "a"

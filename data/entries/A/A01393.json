@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01393",
-	"slug": "אינקלסיא",
-	"headword": {
-		"text": "אינקלסיא"
-	},
+	"sefariaHeadword": "אינקלסיא",
+	"headwords": [
+		{
+			"text": "אינקלסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 53,
 		"column": "a"

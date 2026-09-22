@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00218",
-	"slug": "מגריף",
-	"headword": {
-		"text": "מַגְרֵיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְרֵיף",
+	"headwords": [
+		{
+			"text": "מַגְרֵיף"
+		},
 		{
 			"text": "מַגְרֵיפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "b"

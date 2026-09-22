@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02056",
-	"slug": "פשוטה",
-	"headword": {
-		"text": "פְּשׁוּטָה"
-	},
+	"sefariaHeadword": "פְּשׁוּטָה",
+	"headwords": [
+		{
+			"text": "פְּשׁוּטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1245,
 		"column": "a"

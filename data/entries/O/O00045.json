@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00045",
-	"slug": "סבור",
-	"headword": {
-		"text": "סִבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבּוּר",
+	"headwords": [
+		{
+			"text": "סִבּוּר"
+		},
 		{
 			"text": "סִבּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 949,
 		"column": "a"

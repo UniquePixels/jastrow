@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02414",
-	"slug": "אסטרטיג",
-	"headword": {
-		"text": "אִסְטַרְטֵיג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַרְטֵיג",
+	"headwords": [
+		{
+			"text": "אִסְטַרְטֵיג"
+		},
 		{
 			"text": "אִסְטַרְטֵיגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 92,
 		"column": "a"

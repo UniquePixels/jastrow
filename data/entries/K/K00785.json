@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00785",
-	"slug": "כלתין",
-	"headword": {
-		"text": "כלתין"
-	},
+	"sefariaHeadword": "כלתין",
+	"headwords": [
+		{
+			"text": "כלתין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "b"

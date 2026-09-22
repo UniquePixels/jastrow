@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "F00022",
-	"slug": "וה",
-	"headword": {
-		"text": "וָהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָהּ",
+	"headwords": [
+		{
+			"text": "וָהּ"
+		},
 		{
 			"text": "וָוהּ"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֲוָהּ"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 372,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00300",
-	"slug": "מדכותא",
-	"headword": {
-		"text": "מַדְכוֹתָא"
-	},
+	"sefariaHeadword": "מַדְכוֹתָא",
+	"headwords": [
+		{
+			"text": "מַדְכוֹתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

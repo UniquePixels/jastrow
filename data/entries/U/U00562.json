@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00562",
-	"slug": "שושבינות",
-	"headword": {
-		"text": "שׁוֹשְׁבִינוּת"
-	},
+	"sefariaHeadword": "שׁוֹשְׁבִינוּת",
+	"headwords": [
+		{
+			"text": "שׁוֹשְׁבִינוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "a"

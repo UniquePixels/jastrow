@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00585",
-	"slug": "פיגמה",
-	"headword": {
-		"text": "פִּיגְמָה"
-	},
+	"sefariaHeadword": "פִּיגְמָה",
+	"headwords": [
+		{
+			"text": "פִּיגְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01547",
-	"slug": "עתר-2",
-	"headword": {
-		"text": "עֵתֶר"
-	},
+	"sefariaHeadword": "עֵתֶר",
+	"headwords": [
+		{
+			"text": "עֵתֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1130,
 		"column": "b"

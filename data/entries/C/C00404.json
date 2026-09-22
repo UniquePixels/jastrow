@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00404",
-	"slug": "גולן",
-	"headword": {
-		"text": "גּוֹלָן"
-	},
+	"sefariaHeadword": "גּוֹלָן",
+	"headwords": [
+		{
+			"text": "גּוֹלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "b"

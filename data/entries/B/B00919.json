@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00919",
-	"slug": "בלשי",
-	"headword": {
-		"text": "בַּלְשִׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְשִׁי",
+	"headwords": [
+		{
+			"text": "בַּלְשִׁי"
+		},
 		{
 			"text": "בַּלְשַׁיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 175,
 		"column": "b"

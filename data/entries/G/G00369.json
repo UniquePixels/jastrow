@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00369",
-	"slug": "זימיונא",
-	"headword": {
-		"text": "זִימְיוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִימְיוֹנָא",
+	"headwords": [
 		{
-			"text": "זִמְ׳"
+			"text": "זִימְיוֹנָא"
+		},
+		{
+			"text": "זִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "a"

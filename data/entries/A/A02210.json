@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02210",
-	"slug": "אנטפטרית",
-	"headword": {
-		"text": "אַנְטִפַּטְרִית"
-	},
+	"sefariaHeadword": "אַנְטִפַּטְרִית",
+	"headwords": [
+		{
+			"text": "אַנְטִפַּטְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

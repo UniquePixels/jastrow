@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00359",
-	"slug": "עורמא",
-	"headword": {
-		"text": "עוּרְמָא"
-	},
+	"sefariaHeadword": "עוּרְמָא",
+	"headwords": [
+		{
+			"text": "עוּרְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

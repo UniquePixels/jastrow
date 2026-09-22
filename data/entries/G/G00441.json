@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00441",
-	"slug": "זכאי-2",
-	"headword": {
-		"text": "זַכַּאי"
-	},
+	"sefariaHeadword": "זַכַּאי",
+	"headwords": [
+		{
+			"text": "זַכַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "b"

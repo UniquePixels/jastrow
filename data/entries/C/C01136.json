@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01136",
-	"slug": "גניבות",
-	"headword": {
-		"text": "גְּנֵיבוּת"
-	},
+	"sefariaHeadword": "גְּנֵיבוּת",
+	"headwords": [
+		{
+			"text": "גְּנֵיבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "b"

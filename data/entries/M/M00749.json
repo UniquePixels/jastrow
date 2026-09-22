@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00749",
-	"slug": "מזיגה-1",
-	"headword": {
-		"text": "מְזִיגָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְזִיגָה I",
+	"headwords": [
+		{
+			"text": "מְזִיגָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 754,
 		"column": "b"

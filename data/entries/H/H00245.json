@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00245",
-	"slug": "חובלן",
-	"headword": {
-		"text": "חוֹבְלָן"
-	},
+	"sefariaHeadword": "חוֹבְלָן",
+	"headwords": [
+		{
+			"text": "חוֹבְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "b"

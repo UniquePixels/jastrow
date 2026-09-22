@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00314",
-	"slug": "הטח",
-	"headword": {
-		"text": "הֶטֵּחַ"
-	},
+	"sefariaHeadword": "הֶטֵּחַ",
+	"headwords": [
+		{
+			"text": "הֶטֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "b"

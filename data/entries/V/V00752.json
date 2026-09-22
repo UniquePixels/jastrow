@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00752",
-	"slug": "תנן-1",
-	"headword": {
-		"text": "תְּנַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּנַן",
+	"headwords": [
+		{
+			"text": "תְּנַן"
+		},
 		{
 			"text": "תְּנֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1682,
 		"column": "a"

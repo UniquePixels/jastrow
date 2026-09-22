@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00432",
-	"slug": "עזרתא",
-	"headword": {
-		"text": "עֲזַרְתָּא"
-	},
+	"sefariaHeadword": "עֲזַרְתָּא",
+	"headwords": [
+		{
+			"text": "עֲזַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

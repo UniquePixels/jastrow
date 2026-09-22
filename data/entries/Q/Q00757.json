@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00757",
-	"slug": "פיסיאו",
-	"headword": {
-		"text": "פיסיאו"
-	},
+	"sefariaHeadword": "פיסיאו",
+	"headwords": [
+		{
+			"text": "פיסיאו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "b"

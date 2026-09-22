@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00997",
-	"slug": "פלט-1",
-	"headword": {
-		"text": "פָּלַט"
-	},
+	"sefariaHeadword": "פָּלַט",
+	"headwords": [
+		{
+			"text": "פָּלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "b"

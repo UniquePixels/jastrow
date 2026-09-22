@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00786",
-	"slug": "גיעול-2",
-	"headword": {
-		"text": "גִּיעוּל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גִּיעוּל II",
+	"headwords": [
+		{
+			"text": "גִּיעוּל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 241,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01113",
-	"slug": "דרס-1",
-	"headword": {
-		"text": "דָּרַס"
-	},
+	"sefariaHeadword": "דָּרַס",
+	"headwords": [
+		{
+			"text": "דָּרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "b"

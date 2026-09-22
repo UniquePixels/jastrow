@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00710",
-	"slug": "טרגימא",
-	"headword": {
-		"text": "טְרָגִימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרָגִימָא",
+	"headwords": [
+		{
+			"text": "טְרָגִימָא"
+		},
 		{
 			"text": "טְרוֹגִימָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 550,
 		"column": "a"

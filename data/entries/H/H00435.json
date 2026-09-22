@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00435",
-	"slug": "חוצלת",
-	"headword": {
-		"text": "חוֹצֶלֶת"
-	},
+	"sefariaHeadword": "חוֹצֶלֶת",
+	"headwords": [
+		{
+			"text": "חוֹצֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "a"

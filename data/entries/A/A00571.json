@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00571",
-	"slug": "אודרא",
-	"headword": {
-		"text": "אוּדְרָא"
-	},
+	"sefariaHeadword": "אוּדְרָא",
+	"headwords": [
+		{
+			"text": "אוּדְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

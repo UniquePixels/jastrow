@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01046",
-	"slug": "סלתא",
-	"headword": {
-		"text": "סִלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִלְתָּא",
+	"headwords": [
+		{
+			"text": "סִלְתָּא"
+		},
 		{
 			"text": "סִלְּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 998,
 		"column": "a"

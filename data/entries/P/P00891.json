@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00891",
-	"slug": "עמיקתא",
-	"headword": {
-		"text": "עֲמִיקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲמִיקְתָּא",
+	"headwords": [
+		{
+			"text": "עֲמִיקְתָּא"
+		},
 		{
 			"text": "עַמִּיקְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1088,
 		"column": "b"

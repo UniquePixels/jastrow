@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00079",
-	"slug": "יגוד",
-	"headword": {
-		"text": "יגוד"
-	},
+	"sefariaHeadword": "יגוד",
+	"headwords": [
+		{
+			"text": "יגוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

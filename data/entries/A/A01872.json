@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01872",
-	"slug": "אליסטון",
-	"headword": {
-		"text": "אִלְיַסְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְיַסְטוֹן",
+	"headwords": [
+		{
+			"text": "אִלְיַסְטוֹן"
+		},
 		{
 			"text": "אִלְיַיסְטוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "הִלְיַיסְטוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 69,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03031",
-	"slug": "מתוק-1",
-	"headword": {
-		"text": "מָתוֹק",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָתוֹק I",
+	"headwords": [
+		{
+			"text": "מָתוֹק",
+			"homograph": 1
+		},
 		{
 			"text": "מְתוּקָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 860,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01047",
-	"slug": "שיקור-2",
-	"headword": {
-		"text": "שִׁיקּוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁיקּוּר II",
+	"headwords": [
+		{
+			"text": "שִׁיקּוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1567,
 		"column": "b"

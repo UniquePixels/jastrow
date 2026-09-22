@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01444",
-	"slug": "פצעילין",
-	"headword": {
-		"text": "פַּצְעִילִין"
-	},
+	"sefariaHeadword": "פַּצְעִילִין",
+	"headwords": [
+		{
+			"text": "פַּצְעִילִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1206,
 		"column": "b"

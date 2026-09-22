@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01291",
-	"slug": "כרתית",
-	"headword": {
-		"text": "כרתית"
-	},
+	"sefariaHeadword": "כרתית",
+	"headwords": [
+		{
+			"text": "כרתית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "a"

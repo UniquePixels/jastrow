@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00799",
-	"slug": "תפארת",
-	"headword": {
-		"text": "תִּפְאֶרֶת"
-	},
+	"sefariaHeadword": "תִּפְאֶרֶת",
+	"headwords": [
+		{
+			"text": "תִּפְאֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "b"

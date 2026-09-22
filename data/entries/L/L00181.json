@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00181",
-	"slug": "לובלניות",
-	"headword": {
-		"text": "לובלניות"
-	},
+	"sefariaHeadword": "לובלניות",
+	"headwords": [
+		{
+			"text": "לובלניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00287",
-	"slug": "טטרומולין",
-	"headword": {
-		"text": "טטרומולין"
-	},
+	"sefariaHeadword": "טטרומולין",
+	"headwords": [
+		{
+			"text": "טטרומולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02587",
-	"slug": "אסתרולוגיאה",
-	"headword": {
-		"text": "אסתרולוגיאה"
-	},
+	"sefariaHeadword": "אסתרולוגיאה",
+	"headwords": [
+		{
+			"text": "אסתרולוגיאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

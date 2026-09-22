@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00575",
-	"slug": "סיד-1",
-	"headword": {
-		"text": "סִיד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סִיד I",
+	"headwords": [
+		{
+			"text": "סִיד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 976,
 		"column": "a"

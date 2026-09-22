@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00179",
-	"slug": "זולל",
-	"headword": {
-		"text": "זוֹלֵל"
-	},
+	"sefariaHeadword": "זוֹלֵל",
+	"headwords": [
+		{
+			"text": "זוֹלֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

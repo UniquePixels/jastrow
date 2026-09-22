@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00053",
-	"slug": "רבבת",
-	"headword": {
-		"text": "רִבְבַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְבַת",
+	"headwords": [
+		{
+			"text": "רִבְבַת"
+		},
 		{
 			"text": "רִבַבְתָּא"
 		},
@@ -15,9 +16,11 @@
 			"text": "רְבַוְותָּא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1439,
 		"column": "a"

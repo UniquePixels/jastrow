@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02617",
-	"slug": "מרזבתא",
-	"headword": {
-		"text": "מַרְזַבְתָּא"
-	},
+	"sefariaHeadword": "מַרְזַבְתָּא",
+	"headwords": [
+		{
+			"text": "מַרְזַבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

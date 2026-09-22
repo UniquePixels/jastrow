@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01491",
-	"slug": "מלהטמייא",
-	"headword": {
-		"text": "מלהטמייא"
-	},
+	"sefariaHeadword": "מלהטמייא",
+	"headwords": [
+		{
+			"text": "מלהטמייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 787,
 		"column": "a"

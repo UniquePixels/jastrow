@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00110",
-	"slug": "עגש",
-	"headword": {
-		"text": "עֲגַשׁ"
-	},
+	"sefariaHeadword": "עֲגַשׁ",
+	"headwords": [
+		{
+			"text": "עֲגַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "b"

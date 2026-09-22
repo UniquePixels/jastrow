@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00728",
-	"slug": "טרון-2",
-	"headword": {
-		"text": "טְרוּן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְרוּן",
+	"headwords": [
+		{
+			"text": "טְרוּן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

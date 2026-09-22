@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01352",
-	"slug": "מכה",
-	"headword": {
-		"text": "מַכָּה"
-	},
+	"sefariaHeadword": "מַכָּה",
+	"headwords": [
+		{
+			"text": "מַכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "a"

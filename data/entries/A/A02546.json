@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02546",
-	"slug": "אסקריא",
-	"headword": {
-		"text": "אִסְקַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְקַרְיָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְקַרְיָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "b"

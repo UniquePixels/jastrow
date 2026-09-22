@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01983",
-	"slug": "פרקא",
-	"headword": {
-		"text": "פִּרְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְקָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּרְקָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "a"

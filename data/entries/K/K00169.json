@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00169",
-	"slug": "כהנכא",
-	"headword": {
-		"text": "כַּהֲנָכָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כַּהֲנָכָא",
+	"headwords": [
+		{
+			"text": "כַּהֲנָכָא",
+			"reconstructed": true
+		},
 		{
 			"text": "כַּהֲנַכְתָּא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 615,
 		"column": "b"

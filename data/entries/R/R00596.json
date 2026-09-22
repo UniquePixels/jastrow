@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00596",
-	"slug": "צמרי",
-	"headword": {
-		"text": "צְמָרִי"
-	},
+	"sefariaHeadword": "צְמָרִי",
+	"headwords": [
+		{
+			"text": "צְמָרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1289,
 		"column": "b"

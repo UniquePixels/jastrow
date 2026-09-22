@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00945",
-	"slug": "דעך-1",
-	"headword": {
-		"text": "דָּעַךְ"
-	},
+	"sefariaHeadword": "דָּעַךְ",
+	"headwords": [
+		{
+			"text": "דָּעַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 316,
 		"column": "a"

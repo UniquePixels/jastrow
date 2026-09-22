@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00562",
-	"slug": "טמש",
-	"headword": {
-		"text": "טְמַשׁ"
-	},
+	"sefariaHeadword": "טְמַשׁ",
+	"headwords": [
+		{
+			"text": "טְמַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01086",
-	"slug": "אטינין",
-	"headword": {
-		"text": "אַטִּינִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַטִּינִין",
+	"headwords": [
+		{
+			"text": "אַטִּינִין",
+			"reconstructed": true
+		},
 		{
 			"text": "עַטִּינִין"
 		},
@@ -13,6 +14,7 @@
 			"text": "עִטְּנִין"
 		}
 	],
+	"display": "*{0}, {1}, ({2})",
 	"page": {
 		"number": 42,
 		"column": "b"

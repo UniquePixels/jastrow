@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00730",
-	"slug": "בירנין",
-	"headword": {
-		"text": "בִּירְנִין"
-	},
+	"sefariaHeadword": "בִּירְנִין",
+	"headwords": [
+		{
+			"text": "בִּירְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"

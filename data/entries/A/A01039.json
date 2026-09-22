@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01039",
-	"slug": "אחמר",
-	"headword": {
-		"text": "אַחְמַר"
-	},
+	"sefariaHeadword": "אַחְמַר",
+	"headwords": [
+		{
+			"text": "אַחְמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 40,
 		"column": "b"

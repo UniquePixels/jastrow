@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00301",
-	"slug": "נוגדא",
-	"headword": {
-		"text": "נוּגְדָּא"
-	},
+	"sefariaHeadword": "נוּגְדָּא",
+	"headwords": [
+		{
+			"text": "נוּגְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

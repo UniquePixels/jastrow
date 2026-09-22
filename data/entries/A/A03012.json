@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03012",
-	"slug": "ארדשיר",
-	"headword": {
-		"text": "אַרְדְּשִׁיר"
-	},
+	"sefariaHeadword": "אַרְדְּשִׁיר",
+	"headwords": [
+		{
+			"text": "אַרְדְּשִׁיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00237",
-	"slug": "סובעא",
-	"headword": {
-		"text": "סוֹבְעָא"
-	},
+	"sefariaHeadword": "סוֹבְעָא",
+	"headwords": [
+		{
+			"text": "סוֹבְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

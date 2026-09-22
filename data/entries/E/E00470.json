@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00470",
-	"slug": "היסח",
-	"headword": {
-		"text": "הֶיסֵּחַ"
-	},
+	"sefariaHeadword": "הֶיסֵּחַ",
+	"headwords": [
+		{
+			"text": "הֶיסֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "b"

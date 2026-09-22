@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00481",
-	"slug": "טלומא-2",
-	"headword": {
-		"text": "טָלוֹמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָלוֹמָא",
+	"headwords": [
 		{
-			"text": "טַלּוֹ׳"
+			"text": "טָלוֹמָא"
+		},
+		{
+			"text": "טַלּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 536,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00357",
-	"slug": "לחלוחא",
-	"headword": {
-		"text": "לִחְלוּחָא"
-	},
+	"sefariaHeadword": "לִחְלוּחָא",
+	"headwords": [
+		{
+			"text": "לִחְלוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "b"

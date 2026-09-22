@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00277",
-	"slug": "יחופה",
-	"headword": {
-		"text": "יָחוֹפָה"
-	},
+	"sefariaHeadword": "יָחוֹפָה",
+	"headwords": [
+		{
+			"text": "יָחוֹפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 573,
 		"column": "b"

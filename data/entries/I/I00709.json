@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00709",
-	"slug": "טרגיה",
-	"headword": {
-		"text": "טרגיה"
-	},
+	"sefariaHeadword": "טרגיה",
+	"headwords": [
+		{
+			"text": "טרגיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00268",
-	"slug": "גואן",
-	"headword": {
-		"text": "גַּוָּאן"
-	},
+	"sefariaHeadword": "גַּוָּאן",
+	"headwords": [
+		{
+			"text": "גַּוָּאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 216,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00828",
-	"slug": "רמנא",
-	"headword": {
-		"text": "רֵמָנָא"
-	},
+	"sefariaHeadword": "רֵמָנָא",
+	"headwords": [
+		{
+			"text": "רֵמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

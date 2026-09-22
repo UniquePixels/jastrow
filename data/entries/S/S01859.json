@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01859",
-	"slug": "קקא-1",
-	"headword": {
-		"text": "קָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָקָא",
+	"headwords": [
+		{
+			"text": "קָקָא"
+		},
 		{
 			"text": "קָקְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "a"

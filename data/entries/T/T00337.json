@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00337",
-	"slug": "רווקא-2",
-	"headword": {
-		"text": "רְוָוקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְוָוקָא II",
+	"headwords": [
+		{
+			"text": "רְוָוקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1457,
 		"column": "b"

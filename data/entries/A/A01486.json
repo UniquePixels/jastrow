@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01486",
-	"slug": "איספקלריא",
-	"headword": {
-		"text": "אִיסְפַּקְלַרְיָא"
-	},
+	"sefariaHeadword": "אִיסְפַּקְלַרְיָא",
+	"headwords": [
+		{
+			"text": "אִיסְפַּקְלַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

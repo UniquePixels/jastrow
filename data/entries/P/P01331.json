@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01331",
-	"slug": "ערוע",
-	"headword": {
-		"text": "עֵרוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵרוּעַ",
+	"headwords": [
+		{
+			"text": "עֵרוּעַ"
+		},
 		{
 			"text": "עֵרוּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1115,
 		"column": "b"

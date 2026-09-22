@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H01579",
-	"slug": "חרב-3",
-	"headword": {
-		"text": "חָרֵב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרֵב II",
+	"headwords": [
+		{
+			"text": "חָרֵב",
+			"homograph": 2
+		},
 		{
 			"text": "חֲרֵבָה"
 		},
 		{
-			"text": "חֲרֵי׳"
+			"text": "חֲרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 498,
 		"column": "a"

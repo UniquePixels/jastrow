@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00057",
-	"slug": "וכח",
-	"headword": {
-		"text": "וָכַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וָכַח",
+	"headwords": [
+		{
+			"text": "וָכַח"
+		},
 		{
 			"text": "וְכַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 374,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01596",
-	"slug": "חרגינין",
-	"headword": {
-		"text": "חַרְגִּינִּין"
-	},
+	"sefariaHeadword": "חַרְגִּינִּין",
+	"headwords": [
+		{
+			"text": "חַרְגִּינִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00035",
-	"slug": "צבי-3",
-	"headword": {
-		"text": "צְבִי"
-	},
+	"sefariaHeadword": "צְבִי",
+	"headwords": [
+		{
+			"text": "צְבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "a"

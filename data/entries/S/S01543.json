@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01543",
-	"slug": "קנוי",
-	"headword": {
-		"text": "קִנּוּי"
-	},
+	"sefariaHeadword": "קִנּוּי",
+	"headwords": [
+		{
+			"text": "קִנּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

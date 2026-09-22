@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01553",
-	"slug": "קנט-2",
-	"headword": {
-		"text": "קְנַט"
-	},
+	"sefariaHeadword": "קְנַט",
+	"headwords": [
+		{
+			"text": "קְנַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

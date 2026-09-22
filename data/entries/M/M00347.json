@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00347",
-	"slug": "מהו",
-	"headword": {
-		"text": "מָהוּ"
-	},
+	"sefariaHeadword": "מָהוּ",
+	"headwords": [
+		{
+			"text": "מָהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 736,
 		"column": "b"

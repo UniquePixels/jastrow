@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00787",
-	"slug": "פיפייארות",
-	"headword": {
-		"text": "פִּיפְיָיארוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיפְיָיארוֹת",
+	"headwords": [
+		{
+			"text": "פִּיפְיָיארוֹת"
+		},
 		{
 			"text": "פִּיפְיָיארוּת"
 		},
 		{
-			"text": "פִּיפְיָיר׳"
+			"text": "פִּיפְיָיר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1168,
 		"column": "b"

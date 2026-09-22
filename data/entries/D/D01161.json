@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01161",
-	"slug": "דת-3",
-	"headword": {
-		"text": "דָּת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּת ²",
+	"headwords": [
+		{
+			"text": "דָּת",
+			"disambiguator": 2
+		},
 		{
 			"text": "דָּתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 327,
 		"column": "a"

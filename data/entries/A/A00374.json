@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00374",
-	"slug": "אדבאל",
-	"headword": {
-		"text": "אדבאל"
-	},
+	"sefariaHeadword": "אדבאל",
+	"headwords": [
+		{
+			"text": "אדבאל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "b"

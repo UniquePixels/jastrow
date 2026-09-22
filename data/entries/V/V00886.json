@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00886",
-	"slug": "תקיעתא",
-	"headword": {
-		"text": "תְּקִיעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּקִיעֲתָא",
+	"headwords": [
+		{
+			"text": "תְּקִיעֲתָא"
+		},
 		{
 			"text": "תְּקִיעֲתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1690,
 		"column": "b"

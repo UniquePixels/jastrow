@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00301",
-	"slug": "אגלא",
-	"headword": {
-		"text": "אִגְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִגְלָא",
+	"headwords": [
+		{
+			"text": "אִגְלָא"
+		},
 		{
 			"text": "אִיגְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "b"

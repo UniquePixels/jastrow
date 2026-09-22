@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01365",
-	"slug": "חסחסות",
-	"headword": {
-		"text": "חַסְחָסוּת"
-	},
+	"sefariaHeadword": "חַסְחָסוּת",
+	"headwords": [
+		{
+			"text": "חַסְחָסוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "a"

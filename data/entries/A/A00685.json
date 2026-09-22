@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00685",
-	"slug": "אום",
-	"headword": {
-		"text": "אוּם"
-	},
+	"sefariaHeadword": "אוּם",
+	"headwords": [
+		{
+			"text": "אוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "b"

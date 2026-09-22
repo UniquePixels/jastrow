@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00039",
-	"slug": "טבותא",
-	"headword": {
-		"text": "טֵבוּתָא"
-	},
+	"sefariaHeadword": "טֵבוּתָא",
+	"headwords": [
+		{
+			"text": "טֵבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

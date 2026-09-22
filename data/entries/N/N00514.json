@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00514",
-	"slug": "נחץ",
-	"headword": {
-		"text": "נְחַץ"
-	},
+	"sefariaHeadword": "נְחַץ",
+	"headwords": [
+		{
+			"text": "נְחַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

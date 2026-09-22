@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00183",
-	"slug": "הובאי",
-	"headword": {
-		"text": "הוֹבַאי"
-	},
+	"sefariaHeadword": "הוֹבַאי",
+	"headwords": [
+		{
+			"text": "הוֹבַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

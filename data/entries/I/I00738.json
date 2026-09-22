@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00738",
-	"slug": "טרוקיתקא",
-	"headword": {
-		"text": "טרוקיתקא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טרוקיתקא",
+	"headwords": [
+		{
+			"text": "טרוקיתקא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

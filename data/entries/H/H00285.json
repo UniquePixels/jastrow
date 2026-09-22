@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00285",
-	"slug": "חוזאי",
-	"headword": {
-		"text": "חוֹזָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹזָאֵי",
+	"headwords": [
 		{
-			"text": "בֵּי חוֹזָאֵי"
+			"text": "חוֹזָאֵי"
+		},
+		{
+			"text": "בֵּי ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 430,
 		"column": "b"

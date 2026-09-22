@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01159",
-	"slug": "קירוד",
-	"headword": {
-		"text": "קֵירוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵירוּד",
+	"headwords": [
+		{
+			"text": "קֵירוּד"
+		},
 		{
 			"text": "קֵירוּר"
 		},
 		{
-			"text": "קֵר׳"
+			"text": "קֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01166",
-	"slug": "כריכה",
-	"headword": {
-		"text": "כְּרִיכָה"
-	},
+	"sefariaHeadword": "כְּרִיכָה",
+	"headwords": [
+		{
+			"text": "כְּרִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "a"

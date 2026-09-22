@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01436",
-	"slug": "איסטיות",
-	"headword": {
-		"text": "איסטיות"
-	},
+	"sefariaHeadword": "איסטיות",
+	"headwords": [
+		{
+			"text": "איסטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "a"

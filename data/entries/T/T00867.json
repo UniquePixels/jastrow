@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00867",
-	"slug": "רע-4",
-	"headword": {
-		"text": "רֵעַ"
-	},
+	"sefariaHeadword": "רֵעַ",
+	"headwords": [
+		{
+			"text": "רֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "b"

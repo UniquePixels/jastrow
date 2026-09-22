@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01225",
-	"slug": "סניא-1",
-	"headword": {
-		"text": "סַנְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סַנְיָא I",
+	"headwords": [
+		{
+			"text": "סַנְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1007,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00515",
-	"slug": "שופתא",
-	"headword": {
-		"text": "שׁוּפְתָּא"
-	},
+	"sefariaHeadword": "שׁוּפְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "b"

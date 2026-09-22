@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01889",
-	"slug": "שקק-1",
-	"headword": {
-		"text": "שָׁקַק"
-	},
+	"sefariaHeadword": "שָׁקַק",
+	"headwords": [
+		{
+			"text": "שָׁקַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1625,
 		"column": "b"

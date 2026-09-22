@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00171",
-	"slug": "זוית",
-	"headword": {
-		"text": "זָוִית"
-	},
+	"sefariaHeadword": "זָוִית",
+	"headwords": [
+		{
+			"text": "זָוִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

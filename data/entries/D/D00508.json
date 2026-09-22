@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00508",
-	"slug": "דיוזגו",
-	"headword": {
-		"text": "דיוזגו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיוזגו",
+	"headwords": [
+		{
+			"text": "דיוזגו"
+		},
 		{
 			"text": "דיוזגי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 296,
 		"column": "b"

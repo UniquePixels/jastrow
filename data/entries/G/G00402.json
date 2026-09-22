@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00402",
-	"slug": "זיפתי",
-	"headword": {
-		"text": "זיפתי"
-	},
+	"sefariaHeadword": "זיפתי",
+	"headwords": [
+		{
+			"text": "זיפתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

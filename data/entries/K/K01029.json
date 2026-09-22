@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01029",
-	"slug": "כפלא",
-	"headword": {
-		"text": "כַּפְלָא"
-	},
+	"sefariaHeadword": "כַּפְלָא",
+	"headwords": [
+		{
+			"text": "כַּפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

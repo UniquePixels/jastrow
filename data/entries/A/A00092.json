@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00092",
-	"slug": "אבטוניות",
-	"headword": {
-		"text": "אַבְטוֹנִיּוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְטוֹנִיּוֹת",
+	"headwords": [
+		{
+			"text": "אַבְטוֹנִיּוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00487",
-	"slug": "חוש-2",
-	"headword": {
-		"text": "חוּשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוּשׁ II",
+	"headwords": [
+		{
+			"text": "חוּשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 441,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00512",
-	"slug": "טלם",
-	"headword": {
-		"text": "טְלַם"
-	},
+	"sefariaHeadword": "טְלַם",
+	"headwords": [
+		{
+			"text": "טְלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 537,
 		"column": "b"

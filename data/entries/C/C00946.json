@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00946",
-	"slug": "גלילא-2",
-	"headword": {
-		"text": "גְּלִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלִילָא",
+	"headwords": [
+		{
+			"text": "גְּלִילָא"
+		},
 		{
 			"text": "גְּלִילַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 249,
 		"column": "a"

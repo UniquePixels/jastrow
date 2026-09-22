@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00972",
-	"slug": "עני-3",
-	"headword": {
-		"text": "עני",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עני ²",
+	"headwords": [
+		{
+			"text": "עני",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָנָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1093,
 		"column": "b"

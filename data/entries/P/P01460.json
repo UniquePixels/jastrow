@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01460",
-	"slug": "עש-2",
-	"headword": {
-		"text": "עָשׁ"
-	},
+	"sefariaHeadword": "עָשׁ",
+	"headwords": [
+		{
+			"text": "עָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "a"

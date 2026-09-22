@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00162",
-	"slug": "גדגדניות",
-	"headword": {
-		"text": "גַּדְגַּדְנִיּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּדְגַּדְנִיּוֹת",
+	"headwords": [
 		{
-			"text": "גּוּדְגַּ׳"
+			"text": "גַּדְגַּדְנִיּוֹת"
+		},
+		{
+			"text": "גּוּדְגַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 210,
 		"column": "a"

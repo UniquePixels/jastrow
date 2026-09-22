@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00512",
-	"slug": "תירעתא",
-	"headword": {
-		"text": "תִּירְעֲתָא"
-	},
+	"sefariaHeadword": "תִּירְעֲתָא",
+	"headwords": [
+		{
+			"text": "תִּירְעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

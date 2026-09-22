@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01966",
-	"slug": "מסמס-5",
-	"headword": {
-		"text": "מִסְמֵס",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְמֵס III",
+	"headwords": [
+		{
+			"text": "מִסְמֵס",
+			"homograph": 3
+		},
 		{
 			"text": "מִסְמֵיס"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 809,
 		"column": "a"

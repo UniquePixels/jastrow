@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01264",
-	"slug": "קלווסים",
-	"headword": {
-		"text": "קלווסים"
-	},
+	"sefariaHeadword": "קלווסים",
+	"headwords": [
+		{
+			"text": "קלווסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

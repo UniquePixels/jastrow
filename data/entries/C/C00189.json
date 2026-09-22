@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00189",
-	"slug": "גדורקרי",
-	"headword": {
-		"text": "גדורקרי"
-	},
+	"sefariaHeadword": "גדורקרי",
+	"headwords": [
+		{
+			"text": "גדורקרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00761",
-	"slug": "ביתיוני",
-	"headword": {
-		"text": "בית־יוני"
-	},
+	"sefariaHeadword": "בית־יוני",
+	"headwords": [
+		{
+			"text": "בית־יוני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00021",
-	"slug": "סאסא",
-	"headword": {
-		"text": "סָאסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָאסָא",
+	"headwords": [
+		{
+			"text": "סָאסָא"
+		},
 		{
 			"text": "סַאסְאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 948,
 		"column": "a"

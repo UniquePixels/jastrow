@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00699",
-	"slug": "חיזק",
-	"headword": {
-		"text": "חִיזֵּק"
-	},
+	"sefariaHeadword": "חִיזֵּק",
+	"headwords": [
+		{
+			"text": "חִיזֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "a"

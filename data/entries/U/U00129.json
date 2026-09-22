@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00129",
-	"slug": "שביעי",
-	"headword": {
-		"text": "שְׁבִיעִי"
-	},
+	"sefariaHeadword": "שְׁבִיעִי",
+	"headwords": [
+		{
+			"text": "שְׁבִיעִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

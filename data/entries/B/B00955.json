@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00955",
-	"slug": "בניסא",
-	"headword": {
-		"text": "בְּנִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּנִיסָא",
+	"headwords": [
+		{
+			"text": "בְּנִיסָא"
+		},
 		{
 			"text": "בְּנִיסְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 177,
 		"column": "a"

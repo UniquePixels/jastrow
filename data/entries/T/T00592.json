@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00592",
-	"slug": "ריבותא-2",
-	"headword": {
-		"text": "רִיבּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוּתָא",
+	"headwords": [
+		{
+			"text": "רִיבּוּתָא"
+		},
 		{
 			"text": "רִיבּוֹתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "a"

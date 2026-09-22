@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02045",
-	"slug": "קריותא",
-	"headword": {
-		"text": "קִרְיוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְיוּתָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִרְיוּתָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1420,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00719",
-	"slug": "סימפונא",
-	"headword": {
-		"text": "סִימְפּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְפּוֹנָא",
+	"headwords": [
 		{
-			"text": "סִמְ׳"
+			"text": "סִימְפּוֹנָא"
+		},
+		{
+			"text": "סִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 982,
 		"column": "b"

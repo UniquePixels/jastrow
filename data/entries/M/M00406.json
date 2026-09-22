@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00406",
-	"slug": "מוד",
-	"headword": {
-		"text": "מוּד"
-	},
+	"sefariaHeadword": "מוּד",
+	"headwords": [
+		{
+			"text": "מוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

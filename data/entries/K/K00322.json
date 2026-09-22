@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00322",
-	"slug": "כוסטריינים",
-	"headword": {
-		"text": "כוסטריינים"
-	},
+	"sefariaHeadword": "כוסטריינים",
+	"headwords": [
+		{
+			"text": "כוסטריינים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "a"

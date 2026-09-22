@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02734",
-	"slug": "מרעו",
-	"headword": {
-		"text": "מַרְעוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְעוּ",
+	"headwords": [
+		{
+			"text": "מַרְעוּ"
+		},
 		{
 			"text": "מַרְעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 845,
 		"column": "b"

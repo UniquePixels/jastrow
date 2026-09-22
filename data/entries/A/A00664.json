@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00664",
-	"slug": "אולוכורסין",
-	"headword": {
-		"text": "אולוכורסין"
-	},
+	"sefariaHeadword": "אולוכורסין",
+	"headwords": [
+		{
+			"text": "אולוכורסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

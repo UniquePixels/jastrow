@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00979",
-	"slug": "שיננא",
-	"headword": {
-		"text": "שִׁינְנָא"
-	},
+	"sefariaHeadword": "שִׁינְנָא",
+	"headwords": [
+		{
+			"text": "שִׁינְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00359",
-	"slug": "נוכרא",
-	"headword": {
-		"text": "נוּכְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּכְרָא",
+	"headwords": [
+		{
+			"text": "נוּכְרָא"
+		},
 		{
 			"text": "נוּכְרָאָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "נוּכְרָיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 887,
 		"column": "a"

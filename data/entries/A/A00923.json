@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00923",
-	"slug": "אושכף",
-	"headword": {
-		"text": "אוּשְׁכָּף"
-	},
+	"sefariaHeadword": "אוּשְׁכָּף",
+	"headwords": [
+		{
+			"text": "אוּשְׁכָּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

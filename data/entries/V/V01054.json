@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01054",
-	"slug": "תרצא",
-	"headword": {
-		"text": "תְּרִצָא"
-	},
+	"sefariaHeadword": "תְּרִצָא",
+	"headwords": [
+		{
+			"text": "תְּרִצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

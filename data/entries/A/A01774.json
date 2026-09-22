@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01774",
-	"slug": "אלבינא",
-	"headword": {
-		"text": "אַלְבִּינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְבִּינָא",
+	"headwords": [
+		{
+			"text": "אַלְבִּינָא"
+		},
 		{
 			"text": "אַלְבִּינָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 66,
 		"column": "b"

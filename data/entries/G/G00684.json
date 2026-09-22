@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00684",
-	"slug": "זרות",
-	"headword": {
-		"text": "זָרוּת"
-	},
+	"sefariaHeadword": "זָרוּת",
+	"headwords": [
+		{
+			"text": "זָרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

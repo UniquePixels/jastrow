@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00760",
-	"slug": "דכדך-1",
-	"headword": {
-		"text": "דִּכְדֵּךְ"
-	},
+	"sefariaHeadword": "דִּכְדֵּךְ",
+	"headwords": [
+		{
+			"text": "דִּכְדֵּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "b"

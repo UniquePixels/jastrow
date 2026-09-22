@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00575",
-	"slug": "רטף",
-	"headword": {
-		"text": "רְטַף"
-	},
+	"sefariaHeadword": "רְטַף",
+	"headwords": [
+		{
+			"text": "רְטַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "a"

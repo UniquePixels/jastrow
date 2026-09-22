@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00223",
-	"slug": "מגרפה",
-	"headword": {
-		"text": "מַגְרֵפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְרֵפָה",
+	"headwords": [
 		{
-			"text": "מַגְרֵי׳"
+			"text": "מַגְרֵפָה"
+		},
+		{
+			"text": "מַגְרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "b"

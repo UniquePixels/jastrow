@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00022",
-	"slug": "אבאטיס",
-	"headword": {
-		"text": "אבאטיס"
-	},
+	"sefariaHeadword": "אבאטיס",
+	"headwords": [
+		{
+			"text": "אבאטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 2,
 		"column": "b"

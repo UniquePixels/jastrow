@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01329",
-	"slug": "ברקניא",
-	"headword": {
-		"text": "בַּרְקָנַיָּא"
-	},
+	"sefariaHeadword": "בַּרְקָנַיָּא",
+	"headwords": [
+		{
+			"text": "בַּרְקָנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

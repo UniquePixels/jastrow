@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00430",
-	"slug": "נזז-1",
-	"headword": {
-		"text": "נָזַז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָזַז",
+	"headwords": [
+		{
+			"text": "נָזַז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

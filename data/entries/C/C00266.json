@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00266",
-	"slug": "גואל",
-	"headword": {
-		"text": "גּוֹאֵל"
-	},
+	"sefariaHeadword": "גּוֹאֵל",
+	"headwords": [
+		{
+			"text": "גּוֹאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 216,
 		"column": "b"

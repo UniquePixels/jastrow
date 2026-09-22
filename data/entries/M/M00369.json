@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00369",
-	"slug": "מהליך",
-	"headword": {
-		"text": "מְהַלֵיךְ"
-	},
+	"sefariaHeadword": "מְהַלֵיךְ",
+	"headwords": [
+		{
+			"text": "מְהַלֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

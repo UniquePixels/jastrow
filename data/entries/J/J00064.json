@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "J00064",
-	"slug": "יבמתא",
-	"headword": {
-		"text": "יְבַמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְבַמְתָּא",
+	"headwords": [
 		{
-			"text": "יְבִמְ׳"
+			"text": "יְבַמְתָּא"
 		},
 		{
-			"text": "יְבִימְ׳"
+			"text": "יְבִמְ׳",
+			"partial": true
+		},
+		{
+			"text": "יְבִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 562,
 		"column": "a"

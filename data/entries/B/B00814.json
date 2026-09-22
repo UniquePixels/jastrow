@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00814",
-	"slug": "בלבל-1",
-	"headword": {
-		"text": "בִּלְבֵּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּלְבֵּל",
+	"headwords": [
+		{
+			"text": "בִּלְבֵּל"
+		},
 		{
 			"text": "בִּילְבֵּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 170,
 		"column": "b"

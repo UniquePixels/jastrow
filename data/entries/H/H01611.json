@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01611",
-	"slug": "חרוב-3",
-	"headword": {
-		"text": "חֲרוּב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲרוּב I",
+	"headwords": [
+		{
+			"text": "חֲרוּב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 499,
 		"column": "a"

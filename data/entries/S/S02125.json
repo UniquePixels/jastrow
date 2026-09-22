@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02125",
-	"slug": "קרסם-1",
-	"headword": {
-		"text": "קִרְסֵם"
-	},
+	"sefariaHeadword": "קִרְסֵם",
+	"headwords": [
+		{
+			"text": "קִרְסֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

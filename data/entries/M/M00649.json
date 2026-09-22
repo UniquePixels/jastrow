@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00649",
-	"slug": "מוריין",
-	"headword": {
-		"text": "מוֹרְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרְיָין",
+	"headwords": [
+		{
+			"text": "מוֹרְיָין"
+		},
 		{
 			"text": "מוֹרְיָינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "a"

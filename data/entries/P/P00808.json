@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00808",
-	"slug": "עלים-2",
-	"headword": {
-		"text": "עַלִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַלִּים",
+	"headwords": [
+		{
+			"text": "עַלִּים"
+		},
 		{
 			"text": "עֲלִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1083,
 		"column": "b"

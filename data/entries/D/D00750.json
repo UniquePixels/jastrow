@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00750",
-	"slug": "דיתאה",
-	"headword": {
-		"text": "דִּיתְאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיתְאָה",
+	"headwords": [
 		{
-			"text": "דִּתְ׳"
+			"text": "דִּיתְאָה"
+		},
+		{
+			"text": "דִּתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "a"

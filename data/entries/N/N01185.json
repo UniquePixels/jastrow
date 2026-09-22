@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01185",
-	"slug": "נקור",
-	"headword": {
-		"text": "נִקּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקּוּר",
+	"headwords": [
+		{
+			"text": "נִקּוּר"
+		},
 		{
 			"text": "נִקּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "b"

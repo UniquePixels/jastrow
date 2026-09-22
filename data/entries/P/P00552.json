@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00552",
-	"slug": "עיינותא",
-	"headword": {
-		"text": "עַיְינוּתָא"
-	},
+	"sefariaHeadword": "עַיְינוּתָא",
+	"headwords": [
+		{
+			"text": "עַיְינוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"

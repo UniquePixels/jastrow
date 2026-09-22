@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01300",
-	"slug": "כשורא",
-	"headword": {
-		"text": "כָּשׁוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּשׁוֹרָא",
+	"headwords": [
 		{
-			"text": "כְּשׁוֹ׳"
+			"text": "כָּשׁוֹרָא"
+		},
+		{
+			"text": "כְּשׁוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 675,
 		"column": "a"

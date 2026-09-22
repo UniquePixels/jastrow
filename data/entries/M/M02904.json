@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02904",
-	"slug": "משכן-1",
-	"headword": {
-		"text": "מַשְׁכָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁכָּן",
+	"headwords": [
+		{
+			"text": "מַשְׁכָּן"
+		},
 		{
 			"text": "מַשְׁכֹּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 854,
 		"column": "b"

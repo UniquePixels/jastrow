@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00601",
-	"slug": "מוקשה",
-	"headword": {
-		"text": "מוּקְשֶׁה"
-	},
+	"sefariaHeadword": "מוּקְשֶׁה",
+	"headwords": [
+		{
+			"text": "מוּקְשֶׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 748,
 		"column": "a"

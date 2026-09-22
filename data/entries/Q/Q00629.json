@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00629",
-	"slug": "פיטמא-2",
-	"headword": {
-		"text": "פִּיטְמָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְמָא II",
+	"headwords": [
+		{
+			"text": "פִּיטְמָא",
+			"homograph": 2
+		},
 		{
 			"text": "פִּיטְמָה"
 		},
 		{
-			"text": "פִּטְ׳"
+			"text": "פִּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1161,
 		"column": "b"

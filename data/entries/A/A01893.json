@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01893",
-	"slug": "אלכסנדרא",
-	"headword": {
-		"text": "אֲלֶכְסַנְדְּרָא"
-	},
+	"sefariaHeadword": "אֲלֶכְסַנְדְּרָא",
+	"headwords": [
+		{
+			"text": "אֲלֶכְסַנְדְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "b"

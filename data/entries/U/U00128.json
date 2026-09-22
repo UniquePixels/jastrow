@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00128",
-	"slug": "שביעה",
-	"headword": {
-		"text": "שְׂבִיעָה"
-	},
+	"sefariaHeadword": "שְׂבִיעָה",
+	"headwords": [
+		{
+			"text": "שְׂבִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

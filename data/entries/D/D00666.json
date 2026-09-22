@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00666",
-	"slug": "דיסתורא",
-	"headword": {
-		"text": "דִּיסְתּוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְתּוֹרָא",
+	"headwords": [
+		{
+			"text": "דִּיסְתּוֹרָא"
+		},
 		{
 			"text": "דִּיסְתּוֹרָן"
 		},
@@ -12,9 +13,11 @@
 			"text": "דִּיסְטוֹרִין"
 		},
 		{
-			"text": "דִּסְ׳"
+			"text": "דִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 303,
 		"column": "a"

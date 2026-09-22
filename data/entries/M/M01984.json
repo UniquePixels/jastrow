@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01984",
-	"slug": "מסעד",
-	"headword": {
-		"text": "מְסָעֵד"
-	},
+	"sefariaHeadword": "מְסָעֵד",
+	"headwords": [
+		{
+			"text": "מְסָעֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "a"

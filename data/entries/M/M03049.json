@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03049",
-	"slug": "מתיב",
-	"headword": {
-		"text": "מתיב"
-	},
+	"sefariaHeadword": "מתיב",
+	"headwords": [
+		{
+			"text": "מתיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "b"

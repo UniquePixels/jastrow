@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00679",
-	"slug": "עירו",
-	"headword": {
-		"text": "עירו"
-	},
+	"sefariaHeadword": "עירו",
+	"headwords": [
+		{
+			"text": "עירו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1075,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00518",
-	"slug": "ליצנותא",
-	"headword": {
-		"text": "לֵיצָנוּתָא"
-	},
+	"sefariaHeadword": "לֵיצָנוּתָא",
+	"headwords": [
+		{
+			"text": "לֵיצָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "b"

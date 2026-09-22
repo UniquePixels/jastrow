@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01212",
-	"slug": "ברושייתא",
-	"headword": {
-		"text": "ברושייתא"
-	},
+	"sefariaHeadword": "ברושייתא",
+	"headwords": [
+		{
+			"text": "ברושייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "a"

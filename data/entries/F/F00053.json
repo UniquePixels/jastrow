@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00053",
-	"slug": "וויתירה",
-	"headword": {
-		"text": "וויתירה"
-	},
+	"sefariaHeadword": "וויתירה",
+	"headwords": [
+		{
+			"text": "וויתירה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00011",
-	"slug": "צאצאים",
-	"headword": {
-		"text": "צֶאֱצָאִים"
-	},
+	"sefariaHeadword": "צֶאֱצָאִים",
+	"headwords": [
+		{
+			"text": "צֶאֱצָאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01510",
-	"slug": "חצודא",
-	"headword": {
-		"text": "חָצוֹדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָצוֹדָא",
+	"headwords": [
+		{
+			"text": "חָצוֹדָא"
+		},
 		{
 			"text": "חֲצוֹדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 494,
 		"column": "b"

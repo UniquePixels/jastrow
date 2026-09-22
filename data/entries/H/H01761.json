@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01761",
-	"slug": "חרק-3",
-	"headword": {
-		"text": "חֲרַק"
-	},
+	"sefariaHeadword": "חֲרַק",
+	"headwords": [
+		{
+			"text": "חֲרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 506,
 		"column": "a"

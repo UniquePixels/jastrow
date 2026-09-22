@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01753",
-	"slug": "קפלוט",
-	"headword": {
-		"text": "קַפְלוֹט"
-	},
+	"sefariaHeadword": "קַפְלוֹט",
+	"headwords": [
+		{
+			"text": "קַפְלוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

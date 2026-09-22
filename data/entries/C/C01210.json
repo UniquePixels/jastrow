@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01210",
-	"slug": "גפסית",
-	"headword": {
-		"text": "גִּפְסִית"
-	},
+	"sefariaHeadword": "גִּפְסִית",
+	"headwords": [
+		{
+			"text": "גִּפְסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

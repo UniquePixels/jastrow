@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00063",
-	"slug": "בבלון",
-	"headword": {
-		"text": "בַּבְלוֹן"
-	},
+	"sefariaHeadword": "בַּבְלוֹן",
+	"headwords": [
+		{
+			"text": "בַּבְלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00046",
-	"slug": "טבחא-2",
-	"headword": {
-		"text": "טבָחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טבָחָא",
+	"headwords": [
+		{
+			"text": "טבָחָא"
+		},
 		{
 			"text": "טִבְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 516,
 		"column": "b"

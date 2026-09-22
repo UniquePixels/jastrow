@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00112",
-	"slug": "עד-2",
-	"headword": {
-		"text": "עַד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עַד ²",
+	"headwords": [
+		{
+			"text": "עַד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1042,
 		"column": "b"

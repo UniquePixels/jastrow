@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00923",
-	"slug": "קיטרון",
-	"headword": {
-		"text": "קִיטְרוֹן"
-	},
+	"sefariaHeadword": "קִיטְרוֹן",
+	"headwords": [
+		{
+			"text": "קִיטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1358,
 		"column": "b"

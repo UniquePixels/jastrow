@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P01533",
-	"slug": "עתיק-2",
-	"headword": {
-		"text": "עַתִּיק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַתִּיק ²",
+	"headwords": [
+		{
+			"text": "עַתִּיק",
+			"disambiguator": 2
+		},
 		{
 			"text": "עַתִּיקָא",
 			"homograph": 1
@@ -17,6 +18,7 @@
 			"text": "עַתִּיקְתָּא"
 		}
 	],
+	"display": "{0} ², {1} I, {2}, {3}",
 	"page": {
 		"number": 1129,
 		"column": "b"

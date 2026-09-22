@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01491",
-	"slug": "סקסנאה",
-	"headword": {
-		"text": "סַקְסְנָאָה"
-	},
+	"sefariaHeadword": "סַקְסְנָאָה",
+	"headwords": [
+		{
+			"text": "סַקְסְנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "a"

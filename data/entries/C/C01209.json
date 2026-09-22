@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01209",
-	"slug": "גפסיס",
-	"headword": {
-		"text": "גִּפְסִיס"
-	},
+	"sefariaHeadword": "גִּפְסִיס",
+	"headwords": [
+		{
+			"text": "גִּפְסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

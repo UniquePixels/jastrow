@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01541",
-	"slug": "מלטמיא",
-	"headword": {
-		"text": "מלטמיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מלטמיא",
+	"headwords": [
+		{
+			"text": "מלטמיא"
+		},
 		{
 			"text": "מלטמייא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 789,
 		"column": "b"

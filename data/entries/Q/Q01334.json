@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01334",
-	"slug": "פסלין",
-	"headword": {
-		"text": "פסלין"
-	},
+	"sefariaHeadword": "פסלין",
+	"headwords": [
+		{
+			"text": "פסלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1198,
 		"column": "a"

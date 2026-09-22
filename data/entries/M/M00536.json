@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00536",
-	"slug": "מונטיא",
-	"headword": {
-		"text": "מונטיא"
-	},
+	"sefariaHeadword": "מונטיא",
+	"headwords": [
+		{
+			"text": "מונטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

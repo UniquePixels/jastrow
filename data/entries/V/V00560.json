@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00560",
-	"slug": "תכשיט",
-	"headword": {
-		"text": "תַּכְשִׁיט"
-	},
+	"sefariaHeadword": "תַּכְשִׁיט",
+	"headwords": [
+		{
+			"text": "תַּכְשִׁיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00609",
-	"slug": "קוריים",
-	"headword": {
-		"text": "קוֹרִיִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹרִיִּים",
+	"headwords": [
+		{
+			"text": "קוֹרִיִּים"
+		},
 		{
 			"text": "קוֹרִיִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1343,
 		"column": "a"

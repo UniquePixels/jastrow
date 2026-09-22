@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00296",
-	"slug": "תוריתא",
-	"headword": {
-		"text": "תּוֹרִיתָא"
-	},
+	"sefariaHeadword": "תּוֹרִיתָא",
+	"headwords": [
+		{
+			"text": "תּוֹרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

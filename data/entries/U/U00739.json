@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00739",
-	"slug": "שטות",
-	"headword": {
-		"text": "שְׁטוּת"
-	},
+	"sefariaHeadword": "שְׁטוּת",
+	"headwords": [
+		{
+			"text": "שְׁטוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1553,
 		"column": "a"

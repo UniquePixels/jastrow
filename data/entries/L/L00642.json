@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00642",
-	"slug": "לפני",
-	"headword": {
-		"text": "לִפְנַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִפְנַי",
+	"headwords": [
+		{
+			"text": "לִפְנַי"
+		},
 		{
 			"text": "לִפְנַיי"
 		},
@@ -12,6 +13,7 @@
 			"text": "לִפְנִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 715,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02479",
-	"slug": "מר-5",
-	"headword": {
-		"text": "מַר",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַר IV",
+	"headwords": [
+		{
+			"text": "מַר",
+			"homograph": 4
+		},
 		{
 			"text": "מָר"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} IV, {1}, {2} I",
 	"page": {
 		"number": 834,
 		"column": "a"

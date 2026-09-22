@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00229",
-	"slug": "גדליי",
-	"headword": {
-		"text": "גַּדְּלַיי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּדְּלַיי",
+	"headwords": [
+		{
+			"text": "גַּדְּלַיי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 213,
 		"column": "b"

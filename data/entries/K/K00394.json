@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00394",
-	"slug": "כורסין",
-	"headword": {
-		"text": "כורסין"
-	},
+	"sefariaHeadword": "כורסין",
+	"headwords": [
+		{
+			"text": "כורסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "a"

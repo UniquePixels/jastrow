@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02385",
-	"slug": "אסטן",
-	"headword": {
-		"text": "אסטן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אסטן",
+	"headwords": [
+		{
+			"text": "אסטן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

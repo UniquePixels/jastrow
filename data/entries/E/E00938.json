@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00938",
-	"slug": "השקפה",
-	"headword": {
-		"text": "הַשְׁקָפָה"
-	},
+	"sefariaHeadword": "הַשְׁקָפָה",
+	"headwords": [
+		{
+			"text": "הַשְׁקָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "b"

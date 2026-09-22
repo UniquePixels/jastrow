@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00299",
-	"slug": "הזמא",
-	"headword": {
-		"text": "הִזְמָא"
-	},
+	"sefariaHeadword": "הִזְמָא",
+	"headwords": [
+		{
+			"text": "הִזְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01097",
-	"slug": "אטם",
-	"headword": {
-		"text": "אָטַם"
-	},
+	"sefariaHeadword": "אָטַם",
+	"headwords": [
+		{
+			"text": "אָטַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "a"

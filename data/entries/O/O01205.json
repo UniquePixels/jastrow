@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01205",
-	"slug": "סנוק",
-	"headword": {
-		"text": "סִנּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנּוּק",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִנּוּק"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1006,
 		"column": "a"

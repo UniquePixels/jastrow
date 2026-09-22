@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02959",
-	"slug": "ארבילא",
-	"headword": {
-		"text": "אַרְבֵּילָא"
-	},
+	"sefariaHeadword": "אַרְבֵּילָא",
+	"headwords": [
+		{
+			"text": "אַרְבֵּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 114,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01344",
-	"slug": "כתבן-2",
-	"headword": {
-		"text": "כָּתְבָן"
-	},
+	"sefariaHeadword": "כָּתְבָן",
+	"headwords": [
+		{
+			"text": "כָּתְבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 679,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00150",
-	"slug": "זוזין",
-	"headword": {
-		"text": "זוֹזִין"
-	},
+	"sefariaHeadword": "זוֹזִין",
+	"headwords": [
+		{
+			"text": "זוֹזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 385,
 		"column": "b"

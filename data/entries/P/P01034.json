@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01034",
-	"slug": "עסבא",
-	"headword": {
-		"text": "עִסְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִסְבָּא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִסְבָּא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1097,
 		"column": "b"

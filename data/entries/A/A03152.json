@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03152",
-	"slug": "ארכיסטריגוס",
-	"headword": {
-		"text": "ארכיסטריגוס"
-	},
+	"sefariaHeadword": "ארכיסטריגוס",
+	"headwords": [
+		{
+			"text": "ארכיסטריגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

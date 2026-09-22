@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00725",
-	"slug": "אונאיתא",
-	"headword": {
-		"text": "אוֹנָאִיתָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אוֹנָאִיתָא",
+	"headwords": [
+		{
+			"text": "אוֹנָאִיתָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אוֹנָאוּתָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 28,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01820",
-	"slug": "פריעא",
-	"headword": {
-		"text": "פריעא"
-	},
+	"sefariaHeadword": "פריעא",
+	"headwords": [
+		{
+			"text": "פריעא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

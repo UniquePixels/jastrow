@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00197",
-	"slug": "בהתא",
-	"headword": {
-		"text": "בַּהֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּהֲתָא",
+	"headwords": [
+		{
+			"text": "בַּהֲתָא"
+		},
 		{
 			"text": "בַּהְתְּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בֵּיהוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 143,
 		"column": "b"

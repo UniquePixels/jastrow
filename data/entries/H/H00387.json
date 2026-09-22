@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00387",
-	"slug": "חומצא-2",
-	"headword": {
-		"text": "חוּמְצָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוּמְצָא II",
+	"headwords": [
+		{
+			"text": "חוּמְצָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 435,
 		"column": "b"

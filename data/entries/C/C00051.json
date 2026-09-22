@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00051",
-	"slug": "גבהות",
-	"headword": {
-		"text": "גַּבְהוּת"
-	},
+	"sefariaHeadword": "גַּבְהוּת",
+	"headwords": [
+		{
+			"text": "גַּבְהוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "b"

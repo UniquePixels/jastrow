@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01191",
-	"slug": "מילסא",
-	"headword": {
-		"text": "מִילְסָא"
-	},
+	"sefariaHeadword": "מִילְסָא",
+	"headwords": [
+		{
+			"text": "מִילְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 775,
 		"column": "a"

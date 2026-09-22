@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01923",
-	"slug": "אלנסטי",
-	"headword": {
-		"text": "אֲלִנִסְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלִנִסְטִי",
+	"headwords": [
+		{
+			"text": "אֲלִנִסְטִי"
+		},
 		{
 			"text": "אֲלוּנִיסְתִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 72,
 		"column": "a"

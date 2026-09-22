@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01420",
-	"slug": "ספר-6",
-	"headword": {
-		"text": "סְפַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְפַר ²",
+	"headwords": [
+		{
+			"text": "סְפַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1017,
 		"column": "b"

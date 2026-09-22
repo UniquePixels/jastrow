@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01536",
-	"slug": "מלטוכים",
-	"headword": {
-		"text": "מלטוכים"
-	},
+	"sefariaHeadword": "מלטוכים",
+	"headwords": [
+		{
+			"text": "מלטוכים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "b"

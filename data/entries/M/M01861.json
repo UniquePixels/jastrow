@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01861",
-	"slug": "מסובריא",
-	"headword": {
-		"text": "מסובריא"
-	},
+	"sefariaHeadword": "מסובריא",
+	"headwords": [
+		{
+			"text": "מסובריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

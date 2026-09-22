@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00823",
-	"slug": "חינטא",
-	"headword": {
-		"text": "חִינְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינְטָא",
+	"headwords": [
+		{
+			"text": "חִינְטָא"
+		},
 		{
 			"text": "חִינְטִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִינְטַיָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 458,
 		"column": "b"

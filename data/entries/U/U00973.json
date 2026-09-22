@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00973",
-	"slug": "שינוי",
-	"headword": {
-		"text": "שִׁינּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁינּוּי",
+	"headwords": [
 		{
-			"text": "שִׁנּ׳"
+			"text": "שִׁינּוּי"
+		},
+		{
+			"text": "שִׁנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1564,
 		"column": "a"

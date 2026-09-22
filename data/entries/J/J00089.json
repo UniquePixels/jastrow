@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "J00089",
-	"slug": "יגע-2",
-	"headword": {
-		"text": "יָגֵעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָגֵעַ",
+	"headwords": [
+		{
+			"text": "יָגֵעַ"
+		},
 		{
 			"text": "יָגֵיעַ"
 		},
 		{
-			"text": "יָי׳"
+			"text": "יָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 563,
 		"column": "a"

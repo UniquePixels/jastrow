@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00404",
-	"slug": "קומקא",
-	"headword": {
-		"text": "קוּמְקָא"
-	},
+	"sefariaHeadword": "קוּמְקָא",
+	"headwords": [
+		{
+			"text": "קוּמְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1333,
 		"column": "b"

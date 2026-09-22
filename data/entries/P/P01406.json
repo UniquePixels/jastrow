@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01406",
-	"slug": "ערסי",
-	"headword": {
-		"text": "עַרְסִי"
-	},
+	"sefariaHeadword": "עַרְסִי",
+	"headwords": [
+		{
+			"text": "עַרְסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1121,
 		"column": "a"

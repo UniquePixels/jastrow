@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01371",
-	"slug": "כתם-2",
-	"headword": {
-		"text": "כְּתַם"
-	},
+	"sefariaHeadword": "כְּתַם",
+	"headwords": [
+		{
+			"text": "כְּתַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "a"

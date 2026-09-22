@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00899",
-	"slug": "עמל-4",
-	"headword": {
-		"text": "עָמָל"
-	},
+	"sefariaHeadword": "עָמָל",
+	"headwords": [
+		{
+			"text": "עָמָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "a"

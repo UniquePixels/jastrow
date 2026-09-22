@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02047",
-	"slug": "פרתא-3",
-	"headword": {
-		"text": "פֹּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֹּרְתָּא",
+	"headwords": [
+		{
+			"text": "פֹּרְתָּא"
+		},
 		{
 			"text": "פֻּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1244,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01719",
-	"slug": "סתת-1",
-	"headword": {
-		"text": "סָתַת"
-	},
+	"sefariaHeadword": "סָתַת",
+	"headwords": [
+		{
+			"text": "סָתַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1033,
 		"column": "b"

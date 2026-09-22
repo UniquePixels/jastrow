@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00599",
-	"slug": "דילדל",
-	"headword": {
-		"text": "דִּילְדֵּל"
-	},
+	"sefariaHeadword": "דִּילְדֵּל",
+	"headwords": [
+		{
+			"text": "דִּילְדֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

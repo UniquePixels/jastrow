@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00244",
-	"slug": "חובטא",
-	"headword": {
-		"text": "חוּבְטָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*חוּבְטָא",
+	"headwords": [
+		{
+			"text": "חוּבְטָא",
+			"reconstructed": true
+		},
 		{
 			"text": "חֲבוּטָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 429,
 		"column": "b"

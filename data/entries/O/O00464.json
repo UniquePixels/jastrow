@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00464",
-	"slug": "סחק",
-	"headword": {
-		"text": "סָחַק"
-	},
+	"sefariaHeadword": "סָחַק",
+	"headwords": [
+		{
+			"text": "סָחַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "b"

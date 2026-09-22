@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01257",
-	"slug": "נרגא",
-	"headword": {
-		"text": "נַרְגָּא"
-	},
+	"sefariaHeadword": "נַרְגָּא",
+	"headwords": [
+		{
+			"text": "נַרְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

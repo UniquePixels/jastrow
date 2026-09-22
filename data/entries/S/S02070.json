@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02070",
-	"slug": "קריסטור",
-	"headword": {
-		"text": "קריסטור"
-	},
+	"sefariaHeadword": "קריסטור",
+	"headwords": [
+		{
+			"text": "קריסטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00591",
-	"slug": "ירא",
-	"headword": {
-		"text": "יָרֵא"
-	},
+	"sefariaHeadword": "יָרֵא",
+	"headwords": [
+		{
+			"text": "יָרֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "a"

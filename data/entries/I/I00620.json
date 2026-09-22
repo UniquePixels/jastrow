@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00620",
-	"slug": "טענה",
-	"headword": {
-		"text": "טַעֲנָה"
-	},
+	"sefariaHeadword": "טַעֲנָה",
+	"headwords": [
+		{
+			"text": "טַעֲנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

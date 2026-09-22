@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00012",
-	"slug": "כאורת",
-	"headword": {
-		"text": "כָּאוֶרֶת"
-	},
+	"sefariaHeadword": "כָּאוֶרֶת",
+	"headwords": [
+		{
+			"text": "כָּאוֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

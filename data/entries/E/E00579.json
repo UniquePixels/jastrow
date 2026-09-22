@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00579",
-	"slug": "הלנה-1",
-	"headword": {
-		"text": "הֲלָנָה"
-	},
+	"sefariaHeadword": "הֲלָנָה",
+	"headwords": [
+		{
+			"text": "הֲלָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00510",
-	"slug": "נחמן-2",
-	"headword": {
-		"text": "נַחֲמָן"
-	},
+	"sefariaHeadword": "נַחֲמָן",
+	"headwords": [
+		{
+			"text": "נַחֲמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

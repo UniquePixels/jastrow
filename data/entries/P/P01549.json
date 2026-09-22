@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01549",
-	"slug": "עתרא-2",
-	"headword": {
-		"text": "עַתְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַתְרָא II",
+	"headwords": [
+		{
+			"text": "עַתְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "עֻתְרָא"
 		},
 		{
-			"text": "עָ׳"
+			"text": "עָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1130,
 		"column": "b"

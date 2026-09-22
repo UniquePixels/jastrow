@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00459",
-	"slug": "כחח",
-	"headword": {
-		"text": "כָּחַח"
-	},
+	"sefariaHeadword": "כָּחַח",
+	"headwords": [
+		{
+			"text": "כָּחַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

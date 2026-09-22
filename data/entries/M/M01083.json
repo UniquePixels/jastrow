@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01083",
-	"slug": "מיבל",
-	"headword": {
-		"text": "מיבל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מיבל",
+	"headwords": [
+		{
+			"text": "מיבל"
+		},
 		{
 			"text": "מיבלא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 771,
 		"column": "a"

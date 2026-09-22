@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00494",
-	"slug": "פטא",
-	"headword": {
-		"text": "פַּטָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּטָּא",
+	"headwords": [
 		{
-			"text": "בַּר פַּטָּא"
+			"text": "פַּטָּא"
+		},
+		{
+			"text": "בַּר פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1154,
 		"column": "b"

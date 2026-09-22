@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02748",
-	"slug": "אפס-1",
-	"headword": {
-		"text": "אֶפֶס"
-	},
+	"sefariaHeadword": "אֶפֶס",
+	"headwords": [
+		{
+			"text": "אֶפֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

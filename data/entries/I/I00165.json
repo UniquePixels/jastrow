@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00165",
-	"slug": "טולא",
-	"headword": {
-		"text": "טוֹלָא"
-	},
+	"sefariaHeadword": "טוֹלָא",
+	"headwords": [
+		{
+			"text": "טוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "b"

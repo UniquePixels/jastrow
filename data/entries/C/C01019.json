@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01019",
-	"slug": "גמטריא",
-	"headword": {
-		"text": "גְּמַטְרְיָא"
-	},
+	"sefariaHeadword": "גְּמַטְרְיָא",
+	"headwords": [
+		{
+			"text": "גְּמַטְרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

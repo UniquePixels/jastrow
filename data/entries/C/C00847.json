@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00847",
-	"slug": "גיתי",
-	"headword": {
-		"text": "גֵּיתֵי"
-	},
+	"sefariaHeadword": "גֵּיתֵי",
+	"headwords": [
+		{
+			"text": "גֵּיתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

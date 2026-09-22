@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01102",
-	"slug": "נצוחא",
-	"headword": {
-		"text": "נָצוֹחָא"
-	},
+	"sefariaHeadword": "נָצוֹחָא",
+	"headwords": [
+		{
+			"text": "נָצוֹחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

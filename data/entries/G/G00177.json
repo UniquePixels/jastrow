@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00177",
-	"slug": "זולא",
-	"headword": {
-		"text": "זוֹלָא"
-	},
+	"sefariaHeadword": "זוֹלָא",
+	"headwords": [
+		{
+			"text": "זוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

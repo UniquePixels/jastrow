@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01628",
-	"slug": "קנתרוס",
-	"headword": {
-		"text": "קַנְתְּרוֹס"
-	},
+	"sefariaHeadword": "קַנְתְּרוֹס",
+	"headwords": [
+		{
+			"text": "קַנְתְּרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01199",
-	"slug": "פנים-2",
-	"headword": {
-		"text": "פְּנִים"
-	},
+	"sefariaHeadword": "פְּנִים",
+	"headwords": [
+		{
+			"text": "פְּנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "a"

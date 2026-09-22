@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00300",
-	"slug": "רובדא",
-	"headword": {
-		"text": "רוֹבֵדָא"
-	},
+	"sefariaHeadword": "רוֹבֵדָא",
+	"headwords": [
+		{
+			"text": "רוֹבֵדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1455,
 		"column": "b"

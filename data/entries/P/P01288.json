@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01288",
-	"slug": "ערבנותא",
-	"headword": {
-		"text": "עַרְבָנוּתָא"
-	},
+	"sefariaHeadword": "עַרְבָנוּתָא",
+	"headwords": [
+		{
+			"text": "עַרְבָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "b"

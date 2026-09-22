@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00751",
-	"slug": "מזיד",
-	"headword": {
-		"text": "מֵזִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵזִיד",
+	"headwords": [
+		{
+			"text": "מֵזִיד"
+		},
 		{
 			"text": "מְזִידָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 755,
 		"column": "a"

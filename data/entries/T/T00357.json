@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00357",
-	"slug": "רוטננית",
-	"headword": {
-		"text": "רוֹטְנָנִית"
-	},
+	"sefariaHeadword": "רוֹטְנָנִית",
+	"headwords": [
+		{
+			"text": "רוֹטְנָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "a"

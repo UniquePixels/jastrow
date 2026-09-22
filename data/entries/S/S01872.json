@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01872",
-	"slug": "קר",
-	"headword": {
-		"text": "קַר"
-	},
+	"sefariaHeadword": "קַר",
+	"headwords": [
+		{
+			"text": "קַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

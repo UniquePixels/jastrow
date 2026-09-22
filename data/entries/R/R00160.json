@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00160",
-	"slug": "צובר",
-	"headword": {
-		"text": "צובר"
-	},
+	"sefariaHeadword": "צובר",
+	"headwords": [
+		{
+			"text": "צובר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "b"

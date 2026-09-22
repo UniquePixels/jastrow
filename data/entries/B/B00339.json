@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00339",
-	"slug": "בורגמין",
-	"headword": {
-		"text": "בורגמין"
-	},
+	"sefariaHeadword": "בורגמין",
+	"headwords": [
+		{
+			"text": "בורגמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

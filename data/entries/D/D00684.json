@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00684",
-	"slug": "דיפרצוף",
-	"headword": {
-		"text": "דִּיפַּרְצוֹף"
-	},
+	"sefariaHeadword": "דִּיפַּרְצוֹף",
+	"headwords": [
+		{
+			"text": "דִּיפַּרְצוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "a"

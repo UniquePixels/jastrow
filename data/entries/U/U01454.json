@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01454",
-	"slug": "שמט-2",
-	"headword": {
-		"text": "שְׁמַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמַט",
+	"headwords": [
+		{
+			"text": "שְׁמַט"
+		},
 		{
 			"text": "שְׁמֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1594,
 		"column": "a"

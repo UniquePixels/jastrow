@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01805",
-	"slug": "אלוויתא",
-	"headword": {
-		"text": "אַלְוַוְיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְוַוְיתָא",
+	"headwords": [
+		{
+			"text": "אַלְוַוְיתָא"
+		},
 		{
 			"text": "אַלְוַויְיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 67,
 		"column": "b"

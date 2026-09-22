@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00536",
-	"slug": "לך-2",
-	"headword": {
-		"text": "לְךָ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְךָ",
+	"headwords": [
+		{
+			"text": "לְךָ"
+		},
 		{
 			"text": "לְכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 710,
 		"column": "b"

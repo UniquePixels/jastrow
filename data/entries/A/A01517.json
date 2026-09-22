@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01517",
-	"slug": "איסרתה",
-	"headword": {
-		"text": "איסרתה"
-	},
+	"sefariaHeadword": "איסרתה",
+	"headwords": [
+		{
+			"text": "איסרתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "b"

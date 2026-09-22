@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00511",
-	"slug": "קופלא-2",
-	"headword": {
-		"text": "קוּפְלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קוּפְלָא II",
+	"headwords": [
+		{
+			"text": "קוּפְלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1338,
 		"column": "b"

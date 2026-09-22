@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00722",
-	"slug": "חייב-1",
-	"headword": {
-		"text": "חַיָּיב"
-	},
+	"sefariaHeadword": "חַיָּיב",
+	"headwords": [
+		{
+			"text": "חַיָּיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

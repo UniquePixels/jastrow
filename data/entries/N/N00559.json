@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00559",
-	"slug": "נטילא",
-	"headword": {
-		"text": "נְטִילָא"
-	},
+	"sefariaHeadword": "נְטִילָא",
+	"headwords": [
+		{
+			"text": "נְטִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "a"

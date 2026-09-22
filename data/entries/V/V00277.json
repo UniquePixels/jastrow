@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00277",
-	"slug": "תורא-2",
-	"headword": {
-		"text": "תַּוָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּוָּרָא",
+	"headwords": [
 		{
-			"text": "תַּוָּו׳"
+			"text": "תַּוָּרָא"
+		},
+		{
+			"text": "תַּוָּו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1656,
 		"column": "b"

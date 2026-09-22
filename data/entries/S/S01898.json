@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01898",
-	"slug": "קרבניטא",
-	"headword": {
-		"text": "קרבניטא"
-	},
+	"sefariaHeadword": "קרבניטא",
+	"headwords": [
+		{
+			"text": "קרבניטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "a"

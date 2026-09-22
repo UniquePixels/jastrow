@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00843",
-	"slug": "גישרא",
-	"headword": {
-		"text": "גִּישְׁרָא"
-	},
+	"sefariaHeadword": "גִּישְׁרָא",
+	"headwords": [
+		{
+			"text": "גִּישְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

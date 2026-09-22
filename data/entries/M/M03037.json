@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03037",
-	"slug": "מתורין",
-	"headword": {
-		"text": "מתורין"
-	},
+	"sefariaHeadword": "מתורין",
+	"headwords": [
+		{
+			"text": "מתורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01994",
-	"slug": "שרכפא",
-	"headword": {
-		"text": "שַׁרְכָּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁרְכָּפָא",
+	"headwords": [
 		{
-			"text": "שַׁרְכְּ׳"
+			"text": "שַׁרְכָּפָא"
+		},
+		{
+			"text": "שַׁרְכְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1632,
 		"column": "a"

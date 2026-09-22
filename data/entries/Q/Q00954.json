@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00954",
-	"slug": "פלגש",
-	"headword": {
-		"text": "פִּלֶּגֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלֶּגֶשׁ",
+	"headwords": [
+		{
+			"text": "פִּלֶּגֶשׁ"
+		},
 		{
 			"text": "פִּילֶגֶשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1177,
 		"column": "a"

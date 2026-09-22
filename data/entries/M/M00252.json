@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00252",
-	"slug": "מדה-1",
-	"headword": {
-		"text": "מִדָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִדָּה",
+	"headwords": [
+		{
+			"text": "מִדָּה"
+		},
 		{
 			"text": "מִידָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 732,
 		"column": "a"

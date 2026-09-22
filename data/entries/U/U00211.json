@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00211",
-	"slug": "שגגה",
-	"headword": {
-		"text": "שְׁגָגָה"
-	},
+	"sefariaHeadword": "שְׁגָגָה",
+	"headwords": [
+		{
+			"text": "שְׁגָגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "a"

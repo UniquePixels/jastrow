@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00214",
-	"slug": "בוהו",
-	"headword": {
-		"text": "בּוֹהוּ"
-	},
+	"sefariaHeadword": "בּוֹהוּ",
+	"headwords": [
+		{
+			"text": "בּוֹהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

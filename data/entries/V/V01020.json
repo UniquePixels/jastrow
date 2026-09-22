@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01020",
-	"slug": "תרנגא",
-	"headword": {
-		"text": "תרנגא"
-	},
+	"sefariaHeadword": "תרנגא",
+	"headwords": [
+		{
+			"text": "תרנגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1700,
 		"column": "a"

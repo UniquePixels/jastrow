@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01015",
-	"slug": "רקבובית-2",
-	"headword": {
-		"text": "רַקְבּוּבִית",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַקְבּוּבִית ²",
+	"headwords": [
+		{
+			"text": "רַקְבּוּבִית",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַקְבּוּבִיתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1496,
 		"column": "a"

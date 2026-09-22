@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01086",
-	"slug": "קיסריא",
-	"headword": {
-		"text": "קִיסְרָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְרָיָא",
+	"headwords": [
+		{
+			"text": "קִיסְרָיָא"
+		},
 		{
 			"text": "קִיסְרָיָיא"
 		},
 		{
-			"text": "קִסְ׳"
+			"text": "קִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1365,
 		"column": "b"

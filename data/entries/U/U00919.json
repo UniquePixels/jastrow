@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00919",
-	"slug": "שיכולא",
-	"headword": {
-		"text": "שִׂיכּוּלָא"
-	},
+	"sefariaHeadword": "שִׂיכּוּלָא",
+	"headwords": [
+		{
+			"text": "שִׂיכּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02222",
-	"slug": "קשוא",
-	"headword": {
-		"text": "קִשְׂוָא"
-	},
+	"sefariaHeadword": "קִשְׂוָא",
+	"headwords": [
+		{
+			"text": "קִשְׂוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1429,
 		"column": "a"

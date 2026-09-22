@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00387",
-	"slug": "כורמיזא",
-	"headword": {
-		"text": "כּוּרְמֵיזָא"
-	},
+	"sefariaHeadword": "כּוּרְמֵיזָא",
+	"headwords": [
+		{
+			"text": "כּוּרְמֵיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

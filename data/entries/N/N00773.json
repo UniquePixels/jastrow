@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00773",
-	"slug": "ניקטמון",
-	"headword": {
-		"text": "נִיקַטְמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקַטְמוֹן",
+	"headwords": [
 		{
-			"text": "נְקַ׳"
+			"text": "נִיקַטְמוֹן"
+		},
+		{
+			"text": "נְקַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00541",
-	"slug": "מוסטף",
-	"headword": {
-		"text": "מוסטף"
-	},
+	"sefariaHeadword": "מוסטף",
+	"headwords": [
+		{
+			"text": "מוסטף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

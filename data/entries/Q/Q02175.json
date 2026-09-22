@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02175",
-	"slug": "פתיתה",
-	"headword": {
-		"text": "פְּתִיתָה"
-	},
+	"sefariaHeadword": "פְּתִיתָה",
+	"headwords": [
+		{
+			"text": "פְּתִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "b"

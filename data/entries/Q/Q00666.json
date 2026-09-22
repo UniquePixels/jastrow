@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00666",
-	"slug": "פילא-2",
-	"headword": {
-		"text": "פִּילָא",
-		"homograph": 4
-	},
+	"sefariaHeadword": "פִּילָא IV",
+	"headwords": [
+		{
+			"text": "פִּילָא",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 1163,
 		"column": "a"

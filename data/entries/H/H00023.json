@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00023",
-	"slug": "חבוטא",
-	"headword": {
-		"text": "חֲבוּטָא"
-	},
+	"sefariaHeadword": "חֲבוּטָא",
+	"headwords": [
+		{
+			"text": "חֲבוּטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

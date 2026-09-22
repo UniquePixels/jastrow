@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00614",
-	"slug": "כיפתא-1",
-	"headword": {
-		"text": "כִּיפְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיפְתָא",
+	"headwords": [
+		{
+			"text": "כִּיפְתָא"
+		},
 		{
 			"text": "כֵּיפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כִּיפָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 636,
 		"column": "a"

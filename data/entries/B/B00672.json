@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00672",
-	"slug": "ביעותא",
-	"headword": {
-		"text": "בִּיעוּתָא"
-	},
+	"sefariaHeadword": "בִּיעוּתָא",
+	"headwords": [
+		{
+			"text": "בִּיעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

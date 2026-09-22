@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00230",
-	"slug": "זוקפא",
-	"headword": {
-		"text": "זוּקְפָא"
-	},
+	"sefariaHeadword": "זוּקְפָא",
+	"headwords": [
+		{
+			"text": "זוּקְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "b"

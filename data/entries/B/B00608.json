@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00608",
-	"slug": "בייתות",
-	"headword": {
-		"text": "בַּיָיתוֹת"
-	},
+	"sefariaHeadword": "בַּיָיתוֹת",
+	"headwords": [
+		{
+			"text": "בַּיָיתוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

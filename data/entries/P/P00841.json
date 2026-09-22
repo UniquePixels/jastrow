@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00841",
-	"slug": "עלפה",
-	"headword": {
-		"text": "עִלְפֶּה"
-	},
+	"sefariaHeadword": "עִלְפֶּה",
+	"headwords": [
+		{
+			"text": "עִלְפֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

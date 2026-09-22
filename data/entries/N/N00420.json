@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00420",
-	"slug": "נורי",
-	"headword": {
-		"text": "נוּרִי"
-	},
+	"sefariaHeadword": "נוּרִי",
+	"headwords": [
+		{
+			"text": "נוּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

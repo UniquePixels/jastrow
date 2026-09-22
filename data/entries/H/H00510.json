@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00510",
-	"slug": "חזויא",
-	"headword": {
-		"text": "חֶזְוָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶזְוָיָא",
+	"headwords": [
 		{
-			"text": "חֶזְוַ׳"
+			"text": "חֶזְוָיָא"
 		},
 		{
-			"text": "חָזְוַ׳"
+			"text": "חֶזְוַ׳",
+			"partial": true
+		},
+		{
+			"text": "חָזְוַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 442,
 		"column": "a"

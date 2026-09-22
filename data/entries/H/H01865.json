@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01865",
-	"slug": "חשק-2",
-	"headword": {
-		"text": "חֲשַׁק"
-	},
+	"sefariaHeadword": "חֲשַׁק",
+	"headwords": [
+		{
+			"text": "חֲשַׁק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 511,
 		"column": "b"

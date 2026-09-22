@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00720",
-	"slug": "צפרן",
-	"headword": {
-		"text": "צִפֹּרֶן"
-	},
+	"sefariaHeadword": "צִפֹּרֶן",
+	"headwords": [
+		{
+			"text": "צִפֹּרֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

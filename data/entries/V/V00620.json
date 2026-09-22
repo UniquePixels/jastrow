@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00620",
-	"slug": "תלעבא",
-	"headword": {
-		"text": "תֻּלְעֲבָא"
-	},
+	"sefariaHeadword": "תֻּלְעֲבָא",
+	"headwords": [
+		{
+			"text": "תֻּלְעֲבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1673,
 		"column": "b"

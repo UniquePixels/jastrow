@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00558",
-	"slug": "חזקיה",
-	"headword": {
-		"text": "חִזְקִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִזְקִיָּה",
+	"headwords": [
+		{
+			"text": "חִזְקִיָּה"
+		},
 		{
 			"text": "חִזְקִיָּהוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 446,
 		"column": "a"

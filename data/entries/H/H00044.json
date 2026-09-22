@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00044",
-	"slug": "חבטא",
-	"headword": {
-		"text": "חֲבָטָא"
-	},
+	"sefariaHeadword": "חֲבָטָא",
+	"headwords": [
+		{
+			"text": "חֲבָטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 417,
 		"column": "b"

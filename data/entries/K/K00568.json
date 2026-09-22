@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00568",
-	"slug": "כינוס",
-	"headword": {
-		"text": "כִּינּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינּוּס",
+	"headwords": [
 		{
-			"text": "כִּנּ׳"
+			"text": "כִּינּוּס"
+		},
+		{
+			"text": "כִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

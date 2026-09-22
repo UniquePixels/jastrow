@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00175",
-	"slug": "אבנא",
-	"headword": {
-		"text": "אַבְנָא"
-	},
+	"sefariaHeadword": "אַבְנָא",
+	"headwords": [
+		{
+			"text": "אַבְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

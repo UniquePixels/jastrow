@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00262",
-	"slug": "נהילא",
-	"headword": {
-		"text": "נְהִילָא"
-	},
+	"sefariaHeadword": "נְהִילָא",
+	"headwords": [
+		{
+			"text": "נְהִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01515",
-	"slug": "חצות",
-	"headword": {
-		"text": "חָצוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָצוּת",
+	"headwords": [
+		{
+			"text": "חָצוּת"
+		},
 		{
 			"text": "חֲצוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 495,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00942",
-	"slug": "גלייה",
-	"headword": {
-		"text": "גלייה"
-	},
+	"sefariaHeadword": "גלייה",
+	"headwords": [
+		{
+			"text": "גלייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

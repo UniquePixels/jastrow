@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00264",
-	"slug": "צות-3",
-	"headword": {
-		"text": "צְוַת"
-	},
+	"sefariaHeadword": "צְוַת",
+	"headwords": [
+		{
+			"text": "צְוַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "b"

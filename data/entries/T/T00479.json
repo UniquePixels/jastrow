@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00479",
-	"slug": "רחבה",
-	"headword": {
-		"text": "רְחָבָה"
-	},
+	"sefariaHeadword": "רְחָבָה",
+	"headwords": [
+		{
+			"text": "רְחָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

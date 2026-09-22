@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00250",
-	"slug": "גדרפוס",
-	"headword": {
-		"text": "גדרפוס"
-	},
+	"sefariaHeadword": "גדרפוס",
+	"headwords": [
+		{
+			"text": "גדרפוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "a"

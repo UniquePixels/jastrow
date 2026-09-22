@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01897",
-	"slug": "אלכסנדרית",
-	"headword": {
-		"text": "אֲלֶכְסַנְדְּרִית"
-	},
+	"sefariaHeadword": "אֲלֶכְסַנְדְּרִית",
+	"headwords": [
+		{
+			"text": "אֲלֶכְסַנְדְּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "a"

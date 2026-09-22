@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01069",
-	"slug": "פליריכוס",
-	"headword": {
-		"text": "פליריכוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פליריכוס",
+	"headwords": [
+		{
+			"text": "פליריכוס"
+		},
 		{
 			"text": "פלירכוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1182,
 		"column": "b"

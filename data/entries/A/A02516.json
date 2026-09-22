@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02516",
-	"slug": "אספר-1",
-	"headword": {
-		"text": "אספר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אספר",
+	"headwords": [
+		{
+			"text": "אספר"
+		},
 		{
 			"text": "ספיר",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 96,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00916",
-	"slug": "אוש-3",
-	"headword": {
-		"text": "אוּשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אוּשׁ II",
+	"headwords": [
+		{
+			"text": "אוּשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 35,
 		"column": "b"

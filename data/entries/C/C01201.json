@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01201",
-	"slug": "גפוף",
-	"headword": {
-		"text": "גִּפּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּפּוּף",
+	"headwords": [
+		{
+			"text": "גִּפּוּף"
+		},
 		{
 			"text": "גֵּפוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 262,
 		"column": "b"

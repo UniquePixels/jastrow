@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01224",
-	"slug": "כרכשא",
-	"headword": {
-		"text": "כַּרְכְּשָׁא"
-	},
+	"sefariaHeadword": "כַּרְכְּשָׁא",
+	"headwords": [
+		{
+			"text": "כַּרְכְּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "b"

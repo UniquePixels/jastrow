@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00136",
-	"slug": "חגה",
-	"headword": {
-		"text": "חֵגֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵגֶה",
+	"headwords": [
+		{
+			"text": "חֵגֶה"
+		},
 		{
 			"text": "חֵגִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 423,
 		"column": "b"

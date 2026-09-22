@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00351",
-	"slug": "זיכי",
-	"headword": {
-		"text": "זִיכֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיכֵּי",
+	"headwords": [
+		{
+			"text": "זִיכֵּי"
+		},
 		{
 			"text": "זִיכַּיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 394,
 		"column": "a"

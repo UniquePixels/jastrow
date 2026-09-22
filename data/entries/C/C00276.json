@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00276",
-	"slug": "גובאי-3",
-	"headword": {
-		"text": "גּוֹבָאֵי"
-	},
+	"sefariaHeadword": "גּוֹבָאֵי",
+	"headwords": [
+		{
+			"text": "גּוֹבָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "a"

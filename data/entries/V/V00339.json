@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V00339",
-	"slug": "תותב-3",
-	"headword": {
-		"text": "תּוֹתַב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹתַב ²",
+	"headwords": [
+		{
+			"text": "תּוֹתַב",
+			"disambiguator": 2
+		},
 		{
 			"text": "תּוֹתָבָא"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 1659,
 		"column": "b"

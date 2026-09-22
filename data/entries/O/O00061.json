@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00061",
-	"slug": "סביריניות",
-	"headword": {
-		"text": "סביריניות"
-	},
+	"sefariaHeadword": "סביריניות",
+	"headwords": [
+		{
+			"text": "סביריניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00810",
-	"slug": "בלאים",
-	"headword": {
-		"text": "בְּלָאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלָאִים",
+	"headwords": [
+		{
+			"text": "בְּלָאִים"
+		},
 		{
 			"text": "בְּלוֹיִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 170,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00432",
-	"slug": "לידתא",
-	"headword": {
-		"text": "לֵידָתָא"
-	},
+	"sefariaHeadword": "לֵידָתָא",
+	"headwords": [
+		{
+			"text": "לֵידָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01160",
-	"slug": "כרייה",
-	"headword": {
-		"text": "כְּרִיָיה"
-	},
+	"sefariaHeadword": "כְּרִיָיה",
+	"headwords": [
+		{
+			"text": "כְּרִיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01167",
-	"slug": "סנבטיון",
-	"headword": {
-		"text": "סַנְבַּטְיוֹן"
-	},
+	"sefariaHeadword": "סַנְבַּטְיוֹן",
+	"headwords": [
+		{
+			"text": "סַנְבַּטְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

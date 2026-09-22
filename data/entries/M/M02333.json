@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02333",
-	"slug": "מצלתייא",
-	"headword": {
-		"text": "מצלתייא"
-	},
+	"sefariaHeadword": "מצלתייא",
+	"headwords": [
+		{
+			"text": "מצלתייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

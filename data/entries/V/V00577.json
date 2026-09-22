@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00577",
-	"slug": "תלה-2",
-	"headword": {
-		"text": "תְּלַהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלַהּ",
+	"headwords": [
+		{
+			"text": "תְּלַהּ"
+		},
 		{
 			"text": "תִּלְהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "b"

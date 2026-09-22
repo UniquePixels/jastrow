@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00845",
-	"slug": "אורא-1",
-	"headword": {
-		"text": "אוּרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּרָא I",
+	"headwords": [
+		{
+			"text": "אוּרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 32,
 		"column": "b"

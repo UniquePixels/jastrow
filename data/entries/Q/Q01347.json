@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01347",
-	"slug": "פספס-3",
-	"headword": {
-		"text": "פִּסְפֵּס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פִּסְפֵּס II",
+	"headwords": [
+		{
+			"text": "פִּסְפֵּס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1199,
 		"column": "a"

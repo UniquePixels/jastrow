@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00442",
-	"slug": "מוזא",
-	"headword": {
-		"text": "מוֹזָא"
-	},
+	"sefariaHeadword": "מוֹזָא",
+	"headwords": [
+		{
+			"text": "מוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

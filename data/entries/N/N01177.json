@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01177",
-	"slug": "נקוד-2",
-	"headword": {
-		"text": "נָקוֹד"
-	},
+	"sefariaHeadword": "נָקוֹד",
+	"headwords": [
+		{
+			"text": "נָקוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

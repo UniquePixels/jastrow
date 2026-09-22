@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00576",
-	"slug": "שושנה",
-	"headword": {
-		"text": "שׁוֹשַׁנָּה"
-	},
+	"sefariaHeadword": "שׁוֹשַׁנָּה",
+	"headwords": [
+		{
+			"text": "שׁוֹשַׁנָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "b"

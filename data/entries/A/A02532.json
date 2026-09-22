@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02532",
-	"slug": "אסקוטלא-2",
-	"headword": {
-		"text": "אִסְקוּטְלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אִסְקוּטְלָא II",
+	"headwords": [
+		{
+			"text": "אִסְקוּטְלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 97,
 		"column": "a"

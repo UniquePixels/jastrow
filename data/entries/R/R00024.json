@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00024",
-	"slug": "צבו",
-	"headword": {
-		"text": "צְבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְבוּ",
+	"headwords": [
+		{
+			"text": "צְבוּ"
+		},
 		{
 			"text": "צְבוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1257,
 		"column": "b"

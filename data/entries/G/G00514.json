@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00514",
-	"slug": "זמי-1",
-	"headword": {
-		"text": "זְמֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְמֵי I",
+	"headwords": [
+		{
+			"text": "זְמֵי",
+			"homograph": 1
+		},
 		{
 			"text": "זְמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 402,
 		"column": "b"

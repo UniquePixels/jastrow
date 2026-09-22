@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00735",
-	"slug": "גיליון",
-	"headword": {
-		"text": "גִּילְיוֹן"
-	},
+	"sefariaHeadword": "גִּילְיוֹן",
+	"headwords": [
+		{
+			"text": "גִּילְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

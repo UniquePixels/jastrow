@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00870",
-	"slug": "בליסטרא",
-	"headword": {
-		"text": "בַּלִּיסְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלִּיסְטְרָא",
+	"headwords": [
+		{
+			"text": "בַּלִּיסְטְרָא"
+		},
 		{
 			"text": "בליצטרא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 173,
 		"column": "a"

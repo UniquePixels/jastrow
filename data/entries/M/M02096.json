@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02096",
-	"slug": "מעזלא",
-	"headword": {
-		"text": "מָעְזְלָא"
-	},
+	"sefariaHeadword": "מָעְזְלָא",
+	"headwords": [
+		{
+			"text": "מָעְזְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

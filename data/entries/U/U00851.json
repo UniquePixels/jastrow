@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00851",
-	"slug": "שיזרה",
-	"headword": {
-		"text": "שִׁיזְרָה"
-	},
+	"sefariaHeadword": "שִׁיזְרָה",
+	"headwords": [
+		{
+			"text": "שִׁיזְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "a"

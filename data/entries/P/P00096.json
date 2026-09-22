@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00096",
-	"slug": "עגלה-1",
-	"headword": {
-		"text": "עִגְלָה"
-	},
+	"sefariaHeadword": "עִגְלָה",
+	"headwords": [
+		{
+			"text": "עִגְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1041,
 		"column": "b"

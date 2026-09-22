@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00344",
-	"slug": "צייר-1",
-	"headword": {
-		"text": "צַיָּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיָּיר",
+	"headwords": [
+		{
+			"text": "צַיָּיר"
+		},
 		{
 			"text": "צַיָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

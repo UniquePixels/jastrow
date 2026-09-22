@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00999",
-	"slug": "קים-1",
-	"headword": {
-		"text": "קִים"
-	},
+	"sefariaHeadword": "קִים",
+	"headwords": [
+		{
+			"text": "קִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

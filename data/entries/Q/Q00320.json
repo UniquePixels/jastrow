@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00320",
-	"slug": "פוקי",
-	"headword": {
-		"text": "פּוּקֵי"
-	},
+	"sefariaHeadword": "פּוּקֵי",
+	"headwords": [
+		{
+			"text": "פּוּקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

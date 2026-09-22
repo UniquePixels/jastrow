@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00253",
-	"slug": "סוגני",
-	"headword": {
-		"text": "סוּגְנֵי"
-	},
+	"sefariaHeadword": "סוּגְנֵי",
+	"headwords": [
+		{
+			"text": "סוּגְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "a"

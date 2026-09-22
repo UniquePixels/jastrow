@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01982",
-	"slug": "מססטולא",
-	"headword": {
-		"text": "מססטולא"
-	},
+	"sefariaHeadword": "מססטולא",
+	"headwords": [
+		{
+			"text": "מססטולא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00586",
-	"slug": "נטרא",
-	"headword": {
-		"text": "נָטְרָא"
-	},
+	"sefariaHeadword": "נָטְרָא",
+	"headwords": [
+		{
+			"text": "נָטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 901,
 		"column": "b"

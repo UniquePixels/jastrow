@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00595",
-	"slug": "אוותן",
-	"headword": {
-		"text": "אַוְותָּן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַוְותָּן",
+	"headwords": [
+		{
+			"text": "אַוְותָּן",
+			"reconstructed": true
+		},
 		{
 			"text": "אִיוְתָּן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "b"

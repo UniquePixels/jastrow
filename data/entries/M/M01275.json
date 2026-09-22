@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01275",
-	"slug": "מיצוע",
-	"headword": {
-		"text": "מִיצּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיצּוּעַ",
+	"headwords": [
 		{
-			"text": "מִצּ׳"
+			"text": "מִיצּוּעַ"
+		},
+		{
+			"text": "מִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "b"

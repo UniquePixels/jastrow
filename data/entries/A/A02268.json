@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02268",
-	"slug": "אנפוליא",
-	"headword": {
-		"text": "אנפוליא"
-	},
+	"sefariaHeadword": "אנפוליא",
+	"headwords": [
+		{
+			"text": "אנפוליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

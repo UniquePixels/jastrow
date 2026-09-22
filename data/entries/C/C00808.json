@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00808",
-	"slug": "גירא-2",
-	"headword": {
-		"text": "גִּירָא",
-		"homograph": 4
-	},
+	"sefariaHeadword": "גִּירָא IV",
+	"headwords": [
+		{
+			"text": "גִּירָא",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 242,
 		"column": "a"

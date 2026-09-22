@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01776",
-	"slug": "שפלה-1",
-	"headword": {
-		"text": "שְׁפֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁפֵלָה",
+	"headwords": [
 		{
-			"text": "שְׁפֵי׳"
+			"text": "שְׁפֵלָה"
+		},
+		{
+			"text": "שְׁפֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1617,
 		"column": "b"

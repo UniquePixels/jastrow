@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00491",
-	"slug": "זלי",
-	"headword": {
-		"text": "זְלֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*זְלֵי",
+	"headwords": [
+		{
+			"text": "זְלֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "זְלָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 401,
 		"column": "b"

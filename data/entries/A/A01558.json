@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01558",
-	"slug": "איפקינון",
-	"headword": {
-		"text": "איפקינון"
-	},
+	"sefariaHeadword": "איפקינון",
+	"headwords": [
+		{
+			"text": "איפקינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

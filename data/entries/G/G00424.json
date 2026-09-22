@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00424",
-	"slug": "זירוע",
-	"headword": {
-		"text": "זֵירוּעַ"
-	},
+	"sefariaHeadword": "זֵירוּעַ",
+	"headwords": [
+		{
+			"text": "זֵירוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

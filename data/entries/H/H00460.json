@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00460",
-	"slug": "חורגה",
-	"headword": {
-		"text": "חוֹרְגָה"
-	},
+	"sefariaHeadword": "חוֹרְגָה",
+	"headwords": [
+		{
+			"text": "חוֹרְגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 439,
 		"column": "b"

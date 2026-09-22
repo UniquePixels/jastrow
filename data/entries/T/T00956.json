@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00956",
-	"slug": "רפסתא",
-	"headword": {
-		"text": "רִפְסְתָא"
-	},
+	"sefariaHeadword": "רִפְסְתָא",
+	"headwords": [
+		{
+			"text": "רִפְסְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1491,
 		"column": "a"

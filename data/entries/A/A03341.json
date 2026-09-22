@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03341",
-	"slug": "אשפרא",
-	"headword": {
-		"text": "אַשְׁפָּרָא"
-	},
+	"sefariaHeadword": "אַשְׁפָּרָא",
+	"headwords": [
+		{
+			"text": "אַשְׁפָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00565",
-	"slug": "אודיקותא",
-	"headword": {
-		"text": "אוֹדִיקוּתָא"
-	},
+	"sefariaHeadword": "אוֹדִיקוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹדִיקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

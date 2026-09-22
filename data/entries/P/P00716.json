@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00716",
-	"slug": "עכבורא",
-	"headword": {
-		"text": "עַכְבּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַכְבּוּרָא",
+	"headwords": [
+		{
+			"text": "עַכְבּוּרָא"
+		},
 		{
 			"text": "עַכְבּוּרֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1078,
 		"column": "a"

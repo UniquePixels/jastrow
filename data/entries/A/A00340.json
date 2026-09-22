@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00340",
-	"slug": "אגר-6",
-	"headword": {
-		"text": "אִגָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִגָר",
+	"headwords": [
+		{
+			"text": "אִגָר"
+		},
 		{
 			"text": "אִגָרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִגְּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 14,
 		"column": "a"

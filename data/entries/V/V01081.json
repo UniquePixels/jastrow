@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01081",
-	"slug": "תשחורת",
-	"headword": {
-		"text": "תִּשְׁחוֹרֶת"
-	},
+	"sefariaHeadword": "תִּשְׁחוֹרֶת",
+	"headwords": [
+		{
+			"text": "תִּשְׁחוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00746",
-	"slug": "גין-2",
-	"headword": {
-		"text": "גִּין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גִּין I",
+	"headwords": [
+		{
+			"text": "גִּין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 239,
 		"column": "a"

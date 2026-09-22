@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00885",
-	"slug": "אוריון",
-	"headword": {
-		"text": "אוֹרְיוֹן"
-	},
+	"sefariaHeadword": "אוֹרְיוֹן",
+	"headwords": [
+		{
+			"text": "אוֹרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "a"

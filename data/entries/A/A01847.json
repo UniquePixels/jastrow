@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01847",
-	"slug": "אליופוליס",
-	"headword": {
-		"text": "אִלְיוֹפּוֹלִיס"
-	},
+	"sefariaHeadword": "אִלְיוֹפּוֹלִיס",
+	"headwords": [
+		{
+			"text": "אִלְיוֹפּוֹלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

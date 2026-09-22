@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01081",
-	"slug": "עפרותין",
-	"headword": {
-		"text": "עפרותין"
-	},
+	"sefariaHeadword": "עפרותין",
+	"headwords": [
+		{
+			"text": "עפרותין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "b"

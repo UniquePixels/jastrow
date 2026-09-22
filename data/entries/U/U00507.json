@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00507",
-	"slug": "שופנר",
-	"headword": {
-		"text": "שׁוּפְנָר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שׁוּפְנָר",
+	"headwords": [
+		{
+			"text": "שׁוּפְנָר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00705",
-	"slug": "דיקומיוני",
-	"headword": {
-		"text": "דיקומיוני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיקומיוני",
+	"headwords": [
+		{
+			"text": "דיקומיוני"
+		},
 		{
 			"text": "דיקומייני"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 305,
 		"column": "a"

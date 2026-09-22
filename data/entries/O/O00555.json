@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00555",
-	"slug": "סיגויא",
-	"headword": {
-		"text": "סֵיגוּיָא"
-	},
+	"sefariaHeadword": "סֵיגוּיָא",
+	"headwords": [
+		{
+			"text": "סֵיגוּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "b"

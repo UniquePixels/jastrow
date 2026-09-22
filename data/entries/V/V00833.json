@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00833",
-	"slug": "תפלוגתא",
-	"headword": {
-		"text": "תַּפְלוּגְתָּא"
-	},
+	"sefariaHeadword": "תַּפְלוּגְתָּא",
+	"headwords": [
+		{
+			"text": "תַּפְלוּגְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1687,
 		"column": "a"

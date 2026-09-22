@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01336",
-	"slug": "חסד-3",
-	"headword": {
-		"text": "חֲסַד"
-	},
+	"sefariaHeadword": "חֲסַד",
+	"headwords": [
+		{
+			"text": "חֲסַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "a"

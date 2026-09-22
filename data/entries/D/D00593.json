@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00593",
-	"slug": "דיכפת",
-	"headword": {
-		"text": "דיכפת"
-	},
+	"sefariaHeadword": "דיכפת",
+	"headwords": [
+		{
+			"text": "דיכפת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

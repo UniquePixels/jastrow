@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00431",
-	"slug": "בזז-3",
-	"headword": {
-		"text": "בְּזַז",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בְּזַז II",
+	"headwords": [
+		{
+			"text": "בְּזַז",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 152,
 		"column": "b"

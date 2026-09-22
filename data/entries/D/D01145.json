@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01145",
-	"slug": "דשיש",
-	"headword": {
-		"text": "דְּשִׁישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּשִׁישׁ",
+	"headwords": [
+		{
+			"text": "דְּשִׁישׁ"
+		},
 		{
 			"text": "דַּשֵּׁישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 326,
 		"column": "b"

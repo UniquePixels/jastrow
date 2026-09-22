@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03381",
-	"slug": "אשתלהיותא",
-	"headword": {
-		"text": "אִשְׁתַּלְהָיוּתָא"
-	},
+	"sefariaHeadword": "אִשְׁתַּלְהָיוּתָא",
+	"headwords": [
+		{
+			"text": "אִשְׁתַּלְהָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "a"

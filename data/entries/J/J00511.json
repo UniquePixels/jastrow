@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00511",
-	"slug": "יפע-1",
-	"headword": {
-		"text": "יָפַע"
-	},
+	"sefariaHeadword": "יָפַע",
+	"headwords": [
+		{
+			"text": "יָפַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

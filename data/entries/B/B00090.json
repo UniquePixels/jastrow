@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00090",
-	"slug": "בגרון",
-	"headword": {
-		"text": "בגרון"
-	},
+	"sefariaHeadword": "בגרון",
+	"headwords": [
+		{
+			"text": "בגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "a"

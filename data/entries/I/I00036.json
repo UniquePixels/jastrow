@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00036",
-	"slug": "טבור",
-	"headword": {
-		"text": "טַבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַבּוּר",
+	"headwords": [
+		{
+			"text": "טַבּוּר"
+		},
 		{
 			"text": "טִבּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 516,
 		"column": "a"

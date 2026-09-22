@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01803",
-	"slug": "מנעול-2",
-	"headword": {
-		"text": "מִנְעוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנְעוֹל",
+	"headwords": [
+		{
+			"text": "מִנְעוֹל"
+		},
 		{
 			"text": "מִנְעָל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 802,
 		"column": "a"

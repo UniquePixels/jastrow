@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "C00941",
-	"slug": "גליון",
-	"headword": {
-		"text": "גִּלָּיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלָּיוֹן",
+	"headwords": [
 		{
-			"text": "גִּלְ׳"
+			"text": "גִּלָּיוֹן"
 		},
 		{
-			"text": "גִּיל׳"
+			"text": "גִּלְ׳",
+			"partial": true
+		},
+		{
+			"text": "גִּיל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 248,
 		"column": "b"

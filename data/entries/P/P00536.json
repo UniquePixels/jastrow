@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00536",
-	"slug": "עיטם",
-	"headword": {
-		"text": "עֵיטָם"
-	},
+	"sefariaHeadword": "עֵיטָם",
+	"headwords": [
+		{
+			"text": "עֵיטָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02330",
-	"slug": "אסוונן",
-	"headword": {
-		"text": "אסוונן"
-	},
+	"sefariaHeadword": "אסוונן",
+	"headwords": [
+		{
+			"text": "אסוונן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

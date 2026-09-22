@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00742",
-	"slug": "אונייקי",
-	"headword": {
-		"text": "אוּנְיָיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּנְיָיקִי",
+	"headwords": [
 		{
-			"text": "בית אוּנְיָיקִי"
+			"text": "אוּנְיָיקִי"
+		},
+		{
+			"text": "בית א׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 29,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

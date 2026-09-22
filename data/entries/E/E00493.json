@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00493",
-	"slug": "היתיר",
-	"headword": {
-		"text": "הֶיתֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיתֵּיר",
+	"headwords": [
+		{
+			"text": "הֶיתֵּיר"
+		},
 		{
 			"text": "הֶיתֵּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 349,
 		"column": "b"

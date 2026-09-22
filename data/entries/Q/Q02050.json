@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02050",
-	"slug": "פרתיאין",
-	"headword": {
-		"text": "פַּרְתִּיאִין"
-	},
+	"sefariaHeadword": "פַּרְתִּיאִין",
+	"headwords": [
+		{
+			"text": "פַּרְתִּיאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "b"

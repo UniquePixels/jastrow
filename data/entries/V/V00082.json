@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00082",
-	"slug": "תגארא",
-	"headword": {
-		"text": "תִּגָּארָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּגָּארָא",
+	"headwords": [
 		{
-			"text": "תִּיגָּ׳"
+			"text": "תִּגָּארָא"
+		},
+		{
+			"text": "תִּיגָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1646,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00727",
-	"slug": "חייט-1",
-	"headword": {
-		"text": "חַיָּיט"
-	},
+	"sefariaHeadword": "חַיָּיט",
+	"headwords": [
+		{
+			"text": "חַיָּיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

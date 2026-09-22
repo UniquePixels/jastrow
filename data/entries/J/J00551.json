@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00551",
-	"slug": "יצר-4",
-	"headword": {
-		"text": "יֵצֶר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יֵצֶר ²",
+	"headwords": [
+		{
+			"text": "יֵצֶר",
+			"disambiguator": 2
+		},
 		{
 			"text": "יִצְרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 590,
 		"column": "b"

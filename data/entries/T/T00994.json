@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00994",
-	"slug": "רצענא",
-	"headword": {
-		"text": "רַצְעָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַצְעָנָא",
+	"headwords": [
 		{
-			"text": "רוֹ׳"
+			"text": "רַצְעָנָא"
+		},
+		{
+			"text": "רוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1494,
 		"column": "b"

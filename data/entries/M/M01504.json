@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01504",
-	"slug": "מלוזמא",
-	"headword": {
-		"text": "מְלוּזְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְלוּזְמָא",
+	"headwords": [
+		{
+			"text": "מְלוּזְמָא"
+		},
 		{
 			"text": "מְלוּזְמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 788,
 		"column": "a"

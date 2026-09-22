@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02434",
-	"slug": "אסיטון",
-	"headword": {
-		"text": "אסיטון"
-	},
+	"sefariaHeadword": "אסיטון",
+	"headwords": [
+		{
+			"text": "אסיטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "a"

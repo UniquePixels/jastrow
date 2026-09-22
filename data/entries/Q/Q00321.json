@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00321",
-	"slug": "פוקיתא",
-	"headword": {
-		"text": "פּוּקִיתָא"
-	},
+	"sefariaHeadword": "פּוּקִיתָא",
+	"headwords": [
+		{
+			"text": "פּוּקִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01740",
-	"slug": "פרושה",
-	"headword": {
-		"text": "פְּרוּשָׁה"
-	},
+	"sefariaHeadword": "פְּרוּשָׁה",
+	"headwords": [
+		{
+			"text": "פְּרוּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01782",
-	"slug": "מניכא",
-	"headword": {
-		"text": "מָנִיכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָנִיכָא",
+	"headwords": [
 		{
-			"text": "מְ׳"
+			"text": "מָנִיכָא"
+		},
+		{
+			"text": "מְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 801,
 		"column": "a"

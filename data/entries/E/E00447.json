@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00447",
-	"slug": "הינג",
-	"headword": {
-		"text": "הֵינַג"
-	},
+	"sefariaHeadword": "הֵינַג",
+	"headwords": [
+		{
+			"text": "הֵינַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

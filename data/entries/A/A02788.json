@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02788",
-	"slug": "אפקרסי",
-	"headword": {
-		"text": "אַפְקְרָסִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְקְרָסִי",
+	"headwords": [
+		{
+			"text": "אַפְקְרָסִי"
+		},
 		{
 			"text": "אַפִּיקְרָסִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "b"

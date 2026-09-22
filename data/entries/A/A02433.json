@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02433",
-	"slug": "אסיט",
-	"headword": {
-		"text": "אֲסִיט",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲסִיט",
+	"headwords": [
+		{
+			"text": "אֲסִיט",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 93,
 		"column": "a"

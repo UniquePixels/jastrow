@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00652",
-	"slug": "מוריקא",
-	"headword": {
-		"text": "מוֹרִיקָא"
-	},
+	"sefariaHeadword": "מוֹרִיקָא",
+	"headwords": [
+		{
+			"text": "מוֹרִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "a"

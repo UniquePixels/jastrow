@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02620",
-	"slug": "מרזובלי",
-	"headword": {
-		"text": "מַרְזוּבְלֵי"
-	},
+	"sefariaHeadword": "מַרְזוּבְלֵי",
+	"headwords": [
+		{
+			"text": "מַרְזוּבְלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

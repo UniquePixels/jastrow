@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00536",
-	"slug": "תכך-2",
-	"headword": {
-		"text": "תְּכַךְ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּכַךְ II",
+	"headwords": [
+		{
+			"text": "תְּכַךְ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1668,
 		"column": "a"

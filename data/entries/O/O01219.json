@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01219",
-	"slug": "סנטרותא",
-	"headword": {
-		"text": "סַנְטֵרוּתָא"
-	},
+	"sefariaHeadword": "סַנְטֵרוּתָא",
+	"headwords": [
+		{
+			"text": "סַנְטֵרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "b"

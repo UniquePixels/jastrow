@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01483",
-	"slug": "עשיר-2",
-	"headword": {
-		"text": "עשיר"
-	},
+	"sefariaHeadword": "עשיר",
+	"headwords": [
+		{
+			"text": "עשיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1126,
 		"column": "a"

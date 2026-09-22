@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00447",
-	"slug": "פחד-4",
-	"headword": {
-		"text": "פַּחַד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּחַד ²",
+	"headwords": [
+		{
+			"text": "פַּחַד",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּחְדָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1151,
 		"column": "b"

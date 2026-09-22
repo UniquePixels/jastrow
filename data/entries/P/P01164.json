@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01164",
-	"slug": "עקוסא",
-	"headword": {
-		"text": "עָקוֹסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָקוֹסָא",
+	"headwords": [
+		{
+			"text": "עָקוֹסָא"
+		},
 		{
 			"text": "עָקוֹצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1105,
 		"column": "a"

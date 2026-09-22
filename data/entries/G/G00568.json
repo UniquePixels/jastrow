@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00568",
-	"slug": "זנדוקא",
-	"headword": {
-		"text": "זַנְדּוּקָא"
-	},
+	"sefariaHeadword": "זַנְדּוּקָא",
+	"headwords": [
+		{
+			"text": "זַנְדּוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

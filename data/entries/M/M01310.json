@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01310",
-	"slug": "מישון",
-	"headword": {
-		"text": "מֵישׁוֹן"
-	},
+	"sefariaHeadword": "מֵישׁוֹן",
+	"headwords": [
+		{
+			"text": "מֵישׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "b"

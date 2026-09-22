@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00520",
-	"slug": "כייורא",
-	"headword": {
-		"text": "כִּייוּרָא"
-	},
+	"sefariaHeadword": "כִּייוּרָא",
+	"headwords": [
+		{
+			"text": "כִּייוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

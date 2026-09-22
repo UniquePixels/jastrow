@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00227",
-	"slug": "נדיין-2",
-	"headword": {
-		"text": "נִדְּיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְּיָין",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִדְּיָין"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 879,
 		"column": "a"

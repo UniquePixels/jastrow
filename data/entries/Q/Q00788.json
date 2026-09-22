@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00788",
-	"slug": "פיפילון",
-	"headword": {
-		"text": "פיפילון"
-	},
+	"sefariaHeadword": "פיפילון",
+	"headwords": [
+		{
+			"text": "פיפילון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

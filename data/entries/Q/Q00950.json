@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00950",
-	"slug": "פלגליסא",
-	"headword": {
-		"text": "פַּלְגְּלִיסָא"
-	},
+	"sefariaHeadword": "פַּלְגְּלִיסָא",
+	"headwords": [
+		{
+			"text": "פַּלְגְּלִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

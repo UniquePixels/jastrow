@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00843",
-	"slug": "רנגיא",
-	"headword": {
-		"text": "רנגיא"
-	},
+	"sefariaHeadword": "רנגיא",
+	"headwords": [
+		{
+			"text": "רנגיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "a"

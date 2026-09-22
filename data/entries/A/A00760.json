@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00760",
-	"slug": "אונקא-1",
-	"headword": {
-		"text": "אוּנְקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּנְקָא I",
+	"headwords": [
+		{
+			"text": "אוּנְקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 29,
 		"column": "b"

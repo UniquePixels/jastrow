@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00635",
-	"slug": "בין-1",
-	"headword": {
-		"text": "בִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּין",
+	"headwords": [
+		{
+			"text": "בִּין"
+		},
 		{
 			"text": "בּוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 162,
 		"column": "b"

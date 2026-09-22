@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01371",
-	"slug": "קלנדא",
-	"headword": {
-		"text": "קלנדא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלנדא",
+	"headwords": [
+		{
+			"text": "קלנדא"
+		},
 		{
 			"text": "קלנדה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1379,
 		"column": "a"

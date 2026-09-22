@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00236",
-	"slug": "כוח-2",
-	"headword": {
-		"text": "כּוֹחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹחַ",
+	"headwords": [
+		{
+			"text": "כּוֹחַ"
+		},
 		{
 			"text": "כּוֹחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 618,
 		"column": "a"

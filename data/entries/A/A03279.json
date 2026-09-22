@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03279",
-	"slug": "אשותא-2",
-	"headword": {
-		"text": "אַשְׁוָתָא"
-	},
+	"sefariaHeadword": "אַשְוָתָא",
+	"headwords": [
+		{
+			"text": "אַשְׁוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00744",
-	"slug": "הפכנא",
-	"headword": {
-		"text": "הַפְכָנָא"
-	},
+	"sefariaHeadword": "הַפְכָנָא",
+	"headwords": [
+		{
+			"text": "הַפְכָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 361,
 		"column": "b"

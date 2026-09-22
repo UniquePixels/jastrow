@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00944",
-	"slug": "בני-2",
-	"headword": {
-		"text": "בְּנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּנֵי",
+	"headwords": [
+		{
+			"text": "בְּנֵי"
+		},
 		{
 			"text": "בְּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 176,
 		"column": "b"

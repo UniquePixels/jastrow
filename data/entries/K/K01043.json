@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01043",
-	"slug": "כפף-1",
-	"headword": {
-		"text": "כָּפַף"
-	},
+	"sefariaHeadword": "כָּפַף",
+	"headwords": [
+		{
+			"text": "כָּפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 661,
 		"column": "a"

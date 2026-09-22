@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00333",
-	"slug": "סום-2",
-	"headword": {
-		"text": "סוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּם",
+	"headwords": [
+		{
+			"text": "סוּם"
+		},
 		{
 			"text": "סִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 965,
 		"column": "a"

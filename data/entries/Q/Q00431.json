@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00431",
-	"slug": "פזמא",
-	"headword": {
-		"text": "פִּזְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּזְמָא",
+	"headwords": [
 		{
-			"text": "פִּיזְ׳"
+			"text": "פִּזְמָא"
+		},
+		{
+			"text": "פִּיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1150,
 		"column": "a"

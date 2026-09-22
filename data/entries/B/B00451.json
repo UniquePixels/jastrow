@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00451",
-	"slug": "בזיך-1",
-	"headword": {
-		"text": "בָּזִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּזִיךְ",
+	"headwords": [
+		{
+			"text": "בָּזִיךְ"
+		},
 		{
 			"text": "בָּזָךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 153,
 		"column": "b"

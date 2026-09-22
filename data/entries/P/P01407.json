@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01407",
-	"slug": "ערסיתא",
-	"headword": {
-		"text": "עַרְסִיתָא"
-	},
+	"sefariaHeadword": "עַרְסִיתָא",
+	"headwords": [
+		{
+			"text": "עַרְסִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1121,
 		"column": "a"

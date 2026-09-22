@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02770",
-	"slug": "מרקחתא",
-	"headword": {
-		"text": "מֶרְקַחְתָּא"
-	},
+	"sefariaHeadword": "מֶרְקַחְתָּא",
+	"headwords": [
+		{
+			"text": "מֶרְקַחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "b"

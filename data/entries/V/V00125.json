@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00125",
-	"slug": "תהילים",
-	"headword": {
-		"text": "תְּהִילִּים"
-	},
+	"sefariaHeadword": "תְּהִילִּים",
+	"headwords": [
+		{
+			"text": "תְּהִילִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "a"

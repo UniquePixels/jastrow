@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01733",
-	"slug": "פרוקפאות",
-	"headword": {
-		"text": "פְּרוֹקְפָּאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹקְפָּאוֹת",
+	"headwords": [
+		{
+			"text": "פְּרוֹקְפָּאוֹת"
+		},
 		{
 			"text": "פְּרוֹקְפִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1222,
 		"column": "a"

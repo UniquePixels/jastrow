@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02269",
-	"slug": "אנפוקנין",
-	"headword": {
-		"text": "אנפוקנין"
-	},
+	"sefariaHeadword": "אנפוקנין",
+	"headwords": [
+		{
+			"text": "אנפוקנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

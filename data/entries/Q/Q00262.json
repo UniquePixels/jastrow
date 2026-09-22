@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00262",
-	"slug": "פונדין",
-	"headword": {
-		"text": "פּוּנְדִּין"
-	},
+	"sefariaHeadword": "פּוּנְדִּין",
+	"headwords": [
+		{
+			"text": "פּוּנְדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00630",
-	"slug": "עיסוק",
-	"headword": {
-		"text": "עִיסּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיסּוּק",
+	"headwords": [
 		{
-			"text": "עִסּ׳"
+			"text": "עִיסּוּק"
+		},
+		{
+			"text": "עִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1073,
 		"column": "a"

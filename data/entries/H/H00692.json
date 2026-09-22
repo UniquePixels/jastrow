@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00692",
-	"slug": "חיותא-2",
-	"headword": {
-		"text": "חֵיוְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיוְתָא",
+	"headwords": [
 		{
-			"text": "חֵיוְו׳"
+			"text": "חֵיוְתָא"
+		},
+		{
+			"text": "חֵיוְו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 453,
 		"column": "a"

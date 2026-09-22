@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00077",
-	"slug": "סבני",
-	"headword": {
-		"text": "סִבְנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבְנִי",
+	"headwords": [
 		{
-			"text": "סוּבְ׳"
+			"text": "סִבְנִי"
 		},
 		{
-			"text": "סִיבְ׳"
+			"text": "סוּבְ׳",
+			"partial": true
+		},
+		{
+			"text": "סִיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 951,
 		"column": "a"

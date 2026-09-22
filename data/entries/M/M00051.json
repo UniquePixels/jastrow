@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00051",
-	"slug": "מאס-3",
-	"headword": {
-		"text": "מָאָס"
-	},
+	"sefariaHeadword": "מָאָס",
+	"headwords": [
+		{
+			"text": "מָאָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

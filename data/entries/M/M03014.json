@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03014",
-	"slug": "מתג-2",
-	"headword": {
-		"text": "מֶתֶג"
-	},
+	"sefariaHeadword": "מֶתֶג",
+	"headwords": [
+		{
+			"text": "מֶתֶג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00214",
-	"slug": "עוות",
-	"headword": {
-		"text": "עִוּוּת"
-	},
+	"sefariaHeadword": "עִוּוּת",
+	"headwords": [
+		{
+			"text": "עִוּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

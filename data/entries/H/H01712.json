@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01712",
-	"slug": "חרכא",
-	"headword": {
-		"text": "חֲרַכָּא"
-	},
+	"sefariaHeadword": "חֲרַכָּא",
+	"headwords": [
+		{
+			"text": "חֲרַכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 503,
 		"column": "b"

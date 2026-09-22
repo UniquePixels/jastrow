@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00800",
-	"slug": "אופיא",
-	"headword": {
-		"text": "אוֹפְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹפְיָא",
+	"headwords": [
+		{
+			"text": "אוֹפְיָא"
+		},
 		{
 			"text": "הוֹפְיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 31,
 		"column": "a"

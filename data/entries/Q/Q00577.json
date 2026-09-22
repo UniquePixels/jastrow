@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00577",
-	"slug": "פיגול-1",
-	"headword": {
-		"text": "פִּיגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיגּוּל",
+	"headwords": [
+		{
+			"text": "פִּיגּוּל"
+		},
 		{
 			"text": "פִּגּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "a"

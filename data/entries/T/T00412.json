@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00412",
-	"slug": "רוס-2",
-	"headword": {
-		"text": "רוּס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רוּס ²",
+	"headwords": [
+		{
+			"text": "רוּס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1462,
 		"column": "a"

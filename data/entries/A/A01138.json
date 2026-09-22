@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01138",
-	"slug": "איברייא",
-	"headword": {
-		"text": "איברייא"
-	},
+	"sefariaHeadword": "איברייא",
+	"headwords": [
+		{
+			"text": "איברייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

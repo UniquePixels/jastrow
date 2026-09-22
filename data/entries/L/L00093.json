@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "L00093",
-	"slug": "לבלר-2",
-	"headword": {
-		"text": "לִבְלָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִבְלָר ²",
+	"headwords": [
+		{
+			"text": "לִבְלָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "לִבְלָרָא"
 		},
 		{
-			"text": "לַב׳"
+			"text": "לַב׳",
+			"partial": true
 		},
 		{
-			"text": "לִיבְ׳"
+			"text": "לִיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, ({2}), {3}",
 	"page": {
 		"number": 689,
 		"column": "b"

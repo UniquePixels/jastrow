@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00777",
-	"slug": "דכיר",
-	"headword": {
-		"text": "דְּכִיר"
-	},
+	"sefariaHeadword": "דְּכִיר",
+	"headwords": [
+		{
+			"text": "דְּכִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "a"
@@ -13,7 +17,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (v. <cite ref=\"D00792\"><he>דְּכַר</he></cite>) = h. <cite ref=\"G00447\"><he>זָכוּר</he></cite>, <i>remembered, reminded, mindful</i>. ",
+			"gloss": "m. (v. <cite ref=\"D00792\"><he>דְּכַר</he></cite>) = h. <cite ref=\"G00447\"><he>זָכוּר</he></cite>, <i>remembered, reminded, mindful</i>. ",
 			"units": [
 				"<cite ref=\"Aramaic Targum to Psalms 103:14\">Targ. Ps. CIII, 14</cite> <he>ד׳ קדמוי</he> it is remembered before Him.—",
 				"<cite ref=\"Onkelos Genesis 9:15\">Targ. Gen. IX, 15</cite> <he>דְּכִירְנָא</he> I shall remember; a. fr.—",

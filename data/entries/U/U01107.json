@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01107",
-	"slug": "שיתומא",
-	"headword": {
-		"text": "שִׁיתּוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיתּוּמָא",
+	"headwords": [
 		{
-			"text": "שִׁתּ׳"
+			"text": "שִׁיתּוּמָא"
+		},
+		{
+			"text": "שִׁתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1570,
 		"column": "b"

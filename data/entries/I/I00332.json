@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00332",
-	"slug": "טיטיון",
-	"headword": {
-		"text": "טיטיון"
-	},
+	"sefariaHeadword": "טיטיון",
+	"headwords": [
+		{
+			"text": "טיטיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

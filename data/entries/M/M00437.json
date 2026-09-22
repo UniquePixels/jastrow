@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00437",
-	"slug": "מווחי",
-	"headword": {
-		"text": "מַוְוחֵי"
-	},
+	"sefariaHeadword": "מַוְוחֵי",
+	"headwords": [
+		{
+			"text": "מַוְוחֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "b"

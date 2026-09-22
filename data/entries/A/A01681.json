@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01681",
-	"slug": "אכזרי",
-	"headword": {
-		"text": "אַכְזָרִי"
-	},
+	"sefariaHeadword": "אַכְזָרִי",
+	"headwords": [
+		{
+			"text": "אַכְזָרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

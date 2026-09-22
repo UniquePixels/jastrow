@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00789",
-	"slug": "דכסן",
-	"headword": {
-		"text": "דכסן"
-	},
+	"sefariaHeadword": "דכסן",
+	"headwords": [
+		{
+			"text": "דכסן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "b"

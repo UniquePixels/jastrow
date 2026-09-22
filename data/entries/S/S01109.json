@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01109",
-	"slug": "קיפלוריא",
-	"headword": {
-		"text": "קִיפְלוּרְיָא"
-	},
+	"sefariaHeadword": "קִיפְלוּרְיָא",
+	"headwords": [
+		{
+			"text": "קִיפְלוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "b"

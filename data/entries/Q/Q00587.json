@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00587",
-	"slug": "פיגמין",
-	"headword": {
-		"text": "פִּיגְמִין"
-	},
+	"sefariaHeadword": "פִּיגְמִין",
+	"headwords": [
+		{
+			"text": "פִּיגְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

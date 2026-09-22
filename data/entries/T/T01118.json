@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01118",
-	"slug": "רתוותא",
-	"headword": {
-		"text": "רתוותא"
-	},
+	"sefariaHeadword": "רתוותא",
+	"headwords": [
+		{
+			"text": "רתוותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01870",
-	"slug": "קקלא",
-	"headword": {
-		"text": "קִקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִקְלָא",
+	"headwords": [
+		{
+			"text": "קִקְלָא"
+		},
 		{
 			"text": "קִקְלְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "b"

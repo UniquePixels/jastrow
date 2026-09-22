@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00376",
-	"slug": "חומטון",
-	"headword": {
-		"text": "חוּמְטוֹן"
-	},
+	"sefariaHeadword": "חוּמְטוֹן",
+	"headwords": [
+		{
+			"text": "חוּמְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03067",
-	"slug": "מתכא",
-	"headword": {
-		"text": "מַתְּכָא"
-	},
+	"sefariaHeadword": "מַתְּכָא",
+	"headwords": [
+		{
+			"text": "מַתְּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

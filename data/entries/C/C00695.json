@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00695",
-	"slug": "גיחור",
-	"headword": {
-		"text": "גִּיחוֹר"
-	},
+	"sefariaHeadword": "גִּיחוֹר",
+	"headwords": [
+		{
+			"text": "גִּיחוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

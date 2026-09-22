@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00940",
-	"slug": "מחרישה",
-	"headword": {
-		"text": "מַחֲרֵישָׁה"
-	},
+	"sefariaHeadword": "מַחֲרֵישָׁה",
+	"headwords": [
+		{
+			"text": "מַחֲרֵישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "b"

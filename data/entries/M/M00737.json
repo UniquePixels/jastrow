@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00737",
-	"slug": "מזופא",
-	"headword": {
-		"text": "מְזוֹפָא"
-	},
+	"sefariaHeadword": "מְזוֹפָא",
+	"headwords": [
+		{
+			"text": "מְזוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "b"

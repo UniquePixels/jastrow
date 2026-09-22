@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00579",
-	"slug": "גזראי",
-	"headword": {
-		"text": "גְּזָרָאֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּזָרָאֵי",
+	"headwords": [
+		{
+			"text": "גְּזָרָאֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 232,
 		"column": "a"

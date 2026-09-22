@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00348",
-	"slug": "סומנא",
-	"headword": {
-		"text": "סוּמָנָא"
-	},
+	"sefariaHeadword": "סוּמָנָא",
+	"headwords": [
+		{
+			"text": "סוּמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

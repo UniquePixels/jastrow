@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00364",
-	"slug": "חולק",
-	"headword": {
-		"text": "חוּלַּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלַּק",
+	"headwords": [
+		{
+			"text": "חוּלַּק"
+		},
 		{
 			"text": "חוּלְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 434,
 		"column": "b"

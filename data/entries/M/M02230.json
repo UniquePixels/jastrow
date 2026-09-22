@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02230",
-	"slug": "מפסולת",
-	"headword": {
-		"text": "מִפְסוֹלַת"
-	},
+	"sefariaHeadword": "מִפְסוֹלַת",
+	"headwords": [
+		{
+			"text": "מִפְסוֹלַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

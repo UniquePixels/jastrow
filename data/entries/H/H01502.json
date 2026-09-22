@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01502",
-	"slug": "חצדא-3",
-	"headword": {
-		"text": "חַצָּדָא"
-	},
+	"sefariaHeadword": "חַצָּדָא",
+	"headwords": [
+		{
+			"text": "חַצָּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 494,
 		"column": "b"

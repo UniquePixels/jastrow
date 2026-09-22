@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00146",
-	"slug": "שבלי",
-	"headword": {
-		"text": "שִׁבְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבְלֵי",
+	"headwords": [
 		{
-			"text": "שִׂ׳"
+			"text": "שִׁבְלֵי"
+		},
+		{
+			"text": "שִׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1515,
 		"column": "a"

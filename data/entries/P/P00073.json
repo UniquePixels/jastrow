@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00073",
-	"slug": "עבריין",
-	"headword": {
-		"text": "עֲבַרְיָין"
-	},
+	"sefariaHeadword": "עֲבַרְיָין",
+	"headwords": [
+		{
+			"text": "עֲבַרְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00502",
-	"slug": "פטור-1",
-	"headword": {
-		"text": "פָּטוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּטוּר",
+	"headwords": [
+		{
+			"text": "פָּטוּר"
+		},
 		{
 			"text": "פְּטוּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1154,
 		"column": "b"

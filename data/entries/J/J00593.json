@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00593",
-	"slug": "יראוי",
-	"headword": {
-		"text": "יָראוּי"
-	},
+	"sefariaHeadword": "יָראוּי",
+	"headwords": [
+		{
+			"text": "יָראוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00449",
-	"slug": "בזייה",
-	"headword": {
-		"text": "בָּזַיָּיה"
-	},
+	"sefariaHeadword": "בָּזַיָּיה",
+	"headwords": [
+		{
+			"text": "בָּזַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "b"

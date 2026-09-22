@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01111",
-	"slug": "גנוניתא-2",
-	"headword": {
-		"text": "גְּנוּנִיתָא"
-	},
+	"sefariaHeadword": "גְּנוּנִיתָא",
+	"headwords": [
+		{
+			"text": "גְּנוּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

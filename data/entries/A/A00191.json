@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00191",
-	"slug": "אבק-4",
-	"headword": {
-		"text": "אָבָק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָבָק ²",
+	"headwords": [
+		{
+			"text": "אָבָק",
+			"disambiguator": 2
+		},
 		{
 			"text": "אַבְקָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 8,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00704",
-	"slug": "דיקולר",
-	"headword": {
-		"text": "דיקולר"
-	},
+	"sefariaHeadword": "דיקולר",
+	"headwords": [
+		{
+			"text": "דיקולר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

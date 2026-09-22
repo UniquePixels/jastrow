@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01235",
-	"slug": "כרמלית",
-	"headword": {
-		"text": "כַּרְמְלִית"
-	},
+	"sefariaHeadword": "כַּרְמְלִית",
+	"headwords": [
+		{
+			"text": "כַּרְמְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

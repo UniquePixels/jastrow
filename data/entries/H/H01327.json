@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01327",
-	"slug": "חנקא",
-	"headword": {
-		"text": "חֲנָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנָקָא",
+	"headwords": [
+		{
+			"text": "חֲנָקָא"
+		},
 		{
 			"text": "חֲנֵיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 485,
 		"column": "b"

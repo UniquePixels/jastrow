@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00348",
-	"slug": "פוריון",
-	"headword": {
-		"text": "פּוּרְיוֹן"
-	},
+	"sefariaHeadword": "פּוּרְיוֹן",
+	"headwords": [
+		{
+			"text": "פּוּרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "a"

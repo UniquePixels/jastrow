@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00502",
-	"slug": "כיוון-1",
-	"headword": {
-		"text": "כִּיוּוּן"
-	},
+	"sefariaHeadword": "כִּיוּוּן",
+	"headwords": [
+		{
+			"text": "כִּיוּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

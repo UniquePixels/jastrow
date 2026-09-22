@@ -1,14 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M02868",
-	"slug": "משיזב",
-	"headword": {
-		"text": "מְשֵׁיזֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשֵׁיזֵב",
+	"headwords": [
 		{
-			"text": "מְשֵׁיזְבָא מְשֵׁיזִיב"
+			"text": "מְשֵׁיזֵב"
+		},
+		{
+			"text": "מְשֵׁיזְבָא"
+		},
+		{
+			"text": "מְשֵׁיזִיב"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 852,
 		"column": "a"

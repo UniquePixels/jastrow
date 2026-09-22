@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00581",
-	"slug": "חטא-3",
-	"headword": {
-		"text": "חֵטא"
-	},
+	"sefariaHeadword": "חֵטא",
+	"headwords": [
+		{
+			"text": "חֵטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

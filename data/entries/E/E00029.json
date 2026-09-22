@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00029",
-	"slug": "הבהב-1",
-	"headword": {
-		"text": "הִבְהֵב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הִבְהֵב I",
+	"headwords": [
+		{
+			"text": "הִבְהֵב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 329,
 		"column": "a"

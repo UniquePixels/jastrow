@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00198",
-	"slug": "כובש",
-	"headword": {
-		"text": "כּוֹבֵשׁ"
-	},
+	"sefariaHeadword": "כּוֹבֵשׁ",
+	"headwords": [
+		{
+			"text": "כּוֹבֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

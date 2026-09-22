@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00820",
-	"slug": "הרגשה",
-	"headword": {
-		"text": "הַרְגָּשָׁה"
-	},
+	"sefariaHeadword": "הַרְגָּשָׁה",
+	"headwords": [
+		{
+			"text": "הַרְגָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

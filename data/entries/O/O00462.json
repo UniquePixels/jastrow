@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00462",
-	"slug": "סחף-2",
-	"headword": {
-		"text": "סְחַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְחַף I",
+	"headwords": [
+		{
+			"text": "סְחַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 971,
 		"column": "b"

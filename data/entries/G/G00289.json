@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00289",
-	"slug": "זיהורא-1",
-	"headword": {
-		"text": "זִיהוּרָא"
-	},
+	"sefariaHeadword": "זִיהוּרָא",
+	"headwords": [
+		{
+			"text": "זִיהוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

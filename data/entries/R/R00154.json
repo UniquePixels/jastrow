@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00154",
-	"slug": "צוב-1",
-	"headword": {
-		"text": "צוּב"
-	},
+	"sefariaHeadword": "צוּב",
+	"headwords": [
+		{
+			"text": "צוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "b"

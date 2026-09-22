@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00076",
-	"slug": "סבנה",
-	"headword": {
-		"text": "סבנה"
-	},
+	"sefariaHeadword": "סבנה",
+	"headwords": [
+		{
+			"text": "סבנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 951,
 		"column": "a"

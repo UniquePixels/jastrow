@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00953",
-	"slug": "שילשול",
-	"headword": {
-		"text": "שִׁילְשׁוּל"
-	},
+	"sefariaHeadword": "שִׁילְשׁוּל",
+	"headwords": [
+		{
+			"text": "שִׁילְשׁוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02107",
-	"slug": "אנגרון",
-	"headword": {
-		"text": "אנגרון"
-	},
+	"sefariaHeadword": "אנגרון",
+	"headwords": [
+		{
+			"text": "אנגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

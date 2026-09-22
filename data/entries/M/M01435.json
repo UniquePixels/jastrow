@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01435",
-	"slug": "מכר-2",
-	"headword": {
-		"text": "מְכַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְכַר",
+	"headwords": [
+		{
+			"text": "מְכַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 784,
 		"column": "b"

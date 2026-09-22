@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "C01107",
-	"slug": "גנון-2",
-	"headword": {
-		"text": "גִּנּוּן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּנּוּן ²",
+	"headwords": [
+		{
+			"text": "גִּנּוּן",
+			"disambiguator": 2
+		},
 		{
 			"text": "גְּנוּנָא"
 		},
 		{
-			"text": "גִּינּוּ׳"
+			"text": "גִּינּוּ׳",
+			"partial": true
 		},
 		{
 			"text": "גְּנָנָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 258,
 		"column": "a"

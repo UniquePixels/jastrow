@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00546",
-	"slug": "שוריבנא",
-	"headword": {
-		"text": "שוריבנא"
-	},
+	"sefariaHeadword": "שוריבנא",
+	"headwords": [
+		{
+			"text": "שוריבנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "b"

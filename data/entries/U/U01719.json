@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01719",
-	"slug": "שפוייתא",
-	"headword": {
-		"text": "שְׁפוּיָיתָא"
-	},
+	"sefariaHeadword": "שְׁפוּיָיתָא",
+	"headwords": [
+		{
+			"text": "שְׁפוּיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03063",
-	"slug": "מתיקה",
-	"headword": {
-		"text": "מְתִיקָה"
-	},
+	"sefariaHeadword": "מְתִיקָה",
+	"headwords": [
+		{
+			"text": "מְתִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

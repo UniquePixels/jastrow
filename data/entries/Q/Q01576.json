@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01576",
-	"slug": "פרדוכוס",
-	"headword": {
-		"text": "פרדוכוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרדוכוס",
+	"headwords": [
+		{
+			"text": "פרדוכוס"
+		},
 		{
 			"text": "פרדוכסוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1215,
 		"column": "b"

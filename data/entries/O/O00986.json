@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00986",
-	"slug": "סלייקוס",
-	"headword": {
-		"text": "סלייקוס"
-	},
+	"sefariaHeadword": "סלייקוס",
+	"headwords": [
+		{
+			"text": "סלייקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

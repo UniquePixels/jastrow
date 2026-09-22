@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02965",
-	"slug": "ארבן",
-	"headword": {
-		"text": "אָרְבָּן"
-	},
+	"sefariaHeadword": "אָרְבָּן",
+	"headwords": [
+		{
+			"text": "אָרְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 114,
 		"column": "a"

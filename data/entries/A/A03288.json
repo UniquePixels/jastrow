@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03288",
-	"slug": "אשימא",
-	"headword": {
-		"text": "אֲשִׁימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲשִׁימָא",
+	"headwords": [
+		{
+			"text": "אֲשִׁימָא"
+		},
 		{
 			"text": "אֲשִׁימָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "b"

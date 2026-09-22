@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00473",
-	"slug": "עטף-5",
-	"headword": {
-		"text": "עָטָף"
-	},
+	"sefariaHeadword": "עָטָף",
+	"headwords": [
+		{
+			"text": "עָטָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1064,
 		"column": "a"

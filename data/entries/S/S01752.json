@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01752",
-	"slug": "קפלאות",
-	"headword": {
-		"text": "קִפְלָאוֹת"
-	},
+	"sefariaHeadword": "קִפְלָאוֹת",
+	"headwords": [
+		{
+			"text": "קִפְלָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

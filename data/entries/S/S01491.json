@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01491",
-	"slug": "קמצן",
-	"headword": {
-		"text": "קַמְצָן"
-	},
+	"sefariaHeadword": "קַמְצָן",
+	"headwords": [
+		{
+			"text": "קַמְצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "a"

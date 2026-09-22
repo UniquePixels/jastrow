@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01178",
-	"slug": "קירי-1",
-	"headword": {
-		"text": "קִירִי"
-	},
+	"sefariaHeadword": "קִירִי",
+	"headwords": [
+		{
+			"text": "קִירִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "a"

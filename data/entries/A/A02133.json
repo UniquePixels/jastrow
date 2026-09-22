@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02133",
-	"slug": "אנדריינוס",
-	"headword": {
-		"text": "אַנְדַּרְיָינוֹס"
-	},
+	"sefariaHeadword": "אַנְדַּרְיָינוֹס",
+	"headwords": [
+		{
+			"text": "אַנְדַּרְיָינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

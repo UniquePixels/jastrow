@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00357",
-	"slug": "סומקתא-2",
-	"headword": {
-		"text": "סוּמַּקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּמַּקְתָּא",
+	"headwords": [
 		{
-			"text": "סֻמַּ׳"
+			"text": "סוּמַּקְתָּא"
+		},
+		{
+			"text": "סֻמַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 966,
 		"column": "b"

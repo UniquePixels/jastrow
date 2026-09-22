@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01121",
-	"slug": "סמנים",
-	"headword": {
-		"text": "סְמָנִים"
-	},
+	"sefariaHeadword": "סְמָנִים",
+	"headwords": [
+		{
+			"text": "סְמָנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

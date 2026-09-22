@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00106",
-	"slug": "ותיניא",
-	"headword": {
-		"text": "וְתִינְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְתִינְיָא",
+	"headwords": [
 		{
-			"text": "וְתוּ׳"
+			"text": "וְתִינְיָא"
+		},
+		{
+			"text": "וְתוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 376,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03067",
-	"slug": "ארטבינא",
-	"headword": {
-		"text": "אַרְטְבִינָא"
-	},
+	"sefariaHeadword": "אַרְטְבִינָא",
+	"headwords": [
+		{
+			"text": "אַרְטְבִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

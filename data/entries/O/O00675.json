@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00675",
-	"slug": "סילקי",
-	"headword": {
-		"text": "סילקי"
-	},
+	"sefariaHeadword": "סילקי",
+	"headwords": [
+		{
+			"text": "סילקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

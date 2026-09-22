@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00819",
-	"slug": "מחוזי",
-	"headword": {
-		"text": "מָחוֹזִי"
-	},
+	"sefariaHeadword": "מָחוֹזִי",
+	"headwords": [
+		{
+			"text": "מָחוֹזִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "b"

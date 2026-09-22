@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00741",
-	"slug": "גימטריא",
-	"headword": {
-		"text": "גִּימַטְרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּימַטְרְיָא",
+	"headwords": [
+		{
+			"text": "גִּימַטְרְיָא"
+		},
 		{
 			"text": "גְּמַטְרְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 239,
 		"column": "a"

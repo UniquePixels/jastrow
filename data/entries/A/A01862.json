@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01862",
-	"slug": "אלים-3",
-	"headword": {
-		"text": "אַלִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלִּים",
+	"headwords": [
+		{
+			"text": "אַלִּים"
+		},
 		{
 			"text": "אַלְּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 69,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00010",
-	"slug": "באגדתא",
-	"headword": {
-		"text": "באגדתא"
-	},
+	"sefariaHeadword": "באגדתא",
+	"headwords": [
+		{
+			"text": "באגדתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

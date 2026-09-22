@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00286",
-	"slug": "עומקן",
-	"headword": {
-		"text": "עוֹמְקָן"
-	},
+	"sefariaHeadword": "עוֹמְקָן",
+	"headwords": [
+		{
+			"text": "עוֹמְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "a"

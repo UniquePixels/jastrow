@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00325",
-	"slug": "ציון-2",
-	"headword": {
-		"text": "צִיּוּן"
-	},
+	"sefariaHeadword": "צִיּוּן",
+	"headwords": [
+		{
+			"text": "צִיּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00517",
-	"slug": "תישוע",
-	"headword": {
-		"text": "תִּישּׁוּעַ"
-	},
+	"sefariaHeadword": "תִּישּׁוּעַ",
+	"headwords": [
+		{
+			"text": "תִּישּׁוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

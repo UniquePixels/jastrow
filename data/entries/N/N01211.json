@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01211",
-	"slug": "נקיפי",
-	"headword": {
-		"text": "נְקִיפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקִיפֵי",
+	"headwords": [
 		{
-			"text": "בֵּית נְקִיפֵי"
+			"text": "נְקִיפֵי"
+		},
+		{
+			"text": "בֵּית נְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"

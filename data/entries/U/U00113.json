@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00113",
-	"slug": "שבי-5",
-	"headword": {
-		"text": "שָׁבֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁבֵי",
+	"headwords": [
+		{
+			"text": "שָׁבֵי"
+		},
 		{
 			"text": "שָׁבְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1513,
 		"column": "b"

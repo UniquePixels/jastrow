@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00925",
-	"slug": "מחצלייא",
-	"headword": {
-		"text": "מַחְצָלַיָּיא"
-	},
+	"sefariaHeadword": "מַחְצָלַיָּיא",
+	"headwords": [
+		{
+			"text": "מַחְצָלַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "b"

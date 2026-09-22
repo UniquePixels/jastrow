@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02383",
-	"slug": "אסטמכרא",
-	"headword": {
-		"text": "אסטמכרא"
-	},
+	"sefariaHeadword": "אסטמכרא",
+	"headwords": [
+		{
+			"text": "אסטמכרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

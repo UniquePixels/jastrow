@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00066",
-	"slug": "כבנה",
-	"headword": {
-		"text": "כְּבֵנָה"
-	},
+	"sefariaHeadword": "כְּבֵנָה",
+	"headwords": [
+		{
+			"text": "כְּבֵנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 609,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00764",
-	"slug": "תסיסה",
-	"headword": {
-		"text": "תְּסִיסָה"
-	},
+	"sefariaHeadword": "תְּסִיסָה",
+	"headwords": [
+		{
+			"text": "תְּסִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1683,
 		"column": "a"

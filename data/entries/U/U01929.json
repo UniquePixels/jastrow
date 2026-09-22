@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01929",
-	"slug": "שרגושא",
-	"headword": {
-		"text": "שַׁרְגּוּשָׁא"
-	},
+	"sefariaHeadword": "שַׁרְגּוּשָׁא",
+	"headwords": [
+		{
+			"text": "שַׁרְגּוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "b"

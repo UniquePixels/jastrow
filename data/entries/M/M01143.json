@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01143",
-	"slug": "מייש",
-	"headword": {
-		"text": "מַיִישׁ"
-	},
+	"sefariaHeadword": "מַיִישׁ",
+	"headwords": [
+		{
+			"text": "מַיִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

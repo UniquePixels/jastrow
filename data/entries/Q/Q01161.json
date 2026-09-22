@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01161",
-	"slug": "פנדרא",
-	"headword": {
-		"text": "פַּנְדֵּרָא"
-	},
+	"sefariaHeadword": "פַּנְדֵּרָא",
+	"headwords": [
+		{
+			"text": "פַּנְדֵּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02948",
-	"slug": "משענת",
-	"headword": {
-		"text": "מִשְׁעֶנֶת"
-	},
+	"sefariaHeadword": "מִשְׁעֶנֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁעֶנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

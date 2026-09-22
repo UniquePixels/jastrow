@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00438",
-	"slug": "עטוף-1",
-	"headword": {
-		"text": "עָטוֹף"
-	},
+	"sefariaHeadword": "עָטוֹף",
+	"headwords": [
+		{
+			"text": "עָטוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "a"

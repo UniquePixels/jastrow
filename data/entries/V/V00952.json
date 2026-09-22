@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00952",
-	"slug": "תרדמה",
-	"headword": {
-		"text": "תַּרְדֵּמָה"
-	},
+	"sefariaHeadword": "תַּרְדֵּמָה",
+	"headwords": [
+		{
+			"text": "תַּרְדֵּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1696,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00888",
-	"slug": "עמיק-1",
-	"headword": {
-		"text": "עַמִּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַמִּיק",
+	"headwords": [
+		{
+			"text": "עַמִּיק"
+		},
 		{
 			"text": "עָמִיק",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1088,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00476",
-	"slug": "כי-4",
-	"headword": {
-		"text": "כִּי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "כִּי ²",
+	"headwords": [
+		{
+			"text": "כִּי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 630,
 		"column": "a"

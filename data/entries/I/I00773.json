@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00773",
-	"slug": "טריגון-1",
-	"headword": {
-		"text": "טְרִיגוֹן"
-	},
+	"sefariaHeadword": "טְרִיגוֹן",
+	"headwords": [
+		{
+			"text": "טְרִיגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

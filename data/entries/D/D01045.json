@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01045",
-	"slug": "דרדור",
-	"headword": {
-		"text": "דַּרְדּוּר"
-	},
+	"sefariaHeadword": "דַּרְדּוּר",
+	"headwords": [
+		{
+			"text": "דַּרְדּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

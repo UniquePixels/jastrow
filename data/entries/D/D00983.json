@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00983",
-	"slug": "דצ״ך",
-	"headword": {
-		"text": "דצ״ך"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דצ\"ך",
+	"headwords": [
 		{
-			"text": "דצ״ך עד״ש באח״ב"
+			"text": "דצ״ך"
+		},
+		{
+			"text": "ד׳ עד״ש באח״ב",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 317,
 		"column": "b"

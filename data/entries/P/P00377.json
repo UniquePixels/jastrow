@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00377",
-	"slug": "עות-5",
-	"headword": {
-		"text": "עֲוַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲוַת",
+	"headwords": [
+		{
+			"text": "עֲוַת"
+		},
 		{
 			"text": "עֲוַות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1060,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01474",
-	"slug": "סקיסאות",
-	"headword": {
-		"text": "סקיסאות"
-	},
+	"sefariaHeadword": "סקיסאות",
+	"headwords": [
+		{
+			"text": "סקיסאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

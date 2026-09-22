@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00151",
-	"slug": "טוטרפליות",
-	"headword": {
-		"text": "טוטרפליות"
-	},
+	"sefariaHeadword": "טוטרפליות",
+	"headwords": [
+		{
+			"text": "טוטרפליות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

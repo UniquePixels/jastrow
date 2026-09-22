@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00131",
-	"slug": "פדע-2",
-	"headword": {
-		"text": "פְּדַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּדַע I",
+	"headwords": [
+		{
+			"text": "פְּדַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1137,
 		"column": "b"

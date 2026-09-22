@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00039",
-	"slug": "הבכין",
-	"headword": {
-		"text": "הַבְכֵין"
-	},
+	"sefariaHeadword": "הַבְכֵין",
+	"headwords": [
+		{
+			"text": "הַבְכֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "b"

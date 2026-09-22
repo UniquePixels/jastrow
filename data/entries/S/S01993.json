@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01993",
-	"slug": "קרטון-1",
-	"headword": {
-		"text": "קָרְטוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קָרְטוֹן",
+	"headwords": [
+		{
+			"text": "קָרְטוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

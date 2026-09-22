@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00696",
-	"slug": "שחק-2",
-	"headword": {
-		"text": "שַׂחַק"
-	},
+	"sefariaHeadword": "שַׂחַק",
+	"headwords": [
+		{
+			"text": "שַׂחַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1550,
 		"column": "b"

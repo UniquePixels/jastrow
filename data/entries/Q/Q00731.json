@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00731",
-	"slug": "פינך",
-	"headword": {
-		"text": "פִּינָךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינָךְ",
+	"headwords": [
+		{
+			"text": "פִּינָךְ"
+		},
 		{
 			"text": "פִּינְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00865",
-	"slug": "כנסת",
-	"headword": {
-		"text": "כְּנֶסֶת"
-	},
+	"sefariaHeadword": "כְּנֶסֶת",
+	"headwords": [
+		{
+			"text": "כְּנֶסֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "a"

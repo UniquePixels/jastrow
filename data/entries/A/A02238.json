@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02238",
-	"slug": "אניפוניס",
-	"headword": {
-		"text": "אניפוניס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אניפוניס",
+	"headwords": [
+		{
+			"text": "אניפוניס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

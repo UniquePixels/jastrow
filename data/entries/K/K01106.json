@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01106",
-	"slug": "כרובה",
-	"headword": {
-		"text": "כְּרוּבָּה"
-	},
+	"sefariaHeadword": "כְּרוּבָּה",
+	"headwords": [
+		{
+			"text": "כְּרוּבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "b"

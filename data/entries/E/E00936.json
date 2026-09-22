@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00936",
-	"slug": "השקה",
-	"headword": {
-		"text": "הַשָּׁקָה"
-	},
+	"sefariaHeadword": "הַשָּׁקָה",
+	"headwords": [
+		{
+			"text": "הַשָּׁקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

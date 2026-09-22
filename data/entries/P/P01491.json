@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01491",
-	"slug": "עשן-3",
-	"headword": {
-		"text": "עֲשַׁן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשַׁן",
+	"headwords": [
+		{
+			"text": "עֲשַׁן"
+		},
 		{
 			"text": "עֲשֵׁין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1126,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01424",
-	"slug": "קלרהי",
-	"headword": {
-		"text": "קַלְרָהִי"
-	},
+	"sefariaHeadword": "קַלְרָהִי",
+	"headwords": [
+		{
+			"text": "קַלְרָהִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1382,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01514",
-	"slug": "סרביטין",
-	"headword": {
-		"text": "סַרְבִיטִין"
-	},
+	"sefariaHeadword": "סַרְבִיטִין",
+	"headwords": [
+		{
+			"text": "סַרְבִיטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "a"

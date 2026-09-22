@@ -1,23 +1,28 @@
 {
+	"schemaVersion": 2,
 	"id": "K01002",
-	"slug": "כפורתא",
-	"headword": {
-		"text": "כָּפוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּפוּרְתָּא",
+	"headwords": [
 		{
-			"text": "כַּפּ׳"
+			"text": "כָּפוּרְתָּא"
 		},
 		{
-			"text": "כַּפ׳"
+			"text": "כַּפּ׳",
+			"partial": true
 		},
 		{
-			"text": "כְּפ׳"
+			"text": "כַּפ׳",
+			"partial": true
+		},
+		{
+			"text": "כְּפ׳",
+			"partial": true
 		},
 		{
 			"text": "כַּפֹּרְתָּא"
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3}, {4})",
 	"page": {
 		"number": 658,
 		"column": "a"

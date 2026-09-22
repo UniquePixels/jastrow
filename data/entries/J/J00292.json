@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00292",
-	"slug": "יחכים",
-	"headword": {
-		"text": "יַחְכִּים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יַחְכִּים",
+	"headwords": [
+		{
+			"text": "יַחְכִּים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 574,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00711",
-	"slug": "ית",
-	"headword": {
-		"text": "יַת"
-	},
+	"sefariaHeadword": "יַת",
+	"headwords": [
+		{
+			"text": "יַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 602,
 		"column": "b"

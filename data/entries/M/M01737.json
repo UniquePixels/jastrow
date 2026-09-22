@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01737",
-	"slug": "מנוולין",
-	"headword": {
-		"text": "מנוולין"
-	},
+	"sefariaHeadword": "מנוולין",
+	"headwords": [
+		{
+			"text": "מנוולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 798,
 		"column": "a"

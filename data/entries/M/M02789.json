@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02789",
-	"slug": "מרתיקא",
-	"headword": {
-		"text": "מַרְתֵּיקָא"
-	},
+	"sefariaHeadword": "מַרְתֵּיקָא",
+	"headwords": [
+		{
+			"text": "מַרְתֵּיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

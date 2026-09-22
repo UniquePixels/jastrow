@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00437",
-	"slug": "ליזבז",
-	"headword": {
-		"text": "לִיזְבֵּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיזְבֵּז",
+	"headwords": [
+		{
+			"text": "לִיזְבֵּז"
+		},
 		{
 			"text": "לִיזְבֵּיז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 706,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01600",
-	"slug": "סריג-1",
-	"headword": {
-		"text": "סָרִיג"
-	},
+	"sefariaHeadword": "סָרִיג",
+	"headwords": [
+		{
+			"text": "סָרִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

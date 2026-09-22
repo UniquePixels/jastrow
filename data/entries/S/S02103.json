@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S02103",
-	"slug": "קרן-4",
-	"headword": {
-		"text": "קְרַן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַן II",
+	"headwords": [
+		{
+			"text": "קְרַן",
+			"homograph": 2
+		},
 		{
 			"text": "קֶרֶן"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1}, {2} I",
 	"page": {
 		"number": 1422,
 		"column": "b"

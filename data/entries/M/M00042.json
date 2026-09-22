@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00042",
-	"slug": "מאללא",
-	"headword": {
-		"text": "מְאַלְלָא"
-	},
+	"sefariaHeadword": "מְאַלְלָא",
+	"headwords": [
+		{
+			"text": "מְאַלְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

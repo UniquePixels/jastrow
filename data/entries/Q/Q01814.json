@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01814",
-	"slug": "פריסדקי",
-	"headword": {
-		"text": "פְּרִיסְדְּקֵי"
-	},
+	"sefariaHeadword": "פְּרִיסְדְּקֵי",
+	"headwords": [
+		{
+			"text": "פְּרִיסְדְּקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

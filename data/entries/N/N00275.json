@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00275",
-	"slug": "נהמותא",
-	"headword": {
-		"text": "נַהֲמוּתָא"
-	},
+	"sefariaHeadword": "נַהֲמוּתָא",
+	"headwords": [
+		{
+			"text": "נַהֲמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 882,
 		"column": "a"

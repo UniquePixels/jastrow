@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00337",
-	"slug": "יינומלים",
-	"headword": {
-		"text": "יִינוֹמְלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִינוֹמְלִים",
+	"headwords": [
+		{
+			"text": "יִינוֹמְלִים"
+		},
 		{
 			"text": "יִינוֹמְלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 576,
 		"column": "b"

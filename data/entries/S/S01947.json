@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01947",
-	"slug": "קרומטסין",
-	"headword": {
-		"text": "קְרוּמְטַסִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְרוּמְטַסִּין",
+	"headwords": [
+		{
+			"text": "קְרוּמְטַסִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

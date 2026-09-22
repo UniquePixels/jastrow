@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00901",
-	"slug": "חיתוכא",
-	"headword": {
-		"text": "חִיתּוּכָא"
-	},
+	"sefariaHeadword": "חִיתּוּכָא",
+	"headwords": [
+		{
+			"text": "חִיתּוּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "a"

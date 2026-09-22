@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00324",
-	"slug": "חול-6",
-	"headword": {
-		"text": "חוֹל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹל II",
+	"headwords": [
+		{
+			"text": "חוֹל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 433,
 		"column": "a"

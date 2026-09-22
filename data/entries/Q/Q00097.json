@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00097",
-	"slug": "פגש-1",
-	"headword": {
-		"text": "פָּגַשׁ"
-	},
+	"sefariaHeadword": "פָּגַשׁ",
+	"headwords": [
+		{
+			"text": "פָּגַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "a"

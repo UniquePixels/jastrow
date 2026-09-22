@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01250",
-	"slug": "קלבריאה",
-	"headword": {
-		"text": "קְלַבְרִיאָה"
-	},
+	"sefariaHeadword": "קְלַבְרִיאָה",
+	"headwords": [
+		{
+			"text": "קְלַבְרִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02704",
-	"slug": "אפיצטלין",
-	"headword": {
-		"text": "אפיצטלין"
-	},
+	"sefariaHeadword": "אפיצטלין",
+	"headwords": [
+		{
+			"text": "אפיצטלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "a"

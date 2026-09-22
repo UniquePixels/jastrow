@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00358",
-	"slug": "רוי-1",
-	"headword": {
-		"text": "רוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוי",
+	"headwords": [
+		{
+			"text": "רוי"
+		},
 		{
 			"text": "רָוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1459,
 		"column": "a"

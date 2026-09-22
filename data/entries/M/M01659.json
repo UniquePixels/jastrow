@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01659",
-	"slug": "ממזר",
-	"headword": {
-		"text": "מַמְזֵר"
-	},
+	"sefariaHeadword": "מַמְזֵר",
+	"headwords": [
+		{
+			"text": "מַמְזֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

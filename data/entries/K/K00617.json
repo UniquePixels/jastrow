@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00617",
-	"slug": "כיר",
-	"headword": {
-		"text": "כִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיר",
+	"headwords": [
+		{
+			"text": "כִּיר"
+		},
 		{
 			"text": "כִּיד"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 636,
 		"column": "a"

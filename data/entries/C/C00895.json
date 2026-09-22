@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00895",
-	"slug": "גלוואי",
-	"headword": {
-		"text": "גלוואי"
-	},
+	"sefariaHeadword": "גלוואי",
+	"headwords": [
+		{
+			"text": "גלוואי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00273",
-	"slug": "בולפסין",
-	"headword": {
-		"text": "בולפסין"
-	},
+	"sefariaHeadword": "בולפסין",
+	"headwords": [
+		{
+			"text": "בולפסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

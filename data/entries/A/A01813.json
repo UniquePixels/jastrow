@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01813",
-	"slug": "אלום",
-	"headword": {
-		"text": "אָלוּם"
-	},
+	"sefariaHeadword": "אָלוּם",
+	"headwords": [
+		{
+			"text": "אָלוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

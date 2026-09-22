@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01918",
-	"slug": "שרבט-1",
-	"headword": {
-		"text": "שִׁרְבֵּט"
-	},
+	"sefariaHeadword": "שִׁרְבֵּט",
+	"headwords": [
+		{
+			"text": "שִׁרְבֵּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1627,
 		"column": "b"

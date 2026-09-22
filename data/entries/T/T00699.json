@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00699",
-	"slug": "ריקוע",
-	"headword": {
-		"text": "רִיקּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיקּוּעַ",
+	"headwords": [
 		{
-			"text": "רִקּ׳"
+			"text": "רִיקּוּעַ"
+		},
+		{
+			"text": "רִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1477,
 		"column": "a"

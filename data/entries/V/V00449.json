@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00449",
-	"slug": "תילול",
-	"headword": {
-		"text": "תִּילּוּל"
-	},
+	"sefariaHeadword": "תִּילּוּל",
+	"headwords": [
+		{
+			"text": "תִּילּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

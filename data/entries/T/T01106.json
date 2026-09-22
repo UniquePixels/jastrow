@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01106",
-	"slug": "רשעותא",
-	"headword": {
-		"text": "רִשְׁעוּתָא"
-	},
+	"sefariaHeadword": "רִשְׁעוּתָא",
+	"headwords": [
+		{
+			"text": "רִשְׁעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

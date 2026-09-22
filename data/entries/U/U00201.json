@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00201",
-	"slug": "שבתא-1",
-	"headword": {
-		"text": "שַׁבְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁבְּתָא",
+	"headwords": [
+		{
+			"text": "שַׁבְּתָא"
+		},
 		{
 			"text": "שַׁבַּתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שׁוּבְּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1520,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00047",
-	"slug": "לבדקין",
-	"headword": {
-		"text": "לִבְדְּקִין"
-	},
+	"sefariaHeadword": "לִבְדְּקִין",
+	"headwords": [
+		{
+			"text": "לִבְדְּקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

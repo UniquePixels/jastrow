@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00144",
-	"slug": "גבשושית",
-	"headword": {
-		"text": "גַּבְשׁוּשִׁית"
-	},
+	"sefariaHeadword": "גַּבְשׁוּשִׁית",
+	"headwords": [
+		{
+			"text": "גַּבְשׁוּשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00583",
-	"slug": "חטא-5",
-	"headword": {
-		"text": "חִטָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִטָּא II",
+	"headwords": [
+		{
+			"text": "חִטָּא",
+			"homograph": 2
+		},
 		{
 			"text": "חִטַּיָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 447,
 		"column": "b"

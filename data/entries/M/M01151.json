@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01151",
-	"slug": "מיכיילא",
-	"headword": {
-		"text": "מיכיילא"
-	},
+	"sefariaHeadword": "מיכיילא",
+	"headwords": [
+		{
+			"text": "מיכיילא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "a"

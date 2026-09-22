@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "I00686",
-	"slug": "טפשותא",
-	"headword": {
-		"text": "טַפְּשׁוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַפְּשׁוּתָא",
+	"headwords": [
 		{
-			"text": "טִפְּ׳"
+			"text": "טַפְּשׁוּתָא"
 		},
 		{
-			"text": "טִיפְּ׳"
+			"text": "טִפְּ׳",
+			"partial": true
+		},
+		{
+			"text": "טִיפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 549,
 		"column": "a"

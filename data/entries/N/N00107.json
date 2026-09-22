@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00107",
-	"slug": "נברזא",
-	"headword": {
-		"text": "נברזא"
-	},
+	"sefariaHeadword": "נברזא",
+	"headwords": [
+		{
+			"text": "נברזא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

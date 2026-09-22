@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01213",
-	"slug": "עקר-1",
-	"headword": {
-		"text": "עָקַר"
-	},
+	"sefariaHeadword": "עָקַר",
+	"headwords": [
+		{
+			"text": "עָקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1108,
 		"column": "a"

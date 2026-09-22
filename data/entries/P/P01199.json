@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01199",
-	"slug": "עקמומית",
-	"headword": {
-		"text": "עַקְמוּמִית"
-	},
+	"sefariaHeadword": "עַקְמוּמִית",
+	"headwords": [
+		{
+			"text": "עַקְמוּמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "a"

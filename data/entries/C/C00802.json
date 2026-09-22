@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00802",
-	"slug": "גיצא",
-	"headword": {
-		"text": "גֵּיצָא"
-	},
+	"sefariaHeadword": "גֵּיצָא",
+	"headwords": [
+		{
+			"text": "גֵּיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "b"

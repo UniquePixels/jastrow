@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02915",
-	"slug": "אקיקא",
-	"headword": {
-		"text": "אקיקא"
-	},
+	"sefariaHeadword": "אקיקא",
+	"headwords": [
+		{
+			"text": "אקיקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

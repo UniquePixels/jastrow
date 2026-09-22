@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01313",
-	"slug": "נשילה",
-	"headword": {
-		"text": "נְשִׁילָה"
-	},
+	"sefariaHeadword": "נְשִׁילָה",
+	"headwords": [
+		{
+			"text": "נְשִׁילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 939,
 		"column": "b"

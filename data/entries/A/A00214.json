@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00214",
-	"slug": "אברומא",
-	"headword": {
-		"text": "אברומא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אברומא",
+	"headwords": [
+		{
+			"text": "אברומא"
+		},
 		{
 			"text": "אבדומא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 9,
 		"column": "b"

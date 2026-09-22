@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01140",
-	"slug": "עצתא-2",
-	"headword": {
-		"text": "עִצְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עִצְתָּא",
+	"headwords": [
+		{
+			"text": "עִצְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1104,
 		"column": "a"

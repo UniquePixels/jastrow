@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00973",
-	"slug": "מטו",
-	"headword": {
-		"text": "מָטוּ"
-	},
+	"sefariaHeadword": "מָטוּ",
+	"headwords": [
+		{
+			"text": "מָטוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "a"

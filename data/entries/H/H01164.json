@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01164",
-	"slug": "חמור-2",
-	"headword": {
-		"text": "חָמוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָמוּר",
+	"headwords": [
+		{
+			"text": "חָמוּר"
+		},
 		{
 			"text": "חֲמוּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 476,
 		"column": "b"

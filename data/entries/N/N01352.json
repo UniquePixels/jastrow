@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01352",
-	"slug": "נשתיק",
-	"headword": {
-		"text": "נַשְׁתֵּיק"
-	},
+	"sefariaHeadword": "נַשְׁתֵּיק",
+	"headwords": [
+		{
+			"text": "נַשְׁתֵּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 942,
 		"column": "b"

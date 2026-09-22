@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01187",
-	"slug": "עקירא",
-	"headword": {
-		"text": "עֲקִירָא"
-	},
+	"sefariaHeadword": "עֲקִירָא",
+	"headwords": [
+		{
+			"text": "עֲקִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

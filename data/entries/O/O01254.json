@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01254",
-	"slug": "סנפירינון",
-	"headword": {
-		"text": "סַנְפִּירִינוֹן"
-	},
+	"sefariaHeadword": "סַנְפִּירִינוֹן",
+	"headwords": [
+		{
+			"text": "סַנְפִּירִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

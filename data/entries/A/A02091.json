@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02091",
-	"slug": "אנבורקראות",
-	"headword": {
-		"text": "אִנְבּוּרְקְרָאוֹת"
-	},
+	"sefariaHeadword": "אִנְבּוּרְקְרָאוֹת",
+	"headwords": [
+		{
+			"text": "אִנְבּוּרְקְרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

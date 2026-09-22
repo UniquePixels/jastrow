@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00558",
-	"slug": "נטיל",
-	"headword": {
-		"text": "נְטִיל"
-	},
+	"sefariaHeadword": "נְטִיל",
+	"headwords": [
+		{
+			"text": "נְטִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "a"

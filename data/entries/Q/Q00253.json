@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00253",
-	"slug": "פומעים",
-	"headword": {
-		"text": "פומעים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פומעים",
+	"headwords": [
+		{
+			"text": "פומעים"
+		},
 		{
 			"text": "פומעיס"
 		},

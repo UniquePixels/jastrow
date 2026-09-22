@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00234",
-	"slug": "זור-3",
-	"headword": {
-		"text": "זוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּר II",
+	"headwords": [
+		{
+			"text": "זוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 389,
 		"column": "b"

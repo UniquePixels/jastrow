@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02317",
-	"slug": "מצייה",
-	"headword": {
-		"text": "מְצִיָּיה"
-	},
+	"sefariaHeadword": "מְצִיָּיה",
+	"headwords": [
+		{
+			"text": "מְצִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

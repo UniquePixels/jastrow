@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00648",
-	"slug": "אוכם",
-	"headword": {
-		"text": "אוּכָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּכָּם",
+	"headwords": [
+		{
+			"text": "אוּכָּם"
+		},
 		{
 			"text": "אוּכָּמָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוּכַּמְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 25,
 		"column": "b"

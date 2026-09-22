@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02708",
-	"slug": "מרכנתא",
-	"headword": {
-		"text": "מרכנתא"
-	},
+	"sefariaHeadword": "מרכנתא",
+	"headwords": [
+		{
+			"text": "מרכנתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

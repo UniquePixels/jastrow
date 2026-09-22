@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00453",
-	"slug": "גוסרדליא",
-	"headword": {
-		"text": "גוסרדליא"
-	},
+	"sefariaHeadword": "גוסרדליא",
+	"headwords": [
+		{
+			"text": "גוסרדליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "b"

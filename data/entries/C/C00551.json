@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00551",
-	"slug": "גזיר",
-	"headword": {
-		"text": "גָּזִיר"
-	},
+	"sefariaHeadword": "גָּזִיר",
+	"headwords": [
+		{
+			"text": "גָּזִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

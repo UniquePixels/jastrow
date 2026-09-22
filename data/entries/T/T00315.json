@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00315",
-	"slug": "רוגיינא",
-	"headword": {
-		"text": "רוגיינא"
-	},
+	"sefariaHeadword": "רוגיינא",
+	"headwords": [
+		{
+			"text": "רוגיינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

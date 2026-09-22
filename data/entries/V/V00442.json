@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00442",
-	"slug": "תיכא",
-	"headword": {
-		"text": "תִּיכָּא"
-	},
+	"sefariaHeadword": "תִּיכָּא",
+	"headwords": [
+		{
+			"text": "תִּיכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

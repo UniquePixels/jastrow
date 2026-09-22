@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01325",
-	"slug": "ספוגנית",
-	"headword": {
-		"text": "סְפוֹגָנִית"
-	},
+	"sefariaHeadword": "סְפוֹגָנִית",
+	"headwords": [
+		{
+			"text": "סְפוֹגָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

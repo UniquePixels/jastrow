@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00950",
-	"slug": "אזביון",
-	"headword": {
-		"text": "אזביון"
-	},
+	"sefariaHeadword": "אזביון",
+	"headwords": [
+		{
+			"text": "אזביון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

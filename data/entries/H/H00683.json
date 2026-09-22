@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00683",
-	"slug": "חיוי",
-	"headword": {
-		"text": "חִיוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיוֵי",
+	"headwords": [
+		{
+			"text": "חִיוֵי"
+		},
 		{
 			"text": "חִיוְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֶוְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 452,
 		"column": "a"

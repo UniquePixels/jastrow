@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00642",
-	"slug": "ניזקא",
-	"headword": {
-		"text": "נִיזְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיזְקָא",
+	"headwords": [
+		{
+			"text": "נִיזְקָא"
+		},
 		{
 			"text": "נִיזְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 903,
 		"column": "b"

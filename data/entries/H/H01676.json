@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01676",
-	"slug": "חריונים",
-	"headword": {
-		"text": "חֶרְיוֹנִים"
-	},
+	"sefariaHeadword": "חֶרְיוֹנִים",
+	"headwords": [
+		{
+			"text": "חֶרְיוֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

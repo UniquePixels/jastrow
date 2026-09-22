@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00296",
-	"slug": "דונבא",
-	"headword": {
-		"text": "דּוּנְבָא"
-	},
+	"sefariaHeadword": "דּוּנְבָא",
+	"headwords": [
+		{
+			"text": "דּוּנְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

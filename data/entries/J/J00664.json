@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00664",
-	"slug": "ירקנא",
-	"headword": {
-		"text": "יַרְקָנָא"
-	},
+	"sefariaHeadword": "יַרְקָנָא",
+	"headwords": [
+		{
+			"text": "יַרְקָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "a"

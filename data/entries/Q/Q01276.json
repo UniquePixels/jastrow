@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01276",
-	"slug": "פסידא",
-	"headword": {
-		"text": "פְּסִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִידָא",
+	"headwords": [
 		{
-			"text": "פְּסֵי׳"
+			"text": "פְּסִידָא"
+		},
+		{
+			"text": "פְּסֵי׳",
+			"partial": true
 		},
 		{
 			"text": "פְּסֵדָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1194,
 		"column": "b"

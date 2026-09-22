@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01936",
-	"slug": "אלפ״א",
-	"headword": {
-		"text": "אלפ״א"
-	},
+	"sefariaHeadword": "אלפ\"א",
+	"headwords": [
+		{
+			"text": "אלפ״א"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "a"

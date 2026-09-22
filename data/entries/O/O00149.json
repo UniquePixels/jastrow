@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00149",
-	"slug": "סגלגל-1",
-	"headword": {
-		"text": "סגלגל"
-	},
+	"sefariaHeadword": "סגלגל",
+	"headwords": [
+		{
+			"text": "סגלגל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "a"

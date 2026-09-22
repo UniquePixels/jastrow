@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01013",
-	"slug": "דקננא",
-	"headword": {
-		"text": "דִּקְנָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּקְנָנָא",
+	"headwords": [
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּקְנָנָא"
+		},
+		{
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 319,
 		"column": "b"

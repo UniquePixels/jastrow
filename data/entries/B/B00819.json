@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00819",
-	"slug": "בלגה",
-	"headword": {
-		"text": "בִּלְגָּה"
-	},
+	"sefariaHeadword": "בִּלְגָּה",
+	"headwords": [
+		{
+			"text": "בִּלְגָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

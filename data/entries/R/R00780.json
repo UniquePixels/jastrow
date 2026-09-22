@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00780",
-	"slug": "צריף-3",
-	"headword": {
-		"text": "צְרִיף"
-	},
+	"sefariaHeadword": "צְרִיף",
+	"headwords": [
+		{
+			"text": "צְרִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1302,
 		"column": "a"

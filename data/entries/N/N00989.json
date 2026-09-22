@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00989",
-	"slug": "נעלא",
-	"headword": {
-		"text": "נעלא"
-	},
+	"sefariaHeadword": "נעלא",
+	"headwords": [
+		{
+			"text": "נעלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 920,
 		"column": "b"

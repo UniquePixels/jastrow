@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01623",
-	"slug": "פרוד-2",
-	"headword": {
-		"text": "פרוד"
-	},
+	"sefariaHeadword": "פרוד",
+	"headwords": [
+		{
+			"text": "פרוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

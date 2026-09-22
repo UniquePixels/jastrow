@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00403",
-	"slug": "טיסה",
-	"headword": {
-		"text": "טִיסָה"
-	},
+	"sefariaHeadword": "טִיסָה",
+	"headwords": [
+		{
+			"text": "טִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "a"

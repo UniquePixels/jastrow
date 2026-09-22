@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01647",
-	"slug": "פרוזבולא",
-	"headword": {
-		"text": "פְּרוֹזְבּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹזְבּוּלָא",
+	"headwords": [
+		{
+			"text": "פְּרוֹזְבּוּלָא"
+		},
 		{
 			"text": "פְּרוֹסְבְּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1218,
 		"column": "b"

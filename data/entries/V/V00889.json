@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00889",
-	"slug": "תקיף-3",
-	"headword": {
-		"text": "תַּקִּיף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּקִּיף ²",
+	"headwords": [
+		{
+			"text": "תַּקִּיף",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּקִּיפָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1690,
 		"column": "b"

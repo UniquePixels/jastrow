@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01024",
-	"slug": "אחי-2",
-	"headword": {
-		"text": "אחי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אחי ²",
+	"headwords": [
+		{
+			"text": "אחי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 40,
 		"column": "a"

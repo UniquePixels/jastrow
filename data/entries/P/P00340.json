@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00340",
-	"slug": "עוקץ",
-	"headword": {
-		"text": "עוּקָץ"
-	},
+	"sefariaHeadword": "עוּקָץ",
+	"headwords": [
+		{
+			"text": "עוּקָץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1057,
 		"column": "a"

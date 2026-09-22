@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00739",
-	"slug": "ריתכאות",
-	"headword": {
-		"text": "ריתכאות"
-	},
+	"sefariaHeadword": "ריתכאות",
+	"headwords": [
+		{
+			"text": "ריתכאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

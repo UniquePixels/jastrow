@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00135",
-	"slug": "דדנייא",
-	"headword": {
-		"text": "דדנייא"
-	},
+	"sefariaHeadword": "דדנייא",
+	"headwords": [
+		{
+			"text": "דדנייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

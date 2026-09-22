@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00312",
-	"slug": "תורף-2",
-	"headword": {
-		"text": "תּוֹרֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרֵף",
+	"headwords": [
+		{
+			"text": "תּוֹרֵף"
+		},
 		{
 			"text": "תֹּרֵף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1658,
 		"column": "a"

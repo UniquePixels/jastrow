@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00770",
-	"slug": "דכותא",
-	"headword": {
-		"text": "דְּכוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּכוּתָא",
+	"headwords": [
+		{
+			"text": "דְּכוּתָא"
+		},
 		{
 			"text": "דְּכוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 307,
 		"column": "a"

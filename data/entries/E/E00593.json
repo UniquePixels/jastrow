@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00593",
-	"slug": "המדורי",
-	"headword": {
-		"text": "הַמְדּוּרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַמְדּוּרֵי",
+	"headwords": [
 		{
-			"text": "בר הַמְדּוּרֵי"
+			"text": "הַמְדּוּרֵי"
+		},
+		{
+			"text": "בר ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 354,
 		"column": "b"

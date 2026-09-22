@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00306",
-	"slug": "חוטרנא",
-	"headword": {
-		"text": "חוּטְרָנָא"
-	},
+	"sefariaHeadword": "חוּטְרָנָא",
+	"headwords": [
+		{
+			"text": "חוּטְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 431,
 		"column": "b"

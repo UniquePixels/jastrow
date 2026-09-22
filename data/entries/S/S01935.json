@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01935",
-	"slug": "קרוי-1",
-	"headword": {
-		"text": "קֵרוּי"
-	},
+	"sefariaHeadword": "קֵרוּי",
+	"headwords": [
+		{
+			"text": "קֵרוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "b"

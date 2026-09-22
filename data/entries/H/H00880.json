@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00880",
-	"slug": "חיריא",
-	"headword": {
-		"text": "חִירְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִירְיָא",
+	"headwords": [
 		{
-			"text": "בַּר חִירְיָא"
+			"text": "חִירְיָא"
+		},
+		{
+			"text": "בַּר חִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "a"

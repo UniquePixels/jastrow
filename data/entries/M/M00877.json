@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00877",
-	"slug": "מחיקה",
-	"headword": {
-		"text": "מְחִיקָה"
-	},
+	"sefariaHeadword": "מְחִיקָה",
+	"headwords": [
+		{
+			"text": "מְחִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

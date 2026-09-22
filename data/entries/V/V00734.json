@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00734",
-	"slug": "תנח-1",
-	"headword": {
-		"text": "תָּנַח",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תָּנַח",
+	"headwords": [
+		{
+			"text": "תָּנַח",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

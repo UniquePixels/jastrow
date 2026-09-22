@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00539",
-	"slug": "שור-7",
-	"headword": {
-		"text": "שׁוֹר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שׁוֹר II",
+	"headwords": [
+		{
+			"text": "שׁוֹר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1542,
 		"column": "a"

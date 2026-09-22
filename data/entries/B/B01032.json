@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01032",
-	"slug": "בעט-1",
-	"headword": {
-		"text": "בָּעַט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בָּעַט I",
+	"headwords": [
+		{
+			"text": "בָּעַט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 180,
 		"column": "b"

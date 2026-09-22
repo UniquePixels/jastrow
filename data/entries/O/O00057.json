@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00057",
-	"slug": "סבין",
-	"headword": {
-		"text": "סבין"
-	},
+	"sefariaHeadword": "סבין",
+	"headwords": [
+		{
+			"text": "סבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

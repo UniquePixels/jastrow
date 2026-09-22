@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00212",
-	"slug": "קהלת",
-	"headword": {
-		"text": "קֹהֶלֶת"
-	},
+	"sefariaHeadword": "קֹהֶלֶת",
+	"headwords": [
+		{
+			"text": "קֹהֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1322,
 		"column": "b"

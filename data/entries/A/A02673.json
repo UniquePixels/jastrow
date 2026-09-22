@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02673",
-	"slug": "אפיטריסות",
-	"headword": {
-		"text": "אפיטריסות"
-	},
+	"sefariaHeadword": "אפיטריסות",
+	"headwords": [
+		{
+			"text": "אפיטריסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "b"

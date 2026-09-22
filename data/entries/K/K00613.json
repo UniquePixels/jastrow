@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00613",
-	"slug": "כיפת",
-	"headword": {
-		"text": "כִּיפַּת"
-	},
+	"sefariaHeadword": "כִּיפַּת",
+	"headwords": [
+		{
+			"text": "כִּיפַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 636,
 		"column": "a"

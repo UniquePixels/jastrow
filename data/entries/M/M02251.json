@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02251",
-	"slug": "מפרק",
-	"headword": {
-		"text": "מִפְרֵק"
-	},
+	"sefariaHeadword": "מִפְרֵק",
+	"headwords": [
+		{
+			"text": "מִפְרֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

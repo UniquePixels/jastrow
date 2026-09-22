@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00181",
-	"slug": "חדודו",
-	"headword": {
-		"text": "חֲדוּדוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲדוּדוּ",
+	"headwords": [
 		{
-			"text": "בית חֲדוּדוּ"
+			"text": "חֲדוּדוּ"
+		},
+		{
+			"text": "בית ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 425,
 		"column": "b"

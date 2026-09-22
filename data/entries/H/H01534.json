@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01534",
-	"slug": "חצץ-2",
-	"headword": {
-		"text": "חָצַץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חָצַץ II",
+	"headwords": [
+		{
+			"text": "חָצַץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 496,
 		"column": "a"

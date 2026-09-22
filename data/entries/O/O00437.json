@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00437",
-	"slug": "סורתא",
-	"headword": {
-		"text": "סורתא"
-	},
+	"sefariaHeadword": "סורתא",
+	"headwords": [
+		{
+			"text": "סורתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

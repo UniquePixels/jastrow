@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00228",
-	"slug": "טורטור",
-	"headword": {
-		"text": "טוּרְטוּר"
-	},
+	"sefariaHeadword": "טוּרְטוּר",
+	"headwords": [
+		{
+			"text": "טוּרְטוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 526,
 		"column": "b"

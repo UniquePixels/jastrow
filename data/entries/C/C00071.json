@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00071",
-	"slug": "גבטלא",
-	"headword": {
-		"text": "גבטלא"
-	},
+	"sefariaHeadword": "גבטלא",
+	"headwords": [
+		{
+			"text": "גבטלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00164",
-	"slug": "סגף-2",
-	"headword": {
-		"text": "סְגַף"
-	},
+	"sefariaHeadword": "סְגַף",
+	"headwords": [
+		{
+			"text": "סְגַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "a"

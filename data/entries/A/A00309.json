@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00309",
-	"slug": "אגם-3",
-	"headword": {
-		"text": "אַגָּם"
-	},
+	"sefariaHeadword": "אַגָּם",
+	"headwords": [
+		{
+			"text": "אַגָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

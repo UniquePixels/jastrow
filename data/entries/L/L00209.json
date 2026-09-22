@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00209",
-	"slug": "לוואי-2",
-	"headword": {
-		"text": "לְוַואי"
-	},
+	"sefariaHeadword": "לְוַואי",
+	"headwords": [
+		{
+			"text": "לְוַואי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

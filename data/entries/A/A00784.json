@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00784",
-	"slug": "אוסיא-1",
-	"headword": {
-		"text": "אוסיא"
-	},
+	"sefariaHeadword": "אוסיא",
+	"headwords": [
+		{
+			"text": "אוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "b"

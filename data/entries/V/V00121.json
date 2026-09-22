@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00121",
-	"slug": "תהות",
-	"headword": {
-		"text": "תָּהוּת"
-	},
+	"sefariaHeadword": "תָּהוּת",
+	"headwords": [
+		{
+			"text": "תָּהוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1648,
 		"column": "b"

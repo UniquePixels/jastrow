@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00835",
-	"slug": "תפלי",
-	"headword": {
-		"text": "תְּפִלֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּפִלֵּי",
+	"headwords": [
+		{
+			"text": "תְּפִלֵּי"
+		},
 		{
 			"text": "תְּפִלִּין"
 		},
 		{
-			"text": "תְּפִי׳"
+			"text": "תְּפִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1687,
 		"column": "a"

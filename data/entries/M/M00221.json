@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00221",
-	"slug": "מגירסא",
-	"headword": {
-		"text": "מְגִירְסָא"
-	},
+	"sefariaHeadword": "מְגִירְסָא",
+	"headwords": [
+		{
+			"text": "מְגִירְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

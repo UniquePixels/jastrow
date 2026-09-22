@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00623",
-	"slug": "מורדיא",
-	"headword": {
-		"text": "מוּרְדְּיָא"
-	},
+	"sefariaHeadword": "מוּרְדְּיָא",
+	"headwords": [
+		{
+			"text": "מוּרְדְּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

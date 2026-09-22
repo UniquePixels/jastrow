@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00376",
-	"slug": "תחם-2",
-	"headword": {
-		"text": "תְּחַם"
-	},
+	"sefariaHeadword": "תְּחַם",
+	"headwords": [
+		{
+			"text": "תְּחַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

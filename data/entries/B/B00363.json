@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00363",
-	"slug": "בוריק",
-	"headword": {
-		"text": "בּוֹרֵיק"
-	},
+	"sefariaHeadword": "בּוֹרֵיק",
+	"headwords": [
+		{
+			"text": "בּוֹרֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "a"

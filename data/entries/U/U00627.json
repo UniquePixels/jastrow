@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00627",
-	"slug": "שחור-1",
-	"headword": {
-		"text": "שָׁחוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁחוֹר",
+	"headwords": [
+		{
+			"text": "שָׁחוֹר"
+		},
 		{
 			"text": "שְׁחוֹרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1546,
 		"column": "a"

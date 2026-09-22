@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00463",
-	"slug": "אדריונטוס",
-	"headword": {
-		"text": "אדריונטוס"
-	},
+	"sefariaHeadword": "אדריונטוס",
+	"headwords": [
+		{
+			"text": "אדריונטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

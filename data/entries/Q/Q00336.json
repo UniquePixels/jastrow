@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00336",
-	"slug": "פורזימא",
-	"headword": {
-		"text": "פורזימא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פורזימא",
+	"headwords": [
+		{
+			"text": "פורזימא"
+		},
 		{
 			"text": "פורזמא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1146,
 		"column": "b"

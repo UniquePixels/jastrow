@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00096",
-	"slug": "מברא",
-	"headword": {
-		"text": "מַבָּרָא"
-	},
+	"sefariaHeadword": "מַבָּרָא",
+	"headwords": [
+		{
+			"text": "מַבָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

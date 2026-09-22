@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01890",
-	"slug": "קרבו",
-	"headword": {
-		"text": "קְרָבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרָבוּ",
+	"headwords": [
+		{
+			"text": "קְרָבוּ"
+		},
 		{
 			"text": "קְרָבוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1411,
 		"column": "b"

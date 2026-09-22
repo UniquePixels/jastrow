@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00572",
-	"slug": "טנז",
-	"headword": {
-		"text": "טְנֵז"
-	},
+	"sefariaHeadword": "טְנֵז",
+	"headwords": [
+		{
+			"text": "טְנֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "a"

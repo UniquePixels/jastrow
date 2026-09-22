@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02082",
-	"slug": "אן-3",
-	"headword": {
-		"text": "אָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָן ²",
+	"headwords": [
+		{
+			"text": "אָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "אַן"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 80,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00345",
-	"slug": "פוריא-5",
-	"headword": {
-		"text": "פּוּרְיָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פּוּרְיָא II",
+	"headwords": [
+		{
+			"text": "פּוּרְיָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1146,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02031",
-	"slug": "פרשגן",
-	"headword": {
-		"text": "פַּרְשֶׁגֶן"
-	},
+	"sefariaHeadword": "פַּרְשֶׁגֶן",
+	"headwords": [
+		{
+			"text": "פַּרְשֶׁגֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1243,
 		"column": "b"

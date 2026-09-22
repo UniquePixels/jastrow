@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00136",
-	"slug": "קדיחותא",
-	"headword": {
-		"text": "קְדִיחוּתָא"
-	},
+	"sefariaHeadword": "קְדִיחוּתָא",
+	"headwords": [
+		{
+			"text": "קְדִיחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01306",
-	"slug": "סערניא",
-	"headword": {
-		"text": "סערניא"
-	},
+	"sefariaHeadword": "סערניא",
+	"headwords": [
+		{
+			"text": "סערניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1010,
 		"column": "b"

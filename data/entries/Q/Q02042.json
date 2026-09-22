@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02042",
-	"slug": "פרת-2",
-	"headword": {
-		"text": "פָּרַת"
-	},
+	"sefariaHeadword": "פָּרַת",
+	"headwords": [
+		{
+			"text": "פָּרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "a"

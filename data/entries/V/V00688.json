@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00688",
-	"slug": "תמכתא",
-	"headword": {
-		"text": "תְּמַכְתָּא"
-	},
+	"sefariaHeadword": "תְּמַכְתָּא",
+	"headwords": [
+		{
+			"text": "תְּמַכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

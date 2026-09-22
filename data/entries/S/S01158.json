@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01158",
-	"slug": "קירוב",
-	"headword": {
-		"text": "קֵירוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵירוּב",
+	"headwords": [
 		{
-			"text": "קֵר׳"
+			"text": "קֵירוּב"
+		},
+		{
+			"text": "קֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1368,
 		"column": "b"

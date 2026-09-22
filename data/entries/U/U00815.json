@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00815",
-	"slug": "שיגדא",
-	"headword": {
-		"text": "שִׁיגְדָּא"
-	},
+	"sefariaHeadword": "שִׁיגְדָּא",
+	"headwords": [
+		{
+			"text": "שִׁיגְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

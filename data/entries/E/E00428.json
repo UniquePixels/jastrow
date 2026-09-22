@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00428",
-	"slug": "הימן",
-	"headword": {
-		"text": "הֵימַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵימַן",
+	"headwords": [
+		{
+			"text": "הֵימַן"
+		},
 		{
 			"text": "הֵימִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 347,
 		"column": "a"

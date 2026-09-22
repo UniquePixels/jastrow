@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00904",
-	"slug": "טרקסין",
-	"headword": {
-		"text": "טְרַקְסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרַקְסִין",
+	"headwords": [
 		{
-			"text": "טְרִיקְ׳"
+			"text": "טְרַקְסִין"
+		},
+		{
+			"text": "טְרִיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 558,
 		"column": "a"

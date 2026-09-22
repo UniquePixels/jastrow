@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01103",
-	"slug": "פלסטין",
-	"headword": {
-		"text": "פלסטין"
-	},
+	"sefariaHeadword": "פלסטין",
+	"headwords": [
+		{
+			"text": "פלסטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1184,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00046",
-	"slug": "כבוש",
-	"headword": {
-		"text": "כִּבּוּשׁ"
-	},
+	"sefariaHeadword": "כִּבּוּשׁ",
+	"headwords": [
+		{
+			"text": "כִּבּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

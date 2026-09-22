@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00812",
-	"slug": "תפח-5",
-	"headword": {
-		"text": "תְּפַח",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּפַח II",
+	"headwords": [
+		{
+			"text": "תְּפַח",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1685,
 		"column": "b"

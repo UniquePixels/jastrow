@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01139",
-	"slug": "גניז",
-	"headword": {
-		"text": "גְּנִיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנִיז",
+	"headwords": [
+		{
+			"text": "גְּנִיז"
+		},
 		{
 			"text": "גְּנִיזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 259,
 		"column": "b"

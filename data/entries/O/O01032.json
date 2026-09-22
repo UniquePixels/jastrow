@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01032",
-	"slug": "סלקונטית",
-	"headword": {
-		"text": "סלקונטית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סלקונטית",
+	"headwords": [
+		{
+			"text": "סלקונטית"
+		},
 		{
 			"text": "סלקונתית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 997,
 		"column": "b"

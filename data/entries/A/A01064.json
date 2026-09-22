@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01064",
-	"slug": "אחת-2",
-	"headword": {
-		"text": "אֲחָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲחָת",
+	"headwords": [
+		{
+			"text": "אֲחָת"
+		},
 		{
 			"text": "אַחַת"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֲחָתָא"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 42,
 		"column": "a"

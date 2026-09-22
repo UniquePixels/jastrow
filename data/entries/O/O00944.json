@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00944",
-	"slug": "סכרא",
-	"headword": {
-		"text": "סֻכְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֻכְרָא",
+	"headwords": [
+		{
+			"text": "סֻכְרָא"
+		},
 		{
 			"text": "סִכְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 993,
 		"column": "a"

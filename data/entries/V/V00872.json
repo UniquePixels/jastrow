@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00872",
-	"slug": "תקון",
-	"headword": {
-		"text": "תִּקּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּקּוּן",
+	"headwords": [
+		{
+			"text": "תִּקּוּן"
+		},
 		{
 			"text": "תִּקּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1690,
 		"column": "a"

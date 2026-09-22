@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01374",
-	"slug": "אינהו",
-	"headword": {
-		"text": "אִינְהוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִינְהוּ",
+	"headwords": [
+		{
+			"text": "אִינְהוּ"
+		},
 		{
 			"text": "אִינְהִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 52,
 		"column": "b"

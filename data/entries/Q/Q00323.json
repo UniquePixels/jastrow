@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00323",
-	"slug": "פוקסמין",
-	"headword": {
-		"text": "פוקסמין"
-	},
+	"sefariaHeadword": "פוקסמין",
+	"headwords": [
+		{
+			"text": "פוקסמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "a"

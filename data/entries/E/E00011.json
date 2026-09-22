@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00011",
-	"slug": "האידנא",
-	"headword": {
-		"text": "הָאִידְּנָא"
-	},
+	"sefariaHeadword": "הָאִידְּנָא",
+	"headwords": [
+		{
+			"text": "הָאִידְּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "a"

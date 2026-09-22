@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02207",
-	"slug": "מפטילון",
-	"headword": {
-		"text": "מפטילון"
-	},
+	"sefariaHeadword": "מפטילון",
+	"headwords": [
+		{
+			"text": "מפטילון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00234",
-	"slug": "צוצרייה",
-	"headword": {
-		"text": "צוֹצְרַיָּיה"
-	},
+	"sefariaHeadword": "צוֹצְרַיָּיה",
+	"headwords": [
+		{
+			"text": "צוֹצְרַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

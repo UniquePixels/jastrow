@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00470",
-	"slug": "כחש-2",
-	"headword": {
-		"text": "כְּחַשׁ"
-	},
+	"sefariaHeadword": "כְּחַשׁ",
+	"headwords": [
+		{
+			"text": "כְּחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "a"

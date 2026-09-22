@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M00419",
-	"slug": "מודעים",
-	"headword": {
-		"text": "מוֹדָעִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹדָעִים",
+	"headwords": [
+		{
+			"text": "מוֹדָעִים"
+		},
 		{
 			"text": "מוֹדָעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 739,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

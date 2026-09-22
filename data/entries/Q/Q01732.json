@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01732",
-	"slug": "פרוקלוס",
-	"headword": {
-		"text": "פְּרוּקְלוֹס"
-	},
+	"sefariaHeadword": "פְּרוּקְלוֹס",
+	"headwords": [
+		{
+			"text": "פְּרוּקְלוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "a"

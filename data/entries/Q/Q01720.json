@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01720",
-	"slug": "פרוסקופי",
-	"headword": {
-		"text": "פרוסקופי"
-	},
+	"sefariaHeadword": "פרוסקופי",
+	"headwords": [
+		{
+			"text": "פרוסקופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

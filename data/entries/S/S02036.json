@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02036",
-	"slug": "קריבות",
-	"headword": {
-		"text": "קְרֵיבוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרֵיבוּת",
+	"headwords": [
+		{
+			"text": "קְרֵיבוּת"
+		},
 		{
 			"text": "קְרֵבוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1419,
 		"column": "b"

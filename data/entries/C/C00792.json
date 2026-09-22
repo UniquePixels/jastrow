@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "C00792",
-	"slug": "גיפוף-2",
-	"headword": {
-		"text": "גִּיפּוּף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיפּוּף ²",
+	"headwords": [
+		{
+			"text": "גִּיפּוּף",
+			"disambiguator": 2
+		},
 		{
 			"text": "גֵּיפּוּפָא"
 		},
 		{
-			"text": "גִּפּ׳"
+			"text": "גִּפּ׳",
+			"partial": true
 		},
 		{
-			"text": "גֵּפ׳"
+			"text": "גֵּפ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 241,
 		"column": "a"

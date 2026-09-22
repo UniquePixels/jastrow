@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K00954",
-	"slug": "כסף-4",
-	"headword": {
-		"text": "כְּסַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּסַף II",
+	"headwords": [
+		{
+			"text": "כְּסַף",
+			"homograph": 2
+		},
 		{
 			"text": "כַּסְפָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 655,
 		"column": "b"

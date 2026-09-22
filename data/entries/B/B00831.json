@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00831",
-	"slug": "בלולין",
-	"headword": {
-		"text": "בלולין"
-	},
+	"sefariaHeadword": "בלולין",
+	"headwords": [
+		{
+			"text": "בלולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01355",
-	"slug": "פסקה-1",
-	"headword": {
-		"text": "פִּסְקָה"
-	},
+	"sefariaHeadword": "פִּסְקָה",
+	"headwords": [
+		{
+			"text": "פִּסְקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

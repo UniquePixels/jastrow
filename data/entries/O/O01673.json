@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01673",
-	"slug": "סרקי-1",
-	"headword": {
-		"text": "סִרְקִי"
-	},
+	"sefariaHeadword": "סִרְקִי",
+	"headwords": [
+		{
+			"text": "סִרְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1030,
 		"column": "a"

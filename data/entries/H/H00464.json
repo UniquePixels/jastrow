@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00464",
-	"slug": "חורון-1",
-	"headword": {
-		"text": "חוֹרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹרוֹן",
+	"headwords": [
 		{
-			"text": "בֵּית חוֹרוֹן"
+			"text": "חוֹרוֹן"
+		},
+		{
+			"text": "בֵּית ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 440,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

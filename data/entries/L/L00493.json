@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00493",
-	"slug": "ליסטא",
-	"headword": {
-		"text": "לִיסְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיסְטָא",
+	"headwords": [
+		{
+			"text": "לִיסְטָא"
+		},
 		{
 			"text": "לִיסְטָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 708,
 		"column": "b"

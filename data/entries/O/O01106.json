@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01106",
-	"slug": "סמליון",
-	"headword": {
-		"text": "סְמַלְיוֹן"
-	},
+	"sefariaHeadword": "סְמַלְיוֹן",
+	"headwords": [
+		{
+			"text": "סְמַלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

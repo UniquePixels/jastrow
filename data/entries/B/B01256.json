@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01256",
-	"slug": "בריחה",
-	"headword": {
-		"text": "בְּרִיחָה"
-	},
+	"sefariaHeadword": "בְּרִיחָה",
+	"headwords": [
+		{
+			"text": "בְּרִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00805",
-	"slug": "מחבת",
-	"headword": {
-		"text": "מַחֲבַת"
-	},
+	"sefariaHeadword": "מַחֲבַת",
+	"headwords": [
+		{
+			"text": "מַחֲבַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "a"

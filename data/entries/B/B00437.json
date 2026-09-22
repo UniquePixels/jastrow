@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00437",
-	"slug": "בזא-3",
-	"headword": {
-		"text": "בִּזָּא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בִּזָּא ²",
+	"headwords": [
+		{
+			"text": "בִּזָּא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 153,
 		"column": "a"

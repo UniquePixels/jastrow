@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01393",
-	"slug": "בתרא",
-	"headword": {
-		"text": "בַּתְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּתְרָא",
+	"headwords": [
+		{
+			"text": "בַּתְרָא"
+		},
 		{
 			"text": "בַּתְרָאָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "בַּתְרַאי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 201,
 		"column": "a"

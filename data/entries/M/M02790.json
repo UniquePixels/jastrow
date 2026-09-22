@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02790",
-	"slug": "מרתכא",
-	"headword": {
-		"text": "מָרְתְּכָא"
-	},
+	"sefariaHeadword": "מָרְתְּכָא",
+	"headwords": [
+		{
+			"text": "מָרְתְּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

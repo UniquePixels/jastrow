@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00208",
-	"slug": "צונין",
-	"headword": {
-		"text": "צוֹנִּין"
-	},
+	"sefariaHeadword": "צוֹנִּין",
+	"headwords": [
+		{
+			"text": "צוֹנִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

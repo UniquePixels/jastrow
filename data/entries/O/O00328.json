@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00328",
-	"slug": "סולתי",
-	"headword": {
-		"text": "סולתי"
-	},
+	"sefariaHeadword": "סולתי",
+	"headwords": [
+		{
+			"text": "סולתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

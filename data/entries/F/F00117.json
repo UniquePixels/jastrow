@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00117",
-	"slug": "ותרן",
-	"headword": {
-		"text": "וַתְּרָן"
-	},
+	"sefariaHeadword": "וַתְּרָן",
+	"headwords": [
+		{
+			"text": "וַתְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "b"

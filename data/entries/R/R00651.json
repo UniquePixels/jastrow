@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00651",
-	"slug": "צעי",
-	"headword": {
-		"text": "צָעֵי"
-	},
+	"sefariaHeadword": "צָעֵי",
+	"headwords": [
+		{
+			"text": "צָעֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

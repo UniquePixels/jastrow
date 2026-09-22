@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00268",
-	"slug": "סוואר",
-	"headword": {
-		"text": "סַוָּואר"
-	},
+	"sefariaHeadword": "סַוָּואר",
+	"headwords": [
+		{
+			"text": "סַוָּואר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

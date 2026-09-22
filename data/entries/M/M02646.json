@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02646",
-	"slug": "מרטוסא",
-	"headword": {
-		"text": "מרטוסא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מרטוסא",
+	"headwords": [
+		{
+			"text": "מרטוסא"
+		},
 		{
 			"text": "מרטיסה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 841,
 		"column": "b"

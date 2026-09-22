@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00525",
-	"slug": "רחמי",
-	"headword": {
-		"text": "רַחֲמֵיּ"
-	},
+	"sefariaHeadword": "רַחֲמֵיּ",
+	"headwords": [
+		{
+			"text": "רַחֲמֵיּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "a"

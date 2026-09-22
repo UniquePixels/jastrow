@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00309",
-	"slug": "רובע",
-	"headword": {
-		"text": "רוֹבַע"
-	},
+	"sefariaHeadword": "רוֹבַע",
+	"headwords": [
+		{
+			"text": "רוֹבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

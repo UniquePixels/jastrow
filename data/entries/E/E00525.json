@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00525",
-	"slug": "הכרעה",
-	"headword": {
-		"text": "הַכְרָעָה"
-	},
+	"sefariaHeadword": "הַכְרָעָה",
+	"headwords": [
+		{
+			"text": "הַכְרָעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "b"

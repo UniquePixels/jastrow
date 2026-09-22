@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01321",
-	"slug": "נשיקתא",
-	"headword": {
-		"text": "נְשִׁיקְתָּא"
-	},
+	"sefariaHeadword": "נְשִׁיקְתָּא",
+	"headwords": [
+		{
+			"text": "נְשִׁיקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

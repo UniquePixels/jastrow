@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01069",
-	"slug": "כצד",
-	"headword": {
-		"text": "כֵּצַד"
-	},
+	"sefariaHeadword": "כֵּצַד",
+	"headwords": [
+		{
+			"text": "כֵּצַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

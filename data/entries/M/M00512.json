@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00512",
-	"slug": "מולכנא",
-	"headword": {
-		"text": "מוֹלְכָנָא"
-	},
+	"sefariaHeadword": "מוֹלְכָנָא",
+	"headwords": [
+		{
+			"text": "מוֹלְכָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "a"

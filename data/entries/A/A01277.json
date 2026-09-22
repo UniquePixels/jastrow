@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01277",
-	"slug": "אילוגין",
-	"headword": {
-		"text": "אֵילוֹגִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵילוֹגִין",
+	"headwords": [
+		{
+			"text": "אֵילוֹגִין"
+		},
 		{
 			"text": "אֵלוֹגִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 49,
 		"column": "a"

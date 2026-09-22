@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00942",
-	"slug": "אותבותא",
-	"headword": {
-		"text": "אוֹתָבוּתָא"
-	},
+	"sefariaHeadword": "אוֹתָבוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹתָבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

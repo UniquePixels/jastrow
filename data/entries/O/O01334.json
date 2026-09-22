@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01334",
-	"slug": "ספוק",
-	"headword": {
-		"text": "סִפּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפּוּק",
+	"headwords": [
+		{
+			"text": "סִפּוּק"
+		},
 		{
 			"text": "סִפּוּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1012,
 		"column": "b"

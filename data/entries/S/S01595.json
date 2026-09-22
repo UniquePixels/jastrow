@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01595",
-	"slug": "קנם",
-	"headword": {
-		"text": "קְנַם"
-	},
+	"sefariaHeadword": "קְנַם",
+	"headwords": [
+		{
+			"text": "קְנַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

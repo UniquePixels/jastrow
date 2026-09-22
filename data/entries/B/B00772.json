@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00772",
-	"slug": "בכורה-2",
-	"headword": {
-		"text": "בְּכוֹרָה"
-	},
+	"sefariaHeadword": "בְּכוֹרָה",
+	"headwords": [
+		{
+			"text": "בְּכוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "a"

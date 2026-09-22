@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00207",
-	"slug": "פול-3",
-	"headword": {
-		"text": "פּוּל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פּוּל",
+	"headwords": [
+		{
+			"text": "פּוּל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

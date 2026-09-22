@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01203",
-	"slug": "קירקני",
-	"headword": {
-		"text": "קִירְקָנֵי"
-	},
+	"sefariaHeadword": "קִירְקָנֵי",
+	"headwords": [
+		{
+			"text": "קִירְקָנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "a"

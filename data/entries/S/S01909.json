@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01909",
-	"slug": "קרדוניא",
-	"headword": {
-		"text": "קַרְדּוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדּוּנְיָא",
+	"headwords": [
+		{
+			"text": "קַרְדּוּנְיָא"
+		},
 		{
 			"text": "קַרְדַּנְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1412,
 		"column": "b"

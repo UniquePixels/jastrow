@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00167",
-	"slug": "שבץ",
-	"headword": {
-		"text": "שָׁבַץ"
-	},
+	"sefariaHeadword": "שָׁבַץ",
+	"headwords": [
+		{
+			"text": "שָׁבַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1516,
 		"column": "b"

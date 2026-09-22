@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00271",
-	"slug": "כוליאר",
-	"headword": {
-		"text": "כוליאר"
-	},
+	"sefariaHeadword": "כוליאר",
+	"headwords": [
+		{
+			"text": "כוליאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

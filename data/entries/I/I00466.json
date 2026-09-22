@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00466",
-	"slug": "טכסיס",
-	"headword": {
-		"text": "טַכְסִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַכְסִיס",
+	"headwords": [
+		{
+			"text": "טַכְסִיס"
+		},
 		{
 			"text": "טַקְסִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 535,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01433",
-	"slug": "ספריקין",
-	"headword": {
-		"text": "סַפְרִיקִין"
-	},
+	"sefariaHeadword": "סַפְרִיקִין",
+	"headwords": [
+		{
+			"text": "סַפְרִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

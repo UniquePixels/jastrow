@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00183",
-	"slug": "מגלבה",
-	"headword": {
-		"text": "מַגְלָבָה"
-	},
+	"sefariaHeadword": "מַגְלָבָה",
+	"headwords": [
+		{
+			"text": "מַגְלָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "a"

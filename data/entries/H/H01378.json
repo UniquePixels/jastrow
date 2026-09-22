@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01378",
-	"slug": "חסילא",
-	"headword": {
-		"text": "חָסִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָסִילָא",
+	"headwords": [
 		{
-			"text": "חֲ׳"
+			"text": "חָסִילָא"
+		},
+		{
+			"text": "חֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 487,
 		"column": "b"

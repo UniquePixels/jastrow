@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01161",
-	"slug": "עקום-1",
-	"headword": {
-		"text": "עָקוֹם"
-	},
+	"sefariaHeadword": "עָקוֹם",
+	"headwords": [
+		{
+			"text": "עָקוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

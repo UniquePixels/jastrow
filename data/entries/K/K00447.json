@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00447",
-	"slug": "כזניתא",
-	"headword": {
-		"text": "כזניתא"
-	},
+	"sefariaHeadword": "כזניתא",
+	"headwords": [
+		{
+			"text": "כזניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

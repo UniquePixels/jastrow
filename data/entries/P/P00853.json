@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00853",
-	"slug": "עמאום",
-	"headword": {
-		"text": "עִמְאוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִמְאוּם",
+	"headwords": [
+		{
+			"text": "עִמְאוּם"
+		},
 		{
 			"text": "עִמָּאוּס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1086,
 		"column": "a"

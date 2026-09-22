@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00323",
-	"slug": "מדקא",
-	"headword": {
-		"text": "מִדְּקָא"
-	},
+	"sefariaHeadword": "מִדְּקָא",
+	"headwords": [
+		{
+			"text": "מִדְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "a"

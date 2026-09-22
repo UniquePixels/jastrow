@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00959",
-	"slug": "פלה",
-	"headword": {
-		"text": "פָּלָה"
-	},
+	"sefariaHeadword": "פָּלָה",
+	"headwords": [
+		{
+			"text": "פָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

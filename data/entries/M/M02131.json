@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02131",
-	"slug": "מעלו",
-	"headword": {
-		"text": "מַעֲלוּ"
-	},
+	"sefariaHeadword": "מַעֲלוּ",
+	"headwords": [
+		{
+			"text": "מַעֲלוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

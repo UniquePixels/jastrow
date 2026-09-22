@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00280",
-	"slug": "לוליינוס",
-	"headword": {
-		"text": "לוּלְיָינוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּלְיָינוֹס",
+	"headwords": [
 		{
-			"text": "לוּלְיָא׳"
+			"text": "לוּלְיָינוֹס"
+		},
+		{
+			"text": "לוּלְיָא׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 699,
 		"column": "a"

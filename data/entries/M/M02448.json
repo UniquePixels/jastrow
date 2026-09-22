@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02448",
-	"slug": "מקר-1",
-	"headword": {
-		"text": "מֵקַר"
-	},
+	"sefariaHeadword": "מֵקַר",
+	"headwords": [
+		{
+			"text": "מֵקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 832,
 		"column": "b"

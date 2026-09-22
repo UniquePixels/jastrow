@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00245",
-	"slug": "אגד-7",
-	"headword": {
-		"text": "אֵגֶד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵגֶד ²",
+	"headwords": [
+		{
+			"text": "אֵגֶד",
+			"disambiguator": 2
+		},
 		{
 			"text": "אֵיגֶד"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 10,
 		"column": "b"

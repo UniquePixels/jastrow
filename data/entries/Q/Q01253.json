@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01253",
-	"slug": "פסח-1",
-	"headword": {
-		"text": "פָּסַח"
-	},
+	"sefariaHeadword": "פָּסַח",
+	"headwords": [
+		{
+			"text": "פָּסַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00706",
-	"slug": "סימיסיריקין",
-	"headword": {
-		"text": "סִימִיסִירִיקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימִיסִירִיקִין",
+	"headwords": [
 		{
-			"text": "סִימִיסרִ׳"
+			"text": "סִימִיסִירִיקִין"
+		},
+		{
+			"text": "סִימִיסרִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "b"

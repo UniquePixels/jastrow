@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02109",
-	"slug": "קרנית",
-	"headword": {
-		"text": "קְרָנִית"
-	},
+	"sefariaHeadword": "קְרָנִית",
+	"headwords": [
+		{
+			"text": "קְרָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "a"

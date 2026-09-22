@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00740",
-	"slug": "ביש-1",
-	"headword": {
-		"text": "בִּישׁ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּישׁ I",
+	"headwords": [
 		{
-			"text": "בִּישָׁא"
+			"text": "בִּישׁ",
+			"homograph": 1
+		},
+		{
+			"text": "בִּישָׁא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 167,
 		"column": "a"

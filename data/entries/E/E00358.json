@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00358",
-	"slug": "היטני",
-	"headword": {
-		"text": "הִיטְּנֵי"
-	},
+	"sefariaHeadword": "הִיטְּנֵי",
+	"headwords": [
+		{
+			"text": "הִיטְּנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "a"

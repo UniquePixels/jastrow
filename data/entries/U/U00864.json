@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00864",
-	"slug": "שיחור",
-	"headword": {
-		"text": "שִׁיחוֹר"
-	},
+	"sefariaHeadword": "שִׁיחוֹר",
+	"headwords": [
+		{
+			"text": "שִׁיחוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

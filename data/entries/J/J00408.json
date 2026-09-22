@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00408",
-	"slug": "ימי-1",
-	"headword": {
-		"text": "יַמֵּי"
-	},
+	"sefariaHeadword": "יַמֵּי",
+	"headwords": [
+		{
+			"text": "יַמֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "a"

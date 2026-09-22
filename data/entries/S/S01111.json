@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01111",
-	"slug": "קיפלין",
-	"headword": {
-		"text": "קִיפָלִין"
-	},
+	"sefariaHeadword": "קִיפָלִין",
+	"headwords": [
+		{
+			"text": "קִיפָלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "b"

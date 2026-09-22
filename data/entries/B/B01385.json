@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01385",
-	"slug": "בתולין",
-	"headword": {
-		"text": "בְּתוּלִין"
-	},
+	"sefariaHeadword": "בְּתוּלִין",
+	"headwords": [
+		{
+			"text": "בְּתוּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 200,
 		"column": "b"

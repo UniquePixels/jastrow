@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00648",
-	"slug": "גיה",
-	"headword": {
-		"text": "גִּיהַּ"
-	},
+	"sefariaHeadword": "גִּיהַּ",
+	"headwords": [
+		{
+			"text": "גִּיהַּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00910",
-	"slug": "ננקפ״י",
-	"headword": {
-		"text": "ננקפ״י"
-	},
+	"sefariaHeadword": "ננקפ\"י",
+	"headwords": [
+		{
+			"text": "ננקפ״י"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

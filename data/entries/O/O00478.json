@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00478",
-	"slug": "סטטיונר",
-	"headword": {
-		"text": "סְטַטְיוֹנָר"
-	},
+	"sefariaHeadword": "סְטַטְיוֹנָר",
+	"headwords": [
+		{
+			"text": "סְטַטְיוֹנָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "a"

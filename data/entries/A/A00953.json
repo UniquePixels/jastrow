@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00953",
-	"slug": "אזגור",
-	"headword": {
-		"text": "אזגור"
-	},
+	"sefariaHeadword": "אזגור",
+	"headwords": [
+		{
+			"text": "אזגור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

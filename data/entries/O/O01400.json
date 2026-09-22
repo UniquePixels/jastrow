@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01400",
-	"slug": "ספסר-1",
-	"headword": {
-		"text": "סַפְסָר"
-	},
+	"sefariaHeadword": "סַפְסָר",
+	"headwords": [
+		{
+			"text": "סַפְסָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1015,
 		"column": "b"

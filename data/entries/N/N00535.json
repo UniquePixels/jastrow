@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00535",
-	"slug": "נחתא",
-	"headword": {
-		"text": "נַחֲתָא"
-	},
+	"sefariaHeadword": "נַחֲתָא",
+	"headwords": [
+		{
+			"text": "נַחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 897,
 		"column": "b"

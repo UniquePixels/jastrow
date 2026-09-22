@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00105",
-	"slug": "מגאנא",
-	"headword": {
-		"text": "מַגָּאנָא"
-	},
+	"sefariaHeadword": "מַגָּאנָא",
+	"headwords": [
+		{
+			"text": "מַגָּאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

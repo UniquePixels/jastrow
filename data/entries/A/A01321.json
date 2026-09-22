@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01321",
-	"slug": "אימא-4",
-	"headword": {
-		"text": "אִימָּא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "אִימָּא III",
+	"headwords": [
+		{
+			"text": "אִימָּא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 50,
 		"column": "b"

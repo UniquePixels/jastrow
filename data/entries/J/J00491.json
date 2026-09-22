@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00491",
-	"slug": "יענה",
-	"headword": {
-		"text": "יַעֲנָה"
-	},
+	"sefariaHeadword": "יַעֲנָה",
+	"headwords": [
+		{
+			"text": "יַעֲנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 585,
 		"column": "a"

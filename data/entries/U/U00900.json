@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00900",
-	"slug": "שייך",
-	"headword": {
-		"text": "שָׁיֵיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁיֵיךְ",
+	"headwords": [
+		{
+			"text": "שָׁיֵיךְ"
+		},
 		{
 			"text": "שָׁיְיכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01605",
-	"slug": "סריגתא",
-	"headword": {
-		"text": "סְרִיגְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרִיגְתָּא",
+	"headwords": [
 		{
-			"text": "סְרִגְ׳"
+			"text": "סְרִיגְתָּא"
+		},
+		{
+			"text": "סְרִגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1026,
 		"column": "b"

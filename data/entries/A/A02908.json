@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02908",
-	"slug": "אקטור",
-	"headword": {
-		"text": "אַקְטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַקְטוֹר",
+	"headwords": [
+		{
+			"text": "אַקְטוֹר"
+		},
 		{
 			"text": "אוקטור"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 112,
 		"column": "a"

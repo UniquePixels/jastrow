@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00120",
-	"slug": "כדורית",
-	"headword": {
-		"text": "כַּדּוֹרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּדּוֹרִית",
+	"headwords": [
+		{
+			"text": "כַּדּוֹרִית"
+		},
 		{
 			"text": "כַּדּוֹרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 613,
 		"column": "a"

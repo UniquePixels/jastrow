@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01265",
-	"slug": "ערבה-4",
-	"headword": {
-		"text": "עֲרֵבָה"
-	},
+	"sefariaHeadword": "עֲרֵבָה",
+	"headwords": [
+		{
+			"text": "עֲרֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1112,
 		"column": "a"

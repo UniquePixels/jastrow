@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00719",
-	"slug": "ריש-3",
-	"headword": {
-		"text": "רֵישׁ",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵישׁ III",
+	"headwords": [
+		{
+			"text": "רֵישׁ",
+			"homograph": 3
+		},
 		{
 			"text": "רֵישָׁא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1478,
 		"column": "a"

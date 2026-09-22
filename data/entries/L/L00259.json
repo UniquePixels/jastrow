@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00259",
-	"slug": "לוינטי",
-	"headword": {
-		"text": "לוינטי"
-	},
+	"sefariaHeadword": "לוינטי",
+	"headwords": [
+		{
+			"text": "לוינטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

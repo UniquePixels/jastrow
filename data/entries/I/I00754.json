@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00754",
-	"slug": "טרטיאות",
-	"headword": {
-		"text": "טַרְטְיָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְטְיָאוֹת",
+	"headwords": [
+		{
+			"text": "טַרְטְיָאוֹת"
+		},
 		{
 			"text": "טַרְטְרָאוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "a"

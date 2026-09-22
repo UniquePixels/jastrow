@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01977",
-	"slug": "פרצופא",
-	"headword": {
-		"text": "פַּרְצוּפָא"
-	},
+	"sefariaHeadword": "פַּרְצוּפָא",
+	"headwords": [
+		{
+			"text": "פַּרְצוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1238,
 		"column": "a"

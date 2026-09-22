@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00067",
-	"slug": "סבכא",
-	"headword": {
-		"text": "סִבְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבְכָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִבְכָא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 950,
 		"column": "a"

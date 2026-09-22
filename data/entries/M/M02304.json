@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02304",
-	"slug": "מצטבלה",
-	"headword": {
-		"text": "מצטבלה"
-	},
+	"sefariaHeadword": "מצטבלה",
+	"headwords": [
+		{
+			"text": "מצטבלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 825,
 		"column": "a"

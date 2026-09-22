@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01299",
-	"slug": "מירי",
-	"headword": {
-		"text": "מִירִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִירִי",
+	"headwords": [
 		{
-			"text": "מִירִי מִירְיָאדִין"
+			"text": "מִירִי"
+		},
+		{
+			"text": "מ׳ מִירְיָאדִין",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 779,
 		"column": "a"

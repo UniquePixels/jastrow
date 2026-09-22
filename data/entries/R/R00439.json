@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00439",
-	"slug": "ציציין",
-	"headword": {
-		"text": "צִיצְיָין"
-	},
+	"sefariaHeadword": "צִיצְיָין",
+	"headwords": [
+		{
+			"text": "צִיצְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

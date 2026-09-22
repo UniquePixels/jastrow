@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00155",
-	"slug": "עדן-4",
-	"headword": {
-		"text": "עֵדֶן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עֵדֶן ²",
+	"headwords": [
+		{
+			"text": "עֵדֶן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1045,
 		"column": "a"

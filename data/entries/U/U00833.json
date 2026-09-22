@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00833",
-	"slug": "שיהי",
-	"headword": {
-		"text": "שִׁיהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיהֵי",
+	"headwords": [
+		{
+			"text": "שִׁיהֵי"
+		},
 		{
 			"text": "שִׁהֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1558,
 		"column": "b"

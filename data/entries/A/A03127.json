@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03127",
-	"slug": "ארך-4",
-	"headword": {
-		"text": "אֶרֶךְ"
-	},
+	"sefariaHeadword": "אֶרֶךְ",
+	"headwords": [
+		{
+			"text": "אֶרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 121,
 		"column": "a"

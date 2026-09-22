@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00320",
-	"slug": "בוצרתא",
-	"headword": {
-		"text": "בּוֹצְרָתָא"
-	},
+	"sefariaHeadword": "בֹּוצְרָתָא",
+	"headwords": [
+		{
+			"text": "בּוֹצְרָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"

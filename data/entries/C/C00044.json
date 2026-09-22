@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00044",
-	"slug": "גבבה",
-	"headword": {
-		"text": "גְּבָבָה"
-	},
+	"sefariaHeadword": "גְּבָבָה",
+	"headwords": [
+		{
+			"text": "גְּבָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00862",
-	"slug": "קיבלתא",
-	"headword": {
-		"text": "קִיבְלְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיבְלְתָא",
+	"headwords": [
+		{
+			"text": "קִיבְלְתָא"
+		},
 		{
 			"text": "קִיבֵּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1354,
 		"column": "b"

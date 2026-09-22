@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00839",
-	"slug": "דלכון",
-	"headword": {
-		"text": "דִּלְכוֹן"
-	},
+	"sefariaHeadword": "דִּלְכוֹן",
+	"headwords": [
+		{
+			"text": "דִּלְכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 310,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00126",
-	"slug": "נגה-1",
-	"headword": {
-		"text": "נָגַהּ"
-	},
+	"sefariaHeadword": "נָגַהּ",
+	"headwords": [
+		{
+			"text": "נָגַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 872,
 		"column": "b"

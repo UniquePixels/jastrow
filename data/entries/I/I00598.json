@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00598",
-	"slug": "טעונא",
-	"headword": {
-		"text": "טְעוּנָא"
-	},
+	"sefariaHeadword": "טְעוּנָא",
+	"headwords": [
+		{
+			"text": "טְעוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "a"

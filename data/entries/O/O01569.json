@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01569",
-	"slug": "סרח-1",
-	"headword": {
-		"text": "סָרַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סָרַח I",
+	"headwords": [
+		{
+			"text": "סָרַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1024,
 		"column": "a"

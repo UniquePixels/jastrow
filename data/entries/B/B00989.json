@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00989",
-	"slug": "בסים-1",
-	"headword": {
-		"text": "בְּסִים"
-	},
+	"sefariaHeadword": "בְּסִים",
+	"headwords": [
+		{
+			"text": "בְּסִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

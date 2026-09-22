@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00339",
-	"slug": "פורחות",
-	"headword": {
-		"text": "פּוֹרְחוֹת"
-	},
+	"sefariaHeadword": "פּוֹרְחוֹת",
+	"headwords": [
+		{
+			"text": "פּוֹרְחוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01579",
-	"slug": "סרחן-2",
-	"headword": {
-		"text": "סָרְחָן"
-	},
+	"sefariaHeadword": "סָרְחָן",
+	"headwords": [
+		{
+			"text": "סָרְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00890",
-	"slug": "אוריין-2",
-	"headword": {
-		"text": "אוֹרְיָין",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרְיָין II",
+	"headwords": [
+		{
+			"text": "אוֹרְיָין",
+			"homograph": 2
+		},
 		{
 			"text": "אוֹרְיוֹן"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 34,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00616",
-	"slug": "זערתא",
-	"headword": {
-		"text": "זְעֶרְתָּא"
-	},
+	"sefariaHeadword": "זְעֶרְתָּא",
+	"headwords": [
+		{
+			"text": "זְעֶרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

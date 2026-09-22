@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00755",
-	"slug": "כלכל-1",
-	"headword": {
-		"text": "כִּלְכֵּל"
-	},
+	"sefariaHeadword": "כִּלְכֵּל",
+	"headwords": [
+		{
+			"text": "כִּלְכֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "b"

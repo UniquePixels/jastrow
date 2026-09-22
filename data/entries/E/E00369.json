@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00369",
-	"slug": "היידנו",
-	"headword": {
-		"text": "הַיְידְּנוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַיְידְּנוּ",
+	"headwords": [
+		{
+			"text": "הַיְידְּנוּ"
+		},
 		{
 			"text": "הֵידְנוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 344,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01878",
-	"slug": "קראה",
-	"headword": {
-		"text": "קְרָאָה"
-	},
+	"sefariaHeadword": "קְרָאָה",
+	"headwords": [
+		{
+			"text": "קְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1410,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00788",
-	"slug": "עלזה",
-	"headword": {
-		"text": "עֲלָזָה"
-	},
+	"sefariaHeadword": "עֲלָזָה",
+	"headwords": [
+		{
+			"text": "עֲלָזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

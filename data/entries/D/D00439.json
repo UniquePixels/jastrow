@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00439",
-	"slug": "דחקותא",
-	"headword": {
-		"text": "דַּחֲקוּתָא"
-	},
+	"sefariaHeadword": "דַּחֲקוּתָא",
+	"headwords": [
+		{
+			"text": "דַּחֲקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 293,
 		"column": "b"

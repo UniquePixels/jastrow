@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00572",
-	"slug": "סיגנם",
-	"headword": {
-		"text": "סיגנם"
-	},
+	"sefariaHeadword": "סיגנם",
+	"headwords": [
+		{
+			"text": "סיגנם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 976,
 		"column": "a"

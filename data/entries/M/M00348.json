@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00348",
-	"slug": "מהובית",
-	"headword": {
-		"text": "מְהוֹבִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְהוֹבִית",
+	"headwords": [
+		{
+			"text": "מְהוֹבִית"
+		},
 		{
 			"text": "מְהוּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 737,
 		"column": "a"

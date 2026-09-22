@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02521",
-	"slug": "אספריטין",
-	"headword": {
-		"text": "אִסְפְּרִיטִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְפְּרִיטִין",
+	"headwords": [
+		{
+			"text": "אִסְפְּרִיטִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אִסְפְּלִיטִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "b"

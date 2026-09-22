@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01438",
-	"slug": "חפזון",
-	"headword": {
-		"text": "חִפָּזוֹן"
-	},
+	"sefariaHeadword": "חִפָּזוֹן",
+	"headwords": [
+		{
+			"text": "חִפָּזוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "a"

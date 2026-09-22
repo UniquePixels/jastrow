@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01047",
-	"slug": "סלתית",
-	"headword": {
-		"text": "סלתית"
-	},
+	"sefariaHeadword": "סלתית",
+	"headwords": [
+		{
+			"text": "סלתית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "a"

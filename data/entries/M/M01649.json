@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01649",
-	"slug": "ממולאי",
-	"headword": {
-		"text": "מַמּוּלָּאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַמּוּלָּאֵי",
+	"headwords": [
+		{
+			"text": "מַמּוּלָּאֵי"
+		},
 		{
 			"text": "מוּלָּאֵי",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 794,
 		"column": "a"

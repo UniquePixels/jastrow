@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C01233",
-	"slug": "גרב-4",
-	"headword": {
-		"text": "גְּרַב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרַב ²",
+	"headwords": [
+		{
+			"text": "גְּרַב",
+			"disambiguator": 2
+		},
 		{
 			"text": "גַּרְבָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 263,
 		"column": "b"

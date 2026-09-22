@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01191",
-	"slug": "שכשוך",
-	"headword": {
-		"text": "שִׁכְשׁוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכְשׁוּךְ",
+	"headwords": [
 		{
-			"text": "שִׁיכְ׳"
+			"text": "שִׁכְשׁוּךְ"
+		},
+		{
+			"text": "שִׁיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1577,
 		"column": "a"

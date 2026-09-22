@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00043",
-	"slug": "אבדן-1",
-	"headword": {
-		"text": "אַבְדָּן"
-	},
+	"sefariaHeadword": "אַבְדָּן",
+	"headwords": [
+		{
+			"text": "אַבְדָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

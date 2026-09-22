@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00953",
-	"slug": "פלגסא",
-	"headword": {
-		"text": "פְּלַגְסָא"
-	},
+	"sefariaHeadword": "פְּלַגְסָא",
+	"headwords": [
+		{
+			"text": "פְּלַגְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02313",
-	"slug": "אנתיקי",
-	"headword": {
-		"text": "אֶנְתֵּיקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֶנְתֵּיקֵי",
+	"headwords": [
+		{
+			"text": "אֶנְתֵּיקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

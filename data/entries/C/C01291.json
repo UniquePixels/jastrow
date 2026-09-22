@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01291",
-	"slug": "גרוגרות",
-	"headword": {
-		"text": "גְּרוֹגְרוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרוֹגְרוֹת",
+	"headwords": [
 		{
-			"text": "בַּר גְּרוֹגְרוֹת"
+			"text": "גְּרוֹגְרוֹת"
+		},
+		{
+			"text": "בַּר ג׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "b"

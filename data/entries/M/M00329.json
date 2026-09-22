@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00329",
-	"slug": "מדר-3",
-	"headword": {
-		"text": "מָדֹר"
-	},
+	"sefariaHeadword": "מָדֹר",
+	"headwords": [
+		{
+			"text": "מָדֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

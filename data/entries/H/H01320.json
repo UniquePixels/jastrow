@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01320",
-	"slug": "חנף-2",
-	"headword": {
-		"text": "חֲנֵף"
-	},
+	"sefariaHeadword": "חֲנֵף",
+	"headwords": [
+		{
+			"text": "חֲנֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 485,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00434",
-	"slug": "שום-2",
-	"headword": {
-		"text": "שׂוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׂוּם ²",
+	"headwords": [
+		{
+			"text": "שׂוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׂים"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1535,
 		"column": "a"

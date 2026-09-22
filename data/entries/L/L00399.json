@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00399",
-	"slug": "לטש-2",
-	"headword": {
-		"text": "לְטֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְטֵשׁ",
+	"headwords": [
+		{
+			"text": "לְטֵשׁ"
+		},
 		{
 			"text": "לְטֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 705,
 		"column": "b"

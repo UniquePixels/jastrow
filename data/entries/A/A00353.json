@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00353",
-	"slug": "אגריאון",
-	"headword": {
-		"text": "אַגְרִיאוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגְרִיאוֹן",
+	"headwords": [
+		{
+			"text": "אַגְרִיאוֹן"
+		},
 		{
 			"text": "אַגְרִיּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 14,
 		"column": "b"

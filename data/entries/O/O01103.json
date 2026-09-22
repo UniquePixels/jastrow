@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01103",
-	"slug": "סמל-2",
-	"headword": {
-		"text": "סָמָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָמָל",
+	"headwords": [
+		{
+			"text": "סָמָל"
+		},
 		{
 			"text": "סַמָּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "a"

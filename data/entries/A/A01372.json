@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01372",
-	"slug": "אינדרונא",
-	"headword": {
-		"text": "אִינְדְּרוֹנָא"
-	},
+	"sefariaHeadword": "אִינְדְּרוֹנָא",
+	"headwords": [
+		{
+			"text": "אִינְדְּרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

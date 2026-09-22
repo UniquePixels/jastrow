@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01376",
-	"slug": "פעור-1",
-	"headword": {
-		"text": "פִּעוּר"
-	},
+	"sefariaHeadword": "פִּעוּר",
+	"headwords": [
+		{
+			"text": "פִּעוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1202,
 		"column": "a"

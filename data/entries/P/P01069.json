@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01069",
-	"slug": "עפעפים",
-	"headword": {
-		"text": "עַפְעַפַּיִם"
-	},
+	"sefariaHeadword": "עַפְעַפַּיִם",
+	"headwords": [
+		{
+			"text": "עַפְעַפַּיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

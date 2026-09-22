@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00654",
-	"slug": "לפתותא",
-	"headword": {
-		"text": "לִפְתּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִפְתּוּתָא",
+	"headwords": [
 		{
-			"text": "לִיפְ׳"
+			"text": "לִפְתּוּתָא"
+		},
+		{
+			"text": "לִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 716,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00570",
-	"slug": "חזרנותא",
-	"headword": {
-		"text": "חַזְרָנוּתָא"
-	},
+	"sefariaHeadword": "חַזְרָנוּתָא",
+	"headwords": [
+		{
+			"text": "חַזְרָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

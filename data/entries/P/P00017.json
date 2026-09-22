@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00017",
-	"slug": "עבדו",
-	"headword": {
-		"text": "עַבְדּוּ"
-	},
+	"sefariaHeadword": "עַבְדּוּ",
+	"headwords": [
+		{
+			"text": "עַבְדּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1035,
 		"column": "b"

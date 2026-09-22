@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01699",
-	"slug": "קפד-1",
-	"headword": {
-		"text": "קָפַד"
-	},
+	"sefariaHeadword": "קָפַד",
+	"headwords": [
+		{
+			"text": "קָפַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "a"

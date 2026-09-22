@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02419",
-	"slug": "אסטרטילטא",
-	"headword": {
-		"text": "אִסְטְרָטִילָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרָטִילָטָא",
+	"headwords": [
+		{
+			"text": "אִסְטְרָטִילָטָא"
+		},
 		{
 			"text": "אִסְטְרָטִילָטֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 92,
 		"column": "a"

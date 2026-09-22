@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00158",
-	"slug": "סגנום",
-	"headword": {
-		"text": "סִגְנוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִגְנוּם",
+	"headwords": [
+		{
+			"text": "סִגְנוּם"
+		},
 		{
 			"text": "סִגְנוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "סגנוס"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 955,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01796",
-	"slug": "מנן",
-	"headword": {
-		"text": "מְנָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְנָן",
+	"headwords": [
+		{
+			"text": "מְנָן"
+		},
 		{
 			"text": "מְנַן"
 		},
@@ -12,9 +13,11 @@
 			"text": "מִנָּן"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 801,
 		"column": "b"

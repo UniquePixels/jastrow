@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01537",
-	"slug": "מלטומיא",
-	"headword": {
-		"text": "מלטומיא"
-	},
+	"sefariaHeadword": "מלטומיא",
+	"headwords": [
+		{
+			"text": "מלטומיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "b"

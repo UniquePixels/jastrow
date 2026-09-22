@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00046",
-	"slug": "שאקא",
-	"headword": {
-		"text": "שָׁאקָא"
-	},
+	"sefariaHeadword": "שָׁאקָא",
+	"headwords": [
+		{
+			"text": "שָׁאקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00052",
-	"slug": "שאר-6",
-	"headword": {
-		"text": "שְׁאָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁאָר ²",
+	"headwords": [
+		{
+			"text": "שְׁאָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁאָרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1509,
 		"column": "b"

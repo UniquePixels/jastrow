@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00648",
-	"slug": "צעד-1",
-	"headword": {
-		"text": "צָעַד"
-	},
+	"sefariaHeadword": "צָעַד",
+	"headwords": [
+		{
+			"text": "צָעַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

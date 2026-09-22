@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00184",
-	"slug": "גדופי",
-	"headword": {
-		"text": "גַּדּוּפִי"
-	},
+	"sefariaHeadword": "גַּדּוּפִי",
+	"headwords": [
+		{
+			"text": "גַּדּוּפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "a"

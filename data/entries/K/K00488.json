@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00488",
-	"slug": "כיבש",
-	"headword": {
-		"text": "כֵּיבַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיבַשׁ",
+	"headwords": [
+		{
+			"text": "כֵּיבַשׁ"
+		},
 		{
 			"text": "כִּיבְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 630,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02166",
-	"slug": "קרקיפל",
-	"headword": {
-		"text": "קַרְקֵיפֶל"
-	},
+	"sefariaHeadword": "קַרְקֵיפֶל",
+	"headwords": [
+		{
+			"text": "קַרְקֵיפֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

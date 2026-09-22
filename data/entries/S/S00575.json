@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00575",
-	"slug": "קורדימא",
-	"headword": {
-		"text": "קורדימא"
-	},
+	"sefariaHeadword": "קורדימא",
+	"headwords": [
+		{
+			"text": "קורדימא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "b"

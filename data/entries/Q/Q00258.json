@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00258",
-	"slug": "פונדא",
-	"headword": {
-		"text": "פּוּנְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּנְדָּא",
+	"headwords": [
+		{
+			"text": "פּוּנְדָּא"
+		},
 		{
 			"text": "פּוּנְדָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1143,
 		"column": "a"

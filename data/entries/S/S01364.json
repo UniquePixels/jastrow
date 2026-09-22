@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01364",
-	"slug": "קלמסמסיא",
-	"headword": {
-		"text": "קלמסמסיא"
-	},
+	"sefariaHeadword": "קלמסמסיא",
+	"headwords": [
+		{
+			"text": "קלמסמסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

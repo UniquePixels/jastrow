@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00264",
-	"slug": "רדם-1",
-	"headword": {
-		"text": "רָדַם"
-	},
+	"sefariaHeadword": "רָדַם",
+	"headwords": [
+		{
+			"text": "רָדַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1453,
 		"column": "a"

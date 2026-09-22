@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00626",
-	"slug": "חטיטא",
-	"headword": {
-		"text": "חַטֵּיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַטֵּיטָא",
+	"headwords": [
+		{
+			"text": "חַטֵּיטָא"
+		},
 		{
 			"text": "חָטוֹטָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 449,
 		"column": "b"

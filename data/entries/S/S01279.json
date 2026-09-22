@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01279",
-	"slug": "קלוסטרא",
-	"headword": {
-		"text": "קְלוֹסְטְרָא"
-	},
+	"sefariaHeadword": "קְלוֹסְטְרָא",
+	"headwords": [
+		{
+			"text": "קְלוֹסְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "a"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00353",
-	"slug": "נוי-2",
-	"headword": {
-		"text": "נוי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוי ²",
+	"headwords": [
+		{
+			"text": "נוי",
+			"disambiguator": 2
+		},
 		{
 			"text": "נָוָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 887,
 		"column": "a"

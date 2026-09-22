@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03103",
-	"slug": "אריכותא-1",
-	"headword": {
-		"text": "אֲרִיכוּתָא"
-	},
+	"sefariaHeadword": "אֲרִיכוּתָא",
+	"headwords": [
+		{
+			"text": "אֲרִיכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "a"

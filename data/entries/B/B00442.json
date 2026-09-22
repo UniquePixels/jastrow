@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00442",
-	"slug": "בזיונא-2",
-	"headword": {
-		"text": "בִּזְיוּנָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּזְיוּנָא I",
+	"headwords": [
+		{
+			"text": "בִּזְיוּנָא",
+			"homograph": 1
+		},
 		{
 			"text": "בִּיזְיוּנָא"
 		},
@@ -16,6 +17,7 @@
 			"text": "בֵּי זְיָינָא"
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}",
 	"page": {
 		"number": 153,
 		"column": "b"

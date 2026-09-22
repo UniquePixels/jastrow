@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00671",
-	"slug": "מורע-1",
-	"headword": {
-		"text": "מוּרָע"
-	},
+	"sefariaHeadword": "מוּרָע",
+	"headwords": [
+		{
+			"text": "מוּרָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00422",
-	"slug": "ליברה",
-	"headword": {
-		"text": "לִיבְרָה"
-	},
+	"sefariaHeadword": "לִיבְרָה",
+	"headwords": [
+		{
+			"text": "לִיבְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

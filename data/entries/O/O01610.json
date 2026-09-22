@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01610",
-	"slug": "סריות",
-	"headword": {
-		"text": "סֵרָיוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵרָיוּת",
+	"headwords": [
 		{
-			"text": "סֵי׳"
+			"text": "סֵרָיוּת"
+		},
+		{
+			"text": "סֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1026,
 		"column": "b"

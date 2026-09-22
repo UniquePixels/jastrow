@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00241",
-	"slug": "קובתא",
-	"headword": {
-		"text": "קוּבְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּבְּתָא",
+	"headwords": [
 		{
-			"text": "קוּבְ׳"
+			"text": "קוּבְּתָא"
+		},
+		{
+			"text": "קוּבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1324,
 		"column": "a"

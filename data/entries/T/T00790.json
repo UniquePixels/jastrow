@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00790",
-	"slug": "רמאתא",
-	"headword": {
-		"text": "רָמָאתָא"
-	},
+	"sefariaHeadword": "רָמָאתָא",
+	"headwords": [
+		{
+			"text": "רָמָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1481,
 		"column": "b"

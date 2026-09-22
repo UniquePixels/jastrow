@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01004",
-	"slug": "פלטוני",
-	"headword": {
-		"text": "פלטוני"
-	},
+	"sefariaHeadword": "פלטוני",
+	"headwords": [
+		{
+			"text": "פלטוני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "a"

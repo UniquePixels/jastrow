@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00909",
-	"slug": "אורעא",
-	"headword": {
-		"text": "אוֹרָעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרָעָא",
+	"headwords": [
+		{
+			"text": "אוֹרָעָא"
+		},
 		{
 			"text": "אוֹרָעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 35,
 		"column": "a"

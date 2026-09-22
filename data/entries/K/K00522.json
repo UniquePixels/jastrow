@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00522",
-	"slug": "כייל-2",
-	"headword": {
-		"text": "כַּיָּיל"
-	},
+	"sefariaHeadword": "כַּיָּיל",
+	"headwords": [
+		{
+			"text": "כַּיָּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

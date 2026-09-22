@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00633",
-	"slug": "אוים",
-	"headword": {
-		"text": "אוֹיָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹיָם",
+	"headwords": [
+		{
+			"text": "אוֹיָם"
+		},
 		{
 			"text": "אוֹיָים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 24,
 		"column": "b"

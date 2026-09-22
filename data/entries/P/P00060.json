@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00060",
-	"slug": "עבר-2",
-	"headword": {
-		"text": "עֲבַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבַר",
+	"headwords": [
+		{
+			"text": "עֲבַר"
+		},
 		{
 			"text": "עָבַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1039,
 		"column": "b"

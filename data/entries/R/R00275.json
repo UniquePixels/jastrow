@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00275",
-	"slug": "צחיותא",
-	"headword": {
-		"text": "צַחְיוּתָא"
-	},
+	"sefariaHeadword": "צַחְיוּתָא",
+	"headwords": [
+		{
+			"text": "צַחְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1273,
 		"column": "a"

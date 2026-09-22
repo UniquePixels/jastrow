@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00410",
-	"slug": "דחיך",
-	"headword": {
-		"text": "דְּחֵיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּחֵיךְ",
+	"headwords": [
+		{
+			"text": "דְּחֵיךְ"
+		},
 		{
 			"text": "דְּחֵךְ"
 		},
@@ -12,6 +13,7 @@
 			"text": "דְּחַךְ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 292,
 		"column": "a"

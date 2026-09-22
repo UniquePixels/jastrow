@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01452",
-	"slug": "סקווטריס",
-	"headword": {
-		"text": "סקווטריס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סקווטריס",
+	"headwords": [
+		{
+			"text": "סקווטריס"
+		},
 		{
 			"text": "סקויטריס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1019,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00017",
-	"slug": "ראיה-3",
-	"headword": {
-		"text": "רְאָיָה"
-	},
+	"sefariaHeadword": "רְאָיָה",
+	"headwords": [
+		{
+			"text": "רְאָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1436,
 		"column": "b"

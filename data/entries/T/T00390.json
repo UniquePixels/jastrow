@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00390",
-	"slug": "רומי-3",
-	"headword": {
-		"text": "רומי"
-	},
+	"sefariaHeadword": "רומי",
+	"headwords": [
+		{
+			"text": "רומי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

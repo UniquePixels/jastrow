@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00146",
-	"slug": "עדירה",
-	"headword": {
-		"text": "עֲדִירָה"
-	},
+	"sefariaHeadword": "עֲדִירָה",
+	"headwords": [
+		{
+			"text": "עֲדִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "b"

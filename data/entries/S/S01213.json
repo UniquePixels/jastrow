@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01213",
-	"slug": "קישויא",
-	"headword": {
-		"text": "קִישּׁוּיָא"
-	},
+	"sefariaHeadword": "קִישּׁוּיָא",
+	"headwords": [
+		{
+			"text": "קִישּׁוּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00658",
-	"slug": "צעק-1",
-	"headword": {
-		"text": "צָעַק"
-	},
+	"sefariaHeadword": "צָעַק",
+	"headwords": [
+		{
+			"text": "צָעַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1294,
 		"column": "a"

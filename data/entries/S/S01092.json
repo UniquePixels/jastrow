@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01092",
-	"slug": "קיסרקיסון",
-	"headword": {
-		"text": "קיסרקיסון"
-	},
+	"sefariaHeadword": "קיסרקיסון",
+	"headwords": [
+		{
+			"text": "קיסרקיסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00450",
-	"slug": "מוזניא",
-	"headword": {
-		"text": "מוֹזְנַיָּא"
-	},
+	"sefariaHeadword": "מוֹזְנַיָּא",
+	"headwords": [
+		{
+			"text": "מוֹזְנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

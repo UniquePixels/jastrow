@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01382",
-	"slug": "קלסטור",
-	"headword": {
-		"text": "קָלַסְטוֹר"
-	},
+	"sefariaHeadword": "קָלַסְטוֹר",
+	"headwords": [
+		{
+			"text": "קָלַסְטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1379,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00783",
-	"slug": "אוסי-2",
-	"headword": {
-		"text": "אוסי"
-	},
+	"sefariaHeadword": "אוסי",
+	"headwords": [
+		{
+			"text": "אוסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "b"

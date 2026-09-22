@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00534",
-	"slug": "גזורה",
-	"headword": {
-		"text": "גְּזוּרָה"
-	},
+	"sefariaHeadword": "גְּזוּרָה",
+	"headwords": [
+		{
+			"text": "גְּזוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 229,
 		"column": "a"

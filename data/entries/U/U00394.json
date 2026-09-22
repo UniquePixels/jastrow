@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00394",
-	"slug": "שוי-4",
-	"headword": {
-		"text": "שְׁוִי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שְׁוִי ²",
+	"headwords": [
+		{
+			"text": "שְׁוִי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1533,
 		"column": "a"

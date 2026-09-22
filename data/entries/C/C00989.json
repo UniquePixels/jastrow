@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00989",
-	"slug": "גלשושיתא",
-	"headword": {
-		"text": "גַּלְשׁוּשִׁיתָא"
-	},
+	"sefariaHeadword": "גַּלְשׁוּשִׁיתָא",
+	"headwords": [
+		{
+			"text": "גַּלְשׁוּשִׁיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "a"

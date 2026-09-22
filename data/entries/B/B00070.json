@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00070",
-	"slug": "בבתא-2",
-	"headword": {
-		"text": "בָּבְתָא"
-	},
+	"sefariaHeadword": "בָּבְתָא",
+	"headwords": [
+		{
+			"text": "בָּבְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

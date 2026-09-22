@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01045",
-	"slug": "עסיסא",
-	"headword": {
-		"text": "עֲסִיסָא"
-	},
+	"sefariaHeadword": "עֲסִיסָא",
+	"headwords": [
+		{
+			"text": "עֲסִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1098,
 		"column": "a"

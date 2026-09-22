@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00702",
-	"slug": "ריקם-3",
-	"headword": {
-		"text": "רִיקָם"
-	},
+	"sefariaHeadword": "רִיקָם",
+	"headwords": [
+		{
+			"text": "רִיקָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "a"

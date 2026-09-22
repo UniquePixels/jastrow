@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00811",
-	"slug": "רמיה",
-	"headword": {
-		"text": "רַמְיָה"
-	},
+	"sefariaHeadword": "רַמְיָה",
+	"headwords": [
+		{
+			"text": "רַמְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1482,
 		"column": "b"

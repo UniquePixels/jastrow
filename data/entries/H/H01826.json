@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01826",
-	"slug": "חשי-1",
-	"headword": {
-		"text": "חשי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חשי",
+	"headwords": [
+		{
+			"text": "חשי"
+		},
 		{
 			"text": "חָשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 509,
 		"column": "b"

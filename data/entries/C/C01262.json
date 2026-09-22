@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01262",
-	"slug": "גרגרן-2",
-	"headword": {
-		"text": "גַּרְגְּרָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְגְּרָן ²",
+	"headwords": [
+		{
+			"text": "גַּרְגְּרָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "גַּרְגְּרָנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 265,
 		"column": "a"

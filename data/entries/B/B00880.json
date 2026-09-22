@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00880",
-	"slug": "בלל",
-	"headword": {
-		"text": "בָּלַל"
-	},
+	"sefariaHeadword": "בָּלַל",
+	"headwords": [
+		{
+			"text": "בָּלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "b"

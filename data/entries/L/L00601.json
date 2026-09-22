@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00601",
-	"slug": "לעונים",
-	"headword": {
-		"text": "לְעוּנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְעוּנִים",
+	"headwords": [
+		{
+			"text": "לְעוּנִים"
+		},
 		{
 			"text": "לְעוּנִין"
 		},
 		{
-			"text": "לְעֵי׳"
+			"text": "לְעֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 714,
 		"column": "a"

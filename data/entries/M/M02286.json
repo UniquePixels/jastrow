@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02286",
-	"slug": "מצוי-1",
-	"headword": {
-		"text": "מִצּוּי"
-	},
+	"sefariaHeadword": "מִצּוּי",
+	"headwords": [
+		{
+			"text": "מִצּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "a"

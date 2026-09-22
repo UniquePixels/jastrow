@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01112",
-	"slug": "בקא-2",
-	"headword": {
-		"text": "בְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּקָא",
+	"headwords": [
+		{
+			"text": "בְּקָא"
+		},
 		{
 			"text": "בְּקִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 185,
 		"column": "b"

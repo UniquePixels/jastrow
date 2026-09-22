@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02302",
-	"slug": "מצח",
-	"headword": {
-		"text": "מֵצַח"
-	},
+	"sefariaHeadword": "מֵצַח",
+	"headwords": [
+		{
+			"text": "מֵצַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

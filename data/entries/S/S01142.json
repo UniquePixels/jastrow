@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01142",
-	"slug": "קיקילתא",
-	"headword": {
-		"text": "קִיקֶילְתָּא"
-	},
+	"sefariaHeadword": "קִיקֶילְתָּא",
+	"headwords": [
+		{
+			"text": "קִיקֶילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

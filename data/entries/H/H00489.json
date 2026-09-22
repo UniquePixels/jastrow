@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00489",
-	"slug": "חושבנא",
-	"headword": {
-		"text": "חוּשְׁבָּנָא"
-	},
+	"sefariaHeadword": "חוּשְׁבָּנָא",
+	"headwords": [
+		{
+			"text": "חוּשְׁבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "a"

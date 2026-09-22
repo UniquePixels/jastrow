@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00204",
-	"slug": "רגל-3",
-	"headword": {
-		"text": "רֶגֶל"
-	},
+	"sefariaHeadword": "רֶגֶל",
+	"headwords": [
+		{
+			"text": "רֶגֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1449,
 		"column": "a"

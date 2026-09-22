@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02205",
-	"slug": "קרתויי",
-	"headword": {
-		"text": "קַרִתּוּיֵי"
-	},
+	"sefariaHeadword": "קַרִתּוּיֵי",
+	"headwords": [
+		{
+			"text": "קַרִתּוּיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "b"

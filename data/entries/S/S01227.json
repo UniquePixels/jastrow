@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01227",
-	"slug": "קיתון-2",
-	"headword": {
-		"text": "קִיתוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיתוֹן ²",
+	"headwords": [
+		{
+			"text": "קִיתוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִיתוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1371,
 		"column": "a"

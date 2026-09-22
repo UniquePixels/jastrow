@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00636",
-	"slug": "תלתית",
-	"headword": {
-		"text": "תַּלְתֵּית"
-	},
+	"sefariaHeadword": "תַּלְתֵּית",
+	"headwords": [
+		{
+			"text": "תַּלְתֵּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01238",
-	"slug": "קלא-6",
-	"headword": {
-		"text": "קלא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלא",
+	"headwords": [
 		{
-			"text": "קלא פנדר"
+			"text": "קלא"
+		},
+		{
+			"text": "ק׳ פנדר",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1371,
 		"column": "b"

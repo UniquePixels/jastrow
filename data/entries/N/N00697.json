@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00697",
-	"slug": "נינפי",
-	"headword": {
-		"text": "נִינְפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִינְפֵי",
+	"headwords": [
 		{
-			"text": "נִנְ׳"
+			"text": "נִינְפֵי"
+		},
+		{
+			"text": "נִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 905,
 		"column": "b"

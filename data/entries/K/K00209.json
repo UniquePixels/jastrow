@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00209",
-	"slug": "כווי",
-	"headword": {
-		"text": "כַּוָּוי"
-	},
+	"sefariaHeadword": "כַּוָּוי",
+	"headwords": [
+		{
+			"text": "כַּוָּוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "a"

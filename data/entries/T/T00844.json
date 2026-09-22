@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00844",
-	"slug": "רנה",
-	"headword": {
-		"text": "רִנָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִנָּה",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִנָּה"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1484,
 		"column": "a"

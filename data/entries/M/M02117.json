@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02117",
-	"slug": "מעיסה",
-	"headword": {
-		"text": "מְעִיסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְעִיסָה",
+	"headwords": [
+		{
+			"text": "מְעִיסָה"
+		},
 		{
 			"text": "הַמְעָסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 816,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00559",
-	"slug": "קור-3",
-	"headword": {
-		"text": "קוֹר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קוֹר I",
+	"headwords": [
+		{
+			"text": "קוֹר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1340,
 		"column": "b"

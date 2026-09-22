@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00427",
-	"slug": "עזרד",
-	"headword": {
-		"text": "עֻזְרָד"
-	},
+	"sefariaHeadword": "עֻזְרָד",
+	"headwords": [
+		{
+			"text": "עֻזְרָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

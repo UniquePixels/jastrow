@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01147",
-	"slug": "גניסין",
-	"headword": {
-		"text": "גְּנִיסִין"
-	},
+	"sefariaHeadword": "גְּנִיסִין",
+	"headwords": [
+		{
+			"text": "גְּנִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "a"

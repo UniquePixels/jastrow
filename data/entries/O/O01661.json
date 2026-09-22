@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01661",
-	"slug": "סרפיס",
-	"headword": {
-		"text": "סָרָפִיס"
-	},
+	"sefariaHeadword": "סָרָפִיס",
+	"headwords": [
+		{
+			"text": "סָרָפִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1029,
 		"column": "b"

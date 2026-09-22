@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01233",
-	"slug": "סניגוריא",
-	"headword": {
-		"text": "סְנִיגוֹרְיָא"
-	},
+	"sefariaHeadword": "סְנִיגוֹרְיָא",
+	"headwords": [
+		{
+			"text": "סְנִיגוֹרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

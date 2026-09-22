@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00807",
-	"slug": "רמי-1",
-	"headword": {
-		"text": "רַמִּי"
-	},
+	"sefariaHeadword": "רַמִּי",
+	"headwords": [
+		{
+			"text": "רַמִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1482,
 		"column": "a"

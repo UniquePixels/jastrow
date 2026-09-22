@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01226",
-	"slug": "חמר-9",
-	"headword": {
-		"text": "חַמָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמָּר",
+	"headwords": [
+		{
+			"text": "חַמָּר"
+		},
 		{
 			"text": "חַמָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 480,
 		"column": "a"

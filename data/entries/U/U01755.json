@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01755",
-	"slug": "שפיץ",
-	"headword": {
-		"text": "שַׁפֵּיץ"
-	},
+	"sefariaHeadword": "שַׁפֵּיץ",
+	"headwords": [
+		{
+			"text": "שַׁפֵּיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1616,
 		"column": "a"

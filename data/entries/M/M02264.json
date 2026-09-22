@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02264",
-	"slug": "מצבה-1",
-	"headword": {
-		"text": "מַצָּבָה"
-	},
+	"sefariaHeadword": "מַצָּבָה",
+	"headwords": [
+		{
+			"text": "מַצָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "b"

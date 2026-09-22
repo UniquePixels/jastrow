@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02724",
-	"slug": "אפיריון",
-	"headword": {
-		"text": "אַפִּירְיוֹן"
-	},
+	"sefariaHeadword": "אַפִּירְיוֹן",
+	"headwords": [
+		{
+			"text": "אַפִּירְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

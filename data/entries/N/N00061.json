@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00061",
-	"slug": "נבזבא",
-	"headword": {
-		"text": "נְבִזְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבִזְבָּא",
+	"headwords": [
+		{
+			"text": "נְבִזְבָּא"
+		},
 		{
 			"text": "נְבִזְבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 868,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02657",
-	"slug": "מריבה",
-	"headword": {
-		"text": "מְרִיבָה"
-	},
+	"sefariaHeadword": "מְרִיבָה",
+	"headwords": [
+		{
+			"text": "מְרִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01250",
-	"slug": "חנא-1",
-	"headword": {
-		"text": "חִנָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִנָּא",
+	"headwords": [
+		{
+			"text": "חִנָּא"
+		},
 		{
 			"text": "חִינָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 481,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01551",
-	"slug": "איפטיקוס",
-	"headword": {
-		"text": "אִיפָּטִיקוֹס"
-	},
+	"sefariaHeadword": "אִיפָּטִיקוֹס",
+	"headwords": [
+		{
+			"text": "אִיפָּטִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

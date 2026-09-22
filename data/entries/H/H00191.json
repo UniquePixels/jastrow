@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00191",
-	"slug": "חדיא-1",
-	"headword": {
-		"text": "חַדְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַדְיָא",
+	"headwords": [
+		{
+			"text": "חַדְיָא"
+		},
 		{
 			"text": "חַדְיָיא",
 			"homograph": 1
 		},
 		{
-			"text": "חָדְ׳"
+			"text": "חָדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I, {2}",
 	"page": {
 		"number": 426,
 		"column": "a"

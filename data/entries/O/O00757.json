@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00757",
-	"slug": "סיסין-3",
-	"headword": {
-		"text": "סיסין"
-	},
+	"sefariaHeadword": "סיסין",
+	"headwords": [
+		{
+			"text": "סיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

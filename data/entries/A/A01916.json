@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01916",
-	"slug": "אלמיג",
-	"headword": {
-		"text": "אלמיג"
-	},
+	"sefariaHeadword": "אלמיג",
+	"headwords": [
+		{
+			"text": "אלמיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "b"

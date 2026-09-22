@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00043",
-	"slug": "דבבה",
-	"headword": {
-		"text": "דְּבָבָה"
-	},
+	"sefariaHeadword": "דְּבָבָה",
+	"headwords": [
+		{
+			"text": "דְּבָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "b"

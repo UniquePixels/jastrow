@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00093",
-	"slug": "קבץ-2",
-	"headword": {
-		"text": "קְבַץ"
-	},
+	"sefariaHeadword": "קְבַץ",
+	"headwords": [
+		{
+			"text": "קְבַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1312,
 		"column": "a"

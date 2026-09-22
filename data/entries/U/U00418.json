@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00418",
-	"slug": "שולא",
-	"headword": {
-		"text": "שׁוֹלָּא"
-	},
+	"sefariaHeadword": "שׁוֹלָּא",
+	"headwords": [
+		{
+			"text": "שׁוֹלָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "a"

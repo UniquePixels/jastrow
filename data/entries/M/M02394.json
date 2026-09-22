@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02394",
-	"slug": "מקום-1",
-	"headword": {
-		"text": "מָקוֹם"
-	},
+	"sefariaHeadword": "מָקוֹם",
+	"headwords": [
+		{
+			"text": "מָקוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "b"

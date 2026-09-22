@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01428",
-	"slug": "ספרגיס",
-	"headword": {
-		"text": "סְפַרְגִּיס"
-	},
+	"sefariaHeadword": "סְפַרְגִּיס",
+	"headwords": [
+		{
+			"text": "סְפַרְגִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

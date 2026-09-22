@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00867",
-	"slug": "סיתקית",
-	"headword": {
-		"text": "סִיתְקִית"
-	},
+	"sefariaHeadword": "סִיתְקִית",
+	"headwords": [
+		{
+			"text": "סִיתְקִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "b"

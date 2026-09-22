@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00634",
-	"slug": "צנם-2",
-	"headword": {
-		"text": "צנם"
-	},
+	"sefariaHeadword": "צנם",
+	"headwords": [
+		{
+			"text": "צנם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1292,
 		"column": "a"

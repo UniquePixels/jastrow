@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01327",
-	"slug": "מיתוח",
-	"headword": {
-		"text": "מִיתּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיתּוּחַ",
+	"headwords": [
 		{
-			"text": "מִתּ׳"
+			"text": "מִיתּוּחַ"
+		},
+		{
+			"text": "מִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 780,
 		"column": "b"

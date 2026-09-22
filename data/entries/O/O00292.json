@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00292",
-	"slug": "סוי-2",
-	"headword": {
-		"text": "סְוֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְוֵי",
+	"headwords": [
+		{
+			"text": "סְוֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

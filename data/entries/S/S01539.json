@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01539",
-	"slug": "קנובתא",
-	"headword": {
-		"text": "קְנוּבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנוּבְתָּא",
+	"headwords": [
+		{
+			"text": "קְנוּבְתָּא"
+		},
 		{
 			"text": "קְנוּבְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1389,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01056",
-	"slug": "כפרן",
-	"headword": {
-		"text": "כַּפְרָן"
-	},
+	"sefariaHeadword": "כַּפְרָן",
+	"headwords": [
+		{
+			"text": "כַּפְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 662,
 		"column": "b"

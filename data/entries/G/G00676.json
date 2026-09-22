@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "G00676",
-	"slug": "זרואי",
-	"headword": {
-		"text": "זַרְוַאי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*זַרְוַאי",
+	"headwords": [
 		{
-			"text": "מֶלַח דְּזַרְוַאי"
+			"text": "זַרְוַאי",
+			"reconstructed": true
+		},
+		{
+			"text": "מֶלַח דְּזַ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 412,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

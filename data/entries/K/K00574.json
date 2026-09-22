@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00574",
-	"slug": "כינריס",
-	"headword": {
-		"text": "כִּינָרִיס"
-	},
+	"sefariaHeadword": "כִּינָרִיס",
+	"headwords": [
+		{
+			"text": "כִּינָרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "b"

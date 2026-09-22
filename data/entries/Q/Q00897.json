@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00897",
-	"slug": "פיתוס",
-	"headword": {
-		"text": "פִּיתוֹס"
-	},
+	"sefariaHeadword": "פִּיתוֹס",
+	"headwords": [
+		{
+			"text": "פִּיתוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00529",
-	"slug": "רחמן-2",
-	"headword": {
-		"text": "רַחֲמָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחֲמָן ²",
+	"headwords": [
+		{
+			"text": "רַחֲמָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַחֲמָנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1468,
 		"column": "b"

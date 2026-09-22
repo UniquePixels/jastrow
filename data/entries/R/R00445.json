@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00445",
-	"slug": "ציקין",
-	"headword": {
-		"text": "צִיקִין"
-	},
+	"sefariaHeadword": "צִיקִין",
+	"headwords": [
+		{
+			"text": "צִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "b"

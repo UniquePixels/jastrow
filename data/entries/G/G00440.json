@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00440",
-	"slug": "זכאי-1",
-	"headword": {
-		"text": "זַכַּאי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זַכַּאי I",
+	"headwords": [
+		{
+			"text": "זַכַּאי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 397,
 		"column": "b"

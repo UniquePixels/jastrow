@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01001",
-	"slug": "דקורא",
-	"headword": {
-		"text": "דְּקוּרָא"
-	},
+	"sefariaHeadword": "דְּקוּרָא",
+	"headwords": [
+		{
+			"text": "דְּקוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

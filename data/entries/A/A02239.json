@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02239",
-	"slug": "אניץ-1",
-	"headword": {
-		"text": "אָנֵיץ"
-	},
+	"sefariaHeadword": "אָנֵיץ",
+	"headwords": [
+		{
+			"text": "אָנֵיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

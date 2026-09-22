@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01381",
-	"slug": "גרע-3",
-	"headword": {
-		"text": "גָּרַע",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גָּרַע II",
+	"headwords": [
+		{
+			"text": "גָּרַע",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 271,
 		"column": "b"

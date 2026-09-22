@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00841",
-	"slug": "נכסים",
-	"headword": {
-		"text": "נְכָסִים"
-	},
+	"sefariaHeadword": "נְכָסִים",
+	"headwords": [
+		{
+			"text": "נְכָסִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "b"

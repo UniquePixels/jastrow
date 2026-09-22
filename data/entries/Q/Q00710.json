@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00710",
-	"slug": "פילפי",
-	"headword": {
-		"text": "פִּילְפִּי"
-	},
+	"sefariaHeadword": "פִּילְפִּי",
+	"headwords": [
+		{
+			"text": "פִּילְפִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

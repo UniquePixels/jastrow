@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01128",
-	"slug": "שכוין",
-	"headword": {
-		"text": "שכוין"
-	},
+	"sefariaHeadword": "שכוין",
+	"headwords": [
+		{
+			"text": "שכוין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "b"

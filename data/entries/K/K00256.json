@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00256",
-	"slug": "כוכליאר",
-	"headword": {
-		"text": "כּוֹכְלִיאָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹכְלִיאָר",
+	"headwords": [
+		{
+			"text": "כּוֹכְלִיאָר"
+		},
 		{
 			"text": "כּוֹכְלְיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 619,
 		"column": "b"

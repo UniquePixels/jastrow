@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00038",
-	"slug": "סבוי",
-	"headword": {
-		"text": "סבוי"
-	},
+	"sefariaHeadword": "סבוי",
+	"headwords": [
+		{
+			"text": "סבוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

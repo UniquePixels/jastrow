@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00942",
-	"slug": "רפט-2",
-	"headword": {
-		"text": "רְפַט"
-	},
+	"sefariaHeadword": "רְפַט",
+	"headwords": [
+		{
+			"text": "רְפַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "b"

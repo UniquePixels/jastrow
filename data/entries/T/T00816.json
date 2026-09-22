@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00816",
-	"slug": "רמיזה",
-	"headword": {
-		"text": "רְמִיזָה"
-	},
+	"sefariaHeadword": "רְמִיזָה",
+	"headwords": [
+		{
+			"text": "רְמִיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

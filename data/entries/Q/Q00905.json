@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00905",
-	"slug": "פיתק-2",
-	"headword": {
-		"text": "פִּיתַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיתַק",
+	"headwords": [
+		{
+			"text": "פִּיתַק"
+		},
 		{
 			"text": "פִּיתְקָא"
 		},
 		{
-			"text": "פִּתְ׳"
+			"text": "פִּתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1173,
 		"column": "b"

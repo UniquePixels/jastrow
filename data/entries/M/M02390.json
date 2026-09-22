@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M02390",
-	"slug": "מקוה-3",
-	"headword": {
-		"text": "מִקְוֵה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*מִקְוֵה II",
+	"headwords": [
+		{
+			"text": "מִקְוֵה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 829,
 		"column": "b"

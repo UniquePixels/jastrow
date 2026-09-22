@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00839",
-	"slug": "טרלוסה",
-	"headword": {
-		"text": "טַרְלוֹסָה"
-	},
+	"sefariaHeadword": "טַרְלוֹסָה",
+	"headwords": [
+		{
+			"text": "טַרְלוֹסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01171",
-	"slug": "מילוא",
-	"headword": {
-		"text": "מִילּוּא"
-	},
+	"sefariaHeadword": "מִילּוּא",
+	"headwords": [
+		{
+			"text": "מִילּוּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

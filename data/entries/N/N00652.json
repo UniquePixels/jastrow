@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00652",
-	"slug": "ניחתא",
-	"headword": {
-		"text": "נִיחֲתָא"
-	},
+	"sefariaHeadword": "נִיחֲתָא",
+	"headwords": [
+		{
+			"text": "נִיחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

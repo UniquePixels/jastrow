@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00599",
-	"slug": "לעוז",
-	"headword": {
-		"text": "לָעוֹז"
-	},
+	"sefariaHeadword": "לָעוֹז",
+	"headwords": [
+		{
+			"text": "לָעוֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "a"

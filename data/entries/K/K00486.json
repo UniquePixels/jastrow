@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00486",
-	"slug": "כיבוש-1",
-	"headword": {
-		"text": "כִּיבּוּשׁ"
-	},
+	"sefariaHeadword": "כִּיבּוּשׁ",
+	"headwords": [
+		{
+			"text": "כִּיבּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "b"

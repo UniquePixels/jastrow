@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00629",
-	"slug": "סייעתא",
-	"headword": {
-		"text": "סַיַּיעְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיַּיעְתָּא",
+	"headwords": [
 		{
-			"text": "סַיַּעְ׳"
+			"text": "סַיַּיעְתָּא"
+		},
+		{
+			"text": "סַיַּעְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 978,
 		"column": "b"

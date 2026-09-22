@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00018",
-	"slug": "גאיז",
-	"headword": {
-		"text": "גָּאִיז"
-	},
+	"sefariaHeadword": "גָּאִיז",
+	"headwords": [
+		{
+			"text": "גָּאִיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

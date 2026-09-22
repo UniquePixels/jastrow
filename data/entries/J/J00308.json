@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00308",
-	"slug": "יחף-4",
-	"headword": {
-		"text": "יְחֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְחֵף",
+	"headwords": [
+		{
+			"text": "יְחֵף"
+		},
 		{
 			"text": "יְחֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 575,
 		"column": "b"

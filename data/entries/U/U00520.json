@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00520",
-	"slug": "שוק-3",
-	"headword": {
-		"text": "שׁוּק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שׁוּק II",
+	"headwords": [
+		{
+			"text": "שׁוּק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1540,
 		"column": "b"

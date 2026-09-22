@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00139",
-	"slug": "צהל-1",
-	"headword": {
-		"text": "צָהַל"
-	},
+	"sefariaHeadword": "צָהַל",
+	"headwords": [
+		{
+			"text": "צָהַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01459",
-	"slug": "סקוף",
-	"headword": {
-		"text": "סְקוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְקוֹף",
+	"headwords": [
+		{
+			"text": "סְקוֹף"
+		},
 		{
 			"text": "סִקּוּף"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1019,
 		"column": "b"

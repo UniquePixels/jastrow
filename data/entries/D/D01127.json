@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D01127",
-	"slug": "דררא-2",
-	"headword": {
-		"text": "דְּרָרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דְּרָרָא II",
+	"headwords": [
+		{
+			"text": "דְּרָרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 325,
 		"column": "a"

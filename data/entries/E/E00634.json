@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00634",
-	"slug": "המסיסא",
-	"headword": {
-		"text": "הֶמְסֵיסָא"
-	},
+	"sefariaHeadword": "הֶמְסֵיסָא",
+	"headwords": [
+		{
+			"text": "הֶמְסֵיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "a"

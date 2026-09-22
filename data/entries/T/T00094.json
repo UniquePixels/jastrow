@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00094",
-	"slug": "רביכה",
-	"headword": {
-		"text": "רְבִיכָה"
-	},
+	"sefariaHeadword": "רְבִיכָה",
+	"headwords": [
+		{
+			"text": "רְבִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "b"

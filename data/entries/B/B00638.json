@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00638",
-	"slug": "בין-4",
-	"headword": {
-		"text": "בֵּין"
-	},
+	"sefariaHeadword": "בֵּין",
+	"headwords": [
+		{
+			"text": "בֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02307",
-	"slug": "אנתא",
-	"headword": {
-		"text": "אִנְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִנְתָּא",
+	"headwords": [
+		{
+			"text": "אִנְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

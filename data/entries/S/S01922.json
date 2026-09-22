@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01922",
-	"slug": "קרה-2",
-	"headword": {
-		"text": "קָרֶה"
-	},
+	"sefariaHeadword": "קָרֶה",
+	"headwords": [
+		{
+			"text": "קָרֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

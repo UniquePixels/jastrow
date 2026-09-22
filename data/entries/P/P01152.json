@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01152",
-	"slug": "עקביא",
-	"headword": {
-		"text": "עֲקַבְיָא"
-	},
+	"sefariaHeadword": "עֲקַבְיָא",
+	"headwords": [
+		{
+			"text": "עֲקַבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1104,
 		"column": "b"

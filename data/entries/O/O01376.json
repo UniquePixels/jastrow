@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01376",
-	"slug": "ספירא-1",
-	"headword": {
-		"text": "סְפִירָא"
-	},
+	"sefariaHeadword": "סְפִירָא",
+	"headwords": [
+		{
+			"text": "סְפִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "a"

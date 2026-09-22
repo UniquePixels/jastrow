@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00044",
-	"slug": "סבונה",
-	"headword": {
-		"text": "סבונה"
-	},
+	"sefariaHeadword": "סבונה",
+	"headwords": [
+		{
+			"text": "סבונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

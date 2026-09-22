@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00681",
-	"slug": "קזמיקרטור",
-	"headword": {
-		"text": "קזמיקרטור"
-	},
+	"sefariaHeadword": "קזמיקרטור",
+	"headwords": [
+		{
+			"text": "קזמיקרטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1345,
 		"column": "b"

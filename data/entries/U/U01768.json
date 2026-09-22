@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01768",
-	"slug": "שפכוני",
-	"headword": {
-		"text": "שִׁפְכוֹנִי"
-	},
+	"sefariaHeadword": "שִׁפְכוֹנִי",
+	"headwords": [
+		{
+			"text": "שִׁפְכוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1617,
 		"column": "a"

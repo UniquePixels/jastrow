@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00251",
-	"slug": "גדש-1",
-	"headword": {
-		"text": "גָּדֵשׁ"
-	},
+	"sefariaHeadword": "גָּדֵשׁ",
+	"headwords": [
+		{
+			"text": "גָּדֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00689",
-	"slug": "תמלי",
-	"headword": {
-		"text": "תְּמָלֵי"
-	},
+	"sefariaHeadword": "תְּמָלֵי",
+	"headwords": [
+		{
+			"text": "תְּמָלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

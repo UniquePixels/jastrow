@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00541",
-	"slug": "כילון",
-	"headword": {
-		"text": "כִּילוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּילוֹן",
+	"headwords": [
+		{
+			"text": "כִּילוֹן"
+		},
 		{
 			"text": "בִּילוֹן"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 632,
 		"column": "b"

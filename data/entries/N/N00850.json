@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00850",
-	"slug": "נכש-3",
-	"headword": {
-		"text": "נַּכָּשׁ"
-	},
+	"sefariaHeadword": "נַּכָּשׁ",
+	"headwords": [
+		{
+			"text": "נַּכָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 912,
 		"column": "b"

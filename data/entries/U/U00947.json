@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00947",
-	"slug": "שילי",
-	"headword": {
-		"text": "שִׁילִי"
-	},
+	"sefariaHeadword": "שִׁילִי",
+	"headwords": [
+		{
+			"text": "שִׁילִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

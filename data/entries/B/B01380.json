@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01380",
-	"slug": "בתה",
-	"headword": {
-		"text": "בָּתָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בָּתָה",
+	"headwords": [
+		{
+			"text": "בָּתָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 200,
 		"column": "b"

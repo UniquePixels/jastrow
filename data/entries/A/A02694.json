@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02694",
-	"slug": "אפיס",
-	"headword": {
-		"text": "אָפִיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָפִיס",
+	"headwords": [
 		{
-			"text": "סָר אָפִיס"
+			"text": "אָפִיס",
+			"reconstructed": true
+		},
+		{
+			"text": "סָר א׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 103,
 		"column": "b"

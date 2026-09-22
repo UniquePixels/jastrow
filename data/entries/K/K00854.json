@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00854",
-	"slug": "כניסה",
-	"headword": {
-		"text": "כְּנִיסָה"
-	},
+	"sefariaHeadword": "כְּנִיסָה",
+	"headwords": [
+		{
+			"text": "כְּנִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01986",
-	"slug": "אמדלא",
-	"headword": {
-		"text": "אַמַּדְלָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַמַּדְלָא",
+	"headwords": [
+		{
+			"text": "אַמַּדְלָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אַמִּידְלָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 75,
 		"column": "b"

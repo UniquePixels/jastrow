@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01971",
-	"slug": "קרח-6",
-	"headword": {
-		"text": "קרח"
-	},
+	"sefariaHeadword": "קרח",
+	"headwords": [
+		{
+			"text": "קרח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "b"

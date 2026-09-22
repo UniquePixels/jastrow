@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02557",
-	"slug": "אסרותא",
-	"headword": {
-		"text": "אֵסָרוּתָא"
-	},
+	"sefariaHeadword": "אֵסָרוּתָא",
+	"headwords": [
+		{
+			"text": "אֵסָרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

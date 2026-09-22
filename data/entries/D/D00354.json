@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00354",
-	"slug": "דורבן",
-	"headword": {
-		"text": "דּוֹרְבָן"
-	},
+	"sefariaHeadword": "דּוֹרְבָן",
+	"headwords": [
+		{
+			"text": "דּוֹרְבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

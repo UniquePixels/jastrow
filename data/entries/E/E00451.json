@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00451",
-	"slug": "הינדוא",
-	"headword": {
-		"text": "הִינְדָּוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִינְדָּוָא",
+	"headwords": [
+		{
+			"text": "הִינְדָּוָא"
+		},
 		{
 			"text": "הִינְדְּוָאה"
 		},
 		{
-			"text": "הִינְדְּוָו׳"
+			"text": "הִינְדְּוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 348,
 		"column": "a"

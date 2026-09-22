@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00300",
-	"slug": "קוטנא",
-	"headword": {
-		"text": "קוּטְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּטְנָא",
+	"headwords": [
+		{
+			"text": "קוּטְנָא"
+		},
 		{
 			"text": "קוּטְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1326,
 		"column": "b"

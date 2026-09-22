@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02520",
-	"slug": "מרגלי",
-	"headword": {
-		"text": "מַרְגָּלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְגָּלִי",
+	"headwords": [
+		{
+			"text": "מַרְגָּלִי"
+		},
 		{
 			"text": "מַרְגַּלְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 836,
 		"column": "a"

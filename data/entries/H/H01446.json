@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01446",
-	"slug": "חפיסה",
-	"headword": {
-		"text": "חֲפִיסָה"
-	},
+	"sefariaHeadword": "חֲפִיסָה",
+	"headwords": [
+		{
+			"text": "חֲפִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "b"

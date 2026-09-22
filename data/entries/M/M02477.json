@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02477",
-	"slug": "מר-3",
-	"headword": {
-		"text": "מַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַר II",
+	"headwords": [
+		{
+			"text": "מַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 834,
 		"column": "a"

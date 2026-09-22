@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00135",
-	"slug": "סגילאדין",
-	"headword": {
-		"text": "סגילאדין"
-	},
+	"sefariaHeadword": "סגילאדין",
+	"headwords": [
+		{
+			"text": "סגילאדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

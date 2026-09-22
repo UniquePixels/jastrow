@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00694",
-	"slug": "כלוב-1",
-	"headword": {
-		"text": "כְּלוּב"
-	},
+	"sefariaHeadword": "כְּלוּב",
+	"headwords": [
+		{
+			"text": "כְּלוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

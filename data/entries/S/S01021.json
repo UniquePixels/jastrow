@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01021",
-	"slug": "קינבי",
-	"headword": {
-		"text": "קינבי"
-	},
+	"sefariaHeadword": "קינבי",
+	"headwords": [
+		{
+			"text": "קינבי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

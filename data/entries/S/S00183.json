@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00183",
-	"slug": "קדרוס-1",
-	"headword": {
-		"text": "קַדְרוֹס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַדְרוֹס I",
+	"headwords": [
+		{
+			"text": "קַדְרוֹס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1318,
 		"column": "b"
