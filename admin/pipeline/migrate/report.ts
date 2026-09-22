@@ -2,7 +2,7 @@
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { QuarantineRow, Unresolved } from './cite.ts';
 import { tally } from './gates.ts';
-import { isHeadwordReviewKind } from './headword.ts';
+import { isHeadwordReviewKind } from './headwords.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
 const REPORT_PATH = 'data/source/migration-report.json';
@@ -10,7 +10,7 @@ const BLESSING_PATH = 'docs/v2/migration-blessing.md';
 
 const GATE_NAMES = [
 	'bodyRoundTrips',
-	'headwordRoundTrip',
+	'headwordLine',
 	'textConservation',
 	'schema',
 	'chain',

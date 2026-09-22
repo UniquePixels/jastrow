@@ -210,7 +210,7 @@ describe('the gate set itself', () => {
 	it('names the nine gates of migrate spec §4.1', () => {
 		const expected: readonly GateName[] = [
 			'bodyRoundTrips',
-			'headwordRoundTrip',
+			'headwordLine',
 			'textConservation',
 			'schema',
 			'chain',

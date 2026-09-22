@@ -69,7 +69,10 @@ function sampleForOrdering(): Report {
 			rid: 'A00010',
 			severity: 'review',
 		},
-		lineRow('A00011: אב — multi-word form', 'headword-multiword'),
+		lineRow(
+			'A00011: אב — all 1 alternate(s) are partial',
+			'headword-partial-only',
+		),
 		lineRow('A00012: p1a (medium)', 'page-confidence-medium'),
 		lineRow('A00013: p2b (medium)', 'page-confidence-medium'),
 	];
@@ -168,7 +171,7 @@ describe('renderReviewReport', () => {
 				'',
 				'### headword-unparsed (1)',
 				'',
-				'**What to do:** Correct the headword text at source or by patch so the grammar accounts for it; the reader sees the raw string until then.',
+				'**What to do:** Correct the headword text at source or by patch so the line parses; the reader sees the raw string until then.',
 				'',
 				'- A00001: ?אִיבּוּס — grammar did not parse',
 				'',

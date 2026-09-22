@@ -5,37 +5,54 @@
  * It reads truth and the page index, never the source snapshot, so it
  * belongs to the unit tier.
  *
- * **TRANSITIONAL, 2026-09-21 (URL names spec §9 steps 1–3).** The
- * schema now requires `sefariaHeadword` and forbids `slug`, and the
- * committed tree still carries the old pair: the maintainer has ruled
- * ONE batched rewrite of all 32,512 files, and the PR that changed the
- * schema deliberately did not perform it. Until that rewrite lands the
- * two fields are set aside HERE, in the test, and nowhere in
- * `validate.ts` — every other check runs against the committed tree
- * exactly as before, unrelaxed. The first case below fails the moment
- * the rewrite lands, which is what removes the shim.
+ * **TRANSITIONAL, 2026-09-21.** Two rulings have changed the entry
+ * shape without rewriting the tree: URL names spec §9 steps 1–3
+ * (`sefariaHeadword` replaces `slug`) and headword design §2
+ * (`headwords[]` plus an optional `display` replace
+ * `headword`/`altHeadwords`, under `"schemaVersion": 2`). The
+ * maintainer has ruled ONE batched rewrite of all 32,512 files, and
+ * the PRs that changed the schema deliberately did not perform it.
+ *
+ * Until that rewrite lands the renamed and added fields are set aside
+ * HERE, in the test, and nowhere in `validate.ts` — every other check
+ * runs against the committed tree exactly as before, unrelaxed. The
+ * first case below fails the moment the rewrite lands, which is what
+ * removes the shim.
  */
 import { expect, it } from 'bun:test';
 import { loadPageIndex } from './page.ts';
-import type { TruthEntry } from './types.ts';
+import { type FormObject, SCHEMA_VERSION, type TruthEntry } from './types.ts';
 import { loadTruthFiles, type TruthFile, validateTruth } from './validate.ts';
 
-/** The pre-rewrite pair, as a committed file carries it. */
+/** The pre-rewrite shape, as a committed file carries it. */
 interface LegacyEntry {
+	altHeadwords?: FormObject[];
+	headword?: FormObject;
+	headwords?: FormObject[];
+	schemaVersion?: number;
 	sefariaHeadword?: string;
 	slug?: string;
 }
 
-/** One file with the renamed pair set aside: `slug` dropped, and
- * `sefariaHeadword` stood in for by the rid.
+/** One file with the renamed and added fields set aside: `slug`
+ * dropped, `sefariaHeadword` stood in for by the rid, the form pair
+ * folded into `headwords[]`, and `schemaVersion` stamped.
  *
- * The rid is a PLACEHOLDER and is unique by construction, so the
- * uniqueness clause over that field is satisfied trivially rather than
- * measured — it is the one check the rewrite has to switch on. Every
- * other check reads the entry's own data: the current NAME is derived
- * from the committed `headword` and really is checked for collisions,
- * as are the schema's other constraints, the file path, the markup
- * vocabulary, the cite targets and the page index. */
+ * Each stand-in is chosen so the check it satisfies is satisfied
+ * TRIVIALLY rather than measured, and those are the checks the rewrite
+ * has to switch on:
+ *
+ * - the rid is unique by construction, so the `sefariaHeadword`
+ *   uniqueness clause cannot fail here;
+ * - `display` is left ABSENT, which is a shape §3 admits, so §3.1's
+ *   rules 1–3 have no template to read.
+ *
+ * Everything else reads the entry's own data and really is checked:
+ * the current NAME is derived from the committed primary form and
+ * tested for collisions (in NFC, which is §3.1 rule 6), as are the
+ * schema's other constraints, rule 5 over the folded form list, the
+ * file path, the markup vocabulary, the cite targets and the page
+ * index. */
 function asideRenamedFields(file: TruthFile): TruthFile {
 	// A file holding `null` or an array is handed on UNTOUCHED, for
 	// `checkFiles` to reject by path. Destructuring it here would throw
@@ -45,10 +62,23 @@ function asideRenamedFields(file: TruthFile): TruthFile {
 	if (!isLegacy(file)) {
 		return file;
 	}
-	const { slug: _slug, ...rest } = file.entry as LegacyEntry;
+	const {
+		altHeadwords,
+		headword,
+		slug: _slug,
+		...rest
+	} = file.entry as LegacyEntry;
 	const entry = rest as TruthEntry;
 	return {
-		entry: { ...entry, sefariaHeadword: entry.id },
+		entry: {
+			...entry,
+			headwords: [
+				...(headword === undefined ? [] : [headword]),
+				...(altHeadwords ?? []),
+			],
+			schemaVersion: SCHEMA_VERSION,
+			sefariaHeadword: entry.id,
+		},
 		path: file.path,
 	};
 }
@@ -60,7 +90,7 @@ function isLegacy(file: TruthFile): boolean {
 		return false;
 	}
 	const entry = file.entry as LegacyEntry;
-	return entry.slug !== undefined && entry.sefariaHeadword === undefined;
+	return entry.slug !== undefined && entry.headwords === undefined;
 }
 
 it('the committed truth tree is still the pre-rewrite shape', async () => {

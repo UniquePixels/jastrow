@@ -507,10 +507,7 @@ describe('reform', () => {
 		});
 
 	it('rewrites the whole block, splitting one form into two', () => {
-		const after = applyPatch(
-			entry,
-			reform({ alt_headwords: ['b1', 'b2', 'c'], headword: 'a' }),
-		);
+		const after = applyPatch(entry, reform({ forms: ['a', 'b1', 'b2', 'c'] }));
 		expect(after.headword).toBe('a');
 		expect(after.alt_headwords).toEqual(['b1', 'b2', 'c']);
 	});
@@ -525,7 +522,7 @@ describe('reform', () => {
 		const joined = applyPatch(
 			torn,
 			reform(
-				{ alt_headwords: [], headword: '\u05E9\u05C1\u05D5\u05BC\u05E3' },
+				{ forms: ['\u05E9\u05C1\u05D5\u05BC\u05E3'] },
 				'\u05E9\n\u05C1\u05D5\u05BC\u05E3',
 			),
 		);
@@ -534,23 +531,23 @@ describe('reform', () => {
 	});
 
 	it('never mutates the entry it is given', () => {
-		applyPatch(entry, reform({ alt_headwords: [], headword: 'z' }));
+		applyPatch(entry, reform({ forms: ['z'] }));
 		expect(entry.headword).toBe('a');
 		expect(entry.alt_headwords).toEqual(['b', 'c']);
 	});
 
 	it('fails loudly when the block moved under the patch', () => {
 		const moved: SourceEntry = { ...entry, alt_headwords: ['b'] };
-		expect(() =>
-			applyPatch(moved, reform({ alt_headwords: [], headword: 'a' })),
-		).toThrow(PatchApplyError);
+		expect(() => applyPatch(moved, reform({ forms: ['a'] }))).toThrow(
+			PatchApplyError,
+		);
 	});
 
 	it('only pairs reform with a forms target', () => {
 		expect(() =>
 			patchFor('a', '1)', {
 				op: 'reform',
-				payload: { alt_headwords: [], headword: 'a' },
+				payload: { forms: ['a'] },
 			}),
 		).toThrow('reform needs a forms:<8-hex-anchor> target');
 	});
@@ -565,12 +562,40 @@ describe('reform', () => {
 		).toThrow('forms: targets are only for reform');
 	});
 
-	it('rejects a payload with an empty headword or a newline in a form', () => {
-		expect(() => reform({ alt_headwords: [], headword: '' })).toThrow(
-			'non-empty headword',
-		);
-		expect(() => reform({ alt_headwords: ['b\nc'], headword: 'a' })).toThrow(
+	it('rejects a payload with no forms, an empty form or a newline', () => {
+		expect(() => reform({ forms: [] })).toThrow('non-empty array');
+		expect(() => reform({ forms: [''] })).toThrow('non-empty array');
+		expect(() => reform({ forms: ['a', 'b\nc'] })).toThrow(
 			'must not contain a newline',
+		);
+	});
+
+	it('carries a display template, and removes one when it is omitted', () => {
+		const laid = applyPatch(
+			entry,
+			reform({ display: '({0}, {1}, {2})', forms: ['a', 'b', 'c'] }),
+		);
+		expect(laid.display).toBe('({0}, {1}, {2})');
+		expect(
+			'display' in applyPatch(laid, reform({ forms: ['a'] }, 'a\nb\nc')),
+		).toBe(false);
+	});
+
+	it('refuses a display that is not a template over the forms', () => {
+		// §3.1 rules 1 and 2, checked where the text is still a patch
+		// record: a malformed template is refused with the patch id
+		// beside it rather than three stages later.
+		expect(() => reform({ display: '{0} \u05D0\u05D1', forms: ['a'] })).toThrow(
+			'no Hebrew',
+		);
+		expect(() => reform({ display: '{0}, {1}', forms: ['a'] })).toThrow(
+			'names slots [0,1] for 1 form(s)',
+		);
+		expect(() => reform({ display: '{0}{0}', forms: ['a', 'b'] })).toThrow(
+			'names slots [0,0] for 2 form(s)',
+		);
+		expect(() => reform({ display: '', forms: ['a'] })).toThrow(
+			'non-empty string',
 		);
 	});
 
@@ -581,7 +606,7 @@ describe('reform', () => {
 			patchFor(block, '', {
 				expected_occurrences: 2,
 				op: 'reform',
-				payload: { alt_headwords: [], headword: 'a' },
+				payload: { forms: ['a'] },
 				target: `forms:${contentAnchor(block)}`,
 			}),
 		).toThrow(
@@ -593,6 +618,56 @@ describe('reform', () => {
 		// The pool must SEE the forms, or a reform could invent bytes
 		// there and pass a gate measuring only `content`.
 		expect(flattenContent(entry)).toContain(block);
+	});
+
+	it('reads the pre-§2 headword/alt_headwords payload forward', () => {
+		// TRANSITIONAL: the 15 records already in
+		// `data/patches/reviewed/` were written under the 2026-09-20
+		// spelling. A patch corpus is evidence a person wrote from the
+		// print, so it is read forward rather than rewritten under their
+		// name. Both spellings are pinned here so neither can drift.
+		const after = applyPatch(
+			entry,
+			reform({ alt_headwords: ['b1', 'b2'], headword: 'a' }),
+		);
+		expect(after.headword).toBe('a');
+		expect(after.alt_headwords).toEqual(['b1', 'b2']);
+	});
+
+	it('refuses a record that carries both spellings', () => {
+		// Not half-read: `readLegacyReform` steps aside when `forms` is
+		// present, so a stale pair beside it would be silently ignored
+		// and a reader could not tell which the run used.
+		expect(() => reform({ alt_headwords: ['x'], forms: ['a', 'b'] })).toThrow(
+			'both forms and the pre-2026-09-21 alt_headwords',
+		);
+	});
+
+	it('refuses a malformed legacy payload instead of coercing it', () => {
+		// The old validator required `alt_headwords` to be an array.
+		// Coerced, `{headword: 'a'}` would become `forms: ['a']`, parse
+		// cleanly, and delete every alternate on the entry.
+		expect(() => reform({ headword: 'a' })).toThrow('non-empty array');
+		expect(() => reform({ alt_headwords: 'b', headword: 'a' })).toThrow(
+			'non-empty array',
+		);
+	});
+
+	it('keeps a supplied display OUT of the pool', () => {
+		// A template is not text: `({0}, {1})` contributes braces and
+		// slot digits no entry holds, so pooling it would report every
+		// well-formed template as invented bytes — a standing refusal
+		// dressed as byte accounting. What the pool would have been
+		// guarding is a template smuggling TEXT in, and that is refused
+		// directly: a display holding Hebrew fails to parse.
+		const laid = applyPatch(
+			entry,
+			reform({ display: '({0}, {1}, {2})', forms: ['a', 'b', 'c'] }),
+		);
+		expect(flattenContent(laid)).not.toContain('{0}');
+		expect(() => reform({ display: '{0} \u05D0', forms: ['a'] })).toThrow(
+			'no Hebrew',
+		);
 	});
 });
 

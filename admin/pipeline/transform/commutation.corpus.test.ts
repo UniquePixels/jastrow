@@ -117,7 +117,10 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// batch 10, which registered FOUR of them (46 × 7); and 322 → 329
 		// on 2026-09-06 for `geresh-apostrophe-as-gershayim`, ONE more
 		// `text-repairs` rule (47 × 7), and 329 → 336 the same day for
-		// `unlinked-bare-anaphor`, one more again (48 × 7). The figure is
+		// `unlinked-bare-anaphor`, one more again (48 × 7); and 336 → 322
+		// on 2026-09-21, when headword-design §2 UNREGISTERED two
+		// `text-repairs` rules (46 × 7) — the first move this figure has
+		// ever made downwards. The figure is
 		// a PRODUCT, so it moves whenever either phase grows, and
 		// re-deriving it is how a reader checks that the growth was in
 		// the phase they expected: any one of batch 10's four declaring
@@ -133,7 +136,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// `bun run transform:invariants`, and this comment is where a reader
 		// finds that out.
 		expect(stats.composedPairs + stats.crossPhasePairs).toBe(stats.totalPairs);
-		expect(stats.crossPhasePairs).toBe(336);
+		expect(stats.crossPhasePairs).toBe(322);
 		// MEASURED on CI 2026-08-31, PR #59's first `Corpus Audit` run: this
 		// gate logged 134,141ms against the 180s budget it used to carry —
 		// 75% of it. A runner a third slower fails here, and the message

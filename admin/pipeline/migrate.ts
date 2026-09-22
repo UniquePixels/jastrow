@@ -30,7 +30,7 @@ import { detectClasses } from './migrate/detectors/classes.ts';
 import { finishEntry } from './migrate/finish.ts';
 import {
 	checkChain,
-	checkHeadwordRoundTrip,
+	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,
@@ -346,7 +346,7 @@ function finishAll(
 		// and `headwordMap` was built from the COMPOSED one.
 		// `finishEntry` decomposes its first argument's `.headword` into
 		// the truth entry, so the pre-transform source here would write
-		// the old spelling — and `checkHeadwordRoundTrip`, which compares
+		// the old spelling — and `checkHeadwordLine`, which compares
 		// `c.entry` against this same `finished.entry`, would fail on
 		// every respelled headword. `sefariaHeadword` is the one field
 		// that must NOT follow the composed spelling, which is why it
@@ -373,11 +373,7 @@ function finishAll(
 			finished.problems.length === 0,
 			finished.problems.join('; '),
 		);
-		checkHeadwordRoundTrip(
-			c.entry,
-			finished.entry,
-			report.gates.headwordRoundTrip,
-		);
+		checkHeadwordLine(c.entry, finished.entry, report.gates.headwordLine);
 		checkTextConservation(
 			c.body,
 			finished.entry,

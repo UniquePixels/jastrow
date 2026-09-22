@@ -2,12 +2,17 @@ import { describe, expect, it } from 'bun:test';
 import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import {
 	checkChain,
-	checkHeadwordRoundTrip,
+	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,
 } from './gates.ts';
-import type { Tally, TruthEntry } from './types.ts';
+import {
+	type FormObject,
+	SCHEMA_VERSION,
+	type Tally,
+	type TruthEntry,
+} from './types.ts';
 
 /** A 3-entry chain, in rid order, with `next_hw`/`prev_hw` naming the
  * neighbour's headword string (as the composed corpus does). */
@@ -138,10 +143,16 @@ describe('checkChain', () => {
  * the `sefariaHeadword` the run wrote. */
 function named(
 	id: string,
-	headword: TruthEntry['headword'],
+	primary: FormObject,
 	sefariaHeadword: string,
 ): TruthEntry {
-	return { headword, id, sefariaHeadword, senses: [] };
+	return {
+		headwords: [primary],
+		id,
+		schemaVersion: SCHEMA_VERSION,
+		sefariaHeadword,
+		senses: [],
+	};
 }
 
 const SOURCE = new Map([
@@ -239,8 +250,9 @@ describe('checkNames', () => {
  * one field and need the rest merely to exist. */
 function minimalTruth(overrides: Partial<TruthEntry>): TruthEntry {
 	return {
-		headword: { text: 'x' },
+		headwords: [{ text: 'x' }],
 		id: 'A00014',
+		schemaVersion: SCHEMA_VERSION,
 		sefariaHeadword: 'x',
 		senses: [],
 		...overrides,
@@ -334,19 +346,167 @@ describe('checkTextConservation', () => {
 	});
 });
 
-describe('checkHeadwordRoundTrip', () => {
-	it('fails when homograph is altered after decomposition', () => {
+describe('checkHeadwordLine', () => {
+	/** One line through gate 2: the composed source items, and the
+	 * entry the run wrote for them. */
+	function gate(items: readonly string[], truth: Partial<TruthEntry>): Tally {
+		const [headword = '', ...alts] = items;
 		const composed: SourceEntry = {
 			content: { senses: [] },
-			headword: 'אָב II',
+			headword,
 			rid: 'A00014',
+			...(alts.length > 0 ? { alt_headwords: alts } : {}),
 		};
-		const truth = minimalTruth({ headword: { homograph: 3, text: 'אָב' } });
 		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordRoundTrip(composed, truth, t);
-		expect(t.failures).toEqual(['A00014: headword']);
-		expect(t.pass).toBe(1);
-		expect(t.total).toBe(2);
+		checkHeadwordLine(composed, minimalTruth(truth), t);
+		return t;
+	}
+
+	it('passes a settleable line, all three marks', () => {
+		const t = gate(['אָב I', '(אַבָּא) II'], {
+			display: '{0} I, ({1} II)',
+			headwords: [
+				{ homograph: 1, text: 'אָב' },
+				{ homograph: 2, text: 'אַבָּא' },
+			],
+		});
+		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(4);
+		expect(t.total).toBe(4);
+	});
+
+	it('fails when a form drops a letter the line holds', () => {
+		const t = gate(['אָב II'], {
+			display: '{0} II',
+			headwords: [{ homograph: 2, text: 'אָ' }],
+		});
+		expect(t.failures[0]).toContain('headword text not conserved');
+		expect(t.pass).toBe(3);
+	});
+
+	it('fails when a form invents a letter the line does not hold', () => {
+		const t = gate(['אָב'], { display: '{0}', headwords: [{ text: 'אָבא' }] });
+		expect(t.failures[0]).toContain('headword text not conserved');
+	});
+
+	it('fails a parenthesis the template dropped', () => {
+		// Exactly what the retired `parenthesized-alt-headword` rule did:
+		// the Hebrew is conserved, so only the notation multiset sees it.
+		const t = gate(['אָב', '(אַבָּא)'], {
+			display: '{0}, {1}',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('notation');
+	});
+
+	it('fails a numeral the template invented', () => {
+		const t = gate(['אָב'], {
+			display: '{0} II',
+			headwords: [{ homograph: 2, text: 'אָב' }],
+		});
+		expect(t.failures[0]).toContain('notation');
+	});
+
+	it('reads a Roman numeral as ONE token, not a run of letters', () => {
+		// `II` against `I I` conserves every character and is a different
+		// line. A per-character multiset would pass it.
+		const t = gate(['אָב II'], {
+			display: '{0} I I',
+			headwords: [{ text: 'אָב' }],
+		});
+		expect(t.failures.some((f) => f.includes('notation'))).toBe(true);
+	});
+
+	it('ignores the separator commas, which the source never carried', () => {
+		// §1: the upstream split cut print's line at its commas. The
+		// template's `, ` is supplied (§4), so counting it would compare
+		// the parser's invention against a number the source lacks.
+		const t = gate(['אָב', 'אַבָּא'], {
+			display: '{0}, {1}',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toEqual([]);
+	});
+
+	it('passes an unsettleable line with no display', () => {
+		const t = gate(['(אָב', 'אַבָּא'], {
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toEqual([]);
+		// Three marks: the notation multiset has no template to read.
+		expect(t.pass).toBe(3);
+		expect(t.total).toBe(3);
+	});
+
+	it('fails a display written for a line that cannot be laid out', () => {
+		const t = gate(['(אָב', 'אַבָּא'], {
+			display: '({0}, {1})',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures[0]).toContain('unsettleable');
+	});
+
+	it('fails a display quietly dropped from a line that has one', () => {
+		// The mark that keeps the other two from passing on a run that
+		// stopped writing templates: without it, mark 2 simply returns.
+		const t = gate(['אָב'], { headwords: [{ text: 'אָב' }] });
+		expect(t.failures[0]).toContain('display is unset');
+	});
+
+	/** One line whose composed entry ALREADY carries a patch-supplied
+	 * template, which `gate` above cannot express: its composed entry
+	 * is built from the items alone. */
+	function patched(
+		items: readonly string[],
+		supplied: string,
+		written: string,
+	): Tally {
+		const [headword = '', ...alts] = items;
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				alt_headwords: alts,
+				content: { senses: [] },
+				display: supplied,
+				headword,
+				rid: 'A00014',
+			},
+			minimalTruth({
+				display: written,
+				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+			}),
+			t,
+		);
+		return t;
+	}
+
+	it('carries a patch-supplied template through to the entry', () => {
+		const t = patched(['(אָב', 'אַבָּא'], '({0}, {1})', '({0}, {1})');
+		expect(t.failures).toEqual([]);
+		// Three marks plus the carried-through one; the notation
+		// multiset is deliberately not among them.
+		expect(t.total).toBe(4);
+	});
+
+	it('REFUSES a patch-supplied template on a line the source settles', () => {
+		// §4.1 gives a supplied display one job. On a settleable line it
+		// would overwrite a correct template AND disable the notation
+		// mark — so it is red, not a silent override.
+		const t = patched(['אָב', 'אַבָּא'], '{0}, {1}', '{0}, {1}');
+		expect(t.failures[0]).toContain('settles on its own');
+	});
+
+	it('fails a patch template the run altered on the way', () => {
+		const t = patched(['(אָב', 'אַבָּא'], '({0}, {1})', '({0}) {1}');
+		expect(t.failures[0]).toContain('the patch supplied');
+	});
+
+	it('counts an `=` line as unsettleable', () => {
+		const t = gate(['אִידְרְעָא = אֶדְרְעָא'], {
+			headwords: [{ text: 'אִידְרְעָא = אֶדְרְעָא' }],
+		});
+		expect(t.failures).toEqual([]);
 	});
 });
 

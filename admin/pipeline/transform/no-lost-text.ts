@@ -90,14 +90,6 @@ const LOSS_ALLOWANCES: ReadonlyMap<string, readonly string[]> = new Map([
 	// OCR confusion between two letter shapes, and the substitution
 	// reads as a deletion (12 entries, 13 codepoints).
 	['impossible-dagesh', ['ר', 'ח']],
-	// Lifts a parenthesized alternate out of the headword, dropping the
-	// parentheses that held it — and, in 13 of the 579, a space beside
-	// them (579 entries, 1,152 codepoints: `(` ×571, `)` ×568, space
-	// ×13).
-	['parenthesized-alt-headword', ['(', ')', ' ']],
-	// Expands a geresh-abbreviated phrase stub to the full form, so the
-	// geresh itself goes (228 entries, 236 codepoints).
-	['phrase-alt-headword-stub', ['׳']],
 	// `י` → shuruk: the display corruption spelled a shuruk as a yod,
 	// and the repair reads as a deletion (12 entries, 12 codepoints).
 	['shuruk-as-yod-display-corruption', ['י']],

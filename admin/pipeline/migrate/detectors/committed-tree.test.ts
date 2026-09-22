@@ -32,13 +32,32 @@ const FLOOR: ReadonlyMap<string, number> = new Map([
 	['superscript-subsection-contradicts-link-sub-section', 25],
 ]);
 
+/** The committed tree is still the PRE-REWRITE shape — see
+ * `truth.test.ts`'s docstring for the one batched rewrite that ends
+ * it. The detectors read `headwords[]`, so the old pair is folded here
+ * exactly as that shim folds it. Nothing else about the entry is
+ * touched, and an entry already in the new shape is handed on whole. */
+function asHeadwords(raw: unknown): TruthEntry {
+	const entry = raw as TruthEntry & {
+		altHeadwords?: TruthEntry['headwords'];
+		headword?: TruthEntry['headwords'][number];
+	};
+	if (entry.headwords !== undefined || entry.headword === undefined) {
+		return entry;
+	}
+	return {
+		...entry,
+		headwords: [entry.headword, ...(entry.altHeadwords ?? [])],
+	};
+}
+
 it('every registered class detector still fires on the committed tree', async () => {
 	const { files } = await loadTruthFiles();
 	// A floor, not the count: fails if the glob silently stops matching.
 	expect(files.length).toBeGreaterThan(32_000);
 	const counts = new Map([...DETECTED_CLASSES].map((kind) => [kind, 0]));
 	for (const file of files) {
-		for (const row of detectClasses(file.entry as TruthEntry)) {
+		for (const row of detectClasses(asHeadwords(file.entry))) {
 			counts.set(row.kind, (counts.get(row.kind) ?? 0) + 1);
 		}
 	}

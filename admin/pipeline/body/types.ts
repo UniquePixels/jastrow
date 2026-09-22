@@ -25,6 +25,13 @@ interface SourceSense {
 interface SourceEntry {
 	alt_headwords?: string[];
 	content: { morphology?: string; senses: SourceSense[] };
+	/** **NOT a Sefaria field.** The headword-line layout a `reform`
+	 * patch supplied, in the `display` template language of headword
+	 * design §2. Absent on every entry the snapshot yields; present
+	 * only where a person read the printed line and settled a layout
+	 * the source cannot (§4's H2 rows, A01394). `finishEntry` prefers
+	 * it over the parser's, and gate 2 knows to expect one. */
+	display?: string;
 	headword: string;
 	language_code?: string;
 	language_reference?: string;

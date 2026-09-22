@@ -115,6 +115,13 @@ function fieldsOf(entry: SourceEntry): string[] {
 			quote.filter((s): s is string => s !== null),
 		),
 		entry.content.morphology ?? '',
+		// NOT a Sefaria field: the headword-line layout a `reform` patch
+		// supplied (`body/types.ts`). No rule touches it today, and it
+		// is listed so none can start to without the gates seeing it —
+		// a whitelist that silently omits a field reports clean on a
+		// rule that drops it, and gate 2 downstream would then read the
+		// parser's template instead and flag nothing.
+		entry.display ?? '',
 	];
 	const walk = (senses: readonly SourceSense[]): void => {
 		for (const sense of senses) {

@@ -26,84 +26,103 @@ const CLASS_KINDS: ReadonlyArray<readonly [string, KindRule]> = [
 	...CLASS_ACTIONS,
 ].map(([kind, action]) => [kind, { action, publication: 'defer' }]);
 
-const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
-	...CLASS_KINDS,
+/** Every review and patch kind this pipeline can emit, as
+ * `[kind, publication, action]`.
+ *
+ * ONE LINE PER KIND, and deliberately not an object literal per kind.
+ * Fifteen identical `{ action: …, publication: … }` wrappers are the
+ * same three lines of punctuation fifteen times over, which reads as
+ * duplication to a human and to Sonar alike; the tuple puts the three
+ * things a reader wants — which kind, where it lands, what to do —
+ * on the line they are asking about. The shape is restored by the
+ * `.map` below, so `KindRule` is unchanged for every reader of it. */
+const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
+	// New 2026-09-21 with the §2 shape. `partial` says "shown as
+	// printed, never a lookup key", so an entry whose alternates are
+	// ALL partial has no alternate search key until the print work in
+	// #107 expands them. Nothing about the data is wrong — the row
+	// exists so that population stays counted rather than becoming
+	// invisible the moment the rule stops expanding abbreviations.
 	[
-		// Split out of `headword-unparsed` 2026-09-21: `FORM` admits a
-		// space and `LEXICAL` does not, so every multi-word headword
-		// parsed and was then flagged for the space alone — 271 of the 300
-		// rows the report called blocking. headword-design §4 rules the
-		// shape legitimate (reduplication, spaced variants, phrase
-		// headwords and phrase alternates), and it renders as printed.
-		'headword-multiword',
-		{
-			action:
-				'Nothing to do: a multi-word form is legitimate (headword-design §4); the rows are listed so the count stays visible.',
-			publication: 'note',
-		},
+		'headword-partial-only',
+		'note',
+		'Nothing to correct: the alternates are printed short, and expanding them against the print is #107. The entry is still found by its primary form.',
 	],
+	// `headword-multiword` retired 2026-09-21. It existed because the
+	// old per-item grammar admitted a space its lexical set did not,
+	// so every legitimate multi-word form (reduplication, spaced
+	// variants, phrase headwords) was flagged for the space alone.
+	// The line parser keeps a multi-word form as one form and says
+	// nothing about it, which is what headword-design §4 rules.
+	//
+	// `blocks`, and the bar is unchanged: what a reader sees is a raw
+	// notation-carrying string where a word should be. Under the §2
+	// shape the population is what §3 calls a TEXT DEFECT — a `=`
+	// introducing a gloss reference, a Latin word that is no numeral
+	// — rather than anything the grammar merely could not fit.
 	[
-		// `blocks` FOR NOW, and the reason is reopened. The original one
-		// — "the headword makes the slug, and slugs freeze at publication"
-		// — died with the slug itself: a name may change and the old one
-		// redirects (URL names spec U6, §8), so what is left is the
-		// reader-visible headword defect. Re-ruled with the headword
-		// schema decision (post-consolidation review §10 Q1).
 		'headword-unparsed',
-		{
-			action:
-				'Correct the headword text at source or by patch so the grammar accounts for it; the reader sees the raw string until then.',
-			publication: 'blocks',
-		},
+		'blocks',
+		'Correct the headword text at source or by patch so the line parses; the reader sees the raw string until then.',
+	],
+	// §3.1 rule 6's duplicate check, reported rather than halted on:
+	// neither §3 nor §4 rules on what a repeated form means, and
+	// print may set a word twice on one line for a reason the source
+	// cannot show. Four entries over the committed tree.
+	[
+		'headword-duplicate-form',
+		'defer',
+		'Read the printed line and decide whether the repeat is print’s or the extractor’s; drop the duplicate form by patch if it is the latter. Nothing downstream reads an alternate as a key, so the entry is unaffected meanwhile.',
+	],
+	// headword-design §4's H2 rows and A01394. The forms are clean and
+	// ARE written; only the layout is unsettled, and §3 rules that
+	// display uncertainty does not block go-live. A flagged row is a
+	// ticket, not a guess: no default template is invented.
+	[
+		'paren-group-close-unknown',
+		'defer',
+		'Read the printed line and add the display template by hand; two readings are possible from the source and neither is assumed. The entry renders without its grouping meanwhile.',
 	],
 	[
 		'markup-carry',
-		{
-			action:
-				'Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.',
-			publication: 'defer',
-		},
+		'defer',
+		'Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.',
 	],
 	[
 		'page-confidence-low',
-		{
-			action:
-				'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
-			publication: 'defer',
-		},
+		'defer',
+		'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
 	],
 	[
 		'page-confidence-medium',
-		{
-			action:
-				'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
-			publication: 'defer',
-		},
+		'defer',
+		'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
 	],
 	[
 		'review-deferred',
-		{
-			action:
-				'Answer the sense-structure question in the admin tool after go-live; the entry renders meanwhile.',
-			publication: 'defer',
-		},
+		'defer',
+		'Answer the sense-structure question in the admin tool after go-live; the entry renders meanwhile.',
 	],
 	[
 		'upstream-changed',
-		{
-			action:
-				'Re-judge the patch against the new export before the output is trusted.',
-			publication: 'blocks',
-		},
+		'blocks',
+		'Re-judge the patch against the new export before the output is trusted.',
 	],
 	[
 		'upstream-fixed',
-		{
-			action:
-				'Archive the patch: the new export already carries its post-state.',
-			publication: 'blocks',
-		},
+		'blocks',
+		'Archive the patch: the new export already carries its post-state.',
 	],
+];
+
+const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
+	...CLASS_KINDS,
+	...KIND_RULES.map(
+		([kind, publication, action]): readonly [string, KindRule] => [
+			kind,
+			{ action, publication },
+		],
+	),
 ]);
 
 /** The rule for a review or patch kind; throws on a kind the table

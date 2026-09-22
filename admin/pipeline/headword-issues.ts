@@ -6,7 +6,7 @@
  * Two inputs, deliberately:
  *
  * - `data/source/migration-report.json`, for what the CURRENT processor
- *   already flags (`headword-unparsed`, `headword-multiword`). Run
+ *   already flags (every `isHeadwordReviewKind` row). Run
  *   `bun data:import` first if it is stale.
  * - `data/entries/`, walked independently. The processor's review list
  *   is not the defect list: a form can round-trip through the grammar
@@ -19,8 +19,8 @@
  *
  * Run: bun run headword:issues
  */
-import { isHeadwordReviewKind } from './migrate/headword.ts';
-import { deriveName } from './migrate/names.ts';
+import { isHeadwordReviewKind } from './migrate/headwords.ts';
+import { nameOf } from './migrate/names.ts';
 import type { FormObject, TruthEntry } from './migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
@@ -98,9 +98,30 @@ function parensNest(text: string): boolean {
 	return depth === 0;
 }
 
+/** Every shape `shapeOf` can name. Declared as a closed list so
+ * `shapeOf`'s return type IS this union: a branch added there without
+ * a name here is a TYPE ERROR, and `classifyEveryShape` can then
+ * check the tables against the list rather than against a second copy
+ * of it. `lexical` is the only clean answer. */
+const SHAPE_NAMES = [
+	'comma-list',
+	'double-space',
+	'equals-variant',
+	'latin-or-digit',
+	'lexical',
+	'multi-word',
+	'other-char',
+	'paren-optional-letters',
+	'paren-unbalanced',
+	'paren-whole',
+	'query-mark',
+] as const;
+
+type ShapeName = (typeof SHAPE_NAMES)[number];
+
 /** The shape a form's TEXT is in, as one name. `lexical` is the only
  * clean answer; every other value is a decision waiting to be taken. */
-function shapeOf(text: string): string {
+function shapeOf(text: string): ShapeName {
 	if (LATIN_OR_DIGIT.test(text)) {
 		return 'latin-or-digit';
 	}
@@ -202,30 +223,126 @@ function multiWordNote(text: string, headword: string): string {
 		: 'other phrase';
 }
 
-/** The shape each issue name files under, with the multi-word note
- * carried alongside so one pass can produce both. */
+/** The shape each issue name files under. */
+const SHAPES: Readonly<Record<string, string>> = {
+	'final-letter-medial': 'X2 final letter mid-word',
+	'leading-mark': 'X1 starts with a vowel/dagesh mark',
+	maqaf: 'X5 maqaf fragment',
+	'nonfinal-letter-at-end': 'X3 non-final letter at word end',
+	'not-NFC': 'X4 not NFC',
+	// H4 is the one H row still live: §4 moves `= Y` into the gloss,
+	// and the op that does it does not exist yet (#113), so A01175 and
+	// A01345 still carry a `=` in their text.
+	'shape:equals-variant': 'H4 "=" variant pair',
+	'shape:multi-word': 'H6 multi-word',
+};
+
+/** Shapes headword-design §4 SETTLED, each with the ruling that
+ * settled it. They are named rather than merely absent: an unmapped
+ * issue used to fall out of the report without a trace, which is the
+ * same silence for a shape nobody has looked at and a shape a
+ * maintainer decided. `classifyEveryShape` below refuses a third
+ * state.
+ *
+ * **They are still REPORTED, under the ruling that settled them.**
+ * §3.1 rule 4 keeps this notation out of a form's `text`, so after the
+ * batched rewrite of the 32,512 entry files a row here really will be
+ * a parser bug rather than a shape awaiting a decision. But this
+ * script reads the COMMITTED tree, which the rewrite has not reached —
+ * `foldHeadwords` below exists for exactly that reason — and A00077
+ * still holds `?אִיבּוּס`, S00099 still holds `(קְבַרְיָא)`, A01175 still
+ * holds a `=`. Dropping their sections would stop the report carrying
+ * rows that are still on disk. So the ruling goes in the heading and
+ * the rows stay. */
+const SETTLED: Readonly<Record<string, { by: string; section: string }>> = {
+	'shape:comma-list': {
+		by: 'HW-commas — never stored in a headword',
+		section: 'H1 homograph list / stray comma',
+	},
+	'shape:double-space': {
+		by: 'HW-h1-sep — a separator defect, patched',
+		section: 'H1 homograph list / stray comma',
+	},
+	'shape:latin-or-digit': {
+		by: 'HW-H1-xref — a numeral list is display only',
+		section: 'H1 homograph list / stray comma',
+	},
+	'shape:other-char': {
+		by: 'HW-ellipsis — an ellipsis ending is a partial form',
+		section: 'H5 ellipsis fragment',
+	},
+	'shape:paren-optional-letters': {
+		by: 'HW-paren — grouping is structure in display',
+		section: 'H2 parentheses',
+	},
+	'shape:paren-unbalanced': {
+		by: 'HW-H2-open — flagged paren-group-close-unknown',
+		section: 'H2 parentheses',
+	},
+	'shape:paren-whole': {
+		by: 'HW-paren — grouping is structure in display',
+		section: 'H2 parentheses',
+	},
+	'shape:query-mark': {
+		by: 'HW-query — the `?` is display only',
+		section: 'H3 query mark',
+	},
+};
+
+/** The section an issue files under. A settled shape KEEPS its
+ * section and gains the ruling that settled it, so a reader sees at a
+ * glance that the rows are decided rather than open — and so the
+ * report does not stop carrying rows that are still on disk. */
 function shapeFor(issue: string): string | undefined {
-	const table: Record<string, string> = {
-		'final-letter-medial': 'X2 final letter mid-word',
-		'leading-mark': 'X1 starts with a vowel/dagesh mark',
-		maqaf: 'X5 maqaf fragment',
-		'nonfinal-letter-at-end': 'X3 non-final letter at word end',
-		'not-NFC': 'X4 not NFC',
-		// Both are H1's separator defects; `homographListNote` names which.
-		// Unmapped, a form of either shape would be dropped from the
-		// report without a trace.
-		'shape:comma-list': 'H1 homograph list / stray comma',
-		'shape:double-space': 'H1 homograph list / stray comma',
-		'shape:equals-variant': 'H4 "=" variant pair',
-		'shape:latin-or-digit': 'H1 homograph list / stray comma',
-		'shape:multi-word': 'H6 multi-word',
-		'shape:other-char': 'H5 ellipsis fragment',
-		'shape:paren-optional-letters': 'H2 parentheses',
-		'shape:paren-unbalanced': 'H2 parentheses',
-		'shape:paren-whole': 'H2 parentheses',
-		'shape:query-mark': 'H3 query mark',
+	const settled = SETTLED[issue];
+	if (settled !== undefined) {
+		return `${settled.section} — settled: ${settled.by}`;
+	}
+	return SHAPES[issue];
+}
+
+/** Every shape `shapeOf` can name is in exactly one of the two
+ * tables.
+ *
+ * Read off `SHAPE_NAMES`, which IS `shapeOf`'s return type — never
+ * off a second copy of the list. Against a copy this guard could only
+ * fire when a table entry is DELETED, which is the one case it is not
+ * needed for: the failure it exists to catch is a branch added to
+ * `shapeOf` and forgotten in both tables, and a copy is blind to that
+ * exactly as the tables are. */
+function classifyEveryShape(): void {
+	const missing = SHAPE_NAMES.filter(
+		(shape) =>
+			shape !== 'lexical' &&
+			SHAPES[`shape:${shape}`] === undefined &&
+			SETTLED[`shape:${shape}`] === undefined,
+	);
+	if (missing.length > 0) {
+		throw new Error(
+			`shape(s) neither reported nor settled: ${missing.join(', ')}`,
+		);
+	}
+}
+
+/** The pre-rewrite entry shape, folded forward into `headwords[]`.
+ *
+ * TRANSITIONAL, and the same fold `migrate/truth.test.ts` documents:
+ * the maintainer has ruled ONE batched rewrite of all 32,512 files
+ * and it has not happened, so this report — which reads the committed
+ * tree, not a run — still meets `headword`/`altHeadwords`. An entry
+ * already in the new shape is handed on whole. */
+function foldHeadwords(raw: unknown): TruthEntry {
+	const entry = raw as TruthEntry & {
+		altHeadwords?: FormObject[];
+		headword?: FormObject;
 	};
-	return table[issue];
+	if (entry.headwords !== undefined || entry.headword === undefined) {
+		return entry;
+	}
+	return {
+		...entry,
+		headwords: [entry.headword, ...(entry.altHeadwords ?? [])],
+	};
 }
 
 /** Read every truth entry, keyed by rid. */
@@ -235,19 +352,19 @@ async function loadEntries(): Promise<Map<string, TruthEntry>> {
 	);
 	const entries = new Map<string, TruthEntry>();
 	for (const path of paths.toSorted((a, b) => a.localeCompare(b))) {
-		const entry = (await Bun.file(
-			`${ENTRIES_DIR}/${path}`,
-		).json()) as TruthEntry;
+		const entry = foldHeadwords(
+			await Bun.file(`${ENTRIES_DIR}/${path}`).json(),
+		);
 		entries.set(entry.id, entry);
 	}
 	return entries;
 }
 
 /** The `rid`/`text` pairs the current processor put on its headword
- * review list, so each row can say whether it is already visible. Both
- * headword kinds count as visible: `headword-multiword` is the same
- * detector's other verdict, split out of `headword-unparsed` so the
- * review report can call it a note. */
+ * review list, so each row can say whether it is already visible.
+ * EVERY headword kind counts as visible: they are one parser's several
+ * verdicts on one line, split so the review report can class them
+ * apart, and a row flagged under any of them has been seen. */
 function flaggedForms(report: MigrationReport): Map<string, Set<string>> {
 	const flagged = new Map<string, Set<string>>();
 	for (const row of report.rows) {
@@ -318,10 +435,10 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 		if (shape === undefined) {
 			continue;
 		}
-		const note = noteFor(shape, issue, text, entry.headword.text);
+		const note = noteFor(shape, issue, text, entry.headwords[0]?.text ?? '');
 		rows.push({
 			flagged: isFlagged,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note,
 			rid,
 			role,
@@ -339,7 +456,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 				: 'X7 abbreviation headword (׳/״)';
 		rows.push({
 			flagged: isFlagged,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note: '',
 			rid,
 			role,
@@ -378,9 +495,8 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 		families.set(key, [...(families.get(key) ?? []), { homograph, rid }]);
 	};
 	for (const [rid, entry] of entries) {
-		add(entry.headword.text, entry.headword.homograph, rid);
-		for (const alt of entry.altHeadwords ?? []) {
-			add(alt.text, alt.homograph, `${rid}/alt`);
+		for (const [i, form] of entry.headwords.entries()) {
+			add(form.text, form.homograph, i === 0 ? rid : `${rid}/alt`);
 		}
 	}
 	const rows: IssueRow[] = [];
@@ -416,7 +532,7 @@ function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
 			.join('; ');
 		rows.push({
 			flagged: false,
-			name: deriveName(entry.headword),
+			name: nameOf(entry),
 			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
 			rid: first.rid.replace('/alt', ''),
 			// The family is keyed on the ALTERNATE's spelling when its
@@ -508,6 +624,7 @@ function renderCsv(rows: IssueRow[]): string {
 }
 
 async function main(): Promise<void> {
+	classifyEveryShape();
 	const report = (await Bun.file(REPORT_PATH).json()) as MigrationReport;
 	const entries = await loadEntries();
 	const flagged = flaggedForms(report);
@@ -516,11 +633,15 @@ async function main(): Promise<void> {
 		a.id.localeCompare(b.id),
 	);
 	for (const entry of inRidOrder) {
-		rows.push(
-			...formRows({ entry, flagged, form: entry.headword, role: 'headword' }),
-		);
-		for (const alt of entry.altHeadwords ?? []) {
-			rows.push(...formRows({ entry, flagged, form: alt, role: 'alt' }));
+		for (const [i, form] of entry.headwords.entries()) {
+			rows.push(
+				...formRows({
+					entry,
+					flagged,
+					form,
+					role: i === 0 ? 'headword' : 'alt',
+				}),
+			);
 		}
 	}
 	rows.push(...homographGapRows(entries));

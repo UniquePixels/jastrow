@@ -382,19 +382,14 @@ const MINT = new Set(['unlinked-bare-anaphor']);
  * Rule 1 says nothing about where they sit. Something outside the class
  * DOES read and write these fields, though — `gershayimInBody` is scoped
  * to every field `fieldsOf` walks, `headword` and `alt_headwords`
- * included, and it composes with `phraseAltHeadwordStub` measurably:
- * the corpus gershayim count moves 2,305 → 2,309, because the phrase
- * rule copies a headword that rule already repaired. The ORDER is
- * free and that is measured,
- * not assumed: both directions give 92 marks over these two fields and
- * 235 phrase records, since `gershayimInBody` walks every field and
- * repairs the copy too when it runs second. Converging is not the same
- * as isolated, and this class claims only the former.
+ * included — and converging is not the same as isolated. This class
+ * claims only the former.
  *
- * What IS ordered is their order among THEMSELVES —
- * `parenthesized-alt-headword` strictly before `phrase-alt-headword-
- * stub`, an entangled pair that does not commute — and that constraint
- * lives in `registry.ts`'s own block with its measurement.
+ * **The class lost two members on 2026-09-21**,
+ * `parenthesized-alt-headword` and `phrase-alt-headword-stub`,
+ * unregistered with the headword-design §2 adoption. They were also
+ * the only ORDERED pair among these rules; the three that remain are
+ * free of each other.
  *
  * Membership is EARNED, by the assertion in `registry.order.corpus.test.ts`:
  * over all 32,512 entries, no field these rules change ever contains a
@@ -408,8 +403,6 @@ const FIELD = new Set([
 	// class's membership test the same way the other four do.
 	'asterisk-stem-label',
 	'gender-pair-headword-line-collapse',
-	'parenthesized-alt-headword',
-	'phrase-alt-headword-stub',
 ]);
 
 /** The eleven classifications, named ONCE. Both halves of the

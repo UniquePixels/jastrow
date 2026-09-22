@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { PUBLICATION } from '../publication.ts';
-import type { TruthEntry, TruthSense } from '../types.ts';
+import { SCHEMA_VERSION, type TruthEntry, type TruthSense } from '../types.ts';
 import { DETECTED_CLASSES, detectClasses } from './classes.ts';
 import { detectEmptyStemSection } from './empty-stem-section.ts';
 import { detectHomographRomanStranded } from './homograph-roman-stranded-in-definition.ts';
@@ -17,8 +17,9 @@ function sense(over: Partial<TruthSense> = {}): TruthSense {
 /** A minimal valid truth entry, overridden per fixture. */
 function entry(over: Partial<TruthEntry> = {}): TruthEntry {
 	return {
-		headword: { text: 'אבג' },
+		headwords: [{ text: 'אבג' }],
 		id: 'A00001',
+		schemaVersion: SCHEMA_VERSION,
 		sefariaHeadword: 'אבג',
 		senses: [sense()],
 		...over,
@@ -144,7 +145,7 @@ describe('homograph-roman-stranded-in-definition', () => {
 	it('is silent when the headword already carries the homograph', () => {
 		const rows = detectHomographRomanStranded(
 			entry({
-				headword: { homograph: 2, text: 'אבג' },
+				headwords: [{ homograph: 2, text: 'אבג' }],
 				senses: [sense({ gloss: ' II ch. to forget. ' })],
 			}),
 		);

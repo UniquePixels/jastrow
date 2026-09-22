@@ -23,8 +23,6 @@ import { gershayimInBody, gershayimRefAttribute } from './rules/gershayim.ts';
 import {
 	abbrevFusedHeadword,
 	genderPairAltDuplicate,
-	parenAltHeadword,
-	phraseAltHeadwordStub,
 } from './rules/headword.ts';
 import { holamMaterMigration } from './rules/holam-mater.ts';
 import { impossibleDagesh } from './rules/impossible-dagesh.ts';
@@ -341,15 +339,13 @@ const RULES: readonly Rule[] = [
 	// every field `fieldsOf` walks — and the two converge rather than
 	// conflict, since it repairs the copy too if it runs second.
 	//
-	// `parenAltHeadword` MUST precede `phraseAltHeadwordStub`, and the
-	// pair is `entangledWith` on both rows. They do not commute, by one
-	// occurrence each way: `expandStub` refuses anything following a
-	// geresh, so `B00780`'s `'(עֵין ב׳)'` expands only once paren-first
-	// has stripped the delimiters, while `A02403`'s `'אסת׳ )'` becomes a
-	// single token that leaves the population. Paren-first the phrase
-	// rule fires 236 times, phrase-first 235.
-	parenAltHeadword,
-	phraseAltHeadwordStub,
+	// `parenAltHeadword` and `phraseAltHeadwordStub` sat here, in that
+	// order, as an `entangledWith` pair that did not commute. Both were
+	// UNREGISTERED 2026-09-21 with the headword-design §2 adoption: the
+	// grouping the first deleted is now structure in `display`, and
+	// §4's HW-no-expand row stops the second expanding. Removing them
+	// removed the only ordering constraint this block carried.
+	//
 	// Free: `abbrevFusedHeadword` is the only rule in the registry that
 	// rewrites `headword`, and `genderPairAltDuplicate` keys on whole
 	// array values no other rule constructs.
@@ -626,6 +622,35 @@ const COVERED: readonly { by: string; row: string }[] = [
 	},
 ];
 
+/**
+ * Catalogued transform rows a MAINTAINER RULING says will never be
+ * repaired by a transform — a fourth state, and the only one whose
+ * warrant is a decision rather than a measurement.
+ *
+ * `PENDING` claims a row is still owed a rule; `COVERED` claims
+ * another rule already repairs it; `RULES` carries the row's own id.
+ * A row that is none of those is `unaccounted`, which is the right
+ * answer for a row nobody has looked at — and the wrong one for a row
+ * somebody looked at and ruled out. Without this list, unregistering a
+ * rule by ruling is indistinguishable from forgetting to write one.
+ *
+ * Each entry names the ruling, so the claim is checkable against
+ * `docs/decisions.md` rather than self-granted. Unlike `COVERED` there
+ * is no registered rule to hang the check on: what keeps this list
+ * honest is that a row named here is reported in `retired`, counted,
+ * and rendered in the review report as a class no detector answers.
+ */
+const RETIRED: readonly { by: string; row: string }[] = [
+	{
+		by: 'HW-paren (2026-09-20), adopted by HW-schema (2026-09-21): print grouping is structure in `display`, never deleted',
+		row: 'parenthesized-alt-headword',
+	},
+	{
+		by: 'HW-no-expand (2026-09-20), adopted by HW-schema (2026-09-21): an abbreviated alternate keeps its printed form and is `partial`',
+		row: 'phrase-alt-headword-stub',
+	},
+];
+
 interface Coverage {
 	/** Rows named by `COVERED` whose owning rule is registered — no
 	 * rule of their own, and none owed. Counted inside `registered`,
@@ -643,17 +668,21 @@ interface Coverage {
 	/** Rows a registered rule owns: by carrying the row's id, or by
 	 * repairing it under another row's id (`COVERED`). */
 	registered: number;
+	/** Rows a ruling retired: no rule, and none owed. Counted apart
+	 * from `pending` so `registered + pending + retired === total`
+	 * stays a real claim rather than an identity. */
+	retired: string[];
 	total: number;
-	/** Transform rows that are neither registered nor pending. A
-	 * `COVERED` row whose owning rule is NOT registered lands here,
+	/** Transform rows that are neither registered, pending nor retired.
+	 * A `COVERED` row whose owning rule is NOT registered lands here,
 	 * which is what stops that list from being a self-granted
 	 * exemption. */
 	unaccounted: string[];
 }
 
 /**
- * Partition the catalogue's transform rows across `RULES`, `COVERED`
- * and `PENDING`.
+ * Partition the catalogue's transform rows across `RULES`, `COVERED`,
+ * `PENDING` and `RETIRED`.
  *
  * `pending` is counted from `PENDING`, NOT as the complement of
  * `registered`. The complement reading makes `registered + pending ===
@@ -676,18 +705,32 @@ function coverage(catalogue: readonly Pattern[]): Coverage {
 		...COVERED.filter((c) => rules.has(c.by)).map((c) => c.row),
 	]);
 	const pending = new Set(PENDING);
+	const retired = new Set(RETIRED.map((r) => r.row));
 	return {
 		covered: rows
 			.filter((row) => registered.has(row.id) && !rules.has(row.id))
 			.map((row) => row.id),
 		duplicated: rows
-			.filter((row) => registered.has(row.id) && pending.has(row.id))
+			.filter(
+				(row) =>
+					(registered.has(row.id) || retired.has(row.id)) &&
+					(pending.has(row.id) ||
+						(registered.has(row.id) && retired.has(row.id))),
+			)
 			.map((row) => row.id),
 		pending: rows.filter((row) => pending.has(row.id)).length,
 		registered: rows.filter((row) => registered.has(row.id)).length,
+		retired: rows.filter((row) => retired.has(row.id)).map((row) => row.id),
 		total: rows.length,
 		unaccounted: rows
-			.filter((row) => !(registered.has(row.id) || pending.has(row.id)))
+			.filter(
+				(row) =>
+					!(
+						registered.has(row.id) ||
+						pending.has(row.id) ||
+						retired.has(row.id)
+					),
+			)
 			.map((row) => row.id),
 	};
 }
@@ -955,6 +998,7 @@ export {
 	entangledClusters,
 	ORDERED,
 	PENDING,
+	RETIRED,
 	RULES,
 	unaccountedEdges,
 };

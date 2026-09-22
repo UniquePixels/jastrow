@@ -22,7 +22,9 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['open-paren-in-rtl-span', 'defer'],
 	['stranded-open-bracket', 'defer'],
 	['superscript-subsection-contradicts-link-sub-section', 'defer'],
-	['headword-multiword', 'note'],
+	['headword-duplicate-form', 'defer'],
+	['headword-partial-only', 'note'],
+	['paren-group-close-unknown', 'defer'],
 ];
 
 describe('PUBLICATION', () => {
@@ -41,6 +43,13 @@ describe('PUBLICATION', () => {
 			expect(action.endsWith('.')).toBe(true);
 		}
 	});
+	it('names no retired kind: `headword-multiword` went with the parser', () => {
+		// The old per-item grammar admitted a space its lexical set did
+		// not, so every legitimate multi-word form was flagged for the
+		// space alone. The line parser says nothing about one, and a kind
+		// left behind here would be triaged as live work.
+		expect(PUBLICATION.has('headword-multiword')).toBe(false);
+	});
 	it('names no slug kind: names replaced them (URL names spec §7)', () => {
 		// The six `slug-*` kinds retired WITH the field. A kind left
 		// behind here would be triaged as live work by a reader of the
@@ -53,7 +62,7 @@ describe('PUBLICATION', () => {
 
 describe('actionOf', () => {
 	it('reads the kind row', () => {
-		expect(actionOf('headword-multiword')).toContain('headword-design §4');
+		expect(actionOf('paren-group-close-unknown')).toContain('display template');
 	});
 	it('throws on a kind the table does not name', () => {
 		expect(() => actionOf('new-kind')).toThrow('new-kind');

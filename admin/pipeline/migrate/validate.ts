@@ -9,6 +9,7 @@
 import Ajv2020 from 'ajv/dist/2020';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
+import { headwordShapeProblems } from './headword-rules.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
@@ -179,15 +180,17 @@ function* senseLabels(
 	}
 }
 
-/** Every field that must carry none: the headword forms,
- * `sefariaHeadword` and any `formerNames` are identifiers that
- * `names.ts` and the compiler read as text; sense labels are
+/** Every field that must carry none: the headword forms, the display
+ * template, `sefariaHeadword` and any `formerNames` are identifiers
+ * that `names.ts` and the compiler read as text; sense labels are
  * numbering. */
 function* plainFields(entry: TruthEntry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
-	yield ['headword.text', entry.headword.text];
-	for (const [i, alt] of (entry.altHeadwords ?? []).entries()) {
-		yield [`altHeadwords[${i}].text`, alt.text];
+	for (const [i, form] of entry.headwords.entries()) {
+		yield [`headwords[${i}].text`, form.text];
+	}
+	if (entry.display !== undefined) {
+		yield ['display', entry.display];
 	}
 	for (const [i, name] of (entry.formerNames ?? []).entries()) {
 		yield [`formerNames[${i}]`, name];
@@ -309,6 +312,19 @@ function checkPages(
 	}
 }
 
+/** The §3.1 rules over one entry's form/display pair (headword design
+ * §3.1, `headword-rules.ts`). They are checked HERE rather than in the
+ * parser because they hold however the entry got there — a hand edit
+ * to a committed file meets them in `bun qa` and nowhere else.
+ *
+ * Rule 4 (no notation in a form's `text`) is armed and held; see the
+ * `headword-rules.ts` docstring. It is reached through
+ * `headwordShapeProblems` like the rest, so this file has no second
+ * door onto it. */
+function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
+	problems.push(...headwordShapeProblems(entry));
+}
+
 /** Every truth check over one tree; an empty list is a valid tree. */
 function validateTruth(
 	files: readonly TruthFile[],
@@ -320,6 +336,7 @@ function validateTruth(
 	checkSefariaHeadwords(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));
 	for (const entry of entries) {
+		checkHeadwordShape(entry, problems);
 		checkMarkup(entry, ids, problems);
 	}
 	checkPages(entries, ids, pages, problems);

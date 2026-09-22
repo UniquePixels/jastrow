@@ -3,7 +3,6 @@
  * with the composer and the CLI. */
 import type { BodyEntry, SourceEntry } from '../body/types.ts';
 import { tokenize } from '../transform/html.ts';
-import { regenerateForm } from './headword.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { Tally, TruthEntry } from './types.ts';
@@ -34,28 +33,213 @@ function textOf(html: string): string {
 		.join('');
 }
 
-/** Gate 2: every form regenerates to the composed string. */
-function checkHeadwordRoundTrip(
+/** The headword line as the composed entry holds it: Sefaria's
+ * `headword`, then its `alt_headwords`, in source order. */
+function headwordLine(composed: SourceEntry): string {
+	return [composed.headword, ...(composed.alt_headwords ?? [])].join(' ');
+}
+
+/** Hebrew letters, points, geresh, gershayim and the combining dot
+ * above, in order, with everything else dropped. Written out by CODE
+ * POINT here rather than imported from the parser: gate 2 is the check
+ * ON the parser, and sharing its predicate would put the same code on
+ * both sides of the comparison. */
+function lexicalOf(line: string): string {
+	let out = '';
+	for (const ch of line) {
+		const c = ch.codePointAt(0) ?? 0;
+		if (
+			(c >= 0x05_d0 && c <= 0x05_ea) ||
+			(c >= 0x05_91 && c <= 0x05_c7) ||
+			c === 0x05_f3 ||
+			c === 0x05_f4 ||
+			c === 0x03_07
+		) {
+			out += ch;
+		}
+	}
+	return out;
+}
+
+/** A `{n}` slot in a display template. */
+const SLOT = /\{\d+\}/gu;
+/** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
+ * not count as two `I`s against a line that really holds two. */
+const LATIN_RUN = /[A-Za-z]+/gu;
+/** The only Latin runs print sets on a headword line: a Roman numeral
+ * and the two gender labels. Anything else is a text defect. */
+const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
+
+/** The notation of a line as a MULTISET: token → how many times the
+ * line sets it. Every non-Hebrew, non-space character counts, with
+ * Latin runs kept whole so `II` is one token rather than two `I`s.
+ *
+ * A counted map rather than a sorted list, which is what a multiset
+ * comparison actually needs. The list had to be sorted to be
+ * comparable, and a sort ordered by nothing in particular is a
+ * question a reader should not have to answer — the order carried no
+ * meaning, only the counts ever did.
+ *
+ * **Commas are excluded, on both sides.** The upstream split cut
+ * print's line at its separators and did not keep them (headword
+ * design §1), so the source's comma count is not the line's; §4 rules
+ * that the app supplies separators, and the template's `, ` is
+ * supplied rather than recovered. Counting them would compare a number
+ * the source does not carry against one the parser invented. */
+function notationOf(line: string): Map<string, number> {
+	const counts = new Map<string, number>();
+	const bump = (token: string): void => {
+		counts.set(token, (counts.get(token) ?? 0) + 1);
+	};
+	for (const run of line.match(LATIN_RUN) ?? []) {
+		bump(run);
+	}
+	for (const ch of line.replace(LATIN_RUN, '')) {
+		const c = ch.codePointAt(0) ?? 0;
+		const hebrew =
+			(c >= 0x05d0 && c <= 0x05ea) ||
+			(c >= 0x0591 && c <= 0x05c7) ||
+			c === 0x05f3 ||
+			c === 0x05f4 ||
+			c === 0x0307;
+		if (!(hebrew || ch === ',' || ch.trim() === '')) {
+			bump(ch);
+		}
+	}
+	return counts;
+}
+
+/** Two notation multisets agree. */
+function sameNotation(
+	a: ReadonlyMap<string, number>,
+	b: ReadonlyMap<string, number>,
+): boolean {
+	if (a.size !== b.size) {
+		return false;
+	}
+	for (const [token, n] of a) {
+		if (b.get(token) !== n) {
+			return false;
+		}
+	}
+	return true;
+}
+
+/** A multiset for a failure message, in the order the line sets each
+ * token — which reads closer to the line than any sort would. */
+function renderNotation(counts: ReadonlyMap<string, number>): string {
+	return [...counts].map(([token, n]) => `${token}×${n}`).join(' ');
+}
+
+/** Whether the source line is one no parser can lay out: its
+ * parentheses do not balance (headword design §4's H2 rows and
+ * A01394), or it carries a `=` or a Latin word that is neither a
+ * Roman numeral nor a gender label (§3's text defects).
+ *
+ * Written HERE, against the source, so the gate can ask "should this
+ * line have a display?" without consulting the parser that decided it
+ * did not. That is what keeps the third mark from passing on whatever
+ * the parser happened to do. */
+function lineIsUnsettleable(line: string): boolean {
+	let depth = 0;
+	for (const ch of line) {
+		if (ch === '(') {
+			depth++;
+		} else if (ch === ')' && --depth < 0) {
+			return true;
+		}
+	}
+	if (depth !== 0 || line.includes('=')) {
+		return true;
+	}
+	return (line.match(LATIN_RUN) ?? []).some((run) => !LATIN_ALLOWED.test(run));
+}
+
+/** Gate 2, redefined (headword design §2's ruling). Three marks per
+ * entry, each comparing the composed SOURCE line against the written
+ * entry — never against the parser that produced it.
+ *
+ * **Byte regeneration is gone, and it had to be.** The old gate
+ * rebuilt each of Sefaria's split strings from its form object and
+ * compared bytes. Under §2 the parentheses, the `?` and the `…` live
+ * in `display`, and the forms no longer correspond one-to-one with the
+ * source's items: a group split across four items is four forms and
+ * one template, and a word torn in two and rejoined by a patch is one
+ * form from two items. Bytes cannot round-trip through a shape that
+ * deliberately regroups them. What can is:
+ *
+ * 1. **text conservation** — every Hebrew character of the line
+ *    reaches a form, in order, and no form invents one. This is the
+ *    half that matters: `text` is the lookup key, the slug and the
+ *    link target.
+ * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
+ *    superscripts and Roman numerals are exactly the template's. A
+ *    parenthesis dropped, a numeral invented or a star moved onto a
+ *    different form all fail here.
+ * 3. **display present iff settleable** — a template is absent
+ *    exactly for a line this gate independently judges unsettleable.
+ *    Without it marks 1 and 2 could both pass on a run that quietly
+ *    stopped writing `display` at all, since mark 2 has nothing to
+ *    compare when the template is missing. */
+function checkHeadwordLine(
 	composed: SourceEntry,
 	truth: TruthEntry,
 	t: Tally,
 ): void {
+	const line = headwordLine(composed);
+	const before = lexicalOf(line);
+	const after = lexicalOf(truth.headwords.map((f) => f.text).join(' '));
 	mark(
 		t,
-		regenerateForm(truth.headword) === composed.headword,
-		`${composed.rid}: headword`,
+		before === after,
+		`${composed.rid}: headword text not conserved: ${JSON.stringify(before)} → ${JSON.stringify(after)}`,
 	);
-	const alts = composed.alt_headwords ?? [];
-	const forms = truth.altHeadwords ?? [];
-	mark(t, alts.length === forms.length, `${composed.rid}: alt count`);
-	for (const [i, alt] of alts.entries()) {
-		const form = forms[i];
+	// A `reform` patch may supply the layout, and headword design §4.1
+	// gives it exactly one job: settle a line the SOURCE cannot. On a
+	// line the parser reads, the parser's template is already right, so
+	// a supplied one would overwrite it AND switch the notation mark
+	// below to a weaker check — two losses for no gain. A supplied
+	// template on a settleable line is therefore a RED GATE, never a
+	// silent override.
+	const cannotSettle = lineIsUnsettleable(line);
+	mark(
+		t,
+		composed.display === undefined || cannotSettle,
+		`${composed.rid}: a patch supplied a display for a line the source settles on its own`,
+	);
+	// Read off the COMPOSED entry, which is where the patch put it —
+	// not off the parser's decision.
+	const unsettleable = cannotSettle && composed.display === undefined;
+	mark(
+		t,
+		unsettleable === (truth.display === undefined),
+		`${composed.rid}: display is ${truth.display === undefined ? 'unset' : JSON.stringify(truth.display)} for a line that is ${unsettleable ? '' : 'not '}unsettleable`,
+	);
+	if (truth.display === undefined) {
+		return;
+	}
+	if (composed.display !== undefined) {
+		// A patch SUPPLIED this template because print set a layout the
+		// source did not keep, so the multiset cannot agree and
+		// demanding it would refuse every such patch. Comparing the
+		// template against itself would be worse — a mark that cannot
+		// fail. What IS checkable, and is the thing that could actually
+		// go wrong, is that the run carried the patch's template through
+		// to the entry unaltered.
 		mark(
 			t,
-			form !== undefined && regenerateForm(form) === alt,
-			`${composed.rid}: alt ${i}`,
+			truth.display === composed.display,
+			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(truth.display)}`,
 		);
+		return;
 	}
+	const source = notationOf(line);
+	const written = notationOf(truth.display.replace(SLOT, ''));
+	mark(
+		t,
+		sameNotation(source, written),
+		`${composed.rid}: notation [${renderNotation(source)}] → [${renderNotation(written)}]`,
+	);
 }
 
 /** The three fields `pairs` reads. `BodySense` and `TruthSense` both
@@ -304,7 +488,7 @@ function checkPages(
 
 export {
 	checkChain,
-	checkHeadwordRoundTrip,
+	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,
