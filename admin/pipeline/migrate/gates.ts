@@ -61,29 +61,122 @@ function lexicalOf(line: string): string {
 	return out;
 }
 
-/** Gate 2, text conservation: every Hebrew character of the composed
- * headword line reaches a form, in order, and no form invents one.
+/** A `{n}` slot in a display template. */
+const SLOT = /\{\d+\}/gu;
+/** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
+ * not count as two `I`s against a line that really holds two. */
+const LATIN_RUN = /[A-Za-z]+/gu;
+/** The only Latin runs print sets on a headword line: a Roman numeral
+ * and the two gender labels. Anything else is a text defect. */
+const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
+
+/** The notation of a line, as a sorted multiset of tokens: every
+ * non-Hebrew, non-space character, with Latin runs kept whole.
  *
- * **This replaces byte regeneration, and it had to.** The old gate
+ * **Commas are excluded, on both sides.** The upstream split cut
+ * print's line at its separators and did not keep them (headword
+ * design §1), so the source's comma count is not the line's; §4 rules
+ * that the app supplies separators, and the template's `, ` is
+ * supplied rather than recovered. Counting them would compare a number
+ * the source does not carry against one the parser invented. */
+function notationOf(line: string): string[] {
+	const tokens: string[] = [];
+	for (const run of line.match(LATIN_RUN) ?? []) {
+		tokens.push(run);
+	}
+	for (const ch of line.replace(LATIN_RUN, '')) {
+		const c = ch.codePointAt(0) ?? 0;
+		const hebrew =
+			(c >= 0x05d0 && c <= 0x05ea) ||
+			(c >= 0x0591 && c <= 0x05c7) ||
+			c === 0x05f3 ||
+			c === 0x05f4 ||
+			c === 0x0307;
+		if (!(hebrew || ch === ',' || ch.trim() === '')) {
+			tokens.push(ch);
+		}
+	}
+	return tokens.toSorted();
+}
+
+/** Whether the source line is one no parser can lay out: its
+ * parentheses do not balance (headword design §4's H2 rows and
+ * A01394), or it carries a `=` or a Latin word that is neither a
+ * Roman numeral nor a gender label (§3's text defects).
+ *
+ * Written HERE, against the source, so the gate can ask "should this
+ * line have a display?" without consulting the parser that decided it
+ * did not. That is what keeps the third mark from passing on whatever
+ * the parser happened to do. */
+function lineIsUnsettleable(line: string): boolean {
+	let depth = 0;
+	for (const ch of line) {
+		if (ch === '(') {
+			depth++;
+		} else if (ch === ')' && --depth < 0) {
+			return true;
+		}
+	}
+	if (depth !== 0 || line.includes('=')) {
+		return true;
+	}
+	return (line.match(LATIN_RUN) ?? []).some((run) => !LATIN_ALLOWED.test(run));
+}
+
+/** Gate 2, redefined (headword design §2's ruling). Three marks per
+ * entry, each comparing the composed SOURCE line against the written
+ * entry — never against the parser that produced it.
+ *
+ * **Byte regeneration is gone, and it had to be.** The old gate
  * rebuilt each of Sefaria's split strings from its form object and
- * compared bytes. Under headword-design §2 the parentheses, the `?`
- * and the `…` live in `display` and the line's forms no longer
- * correspond one-to-one with the source's items — a group split across
- * four items is four forms and one template, and a torn word rejoined
- * by a patch is one form from two items. Bytes cannot round-trip
- * through a shape that deliberately regroups them; the TEXT can, and
- * the text is what a lookup key, a slug and a link are made of. */
+ * compared bytes. Under §2 the parentheses, the `?` and the `…` live
+ * in `display`, and the forms no longer correspond one-to-one with the
+ * source's items: a group split across four items is four forms and
+ * one template, and a word torn in two and rejoined by a patch is one
+ * form from two items. Bytes cannot round-trip through a shape that
+ * deliberately regroups them. What can is:
+ *
+ * 1. **text conservation** — every Hebrew character of the line
+ *    reaches a form, in order, and no form invents one. This is the
+ *    half that matters: `text` is the lookup key, the slug and the
+ *    link target.
+ * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
+ *    superscripts and Roman numerals are exactly the template's. A
+ *    parenthesis dropped, a numeral invented or a star moved onto a
+ *    different form all fail here.
+ * 3. **display present iff settleable** — a template is absent
+ *    exactly for a line this gate independently judges unsettleable.
+ *    Without it marks 1 and 2 could both pass on a run that quietly
+ *    stopped writing `display` at all, since mark 2 has nothing to
+ *    compare when the template is missing. */
 function checkHeadwordLine(
 	composed: SourceEntry,
 	truth: TruthEntry,
 	t: Tally,
 ): void {
-	const before = lexicalOf(headwordLine(composed));
+	const line = headwordLine(composed);
+	const before = lexicalOf(line);
 	const after = lexicalOf(truth.headwords.map((f) => f.text).join(' '));
 	mark(
 		t,
 		before === after,
 		`${composed.rid}: headword text not conserved: ${JSON.stringify(before)} → ${JSON.stringify(after)}`,
+	);
+	const unsettleable = lineIsUnsettleable(line);
+	mark(
+		t,
+		unsettleable === (truth.display === undefined),
+		`${composed.rid}: display is ${truth.display === undefined ? 'unset' : JSON.stringify(truth.display)} for a line that is ${unsettleable ? '' : 'not '}unsettleable`,
+	);
+	if (truth.display === undefined) {
+		return;
+	}
+	const source = notationOf(line);
+	const written = notationOf(truth.display.replace(SLOT, ''));
+	mark(
+		t,
+		source.join(' ') === written.join(' '),
+		`${composed.rid}: notation [${source.join(' ')}] → [${written.join(' ')}]`,
 	);
 }
 

@@ -347,42 +347,118 @@ describe('checkTextConservation', () => {
 });
 
 describe('checkHeadwordLine', () => {
-	it('passes a line whose Hebrew reaches the forms', () => {
+	/** One line through gate 2: the composed source items, and the
+	 * entry the run wrote for them. */
+	function gate(items: readonly string[], truth: Partial<TruthEntry>): Tally {
+		const [headword = '', ...alts] = items;
 		const composed: SourceEntry = {
-			alt_headwords: ['(אַבָּא) II'],
 			content: { senses: [] },
-			headword: 'אָב I',
+			headword,
 			rid: 'A00014',
+			...(alts.length > 0 ? { alt_headwords: alts } : {}),
 		};
-		const truth = minimalTruth({
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(composed, minimalTruth(truth), t);
+		return t;
+	}
+
+	it('passes a settleable line, all three marks', () => {
+		const t = gate(['אָב I', '(אַבָּא) II'], {
 			display: '{0} I, ({1} II)',
 			headwords: [
 				{ homograph: 1, text: 'אָב' },
 				{ homograph: 2, text: 'אַבָּא' },
 			],
 		});
-		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordLine(composed, truth, t);
 		expect(t.failures).toEqual([]);
-		expect(t.pass).toBe(1);
-		expect(t.total).toBe(1);
+		expect(t.pass).toBe(3);
+		expect(t.total).toBe(3);
 	});
 
 	it('fails when a form drops a letter the line holds', () => {
-		const composed: SourceEntry = {
-			content: { senses: [] },
-			headword: 'אָב II',
-			rid: 'A00014',
-		};
-		const truth = minimalTruth({
+		const t = gate(['אָב II'], {
 			display: '{0} II',
 			headwords: [{ homograph: 2, text: 'אָ' }],
 		});
-		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordLine(composed, truth, t);
-		expect(t.failures.length).toBe(1);
-		expect(t.pass).toBe(0);
-		expect(t.total).toBe(1);
+		expect(t.failures[0]).toContain('headword text not conserved');
+		expect(t.pass).toBe(2);
+	});
+
+	it('fails when a form invents a letter the line does not hold', () => {
+		const t = gate(['אָב'], { display: '{0}', headwords: [{ text: 'אָבא' }] });
+		expect(t.failures[0]).toContain('headword text not conserved');
+	});
+
+	it('fails a parenthesis the template dropped', () => {
+		// Exactly what the retired `parenthesized-alt-headword` rule did:
+		// the Hebrew is conserved, so only the notation multiset sees it.
+		const t = gate(['אָב', '(אַבָּא)'], {
+			display: '{0}, {1}',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('notation');
+	});
+
+	it('fails a numeral the template invented', () => {
+		const t = gate(['אָב'], {
+			display: '{0} II',
+			headwords: [{ homograph: 2, text: 'אָב' }],
+		});
+		expect(t.failures[0]).toContain('notation');
+	});
+
+	it('reads a Roman numeral as ONE token, not a run of letters', () => {
+		// `II` against `I I` conserves every character and is a different
+		// line. A per-character multiset would pass it.
+		const t = gate(['אָב II'], {
+			display: '{0} I I',
+			headwords: [{ text: 'אָב' }],
+		});
+		expect(t.failures.some((f) => f.includes('notation'))).toBe(true);
+	});
+
+	it('ignores the separator commas, which the source never carried', () => {
+		// §1: the upstream split cut print's line at its commas. The
+		// template's `, ` is supplied (§4), so counting it would compare
+		// the parser's invention against a number the source lacks.
+		const t = gate(['אָב', 'אַבָּא'], {
+			display: '{0}, {1}',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toEqual([]);
+	});
+
+	it('passes an unsettleable line with no display', () => {
+		const t = gate(['(אָב', 'אַבָּא'], {
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures).toEqual([]);
+		// Only two marks: the notation multiset has no template to read.
+		expect(t.pass).toBe(2);
+		expect(t.total).toBe(2);
+	});
+
+	it('fails a display written for a line that cannot be laid out', () => {
+		const t = gate(['(אָב', 'אַבָּא'], {
+			display: '({0}, {1})',
+			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+		});
+		expect(t.failures[0]).toContain('unsettleable');
+	});
+
+	it('fails a display quietly dropped from a line that has one', () => {
+		// The mark that keeps the other two from passing on a run that
+		// stopped writing templates: without it, mark 2 simply returns.
+		const t = gate(['אָב'], { headwords: [{ text: 'אָב' }] });
+		expect(t.failures[0]).toContain('display is unset');
+	});
+
+	it('counts an `=` line as unsettleable', () => {
+		const t = gate(['אִידְרְעָא = אֶדְרְעָא'], {
+			headwords: [{ text: 'אִידְרְעָא = אֶדְרְעָא' }],
+		});
+		expect(t.failures).toEqual([]);
 	});
 });
 
