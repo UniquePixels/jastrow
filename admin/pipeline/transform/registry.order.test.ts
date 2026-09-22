@@ -360,18 +360,14 @@ describe('registry order', () => {
 		);
 	});
 
-	// THE FIFTH DIRECTION PIN, moved here from a retired corpus check
-	// (consolidation step 5, `docs/v2/retired-corpus-checks.md`), which
-	// held it in the shape of the corpus disagreement: composed
-	// paren-first the phrase rule fires 236 times, phrase-first 235
-	// (`B00780`, `A02403`; `registry.ts` carries the mechanism). The pair
-	// is declared `entangledWith`, so rule 2 requires them adjacent, and
-	// adjacency is direction-blind. This is what holds the direction.
-	it('parenAltHeadword runs STRICTLY BEFORE phraseAltHeadwordStub', () => {
-		expect(at('parenthesized-alt-headword')).toBeLessThan(
-			at('phrase-alt-headword-stub'),
-		);
-	});
+	// THE FIFTH DIRECTION PIN went with its pair. `parenAltHeadword`
+	// before `phraseAltHeadwordStub` was the one direction this block
+	// held that came from a corpus disagreement (236 records paren-first
+	// against 235 phrase-first) rather than from reading the modules —
+	// and headword-design §2 unregistered both rules on 2026-09-21, so
+	// there is no longer an order for them to be in. The catalogue still
+	// records the entanglement, which is why `entangledClusters` drops
+	// from eight clusters to seven rather than from eight to eight.
 
 	// Rule 4, UNLINK BEFORE WRAP — see the header for why. Asserted
 	// over the whole of BOTH sets, never over the ids that happen to be
@@ -522,7 +518,6 @@ describe('registry order', () => {
 			// fail-closed here loses a correct repair rather than
 			// preventing a wrong one.
 			['holam-migrated-off-mater-vav', 'v-sub-redirect-stub-mislink'],
-			['parenthesized-alt-headword', 'phrase-alt-headword-stub'],
 		]);
 	});
 
@@ -532,7 +527,11 @@ describe('registry order', () => {
 	// there being no clusters at all.
 	it('every derived cluster occupies a gap-free span', () => {
 		const clusters = entangledClusters(catalogue, RULES);
-		expect(clusters).toHaveLength(8);
+		// EIGHT became SEVEN on 2026-09-21: `parenthesized-alt-headword`
+		// and `phrase-alt-headword-stub` were unregistered, and a cluster
+		// needs two REGISTERED members to be one the registry can get
+		// wrong.
+		expect(clusters).toHaveLength(7);
 		for (const cluster of clusters) {
 			const span = Math.max(...cluster.at) - Math.min(...cluster.at) + 1;
 			expect(`${cluster.ids.join(', ')} span ${span}`).toBe(

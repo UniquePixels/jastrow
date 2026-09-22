@@ -10,6 +10,16 @@
  * rules, which is a narrower safety posture than batches 1-4 ran under
  * and is stated here rather than left to be discovered.
  *
+ * **TWO OF THE FOUR LEFT ON 2026-09-21** with the headword-design §2
+ * adoption. `parenthesized-alt-headword` deleted print's grouping
+ * delimiters, which §2 keeps as structure in `display`; and
+ * `phrase-alt-headword-stub` expanded a geresh-abbreviated alternate,
+ * which §4's HW-no-expand row stops — an abbreviated alternate is now
+ * kept as printed and marked `partial`. Neither had anywhere to put
+ * what it was deleting; the line parser does. Their sub-shape
+ * taxonomies and the seven-bucket evidence live on in
+ * `docs/archive/transform-batch-5.md` and the decisions index.
+ *
  * The rules live in ONE module because they share an OBJECT, not a
  * mechanism. The anchor-boundary rules split across four modules because the
  * mechanism determined which gate could see the change; here one gate
@@ -17,355 +27,17 @@
  * one context.
  */
 import type { SourceEntry } from '../../body/types.ts';
-import type { Rule, TransformRecord, TransformResult } from '../types.ts';
+import type { Rule, TransformResult } from '../types.ts';
 
-// Hoisted per lint/performance/useTopLevelRegex. None carries `g` where
-// it is handed to `.test()`; `lastIndex` on a shared literal would
-// otherwise make the same input answer differently on alternate calls.
-const ANY_PAREN = /[()]/u;
-const STRIP_PARENS = /[()]/gu;
-const STRIP_WHITESPACE = /\s+/gu;
-
-/**
- * Delete print's grouping delimiters and normalise the whitespace the
- * deletion leaves behind.
- *
- * The collapse is part of the operation and not a tidy-up after it: 7
- * occurrences carry a space adjacent to a delimiter and 12 would hold a
- * doubled space without it, `'(פַּנְיָה ) I'` becoming `'פַּנְיָה  I'`.
- * Deleting whitespace shrinks the text multiset, so neither half of
- * this needs an `allows`.
- */
-function strip(item: string): string {
-	return item.replace(STRIP_PARENS, '').replace(STRIP_WHITESPACE, ' ').trim();
-}
-
-/**
- * The two occurrences whose parentheses are NOT print's grouping
- * delimiters, refused by SHAPE rather than by rid (spec §3.4).
- *
- * - **Interior optional-letter** — one delimiter of each kind, the
- *   close terminal, the open somewhere other than the start:
- *   `'אִיסְפְּלָנִית(א)'`, print's convention for a form attested with and
- *   without the final aleph. Stripping yields the plene reading and
- *   silently discards the other one.
- * - **Stray close** — a close delimiter with no open in the item and
- *   not at its end: `'אֵינָשׁ) אִינְשָׁא'`, the §3.1 tear landing at the
- *   wrong offset, its open living in a different item. Stripping yields
- *   `'אֵינָשׁ אִינְשָׁא'`, a two-word item that is neither a phrase lemma
- *   nor a spelling of anything. Repairing it means re-splitting, which
- *   is a different operation.
- *
- * A rule that quietly widened to cover these would be the
- * failure mode — a rule claiming a population nothing gave it. The
- * corpus test asserts that this predicate selects exactly `A01480` and
- * `A01394` and no others.
- */
-function refusesStrip(item: string): boolean {
-	const trimmed = item.trim();
-	const opens = trimmed.split('(').length - 1;
-	const closes = trimmed.split(')').length - 1;
-	if (opens === 0 && closes === 1) {
-		return !trimmed.endsWith(')');
-	}
-	if (opens !== 1 || closes !== 1 || !trimmed.endsWith(')')) {
-		return false;
-	}
-	return !(trimmed.startsWith('(') || trimmed.startsWith('*('));
-}
-
-/**
- * Rewrite `alt_headwords` item by item and collect one record per
- * CHANGED ITEM, so `detail` names the occurrence rather than the entry.
- * `count.ts` measures entries with a non-empty `records`, so the finer
- * granularity costs nothing there and buys a readable migration report.
- *
- * The entry is returned BY IDENTITY when nothing changed. That is the
- * contract `types.ts` states and the reason it matters is not
- * performance: `run.ts` aliases the input and hands both sides to the
- * gates, which compare values, so a rule that mutated in place would
- * make every gate read the already-changed text on both sides and
- * report clean no matter what it did.
- */
-function overAltHeadwords(
-	entry: SourceEntry,
-	ruleId: string,
-	rewrite: (item: string) => string,
-): { entry: SourceEntry; records: TransformRecord[] } {
-	const items = entry.alt_headwords;
-	if (items === undefined) {
-		return { entry, records: [] };
-	}
-	const records: TransformRecord[] = [];
-	const next = items.map((item) => {
-		const written = rewrite(item);
-		if (written !== item) {
-			records.push({ detail: `${item} → ${written}`, rid: entry.rid, ruleId });
-		}
-		return written;
-	});
-	return {
-		entry: records.length === 0 ? entry : { ...entry, alt_headwords: next },
-		records,
-	};
-}
-
-/**
- * `parenthesized-alt-headword` — 654 occurrences / 580 entries.
- *
- * **THE CATALOGUE'S DESCRIPTION IS WRONG, AND THE WAY IT IS WRONG IS
- * THIS ROW'S FINDING.** It reads *"alt_headwords item wrapped in the
- * print parentheses, sometimes unclosed"*. The items are not unclosed.
- * Print sets ONE parenthetical group holding several variant forms, and
- * the upstream comma-split cut the group at its internal comma, leaving
- * a delimiter on each fragment:
- *
- * ```
- * A00083  headword אַבְזָקַת   alt_headwords ['(אַבְזָקָא', 'אַבְזָקָה)']
- * ```
- *
- * 69 of the 84 open-only items pair with a later close-only item in the
- * same array — 52 adjacent, 17 spanning one or two intervening items
- * that are inside the parentheses too. Only 28 are genuinely orphaned.
- * All of it was pinned in `headword-census.ts`, archived at
- * `refs/tags/archive/v2-research-2026-09` (consolidation spec §8); it was
- * asserted by a retired corpus check.
- *
- * **RULING: strip the delimiters, add no new form-object mark.** *Reversed
- * in intent 2026-09-20 — `docs/v2/headword-design.md` §4 keeps the
- * grouping as structure in `display`; this rule still runs as written
- * until that lands.*
- *
- * The parens are print's grouping punctuation around a run of variant
- * readings, not part of any lemma, and `altHeadwords` survives into v2
- * as form objects whose `text` is a lookup key — one reading `'(אוֹב)'`
- * matches nothing a user will type.
- *
- * Because the ruling is *strip only*, every sub-shape produces the same
- * output under one blanket operation. **The seven-bucket taxonomy is
- * this rule's EVIDENCE that the blanket strip is safe, not a branch in
- * its code**; stating it the other way round would invite three rules
- * where one is correct.
- *
- * Declares nothing on `TransformResult`. It only deletes, so its output
- * is a strict sub-multiset of its input.
- *
- * **FORWARD HAZARD for whoever writes `migrate.ts`:** all 18 starred
- * `alt_headwords` items in the corpus also carry parentheses
- * (`'*(אוּסְיָא)'`), and they are the same 18 the data architecture
- * reports as *"529 Roman, 18 starred"*. After this rule all 18 are bare
- * `*X`, a shape the source has never held. A reconstructed-mark
- * decomposer written to `^\*` works either way; one written to the
- * observed `*(` shape would silently stop marking all 18. Asserted in
- * the corpus test so it is a failing test rather than a lost paragraph.
- */
-const parenAltHeadword: Rule = {
-	apply: (entry: SourceEntry): TransformResult => {
-		const { entry: next, records } = overAltHeadwords(
-			entry,
-			'parenthesized-alt-headword',
-			(item) =>
-				ANY_PAREN.test(item) && !refusesStrip(item) ? strip(item) : item,
-		);
-		return { entry: next, records };
-	},
-	id: 'parenthesized-alt-headword',
-	phase: 'text-repairs',
-};
-
-// ---------------------------------------------------------------- rule 2
-
+// Hoisted per lint/performance/useTopLevelRegex. Neither carries `g`
+// where it is handed to `.test()`; `lastIndex` on a shared literal
+// would otherwise make the same input answer differently on alternate
+// calls.
 const GERESH = '׳';
-const HEBREW_LETTER = /[א-ת]/u;
-const ROMAN_MARK = /^[IVXLC]+$/u;
-const SUPERSCRIPT = /[¹²³⁰-₟]/u;
 const LEADING_STAR = /^\*/u;
 const WHITESPACE_SPLIT = /\s+/u;
 
-/** The headword as a lookup token: the reconstruction mark and the
- * homograph/disambiguator marks removed, leaving the spelling itself.
- * Substituting `*כְּפַר` would file a reconstruction mark into the middle
- * of a phrase, and `מְקוֹשֵׁשׁ II` would carry a homograph numeral into a
- * toponym.
- *
- * **FAIL-CLOSED ON A MARK THIS DOES NOT KNOW HOW TO SEPARATE.**
- * `ROMAN_MARK` is anchored and so only ever drops a whole token, but
- * `SUPERSCRIPT` is a bare character class: a token like `'אב²'` would be
- * dropped ENTIRELY, silently losing its letters into a substitution that
- * still looks plausible. Measured at ZERO in this corpus — no headword
- * token carries a superscript attached to letters — but that is a fact
- * about today's snapshot, and this pipeline re-fetches. So a dropped
- * token that carried a Hebrew letter returns `''` instead, which
- * `expandStub` reads as a refusal.
- *
- * The alternative, stripping the mark out of the token, would invent a
- * spelling decision the source did not make. Declining is the same
- * answer this family gives everywhere else it cannot see the whole
- * picture. */
-function headwordToken(headword: string): string {
-	const tokens = headword
-		.trim()
-		.replace(LEADING_STAR, '')
-		.split(WHITESPACE_SPLIT);
-	const dropped = tokens.filter(
-		(t) => ROMAN_MARK.test(t) || SUPERSCRIPT.test(t),
-	);
-	if (dropped.some((t) => HEBREW_LETTER.test(t))) {
-		return '';
-	}
-	return tokens
-		.filter((t) => !(ROMAN_MARK.test(t) || SUPERSCRIPT.test(t)))
-		.join(' ')
-		.trim();
-}
-
-/** Index of the last Hebrew letter in `text`, or −1. Points are not
- * letters, so this finds the consonant the geresh truncates. */
-function lastLetterIndex(text: string): number {
-	let found = -1;
-	for (let i = 0; i < text.length; i++) {
-		if (HEBREW_LETTER.test(text.charAt(i))) {
-			found = i;
-		}
-	}
-	return found;
-}
-
-/** The run of points sitting on `text`'s FIRST Hebrew letter. */
-function leadingMarks(text: string): string {
-	let i = 1;
-	while (i < text.length && !HEBREW_LETTER.test(text.charAt(i))) {
-		i++;
-	}
-	return text.slice(1, i);
-}
-
-/**
- * Expand one geresh-stubbed token against the entry's headword, or
- * return `undefined` to refuse.
- *
- * **WHAT THIS INFERS, WHICH IS THE ONLY QUESTION THAT MATTERS HERE.**
- * `abbrev-in-alt-headwords` was killed because expansion there
- * assumes *"the headword's remaining vowels are the variant's"* — a
- * variant spelling exists BECAUSE it differs, so the transfer is
- * untestable. The same ruling names
- * this row as *"probably survives — substitutes a whole headword token,
- * no vowel inference"*, and the distinction is real: these stubs are
- * not variant spellings OF the headword, they are the headword itself
- * standing inside a phrase lemma, so restoring it infers nothing.
- *
- * **BUT THE MEASUREMENT FOUND AN EDGE THE RULING DID NOT ANTICIPATE.**
- * 58 of the 244 stubs carry points on their final letter, and in 6 of
- * those the stub's own pointing DISAGREES with the headword's —
- * `T00566` writes `רְ׳` where the headword reads `רִטִיבְתָּא`, sheva
- * against hiriq. Substituting would override a vowel the source
- * explicitly wrote in this very field with a different one from
- * another field, which is the ruling's own half 2 applied to one
- * letter. **Those six are REFUSED**, fail-closed: where the source's
- * two fields disagree about a vowel, this rule declines rather than
- * picks. The other 52 agree exactly, so nothing is chosen there.
- *
- * Four further refusals by shape, all of them ambiguity rather than
- * damage:
- *
- * - more than one geresh token in the item (`H00247`, `'בַּר׳ ח׳'` —
- *   which token is the headword's?);
- * - a stub whose final letter is not the headword's first (`A02403`,
- *   `'אסת׳'` against `אַסְטְרוֹלוֹגְיָא`, a three-consonant truncation
- *   rather than an initial);
- * - anything following the geresh inside the token;
- * - no Hebrew letter before the geresh at all.
- */
-function expandStub(
-	item: string,
-	headword: string,
-): { copied: string; written: string } | undefined {
-	const tokens = item.trim().split(WHITESPACE_SPLIT);
-	if (tokens.filter((t) => !ROMAN_MARK.test(t)).length < 2) {
-		return;
-	}
-	const stubs = tokens.filter((t) => t.includes(GERESH));
-	if (stubs.length !== 1) {
-		return;
-	}
-	const stub = stubs[0] ?? '';
-	const cut = stub.indexOf(GERESH);
-	if (stub.slice(cut + 1) !== '') {
-		return;
-	}
-	const head = stub.slice(0, cut);
-	const at = lastLetterIndex(head);
-	const lemma = headwordToken(headword);
-	if (at < 0 || head.charAt(at) !== lemma.charAt(0)) {
-		return;
-	}
-	const onStub = head.slice(at + 1);
-	if (onStub !== '' && onStub !== leadingMarks(lemma)) {
-		return;
-	}
-	const written = `${head.slice(0, at)}${lemma}`;
-	return {
-		copied: lemma,
-		written: tokens.map((t) => (t === stub ? written : t)).join(' '),
-	};
-}
-
-/**
- * `phrase-alt-headword-stub` — 244 occurrences / 236 entries.
- *
- * A complete multi-word lemma — usually a toponym or a compound —
- * whose headword token print abbreviated to an initial plus geresh:
- * `בֵּית ז׳` (Beth Zabdin), `נְהַר פּ׳` (Nehar Papa), `כְּפַר א׳`. The row was
- * CARVED OUT of `abbrev-in-alt-headwords` by that row's audit precisely
- * because a transform written to the parent's description *"would file
- * 236 phrases into the alt-spelling index as spellings"* of the
- * headword, which they are not.
- *
- * **THE PREDICATE MUST DELETE ROMAN HOMOGRAPH MARKS BEFORE COUNTING
- * TOKENS.** The naive reading — a geresh and a space — selects 410
- * entries / 419 occurrences, and the 175 extra are single-word stubs
- * carrying a homograph numeral (`'אֲמוּ׳ II'`) that belong to the
- * parent's job 1, for which no deterministic expansion exists. A rule
- * that expanded those would be inventing spellings. A corpus check
- * pinned the shape of the mistake; it is retired
- * (`docs/v2/retired-corpus-checks.md`).
- *
- * **THE REGISTRY'S FIRST `copied` USER.** This is the only rule in
- * this family that adds text, and `types.ts` names this exact case on
- * `allows`: *"A copy of existing per-entry text (the tail of a headword
- * recovered into an alt-headword, say) cannot be expressed here — the
- * copied bytes differ per entry, not per rule. Declare those through
- * `TransformResult.copied` instead."* One declaration per substitution,
- * credited as a multiset, each verified against the entry's own input
- * before it is allowed.
- *
- * What `expandStub` refuses, and why, is on that function.
- */
-const phraseAltHeadwordStub: Rule = {
-	apply: (entry: SourceEntry): TransformResult => {
-		const copied: string[] = [];
-		const { entry: next, records } = overAltHeadwords(
-			entry,
-			'phrase-alt-headword-stub',
-			(item) => {
-				if (!item.includes(GERESH)) {
-					return item;
-				}
-				const done = expandStub(item, entry.headword);
-				if (done === undefined) {
-					return item;
-				}
-				copied.push(done.copied);
-				return done.written;
-			},
-		);
-		return { copied, entry: next, records };
-	},
-	id: 'phrase-alt-headword-stub',
-	phase: 'text-repairs',
-};
-
-// ---------------------------------------------------------------- rule 3
+// ---------------------------------------------------------------- rule 1
 
 /** Fused headwords some other entry's anchor points at by their OLD
  * string. Rewriting them would break a live link, so they are declined.
@@ -480,7 +152,7 @@ const abbrevFusedHeadword: Rule = {
 	phase: 'text-repairs',
 };
 
-// ---------------------------------------------------------------- rule 4
+// ---------------------------------------------------------------- rule 2
 
 /**
  * `gender-pair-headword-line-collapse` — 22 entries.
@@ -559,15 +231,4 @@ const genderPairAltDuplicate: Rule = {
 	phase: 'text-repairs',
 };
 
-export {
-	abbrevFusedHeadword,
-	expandStub,
-	genderPairAltDuplicate,
-	headwordToken,
-	LINKED_HEADWORDS,
-	overAltHeadwords,
-	parenAltHeadword,
-	phraseAltHeadwordStub,
-	refusesStrip,
-	strip,
-};
+export { abbrevFusedHeadword, genderPairAltDuplicate, LINKED_HEADWORDS };

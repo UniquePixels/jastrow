@@ -7,6 +7,7 @@ import {
 	entangledClusters,
 	ORDERED,
 	PENDING,
+	RETIRED,
 	RULES,
 	unaccountedEdges,
 } from './registry.ts';
@@ -24,23 +25,40 @@ describe('registry coverage', () => {
 		}
 	});
 
-	it('every transform row is registered or explicitly pending', () => {
+	it('every transform row is registered, pending or retired', () => {
 		const report = coverage(catalogue);
 		expect(report.unaccounted).toEqual([]);
-		// A real claim, not an identity: `pending` is counted from
-		// `PENDING` rather than as the complement of `registered`, so the
-		// sum only holds if every row belongs to exactly one list.
-		expect(report.registered + report.pending).toBe(report.total);
+		// A real claim, not an identity: each term is counted from its own
+		// list rather than as the complement of the others, so the sum
+		// only holds if every row belongs to exactly one.
+		expect(report.registered + report.pending + report.retired.length).toBe(
+			report.total,
+		);
+	});
+
+	// The two rules headword-design §2 unregistered. Named, not merely
+	// absent: a row nobody has looked at and a row a maintainer ruled
+	// out are the same silence to `unaccounted`, and this is what tells
+	// them apart. Each `RETIRED` entry cites the ruling.
+	it('names the retired rows and why', () => {
+		expect(coverage(catalogue).retired.toSorted()).toEqual([
+			'parenthesized-alt-headword',
+			'phrase-alt-headword-stub',
+		]);
+		for (const row of RETIRED) {
+			expect(row.by).toMatch(/2026-09-2[01]/u);
+		}
 	});
 
 	// The disjointness minor, deferred since the registry landed: a row
 	// cannot both have a rule and be waiting for one. Cheap to assert,
 	// and it is what stops the sum above from being satisfiable by
 	// double-counting.
-	it('RULES and PENDING are disjoint', () => {
+	it('RULES, PENDING and RETIRED are disjoint', () => {
 		expect(coverage(catalogue).duplicated).toEqual([]);
 		const registered = new Set(RULES.map((rule) => rule.id));
 		expect(PENDING.filter((id) => registered.has(id))).toEqual([]);
+		expect(RETIRED.filter((r) => registered.has(r.row))).toEqual([]);
 	});
 
 	// 68, not the 80 this asserted after batch 1, nor the 81 it asserted
