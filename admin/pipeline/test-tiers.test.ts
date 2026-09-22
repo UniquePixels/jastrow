@@ -39,10 +39,9 @@
  * signals could see it (review 2026-09-21, report-code §6). A claim
  * about coverage is only worth what its detector actually matches.
  *
- * It does NOT see a test that reaches the corpus INDIRECTLY — by calling
- * `count.ts` or `patch/apply-cli.ts`, each of which holds
- * its own no-argument read. No test does that today, and the
- * measurement says so rather
+ * It does NOT see a test that reaches the corpus INDIRECTLY — by
+ * calling `count.ts`, which holds its own no-argument read. No test
+ * does that today, and the measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds
  * 0.11 s, which a 41 MB read cannot fit under — except
  * `migrate/truth.test.ts` (~1.3 s), which reads the 32,512 committed

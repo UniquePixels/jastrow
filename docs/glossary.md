@@ -47,12 +47,10 @@ The `data:` prefix groups the commands that move data from one form to
 the next, and only those. Step 10 gave it to `fetch` and `import` and
 reserved it for `compile`; no other script took it. Every other script
 keeps a prefix naming the module it runs — `headword:issues`,
-`patch:replay`, `transform:count`, `transform:invariants` — or checks
-the repo (`qa`, `qa:*`). `body:dry-run` and `pageindex:verify` left
-with the one-shot tools they ran (2026-09-22).
-`pipeline:patches` became `patch:replay` in the same sweep, leaving no
-lone `pipeline:` prefix: it replays the committed patch corpus
-read-only and moves no data, so `data:` would have misdescribed it.
+`transform:count`, `transform:invariants` — or checks the repo (`qa`,
+`qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
+tools they ran (2026-09-22); `patch:replay` left with `patch/apply-cli.ts`
+the same day (Brian's ruling — see the retired terms below).
 
 ## The import run
 
@@ -152,7 +150,7 @@ What a run reports for each patch:
 | truth, truth tree | entry data |
 | migrate, migration (the command and the run) | import |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |
-| `research:apply`, then `pipeline:patches` | `patch:replay` |
+| `research:apply`, then `pipeline:patches`, then `patch:replay` | nothing: deleted 2026-09-22 (Brian's ruling) — redundant with import's own patch preflight, and could not complete on the corpus, blocking on the ~600 `needs_*` escalations import deliberately defers |
 | `body:dry-run`, `body/dry-run.ts` | **`body/trace.ts`** (the composition `migrate.ts` imports) and **`body/round-trip.ts`** (the verifier the gate calls) — the full-corpus CLI and `dry-run-report.ts` were archived at `refs/tags/archive/v2-research-2026-09` on 2026-09-22 |
 | `pageindex:verify`, `page-index/verify.ts` | nothing: archived to the same tag on 2026-09-22; it compared a build against v1 `--prior` data the v2 tree no longer holds |
 | `body/types.ts`, `body/compose.ts` | **`admin/pipeline/types.ts`** and **`admin/pipeline/compose.ts`** — the shared model and the orchestrator are not body-specific (2026-09-22, review Q9) |

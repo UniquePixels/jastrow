@@ -17,10 +17,13 @@
  * consumer-facing output. `createPhaseTracker` asserts that order at
  * runtime; a violated assertion aborts the run (`PhaseViolation`).
  *
- * Run (dry, read-only): bun patch:replay, whose entry point is
- * `patch/apply-cli.ts` — it composes each entry through
- * `compose.ts` first, so it judges anchors against the same
- * state `data:import` applies them to.
+ * `bun data:import`'s `preparePatches` (`migrate.ts`) is the one
+ * consumer of the corpus split and preflight built here. The dry,
+ * read-only replay that used to exercise this module on its own —
+ * `bun patch:replay`, `patch/apply-cli.ts` — was deleted 2026-09-22
+ * (Brian's ruling): it duplicated import's own preflight and could
+ * not complete on the corpus, blocking on the ~600 `needs_*`
+ * escalations import deliberately defers.
  */
 import { existsSync } from 'node:fs';
 import type { SourceEntry } from '../types.ts';
@@ -781,7 +784,6 @@ export {
 	createPhaseTracker,
 	loadAcceptedCorpus,
 	loadCorpus,
-	loadManifest,
 	loadReviewedCorpus,
 	orderedDirs,
 	PHASE_MANIFEST,

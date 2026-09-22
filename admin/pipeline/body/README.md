@@ -25,7 +25,7 @@ feeding Stage 2 (import).
 | `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | archived at `refs/tags/archive/v2-research-2026-09` |
 | `repairs.ts` | General, corpus-wide import repairs (Task 16); the rid-keyed tables moved to reviewed patches in `data/patches/reviewed/` (consolidation step 8, spec §4.1) | done |
 | `../types.ts` | Shared upstream (`Source*`) and target (`Body*`) type vocabulary. **Moved to the pipeline root 2026-09-22**: every stage imports it, so it was never body-specific |
-| `../compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts`. **Moved to the pipeline root 2026-09-22** for the same reason |
+| `../compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; used by `migrate.ts`. **Moved to the pipeline root 2026-09-22** for the same reason |
 | `migrate-dry.ts` | Repairs + composition + gates over the healed snapshot, import report | archived at `refs/tags/archive/v2-research-2026-09` |
 
 ## Source reader (`source.ts`, `../types.ts`)
