@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01182",
-	"slug": "געגע-1",
-	"headword": {
-		"text": "גִּעְגֵּעַ"
-	},
+	"sefariaHeadword": "גִּעְגֵּעַ",
+	"headwords": [
+		{
+			"text": "גִּעְגֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

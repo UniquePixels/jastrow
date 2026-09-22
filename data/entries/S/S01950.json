@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01950",
-	"slug": "קרומלים",
-	"headword": {
-		"text": "קְרוּמְלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרוּמְלִים",
+	"headwords": [
+		{
+			"text": "קְרוּמְלִים"
+		},
 		{
 			"text": "קְרוּמְנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1414,
 		"column": "a"

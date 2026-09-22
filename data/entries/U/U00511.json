@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00511",
-	"slug": "שופרא-2",
-	"headword": {
-		"text": "שׁוּפְרָא"
-	},
+	"sefariaHeadword": "שׁוּפְרָא",
+	"headwords": [
+		{
+			"text": "שׁוּפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "b"

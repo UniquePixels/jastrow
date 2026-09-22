@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01758",
-	"slug": "קפלטית",
-	"headword": {
-		"text": "קפלטית"
-	},
+	"sefariaHeadword": "קפלטית",
+	"headwords": [
+		{
+			"text": "קפלטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

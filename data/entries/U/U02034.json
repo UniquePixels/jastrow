@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02034",
-	"slug": "שררותא",
-	"headword": {
-		"text": "שְׂרָרוּתָא"
-	},
+	"sefariaHeadword": "שְׂרָרוּתָא",
+	"headwords": [
+		{
+			"text": "שְׂרָרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "b"

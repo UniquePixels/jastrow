@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01089",
-	"slug": "חלמה-1",
-	"headword": {
-		"text": "חֲלָמָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲלָמָה II",
+	"headwords": [
+		{
+			"text": "חֲלָמָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 471,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02012",
-	"slug": "שרף-10",
-	"headword": {
-		"text": "שְׂרָף"
-	},
+	"sefariaHeadword": "שְׂרָף",
+	"headwords": [
+		{
+			"text": "שְׂרָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1633,
 		"column": "a"

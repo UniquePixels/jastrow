@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00811",
-	"slug": "הרבעה",
-	"headword": {
-		"text": "הַרְבָּעָה"
-	},
+	"sefariaHeadword": "הַרְבָּעָה",
+	"headwords": [
+		{
+			"text": "הַרְבָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "a"

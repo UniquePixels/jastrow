@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01310",
-	"slug": "אילפא-1",
-	"headword": {
-		"text": "אִילפָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִילפָא I",
+	"headwords": [
+		{
+			"text": "אִילפָא",
+			"homograph": 1
+		},
 		{
 			"text": "אִלְפָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 50,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00997",
-	"slug": "גמאין",
-	"headword": {
-		"text": "גְּמָאִין"
-	},
+	"sefariaHeadword": "גְּמָאִין",
+	"headwords": [
+		{
+			"text": "גְּמָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "b"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01331",
-	"slug": "שליף-3",
-	"headword": {
-		"text": "שְׁלִיף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלִיף ²",
+	"headwords": [
+		{
+			"text": "שְׁלִיף",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁלִיפָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1584,
 		"column": "a"

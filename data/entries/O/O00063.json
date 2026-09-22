@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00063",
-	"slug": "סבך-1",
-	"headword": {
-		"text": "סָבַךְ"
-	},
+	"sefariaHeadword": "סָבַךְ",
+	"headwords": [
+		{
+			"text": "סָבַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

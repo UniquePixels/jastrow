@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00332",
-	"slug": "גווכיא",
-	"headword": {
-		"text": "גווכיא"
-	},
+	"sefariaHeadword": "גווכיא",
+	"headwords": [
+		{
+			"text": "גווכיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "b"

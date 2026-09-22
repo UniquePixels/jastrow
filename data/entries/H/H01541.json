@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01541",
-	"slug": "חצצתא",
-	"headword": {
-		"text": "חֲצַצְתָּא"
-	},
+	"sefariaHeadword": "חֲצַצְתָּא",
+	"headwords": [
+		{
+			"text": "חֲצַצְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 496,
 		"column": "a"

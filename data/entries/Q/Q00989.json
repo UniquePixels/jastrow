@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00989",
-	"slug": "פלוקמיא",
-	"headword": {
-		"text": "פלוקמיא"
-	},
+	"sefariaHeadword": "פלוקמיא",
+	"headwords": [
+		{
+			"text": "פלוקמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

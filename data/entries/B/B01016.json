@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01016",
-	"slug": "בסרנותא",
-	"headword": {
-		"text": "בַּסְרָנוּתָא"
-	},
+	"sefariaHeadword": "בַּסְרָנוּתָא",
+	"headwords": [
+		{
+			"text": "בַּסְרָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "a"

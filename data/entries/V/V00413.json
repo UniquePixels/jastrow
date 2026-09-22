@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00413",
-	"slug": "תיבלטירין",
-	"headword": {
-		"text": "תיבלטירין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תיבלטירין",
+	"headwords": [
+		{
+			"text": "תיבלטירין"
+		},
 		{
 			"text": "תיבלטרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "b"

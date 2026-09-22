@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02806",
-	"slug": "אפרוח",
-	"headword": {
-		"text": "אֶפְרוֹחַ"
-	},
+	"sefariaHeadword": "אֶפְרוֹחַ",
+	"headwords": [
+		{
+			"text": "אֶפְרוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00431",
-	"slug": "סוריקא",
-	"headword": {
-		"text": "סוּרְיָקָא"
-	},
+	"sefariaHeadword": "סוּרְיָקָא",
+	"headwords": [
+		{
+			"text": "סוּרְיָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00724",
-	"slug": "כלידו",
-	"headword": {
-		"text": "כלידו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כלידו",
+	"headwords": [
+		{
+			"text": "כלידו"
+		},
 		{
 			"text": "כלידים"
 		},
@@ -15,6 +16,7 @@
 			"text": "כלידרין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 642,
 		"column": "a"

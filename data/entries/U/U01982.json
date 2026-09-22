@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01982",
-	"slug": "שריפה-2",
-	"headword": {
-		"text": "שְׂרֵיפָה"
-	},
+	"sefariaHeadword": "שְׂרֵיפָה",
+	"headwords": [
+		{
+			"text": "שְׂרֵיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

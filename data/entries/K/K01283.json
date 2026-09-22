@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01283",
-	"slug": "כרתא",
-	"headword": {
-		"text": "כָּרָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרָתָא",
+	"headwords": [
+		{
+			"text": "כָּרָתָא"
+		},
 		{
 			"text": "כָּרָתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 674,
 		"column": "b"

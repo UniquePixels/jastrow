@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01772",
-	"slug": "חרר-9",
-	"headword": {
-		"text": "חֵרַר"
-	},
+	"sefariaHeadword": "חֵרַר",
+	"headwords": [
+		{
+			"text": "חֵרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 506,
 		"column": "b"

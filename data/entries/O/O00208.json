@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00208",
-	"slug": "סדרן-1",
-	"headword": {
-		"text": "סַדְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַדְרָן",
+	"headwords": [
+		{
+			"text": "סַדְרָן"
+		},
 		{
 			"text": "סוֹדְרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 959,
 		"column": "a"

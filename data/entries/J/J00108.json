@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00108",
-	"slug": "ידעוני",
-	"headword": {
-		"text": "יִדְעוֹנִי"
-	},
+	"sefariaHeadword": "יִדְעוֹנִי",
+	"headwords": [
+		{
+			"text": "יִדְעוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 565,
 		"column": "a"

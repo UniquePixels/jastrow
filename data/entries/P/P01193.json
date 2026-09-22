@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01193",
-	"slug": "עקלא",
-	"headword": {
-		"text": "עִקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִקְלָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִקְלָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1106,
 		"column": "b"

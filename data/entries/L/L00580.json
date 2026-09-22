@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00580",
-	"slug": "למס-2",
-	"headword": {
-		"text": "לַמָּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לַמָּס",
+	"headwords": [
+		{
+			"text": "לַמָּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 713,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00022",
-	"slug": "צבאתא",
-	"headword": {
-		"text": "צִבָּאתָא"
-	},
+	"sefariaHeadword": "צִבָּאתָא",
+	"headwords": [
+		{
+			"text": "צִבָּאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "b"

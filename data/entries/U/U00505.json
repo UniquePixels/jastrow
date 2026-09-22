@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00505",
-	"slug": "שופנא",
-	"headword": {
-		"text": "שׁוֹפָנָא"
-	},
+	"sefariaHeadword": "שֹׁופָנָא",
+	"headwords": [
+		{
+			"text": "שׁוֹפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00500",
-	"slug": "בטח-3",
-	"headword": {
-		"text": "בְּטַח",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּטַח II",
+	"headwords": [
+		{
+			"text": "בְּטַח",
+			"homograph": 2
+		},
 		{
 			"text": "אַבְטַח"
 		},
@@ -13,6 +14,7 @@
 			"text": "אַבְטַי"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 156,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00232",
-	"slug": "נדן-2",
-	"headword": {
-		"text": "נָדָן"
-	},
+	"sefariaHeadword": "נָדָן",
+	"headwords": [
+		{
+			"text": "נָדָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

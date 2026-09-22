@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00358",
-	"slug": "נוכזריא",
-	"headword": {
-		"text": "נוּכְזְרָיָא"
-	},
+	"sefariaHeadword": "נוּכְזְרָיָא",
+	"headwords": [
+		{
+			"text": "נוּכְזְרָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "a"

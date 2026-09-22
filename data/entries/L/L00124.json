@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00124",
-	"slug": "לגז",
-	"headword": {
-		"text": "לָגַז"
-	},
+	"sefariaHeadword": "לָגַז",
+	"headwords": [
+		{
+			"text": "לָגַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 692,
 		"column": "a"

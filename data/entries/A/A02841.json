@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02841",
-	"slug": "אפש",
-	"headword": {
-		"text": "אֶפֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפֶשׁ",
+	"headwords": [
+		{
+			"text": "אֶפֶשׁ"
+		},
 		{
 			"text": "אֶיפֶשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 109,
 		"column": "b"

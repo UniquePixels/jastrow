@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00269",
-	"slug": "צחוק",
-	"headword": {
-		"text": "צְחוֹק"
-	},
+	"sefariaHeadword": "צְחוֹק",
+	"headwords": [
+		{
+			"text": "צְחוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1273,
 		"column": "a"

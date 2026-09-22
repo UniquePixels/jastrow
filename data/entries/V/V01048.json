@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01048",
-	"slug": "תרפיה",
-	"headword": {
-		"text": "תרפיה"
-	},
+	"sefariaHeadword": "תרפיה",
+	"headwords": [
+		{
+			"text": "תרפיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

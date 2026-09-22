@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00065",
-	"slug": "בבלייא",
-	"headword": {
-		"text": "בַּבְלָיָיא"
-	},
+	"sefariaHeadword": "בַּבְלָיָיא",
+	"headwords": [
+		{
+			"text": "בַּבְלָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

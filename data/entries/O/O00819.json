@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00819",
-	"slug": "סיקלו",
-	"headword": {
-		"text": "סִיקְלֵו",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיקְלֵו",
+	"headwords": [
+		{
+			"text": "סִיקְלֵו",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

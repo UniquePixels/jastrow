@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00405",
-	"slug": "טיסקא",
-	"headword": {
-		"text": "טִיסְקָא"
-	},
+	"sefariaHeadword": "טִיסְקָא",
+	"headwords": [
+		{
+			"text": "טִיסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "a"

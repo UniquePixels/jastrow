@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00907",
-	"slug": "הרתא",
-	"headword": {
-		"text": "הַרְתָּא"
-	},
+	"sefariaHeadword": "הַרְתָּא",
+	"headwords": [
+		{
+			"text": "הַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

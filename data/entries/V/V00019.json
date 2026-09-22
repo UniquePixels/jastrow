@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00019",
-	"slug": "תאות",
-	"headword": {
-		"text": "תאות"
-	},
+	"sefariaHeadword": "תאות",
+	"headwords": [
+		{
+			"text": "תאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

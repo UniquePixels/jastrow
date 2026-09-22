@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02202",
-	"slug": "פתר-3",
-	"headword": {
-		"text": "פְּתַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּתַר II",
+	"headwords": [
+		{
+			"text": "פְּתַר",
+			"homograph": 2
+		},
 		{
 			"text": "פִּתְרָא"
 		},
 		{
 			"text": "פִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2} I",
 	"page": {
 		"number": 1256,
 		"column": "a"

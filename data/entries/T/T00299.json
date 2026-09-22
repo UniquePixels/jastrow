@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00299",
-	"slug": "רובד",
-	"headword": {
-		"text": "רוֹבֶד"
-	},
+	"sefariaHeadword": "רוֹבֶד",
+	"headwords": [
+		{
+			"text": "רוֹבֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1455,
 		"column": "a"

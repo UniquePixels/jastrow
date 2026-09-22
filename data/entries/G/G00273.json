@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00273",
-	"slug": "זיג-2",
-	"headword": {
-		"text": "זִיג",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זִיג ²",
+	"headwords": [
+		{
+			"text": "זִיג",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 391,
 		"column": "a"

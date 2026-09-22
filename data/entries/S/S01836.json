@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01836",
-	"slug": "קצץ-1",
-	"headword": {
-		"text": "קָצַץ"
-	},
+	"sefariaHeadword": "קָצַץ",
+	"headwords": [
+		{
+			"text": "קָצַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1407,
 		"column": "a"

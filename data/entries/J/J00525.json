@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00525",
-	"slug": "יצור",
-	"headword": {
-		"text": "יָצוּר"
-	},
+	"sefariaHeadword": "יָצוּר",
+	"headwords": [
+		{
+			"text": "יָצוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01300",
-	"slug": "ערדיסקא",
-	"headword": {
-		"text": "עַרְדִּיסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְדִּיסְקָא",
+	"headwords": [
+		{
+			"text": "עַרְדִּיסְקָא"
+		},
 		{
 			"text": "עַרְדִּיסְקוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַרְדִּיסְקיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1114,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01052",
-	"slug": "פליטון",
-	"headword": {
-		"text": "פֹּלְיָטוֹן"
-	},
+	"sefariaHeadword": "פֹּלְיָטוֹן",
+	"headwords": [
+		{
+			"text": "פֹּלְיָטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

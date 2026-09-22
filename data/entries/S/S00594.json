@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00594",
-	"slug": "קורטבניות",
-	"headword": {
-		"text": "קוּרְטַבְנִיוֹת"
-	},
+	"sefariaHeadword": "קוּרְטַבְנִיוֹת",
+	"headwords": [
+		{
+			"text": "קוּרְטַבְנִיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1342,
 		"column": "b"

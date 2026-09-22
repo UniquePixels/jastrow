@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00472",
-	"slug": "כטספטייס",
-	"headword": {
-		"text": "כטספטייס"
-	},
+	"sefariaHeadword": "כטספטייס",
+	"headwords": [
+		{
+			"text": "כטספטייס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "b"

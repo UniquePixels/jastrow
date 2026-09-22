@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00693",
-	"slug": "כלו",
-	"headword": {
-		"text": "כָּלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּלוּ",
+	"headwords": [
+		{
+			"text": "כָּלוּ"
+		},
 		{
 			"text": "כְּלוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 640,
 		"column": "a"

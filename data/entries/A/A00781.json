@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00781",
-	"slug": "אוסטולין",
-	"headword": {
-		"text": "אוסטולין"
-	},
+	"sefariaHeadword": "אוסטולין",
+	"headwords": [
+		{
+			"text": "אוסטולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "b"

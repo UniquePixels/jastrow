@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00564",
-	"slug": "למ״ד",
-	"headword": {
-		"text": "למ״ד"
-	},
+	"sefariaHeadword": "למ\"ד",
+	"headwords": [
+		{
+			"text": "למ״ד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

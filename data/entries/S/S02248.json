@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02248",
-	"slug": "קשייאתא",
-	"headword": {
-		"text": "קַשְׁיָיאתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַשְׁיָיאתָא",
+	"headwords": [
+		{
+			"text": "קַשְׁיָיאתָא"
+		},
 		{
 			"text": "קַשְׁיָיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1431,
 		"column": "b"

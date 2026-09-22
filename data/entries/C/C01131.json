@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01131",
-	"slug": "גני-1",
-	"headword": {
-		"text": "גני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גני",
+	"headwords": [
+		{
+			"text": "גני"
+		},
 		{
 			"text": "גָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 259,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01104",
-	"slug": "סמלא",
-	"headword": {
-		"text": "סְמָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְמָלָא",
+	"headwords": [
+		{
+			"text": "סְמָלָא"
+		},
 		{
 			"text": "סְמָאלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00693",
-	"slug": "זרזף",
-	"headword": {
-		"text": "זִרְזֵף"
-	},
+	"sefariaHeadword": "זִרְזֵף",
+	"headwords": [
+		{
+			"text": "זִרְזֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00237",
-	"slug": "הולכה",
-	"headword": {
-		"text": "הוֹלָכָה"
-	},
+	"sefariaHeadword": "הוֹלָכָה",
+	"headwords": [
+		{
+			"text": "הוֹלָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

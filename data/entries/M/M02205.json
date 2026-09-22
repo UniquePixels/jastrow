@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02205",
-	"slug": "מפחזנא",
-	"headword": {
-		"text": "מפחזנא"
-	},
+	"sefariaHeadword": "מפחזנא",
+	"headwords": [
+		{
+			"text": "מפחזנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

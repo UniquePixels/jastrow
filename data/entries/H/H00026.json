@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00026",
-	"slug": "חבולה",
-	"headword": {
-		"text": "חֲבוֹלָה"
-	},
+	"sefariaHeadword": "חֲבוֹלָה",
+	"headwords": [
+		{
+			"text": "חֲבוֹלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "b"

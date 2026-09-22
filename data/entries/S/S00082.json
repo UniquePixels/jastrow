@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00082",
-	"slug": "קבסיו",
-	"headword": {
-		"text": "קבסיו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קבסיו",
+	"headwords": [
+		{
+			"text": "קבסיו"
+		},
 		{
 			"text": "קִבְסַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1310,
 		"column": "b"

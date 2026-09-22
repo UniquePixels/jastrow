@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00623",
-	"slug": "סייטא",
-	"headword": {
-		"text": "סייטא"
-	},
+	"sefariaHeadword": "סייטא",
+	"headwords": [
+		{
+			"text": "סייטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "b"

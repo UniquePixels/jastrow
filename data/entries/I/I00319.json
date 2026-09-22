@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00319",
-	"slug": "טיהרי",
-	"headword": {
-		"text": "טִיהֲרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיהֲרֵי",
+	"headwords": [
+		{
+			"text": "טִיהֲרֵי"
+		},
 		{
 			"text": "טִיהֲרִירֵי"
 		},
@@ -12,9 +13,11 @@
 			"text": "טִיהַרְרֵי"
 		},
 		{
-			"text": "טִהֲ׳"
+			"text": "טִהֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 530,
 		"column": "a"

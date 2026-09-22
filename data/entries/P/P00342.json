@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00342",
-	"slug": "עור-1",
-	"headword": {
-		"text": "עוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עוּר I",
+	"headwords": [
+		{
+			"text": "עוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1057,
 		"column": "a"

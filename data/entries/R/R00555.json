@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00555",
-	"slug": "צמא-3",
-	"headword": {
-		"text": "צָמָא"
-	},
+	"sefariaHeadword": "צָמָא",
+	"headwords": [
+		{
+			"text": "צָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "b"

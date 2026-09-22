@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00490",
-	"slug": "חושך",
-	"headword": {
-		"text": "חוֹשֶׁךְ"
-	},
+	"sefariaHeadword": "חוֹשֶׁךְ",
+	"headwords": [
+		{
+			"text": "חוֹשֶׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

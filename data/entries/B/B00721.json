@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00721",
-	"slug": "בירייה",
-	"headword": {
-		"text": "בֵּירָיָיה"
-	},
+	"sefariaHeadword": "בֵּירָיָיה",
+	"headwords": [
+		{
+			"text": "בֵּירָיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

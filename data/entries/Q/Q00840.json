@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00840",
-	"slug": "פירולין",
-	"headword": {
-		"text": "פֵּירוּלִין"
-	},
+	"sefariaHeadword": "פֵּירוּלִין",
+	"headwords": [
+		{
+			"text": "פֵּירוּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

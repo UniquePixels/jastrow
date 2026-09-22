@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00291",
-	"slug": "גובעין",
-	"headword": {
-		"text": "גובעין"
-	},
+	"sefariaHeadword": "גובעין",
+	"headwords": [
+		{
+			"text": "גובעין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

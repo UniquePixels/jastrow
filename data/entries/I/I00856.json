@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00856",
-	"slug": "טרסקלין",
-	"headword": {
-		"text": "טְרַסְקְלִין"
-	},
+	"sefariaHeadword": "טְרַסְקְלִין",
+	"headwords": [
+		{
+			"text": "טְרַסְקְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00400",
-	"slug": "קומפרומיסין",
-	"headword": {
-		"text": "קוֹמְפְּרוֹמִיסִין"
-	},
+	"sefariaHeadword": "קוֹמְפְּרוֹמִיסִין",
+	"headwords": [
+		{
+			"text": "קוֹמְפְּרוֹמִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1333,
 		"column": "b"

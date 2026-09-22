@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03434",
-	"slug": "אתניסאה",
-	"headword": {
-		"text": "אתניסאה"
-	},
+	"sefariaHeadword": "אתניסאה",
+	"headwords": [
+		{
+			"text": "אתניסאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

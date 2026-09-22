@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00029",
-	"slug": "מאיסה",
-	"headword": {
-		"text": "מְאִיסָה"
-	},
+	"sefariaHeadword": "מְאִיסָה",
+	"headwords": [
+		{
+			"text": "מְאִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00719",
-	"slug": "טרוגימא",
-	"headword": {
-		"text": "טְרוֹגִימָא"
-	},
+	"sefariaHeadword": "טְרוֹגִימָא",
+	"headwords": [
+		{
+			"text": "טְרוֹגִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "b"

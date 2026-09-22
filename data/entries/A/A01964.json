@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01964",
-	"slug": "אמא-3",
-	"headword": {
-		"text": "אְמָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אְמָא I",
+	"headwords": [
+		{
+			"text": "אְמָא",
+			"homograph": 1
+		},
 		{
 			"text": "אָמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 74,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01105",
-	"slug": "מיושב",
-	"headword": {
-		"text": "מְיוּשָּׁב"
-	},
+	"sefariaHeadword": "מְיוּשָּׁב",
+	"headwords": [
+		{
+			"text": "מְיוּשָּׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

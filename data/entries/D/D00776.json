@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00776",
-	"slug": "דכין",
-	"headword": {
-		"text": "דָּכֵין"
-	},
+	"sefariaHeadword": "דָּכֵין",
+	"headwords": [
+		{
+			"text": "דָּכֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "a"

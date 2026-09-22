@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02084",
-	"slug": "קרישא",
-	"headword": {
-		"text": "קְרִישָׁא"
-	},
+	"sefariaHeadword": "קְרִישָׁא",
+	"headwords": [
+		{
+			"text": "קְרִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "b"

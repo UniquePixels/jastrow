@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00384",
-	"slug": "צין-1",
-	"headword": {
-		"text": "צִיֵּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיֵּן",
+	"headwords": [
+		{
+			"text": "צִיֵּן"
+		},
 		{
 			"text": "צִיֵּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "b"

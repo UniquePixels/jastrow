@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00072",
-	"slug": "חביננות",
-	"headword": {
-		"text": "חֲבִינָנוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבִינָנוּת",
+	"headwords": [
+		{
+			"text": "חֲבִינָנוּת"
+		},
 		{
 			"text": "חֲבִינָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 419,
 		"column": "a"

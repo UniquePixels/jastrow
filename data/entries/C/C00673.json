@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00673",
-	"slug": "גיותן",
-	"headword": {
-		"text": "גֵּיוְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיוְתָן",
+	"headwords": [
+		{
+			"text": "גֵּיוְתָן"
+		},
 		{
 			"text": "גַּאַוְתָן"
 		},
 		{
-			"text": "גֵּוְתָ׳"
+			"text": "גֵּוְתָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 236,
 		"column": "b"

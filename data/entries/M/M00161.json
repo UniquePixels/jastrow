@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00161",
-	"slug": "מגינת",
-	"headword": {
-		"text": "מָגֶינֶת"
-	},
+	"sefariaHeadword": "מָגֶינֶת",
+	"headwords": [
+		{
+			"text": "מָגֶינֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

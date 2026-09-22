@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01439",
-	"slug": "ערץ-2",
-	"headword": {
-		"text": "עֵרֶץ"
-	},
+	"sefariaHeadword": "עֵרֶץ",
+	"headwords": [
+		{
+			"text": "עֵרֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "a"

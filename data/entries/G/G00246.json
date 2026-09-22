@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00246",
-	"slug": "זחל-1",
-	"headword": {
-		"text": "זָחַל"
-	},
+	"sefariaHeadword": "זָחַל",
+	"headwords": [
+		{
+			"text": "זָחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "a"

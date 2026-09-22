@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00431",
-	"slug": "כותניאס",
-	"headword": {
-		"text": "כּוֹתְנִיאָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹתְנִיאָס",
+	"headwords": [
+		{
+			"text": "כּוֹתְנִיאָס"
+		},
 		{
 			"text": "כּוֹתְנְיָיס"
 		},
 		{
-			"text": "כּוֹתַ׳"
+			"text": "כּוֹתַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 627,
 		"column": "b"

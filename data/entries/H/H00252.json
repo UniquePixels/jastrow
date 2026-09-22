@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00252",
-	"slug": "חובתא",
-	"headword": {
-		"text": "חוֹבְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹבְתָא",
+	"headwords": [
+		{
+			"text": "חוֹבְתָא"
+		},
 		{
 			"text": "חוֹבְתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 429,
 		"column": "b"

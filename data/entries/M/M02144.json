@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02144",
-	"slug": "מעמיד",
-	"headword": {
-		"text": "מַעֲמִיד"
-	},
+	"sefariaHeadword": "מַעֲמִיד",
+	"headwords": [
+		{
+			"text": "מַעֲמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "a"

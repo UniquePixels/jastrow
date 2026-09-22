@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00768",
-	"slug": "טריא-1",
-	"headword": {
-		"text": "טִרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִרְיָא",
+	"headwords": [
 		{
-			"text": "טַרְ׳"
+			"text": "טִרְיָא"
+		},
+		{
+			"text": "טַרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "b"

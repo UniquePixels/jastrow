@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00287",
-	"slug": "בוסיא",
-	"headword": {
-		"text": "בּוּסְיָא"
-	},
+	"sefariaHeadword": "בּוּסְיָא",
+	"headwords": [
+		{
+			"text": "בּוּסְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

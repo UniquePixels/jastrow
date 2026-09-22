@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00717",
-	"slug": "ביריה",
-	"headword": {
-		"text": "בִּירְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּירְיָה",
+	"headwords": [
+		{
+			"text": "בִּירְיָה"
+		},
 		{
 			"text": "בִּירְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 166,
 		"column": "a"

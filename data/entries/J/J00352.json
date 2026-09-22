@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00352",
-	"slug": "יישר",
-	"headword": {
-		"text": "יִישַׁר"
-	},
+	"sefariaHeadword": "יִישַׁר",
+	"headwords": [
+		{
+			"text": "יִישַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

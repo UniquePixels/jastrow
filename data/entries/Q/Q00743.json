@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00743",
-	"slug": "פיסא-1",
-	"headword": {
-		"text": "פִּיסָא"
-	},
+	"sefariaHeadword": "פִּיסָא",
+	"headwords": [
+		{
+			"text": "פִּיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "a"

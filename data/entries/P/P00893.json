@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00893",
-	"slug": "עמירא",
-	"headword": {
-		"text": "עָמִירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָמִירָא",
+	"headwords": [
 		{
-			"text": "עֲ׳"
+			"text": "עָמִירָא"
+		},
+		{
+			"text": "עֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1088,
 		"column": "b"

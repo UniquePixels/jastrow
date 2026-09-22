@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00419",
-	"slug": "טיפיטיאות",
-	"headword": {
-		"text": "טיפיטיאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טיפיטיאות",
+	"headwords": [
+		{
+			"text": "טיפיטיאות"
+		},
 		{
 			"text": "טיפיטיות"
 		},
@@ -12,6 +13,7 @@
 			"text": "טיפיטין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 533,
 		"column": "b"

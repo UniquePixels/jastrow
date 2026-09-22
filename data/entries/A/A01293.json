@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01293",
-	"slug": "אילימא-2",
-	"headword": {
-		"text": "אִילֵּימָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אִילֵּימָא I",
+	"headwords": [
+		{
+			"text": "אִילֵּימָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 49,
 		"column": "b"

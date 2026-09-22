@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00889",
-	"slug": "אוריין-1",
-	"headword": {
-		"text": "אוֹרְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרְיָין",
+	"headwords": [
+		{
+			"text": "אוֹרְיָין"
+		},
 		{
 			"text": "אוֹרְיָאן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 34,
 		"column": "b"

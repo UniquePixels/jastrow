@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01047",
-	"slug": "כפר-2",
-	"headword": {
-		"text": "כְּפַר"
-	},
+	"sefariaHeadword": "כְּפַר",
+	"headwords": [
+		{
+			"text": "כְּפַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 662,
 		"column": "a"

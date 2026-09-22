@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02125",
-	"slug": "אנדרולמסיה",
-	"headword": {
-		"text": "אַנְדְּרוֹלֵמְסְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְדְּרוֹלֵמְסְיָה",
+	"headwords": [
+		{
+			"text": "אַנְדְּרוֹלֵמְסְיָה"
+		},
 		{
 			"text": "אנדרומוסיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "b"

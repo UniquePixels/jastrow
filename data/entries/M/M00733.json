@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00733",
-	"slug": "מזון-1",
-	"headword": {
-		"text": "מָזוֹן"
-	},
+	"sefariaHeadword": "מָזוֹן",
+	"headwords": [
+		{
+			"text": "מָזוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "a"

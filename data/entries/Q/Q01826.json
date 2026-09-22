@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01826",
-	"slug": "פריצותא",
-	"headword": {
-		"text": "פְּרִיצוּתָא"
-	},
+	"sefariaHeadword": "פְּרִיצוּתָא",
+	"headwords": [
+		{
+			"text": "פְּרִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "b"

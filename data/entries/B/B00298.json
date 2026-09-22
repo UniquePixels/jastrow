@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00298",
-	"slug": "בוסתקא",
-	"headword": {
-		"text": "בּוּסְתְּקָא"
-	},
+	"sefariaHeadword": "בּוּסְתְּקָא",
+	"headwords": [
+		{
+			"text": "בּוּסְתְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

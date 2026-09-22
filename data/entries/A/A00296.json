@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00296",
-	"slug": "אגיסטון",
-	"headword": {
-		"text": "אגיסטון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אגיסטון",
+	"headwords": [
+		{
+			"text": "אגיסטון"
+		},
 		{
 			"text": "אגיסטין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00508",
-	"slug": "זמון",
-	"headword": {
-		"text": "זִמּוּן"
-	},
+	"sefariaHeadword": "זִמּוּן",
+	"headwords": [
+		{
+			"text": "זִמּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

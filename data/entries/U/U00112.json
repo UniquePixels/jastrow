@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00112",
-	"slug": "שבי-4",
-	"headword": {
-		"text": "שְׁבִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבִי ²",
+	"headwords": [
+		{
+			"text": "שְׁבִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁבְיָא"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1513,
 		"column": "b"

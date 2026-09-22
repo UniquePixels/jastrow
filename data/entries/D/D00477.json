@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00477",
-	"slug": "דיבקא",
-	"headword": {
-		"text": "דִּיבְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיבְקָא",
+	"headwords": [
+		{
+			"text": "דִּיבְקָא"
+		},
 		{
 			"text": "דּוּבְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 295,
 		"column": "a"

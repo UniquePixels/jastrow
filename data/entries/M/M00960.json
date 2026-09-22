@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00960",
-	"slug": "מטא",
-	"headword": {
-		"text": "מְטָא"
-	},
+	"sefariaHeadword": "מְטָא",
+	"headwords": [
+		{
+			"text": "מְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 765,
 		"column": "a"

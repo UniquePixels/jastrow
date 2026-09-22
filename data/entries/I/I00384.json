@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00384",
-	"slug": "טימיסמירות",
-	"headword": {
-		"text": "טימיסמירות"
-	},
+	"sefariaHeadword": "טימיסמירות",
+	"headwords": [
+		{
+			"text": "טימיסמירות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02330",
-	"slug": "מצלית",
-	"headword": {
-		"text": "מַצְלִית"
-	},
+	"sefariaHeadword": "מַצְלִית",
+	"headwords": [
+		{
+			"text": "מַצְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

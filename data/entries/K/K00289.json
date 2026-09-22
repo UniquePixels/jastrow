@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00289",
-	"slug": "כומצא",
-	"headword": {
-		"text": "כּוּמְצָא"
-	},
+	"sefariaHeadword": "כּוּמְצָא",
+	"headwords": [
+		{
+			"text": "כּוּמְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 621,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00066",
-	"slug": "תבנית",
-	"headword": {
-		"text": "תַּבְנִית"
-	},
+	"sefariaHeadword": "תַּבְנִית",
+	"headwords": [
+		{
+			"text": "תַּבְנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1645,
 		"column": "a"

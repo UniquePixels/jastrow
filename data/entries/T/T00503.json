@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00503",
-	"slug": "רחיפין",
-	"headword": {
-		"text": "רחיפין"
-	},
+	"sefariaHeadword": "רחיפין",
+	"headwords": [
+		{
+			"text": "רחיפין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00321",
-	"slug": "נווטא",
-	"headword": {
-		"text": "נַוְוטָא"
-	},
+	"sefariaHeadword": "נַוְוטָא",
+	"headwords": [
+		{
+			"text": "נַוְוטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "b"

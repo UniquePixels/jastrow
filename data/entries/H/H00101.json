@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00101",
-	"slug": "חבסא",
-	"headword": {
-		"text": "חֲבָסָא"
-	},
+	"sefariaHeadword": "חֲבָסָא",
+	"headwords": [
+		{
+			"text": "חֲבָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 420,
 		"column": "b"

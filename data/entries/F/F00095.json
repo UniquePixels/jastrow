@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "F00095",
-	"slug": "וורשכא",
-	"headword": {
-		"text": "וִורְשְׁכָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*וִורְשְׁכָא",
+	"headwords": [
+		{
+			"text": "וִורְשְׁכָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

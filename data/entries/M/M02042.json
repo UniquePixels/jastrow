@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02042",
-	"slug": "מסתר",
-	"headword": {
-		"text": "מִסְתָּר"
-	},
+	"sefariaHeadword": "מִסְתָּר",
+	"headwords": [
+		{
+			"text": "מִסְתָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "b"

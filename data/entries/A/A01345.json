@@ -1,9 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01345",
-	"slug": "אימנון-=-המנון",
-	"headword": {
-		"text": "אִימְנוֹן = הִמְנוֹן"
-	},
+	"sefariaHeadword": "אִימְנוֹן = הִמְנוֹן",
+	"headwords": [
+		{
+			"text": "אִימְנוֹן = הִמְנוֹן"
+		}
+	],
 	"page": {
 		"number": 51,
 		"column": "a"

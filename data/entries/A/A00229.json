@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00229",
-	"slug": "אברקין",
-	"headword": {
-		"text": "אַבְרְקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְרְקִין",
+	"headwords": [
+		{
+			"text": "אַבְרְקִין"
+		},
 		{
 			"text": "בְּרַקִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 10,
 		"column": "a"

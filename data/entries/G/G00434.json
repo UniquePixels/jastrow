@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00434",
-	"slug": "זיתים",
-	"headword": {
-		"text": "זיתים"
-	},
+	"sefariaHeadword": "זיתים",
+	"headwords": [
+		{
+			"text": "זיתים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "b"

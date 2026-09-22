@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01536",
-	"slug": "פראטרוט",
-	"headword": {
-		"text": "פראטרוט"
-	},
+	"sefariaHeadword": "פראטרוט",
+	"headwords": [
+		{
+			"text": "פראטרוט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "a"

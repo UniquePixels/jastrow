@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01034",
-	"slug": "תרעומת",
-	"headword": {
-		"text": "תַּרְעוֹמֶת"
-	},
+	"sefariaHeadword": "תַּרְעוֹמֶת",
+	"headwords": [
+		{
+			"text": "תַּרְעוֹמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "a"

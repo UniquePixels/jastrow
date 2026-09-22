@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01729",
-	"slug": "קפטאות",
-	"headword": {
-		"text": "קַפְטָאוֹת"
-	},
+	"sefariaHeadword": "קַפְטָאוֹת",
+	"headwords": [
+		{
+			"text": "קַפְטָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1400,
 		"column": "a"

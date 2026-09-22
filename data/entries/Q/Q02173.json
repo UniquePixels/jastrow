@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02173",
-	"slug": "פתירי",
-	"headword": {
-		"text": "פתירי"
-	},
+	"sefariaHeadword": "פתירי",
+	"headwords": [
+		{
+			"text": "פתירי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

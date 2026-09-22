@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00952",
-	"slug": "בנייתא",
-	"headword": {
-		"text": "בִּנְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּנְיָיתָא",
+	"headwords": [
+		{
+			"text": "בִּנְיָיתָא"
+		},
 		{
 			"text": "בִּנְיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 177,
 		"column": "a"

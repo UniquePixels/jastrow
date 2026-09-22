@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00134",
-	"slug": "נגוד-2",
-	"headword": {
-		"text": "נָגוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָגוֹד",
+	"headwords": [
+		{
+			"text": "נָגוֹד"
+		},
 		{
 			"text": "נָגִיך"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 873,
 		"column": "a"

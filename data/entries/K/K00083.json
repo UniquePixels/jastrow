@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00083",
-	"slug": "כבש-3",
-	"headword": {
-		"text": "כֶּבֶשׂ"
-	},
+	"sefariaHeadword": "כֶּבֶשׂ",
+	"headwords": [
+		{
+			"text": "כֶּבֶשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 611,
 		"column": "a"

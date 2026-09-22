@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00195",
-	"slug": "עוגיתא",
-	"headword": {
-		"text": "עוּגְיְתָא"
-	},
+	"sefariaHeadword": "עוּגְיְתָא",
+	"headwords": [
+		{
+			"text": "עוּגְיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00266",
-	"slug": "יזק",
-	"headword": {
-		"text": "יָזֵק"
-	},
+	"sefariaHeadword": "יָזֵק",
+	"headwords": [
+		{
+			"text": "יָזֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "b"

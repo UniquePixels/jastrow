@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01192",
-	"slug": "ברוון",
-	"headword": {
-		"text": "בִּרְוָון"
-	},
+	"sefariaHeadword": "בִּרְוָון",
+	"headwords": [
+		{
+			"text": "בִּרְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

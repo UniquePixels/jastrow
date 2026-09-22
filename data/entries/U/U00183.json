@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00183",
-	"slug": "שבריר",
-	"headword": {
-		"text": "שַׁבְרִיר"
-	},
+	"sefariaHeadword": "שַׁבְרִיר",
+	"headwords": [
+		{
+			"text": "שַׁבְרִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1518,
 		"column": "b"

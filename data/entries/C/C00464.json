@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00464",
-	"slug": "גופר",
-	"headword": {
-		"text": "גּוֹפֶר"
-	},
+	"sefariaHeadword": "גּוֹפֶר",
+	"headwords": [
+		{
+			"text": "גּוֹפֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 225,
 		"column": "b"

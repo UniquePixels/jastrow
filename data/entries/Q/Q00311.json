@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00311",
-	"slug": "פוץ-1",
-	"headword": {
-		"text": "פּוּץ"
-	},
+	"sefariaHeadword": "פּוּץ",
+	"headwords": [
+		{
+			"text": "פּוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

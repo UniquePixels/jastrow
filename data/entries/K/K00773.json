@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00773",
-	"slug": "כלנסא",
-	"headword": {
-		"text": "כְּלֵנְסָא"
-	},
+	"sefariaHeadword": "כְּלֵנְסָא",
+	"headwords": [
+		{
+			"text": "כְּלֵנְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

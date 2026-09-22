@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00456",
-	"slug": "חורבה",
-	"headword": {
-		"text": "חוֹרְבָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹרְבָּה",
+	"headwords": [
+		{
+			"text": "חוֹרְבָּה"
+		},
 		{
 			"text": "חָרְבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 439,
 		"column": "b"

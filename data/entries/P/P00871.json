@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00871",
-	"slug": "עמום",
-	"headword": {
-		"text": "עמּוּם"
-	},
+	"sefariaHeadword": "עמּוּם",
+	"headwords": [
+		{
+			"text": "עמּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

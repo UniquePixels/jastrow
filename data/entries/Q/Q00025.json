@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00025",
-	"slug": "פארא",
-	"headword": {
-		"text": "פְּאֵרָא"
-	},
+	"sefariaHeadword": "פְּאֵרָא",
+	"headwords": [
+		{
+			"text": "פְּאֵרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

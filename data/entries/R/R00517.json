@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00517",
-	"slug": "צליינית",
-	"headword": {
-		"text": "צַלְיָינִית"
-	},
+	"sefariaHeadword": "צַלְיָינִית",
+	"headwords": [
+		{
+			"text": "צַלְיָינִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

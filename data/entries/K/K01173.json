@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01173",
-	"slug": "כריסית",
-	"headword": {
-		"text": "כְּרֵיסִית"
-	},
+	"sefariaHeadword": "כְּרֵיסִית",
+	"headwords": [
+		{
+			"text": "כְּרֵיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "b"

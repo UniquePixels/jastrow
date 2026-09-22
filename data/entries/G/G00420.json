@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00420",
-	"slug": "זירה",
-	"headword": {
-		"text": "זִירָה"
-	},
+	"sefariaHeadword": "זִירָה",
+	"headwords": [
+		{
+			"text": "זִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "b"

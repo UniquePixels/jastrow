@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01054",
-	"slug": "עסק-3",
-	"headword": {
-		"text": "עֵסֶק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֵסֶק I",
+	"headwords": [
+		{
+			"text": "עֵסֶק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1099,
 		"column": "a"

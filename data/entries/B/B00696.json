@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00696",
-	"slug": "ביקעי",
-	"headword": {
-		"text": "ביקעי"
-	},
+	"sefariaHeadword": "ביקעי",
+	"headwords": [
+		{
+			"text": "ביקעי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

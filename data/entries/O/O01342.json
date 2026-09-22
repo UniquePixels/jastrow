@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01342",
-	"slug": "ספח-1",
-	"headword": {
-		"text": "סָפַח"
-	},
+	"sefariaHeadword": "סָפַח",
+	"headwords": [
+		{
+			"text": "סָפַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "b"

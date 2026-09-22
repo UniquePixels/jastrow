@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00357",
-	"slug": "מהט",
-	"headword": {
-		"text": "מָהַט"
-	},
+	"sefariaHeadword": "מָהַט",
+	"headwords": [
+		{
+			"text": "מָהַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00560",
-	"slug": "הלין-2",
-	"headword": {
-		"text": "הִלֵּין"
-	},
+	"sefariaHeadword": "הִלֵּין",
+	"headwords": [
+		{
+			"text": "הִלֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

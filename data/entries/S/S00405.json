@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00405",
-	"slug": "קומקום",
-	"headword": {
-		"text": "קוּמְקוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּמְקוּם",
+	"headwords": [
+		{
+			"text": "קוּמְקוּם"
+		},
 		{
 			"text": "קוּמְקוּמוֹס"
 		},
@@ -12,9 +13,11 @@
 			"text": "קוּמְקוּמָס"
 		},
 		{
-			"text": "קוּמְקְמ׳"
+			"text": "קוּמְקְמ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1333,
 		"column": "b"

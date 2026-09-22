@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00465",
-	"slug": "עטם",
-	"headword": {
-		"text": "עֲטַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטַם",
+	"headwords": [
+		{
+			"text": "עֲטַם"
+		},
 		{
 			"text": "עִטְמָא"
 		},
 		{
-			"text": "עִיטְ׳"
+			"text": "עִיטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1063,
 		"column": "b"

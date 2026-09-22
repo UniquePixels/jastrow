@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00588",
-	"slug": "ריבון",
-	"headword": {
-		"text": "רִיבּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוֹן",
+	"headwords": [
+		{
+			"text": "רִיבּוֹן"
+		},
 		{
 			"text": "רִיבּוֹנָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "רִיבּוֹנְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1472,
 		"column": "b"

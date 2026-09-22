@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01338",
-	"slug": "אימיקנטרון",
-	"headword": {
-		"text": "אימיקנטרון",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אימיקנטרון",
+	"headwords": [
 		{
-			"text": "או׳"
+			"text": "אימיקנטרון",
+			"reconstructed": true
+		},
+		{
+			"text": "או׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 50,
 		"column": "b"

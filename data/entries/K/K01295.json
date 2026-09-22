@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01295",
-	"slug": "כשאמא",
-	"headword": {
-		"text": "כְּשָׁאמָא"
-	},
+	"sefariaHeadword": "כְּשָׁאמָא",
+	"headwords": [
+		{
+			"text": "כְּשָׁאמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V01069",
-	"slug": "תשבחא",
-	"headword": {
-		"text": "תֻּשְׁבְּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֻּשְׁבְּחָא",
+	"headwords": [
+		{
+			"text": "תֻּשְׁבְּחָא"
+		},
 		{
 			"text": "תִּשְׁבָּחָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "תֻּשְׁבַּחְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1703,
 		"column": "a"

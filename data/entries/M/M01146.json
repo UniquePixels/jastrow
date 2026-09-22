@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01146",
-	"slug": "מייתי",
-	"headword": {
-		"text": "מַיְיתֵי"
-	},
+	"sefariaHeadword": "מַיְיתֵי",
+	"headwords": [
+		{
+			"text": "מַיְיתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "a"

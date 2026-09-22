@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00293",
-	"slug": "דון-2",
-	"headword": {
-		"text": "דּוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דּוֹן",
+	"headwords": [
+		{
+			"text": "דּוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

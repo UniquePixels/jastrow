@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00563",
-	"slug": "קורא-3",
-	"headword": {
-		"text": "קוֹרָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קוֹרָא III",
+	"headwords": [
+		{
+			"text": "קוֹרָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1341,
 		"column": "a"

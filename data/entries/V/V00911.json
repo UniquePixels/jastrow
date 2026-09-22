@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00911",
-	"slug": "תקפא",
-	"headword": {
-		"text": "תַּקְפָא"
-	},
+	"sefariaHeadword": "תַּקְפָא",
+	"headwords": [
+		{
+			"text": "תַּקְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "a"

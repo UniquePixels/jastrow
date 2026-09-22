@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00038",
-	"slug": "אבדון",
-	"headword": {
-		"text": "אֲבַדּוֹן"
-	},
+	"sefariaHeadword": "אֲבַדּוֹן",
+	"headwords": [
+		{
+			"text": "אֲבַדּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

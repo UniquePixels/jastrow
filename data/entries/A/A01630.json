@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01630",
-	"slug": "אישר-2",
-	"headword": {
-		"text": "אִישֵּׁר"
-	},
+	"sefariaHeadword": "אִישֵּׁר",
+	"headwords": [
+		{
+			"text": "אִישֵּׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

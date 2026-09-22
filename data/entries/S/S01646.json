@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01646",
-	"slug": "קסטוריא",
-	"headword": {
-		"text": "קסטוריא"
-	},
+	"sefariaHeadword": "קסטוריא",
+	"headwords": [
+		{
+			"text": "קסטוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

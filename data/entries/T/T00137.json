@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00137",
-	"slug": "רבץ-1",
-	"headword": {
-		"text": "רָבַץ"
-	},
+	"sefariaHeadword": "רָבַץ",
+	"headwords": [
+		{
+			"text": "רָבַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1445,
 		"column": "b"

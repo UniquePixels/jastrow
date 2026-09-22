@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00419",
-	"slug": "גוממית",
-	"headword": {
-		"text": "גּוֹמָמִית"
-	},
+	"sefariaHeadword": "גּוֹמָמִית",
+	"headwords": [
+		{
+			"text": "גּוֹמָמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

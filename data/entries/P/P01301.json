@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01301",
-	"slug": "ערדלין",
-	"headword": {
-		"text": "עַרְדְּלִין"
-	},
+	"sefariaHeadword": "עַרְדְּלִין",
+	"headwords": [
+		{
+			"text": "עַרְדְּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00455",
-	"slug": "זכי-1",
-	"headword": {
-		"text": "זכי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זכי",
+	"headwords": [
+		{
+			"text": "זכי"
+		},
 		{
 			"text": "זָכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 398,
 		"column": "b"

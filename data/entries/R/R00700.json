@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00700",
-	"slug": "צפירתא",
-	"headword": {
-		"text": "צְפִירְתָּא"
-	},
+	"sefariaHeadword": "צְפִירְתָּא",
+	"headwords": [
+		{
+			"text": "צְפִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1297,
 		"column": "b"

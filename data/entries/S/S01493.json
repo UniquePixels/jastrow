@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01493",
-	"slug": "קמקמה",
-	"headword": {
-		"text": "קמקמה"
-	},
+	"sefariaHeadword": "קמקמה",
+	"headwords": [
+		{
+			"text": "קמקמה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "a"

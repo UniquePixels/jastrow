@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00297",
-	"slug": "רובא-2",
-	"headword": {
-		"text": "רוֹבָא"
-	},
+	"sefariaHeadword": "רוֹבָא",
+	"headwords": [
+		{
+			"text": "רוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1455,
 		"column": "a"

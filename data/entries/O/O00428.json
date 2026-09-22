@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00428",
-	"slug": "סוריגא",
-	"headword": {
-		"text": "סוֹרִיגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹרִיגָא",
+	"headwords": [
+		{
+			"text": "סוֹרִיגָא"
+		},
 		{
 			"text": "סוֹרִיגָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "a"

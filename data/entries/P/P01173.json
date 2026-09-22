@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01173",
-	"slug": "עקיבא-3",
-	"headword": {
-		"text": "עֲקִיבָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲקִיבָא II",
+	"headwords": [
+		{
+			"text": "עֲקִיבָא",
+			"homograph": 2
+		},
 		{
 			"text": "עֲקִיבָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1105,
 		"column": "b"

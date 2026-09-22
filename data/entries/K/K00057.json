@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00057",
-	"slug": "כבישן",
-	"headword": {
-		"text": "כבישן"
-	},
+	"sefariaHeadword": "כבישן",
+	"headwords": [
+		{
+			"text": "כבישן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

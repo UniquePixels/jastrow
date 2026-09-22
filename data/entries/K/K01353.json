@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01353",
-	"slug": "כתונא",
-	"headword": {
-		"text": "כִּתּוּנָא"
-	},
+	"sefariaHeadword": "כִּתּוּנָא",
+	"headwords": [
+		{
+			"text": "כִּתּוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "b"

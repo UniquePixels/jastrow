@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00861",
-	"slug": "אורה-3",
-	"headword": {
-		"text": "אוֹרֶה"
-	},
+	"sefariaHeadword": "אוֹרֶה",
+	"headwords": [
+		{
+			"text": "אוֹרֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

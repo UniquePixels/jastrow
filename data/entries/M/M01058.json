@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01058",
-	"slug": "מטרופולין",
-	"headword": {
-		"text": "מִטְרוֹפּוֹלִין"
-	},
+	"sefariaHeadword": "מִטְרוֹפּוֹלִין",
+	"headwords": [
+		{
+			"text": "מִטְרוֹפּוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 770,
 		"column": "a"

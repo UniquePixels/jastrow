@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00117",
-	"slug": "זובן",
-	"headword": {
-		"text": "זוּבָּן"
-	},
+	"sefariaHeadword": "זוּבָּן",
+	"headwords": [
+		{
+			"text": "זוּבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 383,
 		"column": "a"

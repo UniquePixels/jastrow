@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00624",
-	"slug": "פיטטא",
-	"headword": {
-		"text": "פִּיטְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְטָא",
+	"headwords": [
 		{
-			"text": "פִּטְ׳"
+			"text": "פִּיטְטָא"
+		},
+		{
+			"text": "פִּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1161,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01157",
-	"slug": "חמוטליא",
-	"headword": {
-		"text": "חֲמוּטַלְיָא"
-	},
+	"sefariaHeadword": "חֲמוּטַלְיָא",
+	"headwords": [
+		{
+			"text": "חֲמוּטַלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "a"

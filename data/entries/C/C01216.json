@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01216",
-	"slug": "גפת-1",
-	"headword": {
-		"text": "גָּפַת"
-	},
+	"sefariaHeadword": "גָּפַת",
+	"headwords": [
+		{
+			"text": "גָּפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "a"

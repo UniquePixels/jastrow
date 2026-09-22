@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00350",
-	"slug": "יישוב",
-	"headword": {
-		"text": "יִישּׁוּב"
-	},
+	"sefariaHeadword": "יִישּׁוּב",
+	"headwords": [
+		{
+			"text": "יִישּׁוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

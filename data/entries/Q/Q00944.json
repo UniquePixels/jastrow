@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00944",
-	"slug": "פלגוס",
-	"headword": {
-		"text": "פַּלְגּוֹס"
-	},
+	"sefariaHeadword": "פַּלְגּוֹס",
+	"headwords": [
+		{
+			"text": "פַּלְגּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

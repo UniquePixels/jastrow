@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00460",
-	"slug": "גופן-2",
-	"headword": {
-		"text": "גּוֹפָן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גּוֹפָן",
+	"headwords": [
+		{
+			"text": "גּוֹפָן",
+			"reconstructed": true
+		},
 		{
 			"text": "גּוֹפְנִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 225,
 		"column": "b"

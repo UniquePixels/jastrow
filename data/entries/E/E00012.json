@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00012",
-	"slug": "האיך",
-	"headword": {
-		"text": "הַאִיךְ"
-	},
+	"sefariaHeadword": "הַאִיךְ",
+	"headwords": [
+		{
+			"text": "הַאִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "a"

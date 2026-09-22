@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00175",
-	"slug": "סדא",
-	"headword": {
-		"text": "סַדָּא"
-	},
+	"sefariaHeadword": "סַדָּא",
+	"headwords": [
+		{
+			"text": "סַדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

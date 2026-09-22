@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00694",
-	"slug": "גיחוץ",
-	"headword": {
-		"text": "גִּיחוּץ"
-	},
+	"sefariaHeadword": "גִּיחוּץ",
+	"headwords": [
+		{
+			"text": "גִּיחוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

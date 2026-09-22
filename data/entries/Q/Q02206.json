@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02206",
-	"slug": "פתרונא",
-	"headword": {
-		"text": "פִּתְרוֹנָא"
-	},
+	"sefariaHeadword": "פִּתְרוֹנָא",
+	"headwords": [
+		{
+			"text": "פִּתְרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "a"

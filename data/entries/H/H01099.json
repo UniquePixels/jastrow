@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01099",
-	"slug": "חלף-2",
-	"headword": {
-		"text": "חֲלַף",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלַף I",
+	"headwords": [
+		{
+			"text": "חֲלַף",
+			"homograph": 1
+		},
 		{
 			"text": "חֲלֵיף"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 472,
 		"column": "a"
@@ -26,7 +28,7 @@
 	],
 	"stems": [
 		{
-			"forms": ["חַלֵּיף"],
+			"forms": ["חַלֵּיף"],
 			"senses": [
 				{
 					"gloss": "<i>to pass repeatedly, promenade</i>. ",

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03202",
-	"slug": "ארנני",
-	"headword": {
-		"text": "ארנני"
-	},
+	"sefariaHeadword": "ארנני",
+	"headwords": [
+		{
+			"text": "ארנני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00397",
-	"slug": "אדיין",
-	"headword": {
-		"text": "אֲדַיִין"
-	},
+	"sefariaHeadword": "אֲדַיִין",
+	"headwords": [
+		{
+			"text": "אֲדַיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

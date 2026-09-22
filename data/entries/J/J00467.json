@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00467",
-	"slug": "יסמין",
-	"headword": {
-		"text": "יַסְמִין"
-	},
+	"sefariaHeadword": "יַסְמִין",
+	"headwords": [
+		{
+			"text": "יַסְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "b"

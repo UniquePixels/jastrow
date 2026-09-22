@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00298",
-	"slug": "כון-3",
-	"headword": {
-		"text": "כֵּוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּוָן",
+	"headwords": [
+		{
+			"text": "כֵּוָן"
+		},
 		{
 			"text": "כֵּוָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 622,
 		"column": "a"

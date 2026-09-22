@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00964",
-	"slug": "תרונגא",
-	"headword": {
-		"text": "תְּרוּנְגָּא"
-	},
+	"sefariaHeadword": "תְּרוּנְגָּא",
+	"headwords": [
+		{
+			"text": "תְּרוּנְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

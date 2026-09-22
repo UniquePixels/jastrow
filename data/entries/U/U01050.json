@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01050",
-	"slug": "שיקמא",
-	"headword": {
-		"text": "שִׁיקְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיקְמָא",
+	"headwords": [
+		{
+			"text": "שִׁיקְמָא"
+		},
 		{
 			"text": "שִׁיקְמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1568,
 		"column": "a"

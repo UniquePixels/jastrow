@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00739",
-	"slug": "ניפקא",
-	"headword": {
-		"text": "נִיפְקָא"
-	},
+	"sefariaHeadword": "נִיפְקָא",
+	"headwords": [
+		{
+			"text": "נִיפְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "b"

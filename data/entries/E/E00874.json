@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00874",
-	"slug": "הרכינס",
-	"headword": {
-		"text": "הַרְכִּינָס"
-	},
+	"sefariaHeadword": "הַרְכִּינָס",
+	"headwords": [
+		{
+			"text": "הַרְכִּינָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

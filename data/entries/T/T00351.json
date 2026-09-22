@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00351",
-	"slug": "רוחשיתא",
-	"headword": {
-		"text": "רוּחְשִׁיתָא"
-	},
+	"sefariaHeadword": "רוּחְשִׁיתָא",
+	"headwords": [
+		{
+			"text": "רוּחְשִׁיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00548",
-	"slug": "מוסף",
-	"headword": {
-		"text": "מוּסָף"
-	},
+	"sefariaHeadword": "מוּסָף",
+	"headwords": [
+		{
+			"text": "מוּסָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

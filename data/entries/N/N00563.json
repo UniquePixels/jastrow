@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00563",
-	"slug": "נטיעה",
-	"headword": {
-		"text": "נְטִיעָה"
-	},
+	"sefariaHeadword": "נְטִיעָה",
+	"headwords": [
+		{
+			"text": "נְטִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "a"

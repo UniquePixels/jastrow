@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02666",
-	"slug": "מריון-1",
-	"headword": {
-		"text": "מָרְיוֹן"
-	},
+	"sefariaHeadword": "מָרְיוֹן",
+	"headwords": [
+		{
+			"text": "מָרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

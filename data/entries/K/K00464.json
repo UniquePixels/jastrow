@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00464",
-	"slug": "כחל-3",
-	"headword": {
-		"text": "כְּחַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כְּחַל I",
+	"headwords": [
+		{
+			"text": "כְּחַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 629,
 		"column": "a"

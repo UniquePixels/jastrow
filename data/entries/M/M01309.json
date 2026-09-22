@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01309",
-	"slug": "מישבקתא",
-	"headword": {
-		"text": "מִישַּׁבַּקְתָּא"
-	},
+	"sefariaHeadword": "מִישַּׁבַּקְתָּא",
+	"headwords": [
+		{
+			"text": "מִישַּׁבַּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "b"

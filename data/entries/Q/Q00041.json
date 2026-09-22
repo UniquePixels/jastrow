@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00041",
-	"slug": "פגה",
-	"headword": {
-		"text": "פַּגָּה"
-	},
+	"sefariaHeadword": "פַּגָּה",
+	"headwords": [
+		{
+			"text": "פַּגָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

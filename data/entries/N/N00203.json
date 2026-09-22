@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00203",
-	"slug": "נדבא",
-	"headword": {
-		"text": "נִדְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְבָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִדְבָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 877,
 		"column": "a"

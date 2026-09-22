@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00911",
-	"slug": "שיירא-2",
-	"headword": {
-		"text": "שְׁיָירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁיָירָא",
+	"headwords": [
+		{
+			"text": "שְׁיָירָא"
+		},
 		{
 			"text": "שְׁיָירָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1562,
 		"column": "a"

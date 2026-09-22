@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00443",
-	"slug": "ציצלא",
-	"headword": {
-		"text": "צִיצְלָא"
-	},
+	"sefariaHeadword": "צִיצְלָא",
+	"headwords": [
+		{
+			"text": "צִיצְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "b"

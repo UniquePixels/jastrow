@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01098",
-	"slug": "בצלים",
-	"headword": {
-		"text": "בְּצָלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּצָלִים",
+	"headwords": [
 		{
-			"text": "עֲלֵי בְּצָלִים"
+			"text": "בְּצָלִים"
+		},
+		{
+			"text": "עֲלֵי ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 184,
 		"column": "b"

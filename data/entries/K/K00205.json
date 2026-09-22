@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00205",
-	"slug": "כוהן",
-	"headword": {
-		"text": "כּוֹהֵן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹהֵן",
+	"headwords": [
+		{
+			"text": "כּוֹהֵן"
+		},
 		{
 			"text": "כּוֹהֶנֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 617,
 		"column": "a"

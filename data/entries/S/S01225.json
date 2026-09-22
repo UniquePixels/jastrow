@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01225",
-	"slug": "קישת",
-	"headword": {
-		"text": "קישת"
-	},
+	"sefariaHeadword": "קישת",
+	"headwords": [
+		{
+			"text": "קישת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00638",
-	"slug": "חטן",
-	"headword": {
-		"text": "חטן"
-	},
+	"sefariaHeadword": "חטן",
+	"headwords": [
+		{
+			"text": "חטן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "a"

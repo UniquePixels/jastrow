@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00732",
-	"slug": "יתיך",
-	"headword": {
-		"text": "יַתִּיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַתִּיךְ",
+	"headwords": [
+		{
+			"text": "יַתִּיךְ"
+		},
 		{
 			"text": "יַתּוּךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 603,
 		"column": "b"

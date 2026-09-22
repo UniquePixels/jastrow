@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00098",
-	"slug": "סג",
-	"headword": {
-		"text": "סִג"
-	},
+	"sefariaHeadword": "סִג",
+	"headwords": [
+		{
+			"text": "סִג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

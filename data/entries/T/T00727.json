@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00727",
-	"slug": "רישנא-1",
-	"headword": {
-		"text": "רֵישָׁנָא"
-	},
+	"sefariaHeadword": "רֵישָׁנָא",
+	"headwords": [
+		{
+			"text": "רֵישָׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "a"

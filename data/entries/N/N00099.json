@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00099",
-	"slug": "נבלות",
-	"headword": {
-		"text": "נַבְלוּת"
-	},
+	"sefariaHeadword": "נַבְלוּת",
+	"headwords": [
+		{
+			"text": "נַבְלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 870,
 		"column": "b"

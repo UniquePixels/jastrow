@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02637",
-	"slug": "מרחק-2",
-	"headword": {
-		"text": "מְרָחַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרָחַק",
+	"headwords": [
+		{
+			"text": "מְרָחַק"
+		},
 		{
 			"text": "מְרַחֲקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 841,
 		"column": "b"

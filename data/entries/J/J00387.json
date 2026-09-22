@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00387",
-	"slug": "ילין",
-	"headword": {
-		"text": "יִלֵּין"
-	},
+	"sefariaHeadword": "יִלֵּין",
+	"headwords": [
+		{
+			"text": "יִלֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "a"

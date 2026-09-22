@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00351",
-	"slug": "כופרי-1",
-	"headword": {
-		"text": "כּוּפְרִי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּפְרִי I",
+	"headwords": [
+		{
+			"text": "כּוּפְרִי",
+			"homograph": 1
+		},
 		{
 			"text": "כּוּפְרִית"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 624,
 		"column": "b"

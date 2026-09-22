@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00997",
-	"slug": "סליקיא",
-	"headword": {
-		"text": "סְלִיקְיָא"
-	},
+	"sefariaHeadword": "סְלִיקְיָא",
+	"headwords": [
+		{
+			"text": "סְלִיקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

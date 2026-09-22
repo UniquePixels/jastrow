@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00744",
-	"slug": "רכא",
-	"headword": {
-		"text": "רִכָא"
-	},
+	"sefariaHeadword": "רִכָא",
+	"headwords": [
+		{
+			"text": "רִכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

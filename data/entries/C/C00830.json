@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00830",
-	"slug": "גירי",
-	"headword": {
-		"text": "גֵּירִי"
-	},
+	"sefariaHeadword": "גֵּירִי",
+	"headwords": [
+		{
+			"text": "גֵּירִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

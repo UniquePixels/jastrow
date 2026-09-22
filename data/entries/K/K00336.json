@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00336",
-	"slug": "כופה",
-	"headword": {
-		"text": "כּוּפָּה"
-	},
+	"sefariaHeadword": "כּוּפָּה",
+	"headwords": [
+		{
+			"text": "כּוּפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

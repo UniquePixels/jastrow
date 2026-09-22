@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02667",
-	"slug": "אפי-2",
-	"headword": {
-		"text": "אפי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפי ²",
+	"headwords": [
+		{
+			"text": "אפי",
+			"disambiguator": 2
+		},
 		{
 			"text": "אָפָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 102,
 		"column": "a"

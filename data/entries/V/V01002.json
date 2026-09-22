@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01002",
-	"slug": "תריצות",
-	"headword": {
-		"text": "תְּרִיצוּת"
-	},
+	"sefariaHeadword": "תְּרִיצוּת",
+	"headwords": [
+		{
+			"text": "תְּרִיצוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

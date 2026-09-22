@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01415",
-	"slug": "שמאלא",
-	"headword": {
-		"text": "שְׂמָאלָא"
-	},
+	"sefariaHeadword": "שְׂמָאלָא",
+	"headwords": [
+		{
+			"text": "שְׂמָאלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1591,
 		"column": "b"

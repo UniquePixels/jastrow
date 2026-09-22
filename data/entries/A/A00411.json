@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00411",
-	"slug": "אדכרה",
-	"headword": {
-		"text": "אַדְכָּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְכָּרָה",
+	"headwords": [
+		{
+			"text": "אַדְכָּרָה"
+		},
 		{
 			"text": "אַדְכַּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 16,
 		"column": "b"

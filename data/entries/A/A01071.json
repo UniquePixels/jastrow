@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01071",
-	"slug": "אטד-1",
-	"headword": {
-		"text": "אָטָד"
-	},
+	"sefariaHeadword": "אָטָד",
+	"headwords": [
+		{
+			"text": "אָטָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "a"

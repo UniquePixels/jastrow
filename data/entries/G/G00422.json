@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00422",
-	"slug": "זירוד-2",
-	"headword": {
-		"text": "זֵירוּד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זֵירוּד II",
+	"headwords": [
+		{
+			"text": "זֵירוּד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 397,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00499",
-	"slug": "גורנא",
-	"headword": {
-		"text": "גּוּרְנָא"
-	},
+	"sefariaHeadword": "גּוּרְנָא",
+	"headwords": [
+		{
+			"text": "גּוּרְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 227,
 		"column": "b"

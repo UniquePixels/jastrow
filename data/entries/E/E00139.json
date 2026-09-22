@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00139",
-	"slug": "הדס-5",
-	"headword": {
-		"text": "הֲדָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲדָס",
+	"headwords": [
+		{
+			"text": "הֲדָס"
+		},
 		{
 			"text": "הֲדַסָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 334,
 		"column": "a"

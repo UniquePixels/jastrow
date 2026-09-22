@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00599",
-	"slug": "טעות",
-	"headword": {
-		"text": "טָעוּת"
-	},
+	"sefariaHeadword": "טָעוּת",
+	"headwords": [
+		{
+			"text": "טָעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00441",
-	"slug": "אדר-1",
-	"headword": {
-		"text": "אָדַר"
-	},
+	"sefariaHeadword": "אָדַר",
+	"headwords": [
+		{
+			"text": "אָדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "b"

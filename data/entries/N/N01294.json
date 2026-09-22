@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01294",
-	"slug": "נשואין",
-	"headword": {
-		"text": "נִשּׂוּאִין"
-	},
+	"sefariaHeadword": "נִשּׂוּאִין",
+	"headwords": [
+		{
+			"text": "נִשּׂוּאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "b"

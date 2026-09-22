@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01668",
-	"slug": "שעמום-2",
-	"headword": {
-		"text": "שִׁעֲמוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁעֲמוּם ²",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁעֲמוּם",
+			"disambiguator": 2
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1611,
 		"column": "a"

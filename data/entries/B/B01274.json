@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01274",
-	"slug": "בריקשון",
-	"headword": {
-		"text": "בריקשון"
-	},
+	"sefariaHeadword": "בריקשון",
+	"headwords": [
+		{
+			"text": "בריקשון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

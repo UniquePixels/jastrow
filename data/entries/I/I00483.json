@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00483",
-	"slug": "טלופחא",
-	"headword": {
-		"text": "טְלוֹפְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְלוֹפְחָא",
+	"headwords": [
 		{
-			"text": "טְלָפְ׳"
+			"text": "טְלוֹפְחָא"
+		},
+		{
+			"text": "טְלָפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 536,
 		"column": "a"

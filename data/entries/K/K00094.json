@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00094",
-	"slug": "כבתה",
-	"headword": {
-		"text": "כבתה"
-	},
+	"sefariaHeadword": "כבתה",
+	"headwords": [
+		{
+			"text": "כבתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00908",
-	"slug": "עממי",
-	"headword": {
-		"text": "עֲמָמִי"
-	},
+	"sefariaHeadword": "עֲמָמִי",
+	"headwords": [
+		{
+			"text": "עֲמָמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "b"

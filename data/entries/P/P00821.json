@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00821",
-	"slug": "עלם-4",
-	"headword": {
-		"text": "עֶלֶם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֶלֶם I",
+	"headwords": [
+		{
+			"text": "עֶלֶם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1084,
 		"column": "b"

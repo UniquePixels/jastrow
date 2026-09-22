@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00905",
-	"slug": "הרשאה",
-	"headword": {
-		"text": "הַרְשָׁאָה"
-	},
+	"sefariaHeadword": "הַרְשָׁאָה",
+	"headwords": [
+		{
+			"text": "הַרְשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

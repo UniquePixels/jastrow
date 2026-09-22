@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00509",
-	"slug": "יפיפיה",
-	"headword": {
-		"text": "יְפִיפְיָהּ"
-	},
+	"sefariaHeadword": "יְפִיפְיָהּ",
+	"headwords": [
+		{
+			"text": "יְפִיפְיָהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

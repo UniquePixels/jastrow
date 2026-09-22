@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01474",
-	"slug": "חפר-2",
-	"headword": {
-		"text": "חֲפַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲפַר I",
+	"headwords": [
+		{
+			"text": "חֲפַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 493,
 		"column": "a"

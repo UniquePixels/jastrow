@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A00987",
-	"slug": "אזתוודא",
-	"headword": {
-		"text": "אִזְתַּוְודָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִזְתַּוְודָּא",
+	"headwords": [
 		{
-			"text": "אִיזְ׳"
+			"text": "אִזְתַּוְודָּא",
+			"reconstructed": true
+		},
+		{
+			"text": "אִיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 38,
 		"column": "a"

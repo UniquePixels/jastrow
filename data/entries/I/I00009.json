@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00009",
-	"slug": "טאיס",
-	"headword": {
-		"text": "טָאֵיס"
-	},
+	"sefariaHeadword": "טָאֵיס",
+	"headwords": [
+		{
+			"text": "טָאֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

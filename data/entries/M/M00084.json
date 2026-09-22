@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00084",
-	"slug": "מבזעא",
-	"headword": {
-		"text": "מְבַזְעָא"
-	},
+	"sefariaHeadword": "מְבַזְעָא",
+	"headwords": [
+		{
+			"text": "מְבַזְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

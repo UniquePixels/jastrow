@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00913",
-	"slug": "גלופסין",
-	"headword": {
-		"text": "גְּלוּפְסִין"
-	},
+	"sefariaHeadword": "גְּלוּפְסִין",
+	"headwords": [
+		{
+			"text": "גְּלוּפְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

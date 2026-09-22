@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00565",
-	"slug": "יקוש",
-	"headword": {
-		"text": "יָקוּשׁ"
-	},
+	"sefariaHeadword": "יָקוּשׁ",
+	"headwords": [
+		{
+			"text": "יָקוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "b"

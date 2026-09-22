@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00597",
-	"slug": "קורטמי",
-	"headword": {
-		"text": "קוּרְטְמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְטְמֵי",
+	"headwords": [
 		{
-			"text": "קִירְ׳"
+			"text": "קוּרְטְמֵי"
+		},
+		{
+			"text": "קִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1342,
 		"column": "b"

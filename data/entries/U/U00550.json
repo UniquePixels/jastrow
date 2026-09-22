@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00550",
-	"slug": "שורינקא",
-	"headword": {
-		"text": "שׁוּרִינְקָא"
-	},
+	"sefariaHeadword": "שׁוּרִינְקָא",
+	"headwords": [
+		{
+			"text": "שׁוּרִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "b"

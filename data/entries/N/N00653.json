@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00653",
-	"slug": "ניטוף",
-	"headword": {
-		"text": "נִיטּוּף"
-	},
+	"sefariaHeadword": "נִיטּוּף",
+	"headwords": [
+		{
+			"text": "נִיטּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

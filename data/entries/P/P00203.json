@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00203",
-	"slug": "עודף",
-	"headword": {
-		"text": "עוֹדֶף"
-	},
+	"sefariaHeadword": "עוֹדֶף",
+	"headwords": [
+		{
+			"text": "עוֹדֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

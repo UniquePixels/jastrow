@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00033",
-	"slug": "כבד-4",
-	"headword": {
-		"text": "כָּבֵד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כָּבֵד II",
+	"headwords": [
+		{
+			"text": "כָּבֵד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 607,
 		"column": "a"

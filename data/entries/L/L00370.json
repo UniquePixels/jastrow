@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00370",
-	"slug": "לחץ",
-	"headword": {
-		"text": "לָחַץ"
-	},
+	"sefariaHeadword": "לָחַץ",
+	"headwords": [
+		{
+			"text": "לָחַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 704,
 		"column": "a"

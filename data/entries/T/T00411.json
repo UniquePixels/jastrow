@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00411",
-	"slug": "רוס-1",
-	"headword": {
-		"text": "רוּס"
-	},
+	"sefariaHeadword": "רוּס",
+	"headwords": [
+		{
+			"text": "רוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

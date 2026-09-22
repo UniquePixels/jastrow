@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00250",
-	"slug": "דוכן-2",
-	"headword": {
-		"text": "דּוּכָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּכָן ²",
+	"headwords": [
+		{
+			"text": "דּוּכָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "דּוּכָנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 285,
 		"column": "b"

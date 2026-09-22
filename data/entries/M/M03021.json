@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03021",
-	"slug": "מתויא",
-	"headword": {
-		"text": "מַתְוָיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְוָיָא",
+	"headwords": [
 		{
-			"text": "מַתְוָו׳"
+			"text": "מַתְוָיָא"
+		},
+		{
+			"text": "מַתְוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 860,
 		"column": "a"

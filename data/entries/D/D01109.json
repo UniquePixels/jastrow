@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01109",
-	"slug": "דרמסקינא",
-	"headword": {
-		"text": "דַּרְמַסְקִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְמַסְקִינָא",
+	"headwords": [
+		{
+			"text": "דַּרְמַסְקִינָא"
+		},
 		{
 			"text": "דַּרְמַסְקִינִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 324,
 		"column": "a"

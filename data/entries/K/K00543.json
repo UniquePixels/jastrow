@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00543",
-	"slug": "כילוף",
-	"headword": {
-		"text": "כילוף"
-	},
+	"sefariaHeadword": "כילוף",
+	"headwords": [
+		{
+			"text": "כילוף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

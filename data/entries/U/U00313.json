@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00313",
-	"slug": "שובא-1",
-	"headword": {
-		"text": "שׁוֹבָא"
-	},
+	"sefariaHeadword": "שׁוֹבָא",
+	"headwords": [
+		{
+			"text": "שׁוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "b"

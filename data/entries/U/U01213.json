@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01213",
-	"slug": "שלדא",
-	"headword": {
-		"text": "שִׁלְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְדָּא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁלְדָּא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1578,
 		"column": "a"

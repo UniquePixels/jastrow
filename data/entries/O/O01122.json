@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01122",
-	"slug": "סמס",
-	"headword": {
-		"text": "סמס"
-	},
+	"sefariaHeadword": "סמס",
+	"headwords": [
+		{
+			"text": "סמס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

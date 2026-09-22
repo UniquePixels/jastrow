@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01729",
-	"slug": "שפחות",
-	"headword": {
-		"text": "שִׁפְחוּת"
-	},
+	"sefariaHeadword": "שִׁפְחוּת",
+	"headwords": [
+		{
+			"text": "שִׁפְחוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "b"

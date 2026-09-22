@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00361",
-	"slug": "צילמנא",
-	"headword": {
-		"text": "צִילְמָנָא"
-	},
+	"sefariaHeadword": "צִילְמָנָא",
+	"headwords": [
+		{
+			"text": "צִילְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

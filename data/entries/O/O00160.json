@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00160",
-	"slug": "סגניי",
-	"headword": {
-		"text": "סִגְנַיי"
-	},
+	"sefariaHeadword": "סִגְנַיי",
+	"headwords": [
+		{
+			"text": "סִגְנַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "b"

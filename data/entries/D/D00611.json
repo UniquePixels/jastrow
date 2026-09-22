@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00611",
-	"slug": "דילפא",
-	"headword": {
-		"text": "דִּילְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּילְפָא",
+	"headwords": [
+		{
+			"text": "דִּילְפָא"
+		},
 		{
 			"text": "דִּילְפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 300,
 		"column": "a"

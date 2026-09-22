@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00376",
-	"slug": "סוסריתא",
-	"headword": {
-		"text": "סוסריתא"
-	},
+	"sefariaHeadword": "סוסריתא",
+	"headwords": [
+		{
+			"text": "סוסריתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "a"

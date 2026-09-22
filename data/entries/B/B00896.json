@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00896",
-	"slug": "בלספימיסון",
-	"headword": {
-		"text": "בְּלַסְפֵימִיסון"
-	},
+	"sefariaHeadword": "בְּלַסְפֵימִיסון",
+	"headwords": [
+		{
+			"text": "בְּלַסְפֵימִיסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "b"

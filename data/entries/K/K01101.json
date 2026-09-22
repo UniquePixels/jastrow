@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01101",
-	"slug": "כרוב-1",
-	"headword": {
-		"text": "כְּרוּב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כְּרוּב I",
+	"headwords": [
+		{
+			"text": "כְּרוּב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 664,
 		"column": "b"

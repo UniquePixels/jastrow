@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00435",
-	"slug": "עט",
-	"headword": {
-		"text": "עֵט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵט",
+	"headwords": [
+		{
+			"text": "עֵט"
+		},
 		{
 			"text": "עֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1062,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00165",
-	"slug": "זוטרתי",
-	"headword": {
-		"text": "זוּטַרְתִּי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּטַרְתִּי II",
+	"headwords": [
+		{
+			"text": "זוּטַרְתִּי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 386,
 		"column": "a"

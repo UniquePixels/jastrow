@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00049",
-	"slug": "מאס-1",
-	"headword": {
-		"text": "מָאַס"
-	},
+	"sefariaHeadword": "מָאַס",
+	"headwords": [
+		{
+			"text": "מָאַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "b"

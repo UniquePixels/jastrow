@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00005",
-	"slug": "טאוי",
-	"headword": {
-		"text": "טאוי"
-	},
+	"sefariaHeadword": "טאוי",
+	"headwords": [
+		{
+			"text": "טאוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

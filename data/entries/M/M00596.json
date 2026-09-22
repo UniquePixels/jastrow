@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00596",
-	"slug": "מוקצה",
-	"headword": {
-		"text": "מוּקְצֶה"
-	},
+	"sefariaHeadword": "מוּקְצֶה",
+	"headwords": [
+		{
+			"text": "מוּקְצֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

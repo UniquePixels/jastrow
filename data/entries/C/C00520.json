@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00520",
-	"slug": "גזבר",
-	"headword": {
-		"text": "גִּזְבָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּזְבָּר",
+	"headwords": [
 		{
-			"text": "גִּיזְ׳"
+			"text": "גִּזְבָּר"
+		},
+		{
+			"text": "גִּיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 228,
 		"column": "b"

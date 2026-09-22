@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00131",
-	"slug": "עדי-4",
-	"headword": {
-		"text": "עֲדֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲדֵי ²",
+	"headwords": [
+		{
+			"text": "עֲדֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֲדָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1044,
 		"column": "a"

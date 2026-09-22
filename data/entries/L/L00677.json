@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00677",
-	"slug": "לקט-1",
-	"headword": {
-		"text": "לָקַט"
-	},
+	"sefariaHeadword": "לָקַט",
+	"headwords": [
+		{
+			"text": "לָקַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "b"

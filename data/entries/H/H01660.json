@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01660",
-	"slug": "חרט-1",
-	"headword": {
-		"text": "חָרַט"
-	},
+	"sefariaHeadword": "חָרַט",
+	"headwords": [
+		{
+			"text": "חָרַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "a"

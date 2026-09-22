@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00463",
-	"slug": "הינייקי",
-	"headword": {
-		"text": "הִינְיָיקִי"
-	},
+	"sefariaHeadword": "הִינְיָיקִי",
+	"headwords": [
+		{
+			"text": "הִינְיָיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "b"

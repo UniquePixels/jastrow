@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00149",
-	"slug": "טוטפת",
-	"headword": {
-		"text": "טוֹטָפֶת"
-	},
+	"sefariaHeadword": "טוֹטָפֶת",
+	"headwords": [
+		{
+			"text": "טוֹטָפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

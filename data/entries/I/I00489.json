@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "I00489",
-	"slug": "טלטוליא",
-	"headword": {
-		"text": "טִלְטוּלַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִלְטוּלַיָּא",
+	"headwords": [
 		{
-			"text": "טִילְ׳"
+			"text": "טִלְטוּלַיָּא"
 		},
 		{
-			"text": "טַלְ׳"
+			"text": "טִילְ׳",
+			"partial": true
+		},
+		{
+			"text": "טַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 536,
 		"column": "a"

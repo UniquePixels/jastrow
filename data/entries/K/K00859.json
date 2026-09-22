@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00859",
-	"slug": "כנן",
-	"headword": {
-		"text": "כָּנַן"
-	},
+	"sefariaHeadword": "כָּנַן",
+	"headwords": [
+		{
+			"text": "כָּנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

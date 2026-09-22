@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00577",
-	"slug": "שושנתא",
-	"headword": {
-		"text": "שׁוֹשַׁנְתָּא"
-	},
+	"sefariaHeadword": "שׁוֹשַׁנְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוֹשַׁנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "a"

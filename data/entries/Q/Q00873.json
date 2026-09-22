@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00873",
-	"slug": "פירצה",
-	"headword": {
-		"text": "פִּירְצָה"
-	},
+	"sefariaHeadword": "פִּירְצָה",
+	"headwords": [
+		{
+			"text": "פִּירְצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

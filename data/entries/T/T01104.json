@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01104",
-	"slug": "רשעה",
-	"headword": {
-		"text": "רִשְׁעָה"
-	},
+	"sefariaHeadword": "רִשְׁעָה",
+	"headwords": [
+		{
+			"text": "רִשְׁעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1501,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02621",
-	"slug": "אפוליון",
-	"headword": {
-		"text": "אפוליון"
-	},
+	"sefariaHeadword": "אפוליון",
+	"headwords": [
+		{
+			"text": "אפוליון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

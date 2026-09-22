@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00870",
-	"slug": "הרכב",
-	"headword": {
-		"text": "הֶרְכֵּב"
-	},
+	"sefariaHeadword": "הֶרְכֵּב",
+	"headwords": [
+		{
+			"text": "הֶרְכֵּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

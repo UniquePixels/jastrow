@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02826",
-	"slug": "אפרכוריס",
-	"headword": {
-		"text": "אפרכוריס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אפרכוריס",
+	"headwords": [
+		{
+			"text": "אפרכוריס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

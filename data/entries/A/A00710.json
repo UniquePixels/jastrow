@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00710",
-	"slug": "אומנית",
-	"headword": {
-		"text": "אוֹמָנִית"
-	},
+	"sefariaHeadword": "אוֹמָנִית",
+	"headwords": [
+		{
+			"text": "אוֹמָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

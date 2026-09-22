@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01016",
-	"slug": "קינ",
-	"headword": {
-		"text": "קִינּ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינּ־",
+	"headwords": [
+		{
+			"text": "קִינּ־"
+		},
 		{
 			"text": "קִינָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1362,
 		"column": "b"

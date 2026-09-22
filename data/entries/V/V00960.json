@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00960",
-	"slug": "תרוי",
-	"headword": {
-		"text": "תַּרְוֵי־"
-	},
+	"sefariaHeadword": "תַּרְוֵי־",
+	"headwords": [
+		{
+			"text": "תַּרְוֵי־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1696,
 		"column": "b"

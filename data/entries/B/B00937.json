@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00937",
-	"slug": "בנאים",
-	"headword": {
-		"text": "בַּנָּאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּנָּאִים",
+	"headwords": [
+		{
+			"text": "בַּנָּאִים"
+		},
 		{
 			"text": "בַּנָּאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 176,
 		"column": "b"

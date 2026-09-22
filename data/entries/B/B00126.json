@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00126",
-	"slug": "בדורוילו",
-	"headword": {
-		"text": "בדורוילו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בדורוילו",
+	"headwords": [
+		{
+			"text": "בדורוילו"
+		},
 		{
 			"text": "בדורלהון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 139,
 		"column": "b"

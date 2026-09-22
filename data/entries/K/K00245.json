@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00245",
-	"slug": "כוי-3",
-	"headword": {
-		"text": "כּוֹי"
-	},
+	"sefariaHeadword": "כּוֹי",
+	"headwords": [
+		{
+			"text": "כּוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "b"

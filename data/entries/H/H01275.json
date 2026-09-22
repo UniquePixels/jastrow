@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01275",
-	"slug": "חנט-3",
-	"headword": {
-		"text": "חֶנֶט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶנֶט",
+	"headwords": [
+		{
+			"text": "חֶנֶט"
+		},
 		{
 			"text": "חֲנָטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 482,
 		"column": "b"

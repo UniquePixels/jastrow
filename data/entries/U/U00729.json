@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00729",
-	"slug": "שט",
-	"headword": {
-		"text": "שָׁט"
-	},
+	"sefariaHeadword": "שָׁט",
+	"headwords": [
+		{
+			"text": "שָׁט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "b"

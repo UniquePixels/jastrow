@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00595",
-	"slug": "סיוע-2",
-	"headword": {
-		"text": "סִיּוּעַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיּוּעַ ²",
+	"headwords": [
+		{
+			"text": "סִיּוּעַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "סִיּוּעָא"
 		},
 		{
-			"text": "סְיוּ׳"
+			"text": "סְיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 977,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01166",
-	"slug": "סנבול",
-	"headword": {
-		"text": "סִנְבּוּל"
-	},
+	"sefariaHeadword": "סִנְבּוּל",
+	"headwords": [
+		{
+			"text": "סִנְבּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

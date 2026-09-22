@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00456",
-	"slug": "נזם",
-	"headword": {
-		"text": "נֶזֶם"
-	},
+	"sefariaHeadword": "נֶזֶם",
+	"headwords": [
+		{
+			"text": "נֶזֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 892,
 		"column": "a"

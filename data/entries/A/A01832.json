@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01832",
-	"slug": "אלטינון",
-	"headword": {
-		"text": "אלטינון",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אלטינון",
+	"headwords": [
+		{
+			"text": "אלטינון",
+			"reconstructed": true
+		},
 		{
 			"text": "טיינון"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 68,
 		"column": "b"

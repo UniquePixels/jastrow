@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02742",
-	"slug": "מרעלא",
-	"headword": {
-		"text": "מַרְעֵלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְעֵלָא",
+	"headwords": [
 		{
-			"text": "מַרְעֵי׳"
+			"text": "מַרְעֵלָא"
+		},
+		{
+			"text": "מַרְעֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 845,
 		"column": "b"

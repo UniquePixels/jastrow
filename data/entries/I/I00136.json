@@ -1,21 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "I00136",
-	"slug": "טוור",
-	"headword": {
-		"text": "טַוַּור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַוַּור",
+	"headwords": [
+		{
+			"text": "טַוַּור"
+		},
 		{
 			"text": "טַוְּורָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <he>טיְּרָא</he>",
+			"gloss": ", v. <he>טיְּרָא</he>",
 			"units": []
 		}
 	]

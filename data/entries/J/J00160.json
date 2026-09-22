@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00160",
-	"slug": "יודא",
-	"headword": {
-		"text": "יוּדָא"
-	},
+	"sefariaHeadword": "יוּדָא",
+	"headwords": [
+		{
+			"text": "יוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

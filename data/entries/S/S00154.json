@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00154",
-	"slug": "קדם-5",
-	"headword": {
-		"text": "קָדָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָדָם",
+	"headwords": [
+		{
+			"text": "קָדָם"
+		},
 		{
 			"text": "קֳדָם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1316,
 		"column": "b"

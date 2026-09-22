@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00181",
-	"slug": "אבס",
-	"headword": {
-		"text": "אָבַס"
-	},
+	"sefariaHeadword": "אָבַס",
+	"headwords": [
+		{
+			"text": "אָבַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "a"

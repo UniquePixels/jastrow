@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00733",
-	"slug": "ניפולין",
-	"headword": {
-		"text": "נִיפּוֹלִין"
-	},
+	"sefariaHeadword": "נִיפּוֹלִין",
+	"headwords": [
+		{
+			"text": "נִיפּוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

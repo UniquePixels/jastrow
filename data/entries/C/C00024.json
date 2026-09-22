@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00024",
-	"slug": "גאלי",
-	"headword": {
-		"text": "גָּאלֵי"
-	},
+	"sefariaHeadword": "גָּאלֵי",
+	"headwords": [
+		{
+			"text": "גָּאלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01053",
-	"slug": "גמלתא",
-	"headword": {
-		"text": "גְּמַלְתָּא"
-	},
+	"sefariaHeadword": "גְּמַלְתָּא",
+	"headwords": [
+		{
+			"text": "גְּמַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

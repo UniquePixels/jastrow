@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00571",
-	"slug": "למוד-1",
-	"headword": {
-		"text": "לָמוּד"
-	},
+	"sefariaHeadword": "לָמוּד",
+	"headwords": [
+		{
+			"text": "לָמוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 712,
 		"column": "b"

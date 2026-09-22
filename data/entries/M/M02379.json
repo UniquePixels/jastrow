@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02379",
-	"slug": "מקבת",
-	"headword": {
-		"text": "מַקֶּבֶת"
-	},
+	"sefariaHeadword": "מַקֶּבֶת",
+	"headwords": [
+		{
+			"text": "מַקֶּבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01183",
-	"slug": "סנדלכין",
-	"headword": {
-		"text": "סַנְדַּלְכִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְדַּלְכִין",
+	"headwords": [
+		{
+			"text": "סַנְדַּלְכִין"
+		},
 		{
 			"text": "סַנְדַּלְכָנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "a"

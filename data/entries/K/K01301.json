@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01301",
-	"slug": "כשורתא",
-	"headword": {
-		"text": "כָּשׁוֹרְתָּא"
-	},
+	"sefariaHeadword": "כָּשׁוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "כָּשׁוֹרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "b"

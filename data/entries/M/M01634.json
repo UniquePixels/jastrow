@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01634",
-	"slug": "מלשינותא",
-	"headword": {
-		"text": "מַלְשִׁינוּתָא"
-	},
+	"sefariaHeadword": "מַלְשִׁינוּתָא",
+	"headwords": [
+		{
+			"text": "מַלְשִׁינוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

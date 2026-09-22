@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00441",
-	"slug": "ציצית-2",
-	"headword": {
-		"text": "צִיצִית",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיצִית ²",
+	"headwords": [
+		{
+			"text": "צִיצִית",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִיצִיתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1280,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02350",
-	"slug": "אסטגיות",
-	"headword": {
-		"text": "אִסְטַגְיוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַגְיוֹת",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְטַגְיוֹת"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 89,
 		"column": "b"

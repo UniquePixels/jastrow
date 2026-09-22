@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00575",
-	"slug": "כינשא",
-	"headword": {
-		"text": "כִּינְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינְשָׁא",
+	"headwords": [
+		{
+			"text": "כִּינְשָׁא"
+		},
 		{
 			"text": "כִּינְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

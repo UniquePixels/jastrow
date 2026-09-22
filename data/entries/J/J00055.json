@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00055",
-	"slug": "יבלית",
-	"headword": {
-		"text": "יַבְלִית"
-	},
+	"sefariaHeadword": "יַבְלִית",
+	"headwords": [
+		{
+			"text": "יַבְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 561,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02148",
-	"slug": "מענה-2",
-	"headword": {
-		"text": "מַעֲנָה"
-	},
+	"sefariaHeadword": "מַעֲנָה",
+	"headwords": [
+		{
+			"text": "מַעֲנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "a"

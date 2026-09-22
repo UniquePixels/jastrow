@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00629",
-	"slug": "לפוד",
-	"headword": {
-		"text": "לפוד"
-	},
+	"sefariaHeadword": "לפוד",
+	"headwords": [
+		{
+			"text": "לפוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

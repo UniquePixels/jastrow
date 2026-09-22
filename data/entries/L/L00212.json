@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00212",
-	"slug": "לווט",
-	"headword": {
-		"text": "לְוָוט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָוט",
+	"headwords": [
+		{
+			"text": "לְוָוט"
+		},
 		{
 			"text": "לְוָוטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 695,
 		"column": "b"

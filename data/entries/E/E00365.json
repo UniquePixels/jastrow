@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00365",
-	"slug": "היידין",
-	"headword": {
-		"text": "הַיְידֵּין"
-	},
+	"sefariaHeadword": "הַיְידֵּין",
+	"headwords": [
+		{
+			"text": "הַיְידֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "b"

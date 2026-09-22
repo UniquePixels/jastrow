@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00868",
-	"slug": "שיחיא",
-	"headword": {
-		"text": "שִׁיחַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיחַיָּא",
+	"headwords": [
 		{
-			"text": "כְּפַר שִׁיחַיָּא"
+			"text": "שִׁיחַיָּא"
+		},
+		{
+			"text": "כְּפַר שִׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1559,
 		"column": "b"

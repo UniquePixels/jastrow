@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00574",
-	"slug": "קורדייקוס",
-	"headword": {
-		"text": "קוּרְדְּיָיקוֹס"
-	},
+	"sefariaHeadword": "קוּרְדְּיָיקוֹס",
+	"headwords": [
+		{
+			"text": "קוּרְדְּיָיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "b"

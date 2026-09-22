@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00791",
-	"slug": "סיפור",
-	"headword": {
-		"text": "סִיפּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפּוּר",
+	"headwords": [
 		{
-			"text": "סִפּ׳"
+			"text": "סִיפּוּר"
+		},
+		{
+			"text": "סִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 985,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00658",
-	"slug": "טפיש",
-	"headword": {
-		"text": "טְפֵישׁ"
-	},
+	"sefariaHeadword": "טְפֵישׁ",
+	"headwords": [
+		{
+			"text": "טְפֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

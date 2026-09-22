@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01106",
-	"slug": "דרמוסקוס",
-	"headword": {
-		"text": "דַּרְמוּסְקוֹס"
-	},
+	"sefariaHeadword": "דַּרְמוּסְקוֹס",
+	"headwords": [
+		{
+			"text": "דַּרְמוּסְקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

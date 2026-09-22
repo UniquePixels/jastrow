@@ -1,9 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00654",
-	"slug": "טפילה-טפילא",
-	"headword": {
-		"text": "טְפֵילָה טְפֵילָא"
-	},
+	"sefariaHeadword": "טְפֵילָה טְפֵילָא",
+	"headwords": [
+		{
+			"text": "טְפֵילָה"
+		},
+		{
+			"text": "טְפֵילָא"
+		}
+	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 547,
 		"column": "a"

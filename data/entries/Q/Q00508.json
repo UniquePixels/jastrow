@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00508",
-	"slug": "פטטרכא",
-	"headword": {
-		"text": "פְּטָטַרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּטָטַרְכָא",
+	"headwords": [
+		{
+			"text": "פְּטָטַרְכָא"
+		},
 		{
 			"text": "פְּטָטַרְכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1154,
 		"column": "b"

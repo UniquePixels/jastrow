@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00569",
-	"slug": "ביזיונא",
-	"headword": {
-		"text": "ביזיונא"
-	},
+	"sefariaHeadword": "ביזיונא",
+	"headwords": [
+		{
+			"text": "ביזיונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

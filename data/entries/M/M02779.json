@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02779",
-	"slug": "מררתא",
-	"headword": {
-		"text": "מְרַרְתָּא"
-	},
+	"sefariaHeadword": "מְרַרְתָּא",
+	"headwords": [
+		{
+			"text": "מְרַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

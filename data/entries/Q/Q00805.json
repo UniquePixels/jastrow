@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00805",
-	"slug": "פיקוסא",
-	"headword": {
-		"text": "פִּיקּוּסָא"
-	},
+	"sefariaHeadword": "פִּיקּוּסָא",
+	"headwords": [
+		{
+			"text": "פִּיקּוּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "b"

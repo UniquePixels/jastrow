@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01121",
-	"slug": "מיחצא",
-	"headword": {
-		"text": "מִיחְצָא"
-	},
+	"sefariaHeadword": "מִיחְצָא",
+	"headwords": [
+		{
+			"text": "מִיחְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

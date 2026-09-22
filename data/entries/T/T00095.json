@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00095",
-	"slug": "רבין",
-	"headword": {
-		"text": "רַבִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַבִּין",
+	"headwords": [
+		{
+			"text": "רַבִּין"
+		},
 		{
 			"text": "רָבִין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1442,
 		"column": "b"

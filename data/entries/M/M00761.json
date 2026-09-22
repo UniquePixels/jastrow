@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00761",
-	"slug": "מזל-1",
-	"headword": {
-		"text": "מַזָּל"
-	},
+	"sefariaHeadword": "מַזָּל",
+	"headwords": [
+		{
+			"text": "מַזָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

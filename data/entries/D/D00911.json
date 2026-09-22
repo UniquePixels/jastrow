@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00911",
-	"slug": "דמעה",
-	"headword": {
-		"text": "דִּמְעָה"
-	},
+	"sefariaHeadword": "דִּמְעָה",
+	"headwords": [
+		{
+			"text": "דִּמְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "b"

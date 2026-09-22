@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00166",
-	"slug": "להל",
-	"headword": {
-		"text": "להל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "להל",
+	"headwords": [
+		{
+			"text": "להל"
+		},
 		{
 			"text": "לְהָלָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "לְהַלָּן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 693,
 		"column": "b"

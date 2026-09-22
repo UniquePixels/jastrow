@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02212",
-	"slug": "פתשגר",
-	"headword": {
-		"text": "פַּתְשְׁגַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתְשְׁגַר",
+	"headwords": [
+		{
+			"text": "פַּתְשְׁגַר"
+		},
 		{
 			"text": "פַּתְשֶׁגֶר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1256,
 		"column": "b"

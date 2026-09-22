@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00072",
-	"slug": "נבי-3",
-	"headword": {
-		"text": "נְבֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבֵי",
+	"headwords": [
+		{
+			"text": "נְבֵי"
+		},
 		{
 			"text": "נְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 868,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01266",
-	"slug": "בריכא",
-	"headword": {
-		"text": "בְּרִיכָא"
-	},
+	"sefariaHeadword": "בְּרִיכָא",
+	"headwords": [
+		{
+			"text": "בְּרִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

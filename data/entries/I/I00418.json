@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00418",
-	"slug": "טיפטף",
-	"headword": {
-		"text": "טִיפְטֵף"
-	},
+	"sefariaHeadword": "טִיפְטֵף",
+	"headwords": [
+		{
+			"text": "טִיפְטֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01384",
-	"slug": "נתן-2",
-	"headword": {
-		"text": "נָתַן"
-	},
+	"sefariaHeadword": "נָתַן",
+	"headwords": [
+		{
+			"text": "נָתַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "b"

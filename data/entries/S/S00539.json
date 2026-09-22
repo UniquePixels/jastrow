@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00539",
-	"slug": "קוצה-2",
-	"headword": {
-		"text": "קוֹצָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קוֹצָה II",
+	"headwords": [
+		{
+			"text": "קוֹצָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1340,
 		"column": "a"

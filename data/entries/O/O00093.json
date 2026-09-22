@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00093",
-	"slug": "סברוסי",
-	"headword": {
-		"text": "סִבְרוֹסִי"
-	},
+	"sefariaHeadword": "סִבְרוֹסִי",
+	"headwords": [
+		{
+			"text": "סִבְרוֹסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

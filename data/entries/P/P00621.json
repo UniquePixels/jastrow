@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00621",
-	"slug": "עינטב",
-	"headword": {
-		"text": "עֵינְטַב"
-	},
+	"sefariaHeadword": "עֵינְטַב",
+	"headwords": [
+		{
+			"text": "עֵינְטַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

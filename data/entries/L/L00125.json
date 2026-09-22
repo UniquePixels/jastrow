@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00125",
-	"slug": "לגטון",
-	"headword": {
-		"text": "לֶגְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֶגְטוֹן",
+	"headwords": [
 		{
-			"text": "לִיגָ׳"
+			"text": "לֶגְטוֹן"
+		},
+		{
+			"text": "לִיגָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 692,
 		"column": "a"

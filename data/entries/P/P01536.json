@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01536",
-	"slug": "עתיר",
-	"headword": {
-		"text": "עַתִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַתִּיר",
+	"headwords": [
+		{
+			"text": "עַתִּיר"
+		},
 		{
 			"text": "עַתִּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1129,
 		"column": "b"

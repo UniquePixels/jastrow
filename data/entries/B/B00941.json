@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00941",
-	"slug": "בנות",
-	"headword": {
-		"text": "בָּנוֹת"
-	},
+	"sefariaHeadword": "בָּנוֹת",
+	"headwords": [
+		{
+			"text": "בָּנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

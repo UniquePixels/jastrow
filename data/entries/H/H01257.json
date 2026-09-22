@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01257",
-	"slug": "חנווני",
-	"headword": {
-		"text": "חֶנְוָונִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶנְוָונִי",
+	"headwords": [
+		{
+			"text": "חֶנְוָונִי"
+		},
 		{
 			"text": "חֶנְוָנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 481,
 		"column": "b"

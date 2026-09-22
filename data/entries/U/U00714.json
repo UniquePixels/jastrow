@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00714",
-	"slug": "שחרורין",
-	"headword": {
-		"text": "שַׁחֲרוֹרִין"
-	},
+	"sefariaHeadword": "שַׁחֲרוֹרִין",
+	"headwords": [
+		{
+			"text": "שַׁחֲרוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

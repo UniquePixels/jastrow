@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00557",
-	"slug": "חזקי",
-	"headword": {
-		"text": "חִזְקִי"
-	},
+	"sefariaHeadword": "חִזְקִי",
+	"headwords": [
+		{
+			"text": "חִזְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 446,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00071",
-	"slug": "בג",
-	"headword": {
-		"text": "בַּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּג",
+	"headwords": [
+		{
+			"text": "בַּג"
+		},
 		{
 			"text": "בֶּן בַּג בַּג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 137,
 		"column": "a"

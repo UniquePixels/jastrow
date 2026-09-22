@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00021",
-	"slug": "שאיט",
-	"headword": {
-		"text": "שָׁאֵיט"
-	},
+	"sefariaHeadword": "שָׁאֵיט",
+	"headwords": [
+		{
+			"text": "שָׁאֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

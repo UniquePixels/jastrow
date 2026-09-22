@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02103",
-	"slug": "אנגלין",
-	"headword": {
-		"text": "אנגלין"
-	},
+	"sefariaHeadword": "אנגלין",
+	"headwords": [
+		{
+			"text": "אנגלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

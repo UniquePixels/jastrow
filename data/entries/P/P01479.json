@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01479",
-	"slug": "עשיניות",
-	"headword": {
-		"text": "עשיניות"
-	},
+	"sefariaHeadword": "עשיניות",
+	"headwords": [
+		{
+			"text": "עשיניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1125,
 		"column": "b"

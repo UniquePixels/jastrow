@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02170",
-	"slug": "קרקסא-2",
-	"headword": {
-		"text": "קִרְקְסָא"
-	},
+	"sefariaHeadword": "קִרְקְסָא",
+	"headwords": [
+		{
+			"text": "קִרְקְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

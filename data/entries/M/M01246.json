@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01246",
-	"slug": "מיסיק",
-	"headword": {
-		"text": "מיסיק"
-	},
+	"sefariaHeadword": "מיסיק",
+	"headwords": [
+		{
+			"text": "מיסיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00057",
-	"slug": "אבובראה",
-	"headword": {
-		"text": "אַבּוּבְרָאֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבּוּבְרָאֶה",
+	"headwords": [
+		{
+			"text": "אַבּוּבְרָאֶה"
+		},
 		{
 			"text": "אַבּוּבְרוֹאֶה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

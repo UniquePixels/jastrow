@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00456",
-	"slug": "תימה",
-	"headword": {
-		"text": "תֵּימַהּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּימַהּ",
+	"headwords": [
+		{
+			"text": "תֵּימַהּ"
+		},
 		{
 			"text": "תִּימְהָא"
 		},
 		{
-			"text": "תִּמְ׳"
+			"text": "תִּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1665,
 		"column": "a"

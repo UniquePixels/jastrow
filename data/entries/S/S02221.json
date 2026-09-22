@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02221",
-	"slug": "קשה-3",
-	"headword": {
-		"text": "קָשֶׁה"
-	},
+	"sefariaHeadword": "קָשֶׁה",
+	"headwords": [
+		{
+			"text": "קָשֶׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1429,
 		"column": "a"

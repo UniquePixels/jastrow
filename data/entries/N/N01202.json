@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01202",
-	"slug": "נקיון",
-	"headword": {
-		"text": "נִקָּיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקָּיוֹן",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִקָּיוֹן"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"

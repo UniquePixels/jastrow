@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01723",
-	"slug": "קפז-1",
-	"headword": {
-		"text": "קָפֵז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָפֵז",
+	"headwords": [
+		{
+			"text": "קָפֵז"
+		},
 		{
 			"text": "קָפַז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1399,
 		"column": "a"

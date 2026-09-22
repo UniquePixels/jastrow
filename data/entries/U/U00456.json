@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00456",
-	"slug": "שומרה-1",
-	"headword": {
-		"text": "שׁוּמְּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּמְּרָה",
+	"headwords": [
+		{
+			"text": "שׁוּמְּרָה"
+		},
 		{
 			"text": "שׁוּמִּירָה"
 		}

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00243",
-	"slug": "הומניות",
-	"headword": {
-		"text": "הומניות"
-	},
+	"sefariaHeadword": "הומניות",
+	"headwords": [
+		{
+			"text": "הומניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

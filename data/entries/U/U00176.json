@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00176",
-	"slug": "שבר-5",
-	"headword": {
-		"text": "שֶׁבֶר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שֶׁבֶר I",
+	"headwords": [
+		{
+			"text": "שֶׁבֶר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1517,
 		"column": "b"

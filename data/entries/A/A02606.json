@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02606",
-	"slug": "אפו",
-	"headword": {
-		"text": "אפו"
-	},
+	"sefariaHeadword": "אפו",
+	"headwords": [
+		{
+			"text": "אפו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

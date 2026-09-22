@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00798",
-	"slug": "עליזה",
-	"headword": {
-		"text": "עֲלִיזָה"
-	},
+	"sefariaHeadword": "עֲלִיזָה",
+	"headwords": [
+		{
+			"text": "עֲלִיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "a"

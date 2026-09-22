@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00217",
-	"slug": "סהידוון",
-	"headword": {
-		"text": "סָהֶידְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָהֶידְוָון",
+	"headwords": [
+		{
+			"text": "סָהֶידְוָון"
+		},
 		{
 			"text": "סָהֶידְוָן"
 		},
@@ -12,6 +13,7 @@
 			"text": "סָהֶידְוָותָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 959,
 		"column": "b"

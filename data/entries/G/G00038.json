@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00038",
-	"slug": "זבין",
-	"headword": {
-		"text": "זְבֵין"
-	},
+	"sefariaHeadword": "זְבֵין",
+	"headwords": [
+		{
+			"text": "זְבֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "a"

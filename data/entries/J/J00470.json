@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00470",
-	"slug": "יסר-1",
-	"headword": {
-		"text": "יָסַר"
-	},
+	"sefariaHeadword": "יָסַר",
+	"headwords": [
+		{
+			"text": "יָסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 583,
 		"column": "a"

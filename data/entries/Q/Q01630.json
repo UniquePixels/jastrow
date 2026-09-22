@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01630",
-	"slug": "פרוובטה",
-	"headword": {
-		"text": "פרוובטה"
-	},
+	"sefariaHeadword": "פרוובטה",
+	"headwords": [
+		{
+			"text": "פרוובטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

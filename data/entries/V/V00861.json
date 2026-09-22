@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00861",
-	"slug": "תפשיחא",
-	"headword": {
-		"text": "תַּפְשִׁיחָא"
-	},
+	"sefariaHeadword": "תַּפְשִׁיחָא",
+	"headwords": [
+		{
+			"text": "תַּפְשִׁיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

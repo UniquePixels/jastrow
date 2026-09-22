@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00098",
-	"slug": "טגרוס",
-	"headword": {
-		"text": "טִגְרוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִגְרוֹס",
+	"headwords": [
+		{
+			"text": "טִגְרוֹס"
+		},
 		{
 			"text": "טִגְרֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 520,
 		"column": "a"

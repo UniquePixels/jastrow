@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00491",
-	"slug": "צלוב-3",
-	"headword": {
-		"text": "צְלוּב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְלוּב II",
+	"headwords": [
+		{
+			"text": "צְלוּב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1282,
 		"column": "b"

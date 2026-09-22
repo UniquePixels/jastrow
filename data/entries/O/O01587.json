@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01587",
-	"slug": "סרטוט",
-	"headword": {
-		"text": "סִרְטוּט"
-	},
+	"sefariaHeadword": "סִרְטוּט",
+	"headwords": [
+		{
+			"text": "סִרְטוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "b"

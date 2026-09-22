@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00262",
-	"slug": "מדוי-1",
-	"headword": {
-		"text": "מדוי"
-	},
+	"sefariaHeadword": "מדוי",
+	"headwords": [
+		{
+			"text": "מדוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

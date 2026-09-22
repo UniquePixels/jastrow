@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01604",
-	"slug": "מלמלה",
-	"headword": {
-		"text": "מַלְמֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְמֵלָה",
+	"headwords": [
+		{
+			"text": "מַלְמֵלָה"
+		},
 		{
 			"text": "מַלְמֵלָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 793,
 		"column": "a"

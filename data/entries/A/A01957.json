@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01957",
-	"slug": "אלתוסבראות",
-	"headword": {
-		"text": "אַלְתּוּסְבְּרָאוֹת"
-	},
+	"sefariaHeadword": "אַלְתּוּסְבְּרָאוֹת",
+	"headwords": [
+		{
+			"text": "אַלְתּוּסְבְּרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

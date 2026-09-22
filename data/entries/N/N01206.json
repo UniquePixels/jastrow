@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N01206",
-	"slug": "נקיט-2",
-	"headword": {
-		"text": "נָקֵיט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָקֵיט",
+	"headwords": [
+		{
+			"text": "נָקֵיט"
+		},
 		{
 			"text": "נְקִיט"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְקִיטָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 933,
 		"column": "a"

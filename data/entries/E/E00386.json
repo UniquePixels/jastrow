@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00386",
-	"slug": "היכנא",
-	"headword": {
-		"text": "הֵיכְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵיכְנָא",
+	"headwords": [
+		{
+			"text": "הֵיכְנָא"
+		},
 		{
 			"text": "הֵיכְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 345,
 		"column": "b"

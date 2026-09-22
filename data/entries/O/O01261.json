@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01261",
-	"slug": "סנקירקים",
-	"headword": {
-		"text": "סנקירקים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סנקירקים",
+	"headwords": [
+		{
+			"text": "סנקירקים"
+		},
 		{
 			"text": "סנקנירקים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1008,
 		"column": "b"

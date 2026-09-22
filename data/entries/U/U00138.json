@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00138",
-	"slug": "שביתה",
-	"headword": {
-		"text": "שְׁבִיתָה"
-	},
+	"sefariaHeadword": "שְׁבִיתָה",
+	"headwords": [
+		{
+			"text": "שְׁבִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01432",
-	"slug": "פצים-1",
-	"headword": {
-		"text": "פַּצִּים"
-	},
+	"sefariaHeadword": "פַּצִּים",
+	"headwords": [
+		{
+			"text": "פַּצִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "a"

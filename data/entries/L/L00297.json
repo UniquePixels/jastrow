@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00297",
-	"slug": "לוס",
-	"headword": {
-		"text": "לוּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לוּס",
+	"headwords": [
+		{
+			"text": "לוּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01270",
-	"slug": "קלון-2",
-	"headword": {
-		"text": "קָלוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָלוֹן II",
+	"headwords": [
+		{
+			"text": "קָלוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1373,
 		"column": "a"

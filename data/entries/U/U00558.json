@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "U00558",
-	"slug": "שוש-2",
-	"headword": {
-		"text": "שׁוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּשׁ",
+	"headwords": [
+		{
+			"text": "שׁוּשׁ"
+		},
 		{
 			"text": "שְׁוַשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1543,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

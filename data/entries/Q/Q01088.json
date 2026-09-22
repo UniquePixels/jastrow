@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01088",
-	"slug": "פלן-1",
-	"headword": {
-		"text": "פְּלַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַן",
+	"headwords": [
+		{
+			"text": "פְּלַן"
+		},
 		{
 			"text": "פְּלָנִי"
 		},
@@ -15,6 +16,7 @@
 			"text": "פְּלוֹנִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1183,
 		"column": "b"

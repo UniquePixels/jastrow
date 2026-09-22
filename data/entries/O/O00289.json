@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00289",
-	"slug": "סוטר",
-	"headword": {
-		"text": "סוּטַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סוּטַר",
+	"headwords": [
+		{
+			"text": "סוּטַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

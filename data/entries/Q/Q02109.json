@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02109",
-	"slug": "פשתני",
-	"headword": {
-		"text": "פִּשְׁתָּנִי"
-	},
+	"sefariaHeadword": "פִּשְׁתָּנִי",
+	"headwords": [
+		{
+			"text": "פִּשְׁתָּנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

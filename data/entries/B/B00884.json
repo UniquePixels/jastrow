@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00884",
-	"slug": "בלמא",
-	"headword": {
-		"text": "בְּלָמָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּלָמָא",
+	"headwords": [
+		{
+			"text": "בְּלָמָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 174,
 		"column": "a"

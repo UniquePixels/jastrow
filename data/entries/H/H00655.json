@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "H00655",
-	"slug": "חיבול",
-	"headword": {
-		"text": "חִיבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיבּוּל",
+	"headwords": [
+		{
+			"text": "חִיבּוּל"
+		},
 		{
 			"text": "חִיבּוּלָא"
 		},
 		{
-			"text": "חִבּ׳"
+			"text": "חִבּ׳",
+			"partial": true
 		},
 		{
 			"text": "חֲבַל"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 451,
 		"column": "a"

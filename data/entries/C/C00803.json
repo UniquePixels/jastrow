@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C00803",
-	"slug": "גיר-1",
-	"headword": {
-		"text": "גִּיר",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*גִּיר I",
+	"headwords": [
+		{
+			"text": "גִּיר",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 241,
 		"column": "b"

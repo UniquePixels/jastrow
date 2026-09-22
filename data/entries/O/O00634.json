@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00634",
-	"slug": "סייפות",
-	"headword": {
-		"text": "סְיָיפוֹת"
-	},
+	"sefariaHeadword": "סְיָיפוֹת",
+	"headwords": [
+		{
+			"text": "סְיָיפוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

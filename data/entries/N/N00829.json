@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00829",
-	"slug": "נכיס-2",
-	"headword": {
-		"text": "נְכִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְכִיס",
+	"headwords": [
+		{
+			"text": "נְכִיס"
+		},
 		{
 			"text": "נְכִיסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְכִיסְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 911,
 		"column": "a"

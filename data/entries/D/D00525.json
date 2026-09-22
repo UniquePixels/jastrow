@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00525",
-	"slug": "דיופטין",
-	"headword": {
-		"text": "דְּיוֹפְטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיוֹפְטִין",
+	"headwords": [
+		{
+			"text": "דְּיוֹפְטִין"
+		},
 		{
 			"text": "דְּיוֹפִיטִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "a"

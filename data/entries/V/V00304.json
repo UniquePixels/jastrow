@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00304",
-	"slug": "תורן",
-	"headword": {
-		"text": "תּוֹרֶן"
-	},
+	"sefariaHeadword": "תּוֹרֶן",
+	"headwords": [
+		{
+			"text": "תּוֹרֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "a"

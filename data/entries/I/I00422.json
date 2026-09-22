@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00422",
-	"slug": "טיפתא",
-	"headword": {
-		"text": "טִיפְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיפְתָא",
+	"headwords": [
 		{
-			"text": "טִפְ׳"
+			"text": "טִיפְתָא"
+		},
+		{
+			"text": "טִפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 533,
 		"column": "b"

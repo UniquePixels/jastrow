@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01093",
-	"slug": "רשם-3",
-	"headword": {
-		"text": "רְשַׁם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְשַׁם II",
+	"headwords": [
+		{
+			"text": "רְשַׁם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1501,
 		"column": "a"

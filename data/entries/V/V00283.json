@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00283",
-	"slug": "תורבנא",
-	"headword": {
-		"text": "תּוּרְבָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּרְבָּנָא",
+	"headwords": [
+		{
+			"text": "תּוּרְבָּנָא"
+		},
 		{
 			"text": "תורבנותא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תּוּרְבַּנְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1656,
 		"column": "b"

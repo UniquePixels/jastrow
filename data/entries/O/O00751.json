@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00751",
-	"slug": "סיסי-1",
-	"headword": {
-		"text": "סיסי"
-	},
+	"sefariaHeadword": "סיסי",
+	"headwords": [
+		{
+			"text": "סיסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

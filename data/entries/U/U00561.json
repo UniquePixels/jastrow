@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00561",
-	"slug": "שושבינא",
-	"headword": {
-		"text": "שׁוֹשְׁבִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹשְׁבִינָא",
+	"headwords": [
 		{
-			"text": "שׁוּ׳"
+			"text": "שׁוֹשְׁבִינָא"
+		},
+		{
+			"text": "שׁוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1543,
 		"column": "a"

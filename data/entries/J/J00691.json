@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00691",
-	"slug": "ישיטא",
-	"headword": {
-		"text": "יְשִׁיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְשִׁיטָא",
+	"headwords": [
 		{
-			"text": "בַּר יְשִׁיטָא"
+			"text": "יְשִׁיטָא"
+		},
+		{
+			"text": "בַּר י׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 600,
 		"column": "b"

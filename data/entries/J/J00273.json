@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00273",
-	"slug": "יחוס-1",
-	"headword": {
-		"text": "יִחוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִחוּס",
+	"headwords": [
 		{
-			"text": "יִי׳"
+			"text": "יִחוּס"
+		},
+		{
+			"text": "יִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 573,
 		"column": "b"

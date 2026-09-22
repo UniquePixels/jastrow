@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00231",
-	"slug": "שגמא",
-	"headword": {
-		"text": "שִׁגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁגְמָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁגְמָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1522,
 		"column": "a"

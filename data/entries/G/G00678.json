@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00678",
-	"slug": "זרוע-1",
-	"headword": {
-		"text": "זְרוֹעַ"
-	},
+	"sefariaHeadword": "זְרוֹעַ",
+	"headwords": [
+		{
+			"text": "זְרוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

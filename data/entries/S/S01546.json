@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01546",
-	"slug": "קנוף",
-	"headword": {
-		"text": "קִנּוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנּוֹף",
+	"headwords": [
+		{
+			"text": "קִנּוֹף"
+		},
 		{
 			"text": "קִנּוּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1389,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02155",
-	"slug": "אנחותא",
-	"headword": {
-		"text": "אַנְחוּתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַנְחוּתָא I",
+	"headwords": [
+		{
+			"text": "אַנְחוּתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 82,
 		"column": "b"

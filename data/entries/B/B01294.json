@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01294",
-	"slug": "ברכייר",
-	"headword": {
-		"text": "בִּרְכַּיָּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּרְכַּיָּיר",
+	"headwords": [
+		{
+			"text": "בִּרְכַּיָּיר"
+		},
 		{
 			"text": "בּוּרְכַּיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 196,
 		"column": "a"

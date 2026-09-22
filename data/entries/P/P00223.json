@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00223",
-	"slug": "עוזרד-1",
-	"headword": {
-		"text": "(עוּזְרָד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(עוּזְרָד",
+	"headwords": [
+		{
+			"text": "עוּזְרָד"
+		},
 		{
 			"text": "עוּזְרָר",
 			"homograph": 1

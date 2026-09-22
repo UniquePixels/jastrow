@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02995",
-	"slug": "משתי-2",
-	"headword": {
-		"text": "מִשְׁתִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁתִּי",
+	"headwords": [
+		{
+			"text": "מִשְׁתִּי"
+		},
 		{
 			"text": "מִשְׁתְּיָא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 859,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00214",
-	"slug": "טור-1",
-	"headword": {
-		"text": "טוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוּר I",
+	"headwords": [
+		{
+			"text": "טוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 526,
 		"column": "a"

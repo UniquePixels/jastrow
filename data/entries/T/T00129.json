@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00129",
-	"slug": "רבע-2",
-	"headword": {
-		"text": "רְבַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְבַע",
+	"headwords": [
+		{
+			"text": "רְבַע"
+		},
 		{
 			"text": "רְבִיעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1444,
 		"column": "b"

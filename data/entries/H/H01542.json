@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01542",
-	"slug": "חצר-1",
-	"headword": {
-		"text": "חֲצַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חֲצַר",
+	"headwords": [
+		{
+			"text": "חֲצַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 496,
 		"column": "a"

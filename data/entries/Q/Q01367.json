@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01367",
-	"slug": "פסתא",
-	"headword": {
-		"text": "פִּסְּתָא"
-	},
+	"sefariaHeadword": "פִּסְּתָא",
+	"headwords": [
+		{
+			"text": "פִּסְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01175",
-	"slug": "סנגרורין",
-	"headword": {
-		"text": "סנגרורין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סנגרורין",
+	"headwords": [
+		{
+			"text": "סנגרורין"
+		},
 		{
 			"text": "סנגרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1004,
 		"column": "b"

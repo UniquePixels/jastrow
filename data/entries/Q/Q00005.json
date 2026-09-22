@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00005",
-	"slug": "פאגי",
-	"headword": {
-		"text": "פָּאגֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּאגֵי",
+	"headwords": [
+		{
+			"text": "פָּאגֵי"
+		},
 		{
 			"text": "פַּגֵּי"
 		},
 		{
-			"text": "בֵּית פָּאגֵי"
+			"text": "בֵּית פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1130,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

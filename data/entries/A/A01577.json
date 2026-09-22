@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01577",
-	"slug": "איצטדין",
-	"headword": {
-		"text": "אִיצְטַדִּין"
-	},
+	"sefariaHeadword": "אִיצְטַדִּין",
+	"headwords": [
+		{
+			"text": "אִיצְטַדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01681",
-	"slug": "חרינא",
-	"headword": {
-		"text": "חֶרְיָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶרְיָנָא",
+	"headwords": [
 		{
-			"text": "חִירְ׳"
+			"text": "חֶרְיָנָא"
+		},
+		{
+			"text": "חִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "a"

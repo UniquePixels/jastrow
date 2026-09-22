@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00917",
-	"slug": "מחץ-1",
-	"headword": {
-		"text": "מָחַץ"
-	},
+	"sefariaHeadword": "מָחַץ",
+	"headwords": [
+		{
+			"text": "מָחַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

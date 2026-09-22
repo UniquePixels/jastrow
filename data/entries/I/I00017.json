@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00017",
-	"slug": "טאריקי",
-	"headword": {
-		"text": "טאריקי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טאריקי",
+	"headwords": [
+		{
+			"text": "טאריקי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 515,
 		"column": "b"

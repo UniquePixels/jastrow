@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01680",
-	"slug": "חרינה",
-	"headword": {
-		"text": "חֲרִינָה"
-	},
+	"sefariaHeadword": "חֲרִינָה",
+	"headwords": [
+		{
+			"text": "חֲרִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

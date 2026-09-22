@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00413",
-	"slug": "גומאצא",
-	"headword": {
-		"text": "גּוּמָּאצָא"
-	},
+	"sefariaHeadword": "גּוּמָּאצָא",
+	"headwords": [
+		{
+			"text": "גּוּמָּאצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"

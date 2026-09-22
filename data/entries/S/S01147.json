@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01147",
-	"slug": "קיקלתא",
-	"headword": {
-		"text": "קִיקֶלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיקֶלְתָּא",
+	"headwords": [
 		{
-			"text": "קִיקֶילְ׳"
+			"text": "קִיקֶלְתָּא"
+		},
+		{
+			"text": "קִיקֶילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1368,
 		"column": "a"

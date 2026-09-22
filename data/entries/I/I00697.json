@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00697",
-	"slug": "טקסיווט",
-	"headword": {
-		"text": "טקסיווט"
-	},
+	"sefariaHeadword": "טקסיווט",
+	"headwords": [
+		{
+			"text": "טקסיווט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

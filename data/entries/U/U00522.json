@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00522",
-	"slug": "שוק-5",
-	"headword": {
-		"text": "שׁוֹק"
-	},
+	"sefariaHeadword": "שׁוֹק",
+	"headwords": [
+		{
+			"text": "שׁוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "a"

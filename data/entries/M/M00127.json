@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00127",
-	"slug": "מגו",
-	"headword": {
-		"text": "מִגּוֹ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִגּוֹ",
+	"headwords": [
+		{
+			"text": "מִגּוֹ"
+		},
 		{
 			"text": "מִיגּוֹ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 726,
 		"column": "b"

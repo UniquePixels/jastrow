@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00639",
-	"slug": "קורקא",
-	"headword": {
-		"text": "קוּרְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְקָא",
+	"headwords": [
 		{
-			"text": "קַרְ׳"
+			"text": "קוּרְקָא"
+		},
+		{
+			"text": "קַרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1344,
 		"column": "a"

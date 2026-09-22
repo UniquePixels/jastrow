@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01606",
-	"slug": "סריד",
-	"headword": {
-		"text": "סָרִיד"
-	},
+	"sefariaHeadword": "סָרִיד",
+	"headwords": [
+		{
+			"text": "סָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

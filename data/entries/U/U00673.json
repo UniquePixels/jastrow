@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00673",
-	"slug": "שחם-2",
-	"headword": {
-		"text": "שְׁחַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁחַם",
+	"headwords": [
+		{
+			"text": "שְׁחַם"
+		},
 		{
 			"text": "שְׁחֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1549,
 		"column": "a"

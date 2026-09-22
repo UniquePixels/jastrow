@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01716",
-	"slug": "שפוונא",
-	"headword": {
-		"text": "שַׁפְוָונָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שַׁפְוָונָא",
+	"headwords": [
+		{
+			"text": "שַׁפְוָונָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

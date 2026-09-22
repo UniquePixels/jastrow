@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00499",
-	"slug": "דיו-1",
-	"headword": {
-		"text": "דַּיּוּ"
-	},
+	"sefariaHeadword": "דַּיּוּ",
+	"headwords": [
+		{
+			"text": "דַּיּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "a"

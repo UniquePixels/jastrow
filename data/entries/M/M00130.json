@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00130",
-	"slug": "מגוד",
-	"headword": {
-		"text": "מָגוֹד"
-	},
+	"sefariaHeadword": "מָגוֹד",
+	"headwords": [
+		{
+			"text": "מָגוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 726,
 		"column": "b"

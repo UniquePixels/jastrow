@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00495",
-	"slug": "ליסטות",
-	"headword": {
-		"text": "לִיסְטוּת"
-	},
+	"sefariaHeadword": "לִיסְטוּת",
+	"headwords": [
+		{
+			"text": "לִיסְטוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 708,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00297",
-	"slug": "גוגלתא",
-	"headword": {
-		"text": "גּוֹגַלְתָּא"
-	},
+	"sefariaHeadword": "גּוֹגַלְתָּא",
+	"headwords": [
+		{
+			"text": "גּוֹגַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00102",
-	"slug": "מבשקרנא",
-	"headword": {
-		"text": "מְבַשְׁקְרָנָא"
-	},
+	"sefariaHeadword": "מְבַשְׁקְרָנָא",
+	"headwords": [
+		{
+			"text": "מְבַשְׁקְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

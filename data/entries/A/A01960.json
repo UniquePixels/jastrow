@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01960",
-	"slug": "אם-1",
-	"headword": {
-		"text": "אִם"
-	},
+	"sefariaHeadword": "אִם",
+	"headwords": [
+		{
+			"text": "אִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "a"

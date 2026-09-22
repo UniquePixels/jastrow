@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02432",
-	"slug": "מקמק",
-	"headword": {
-		"text": "מַקְמֵק"
-	},
+	"sefariaHeadword": "מַקְמֵק",
+	"headwords": [
+		{
+			"text": "מַקְמֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "b"

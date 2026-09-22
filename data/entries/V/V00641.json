@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00641",
-	"slug": "תלתסר",
-	"headword": {
-		"text": "תלתסר"
-	},
+	"sefariaHeadword": "תלתסר",
+	"headwords": [
+		{
+			"text": "תלתסר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

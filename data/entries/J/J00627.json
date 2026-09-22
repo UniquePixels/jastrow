@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00627",
-	"slug": "ירי-1",
-	"headword": {
-		"text": "ירי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ירי",
+	"headwords": [
+		{
+			"text": "ירי"
+		},
 		{
 			"text": "יָרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 596,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00795",
-	"slug": "עליון",
-	"headword": {
-		"text": "עֶלְיוֹן"
-	},
+	"sefariaHeadword": "עֶלְיוֹן",
+	"headwords": [
+		{
+			"text": "עֶלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1082,
 		"column": "b"

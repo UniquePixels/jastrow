@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01236",
-	"slug": "סניה",
-	"headword": {
-		"text": "סַנְיָה"
-	},
+	"sefariaHeadword": "סַנְיָה",
+	"headwords": [
+		{
+			"text": "סַנְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

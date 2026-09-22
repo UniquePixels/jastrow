@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00554",
-	"slug": "מוסרין",
-	"headword": {
-		"text": "מוסרין"
-	},
+	"sefariaHeadword": "מוסרין",
+	"headwords": [
+		{
+			"text": "מוסרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

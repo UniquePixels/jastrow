@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00896",
-	"slug": "נמרית",
-	"headword": {
-		"text": "נִמרִית"
-	},
+	"sefariaHeadword": "נִמרִית",
+	"headwords": [
+		{
+			"text": "נִמרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "a"

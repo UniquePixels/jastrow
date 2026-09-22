@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01051",
-	"slug": "בעיר-2",
-	"headword": {
-		"text": "בְּעִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּעִיר",
+	"headwords": [
+		{
+			"text": "בְּעִיר"
+		},
 		{
 			"text": "בְּעִירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 182,
 		"column": "a"

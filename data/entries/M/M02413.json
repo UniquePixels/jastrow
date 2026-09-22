@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02413",
-	"slug": "מקטיא-1",
-	"headword": {
-		"text": "מִקְטְיָא"
-	},
+	"sefariaHeadword": "מִקְטְיָא",
+	"headwords": [
+		{
+			"text": "מִקְטְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "b"

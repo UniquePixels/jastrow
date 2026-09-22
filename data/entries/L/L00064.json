@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00064",
-	"slug": "לבט-2",
-	"headword": {
-		"text": "לֶבֶט"
-	},
+	"sefariaHeadword": "לֶבֶט",
+	"headwords": [
+		{
+			"text": "לֶבֶט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "b"

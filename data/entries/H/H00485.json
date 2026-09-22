@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00485",
-	"slug": "חורתן",
-	"headword": {
-		"text": "חֲוַרְתָּן"
-	},
+	"sefariaHeadword": "חֲוַרְתָּן",
+	"headwords": [
+		{
+			"text": "חֲוַרְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "a"

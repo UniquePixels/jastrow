@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01467",
-	"slug": "עשו",
-	"headword": {
-		"text": "עֵשָׂו"
-	},
+	"sefariaHeadword": "עֵשָׂו",
+	"headwords": [
+		{
+			"text": "עֵשָׂו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "a"

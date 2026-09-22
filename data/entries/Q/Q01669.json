@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01669",
-	"slug": "פרוטומו",
-	"headword": {
-		"text": "פרוטומו"
-	},
+	"sefariaHeadword": "פרוטומו",
+	"headwords": [
+		{
+			"text": "פרוטומו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02020",
-	"slug": "מסרוכי",
-	"headword": {
-		"text": "מסרוכי"
-	},
+	"sefariaHeadword": "מסרוכי",
+	"headwords": [
+		{
+			"text": "מסרוכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

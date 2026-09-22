@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00739",
-	"slug": "קטיגורא",
-	"headword": {
-		"text": "קַטֵיגוֹרָא"
-	},
+	"sefariaHeadword": "קַטֵיגוֹרָא",
+	"headwords": [
+		{
+			"text": "קַטֵיגוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1347,
 		"column": "b"

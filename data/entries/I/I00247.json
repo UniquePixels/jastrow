@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00247",
-	"slug": "טורתוק",
-	"headword": {
-		"text": "טורתוק"
-	},
+	"sefariaHeadword": "טורתוק",
+	"headwords": [
+		{
+			"text": "טורתוק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

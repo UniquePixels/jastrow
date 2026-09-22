@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02828",
-	"slug": "משוך",
-	"headword": {
-		"text": "מָשׁוּךְ"
-	},
+	"sefariaHeadword": "מָשׁוּךְ",
+	"headwords": [
+		{
+			"text": "מָשׁוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

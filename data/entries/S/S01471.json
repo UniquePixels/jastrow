@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01471",
-	"slug": "קמיע",
-	"headword": {
-		"text": "קָמֵיעַ"
-	},
+	"sefariaHeadword": "קָמֵיעַ",
+	"headwords": [
+		{
+			"text": "קָמֵיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

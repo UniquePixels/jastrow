@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01055",
-	"slug": "שיר-3",
-	"headword": {
-		"text": "שִׁיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁיר II",
+	"headwords": [
+		{
+			"text": "שִׁיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1568,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00035",
-	"slug": "כבדא",
-	"headword": {
-		"text": "כַּבְדָּא"
-	},
+	"sefariaHeadword": "כַּבְדָּא",
+	"headwords": [
+		{
+			"text": "כַּבְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

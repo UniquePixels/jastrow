@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O01218",
-	"slug": "סנטרא",
-	"headword": {
-		"text": "סַנְטֵרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְטֵרָא",
+	"headwords": [
 		{
-			"text": "סַנְטֵי׳"
+			"text": "סַנְטֵרָא"
 		},
 		{
-			"text": "סַנְטוֹ׳"
+			"text": "סַנְטֵי׳",
+			"partial": true
+		},
+		{
+			"text": "סַנְטוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1006,
 		"column": "b"

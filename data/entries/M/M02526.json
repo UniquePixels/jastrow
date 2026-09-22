@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02526",
-	"slug": "מרגניתא",
-	"headword": {
-		"text": "מַרְגְּנִיתָא"
-	},
+	"sefariaHeadword": "מַרְגְּנִיתָא",
+	"headwords": [
+		{
+			"text": "מַרְגְּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 836,
 		"column": "a"

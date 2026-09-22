@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00956",
-	"slug": "סלד",
-	"headword": {
-		"text": "סָלַד"
-	},
+	"sefariaHeadword": "סָלַד",
+	"headwords": [
+		{
+			"text": "סָלַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

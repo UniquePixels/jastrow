@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01751",
-	"slug": "קפלא",
-	"headword": {
-		"text": "קְפֵלָא"
-	},
+	"sefariaHeadword": "קְפֵלָא",
+	"headwords": [
+		{
+			"text": "קְפֵלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

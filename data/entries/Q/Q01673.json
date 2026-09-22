@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01673",
-	"slug": "פרוטיגמא",
-	"headword": {
-		"text": "פרוטיגמא"
-	},
+	"sefariaHeadword": "פרוטיגמא",
+	"headwords": [
+		{
+			"text": "פרוטיגמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

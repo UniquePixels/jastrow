@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00837",
-	"slug": "סירוח",
-	"headword": {
-		"text": "סֵירוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵירוּחַ",
+	"headwords": [
 		{
-			"text": "סֵר׳"
+			"text": "סֵירוּחַ"
+		},
+		{
+			"text": "סֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "b"

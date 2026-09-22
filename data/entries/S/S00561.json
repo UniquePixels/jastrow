@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00561",
-	"slug": "קורא-1",
-	"headword": {
-		"text": "קוֹרָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹרָא I",
+	"headwords": [
+		{
+			"text": "קוֹרָא",
+			"homograph": 1
+		},
 		{
 			"text": "קוּרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1341,
 		"column": "a"

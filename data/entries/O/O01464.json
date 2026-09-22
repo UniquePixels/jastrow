@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01464",
-	"slug": "סקורטיא",
-	"headword": {
-		"text": "סְקוֹרְטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְקוֹרְטְיָא",
+	"headwords": [
+		{
+			"text": "סְקוֹרְטְיָא"
+		},
 		{
 			"text": "סְקוֹרְטְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1019,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00051",
-	"slug": "אבהנוס",
-	"headword": {
-		"text": "אבהנוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אבהנוס",
+	"headwords": [
+		{
+			"text": "אבהנוס"
+		},
 		{
 			"text": "אבהונוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

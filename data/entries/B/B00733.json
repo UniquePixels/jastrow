@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00733",
-	"slug": "בירצא",
-	"headword": {
-		"text": "בִּירְצָא"
-	},
+	"sefariaHeadword": "בִּירְצָא",
+	"headwords": [
+		{
+			"text": "בִּירְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"

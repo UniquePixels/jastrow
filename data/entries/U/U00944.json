@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00944",
-	"slug": "שילוני",
-	"headword": {
-		"text": "שִׁילוֹנִי"
-	},
+	"sefariaHeadword": "שִׁילוֹנִי",
+	"headwords": [
+		{
+			"text": "שִׁילוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00197",
-	"slug": "שבת-2",
-	"headword": {
-		"text": "שֶׁבֶת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שֶׁבֶת II",
+	"headwords": [
+		{
+			"text": "שֶׁבֶת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1519,
 		"column": "b"

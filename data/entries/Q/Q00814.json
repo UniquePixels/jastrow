@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00814",
-	"slug": "פיקן",
-	"headword": {
-		"text": "פִּיקָן"
-	},
+	"sefariaHeadword": "פִּיקָן",
+	"headwords": [
+		{
+			"text": "פִּיקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "b"

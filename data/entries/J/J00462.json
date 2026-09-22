@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00462",
-	"slug": "יסטיבס",
-	"headword": {
-		"text": "יסטיבס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יסטיבס",
+	"headwords": [
+		{
+			"text": "יסטיבס"
+		},
 		{
 			"text": "יסטיכס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 582,
 		"column": "b"

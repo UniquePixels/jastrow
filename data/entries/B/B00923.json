@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00923",
-	"slug": "במגנימין",
-	"headword": {
-		"text": "במגנימין"
-	},
+	"sefariaHeadword": "במגנימין",
+	"headwords": [
+		{
+			"text": "במגנימין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01288",
-	"slug": "חניכה",
-	"headword": {
-		"text": "חֲנִיכָה"
-	},
+	"sefariaHeadword": "חֲנִיכָה",
+	"headwords": [
+		{
+			"text": "חֲנִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "a"

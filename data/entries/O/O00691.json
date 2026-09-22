@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00691",
-	"slug": "סימואתא",
-	"headword": {
-		"text": "סִימְוָאתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְוָאתָא",
+	"headwords": [
+		{
+			"text": "סִימְוָאתָא"
+		},
 		{
 			"text": "סִימְוָון"
 		},
@@ -15,6 +16,7 @@
 			"text": "סִימְוָן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 981,
 		"column": "a"

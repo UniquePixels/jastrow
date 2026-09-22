@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00814",
-	"slug": "סיקורה",
-	"headword": {
-		"text": "סִיקוּרָה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*סִיקוּרָה",
+	"headwords": [
 		{
-			"text": "סִיקִי׳"
+			"text": "סִיקוּרָה",
+			"reconstructed": true
+		},
+		{
+			"text": "סִיקִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 986,
 		"column": "a"

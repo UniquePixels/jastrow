@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02287",
-	"slug": "אנקא",
-	"headword": {
-		"text": "אנקא"
-	},
+	"sefariaHeadword": "אנקא",
+	"headwords": [
+		{
+			"text": "אנקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00105",
-	"slug": "לבנה-3",
-	"headword": {
-		"text": "לְבָנָה"
-	},
+	"sefariaHeadword": "לְבָנָה",
+	"headwords": [
+		{
+			"text": "לְבָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

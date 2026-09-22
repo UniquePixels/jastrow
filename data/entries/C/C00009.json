@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00009",
-	"slug": "גאולה",
-	"headword": {
-		"text": "גְּאוּלָּה"
-	},
+	"sefariaHeadword": "גְּאוּלָּה",
+	"headwords": [
+		{
+			"text": "גְּאוּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00641",
-	"slug": "לפלופא",
-	"headword": {
-		"text": "לִפְלוּפָא"
-	},
+	"sefariaHeadword": "לִפְלוּפָא",
+	"headwords": [
+		{
+			"text": "לִפְלוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "b"

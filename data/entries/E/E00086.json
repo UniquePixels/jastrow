@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00086",
-	"slug": "הגרול",
-	"headword": {
-		"text": "הגרול"
-	},
+	"sefariaHeadword": "הגרול",
+	"headwords": [
+		{
+			"text": "הגרול"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

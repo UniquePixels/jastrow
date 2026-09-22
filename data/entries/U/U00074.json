@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00074",
-	"slug": "שבוי",
-	"headword": {
-		"text": "שָׁבוּי"
-	},
+	"sefariaHeadword": "שָׁבוּי",
+	"headwords": [
+		{
+			"text": "שָׁבוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "b"

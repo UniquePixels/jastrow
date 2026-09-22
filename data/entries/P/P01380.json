@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01380",
-	"slug": "ערכוב",
-	"headword": {
-		"text": "עַרְכּוּב"
-	},
+	"sefariaHeadword": "עַרְכּוּב",
+	"headwords": [
+		{
+			"text": "עַרְכּוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1119,
 		"column": "a"

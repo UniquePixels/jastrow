@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A01423",
-	"slug": "איסטוונית",
-	"headword": {
-		"text": "אִיסְטְוָונִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְוָונִית",
+	"headwords": [
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיסְטְוָונִית"
 		},
 		{
-			"text": "אִסְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִצְ׳"
+			"text": "אִסְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 54,
 		"column": "b"

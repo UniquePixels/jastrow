@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00370",
-	"slug": "מהלך-1",
-	"headword": {
-		"text": "מַהֲלָךְ"
-	},
+	"sefariaHeadword": "מַהֲלָךְ",
+	"headwords": [
+		{
+			"text": "מַהֲלָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

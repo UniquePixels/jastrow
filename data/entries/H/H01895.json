@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01895",
-	"slug": "חתית",
-	"headword": {
-		"text": "חִתִּית"
-	},
+	"sefariaHeadword": "חִתִּית",
+	"headwords": [
+		{
+			"text": "חִתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 513,
 		"column": "a"

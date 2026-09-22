@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00564",
-	"slug": "טן",
-	"headword": {
-		"text": "טַן"
-	},
+	"sefariaHeadword": "טַן",
+	"headwords": [
+		{
+			"text": "טַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

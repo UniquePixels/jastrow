@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02803",
-	"slug": "משארא",
-	"headword": {
-		"text": "מֵשָׁארָא"
-	},
+	"sefariaHeadword": "מֵשָׁארָא",
+	"headwords": [
+		{
+			"text": "מֵשָׁארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

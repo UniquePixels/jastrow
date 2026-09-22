@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00327",
-	"slug": "אגסטרות",
-	"headword": {
-		"text": "אגסטרות"
-	},
+	"sefariaHeadword": "אגסטרות",
+	"headwords": [
+		{
+			"text": "אגסטרות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

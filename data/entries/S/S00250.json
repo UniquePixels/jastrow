@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00250",
-	"slug": "קודרנטיס",
-	"headword": {
-		"text": "קוּדְרַנְטֵיס"
-	},
+	"sefariaHeadword": "קוּדְרַנְטֵיס",
+	"headwords": [
+		{
+			"text": "קוּדְרַנְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1324,
 		"column": "b"

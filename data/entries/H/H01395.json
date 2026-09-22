@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01395",
-	"slug": "חסל-1",
-	"headword": {
-		"text": "חָסַל"
-	},
+	"sefariaHeadword": "חָסַל",
+	"headwords": [
+		{
+			"text": "חָסַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 488,
 		"column": "a"

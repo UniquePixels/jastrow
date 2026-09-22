@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01539",
-	"slug": "פראלוקין",
-	"headword": {
-		"text": "פָּרָאלַוְקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פָּרָאלַוְקִין",
+	"headwords": [
+		{
+			"text": "פָּרָאלַוְקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

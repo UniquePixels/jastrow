@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02329",
-	"slug": "מצליף",
-	"headword": {
-		"text": "מַצְלִיף"
-	},
+	"sefariaHeadword": "מַצְלִיף",
+	"headwords": [
+		{
+			"text": "מַצְלִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

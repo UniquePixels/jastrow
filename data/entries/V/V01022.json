@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V01022",
-	"slug": "תרנגול-2",
-	"headword": {
-		"text": "תַּרְנְגוֹל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְנְגוֹל ²",
+	"headwords": [
+		{
+			"text": "תַּרְנְגוֹל",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּרְנְגוֹלָא"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 1700,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00488",
-	"slug": "נחילה",
-	"headword": {
-		"text": "נְחִילָה"
-	},
+	"sefariaHeadword": "נְחִילָה",
+	"headwords": [
+		{
+			"text": "נְחִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "a"

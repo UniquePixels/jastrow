@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00994",
-	"slug": "נעמית",
-	"headword": {
-		"text": "נָעֳמִית"
-	},
+	"sefariaHeadword": "נָעֳמִית",
+	"headwords": [
+		{
+			"text": "נָעֳמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 920,
 		"column": "b"

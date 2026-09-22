@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00294",
-	"slug": "בוסר",
-	"headword": {
-		"text": "בּוֹסֶר"
-	},
+	"sefariaHeadword": "בֹּוסֶר",
+	"headwords": [
+		{
+			"text": "בּוֹסֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

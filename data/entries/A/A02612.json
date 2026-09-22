@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02612",
-	"slug": "אפוחא",
-	"headword": {
-		"text": "אַפּוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפּוּחָא",
+	"headwords": [
+		{
+			"text": "אַפּוּחָא"
+		},
 		{
 			"text": "אֲפּוּחְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 100,
 		"column": "a"

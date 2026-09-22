@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00768",
-	"slug": "תספורתא",
-	"headword": {
-		"text": "תִּסְפּוֹרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְפּוֹרְתָּא",
+	"headwords": [
 		{
-			"text": "תִּסְפָּר׳"
+			"text": "תִּסְפּוֹרְתָּא"
+		},
+		{
+			"text": "תִּסְפָּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1683,
 		"column": "a"

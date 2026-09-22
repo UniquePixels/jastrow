@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00869",
-	"slug": "פירסיקא",
-	"headword": {
-		"text": "פִּירְסִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְסִיקָא",
+	"headwords": [
+		{
+			"text": "פִּירְסִיקָא"
+		},
 		{
 			"text": "פִּירְסֵם"
 		},
@@ -12,6 +13,7 @@
 			"text": "פִּירְסְקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1172,
 		"column": "a"

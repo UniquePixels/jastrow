@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01162",
-	"slug": "עקום-2",
-	"headword": {
-		"text": "עִקּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִקּוּם",
+	"headwords": [
+		{
+			"text": "עִקּוּם"
+		},
 		{
 			"text": "עִקּוּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1105,
 		"column": "a"

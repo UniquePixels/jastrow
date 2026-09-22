@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00047",
-	"slug": "אבדתא-2",
-	"headword": {
-		"text": "אבדתא"
-	},
+	"sefariaHeadword": "אבדתא",
+	"headwords": [
+		{
+			"text": "אבדתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "b"

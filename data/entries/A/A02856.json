@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02856",
-	"slug": "אצבתי",
-	"headword": {
-		"text": "אֲצַבְתִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲצַבְתִּי",
+	"headwords": [
+		{
+			"text": "אֲצַבְתִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

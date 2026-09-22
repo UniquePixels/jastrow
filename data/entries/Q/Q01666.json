@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01666",
-	"slug": "פרוטגמייא",
-	"headword": {
-		"text": "פרוטגמייא"
-	},
+	"sefariaHeadword": "פרוטגמייא",
+	"headwords": [
+		{
+			"text": "פרוטגמייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

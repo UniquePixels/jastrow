@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00151",
-	"slug": "שבנא",
-	"headword": {
-		"text": "שֶׁבְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁבְנָא",
+	"headwords": [
+		{
+			"text": "שֶׁבְנָא"
+		},
 		{
 			"text": "שֶׁבְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1515,
 		"column": "a"

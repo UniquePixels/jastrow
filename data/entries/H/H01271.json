@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01271",
-	"slug": "חנות",
-	"headword": {
-		"text": "חָנוּת"
-	},
+	"sefariaHeadword": "חָנוּת",
+	"headwords": [
+		{
+			"text": "חָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 482,
 		"column": "a"

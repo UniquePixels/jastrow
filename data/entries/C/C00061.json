@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00061",
-	"slug": "גבורא",
-	"headword": {
-		"text": "גְּבוּרָא"
-	},
+	"sefariaHeadword": "גְּבוּרָא",
+	"headwords": [
+		{
+			"text": "גְּבוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "a"

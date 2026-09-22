@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00752",
-	"slug": "סיסי-2",
-	"headword": {
-		"text": "סִיסִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיסִי",
+	"headwords": [
+		{
+			"text": "סִיסִי"
+		},
 		{
 			"text": "סִיסַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "b"

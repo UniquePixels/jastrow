@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00468",
-	"slug": "כחלינהו",
-	"headword": {
-		"text": "כחלינהו"
-	},
+	"sefariaHeadword": "כחלינהו",
+	"headwords": [
+		{
+			"text": "כחלינהו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00713",
-	"slug": "אומרית",
-	"headword": {
-		"text": "אוּמְרִית"
-	},
+	"sefariaHeadword": "אוּמְרִית",
+	"headwords": [
+		{
+			"text": "אוּמְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "T00884",
-	"slug": "רעוא-1",
-	"headword": {
-		"text": "רַעְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַעְוָא",
+	"headwords": [
+		{
+			"text": "רַעְוָא"
+		},
 		{
 			"text": "רַעֲ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1486,
 		"column": "a"

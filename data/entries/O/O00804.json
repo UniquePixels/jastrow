@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00804",
-	"slug": "סיפקא",
-	"headword": {
-		"text": "סִיפְקָא"
-	},
+	"sefariaHeadword": "סִיפְקָא",
+	"headwords": [
+		{
+			"text": "סִיפְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

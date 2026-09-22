@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00145",
-	"slug": "סגירו",
-	"headword": {
-		"text": "סְגִירוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגִירוּ",
+	"headwords": [
+		{
+			"text": "סְגִירוּ"
+		},
 		{
 			"text": "סְגִירוּת"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְגִירוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 955,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00246",
-	"slug": "אגדא",
-	"headword": {
-		"text": "אַגְדָּא"
-	},
+	"sefariaHeadword": "אַגְדָּא",
+	"headwords": [
+		{
+			"text": "אַגְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "b"

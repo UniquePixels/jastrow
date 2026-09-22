@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00658",
-	"slug": "עיקום",
-	"headword": {
-		"text": "עִיקּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקּוּם",
+	"headwords": [
 		{
-			"text": "עִקּ׳"
+			"text": "עִיקּוּם"
+		},
+		{
+			"text": "עִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "a"

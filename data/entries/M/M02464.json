@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02464",
-	"slug": "מקרצת",
-	"headword": {
-		"text": "מִקְרֶצֶת"
-	},
+	"sefariaHeadword": "מִקְרֶצֶת",
+	"headwords": [
+		{
+			"text": "מִקְרֶצֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "b"

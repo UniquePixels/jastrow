@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00010",
-	"slug": "קאלוחסין",
-	"headword": {
-		"text": "קאלוחסין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קאלוחסין",
+	"headwords": [
+		{
+			"text": "קאלוחסין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1306,
 		"column": "b"

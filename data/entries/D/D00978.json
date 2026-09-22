@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00978",
-	"slug": "דצדק",
-	"headword": {
-		"text": "דצדק"
-	},
+	"sefariaHeadword": "דצדק",
+	"headwords": [
+		{
+			"text": "דצדק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

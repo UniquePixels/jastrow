@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02701",
-	"slug": "מרכבנא",
-	"headword": {
-		"text": "מַרְכְּבָנָא"
-	},
+	"sefariaHeadword": "מַרְכְּבָנָא",
+	"headwords": [
+		{
+			"text": "מַרְכְּבָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

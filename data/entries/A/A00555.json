@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00555",
-	"slug": "אודאה",
-	"headword": {
-		"text": "אוֹדָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹדָאָה",
+	"headwords": [
+		{
+			"text": "אוֹדָאָה"
+		},
 		{
 			"text": "אוֹדָאוּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוֹדוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 22,
 		"column": "a"

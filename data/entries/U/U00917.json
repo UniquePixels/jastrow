@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00917",
-	"slug": "שיכבא",
-	"headword": {
-		"text": "שִׁיכְבָּא"
-	},
+	"sefariaHeadword": "שִׁיכְבָּא",
+	"headwords": [
+		{
+			"text": "שִׁיכְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

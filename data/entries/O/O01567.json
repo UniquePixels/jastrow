@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01567",
-	"slug": "סרוריא",
-	"headword": {
-		"text": "סרוריא"
-	},
+	"sefariaHeadword": "סרוריא",
+	"headwords": [
+		{
+			"text": "סרוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

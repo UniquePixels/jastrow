@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02267",
-	"slug": "מצד",
-	"headword": {
-		"text": "מְצָד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצָד",
+	"headwords": [
+		{
+			"text": "מְצָד"
+		},
 		{
 			"text": "מְצָדוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 822,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00219",
-	"slug": "פולחן-2",
-	"headword": {
-		"text": "פּוּלְחָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּלְחָן",
+	"headwords": [
+		{
+			"text": "פּוּלְחָן"
+		},
 		{
 			"text": "פּוּלְחָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1141,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00264",
-	"slug": "תוצאה",
-	"headword": {
-		"text": "תּוֹצָאָה"
-	},
+	"sefariaHeadword": "תּוֹצָאָה",
+	"headwords": [
+		{
+			"text": "תּוֹצָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

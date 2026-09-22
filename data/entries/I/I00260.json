@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00260",
-	"slug": "טחונא",
-	"headword": {
-		"text": "טָחוֹנָא"
-	},
+	"sefariaHeadword": "טָחוֹנָא",
+	"headwords": [
+		{
+			"text": "טָחוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

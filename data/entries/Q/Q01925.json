@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01925",
-	"slug": "פרסוף-1",
-	"headword": {
-		"text": "פַּרְסוֹף",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*פַּרְסוֹף I",
+	"headwords": [
+		{
+			"text": "פַּרְסוֹף",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1234,
 		"column": "a"

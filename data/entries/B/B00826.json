@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00826",
-	"slug": "בלוזמא",
-	"headword": {
-		"text": "בְּלוּזְמָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּלוּזְמָא",
+	"headwords": [
+		{
+			"text": "בְּלוּזְמָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

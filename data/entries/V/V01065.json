@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01065",
-	"slug": "תרתא-2",
-	"headword": {
-		"text": "תַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְתָּא",
+	"headwords": [
+		{
+			"text": "תַּרְתָּא"
+		},
 		{
 			"text": "תַּרְתֵּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1702,
 		"column": "b"

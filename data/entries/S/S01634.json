@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01634",
-	"slug": "קסגלגס",
-	"headword": {
-		"text": "קַסְגַּלְגָס"
-	},
+	"sefariaHeadword": "קַסְגַּלְגָס",
+	"headwords": [
+		{
+			"text": "קַסְגַּלְגָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00500",
-	"slug": "גורסינא",
-	"headword": {
-		"text": "גּוּרְסִינָא"
-	},
+	"sefariaHeadword": "גּוּרְסִינָא",
+	"headwords": [
+		{
+			"text": "גּוּרְסִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 227,
 		"column": "b"

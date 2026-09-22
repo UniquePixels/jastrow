@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01010",
-	"slug": "מטלית",
-	"headword": {
-		"text": "מַטְלִית"
-	},
+	"sefariaHeadword": "מַטְלִית",
+	"headwords": [
+		{
+			"text": "מַטְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "a"

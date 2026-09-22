@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01206",
-	"slug": "חמס-3",
-	"headword": {
-		"text": "חֲמַס"
-	},
+	"sefariaHeadword": "חֲמַס",
+	"headwords": [
+		{
+			"text": "חֲמַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 478,
 		"column": "b"

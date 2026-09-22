@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00037",
-	"slug": "הביר",
-	"headword": {
-		"text": "הֲבִיר"
-	},
+	"sefariaHeadword": "הֲבִיר",
+	"headwords": [
+		{
+			"text": "הֲבִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "b"

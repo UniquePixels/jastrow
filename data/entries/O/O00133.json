@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00133",
-	"slug": "סגיינא",
-	"headword": {
-		"text": "סִגִיָינָא"
-	},
+	"sefariaHeadword": "סִגִיָינָא",
+	"headwords": [
+		{
+			"text": "סִגִיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

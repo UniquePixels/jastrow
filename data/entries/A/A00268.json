@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00268",
-	"slug": "אגוסטא",
-	"headword": {
-		"text": "אָגוּסְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָגוּסְטָא",
+	"headwords": [
+		{
+			"text": "אָגוּסְטָא"
+		},
 		{
 			"text": "אגוסטה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 11,
 		"column": "b"

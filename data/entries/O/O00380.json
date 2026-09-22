@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00380",
-	"slug": "סועד",
-	"headword": {
-		"text": "סוֹעָד"
-	},
+	"sefariaHeadword": "סוֹעָד",
+	"headwords": [
+		{
+			"text": "סוֹעָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01309",
-	"slug": "פסיפס-1",
-	"headword": {
-		"text": "פְּסִיפָּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִיפָּס",
+	"headwords": [
+		{
+			"text": "פְּסִיפָּס"
+		},
 		{
 			"text": "פִּסְפָּס"
 		},
 		{
-			"text": "פִּיסְ׳"
+			"text": "פִּיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1196,
 		"column": "a"

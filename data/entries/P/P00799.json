@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00799",
-	"slug": "עלייאתא",
-	"headword": {
-		"text": "עִלְיָיאתָא"
-	},
+	"sefariaHeadword": "עִלְיָיאתָא",
+	"headwords": [
+		{
+			"text": "עִלְיָיאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "a"

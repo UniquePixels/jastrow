@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00963",
-	"slug": "גללניתא",
-	"headword": {
-		"text": "גְּלַלְנִיתָא"
-	},
+	"sefariaHeadword": "גְּלַלְנִיתָא",
+	"headwords": [
+		{
+			"text": "גְּלַלְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "a"

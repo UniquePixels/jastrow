@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00584",
-	"slug": "סידקי",
-	"headword": {
-		"text": "סִידְקִי"
-	},
+	"sefariaHeadword": "סִידְקִי",
+	"headwords": [
+		{
+			"text": "סִידְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 976,
 		"column": "b"

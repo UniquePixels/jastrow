@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03294",
-	"slug": "אשישא",
-	"headword": {
-		"text": "אֲשִׁישָׁא"
-	},
+	"sefariaHeadword": "אֲשִׁישָׁא",
+	"headwords": [
+		{
+			"text": "אֲשִׁישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

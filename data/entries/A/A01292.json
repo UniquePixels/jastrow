@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01292",
-	"slug": "אילימא-1",
-	"headword": {
-		"text": "אִילֵימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִילֵימָא",
+	"headwords": [
 		{
-			"text": "אִלֵּ׳"
+			"text": "אִילֵימָא"
+		},
+		{
+			"text": "אִלֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 49,
 		"column": "b"

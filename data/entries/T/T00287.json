@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00287",
-	"slug": "רהיט-3",
-	"headword": {
-		"text": "רָהִיט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָהִיט ²",
+	"headwords": [
+		{
+			"text": "רָהִיט",
+			"disambiguator": 2
+		},
 		{
 			"text": "רְהִיטָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1454,
 		"column": "b"

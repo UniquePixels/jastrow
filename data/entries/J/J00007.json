@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00007",
-	"slug": "יאור",
-	"headword": {
-		"text": "יְאוֹר"
-	},
+	"sefariaHeadword": "יְאוֹר",
+	"headwords": [
+		{
+			"text": "יְאוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "a"

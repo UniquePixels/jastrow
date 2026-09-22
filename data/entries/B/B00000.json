@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00000",
-	"slug": "ב-1",
-	"headword": {
-		"text": "ב"
-	},
+	"sefariaHeadword": "ב",
+	"headwords": [
+		{
+			"text": "ב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "a"

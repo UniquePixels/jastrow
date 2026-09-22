@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01126",
-	"slug": "רתחן",
-	"headword": {
-		"text": "רַתְחָן"
-	},
+	"sefariaHeadword": "רַתְחָן",
+	"headwords": [
+		{
+			"text": "רַתְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "a"

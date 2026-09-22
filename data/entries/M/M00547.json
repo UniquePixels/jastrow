@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00547",
-	"slug": "מוסמס",
-	"headword": {
-		"text": "מוּסְמָס"
-	},
+	"sefariaHeadword": "מוּסְמָס",
+	"headwords": [
+		{
+			"text": "מוּסְמָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

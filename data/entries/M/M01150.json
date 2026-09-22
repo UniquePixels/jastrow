@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01150",
-	"slug": "מיכולתא",
-	"headword": {
-		"text": "מֵיכוּלְתָּא"
-	},
+	"sefariaHeadword": "מֵיכוּלְתָּא",
+	"headwords": [
+		{
+			"text": "מֵיכוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "a"

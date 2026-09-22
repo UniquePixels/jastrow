@@ -1,26 +1,27 @@
 {
+	"schemaVersion": 2,
 	"id": "O01168",
-	"slug": "סנבראי",
-	"headword": {
-		"text": "סִנַּבְרַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנַּבְרַאי",
+	"headwords": [
 		{
-			"text": "צִנַּ׳"
+			"text": "סִנַּבְרַאי"
+		},
+		{
+			"text": "צִנַּ׳",
+			"partial": true
 		},
 		{
 			"text": "צִנַּבְרַיי"
 		},
 		{
-			"text": "צִינַּ׳"
+			"text": "צִינַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1004,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

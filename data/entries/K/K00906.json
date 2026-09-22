@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00906",
-	"slug": "כסול",
-	"headword": {
-		"text": "כָּסוּל"
-	},
+	"sefariaHeadword": "כָּסוּל",
+	"headwords": [
+		{
+			"text": "כָּסוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

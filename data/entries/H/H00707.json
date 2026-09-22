@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00707",
-	"slug": "חיטה",
-	"headword": {
-		"text": "חִיטָּה"
-	},
+	"sefariaHeadword": "חִיטָּה",
+	"headwords": [
+		{
+			"text": "חִיטָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

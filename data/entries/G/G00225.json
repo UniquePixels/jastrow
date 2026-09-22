@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00225",
-	"slug": "זוף-3",
-	"headword": {
-		"text": "זוּף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּף II",
+	"headwords": [
+		{
+			"text": "זוּף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 389,
 		"column": "b"

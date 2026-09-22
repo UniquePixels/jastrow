@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00641",
-	"slug": "מוריגא",
-	"headword": {
-		"text": "מוֹרִיגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרִיגָא",
+	"headwords": [
+		{
+			"text": "מוֹרִיגָא"
+		},
 		{
 			"text": "מוֹרֵג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "a"

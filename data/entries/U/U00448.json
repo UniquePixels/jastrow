@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00448",
-	"slug": "שומן",
-	"headword": {
-		"text": "שׁוּמָן"
-	},
+	"sefariaHeadword": "שׁוּמָן",
+	"headwords": [
+		{
+			"text": "שׁוּמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

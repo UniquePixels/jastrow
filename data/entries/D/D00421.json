@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00421",
-	"slug": "דחל",
-	"headword": {
-		"text": "דְּחַל"
-	},
+	"sefariaHeadword": "דְּחַל",
+	"headwords": [
+		{
+			"text": "דְּחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

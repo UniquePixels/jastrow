@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00639",
-	"slug": "דינג",
-	"headword": {
-		"text": "דִּינָג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּינָג",
+	"headwords": [
+		{
+			"text": "דִּינָג"
+		},
 		{
 			"text": "דּוּנָג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 302,
 		"column": "a"

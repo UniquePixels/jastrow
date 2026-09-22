@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01378",
-	"slug": "גרסי",
-	"headword": {
-		"text": "גַּרְסִי"
-	},
+	"sefariaHeadword": "גַּרְסִי",
+	"headwords": [
+		{
+			"text": "גַּרְסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 271,
 		"column": "a"

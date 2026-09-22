@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00438",
-	"slug": "יני-3",
-	"headword": {
-		"text": "יְנִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יְנִי II",
+	"headwords": [
+		{
+			"text": "יְנִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 581,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02624",
-	"slug": "מרזח",
-	"headword": {
-		"text": "מַרְזֵחַ"
-	},
+	"sefariaHeadword": "מַרְזֵחַ",
+	"headwords": [
+		{
+			"text": "מַרְזֵחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

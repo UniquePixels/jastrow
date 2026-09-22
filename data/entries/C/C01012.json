@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01012",
-	"slug": "גמז",
-	"headword": {
-		"text": "גָּמַז"
-	},
+	"sefariaHeadword": "גָּמַז",
+	"headwords": [
+		{
+			"text": "גָּמַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

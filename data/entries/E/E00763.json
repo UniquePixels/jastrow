@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00763",
-	"slug": "הפרכא",
-	"headword": {
-		"text": "הִפַּרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִפַּרְכָא",
+	"headwords": [
 		{
-			"text": "הִיפַּ׳"
+			"text": "הִפַּרְכָא"
+		},
+		{
+			"text": "הִיפַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 363,
 		"column": "a"

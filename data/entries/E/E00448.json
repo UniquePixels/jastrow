@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00448",
-	"slug": "הינגי",
-	"headword": {
-		"text": "הִינְגֵּי"
-	},
+	"sefariaHeadword": "הִינְגֵּי",
+	"headwords": [
+		{
+			"text": "הִינְגֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

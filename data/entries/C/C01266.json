@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "C01266",
-	"slug": "גרגשתא",
-	"headword": {
-		"text": "גַּרְגִּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְגִּשְׁתָּא",
+	"headwords": [
 		{
-			"text": "גַּרְגּוּשְׁ׳"
+			"text": "גַּרְגִּשְׁתָּא"
 		},
 		{
-			"text": "גַּרְגִּישְׁ׳"
+			"text": "גַּרְגּוּשְׁ׳",
+			"partial": true
+		},
+		{
+			"text": "גַּרְגִּישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 265,
 		"column": "a"

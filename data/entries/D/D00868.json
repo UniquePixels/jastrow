@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00868",
-	"slug": "דם-2",
-	"headword": {
-		"text": "דָּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּם ²",
+	"headwords": [
+		{
+			"text": "דָּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "דְּמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 312,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00031",
-	"slug": "צבט",
-	"headword": {
-		"text": "צָבַט"
-	},
+	"sefariaHeadword": "צָבַט",
+	"headwords": [
+		{
+			"text": "צָבַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "a"

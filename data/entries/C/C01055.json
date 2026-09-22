@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01055",
-	"slug": "גמם-2",
-	"headword": {
-		"text": "גְּמַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּמַם",
+	"headwords": [
+		{
+			"text": "גְּמַם"
+		},
 		{
 			"text": "גּוּם"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 254,
 		"column": "b"

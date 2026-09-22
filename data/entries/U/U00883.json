@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00883",
-	"slug": "שיטה-2",
-	"headword": {
-		"text": "שִׁיטָּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁיטָּה II",
+	"headwords": [
+		{
+			"text": "שִׁיטָּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1560,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

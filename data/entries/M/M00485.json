@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00485",
-	"slug": "מולא-1",
-	"headword": {
-		"text": "מוּלָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּלָא I",
+	"headwords": [
+		{
+			"text": "מוּלָא",
+			"homograph": 1
+		},
 		{
 			"text": "מוֹלָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 742,
 		"column": "a"

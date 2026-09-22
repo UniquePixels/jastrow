@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01484",
-	"slug": "שמירמות",
-	"headword": {
-		"text": "שְׁמִירָמוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמִירָמוֹת",
+	"headwords": [
+		{
+			"text": "שְׁמִירָמוֹת"
+		},
 		{
 			"text": "שְׁמִירַעַם"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁמִירַת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1596,
 		"column": "b"

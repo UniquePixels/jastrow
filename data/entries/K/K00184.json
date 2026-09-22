@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00184",
-	"slug": "כובד",
-	"headword": {
-		"text": "כּוֹבֶד"
-	},
+	"sefariaHeadword": "כּוֹבֶד",
+	"headwords": [
+		{
+			"text": "כּוֹבֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "a"

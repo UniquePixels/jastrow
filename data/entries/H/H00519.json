@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00519",
-	"slug": "חזותא",
-	"headword": {
-		"text": "חָזוּתָא"
-	},
+	"sefariaHeadword": "חָזוּתָא",
+	"headwords": [
+		{
+			"text": "חָזוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

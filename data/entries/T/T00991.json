@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00991",
-	"slug": "רצע-1",
-	"headword": {
-		"text": "רָצַע"
-	},
+	"sefariaHeadword": "רָצַע",
+	"headwords": [
+		{
+			"text": "רָצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "b"

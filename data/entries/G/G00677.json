@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00677",
-	"slug": "זרוז",
-	"headword": {
-		"text": "זֵרוּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֵרוּז",
+	"headwords": [
+		{
+			"text": "זֵרוּז"
+		},
 		{
 			"text": "זֵרוּזִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 412,
 		"column": "a"

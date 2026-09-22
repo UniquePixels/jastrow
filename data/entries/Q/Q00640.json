@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00640",
-	"slug": "פיטרופין",
-	"headword": {
-		"text": "פִּיטְרוֹפִּין"
-	},
+	"sefariaHeadword": "פִּיטְרוֹפִּין",
+	"headwords": [
+		{
+			"text": "פִּיטְרוֹפִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

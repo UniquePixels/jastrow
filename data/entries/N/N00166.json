@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00166",
-	"slug": "נגישה",
-	"headword": {
-		"text": "נְגִישָׁה"
-	},
+	"sefariaHeadword": "נְגִישָׁה",
+	"headwords": [
+		{
+			"text": "נְגִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

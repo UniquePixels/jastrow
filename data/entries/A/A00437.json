@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00437",
-	"slug": "אדק-1",
-	"headword": {
-		"text": "אָדַק"
-	},
+	"sefariaHeadword": "אָדַק",
+	"headwords": [
+		{
+			"text": "אָדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "b"

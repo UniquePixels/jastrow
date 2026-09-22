@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01091",
-	"slug": "בצירה",
-	"headword": {
-		"text": "בְּצִירָה"
-	},
+	"sefariaHeadword": "בְּצִירָה",
+	"headwords": [
+		{
+			"text": "בְּצִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

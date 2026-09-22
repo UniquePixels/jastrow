@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00227",
-	"slug": "עוי-3",
-	"headword": {
-		"text": "עֲוֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲוֵי II",
+	"headwords": [
+		{
+			"text": "עֲוֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1049,
 		"column": "b"

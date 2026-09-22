@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01261",
-	"slug": "מיעים",
-	"headword": {
-		"text": "מֵיעַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵיעַיִם",
+	"headwords": [
+		{
+			"text": "מֵיעַיִם"
+		},
 		{
 			"text": "מֵיעַיִן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "a"

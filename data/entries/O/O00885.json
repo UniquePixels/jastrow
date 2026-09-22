@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00885",
-	"slug": "סכון",
-	"headword": {
-		"text": "סִכּוּן"
-	},
+	"sefariaHeadword": "סִכּוּן",
+	"headwords": [
+		{
+			"text": "סִכּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

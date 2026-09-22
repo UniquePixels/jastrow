@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00385",
-	"slug": "גולה-1",
-	"headword": {
-		"text": "גּוֹלֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוֹלֶה",
+	"headwords": [
+		{
+			"text": "גּוֹלֶה"
+		},
 		{
 			"text": "גּוֹלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "b"

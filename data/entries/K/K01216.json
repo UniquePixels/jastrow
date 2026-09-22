@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01216",
-	"slug": "כרכסא",
-	"headword": {
-		"text": "כַּרְכָּסָא"
-	},
+	"sefariaHeadword": "כַּרְכָּסָא",
+	"headwords": [
+		{
+			"text": "כַּרְכָּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "b"

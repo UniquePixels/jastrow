@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00095",
-	"slug": "קבר-1",
-	"headword": {
-		"text": "קָבַר"
-	},
+	"sefariaHeadword": "קָבַר",
+	"headwords": [
+		{
+			"text": "קָבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1312,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00451",
-	"slug": "נזירו",
-	"headword": {
-		"text": "נְזִירוּ"
-	},
+	"sefariaHeadword": "נְזִירוּ",
+	"headwords": [
+		{
+			"text": "נְזִירוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "b"

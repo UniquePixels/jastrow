@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00379",
-	"slug": "טימי-2",
-	"headword": {
-		"text": "טִימִי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טִימִי II",
+	"headwords": [
+		{
+			"text": "טִימִי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 532,
 		"column": "b"

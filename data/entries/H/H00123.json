@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00123",
-	"slug": "חברית",
-	"headword": {
-		"text": "חברית"
-	},
+	"sefariaHeadword": "חברית",
+	"headwords": [
+		{
+			"text": "חברית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 423,
 		"column": "a"

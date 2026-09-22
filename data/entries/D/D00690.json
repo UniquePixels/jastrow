@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00690",
-	"slug": "דיצא-2",
-	"headword": {
-		"text": "דֵּיצָא"
-	},
+	"sefariaHeadword": "דֵּיצָא",
+	"headwords": [
+		{
+			"text": "דֵּיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

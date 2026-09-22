@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02512",
-	"slug": "מרגז",
-	"headword": {
-		"text": "מַרְגֵּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְגֵּז",
+	"headwords": [
+		{
+			"text": "מַרְגֵּז"
+		},
 		{
 			"text": "מַרְגְּזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "b"

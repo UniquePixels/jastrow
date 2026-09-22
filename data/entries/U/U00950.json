@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00950",
-	"slug": "שיליניא",
-	"headword": {
-		"text": "שׁילִינְיָא"
-	},
+	"sefariaHeadword": "שׁילִינְיָא",
+	"headwords": [
+		{
+			"text": "שׁילִינְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "b"

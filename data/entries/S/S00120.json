@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00120",
-	"slug": "קדוש-2",
-	"headword": {
-		"text": "קְדוֹשׁ"
-	},
+	"sefariaHeadword": "קְדוֹשׁ",
+	"headwords": [
+		{
+			"text": "קְדוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1314,
 		"column": "a"

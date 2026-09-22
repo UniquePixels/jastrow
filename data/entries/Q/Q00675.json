@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00675",
-	"slug": "פילוון",
-	"headword": {
-		"text": "פַּיְלָוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּיְלָוָון",
+	"headwords": [
+		{
+			"text": "פַּיְלָוָון"
+		},
 		{
 			"text": "פַּיְלָוָותָא"
 		},
 		{
-			"text": "פִּילָ׳"
+			"text": "פִּילָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1163,
 		"column": "b"

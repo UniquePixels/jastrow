@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00238",
-	"slug": "עוכבניין",
-	"headword": {
-		"text": "עוּכָּבַנְיָין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עוּכָּבַנְיָין",
+	"headwords": [
+		{
+			"text": "עוּכָּבַנְיָין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1050,
 		"column": "a"

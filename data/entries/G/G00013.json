@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00013",
-	"slug": "זבדיה",
-	"headword": {
-		"text": "זְבַדְיָה"
-	},
+	"sefariaHeadword": "זְבַדְיָה",
+	"headwords": [
+		{
+			"text": "זְבַדְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "b"

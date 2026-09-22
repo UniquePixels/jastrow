@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00832",
-	"slug": "בלוניא-1",
-	"headword": {
-		"text": "בְּלוֹנְיָא"
-	},
+	"sefariaHeadword": "בְּלוֹנְיָא",
+	"headwords": [
+		{
+			"text": "בְּלוֹנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

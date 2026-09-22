@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00938",
-	"slug": "תרג",
-	"headword": {
-		"text": "תָּרַג"
-	},
+	"sefariaHeadword": "תָּרַג",
+	"headwords": [
+		{
+			"text": "תָּרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

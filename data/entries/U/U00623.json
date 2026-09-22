@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00623",
-	"slug": "שחונא",
-	"headword": {
-		"text": "שַׂחוָנָא"
-	},
+	"sefariaHeadword": "שַׂחוָנָא",
+	"headwords": [
+		{
+			"text": "שַׂחוָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1546,
 		"column": "a"

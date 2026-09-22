@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01608",
-	"slug": "קנצן",
-	"headword": {
-		"text": "קנצן"
-	},
+	"sefariaHeadword": "קנצן",
+	"headwords": [
+		{
+			"text": "קנצן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1394,
 		"column": "a"

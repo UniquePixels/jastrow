@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01264",
-	"slug": "נרגן",
-	"headword": {
-		"text": "נִרְגָּן"
-	},
+	"sefariaHeadword": "נִרְגָּן",
+	"headwords": [
+		{
+			"text": "נִרְגָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

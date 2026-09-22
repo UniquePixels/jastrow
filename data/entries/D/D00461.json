@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00461",
-	"slug": "דיבא-1",
-	"headword": {
-		"text": "דֵּיבָא"
-	},
+	"sefariaHeadword": "דֵּיבָא",
+	"headwords": [
+		{
+			"text": "דֵּיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 294,
 		"column": "b"

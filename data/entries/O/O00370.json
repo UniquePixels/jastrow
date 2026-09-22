@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00370",
-	"slug": "סוסה",
-	"headword": {
-		"text": "סוּסָה"
-	},
+	"sefariaHeadword": "סוּסָה",
+	"headwords": [
+		{
+			"text": "סוּסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00438",
-	"slug": "פח-1",
-	"headword": {
-		"text": "פַּח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּח I",
+	"headwords": [
+		{
+			"text": "פַּח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1150,
 		"column": "b"

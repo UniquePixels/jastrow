@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00906",
-	"slug": "מחסומית",
-	"headword": {
-		"text": "מַחֲסוֹמִית"
-	},
+	"sefariaHeadword": "מַחֲסוֹמִית",
+	"headwords": [
+		{
+			"text": "מַחֲסוֹמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00475",
-	"slug": "חורן-2",
-	"headword": {
-		"text": "חוֹרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹרָן",
+	"headwords": [
+		{
+			"text": "חוֹרָן"
+		},
 		{
 			"text": "חוֹרָנָא"
 		},
@@ -12,12 +13,14 @@
 			"text": "חוֹרָנָה"
 		},
 		{
-			"text": "חֲרָ׳"
+			"text": "חֲרָ׳",
+			"partial": true
 		},
 		{
 			"text": "חֲרִינָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, ({4})",
 	"page": {
 		"number": 440,
 		"column": "a"

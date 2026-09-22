@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01549",
-	"slug": "מליאתא",
-	"headword": {
-		"text": "מַלְיָאתָא"
-	},
+	"sefariaHeadword": "מַלְיָאתָא",
+	"headwords": [
+		{
+			"text": "מַלְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 790,
 		"column": "a"

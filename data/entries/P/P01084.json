@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01084",
-	"slug": "עפרן",
-	"headword": {
-		"text": "עפרן"
-	},
+	"sefariaHeadword": "עפרן",
+	"headwords": [
+		{
+			"text": "עפרן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00447",
-	"slug": "עטיף-1",
-	"headword": {
-		"text": "עָטִיף"
-	},
+	"sefariaHeadword": "עָטִיף",
+	"headwords": [
+		{
+			"text": "עָטִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "a"

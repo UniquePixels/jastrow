@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00124",
-	"slug": "בדוקי",
-	"headword": {
-		"text": "בְּדוּקִי"
-	},
+	"sefariaHeadword": "בְּדוּקִי",
+	"headwords": [
+		{
+			"text": "בְּדוּקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "b"

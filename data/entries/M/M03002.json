@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03002",
-	"slug": "מת",
-	"headword": {
-		"text": "מֵת"
-	},
+	"sefariaHeadword": "מֵת",
+	"headwords": [
+		{
+			"text": "מֵת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "b"

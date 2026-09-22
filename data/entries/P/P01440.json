@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01440",
-	"slug": "ערצוביא",
-	"headword": {
-		"text": "עַרְצוּבְיָא"
-	},
+	"sefariaHeadword": "עַרְצוּבְיָא",
+	"headwords": [
+		{
+			"text": "עַרְצוּבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "a"

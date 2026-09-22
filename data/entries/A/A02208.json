@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02208",
-	"slug": "אנטנייא",
-	"headword": {
-		"text": "אנטנייא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנטנייא",
+	"headwords": [
+		{
+			"text": "אנטנייא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

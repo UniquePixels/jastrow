@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01297",
-	"slug": "סער-5",
-	"headword": {
-		"text": "סֵעָר"
-	},
+	"sefariaHeadword": "סֵעָר",
+	"headwords": [
+		{
+			"text": "סֵעָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1010,
 		"column": "a"

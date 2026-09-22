@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01886",
-	"slug": "מסות",
-	"headword": {
-		"text": "מסות"
-	},
+	"sefariaHeadword": "מסות",
+	"headwords": [
+		{
+			"text": "מסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "a"

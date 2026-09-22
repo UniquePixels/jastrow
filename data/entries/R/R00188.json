@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "R00188",
-	"slug": "צוי-3",
-	"headword": {
-		"text": "צְוֵי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְוֵי II",
+	"headwords": [
+		{
+			"text": "צְוֵי",
+			"homograph": 2
+		},
 		{
 			"text": "צְוָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "צְוָה"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1267,
 		"column": "a"

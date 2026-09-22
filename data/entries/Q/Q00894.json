@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00894",
-	"slug": "פיתום-1",
-	"headword": {
-		"text": "פִּיתוֹם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּיתוֹם I",
+	"headwords": [
+		{
+			"text": "פִּיתוֹם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1173,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

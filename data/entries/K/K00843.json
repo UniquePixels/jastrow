@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00843",
-	"slug": "כנוני",
-	"headword": {
-		"text": "כָּנוֹנֵי"
-	},
+	"sefariaHeadword": "כָּנוֹנֵי",
+	"headwords": [
+		{
+			"text": "כָּנוֹנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "b"

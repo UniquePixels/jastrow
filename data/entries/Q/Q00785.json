@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00785",
-	"slug": "פיפיורא",
-	"headword": {
-		"text": "פִּיפְיוֹרָא"
-	},
+	"sefariaHeadword": "פִּיפְיוֹרָא",
+	"headwords": [
+		{
+			"text": "פִּיפְיוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

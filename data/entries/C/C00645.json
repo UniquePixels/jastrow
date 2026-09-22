@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00645",
-	"slug": "גידם",
-	"headword": {
-		"text": "גִּידֵּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּידֵּם",
+	"headwords": [
+		{
+			"text": "גִּידֵּם"
+		},
 		{
 			"text": "גִּדֵּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 235,
 		"column": "b"

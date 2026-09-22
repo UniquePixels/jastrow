@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01578",
-	"slug": "קניגין",
-	"headword": {
-		"text": "קְנִיגִין"
-	},
+	"sefariaHeadword": "קְנִיגִין",
+	"headwords": [
+		{
+			"text": "קְנִיגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "b"

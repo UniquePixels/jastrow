@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01141",
-	"slug": "כרזילא",
-	"headword": {
-		"text": "כַּרְזִילָא"
-	},
+	"sefariaHeadword": "כַּרְזִילָא",
+	"headwords": [
+		{
+			"text": "כַּרְזִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00371",
-	"slug": "תחלוסיא",
-	"headword": {
-		"text": "תַּחְלוּסַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּחְלוּסַיָּא",
+	"headwords": [
+		{
+			"text": "תַּחְלוּסַיָּא"
+		},
 		{
 			"text": "תַּחְלוּסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1661,
 		"column": "b"

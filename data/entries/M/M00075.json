@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00075",
-	"slug": "מבוא",
-	"headword": {
-		"text": "מָבוֹא"
-	},
+	"sefariaHeadword": "מָבוֹא",
+	"headwords": [
+		{
+			"text": "מָבוֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

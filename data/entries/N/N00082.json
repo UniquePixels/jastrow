@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00082",
-	"slug": "נביות",
-	"headword": {
-		"text": "נְבָיוֹת"
-	},
+	"sefariaHeadword": "נְבָיוֹת",
+	"headwords": [
+		{
+			"text": "נְבָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 869,
 		"column": "a"

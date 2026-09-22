@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01352",
-	"slug": "קליש",
-	"headword": {
-		"text": "קָלִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָלִישׁ",
+	"headwords": [
+		{
+			"text": "קָלִישׁ"
+		},
 		{
 			"text": "קְלִישָׁא"
 		},
 		{
-			"text": "קַלִּ׳"
+			"text": "קַלִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1377,
 		"column": "b"

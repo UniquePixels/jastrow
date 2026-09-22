@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00480",
-	"slug": "גורגדנא",
-	"headword": {
-		"text": "גורגדנא"
-	},
+	"sefariaHeadword": "גורגדנא",
+	"headwords": [
+		{
+			"text": "גורגדנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

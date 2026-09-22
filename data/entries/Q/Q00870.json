@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00870",
-	"slug": "פירעון",
-	"headword": {
-		"text": "פֵּירָעוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירָעוֹן",
+	"headwords": [
 		{
-			"text": "פֵּרָ׳"
+			"text": "פֵּירָעוֹן"
+		},
+		{
+			"text": "פֵּרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1172,
 		"column": "a"

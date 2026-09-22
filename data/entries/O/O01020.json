@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01020",
-	"slug": "סלף-1",
-	"headword": {
-		"text": "סָלַף"
-	},
+	"sefariaHeadword": "סָלַף",
+	"headwords": [
+		{
+			"text": "סָלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

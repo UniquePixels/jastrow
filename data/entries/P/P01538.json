@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01538",
-	"slug": "עתירה-2",
-	"headword": {
-		"text": "עֲתִירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲתִירָה II",
+	"headwords": [
+		{
+			"text": "עֲתִירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1129,
 		"column": "b"

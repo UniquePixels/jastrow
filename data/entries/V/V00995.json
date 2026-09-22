@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V00995",
-	"slug": "תריס-3",
-	"headword": {
-		"text": "תָּרִיס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּרִיס ²",
+	"headwords": [
+		{
+			"text": "תָּרִיס",
+			"disambiguator": 2
+		},
 		{
 			"text": "תְּרִיס"
 		},
@@ -13,6 +14,7 @@
 			"text": "תְּרֵיסָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1698,
 		"column": "b"

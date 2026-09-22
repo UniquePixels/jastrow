@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00658",
-	"slug": "הנדז",
-	"headword": {
-		"text": "הַנְדֵּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַנְדֵּז",
+	"headwords": [
+		{
+			"text": "הַנְדֵּז"
+		},
 		{
 			"text": "הַנְדֵּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 357,
 		"column": "a"

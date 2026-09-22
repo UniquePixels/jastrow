@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02758",
-	"slug": "אפסיות",
-	"headword": {
-		"text": "אִפְסִיּוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִפְסִיּוֹת",
+	"headwords": [
+		{
+			"text": "אִפְסִיּוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 106,
 		"column": "a"

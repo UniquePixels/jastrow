@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00898",
-	"slug": "סכין-2",
-	"headword": {
-		"text": "סַכִּין"
-	},
+	"sefariaHeadword": "סַכִּין",
+	"headwords": [
+		{
+			"text": "סַכִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "b"

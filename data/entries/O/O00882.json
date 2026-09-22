@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00882",
-	"slug": "סכולוסטיקא",
-	"headword": {
-		"text": "סכולוסטיקא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סכולוסטיקא",
+	"headwords": [
+		{
+			"text": "סכולוסטיקא"
+		},
 		{
 			"text": "סְכוֹלַסְטִיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 989,
 		"column": "a"

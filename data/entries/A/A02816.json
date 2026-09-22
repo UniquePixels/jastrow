@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02816",
-	"slug": "אפרטוסות",
-	"headword": {
-		"text": "אַפָּרָטוֹסוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַפָּרָטוֹסוֹת",
+	"headwords": [
+		{
+			"text": "אַפָּרָטוֹסוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

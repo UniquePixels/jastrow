@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00190",
-	"slug": "חדי",
-	"headword": {
-		"text": "חֲדֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲדֵי",
+	"headwords": [
+		{
+			"text": "חֲדֵי"
+		},
 		{
 			"text": "חֲדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 426,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01735",
-	"slug": "חרסנה",
-	"headword": {
-		"text": "חַרְסָנָה"
-	},
+	"sefariaHeadword": "חַרְסָנָה",
+	"headwords": [
+		{
+			"text": "חַרְסָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "a"

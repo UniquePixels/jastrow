@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01033",
-	"slug": "פלטתה",
-	"headword": {
-		"text": "פלטתה"
-	},
+	"sefariaHeadword": "פלטתה",
+	"headwords": [
+		{
+			"text": "פלטתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1180,
 		"column": "b"

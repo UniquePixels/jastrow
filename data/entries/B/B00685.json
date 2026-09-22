@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00685",
-	"slug": "ביצירתא",
-	"headword": {
-		"text": "בִּיצִירְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּיצִירְתָּא",
+	"headwords": [
+		{
+			"text": "בִּיצִירְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 164,
 		"column": "b"

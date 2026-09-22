@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00856",
-	"slug": "בלי-4",
-	"headword": {
-		"text": "בְּלֵי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בְּלֵי II",
+	"headwords": [
+		{
+			"text": "בְּלֵי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 172,
 		"column": "b"

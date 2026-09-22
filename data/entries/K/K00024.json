@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00024",
-	"slug": "כבא-1",
-	"headword": {
-		"text": "כַּבָּא"
-	},
+	"sefariaHeadword": "כַּבָּא",
+	"headwords": [
+		{
+			"text": "כַּבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00360",
-	"slug": "דורדיא",
-	"headword": {
-		"text": "דּוּרְדָּיָא"
-	},
+	"sefariaHeadword": "דּוּרְדָּיָא",
+	"headwords": [
+		{
+			"text": "דּוּרְדָּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

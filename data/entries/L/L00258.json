@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00258",
-	"slug": "לוייתא",
-	"headword": {
-		"text": "לְוָיְיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָיְיתָא",
+	"headwords": [
 		{
-			"text": "לְוָו׳"
+			"text": "לְוָיְיתָא"
+		},
+		{
+			"text": "לְוָו׳",
+			"partial": true
 		},
 		{
 			"text": "לִוְיָתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 698,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00102",
-	"slug": "לבנא",
-	"headword": {
-		"text": "לִבְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִבְנָא",
+	"headwords": [
 		{
-			"text": "לִי׳"
+			"text": "לִבְנָא"
+		},
+		{
+			"text": "לִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 690,
 		"column": "b"

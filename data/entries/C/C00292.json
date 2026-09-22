@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00292",
-	"slug": "גוברא",
-	"headword": {
-		"text": "גּוּבְרָא"
-	},
+	"sefariaHeadword": "גּוּבְרָא",
+	"headwords": [
+		{
+			"text": "גּוּבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

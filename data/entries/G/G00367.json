@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00367",
-	"slug": "זימיא",
-	"headword": {
-		"text": "זִימְיָא"
-	},
+	"sefariaHeadword": "זִימְיָא",
+	"headwords": [
+		{
+			"text": "זִימְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "b"

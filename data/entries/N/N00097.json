@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00097",
-	"slug": "נבלה-1",
-	"headword": {
-		"text": "נְבֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבֵלָה",
+	"headwords": [
 		{
-			"text": "נְבֵי׳"
+			"text": "נְבֵלָה"
+		},
+		{
+			"text": "נְבֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 870,
 		"column": "a"

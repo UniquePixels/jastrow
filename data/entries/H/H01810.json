@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01810",
-	"slug": "חשבונא",
-	"headword": {
-		"text": "חֶשְׁבּוֹנָא"
-	},
+	"sefariaHeadword": "חֶשְׁבּוֹנָא",
+	"headwords": [
+		{
+			"text": "חֶשְׁבּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "a"

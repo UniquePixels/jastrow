@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00789",
-	"slug": "הקדיש",
-	"headword": {
-		"text": "הֶקְדֵּישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶקְדֵּישׁ",
+	"headwords": [
+		{
+			"text": "הֶקְדֵּישׁ"
+		},
 		{
 			"text": "הֶקְדֵּשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 364,
 		"column": "a"

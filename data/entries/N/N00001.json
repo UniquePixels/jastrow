@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00001",
-	"slug": "נ",
-	"headword": {
-		"text": "נ"
-	},
+	"sefariaHeadword": "נ",
+	"headwords": [
+		{
+			"text": "נ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "a"

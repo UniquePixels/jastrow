@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00661",
-	"slug": "חיגר",
-	"headword": {
-		"text": "חִיגֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיגֵּר",
+	"headwords": [
+		{
+			"text": "חִיגֵּר"
+		},
 		{
 			"text": "חִיגְּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִיגַּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 451,
 		"column": "a"

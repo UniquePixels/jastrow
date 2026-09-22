@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00516",
-	"slug": "זמיון",
-	"headword": {
-		"text": "זִמְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִמְיוֹן",
+	"headwords": [
+		{
+			"text": "זִמְיוֹן"
+		},
 		{
 			"text": "זִמְיוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 402,
 		"column": "b"

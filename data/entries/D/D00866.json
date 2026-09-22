@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00866",
-	"slug": "דלתותא",
-	"headword": {
-		"text": "דלתותא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דלתותא",
+	"headwords": [
+		{
+			"text": "דלתותא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 311,
 		"column": "b"

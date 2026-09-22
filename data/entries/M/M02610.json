@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02610",
-	"slug": "מרושניא",
-	"headword": {
-		"text": "מרושניא"
-	},
+	"sefariaHeadword": "מרושניא",
+	"headwords": [
+		{
+			"text": "מרושניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

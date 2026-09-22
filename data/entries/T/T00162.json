@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00162",
-	"slug": "רגוז",
-	"headword": {
-		"text": "רְגוֹז"
-	},
+	"sefariaHeadword": "רְגוֹז",
+	"headwords": [
+		{
+			"text": "רְגוֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

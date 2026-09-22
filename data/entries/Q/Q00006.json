@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00006",
-	"slug": "פאה",
-	"headword": {
-		"text": "פֵּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּאָה",
+	"headwords": [
 		{
-			"text": "פֵּי׳"
+			"text": "פֵּאָה"
+		},
+		{
+			"text": "פֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1130,
 		"column": "b"

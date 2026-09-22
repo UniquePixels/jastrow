@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01194",
-	"slug": "עקלגסים",
-	"headword": {
-		"text": "עקלגסים"
-	},
+	"sefariaHeadword": "עקלגסים",
+	"headwords": [
+		{
+			"text": "עקלגסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "b"

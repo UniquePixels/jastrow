@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01693",
-	"slug": "קערה",
-	"headword": {
-		"text": "קְעָרָה"
-	},
+	"sefariaHeadword": "קְעָרָה",
+	"headwords": [
+		{
+			"text": "קְעָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

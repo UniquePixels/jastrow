@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02020",
-	"slug": "אמיטליא",
-	"headword": {
-		"text": "אמיטליא"
-	},
+	"sefariaHeadword": "אמיטליא",
+	"headwords": [
+		{
+			"text": "אמיטליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02148",
-	"slug": "אנוקי",
-	"headword": {
-		"text": "אנוקי"
-	},
+	"sefariaHeadword": "אנוקי",
+	"headwords": [
+		{
+			"text": "אנוקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01483",
-	"slug": "שמירון",
-	"headword": {
-		"text": "שמירון"
-	},
+	"sefariaHeadword": "שמירון",
+	"headwords": [
+		{
+			"text": "שמירון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1596,
 		"column": "b"

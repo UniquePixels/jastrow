@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00617",
-	"slug": "ירושלים",
-	"headword": {
-		"text": "יְרוּשָׁלַיִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְרוּשָׁלַיִם",
+	"headwords": [
 		{
-			"text": "יְרוּשָׁלִַם"
+			"text": "יְרוּשָׁלַיִם"
+		},
+		{
+			"text": "יְרוּשָׁלִַם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 595,
 		"column": "a"

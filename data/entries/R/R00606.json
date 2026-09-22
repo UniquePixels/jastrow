@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00606",
-	"slug": "צנבראי",
-	"headword": {
-		"text": "צִנַּבְרַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנַּבְרַאי",
+	"headwords": [
+		{
+			"text": "צִנַּבְרַאי"
+		},
 		{
 			"text": "צִנַּבְרַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1290,
 		"column": "b"

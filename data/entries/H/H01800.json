@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01800",
-	"slug": "חש",
-	"headword": {
-		"text": "חָשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָשׁ",
+	"headwords": [
+		{
+			"text": "חָשׁ"
+		},
 		{
 			"text": "חַשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 508,
 		"column": "a"

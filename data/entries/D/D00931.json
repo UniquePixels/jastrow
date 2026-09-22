@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00931",
-	"slug": "דנן",
-	"headword": {
-		"text": "דְּנַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּנַן",
+	"headwords": [
+		{
+			"text": "דְּנַן"
+		},
 		{
 			"text": "דְּנָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 315,
 		"column": "b"

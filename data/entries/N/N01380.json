@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01380",
-	"slug": "נתך-2",
-	"headword": {
-		"text": "נְתַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְתַךְ I",
+	"headwords": [
+		{
+			"text": "נְתַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 944,
 		"column": "a"

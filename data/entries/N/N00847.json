@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00847",
-	"slug": "נכרי",
-	"headword": {
-		"text": "נָכְרִי"
-	},
+	"sefariaHeadword": "נָכְרִי",
+	"headwords": [
+		{
+			"text": "נָכְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 912,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00028",
-	"slug": "וחר",
-	"headword": {
-		"text": "וחר"
-	},
+	"sefariaHeadword": "וחר",
+	"headwords": [
+		{
+			"text": "וחר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

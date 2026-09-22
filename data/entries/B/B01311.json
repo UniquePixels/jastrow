@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01311",
-	"slug": "ברצוץ",
-	"headword": {
-		"text": "בַּרְצוּץ"
-	},
+	"sefariaHeadword": "בַּרְצוּץ",
+	"headwords": [
+		{
+			"text": "בַּרְצוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "b"

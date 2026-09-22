@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00418",
-	"slug": "סורהבן",
-	"headword": {
-		"text": "סוּרְהֲבַן"
-	},
+	"sefariaHeadword": "סוּרְהֲבַן",
+	"headwords": [
+		{
+			"text": "סוּרְהֲבַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "b"

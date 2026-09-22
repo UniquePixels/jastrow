@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01386",
-	"slug": "גרעינה",
-	"headword": {
-		"text": "גַּרְעִינָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְעִינָה",
+	"headwords": [
+		{
+			"text": "גַּרְעִינָה"
+		},
 		{
 			"text": "גַּלְעִינָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 271,
 		"column": "b"

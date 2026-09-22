@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00723",
-	"slug": "אונאותא",
-	"headword": {
-		"text": "אוֹנָאוּתָא"
-	},
+	"sefariaHeadword": "אוֹנָאוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹנָאוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 28,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00323",
-	"slug": "שובל-3",
-	"headword": {
-		"text": "שׁוֹבַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹבַל",
+	"headwords": [
+		{
+			"text": "שׁוֹבַל"
+		},
 		{
 			"text": "שׁוּבְלָא"
 		},
 		{
-			"text": "שׁוּבְּ׳"
+			"text": "שׁוּבְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1529,
 		"column": "a"

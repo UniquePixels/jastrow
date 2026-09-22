@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01240",
-	"slug": "חמת-5",
-	"headword": {
-		"text": "חֲמָת"
-	},
+	"sefariaHeadword": "חֲמָת",
+	"headwords": [
+		{
+			"text": "חֲמָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00289",
-	"slug": "לון-1",
-	"headword": {
-		"text": "לוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּן",
+	"headwords": [
+		{
+			"text": "לוּן"
+		},
 		{
 			"text": "לִין",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 699,
 		"column": "b"

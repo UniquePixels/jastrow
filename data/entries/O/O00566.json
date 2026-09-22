@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00566",
-	"slug": "סיגנאי",
-	"headword": {
-		"text": "סִיגְנַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיגְנַאי",
+	"headwords": [
+		{
+			"text": "סִיגְנַאי"
+		},
 		{
 			"text": "סִיגְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "b"

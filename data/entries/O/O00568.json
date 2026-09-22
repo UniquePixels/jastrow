@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00568",
-	"slug": "סיגני",
-	"headword": {
-		"text": "סִיגְנֵי"
-	},
+	"sefariaHeadword": "סִיגְנֵי",
+	"headwords": [
+		{
+			"text": "סִיגְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 976,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00317",
-	"slug": "לוקטא",
-	"headword": {
-		"text": "לוּקְטָא"
-	},
+	"sefariaHeadword": "לוּקְטָא",
+	"headwords": [
+		{
+			"text": "לוּקְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

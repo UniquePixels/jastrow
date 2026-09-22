@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02982",
-	"slug": "ארגוטרייא",
-	"headword": {
-		"text": "ארגוטרייא"
-	},
+	"sefariaHeadword": "ארגוטרייא",
+	"headwords": [
+		{
+			"text": "ארגוטרייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

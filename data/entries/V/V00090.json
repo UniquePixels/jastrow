@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00090",
-	"slug": "תגר-4",
-	"headword": {
-		"text": "תַּגָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּגָּר ²",
+	"headwords": [
+		{
+			"text": "תַּגָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּגָּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1647,
 		"column": "a"

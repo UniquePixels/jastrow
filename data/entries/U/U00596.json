@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00596",
-	"slug": "שזורי",
-	"headword": {
-		"text": "שְׁזוֹרִי"
-	},
+	"sefariaHeadword": "שְׁזוֹרִי",
+	"headwords": [
+		{
+			"text": "שְׁזוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

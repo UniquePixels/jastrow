@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01809",
-	"slug": "קציבין",
-	"headword": {
-		"text": "קְצִיבִין"
-	},
+	"sefariaHeadword": "קְצִיבִין",
+	"headwords": [
+		{
+			"text": "קְצִיבִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "b"

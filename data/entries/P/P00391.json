@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00391",
-	"slug": "עזאל",
-	"headword": {
-		"text": "עֲזָאֵל"
-	},
+	"sefariaHeadword": "עֲזָאֵל",
+	"headwords": [
+		{
+			"text": "עֲזָאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "b"

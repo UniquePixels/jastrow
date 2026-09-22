@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00547",
-	"slug": "כיליאדין",
-	"headword": {
-		"text": "כִּילְיָאדִין"
-	},
+	"sefariaHeadword": "כִּילְיָאדִין",
+	"headwords": [
+		{
+			"text": "כִּילְיָאדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

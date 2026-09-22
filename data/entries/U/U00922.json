@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00922",
-	"slug": "שיכחה",
-	"headword": {
-		"text": "שִׁיכְחָה"
-	},
+	"sefariaHeadword": "שִׁיכְחָה",
+	"headwords": [
+		{
+			"text": "שִׁיכְחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01956",
-	"slug": "אלתא",
-	"headword": {
-		"text": "אַלָּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלָּתָא",
+	"headwords": [
+		{
+			"text": "אַלָּתָא"
+		},
 		{
 			"text": "אֲלָתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַלּוּתָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 73,
 		"column": "b"

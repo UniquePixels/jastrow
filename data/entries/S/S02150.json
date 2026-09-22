@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02150",
-	"slug": "קרצוף",
-	"headword": {
-		"text": "קִרְצוּף"
-	},
+	"sefariaHeadword": "קִרְצוּף",
+	"headwords": [
+		{
+			"text": "קִרְצוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

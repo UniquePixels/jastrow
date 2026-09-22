@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00756",
-	"slug": "קטינתא",
-	"headword": {
-		"text": "קַטִּינְתָּא"
-	},
+	"sefariaHeadword": "קַטִּינְתָּא",
+	"headwords": [
+		{
+			"text": "קַטִּינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1348,
 		"column": "b"

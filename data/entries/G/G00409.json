@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00409",
-	"slug": "זיקוק",
-	"headword": {
-		"text": "זִיקּוּק"
-	},
+	"sefariaHeadword": "זִיקּוּק",
+	"headwords": [
+		{
+			"text": "זִיקּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "a"

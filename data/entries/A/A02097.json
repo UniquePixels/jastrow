@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02097",
-	"slug": "אנגטוס",
-	"headword": {
-		"text": "אנגטוס"
-	},
+	"sefariaHeadword": "אנגטוס",
+	"headwords": [
+		{
+			"text": "אנגטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

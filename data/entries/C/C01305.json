@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01305",
-	"slug": "גרוסה",
-	"headword": {
-		"text": "גָּרוֹסָה"
-	},
+	"sefariaHeadword": "גָּרוֹסָה",
+	"headwords": [
+		{
+			"text": "גָּרוֹסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00110",
-	"slug": "ותירייקי",
-	"headword": {
-		"text": "ותירייקי"
-	},
+	"sefariaHeadword": "ותירייקי",
+	"headwords": [
+		{
+			"text": "ותירייקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "b"

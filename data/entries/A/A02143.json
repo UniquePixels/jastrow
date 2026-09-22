@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02143",
-	"slug": "אנומילין",
-	"headword": {
-		"text": "אֵנוֹמִילִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵנוֹמִילִין",
+	"headwords": [
+		{
+			"text": "אֵנוֹמִילִין"
+		},
 		{
 			"text": "אֵנוֹמְלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "a"

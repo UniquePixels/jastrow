@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02459",
-	"slug": "מקרי",
-	"headword": {
-		"text": "מַקְרֵי"
-	},
+	"sefariaHeadword": "מַקְרֵי",
+	"headwords": [
+		{
+			"text": "מַקְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

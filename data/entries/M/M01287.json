@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01287",
-	"slug": "מיקמת",
-	"headword": {
-		"text": "מִיקְמַת"
-	},
+	"sefariaHeadword": "מִיקְמַת",
+	"headwords": [
+		{
+			"text": "מִיקְמַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

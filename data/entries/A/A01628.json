@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01628",
-	"slug": "אישקק",
-	"headword": {
-		"text": "אִישְׁקָק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִישְׁקָק",
+	"headwords": [
+		{
+			"text": "אִישְׁקָק"
+		},
 		{
 			"text": "אִישְׁקָקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 61,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00306",
-	"slug": "פופי",
-	"headword": {
-		"text": "פופי"
-	},
+	"sefariaHeadword": "פופי",
+	"headwords": [
+		{
+			"text": "פופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "a"

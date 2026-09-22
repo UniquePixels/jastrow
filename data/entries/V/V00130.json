@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00130",
-	"slug": "תהפכינון",
-	"headword": {
-		"text": "תהפכינון"
-	},
+	"sefariaHeadword": "תהפכינון",
+	"headwords": [
+		{
+			"text": "תהפכינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "a"

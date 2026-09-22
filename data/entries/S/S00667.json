@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00667",
-	"slug": "קושי",
-	"headword": {
-		"text": "קוֹשִׁי"
-	},
+	"sefariaHeadword": "קוֹשִׁי",
+	"headwords": [
+		{
+			"text": "קוֹשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "b"

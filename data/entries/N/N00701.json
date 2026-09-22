@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00701",
-	"slug": "ניסאי",
-	"headword": {
-		"text": "נִיסַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיסַּאי",
+	"headwords": [
 		{
-			"text": "הַר נִיסַּאי"
+			"text": "נִיסַּאי"
+		},
+		{
+			"text": "הַר נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 906,
 		"column": "a"

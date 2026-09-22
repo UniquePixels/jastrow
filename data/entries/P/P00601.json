@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00601",
-	"slug": "עין-1",
-	"headword": {
-		"text": "עַיִן"
-	},
+	"sefariaHeadword": "עַיִן",
+	"headwords": [
+		{
+			"text": "עַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1071,
 		"column": "a"

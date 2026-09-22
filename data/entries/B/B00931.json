@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00931",
-	"slug": "במתא",
-	"headword": {
-		"text": "בָּמְתָא"
-	},
+	"sefariaHeadword": "בָּמְתָא",
+	"headwords": [
+		{
+			"text": "בָּמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

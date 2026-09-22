@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00885",
-	"slug": "חירפא",
-	"headword": {
-		"text": "חִירְפָא"
-	},
+	"sefariaHeadword": "חִירְפָא",
+	"headwords": [
+		{
+			"text": "חִירְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

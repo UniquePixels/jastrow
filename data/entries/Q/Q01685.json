@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01685",
-	"slug": "פרוכימטוס",
-	"headword": {
-		"text": "פרוכימטוס"
-	},
+	"sefariaHeadword": "פרוכימטוס",
+	"headwords": [
+		{
+			"text": "פרוכימטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

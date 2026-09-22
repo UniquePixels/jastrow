@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00458",
-	"slug": "בזלי",
-	"headword": {
-		"text": "בִּזְלֵי"
-	},
+	"sefariaHeadword": "בִּזְלֵי",
+	"headwords": [
+		{
+			"text": "בִּזְלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "a"

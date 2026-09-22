@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01588",
-	"slug": "סרטון-1",
-	"headword": {
-		"text": "סֵרָטוֹן"
-	},
+	"sefariaHeadword": "סֵרָטוֹן",
+	"headwords": [
+		{
+			"text": "סֵרָטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "b"

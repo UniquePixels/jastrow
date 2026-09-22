@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00214",
-	"slug": "מגרופי",
-	"headword": {
-		"text": "מַגְרוֹפִי"
-	},
+	"sefariaHeadword": "מַגְרוֹפִי",
+	"headwords": [
+		{
+			"text": "מַגְרוֹפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

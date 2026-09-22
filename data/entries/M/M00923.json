@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00923",
-	"slug": "מחצל",
-	"headword": {
-		"text": "מַחֲצָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחֲצָל",
+	"headwords": [
+		{
+			"text": "מַחֲצָל"
+		},
 		{
 			"text": "מַחֲצָלִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַחֲצָלִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 763,
 		"column": "b"

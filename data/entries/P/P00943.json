@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00943",
-	"slug": "ענבא",
-	"headword": {
-		"text": "עִנְּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְּבָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִנְּבָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1091,
 		"column": "b"

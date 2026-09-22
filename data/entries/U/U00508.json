@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00508",
-	"slug": "שופע",
-	"headword": {
-		"text": "שׁוֹפַע"
-	},
+	"sefariaHeadword": "שֹׁופַע",
+	"headwords": [
+		{
+			"text": "שׁוֹפַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

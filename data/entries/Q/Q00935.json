@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00935",
-	"slug": "פלג-2",
-	"headword": {
-		"text": "פְּלַג",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַג I",
+	"headwords": [
+		{
+			"text": "פְּלַג",
+			"homograph": 1
+		},
 		{
 			"text": "פְּלֵיג"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1175,
 		"column": "b"

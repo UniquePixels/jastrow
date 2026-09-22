@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00012",
-	"slug": "פאטן",
-	"headword": {
-		"text": "פאטן"
-	},
+	"sefariaHeadword": "פאטן",
+	"headwords": [
+		{
+			"text": "פאטן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "a"

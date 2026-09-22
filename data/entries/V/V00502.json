@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00502",
-	"slug": "תירום",
-	"headword": {
-		"text": "תירום"
-	},
+	"sefariaHeadword": "תירום",
+	"headwords": [
+		{
+			"text": "תירום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

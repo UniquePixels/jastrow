@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00153",
-	"slug": "נגיד-2",
-	"headword": {
-		"text": "נָגִיד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נָגִיד II",
+	"headwords": [
+		{
+			"text": "נָגִיד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 874,
 		"column": "a"

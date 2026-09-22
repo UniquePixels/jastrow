@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01297",
-	"slug": "חניפא",
-	"headword": {
-		"text": "חֲנֵיפָא"
-	},
+	"sefariaHeadword": "חֲנֵיפָא",
+	"headwords": [
+		{
+			"text": "חֲנֵיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "b"

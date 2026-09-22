@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00422",
-	"slug": "מודרקא",
-	"headword": {
-		"text": "מוּדְרְקָא"
-	},
+	"sefariaHeadword": "מוּדְרְקָא",
+	"headwords": [
+		{
+			"text": "מוּדְרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

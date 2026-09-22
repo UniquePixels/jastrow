@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00869",
-	"slug": "בליסטין",
-	"headword": {
-		"text": "בליסטין"
-	},
+	"sefariaHeadword": "בליסטין",
+	"headwords": [
+		{
+			"text": "בליסטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

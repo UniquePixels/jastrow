@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02596",
-	"slug": "אף-2",
-	"headword": {
-		"text": "אַף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַף II",
+	"headwords": [
+		{
+			"text": "אַף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 99,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00983",
-	"slug": "בסיג׳",
-	"headword": {
-		"text": "בסיג׳"
-	},
+	"sefariaHeadword": "בסיג׳",
+	"headwords": [
+		{
+			"text": "בסיג׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

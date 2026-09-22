@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00501",
-	"slug": "בטחון",
-	"headword": {
-		"text": "בִּטָּחוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּטָּחוֹן",
+	"headwords": [
 		{
-			"text": "בִּיטָּ׳"
+			"text": "בִּטָּחוֹן"
+		},
+		{
+			"text": "בִּיטָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 156,
 		"column": "b"

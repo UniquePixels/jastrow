@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00711",
-	"slug": "ריקנית",
-	"headword": {
-		"text": "ריקנית"
-	},
+	"sefariaHeadword": "ריקנית",
+	"headwords": [
+		{
+			"text": "ריקנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

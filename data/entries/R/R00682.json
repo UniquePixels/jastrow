@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00682",
-	"slug": "צפור-2",
-	"headword": {
-		"text": "צִפּוֹר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוֹר ²",
+	"headwords": [
+		{
+			"text": "צִפּוֹר",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִפּוֹרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1296,
 		"column": "a"

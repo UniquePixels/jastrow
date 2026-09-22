@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01065",
-	"slug": "מטרנית",
-	"headword": {
-		"text": "מַטְרֹנִית"
-	},
+	"sefariaHeadword": "מַטְרֹנִית",
+	"headwords": [
+		{
+			"text": "מַטְרֹנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 770,
 		"column": "a"

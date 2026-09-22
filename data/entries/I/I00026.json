@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00026",
-	"slug": "טבאי",
-	"headword": {
-		"text": "טַבַּאי"
-	},
+	"sefariaHeadword": "טַבַּאי",
+	"headwords": [
+		{
+			"text": "טַבַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

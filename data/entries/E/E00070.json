@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00070",
-	"slug": "הגיונא",
-	"headword": {
-		"text": "הֶגְיוֹנָא"
-	},
+	"sefariaHeadword": "הֶגְיוֹנָא",
+	"headwords": [
+		{
+			"text": "הֶגְיוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "a"

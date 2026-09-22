@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00048",
-	"slug": "צביר",
-	"headword": {
-		"text": "צְבֵיר"
-	},
+	"sefariaHeadword": "צְבֵיר",
+	"headwords": [
+		{
+			"text": "צְבֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00799",
-	"slug": "הקפדה",
-	"headword": {
-		"text": "הַקְפָּדָה"
-	},
+	"sefariaHeadword": "הַקְפָּדָה",
+	"headwords": [
+		{
+			"text": "הַקְפָּדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

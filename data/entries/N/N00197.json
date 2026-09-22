@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00197",
-	"slug": "נגשן",
-	"headword": {
-		"text": "נַגְשַׁן"
-	},
+	"sefariaHeadword": "נַגְשַׁן",
+	"headwords": [
+		{
+			"text": "נַגְשַׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 876,
 		"column": "b"

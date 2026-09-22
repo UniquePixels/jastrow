@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00314",
-	"slug": "לוקו",
-	"headword": {
-		"text": "לוקו"
-	},
+	"sefariaHeadword": "לוקו",
+	"headwords": [
+		{
+			"text": "לוקו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00556",
-	"slug": "גזירתא",
-	"headword": {
-		"text": "גְּזֵירְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזֵירְתָא",
+	"headwords": [
+		{
+			"text": "גְּזֵירְתָא"
+		},
 		{
 			"text": "גְּזֵרְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 230,
 		"column": "b"

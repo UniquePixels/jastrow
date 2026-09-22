@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00578",
-	"slug": "מוק-1",
-	"headword": {
-		"text": "מוּק"
-	},
+	"sefariaHeadword": "מוּק",
+	"headwords": [
+		{
+			"text": "מוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "a"

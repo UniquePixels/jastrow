@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00008",
-	"slug": "תאבון",
-	"headword": {
-		"text": "תֵּאָבוֹן"
-	},
+	"sefariaHeadword": "תֵּאָבוֹן",
+	"headwords": [
+		{
+			"text": "תֵּאָבוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1641,
 		"column": "b"

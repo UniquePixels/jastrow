@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00528",
-	"slug": "רחמן-1",
-	"headword": {
-		"text": "רַחֲמָן"
-	},
+	"sefariaHeadword": "רַחֲמָן",
+	"headwords": [
+		{
+			"text": "רַחֲמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "a"

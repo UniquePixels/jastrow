@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00609",
-	"slug": "ריהטא",
-	"headword": {
-		"text": "רִיהֲטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיהֲטָא",
+	"headwords": [
 		{
-			"text": "רִהֲ׳"
+			"text": "רִיהֲטָא"
+		},
+		{
+			"text": "רִהֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "b"

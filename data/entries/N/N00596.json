@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00596",
-	"slug": "ניאוף",
-	"headword": {
-		"text": "נִיאוּף"
-	},
+	"sefariaHeadword": "נִיאוּף",
+	"headwords": [
+		{
+			"text": "נִיאוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

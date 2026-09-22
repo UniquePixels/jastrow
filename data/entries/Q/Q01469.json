@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01469",
-	"slug": "פקוקלת",
-	"headword": {
-		"text": "פְּקוֹקֶלֶת"
-	},
+	"sefariaHeadword": "פְּקוֹקֶלֶת",
+	"headwords": [
+		{
+			"text": "פְּקוֹקֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

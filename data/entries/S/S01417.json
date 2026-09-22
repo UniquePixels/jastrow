@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01417",
-	"slug": "קלקל-3",
-	"headword": {
-		"text": "קִלְקָל"
-	},
+	"sefariaHeadword": "קִלְקָל",
+	"headwords": [
+		{
+			"text": "קִלְקָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1382,
 		"column": "b"

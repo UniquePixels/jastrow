@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01270",
-	"slug": "כרקומניקיא",
-	"headword": {
-		"text": "כרקומניקיא"
-	},
+	"sefariaHeadword": "כרקומניקיא",
+	"headwords": [
+		{
+			"text": "כרקומניקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 673,
 		"column": "b"

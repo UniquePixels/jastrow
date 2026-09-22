@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02151",
-	"slug": "פתי-1",
-	"headword": {
-		"text": "פתי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פתי",
+	"headwords": [
+		{
+			"text": "פתי"
+		},
 		{
 			"text": "פָּתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1252,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00688",
-	"slug": "דיץ-2",
-	"headword": {
-		"text": "דִּיץ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיץ II",
+	"headwords": [
+		{
+			"text": "דִּיץ",
+			"homograph": 2
+		},
 		{
 			"text": "דַּיִץ"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1}, {2} I",
 	"page": {
 		"number": 304,
 		"column": "a"

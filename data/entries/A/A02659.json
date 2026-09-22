@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02659",
-	"slug": "אפטט",
-	"headword": {
-		"text": "אֶפְטֵט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפְטֵט",
+	"headwords": [
+		{
+			"text": "אֶפְטֵט"
+		},
 		{
 			"text": "אֶפְטֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 102,
 		"column": "a"

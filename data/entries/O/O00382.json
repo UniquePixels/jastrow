@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00382",
-	"slug": "סוערה",
-	"headword": {
-		"text": "סוֹעֲרָה"
-	},
+	"sefariaHeadword": "סוֹעֲרָה",
+	"headwords": [
+		{
+			"text": "סוֹעֲרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "b"

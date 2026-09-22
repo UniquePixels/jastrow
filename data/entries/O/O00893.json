@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00893",
-	"slug": "סכי-2",
-	"headword": {
-		"text": "סְכֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְכֵי",
+	"headwords": [
+		{
+			"text": "סְכֵי"
+		},
 		{
 			"text": "סְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 989,
 		"column": "b"

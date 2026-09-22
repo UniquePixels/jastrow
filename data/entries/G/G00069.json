@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00069",
-	"slug": "זגתא",
-	"headword": {
-		"text": "זַגְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַגְתָּא",
+	"headwords": [
+		{
+			"text": "זַגְתָּא"
+		},
 		{
 			"text": "זָגְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 380,
 		"column": "b"

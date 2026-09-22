@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00084",
-	"slug": "צדד-2",
-	"headword": {
-		"text": "צְדַד"
-	},
+	"sefariaHeadword": "צְדַד",
+	"headwords": [
+		{
+			"text": "צְדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "a"

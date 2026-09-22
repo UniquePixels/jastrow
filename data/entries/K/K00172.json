@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00172",
-	"slug": "כו",
-	"headword": {
-		"text": "כַּו"
-	},
+	"sefariaHeadword": "כַּו",
+	"headwords": [
+		{
+			"text": "כַּו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

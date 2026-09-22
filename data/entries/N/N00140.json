@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00140",
-	"slug": "נגוטא",
-	"headword": {
-		"text": "נָגוֹטָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נָגוֹטָא",
+	"headwords": [
+		{
+			"text": "נָגוֹטָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 873,
 		"column": "b"

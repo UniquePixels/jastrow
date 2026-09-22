@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00441",
-	"slug": "מווריאטינוס",
-	"headword": {
-		"text": "מַוְורִיאָטִינוֹס"
-	},
+	"sefariaHeadword": "מַוְורִיאָטִינוֹס",
+	"headwords": [
+		{
+			"text": "מַוְורִיאָטִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

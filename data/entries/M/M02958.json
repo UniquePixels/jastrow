@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02958",
-	"slug": "משקוי",
-	"headword": {
-		"text": "מַשְׁקוֹי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁקוֹי",
+	"headwords": [
+		{
+			"text": "מַשְׁקוֹי"
+		},
 		{
 			"text": "מַשְׁקוֹיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "a"

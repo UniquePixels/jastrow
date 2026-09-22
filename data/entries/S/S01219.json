@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01219",
-	"slug": "קישן",
-	"headword": {
-		"text": "קִישָׁן"
-	},
+	"sefariaHeadword": "קִישָׁן",
+	"headwords": [
+		{
+			"text": "קִישָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01009",
-	"slug": "תרכוס",
-	"headword": {
-		"text": "תַּרְכּוֹס"
-	},
+	"sefariaHeadword": "תַּרְכּוֹס",
+	"headwords": [
+		{
+			"text": "תַּרְכּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

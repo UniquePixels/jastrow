@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00577",
-	"slug": "רי",
-	"headword": {
-		"text": "רִי"
-	},
+	"sefariaHeadword": "רִי",
+	"headwords": [
+		{
+			"text": "רִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00765",
-	"slug": "תסס-1",
-	"headword": {
-		"text": "תָּסַס"
-	},
+	"sefariaHeadword": "תָּסַס",
+	"headwords": [
+		{
+			"text": "תָּסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1683,
 		"column": "a"

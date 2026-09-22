@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00093",
-	"slug": "יד-1",
-	"headword": {
-		"text": "יָד"
-	},
+	"sefariaHeadword": "יָד",
+	"headwords": [
+		{
+			"text": "יָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 563,
 		"column": "b"

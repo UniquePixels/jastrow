@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00862",
-	"slug": "כנסא",
-	"headword": {
-		"text": "כנסא"
-	},
+	"sefariaHeadword": "כנסא",
+	"headwords": [
+		{
+			"text": "כנסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "a"

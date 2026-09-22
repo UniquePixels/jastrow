@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00305",
-	"slug": "פועתתא",
-	"headword": {
-		"text": "פּוּעֲתָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פּוּעֲתָתָא",
+	"headwords": [
+		{
+			"text": "פּוּעֲתָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1145,
 		"column": "a"

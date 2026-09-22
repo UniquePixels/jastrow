@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00365",
-	"slug": "בורית-2",
-	"headword": {
-		"text": "בּוּרִית"
-	},
+	"sefariaHeadword": "בּוּרִית",
+	"headwords": [
+		{
+			"text": "בּוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

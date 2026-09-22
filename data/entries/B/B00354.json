@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00354",
-	"slug": "בורה",
-	"headword": {
-		"text": "בּוֹרָה"
-	},
+	"sefariaHeadword": "בּוֹרָה",
+	"headwords": [
+		{
+			"text": "בּוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "a"

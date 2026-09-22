@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02821",
-	"slug": "משוורתא",
-	"headword": {
-		"text": "מַשְׁוַורְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַשְׁוַורְתָּא",
+	"headwords": [
+		{
+			"text": "מַשְׁוַורְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 849,
 		"column": "b"

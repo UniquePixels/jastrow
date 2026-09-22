@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00479",
-	"slug": "זלדקן",
-	"headword": {
-		"text": "זַלְדְּקַן"
-	},
+	"sefariaHeadword": "זַלְדְּקַן",
+	"headwords": [
+		{
+			"text": "זַלְדְּקַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

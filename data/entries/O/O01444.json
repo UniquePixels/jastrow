@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01444",
-	"slug": "סקב",
-	"headword": {
-		"text": "סְקַב"
-	},
+	"sefariaHeadword": "סְקַב",
+	"headwords": [
+		{
+			"text": "סְקַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

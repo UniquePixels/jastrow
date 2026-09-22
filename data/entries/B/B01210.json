@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01210",
-	"slug": "ברוריא",
-	"headword": {
-		"text": "בְּרוּרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרוּרְיָא",
+	"headwords": [
+		{
+			"text": "בְּרוּרְיָא"
+		},
 		{
 			"text": "בְּרוּרְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 191,
 		"column": "a"

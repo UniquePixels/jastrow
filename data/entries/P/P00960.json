@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00960",
-	"slug": "ענווא",
-	"headword": {
-		"text": "עַנְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַנְוָוא",
+	"headwords": [
+		{
+			"text": "עַנְוָוא"
+		},
 		{
 			"text": "עֶנְוָון"
 		},
@@ -21,6 +22,7 @@
 			"text": "עִנְוְותָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1092,
 		"column": "b"

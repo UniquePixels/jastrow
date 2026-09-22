@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01071",
-	"slug": "פלך-2",
-	"headword": {
-		"text": "פֶּלֶךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּלֶךְ ²",
+	"headwords": [
+		{
+			"text": "פֶּלֶךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּלְכָא"
 		},
 		{
-			"text": "פִּי׳"
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1182,
 		"column": "b"

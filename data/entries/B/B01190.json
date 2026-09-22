@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01190",
-	"slug": "ברדק",
-	"headword": {
-		"text": "בַּרְדֵּק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּרְדֵּק",
+	"headwords": [
+		{
+			"text": "בַּרְדֵּק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00366",
-	"slug": "צילצלא",
-	"headword": {
-		"text": "צִילְצְלָא"
-	},
+	"sefariaHeadword": "צִילְצְלָא",
+	"headwords": [
+		{
+			"text": "צִילְצְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00712",
-	"slug": "תמריתא",
-	"headword": {
-		"text": "תמריתא"
-	},
+	"sefariaHeadword": "תמריתא",
+	"headwords": [
+		{
+			"text": "תמריתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "a"

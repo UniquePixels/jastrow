@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01828",
-	"slug": "קצע-1",
-	"headword": {
-		"text": "קָצַע"
-	},
+	"sefariaHeadword": "קָצַע",
+	"headwords": [
+		{
+			"text": "קָצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "b"

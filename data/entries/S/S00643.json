@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00643",
-	"slug": "קורקון",
-	"headword": {
-		"text": "קורקון"
-	},
+	"sefariaHeadword": "קורקון",
+	"headwords": [
+		{
+			"text": "קורקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "a"

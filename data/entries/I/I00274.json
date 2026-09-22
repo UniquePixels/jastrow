@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00274",
-	"slug": "טחף",
-	"headword": {
-		"text": "טָחַף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טָחַף",
+	"headwords": [
+		{
+			"text": "טָחַף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

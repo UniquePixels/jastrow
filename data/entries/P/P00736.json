@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00736",
-	"slug": "עכירים",
-	"headword": {
-		"text": "עֲכִירִים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עֲכִירִים",
+	"headwords": [
+		{
+			"text": "עֲכִירִים",
+			"reconstructed": true
+		},
 		{
 			"text": "עֲכִירִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1078,
 		"column": "b"

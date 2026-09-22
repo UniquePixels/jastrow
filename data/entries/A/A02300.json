@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02300",
-	"slug": "אנקלסיא",
-	"headword": {
-		"text": "אֶנְקְלַסְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶנְקְלַסְיָא",
+	"headwords": [
+		{
+			"text": "אֶנְקְלַסְיָא"
+		},
 		{
 			"text": "אונ׳",
-			"reconstructed": true
+			"reconstructed": true,
+			"partial": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 88,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01105",
-	"slug": "פלסטיני",
-	"headword": {
-		"text": "פְּלַסְטִינִי"
-	},
+	"sefariaHeadword": "פְּלַסְטִינִי",
+	"headwords": [
+		{
+			"text": "פְּלַסְטִינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1184,
 		"column": "a"

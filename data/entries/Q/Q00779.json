@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00779",
-	"slug": "פיפור",
-	"headword": {
-		"text": "פֵּיפוּר"
-	},
+	"sefariaHeadword": "פֵּיפוּר",
+	"headwords": [
+		{
+			"text": "פֵּיפוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

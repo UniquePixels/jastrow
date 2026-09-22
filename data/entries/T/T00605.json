@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00605",
-	"slug": "רידא",
-	"headword": {
-		"text": "רידא"
-	},
+	"sefariaHeadword": "רידא",
+	"headwords": [
+		{
+			"text": "רידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

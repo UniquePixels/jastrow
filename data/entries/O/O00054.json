@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00054",
-	"slug": "סביבה",
-	"headword": {
-		"text": "סְבִיבָה"
-	},
+	"sefariaHeadword": "סְבִיבָה",
+	"headwords": [
+		{
+			"text": "סְבִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

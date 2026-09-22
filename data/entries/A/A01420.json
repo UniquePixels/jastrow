@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01420",
-	"slug": "איסטווא-2",
-	"headword": {
-		"text": "אִיסְטְוָוא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְוָוא II",
+	"headwords": [
 		{
-			"text": "אִסְ׳"
+			"text": "אִיסְטְוָוא",
+			"homograph": 2
+		},
+		{
+			"text": "אִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 54,
 		"column": "b"

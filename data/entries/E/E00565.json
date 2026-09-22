@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00565",
-	"slug": "הלכא",
-	"headword": {
-		"text": "הָלְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָלְכָא",
+	"headwords": [
+		{
+			"text": "הָלְכָא"
+		},
 		{
 			"text": "הַלְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 353,
 		"column": "a"

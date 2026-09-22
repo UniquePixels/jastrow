@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01146",
-	"slug": "פן-2",
-	"headword": {
-		"text": "פֶּן"
-	},
+	"sefariaHeadword": "פֶּן",
+	"headwords": [
+		{
+			"text": "פֶּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

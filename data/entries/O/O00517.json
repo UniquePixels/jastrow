@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00517",
-	"slug": "סיאה-2",
-	"headword": {
-		"text": "סִיאָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סִיאָה ²",
+	"headwords": [
+		{
+			"text": "סִיאָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 974,
 		"column": "a"

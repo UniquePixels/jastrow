@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01982",
-	"slug": "פרק-3",
-	"headword": {
-		"text": "פֶּרֶק"
-	},
+	"sefariaHeadword": "פֶּרֶק",
+	"headwords": [
+		{
+			"text": "פֶּרֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1239,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00795",
-	"slug": "נישואין-1",
-	"headword": {
-		"text": "נִישּׂוּאִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִישּׂוּאִין",
+	"headwords": [
 		{
-			"text": "נִשּׂ׳"
+			"text": "נִישּׂוּאִין"
+		},
+		{
+			"text": "נִשּׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 909,
 		"column": "b"

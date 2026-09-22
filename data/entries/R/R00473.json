@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00473",
-	"slug": "צכוונא",
-	"headword": {
-		"text": "צכוונא"
-	},
+	"sefariaHeadword": "צכוונא",
+	"headwords": [
+		{
+			"text": "צכוונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

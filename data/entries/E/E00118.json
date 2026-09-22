@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00118",
-	"slug": "הדיוכין",
-	"headword": {
-		"text": "הדיוכין"
-	},
+	"sefariaHeadword": "הדיוכין",
+	"headwords": [
+		{
+			"text": "הדיוכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

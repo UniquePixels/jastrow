@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B01196",
-	"slug": "ברוך",
-	"headword": {
-		"text": "בָּרוּךְ",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בָּרוּךְ",
+	"headwords": [
 		{
-			"text": "בֵּי בָּרוּךְ"
+			"text": "בָּרוּךְ",
+			"reconstructed": true
+		},
+		{
+			"text": "בֵּי ב׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 190,
 		"column": "b"

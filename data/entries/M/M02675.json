@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02675",
-	"slug": "מריע",
-	"headword": {
-		"text": "מְרִיעַ"
-	},
+	"sefariaHeadword": "מְרִיעַ",
+	"headwords": [
+		{
+			"text": "מְרִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

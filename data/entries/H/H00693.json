@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00693",
-	"slug": "חיזו",
-	"headword": {
-		"text": "חֵיזוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיזוּ",
+	"headwords": [
+		{
+			"text": "חֵיזוּ"
+		},
 		{
 			"text": "חֵיזְוָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "חֵיזְוָנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 453,
 		"column": "a"

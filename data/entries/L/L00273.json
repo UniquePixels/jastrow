@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00273",
-	"slug": "לולגין",
-	"headword": {
-		"text": "לולגין"
-	},
+	"sefariaHeadword": "לולגין",
+	"headwords": [
+		{
+			"text": "לולגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01946",
-	"slug": "שרוק",
-	"headword": {
-		"text": "שָׂרוֹק"
-	},
+	"sefariaHeadword": "שָׂרוֹק",
+	"headwords": [
+		{
+			"text": "שָׂרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

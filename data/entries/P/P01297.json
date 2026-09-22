@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01297",
-	"slug": "ערדבלין",
-	"headword": {
-		"text": "ערדבלין"
-	},
+	"sefariaHeadword": "ערדבלין",
+	"headwords": [
+		{
+			"text": "ערדבלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

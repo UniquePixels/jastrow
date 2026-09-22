@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01257",
-	"slug": "שלוף-1",
-	"headword": {
-		"text": "שְׁלוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלוֹף",
+	"headwords": [
 		{
-			"text": "שְׁלוֹף דּוֹץ"
+			"text": "שְׁלוֹף"
+		},
+		{
+			"text": "שְׁ׳ דּוֹץ",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1579,
 		"column": "b"

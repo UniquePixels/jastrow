@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01273",
-	"slug": "בריקא",
-	"headword": {
-		"text": "בריקא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בריקא",
+	"headwords": [
+		{
+			"text": "בריקא"
+		},
 		{
 			"text": "בריקה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 194,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00880",
-	"slug": "מחית",
-	"headword": {
-		"text": "מָחֵית"
-	},
+	"sefariaHeadword": "מָחֵית",
+	"headwords": [
+		{
+			"text": "מָחֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

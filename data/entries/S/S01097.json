@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01097",
-	"slug": "קיפול",
-	"headword": {
-		"text": "קִיפּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיפּוּל",
+	"headwords": [
 		{
-			"text": "קִפּ׳"
+			"text": "קִיפּוּל"
+		},
+		{
+			"text": "קִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1366,
 		"column": "a"

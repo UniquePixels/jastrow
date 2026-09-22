@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01260",
-	"slug": "נרגזא",
-	"headword": {
-		"text": "נרגזא"
-	},
+	"sefariaHeadword": "נרגזא",
+	"headwords": [
+		{
+			"text": "נרגזא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

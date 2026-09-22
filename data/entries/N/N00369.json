@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00369",
-	"slug": "נומה",
-	"headword": {
-		"text": "נוֹמֶה"
-	},
+	"sefariaHeadword": "נוֹמֶה",
+	"headwords": [
+		{
+			"text": "נוֹמֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

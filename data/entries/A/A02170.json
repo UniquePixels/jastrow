@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02170",
-	"slug": "אנטוס",
-	"headword": {
-		"text": "אָנְטוֹס"
-	},
+	"sefariaHeadword": "אָנְטוֹס",
+	"headwords": [
+		{
+			"text": "אָנְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

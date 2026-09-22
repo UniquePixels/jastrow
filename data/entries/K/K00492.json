@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00492",
-	"slug": "כידו",
-	"headword": {
-		"text": "כִּידוּ"
-	},
+	"sefariaHeadword": "כִּידוּ",
+	"headwords": [
+		{
+			"text": "כִּידוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

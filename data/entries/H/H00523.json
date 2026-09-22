@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00523",
-	"slug": "חזזיתא",
-	"headword": {
-		"text": "חֲזָזִיתָא"
-	},
+	"sefariaHeadword": "חֲזָזִיתָא",
+	"headwords": [
+		{
+			"text": "חֲזָזִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

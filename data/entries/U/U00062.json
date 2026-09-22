@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00062",
-	"slug": "שבא-2",
-	"headword": {
-		"text": "שְׁבָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שְׁבָא ²",
+	"headwords": [
+		{
+			"text": "שְׁבָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1510,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00875",
-	"slug": "אורי-2",
-	"headword": {
-		"text": "אוֹרִי"
-	},
+	"sefariaHeadword": "אוֹרִי",
+	"headwords": [
+		{
+			"text": "אוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

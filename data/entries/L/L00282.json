@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "L00282",
-	"slug": "לוליינית",
-	"headword": {
-		"text": "לוּלְיָינִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּלְיָינִית",
+	"headwords": [
 		{
-			"text": "לוּלְיָא׳"
+			"text": "לוּלְיָינִית"
 		},
 		{
-			"text": "לוּלְיָ׳"
+			"text": "לוּלְיָא׳",
+			"partial": true
+		},
+		{
+			"text": "לוּלְיָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 699,
 		"column": "b"

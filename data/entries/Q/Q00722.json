@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00722",
-	"slug": "פינוכא",
-	"headword": {
-		"text": "פִּינּוּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינּוּכָא",
+	"headwords": [
 		{
-			"text": "פִּנּ׳"
+			"text": "פִּינּוּכָא"
+		},
+		{
+			"text": "פִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

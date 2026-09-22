@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01213",
-	"slug": "איטימיסייה",
-	"headword": {
-		"text": "איטימיסייה"
-	},
+	"sefariaHeadword": "איטימיסייה",
+	"headwords": [
+		{
+			"text": "איטימיסייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "a"

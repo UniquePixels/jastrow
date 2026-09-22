@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00894",
-	"slug": "שייב",
-	"headword": {
-		"text": "שָׁיֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁיֵיב",
+	"headwords": [
+		{
+			"text": "שָׁיֵיב"
+		},
 		{
 			"text": "שָׁיְיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00162",
-	"slug": "מגיס",
-	"headword": {
-		"text": "מֵגֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵגֵיס",
+	"headwords": [
+		{
+			"text": "מֵגֵיס"
+		},
 		{
 			"text": "מֵגֵס"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַגָּס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 727,
 		"column": "b"

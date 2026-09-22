@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00272",
-	"slug": "סווס",
-	"headword": {
-		"text": "סְוָוס"
-	},
+	"sefariaHeadword": "סְוָוס",
+	"headwords": [
+		{
+			"text": "סְוָוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

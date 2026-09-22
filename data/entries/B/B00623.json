@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00623",
-	"slug": "בילפט",
-	"headword": {
-		"text": "בילפט"
-	},
+	"sefariaHeadword": "בילפט",
+	"headwords": [
+		{
+			"text": "בילפט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01335",
-	"slug": "פסלן",
-	"headword": {
-		"text": "פַּסְלָן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פַּסְלָן",
+	"headwords": [
 		{
-			"text": "בִּקְעַת פַּסְלָן"
+			"text": "פַּסְלָן",
+			"reconstructed": true
+		},
+		{
+			"text": "בִּקְעַת פַּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1198,
 		"column": "a"

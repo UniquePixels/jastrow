@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00459",
-	"slug": "תימור",
-	"headword": {
-		"text": "תִּימּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּימּוּר",
+	"headwords": [
 		{
-			"text": "תִּימּ׳"
+			"text": "תִּימּוּר"
+		},
+		{
+			"text": "תִּימּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1665,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01168",
-	"slug": "ברבראה",
-	"headword": {
-		"text": "בַּרְבְּרָאָה"
-	},
+	"sefariaHeadword": "בַּרְבְּרָאָה",
+	"headwords": [
+		{
+			"text": "בַּרְבְּרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

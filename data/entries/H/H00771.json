@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00771",
-	"slug": "חילוץ",
-	"headword": {
-		"text": "חִילּוּץ"
-	},
+	"sefariaHeadword": "חִילּוּץ",
+	"headwords": [
+		{
+			"text": "חִילּוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

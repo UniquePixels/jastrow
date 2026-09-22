@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00634",
-	"slug": "קורצא",
-	"headword": {
-		"text": "קוּרְצָא"
-	},
+	"sefariaHeadword": "קוּרְצָא",
+	"headwords": [
+		{
+			"text": "קוּרְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "b"

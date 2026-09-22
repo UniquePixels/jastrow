@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00563",
-	"slug": "דייספק",
-	"headword": {
-		"text": "דייספק"
-	},
+	"sefariaHeadword": "דייספק",
+	"headwords": [
+		{
+			"text": "דייספק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

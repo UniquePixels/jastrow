@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01120",
-	"slug": "קיצ",
-	"headword": {
-		"text": "קִיצּ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיצּ־",
+	"headwords": [
+		{
+			"text": "קִיצּ־"
+		},
 		{
 			"text": "קִיצָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1367,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00685",
-	"slug": "שחפת",
-	"headword": {
-		"text": "שַׁחֶפֶת"
-	},
+	"sefariaHeadword": "שַׁחֶפֶת",
+	"headwords": [
+		{
+			"text": "שַׁחֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1549,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01198",
-	"slug": "איזלא",
-	"headword": {
-		"text": "אִיזְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיזְלָא",
+	"headwords": [
+		{
+			"text": "אִיזְלָא"
+		},
 		{
 			"text": "אוּזְלָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוּזַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 46,
 		"column": "b"

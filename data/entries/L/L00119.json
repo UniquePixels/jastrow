@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00119",
-	"slug": "לבש-2",
-	"headword": {
-		"text": "לְבֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבֵשׁ",
+	"headwords": [
+		{
+			"text": "לְבֵשׁ"
+		},
 		{
 			"text": "לְבַשׁ"
 		},
@@ -12,6 +13,7 @@
 			"text": "לְבֵישׁ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 691,
 		"column": "b"

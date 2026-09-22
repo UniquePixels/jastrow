@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00261",
-	"slug": "דוכרן",
-	"headword": {
-		"text": "דּוּכְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּכְרָן",
+	"headwords": [
+		{
+			"text": "דּוּכְרָן"
+		},
 		{
 			"text": "דּוּכְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 285,
 		"column": "b"

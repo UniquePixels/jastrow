@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01806",
-	"slug": "חשב-1",
-	"headword": {
-		"text": "חָשַׁב"
-	},
+	"sefariaHeadword": "חָשַׁב",
+	"headwords": [
+		{
+			"text": "חָשַׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 508,
 		"column": "a"

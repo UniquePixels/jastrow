@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02488",
-	"slug": "אספי",
-	"headword": {
-		"text": "אַסְפִּי"
-	},
+	"sefariaHeadword": "אַסְפִּי",
+	"headwords": [
+		{
+			"text": "אַסְפִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

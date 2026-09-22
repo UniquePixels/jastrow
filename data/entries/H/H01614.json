@@ -1,25 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "H01614",
-	"slug": "חרובא-2",
-	"headword": {
-		"text": "חֲרוּבָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרוּבָא ²",
+	"headwords": [
+		{
+			"text": "חֲרוּבָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲרוּבָה",
 			"homograph": 2
 		},
 		{
-			"text": "כפר חֲרוּבָא"
+			"text": "כפר ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II, {2}",
 	"page": {
 		"number": 499,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

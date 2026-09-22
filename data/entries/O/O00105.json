@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00105",
-	"slug": "סגדיס",
-	"headword": {
-		"text": "סגדיס"
-	},
+	"sefariaHeadword": "סגדיס",
+	"headwords": [
+		{
+			"text": "סגדיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00359",
-	"slug": "היטרית",
-	"headword": {
-		"text": "הִיטְּרִית"
-	},
+	"sefariaHeadword": "הִיטְּרִית",
+	"headwords": [
+		{
+			"text": "הִיטְּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "a"

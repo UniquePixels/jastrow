@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00449",
-	"slug": "רושחתא",
-	"headword": {
-		"text": "רוּשְׁחָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רוּשְׁחָתָא",
+	"headwords": [
+		{
+			"text": "רוּשְׁחָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

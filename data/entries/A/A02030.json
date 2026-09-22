@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02030",
-	"slug": "אמיתי",
-	"headword": {
-		"text": "אֲמִיתִּי"
-	},
+	"sefariaHeadword": "אֲמִיתִּי",
+	"headwords": [
+		{
+			"text": "אֲמִיתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "a"

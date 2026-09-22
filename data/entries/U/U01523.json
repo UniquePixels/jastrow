@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01523",
-	"slug": "שמצה",
-	"headword": {
-		"text": "שִׁמְצָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁמְצָה",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁמְצָה"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1600,
 		"column": "b"

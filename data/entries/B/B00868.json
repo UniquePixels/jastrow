@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00868",
-	"slug": "בליסטורי",
-	"headword": {
-		"text": "בליסטורי"
-	},
+	"sefariaHeadword": "בליסטורי",
+	"headwords": [
+		{
+			"text": "בליסטורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

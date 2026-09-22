@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00231",
-	"slug": "צוצלא",
-	"headword": {
-		"text": "צוֹצְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹצְלָא",
+	"headwords": [
+		{
+			"text": "צוֹצְלָא"
+		},
 		{
 			"text": "צוֹצִילְתָּא"
 		},
 		{
-			"text": "צוֹצַלְ׳"
+			"text": "צוֹצַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1270,
 		"column": "a"

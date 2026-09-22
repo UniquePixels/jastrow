@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00125",
-	"slug": "צדקן",
-	"headword": {
-		"text": "צַדְקָן"
-	},
+	"sefariaHeadword": "צַדְקָן",
+	"headwords": [
+		{
+			"text": "צַדְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "a"

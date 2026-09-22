@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00570",
-	"slug": "כינור",
-	"headword": {
-		"text": "כִּינּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינּוֹר",
+	"headwords": [
+		{
+			"text": "כִּינּוֹר"
+		},
 		{
 			"text": "כִּינּוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

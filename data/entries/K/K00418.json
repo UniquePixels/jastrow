@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00418",
-	"slug": "כותב",
-	"headword": {
-		"text": "כּוֹתֵב"
-	},
+	"sefariaHeadword": "כּוֹתֵב",
+	"headwords": [
+		{
+			"text": "כּוֹתֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "a"

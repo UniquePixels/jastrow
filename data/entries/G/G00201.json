@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00201",
-	"slug": "זונייא",
-	"headword": {
-		"text": "זוֹנַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹנַיָּיא",
+	"headwords": [
+		{
+			"text": "זוֹנַיָּיא"
+		},
 		{
 			"text": "זוּנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 388,
 		"column": "a"

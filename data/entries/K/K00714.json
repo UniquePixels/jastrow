@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00714",
-	"slug": "כלי-1",
-	"headword": {
-		"text": "כְּלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּלִי",
+	"headwords": [
+		{
+			"text": "כְּלִי"
+		},
 		{
 			"text": "כֶּלִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 641,
 		"column": "a"

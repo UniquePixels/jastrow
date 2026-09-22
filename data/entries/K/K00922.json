@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00922",
-	"slug": "כסיטנא",
-	"headword": {
-		"text": "כְּסִיטְנָא"
-	},
+	"sefariaHeadword": "כְּסִיטְנָא",
+	"headwords": [
+		{
+			"text": "כְּסִיטְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 653,
 		"column": "b"

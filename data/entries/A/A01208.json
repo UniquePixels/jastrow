@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01208",
-	"slug": "איטא",
-	"headword": {
-		"text": "אִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיטָא",
+	"headwords": [
+		{
+			"text": "אִיטָא"
+		},
 		{
 			"text": "אִיטָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 47,
 		"column": "a"

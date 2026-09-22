@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "S00813",
-	"slug": "קטף-4",
-	"headword": {
-		"text": "קְטַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטַף II",
+	"headwords": [
+		{
+			"text": "קְטַף",
+			"homograph": 2
+		},
 		{
 			"text": "קִטְפָא"
 		},
 		{
 			"text": "קִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2} I",
 	"page": {
 		"number": 1352,
 		"column": "a"

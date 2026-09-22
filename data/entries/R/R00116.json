@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00116",
-	"slug": "צדעא",
-	"headword": {
-		"text": "צִדְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִדְעָא",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִדְעָא"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1263,
 		"column": "a"

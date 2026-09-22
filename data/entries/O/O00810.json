@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00810",
-	"slug": "סיקוסים-1",
-	"headword": {
-		"text": "סִיקוֹסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיקוֹסִים",
+	"headwords": [
+		{
+			"text": "סִיקוֹסִים"
+		},
 		{
 			"text": "סִיקוֹסִין"
 		},
 		{
 			"text": "סִקֹ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 986,
 		"column": "a"

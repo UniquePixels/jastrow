@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00145",
-	"slug": "שבלון",
-	"headword": {
-		"text": "שבלון"
-	},
+	"sefariaHeadword": "שבלון",
+	"headwords": [
+		{
+			"text": "שבלון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00517",
-	"slug": "חזור-2",
-	"headword": {
-		"text": "חַזּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַזּוּר",
+	"headwords": [
+		{
+			"text": "חַזּוּר"
+		},
 		{
 			"text": "חֵיזוּר"
 		},
@@ -15,9 +16,11 @@
 			"text": "חֲזוֹרָא"
 		},
 		{
-			"text": "חֵי׳"
+			"text": "חֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 442,
 		"column": "b"

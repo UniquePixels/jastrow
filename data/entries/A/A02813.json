@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02813",
-	"slug": "אפרחי",
-	"headword": {
-		"text": "אפרחי"
-	},
+	"sefariaHeadword": "אפרחי",
+	"headwords": [
+		{
+			"text": "אפרחי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

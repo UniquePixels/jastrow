@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00439",
-	"slug": "עטוף-2",
-	"headword": {
-		"text": "עִטּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִטּוּף",
+	"headwords": [
+		{
+			"text": "עִטּוּף"
+		},
 		{
 			"text": "עִטּוּר"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִטּוּשׁ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1063,
 		"column": "a"

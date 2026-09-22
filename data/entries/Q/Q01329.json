@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01329",
-	"slug": "פסלא",
-	"headword": {
-		"text": "פִּסְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְלָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּסְלָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1198,
 		"column": "a"

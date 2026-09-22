@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01992",
-	"slug": "פרקולא",
-	"headword": {
-		"text": "פַּרְקוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְקוּלָא",
+	"headwords": [
+		{
+			"text": "פַּרְקוּלָא"
+		},
 		{
 			"text": "פַּרְקוּלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01382",
-	"slug": "איני-2",
-	"headword": {
-		"text": "אִינִי"
-	},
+	"sefariaHeadword": "אִינִי",
+	"headwords": [
+		{
+			"text": "אִינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

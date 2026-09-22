@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00382",
-	"slug": "דורסן",
-	"headword": {
-		"text": "דּוֹרְסָן"
-	},
+	"sefariaHeadword": "דּוֹרְסָן",
+	"headwords": [
+		{
+			"text": "דּוֹרְסָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "a"

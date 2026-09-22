@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02292",
-	"slug": "קתלא",
-	"headword": {
-		"text": "קָתְלָא"
-	},
+	"sefariaHeadword": "קָתְלָא",
+	"headwords": [
+		{
+			"text": "קָתְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "b"

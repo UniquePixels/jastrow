@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00808",
-	"slug": "קטעא-1",
-	"headword": {
-		"text": "קִטְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִטְעָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִטְעָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1351,
 		"column": "b"

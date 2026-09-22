@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00914",
-	"slug": "עמעם",
-	"headword": {
-		"text": "עִמְעֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִמְעֵם",
+	"headwords": [
+		{
+			"text": "עִמְעֵם"
+		},
 		{
 			"text": "עַמְעֵם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1090,
 		"column": "a"

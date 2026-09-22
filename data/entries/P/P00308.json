@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00308",
-	"slug": "עונתא-1",
-	"headword": {
-		"text": "עוּנְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹ׳ עוּנְתָא",
+	"headwords": [
 		{
-			"text": "עוֹ׳"
+			"text": "עוּנְתָא"
+		},
+		{
+			"text": "עוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1055,
 		"column": "b"

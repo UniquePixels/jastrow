@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01031",
-	"slug": "קינופין",
-	"headword": {
-		"text": "קִינוֹפִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינוֹפִין",
+	"headwords": [
 		{
-			"text": "קִנּ׳"
+			"text": "קִינוֹפִין"
+		},
+		{
+			"text": "קִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1363,
 		"column": "b"

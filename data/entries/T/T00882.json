@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00882",
-	"slug": "רעה-2",
-	"headword": {
-		"text": "רָעָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רָעָה ²",
+	"headwords": [
+		{
+			"text": "רָעָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1486,
 		"column": "a"

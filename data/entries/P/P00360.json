@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00360",
-	"slug": "עורף",
-	"headword": {
-		"text": "עוֹרֶף"
-	},
+	"sefariaHeadword": "עוֹרֶף",
+	"headwords": [
+		{
+			"text": "עוֹרֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02616",
-	"slug": "מרזבנא",
-	"headword": {
-		"text": "מַרְזַבְנָא"
-	},
+	"sefariaHeadword": "מַרְזַבְנָא",
+	"headwords": [
+		{
+			"text": "מַרְזַבְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

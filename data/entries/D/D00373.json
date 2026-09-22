@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00373",
-	"slug": "דורמילוס",
-	"headword": {
-		"text": "דורמילוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דורמילוס",
+	"headwords": [
+		{
+			"text": "דורמילוס"
+		},
 		{
 			"text": "דורמלוס"
 		},
@@ -12,6 +13,7 @@
 			"text": "דורמליס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 290,
 		"column": "a"

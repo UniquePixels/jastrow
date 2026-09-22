@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00020",
-	"slug": "שאיבה",
-	"headword": {
-		"text": "שְׁאֵיבָה"
-	},
+	"sefariaHeadword": "שְׁאֵיבָה",
+	"headwords": [
+		{
+			"text": "שְׁאֵיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

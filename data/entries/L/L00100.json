@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00100",
-	"slug": "לבן-7",
-	"headword": {
-		"text": "לְבָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבָן",
+	"headwords": [
+		{
+			"text": "לְבָן"
+		},
 		{
 			"text": "לְבַן"
 		},
@@ -12,6 +13,7 @@
 			"text": "לָבָן"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 690,
 		"column": "b"

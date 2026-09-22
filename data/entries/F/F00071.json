@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00071",
-	"slug": "ועד-2",
-	"headword": {
-		"text": "וַעַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וַעַד",
+	"headwords": [
 		{
-			"text": "וַו׳"
+			"text": "וַעַד"
+		},
+		{
+			"text": "וַו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 374,
 		"column": "b"

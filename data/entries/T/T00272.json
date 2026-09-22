@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00272",
-	"slug": "רהב-3",
-	"headword": {
-		"text": "רַהַב"
-	},
+	"sefariaHeadword": "רַהַב",
+	"headwords": [
+		{
+			"text": "רַהַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1453,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00448",
-	"slug": "כזר",
-	"headword": {
-		"text": "כְּזַר"
-	},
+	"sefariaHeadword": "כְּזַר",
+	"headwords": [
+		{
+			"text": "כְּזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

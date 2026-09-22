@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00656",
-	"slug": "אוכפייה",
-	"headword": {
-		"text": "אוכפייה"
-	},
+	"sefariaHeadword": "אוכפייה",
+	"headwords": [
+		{
+			"text": "אוכפייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

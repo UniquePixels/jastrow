@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02660",
-	"slug": "אפטי",
-	"headword": {
-		"text": "אפטי"
-	},
+	"sefariaHeadword": "אפטי",
+	"headwords": [
+		{
+			"text": "אפטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

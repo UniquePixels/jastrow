@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00349",
-	"slug": "בורדלא",
-	"headword": {
-		"text": "בּוּרְדְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּרְדְּלָא",
+	"headwords": [
+		{
+			"text": "בּוּרְדְּלָא"
+		},
 		{
 			"text": "בַּרְדִּילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 149,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00698",
-	"slug": "עיררה",
-	"headword": {
-		"text": "עִירְרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִירְרָה",
+	"headwords": [
 		{
-			"text": "עוּ׳"
+			"text": "עִירְרָה"
+		},
+		{
+			"text": "עוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01232",
-	"slug": "חמש-1",
-	"headword": {
-		"text": "חָמֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָמֵשׁ",
+	"headwords": [
+		{
+			"text": "חָמֵשׁ"
+		},
 		{
 			"text": "חֲמִשָּׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 480,
 		"column": "b"

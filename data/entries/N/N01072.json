@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01072",
-	"slug": "נפצא-1",
-	"headword": {
-		"text": "נַפָּצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַפָּצָא",
+	"headwords": [
+		{
+			"text": "נַפָּצָא"
+		},
 		{
 			"text": "נַפָּסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 925,
 		"column": "b"

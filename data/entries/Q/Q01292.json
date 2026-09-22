@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01292",
-	"slug": "פסיליא",
-	"headword": {
-		"text": "פְּסִילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִילְיָא",
+	"headwords": [
+		{
+			"text": "פְּסִילְיָא"
+		},
 		{
 			"text": "פְּסִילְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1195,
 		"column": "b"

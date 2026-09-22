@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00234",
-	"slug": "כוזתא",
-	"headword": {
-		"text": "כּוּזְתָא"
-	},
+	"sefariaHeadword": "כּוּזְתָא",
+	"headwords": [
+		{
+			"text": "כּוּזְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

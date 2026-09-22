@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02371",
-	"slug": "אסטיסית",
-	"headword": {
-		"text": "אִסְטִיסִּית"
-	},
+	"sefariaHeadword": "אִסְטִיסִּית",
+	"headwords": [
+		{
+			"text": "אִסְטִיסִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

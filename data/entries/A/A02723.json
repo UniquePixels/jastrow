@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02723",
-	"slug": "אפירטין",
-	"headword": {
-		"text": "אפירטין"
-	},
+	"sefariaHeadword": "אפירטין",
+	"headwords": [
+		{
+			"text": "אפירטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

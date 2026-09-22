@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00165",
-	"slug": "להי",
-	"headword": {
-		"text": "לְהִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְהִי",
+	"headwords": [
+		{
+			"text": "לְהִי"
+		},
 		{
 			"text": "לְהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 693,
 		"column": "b"

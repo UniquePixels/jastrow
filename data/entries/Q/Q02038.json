@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02038",
-	"slug": "פרשע",
-	"headword": {
-		"text": "פִּרְשָׁע"
-	},
+	"sefariaHeadword": "פִּרְשָׁע",
+	"headwords": [
+		{
+			"text": "פִּרְשָׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "a"

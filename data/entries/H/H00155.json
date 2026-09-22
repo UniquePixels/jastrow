@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00155",
-	"slug": "חגס",
-	"headword": {
-		"text": "חָגָס"
-	},
+	"sefariaHeadword": "חָגָס",
+	"headwords": [
+		{
+			"text": "חָגָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01002",
-	"slug": "פלטה",
-	"headword": {
-		"text": "פְּלֵטָה"
-	},
+	"sefariaHeadword": "פְּלֵטָה",
+	"headwords": [
+		{
+			"text": "פְּלֵטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00270",
-	"slug": "שדיין",
-	"headword": {
-		"text": "שדיין"
-	},
+	"sefariaHeadword": "שדיין",
+	"headwords": [
+		{
+			"text": "שדיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1524,
 		"column": "b"

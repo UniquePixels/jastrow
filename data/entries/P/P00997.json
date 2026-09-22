@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00997",
-	"slug": "ענן-1",
-	"headword": {
-		"text": "עָנַן"
-	},
+	"sefariaHeadword": "עָנַן",
+	"headwords": [
+		{
+			"text": "עָנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1095,
 		"column": "b"

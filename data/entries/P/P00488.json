@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00488",
-	"slug": "עיבא-1",
-	"headword": {
-		"text": "עֵיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵיבָא",
+	"headwords": [
+		{
+			"text": "עֵיבָא"
+		},
 		{
 			"text": "עָבָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1065,
 		"column": "b"

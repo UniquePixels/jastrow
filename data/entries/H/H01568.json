@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01568",
-	"slug": "חקר-4",
-	"headword": {
-		"text": "חָקָר"
-	},
+	"sefariaHeadword": "חָקָר",
+	"headwords": [
+		{
+			"text": "חָקָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "b"

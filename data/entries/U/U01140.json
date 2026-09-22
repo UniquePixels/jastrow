@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01140",
-	"slug": "שכחה",
-	"headword": {
-		"text": "שִׁכְחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכְחָה",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁכְחָה"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1572,
 		"column": "b"

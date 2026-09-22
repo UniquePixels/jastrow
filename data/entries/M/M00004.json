@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00004",
-	"slug": "מאגניות",
-	"headword": {
-		"text": "מאגניות"
-	},
+	"sefariaHeadword": "מאגניות",
+	"headwords": [
+		{
+			"text": "מאגניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

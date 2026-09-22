@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00089",
-	"slug": "כבשון",
-	"headword": {
-		"text": "כִּבְשׁוֹן"
-	},
+	"sefariaHeadword": "כִּבְשׁוֹן",
+	"headwords": [
+		{
+			"text": "כִּבְשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 611,
 		"column": "b"

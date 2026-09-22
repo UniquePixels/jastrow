@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00697",
-	"slug": "הסבה-2",
-	"headword": {
-		"text": "הֶסֵּבָּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הֶסֵּבָּה II",
+	"headwords": [
+		{
+			"text": "הֶסֵּבָּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 359,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00785",
-	"slug": "מזרין",
-	"headword": {
-		"text": "מזרין"
-	},
+	"sefariaHeadword": "מזרין",
+	"headwords": [
+		{
+			"text": "מזרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "b"

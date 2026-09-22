@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00155",
-	"slug": "שבע-1",
-	"headword": {
-		"text": "שֶׁבַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁבַע",
+	"headwords": [
+		{
+			"text": "שֶׁבַע"
+		},
 		{
 			"text": "שִׁבְעָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1515,
 		"column": "b"

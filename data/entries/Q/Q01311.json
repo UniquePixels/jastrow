@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01311",
-	"slug": "פסיק",
-	"headword": {
-		"text": "פְּסֵיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסֵיק",
+	"headwords": [
+		{
+			"text": "פְּסֵיק"
+		},
 		{
 			"text": "פְּסִיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1196,
 		"column": "b"

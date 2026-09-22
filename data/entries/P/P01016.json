@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01016",
-	"slug": "ענש-1",
-	"headword": {
-		"text": "עָנַשׁ"
-	},
+	"sefariaHeadword": "עָנַשׁ",
+	"headwords": [
+		{
+			"text": "עָנַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "b"

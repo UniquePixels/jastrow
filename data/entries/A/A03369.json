@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03369",
-	"slug": "אשתדור",
-	"headword": {
-		"text": "אֶשְׁתַּדּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשְׁתַּדּוּר",
+	"headwords": [
+		{
+			"text": "אֶשְׁתַּדּוּר"
+		},
 		{
 			"text": "אִשְׁתְּדוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 131,
 		"column": "a"

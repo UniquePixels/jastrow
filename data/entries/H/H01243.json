@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01243",
-	"slug": "חמתא-2",
-	"headword": {
-		"text": "חֲמָתָא"
-	},
+	"sefariaHeadword": "חֲמָתָא",
+	"headwords": [
+		{
+			"text": "חֲמָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "a"

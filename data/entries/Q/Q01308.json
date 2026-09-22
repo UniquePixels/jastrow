@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01308",
-	"slug": "פסיפון",
-	"headword": {
-		"text": "פסיפון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פסיפון",
+	"headwords": [
+		{
+			"text": "פסיפון"
+		},
 		{
 			"text": "פסיפין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1196,
 		"column": "a"

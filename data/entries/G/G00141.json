@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00141",
-	"slug": "זווג-2",
-	"headword": {
-		"text": "זַוֵּוג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַוֵּוג",
+	"headwords": [
+		{
+			"text": "זַוֵּוג"
+		},
 		{
 			"text": "זַוֵּוד"
 		},
@@ -12,6 +13,7 @@
 			"text": "זְוָודָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 385,
 		"column": "a"

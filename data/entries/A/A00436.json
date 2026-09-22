@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00436",
-	"slug": "אדני-מריונים",
-	"headword": {
-		"text": "אדני מריונים"
-	},
+	"sefariaHeadword": "אדני מריונים",
+	"headwords": [
+		{
+			"text": "אדני מריונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "b"

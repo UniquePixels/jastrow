@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00423",
-	"slug": "ציפר",
-	"headword": {
-		"text": "צִיפָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפָּר",
+	"headwords": [
+		{
+			"text": "צִיפָּר"
+		},
 		{
 			"text": "צִיפַּר"
 		},
@@ -12,9 +13,11 @@
 			"text": "צִיפְרָא"
 		},
 		{
-			"text": "צִיפְּ׳"
+			"text": "צִיפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1279,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00995",
-	"slug": "שיער",
-	"headword": {
-		"text": "שֵׂיעָר"
-	},
+	"sefariaHeadword": "שֵׂיעָר",
+	"headwords": [
+		{
+			"text": "שֵׂיעָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "b"

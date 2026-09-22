@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00172",
-	"slug": "טולשא",
-	"headword": {
-		"text": "טוּלְשׁא"
-	},
+	"sefariaHeadword": "טוּלְשׁא",
+	"headwords": [
+		{
+			"text": "טוּלְשׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "a"

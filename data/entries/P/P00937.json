@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00937",
-	"slug": "עמתן",
-	"headword": {
-		"text": "עַמְּתָן"
-	},
+	"sefariaHeadword": "עַמְּתָן",
+	"headwords": [
+		{
+			"text": "עַמְּתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00120",
-	"slug": "גבסים",
-	"headword": {
-		"text": "גִּבְסִים"
-	},
+	"sefariaHeadword": "גִּבְסִים",
+	"headwords": [
+		{
+			"text": "גִּבְסִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

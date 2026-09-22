@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01353",
-	"slug": "בשורתא",
-	"headword": {
-		"text": "בְּשׂוֹרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּשׂוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "בְּשׂוֹרְתָּא"
+		},
 		{
 			"text": "בְּסוֹרְתָּא"
 		},
@@ -15,6 +16,7 @@
 			"text": "בְּסוֹרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 198,
 		"column": "b"

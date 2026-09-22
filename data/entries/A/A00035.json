@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00035",
-	"slug": "אבדומא-1",
-	"headword": {
-		"text": "אֶבְדּוּמָא"
-	},
+	"sefariaHeadword": "אֶבְדּוּמָא",
+	"headwords": [
+		{
+			"text": "אֶבְדּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

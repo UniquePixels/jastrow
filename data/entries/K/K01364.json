@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01364",
-	"slug": "כתישה",
-	"headword": {
-		"text": "כְּתִישָׁה"
-	},
+	"sefariaHeadword": "כְּתִישָׁה",
+	"headwords": [
+		{
+			"text": "כְּתִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "a"

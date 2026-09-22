@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00573",
-	"slug": "זנוק",
-	"headword": {
-		"text": "זִנּוּק"
-	},
+	"sefariaHeadword": "זִנּוּק",
+	"headwords": [
+		{
+			"text": "זִנּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

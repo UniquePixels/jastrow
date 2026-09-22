@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00596",
-	"slug": "ירבעם",
-	"headword": {
-		"text": "יָרָבְעָם"
-	},
+	"sefariaHeadword": "יָרָבְעָם",
+	"headwords": [
+		{
+			"text": "יָרָבְעָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 594,
 		"column": "a"

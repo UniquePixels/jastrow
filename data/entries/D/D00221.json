@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00221",
-	"slug": "דוותא-1",
-	"headword": {
-		"text": "דָּווּתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּווּתָא",
+	"headwords": [
+		{
+			"text": "דָּווּתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 284,
 		"column": "a"

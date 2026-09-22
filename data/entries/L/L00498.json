@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00498",
-	"slug": "ליסטיס",
-	"headword": {
-		"text": "לִיסְטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיסְטֵיס",
+	"headwords": [
+		{
+			"text": "לִיסְטֵיס"
+		},
 		{
 			"text": "לֵיסְטֵס"
 		},
 		{
-			"text": "לִסְ׳"
+			"text": "לִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 708,
 		"column": "b"

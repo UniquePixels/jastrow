@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00981",
-	"slug": "בסי",
-	"headword": {
-		"text": "בסי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בסי",
+	"headwords": [
+		{
+			"text": "בסי"
+		},
 		{
 			"text": "בְּסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 178,
 		"column": "a"

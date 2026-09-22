@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02025",
-	"slug": "קרי-9",
-	"headword": {
-		"text": "קְרִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרִי ²",
+	"headwords": [
+		{
+			"text": "קְרִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "קֶרִי"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1419,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00183",
-	"slug": "צוותא",
-	"headword": {
-		"text": "צַוְותָּא"
-	},
+	"sefariaHeadword": "צַוְותָּא",
+	"headwords": [
+		{
+			"text": "צַוְותָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

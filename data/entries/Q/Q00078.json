@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00078",
-	"slug": "פגמין",
-	"headword": {
-		"text": "פִּגְמִין"
-	},
+	"sefariaHeadword": "פִּגְמִין",
+	"headwords": [
+		{
+			"text": "פִּגְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1134,
 		"column": "b"

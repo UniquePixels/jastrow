@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00674",
-	"slug": "יש",
-	"headword": {
-		"text": "יֵשׁ"
-	},
+	"sefariaHeadword": "יֵשׁ",
+	"headwords": [
+		{
+			"text": "יֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "b"

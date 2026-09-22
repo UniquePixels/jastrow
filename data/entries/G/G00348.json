@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00348",
-	"slug": "זייפנותא",
-	"headword": {
-		"text": "זַיְיפָנוּתָא"
-	},
+	"sefariaHeadword": "זַיְיפָנוּתָא",
+	"headwords": [
+		{
+			"text": "זַיְיפָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

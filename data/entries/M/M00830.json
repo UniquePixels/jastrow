@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00830",
-	"slug": "מחוס",
-	"headword": {
-		"text": "מָחוֹס"
-	},
+	"sefariaHeadword": "מָחוֹס",
+	"headwords": [
+		{
+			"text": "מָחוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

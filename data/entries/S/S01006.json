@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01006",
-	"slug": "קימוץ",
-	"headword": {
-		"text": "קימוץ"
-	},
+	"sefariaHeadword": "קימוץ",
+	"headwords": [
+		{
+			"text": "קימוץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

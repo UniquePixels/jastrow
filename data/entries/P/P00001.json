@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00001",
-	"slug": "ע׳",
-	"headword": {
-		"text": "ע׳"
-	},
+	"sefariaHeadword": "ע׳",
+	"headwords": [
+		{
+			"text": "ע׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "a"

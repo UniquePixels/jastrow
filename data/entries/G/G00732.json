@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00732",
-	"slug": "זרף-2",
-	"headword": {
-		"text": "זְרַף"
-	},
+	"sefariaHeadword": "זְרַף",
+	"headwords": [
+		{
+			"text": "זְרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "b"

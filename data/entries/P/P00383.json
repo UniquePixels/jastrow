@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00383",
-	"slug": "עותקא",
-	"headword": {
-		"text": "עוּתִקָא"
-	},
+	"sefariaHeadword": "עוּתִקָא",
+	"headwords": [
+		{
+			"text": "עוּתִקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "a"

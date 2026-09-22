@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00203",
-	"slug": "סדרא",
-	"headword": {
-		"text": "סִדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִדְרָא",
+	"headwords": [
+		{
+			"text": "סִדְרָא"
+		},
 		{
 			"text": "סִדְרָה"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 959,
 		"column": "a"

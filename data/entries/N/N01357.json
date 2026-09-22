@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01357",
-	"slug": "נתברא",
-	"headword": {
-		"text": "נִתְבָּרָא"
-	},
+	"sefariaHeadword": "נִתְבָּרָא",
+	"headwords": [
+		{
+			"text": "נִתְבָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "a"

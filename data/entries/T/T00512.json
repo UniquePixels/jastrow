@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00512",
-	"slug": "רחישתא",
-	"headword": {
-		"text": "רְחִישְׁתָּא"
-	},
+	"sefariaHeadword": "רְחִישְׁתָּא",
+	"headwords": [
+		{
+			"text": "רְחִישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "b"

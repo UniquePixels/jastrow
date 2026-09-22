@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01153",
-	"slug": "קיראה",
-	"headword": {
-		"text": "קִירָאָה"
-	},
+	"sefariaHeadword": "קִירָאָה",
+	"headwords": [
+		{
+			"text": "קִירָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

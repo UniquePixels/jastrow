@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01325",
-	"slug": "אימה-3",
-	"headword": {
-		"text": "אֵימָה"
-	},
+	"sefariaHeadword": "אֵימָה",
+	"headwords": [
+		{
+			"text": "אֵימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "b"

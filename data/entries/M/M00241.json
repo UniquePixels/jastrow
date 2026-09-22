@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00241",
-	"slug": "מדבר-2",
-	"headword": {
-		"text": "מִדְבָּר"
-	},
+	"sefariaHeadword": "מִדְבָּר",
+	"headwords": [
+		{
+			"text": "מִדְבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "a"

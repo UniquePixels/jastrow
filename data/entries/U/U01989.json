@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01989",
-	"slug": "שרירותא",
-	"headword": {
-		"text": "שְׁרִירוּתָא"
-	},
+	"sefariaHeadword": "שְׁרִירוּתָא",
+	"headwords": [
+		{
+			"text": "שְׁרִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

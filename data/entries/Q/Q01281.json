@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01281",
-	"slug": "פסיוני-1",
-	"headword": {
-		"text": "פִּסְיוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְיוֹנִי",
+	"headwords": [
 		{
-			"text": "פִּיסְ׳"
+			"text": "פִּסְיוֹנִי"
+		},
+		{
+			"text": "פִּיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1194,
 		"column": "b"

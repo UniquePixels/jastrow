@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01786",
-	"slug": "קצבה",
-	"headword": {
-		"text": "קִצְבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִצְבָה",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִצְבָה"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1404,
 		"column": "a"

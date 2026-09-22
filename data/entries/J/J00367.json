@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00367",
-	"slug": "ילד-1",
-	"headword": {
-		"text": "יָלַד"
-	},
+	"sefariaHeadword": "יָלַד",
+	"headwords": [
+		{
+			"text": "יָלַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "b"

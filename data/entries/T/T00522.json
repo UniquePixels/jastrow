@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "T00522",
-	"slug": "רחמא-2",
-	"headword": {
-		"text": "רַחֲמָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחֲמָא ²",
+	"headwords": [
+		{
+			"text": "רַחֲמָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַחְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		},
 		{
 			"text": "רַחְמְתָא"
 		}
 	],
+	"display": "{0} ², {1} II, {2}",
 	"page": {
 		"number": 1467,
 		"column": "b"

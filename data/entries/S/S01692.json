@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01692",
-	"slug": "קעקא",
-	"headword": {
-		"text": "קַעְקָא"
-	},
+	"sefariaHeadword": "קַעְקָא",
+	"headwords": [
+		{
+			"text": "קַעְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

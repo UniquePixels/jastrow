@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00587",
-	"slug": "ריבויא",
-	"headword": {
-		"text": "רִיבּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוּיָא",
+	"headwords": [
+		{
+			"text": "רִיבּוּיָא"
+		},
 		{
 			"text": "רִיבּוּיָיא"
 		},
 		{
-			"text": "רִבּ׳"
+			"text": "רִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1472,
 		"column": "b"

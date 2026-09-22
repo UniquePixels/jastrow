@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00728",
-	"slug": "זרעי",
-	"headword": {
-		"text": "זַרְעִי"
-	},
+	"sefariaHeadword": "זַרְעִי",
+	"headwords": [
+		{
+			"text": "זַרְעִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "b"

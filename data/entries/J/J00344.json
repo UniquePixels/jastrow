@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00344",
-	"slug": "ייעוד",
-	"headword": {
-		"text": "יִיעוּד"
-	},
+	"sefariaHeadword": "יִיעוּד",
+	"headwords": [
+		{
+			"text": "יִיעוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

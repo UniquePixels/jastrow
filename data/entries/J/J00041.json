@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00041",
-	"slug": "יבחוש",
-	"headword": {
-		"text": "יַבְחוּשׁ"
-	},
+	"sefariaHeadword": "יַבְחוּשׁ",
+	"headwords": [
+		{
+			"text": "יַבְחוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

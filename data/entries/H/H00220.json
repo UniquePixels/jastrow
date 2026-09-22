@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00220",
-	"slug": "חדשה-1",
-	"headword": {
-		"text": "חֲדָשָׁה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲדָשָׁה I",
+	"headwords": [
+		{
+			"text": "חֲדָשָׁה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 427,
 		"column": "b"

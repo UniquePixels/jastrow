@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02839",
-	"slug": "משופש",
-	"headword": {
-		"text": "מְשׁוּפָּשׁ"
-	},
+	"sefariaHeadword": "מְשׁוּפָּשׁ",
+	"headwords": [
+		{
+			"text": "מְשׁוּפָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

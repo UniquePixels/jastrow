@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01938",
-	"slug": "קרויא-2",
-	"headword": {
-		"text": "קֵרוּיָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קֵרוּיָא II",
+	"headwords": [
+		{
+			"text": "קֵרוּיָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1413,
 		"column": "b"

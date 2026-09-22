@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00785",
-	"slug": "בכיותא",
-	"headword": {
-		"text": "בִּכְיוּתָא"
-	},
+	"sefariaHeadword": "בִּכְיוּתָא",
+	"headwords": [
+		{
+			"text": "בִּכְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "b"

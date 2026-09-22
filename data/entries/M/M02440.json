@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02440",
-	"slug": "מקצוע-2",
-	"headword": {
-		"text": "מַקְצוּעַ"
-	},
+	"sefariaHeadword": "מַקְצוּעַ",
+	"headwords": [
+		{
+			"text": "מַקְצוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "b"

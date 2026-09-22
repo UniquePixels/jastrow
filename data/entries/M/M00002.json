@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00002",
-	"slug": "מ-2",
-	"headword": {
-		"text": "מִ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִ־",
+	"headwords": [
+		{
+			"text": "מִ־"
+		},
 		{
 			"text": "מִי־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 721,
 		"column": "a"

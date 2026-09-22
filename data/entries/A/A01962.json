@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01962",
-	"slug": "אמא-1",
-	"headword": {
-		"text": "אִמָּא"
-	},
+	"sefariaHeadword": "אִמָּא",
+	"headwords": [
+		{
+			"text": "אִמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "a"

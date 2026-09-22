@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00966",
-	"slug": "קילוס-1",
-	"headword": {
-		"text": "קִילּוּס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קִילּוּס I",
+	"headwords": [
+		{
+			"text": "קִילּוּס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1360,
 		"column": "a"

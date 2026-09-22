@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00198",
-	"slug": "חדל",
-	"headword": {
-		"text": "חָדַל"
-	},
+	"sefariaHeadword": "חָדַל",
+	"headwords": [
+		{
+			"text": "חָדַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

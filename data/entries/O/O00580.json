@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00580",
-	"slug": "סידור-2",
-	"headword": {
-		"text": "סִידּוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִידּוּר II",
+	"headwords": [
+		{
+			"text": "סִידּוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 976,
 		"column": "b"

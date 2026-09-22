@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00246",
-	"slug": "מדברן",
-	"headword": {
-		"text": "מַדְבְּרָן"
-	},
+	"sefariaHeadword": "מַדְבְּרָן",
+	"headwords": [
+		{
+			"text": "מַדְבְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "b"

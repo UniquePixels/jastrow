@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00168",
-	"slug": "רגומנא",
-	"headword": {
-		"text": "רְגוּמָנָא"
-	},
+	"sefariaHeadword": "רְגוּמָנָא",
+	"headwords": [
+		{
+			"text": "רְגוּמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

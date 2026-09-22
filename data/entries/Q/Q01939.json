@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01939",
-	"slug": "פרסתקי",
-	"headword": {
-		"text": "פְּרַסְתְּקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּרַסְתְּקֵי",
+	"headwords": [
+		{
+			"text": "פְּרַסְתְּקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1235,
 		"column": "a"

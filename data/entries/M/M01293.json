@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01293",
-	"slug": "מירוג",
-	"headword": {
-		"text": "מֵירוּג"
-	},
+	"sefariaHeadword": "מֵירוּג",
+	"headwords": [
+		{
+			"text": "מֵירוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

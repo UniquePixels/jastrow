@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00709",
-	"slug": "גייסא-1",
-	"headword": {
-		"text": "גַּיָּיסָא"
-	},
+	"sefariaHeadword": "גַּיָּיסָא",
+	"headwords": [
+		{
+			"text": "גַּיָּיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01024",
-	"slug": "גמייא",
-	"headword": {
-		"text": "גָּמְיָיא"
-	},
+	"sefariaHeadword": "גָּמְיָיא",
+	"headwords": [
+		{
+			"text": "גָּמְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

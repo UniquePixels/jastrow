@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00219",
-	"slug": "תולעה",
-	"headword": {
-		"text": "תּוֹלֵעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹלֵעָה",
+	"headwords": [
+		{
+			"text": "תּוֹלֵעָה"
+		},
 		{
 			"text": "תּוֹלַעַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1653,
 		"column": "b"

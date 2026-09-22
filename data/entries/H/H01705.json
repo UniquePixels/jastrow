@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01705",
-	"slug": "חרית",
-	"headword": {
-		"text": "חָרִית"
-	},
+	"sefariaHeadword": "חָרִית",
+	"headwords": [
+		{
+			"text": "חָרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 503,
 		"column": "a"

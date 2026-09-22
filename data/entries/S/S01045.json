@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01045",
-	"slug": "קינין-1",
-	"headword": {
-		"text": "קִינִּין"
-	},
+	"sefariaHeadword": "קִינִּין",
+	"headwords": [
+		{
+			"text": "קִינִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

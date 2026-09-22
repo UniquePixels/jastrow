@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00359",
-	"slug": "חולף-2",
-	"headword": {
-		"text": "חוֹלַף"
-	},
+	"sefariaHeadword": "חוֹלַף",
+	"headwords": [
+		{
+			"text": "חוֹלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

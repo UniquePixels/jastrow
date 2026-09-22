@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00313",
-	"slug": "עוף-3",
-	"headword": {
-		"text": "עוּף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עוּף II",
+	"headwords": [
+		{
+			"text": "עוּף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1055,
 		"column": "b"

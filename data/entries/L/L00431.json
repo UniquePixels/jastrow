@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00431",
-	"slug": "לידנא",
-	"headword": {
-		"text": "לִידְנָא"
-	},
+	"sefariaHeadword": "לִידְנָא",
+	"headwords": [
+		{
+			"text": "לִידְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02509",
-	"slug": "מרג",
-	"headword": {
-		"text": "מְרַג"
-	},
+	"sefariaHeadword": "מְרַג",
+	"headwords": [
+		{
+			"text": "מְרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

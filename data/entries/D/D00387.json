@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00387",
-	"slug": "דורשיני",
-	"headword": {
-		"text": "דּוּרְשִׁינֵּי"
-	},
+	"sefariaHeadword": "דּוּרְשִׁינֵּי",
+	"headwords": [
+		{
+			"text": "דּוּרְשִׁינֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "b"

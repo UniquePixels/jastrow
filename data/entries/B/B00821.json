@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00821",
-	"slug": "בלדר",
-	"headword": {
-		"text": "בַּלְדָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְדָּר",
+	"headwords": [
+		{
+			"text": "בַּלְדָּר"
+		},
 		{
 			"text": "בּוּלְדָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 171,
 		"column": "a"

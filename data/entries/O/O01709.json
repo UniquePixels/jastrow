@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01709",
-	"slug": "סתק",
-	"headword": {
-		"text": "סְתַק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְתַק",
+	"headwords": [
+		{
+			"text": "סְתַק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1032,
 		"column": "b"

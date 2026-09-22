@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02504",
-	"slug": "מרביתא-2",
-	"headword": {
-		"text": "מַרְבַּיְתָא"
-	},
+	"sefariaHeadword": "מַרְבַּיְתָא",
+	"headwords": [
+		{
+			"text": "מַרְבַּיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

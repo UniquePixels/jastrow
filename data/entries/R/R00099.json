@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00099",
-	"slug": "צד״י",
-	"headword": {
-		"text": "צד״י"
-	},
+	"sefariaHeadword": "צד\"י",
+	"headwords": [
+		{
+			"text": "צד״י"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "b"

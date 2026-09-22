@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00183",
-	"slug": "לוג",
-	"headword": {
-		"text": "לוֹג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוֹג",
+	"headwords": [
+		{
+			"text": "לוֹג"
+		},
 		{
 			"text": "לֹג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 694,
 		"column": "a"

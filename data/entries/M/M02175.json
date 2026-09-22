@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02175",
-	"slug": "מערוך",
-	"headword": {
-		"text": "מַעֲרוֹךְ"
-	},
+	"sefariaHeadword": "מַעֲרוֹךְ",
+	"headwords": [
+		{
+			"text": "מַעֲרוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "a"

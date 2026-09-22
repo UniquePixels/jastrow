@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00651",
-	"slug": "פייליה",
-	"headword": {
-		"text": "פייליה"
-	},
+	"sefariaHeadword": "פייליה",
+	"headwords": [
+		{
+			"text": "פייליה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "b"

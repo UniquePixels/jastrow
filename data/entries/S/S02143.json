@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02143",
-	"slug": "קרץ-3",
-	"headword": {
-		"text": "קְרַץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קְרַץ II",
+	"headwords": [
+		{
+			"text": "קְרַץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1425,
 		"column": "b"

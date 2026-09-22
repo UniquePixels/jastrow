@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00433",
-	"slug": "כותנייס",
-	"headword": {
-		"text": "כּוֹתְנְיָיס"
-	},
+	"sefariaHeadword": "כּוֹתְנְיָיס",
+	"headwords": [
+		{
+			"text": "כּוֹתְנְיָיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

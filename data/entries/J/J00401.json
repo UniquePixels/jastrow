@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00401",
-	"slug": "ילקן",
-	"headword": {
-		"text": "ילקן"
-	},
+	"sefariaHeadword": "ילקן",
+	"headwords": [
+		{
+			"text": "ילקן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

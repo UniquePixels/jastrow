@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00328",
-	"slug": "שובע-3",
-	"headword": {
-		"text": "שׁוֹבַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹבַע",
+	"headwords": [
+		{
+			"text": "שׁוֹבַע"
+		},
 		{
 			"text": "שׁוּבְעָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שׁוּבְעָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1529,
 		"column": "a"

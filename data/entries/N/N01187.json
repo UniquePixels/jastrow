@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01187",
-	"slug": "נקושא",
-	"headword": {
-		"text": "נִקּוּשָׁא"
-	},
+	"sefariaHeadword": "נִקּוּשָׁא",
+	"headwords": [
+		{
+			"text": "נִקּוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00381",
-	"slug": "חומסא",
-	"headword": {
-		"text": "חוֹמָסָא"
-	},
+	"sefariaHeadword": "חוֹמָסָא",
+	"headwords": [
+		{
+			"text": "חוֹמָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

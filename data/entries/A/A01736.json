@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01736",
-	"slug": "אכסנא",
-	"headword": {
-		"text": "אַכְסְנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַכְסְנָא II",
+	"headwords": [
+		{
+			"text": "אַכְסְנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 64,
 		"column": "b"

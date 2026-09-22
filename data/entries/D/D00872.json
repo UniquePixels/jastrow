@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00872",
-	"slug": "דמאין",
-	"headword": {
-		"text": "דְּמָאִין"
-	},
+	"sefariaHeadword": "דְּמָאִין",
+	"headwords": [
+		{
+			"text": "דְּמָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

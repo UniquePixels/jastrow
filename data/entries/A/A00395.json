@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00395",
-	"slug": "אדיבון",
-	"headword": {
-		"text": "אדיבון"
-	},
+	"sefariaHeadword": "אדיבון",
+	"headwords": [
+		{
+			"text": "אדיבון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

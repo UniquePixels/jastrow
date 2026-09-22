@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00034",
-	"slug": "זביחה",
-	"headword": {
-		"text": "זְבִיחָה"
-	},
+	"sefariaHeadword": "זְבִיחָה",
+	"headwords": [
+		{
+			"text": "זְבִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "b"

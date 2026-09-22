@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00652",
-	"slug": "שחינא",
-	"headword": {
-		"text": "שַׂחְיָנָא"
-	},
+	"sefariaHeadword": "שַׂחְיָנָא",
+	"headwords": [
+		{
+			"text": "שַׂחְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1547,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00340",
-	"slug": "ציילנית",
-	"headword": {
-		"text": "ציילנית"
-	},
+	"sefariaHeadword": "ציילנית",
+	"headwords": [
+		{
+			"text": "ציילנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00572",
-	"slug": "חזרת",
-	"headword": {
-		"text": "חֲזֶרֶת"
-	},
+	"sefariaHeadword": "חֲזֶרֶת",
+	"headwords": [
+		{
+			"text": "חֲזֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

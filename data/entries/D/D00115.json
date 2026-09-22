@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00115",
-	"slug": "דגם",
-	"headword": {
-		"text": "דֶּגֶם"
-	},
+	"sefariaHeadword": "דֶּגֶם",
+	"headwords": [
+		{
+			"text": "דֶּגֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 280,
 		"column": "a"

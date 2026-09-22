@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01405",
-	"slug": "ספק-4",
-	"headword": {
-		"text": "סְפַק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפַק ²",
+	"headwords": [
+		{
+			"text": "סְפַק",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְפֵיק"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1016,
 		"column": "a"

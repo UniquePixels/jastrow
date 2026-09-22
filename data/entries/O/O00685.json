@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00685",
-	"slug": "סימא-3",
-	"headword": {
-		"text": "סִימָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "סִימָא III",
+	"headwords": [
+		{
+			"text": "סִימָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 980,
 		"column": "b"

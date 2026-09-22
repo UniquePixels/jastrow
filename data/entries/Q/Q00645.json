@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00645",
-	"slug": "פייוטות",
-	"headword": {
-		"text": "פַּיּיוֹטוֹת"
-	},
+	"sefariaHeadword": "פַּיּיוֹטוֹת",
+	"headwords": [
+		{
+			"text": "פַּיּיוֹטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

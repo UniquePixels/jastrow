@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01710",
-	"slug": "מנגנא",
-	"headword": {
-		"text": "מַנְגָּנָא"
-	},
+	"sefariaHeadword": "מַנְגָּנָא",
+	"headwords": [
+		{
+			"text": "מַנְגָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "b"

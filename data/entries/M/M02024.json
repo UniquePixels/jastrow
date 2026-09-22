@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02024",
-	"slug": "מסריך",
-	"headword": {
-		"text": "מַסְרִיךְ"
-	},
+	"sefariaHeadword": "מַסְרִיךְ",
+	"headwords": [
+		{
+			"text": "מַסְרִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

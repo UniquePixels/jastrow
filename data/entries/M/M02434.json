@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02434",
-	"slug": "מקנה",
-	"headword": {
-		"text": "מִקְנֶה"
-	},
+	"sefariaHeadword": "מִקְנֶה",
+	"headwords": [
+		{
+			"text": "מִקְנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "b"

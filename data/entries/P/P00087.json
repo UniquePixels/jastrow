@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00087",
-	"slug": "עגיל-1",
-	"headword": {
-		"text": "עָגִיל"
-	},
+	"sefariaHeadword": "עָגִיל",
+	"headwords": [
+		{
+			"text": "עָגִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1041,
 		"column": "a"

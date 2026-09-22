@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03420",
-	"slug": "אתכנעו",
-	"headword": {
-		"text": "אִתְכְּנָעוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִתְכְּנָעוּ",
+	"headwords": [
+		{
+			"text": "אִתְכְּנָעוּ"
+		},
 		{
 			"text": "אִתְכְּנָעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 133,
 		"column": "a"

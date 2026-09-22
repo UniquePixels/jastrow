@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01069",
-	"slug": "רשבא",
-	"headword": {
-		"text": "רִשְׁבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִשְׁבָּא",
+	"headwords": [
 		{
-			"text": "רִישְׁ׳"
+			"text": "רִשְׁבָּא"
+		},
+		{
+			"text": "רִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1498,
 		"column": "b"

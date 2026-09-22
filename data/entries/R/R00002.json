@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00002",
-	"slug": "צאד",
-	"headword": {
-		"text": "צָאֵד"
-	},
+	"sefariaHeadword": "צָאֵד",
+	"headwords": [
+		{
+			"text": "צָאֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "a"

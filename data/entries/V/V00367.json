@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00367",
-	"slug": "תחל-2",
-	"headword": {
-		"text": "תְּחַל"
-	},
+	"sefariaHeadword": "תְּחַל",
+	"headwords": [
+		{
+			"text": "תְּחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

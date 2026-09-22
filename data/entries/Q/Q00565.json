@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00565",
-	"slug": "פטריקא",
-	"headword": {
-		"text": "פַּטְרִיקָא"
-	},
+	"sefariaHeadword": "פַּטְרִיקָא",
+	"headwords": [
+		{
+			"text": "פַּטְרִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

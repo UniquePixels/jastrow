@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02758",
-	"slug": "מרצעא",
-	"headword": {
-		"text": "מַרְצְעָא"
-	},
+	"sefariaHeadword": "מַרְצְעָא",
+	"headwords": [
+		{
+			"text": "מַרְצְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

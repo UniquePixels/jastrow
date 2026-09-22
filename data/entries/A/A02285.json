@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02285",
-	"slug": "אנק-1",
-	"headword": {
-		"text": "אנק"
-	},
+	"sefariaHeadword": "אנק",
+	"headwords": [
+		{
+			"text": "אנק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "b"

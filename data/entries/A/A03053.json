@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03053",
-	"slug": "ארזובא",
-	"headword": {
-		"text": "אַרְזוֹבָא"
-	},
+	"sefariaHeadword": "אַרְזוֹבָא",
+	"headwords": [
+		{
+			"text": "אַרְזוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

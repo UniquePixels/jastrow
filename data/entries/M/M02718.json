@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02718",
-	"slug": "מרמם",
-	"headword": {
-		"text": "מְרָמַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרָמַם",
+	"headwords": [
+		{
+			"text": "מְרָמַם"
+		},
 		{
 			"text": "מְרַמְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 844,
 		"column": "b"

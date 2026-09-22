@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00196",
-	"slug": "מגניות",
-	"headword": {
-		"text": "מַגָּנִיּוֹת"
-	},
+	"sefariaHeadword": "מַגָּנִיּוֹת",
+	"headwords": [
+		{
+			"text": "מַגָּנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "b"

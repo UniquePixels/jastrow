@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00896",
-	"slug": "דמיכתא",
-	"headword": {
-		"text": "דְּמִיכְתָּא"
-	},
+	"sefariaHeadword": "דְּמִיכְתָּא",
+	"headwords": [
+		{
+			"text": "דְּמִיכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 313,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01026",
-	"slug": "חלטריא",
-	"headword": {
-		"text": "חֲלִטְרַיָּא"
-	},
+	"sefariaHeadword": "חֲלִטְרַיָּא",
+	"headwords": [
+		{
+			"text": "חֲלִטְרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 467,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00270",
-	"slug": "גוב-2",
-	"headword": {
-		"text": "גּוֹב"
-	},
+	"sefariaHeadword": "גּוֹב",
+	"headwords": [
+		{
+			"text": "גּוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 216,
 		"column": "b"

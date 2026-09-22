@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00497",
-	"slug": "זליקא",
-	"headword": {
-		"text": "זְלִיקָא"
-	},
+	"sefariaHeadword": "זְלִיקָא",
+	"headwords": [
+		{
+			"text": "זְלִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "b"

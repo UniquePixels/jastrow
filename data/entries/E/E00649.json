@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00649",
-	"slug": "הן-2",
-	"headword": {
-		"text": "הֵן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵן ²",
+	"headwords": [
+		{
+			"text": "הֵן",
+			"disambiguator": 2
+		},
 		{
 			"text": "הֵין"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 356,
 		"column": "b"

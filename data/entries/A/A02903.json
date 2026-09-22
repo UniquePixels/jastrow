@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02903",
-	"slug": "אקופי",
-	"headword": {
-		"text": "אַקּוּפֵי"
-	},
+	"sefariaHeadword": "אַקּוּפֵי",
+	"headwords": [
+		{
+			"text": "אַקּוּפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

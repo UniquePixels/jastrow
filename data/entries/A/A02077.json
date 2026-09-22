@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02077",
-	"slug": "אמתלאי",
-	"headword": {
-		"text": "אֲמַתְלַאי"
-	},
+	"sefariaHeadword": "אֲמַתְלַאי",
+	"headwords": [
+		{
+			"text": "אֲמַתְלַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

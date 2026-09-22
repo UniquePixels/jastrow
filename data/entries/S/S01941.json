@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01941",
-	"slug": "קרויות",
-	"headword": {
-		"text": "קְרוּיוֹת"
-	},
+	"sefariaHeadword": "קְרוּיוֹת",
+	"headwords": [
+		{
+			"text": "קְרוּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00048",
-	"slug": "שאר-2",
-	"headword": {
-		"text": "שְׁאַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁאַר I",
+	"headwords": [
+		{
+			"text": "שְׁאַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1509,
 		"column": "a"

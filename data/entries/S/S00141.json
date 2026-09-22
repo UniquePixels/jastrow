@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00141",
-	"slug": "קדיקה",
-	"headword": {
-		"text": "קדיקה"
-	},
+	"sefariaHeadword": "קדיקה",
+	"headwords": [
+		{
+			"text": "קדיקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

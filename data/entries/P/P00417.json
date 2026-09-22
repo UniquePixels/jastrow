@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00417",
-	"slug": "עזם",
-	"headword": {
-		"text": "עֲזַם"
-	},
+	"sefariaHeadword": "עֲזַם",
+	"headwords": [
+		{
+			"text": "עֲזַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "a"

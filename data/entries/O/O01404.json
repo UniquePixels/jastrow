@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01404",
-	"slug": "ספק-3",
-	"headword": {
-		"text": "סָפַק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סָפַק II",
+	"headwords": [
+		{
+			"text": "סָפַק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1015,
 		"column": "b"

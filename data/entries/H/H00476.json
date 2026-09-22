@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00476",
-	"slug": "חורספיתא",
-	"headword": {
-		"text": "חוּרְסְפִיתָא"
-	},
+	"sefariaHeadword": "חוּרְסְפִיתָא",
+	"headwords": [
+		{
+			"text": "חוּרְסְפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

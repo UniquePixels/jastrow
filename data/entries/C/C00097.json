@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00097",
-	"slug": "גבינתא-2",
-	"headword": {
-		"text": "גְּבִינָתָא"
-	},
+	"sefariaHeadword": "גְּבִינָתָא",
+	"headwords": [
+		{
+			"text": "גְּבִינָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "a"

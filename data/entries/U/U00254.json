@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00254",
-	"slug": "שדא-3",
-	"headword": {
-		"text": "שִׁדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁדָּא",
+	"headwords": [
+		{
+			"text": "שִׁדָּא"
+		},
 		{
 			"text": "שִׁדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1524,
 		"column": "a"

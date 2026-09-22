@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00302",
-	"slug": "זיואי",
-	"headword": {
-		"text": "זִיוַאי"
-	},
+	"sefariaHeadword": "זִיוַאי",
+	"headwords": [
+		{
+			"text": "זִיוַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "a"

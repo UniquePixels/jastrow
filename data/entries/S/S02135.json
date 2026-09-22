@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02135",
-	"slug": "קרפיות",
-	"headword": {
-		"text": "קַרְפָּיוֹת"
-	},
+	"sefariaHeadword": "קַרְפָּיוֹת",
+	"headwords": [
+		{
+			"text": "קַרְפָּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1424,
 		"column": "b"

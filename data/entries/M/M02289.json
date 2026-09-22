@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02289",
-	"slug": "מצולה-1",
-	"headword": {
-		"text": "מְצוּלָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְצוּלָה I",
+	"headwords": [
+		{
+			"text": "מְצוּלָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 824,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01156",
-	"slug": "קירדס",
-	"headword": {
-		"text": "קִירְדֵּס"
-	},
+	"sefariaHeadword": "קִירְדֵּס",
+	"headwords": [
+		{
+			"text": "קִירְדֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

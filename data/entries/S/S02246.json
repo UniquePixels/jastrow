@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02246",
-	"slug": "קשיטה",
-	"headword": {
-		"text": "קְשִׂיטָה"
-	},
+	"sefariaHeadword": "קְשִׂיטָה",
+	"headwords": [
+		{
+			"text": "קְשִׂיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1431,
 		"column": "b"

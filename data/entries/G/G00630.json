@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00630",
-	"slug": "זקוקה",
-	"headword": {
-		"text": "זְקוּקָה"
-	},
+	"sefariaHeadword": "זְקוּקָה",
+	"headwords": [
+		{
+			"text": "זְקוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00341",
-	"slug": "עוקצא",
-	"headword": {
-		"text": "עוּקְצָא"
-	},
+	"sefariaHeadword": "עוּקְצָא",
+	"headwords": [
+		{
+			"text": "עוּקְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1057,
 		"column": "a"

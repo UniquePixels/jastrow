@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00577",
-	"slug": "מוצער",
-	"headword": {
-		"text": "מוּצְעָר"
-	},
+	"sefariaHeadword": "מוּצְעָר",
+	"headwords": [
+		{
+			"text": "מוּצְעָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "a"

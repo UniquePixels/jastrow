@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01789",
-	"slug": "אלהים",
-	"headword": {
-		"text": "אֱלֹהִים"
-	},
+	"sefariaHeadword": "אֱלֹהִים",
+	"headwords": [
+		{
+			"text": "אֱלֹהִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "a"

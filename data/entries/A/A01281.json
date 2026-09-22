@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01281",
-	"slug": "אילולא",
-	"headword": {
-		"text": "אִילּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִילּוּלָא",
+	"headwords": [
+		{
+			"text": "אִילּוּלָא"
+		},
 		{
 			"text": "אִילּוּלֵי"
 		},
 		{
-			"text": "אִלּ׳"
+			"text": "אִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 49,
 		"column": "a"

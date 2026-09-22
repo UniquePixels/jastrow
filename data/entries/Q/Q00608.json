@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00608",
-	"slug": "פיזוזא",
-	"headword": {
-		"text": "פִּיזּוּזָא"
-	},
+	"sefariaHeadword": "פִּיזּוּזָא",
+	"headwords": [
+		{
+			"text": "פִּיזּוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "b"

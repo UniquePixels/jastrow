@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00198",
-	"slug": "מגנת",
-	"headword": {
-		"text": "מָגֶנֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָגֶנֶת",
+	"headwords": [
+		{
+			"text": "מָגֶנֶת"
+		},
 		{
 			"text": "מָגֶינֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 729,
 		"column": "b"

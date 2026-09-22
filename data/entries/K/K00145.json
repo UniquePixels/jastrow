@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00145",
-	"slug": "כדנון",
-	"headword": {
-		"text": "כִּדְנְוָן"
-	},
+	"sefariaHeadword": "כִּדְנְוָן",
+	"headwords": [
+		{
+			"text": "כִּדְנְוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

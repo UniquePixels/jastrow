@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02028",
-	"slug": "קריא-3",
-	"headword": {
-		"text": "קַרְיָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קַרְיָא III",
+	"headwords": [
+		{
+			"text": "קַרְיָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1419,
 		"column": "a"

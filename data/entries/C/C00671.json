@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00671",
-	"slug": "גיות",
-	"headword": {
-		"text": "גַּיּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּיּוּת",
+	"headwords": [
+		{
+			"text": "גַּיּוּת"
+		},
 		{
 			"text": "גַּיּוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "b"

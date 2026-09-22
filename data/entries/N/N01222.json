@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01222",
-	"slug": "נקלווס",
-	"headword": {
-		"text": "נִקְלְוָוס"
-	},
+	"sefariaHeadword": "נִקְלְוָוס",
+	"headwords": [
+		{
+			"text": "נִקְלְוָוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

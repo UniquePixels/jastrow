@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00823",
-	"slug": "אוציטילין",
-	"headword": {
-		"text": "אוציטילין"
-	},
+	"sefariaHeadword": "אוציטילין",
+	"headwords": [
+		{
+			"text": "אוציטילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

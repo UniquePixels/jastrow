@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01019",
-	"slug": "פלטין",
-	"headword": {
-		"text": "פַּלָּטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלָּטִין",
+	"headwords": [
+		{
+			"text": "פַּלָּטִין"
+		},
 		{
 			"text": "פַּלְטִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1179,
 		"column": "b"

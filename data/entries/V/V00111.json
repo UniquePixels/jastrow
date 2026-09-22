@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00111",
-	"slug": "תדירה",
-	"headword": {
-		"text": "תְּדִירָה"
-	},
+	"sefariaHeadword": "תְּדִירָה",
+	"headwords": [
+		{
+			"text": "תְּדִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1648,
 		"column": "a"

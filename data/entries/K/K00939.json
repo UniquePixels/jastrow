@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00939",
-	"slug": "כסכסייה",
-	"headword": {
-		"text": "כַּסְכְּסַיָּיה"
-	},
+	"sefariaHeadword": "כַּסְכְּסַיָּיה",
+	"headwords": [
+		{
+			"text": "כַּסְכְּסַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "b"

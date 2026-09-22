@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00371",
-	"slug": "צימדא",
-	"headword": {
-		"text": "צִימְדָּא"
-	},
+	"sefariaHeadword": "צִימְדָּא",
+	"headwords": [
+		{
+			"text": "צִימְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

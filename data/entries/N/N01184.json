@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01184",
-	"slug": "נקופא",
-	"headword": {
-		"text": "נְקוֹפָא"
-	},
+	"sefariaHeadword": "נְקוֹפָא",
+	"headwords": [
+		{
+			"text": "נְקוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

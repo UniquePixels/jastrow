@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02796",
-	"slug": "אפרא",
-	"headword": {
-		"text": "אֶפְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפְרָא II",
+	"headwords": [
+		{
+			"text": "אֶפְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "אֶפְרָה"
 		},
@@ -13,6 +14,7 @@
 			"text": "אֶיפְרָא"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 108,
 		"column": "a"

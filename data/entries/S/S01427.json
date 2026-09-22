@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01427",
-	"slug": "קלשונא",
-	"headword": {
-		"text": "קִלְשׁוֹנָא"
-	},
+	"sefariaHeadword": "קִלְשׁוֹנָא",
+	"headwords": [
+		{
+			"text": "קִלְשׁוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "a"

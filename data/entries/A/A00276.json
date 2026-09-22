@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00276",
-	"slug": "אגוף",
-	"headword": {
-		"text": "אָגוּף"
-	},
+	"sefariaHeadword": "אָגוּף",
+	"headwords": [
+		{
+			"text": "אָגוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

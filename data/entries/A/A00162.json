@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00162",
-	"slug": "אבלומוס",
-	"headword": {
-		"text": "אבלומוס"
-	},
+	"sefariaHeadword": "אבלומוס",
+	"headwords": [
+		{
+			"text": "אבלומוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "a"

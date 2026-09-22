@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01109",
-	"slug": "רשפא",
-	"headword": {
-		"text": "רִשְׁפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִשְׁפָּא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִשְׁפָּא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1502,
 		"column": "a"

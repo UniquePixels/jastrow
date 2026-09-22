@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00201",
-	"slug": "מגע",
-	"headword": {
-		"text": "מַגָּע"
-	},
+	"sefariaHeadword": "מַגָּע",
+	"headwords": [
+		{
+			"text": "מַגָּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "b"

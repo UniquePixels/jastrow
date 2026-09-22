@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00430",
-	"slug": "סוריסטין",
-	"headword": {
-		"text": "סוּרִיסְטִין"
-	},
+	"sefariaHeadword": "סוּרִיסְטִין",
+	"headwords": [
+		{
+			"text": "סוּרִיסְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00680",
-	"slug": "זרוק",
-	"headword": {
-		"text": "זְרוֹק"
-	},
+	"sefariaHeadword": "זְרוֹק",
+	"headwords": [
+		{
+			"text": "זְרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

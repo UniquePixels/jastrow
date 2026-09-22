@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00522",
-	"slug": "מומייקה",
-	"headword": {
-		"text": "מוּמְיָיקָה"
-	},
+	"sefariaHeadword": "מוּמְיָיקָה",
+	"headwords": [
+		{
+			"text": "מוּמְיָיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

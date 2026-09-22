@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "N00031",
-	"slug": "נאקה-2",
-	"headword": {
-		"text": "נְאָקָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְאָקָה II",
+	"headwords": [
+		{
+			"text": "נְאָקָה",
+			"homograph": 2
+		},
 		{
 			"text": "נָקָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אֲנָקָה"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 867,
 		"column": "a"

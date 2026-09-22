@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00527",
-	"slug": "גזוזרית",
-	"headword": {
-		"text": "גְּזוֹזְרִית"
-	},
+	"sefariaHeadword": "גְּזוֹזְרִית",
+	"headwords": [
+		{
+			"text": "גְּזוֹזְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

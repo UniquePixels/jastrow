@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00156",
-	"slug": "זוט",
-	"headword": {
-		"text": "זֶוֶט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֶוֶט",
+	"headwords": [
+		{
+			"text": "זֶוֶט"
+		},
 		{
 			"text": "זוּט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 385,
 		"column": "b"

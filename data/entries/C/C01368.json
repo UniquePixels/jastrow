@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01368",
-	"slug": "גרמסיון",
-	"headword": {
-		"text": "גרמסיון"
-	},
+	"sefariaHeadword": "גרמסיון",
+	"headwords": [
+		{
+			"text": "גרמסיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00264",
-	"slug": "כולבוס",
-	"headword": {
-		"text": "כּוּלְבּוּס"
-	},
+	"sefariaHeadword": "כּוּלְבּוּס",
+	"headwords": [
+		{
+			"text": "כּוּלְבּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "a"

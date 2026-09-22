@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02382",
-	"slug": "מקדין",
-	"headword": {
-		"text": "מקדין"
-	},
+	"sefariaHeadword": "מקדין",
+	"headwords": [
+		{
+			"text": "מקדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

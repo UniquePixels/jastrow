@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01179",
-	"slug": "חמים",
-	"headword": {
-		"text": "חַמִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמִּים",
+	"headwords": [
+		{
+			"text": "חַמִּים"
+		},
 		{
 			"text": "חַמִּימָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 477,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00673",
-	"slug": "פילוג-1",
-	"headword": {
-		"text": "פִּילּוּג"
-	},
+	"sefariaHeadword": "פִּילּוּג",
+	"headwords": [
+		{
+			"text": "פִּילּוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

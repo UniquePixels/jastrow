@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00896",
-	"slug": "מחלת",
-	"headword": {
-		"text": "מָחֲלַת"
-	},
+	"sefariaHeadword": "מָחֲלַת",
+	"headwords": [
+		{
+			"text": "מָחֲלַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

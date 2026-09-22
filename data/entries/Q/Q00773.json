@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00773",
-	"slug": "פיסתקא",
-	"headword": {
-		"text": "פִּיסְתְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסְתְּקָא",
+	"headwords": [
 		{
-			"text": "פִסְ׳"
+			"text": "פִּיסְתְּקָא"
+		},
+		{
+			"text": "פִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1168,
 		"column": "a"

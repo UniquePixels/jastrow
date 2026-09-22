@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00804",
-	"slug": "צרצור-1",
-	"headword": {
-		"text": "צִרְצוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִרְצוּר",
+	"headwords": [
 		{
-			"text": "צִירְ׳"
+			"text": "צִרְצוּר"
+		},
+		{
+			"text": "צִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1305,
 		"column": "a"

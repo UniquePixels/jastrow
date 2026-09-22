@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00185",
-	"slug": "הובדנא",
-	"headword": {
-		"text": "הוֹבְדָנָא"
-	},
+	"sefariaHeadword": "הוֹבְדָנָא",
+	"headwords": [
+		{
+			"text": "הוֹבְדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00592",
-	"slug": "מוקמנא",
-	"headword": {
-		"text": "מוֹקְמָנָא"
-	},
+	"sefariaHeadword": "מוֹקְמָנָא",
+	"headwords": [
+		{
+			"text": "מוֹקְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

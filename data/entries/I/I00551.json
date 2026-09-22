@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00551",
-	"slug": "טמיקא",
-	"headword": {
-		"text": "טַמְיָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַמְיָקָא",
+	"headwords": [
 		{
-			"text": "טִימְיָ׳"
+			"text": "טַמְיָקָא"
+		},
+		{
+			"text": "טִימְיָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 539,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01033",
-	"slug": "מטן",
-	"headword": {
-		"text": "מַטָּן"
-	},
+	"sefariaHeadword": "מַטָּן",
+	"headwords": [
+		{
+			"text": "מַטָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 769,
 		"column": "a"

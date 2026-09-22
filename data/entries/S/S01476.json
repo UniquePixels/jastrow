@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01476",
-	"slug": "קמלפי",
-	"headword": {
-		"text": "קמלפי"
-	},
+	"sefariaHeadword": "קמלפי",
+	"headwords": [
+		{
+			"text": "קמלפי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

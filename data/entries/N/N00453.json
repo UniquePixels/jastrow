@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00453",
-	"slug": "נזירותא",
-	"headword": {
-		"text": "נְזִירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְזִירוּתָא",
+	"headwords": [
+		{
+			"text": "נְזִירוּתָא"
+		},
 		{
 			"text": "נְזִירוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 892,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00559",
-	"slug": "אודייא",
-	"headword": {
-		"text": "אודייא"
-	},
+	"sefariaHeadword": "אודייא",
+	"headwords": [
+		{
+			"text": "אודייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

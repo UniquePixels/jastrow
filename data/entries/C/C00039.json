@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00039",
-	"slug": "גבב-1",
-	"headword": {
-		"text": "גָּבַב"
-	},
+	"sefariaHeadword": "גָּבַב",
+	"headwords": [
+		{
+			"text": "גָּבַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02687",
-	"slug": "מרירות",
-	"headword": {
-		"text": "מרירות"
-	},
+	"sefariaHeadword": "מרירות",
+	"headwords": [
+		{
+			"text": "מרירות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "b"

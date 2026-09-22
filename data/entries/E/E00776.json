@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "E00776",
-	"slug": "הפתקא-1",
-	"headword": {
-		"text": "הַפְתֵּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַפְתֵּקָא",
+	"headwords": [
 		{
-			"text": "הַפְתֵּי׳"
+			"text": "הַפְתֵּקָא"
 		},
 		{
-			"text": "הֶיפְתֵּי׳"
+			"text": "הַפְתֵּי׳",
+			"partial": true
+		},
+		{
+			"text": "הֶיפְתֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 363,
 		"column": "b"

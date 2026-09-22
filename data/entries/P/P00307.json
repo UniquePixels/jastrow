@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00307",
-	"slug": "עונש",
-	"headword": {
-		"text": "עוֹנֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹנֶשׁ",
+	"headwords": [
+		{
+			"text": "עוֹנֶשׁ"
+		},
 		{
 			"text": "עֹנֶשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1055,
 		"column": "a"

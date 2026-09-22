@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00946",
-	"slug": "אותינייה",
-	"headword": {
-		"text": "אותינייה"
-	},
+	"sefariaHeadword": "אותינייה",
+	"headwords": [
+		{
+			"text": "אותינייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

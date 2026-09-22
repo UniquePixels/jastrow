@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01228",
-	"slug": "גראין",
-	"headword": {
-		"text": "גַּרְאִין"
-	},
+	"sefariaHeadword": "גַּרְאִין",
+	"headwords": [
+		{
+			"text": "גַּרְאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "b"

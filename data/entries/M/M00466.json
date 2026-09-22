@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00466",
-	"slug": "מוטניא",
-	"headword": {
-		"text": "מוטניא"
-	},
+	"sefariaHeadword": "מוטניא",
+	"headwords": [
+		{
+			"text": "מוטניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "a"

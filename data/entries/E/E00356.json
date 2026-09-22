@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00356",
-	"slug": "היזרא",
-	"headword": {
-		"text": "הִיזְרָא"
-	},
+	"sefariaHeadword": "הִיזְרָא",
+	"headwords": [
+		{
+			"text": "הִיזְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "a"

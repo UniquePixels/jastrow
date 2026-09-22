@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02578",
-	"slug": "מרווית",
-	"headword": {
-		"text": "מַרְוִוית"
-	},
+	"sefariaHeadword": "מַרְוִוית",
+	"headwords": [
+		{
+			"text": "מַרְוִוית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

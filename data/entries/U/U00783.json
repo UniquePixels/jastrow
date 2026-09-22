@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00783",
-	"slug": "שיבאי",
-	"headword": {
-		"text": "שִׁיבַאי"
-	},
+	"sefariaHeadword": "שִׁיבַאי",
+	"headwords": [
+		{
+			"text": "שִׁיבַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "a"

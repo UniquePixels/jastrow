@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00231",
-	"slug": "סובייה",
-	"headword": {
-		"text": "סובייה"
-	},
+	"sefariaHeadword": "סובייה",
+	"headwords": [
+		{
+			"text": "סובייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

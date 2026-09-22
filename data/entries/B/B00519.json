@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00519",
-	"slug": "בטלון",
-	"headword": {
-		"text": "בִּטָּלוֹן"
-	},
+	"sefariaHeadword": "בִּטָּלוֹן",
+	"headwords": [
+		{
+			"text": "בִּטָּלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00459",
-	"slug": "טכטכא",
-	"headword": {
-		"text": "טכטכא"
-	},
+	"sefariaHeadword": "טכטכא",
+	"headwords": [
+		{
+			"text": "טכטכא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

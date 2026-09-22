@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00073",
-	"slug": "ועדה",
-	"headword": {
-		"text": "וְעָדָה"
-	},
+	"sefariaHeadword": "וְעָדָה",
+	"headwords": [
+		{
+			"text": "וְעָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

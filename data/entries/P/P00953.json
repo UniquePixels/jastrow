@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00953",
-	"slug": "ענו",
-	"headword": {
-		"text": "עָנָו"
-	},
+	"sefariaHeadword": "עָנָו",
+	"headwords": [
+		{
+			"text": "עָנָו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "a"

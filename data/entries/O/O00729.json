@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00729",
-	"slug": "סינדיקנוס",
-	"headword": {
-		"text": "סִינְדִּיקְנוֹס"
-	},
+	"sefariaHeadword": "סִינְדִּיקְנוֹס",
+	"headwords": [
+		{
+			"text": "סִינְדִּיקְנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

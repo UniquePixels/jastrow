@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00096",
-	"slug": "רבינא",
-	"headword": {
-		"text": "רָבִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָבִינָא",
+	"headwords": [
+		{
+			"text": "רָבִינָא"
+		},
 		{
 			"text": "רַבִּינָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1442,
 		"column": "b"

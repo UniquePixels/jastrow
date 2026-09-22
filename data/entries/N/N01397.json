@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "N01397",
-	"slug": "נתרא-2",
-	"headword": {
-		"text": "נִתְרָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִתְרָא ²",
+	"headwords": [
+		{
+			"text": "נִתְרָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "נִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 946,
 		"column": "b"

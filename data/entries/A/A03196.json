@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03196",
-	"slug": "ארנבתא",
-	"headword": {
-		"text": "אַרְנַבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְנַבְתָּא",
+	"headwords": [
+		{
+			"text": "אַרְנַבְתָּא"
+		},
 		{
 			"text": "אַרְנְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 123,
 		"column": "b"

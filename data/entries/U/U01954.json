@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01954",
-	"slug": "שרטון",
-	"headword": {
-		"text": "שֵׂרָטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׂרָטוֹן",
+	"headwords": [
 		{
-			"text": "שֵׂי׳"
+			"text": "שֵׂרָטוֹן"
+		},
+		{
+			"text": "שֵׂי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1629,
 		"column": "a"

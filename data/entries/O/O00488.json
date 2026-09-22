@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00488",
-	"slug": "סטים-1",
-	"headword": {
-		"text": "סְטֵים"
-	},
+	"sefariaHeadword": "סְטֵים",
+	"headwords": [
+		{
+			"text": "סְטֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

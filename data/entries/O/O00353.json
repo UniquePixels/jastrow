@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00353",
-	"slug": "סומקי",
-	"headword": {
-		"text": "סוּמְקִי"
-	},
+	"sefariaHeadword": "סוּמְקִי",
+	"headwords": [
+		{
+			"text": "סוּמְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01231",
-	"slug": "קל-3",
-	"headword": {
-		"text": "קַל",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַל III",
+	"headwords": [
+		{
+			"text": "קַל",
+			"homograph": 3
+		},
 		{
 			"text": "קָל",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "קָלָא"
 		}
 	],
+	"display": "{0} III, {1} I, {2}",
 	"page": {
 		"number": 1371,
 		"column": "b"

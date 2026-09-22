@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00015",
-	"slug": "פאניקנין",
-	"headword": {
-		"text": "פָּאנִיקְנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּאנִיקְנִין",
+	"headwords": [
+		{
+			"text": "פָּאנִיקְנִין"
+		},
 		{
 			"text": "פאנקין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1131,
 		"column": "b"

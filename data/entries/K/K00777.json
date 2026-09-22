@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00777",
-	"slug": "כלקורא",
-	"headword": {
-		"text": "כלקורא"
-	},
+	"sefariaHeadword": "כלקורא",
+	"headwords": [
+		{
+			"text": "כלקורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "b"

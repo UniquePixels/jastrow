@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01046",
-	"slug": "דרדיג",
-	"headword": {
-		"text": "דַּרְדֵּיג"
-	},
+	"sefariaHeadword": "דַּרְדֵּיג",
+	"headwords": [
+		{
+			"text": "דַּרְדֵּיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

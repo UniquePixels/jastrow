@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01250",
-	"slug": "סנסנה",
-	"headword": {
-		"text": "סַנְסִנָּה"
-	},
+	"sefariaHeadword": "סַנְסִנָּה",
+	"headwords": [
+		{
+			"text": "סַנְסִנָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "a"

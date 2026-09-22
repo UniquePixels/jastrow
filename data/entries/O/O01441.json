@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01441",
-	"slug": "סק-3",
-	"headword": {
-		"text": "סַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַק",
+	"headwords": [
+		{
+			"text": "סַק"
+		},
 		{
 			"text": "סַקָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1019,
 		"column": "a"

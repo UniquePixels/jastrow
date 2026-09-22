@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00197",
-	"slug": "דודאי",
-	"headword": {
-		"text": "דודאי"
-	},
+	"sefariaHeadword": "דודאי",
+	"headwords": [
+		{
+			"text": "דודאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

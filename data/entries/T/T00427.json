@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00427",
-	"slug": "רוץ",
-	"headword": {
-		"text": "רוּץ"
-	},
+	"sefariaHeadword": "רוּץ",
+	"headwords": [
+		{
+			"text": "רוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "a"

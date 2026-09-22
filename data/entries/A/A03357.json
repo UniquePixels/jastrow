@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03357",
-	"slug": "אשריותא",
-	"headword": {
-		"text": "אַשְּׁרָיוּתָא"
-	},
+	"sefariaHeadword": "אַשְּׁרָיוּתָא",
+	"headwords": [
+		{
+			"text": "אַשְּׁרָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

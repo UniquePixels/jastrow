@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00840",
-	"slug": "כנוי",
-	"headword": {
-		"text": "כִּנּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנּוּי",
+	"headwords": [
+		{
+			"text": "כִּנּוּי"
+		},
 		{
 			"text": "כִּנּוּיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 648,
 		"column": "a"

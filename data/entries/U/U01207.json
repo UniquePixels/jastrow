@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01207",
-	"slug": "שלברית",
-	"headword": {
-		"text": "שלברית"
-	},
+	"sefariaHeadword": "שלברית",
+	"headwords": [
+		{
+			"text": "שלברית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

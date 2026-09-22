@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00838",
-	"slug": "גירקררין",
-	"headword": {
-		"text": "גִּירְקְרָרִין"
-	},
+	"sefariaHeadword": "גִּירְקְרָרִין",
+	"headwords": [
+		{
+			"text": "גִּירְקְרָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

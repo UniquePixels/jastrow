@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00563",
-	"slug": "מופיון",
-	"headword": {
-		"text": "מופיון"
-	},
+	"sefariaHeadword": "מופיון",
+	"headwords": [
+		{
+			"text": "מופיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "a"

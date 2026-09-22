@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02582",
-	"slug": "מרוטה",
-	"headword": {
-		"text": "מְרוּטָה"
-	},
+	"sefariaHeadword": "מְרוּטָה",
+	"headwords": [
+		{
+			"text": "מְרוּטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

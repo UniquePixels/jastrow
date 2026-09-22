@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01581",
-	"slug": "חרב-5",
-	"headword": {
-		"text": "חֶרֶב"
-	},
+	"sefariaHeadword": "חֶרֶב",
+	"headwords": [
+		{
+			"text": "חֶרֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "a"

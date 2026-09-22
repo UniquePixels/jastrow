@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00033",
-	"slug": "יבבה",
-	"headword": {
-		"text": "יַבָּבָה"
-	},
+	"sefariaHeadword": "יַבָּבָה",
+	"headwords": [
+		{
+			"text": "יַבָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

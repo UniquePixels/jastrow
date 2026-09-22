@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00856",
-	"slug": "אורדעה",
-	"headword": {
-		"text": "אוּרְדְּעָה"
-	},
+	"sefariaHeadword": "אוּרְדְּעָה",
+	"headwords": [
+		{
+			"text": "אוּרְדְּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

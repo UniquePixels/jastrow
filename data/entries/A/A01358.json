@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01358",
-	"slug": "אימתי",
-	"headword": {
-		"text": "אֵימָתַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵימָתַי",
+	"headwords": [
+		{
+			"text": "אֵימָתַי"
+		},
 		{
 			"text": "אִימַתִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 52,
 		"column": "a"

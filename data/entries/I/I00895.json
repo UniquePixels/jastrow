@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00895",
-	"slug": "טרקטא",
-	"headword": {
-		"text": "טְרַקְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרַקְטָא",
+	"headwords": [
+		{
+			"text": "טְרַקְטָא"
+		},
 		{
 			"text": "טְרַקְטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 558,
 		"column": "a"

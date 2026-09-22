@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01000",
-	"slug": "דקור",
-	"headword": {
-		"text": "דָּקוֹר"
-	},
+	"sefariaHeadword": "דָּקוֹר",
+	"headwords": [
+		{
+			"text": "דָּקוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

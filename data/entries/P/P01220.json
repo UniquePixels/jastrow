@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01220",
-	"slug": "עקרבא-1",
-	"headword": {
-		"text": "עַקְרַבָּא"
-	},
+	"sefariaHeadword": "עַקְרַבָּא",
+	"headwords": [
+		{
+			"text": "עַקְרַבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"

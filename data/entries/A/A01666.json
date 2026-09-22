@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01666",
-	"slug": "אכבא",
-	"headword": {
-		"text": "אַכָּבָא"
-	},
+	"sefariaHeadword": "אַכָּבָא",
+	"headwords": [
+		{
+			"text": "אַכָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

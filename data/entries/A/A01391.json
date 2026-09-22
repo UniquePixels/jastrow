@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01391",
-	"slug": "אינקא",
-	"headword": {
-		"text": "אִינְקָא"
-	},
+	"sefariaHeadword": "אִינְקָא",
+	"headwords": [
+		{
+			"text": "אִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 53,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00273",
-	"slug": "מדור-1",
-	"headword": {
-		"text": "מָדוֹר"
-	},
+	"sefariaHeadword": "מָדוֹר",
+	"headwords": [
+		{
+			"text": "מָדוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

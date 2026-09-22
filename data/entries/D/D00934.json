@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00934",
-	"slug": "דנקא",
-	"headword": {
-		"text": "דַּנְקָא"
-	},
+	"sefariaHeadword": "דַּנְקָא",
+	"headwords": [
+		{
+			"text": "דַּנְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

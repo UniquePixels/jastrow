@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00632",
-	"slug": "חטייה",
-	"headword": {
-		"text": "חִטַּיָּיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִטַּיָּיה",
+	"headwords": [
 		{
-			"text": "כפר חִטַּיָּיה"
+			"text": "חִטַּיָּיה"
+		},
+		{
+			"text": "כפר ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 449,
 		"column": "b"

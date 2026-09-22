@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02076",
-	"slug": "אמתלא",
-	"headword": {
-		"text": "אֲמַתְלָא"
-	},
+	"sefariaHeadword": "אֲמַתְלָא",
+	"headwords": [
+		{
+			"text": "אֲמַתְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

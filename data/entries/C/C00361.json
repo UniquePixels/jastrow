@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00361",
-	"slug": "גויה-1",
-	"headword": {
-		"text": "גויה"
-	},
+	"sefariaHeadword": "גויה",
+	"headwords": [
+		{
+			"text": "גויה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

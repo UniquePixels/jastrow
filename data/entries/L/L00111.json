@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00111",
-	"slug": "לבנן",
-	"headword": {
-		"text": "לבְנָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לבְנָן",
+	"headwords": [
 		{
-			"text": "לִיבְ׳"
+			"text": "לבְנָן"
+		},
+		{
+			"text": "לִיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "a"

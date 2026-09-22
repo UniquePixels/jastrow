@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00675",
-	"slug": "שחמתית",
-	"headword": {
-		"text": "שְׁחַמְתִּית"
-	},
+	"sefariaHeadword": "שְׁחַמְתִּית",
+	"headwords": [
+		{
+			"text": "שְׁחַמְתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1549,
 		"column": "a"

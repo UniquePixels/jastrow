@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00787",
-	"slug": "תעני",
-	"headword": {
-		"text": "תַּעֲנִי"
-	},
+	"sefariaHeadword": "תַּעֲנִי",
+	"headwords": [
+		{
+			"text": "תַּעֲנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "a"

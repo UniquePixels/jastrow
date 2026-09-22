@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01999",
-	"slug": "קרטיות",
-	"headword": {
-		"text": "קרטיות"
-	},
+	"sefariaHeadword": "קרטיות",
+	"headwords": [
+		{
+			"text": "קרטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

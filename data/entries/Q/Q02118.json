@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02118",
-	"slug": "פתאום",
-	"headword": {
-		"text": "פִּתְאוֹם"
-	},
+	"sefariaHeadword": "פִּתְאוֹם",
+	"headwords": [
+		{
+			"text": "פִּתְאוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00351",
-	"slug": "לחינתא",
-	"headword": {
-		"text": "לְחֵינְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחֵינְתָא",
+	"headwords": [
+		{
+			"text": "לְחֵינְתָא"
+		},
 		{
 			"text": "לְחֵנְתָא"
 		},
 		{
-			"text": "לְחֵינָ׳"
+			"text": "לְחֵינָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 703,
 		"column": "a"

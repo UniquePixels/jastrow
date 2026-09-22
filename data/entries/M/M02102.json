@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02102",
-	"slug": "מעטפת",
-	"headword": {
-		"text": "מַעֲטֶפֶת"
-	},
+	"sefariaHeadword": "מַעֲטֶפֶת",
+	"headwords": [
+		{
+			"text": "מַעֲטֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

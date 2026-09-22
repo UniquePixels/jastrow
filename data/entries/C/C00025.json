@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00025",
-	"slug": "גאלקי",
-	"headword": {
-		"text": "גאלקי"
-	},
+	"sefariaHeadword": "גאלקי",
+	"headwords": [
+		{
+			"text": "גאלקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

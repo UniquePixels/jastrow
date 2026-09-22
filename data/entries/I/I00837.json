@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00837",
-	"slug": "טרכסימון",
-	"headword": {
-		"text": "טְרַכְסִימוֹן"
-	},
+	"sefariaHeadword": "טְרַכְסִימוֹן",
+	"headwords": [
+		{
+			"text": "טְרַכְסִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

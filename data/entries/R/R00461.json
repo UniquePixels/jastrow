@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00461",
-	"slug": "צירניא",
-	"headword": {
-		"text": "צירניא"
-	},
+	"sefariaHeadword": "צירניא",
+	"headwords": [
+		{
+			"text": "צירניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

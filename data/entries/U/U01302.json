@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01302",
-	"slug": "שליה",
-	"headword": {
-		"text": "שִׁלְיָה"
-	},
+	"sefariaHeadword": "שִׁלְיָה",
+	"headwords": [
+		{
+			"text": "שִׁלְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "a"

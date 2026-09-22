@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00819",
-	"slug": "עלם-2",
-	"headword": {
-		"text": "עֲלֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלֵם",
+	"headwords": [
+		{
+			"text": "עֲלֵם"
+		},
 		{
 			"text": "עֲלֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1084,
 		"column": "a"

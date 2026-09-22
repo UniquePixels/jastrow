@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01494",
-	"slug": "מלוא-3",
-	"headword": {
-		"text": "מִלּוּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלּוּא",
+	"headwords": [
+		{
+			"text": "מִלּוּא"
+		},
 		{
 			"text": "מִילּוּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 787,
 		"column": "a"

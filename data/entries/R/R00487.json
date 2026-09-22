@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00487",
-	"slug": "צלהובא",
-	"headword": {
-		"text": "צַלְהוֹבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַלְהוֹבָא",
+	"headwords": [
 		{
-			"text": "צִלְהוּ׳"
+			"text": "צַלְהוֹבָא"
+		},
+		{
+			"text": "צִלְהוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1282,
 		"column": "b"

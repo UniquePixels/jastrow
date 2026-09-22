@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00908",
-	"slug": "הרתת",
-	"headword": {
-		"text": "הרתת"
-	},
+	"sefariaHeadword": "הרתת",
+	"headwords": [
+		{
+			"text": "הרתת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

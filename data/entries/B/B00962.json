@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00962",
-	"slug": "בנס",
-	"headword": {
-		"text": "בְּנַס"
-	},
+	"sefariaHeadword": "בְּנַס",
+	"headwords": [
+		{
+			"text": "בְּנַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

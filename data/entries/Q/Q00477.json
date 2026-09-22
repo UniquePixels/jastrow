@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00477",
-	"slug": "פחלין",
-	"headword": {
-		"text": "פַּחְלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּחְלִין",
+	"headwords": [
+		{
+			"text": "פַּחְלִין"
+		},
 		{
 			"text": "פֶּחָלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1152,
 		"column": "b"

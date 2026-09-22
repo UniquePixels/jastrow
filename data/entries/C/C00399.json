@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00399",
-	"slug": "גולמא",
-	"headword": {
-		"text": "גּוֹלְמָא"
-	},
+	"sefariaHeadword": "גּוֹלְמָא",
+	"headwords": [
+		{
+			"text": "גּוֹלְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "a"

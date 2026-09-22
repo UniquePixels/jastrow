@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01339",
-	"slug": "קליסטנר",
-	"headword": {
-		"text": "קְלִיסְטַנְרִ־"
-	},
+	"sefariaHeadword": "קְלִיסְטַנְרִ־",
+	"headwords": [
+		{
+			"text": "קְלִיסְטַנְרִ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00049",
-	"slug": "בב-1",
-	"headword": {
-		"text": "בָּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּב",
+	"headwords": [
+		{
+			"text": "בָּב"
+		},
 		{
 			"text": "בָּאב"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 136,
 		"column": "a"

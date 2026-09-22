@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02807",
-	"slug": "משבחא",
-	"headword": {
-		"text": "מְשַׁבְּחָא"
-	},
+	"sefariaHeadword": "מְשַׁבְּחָא",
+	"headwords": [
+		{
+			"text": "מְשַׁבְּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "a"

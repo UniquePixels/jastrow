@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00572",
-	"slug": "עילוי-1",
-	"headword": {
-		"text": "עִילָוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילָוֵי",
+	"headwords": [
+		{
+			"text": "עִילָוֵי"
+		},
 		{
 			"text": "עִילַוֵּי"
 		},
 		{
-			"text": "עֲלַ׳"
+			"text": "עֲלַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1070,
 		"column": "a"

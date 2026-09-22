@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00263",
-	"slug": "חודקי",
-	"headword": {
-		"text": "חוּדְקִי"
-	},
+	"sefariaHeadword": "חוּדְקִי",
+	"headwords": [
+		{
+			"text": "חוּדְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

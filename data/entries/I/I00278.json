@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00278",
-	"slug": "טטפראות",
-	"headword": {
-		"text": "טֹטַפְרָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֹטַפְרָאוֹת",
+	"headwords": [
 		{
-			"text": "טוֹטַ׳"
+			"text": "טֹטַפְרָאוֹת"
+		},
+		{
+			"text": "טוֹטַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 528,
 		"column": "b"

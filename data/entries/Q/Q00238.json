@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00238",
-	"slug": "פולמוסטוס",
-	"headword": {
-		"text": "פולמוסטוס"
-	},
+	"sefariaHeadword": "פולמוסטוס",
+	"headwords": [
+		{
+			"text": "פולמוסטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

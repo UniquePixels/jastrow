@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00311",
-	"slug": "לופתא",
-	"headword": {
-		"text": "לוֹפָתָא"
-	},
+	"sefariaHeadword": "לוֹפָתָא",
+	"headwords": [
+		{
+			"text": "לוֹפָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "b"

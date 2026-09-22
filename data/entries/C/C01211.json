@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01211",
-	"slug": "גפף-1",
-	"headword": {
-		"text": "גָּפַף"
-	},
+	"sefariaHeadword": "גָּפַף",
+	"headwords": [
+		{
+			"text": "גָּפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

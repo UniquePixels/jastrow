@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00467",
-	"slug": "סחר-3",
-	"headword": {
-		"text": "סַחַר"
-	},
+	"sefariaHeadword": "סַחַר",
+	"headwords": [
+		{
+			"text": "סַחַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "b"

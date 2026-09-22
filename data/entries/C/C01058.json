@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01058",
-	"slug": "גמניא",
-	"headword": {
-		"text": "גמניא"
-	},
+	"sefariaHeadword": "גמניא",
+	"headwords": [
+		{
+			"text": "גמניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00386",
-	"slug": "זינקא",
-	"headword": {
-		"text": "זִינְקָא"
-	},
+	"sefariaHeadword": "זִינְקָא",
+	"headwords": [
+		{
+			"text": "זִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

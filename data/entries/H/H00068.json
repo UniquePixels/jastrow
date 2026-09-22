@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00068",
-	"slug": "חבילה",
-	"headword": {
-		"text": "חֲבִילָה"
-	},
+	"sefariaHeadword": "חֲבִילָה",
+	"headwords": [
+		{
+			"text": "חֲבִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "a"

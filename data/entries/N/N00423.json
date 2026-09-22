@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00423",
-	"slug": "נושקתא",
-	"headword": {
-		"text": "נוּשְׁקְתָא"
-	},
+	"sefariaHeadword": "נוּשְׁקְתָא",
+	"headwords": [
+		{
+			"text": "נוּשְׁקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

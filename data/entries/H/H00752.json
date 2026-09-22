@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00752",
-	"slug": "חיכא",
-	"headword": {
-		"text": "חִיכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיכָּא",
+	"headwords": [
+		{
+			"text": "חִיכָּא"
+		},
 		{
 			"text": "חִכָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 455,
 		"column": "b"

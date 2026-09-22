@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00610",
-	"slug": "ביכורה",
-	"headword": {
-		"text": "בִּיכּוּרָה"
-	},
+	"sefariaHeadword": "בִּיכּוּרָה",
+	"headwords": [
+		{
+			"text": "בִּיכּוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00434",
-	"slug": "חוצל",
-	"headword": {
-		"text": "חוֹצֵל"
-	},
+	"sefariaHeadword": "חוֹצֵל",
+	"headwords": [
+		{
+			"text": "חוֹצֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "a"

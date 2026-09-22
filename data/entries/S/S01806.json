@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01806",
-	"slug": "קצי-2",
-	"headword": {
-		"text": "קְצֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְצֵי",
+	"headwords": [
+		{
+			"text": "קְצֵי"
+		},
 		{
 			"text": "קְצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1405,
 		"column": "a"

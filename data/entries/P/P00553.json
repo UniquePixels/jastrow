@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00553",
-	"slug": "עייני",
-	"headword": {
-		"text": "עַיְינֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַיְינֵי",
+	"headwords": [
 		{
-			"text": "עַיְינֵי טַב"
+			"text": "עַיְינֵי"
+		},
+		{
+			"text": "ע׳ טַב",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1069,
 		"column": "a"

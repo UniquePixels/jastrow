@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00932",
-	"slug": "עמרא",
-	"headword": {
-		"text": "עָמְרָא"
-	},
+	"sefariaHeadword": "עָמְרָא",
+	"headwords": [
+		{
+			"text": "עָמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

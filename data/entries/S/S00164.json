@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00164",
-	"slug": "קדקד-1",
-	"headword": {
-		"text": "קַדְקַד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַדְקַד",
+	"headwords": [
+		{
+			"text": "קַדְקַד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1317,
 		"column": "b"

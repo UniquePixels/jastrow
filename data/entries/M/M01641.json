@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01641",
-	"slug": "מלתין",
-	"headword": {
-		"text": "מֵלְתִין"
-	},
+	"sefariaHeadword": "מֵלְתִין",
+	"headwords": [
+		{
+			"text": "מֵלְתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

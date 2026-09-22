@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00873",
-	"slug": "אורח-2",
-	"headword": {
-		"text": "אוֹרַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹרַח",
+	"headwords": [
+		{
+			"text": "אוֹרַח"
+		},
 		{
 			"text": "אוֹרְחָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אָרְחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 33,
 		"column": "b"

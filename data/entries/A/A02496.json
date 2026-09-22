@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02496",
-	"slug": "אספלידא",
-	"headword": {
-		"text": "אִסְפְּלִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפְּלִידָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְפְּלִידָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 95,
 		"column": "b"

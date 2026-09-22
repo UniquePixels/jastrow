@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00737",
-	"slug": "גילשל׳",
-	"headword": {
-		"text": "גילשל׳"
-	},
+	"sefariaHeadword": "גילשל׳",
+	"headwords": [
+		{
+			"text": "גילשל׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

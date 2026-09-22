@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00926",
-	"slug": "במוסא",
-	"headword": {
-		"text": "בָּמוֹסָא"
-	},
+	"sefariaHeadword": "בָּמוֹסָא",
+	"headwords": [
+		{
+			"text": "בָּמוֹסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

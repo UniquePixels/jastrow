@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00441",
-	"slug": "דטסים",
-	"headword": {
-		"text": "דטסים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דטסים",
+	"headwords": [
+		{
+			"text": "דטסים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 293,
 		"column": "b"

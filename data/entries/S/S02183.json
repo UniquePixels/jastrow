@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02183",
-	"slug": "קרקר-3",
-	"headword": {
-		"text": "קִרְקֵר",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קִרְקֵר III",
+	"headwords": [
+		{
+			"text": "קִרְקֵר",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1427,
 		"column": "a"

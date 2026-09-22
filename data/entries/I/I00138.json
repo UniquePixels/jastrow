@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00138",
-	"slug": "טוות-1",
-	"headword": {
-		"text": "טְוָות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְוָות",
+	"headwords": [
+		{
+			"text": "טְוָות"
+		},
 		{
 			"text": "טְוָת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "b"

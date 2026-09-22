@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01658",
-	"slug": "איתנכו",
-	"headword": {
-		"text": "אִיתְנְכוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתְנְכוּ",
+	"headwords": [
+		{
+			"text": "אִיתְנְכוּ"
+		},
 		{
 			"text": "אִיתְנָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "a"

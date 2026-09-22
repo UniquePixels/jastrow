@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00682",
-	"slug": "תמיר",
-	"headword": {
-		"text": "תמיר"
-	},
+	"sefariaHeadword": "תמיר",
+	"headwords": [
+		{
+			"text": "תמיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

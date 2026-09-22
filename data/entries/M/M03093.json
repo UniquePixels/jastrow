@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03093",
-	"slug": "מתנים",
-	"headword": {
-		"text": "מָתְנַיִם"
-	},
+	"sefariaHeadword": "מָתְנַיִם",
+	"headwords": [
+		{
+			"text": "מָתְנַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "a"

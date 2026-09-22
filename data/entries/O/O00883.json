@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00883",
-	"slug": "סכום-1",
-	"headword": {
-		"text": "סְכוֹם"
-	},
+	"sefariaHeadword": "סְכוֹם",
+	"headwords": [
+		{
+			"text": "סְכוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

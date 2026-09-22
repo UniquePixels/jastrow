@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00052",
-	"slug": "גבהותא",
-	"headword": {
-		"text": "גַּבְהוּתָא"
-	},
+	"sefariaHeadword": "גַּבְהוּתָא",
+	"headwords": [
+		{
+			"text": "גַּבְהוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00207",
-	"slug": "נדבך-1",
-	"headword": {
-		"text": "נִדְבָּךְ"
-	},
+	"sefariaHeadword": "נִדְבָּךְ",
+	"headwords": [
+		{
+			"text": "נִדְבָּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 877,
 		"column": "b"

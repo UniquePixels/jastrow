@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00268",
-	"slug": "שדיא-1",
-	"headword": {
-		"text": "שַׁדְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שַׁדְיָא I",
+	"headwords": [
+		{
+			"text": "שַׁדְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1524,
 		"column": "b"

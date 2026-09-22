@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01033",
-	"slug": "קינוקנות",
-	"headword": {
-		"text": "קִינוֹקְנוֹת"
-	},
+	"sefariaHeadword": "קִינוֹקְנוֹת",
+	"headwords": [
+		{
+			"text": "קִינוֹקְנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

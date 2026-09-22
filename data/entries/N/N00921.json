@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00921",
-	"slug": "נסורת",
-	"headword": {
-		"text": "נְסוֹרֶת"
-	},
+	"sefariaHeadword": "נְסוֹרֶת",
+	"headwords": [
+		{
+			"text": "נְסוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 915,
 		"column": "b"

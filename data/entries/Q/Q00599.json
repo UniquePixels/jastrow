@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00599",
-	"slug": "פיוטות",
-	"headword": {
-		"text": "פַּיּוֹטוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּיּוֹטוֹת",
+	"headwords": [
 		{
-			"text": "פַּיּיוֹ׳"
+			"text": "פַּיּוֹטוֹת"
+		},
+		{
+			"text": "פַּיּיוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1160,
 		"column": "a"

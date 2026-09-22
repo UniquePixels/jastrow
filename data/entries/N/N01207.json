@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01207",
-	"slug": "נקיטא",
-	"headword": {
-		"text": "נְקִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקִיטָא",
+	"headwords": [
+		{
+			"text": "נְקִיטָא"
+		},
 		{
 			"text": "נְקִיטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"

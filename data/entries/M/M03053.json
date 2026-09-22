@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03053",
-	"slug": "מתיין",
-	"headword": {
-		"text": "מַתְיַין"
-	},
+	"sefariaHeadword": "מַתְיַין",
+	"headwords": [
+		{
+			"text": "מַתְיַין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00651",
-	"slug": "מוריפת",
-	"headword": {
-		"text": "מוֹרִיפַת"
-	},
+	"sefariaHeadword": "מוֹרִיפַת",
+	"headwords": [
+		{
+			"text": "מוֹרִיפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "a"

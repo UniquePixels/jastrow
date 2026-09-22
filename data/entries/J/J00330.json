@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00330",
-	"slug": "ייכא",
-	"headword": {
-		"text": "ייכא"
-	},
+	"sefariaHeadword": "ייכא",
+	"headwords": [
+		{
+			"text": "ייכא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

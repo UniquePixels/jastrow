@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00464",
-	"slug": "צירעא",
-	"headword": {
-		"text": "צִירְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִירְעָא",
+	"headwords": [
+		{
+			"text": "צִירְעָא"
+		},
 		{
 			"text": "צִירְעָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "צִירְצוּר"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1281,
 		"column": "b"

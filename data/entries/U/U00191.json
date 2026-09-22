@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00191",
-	"slug": "שבשב-2",
-	"headword": {
-		"text": "שַׁבְשֵׁב"
-	},
+	"sefariaHeadword": "שַׁבְשֵׁב",
+	"headwords": [
+		{
+			"text": "שַׁבְשֵׁב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1519,
 		"column": "a"

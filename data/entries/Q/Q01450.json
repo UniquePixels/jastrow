@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01450",
-	"slug": "פקד-2",
-	"headword": {
-		"text": "פְּקַד"
-	},
+	"sefariaHeadword": "פְּקַד",
+	"headwords": [
+		{
+			"text": "פְּקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00266",
-	"slug": "מדוכה",
-	"headword": {
-		"text": "מְדוֹכָה"
-	},
+	"sefariaHeadword": "מְדוֹכָה",
+	"headwords": [
+		{
+			"text": "מְדוֹכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

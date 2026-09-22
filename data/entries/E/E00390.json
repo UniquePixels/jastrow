@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00390",
-	"slug": "הילא-2",
-	"headword": {
-		"text": "הִילָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הִילָא II",
+	"headwords": [
+		{
+			"text": "הִילָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 346,
 		"column": "a"

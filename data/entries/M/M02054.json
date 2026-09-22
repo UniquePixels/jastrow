@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02054",
-	"slug": "מעביות",
-	"headword": {
-		"text": "מעביות"
-	},
+	"sefariaHeadword": "מעביות",
+	"headwords": [
+		{
+			"text": "מעביות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

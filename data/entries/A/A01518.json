@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01518",
-	"slug": "איסתוורא",
-	"headword": {
-		"text": "אִיסְתְּוָורָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְתְּוָורָא",
+	"headwords": [
+		{
+			"text": "אִיסְתְּוָורָא"
+		},
 		{
 			"text": "אִיסְתְּוִירָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אִיסְתַּוְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 57,
 		"column": "b"

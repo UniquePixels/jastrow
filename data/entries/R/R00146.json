@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00146",
-	"slug": "צהרא",
-	"headword": {
-		"text": "צִהֲרָא"
-	},
+	"sefariaHeadword": "צִהֲרָא",
+	"headwords": [
+		{
+			"text": "צִהֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "a"

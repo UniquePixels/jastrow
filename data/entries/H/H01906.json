@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01906",
-	"slug": "חתנות",
-	"headword": {
-		"text": "חֲתָנוּת"
-	},
+	"sefariaHeadword": "חֲתָנוּת",
+	"headwords": [
+		{
+			"text": "חֲתָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 514,
 		"column": "b"

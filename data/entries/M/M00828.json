@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00828",
-	"slug": "מחול",
-	"headword": {
-		"text": "מָחוֹל"
-	},
+	"sefariaHeadword": "מָחוֹל",
+	"headwords": [
+		{
+			"text": "מָחוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

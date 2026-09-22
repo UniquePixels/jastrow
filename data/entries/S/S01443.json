@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01443",
-	"slug": "קמה-2",
-	"headword": {
-		"text": "קָמָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָמָה ²",
+	"headwords": [
+		{
+			"text": "קָמָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "קָמַה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1384,
 		"column": "a"

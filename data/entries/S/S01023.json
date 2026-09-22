@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01023",
-	"slug": "קינדים",
-	"headword": {
-		"text": "קינדים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קינדים",
+	"headwords": [
+		{
+			"text": "קינדים"
+		},
 		{
 			"text": "קינדס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1362,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00578",
-	"slug": "חט-4",
-	"headword": {
-		"text": "חָט",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חָט ²",
+	"headwords": [
+		{
+			"text": "חָט",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 447,
 		"column": "a"

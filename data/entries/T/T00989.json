@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00989",
-	"slug": "רציצא",
-	"headword": {
-		"text": "רְצִיצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְצִיצָא",
+	"headwords": [
+		{
+			"text": "רְצִיצָא"
+		},
 		{
 			"text": "רְצִיצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1494,
 		"column": "b"

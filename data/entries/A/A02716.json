@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02716",
-	"slug": "אפיקירוס",
-	"headword": {
-		"text": "אֲפִיקֵירוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲפִיקֵירוֹס",
+	"headwords": [
+		{
+			"text": "אֲפִיקֵירוֹס"
+		},
 		{
 			"text": "אֲפִיקֶרֶס"
 		},
@@ -12,12 +13,10 @@
 			"text": "אַפְקֵירוֹס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 104,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

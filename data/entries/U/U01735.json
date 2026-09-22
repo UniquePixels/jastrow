@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01735",
-	"slug": "שפי-2",
-	"headword": {
-		"text": "שְׁפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁפֵי",
+	"headwords": [
+		{
+			"text": "שְׁפֵי"
+		},
 		{
 			"text": "שְׁפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1615,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02172",
-	"slug": "קרקסיון",
-	"headword": {
-		"text": "קִרְקַסְיוֹן"
-	},
+	"sefariaHeadword": "קִרְקַסְיוֹן",
+	"headwords": [
+		{
+			"text": "קִרְקַסְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

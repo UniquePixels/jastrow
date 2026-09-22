@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02103",
-	"slug": "מעי",
-	"headword": {
-		"text": "מְעִי"
-	},
+	"sefariaHeadword": "מְעִי",
+	"headwords": [
+		{
+			"text": "מְעִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

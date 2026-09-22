@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02901",
-	"slug": "משכון-2",
-	"headword": {
-		"text": "מַשְׁכּוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁכּוֹן ²",
+	"headwords": [
+		{
+			"text": "מַשְׁכּוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַשְׁכּוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 854,
 		"column": "b"

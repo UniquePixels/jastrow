@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01569",
-	"slug": "פרגמטיא",
-	"headword": {
-		"text": "פְּרַגְמַטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַגְמַטְיָא",
+	"headwords": [
 		{
-			"text": "פְּרַקְ׳"
+			"text": "פְּרַגְמַטְיָא"
+		},
+		{
+			"text": "פְּרַקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1214,
 		"column": "b"

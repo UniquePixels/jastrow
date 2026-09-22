@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O01028",
-	"slug": "סלקא-1",
-	"headword": {
-		"text": "סִלְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִלְקָא",
+	"headwords": [
+		{
+			"text": "סִלְקָא"
+		},
 		{
 			"text": "סִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 997,
 		"column": "b"

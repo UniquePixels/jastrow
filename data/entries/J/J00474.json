@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00474",
-	"slug": "יעא-2",
-	"headword": {
-		"text": "יָעָא"
-	},
+	"sefariaHeadword": "יָעָא",
+	"headwords": [
+		{
+			"text": "יָעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 583,
 		"column": "b"

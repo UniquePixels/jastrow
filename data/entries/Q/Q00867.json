@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00867",
-	"slug": "פירנס",
-	"headword": {
-		"text": "פירנס"
-	},
+	"sefariaHeadword": "פירנס",
+	"headwords": [
+		{
+			"text": "פירנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

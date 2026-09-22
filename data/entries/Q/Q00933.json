@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00933",
-	"slug": "פלבל",
-	"headword": {
-		"text": "פִּלְבֵּל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פִּלְבֵּל",
+	"headwords": [
+		{
+			"text": "פִּלְבֵּל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1175,
 		"column": "a"

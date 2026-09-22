@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01922",
-	"slug": "אלנטיאות",
-	"headword": {
-		"text": "אלנטיאות"
-	},
+	"sefariaHeadword": "אלנטיאות",
+	"headwords": [
+		{
+			"text": "אלנטיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "a"

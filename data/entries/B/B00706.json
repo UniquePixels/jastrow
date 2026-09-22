@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00706",
-	"slug": "בירוון",
-	"headword": {
-		"text": "בִּירוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּירוָון",
+	"headwords": [
+		{
+			"text": "בִּירוָון"
+		},
 		{
 			"text": "בִּרְוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 165,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00685",
-	"slug": "צפורה-2",
-	"headword": {
-		"text": "צפורה"
-	},
+	"sefariaHeadword": "צפורה",
+	"headwords": [
+		{
+			"text": "צפורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1296,
 		"column": "a"

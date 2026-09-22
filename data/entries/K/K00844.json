@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00844",
-	"slug": "כנוס",
-	"headword": {
-		"text": "כִּנּוּס"
-	},
+	"sefariaHeadword": "כִּנּוּס",
+	"headwords": [
+		{
+			"text": "כִּנּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "b"

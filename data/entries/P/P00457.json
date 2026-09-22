@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00457",
-	"slug": "עטל",
-	"headword": {
-		"text": "עָטַל"
-	},
+	"sefariaHeadword": "עָטַל",
+	"headwords": [
+		{
+			"text": "עָטַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

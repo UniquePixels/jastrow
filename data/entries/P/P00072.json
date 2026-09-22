@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00072",
-	"slug": "עברי-2",
-	"headword": {
-		"text": "עִבְרַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִבְרַי",
+	"headwords": [
+		{
+			"text": "עִבְרַי"
+		},
 		{
 			"text": "עִבְרַאי"
 		},
@@ -12,9 +13,11 @@
 			"text": "עִבְרָאָה"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1040,
 		"column": "b"

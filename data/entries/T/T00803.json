@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00803",
-	"slug": "רמז-3",
-	"headword": {
-		"text": "רֶמֶז"
-	},
+	"sefariaHeadword": "רֶמֶז",
+	"headwords": [
+		{
+			"text": "רֶמֶז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1482,
 		"column": "a"

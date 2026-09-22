@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01375",
-	"slug": "נתינות",
-	"headword": {
-		"text": "נְתִינוּת"
-	},
+	"sefariaHeadword": "נְתִינוּת",
+	"headwords": [
+		{
+			"text": "נְתִינוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "a"

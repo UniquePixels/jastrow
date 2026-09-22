@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02094",
-	"slug": "קרמיד",
-	"headword": {
-		"text": "קַרְמִיד"
-	},
+	"sefariaHeadword": "קַרְמִיד",
+	"headwords": [
+		{
+			"text": "קַרְמִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1422,
 		"column": "a"

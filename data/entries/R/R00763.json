@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00763",
-	"slug": "צריא",
-	"headword": {
-		"text": "צִרְיָא"
-	},
+	"sefariaHeadword": "צִרְיָא",
+	"headwords": [
+		{
+			"text": "צִרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "a"

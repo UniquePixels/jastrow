@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00834",
-	"slug": "רמץ-3",
-	"headword": {
-		"text": "רְמַץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְמַץ II",
+	"headwords": [
+		{
+			"text": "רְמַץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1483,
 		"column": "b"

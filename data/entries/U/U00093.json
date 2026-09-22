@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00093",
-	"slug": "שבותה",
-	"headword": {
-		"text": "שְׁבוּתָה"
-	},
+	"sefariaHeadword": "שְׁבוּתָה",
+	"headwords": [
+		{
+			"text": "שְׁבוּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "b"

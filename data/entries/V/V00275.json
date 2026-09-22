@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00275",
-	"slug": "תור-5",
-	"headword": {
-		"text": "תּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹר",
+	"headwords": [
+		{
+			"text": "תּוֹר"
+		},
 		{
 			"text": "תּוֹרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1656,
 		"column": "a"

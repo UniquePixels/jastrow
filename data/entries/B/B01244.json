@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01244",
-	"slug": "בריאותא",
-	"headword": {
-		"text": "בְּרִיאוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרִיאוּתָא",
+	"headwords": [
+		{
+			"text": "בְּרִיאוּתָא"
+		},
 		{
 			"text": "בְּרִיּוּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בְּרִיּיוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 193,
 		"column": "a"

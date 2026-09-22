@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00601",
-	"slug": "ריגלא",
-	"headword": {
-		"text": "רִיגְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיגְלָא",
+	"headwords": [
+		{
+			"text": "רִיגְלָא"
+		},
 		{
 			"text": "רִיגְלָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "a"

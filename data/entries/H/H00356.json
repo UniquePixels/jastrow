@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00356",
-	"slug": "חוללא",
-	"headword": {
-		"text": "חוֹלֵלָא"
-	},
+	"sefariaHeadword": "חוֹלֵלָא",
+	"headwords": [
+		{
+			"text": "חוֹלֵלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

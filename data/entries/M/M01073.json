@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01073",
-	"slug": "מי-2",
-	"headword": {
-		"text": "מִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מִי II",
+	"headwords": [
+		{
+			"text": "מִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 770,
 		"column": "b"

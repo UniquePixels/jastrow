@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01120",
-	"slug": "דרצונא",
-	"headword": {
-		"text": "דרצונא"
-	},
+	"sefariaHeadword": "דרצונא",
+	"headwords": [
+		{
+			"text": "דרצונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "a"

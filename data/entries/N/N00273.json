@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00273",
-	"slug": "נהמא",
-	"headword": {
-		"text": "נַהֲמָא"
-	},
+	"sefariaHeadword": "נַהֲמָא",
+	"headwords": [
+		{
+			"text": "נַהֲמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 882,
 		"column": "a"

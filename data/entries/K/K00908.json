@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00908",
-	"slug": "כסוסטרא",
-	"headword": {
-		"text": "כְּסוּסְטְרָא"
-	},
+	"sefariaHeadword": "כְּסוּסְטְרָא",
+	"headwords": [
+		{
+			"text": "כְּסוּסְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

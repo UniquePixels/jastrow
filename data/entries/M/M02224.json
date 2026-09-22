@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02224",
-	"slug": "מפני-2",
-	"headword": {
-		"text": "מִפְנֵי"
-	},
+	"sefariaHeadword": "מִפְנֵי",
+	"headwords": [
+		{
+			"text": "מִפְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

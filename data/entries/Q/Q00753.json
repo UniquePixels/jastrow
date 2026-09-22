@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00753",
-	"slug": "פיסטין",
-	"headword": {
-		"text": "פִּיסְטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסְטִין",
+	"headwords": [
+		{
+			"text": "פִּיסְטִין"
+		},
 		{
 			"text": "פִּיסְטִיס"
 		},
 		{
-			"text": "פִּסְ׳"
+			"text": "פִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1167,
 		"column": "a"

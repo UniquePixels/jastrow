@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01520",
-	"slug": "איסתורא",
-	"headword": {
-		"text": "אִיסְתַּוְרָא"
-	},
+	"sefariaHeadword": "אִיסְתַּוְרָא",
+	"headwords": [
+		{
+			"text": "אִיסְתַּוְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "b"

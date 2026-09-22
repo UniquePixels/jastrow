@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01253",
-	"slug": "נקשא",
-	"headword": {
-		"text": "נְקָשָׁא"
-	},
+	"sefariaHeadword": "נְקָשָׁא",
+	"headwords": [
+		{
+			"text": "נְקָשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01499",
-	"slug": "עשר-2",
-	"headword": {
-		"text": "עֲשַׁר"
-	},
+	"sefariaHeadword": "עֲשַׁר",
+	"headwords": [
+		{
+			"text": "עֲשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1127,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00600",
-	"slug": "אוזילא",
-	"headword": {
-		"text": "אוּזִילָא"
-	},
+	"sefariaHeadword": "אוּזִילָא",
+	"headwords": [
+		{
+			"text": "אוּזִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

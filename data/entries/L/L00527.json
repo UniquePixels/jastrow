@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00527",
-	"slug": "לישביזין",
-	"headword": {
-		"text": "לישביזין"
-	},
+	"sefariaHeadword": "לישביזין",
+	"headwords": [
+		{
+			"text": "לישביזין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 710,
 		"column": "a"

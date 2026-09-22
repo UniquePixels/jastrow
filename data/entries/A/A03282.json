@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03282",
-	"slug": "אשטטיון",
-	"headword": {
-		"text": "אשטטיון"
-	},
+	"sefariaHeadword": "אשטטיון",
+	"headwords": [
+		{
+			"text": "אשטטיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

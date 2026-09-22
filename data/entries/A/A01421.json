@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01421",
-	"slug": "איסטווה",
-	"headword": {
-		"text": "אִיסְטְוָוה"
-	},
+	"sefariaHeadword": "אִיסְטְוָוה",
+	"headwords": [
+		{
+			"text": "אִיסְטְוָוה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

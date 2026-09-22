@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00341",
-	"slug": "ייסור",
-	"headword": {
-		"text": "יִיסּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִיסּוּר",
+	"headwords": [
+		{
+			"text": "יִיסּוּר"
+		},
 		{
 			"text": "יִיסּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 576,
 		"column": "b"

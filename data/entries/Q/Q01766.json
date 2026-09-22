@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01766",
-	"slug": "פרט-4",
-	"headword": {
-		"text": "פֶּרֶט",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פֶּרֶט ²",
+	"headwords": [
+		{
+			"text": "פֶּרֶט",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1224,
 		"column": "b"

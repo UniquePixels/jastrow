@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02006",
-	"slug": "פרקלימין",
-	"headword": {
-		"text": "פְּרַקְלִימִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַקְלִימִין",
+	"headwords": [
+		{
+			"text": "פְּרַקְלִימִין"
+		},
 		{
 			"text": "פְּרַקְנִימִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1241,
 		"column": "a"

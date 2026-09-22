@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00116",
-	"slug": "חברברא",
-	"headword": {
-		"text": "חֲבַרְבָּרָא"
-	},
+	"sefariaHeadword": "חֲבַרְבָּרָא",
+	"headwords": [
+		{
+			"text": "חֲבַרְבָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 422,
 		"column": "b"

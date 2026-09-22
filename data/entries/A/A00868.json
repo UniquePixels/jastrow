@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00868",
-	"slug": "אורז",
-	"headword": {
-		"text": "אוֹרֶז"
-	},
+	"sefariaHeadword": "אוֹרֶז",
+	"headwords": [
+		{
+			"text": "אוֹרֶז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

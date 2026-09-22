@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00649",
-	"slug": "ביניין-2",
-	"headword": {
-		"text": "בִּינְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּינְיָין",
+	"headwords": [
+		{
+			"text": "בִּינְיָין"
+		},
 		{
 			"text": "בִּינְיָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 163,
 		"column": "b"

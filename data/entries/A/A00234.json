@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00234",
-	"slug": "אגאלוגין",
-	"headword": {
-		"text": "אגאלוגין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אגאלוגין",
+	"headwords": [
+		{
+			"text": "אגאלוגין"
+		},
 		{
 			"text": "אגאליגין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 10,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00641",
-	"slug": "זקיתא",
-	"headword": {
-		"text": "זָקִיתָא"
-	},
+	"sefariaHeadword": "זָקִיתָא",
+	"headwords": [
+		{
+			"text": "זָקִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "a"

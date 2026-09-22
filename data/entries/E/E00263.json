@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00263",
-	"slug": "הוץ-2",
-	"headword": {
-		"text": "הוּץ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוּץ II",
+	"headwords": [
+		{
+			"text": "הוּץ",
+			"homograph": 2
+		},
 		{
 			"text": "הוּצִין"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 340,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00689",
-	"slug": "קטאדיקון",
-	"headword": {
-		"text": "קטאדיקון"
-	},
+	"sefariaHeadword": "קטאדיקון",
+	"headwords": [
+		{
+			"text": "קטאדיקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1345,
 		"column": "b"

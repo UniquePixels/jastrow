@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01163",
-	"slug": "סנאים",
-	"headword": {
-		"text": "סְנָאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְנָאִים",
+	"headwords": [
+		{
+			"text": "סְנָאִים"
+		},
 		{
 			"text": "סְנָאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1004,
 		"column": "a"

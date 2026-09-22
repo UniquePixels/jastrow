@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02216",
-	"slug": "קשב-1",
-	"headword": {
-		"text": "קָשַב"
-	},
+	"sefariaHeadword": "קָשַב",
+	"headwords": [
+		{
+			"text": "קָשַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "b"

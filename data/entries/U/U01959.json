@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01959",
-	"slug": "שרי-2",
-	"headword": {
-		"text": "שרי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שרי",
+	"headwords": [
+		{
+			"text": "שרי"
+		},
 		{
 			"text": "שָׁרָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1629,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00033",
-	"slug": "תבא",
-	"headword": {
-		"text": "תָּבָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תָּבָא",
+	"headwords": [
+		{
+			"text": "תָּבָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1642,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00240",
-	"slug": "סובריקין",
-	"headword": {
-		"text": "סוּבְרִיקִין"
-	},
+	"sefariaHeadword": "סוּבְרִיקִין",
+	"headwords": [
+		{
+			"text": "סוּבְרִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

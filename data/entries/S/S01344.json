@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01344",
-	"slug": "קליעה",
-	"headword": {
-		"text": "קְלִיעָה"
-	},
+	"sefariaHeadword": "קְלִיעָה",
+	"headwords": [
+		{
+			"text": "קְלִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

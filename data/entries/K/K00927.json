@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00927",
-	"slug": "כסיפא",
-	"headword": {
-		"text": "כסיפא"
-	},
+	"sefariaHeadword": "כסיפא",
+	"headwords": [
+		{
+			"text": "כסיפא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "a"

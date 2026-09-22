@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01632",
-	"slug": "מלשין",
-	"headword": {
-		"text": "מַלְשִׁין"
-	},
+	"sefariaHeadword": "מַלְשִׁין",
+	"headwords": [
+		{
+			"text": "מַלְשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

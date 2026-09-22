@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01420",
-	"slug": "קלקלתא",
-	"headword": {
-		"text": "קִלְקַלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְקַלְתָּא",
+	"headwords": [
 		{
-			"text": "קִלְקֶילְ׳"
+			"text": "קִלְקַלְתָּא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִלְקֶילְ׳",
+			"partial": true
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1382,
 		"column": "b"

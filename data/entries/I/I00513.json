@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00513",
-	"slug": "טלמא",
-	"headword": {
-		"text": "טְלָמָא"
-	},
+	"sefariaHeadword": "טְלָמָא",
+	"headwords": [
+		{
+			"text": "טְלָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

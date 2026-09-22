@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S02122",
-	"slug": "קרסי",
-	"headword": {
-		"text": "קִרְסֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*קִרְסֵי",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִרְסֵי",
+			"reconstructed": true
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1423,
 		"column": "b"

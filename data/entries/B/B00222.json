@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00222",
-	"slug": "בוזאה",
-	"headword": {
-		"text": "בּוּזָאָה"
-	},
+	"sefariaHeadword": "בּוּזָאָה",
+	"headwords": [
+		{
+			"text": "בּוּזָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "b"

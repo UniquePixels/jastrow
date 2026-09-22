@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00762",
-	"slug": "גיני",
-	"headword": {
-		"text": "גִּינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינִי",
+	"headwords": [
+		{
+			"text": "גִּינִי"
+		},
 		{
 			"text": "גִּינְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 239,
 		"column": "b"

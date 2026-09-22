@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01657",
-	"slug": "ממזיג",
-	"headword": {
-		"text": "מַמְזִיג"
-	},
+	"sefariaHeadword": "מַמְזִיג",
+	"headwords": [
+		{
+			"text": "מַמְזִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

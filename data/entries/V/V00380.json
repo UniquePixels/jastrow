@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00380",
-	"slug": "תחנה",
-	"headword": {
-		"text": "תְּחִנָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחִנָּה",
+	"headwords": [
 		{
-			"text": "תְּחִי׳"
+			"text": "תְּחִנָּה"
+		},
+		{
+			"text": "תְּחִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1662,
 		"column": "a"

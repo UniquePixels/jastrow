@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00495",
-	"slug": "צלוליבא",
-	"headword": {
-		"text": "צְלוּלִיבָא"
-	},
+	"sefariaHeadword": "צְלוּלִיבָא",
+	"headwords": [
+		{
+			"text": "צְלוּלִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "b"

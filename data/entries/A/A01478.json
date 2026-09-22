@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01478",
-	"slug": "איספיטין",
-	"headword": {
-		"text": "איספיטין"
-	},
+	"sefariaHeadword": "איספיטין",
+	"headwords": [
+		{
+			"text": "איספיטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

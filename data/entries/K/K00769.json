@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00769",
-	"slug": "כלן-2",
-	"headword": {
-		"text": "כַּלָּן"
-	},
+	"sefariaHeadword": "כַּלָּן",
+	"headwords": [
+		{
+			"text": "כַּלָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

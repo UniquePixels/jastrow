@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00949",
-	"slug": "נסכא-1",
-	"headword": {
-		"text": "נִסְכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִסְכָּא",
+	"headwords": [
+		{
+			"text": "נִסְכָּא"
+		},
 		{
 			"text": "נִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 917,
 		"column": "b"

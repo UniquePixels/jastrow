@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00983",
-	"slug": "רציא",
-	"headword": {
-		"text": "רָצְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָצְיָא",
+	"headwords": [
+		{
+			"text": "רָצְיָא"
+		},
 		{
 			"text": "רָצְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1493,
 		"column": "b"

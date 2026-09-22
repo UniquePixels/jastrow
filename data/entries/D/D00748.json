@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00748",
-	"slug": "דיתא-1",
-	"headword": {
-		"text": "דַּיְּתָא"
-	},
+	"sefariaHeadword": "דַּיְּתָא",
+	"headwords": [
+		{
+			"text": "דַּיְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "a"

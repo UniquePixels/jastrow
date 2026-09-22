@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00281",
-	"slug": "עומה",
-	"headword": {
-		"text": "עוּמָּה"
-	},
+	"sefariaHeadword": "עוּמָּה",
+	"headwords": [
+		{
+			"text": "עוּמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "a"

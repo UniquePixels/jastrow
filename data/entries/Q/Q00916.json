@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00916",
-	"slug": "פכי-1",
-	"headword": {
-		"text": "פכי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פכי",
+	"headwords": [
+		{
+			"text": "פכי"
+		},
 		{
 			"text": "פָּכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1174,
 		"column": "a"

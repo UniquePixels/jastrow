@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00612",
-	"slug": "תלמיותא",
-	"headword": {
-		"text": "תַּלְמָיוּתָא"
-	},
+	"sefariaHeadword": "תַּלְמָיוּתָא",
+	"headwords": [
+		{
+			"text": "תַּלְמָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01253",
-	"slug": "קלד",
-	"headword": {
-		"text": "קְלַד"
-	},
+	"sefariaHeadword": "קְלַד",
+	"headwords": [
+		{
+			"text": "קְלַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

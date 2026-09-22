@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01134",
-	"slug": "בקעתא-1",
-	"headword": {
-		"text": "בְּקַעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּקַעֲתָא",
+	"headwords": [
 		{
-			"text": "בִּקְעֲ׳"
+			"text": "בְּקַעֲתָא"
+		},
+		{
+			"text": "בִּקְעֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 187,
 		"column": "a"

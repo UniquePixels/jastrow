@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00151",
-	"slug": "סגלגל-3",
-	"headword": {
-		"text": "סְגַלְגַּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגַלְגַּל ²",
+	"headwords": [
+		{
+			"text": "סְגַלְגַּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְגַלְגְּלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 955,
 		"column": "b"

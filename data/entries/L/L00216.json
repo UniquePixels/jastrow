@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00216",
-	"slug": "לווי-1",
-	"headword": {
-		"text": "לְוַוי"
-	},
+	"sefariaHeadword": "לְוַוי",
+	"headwords": [
+		{
+			"text": "לְוַוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

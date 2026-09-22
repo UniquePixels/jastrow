@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00410",
-	"slug": "שוכבתא",
-	"headword": {
-		"text": "שׁוּכְבְּתָא"
-	},
+	"sefariaHeadword": "שׁוּכְבְּתָא",
+	"headwords": [
+		{
+			"text": "שׁוּכְבְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

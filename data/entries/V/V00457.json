@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00457",
-	"slug": "תימהון",
-	"headword": {
-		"text": "תִּימָּהוֹן"
-	},
+	"sefariaHeadword": "תִּימָּהוֹן",
+	"headwords": [
+		{
+			"text": "תִּימָּהוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

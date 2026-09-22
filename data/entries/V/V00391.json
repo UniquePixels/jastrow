@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00391",
-	"slug": "תחת-2",
-	"headword": {
-		"text": "תַּחַת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּחַת ²",
+	"headwords": [
+		{
+			"text": "תַּחַת",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּחְתָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1662,
 		"column": "b"

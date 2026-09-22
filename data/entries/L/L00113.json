@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00113",
-	"slug": "לבקן",
-	"headword": {
-		"text": "לַבְקָן"
-	},
+	"sefariaHeadword": "לַבְקָן",
+	"headwords": [
+		{
+			"text": "לַבְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

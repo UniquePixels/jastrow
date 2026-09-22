@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01232",
-	"slug": "נקע",
-	"headword": {
-		"text": "נֶקַע"
-	},
+	"sefariaHeadword": "נֶקַע",
+	"headwords": [
+		{
+			"text": "נֶקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 934,
 		"column": "a"

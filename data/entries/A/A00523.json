@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00523",
-	"slug": "אוב-3",
-	"headword": {
-		"text": "אוֹב",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹב ³",
+	"headwords": [
+		{
+			"text": "אוֹב",
+			"disambiguator": 3
+		},
 		{
 			"text": "אוּבָא"
 		}
 	],
+	"display": "{0} ³, {1}",
 	"page": {
 		"number": 21,
 		"column": "a"

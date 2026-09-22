@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00055",
-	"slug": "צבע-3",
-	"headword": {
-		"text": "צָבַע",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צָבַע II",
+	"headwords": [
+		{
+			"text": "צָבַע",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1259,
 		"column": "a"

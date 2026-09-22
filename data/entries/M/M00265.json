@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00265",
-	"slug": "מדוכא",
-	"headword": {
-		"text": "מְדוֹכָא"
-	},
+	"sefariaHeadword": "מְדוֹכָא",
+	"headwords": [
+		{
+			"text": "מְדוֹכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

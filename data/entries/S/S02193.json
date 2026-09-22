@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02193",
-	"slug": "קרר-2",
-	"headword": {
-		"text": "קָרַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָרַר I",
+	"headwords": [
+		{
+			"text": "קָרַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1427,
 		"column": "b"

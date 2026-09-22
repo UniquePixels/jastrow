@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00520",
-	"slug": "עייר",
-	"headword": {
-		"text": "עִייֵּר"
-	},
+	"sefariaHeadword": "עִייֵּר",
+	"headwords": [
+		{
+			"text": "עִייֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

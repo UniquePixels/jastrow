@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00466",
-	"slug": "דיבון",
-	"headword": {
-		"text": "דיבון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיבון",
+	"headwords": [
+		{
+			"text": "דיבון"
+		},
 		{
 			"text": "דיבוון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 294,
 		"column": "b"

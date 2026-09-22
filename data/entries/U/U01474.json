@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01474",
-	"slug": "שמיע",
-	"headword": {
-		"text": "שְׁמִיעַ"
-	},
+	"sefariaHeadword": "שְׁמִיעַ",
+	"headwords": [
+		{
+			"text": "שְׁמִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

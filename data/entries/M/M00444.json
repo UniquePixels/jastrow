@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00444",
-	"slug": "מוזחין",
-	"headword": {
-		"text": "מוּזָּחִין"
-	},
+	"sefariaHeadword": "מוּזָּחִין",
+	"headwords": [
+		{
+			"text": "מוּזָּחִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

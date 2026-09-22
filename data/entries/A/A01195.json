@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01195",
-	"slug": "איזו",
-	"headword": {
-		"text": "אֵיזוּ"
-	},
+	"sefariaHeadword": "אֵיזוּ",
+	"headwords": [
+		{
+			"text": "אֵיזוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

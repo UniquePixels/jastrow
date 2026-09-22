@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01079",
-	"slug": "נפקת",
-	"headword": {
-		"text": "נַפְקַת"
-	},
+	"sefariaHeadword": "נַפְקַת",
+	"headwords": [
+		{
+			"text": "נַפְקַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 926,
 		"column": "b"

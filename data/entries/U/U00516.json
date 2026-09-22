@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00516",
-	"slug": "שוץ",
-	"headword": {
-		"text": "שׁוּץ"
-	},
+	"sefariaHeadword": "שׁוּץ",
+	"headwords": [
+		{
+			"text": "שׁוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "b"

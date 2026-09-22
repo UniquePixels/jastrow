@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01288",
-	"slug": "סעורים",
-	"headword": {
-		"text": "סְעוֹרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעוֹרִים",
+	"headwords": [
+		{
+			"text": "סְעוֹרִים"
+		},
 		{
 			"text": "סְעוֹרָם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1010,
 		"column": "a"

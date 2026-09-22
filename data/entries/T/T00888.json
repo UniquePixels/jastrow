@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00888",
-	"slug": "רעותא",
-	"headword": {
-		"text": "רְעוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעוּתָא",
+	"headwords": [
+		{
+			"text": "רְעוּתָא"
+		},
 		{
 			"text": "רְעוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1486,
 		"column": "b"

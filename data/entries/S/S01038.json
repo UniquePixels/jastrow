@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01038",
-	"slug": "קינטירא",
-	"headword": {
-		"text": "קִינְטֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינְטֵירָא",
+	"headwords": [
+		{
+			"text": "קִינְטֵירָא"
+		},
 		{
 			"text": "קִינְטֵרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1363,
 		"column": "b"

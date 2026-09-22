@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02234",
-	"slug": "קשטנית",
-	"headword": {
-		"text": "קַשְׁטָנִית"
-	},
+	"sefariaHeadword": "קַשְׁטָנִית",
+	"headwords": [
+		{
+			"text": "קַשְׁטָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1430,
 		"column": "a"

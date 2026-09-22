@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00575",
-	"slug": "יקיר-2",
-	"headword": {
-		"text": "יַקִּיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַקִּיר ²",
+	"headwords": [
+		{
+			"text": "יַקִּיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "יַקִּירָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 591,
 		"column": "b"

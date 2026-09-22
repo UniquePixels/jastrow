@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00344",
-	"slug": "טיינון",
-	"headword": {
-		"text": "טיינון"
-	},
+	"sefariaHeadword": "טיינון",
+	"headwords": [
+		{
+			"text": "טיינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01988",
-	"slug": "קרטבליא",
-	"headword": {
-		"text": "קרטבליא"
-	},
+	"sefariaHeadword": "קרטבליא",
+	"headwords": [
+		{
+			"text": "קרטבליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

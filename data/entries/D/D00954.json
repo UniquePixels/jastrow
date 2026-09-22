@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00954",
-	"slug": "דפאטא",
-	"headword": {
-		"text": "דפאטא"
-	},
+	"sefariaHeadword": "דפאטא",
+	"headwords": [
+		{
+			"text": "דפאטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00218",
-	"slug": "פולחן-1",
-	"headword": {
-		"text": "פולחן"
-	},
+	"sefariaHeadword": "פולחן",
+	"headwords": [
+		{
+			"text": "פולחן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

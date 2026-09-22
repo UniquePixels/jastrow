@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00612",
-	"slug": "פיח-2",
-	"headword": {
-		"text": "פִּיחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיחַ ²",
+	"headwords": [
+		{
+			"text": "פִּיחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּיחָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1160,
 		"column": "b"

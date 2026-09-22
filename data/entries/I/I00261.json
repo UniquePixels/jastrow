@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00261",
-	"slug": "טחור",
-	"headword": {
-		"text": "טָחוֹר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טָחוֹר",
+	"headwords": [
+		{
+			"text": "טָחוֹר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

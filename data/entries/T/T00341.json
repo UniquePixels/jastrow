@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00341",
-	"slug": "רוזינקא",
-	"headword": {
-		"text": "רוּזִינְקָא"
-	},
+	"sefariaHeadword": "רוּזִינְקָא",
+	"headwords": [
+		{
+			"text": "רוּזִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1458,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01386",
-	"slug": "ספן-1",
-	"headword": {
-		"text": "סָפַן"
-	},
+	"sefariaHeadword": "סָפַן",
+	"headwords": [
+		{
+			"text": "סָפַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

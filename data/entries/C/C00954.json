@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00954",
-	"slug": "גליפא",
-	"headword": {
-		"text": "גְּלִיפָא"
-	},
+	"sefariaHeadword": "גְּלִיפָא",
+	"headwords": [
+		{
+			"text": "גְּלִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "b"

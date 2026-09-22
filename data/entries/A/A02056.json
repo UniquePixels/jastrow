@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02056",
-	"slug": "אמצע",
-	"headword": {
-		"text": "אֶמְצַע"
-	},
+	"sefariaHeadword": "אֶמְצַע",
+	"headwords": [
+		{
+			"text": "אֶמְצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "b"

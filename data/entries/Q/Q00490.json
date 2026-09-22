@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00490",
-	"slug": "פחתא",
-	"headword": {
-		"text": "פַּחֲתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פַּחֲתָא II",
+	"headwords": [
+		{
+			"text": "פַּחֲתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1154,
 		"column": "a"

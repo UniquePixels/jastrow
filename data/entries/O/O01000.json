@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01000",
-	"slug": "סלירא-2",
-	"headword": {
-		"text": "סלירא"
-	},
+	"sefariaHeadword": "סלירא",
+	"headwords": [
+		{
+			"text": "סלירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"

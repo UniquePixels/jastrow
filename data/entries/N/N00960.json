@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00960",
-	"slug": "נסר-1",
-	"headword": {
-		"text": "נָסַר"
-	},
+	"sefariaHeadword": "נָסַר",
+	"headwords": [
+		{
+			"text": "נָסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 918,
 		"column": "b"

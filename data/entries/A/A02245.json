@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A02245",
-	"slug": "אנך-2",
-	"headword": {
-		"text": "אֲנָךְ",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*אֲנָךְ I",
+	"headwords": [
+		{
+			"text": "אֲנָךְ",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 85,
 		"column": "b"

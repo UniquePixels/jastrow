@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00052",
-	"slug": "צביתים",
-	"headword": {
-		"text": "צביתים"
-	},
+	"sefariaHeadword": "צביתים",
+	"headwords": [
+		{
+			"text": "צביתים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

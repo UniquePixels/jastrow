@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00809",
-	"slug": "עלימות",
-	"headword": {
-		"text": "עֲלִימוּת"
-	},
+	"sefariaHeadword": "עֲלִימוּת",
+	"headwords": [
+		{
+			"text": "עֲלִימוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "b"

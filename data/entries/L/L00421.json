@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00421",
-	"slug": "ליבנן",
-	"headword": {
-		"text": "לִיבְנָן"
-	},
+	"sefariaHeadword": "לִיבְנָן",
+	"headwords": [
+		{
+			"text": "לִיבְנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00415",
-	"slug": "עזל",
-	"headword": {
-		"text": "עֲזַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲזַל",
+	"headwords": [
+		{
+			"text": "עֲזַל"
+		},
 		{
 			"text": "עֲזֵיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1061,
 		"column": "b"

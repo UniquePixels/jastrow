@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00636",
-	"slug": "דין-6",
-	"headword": {
-		"text": "דִּין",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּין ²",
+	"headwords": [
+		{
+			"text": "דִּין",
+			"disambiguator": 2
+		},
 		{
 			"text": "דִּינָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 301,
 		"column": "b"

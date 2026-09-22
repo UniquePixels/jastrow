@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "E00114",
-	"slug": "הדיא-2",
-	"headword": {
-		"text": "הֲדָיָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲדָיָא II",
+	"headwords": [
+		{
+			"text": "הֲדָיָא",
+			"homograph": 2
+		},
 		{
 			"text": "הֲדָיָה"
 		},
 		{
-			"text": "בַּר הֲדָיָא"
+			"text": "בַּר ה׳",
+			"partial": true
 		},
 		{
-			"text": "בֶּן הֲדָיָא"
+			"text": "בֶּן ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 333,
 		"column": "a"

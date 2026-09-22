@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01495",
-	"slug": "פקם",
-	"headword": {
-		"text": "פָּקַם"
-	},
+	"sefariaHeadword": "פָּקַם",
+	"headwords": [
+		{
+			"text": "פָּקַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "b"

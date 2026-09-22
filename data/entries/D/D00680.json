@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00680",
-	"slug": "דיפליסטון",
-	"headword": {
-		"text": "דִּיפְּלִיסְטְוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיפְּלִיסְטְוָן",
+	"headwords": [
 		{
-			"text": "דִּיפְּלִסְ׳"
+			"text": "דִּיפְּלִיסְטְוָן"
+		},
+		{
+			"text": "דִּיפְּלִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 304,
 		"column": "a"

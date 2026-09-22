@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01095",
-	"slug": "סמיק",
-	"headword": {
-		"text": "סְמֵיק"
-	},
+	"sefariaHeadword": "סְמֵיק",
+	"headwords": [
+		{
+			"text": "סְמֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1000,
 		"column": "b"

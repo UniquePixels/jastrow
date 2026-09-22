@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00729",
-	"slug": "בירם",
-	"headword": {
-		"text": "בִּירָם"
-	},
+	"sefariaHeadword": "בִּירָם",
+	"headwords": [
+		{
+			"text": "בִּירָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

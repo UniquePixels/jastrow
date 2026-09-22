@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00853",
-	"slug": "הרחצה",
-	"headword": {
-		"text": "הַרְחָצָה"
-	},
+	"sefariaHeadword": "הַרְחָצָה",
+	"headwords": [
+		{
+			"text": "הַרְחָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "a"

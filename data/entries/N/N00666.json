@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00666",
-	"slug": "ניכוש",
-	"headword": {
-		"text": "נִיכּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיכּוּשׁ",
+	"headwords": [
 		{
-			"text": "נִכּ׳"
+			"text": "נִיכּוּשׁ"
+		},
+		{
+			"text": "נִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 904,
 		"column": "b"

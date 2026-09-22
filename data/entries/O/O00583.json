@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00583",
-	"slug": "סידקא",
-	"headword": {
-		"text": "סִידְקָא"
-	},
+	"sefariaHeadword": "סִידְקָא",
+	"headwords": [
+		{
+			"text": "סִידְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 976,
 		"column": "b"

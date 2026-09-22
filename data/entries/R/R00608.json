@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00608",
-	"slug": "צנה-2",
-	"headword": {
-		"text": "צִנָּה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנָּה II",
+	"headwords": [
+		{
+			"text": "צִנָּה",
+			"homograph": 2
+		},
 		{
 			"text": "צִינָּה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} II, {1} II",
 	"page": {
 		"number": 1290,
 		"column": "b"

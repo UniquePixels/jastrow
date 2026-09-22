@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00362",
-	"slug": "מהימן",
-	"headword": {
-		"text": "מְהִימַן"
-	},
+	"sefariaHeadword": "מְהִימַן",
+	"headwords": [
+		{
+			"text": "מְהִימַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

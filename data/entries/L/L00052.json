@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00052",
-	"slug": "לבוטים",
-	"headword": {
-		"text": "לְבוּטִים"
-	},
+	"sefariaHeadword": "לְבוּטִים",
+	"headwords": [
+		{
+			"text": "לְבוּטִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "a"

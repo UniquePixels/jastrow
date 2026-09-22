@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02914",
-	"slug": "משלהי",
-	"headword": {
-		"text": "מְשַׁלְהֵי"
-	},
+	"sefariaHeadword": "מְשַׁלְהֵי",
+	"headwords": [
+		{
+			"text": "מְשַׁלְהֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 855,
 		"column": "b"

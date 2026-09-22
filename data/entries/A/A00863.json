@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00863",
-	"slug": "אורוות",
-	"headword": {
-		"text": "אוּרְווֹת"
-	},
+	"sefariaHeadword": "אוּרְווֹת",
+	"headwords": [
+		{
+			"text": "אוּרְווֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

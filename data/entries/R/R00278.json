@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00278",
-	"slug": "צחנה",
-	"headword": {
-		"text": "צַחֲנָה"
-	},
+	"sefariaHeadword": "צַחֲנָה",
+	"headwords": [
+		{
+			"text": "צַחֲנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1273,
 		"column": "b"

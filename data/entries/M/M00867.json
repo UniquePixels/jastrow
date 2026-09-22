@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00867",
-	"slug": "מחייתא",
-	"headword": {
-		"text": "מַחְיָיתָא"
-	},
+	"sefariaHeadword": "מַחְיָיתָא",
+	"headwords": [
+		{
+			"text": "מַחְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 760,
 		"column": "b"

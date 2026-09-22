@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00494",
-	"slug": "דיה-1",
-	"headword": {
-		"text": "דַּיָּה"
-	},
+	"sefariaHeadword": "דַּיָּה",
+	"headwords": [
+		{
+			"text": "דַּיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

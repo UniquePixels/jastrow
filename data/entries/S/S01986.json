@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01986",
-	"slug": "קרט-2",
-	"headword": {
-		"text": "קָרָט"
-	},
+	"sefariaHeadword": "קָרָט",
+	"headwords": [
+		{
+			"text": "קָרָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

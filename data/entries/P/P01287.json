@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01287",
-	"slug": "ערבלאין",
-	"headword": {
-		"text": "עַרְבְּלָאִין"
-	},
+	"sefariaHeadword": "עַרְבְּלָאִין",
+	"headwords": [
+		{
+			"text": "עַרְבְּלָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00556",
-	"slug": "הליס",
-	"headword": {
-		"text": "הליס"
-	},
+	"sefariaHeadword": "הליס",
+	"headwords": [
+		{
+			"text": "הליס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

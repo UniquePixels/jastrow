@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00017",
-	"slug": "ודי",
-	"headword": {
-		"text": "ודי"
-	},
+	"sefariaHeadword": "ודי",
+	"headwords": [
+		{
+			"text": "ודי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

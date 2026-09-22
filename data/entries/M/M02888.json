@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02888",
-	"slug": "משיריא",
-	"headword": {
-		"text": "מַשִּׁירְיָא"
-	},
+	"sefariaHeadword": "מַשִּׁירְיָא",
+	"headwords": [
+		{
+			"text": "מַשִּׁירְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 853,
 		"column": "a"

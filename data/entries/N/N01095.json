@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01095",
-	"slug": "נצא-3",
-	"headword": {
-		"text": "נְצָא"
-	},
+	"sefariaHeadword": "נְצָא",
+	"headwords": [
+		{
+			"text": "נְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

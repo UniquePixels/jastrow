@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00564",
-	"slug": "עיכליה",
-	"headword": {
-		"text": "עיכליה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עיכליה",
+	"headwords": [
+		{
+			"text": "עיכליה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1069,
 		"column": "b"

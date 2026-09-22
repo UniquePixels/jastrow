@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00208",
-	"slug": "נדבך-2",
-	"headword": {
-		"text": "נִדְבַּךְ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְבַּךְ I",
+	"headwords": [
 		{
-			"text": "נִידְ׳"
+			"text": "נִדְבַּךְ",
+			"homograph": 1
+		},
+		{
+			"text": "נִידְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 877,
 		"column": "b"

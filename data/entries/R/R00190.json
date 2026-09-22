@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00190",
-	"slug": "צוייקן",
-	"headword": {
-		"text": "צוֹיְיקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹיְיקָן",
+	"headwords": [
+		{
+			"text": "צוֹיְיקָן"
+		},
 		{
 			"text": "צוֹיְקָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "b"

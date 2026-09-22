@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00470",
-	"slug": "סחרנותא",
-	"headword": {
-		"text": "סַחֲרָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַחֲרָנוּתָא",
+	"headwords": [
 		{
-			"text": "סָחְ׳"
+			"text": "סַחֲרָנוּתָא"
+		},
+		{
+			"text": "סָחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 972,
 		"column": "a"

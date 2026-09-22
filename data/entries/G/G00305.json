@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00305",
-	"slug": "זיווג",
-	"headword": {
-		"text": "זִיוּוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיוּוּג",
+	"headwords": [
+		{
+			"text": "זִיוּוּג"
+		},
 		{
 			"text": "זִוּוּג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 392,
 		"column": "a"

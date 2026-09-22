@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03219",
-	"slug": "ארע-5",
-	"headword": {
-		"text": "אַרַע"
-	},
+	"sefariaHeadword": "אַרַע",
+	"headwords": [
+		{
+			"text": "אַרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

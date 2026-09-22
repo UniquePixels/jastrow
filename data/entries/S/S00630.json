@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00630",
-	"slug": "קורפדייא",
-	"headword": {
-		"text": "קוּרְפְּדַיָּיא"
-	},
+	"sefariaHeadword": "קוּרְפְּדַיָּיא",
+	"headwords": [
+		{
+			"text": "קוּרְפְּדַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "b"

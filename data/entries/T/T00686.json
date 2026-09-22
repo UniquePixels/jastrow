@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00686",
-	"slug": "ריץ",
-	"headword": {
-		"text": "רִיץ"
-	},
+	"sefariaHeadword": "רִיץ",
+	"headwords": [
+		{
+			"text": "רִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

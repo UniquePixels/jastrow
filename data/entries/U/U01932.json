@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01932",
-	"slug": "שרד",
-	"headword": {
-		"text": "שָׂרַד"
-	},
+	"sefariaHeadword": "שָׂרַד",
+	"headwords": [
+		{
+			"text": "שָׂרַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "b"

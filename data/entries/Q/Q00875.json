@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00875",
-	"slug": "פירקוס",
-	"headword": {
-		"text": "פִּירְקוּס"
-	},
+	"sefariaHeadword": "פִּירְקוּס",
+	"headwords": [
+		{
+			"text": "פִּירְקוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

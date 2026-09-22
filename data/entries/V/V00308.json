@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00308",
-	"slug": "תורעא",
-	"headword": {
-		"text": "תּוּרְעָא"
-	},
+	"sefariaHeadword": "תּוּרְעָא",
+	"headwords": [
+		{
+			"text": "תּוּרְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "a"

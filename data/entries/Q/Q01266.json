@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01266",
-	"slug": "פסטלין",
-	"headword": {
-		"text": "פַּסְטְלִין"
-	},
+	"sefariaHeadword": "פַּסְטְלִין",
+	"headwords": [
+		{
+			"text": "פַּסְטְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

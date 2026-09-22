@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02473",
-	"slug": "אסס",
-	"headword": {
-		"text": "אֲסַס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲסַס",
+	"headwords": [
+		{
+			"text": "אֲסַס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

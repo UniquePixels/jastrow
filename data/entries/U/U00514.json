@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00514",
-	"slug": "שופריא",
-	"headword": {
-		"text": "שופריא"
-	},
+	"sefariaHeadword": "שופריא",
+	"headwords": [
+		{
+			"text": "שופריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "b"

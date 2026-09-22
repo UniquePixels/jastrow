@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02155",
-	"slug": "פתיא-1",
-	"headword": {
-		"text": "פַּתְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּתְיָא I",
+	"headwords": [
+		{
+			"text": "פַּתְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1253,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01065",
-	"slug": "בערה",
-	"headword": {
-		"text": "בְּעֵרָה"
-	},
+	"sefariaHeadword": "בְּעֵרָה",
+	"headwords": [
+		{
+			"text": "בְּעֵרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00735",
-	"slug": "זרק-2",
-	"headword": {
-		"text": "זְרַק"
-	},
+	"sefariaHeadword": "זְרַק",
+	"headwords": [
+		{
+			"text": "זְרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "b"

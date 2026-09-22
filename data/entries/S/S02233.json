@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02233",
-	"slug": "קשטן",
-	"headword": {
-		"text": "קַשְׁטָן"
-	},
+	"sefariaHeadword": "קַשְׁטָן",
+	"headwords": [
+		{
+			"text": "קַשְׁטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1430,
 		"column": "a"

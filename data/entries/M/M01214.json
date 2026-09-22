@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01214",
-	"slug": "מינוי-1",
-	"headword": {
-		"text": "מִינּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִינּוּי",
+	"headwords": [
+		{
+			"text": "מִינּוּי"
+		},
 		{
 			"text": "מִנּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 776,
 		"column": "b"

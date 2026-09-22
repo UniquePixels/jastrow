@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00195",
-	"slug": "צולקא",
-	"headword": {
-		"text": "צוּלְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּלְקָא",
+	"headwords": [
+		{
+			"text": "צוּלְקָא"
+		},
 		{
 			"text": "צוּלְקְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1267,
 		"column": "b"

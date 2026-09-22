@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00720",
-	"slug": "זרנוקא",
-	"headword": {
-		"text": "זַרְנוּקָא"
-	},
+	"sefariaHeadword": "זַרְנוּקָא",
+	"headwords": [
+		{
+			"text": "זַרְנוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

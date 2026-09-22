@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01167",
-	"slug": "עקוש-2",
-	"headword": {
-		"text": "עָקוֹשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָקוֹשׁ II",
+	"headwords": [
+		{
+			"text": "עָקוֹשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1105,
 		"column": "b"

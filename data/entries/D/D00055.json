@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00055",
-	"slug": "דבח-2",
-	"headword": {
-		"text": "דְּבַח",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבַח II",
+	"headwords": [
+		{
+			"text": "דְּבַח",
+			"homograph": 2
+		},
 		{
 			"text": "דִּבְחָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "דִּיבְחָא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 277,
 		"column": "a"

@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "M02893",
-	"slug": "משך-4",
-	"headword": {
-		"text": "מְשַׁךְ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשַׁךְ II",
+	"headwords": [
+		{
+			"text": "מְשַׁךְ",
+			"homograph": 2
+		},
 		{
 			"text": "מַשְׁכָא"
 		},
 		{
-			"text": "מִישְׁ׳"
+			"text": "מִישְׁ׳",
+			"partial": true
 		},
 		{
-			"text": "מוֹשְׁ׳"
+			"text": "מוֹשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 853,
 		"column": "b"

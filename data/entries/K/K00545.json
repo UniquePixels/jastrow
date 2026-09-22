@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00545",
-	"slug": "כילי",
-	"headword": {
-		"text": "כִּילִי"
-	},
+	"sefariaHeadword": "כִּילִי",
+	"headwords": [
+		{
+			"text": "כִּילִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

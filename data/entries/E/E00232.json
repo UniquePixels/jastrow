@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00232",
-	"slug": "הויה",
-	"headword": {
-		"text": "הֲוָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲוָיָה",
+	"headwords": [
+		{
+			"text": "הֲוָיָה"
+		},
 		{
 			"text": "הֲוָויָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֲוָיָיה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 338,
 		"column": "b"

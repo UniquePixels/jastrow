@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00276",
-	"slug": "יחוף",
-	"headword": {
-		"text": "יִחוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִחוּף",
+	"headwords": [
 		{
-			"text": "יִי׳"
+			"text": "יִחוּף"
+		},
+		{
+			"text": "יִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 573,
 		"column": "b"

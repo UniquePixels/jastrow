@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00199",
-	"slug": "רגיף",
-	"headword": {
-		"text": "רְגֵיף"
-	},
+	"sefariaHeadword": "רְגֵיף",
+	"headwords": [
+		{
+			"text": "רְגֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "b"

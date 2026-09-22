@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02163",
-	"slug": "פתייא",
-	"headword": {
-		"text": "פַּתְיָיא"
-	},
+	"sefariaHeadword": "פַּתְיָיא",
+	"headwords": [
+		{
+			"text": "פַּתְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1253,
 		"column": "b"

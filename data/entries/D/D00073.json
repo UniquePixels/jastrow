@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00073",
-	"slug": "דבק-2",
-	"headword": {
-		"text": "דְּבֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבֵק",
+	"headwords": [
+		{
+			"text": "דְּבֵק"
+		},
 		{
 			"text": "דְּבַק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 277,
 		"column": "b"

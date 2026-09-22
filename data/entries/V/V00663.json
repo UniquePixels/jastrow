@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00663",
-	"slug": "תמופה",
-	"headword": {
-		"text": "תְּמוּפָה"
-	},
+	"sefariaHeadword": "תְּמוּפָה",
+	"headwords": [
+		{
+			"text": "תְּמוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

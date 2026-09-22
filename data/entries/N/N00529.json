@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00529",
-	"slug": "נחשלא",
-	"headword": {
-		"text": "נחשלא"
-	},
+	"sefariaHeadword": "נחשלא",
+	"headwords": [
+		{
+			"text": "נחשלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 897,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02120",
-	"slug": "מעיקא-2",
-	"headword": {
-		"text": "מְעִיקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְעִיקָא II",
+	"headwords": [
+		{
+			"text": "מְעִיקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 816,
 		"column": "a"

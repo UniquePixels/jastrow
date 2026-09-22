@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00656",
-	"slug": "סילוא",
-	"headword": {
-		"text": "סִילְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילְוָא",
+	"headwords": [
+		{
+			"text": "סִילְוָא"
+		},
 		{
 			"text": "סִילְוִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "סִילְוִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 979,
 		"column": "b"

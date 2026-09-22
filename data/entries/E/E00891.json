@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00891",
-	"slug": "הרעה-1",
-	"headword": {
-		"text": "הֲרָעָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הֲרָעָה I",
+	"headwords": [
+		{
+			"text": "הֲרָעָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 368,
 		"column": "b"

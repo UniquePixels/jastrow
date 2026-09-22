@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01005",
-	"slug": "גמה",
-	"headword": {
-		"text": "גָּמָה"
-	},
+	"sefariaHeadword": "גָּמָה",
+	"headwords": [
+		{
+			"text": "גָּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

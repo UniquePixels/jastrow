@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00547",
-	"slug": "חזית",
-	"headword": {
-		"text": "חָזִית"
-	},
+	"sefariaHeadword": "חָזִית",
+	"headwords": [
+		{
+			"text": "חָזִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 444,
 		"column": "a"

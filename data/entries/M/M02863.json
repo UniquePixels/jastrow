@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02863",
-	"slug": "משטחא",
-	"headword": {
-		"text": "מַשְׁטָחָא"
-	},
+	"sefariaHeadword": "מַשְׁטָחָא",
+	"headwords": [
+		{
+			"text": "מַשְׁטָחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "b"

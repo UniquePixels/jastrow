@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00029",
-	"slug": "טבהק",
-	"headword": {
-		"text": "טַבְהַק"
-	},
+	"sefariaHeadword": "טַבְהַק",
+	"headwords": [
+		{
+			"text": "טַבְהַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

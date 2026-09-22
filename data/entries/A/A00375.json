@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00375",
-	"slug": "אדבע",
-	"headword": {
-		"text": "אֶדְבַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶדְבַּע",
+	"headwords": [
+		{
+			"text": "אֶדְבַּע"
+		},
 		{
 			"text": "אֶדְבְּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 15,
 		"column": "b"

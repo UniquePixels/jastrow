@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00335",
-	"slug": "שודני",
-	"headword": {
-		"text": "שׂוּדָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׂוּדָנִי",
+	"headwords": [
 		{
-			"text": "שׂוֹדָ׳"
+			"text": "שׂוּדָנִי"
+		},
+		{
+			"text": "שׂוֹדָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1529,
 		"column": "b"

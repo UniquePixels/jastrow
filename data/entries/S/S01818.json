@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01818",
-	"slug": "קציעתא",
-	"headword": {
-		"text": "קְצִיעֲתָא"
-	},
+	"sefariaHeadword": "קְצִיעֲתָא",
+	"headwords": [
+		{
+			"text": "קְצִיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "a"

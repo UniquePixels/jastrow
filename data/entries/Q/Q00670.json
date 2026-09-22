@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00670",
-	"slug": "פילגס",
-	"headword": {
-		"text": "פילגס"
-	},
+	"sefariaHeadword": "פילגס",
+	"headwords": [
+		{
+			"text": "פילגס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

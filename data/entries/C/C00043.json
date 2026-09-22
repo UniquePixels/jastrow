@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00043",
-	"slug": "גבבאי",
-	"headword": {
-		"text": "גְּבָבַאי"
-	},
+	"sefariaHeadword": "גְּבָבַאי",
+	"headwords": [
+		{
+			"text": "גְּבָבַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "a"

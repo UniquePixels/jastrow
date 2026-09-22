@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00001",
-	"slug": "זאב",
-	"headword": {
-		"text": "זְאֵב"
-	},
+	"sefariaHeadword": "זְאֵב",
+	"headwords": [
+		{
+			"text": "זְאֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "a"

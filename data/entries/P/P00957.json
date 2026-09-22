@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00957",
-	"slug": "ענוג",
-	"headword": {
-		"text": "עִנּוּג"
-	},
+	"sefariaHeadword": "עִנּוּג",
+	"headwords": [
+		{
+			"text": "עִנּוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "a"

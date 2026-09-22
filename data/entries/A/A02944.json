@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02944",
-	"slug": "ארא-1",
-	"headword": {
-		"text": "אֲרָא"
-	},
+	"sefariaHeadword": "אֲרָא",
+	"headwords": [
+		{
+			"text": "אֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

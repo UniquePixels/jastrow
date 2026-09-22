@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00420",
-	"slug": "פז",
-	"headword": {
-		"text": "פָּז"
-	},
+	"sefariaHeadword": "פָּז",
+	"headwords": [
+		{
+			"text": "פָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "b"

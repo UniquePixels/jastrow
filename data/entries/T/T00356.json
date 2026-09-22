@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00356",
-	"slug": "רוטגנית",
-	"headword": {
-		"text": "רוטגנית"
-	},
+	"sefariaHeadword": "רוטגנית",
+	"headwords": [
+		{
+			"text": "רוטגנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "a"

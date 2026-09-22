@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00076",
-	"slug": "צבתא-2",
-	"headword": {
-		"text": "צִבְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבְתָא",
+	"headwords": [
+		{
+			"text": "צִבְתָא"
+		},
 		{
 			"text": "צִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1260,
 		"column": "b"

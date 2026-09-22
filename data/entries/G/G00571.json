@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00571",
-	"slug": "זנוחא",
-	"headword": {
-		"text": "זְנוֹחָא"
-	},
+	"sefariaHeadword": "זְנוֹחָא",
+	"headwords": [
+		{
+			"text": "זְנוֹחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

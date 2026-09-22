@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02501",
-	"slug": "אספלניתא",
-	"headword": {
-		"text": "אִסְפְּלָנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפְּלָנִיתָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְפְּלָנִיתָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00939",
-	"slug": "השרשה",
-	"headword": {
-		"text": "הַשְׁרָשָׁה"
-	},
+	"sefariaHeadword": "הַשְׁרָשָׁה",
+	"headwords": [
+		{
+			"text": "הַשְׁרָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "b"

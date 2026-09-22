@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01241",
-	"slug": "עראי",
-	"headword": {
-		"text": "עַרְאַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְאַי",
+	"headwords": [
+		{
+			"text": "עַרְאַי"
+		},
 		{
 			"text": "עַרַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1109,
 		"column": "b"

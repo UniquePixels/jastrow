@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M00716",
-	"slug": "מזגא-1",
-	"headword": {
-		"text": "מִזְגָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִזְגָּא I",
+	"headwords": [
 		{
-			"text": "מִיזְ׳"
+			"text": "מִזְגָּא",
+			"homograph": 1
+		},
+		{
+			"text": "מִיזְ׳",
+			"partial": true
 		},
 		{
 			"text": "מְזִיגָא"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 753,
 		"column": "a"

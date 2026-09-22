@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00353",
-	"slug": "גוזריא",
-	"headword": {
-		"text": "גּוֹזְרָיָא"
-	},
+	"sefariaHeadword": "גּוֹזְרָיָא",
+	"headwords": [
+		{
+			"text": "גּוֹזְרָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

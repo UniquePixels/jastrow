@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01025",
-	"slug": "ענתה-2",
-	"headword": {
-		"text": "ענתה"
-	},
+	"sefariaHeadword": "ענתה",
+	"headwords": [
+		{
+			"text": "ענתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1097,
 		"column": "a"

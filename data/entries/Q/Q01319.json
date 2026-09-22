@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01319",
-	"slug": "פסיקתא-1",
-	"headword": {
-		"text": "פְּסִיקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִיקְתָּא",
+	"headwords": [
+		{
+			"text": "פְּסִיקְתָּא"
+		},
 		{
 			"text": "פְּסִקְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1196,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00047",
-	"slug": "צביעין",
-	"headword": {
-		"text": "צביעין"
-	},
+	"sefariaHeadword": "צביעין",
+	"headwords": [
+		{
+			"text": "צביעין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

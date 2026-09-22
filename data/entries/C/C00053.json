@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00053",
-	"slug": "גבוה",
-	"headword": {
-		"text": "גָּבוֹהַּ"
-	},
+	"sefariaHeadword": "גָּבוֹהַּ",
+	"headwords": [
+		{
+			"text": "גָּבוֹהַּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "b"

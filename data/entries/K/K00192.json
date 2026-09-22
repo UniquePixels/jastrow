@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00192",
-	"slug": "כובסא",
-	"headword": {
-		"text": "כּוּבְסָא"
-	},
+	"sefariaHeadword": "כּוּבְסָא",
+	"headwords": [
+		{
+			"text": "כּוּבְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01576",
-	"slug": "קניגיון",
-	"headword": {
-		"text": "קְנִיגְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְנִיגְיוֹן",
+	"headwords": [
 		{
-			"text": "קִינִ׳"
+			"text": "קְנִיגְיוֹן"
+		},
+		{
+			"text": "קִינִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "a"

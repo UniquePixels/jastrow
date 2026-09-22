@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00588",
-	"slug": "יקרתא",
-	"headword": {
-		"text": "יְקַרְתָּא"
-	},
+	"sefariaHeadword": "יְקַרְתָּא",
+	"headwords": [
+		{
+			"text": "יְקַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "a"

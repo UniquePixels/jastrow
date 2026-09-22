@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00078",
-	"slug": "מבוי",
-	"headword": {
-		"text": "מָבוֹי"
-	},
+	"sefariaHeadword": "מָבוֹי",
+	"headwords": [
+		{
+			"text": "מָבוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

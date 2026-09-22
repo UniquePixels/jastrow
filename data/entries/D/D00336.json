@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00336",
-	"slug": "דוקני",
-	"headword": {
-		"text": "דּוּקְנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּקְנִי",
+	"headwords": [
+		{
+			"text": "דּוּקְנִי"
+		},
 		{
 			"text": "דִּיקְנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 288,
 		"column": "a"

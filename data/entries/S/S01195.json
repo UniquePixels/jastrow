@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01195",
-	"slug": "קירסי",
-	"headword": {
-		"text": "קִירְסֵי"
-	},
+	"sefariaHeadword": "קִירְסֵי",
+	"headwords": [
+		{
+			"text": "קִירְסֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

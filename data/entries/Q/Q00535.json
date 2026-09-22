@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00535",
-	"slug": "פטם-1",
-	"headword": {
-		"text": "פָּטַם"
-	},
+	"sefariaHeadword": "פָּטַם",
+	"headwords": [
+		{
+			"text": "פָּטַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1156,
 		"column": "a"

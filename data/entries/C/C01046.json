@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01046",
-	"slug": "גמלה",
-	"headword": {
-		"text": "גַּמְלָה"
-	},
+	"sefariaHeadword": "גַּמְלָה",
+	"headwords": [
+		{
+			"text": "גַּמְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

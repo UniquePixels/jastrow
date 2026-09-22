@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00930",
-	"slug": "אושפזתי",
-	"headword": {
-		"text": "אושפזתי"
-	},
+	"sefariaHeadword": "אושפזתי",
+	"headwords": [
+		{
+			"text": "אושפזתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

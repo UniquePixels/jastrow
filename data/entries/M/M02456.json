@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02456",
-	"slug": "מקרובותא",
-	"headword": {
-		"text": "מִקְרוֹבוּתָא"
-	},
+	"sefariaHeadword": "מִקְרוֹבוּתָא",
+	"headwords": [
+		{
+			"text": "מִקְרוֹבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

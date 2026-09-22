@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00969",
-	"slug": "קילוסין",
-	"headword": {
-		"text": "קילוסין"
-	},
+	"sefariaHeadword": "קילוסין",
+	"headwords": [
+		{
+			"text": "קילוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1360,
 		"column": "b"

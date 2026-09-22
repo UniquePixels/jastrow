@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00360",
-	"slug": "יכולת",
-	"headword": {
-		"text": "יְכוֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְכוֹלֶת",
+	"headwords": [
+		{
+			"text": "יְכוֹלֶת"
+		},
 		{
 			"text": "יְכֹלֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 577,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01976",
-	"slug": "קרחא-3",
-	"headword": {
-		"text": "קָרְחָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָרְחָא II",
+	"headwords": [
+		{
+			"text": "קָרְחָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1415,
 		"column": "b"

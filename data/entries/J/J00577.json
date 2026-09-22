@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00577",
-	"slug": "יקירן",
-	"headword": {
-		"text": "יקירן"
-	},
+	"sefariaHeadword": "יקירן",
+	"headwords": [
+		{
+			"text": "יקירן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 592,
 		"column": "a"

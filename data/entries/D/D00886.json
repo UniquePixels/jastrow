@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00886",
-	"slug": "דמוע",
-	"headword": {
-		"text": "דִּמּוּעַ"
-	},
+	"sefariaHeadword": "דִּמּוּעַ",
+	"headwords": [
+		{
+			"text": "דִּמּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

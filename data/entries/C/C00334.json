@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00334",
-	"slug": "גוולקא",
-	"headword": {
-		"text": "גְּוַולְקָא"
-	},
+	"sefariaHeadword": "גְּוַולְקָא",
+	"headwords": [
+		{
+			"text": "גְּוַולְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "b"

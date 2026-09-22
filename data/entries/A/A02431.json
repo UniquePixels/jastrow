@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02431",
-	"slug": "אסיאן",
-	"headword": {
-		"text": "אסיאן"
-	},
+	"sefariaHeadword": "אסיאן",
+	"headwords": [
+		{
+			"text": "אסיאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "a"

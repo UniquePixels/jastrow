@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00242",
-	"slug": "צור-3",
-	"headword": {
-		"text": "צוּר"
-	},
+	"sefariaHeadword": "צוּר",
+	"headwords": [
+		{
+			"text": "צוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "b"

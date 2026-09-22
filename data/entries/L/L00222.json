@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00222",
-	"slug": "לווקיאנא",
-	"headword": {
-		"text": "לַוְוקְיָאָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַוְוקְיָאָנָא",
+	"headwords": [
+		{
+			"text": "לַוְוקְיָאָנָא"
+		},
 		{
 			"text": "לַוְוקָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 695,
 		"column": "b"

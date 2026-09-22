@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01657",
-	"slug": "קסיוהא",
-	"headword": {
-		"text": "קסיוהא"
-	},
+	"sefariaHeadword": "קסיוהא",
+	"headwords": [
+		{
+			"text": "קסיוהא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

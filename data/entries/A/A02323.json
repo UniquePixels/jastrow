@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02323",
-	"slug": "אסא-5",
-	"headword": {
-		"text": "אָסָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָסָא",
+	"headwords": [
+		{
+			"text": "אָסָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אָשָׁא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 88,
 		"column": "b"

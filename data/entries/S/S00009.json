@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00009",
-	"slug": "קאים",
-	"headword": {
-		"text": "קָאֵים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָאֵים",
+	"headwords": [
+		{
+			"text": "קָאֵים"
+		},
 		{
 			"text": "קָאִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "קָאֵם"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1306,
 		"column": "a"

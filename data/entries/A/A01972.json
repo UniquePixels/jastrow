@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01972",
-	"slug": "אמבורקלון",
-	"headword": {
-		"text": "אִמְבּוּרְקְלוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִמְבּוּרְקְלוֹן",
+	"headwords": [
+		{
+			"text": "אִמְבּוּרְקְלוֹן"
+		},
 		{
 			"text": "אִמְבּוּרִיקְלוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִנְבּוּרְקְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 74,
 		"column": "b"

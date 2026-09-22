@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01544",
-	"slug": "סרה-3",
-	"headword": {
-		"text": "סְרַהּ"
-	},
+	"sefariaHeadword": "סְרַהּ",
+	"headwords": [
+		{
+			"text": "סְרַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "b"

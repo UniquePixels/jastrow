@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01132",
-	"slug": "פלתה",
-	"headword": {
-		"text": "פלתה"
-	},
+	"sefariaHeadword": "פלתה",
+	"headwords": [
+		{
+			"text": "פלתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00777",
-	"slug": "ניקלווס",
-	"headword": {
-		"text": "נִיקְלְוָוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקְלְוָוס",
+	"headwords": [
+		{
+			"text": "נִיקְלְוָוס"
+		},
 		{
 			"text": "נִיקְלְבָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "b"

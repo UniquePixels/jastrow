@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00169",
-	"slug": "רגועה",
-	"headword": {
-		"text": "רְגוּעָה"
-	},
+	"sefariaHeadword": "רְגוּעָה",
+	"headwords": [
+		{
+			"text": "רְגוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

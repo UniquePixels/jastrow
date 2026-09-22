@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00460",
-	"slug": "מוט-3",
-	"headword": {
-		"text": "מוֹט"
-	},
+	"sefariaHeadword": "מוֹט",
+	"headwords": [
+		{
+			"text": "מוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "b"

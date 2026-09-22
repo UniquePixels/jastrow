@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02897",
-	"slug": "אקווא",
-	"headword": {
-		"text": "אַקְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַקְוָוא",
+	"headwords": [
+		{
+			"text": "אַקְוָוא"
+		},
 		{
 			"text": "אַקְהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 112,
 		"column": "a"

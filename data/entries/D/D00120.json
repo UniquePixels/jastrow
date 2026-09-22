@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00120",
-	"slug": "דגר-1",
-	"headword": {
-		"text": "דְּגַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דְּגַר I",
+	"headwords": [
+		{
+			"text": "דְּגַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 280,
 		"column": "b"

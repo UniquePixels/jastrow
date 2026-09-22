@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00199",
-	"slug": "גדידים",
-	"headword": {
-		"text": "גְּדִידִים"
-	},
+	"sefariaHeadword": "גְּדִידִים",
+	"headwords": [
+		{
+			"text": "גְּדִידִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

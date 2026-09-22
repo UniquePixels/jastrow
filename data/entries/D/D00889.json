@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00889",
-	"slug": "דמות-3",
-	"headword": {
-		"text": "דְּמוּת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּמוּת ²",
+	"headwords": [
+		{
+			"text": "דְּמוּת",
+			"disambiguator": 2
+		},
 		{
 			"text": "דְּמוּתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 312,
 		"column": "b"

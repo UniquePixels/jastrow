@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02343",
-	"slug": "מצעא-1",
-	"headword": {
-		"text": "מַצָּעָא"
-	},
+	"sefariaHeadword": "מַצָּעָא",
+	"headwords": [
+		{
+			"text": "מַצָּעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

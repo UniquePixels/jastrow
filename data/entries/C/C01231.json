@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01231",
-	"slug": "גרב-2",
-	"headword": {
-		"text": "גְּרַב"
-	},
+	"sefariaHeadword": "גְּרַב",
+	"headwords": [
+		{
+			"text": "גְּרַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "b"

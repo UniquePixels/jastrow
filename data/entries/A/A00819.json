@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00819",
-	"slug": "אופתיק",
-	"headword": {
-		"text": "אוּפְתֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּפְתֵּיק",
+	"headwords": [
+		{
+			"text": "אוּפְתֵּיק"
+		},
 		{
 			"text": "אוּפְתֵּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 32,
 		"column": "a"

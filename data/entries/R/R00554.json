@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00554",
-	"slug": "צמא-2",
-	"headword": {
-		"text": "צָמֵא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צָמֵא II",
+	"headwords": [
+		{
+			"text": "צָמֵא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1286,
 		"column": "b"

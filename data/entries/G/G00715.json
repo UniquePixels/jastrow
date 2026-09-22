@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00715",
-	"slug": "זריתיה",
-	"headword": {
-		"text": "זריתיה"
-	},
+	"sefariaHeadword": "זריתיה",
+	"headwords": [
+		{
+			"text": "זריתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

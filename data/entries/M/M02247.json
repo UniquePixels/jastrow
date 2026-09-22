@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02247",
-	"slug": "מפרנא",
-	"headword": {
-		"text": "מִפְרָנָא"
-	},
+	"sefariaHeadword": "מִפְרָנָא",
+	"headwords": [
+		{
+			"text": "מִפְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

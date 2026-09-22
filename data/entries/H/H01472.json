@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01472",
-	"slug": "חפצא-2",
-	"headword": {
-		"text": "חַפְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַפְצָא",
+	"headwords": [
+		{
+			"text": "חַפְצָא"
+		},
 		{
 			"text": "חִיפְצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 493,
 		"column": "a"

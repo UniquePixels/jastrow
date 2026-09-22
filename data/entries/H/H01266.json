@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01266",
-	"slug": "חנון-5",
-	"headword": {
-		"text": "חָנוּן",
-		"homograph": 3
-	},
+	"sefariaHeadword": "חָנוּן III",
+	"headwords": [
+		{
+			"text": "חָנוּן",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 482,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01101",
-	"slug": "בצע-2",
-	"headword": {
-		"text": "בְּצַע"
-	},
+	"sefariaHeadword": "בְּצַע",
+	"headwords": [
+		{
+			"text": "בְּצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

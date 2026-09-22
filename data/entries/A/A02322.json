@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02322",
-	"slug": "אסא-4",
-	"headword": {
-		"text": "אָסָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "אָסָא III",
+	"headwords": [
+		{
+			"text": "אָסָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 88,
 		"column": "b"

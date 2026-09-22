@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H01128",
-	"slug": "חלש-6",
-	"headword": {
-		"text": "חַלָּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַלָּשׁ ²",
+	"headwords": [
+		{
+			"text": "חַלָּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲלָשׁ"
 		},
@@ -13,6 +14,7 @@
 			"text": "חֲלָשָׁא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 474,
 		"column": "b"

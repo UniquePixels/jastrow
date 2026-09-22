@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01139",
-	"slug": "קיקאני",
-	"headword": {
-		"text": "קיקאני"
-	},
+	"sefariaHeadword": "קיקאני",
+	"headwords": [
+		{
+			"text": "קיקאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

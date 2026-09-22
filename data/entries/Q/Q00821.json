@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00821",
-	"slug": "פיקר",
-	"headword": {
-		"text": "פַּיְקַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּיְקַר",
+	"headwords": [
+		{
+			"text": "פַּיְקַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1170,
 		"column": "a"

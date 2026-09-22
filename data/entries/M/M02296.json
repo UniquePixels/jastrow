@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02296",
-	"slug": "מצוקים",
-	"headword": {
-		"text": "מְצוּקִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצוּקִים",
+	"headwords": [
+		{
+			"text": "מְצוּקִים"
+		},
 		{
 			"text": "מְצוּקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 824,
 		"column": "b"

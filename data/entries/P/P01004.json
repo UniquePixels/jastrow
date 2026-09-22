@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01004",
-	"slug": "ענף-1",
-	"headword": {
-		"text": "עָנָף"
-	},
+	"sefariaHeadword": "עָנָף",
+	"headwords": [
+		{
+			"text": "עָנָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "a"

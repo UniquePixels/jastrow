@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00390",
-	"slug": "אדורה",
-	"headword": {
-		"text": "אֲדוּרָה"
-	},
+	"sefariaHeadword": "אֲדוּרָה",
+	"headwords": [
+		{
+			"text": "אֲדוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

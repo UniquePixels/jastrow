@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00458",
-	"slug": "תימוז",
-	"headword": {
-		"text": "תִּימוֹז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תִּימוֹז",
+	"headwords": [
+		{
+			"text": "תִּימוֹז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

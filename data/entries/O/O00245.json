@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00245",
-	"slug": "סוגא-1",
-	"headword": {
-		"text": "סוּגָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סוּגָא I",
+	"headwords": [
+		{
+			"text": "סוּגָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 961,
 		"column": "a"

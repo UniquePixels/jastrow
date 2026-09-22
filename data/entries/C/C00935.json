@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00935",
-	"slug": "גליאס",
-	"headword": {
-		"text": "גליאס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גליאס",
+	"headwords": [
+		{
+			"text": "גליאס"
+		},
 		{
 			"text": "גליאסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 248,
 		"column": "b"

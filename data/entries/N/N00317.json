@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00317",
-	"slug": "נוה-4",
-	"headword": {
-		"text": "נָוֶה"
-	},
+	"sefariaHeadword": "נָוֶה",
+	"headwords": [
+		{
+			"text": "נָוֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "b"

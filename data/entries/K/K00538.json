@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00538",
-	"slug": "כילוי",
-	"headword": {
-		"text": "כִּילּוּי"
-	},
+	"sefariaHeadword": "כִּילּוּי",
+	"headwords": [
+		{
+			"text": "כִּילּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

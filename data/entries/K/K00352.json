@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00352",
-	"slug": "כופרי-2",
-	"headword": {
-		"text": "כּוּפְרִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כּוּפְרִי II",
+	"headwords": [
+		{
+			"text": "כּוּפְרִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 624,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00509",
-	"slug": "הכינה",
-	"headword": {
-		"text": "הֲכִינָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֲכִינָה",
+	"headwords": [
+		{
+			"text": "הֲכִינָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

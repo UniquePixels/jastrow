@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00610",
-	"slug": "לעיג",
-	"headword": {
-		"text": "לְעֵיג"
-	},
+	"sefariaHeadword": "לְעֵיג",
+	"headwords": [
+		{
+			"text": "לְעֵיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

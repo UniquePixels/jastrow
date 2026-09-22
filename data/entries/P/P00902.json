@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00902",
-	"slug": "עמלה",
-	"headword": {
-		"text": "עֲמֵלָה"
-	},
+	"sefariaHeadword": "עֲמֵלָה",
+	"headwords": [
+		{
+			"text": "עֲמֵלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "a"

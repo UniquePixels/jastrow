@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01219",
-	"slug": "חמר-2",
-	"headword": {
-		"text": "חֲמַר"
-	},
+	"sefariaHeadword": "חֲמַר",
+	"headwords": [
+		{
+			"text": "חֲמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 479,
 		"column": "b"
@@ -16,7 +20,7 @@
 	],
 	"stems": [
 		{
-			"forms": ["חַמַּר"],
+			"forms": ["חַמַּר"],
 			"senses": [],
 			"stem": "Pa."
 		},

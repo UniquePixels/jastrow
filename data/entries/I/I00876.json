@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00876",
-	"slug": "טרפיזין",
-	"headword": {
-		"text": "טְרַפִּיזִין"
-	},
+	"sefariaHeadword": "טְרַפִּיזִין",
+	"headwords": [
+		{
+			"text": "טְרַפִּיזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "a"

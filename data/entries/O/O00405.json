@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00405",
-	"slug": "סופת",
-	"headword": {
-		"text": "סוֹפֶת"
-	},
+	"sefariaHeadword": "סוֹפֶת",
+	"headwords": [
+		{
+			"text": "סוֹפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "a"

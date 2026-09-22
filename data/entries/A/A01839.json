@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01839",
-	"slug": "אליה",
-	"headword": {
-		"text": "אַלְיָה"
-	},
+	"sefariaHeadword": "אַלְיָה",
+	"headwords": [
+		{
+			"text": "אַלְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

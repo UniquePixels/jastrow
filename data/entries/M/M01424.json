@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M01424",
-	"slug": "מכסורין",
-	"headword": {
-		"text": "מִכְסוֹרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מִכְסוֹרִין",
+	"headwords": [
 		{
-			"text": "מַכְסִי׳"
+			"text": "מִכְסוֹרִין",
+			"reconstructed": true
+		},
+		{
+			"text": "מַכְסִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 784,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00413",
-	"slug": "חוסן",
-	"headword": {
-		"text": "חוֹסֶן"
-	},
+	"sefariaHeadword": "חוֹסֶן",
+	"headwords": [
+		{
+			"text": "חוֹסֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

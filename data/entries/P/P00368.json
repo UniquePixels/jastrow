@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00368",
-	"slug": "עושף",
-	"headword": {
-		"text": "עוֹשֶׁף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹשֶׁף",
+	"headwords": [
+		{
+			"text": "עוֹשֶׁף"
+		},
 		{
 			"text": "עשֶׁף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1059,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00661",
-	"slug": "ירקונא-1",
-	"headword": {
-		"text": "יַרְקוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַרְקוֹנָא",
+	"headwords": [
+		{
+			"text": "יַרְקוֹנָא"
+		},
 		{
 			"text": "יַרְקָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 598,
 		"column": "a"

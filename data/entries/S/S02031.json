@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02031",
-	"slug": "קריאסות",
-	"headword": {
-		"text": "קריאסות"
-	},
+	"sefariaHeadword": "קריאסות",
+	"headwords": [
+		{
+			"text": "קריאסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "b"

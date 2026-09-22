@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01920",
-	"slug": "אלמנה",
-	"headword": {
-		"text": "אַלְמָנָה"
-	},
+	"sefariaHeadword": "אַלְמָנָה",
+	"headwords": [
+		{
+			"text": "אַלְמָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "a"

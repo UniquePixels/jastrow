@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00594",
-	"slug": "ירבוז",
-	"headword": {
-		"text": "יַרְבּוּז"
-	},
+	"sefariaHeadword": "יַרְבּוּז",
+	"headwords": [
+		{
+			"text": "יַרְבּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "b"

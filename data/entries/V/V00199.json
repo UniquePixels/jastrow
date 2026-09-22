@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00199",
-	"slug": "תוכברא",
-	"headword": {
-		"text": "תּוּכְבְּרָא"
-	},
+	"sefariaHeadword": "תּוּכְבְּרָא",
+	"headwords": [
+		{
+			"text": "תּוּכְבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "b"

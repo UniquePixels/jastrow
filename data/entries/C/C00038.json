@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00038",
-	"slug": "גבאי",
-	"headword": {
-		"text": "גַּבַּאי"
-	},
+	"sefariaHeadword": "גַּבַּאי",
+	"headwords": [
+		{
+			"text": "גַּבַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "b"

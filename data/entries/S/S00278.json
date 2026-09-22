@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00278",
-	"slug": "קוזמידיא",
-	"headword": {
-		"text": "קוֹזְמִידְיָא"
-	},
+	"sefariaHeadword": "קוֹזְמִידְיָא",
+	"headwords": [
+		{
+			"text": "קוֹזְמִידְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "b"

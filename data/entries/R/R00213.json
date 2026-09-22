@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00213",
-	"slug": "צועה",
-	"headword": {
-		"text": "צוּעָה"
-	},
+	"sefariaHeadword": "צוּעָה",
+	"headwords": [
+		{
+			"text": "צוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "b"

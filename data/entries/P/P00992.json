@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00992",
-	"slug": "ענין",
-	"headword": {
-		"text": "עִנְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְיָן",
+	"headwords": [
+		{
+			"text": "עִנְיָן"
+		},
 		{
 			"text": "עִנְיָין"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1095,
 		"column": "a"

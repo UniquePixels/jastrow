@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00438",
-	"slug": "ציצי",
-	"headword": {
-		"text": "צִיצִי"
-	},
+	"sefariaHeadword": "צִיצִי",
+	"headwords": [
+		{
+			"text": "צִיצִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

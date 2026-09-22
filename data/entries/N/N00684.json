@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00684",
-	"slug": "נימוק-2",
-	"headword": {
-		"text": "נִימּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִימּוּק",
+	"headwords": [
 		{
-			"text": "נִמּ׳"
+			"text": "נִימּוּק"
+		},
+		{
+			"text": "נִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 905,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01119",
-	"slug": "בקיא",
-	"headword": {
-		"text": "בִּקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּקְיָא",
+	"headwords": [
+		{
+			"text": "בִּקְיָא"
+		},
 		{
 			"text": "בִּקְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 186,
 		"column": "a"

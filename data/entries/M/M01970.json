@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01970",
-	"slug": "מסמר-2",
-	"headword": {
-		"text": "מַסְמָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַסְמָר ²",
+	"headwords": [
+		{
+			"text": "מַסְמָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַסְמְרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 809,
 		"column": "a"

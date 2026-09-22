@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00517",
-	"slug": "הכנה",
-	"headword": {
-		"text": "הֲכָנָה"
-	},
+	"sefariaHeadword": "הֲכָנָה",
+	"headwords": [
+		{
+			"text": "הֲכָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

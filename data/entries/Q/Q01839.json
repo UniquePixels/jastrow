@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01839",
-	"slug": "פרישות",
-	"headword": {
-		"text": "פְּרִישׁוּת"
-	},
+	"sefariaHeadword": "פְּרִישׁוּת",
+	"headwords": [
+		{
+			"text": "פְּרִישׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1228,
 		"column": "a"

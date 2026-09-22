@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01651",
-	"slug": "פרוזבטים",
-	"headword": {
-		"text": "פרוזבטים"
-	},
+	"sefariaHeadword": "פרוזבטים",
+	"headwords": [
+		{
+			"text": "פרוזבטים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "b"

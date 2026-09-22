@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00552",
-	"slug": "אוגרת",
-	"headword": {
-		"text": "אוֹגֶרֶת"
-	},
+	"sefariaHeadword": "אוֹגֶרֶת",
+	"headwords": [
+		{
+			"text": "אוֹגֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

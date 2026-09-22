@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00625",
-	"slug": "ריחיים",
-	"headword": {
-		"text": "רֵיחַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיחַיִים",
+	"headwords": [
+		{
+			"text": "רֵיחַיִים"
+		},
 		{
 			"text": "רֵיחַיִם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1474,
 		"column": "a"

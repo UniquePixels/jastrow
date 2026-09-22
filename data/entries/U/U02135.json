@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02135",
-	"slug": "שתק-2",
-	"headword": {
-		"text": "שְׁתֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתֵק",
+	"headwords": [
+		{
+			"text": "שְׁתֵק"
+		},
 		{
 			"text": "שְׁתֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1640,
 		"column": "a"

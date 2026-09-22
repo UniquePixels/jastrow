@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01239",
-	"slug": "מיסב-1",
-	"headword": {
-		"text": "מִיסַּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיסַּב",
+	"headwords": [
+		{
+			"text": "מִיסַּב"
+		},
 		{
 			"text": "מֵיסַב"
 		},
@@ -15,6 +16,7 @@
 			"text": "מְסַב"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 777,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01409",
-	"slug": "ספקה",
-	"headword": {
-		"text": "סְפֵקָה"
-	},
+	"sefariaHeadword": "סְפֵקָה",
+	"headwords": [
+		{
+			"text": "סְפֵקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1017,
 		"column": "a"

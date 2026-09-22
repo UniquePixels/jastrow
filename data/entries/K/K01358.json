@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01358",
-	"slug": "כתיבה",
-	"headword": {
-		"text": "כְּתִיבָה"
-	},
+	"sefariaHeadword": "כְּתִיבָה",
+	"headwords": [
+		{
+			"text": "כְּתִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "a"

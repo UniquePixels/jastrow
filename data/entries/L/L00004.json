@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00004",
-	"slug": "לא-2",
-	"headword": {
-		"text": "לָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לָא I",
+	"headwords": [
+		{
+			"text": "לָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 685,
 		"column": "a"

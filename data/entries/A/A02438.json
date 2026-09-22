@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02438",
-	"slug": "אסיני",
-	"headword": {
-		"text": "אֲסִינֵי"
-	},
+	"sefariaHeadword": "אֲסִינֵי",
+	"headwords": [
+		{
+			"text": "אֲסִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

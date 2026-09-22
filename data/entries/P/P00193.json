@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00193",
-	"slug": "עוגיא",
-	"headword": {
-		"text": "עוּגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּגְיָא",
+	"headwords": [
+		{
+			"text": "עוּגְיָא"
+		},
 		{
 			"text": "עוּגְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1047,
 		"column": "b"

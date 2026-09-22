@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00002",
-	"slug": "חאי",
-	"headword": {
-		"text": "חָאִי"
-	},
+	"sefariaHeadword": "חָאִי",
+	"headwords": [
+		{
+			"text": "חָאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

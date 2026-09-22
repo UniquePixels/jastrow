@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01046",
-	"slug": "קינין-2",
-	"headword": {
-		"text": "קִינְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינְיָן",
+	"headwords": [
+		{
+			"text": "קִינְיָן"
+		},
 		{
 			"text": "קִינְיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1364,
 		"column": "a"

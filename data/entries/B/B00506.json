@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00506",
-	"slug": "בטיח",
-	"headword": {
-		"text": "בַּטִּיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּטִּיחַ",
+	"headwords": [
 		{
-			"text": "בֶּן בַּטִּיחַ"
+			"text": "בַּטִּיחַ"
+		},
+		{
+			"text": "בֶּן ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 156,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00038",
-	"slug": "כבוד-2",
-	"headword": {
-		"text": "כִּבּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּבּוּד",
+	"headwords": [
+		{
+			"text": "כִּבּוּד"
+		},
 		{
 			"text": "כִּבּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 607,
 		"column": "b"

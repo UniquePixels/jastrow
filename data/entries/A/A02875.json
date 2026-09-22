@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02875",
-	"slug": "אצייא",
-	"headword": {
-		"text": "אִצְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִצְיָיא",
+	"headwords": [
+		{
+			"text": "אִצְיָיא"
+		},
 		{
 			"text": "אִיצְיָיא"
 		},
 		{
-			"text": "אוּצְ׳"
+			"text": "אוּצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 111,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00907",
-	"slug": "אורנוס",
-	"headword": {
-		"text": "אַוְרַנּוֹס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַוְרַנֹּוס",
+	"headwords": [
+		{
+			"text": "אַוְרַנּוֹס",
+			"reconstructed": true
+		},
 		{
 			"text": "אַבְרַנּוֹס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 35,
 		"column": "a"

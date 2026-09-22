@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00045",
-	"slug": "לבדא-2",
-	"headword": {
-		"text": "לַבַּדָּא"
-	},
+	"sefariaHeadword": "לַבַּדָּא",
+	"headwords": [
+		{
+			"text": "לַבַּדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

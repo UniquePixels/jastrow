@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00230",
-	"slug": "אברתא",
-	"headword": {
-		"text": "אַבְרָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְרָתָא",
+	"headwords": [
+		{
+			"text": "אַבְרָתָא"
+		},
 		{
 			"text": "אַבְרָתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 10,
 		"column": "a"

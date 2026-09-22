@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00653",
-	"slug": "טפיין",
-	"headword": {
-		"text": "טַפְיָין"
-	},
+	"sefariaHeadword": "טַפְיָין",
+	"headwords": [
+		{
+			"text": "טַפְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

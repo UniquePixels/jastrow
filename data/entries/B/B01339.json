@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01339",
-	"slug": "ברת-1",
-	"headword": {
-		"text": "בְּרַת",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרַת I",
+	"headwords": [
+		{
+			"text": "בְּרַת",
+			"homograph": 1
+		},
 		{
 			"text": "בְּרַתָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 198,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00227",
-	"slug": "דוחינא",
-	"headword": {
-		"text": "דּוֹחִינָא"
-	},
+	"sefariaHeadword": "דּוֹחִינָא",
+	"headwords": [
+		{
+			"text": "דּוֹחִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 284,
 		"column": "a"

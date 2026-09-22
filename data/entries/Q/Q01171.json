@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01171",
-	"slug": "פנחיא",
-	"headword": {
-		"text": "פְּנַחְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנַחְיָא",
+	"headwords": [
+		{
+			"text": "פְּנַחְיָא"
+		},
 		{
 			"text": "פְּנַחְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1187,
 		"column": "a"

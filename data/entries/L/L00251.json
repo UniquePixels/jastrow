@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00251",
-	"slug": "לוי-5",
-	"headword": {
-		"text": "לֵוִי"
-	},
+	"sefariaHeadword": "לֵוִי",
+	"headwords": [
+		{
+			"text": "לֵוִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 697,
 		"column": "b"

@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00364",
-	"slug": "כור-3",
-	"headword": {
-		"text": "כּוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כּוּר I",
+	"headwords": [
+		{
+			"text": "כּוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 625,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

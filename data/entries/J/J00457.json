@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00457",
-	"slug": "יסודא",
-	"headword": {
-		"text": "יְסוֹדָא"
-	},
+	"sefariaHeadword": "יְסוֹדָא",
+	"headwords": [
+		{
+			"text": "יְסוֹדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "b"

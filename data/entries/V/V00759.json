@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "V00759",
-	"slug": "תסברית",
-	"headword": {
-		"text": "תִּסְבָּרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְבָּרִית",
+	"headwords": [
 		{
-			"text": "תִּסְוָו׳"
+			"text": "תִּסְבָּרִית"
 		},
 		{
-			"text": "תִּי׳"
+			"text": "תִּסְוָו׳",
+			"partial": true
 		},
 		{
-			"text": "תּוּ׳"
+			"text": "תִּי׳",
+			"partial": true
+		},
+		{
+			"text": "תּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1682,
 		"column": "b"

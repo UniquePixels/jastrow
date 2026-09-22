@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00879",
-	"slug": "כנרת",
-	"headword": {
-		"text": "כִּנֶּרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנֶּרֶת",
+	"headwords": [
 		{
-			"text": "כִּינֶּ׳"
+			"text": "כִּנֶּרֶת"
+		},
+		{
+			"text": "כִּינֶּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 651,
 		"column": "b"

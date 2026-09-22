@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00157",
-	"slug": "תודה-1",
-	"headword": {
-		"text": "תּוֹדָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תּוֹדָה I",
+	"headwords": [
+		{
+			"text": "תּוֹדָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1650,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00545",
-	"slug": "קוצרי",
-	"headword": {
-		"text": "קוֹצְרִי"
-	},
+	"sefariaHeadword": "קוֹצְרִי",
+	"headwords": [
+		{
+			"text": "קוֹצְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

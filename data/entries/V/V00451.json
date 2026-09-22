@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00451",
-	"slug": "תילים-1",
-	"headword": {
-		"text": "תִּילִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּילִּים",
+	"headwords": [
+		{
+			"text": "תִּילִּים"
+		},
 		{
 			"text": "תִּילּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1664,
 		"column": "b"

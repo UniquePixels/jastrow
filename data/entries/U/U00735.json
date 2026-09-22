@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00735",
-	"slug": "שטוח",
-	"headword": {
-		"text": "שָׁטוֹחַ"
-	},
+	"sefariaHeadword": "שָׁטוֹחַ",
+	"headwords": [
+		{
+			"text": "שָׁטוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "b"

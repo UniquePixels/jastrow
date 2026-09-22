@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00980",
-	"slug": "חלך-1",
-	"headword": {
-		"text": "חָלַך"
-	},
+	"sefariaHeadword": "חָלַך",
+	"headwords": [
+		{
+			"text": "חָלַך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

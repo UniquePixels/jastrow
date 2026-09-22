@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02041",
-	"slug": "שרשום",
-	"headword": {
-		"text": "שַׁרְשׁוּם"
-	},
+	"sefariaHeadword": "שַׁרְשׁוּם",
+	"headwords": [
+		{
+			"text": "שַׁרְשׁוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

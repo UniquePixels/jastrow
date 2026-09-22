@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01112",
-	"slug": "דרניקוס",
-	"headword": {
-		"text": "דרניקוס"
-	},
+	"sefariaHeadword": "דרניקוס",
+	"headwords": [
+		{
+			"text": "דרניקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "b"

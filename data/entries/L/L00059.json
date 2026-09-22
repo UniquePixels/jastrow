@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00059",
-	"slug": "לבוש-1",
-	"headword": {
-		"text": "לְבוּשׁ"
-	},
+	"sefariaHeadword": "לְבוּשׁ",
+	"headwords": [
+		{
+			"text": "לְבוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "a"

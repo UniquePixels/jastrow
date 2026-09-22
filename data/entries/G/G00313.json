@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00313",
-	"slug": "זיונא-2",
-	"headword": {
-		"text": "זִיּוּנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זִיּוּנָא II",
+	"headwords": [
+		{
+			"text": "זִיּוּנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 392,
 		"column": "b"

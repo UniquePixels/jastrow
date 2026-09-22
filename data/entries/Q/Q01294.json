@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01294",
-	"slug": "פסילייה",
-	"headword": {
-		"text": "פְּסִילְיָיה"
-	},
+	"sefariaHeadword": "פְּסִילְיָיה",
+	"headwords": [
+		{
+			"text": "פְּסִילְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

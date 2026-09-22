@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00532",
-	"slug": "קוץ-7",
-	"headword": {
-		"text": "קוּץ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קוּץ ²",
+	"headwords": [
+		{
+			"text": "קוּץ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1339,
 		"column": "a"

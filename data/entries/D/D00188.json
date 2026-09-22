@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00188",
-	"slug": "דוגין",
-	"headword": {
-		"text": "דוגין"
-	},
+	"sefariaHeadword": "דוגין",
+	"headwords": [
+		{
+			"text": "דוגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

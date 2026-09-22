@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00525",
-	"slug": "ליש-3",
-	"headword": {
-		"text": "לַיִשׁ",
-		"homograph": 3
-	},
+	"sefariaHeadword": "לַיִשׁ III",
+	"headwords": [
+		{
+			"text": "לַיִשׁ",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 710,
 		"column": "a"

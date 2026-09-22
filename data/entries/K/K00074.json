@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00074",
-	"slug": "כבר-4",
-	"headword": {
-		"text": "כָּבַר"
-	},
+	"sefariaHeadword": "כָּבַר",
+	"headwords": [
+		{
+			"text": "כָּבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 609,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00377",
-	"slug": "סוסרנא",
-	"headword": {
-		"text": "סוּסִרְנָא"
-	},
+	"sefariaHeadword": "סוּסִרְנָא",
+	"headwords": [
+		{
+			"text": "סוּסִרְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "a"

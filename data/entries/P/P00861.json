@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00861",
-	"slug": "עמדה-1",
-	"headword": {
-		"text": "עֲמָדָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲמָדָה II",
+	"headwords": [
+		{
+			"text": "עֲמָדָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1086,
 		"column": "b"

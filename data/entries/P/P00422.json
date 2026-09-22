@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00422",
-	"slug": "עזקה",
-	"headword": {
-		"text": "עֲזֵקָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲזֵקָה",
+	"headwords": [
+		{
+			"text": "עֲזֵקָה"
+		},
 		{
 			"text": "עֲזֵיקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1062,
 		"column": "a"

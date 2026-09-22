@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00614",
-	"slug": "תלסיוס",
-	"headword": {
-		"text": "תַּלַּסְיוֹס"
-	},
+	"sefariaHeadword": "תַּלַּסְיוֹס",
+	"headwords": [
+		{
+			"text": "תַּלַּסְיוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1673,
 		"column": "a"

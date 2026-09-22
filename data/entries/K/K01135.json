@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01135",
-	"slug": "כרז-1",
-	"headword": {
-		"text": "כָּרַז"
-	},
+	"sefariaHeadword": "כָּרַז",
+	"headwords": [
+		{
+			"text": "כָּרַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

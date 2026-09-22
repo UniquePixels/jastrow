@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01116",
-	"slug": "קיץ-2",
-	"headword": {
-		"text": "קַיִץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיִץ",
+	"headwords": [
+		{
+			"text": "קַיִץ"
+		},
 		{
 			"text": "קַיִיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1366,
 		"column": "b"

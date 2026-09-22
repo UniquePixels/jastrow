@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00685",
-	"slug": "מושך",
-	"headword": {
-		"text": "מוֹשְׁךְ"
-	},
+	"sefariaHeadword": "מוֹשְׁךְ",
+	"headwords": [
+		{
+			"text": "מוֹשְׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

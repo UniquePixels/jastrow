@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00141",
-	"slug": "עדילרין",
-	"headword": {
-		"text": "עדילרין"
-	},
+	"sefariaHeadword": "עדילרין",
+	"headwords": [
+		{
+			"text": "עדילרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

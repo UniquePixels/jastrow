@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02717",
-	"slug": "אפיקלין",
-	"headword": {
-		"text": "אפיקלין"
-	},
+	"sefariaHeadword": "אפיקלין",
+	"headwords": [
+		{
+			"text": "אפיקלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

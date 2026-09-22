@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00714",
-	"slug": "מזג-3",
-	"headword": {
-		"text": "מְזָג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְזָג",
+	"headwords": [
+		{
+			"text": "מְזָג"
+		},
 		{
 			"text": "מִזְגָג"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 753,
 		"column": "a"

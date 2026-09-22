@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01001",
-	"slug": "בסירותא",
-	"headword": {
-		"text": "בְּסִירוּתָא"
-	},
+	"sefariaHeadword": "בְּסִירוּתָא",
+	"headwords": [
+		{
+			"text": "בְּסִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 179,
 		"column": "a"

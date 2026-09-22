@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01179",
-	"slug": "סנדלא",
-	"headword": {
-		"text": "סַנְדְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְדְּלָא",
+	"headwords": [
+		{
+			"text": "סַנְדְּלָא"
+		},
 		{
 			"text": "סַנְדַּלָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1004,
 		"column": "b"

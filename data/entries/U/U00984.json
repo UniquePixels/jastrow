@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00984",
-	"slug": "שיסוע",
-	"headword": {
-		"text": "שִׁיסּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיסּוּעַ",
+	"headwords": [
 		{
-			"text": "שִׁסּ׳"
+			"text": "שִׁיסּוּעַ"
+		},
+		{
+			"text": "שִׁסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1565,
 		"column": "a"

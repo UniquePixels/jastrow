@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00977",
-	"slug": "אזמאזמא",
-	"headword": {
-		"text": "אזמאזמא"
-	},
+	"sefariaHeadword": "אזמאזמא",
+	"headwords": [
+		{
+			"text": "אזמאזמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

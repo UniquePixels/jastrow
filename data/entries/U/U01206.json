@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01206",
-	"slug": "שלבק",
-	"headword": {
-		"text": "שִׁלְבֵּק"
-	},
+	"sefariaHeadword": "שִׁלְבֵּק",
+	"headwords": [
+		{
+			"text": "שִׁלְבֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1577,
 		"column": "b"

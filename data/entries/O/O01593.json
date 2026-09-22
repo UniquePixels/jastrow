@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01593",
-	"slug": "סרטנא",
-	"headword": {
-		"text": "סרטנא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרטנא",
+	"headwords": [
+		{
+			"text": "סרטנא"
+		},
 		{
 			"text": "סרטנה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1026,
 		"column": "a"

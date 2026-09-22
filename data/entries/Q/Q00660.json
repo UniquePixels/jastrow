@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00660",
-	"slug": "פיל-1",
-	"headword": {
-		"text": "פִּיל"
-	},
+	"sefariaHeadword": "פִּיל",
+	"headwords": [
+		{
+			"text": "פִּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "a"

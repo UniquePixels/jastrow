@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00306",
-	"slug": "נוגש",
-	"headword": {
-		"text": "נוֹגֵשׂ"
-	},
+	"sefariaHeadword": "נוֹגֵשׂ",
+	"headwords": [
+		{
+			"text": "נוֹגֵשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

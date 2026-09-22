@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00017",
-	"slug": "תאום",
-	"headword": {
-		"text": "תְּאוֹם"
-	},
+	"sefariaHeadword": "תְּאוֹם",
+	"headwords": [
+		{
+			"text": "תְּאוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

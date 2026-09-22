@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02972",
-	"slug": "משרה",
-	"headword": {
-		"text": "מִשְׁרָה"
-	},
+	"sefariaHeadword": "מִשְׁרָה",
+	"headwords": [
+		{
+			"text": "מִשְׁרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "b"

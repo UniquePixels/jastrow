@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00404",
-	"slug": "רונונית",
-	"headword": {
-		"text": "רונונית"
-	},
+	"sefariaHeadword": "רונונית",
+	"headwords": [
+		{
+			"text": "רונונית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

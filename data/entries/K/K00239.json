@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00239",
-	"slug": "כוחלא",
-	"headword": {
-		"text": "כּוֹחֲלָא"
-	},
+	"sefariaHeadword": "כּוֹחֲלָא",
+	"headwords": [
+		{
+			"text": "כּוֹחֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02049",
-	"slug": "פרתוניא",
-	"headword": {
-		"text": "פַּרְתּוֹנָיָא"
-	},
+	"sefariaHeadword": "פַּרְתּוֹנָיָא",
+	"headwords": [
+		{
+			"text": "פַּרְתּוֹנָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "b"

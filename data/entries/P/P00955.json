@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00955",
-	"slug": "ענובא",
-	"headword": {
-		"text": "עֲנוּבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲנוּבָּא",
+	"headwords": [
+		{
+			"text": "עֲנוּבָּא"
+		},
 		{
 			"text": "עֲנוּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1092,
 		"column": "a"

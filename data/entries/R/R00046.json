@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00046",
-	"slug": "צביעה-2",
-	"headword": {
-		"text": "צְבִיעָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְבִיעָה II",
+	"headwords": [
+		{
+			"text": "צְבִיעָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1258,
 		"column": "b"

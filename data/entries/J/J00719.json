@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00719",
-	"slug": "יתוך",
-	"headword": {
-		"text": "יַתּוּךְ"
-	},
+	"sefariaHeadword": "יַתּוּךְ",
+	"headwords": [
+		{
+			"text": "יַתּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 603,
 		"column": "a"

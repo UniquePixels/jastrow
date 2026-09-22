@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00695",
-	"slug": "סימונא",
-	"headword": {
-		"text": "סִימוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימוּנָא",
+	"headwords": [
 		{
-			"text": "סִימוּנָא דְאַגְמָא"
+			"text": "סִימוּנָא"
+		},
+		{
+			"text": "ס׳ דְאַגְמָא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "a"

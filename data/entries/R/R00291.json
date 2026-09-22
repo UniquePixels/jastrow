@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00291",
-	"slug": "ציב",
-	"headword": {
-		"text": "צִיב"
-	},
+	"sefariaHeadword": "צִיב",
+	"headwords": [
+		{
+			"text": "צִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "a"

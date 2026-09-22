@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00152",
-	"slug": "נגיד-1",
-	"headword": {
-		"text": "נָגִיד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָגִיד I",
+	"headwords": [
+		{
+			"text": "נָגִיד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 874,
 		"column": "a"

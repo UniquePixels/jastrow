@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00187",
-	"slug": "הובלילא",
-	"headword": {
-		"text": "הוֹבְלִילָא"
-	},
+	"sefariaHeadword": "הוֹבְלִילָא",
+	"headwords": [
+		{
+			"text": "הוֹבְלִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

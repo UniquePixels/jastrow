@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00131",
-	"slug": "רבעא",
-	"headword": {
-		"text": "רִבְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְעָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִבְעָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1445,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00826",
-	"slug": "גירור",
-	"headword": {
-		"text": "גירור"
-	},
+	"sefariaHeadword": "גירור",
+	"headwords": [
+		{
+			"text": "גירור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

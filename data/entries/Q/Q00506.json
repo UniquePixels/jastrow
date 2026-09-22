@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00506",
-	"slug": "פטטא",
-	"headword": {
-		"text": "פַּטָּטָא"
-	},
+	"sefariaHeadword": "פַּטָּטָא",
+	"headwords": [
+		{
+			"text": "פַּטָּטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

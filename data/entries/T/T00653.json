@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00653",
-	"slug": "ריננית",
-	"headword": {
-		"text": "ריננית"
-	},
+	"sefariaHeadword": "ריננית",
+	"headwords": [
+		{
+			"text": "ריננית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

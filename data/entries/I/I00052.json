@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00052",
-	"slug": "טביחה",
-	"headword": {
-		"text": "טְבִיחָה"
-	},
+	"sefariaHeadword": "טְבִיחָה",
+	"headwords": [
+		{
+			"text": "טְבִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "b"

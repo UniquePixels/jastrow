@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00716",
-	"slug": "זרכאי",
-	"headword": {
-		"text": "זרכאי"
-	},
+	"sefariaHeadword": "זרכאי",
+	"headwords": [
+		{
+			"text": "זרכאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

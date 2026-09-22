@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02192",
-	"slug": "פתע",
-	"headword": {
-		"text": "פֶּתַע"
-	},
+	"sefariaHeadword": "פֶּתַע",
+	"headwords": [
+		{
+			"text": "פֶּתַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

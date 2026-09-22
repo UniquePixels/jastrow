@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01315",
-	"slug": "פסיקה-2",
-	"headword": {
-		"text": "פְּסִיקָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פְּסִיקָה ²",
+	"headwords": [
+		{
+			"text": "פְּסִיקָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1196,
 		"column": "b"

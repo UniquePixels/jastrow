@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02099",
-	"slug": "קרמתא",
-	"headword": {
-		"text": "קְרִמְתָּא"
-	},
+	"sefariaHeadword": "קְרִמְתָּא",
+	"headwords": [
+		{
+			"text": "קְרִמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1422,
 		"column": "a"

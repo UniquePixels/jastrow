@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03289",
-	"slug": "אשין",
-	"headword": {
-		"text": "אָשִׁין"
-	},
+	"sefariaHeadword": "אָשִׁין",
+	"headwords": [
+		{
+			"text": "אָשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

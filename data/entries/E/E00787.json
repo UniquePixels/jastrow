@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00787",
-	"slug": "הצתה",
-	"headword": {
-		"text": "הַצָּתָה"
-	},
+	"sefariaHeadword": "הַצָּתָה",
+	"headwords": [
+		{
+			"text": "הַצָּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "a"

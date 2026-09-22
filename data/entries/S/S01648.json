@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01648",
-	"slug": "קסטיטיריון",
-	"headword": {
-		"text": "קסטיטיריון"
-	},
+	"sefariaHeadword": "קסטיטיריון",
+	"headwords": [
+		{
+			"text": "קסטיטיריון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

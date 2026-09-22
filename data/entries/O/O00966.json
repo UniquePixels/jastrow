@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00966",
-	"slug": "סלון",
-	"headword": {
-		"text": "סִלּוֹן"
-	},
+	"sefariaHeadword": "סִלּוֹן",
+	"headwords": [
+		{
+			"text": "סִלּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

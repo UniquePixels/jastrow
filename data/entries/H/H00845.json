@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00845",
-	"slug": "חיפה-4",
-	"headword": {
-		"text": "חֵיפָה",
-		"homograph": 3
-	},
+	"sefariaHeadword": "חֵיפָה III",
+	"headwords": [
+		{
+			"text": "חֵיפָה",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 459,
 		"column": "a"

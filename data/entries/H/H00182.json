@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00182",
-	"slug": "חדודי",
-	"headword": {
-		"text": "חדודי"
-	},
+	"sefariaHeadword": "חדודי",
+	"headwords": [
+		{
+			"text": "חדודי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

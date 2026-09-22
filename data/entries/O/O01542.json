@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01542",
-	"slug": "סרה-1",
-	"headword": {
-		"text": "סָרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סָרָה I",
+	"headwords": [
+		{
+			"text": "סָרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1023,
 		"column": "b"

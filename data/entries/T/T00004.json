@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00004",
-	"slug": "ראגניות",
-	"headword": {
-		"text": "ראגניות"
-	},
+	"sefariaHeadword": "ראגניות",
+	"headwords": [
+		{
+			"text": "ראגניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1435,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00211",
-	"slug": "עוון-2",
-	"headword": {
-		"text": "עוון"
-	},
+	"sefariaHeadword": "עוון",
+	"headwords": [
+		{
+			"text": "עוון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

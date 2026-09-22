@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00534",
-	"slug": "טמדוריא",
-	"headword": {
-		"text": "טַמְדּוּרְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַמְדּוּרְיָא",
+	"headwords": [
+		{
+			"text": "טַמְדּוּרְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 539,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

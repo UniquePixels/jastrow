@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01001",
-	"slug": "קימאה",
-	"headword": {
-		"text": "קִימְאָה"
-	},
+	"sefariaHeadword": "קִימְאָה",
+	"headwords": [
+		{
+			"text": "קִימְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

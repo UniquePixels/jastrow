@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01781",
-	"slug": "אלה-2",
-	"headword": {
-		"text": "אָלָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אָלָה ²",
+	"headwords": [
+		{
+			"text": "אָלָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 66,
 		"column": "b"

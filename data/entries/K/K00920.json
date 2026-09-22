@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00920",
-	"slug": "כסיאן",
-	"headword": {
-		"text": "כַּסְיָאן"
-	},
+	"sefariaHeadword": "כַּסְיָאן",
+	"headwords": [
+		{
+			"text": "כַּסְיָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 653,
 		"column": "b"

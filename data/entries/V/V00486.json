@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00486",
-	"slug": "תיקול",
-	"headword": {
-		"text": "תיקול"
-	},
+	"sefariaHeadword": "תיקול",
+	"headwords": [
+		{
+			"text": "תיקול"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "a"

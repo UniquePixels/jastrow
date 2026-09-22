@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01094",
-	"slug": "חלמין",
-	"headword": {
-		"text": "חלמין"
-	},
+	"sefariaHeadword": "חלמין",
+	"headwords": [
+		{
+			"text": "חלמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 471,
 		"column": "b"

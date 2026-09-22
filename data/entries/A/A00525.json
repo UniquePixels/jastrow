@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00525",
-	"slug": "אובינות",
-	"headword": {
-		"text": "אובינות"
-	},
+	"sefariaHeadword": "אובינות",
+	"headwords": [
+		{
+			"text": "אובינות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "a"

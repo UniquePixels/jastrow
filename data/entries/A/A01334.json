@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01334",
-	"slug": "אימורים-1",
-	"headword": {
-		"text": "אֵימוּרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵימוּרִים",
+	"headwords": [
+		{
+			"text": "אֵימוּרִים"
+		},
 		{
 			"text": "אֲמוּרִים"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 50,
 		"column": "b"

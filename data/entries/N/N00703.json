@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00703",
-	"slug": "ניסוך-1",
-	"headword": {
-		"text": "נִיסּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיסּוּךְ",
+	"headwords": [
 		{
-			"text": "נִסּ׳"
+			"text": "נִיסּוּךְ"
+		},
+		{
+			"text": "נִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 906,
 		"column": "a"

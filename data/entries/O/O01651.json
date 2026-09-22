@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O01651",
-	"slug": "סרסור-2",
-	"headword": {
-		"text": "סִרְסוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִרְסוּר ²",
+	"headwords": [
+		{
+			"text": "סִרְסוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "סִרְסוֹרָא"
 		},
 		{
-			"text": "סִירְ׳"
+			"text": "סִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1029,
 		"column": "a"

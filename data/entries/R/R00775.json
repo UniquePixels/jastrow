@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00775",
-	"slug": "צריך-4",
-	"headword": {
-		"text": "צְרִיךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרִיךְ ²",
+	"headwords": [
+		{
+			"text": "צְרִיךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "צְרִיכָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1301,
 		"column": "b"

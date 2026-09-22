@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01194",
-	"slug": "איזה",
-	"headword": {
-		"text": "אֵיזֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵיזֶה",
+	"headwords": [
+		{
+			"text": "אֵיזֶה"
+		},
 		{
 			"text": "אֵיזֶהוּ"
 		},
 		{
-			"text": "אֵזֶ׳"
+			"text": "אֵזֶ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 46,
 		"column": "b"

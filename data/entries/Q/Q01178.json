@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01178",
-	"slug": "פנטירא",
-	"headword": {
-		"text": "פַּנְטֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְטֵירָא",
+	"headwords": [
+		{
+			"text": "פַּנְטֵירָא"
+		},
 		{
 			"text": "פַּנְטֵירִי",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1187,
 		"column": "a"

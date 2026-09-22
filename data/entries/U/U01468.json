@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01468",
-	"slug": "שמים",
-	"headword": {
-		"text": "שָׁמַיִם"
-	},
+	"sefariaHeadword": "שָׁמַיִם",
+	"headwords": [
+		{
+			"text": "שָׁמַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

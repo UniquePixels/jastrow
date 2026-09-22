@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01004",
-	"slug": "נעצוץ",
-	"headword": {
-		"text": "נַעֲצוּץ"
-	},
+	"sefariaHeadword": "נַעֲצוּץ",
+	"headwords": [
+		{
+			"text": "נַעֲצוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 921,
 		"column": "a"

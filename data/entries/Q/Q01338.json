@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01338",
-	"slug": "פסנין",
-	"headword": {
-		"text": "פַּסְנִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּסְנִין",
+	"headwords": [
+		{
+			"text": "פַּסְנִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1198,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

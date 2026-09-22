@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00615",
-	"slug": "לעינות",
-	"headword": {
-		"text": "לעינות"
-	},
+	"sefariaHeadword": "לעינות",
+	"headwords": [
+		{
+			"text": "לעינות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

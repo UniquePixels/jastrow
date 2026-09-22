@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03000",
-	"slug": "ארדא-1",
-	"headword": {
-		"text": "אַרְדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְדָּא I",
+	"headwords": [
+		{
+			"text": "אַרְדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 115,
 		"column": "b"

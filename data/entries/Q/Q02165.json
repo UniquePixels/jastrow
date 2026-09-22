@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02165",
-	"slug": "פתיל",
-	"headword": {
-		"text": "פָּתִיל"
-	},
+	"sefariaHeadword": "פָּתִיל",
+	"headwords": [
+		{
+			"text": "פָּתִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1253,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01262",
-	"slug": "איכרייתא",
-	"headword": {
-		"text": "אִיכַּרְיָיתָא"
-	},
+	"sefariaHeadword": "אִיכַּרְיָיתָא",
+	"headwords": [
+		{
+			"text": "אִיכַּרְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02119",
-	"slug": "מעיקא-1",
-	"headword": {
-		"text": "מְעִיקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְעִיקָא I",
+	"headwords": [
+		{
+			"text": "מְעִיקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 816,
 		"column": "a"

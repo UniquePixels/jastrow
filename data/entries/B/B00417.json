@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00417",
-	"slug": "בזבינא",
-	"headword": {
-		"text": "בזבינא"
-	},
+	"sefariaHeadword": "בזבינא",
+	"headwords": [
+		{
+			"text": "בזבינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "a"

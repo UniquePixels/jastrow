@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02189",
-	"slug": "פתן-1",
-	"headword": {
-		"text": "פתן"
-	},
+	"sefariaHeadword": "פתן",
+	"headwords": [
+		{
+			"text": "פתן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

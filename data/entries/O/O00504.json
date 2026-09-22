@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "O00504",
-	"slug": "סטר-3",
-	"headword": {
-		"text": "סְטַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְטַר II",
+	"headwords": [
+		{
+			"text": "סְטַר",
+			"homograph": 2
+		},
 		{
 			"text": "סִטְרָא"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		},
 		{
-			"text": "צִ׳"
+			"text": "צִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 973,
 		"column": "b"

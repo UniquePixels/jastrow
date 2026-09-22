@@ -1,13 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "T00523",
-	"slug": "רחמא-3",
-	"headword": {
-		"text": "רַחְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחְמָא",
+	"headwords": [
+		{
+			"text": "רַחְמָא"
+		},
 		{
 			"text": "רַחְ׳",
-			"homograph": 3
+			"homograph": 3,
+			"partial": true
 		},
 		{
 			"text": "רָחְמָא"
@@ -16,6 +18,7 @@
 			"text": "רָחֵם"
 		}
 	],
+	"display": "{0}, {1} III, {2}, {3}",
 	"page": {
 		"number": 1467,
 		"column": "b"

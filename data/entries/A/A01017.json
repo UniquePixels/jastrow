@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01017",
-	"slug": "אחור",
-	"headword": {
-		"text": "אָחוֹר"
-	},
+	"sefariaHeadword": "אָחוֹר",
+	"headwords": [
+		{
+			"text": "אָחוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

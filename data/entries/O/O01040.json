@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01040",
-	"slug": "סלרין",
-	"headword": {
-		"text": "סָלָרִין"
-	},
+	"sefariaHeadword": "סָלָרִין",
+	"headwords": [
+		{
+			"text": "סָלָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 997,
 		"column": "b"

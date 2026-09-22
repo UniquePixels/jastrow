@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00065",
-	"slug": "תבנא",
-	"headword": {
-		"text": "תִּבְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּבְנָא",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּבְנָא"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1645,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00556",
-	"slug": "סיגום",
-	"headword": {
-		"text": "סיגום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סיגום",
+	"headwords": [
+		{
+			"text": "סיגום"
+		},
 		{
 			"text": "סיגוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00359",
-	"slug": "אגרנא",
-	"headword": {
-		"text": "אגרנא"
-	},
+	"sefariaHeadword": "אגרנא",
+	"headwords": [
+		{
+			"text": "אגרנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

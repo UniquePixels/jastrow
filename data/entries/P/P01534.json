@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01534",
-	"slug": "עתיקא",
-	"headword": {
-		"text": "עַתִּיקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַתִּיקָא II",
+	"headwords": [
+		{
+			"text": "עַתִּיקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1129,
 		"column": "b"

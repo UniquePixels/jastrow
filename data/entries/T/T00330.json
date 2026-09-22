@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "T00330",
-	"slug": "רווחא",
-	"headword": {
-		"text": "רְוָוחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְוָוחָא",
+	"headwords": [
+		{
+			"text": "רְוָוחָא"
+		},
 		{
 			"text": "רְוַוחְתָּא"
 		},
 		{
-			"text": "רְוַחְ׳"
+			"text": "רְוַחְ׳",
+			"partial": true
 		},
 		{
 			"text": "רְוָחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1457,
 		"column": "b"

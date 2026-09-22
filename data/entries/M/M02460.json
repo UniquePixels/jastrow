@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02460",
-	"slug": "מקרילות",
-	"headword": {
-		"text": "מַקְרילוֹת"
-	},
+	"sefariaHeadword": "מַקְרילוֹת",
+	"headwords": [
+		{
+			"text": "מַקְרילוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00331",
-	"slug": "סולתניתא",
-	"headword": {
-		"text": "סוּלְתָּנִיתָא"
-	},
+	"sefariaHeadword": "סוּלְתָּנִיתָא",
+	"headwords": [
+		{
+			"text": "סוּלְתָּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

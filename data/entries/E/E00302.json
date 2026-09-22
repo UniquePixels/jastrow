@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00302",
-	"slug": "הזמנה",
-	"headword": {
-		"text": "הַזְמָנָה"
-	},
+	"sefariaHeadword": "הַזְמָנָה",
+	"headwords": [
+		{
+			"text": "הַזְמָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

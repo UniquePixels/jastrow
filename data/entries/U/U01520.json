@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01520",
-	"slug": "שמעתא",
-	"headword": {
-		"text": "שְׁמַעְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמַעְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁמַעְתָּא"
+		},
 		{
 			"text": "שְׁמַעְתְּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1600,
 		"column": "a"

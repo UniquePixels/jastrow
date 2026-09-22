@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00410",
-	"slug": "תיבורא",
-	"headword": {
-		"text": "תִּיבּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיבּוּרָא",
+	"headwords": [
 		{
-			"text": "תִּבּ׳"
+			"text": "תִּיבּוּרָא"
+		},
+		{
+			"text": "תִּבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "b"

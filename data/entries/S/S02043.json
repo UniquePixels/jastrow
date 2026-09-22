@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02043",
-	"slug": "קריוניוס",
-	"headword": {
-		"text": "קריוניוס"
-	},
+	"sefariaHeadword": "קריוניוס",
+	"headwords": [
+		{
+			"text": "קריוניוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02101",
-	"slug": "שתיי",
-	"headword": {
-		"text": "שָׁתַיי"
-	},
+	"sefariaHeadword": "שָׁתַיי",
+	"headwords": [
+		{
+			"text": "שָׁתַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

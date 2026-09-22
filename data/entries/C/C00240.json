@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00240",
-	"slug": "גדפה",
-	"headword": {
-		"text": "גדפה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גדפה",
+	"headwords": [
+		{
+			"text": "גדפה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 214,
 		"column": "a"

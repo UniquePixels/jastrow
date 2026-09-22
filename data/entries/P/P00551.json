@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00551",
-	"slug": "עיינוש",
-	"headword": {
-		"text": "עַיְינוֹשׁ"
-	},
+	"sefariaHeadword": "עַיְינוֹשׁ",
+	"headwords": [
+		{
+			"text": "עַיְינוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

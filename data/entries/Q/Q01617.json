@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01617",
-	"slug": "פרוגיאות",
-	"headword": {
-		"text": "פרוגיאות"
-	},
+	"sefariaHeadword": "פרוגיאות",
+	"headwords": [
+		{
+			"text": "פרוגיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

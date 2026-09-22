@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00970",
-	"slug": "סלוק",
-	"headword": {
-		"text": "סִלּוּק"
-	},
+	"sefariaHeadword": "סִלּוּק",
+	"headwords": [
+		{
+			"text": "סִלּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

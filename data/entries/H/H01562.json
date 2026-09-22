@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01562",
-	"slug": "חקלתא",
-	"headword": {
-		"text": "חֲקַלְתָּא"
-	},
+	"sefariaHeadword": "חֲקַלְתָּא",
+	"headwords": [
+		{
+			"text": "חֲקַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "a"

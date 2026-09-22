@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00605",
-	"slug": "אוזמל",
-	"headword": {
-		"text": "אוּזְמֵל"
-	},
+	"sefariaHeadword": "אוּזְמֵל",
+	"headwords": [
+		{
+			"text": "אוּזְמֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

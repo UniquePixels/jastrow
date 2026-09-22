@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00927",
-	"slug": "רפא",
-	"headword": {
-		"text": "רָפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָפָא",
+	"headwords": [
+		{
+			"text": "רָפָא"
+		},
 		{
 			"text": "רְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1489,
 		"column": "a"

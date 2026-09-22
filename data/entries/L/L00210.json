@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00210",
-	"slug": "לוודין",
-	"headword": {
-		"text": "לוודין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוודין",
+	"headwords": [
 		{
-			"text": "לוודין דקין"
+			"text": "לוודין"
+		},
+		{
+			"text": "ל׳ דקין",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 695,
 		"column": "b"

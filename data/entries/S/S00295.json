@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00295",
-	"slug": "קוטלאות",
-	"headword": {
-		"text": "קוּטְלָאוֹת"
-	},
+	"sefariaHeadword": "קוּטְלָאוֹת",
+	"headwords": [
+		{
+			"text": "קוּטְלָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00264",
-	"slug": "קווץ-3",
-	"headword": {
-		"text": "קָווּץ"
-	},
+	"sefariaHeadword": "קָווּץ",
+	"headwords": [
+		{
+			"text": "קָווּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "a"

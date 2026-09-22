@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00896",
-	"slug": "טרקי",
-	"headword": {
-		"text": "טרקי"
-	},
+	"sefariaHeadword": "טרקי",
+	"headwords": [
+		{
+			"text": "טרקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

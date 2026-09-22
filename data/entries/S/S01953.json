@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01953",
-	"slug": "קרונתא",
-	"headword": {
-		"text": "קְרוֹנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרוֹנְתָּא",
+	"headwords": [
 		{
-			"text": "קְרוּנְ׳"
+			"text": "קְרוֹנְתָּא"
+		},
+		{
+			"text": "קְרוּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1414,
 		"column": "b"

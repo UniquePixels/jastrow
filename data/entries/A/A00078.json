@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00078",
-	"slug": "אבוקא",
-	"headword": {
-		"text": "אֲבוּקָא"
-	},
+	"sefariaHeadword": "אֲבוּקָא",
+	"headwords": [
+		{
+			"text": "אֲבוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01935",
-	"slug": "מסירין",
-	"headword": {
-		"text": "מְסִירִין"
-	},
+	"sefariaHeadword": "מְסִירִין",
+	"headwords": [
+		{
+			"text": "מְסִירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "a"

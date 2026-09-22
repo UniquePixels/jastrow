@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00850",
-	"slug": "חיפוש",
-	"headword": {
-		"text": "חִיפּוּשׂ"
-	},
+	"sefariaHeadword": "חִיפּוּשׂ",
+	"headwords": [
+		{
+			"text": "חִיפּוּשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "a"

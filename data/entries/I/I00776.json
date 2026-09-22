@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00776",
-	"slug": "טריד",
-	"headword": {
-		"text": "טָרִיד"
-	},
+	"sefariaHeadword": "טָרִיד",
+	"headwords": [
+		{
+			"text": "טָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

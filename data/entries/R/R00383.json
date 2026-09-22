@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00383",
-	"slug": "צימרא",
-	"headword": {
-		"text": "צִימְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימְרָא",
+	"headwords": [
 		{
-			"text": "צִמְ׳"
+			"text": "צִימְרָא"
+		},
+		{
+			"text": "צִמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "b"

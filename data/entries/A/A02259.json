@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02259",
-	"slug": "אנס-1",
-	"headword": {
-		"text": "אָנַס"
-	},
+	"sefariaHeadword": "אָנַס",
+	"headwords": [
+		{
+			"text": "אָנַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "a"

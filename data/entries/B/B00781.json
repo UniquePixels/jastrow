@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00781",
-	"slug": "בכי-6",
-	"headword": {
-		"text": "בְּכָי"
-	},
+	"sefariaHeadword": "בְּכָי",
+	"headwords": [
+		{
+			"text": "בְּכָי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "b"

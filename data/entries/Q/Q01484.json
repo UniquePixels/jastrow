@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01484",
-	"slug": "פקי",
-	"headword": {
-		"text": "פָּקֵי"
-	},
+	"sefariaHeadword": "פָּקֵי",
+	"headwords": [
+		{
+			"text": "פָּקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "a"

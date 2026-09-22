@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00243",
-	"slug": "בוכאנא",
-	"headword": {
-		"text": "בּוּכָאנָא"
-	},
+	"sefariaHeadword": "בּוּכָאנָא",
+	"headwords": [
+		{
+			"text": "בּוּכָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

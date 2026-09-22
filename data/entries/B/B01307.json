@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01307",
-	"slug": "ברסם",
-	"headword": {
-		"text": "בַּרְסָם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּרְסָם",
+	"headwords": [
+		{
+			"text": "בַּרְסָם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

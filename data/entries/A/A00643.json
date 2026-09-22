@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00643",
-	"slug": "אוכל-2",
-	"headword": {
-		"text": "אוֹכֶל"
-	},
+	"sefariaHeadword": "אוֹכֶל",
+	"headwords": [
+		{
+			"text": "אוֹכֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02406",
-	"slug": "אסטרונגילון",
-	"headword": {
-		"text": "אִסְטְרוֹנְגִּילוֹן"
-	},
+	"sefariaHeadword": "אִסְטְרוֹנְגִּילוֹן",
+	"headwords": [
+		{
+			"text": "אִסְטְרוֹנְגִּילוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

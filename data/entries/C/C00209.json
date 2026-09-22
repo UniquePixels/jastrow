@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00209",
-	"slug": "גדילו",
-	"headword": {
-		"text": "גְּדִילוּ"
-	},
+	"sefariaHeadword": "גְּדִילוּ",
+	"headwords": [
+		{
+			"text": "גְּדִילוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

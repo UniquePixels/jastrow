@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00099",
-	"slug": "טדי",
-	"headword": {
-		"text": "טָדִי"
-	},
+	"sefariaHeadword": "טָדִי",
+	"headwords": [
+		{
+			"text": "טָדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 520,
 		"column": "a"

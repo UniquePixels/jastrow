@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00325",
-	"slug": "נוול-3",
-	"headword": {
-		"text": "נְוַול"
-	},
+	"sefariaHeadword": "נְוַול",
+	"headwords": [
+		{
+			"text": "נְוַול"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "a"

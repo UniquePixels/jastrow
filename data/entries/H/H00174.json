@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00174",
-	"slug": "חדאקנו",
-	"headword": {
-		"text": "חדאקנו"
-	},
+	"sefariaHeadword": "חדאקנו",
+	"headwords": [
+		{
+			"text": "חדאקנו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

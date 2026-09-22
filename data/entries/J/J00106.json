@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00106",
-	"slug": "ידע-1",
-	"headword": {
-		"text": "יָדַע"
-	},
+	"sefariaHeadword": "יָדַע",
+	"headwords": [
+		{
+			"text": "יָדַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 564,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01397",
-	"slug": "איס-2",
-	"headword": {
-		"text": "אִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיס",
+	"headwords": [
+		{
+			"text": "אִיס"
+		},
 		{
 			"text": "אס",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 53,
 		"column": "a"

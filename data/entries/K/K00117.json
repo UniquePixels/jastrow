@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00117",
-	"slug": "כדופסלא",
-	"headword": {
-		"text": "כדופסלא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כדופסלא",
+	"headwords": [
 		{
-			"text": "כר׳"
+			"text": "כדופסלא"
+		},
+		{
+			"text": "כר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 613,
 		"column": "a"

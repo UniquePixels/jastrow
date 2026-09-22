@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01990",
-	"slug": "שריש",
-	"headword": {
-		"text": "שָׁרִישׁ"
-	},
+	"sefariaHeadword": "שָׁרִישׁ",
+	"headwords": [
+		{
+			"text": "שָׁרִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

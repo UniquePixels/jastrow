@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00690",
-	"slug": "טצדקא-1",
-	"headword": {
-		"text": "טַצְדְּקָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*טַצְדְּקָא I",
+	"headwords": [
+		{
+			"text": "טַצְדְּקָא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 549,
 		"column": "a"

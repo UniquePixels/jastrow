@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02212",
-	"slug": "קש-2",
-	"headword": {
-		"text": "קַשׁ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קַשׁ ²",
+	"headwords": [
+		{
+			"text": "קַשׁ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1428,
 		"column": "b"

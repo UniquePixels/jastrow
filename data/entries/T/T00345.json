@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00345",
-	"slug": "רוח-3",
-	"headword": {
-		"text": "רוּחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רוּחַ II",
+	"headwords": [
+		{
+			"text": "רוּחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1458,
 		"column": "a"

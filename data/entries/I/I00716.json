@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00716",
-	"slug": "טרדימר",
-	"headword": {
-		"text": "טרדימר"
-	},
+	"sefariaHeadword": "טרדימר",
+	"headwords": [
+		{
+			"text": "טרדימר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "b"

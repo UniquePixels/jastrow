@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02530",
-	"slug": "מרד-3",
-	"headword": {
-		"text": "מְרַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרַד",
+	"headwords": [
+		{
+			"text": "מְרַד"
+		},
 		{
 			"text": "מְרֵיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 836,
 		"column": "b"

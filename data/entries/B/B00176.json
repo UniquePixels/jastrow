@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00176",
-	"slug": "בהירא",
-	"headword": {
-		"text": "בְּהִירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּהִירָא",
+	"headwords": [
+		{
+			"text": "בְּהִירָא"
+		},
 		{
 			"text": "בְּהִירֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 142,
 		"column": "a"

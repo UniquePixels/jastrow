@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00877",
-	"slug": "תקוף-1",
-	"headword": {
-		"text": "תְּקוֹף"
-	},
+	"sefariaHeadword": "תְּקוֹף",
+	"headwords": [
+		{
+			"text": "תְּקוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01145",
-	"slug": "חמד-2",
-	"headword": {
-		"text": "חֲמַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמַד",
+	"headwords": [
+		{
+			"text": "חֲמַד"
+		},
 		{
 			"text": "חֲמִיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 475,
 		"column": "b"
@@ -45,7 +47,7 @@
 			"forms": ["אִתְחֲמַד"],
 			"senses": [
 				{
-					"gloss": " <cite ref=\"H01144\">same</cite>.—Targ. Y. Gen. l. c.—Ib. XXVIII, 10.—Y. Taan. III, 66ᵈ top <he>מִתְחֲמַד וכ׳</he> being desirous to hear her talk. Y. Sabb. VI, 8ᶜ bot. <he>הוו מִתְחַמְּדִין וכ׳</he> were anxious to see &c. ",
+					"gloss": " <cite ref=\"H01144\">same</cite>.—Targ. Y. Gen. l. c.—Ib. XXVIII, 10.—Y. Taan. III, 66ᵈ top <he>מִתְחֲמַד וכ׳</he> being desirous to hear her talk. Y. Sabb. VI, 8ᶜ bot. <he>הוו מִתְחַמְּדִין וכ׳</he> were anxious to see &c. ",
 					"units": [
 						"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite>; a. e."
 					]

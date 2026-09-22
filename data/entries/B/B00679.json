@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00679",
-	"slug": "ביצה-2",
-	"headword": {
-		"text": "בֵּיצָה"
-	},
+	"sefariaHeadword": "בֵּיצָה",
+	"headwords": [
+		{
+			"text": "בֵּיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02848",
-	"slug": "אפתנטין",
-	"headword": {
-		"text": "אֶפְתַּנְטִין"
-	},
+	"sefariaHeadword": "אֶפְתַּנְטִין",
+	"headwords": [
+		{
+			"text": "אֶפְתַּנְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "b"

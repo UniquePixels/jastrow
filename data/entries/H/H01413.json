@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01413",
-	"slug": "חסר-4",
-	"headword": {
-		"text": "חָסֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָסֵר",
+	"headwords": [
+		{
+			"text": "חָסֵר"
+		},
 		{
 			"text": "חֲסַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 490,
 		"column": "a"

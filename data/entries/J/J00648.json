@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00648",
-	"slug": "ירנקא",
-	"headword": {
-		"text": "ירנקא"
-	},
+	"sefariaHeadword": "ירנקא",
+	"headwords": [
+		{
+			"text": "ירנקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "b"

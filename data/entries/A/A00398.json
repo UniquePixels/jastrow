@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00398",
-	"slug": "אדיל",
-	"headword": {
-		"text": "אֲדִיל"
-	},
+	"sefariaHeadword": "אֲדִיל",
+	"headwords": [
+		{
+			"text": "אֲדִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

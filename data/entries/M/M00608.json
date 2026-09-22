@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00608",
-	"slug": "מורא-2",
-	"headword": {
-		"text": "מוֹרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרָא II",
+	"headwords": [
+		{
+			"text": "מוֹרָא",
+			"homograph": 2
+		},
 		{
 			"text": "מוֹרָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 748,
 		"column": "b"

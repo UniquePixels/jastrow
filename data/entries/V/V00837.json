@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00837",
-	"slug": "תפלית",
-	"headword": {
-		"text": "תפלית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תפלית",
+	"headwords": [
+		{
+			"text": "תפלית"
+		},
 		{
 			"text": "תפנא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1687,
 		"column": "b"

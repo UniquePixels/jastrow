@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03253",
-	"slug": "ארתיכא",
-	"headword": {
-		"text": "אַרְתִּיכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְתִּיכָּא",
+	"headwords": [
+		{
+			"text": "אַרְתִּיכָּא"
+		},
 		{
 			"text": "אַרְתַּכָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 126,
 		"column": "b"

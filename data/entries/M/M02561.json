@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02561",
-	"slug": "מרה-1",
-	"headword": {
-		"text": "מָרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָרָה I",
+	"headwords": [
+		{
+			"text": "מָרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 838,
 		"column": "a"

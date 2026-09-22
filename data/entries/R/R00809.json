@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00809",
-	"slug": "צרר-3",
-	"headword": {
-		"text": "צְרַר"
-	},
+	"sefariaHeadword": "צְרַר",
+	"headwords": [
+		{
+			"text": "צְרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1305,
 		"column": "b"

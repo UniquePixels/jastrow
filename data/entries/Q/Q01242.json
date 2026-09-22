@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01242",
-	"slug": "פסול-4",
-	"headword": {
-		"text": "פְּסוּל"
-	},
+	"sefariaHeadword": "פְּסוּל",
+	"headwords": [
+		{
+			"text": "פְּסוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "a"

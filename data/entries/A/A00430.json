@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00430",
-	"slug": "אדנא",
-	"headword": {
-		"text": "אִדְנָא"
-	},
+	"sefariaHeadword": "אִדְנָא",
+	"headwords": [
+		{
+			"text": "אִדְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

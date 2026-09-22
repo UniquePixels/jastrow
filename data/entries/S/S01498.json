@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01498",
-	"slug": "קמרוטון",
-	"headword": {
-		"text": "קַמְרוֹטוֹן"
-	},
+	"sefariaHeadword": "קַמְרוֹטוֹן",
+	"headwords": [
+		{
+			"text": "קַמְרוֹטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "a"

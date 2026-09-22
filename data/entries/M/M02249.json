@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02249",
-	"slug": "מפרע",
-	"headword": {
-		"text": "מִפְרֵעַ"
-	},
+	"sefariaHeadword": "מִפְרֵעַ",
+	"headwords": [
+		{
+			"text": "מִפְרֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

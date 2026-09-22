@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00825",
-	"slug": "שידה-4",
-	"headword": {
-		"text": "שידה"
-	},
+	"sefariaHeadword": "שידה",
+	"headwords": [
+		{
+			"text": "שידה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1558,
 		"column": "a"

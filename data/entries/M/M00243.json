@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00243",
-	"slug": "מדברא-2",
-	"headword": {
-		"text": "מְדַבְּרָא"
-	},
+	"sefariaHeadword": "מְדַבְּרָא",
+	"headwords": [
+		{
+			"text": "מְדַבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "b"

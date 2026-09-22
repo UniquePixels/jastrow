@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02978",
-	"slug": "ארגואנא",
-	"headword": {
-		"text": "אַרְגְּוָאנָא"
-	},
+	"sefariaHeadword": "אַרְגְּוָאנָא",
+	"headwords": [
+		{
+			"text": "אַרְגְּוָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00666",
-	"slug": "צעתירי",
-	"headword": {
-		"text": "צַעְתִּירֵי"
-	},
+	"sefariaHeadword": "צַעְתִּירֵי",
+	"headwords": [
+		{
+			"text": "צַעְתִּירֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "a"

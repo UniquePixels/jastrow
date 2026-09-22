@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01470",
-	"slug": "מלאך-1",
-	"headword": {
-		"text": "מַלְאָךְ"
-	},
+	"sefariaHeadword": "מַלְאָךְ",
+	"headwords": [
+		{
+			"text": "מַלְאָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 786,
 		"column": "a"

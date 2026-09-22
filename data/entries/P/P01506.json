@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01506",
-	"slug": "עשרה",
-	"headword": {
-		"text": "עֲשָׂרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשָׂרָה",
+	"headwords": [
+		{
+			"text": "עֲשָׂרָה"
+		},
 		{
 			"text": "עֶשְׂרֵה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1127,
 		"column": "b"

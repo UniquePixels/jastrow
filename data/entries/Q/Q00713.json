@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00713",
-	"slug": "פילקין",
-	"headword": {
-		"text": "פִּילְקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילְקִין",
+	"headwords": [
+		{
+			"text": "פִּילְקִין"
+		},
 		{
 			"text": "פִּילְקִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

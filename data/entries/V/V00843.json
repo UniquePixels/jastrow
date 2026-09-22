@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00843",
-	"slug": "תפס-1",
-	"headword": {
-		"text": "תָּפַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּפַס",
+	"headwords": [
+		{
+			"text": "תָּפַס"
+		},
 		{
 			"text": "תָּפַשׂ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1687,
 		"column": "b"

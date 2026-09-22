@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01932",
-	"slug": "אלף-1",
-	"headword": {
-		"text": "אֶלֶף"
-	},
+	"sefariaHeadword": "אֶלֶף",
+	"headwords": [
+		{
+			"text": "אֶלֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "b"

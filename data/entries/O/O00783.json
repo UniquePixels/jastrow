@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00783",
-	"slug": "סיפוג",
-	"headword": {
-		"text": "סִיפּוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפּוּג",
+	"headwords": [
 		{
-			"text": "סִפּ׳"
+			"text": "סִיפּוּג"
+		},
+		{
+			"text": "סִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 985,
 		"column": "a"

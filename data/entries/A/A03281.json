@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03281",
-	"slug": "אשחור",
-	"headword": {
-		"text": "אַשְׁחוּר"
-	},
+	"sefariaHeadword": "אַשְׁחוּר",
+	"headwords": [
+		{
+			"text": "אַשְׁחוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

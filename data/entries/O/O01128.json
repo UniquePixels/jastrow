@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "O01128",
-	"slug": "סמפירינון",
-	"headword": {
-		"text": "סַמְפִּירִינוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַמְפִּירִינוֹן",
+	"headwords": [
 		{
-			"text": "סַנְפִּי׳"
+			"text": "סַמְפִּירִינוֹן"
 		},
 		{
-			"text": "סַמְפִּרִ׳"
+			"text": "סַנְפִּי׳",
+			"partial": true
 		},
 		{
-			"text": "סַנְפִּרִ׳"
+			"text": "סַמְפִּרִ׳",
+			"partial": true
+		},
+		{
+			"text": "סַנְפִּרִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1003,
 		"column": "a"

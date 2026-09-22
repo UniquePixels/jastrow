@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00676",
-	"slug": "כלב-1",
-	"headword": {
-		"text": "כָּלַב"
-	},
+	"sefariaHeadword": "כָּלַב",
+	"headwords": [
+		{
+			"text": "כָּלַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "a"

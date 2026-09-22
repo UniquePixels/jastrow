@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00259",
-	"slug": "זיאטטווס",
-	"headword": {
-		"text": "זיאטטווס"
-	},
+	"sefariaHeadword": "זיאטטווס",
+	"headwords": [
+		{
+			"text": "זיאטטווס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00865",
-	"slug": "אורולוגין",
-	"headword": {
-		"text": "אוֹרוֹלוֹגִין"
-	},
+	"sefariaHeadword": "אוֹרוֹלוֹגִין",
+	"headwords": [
+		{
+			"text": "אוֹרוֹלוֹגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

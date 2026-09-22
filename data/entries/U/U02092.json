@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02092",
-	"slug": "שתי-3",
-	"headword": {
-		"text": "שְׁתֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתֵי",
+	"headwords": [
+		{
+			"text": "שְׁתֵי"
+		},
 		{
 			"text": "שְׁתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1637,
 		"column": "b"

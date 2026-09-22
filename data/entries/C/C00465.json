@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00465",
-	"slug": "גופריתא",
-	"headword": {
-		"text": "גּוּפְרִיתָא"
-	},
+	"sefariaHeadword": "גּוּפְרִיתָא",
+	"headwords": [
+		{
+			"text": "גּוּפְרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 225,
 		"column": "b"

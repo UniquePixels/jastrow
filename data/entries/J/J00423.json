@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00423",
-	"slug": "ימר",
-	"headword": {
-		"text": "יָמַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָמַר",
+	"headwords": [
+		{
+			"text": "יָמַר"
+		},
 		{
 			"text": "יְמַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "b"

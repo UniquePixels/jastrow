@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00816",
-	"slug": "סיקיא",
-	"headword": {
-		"text": "סִיקַיָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיקַיָּא",
+	"headwords": [
+		{
+			"text": "סִיקַיָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

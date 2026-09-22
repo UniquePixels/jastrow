@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00790",
-	"slug": "שיבו",
-	"headword": {
-		"text": "שֵׂיבוּ"
-	},
+	"sefariaHeadword": "שֵׂיבוּ",
+	"headwords": [
+		{
+			"text": "שֵׂיבוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "b"

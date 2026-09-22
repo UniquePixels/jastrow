@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00611",
-	"slug": "מוראנה",
-	"headword": {
-		"text": "מוּרָאנָה"
-	},
+	"sefariaHeadword": "מוּרָאנָה",
+	"headwords": [
+		{
+			"text": "מוּרָאנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

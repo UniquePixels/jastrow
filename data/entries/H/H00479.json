@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00479",
-	"slug": "חורפא-2",
-	"headword": {
-		"text": "חוּרְפָא"
-	},
+	"sefariaHeadword": "חוּרְפָא",
+	"headwords": [
+		{
+			"text": "חוּרְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

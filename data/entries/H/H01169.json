@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01169",
-	"slug": "חמט-1",
-	"headword": {
-		"text": "חֲמַט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲמַט I",
+	"headwords": [
+		{
+			"text": "חֲמַט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 476,
 		"column": "b"

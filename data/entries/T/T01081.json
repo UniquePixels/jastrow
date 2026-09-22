@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T01081",
-	"slug": "רשותא",
-	"headword": {
-		"text": "רְשׁוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְשׁוּתָא",
+	"headwords": [
+		{
+			"text": "רְשׁוּתָא"
+		},
 		{
 			"text": "רְשׁוּ"
 		},
 		{
-			"text": "רָ׳"
+			"text": "רָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1499,
 		"column": "b"

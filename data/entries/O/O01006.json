@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01006",
-	"slug": "סלמאי",
-	"headword": {
-		"text": "סַלְמַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלְמַאי",
+	"headwords": [
+		{
+			"text": "סַלְמַאי"
+		},
 		{
 			"text": "סַלְמַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 995,
 		"column": "b"

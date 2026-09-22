@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01118",
-	"slug": "עציל",
-	"headword": {
-		"text": "עֲצֵיל־"
-	},
+	"sefariaHeadword": "עֲצֵיל־",
+	"headwords": [
+		{
+			"text": "עֲצֵיל־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

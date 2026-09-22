@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02998",
-	"slug": "ארגרון",
-	"headword": {
-		"text": "אַרְגְּרוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְגְּרוֹן",
+	"headwords": [
+		{
+			"text": "אַרְגְּרוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 115,
 		"column": "b"

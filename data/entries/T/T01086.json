@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01086",
-	"slug": "רשין",
-	"headword": {
-		"text": "רשין"
-	},
+	"sefariaHeadword": "רשין",
+	"headwords": [
+		{
+			"text": "רשין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1500,
 		"column": "a"

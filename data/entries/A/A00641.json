@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00641",
-	"slug": "אוכייפא",
-	"headword": {
-		"text": "אוּכַּיְיפָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּכַּיְיפָא",
+	"headwords": [
+		{
+			"text": "אוּכַּיְיפָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00310",
-	"slug": "זיויד",
-	"headword": {
-		"text": "זיויד"
-	},
+	"sefariaHeadword": "זיויד",
+	"headwords": [
+		{
+			"text": "זיויד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

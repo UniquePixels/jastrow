@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01546",
-	"slug": "עתר-1",
-	"headword": {
-		"text": "עֲתַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲתַר",
+	"headwords": [
+		{
+			"text": "עֲתַר"
+		},
 		{
 			"text": "עַתַר"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַתַּר"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 1130,
 		"column": "b"

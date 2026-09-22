@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00416",
-	"slug": "שול-1",
-	"headword": {
-		"text": "שׁוּל"
-	},
+	"sefariaHeadword": "שׁוּל",
+	"headwords": [
+		{
+			"text": "שׁוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01191",
-	"slug": "איזגדר",
-	"headword": {
-		"text": "אִיזְגְּדַר"
-	},
+	"sefariaHeadword": "אִיזְגְּדַר",
+	"headwords": [
+		{
+			"text": "אִיזְגְּדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

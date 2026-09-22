@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00449",
-	"slug": "סחורה",
-	"headword": {
-		"text": "סְחוֹרָה"
-	},
+	"sefariaHeadword": "סְחוֹרָה",
+	"headwords": [
+		{
+			"text": "סְחוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

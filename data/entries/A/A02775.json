@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02775",
-	"slug": "אפק",
-	"headword": {
-		"text": "אַפֵּק"
-	},
+	"sefariaHeadword": "אַפֵּק",
+	"headwords": [
+		{
+			"text": "אַפֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "a"

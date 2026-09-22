@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01038",
-	"slug": "כפנית",
-	"headword": {
-		"text": "כָּפְנִית"
-	},
+	"sefariaHeadword": "כָּפְנִית",
+	"headwords": [
+		{
+			"text": "כָּפְנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

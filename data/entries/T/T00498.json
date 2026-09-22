@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00498",
-	"slug": "רחים-2",
-	"headword": {
-		"text": "רְחֵים"
-	},
+	"sefariaHeadword": "רְחֵים",
+	"headwords": [
+		{
+			"text": "רְחֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "a"

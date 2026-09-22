@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00631",
-	"slug": "תלתות",
-	"headword": {
-		"text": "תִּלְתּוּת"
-	},
+	"sefariaHeadword": "תִּלְתּוּת",
+	"headwords": [
+		{
+			"text": "תִּלְתּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

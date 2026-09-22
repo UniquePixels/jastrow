@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00309",
-	"slug": "סוכרא",
-	"headword": {
-		"text": "סוֹכָרָא"
-	},
+	"sefariaHeadword": "סוֹכָרָא",
+	"headwords": [
+		{
+			"text": "סוֹכָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "a"

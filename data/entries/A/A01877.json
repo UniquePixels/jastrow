@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01877",
-	"slug": "אליקי",
-	"headword": {
-		"text": "אֲלִיקִי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲלִיקִי",
+	"headwords": [
+		{
+			"text": "אֲלִיקִי",
+			"reconstructed": true
+		},
 		{
 			"text": "אַלְעִיקִי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 70,
 		"column": "a"

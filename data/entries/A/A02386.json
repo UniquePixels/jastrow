@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02386",
-	"slug": "אסטנדרא",
-	"headword": {
-		"text": "אִסְטַנְדְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַנְדְּרָא",
+	"headwords": [
 		{
-			"text": "אִסְתַּ׳"
+			"text": "אִסְטַנְדְּרָא"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִסְתַּ׳",
+			"partial": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 91,
 		"column": "a"

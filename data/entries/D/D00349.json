@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00349",
-	"slug": "דורא-3",
-	"headword": {
-		"text": "דּוּרָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּרָא III",
+	"headwords": [
+		{
+			"text": "דּוּרָא",
+			"homograph": 3
+		},
 		{
 			"text": "דַּוָּרָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 289,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00003",
-	"slug": "ב-3",
-	"headword": {
-		"text": "בְּ־",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בְּ־ I",
+	"headwords": [
+		{
+			"text": "בְּ־",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 134,
 		"column": "a"

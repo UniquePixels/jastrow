@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00139",
-	"slug": "שבכה",
-	"headword": {
-		"text": "שְׂבָכָה"
-	},
+	"sefariaHeadword": "שְׂבָכָה",
+	"headwords": [
+		{
+			"text": "שְׂבָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

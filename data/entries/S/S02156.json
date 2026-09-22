@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02156",
-	"slug": "קרצתא",
-	"headword": {
-		"text": "קְרִצְתָּא"
-	},
+	"sefariaHeadword": "קְרִצְתָּא",
+	"headwords": [
+		{
+			"text": "קְרִצְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

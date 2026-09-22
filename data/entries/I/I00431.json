@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00431",
-	"slug": "טירודא",
-	"headword": {
-		"text": "טירודא"
-	},
+	"sefariaHeadword": "טירודא",
+	"headwords": [
+		{
+			"text": "טירודא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "a"

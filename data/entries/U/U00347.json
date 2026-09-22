@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00347",
-	"slug": "שווחא",
-	"headword": {
-		"text": "שְׁוָוחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוָוחָא",
+	"headwords": [
+		{
+			"text": "שְׁוָוחָא"
+		},
 		{
 			"text": "שַׁוְוחָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שַׁוְוחֲתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1530,
 		"column": "a"

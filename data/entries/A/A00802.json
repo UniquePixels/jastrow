@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00802",
-	"slug": "אופיטא",
-	"headword": {
-		"text": "אופיטא"
-	},
+	"sefariaHeadword": "אופיטא",
+	"headwords": [
+		{
+			"text": "אופיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

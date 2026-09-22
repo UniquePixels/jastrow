@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00916",
-	"slug": "טשיותא",
-	"headword": {
-		"text": "טַשְׁיוּתָא"
-	},
+	"sefariaHeadword": "טַשְׁיוּתָא",
+	"headwords": [
+		{
+			"text": "טַשְׁיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "b"

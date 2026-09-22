@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02794",
-	"slug": "מש",
-	"headword": {
-		"text": "מִשֶּׁ־"
-	},
+	"sefariaHeadword": "מִשֶּׁ־",
+	"headwords": [
+		{
+			"text": "מִשֶּׁ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

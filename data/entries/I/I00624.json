@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00624",
-	"slug": "טפא-1",
-	"headword": {
-		"text": "טְפָא"
-	},
+	"sefariaHeadword": "טְפָא",
+	"headwords": [
+		{
+			"text": "טְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00525",
-	"slug": "זמית",
-	"headword": {
-		"text": "זָמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָמִית",
+	"headwords": [
+		{
+			"text": "זָמִית"
+		},
 		{
 			"text": "זוֹמִית"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 403,
 		"column": "a"

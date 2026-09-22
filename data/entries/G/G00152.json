@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00152",
-	"slug": "זוח-2",
-	"headword": {
-		"text": "זוּחַ"
-	},
+	"sefariaHeadword": "זוּחַ",
+	"headwords": [
+		{
+			"text": "זוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 385,
 		"column": "b"

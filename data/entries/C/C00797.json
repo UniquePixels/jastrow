@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00797",
-	"slug": "גיפף",
-	"headword": {
-		"text": "גִּיפֵּף"
-	},
+	"sefariaHeadword": "גִּיפֵּף",
+	"headwords": [
+		{
+			"text": "גִּיפֵּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

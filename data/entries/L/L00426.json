@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00426",
-	"slug": "ליגונין",
-	"headword": {
-		"text": "ליגונין"
-	},
+	"sefariaHeadword": "ליגונין",
+	"headwords": [
+		{
+			"text": "ליגונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00254",
-	"slug": "פומפי",
-	"headword": {
-		"text": "פּוֹמְפִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹמְפִּי",
+	"headwords": [
+		{
+			"text": "פּוֹמְפִּי"
+		},
 		{
 			"text": "פּוֹמְבִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1143,
 		"column": "a"

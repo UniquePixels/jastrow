@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00435",
-	"slug": "ליויתן",
-	"headword": {
-		"text": "לִיוְיָתָן"
-	},
+	"sefariaHeadword": "לִיוְיָתָן",
+	"headwords": [
+		{
+			"text": "לִיוְיָתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

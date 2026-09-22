@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00681",
-	"slug": "צפור-1",
-	"headword": {
-		"text": "צִפּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוֹר",
+	"headwords": [
 		{
-			"text": "צִיפּ׳"
+			"text": "צִפּוֹר"
+		},
+		{
+			"text": "צִיפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1295,
 		"column": "b"

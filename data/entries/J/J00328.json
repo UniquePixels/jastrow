@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00328",
-	"slug": "ייח",
-	"headword": {
-		"text": "יִיח־"
-	},
+	"sefariaHeadword": "יִיח־",
+	"headwords": [
+		{
+			"text": "יִיח־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

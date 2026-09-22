@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00648",
-	"slug": "ניחוח",
-	"headword": {
-		"text": "נִיחוֹחַ"
-	},
+	"sefariaHeadword": "נִיחוֹחַ",
+	"headwords": [
+		{
+			"text": "נִיחוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

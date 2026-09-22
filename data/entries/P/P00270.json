@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00270",
-	"slug": "עולשין-1",
-	"headword": {
-		"text": "עוּלְשִׁין"
-	},
+	"sefariaHeadword": "עוּלְשִׁין",
+	"headwords": [
+		{
+			"text": "עוּלְשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00505",
-	"slug": "ליעזר",
-	"headword": {
-		"text": "לִיעֶזֶר"
-	},
+	"sefariaHeadword": "לִיעֶזֶר",
+	"headwords": [
+		{
+			"text": "לִיעֶזֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

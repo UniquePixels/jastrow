@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00591",
-	"slug": "בייבין",
-	"headword": {
-		"text": "בייבין"
-	},
+	"sefariaHeadword": "בייבין",
+	"headwords": [
+		{
+			"text": "בייבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

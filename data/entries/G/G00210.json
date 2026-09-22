@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00210",
-	"slug": "זונס",
-	"headword": {
-		"text": "זוֹנַס"
-	},
+	"sefariaHeadword": "זוֹנַס",
+	"headwords": [
+		{
+			"text": "זוֹנַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

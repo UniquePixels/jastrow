@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01934",
-	"slug": "קרוחתא",
-	"headword": {
-		"text": "קֵרוּחְתָּא"
-	},
+	"sefariaHeadword": "קֵרוּחְתָּא",
+	"headwords": [
+		{
+			"text": "קֵרוּחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "b"

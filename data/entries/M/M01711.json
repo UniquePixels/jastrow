@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01711",
-	"slug": "מנגנון",
-	"headword": {
-		"text": "מַנְגָּנוֹן"
-	},
+	"sefariaHeadword": "מַנְגָּנוֹן",
+	"headwords": [
+		{
+			"text": "מַנְגָּנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "b"

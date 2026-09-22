@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01250",
-	"slug": "נקרתא",
-	"headword": {
-		"text": "נְקַרְתָּא"
-	},
+	"sefariaHeadword": "נְקַרְתָּא",
+	"headwords": [
+		{
+			"text": "נְקַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "b"

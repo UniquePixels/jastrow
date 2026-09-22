@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02940",
-	"slug": "משנה-2",
-	"headword": {
-		"text": "מִשְׁנֶה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מִשְׁנֶה II",
+	"headwords": [
+		{
+			"text": "מִשְׁנֶה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 857,
 		"column": "a"

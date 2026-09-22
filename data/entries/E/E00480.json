@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00480",
-	"slug": "היפרכיא",
-	"headword": {
-		"text": "הִיפַּרְכְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִיפַּרְכְיָא",
+	"headwords": [
+		{
+			"text": "הִיפַּרְכְיָא"
+		},
 		{
 			"text": "הִיפַּרְכְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 349,
 		"column": "a"

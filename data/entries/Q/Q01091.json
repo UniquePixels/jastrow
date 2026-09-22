@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01091",
-	"slug": "פלני",
-	"headword": {
-		"text": "פְּלֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלֹנִי",
+	"headwords": [
+		{
+			"text": "פְּלֹנִי"
+		},
 		{
 			"text": "פְּלָנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1183,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00836",
-	"slug": "אוקים",
-	"headword": {
-		"text": "אוֹקִים"
-	},
+	"sefariaHeadword": "אוֹקִים",
+	"headwords": [
+		{
+			"text": "אוֹקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

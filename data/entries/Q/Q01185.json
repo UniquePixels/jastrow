@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01185",
-	"slug": "פנטקקה",
-	"headword": {
-		"text": "פֶּנְטַקָקָה"
-	},
+	"sefariaHeadword": "פֶּנְטַקָקָה",
+	"headwords": [
+		{
+			"text": "פֶּנְטַקָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "b"

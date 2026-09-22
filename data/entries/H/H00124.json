@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00124",
-	"slug": "חברת",
-	"headword": {
-		"text": "חֲבֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבֶרֶת",
+	"headwords": [
+		{
+			"text": "חֲבֶרֶת"
+		},
 		{
 			"text": "חֲבֶרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 423,
 		"column": "a"

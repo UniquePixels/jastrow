@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00260",
-	"slug": "רדינין",
-	"headword": {
-		"text": "רַדִּינִין"
-	},
+	"sefariaHeadword": "רַדִּינִין",
+	"headwords": [
+		{
+			"text": "רַדִּינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

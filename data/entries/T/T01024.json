@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01024",
-	"slug": "רקוב",
-	"headword": {
-		"text": "רָקוֹב"
-	},
+	"sefariaHeadword": "רָקוֹב",
+	"headwords": [
+		{
+			"text": "רָקוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

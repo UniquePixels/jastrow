@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00128",
-	"slug": "עדי-1",
-	"headword": {
-		"text": "עדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עדי",
+	"headwords": [
+		{
+			"text": "עדי"
+		},
 		{
 			"text": "עָדָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1043,
 		"column": "b"

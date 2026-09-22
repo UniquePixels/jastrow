@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00107",
-	"slug": "מגבה",
-	"headword": {
-		"text": "מִגְבָּה"
-	},
+	"sefariaHeadword": "מִגְבָּה",
+	"headwords": [
+		{
+			"text": "מִגְבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

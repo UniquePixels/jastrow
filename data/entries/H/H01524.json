@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01524",
-	"slug": "חציץ",
-	"headword": {
-		"text": "חָצִיץ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חָצִיץ",
+	"headwords": [
+		{
+			"text": "חָצִיץ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 495,
 		"column": "b"

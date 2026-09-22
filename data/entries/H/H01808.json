@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01808",
-	"slug": "חשבא",
-	"headword": {
-		"text": "חַשָּׁבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַשָּׁבָא",
+	"headwords": [
 		{
-			"text": "חֲשָׁ׳"
+			"text": "חַשָּׁבָא"
+		},
+		{
+			"text": "חֲשָׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 508,
 		"column": "b"

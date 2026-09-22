@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01515",
-	"slug": "קנאית",
-	"headword": {
-		"text": "קַנָּאִית"
-	},
+	"sefariaHeadword": "קַנָּאִית",
+	"headwords": [
+		{
+			"text": "קַנָּאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "a"

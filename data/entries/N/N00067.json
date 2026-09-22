@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00067",
-	"slug": "נבט-3",
-	"headword": {
-		"text": "נְבָט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְבָט I",
+	"headwords": [
+		{
+			"text": "נְבָט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 868,
 		"column": "a"

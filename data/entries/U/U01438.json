@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01438",
-	"slug": "שמועא-1",
-	"headword": {
-		"text": "שְׁמוּעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמוּעָא",
+	"headwords": [
 		{
-			"text": "שְׁמוֹ׳"
+			"text": "שְׁמוּעָא"
+		},
+		{
+			"text": "שְׁמוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1592,
 		"column": "b"

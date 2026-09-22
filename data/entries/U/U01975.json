@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01975",
-	"slug": "שריין",
-	"headword": {
-		"text": "שִׁרְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁרְיָין",
+	"headwords": [
+		{
+			"text": "שִׁרְיָין"
+		},
 		{
 			"text": "שִׁרְיָינָא"
 		},
@@ -15,12 +16,15 @@
 			"text": "שִׁרְיָנָא"
 		},
 		{
-			"text": "שִׁירְ׳"
+			"text": "שִׁירְ׳",
+			"partial": true
 		},
 		{
-			"text": "סִרְ׳"
+			"text": "סִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, ({5})",
 	"page": {
 		"number": 1631,
 		"column": "a"

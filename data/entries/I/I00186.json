@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00186",
-	"slug": "טונא-2",
-	"headword": {
-		"text": "טוּנָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טוּנָא II",
+	"headwords": [
+		{
+			"text": "טוּנָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 524,
 		"column": "b"

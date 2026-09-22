@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02960",
-	"slug": "משקולת",
-	"headword": {
-		"text": "מִשְׁקוֹלֶת"
-	},
+	"sefariaHeadword": "מִשְׁקוֹלֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁקוֹלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

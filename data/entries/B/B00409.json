@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00409",
-	"slug": "בזאי",
-	"headword": {
-		"text": "בִּזָּאֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּזָּאֵי",
+	"headwords": [
+		{
+			"text": "בִּזָּאֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

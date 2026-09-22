@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00317",
-	"slug": "ציהוב",
-	"headword": {
-		"text": "צִיהוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיהוּב",
+	"headwords": [
 		{
-			"text": "צִה׳"
+			"text": "צִיהוּב"
+		},
+		{
+			"text": "צִה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1275,
 		"column": "a"

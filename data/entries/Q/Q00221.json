@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00221",
-	"slug": "פולטריות",
-	"headword": {
-		"text": "פולטריות"
-	},
+	"sefariaHeadword": "פולטריות",
+	"headwords": [
+		{
+			"text": "פולטריות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00446",
-	"slug": "עטינין",
-	"headword": {
-		"text": "עַטִּינִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַטִּינִין",
+	"headwords": [
+		{
+			"text": "עַטִּינִין"
+		},
 		{
 			"text": "עִטְּנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1063,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00911",
-	"slug": "רעם-4",
-	"headword": {
-		"text": "רַעַם"
-	},
+	"sefariaHeadword": "רַעַם",
+	"headwords": [
+		{
+			"text": "רַעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1487,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00194",
-	"slug": "כובעא",
-	"headword": {
-		"text": "כּוֹבְעָא"
-	},
+	"sefariaHeadword": "כּוֹבְעָא",
+	"headwords": [
+		{
+			"text": "כּוֹבְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

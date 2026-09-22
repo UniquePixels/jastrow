@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00407",
-	"slug": "ימות",
-	"headword": {
-		"text": "יְמוֹת"
-	},
+	"sefariaHeadword": "יְמוֹת",
+	"headwords": [
+		{
+			"text": "יְמוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "a"

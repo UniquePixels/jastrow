@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00483",
-	"slug": "סטיבס",
-	"headword": {
-		"text": "סְטִיבָס"
-	},
+	"sefariaHeadword": "סְטִיבָס",
+	"headwords": [
+		{
+			"text": "סְטִיבָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "b"

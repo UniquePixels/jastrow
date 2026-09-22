@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03399",
-	"slug": "אתאנסיא",
-	"headword": {
-		"text": "אֲתָאנַסְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲתָאנַסְיָא",
+	"headwords": [
+		{
+			"text": "אֲתָאנַסְיָא"
+		},
 		{
 			"text": "אַתְנַסְיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַתָּנָסָיאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 132,
 		"column": "b"

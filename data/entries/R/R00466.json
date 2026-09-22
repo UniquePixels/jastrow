@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00466",
-	"slug": "צירתא-2",
-	"headword": {
-		"text": "צִירְתָא"
-	},
+	"sefariaHeadword": "צִירְתָא",
+	"headwords": [
+		{
+			"text": "צִירְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

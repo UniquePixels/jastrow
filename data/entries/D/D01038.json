@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01038",
-	"slug": "דרגושה",
-	"headword": {
-		"text": "דַּרְגּוּשָׁה"
-	},
+	"sefariaHeadword": "דַּרְגּוּשָׁה",
+	"headwords": [
+		{
+			"text": "דַּרְגּוּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02364",
-	"slug": "אסטטיא",
-	"headword": {
-		"text": "אסטטיא"
-	},
+	"sefariaHeadword": "אסטטיא",
+	"headwords": [
+		{
+			"text": "אסטטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

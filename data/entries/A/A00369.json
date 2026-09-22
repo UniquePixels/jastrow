@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00369",
-	"slug": "אדא-1",
-	"headword": {
-		"text": "אָדָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָדָא I",
+	"headwords": [
+		{
+			"text": "אָדָא",
+			"homograph": 1
+		},
 		{
 			"text": "הָדָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 15,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00822",
-	"slug": "סיקרא-3",
-	"headword": {
-		"text": "סִיקְרָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיקְרָא III",
+	"headwords": [
 		{
-			"text": "סִקְ׳"
+			"text": "סִיקְרָא",
+			"homograph": 3
+		},
+		{
+			"text": "סִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 986,
 		"column": "b"

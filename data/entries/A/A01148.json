@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01148",
-	"slug": "איגראנאמון",
-	"headword": {
-		"text": "איגראנאמון"
-	},
+	"sefariaHeadword": "איגראנאמון",
+	"headwords": [
+		{
+			"text": "איגראנאמון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

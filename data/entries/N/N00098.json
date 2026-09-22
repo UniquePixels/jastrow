@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00098",
-	"slug": "נבלה-2",
-	"headword": {
-		"text": "נְבָלָה"
-	},
+	"sefariaHeadword": "נְבָלָה",
+	"headwords": [
+		{
+			"text": "נְבָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 870,
 		"column": "a"

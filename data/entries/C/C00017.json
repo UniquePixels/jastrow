@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00017",
-	"slug": "גאיות",
-	"headword": {
-		"text": "גֵּאָיוֹת"
-	},
+	"sefariaHeadword": "גֵּאָיוֹת",
+	"headwords": [
+		{
+			"text": "גֵּאָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00652",
-	"slug": "טפיטן",
-	"headword": {
-		"text": "טַפִּיטָן"
-	},
+	"sefariaHeadword": "טַפִּיטָן",
+	"headwords": [
+		{
+			"text": "טַפִּיטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

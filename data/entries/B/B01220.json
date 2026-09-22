@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01220",
-	"slug": "ברזות",
-	"headword": {
-		"text": "ברזות"
-	},
+	"sefariaHeadword": "ברזות",
+	"headwords": [
+		{
+			"text": "ברזות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

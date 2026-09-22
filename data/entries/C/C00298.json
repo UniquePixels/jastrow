@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00298",
-	"slug": "גוגמי",
-	"headword": {
-		"text": "גּוּגְמֵי"
-	},
+	"sefariaHeadword": "גּוּגְמֵי",
+	"headwords": [
+		{
+			"text": "גּוּגְמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "a"

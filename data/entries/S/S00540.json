@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00540",
-	"slug": "קוצירא",
-	"headword": {
-		"text": "קוֹצִירָא"
-	},
+	"sefariaHeadword": "קוֹצִירָא",
+	"headwords": [
+		{
+			"text": "קוֹצִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

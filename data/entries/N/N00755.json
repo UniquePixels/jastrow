@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00755",
-	"slug": "ניצור",
-	"headword": {
-		"text": "נִיצוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצוֹר",
+	"headwords": [
 		{
-			"text": "בַּר נִיצוֹר"
+			"text": "נִיצוֹר"
+		},
+		{
+			"text": "בַּר נִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "a"

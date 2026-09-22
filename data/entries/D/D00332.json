@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00332",
-	"slug": "דוקים",
-	"headword": {
-		"text": "דּוּקִים"
-	},
+	"sefariaHeadword": "דּוּקִים",
+	"headwords": [
+		{
+			"text": "דּוּקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "a"

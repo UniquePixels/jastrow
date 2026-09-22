@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "T00598",
-	"slug": "ריגוג",
-	"headword": {
-		"text": "רִיגּוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיגּוּג",
+	"headwords": [
+		{
+			"text": "רִיגּוּג"
+		},
 		{
 			"text": "רִיגּוּגָא"
 		},
 		{
-			"text": "רִגְּ׳"
+			"text": "רִגְּ׳",
+			"partial": true
 		},
 		{
 			"text": "רִגְרוּגָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1473,
 		"column": "a"

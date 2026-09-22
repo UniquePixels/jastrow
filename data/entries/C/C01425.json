@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01425",
-	"slug": "גשש-1",
-	"headword": {
-		"text": "גָּשַׁשׁ"
-	},
+	"sefariaHeadword": "גָּשַׁשׁ",
+	"headwords": [
+		{
+			"text": "גָּשַׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 274,
 		"column": "b"

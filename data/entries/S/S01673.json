@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01673",
-	"slug": "קסמא-2",
-	"headword": {
-		"text": "קִסְמָא"
-	},
+	"sefariaHeadword": "קִסְמָא",
+	"headwords": [
+		{
+			"text": "קִסְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00405",
-	"slug": "דחוק",
-	"headword": {
-		"text": "דְּחוֹק"
-	},
+	"sefariaHeadword": "דְּחוֹק",
+	"headwords": [
+		{
+			"text": "דְּחוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 291,
 		"column": "a"

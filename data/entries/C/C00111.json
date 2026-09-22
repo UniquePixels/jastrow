@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00111",
-	"slug": "גבליא",
-	"headword": {
-		"text": "גַּבְלָיָא"
-	},
+	"sefariaHeadword": "גַּבְלָיָא",
+	"headwords": [
+		{
+			"text": "גַּבְלָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "b"

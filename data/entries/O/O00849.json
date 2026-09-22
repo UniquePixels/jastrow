@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00849",
-	"slug": "סיריות",
-	"headword": {
-		"text": "סֵירָיוּת"
-	},
+	"sefariaHeadword": "סֵירָיוּת",
+	"headwords": [
+		{
+			"text": "סֵירָיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00541",
-	"slug": "נטוזא",
-	"headword": {
-		"text": "נָטוֹזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָטוֹזָא",
+	"headwords": [
 		{
-			"text": "בַּר נָטוֹזָא"
+			"text": "נָטוֹזָא"
+		},
+		{
+			"text": "בַּר נ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 898,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00663",
-	"slug": "אולוותא",
-	"headword": {
-		"text": "אולוותא"
-	},
+	"sefariaHeadword": "אולוותא",
+	"headwords": [
+		{
+			"text": "אולוותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

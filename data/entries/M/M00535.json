@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00535",
-	"slug": "מונחי",
-	"headword": {
-		"text": "מונחי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מונחי",
+	"headwords": [
+		{
+			"text": "מונחי"
+		},
 		{
 			"text": "מונהי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 744,
 		"column": "b"

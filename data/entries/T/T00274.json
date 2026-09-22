@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00274",
-	"slug": "רהבונא",
-	"headword": {
-		"text": "רַהֲבוֹנָא"
-	},
+	"sefariaHeadword": "רַהֲבוֹנָא",
+	"headwords": [
+		{
+			"text": "רַהֲבוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1453,
 		"column": "b"

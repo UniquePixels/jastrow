@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00717",
-	"slug": "מזגא-2",
-	"headword": {
-		"text": "מִזְגָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִזְגָּא II",
+	"headwords": [
+		{
+			"text": "מִזְגָּא",
+			"homograph": 2
+		},
 		{
 			"text": "מַזְגָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 753,
 		"column": "b"

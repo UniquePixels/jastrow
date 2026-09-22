@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00300",
-	"slug": "טיבול",
-	"headword": {
-		"text": "טִיבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיבּוּל",
+	"headwords": [
 		{
-			"text": "טִבּ׳"
+			"text": "טִיבּוּל"
+		},
+		{
+			"text": "טִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "b"

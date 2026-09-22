@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00424",
-	"slug": "טיקסא",
-	"headword": {
-		"text": "טִיקְסָא"
-	},
+	"sefariaHeadword": "טִיקְסָא",
+	"headwords": [
+		{
+			"text": "טִיקְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "a"

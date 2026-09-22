@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01083",
-	"slug": "עפריים",
-	"headword": {
-		"text": "עֲפָרַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲפָרַיִים",
+	"headwords": [
 		{
-			"text": "חֲ׳"
+			"text": "עֲפָרַיִים"
+		},
+		{
+			"text": "חֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1100,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00023",
-	"slug": "שאיל",
-	"headword": {
-		"text": "שְׁאֵיל"
-	},
+	"sefariaHeadword": "שְׁאֵיל",
+	"headwords": [
+		{
+			"text": "שְׁאֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

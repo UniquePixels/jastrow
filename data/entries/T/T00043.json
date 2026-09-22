@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00043",
-	"slug": "רבא-1",
-	"headword": {
-		"text": "רְבָא"
-	},
+	"sefariaHeadword": "רְבָא",
+	"headwords": [
+		{
+			"text": "רְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1439,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00480",
-	"slug": "תיפלה",
-	"headword": {
-		"text": "תִּיפְלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיפְלָה",
+	"headwords": [
+		{
+			"text": "תִּיפְלָה"
+		},
 		{
 			"text": "תִּיפְלוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1665,
 		"column": "b"

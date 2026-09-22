@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02688",
-	"slug": "מרירותא",
-	"headword": {
-		"text": "מְרִירוּתָא"
-	},
+	"sefariaHeadword": "מְרִירוּתָא",
+	"headwords": [
+		{
+			"text": "מְרִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "b"

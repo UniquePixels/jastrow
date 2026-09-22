@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00467",
-	"slug": "מוטרדי",
-	"headword": {
-		"text": "מוּטַרְדֵּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מוּטַרְדֵּי",
+	"headwords": [
+		{
+			"text": "מוּטַרְדֵּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 741,
 		"column": "a"

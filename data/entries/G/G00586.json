@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00586",
-	"slug": "זעור",
-	"headword": {
-		"text": "זְעוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְעוּר",
+	"headwords": [
+		{
+			"text": "זְעוּר"
+		},
 		{
 			"text": "זְעוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 407,
 		"column": "a"

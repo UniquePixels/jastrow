@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00317",
-	"slug": "פוקדנא",
-	"headword": {
-		"text": "פּוּקְדָנָא"
-	},
+	"sefariaHeadword": "פּוּקְדָנָא",
+	"headwords": [
+		{
+			"text": "פּוּקְדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

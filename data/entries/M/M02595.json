@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M02595",
-	"slug": "מרון-2",
-	"headword": {
-		"text": "מָרוֹן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרוֹן II",
+	"headwords": [
 		{
-			"text": "בֵּית מָרוֹן"
+			"text": "מָרוֹן",
+			"homograph": 2
+		},
+		{
+			"text": "בֵּית מָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 839,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

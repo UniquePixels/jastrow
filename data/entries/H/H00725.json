@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00725",
-	"slug": "חייה",
-	"headword": {
-		"text": "חִיָּיה"
-	},
+	"sefariaHeadword": "חִיָּיה",
+	"headwords": [
+		{
+			"text": "חִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

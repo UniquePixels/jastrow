@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00173",
-	"slug": "נגנינר",
-	"headword": {
-		"text": "נַגְנִינָר"
-	},
+	"sefariaHeadword": "נַגְנִינָר",
+	"headwords": [
+		{
+			"text": "נַגְנִינָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

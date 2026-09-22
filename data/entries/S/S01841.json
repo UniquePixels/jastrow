@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01841",
-	"slug": "קצצין",
-	"headword": {
-		"text": "קְצָצִין"
-	},
+	"sefariaHeadword": "קְצָצִין",
+	"headwords": [
+		{
+			"text": "קְצָצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1408,
 		"column": "a"

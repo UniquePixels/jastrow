@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00480",
-	"slug": "שועא-2",
-	"headword": {
-		"text": "שׁוֹעָא"
-	},
+	"sefariaHeadword": "שׁוֹעָא",
+	"headwords": [
+		{
+			"text": "שׁוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "a"

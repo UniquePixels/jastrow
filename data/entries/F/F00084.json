@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00084",
-	"slug": "ורד-3",
-	"headword": {
-		"text": "וְרַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְרַד",
+	"headwords": [
+		{
+			"text": "וְרַד"
+		},
 		{
 			"text": "וַרְדָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 375,
 		"column": "b"

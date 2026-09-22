@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00082",
-	"slug": "סבעא",
-	"headword": {
-		"text": "סִבְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבְעָא",
+	"headwords": [
 		{
-			"text": "סִיבְ׳"
+			"text": "סִבְעָא"
+		},
+		{
+			"text": "סִיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 951,
 		"column": "b"

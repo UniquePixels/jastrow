@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01400",
-	"slug": "איסדא",
-	"headword": {
-		"text": "אִיסָדָא"
-	},
+	"sefariaHeadword": "אִיסָדָא",
+	"headwords": [
+		{
+			"text": "אִיסָדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 53,
 		"column": "a"

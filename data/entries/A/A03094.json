@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03094",
-	"slug": "אריחא",
-	"headword": {
-		"text": "אָרִיחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָרִיחָא",
+	"headwords": [
+		{
+			"text": "אָרִיחָא"
+		},
 		{
 			"text": "אַרְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 119,
 		"column": "b"

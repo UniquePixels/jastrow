@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00672",
-	"slug": "סילק׳",
-	"headword": {
-		"text": "סילק׳"
-	},
+	"sefariaHeadword": "סילק׳",
+	"headwords": [
+		{
+			"text": "סילק׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

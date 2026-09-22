@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01067",
-	"slug": "קיסטרא",
-	"headword": {
-		"text": "קיסטרא"
-	},
+	"sefariaHeadword": "קיסטרא",
+	"headwords": [
+		{
+			"text": "קיסטרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

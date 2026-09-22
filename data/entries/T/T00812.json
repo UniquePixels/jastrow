@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00812",
-	"slug": "רמיו",
-	"headword": {
-		"text": "רַמְיוּ"
-	},
+	"sefariaHeadword": "רַמְיוּ",
+	"headwords": [
+		{
+			"text": "רַמְיוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

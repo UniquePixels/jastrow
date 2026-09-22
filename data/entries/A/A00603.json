@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00603",
-	"slug": "אוזלא",
-	"headword": {
-		"text": "אוּזְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּזְלָא",
+	"headwords": [
+		{
+			"text": "אוּזְלָא"
+		},
 		{
 			"text": "אוּזַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 24,
 		"column": "a"

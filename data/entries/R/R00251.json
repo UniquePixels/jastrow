@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00251",
-	"slug": "צורבת",
-	"headword": {
-		"text": "צורבת"
-	},
+	"sefariaHeadword": "צורבת",
+	"headwords": [
+		{
+			"text": "צורבת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "a"

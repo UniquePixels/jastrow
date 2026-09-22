@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01061",
-	"slug": "נפלי",
-	"headword": {
-		"text": "נִפְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִפְלֵי",
+	"headwords": [
 		{
-			"text": "בַּר נִפְלֵי"
+			"text": "נִפְלֵי"
+		},
+		{
+			"text": "בַּר נִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 925,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00147",
-	"slug": "פהי-2",
-	"headword": {
-		"text": "פִּהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּהֵי",
+	"headwords": [
+		{
+			"text": "פִּהֵי"
+		},
 		{
 			"text": "פה״י"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1138,
 		"column": "b"

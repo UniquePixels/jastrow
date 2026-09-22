@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "P00682",
-	"slug": "עירובא-2",
-	"headword": {
-		"text": "עֵירוּבָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵירוּבָא ²",
+	"headwords": [
+		{
+			"text": "עֵירוּבָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֵר׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1076,
 		"column": "a"

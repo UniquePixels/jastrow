@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00163",
-	"slug": "מגיסא",
-	"headword": {
-		"text": "מְגִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגִיסָא",
+	"headwords": [
+		{
+			"text": "מְגִיסָא"
+		},
 		{
 			"text": "מְגוּסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 728,
 		"column": "a"

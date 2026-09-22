@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00400",
-	"slug": "טינר-2",
-	"headword": {
-		"text": "טִינָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִינָּר ²",
+	"headwords": [
+		{
+			"text": "טִינָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "טִינָּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 533,
 		"column": "a"

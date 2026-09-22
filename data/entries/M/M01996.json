@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01996",
-	"slug": "מספרת",
-	"headword": {
-		"text": "מִסְפֶּרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְפֶּרֶת",
+	"headwords": [
+		{
+			"text": "מִסְפֶּרֶת"
+		},
 		{
 			"text": "מִסְפּוֹרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 810,
 		"column": "b"

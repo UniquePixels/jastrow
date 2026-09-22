@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01306",
-	"slug": "אילן-1",
-	"headword": {
-		"text": "אִילָּן"
-	},
+	"sefariaHeadword": "אִילָּן",
+	"headwords": [
+		{
+			"text": "אִילָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "b"

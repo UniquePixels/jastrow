@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01789",
-	"slug": "קצה-2",
-	"headword": {
-		"text": "קצה"
-	},
+	"sefariaHeadword": "קצה",
+	"headwords": [
+		{
+			"text": "קצה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

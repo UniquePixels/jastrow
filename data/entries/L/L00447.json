@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00447",
-	"slug": "ליטרא",
-	"headword": {
-		"text": "לִיטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיטְרָא",
+	"headwords": [
+		{
+			"text": "לִיטְרָא"
+		},
 		{
 			"text": "לִטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 706,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01035",
-	"slug": "נפטויא",
-	"headword": {
-		"text": "נַפְטוֹיָא"
-	},
+	"sefariaHeadword": "נַפְטוֹיָא",
+	"headwords": [
+		{
+			"text": "נַפְטוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00038",
-	"slug": "ראשנא",
-	"headword": {
-		"text": "רֵאשָׁנָא"
-	},
+	"sefariaHeadword": "רֵאשָׁנָא",
+	"headwords": [
+		{
+			"text": "רֵאשָׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1438,
 		"column": "a"

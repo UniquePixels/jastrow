@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00179",
-	"slug": "סדום",
-	"headword": {
-		"text": "סְדוֹם"
-	},
+	"sefariaHeadword": "סְדוֹם",
+	"headwords": [
+		{
+			"text": "סְדוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

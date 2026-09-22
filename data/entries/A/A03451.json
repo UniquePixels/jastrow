@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03451",
-	"slug": "אתרחצא",
-	"headword": {
-		"text": "אִתְרַחֲצָא"
-	},
+	"sefariaHeadword": "אִתְרַחֲצָא",
+	"headwords": [
+		{
+			"text": "אִתְרַחֲצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

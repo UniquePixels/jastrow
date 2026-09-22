@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02117",
-	"slug": "פתאוא",
-	"headword": {
-		"text": "פְּתָאוָא"
-	},
+	"sefariaHeadword": "פְּתָאוָא",
+	"headwords": [
+		{
+			"text": "פְּתָאוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

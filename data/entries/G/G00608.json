@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00608",
-	"slug": "זעף-2",
-	"headword": {
-		"text": "זְעַף"
-	},
+	"sefariaHeadword": "זְעַף",
+	"headwords": [
+		{
+			"text": "זְעַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

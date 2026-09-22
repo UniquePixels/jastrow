@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00988",
-	"slug": "חלה-2",
-	"headword": {
-		"text": "חַלָּה"
-	},
+	"sefariaHeadword": "חַלָּה",
+	"headwords": [
+		{
+			"text": "חַלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

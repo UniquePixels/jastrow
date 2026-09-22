@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01149",
-	"slug": "רתת-2",
-	"headword": {
-		"text": "רְתֵת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְתֵת",
+	"headwords": [
+		{
+			"text": "רְתֵת"
+		},
 		{
 			"text": "רְתֵית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1504,
 		"column": "b"

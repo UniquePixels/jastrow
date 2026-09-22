@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00801",
-	"slug": "מחבל",
-	"headword": {
-		"text": "מְחַבֵּל"
-	},
+	"sefariaHeadword": "מְחַבֵּל",
+	"headwords": [
+		{
+			"text": "מְחַבֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "a"

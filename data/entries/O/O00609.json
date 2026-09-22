@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00609",
-	"slug": "סיטמניא",
-	"headword": {
-		"text": "סִיטְמָנַיָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיטְמָנַיָּא",
+	"headwords": [
+		{
+			"text": "סִיטְמָנַיָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

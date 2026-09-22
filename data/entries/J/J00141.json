@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00141",
-	"slug": "יהיר-2",
-	"headword": {
-		"text": "יָהִיר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "יָהִיר ²",
+	"headwords": [
+		{
+			"text": "יָהִיר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 567,
 		"column": "a"

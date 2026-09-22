@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N01148",
-	"slug": "נצרא",
-	"headword": {
-		"text": "נִצְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִצְרָא",
+	"headwords": [
+		{
+			"text": "נִצְרָא"
+		},
 		{
 			"text": "נִצְרָה",
 			"homograph": 1
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I, {2}",
 	"page": {
 		"number": 930,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00438",
-	"slug": "בזה-2",
-	"headword": {
-		"text": "בִּזָּה"
-	},
+	"sefariaHeadword": "בִּזָּה",
+	"headwords": [
+		{
+			"text": "בִּזָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "a"

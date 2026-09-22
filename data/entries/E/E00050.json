@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00050",
-	"slug": "הברא",
-	"headword": {
-		"text": "הַבְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַבְרָא",
+	"headwords": [
+		{
+			"text": "הַבְרָא"
+		},
 		{
 			"text": "הַבְרָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 330,
 		"column": "a"

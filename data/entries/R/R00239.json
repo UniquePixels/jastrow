@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00239",
-	"slug": "צוקתא",
-	"headword": {
-		"text": "צוּקְתָא"
-	},
+	"sefariaHeadword": "צוּקְתָא",
+	"headwords": [
+		{
+			"text": "צוּקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "b"

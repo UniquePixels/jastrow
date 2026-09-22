@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00447",
-	"slug": "ינקא-1",
-	"headword": {
-		"text": "יַנְקָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַנְקָא I",
+	"headwords": [
+		{
+			"text": "יַנְקָא",
+			"homograph": 1
+		},
 		{
 			"text": "יוֹנְקָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 581,
 		"column": "b"

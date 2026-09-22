@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00091",
-	"slug": "צדון",
-	"headword": {
-		"text": "צֵדוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֵדוֹן",
+	"headwords": [
+		{
+			"text": "צֵדוֹן"
+		},
 		{
 			"text": "צֵדוֹנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1261,
 		"column": "b"

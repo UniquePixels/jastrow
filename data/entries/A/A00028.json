@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00028",
-	"slug": "אבגניסטי",
-	"headword": {
-		"text": "אֶבְגְּנִיסְטֵי"
-	},
+	"sefariaHeadword": "אֶבְגְּנִיסְטֵי",
+	"headwords": [
+		{
+			"text": "אֶבְגְּנִיסְטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 2,
 		"column": "b"

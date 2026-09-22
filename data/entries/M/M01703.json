@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01703",
-	"slug": "מנא-6",
-	"headword": {
-		"text": "מָנָא",
-		"homograph": 4
-	},
+	"sefariaHeadword": "מָנָא IV",
+	"headwords": [
+		{
+			"text": "מָנָא",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 796,
 		"column": "b"

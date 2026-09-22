@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01860",
-	"slug": "פרכיס",
-	"headword": {
-		"text": "פַּרְכֵּיס"
-	},
+	"sefariaHeadword": "פַּרְכֵּיס",
+	"headwords": [
+		{
+			"text": "פַּרְכֵּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

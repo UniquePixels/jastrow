@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00515",
-	"slug": "זמי-2",
-	"headword": {
-		"text": "זְמֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זְמֵי II",
+	"headwords": [
+		{
+			"text": "זְמֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 402,
 		"column": "b"

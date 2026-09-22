@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01616",
-	"slug": "קנקנא",
-	"headword": {
-		"text": "קַנְקַנָּא"
-	},
+	"sefariaHeadword": "קַנְקַנָּא",
+	"headwords": [
+		{
+			"text": "קַנְקַנָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

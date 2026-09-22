@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00292",
-	"slug": "לונביאות",
-	"headword": {
-		"text": "לונביאות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לונביאות",
+	"headwords": [
+		{
+			"text": "לונביאות"
+		},
 		{
 			"text": "לונביות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 700,
 		"column": "a"

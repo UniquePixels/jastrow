@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00888",
-	"slug": "גלוביא",
-	"headword": {
-		"text": "גלוביא"
-	},
+	"sefariaHeadword": "גלוביא",
+	"headwords": [
+		{
+			"text": "גלוביא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

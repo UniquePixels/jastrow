@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02983",
-	"slug": "ארגון",
-	"headword": {
-		"text": "אַרְגְּוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְגְּוָן",
+	"headwords": [
+		{
+			"text": "אַרְגְּוָן"
+		},
 		{
 			"text": "אַרְגְּוָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 115,
 		"column": "a"

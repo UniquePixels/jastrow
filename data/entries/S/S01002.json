@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01002",
-	"slug": "קימה",
-	"headword": {
-		"text": "קִימָה"
-	},
+	"sefariaHeadword": "קִימָה",
+	"headwords": [
+		{
+			"text": "קִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

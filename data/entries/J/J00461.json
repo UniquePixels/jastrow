@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00461",
-	"slug": "יסט",
-	"headword": {
-		"text": "יָסַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָסַט",
+	"headwords": [
+		{
+			"text": "יָסַט"
+		},
 		{
 			"text": "יסֲט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 582,
 		"column": "b"

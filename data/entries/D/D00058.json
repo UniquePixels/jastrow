@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00058",
-	"slug": "דביונים",
-	"headword": {
-		"text": "דִּבְיוֹנִים"
-	},
+	"sefariaHeadword": "דִּבְיוֹנִים",
+	"headwords": [
+		{
+			"text": "דִּבְיוֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "a"

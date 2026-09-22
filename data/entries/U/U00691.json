@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00691",
-	"slug": "שחצא",
-	"headword": {
-		"text": "שַׁחְצָא"
-	},
+	"sefariaHeadword": "שַׁחְצָא",
+	"headwords": [
+		{
+			"text": "שַׁחְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1550,
 		"column": "a"

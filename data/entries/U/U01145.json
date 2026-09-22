@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01145",
-	"slug": "שכיבה",
-	"headword": {
-		"text": "שְׁכִיבָה"
-	},
+	"sefariaHeadword": "שְׁכִיבָה",
+	"headwords": [
+		{
+			"text": "שְׁכִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "a"

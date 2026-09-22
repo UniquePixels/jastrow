@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00968",
-	"slug": "בנתא",
-	"headword": {
-		"text": "בְּנָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּנָתָא",
+	"headwords": [
+		{
+			"text": "בְּנָתָא"
+		},
 		{
 			"text": "בְּנָתָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 177,
 		"column": "b"

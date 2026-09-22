@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00901",
-	"slug": "דמכא",
-	"headword": {
-		"text": "דַּמְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּמְכָא",
+	"headwords": [
+		{
+			"text": "דַּמְכָא"
+		},
 		{
 			"text": "דִּמְכָא"
 		},
 		{
-			"text": "דּוּמְ׳"
+			"text": "דּוּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 314,
 		"column": "a"

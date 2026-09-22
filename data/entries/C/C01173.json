@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01173",
-	"slug": "גסיטרון",
-	"headword": {
-		"text": "גַּסִּיטְרוֹן"
-	},
+	"sefariaHeadword": "גַּסִּיטְרוֹן",
+	"headwords": [
+		{
+			"text": "גַּסִּיטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01427",
-	"slug": "שמואל",
-	"headword": {
-		"text": "שְׁמוּאֵל"
-	},
+	"sefariaHeadword": "שְׁמוּאֵל",
+	"headwords": [
+		{
+			"text": "שְׁמוּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1592,
 		"column": "a"

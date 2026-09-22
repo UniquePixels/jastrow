@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02940",
-	"slug": "אקראי",
-	"headword": {
-		"text": "אֶקְרָאִי"
-	},
+	"sefariaHeadword": "אֶקְרָאִי",
+	"headwords": [
+		{
+			"text": "אֶקְרָאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01679",
-	"slug": "קסקסין",
-	"headword": {
-		"text": "קַסְקַסִּין"
-	},
+	"sefariaHeadword": "קַסְקַסִּין",
+	"headwords": [
+		{
+			"text": "קַסְקַסִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

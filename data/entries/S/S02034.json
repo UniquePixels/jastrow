@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02034",
-	"slug": "קריבה",
-	"headword": {
-		"text": "קְרֵיבָה"
-	},
+	"sefariaHeadword": "קְרֵיבָה",
+	"headwords": [
+		{
+			"text": "קְרֵיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01154",
-	"slug": "קירבי",
-	"headword": {
-		"text": "קירבי"
-	},
+	"sefariaHeadword": "קירבי",
+	"headwords": [
+		{
+			"text": "קירבי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

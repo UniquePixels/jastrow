@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00481",
-	"slug": "שועה",
-	"headword": {
-		"text": "שַׁוְעָה"
-	},
+	"sefariaHeadword": "שַׁוְעָה",
+	"headwords": [
+		{
+			"text": "שַׁוְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "a"

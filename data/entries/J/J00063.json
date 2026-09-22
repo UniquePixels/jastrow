@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00063",
-	"slug": "יבמות",
-	"headword": {
-		"text": "יַבָּמוּת"
-	},
+	"sefariaHeadword": "יַבָּמוּת",
+	"headwords": [
+		{
+			"text": "יַבָּמוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "a"

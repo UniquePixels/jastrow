@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00191",
-	"slug": "לוגשא",
-	"headword": {
-		"text": "לוּגְשָׁא"
-	},
+	"sefariaHeadword": "לוּגְשָׁא",
+	"headwords": [
+		{
+			"text": "לוּגְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "b"

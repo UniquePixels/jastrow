@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00939",
-	"slug": "דסקא",
-	"headword": {
-		"text": "דַּסְקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דַּסְקָא",
+	"headwords": [
+		{
+			"text": "דַּסְקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

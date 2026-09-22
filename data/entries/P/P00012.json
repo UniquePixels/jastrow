@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00012",
-	"slug": "עבבית",
-	"headword": {
-		"text": "עֲבָבִית"
-	},
+	"sefariaHeadword": "עֲבָבִית",
+	"headwords": [
+		{
+			"text": "עֲבָבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1034,
 		"column": "b"

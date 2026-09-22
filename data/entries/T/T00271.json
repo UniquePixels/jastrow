@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00271",
-	"slug": "רהב-2",
-	"headword": {
-		"text": "רְהַב",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*רְהַב",
+	"headwords": [
+		{
+			"text": "רְהַב",
+			"reconstructed": true
+		},
 		{
 			"text": "רְהֵיב"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1453,
 		"column": "b"

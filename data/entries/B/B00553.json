@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00553",
-	"slug": "בידא-2",
-	"headword": {
-		"text": "בִּידָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּידָּא ²",
+	"headwords": [
+		{
+			"text": "בִּידָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "בִּידּוּ"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 159,
 		"column": "b"

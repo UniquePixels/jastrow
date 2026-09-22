@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00131",
-	"slug": "תהפכנא",
-	"headword": {
-		"text": "תְּהַפְכָּנָא"
-	},
+	"sefariaHeadword": "תְּהַפְכָּנָא",
+	"headwords": [
+		{
+			"text": "תְּהַפְכָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "a"

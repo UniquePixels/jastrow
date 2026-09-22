@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00724",
-	"slug": "פינון",
-	"headword": {
-		"text": "פִּינוֹן"
-	},
+	"sefariaHeadword": "פִּינוֹן",
+	"headwords": [
+		{
+			"text": "פִּינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

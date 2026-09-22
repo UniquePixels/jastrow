@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00086",
-	"slug": "עגולגולת",
-	"headword": {
-		"text": "עֲגוּלְגּוֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲגוּלְגּוֹלֶת",
+	"headwords": [
+		{
+			"text": "עֲגוּלְגּוֹלֶת"
+		},
 		{
 			"text": "עֲגוּלְגֹּלֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1041,
 		"column": "a"

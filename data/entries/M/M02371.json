@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02371",
-	"slug": "מצת",
-	"headword": {
-		"text": "מָצַת"
-	},
+	"sefariaHeadword": "מָצַת",
+	"headwords": [
+		{
+			"text": "מָצַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 828,
 		"column": "b"

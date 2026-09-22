@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00407",
-	"slug": "דחי-2",
-	"headword": {
-		"text": "דְּחִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּחִי",
+	"headwords": [
+		{
+			"text": "דְּחִי"
+		},
 		{
 			"text": "דְּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 291,
 		"column": "b"
@@ -56,7 +58,7 @@
 				{
 					"gloss": "<i>to be thrust down</i>. ",
 					"units": [
-						"<cite ref=\"Aramaic Targum to Psalms 36:13\">Targ. Ps. XXXVI, 13</cite> <he>אִידָּחֲיַין</he> Ms. (ed. <he>יִדְחֲיַן</he>); a. e."
+						"<cite ref=\"Aramaic Targum to Psalms 36:13\">Targ. Ps. XXXVI, 13</cite> <he>אִידָּחֲיַין</he> Ms. (ed. <he>יִדְחֲיַן</he>); a. e."
 					],
 					"label": "1"
 				},

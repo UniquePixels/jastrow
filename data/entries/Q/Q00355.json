@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00355",
-	"slug": "פורכתא",
-	"headword": {
-		"text": "פּוּרְכְּתָא"
-	},
+	"sefariaHeadword": "פּוּרְכְּתָא",
+	"headwords": [
+		{
+			"text": "פּוּרְכְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "a"

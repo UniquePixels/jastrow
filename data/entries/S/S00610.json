@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00610",
-	"slug": "קורייס-1",
-	"headword": {
-		"text": "קוֹרְיָיס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קוֹרְיָיס I",
+	"headwords": [
+		{
+			"text": "קוֹרְיָיס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1343,
 		"column": "a"

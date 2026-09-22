@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00911",
-	"slug": "מחסיל",
-	"headword": {
-		"text": "מַחְסֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחְסֵיל",
+	"headwords": [
 		{
-			"text": "מְחָ׳"
+			"text": "מַחְסֵיל"
+		},
+		{
+			"text": "מְחָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 763,
 		"column": "a"

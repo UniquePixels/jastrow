@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01881",
-	"slug": "בי-אלישפט",
-	"headword": {
-		"text": "בֵּי אֱלִישָׁפָט"
-	},
+	"sefariaHeadword": "בֵּי אֱלִישָׁפָט",
+	"headwords": [
+		{
+			"text": "בֵּי אֱלִישָׁפָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "a"

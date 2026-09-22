@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02178",
-	"slug": "אנטיוכס",
-	"headword": {
-		"text": "אַנְטְיוֹכָס"
-	},
+	"sefariaHeadword": "אַנְטְיוֹכָס",
+	"headwords": [
+		{
+			"text": "אַנְטְיוֹכָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

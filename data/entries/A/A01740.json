@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01740",
-	"slug": "אכסניאות",
-	"headword": {
-		"text": "אַכְסַנְיָאוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְסַנְיָאוּת",
+	"headwords": [
+		{
+			"text": "אַכְסַנְיָאוּת"
+		},
 		{
 			"text": "אַכְסַנְיוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 65,
 		"column": "a"

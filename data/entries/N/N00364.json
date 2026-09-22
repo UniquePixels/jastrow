@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00364",
-	"slug": "נולו",
-	"headword": {
-		"text": "נְוָלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְוָלוּ",
+	"headwords": [
+		{
+			"text": "נְוָלוּ"
+		},
 		{
 			"text": "נְוָלִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 887,
 		"column": "b"

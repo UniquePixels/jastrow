@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00417",
-	"slug": "טיפח",
-	"headword": {
-		"text": "טִיפַּח",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִיפַּח",
+	"headwords": [
+		{
+			"text": "טִיפַּח",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

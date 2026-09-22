@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00151",
-	"slug": "תובן",
-	"headword": {
-		"text": "תּוּבָן"
-	},
+	"sefariaHeadword": "תּוּבָן",
+	"headwords": [
+		{
+			"text": "תּוּבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

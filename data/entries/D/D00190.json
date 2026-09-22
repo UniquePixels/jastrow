@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00190",
-	"slug": "דוגמא",
-	"headword": {
-		"text": "דּוּגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּגְמָא",
+	"headwords": [
+		{
+			"text": "דּוּגְמָא"
+		},
 		{
 			"text": "דִּיגְמָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דּוּגְמָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 282,
 		"column": "b"
@@ -21,7 +23,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "f. (δεῖγμα, cmp. παράδειγμα) ",
+			"gloss": "f. (δεῖγμα, cmp. παράδειγμα) ",
 			"units": []
 		},
 		{

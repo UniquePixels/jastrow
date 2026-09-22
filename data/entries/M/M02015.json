@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02015",
-	"slug": "מסרהבא",
-	"headword": {
-		"text": "מְסַרְהֲבָא"
-	},
+	"sefariaHeadword": "מְסַרְהֲבָא",
+	"headwords": [
+		{
+			"text": "מְסַרְהֲבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

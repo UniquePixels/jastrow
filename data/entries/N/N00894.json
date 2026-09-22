@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "N00894",
-	"slug": "נמרי",
-	"headword": {
-		"text": "נִמְרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִמְרֵי",
+	"headwords": [
+		{
+			"text": "נִמְרֵי"
+		},
 		{
 			"text": "נִמְרִין"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 914,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

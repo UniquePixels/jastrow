@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00798",
-	"slug": "אופי-1",
-	"headword": {
-		"text": "אוּפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּפֵי",
+	"headwords": [
+		{
+			"text": "אוּפֵי"
+		},
 		{
 			"text": "אוּפְיֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 31,
 		"column": "a"

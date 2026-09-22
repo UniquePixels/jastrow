@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00273",
-	"slug": "אגוסטלא",
-	"headword": {
-		"text": "אגוסטלא"
-	},
+	"sefariaHeadword": "אגוסטלא",
+	"headwords": [
+		{
+			"text": "אגוסטלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

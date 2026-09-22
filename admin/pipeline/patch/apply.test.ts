@@ -61,6 +61,29 @@ function ocrPatch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 	} as SemanticPatch;
 }
 
+/** A `reform` whose payload sets only the line's layout: the forms
+ * are `makeEntry()`'s own, so its target — the forms block — is
+ * byte-identical after the apply (headword design §4 "Parentheses",
+ * ruled 2026-09-22; A02823 is the row). */
+function displayOnlyReform(): SemanticPatch {
+	const expected = 'test-word';
+	return {
+		confidence: 'high',
+		defect_class: 'headword-paren-placement',
+		expected_before: expected,
+		expected_occurrences: 1,
+		id: 'P000003',
+		occurrence_index: 1,
+		op: 'reform',
+		payload: { display: '({0}) {1} I', forms: [expected] },
+		prompt_version: 'v1',
+		rationale: 'the print sets the parentheses on the headword',
+		rid: 'D00436',
+		snapshot: PIN,
+		target: `forms:${contentAnchor(expected)}`,
+	} as SemanticPatch;
+}
+
 /** A valid retag patch against makeEntry()'s second sense. */
 function retagPatch(): SemanticPatch {
 	const expected = 'pressure, need, v. dochak.';
@@ -356,9 +379,28 @@ describe('postApplyAssertions', () => {
 		const noop = ocrPatch({ payload: { find: 'l)', replace: 'l)' } });
 		// Apply by hand: a find==replace patch leaves the entry identical.
 		const entry = makeEntry();
-		expect(() => postApplyAssertions(entry, noop)).toThrow(
+		expect(() => postApplyAssertions(entry, entry, noop)).toThrow(
 			'did not change its target',
 		);
+	});
+
+	it('accepts a reform that set only the line`s display', () => {
+		// Headword design §4 "Parentheses" (ruled 2026-09-22): a
+		// reviewed patch may correct a LAYOUT the source got wrong while
+		// the forms stay as the source has them — so the forms block,
+		// which is the patch's target, is byte-identical on purpose.
+		const before = makeEntry();
+		const after = { ...before, display: '({0}) {1} I' };
+		expect(() =>
+			postApplyAssertions(before, after, displayOnlyReform()),
+		).not.toThrow();
+	});
+
+	it('still rejects a reform that changed nothing at all', () => {
+		const before = makeEntry();
+		expect(() =>
+			postApplyAssertions(before, before, displayOnlyReform()),
+		).toThrow('did not change its target');
 	});
 
 	it('accepts a genuine change', () => {

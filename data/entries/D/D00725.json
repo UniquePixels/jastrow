@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00725",
-	"slug": "דיר-1",
-	"headword": {
-		"text": "דֵּיר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דֵּיר I",
+	"headwords": [
+		{
+			"text": "דֵּיר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 305,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01147",
-	"slug": "שכיחה",
-	"headword": {
-		"text": "שְׁכִיחָה"
-	},
+	"sefariaHeadword": "שְׁכִיחָה",
+	"headwords": [
+		{
+			"text": "שְׁכִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "a"

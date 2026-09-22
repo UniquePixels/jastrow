@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00211",
-	"slug": "בודיא",
-	"headword": {
-		"text": "בּוּדְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּוּדְיָא",
+	"headwords": [
+		{
+			"text": "בּוּדְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

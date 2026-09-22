@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01373",
-	"slug": "גרס-1",
-	"headword": {
-		"text": "גָּרַס"
-	},
+	"sefariaHeadword": "גָּרַס",
+	"headwords": [
+		{
+			"text": "גָּרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

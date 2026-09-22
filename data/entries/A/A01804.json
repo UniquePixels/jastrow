@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01804",
-	"slug": "אלווין",
-	"headword": {
-		"text": "אַלְוִוין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְוִוין",
+	"headwords": [
+		{
+			"text": "אַלְוִוין"
+		},
 		{
 			"text": "עַלְוִיִּים"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַלְוָאִין"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 67,
 		"column": "b"

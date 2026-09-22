@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03116",
-	"slug": "אריסטוון",
-	"headword": {
-		"text": "אריסטוון"
-	},
+	"sefariaHeadword": "אריסטוון",
+	"headwords": [
+		{
+			"text": "אריסטוון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "b"

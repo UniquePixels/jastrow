@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01044",
-	"slug": "עסיס-2",
-	"headword": {
-		"text": "עָסִיס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עָסִיס ²",
+	"headwords": [
+		{
+			"text": "עָסִיס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1098,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02967",
-	"slug": "משקלת",
-	"headword": {
-		"text": "מִשְׁקֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁקֹלֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁקֹלֶת"
+		},
 		{
 			"text": "מִשְׁקַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "a"

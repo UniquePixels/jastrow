@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00569",
-	"slug": "חזרן-2",
-	"headword": {
-		"text": "חַזְרַן"
-	},
+	"sefariaHeadword": "חַזְרַן",
+	"headwords": [
+		{
+			"text": "חַזְרַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

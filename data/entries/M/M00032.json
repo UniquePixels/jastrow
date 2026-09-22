@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00032",
-	"slug": "מאירה",
-	"headword": {
-		"text": "מְאֵירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְאֵירָה",
+	"headwords": [
+		{
+			"text": "מְאֵירָה"
+		},
 		{
 			"text": "מְאֵירְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 722,
 		"column": "b"

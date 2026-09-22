@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00174",
-	"slug": "יוון",
-	"headword": {
-		"text": "יָוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָוָון",
+	"headwords": [
+		{
+			"text": "יָוָון"
+		},
 		{
 			"text": "יְוָונָאָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "יְוָונִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 568,
 		"column": "a"

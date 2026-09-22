@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01911",
-	"slug": "פרס-4",
-	"headword": {
-		"text": "פְּרָס"
-	},
+	"sefariaHeadword": "פְּרָס",
+	"headwords": [
+		{
+			"text": "פְּרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1233,
 		"column": "a"

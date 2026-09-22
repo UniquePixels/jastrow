@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01443",
-	"slug": "פצעיות",
-	"headword": {
-		"text": "פצעיות"
-	},
+	"sefariaHeadword": "פצעיות",
+	"headwords": [
+		{
+			"text": "פצעיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1206,
 		"column": "b"

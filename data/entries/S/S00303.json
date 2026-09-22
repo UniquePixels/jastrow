@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00303",
-	"slug": "קוטע",
-	"headword": {
-		"text": "קוֹטֵעַ"
-	},
+	"sefariaHeadword": "קוֹטֵעַ",
+	"headwords": [
+		{
+			"text": "קוֹטֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

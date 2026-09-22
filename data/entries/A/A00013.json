@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00013",
-	"slug": "אב-2",
-	"headword": {
-		"text": "אָב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אָב I",
+	"headwords": [
+		{
+			"text": "אָב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1,
 		"column": "b"

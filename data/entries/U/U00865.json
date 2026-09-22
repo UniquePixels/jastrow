@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00865",
-	"slug": "שיחורא",
-	"headword": {
-		"text": "שִׁיחוֹרָא"
-	},
+	"sefariaHeadword": "שִׁיחוֹרָא",
+	"headwords": [
+		{
+			"text": "שִׁיחוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

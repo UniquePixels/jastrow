@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01281",
-	"slug": "שלט-1",
-	"headword": {
-		"text": "שָׁלַט"
-	},
+	"sefariaHeadword": "שָׁלַט",
+	"headwords": [
+		{
+			"text": "שָׁלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1581,
 		"column": "a"

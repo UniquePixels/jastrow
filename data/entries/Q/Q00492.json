@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00492",
-	"slug": "פחתי",
-	"headword": {
-		"text": "פַּחֲתֵי"
-	},
+	"sefariaHeadword": "פַּחֲתֵי",
+	"headwords": [
+		{
+			"text": "פַּחֲתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

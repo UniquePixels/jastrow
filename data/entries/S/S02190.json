@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02190",
-	"slug": "קרקשא",
-	"headword": {
-		"text": "קַרְקְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְקְשָׁא",
+	"headwords": [
 		{
-			"text": "קַרְקִי׳"
+			"text": "קַרְקְשָׁא"
+		},
+		{
+			"text": "קַרְקִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1427,
 		"column": "b"

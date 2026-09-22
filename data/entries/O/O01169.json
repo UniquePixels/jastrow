@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01169",
-	"slug": "סנגדא",
-	"headword": {
-		"text": "סנגדא"
-	},
+	"sefariaHeadword": "סנגדא",
+	"headwords": [
+		{
+			"text": "סנגדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

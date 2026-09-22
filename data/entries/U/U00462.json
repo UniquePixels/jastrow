@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00462",
-	"slug": "שומשמים",
-	"headword": {
-		"text": "שׁוּמְשְׁמִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּמְשְׁמִים",
+	"headwords": [
+		{
+			"text": "שׁוּמְשְׁמִים"
+		},
 		{
 			"text": "שׁוּמְשְׁמִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1537,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00093",
-	"slug": "טבת-2",
-	"headword": {
-		"text": "טַבָּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַבָּת",
+	"headwords": [
+		{
+			"text": "טַבָּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 519,
 		"column": "b"

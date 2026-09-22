@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00285",
-	"slug": "מדיונים",
-	"headword": {
-		"text": "מדיונים"
-	},
+	"sefariaHeadword": "מדיונים",
+	"headwords": [
+		{
+			"text": "מדיונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

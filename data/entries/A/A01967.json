@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01967",
-	"slug": "אמאי",
-	"headword": {
-		"text": "אַמַּאי"
-	},
+	"sefariaHeadword": "אַמַּאי",
+	"headwords": [
+		{
+			"text": "אַמַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "b"

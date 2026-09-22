@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02685",
-	"slug": "מרירו",
-	"headword": {
-		"text": "מְרִירוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרִירוּ",
+	"headwords": [
+		{
+			"text": "מְרִירוּ"
+		},
 		{
 			"text": "מְרִירוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 843,
 		"column": "b"

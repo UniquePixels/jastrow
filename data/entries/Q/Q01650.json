@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01650",
-	"slug": "פרוזבטיא",
-	"headword": {
-		"text": "פרוזבטיא"
-	},
+	"sefariaHeadword": "פרוזבטיא",
+	"headwords": [
+		{
+			"text": "פרוזבטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "b"

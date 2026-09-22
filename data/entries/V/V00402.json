@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00402",
-	"slug": "תיאה",
-	"headword": {
-		"text": "תִּיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיאָה",
+	"headwords": [
+		{
+			"text": "תִּיאָה"
+		},
 		{
 			"text": "תִּיָּיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "תִּיָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1663,
 		"column": "a"

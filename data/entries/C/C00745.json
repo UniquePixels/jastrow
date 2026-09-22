@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00745",
-	"slug": "גימלא",
-	"headword": {
-		"text": "גִּימְלָא"
-	},
+	"sefariaHeadword": "גִּימְלָא",
+	"headwords": [
+		{
+			"text": "גִּימְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

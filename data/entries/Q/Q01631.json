@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01631",
-	"slug": "פרווד",
-	"headword": {
-		"text": "פַּרְוָוד"
-	},
+	"sefariaHeadword": "פַּרְוָוד",
+	"headwords": [
+		{
+			"text": "פַּרְוָוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

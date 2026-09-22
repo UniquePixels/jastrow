@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00184",
-	"slug": "בהק-1",
-	"headword": {
-		"text": "בָּהַק"
-	},
+	"sefariaHeadword": "בָּהַק",
+	"headwords": [
+		{
+			"text": "בָּהַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "a"

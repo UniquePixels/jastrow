@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01408",
-	"slug": "ערסל-1",
-	"headword": {
-		"text": "עִרְסֵל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עִרְסֵל",
+	"headwords": [
+		{
+			"text": "עִרְסֵל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1121,
 		"column": "a"

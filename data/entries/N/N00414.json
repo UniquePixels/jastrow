@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00414",
-	"slug": "נוקרנא",
-	"headword": {
-		"text": "נוֹקְרָנָא"
-	},
+	"sefariaHeadword": "נוֹקְרָנָא",
+	"headwords": [
+		{
+			"text": "נוֹקְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01458",
-	"slug": "פקוח",
-	"headword": {
-		"text": "פִּקּוּחַ"
-	},
+	"sefariaHeadword": "פִּקּוּחַ",
+	"headwords": [
+		{
+			"text": "פִּקּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

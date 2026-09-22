@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00681",
-	"slug": "תמינאה",
-	"headword": {
-		"text": "תְּמִינָאָה"
-	},
+	"sefariaHeadword": "תְּמִינָאָה",
+	"headwords": [
+		{
+			"text": "תְּמִינָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

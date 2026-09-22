@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00315",
-	"slug": "לוקוטינינטיס",
-	"headword": {
-		"text": "לוֹקוּטִינִינְטֵיס"
-	},
+	"sefariaHeadword": "לוֹקוּטִינִינְטֵיס",
+	"headwords": [
+		{
+			"text": "לוֹקוּטִינִינְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

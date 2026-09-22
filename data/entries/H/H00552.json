@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00552",
-	"slug": "חזנא",
-	"headword": {
-		"text": "חַזָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַזָּנָא",
+	"headwords": [
 		{
-			"text": "חֲזָ׳"
+			"text": "חַזָּנָא"
+		},
+		{
+			"text": "חֲזָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 444,
 		"column": "b"

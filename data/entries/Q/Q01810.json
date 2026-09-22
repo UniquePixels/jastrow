@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01810",
-	"slug": "פרימה",
-	"headword": {
-		"text": "פְּרִימָה"
-	},
+	"sefariaHeadword": "פְּרִימָה",
+	"headwords": [
+		{
+			"text": "פְּרִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

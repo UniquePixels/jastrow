@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00727",
-	"slug": "ניפוח",
-	"headword": {
-		"text": "נִיפּוּחַ"
-	},
+	"sefariaHeadword": "נִיפּוּחַ",
+	"headwords": [
+		{
+			"text": "נִיפּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

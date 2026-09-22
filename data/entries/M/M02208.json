@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02208",
-	"slug": "מפטיר",
-	"headword": {
-		"text": "מַפְטִיר"
-	},
+	"sefariaHeadword": "מַפְטִיר",
+	"headwords": [
+		{
+			"text": "מַפְטִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

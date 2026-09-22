@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00998",
-	"slug": "מטל",
-	"headword": {
-		"text": "מְטָל"
-	},
+	"sefariaHeadword": "מְטָל",
+	"headwords": [
+		{
+			"text": "מְטָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

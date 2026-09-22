@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00384",
-	"slug": "סוף-1",
-	"headword": {
-		"text": "סוּף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סוּף I",
+	"headwords": [
+		{
+			"text": "סוּף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 967,
 		"column": "b"

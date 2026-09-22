@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00334",
-	"slug": "סום-3",
-	"headword": {
-		"text": "סוּם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סוּם II",
+	"headwords": [
+		{
+			"text": "סוּם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 965,
 		"column": "b"

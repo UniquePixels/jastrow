@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00867",
-	"slug": "אורורין",
-	"headword": {
-		"text": "אורורין"
-	},
+	"sefariaHeadword": "אורורין",
+	"headwords": [
+		{
+			"text": "אורורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00766",
-	"slug": "דכון-2",
-	"headword": {
-		"text": "דִּכּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכּוּן",
+	"headwords": [
+		{
+			"text": "דִּכּוּן"
+		},
 		{
 			"text": "דִּכּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "b"

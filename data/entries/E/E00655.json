@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00655",
-	"slug": "הנדאה",
-	"headword": {
-		"text": "הִנְדָּאָה"
-	},
+	"sefariaHeadword": "הִנְדָּאָה",
+	"headwords": [
+		{
+			"text": "הִנְדָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "a"

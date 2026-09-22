@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00715",
-	"slug": "רירא",
-	"headword": {
-		"text": "רִירָא"
-	},
+	"sefariaHeadword": "רִירָא",
+	"headwords": [
+		{
+			"text": "רִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

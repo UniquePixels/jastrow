@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00202",
-	"slug": "הוד",
-	"headword": {
-		"text": "הוֹד"
-	},
+	"sefariaHeadword": "הוֹד",
+	"headwords": [
+		{
+			"text": "הוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "a"

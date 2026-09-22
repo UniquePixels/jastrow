@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01831",
-	"slug": "שקדן",
-	"headword": {
-		"text": "שַׁקְדָּן"
-	},
+	"sefariaHeadword": "שַׁקְדָּן",
+	"headwords": [
+		{
+			"text": "שַׁקְדָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1621,
 		"column": "a"

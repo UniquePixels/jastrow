@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00291",
-	"slug": "אגיחותא",
-	"headword": {
-		"text": "אָגִיחוּתָא"
-	},
+	"sefariaHeadword": "אָגִיחוּתָא",
+	"headwords": [
+		{
+			"text": "אָגִיחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

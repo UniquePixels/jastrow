@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00737",
-	"slug": "סיני",
-	"headword": {
-		"text": "סִינַי"
-	},
+	"sefariaHeadword": "סִינַי",
+	"headwords": [
+		{
+			"text": "סִינַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

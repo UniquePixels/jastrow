@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01269",
-	"slug": "סנריות",
-	"headword": {
-		"text": "סנריות"
-	},
+	"sefariaHeadword": "סנריות",
+	"headwords": [
+		{
+			"text": "סנריות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "a"

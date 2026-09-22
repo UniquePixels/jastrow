@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00361",
-	"slug": "מהילא",
-	"headword": {
-		"text": "מְהִילָא"
-	},
+	"sefariaHeadword": "מְהִילָא",
+	"headwords": [
+		{
+			"text": "מְהִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

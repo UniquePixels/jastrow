@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00001",
-	"slug": "ג-2",
-	"headword": {
-		"text": "ג",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "ג ²",
+	"headwords": [
+		{
+			"text": "ג",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 201,
 		"column": "a"

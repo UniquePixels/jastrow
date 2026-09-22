@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00497",
-	"slug": "חותלה",
-	"headword": {
-		"text": "חותלה"
-	},
+	"sefariaHeadword": "חותלה",
+	"headwords": [
+		{
+			"text": "חותלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

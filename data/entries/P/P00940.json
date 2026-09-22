@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00940",
-	"slug": "ענב-1",
-	"headword": {
-		"text": "עָנַב"
-	},
+	"sefariaHeadword": "עָנַב",
+	"headwords": [
+		{
+			"text": "עָנַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

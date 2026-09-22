@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00844",
-	"slug": "גישתא",
-	"headword": {
-		"text": "גִּישְׁתָּא"
-	},
+	"sefariaHeadword": "גִּישְׁתָּא",
+	"headwords": [
+		{
+			"text": "גִּישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

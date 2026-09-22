@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01380",
-	"slug": "כתף-4",
-	"headword": {
-		"text": "כַּתַּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּתַּף",
+	"headwords": [
+		{
+			"text": "כַּתַּף"
+		},
 		{
 			"text": "כַּתָּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 682,
 		"column": "a"

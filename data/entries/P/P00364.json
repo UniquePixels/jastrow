@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00364",
-	"slug": "עוררה",
-	"headword": {
-		"text": "עוּרְרָה"
-	},
+	"sefariaHeadword": "עוּרְרָה",
+	"headwords": [
+		{
+			"text": "עוּרְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

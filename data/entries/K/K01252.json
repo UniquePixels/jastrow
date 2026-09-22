@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01252",
-	"slug": "כרסם",
-	"headword": {
-		"text": "כרסם"
-	},
+	"sefariaHeadword": "כרסם",
+	"headwords": [
+		{
+			"text": "כרסם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

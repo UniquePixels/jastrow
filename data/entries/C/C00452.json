@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00452",
-	"slug": "גוספנין",
-	"headword": {
-		"text": "גּוּסְפָּנִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּסְפָּנִין",
+	"headwords": [
+		{
+			"text": "גּוּסְפָּנִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 224,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01483",
-	"slug": "סקיפתא",
-	"headword": {
-		"text": "סַקֵּיפְתָּא"
-	},
+	"sefariaHeadword": "סַקֵּיפְתָּא",
+	"headwords": [
+		{
+			"text": "סַקֵּיפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "b"

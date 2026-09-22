@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01530",
-	"slug": "שמרון-1",
-	"headword": {
-		"text": "שמרון"
-	},
+	"sefariaHeadword": "שמרון",
+	"headwords": [
+		{
+			"text": "שמרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "a"

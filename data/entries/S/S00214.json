@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00214",
-	"slug": "קו-1",
-	"headword": {
-		"text": "קוּ"
-	},
+	"sefariaHeadword": "קוּ",
+	"headwords": [
+		{
+			"text": "קוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "a"

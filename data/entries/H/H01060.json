@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01060",
-	"slug": "חליצה",
-	"headword": {
-		"text": "חֲלִיצָה"
-	},
+	"sefariaHeadword": "חֲלִיצָה",
+	"headwords": [
+		{
+			"text": "חֲלִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "a"

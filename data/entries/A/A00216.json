@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00216",
-	"slug": "אברוקלון",
-	"headword": {
-		"text": "אברוקלון"
-	},
+	"sefariaHeadword": "אברוקלון",
+	"headwords": [
+		{
+			"text": "אברוקלון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

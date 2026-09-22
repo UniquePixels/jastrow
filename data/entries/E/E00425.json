@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00425",
-	"slug": "הימיסיון",
-	"headword": {
-		"text": "הימיסיון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הימיסיון",
+	"headwords": [
+		{
+			"text": "הימיסיון"
+		},
 		{
 			"text": "הימסיון"
 		},
 		{
-			"text": "הימוס׳"
+			"text": "הימוס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 347,
 		"column": "a"

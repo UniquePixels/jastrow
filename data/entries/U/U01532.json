@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01532",
-	"slug": "שמרונאה",
-	"headword": {
-		"text": "שֹׁמְרוֹנָאָה"
-	},
+	"sefariaHeadword": "שֹׁמְרוֹנָאָה",
+	"headwords": [
+		{
+			"text": "שֹׁמְרוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "b"

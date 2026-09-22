@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00180",
-	"slug": "סדומי",
-	"headword": {
-		"text": "סְדוֹמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְדוֹמִי",
+	"headwords": [
+		{
+			"text": "סְדוֹמִי"
+		},
 		{
 			"text": "סוֹדָמִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 956,
 		"column": "b"

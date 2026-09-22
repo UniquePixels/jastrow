@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02852",
-	"slug": "אצבע",
-	"headword": {
-		"text": "אֶצְבַּע"
-	},
+	"sefariaHeadword": "אֶצְבַּע",
+	"headwords": [
+		{
+			"text": "אֶצְבַּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

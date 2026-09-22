@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01211",
-	"slug": "קישוטא",
-	"headword": {
-		"text": "קִישּׁוּטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישּׁוּטָא",
+	"headwords": [
 		{
-			"text": "קִשּׁ׳"
+			"text": "קִישּׁוּטָא"
+		},
+		{
+			"text": "קִשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

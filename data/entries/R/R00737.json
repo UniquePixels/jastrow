@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00737",
-	"slug": "צרדא-2",
-	"headword": {
-		"text": "צְרָדָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צְרָדָא I",
+	"headwords": [
+		{
+			"text": "צְרָדָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1299,
 		"column": "b"

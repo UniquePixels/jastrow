@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V01016",
-	"slug": "תרמילא",
-	"headword": {
-		"text": "תַּרְמִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְמִילָא",
+	"headwords": [
 		{
-			"text": "תּוּרְ׳"
+			"text": "תַּרְמִילָא"
+		},
+		{
+			"text": "תּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1700,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02053",
-	"slug": "אמפלי",
-	"headword": {
-		"text": "אַמְפְּלַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְפְּלַי",
+	"headwords": [
+		{
+			"text": "אַמְפְּלַי"
+		},
 		{
 			"text": "אַמְפּוֹלַי"
 		},
@@ -15,6 +16,7 @@
 			"text": "אִינְפּוֹלַי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 78,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01301",
-	"slug": "קלותא",
-	"headword": {
-		"text": "קלותא"
-	},
+	"sefariaHeadword": "קלותא",
+	"headwords": [
+		{
+			"text": "קלותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1374,
 		"column": "a"

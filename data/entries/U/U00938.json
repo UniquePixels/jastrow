@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00938",
-	"slug": "שילו",
-	"headword": {
-		"text": "שִׁילוֹ"
-	},
+	"sefariaHeadword": "שִׁילוֹ",
+	"headwords": [
+		{
+			"text": "שִׁילוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "a"

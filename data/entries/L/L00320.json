@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00320",
-	"slug": "לוקין",
-	"headword": {
-		"text": "לוקין"
-	},
+	"sefariaHeadword": "לוקין",
+	"headwords": [
+		{
+			"text": "לוקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

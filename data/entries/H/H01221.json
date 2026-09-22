@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01221",
-	"slug": "חמר-4",
-	"headword": {
-		"text": "חֲמַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חֲמַר ²",
+	"headwords": [
+		{
+			"text": "חֲמַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 480,
 		"column": "a"

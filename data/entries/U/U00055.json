@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00055",
-	"slug": "שאשיתא",
-	"headword": {
-		"text": "שאשיתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שאשיתא",
+	"headwords": [
+		{
+			"text": "שאשיתא"
+		},
 		{
 			"text": "שאשתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1509,
 		"column": "b"

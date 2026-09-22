@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01337",
-	"slug": "בררא",
-	"headword": {
-		"text": "בְּרָרָא"
-	},
+	"sefariaHeadword": "בְּרָרָא",
+	"headwords": [
+		{
+			"text": "בְּרָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "a"

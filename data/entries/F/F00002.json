@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "F00002",
-	"slug": "ו-2",
-	"headword": {
-		"text": "וְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וְ",
+	"headwords": [
+		{
+			"text": "וְ"
+		},
 		{
 			"text": "וּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 371,
 		"column": "b"

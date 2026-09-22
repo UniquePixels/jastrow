@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03060",
-	"slug": "ארזפתא-2",
-	"headword": {
-		"text": "אַרְזַפְתָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְזַפְתָּא II",
+	"headwords": [
+		{
+			"text": "אַרְזַפְתָּא",
+			"homograph": 2
+		},
 		{
 			"text": "אַפְרַזְתָּא"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 117,
 		"column": "b"

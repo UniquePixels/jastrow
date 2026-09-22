@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01499",
-	"slug": "סקר-4",
-	"headword": {
-		"text": "סְקַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְקַר II",
+	"headwords": [
+		{
+			"text": "סְקַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1021,
 		"column": "a"

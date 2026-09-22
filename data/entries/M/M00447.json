@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00447",
-	"slug": "מוזלא-1",
-	"headword": {
-		"text": "מוֹזְלָא , I"
-	},
+	"sefariaHeadword": "מוֹזְלָא , I",
+	"headwords": [
+		{
+			"text": "מוֹזְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 740,
 		"column": "a"

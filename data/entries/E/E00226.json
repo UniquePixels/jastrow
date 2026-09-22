@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00226",
-	"slug": "הוזמא",
-	"headword": {
-		"text": "הוּזְמָא"
-	},
+	"sefariaHeadword": "הוּזְמָא",
+	"headwords": [
+		{
+			"text": "הוּזְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

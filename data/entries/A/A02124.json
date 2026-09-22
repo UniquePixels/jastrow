@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02124",
-	"slug": "אנדרולינאי",
-	"headword": {
-		"text": "אנדרולינאי"
-	},
+	"sefariaHeadword": "אנדרולינאי",
+	"headwords": [
+		{
+			"text": "אנדרולינאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

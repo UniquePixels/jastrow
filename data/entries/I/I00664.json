@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00664",
-	"slug": "טפלא-2",
-	"headword": {
-		"text": "טְפֵלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְפֵלָא",
+	"headwords": [
 		{
-			"text": "טְפֵי׳"
+			"text": "טְפֵלָא"
+		},
+		{
+			"text": "טְפֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 548,
 		"column": "a"

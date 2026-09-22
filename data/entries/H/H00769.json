@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00769",
-	"slug": "חילוף",
-	"headword": {
-		"text": "חִילּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוּף",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוּף"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "b"

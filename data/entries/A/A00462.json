@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00462",
-	"slug": "אדריבולין",
-	"headword": {
-		"text": "אדריבולין"
-	},
+	"sefariaHeadword": "אדריבולין",
+	"headwords": [
+		{
+			"text": "אדריבולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

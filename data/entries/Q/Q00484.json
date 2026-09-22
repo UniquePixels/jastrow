@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00484",
-	"slug": "פחרא",
-	"headword": {
-		"text": "פַּחָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּחָרָא",
+	"headwords": [
+		{
+			"text": "פַּחָרָא"
+		},
 		{
 			"text": "פָּחֲרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1153,
 		"column": "a"

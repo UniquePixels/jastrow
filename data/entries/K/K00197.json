@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00197",
-	"slug": "כובריתא",
-	"headword": {
-		"text": "כּוּבְרִיתָא"
-	},
+	"sefariaHeadword": "כּוּבְרִיתָא",
+	"headwords": [
+		{
+			"text": "כּוּבְרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

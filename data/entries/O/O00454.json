@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00454",
-	"slug": "סחי",
-	"headword": {
-		"text": "סְחֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְחֵי",
+	"headwords": [
+		{
+			"text": "סְחֵי"
+		},
 		{
 			"text": "סְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 971,
 		"column": "a"

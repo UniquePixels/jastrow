@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00160",
-	"slug": "להט-1",
-	"headword": {
-		"text": "לָהַט"
-	},
+	"sefariaHeadword": "לָהַט",
+	"headwords": [
+		{
+			"text": "לָהַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

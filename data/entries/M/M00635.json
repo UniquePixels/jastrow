@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00635",
-	"slug": "מורזמה",
-	"headword": {
-		"text": "מוּרְזְמָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מוּרְזְמָה",
+	"headwords": [
+		{
+			"text": "מוּרְזְמָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

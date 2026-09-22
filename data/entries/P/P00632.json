@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00632",
-	"slug": "עיסיות",
-	"headword": {
-		"text": "עִיסָיוֹת"
-	},
+	"sefariaHeadword": "עִיסָיוֹת",
+	"headwords": [
+		{
+			"text": "עִיסָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1073,
 		"column": "a"

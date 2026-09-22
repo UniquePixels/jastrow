@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00530",
-	"slug": "רחמנות",
-	"headword": {
-		"text": "רַחֲמָנוּת"
-	},
+	"sefariaHeadword": "רַחֲמָנוּת",
+	"headwords": [
+		{
+			"text": "רַחֲמָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "b"

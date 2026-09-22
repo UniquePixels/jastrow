@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00143",
-	"slug": "פה-3",
-	"headword": {
-		"text": "פה"
-	},
+	"sefariaHeadword": "פה",
+	"headwords": [
+		{
+			"text": "פה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "b"

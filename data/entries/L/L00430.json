@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00430",
-	"slug": "לידה",
-	"headword": {
-		"text": "לֵידָה"
-	},
+	"sefariaHeadword": "לֵידָה",
+	"headwords": [
+		{
+			"text": "לֵידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

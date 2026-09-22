@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00701",
-	"slug": "עישונא",
-	"headword": {
-		"text": "עִישּׁוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִישּׁוּנָא",
+	"headwords": [
 		{
-			"text": "עִשּׁ׳"
+			"text": "עִישּׁוּנָא"
+		},
+		{
+			"text": "עִשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00680",
-	"slug": "גיזה-2",
-	"headword": {
-		"text": "גִּיזָה"
-	},
+	"sefariaHeadword": "גִּיזָה",
+	"headwords": [
+		{
+			"text": "גִּיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

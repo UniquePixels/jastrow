@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02136",
-	"slug": "אנדרמוסיה",
-	"headword": {
-		"text": "אנדרמוסיה"
-	},
+	"sefariaHeadword": "אנדרמוסיה",
+	"headwords": [
+		{
+			"text": "אנדרמוסיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00572",
-	"slug": "נטל-2",
-	"headword": {
-		"text": "נְטַל"
-	},
+	"sefariaHeadword": "נְטַל",
+	"headwords": [
+		{
+			"text": "נְטַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 900,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00580",
-	"slug": "ביטול",
-	"headword": {
-		"text": "בִּיטּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיטּוּל",
+	"headwords": [
 		{
-			"text": "בִּטּ׳"
+			"text": "בִּיטּוּל"
+		},
+		{
+			"text": "בִּטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "b"

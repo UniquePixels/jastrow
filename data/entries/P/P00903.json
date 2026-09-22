@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00903",
-	"slug": "עמם-1",
-	"headword": {
-		"text": "עָמַם"
-	},
+	"sefariaHeadword": "עָמַם",
+	"headwords": [
+		{
+			"text": "עָמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00442",
-	"slug": "נזיפה",
-	"headword": {
-		"text": "נְזִיפָה"
-	},
+	"sefariaHeadword": "נְזִיפָה",
+	"headwords": [
+		{
+			"text": "נְזִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

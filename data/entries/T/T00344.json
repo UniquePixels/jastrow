@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00344",
-	"slug": "רוח-2",
-	"headword": {
-		"text": "רוּחַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רוּחַ I",
+	"headwords": [
+		{
+			"text": "רוּחַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1458,
 		"column": "a"

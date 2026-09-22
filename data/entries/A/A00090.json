@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00090",
-	"slug": "אבטולמוס",
-	"headword": {
-		"text": "אַבְטוֹלְמוֹס"
-	},
+	"sefariaHeadword": "אַבְטוֹלְמוֹס",
+	"headwords": [
+		{
+			"text": "אַבְטוֹלְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

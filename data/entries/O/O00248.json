@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00248",
-	"slug": "סוגה",
-	"headword": {
-		"text": "סוּגָה"
-	},
+	"sefariaHeadword": "סוּגָה",
+	"headwords": [
+		{
+			"text": "סוּגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 961,
 		"column": "a"

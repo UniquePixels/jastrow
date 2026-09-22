@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01070",
-	"slug": "עפף-1",
-	"headword": {
-		"text": "עָפַף"
-	},
+	"sefariaHeadword": "עָפַף",
+	"headwords": [
+		{
+			"text": "עָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00558",
-	"slug": "זן",
-	"headword": {
-		"text": "זַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַן",
+	"headwords": [
+		{
+			"text": "זַן"
+		},
 		{
 			"text": "זֵין"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 405,
 		"column": "b"

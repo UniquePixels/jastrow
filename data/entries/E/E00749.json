@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00749",
-	"slug": "הפלג",
-	"headword": {
-		"text": "הֶפְלֵג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶפְלֵג",
+	"headwords": [
+		{
+			"text": "הֶפְלֵג"
+		},
 		{
 			"text": "הֶפְלֵיג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 362,
 		"column": "a"

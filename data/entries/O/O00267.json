@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00267",
-	"slug": "סודרן",
-	"headword": {
-		"text": "סוֹדְרָן"
-	},
+	"sefariaHeadword": "סוֹדְרָן",
+	"headwords": [
+		{
+			"text": "סוֹדְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

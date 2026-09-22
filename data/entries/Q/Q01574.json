@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01574",
-	"slug": "פרד-3",
-	"headword": {
-		"text": "פֶּרֶד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פֶּרֶד I",
+	"headwords": [
+		{
+			"text": "פֶּרֶד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1215,
 		"column": "a"

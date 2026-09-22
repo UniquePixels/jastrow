@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00673",
-	"slug": "אוללא",
-	"headword": {
-		"text": "אוּלְלָא"
-	},
+	"sefariaHeadword": "אוּלְלָא",
+	"headwords": [
+		{
+			"text": "אוּלְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "a"

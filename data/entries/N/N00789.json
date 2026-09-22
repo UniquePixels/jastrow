@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00789",
-	"slug": "נירדא",
-	"headword": {
-		"text": "נִירְדָּא"
-	},
+	"sefariaHeadword": "נִירְדָּא",
+	"headwords": [
+		{
+			"text": "נִירְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03019",
-	"slug": "מתוויא",
-	"headword": {
-		"text": "מַתְוָויָא"
-	},
+	"sefariaHeadword": "מַתְוָויָא",
+	"headwords": [
+		{
+			"text": "מַתְוָויָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

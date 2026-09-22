@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00897",
-	"slug": "כסבר",
-	"headword": {
-		"text": "כָּסְבַּר"
-	},
+	"sefariaHeadword": "כָּסְבַּר",
+	"headwords": [
+		{
+			"text": "כָּסְבַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01605",
-	"slug": "מלני",
-	"headword": {
-		"text": "מלני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מלני",
+	"headwords": [
+		{
+			"text": "מלני"
+		},
 		{
 			"text": "מלניא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 793,
 		"column": "a"

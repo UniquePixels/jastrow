@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01519",
-	"slug": "שמעיא",
-	"headword": {
-		"text": "שְׁמַעְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמַעְיָא",
+	"headwords": [
+		{
+			"text": "שְׁמַעְיָא"
+		},
 		{
 			"text": "שְׁמַעְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1600,
 		"column": "a"

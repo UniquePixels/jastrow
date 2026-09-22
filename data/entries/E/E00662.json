@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00662",
-	"slug": "הנדיקי",
-	"headword": {
-		"text": "הִנְדִּיקִי"
-	},
+	"sefariaHeadword": "הִנְדִּיקִי",
+	"headwords": [
+		{
+			"text": "הִנְדִּיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "b"

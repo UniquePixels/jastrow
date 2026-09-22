@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01324",
-	"slug": "ערוכה",
-	"headword": {
-		"text": "עֲרוּכָה"
-	},
+	"sefariaHeadword": "עֲרוּכָה",
+	"headwords": [
+		{
+			"text": "עֲרוּכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "a"

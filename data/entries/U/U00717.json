@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00717",
-	"slug": "שחרות",
-	"headword": {
-		"text": "שחרות"
-	},
+	"sefariaHeadword": "שחרות",
+	"headwords": [
+		{
+			"text": "שחרות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

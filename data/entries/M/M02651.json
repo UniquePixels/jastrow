@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02651",
-	"slug": "מרי-2",
-	"headword": {
-		"text": "מרי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מרי I",
+	"headwords": [
+		{
+			"text": "מרי",
+			"homograph": 1
+		},
 		{
 			"text": "מָרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 841,
 		"column": "b"

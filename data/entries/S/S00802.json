@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00802",
-	"slug": "קטנתא",
-	"headword": {
-		"text": "קְטַנְתָּא"
-	},
+	"sefariaHeadword": "קְטַנְתָּא",
+	"headwords": [
+		{
+			"text": "קְטַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1351,
 		"column": "a"

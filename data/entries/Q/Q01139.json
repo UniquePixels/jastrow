@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01139",
-	"slug": "פמילאות",
-	"headword": {
-		"text": "פמילאות"
-	},
+	"sefariaHeadword": "פמילאות",
+	"headwords": [
+		{
+			"text": "פמילאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

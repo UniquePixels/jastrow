@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00445",
-	"slug": "ליטירין",
-	"headword": {
-		"text": "לִיטִירִין"
-	},
+	"sefariaHeadword": "לִיטִירִין",
+	"headwords": [
+		{
+			"text": "לִיטִירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01087",
-	"slug": "סמיות",
-	"headword": {
-		"text": "סַמְיוּת"
-	},
+	"sefariaHeadword": "סַמְיוּת",
+	"headwords": [
+		{
+			"text": "סַמְיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1000,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00147",
-	"slug": "בדיקותא",
-	"headword": {
-		"text": "בְּדִיקוּתָא"
-	},
+	"sefariaHeadword": "בְּדִיקוּתָא",
+	"headwords": [
+		{
+			"text": "בְּדִיקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "b"

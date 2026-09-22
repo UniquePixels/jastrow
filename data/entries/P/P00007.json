@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00007",
-	"slug": "עב-1",
-	"headword": {
-		"text": "עָב",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָב I",
+	"headwords": [
+		{
+			"text": "עָב",
+			"homograph": 1
+		},
 		{
 			"text": "עָבָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1034,
 		"column": "a"

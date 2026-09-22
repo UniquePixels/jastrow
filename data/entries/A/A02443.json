@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02443",
-	"slug": "אסיפא",
-	"headword": {
-		"text": "אֲסִיפָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲסִיפָּא",
+	"headwords": [
+		{
+			"text": "אֲסִיפָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

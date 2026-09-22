@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00737",
-	"slug": "הפיכו",
-	"headword": {
-		"text": "הֲפִיכוּ"
-	},
+	"sefariaHeadword": "הֲפִיכוּ",
+	"headwords": [
+		{
+			"text": "הֲפִיכוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 361,
 		"column": "a"

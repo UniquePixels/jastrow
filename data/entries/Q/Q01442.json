@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01442",
-	"slug": "פצעא",
-	"headword": {
-		"text": "פִּצְעָא"
-	},
+	"sefariaHeadword": "פִּצְעָא",
+	"headwords": [
+		{
+			"text": "פִּצְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1206,
 		"column": "b"

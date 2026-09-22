@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00519",
-	"slug": "תיתורא",
-	"headword": {
-		"text": "תִּיתוּרָא"
-	},
+	"sefariaHeadword": "תִּיתוּרָא",
+	"headwords": [
+		{
+			"text": "תִּיתוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

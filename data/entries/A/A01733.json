@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01733",
-	"slug": "אכסן-1",
-	"headword": {
-		"text": "אִכְסֵן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִכְסֵן",
+	"headwords": [
+		{
+			"text": "אִכְסֵן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 64,
 		"column": "b"

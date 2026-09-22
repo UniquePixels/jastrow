@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01767",
-	"slug": "מנטרומין",
-	"headword": {
-		"text": "מנטרומין"
-	},
+	"sefariaHeadword": "מנטרומין",
+	"headwords": [
+		{
+			"text": "מנטרומין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 799,
 		"column": "b"

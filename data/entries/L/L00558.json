@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00558",
-	"slug": "לכש",
-	"headword": {
-		"text": "לֶכֶשׁ"
-	},
+	"sefariaHeadword": "לֶכֶשׁ",
+	"headwords": [
+		{
+			"text": "לֶכֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

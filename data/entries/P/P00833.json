@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00833",
-	"slug": "עלעוליתא",
-	"headword": {
-		"text": "עַלְעוֹלִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַלְעוֹלִיתָא",
+	"headwords": [
+		{
+			"text": "עַלְעוֹלִיתָא"
+		},
 		{
 			"text": "עַלְעוֹלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1085,
 		"column": "a"

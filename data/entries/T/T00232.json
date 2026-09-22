@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00232",
-	"slug": "רדד-2",
-	"headword": {
-		"text": "רְדַד"
-	},
+	"sefariaHeadword": "רְדַד",
+	"headwords": [
+		{
+			"text": "רְדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1451,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01177",
-	"slug": "עקים-1",
-	"headword": {
-		"text": "עֲקֵים"
-	},
+	"sefariaHeadword": "עֲקֵים",
+	"headwords": [
+		{
+			"text": "עֲקֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

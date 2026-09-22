@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00268",
-	"slug": "עולמית-1",
-	"headword": {
-		"text": "עוֹלָמִית"
-	},
+	"sefariaHeadword": "עוֹלָמִית",
+	"headwords": [
+		{
+			"text": "עוֹלָמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00074",
-	"slug": "יבשת",
-	"headword": {
-		"text": "יַבֶּשֶׁת"
-	},
+	"sefariaHeadword": "יַבֶּשֶׁת",
+	"headwords": [
+		{
+			"text": "יַבֶּשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

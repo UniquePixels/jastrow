@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02997",
-	"slug": "משתית",
-	"headword": {
-		"text": "מַשְׁתִּית"
-	},
+	"sefariaHeadword": "מַשְׁתִּית",
+	"headwords": [
+		{
+			"text": "מַשְׁתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "a"

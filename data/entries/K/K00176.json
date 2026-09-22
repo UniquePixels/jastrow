@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00176",
-	"slug": "כואנא",
-	"headword": {
-		"text": "כְּוָאנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּוָאנָא",
+	"headwords": [
+		{
+			"text": "כְּוָאנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

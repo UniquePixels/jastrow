@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01180",
-	"slug": "סנדלבונין",
-	"headword": {
-		"text": "סנדלבונין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סנדלבונין",
+	"headwords": [
+		{
+			"text": "סנדלבונין"
+		},
 		{
 			"text": "סנדלבין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1005,
 		"column": "a"

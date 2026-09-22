@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01590",
-	"slug": "חרבן",
-	"headword": {
-		"text": "חָרְבָּן"
-	},
+	"sefariaHeadword": "חָרְבָּן",
+	"headwords": [
+		{
+			"text": "חָרְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

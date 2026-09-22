@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01101",
-	"slug": "נצוח",
-	"headword": {
-		"text": "נִצּוּחַ"
-	},
+	"sefariaHeadword": "נִצּוּחַ",
+	"headwords": [
+		{
+			"text": "נִצּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

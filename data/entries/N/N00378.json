@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00378",
-	"slug": "נו״ן",
-	"headword": {
-		"text": "נו״ן"
-	},
+	"sefariaHeadword": "נו\"ן",
+	"headwords": [
+		{
+			"text": "נו״ן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "a"

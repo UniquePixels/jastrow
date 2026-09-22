@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00532",
-	"slug": "תכילתא",
-	"headword": {
-		"text": "תְּכֵילְתָּא"
-	},
+	"sefariaHeadword": "תְּכֵילְתָּא",
+	"headwords": [
+		{
+			"text": "תְּכֵילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

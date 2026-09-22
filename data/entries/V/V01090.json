@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01090",
-	"slug": "תשיש-2",
-	"headword": {
-		"text": "תַּשִּׁישׁ"
-	},
+	"sefariaHeadword": "תַּשִּׁישׁ",
+	"headwords": [
+		{
+			"text": "תַּשִּׁישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "a"

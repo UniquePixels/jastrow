@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00062",
-	"slug": "לבזה",
-	"headword": {
-		"text": "לִבְזָה"
-	},
+	"sefariaHeadword": "לִבְזָה",
+	"headwords": [
+		{
+			"text": "לִבְזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "b"

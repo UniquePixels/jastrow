@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01084",
-	"slug": "פלמנטר",
-	"headword": {
-		"text": "פַּלְמַנְטָר"
-	},
+	"sefariaHeadword": "פַּלְמַנְטָר",
+	"headwords": [
+		{
+			"text": "פַּלְמַנְטָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01313",
-	"slug": "קלטיקה",
-	"headword": {
-		"text": "קלטיקה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלטיקה",
+	"headwords": [
+		{
+			"text": "קלטיקה"
+		},
 		{
 			"text": "קלטירה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1375,
 		"column": "a"

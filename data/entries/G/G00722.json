@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00722",
-	"slug": "זרע-1",
-	"headword": {
-		"text": "זָרַע"
-	},
+	"sefariaHeadword": "זָרַע",
+	"headwords": [
+		{
+			"text": "זָרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00586",
-	"slug": "הלקשה",
-	"headword": {
-		"text": "הַלְקָשָׁה"
-	},
+	"sefariaHeadword": "הַלְקָשָׁה",
+	"headwords": [
+		{
+			"text": "הַלְקָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

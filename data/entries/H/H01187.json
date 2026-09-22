@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01187",
-	"slug": "חמיץ",
-	"headword": {
-		"text": "חֲמֵיץ"
-	},
+	"sefariaHeadword": "חֲמֵיץ",
+	"headwords": [
+		{
+			"text": "חֲמֵיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

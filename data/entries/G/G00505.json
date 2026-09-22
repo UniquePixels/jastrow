@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00505",
-	"slug": "זמבליגא",
-	"headword": {
-		"text": "זַמְבְּלִיגָא"
-	},
+	"sefariaHeadword": "זַמְבְּלִיגָא",
+	"headwords": [
+		{
+			"text": "זַמְבְּלִיגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "a"

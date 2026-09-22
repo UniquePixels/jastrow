@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00652",
-	"slug": "ריננא",
-	"headword": {
-		"text": "רִינְנָא"
-	},
+	"sefariaHeadword": "רִינְנָא",
+	"headwords": [
+		{
+			"text": "רִינְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

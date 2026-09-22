@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00208",
-	"slug": "תוכמידה",
-	"headword": {
-		"text": "תוכמידה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תוכמידה",
+	"headwords": [
+		{
+			"text": "תוכמידה"
+		},
 		{
 			"text": "תויכמדה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1653,
 		"column": "a"

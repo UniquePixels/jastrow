@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00630",
-	"slug": "תלתום",
-	"headword": {
-		"text": "תלתום"
-	},
+	"sefariaHeadword": "תלתום",
+	"headwords": [
+		{
+			"text": "תלתום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

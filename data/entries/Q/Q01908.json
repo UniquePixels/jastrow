@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01908",
-	"slug": "פרס-1",
-	"headword": {
-		"text": "פָּרַס",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרַס I",
+	"headwords": [
+		{
+			"text": "פָּרַס",
+			"homograph": 1
+		},
 		{
 			"text": "פָּרַשׂ"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1232,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00347",
-	"slug": "טייסא-2",
-	"headword": {
-		"text": "טַיְיסָא"
-	},
+	"sefariaHeadword": "טַיְיסָא",
+	"headwords": [
+		{
+			"text": "טַיְיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

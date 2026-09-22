@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00886",
-	"slug": "נמסיאות",
-	"headword": {
-		"text": "נמסיאות"
-	},
+	"sefariaHeadword": "נמסיאות",
+	"headwords": [
+		{
+			"text": "נמסיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

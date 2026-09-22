@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00659",
-	"slug": "אולבנא",
-	"headword": {
-		"text": "אוּלְבָּנָא"
-	},
+	"sefariaHeadword": "אוּלְבָּנָא",
+	"headwords": [
+		{
+			"text": "אוּלְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

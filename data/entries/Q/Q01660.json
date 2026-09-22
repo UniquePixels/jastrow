@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01660",
-	"slug": "פרוזדיגמא",
-	"headword": {
-		"text": "פרוזדיגמא"
-	},
+	"sefariaHeadword": "פרוזדיגמא",
+	"headwords": [
+		{
+			"text": "פרוזדיגמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

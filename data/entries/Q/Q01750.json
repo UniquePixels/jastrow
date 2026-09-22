@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01750",
-	"slug": "פרזל-2",
-	"headword": {
-		"text": "פַּרְזֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְזֶל",
+	"headwords": [
+		{
+			"text": "פַּרְזֶל"
+		},
 		{
 			"text": "פַּרְזְלָא",
 			"homograph": 1
 		},
 		{
-			"text": "פּוּרְ׳"
+			"text": "פּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I, {2}",
 	"page": {
 		"number": 1223,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01195",
-	"slug": "ברויירא",
-	"headword": {
-		"text": "ברויירא"
-	},
+	"sefariaHeadword": "ברויירא",
+	"headwords": [
+		{
+			"text": "ברויירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

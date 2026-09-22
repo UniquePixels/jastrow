@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01282",
-	"slug": "פסיוני-2",
-	"headword": {
-		"text": "פִּסְיוֹנִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְיוֹנִי ²",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּסְיוֹנִי",
+			"disambiguator": 2
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1195,
 		"column": "a"

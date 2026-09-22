@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01593",
-	"slug": "חרגא-2",
-	"headword": {
-		"text": "חִרְגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִרְגָּא",
+	"headwords": [
 		{
-			"text": "חִירְ׳"
+			"text": "חִרְגָּא"
+		},
+		{
+			"text": "חִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 498,
 		"column": "b"

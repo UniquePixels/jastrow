@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01383",
-	"slug": "איניבא",
-	"headword": {
-		"text": "איניבא"
-	},
+	"sefariaHeadword": "איניבא",
+	"headwords": [
+		{
+			"text": "איניבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

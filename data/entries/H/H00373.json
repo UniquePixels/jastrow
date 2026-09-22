@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00373",
-	"slug": "חומה",
-	"headword": {
-		"text": "חוֹמָה"
-	},
+	"sefariaHeadword": "חוֹמָה",
+	"headwords": [
+		{
+			"text": "חוֹמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "a"

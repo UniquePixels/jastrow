@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00296",
-	"slug": "כון-1",
-	"headword": {
-		"text": "כּוּן"
-	},
+	"sefariaHeadword": "כּוּן",
+	"headwords": [
+		{
+			"text": "כּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 621,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00859",
-	"slug": "תפראי",
-	"headword": {
-		"text": "תַּפְרַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְרַאי",
+	"headwords": [
+		{
+			"text": "תַּפְרַאי"
+		},
 		{
 			"text": "תַּפְרַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "b"

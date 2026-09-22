@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02026",
-	"slug": "מסריתא",
-	"headword": {
-		"text": "מַסְרֵיתָא"
-	},
+	"sefariaHeadword": "מַסְרֵיתָא",
+	"headwords": [
+		{
+			"text": "מַסְרֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

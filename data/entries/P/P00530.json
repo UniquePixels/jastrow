@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00530",
-	"slug": "עיטדא",
-	"headword": {
-		"text": "עיטדא"
-	},
+	"sefariaHeadword": "עיטדא",
+	"headwords": [
+		{
+			"text": "עיטדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

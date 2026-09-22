@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01063",
-	"slug": "גמר-3",
-	"headword": {
-		"text": "גָּמַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גָּמַר II",
+	"headwords": [
+		{
+			"text": "גָּמַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 255,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00534",
-	"slug": "ליתא",
-	"headword": {
-		"text": "לֵיתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵיתָא II",
+	"headwords": [
+		{
+			"text": "לֵיתָא",
+			"homograph": 2
+		},
 		{
 			"text": "לַיְתָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 710,
 		"column": "b"

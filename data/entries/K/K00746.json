@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00746",
-	"slug": "כלירכין",
-	"headword": {
-		"text": "כלירכין"
-	},
+	"sefariaHeadword": "כלירכין",
+	"headwords": [
+		{
+			"text": "כלירכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

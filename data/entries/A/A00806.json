@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A00806",
-	"slug": "אופימטטאטא",
-	"headword": {
-		"text": "אופימטטאטא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אופימטטאטא",
+	"headwords": [
 		{
-			"text": "אופימשט׳"
+			"text": "אופימטטאטא",
+			"reconstructed": true
+		},
+		{
+			"text": "אופימשט׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 31,
 		"column": "b"

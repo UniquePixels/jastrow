@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00782",
-	"slug": "אוסי-1",
-	"headword": {
-		"text": "אַוְסֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַוְסֵי",
+	"headwords": [
+		{
+			"text": "אַוְסֵי"
+		},
 		{
 			"text": "אַוְסַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 30,
 		"column": "b"

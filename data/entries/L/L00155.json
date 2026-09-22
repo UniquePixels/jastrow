@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00155",
-	"slug": "להבה",
-	"headword": {
-		"text": "לֶהָבָה"
-	},
+	"sefariaHeadword": "לֶהָבָה",
+	"headwords": [
+		{
+			"text": "לֶהָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "b"

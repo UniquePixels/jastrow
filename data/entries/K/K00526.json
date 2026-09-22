@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00526",
-	"slug": "כייר-2",
-	"headword": {
-		"text": "כייר"
-	},
+	"sefariaHeadword": "כייר",
+	"headwords": [
+		{
+			"text": "כייר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

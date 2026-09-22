@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01349",
-	"slug": "שלם-2",
-	"headword": {
-		"text": "שִׁלֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלֵם",
+	"headwords": [
+		{
+			"text": "שִׁלֵם"
+		},
 		{
 			"text": "שְׁלֵים"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁלִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1586,
 		"column": "a"

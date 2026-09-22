@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00287",
-	"slug": "עומקנא",
-	"headword": {
-		"text": "עוּמְקָנָא"
-	},
+	"sefariaHeadword": "עוּמְקָנָא",
+	"headwords": [
+		{
+			"text": "עוּמְקָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "a"

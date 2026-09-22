@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01336",
-	"slug": "ערטיל",
-	"headword": {
-		"text": "עַרְטִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְטִיל",
+	"headwords": [
+		{
+			"text": "עַרְטִיל"
+		},
 		{
 			"text": "עַרְטִילָּא"
 		},
@@ -15,12 +16,15 @@
 			"text": "עַרְטִילַּאי"
 		},
 		{
-			"text": "עַרְטִלּ׳"
+			"text": "עַרְטִלּ׳",
+			"partial": true
 		},
 		{
-			"text": "עַרְטוּ׳"
+			"text": "עַרְטוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, ({5})",
 	"page": {
 		"number": 1115,
 		"column": "b"

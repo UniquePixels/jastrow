@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00840",
-	"slug": "שיופגד",
-	"headword": {
-		"text": "שיופגד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שיופגד",
+	"headwords": [
+		{
+			"text": "שיופגד"
+		},
 		{
 			"text": "שיופנר"
 		},
@@ -15,6 +16,7 @@
 			"text": "שיופצר"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1558,
 		"column": "b"

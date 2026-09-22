@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00504",
-	"slug": "נחם-2",
-	"headword": {
-		"text": "נְחַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחַם",
+	"headwords": [
+		{
+			"text": "נְחַם"
+		},
 		{
 			"text": "נְחֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 895,
 		"column": "a"

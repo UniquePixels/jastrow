@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00280",
-	"slug": "שדף-2",
-	"headword": {
-		"text": "שְׁדַף"
-	},
+	"sefariaHeadword": "שְׁדַף",
+	"headwords": [
+		{
+			"text": "שְׁדַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1525,
 		"column": "b"

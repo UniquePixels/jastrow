@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00202",
-	"slug": "לודנא",
-	"headword": {
-		"text": "לוּדָנָא"
-	},
+	"sefariaHeadword": "לוּדָנָא",
+	"headwords": [
+		{
+			"text": "לוּדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

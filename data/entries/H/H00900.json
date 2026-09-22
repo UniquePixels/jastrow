@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00900",
-	"slug": "חיתוך",
-	"headword": {
-		"text": "חִיתּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיתּוּךְ",
+	"headwords": [
 		{
-			"text": "חִתּ׳"
+			"text": "חִיתּוּךְ"
+		},
+		{
+			"text": "חִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "b"

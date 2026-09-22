@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00536",
-	"slug": "נחתום-1",
-	"headword": {
-		"text": "נַחְתּוֹם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַחְתּוֹם",
+	"headwords": [
+		{
+			"text": "נַחְתּוֹם"
+		},
 		{
 			"text": "נַחְתֹּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 897,
 		"column": "b"

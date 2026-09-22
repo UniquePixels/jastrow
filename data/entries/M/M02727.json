@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02727",
-	"slug": "מרסנא",
-	"headword": {
-		"text": "מַרְסְנָא"
-	},
+	"sefariaHeadword": "מַרְסְנָא",
+	"headwords": [
+		{
+			"text": "מַרְסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 845,
 		"column": "a"

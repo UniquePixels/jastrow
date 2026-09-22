@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01628",
-	"slug": "פרווא",
-	"headword": {
-		"text": "פַּרְוָוא"
-	},
+	"sefariaHeadword": "פַּרְוָוא",
+	"headwords": [
+		{
+			"text": "פַּרְוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

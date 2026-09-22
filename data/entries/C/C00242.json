@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00242",
-	"slug": "גדפן",
-	"headword": {
-		"text": "גַּדְּפָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּדְּפָן",
+	"headwords": [
+		{
+			"text": "גַּדְּפָן"
+		},
 		{
 			"text": "גּוֹדְפָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 214,
 		"column": "b"

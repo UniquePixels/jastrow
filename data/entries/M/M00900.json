@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00900",
-	"slug": "מחמע",
-	"headword": {
-		"text": "מַחְמַע"
-	},
+	"sefariaHeadword": "מַחְמַע",
+	"headwords": [
+		{
+			"text": "מַחְמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

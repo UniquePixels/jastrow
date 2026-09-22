@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02123",
-	"slug": "שתם-1",
-	"headword": {
-		"text": "שָׁתַם"
-	},
+	"sefariaHeadword": "שָׁתַם",
+	"headwords": [
+		{
+			"text": "שָׁתַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1639,
 		"column": "a"

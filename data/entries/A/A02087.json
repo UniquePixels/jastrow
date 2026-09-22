@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02087",
-	"slug": "אנבא-2",
-	"headword": {
-		"text": "אִנְבָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אִנְבָּא II",
+	"headwords": [
+		{
+			"text": "אִנְבָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 80,
 		"column": "a"

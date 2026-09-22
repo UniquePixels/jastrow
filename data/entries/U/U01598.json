@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01598",
-	"slug": "שניר",
-	"headword": {
-		"text": "שְׂנִיר"
-	},
+	"sefariaHeadword": "שְׂנִיר",
+	"headwords": [
+		{
+			"text": "שְׂנִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1607,
 		"column": "a"

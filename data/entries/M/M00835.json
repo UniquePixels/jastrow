@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00835",
-	"slug": "מחוש",
-	"headword": {
-		"text": "מֵחוּשׁ"
-	},
+	"sefariaHeadword": "מֵחוּשׁ",
+	"headwords": [
+		{
+			"text": "מֵחוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

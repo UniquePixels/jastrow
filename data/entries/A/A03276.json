@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03276",
-	"slug": "אשורי",
-	"headword": {
-		"text": "אַשּׁוּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשּׁוּרִי",
+	"headwords": [
+		{
+			"text": "אַשּׁוּרִי"
+		},
 		{
 			"text": "אַשּׁוּרִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "a"

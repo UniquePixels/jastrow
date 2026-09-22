@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00513",
-	"slug": "רחל-1",
-	"headword": {
-		"text": "רָחֵל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָחֵל I",
+	"headwords": [
+		{
+			"text": "רָחֵל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1466,
 		"column": "b"

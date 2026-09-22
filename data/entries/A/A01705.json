@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01705",
-	"slug": "אכלוזא",
-	"headword": {
-		"text": "אָכְלוֹזָא"
-	},
+	"sefariaHeadword": "אָכְלוֹזָא",
+	"headwords": [
+		{
+			"text": "אָכְלוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

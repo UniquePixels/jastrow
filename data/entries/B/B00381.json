@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00381",
-	"slug": "בורסטייתא",
-	"headword": {
-		"text": "בורסטייתא"
-	},
+	"sefariaHeadword": "בורסטייתא",
+	"headwords": [
+		{
+			"text": "בורסטייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

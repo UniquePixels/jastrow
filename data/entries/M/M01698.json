@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M01698",
-	"slug": "מנא-1",
-	"headword": {
-		"text": "מְנָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְנָא I",
+	"headwords": [
+		{
+			"text": "מְנָא",
+			"homograph": 1
+		},
 		{
 			"text": "מָנָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} I, ({1} II)",
 	"page": {
 		"number": 796,
 		"column": "b"

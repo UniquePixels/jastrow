@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00726",
-	"slug": "פינוסין",
-	"headword": {
-		"text": "פינוסין"
-	},
+	"sefariaHeadword": "פינוסין",
+	"headwords": [
+		{
+			"text": "פינוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

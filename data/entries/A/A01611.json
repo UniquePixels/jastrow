@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01611",
-	"slug": "אירם",
-	"headword": {
-		"text": "אירם"
-	},
+	"sefariaHeadword": "אירם",
+	"headwords": [
+		{
+			"text": "אירם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

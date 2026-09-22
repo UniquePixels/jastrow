@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03275",
-	"slug": "אשור-2",
-	"headword": {
-		"text": "אַשּׁוּר"
-	},
+	"sefariaHeadword": "אַשּׁוּר",
+	"headwords": [
+		{
+			"text": "אַשּׁוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01364",
-	"slug": "חסחף",
-	"headword": {
-		"text": "חסחף"
-	},
+	"sefariaHeadword": "חסחף",
+	"headwords": [
+		{
+			"text": "חסחף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "a"

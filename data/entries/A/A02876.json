@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02876",
-	"slug": "אציל",
-	"headword": {
-		"text": "אַצִּיל"
-	},
+	"sefariaHeadword": "אַצִּיל",
+	"headwords": [
+		{
+			"text": "אַצִּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02073",
-	"slug": "פשיטה",
-	"headword": {
-		"text": "פְּשִׁיטָה"
-	},
+	"sefariaHeadword": "פְּשִׁיטָה",
+	"headwords": [
+		{
+			"text": "פְּשִׁיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

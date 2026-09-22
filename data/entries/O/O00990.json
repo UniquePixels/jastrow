@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00990",
-	"slug": "סליף",
-	"headword": {
-		"text": "סַלִּיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלִּיף",
+	"headwords": [
+		{
+			"text": "סַלִּיף"
+		},
 		{
 			"text": "סָלִיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "b"

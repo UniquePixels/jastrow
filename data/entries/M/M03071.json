@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03071",
-	"slug": "מתכילתא",
-	"headword": {
-		"text": "מַתְכִּילְתָּא"
-	},
+	"sefariaHeadword": "מַתְכִּילְתָּא",
+	"headwords": [
+		{
+			"text": "מַתְכִּילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

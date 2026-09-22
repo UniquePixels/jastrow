@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00132",
-	"slug": "עדי-5",
-	"headword": {
-		"text": "עֲדִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲדִי I",
+	"headwords": [
+		{
+			"text": "עֲדִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1044,
 		"column": "a"

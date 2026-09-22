@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00685",
-	"slug": "נימורת",
-	"headword": {
-		"text": "נִימוֹרֶת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נִימוֹרֶת",
+	"headwords": [
+		{
+			"text": "נִימוֹרֶת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

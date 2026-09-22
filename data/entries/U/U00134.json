@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00134",
-	"slug": "שבירא",
-	"headword": {
-		"text": "שְׁבִירָא"
-	},
+	"sefariaHeadword": "שְׁבִירָא",
+	"headwords": [
+		{
+			"text": "שְׁבִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

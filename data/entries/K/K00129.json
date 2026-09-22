@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00129",
-	"slug": "כדיי-2",
-	"headword": {
-		"text": "כְּדָיי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּדָיי ²",
+	"headwords": [
+		{
+			"text": "כְּדָיי",
+			"disambiguator": 2
+		},
 		{
 			"text": "כְּדַי"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1}, {2} II",
 	"page": {
 		"number": 614,
 		"column": "a"

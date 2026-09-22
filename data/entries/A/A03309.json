@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03309",
-	"slug": "אשכפא",
-	"headword": {
-		"text": "אשכפא"
-	},
+	"sefariaHeadword": "אשכפא",
+	"headwords": [
+		{
+			"text": "אשכפא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

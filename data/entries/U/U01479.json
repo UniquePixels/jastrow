@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01479",
-	"slug": "שמיר-2",
-	"headword": {
-		"text": "שָׁמִיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁמִיר ²",
+	"headwords": [
+		{
+			"text": "שָׁמִיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "שָׁמִירָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1596,
 		"column": "a"

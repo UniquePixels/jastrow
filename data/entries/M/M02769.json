@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02769",
-	"slug": "מרקחת",
-	"headword": {
-		"text": "מִרְקַחַת"
-	},
+	"sefariaHeadword": "מִרְקַחַת",
+	"headwords": [
+		{
+			"text": "מִרְקַחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "b"

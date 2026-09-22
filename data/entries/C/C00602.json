@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00602",
-	"slug": "גיא",
-	"headword": {
-		"text": "גַּיְא"
-	},
+	"sefariaHeadword": "גַּיְא",
+	"headwords": [
+		{
+			"text": "גַּיְא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "b"

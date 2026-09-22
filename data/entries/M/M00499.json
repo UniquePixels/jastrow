@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00499",
-	"slug": "מוליד",
-	"headword": {
-		"text": "מוֹלֵיד"
-	},
+	"sefariaHeadword": "מוֹלֵיד",
+	"headwords": [
+		{
+			"text": "מוֹלֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

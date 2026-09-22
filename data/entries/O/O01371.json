@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01371",
-	"slug": "ספיקלא",
-	"headword": {
-		"text": "סְפִיקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפִיקְלָא",
+	"headwords": [
+		{
+			"text": "סְפִיקְלָא"
+		},
 		{
 			"text": "סְפִיקְלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1014,
 		"column": "a"

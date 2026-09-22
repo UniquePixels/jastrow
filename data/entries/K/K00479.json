@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00479",
-	"slug": "כיב",
-	"headword": {
-		"text": "כֵּיב"
-	},
+	"sefariaHeadword": "כֵּיב",
+	"headwords": [
+		{
+			"text": "כֵּיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "a"

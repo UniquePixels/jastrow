@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01362",
-	"slug": "חסחוס-1",
-	"headword": {
-		"text": "חִסְחוּס"
-	},
+	"sefariaHeadword": "חִסְחוּס",
+	"headwords": [
+		{
+			"text": "חִסְחוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00749",
-	"slug": "יתר-4",
-	"headword": {
-		"text": "יֶתֶר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יֶתֶר I",
+	"headwords": [
+		{
+			"text": "יֶתֶר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 605,
 		"column": "a"

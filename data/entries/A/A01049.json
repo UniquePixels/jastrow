@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01049",
-	"slug": "אחראי",
-	"headword": {
-		"text": "אַחֲרָאִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַחֲרָאִי",
+	"headwords": [
+		{
+			"text": "אַחֲרָאִי"
+		},
 		{
 			"text": "אַחֲרָיִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 41,
 		"column": "a"

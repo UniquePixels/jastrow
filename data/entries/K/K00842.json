@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00842",
-	"slug": "כנונא",
-	"headword": {
-		"text": "כָּנוֹנָא"
-	},
+	"sefariaHeadword": "כָּנוֹנָא",
+	"headwords": [
+		{
+			"text": "כָּנוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

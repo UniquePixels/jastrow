@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00205",
-	"slug": "נדבה-2",
-	"headword": {
-		"text": "נִדְבָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְבָּה",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִדְבָּה"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 877,
 		"column": "a"

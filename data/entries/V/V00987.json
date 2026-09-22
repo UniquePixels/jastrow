@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00987",
-	"slug": "תריי-2",
-	"headword": {
-		"text": "תַּרְיֵי"
-	},
+	"sefariaHeadword": "תַּרְיֵי",
+	"headwords": [
+		{
+			"text": "תַּרְיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

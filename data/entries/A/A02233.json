@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02233",
-	"slug": "אניסא-2",
-	"headword": {
-		"text": "אָנִיסָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אָנִיסָא ²",
+	"headwords": [
+		{
+			"text": "אָנִיסָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 85,
 		"column": "a"

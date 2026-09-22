@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00967",
-	"slug": "שי״ן",
-	"headword": {
-		"text": "שי״ן"
-	},
+	"sefariaHeadword": "שי\"ן",
+	"headwords": [
+		{
+			"text": "שי״ן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "a"

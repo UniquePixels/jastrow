@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01105",
-	"slug": "חלפות",
-	"headword": {
-		"text": "חִלְפוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלְפוֹת",
+	"headwords": [
+		{
+			"text": "חִלְפוֹת"
+		},
 		{
 			"text": "חֲלָפוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 472,
 		"column": "a"

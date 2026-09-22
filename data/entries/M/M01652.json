@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01652",
-	"slug": "ממון-2",
-	"headword": {
-		"text": "מָמוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָמוֹן ²",
+	"headwords": [
+		{
+			"text": "מָמוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "מָמוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 794,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01320",
-	"slug": "פסיקתא-2",
-	"headword": {
-		"text": "פְּסִיקְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּסִיקְתָּא II",
+	"headwords": [
+		{
+			"text": "פְּסִיקְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1197,
 		"column": "a"

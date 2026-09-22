@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00809",
-	"slug": "שיבעה",
-	"headword": {
-		"text": "שיבעה"
-	},
+	"sefariaHeadword": "שיבעה",
+	"headwords": [
+		{
+			"text": "שיבעה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

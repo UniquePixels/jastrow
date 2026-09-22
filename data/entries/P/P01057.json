@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01057",
-	"slug": "עסקן",
-	"headword": {
-		"text": "עַסְקָן"
-	},
+	"sefariaHeadword": "עַסְקָן",
+	"headwords": [
+		{
+			"text": "עַסְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1099,
 		"column": "b"

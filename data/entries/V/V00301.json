@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00301",
-	"slug": "תורמין",
-	"headword": {
-		"text": "תורמין"
-	},
+	"sefariaHeadword": "תורמין",
+	"headwords": [
+		{
+			"text": "תורמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

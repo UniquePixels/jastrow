@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00154",
-	"slug": "כהות",
-	"headword": {
-		"text": "כֵּהוּת"
-	},
+	"sefariaHeadword": "כֵּהוּת",
+	"headwords": [
+		{
+			"text": "כֵּהוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "b"

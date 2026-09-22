@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00153",
-	"slug": "כהונתא",
-	"headword": {
-		"text": "כְּהוּנְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּהוּנְּתָא",
+	"headwords": [
+		{
+			"text": "כְּהוּנְּתָא"
+		},
 		{
 			"text": "כְּהוּנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 614,
 		"column": "b"

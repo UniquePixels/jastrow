@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00422",
-	"slug": "דחלא-1",
-	"headword": {
-		"text": "דַּחֲלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דַּחֲלָא I",
+	"headwords": [
+		{
+			"text": "דַּחֲלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 292,
 		"column": "b"

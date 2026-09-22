@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02034",
-	"slug": "פרשה-2",
-	"headword": {
-		"text": "פָּרָשָׁה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פָּרָשָׁה II",
+	"headwords": [
+		{
+			"text": "פָּרָשָׁה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1244,
 		"column": "a"

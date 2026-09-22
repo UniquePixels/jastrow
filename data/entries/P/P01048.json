@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01048",
-	"slug": "עסיראה",
-	"headword": {
-		"text": "עֲסִירָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲסִירָאָה",
+	"headwords": [
+		{
+			"text": "עֲסִירָאָה"
+		},
 		{
 			"text": "עֲסֵירִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1098,
 		"column": "a"

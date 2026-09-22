@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00443",
-	"slug": "בזיונא-3",
-	"headword": {
-		"text": "בִּזְיוּנָא , II"
-	},
+	"sefariaHeadword": "בִּזְיוּנָא , II",
+	"headwords": [
+		{
+			"text": "בִּזְיוּנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 153,
 		"column": "b"

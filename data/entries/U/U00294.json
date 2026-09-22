@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00294",
-	"slug": "שהא",
-	"headword": {
-		"text": "שָׁהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁהָא",
+	"headwords": [
+		{
+			"text": "שָׁהָא"
+		},
 		{
 			"text": "שְׁהָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1526,
 		"column": "b"

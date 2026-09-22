@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00841",
-	"slug": "פירוע",
-	"headword": {
-		"text": "פֵּירוּעַ"
-	},
+	"sefariaHeadword": "פֵּירוּעַ",
+	"headwords": [
+		{
+			"text": "פֵּירוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

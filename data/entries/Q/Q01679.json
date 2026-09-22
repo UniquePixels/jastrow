@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01679",
-	"slug": "פרויים",
-	"headword": {
-		"text": "פַּרְוַיִים"
-	},
+	"sefariaHeadword": "פַּרְוַיִים",
+	"headwords": [
+		{
+			"text": "פַּרְוַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

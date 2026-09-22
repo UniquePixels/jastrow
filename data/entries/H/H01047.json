@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01047",
-	"slug": "חלילא-2",
-	"headword": {
-		"text": "חֲלִילָא"
-	},
+	"sefariaHeadword": "חֲלִילָא",
+	"headwords": [
+		{
+			"text": "חֲלִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 468,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03319",
-	"slug": "אשלימו",
-	"headword": {
-		"text": "אַשְׁלִימוּ"
-	},
+	"sefariaHeadword": "אַשְׁלִימוּ",
+	"headwords": [
+		{
+			"text": "אַשְׁלִימוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "a"

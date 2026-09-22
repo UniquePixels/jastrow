@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01387",
-	"slug": "פעם-1",
-	"headword": {
-		"text": "פָּעַם"
-	},
+	"sefariaHeadword": "פָּעַם",
+	"headwords": [
+		{
+			"text": "פָּעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1202,
 		"column": "b"

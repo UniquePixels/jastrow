@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01072",
-	"slug": "גן",
-	"headword": {
-		"text": "גַּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּן",
+	"headwords": [
+		{
+			"text": "גַּן"
+		},
 		{
 			"text": "גַּנָּה"
 		},
@@ -12,6 +13,7 @@
 			"text": "גִּינָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 256,
 		"column": "a"

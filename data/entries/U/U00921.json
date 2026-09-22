@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00921",
-	"slug": "שיכור",
-	"headword": {
-		"text": "שִׁיכּוֹר"
-	},
+	"sefariaHeadword": "שִׁיכּוֹר",
+	"headwords": [
+		{
+			"text": "שִׁיכּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "a"

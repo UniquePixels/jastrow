@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00233",
-	"slug": "רדד-3",
-	"headword": {
-		"text": "רֶדֶד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֶדֶד",
+	"headwords": [
+		{
+			"text": "רֶדֶד"
+		},
 		{
 			"text": "רָדָד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1451,
 		"column": "a"

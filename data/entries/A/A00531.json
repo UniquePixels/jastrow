@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00531",
-	"slug": "אובנתא",
-	"headword": {
-		"text": "אוֹבַנְתָּא"
-	},
+	"sefariaHeadword": "אוֹבַנְתָּא",
+	"headwords": [
+		{
+			"text": "אוֹבַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

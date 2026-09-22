@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01661",
-	"slug": "ממזרות",
-	"headword": {
-		"text": "מַמְזֵרוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַמְזֵרוּת",
+	"headwords": [
 		{
-			"text": "מַמְזֵי׳"
+			"text": "מַמְזֵרוּת"
+		},
+		{
+			"text": "מַמְזֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 795,
 		"column": "a"

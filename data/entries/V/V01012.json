@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01012",
-	"slug": "תרם-2",
-	"headword": {
-		"text": "תְּרַם"
-	},
+	"sefariaHeadword": "תְּרַם",
+	"headwords": [
+		{
+			"text": "תְּרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "b"

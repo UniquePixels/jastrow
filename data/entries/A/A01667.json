@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A01667",
-	"slug": "אכבדא",
-	"headword": {
-		"text": "אכבדא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אכבדא",
+	"headwords": [
+		{
+			"text": "אכבדא"
+		},
 		{
 			"text": "אָכְבְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

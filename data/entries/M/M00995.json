@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00995",
-	"slug": "מטי",
-	"headword": {
-		"text": "מְטֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְטֵי",
+	"headwords": [
+		{
+			"text": "מְטֵי"
+		},
 		{
 			"text": "מְטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מְטָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 767,
 		"column": "a"

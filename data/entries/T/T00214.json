@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00214",
-	"slug": "רגמא",
-	"headword": {
-		"text": "רִגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִגְמָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִגְמָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1449,
 		"column": "b"

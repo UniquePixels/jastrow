@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00109",
-	"slug": "ידעיה",
-	"headword": {
-		"text": "יְדַעְיָה"
-	},
+	"sefariaHeadword": "יְדַעְיָה",
+	"headwords": [
+		{
+			"text": "יְדַעְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 565,
 		"column": "a"

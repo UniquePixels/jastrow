@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02264",
-	"slug": "קשר-1",
-	"headword": {
-		"text": "קָשַׁר"
-	},
+	"sefariaHeadword": "קָשַׁר",
+	"headwords": [
+		{
+			"text": "קָשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1432,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00974",
-	"slug": "רצה",
-	"headword": {
-		"text": "רָצָה"
-	},
+	"sefariaHeadword": "רָצָה",
+	"headwords": [
+		{
+			"text": "רָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01202",
-	"slug": "פניקא",
-	"headword": {
-		"text": "פניקא"
-	},
+	"sefariaHeadword": "פניקא",
+	"headwords": [
+		{
+			"text": "פניקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1190,
 		"column": "a"

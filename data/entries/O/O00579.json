@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00579",
-	"slug": "סידור-1",
-	"headword": {
-		"text": "סִידּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִידּוּר",
+	"headwords": [
+		{
+			"text": "סִידּוּר"
+		},
 		{
 			"text": "סִדּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 976,
 		"column": "a"

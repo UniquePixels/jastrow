@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00758",
-	"slug": "רכון-1",
-	"headword": {
-		"text": "רכון"
-	},
+	"sefariaHeadword": "רכון",
+	"headwords": [
+		{
+			"text": "רכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

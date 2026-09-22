@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00826",
-	"slug": "קטר-4",
-	"headword": {
-		"text": "קְטַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטַר ²",
+	"headwords": [
+		{
+			"text": "קְטַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "קְטֵיר"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1353,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00035",
-	"slug": "הבטחה",
-	"headword": {
-		"text": "הַבְטָחָה"
-	},
+	"sefariaHeadword": "הַבְטָחָה",
+	"headwords": [
+		{
+			"text": "הַבְטָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "b"

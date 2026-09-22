@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00440",
-	"slug": "ליחלוח",
-	"headword": {
-		"text": "לִיחְלוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיחְלוּחַ",
+	"headwords": [
+		{
+			"text": "לִיחְלוּחַ"
+		},
 		{
 			"text": "לִיחְלוּחִית"
 		},
@@ -12,6 +13,7 @@
 			"text": "לִיחְלוּךְ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 706,
 		"column": "b"

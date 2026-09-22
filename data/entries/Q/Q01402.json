@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01402",
-	"slug": "פפונא",
-	"headword": {
-		"text": "פָּפוּנָא"
-	},
+	"sefariaHeadword": "פָּפוּנָא",
+	"headwords": [
+		{
+			"text": "פָּפוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "b"

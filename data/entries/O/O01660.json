@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01660",
-	"slug": "סרפיגס",
-	"headword": {
-		"text": "סרפיגס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרפיגס",
+	"headwords": [
+		{
+			"text": "סרפיגס"
+		},
 		{
 			"text": "סרפינוס"
 		},
@@ -12,6 +13,7 @@
 			"text": "סרפיניסם"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1029,
 		"column": "b"

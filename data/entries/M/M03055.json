@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03055",
-	"slug": "מתיכלתא",
-	"headword": {
-		"text": "מְתִיכְלְתָא"
-	},
+	"sefariaHeadword": "מְתִיכְלְתָא",
+	"headwords": [
+		{
+			"text": "מְתִיכְלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

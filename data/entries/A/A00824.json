@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00824",
-	"slug": "אוצן",
-	"headword": {
-		"text": "אוֹצֶן"
-	},
+	"sefariaHeadword": "אוֹצֶן",
+	"headwords": [
+		{
+			"text": "אוֹצֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

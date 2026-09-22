@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00625",
-	"slug": "מורדקא",
-	"headword": {
-		"text": "מוּרְדְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּרְדְּקָא",
+	"headwords": [
 		{
-			"text": "מַרְדְּ׳"
+			"text": "מוּרְדְּקָא"
+		},
+		{
+			"text": "מַרְדְּ׳",
+			"partial": true
 		},
 		{
 			"text": "מַרְטְקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 749,
 		"column": "a"

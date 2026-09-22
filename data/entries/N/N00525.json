@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00525",
-	"slug": "נחשול-1",
-	"headword": {
-		"text": "נַחְשׁוֹל"
-	},
+	"sefariaHeadword": "נַחְשׁוֹל",
+	"headwords": [
+		{
+			"text": "נַחְשׁוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 897,
 		"column": "a"

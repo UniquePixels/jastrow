@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M02433",
-	"slug": "מקמתא",
-	"headword": {
-		"text": "מְקָמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקָמְתָּא",
+	"headwords": [
+		{
+			"text": "מְקָמְתָּא"
+		},
 		{
 			"text": "מִקְמַת"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִיקְמַת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 831,
 		"column": "b"

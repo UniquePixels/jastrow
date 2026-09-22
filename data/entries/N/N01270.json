@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01270",
-	"slug": "נרוק",
-	"headword": {
-		"text": "נָרוֹק"
-	},
+	"sefariaHeadword": "נָרוֹק",
+	"headwords": [
+		{
+			"text": "נָרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"

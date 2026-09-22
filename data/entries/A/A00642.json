@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00642",
-	"slug": "אוכל-1",
-	"headword": {
-		"text": "אוכל"
-	},
+	"sefariaHeadword": "אוכל",
+	"headwords": [
+		{
+			"text": "אוכל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "a"

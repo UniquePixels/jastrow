@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00492",
-	"slug": "בטבט",
-	"headword": {
-		"text": "בִּטְבֵּט"
-	},
+	"sefariaHeadword": "בִּטְבֵּט",
+	"headwords": [
+		{
+			"text": "בִּטְבֵּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "a"

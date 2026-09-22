@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00675",
-	"slug": "נימאייק",
-	"headword": {
-		"text": "נימאייק"
-	},
+	"sefariaHeadword": "נימאייק",
+	"headwords": [
+		{
+			"text": "נימאייק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "a"

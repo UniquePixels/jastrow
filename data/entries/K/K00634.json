@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00634",
-	"slug": "כירכם",
-	"headword": {
-		"text": "כִּירְכֵּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּירְכֵּם",
+	"headwords": [
+		{
+			"text": "כִּירְכֵּם"
+		},
 		{
 			"text": "כִּירְכֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "a"

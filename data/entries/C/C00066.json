@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00066",
-	"slug": "גבות",
-	"headword": {
-		"text": "גַּבּוֹת"
-	},
+	"sefariaHeadword": "גַּבּוֹת",
+	"headwords": [
+		{
+			"text": "גַּבּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

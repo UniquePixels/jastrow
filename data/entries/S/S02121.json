@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02121",
-	"slug": "קרסטלין",
-	"headword": {
-		"text": "קְרַסְטְלִין"
-	},
+	"sefariaHeadword": "קְרַסְטְלִין",
+	"headwords": [
+		{
+			"text": "קְרַסְטְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "b"

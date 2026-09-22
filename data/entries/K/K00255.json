@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00255",
-	"slug": "כוכיתא",
-	"headword": {
-		"text": "כוכיתא"
-	},
+	"sefariaHeadword": "כוכיתא",
+	"headwords": [
+		{
+			"text": "כוכיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "b"

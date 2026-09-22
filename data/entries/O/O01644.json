@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01644",
-	"slug": "סרניק",
-	"headword": {
-		"text": "סַרְנֵיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְנֵיק",
+	"headwords": [
+		{
+			"text": "סַרְנֵיק"
+		},
 		{
 			"text": "סַרְנֵק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1028,
 		"column": "b"

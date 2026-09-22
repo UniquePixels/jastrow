@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01030",
-	"slug": "סלקונדרי",
-	"headword": {
-		"text": "סַלְקוּנְדְּרֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַלְקוּנְדְּרֵי",
+	"headwords": [
+		{
+			"text": "סַלְקוּנְדְּרֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 997,
 		"column": "b"

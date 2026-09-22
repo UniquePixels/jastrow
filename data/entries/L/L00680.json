@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "L00680",
-	"slug": "לקט-4",
-	"headword": {
-		"text": "לֶקֶט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֶקֶט ²",
+	"headwords": [
+		{
+			"text": "לֶקֶט",
+			"disambiguator": 2
+		},
 		{
 			"text": "לְקָטָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "לִיקְטָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 718,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01075",
-	"slug": "אטונס",
-	"headword": {
-		"text": "אֲטוּנָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲטוּנָס",
+	"headwords": [
+		{
+			"text": "אֲטוּנָס"
+		},
 		{
 			"text": "טוּנָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00519",
-	"slug": "ליקוח",
-	"headword": {
-		"text": "לִיקּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיקּוּחַ",
+	"headwords": [
 		{
-			"text": "לִקּ׳"
+			"text": "לִיקּוּחַ"
+		},
+		{
+			"text": "לִקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01154",
-	"slug": "עקד-2",
-	"headword": {
-		"text": "עֲקַד"
-	},
+	"sefariaHeadword": "עֲקַד",
+	"headwords": [
+		{
+			"text": "עֲקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

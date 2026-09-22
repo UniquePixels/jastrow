@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00398",
-	"slug": "תחתיתא",
-	"headword": {
-		"text": "תַּחְתֵּיתָא"
-	},
+	"sefariaHeadword": "תַּחְתֵּיתָא",
+	"headwords": [
+		{
+			"text": "תַּחְתֵּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "a"

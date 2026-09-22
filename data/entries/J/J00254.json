@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00254",
-	"slug": "יותפאה",
-	"headword": {
-		"text": "יוֹתְפָאָה"
-	},
+	"sefariaHeadword": "יוֹתְפָאָה",
+	"headwords": [
+		{
+			"text": "יוֹתְפָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

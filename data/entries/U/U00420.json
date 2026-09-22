@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00420",
-	"slug": "שולחן",
-	"headword": {
-		"text": "שׁוּלְחָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּלְחָן",
+	"headwords": [
 		{
-			"text": "שֻׁלְ׳"
+			"text": "שׁוּלְחָן"
+		},
+		{
+			"text": "שֻׁלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1534,
 		"column": "a"

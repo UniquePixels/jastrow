@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00708",
-	"slug": "ריקנו",
-	"headword": {
-		"text": "רֵיקָנוּ"
-	},
+	"sefariaHeadword": "רֵיקָנוּ",
+	"headwords": [
+		{
+			"text": "רֵיקָנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

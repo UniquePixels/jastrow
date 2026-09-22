@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00334",
-	"slug": "אגפה",
-	"headword": {
-		"text": "אֲגָפָה"
-	},
+	"sefariaHeadword": "אֲגָפָה",
+	"headwords": [
+		{
+			"text": "אֲגָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

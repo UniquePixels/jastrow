@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00920",
-	"slug": "מחצב",
-	"headword": {
-		"text": "מַחְצָב"
-	},
+	"sefariaHeadword": "מַחְצָב",
+	"headwords": [
+		{
+			"text": "מַחְצָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

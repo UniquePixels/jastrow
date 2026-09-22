@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00682",
-	"slug": "סים",
-	"headword": {
-		"text": "סִים"
-	},
+	"sefariaHeadword": "סִים",
+	"headwords": [
+		{
+			"text": "סִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "b"

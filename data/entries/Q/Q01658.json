@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01658",
-	"slug": "פרוזדגייא",
-	"headword": {
-		"text": "פרוזדגייא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרוזדגייא",
+	"headwords": [
+		{
+			"text": "פרוזדגייא"
+		},
 		{
 			"text": "פרוזדוגייא"
 		},
@@ -15,6 +16,7 @@
 			"text": "פרוזדוגמא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1219,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00078",
-	"slug": "חבירה",
-	"headword": {
-		"text": "חֲבֵירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבֵירָה",
+	"headwords": [
+		{
+			"text": "חֲבֵירָה"
+		},
 		{
 			"text": "חֲבֶירֶת"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲבֶירְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 419,
 		"column": "b"

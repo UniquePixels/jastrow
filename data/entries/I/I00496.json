@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00496",
-	"slug": "טליו",
-	"headword": {
-		"text": "טַלְיוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַלְיוּ",
+	"headwords": [
+		{
+			"text": "טַלְיוּ"
+		},
 		{
 			"text": "טַלְיוּת"
 		},
@@ -12,6 +13,7 @@
 			"text": "טַלְיוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 537,
 		"column": "a"

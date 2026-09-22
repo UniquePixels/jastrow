@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00851",
-	"slug": "רסא",
-	"headword": {
-		"text": "רִסָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִסָּא",
+	"headwords": [
+		{
+			"text": "רִסָּא"
+		},
 		{
 			"text": "רִסָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1484,
 		"column": "b"

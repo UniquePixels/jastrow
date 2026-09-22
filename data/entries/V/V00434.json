@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00434",
-	"slug": "תייא",
-	"headword": {
-		"text": "תְּיָיא"
-	},
+	"sefariaHeadword": "תְּיָיא",
+	"headwords": [
+		{
+			"text": "תְּיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01894",
-	"slug": "אלכסנדרוס",
-	"headword": {
-		"text": "אֲלֶכְסַנְדְּרוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלֶכְסַנְדְּרוֹס",
+	"headwords": [
 		{
-			"text": "אֲלַכְ׳"
+			"text": "אֲלֶכְסַנְדְּרוֹס"
+		},
+		{
+			"text": "אֲלַכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 70,
 		"column": "b"

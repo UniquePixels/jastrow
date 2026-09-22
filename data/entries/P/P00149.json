@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00149",
-	"slug": "עדיתא-1",
-	"headword": {
-		"text": "עָדִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָדִיתָא",
+	"headwords": [
+		{
+			"text": "עָדִיתָא"
+		},
 		{
 			"text": "עֲדִיתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1044,
 		"column": "b"

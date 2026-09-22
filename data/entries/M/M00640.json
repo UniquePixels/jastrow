@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00640",
-	"slug": "מוריג",
-	"headword": {
-		"text": "מוֹרִיג"
-	},
+	"sefariaHeadword": "מוֹרִיג",
+	"headwords": [
+		{
+			"text": "מוֹרִיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

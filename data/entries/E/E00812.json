@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00812",
-	"slug": "הרג-1",
-	"headword": {
-		"text": "הָרַג"
-	},
+	"sefariaHeadword": "הָרַג",
+	"headwords": [
+		{
+			"text": "הָרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "a"

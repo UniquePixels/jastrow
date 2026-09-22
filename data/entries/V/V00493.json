@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00493",
-	"slug": "תיקרובתא",
-	"headword": {
-		"text": "תִּיקְרוּבִתָּא"
-	},
+	"sefariaHeadword": "תִּיקְרוּבִתָּא",
+	"headwords": [
+		{
+			"text": "תִּיקְרוּבִתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

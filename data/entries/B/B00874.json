@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00874",
-	"slug": "בליעי",
-	"headword": {
-		"text": "בְּלִיעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלִיעֵי",
+	"headwords": [
 		{
-			"text": "בֵּי בְּלִיעֵי"
+			"text": "בְּלִיעֵי"
+		},
+		{
+			"text": "בֵּי בְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 173,
 		"column": "a"

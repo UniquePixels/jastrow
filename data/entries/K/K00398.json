@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00398",
-	"slug": "כוש-1",
-	"headword": {
-		"text": "כּוּשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כּוּשׁ I",
+	"headwords": [
+		{
+			"text": "כּוּשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 626,
 		"column": "a"

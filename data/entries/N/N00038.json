@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00038",
-	"slug": "נבארא",
-	"headword": {
-		"text": "נְבָארָא"
-	},
+	"sefariaHeadword": "נְבָארָא",
+	"headwords": [
+		{
+			"text": "נְבָארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 867,
 		"column": "a"

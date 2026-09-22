@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00021",
-	"slug": "נאלא-2",
-	"headword": {
-		"text": "נָאלָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָאלָא II",
+	"headwords": [
+		{
+			"text": "נָאלָא",
+			"homograph": 2
+		},
 		{
 			"text": "נָאלָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 866,
 		"column": "a"

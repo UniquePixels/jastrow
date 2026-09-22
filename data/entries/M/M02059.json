@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02059",
-	"slug": "מעברתא",
-	"headword": {
-		"text": "מַעְבַּרְתָּא"
-	},
+	"sefariaHeadword": "מַעְבַּרְתָּא",
+	"headwords": [
+		{
+			"text": "מַעְבַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

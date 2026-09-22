@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00313",
-	"slug": "דופן-2",
-	"headword": {
-		"text": "דּוֹפָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹפָן",
+	"headwords": [
+		{
+			"text": "דּוֹפָן"
+		},
 		{
 			"text": "דֹּפָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 287,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00527",
-	"slug": "יציאה",
-	"headword": {
-		"text": "יְצִיאָה"
-	},
+	"sefariaHeadword": "יְצִיאָה",
+	"headwords": [
+		{
+			"text": "יְצִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "b"

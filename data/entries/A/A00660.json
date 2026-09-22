@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00660",
-	"slug": "אולד",
-	"headword": {
-		"text": "אוֹלָד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוֹלָד",
+	"headwords": [
+		{
+			"text": "אוֹלָד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

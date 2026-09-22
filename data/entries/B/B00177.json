@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00177",
-	"slug": "בהית",
-	"headword": {
-		"text": "בְּהֵית"
-	},
+	"sefariaHeadword": "בְּהֵית",
+	"headwords": [
+		{
+			"text": "בְּהֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 142,
 		"column": "a"

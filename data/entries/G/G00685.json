@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00685",
-	"slug": "זרז-1",
-	"headword": {
-		"text": "זָרַז"
-	},
+	"sefariaHeadword": "זָרַז",
+	"headwords": [
+		{
+			"text": "זָרַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

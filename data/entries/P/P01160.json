@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01160",
-	"slug": "עקולא",
-	"headword": {
-		"text": "עִקּוּלָא"
-	},
+	"sefariaHeadword": "עִקּוּלָא",
+	"headwords": [
+		{
+			"text": "עִקּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00881",
-	"slug": "אוריאל",
-	"headword": {
-		"text": "אוּרִיאֵל"
-	},
+	"sefariaHeadword": "אוּרִיאֵל",
+	"headwords": [
+		{
+			"text": "אוּרִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02663",
-	"slug": "אפטרה",
-	"headword": {
-		"text": "אַפְטָרָה"
-	},
+	"sefariaHeadword": "אַפְטָרָה",
+	"headwords": [
+		{
+			"text": "אַפְטָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

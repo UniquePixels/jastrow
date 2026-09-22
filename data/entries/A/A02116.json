@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02116",
-	"slug": "אנדיקוס",
-	"headword": {
-		"text": "אַנְדִּיקוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְדִּיקוֹס",
+	"headwords": [
+		{
+			"text": "אַנְדִּיקוֹס"
+		},
 		{
 			"text": "אַנְדִּיקָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "b"

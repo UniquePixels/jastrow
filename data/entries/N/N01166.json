@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01166",
-	"slug": "נקדים",
-	"headword": {
-		"text": "נקדים"
-	},
+	"sefariaHeadword": "נקדים",
+	"headwords": [
+		{
+			"text": "נקדים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "a"

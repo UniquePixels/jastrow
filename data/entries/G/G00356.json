@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00356",
-	"slug": "זילוף",
-	"headword": {
-		"text": "זִילּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִילּוּף",
+	"headwords": [
 		{
-			"text": "זִלּ׳"
+			"text": "זִילּוּף"
+		},
+		{
+			"text": "זִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 394,
 		"column": "a"

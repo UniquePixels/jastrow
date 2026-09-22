@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01239",
-	"slug": "קלאונא",
-	"headword": {
-		"text": "קלאונא"
-	},
+	"sefariaHeadword": "קלאונא",
+	"headwords": [
+		{
+			"text": "קלאונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1371,
 		"column": "b"

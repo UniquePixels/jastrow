@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00486",
-	"slug": "שוער-1",
-	"headword": {
-		"text": "שׁוֹעֵר"
-	},
+	"sefariaHeadword": "שׁוֹעֵר",
+	"headwords": [
+		{
+			"text": "שׁוֹעֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "b"

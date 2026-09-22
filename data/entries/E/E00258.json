@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00258",
-	"slug": "הופעה",
-	"headword": {
-		"text": "הוֹפָעָה"
-	},
+	"sefariaHeadword": "הוֹפָעָה",
+	"headwords": [
+		{
+			"text": "הוֹפָעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00620",
-	"slug": "קורניסא",
-	"headword": {
-		"text": "קוּרְנֵיסָא"
-	},
+	"sefariaHeadword": "קוּרְנֵיסָא",
+	"headwords": [
+		{
+			"text": "קוּרְנֵיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01557",
-	"slug": "איפסר",
-	"headword": {
-		"text": "אֶיפְסָר"
-	},
+	"sefariaHeadword": "אֶיפְסָר",
+	"headwords": [
+		{
+			"text": "אֶיפְסָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

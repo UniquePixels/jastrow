@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03248",
-	"slug": "ארר-2",
-	"headword": {
-		"text": "אֲרַר"
-	},
+	"sefariaHeadword": "אֲרַר",
+	"headwords": [
+		{
+			"text": "אֲרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "a"

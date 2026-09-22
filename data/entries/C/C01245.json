@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01245",
-	"slug": "גרגותני",
-	"headword": {
-		"text": "גַּרְגּוּתְנִי"
-	},
+	"sefariaHeadword": "גַּרְגּוּתְנִי",
+	"headwords": [
+		{
+			"text": "גַּרְגּוּתְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

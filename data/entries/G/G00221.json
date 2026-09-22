@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00221",
-	"slug": "זועפא",
-	"headword": {
-		"text": "זוֹעֲפָא"
-	},
+	"sefariaHeadword": "זוֹעֲפָא",
+	"headwords": [
+		{
+			"text": "זוֹעֲפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00549",
-	"slug": "פטר-3",
-	"headword": {
-		"text": "פֶּטֶר"
-	},
+	"sefariaHeadword": "פֶּטֶר",
+	"headwords": [
+		{
+			"text": "פֶּטֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

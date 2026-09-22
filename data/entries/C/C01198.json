@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01198",
-	"slug": "גפא-2",
-	"headword": {
-		"text": "גַּפָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גַּפָּא II",
+	"headwords": [
+		{
+			"text": "גַּפָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 262,
 		"column": "a"

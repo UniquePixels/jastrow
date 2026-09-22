@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03098",
-	"slug": "אריך-4",
-	"headword": {
-		"text": "אָרֵיךְ"
-	},
+	"sefariaHeadword": "אָרֵיךְ",
+	"headwords": [
+		{
+			"text": "אָרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "b"

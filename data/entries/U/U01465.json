@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01465",
-	"slug": "שמיי",
-	"headword": {
-		"text": "שַׁמַּיי"
-	},
+	"sefariaHeadword": "שַׁמַּיי",
+	"headwords": [
+		{
+			"text": "שַׁמַּיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

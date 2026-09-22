@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00475",
-	"slug": "בחי",
-	"headword": {
-		"text": "בְּחִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּחִי",
+	"headwords": [
+		{
+			"text": "בְּחִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 155,
 		"column": "a"

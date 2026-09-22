@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00378",
-	"slug": "בורנין",
-	"headword": {
-		"text": "בּוּרְנִין"
-	},
+	"sefariaHeadword": "בּוּרְנִין",
+	"headwords": [
+		{
+			"text": "בּוּרְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

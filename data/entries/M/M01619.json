@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01619",
-	"slug": "מלקות-2",
-	"headword": {
-		"text": "מַלְקוּת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְקוּת ²",
+	"headwords": [
+		{
+			"text": "מַלְקוּת",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַלְקוּתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 793,
 		"column": "b"

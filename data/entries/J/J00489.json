@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00489",
-	"slug": "יעלה",
-	"headword": {
-		"text": "יְעֵלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְעֵלָה",
+	"headwords": [
+		{
+			"text": "יְעֵלָה"
+		},
 		{
 			"text": "יַעֲלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 584,
 		"column": "b"

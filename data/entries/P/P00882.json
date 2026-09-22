@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00882",
-	"slug": "עמידה",
-	"headword": {
-		"text": "עֲמִידָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֲמִידָה II",
+	"headwords": [
+		{
+			"text": "עֲמִידָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1088,
 		"column": "a"

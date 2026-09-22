@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00400",
-	"slug": "שויחתא",
-	"headword": {
-		"text": "שויחתא"
-	},
+	"sefariaHeadword": "שויחתא",
+	"headwords": [
+		{
+			"text": "שויחתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

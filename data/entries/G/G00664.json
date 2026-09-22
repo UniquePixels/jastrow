@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00664",
-	"slug": "זרב-2",
-	"headword": {
-		"text": "זְרַב"
-	},
+	"sefariaHeadword": "זְרַב",
+	"headwords": [
+		{
+			"text": "זְרַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01166",
-	"slug": "ברביי",
-	"headword": {
-		"text": "בַּרְבַּיִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּרְבַּיִי",
+	"headwords": [
+		{
+			"text": "בַּרְבַּיִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00270",
-	"slug": "תוקרת",
-	"headword": {
-		"text": "תּוּקְרַת"
-	},
+	"sefariaHeadword": "תּוּקְרַת",
+	"headwords": [
+		{
+			"text": "תּוּקְרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

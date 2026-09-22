@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02491",
-	"slug": "אספיקולא",
-	"headword": {
-		"text": "אִסְפִּיקוּלָא"
-	},
+	"sefariaHeadword": "אִסְפִּיקוּלָא",
+	"headwords": [
+		{
+			"text": "אִסְפִּיקוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

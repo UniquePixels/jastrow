@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00697",
-	"slug": "ביקרא",
-	"headword": {
-		"text": "ביקרא"
-	},
+	"sefariaHeadword": "ביקרא",
+	"headwords": [
+		{
+			"text": "ביקרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "a"

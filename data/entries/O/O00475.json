@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00475",
-	"slug": "סטדא",
-	"headword": {
-		"text": "סַטְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַטְדָּא",
+	"headwords": [
 		{
-			"text": "סוֹטְ׳"
+			"text": "סַטְדָּא"
+		},
+		{
+			"text": "סוֹטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 972,
 		"column": "a"

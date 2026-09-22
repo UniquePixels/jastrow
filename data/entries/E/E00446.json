@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00446",
-	"slug": "הינא-3",
-	"headword": {
-		"text": "הַיָנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הַיָנָא",
+	"headwords": [
+		{
+			"text": "הַיָנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

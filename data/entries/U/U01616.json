@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01616",
-	"slug": "שסוע",
-	"headword": {
-		"text": "שִׁסּוּעַ"
-	},
+	"sefariaHeadword": "שִׁסּוּעַ",
+	"headwords": [
+		{
+			"text": "שִׁסּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "a"

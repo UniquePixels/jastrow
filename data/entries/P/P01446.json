@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01446",
-	"slug": "ערקבלין",
-	"headword": {
-		"text": "עַרְקַבְלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְקַבְלִין",
+	"headwords": [
+		{
+			"text": "עַרְקַבְלִין"
+		},
 		{
 			"text": "עַרְקַבְנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1123,
 		"column": "b"

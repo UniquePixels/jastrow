@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01247",
-	"slug": "נקרה",
-	"headword": {
-		"text": "נִקְרָה"
-	},
+	"sefariaHeadword": "נִקְרָה",
+	"headwords": [
+		{
+			"text": "נִקְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "b"

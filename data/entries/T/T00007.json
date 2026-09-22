@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00007",
-	"slug": "ראדיא",
-	"headword": {
-		"text": "רָאדַיָּא"
-	},
+	"sefariaHeadword": "רָאדַיָּא",
+	"headwords": [
+		{
+			"text": "רָאדַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1435,
 		"column": "a"

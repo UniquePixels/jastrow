@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00142",
-	"slug": "עדין",
-	"headword": {
-		"text": "עֲדַיִן"
-	},
+	"sefariaHeadword": "עֲדַיִן",
+	"headwords": [
+		{
+			"text": "עֲדַיִן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

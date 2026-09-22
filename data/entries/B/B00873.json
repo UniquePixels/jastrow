@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00873",
-	"slug": "בליעה",
-	"headword": {
-		"text": "בְּלִיעָה"
-	},
+	"sefariaHeadword": "בְּלִיעָה",
+	"headwords": [
+		{
+			"text": "בְּלִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

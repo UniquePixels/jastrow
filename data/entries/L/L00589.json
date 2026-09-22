@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00589",
-	"slug": "לסת",
-	"headword": {
-		"text": "לֶסֶת"
-	},
+	"sefariaHeadword": "לֶסֶת",
+	"headwords": [
+		{
+			"text": "לֶסֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "b"

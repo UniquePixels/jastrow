@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00189",
-	"slug": "כובלין",
-	"headword": {
-		"text": "כּוֹבְלִין"
-	},
+	"sefariaHeadword": "כּוֹבְלִין",
+	"headwords": [
+		{
+			"text": "כּוֹבְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

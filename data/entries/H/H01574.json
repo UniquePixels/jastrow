@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01574",
-	"slug": "חרא-1",
-	"headword": {
-		"text": "חֹרָא"
-	},
+	"sefariaHeadword": "חֹרָא",
+	"headwords": [
+		{
+			"text": "חֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "b"

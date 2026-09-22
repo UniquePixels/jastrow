@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01008",
-	"slug": "גמול",
-	"headword": {
-		"text": "גְּמוּל"
-	},
+	"sefariaHeadword": "גְּמוּל",
+	"headwords": [
+		{
+			"text": "גְּמוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

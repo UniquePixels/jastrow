@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00486",
-	"slug": "רחוץ",
-	"headword": {
-		"text": "רחוץ"
-	},
+	"sefariaHeadword": "רחוץ",
+	"headwords": [
+		{
+			"text": "רחוץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

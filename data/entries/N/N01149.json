@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01149",
-	"slug": "נצרה",
-	"headword": {
-		"text": "נִצְרָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נִצְרָה II",
+	"headwords": [
+		{
+			"text": "נִצְרָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 930,
 		"column": "a"

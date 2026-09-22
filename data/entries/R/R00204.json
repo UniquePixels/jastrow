@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00204",
-	"slug": "צומע",
-	"headword": {
-		"text": "צוּמָּע"
-	},
+	"sefariaHeadword": "צוּמָּע",
+	"headwords": [
+		{
+			"text": "צוּמָּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

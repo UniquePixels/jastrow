@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03101",
-	"slug": "אריכא-3",
-	"headword": {
-		"text": "אֲרִיכָא"
-	},
+	"sefariaHeadword": "אֲרִיכָא",
+	"headwords": [
+		{
+			"text": "אֲרִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "a"

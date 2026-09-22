@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00645",
-	"slug": "עיצום",
-	"headword": {
-		"text": "עִיצּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיצּוּם",
+	"headwords": [
 		{
-			"text": "עִצּ׳"
+			"text": "עִיצּוּם"
+		},
+		{
+			"text": "עִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1073,
 		"column": "b"

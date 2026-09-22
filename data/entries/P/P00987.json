@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00987",
-	"slug": "ענייה-1",
-	"headword": {
-		"text": "עֲנִיָּיה"
-	},
+	"sefariaHeadword": "עֲנִיָּיה",
+	"headwords": [
+		{
+			"text": "עֲנִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1095,
 		"column": "a"

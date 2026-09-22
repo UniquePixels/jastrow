@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01476",
-	"slug": "פקח-3",
-	"headword": {
-		"text": "פְּקַח",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּקַח II",
+	"headwords": [
+		{
+			"text": "פְּקַח",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1208,
 		"column": "b"

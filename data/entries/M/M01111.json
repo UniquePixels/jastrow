@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01111",
-	"slug": "מיזרן",
-	"headword": {
-		"text": "מִיזְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיזְרָן",
+	"headwords": [
+		{
+			"text": "מִיזְרָן"
+		},
 		{
 			"text": "מִיזְרָק"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִיזְרְקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 772,
 		"column": "a"

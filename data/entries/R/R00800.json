@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00800",
-	"slug": "צרפא",
-	"headword": {
-		"text": "צָרָפָא"
-	},
+	"sefariaHeadword": "צָרָפָא",
+	"headwords": [
+		{
+			"text": "צָרָפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1304,
 		"column": "b"

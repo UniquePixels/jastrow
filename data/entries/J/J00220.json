@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00220",
-	"slug": "יוסתיניא",
-	"headword": {
-		"text": "יוסתיניא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוסתיניא",
+	"headwords": [
+		{
+			"text": "יוסתיניא"
+		},
 		{
 			"text": "יוסתניא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 571,
 		"column": "a"

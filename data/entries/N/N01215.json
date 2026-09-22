@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01215",
-	"slug": "נקירה",
-	"headword": {
-		"text": "נְקִירָה"
-	},
+	"sefariaHeadword": "נְקִירָה",
+	"headwords": [
+		{
+			"text": "נְקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01192",
-	"slug": "פניא-1",
-	"headword": {
-		"text": "פַּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְיָא",
+	"headwords": [
+		{
+			"text": "פַּנְיָא"
+		},
 		{
 			"text": "פַּנְיָיא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1189,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00955",
-	"slug": "סלגורין",
-	"headword": {
-		"text": "סלגורין"
-	},
+	"sefariaHeadword": "סלגורין",
+	"headwords": [
+		{
+			"text": "סלגורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

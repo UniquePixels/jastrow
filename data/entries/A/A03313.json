@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03313",
-	"slug": "אשכרתי",
-	"headword": {
-		"text": "אֶשְׁכַּרְתִּי"
-	},
+	"sefariaHeadword": "אֶשְׁכַּרְתִּי",
+	"headwords": [
+		{
+			"text": "אֶשְׁכַּרְתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

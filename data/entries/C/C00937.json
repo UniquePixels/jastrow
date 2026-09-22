@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00937",
-	"slug": "גליבטון",
-	"headword": {
-		"text": "גְּלִיבְטוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּלִיבְטוֹן",
+	"headwords": [
+		{
+			"text": "גְּלִיבְטוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 248,
 		"column": "b"

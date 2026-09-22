@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01520",
-	"slug": "פקרין",
-	"headword": {
-		"text": "פקרין"
-	},
+	"sefariaHeadword": "פקרין",
+	"headwords": [
+		{
+			"text": "פקרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1212,
 		"column": "b"

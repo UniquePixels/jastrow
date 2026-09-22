@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00015",
-	"slug": "באושה",
-	"headword": {
-		"text": "בְּאוּשָׁה"
-	},
+	"sefariaHeadword": "בְּאוּשָׁה",
+	"headwords": [
+		{
+			"text": "בְּאוּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00571",
-	"slug": "צמחון",
-	"headword": {
-		"text": "צִמְחוֹן"
-	},
+	"sefariaHeadword": "צִמְחוֹן",
+	"headwords": [
+		{
+			"text": "צִמְחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1287,
 		"column": "b"

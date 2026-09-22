@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02007",
-	"slug": "מסר-2",
-	"headword": {
-		"text": "מְסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסַר",
+	"headwords": [
+		{
+			"text": "מְסַר"
+		},
 		{
 			"text": "מָסַר",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, ({1}) I",
 	"page": {
 		"number": 811,
 		"column": "a"

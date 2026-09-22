@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00486",
-	"slug": "בחש-1",
-	"headword": {
-		"text": "בָּחַשׁ"
-	},
+	"sefariaHeadword": "בָּחַשׁ",
+	"headwords": [
+		{
+			"text": "בָּחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "b"

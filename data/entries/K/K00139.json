@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00139",
-	"slug": "כדכיאות",
-	"headword": {
-		"text": "כדכיאות"
-	},
+	"sefariaHeadword": "כדכיאות",
+	"headwords": [
+		{
+			"text": "כדכיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

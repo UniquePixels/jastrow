@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00827",
-	"slug": "אוקומיני",
-	"headword": {
-		"text": "אוקומיני"
-	},
+	"sefariaHeadword": "אוקומיני",
+	"headwords": [
+		{
+			"text": "אוקומיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00378",
-	"slug": "גולגית",
-	"headword": {
-		"text": "גולגית"
-	},
+	"sefariaHeadword": "גולגית",
+	"headwords": [
+		{
+			"text": "גולגית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

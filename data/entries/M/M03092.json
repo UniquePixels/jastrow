@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03092",
-	"slug": "מתניין",
-	"headword": {
-		"text": "מַתְנְיָין"
-	},
+	"sefariaHeadword": "מַתְנְיָין",
+	"headwords": [
+		{
+			"text": "מַתְנְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "a"

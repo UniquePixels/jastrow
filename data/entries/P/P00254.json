@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00254",
-	"slug": "עולה-5",
-	"headword": {
-		"text": "עוֹלָה"
-	},
+	"sefariaHeadword": "עוֹלָה",
+	"headwords": [
+		{
+			"text": "עוֹלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1051,
 		"column": "a"

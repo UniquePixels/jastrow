@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02048",
-	"slug": "קריי",
-	"headword": {
-		"text": "קַרַיי"
-	},
+	"sefariaHeadword": "קַרַיי",
+	"headwords": [
+		{
+			"text": "קַרַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "a"

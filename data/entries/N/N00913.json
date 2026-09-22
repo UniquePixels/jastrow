@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00913",
-	"slug": "נס-3",
-	"headword": {
-		"text": "נֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵס",
+	"headwords": [
+		{
+			"text": "נֵס"
+		},
 		{
 			"text": "נִסָּא"
 		},
 		{
 			"text": "נִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 915,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00873",
-	"slug": "קידוש",
-	"headword": {
-		"text": "קִידּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִידּוּשׁ",
+	"headwords": [
 		{
-			"text": "קִדּ׳"
+			"text": "קִידּוּשׁ"
+		},
+		{
+			"text": "קִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1355,
 		"column": "a"

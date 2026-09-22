@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00046",
-	"slug": "אבדתא-1",
-	"headword": {
-		"text": "אֲבֵדְתָּא"
-	},
+	"sefariaHeadword": "אֲבֵדְתָּא",
+	"headwords": [
+		{
+			"text": "אֲבֵדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "b"

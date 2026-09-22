@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00200",
-	"slug": "בואנא",
-	"headword": {
-		"text": "בואנא"
-	},
+	"sefariaHeadword": "בואנא",
+	"headwords": [
+		{
+			"text": "בואנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

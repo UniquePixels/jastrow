@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00270",
-	"slug": "פונדקי-3",
-	"headword": {
-		"text": "פּוּנְדְּקַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּנְדְּקַי",
+	"headwords": [
+		{
+			"text": "פּוּנְדְּקַי"
+		},
 		{
 			"text": "פּוּנְדְּקָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1144,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00159",
-	"slug": "תודוס",
-	"headword": {
-		"text": "תּוֹדוֹס"
-	},
+	"sefariaHeadword": "תּוֹדוֹס",
+	"headwords": [
+		{
+			"text": "תּוֹדוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

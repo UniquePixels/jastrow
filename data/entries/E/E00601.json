@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00601",
-	"slug": "המטליא",
-	"headword": {
-		"text": "הֵמְטַלְיָא"
-	},
+	"sefariaHeadword": "הֵמְטַלְיָא",
+	"headwords": [
+		{
+			"text": "הֵמְטַלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "a"

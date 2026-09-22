@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00252",
-	"slug": "טות",
-	"headword": {
-		"text": "טְוָת"
-	},
+	"sefariaHeadword": "טְוָת",
+	"headwords": [
+		{
+			"text": "טְוָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

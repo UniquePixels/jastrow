@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01065",
-	"slug": "גמר-5",
-	"headword": {
-		"text": "גָּמָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּמָר",
+	"headwords": [
+		{
+			"text": "גָּמָר"
+		},
 		{
 			"text": "גְּמַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 255,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02435",
-	"slug": "מקניתא",
-	"headword": {
-		"text": "מַקְנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַקְנִיתָא",
+	"headwords": [
+		{
+			"text": "מַקְנִיתָא"
+		},
 		{
 			"text": "מַקְנִיתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 831,
 		"column": "b"

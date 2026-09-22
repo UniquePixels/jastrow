@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00620",
-	"slug": "גיברא",
-	"headword": {
-		"text": "גִּיבָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיבָּרָא",
+	"headwords": [
+		{
+			"text": "גִּיבָּרָא"
+		},
 		{
 			"text": "גִּבָּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 234,
 		"column": "a"

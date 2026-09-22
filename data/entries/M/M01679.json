@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01679",
-	"slug": "ממרא-1",
-	"headword": {
-		"text": "מַמְרֵא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַמְרֵא I",
+	"headwords": [
+		{
+			"text": "מַמְרֵא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 795,
 		"column": "b"

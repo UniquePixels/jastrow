@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02243",
-	"slug": "קשיותא",
-	"headword": {
-		"text": "קַשְׁיוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַשְׁיוּתָא",
+	"headwords": [
+		{
+			"text": "קַשְׁיוּתָא"
+		},
 		{
 			"text": "קַשְׁיוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1431,
 		"column": "a"

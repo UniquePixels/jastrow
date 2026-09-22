@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01331",
-	"slug": "קליט",
-	"headword": {
-		"text": "קָלִיט"
-	},
+	"sefariaHeadword": "קָלִיט",
+	"headwords": [
+		{
+			"text": "קָלִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

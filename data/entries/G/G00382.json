@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00382",
-	"slug": "זינומייא",
-	"headword": {
-		"text": "זינומייא"
-	},
+	"sefariaHeadword": "זינומייא",
+	"headwords": [
+		{
+			"text": "זינומייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

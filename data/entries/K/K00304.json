@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00304",
-	"slug": "כונותא",
-	"headword": {
-		"text": "כַּוָּנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּוָּנוּתָא",
+	"headwords": [
+		{
+			"text": "כַּוָּנוּתָא"
+		},
 		{
 			"text": "כַּוַּנְתָּא"
 		},
 		{
-			"text": "כַּוּו׳"
+			"text": "כַּוּו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 622,
 		"column": "b"

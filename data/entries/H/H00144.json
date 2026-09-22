@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00144",
-	"slug": "חגורה",
-	"headword": {
-		"text": "חֲגוֹרָה"
-	},
+	"sefariaHeadword": "חֲגוֹרָה",
+	"headwords": [
+		{
+			"text": "חֲגוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "a"

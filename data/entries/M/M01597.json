@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01597",
-	"slug": "מללא-2",
-	"headword": {
-		"text": "מִלְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלְלָא",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִלְלָא"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 792,
 		"column": "b"

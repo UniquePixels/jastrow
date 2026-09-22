@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00899",
-	"slug": "מחמי",
-	"headword": {
-		"text": "מֶחְמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֶחְמֵי",
+	"headwords": [
+		{
+			"text": "מֶחְמֵי"
+		},
 		{
 			"text": "מִיחמֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 762,
 		"column": "b"

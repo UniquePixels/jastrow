@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01140",
-	"slug": "פמילייא",
-	"headword": {
-		"text": "פַּמִּילְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּמִּילְיָיא",
+	"headwords": [
+		{
+			"text": "פַּמִּילְיָיא"
+		},
 		{
 			"text": "פַּמַּלְיָא"
 		},
 		{
-			"text": "פְּמַ׳"
+			"text": "פְּמַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1185,
 		"column": "b"

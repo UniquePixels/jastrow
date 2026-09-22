@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03422",
-	"slug": "אתליטיס",
-	"headword": {
-		"text": "אַתְלִיטֵיס"
-	},
+	"sefariaHeadword": "אַתְלִיטֵיס",
+	"headwords": [
+		{
+			"text": "אַתְלִיטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "a"

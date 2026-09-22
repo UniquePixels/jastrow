@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01077",
-	"slug": "שיריים",
-	"headword": {
-		"text": "שִׁירַיִים"
-	},
+	"sefariaHeadword": "שִׁירַיִים",
+	"headwords": [
+		{
+			"text": "שִׁירַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "b"

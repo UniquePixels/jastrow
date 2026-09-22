@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00440",
-	"slug": "ציצית-1",
-	"headword": {
-		"text": "צִיצִית"
-	},
+	"sefariaHeadword": "צִיצִית",
+	"headwords": [
+		{
+			"text": "צִיצִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01683",
-	"slug": "ממרע",
-	"headword": {
-		"text": "מְמַרַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְמַרַע",
+	"headwords": [
+		{
+			"text": "מְמַרַע"
+		},
 		{
 			"text": "מְמָרְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 795,
 		"column": "b"

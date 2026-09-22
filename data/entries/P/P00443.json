@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00443",
-	"slug": "עטי-3",
-	"headword": {
-		"text": "עֳטִי"
-	},
+	"sefariaHeadword": "עֳטִי",
+	"headwords": [
+		{
+			"text": "עֳטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "a"

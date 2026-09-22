@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01957",
-	"slug": "שרטטיא",
-	"headword": {
-		"text": "שרטטיא"
-	},
+	"sefariaHeadword": "שרטטיא",
+	"headwords": [
+		{
+			"text": "שרטטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "b"

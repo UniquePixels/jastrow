@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00169",
-	"slug": "טולמוסין",
-	"headword": {
-		"text": "טולמוסין"
-	},
+	"sefariaHeadword": "טולמוסין",
+	"headwords": [
+		{
+			"text": "טולמוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "a"

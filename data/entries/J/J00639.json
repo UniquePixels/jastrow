@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00639",
-	"slug": "יריעתא",
-	"headword": {
-		"text": "יְרִיעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְרִיעֲתָא",
+	"headwords": [
+		{
+			"text": "יְרִיעֲתָא"
+		},
 		{
 			"text": "יְרִיעַתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 597,
 		"column": "a"

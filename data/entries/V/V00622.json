@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00622",
-	"slug": "תלש-2",
-	"headword": {
-		"text": "תְּלַשׁ"
-	},
+	"sefariaHeadword": "תְּלַשׁ",
+	"headwords": [
+		{
+			"text": "תְּלַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "a"

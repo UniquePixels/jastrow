@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01885",
-	"slug": "פרנוס-1",
-	"headword": {
-		"text": "פרנוס"
-	},
+	"sefariaHeadword": "פרנוס",
+	"headwords": [
+		{
+			"text": "פרנוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01247",
-	"slug": "חן-1",
-	"headword": {
-		"text": "חָן"
-	},
+	"sefariaHeadword": "חָן",
+	"headwords": [
+		{
+			"text": "חָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "a"

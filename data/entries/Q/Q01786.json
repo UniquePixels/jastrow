@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01786",
-	"slug": "פריבטא",
-	"headword": {
-		"text": "פְּרִיבָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִיבָטָא",
+	"headwords": [
+		{
+			"text": "פְּרִיבָטָא"
+		},
 		{
 			"text": "פְּרִיבָטָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּרִיבָטַיָּיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1225,
 		"column": "b"

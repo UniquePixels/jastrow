@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00367",
-	"slug": "חולתא-1",
-	"headword": {
-		"text": "חוּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלְתָּא",
+	"headwords": [
 		{
-			"text": "חִי׳"
+			"text": "חוּלְתָּא"
+		},
+		{
+			"text": "חִי׳",
+			"partial": true
 		},
 		{
 			"text": "תָּה"

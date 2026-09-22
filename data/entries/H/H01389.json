@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H01389",
-	"slug": "חסירותא",
-	"headword": {
-		"text": "חַסִּירוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַסִּירוּתָא",
+	"headwords": [
 		{
-			"text": "חֲסֵירוּ׳"
+			"text": "חַסִּירוּתָא"
 		},
 		{
-			"text": "חַסְרוּ׳"
+			"text": "חֲסֵירוּ׳",
+			"partial": true
+		},
+		{
+			"text": "חַסְרוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 487,
 		"column": "b"

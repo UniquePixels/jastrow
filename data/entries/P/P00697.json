@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00697",
-	"slug": "עירניתא",
-	"headword": {
-		"text": "עִירָנִיתָא"
-	},
+	"sefariaHeadword": "עִירָנִיתָא",
+	"headwords": [
+		{
+			"text": "עִירָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

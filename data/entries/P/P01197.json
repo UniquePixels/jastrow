@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01197",
-	"slug": "עקלתון",
-	"headword": {
-		"text": "עֲקַלָּתוֹן"
-	},
+	"sefariaHeadword": "עֲקַלָּתוֹן",
+	"headwords": [
+		{
+			"text": "עֲקַלָּתוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "b"

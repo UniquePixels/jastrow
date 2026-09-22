@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00089",
-	"slug": "הגריל",
-	"headword": {
-		"text": "הֶגְרֵיל"
-	},
+	"sefariaHeadword": "הֶגְרֵיל",
+	"headwords": [
+		{
+			"text": "הֶגְרֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

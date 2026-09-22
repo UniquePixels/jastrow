@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00410",
-	"slug": "ציפור",
-	"headword": {
-		"text": "צִיפּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוֹר",
+	"headwords": [
+		{
+			"text": "צִיפּוֹר"
+		},
 		{
 			"text": "צִיפּוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1279,
 		"column": "a"

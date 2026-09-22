@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00033",
-	"slug": "מאישא",
-	"headword": {
-		"text": "מַאיְשָׁא"
-	},
+	"sefariaHeadword": "מַאיְשָׁא",
+	"headwords": [
+		{
+			"text": "מַאיְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "b"

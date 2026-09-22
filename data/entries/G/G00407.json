@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00407",
-	"slug": "זיקה",
-	"headword": {
-		"text": "זִיקָה"
-	},
+	"sefariaHeadword": "זִיקָה",
+	"headwords": [
+		{
+			"text": "זִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "a"

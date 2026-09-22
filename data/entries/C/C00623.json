@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00623",
-	"slug": "גיגיתא",
-	"headword": {
-		"text": "גִּיגִּיתָא"
-	},
+	"sefariaHeadword": "גִּיגִּיתָא",
+	"headwords": [
+		{
+			"text": "גִּיגִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "b"

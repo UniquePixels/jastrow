@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02050",
-	"slug": "מעבה",
-	"headword": {
-		"text": "מְעֻבֶּה"
-	},
+	"sefariaHeadword": "מְעֻבֶּה",
+	"headwords": [
+		{
+			"text": "מְעֻבֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

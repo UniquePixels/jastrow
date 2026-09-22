@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01180",
-	"slug": "נקוי",
-	"headword": {
-		"text": "נִקּוּי"
-	},
+	"sefariaHeadword": "נִקּוּי",
+	"headwords": [
+		{
+			"text": "נִקּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

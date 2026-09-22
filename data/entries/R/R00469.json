@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00469",
-	"slug": "ציתא",
-	"headword": {
-		"text": "צַיְתָא"
-	},
+	"sefariaHeadword": "צַיְתָא",
+	"headwords": [
+		{
+			"text": "צַיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

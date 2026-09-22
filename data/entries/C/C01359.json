@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01359",
-	"slug": "גרמידא",
-	"headword": {
-		"text": "גַּרְמִידָא"
-	},
+	"sefariaHeadword": "גַּרְמִידָא",
+	"headwords": [
+		{
+			"text": "גַּרְמִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00433",
-	"slug": "רוק-4",
-	"headword": {
-		"text": "רוֹק"
-	},
+	"sefariaHeadword": "רוֹק",
+	"headwords": [
+		{
+			"text": "רוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "b"

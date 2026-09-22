@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01456",
-	"slug": "פקודאי",
-	"headword": {
-		"text": "פְּקוֹדָאֵי"
-	},
+	"sefariaHeadword": "פְּקוֹדָאֵי",
+	"headwords": [
+		{
+			"text": "פְּקוֹדָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00936",
-	"slug": "שילהי",
-	"headword": {
-		"text": "שִׁילְהֵי"
-	},
+	"sefariaHeadword": "שִׁילְהֵי",
+	"headwords": [
+		{
+			"text": "שִׁילְהֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "b"

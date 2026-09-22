@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00378",
-	"slug": "חומטריא",
-	"headword": {
-		"text": "חוּמְטַרְיָא"
-	},
+	"sefariaHeadword": "חוּמְטַרְיָא",
+	"headwords": [
+		{
+			"text": "חוּמְטַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

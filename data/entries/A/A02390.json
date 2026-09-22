@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02390",
-	"slug": "אסטסיאנית",
-	"headword": {
-		"text": "אִסְטַסְיָאנִית"
-	},
+	"sefariaHeadword": "אִסְטַסְיָאנִית",
+	"headwords": [
+		{
+			"text": "אִסְטַסְיָאנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

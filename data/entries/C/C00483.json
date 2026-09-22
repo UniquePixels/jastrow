@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00483",
-	"slug": "גורגלידא",
-	"headword": {
-		"text": "גּוּרְגְּלִידָא"
-	},
+	"sefariaHeadword": "גּוּרְגְּלִידָא",
+	"headwords": [
+		{
+			"text": "גּוּרְגְּלִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

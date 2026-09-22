@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01382",
-	"slug": "נתל",
-	"headword": {
-		"text": "נְתַל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נְתַל",
+	"headwords": [
+		{
+			"text": "נְתַל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 944,
 		"column": "b"

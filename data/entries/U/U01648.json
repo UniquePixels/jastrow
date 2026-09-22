@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01648",
-	"slug": "שעט",
-	"headword": {
-		"text": "שַׁעַט"
-	},
+	"sefariaHeadword": "שַׁעַט",
+	"headwords": [
+		{
+			"text": "שַׁעַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

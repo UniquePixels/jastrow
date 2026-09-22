@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01393",
-	"slug": "מכלה-1",
-	"headword": {
-		"text": "מִכְלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִכְלָה",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִכְלָה"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 783,
 		"column": "a"

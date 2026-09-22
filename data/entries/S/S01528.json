@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01528",
-	"slug": "קנדי",
-	"headword": {
-		"text": "קנדי"
-	},
+	"sefariaHeadword": "קנדי",
+	"headwords": [
+		{
+			"text": "קנדי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

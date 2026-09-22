@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01453",
-	"slug": "קמז",
-	"headword": {
-		"text": "קָמַז"
-	},
+	"sefariaHeadword": "קָמַז",
+	"headwords": [
+		{
+			"text": "קָמַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01908",
-	"slug": "שרא-2",
-	"headword": {
-		"text": "שֵׁרָא"
-	},
+	"sefariaHeadword": "שֵׁרָא",
+	"headwords": [
+		{
+			"text": "שֵׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1627,
 		"column": "a"

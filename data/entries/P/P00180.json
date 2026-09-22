@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00180",
-	"slug": "עובידתא",
-	"headword": {
-		"text": "עוֹבִידְתָּא"
-	},
+	"sefariaHeadword": "עוֹבִידְתָּא",
+	"headwords": [
+		{
+			"text": "עוֹבִידְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "a"

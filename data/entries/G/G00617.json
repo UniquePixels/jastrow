@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00617",
-	"slug": "זפא",
-	"headword": {
-		"text": "זֵפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֵפָא",
+	"headwords": [
+		{
+			"text": "זֵפָא"
+		},
 		{
 			"text": "זִיפְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "זִפְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 408,
 		"column": "a"

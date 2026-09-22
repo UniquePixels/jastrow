@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00328",
-	"slug": "מדרגה",
-	"headword": {
-		"text": "מַדְרֵגָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַדְרֵגָה",
+	"headwords": [
 		{
-			"text": "מַדְרֵי׳"
+			"text": "מַדְרֵגָה"
+		},
+		{
+			"text": "מַדְרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 735,
 		"column": "a"

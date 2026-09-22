@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00480",
-	"slug": "לימודים",
-	"headword": {
-		"text": "לִימּוּדִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִימּוּדִים",
+	"headwords": [
+		{
+			"text": "לִימּוּדִים"
+		},
 		{
 			"text": "לִימּוּדִין"
 		},
 		{
-			"text": "לִמּ׳"
+			"text": "לִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 708,
 		"column": "a"

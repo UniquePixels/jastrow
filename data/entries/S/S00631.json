@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00631",
-	"slug": "קורפיות",
-	"headword": {
-		"text": "קוּרְפָּיוֹת"
-	},
+	"sefariaHeadword": "קוּרְפָּיוֹת",
+	"headwords": [
+		{
+			"text": "קוּרְפָּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "b"

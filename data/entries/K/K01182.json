@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01182",
-	"slug": "כריתות",
-	"headword": {
-		"text": "כְּרִיתוּת"
-	},
+	"sefariaHeadword": "כְּרִיתוּת",
+	"headwords": [
+		{
+			"text": "כְּרִיתוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 668,
 		"column": "a"

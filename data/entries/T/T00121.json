@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00121",
-	"slug": "רבן-3",
-	"headword": {
-		"text": "רַבָּן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַבָּן ²",
+	"headwords": [
+		{
+			"text": "רַבָּן",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַבָּנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1444,
 		"column": "a"

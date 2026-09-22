@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01027",
-	"slug": "קינוי",
-	"headword": {
-		"text": "קִינּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינּוּי",
+	"headwords": [
 		{
-			"text": "קִנּ׳"
+			"text": "קִינּוּי"
+		},
+		{
+			"text": "קִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1363,
 		"column": "a"

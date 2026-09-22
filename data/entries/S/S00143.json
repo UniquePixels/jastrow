@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00143",
-	"slug": "קדירה-1",
-	"headword": {
-		"text": "קְדֵירָה"
-	},
+	"sefariaHeadword": "קְדֵירָה",
+	"headwords": [
+		{
+			"text": "קְדֵירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

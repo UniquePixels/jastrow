@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01635",
-	"slug": "קסדא",
-	"headword": {
-		"text": "קַסְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַסְדָּא",
+	"headwords": [
+		{
+			"text": "קַסְדָּא"
+		},
 		{
 			"text": "קַסְדָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "a"

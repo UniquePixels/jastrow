@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00261",
-	"slug": "נהי-3",
-	"headword": {
-		"text": "נְהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהֵי",
+	"headwords": [
+		{
+			"text": "נְהֵי"
+		},
 		{
 			"text": "נְהִי",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 881,
 		"column": "b"

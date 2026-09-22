@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00045",
-	"slug": "תביקין",
-	"headword": {
-		"text": "תְּבִיקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תְּבִיקִין",
+	"headwords": [
+		{
+			"text": "תְּבִיקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1643,
 		"column": "b"

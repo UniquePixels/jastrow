@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00277",
-	"slug": "קוזמוקרטור",
-	"headword": {
-		"text": "קוֹזְמוֹקְרָטוֹר"
-	},
+	"sefariaHeadword": "קוֹזְמוֹקְרָטוֹר",
+	"headwords": [
+		{
+			"text": "קוֹזְמוֹקְרָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "b"

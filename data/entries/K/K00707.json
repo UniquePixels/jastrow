@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00707",
-	"slug": "כלוניס",
-	"headword": {
-		"text": "כלוניס"
-	},
+	"sefariaHeadword": "כלוניס",
+	"headwords": [
+		{
+			"text": "כלוניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "b"

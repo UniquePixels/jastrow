@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00370",
-	"slug": "שוחנא",
-	"headword": {
-		"text": "שׁוֹחֲנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹחֲנָא",
+	"headwords": [
 		{
-			"text": "שׁוּ׳"
+			"text": "שׁוֹחֲנָא"
+		},
+		{
+			"text": "שׁוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1531,
 		"column": "a"

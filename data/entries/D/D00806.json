@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00806",
-	"slug": "דלדול",
-	"headword": {
-		"text": "דִּלְדּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּלְדּוּל",
+	"headwords": [
 		{
-			"text": "דִּיל׳"
+			"text": "דִּלְדּוּל"
+		},
+		{
+			"text": "דִּיל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 308,
 		"column": "b"

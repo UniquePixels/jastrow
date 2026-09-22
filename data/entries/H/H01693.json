@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01693",
-	"slug": "חריצותא",
-	"headword": {
-		"text": "חריצותא"
-	},
+	"sefariaHeadword": "חריצותא",
+	"headwords": [
+		{
+			"text": "חריצותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "b"

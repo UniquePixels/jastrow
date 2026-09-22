@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00929",
-	"slug": "דניסטיס",
-	"headword": {
-		"text": "דָּנִיסְטֵיס"
-	},
+	"sefariaHeadword": "דָּנִיסְטֵיס",
+	"headwords": [
+		{
+			"text": "דָּנִיסְטֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

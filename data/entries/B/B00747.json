@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00747",
-	"slug": "בישני",
-	"headword": {
-		"text": "בֵּישָׁנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּישָׁנִי",
+	"headwords": [
+		{
+			"text": "בֵּישָׁנִי"
+		},
 		{
 			"text": "ביישני"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 167,
 		"column": "b"

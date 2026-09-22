@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00650",
-	"slug": "לפת-1",
-	"headword": {
-		"text": "לָפַת"
-	},
+	"sefariaHeadword": "לָפַת",
+	"headwords": [
+		{
+			"text": "לָפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "a"

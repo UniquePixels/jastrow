@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00452",
-	"slug": "ציר-6",
-	"headword": {
-		"text": "צִיר",
-		"homograph": 4
-	},
+	"sefariaHeadword": "צִיר IV",
+	"headwords": [
+		{
+			"text": "צִיר",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 1281,
 		"column": "a"

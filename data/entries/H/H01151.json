@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01151",
-	"slug": "חמה-2",
-	"headword": {
-		"text": "חֵמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵמָה",
+	"headwords": [
 		{
-			"text": "חֵי׳"
+			"text": "חֵמָה"
+		},
+		{
+			"text": "חֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 475,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01474",
-	"slug": "פקח-1",
-	"headword": {
-		"text": "פָּקַח"
-	},
+	"sefariaHeadword": "פָּקַח",
+	"headwords": [
+		{
+			"text": "פָּקַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00991",
-	"slug": "סליק-1",
-	"headword": {
-		"text": "סְלֵיק"
-	},
+	"sefariaHeadword": "סְלֵיק",
+	"headwords": [
+		{
+			"text": "סְלֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

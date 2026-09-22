@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02844",
-	"slug": "משוש",
-	"headword": {
-		"text": "מָשׁוֹשׁ"
-	},
+	"sefariaHeadword": "מָשׁוֹשׁ",
+	"headwords": [
+		{
+			"text": "מָשׁוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

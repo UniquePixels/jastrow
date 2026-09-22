@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01372",
-	"slug": "גרנן",
-	"headword": {
-		"text": "גרנן"
-	},
+	"sefariaHeadword": "גרנן",
+	"headwords": [
+		{
+			"text": "גרנן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

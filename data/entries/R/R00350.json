@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00350",
-	"slug": "צייתורא",
-	"headword": {
-		"text": "צייתורא"
-	},
+	"sefariaHeadword": "צייתורא",
+	"headwords": [
+		{
+			"text": "צייתורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "b"

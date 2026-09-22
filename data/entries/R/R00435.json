@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00435",
-	"slug": "ציצה",
-	"headword": {
-		"text": "צִיצָה"
-	},
+	"sefariaHeadword": "צִיצָה",
+	"headwords": [
+		{
+			"text": "צִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

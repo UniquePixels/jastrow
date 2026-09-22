@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01785",
-	"slug": "פרי-3",
-	"headword": {
-		"text": "פְּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִי",
+	"headwords": [
+		{
+			"text": "פְּרִי"
+		},
 		{
 			"text": "פֶּרִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "פֶּירִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1225,
 		"column": "b"

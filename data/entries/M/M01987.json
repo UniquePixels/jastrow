@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01987",
-	"slug": "מספד-2",
-	"headword": {
-		"text": "מִסְפַּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְפַּד",
+	"headwords": [
+		{
+			"text": "מִסְפַּד"
+		},
 		{
 			"text": "מִסְפֵּד"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִסְפְּדָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 810,
 		"column": "a"

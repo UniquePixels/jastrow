@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00838",
-	"slug": "נכסא",
-	"headword": {
-		"text": "נִכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִכְסָא",
+	"headwords": [
+		{
+			"text": "נִכְסָא"
+		},
 		{
 			"text": "נִכְסְתָא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 911,
 		"column": "a"

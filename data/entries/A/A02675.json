@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A02675",
-	"slug": "אפיטרופוס",
-	"headword": {
-		"text": "אֶפִּיטְרוֹפּוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפִּיטְרוֹפּוֹס",
+	"headwords": [
 		{
-			"text": "אַפִּי׳"
+			"text": "אֶפִּיטְרוֹפּוֹס"
 		},
 		{
-			"text": "אַפּוֹ׳"
+			"text": "אַפִּי׳",
+			"partial": true
 		},
 		{
-			"text": "אַפַּטְ׳"
+			"text": "אַפּוֹ׳",
+			"partial": true
+		},
+		{
+			"text": "אַפַּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3})",
 	"page": {
 		"number": 102,
 		"column": "b"

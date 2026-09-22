@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00333",
-	"slug": "מדריגה",
-	"headword": {
-		"text": "מַדְרֵיגָה"
-	},
+	"sefariaHeadword": "מַדְרֵיגָה",
+	"headwords": [
+		{
+			"text": "מַדְרֵיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

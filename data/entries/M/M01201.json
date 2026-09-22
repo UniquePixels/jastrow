@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01201",
-	"slug": "מימוס",
-	"headword": {
-		"text": "מִימוֹס"
-	},
+	"sefariaHeadword": "מִימוֹס",
+	"headwords": [
+		{
+			"text": "מִימוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 775,
 		"column": "b"

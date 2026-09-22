@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00619",
-	"slug": "צנוריתא",
-	"headword": {
-		"text": "צִנּוֹרִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנּוֹרִיתָא",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִנּוֹרִיתָא"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1291,
 		"column": "b"

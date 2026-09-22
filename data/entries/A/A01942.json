@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01942",
-	"slug": "אלפס",
-	"headword": {
-		"text": "אִלְפֵּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְפֵּס",
+	"headwords": [
+		{
+			"text": "אִלְפֵּס"
+		},
 		{
 			"text": "אִילְפֵּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01156",
-	"slug": "גנסרי",
-	"headword": {
-		"text": "גנסרי"
-	},
+	"sefariaHeadword": "גנסרי",
+	"headwords": [
+		{
+			"text": "גנסרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "a"

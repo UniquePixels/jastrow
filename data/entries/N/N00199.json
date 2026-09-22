@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00199",
-	"slug": "נדא-1",
-	"headword": {
-		"text": "נְדָא"
-	},
+	"sefariaHeadword": "נְדָא",
+	"headwords": [
+		{
+			"text": "נְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 877,
 		"column": "a"

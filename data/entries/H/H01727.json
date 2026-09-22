@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01727",
-	"slug": "חרס-4",
-	"headword": {
-		"text": "חֲרַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרַס",
+	"headwords": [
+		{
+			"text": "חֲרַס"
+		},
 		{
 			"text": "חֶרֶס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 504,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00793",
-	"slug": "אוסף",
-	"headword": {
-		"text": "אוֹסֶף"
-	},
+	"sefariaHeadword": "אוֹסֶף",
+	"headwords": [
+		{
+			"text": "אוֹסֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

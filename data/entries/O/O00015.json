@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00015",
-	"slug": "סאים",
-	"headword": {
-		"text": "סָאֵים"
-	},
+	"sefariaHeadword": "סָאֵים",
+	"headwords": [
+		{
+			"text": "סָאֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01192",
-	"slug": "שכשך-1",
-	"headword": {
-		"text": "שִׁכְשֵׁךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שִׁכְשֵׁךְ I",
+	"headwords": [
+		{
+			"text": "שִׁכְשֵׁךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1577,
 		"column": "a"

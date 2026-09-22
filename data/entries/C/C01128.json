@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01128",
-	"slug": "גנח-1",
-	"headword": {
-		"text": "גָּנַח"
-	},
+	"sefariaHeadword": "גָּנַח",
+	"headwords": [
+		{
+			"text": "גָּנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "a"

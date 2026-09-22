@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00037",
-	"slug": "תבונה",
-	"headword": {
-		"text": "תְּבוּנָה"
-	},
+	"sefariaHeadword": "תְּבוּנָה",
+	"headwords": [
+		{
+			"text": "תְּבוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1643,
 		"column": "a"

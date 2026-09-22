@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02499",
-	"slug": "אספלניס",
-	"headword": {
-		"text": "אספלניס"
-	},
+	"sefariaHeadword": "אספלניס",
+	"headwords": [
+		{
+			"text": "אספלניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

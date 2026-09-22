@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00866",
-	"slug": "כנע",
-	"headword": {
-		"text": "כְּנַע"
-	},
+	"sefariaHeadword": "כְּנַע",
+	"headwords": [
+		{
+			"text": "כְּנַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "b"

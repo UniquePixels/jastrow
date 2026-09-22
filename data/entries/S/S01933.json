@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "S01933",
-	"slug": "קרוחיים",
-	"headword": {
-		"text": "קְרוּחַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרוּחַיִים",
+	"headwords": [
+		{
+			"text": "קְרוּחַיִים"
+		},
 		{
 			"text": "קְרוּחַיִם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1413,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

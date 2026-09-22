@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00858",
-	"slug": "נמוך",
-	"headword": {
-		"text": "נָמוֹךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָמוֹךְ",
+	"headwords": [
+		{
+			"text": "נָמוֹךְ"
+		},
 		{
 			"text": "נְמוּכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 913,
 		"column": "a"

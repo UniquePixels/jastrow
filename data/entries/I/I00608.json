@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00608",
-	"slug": "טעיתא",
-	"headword": {
-		"text": "טָעִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָעִיתָא",
+	"headwords": [
+		{
+			"text": "טָעִיתָא"
+		},
 		{
 			"text": "טַעַיְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 543,
 		"column": "a"

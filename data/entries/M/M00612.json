@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00612",
-	"slug": "מורביה",
-	"headword": {
-		"text": "מורביה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מורביה",
+	"headwords": [
+		{
+			"text": "מורביה"
+		},
 		{
 			"text": "מורביוותא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מורביות"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 749,
 		"column": "a"

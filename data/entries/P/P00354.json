@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00354",
-	"slug": "עורדען",
-	"headword": {
-		"text": "עוּרְדְּעָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּרְדְּעָן",
+	"headwords": [
+		{
+			"text": "עוּרְדְּעָן"
+		},
 		{
 			"text": "עוּרְדַּעְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1058,
 		"column": "b"

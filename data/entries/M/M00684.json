@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00684",
-	"slug": "מושיע",
-	"headword": {
-		"text": "מוֹשִׁיעַ"
-	},
+	"sefariaHeadword": "מוֹשִׁיעַ",
+	"headwords": [
+		{
+			"text": "מוֹשִׁיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "b"

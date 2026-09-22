@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00698",
-	"slug": "ריקום",
-	"headword": {
-		"text": "רִיקּוּם"
-	},
+	"sefariaHeadword": "רִיקּוּם",
+	"headwords": [
+		{
+			"text": "רִיקּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "a"

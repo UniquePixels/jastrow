@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "G00730",
-	"slug": "זרעית-2",
-	"headword": {
-		"text": "זַרְעִית",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְעִית ²",
+	"headwords": [
+		{
+			"text": "זַרְעִית",
+			"disambiguator": 2
+		},
 		{
 			"text": "זַרְעִיתָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "זַרְעִי"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 414,
 		"column": "b"

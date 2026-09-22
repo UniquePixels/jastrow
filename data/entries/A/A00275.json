@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00275",
-	"slug": "אגוסתא",
-	"headword": {
-		"text": "אגוסתא"
-	},
+	"sefariaHeadword": "אגוסתא",
+	"headwords": [
+		{
+			"text": "אגוסתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

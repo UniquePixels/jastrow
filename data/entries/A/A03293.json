@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03293",
-	"slug": "אשירתא",
-	"headword": {
-		"text": "אֲשֵׁירתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲשֵׁירתָּא",
+	"headwords": [
+		{
+			"text": "אֲשֵׁירתָּא"
+		},
 		{
 			"text": "אֲשֵׁרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "b"

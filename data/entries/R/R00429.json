@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00429",
-	"slug": "ציפתא",
-	"headword": {
-		"text": "צִיפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפְתָּא",
+	"headwords": [
 		{
-			"text": "צִפְ׳"
+			"text": "צִיפְתָּא"
+		},
+		{
+			"text": "צִפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1279,
 		"column": "b"

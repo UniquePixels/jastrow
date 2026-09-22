@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02785",
-	"slug": "אפקרסו",
-	"headword": {
-		"text": "אפקרסו"
-	},
+	"sefariaHeadword": "אפקרסו",
+	"headwords": [
+		{
+			"text": "אפקרסו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "b"

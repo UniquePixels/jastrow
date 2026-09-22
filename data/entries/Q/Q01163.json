@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01163",
-	"slug": "פנה-2",
-	"headword": {
-		"text": "פָּנֶה"
-	},
+	"sefariaHeadword": "פָּנֶה",
+	"headwords": [
+		{
+			"text": "פָּנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

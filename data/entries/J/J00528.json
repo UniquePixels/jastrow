@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00528",
-	"slug": "יציב-1",
-	"headword": {
-		"text": "יַצִּיב"
-	},
+	"sefariaHeadword": "יַצִּיב",
+	"headwords": [
+		{
+			"text": "יַצִּיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "b"

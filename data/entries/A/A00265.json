@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00265",
-	"slug": "אגומין",
-	"headword": {
-		"text": "אֲגוֹמֵין"
-	},
+	"sefariaHeadword": "אֲגוֹמֵין",
+	"headwords": [
+		{
+			"text": "אֲגוֹמֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00915",
-	"slug": "עמץ-1",
-	"headword": {
-		"text": "עָמַץ"
-	},
+	"sefariaHeadword": "עָמַץ",
+	"headwords": [
+		{
+			"text": "עָמַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "a"

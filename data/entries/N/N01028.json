@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01028",
-	"slug": "נפח-4",
-	"headword": {
-		"text": "נַפָּח"
-	},
+	"sefariaHeadword": "נַפָּח",
+	"headwords": [
+		{
+			"text": "נַפָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 923,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00125",
-	"slug": "הדימה",
-	"headword": {
-		"text": "הדימה"
-	},
+	"sefariaHeadword": "הדימה",
+	"headwords": [
+		{
+			"text": "הדימה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

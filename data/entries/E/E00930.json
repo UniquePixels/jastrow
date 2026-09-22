@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00930",
-	"slug": "השמט",
-	"headword": {
-		"text": "הַשְׁמֵט"
-	},
+	"sefariaHeadword": "הַשְׁמֵט",
+	"headwords": [
+		{
+			"text": "הַשְׁמֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

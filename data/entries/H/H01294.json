@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01294",
-	"slug": "חניניא",
-	"headword": {
-		"text": "חניניא"
-	},
+	"sefariaHeadword": "חניניא",
+	"headwords": [
+		{
+			"text": "חניניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "b"

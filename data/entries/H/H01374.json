@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01374",
-	"slug": "חסיך",
-	"headword": {
-		"text": "חֲסִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲסִיךְ",
+	"headwords": [
+		{
+			"text": "חֲסִיךְ"
+		},
 		{
 			"text": "חֲסִיכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 487,
 		"column": "b"

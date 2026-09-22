@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00668",
-	"slug": "מורסינטון",
-	"headword": {
-		"text": "מורסינטון"
-	},
+	"sefariaHeadword": "מורסינטון",
+	"headwords": [
+		{
+			"text": "מורסינטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

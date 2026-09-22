@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00526",
-	"slug": "רחמים",
-	"headword": {
-		"text": "רַחֲמִים"
-	},
+	"sefariaHeadword": "רַחֲמִים",
+	"headwords": [
+		{
+			"text": "רַחֲמִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "a"

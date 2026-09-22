@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01024",
-	"slug": "שיפיות",
-	"headword": {
-		"text": "שִׁיפְיוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיפְיוּת",
+	"headwords": [
 		{
-			"text": "שִׁפְ׳"
+			"text": "שִׁיפְיוּת"
+		},
+		{
+			"text": "שִׁפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1567,
 		"column": "a"

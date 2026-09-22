@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00364",
-	"slug": "רויח",
-	"headword": {
-		"text": "רְוִיחַ"
-	},
+	"sefariaHeadword": "רְוִיחַ",
+	"headwords": [
+		{
+			"text": "רְוִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

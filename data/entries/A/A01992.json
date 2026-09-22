@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01992",
-	"slug": "אמהו",
-	"headword": {
-		"text": "אַמְהוּ"
-	},
+	"sefariaHeadword": "אַמְהוּ",
+	"headwords": [
+		{
+			"text": "אַמְהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "b"

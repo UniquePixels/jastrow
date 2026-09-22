@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00110",
-	"slug": "סגול",
-	"headword": {
-		"text": "סְגוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגוֹל",
+	"headwords": [
+		{
+			"text": "סְגוֹל"
+		},
 		{
 			"text": "סְגוֹלָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְגוֹלָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 953,
 		"column": "b"

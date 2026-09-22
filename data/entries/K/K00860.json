@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00860",
-	"slug": "כנס-1",
-	"headword": {
-		"text": "כָּנַס"
-	},
+	"sefariaHeadword": "כָּנַס",
+	"headwords": [
+		{
+			"text": "כָּנַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

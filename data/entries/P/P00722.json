@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00722",
-	"slug": "עכברתא",
-	"headword": {
-		"text": "עכברתא"
-	},
+	"sefariaHeadword": "עכברתא",
+	"headwords": [
+		{
+			"text": "עכברתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

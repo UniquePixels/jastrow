@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00510",
-	"slug": "תירייסקי",
-	"headword": {
-		"text": "תִּירְיַיסְקֵי"
-	},
+	"sefariaHeadword": "תִּירְיַיסְקֵי",
+	"headwords": [
+		{
+			"text": "תִּירְיַיסְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

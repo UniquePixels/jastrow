@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00753",
-	"slug": "בית-2",
-	"headword": {
-		"text": "בַּיִת"
-	},
+	"sefariaHeadword": "בַּיִת",
+	"headwords": [
+		{
+			"text": "בַּיִת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00061",
-	"slug": "אבודיינא",
-	"headword": {
-		"text": "אַבּוּדְיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבּוּדְיָינָא",
+	"headwords": [
+		{
+			"text": "אַבּוּדְיָינָא"
+		},
 		{
 			"text": "אַבּוּדְיָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

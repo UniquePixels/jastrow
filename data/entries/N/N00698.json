@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00698",
-	"slug": "ניס",
-	"headword": {
-		"text": "נֵיס"
-	},
+	"sefariaHeadword": "נֵיס",
+	"headwords": [
+		{
+			"text": "נֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "a"

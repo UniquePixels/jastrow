@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00635",
-	"slug": "טפזא",
-	"headword": {
-		"text": "טַפְזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַפְזָא",
+	"headwords": [
+		{
+			"text": "טַפְזָא"
+		},
 		{
 			"text": "טַוְוזָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 545,
 		"column": "b"

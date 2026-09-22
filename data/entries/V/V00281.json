@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00281",
-	"slug": "תורבכינה",
-	"headword": {
-		"text": "תורבכינה"
-	},
+	"sefariaHeadword": "תורבכינה",
+	"headwords": [
+		{
+			"text": "תורבכינה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "b"

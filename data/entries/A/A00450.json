@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00450",
-	"slug": "אדרבלא",
-	"headword": {
-		"text": "אִדְרַבְלָא"
-	},
+	"sefariaHeadword": "אִדְרַבְלָא",
+	"headwords": [
+		{
+			"text": "אִדְרַבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "a"

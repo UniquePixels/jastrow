@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00313",
-	"slug": "טיגנא-2",
-	"headword": {
-		"text": "טִיגָּנָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טִיגָּנָא II",
+	"headwords": [
+		{
+			"text": "טִיגָּנָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 530,
 		"column": "a"

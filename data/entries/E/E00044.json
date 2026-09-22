@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00044",
-	"slug": "הבלו",
-	"headword": {
-		"text": "הֲבָלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲבָלוּ",
+	"headwords": [
+		{
+			"text": "הֲבָלוּ"
+		},
 		{
 			"text": "הֲבָלוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 330,
 		"column": "a"

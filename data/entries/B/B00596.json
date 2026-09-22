@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00596",
-	"slug": "בייל",
-	"headword": {
-		"text": "בָּיֵיל"
-	},
+	"sefariaHeadword": "בָּיֵיל",
+	"headwords": [
+		{
+			"text": "בָּיֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

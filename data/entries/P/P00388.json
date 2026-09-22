@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00388",
-	"slug": "עז-4",
-	"headword": {
-		"text": "עֵז",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵז ²",
+	"headwords": [
+		{
+			"text": "עֵז",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִזָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1060,
 		"column": "b"

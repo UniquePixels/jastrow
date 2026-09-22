@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00025",
-	"slug": "תאם",
-	"headword": {
-		"text": "תָּאַם"
-	},
+	"sefariaHeadword": "תָּאַם",
+	"headwords": [
+		{
+			"text": "תָּאַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

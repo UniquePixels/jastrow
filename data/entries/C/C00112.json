@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00112",
-	"slug": "גבלית",
-	"headword": {
-		"text": "גִּבְלִית"
-	},
+	"sefariaHeadword": "גִּבְלִית",
+	"headwords": [
+		{
+			"text": "גִּבְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 207,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01112",
-	"slug": "סממן",
-	"headword": {
-		"text": "סַמְמָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַמְמָן",
+	"headwords": [
+		{
+			"text": "סַמְמָן"
+		},
 		{
 			"text": "סַמָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00759",
-	"slug": "ניצנא",
-	"headword": {
-		"text": "נִיצָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצָּנָא",
+	"headwords": [
 		{
-			"text": "נִצָּ׳"
+			"text": "נִיצָּנָא"
+		},
+		{
+			"text": "נִצָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01904",
-	"slug": "קרדויי",
-	"headword": {
-		"text": "קַרְדּוּיֵי"
-	},
+	"sefariaHeadword": "קַרְדּוּיֵי",
+	"headwords": [
+		{
+			"text": "קַרְדּוּיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "a"

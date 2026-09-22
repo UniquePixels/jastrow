@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02043",
-	"slug": "שרשי",
-	"headword": {
-		"text": "שָׁרְשִׁי"
-	},
+	"sefariaHeadword": "שָׁרְשִׁי",
+	"headwords": [
+		{
+			"text": "שָׁרְשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

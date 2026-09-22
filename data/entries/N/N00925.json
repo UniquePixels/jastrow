@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00925",
-	"slug": "נסי-1",
-	"headword": {
-		"text": "נסי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נסי",
+	"headwords": [
+		{
+			"text": "נסי"
+		},
 		{
 			"text": "נָסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 916,
 		"column": "a"

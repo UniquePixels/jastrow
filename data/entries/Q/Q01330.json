@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01330",
-	"slug": "פסלות",
-	"headword": {
-		"text": "פַּסְלוּת"
-	},
+	"sefariaHeadword": "פַּסְלוּת",
+	"headwords": [
+		{
+			"text": "פַּסְלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1198,
 		"column": "a"

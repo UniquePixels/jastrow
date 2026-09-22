@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02398",
-	"slug": "אסטרדיוט",
-	"headword": {
-		"text": "אִסְטְרַדְיוֹט"
-	},
+	"sefariaHeadword": "אִסְטְרַדְיוֹט",
+	"headwords": [
+		{
+			"text": "אִסְטְרַדְיוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

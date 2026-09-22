@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01224",
-	"slug": "איטני",
-	"headword": {
-		"text": "אִיטְּנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיטְּנִי",
+	"headwords": [
+		{
+			"text": "אִיטְּנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

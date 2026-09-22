@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00187",
-	"slug": "מגלתא",
-	"headword": {
-		"text": "מְגִלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגִלְתָּא",
+	"headwords": [
 		{
-			"text": "מְגִילְ׳"
+			"text": "מְגִלְתָּא"
+		},
+		{
+			"text": "מְגִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 729,
 		"column": "a"

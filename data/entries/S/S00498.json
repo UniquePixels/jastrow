@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00498",
-	"slug": "קופדאי",
-	"headword": {
-		"text": "קוּפְּדַאי"
-	},
+	"sefariaHeadword": "קוּפְּדַאי",
+	"headwords": [
+		{
+			"text": "קוּפְּדַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1338,
 		"column": "a"

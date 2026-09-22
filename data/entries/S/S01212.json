@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01212",
-	"slug": "קישוי",
-	"headword": {
-		"text": "קִישּׁוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישּׁוּי",
+	"headwords": [
 		{
-			"text": "קִשּׁ׳"
+			"text": "קִישּׁוּי"
+		},
+		{
+			"text": "קִשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

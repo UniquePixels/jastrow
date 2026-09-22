@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01103",
-	"slug": "דרכמונין",
-	"headword": {
-		"text": "דרכמונין"
-	},
+	"sefariaHeadword": "דרכמונין",
+	"headwords": [
+		{
+			"text": "דרכמונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

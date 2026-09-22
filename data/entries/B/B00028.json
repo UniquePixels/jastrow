@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00028",
-	"slug": "באישא",
-	"headword": {
-		"text": "בְּאִישָׁא"
-	},
+	"sefariaHeadword": "בְּאִישָׁא",
+	"headwords": [
+		{
+			"text": "בְּאִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

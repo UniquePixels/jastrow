@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00440",
-	"slug": "טירחא",
-	"headword": {
-		"text": "טִירְחָא"
-	},
+	"sefariaHeadword": "טִירְחָא",
+	"headwords": [
+		{
+			"text": "טִירְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "b"

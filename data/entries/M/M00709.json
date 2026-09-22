@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00709",
-	"slug": "מזבלא",
-	"headword": {
-		"text": "מַזְבְּלָא"
-	},
+	"sefariaHeadword": "מַזְבְּלָא",
+	"headwords": [
+		{
+			"text": "מַזְבְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "b"

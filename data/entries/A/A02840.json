@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02840",
-	"slug": "אפרתי",
-	"headword": {
-		"text": "אֶפְרָתִי"
-	},
+	"sefariaHeadword": "אֶפְרָתִי",
+	"headwords": [
+		{
+			"text": "אֶפְרָתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00877",
-	"slug": "בליצטורא",
-	"headword": {
-		"text": "בליצטורא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בליצטורא",
+	"headwords": [
+		{
+			"text": "בליצטורא"
+		},
 		{
 			"text": "בליצטרא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 173,
 		"column": "a"

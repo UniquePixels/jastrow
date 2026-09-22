@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02578",
-	"slug": "אסתן",
-	"headword": {
-		"text": "אִסְתָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְתָּן",
+	"headwords": [
+		{
+			"text": "אִסְתָּן"
+		},
 		{
 			"text": "אִסְתָּנָא"
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 99,
 		"column": "a"

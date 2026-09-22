@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01394",
-	"slug": "בתרה",
-	"headword": {
-		"text": "בְּתֵרָה"
-	},
+	"sefariaHeadword": "בְּתֵרָה",
+	"headwords": [
+		{
+			"text": "בְּתֵרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "b"

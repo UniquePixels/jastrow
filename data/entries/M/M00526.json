@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00526",
-	"slug": "מומרא",
-	"headword": {
-		"text": "מוּמָרָא"
-	},
+	"sefariaHeadword": "מוּמָרָא",
+	"headwords": [
+		{
+			"text": "מוּמָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

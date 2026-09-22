@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00181",
-	"slug": "טומיקון",
-	"headword": {
-		"text": "טומיקון"
-	},
+	"sefariaHeadword": "טומיקון",
+	"headwords": [
+		{
+			"text": "טומיקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

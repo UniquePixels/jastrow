@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00494",
-	"slug": "אהיל-2",
-	"headword": {
-		"text": "אָהֵיל"
-	},
+	"sefariaHeadword": "אָהֵיל",
+	"headwords": [
+		{
+			"text": "אָהֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01080",
-	"slug": "מיאמוס",
-	"headword": {
-		"text": "מיאמוס"
-	},
+	"sefariaHeadword": "מיאמוס",
+	"headwords": [
+		{
+			"text": "מיאמוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "a"

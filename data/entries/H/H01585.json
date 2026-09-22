@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01585",
-	"slug": "חרבה-1",
-	"headword": {
-		"text": "חַרְבָּה"
-	},
+	"sefariaHeadword": "חַרְבָּה",
+	"headwords": [
+		{
+			"text": "חַרְבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00482",
-	"slug": "דיגול",
-	"headword": {
-		"text": "דִּיגּוּל"
-	},
+	"sefariaHeadword": "דִּיגּוּל",
+	"headwords": [
+		{
+			"text": "דִּיגּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "a"

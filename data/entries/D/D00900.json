@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00900",
-	"slug": "דמך",
-	"headword": {
-		"text": "דְּמַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּמַךְ",
+	"headwords": [
+		{
+			"text": "דְּמַךְ"
+		},
 		{
 			"text": "דְּמֵיךְ"
 		},
@@ -12,6 +13,7 @@
 			"text": "דְּמוּךְ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 313,
 		"column": "b"

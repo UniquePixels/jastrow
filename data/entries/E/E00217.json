@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00217",
-	"slug": "הוהרא",
-	"headword": {
-		"text": "הוֹהֲרָא"
-	},
+	"sefariaHeadword": "הוֹהֲרָא",
+	"headwords": [
+		{
+			"text": "הוֹהֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "b"

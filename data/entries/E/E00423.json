@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "E00423",
-	"slug": "הימיסו",
-	"headword": {
-		"text": "הֵימִיסוּ",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*הֵימִיסוּ",
+	"headwords": [
 		{
-			"text": "אֵי׳"
+			"text": "הֵימִיסוּ",
+			"reconstructed": true
+		},
+		{
+			"text": "אֵי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 347,
 		"column": "a"

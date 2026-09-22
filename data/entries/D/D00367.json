@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00367",
-	"slug": "דורייה",
-	"headword": {
-		"text": "דּוֹרִיָּיה"
-	},
+	"sefariaHeadword": "דּוֹרִיָּיה",
+	"headwords": [
+		{
+			"text": "דּוֹרִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 290,
 		"column": "a"

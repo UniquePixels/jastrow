@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00942",
-	"slug": "תרגימא",
-	"headword": {
-		"text": "תַּרְגִּימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְגִּימָא",
+	"headwords": [
+		{
+			"text": "תַּרְגִּימָא"
+		},
 		{
 			"text": "תְּרָגִימָא"
 		}

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00988",
-	"slug": "פלוספיס",
-	"headword": {
-		"text": "פלוספיס"
-	},
+	"sefariaHeadword": "פלוספיס",
+	"headwords": [
+		{
+			"text": "פלוספיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

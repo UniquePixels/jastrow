@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00573",
-	"slug": "כינר",
-	"headword": {
-		"text": "כִּינַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינַּר",
+	"headwords": [
+		{
+			"text": "כִּינַּר"
+		},
 		{
 			"text": "כִּינְּרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כִּינֶּרֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 633,
 		"column": "b"

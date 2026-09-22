@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00894",
-	"slug": "טרקוש",
-	"headword": {
-		"text": "טַרְקוֹשׁ"
-	},
+	"sefariaHeadword": "טַרְקוֹשׁ",
+	"headwords": [
+		{
+			"text": "טַרְקוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

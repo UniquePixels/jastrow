@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01523",
-	"slug": "מלח-4",
-	"headword": {
-		"text": "מֶלַח"
-	},
+	"sefariaHeadword": "מֶלַח",
+	"headwords": [
+		{
+			"text": "מֶלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "b"

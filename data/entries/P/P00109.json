@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00109",
-	"slug": "עגרון",
-	"headword": {
-		"text": "עִגְּרוֹן"
-	},
+	"sefariaHeadword": "עִגְּרוֹן",
+	"headwords": [
+		{
+			"text": "עִגְּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "b"

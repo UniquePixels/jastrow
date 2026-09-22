@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00042",
-	"slug": "סבולאה",
-	"headword": {
-		"text": "סַבּוֹלָאָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַבּוֹלָאָה",
+	"headwords": [
+		{
+			"text": "סַבּוֹלָאָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

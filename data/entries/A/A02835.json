@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02835",
-	"slug": "אפרקיא",
-	"headword": {
-		"text": "אַפְרִקְיָא"
-	},
+	"sefariaHeadword": "אַפְרִקְיָא",
+	"headwords": [
+		{
+			"text": "אַפְרִקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

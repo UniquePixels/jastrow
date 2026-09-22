@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01760",
-	"slug": "קפלריא",
-	"headword": {
-		"text": "קִפְלַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִפְלַרְיָא",
+	"headwords": [
+		{
+			"text": "קִפְלַרְיָא"
+		},
 		{
 			"text": "קִפְלוּרְיָא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1402,
 		"column": "b"

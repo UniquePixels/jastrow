@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00747",
-	"slug": "קטיל-2",
-	"headword": {
-		"text": "קְטִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטִיל",
+	"headwords": [
+		{
+			"text": "קְטִיל"
+		},
 		{
 			"text": "קְטִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1348,
 		"column": "a"

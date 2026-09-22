@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00155",
-	"slug": "פוגא-2",
-	"headword": {
-		"text": "פּוּגָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּגָא II",
+	"headwords": [
+		{
+			"text": "פּוּגָא",
+			"homograph": 2
+		},
 		{
 			"text": "פּוּגָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 1139,
 		"column": "a"

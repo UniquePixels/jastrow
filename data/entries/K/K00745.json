@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00745",
-	"slug": "כליסריקים",
-	"headword": {
-		"text": "כליסריקים"
-	},
+	"sefariaHeadword": "כליסריקים",
+	"headwords": [
+		{
+			"text": "כליסריקים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

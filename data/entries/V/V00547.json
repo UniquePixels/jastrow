@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00547",
-	"slug": "תכלת",
-	"headword": {
-		"text": "תְּכֵלֶת"
-	},
+	"sefariaHeadword": "תְּכֵלֶת",
+	"headwords": [
+		{
+			"text": "תְּכֵלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "b"

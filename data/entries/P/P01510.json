@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01510",
-	"slug": "עשרית",
-	"headword": {
-		"text": "עֲשִׂרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשִׂרִית",
+	"headwords": [
+		{
+			"text": "עֲשִׂרִית"
+		},
 		{
 			"text": "עֲשִׂרִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1127,
 		"column": "b"

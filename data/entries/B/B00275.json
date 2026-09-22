@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00275",
-	"slug": "בולרא",
-	"headword": {
-		"text": "בּוֹלְרָא"
-	},
+	"sefariaHeadword": "בּוֹלְרָא",
+	"headwords": [
+		{
+			"text": "בּוֹלְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

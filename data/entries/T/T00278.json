@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00278",
-	"slug": "רהט-2",
-	"headword": {
-		"text": "רְהַט"
-	},
+	"sefariaHeadword": "רְהַט",
+	"headwords": [
+		{
+			"text": "רְהַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "a"

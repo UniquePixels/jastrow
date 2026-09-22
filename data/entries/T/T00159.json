@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00159",
-	"slug": "רגגא",
-	"headword": {
-		"text": "רְגָגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְגָגָא",
+	"headwords": [
+		{
+			"text": "רְגָגָא"
+		},
 		{
 			"text": "רִגְגָא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1447,
 		"column": "a"

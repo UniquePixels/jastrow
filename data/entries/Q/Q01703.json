@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01703",
-	"slug": "פרוסבוטי",
-	"headword": {
-		"text": "פְּרוּסְבּוּטֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוּסְבּוּטֵי",
+	"headwords": [
+		{
+			"text": "פְּרוּסְבּוּטֵי"
+		},
 		{
 			"text": "פְּרוּסְבּוּטֵיס"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּרוֹסְבּוּל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1221,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00006",
-	"slug": "יאוון",
-	"headword": {
-		"text": "יַאֲוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַאֲוָון",
+	"headwords": [
+		{
+			"text": "יַאֲוָון"
+		},
 		{
 			"text": "יַאֲוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 559,
 		"column": "a"

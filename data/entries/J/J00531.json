@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00531",
-	"slug": "יצידין",
-	"headword": {
-		"text": "יצידין"
-	},
+	"sefariaHeadword": "יצידין",
+	"headwords": [
+		{
+			"text": "יצידין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "a"

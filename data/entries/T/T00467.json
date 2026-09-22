@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00467",
-	"slug": "רזיא",
-	"headword": {
-		"text": "רַזְיָא"
-	},
+	"sefariaHeadword": "רַזְיָא",
+	"headwords": [
+		{
+			"text": "רַזְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "a"

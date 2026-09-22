@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00652",
-	"slug": "הנאה-1",
-	"headword": {
-		"text": "הֲנָאָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הֲנָאָה I",
+	"headwords": [
+		{
+			"text": "הֲנָאָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 357,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02064",
-	"slug": "מעדיא",
-	"headword": {
-		"text": "מְעַדְיָא"
-	},
+	"sefariaHeadword": "מְעַדְיָא",
+	"headwords": [
+		{
+			"text": "מְעַדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00552",
-	"slug": "יצת",
-	"headword": {
-		"text": "יָצַת"
-	},
+	"sefariaHeadword": "יָצַת",
+	"headwords": [
+		{
+			"text": "יָצַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 590,
 		"column": "b"

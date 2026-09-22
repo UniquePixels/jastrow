@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00230",
-	"slug": "סובבא",
-	"headword": {
-		"text": "סוֹבְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹבְבָא",
+	"headwords": [
+		{
+			"text": "סוֹבְבָא"
+		},
 		{
 			"text": "סוֹבֵיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 960,
 		"column": "b"

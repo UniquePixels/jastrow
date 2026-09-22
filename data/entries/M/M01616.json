@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01616",
-	"slug": "מלקוש",
-	"headword": {
-		"text": "מַלְקוֹשׁ"
-	},
+	"sefariaHeadword": "מַלְקוֹשׁ",
+	"headwords": [
+		{
+			"text": "מַלְקוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "b"

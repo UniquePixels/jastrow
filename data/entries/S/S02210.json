@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02210",
-	"slug": "קרתני",
-	"headword": {
-		"text": "קַרְתָּנִי"
-	},
+	"sefariaHeadword": "קַרְתָּנִי",
+	"headwords": [
+		{
+			"text": "קַרְתָּנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "b"

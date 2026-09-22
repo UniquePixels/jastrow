@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00762",
-	"slug": "דכו",
-	"headword": {
-		"text": "דְּכוּ"
-	},
+	"sefariaHeadword": "דְּכוּ",
+	"headwords": [
+		{
+			"text": "דְּכוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "b"

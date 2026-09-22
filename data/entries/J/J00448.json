@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00448",
-	"slug": "ינקא-2",
-	"headword": {
-		"text": "יַנְקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יַנְקָא II",
+	"headwords": [
+		{
+			"text": "יַנְקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 582,
 		"column": "a"

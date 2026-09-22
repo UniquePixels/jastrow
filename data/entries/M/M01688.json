@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01688",
-	"slug": "ממשמשנית",
-	"headword": {
-		"text": "מְמַשְׁמְשָׁנִית"
-	},
+	"sefariaHeadword": "מְמַשְׁמְשָׁנִית",
+	"headwords": [
+		{
+			"text": "מְמַשְׁמְשָׁנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "a"

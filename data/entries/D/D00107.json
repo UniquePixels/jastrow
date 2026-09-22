@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00107",
-	"slug": "דגל-2",
-	"headword": {
-		"text": "דְּגַל"
-	},
+	"sefariaHeadword": "דְּגַל",
+	"headwords": [
+		{
+			"text": "דְּגַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "b"

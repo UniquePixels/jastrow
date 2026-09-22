@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00314",
-	"slug": "עוף-4",
-	"headword": {
-		"text": "עוּף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עוּף ²",
+	"headwords": [
+		{
+			"text": "עוּף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1055,
 		"column": "b"

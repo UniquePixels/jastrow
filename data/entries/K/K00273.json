@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00273",
-	"slug": "כוליקוס",
-	"headword": {
-		"text": "כּוֹלִיקוֹס"
-	},
+	"sefariaHeadword": "כּוֹלִיקוֹס",
+	"headwords": [
+		{
+			"text": "כּוֹלִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

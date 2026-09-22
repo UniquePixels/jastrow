@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00057",
-	"slug": "צבע-5",
-	"headword": {
-		"text": "צֶבַע"
-	},
+	"sefariaHeadword": "צֶבַע",
+	"headwords": [
+		{
+			"text": "צֶבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

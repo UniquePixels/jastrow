@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03182",
-	"slug": "ארמלו",
-	"headword": {
-		"text": "אַרְמְלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְמְלוּ",
+	"headwords": [
+		{
+			"text": "אַרְמְלוּ"
+		},
 		{
 			"text": "אַרְמְלוּת"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְמְלוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 123,
 		"column": "a"

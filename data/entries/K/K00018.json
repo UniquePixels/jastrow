@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00018",
-	"slug": "כאלא",
-	"headword": {
-		"text": "כָּאלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּאלָא",
+	"headwords": [
+		{
+			"text": "כָּאלָא"
+		},
 		{
 			"text": "כָּאלֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 606,
 		"column": "a"

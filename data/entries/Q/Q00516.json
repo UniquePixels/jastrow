@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00516",
-	"slug": "פטים-1",
-	"headword": {
-		"text": "פטים"
-	},
+	"sefariaHeadword": "פטים",
+	"headwords": [
+		{
+			"text": "פטים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "a"

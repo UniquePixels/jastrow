@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00235",
-	"slug": "דוי-4",
-	"headword": {
-		"text": "דָּוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּוֵי",
+	"headwords": [
+		{
+			"text": "דָּוֵי"
+		},
 		{
 			"text": "דַּוֵּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 284,
 		"column": "b"

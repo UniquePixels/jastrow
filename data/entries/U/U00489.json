@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00489",
-	"slug": "ש-3",
-	"headword": {
-		"text": "ש"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ש",
+	"headwords": [
+		{
+			"text": "ש"
+		},
 		{
 			"text": "ׁוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1538,
 		"column": "b"

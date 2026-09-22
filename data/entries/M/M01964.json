@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01964",
-	"slug": "מסמס-3",
-	"headword": {
-		"text": "מִסְמֵס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מִסְמֵס II",
+	"headwords": [
+		{
+			"text": "מִסְמֵס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 808,
 		"column": "b"

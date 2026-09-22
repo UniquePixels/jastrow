@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00263",
-	"slug": "כולב",
-	"headword": {
-		"text": "כּוּלָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּלָב",
+	"headwords": [
+		{
+			"text": "כּוּלָב"
+		},
 		{
 			"text": "כּוּלְבָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כּוּלְבָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 620,
 		"column": "a"

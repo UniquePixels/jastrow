@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00614",
-	"slug": "פיחה-2",
-	"headword": {
-		"text": "פֶּיחָה"
-	},
+	"sefariaHeadword": "פֶּיחָה",
+	"headwords": [
+		{
+			"text": "פֶּיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "b"

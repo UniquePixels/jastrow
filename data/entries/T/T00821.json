@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00821",
-	"slug": "רמין",
-	"headword": {
-		"text": "רמין"
-	},
+	"sefariaHeadword": "רמין",
+	"headwords": [
+		{
+			"text": "רמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

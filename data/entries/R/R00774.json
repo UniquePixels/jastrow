@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00774",
-	"slug": "צריך-3",
-	"headword": {
-		"text": "צְרִיךְ"
-	},
+	"sefariaHeadword": "צְרִיךְ",
+	"headwords": [
+		{
+			"text": "צְרִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

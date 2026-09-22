@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00636",
-	"slug": "ריכה",
-	"headword": {
-		"text": "ריכה"
-	},
+	"sefariaHeadword": "ריכה",
+	"headwords": [
+		{
+			"text": "ריכה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

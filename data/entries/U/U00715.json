@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00715",
-	"slug": "שחרורית",
-	"headword": {
-		"text": "שַׁחֲרוּרִית"
-	},
+	"sefariaHeadword": "שַׁחֲרוּרִית",
+	"headwords": [
+		{
+			"text": "שַׁחֲרוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

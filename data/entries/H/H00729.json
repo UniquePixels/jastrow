@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00729",
-	"slug": "חייך-1",
-	"headword": {
-		"text": "חָיֵיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָיֵיךְ",
+	"headwords": [
+		{
+			"text": "חָיֵיךְ"
+		},
 		{
 			"text": "חַיֵּיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 454,
 		"column": "b"

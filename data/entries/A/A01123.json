@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01123",
-	"slug": "איבול-1",
-	"headword": {
-		"text": "אִיבּוּל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אִיבּוּל I",
+	"headwords": [
+		{
+			"text": "אִיבּוּל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 44,
 		"column": "a"

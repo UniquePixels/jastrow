@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00500",
-	"slug": "חותמת",
-	"headword": {
-		"text": "חוֹתֶמֶת"
-	},
+	"sefariaHeadword": "חוֹתֶמֶת",
+	"headwords": [
+		{
+			"text": "חוֹתֶמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "a"

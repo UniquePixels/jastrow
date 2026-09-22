@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01002",
-	"slug": "דקוריא",
-	"headword": {
-		"text": "דקוריא"
-	},
+	"sefariaHeadword": "דקוריא",
+	"headwords": [
+		{
+			"text": "דקוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

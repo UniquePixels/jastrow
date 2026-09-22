@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01285",
-	"slug": "נשא-5",
-	"headword": {
-		"text": "נְשָׂא"
-	},
+	"sefariaHeadword": "נְשָׂא",
+	"headwords": [
+		{
+			"text": "נְשָׂא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 938,
 		"column": "a"

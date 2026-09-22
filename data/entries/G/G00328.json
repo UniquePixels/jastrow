@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00328",
-	"slug": "זיטא",
-	"headword": {
-		"text": "זִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיטָא",
+	"headwords": [
+		{
+			"text": "זִיטָא"
+		},
 		{
 			"text": "זִיטָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 393,
 		"column": "a"

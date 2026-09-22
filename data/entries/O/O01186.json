@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01186",
-	"slug": "סנדלר",
-	"headword": {
-		"text": "סַנְדְּלָר"
-	},
+	"sefariaHeadword": "סַנְדְּלָר",
+	"headwords": [
+		{
+			"text": "סַנְדְּלָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

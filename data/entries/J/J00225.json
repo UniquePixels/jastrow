@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00225",
-	"slug": "יוצאנית",
-	"headword": {
-		"text": "יוֹצְאָנִית"
-	},
+	"sefariaHeadword": "יוֹצְאָנִית",
+	"headwords": [
+		{
+			"text": "יוֹצְאָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "a"

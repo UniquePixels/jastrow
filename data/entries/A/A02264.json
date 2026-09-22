@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02264",
-	"slug": "אנסיומא",
-	"headword": {
-		"text": "אנסיומא"
-	},
+	"sefariaHeadword": "אנסיומא",
+	"headwords": [
+		{
+			"text": "אנסיומא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

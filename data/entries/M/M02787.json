@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02787",
-	"slug": "מרתחא",
-	"headword": {
-		"text": "מַרְתְּחָא"
-	},
+	"sefariaHeadword": "מַרְתְּחָא",
+	"headwords": [
+		{
+			"text": "מַרְתְּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

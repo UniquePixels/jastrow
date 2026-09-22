@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02922",
-	"slug": "אקמינון",
-	"headword": {
-		"text": "אקמינון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אקמינון",
+	"headwords": [
+		{
+			"text": "אקמינון"
+		},
 		{
 			"text": "אקמנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 112,
 		"column": "b"

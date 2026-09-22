@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00455",
-	"slug": "לייצן",
-	"headword": {
-		"text": "לַיְיצָן"
-	},
+	"sefariaHeadword": "לַיְיצָן",
+	"headwords": [
+		{
+			"text": "לַיְיצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

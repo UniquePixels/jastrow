@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01303",
-	"slug": "חנך-2",
-	"headword": {
-		"text": "חֲנַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנַךְ",
+	"headwords": [
+		{
+			"text": "חֲנַךְ"
+		},
 		{
 			"text": "חֲנֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 484,
 		"column": "a"

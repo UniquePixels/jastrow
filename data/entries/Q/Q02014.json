@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02014",
-	"slug": "פרקסים",
-	"headword": {
-		"text": "פרקסים"
-	},
+	"sefariaHeadword": "פרקסים",
+	"headwords": [
+		{
+			"text": "פרקסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

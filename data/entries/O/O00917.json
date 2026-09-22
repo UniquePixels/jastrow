@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00917",
-	"slug": "סכלתנותא",
-	"headword": {
-		"text": "סָכְלִתָנוּתָא"
-	},
+	"sefariaHeadword": "סָכְלִתָנוּתָא",
+	"headwords": [
+		{
+			"text": "סָכְלִתָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 991,
 		"column": "a"

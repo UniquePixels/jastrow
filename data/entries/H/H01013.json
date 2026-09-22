@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H01013",
-	"slug": "חלזון",
-	"headword": {
-		"text": "חִלָּזוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלָּזוֹן",
+	"headwords": [
 		{
-			"text": "חִילָּ׳"
+			"text": "חִלָּזוֹן"
 		},
 		{
-			"text": "חֲלָ׳"
+			"text": "חִילָּ׳",
+			"partial": true
+		},
+		{
+			"text": "חֲלָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 466,
 		"column": "a"

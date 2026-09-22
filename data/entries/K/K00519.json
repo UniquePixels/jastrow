@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00519",
-	"slug": "כייד",
-	"headword": {
-		"text": "כִּיֵּיד"
-	},
+	"sefariaHeadword": "כִּיֵּיד",
+	"headwords": [
+		{
+			"text": "כִּיֵּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

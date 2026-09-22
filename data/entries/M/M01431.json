@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01431",
-	"slug": "מכסנייא",
-	"headword": {
-		"text": "מַכְסַנְיָיא"
-	},
+	"sefariaHeadword": "מַכְסַנְיָיא",
+	"headwords": [
+		{
+			"text": "מַכְסַנְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

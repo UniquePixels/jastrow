@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01771",
-	"slug": "חרר-8",
-	"headword": {
-		"text": "חֲרַר",
-		"disambiguator": 4
-	},
+	"sefariaHeadword": "חֲרַר ⁴",
+	"headwords": [
+		{
+			"text": "חֲרַר",
+			"disambiguator": 4
+		}
+	],
+	"display": "{0} ⁴",
 	"page": {
 		"number": 506,
 		"column": "b"

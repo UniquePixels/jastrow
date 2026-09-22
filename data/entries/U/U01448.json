@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01448",
-	"slug": "שמזג",
-	"headword": {
-		"text": "שמזג"
-	},
+	"sefariaHeadword": "שמזג",
+	"headwords": [
+		{
+			"text": "שמזג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1593,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00056",
-	"slug": "כבישה",
-	"headword": {
-		"text": "כְּבִישָׁה"
-	},
+	"sefariaHeadword": "כְּבִישָׁה",
+	"headwords": [
+		{
+			"text": "כְּבִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02505",
-	"slug": "אספניא-2",
-	"headword": {
-		"text": "אספניא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אספניא",
+	"headwords": [
+		{
+			"text": "אספניא"
+		},
 		{
 			"text": "אספנייא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"

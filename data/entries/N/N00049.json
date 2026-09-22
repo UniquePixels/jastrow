@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00049",
-	"slug": "נבוב",
-	"headword": {
-		"text": "נָבוּב"
-	},
+	"sefariaHeadword": "נָבוּב",
+	"headwords": [
+		{
+			"text": "נָבוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 867,
 		"column": "b"

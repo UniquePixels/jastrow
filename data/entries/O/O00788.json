@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00788",
-	"slug": "סיפוק-1",
-	"headword": {
-		"text": "סִיפּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפּוּק",
+	"headwords": [
+		{
+			"text": "סִיפּוּק"
+		},
 		{
 			"text": "סִפּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 985,
 		"column": "a"

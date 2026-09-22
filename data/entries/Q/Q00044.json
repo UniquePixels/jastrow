@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00044",
-	"slug": "פגוטיה",
-	"headword": {
-		"text": "פָּגוּטְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּגוּטְיָה",
+	"headwords": [
 		{
-			"text": "פָּנ׳"
+			"text": "פָּגוּטְיָה"
+		},
+		{
+			"text": "פָּנ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1132,
 		"column": "b"

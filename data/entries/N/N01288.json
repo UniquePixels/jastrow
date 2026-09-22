@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01288",
-	"slug": "נשבא",
-	"headword": {
-		"text": "נִשְׁבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִשְׁבָּא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִשְׁבָּא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 938,
 		"column": "b"

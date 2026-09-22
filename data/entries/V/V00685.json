@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00685",
-	"slug": "תמך-2",
-	"headword": {
-		"text": "תְּמַךְ"
-	},
+	"sefariaHeadword": "תְּמַךְ",
+	"headwords": [
+		{
+			"text": "תְּמַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

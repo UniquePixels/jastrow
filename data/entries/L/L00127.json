@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00127",
-	"slug": "לגיון-1",
-	"headword": {
-		"text": "לִגְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִגְיוֹן",
+	"headwords": [
+		{
+			"text": "לִגְיוֹן"
+		},
 		{
 			"text": "לִיגְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 692,
 		"column": "a"

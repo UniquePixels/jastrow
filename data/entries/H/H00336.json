@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00336",
-	"slug": "חולונאי",
-	"headword": {
-		"text": "חולונאי"
-	},
+	"sefariaHeadword": "חולונאי",
+	"headwords": [
+		{
+			"text": "חולונאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 433,
 		"column": "b"

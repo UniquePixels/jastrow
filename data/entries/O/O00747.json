@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00747",
-	"slug": "סיסאנא",
-	"headword": {
-		"text": "סִיסָאנָא"
-	},
+	"sefariaHeadword": "סִיסָאנָא",
+	"headwords": [
+		{
+			"text": "סִיסָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

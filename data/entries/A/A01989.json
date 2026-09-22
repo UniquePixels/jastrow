@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01989",
-	"slug": "אמה-1",
-	"headword": {
-		"text": "אַמָּה"
-	},
+	"sefariaHeadword": "אַמָּה",
+	"headwords": [
+		{
+			"text": "אַמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "b"

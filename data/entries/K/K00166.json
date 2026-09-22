@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00166",
-	"slug": "כהן-4",
-	"headword": {
-		"text": "כָּהֵן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "כָּהֵן ²",
+	"headwords": [
+		{
+			"text": "כָּהֵן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 615,
 		"column": "b"

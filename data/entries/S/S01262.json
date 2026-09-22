@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01262",
-	"slug": "קלוויא",
-	"headword": {
-		"text": "קלוויא"
-	},
+	"sefariaHeadword": "קלוויא",
+	"headwords": [
+		{
+			"text": "קלוויא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01168",
-	"slug": "מילה-1",
-	"headword": {
-		"text": "מִילָּה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִילָּה I",
+	"headwords": [
+		{
+			"text": "מִילָּה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 774,
 		"column": "a"

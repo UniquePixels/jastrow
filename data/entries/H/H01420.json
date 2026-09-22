@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01420",
-	"slug": "חפאטיקון",
-	"headword": {
-		"text": "חפאטיקון"
-	},
+	"sefariaHeadword": "חפאטיקון",
+	"headwords": [
+		{
+			"text": "חפאטיקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 490,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02949",
-	"slug": "ארב-1",
-	"headword": {
-		"text": "אָרַב"
-	},
+	"sefariaHeadword": "אָרַב",
+	"headwords": [
+		{
+			"text": "אָרַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

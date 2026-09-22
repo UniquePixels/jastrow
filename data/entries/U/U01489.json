@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01489",
-	"slug": "שמלאי-2",
-	"headword": {
-		"text": "שַׂמְלַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׂמְלַאי",
+	"headwords": [
+		{
+			"text": "שַׂמְלַאי"
+		},
 		{
 			"text": "שַׂמְלַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1596,
 		"column": "b"

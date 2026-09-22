@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00013",
-	"slug": "סאט",
-	"headword": {
-		"text": "סָאט"
-	},
+	"sefariaHeadword": "סָאט",
+	"headwords": [
+		{
+			"text": "סָאט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

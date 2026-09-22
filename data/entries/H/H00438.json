@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00438",
-	"slug": "חוצפית",
-	"headword": {
-		"text": "חוּצְפִּית"
-	},
+	"sefariaHeadword": "חוּצְפִּית",
+	"headwords": [
+		{
+			"text": "חוּצְפִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "a"

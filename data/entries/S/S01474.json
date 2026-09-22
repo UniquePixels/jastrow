@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01474",
-	"slug": "קמיצה",
-	"headword": {
-		"text": "קְמִיצָה"
-	},
+	"sefariaHeadword": "קְמִיצָה",
+	"headwords": [
+		{
+			"text": "קְמִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00541",
-	"slug": "יצע-2",
-	"headword": {
-		"text": "יְצַע"
-	},
+	"sefariaHeadword": "יְצַע",
+	"headwords": [
+		{
+			"text": "יְצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "b"

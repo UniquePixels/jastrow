@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00554",
-	"slug": "סיגו",
-	"headword": {
-		"text": "סֵיגוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵיגוּ",
+	"headwords": [
+		{
+			"text": "סֵיגוּ"
+		},
 		{
 			"text": "סֵגוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "b"

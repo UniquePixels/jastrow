@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01629",
-	"slug": "שעבד-2",
-	"headword": {
-		"text": "שַׁעְבֵּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁעְבֵּד",
+	"headwords": [
+		{
+			"text": "שַׁעְבֵּד"
+		},
 		{
 			"text": "שַׁעְבֵּיד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1609,
 		"column": "a"

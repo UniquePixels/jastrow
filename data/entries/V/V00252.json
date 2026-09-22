@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00252",
-	"slug": "תועיבא",
-	"headword": {
-		"text": "תּוֹעֵיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹעֵיבָא",
+	"headwords": [
+		{
+			"text": "תּוֹעֵיבָא"
+		},
 		{
 			"text": "תּוֹעֵיבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "a"

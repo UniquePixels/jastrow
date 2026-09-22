@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01988",
-	"slug": "אמדרומה",
-	"headword": {
-		"text": "אִמִּדָּרוֹמָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִמִּדָּרוֹמָה",
+	"headwords": [
+		{
+			"text": "אִמִּדָּרוֹמָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 75,
 		"column": "b"

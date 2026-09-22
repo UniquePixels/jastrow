@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00242",
-	"slug": "לוטיינוס",
-	"headword": {
-		"text": "לוּטְיָינוֹס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לוּטְיָינוֹס",
+	"headwords": [
+		{
+			"text": "לוּטְיָינוֹס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 696,
 		"column": "b"

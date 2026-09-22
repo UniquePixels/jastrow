@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00254",
-	"slug": "צורי-2",
-	"headword": {
-		"text": "צוֹרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹרִי",
+	"headwords": [
+		{
+			"text": "צוֹרִי"
+		},
 		{
 			"text": "צוֹרִיִּי"
 		},
@@ -12,6 +13,7 @@
 			"text": "צוֹרָיֵיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1271,
 		"column": "b"

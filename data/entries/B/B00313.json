@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00313",
-	"slug": "בוצלא",
-	"headword": {
-		"text": "בּוּצְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּצְלָא",
+	"headwords": [
+		{
+			"text": "בּוּצְלָא"
+		},
 		{
 			"text": "בָּצְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 148,
 		"column": "a"

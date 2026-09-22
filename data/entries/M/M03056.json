@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03056",
-	"slug": "מתין-1",
-	"headword": {
-		"text": "מְתִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתִין",
+	"headwords": [
+		{
+			"text": "מְתִין"
+		},
 		{
 			"text": "מְתֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 862,
 		"column": "a"

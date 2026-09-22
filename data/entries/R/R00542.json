@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00542",
-	"slug": "צלצולין",
-	"headword": {
-		"text": "צִלְצוֹלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִלְצוֹלִין",
+	"headwords": [
 		{
-			"text": "צִילְ׳"
+			"text": "צִלְצוֹלִין"
+		},
+		{
+			"text": "צִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1286,
 		"column": "a"

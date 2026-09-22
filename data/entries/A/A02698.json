@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02698",
-	"slug": "אפיסתקיתיה",
-	"headword": {
-		"text": "אפיסתקיתיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפיסתקיתיה",
+	"headwords": [
+		{
+			"text": "אפיסתקיתיה"
+		},
 		{
 			"text": "אפיסתיקתיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 103,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00284",
-	"slug": "טטרגונא",
-	"headword": {
-		"text": "טֶטְרָגוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֶטְרָגוֹנָא",
+	"headwords": [
+		{
+			"text": "טֶטְרָגוֹנָא"
+		},
 		{
 			"text": "טֶטְרָגוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "a"

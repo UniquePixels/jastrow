@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H01849",
-	"slug": "חשך-5",
-	"headword": {
-		"text": "חֲשַׁךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשַׁךְ ²",
+	"headwords": [
+		{
+			"text": "חֲשַׁךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲשׁוֹךְ",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 511,
 		"column": "a"

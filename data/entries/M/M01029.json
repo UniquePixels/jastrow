@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01029",
-	"slug": "מטמיעין",
-	"headword": {
-		"text": "מטמיעין"
-	},
+	"sefariaHeadword": "מטמיעין",
+	"headwords": [
+		{
+			"text": "מטמיעין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

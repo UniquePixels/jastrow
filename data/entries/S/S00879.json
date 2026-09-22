@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00879",
-	"slug": "קיואי",
-	"headword": {
-		"text": "קִיוָּאֵי"
-	},
+	"sefariaHeadword": "קִיוָּאֵי",
+	"headwords": [
+		{
+			"text": "קִיוָּאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1356,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00349",
-	"slug": "יירעין",
-	"headword": {
-		"text": "יַירְעִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַירְעִין",
+	"headwords": [
+		{
+			"text": "יַירְעִין"
+		},
 		{
 			"text": "יַירְעָנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 576,
 		"column": "b"

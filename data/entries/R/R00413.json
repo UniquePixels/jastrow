@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00413",
-	"slug": "ציפורי-1",
-	"headword": {
-		"text": "צִיפּוֹרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוֹרֵי",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרֵי"
+		},
 		{
 			"text": "צִיפּוֹרִין"
 		},
 		{
 			"text": "צִפּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1279,
 		"column": "a"

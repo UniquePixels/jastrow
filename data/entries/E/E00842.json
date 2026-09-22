@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00842",
-	"slug": "הרוגיינ׳",
-	"headword": {
-		"text": "הרוגיינ׳"
-	},
+	"sefariaHeadword": "הרוגיינ׳",
+	"headwords": [
+		{
+			"text": "הרוגיינ׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "b"

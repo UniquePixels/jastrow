@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01987",
-	"slug": "פרקדוס",
-	"headword": {
-		"text": "פרקדוס"
-	},
+	"sefariaHeadword": "פרקדוס",
+	"headwords": [
+		{
+			"text": "פרקדוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

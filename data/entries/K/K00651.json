@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00651",
-	"slug": "כיתן",
-	"headword": {
-		"text": "כִּיתַּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיתַּן",
+	"headwords": [
+		{
+			"text": "כִּיתַּן"
+		},
 		{
 			"text": "כִּיתָן"
 		},
@@ -15,9 +16,11 @@
 			"text": "כִּיתָּנָא"
 		},
 		{
-			"text": "כִּת׳"
+			"text": "כִּת׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}), {3}, {4}",
 	"page": {
 		"number": 637,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02114",
-	"slug": "מעין-2",
-	"headword": {
-		"text": "מֵעֵין"
-	},
+	"sefariaHeadword": "מֵעֵין",
+	"headwords": [
+		{
+			"text": "מֵעֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 816,
 		"column": "a"

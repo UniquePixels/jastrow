@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01323",
-	"slug": "קליאופטרא",
-	"headword": {
-		"text": "קְלִיאוֹפַטְרָא"
-	},
+	"sefariaHeadword": "קְלִיאוֹפַטְרָא",
+	"headwords": [
+		{
+			"text": "קְלִיאוֹפַטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

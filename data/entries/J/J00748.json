@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00748",
-	"slug": "יתר-3",
-	"headword": {
-		"text": "יָתֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָתֵר",
+	"headwords": [
+		{
+			"text": "יָתֵר"
+		},
 		{
 			"text": "יָתֵיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 604,
 		"column": "b"

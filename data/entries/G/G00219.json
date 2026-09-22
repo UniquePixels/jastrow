@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00219",
-	"slug": "זועא",
-	"headword": {
-		"text": "זוֹעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹעָא",
+	"headwords": [
+		{
+			"text": "זוֹעָא"
+		},
 		{
 			"text": "זַרְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 388,
 		"column": "b"

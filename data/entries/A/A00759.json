@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00759",
-	"slug": "אונפלא",
-	"headword": {
-		"text": "אוּנְפְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּנְפְּלָא",
+	"headwords": [
+		{
+			"text": "אוּנְפְּלָא"
+		},
 		{
 			"text": "אוּנְפְּלַי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 29,
 		"column": "b"

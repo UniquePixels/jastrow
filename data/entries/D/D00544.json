@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00544",
-	"slug": "דיורא",
-	"headword": {
-		"text": "דְּיוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיוֹרָא",
+	"headwords": [
+		{
+			"text": "דְּיוֹרָא"
+		},
 		{
 			"text": "דְּיָירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "b"

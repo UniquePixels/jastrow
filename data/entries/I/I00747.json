@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00747",
-	"slug": "טרחא-1",
-	"headword": {
-		"text": "טָרְחָא"
-	},
+	"sefariaHeadword": "טָרְחָא",
+	"headwords": [
+		{
+			"text": "טָרְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "b"

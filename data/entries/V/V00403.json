@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00403",
-	"slug": "תיאובתא",
-	"headword": {
-		"text": "תִּיאוּבְתָּא"
-	},
+	"sefariaHeadword": "תִּיאוּבְתָּא",
+	"headwords": [
+		{
+			"text": "תִּיאוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "a"

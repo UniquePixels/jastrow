@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00290",
-	"slug": "רהקא",
-	"headword": {
-		"text": "רהקא"
-	},
+	"sefariaHeadword": "רהקא",
+	"headwords": [
+		{
+			"text": "רהקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

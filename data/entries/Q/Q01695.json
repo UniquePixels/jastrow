@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01695",
-	"slug": "פרון",
-	"headword": {
-		"text": "פַּרְוָן"
-	},
+	"sefariaHeadword": "פַּרְוָן",
+	"headwords": [
+		{
+			"text": "פַּרְוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00403",
-	"slug": "כושייא",
-	"headword": {
-		"text": "כּוּשָׁיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּשָׁיָיא",
+	"headwords": [
+		{
+			"text": "כּוּשָׁיָיא"
+		},
 		{
 			"text": "כּוּשָׁאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 626,
 		"column": "b"

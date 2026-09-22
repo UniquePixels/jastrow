@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00039",
-	"slug": "תבוע",
-	"headword": {
-		"text": "תְּבוֹעַ"
-	},
+	"sefariaHeadword": "תְּבוֹעַ",
+	"headwords": [
+		{
+			"text": "תְּבוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1643,
 		"column": "b"

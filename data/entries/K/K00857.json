@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00857",
-	"slug": "כנישא",
-	"headword": {
-		"text": "כְּנִישָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּנִישָׁא",
+	"headwords": [
+		{
+			"text": "כְּנִישָׁא"
+		},
 		{
 			"text": "כְּנִישְׁתָּא"
 		},
 		{
-			"text": "כְּנִשְׁ׳"
+			"text": "כְּנִשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 649,
 		"column": "a"

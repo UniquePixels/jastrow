@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01538",
-	"slug": "איפומא",
-	"headword": {
-		"text": "אִיפּוּמָא"
-	},
+	"sefariaHeadword": "אִיפּוּמָא",
+	"headwords": [
+		{
+			"text": "אִיפּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

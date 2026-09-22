@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02222",
-	"slug": "אניגרא-2",
-	"headword": {
-		"text": "אַנִּיגְרָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אַנִּיגְרָא ²",
+	"headwords": [
+		{
+			"text": "אַנִּיגְרָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 84,
 		"column": "b"

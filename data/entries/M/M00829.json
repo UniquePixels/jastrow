@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00829",
-	"slug": "מחולה",
-	"headword": {
-		"text": "מְחוֹלָה"
-	},
+	"sefariaHeadword": "מְחוֹלָה",
+	"headwords": [
+		{
+			"text": "מְחוֹלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

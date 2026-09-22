@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00671",
-	"slug": "כלאב",
-	"headword": {
-		"text": "כִּלְאָב"
-	},
+	"sefariaHeadword": "כִּלְאָב",
+	"headwords": [
+		{
+			"text": "כִּלְאָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

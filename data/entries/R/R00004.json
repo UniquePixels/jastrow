@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00004",
-	"slug": "צאה-2",
-	"headword": {
-		"text": "צֹאָה"
-	},
+	"sefariaHeadword": "צֹאָה",
+	"headwords": [
+		{
+			"text": "צֹאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

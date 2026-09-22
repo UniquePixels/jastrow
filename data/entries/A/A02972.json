@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A02972",
-	"slug": "ארבעה-3",
-	"headword": {
-		"text": "אַרְבָּעָה",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אַרְבָּעָה II",
+	"headwords": [
+		{
+			"text": "אַרְבָּעָה",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 114,
 		"column": "b"

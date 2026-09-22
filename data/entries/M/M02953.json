@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02953",
-	"slug": "משפך-1",
-	"headword": {
-		"text": "מַשְׁפֵּךְ"
-	},
+	"sefariaHeadword": "מַשְׁפֵּךְ",
+	"headwords": [
+		{
+			"text": "מַשְׁפֵּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

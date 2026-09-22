@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00956",
-	"slug": "שימאה",
-	"headword": {
-		"text": "שִׁימָּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁימָּאָה",
+	"headwords": [
 		{
-			"text": "שִׁמָּ׳"
+			"text": "שִׁימָּאָה"
+		},
+		{
+			"text": "שִׁמָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "b"

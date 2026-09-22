@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00708",
-	"slug": "עיתא-1",
-	"headword": {
-		"text": "עִיתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עִיתָּא",
+	"headwords": [
+		{
+			"text": "עִיתָּא",
+			"reconstructed": true
+		},
 		{
 			"text": "עִיתָּה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1077,
 		"column": "a"

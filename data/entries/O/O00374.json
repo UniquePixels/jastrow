@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O00374",
-	"slug": "סוסיתא",
-	"headword": {
-		"text": "סוּסִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּסִיתָא",
+	"headwords": [
+		{
+			"text": "סוּסִיתָא"
+		},
 		{
 			"text": "סוּסִיתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 967,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

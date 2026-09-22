@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00352",
-	"slug": "ציל-1",
-	"headword": {
-		"text": "צִיל"
-	},
+	"sefariaHeadword": "צִיל",
+	"headwords": [
+		{
+			"text": "צִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "b"

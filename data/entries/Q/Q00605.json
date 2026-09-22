@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00605",
-	"slug": "פיות",
-	"headword": {
-		"text": "פִּיּוֹת"
-	},
+	"sefariaHeadword": "פִּיּוֹת",
+	"headwords": [
+		{
+			"text": "פִּיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

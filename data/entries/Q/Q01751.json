@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01751",
-	"slug": "פרזלא",
-	"headword": {
-		"text": "פַּרְזְלָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְזְלָא II",
+	"headwords": [
 		{
-			"text": "טַוַּור פַּרְזְלָא"
+			"text": "פַּרְזְלָא",
+			"homograph": 2
+		},
+		{
+			"text": "טַוַּור פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1223,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

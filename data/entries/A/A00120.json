@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00120",
-	"slug": "אביונות",
-	"headword": {
-		"text": "אֶבְיוֹנוּת"
-	},
+	"sefariaHeadword": "אֶבְיוֹנוּת",
+	"headwords": [
+		{
+			"text": "אֶבְיוֹנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "b"

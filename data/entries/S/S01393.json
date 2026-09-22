@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01393",
-	"slug": "קלע-4",
-	"headword": {
-		"text": "קְלַע",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קְלַע ²",
+	"headwords": [
+		{
+			"text": "קְלַע",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1380,
 		"column": "b"

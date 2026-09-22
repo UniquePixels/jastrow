@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01351",
-	"slug": "מכדי",
-	"headword": {
-		"text": "מִכְּדִי"
-	},
+	"sefariaHeadword": "מִכְּדִי",
+	"headwords": [
+		{
+			"text": "מִכְּדִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "a"

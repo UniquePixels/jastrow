@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01017",
-	"slug": "רקביבות",
-	"headword": {
-		"text": "רַקְבִּיבוּת"
-	},
+	"sefariaHeadword": "רַקְבִּיבוּת",
+	"headwords": [
+		{
+			"text": "רַקְבִּיבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "a"

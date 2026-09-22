@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00286",
-	"slug": "לומא",
-	"headword": {
-		"text": "לוּמָּא"
-	},
+	"sefariaHeadword": "לוּמָּא",
+	"headwords": [
+		{
+			"text": "לוּמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "b"

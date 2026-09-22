@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02059",
-	"slug": "ששים",
-	"headword": {
-		"text": "שִׁשִּׁים"
-	},
+	"sefariaHeadword": "שִׁשִּׁים",
+	"headwords": [
+		{
+			"text": "שִׁשִּׁים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "a"

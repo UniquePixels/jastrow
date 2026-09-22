@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00796",
-	"slug": "אוף-1",
-	"headword": {
-		"text": "אוֹף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוֹף I",
+	"headwords": [
+		{
+			"text": "אוֹף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 31,
 		"column": "a"

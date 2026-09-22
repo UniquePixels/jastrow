@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01411",
-	"slug": "קלקאי",
-	"headword": {
-		"text": "קִלְקָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְקָאֵי",
+	"headwords": [
+		{
+			"text": "קִלְקָאֵי"
+		},
 		{
 			"text": "קִלְקוּל"
 		},
@@ -15,6 +16,7 @@
 			"text": "קִלְקִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1381,
 		"column": "b"

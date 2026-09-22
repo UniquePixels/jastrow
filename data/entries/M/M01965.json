@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01965",
-	"slug": "מסמס-4",
-	"headword": {
-		"text": "מַסְמֵס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מַסְמֵס ²",
+	"headwords": [
+		{
+			"text": "מַסְמֵס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 808,
 		"column": "b"

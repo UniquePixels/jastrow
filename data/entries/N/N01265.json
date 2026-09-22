@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01265",
-	"slug": "נרד",
-	"headword": {
-		"text": "נֵרְדְּ"
-	},
+	"sefariaHeadword": "נֵרְדְּ",
+	"headwords": [
+		{
+			"text": "נֵרְדְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

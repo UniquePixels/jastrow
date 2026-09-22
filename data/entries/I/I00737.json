@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00737",
-	"slug": "טרוקי",
-	"headword": {
-		"text": "טרוקי"
-	},
+	"sefariaHeadword": "טרוקי",
+	"headwords": [
+		{
+			"text": "טרוקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

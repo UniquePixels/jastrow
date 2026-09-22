@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00516",
-	"slug": "מום-2",
-	"headword": {
-		"text": "מוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּם ²",
+	"headwords": [
+		{
+			"text": "מוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוּמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 743,
 		"column": "b"

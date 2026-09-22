@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01928",
-	"slug": "פרסי-1",
-	"headword": {
-		"text": "פַּרְסִי"
-	},
+	"sefariaHeadword": "פַּרְסִי",
+	"headwords": [
+		{
+			"text": "פַּרְסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1234,
 		"column": "a"

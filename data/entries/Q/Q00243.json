@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00243",
-	"slug": "פולפסין",
-	"headword": {
-		"text": "פּוּלְפְּסִין"
-	},
+	"sefariaHeadword": "פּוּלְפְּסִין",
+	"headwords": [
+		{
+			"text": "פּוּלְפְּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "b"

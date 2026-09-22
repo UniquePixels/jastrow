@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01003",
-	"slug": "כפות",
-	"headword": {
-		"text": "כָּפוּת"
-	},
+	"sefariaHeadword": "כָּפוּת",
+	"headwords": [
+		{
+			"text": "כָּפוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "a"

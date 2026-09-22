@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00516",
-	"slug": "תישא",
-	"headword": {
-		"text": "תְּיָשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּיָשָׁא",
+	"headwords": [
 		{
-			"text": "תֵּי׳"
+			"text": "תְּיָשָׁא"
 		},
 		{
-			"text": "תְּיָי׳"
+			"text": "תֵּי׳",
+			"partial": true
+		},
+		{
+			"text": "תְּיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1667,
 		"column": "a"

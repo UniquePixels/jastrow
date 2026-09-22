@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00307",
-	"slug": "גודגדא",
-	"headword": {
-		"text": "גּוּדְגָּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּדְגָּדָא",
+	"headwords": [
+		{
+			"text": "גּוּדְגָּדָא"
+		},
 		{
 			"text": "גּוּדְגָּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 218,
 		"column": "b"

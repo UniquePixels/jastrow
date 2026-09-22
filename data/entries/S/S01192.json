@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01192",
-	"slug": "קירס",
-	"headword": {
-		"text": "קֵירָס"
-	},
+	"sefariaHeadword": "קֵירָס",
+	"headwords": [
+		{
+			"text": "קֵירָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

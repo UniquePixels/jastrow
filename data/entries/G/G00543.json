@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "G00543",
-	"slug": "זמר-5",
-	"headword": {
-		"text": "זָמַר",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*זָמַר III",
+	"headwords": [
+		{
+			"text": "זָמַר",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 405,
 		"column": "a"

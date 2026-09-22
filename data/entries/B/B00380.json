@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00380",
-	"slug": "בורסגניות",
-	"headword": {
-		"text": "בורסגניות"
-	},
+	"sefariaHeadword": "בורסגניות",
+	"headwords": [
+		{
+			"text": "בורסגניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

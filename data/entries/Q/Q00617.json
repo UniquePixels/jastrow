@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00617",
-	"slug": "פיטומא-1",
-	"headword": {
-		"text": "פִּיטּוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטּוּמָא",
+	"headwords": [
+		{
+			"text": "פִּיטּוּמָא"
+		},
 		{
 			"text": "פִּטּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1160,
 		"column": "b"

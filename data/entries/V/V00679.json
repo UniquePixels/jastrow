@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00679",
-	"slug": "תמימות",
-	"headword": {
-		"text": "תְּמִימוּת"
-	},
+	"sefariaHeadword": "תְּמִימוּת",
+	"headwords": [
+		{
+			"text": "תְּמִימוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "a"

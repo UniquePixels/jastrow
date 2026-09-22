@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01070",
-	"slug": "קיסלוון",
-	"headword": {
-		"text": "קיסלוון"
-	},
+	"sefariaHeadword": "קיסלוון",
+	"headwords": [
+		{
+			"text": "קיסלוון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

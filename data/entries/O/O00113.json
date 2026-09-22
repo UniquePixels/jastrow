@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00113",
-	"slug": "סגולה-2",
-	"headword": {
-		"text": "סְגוּלָּה"
-	},
+	"sefariaHeadword": "סְגוּלָּה",
+	"headwords": [
+		{
+			"text": "סְגוּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

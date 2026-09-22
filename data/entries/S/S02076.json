@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02076",
-	"slug": "קריצה",
-	"headword": {
-		"text": "קְרִיצָה"
-	},
+	"sefariaHeadword": "קְרִיצָה",
+	"headwords": [
+		{
+			"text": "קְרִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00277",
-	"slug": "חוורוריא",
-	"headword": {
-		"text": "חִוַּורְוָרַיָּא"
-	},
+	"sefariaHeadword": "חִוַּורְוָרַיָּא",
+	"headwords": [
+		{
+			"text": "חִוַּורְוָרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

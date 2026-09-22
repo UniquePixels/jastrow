@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00982",
-	"slug": "פלוני",
-	"headword": {
-		"text": "פְּלוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלוֹנִי",
+	"headwords": [
+		{
+			"text": "פְּלוֹנִי"
+		},
 		{
 			"text": "פְּלֹנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1178,
 		"column": "a"

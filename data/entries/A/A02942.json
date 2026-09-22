@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02942",
-	"slug": "אקרוקתא",
-	"headword": {
-		"text": "אַקְרוֹקְתָּא"
-	},
+	"sefariaHeadword": "אַקְרוֹקְתָּא",
+	"headwords": [
+		{
+			"text": "אַקְרוֹקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

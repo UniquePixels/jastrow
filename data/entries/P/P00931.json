@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00931",
-	"slug": "עמר-5",
-	"headword": {
-		"text": "עֲמַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲמַר III",
+	"headwords": [
+		{
+			"text": "עֲמַר",
+			"homograph": 3
+		},
 		{
 			"text": "עַמְרָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1091,
 		"column": "a"

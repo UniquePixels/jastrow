@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00087",
-	"slug": "גביל",
-	"headword": {
-		"text": "גְּבִיל"
-	},
+	"sefariaHeadword": "גְּבִיל",
+	"headwords": [
+		{
+			"text": "גְּבִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

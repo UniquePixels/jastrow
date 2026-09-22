@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02554",
-	"slug": "מרדנין",
-	"headword": {
-		"text": "מרדנין"
-	},
+	"sefariaHeadword": "מרדנין",
+	"headwords": [
+		{
+			"text": "מרדנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

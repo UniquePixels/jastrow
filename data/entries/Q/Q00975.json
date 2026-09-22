@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00975",
-	"slug": "פלוליניא",
-	"headword": {
-		"text": "פְּלוּלִינַיָּא"
-	},
+	"sefariaHeadword": "פְּלוּלִינַיָּא",
+	"headwords": [
+		{
+			"text": "פְּלוּלִינַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

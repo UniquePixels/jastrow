@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00951",
-	"slug": "סלא-3",
-	"headword": {
-		"text": "סלא"
-	},
+	"sefariaHeadword": "סלא",
+	"headwords": [
+		{
+			"text": "סלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

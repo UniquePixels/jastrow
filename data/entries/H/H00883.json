@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00883",
-	"slug": "חירמא",
-	"headword": {
-		"text": "חִירְמָא"
-	},
+	"sefariaHeadword": "חִירְמָא",
+	"headwords": [
+		{
+			"text": "חִירְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

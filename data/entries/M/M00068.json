@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00068",
-	"slug": "מארעא",
-	"headword": {
-		"text": "מְאָרְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְאָרְעָא",
+	"headwords": [
+		{
+			"text": "מְאָרְעָא"
+		},
 		{
 			"text": "מְעָרְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 724,
 		"column": "b"

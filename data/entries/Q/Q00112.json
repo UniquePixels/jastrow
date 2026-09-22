@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00112",
-	"slug": "פדועא",
-	"headword": {
-		"text": "פָּדוֹעָא"
-	},
+	"sefariaHeadword": "פָּדוֹעָא",
+	"headwords": [
+		{
+			"text": "פָּדוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "b"

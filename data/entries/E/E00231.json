@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00231",
-	"slug": "הוי-3",
-	"headword": {
-		"text": "הֲוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲוֵי",
+	"headwords": [
+		{
+			"text": "הֲוֵי"
+		},
 		{
 			"text": "הֲוָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֲוָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 338,
 		"column": "a"

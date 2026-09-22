@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00699",
-	"slug": "שחק-5",
-	"headword": {
-		"text": "שַׁחַק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שַׁחַק I",
+	"headwords": [
+		{
+			"text": "שַׁחַק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1551,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00534",
-	"slug": "מונומכוס",
-	"headword": {
-		"text": "מוֹנוֹמָכוֹס"
-	},
+	"sefariaHeadword": "מוֹנוֹמָכוֹס",
+	"headwords": [
+		{
+			"text": "מוֹנוֹמָכוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

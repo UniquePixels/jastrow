@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00456",
-	"slug": "לייש-1",
-	"headword": {
-		"text": "לַיִישׁ"
-	},
+	"sefariaHeadword": "לַיִישׁ",
+	"headwords": [
+		{
+			"text": "לַיִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

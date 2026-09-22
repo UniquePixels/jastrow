@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01156",
-	"slug": "חמוה",
-	"headword": {
-		"text": "חֲמוּהָ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמוּהָ",
+	"headwords": [
+		{
+			"text": "חֲמוּהָ"
+		},
 		{
 			"text": "חַמְוֵה"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲמוּהִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 476,
 		"column": "a"

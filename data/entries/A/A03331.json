@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03331",
-	"slug": "אשמיי",
-	"headword": {
-		"text": "אַשְׁמַיי"
-	},
+	"sefariaHeadword": "אַשְׁמַיי",
+	"headwords": [
+		{
+			"text": "אַשְׁמַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "b"

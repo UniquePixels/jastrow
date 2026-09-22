@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01066",
-	"slug": "תרתייה",
-	"headword": {
-		"text": "תִּרְתָּיָיה"
-	},
+	"sefariaHeadword": "תִּרְתָּיָיה",
+	"headwords": [
+		{
+			"text": "תִּרְתָּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

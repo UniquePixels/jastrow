@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00486",
-	"slug": "צלהב-2",
-	"headword": {
-		"text": "צַלְהֵב"
-	},
+	"sefariaHeadword": "צַלְהֵב",
+	"headwords": [
+		{
+			"text": "צַלְהֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "b"

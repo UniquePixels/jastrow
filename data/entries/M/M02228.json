@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02228",
-	"slug": "מפנקתא",
-	"headword": {
-		"text": "מְפַנַּקְתָּא"
-	},
+	"sefariaHeadword": "מְפַנַּקְתָּא",
+	"headwords": [
+		{
+			"text": "מְפַנַּקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

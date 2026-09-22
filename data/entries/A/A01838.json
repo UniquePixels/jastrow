@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01838",
-	"slug": "אליבא",
-	"headword": {
-		"text": "אַלִּיבָּא"
-	},
+	"sefariaHeadword": "אַלִּיבָּא",
+	"headwords": [
+		{
+			"text": "אַלִּיבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

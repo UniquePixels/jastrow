@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00524",
-	"slug": "קופרצין",
-	"headword": {
-		"text": "קופרצין"
-	},
+	"sefariaHeadword": "קופרצין",
+	"headwords": [
+		{
+			"text": "קופרצין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1339,
 		"column": "a"

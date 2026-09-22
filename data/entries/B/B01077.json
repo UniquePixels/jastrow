@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01077",
-	"slug": "בצה-1",
-	"headword": {
-		"text": "בֵּצָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּצָה",
+	"headwords": [
+		{
+			"text": "בֵּצָה"
+		},
 		{
 			"text": "בֵּצִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 183,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00330",
-	"slug": "עוקבא-2",
-	"headword": {
-		"text": "עוּקְבָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּקְבָּא II",
+	"headwords": [
+		{
+			"text": "עוּקְבָּא",
+			"homograph": 2
+		},
 		{
 			"text": "עוּקְבָּה"
 		},
@@ -13,6 +14,7 @@
 			"text": "עוּקְבָּן"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1056,
 		"column": "b"

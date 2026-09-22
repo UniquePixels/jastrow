@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00596",
-	"slug": "דיל-2",
-	"headword": {
-		"text": "דִּילָ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּילָ־",
+	"headwords": [
+		{
+			"text": "דִּילָ־"
+		},
 		{
 			"text": "דִּילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "b"

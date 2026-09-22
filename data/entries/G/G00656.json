@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00656",
-	"slug": "זקר-2",
-	"headword": {
-		"text": "זְקַר"
-	},
+	"sefariaHeadword": "זְקַר",
+	"headwords": [
+		{
+			"text": "זְקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "a"

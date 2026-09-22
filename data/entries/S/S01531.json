@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01531",
-	"slug": "קנדס",
-	"headword": {
-		"text": "קנדס"
-	},
+	"sefariaHeadword": "קנדס",
+	"headwords": [
+		{
+			"text": "קנדס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

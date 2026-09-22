@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00833",
-	"slug": "חיסום-2",
-	"headword": {
-		"text": "חִיסּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיסּוּם",
+	"headwords": [
+		{
+			"text": "חִיסּוּם"
+		},
 		{
 			"text": "חִסּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 458,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00363",
-	"slug": "כור-2",
-	"headword": {
-		"text": "כּוֹר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹר ²",
+	"headwords": [
+		{
+			"text": "כּוֹר",
+			"disambiguator": 2
+		},
 		{
 			"text": "כּוֹרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 625,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00776",
-	"slug": "גיסא-2",
-	"headword": {
-		"text": "גִּיסָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיסָא II",
+	"headwords": [
+		{
+			"text": "גִּיסָא",
+			"homograph": 2
+		},
 		{
 			"text": "גָּיְיסָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 240,
 		"column": "b"

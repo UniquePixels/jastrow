@@ -1,26 +1,26 @@
 {
+	"schemaVersion": 2,
 	"id": "I00083",
-	"slug": "טבעון",
-	"headword": {
-		"text": "טִבְעוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִבְעוֹן",
+	"headwords": [
+		{
+			"text": "טִבְעוֹן"
+		},
 		{
 			"text": "טִבְעִין"
 		},
 		{
-			"text": "טִי׳"
+			"text": "טִי׳",
+			"partial": true
 		},
 		{
 			"text": "טִבְעִים"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 519,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

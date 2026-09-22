@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00228",
-	"slug": "סוב-2",
-	"headword": {
-		"text": "סוֹב"
-	},
+	"sefariaHeadword": "סוֹב",
+	"headwords": [
+		{
+			"text": "סוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "a"

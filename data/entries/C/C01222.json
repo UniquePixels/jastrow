@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01222",
-	"slug": "גצטרא",
-	"headword": {
-		"text": "גִּצְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּצְטְרָא",
+	"headwords": [
+		{
+			"text": "גִּצְטְרָא"
+		},
 		{
 			"text": "גצרא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 263,
 		"column": "a"

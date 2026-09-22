@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01525",
-	"slug": "פקתא-2",
-	"headword": {
-		"text": "פִּקְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקְתָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּקְתָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1212,
 		"column": "b"

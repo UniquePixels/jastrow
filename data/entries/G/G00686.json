@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00686",
-	"slug": "זרז-2",
-	"headword": {
-		"text": "זְרַז",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זְרַז I",
+	"headwords": [
+		{
+			"text": "זְרַז",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 412,
 		"column": "b"

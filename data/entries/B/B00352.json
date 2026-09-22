@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00352",
-	"slug": "בורדסין",
-	"headword": {
-		"text": "בּוּרְדְּסִין"
-	},
+	"sefariaHeadword": "בּוּרְדְּסִין",
+	"headwords": [
+		{
+			"text": "בּוּרְדְּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

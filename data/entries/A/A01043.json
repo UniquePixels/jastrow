@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01043",
-	"slug": "אחסנא",
-	"headword": {
-		"text": "אַחְסָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַחְסָנָא",
+	"headwords": [
+		{
+			"text": "אַחְסָנָא"
+		},
 		{
 			"text": "אַחְסַנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 40,
 		"column": "b"

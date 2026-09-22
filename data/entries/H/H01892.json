@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01892",
-	"slug": "חתירא",
-	"headword": {
-		"text": "חֲתִירָא"
-	},
+	"sefariaHeadword": "חֲתִירָא",
+	"headwords": [
+		{
+			"text": "חֲתִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 513,
 		"column": "a"

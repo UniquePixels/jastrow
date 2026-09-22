@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00395",
-	"slug": "הילולא",
-	"headword": {
-		"text": "הִילּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִילּוּלָא",
+	"headwords": [
+		{
+			"text": "הִילּוּלָא"
+		},
 		{
 			"text": "הִלּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 346,
 		"column": "a"

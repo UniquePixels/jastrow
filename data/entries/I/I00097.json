@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00097",
-	"slug": "טגן",
-	"headword": {
-		"text": "טָגַן"
-	},
+	"sefariaHeadword": "טָגַן",
+	"headwords": [
+		{
+			"text": "טָגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 520,
 		"column": "a"

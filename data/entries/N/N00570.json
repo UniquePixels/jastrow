@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00570",
-	"slug": "נטישה",
-	"headword": {
-		"text": "נְטִישָׁה"
-	},
+	"sefariaHeadword": "נְטִישָׁה",
+	"headwords": [
+		{
+			"text": "נְטִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "b"

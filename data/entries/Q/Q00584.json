@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00584",
-	"slug": "פיגמא",
-	"headword": {
-		"text": "פִּיגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיגְמָא",
+	"headwords": [
+		{
+			"text": "פִּיגְמָא"
+		},
 		{
 			"text": "פִּיגְמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1159,
 		"column": "b"

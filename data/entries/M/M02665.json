@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02665",
-	"slug": "מריולא",
-	"headword": {
-		"text": "מריולא"
-	},
+	"sefariaHeadword": "מריולא",
+	"headwords": [
+		{
+			"text": "מריולא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

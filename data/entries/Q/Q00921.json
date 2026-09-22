@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00921",
-	"slug": "פכסס",
-	"headword": {
-		"text": "פַּכְסַס"
-	},
+	"sefariaHeadword": "פַּכְסַס",
+	"headwords": [
+		{
+			"text": "פַּכְסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

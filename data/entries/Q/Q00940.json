@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00940",
-	"slug": "פלגאה",
-	"headword": {
-		"text": "פַּלְגָּאָה"
-	},
+	"sefariaHeadword": "פַּלְגָּאָה",
+	"headwords": [
+		{
+			"text": "פַּלְגָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

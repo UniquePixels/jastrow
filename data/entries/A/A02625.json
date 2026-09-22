@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02625",
-	"slug": "אפומליטיס",
-	"headword": {
-		"text": "אפומליטיס"
-	},
+	"sefariaHeadword": "אפומליטיס",
+	"headwords": [
+		{
+			"text": "אפומליטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

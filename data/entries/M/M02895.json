@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02895",
-	"slug": "משכב",
-	"headword": {
-		"text": "מִשְׁכָּב"
-	},
+	"sefariaHeadword": "מִשְׁכָּב",
+	"headwords": [
+		{
+			"text": "מִשְׁכָּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 854,
 		"column": "a"

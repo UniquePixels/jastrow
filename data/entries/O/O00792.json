@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00792",
-	"slug": "סיפורין",
-	"headword": {
-		"text": "סִיפּוֹרִין"
-	},
+	"sefariaHeadword": "סִיפּוֹרִין",
+	"headwords": [
+		{
+			"text": "סִיפּוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

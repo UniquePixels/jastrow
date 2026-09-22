@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01941",
-	"slug": "פרסתקין-1",
-	"headword": {
-		"text": "פְּרַסְתְּקִין"
-	},
+	"sefariaHeadword": "פְּרַסְתְּקִין",
+	"headwords": [
+		{
+			"text": "פְּרַסְתְּקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1235,
 		"column": "a"

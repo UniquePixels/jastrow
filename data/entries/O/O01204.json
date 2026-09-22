@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01204",
-	"slug": "סנוניתא",
-	"headword": {
-		"text": "סְנוּנִיתָא"
-	},
+	"sefariaHeadword": "סְנוּנִיתָא",
+	"headwords": [
+		{
+			"text": "סְנוּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "a"

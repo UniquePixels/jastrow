@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00067",
-	"slug": "פגיעתא",
-	"headword": {
-		"text": "פְּגִיעֲתָא"
-	},
+	"sefariaHeadword": "פְּגִיעֲתָא",
+	"headwords": [
+		{
+			"text": "פְּגִיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "a"

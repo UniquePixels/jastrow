@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00013",
-	"slug": "גאותא",
-	"headword": {
-		"text": "גֵּאוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּאוּתָא",
+	"headwords": [
+		{
+			"text": "גֵּאוּתָא"
+		},
 		{
 			"text": "גֵּיאוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 202,
 		"column": "a"

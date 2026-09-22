@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00323",
-	"slug": "אגניסטור",
-	"headword": {
-		"text": "אגניסטור"
-	},
+	"sefariaHeadword": "אגניסטור",
+	"headwords": [
+		{
+			"text": "אגניסטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "b"

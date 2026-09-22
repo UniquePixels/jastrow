@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01593",
-	"slug": "קנכרי",
-	"headword": {
-		"text": "קַנְּכֵּרִי"
-	},
+	"sefariaHeadword": "קַנְּכֵּרִי",
+	"headwords": [
+		{
+			"text": "קַנְּכֵּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01334",
-	"slug": "ערורי",
-	"headword": {
-		"text": "עֲרוּרֵי"
-	},
+	"sefariaHeadword": "עֲרוּרֵי",
+	"headwords": [
+		{
+			"text": "עֲרוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "b"

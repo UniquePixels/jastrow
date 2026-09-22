@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00182",
-	"slug": "זום-1",
-	"headword": {
-		"text": "זוּם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זוּם",
+	"headwords": [
+		{
+			"text": "זוּם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

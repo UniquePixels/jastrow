@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00150",
-	"slug": "לדקיא",
-	"headword": {
-		"text": "לִדְקְיָא"
-	},
+	"sefariaHeadword": "לִדְקְיָא",
+	"headwords": [
+		{
+			"text": "לִדְקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

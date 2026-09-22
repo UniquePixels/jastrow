@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02276",
-	"slug": "מצובה-2",
-	"headword": {
-		"text": "מְצוּבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצוּבָה",
+	"headwords": [
 		{
-			"text": "פִּי מְצוּבָה"
+			"text": "מְצוּבָה"
+		},
+		{
+			"text": "פִּי מְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 823,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

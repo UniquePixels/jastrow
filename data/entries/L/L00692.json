@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00692",
-	"slug": "לקיניתא",
-	"headword": {
-		"text": "לְקִינִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְקִינִיתָא",
+	"headwords": [
+		{
+			"text": "לְקִינִיתָא"
+		},
 		{
 			"text": "לוּקְנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 719,
 		"column": "a"

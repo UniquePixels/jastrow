@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00298",
-	"slug": "נובלת",
-	"headword": {
-		"text": "נוֹבֶלֶת"
-	},
+	"sefariaHeadword": "נוֹבֶלֶת",
+	"headwords": [
+		{
+			"text": "נוֹבֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

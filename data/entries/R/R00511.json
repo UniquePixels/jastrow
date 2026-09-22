@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00511",
-	"slug": "צליבא",
-	"headword": {
-		"text": "צְלִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְלִיבָא",
+	"headwords": [
+		{
+			"text": "צְלִיבָא"
+		},
 		{
 			"text": "צְלִיבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1283,
 		"column": "b"

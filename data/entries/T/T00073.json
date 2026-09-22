@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "T00073",
-	"slug": "רבון-3",
-	"headword": {
-		"text": "רִבּוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבּוֹן ²",
+	"headwords": [
+		{
+			"text": "רִבּוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "רִבּוֹנָא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1440,
 		"column": "b"

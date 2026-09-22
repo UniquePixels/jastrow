@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00300",
-	"slug": "סוכה-2",
-	"headword": {
-		"text": "סוּכָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּכָּה",
+	"headwords": [
+		{
+			"text": "סוּכָּה"
+		},
 		{
 			"text": "סֻכָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 963,
 		"column": "b"

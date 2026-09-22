@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00431",
-	"slug": "תיחוח",
-	"headword": {
-		"text": "תִּיחוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיחוּחַ",
+	"headwords": [
 		{
-			"text": "תִּח׳"
+			"text": "תִּיחוּחַ"
+		},
+		{
+			"text": "תִּח׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1664,
 		"column": "a"

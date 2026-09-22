@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01116",
-	"slug": "תתה",
-	"headword": {
-		"text": "תתה"
-	},
+	"sefariaHeadword": "תתה",
+	"headwords": [
+		{
+			"text": "תתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "b"

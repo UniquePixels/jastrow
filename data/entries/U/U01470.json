@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01470",
-	"slug": "שמין-2",
-	"headword": {
-		"text": "שָׁמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁמִין",
+	"headwords": [
+		{
+			"text": "שָׁמִין"
+		},
 		{
 			"text": "שְׁמֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1595,
 		"column": "b"

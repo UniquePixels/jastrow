@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00366",
-	"slug": "חולת",
-	"headword": {
-		"text": "חוֹלַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹלַת",
+	"headwords": [
+		{
+			"text": "חוֹלַת"
+		},
 		{
 			"text": "חוֹלִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 435,
 		"column": "a"

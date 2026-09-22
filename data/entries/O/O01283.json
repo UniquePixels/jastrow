@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01283",
-	"slug": "סעודא",
-	"headword": {
-		"text": "סְעוּדָא"
-	},
+	"sefariaHeadword": "סְעוּדָא",
+	"headwords": [
+		{
+			"text": "סְעוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "b"

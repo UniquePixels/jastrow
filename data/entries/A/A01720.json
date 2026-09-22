@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01720",
-	"slug": "אכסדרא",
-	"headword": {
-		"text": "אַכְסַדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְסַדְרָא",
+	"headwords": [
+		{
+			"text": "אַכְסַדְרָא"
+		},
 		{
 			"text": "אַכְסִדְרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַכְסִדְרָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 64,
 		"column": "a"

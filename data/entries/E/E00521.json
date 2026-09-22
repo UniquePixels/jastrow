@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00521",
-	"slug": "הכרה",
-	"headword": {
-		"text": "הַכָּרָה"
-	},
+	"sefariaHeadword": "הַכָּרָה",
+	"headwords": [
+		{
+			"text": "הַכָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 351,
 		"column": "a"

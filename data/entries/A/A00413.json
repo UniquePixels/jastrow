@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00413",
-	"slug": "אדכרתא",
-	"headword": {
-		"text": "אַדְכַּרְתָּא"
-	},
+	"sefariaHeadword": "אַדְכַּרְתָּא",
+	"headwords": [
+		{
+			"text": "אַדְכַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

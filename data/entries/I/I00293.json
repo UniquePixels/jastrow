@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00293",
-	"slug": "טיארין",
-	"headword": {
-		"text": "טְיָארִין"
-	},
+	"sefariaHeadword": "טְיָארִין",
+	"headwords": [
+		{
+			"text": "טְיָארִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

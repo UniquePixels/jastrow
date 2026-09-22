@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02788",
-	"slug": "מרתיפא",
-	"headword": {
-		"text": "מַרְתֵּיפָא"
-	},
+	"sefariaHeadword": "מַרְתֵּיפָא",
+	"headwords": [
+		{
+			"text": "מַרְתֵּיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

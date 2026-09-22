@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00479",
-	"slug": "מוכס-1",
-	"headword": {
-		"text": "מוֹכֵס"
-	},
+	"sefariaHeadword": "מוֹכֵס",
+	"headwords": [
+		{
+			"text": "מוֹכֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

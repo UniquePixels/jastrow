@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00546",
-	"slug": "פטקא",
-	"headword": {
-		"text": "פִּטְקָא"
-	},
+	"sefariaHeadword": "פִּטְקָא",
+	"headwords": [
+		{
+			"text": "פִּטְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1157,
 		"column": "a"

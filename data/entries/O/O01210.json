@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01210",
-	"slug": "סנט",
-	"headword": {
-		"text": "סָנַט"
-	},
+	"sefariaHeadword": "סָנַט",
+	"headwords": [
+		{
+			"text": "סָנַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "a"

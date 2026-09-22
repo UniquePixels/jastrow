@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00725",
-	"slug": "פינוסות",
-	"headword": {
-		"text": "פינוסות"
-	},
+	"sefariaHeadword": "פינוסות",
+	"headwords": [
+		{
+			"text": "פינוסות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

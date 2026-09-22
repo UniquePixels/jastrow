@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00465",
-	"slug": "פחח-2",
-	"headword": {
-		"text": "פְּחָח"
-	},
+	"sefariaHeadword": "פְּחָח",
+	"headwords": [
+		{
+			"text": "פְּחָח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "a"

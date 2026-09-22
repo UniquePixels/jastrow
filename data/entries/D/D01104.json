@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01104",
-	"slug": "דרם-1",
-	"headword": {
-		"text": "דָּרַם"
-	},
+	"sefariaHeadword": "דָּרַם",
+	"headwords": [
+		{
+			"text": "דָּרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

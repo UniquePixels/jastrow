@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00355",
-	"slug": "עורון",
-	"headword": {
-		"text": "עִוָּרוֹן"
-	},
+	"sefariaHeadword": "עִוָּרוֹן",
+	"headwords": [
+		{
+			"text": "עִוָּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1058,
 		"column": "b"

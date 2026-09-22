@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M00168",
-	"slug": "מגיסתא-2",
-	"headword": {
-		"text": "מְגִיסְתָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגִיסְתָּא ²",
+	"headwords": [
+		{
+			"text": "מְגִיסְתָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְגוּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 728,
 		"column": "a"

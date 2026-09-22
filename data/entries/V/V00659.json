@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00659",
-	"slug": "תמוזא",
-	"headword": {
-		"text": "תַּמּוּזָא"
-	},
+	"sefariaHeadword": "תַּמּוּזָא",
+	"headwords": [
+		{
+			"text": "תַּמּוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

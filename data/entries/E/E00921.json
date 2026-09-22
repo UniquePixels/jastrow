@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00921",
-	"slug": "השכל",
-	"headword": {
-		"text": "הַשְׂכֵּל"
-	},
+	"sefariaHeadword": "הַשְׂכֵּל",
+	"headwords": [
+		{
+			"text": "הַשְׂכֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "b"

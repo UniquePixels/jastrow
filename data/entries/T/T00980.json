@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00980",
-	"slug": "רצחן",
-	"headword": {
-		"text": "רַצְחָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַצְחָן",
+	"headwords": [
+		{
+			"text": "רַצְחָן"
+		},
 		{
 			"text": "רוֹצְחָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1493,
 		"column": "a"

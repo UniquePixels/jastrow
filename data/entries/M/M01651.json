@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01651",
-	"slug": "ממון-1",
-	"headword": {
-		"text": "מָמוֹן"
-	},
+	"sefariaHeadword": "מָמוֹן",
+	"headwords": [
+		{
+			"text": "מָמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "O00246",
-	"slug": "סוגא-2",
-	"headword": {
-		"text": "סוּגָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*סוּגָא II",
+	"headwords": [
+		{
+			"text": "סוּגָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 961,
 		"column": "a"

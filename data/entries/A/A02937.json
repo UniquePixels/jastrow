@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02937",
-	"slug": "אקקבטון",
-	"headword": {
-		"text": "אקקבטון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אקקבטון",
+	"headwords": [
+		{
+			"text": "אקקבטון"
+		},
 		{
 			"text": "אקקוביטון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 113,
 		"column": "a"

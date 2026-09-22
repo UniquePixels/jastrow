@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00627",
-	"slug": "ניהו",
-	"headword": {
-		"text": "נִיהוּ"
-	},
+	"sefariaHeadword": "נִיהוּ",
+	"headwords": [
+		{
+			"text": "נִיהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

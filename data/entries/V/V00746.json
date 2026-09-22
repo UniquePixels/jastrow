@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00746",
-	"slug": "תניינות",
-	"headword": {
-		"text": "תִּנְיָינוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּנְיָינוּת",
+	"headwords": [
 		{
-			"text": "תִּנְיָ׳"
+			"text": "תִּנְיָינוּת"
 		},
 		{
-			"text": "תִּי׳"
+			"text": "תִּנְיָ׳",
+			"partial": true
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1682,
 		"column": "a"

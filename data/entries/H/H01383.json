@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01383",
-	"slug": "חסין-2",
-	"headword": {
-		"text": "חָסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָסִין",
+	"headwords": [
+		{
+			"text": "חָסִין"
+		},
 		{
 			"text": "חֲסִינָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲסִינְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 487,
 		"column": "b"

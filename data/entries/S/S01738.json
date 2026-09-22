@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01738",
-	"slug": "קפילא",
-	"headword": {
-		"text": "קְפֵילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְפֵילָא",
+	"headwords": [
+		{
+			"text": "קְפֵילָא"
+		},
 		{
 			"text": "קְפֵילָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1401,
 		"column": "a"

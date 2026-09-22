@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00270",
-	"slug": "דולפנא",
-	"headword": {
-		"text": "דּוֹלְפָנָא"
-	},
+	"sefariaHeadword": "דּוֹלְפָנָא",
+	"headwords": [
+		{
+			"text": "דּוֹלְפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

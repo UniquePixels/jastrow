@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00286",
-	"slug": "נהרבלאי",
-	"headword": {
-		"text": "נְהַרְבְּלָאֵי"
-	},
+	"sefariaHeadword": "נְהַרְבְּלָאֵי",
+	"headwords": [
+		{
+			"text": "נְהַרְבְּלָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"

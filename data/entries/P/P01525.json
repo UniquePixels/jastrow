@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01525",
-	"slug": "עתאורותהון",
-	"headword": {
-		"text": "עתאורותהון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עתאורותהון",
+	"headwords": [
+		{
+			"text": "עתאורותהון"
+		},
 		{
 			"text": "עתארותהון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1128,
 		"column": "b"

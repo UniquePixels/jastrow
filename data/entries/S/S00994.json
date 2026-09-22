@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00994",
-	"slug": "קילקילתא",
-	"headword": {
-		"text": "קִילְקֶילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילְקֶילְתָּא",
+	"headwords": [
+		{
+			"text": "קִילְקֶילְתָּא"
+		},
 		{
 			"text": "קִילְקְלִיתָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "קִילְקְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1361,
 		"column": "b"

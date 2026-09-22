@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01668",
-	"slug": "פרוטוגמיא",
-	"headword": {
-		"text": "פְּרוֹטוֹגַמְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹטוֹגַמְיָא",
+	"headwords": [
 		{
-			"text": "פְּרוֹטֹגַ׳"
+			"text": "פְּרוֹטוֹגַמְיָא"
+		},
+		{
+			"text": "פְּרוֹטֹגַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1219,
 		"column": "b"

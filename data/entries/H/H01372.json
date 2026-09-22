@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01372",
-	"slug": "חסידותא",
-	"headword": {
-		"text": "חֲסִידוּתָא"
-	},
+	"sefariaHeadword": "חֲסִידוּתָא",
+	"headwords": [
+		{
+			"text": "חֲסִידוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "a"

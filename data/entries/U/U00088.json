@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00088",
-	"slug": "שבור-2",
-	"headword": {
-		"text": "שִׁבּוּר"
-	},
+	"sefariaHeadword": "שִׁבּוּר",
+	"headwords": [
+		{
+			"text": "שִׁבּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

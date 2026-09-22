@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00719",
-	"slug": "עכבר-1",
-	"headword": {
-		"text": "עַכְבָּר"
-	},
+	"sefariaHeadword": "עַכְבָּר",
+	"headwords": [
+		{
+			"text": "עַכְבָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

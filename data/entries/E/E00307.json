@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00307",
-	"slug": "החלט",
-	"headword": {
-		"text": "הֶחְלֵט"
-	},
+	"sefariaHeadword": "הֶחְלֵט",
+	"headwords": [
+		{
+			"text": "הֶחְלֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02023",
-	"slug": "קרי-7",
-	"headword": {
-		"text": "קְרֵי",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרֵי III",
+	"headwords": [
+		{
+			"text": "קְרֵי",
+			"homograph": 3
+		},
 		{
 			"text": "קְרִי"
 		}
 	],
+	"display": "{0} III, ({1})",
 	"page": {
 		"number": 1419,
 		"column": "a"

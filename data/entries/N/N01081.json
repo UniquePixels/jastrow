@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01081",
-	"slug": "נפרזא",
-	"headword": {
-		"text": "נַפְרָזָא"
-	},
+	"sefariaHeadword": "נַפְרָזָא",
+	"headwords": [
+		{
+			"text": "נַפְרָזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 926,
 		"column": "b"

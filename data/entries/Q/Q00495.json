@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00495",
-	"slug": "פטגריטוס",
-	"headword": {
-		"text": "פטגריטוס"
-	},
+	"sefariaHeadword": "פטגריטוס",
+	"headwords": [
+		{
+			"text": "פטגריטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

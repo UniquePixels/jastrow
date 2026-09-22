@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00249",
-	"slug": "גדרסן",
-	"headword": {
-		"text": "גדרסן"
-	},
+	"sefariaHeadword": "גדרסן",
+	"headwords": [
+		{
+			"text": "גדרסן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "a"

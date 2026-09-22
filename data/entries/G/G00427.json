@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00427",
-	"slug": "זירפא",
-	"headword": {
-		"text": "זִירְפָּא"
-	},
+	"sefariaHeadword": "זִירְפָּא",
+	"headwords": [
+		{
+			"text": "זִירְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

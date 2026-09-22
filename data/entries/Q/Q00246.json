@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00246",
-	"slug": "פום",
-	"headword": {
-		"text": "פּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּם",
+	"headwords": [
+		{
+			"text": "פּוּם"
+		},
 		{
 			"text": "פּוּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1142,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00313",
-	"slug": "לוק",
-	"headword": {
-		"text": "לוּק"
-	},
+	"sefariaHeadword": "לוּק",
+	"headwords": [
+		{
+			"text": "לוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

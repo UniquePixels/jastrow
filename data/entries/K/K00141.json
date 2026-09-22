@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00141",
-	"slug": "כדמת",
-	"headword": {
-		"text": "כדמת"
-	},
+	"sefariaHeadword": "כדמת",
+	"headwords": [
+		{
+			"text": "כדמת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

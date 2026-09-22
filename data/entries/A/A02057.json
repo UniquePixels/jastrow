@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02057",
-	"slug": "אמצעות",
-	"headword": {
-		"text": "אֶמְצָעוּת"
-	},
+	"sefariaHeadword": "אֶמְצָעוּת",
+	"headwords": [
+		{
+			"text": "אֶמְצָעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "b"

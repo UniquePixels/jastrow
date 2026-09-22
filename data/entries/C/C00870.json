@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00870",
-	"slug": "גלגל-2",
-	"headword": {
-		"text": "גַּלְגֵּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְגֵּל",
+	"headwords": [
+		{
+			"text": "גַּלְגֵּל"
+		},
 		{
 			"text": "גַּלְגֵּיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 244,
 		"column": "b"

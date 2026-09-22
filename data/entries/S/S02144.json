@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02144",
-	"slug": "קרץ-4",
-	"headword": {
-		"text": "קֶרֶץ"
-	},
+	"sefariaHeadword": "קֶרֶץ",
+	"headwords": [
+		{
+			"text": "קֶרֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

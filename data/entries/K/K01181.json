@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01181",
-	"slug": "כריתה",
-	"headword": {
-		"text": "כְּרִיתָה"
-	},
+	"sefariaHeadword": "כְּרִיתָה",
+	"headwords": [
+		{
+			"text": "כְּרִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "b"

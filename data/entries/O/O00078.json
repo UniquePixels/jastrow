@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00078",
-	"slug": "סבניתא",
-	"headword": {
-		"text": "סַבְנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַבְנִיתָא",
+	"headwords": [
+		{
+			"text": "סַבְנִיתָא"
+		},
 		{
 			"text": "סְבִינְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 951,
 		"column": "a"

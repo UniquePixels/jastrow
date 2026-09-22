@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00539",
-	"slug": "צלף-2",
-	"headword": {
-		"text": "צְלַף"
-	},
+	"sefariaHeadword": "צְלַף",
+	"headwords": [
+		{
+			"text": "צְלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1285,
 		"column": "b"

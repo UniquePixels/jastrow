@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01276",
-	"slug": "ערבות-2",
-	"headword": {
-		"text": "עֲרָבוֹת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲרָבוֹת I",
+	"headwords": [
+		{
+			"text": "עֲרָבוֹת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1113,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02937",
-	"slug": "משמשנית",
-	"headword": {
-		"text": "מַשְׁמְשָׁנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁמְשָׁנִית",
+	"headwords": [
 		{
-			"text": "מְמַשְׁמְ׳"
+			"text": "מַשְׁמְשָׁנִית"
+		},
+		{
+			"text": "מְמַשְׁמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 857,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00869",
-	"slug": "מחילה",
-	"headword": {
-		"text": "מְחִילָה"
-	},
+	"sefariaHeadword": "מְחִילָה",
+	"headwords": [
+		{
+			"text": "מְחִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 760,
 		"column": "b"

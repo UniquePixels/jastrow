@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00402",
-	"slug": "סופקנא",
-	"headword": {
-		"text": "סוּפְקָנָא"
-	},
+	"sefariaHeadword": "סוּפְקָנָא",
+	"headwords": [
+		{
+			"text": "סוּפְקָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "b"

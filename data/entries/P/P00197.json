@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00197",
-	"slug": "עוגס",
-	"headword": {
-		"text": "עוּגָּס"
-	},
+	"sefariaHeadword": "עוּגָּס",
+	"headwords": [
+		{
+			"text": "עוּגָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "a"

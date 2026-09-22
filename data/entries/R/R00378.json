@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00378",
-	"slug": "צימחא",
-	"headword": {
-		"text": "צִימְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימְחָא",
+	"headwords": [
+		{
+			"text": "צִימְחָא"
+		},
 		{
 			"text": "צִימְחוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "צִימְחוֹנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1277,
 		"column": "a"

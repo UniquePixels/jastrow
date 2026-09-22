@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00615",
-	"slug": "דימה",
-	"headword": {
-		"text": "דּימָה"
-	},
+	"sefariaHeadword": "דּימָה",
+	"headwords": [
+		{
+			"text": "דּימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "a"

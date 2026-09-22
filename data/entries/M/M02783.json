@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02783",
-	"slug": "מרת-1",
-	"headword": {
-		"text": "מֵרַת"
-	},
+	"sefariaHeadword": "מֵרַת",
+	"headwords": [
+		{
+			"text": "מֵרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

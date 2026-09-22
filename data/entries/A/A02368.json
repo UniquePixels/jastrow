@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02368",
-	"slug": "אסטיב",
-	"headword": {
-		"text": "אִסְטֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטֵיב",
+	"headwords": [
+		{
+			"text": "אִסְטֵיב"
+		},
 		{
 			"text": "אִסְטֵיו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 90,
 		"column": "a"

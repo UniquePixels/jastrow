@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V01041",
-	"slug": "תרעמא",
-	"headword": {
-		"text": "תֻּרְעֲמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֻּרְעֲמָא",
+	"headwords": [
+		{
+			"text": "תֻּרְעֲמָא"
+		},
 		{
 			"text": "תֻּרְעֲמוּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תּרְעַמְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1701,
 		"column": "b"

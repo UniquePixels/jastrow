@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01019",
-	"slug": "כפיפה",
-	"headword": {
-		"text": "כְּפִיפָה"
-	},
+	"sefariaHeadword": "כְּפִיפָה",
+	"headwords": [
+		{
+			"text": "כְּפִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "a"

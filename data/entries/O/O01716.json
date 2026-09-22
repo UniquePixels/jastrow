@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O01716",
-	"slug": "סתרא",
-	"headword": {
-		"text": "סִתְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִתְרָא",
+	"headwords": [
+		{
+			"text": "סִתְרָא"
+		},
 		{
 			"text": "סִתְרָה"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1033,
 		"column": "b"

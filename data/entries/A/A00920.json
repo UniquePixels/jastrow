@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00920",
-	"slug": "אושטותא",
-	"headword": {
-		"text": "אוֹשָׁטוּתָא"
-	},
+	"sefariaHeadword": "אוֹשָׁטוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹשָׁטוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00998",
-	"slug": "רצפה",
-	"headword": {
-		"text": "רִצְפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִצְפָה",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִצְפָה"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1495,
 		"column": "a"

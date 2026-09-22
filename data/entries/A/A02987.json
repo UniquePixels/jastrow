@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02987",
-	"slug": "ארגטיס",
-	"headword": {
-		"text": "אֶרְגָּטִיס"
-	},
+	"sefariaHeadword": "אֶרְגָּטִיס",
+	"headwords": [
+		{
+			"text": "אֶרְגָּטִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02809",
-	"slug": "אפרוכוס",
-	"headword": {
-		"text": "אפרוכוס"
-	},
+	"sefariaHeadword": "אפרוכוס",
+	"headwords": [
+		{
+			"text": "אפרוכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

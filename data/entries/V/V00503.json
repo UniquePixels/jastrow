@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00503",
-	"slug": "תירומי",
-	"headword": {
-		"text": "תֵּירוֹמֵי"
-	},
+	"sefariaHeadword": "תֵּירוֹמֵי",
+	"headwords": [
+		{
+			"text": "תֵּירוֹמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

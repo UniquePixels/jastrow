@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02160",
-	"slug": "פתיח-2",
-	"headword": {
-		"text": "פְּתִיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּתִיחַ",
+	"headwords": [
+		{
+			"text": "פְּתִיחַ"
+		},
 		{
 			"text": "פְּתִיחָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1253,
 		"column": "b"

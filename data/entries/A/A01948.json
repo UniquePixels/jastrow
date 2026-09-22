@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01948",
-	"slug": "אלקטית",
-	"headword": {
-		"text": "אִלְקָטִית"
-	},
+	"sefariaHeadword": "אִלְקָטִית",
+	"headwords": [
+		{
+			"text": "אִלְקָטִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

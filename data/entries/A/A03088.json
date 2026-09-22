@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03088",
-	"slug": "אריוא",
-	"headword": {
-		"text": "אַרְיָוָא"
-	},
+	"sefariaHeadword": "אַרְיָוָא",
+	"headwords": [
+		{
+			"text": "אַרְיָוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "a"

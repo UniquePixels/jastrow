@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00997",
-	"slug": "אחדא",
-	"headword": {
-		"text": "אַחֲדָא"
-	},
+	"sefariaHeadword": "אַחֲדָא",
+	"headwords": [
+		{
+			"text": "אַחֲדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

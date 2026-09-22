@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01468",
-	"slug": "סקיבס",
-	"headword": {
-		"text": "סְקִיבָס"
-	},
+	"sefariaHeadword": "סְקִיבָס",
+	"headwords": [
+		{
+			"text": "סְקִיבָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00934",
-	"slug": "רפוי",
-	"headword": {
-		"text": "רִפּוּי"
-	},
+	"sefariaHeadword": "רִפּוּי",
+	"headwords": [
+		{
+			"text": "רִפּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "b"

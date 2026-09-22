@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00331",
-	"slug": "מדרון-1",
-	"headword": {
-		"text": "מַדְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַדְרוֹן",
+	"headwords": [
 		{
-			"text": "מִדְּ׳"
+			"text": "מַדְרוֹן"
+		},
+		{
+			"text": "מִדְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 735,
 		"column": "b"

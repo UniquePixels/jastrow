@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00406",
-	"slug": "בז",
-	"headword": {
-		"text": "בַּז"
-	},
+	"sefariaHeadword": "בַּז",
+	"headwords": [
+		{
+			"text": "בַּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

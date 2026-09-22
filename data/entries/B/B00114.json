@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00114",
-	"slug": "בדו",
-	"headword": {
-		"text": "בדו"
-	},
+	"sefariaHeadword": "בדו",
+	"headwords": [
+		{
+			"text": "בדו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "a"

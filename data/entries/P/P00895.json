@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00895",
-	"slug": "עמית",
-	"headword": {
-		"text": "עָמִית"
-	},
+	"sefariaHeadword": "עָמִית",
+	"headwords": [
+		{
+			"text": "עָמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "b"

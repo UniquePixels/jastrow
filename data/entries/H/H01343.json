@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01343",
-	"slug": "חסדותא",
-	"headword": {
-		"text": "חִסְדּוּתָא"
-	},
+	"sefariaHeadword": "חִסְדּוּתָא",
+	"headwords": [
+		{
+			"text": "חִסְדּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

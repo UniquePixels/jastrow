@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00663",
-	"slug": "לקא",
-	"headword": {
-		"text": "לְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְקָא",
+	"headwords": [
+		{
+			"text": "לְקָא"
+		},
 		{
 			"text": "לָקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 716,
 		"column": "b"

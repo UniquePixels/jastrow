@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00380",
-	"slug": "עותיק",
-	"headword": {
-		"text": "עוּתֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּתֵּיק",
+	"headwords": [
+		{
+			"text": "עוּתֵּיק"
+		},
 		{
 			"text": "עוּתִּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1060,
 		"column": "a"

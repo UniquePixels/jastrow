@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02039",
-	"slug": "שרש-4",
-	"headword": {
-		"text": "שְׁרַשׁ"
-	},
+	"sefariaHeadword": "שְׁרַשׁ",
+	"headwords": [
+		{
+			"text": "שְׁרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "a"

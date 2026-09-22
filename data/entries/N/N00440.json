@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00440",
-	"slug": "נזיי",
-	"headword": {
-		"text": "נִזְיֵי"
-	},
+	"sefariaHeadword": "נִזְיֵי",
+	"headwords": [
+		{
+			"text": "נִזְיֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

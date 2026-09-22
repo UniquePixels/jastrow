@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00219",
-	"slug": "סהרא",
-	"headword": {
-		"text": "סַהֲרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַהֲרָא",
+	"headwords": [
+		{
+			"text": "סַהֲרָא"
+		},
 		{
 			"text": "סַהֲרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 960,
 		"column": "a"

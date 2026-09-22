@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00249",
-	"slug": "סוגו",
-	"headword": {
-		"text": "סוּגּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּגּוּ",
+	"headwords": [
+		{
+			"text": "סוּגּוּ"
+		},
 		{
 			"text": "סוּגּוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 961,
 		"column": "a"

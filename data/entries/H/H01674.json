@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01674",
-	"slug": "חרידן",
-	"headword": {
-		"text": "חרידן"
-	},
+	"sefariaHeadword": "חרידן",
+	"headwords": [
+		{
+			"text": "חרידן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

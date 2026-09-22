@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00764",
-	"slug": "קטיף",
-	"headword": {
-		"text": "קְטִיף"
-	},
+	"sefariaHeadword": "קְטִיף",
+	"headwords": [
+		{
+			"text": "קְטִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1348,
 		"column": "b"

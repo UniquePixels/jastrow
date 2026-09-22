@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01133",
-	"slug": "קיצחא",
-	"headword": {
-		"text": "קִיצְחָא"
-	},
+	"sefariaHeadword": "קִיצְחָא",
+	"headwords": [
+		{
+			"text": "קִיצְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

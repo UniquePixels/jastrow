@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02620",
-	"slug": "אפוליא",
-	"headword": {
-		"text": "אַפּוּלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפּוּלְיָא",
+	"headwords": [
+		{
+			"text": "אַפּוּלְיָא"
+		},
 		{
 			"text": "אפיליא",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 100,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01620",
-	"slug": "סריס",
-	"headword": {
-		"text": "סָרִיס"
-	},
+	"sefariaHeadword": "סָרִיס",
+	"headwords": [
+		{
+			"text": "סָרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "a"

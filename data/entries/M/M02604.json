@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02604",
-	"slug": "מרוקא-2",
-	"headword": {
-		"text": "מָרוֹקָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מָרוֹקָא II",
+	"headwords": [
+		{
+			"text": "מָרוֹקָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 839,
 		"column": "b"

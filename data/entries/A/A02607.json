@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02607",
-	"slug": "אפודרים-1",
-	"headword": {
-		"text": "אפודרים"
-	},
+	"sefariaHeadword": "אפודרים",
+	"headwords": [
+		{
+			"text": "אפודרים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

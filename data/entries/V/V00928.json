@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00928",
-	"slug": "תרבות-2",
-	"headword": {
-		"text": "תַּרְבּוּת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְבּוּת ²",
+	"headwords": [
+		{
+			"text": "תַּרְבּוּת",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּרְבּוּתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1695,
 		"column": "a"

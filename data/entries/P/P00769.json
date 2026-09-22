@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00769",
-	"slug": "עלג",
-	"headword": {
-		"text": "עלג"
-	},
+	"sefariaHeadword": "עלג",
+	"headwords": [
+		{
+			"text": "עלג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "b"

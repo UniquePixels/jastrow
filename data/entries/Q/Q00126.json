@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00126",
-	"slug": "פדיעא",
-	"headword": {
-		"text": "פדיעא"
-	},
+	"sefariaHeadword": "פדיעא",
+	"headwords": [
+		{
+			"text": "פדיעא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

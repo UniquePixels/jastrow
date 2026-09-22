@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01124",
-	"slug": "קיצה-1",
-	"headword": {
-		"text": "קַיְצָה"
-	},
+	"sefariaHeadword": "קַיְצָה",
+	"headwords": [
+		{
+			"text": "קַיְצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02756",
-	"slug": "מרצייה",
-	"headword": {
-		"text": "מַרְצַיָּיה"
-	},
+	"sefariaHeadword": "מַרְצַיָּיה",
+	"headwords": [
+		{
+			"text": "מַרְצַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

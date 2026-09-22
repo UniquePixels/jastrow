@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01383",
-	"slug": "קלסטורא",
-	"headword": {
-		"text": "קְלַסְטוֹרָא"
-	},
+	"sefariaHeadword": "קְלַסְטוֹרָא",
+	"headwords": [
+		{
+			"text": "קְלַסְטוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1379,
 		"column": "b"

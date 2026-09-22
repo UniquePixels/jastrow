@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02729",
-	"slug": "אפכיי",
-	"headword": {
-		"text": "אפכיי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפכיי",
+	"headwords": [
+		{
+			"text": "אפכיי"
+		},
 		{
 			"text": "אפכן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 105,
 		"column": "a"

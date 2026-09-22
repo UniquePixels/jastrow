@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02582",
-	"slug": "אסתניס",
-	"headword": {
-		"text": "אִסְתְּנִיס"
-	},
+	"sefariaHeadword": "אִסְתְּנִיס",
+	"headwords": [
+		{
+			"text": "אִסְתְּנִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

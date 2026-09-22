@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00741",
-	"slug": "צרדיאתא",
-	"headword": {
-		"text": "צְרַדְיָאתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרַדְיָאתָא",
+	"headwords": [
+		{
+			"text": "צְרַדְיָאתָא"
+		},
 		{
 			"text": "צְרַדְיָיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1300,
 		"column": "a"

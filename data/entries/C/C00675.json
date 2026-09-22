@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00675",
-	"slug": "גיותנותא",
-	"headword": {
-		"text": "גֵּיוְתָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיוְתָנוּתָא",
+	"headwords": [
 		{
-			"text": "גֵּיפְ׳"
+			"text": "גֵּיוְתָנוּתָא"
+		},
+		{
+			"text": "גֵּיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "b"

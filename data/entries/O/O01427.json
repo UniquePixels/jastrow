@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01427",
-	"slug": "ספרגוס",
-	"headword": {
-		"text": "ספרגוס"
-	},
+	"sefariaHeadword": "ספרגוס",
+	"headwords": [
+		{
+			"text": "ספרגוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

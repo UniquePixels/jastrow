@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00568",
-	"slug": "פטרכולי",
-	"headword": {
-		"text": "פטרכולי"
-	},
+	"sefariaHeadword": "פטרכולי",
+	"headwords": [
+		{
+			"text": "פטרכולי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

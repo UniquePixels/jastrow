@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00487",
-	"slug": "כיבוש-2",
-	"headword": {
-		"text": "כִּיבּוּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיבּוּשׁ ²",
+	"headwords": [
+		{
+			"text": "כִּיבּוּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "כֵּבַשׁ"
 		},
@@ -13,6 +14,7 @@
 			"text": "כֵּיבַשׁ"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 630,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00537",
-	"slug": "עיטמא",
-	"headword": {
-		"text": "עִיטְמָא"
-	},
+	"sefariaHeadword": "עִיטְמָא",
+	"headwords": [
+		{
+			"text": "עִיטְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

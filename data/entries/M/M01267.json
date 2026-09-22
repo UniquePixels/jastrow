@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01267",
-	"slug": "מיפך",
-	"headword": {
-		"text": "מֵיפַךְ"
-	},
+	"sefariaHeadword": "מֵיפַךְ",
+	"headwords": [
+		{
+			"text": "מֵיפַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02966",
-	"slug": "ארבנא",
-	"headword": {
-		"text": "אָרְבָּנָא"
-	},
+	"sefariaHeadword": "אָרְבָּנָא",
+	"headwords": [
+		{
+			"text": "אָרְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 114,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00135",
-	"slug": "לגלג-1",
-	"headword": {
-		"text": "לִגִלֵג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִגִלֵג",
+	"headwords": [
 		{
-			"text": "לִיגְ׳"
+			"text": "לִגִלֵג"
+		},
+		{
+			"text": "לִיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 692,
 		"column": "b"

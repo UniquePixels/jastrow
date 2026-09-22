@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02177",
-	"slug": "פתך-2",
-	"headword": {
-		"text": "פְּתַךְ"
-	},
+	"sefariaHeadword": "פְּתַךְ",
+	"headwords": [
+		{
+			"text": "פְּתַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "b"

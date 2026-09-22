@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00017",
-	"slug": "נאטאי",
-	"headword": {
-		"text": "נאטאי"
-	},
+	"sefariaHeadword": "נאטאי",
+	"headwords": [
+		{
+			"text": "נאטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "a"

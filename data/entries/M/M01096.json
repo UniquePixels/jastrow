@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01096",
-	"slug": "מידם",
-	"headword": {
-		"text": "מֵידַם"
-	},
+	"sefariaHeadword": "מֵידַם",
+	"headwords": [
+		{
+			"text": "מֵידַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

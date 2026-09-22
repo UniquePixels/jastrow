@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00258",
-	"slug": "חוד-3",
-	"headword": {
-		"text": "חוֹד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חוֹד ²",
+	"headwords": [
+		{
+			"text": "חוֹד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 430,
 		"column": "a"

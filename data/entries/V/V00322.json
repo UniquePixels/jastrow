@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00322",
-	"slug": "תורתא-3",
-	"headword": {
-		"text": "תּוֹרָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרָתָא",
+	"headwords": [
 		{
-			"text": "בֵּי תּוֹרָתָא"
+			"text": "תּוֹרָתָא"
+		},
+		{
+			"text": "בֵּי ת׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1658,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

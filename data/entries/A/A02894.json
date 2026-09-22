@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02894",
-	"slug": "אקהיותא",
-	"headword": {
-		"text": "אַקְהָיוּתָא"
-	},
+	"sefariaHeadword": "אַקְהָיוּתָא",
+	"headwords": [
+		{
+			"text": "אַקְהָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "b"

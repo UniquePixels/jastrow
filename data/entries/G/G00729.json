@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00729",
-	"slug": "זרעית-1",
-	"headword": {
-		"text": "זַרְעִית"
-	},
+	"sefariaHeadword": "זַרְעִית",
+	"headwords": [
+		{
+			"text": "זַרְעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "b"

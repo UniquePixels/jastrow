@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00439",
-	"slug": "טירוף",
-	"headword": {
-		"text": "טֵירוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֵירוּף",
+	"headwords": [
+		{
+			"text": "טֵירוּף"
+		},
 		{
 			"text": "טֵרוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 534,
 		"column": "b"

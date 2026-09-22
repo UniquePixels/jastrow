@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00358",
-	"slug": "דורדניא",
-	"headword": {
-		"text": "דּוֹרְדַּנְיָא"
-	},
+	"sefariaHeadword": "דּוֹרְדַּנְיָא",
+	"headwords": [
+		{
+			"text": "דּוֹרְדַּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

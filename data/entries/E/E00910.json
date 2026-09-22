@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00910",
-	"slug": "השבה",
-	"headword": {
-		"text": "הֲשָׁבָה"
-	},
+	"sefariaHeadword": "הֲשָׁבָה",
+	"headwords": [
+		{
+			"text": "הֲשָׁבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "a"

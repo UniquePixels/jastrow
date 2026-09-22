@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00050",
-	"slug": "לבוד",
-	"headword": {
-		"text": "לָבוּד"
-	},
+	"sefariaHeadword": "לָבוּד",
+	"headwords": [
+		{
+			"text": "לָבוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

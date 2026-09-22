@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00123",
-	"slug": "הדייף",
-	"headword": {
-		"text": "הַדְיֵיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַדְיֵיף",
+	"headwords": [
+		{
+			"text": "הַדְיֵיף"
+		},
 		{
 			"text": "הדיית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 333,
 		"column": "b"

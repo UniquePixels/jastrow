@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00042",
-	"slug": "פגוז",
-	"headword": {
-		"text": "פָּגוֹז"
-	},
+	"sefariaHeadword": "פָּגוֹז",
+	"headwords": [
+		{
+			"text": "פָּגוֹז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

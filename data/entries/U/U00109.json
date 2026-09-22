@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00109",
-	"slug": "שבי-1",
-	"headword": {
-		"text": "שבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שבי",
+	"headwords": [
+		{
+			"text": "שבי"
+		},
 		{
 			"text": "שָׁבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1513,
 		"column": "a"

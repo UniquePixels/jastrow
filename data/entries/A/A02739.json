@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02739",
-	"slug": "אפליקטא",
-	"headword": {
-		"text": "אפליקטא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפליקטא",
+	"headwords": [
+		{
+			"text": "אפליקטא"
+		},
 		{
 			"text": "אפליקתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 105,
 		"column": "b"

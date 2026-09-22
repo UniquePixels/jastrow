@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01082",
-	"slug": "פלמיא",
-	"headword": {
-		"text": "פלמיא"
-	},
+	"sefariaHeadword": "פלמיא",
+	"headwords": [
+		{
+			"text": "פלמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

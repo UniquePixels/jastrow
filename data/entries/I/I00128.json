@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00128",
-	"slug": "טווזא",
-	"headword": {
-		"text": "טַוְוזָא"
-	},
+	"sefariaHeadword": "טַוְוזָא",
+	"headwords": [
+		{
+			"text": "טַוְוזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

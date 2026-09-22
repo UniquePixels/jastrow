@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00332",
-	"slug": "בור-5",
-	"headword": {
-		"text": "בּוֹר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בֹּור I",
+	"headwords": [
+		{
+			"text": "בּוֹר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 148,
 		"column": "b"

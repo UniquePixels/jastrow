@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01422",
-	"slug": "קלקת",
-	"headword": {
-		"text": "קלקת"
-	},
+	"sefariaHeadword": "קלקת",
+	"headwords": [
+		{
+			"text": "קלקת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1382,
 		"column": "b"

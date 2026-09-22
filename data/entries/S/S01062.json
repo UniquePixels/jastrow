@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01062",
-	"slug": "קיסוסא",
-	"headword": {
-		"text": "קִיסוֹסָא"
-	},
+	"sefariaHeadword": "קִיסוֹסָא",
+	"headwords": [
+		{
+			"text": "קִיסוֹסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "b"

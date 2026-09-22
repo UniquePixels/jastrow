@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01170",
-	"slug": "פנוקטין",
-	"headword": {
-		"text": "פַּנּוּקְטִין"
-	},
+	"sefariaHeadword": "פַּנּוּקְטִין",
+	"headwords": [
+		{
+			"text": "פַּנּוּקְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

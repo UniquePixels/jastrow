@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02168",
-	"slug": "פתילתא",
-	"headword": {
-		"text": "פְּתִילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּתִילְתָּא",
+	"headwords": [
+		{
+			"text": "פְּתִילְתָּא"
+		},
 		{
 			"text": "פְּתִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1254,
 		"column": "a"

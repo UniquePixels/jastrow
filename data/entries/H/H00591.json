@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00591",
-	"slug": "חטב-3",
-	"headword": {
-		"text": "חֲטַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטַב",
+	"headwords": [
+		{
+			"text": "חֲטַב"
+		},
 		{
 			"text": "חֲטֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 447,
 		"column": "b"

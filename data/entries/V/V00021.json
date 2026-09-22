@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00021",
-	"slug": "תאינא",
-	"headword": {
-		"text": "תְּאֵינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּאֵינָא",
+	"headwords": [
+		{
+			"text": "תְּאֵינָא"
+		},
 		{
 			"text": "תְּאֵינָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "תְּאֵינְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1642,
 		"column": "a"

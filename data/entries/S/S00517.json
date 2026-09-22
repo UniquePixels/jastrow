@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00517",
-	"slug": "קופנה",
-	"headword": {
-		"text": "קוֹפָנָה"
-	},
+	"sefariaHeadword": "קוֹפָנָה",
+	"headwords": [
+		{
+			"text": "קוֹפָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1339,
 		"column": "a"

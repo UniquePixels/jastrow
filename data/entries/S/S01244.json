@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01244",
-	"slug": "קלארון",
-	"headword": {
-		"text": "קִלָּארִון"
-	},
+	"sefariaHeadword": "קִלָּארִון",
+	"headwords": [
+		{
+			"text": "קִלָּארִון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

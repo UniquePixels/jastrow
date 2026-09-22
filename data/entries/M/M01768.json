@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01768",
-	"slug": "מני-1",
-	"headword": {
-		"text": "מִנִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנִּי",
+	"headwords": [
 		{
-			"text": "אֲרַע מִנִּי"
+			"text": "מִנִּי"
+		},
+		{
+			"text": "אֲרַע מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 799,
 		"column": "b"

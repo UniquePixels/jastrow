@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00767",
-	"slug": "כלמתא",
-	"headword": {
-		"text": "כַּלְמְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּלְמְתָא",
+	"headwords": [
 		{
-			"text": "קַלְ׳"
+			"text": "כַּלְמְתָא"
+		},
+		{
+			"text": "קַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 645,
 		"column": "a"

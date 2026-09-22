@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00322",
-	"slug": "גוהא",
-	"headword": {
-		"text": "גּוּהָא"
-	},
+	"sefariaHeadword": "גּוּהָא",
+	"headwords": [
+		{
+			"text": "גּוּהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "a"

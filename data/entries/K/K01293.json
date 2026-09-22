@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01293",
-	"slug": "כרתנין",
-	"headword": {
-		"text": "כְּרַתְנִין"
-	},
+	"sefariaHeadword": "כְּרַתְנִין",
+	"headwords": [
+		{
+			"text": "כְּרַתְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "a"

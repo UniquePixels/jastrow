@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00274",
-	"slug": "לולוטוס",
-	"headword": {
-		"text": "לולוטוס"
-	},
+	"sefariaHeadword": "לולוטוס",
+	"headwords": [
+		{
+			"text": "לולוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "a"

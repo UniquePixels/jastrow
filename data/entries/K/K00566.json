@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00566",
-	"slug": "כינוי",
-	"headword": {
-		"text": "כִּינּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינּוּי",
+	"headwords": [
+		{
+			"text": "כִּינּוּי"
+		},
 		{
 			"text": "כִּנּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "a"

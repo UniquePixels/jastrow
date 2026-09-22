@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00790",
-	"slug": "סיפוק-3",
-	"headword": {
-		"text": "סִיפּוּק",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפּוּק ³",
+	"headwords": [
+		{
+			"text": "סִיפּוּק",
+			"disambiguator": 3
+		},
 		{
 			"text": "סִיפּוּקָא"
 		},
 		{
-			"text": "סִפּ׳"
+			"text": "סִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ³, {1}, {2}",
 	"page": {
 		"number": 985,
 		"column": "b"

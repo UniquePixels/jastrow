@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01226",
-	"slug": "פסאקא",
-	"headword": {
-		"text": "פְּסָאקָא"
-	},
+	"sefariaHeadword": "פְּסָאקָא",
+	"headwords": [
+		{
+			"text": "פְּסָאקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1191,
 		"column": "b"

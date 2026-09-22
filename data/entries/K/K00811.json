@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00811",
-	"slug": "כמנה",
-	"headword": {
-		"text": "כְּמָנָה"
-	},
+	"sefariaHeadword": "כְּמָנָה",
+	"headwords": [
+		{
+			"text": "כְּמָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "a"

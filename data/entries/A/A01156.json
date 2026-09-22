@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01156",
-	"slug": "אידא-5",
-	"headword": {
-		"text": "אִידָּא"
-	},
+	"sefariaHeadword": "אִידָּא",
+	"headwords": [
+		{
+			"text": "אִידָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "a"

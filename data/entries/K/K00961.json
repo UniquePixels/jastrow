@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00961",
-	"slug": "כסת",
-	"headword": {
-		"text": "כֶּסֶת"
-	},
+	"sefariaHeadword": "כֶּסֶת",
+	"headwords": [
+		{
+			"text": "כֶּסֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

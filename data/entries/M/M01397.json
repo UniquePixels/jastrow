@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01397",
-	"slug": "מכללה",
-	"headword": {
-		"text": "מכללה"
-	},
+	"sefariaHeadword": "מכללה",
+	"headwords": [
+		{
+			"text": "מכללה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "a"

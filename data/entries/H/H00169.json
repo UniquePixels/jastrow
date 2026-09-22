@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00169",
-	"slug": "חד-2",
-	"headword": {
-		"text": "חַד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַד II",
+	"headwords": [
+		{
+			"text": "חַד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 425,
 		"column": "a"

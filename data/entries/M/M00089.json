@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00089",
-	"slug": "מבנייך",
-	"headword": {
-		"text": "מבנייך"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מבנייך",
+	"headwords": [
+		{
+			"text": "מבנייך"
+		},
 		{
 			"text": "מבניך"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 725,
 		"column": "a"

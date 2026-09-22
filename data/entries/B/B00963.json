@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00963",
-	"slug": "בנסא",
-	"headword": {
-		"text": "בְּנָסָא"
-	},
+	"sefariaHeadword": "בְּנָסָא",
+	"headwords": [
+		{
+			"text": "בְּנָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

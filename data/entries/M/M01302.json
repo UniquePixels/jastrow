@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01302",
-	"slug": "מירסינטון",
-	"headword": {
-		"text": "מִירְסִינָטוֹן"
-	},
+	"sefariaHeadword": "מִירְסִינָטוֹן",
+	"headwords": [
+		{
+			"text": "מִירְסִינָטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

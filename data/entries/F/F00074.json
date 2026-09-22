@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00074",
-	"slug": "ועדוין",
-	"headword": {
-		"text": "ועדוין"
-	},
+	"sefariaHeadword": "ועדוין",
+	"headwords": [
+		{
+			"text": "ועדוין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00639",
-	"slug": "טפח-4",
-	"headword": {
-		"text": "טֶפַח"
-	},
+	"sefariaHeadword": "טֶפַח",
+	"headwords": [
+		{
+			"text": "טֶפַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 546,
 		"column": "a"

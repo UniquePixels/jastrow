@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00733",
-	"slug": "תנור",
-	"headword": {
-		"text": "תַּנּוּר"
-	},
+	"sefariaHeadword": "תַּנּוּר",
+	"headwords": [
+		{
+			"text": "תַּנּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

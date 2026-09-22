@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00822",
-	"slug": "כמש-1",
-	"headword": {
-		"text": "כָּמַשׁ"
-	},
+	"sefariaHeadword": "כָּמַשׁ",
+	"headwords": [
+		{
+			"text": "כָּמַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00390",
-	"slug": "טינא",
-	"headword": {
-		"text": "טִינָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִינָּא",
+	"headwords": [
+		{
+			"text": "טִינָּא"
+		},
 		{
 			"text": "טִינָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "b"

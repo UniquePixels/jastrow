@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00675",
-	"slug": "תמיהא",
-	"headword": {
-		"text": "תְּמִיהָא"
-	},
+	"sefariaHeadword": "תְּמִיהָא",
+	"headwords": [
+		{
+			"text": "תְּמִיהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "a"

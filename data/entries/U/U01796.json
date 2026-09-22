@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01796",
-	"slug": "שפק",
-	"headword": {
-		"text": "שָׂפַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׂפַק",
+	"headwords": [
+		{
+			"text": "שָׂפַק"
+		},
 		{
 			"text": "שְׂפַק"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׂפֵק"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1619,
 		"column": "b"

@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "B01271",
-	"slug": "ברין-2",
-	"headword": {
-		"text": "בָּרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בָּרִין",
+	"headwords": [
 		{
-			"text": "רם בָּרִין"
+			"text": "בָּרִין",
+			"reconstructed": true
+		},
+		{
+			"text": "רם ב׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 194,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

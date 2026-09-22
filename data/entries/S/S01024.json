@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01024",
-	"slug": "קינה-1",
-	"headword": {
-		"text": "קִינָה"
-	},
+	"sefariaHeadword": "קִינָה",
+	"headwords": [
+		{
+			"text": "קִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

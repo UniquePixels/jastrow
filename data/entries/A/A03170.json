@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03170",
-	"slug": "ארמון-1",
-	"headword": {
-		"text": "אַרְמוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְמוֹן I",
+	"headwords": [
+		{
+			"text": "אַרְמוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 122,
 		"column": "b"

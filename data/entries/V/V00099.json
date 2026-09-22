@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00099",
-	"slug": "תגרן",
-	"headword": {
-		"text": "תַּגְּרָן"
-	},
+	"sefariaHeadword": "תַּגְּרָן",
+	"headwords": [
+		{
+			"text": "תַּגְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

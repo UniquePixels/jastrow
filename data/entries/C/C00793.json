@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00793",
-	"slug": "גיפטי",
-	"headword": {
-		"text": "גִּיפְטִי"
-	},
+	"sefariaHeadword": "גִּיפְטִי",
+	"headwords": [
+		{
+			"text": "גִּיפְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

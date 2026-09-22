@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00477",
-	"slug": "אדרע",
-	"headword": {
-		"text": "אֶדְרַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶדְרַע",
+	"headwords": [
+		{
+			"text": "אֶדְרַע"
+		},
 		{
 			"text": "אֶדְרְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 19,
 		"column": "a"

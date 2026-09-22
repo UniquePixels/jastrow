@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00037",
-	"slug": "לבאים",
-	"headword": {
-		"text": "לְבָאִים"
-	},
+	"sefariaHeadword": "לְבָאִים",
+	"headwords": [
+		{
+			"text": "לְבָאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "a"

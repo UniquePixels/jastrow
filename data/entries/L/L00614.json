@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00614",
-	"slug": "לעיל",
-	"headword": {
-		"text": "לְעֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְעֵיל",
+	"headwords": [
+		{
+			"text": "לְעֵיל"
+		},
 		{
 			"text": "לְעֵילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 714,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00332",
-	"slug": "רווחתא-1",
-	"headword": {
-		"text": "רְוַוחְתָּא"
-	},
+	"sefariaHeadword": "רְוַוחְתָּא",
+	"headwords": [
+		{
+			"text": "רְוַוחְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1457,
 		"column": "b"

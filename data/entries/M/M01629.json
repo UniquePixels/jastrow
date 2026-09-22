@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01629",
-	"slug": "מלקיט",
-	"headword": {
-		"text": "מְלַקֵּיט"
-	},
+	"sefariaHeadword": "מְלַקֵּיט",
+	"headwords": [
+		{
+			"text": "מְלַקֵּיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

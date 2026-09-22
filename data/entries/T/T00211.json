@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00211",
-	"slug": "רגם-1",
-	"headword": {
-		"text": "רָגַם"
-	},
+	"sefariaHeadword": "רָגַם",
+	"headwords": [
+		{
+			"text": "רָגַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1449,
 		"column": "b"

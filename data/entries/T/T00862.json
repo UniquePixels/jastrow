@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00862",
-	"slug": "רסק-2",
-	"headword": {
-		"text": "רְסַק"
-	},
+	"sefariaHeadword": "רְסַק",
+	"headwords": [
+		{
+			"text": "רְסַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "a"

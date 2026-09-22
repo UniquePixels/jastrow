@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01294",
-	"slug": "שלי-5",
-	"headword": {
-		"text": "שֶׁלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁלִי",
+	"headwords": [
+		{
+			"text": "שֶׁלִי"
+		},
 		{
 			"text": "שְׁלִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1582,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00869",
-	"slug": "שיחייא",
-	"headword": {
-		"text": "שִׁיחְיָיא"
-	},
+	"sefariaHeadword": "שִׁיחְיָיא",
+	"headwords": [
+		{
+			"text": "שִׁיחְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

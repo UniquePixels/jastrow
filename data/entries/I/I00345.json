@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00345",
-	"slug": "טייס",
-	"headword": {
-		"text": "טָיִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָיִיס",
+	"headwords": [
+		{
+			"text": "טָיִיס"
+		},
 		{
 			"text": "טָיֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 531,
 		"column": "a"

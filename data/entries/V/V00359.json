@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00359",
-	"slug": "תחיה",
-	"headword": {
-		"text": "תְּחִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחִיָּה",
+	"headwords": [
+		{
+			"text": "תְּחִיָּה"
+		},
 		{
 			"text": "תְּחִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1661,
 		"column": "a"

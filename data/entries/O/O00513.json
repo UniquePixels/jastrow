@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00513",
-	"slug": "סטרנורא",
-	"headword": {
-		"text": "סטרנורא"
-	},
+	"sefariaHeadword": "סטרנורא",
+	"headwords": [
+		{
+			"text": "סטרנורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

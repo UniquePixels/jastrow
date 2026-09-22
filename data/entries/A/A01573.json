@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01573",
-	"slug": "איצא-1",
-	"headword": {
-		"text": "אִיצָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אִיצָא I",
+	"headwords": [
+		{
+			"text": "אִיצָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 59,
 		"column": "a"

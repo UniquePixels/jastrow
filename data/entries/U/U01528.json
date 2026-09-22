@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01528",
-	"slug": "שמרא",
-	"headword": {
-		"text": "שְׁמָרָא"
-	},
+	"sefariaHeadword": "שְׁמָרָא",
+	"headwords": [
+		{
+			"text": "שְׁמָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1601,
 		"column": "a"

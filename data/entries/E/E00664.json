@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00664",
-	"slug": "הנדקא",
-	"headword": {
-		"text": "הִנְדְּקָא"
-	},
+	"sefariaHeadword": "הִנְדְּקָא",
+	"headwords": [
+		{
+			"text": "הִנְדְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02273",
-	"slug": "מצהב",
-	"headword": {
-		"text": "מֻצְהָב"
-	},
+	"sefariaHeadword": "מֻצְהָב",
+	"headwords": [
+		{
+			"text": "מֻצְהָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01050",
-	"slug": "רקק-1",
-	"headword": {
-		"text": "רָקַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָקַק",
+	"headwords": [
+		{
+			"text": "רָקַק"
+		},
 		{
 			"text": "רוּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1497,
 		"column": "b"

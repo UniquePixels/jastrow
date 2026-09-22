@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00194",
-	"slug": "בהרת",
-	"headword": {
-		"text": "בַּהֶרֶת"
-	},
+	"sefariaHeadword": "בַּהֶרֶת",
+	"headwords": [
+		{
+			"text": "בַּהֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "b"

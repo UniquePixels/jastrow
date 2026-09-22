@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03110",
-	"slug": "אריס-4",
-	"headword": {
-		"text": "אֲרִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִיס",
+	"headwords": [
+		{
+			"text": "אֲרִיס"
+		},
 		{
 			"text": "אֲרִיסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 120,
 		"column": "b"

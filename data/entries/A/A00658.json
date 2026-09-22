@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00658",
-	"slug": "אול",
-	"headword": {
-		"text": "אֲוַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲוַל",
+	"headwords": [
+		{
+			"text": "אֲוַל"
+		},
 		{
 			"text": "אָוָול"
 		},
@@ -15,6 +16,7 @@
 			"text": "אֱוִילָא"
 		}
 	],
+	"display": "{0}, {1}, ({2}), {3}",
 	"page": {
 		"number": 25,
 		"column": "b"

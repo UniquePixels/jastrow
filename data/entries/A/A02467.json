@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02467",
-	"slug": "אסמרגדין",
-	"headword": {
-		"text": "אִסְמַרַגְדִּין"
-	},
+	"sefariaHeadword": "אִסְמַרַגְדִּין",
+	"headwords": [
+		{
+			"text": "אִסְמַרַגְדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01168",
-	"slug": "עקושה",
-	"headword": {
-		"text": "עֲקוּשָּׁה"
-	},
+	"sefariaHeadword": "עֲקוּשָּׁה",
+	"headwords": [
+		{
+			"text": "עֲקוּשָּׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "b"

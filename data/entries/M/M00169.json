@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00169",
-	"slug": "מגיפה",
-	"headword": {
-		"text": "מַגֵּיפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגֵּיפָה",
+	"headwords": [
+		{
+			"text": "מַגֵּיפָה"
+		},
 		{
 			"text": "מַגֵּיפְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 728,
 		"column": "a"

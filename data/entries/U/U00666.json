@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00666",
-	"slug": "שחלייא",
-	"headword": {
-		"text": "שִׁחְלַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁחְלַיָּיא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁחְלַיָּיא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1548,
 		"column": "b"

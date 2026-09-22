@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00888",
-	"slug": "מחלה-1",
-	"headword": {
-		"text": "מְחִלָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחִלָּה",
+	"headwords": [
+		{
+			"text": "מְחִלָּה"
+		},
 		{
 			"text": "מְחִילָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 761,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02339",
-	"slug": "אסורא-2",
-	"headword": {
-		"text": "אִסּוּרָא"
-	},
+	"sefariaHeadword": "אִסּוּרָא",
+	"headwords": [
+		{
+			"text": "אִסּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "b"

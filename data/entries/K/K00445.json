@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00445",
-	"slug": "כזיב",
-	"headword": {
-		"text": "כְּזִיב"
-	},
+	"sefariaHeadword": "כְּזִיב",
+	"headwords": [
+		{
+			"text": "כְּזִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

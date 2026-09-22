@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01853",
-	"slug": "פרכוי",
-	"headword": {
-		"text": "פַּרְכְּוִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְכְּוִי",
+	"headwords": [
+		{
+			"text": "פַּרְכְּוִי"
+		},
 		{
 			"text": "פַּרְכְוַן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1229,
 		"column": "b"

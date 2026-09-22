@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00195",
-	"slug": "שבשתא",
-	"headword": {
-		"text": "שְׁבִשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבִשְׁתָּא",
+	"headwords": [
 		{
-			"text": "שְׁבִישְׁ׳"
+			"text": "שְׁבִשְׁתָּא"
+		},
+		{
+			"text": "שְׁבִישְׁ׳",
+			"partial": true
 		},
 		{
 			"text": "שַׁבֶּשְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1519,
 		"column": "a"

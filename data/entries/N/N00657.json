@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00657",
-	"slug": "נייה",
-	"headword": {
-		"text": "נִיָּיה"
-	},
+	"sefariaHeadword": "נִיָּיה",
+	"headwords": [
+		{
+			"text": "נִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

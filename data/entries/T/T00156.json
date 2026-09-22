@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00156",
-	"slug": "רגב",
-	"headword": {
-		"text": "רֶגֶב"
-	},
+	"sefariaHeadword": "רֶגֶב",
+	"headwords": [
+		{
+			"text": "רֶגֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

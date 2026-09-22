@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00111",
-	"slug": "רבית-1",
-	"headword": {
-		"text": "רִבִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבִּית",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִבִּית"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1443,
 		"column": "a"

@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "M02850",
-	"slug": "משח-5",
-	"headword": {
-		"text": "מְשַׁח",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשַׁח III",
+	"headwords": [
+		{
+			"text": "מְשַׁח",
+			"homograph": 3
+		},
 		{
 			"text": "מִשְׁחָא"
 		},
 		{
 			"text": "מִישְׁ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2} I",
 	"page": {
 		"number": 851,
 		"column": "a"

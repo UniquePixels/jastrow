@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00869",
-	"slug": "קידה-1",
-	"headword": {
-		"text": "קִידָּה"
-	},
+	"sefariaHeadword": "קִידָּה",
+	"headwords": [
+		{
+			"text": "קִידָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

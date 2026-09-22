@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M03081",
-	"slug": "מתן-3",
-	"headword": {
-		"text": "מָתַן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מָתַן ²",
+	"headwords": [
+		{
+			"text": "מָתַן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 863,
 		"column": "a"

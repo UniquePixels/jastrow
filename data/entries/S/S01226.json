@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01226",
-	"slug": "קיתון-1",
-	"headword": {
-		"text": "קִיתוֹן"
-	},
+	"sefariaHeadword": "קִיתוֹן",
+	"headwords": [
+		{
+			"text": "קִיתוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1371,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02699",
-	"slug": "מרכבא",
-	"headword": {
-		"text": "מַרְכְּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְכְּבָא",
+	"headwords": [
 		{
-			"text": "מֶרְ׳"
+			"text": "מַרְכְּבָא"
+		},
+		{
+			"text": "מֶרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 844,
 		"column": "a"

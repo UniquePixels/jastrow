@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03439",
-	"slug": "אתפלגות",
-	"headword": {
-		"text": "אתפלגות"
-	},
+	"sefariaHeadword": "אתפלגות",
+	"headwords": [
+		{
+			"text": "אתפלגות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

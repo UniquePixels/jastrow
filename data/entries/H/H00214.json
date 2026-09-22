@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00214",
-	"slug": "חדר-3",
-	"headword": {
-		"text": "חֶדֶר"
-	},
+	"sefariaHeadword": "חֶדֶר",
+	"headwords": [
+		{
+			"text": "חֶדֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 427,
 		"column": "a"

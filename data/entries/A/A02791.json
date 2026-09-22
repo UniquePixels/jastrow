@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02791",
-	"slug": "אפקתא",
-	"headword": {
-		"text": "אַפְקְתָא"
-	},
+	"sefariaHeadword": "אַפְקְתָא",
+	"headwords": [
+		{
+			"text": "אַפְקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "b"

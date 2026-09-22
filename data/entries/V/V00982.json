@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00982",
-	"slug": "תריאקה",
-	"headword": {
-		"text": "תִּרְיָאקָה"
-	},
+	"sefariaHeadword": "תִּרְיָאקָה",
+	"headwords": [
+		{
+			"text": "תִּרְיָאקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A01592",
-	"slug": "איקוניא-1",
-	"headword": {
-		"text": "אִיקוֹנְיָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*אִיקוֹנְיָא I",
+	"headwords": [
+		{
+			"text": "אִיקוֹנְיָא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 60,
 		"column": "a"

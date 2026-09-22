@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00750",
-	"slug": "בישתא",
-	"headword": {
-		"text": "בִּישְׁתָּא"
-	},
+	"sefariaHeadword": "בִּישְׁתָּא",
+	"headwords": [
+		{
+			"text": "בִּישְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "b"

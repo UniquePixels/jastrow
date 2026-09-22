@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00445",
-	"slug": "הינא-2",
-	"headword": {
-		"text": "הֶינָא"
-	},
+	"sefariaHeadword": "הֶינָא",
+	"headwords": [
+		{
+			"text": "הֶינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"
@@ -13,7 +17,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (ἕνα, acc. of εἶς) <i>one</i>, v. <he>הֶן</he>.",
+			"gloss": "m. (ἕνα, acc. of εἶς) <i>one</i>, v. <he>הֶן</he>.",
 			"units": []
 		}
 	]

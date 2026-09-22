@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00774",
-	"slug": "ניקיון",
-	"headword": {
-		"text": "נִיקָּיוֹן"
-	},
+	"sefariaHeadword": "נִיקָּיוֹן",
+	"headwords": [
+		{
+			"text": "נִיקָּיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "b"

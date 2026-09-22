@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00313",
-	"slug": "יטבת",
-	"headword": {
-		"text": "יָטְבַת"
-	},
+	"sefariaHeadword": "יָטְבַת",
+	"headwords": [
+		{
+			"text": "יָטְבַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

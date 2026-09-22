@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00363",
-	"slug": "דורון-2",
-	"headword": {
-		"text": "דּוֹרוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דּוֹרוֹן II",
+	"headwords": [
+		{
+			"text": "דּוֹרוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 289,
 		"column": "b"

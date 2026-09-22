@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01380",
-	"slug": "גרע-2",
-	"headword": {
-		"text": "גְּרַע"
-	},
+	"sefariaHeadword": "גְּרַע",
+	"headwords": [
+		{
+			"text": "גְּרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 271,
 		"column": "a"

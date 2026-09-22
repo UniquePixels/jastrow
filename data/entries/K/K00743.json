@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00743",
-	"slug": "כלינסא",
-	"headword": {
-		"text": "כְּלִינְסָא"
-	},
+	"sefariaHeadword": "כְּלִינְסָא",
+	"headwords": [
+		{
+			"text": "כְּלִינְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

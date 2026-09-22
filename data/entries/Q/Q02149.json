@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02149",
-	"slug": "פתחון",
-	"headword": {
-		"text": "פִּתְחוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּתְחוֹן",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּתְחוֹן"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1252,
 		"column": "a"

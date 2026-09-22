@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00365",
-	"slug": "מהירות",
-	"headword": {
-		"text": "מְהִירוּת"
-	},
+	"sefariaHeadword": "מְהִירוּת",
+	"headwords": [
+		{
+			"text": "מְהִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

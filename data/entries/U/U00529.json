@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00529",
-	"slug": "שוקיותא",
-	"headword": {
-		"text": "שׁוֹקְיוּתָא"
-	},
+	"sefariaHeadword": "שׁוֹקְיוּתָא",
+	"headwords": [
+		{
+			"text": "שׁוֹקְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "a"

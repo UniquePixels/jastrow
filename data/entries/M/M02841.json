@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02841",
-	"slug": "משורה",
-	"headword": {
-		"text": "מְשׂוּרָה"
-	},
+	"sefariaHeadword": "מְשׂוּרָה",
+	"headwords": [
+		{
+			"text": "מְשׂוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00514",
-	"slug": "מולתא",
-	"headword": {
-		"text": "מוּלְתָא"
-	},
+	"sefariaHeadword": "מוּלְתָא",
+	"headwords": [
+		{
+			"text": "מוּלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "a"

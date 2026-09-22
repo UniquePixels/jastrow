@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00378",
-	"slug": "ילולא",
-	"headword": {
-		"text": "יַלּוֹלָא"
-	},
+	"sefariaHeadword": "יַלּוֹלָא",
+	"headwords": [
+		{
+			"text": "יַלּוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 578,
 		"column": "b"

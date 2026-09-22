@@ -36,6 +36,7 @@ import {
 	checkTextConservation,
 	mark,
 } from './migrate/gates.ts';
+import { normalizeForWrite } from './migrate/normalize.ts';
 import { type RunOptions, runOptions } from './migrate/options.ts';
 import { unbasedOrphans } from './migrate/orphan-refs.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
@@ -482,12 +483,35 @@ function formatTruth(): void {
 }
 
 /** The one write of the whole pipeline: 32,512 files, formatted, then
- * the report again so its `written` count is on disk. */
+ * the report again so its `written` count is on disk.
+ *
+ * Every entry passes through `normalizeForWrite` on the way to disk
+ * (#110): this is the ONE place stored text is rewritten, and it is
+ * rewritten only into its own NFC spelling, under an assertion that
+ * the rewrite is lossless. It runs here, after the gates have read
+ * the in-memory truth, so no gate is reading a value this step
+ * produced. */
 async function writeAll(
 	truths: readonly TruthEntry[],
 	report: Report,
 ): Promise<void> {
-	for (const truth of truths) {
+	let normalizedStrings = 0;
+	let normalizedFiles = 0;
+	// Every entry is normalized BEFORE the first file is written. A
+	// refusal has to refuse the whole write, and normalizing inside the
+	// write loop would instead leave the entries before the offending
+	// one on disk, unformatted, with `refuseUnlessEmpty` blocking the
+	// re-run — the same failure `biomeBinary` is resolved early to
+	// avoid.
+	const normalized = truths.map((truth) => {
+		const [value, changed] = normalizeForWrite(truth, truth.id);
+		if (changed > 0) {
+			normalizedStrings += changed;
+			normalizedFiles++;
+		}
+		return value;
+	});
+	for (const truth of normalized) {
 		await Bun.write(
 			`${OUT_DIR}/${letterDir(truth.id)}/${truth.id}.json`,
 			`${JSON.stringify(truth, null, '\t')}\n`,
@@ -497,6 +521,9 @@ async function writeAll(
 	formatTruth();
 	await writeReport(report);
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
+	console.log(
+		`NFC on write: ${normalizedStrings} string(s) normalized in ${normalizedFiles} file(s)`,
+	);
 }
 
 /** The run summary on stdout: one line per gate, the row-kind counts

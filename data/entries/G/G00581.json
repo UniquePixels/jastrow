@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "G00581",
-	"slug": "זניתא",
-	"headword": {
-		"text": "זַנְיְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַנְיְתָא",
+	"headwords": [
+		{
+			"text": "זַנְיְתָא"
+		},
 		{
 			"text": "זְנֵיתָא"
 		},
 		{
-			"text": "זַנָּיָי׳"
+			"text": "זַנָּיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 406,
 		"column": "b"

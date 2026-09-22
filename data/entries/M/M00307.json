@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00307",
-	"slug": "מדלעת",
-	"headword": {
-		"text": "מִדְלַעַת"
-	},
+	"sefariaHeadword": "מִדְלַעַת",
+	"headwords": [
+		{
+			"text": "מִדְלַעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

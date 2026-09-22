@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01652",
-	"slug": "פרוזביון",
-	"headword": {
-		"text": "פְּרוֹזְבִּיּוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּרוֹזְבִּיֹּון",
+	"headwords": [
+		{
+			"text": "פְּרוֹזְבִּיּוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1218,
 		"column": "b"

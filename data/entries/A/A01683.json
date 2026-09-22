@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01683",
-	"slug": "אכזריות",
-	"headword": {
-		"text": "אַכְזְרִיּוּת"
-	},
+	"sefariaHeadword": "אַכְזְרִיּוּת",
+	"headwords": [
+		{
+			"text": "אַכְזְרִיּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

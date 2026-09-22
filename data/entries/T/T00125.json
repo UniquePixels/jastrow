@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00125",
-	"slug": "רבנותא",
-	"headword": {
-		"text": "רַבָּנוּתָא"
-	},
+	"sefariaHeadword": "רַבָּנוּתָא",
+	"headwords": [
+		{
+			"text": "רַבָּנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1444,
 		"column": "a"

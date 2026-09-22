@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00241",
-	"slug": "רדי-1",
-	"headword": {
-		"text": "רדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רדי",
+	"headwords": [
+		{
+			"text": "רדי"
+		},
 		{
 			"text": "רָדָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1451,
 		"column": "b"

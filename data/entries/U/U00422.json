@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00422",
-	"slug": "שולטיתא",
-	"headword": {
-		"text": "שׁוּלְטִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שׁוּלְטִיתָא",
+	"headwords": [
+		{
+			"text": "שׁוּלְטִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1534,
 		"column": "b"

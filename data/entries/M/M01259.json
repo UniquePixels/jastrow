@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01259",
-	"slug": "מיעוט",
-	"headword": {
-		"text": "מִיעוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיעוּט",
+	"headwords": [
+		{
+			"text": "מִיעוּט"
+		},
 		{
 			"text": "מִעוּט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 777,
 		"column": "b"

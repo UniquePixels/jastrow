@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02986",
-	"slug": "ארגזותא",
-	"headword": {
-		"text": "אַרְגָּזוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְגָּזוּתָא",
+	"headwords": [
+		{
+			"text": "אַרְגָּזוּתָא"
+		},
 		{
 			"text": "אַרְגְּזָיוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 115,
 		"column": "a"

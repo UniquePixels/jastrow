@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01751",
-	"slug": "חרץ-3",
-	"headword": {
-		"text": "חֶרֶץ"
-	},
+	"sefariaHeadword": "חֶרֶץ",
+	"headwords": [
+		{
+			"text": "חֶרֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "b"

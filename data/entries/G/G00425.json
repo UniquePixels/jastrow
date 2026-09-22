@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00425",
-	"slug": "זירזא",
-	"headword": {
-		"text": "זִירְזָא"
-	},
+	"sefariaHeadword": "זִירְזָא",
+	"headwords": [
+		{
+			"text": "זִירְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

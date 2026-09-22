@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00562",
-	"slug": "נטילותא",
-	"headword": {
-		"text": "נְטִילוּתָא"
-	},
+	"sefariaHeadword": "נְטִילוּתָא",
+	"headwords": [
+		{
+			"text": "נְטִילוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "a"

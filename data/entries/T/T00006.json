@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00006",
-	"slug": "ראדו",
-	"headword": {
-		"text": "רָאדוּ"
-	},
+	"sefariaHeadword": "רָאדוּ",
+	"headwords": [
+		{
+			"text": "רָאדוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1435,
 		"column": "a"

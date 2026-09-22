@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00322",
-	"slug": "ציוותא",
-	"headword": {
-		"text": "צִיוְותָא"
-	},
+	"sefariaHeadword": "צִיוְותָא",
+	"headwords": [
+		{
+			"text": "צִיוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "b"

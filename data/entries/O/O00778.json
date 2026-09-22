@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00778",
-	"slug": "סיף-2",
-	"headword": {
-		"text": "סַיִּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיִּף",
+	"headwords": [
+		{
+			"text": "סַיִּף"
+		},
 		{
 			"text": "סַיְּפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "סֵיפָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 984,
 		"column": "b"

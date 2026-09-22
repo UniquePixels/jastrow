@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00940",
-	"slug": "בנויא",
-	"headword": {
-		"text": "בָּנוֹיָא"
-	},
+	"sefariaHeadword": "בָּנוֹיָא",
+	"headwords": [
+		{
+			"text": "בָּנוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

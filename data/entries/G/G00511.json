@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00511",
-	"slug": "זמורה",
-	"headword": {
-		"text": "זְמוֹרָה"
-	},
+	"sefariaHeadword": "זְמוֹרָה",
+	"headwords": [
+		{
+			"text": "זְמוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

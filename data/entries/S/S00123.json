@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00123",
-	"slug": "קדושה",
-	"headword": {
-		"text": "קְדוּשָּׁה"
-	},
+	"sefariaHeadword": "קְדוּשָּׁה",
+	"headwords": [
+		{
+			"text": "קְדוּשָּׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1314,
 		"column": "a"

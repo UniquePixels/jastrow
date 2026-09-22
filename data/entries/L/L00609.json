@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00609",
-	"slug": "לעיב",
-	"headword": {
-		"text": "לְעֵיב"
-	},
+	"sefariaHeadword": "לְעֵיב",
+	"headwords": [
+		{
+			"text": "לְעֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

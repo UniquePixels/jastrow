@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01780",
-	"slug": "אלה-1",
-	"headword": {
-		"text": "אָלָה"
-	},
+	"sefariaHeadword": "אָלָה",
+	"headwords": [
+		{
+			"text": "אָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "b"

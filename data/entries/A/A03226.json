@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03226",
-	"slug": "ארעיתא",
-	"headword": {
-		"text": "אַרְעִיתָא"
-	},
+	"sefariaHeadword": "אַרְעִיתָא",
+	"headwords": [
+		{
+			"text": "אַרְעִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

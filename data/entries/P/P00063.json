@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00063",
-	"slug": "עבר-5",
-	"headword": {
-		"text": "עֵבַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵבַר",
+	"headwords": [
+		{
+			"text": "עֵבַר"
+		},
 		{
 			"text": "עִבַּר"
 		},
@@ -12,9 +13,11 @@
 			"text": "עֶבְרָא"
 		},
 		{
-			"text": "עָ׳"
+			"text": "עָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1040,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00087",
-	"slug": "נבילא",
-	"headword": {
-		"text": "נְבֵילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבֵילָא",
+	"headwords": [
+		{
+			"text": "נְבֵילָא"
+		},
 		{
 			"text": "נְבֵילָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְבֵילְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 869,
 		"column": "a"

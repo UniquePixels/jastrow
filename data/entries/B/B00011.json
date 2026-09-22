@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00011",
-	"slug": "באגון",
-	"headword": {
-		"text": "באגון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "באגון",
+	"headwords": [
+		{
+			"text": "באגון"
+		},
 		{
 			"text": "באגין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 134,
 		"column": "b"

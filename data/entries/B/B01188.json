@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01188",
-	"slug": "ברדס",
-	"headword": {
-		"text": "ברדס"
-	},
+	"sefariaHeadword": "ברדס",
+	"headwords": [
+		{
+			"text": "ברדס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

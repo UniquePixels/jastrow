@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01007",
-	"slug": "נער-2",
-	"headword": {
-		"text": "נָעַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נָעַר II",
+	"headwords": [
+		{
+			"text": "נָעַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 921,
 		"column": "a"

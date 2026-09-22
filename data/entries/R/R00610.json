@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00610",
-	"slug": "צנון",
-	"headword": {
-		"text": "צְנוֹן"
-	},
+	"sefariaHeadword": "צְנוֹן",
+	"headwords": [
+		{
+			"text": "צְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1290,
 		"column": "b"

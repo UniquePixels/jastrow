@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00343",
-	"slug": "גוזאה",
-	"headword": {
-		"text": "גַּוְזָאָה"
-	},
+	"sefariaHeadword": "גַּוְזָאָה",
+	"headwords": [
+		{
+			"text": "גַּוְזָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "a"

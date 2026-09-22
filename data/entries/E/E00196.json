@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00196",
-	"slug": "הוגנא",
-	"headword": {
-		"text": "הוֹגָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוֹגָנָא",
+	"headwords": [
+		{
+			"text": "הוֹגָנָא"
+		},
 		{
 			"text": "הוֹגְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 337,
 		"column": "a"
@@ -18,7 +20,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (<he>הגן</he>, v. <cite ref=\"E00195\">preced.</cite> wds.; v. meanings of Arab. stem haġan in Fl. to Levy Targ. Dict. I, 423ᵃ) <i>young camel,</i> or <i>dromedary</i>. Pl. <cite ref=\"E00198\"><he>הוֹגְנִין</he></cite>, <he>הוֹגְנֵי</he>. ",
+			"gloss": "m. (<he>הגן</he>, v. <cite ref=\"E00195\">preced.</cite> wds.; v. meanings of Arab. stem haġan in Fl. to Levy Targ. Dict. I, 423ᵃ) <i>young camel,</i> or <i>dromedary</i>. Pl. <cite ref=\"E00198\"><he>הוֹגְנִין</he></cite>, <he>הוֹגְנֵי</he>. ",
 			"units": [
 				"<cite ref=\"Targum Jonathan on Isaiah 60:6\">Targ. Is. LX, 6</cite> (ed. Lag. <he>תגרי</he>, h. text <he>בכרי</he>). ",
 				"<cite ref=\"Targum of II Chronicles 9:1\">Targ. II Chr. IX, 1</cite>.—",

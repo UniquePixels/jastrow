@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00023",
-	"slug": "ראם-2",
-	"headword": {
-		"text": "רָאִם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָאִם",
+	"headwords": [
+		{
+			"text": "רָאִם"
+		},
 		{
 			"text": "רָאֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1437,
 		"column": "a"

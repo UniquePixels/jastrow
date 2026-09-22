@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "H00514",
-	"slug": "חזונא-2",
-	"headword": {
-		"text": "חֶזְוָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶזְוָנָא",
+	"headwords": [
 		{
-			"text": "חֵיזְוָ׳"
+			"text": "חֶזְוָנָא"
 		},
 		{
-			"text": "חֶזְוָו׳"
+			"text": "חֵיזְוָ׳",
+			"partial": true
 		},
 		{
-			"text": "חִזְ׳"
+			"text": "חֶזְוָו׳",
+			"partial": true
+		},
+		{
+			"text": "חִזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 442,
 		"column": "b"

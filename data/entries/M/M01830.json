@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01830",
-	"slug": "מסאחתא",
-	"headword": {
-		"text": "מסאחתא"
-	},
+	"sefariaHeadword": "מסאחתא",
+	"headwords": [
+		{
+			"text": "מסאחתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 803,
 		"column": "a"

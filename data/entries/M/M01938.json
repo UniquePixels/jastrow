@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01938",
-	"slug": "מסך-1",
-	"headword": {
-		"text": "מָסַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָסַךְ I",
+	"headwords": [
+		{
+			"text": "מָסַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 807,
 		"column": "a"

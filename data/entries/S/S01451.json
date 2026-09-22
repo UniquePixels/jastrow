@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01451",
-	"slug": "קמוץ",
-	"headword": {
-		"text": "קִמּוֹץ"
-	},
+	"sefariaHeadword": "קִמּוֹץ",
+	"headwords": [
+		{
+			"text": "קִמּוֹץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

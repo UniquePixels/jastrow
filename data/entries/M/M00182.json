@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00182",
-	"slug": "מגלבא",
-	"headword": {
-		"text": "מַגְלָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְלָבָא",
+	"headwords": [
+		{
+			"text": "מַגְלָבָא"
+		},
 		{
 			"text": "מַגְלְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 729,
 		"column": "a"

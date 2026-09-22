@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01551",
-	"slug": "חקוקא",
-	"headword": {
-		"text": "חֲקוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲקוֹקָא",
+	"headwords": [
+		{
+			"text": "חֲקוֹקָא"
+		},
 		{
 			"text": "חֲקוֹקָאָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲקוֹקָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 496,
 		"column": "b"

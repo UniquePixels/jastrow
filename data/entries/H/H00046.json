@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00046",
-	"slug": "חבטי",
-	"headword": {
-		"text": "חבטי"
-	},
+	"sefariaHeadword": "חבטי",
+	"headwords": [
+		{
+			"text": "חבטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "a"

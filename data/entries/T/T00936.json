@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00936",
-	"slug": "רפוסא-2",
-	"headword": {
-		"text": "רפוסא"
-	},
+	"sefariaHeadword": "רפוסא",
+	"headwords": [
+		{
+			"text": "רפוסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "b"

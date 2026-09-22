@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01997",
-	"slug": "קרטיגנא",
-	"headword": {
-		"text": "קַרְטִיגְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטִיגְנָא",
+	"headwords": [
+		{
+			"text": "קַרְטִיגְנָא"
+		},
 		{
 			"text": "קרטיגנון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1416,
 		"column": "b"

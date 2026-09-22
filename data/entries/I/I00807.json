@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00807",
-	"slug": "טריסיס",
-	"headword": {
-		"text": "טריסיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טריסיס",
+	"headwords": [
+		{
+			"text": "טריסיס"
+		},
 		{
 			"text": "טריסים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 554,
 		"column": "a"

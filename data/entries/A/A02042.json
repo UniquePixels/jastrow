@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02042",
-	"slug": "אמנה-2",
-	"headword": {
-		"text": "אֲמָנָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲמָנָה II",
+	"headwords": [
+		{
+			"text": "אֲמָנָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 78,
 		"column": "a"

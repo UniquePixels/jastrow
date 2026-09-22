@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02044",
-	"slug": "פרת-4",
-	"headword": {
-		"text": "פְּרַת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּרַת II",
+	"headwords": [
+		{
+			"text": "פְּרַת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1244,
 		"column": "b"

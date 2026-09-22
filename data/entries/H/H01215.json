@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01215",
-	"slug": "חמץ-5",
-	"headword": {
-		"text": "חֲמָץ"
-	},
+	"sefariaHeadword": "חֲמָץ",
+	"headwords": [
+		{
+			"text": "חֲמָץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 479,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

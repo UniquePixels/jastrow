@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02418",
-	"slug": "מקילון",
-	"headword": {
-		"text": "מְקִילוֹן"
-	},
+	"sefariaHeadword": "מְקִילוֹן",
+	"headwords": [
+		{
+			"text": "מְקִילוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "a"

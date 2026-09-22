@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00272",
-	"slug": "נהם-2",
-	"headword": {
-		"text": "נְהַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהַם",
+	"headwords": [
+		{
+			"text": "נְהַם"
+		},
 		{
 			"text": "נְהֵים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 881,
 		"column": "b"

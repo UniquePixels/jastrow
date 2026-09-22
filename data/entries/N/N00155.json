@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00155",
-	"slug": "נגיד-4",
-	"headword": {
-		"text": "נְגִיד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגִיד ²",
+	"headwords": [
+		{
+			"text": "נְגִיד",
+			"disambiguator": 2
+		},
 		{
 			"text": "נְגִידָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 874,
 		"column": "a"

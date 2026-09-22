@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00343",
-	"slug": "רוח-1",
-	"headword": {
-		"text": "רָוַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָוַח",
+	"headwords": [
+		{
+			"text": "רָוַח"
+		},
 		{
 			"text": "רְוַח"
 		},
@@ -12,6 +13,7 @@
 			"text": "רֶוַח"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1458,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01761",
-	"slug": "קפנדריא",
-	"headword": {
-		"text": "קָפַּנְדַּרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָפַּנְדַּרְיָא",
+	"headwords": [
 		{
-			"text": "קוּפַּ׳"
+			"text": "קָפַּנְדַּרְיָא"
+		},
+		{
+			"text": "קוּפַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1402,
 		"column": "b"

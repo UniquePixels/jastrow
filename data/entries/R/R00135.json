@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00135",
-	"slug": "צהורא",
-	"headword": {
-		"text": "צְהוֹרָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צְהוֹרָא",
+	"headwords": [
+		{
+			"text": "צְהוֹרָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

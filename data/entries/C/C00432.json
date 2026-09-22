@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00432",
-	"slug": "גונבת",
-	"headword": {
-		"text": "גּוֹנֶבֶת"
-	},
+	"sefariaHeadword": "גּוֹנֶבֶת",
+	"headwords": [
+		{
+			"text": "גּוֹנֶבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

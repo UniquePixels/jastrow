@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "L00322",
-	"slug": "לוקן",
-	"headword": {
-		"text": "לַוְקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַוְקָן",
+	"headwords": [
 		{
-			"text": "לַוְו׳"
+			"text": "לַוְקָן"
 		},
 		{
-			"text": "לַבְ׳"
+			"text": "לַוְו׳",
+			"partial": true
+		},
+		{
+			"text": "לַבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 701,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00566",
-	"slug": "קוראה",
-	"headword": {
-		"text": "קוֹרֵאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹרֵאָה",
+	"headwords": [
 		{
-			"text": "קוֹרֵי׳"
+			"text": "קוֹרֵאָה"
+		},
+		{
+			"text": "קוֹרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1341,
 		"column": "a"

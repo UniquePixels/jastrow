@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00707",
-	"slug": "לשכה",
-	"headword": {
-		"text": "לִשְׁכָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִשְׁכָּה",
+	"headwords": [
 		{
-			"text": "לִישְׁ׳"
+			"text": "לִשְׁכָּה"
+		},
+		{
+			"text": "לִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 720,
 		"column": "a"

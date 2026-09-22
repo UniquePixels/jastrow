@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00690",
-	"slug": "הנפק",
-	"headword": {
-		"text": "הֶנְפֵּק"
-	},
+	"sefariaHeadword": "הֶנְפֵּק",
+	"headwords": [
+		{
+			"text": "הֶנְפֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 358,
 		"column": "b"

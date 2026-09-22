@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00243",
-	"slug": "חובט",
-	"headword": {
-		"text": "חוֹבִט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹבִט",
+	"headwords": [
+		{
+			"text": "חוֹבִט"
+		},
 		{
 			"text": "חוֹבְטִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 429,
 		"column": "b"

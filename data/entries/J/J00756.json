@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00756",
-	"slug": "יתרן",
-	"headword": {
-		"text": "יִתְרָן"
-	},
+	"sefariaHeadword": "יִתְרָן",
+	"headwords": [
+		{
+			"text": "יִתְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 605,
 		"column": "b"

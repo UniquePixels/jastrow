@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01121",
-	"slug": "כרוכסין",
-	"headword": {
-		"text": "כרוכסין"
-	},
+	"sefariaHeadword": "כרוכסין",
+	"headwords": [
+		{
+			"text": "כרוכסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00498",
-	"slug": "הך-2",
-	"headword": {
-		"text": "הָךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָךְ",
+	"headwords": [
+		{
+			"text": "הָךְ"
+		},
 		{
 			"text": "הַךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 350,
 		"column": "a"

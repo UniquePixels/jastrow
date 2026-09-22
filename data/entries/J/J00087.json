@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00087",
-	"slug": "יג״ל",
-	"headword": {
-		"text": "יג״ל"
-	},
+	"sefariaHeadword": "יג\"ל",
+	"headwords": [
+		{
+			"text": "יג״ל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 563,
 		"column": "a"

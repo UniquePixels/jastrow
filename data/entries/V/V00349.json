@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00349",
-	"slug": "תחבולה",
-	"headword": {
-		"text": "תַּחְבּוּלָה"
-	},
+	"sefariaHeadword": "תַּחְבּוּלָה",
+	"headwords": [
+		{
+			"text": "תַּחְבּוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

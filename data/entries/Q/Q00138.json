@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00138",
-	"slug": "פדרת",
-	"headword": {
-		"text": "פדרת"
-	},
+	"sefariaHeadword": "פדרת",
+	"headwords": [
+		{
+			"text": "פדרת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "a"

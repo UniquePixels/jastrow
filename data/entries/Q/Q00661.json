@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00661",
-	"slug": "פיל-2",
-	"headword": {
-		"text": "פִּיל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּיל I",
+	"headwords": [
+		{
+			"text": "פִּיל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1163,
 		"column": "a"

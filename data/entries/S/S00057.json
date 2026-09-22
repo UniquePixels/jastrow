@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00057",
-	"slug": "קבל-1",
-	"headword": {
-		"text": "קָבַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָבַל I",
+	"headwords": [
+		{
+			"text": "קָבַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1308,
 		"column": "b"

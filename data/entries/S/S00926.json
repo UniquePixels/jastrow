@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00926",
-	"slug": "קייום",
-	"headword": {
-		"text": "קִיּיוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיּיוּם",
+	"headwords": [
+		{
+			"text": "קִיּיוּם"
+		},
 		{
 			"text": "קִיּיוּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1358,
 		"column": "b"

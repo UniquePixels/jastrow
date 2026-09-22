@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01539",
-	"slug": "מלטט",
-	"headword": {
-		"text": "מַלְטֵט"
-	},
+	"sefariaHeadword": "מַלְטֵט",
+	"headwords": [
+		{
+			"text": "מַלְטֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "b"

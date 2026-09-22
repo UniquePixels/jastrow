@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00401",
-	"slug": "עזוז",
-	"headword": {
-		"text": "עִזּוּז"
-	},
+	"sefariaHeadword": "עִזּוּז",
+	"headwords": [
+		{
+			"text": "עִזּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1061,
 		"column": "a"

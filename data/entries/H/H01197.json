@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01197",
-	"slug": "חמל",
-	"headword": {
-		"text": "חָמַל"
-	},
+	"sefariaHeadword": "חָמַל",
+	"headwords": [
+		{
+			"text": "חָמַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03252",
-	"slug": "ארתוקופיון",
-	"headword": {
-		"text": "ארתוקופיון"
-	},
+	"sefariaHeadword": "ארתוקופיון",
+	"headwords": [
+		{
+			"text": "ארתוקופיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "b"

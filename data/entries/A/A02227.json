@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02227",
-	"slug": "אנים",
-	"headword": {
-		"text": "אנים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנים",
+	"headwords": [
+		{
+			"text": "אנים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 85,
 		"column": "a"

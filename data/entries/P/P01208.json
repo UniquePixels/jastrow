@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01208",
-	"slug": "עקס",
-	"headword": {
-		"text": "עֲקַס"
-	},
+	"sefariaHeadword": "עֲקַס",
+	"headwords": [
+		{
+			"text": "עֲקַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

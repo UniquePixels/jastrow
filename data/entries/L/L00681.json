@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00681",
-	"slug": "לקטיות",
-	"headword": {
-		"text": "לקטיות"
-	},
+	"sefariaHeadword": "לקטיות",
+	"headwords": [
+		{
+			"text": "לקטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 718,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00690",
-	"slug": "ישיוין",
-	"headword": {
-		"text": "יְשִׁיוִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְשִׁיוִין",
+	"headwords": [
+		{
+			"text": "יְשִׁיוִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 600,
 		"column": "b"

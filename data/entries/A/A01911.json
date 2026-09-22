@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01911",
-	"slug": "אלמוג",
-	"headword": {
-		"text": "אַלְמוּג"
-	},
+	"sefariaHeadword": "אַלְמוּג",
+	"headwords": [
+		{
+			"text": "אַלְמוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "b"

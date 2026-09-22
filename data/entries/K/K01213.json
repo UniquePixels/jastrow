@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01213",
-	"slug": "כרכמית",
-	"headword": {
-		"text": "כַּרְכְּמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְכְּמִית",
+	"headwords": [
 		{
-			"text": "כּוּרְ׳"
+			"text": "כַּרְכְּמִית"
+		},
+		{
+			"text": "כּוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 670,
 		"column": "a"

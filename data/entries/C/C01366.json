@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01366",
-	"slug": "גרמניא",
-	"headword": {
-		"text": "גִּרְמַנְיָא"
-	},
+	"sefariaHeadword": "גִּרְמַנְיָא",
+	"headwords": [
+		{
+			"text": "גִּרְמַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "b"

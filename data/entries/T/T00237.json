@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00237",
-	"slug": "רד״ו",
-	"headword": {
-		"text": "רד״ו"
-	},
+	"sefariaHeadword": "רד\"ו",
+	"headwords": [
+		{
+			"text": "רד״ו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1451,
 		"column": "b"

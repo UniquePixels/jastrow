@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02031",
-	"slug": "מסרתא-1",
-	"headword": {
-		"text": "מַסְרֵתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַסְרֵתָא",
+	"headwords": [
 		{
-			"text": "מַסְרֵי׳"
+			"text": "מַסְרֵתָא"
+		},
+		{
+			"text": "מַסְרֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 812,
 		"column": "a"

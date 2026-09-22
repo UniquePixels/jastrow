@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01948",
-	"slug": "מסכן-2",
-	"headword": {
-		"text": "מִסְכֵּן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִסְכֵּן I",
+	"headwords": [
+		{
+			"text": "מִסְכֵּן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 807,
 		"column": "b"

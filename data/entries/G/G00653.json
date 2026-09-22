@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00653",
-	"slug": "זקק-2",
-	"headword": {
-		"text": "זְקַק"
-	},
+	"sefariaHeadword": "זְקַק",
+	"headwords": [
+		{
+			"text": "זְקַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 410,
 		"column": "b"

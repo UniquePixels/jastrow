@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00211",
-	"slug": "מגרומתא",
-	"headword": {
-		"text": "מַגְרוּמְתָּא"
-	},
+	"sefariaHeadword": "מַגְרוּמְתָּא",
+	"headwords": [
+		{
+			"text": "מַגְרוּמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00940",
-	"slug": "כסכסייך",
-	"headword": {
-		"text": "כסכסייך"
-	},
+	"sefariaHeadword": "כסכסייך",
+	"headwords": [
+		{
+			"text": "כסכסייך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "b"

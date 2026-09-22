@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01057",
-	"slug": "פליטר",
-	"headword": {
-		"text": "פְּלֵיטַר"
-	},
+	"sefariaHeadword": "פְּלֵיטַר",
+	"headwords": [
+		{
+			"text": "פְּלֵיטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

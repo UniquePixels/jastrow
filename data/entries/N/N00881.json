@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00881",
-	"slug": "נמל",
-	"headword": {
-		"text": "נָמֵל"
-	},
+	"sefariaHeadword": "נָמֵל",
+	"headwords": [
+		{
+			"text": "נָמֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

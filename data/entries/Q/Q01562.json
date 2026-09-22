@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01562",
-	"slug": "פרגית",
-	"headword": {
-		"text": "פַּרְגִּית"
-	},
+	"sefariaHeadword": "פַּרְגִּית",
+	"headwords": [
+		{
+			"text": "פַּרְגִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "b"

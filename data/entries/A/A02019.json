@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02019",
-	"slug": "אמיטון",
-	"headword": {
-		"text": "אמיטון"
-	},
+	"sefariaHeadword": "אמיטון",
+	"headwords": [
+		{
+			"text": "אמיטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

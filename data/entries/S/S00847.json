@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00847",
-	"slug": "קיאות",
-	"headword": {
-		"text": "קיאות"
-	},
+	"sefariaHeadword": "קיאות",
+	"headwords": [
+		{
+			"text": "קיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1353,
 		"column": "b"

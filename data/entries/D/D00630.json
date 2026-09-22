@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "D00630",
-	"slug": "דימסית",
-	"headword": {
-		"text": "דִּימְסִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּימְסִית",
+	"headwords": [
+		{
+			"text": "דִּימְסִית"
+		},
 		{
 			"text": "דִּמְסִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 300,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

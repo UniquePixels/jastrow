@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00265",
-	"slug": "זיבול",
-	"headword": {
-		"text": "זִיבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיבּוּל",
+	"headwords": [
+		{
+			"text": "זִיבּוּל"
+		},
 		{
 			"text": "זִבּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "b"

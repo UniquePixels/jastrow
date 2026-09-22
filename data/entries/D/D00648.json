@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00648",
-	"slug": "דינקאי",
-	"headword": {
-		"text": "דינקאי"
-	},
+	"sefariaHeadword": "דינקאי",
+	"headwords": [
+		{
+			"text": "דינקאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

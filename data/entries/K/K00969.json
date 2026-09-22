@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00969",
-	"slug": "כענת",
-	"headword": {
-		"text": "כְּעֶנֶת"
-	},
+	"sefariaHeadword": "כְּעֶנֶת",
+	"headwords": [
+		{
+			"text": "כְּעֶנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

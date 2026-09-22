@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00716",
-	"slug": "צפר-6",
-	"headword": {
-		"text": "צִפֹּר"
-	},
+	"sefariaHeadword": "צִפֹּר",
+	"headwords": [
+		{
+			"text": "צִפֹּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1298,
 		"column": "b"

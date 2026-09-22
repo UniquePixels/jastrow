@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00123",
-	"slug": "רבנו",
-	"headword": {
-		"text": "רַבֵּנוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַבֵּנוּ",
+	"headwords": [
+		{
+			"text": "רַבֵּנוּ"
+		},
 		{
 			"text": "רַבֵּינוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1444,
 		"column": "a"

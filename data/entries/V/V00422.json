@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00422",
-	"slug": "תיה",
-	"headword": {
-		"text": "תִּיָּה"
-	},
+	"sefariaHeadword": "תִּיָּה",
+	"headwords": [
+		{
+			"text": "תִּיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

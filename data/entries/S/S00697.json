@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00697",
-	"slug": "קטבוליא",
-	"headword": {
-		"text": "קָטָבוֹלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטָבוֹלְיָא",
+	"headwords": [
+		{
+			"text": "קָטָבוֹלְיָא"
+		},
 		{
 			"text": "קָטָבוֹלְיָה"
 		},
@@ -15,6 +16,7 @@
 			"text": "קָטָבְלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1346,
 		"column": "a"

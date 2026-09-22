@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00183",
-	"slug": "כובאי",
-	"headword": {
-		"text": "כובאי"
-	},
+	"sefariaHeadword": "כובאי",
+	"headwords": [
+		{
+			"text": "כובאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "a"

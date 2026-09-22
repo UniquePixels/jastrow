@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00458",
-	"slug": "חורבנא",
-	"headword": {
-		"text": "חוּרְבָּנָא"
-	},
+	"sefariaHeadword": "חוּרְבָּנָא",
+	"headwords": [
+		{
+			"text": "חוּרְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 439,
 		"column": "b"

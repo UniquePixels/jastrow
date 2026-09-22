@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00468",
-	"slug": "קוסטל",
-	"headword": {
-		"text": "קוּסְטַל"
-	},
+	"sefariaHeadword": "קוּסְטַל",
+	"headwords": [
+		{
+			"text": "קוּסְטַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "b"

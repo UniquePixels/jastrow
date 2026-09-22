@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00547",
-	"slug": "דיחוי",
-	"headword": {
-		"text": "דִּיחוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיחוּי",
+	"headwords": [
+		{
+			"text": "דִּיחוּי"
+		},
 		{
 			"text": "דִּחוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 298,
 		"column": "a"

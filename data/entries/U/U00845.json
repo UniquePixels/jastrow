@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00845",
-	"slug": "שיזבו",
-	"headword": {
-		"text": "שֵׁיזָבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיזָבוּ",
+	"headwords": [
+		{
+			"text": "שֵׁיזָבוּ"
+		},
 		{
 			"text": "שֵׁיזָבוּתָא"
 		},
 		{
-			"text": "שֵׁזָ׳"
+			"text": "שֵׁזָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1559,
 		"column": "a"

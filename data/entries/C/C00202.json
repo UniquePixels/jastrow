@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00202",
-	"slug": "גדייתא",
-	"headword": {
-		"text": "גַּדְיָיתָא"
-	},
+	"sefariaHeadword": "גַּדְיָיתָא",
+	"headwords": [
+		{
+			"text": "גַּדְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

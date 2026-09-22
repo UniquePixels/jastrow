@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02013",
-	"slug": "אמטי",
-	"headword": {
-		"text": "אמטי"
-	},
+	"sefariaHeadword": "אמטי",
+	"headwords": [
+		{
+			"text": "אמטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01033",
-	"slug": "כפן-1",
-	"headword": {
-		"text": "כָּפַן"
-	},
+	"sefariaHeadword": "כָּפַן",
+	"headwords": [
+		{
+			"text": "כָּפַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

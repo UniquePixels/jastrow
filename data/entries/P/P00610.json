@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00610",
-	"slug": "עינוון",
-	"headword": {
-		"text": "עִינְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינְוָון",
+	"headwords": [
+		{
+			"text": "עִינְוָון"
+		},
 		{
 			"text": "עִינְוָן"
 		},
@@ -15,6 +16,7 @@
 			"text": "עִינְוְותָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1072,
 		"column": "a"

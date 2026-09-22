@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00356",
-	"slug": "פורמא",
-	"headword": {
-		"text": "פּוּרְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְמָא",
+	"headwords": [
+		{
+			"text": "פּוּרְמָא"
+		},
 		{
 			"text": "פְּרָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1147,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02705",
-	"slug": "מרכוף",
-	"headword": {
-		"text": "מַרְכּוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְכּוֹף",
+	"headwords": [
+		{
+			"text": "מַרְכּוֹף"
+		},
 		{
 			"text": "מַרְכּוֹב"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 844,
 		"column": "a"

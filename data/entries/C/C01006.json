@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01006",
-	"slug": "גמו",
-	"headword": {
-		"text": "גמו"
-	},
+	"sefariaHeadword": "גמו",
+	"headwords": [
+		{
+			"text": "גמו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "a"

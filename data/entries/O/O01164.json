@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01164",
-	"slug": "סנאתא",
-	"headword": {
-		"text": "סִנְאֲתָא"
-	},
+	"sefariaHeadword": "סִנְאֲתָא",
+	"headwords": [
+		{
+			"text": "סִנְאֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

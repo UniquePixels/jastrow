@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01409",
-	"slug": "מכמת",
-	"headword": {
-		"text": "מִכְּמַת־"
-	},
+	"sefariaHeadword": "מִכְּמַת־",
+	"headwords": [
+		{
+			"text": "מִכְּמַת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

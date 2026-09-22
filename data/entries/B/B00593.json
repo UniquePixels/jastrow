@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00593",
-	"slug": "בייה",
-	"headword": {
-		"text": "בִּיָיה"
-	},
+	"sefariaHeadword": "בִּיָיה",
+	"headwords": [
+		{
+			"text": "בִּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00971",
-	"slug": "בסא",
-	"headword": {
-		"text": "בְּסָא"
-	},
+	"sefariaHeadword": "בְּסָא",
+	"headwords": [
+		{
+			"text": "בְּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00229",
-	"slug": "קוביוסטיסא",
-	"headword": {
-		"text": "קוּבְיוֹסְטֵיסָא"
-	},
+	"sefariaHeadword": "קוּבְיוֹסְטֵיסָא",
+	"headwords": [
+		{
+			"text": "קוּבְיוֹסְטֵיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "b"

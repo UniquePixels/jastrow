@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00291",
-	"slug": "רוא",
-	"headword": {
-		"text": "רֵוָא"
-	},
+	"sefariaHeadword": "רֵוָא",
+	"headwords": [
+		{
+			"text": "רֵוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

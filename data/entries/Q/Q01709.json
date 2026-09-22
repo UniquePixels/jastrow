@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01709",
-	"slug": "פרוסדור",
-	"headword": {
-		"text": "פְּרוֹסְדּוֹר"
-	},
+	"sefariaHeadword": "פְּרוֹסְדּוֹר",
+	"headwords": [
+		{
+			"text": "פְּרוֹסְדּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

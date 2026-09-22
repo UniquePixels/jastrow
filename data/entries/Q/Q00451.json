@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00451",
-	"slug": "פחה-1",
-	"headword": {
-		"text": "פֶּחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּחָה",
+	"headwords": [
 		{
-			"text": "פֶּי׳"
+			"text": "פֶּחָה"
+		},
+		{
+			"text": "פֶּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1151,
 		"column": "b"

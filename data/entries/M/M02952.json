@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02952",
-	"slug": "משפט",
-	"headword": {
-		"text": "מִשְׁפָּט"
-	},
+	"sefariaHeadword": "מִשְׁפָּט",
+	"headwords": [
+		{
+			"text": "מִשְׁפָּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

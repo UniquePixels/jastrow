@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00569",
-	"slug": "דייקוסין",
-	"headword": {
-		"text": "דייקוסין"
-	},
+	"sefariaHeadword": "דייקוסין",
+	"headwords": [
+		{
+			"text": "דייקוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

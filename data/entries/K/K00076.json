@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "K00076",
-	"slug": "כבר-6",
-	"headword": {
-		"text": "כְּבַר",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*כְּבַר III",
+	"headwords": [
+		{
+			"text": "כְּבַר",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 609,
 		"column": "b"

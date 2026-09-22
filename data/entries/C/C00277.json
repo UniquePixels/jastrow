@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00277",
-	"slug": "גובבתא",
-	"headword": {
-		"text": "גּוֹבְבָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוֹבְבָתָא",
+	"headwords": [
+		{
+			"text": "גּוֹבְבָתָא"
+		},
 		{
 			"text": "גּוֹפְפָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 217,
 		"column": "a"

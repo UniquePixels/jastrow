@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01099",
-	"slug": "דרכון-1",
-	"headword": {
-		"text": "דרכון"
-	},
+	"sefariaHeadword": "דרכון",
+	"headwords": [
+		{
+			"text": "דרכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

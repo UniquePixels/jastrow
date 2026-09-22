@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00295",
-	"slug": "טיב-2",
-	"headword": {
-		"text": "טִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיב",
+	"headwords": [
+		{
+			"text": "טִיב"
+		},
 		{
 			"text": "טִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "a"

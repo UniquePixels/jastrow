@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00402",
-	"slug": "ילתא",
-	"headword": {
-		"text": "יַלְתָּא"
-	},
+	"sefariaHeadword": "יַלְתָּא",
+	"headwords": [
+		{
+			"text": "יַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

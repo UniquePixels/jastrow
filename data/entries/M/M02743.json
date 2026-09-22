@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02743",
-	"slug": "מרעשת",
-	"headword": {
-		"text": "מַרְעֶשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְעֶשֶׁת",
+	"headwords": [
+		{
+			"text": "מַרְעֶשֶׁת"
+		},
 		{
 			"text": "מַרְעַשְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 846,
 		"column": "a"

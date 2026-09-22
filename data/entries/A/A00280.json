@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00280",
-	"slug": "אגורה",
-	"headword": {
-		"text": "אֲגוֹרָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲגוֹרָה",
+	"headwords": [
+		{
+			"text": "אֲגוֹרָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

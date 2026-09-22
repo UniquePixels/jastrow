@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00112",
-	"slug": "יה-1",
-	"headword": {
-		"text": "יָהּ"
-	},
+	"sefariaHeadword": "יָהּ",
+	"headwords": [
+		{
+			"text": "יָהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 565,
 		"column": "b"

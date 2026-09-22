@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01719",
-	"slug": "מנדעותא",
-	"headword": {
-		"text": "מַנְדָּעוּתָא"
-	},
+	"sefariaHeadword": "מַנְדָּעוּתָא",
+	"headwords": [
+		{
+			"text": "מַנְדָּעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 797,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01203",
-	"slug": "עקמותא",
-	"headword": {
-		"text": "עִקְמוּתָא"
-	},
+	"sefariaHeadword": "עִקְמוּתָא",
+	"headwords": [
+		{
+			"text": "עִקְמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

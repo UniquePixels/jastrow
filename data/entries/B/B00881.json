@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00881",
-	"slug": "בלם-1",
-	"headword": {
-		"text": "בָּלַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "בָּלַם I",
+	"headwords": [
+		{
+			"text": "בָּלַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 173,
 		"column": "b"

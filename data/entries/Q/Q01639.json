@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01639",
-	"slug": "פרוורא",
-	"headword": {
-		"text": "פַּרְוָורָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוָורָא",
+	"headwords": [
+		{
+			"text": "פַּרְוָורָא"
+		},
 		{
 			"text": "פַּרְוָורָה"
 		},
 		{
-			"text": "פַּרְוָר׳"
+			"text": "פַּרְוָר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1218,
 		"column": "a"

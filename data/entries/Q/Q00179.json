@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00179",
-	"slug": "פוחלץ",
-	"headword": {
-		"text": "פוחלץ"
-	},
+	"sefariaHeadword": "פוחלץ",
+	"headwords": [
+		{
+			"text": "פוחלץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01416",
-	"slug": "גשם-2",
-	"headword": {
-		"text": "גֶּשֶׁם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גֶּשֶׁם I",
+	"headwords": [
+		{
+			"text": "גֶּשֶׁם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 274,
 		"column": "a"

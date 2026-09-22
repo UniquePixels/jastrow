@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02236",
-	"slug": "מפצא",
-	"headword": {
-		"text": "מַפְצָא"
-	},
+	"sefariaHeadword": "מַפְצָא",
+	"headwords": [
+		{
+			"text": "מַפְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

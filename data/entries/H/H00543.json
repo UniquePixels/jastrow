@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00543",
-	"slug": "חזירא",
-	"headword": {
-		"text": "חַזֵּירָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חַזֵּירָא",
+	"headwords": [
+		{
+			"text": "חַזֵּירָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 444,
 		"column": "a"

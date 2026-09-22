@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00036",
-	"slug": "צבי-4",
-	"headword": {
-		"text": "צְבִי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צְבִי ²",
+	"headwords": [
+		{
+			"text": "צְבִי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1258,
 		"column": "b"

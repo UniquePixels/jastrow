@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00037",
-	"slug": "באנטרין",
-	"headword": {
-		"text": "באנטרין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*באנטרין",
+	"headwords": [
+		{
+			"text": "באנטרין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

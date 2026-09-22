@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01235",
-	"slug": "גרב-6",
-	"headword": {
-		"text": "גָּרָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּרָב",
+	"headwords": [
+		{
+			"text": "גָּרָב"
+		},
 		{
 			"text": "גַּרְבּא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 264,
 		"column": "a"

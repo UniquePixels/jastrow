@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00296",
-	"slug": "גוגייתיה",
-	"headword": {
-		"text": "גוגייתיה"
-	},
+	"sefariaHeadword": "גוגייתיה",
+	"headwords": [
+		{
+			"text": "גוגייתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "a"

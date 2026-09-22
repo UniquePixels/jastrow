@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00480",
-	"slug": "חורפיתא",
-	"headword": {
-		"text": "חוּרְפִיתָא"
-	},
+	"sefariaHeadword": "חוּרְפִיתָא",
+	"headwords": [
+		{
+			"text": "חוּרְפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

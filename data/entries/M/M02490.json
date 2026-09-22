@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02490",
-	"slug": "מראשות",
-	"headword": {
-		"text": "מְרַאֲשׁוֹת"
-	},
+	"sefariaHeadword": "מְרַאֲשׁוֹת",
+	"headwords": [
+		{
+			"text": "מְרַאֲשׁוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

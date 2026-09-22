@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00116",
-	"slug": "ותר-2",
-	"headword": {
-		"text": "וְתַר"
-	},
+	"sefariaHeadword": "וְתַר",
+	"headwords": [
+		{
+			"text": "וְתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "b"

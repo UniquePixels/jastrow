@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00569",
-	"slug": "יקידה",
-	"headword": {
-		"text": "יְקִידָה"
-	},
+	"sefariaHeadword": "יְקִידָה",
+	"headwords": [
+		{
+			"text": "יְקִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "b"

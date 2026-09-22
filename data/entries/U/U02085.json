@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02085",
-	"slug": "שתות-1",
-	"headword": {
-		"text": "שתות"
-	},
+	"sefariaHeadword": "שתות",
+	"headwords": [
+		{
+			"text": "שתות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "a"

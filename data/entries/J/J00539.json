@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00539",
-	"slug": "יצירין",
-	"headword": {
-		"text": "יְצִירִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְצִירִין",
+	"headwords": [
+		{
+			"text": "יְצִירִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 589,
 		"column": "b"

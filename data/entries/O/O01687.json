@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01687",
-	"slug": "סתומה",
-	"headword": {
-		"text": "סְתוּמָה"
-	},
+	"sefariaHeadword": "סְתוּמָה",
+	"headwords": [
+		{
+			"text": "סְתוּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

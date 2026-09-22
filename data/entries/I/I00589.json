@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00589",
-	"slug": "טסברא",
-	"headword": {
-		"text": "טִסְבְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִסְבְּרָא",
+	"headwords": [
 		{
-			"text": "טִיסְ׳"
+			"text": "טִסְבְּרָא"
+		},
+		{
+			"text": "טִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 541,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01147",
-	"slug": "סמרמורות",
-	"headword": {
-		"text": "סְמַרְמוֹרוֹת"
-	},
+	"sefariaHeadword": "סְמַרְמוֹרוֹת",
+	"headwords": [
+		{
+			"text": "סְמַרְמוֹרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

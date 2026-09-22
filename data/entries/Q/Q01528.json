@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01528",
-	"slug": "פרא-2",
-	"headword": {
-		"text": "פְּרָא"
-	},
+	"sefariaHeadword": "פְּרָא",
+	"headwords": [
+		{
+			"text": "פְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "a"

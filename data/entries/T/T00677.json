@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00677",
-	"slug": "ריפודין",
-	"headword": {
-		"text": "רִיפּוּדִין"
-	},
+	"sefariaHeadword": "רִיפּוּדִין",
+	"headwords": [
+		{
+			"text": "רִיפּוּדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

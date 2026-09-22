@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00153",
-	"slug": "להב-2",
-	"headword": {
-		"text": "לַהַב"
-	},
+	"sefariaHeadword": "לַהַב",
+	"headwords": [
+		{
+			"text": "לַהַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

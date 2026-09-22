@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00199",
-	"slug": "חדלה",
-	"headword": {
-		"text": "חֲדָלָה"
-	},
+	"sefariaHeadword": "חֲדָלָה",
+	"headwords": [
+		{
+			"text": "חֲדָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

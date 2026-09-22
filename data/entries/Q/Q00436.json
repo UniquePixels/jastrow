@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00436",
-	"slug": "פז״ר",
-	"headword": {
-		"text": "פז״ר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פז\"ר",
+	"headwords": [
 		{
-			"text": "פז״ר קש״ב"
+			"text": "פז״ר"
+		},
+		{
+			"text": "פ׳ קש״ב",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1150,
 		"column": "b"

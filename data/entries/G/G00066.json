@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00066",
-	"slug": "זגיתא",
-	"headword": {
-		"text": "זַגִּיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זַגִּיתָא",
+	"headwords": [
+		{
+			"text": "זַגִּיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 380,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00024",
-	"slug": "תאל״ס",
-	"headword": {
-		"text": "תאל״ס"
-	},
+	"sefariaHeadword": "תאל\"ס",
+	"headwords": [
+		{
+			"text": "תאל״ס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

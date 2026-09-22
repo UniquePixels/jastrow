@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01004",
-	"slug": "כפותא",
-	"headword": {
-		"text": "כַּפּוּתָא"
-	},
+	"sefariaHeadword": "כַּפּוּתָא",
+	"headwords": [
+		{
+			"text": "כַּפּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 658,
 		"column": "a"

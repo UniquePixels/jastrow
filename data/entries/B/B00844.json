@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00844",
-	"slug": "בלוריתא",
-	"headword": {
-		"text": "בְּלוֹרִיתָא"
-	},
+	"sefariaHeadword": "בְּלוֹרִיתָא",
+	"headwords": [
+		{
+			"text": "בְּלוֹרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "a"

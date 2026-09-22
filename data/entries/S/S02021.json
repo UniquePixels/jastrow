@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02021",
-	"slug": "קרי-5",
-	"headword": {
-		"text": "קְרֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קְרֵי II",
+	"headwords": [
+		{
+			"text": "קְרֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1418,
 		"column": "b"

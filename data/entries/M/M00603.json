@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00603",
-	"slug": "מור-2",
-	"headword": {
-		"text": "מוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מוּר I",
+	"headwords": [
+		{
+			"text": "מוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 748,
 		"column": "b"

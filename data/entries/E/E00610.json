@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00610",
-	"slug": "המייפוס",
-	"headword": {
-		"text": "הֵמְיִיפּוֹס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*הֵמְיִיפּוֹס",
+	"headwords": [
+		{
+			"text": "הֵמְיִיפּוֹס",
+			"reconstructed": true
+		},
 		{
 			"text": "הֵמִיפּוֹס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 355,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00972",
-	"slug": "שינה",
-	"headword": {
-		"text": "שֵׁינָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁינָה",
+	"headwords": [
+		{
+			"text": "שֵׁינָה"
+		},
 		{
 			"text": "שֵׁנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1564,
 		"column": "a"

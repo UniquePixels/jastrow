@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01260",
-	"slug": "פסטון",
-	"headword": {
-		"text": "פָּסָּטוֹן"
-	},
+	"sefariaHeadword": "פָּסָּטוֹן",
+	"headwords": [
+		{
+			"text": "פָּסָּטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

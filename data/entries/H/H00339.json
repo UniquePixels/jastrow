@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00339",
-	"slug": "חולחול",
-	"headword": {
-		"text": "חולחול"
-	},
+	"sefariaHeadword": "חולחול",
+	"headwords": [
+		{
+			"text": "חולחול"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "a"

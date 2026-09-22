@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01494",
-	"slug": "קמר-1",
-	"headword": {
-		"text": "קָמַר"
-	},
+	"sefariaHeadword": "קָמַר",
+	"headwords": [
+		{
+			"text": "קָמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "a"

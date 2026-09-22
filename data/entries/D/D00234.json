@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "D00234",
-	"slug": "דוי-3",
-	"headword": {
-		"text": "דוי",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דוי ³",
+	"headwords": [
+		{
+			"text": "דוי",
+			"disambiguator": 3
+		},
 		{
 			"text": "דְּוָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ³, {1} II",
 	"page": {
 		"number": 284,
 		"column": "b"

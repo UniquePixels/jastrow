@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01097",
-	"slug": "שישך",
-	"headword": {
-		"text": "שֵׁישַׁךְ"
-	},
+	"sefariaHeadword": "שֵׁישַׁךְ",
+	"headwords": [
+		{
+			"text": "שֵׁישַׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1570,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02136",
-	"slug": "מעלל",
-	"headword": {
-		"text": "מַעֲלָל"
-	},
+	"sefariaHeadword": "מַעֲלָל",
+	"headwords": [
+		{
+			"text": "מַעֲלָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

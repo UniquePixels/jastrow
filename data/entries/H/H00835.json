@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00835",
-	"slug": "חיסחון",
-	"headword": {
-		"text": "חִיסָּחוֹן"
-	},
+	"sefariaHeadword": "חִיסָּחוֹן",
+	"headwords": [
+		{
+			"text": "חִיסָּחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "b"

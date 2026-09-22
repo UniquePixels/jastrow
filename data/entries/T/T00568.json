@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00568",
-	"slug": "רטיש",
-	"headword": {
-		"text": "רְטֵישׁ"
-	},
+	"sefariaHeadword": "רְטֵישׁ",
+	"headwords": [
+		{
+			"text": "רְטֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "b"

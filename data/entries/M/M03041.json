@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03041",
-	"slug": "מתחא",
-	"headword": {
-		"text": "מִתְחָא"
-	},
+	"sefariaHeadword": "מִתְחָא",
+	"headwords": [
+		{
+			"text": "מִתְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "b"

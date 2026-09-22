@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02045",
-	"slug": "אמנם",
-	"headword": {
-		"text": "אמנם"
-	},
+	"sefariaHeadword": "אמנם",
+	"headwords": [
+		{
+			"text": "אמנם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "a"

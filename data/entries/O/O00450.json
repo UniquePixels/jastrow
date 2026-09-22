@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00450",
-	"slug": "סחורתא",
-	"headword": {
-		"text": "סְחוֹרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְחוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "סְחוֹרְתָּא"
+		},
 		{
 			"text": "סְחוּרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "b"

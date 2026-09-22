@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01592",
-	"slug": "סרטן",
-	"headword": {
-		"text": "סַרְטָן"
-	},
+	"sefariaHeadword": "סַרְטָן",
+	"headwords": [
+		{
+			"text": "סַרְטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "b"

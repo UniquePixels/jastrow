@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00596",
-	"slug": "ריבקא",
-	"headword": {
-		"text": "רִיבְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבְקָא",
+	"headwords": [
+		{
+			"text": "רִיבְקָא"
+		},
 		{
 			"text": "רִיבְקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "a"

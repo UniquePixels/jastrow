@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00530",
-	"slug": "יציבה",
-	"headword": {
-		"text": "יְצִיבָה"
-	},
+	"sefariaHeadword": "יְצִיבָה",
+	"headwords": [
+		{
+			"text": "יְצִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "a"

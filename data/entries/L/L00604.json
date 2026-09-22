@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00604",
-	"slug": "לעז-2",
-	"headword": {
-		"text": "לַעַז"
-	},
+	"sefariaHeadword": "לַעַז",
+	"headwords": [
+		{
+			"text": "לַעַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "a"

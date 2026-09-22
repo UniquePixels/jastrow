@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01453",
-	"slug": "מכתיר",
-	"headword": {
-		"text": "מַכְתִּיר"
-	},
+	"sefariaHeadword": "מַכְתִּיר",
+	"headwords": [
+		{
+			"text": "מַכְתִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "a"

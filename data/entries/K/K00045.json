@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00045",
-	"slug": "כבוסין",
-	"headword": {
-		"text": "כבוסין"
-	},
+	"sefariaHeadword": "כבוסין",
+	"headwords": [
+		{
+			"text": "כבוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

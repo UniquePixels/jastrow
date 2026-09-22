@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01555",
-	"slug": "סרוטגין",
-	"headword": {
-		"text": "סרוטגין"
-	},
+	"sefariaHeadword": "סרוטגין",
+	"headwords": [
+		{
+			"text": "סרוטגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

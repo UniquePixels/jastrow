@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01075",
-	"slug": "סמותא",
-	"headword": {
-		"text": "סַמְוָתָא"
-	},
+	"sefariaHeadword": "סַמְוָתָא",
+	"headwords": [
+		{
+			"text": "סַמְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 999,
 		"column": "a"

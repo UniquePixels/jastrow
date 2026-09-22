@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00621",
-	"slug": "שחון-1",
-	"headword": {
-		"text": "שַׁחְוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁחְוָן",
+	"headwords": [
+		{
+			"text": "שַׁחְוָן"
+		},
 		{
 			"text": "שָׁחוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1545,
 		"column": "b"

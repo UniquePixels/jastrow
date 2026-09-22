@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00016",
-	"slug": "זבוב",
-	"headword": {
-		"text": "זְבוּב"
-	},
+	"sefariaHeadword": "זְבוּב",
+	"headwords": [
+		{
+			"text": "זְבוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "a"

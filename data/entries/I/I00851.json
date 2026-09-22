@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00851",
-	"slug": "טרסיאות",
-	"headword": {
-		"text": "טרסיאות"
-	},
+	"sefariaHeadword": "טרסיאות",
+	"headwords": [
+		{
+			"text": "טרסיאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

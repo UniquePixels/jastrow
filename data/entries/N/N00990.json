@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00990",
-	"slug": "נעם",
-	"headword": {
-		"text": "נָעֵם"
-	},
+	"sefariaHeadword": "נָעֵם",
+	"headwords": [
+		{
+			"text": "נָעֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 920,
 		"column": "b"

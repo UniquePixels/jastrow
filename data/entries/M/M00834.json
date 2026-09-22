@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00834",
-	"slug": "מחורי",
-	"headword": {
-		"text": "מְחוֹרֵי"
-	},
+	"sefariaHeadword": "מְחוֹרֵי",
+	"headwords": [
+		{
+			"text": "מְחוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

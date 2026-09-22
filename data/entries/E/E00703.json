@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00703",
-	"slug": "הסט",
-	"headword": {
-		"text": "הֶסֵּט"
-	},
+	"sefariaHeadword": "הֶסֵּט",
+	"headwords": [
+		{
+			"text": "הֶסֵּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

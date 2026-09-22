@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00869",
-	"slug": "סיתר",
-	"headword": {
-		"text": "סֵיתֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵיתֶר",
+	"headwords": [
+		{
+			"text": "סֵיתֶר"
+		},
 		{
 			"text": "סִיתְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 988,
 		"column": "b"

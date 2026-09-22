@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00710",
-	"slug": "שחר-7",
-	"headword": {
-		"text": "שְׁחַר",
-		"homograph": 4
-	},
+	"sefariaHeadword": "שְׁחַר IV",
+	"headwords": [
+		{
+			"text": "שְׁחַר",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 1551,
 		"column": "b"

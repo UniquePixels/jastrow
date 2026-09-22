@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02831",
-	"slug": "אפרסמא",
-	"headword": {
-		"text": "אַפַּרְסְמָא"
-	},
+	"sefariaHeadword": "אַפַּרְסְמָא",
+	"headwords": [
+		{
+			"text": "אַפַּרְסְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

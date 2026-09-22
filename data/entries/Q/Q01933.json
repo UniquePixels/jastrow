@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01933",
-	"slug": "פרסכנא",
-	"headword": {
-		"text": "פַּרְסַכְנָא"
-	},
+	"sefariaHeadword": "פַּרְסַכְנָא",
+	"headwords": [
+		{
+			"text": "פַּרְסַכְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1234,
 		"column": "a"

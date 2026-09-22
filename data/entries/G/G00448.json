@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00448",
-	"slug": "זכור-2",
-	"headword": {
-		"text": "זָכוּר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זָכוּר II",
+	"headwords": [
+		{
+			"text": "זָכוּר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 398,
 		"column": "a"

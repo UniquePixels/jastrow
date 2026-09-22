@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00250",
-	"slug": "תועבה",
-	"headword": {
-		"text": "תּוֹעֵבָה"
-	},
+	"sefariaHeadword": "תּוֹעֵבָה",
+	"headwords": [
+		{
+			"text": "תּוֹעֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02906",
-	"slug": "אקורקרתא",
-	"headword": {
-		"text": "אֲקוּרְקַרְתָּא"
-	},
+	"sefariaHeadword": "אֲקוּרְקַרְתָּא",
+	"headwords": [
+		{
+			"text": "אֲקוּרְקַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

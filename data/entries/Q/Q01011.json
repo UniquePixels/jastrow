@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01011",
-	"slug": "פלטיא-4",
-	"headword": {
-		"text": "פְּלַטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַטְיָא",
+	"headwords": [
+		{
+			"text": "פְּלַטְיָא"
+		},
 		{
 			"text": "פְּלַטְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1179,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01068",
-	"slug": "פליפא",
-	"headword": {
-		"text": "פְּלִיפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלִיפָּא",
+	"headwords": [
+		{
+			"text": "פְּלִיפָּא"
+		},
 		{
 			"text": "פְּלִיפָּה"
 		},
@@ -15,6 +16,7 @@
 			"text": "פִּילְפִּי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1182,
 		"column": "a"

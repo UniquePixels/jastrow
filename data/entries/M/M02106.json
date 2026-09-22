@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02106",
-	"slug": "מעיים",
-	"headword": {
-		"text": "מֵעַיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵעַיִים",
+	"headwords": [
+		{
+			"text": "מֵעַיִים"
+		},
 		{
 			"text": "מֵעַיִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 815,
 		"column": "b"

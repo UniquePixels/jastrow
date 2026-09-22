@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00295",
-	"slug": "שהד",
-	"headword": {
-		"text": "שָׂהֵד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׂהֵד",
+	"headwords": [
+		{
+			"text": "שָׂהֵד"
+		},
 		{
 			"text": "שְׂהֵד"
 		},
@@ -15,6 +16,7 @@
 			"text": "שַׂהֲדוּ"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1526,
 		"column": "b"

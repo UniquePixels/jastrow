@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00458",
-	"slug": "ליית",
-	"headword": {
-		"text": "לַיִית"
-	},
+	"sefariaHeadword": "לַיִית",
+	"headwords": [
+		{
+			"text": "לַיִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

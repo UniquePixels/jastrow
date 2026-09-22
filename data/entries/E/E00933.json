@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00933",
-	"slug": "השפלה",
-	"headword": {
-		"text": "הַשְׁפָּלָה"
-	},
+	"sefariaHeadword": "הַשְׁפָּלָה",
+	"headwords": [
+		{
+			"text": "הַשְׁפָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

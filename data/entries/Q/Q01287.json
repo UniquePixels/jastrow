@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01287",
-	"slug": "פסילא",
-	"headword": {
-		"text": "פְּסִילָא"
-	},
+	"sefariaHeadword": "פְּסִילָא",
+	"headwords": [
+		{
+			"text": "פְּסִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "a"

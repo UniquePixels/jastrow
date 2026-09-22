@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00867",
-	"slug": "עמוד-2",
-	"headword": {
-		"text": "עַמּוּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַמּוּד ²",
+	"headwords": [
+		{
+			"text": "עַמּוּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "עַמּוּדָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1087,
 		"column": "a"

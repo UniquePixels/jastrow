@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01078",
-	"slug": "רשושין",
-	"headword": {
-		"text": "רְשׁוּשִׁין"
-	},
+	"sefariaHeadword": "רְשׁוּשִׁין",
+	"headwords": [
+		{
+			"text": "רְשׁוּשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

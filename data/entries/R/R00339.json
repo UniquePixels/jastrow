@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00339",
-	"slug": "צייור",
-	"headword": {
-		"text": "צִיּיוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיּיוּר",
+	"headwords": [
+		{
+			"text": "צִיּיוּר"
+		},
 		{
 			"text": "צִיּיוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

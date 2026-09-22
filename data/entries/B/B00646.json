@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00646",
-	"slug": "ביני-1",
-	"headword": {
-		"text": "בֵּינֵי"
-	},
+	"sefariaHeadword": "בֵּינֵי",
+	"headwords": [
+		{
+			"text": "בֵּינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "b"

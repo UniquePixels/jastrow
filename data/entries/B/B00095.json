@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00095",
-	"slug": "בד-3",
-	"headword": {
-		"text": "בַּד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בַּד II",
+	"headwords": [
+		{
+			"text": "בַּד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 138,
 		"column": "a"

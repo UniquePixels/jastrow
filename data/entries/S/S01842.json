@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01842",
-	"slug": "קצצתא-1",
-	"headword": {
-		"text": "קְצַצְתָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קְצַצְתָּא I",
+	"headwords": [
+		{
+			"text": "קְצַצְתָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1408,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00192",
-	"slug": "צול",
-	"headword": {
-		"text": "צוּל"
-	},
+	"sefariaHeadword": "צוּל",
+	"headwords": [
+		{
+			"text": "צוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "b"

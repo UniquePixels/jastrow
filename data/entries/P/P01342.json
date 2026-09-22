@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P01342",
-	"slug": "ערי-2",
-	"headword": {
-		"text": "ערי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ערי ²",
+	"headwords": [
+		{
+			"text": "ערי",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָרָה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1116,
 		"column": "a"

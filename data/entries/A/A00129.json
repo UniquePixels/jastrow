@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00129",
-	"slug": "אביל-1",
-	"headword": {
-		"text": "אֲבֵיל"
-	},
+	"sefariaHeadword": "אֲבֵיל",
+	"headwords": [
+		{
+			"text": "אֲבֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 6,
 		"column": "a"

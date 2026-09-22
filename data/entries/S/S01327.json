@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01327",
-	"slug": "קליגרפון",
-	"headword": {
-		"text": "קַלִּיגְרָפוֹן"
-	},
+	"sefariaHeadword": "קַלִּיגְרָפוֹן",
+	"headwords": [
+		{
+			"text": "קַלִּיגְרָפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

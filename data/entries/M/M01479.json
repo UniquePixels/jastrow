@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01479",
-	"slug": "מלביניקי",
-	"headword": {
-		"text": "מַלְבִּינִיקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְבִּינִיקֵי",
+	"headwords": [
+		{
+			"text": "מַלְבִּינִיקֵי"
+		},
 		{
 			"text": "מַלְבְּנִיקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 786,
 		"column": "b"

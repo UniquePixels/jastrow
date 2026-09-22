@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00750",
-	"slug": "ניצולת",
-	"headword": {
-		"text": "נִיצּוֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצּוֹלֶת",
+	"headwords": [
 		{
-			"text": "נִצּ׳"
+			"text": "נִיצּוֹלֶת"
+		},
+		{
+			"text": "נִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "b"

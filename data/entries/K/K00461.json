@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00461",
-	"slug": "כחישותא",
-	"headword": {
-		"text": "כְּחִישׁוּתָא"
-	},
+	"sefariaHeadword": "כְּחִישׁוּתָא",
+	"headwords": [
+		{
+			"text": "כְּחִישׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

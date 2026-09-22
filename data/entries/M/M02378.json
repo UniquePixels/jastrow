@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02378",
-	"slug": "מקבן",
-	"headword": {
-		"text": "מַקָּבָן"
-	},
+	"sefariaHeadword": "מַקָּבָן",
+	"headwords": [
+		{
+			"text": "מַקָּבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

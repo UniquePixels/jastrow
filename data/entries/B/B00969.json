@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "B00969",
-	"slug": "בנתיים",
-	"headword": {
-		"text": "בֵּנְתַּיִים"
-	},
+	"sefariaHeadword": "בֵּנְתַּיִים",
+	"headwords": [
+		{
+			"text": "בֵּנְתַּיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <he>בַּיִן</he>, <he>בֵּין</he>.",
+			"gloss": ", v. <he>בַּיִן</he>, <he>בֵּין</he>.",
 			"units": []
 		}
 	]

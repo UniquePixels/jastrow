@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00872",
-	"slug": "רעב-3",
-	"headword": {
-		"text": "רעב"
-	},
+	"sefariaHeadword": "רעב",
+	"headwords": [
+		{
+			"text": "רעב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1485,
 		"column": "b"

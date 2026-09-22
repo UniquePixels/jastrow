@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00915",
-	"slug": "קיטני",
-	"headword": {
-		"text": "קִיטְנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטְנֵי",
+	"headwords": [
 		{
-			"text": "קִטְ׳"
+			"text": "קִיטְנֵי"
+		},
+		{
+			"text": "קִטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1358,
 		"column": "a"

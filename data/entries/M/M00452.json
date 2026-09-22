@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00452",
-	"slug": "מוזפנא",
-	"headword": {
-		"text": "מוֹזְפָנָא"
-	},
+	"sefariaHeadword": "מוֹזְפָנָא",
+	"headwords": [
+		{
+			"text": "מוֹזְפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

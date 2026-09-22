@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01271",
-	"slug": "קלון-3",
-	"headword": {
-		"text": "קַלּוֹן"
-	},
+	"sefariaHeadword": "קַלּוֹן",
+	"headwords": [
+		{
+			"text": "קַלּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "a"

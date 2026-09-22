@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00765",
-	"slug": "שטפא",
-	"headword": {
-		"text": "שִׁטְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁטְפָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁטְפָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1555,
 		"column": "a"

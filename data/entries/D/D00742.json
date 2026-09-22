@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00742",
-	"slug": "דישן",
-	"headword": {
-		"text": "דִּישָׁן"
-	},
+	"sefariaHeadword": "דִּישָׁן",
+	"headwords": [
+		{
+			"text": "דִּישָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "a"

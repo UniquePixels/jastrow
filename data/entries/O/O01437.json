@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01437",
-	"slug": "ספת",
-	"headword": {
-		"text": "סָפַת"
-	},
+	"sefariaHeadword": "סָפַת",
+	"headwords": [
+		{
+			"text": "סָפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

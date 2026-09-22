@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00810",
-	"slug": "טריפה-1",
-	"headword": {
-		"text": "טְרִיפָה"
-	},
+	"sefariaHeadword": "טְרִיפָה",
+	"headwords": [
+		{
+			"text": "טְרִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "a"

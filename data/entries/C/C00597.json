@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00597",
-	"slug": "גחר",
-	"headword": {
-		"text": "גַּחַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּחַר",
+	"headwords": [
+		{
+			"text": "גַּחַר"
+		},
 		{
 			"text": "גַּהַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 233,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01061",
-	"slug": "בעצא",
-	"headword": {
-		"text": "בַּעֲצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּעֲצָא",
+	"headwords": [
+		{
+			"text": "בַּעֲצָא"
+		},
 		{
 			"text": "בְּעִיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 182,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00379",
-	"slug": "נון",
-	"headword": {
-		"text": "נוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּן",
+	"headwords": [
+		{
+			"text": "נוּן"
+		},
 		{
 			"text": "נוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 888,
 		"column": "a"

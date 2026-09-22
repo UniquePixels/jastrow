@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01302",
-	"slug": "ערדסיא",
-	"headword": {
-		"text": "ערדסיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ערדסיא",
+	"headwords": [
+		{
+			"text": "ערדסיא"
+		},
 		{
 			"text": "עַרְדַּסְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1114,
 		"column": "a"

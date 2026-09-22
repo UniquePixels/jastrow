@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02115",
-	"slug": "פתאגא",
-	"headword": {
-		"text": "פְּתָאגָא"
-	},
+	"sefariaHeadword": "פְּתָאגָא",
+	"headwords": [
+		{
+			"text": "פְּתָאגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

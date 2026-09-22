@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00501",
-	"slug": "פטומת",
-	"headword": {
-		"text": "פִּטּוֹמֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּטּוֹמֶת",
+	"headwords": [
+		{
+			"text": "פִּטּוֹמֶת"
+		},
 		{
 			"text": "פְּטוֹמֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1154,
 		"column": "b"

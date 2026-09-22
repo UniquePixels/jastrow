@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01487",
-	"slug": "קמצא-2",
-	"headword": {
-		"text": "קַמְצָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַמְצָא I",
+	"headwords": [
+		{
+			"text": "קַמְצָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1386,
 		"column": "b"

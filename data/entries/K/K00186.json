@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00186",
-	"slug": "כוביא",
-	"headword": {
-		"text": "כּוּבְיָא"
-	},
+	"sefariaHeadword": "כּוּבְיָא",
+	"headwords": [
+		{
+			"text": "כּוּבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

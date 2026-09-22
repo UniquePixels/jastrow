@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01280",
-	"slug": "מיצעא",
-	"headword": {
-		"text": "מִיצָּעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיצָּעָא",
+	"headwords": [
+		{
+			"text": "מִיצָּעָא"
+		},
 		{
 			"text": "מִיצְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "b"

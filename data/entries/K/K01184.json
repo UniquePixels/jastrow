@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01184",
-	"slug": "כריתית",
-	"headword": {
-		"text": "כְּרֵיתִית"
-	},
+	"sefariaHeadword": "כְּרֵיתִית",
+	"headwords": [
+		{
+			"text": "כְּרֵיתִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 668,
 		"column": "a"

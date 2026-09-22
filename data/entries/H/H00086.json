@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00086",
-	"slug": "חבל-4",
-	"headword": {
-		"text": "חֲבֵל"
-	},
+	"sefariaHeadword": "חֲבֵל",
+	"headwords": [
+		{
+			"text": "חֲבֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 420,
 		"column": "a"

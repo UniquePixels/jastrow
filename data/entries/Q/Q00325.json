@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00325",
-	"slug": "פוקרי",
-	"headword": {
-		"text": "פּוּקְרֵי"
-	},
+	"sefariaHeadword": "פּוּקְרֵי",
+	"headwords": [
+		{
+			"text": "פּוּקְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "a"

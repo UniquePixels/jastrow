@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00687",
-	"slug": "נימפי",
-	"headword": {
-		"text": "נִימְפִי"
-	},
+	"sefariaHeadword": "נִימְפִי",
+	"headwords": [
+		{
+			"text": "נִימְפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

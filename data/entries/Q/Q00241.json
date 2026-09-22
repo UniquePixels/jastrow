@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00241",
-	"slug": "פולסא-1",
-	"headword": {
-		"text": "פּוּלְסָא"
-	},
+	"sefariaHeadword": "פּוּלְסָא",
+	"headwords": [
+		{
+			"text": "פּוּלְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

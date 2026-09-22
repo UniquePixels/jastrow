@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01121",
-	"slug": "תתנא",
-	"headword": {
-		"text": "תתנא"
-	},
+	"sefariaHeadword": "תתנא",
+	"headwords": [
+		{
+			"text": "תתנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00440",
-	"slug": "פח-3",
-	"headword": {
-		"text": "פַּח",
-		"homograph": 3
-	},
+	"sefariaHeadword": "פַּח III",
+	"headwords": [
+		{
+			"text": "פַּח",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1151,
 		"column": "a"

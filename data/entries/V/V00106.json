@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00106",
-	"slug": "תדיוטוס",
-	"headword": {
-		"text": "תדיוטוס"
-	},
+	"sefariaHeadword": "תדיוטוס",
+	"headwords": [
+		{
+			"text": "תדיוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

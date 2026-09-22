@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00526",
-	"slug": "ליש-4",
-	"headword": {
-		"text": "לִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִישׁ",
+	"headwords": [
+		{
+			"text": "לִישׁ"
+		},
 		{
 			"text": "לֵישָׁא"
 		},
 		{
-			"text": "לִי׳"
+			"text": "לִי׳",
+			"partial": true
 		},
 		{
 			"text": "לַיִישׁ"
@@ -18,6 +20,7 @@
 			"text": "לַיְישָׁא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 710,
 		"column": "a"

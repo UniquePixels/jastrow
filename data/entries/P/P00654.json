@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00654",
-	"slug": "עיקבא",
-	"headword": {
-		"text": "עִיקְבָא"
-	},
+	"sefariaHeadword": "עִיקְבָא",
+	"headwords": [
+		{
+			"text": "עִיקְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

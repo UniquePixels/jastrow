@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01422",
-	"slug": "איסטוונא",
-	"headword": {
-		"text": "אִיסְטְוָונָא"
-	},
+	"sefariaHeadword": "אִיסְטְוָונָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְוָונָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "b"

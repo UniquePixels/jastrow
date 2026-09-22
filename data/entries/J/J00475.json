@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00475",
-	"slug": "יעבץ",
-	"headword": {
-		"text": "יַעְבֵּץ"
-	},
+	"sefariaHeadword": "יַעְבֵּץ",
+	"headwords": [
+		{
+			"text": "יַעְבֵּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 583,
 		"column": "b"

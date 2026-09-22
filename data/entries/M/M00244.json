@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00244",
-	"slug": "מדברות",
-	"headword": {
-		"text": "מִדַּבְּרוֹת"
-	},
+	"sefariaHeadword": "מִדַּבְּרוֹת",
+	"headwords": [
+		{
+			"text": "מִדַּבְּרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00796",
-	"slug": "סיפלא",
-	"headword": {
-		"text": "סִיפְלָא"
-	},
+	"sefariaHeadword": "סִיפְלָא",
+	"headwords": [
+		{
+			"text": "סִיפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

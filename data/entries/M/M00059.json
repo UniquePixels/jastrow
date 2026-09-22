@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00059",
-	"slug": "מאפליה",
-	"headword": {
-		"text": "מַאְפֵּלְיָה"
-	},
+	"sefariaHeadword": "מַאְפֵּלְיָה",
+	"headwords": [
+		{
+			"text": "מַאְפֵּלְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00428",
-	"slug": "עזרה-1",
-	"headword": {
-		"text": "עֶזְרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֶזְרָה I",
+	"headwords": [
+		{
+			"text": "עֶזְרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1062,
 		"column": "b"

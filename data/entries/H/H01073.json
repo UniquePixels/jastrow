@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01073",
-	"slug": "חלל-1",
-	"headword": {
-		"text": "חָלַל"
-	},
+	"sefariaHeadword": "חָלַל",
+	"headwords": [
+		{
+			"text": "חָלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "b"

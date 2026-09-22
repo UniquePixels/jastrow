@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00358",
-	"slug": "זילזולא",
-	"headword": {
-		"text": "זִילְזוּלָא"
-	},
+	"sefariaHeadword": "זִילְזוּלָא",
+	"headwords": [
+		{
+			"text": "זִילְזוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "a"

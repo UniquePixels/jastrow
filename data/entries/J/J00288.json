@@ -1,13 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "J00288",
-	"slug": "יחידי-2",
-	"headword": {
-		"text": "יְחִידִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְחִידִי ²",
+	"headwords": [
 		{
-			"text": "… דַי"
+			"text": "יְחִידִי",
+			"disambiguator": 2
+		},
+		{
+			"text": "דַי",
+			"partial": true
 		},
 		{
 			"text": "יְחִידָאָה"
@@ -19,6 +21,7 @@
 			"text": "יְחִידָיָיא"
 		}
 	],
+	"display": "{0} ², (… {1}), {2}, {3}, {4}",
 	"page": {
 		"number": 574,
 		"column": "b"

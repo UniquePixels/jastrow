@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00385",
-	"slug": "שוטים",
-	"headword": {
-		"text": "שׁוֹטִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹטִים",
+	"headwords": [
+		{
+			"text": "שׁוֹטִים"
+		},
 		{
 			"text": "שׁוֹטִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1532,
 		"column": "a"

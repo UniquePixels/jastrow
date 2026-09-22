@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00096",
-	"slug": "גבינתא-1",
-	"headword": {
-		"text": "גְּבִינְתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גְּבִינְתָּא",
+	"headwords": [
+		{
+			"text": "גְּבִינְתָּא",
+			"reconstructed": true
+		},
 		{
 			"text": "גְּבִינְתָּה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 207,
 		"column": "a"

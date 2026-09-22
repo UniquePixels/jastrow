@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01480",
-	"slug": "קמע",
-	"headword": {
-		"text": "קָמַע"
-	},
+	"sefariaHeadword": "קָמַע",
+	"headwords": [
+		{
+			"text": "קָמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

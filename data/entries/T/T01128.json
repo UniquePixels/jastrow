@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01128",
-	"slug": "רתחתה",
-	"headword": {
-		"text": "רְתַחְתָּה"
-	},
+	"sefariaHeadword": "רְתַחְתָּה",
+	"headwords": [
+		{
+			"text": "רְתַחְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "a"

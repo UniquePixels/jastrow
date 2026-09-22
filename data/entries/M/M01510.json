@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01510",
-	"slug": "מלוי",
-	"headword": {
-		"text": "מִלּוּי"
-	},
+	"sefariaHeadword": "מִלּוּי",
+	"headwords": [
+		{
+			"text": "מִלּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

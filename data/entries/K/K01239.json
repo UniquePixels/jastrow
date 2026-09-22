@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01239",
-	"slug": "כרנבו",
-	"headword": {
-		"text": "כַּרְנְבוֹ"
-	},
+	"sefariaHeadword": "כַּרְנְבוֹ",
+	"headwords": [
+		{
+			"text": "כַּרְנְבוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

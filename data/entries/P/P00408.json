@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00408",
-	"slug": "עזיבה",
-	"headword": {
-		"text": "עֲזִיבָה"
-	},
+	"sefariaHeadword": "עֲזִיבָה",
+	"headwords": [
+		{
+			"text": "עֲזִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1061,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02716",
-	"slug": "מרמיר",
-	"headword": {
-		"text": "מַרְמֵיר"
-	},
+	"sefariaHeadword": "מַרְמֵיר",
+	"headwords": [
+		{
+			"text": "מַרְמֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

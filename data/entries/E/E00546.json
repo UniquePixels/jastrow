@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00546",
-	"slug": "הלזו",
-	"headword": {
-		"text": "הַלֵּזוּ"
-	},
+	"sefariaHeadword": "הַלֵּזוּ",
+	"headwords": [
+		{
+			"text": "הַלֵּזוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S02244",
-	"slug": "קשיט",
-	"headword": {
-		"text": "קַשִּׁיט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַשִּׁיט",
+	"headwords": [
+		{
+			"text": "קַשִּׁיט"
+		},
 		{
 			"text": "קַשִּׁיטָא"
 		},
 		{
-			"text": "קְשִׁ׳"
+			"text": "קְשִׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1431,
 		"column": "a"

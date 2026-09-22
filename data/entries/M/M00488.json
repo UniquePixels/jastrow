@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00488",
-	"slug": "מולגיה",
-	"headword": {
-		"text": "מולגיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מולגיה",
+	"headwords": [
+		{
+			"text": "מולגיה"
+		},
 		{
 			"text": "מולגייה"
 		},

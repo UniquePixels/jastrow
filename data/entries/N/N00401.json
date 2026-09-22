@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00401",
-	"slug": "נוציא",
-	"headword": {
-		"text": "נוּצְיָא"
-	},
+	"sefariaHeadword": "נוּצְיָא",
+	"headwords": [
+		{
+			"text": "נוּצְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

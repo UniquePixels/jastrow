@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00680",
-	"slug": "עירוב",
-	"headword": {
-		"text": "עֵירוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵירוּב",
+	"headwords": [
 		{
-			"text": "עֵר׳"
+			"text": "עֵירוּב"
+		},
+		{
+			"text": "עֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1075,
 		"column": "b"

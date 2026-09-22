@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01302",
-	"slug": "ברניש",
-	"headword": {
-		"text": "בַּרְנֵישׁ"
-	},
+	"sefariaHeadword": "בַּרְנֵישׁ",
+	"headwords": [
+		{
+			"text": "בַּרְנֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

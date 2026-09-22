@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00803",
-	"slug": "מחבלנא",
-	"headword": {
-		"text": "מְחַבְּלָנָא"
-	},
+	"sefariaHeadword": "מְחַבְּלָנָא",
+	"headwords": [
+		{
+			"text": "מְחַבְּלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "a"

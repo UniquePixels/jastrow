@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00313",
-	"slug": "כונתא-2",
-	"headword": {
-		"text": "כּוּנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּנְתָּא",
+	"headwords": [
+		{
+			"text": "כּוּנְתָּא"
+		},
 		{
 			"text": "כּוּנָּתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 623,
 		"column": "a"

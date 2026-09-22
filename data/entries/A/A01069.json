@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01069",
-	"slug": "אט״בח",
-	"headword": {
-		"text": "אט״בח"
-	},
+	"sefariaHeadword": "אט\"בח",
+	"headwords": [
+		{
+			"text": "אט״בח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "a"

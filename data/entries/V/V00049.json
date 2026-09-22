@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00049",
-	"slug": "תבירותא",
-	"headword": {
-		"text": "תְּבִירוּתָא"
-	},
+	"sefariaHeadword": "תְּבִירוּתָא",
+	"headwords": [
+		{
+			"text": "תְּבִירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1644,
 		"column": "a"

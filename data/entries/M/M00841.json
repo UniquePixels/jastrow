@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00841",
-	"slug": "מחזורי",
-	"headword": {
-		"text": "מַחְזוֹרֵי"
-	},
+	"sefariaHeadword": "מַחְזוֹרֵי",
+	"headwords": [
+		{
+			"text": "מַחְזוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

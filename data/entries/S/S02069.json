@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02069",
-	"slug": "קריסטאלי",
-	"headword": {
-		"text": "קריסטאלי"
-	},
+	"sefariaHeadword": "קריסטאלי",
+	"headwords": [
+		{
+			"text": "קריסטאלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "a"

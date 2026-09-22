@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02823",
-	"slug": "אפריקי-1",
-	"headword": {
-		"text": "אַפְרִיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְרִיקִי",
+	"headwords": [
+		{
+			"text": "אַפְרִיקִי"
+		},
 		{
 			"text": "אַפְרִיקָא",
 			"homograph": 1
 		}
 	],
+	"display": "({0}) {1} I",
 	"page": {
 		"number": 108,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

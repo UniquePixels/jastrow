@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00274",
-	"slug": "סווסריתא",
-	"headword": {
-		"text": "סווסריתא"
-	},
+	"sefariaHeadword": "סווסריתא",
+	"headwords": [
+		{
+			"text": "סווסריתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

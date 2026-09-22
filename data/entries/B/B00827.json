@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00827",
-	"slug": "בלוט-1",
-	"headword": {
-		"text": "בָּלוּט"
-	},
+	"sefariaHeadword": "בָּלוּט",
+	"headwords": [
+		{
+			"text": "בָּלוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00330",
-	"slug": "כוספא",
-	"headword": {
-		"text": "כּוּסְפָּא"
-	},
+	"sefariaHeadword": "כּוּסְפָּא",
+	"headwords": [
+		{
+			"text": "כּוּסְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

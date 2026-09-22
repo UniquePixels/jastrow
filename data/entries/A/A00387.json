@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00387",
-	"slug": "אדוניא",
-	"headword": {
-		"text": "אדוניא"
-	},
+	"sefariaHeadword": "אדוניא",
+	"headwords": [
+		{
+			"text": "אדוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

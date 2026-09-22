@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00190",
-	"slug": "זומליסטרון",
-	"headword": {
-		"text": "זוֹמָלִיסְטְרוֹן"
-	},
+	"sefariaHeadword": "זוֹמָלִיסְטְרוֹן",
+	"headwords": [
+		{
+			"text": "זוֹמָלִיסְטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 387,
 		"column": "a"

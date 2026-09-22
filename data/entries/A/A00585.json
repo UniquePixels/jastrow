@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00585",
-	"slug": "אווקי",
-	"headword": {
-		"text": "אווקי"
-	},
+	"sefariaHeadword": "אווקי",
+	"headwords": [
+		{
+			"text": "אווקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "a"

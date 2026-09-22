@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00611",
-	"slug": "גיבבא",
-	"headword": {
-		"text": "גִּיבְבָא"
-	},
+	"sefariaHeadword": "גִּיבְבָא",
+	"headwords": [
+		{
+			"text": "גִּיבְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

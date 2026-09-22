@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02628",
-	"slug": "אפונדה",
-	"headword": {
-		"text": "אֲפוּנְדָּה"
-	},
+	"sefariaHeadword": "אֲפוּנְדָּה",
+	"headwords": [
+		{
+			"text": "אֲפוּנְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

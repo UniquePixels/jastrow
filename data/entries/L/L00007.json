@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00007",
-	"slug": "לאגרא",
-	"headword": {
-		"text": "לאגרא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לאגרא",
+	"headwords": [
+		{
+			"text": "לאגרא"
+		},
 		{
 			"text": "לאגרה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 685,
 		"column": "a"

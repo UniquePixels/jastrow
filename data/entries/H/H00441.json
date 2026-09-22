@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00441",
-	"slug": "חוק-3",
-	"headword": {
-		"text": "חוֹק"
-	},
+	"sefariaHeadword": "חוֹק",
+	"headwords": [
+		{
+			"text": "חוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "b"

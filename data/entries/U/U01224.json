@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01224",
-	"slug": "שלהי-1",
-	"headword": {
-		"text": "שַׁלְהֵי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שַׁלְהֵי I",
+	"headwords": [
+		{
+			"text": "שַׁלְהֵי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1578,
 		"column": "b"

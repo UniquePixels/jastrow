@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01777",
-	"slug": "קץ-1",
-	"headword": {
-		"text": "קָץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָץ",
+	"headwords": [
+		{
+			"text": "קָץ"
+		},
 		{
 			"text": "קָץ שֶׁקֶר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1403,
 		"column": "b"

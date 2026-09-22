@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01609",
-	"slug": "שנצא",
-	"headword": {
-		"text": "שִׁנְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁנְצָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁנְצָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1607,
 		"column": "b"

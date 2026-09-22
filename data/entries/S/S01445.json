@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01445",
-	"slug": "קמולא",
-	"headword": {
-		"text": "קמולא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קמולא",
+	"headwords": [
+		{
+			"text": "קמולא"
+		},
 		{
 			"text": "קמוליא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1384,
 		"column": "a"

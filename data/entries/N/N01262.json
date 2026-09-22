@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01262",
-	"slug": "נרגל-1",
-	"headword": {
-		"text": "נֵרְגַל"
-	},
+	"sefariaHeadword": "נֵרְגַל",
+	"headwords": [
+		{
+			"text": "נֵרְגַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

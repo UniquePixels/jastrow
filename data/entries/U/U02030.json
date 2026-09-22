@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02030",
-	"slug": "שרר-2",
-	"headword": {
-		"text": "שָׁרָר"
-	},
+	"sefariaHeadword": "שָׁרָר",
+	"headwords": [
+		{
+			"text": "שָׁרָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "a"

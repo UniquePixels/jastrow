@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00559",
-	"slug": "מועדא",
-	"headword": {
-		"text": "מוּעֲדָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מוּעֲדָא",
+	"headwords": [
+		{
+			"text": "מוּעֲדָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 745,
 		"column": "b"

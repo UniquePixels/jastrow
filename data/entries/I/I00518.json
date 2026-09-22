@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00518",
-	"slug": "טלנס",
-	"headword": {
-		"text": "טלנס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טלנס",
+	"headwords": [
+		{
+			"text": "טלנס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

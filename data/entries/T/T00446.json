@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "T00446",
-	"slug": "רורבא",
-	"headword": {
-		"text": "רוֹרְבָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*רוֹרְבָא",
+	"headwords": [
+		{
+			"text": "רוֹרְבָא",
+			"reconstructed": true
+		},
 		{
 			"text": "רוֹרְבָנָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "רוֹרבָנוּתָא"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 1464,
 		"column": "a"

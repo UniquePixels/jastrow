@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00116",
-	"slug": "בדודיות",
-	"headword": {
-		"text": "בדודיות"
-	},
+	"sefariaHeadword": "בדודיות",
+	"headwords": [
+		{
+			"text": "בדודיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "a"

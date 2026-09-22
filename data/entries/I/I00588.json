@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00588",
-	"slug": "טסבלאות",
-	"headword": {
-		"text": "טסבלאות"
-	},
+	"sefariaHeadword": "טסבלאות",
+	"headwords": [
+		{
+			"text": "טסבלאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "b"

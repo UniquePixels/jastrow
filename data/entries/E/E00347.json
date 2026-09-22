@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00347",
-	"slug": "הידין-1",
-	"headword": {
-		"text": "הֵידֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵידֵין",
+	"headwords": [
+		{
+			"text": "הֵידֵין"
+		},
 		{
 			"text": "הֵדֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 344,
 		"column": "a"

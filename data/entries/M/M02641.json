@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02641",
-	"slug": "מרחשת-2",
-	"headword": {
-		"text": "מַרְחֶשֶׁת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַרְחֶשֶׁת II",
+	"headwords": [
+		{
+			"text": "מַרְחֶשֶׁת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 841,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

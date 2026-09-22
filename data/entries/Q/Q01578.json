@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01578",
-	"slug": "פרדימא",
-	"headword": {
-		"text": "פרדימא"
-	},
+	"sefariaHeadword": "פרדימא",
+	"headwords": [
+		{
+			"text": "פרדימא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1215,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00073",
-	"slug": "לבין",
-	"headword": {
-		"text": "לבין"
-	},
+	"sefariaHeadword": "לבין",
+	"headwords": [
+		{
+			"text": "לבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

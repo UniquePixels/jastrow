@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00666",
-	"slug": "סיליקראות",
-	"headword": {
-		"text": "סִילִיקְרָאוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילִיקְרָאוּת",
+	"headwords": [
 		{
-			"text": "סִילִקְרָ׳"
+			"text": "סִילִיקְרָאוּת"
+		},
+		{
+			"text": "סִילִקְרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 980,
 		"column": "a"

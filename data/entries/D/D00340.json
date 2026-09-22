@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00340",
-	"slug": "דוקרנא",
-	"headword": {
-		"text": "דּוֹקְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹקְרָנָא",
+	"headwords": [
 		{
-			"text": "דַּק׳"
+			"text": "דּוֹקְרָנָא"
+		},
+		{
+			"text": "דַּק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 288,
 		"column": "b"

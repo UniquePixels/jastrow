@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00418",
-	"slug": "קונדילין",
-	"headword": {
-		"text": "קוֹנְדִּילִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוֹנְדִּילִין",
+	"headwords": [
+		{
+			"text": "קוֹנְדִּילִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

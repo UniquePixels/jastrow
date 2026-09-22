@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00529",
-	"slug": "חזיא-3",
-	"headword": {
-		"text": "חֶזְיָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶזְיָא II",
+	"headwords": [
+		{
+			"text": "חֶזְיָא",
+			"homograph": 2
+		},
 		{
 			"text": "חֶזְיַן"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 443,
 		"column": "a"

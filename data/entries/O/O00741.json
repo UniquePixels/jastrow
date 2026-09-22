@@ -1,20 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "O00741",
-	"slug": "סינקליטוס",
-	"headword": {
-		"text": "סִינְקִלִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינְקִלִיטוֹס",
+	"headwords": [
+		{
+			"text": "סִינְקִלִיטוֹס"
+		},
 		{
 			"text": "סִינְקְלִיטִיקוֹס"
 		},
 		{
-			"text": "סינקליטק׳"
+			"text": "סינקליטק׳",
+			"partial": true
 		},
 		{
 			"text": "סִינְקַתִּידְרוֹס"
 		}
 	],
+	"display": "{0}, {1}, ({2}), {3}",
 	"page": {
 		"number": 983,
 		"column": "b"

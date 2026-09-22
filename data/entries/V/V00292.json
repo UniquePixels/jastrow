@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00292",
-	"slug": "תוריבוס",
-	"headword": {
-		"text": "תּוֹרִיבוֹס"
-	},
+	"sefariaHeadword": "תּוֹרִיבוֹס",
+	"headwords": [
+		{
+			"text": "תּוֹרִיבוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

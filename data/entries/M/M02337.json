@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02337",
-	"slug": "מצנפת",
-	"headword": {
-		"text": "מִצְנֶפֶת"
-	},
+	"sefariaHeadword": "מִצְנֶפֶת",
+	"headwords": [
+		{
+			"text": "מִצְנֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00195",
-	"slug": "רגילית",
-	"headword": {
-		"text": "רְגִילִית"
-	},
+	"sefariaHeadword": "רְגִילִית",
+	"headwords": [
+		{
+			"text": "רְגִילִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "b"

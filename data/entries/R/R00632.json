@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00632",
-	"slug": "צנית",
-	"headword": {
-		"text": "צִנִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנִּית",
+	"headwords": [
+		{
+			"text": "צִנִּית"
+		},
 		{
 			"text": "צִנִּיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1292,
 		"column": "a"

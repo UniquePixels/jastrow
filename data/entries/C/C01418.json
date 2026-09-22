@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01418",
-	"slug": "גשמה",
-	"headword": {
-		"text": "גְּשָׁמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּשָׁמָה",
+	"headwords": [
+		{
+			"text": "גְּשָׁמָה"
+		},
 		{
 			"text": "גְּשָׁמָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 274,
 		"column": "a"

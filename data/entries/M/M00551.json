@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00551",
-	"slug": "מוסר-2",
-	"headword": {
-		"text": "מוֹסֵר"
-	},
+	"sefariaHeadword": "מוֹסֵר",
+	"headwords": [
+		{
+			"text": "מוֹסֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

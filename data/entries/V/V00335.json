@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00335",
-	"slug": "תות-2",
-	"headword": {
-		"text": "תּוּת"
-	},
+	"sefariaHeadword": "תּוּת",
+	"headwords": [
+		{
+			"text": "תּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "b"

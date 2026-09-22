@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02918",
-	"slug": "משלית",
-	"headword": {
-		"text": "מַשְׁלִית"
-	},
+	"sefariaHeadword": "מַשְׁלִית",
+	"headwords": [
+		{
+			"text": "מַשְׁלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "a"

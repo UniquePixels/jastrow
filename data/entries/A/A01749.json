@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01749",
-	"slug": "אכר",
-	"headword": {
-		"text": "אִכָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִכָּר",
+	"headwords": [
+		{
+			"text": "אִכָּר"
+		},
 		{
 			"text": "אִכָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 65,
 		"column": "b"

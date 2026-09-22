@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00349",
-	"slug": "סומפוניה",
-	"headword": {
-		"text": "סוּמְפּוֹנְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּמְפּוֹנְיָה",
+	"headwords": [
 		{
-			"text": "סוּמְפֹּנְ׳"
+			"text": "סוּמְפּוֹנְיָה"
+		},
+		{
+			"text": "סוּמְפֹּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 966,
 		"column": "b"

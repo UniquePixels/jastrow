@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01066",
-	"slug": "רשאי-2",
-	"headword": {
-		"text": "רַשַּׁאי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַשַּׁאי ²",
+	"headwords": [
+		{
+			"text": "רַשַּׁאי",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַשַּׁיי"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1498,
 		"column": "b"

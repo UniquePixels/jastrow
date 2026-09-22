@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00073",
-	"slug": "תברא",
-	"headword": {
-		"text": "תָּבְרָא"
-	},
+	"sefariaHeadword": "תָּבְרָא",
+	"headwords": [
+		{
+			"text": "תָּבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "a"

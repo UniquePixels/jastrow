@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00600",
-	"slug": "פיולי",
-	"headword": {
-		"text": "פְּיוֹלי"
-	},
+	"sefariaHeadword": "פְּיוֹלי",
+	"headwords": [
+		{
+			"text": "פְּיוֹלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

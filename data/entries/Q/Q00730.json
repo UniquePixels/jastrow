@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00730",
-	"slug": "פיניתא",
-	"headword": {
-		"text": "פִּינִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינִיתָא",
+	"headwords": [
+		{
+			"text": "פִּינִיתָא"
+		},
 		{
 			"text": "פִּינְתָא"
 		},
 		{
-			"text": "פִּנְ׳"
+			"text": "פִּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1165,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00756",
-	"slug": "חיל-2",
-	"headword": {
-		"text": "חֵיל",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיל I",
+	"headwords": [
+		{
+			"text": "חֵיל",
+			"homograph": 1
+		},
 		{
 			"text": "חֵל"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 455,
 		"column": "b"

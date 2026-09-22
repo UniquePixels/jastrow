@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00731",
-	"slug": "טרוף-1",
-	"headword": {
-		"text": "טָרוּף"
-	},
+	"sefariaHeadword": "טָרוּף",
+	"headwords": [
+		{
+			"text": "טָרוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

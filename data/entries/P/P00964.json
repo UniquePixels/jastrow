@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00964",
-	"slug": "ענותאי",
-	"headword": {
-		"text": "ענותאי"
-	},
+	"sefariaHeadword": "ענותאי",
+	"headwords": [
+		{
+			"text": "ענותאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "b"

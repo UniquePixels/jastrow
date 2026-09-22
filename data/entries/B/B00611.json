@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00611",
-	"slug": "ביל-1",
-	"headword": {
-		"text": "בּיל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּיל",
+	"headwords": [
+		{
+			"text": "בּיל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

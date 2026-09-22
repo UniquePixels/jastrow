@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00868",
-	"slug": "עמודא",
-	"headword": {
-		"text": "עַמּוּדָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַמּוּדָא II",
+	"headwords": [
+		{
+			"text": "עַמּוּדָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1087,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

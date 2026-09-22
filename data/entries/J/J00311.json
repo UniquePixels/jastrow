@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00311",
-	"slug": "יטב-1",
-	"headword": {
-		"text": "יָטַב"
-	},
+	"sefariaHeadword": "יָטַב",
+	"headwords": [
+		{
+			"text": "יָטַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

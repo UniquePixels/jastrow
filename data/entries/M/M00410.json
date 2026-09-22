@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00410",
-	"slug": "מודים",
-	"headword": {
-		"text": "מוֹדִים"
-	},
+	"sefariaHeadword": "מוֹדִים",
+	"headwords": [
+		{
+			"text": "מוֹדִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00311",
-	"slug": "כונשרא",
-	"headword": {
-		"text": "כּוּנְשְׁרָא"
-	},
+	"sefariaHeadword": "כּוּנְשְׁרָא",
+	"headwords": [
+		{
+			"text": "כּוּנְשְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

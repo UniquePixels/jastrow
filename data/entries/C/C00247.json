@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00247",
-	"slug": "גדר-5",
-	"headword": {
-		"text": "גֶּדֶר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֶּדֶר II",
+	"headwords": [
+		{
+			"text": "גֶּדֶר",
+			"homograph": 2
+		},
 		{
 			"text": "הַגֶּדֶר"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 215,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

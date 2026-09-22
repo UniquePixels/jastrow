@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00461",
-	"slug": "מוטב",
-	"headword": {
-		"text": "מוּטָב"
-	},
+	"sefariaHeadword": "מוּטָב",
+	"headwords": [
+		{
+			"text": "מוּטָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "b"

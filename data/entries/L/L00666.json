@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00666",
-	"slug": "לקוט",
-	"headword": {
-		"text": "לָקוֹט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לָקוֹט",
+	"headwords": [
+		{
+			"text": "לָקוֹט"
+		},
 		{
 			"text": "לוֹקֵט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 716,
 		"column": "b"

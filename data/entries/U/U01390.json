@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01390",
-	"slug": "שלשה",
-	"headword": {
-		"text": "שְׁלשָׁה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלשָׁה",
+	"headwords": [
+		{
+			"text": "שְׁלשָׁה"
+		},
 		{
 			"text": "שָׁלשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1589,
 		"column": "a"

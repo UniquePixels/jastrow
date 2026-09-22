@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "V00893",
-	"slug": "תקלא-1",
-	"headword": {
-		"text": "תִּקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּקְלָא",
+	"headwords": [
+		{
+			"text": "תִּקְלָא"
+		},
 		{
 			"text": "תִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1691,
 		"column": "a"

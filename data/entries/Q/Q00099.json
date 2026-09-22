@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00099",
-	"slug": "פגש-3",
-	"headword": {
-		"text": "פַּגָּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּגָּשׁ",
+	"headwords": [
 		{
-			"text": "כְּפַר פַּגָּשׁ"
+			"text": "פַּגָּשׁ"
+		},
+		{
+			"text": "כְּפַר פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1136,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

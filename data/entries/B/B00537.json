@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00537",
-	"slug": "ביא",
-	"headword": {
-		"text": "בִּיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיָּא",
+	"headwords": [
+		{
+			"text": "בִּיָּא"
+		},
 		{
 			"text": "בִּיָיא"
 		},
@@ -18,6 +19,7 @@
 			"text": "בִּיאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, ({4})",
 	"page": {
 		"number": 158,
 		"column": "b"

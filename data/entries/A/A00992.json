@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00992",
-	"slug": "אחאי",
-	"headword": {
-		"text": "אַחַאי"
-	},
+	"sefariaHeadword": "אַחַאי",
+	"headwords": [
+		{
+			"text": "אַחַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "b"

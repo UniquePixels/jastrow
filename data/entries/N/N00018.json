@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00018",
-	"slug": "נאי",
-	"headword": {
-		"text": "נאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נאי",
+	"headwords": [
+		{
+			"text": "נאי"
+		},
 		{
 			"text": "נָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 866,
 		"column": "a"

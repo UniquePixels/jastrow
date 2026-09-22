@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00762",
-	"slug": "חילוא",
-	"headword": {
-		"text": "חֵילָוָא"
-	},
+	"sefariaHeadword": "חֵילָוָא",
+	"headwords": [
+		{
+			"text": "חֵילָוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "a"

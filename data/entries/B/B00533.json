@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00533",
-	"slug": "בטרא",
-	"headword": {
-		"text": "בִּטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּטְרָא",
+	"headwords": [
+		{
+			"text": "בִּטְרָא"
+		},
 		{
 			"text": "בִּטְדָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 158,
 		"column": "b"

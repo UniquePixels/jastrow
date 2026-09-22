@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03039",
-	"slug": "מתח-1",
-	"headword": {
-		"text": "מָתַח"
-	},
+	"sefariaHeadword": "מָתַח",
+	"headwords": [
+		{
+			"text": "מָתַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "a"

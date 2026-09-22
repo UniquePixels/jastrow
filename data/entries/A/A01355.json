@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01355",
-	"slug": "אימת-1",
-	"headword": {
-		"text": "אֵימָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵימָת",
+	"headwords": [
+		{
+			"text": "אֵימָת"
+		},
 		{
 			"text": "אֵימָתַי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 51,
 		"column": "b"

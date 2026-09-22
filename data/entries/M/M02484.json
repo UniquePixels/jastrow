@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02484",
-	"slug": "מראה-1",
-	"headword": {
-		"text": "מַרְאֶה"
-	},
+	"sefariaHeadword": "מַרְאֶה",
+	"headwords": [
+		{
+			"text": "מַרְאֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 834,
 		"column": "b"

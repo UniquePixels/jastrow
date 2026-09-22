@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00355",
-	"slug": "דורבנא",
-	"headword": {
-		"text": "דּוּרְבָּנָא"
-	},
+	"sefariaHeadword": "דּוּרְבָּנָא",
+	"headwords": [
+		{
+			"text": "דּוּרְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

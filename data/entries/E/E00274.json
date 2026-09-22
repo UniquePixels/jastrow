@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00274",
-	"slug": "הורדוס",
-	"headword": {
-		"text": "הוֹרְדוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוֹרְדוֹס",
+	"headwords": [
+		{
+			"text": "הוֹרְדוֹס"
+		},
 		{
 			"text": "הוֹרוֹדוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 340,
 		"column": "b"

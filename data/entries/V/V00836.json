@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00836",
-	"slug": "תפלין",
-	"headword": {
-		"text": "תְּפִלִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּפִלִּין",
+	"headwords": [
 		{
-			"text": "תְּפִי׳"
+			"text": "תְּפִלִּין"
+		},
+		{
+			"text": "תְּפִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1687,
 		"column": "b"

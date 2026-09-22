@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00742",
-	"slug": "צרה-1",
-	"headword": {
-		"text": "צְרַהּ"
-	},
+	"sefariaHeadword": "צְרַהּ",
+	"headwords": [
+		{
+			"text": "צְרַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1300,
 		"column": "a"

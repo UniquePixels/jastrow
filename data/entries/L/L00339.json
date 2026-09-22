@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00339",
-	"slug": "לחודאי",
-	"headword": {
-		"text": "לחודאי"
-	},
+	"sefariaHeadword": "לחודאי",
+	"headwords": [
+		{
+			"text": "לחודאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 702,
 		"column": "a"

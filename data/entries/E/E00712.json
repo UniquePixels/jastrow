@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00712",
-	"slug": "הסתר",
-	"headword": {
-		"text": "הַסְתֵּר"
-	},
+	"sefariaHeadword": "הַסְתֵּר",
+	"headwords": [
+		{
+			"text": "הַסְתֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "b"

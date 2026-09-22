@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01044",
-	"slug": "קינים",
-	"headword": {
-		"text": "קִינִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינִים",
+	"headwords": [
+		{
+			"text": "קִינִים"
+		},
 		{
 			"text": "קִינִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1364,
 		"column": "a"

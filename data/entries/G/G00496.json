@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00496",
-	"slug": "זליפה",
-	"headword": {
-		"text": "זְלִיפָה"
-	},
+	"sefariaHeadword": "זְלִיפָה",
+	"headwords": [
+		{
+			"text": "זְלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "b"

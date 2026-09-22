@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01358",
-	"slug": "קלם",
-	"headword": {
-		"text": "קְלַם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְלַם",
+	"headwords": [
+		{
+			"text": "קְלַם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

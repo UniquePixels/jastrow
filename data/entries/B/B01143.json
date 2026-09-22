@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01143",
-	"slug": "בקרא-3",
-	"headword": {
-		"text": "בַּקְרָא"
-	},
+	"sefariaHeadword": "בַּקְרָא",
+	"headwords": [
+		{
+			"text": "בַּקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 187,
 		"column": "b"

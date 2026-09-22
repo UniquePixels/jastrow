@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01049",
-	"slug": "דרדק",
-	"headword": {
-		"text": "דַּרְדַּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְדַּק",
+	"headwords": [
+		{
+			"text": "דַּרְדַּק"
+		},
 		{
 			"text": "דַּרְדְּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 321,
 		"column": "b"

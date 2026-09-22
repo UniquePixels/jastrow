@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00171",
-	"slug": "פוזמיקון",
-	"headword": {
-		"text": "פוזמיקון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פוזמיקון",
+	"headwords": [
+		{
+			"text": "פוזמיקון"
+		},
 		{
 			"text": "פוזמיקין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1139,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01565",
-	"slug": "פרגלינין",
-	"headword": {
-		"text": "פְּרַגְלִינִין"
-	},
+	"sefariaHeadword": "פְּרַגְלִינִין",
+	"headwords": [
+		{
+			"text": "פְּרַגְלִינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "b"

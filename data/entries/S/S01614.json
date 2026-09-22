@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01614",
-	"slug": "קנקן-1",
-	"headword": {
-		"text": "קַנְקָן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַנְקָן I",
+	"headwords": [
+		{
+			"text": "קַנְקָן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1394,
 		"column": "b"

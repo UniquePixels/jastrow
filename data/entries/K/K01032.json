@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01032",
-	"slug": "כפליין",
-	"headword": {
-		"text": "כפליין"
-	},
+	"sefariaHeadword": "כפליין",
+	"headwords": [
+		{
+			"text": "כפליין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

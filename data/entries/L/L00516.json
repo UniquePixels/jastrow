@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00516",
-	"slug": "ליצן-2",
-	"headword": {
-		"text": "לֵיצָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵיצָן ²",
+	"headwords": [
+		{
+			"text": "לֵיצָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "לֵיצָנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 709,
 		"column": "b"

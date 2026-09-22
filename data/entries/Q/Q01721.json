@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01721",
-	"slug": "פרוע-1",
-	"headword": {
-		"text": "פֵּרוּעַ"
-	},
+	"sefariaHeadword": "פֵּרוּעַ",
+	"headwords": [
+		{
+			"text": "פֵּרוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

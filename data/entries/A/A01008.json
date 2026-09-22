@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01008",
-	"slug": "אחוזה",
-	"headword": {
-		"text": "אֲחוּזָה"
-	},
+	"sefariaHeadword": "אֲחוּזָה",
+	"headwords": [
+		{
+			"text": "אֲחוּזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00245",
-	"slug": "פולר",
-	"headword": {
-		"text": "פּוֹלָר"
-	},
+	"sefariaHeadword": "פּוֹלָר",
+	"headwords": [
+		{
+			"text": "פּוֹלָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "b"

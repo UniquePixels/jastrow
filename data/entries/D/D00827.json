@@ -1,21 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "D00827",
-	"slug": "דלי-1",
-	"headword": {
-		"text": "דלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דלי",
+	"headwords": [
+		{
+			"text": "דלי"
+		},
 		{
 			"text": "דָּלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 309,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": "(b. h.; <cite ref=\"D00841\"><he>דָּלַל</he></cite>) [<i>to be suspended, swing;</i> denom. <he>דֳּלִי</he>; whence] ",
+			"gloss": "(b. h.; <cite ref=\"D00841\"><he>דָּלַל</he></cite>) [<i>to be suspended, swing;</i> denom. <he>דֳּלִי</he>; whence] ",
 			"units": []
 		},
 		{

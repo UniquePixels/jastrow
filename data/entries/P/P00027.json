@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00027",
-	"slug": "עבוז",
-	"headword": {
-		"text": "עָבוּז"
-	},
+	"sefariaHeadword": "עָבוּז",
+	"headwords": [
+		{
+			"text": "עָבוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

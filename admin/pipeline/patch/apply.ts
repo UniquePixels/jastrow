@@ -530,11 +530,49 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
 	};
 }
 
+/** A `reform` that changed only the entry's `display`.
+ *
+ * `reform`'s target is the forms block, so the assertion below reads
+ * "the apply changed its target" as "the block no longer hashes to
+ * the anchor". Since headword design §2 gave the op a `display` half
+ * (#130), that reading is incomplete: a patch may set the LAYOUT of a
+ * line whose forms are already right. §4 "Parentheses" (ruled
+ * 2026-09-22) is exactly that case — A02823's parentheses sit on the
+ * wrong form in the source, the parser stays source-faithful, and the
+ * print's `({0}) {1} I` is supplied by a reviewed patch while the
+ * forms stay as the source has them.
+ *
+ * So the question the assertion asks is "did the apply change
+ * anything?", and for such a patch the answer is `display`. A reform
+ * that changes NEITHER still fails, which is the case the assertion
+ * was written for. */
+function reformSetDisplayOnly(
+	before: SourceEntry,
+	after: SourceEntry,
+	patch: SemanticPatch,
+): boolean {
+	if (patch.op !== 'reform' || before.display === after.display) {
+		return false;
+	}
+	// The forms half must really be unchanged, which is what makes the
+	// skipped assertion safe. Without this clause the exemption would
+	// read "a reform that set a display", and a payload whose `forms`
+	// silently repeat the current ones would ship whenever it also
+	// carried a template — the exact no-op the assertion exists to
+	// catch, wearing a display as a pass.
+	return countTarget(after, patch) === countTarget(before, patch);
+}
+
 /** Round-trip re-parse assertion (spec §4.3): the patched entry must
- * survive JSON serialization unchanged, and the patch's pre-state
- * target address must no longer resolve to its old count — an apply
- * that left the target byte-identical repaired nothing. */
-function postApplyAssertions(after: SourceEntry, patch: SemanticPatch): void {
+ * survive JSON serialization unchanged, and the apply must have
+ * changed something — its pre-state target no longer resolving to its
+ * old count, or (see `reformSetDisplayOnly`) the line's layout. An
+ * apply that left the entry byte-identical repaired nothing. */
+function postApplyAssertions(
+	before: SourceEntry,
+	after: SourceEntry,
+	patch: SemanticPatch,
+): void {
 	const reparsed = JSON.parse(JSON.stringify(after)) as SourceEntry;
 	if (JSON.stringify(reparsed) !== JSON.stringify(after)) {
 		throw new PatchApplyError(
@@ -543,7 +581,10 @@ function postApplyAssertions(after: SourceEntry, patch: SemanticPatch): void {
 		);
 	}
 	const stale = countTarget(after, patch);
-	if (stale !== patch.expected_occurrences - 1) {
+	if (
+		stale !== patch.expected_occurrences - 1 &&
+		!reformSetDisplayOnly(before, after, patch)
+	) {
 		throw new PatchApplyError(
 			patch.id,
 			`after apply, the pre-state target still resolves ${stale} time(s); expected ${patch.expected_occurrences - 1} — the apply did not change its target`,
@@ -592,7 +633,7 @@ function tryApply(
 ): { entry: SourceEntry; problem?: undefined } | { problem: ApplyProblem } {
 	try {
 		const next = applyPatch(current, patch);
-		postApplyAssertions(next, patch);
+		postApplyAssertions(current, next, patch);
 		const problem = newTextProblem(patch, current, next);
 		return problem === undefined ? { entry: next } : { problem };
 	} catch (error) {

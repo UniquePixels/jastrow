@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00548",
-	"slug": "טמיון",
-	"headword": {
-		"text": "טַמְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַמְיוֹן",
+	"headwords": [
+		{
+			"text": "טַמְיוֹן"
+		},
 		{
 			"text": "טִימְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 539,
 		"column": "b"

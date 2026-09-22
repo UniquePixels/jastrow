@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00619",
-	"slug": "חטיא-1",
-	"headword": {
-		"text": "חִטַּיָּא"
-	},
+	"sefariaHeadword": "חִטַּיָּא",
+	"headwords": [
+		{
+			"text": "חִטַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 449,
 		"column": "a"

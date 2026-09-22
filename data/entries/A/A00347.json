@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00347",
-	"slug": "אגרון",
-	"headword": {
-		"text": "אגרון"
-	},
+	"sefariaHeadword": "אגרון",
+	"headwords": [
+		{
+			"text": "אגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

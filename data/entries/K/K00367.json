@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "K00367",
-	"slug": "כורא-2",
-	"headword": {
-		"text": "כּוּרָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*כּוּרָא II",
+	"headwords": [
+		{
+			"text": "כּוּרָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 625,
 		"column": "a"

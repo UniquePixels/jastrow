@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00887",
-	"slug": "טרק-1",
-	"headword": {
-		"text": "טָרַק"
-	},
+	"sefariaHeadword": "טָרַק",
+	"headwords": [
+		{
+			"text": "טָרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "b"

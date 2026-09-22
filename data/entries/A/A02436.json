@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02436",
-	"slug": "אסיל",
-	"headword": {
-		"text": "אָסִיל"
-	},
+	"sefariaHeadword": "אָסִיל",
+	"headwords": [
+		{
+			"text": "אָסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

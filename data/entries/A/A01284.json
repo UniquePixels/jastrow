@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01284",
-	"slug": "אילוסיס",
-	"headword": {
-		"text": "אילוסיס"
-	},
+	"sefariaHeadword": "אילוסיס",
+	"headwords": [
+		{
+			"text": "אילוסיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00104",
-	"slug": "טהר-4",
-	"headword": {
-		"text": "טִהָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִהָר",
+	"headwords": [
+		{
+			"text": "טִהָר"
+		},
 		{
 			"text": "טִהֲרָא"
 		},
@@ -18,6 +19,7 @@
 			"text": "טִהַרְרֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 520,
 		"column": "b"

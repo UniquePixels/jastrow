@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00400",
-	"slug": "גולמהרג",
-	"headword": {
-		"text": "גולמהרג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גולמהרג",
+	"headwords": [
+		{
+			"text": "גולמהרג"
+		},
 		{
 			"text": "גולמו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 222,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00794",
-	"slug": "טריך",
-	"headword": {
-		"text": "טָרֵיךְ"
-	},
+	"sefariaHeadword": "טָרֵיךְ",
+	"headwords": [
+		{
+			"text": "טָרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "b"

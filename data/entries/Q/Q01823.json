@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01823",
-	"slug": "פריץ",
-	"headword": {
-		"text": "פָּרִיץ"
-	},
+	"sefariaHeadword": "פָּרִיץ",
+	"headwords": [
+		{
+			"text": "פָּרִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "b"

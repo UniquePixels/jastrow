@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00112",
-	"slug": "כדו",
-	"headword": {
-		"text": "כְּדוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּדוּ",
+	"headwords": [
+		{
+			"text": "כְּדוּ"
+		},
 		{
 			"text": "כְּדוֹ"
 		},
@@ -12,6 +13,7 @@
 			"text": "כִּידוּ"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 612,
 		"column": "b"

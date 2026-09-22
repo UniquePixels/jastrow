@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00921",
-	"slug": "עמקא-1",
-	"headword": {
-		"text": "עִמְקָא"
-	},
+	"sefariaHeadword": "עִמְקָא",
+	"headwords": [
+		{
+			"text": "עִמְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "b"

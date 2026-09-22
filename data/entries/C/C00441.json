@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00441",
-	"slug": "גונין",
-	"headword": {
-		"text": "גונין"
-	},
+	"sefariaHeadword": "גונין",
+	"headwords": [
+		{
+			"text": "גונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 224,
 		"column": "a"

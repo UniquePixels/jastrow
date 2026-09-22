@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00360",
-	"slug": "נוכריתא",
-	"headword": {
-		"text": "נוּכְרֵיתָא"
-	},
+	"sefariaHeadword": "נוּכְרֵיתָא",
+	"headwords": [
+		{
+			"text": "נוּכְרֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00607",
-	"slug": "מורא-1",
-	"headword": {
-		"text": "מוֹרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מוֹרָא I",
+	"headwords": [
+		{
+			"text": "מוֹרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 748,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01204",
-	"slug": "פניקיא",
-	"headword": {
-		"text": "פְּנִיקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנִיקְיָא",
+	"headwords": [
 		{
-			"text": "פְּנִקְ׳"
+			"text": "פְּנִיקְיָא"
+		},
+		{
+			"text": "פְּנִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1190,
 		"column": "a"

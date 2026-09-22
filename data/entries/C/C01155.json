@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01155",
-	"slug": "גנסת",
-	"headword": {
-		"text": "גְּנִסַּת"
-	},
+	"sefariaHeadword": "גְּנִסַּת",
+	"headwords": [
+		{
+			"text": "גְּנִסַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "a"

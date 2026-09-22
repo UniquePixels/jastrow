@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00617",
-	"slug": "המירום",
-	"headword": {
-		"text": "המירום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "המירום",
+	"headwords": [
+		{
+			"text": "המירום"
+		},
 		{
 			"text": "המירוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 355,
 		"column": "b"

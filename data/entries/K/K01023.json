@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01023",
-	"slug": "כפית",
-	"headword": {
-		"text": "כָּפִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּפִית",
+	"headwords": [
+		{
+			"text": "כָּפִית"
+		},
 		{
 			"text": "כָּפִיתִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 659,
 		"column": "b"

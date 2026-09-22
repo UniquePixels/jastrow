@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00036",
-	"slug": "גבאה",
-	"headword": {
-		"text": "גַּבָּאָה"
-	},
+	"sefariaHeadword": "גַּבָּאָה",
+	"headwords": [
+		{
+			"text": "גַּבָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "b"

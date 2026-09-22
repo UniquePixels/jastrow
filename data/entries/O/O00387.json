@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00387",
-	"slug": "סוף-4",
-	"headword": {
-		"text": "סוּף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סוּף ²",
+	"headwords": [
+		{
+			"text": "סוּף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 967,
 		"column": "b"

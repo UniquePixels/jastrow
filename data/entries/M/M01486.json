@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01486",
-	"slug": "מלג-1",
-	"headword": {
-		"text": "מָלַג"
-	},
+	"sefariaHeadword": "מָלַג",
+	"headwords": [
+		{
+			"text": "מָלַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 787,
 		"column": "a"

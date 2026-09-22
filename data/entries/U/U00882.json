@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00882",
-	"slug": "שיטה-1",
-	"headword": {
-		"text": "שִׁיטָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיטָּה",
+	"headwords": [
+		{
+			"text": "שִׁיטָּה"
+		},
 		{
 			"text": "שִׁטָּה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1560,
 		"column": "a"

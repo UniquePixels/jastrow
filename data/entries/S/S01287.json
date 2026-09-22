@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01287",
-	"slug": "קלוע",
-	"headword": {
-		"text": "קלוע"
-	},
+	"sefariaHeadword": "קלוע",
+	"headwords": [
+		{
+			"text": "קלוע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00303",
-	"slug": "אגלים",
-	"headword": {
-		"text": "אֲגָלִים"
-	},
+	"sefariaHeadword": "אֲגָלִים",
+	"headwords": [
+		{
+			"text": "אֲגָלִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

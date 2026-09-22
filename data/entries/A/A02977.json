@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02977",
-	"slug": "ארג-3",
-	"headword": {
-		"text": "אֲרַג"
-	},
+	"sefariaHeadword": "אֲרַג",
+	"headwords": [
+		{
+			"text": "אֲרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

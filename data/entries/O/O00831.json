@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00831",
-	"slug": "סירגול",
-	"headword": {
-		"text": "סִירְגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִירְגּוּל",
+	"headwords": [
 		{
-			"text": "סִרְ׳"
+			"text": "סִירְגּוּל"
+		},
+		{
+			"text": "סִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "a"

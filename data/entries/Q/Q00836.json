@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00836",
-	"slug": "פירוי",
-	"headword": {
-		"text": "פֵּירוּי"
-	},
+	"sefariaHeadword": "פֵּירוּי",
+	"headwords": [
+		{
+			"text": "פֵּירוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

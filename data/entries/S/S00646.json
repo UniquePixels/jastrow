@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00646",
-	"slug": "קורקורה",
-	"headword": {
-		"text": "קוּרְקוּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּרְקוּרָה",
+	"headwords": [
+		{
+			"text": "קוּרְקוּרָה"
+		},
 		{
 			"text": "קוּרְקוּרוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1344,
 		"column": "a"

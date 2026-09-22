@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00578",
-	"slug": "יקם",
-	"headword": {
-		"text": "יֶקֶם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יֶקֶם",
+	"headwords": [
+		{
+			"text": "יֶקֶם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 592,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01204",
-	"slug": "איחוי",
-	"headword": {
-		"text": "אִיחוּי"
-	},
+	"sefariaHeadword": "אִיחוּי",
+	"headwords": [
+		{
+			"text": "אִיחוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01017",
-	"slug": "קינא",
-	"headword": {
-		"text": "קִינָא"
-	},
+	"sefariaHeadword": "קִינָא",
+	"headwords": [
+		{
+			"text": "קִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

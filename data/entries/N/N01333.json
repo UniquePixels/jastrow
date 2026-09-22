@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01333",
-	"slug": "נשמא",
-	"headword": {
-		"text": "נִשְׁמָא"
-	},
+	"sefariaHeadword": "נִשְׁמָא",
+	"headwords": [
+		{
+			"text": "נִשְׁמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 941,
 		"column": "a"

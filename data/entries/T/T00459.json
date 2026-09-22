@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00459",
-	"slug": "רז-1",
-	"headword": {
-		"text": "רָז"
-	},
+	"sefariaHeadword": "רָז",
+	"headwords": [
+		{
+			"text": "רָז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

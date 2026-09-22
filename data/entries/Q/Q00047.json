@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00047",
-	"slug": "פגום-2",
-	"headword": {
-		"text": "פָּגוּם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פָּגוּם II",
+	"headwords": [
+		{
+			"text": "פָּגוּם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1132,
 		"column": "b"

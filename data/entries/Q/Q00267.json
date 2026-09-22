@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00267",
-	"slug": "פונדקאן",
-	"headword": {
-		"text": "פּוּנְדְּקָאָן"
-	},
+	"sefariaHeadword": "פּוּנְדְּקָאָן",
+	"headwords": [
+		{
+			"text": "פּוּנְדְּקָאָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00901",
-	"slug": "עמלא",
-	"headword": {
-		"text": "עֲמֵלָא"
-	},
+	"sefariaHeadword": "עֲמֵלָא",
+	"headwords": [
+		{
+			"text": "עֲמֵלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "a"

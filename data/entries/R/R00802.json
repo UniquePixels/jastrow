@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00802",
-	"slug": "צרפית-2",
-	"headword": {
-		"text": "צָרְפִית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צָרְפִית II",
+	"headwords": [
+		{
+			"text": "צָרְפִית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1304,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01140",
-	"slug": "חמא-4",
-	"headword": {
-		"text": "חֵמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵמָא",
+	"headwords": [
+		{
+			"text": "חֵמָא"
+		},
 		{
 			"text": "חֱמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 475,
 		"column": "a"

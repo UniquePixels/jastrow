@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03134",
-	"slug": "ארכובה",
-	"headword": {
-		"text": "אַרְכּוּבָה"
-	},
+	"sefariaHeadword": "אַרְכּוּבָה",
+	"headwords": [
+		{
+			"text": "אַרְכּוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 121,
 		"column": "b"

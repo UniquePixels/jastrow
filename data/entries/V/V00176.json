@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00176",
-	"slug": "תווך-2",
-	"headword": {
-		"text": "תָּוֶוךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּוֶוךְ",
+	"headwords": [
+		{
+			"text": "תָּוֶוךְ"
+		},
 		{
 			"text": "תָּוֶךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1651,
 		"column": "b"

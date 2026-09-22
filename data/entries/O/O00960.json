@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00960",
-	"slug": "סלוא-2",
-	"headword": {
-		"text": "סִלְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִלְוָא",
+	"headwords": [
+		{
+			"text": "סִלְוָא"
+		},
 		{
 			"text": "סִלְוָוא"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 993,
 		"column": "b"

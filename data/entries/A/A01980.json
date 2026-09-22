@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01980",
-	"slug": "אמגושא",
-	"headword": {
-		"text": "אַמְגּוֹשָׁא"
-	},
+	"sefariaHeadword": "אַמְגֹּושָׁא",
+	"headwords": [
+		{
+			"text": "אַמְגּוֹשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

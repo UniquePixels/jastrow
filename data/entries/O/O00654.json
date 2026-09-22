@@ -1,22 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "O00654",
-	"slug": "סיכרא-2",
-	"headword": {
-		"text": "סִיכְרָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכְרָא ²",
+	"headwords": [
+		{
+			"text": "סִיכְרָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "סִכְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 979,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

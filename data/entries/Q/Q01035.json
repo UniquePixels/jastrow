@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01035",
-	"slug": "פלי-2",
-	"headword": {
-		"text": "פלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלי",
+	"headwords": [
+		{
+			"text": "פלי"
+		},
 		{
 			"text": "פָּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1180,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00463",
-	"slug": "ליכלוך",
-	"headword": {
-		"text": "לִיכְלוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיכְלוּךְ",
+	"headwords": [
+		{
+			"text": "לִיכְלוּךְ"
+		},
 		{
 			"text": "לִיכְלוּכִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 707,
 		"column": "a"

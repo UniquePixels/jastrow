@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00573",
-	"slug": "ביזתא-1",
-	"headword": {
-		"text": "בִּיזְּתָא"
-	},
+	"sefariaHeadword": "בִּיזְּתָא",
+	"headwords": [
+		{
+			"text": "בִּיזְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

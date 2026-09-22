@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00795",
-	"slug": "תעתע",
-	"headword": {
-		"text": "תִּעְתֵּעַ"
-	},
+	"sefariaHeadword": "תִּעְתֵּעַ",
+	"headwords": [
+		{
+			"text": "תִּעְתֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "b"

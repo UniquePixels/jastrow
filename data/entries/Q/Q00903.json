@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00903",
-	"slug": "פיתנא",
-	"headword": {
-		"text": "פִּיתְנָא"
-	},
+	"sefariaHeadword": "פִּיתְנָא",
+	"headwords": [
+		{
+			"text": "פִּיתְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "b"

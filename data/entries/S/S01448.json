@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01448",
-	"slug": "קמוניא-1",
-	"headword": {
-		"text": "קִמוֹנְיָא"
-	},
+	"sefariaHeadword": "קִמוֹנְיָא",
+	"headwords": [
+		{
+			"text": "קִמוֹנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

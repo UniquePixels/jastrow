@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01359",
-	"slug": "ספינא",
-	"headword": {
-		"text": "סְפִינָא"
-	},
+	"sefariaHeadword": "סְפִינָא",
+	"headwords": [
+		{
+			"text": "סְפִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

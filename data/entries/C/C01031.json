@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01031",
-	"slug": "גמיעה",
-	"headword": {
-		"text": "גְּמִיעָה"
-	},
+	"sefariaHeadword": "גְּמִיעָה",
+	"headwords": [
+		{
+			"text": "גְּמִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "a"

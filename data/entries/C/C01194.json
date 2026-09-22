@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01194",
-	"slug": "געתון",
-	"headword": {
-		"text": "גַּעְתּוֹן"
-	},
+	"sefariaHeadword": "גַּעְתּוֹן",
+	"headwords": [
+		{
+			"text": "גַּעְתּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

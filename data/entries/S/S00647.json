@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00647",
-	"slug": "קורקיאני",
-	"headword": {
-		"text": "קוּרְקְיָאנֵי"
-	},
+	"sefariaHeadword": "קוּרְקְיָאנֵי",
+	"headwords": [
+		{
+			"text": "קוּרְקְיָאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "a"

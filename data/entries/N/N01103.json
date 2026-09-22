@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01103",
-	"slug": "נצוחות",
-	"headword": {
-		"text": "נָצוֹחוֹת"
-	},
+	"sefariaHeadword": "נָצוֹחוֹת",
+	"headwords": [
+		{
+			"text": "נָצוֹחוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

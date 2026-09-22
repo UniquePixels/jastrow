@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01309",
-	"slug": "ערובא-2",
-	"headword": {
-		"text": "עֲרוּבָא"
-	},
+	"sefariaHeadword": "עֲרוּבָא",
+	"headwords": [
+		{
+			"text": "עֲרוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

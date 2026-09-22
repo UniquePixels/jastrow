@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00136",
-	"slug": "צהותא",
-	"headword": {
-		"text": "צָהוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָהוּתָא",
+	"headwords": [
+		{
+			"text": "צָהוּתָא"
+		},
 		{
 			"text": "צְהֵי"
 		},
@@ -15,6 +16,7 @@
 			"text": "צַהֲיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1264,
 		"column": "b"

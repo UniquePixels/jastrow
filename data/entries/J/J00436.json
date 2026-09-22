@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00436",
-	"slug": "יני-1",
-	"headword": {
-		"text": "יני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יני",
+	"headwords": [
+		{
+			"text": "יני"
+		},
 		{
 			"text": "יָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 581,
 		"column": "a"

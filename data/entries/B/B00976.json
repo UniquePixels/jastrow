@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00976",
-	"slug": "בסומא",
-	"headword": {
-		"text": "בְּסוּמָא"
-	},
+	"sefariaHeadword": "בְּסוּמָא",
+	"headwords": [
+		{
+			"text": "בְּסוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

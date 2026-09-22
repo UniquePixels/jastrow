@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00777",
-	"slug": "גיסא-3",
-	"headword": {
-		"text": "גִּיסָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "גִּיסָא III",
+	"headwords": [
+		{
+			"text": "גִּיסָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 240,
 		"column": "b"

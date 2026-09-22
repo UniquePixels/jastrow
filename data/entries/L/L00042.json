@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00042",
-	"slug": "לבד-2",
-	"headword": {
-		"text": "לָבַד"
-	},
+	"sefariaHeadword": "לָבַד",
+	"headwords": [
+		{
+			"text": "לָבַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

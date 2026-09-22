@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01296",
-	"slug": "קלורוס",
-	"headword": {
-		"text": "קלורוס"
-	},
+	"sefariaHeadword": "קלורוס",
+	"headwords": [
+		{
+			"text": "קלורוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00909",
-	"slug": "גלוסקוים",
-	"headword": {
-		"text": "גלוסקוים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גלוסקוים",
+	"headwords": [
+		{
+			"text": "גלוסקוים"
+		},
 		{
 			"text": "גְּלוּסְקוֹם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 247,
 		"column": "a"

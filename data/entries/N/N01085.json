@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N01085",
-	"slug": "נפש-4",
-	"headword": {
-		"text": "נְפַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְפַשׁ",
+	"headwords": [
+		{
+			"text": "נְפַשׁ"
+		},
 		{
 			"text": "נַפְשָׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נַפְשָׁה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 927,
 		"column": "a"

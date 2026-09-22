@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01719",
-	"slug": "קפוף-1",
-	"headword": {
-		"text": "קִפּוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִפּוֹף",
+	"headwords": [
+		{
+			"text": "קִפּוֹף"
+		},
 		{
 			"text": "קִפּוֹפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִפּוּפָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1399,
 		"column": "a"

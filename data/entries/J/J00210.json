@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00210",
-	"slug": "יונקת",
-	"headword": {
-		"text": "יוֹנֶקֶת"
-	},
+	"sefariaHeadword": "יוֹנֶקֶת",
+	"headwords": [
+		{
+			"text": "יוֹנֶקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "a"

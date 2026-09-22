@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00491",
-	"slug": "בטבוט",
-	"headword": {
-		"text": "בִּטְבּוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּטְבּוּט",
+	"headwords": [
+		{
+			"text": "בִּטְבּוּט"
+		},
 		{
 			"text": "בִּצְבּוּץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 156,
 		"column": "a"

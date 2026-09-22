@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00258",
-	"slug": "רדיינית",
-	"headword": {
-		"text": "רַדְיָינִית"
-	},
+	"sefariaHeadword": "רַדְיָינִית",
+	"headwords": [
+		{
+			"text": "רַדְיָינִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

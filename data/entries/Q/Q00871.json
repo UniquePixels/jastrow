@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00871",
-	"slug": "פירפר",
-	"headword": {
-		"text": "פִּירְפֵּר"
-	},
+	"sefariaHeadword": "פִּירְפֵּר",
+	"headwords": [
+		{
+			"text": "פִּירְפֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

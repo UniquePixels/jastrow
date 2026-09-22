@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00620",
-	"slug": "סייח",
-	"headword": {
-		"text": "סַיָּיח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיָּיח",
+	"headwords": [
+		{
+			"text": "סַיָּיח"
+		},
 		{
 			"text": "סַיָּח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 978,
 		"column": "b"

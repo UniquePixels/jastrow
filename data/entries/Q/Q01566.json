@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01566",
-	"slug": "פרגמטא",
-	"headword": {
-		"text": "פְּרַגְמָטָא"
-	},
+	"sefariaHeadword": "פְּרַגְמָטָא",
+	"headwords": [
+		{
+			"text": "פְּרַגְמָטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "b"

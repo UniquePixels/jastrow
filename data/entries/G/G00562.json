@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00562",
-	"slug": "זנב-2",
-	"headword": {
-		"text": "זִנֵּב"
-	},
+	"sefariaHeadword": "זִנֵּב",
+	"headwords": [
+		{
+			"text": "זִנֵּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00640",
-	"slug": "יריקה",
-	"headword": {
-		"text": "יְרִיקָה"
-	},
+	"sefariaHeadword": "יְרִיקָה",
+	"headwords": [
+		{
+			"text": "יְרִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "a"

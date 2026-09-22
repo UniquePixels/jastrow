@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00238",
-	"slug": "לוט-3",
-	"headword": {
-		"text": "לוּט"
-	},
+	"sefariaHeadword": "לוּט",
+	"headwords": [
+		{
+			"text": "לוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 696,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00127",
-	"slug": "הדיף",
-	"headword": {
-		"text": "הַדְיֵף"
-	},
+	"sefariaHeadword": "הַדְיֵף",
+	"headwords": [
+		{
+			"text": "הַדְיֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

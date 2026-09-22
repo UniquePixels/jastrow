@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03162",
-	"slug": "ארכת",
-	"headword": {
-		"text": "אַרְכַת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְכַת",
+	"headwords": [
+		{
+			"text": "אַרְכַת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 122,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

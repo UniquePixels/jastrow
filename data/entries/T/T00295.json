@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00295",
-	"slug": "רוב",
-	"headword": {
-		"text": "רוֹב"
-	},
+	"sefariaHeadword": "רוֹב",
+	"headwords": [
+		{
+			"text": "רוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

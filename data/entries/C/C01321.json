@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01321",
-	"slug": "גרי-2",
-	"headword": {
-		"text": "גְּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרִי",
+	"headwords": [
+		{
+			"text": "גְּרִי"
+		},
 		{
 			"text": "גְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 267,
 		"column": "b"

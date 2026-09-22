@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01591",
-	"slug": "פרדס-2",
-	"headword": {
-		"text": "פַּרְדֵּס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְדֵּס ²",
+	"headwords": [
+		{
+			"text": "פַּרְדֵּס",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּרְדֵּיסָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1216,
 		"column": "a"

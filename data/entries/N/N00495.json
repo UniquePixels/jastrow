@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00495",
-	"slug": "נחיתותא",
-	"headword": {
-		"text": "נְחִיתוּתָא"
-	},
+	"sefariaHeadword": "נְחִיתוּתָא",
+	"headwords": [
+		{
+			"text": "נְחִיתוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

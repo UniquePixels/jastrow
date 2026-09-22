@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01076",
-	"slug": "רשונא",
-	"headword": {
-		"text": "רָשׁוֹנָא"
-	},
+	"sefariaHeadword": "רָשׁוֹנָא",
+	"headwords": [
+		{
+			"text": "רָשׁוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

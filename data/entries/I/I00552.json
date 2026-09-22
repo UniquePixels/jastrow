@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00552",
-	"slug": "טמיקון",
-	"headword": {
-		"text": "טַמְיָקוֹן"
-	},
+	"sefariaHeadword": "טַמְיָקוֹן",
+	"headwords": [
+		{
+			"text": "טַמְיָקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 539,
 		"column": "b"

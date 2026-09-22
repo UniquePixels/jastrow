@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00875",
-	"slug": "מחיצתא",
-	"headword": {
-		"text": "מְחִיצְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחִיצְתָּא",
+	"headwords": [
+		{
+			"text": "מְחִיצְתָּא"
+		},
 		{
 			"text": "מְחִיצְתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 761,
 		"column": "a"

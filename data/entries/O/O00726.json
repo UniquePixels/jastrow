@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00726",
-	"slug": "סינבול",
-	"headword": {
-		"text": "סִינְבּוּל"
-	},
+	"sefariaHeadword": "סִינְבּוּל",
+	"headwords": [
+		{
+			"text": "סִינְבּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 982,
 		"column": "b"

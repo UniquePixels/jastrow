@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00147",
-	"slug": "עדירין",
-	"headword": {
-		"text": "עדירין"
-	},
+	"sefariaHeadword": "עדירין",
+	"headwords": [
+		{
+			"text": "עדירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "b"

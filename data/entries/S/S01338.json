@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01338",
-	"slug": "קלינטרין",
-	"headword": {
-		"text": "קלינטרין"
-	},
+	"sefariaHeadword": "קלינטרין",
+	"headwords": [
+		{
+			"text": "קלינטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01986",
-	"slug": "שריקריק",
-	"headword": {
-		"text": "שְׁרִיקְרִיק"
-	},
+	"sefariaHeadword": "שְׁרִיקְרִיק",
+	"headwords": [
+		{
+			"text": "שְׁרִיקְרִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

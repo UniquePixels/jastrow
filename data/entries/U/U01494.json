@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01494",
-	"slug": "שממה",
-	"headword": {
-		"text": "שְׁמָמָה"
-	},
+	"sefariaHeadword": "שְׁמָמָה",
+	"headwords": [
+		{
+			"text": "שְׁמָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1597,
 		"column": "a"

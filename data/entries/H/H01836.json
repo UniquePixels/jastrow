@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H01836",
-	"slug": "חשיך-3",
-	"headword": {
-		"text": "חֲשִׁיךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשִׁיךְ ²",
+	"headwords": [
+		{
+			"text": "חֲשִׁיךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲשִׁיכָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 510,
 		"column": "a"

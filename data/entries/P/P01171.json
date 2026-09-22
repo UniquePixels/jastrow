@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01171",
-	"slug": "עקיבא-1",
-	"headword": {
-		"text": "עֲקֵיבָא"
-	},
+	"sefariaHeadword": "עֲקֵיבָא",
+	"headwords": [
+		{
+			"text": "עֲקֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "b"

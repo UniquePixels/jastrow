@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01031",
-	"slug": "סלקונדרית",
-	"headword": {
-		"text": "סַלְקוּנְדְרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלְקוּנְדְרִית",
+	"headwords": [
+		{
+			"text": "סַלְקוּנְדְרִית"
+		},
 		{
 			"text": "סַלְקוּנְרִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 997,
 		"column": "b"

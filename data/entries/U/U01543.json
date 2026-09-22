@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01543",
-	"slug": "שמשא-1",
-	"headword": {
-		"text": "שִׁמְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁמְשָׁא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁמְשָׁא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1602,
 		"column": "b"

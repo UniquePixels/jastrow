@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00079",
-	"slug": "חבישה",
-	"headword": {
-		"text": "חֲבִישָׁה"
-	},
+	"sefariaHeadword": "חֲבִישָׁה",
+	"headwords": [
+		{
+			"text": "חֲבִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00736",
-	"slug": "שטוף-1",
-	"headword": {
-		"text": "שָׁטוּף"
-	},
+	"sefariaHeadword": "שָׁטוּף",
+	"headwords": [
+		{
+			"text": "שָׁטוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "b"

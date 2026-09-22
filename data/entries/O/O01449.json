@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01449",
-	"slug": "סקבנא",
-	"headword": {
-		"text": "סַקְבָּנָא"
-	},
+	"sefariaHeadword": "סַקְבָּנָא",
+	"headwords": [
+		{
+			"text": "סַקְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

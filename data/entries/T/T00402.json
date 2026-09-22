@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00402",
-	"slug": "רימתיקוס",
-	"headword": {
-		"text": "רֶיְמָתִיקוֹס"
-	},
+	"sefariaHeadword": "רֶיְמָתִיקוֹס",
+	"headwords": [
+		{
+			"text": "רֶיְמָתִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

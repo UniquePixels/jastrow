@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00464",
-	"slug": "בזקא",
-	"headword": {
-		"text": "בִּזְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּזְקָא",
+	"headwords": [
+		{
+			"text": "בִּזְקָא"
+		},
 		{
 			"text": "בִּיזְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 154,
 		"column": "b"

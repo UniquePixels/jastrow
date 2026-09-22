@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00567",
-	"slug": "ביזיאה",
-	"headword": {
-		"text": "בִּיזִּיאָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּיזִּיאָה",
+	"headwords": [
+		{
+			"text": "בִּיזִּיאָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

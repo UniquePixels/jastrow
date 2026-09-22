@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00102",
-	"slug": "נבע-2",
-	"headword": {
-		"text": "נְבַע"
-	},
+	"sefariaHeadword": "נְבַע",
+	"headwords": [
+		{
+			"text": "נְבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 870,
 		"column": "b"

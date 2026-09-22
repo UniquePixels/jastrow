@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02153",
-	"slug": "מעפר",
-	"headword": {
-		"text": "מְעַפֵּר"
-	},
+	"sefariaHeadword": "מְעַפֵּר",
+	"headwords": [
+		{
+			"text": "מְעַפֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

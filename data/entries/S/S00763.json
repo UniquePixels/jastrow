@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00763",
-	"slug": "קטיעתא",
-	"headword": {
-		"text": "קַטִּיעֲתָא"
-	},
+	"sefariaHeadword": "קַטִּיעֲתָא",
+	"headwords": [
+		{
+			"text": "קַטִּיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1348,
 		"column": "b"

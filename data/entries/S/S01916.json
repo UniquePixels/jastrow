@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01916",
-	"slug": "קרדמין",
-	"headword": {
-		"text": "קרדמין"
-	},
+	"sefariaHeadword": "קרדמין",
+	"headwords": [
+		{
+			"text": "קרדמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

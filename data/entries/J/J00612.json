@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00612",
-	"slug": "ירוקנא",
-	"headword": {
-		"text": "יֵרוֹקָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יֵרוֹקָנָא",
+	"headwords": [
+		{
+			"text": "יֵרוֹקָנָא"
+		},
 		{
 			"text": "יְרָקוֹנָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 595,
 		"column": "a"

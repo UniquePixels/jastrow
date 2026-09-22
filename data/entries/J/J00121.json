@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00121",
-	"slug": "יהודאה",
-	"headword": {
-		"text": "יְהוּדָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְהוּדָאָה",
+	"headwords": [
+		{
+			"text": "יְהוּדָאָה"
+		},
 		{
 			"text": "יְהוּדַאי"
 		},
@@ -12,6 +13,7 @@
 			"text": "יְהוּדַיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 566,
 		"column": "a"

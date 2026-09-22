@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00447",
-	"slug": "אדרא-1",
-	"headword": {
-		"text": "אֲדָרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲדָרָא II",
+	"headwords": [
+		{
+			"text": "אֲדָרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 18,
 		"column": "a"

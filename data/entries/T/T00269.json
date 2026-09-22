@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00269",
-	"slug": "רדתא",
-	"headword": {
-		"text": "רַדְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַדְתָּא",
+	"headwords": [
 		{
-			"text": "רָ׳"
+			"text": "רַדְתָּא"
+		},
+		{
+			"text": "רָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1453,
 		"column": "b"

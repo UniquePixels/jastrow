@@ -1,23 +1,29 @@
 {
+	"schemaVersion": 2,
 	"id": "A02403",
-	"slug": "אסטרולוגיא",
-	"headword": {
-		"text": "אַסְטְרוֹלוֹגְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסְטְרוֹלוֹגְיָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אַסְטְרוֹלוֹגְיָא"
 		},
 		{
-			"text": "אסת׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		},
 		{
-			"text": "אַצְ׳"
+			"text": "אסת׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אַצְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2} ), {3}, ({4})",
 	"page": {
 		"number": 91,
 		"column": "b"

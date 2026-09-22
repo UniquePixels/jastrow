@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00289",
-	"slug": "אגיא",
-	"headword": {
-		"text": "אֻגְיָא"
-	},
+	"sefariaHeadword": "אֻגְיָא",
+	"headwords": [
+		{
+			"text": "אֻגְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

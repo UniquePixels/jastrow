@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00741",
-	"slug": "דישון",
-	"headword": {
-		"text": "דִּישּׁוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּישּׁוּן",
+	"headwords": [
+		{
+			"text": "דִּישּׁוּן"
+		},
 		{
 			"text": "דִּשּׁוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00953",
-	"slug": "סלבוניא",
-	"headword": {
-		"text": "סִלְבּוֹנַיָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִלְבּוֹנַיָּא",
+	"headwords": [
+		{
+			"text": "סִלְבּוֹנַיָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 993,
 		"column": "b"

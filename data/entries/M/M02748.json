@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02748",
-	"slug": "מרפיק",
-	"headword": {
-		"text": "מַרְפֵּיק"
-	},
+	"sefariaHeadword": "מַרְפֵּיק",
+	"headwords": [
+		{
+			"text": "מַרְפֵּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

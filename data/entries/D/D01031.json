@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01031",
-	"slug": "דרבון",
-	"headword": {
-		"text": "דרבון"
-	},
+	"sefariaHeadword": "דרבון",
+	"headwords": [
+		{
+			"text": "דרבון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "b"

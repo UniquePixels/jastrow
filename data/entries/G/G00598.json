@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "G00598",
-	"slug": "זעיר-2",
-	"headword": {
-		"text": "זְעֵיר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְעֵיר II",
+	"headwords": [
+		{
+			"text": "זְעֵיר",
+			"homograph": 2
+		},
 		{
 			"text": "זְעֵירָא"
 		},
@@ -16,6 +17,7 @@
 			"text": "זְעֶרְתָּא"
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 407,
 		"column": "b"

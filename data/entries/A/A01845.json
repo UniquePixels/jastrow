@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01845",
-	"slug": "אליוסטון",
-	"headword": {
-		"text": "אליוסטון"
-	},
+	"sefariaHeadword": "אליוסטון",
+	"headwords": [
+		{
+			"text": "אליוסטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

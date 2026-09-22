@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00279",
-	"slug": "פונייה",
-	"headword": {
-		"text": "פונייה"
-	},
+	"sefariaHeadword": "פונייה",
+	"headwords": [
+		{
+			"text": "פונייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

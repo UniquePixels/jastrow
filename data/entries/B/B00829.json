@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00829",
-	"slug": "בלויים",
-	"headword": {
-		"text": "בְּלוֹיִים"
-	},
+	"sefariaHeadword": "בְּלוֹיִים",
+	"headwords": [
+		{
+			"text": "בְּלוֹיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

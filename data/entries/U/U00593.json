@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00593",
-	"slug": "שזג",
-	"headword": {
-		"text": "שְׁזַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁזַג",
+	"headwords": [
+		{
+			"text": "שְׁזַג"
+		},
 		{
 			"text": "שְׁזֵיג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1544,
 		"column": "b"

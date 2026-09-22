@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00562",
-	"slug": "צמדתא",
-	"headword": {
-		"text": "צמדתא"
-	},
+	"sefariaHeadword": "צמדתא",
+	"headwords": [
+		{
+			"text": "צמדתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1287,
 		"column": "a"

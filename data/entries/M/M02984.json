@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02984",
-	"slug": "משש-1",
-	"headword": {
-		"text": "מָשַׁשׁ"
-	},
+	"sefariaHeadword": "מָשַׁשׁ",
+	"headwords": [
+		{
+			"text": "מָשַׁשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "b"

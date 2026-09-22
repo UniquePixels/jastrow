@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00263",
-	"slug": "מדוי-2",
-	"headword": {
-		"text": "מַדְוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַדְוֵי",
+	"headwords": [
+		{
+			"text": "מַדְוֵי"
+		},
 		{
 			"text": "מַדְוְיָא"
 		},
 		{
-			"text": "מַדְוֵי חיוורא"
+			"text": "מ׳ חיוורא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 733,
 		"column": "a"

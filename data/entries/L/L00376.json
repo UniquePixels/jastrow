@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00376",
-	"slug": "לחת-1",
-	"headword": {
-		"text": "לָחַת"
-	},
+	"sefariaHeadword": "לָחַת",
+	"headwords": [
+		{
+			"text": "לָחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 704,
 		"column": "b"

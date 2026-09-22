@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00572",
-	"slug": "שושלא",
-	"headword": {
-		"text": "שׁוּשְׁלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּשְׁלָא",
+	"headwords": [
+		{
+			"text": "שׁוּשְׁלָא"
+		},
 		{
 			"text": "שׁוֹשֶׁלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1543,
 		"column": "b"

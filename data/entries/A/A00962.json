@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00962",
-	"slug": "אזהרה",
-	"headword": {
-		"text": "אַזְהָרָה"
-	},
+	"sefariaHeadword": "אַזְהָרָה",
+	"headwords": [
+		{
+			"text": "אַזְהָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 37,
 		"column": "a"
@@ -29,7 +33,7 @@
 		{
 			"gloss": "<i>enlightenment</i>. ",
 			"units": [
-				"<cite ref=\"Shir HaShirim Rabbah 7:3:1\">Cant. R. to VII, 3</cite>, v. <cite ref=\"A00445\"><he>אִדַּר</he></cite>."
+				"<cite ref=\"Shir HaShirim Rabbah 7:3:1\">Cant. R. to VII, 3</cite>, v. <cite ref=\"A00445\"><he>אִדַּר</he></cite>."
 			],
 			"label": "2"
 		}

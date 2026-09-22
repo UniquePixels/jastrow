@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00078",
-	"slug": "שבוע",
-	"headword": {
-		"text": "שָׁבוּעַ"
-	},
+	"sefariaHeadword": "שָׁבוּעַ",
+	"headwords": [
+		{
+			"text": "שָׁבוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "b"

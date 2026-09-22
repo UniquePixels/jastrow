@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00540",
-	"slug": "כילולא",
-	"headword": {
-		"text": "כִּילּוּלָא"
-	},
+	"sefariaHeadword": "כִּילּוּלָא",
+	"headwords": [
+		{
+			"text": "כִּילּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

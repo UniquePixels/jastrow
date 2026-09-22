@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00602",
-	"slug": "פיוס",
-	"headword": {
-		"text": "פִּיּוּס"
-	},
+	"sefariaHeadword": "פִּיּוּס",
+	"headwords": [
+		{
+			"text": "פִּיּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

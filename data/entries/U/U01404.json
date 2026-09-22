@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01404",
-	"slug": "שלשת-2",
-	"headword": {
-		"text": "שְׁלשֶׁת"
-	},
+	"sefariaHeadword": "שְׁלשֶׁת",
+	"headwords": [
+		{
+			"text": "שְׁלשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1590,
 		"column": "a"

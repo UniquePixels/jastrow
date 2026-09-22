@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02585",
-	"slug": "אסתקר",
-	"headword": {
-		"text": "אִסְתַּקַּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְתַּקַּר",
+	"headwords": [
+		{
+			"text": "אִסְתַּקַּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00523",
-	"slug": "תכא-3",
-	"headword": {
-		"text": "תַּכָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תַּכָּא II",
+	"headwords": [
+		{
+			"text": "תַּכָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1667,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00384",
-	"slug": "תחפנחס",
-	"headword": {
-		"text": "תַּחְפַּנְחֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּחְפַּנְחֵס",
+	"headwords": [
+		{
+			"text": "תַּחְפַּנְחֵס"
+		},
 		{
 			"text": "תַּחְפְּנֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1662,
 		"column": "a"

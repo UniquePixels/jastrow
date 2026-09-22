@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01776",
-	"slug": "פרטי",
-	"headword": {
-		"text": "פרטי"
-	},
+	"sefariaHeadword": "פרטי",
+	"headwords": [
+		{
+			"text": "פרטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

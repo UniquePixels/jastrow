@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00079",
-	"slug": "סבסטי",
-	"headword": {
-		"text": "סְבַסְטִי"
-	},
+	"sefariaHeadword": "סְבַסְטִי",
+	"headwords": [
+		{
+			"text": "סְבַסְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 951,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

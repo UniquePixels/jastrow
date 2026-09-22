@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02969",
-	"slug": "משר",
-	"headword": {
-		"text": "מֵשַׁר"
-	},
+	"sefariaHeadword": "מֵשַׁר",
+	"headwords": [
+		{
+			"text": "מֵשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

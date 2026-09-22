@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01384",
-	"slug": "ספם",
-	"headword": {
-		"text": "סְפָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפָם",
+	"headwords": [
+		{
+			"text": "סְפָם"
+		},
 		{
 			"text": "סְפָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1014,
 		"column": "b"

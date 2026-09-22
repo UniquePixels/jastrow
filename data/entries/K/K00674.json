@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00674",
-	"slug": "כלאים",
-	"headword": {
-		"text": "כִּלְאַיִם"
-	},
+	"sefariaHeadword": "כִּלְאַיִם",
+	"headwords": [
+		{
+			"text": "כִּלְאַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

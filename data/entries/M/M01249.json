@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01249",
-	"slug": "מיסמרא",
-	"headword": {
-		"text": "מיסמרא"
-	},
+	"sefariaHeadword": "מיסמרא",
+	"headwords": [
+		{
+			"text": "מיסמרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "b"

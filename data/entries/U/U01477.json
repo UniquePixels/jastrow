@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01477",
-	"slug": "שמיעה",
-	"headword": {
-		"text": "שְׁמִיעָה"
-	},
+	"sefariaHeadword": "שְׁמִיעָה",
+	"headwords": [
+		{
+			"text": "שְׁמִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1596,
 		"column": "a"

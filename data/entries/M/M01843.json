@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01843",
-	"slug": "מסבלי",
-	"headword": {
-		"text": "מסבלי"
-	},
+	"sefariaHeadword": "מסבלי",
+	"headwords": [
+		{
+			"text": "מסבלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 803,
 		"column": "b"

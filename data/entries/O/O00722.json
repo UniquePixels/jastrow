@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00722",
-	"slug": "סימפיה",
-	"headword": {
-		"text": "סימפיה"
-	},
+	"sefariaHeadword": "סימפיה",
+	"headwords": [
+		{
+			"text": "סימפיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 982,
 		"column": "b"

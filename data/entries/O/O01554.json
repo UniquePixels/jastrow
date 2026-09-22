@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01554",
-	"slug": "סרוחא",
-	"headword": {
-		"text": "סְרוּחָא"
-	},
+	"sefariaHeadword": "סְרוּחָא",
+	"headwords": [
+		{
+			"text": "סְרוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

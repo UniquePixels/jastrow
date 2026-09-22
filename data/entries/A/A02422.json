@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02422",
-	"slug": "אסטריא",
-	"headword": {
-		"text": "אִסְטַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַרְיָא",
+	"headwords": [
+		{
+			"text": "אִסְטַרְיָא"
+		},
 		{
 			"text": "אִסטַרְיָה"
 		},
@@ -12,15 +13,19 @@
 			"text": "אִסְטַרְיָיא"
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִצְ׳"
+			"text": "אִצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 92,
 		"column": "b"

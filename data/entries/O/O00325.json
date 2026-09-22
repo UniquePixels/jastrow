@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00325",
-	"slug": "סולקוס",
-	"headword": {
-		"text": "סולקוס"
-	},
+	"sefariaHeadword": "סולקוס",
+	"headwords": [
+		{
+			"text": "סולקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

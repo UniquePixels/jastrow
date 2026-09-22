@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00153",
-	"slug": "סגמוס",
-	"headword": {
-		"text": "סגמוס"
-	},
+	"sefariaHeadword": "סגמוס",
+	"headwords": [
+		{
+			"text": "סגמוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02229",
-	"slug": "מפס",
-	"headword": {
-		"text": "מָפֵס"
-	},
+	"sefariaHeadword": "מָפֵס",
+	"headwords": [
+		{
+			"text": "מָפֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

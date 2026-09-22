@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00620",
-	"slug": "אוטימוס",
-	"headword": {
-		"text": "אוטימוס"
-	},
+	"sefariaHeadword": "אוטימוס",
+	"headwords": [
+		{
+			"text": "אוטימוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

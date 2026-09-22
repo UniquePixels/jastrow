@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00949",
-	"slug": "בניים",
-	"headword": {
-		"text": "בֵּנַיִים"
-	},
+	"sefariaHeadword": "בֵּנַיִים",
+	"headwords": [
+		{
+			"text": "בֵּנַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "a"

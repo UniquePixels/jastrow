@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02130",
-	"slug": "שתס",
-	"headword": {
-		"text": "שְׁתַס"
-	},
+	"sefariaHeadword": "שְׁתַס",
+	"headwords": [
+		{
+			"text": "שְׁתַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1639,
 		"column": "b"

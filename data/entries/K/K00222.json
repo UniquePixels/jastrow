@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00222",
-	"slug": "כוות",
-	"headword": {
-		"text": "כְּוָות"
-	},
+	"sefariaHeadword": "כְּוָות",
+	"headwords": [
+		{
+			"text": "כְּוָות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

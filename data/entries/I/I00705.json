@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00705",
-	"slug": "טרגונא",
-	"headword": {
-		"text": "טַרְגּוֹנָא"
-	},
+	"sefariaHeadword": "טַרְגּוֹנָא",
+	"headwords": [
+		{
+			"text": "טַרְגּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

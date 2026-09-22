@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00192",
-	"slug": "נגרות",
-	"headword": {
-		"text": "נַגָּרוּת"
-	},
+	"sefariaHeadword": "נַגָּרוּת",
+	"headwords": [
+		{
+			"text": "נַגָּרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 876,
 		"column": "b"

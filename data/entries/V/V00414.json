@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00414",
-	"slug": "תיבללא",
-	"headword": {
-		"text": "תִּיבְלָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיבְלָלָא",
+	"headwords": [
+		{
+			"text": "תִּיבְלָלָא"
+		},
 		{
 			"text": "תִּיבְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "b"

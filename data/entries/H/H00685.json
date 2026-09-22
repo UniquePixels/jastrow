@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00685",
-	"slug": "חיולא",
-	"headword": {
-		"text": "חִיּוּלָא"
-	},
+	"sefariaHeadword": "חִיּוּלָא",
+	"headwords": [
+		{
+			"text": "חִיּוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

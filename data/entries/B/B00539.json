@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00539",
-	"slug": "ביאם",
-	"headword": {
-		"text": "בַּיָּאם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּיָּאם",
+	"headwords": [
+		{
+			"text": "בַּיָּאם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 159,
 		"column": "a"

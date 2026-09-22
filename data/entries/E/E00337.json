@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00337",
-	"slug": "היגים",
-	"headword": {
-		"text": "היגים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "היגים",
+	"headwords": [
+		{
+			"text": "היגים"
+		},
 		{
 			"text": "היגיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 343,
 		"column": "b"

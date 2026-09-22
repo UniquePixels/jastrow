@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01053",
-	"slug": "כפרוניא",
-	"headword": {
-		"text": "כַּפְרוֹנַיָּא"
-	},
+	"sefariaHeadword": "כַּפְרוֹנַיָּא",
+	"headwords": [
+		{
+			"text": "כַּפְרוֹנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 662,
 		"column": "b"

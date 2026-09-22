@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00823",
-	"slug": "דלופקי",
-	"headword": {
-		"text": "דלופקי"
-	},
+	"sefariaHeadword": "דלופקי",
+	"headwords": [
+		{
+			"text": "דלופקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

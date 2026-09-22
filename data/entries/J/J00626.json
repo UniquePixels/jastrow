@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00626",
-	"slug": "ירחינאה",
-	"headword": {
-		"text": "יַרְחִינָאָה"
-	},
+	"sefariaHeadword": "יַרְחִינָאָה",
+	"headwords": [
+		{
+			"text": "יַרְחִינָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "a"

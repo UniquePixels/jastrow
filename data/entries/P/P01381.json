@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01381",
-	"slug": "ערכי",
-	"headword": {
-		"text": "עַרְכִי"
-	},
+	"sefariaHeadword": "עַרְכִי",
+	"headwords": [
+		{
+			"text": "עַרְכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1119,
 		"column": "a"

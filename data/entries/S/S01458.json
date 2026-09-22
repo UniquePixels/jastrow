@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01458",
-	"slug": "קמחיה",
-	"headword": {
-		"text": "קמחיה"
-	},
+	"sefariaHeadword": "קמחיה",
+	"headwords": [
+		{
+			"text": "קמחיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "b"

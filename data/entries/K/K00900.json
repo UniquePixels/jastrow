@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00900",
-	"slug": "כסה-2",
-	"headword": {
-		"text": "כֶּסֶה"
-	},
+	"sefariaHeadword": "כֶּסֶה",
+	"headwords": [
+		{
+			"text": "כֶּסֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

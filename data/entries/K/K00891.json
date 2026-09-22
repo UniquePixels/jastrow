@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "K00891",
-	"slug": "כסא-3",
-	"headword": {
-		"text": "כַּסָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּסָּא I",
+	"headwords": [
+		{
+			"text": "כַּסָּא",
+			"homograph": 1
+		},
 		{
 			"text": "כָּסָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "כָּס"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 652,
 		"column": "a"

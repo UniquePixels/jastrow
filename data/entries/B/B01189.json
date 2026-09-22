@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01189",
-	"slug": "ברדסין",
-	"headword": {
-		"text": "בַּרְדְּסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְדְּסִין",
+	"headwords": [
+		{
+			"text": "בַּרְדְּסִין"
+		},
 		{
 			"text": "בּוּרְדְּסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 190,
 		"column": "b"

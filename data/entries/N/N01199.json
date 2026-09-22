@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01199",
-	"slug": "נקיד",
-	"headword": {
-		"text": "נָקִיד"
-	},
+	"sefariaHeadword": "נָקִיד",
+	"headwords": [
+		{
+			"text": "נָקִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

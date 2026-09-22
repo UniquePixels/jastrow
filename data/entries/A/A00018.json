@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00018",
-	"slug": "אבא-2",
-	"headword": {
-		"text": "אַבָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבָּא II",
+	"headwords": [
 		{
-			"text": "אַכָּה"
+			"text": "אַבָּא",
+			"homograph": 2
+		},
+		{
+			"text": "אַכָּה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 2,
 		"column": "a"

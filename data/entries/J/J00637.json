@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00637",
-	"slug": "ירינון",
-	"headword": {
-		"text": "ירינון"
-	},
+	"sefariaHeadword": "ירינון",
+	"headwords": [
+		{
+			"text": "ירינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

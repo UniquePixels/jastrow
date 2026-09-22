@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00720",
-	"slug": "העניק",
-	"headword": {
-		"text": "הַעֲנֵיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַעֲנֵיק",
+	"headwords": [
+		{
+			"text": "הַעֲנֵיק"
+		},
 		{
 			"text": "הַעֲנֵק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 360,
 		"column": "b"

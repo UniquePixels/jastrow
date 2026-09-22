@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01043",
-	"slug": "פליגא-1",
-	"headword": {
-		"text": "פְּלִיגָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּלִיגָא I",
+	"headwords": [
+		{
+			"text": "פְּלִיגָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1181,
 		"column": "b"

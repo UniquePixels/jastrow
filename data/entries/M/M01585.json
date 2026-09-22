@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01585",
-	"slug": "מלכנא",
-	"headword": {
-		"text": "מִלְכָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלְכָנָא",
+	"headwords": [
 		{
-			"text": "מִילְ׳"
+			"text": "מִלְכָנָא"
+		},
+		{
+			"text": "מִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 792,
 		"column": "a"

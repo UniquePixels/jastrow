@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00085",
-	"slug": "חבל-3",
-	"headword": {
-		"text": "חֲבַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲבַל II",
+	"headwords": [
+		{
+			"text": "חֲבַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 420,
 		"column": "a"

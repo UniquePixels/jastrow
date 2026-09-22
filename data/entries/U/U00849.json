@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00849",
-	"slug": "שיזיב",
-	"headword": {
-		"text": "שֵׁיזֵיב"
-	},
+	"sefariaHeadword": "שֵׁיזֵיב",
+	"headwords": [
+		{
+			"text": "שֵׁיזֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "a"

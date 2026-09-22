@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00082",
-	"slug": "הגר-1",
-	"headword": {
-		"text": "הָגַר"
-	},
+	"sefariaHeadword": "הָגַר",
+	"headwords": [
+		{
+			"text": "הָגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

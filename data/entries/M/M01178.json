@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01178",
-	"slug": "מילחא",
-	"headword": {
-		"text": "מִילְחָא"
-	},
+	"sefariaHeadword": "מִילְחָא",
+	"headwords": [
+		{
+			"text": "מִילְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

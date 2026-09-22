@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00338",
-	"slug": "גוז-1",
-	"headword": {
-		"text": "גּוּז"
-	},
+	"sefariaHeadword": "גּוּז",
+	"headwords": [
+		{
+			"text": "גּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "a"

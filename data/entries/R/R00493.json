@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00493",
-	"slug": "צלוחית-1",
-	"headword": {
-		"text": "צְלוֹחִית"
-	},
+	"sefariaHeadword": "צְלוֹחִית",
+	"headwords": [
+		{
+			"text": "צְלוֹחִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "b"

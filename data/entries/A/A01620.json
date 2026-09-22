@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01620",
-	"slug": "אישור",
-	"headword": {
-		"text": "אִישּׁוּר"
-	},
+	"sefariaHeadword": "אִישּׁוּר",
+	"headwords": [
+		{
+			"text": "אִישּׁוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "b"

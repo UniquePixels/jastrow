@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00453",
-	"slug": "תילתא",
-	"headword": {
-		"text": "תִּילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּילְתָּא",
+	"headwords": [
+		{
+			"text": "תִּילְתָּא"
+		},
 		{
 			"text": "תִּילְתּוּל"
 		},
@@ -15,6 +16,7 @@
 			"text": "תִּילְתָּן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1665,
 		"column": "a"

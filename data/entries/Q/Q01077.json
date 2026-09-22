@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01077",
-	"slug": "פללגולה",
-	"headword": {
-		"text": "פְּלַלְגוּלָה"
-	},
+	"sefariaHeadword": "פְּלַלְגוּלָה",
+	"headwords": [
+		{
+			"text": "פְּלַלְגוּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00713",
-	"slug": "עכב-2",
-	"headword": {
-		"text": "עֲכַב"
-	},
+	"sefariaHeadword": "עֲכַב",
+	"headwords": [
+		{
+			"text": "עֲכַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "b"

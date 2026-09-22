@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01770",
-	"slug": "מני-3",
-	"headword": {
-		"text": "מַנִּי"
-	},
+	"sefariaHeadword": "מַנִּי",
+	"headwords": [
+		{
+			"text": "מַנִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 799,
 		"column": "b"

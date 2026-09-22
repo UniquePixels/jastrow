@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00684",
-	"slug": "הנך",
-	"headword": {
-		"text": "הַנָּךְ"
-	},
+	"sefariaHeadword": "הַנָּךְ",
+	"headwords": [
+		{
+			"text": "הַנָּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 358,
 		"column": "b"

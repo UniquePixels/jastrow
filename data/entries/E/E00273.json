@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00273",
-	"slug": "הורדה",
-	"headword": {
-		"text": "הוֹרָדָה"
-	},
+	"sefariaHeadword": "הוֹרָדָה",
+	"headwords": [
+		{
+			"text": "הוֹרָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "b"

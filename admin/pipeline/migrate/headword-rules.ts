@@ -13,8 +13,10 @@
  * 4. A form's `text` never holds a comma, parenthesis, `?`, `=`, `…`
  *    or a Latin letter.
  * 5. A `partial` form is never a lookup key.
- * 6. Every comparison normalizes to NFC first; stored text keeps the
- *    source's own byte order.
+ * 6. Every comparison normalizes to NFC first. No stage rewrites
+ *    stored text except the migrate WRITE step, which normalizes the
+ *    whole entry file (`normalizeForWrite`, #110 — §3.1 rule 6 names
+ *    it as the one exception). Nothing in THIS file rewrites anything.
  *
  * **Rule 4 is ARMED AND HELD, and that is a ruling, not an oversight.**
  * §3 makes a text defect a halt, so the natural home for rule 4 is a
@@ -237,9 +239,10 @@ function checkPartial(
  * is armed. Returns the problems; an empty list is a valid entry.
  *
  * **Rule 6 is not a check of its own, and that is deliberate.** It
- * says every comparison normalizes to NFC FIRST and that stored text
- * keeps the source's byte order — an obligation on the comparisons
- * this file's caller already makes, not a new one. `names.ts`'s
+ * says every comparison normalizes to NFC FIRST — an obligation on
+ * the comparisons this file's caller already makes, not a new one.
+ * Its storage half is discharged by the write step rather than
+ * checked here (`normalizeForWrite`, #110). `names.ts`'s
  * `nameKey` normalizes before the uniqueness check, `validate.ts`
  * normalizes before the `sefariaHeadword` one, and `cite.ts` before
  * the headword map's. Adding a within-entry duplicate check here would

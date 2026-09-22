@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00528",
-	"slug": "תכוף",
-	"headword": {
-		"text": "תְּכוֹף"
-	},
+	"sefariaHeadword": "תְּכוֹף",
+	"headwords": [
+		{
+			"text": "תְּכוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

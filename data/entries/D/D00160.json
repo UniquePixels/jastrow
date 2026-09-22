@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00160",
-	"slug": "דהנוניתא",
-	"headword": {
-		"text": "דַּהֲנוּנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּהֲנוּנִיתָא",
+	"headwords": [
 		{
-			"text": "דְּהינוּ׳"
+			"text": "דַּהֲנוּנִיתָא"
+		},
+		{
+			"text": "דְּהינוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 281,
 		"column": "b"

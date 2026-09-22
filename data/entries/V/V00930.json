@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00930",
-	"slug": "תרביץ",
-	"headword": {
-		"text": "תַּרְבִּיץ"
-	},
+	"sefariaHeadword": "תַּרְבִּיץ",
+	"headwords": [
+		{
+			"text": "תַּרְבִּיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

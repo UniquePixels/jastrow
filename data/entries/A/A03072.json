@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03072",
-	"slug": "ארטיקנס",
-	"headword": {
-		"text": "ארטיקנס"
-	},
+	"sefariaHeadword": "ארטיקנס",
+	"headwords": [
+		{
+			"text": "ארטיקנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

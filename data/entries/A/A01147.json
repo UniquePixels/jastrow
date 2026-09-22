@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01147",
-	"slug": "איגרא-2",
-	"headword": {
-		"text": "אִיגְּרָא"
-	},
+	"sefariaHeadword": "אִיגְּרָא",
+	"headwords": [
+		{
+			"text": "אִיגְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

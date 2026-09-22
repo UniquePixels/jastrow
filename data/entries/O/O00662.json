@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00662",
-	"slug": "סילוק",
-	"headword": {
-		"text": "סִילּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילּוּק",
+	"headwords": [
 		{
-			"text": "סִלּ׳"
+			"text": "סִילּוּק"
+		},
+		{
+			"text": "סִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 980,
 		"column": "a"

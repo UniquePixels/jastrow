@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00625",
-	"slug": "ירחו",
-	"headword": {
-		"text": "יְרֵחוֹ"
-	},
+	"sefariaHeadword": "יְרֵחוֹ",
+	"headwords": [
+		{
+			"text": "יְרֵחוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "a"

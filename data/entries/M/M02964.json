@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02964",
-	"slug": "משקי",
-	"headword": {
-		"text": "מַשְׁקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁקֵי",
+	"headwords": [
+		{
+			"text": "מַשְׁקֵי"
+		},
 		{
 			"text": "מַשִׁקְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 858,
 		"column": "a"

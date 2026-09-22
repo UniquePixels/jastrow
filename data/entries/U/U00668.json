@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00668",
-	"slug": "שחליף",
-	"headword": {
-		"text": "שַׁחֲלֵיף"
-	},
+	"sefariaHeadword": "שַׁחֲלֵיף",
+	"headwords": [
+		{
+			"text": "שַׁחֲלֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1548,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00362",
-	"slug": "הייא-2",
-	"headword": {
-		"text": "הַיָיא"
-	},
+	"sefariaHeadword": "הַיָיא",
+	"headwords": [
+		{
+			"text": "הַיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "b"

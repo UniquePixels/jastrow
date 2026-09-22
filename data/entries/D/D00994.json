@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00994",
-	"slug": "דקה-1",
-	"headword": {
-		"text": "דַּקָּה"
-	},
+	"sefariaHeadword": "דַּקָּה",
+	"headwords": [
+		{
+			"text": "דַּקָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

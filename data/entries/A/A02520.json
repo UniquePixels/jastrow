@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02520",
-	"slug": "אספרון",
-	"headword": {
-		"text": "אַסְפְּרוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַסְפְּרוֹן",
+	"headwords": [
+		{
+			"text": "אַסְפְּרוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 96,
 		"column": "b"

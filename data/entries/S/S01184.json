@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01184",
-	"slug": "קיריינא",
-	"headword": {
-		"text": "קִירְיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְיָינָא",
+	"headwords": [
+		{
+			"text": "קִירְיָינָא"
+		},
 		{
 			"text": "קִירְיָנָא"
 		},
@@ -12,12 +13,10 @@
 			"text": "קִירִינֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1369,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

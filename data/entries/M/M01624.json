@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01624",
-	"slug": "מלקט-2",
-	"headword": {
-		"text": "מְלַקֵּט",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְלַקֵּט II",
+	"headwords": [
+		{
+			"text": "מְלַקֵּט",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 793,
 		"column": "b"

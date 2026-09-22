@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00656",
-	"slug": "מורכיוותא",
-	"headword": {
-		"text": "מוֹרְכִיוָותָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרְכִיוָותָא",
+	"headwords": [
+		{
+			"text": "מוֹרְכִיוָותָא"
+		},
 		{
 			"text": "מוֹרְכִיוָאתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מוֹרְכִיָיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 750,
 		"column": "b"

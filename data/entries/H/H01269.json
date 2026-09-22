@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01269",
-	"slug": "חנופתא",
-	"headword": {
-		"text": "חֲנוּפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנוּפְתָּא",
+	"headwords": [
 		{
-			"text": "חֲנֻפְ׳"
+			"text": "חֲנוּפְתָּא"
+		},
+		{
+			"text": "חֲנֻפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 482,
 		"column": "a"

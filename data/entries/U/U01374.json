@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01374",
-	"slug": "שלפוחות",
-	"headword": {
-		"text": "שלפוחות"
-	},
+	"sefariaHeadword": "שלפוחות",
+	"headwords": [
+		{
+			"text": "שלפוחות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1587,
 		"column": "b"

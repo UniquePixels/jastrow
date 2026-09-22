@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03292",
-	"slug": "אשירה",
-	"headword": {
-		"text": "אֲשֵׁירָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲשֵׁירָה",
+	"headwords": [
+		{
+			"text": "אֲשֵׁירָה"
+		},
 		{
 			"text": "אֲשֵׁרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 127,
 		"column": "b"

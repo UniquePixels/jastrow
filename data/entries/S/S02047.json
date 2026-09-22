@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02047",
-	"slug": "קריחה",
-	"headword": {
-		"text": "קְרִיחָה"
-	},
+	"sefariaHeadword": "קְרִיחָה",
+	"headwords": [
+		{
+			"text": "קְרִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "a"

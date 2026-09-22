@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01058",
-	"slug": "תרקוש",
-	"headword": {
-		"text": "תַּרְקוֹשׁ"
-	},
+	"sefariaHeadword": "תַּרְקוֹשׁ",
+	"headwords": [
+		{
+			"text": "תַּרְקוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

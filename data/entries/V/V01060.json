@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01060",
-	"slug": "תרקיא-1",
-	"headword": {
-		"text": "תַּרְקְיָא"
-	},
+	"sefariaHeadword": "תַּרְקְיָא",
+	"headwords": [
+		{
+			"text": "תַּרְקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

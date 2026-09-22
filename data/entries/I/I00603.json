@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00603",
-	"slug": "טעים",
-	"headword": {
-		"text": "טְעֵים"
-	},
+	"sefariaHeadword": "טְעֵים",
+	"headwords": [
+		{
+			"text": "טְעֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "b"

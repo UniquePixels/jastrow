@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00041",
-	"slug": "אבדימוס",
-	"headword": {
-		"text": "אֶבְדִּימוֹס"
-	},
+	"sefariaHeadword": "אֶבְדִּימוֹס",
+	"headwords": [
+		{
+			"text": "אֶבְדִּימוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

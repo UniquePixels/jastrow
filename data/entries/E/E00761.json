@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00761",
-	"slug": "הפר",
-	"headword": {
-		"text": "הָפֵר"
-	},
+	"sefariaHeadword": "הָפֵר",
+	"headwords": [
+		{
+			"text": "הָפֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "b"

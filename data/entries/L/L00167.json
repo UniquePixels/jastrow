@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00167",
-	"slug": "להם",
-	"headword": {
-		"text": "לָהַם"
-	},
+	"sefariaHeadword": "לָהַם",
+	"headwords": [
+		{
+			"text": "לָהַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

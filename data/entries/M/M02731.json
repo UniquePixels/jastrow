@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02731",
-	"slug": "מרע-4",
-	"headword": {
-		"text": "מְרַע",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרַע III",
+	"headwords": [
+		{
+			"text": "מְרַע",
+			"homograph": 3
+		},
 		{
 			"text": "מַרְעָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 845,
 		"column": "b"

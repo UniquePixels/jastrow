@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01970",
-	"slug": "שריחתא",
-	"headword": {
-		"text": "שְׁרִיחְתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*שְׁרִיחְתָּא",
+	"headwords": [
+		{
+			"text": "שְׁרִיחְתָּא",
+			"reconstructed": true
+		},
 		{
 			"text": "שְׁרִיחֲתָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1631,
 		"column": "a"

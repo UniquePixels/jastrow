@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00831",
-	"slug": "טרכונתא",
-	"headword": {
-		"text": "טַרְכּוּנְתָּא"
-	},
+	"sefariaHeadword": "טַרְכּוּנְתָּא",
+	"headwords": [
+		{
+			"text": "טַרְכּוּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

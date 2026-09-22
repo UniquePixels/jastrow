@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00795",
-	"slug": "סיפים",
-	"headword": {
-		"text": "סִיפִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיפִּים",
+	"headwords": [
+		{
+			"text": "סִיפִּים"
+		},
 		{
 			"text": "סִיפִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 985,
 		"column": "b"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M02739",
-	"slug": "מרעית-2",
-	"headword": {
-		"text": "מַרְעִית",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְעִית II",
+	"headwords": [
+		{
+			"text": "מַרְעִית",
+			"homograph": 2
+		},
 		{
 			"text": "מַרְעֵיתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 845,
 		"column": "b"

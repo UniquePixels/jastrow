@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00863",
-	"slug": "תפת",
-	"headword": {
-		"text": "תֹּפֶת"
-	},
+	"sefariaHeadword": "תֹּפֶת",
+	"headwords": [
+		{
+			"text": "תֹּפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

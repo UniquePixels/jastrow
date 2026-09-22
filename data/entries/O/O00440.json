@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00440",
-	"slug": "סותה",
-	"headword": {
-		"text": "סוּתָה"
-	},
+	"sefariaHeadword": "סוּתָה",
+	"headwords": [
+		{
+			"text": "סוּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "b"

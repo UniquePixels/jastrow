@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01316",
-	"slug": "חנניא",
-	"headword": {
-		"text": "חֲנַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנַנְיָא",
+	"headwords": [
+		{
+			"text": "חֲנַנְיָא"
+		},
 		{
 			"text": "חֲנַנְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 484,
 		"column": "b"

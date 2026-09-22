@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00181",
-	"slug": "סדוק",
-	"headword": {
-		"text": "סִדּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִדּוּק",
+	"headwords": [
+		{
+			"text": "סִדּוּק"
+		},
 		{
 			"text": "סִדּוּר"
 		},
@@ -12,6 +13,7 @@
 			"text": "סִדּוּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 957,
 		"column": "a"

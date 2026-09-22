@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00074",
-	"slug": "זדונא",
-	"headword": {
-		"text": "זְדוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְדוֹנָא",
+	"headwords": [
+		{
+			"text": "זְדוֹנָא"
+		},
 		{
 			"text": "זְדָוֹנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 380,
 		"column": "b"

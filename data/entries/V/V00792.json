@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00792",
-	"slug": "תער-2",
-	"headword": {
-		"text": "תְּעַר"
-	},
+	"sefariaHeadword": "תְּעַר",
+	"headwords": [
+		{
+			"text": "תְּעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "b"

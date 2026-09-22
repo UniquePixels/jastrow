@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01352",
-	"slug": "שלם-5",
-	"headword": {
-		"text": "שָׁלֵם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁלֵם ²",
+	"headwords": [
+		{
+			"text": "שָׁלֵם",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁלֵמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1587,
 		"column": "a"

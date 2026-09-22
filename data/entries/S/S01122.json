@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01122",
-	"slug": "קיצא-2",
-	"headword": {
-		"text": "קַיְצָא"
-	},
+	"sefariaHeadword": "קַיְצָא",
+	"headwords": [
+		{
+			"text": "קַיְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

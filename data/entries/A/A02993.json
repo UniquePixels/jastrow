@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02993",
-	"slug": "ארגנאטרייא",
-	"headword": {
-		"text": "ארגנאטרייא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ארגנאטרייא",
+	"headwords": [
+		{
+			"text": "ארגנאטרייא"
+		},
 		{
 			"text": "ארגנטורין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 115,
 		"column": "b"

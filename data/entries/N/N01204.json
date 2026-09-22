@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01204",
-	"slug": "נקיותא",
-	"headword": {
-		"text": "נַקְיוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַקְיוּתָא",
+	"headwords": [
+		{
+			"text": "נַקְיוּתָא"
+		},
 		{
 			"text": "נְקִיּוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 933,
 		"column": "a"

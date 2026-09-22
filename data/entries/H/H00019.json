@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00019",
-	"slug": "חבובא",
-	"headword": {
-		"text": "חִבּוּבָא"
-	},
+	"sefariaHeadword": "חִבּוּבָא",
+	"headwords": [
+		{
+			"text": "חִבּוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01039",
-	"slug": "פליא-2",
-	"headword": {
-		"text": "פַּלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְיָא",
+	"headwords": [
 		{
-			"text": "פַּלְיָא בֵיאָרִי"
+			"text": "פַּלְיָא"
+		},
+		{
+			"text": "פ׳ בֵיאָרִי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1181,
 		"column": "b"

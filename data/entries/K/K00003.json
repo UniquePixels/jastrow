@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00003",
-	"slug": "כא",
-	"headword": {
-		"text": "כָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּא",
+	"headwords": [
+		{
+			"text": "כָּא"
+		},
 		{
 			"text": "כָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 605,
 		"column": "b"

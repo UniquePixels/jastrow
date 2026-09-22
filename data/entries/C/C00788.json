@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00788",
-	"slug": "גיף-2",
-	"headword": {
-		"text": "גֵּיף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיף ²",
+	"headwords": [
+		{
+			"text": "גֵּיף",
+			"disambiguator": 2
+		},
 		{
 			"text": "גֵּיפָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 241,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00766",
-	"slug": "סיסרנון",
-	"headword": {
-		"text": "סִיסִרְנוֹן"
-	},
+	"sefariaHeadword": "סִיסִרְנוֹן",
+	"headwords": [
+		{
+			"text": "סִיסִרְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

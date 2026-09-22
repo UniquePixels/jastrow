@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01595",
-	"slug": "פרדשנא",
-	"headword": {
-		"text": "פַּרְדַּשְׁנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְדַּשְׁנָא",
+	"headwords": [
 		{
-			"text": "פַּרְדִּישְׁ׳"
+			"text": "פַּרְדַּשְׁנָא"
+		},
+		{
+			"text": "פַּרְדִּישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1216,
 		"column": "b"

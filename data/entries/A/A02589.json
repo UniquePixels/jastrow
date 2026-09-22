@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02589",
-	"slug": "אסתרטיגא",
-	"headword": {
-		"text": "אסתרטיגא"
-	},
+	"sefariaHeadword": "אסתרטיגא",
+	"headwords": [
+		{
+			"text": "אסתרטיגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00544",
-	"slug": "רחשוש",
-	"headword": {
-		"text": "רַחֲשׁוּשׁ"
-	},
+	"sefariaHeadword": "רַחֲשׁוּשׁ",
+	"headwords": [
+		{
+			"text": "רַחֲשׁוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1470,
 		"column": "b"

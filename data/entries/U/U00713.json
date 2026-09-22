@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00713",
-	"slug": "שחרור",
-	"headword": {
-		"text": "שִׁחְרוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁחְרוּר",
+	"headwords": [
+		{
+			"text": "שִׁחְרוּר"
+		},
 		{
 			"text": "שִׁחְרוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1552,
 		"column": "a"

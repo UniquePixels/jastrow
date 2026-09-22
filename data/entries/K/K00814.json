@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00814",
-	"slug": "כמס-2",
-	"headword": {
-		"text": "כְּמָס"
-	},
+	"sefariaHeadword": "כְּמָס",
+	"headwords": [
+		{
+			"text": "כְּמָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "a"

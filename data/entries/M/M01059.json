@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01059",
-	"slug": "מטרופסא",
-	"headword": {
-		"text": "מטרופסא"
-	},
+	"sefariaHeadword": "מטרופסא",
+	"headwords": [
+		{
+			"text": "מטרופסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 770,
 		"column": "a"

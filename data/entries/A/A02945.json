@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02945",
-	"slug": "ארא-2",
-	"headword": {
-		"text": "ארא"
-	},
+	"sefariaHeadword": "ארא",
+	"headwords": [
+		{
+			"text": "ארא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

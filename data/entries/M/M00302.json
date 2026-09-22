@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00302",
-	"slug": "מדל-1",
-	"headword": {
-		"text": "מֵדַל"
-	},
+	"sefariaHeadword": "מֵדַל",
+	"headwords": [
+		{
+			"text": "מֵדַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

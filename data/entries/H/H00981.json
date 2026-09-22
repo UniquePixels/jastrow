@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00981",
-	"slug": "חלד-1",
-	"headword": {
-		"text": "חֲלַד"
-	},
+	"sefariaHeadword": "חֲלַד",
+	"headwords": [
+		{
+			"text": "חֲלַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

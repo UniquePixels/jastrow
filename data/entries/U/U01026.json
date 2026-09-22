@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01026",
-	"slug": "שיפמ",
-	"headword": {
-		"text": "שִׂיפְמ־"
-	},
+	"sefariaHeadword": "שִׂיפְמ־",
+	"headwords": [
+		{
+			"text": "שִׂיפְמ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1567,
 		"column": "a"

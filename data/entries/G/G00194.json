@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00194",
-	"slug": "זון-4",
-	"headword": {
-		"text": "זֶוֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֶוֶן",
+	"headwords": [
+		{
+			"text": "זֶוֶן"
+		},
 		{
 			"text": "זוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 388,
 		"column": "a"

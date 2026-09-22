@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01312",
-	"slug": "ערובין",
-	"headword": {
-		"text": "ערובין"
-	},
+	"sefariaHeadword": "ערובין",
+	"headwords": [
+		{
+			"text": "ערובין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00236",
-	"slug": "נדע",
-	"headword": {
-		"text": "נדע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נדע",
+	"headwords": [
+		{
+			"text": "נדע"
+		},
 		{
 			"text": "יִנְדַּע"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִינְדַּע"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 879,
 		"column": "b"

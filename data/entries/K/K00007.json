@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00007",
-	"slug": "כאבא",
-	"headword": {
-		"text": "כְּאֵבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּאֵבָא",
+	"headwords": [
+		{
+			"text": "כְּאֵבָא"
+		},
 		{
 			"text": "כְּאֵיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 606,
 		"column": "a"

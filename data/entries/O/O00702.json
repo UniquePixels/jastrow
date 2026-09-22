@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00702",
-	"slug": "סימטיות",
-	"headword": {
-		"text": "סִימְטָיוֹת"
-	},
+	"sefariaHeadword": "סִימְטָיוֹת",
+	"headwords": [
+		{
+			"text": "סִימְטָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 981,
 		"column": "a"

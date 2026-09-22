@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00646",
-	"slug": "סיכון",
-	"headword": {
-		"text": "סִיכּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכּוּן",
+	"headwords": [
 		{
-			"text": "סִכּ׳"
+			"text": "סִיכּוּן"
+		},
+		{
+			"text": "סִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00574",
-	"slug": "זנות",
-	"headword": {
-		"text": "זְנוּת"
-	},
+	"sefariaHeadword": "זְנוּת",
+	"headwords": [
+		{
+			"text": "זְנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "a"

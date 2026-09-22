@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00119",
-	"slug": "דגנא",
-	"headword": {
-		"text": "דְּגָנָא"
-	},
+	"sefariaHeadword": "דְּגָנָא",
+	"headwords": [
+		{
+			"text": "דְּגָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 280,
 		"column": "b"

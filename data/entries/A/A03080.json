@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03080",
-	"slug": "ארי-4",
-	"headword": {
-		"text": "אֲרִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִי II",
+	"headwords": [
+		{
+			"text": "אֲרִי",
+			"homograph": 2
+		},
 		{
 			"text": "אַרְיֵה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 118,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00199",
-	"slug": "אבר-1",
-	"headword": {
-		"text": "אבר"
-	},
+	"sefariaHeadword": "אבר",
+	"headwords": [
+		{
+			"text": "אבר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "b"

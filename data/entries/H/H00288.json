@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00288",
-	"slug": "חוזרנא",
-	"headword": {
-		"text": "חוֹזְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹזְרָנָא",
+	"headwords": [
+		{
+			"text": "חוֹזְרָנָא"
+		},
 		{
 			"text": "חוֹזְרָנִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲזַר"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 430,
 		"column": "b"

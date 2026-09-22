@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01424",
-	"slug": "פצחא",
-	"headword": {
-		"text": "פַּצְחָא"
-	},
+	"sefariaHeadword": "פַּצְחָא",
+	"headwords": [
+		{
+			"text": "פַּצְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "b"

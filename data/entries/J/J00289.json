@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00289",
-	"slug": "יחידתא",
-	"headword": {
-		"text": "יְחִידְתָּא"
-	},
+	"sefariaHeadword": "יְחִידְתָּא",
+	"headwords": [
+		{
+			"text": "יְחִידְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 574,
 		"column": "b"

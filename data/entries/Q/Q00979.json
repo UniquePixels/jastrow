@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00979",
-	"slug": "פלומטרין",
-	"headword": {
-		"text": "פְּלוּמַטְרִין"
-	},
+	"sefariaHeadword": "פְּלוּמַטְרִין",
+	"headwords": [
+		{
+			"text": "פְּלוּמַטְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

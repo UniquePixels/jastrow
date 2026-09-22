@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00566",
-	"slug": "חזרים",
-	"headword": {
-		"text": "חֲזָרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲזָרִים",
+	"headwords": [
+		{
+			"text": "חֲזָרִים"
+		},
 		{
 			"text": "חֲזָרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 447,
 		"column": "a"

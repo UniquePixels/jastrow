@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00389",
-	"slug": "גולור",
-	"headword": {
-		"text": "גולור"
-	},
+	"sefariaHeadword": "גולור",
+	"headwords": [
+		{
+			"text": "גולור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

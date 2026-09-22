@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00277",
-	"slug": "דומה-1",
-	"headword": {
-		"text": "דּוּמָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דּוּמָה I",
+	"headwords": [
+		{
+			"text": "דּוּמָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 286,
 		"column": "a"

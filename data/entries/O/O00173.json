@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00173",
-	"slug": "סגרירא",
-	"headword": {
-		"text": "סַגְרִירָא"
-	},
+	"sefariaHeadword": "סַגְרִירָא",
+	"headwords": [
+		{
+			"text": "סַגְרִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 956,
 		"column": "b"

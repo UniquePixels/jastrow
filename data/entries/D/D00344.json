@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "D00344",
-	"slug": "דור-4",
-	"headword": {
-		"text": "דּוּר",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*דּוּר III",
+	"headwords": [
+		{
+			"text": "דּוּר",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 289,
 		"column": "a"

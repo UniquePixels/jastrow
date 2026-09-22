@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00537",
-	"slug": "סיבורא",
-	"headword": {
-		"text": "סִיבּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיבּוּרָא",
+	"headwords": [
+		{
+			"text": "סִיבּוּרָא"
+		},
 		{
 			"text": "סִבּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 974,
 		"column": "b"

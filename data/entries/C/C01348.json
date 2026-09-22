@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01348",
-	"slug": "גרל",
-	"headword": {
-		"text": "גָּרַל"
-	},
+	"sefariaHeadword": "גָּרַל",
+	"headwords": [
+		{
+			"text": "גָּרַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 269,
 		"column": "a"

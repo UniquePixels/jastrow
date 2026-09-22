@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "K01196",
-	"slug": "כרכוז",
-	"headword": {
-		"text": "כַּרְכּוּז",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כַּרְכּוּז",
+	"headwords": [
+		{
+			"text": "כַּרְכּוּז",
+			"reconstructed": true
+		},
 		{
 			"text": "עִיזָּא"
 		},
 		{
-			"text": "כ׳"
+			"text": "כ׳",
+			"partial": true
 		},
 		{
 			"text": "ד"
 		}
 	],
+	"display": "*{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 669,
 		"column": "b"

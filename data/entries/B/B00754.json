@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00754",
-	"slug": "ביתא-1",
-	"headword": {
-		"text": "בֵּיתָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּיתָא I",
+	"headwords": [
+		{
+			"text": "בֵּיתָא",
+			"homograph": 1
+		},
 		{
 			"text": "בֵּית"
 		},
@@ -13,6 +14,7 @@
 			"text": "בַּיְיתָא"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 168,
 		"column": "b"

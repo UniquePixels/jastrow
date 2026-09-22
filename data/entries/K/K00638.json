@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00638",
-	"slug": "כישוף",
-	"headword": {
-		"text": "כִּישּׁוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּישּׁוּף",
+	"headwords": [
 		{
-			"text": "כִּשּׁ׳"
+			"text": "כִּישּׁוּף"
+		},
+		{
+			"text": "כִּשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 637,
 		"column": "a"

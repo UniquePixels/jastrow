@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00886",
-	"slug": "אוריזא",
-	"headword": {
-		"text": "אוֹרִיזָא"
-	},
+	"sefariaHeadword": "אוֹרִיזָא",
+	"headwords": [
+		{
+			"text": "אוֹרִיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "a"

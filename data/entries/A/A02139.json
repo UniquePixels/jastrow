@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02139",
-	"slug": "אנהורי",
-	"headword": {
-		"text": "אַנְהוֹרֵי"
-	},
+	"sefariaHeadword": "אַנְהוֹרֵי",
+	"headwords": [
+		{
+			"text": "אַנְהוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

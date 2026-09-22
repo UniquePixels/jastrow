@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01983",
-	"slug": "קרחן",
-	"headword": {
-		"text": "קַרְחָן"
-	},
+	"sefariaHeadword": "קַרְחָן",
+	"headwords": [
+		{
+			"text": "קַרְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

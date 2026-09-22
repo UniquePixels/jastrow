@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00143",
-	"slug": "זוותא",
-	"headword": {
-		"text": "זָוְותָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זָוְותָא",
+	"headwords": [
+		{
+			"text": "זָוְותָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 385,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00574",
-	"slug": "נטליתא",
-	"headword": {
-		"text": "נטליתא"
-	},
+	"sefariaHeadword": "נטליתא",
+	"headwords": [
+		{
+			"text": "נטליתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 900,
 		"column": "b"

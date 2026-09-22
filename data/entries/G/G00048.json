@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00048",
-	"slug": "זבל-5",
-	"headword": {
-		"text": "זַבָּל"
-	},
+	"sefariaHeadword": "זַבָּל",
+	"headwords": [
+		{
+			"text": "זַבָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00978",
-	"slug": "תרי-2",
-	"headword": {
-		"text": "תרי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תרי",
+	"headwords": [
+		{
+			"text": "תרי"
+		},
 		{
 			"text": "תָּרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1698,
 		"column": "a"

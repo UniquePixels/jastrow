@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00055",
-	"slug": "הגא-2",
-	"headword": {
-		"text": "הֶגֶא"
-	},
+	"sefariaHeadword": "הֶגֶא",
+	"headwords": [
+		{
+			"text": "הֶגֶא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "b"

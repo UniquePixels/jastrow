@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01245",
-	"slug": "חמתן",
-	"headword": {
-		"text": "חַמְּתן"
-	},
+	"sefariaHeadword": "חַמְּתן",
+	"headwords": [
+		{
+			"text": "חַמְּתן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "a"

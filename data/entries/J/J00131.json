@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00131",
-	"slug": "יהויקים",
-	"headword": {
-		"text": "יְהוֹיָקִים"
-	},
+	"sefariaHeadword": "יְהוֹיָקִים",
+	"headwords": [
+		{
+			"text": "יְהוֹיָקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "b"

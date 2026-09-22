@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02867",
-	"slug": "אצטלוס",
-	"headword": {
-		"text": "אצטלוס"
-	},
+	"sefariaHeadword": "אצטלוס",
+	"headwords": [
+		{
+			"text": "אצטלוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "b"

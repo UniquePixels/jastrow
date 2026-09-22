@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00696",
-	"slug": "נינפה",
-	"headword": {
-		"text": "נינפה"
-	},
+	"sefariaHeadword": "נינפה",
+	"headwords": [
+		{
+			"text": "נינפה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

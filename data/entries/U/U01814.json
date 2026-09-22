@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01814",
-	"slug": "שפתה",
-	"headword": {
-		"text": "שפתה"
-	},
+	"sefariaHeadword": "שפתה",
+	"headwords": [
+		{
+			"text": "שפתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"

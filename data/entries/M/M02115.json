@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02115",
-	"slug": "מעין-3",
-	"headword": {
-		"text": "מַעְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעְיָן",
+	"headwords": [
+		{
+			"text": "מַעְיָן"
+		},
 		{
 			"text": "מַעְיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 816,
 		"column": "a"

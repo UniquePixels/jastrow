@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00197",
-	"slug": "זונה-1",
-	"headword": {
-		"text": "זוֹנֶה"
-	},
+	"sefariaHeadword": "זוֹנֶה",
+	"headwords": [
+		{
+			"text": "זוֹנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "a"

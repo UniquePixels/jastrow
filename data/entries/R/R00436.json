@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00436",
-	"slug": "ציצותא",
-	"headword": {
-		"text": "צִיצוּתָא"
-	},
+	"sefariaHeadword": "צִיצוּתָא",
+	"headwords": [
+		{
+			"text": "צִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1280,
 		"column": "a"

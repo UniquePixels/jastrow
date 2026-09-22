@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00789",
-	"slug": "תעניתא",
-	"headword": {
-		"text": "תַּעֲנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּעֲנִיתָא",
+	"headwords": [
+		{
+			"text": "תַּעֲנִיתָא"
+		},
 		{
 			"text": "תַּעֲנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1684,
 		"column": "a"

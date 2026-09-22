@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00622",
-	"slug": "נידבא",
-	"headword": {
-		"text": "נִידְבָא"
-	},
+	"sefariaHeadword": "נִידְבָא",
+	"headwords": [
+		{
+			"text": "נִידְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

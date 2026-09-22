@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00590",
-	"slug": "נטש-2",
-	"headword": {
-		"text": "נטַשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נטַשׁ",
+	"headwords": [
+		{
+			"text": "נטַשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 901,
 		"column": "b"

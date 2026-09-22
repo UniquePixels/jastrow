@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01072",
-	"slug": "רשו",
-	"headword": {
-		"text": "רָשׁוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָשׁוּ",
+	"headwords": [
+		{
+			"text": "רָשׁוּ"
+		},
 		{
 			"text": "רְשׁוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1499,
 		"column": "a"

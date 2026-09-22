@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01368",
-	"slug": "אינבא",
-	"headword": {
-		"text": "אִינְבָּא"
-	},
+	"sefariaHeadword": "אִינְבָּא",
+	"headwords": [
+		{
+			"text": "אִינְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

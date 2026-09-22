@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01865",
-	"slug": "פרכסין",
-	"headword": {
-		"text": "פְּרַכְסִין"
-	},
+	"sefariaHeadword": "פְּרַכְסִין",
+	"headwords": [
+		{
+			"text": "פְּרַכְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

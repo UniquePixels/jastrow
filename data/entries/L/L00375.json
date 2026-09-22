@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00375",
-	"slug": "לחשא",
-	"headword": {
-		"text": "לְחָשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחָשָׁא",
+	"headwords": [
+		{
+			"text": "לְחָשָׁא"
+		},
 		{
 			"text": "לְחִישָׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "לְחִישָׁה"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 704,
 		"column": "b"

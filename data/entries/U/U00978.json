@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00978",
-	"slug": "שיני",
-	"headword": {
-		"text": "שֵׁינִי"
-	},
+	"sefariaHeadword": "שֵׁינִי",
+	"headwords": [
+		{
+			"text": "שֵׁינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

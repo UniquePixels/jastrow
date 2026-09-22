@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00892",
-	"slug": "אורייר",
-	"headword": {
-		"text": "אוֹרְיָיר"
-	},
+	"sefariaHeadword": "אוֹרְיָיר",
+	"headwords": [
+		{
+			"text": "אוֹרְיָיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

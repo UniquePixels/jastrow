@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00856",
-	"slug": "נמא",
-	"headword": {
-		"text": "נָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָמָא",
+	"headwords": [
+		{
+			"text": "נָמָא"
+		},
 		{
 			"text": "נָמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 912,
 		"column": "b"

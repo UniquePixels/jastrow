@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01622",
-	"slug": "אישות-2",
-	"headword": {
-		"text": "אישות"
-	},
+	"sefariaHeadword": "אישות",
+	"headwords": [
+		{
+			"text": "אישות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

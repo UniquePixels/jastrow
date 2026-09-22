@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00325",
-	"slug": "זיזא-3",
-	"headword": {
-		"text": "זִיזָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיזָא III",
+	"headwords": [
 		{
-			"text": "בַּר זִיזָא"
+			"text": "זִיזָא",
+			"homograph": 3
+		},
+		{
+			"text": "בַּר ז׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 393,
 		"column": "a"

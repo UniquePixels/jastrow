@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01370",
-	"slug": "אינגורין",
-	"headword": {
-		"text": "אינגורין"
-	},
+	"sefariaHeadword": "אינגורין",
+	"headwords": [
+		{
+			"text": "אינגורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

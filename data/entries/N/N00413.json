@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00413",
-	"slug": "נוקרן",
-	"headword": {
-		"text": "נוֹקְרָן"
-	},
+	"sefariaHeadword": "נוֹקְרָן",
+	"headwords": [
+		{
+			"text": "נוֹקְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

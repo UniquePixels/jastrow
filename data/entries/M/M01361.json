@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01361",
-	"slug": "מכורה",
-	"headword": {
-		"text": "מְכוּרָה"
-	},
+	"sefariaHeadword": "מְכוּרָה",
+	"headwords": [
+		{
+			"text": "מְכוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 781,
 		"column": "b"

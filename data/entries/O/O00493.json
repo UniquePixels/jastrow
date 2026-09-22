@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00493",
-	"slug": "סטכת",
-	"headword": {
-		"text": "סַטְכַּת"
-	},
+	"sefariaHeadword": "סַטְכַּת",
+	"headwords": [
+		{
+			"text": "סַטְכַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

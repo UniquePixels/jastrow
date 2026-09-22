@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01959",
-	"slug": "אלתר",
-	"headword": {
-		"text": "אַלְתַּר"
-	},
+	"sefariaHeadword": "אַלְתַּר",
+	"headwords": [
+		{
+			"text": "אַלְתַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01141",
-	"slug": "קיקיון",
-	"headword": {
-		"text": "קִיקָיוֹן"
-	},
+	"sefariaHeadword": "קִיקָיוֹן",
+	"headwords": [
+		{
+			"text": "קִיקָיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

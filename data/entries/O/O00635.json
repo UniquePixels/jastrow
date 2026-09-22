@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00635",
-	"slug": "סייפי",
-	"headword": {
-		"text": "סַיָּיפִי"
-	},
+	"sefariaHeadword": "סַיָּיפִי",
+	"headwords": [
+		{
+			"text": "סַיָּיפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

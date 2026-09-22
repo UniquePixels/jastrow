@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01507",
-	"slug": "איסר-2",
-	"headword": {
-		"text": "אִיסָּר"
-	},
+	"sefariaHeadword": "אִיסָּר",
+	"headwords": [
+		{
+			"text": "אִיסָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "a"

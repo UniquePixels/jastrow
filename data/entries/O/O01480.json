@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01480",
-	"slug": "סקיפנטיא",
-	"headword": {
-		"text": "סְקִיפַנְטְיָא"
-	},
+	"sefariaHeadword": "סְקִיפַנְטְיָא",
+	"headwords": [
+		{
+			"text": "סְקִיפַנְטְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

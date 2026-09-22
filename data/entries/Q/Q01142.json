@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01142",
-	"slug": "פמליא",
-	"headword": {
-		"text": "פַּמַּלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּמַּלְיָא",
+	"headwords": [
 		{
-			"text": "פְּמַ׳"
+			"text": "פַּמַּלְיָא"
+		},
+		{
+			"text": "פְּמַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1186,
 		"column": "a"

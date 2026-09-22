@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01834",
-	"slug": "קצפון",
-	"headword": {
-		"text": "קִצָּפוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִצָּפוֹן",
+	"headwords": [
 		{
-			"text": "קִיצָּ׳"
+			"text": "קִצָּפוֹן"
+		},
+		{
+			"text": "קִיצָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1407,
 		"column": "a"

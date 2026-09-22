@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01221",
-	"slug": "מיניומי",
-	"headword": {
-		"text": "מִינְיוֹמִי"
-	},
+	"sefariaHeadword": "מִינְיוֹמִי",
+	"headwords": [
+		{
+			"text": "מִינְיוֹמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 776,
 		"column": "b"

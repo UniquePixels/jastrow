@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01075",
-	"slug": "דרור",
-	"headword": {
-		"text": "דְּרוֹר"
-	},
+	"sefariaHeadword": "דְּרוֹר",
+	"headwords": [
+		{
+			"text": "דְּרוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

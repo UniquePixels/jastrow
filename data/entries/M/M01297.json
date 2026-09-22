@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01297",
-	"slug": "מירור",
-	"headword": {
-		"text": "מֵירוּר"
-	},
+	"sefariaHeadword": "מֵירוּר",
+	"headwords": [
+		{
+			"text": "מֵירוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

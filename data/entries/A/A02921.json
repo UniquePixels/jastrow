@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02921",
-	"slug": "אקלפרין",
-	"headword": {
-		"text": "אַקְלִפְרִין"
-	},
+	"sefariaHeadword": "אַקְלִפְרִין",
+	"headwords": [
+		{
+			"text": "אַקְלִפְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

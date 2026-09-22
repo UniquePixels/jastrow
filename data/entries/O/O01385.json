@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01385",
-	"slug": "ספמיא",
-	"headword": {
-		"text": "סְפַמְיָא"
-	},
+	"sefariaHeadword": "סְפַמְיָא",
+	"headwords": [
+		{
+			"text": "סְפַמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

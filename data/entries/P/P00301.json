@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00301",
-	"slug": "עוניתא",
-	"headword": {
-		"text": "עוניתא"
-	},
+	"sefariaHeadword": "עוניתא",
+	"headwords": [
+		{
+			"text": "עוניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00790",
-	"slug": "הקזה",
-	"headword": {
-		"text": "הַקָּזָה"
-	},
+	"sefariaHeadword": "הַקָּזָה",
+	"headwords": [
+		{
+			"text": "הַקָּזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "a"

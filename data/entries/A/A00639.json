@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00639",
-	"slug": "אוכחותא",
-	"headword": {
-		"text": "אוֹכָחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹכָחוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹכָחוּתָא"
+		},
 		{
 			"text": "אוֹכַחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 25,
 		"column": "a"

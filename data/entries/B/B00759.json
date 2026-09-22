@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00759",
-	"slug": "ביתוסי",
-	"headword": {
-		"text": "בַּיְתוּסִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּיְתוּסִי",
+	"headwords": [
 		{
-			"text": "בַּיְי׳"
+			"text": "בַּיְתוּסִי"
+		},
+		{
+			"text": "בַּיְי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 168,
 		"column": "b"

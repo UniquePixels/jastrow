@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01289",
-	"slug": "קלופא-2",
-	"headword": {
-		"text": "קְלוֹפָא"
-	},
+	"sefariaHeadword": "קְלוֹפָא",
+	"headwords": [
+		{
+			"text": "קְלוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00603",
-	"slug": "שזפר",
-	"headword": {
-		"text": "שִׁזְפַּר"
-	},
+	"sefariaHeadword": "שִׁזְפַּר",
+	"headwords": [
+		{
+			"text": "שִׁזְפַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

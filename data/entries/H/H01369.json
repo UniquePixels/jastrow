@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01369",
-	"slug": "חסיד-2",
-	"headword": {
-		"text": "חֲסִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲסִיד",
+	"headwords": [
+		{
+			"text": "חֲסִיד"
+		},
 		{
 			"text": "חָסִיד"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲסִידָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 487,
 		"column": "a"

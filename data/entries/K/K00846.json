@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00846",
-	"slug": "כנור",
-	"headword": {
-		"text": "כִּנּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנּוֹר",
+	"headwords": [
+		{
+			"text": "כִּנּוֹר"
+		},
 		{
 			"text": "כִּינּוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 648,
 		"column": "b"

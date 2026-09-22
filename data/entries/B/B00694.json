@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00694",
-	"slug": "ביקורת",
-	"headword": {
-		"text": "בִּיקּוֹרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיקּוֹרֶת",
+	"headwords": [
 		{
-			"text": "בִּקּ׳"
+			"text": "בִּיקּוֹרֶת"
+		},
+		{
+			"text": "בִּקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 165,
 		"column": "a"

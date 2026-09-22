@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01018",
-	"slug": "גמחון",
-	"headword": {
-		"text": "גַּמְחוּן"
-	},
+	"sefariaHeadword": "גַּמְחוּן",
+	"headwords": [
+		{
+			"text": "גַּמְחוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 252,
 		"column": "b"

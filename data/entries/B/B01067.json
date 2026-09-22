@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01067",
-	"slug": "בעת-1",
-	"headword": {
-		"text": "בָּעַת"
-	},
+	"sefariaHeadword": "בָּעַת",
+	"headwords": [
+		{
+			"text": "בָּעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "a"

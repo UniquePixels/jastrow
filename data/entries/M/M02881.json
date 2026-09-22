@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02881",
-	"slug": "משיכותא",
-	"headword": {
-		"text": "משיכותא"
-	},
+	"sefariaHeadword": "משיכותא",
+	"headwords": [
+		{
+			"text": "משיכותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

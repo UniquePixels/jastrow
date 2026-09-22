@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02928",
-	"slug": "משמעתא",
-	"headword": {
-		"text": "מִשְׁמַעְתָּא"
-	},
+	"sefariaHeadword": "מִשְׁמַעְתָּא",
+	"headwords": [
+		{
+			"text": "מִשְׁמַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "b"

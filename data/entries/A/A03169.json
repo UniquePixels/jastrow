@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03169",
-	"slug": "ארמאי",
-	"headword": {
-		"text": "אַרְמַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְמַאי",
+	"headwords": [
+		{
+			"text": "אַרְמַאי"
+		},
 		{
 			"text": "אַרְמַי"
 		},
@@ -18,6 +19,7 @@
 			"text": "אֲרוֹמָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 122,
 		"column": "b"

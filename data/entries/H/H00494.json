@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00494",
-	"slug": "חושן-2",
-	"headword": {
-		"text": "חוֹשֶׁן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹשֶׁן ²",
+	"headwords": [
+		{
+			"text": "חוֹשֶׁן",
+			"disambiguator": 2
+		},
 		{
 			"text": "חוּשְׁנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 441,
 		"column": "b"

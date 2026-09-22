@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00189",
-	"slug": "לוגמיא",
-	"headword": {
-		"text": "לוגמיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוגמיא",
+	"headwords": [
+		{
+			"text": "לוגמיא"
+		},
 		{
 			"text": "לגומיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 694,
 		"column": "b"

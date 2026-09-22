@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00182",
-	"slug": "אבסקנטה",
-	"headword": {
-		"text": "אֲבַסְקַנְטָה"
-	},
+	"sefariaHeadword": "אֲבַסְקַנְטָה",
+	"headwords": [
+		{
+			"text": "אֲבַסְקַנְטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "a"

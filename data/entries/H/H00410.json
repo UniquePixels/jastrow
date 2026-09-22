@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00410",
-	"slug": "חוסכא",
-	"headword": {
-		"text": "חוּסָּכָא"
-	},
+	"sefariaHeadword": "חוּסָּכָא",
+	"headwords": [
+		{
+			"text": "חוּסָּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

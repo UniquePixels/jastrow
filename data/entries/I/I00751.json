@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00751",
-	"slug": "טרטא",
-	"headword": {
-		"text": "טרטא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טרטא",
+	"headwords": [
+		{
+			"text": "טרטא"
+		},
 		{
 			"text": "טרטס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "a"

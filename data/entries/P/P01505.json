@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01505",
-	"slug": "עשרא",
-	"headword": {
-		"text": "עַשְׂרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַשְׂרָא",
+	"headwords": [
+		{
+			"text": "עַשְׂרָא"
+		},
 		{
 			"text": "עַשְׂרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1127,
 		"column": "b"

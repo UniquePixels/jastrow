@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00934",
-	"slug": "עמרם",
-	"headword": {
-		"text": "עַמְרָם"
-	},
+	"sefariaHeadword": "עַמְרָם",
+	"headwords": [
+		{
+			"text": "עַמְרָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

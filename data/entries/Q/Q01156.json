@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01156",
-	"slug": "פנדודה",
-	"headword": {
-		"text": "פנדודה"
-	},
+	"sefariaHeadword": "פנדודה",
+	"headwords": [
+		{
+			"text": "פנדודה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

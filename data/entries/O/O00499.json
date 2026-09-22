@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "O00499",
-	"slug": "סטן-3",
-	"headword": {
-		"text": "סְטַן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְטַן II",
+	"headwords": [
+		{
+			"text": "סְטַן",
+			"homograph": 2
+		},
 		{
 			"text": "סָטָן"
 		},
@@ -16,9 +17,11 @@
 			"text": "סִטְנָא"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 973,
 		"column": "a"

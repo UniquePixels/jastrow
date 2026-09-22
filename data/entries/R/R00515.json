@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00515",
-	"slug": "צליין-1",
-	"headword": {
-		"text": "צַלִיָין"
-	},
+	"sefariaHeadword": "צַלִיָין",
+	"headwords": [
+		{
+			"text": "צַלִיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

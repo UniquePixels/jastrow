@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00712",
-	"slug": "כלורכין",
-	"headword": {
-		"text": "כלורכין"
-	},
+	"sefariaHeadword": "כלורכין",
+	"headwords": [
+		{
+			"text": "כלורכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 641,
 		"column": "a"

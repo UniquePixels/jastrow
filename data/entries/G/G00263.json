@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00263",
-	"slug": "זיבה-2",
-	"headword": {
-		"text": "זִיבָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיבָה II",
+	"headwords": [
+		{
+			"text": "זִיבָה",
+			"homograph": 2
+		},
 		{
 			"text": "זֵיבָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 390,
 		"column": "b"

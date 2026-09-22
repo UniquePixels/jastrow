@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02853",
-	"slug": "אצבעא",
-	"headword": {
-		"text": "אֶצְבְּעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶצְבְּעָא",
+	"headwords": [
+		{
+			"text": "אֶצְבְּעָא"
+		},
 		{
 			"text": "אֶצְבַּע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 110,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00690",
-	"slug": "קטאדיקוס",
-	"headword": {
-		"text": "קָטָאדִיקוֹס"
-	},
+	"sefariaHeadword": "קָטָאדִיקוֹס",
+	"headwords": [
+		{
+			"text": "קָטָאדִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1345,
 		"column": "b"

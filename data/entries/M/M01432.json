@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01432",
-	"slug": "מכפה",
-	"headword": {
-		"text": "מכפה"
-	},
+	"sefariaHeadword": "מכפה",
+	"headwords": [
+		{
+			"text": "מכפה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

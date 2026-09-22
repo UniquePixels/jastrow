@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00009",
-	"slug": "יאוש",
-	"headword": {
-		"text": "יֵאוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יֵאוּשׁ",
+	"headwords": [
+		{
+			"text": "יֵאוּשׁ"
+		},
 		{
 			"text": "יֵיאוּשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 559,
 		"column": "a"

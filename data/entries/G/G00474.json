@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00474",
-	"slug": "זכרן",
-	"headword": {
-		"text": "זַכְרָן"
-	},
+	"sefariaHeadword": "זַכְרָן",
+	"headwords": [
+		{
+			"text": "זַכְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

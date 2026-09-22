@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00199",
-	"slug": "דודה",
-	"headword": {
-		"text": "דּוֹדָה"
-	},
+	"sefariaHeadword": "דּוֹדָה",
+	"headwords": [
+		{
+			"text": "דּוֹדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

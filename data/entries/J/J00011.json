@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00011",
-	"slug": "יאות",
-	"headword": {
-		"text": "יָאוּת"
-	},
+	"sefariaHeadword": "יָאוּת",
+	"headwords": [
+		{
+			"text": "יָאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "a"

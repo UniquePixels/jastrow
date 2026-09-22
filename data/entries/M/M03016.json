@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03016",
-	"slug": "מתדמרו",
-	"headword": {
-		"text": "מִתְדַּמָּרוּ"
-	},
+	"sefariaHeadword": "מִתְדַּמָּרוּ",
+	"headwords": [
+		{
+			"text": "מִתְדַּמָּרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

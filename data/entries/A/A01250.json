@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01250",
-	"slug": "איכדין",
-	"headword": {
-		"text": "אֵיכְדֵּין"
-	},
+	"sefariaHeadword": "אֵיכְדֵּין",
+	"headwords": [
+		{
+			"text": "אֵיכְדֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

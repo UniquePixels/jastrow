@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01144",
-	"slug": "קיקלון",
-	"headword": {
-		"text": "קִיקָלוֹן"
-	},
+	"sefariaHeadword": "קִיקָלוֹן",
+	"headwords": [
+		{
+			"text": "קִיקָלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "a"

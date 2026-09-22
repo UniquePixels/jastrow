@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01293",
-	"slug": "גרוד",
-	"headword": {
-		"text": "גָּרוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּרוּד",
+	"headwords": [
+		{
+			"text": "גָּרוּד"
+		},
 		{
 			"text": "גָּרוּר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 266,
 		"column": "b"

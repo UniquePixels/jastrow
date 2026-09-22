@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00288",
-	"slug": "דומם",
-	"headword": {
-		"text": "דּוּמָם"
-	},
+	"sefariaHeadword": "דּוּמָם",
+	"headwords": [
+		{
+			"text": "דּוּמָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

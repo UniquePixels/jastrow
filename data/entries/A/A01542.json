@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01542",
-	"slug": "איפופודין",
-	"headword": {
-		"text": "אִיפּוֹפּוֹדִין"
-	},
+	"sefariaHeadword": "אִיפֹּופּוֹדִין",
+	"headwords": [
+		{
+			"text": "אִיפּוֹפּוֹדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

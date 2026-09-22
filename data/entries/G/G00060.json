@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00060",
-	"slug": "זגדייא",
-	"headword": {
-		"text": "זַגְדָּיָיא"
-	},
+	"sefariaHeadword": "זַגְדָּיָיא",
+	"headwords": [
+		{
+			"text": "זַגְדָּיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "a"

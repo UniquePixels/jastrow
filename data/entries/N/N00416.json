@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00416",
-	"slug": "נור-1",
-	"headword": {
-		"text": "נוּר"
-	},
+	"sefariaHeadword": "נוּר",
+	"headwords": [
+		{
+			"text": "נוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

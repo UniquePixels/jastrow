@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00483",
-	"slug": "מול-2",
-	"headword": {
-		"text": "מוּל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוּל II",
+	"headwords": [
+		{
+			"text": "מוּל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 742,
 		"column": "a"

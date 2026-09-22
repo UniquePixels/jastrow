@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00243",
-	"slug": "אגד-5",
-	"headword": {
-		"text": "אֲגַד",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲגַד III",
+	"headwords": [
+		{
+			"text": "אֲגַד",
+			"homograph": 3
+		},
 		{
 			"text": "אַגְדָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 10,
 		"column": "b"

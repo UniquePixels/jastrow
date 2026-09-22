@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01372",
-	"slug": "נתינה-1",
-	"headword": {
-		"text": "נְתִינָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְתִינָה I",
+	"headwords": [
+		{
+			"text": "נְתִינָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 943,
 		"column": "b"

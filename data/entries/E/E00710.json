@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00710",
-	"slug": "הספדא",
-	"headword": {
-		"text": "הֶסְפֵּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶסְפֵּדָא",
+	"headwords": [
 		{
-			"text": "הֶסְפֵּי׳"
+			"text": "הֶסְפֵּדָא"
+		},
+		{
+			"text": "הֶסְפֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 359,
 		"column": "b"

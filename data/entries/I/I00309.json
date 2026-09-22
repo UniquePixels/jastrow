@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00309",
-	"slug": "טיברני",
-	"headword": {
-		"text": "טִיבְרָנִי"
-	},
+	"sefariaHeadword": "טִיבְרָנִי",
+	"headwords": [
+		{
+			"text": "טִיבְרָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "b"

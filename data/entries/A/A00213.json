@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00213",
-	"slug": "אברוכסים",
-	"headword": {
-		"text": "אברוכסים"
-	},
+	"sefariaHeadword": "אברוכסים",
+	"headwords": [
+		{
+			"text": "אברוכסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

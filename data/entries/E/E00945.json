@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00945",
-	"slug": "התובתא",
-	"headword": {
-		"text": "הֲתוֹבְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֲתוֹבְתָּא",
+	"headwords": [
+		{
+			"text": "הֲתוֹבְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

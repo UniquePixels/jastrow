@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01165",
-	"slug": "אידכרו",
-	"headword": {
-		"text": "אִידְכָּרוּ"
-	},
+	"sefariaHeadword": "אִידְכָּרוּ",
+	"headwords": [
+		{
+			"text": "אִידְכָּרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

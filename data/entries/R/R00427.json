@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00427",
-	"slug": "ציפרתא",
-	"headword": {
-		"text": "צִיפַּרְתָּא"
-	},
+	"sefariaHeadword": "צִיפַּרְתָּא",
+	"headwords": [
+		{
+			"text": "צִיפַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "b"

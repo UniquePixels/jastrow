@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00457",
-	"slug": "צירוף",
-	"headword": {
-		"text": "צֵירוּף"
-	},
+	"sefariaHeadword": "צֵירוּף",
+	"headwords": [
+		{
+			"text": "צֵירוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00831",
-	"slug": "אוקי-2",
-	"headword": {
-		"text": "אוקי"
-	},
+	"sefariaHeadword": "אוקי",
+	"headwords": [
+		{
+			"text": "אוקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

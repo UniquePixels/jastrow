@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02214",
-	"slug": "מפיס-2",
-	"headword": {
-		"text": "מֵפִיס"
-	},
+	"sefariaHeadword": "מֵפִיס",
+	"headwords": [
+		{
+			"text": "מֵפִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02260",
-	"slug": "מפתן",
-	"headword": {
-		"text": "מִפְתָּן"
-	},
+	"sefariaHeadword": "מִפְתָּן",
+	"headwords": [
+		{
+			"text": "מִפְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "b"

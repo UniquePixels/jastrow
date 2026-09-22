@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00874",
-	"slug": "נמיטרין",
-	"headword": {
-		"text": "נמיטרין"
-	},
+	"sefariaHeadword": "נמיטרין",
+	"headwords": [
+		{
+			"text": "נמיטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

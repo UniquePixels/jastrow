@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01549",
-	"slug": "קנח-1",
-	"headword": {
-		"text": "קנח"
-	},
+	"sefariaHeadword": "קנח",
+	"headwords": [
+		{
+			"text": "קנח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

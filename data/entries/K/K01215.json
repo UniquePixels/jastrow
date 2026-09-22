@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01215",
-	"slug": "כרכס-2",
-	"headword": {
-		"text": "כַּרְכַּס"
-	},
+	"sefariaHeadword": "כַּרְכַּס",
+	"headwords": [
+		{
+			"text": "כַּרְכַּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "a"

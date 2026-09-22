@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00910",
-	"slug": "אורעי",
-	"headword": {
-		"text": "אוּרְעֵי"
-	},
+	"sefariaHeadword": "אוּרְעֵי",
+	"headwords": [
+		{
+			"text": "אוּרְעֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "a"

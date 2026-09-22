@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01050",
-	"slug": "סמא-1",
-	"headword": {
-		"text": "סַמָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סַמָּא I",
+	"headwords": [
+		{
+			"text": "סַמָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 998,
 		"column": "b"

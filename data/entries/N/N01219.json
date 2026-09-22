@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01219",
-	"slug": "נקלבס",
-	"headword": {
-		"text": "נִקְלְבָס"
-	},
+	"sefariaHeadword": "נִקְלְבָס",
+	"headwords": [
+		{
+			"text": "נִקְלְבָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

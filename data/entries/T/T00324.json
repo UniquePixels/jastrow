@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00324",
-	"slug": "רוו",
-	"headword": {
-		"text": "רֵווּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵווּ",
+	"headwords": [
+		{
+			"text": "רֵווּ"
+		},
 		{
 			"text": "רִוו"
 		},
@@ -12,6 +13,7 @@
 			"text": "רֵוָוא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1456,
 		"column": "b"

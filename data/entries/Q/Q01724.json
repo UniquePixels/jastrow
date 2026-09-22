@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01724",
-	"slug": "פרופסלה",
-	"headword": {
-		"text": "פרופסלה"
-	},
+	"sefariaHeadword": "פרופסלה",
+	"headwords": [
+		{
+			"text": "פרופסלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

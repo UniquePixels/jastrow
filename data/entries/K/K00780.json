@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00780",
-	"slug": "כלקירא-1",
-	"headword": {
-		"text": "כַּלְקִירָא"
-	},
+	"sefariaHeadword": "כַּלְקִירָא",
+	"headwords": [
+		{
+			"text": "כַּלְקִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "b"

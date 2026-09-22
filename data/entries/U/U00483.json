@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00483",
-	"slug": "שועי-2",
-	"headword": {
-		"text": "שׁוֹעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹעִי",
+	"headwords": [
+		{
+			"text": "שׁוֹעִי"
+		},
 		{
 			"text": "שׁוּעִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1538,
 		"column": "b"

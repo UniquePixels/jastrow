@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00835",
-	"slug": "עלעל-1",
-	"headword": {
-		"text": "עלְעִל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עלְעִל",
+	"headwords": [
+		{
+			"text": "עלְעִל"
+		},
 		{
 			"text": "עִילְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1085,
 		"column": "a"

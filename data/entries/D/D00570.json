@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00570",
-	"slug": "דייקי",
-	"headword": {
-		"text": "דייקי"
-	},
+	"sefariaHeadword": "דייקי",
+	"headwords": [
+		{
+			"text": "דייקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

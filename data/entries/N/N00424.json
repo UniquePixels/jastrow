@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00424",
-	"slug": "נותר",
-	"headword": {
-		"text": "נוֹתָר"
-	},
+	"sefariaHeadword": "נוֹתָר",
+	"headwords": [
+		{
+			"text": "נוֹתָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

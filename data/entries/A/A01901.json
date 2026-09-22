@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01901",
-	"slug": "אללא",
-	"headword": {
-		"text": "אַלְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְלָא",
+	"headwords": [
+		{
+			"text": "אַלְלָא"
+		},
 		{
 			"text": "אוּלְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 71,
 		"column": "a"

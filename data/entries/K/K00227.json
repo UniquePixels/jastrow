@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00227",
-	"slug": "כוזב",
-	"headword": {
-		"text": "כּוֹזָב"
-	},
+	"sefariaHeadword": "כּוֹזָב",
+	"headwords": [
+		{
+			"text": "כּוֹזָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

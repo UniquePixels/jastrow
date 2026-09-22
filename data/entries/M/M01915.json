@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01915",
-	"slug": "מסיב",
-	"headword": {
-		"text": "מְסִיב"
-	},
+	"sefariaHeadword": "מְסִיב",
+	"headwords": [
+		{
+			"text": "מְסִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

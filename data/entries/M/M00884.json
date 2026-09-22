@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00884",
-	"slug": "מחכיא",
-	"headword": {
-		"text": "מחכיא"
-	},
+	"sefariaHeadword": "מחכיא",
+	"headwords": [
+		{
+			"text": "מחכיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

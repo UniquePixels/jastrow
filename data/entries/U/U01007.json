@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01007",
-	"slug": "שיפה-2",
-	"headword": {
-		"text": "שִׁיפָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁיפָה II",
+	"headwords": [
+		{
+			"text": "שִׁיפָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1565,
 		"column": "b"

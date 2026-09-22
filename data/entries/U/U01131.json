@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01131",
-	"slug": "שכון",
-	"headword": {
-		"text": "שִׁכּוּן"
-	},
+	"sefariaHeadword": "שִׁכּוּן",
+	"headwords": [
+		{
+			"text": "שִׁכּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "b"

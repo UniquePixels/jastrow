@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00501",
-	"slug": "סטף",
-	"headword": {
-		"text": "סָטַף"
-	},
+	"sefariaHeadword": "סָטַף",
+	"headwords": [
+		{
+			"text": "סָטַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

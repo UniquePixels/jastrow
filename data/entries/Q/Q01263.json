@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01263",
-	"slug": "פסטילוס",
-	"headword": {
-		"text": "פִּסְטִילּוֹס"
-	},
+	"sefariaHeadword": "פִּסְטִילּוֹס",
+	"headwords": [
+		{
+			"text": "פִּסְטִילּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

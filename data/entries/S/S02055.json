@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02055",
-	"slug": "קרייון",
-	"headword": {
-		"text": "קרייון"
-	},
+	"sefariaHeadword": "קרייון",
+	"headwords": [
+		{
+			"text": "קרייון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

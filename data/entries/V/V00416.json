@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00416",
-	"slug": "תיגר",
-	"headword": {
-		"text": "תִּיגַּר"
-	},
+	"sefariaHeadword": "תִּיגַּר",
+	"headwords": [
+		{
+			"text": "תִּיגַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

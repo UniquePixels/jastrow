@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00320",
-	"slug": "רודה",
-	"headword": {
-		"text": "רוֹדֶה"
-	},
+	"sefariaHeadword": "רוֹדֶה",
+	"headwords": [
+		{
+			"text": "רוֹדֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

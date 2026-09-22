@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00131",
-	"slug": "סגיותא",
-	"headword": {
-		"text": "סְגִיּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגִיּוּתָא",
+	"headwords": [
 		{
-			"text": "סַגְיוּ׳"
+			"text": "סְגִיּוּתָא"
+		},
+		{
+			"text": "סַגְיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 954,
 		"column": "b"

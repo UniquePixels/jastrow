@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00731",
-	"slug": "רישקא",
-	"headword": {
-		"text": "רִישְׁקָא"
-	},
+	"sefariaHeadword": "רִישְׁקָא",
+	"headwords": [
+		{
+			"text": "רִישְׁקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

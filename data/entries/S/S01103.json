@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01103",
-	"slug": "קיפופא",
-	"headword": {
-		"text": "קִיפּוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיפּוּפָא",
+	"headwords": [
 		{
-			"text": "קִיפּוֹ׳"
+			"text": "קִיפּוּפָא"
 		},
 		{
-			"text": "קִפּ׳"
+			"text": "קִיפּוֹ׳",
+			"partial": true
+		},
+		{
+			"text": "קִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1366,
 		"column": "a"

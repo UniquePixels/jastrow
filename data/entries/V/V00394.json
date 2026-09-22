@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00394",
-	"slug": "תחתוניות",
-	"headword": {
-		"text": "תַּחְתּוֹנִיּוֹת"
-	},
+	"sefariaHeadword": "תַּחְתּוֹנִיּוֹת",
+	"headwords": [
+		{
+			"text": "תַּחְתּוֹנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "b"

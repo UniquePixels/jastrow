@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02698",
-	"slug": "מרכב",
-	"headword": {
-		"text": "מֶרְכָּב"
-	},
+	"sefariaHeadword": "מֶרְכָּב",
+	"headwords": [
+		{
+			"text": "מֶרְכָּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

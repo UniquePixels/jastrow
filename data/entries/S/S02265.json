@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02265",
-	"slug": "קשר-2",
-	"headword": {
-		"text": "קֶשֶׁר"
-	},
+	"sefariaHeadword": "קֶשֶׁר",
+	"headwords": [
+		{
+			"text": "קֶשֶׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1432,
 		"column": "b"

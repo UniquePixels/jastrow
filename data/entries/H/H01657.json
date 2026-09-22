@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01657",
-	"slug": "חרחר-1",
-	"headword": {
-		"text": "חַרְחַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְחַר",
+	"headwords": [
+		{
+			"text": "חַרְחַר"
+		},
 		{
 			"text": "חַר חַר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 501,
 		"column": "a"

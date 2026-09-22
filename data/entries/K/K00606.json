@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00606",
-	"slug": "כיפי",
-	"headword": {
-		"text": "כֵּיפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיפֵי",
+	"headwords": [
 		{
-			"text": "בֵּי כֵּיפֵי"
+			"text": "כֵּיפֵי"
+		},
+		{
+			"text": "בֵּי כ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 635,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

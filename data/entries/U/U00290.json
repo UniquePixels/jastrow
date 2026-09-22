@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00290",
-	"slug": "שדרייא",
-	"headword": {
-		"text": "שִׁדְרַיָּיא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שִׁדְרַיָּיא",
+	"headwords": [
+		{
+			"text": "שִׁדְרַיָּיא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1526,
 		"column": "b"

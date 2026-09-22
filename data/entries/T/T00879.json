@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00879",
-	"slug": "רעדה",
-	"headword": {
-		"text": "רְעָדָה"
-	},
+	"sefariaHeadword": "רְעָדָה",
+	"headwords": [
+		{
+			"text": "רְעָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1486,
 		"column": "a"

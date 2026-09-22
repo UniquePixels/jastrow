@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00267",
-	"slug": "חוודרוריא",
-	"headword": {
-		"text": "חוודרוריא"
-	},
+	"sefariaHeadword": "חוודרוריא",
+	"headwords": [
+		{
+			"text": "חוודרוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

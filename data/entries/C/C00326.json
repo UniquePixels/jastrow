@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00326",
-	"slug": "גוו",
-	"headword": {
-		"text": "גֵּוו"
-	},
+	"sefariaHeadword": "גֵּוו",
+	"headwords": [
+		{
+			"text": "גֵּוו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "a"

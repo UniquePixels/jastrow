@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02702",
-	"slug": "אפיפיירות",
-	"headword": {
-		"text": "אַפִּיפְיָירוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפִּיפְיָירוֹת",
+	"headwords": [
+		{
+			"text": "אַפִּיפְיָירוֹת"
+		},
 		{
 			"text": "אַפִּיפְיָרוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "פִּיפְיָרוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 103,
 		"column": "b"

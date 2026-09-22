@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00282",
-	"slug": "תורבלא",
-	"headword": {
-		"text": "תּוֹרְבָּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרְבָּלָא",
+	"headwords": [
+		{
+			"text": "תּוֹרְבָּלָא"
+		},
 		{
 			"text": "תּוֹרְבְּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1656,
 		"column": "b"

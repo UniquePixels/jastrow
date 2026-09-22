@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01734",
-	"slug": "פרור-1",
-	"headword": {
-		"text": "פָּרוּר"
-	},
+	"sefariaHeadword": "פָּרוּר",
+	"headwords": [
+		{
+			"text": "פָּרוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1222,
 		"column": "a"

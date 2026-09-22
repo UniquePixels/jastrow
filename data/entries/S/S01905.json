@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01905",
-	"slug": "קרדויים",
-	"headword": {
-		"text": "קַרְדּוּיִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדּוּיִים",
+	"headwords": [
+		{
+			"text": "קַרְדּוּיִים"
+		},
 		{
 			"text": "קַרְדּוּיִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1412,
 		"column": "a"

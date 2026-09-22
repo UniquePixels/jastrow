@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01809",
-	"slug": "מנפש",
-	"headword": {
-		"text": "מנפש"
-	},
+	"sefariaHeadword": "מנפש",
+	"headwords": [
+		{
+			"text": "מנפש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

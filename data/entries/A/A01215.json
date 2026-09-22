@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A01215",
-	"slug": "איטליא",
-	"headword": {
-		"text": "אִיטַלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיטַלְיָא",
+	"headwords": [
+		{
+			"text": "אִיטַלְיָא"
+		},
 		{
 			"text": "אִיטַלְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 47,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

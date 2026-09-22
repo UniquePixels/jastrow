@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00890",
-	"slug": "חיש",
-	"headword": {
-		"text": "חִישׁ"
-	},
+	"sefariaHeadword": "חִישׁ",
+	"headwords": [
+		{
+			"text": "חִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01247",
-	"slug": "כרסוון",
-	"headword": {
-		"text": "כָּרְסָוָון"
-	},
+	"sefariaHeadword": "כָּרְסָוָון",
+	"headwords": [
+		{
+			"text": "כָּרְסָוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

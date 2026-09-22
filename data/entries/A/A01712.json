@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01712",
-	"slug": "אכלסין",
-	"headword": {
-		"text": "אכלסין"
-	},
+	"sefariaHeadword": "אכלסין",
+	"headwords": [
+		{
+			"text": "אכלסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

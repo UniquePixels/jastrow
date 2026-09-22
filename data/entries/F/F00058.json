@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "F00058",
-	"slug": "וול",
-	"headword": {
-		"text": "וֵול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וֵול",
+	"headwords": [
 		{
-			"text": "ווֵול שָׁפָט"
+			"text": "וֵול"
+		},
+		{
+			"text": "וו׳ שָׁפָט",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 374,
 		"column": "a"

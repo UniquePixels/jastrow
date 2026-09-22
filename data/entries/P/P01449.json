@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01449",
-	"slug": "ערקי",
-	"headword": {
-		"text": "ערקי"
-	},
+	"sefariaHeadword": "ערקי",
+	"headwords": [
+		{
+			"text": "ערקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "b"

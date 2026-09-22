@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00185",
-	"slug": "אבעד",
-	"headword": {
-		"text": "אַבְעַד"
-	},
+	"sefariaHeadword": "אַבְעַד",
+	"headwords": [
+		{
+			"text": "אַבְעַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "a"

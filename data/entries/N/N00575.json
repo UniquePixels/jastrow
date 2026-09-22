@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00575",
-	"slug": "נטע-1",
-	"headword": {
-		"text": "נָטַע"
-	},
+	"sefariaHeadword": "נָטַע",
+	"headwords": [
+		{
+			"text": "נָטַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 900,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00919",
-	"slug": "קיטע",
-	"headword": {
-		"text": "קִיטֵּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטֵּעַ",
+	"headwords": [
 		{
-			"text": "קִטֵּ׳"
+			"text": "קִיטֵּעַ"
+		},
+		{
+			"text": "קִטֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1358,
 		"column": "b"

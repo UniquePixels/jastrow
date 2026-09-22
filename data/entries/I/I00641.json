@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00641",
-	"slug": "טפטף",
-	"headword": {
-		"text": "טפְטֵף"
-	},
+	"sefariaHeadword": "טפְטֵף",
+	"headwords": [
+		{
+			"text": "טפְטֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 546,
 		"column": "a"

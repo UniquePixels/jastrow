@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02153",
-	"slug": "פתי-3",
-	"headword": {
-		"text": "פְּתֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּתֵי II",
+	"headwords": [
+		{
+			"text": "פְּתֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1253,
 		"column": "a"

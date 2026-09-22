@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00890",
-	"slug": "בלנידיא",
-	"headword": {
-		"text": "בלנידיא"
-	},
+	"sefariaHeadword": "בלנידיא",
+	"headwords": [
+		{
+			"text": "בלנידיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "a"

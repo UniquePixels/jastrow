@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01529",
-	"slug": "סרגול",
-	"headword": {
-		"text": "סִרְגּוּל"
-	},
+	"sefariaHeadword": "סִרְגּוּל",
+	"headwords": [
+		{
+			"text": "סִרְגּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "a"

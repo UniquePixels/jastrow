@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00915",
-	"slug": "פכחותא",
-	"headword": {
-		"text": "פַּכְחוּתָא"
-	},
+	"sefariaHeadword": "פַּכְחוּתָא",
+	"headwords": [
+		{
+			"text": "פַּכְחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

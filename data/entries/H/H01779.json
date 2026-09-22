@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01779",
-	"slug": "חרש-4",
-	"headword": {
-		"text": "חֲרַשׁ"
-	},
+	"sefariaHeadword": "חֲרַשׁ",
+	"headwords": [
+		{
+			"text": "חֲרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 507,
 		"column": "a"

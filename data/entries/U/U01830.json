@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01830",
-	"slug": "שקד-5",
-	"headword": {
-		"text": "שָׁקֵד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁקֵד II",
+	"headwords": [
+		{
+			"text": "שָׁקֵד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1621,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00452",
-	"slug": "אדרגזריא",
-	"headword": {
-		"text": "אֲדַרְגָּזְרַיָּא"
-	},
+	"sefariaHeadword": "אֲדַרְגָּזְרַיָּא",
+	"headwords": [
+		{
+			"text": "אֲדַרְגָּזְרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00759",
-	"slug": "צרי-1",
-	"headword": {
-		"text": "צְרֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְרֵי I",
+	"headwords": [
+		{
+			"text": "צְרֵי",
+			"homograph": 1
+		},
 		{
 			"text": "צְרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1301,
 		"column": "a"

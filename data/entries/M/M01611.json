@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01611",
-	"slug": "מלפנא",
-	"headword": {
-		"text": "מַלְּפָנָא"
-	},
+	"sefariaHeadword": "מַלְּפָנָא",
+	"headwords": [
+		{
+			"text": "מַלְּפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "a"

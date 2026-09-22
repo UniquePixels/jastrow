@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00552",
-	"slug": "תכספית",
-	"headword": {
-		"text": "תַּכְסָפִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תַּכְסָפִית",
+	"headwords": [
+		{
+			"text": "תַּכְסָפִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1669,
 		"column": "a"

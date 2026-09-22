@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00554",
-	"slug": "נטוש",
-	"headword": {
-		"text": "נָטוּשׁ"
-	},
+	"sefariaHeadword": "נָטוּשׁ",
+	"headwords": [
+		{
+			"text": "נָטוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "b"

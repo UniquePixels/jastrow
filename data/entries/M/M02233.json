@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02233",
-	"slug": "מפסלת",
-	"headword": {
-		"text": "מְפַסֶּלֶת"
-	},
+	"sefariaHeadword": "מְפַסֶּלֶת",
+	"headwords": [
+		{
+			"text": "מְפַסֶּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

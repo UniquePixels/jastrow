@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00103",
-	"slug": "זהם-2",
-	"headword": {
-		"text": "זְהַם"
-	},
+	"sefariaHeadword": "זְהַם",
+	"headwords": [
+		{
+			"text": "זְהַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "a"

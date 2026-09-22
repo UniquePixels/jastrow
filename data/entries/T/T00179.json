@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00179",
-	"slug": "רגזן",
-	"headword": {
-		"text": "רַגְזָן"
-	},
+	"sefariaHeadword": "רַגְזָן",
+	"headwords": [
+		{
+			"text": "רַגְזָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "b"

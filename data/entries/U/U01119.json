@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01119",
-	"slug": "שכבנא",
-	"headword": {
-		"text": "שַׁכְבָּנָא"
-	},
+	"sefariaHeadword": "שַׁכְבָּנָא",
+	"headwords": [
+		{
+			"text": "שַׁכְבָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "a"

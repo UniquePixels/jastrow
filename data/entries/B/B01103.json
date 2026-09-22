@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01103",
-	"slug": "בצץ",
-	"headword": {
-		"text": "בָּצַץ"
-	},
+	"sefariaHeadword": "בָּצַץ",
+	"headwords": [
+		{
+			"text": "בָּצַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 185,
 		"column": "a"

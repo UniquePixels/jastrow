@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01291",
-	"slug": "חנין-2",
-	"headword": {
-		"text": "חַנִּין",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חַנִּין II",
+	"headwords": [
+		{
+			"text": "חַנִּין",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 483,
 		"column": "a"

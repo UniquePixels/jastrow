@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01146",
-	"slug": "בקרותא-2",
-	"headword": {
-		"text": "בַּקְרוּתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּקְרוּתָא II",
+	"headwords": [
+		{
+			"text": "בַּקְרוּתָא",
+			"homograph": 2
+		},
 		{
 			"text": "בַּקְרָנוּתָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 188,
 		"column": "a"

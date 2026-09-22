@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00642",
-	"slug": "מוריגן",
-	"headword": {
-		"text": "מוֹרִיגַן"
-	},
+	"sefariaHeadword": "מוֹרִיגַן",
+	"headwords": [
+		{
+			"text": "מוֹרִיגַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "a"

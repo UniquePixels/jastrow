@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00542",
-	"slug": "סיבכי",
-	"headword": {
-		"text": "סִיבְכַי"
-	},
+	"sefariaHeadword": "סִיבְכַי",
+	"headwords": [
+		{
+			"text": "סִיבְכַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "a"

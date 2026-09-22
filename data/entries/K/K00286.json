@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00286",
-	"slug": "כומז",
-	"headword": {
-		"text": "כּוּמָז"
-	},
+	"sefariaHeadword": "כּוּמָז",
+	"headwords": [
+		{
+			"text": "כּוּמָז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

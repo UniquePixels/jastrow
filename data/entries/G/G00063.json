@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00063",
-	"slug": "זגזגאל",
-	"headword": {
-		"text": "זַגְזַגְאֵל"
-	},
+	"sefariaHeadword": "זַגְזַגְאֵל",
+	"headwords": [
+		{
+			"text": "זַגְזַגְאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "a"

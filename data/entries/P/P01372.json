@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01372",
-	"slug": "עריץ",
-	"headword": {
-		"text": "עָרִיץ"
-	},
+	"sefariaHeadword": "עָרִיץ",
+	"headwords": [
+		{
+			"text": "עָרִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1118,
 		"column": "a"

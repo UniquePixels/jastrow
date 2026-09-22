@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00287",
-	"slug": "מדיי",
-	"headword": {
-		"text": "מָדַיי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָדַיי",
+	"headwords": [
+		{
+			"text": "מָדַיי"
+		},
 		{
 			"text": "מָדִיִּי"
 		},
@@ -12,6 +13,7 @@
 			"text": "מָדָיָיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 734,
 		"column": "a"

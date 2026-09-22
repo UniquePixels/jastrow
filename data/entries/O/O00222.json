@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00222",
-	"slug": "סוא",
-	"headword": {
-		"text": "סוֹא"
-	},
+	"sefariaHeadword": "סוֹא",
+	"headwords": [
+		{
+			"text": "סוֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "a"

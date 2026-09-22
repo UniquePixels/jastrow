@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02399",
-	"slug": "אסטרוביל",
-	"headword": {
-		"text": "אִסְטְרוֹבִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרוֹבִיל",
+	"headwords": [
+		{
+			"text": "אִסְטְרוֹבִיל"
+		},
 		{
 			"text": "אִסְטְרוֹבְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 91,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00846",
-	"slug": "סירטא",
-	"headword": {
-		"text": "סִירְטא"
-	},
+	"sefariaHeadword": "סִירְטא",
+	"headwords": [
+		{
+			"text": "סִירְטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

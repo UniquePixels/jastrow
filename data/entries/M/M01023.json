@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01023",
-	"slug": "מטמועא",
-	"headword": {
-		"text": "מִטְמוֹעָא"
-	},
+	"sefariaHeadword": "מִטְמוֹעָא",
+	"headwords": [
+		{
+			"text": "מִטְמוֹעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

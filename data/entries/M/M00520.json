@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00520",
-	"slug": "מומחה",
-	"headword": {
-		"text": "מוּמְחֶה"
-	},
+	"sefariaHeadword": "מוּמְחֶה",
+	"headwords": [
+		{
+			"text": "מוּמְחֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "b"

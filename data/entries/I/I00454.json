@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00454",
-	"slug": "טירפס",
-	"headword": {
-		"text": "טירְפֵּס"
-	},
+	"sefariaHeadword": "טירְפֵּס",
+	"headwords": [
+		{
+			"text": "טירְפֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

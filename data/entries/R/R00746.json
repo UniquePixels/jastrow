@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00746",
-	"slug": "צרוך",
-	"headword": {
-		"text": "צְרוֹךְ"
-	},
+	"sefariaHeadword": "צְרוֹךְ",
+	"headwords": [
+		{
+			"text": "צְרוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1300,
 		"column": "b"

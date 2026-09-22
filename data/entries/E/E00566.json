@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00566",
-	"slug": "הלכה",
-	"headword": {
-		"text": "הֲלָכָה"
-	},
+	"sefariaHeadword": "הֲלָכָה",
+	"headwords": [
+		{
+			"text": "הֲלָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 353,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01895",
-	"slug": "פרנך",
-	"headword": {
-		"text": "פַּרְנָךְ"
-	},
+	"sefariaHeadword": "פַּרְנָךְ",
+	"headwords": [
+		{
+			"text": "פַּרְנָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"

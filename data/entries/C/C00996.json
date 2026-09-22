@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00996",
-	"slug": "גמא-2",
-	"headword": {
-		"text": "גָּמָא"
-	},
+	"sefariaHeadword": "גָּמָא",
+	"headwords": [
+		{
+			"text": "גָּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00223",
-	"slug": "נדי-2",
-	"headword": {
-		"text": "נְדֵי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְדֵי I",
+	"headwords": [
+		{
+			"text": "נְדֵי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 878,
 		"column": "b"

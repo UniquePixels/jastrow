@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00797",
-	"slug": "הקנאה",
-	"headword": {
-		"text": "הֲקְנָאָה"
-	},
+	"sefariaHeadword": "הֲקְנָאָה",
+	"headwords": [
+		{
+			"text": "הֲקְנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

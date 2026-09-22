@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00404",
-	"slug": "דחוכא",
-	"headword": {
-		"text": "דְּחוּכָא"
-	},
+	"sefariaHeadword": "דְּחוּכָא",
+	"headwords": [
+		{
+			"text": "דְּחוּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 291,
 		"column": "a"

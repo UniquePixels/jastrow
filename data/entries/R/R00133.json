@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00133",
-	"slug": "צהוב-2",
-	"headword": {
-		"text": "צִהוּב"
-	},
+	"sefariaHeadword": "צִהוּב",
+	"headwords": [
+		{
+			"text": "צִהוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

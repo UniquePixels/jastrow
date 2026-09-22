@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00305",
-	"slug": "בועתא-3",
-	"headword": {
-		"text": "בּוּעֲתָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*בּוּעֲתָא III",
+	"headwords": [
+		{
+			"text": "בּוּעֲתָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 147,
 		"column": "b"

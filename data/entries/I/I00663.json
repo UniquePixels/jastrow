@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00663",
-	"slug": "טפלא-1",
-	"headword": {
-		"text": "טַפְלָא"
-	},
+	"sefariaHeadword": "טַפְלָא",
+	"headwords": [
+		{
+			"text": "טַפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "a"

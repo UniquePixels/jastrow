@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01255",
-	"slug": "סנפר",
-	"headword": {
-		"text": "סְנַפִּר"
-	},
+	"sefariaHeadword": "סְנַפִּר",
+	"headwords": [
+		{
+			"text": "סְנַפִּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

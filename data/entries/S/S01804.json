@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01804",
-	"slug": "קצטרא",
-	"headword": {
-		"text": "קַצְטְרָא"
-	},
+	"sefariaHeadword": "קַצְטְרָא",
+	"headwords": [
+		{
+			"text": "קַצְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "a"

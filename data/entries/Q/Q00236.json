@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00236",
-	"slug": "פולמוס",
-	"headword": {
-		"text": "פּוֹלְמוֹס"
-	},
+	"sefariaHeadword": "פּוֹלְמוֹס",
+	"headwords": [
+		{
+			"text": "פּוֹלְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

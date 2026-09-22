@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00036",
-	"slug": "חבורתא-2",
-	"headword": {
-		"text": "חֲבוּרְתָּא"
-	},
+	"sefariaHeadword": "חֲבוּרְתָּא",
+	"headwords": [
+		{
+			"text": "חֲבוּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 417,
 		"column": "a"

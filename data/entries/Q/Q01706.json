@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01706",
-	"slug": "פרוסדא",
-	"headword": {
-		"text": "פרוסדא"
-	},
+	"sefariaHeadword": "פרוסדא",
+	"headwords": [
+		{
+			"text": "פרוסדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

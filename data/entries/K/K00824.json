@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00824",
-	"slug": "כמת",
-	"headword": {
-		"text": "כְּמָת־"
-	},
+	"sefariaHeadword": "כְּמָת־",
+	"headwords": [
+		{
+			"text": "כְּמָת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "b"

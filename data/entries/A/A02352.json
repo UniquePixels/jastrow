@@ -1,18 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "A02352",
-	"slug": "אסטגנינא",
-	"headword": {
-		"text": "אִסטַגְנִינָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסטַגְנִינָא",
+	"headwords": [
 		{
-			"text": "אִצְ׳"
+			"text": "אִסטַגְנִינָא",
+			"reconstructed": true
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִצְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 89,
 		"column": "b"

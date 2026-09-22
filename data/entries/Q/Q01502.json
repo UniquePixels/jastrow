@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01502",
-	"slug": "פקע-1",
-	"headword": {
-		"text": "פָּקַע"
-	},
+	"sefariaHeadword": "פָּקַע",
+	"headwords": [
+		{
+			"text": "פָּקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1210,
 		"column": "a"

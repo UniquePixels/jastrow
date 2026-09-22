@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B01018",
-	"slug": "בסתקא",
-	"headword": {
-		"text": "בִּסְתְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּסְתְּקָא",
+	"headwords": [
+		{
+			"text": "בִּסְתְּקָא"
+		},
 		{
 			"text": "בוס׳",
-			"reconstructed": true
+			"reconstructed": true,
+			"partial": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 180,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00416",
-	"slug": "ליבונאה",
-	"headword": {
-		"text": "לִיבּוּנָאָה"
-	},
+	"sefariaHeadword": "לִיבּוּנָאָה",
+	"headwords": [
+		{
+			"text": "לִיבּוּנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

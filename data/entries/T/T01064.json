@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01064",
-	"slug": "רשאה",
-	"headword": {
-		"text": "רַשָּׁאָה"
-	},
+	"sefariaHeadword": "רַשָּׁאָה",
+	"headwords": [
+		{
+			"text": "רַשָּׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "b"

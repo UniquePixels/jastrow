@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00881",
-	"slug": "חירייה",
-	"headword": {
-		"text": "חִירַיָּיה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חִירַיָּיה",
+	"headwords": [
+		{
+			"text": "חִירַיָּיה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 460,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

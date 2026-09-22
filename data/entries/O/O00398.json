@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00398",
-	"slug": "סופני",
-	"headword": {
-		"text": "סוֹפְנֵי"
-	},
+	"sefariaHeadword": "סוֹפְנֵי",
+	"headwords": [
+		{
+			"text": "סוֹפְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "b"

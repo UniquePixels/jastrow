@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00813",
-	"slug": "סיקורא",
-	"headword": {
-		"text": "סִיקוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיקוֹרָא",
+	"headwords": [
+		{
+			"text": "סִיקוֹרָא"
+		},
 		{
 			"text": "סִיקוּרְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 986,
 		"column": "a"

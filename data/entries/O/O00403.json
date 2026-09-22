@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00403",
-	"slug": "סופר",
-	"headword": {
-		"text": "סוֹפֵר"
-	},
+	"sefariaHeadword": "סוֹפֵר",
+	"headwords": [
+		{
+			"text": "סוֹפֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "b"

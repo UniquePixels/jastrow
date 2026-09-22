@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00070",
-	"slug": "חבינאות",
-	"headword": {
-		"text": "חֲבִינָאוּת"
-	},
+	"sefariaHeadword": "חֲבִינָאוּת",
+	"headwords": [
+		{
+			"text": "חֲבִינָאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "a"

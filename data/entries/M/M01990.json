@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01990",
-	"slug": "מספייא",
-	"headword": {
-		"text": "מִסְפְּיָיא"
-	},
+	"sefariaHeadword": "מִסְפְּיָיא",
+	"headwords": [
+		{
+			"text": "מִסְפְּיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "a"

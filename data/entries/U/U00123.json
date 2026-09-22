@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00123",
-	"slug": "שבילא",
-	"headword": {
-		"text": "שְׁבִילָא"
-	},
+	"sefariaHeadword": "שְׁבִילָא",
+	"headwords": [
+		{
+			"text": "שְׁבִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

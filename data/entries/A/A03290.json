@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03290",
-	"slug": "אשינא",
-	"headword": {
-		"text": "אשינא"
-	},
+	"sefariaHeadword": "אשינא",
+	"headwords": [
+		{
+			"text": "אשינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

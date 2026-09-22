@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01121",
-	"slug": "גנז-2",
-	"headword": {
-		"text": "גְּנַז"
-	},
+	"sefariaHeadword": "גְּנַז",
+	"headwords": [
+		{
+			"text": "גְּנַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "b"

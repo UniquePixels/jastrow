@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00686",
-	"slug": "עירוקא",
-	"headword": {
-		"text": "עֵירוּקָא"
-	},
+	"sefariaHeadword": "עֵירוּקָא",
+	"headwords": [
+		{
+			"text": "עֵירוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1076,
 		"column": "b"

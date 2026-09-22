@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "V00632",
-	"slug": "תלתותא-1",
-	"headword": {
-		"text": "תַּלְתּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּלְתּוּתָא",
+	"headwords": [
 		{
-			"text": "תַּלְת׳"
+			"text": "תַּלְתּוּתָא"
 		},
 		{
-			"text": "תִּלְ׳"
+			"text": "תַּלְת׳",
+			"partial": true
 		},
 		{
-			"text": "תִּילְ׳"
+			"text": "תִּלְ׳",
+			"partial": true
+		},
+		{
+			"text": "תִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1674,
 		"column": "b"

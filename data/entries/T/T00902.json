@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00902",
-	"slug": "רעיינא",
-	"headword": {
-		"text": "רַעֲיָינָא"
-	},
+	"sefariaHeadword": "רַעֲיָינָא",
+	"headwords": [
+		{
+			"text": "רַעֲיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1487,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03310",
-	"slug": "אשכרא",
-	"headword": {
-		"text": "אֶשְׁכְּרָא"
-	},
+	"sefariaHeadword": "אֶשְׁכְּרָא",
+	"headwords": [
+		{
+			"text": "אֶשְׁכְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

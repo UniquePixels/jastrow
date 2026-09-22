@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00606",
-	"slug": "סיטונא",
-	"headword": {
-		"text": "סִיטוֹנָא"
-	},
+	"sefariaHeadword": "סִיטוֹנָא",
+	"headwords": [
+		{
+			"text": "סִיטוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

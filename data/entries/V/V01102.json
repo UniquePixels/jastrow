@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01102",
-	"slug": "תשנק",
-	"headword": {
-		"text": "תַּשְׁנֵק"
-	},
+	"sefariaHeadword": "תַּשְׁנֵק",
+	"headwords": [
+		{
+			"text": "תַּשְׁנֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "b"

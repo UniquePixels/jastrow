@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00436",
-	"slug": "הימנית",
-	"headword": {
-		"text": "הֵימָנִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֵימָנִית",
+	"headwords": [
+		{
+			"text": "הֵימָנִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02304",
-	"slug": "אנשון",
-	"headword": {
-		"text": "אַנְשׁוּן"
-	},
+	"sefariaHeadword": "אַנְשׁוּן",
+	"headwords": [
+		{
+			"text": "אַנְשׁוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

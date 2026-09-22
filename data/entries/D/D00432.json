@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00432",
-	"slug": "דחף-1",
-	"headword": {
-		"text": "דָּחַף"
-	},
+	"sefariaHeadword": "דָּחַף",
+	"headwords": [
+		{
+			"text": "דָּחַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 293,
 		"column": "a"

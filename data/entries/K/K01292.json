@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01292",
-	"slug": "כרתן",
-	"headword": {
-		"text": "כְּרֵתָן"
-	},
+	"sefariaHeadword": "כְּרֵתָן",
+	"headwords": [
+		{
+			"text": "כְּרֵתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "a"

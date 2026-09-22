@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01073",
-	"slug": "רשום-1",
-	"headword": {
-		"text": "רָשׁוּם"
-	},
+	"sefariaHeadword": "רָשׁוּם",
+	"headwords": [
+		{
+			"text": "רָשׁוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

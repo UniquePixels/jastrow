@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01096",
-	"slug": "חלמית",
-	"headword": {
-		"text": "חִלְמִית"
-	},
+	"sefariaHeadword": "חִלְמִית",
+	"headwords": [
+		{
+			"text": "חִלְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 471,
 		"column": "b"

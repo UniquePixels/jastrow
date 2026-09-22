@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01143",
-	"slug": "קיקלא",
-	"headword": {
-		"text": "קִיקְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיקְלָא",
+	"headwords": [
 		{
-			"text": "קוּ׳"
+			"text": "קִיקְלָא"
 		},
 		{
-			"text": "קִקְ׳"
+			"text": "קוּ׳",
+			"partial": true
+		},
+		{
+			"text": "קִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1367,
 		"column": "b"

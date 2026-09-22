@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00497",
-	"slug": "גורל",
-	"headword": {
-		"text": "גּוֹרָל"
-	},
+	"sefariaHeadword": "גּוֹרָל",
+	"headwords": [
+		{
+			"text": "גּוֹרָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 227,
 		"column": "b"

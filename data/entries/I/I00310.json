@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00310",
-	"slug": "טיגון",
-	"headword": {
-		"text": "טִיגּוּן"
-	},
+	"sefariaHeadword": "טִיגּוּן",
+	"headwords": [
+		{
+			"text": "טִיגּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00264",
-	"slug": "חודש",
-	"headword": {
-		"text": "חוֹדֶשׁ"
-	},
+	"sefariaHeadword": "חוֹדֶשׁ",
+	"headwords": [
+		{
+			"text": "חוֹדֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "a"

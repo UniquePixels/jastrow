@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02131",
-	"slug": "קרע-4",
-	"headword": {
-		"text": "קֶרַע",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֶרַע ²",
+	"headwords": [
+		{
+			"text": "קֶרַע",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִרְעָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1424,
 		"column": "b"

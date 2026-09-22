@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02082",
-	"slug": "פשך",
-	"headword": {
-		"text": "פְּשַׁךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּשַׁךְ",
+	"headwords": [
+		{
+			"text": "פְּשַׁךְ"
+		},
 		{
 			"text": "פֻּשְׁכָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1247,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00851",
-	"slug": "אורבנין",
-	"headword": {
-		"text": "אוּרְבָּנִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּרְבָּנִין",
+	"headwords": [
+		{
+			"text": "אוּרְבָּנִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

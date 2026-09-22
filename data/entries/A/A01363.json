@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01363",
-	"slug": "אין-4",
-	"headword": {
-		"text": "אֵין"
-	},
+	"sefariaHeadword": "אֵין",
+	"headwords": [
+		{
+			"text": "אֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "a"

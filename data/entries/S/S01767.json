@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01767",
-	"slug": "קפצה-1",
-	"headword": {
-		"text": "קְפָצָה"
-	},
+	"sefariaHeadword": "קְפָצָה",
+	"headwords": [
+		{
+			"text": "קְפָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1403,
 		"column": "b"

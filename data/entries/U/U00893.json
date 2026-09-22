@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00893",
-	"slug": "שייאפא",
-	"headword": {
-		"text": "שְׁיָיאפָא"
-	},
+	"sefariaHeadword": "שְׁיָיאפָא",
+	"headwords": [
+		{
+			"text": "שְׁיָיאפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1561,
 		"column": "a"

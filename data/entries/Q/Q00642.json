@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00642",
-	"slug": "פיטרכא",
-	"headword": {
-		"text": "פִּיטַרְכָא"
-	},
+	"sefariaHeadword": "פִּיטַרְכָא",
+	"headwords": [
+		{
+			"text": "פִּיטַרְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

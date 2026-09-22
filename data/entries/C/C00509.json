@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00509",
-	"slug": "גושקרא",
-	"headword": {
-		"text": "גּוּשְׁקְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּשְׁקְרָא",
+	"headwords": [
+		{
+			"text": "גּוּשְׁקְרָא"
+		},
 		{
 			"text": "גָּשְׁקְרָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 228,
 		"column": "a"
@@ -20,7 +22,7 @@
 		{
 			"gloss": "f.<i>wheat flour of the second course, dark flour</i>, opp. <cite ref=\"H00689\"><he>חִיוָּרִיתָא</he></cite>. ",
 			"units": [
-				"<cite ref=\"Gittin 56a:11\">Gitt. 56ᵃ</cite>. [Fl. to Levy Targ. Dict. II, 570ᵇ refers to Arab. <i>ḫushkâr</i>, derived fr. the Persian, <i>bran-bread</i>.]"
+				"<cite ref=\"Gittin 56a:11\">Gitt. 56ᵃ</cite>. [Fl. to Levy Targ. Dict. II, 570ᵇ refers to Arab. <i>ḫushkâr</i>, derived fr. the Persian, <i>bran-bread</i>.]"
 			],
 			"label": "1"
 		},

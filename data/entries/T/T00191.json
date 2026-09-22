@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00191",
-	"slug": "רגיל-1",
-	"headword": {
-		"text": "רָגִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָגִיל",
+	"headwords": [
+		{
+			"text": "רָגִיל"
+		},
 		{
 			"text": "רְגִילָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1448,
 		"column": "a"

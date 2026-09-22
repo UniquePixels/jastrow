@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00716",
-	"slug": "סימנטרא",
-	"headword": {
-		"text": "סימנטרא"
-	},
+	"sefariaHeadword": "סימנטרא",
+	"headwords": [
+		{
+			"text": "סימנטרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 982,
 		"column": "a"

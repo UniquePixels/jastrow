@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02616",
-	"slug": "אפוטניות",
-	"headword": {
-		"text": "אַפּוֹטְנִיּוֹת",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפֹּוטְנִיֹּות",
+	"headwords": [
 		{
-			"text": "אַפֹּטְ׳"
+			"text": "אַפּוֹטְנִיּוֹת",
+			"reconstructed": true
+		},
+		{
+			"text": "אַפֹּטְ׳",
+			"partial": true
 		},
 		{
 			"text": "אַפּוּטְנֵי"
 		}
 	],
+	"display": "*{0}, {1}, ({2})",
 	"page": {
 		"number": 100,
 		"column": "a"

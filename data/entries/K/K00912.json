@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00912",
-	"slug": "כסותא",
-	"headword": {
-		"text": "כְּסוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּסוּתָא",
+	"headwords": [
+		{
+			"text": "כְּסוּתָא"
+		},
 		{
 			"text": "כְּסוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 652,
 		"column": "b"

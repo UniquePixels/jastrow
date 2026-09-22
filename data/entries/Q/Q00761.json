@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00761",
-	"slug": "פיסעא",
-	"headword": {
-		"text": "פִּיסְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסְעָא",
+	"headwords": [
 		{
-			"text": "פִּסְ׳"
+			"text": "פִּיסְעָא"
+		},
+		{
+			"text": "פִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1167,
 		"column": "b"

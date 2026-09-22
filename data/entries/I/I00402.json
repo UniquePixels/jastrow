@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00402",
-	"slug": "טיסברא",
-	"headword": {
-		"text": "טִיסְבְּרָא"
-	},
+	"sefariaHeadword": "טִיסְבְּרָא",
+	"headwords": [
+		{
+			"text": "טִיסְבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "a"

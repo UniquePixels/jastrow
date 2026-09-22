@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "R00664",
-	"slug": "צער-4",
-	"headword": {
-		"text": "צַעַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַעַר ²",
+	"headwords": [
+		{
+			"text": "צַעַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "צְעַר"
 		},
@@ -13,6 +14,7 @@
 			"text": "צַעֲרָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1295,
 		"column": "a"

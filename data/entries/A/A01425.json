@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01425",
-	"slug": "איסטויט",
-	"headword": {
-		"text": "אִיסְטוֵיט"
-	},
+	"sefariaHeadword": "אִיסְטוֵיט",
+	"headwords": [
+		{
+			"text": "אִיסְטוֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "a"

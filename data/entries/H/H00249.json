@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00249",
-	"slug": "חובר",
-	"headword": {
-		"text": "חוֹבֵר"
-	},
+	"sefariaHeadword": "חוֹבֵר",
+	"headwords": [
+		{
+			"text": "חוֹבֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "b"

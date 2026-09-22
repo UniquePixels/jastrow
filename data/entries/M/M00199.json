@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00199",
-	"slug": "מגס",
-	"headword": {
-		"text": "מֵגַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵגַס",
+	"headwords": [
+		{
+			"text": "מֵגַס"
+		},
 		{
 			"text": "מַגָּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 729,
 		"column": "b"

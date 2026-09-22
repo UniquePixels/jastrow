@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00478",
-	"slug": "גורא",
-	"headword": {
-		"text": "גּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּרָא",
+	"headwords": [
+		{
+			"text": "גּוּרָא"
+		},
 		{
 			"text": "גּוּרָאוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 226,
 		"column": "b"

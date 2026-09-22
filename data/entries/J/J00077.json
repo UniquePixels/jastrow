@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00077",
-	"slug": "יגדי",
-	"headword": {
-		"text": "יַגְדִּי"
-	},
+	"sefariaHeadword": "יַגְדִּי",
+	"headwords": [
+		{
+			"text": "יַגְדִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

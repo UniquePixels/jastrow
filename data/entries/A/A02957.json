@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02957",
-	"slug": "ארבה-2",
-	"headword": {
-		"text": "אַרְבֶּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַרְבֶּה II",
+	"headwords": [
+		{
+			"text": "אַרְבֶּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 114,
 		"column": "a"

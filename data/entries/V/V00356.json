@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00356",
-	"slug": "תחותא",
-	"headword": {
-		"text": "תְּחַוְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחַוְתָּא",
+	"headwords": [
+		{
+			"text": "תְּחַוְתָּא"
+		},
 		{
 			"text": "תַּחְוָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1661,
 		"column": "a"

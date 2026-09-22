@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00567",
-	"slug": "סיגנום",
-	"headword": {
-		"text": "סִיגְנוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיגְנוּם",
+	"headwords": [
+		{
+			"text": "סִיגְנוּם"
+		},
 		{
 			"text": "סִיגְנוֹן"
 		},
 		{
-			"text": "סִגְ׳"
+			"text": "סִגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 975,
 		"column": "b"

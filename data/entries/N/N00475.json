@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00475",
-	"slug": "נחום-2",
-	"headword": {
-		"text": "נָחוּם"
-	},
+	"sefariaHeadword": "נָחוּם",
+	"headwords": [
+		{
+			"text": "נָחוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 893,
 		"column": "b"

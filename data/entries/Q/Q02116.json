@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02116",
-	"slug": "פתאה",
-	"headword": {
-		"text": "פְּתָאָה"
-	},
+	"sefariaHeadword": "פְּתָאָה",
+	"headwords": [
+		{
+			"text": "פְּתָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "a"

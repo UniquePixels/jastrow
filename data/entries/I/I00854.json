@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00854",
-	"slug": "טרסקל-1",
-	"headword": {
-		"text": "טְרִסְקֵל"
-	},
+	"sefariaHeadword": "טְרִסְקֵל",
+	"headwords": [
+		{
+			"text": "טְרִסְקֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

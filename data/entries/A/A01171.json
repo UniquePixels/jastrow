@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01171",
-	"slug": "אידרומילון",
-	"headword": {
-		"text": "אִידְרוֹמִילוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִידְרוֹמִילוֹן",
+	"headwords": [
+		{
+			"text": "אִידְרוֹמִילוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

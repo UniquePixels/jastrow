@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00024",
-	"slug": "לאלתר",
-	"headword": {
-		"text": "לְאַלְתַּר"
-	},
+	"sefariaHeadword": "לְאַלְתַּר",
+	"headwords": [
+		{
+			"text": "לְאַלְתַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

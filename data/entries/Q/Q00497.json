@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00497",
-	"slug": "פטוטרות",
-	"headword": {
-		"text": "פְּטוֹטְרוֹת"
-	},
+	"sefariaHeadword": "פְּטוֹטְרוֹת",
+	"headwords": [
+		{
+			"text": "פְּטוֹטְרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

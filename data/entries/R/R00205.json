@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00205",
-	"slug": "צומצמאי",
-	"headword": {
-		"text": "צוּמְצְמָאֵי"
-	},
+	"sefariaHeadword": "צוּמְצְמָאֵי",
+	"headwords": [
+		{
+			"text": "צוּמְצְמָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

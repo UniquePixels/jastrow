@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00008",
-	"slug": "עב-2",
-	"headword": {
-		"text": "עָב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָב II",
+	"headwords": [
+		{
+			"text": "עָב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1034,
 		"column": "a"

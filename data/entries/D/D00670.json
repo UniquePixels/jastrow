@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "D00670",
-	"slug": "דיסתקא-2",
-	"headword": {
-		"text": "דִּיסְתָּקָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*דִּיסְתָּקָא",
+	"headwords": [
 		{
-			"text": "דִּסְ׳"
+			"text": "דִּיסְתָּקָא",
+			"reconstructed": true
+		},
+		{
+			"text": "דִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 303,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00472",
-	"slug": "זכרותא",
-	"headword": {
-		"text": "זַכְרוּתא"
-	},
+	"sefariaHeadword": "זַכְרוּתא",
+	"headwords": [
+		{
+			"text": "זַכְרוּתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 400,
 		"column": "b"

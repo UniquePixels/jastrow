@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00727",
-	"slug": "גילוח-1",
-	"headword": {
-		"text": "גִּילּוּחַ"
-	},
+	"sefariaHeadword": "גִּילּוּחַ",
+	"headwords": [
+		{
+			"text": "גִּילּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

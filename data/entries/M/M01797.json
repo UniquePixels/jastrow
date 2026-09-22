@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01797",
-	"slug": "מנסח",
-	"headword": {
-		"text": "מִנַּסָּח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנַּסָּח",
+	"headwords": [
+		{
+			"text": "מִנַּסָּח"
+		},
 		{
 			"text": "מְנַסַּח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 801,
 		"column": "b"

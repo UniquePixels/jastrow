@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01383",
-	"slug": "גרעון",
-	"headword": {
-		"text": "גֵּרָעוֹן"
-	},
+	"sefariaHeadword": "גֵּרָעוֹן",
+	"headwords": [
+		{
+			"text": "גֵּרָעוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 271,
 		"column": "b"

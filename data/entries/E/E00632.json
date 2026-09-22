@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "E00632",
-	"slug": "המניק",
-	"headword": {
-		"text": "הַמְנֵיק",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*הַמְנֵיק",
+	"headwords": [
 		{
-			"text": "הִימְ׳"
+			"text": "הַמְנֵיק",
+			"reconstructed": true
+		},
+		{
+			"text": "הִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 356,
 		"column": "a"

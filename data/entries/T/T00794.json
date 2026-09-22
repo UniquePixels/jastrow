@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00794",
-	"slug": "רמוז",
-	"headword": {
-		"text": "רִמּוּז"
-	},
+	"sefariaHeadword": "רִמּוּז",
+	"headwords": [
+		{
+			"text": "רִמּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1481,
 		"column": "b"

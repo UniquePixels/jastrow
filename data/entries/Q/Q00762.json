@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00762",
-	"slug": "פיספיסאי",
-	"headword": {
-		"text": "פיספיסאי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פיספיסאי",
+	"headwords": [
+		{
+			"text": "פיספיסאי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1167,
 		"column": "b"

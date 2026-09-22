@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00256",
-	"slug": "מדוא",
-	"headword": {
-		"text": "מַדְוָא"
-	},
+	"sefariaHeadword": "מַדְוָא",
+	"headwords": [
+		{
+			"text": "מַדְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

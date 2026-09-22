@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00188",
-	"slug": "הובעיות",
-	"headword": {
-		"text": "הוּבעָיוֹת"
-	},
+	"sefariaHeadword": "הוּבעָיוֹת",
+	"headwords": [
+		{
+			"text": "הוּבעָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

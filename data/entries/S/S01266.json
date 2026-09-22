@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01266",
-	"slug": "קלוח",
-	"headword": {
-		"text": "קִלּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלּוּחַ",
+	"headwords": [
+		{
+			"text": "קִלּוּחַ"
+		},
 		{
 			"text": "קִלּוּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1372,
 		"column": "b"

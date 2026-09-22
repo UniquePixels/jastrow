@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01166",
-	"slug": "פנוי-1",
-	"headword": {
-		"text": "פִּנּוּי"
-	},
+	"sefariaHeadword": "פִּנּוּי",
+	"headwords": [
+		{
+			"text": "פִּנּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

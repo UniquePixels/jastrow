@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01640",
-	"slug": "איתא-1",
-	"headword": {
-		"text": "אִיתָא"
-	},
+	"sefariaHeadword": "אִיתָא",
+	"headwords": [
+		{
+			"text": "אִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

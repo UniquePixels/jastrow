@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00228",
-	"slug": "צוצילתא",
-	"headword": {
-		"text": "צוֹצִילְתָּא"
-	},
+	"sefariaHeadword": "צוֹצִילְתָּא",
+	"headwords": [
+		{
+			"text": "צוֹצִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

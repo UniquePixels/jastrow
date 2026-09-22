@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01030",
-	"slug": "קינוף",
-	"headword": {
-		"text": "קִינוֹף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינוֹף",
+	"headwords": [
+		{
+			"text": "קִינוֹף"
+		},
 		{
 			"text": "קִינּוֹף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1363,
 		"column": "a"

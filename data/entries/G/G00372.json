@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00372",
-	"slug": "זימנא-2",
-	"headword": {
-		"text": "זִימְנָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זִימְנָא ²",
+	"headwords": [
+		{
+			"text": "זִימְנָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 395,
 		"column": "a"

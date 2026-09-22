@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01455",
-	"slug": "קמח-2",
-	"headword": {
-		"text": "קֶמַח"
-	},
+	"sefariaHeadword": "קֶמַח",
+	"headwords": [
+		{
+			"text": "קֶמַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "b"

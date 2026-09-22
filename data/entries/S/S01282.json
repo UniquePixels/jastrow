@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01282",
-	"slug": "קלוסיתה",
-	"headword": {
-		"text": "קלוסיתה"
-	},
+	"sefariaHeadword": "קלוסיתה",
+	"headwords": [
+		{
+			"text": "קלוסיתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

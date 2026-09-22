@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00275",
-	"slug": "יחוסא",
-	"headword": {
-		"text": "יְחוּסָא"
-	},
+	"sefariaHeadword": "יְחוּסָא",
+	"headwords": [
+		{
+			"text": "יְחוּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 573,
 		"column": "b"

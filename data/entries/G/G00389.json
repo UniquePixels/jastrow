@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00389",
-	"slug": "זיעה",
-	"headword": {
-		"text": "זִיעָה"
-	},
+	"sefariaHeadword": "זִיעָה",
+	"headwords": [
+		{
+			"text": "זִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

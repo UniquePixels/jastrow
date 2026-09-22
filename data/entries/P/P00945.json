@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00945",
-	"slug": "ענבול",
-	"headword": {
-		"text": "עֵנְבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵנְבּוּל",
+	"headwords": [
+		{
+			"text": "עֵנְבּוּל"
+		},
 		{
 			"text": "עִנְבּוֹל"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִנְבָּל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1091,
 		"column": "b"

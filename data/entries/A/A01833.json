@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01833",
-	"slug": "אלי-1",
-	"headword": {
-		"text": "אלי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אלי I",
+	"headwords": [
+		{
+			"text": "אלי",
+			"homograph": 1
+		},
 		{
 			"text": "אָלָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 68,
 		"column": "b"

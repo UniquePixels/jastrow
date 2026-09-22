@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01644",
-	"slug": "פרוזבוטים",
-	"headword": {
-		"text": "פרוזבוטים"
-	},
+	"sefariaHeadword": "פרוזבוטים",
+	"headwords": [
+		{
+			"text": "פרוזבוטים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1218,
 		"column": "b"

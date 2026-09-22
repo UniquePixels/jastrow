@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00726",
-	"slug": "יתי",
-	"headword": {
-		"text": "יֵתֵי"
-	},
+	"sefariaHeadword": "יֵתֵי",
+	"headwords": [
+		{
+			"text": "יֵתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 603,
 		"column": "b"

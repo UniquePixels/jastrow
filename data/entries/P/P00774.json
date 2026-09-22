@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00774",
-	"slug": "עלוב",
-	"headword": {
-		"text": "עָלוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָלוּב",
+	"headwords": [
+		{
+			"text": "עָלוּב"
+		},
 		{
 			"text": "עֲלוּבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1080,
 		"column": "b"

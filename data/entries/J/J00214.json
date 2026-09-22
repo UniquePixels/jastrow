@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00214",
-	"slug": "יוסטא",
-	"headword": {
-		"text": "יוּסְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּסְטָא",
+	"headwords": [
+		{
+			"text": "יוּסְטָא"
+		},
 		{
 			"text": "יוּסְטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 570,
 		"column": "b"

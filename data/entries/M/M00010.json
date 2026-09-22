@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M00010",
-	"slug": "מאוז",
-	"headword": {
-		"text": "מָאוּז",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מָאוּז",
+	"headwords": [
+		{
+			"text": "מָאוּז",
+			"reconstructed": true
+		},
 		{
 			"text": "מַאוָז"
 		}

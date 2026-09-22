@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00135",
-	"slug": "כדכדיינון",
-	"headword": {
-		"text": "כדכדיינון"
-	},
+	"sefariaHeadword": "כדכדיינון",
+	"headwords": [
+		{
+			"text": "כדכדיינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00972",
-	"slug": "גלמן",
-	"headword": {
-		"text": "גַּלְמָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְמָן",
+	"headwords": [
+		{
+			"text": "גַּלְמָן"
+		},
 		{
 			"text": "גַּלְמָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 250,
 		"column": "b"

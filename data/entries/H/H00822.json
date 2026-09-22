@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00822",
-	"slug": "חינוניתא",
-	"headword": {
-		"text": "חינוניתא"
-	},
+	"sefariaHeadword": "חינוניתא",
+	"headwords": [
+		{
+			"text": "חינוניתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "b"

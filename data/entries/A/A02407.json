@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02407",
-	"slug": "אסטרופומטא",
-	"headword": {
-		"text": "אִסְטְרוֹפוֹמָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרוֹפוֹמָטָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְטְרוֹפוֹמָטָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 91,
 		"column": "b"

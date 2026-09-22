@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00506",
-	"slug": "רחיק-1",
-	"headword": {
-		"text": "רְחֵיק"
-	},
+	"sefariaHeadword": "רְחֵיק",
+	"headwords": [
+		{
+			"text": "רְחֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "b"

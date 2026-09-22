@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00702",
-	"slug": "טראקא",
-	"headword": {
-		"text": "טַרְאָקָא"
-	},
+	"sefariaHeadword": "טַרְאָקָא",
+	"headwords": [
+		{
+			"text": "טַרְאָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

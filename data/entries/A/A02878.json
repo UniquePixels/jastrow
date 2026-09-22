@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02878",
-	"slug": "אציצא",
-	"headword": {
-		"text": "אֲצִיצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲצִיצָא",
+	"headwords": [
+		{
+			"text": "אֲצִיצָא"
+		},
 		{
 			"text": "עֲצִיצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 111,
 		"column": "a"

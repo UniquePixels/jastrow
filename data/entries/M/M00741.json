@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00741",
-	"slug": "מזור",
-	"headword": {
-		"text": "מָזוֹר"
-	},
+	"sefariaHeadword": "מָזוֹר",
+	"headwords": [
+		{
+			"text": "מָזוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "b"

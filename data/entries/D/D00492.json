@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00492",
-	"slug": "דידיוני",
-	"headword": {
-		"text": "דִּידְיוֹנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דִּידְיוֹנִי",
+	"headwords": [
+		{
+			"text": "דִּידְיוֹנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00256",
-	"slug": "עולימא",
-	"headword": {
-		"text": "עוּלֵימָא"
-	},
+	"sefariaHeadword": "עוּלֵימָא",
+	"headwords": [
+		{
+			"text": "עוּלֵימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1051,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00283",
-	"slug": "טטרגון",
-	"headword": {
-		"text": "טֶטְרָגוֹן"
-	},
+	"sefariaHeadword": "טֶטְרָגוֹן",
+	"headwords": [
+		{
+			"text": "טֶטְרָגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

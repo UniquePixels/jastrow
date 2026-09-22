@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00500",
-	"slug": "דיו-2",
-	"headword": {
-		"text": "דְּיוֹ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דְּיוֹ I",
+	"headwords": [
+		{
+			"text": "דְּיוֹ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 296,
 		"column": "a"

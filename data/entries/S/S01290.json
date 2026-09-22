@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01290",
-	"slug": "קלופטרא",
-	"headword": {
-		"text": "קְלוּפַטְרָא"
-	},
+	"sefariaHeadword": "קְלוּפַטְרָא",
+	"headwords": [
+		{
+			"text": "קְלוּפַטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

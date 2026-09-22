@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00979",
-	"slug": "רצח",
-	"headword": {
-		"text": "רָצַח"
-	},
+	"sefariaHeadword": "רָצַח",
+	"headwords": [
+		{
+			"text": "רָצַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1493,
 		"column": "a"

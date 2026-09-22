@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00919",
-	"slug": "פכך-2",
-	"headword": {
-		"text": "פכך"
-	},
+	"sefariaHeadword": "פכך",
+	"headwords": [
+		{
+			"text": "פכך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

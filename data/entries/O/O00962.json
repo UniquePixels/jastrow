@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00962",
-	"slug": "סלוון",
-	"headword": {
-		"text": "סַלִוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלִוָון",
+	"headwords": [
+		{
+			"text": "סַלִוָון"
+		},
 		{
 			"text": "סַלְוֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "a"

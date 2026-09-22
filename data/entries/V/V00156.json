@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00156",
-	"slug": "תודא",
-	"headword": {
-		"text": "תּוֹדָא"
-	},
+	"sefariaHeadword": "תּוֹדָא",
+	"headwords": [
+		{
+			"text": "תּוֹדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "b"

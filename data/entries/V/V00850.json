@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00850",
-	"slug": "תפקיד-1",
-	"headword": {
-		"text": "תַּפְקִיד"
-	},
+	"sefariaHeadword": "תַּפְקִיד",
+	"headwords": [
+		{
+			"text": "תַּפְקִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "a"

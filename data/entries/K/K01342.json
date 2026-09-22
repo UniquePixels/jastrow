@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K01342",
-	"slug": "כתב-4",
-	"headword": {
-		"text": "כְּתַב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתַב II",
+	"headwords": [
+		{
+			"text": "כְּתַב",
+			"homograph": 2
+		},
 		{
 			"text": "כְּתָבָא"
 		},
 		{
-			"text": "כִּתְ׳"
+			"text": "כִּתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 679,
 		"column": "b"

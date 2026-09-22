@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02819",
-	"slug": "משובן",
-	"headword": {
-		"text": "משובן"
-	},
+	"sefariaHeadword": "משובן",
+	"headwords": [
+		{
+			"text": "משובן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "b"

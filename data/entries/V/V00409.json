@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00409",
-	"slug": "תיבה",
-	"headword": {
-		"text": "תֵּיבָה"
-	},
+	"sefariaHeadword": "תֵּיבָה",
+	"headwords": [
+		{
+			"text": "תֵּיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

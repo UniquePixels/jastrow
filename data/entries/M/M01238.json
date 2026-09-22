@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01238",
-	"slug": "מיסא-2",
-	"headword": {
-		"text": "מיסא"
-	},
+	"sefariaHeadword": "מיסא",
+	"headwords": [
+		{
+			"text": "מיסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "a"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S00065",
-	"slug": "קבלא-1",
-	"headword": {
-		"text": "קִבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִבְלָא",
+	"headwords": [
+		{
+			"text": "קִבְלָא"
+		},
 		{
 			"text": "קִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		},
 		{
 			"text": "קוּבְלָא"
 		}
 	],
+	"display": "{0}, {1} II, {2}",
 	"page": {
 		"number": 1309,
 		"column": "b"

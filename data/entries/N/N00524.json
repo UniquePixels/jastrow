@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00524",
-	"slug": "נחש-7",
-	"headword": {
-		"text": "נְחָשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְחָשׁ",
+	"headwords": [
+		{
+			"text": "נְחָשׁ"
+		},
 		{
 			"text": "נְחַשׁ"
 		},

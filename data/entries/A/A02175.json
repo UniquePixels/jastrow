@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02175",
-	"slug": "אנטידיקוס",
-	"headword": {
-		"text": "אַנְטִידִיקוֹס"
-	},
+	"sefariaHeadword": "אַנְטִידִיקוֹס",
+	"headwords": [
+		{
+			"text": "אַנְטִידִיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

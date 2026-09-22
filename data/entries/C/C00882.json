@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00882",
-	"slug": "גלדנא",
-	"headword": {
-		"text": "גִּלְדָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלְדָּנָא",
+	"headwords": [
 		{
-			"text": "גִּילְ׳"
+			"text": "גִּלְדָּנָא"
+		},
+		{
+			"text": "גִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 246,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00046",
-	"slug": "זבל-3",
-	"headword": {
-		"text": "זְבַל"
-	},
+	"sefariaHeadword": "זְבַל",
+	"headwords": [
+		{
+			"text": "זְבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "a"

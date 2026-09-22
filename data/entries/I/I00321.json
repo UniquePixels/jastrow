@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00321",
-	"slug": "טיול",
-	"headword": {
-		"text": "טִיּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיּוּל",
+	"headwords": [
+		{
+			"text": "טִיּוּל"
+		},
 		{
 			"text": "טִיּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 530,
 		"column": "b"

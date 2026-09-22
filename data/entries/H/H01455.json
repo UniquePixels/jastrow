@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01455",
-	"slug": "חפישה",
-	"headword": {
-		"text": "חֲפִישָׂה"
-	},
+	"sefariaHeadword": "חֲפִישָׂה",
+	"headwords": [
+		{
+			"text": "חֲפִישָׂה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 492,
 		"column": "a"

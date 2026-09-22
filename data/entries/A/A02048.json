@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02048",
-	"slug": "אמפומטא",
-	"headword": {
-		"text": "אמפומטא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אמפומטא",
+	"headwords": [
+		{
+			"text": "אמפומטא",
+			"reconstructed": true
+		},
 		{
 			"text": "אמפוטמא"
 		},
@@ -13,6 +14,7 @@
 			"text": "איפומטא"
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 78,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00556",
-	"slug": "זמרתא",
-	"headword": {
-		"text": "זַמַּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַמַּרְתָּא",
+	"headwords": [
+		{
+			"text": "זַמַּרְתָּא"
+		},
 		{
 			"text": "זַמַּרְיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 405,
 		"column": "b"

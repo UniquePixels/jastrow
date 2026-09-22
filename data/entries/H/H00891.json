@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00891",
-	"slug": "חישה",
-	"headword": {
-		"text": "חִישָׁה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִישָׁה",
+	"headwords": [
+		{
+			"text": "חִישָׁה"
+		},
 		{
 			"text": "חֵישֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 460,
 		"column": "b"

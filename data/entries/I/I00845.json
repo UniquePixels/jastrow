@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00845",
-	"slug": "טרס-1",
-	"headword": {
-		"text": "טְרַס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְרַס",
+	"headwords": [
+		{
+			"text": "טְרַס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00015",
-	"slug": "צב-1",
-	"headword": {
-		"text": "צָב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צָב I",
+	"headwords": [
+		{
+			"text": "צָב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1257,
 		"column": "a"

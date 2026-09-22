@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00871",
-	"slug": "נמיגה",
-	"headword": {
-		"text": "נְמִיגָה"
-	},
+	"sefariaHeadword": "נְמִיגָה",
+	"headwords": [
+		{
+			"text": "נְמִיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

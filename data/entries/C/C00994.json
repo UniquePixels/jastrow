@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "C00994",
-	"slug": "גם-2",
-	"headword": {
-		"text": "גַּם",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּם II",
+	"headwords": [
+		{
+			"text": "גַּם",
+			"homograph": 2
+		},
 		{
 			"text": "גַּאַם"
 		},
@@ -13,6 +14,7 @@
 			"text": "גמא"
 		}
 	],
+	"display": "{0} II, {1}, ({2})",
 	"page": {
 		"number": 251,
 		"column": "a"

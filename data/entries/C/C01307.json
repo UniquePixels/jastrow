@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01307",
-	"slug": "גרוסת",
-	"headword": {
-		"text": "גרוסת"
-	},
+	"sefariaHeadword": "גרוסת",
+	"headwords": [
+		{
+			"text": "גרוסת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 267,
 		"column": "a"

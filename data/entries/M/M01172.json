@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01172",
-	"slug": "מילוט",
-	"headword": {
-		"text": "מִילּוּט"
-	},
+	"sefariaHeadword": "מִילּוּט",
+	"headwords": [
+		{
+			"text": "מִילּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

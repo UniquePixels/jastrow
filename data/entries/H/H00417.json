@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00417",
-	"slug": "חוסרן",
-	"headword": {
-		"text": "חוּסְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּסְרָן",
+	"headwords": [
+		{
+			"text": "חוּסְרָן"
+		},
 		{
 			"text": "חוּסְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 437,
 		"column": "a"

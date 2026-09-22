@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02217",
-	"slug": "מפך",
-	"headword": {
-		"text": "מֵפַךְ"
-	},
+	"sefariaHeadword": "מֵפַךְ",
+	"headwords": [
+		{
+			"text": "מֵפַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

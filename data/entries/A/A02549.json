@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02549",
-	"slug": "אסקריטין",
-	"headword": {
-		"text": "אִסְקְרִיטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְקְרִיטִין",
+	"headwords": [
 		{
-			"text": "אי׳"
+			"text": "אִסְקְרִיטִין"
+		},
+		{
+			"text": "אי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "b"

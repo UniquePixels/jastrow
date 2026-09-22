@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00067",
-	"slug": "יברוח",
-	"headword": {
-		"text": "יַבְרוּחַ"
-	},
+	"sefariaHeadword": "יַבְרוּחַ",
+	"headwords": [
+		{
+			"text": "יַבְרוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "a"

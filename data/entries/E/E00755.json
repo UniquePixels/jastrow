@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00755",
-	"slug": "הפסקה",
-	"headword": {
-		"text": "הַפְסָקָה"
-	},
+	"sefariaHeadword": "הַפְסָקָה",
+	"headwords": [
+		{
+			"text": "הַפְסָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "a"

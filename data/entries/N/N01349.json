@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N01349",
-	"slug": "נשר-5",
-	"headword": {
-		"text": "נְשַׁר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְשַׁר II",
+	"headwords": [
+		{
+			"text": "נְשַׁר",
+			"homograph": 2
+		},
 		{
 			"text": "נִשְׁרָא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 942,
 		"column": "b"

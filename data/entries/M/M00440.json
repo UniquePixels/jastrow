@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00440",
-	"slug": "מוורון",
-	"headword": {
-		"text": "מַוְורוֹן"
-	},
+	"sefariaHeadword": "מַוְורוֹן",
+	"headwords": [
+		{
+			"text": "מַוְורוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

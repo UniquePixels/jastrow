@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00414",
-	"slug": "סורא-2",
-	"headword": {
-		"text": "סוּרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סוּרָא II",
+	"headwords": [
+		{
+			"text": "סוּרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 969,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

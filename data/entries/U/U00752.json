@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00752",
-	"slug": "שטים-1",
-	"headword": {
-		"text": "שָׁטִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁטִּים",
+	"headwords": [
 		{
-			"text": "שִׁיטִּ׳"
+			"text": "שָׁטִּים"
+		},
+		{
+			"text": "שִׁיטִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1554,
 		"column": "a"

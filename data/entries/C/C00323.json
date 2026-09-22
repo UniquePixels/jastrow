@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00323",
-	"slug": "גוהר",
-	"headword": {
-		"text": "גּוּהַר"
-	},
+	"sefariaHeadword": "גּוּהַר",
+	"headwords": [
+		{
+			"text": "גּוּהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "a"

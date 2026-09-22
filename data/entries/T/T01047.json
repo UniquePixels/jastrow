@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01047",
-	"slug": "רקן",
-	"headword": {
-		"text": "רקן"
-	},
+	"sefariaHeadword": "רקן",
+	"headwords": [
+		{
+			"text": "רקן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "b"

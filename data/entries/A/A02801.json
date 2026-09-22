@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02801",
-	"slug": "אפרה",
-	"headword": {
-		"text": "אֶפְרָה"
-	},
+	"sefariaHeadword": "אֶפְרָה",
+	"headwords": [
+		{
+			"text": "אֶפְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

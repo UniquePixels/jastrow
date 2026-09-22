@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00579",
-	"slug": "ביטוי",
-	"headword": {
-		"text": "בִּיטּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיטּוּי",
+	"headwords": [
+		{
+			"text": "בִּיטּוּי"
+		},
 		{
 			"text": "בִּטּוּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

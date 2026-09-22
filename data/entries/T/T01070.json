@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01070",
-	"slug": "רשבין",
-	"headword": {
-		"text": "רִשְׁבִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִשְׁבִּין",
+	"headwords": [
 		{
-			"text": "רִישְׁ׳"
+			"text": "רִשְׁבִּין"
+		},
+		{
+			"text": "רִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1498,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00501",
-	"slug": "גורסק",
-	"headword": {
-		"text": "גּוּרְסַק"
-	},
+	"sefariaHeadword": "גּוּרְסַק",
+	"headwords": [
+		{
+			"text": "גּוּרְסַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 227,
 		"column": "b"

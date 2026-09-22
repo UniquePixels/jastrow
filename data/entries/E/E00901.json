@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00901",
-	"slug": "הרקיא",
-	"headword": {
-		"text": "הרקיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הרקיא",
+	"headwords": [
+		{
+			"text": "הרקיא"
+		},
 		{
 			"text": "הרקיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 369,
 		"column": "a"

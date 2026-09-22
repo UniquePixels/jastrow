@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00288",
-	"slug": "מדיינא",
-	"headword": {
-		"text": "מִדְיָינָא"
-	},
+	"sefariaHeadword": "מִדְיָינָא",
+	"headwords": [
+		{
+			"text": "מִדְיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

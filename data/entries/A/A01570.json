@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01570",
-	"slug": "איפרפוס",
-	"headword": {
-		"text": "איפרפוס"
-	},
+	"sefariaHeadword": "איפרפוס",
+	"headwords": [
+		{
+			"text": "איפרפוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

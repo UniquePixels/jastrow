@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00447",
-	"slug": "רורם",
-	"headword": {
-		"text": "רוֹרֵם"
-	},
+	"sefariaHeadword": "רוֹרֵם",
+	"headwords": [
+		{
+			"text": "רוֹרֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

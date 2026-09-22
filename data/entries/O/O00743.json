@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00743",
-	"slug": "סינרא",
-	"headword": {
-		"text": "סִינָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינָּרָא",
+	"headwords": [
 		{
-			"text": "סִנָּ׳"
+			"text": "סִינָּרָא"
+		},
+		{
+			"text": "סִנָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "b"

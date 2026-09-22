@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00828",
-	"slug": "כן-4",
-	"headword": {
-		"text": "כֵּן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כֵּן II",
+	"headwords": [
+		{
+			"text": "כֵּן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 647,
 		"column": "b"

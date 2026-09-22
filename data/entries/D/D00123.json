@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00123",
-	"slug": "דד-2",
-	"headword": {
-		"text": "דַּד"
-	},
+	"sefariaHeadword": "דַּד",
+	"headwords": [
+		{
+			"text": "דַּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 280,
 		"column": "b"

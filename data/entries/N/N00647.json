@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00647",
-	"slug": "ניחא-3",
-	"headword": {
-		"text": "נִיחָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "נִיחָא III",
+	"headwords": [
+		{
+			"text": "נִיחָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 904,
 		"column": "a"

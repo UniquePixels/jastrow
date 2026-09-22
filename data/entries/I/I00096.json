@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00096",
-	"slug": "טגים",
-	"headword": {
-		"text": "טגים"
-	},
+	"sefariaHeadword": "טגים",
+	"headwords": [
+		{
+			"text": "טגים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 519,
 		"column": "b"

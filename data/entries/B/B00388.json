@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00388",
-	"slug": "בורצא",
-	"headword": {
-		"text": "בּוּרְצָא"
-	},
+	"sefariaHeadword": "בּוּרְצָא",
+	"headwords": [
+		{
+			"text": "בּוּרְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

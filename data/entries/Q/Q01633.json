@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01633",
-	"slug": "פרווטי׳",
-	"headword": {
-		"text": "פרווטי׳"
-	},
+	"sefariaHeadword": "פרווטי׳",
+	"headwords": [
+		{
+			"text": "פרווטי׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

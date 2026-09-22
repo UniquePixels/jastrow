@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00298",
-	"slug": "קוטמית",
-	"headword": {
-		"text": "קוּטְמִית"
-	},
+	"sefariaHeadword": "קוּטְמִית",
+	"headwords": [
+		{
+			"text": "קוּטְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

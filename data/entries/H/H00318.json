@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00318",
-	"slug": "חוכר",
-	"headword": {
-		"text": "חוֹכֵר"
-	},
+	"sefariaHeadword": "חוֹכֵר",
+	"headwords": [
+		{
+			"text": "חוֹכֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 432,
 		"column": "b"

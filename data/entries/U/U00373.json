@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00373",
-	"slug": "שוט-2",
-	"headword": {
-		"text": "שׁוּט"
-	},
+	"sefariaHeadword": "שׁוּט",
+	"headwords": [
+		{
+			"text": "שׁוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1531,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02827",
-	"slug": "אפרכי",
-	"headword": {
-		"text": "אֶפַּרְכִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפַּרְכִי",
+	"headwords": [
+		{
+			"text": "אֶפַּרְכִי"
+		},
 		{
 			"text": "אֶפַּרְכְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 109,
 		"column": "a"

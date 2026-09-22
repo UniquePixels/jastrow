@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00052",
-	"slug": "חביב-3",
-	"headword": {
-		"text": "חָבִיב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָבִיב ²",
+	"headwords": [
+		{
+			"text": "חָבִיב",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲבִיבָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 418,
 		"column": "b"

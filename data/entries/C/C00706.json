@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00706",
-	"slug": "גיים",
-	"headword": {
-		"text": "גֵּיִים"
-	},
+	"sefariaHeadword": "גֵּיִים",
+	"headwords": [
+		{
+			"text": "גֵּיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

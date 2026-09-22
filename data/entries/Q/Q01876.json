@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01876",
-	"slug": "פרמקוס",
-	"headword": {
-		"text": "פַּרְמָקוֹס"
-	},
+	"sefariaHeadword": "פַּרְמָקוֹס",
+	"headwords": [
+		{
+			"text": "פַּרְמָקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

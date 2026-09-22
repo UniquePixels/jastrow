@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00457",
-	"slug": "אדרזדא",
-	"headword": {
-		"text": "אַדְרַזְדָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַדְרַזְדָּא",
+	"headwords": [
+		{
+			"text": "אַדְרַזְדָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

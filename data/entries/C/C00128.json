@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00128",
-	"slug": "גבר-1",
-	"headword": {
-		"text": "גָּבַר"
-	},
+	"sefariaHeadword": "גָּבַר",
+	"headwords": [
+		{
+			"text": "גָּבַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

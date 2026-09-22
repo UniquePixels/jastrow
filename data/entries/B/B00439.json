@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00439",
-	"slug": "בזיא",
-	"headword": {
-		"text": "בִּזְיָא"
-	},
+	"sefariaHeadword": "בִּזְיָא",
+	"headwords": [
+		{
+			"text": "בִּזְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 153,
 		"column": "a"

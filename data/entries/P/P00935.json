@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00935",
-	"slug": "עמרניתא",
-	"headword": {
-		"text": "עַמְרָנִיתָא"
-	},
+	"sefariaHeadword": "עַמְרָנִיתָא",
+	"headwords": [
+		{
+			"text": "עַמְרָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "a"

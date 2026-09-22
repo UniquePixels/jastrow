@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00627",
-	"slug": "ריחן",
-	"headword": {
-		"text": "רֵיחָן"
-	},
+	"sefariaHeadword": "רֵיחָן",
+	"headwords": [
+		{
+			"text": "רֵיחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

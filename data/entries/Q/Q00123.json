@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00123",
-	"slug": "פדייה-1",
-	"headword": {
-		"text": "פְּדִיָּיה"
-	},
+	"sefariaHeadword": "פְּדִיָּיה",
+	"headwords": [
+		{
+			"text": "פְּדִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

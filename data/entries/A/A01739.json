@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01739",
-	"slug": "אכסניא",
-	"headword": {
-		"text": "אַכְסַנְיָא"
-	},
+	"sefariaHeadword": "אַכְסַנְיָא",
+	"headwords": [
+		{
+			"text": "אַכְסַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "a"

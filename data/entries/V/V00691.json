@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00691",
-	"slug": "תמליוס",
-	"headword": {
-		"text": "תְּמַלְיוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּמַלְיוֹס",
+	"headwords": [
 		{
-			"text": "תִּימַ׳"
+			"text": "תְּמַלְיוֹס"
+		},
+		{
+			"text": "תִּימַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1677,
 		"column": "b"

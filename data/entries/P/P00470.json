@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00470",
-	"slug": "עטף-2",
-	"headword": {
-		"text": "עָטַף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָטַף II",
+	"headwords": [
+		{
+			"text": "עָטַף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1064,
 		"column": "a"

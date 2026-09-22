@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01396",
-	"slug": "בתרים",
-	"headword": {
-		"text": "בְּתָרִים"
-	},
+	"sefariaHeadword": "בְּתָרִים",
+	"headwords": [
+		{
+			"text": "בְּתָרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "b"

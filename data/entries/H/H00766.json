@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00766",
-	"slug": "חילונאה",
-	"headword": {
-		"text": "חִילוֹנָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילוֹנָאָה",
+	"headwords": [
+		{
+			"text": "חִילוֹנָאָה"
+		},
 		{
 			"text": "חִילוֹנַאי"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִילוֹנַי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 456,
 		"column": "a"

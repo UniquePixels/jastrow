@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00644",
-	"slug": "רימא",
-	"headword": {
-		"text": "רֵימָא"
-	},
+	"sefariaHeadword": "רֵימָא",
+	"headwords": [
+		{
+			"text": "רֵימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

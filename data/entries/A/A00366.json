@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00366",
-	"slug": "אגש",
-	"headword": {
-		"text": "אגש"
-	},
+	"sefariaHeadword": "אגש",
+	"headwords": [
+		{
+			"text": "אגש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

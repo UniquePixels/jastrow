@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02333",
-	"slug": "אסופות",
-	"headword": {
-		"text": "אֲסוּפּוֹת"
-	},
+	"sefariaHeadword": "אֲסוּפֹּות",
+	"headwords": [
+		{
+			"text": "אֲסוּפּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

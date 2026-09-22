@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00540",
-	"slug": "ביארי",
-	"headword": {
-		"text": "ביארי"
-	},
+	"sefariaHeadword": "ביארי",
+	"headwords": [
+		{
+			"text": "ביארי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "a"

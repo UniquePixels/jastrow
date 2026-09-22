@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00221",
-	"slug": "נדח-2",
-	"headword": {
-		"text": "נְדַח"
-	},
+	"sefariaHeadword": "נְדַח",
+	"headwords": [
+		{
+			"text": "נְדַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 878,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01464",
-	"slug": "איסיפקאות",
-	"headword": {
-		"text": "איסיפקאות"
-	},
+	"sefariaHeadword": "איסיפקאות",
+	"headwords": [
+		{
+			"text": "איסיפקאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

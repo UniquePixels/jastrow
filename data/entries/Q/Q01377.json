@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01377",
-	"slug": "פעור-2",
-	"headword": {
-		"text": "פְּעוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּעוֹר",
+	"headwords": [
 		{
-			"text": "בַּעַל פְּעוֹר"
+			"text": "פְּעוֹר"
+		},
+		{
+			"text": "בַּעַל פְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1202,
 		"column": "a"

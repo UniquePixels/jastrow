@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00603",
-	"slug": "ביישיא",
-	"headword": {
-		"text": "ביישיא"
-	},
+	"sefariaHeadword": "ביישיא",
+	"headwords": [
+		{
+			"text": "ביישיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

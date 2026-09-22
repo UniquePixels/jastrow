@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01514",
-	"slug": "שמע-4",
-	"headword": {
-		"text": "שֵׁמַע"
-	},
+	"sefariaHeadword": "שֵׁמַע",
+	"headwords": [
+		{
+			"text": "שֵׁמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1599,
 		"column": "b"

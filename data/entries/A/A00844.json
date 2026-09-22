@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A00844",
-	"slug": "אור-5",
-	"headword": {
-		"text": "אוּר",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*אוּר II",
+	"headwords": [
+		{
+			"text": "אוּר",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 32,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00535",
-	"slug": "יציציין",
-	"headword": {
-		"text": "יציציין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יציציין",
+	"headwords": [
+		{
+			"text": "יציציין"
+		},
 		{
 			"text": "יציצין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 589,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00058",
-	"slug": "מאפל",
-	"headword": {
-		"text": "מַאֲפֵל"
-	},
+	"sefariaHeadword": "מַאֲפֵל",
+	"headwords": [
+		{
+			"text": "מַאֲפֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

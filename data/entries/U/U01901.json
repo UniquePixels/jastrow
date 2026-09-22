@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01901",
-	"slug": "שקשק",
-	"headword": {
-		"text": "שִׁקְשֵׁק"
-	},
+	"sefariaHeadword": "שִׁקְשֵׁק",
+	"headwords": [
+		{
+			"text": "שִׁקְשֵׁק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1626,
 		"column": "b"

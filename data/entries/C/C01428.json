@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "C01428",
-	"slug": "גשתא-2",
-	"headword": {
-		"text": "גִּשְׁתָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּשְׁתָּא ²",
+	"headwords": [
+		{
+			"text": "גִּשְׁתָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "גִּישְׁ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 274,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01576",
-	"slug": "מלכה",
-	"headword": {
-		"text": "מַלְכָּה"
-	},
+	"sefariaHeadword": "מַלְכָּה",
+	"headwords": [
+		{
+			"text": "מַלְכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 791,
 		"column": "b"

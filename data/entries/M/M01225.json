@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01225",
-	"slug": "מיניקה",
-	"headword": {
-		"text": "מֵינִיקָה"
-	},
+	"sefariaHeadword": "מֵינִיקָה",
+	"headwords": [
+		{
+			"text": "מֵינִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "a"

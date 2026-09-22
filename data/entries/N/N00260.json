@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00260",
-	"slug": "נהי-2",
-	"headword": {
-		"text": "נְהִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נְהִי II",
+	"headwords": [
+		{
+			"text": "נְהִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 881,
 		"column": "b"

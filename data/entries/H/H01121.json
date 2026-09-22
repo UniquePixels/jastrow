@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01121",
-	"slug": "חלקיה",
-	"headword": {
-		"text": "חִלְקִיָּה"
-	},
+	"sefariaHeadword": "חִלְקִיָּה",
+	"headwords": [
+		{
+			"text": "חִלְקִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 474,
 		"column": "a"

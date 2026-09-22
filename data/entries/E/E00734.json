@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00734",
-	"slug": "הפיך-2",
-	"headword": {
-		"text": "הֲפִיךְ"
-	},
+	"sefariaHeadword": "הֲפִיךְ",
+	"headwords": [
+		{
+			"text": "הֲפִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 361,
 		"column": "a"

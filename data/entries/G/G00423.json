@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00423",
-	"slug": "זירוז",
-	"headword": {
-		"text": "זֵירוּז"
-	},
+	"sefariaHeadword": "זֵירוּז",
+	"headwords": [
+		{
+			"text": "זֵירוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

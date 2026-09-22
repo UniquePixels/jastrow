@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00019",
-	"slug": "גאים-1",
-	"headword": {
-		"text": "גָּאִים"
-	},
+	"sefariaHeadword": "גָּאִים",
+	"headwords": [
+		{
+			"text": "גָּאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

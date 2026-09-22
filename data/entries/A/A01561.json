@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01561",
-	"slug": "איפרא-2",
-	"headword": {
-		"text": "אִיפְרָא"
-	},
+	"sefariaHeadword": "אִיפְרָא",
+	"headwords": [
+		{
+			"text": "אִיפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

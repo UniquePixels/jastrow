@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00140",
-	"slug": "בדיניי",
-	"headword": {
-		"text": "בְּדַיְנֵיי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּדַיְנֵיי",
+	"headwords": [
+		{
+			"text": "בְּדַיְנֵיי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 140,
 		"column": "a"

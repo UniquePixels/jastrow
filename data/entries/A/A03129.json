@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A03129",
-	"slug": "ארכא-2",
-	"headword": {
-		"text": "אַרְכָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְכָא II",
+	"headwords": [
+		{
+			"text": "אַרְכָא",
+			"homograph": 2
+		},
 		{
 			"text": "אַרְכָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אַרְכָה"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 121,
 		"column": "a"

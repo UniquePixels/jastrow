@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00120",
-	"slug": "סגי-1",
-	"headword": {
-		"text": "סְגֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגֵי",
+	"headwords": [
+		{
+			"text": "סְגֵי"
+		},
 		{
 			"text": "סְגָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 953,
 		"column": "b"

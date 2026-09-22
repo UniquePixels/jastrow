@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00353",
-	"slug": "עורבתי",
-	"headword": {
-		"text": "עוֹרַבְתִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹרַבְתִּי",
+	"headwords": [
 		{
-			"text": "בֵּי עוֹרַבְתִּי"
+			"text": "עוֹרַבְתִּי"
+		},
+		{
+			"text": "בֵּי ע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1058,
 		"column": "b"

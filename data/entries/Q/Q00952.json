@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00952",
-	"slug": "פלגס-2",
-	"headword": {
-		"text": "פַּלְגְּס"
-	},
+	"sefariaHeadword": "פַּלְגְּס",
+	"headwords": [
+		{
+			"text": "פַּלְגְּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

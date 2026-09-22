@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00710",
-	"slug": "דיקי",
-	"headword": {
-		"text": "דִּיקֵי"
-	},
+	"sefariaHeadword": "דִּיקֵי",
+	"headwords": [
+		{
+			"text": "דִּיקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

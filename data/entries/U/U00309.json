@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00309",
-	"slug": "שואה",
-	"headword": {
-		"text": "שואה"
-	},
+	"sefariaHeadword": "שואה",
+	"headwords": [
+		{
+			"text": "שואה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02508",
-	"slug": "מרבעתא",
-	"headword": {
-		"text": "מַרְבַּעְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְבַּעְתָּא",
+	"headwords": [
+		{
+			"text": "מַרְבַּעְתָּא"
+		},
 		{
 			"text": "מַרְבְּעוּתָא"
 		},
 		{
-			"text": "מַרְבְּעִי׳"
+			"text": "מַרְבְּעִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 835,
 		"column": "b"

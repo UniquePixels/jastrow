@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00963",
-	"slug": "שימי",
-	"headword": {
-		"text": "שִׁימִי"
-	},
+	"sefariaHeadword": "שִׁימִי",
+	"headwords": [
+		{
+			"text": "שִׁימִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "a"

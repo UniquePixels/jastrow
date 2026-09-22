@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00132",
-	"slug": "דדי-2",
-	"headword": {
-		"text": "דדי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "דדי ²",
+	"headwords": [
+		{
+			"text": "דדי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 281,
 		"column": "a"

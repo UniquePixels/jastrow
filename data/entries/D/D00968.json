@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00968",
-	"slug": "דפנא-3",
-	"headword": {
-		"text": "דַּפְנָא"
-	},
+	"sefariaHeadword": "דַּפְנָא",
+	"headwords": [
+		{
+			"text": "דַּפְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

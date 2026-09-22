@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01129",
-	"slug": "קיצוע",
-	"headword": {
-		"text": "קִיצּוּעַ"
-	},
+	"sefariaHeadword": "קִיצּוּעַ",
+	"headwords": [
+		{
+			"text": "קִיצּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01031",
-	"slug": "ענתותים",
-	"headword": {
-		"text": "ענתותים"
-	},
+	"sefariaHeadword": "ענתותים",
+	"headwords": [
+		{
+			"text": "ענתותים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1097,
 		"column": "b"

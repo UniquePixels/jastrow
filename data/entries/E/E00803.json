@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00803",
-	"slug": "הקר",
-	"headword": {
-		"text": "הָקֵר"
-	},
+	"sefariaHeadword": "הָקֵר",
+	"headwords": [
+		{
+			"text": "הָקֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "b"

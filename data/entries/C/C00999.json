@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00999",
-	"slug": "גמגם-2",
-	"headword": {
-		"text": "גַּמְגֵּם"
-	},
+	"sefariaHeadword": "גַּמְגֵּם",
+	"headwords": [
+		{
+			"text": "גַּמְגֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "b"

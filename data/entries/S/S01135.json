@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01135",
-	"slug": "קיצצה",
-	"headword": {
-		"text": "קיצצה"
-	},
+	"sefariaHeadword": "קיצצה",
+	"headwords": [
+		{
+			"text": "קיצצה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

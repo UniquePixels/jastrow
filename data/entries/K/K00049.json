@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00049",
-	"slug": "כביד",
-	"headword": {
-		"text": "כְּבֵיד־"
-	},
+	"sefariaHeadword": "כְּבֵיד־",
+	"headwords": [
+		{
+			"text": "כְּבֵיד־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

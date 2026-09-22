@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00711",
-	"slug": "טרגיס",
-	"headword": {
-		"text": "טרגיס"
-	},
+	"sefariaHeadword": "טרגיס",
+	"headwords": [
+		{
+			"text": "טרגיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01252",
-	"slug": "חנג",
-	"headword": {
-		"text": "חֲנַג"
-	},
+	"sefariaHeadword": "חֲנַג",
+	"headwords": [
+		{
+			"text": "חֲנַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "b"

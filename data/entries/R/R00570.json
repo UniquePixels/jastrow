@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00570",
-	"slug": "צמחא",
-	"headword": {
-		"text": "צִמְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִמְחָא",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִמְחָא"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1287,
 		"column": "b"

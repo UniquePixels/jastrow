@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02569",
-	"slug": "אסתדירא",
-	"headword": {
-		"text": "אִסְתְּדִירָא"
-	},
+	"sefariaHeadword": "אִסְתְּדִירָא",
+	"headwords": [
+		{
+			"text": "אִסְתְּדִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

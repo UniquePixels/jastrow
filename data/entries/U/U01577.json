@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01577",
-	"slug": "שנוי-2",
-	"headword": {
-		"text": "שְׁנּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁנּוּי",
+	"headwords": [
+		{
+			"text": "שְׁנּוּי"
+		},
 		{
 			"text": "שִׁנּוּיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁנּוּן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1605,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01166",
-	"slug": "מילדא",
-	"headword": {
-		"text": "מְיַלְּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְיַלְּדָא",
+	"headwords": [
+		{
+			"text": "מְיַלְּדָא"
+		},
 		{
 			"text": "מְיַילְּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 774,
 		"column": "a"

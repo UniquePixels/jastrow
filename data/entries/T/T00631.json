@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00631",
-	"slug": "ריחתנא",
-	"headword": {
-		"text": "רִיחְתָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיחְתָנָא",
+	"headwords": [
 		{
-			"text": "רֵחְ׳"
+			"text": "רִיחְתָנָא"
+		},
+		{
+			"text": "רֵחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1474,
 		"column": "b"

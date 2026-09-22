@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00289",
-	"slug": "תורגסא",
-	"headword": {
-		"text": "תּוּרְגְּסָא"
-	},
+	"sefariaHeadword": "תּוּרְגְּסָא",
+	"headwords": [
+		{
+			"text": "תּוּרְגְּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01104",
-	"slug": "פלסטינו",
-	"headword": {
-		"text": "פלסטינו"
-	},
+	"sefariaHeadword": "פלסטינו",
+	"headwords": [
+		{
+			"text": "פלסטינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1184,
 		"column": "a"

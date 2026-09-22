@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00299",
-	"slug": "כונא",
-	"headword": {
-		"text": "כַּוְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּוְנָא",
+	"headwords": [
+		{
+			"text": "כַּוְנָא"
+		},
 		{
 			"text": "כּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 622,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01841",
-	"slug": "חשילא",
-	"headword": {
-		"text": "חֲשִׁילָא"
-	},
+	"sefariaHeadword": "חֲשִׁילָא",
+	"headwords": [
+		{
+			"text": "חֲשִׁילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

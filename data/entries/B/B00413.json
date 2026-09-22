@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00413",
-	"slug": "בזבזא",
-	"headword": {
-		"text": "בזבזא"
-	},
+	"sefariaHeadword": "בזבזא",
+	"headwords": [
+		{
+			"text": "בזבזא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "a"

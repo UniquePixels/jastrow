@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01051",
-	"slug": "אחרי",
-	"headword": {
-		"text": "אָחֳרִי"
-	},
+	"sefariaHeadword": "אָחֳרִי",
+	"headwords": [
+		{
+			"text": "אָחֳרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 41,
 		"column": "b"

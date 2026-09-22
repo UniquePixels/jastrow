@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01322",
-	"slug": "ערוי",
-	"headword": {
-		"text": "עֵרוּי"
-	},
+	"sefariaHeadword": "עֵרוּי",
+	"headwords": [
+		{
+			"text": "עֵרוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "a"

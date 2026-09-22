@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00583",
-	"slug": "שותא-4",
-	"headword": {
-		"text": "שׁוּתָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּתָּא ²",
+	"headwords": [
+		{
+			"text": "שׁוּתָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "שׁוּתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1544,
 		"column": "a"

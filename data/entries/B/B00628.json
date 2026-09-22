@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00628",
-	"slug": "בימא",
-	"headword": {
-		"text": "בִּימָא"
-	},
+	"sefariaHeadword": "בִּימָא",
+	"headwords": [
+		{
+			"text": "בִּימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 162,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00806",
-	"slug": "פיקורין",
-	"headword": {
-		"text": "פיקורין"
-	},
+	"sefariaHeadword": "פיקורין",
+	"headwords": [
+		{
+			"text": "פיקורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "b"

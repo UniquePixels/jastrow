@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H01295",
-	"slug": "חניסנסיא",
-	"headword": {
-		"text": "חֲנִיסְנְסַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנִיסְנְסַיָּא",
+	"headwords": [
 		{
-			"text": "חֲנִסְנְ׳"
+			"text": "חֲנִיסְנְסַיָּא"
+		},
+		{
+			"text": "חֲנִסְנְ׳",
+			"partial": true
 		},
 		{
 			"text": "חֲנִיסְסַיָּא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 483,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00119",
-	"slug": "עדא-4",
-	"headword": {
-		"text": "עָדָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָדָא II",
+	"headwords": [
+		{
+			"text": "עָדָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1043,
 		"column": "a"

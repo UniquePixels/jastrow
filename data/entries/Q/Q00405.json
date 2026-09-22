@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00405",
-	"slug": "פושר",
-	"headword": {
-		"text": "פּוֹשֵׁר"
-	},
+	"sefariaHeadword": "פּוֹשֵׁר",
+	"headwords": [
+		{
+			"text": "פּוֹשֵׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

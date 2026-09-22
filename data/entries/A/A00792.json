@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00792",
-	"slug": "אוסנא",
-	"headword": {
-		"text": "אוּסְנָא"
-	},
+	"sefariaHeadword": "אוּסְנָא",
+	"headwords": [
+		{
+			"text": "אוּסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "a"

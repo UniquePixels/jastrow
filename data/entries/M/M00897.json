@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00897",
-	"slug": "מחם",
-	"headword": {
-		"text": "מֵחַם"
-	},
+	"sefariaHeadword": "מֵחַם",
+	"headwords": [
+		{
+			"text": "מֵחַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00455",
-	"slug": "תימא-2",
-	"headword": {
-		"text": "תֵּימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּימָא",
+	"headwords": [
+		{
+			"text": "תֵּימָא"
+		},
 		{
 			"text": "תֵּימָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1665,
 		"column": "a"

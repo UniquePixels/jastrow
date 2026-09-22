@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00475",
-	"slug": "דיבירא-2",
-	"headword": {
-		"text": "דִּיבֵּירָא"
-	},
+	"sefariaHeadword": "דִּיבֵּירָא",
+	"headwords": [
+		{
+			"text": "דִּיבֵּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "a"

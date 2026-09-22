@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00461",
-	"slug": "קוסטא",
-	"headword": {
-		"text": "קוּסְטָא"
-	},
+	"sefariaHeadword": "קוּסְטָא",
+	"headwords": [
+		{
+			"text": "קוּסְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "a"

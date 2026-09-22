@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00014",
-	"slug": "טאס",
-	"headword": {
-		"text": "טָאֵס"
-	},
+	"sefariaHeadword": "טָאֵס",
+	"headwords": [
+		{
+			"text": "טָאֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

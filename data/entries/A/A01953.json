@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01953",
-	"slug": "אלקפתא",
-	"headword": {
-		"text": "אַלְקַפְתָּא"
-	},
+	"sefariaHeadword": "אַלְקַפְתָּא",
+	"headwords": [
+		{
+			"text": "אַלְקַפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

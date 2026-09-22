@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00813",
-	"slug": "פיקלין",
-	"headword": {
-		"text": "פיקלין"
-	},
+	"sefariaHeadword": "פיקלין",
+	"headwords": [
+		{
+			"text": "פיקלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1169,
 		"column": "b"

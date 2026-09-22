@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00815",
-	"slug": "סיקוריא",
-	"headword": {
-		"text": "סִיקוּרְיָא"
-	},
+	"sefariaHeadword": "סִיקוּרְיָא",
+	"headwords": [
+		{
+			"text": "סִיקוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

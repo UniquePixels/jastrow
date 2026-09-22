@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00931",
-	"slug": "פלאי",
-	"headword": {
-		"text": "פֶּלִאי"
-	},
+	"sefariaHeadword": "פֶּלִאי",
+	"headwords": [
+		{
+			"text": "פֶּלִאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1175,
 		"column": "a"

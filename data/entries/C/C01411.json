@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01411",
-	"slug": "גשורא",
-	"headword": {
-		"text": "גָּשׁוֹרָא"
-	},
+	"sefariaHeadword": "גָּשׁוֹרָא",
+	"headwords": [
+		{
+			"text": "גָּשׁוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "b"

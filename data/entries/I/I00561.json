@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00561",
-	"slug": "טמר",
-	"headword": {
-		"text": "טְמַר"
-	},
+	"sefariaHeadword": "טְמַר",
+	"headwords": [
+		{
+			"text": "טְמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00574",
-	"slug": "יקיר-1",
-	"headword": {
-		"text": "יַקִּיר"
-	},
+	"sefariaHeadword": "יַקִּיר",
+	"headwords": [
+		{
+			"text": "יַקִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00967",
-	"slug": "גלם-4",
-	"headword": {
-		"text": "גֹּלֶם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֹּלֶם",
+	"headwords": [
+		{
+			"text": "גֹּלֶם"
+		},
 		{
 			"text": "גֻּלְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 250,
 		"column": "a"

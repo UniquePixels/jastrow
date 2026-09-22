@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02516",
-	"slug": "מרגזניתא",
-	"headword": {
-		"text": "מַרְגְּזָנִיתָא"
-	},
+	"sefariaHeadword": "מַרְגְּזָנִיתָא",
+	"headwords": [
+		{
+			"text": "מַרְגְּזָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00772",
-	"slug": "גיס-1",
-	"headword": {
-		"text": "גֵּיס"
-	},
+	"sefariaHeadword": "גֵּיס",
+	"headwords": [
+		{
+			"text": "גֵּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 240,
 		"column": "a"

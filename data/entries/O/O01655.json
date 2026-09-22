@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01655",
-	"slug": "סרסר-2",
-	"headword": {
-		"text": "סַרְסֵר"
-	},
+	"sefariaHeadword": "סַרְסֵר",
+	"headwords": [
+		{
+			"text": "סַרְסֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1029,
 		"column": "b"

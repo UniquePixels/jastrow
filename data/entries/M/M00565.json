@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00565",
-	"slug": "מופלג",
-	"headword": {
-		"text": "מוּפְלָג"
-	},
+	"sefariaHeadword": "מוּפְלָג",
+	"headwords": [
+		{
+			"text": "מוּפְלָג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "b"

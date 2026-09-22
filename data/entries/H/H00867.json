@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00867",
-	"slug": "חיקא",
-	"headword": {
-		"text": "חֵיקָא"
-	},
+	"sefariaHeadword": "חֵיקָא",
+	"headwords": [
+		{
+			"text": "חֵיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "a"

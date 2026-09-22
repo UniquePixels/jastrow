@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00026",
-	"slug": "עבודה",
-	"headword": {
-		"text": "עֲבוֹדָה"
-	},
+	"sefariaHeadword": "עֲבוֹדָה",
+	"headwords": [
+		{
+			"text": "עֲבוֹדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "a"

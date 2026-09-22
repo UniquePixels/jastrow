@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02135",
-	"slug": "מעליותא",
-	"headword": {
-		"text": "מַעַלְיוּתָא"
-	},
+	"sefariaHeadword": "מַעַלְיוּתָא",
+	"headwords": [
+		{
+			"text": "מַעַלְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

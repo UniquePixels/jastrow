@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00738",
-	"slug": "פינקס-2",
-	"headword": {
-		"text": "פִּינְקֵס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינְקֵס ²",
+	"headwords": [
+		{
+			"text": "פִּינְקֵס",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּינַקְסָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "פִּינַקְסָה"
 		},
 		{
-			"text": "פִּנַ׳"
+			"text": "פִּנַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1166,
 		"column": "a"

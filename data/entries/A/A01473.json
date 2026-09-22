@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01473",
-	"slug": "איספוטיקוס",
-	"headword": {
-		"text": "איספוטיקוס"
-	},
+	"sefariaHeadword": "איספוטיקוס",
+	"headwords": [
+		{
+			"text": "איספוטיקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

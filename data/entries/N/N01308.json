@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N01308",
-	"slug": "נשיאותא",
-	"headword": {
-		"text": "נְשִׂיאוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְשִׂיאוּתָא",
+	"headwords": [
+		{
+			"text": "נְשִׂיאוּתָא"
+		},
 		{
 			"text": "נְשִׂיּיוּתָא"
 		},
 		{
-			"text": "נְסִי׳"
+			"text": "נְסִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 939,
 		"column": "b"

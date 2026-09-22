@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01642",
-	"slug": "איתו-1",
-	"headword": {
-		"text": "אִיתּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיתּוּ",
+	"headwords": [
+		{
+			"text": "אִיתּוּ"
+		},
 		{
 			"text": "אִתּוּ"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִנְתּוּ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 61,
 		"column": "b"

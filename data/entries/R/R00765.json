@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00765",
-	"slug": "צריד-2",
-	"headword": {
-		"text": "צריד"
-	},
+	"sefariaHeadword": "צריד",
+	"headwords": [
+		{
+			"text": "צריד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

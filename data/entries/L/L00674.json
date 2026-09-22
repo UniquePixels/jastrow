@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00674",
-	"slug": "לקח-1",
-	"headword": {
-		"text": "לָקַח"
-	},
+	"sefariaHeadword": "לָקַח",
+	"headwords": [
+		{
+			"text": "לָקַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

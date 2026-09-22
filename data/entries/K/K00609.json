@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00609",
-	"slug": "כיפליסין",
-	"headword": {
-		"text": "כיפליסין"
-	},
+	"sefariaHeadword": "כיפליסין",
+	"headwords": [
+		{
+			"text": "כיפליסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 635,
 		"column": "b"

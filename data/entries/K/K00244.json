@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00244",
-	"slug": "כוי-2",
-	"headword": {
-		"text": "כְּוִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוִי",
+	"headwords": [
+		{
+			"text": "כְּוִי"
+		},
 		{
 			"text": "כְּוָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 618,
 		"column": "b"

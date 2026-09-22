@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01201",
-	"slug": "קירקור",
-	"headword": {
-		"text": "קִירְקוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְקוּר",
+	"headwords": [
 		{
-			"text": "קִרְ׳"
+			"text": "קִירְקוּר"
+		},
+		{
+			"text": "קִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

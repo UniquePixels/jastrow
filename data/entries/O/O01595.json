@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01595",
-	"slug": "סרי-2",
-	"headword": {
-		"text": "סרי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרי",
+	"headwords": [
+		{
+			"text": "סרי"
+		},
 		{
 			"text": "סָרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1026,
 		"column": "a"

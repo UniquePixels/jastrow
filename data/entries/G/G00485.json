@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00485",
-	"slug": "זלזל",
-	"headword": {
-		"text": "זִלְזֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִלְזֵל",
+	"headwords": [
+		{
+			"text": "זִלְזֵל"
+		},
 		{
 			"text": "זַלְזֵל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 401,
 		"column": "a"

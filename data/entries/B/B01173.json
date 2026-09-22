@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01173",
-	"slug": "ברברית",
-	"headword": {
-		"text": "ברברית"
-	},
+	"sefariaHeadword": "ברברית",
+	"headwords": [
+		{
+			"text": "ברברית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

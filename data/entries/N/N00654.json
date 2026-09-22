@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00654",
-	"slug": "ניטופתא",
-	"headword": {
-		"text": "נִיטּוֹפְתָּא"
-	},
+	"sefariaHeadword": "נִיטּוֹפְתָּא",
+	"headwords": [
+		{
+			"text": "נִיטּוֹפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "a"

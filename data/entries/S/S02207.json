@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02207",
-	"slug": "קרתחייה",
-	"headword": {
-		"text": "קרתחייה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קרתחייה",
+	"headwords": [
+		{
+			"text": "קרתחייה"
+		},
 		{
 			"text": "קַרְתִּיגְנָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1428,
 		"column": "b"

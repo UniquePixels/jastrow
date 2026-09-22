@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02499",
-	"slug": "מרביעה",
-	"headword": {
-		"text": "מַרְבִּיעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְבִּיעָה",
+	"headwords": [
+		{
+			"text": "מַרְבִּיעָה"
+		},
 		{
 			"text": "מַרְבִּיעוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "a"

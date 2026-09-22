@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01008",
-	"slug": "סלמנדרא",
-	"headword": {
-		"text": "סַלְמַנְדָּרָא"
-	},
+	"sefariaHeadword": "סַלְמַנְדָּרָא",
+	"headwords": [
+		{
+			"text": "סַלְמַנְדָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "b"

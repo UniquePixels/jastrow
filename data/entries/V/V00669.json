@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00669",
-	"slug": "תמות",
-	"headword": {
-		"text": "תַּמּוּת"
-	},
+	"sefariaHeadword": "תַּמּוּת",
+	"headwords": [
+		{
+			"text": "תַּמּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "b"

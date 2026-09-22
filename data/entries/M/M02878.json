@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02878",
-	"slug": "משיך",
-	"headword": {
-		"text": "מְשִׁיךְ"
-	},
+	"sefariaHeadword": "מְשִׁיךְ",
+	"headwords": [
+		{
+			"text": "מְשִׁיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "b"

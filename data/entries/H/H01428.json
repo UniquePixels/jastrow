@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01428",
-	"slug": "חפור",
-	"headword": {
-		"text": "חָפוֹר"
-	},
+	"sefariaHeadword": "חָפוֹר",
+	"headwords": [
+		{
+			"text": "חָפוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 490,
 		"column": "b"

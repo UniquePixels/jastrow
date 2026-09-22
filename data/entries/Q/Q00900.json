@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00900",
-	"slug": "פיתח-2",
-	"headword": {
-		"text": "פִּיתְח־"
-	},
+	"sefariaHeadword": "פִּיתְח־",
+	"headwords": [
+		{
+			"text": "פִּיתְח־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "a"

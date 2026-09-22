@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00160",
-	"slug": "זוטן",
-	"headword": {
-		"text": "זוֹטָן"
-	},
+	"sefariaHeadword": "זוֹטָן",
+	"headwords": [
+		{
+			"text": "זוֹטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

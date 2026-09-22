@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02254",
-	"slug": "אנן-3",
-	"headword": {
-		"text": "אֲנַן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אֲנַן ²",
+	"headwords": [
+		{
+			"text": "אֲנַן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 86,
 		"column": "a"

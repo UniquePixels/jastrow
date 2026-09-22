@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00399",
-	"slug": "דחוא",
-	"headword": {
-		"text": "דַּחֲוָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דַּחֲוָא",
+	"headwords": [
+		{
+			"text": "דַּחֲוָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 291,
 		"column": "a"

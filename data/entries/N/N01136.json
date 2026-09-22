@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01136",
-	"slug": "נצע",
-	"headword": {
-		"text": "נְצַע"
-	},
+	"sefariaHeadword": "נְצַע",
+	"headwords": [
+		{
+			"text": "נְצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "b"

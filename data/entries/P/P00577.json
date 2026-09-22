@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00577",
-	"slug": "עיליו",
-	"headword": {
-		"text": "עיליו"
-	},
+	"sefariaHeadword": "עיליו",
+	"headwords": [
+		{
+			"text": "עיליו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

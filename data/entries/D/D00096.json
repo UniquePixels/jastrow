@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "D00096",
-	"slug": "דבשתא",
-	"headword": {
-		"text": "דְּבֶשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבֶשְׁתָּא",
+	"headwords": [
+		{
+			"text": "דְּבֶשְׁתָּא"
+		},
 		{
 			"text": "מַדְבַשְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 279,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

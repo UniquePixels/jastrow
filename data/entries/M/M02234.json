@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02234",
-	"slug": "מפסלתא",
-	"headword": {
-		"text": "מִפְסַלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִפְסַלְתָּא",
+	"headwords": [
 		{
-			"text": "מִיפְ׳"
+			"text": "מִפְסַלְתָּא"
+		},
+		{
+			"text": "מִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 821,
 		"column": "b"

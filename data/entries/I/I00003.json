@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00003",
-	"slug": "טאב",
-	"headword": {
-		"text": "טְאֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְאֵב",
+	"headwords": [
+		{
+			"text": "טְאֵב"
+		},
 		{
 			"text": "טְאֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 515,
 		"column": "a"

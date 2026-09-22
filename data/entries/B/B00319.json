@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00319",
-	"slug": "בוצרייה",
-	"headword": {
-		"text": "בּוֹצְרָיָיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֹּוצְרָיָיה",
+	"headwords": [
+		{
+			"text": "בּוֹצְרָיָיה"
+		},
 		{
 			"text": "בּוֹצְרָיָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "בּוֹצְרָאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 148,
 		"column": "a"

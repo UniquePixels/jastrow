@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02156",
-	"slug": "אנחותה",
-	"headword": {
-		"text": "אַנְחוּתָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְחוּתָה",
+	"headwords": [
+		{
+			"text": "אַנְחוּתָה"
+		},
 		{
 			"text": "נְחוּתָה"
 		},
@@ -16,6 +17,7 @@
 			"text": "נְחוּתָא"
 		}
 	],
+	"display": "{0}, {1}, ({2} II, {3})",
 	"page": {
 		"number": 82,
 		"column": "b"

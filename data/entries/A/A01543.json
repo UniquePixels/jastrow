@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01543",
-	"slug": "איפופורין",
-	"headword": {
-		"text": "איפופורין"
-	},
+	"sefariaHeadword": "איפופורין",
+	"headwords": [
+		{
+			"text": "איפופורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

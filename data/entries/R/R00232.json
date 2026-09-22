@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00232",
-	"slug": "צוצרה",
-	"headword": {
-		"text": "צוצרה"
-	},
+	"sefariaHeadword": "צוצרה",
+	"headwords": [
+		{
+			"text": "צוצרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

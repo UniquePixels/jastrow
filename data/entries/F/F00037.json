@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00037",
-	"slug": "ויידא",
-	"headword": {
-		"text": "וַיְידָּא"
-	},
+	"sefariaHeadword": "וַיְידָּא",
+	"headwords": [
+		{
+			"text": "וַיְידָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

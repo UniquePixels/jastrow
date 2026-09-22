@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00505",
-	"slug": "סטראה",
-	"headword": {
-		"text": "סִטְרָאָה"
-	},
+	"sefariaHeadword": "סִטְרָאָה",
+	"headwords": [
+		{
+			"text": "סִטְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

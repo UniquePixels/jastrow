@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01076",
-	"slug": "אטורנגא",
-	"headword": {
-		"text": "אטורנגא"
-	},
+	"sefariaHeadword": "אטורנגא",
+	"headwords": [
+		{
+			"text": "אטורנגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00184",
-	"slug": "טון",
-	"headword": {
-		"text": "טוּן"
-	},
+	"sefariaHeadword": "טוּן",
+	"headwords": [
+		{
+			"text": "טוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

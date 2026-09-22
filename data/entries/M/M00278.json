@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00278",
-	"slug": "מדושא",
-	"headword": {
-		"text": "מְדוּשָּׁא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְדוּשָּׁא",
+	"headwords": [
+		{
+			"text": "מְדוּשָּׁא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 733,
 		"column": "b"

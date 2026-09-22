@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00436",
-	"slug": "טירונא-2",
-	"headword": {
-		"text": "טִירוּנָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טִירוּנָא",
+	"headwords": [
+		{
+			"text": "טִירוּנָא",
+			"reconstructed": true
+		},
 		{
 			"text": "טִרוּנָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 534,
 		"column": "b"

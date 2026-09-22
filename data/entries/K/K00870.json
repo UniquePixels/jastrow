@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00870",
-	"slug": "כנעני",
-	"headword": {
-		"text": "כְּנַעֲנִי"
-	},
+	"sefariaHeadword": "כְּנַעֲנִי",
+	"headwords": [
+		{
+			"text": "כְּנַעֲנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 650,
 		"column": "b"

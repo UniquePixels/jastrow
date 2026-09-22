@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00011",
-	"slug": "כאורה",
-	"headword": {
-		"text": "כְּאוֹרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּאוֹרָה",
+	"headwords": [
 		{
-			"text": "לִכְאוֹ׳"
+			"text": "כְּאוֹרָה"
+		},
+		{
+			"text": "לִכְאוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 606,
 		"column": "a"

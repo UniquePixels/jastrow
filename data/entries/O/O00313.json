@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00313",
-	"slug": "סול-3",
-	"headword": {
-		"text": "סוּל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סוּל ²",
+	"headwords": [
+		{
+			"text": "סוּל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 964,
 		"column": "b"

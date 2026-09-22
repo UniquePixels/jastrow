@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00779",
-	"slug": "בכי-4",
-	"headword": {
-		"text": "בְּכִי",
-		"homograph": 1,
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בְּכִי I ²",
+	"headwords": [
+		{
+			"text": "בְּכִי",
+			"disambiguator": 2,
+			"homograph": 1
+		}
+	],
+	"display": "{0} I ²",
 	"page": {
 		"number": 169,
 		"column": "b"

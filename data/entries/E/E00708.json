@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00708",
-	"slug": "הסם",
-	"headword": {
-		"text": "הֲסַם"
-	},
+	"sefariaHeadword": "הֲסַם",
+	"headwords": [
+		{
+			"text": "הֲסַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "b"

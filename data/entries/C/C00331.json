@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00331",
-	"slug": "גוויתא",
-	"headword": {
-		"text": "גְּוִויְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּוִויְּתָא",
+	"headwords": [
+		{
+			"text": "גְּוִויְּתָא"
+		},
 		{
 			"text": "גְּוִויְיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 219,
 		"column": "b"

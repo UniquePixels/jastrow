@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01050",
-	"slug": "תרפים",
-	"headword": {
-		"text": "תְּרָפִים"
-	},
+	"sefariaHeadword": "תְּרָפִים",
+	"headwords": [
+		{
+			"text": "תְּרָפִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

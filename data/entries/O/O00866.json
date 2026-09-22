@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00866",
-	"slug": "סיתות",
-	"headword": {
-		"text": "סִיתּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיתּוּת",
+	"headwords": [
 		{
-			"text": "סִתּ׳"
+			"text": "סִיתּוּת"
+		},
+		{
+			"text": "סִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 988,
 		"column": "b"

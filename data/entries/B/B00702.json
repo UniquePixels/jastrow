@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00702",
-	"slug": "ביראי",
-	"headword": {
-		"text": "בֵּירַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּירַאי",
+	"headwords": [
+		{
+			"text": "בֵּירַאי"
+		},
 		{
 			"text": "בֵּירַיי"
 		},
@@ -12,6 +13,7 @@
 			"text": "בֵּירַי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 165,
 		"column": "b"

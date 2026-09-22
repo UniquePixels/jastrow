@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00587",
-	"slug": "זעורי",
-	"headword": {
-		"text": "זְעוּרֵי"
-	},
+	"sefariaHeadword": "זְעוּרֵי",
+	"headwords": [
+		{
+			"text": "זְעוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

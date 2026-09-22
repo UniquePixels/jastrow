@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01065",
-	"slug": "עפיץ",
-	"headword": {
-		"text": "עפיץ"
-	},
+	"sefariaHeadword": "עפיץ",
+	"headwords": [
+		{
+			"text": "עפיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

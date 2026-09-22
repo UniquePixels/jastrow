@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00497",
-	"slug": "צלונחא",
-	"headword": {
-		"text": "צלונחא"
-	},
+	"sefariaHeadword": "צלונחא",
+	"headwords": [
+		{
+			"text": "צלונחא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1283,
 		"column": "a"

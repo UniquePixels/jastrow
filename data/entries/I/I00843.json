@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00843",
-	"slug": "טרמנטן",
-	"headword": {
-		"text": "טרמנטן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טרמנטן",
+	"headwords": [
+		{
+			"text": "טרמנטן"
+		},
 		{
 			"text": "טרמנסנה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 555,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00899",
-	"slug": "חיתה",
-	"headword": {
-		"text": "חִיְּתָה"
-	},
+	"sefariaHeadword": "חִיְּתָה",
+	"headwords": [
+		{
+			"text": "חִיְּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

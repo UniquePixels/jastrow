@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00034",
-	"slug": "גבא-2",
-	"headword": {
-		"text": "גֻּבָּא"
-	},
+	"sefariaHeadword": "גֻּבָּא",
+	"headwords": [
+		{
+			"text": "גֻּבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "b"

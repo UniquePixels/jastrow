@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00675",
-	"slug": "הני-2",
-	"headword": {
-		"text": "הני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הני",
+	"headwords": [
+		{
+			"text": "הני"
+		},
 		{
 			"text": "הָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 357,
 		"column": "b"

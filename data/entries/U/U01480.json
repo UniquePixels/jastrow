@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01480",
-	"slug": "שמירה-1",
-	"headword": {
-		"text": "שְׁמִירָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁמִירָה I",
+	"headwords": [
+		{
+			"text": "שְׁמִירָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1596,
 		"column": "a"

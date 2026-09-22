@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02966",
-	"slug": "משקל",
-	"headword": {
-		"text": "מִשְׁקָל"
-	},
+	"sefariaHeadword": "מִשְׁקָל",
+	"headwords": [
+		{
+			"text": "מִשְׁקָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00437",
-	"slug": "הימנק",
-	"headword": {
-		"text": "הִימְנָק"
-	},
+	"sefariaHeadword": "הִימְנָק",
+	"headwords": [
+		{
+			"text": "הִימְנָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

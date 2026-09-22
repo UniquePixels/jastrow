@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00837",
-	"slug": "אוקימותא",
-	"headword": {
-		"text": "אוֹקִימוּתָא"
-	},
+	"sefariaHeadword": "אוֹקִימוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹקִימוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

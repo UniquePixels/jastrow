@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01063",
-	"slug": "חליקה",
-	"headword": {
-		"text": "חֲלִיקָה"
-	},
+	"sefariaHeadword": "חֲלִיקָה",
+	"headwords": [
+		{
+			"text": "חֲלִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "b"

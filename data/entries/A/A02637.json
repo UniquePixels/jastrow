@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02637",
-	"slug": "אפופסים",
-	"headword": {
-		"text": "אפופסים"
-	},
+	"sefariaHeadword": "אפופסים",
+	"headwords": [
+		{
+			"text": "אפופסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "a"

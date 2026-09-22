@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01718",
-	"slug": "קפוסאי",
-	"headword": {
-		"text": "קְפוּסַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְפוּסַאי",
+	"headwords": [
+		{
+			"text": "קְפוּסַאי"
+		},
 		{
 			"text": "קְפוּסַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1399,
 		"column": "a"

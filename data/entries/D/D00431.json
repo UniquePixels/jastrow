@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00431",
-	"slug": "דחסה",
-	"headword": {
-		"text": "דְּחָסָה"
-	},
+	"sefariaHeadword": "דְּחָסָה",
+	"headwords": [
+		{
+			"text": "דְּחָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 293,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00668",
-	"slug": "כל-1",
-	"headword": {
-		"text": "כֹּל"
-	},
+	"sefariaHeadword": "כֹּל",
+	"headwords": [
+		{
+			"text": "כֹּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01669",
-	"slug": "שעמומית",
-	"headword": {
-		"text": "שַׁעֲמוּמִית"
-	},
+	"sefariaHeadword": "שַׁעֲמוּמִית",
+	"headwords": [
+		{
+			"text": "שַׁעֲמוּמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1611,
 		"column": "a"

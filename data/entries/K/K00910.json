@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00910",
-	"slug": "כסוריא",
-	"headword": {
-		"text": "כסוריא"
-	},
+	"sefariaHeadword": "כסוריא",
+	"headwords": [
+		{
+			"text": "כסוריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

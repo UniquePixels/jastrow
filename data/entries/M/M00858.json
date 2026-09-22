@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00858",
-	"slug": "מחי-2",
-	"headword": {
-		"text": "מְחִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחִי",
+	"headwords": [
+		{
+			"text": "מְחִי"
+		},
 		{
 			"text": "מְחָא",
 			"homograph": 1
@@ -13,6 +14,7 @@
 			"text": "מְחַח"
 		}
 	],
+	"display": "{0}, {1} I, ({2})",
 	"page": {
 		"number": 759,
 		"column": "b"

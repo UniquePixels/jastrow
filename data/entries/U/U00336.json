@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00336",
-	"slug": "שודפנא",
-	"headword": {
-		"text": "שׁוּדְּפָנָא"
-	},
+	"sefariaHeadword": "שׁוּדְּפָנָא",
+	"headwords": [
+		{
+			"text": "שׁוּדְּפָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "b"

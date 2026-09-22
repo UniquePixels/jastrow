@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00135",
-	"slug": "יהושוע",
-	"headword": {
-		"text": "יְהוֹשׁוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְהוֹשׁוּעַ",
+	"headwords": [
+		{
+			"text": "יְהוֹשׁוּעַ"
+		},
 		{
 			"text": "יְהוֹשֻׁעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 566,
 		"column": "b"

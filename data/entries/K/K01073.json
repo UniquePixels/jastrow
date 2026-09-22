@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01073",
-	"slug": "כרא",
-	"headword": {
-		"text": "כְּרָא"
-	},
+	"sefariaHeadword": "כְּרָא",
+	"headwords": [
+		{
+			"text": "כְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

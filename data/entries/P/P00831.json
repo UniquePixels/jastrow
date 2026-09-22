@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00831",
-	"slug": "עלעול-1",
-	"headword": {
-		"text": "עִלְעוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִלְעוֹל",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִלְעוֹל"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1085,
 		"column": "a"

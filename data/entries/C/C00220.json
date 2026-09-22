@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00220",
-	"slug": "גדיש-4",
-	"headword": {
-		"text": "גַּדֵּישׁ"
-	},
+	"sefariaHeadword": "גַּדֵּישׁ",
+	"headwords": [
+		{
+			"text": "גַּדֵּישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "b"

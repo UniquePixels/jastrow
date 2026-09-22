@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01165",
-	"slug": "סנבוטין",
-	"headword": {
-		"text": "סַנְבּוּטִין"
-	},
+	"sefariaHeadword": "סַנְבּוּטִין",
+	"headwords": [
+		{
+			"text": "סַנְבּוּטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "a"

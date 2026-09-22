@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01599",
-	"slug": "פרה-3",
-	"headword": {
-		"text": "פָּרָה",
-		"homograph": 3
-	},
+	"sefariaHeadword": "פָּרָה III",
+	"headwords": [
+		{
+			"text": "פָּרָה",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1216,
 		"column": "b"

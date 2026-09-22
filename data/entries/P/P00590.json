@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00590",
-	"slug": "עימה",
-	"headword": {
-		"text": "עִימָּה"
-	},
+	"sefariaHeadword": "עִימָּה",
+	"headwords": [
+		{
+			"text": "עִימָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

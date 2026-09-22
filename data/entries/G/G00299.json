@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00299",
-	"slug": "זיו-1",
-	"headword": {
-		"text": "זִיו"
-	},
+	"sefariaHeadword": "זִיו",
+	"headwords": [
+		{
+			"text": "זִיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "a"

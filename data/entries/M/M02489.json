@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02489",
-	"slug": "מראנא",
-	"headword": {
-		"text": "מראנא"
-	},
+	"sefariaHeadword": "מראנא",
+	"headwords": [
+		{
+			"text": "מראנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "a"

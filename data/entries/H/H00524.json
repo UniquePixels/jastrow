@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00524",
-	"slug": "חזזן",
-	"headword": {
-		"text": "חֲזָזָן"
-	},
+	"sefariaHeadword": "חֲזָזָן",
+	"headwords": [
+		{
+			"text": "חֲזָזָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

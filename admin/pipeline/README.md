@@ -17,7 +17,7 @@ which supersedes the one-shot framing of D14 in the
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Import (source data → entry data) | `migrate.ts` | working, last run 2026-09-09 | on demand, re-runnable |
+| Import (source data → entry data) | `migrate.ts` | working, last run 2026-09-22 | on demand, re-runnable |
 | Compile (entry data → compiled data) | `compile.ts` | designed, not built | every deploy |
 
 Import and compile are specified in the
@@ -140,7 +140,26 @@ which gets a fault row instead of an outcome, and a carry-over patch
 whose target resolves 0 times, which is `superseded` by construction
 rather than drift-classified. A stale snapshot pin is a count, not a
 refusal; `bun data:import --strict` refuses on a stale pin or a
-drifted patch. Last run 2026-09-09 with all nine gates green.
+drifted patch.
+
+The write step is also the one place stored text is rewritten:
+`normalizeForWrite` puts every string of an entry file into NFC
+([#110](https://github.com/UniquePixels/jastrow/issues/110)), under an
+assertion that `NFD(before) == NFD(after)`, so a normalization that
+would not be lossless refuses the write instead. It runs after the
+gates have read the in-memory entries, and `data/source/` is never
+touched.
+
+**Last run 2026-09-22 with all nine gates green**, `--write`: the
+batched rewrite of all 32,512 files to schema v2 (HW-schema). It is
+the run that carried every code change since 2026-09-09 into
+`data/entries/` — `headwords[]` and `display` for
+`headword`/`altHeadwords`, `sefariaHeadword` for `slug`,
+`"schemaVersion": 2`, the `pr. n. pl.` grammar fix
+([#117](https://github.com/UniquePixels/jastrow/issues/117), 432
+entries) and NFC on write (164 strings in 150 files). A second dry run
+over the written tree reproduces the same nine tallies and the same
+generated docs, byte for byte.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00444",
-	"slug": "עטילא",
-	"headword": {
-		"text": "עֲטֵילָא"
-	},
+	"sefariaHeadword": "עֲטֵילָא",
+	"headwords": [
+		{
+			"text": "עֲטֵילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00016",
-	"slug": "מאורע",
-	"headword": {
-		"text": "מְאוֹרָע"
-	},
+	"sefariaHeadword": "מְאוֹרָע",
+	"headwords": [
+		{
+			"text": "מְאוֹרָע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

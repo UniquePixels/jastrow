@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00823",
-	"slug": "בלה",
-	"headword": {
-		"text": "בָּלָה"
-	},
+	"sefariaHeadword": "בָּלָה",
+	"headwords": [
+		{
+			"text": "בָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

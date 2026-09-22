@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00016",
-	"slug": "ראיה-2",
-	"headword": {
-		"text": "רַאֲיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַאֲיָה",
+	"headwords": [
+		{
+			"text": "רַאֲיָה"
+		},
 		{
 			"text": "רַאֲיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1436,
 		"column": "b"

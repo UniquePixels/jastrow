@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01075",
-	"slug": "רשון",
-	"headword": {
-		"text": "רָשׁוֹן"
-	},
+	"sefariaHeadword": "רָשׁוֹן",
+	"headwords": [
+		{
+			"text": "רָשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

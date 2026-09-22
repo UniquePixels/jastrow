@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00474",
-	"slug": "בחורתא",
-	"headword": {
-		"text": "בחורתא"
-	},
+	"sefariaHeadword": "בחורתא",
+	"headwords": [
+		{
+			"text": "בחורתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "a"

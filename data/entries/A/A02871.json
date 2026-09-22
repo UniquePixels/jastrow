@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02871",
-	"slug": "אצטריא",
-	"headword": {
-		"text": "אִצְטַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִצְטַרְיָא",
+	"headwords": [
+		{
+			"text": "אִצְטַרְיָא"
+		},
 		{
 			"text": "אִצְטַרְיָה"
 		},
@@ -12,12 +13,15 @@
 			"text": "אִצְטַרְיָיא"
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 110,
 		"column": "b"

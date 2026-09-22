@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00945",
-	"slug": "פלגות",
-	"headword": {
-		"text": "פְּלַגּוֹת"
-	},
+	"sefariaHeadword": "פְּלַגּוֹת",
+	"headwords": [
+		{
+			"text": "פְּלַגּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

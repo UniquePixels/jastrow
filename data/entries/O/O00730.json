@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00730",
-	"slug": "סינודיא",
-	"headword": {
-		"text": "סִינוֹדְיָא"
-	},
+	"sefariaHeadword": "סִינוֹדְיָא",
+	"headwords": [
+		{
+			"text": "סִינוֹדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

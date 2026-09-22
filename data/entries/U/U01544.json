@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01544",
-	"slug": "שמשא-2",
-	"headword": {
-		"text": "שַׁמָּשָׁא"
-	},
+	"sefariaHeadword": "שַׁמָּשָׁא",
+	"headwords": [
+		{
+			"text": "שַׁמָּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1602,
 		"column": "b"

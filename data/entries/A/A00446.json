@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00446",
-	"slug": "אדר-6",
-	"headword": {
-		"text": "אֵדֶר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵדֶר II",
+	"headwords": [
+		{
+			"text": "אֵדֶר",
+			"homograph": 2
+		},
 		{
 			"text": "אִדְרָא",
 			"homograph": 2
@@ -15,6 +16,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} II, {2} I",
 	"page": {
 		"number": 18,
 		"column": "a"

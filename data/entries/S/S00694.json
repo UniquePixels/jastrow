@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00694",
-	"slug": "קטב-2",
-	"headword": {
-		"text": "קְטַב"
-	},
+	"sefariaHeadword": "קְטַב",
+	"headwords": [
+		{
+			"text": "קְטַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "a"

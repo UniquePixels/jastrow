@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00120",
-	"slug": "הדייבא",
-	"headword": {
-		"text": "הַדְיֵיבָא"
-	},
+	"sefariaHeadword": "הַדְיֵיבָא",
+	"headwords": [
+		{
+			"text": "הַדְיֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

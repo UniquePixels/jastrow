@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01267",
-	"slug": "פסטמא",
-	"headword": {
-		"text": "פסטמא"
-	},
+	"sefariaHeadword": "פסטמא",
+	"headwords": [
+		{
+			"text": "פסטמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

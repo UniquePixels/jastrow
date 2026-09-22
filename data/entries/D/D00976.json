@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00976",
-	"slug": "דפתי",
-	"headword": {
-		"text": "דִּפְתִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּפְתִּי",
+	"headwords": [
+		{
+			"text": "דִּפְתִּי"
+		},
 		{
 			"text": "דִּפְתְּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 317,
 		"column": "b"

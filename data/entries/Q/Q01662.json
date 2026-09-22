@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01662",
-	"slug": "פרוזטוגמא",
-	"headword": {
-		"text": "פרוזטוגמא"
-	},
+	"sefariaHeadword": "פרוזטוגמא",
+	"headwords": [
+		{
+			"text": "פרוזטוגמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

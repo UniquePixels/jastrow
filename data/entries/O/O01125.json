@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01125",
-	"slug": "סמפוריינא",
-	"headword": {
-		"text": "סִמְפּוֹרְיָינָא"
-	},
+	"sefariaHeadword": "סִמְפּוֹרְיָינָא",
+	"headwords": [
+		{
+			"text": "סִמְפּוֹרְיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00110",
-	"slug": "זהרורא-2",
-	"headword": {
-		"text": "זַהֲרוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַהֲרוּרָא",
+	"headwords": [
 		{
-			"text": "זִיהֲ׳"
+			"text": "זַהֲרוּרָא"
+		},
+		{
+			"text": "זִיהֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 382,
 		"column": "b"

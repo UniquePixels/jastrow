@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00550",
-	"slug": "עיין-2",
-	"headword": {
-		"text": "עַיִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַיִין",
+	"headwords": [
+		{
+			"text": "עַיִין"
+		},
 		{
 			"text": "עַיְינָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַיְינָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1069,
 		"column": "a"

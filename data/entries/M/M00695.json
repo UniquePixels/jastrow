@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00695",
-	"slug": "מותב",
-	"headword": {
-		"text": "מוֹתָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹתָב",
+	"headwords": [
+		{
+			"text": "מוֹתָב"
+		},
 		{
 			"text": "מוֹתְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 752,
 		"column": "a"

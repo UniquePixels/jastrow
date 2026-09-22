@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00318",
-	"slug": "לוקטו",
-	"headword": {
-		"text": "לוקטו"
-	},
+	"sefariaHeadword": "לוקטו",
+	"headwords": [
+		{
+			"text": "לוקטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

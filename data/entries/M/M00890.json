@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00890",
-	"slug": "מחלוקת",
-	"headword": {
-		"text": "מַחֲלוֹקֶת"
-	},
+	"sefariaHeadword": "מַחֲלוֹקֶת",
+	"headwords": [
+		{
+			"text": "מַחֲלוֹקֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "a"

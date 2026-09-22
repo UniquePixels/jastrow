@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00389",
-	"slug": "לטים",
-	"headword": {
-		"text": "לָטִים"
-	},
+	"sefariaHeadword": "לָטִים",
+	"headwords": [
+		{
+			"text": "לָטִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

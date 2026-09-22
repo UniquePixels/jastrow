@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00113",
-	"slug": "אבידרנא",
-	"headword": {
-		"text": "אֲבִידַרְנָא"
-	},
+	"sefariaHeadword": "אֲבִידַרְנָא",
+	"headwords": [
+		{
+			"text": "אֲבִידַרְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "b"

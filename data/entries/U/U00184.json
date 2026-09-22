@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00184",
-	"slug": "שברירי",
-	"headword": {
-		"text": "שַׁבְרִירֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁבְרִירֵי",
+	"headwords": [
+		{
+			"text": "שַׁבְרִירֵי"
+		},
 		{
 			"text": "שַׁבְרִירַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1518,
 		"column": "b"

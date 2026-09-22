@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01008",
-	"slug": "נער-3",
-	"headword": {
-		"text": "נְעַר"
-	},
+	"sefariaHeadword": "נְעַר",
+	"headwords": [
+		{
+			"text": "נְעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 921,
 		"column": "b"

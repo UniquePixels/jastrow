@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00928",
-	"slug": "דניאל",
-	"headword": {
-		"text": "דָּנִיאֵל"
-	},
+	"sefariaHeadword": "דָּנִיאֵל",
+	"headwords": [
+		{
+			"text": "דָּנִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00428",
-	"slug": "זירקתא",
-	"headword": {
-		"text": "זִירְקְתָא"
-	},
+	"sefariaHeadword": "זִירְקְתָא",
+	"headwords": [
+		{
+			"text": "זִירְקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

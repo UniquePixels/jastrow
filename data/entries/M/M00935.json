@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00935",
-	"slug": "מחר-1",
-	"headword": {
-		"text": "מָחָר"
-	},
+	"sefariaHeadword": "מָחָר",
+	"headwords": [
+		{
+			"text": "מָחָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "a"

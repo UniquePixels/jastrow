@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01754",
-	"slug": "קפלוטא",
-	"headword": {
-		"text": "קַפְלוֹטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַפְלוֹטָא",
+	"headwords": [
+		{
+			"text": "קַפְלוֹטָא"
+		},
 		{
 			"text": "קַפְלוֹטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1402,
 		"column": "b"

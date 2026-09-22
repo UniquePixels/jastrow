@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00986",
-	"slug": "חלדין",
-	"headword": {
-		"text": "חִלְדִּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חִלְדִּין",
+	"headwords": [
+		{
+			"text": "חִלְדִּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 464,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01723",
-	"slug": "שפופינא",
-	"headword": {
-		"text": "שפופינא"
-	},
+	"sefariaHeadword": "שפופינא",
+	"headwords": [
+		{
+			"text": "שפופינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

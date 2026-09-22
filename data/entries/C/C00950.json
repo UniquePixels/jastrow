@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00950",
-	"slug": "גלילתא",
-	"headword": {
-		"text": "גְּלִילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלִילְתָּא",
+	"headwords": [
+		{
+			"text": "גְּלִילְתָּא"
+		},
 		{
 			"text": "גְּלַלְנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 249,
 		"column": "a"

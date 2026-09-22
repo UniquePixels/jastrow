@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "P00889",
-	"slug": "עמיק-2",
-	"headword": {
-		"text": "עַמִּיק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַמִּיק ²",
+	"headwords": [
+		{
+			"text": "עַמִּיק",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָמִיק",
 			"homograph": 2
@@ -14,6 +15,7 @@
 			"text": "עַמִּיקְתָּא"
 		}
 	],
+	"display": "{0} ², {1} II, {2}",
 	"page": {
 		"number": 1088,
 		"column": "b"

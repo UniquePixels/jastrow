@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01703",
-	"slug": "קפדנות",
-	"headword": {
-		"text": "קַפְדָּנוּת"
-	},
+	"sefariaHeadword": "קַפְדָּנוּת",
+	"headwords": [
+		{
+			"text": "קַפְדָּנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "b"

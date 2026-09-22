@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U00170",
-	"slug": "שבקא-1",
-	"headword": {
-		"text": "שִׁבְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבְקָא",
+	"headwords": [
+		{
+			"text": "שִׁבְקָא"
+		},
 		{
 			"text": "שִׁי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1517,
 		"column": "a"

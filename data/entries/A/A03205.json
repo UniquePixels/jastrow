@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03205",
-	"slug": "ארנקי",
-	"headword": {
-		"text": "אַרְנְקַי"
-	},
+	"sefariaHeadword": "אַרְנְקַי",
+	"headwords": [
+		{
+			"text": "אַרְנְקַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

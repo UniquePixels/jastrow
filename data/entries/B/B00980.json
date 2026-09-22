@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00980",
-	"slug": "בסטיא",
-	"headword": {
-		"text": "בֶּסְטְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בֶּסְטְיָא",
+	"headwords": [
+		{
+			"text": "בֶּסְטְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

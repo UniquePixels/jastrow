@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01140",
-	"slug": "קיקולים",
-	"headword": {
-		"text": "קִיקוּלִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיקוּלִים",
+	"headwords": [
+		{
+			"text": "קִיקוּלִים"
+		},
 		{
 			"text": "קִיקוּלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1367,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00651",
-	"slug": "עיק-2",
-	"headword": {
-		"text": "עיָק"
-	},
+	"sefariaHeadword": "עיָק",
+	"headwords": [
+		{
+			"text": "עיָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

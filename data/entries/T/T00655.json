@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00655",
-	"slug": "ריס-2",
-	"headword": {
-		"text": "רִיס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רִיס II",
+	"headwords": [
+		{
+			"text": "רִיס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1475,
 		"column": "a"

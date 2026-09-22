@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00373",
-	"slug": "מהמורות",
-	"headword": {
-		"text": "מַהֲמוֹרוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַהֲמוֹרוֹת",
+	"headwords": [
 		{
-			"text": "מַחֲ׳"
+			"text": "מַהֲמוֹרוֹת"
+		},
+		{
+			"text": "מַחֲ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 737,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00059",
-	"slug": "גבור-1",
-	"headword": {
-		"text": "גִּבּוֹר"
-	},
+	"sefariaHeadword": "גִּבּוֹר",
+	"headwords": [
+		{
+			"text": "גִּבּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02178",
-	"slug": "מעריב",
-	"headword": {
-		"text": "מַעֲרִיב"
-	},
+	"sefariaHeadword": "מַעֲרִיב",
+	"headwords": [
+		{
+			"text": "מַעֲרִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "b"

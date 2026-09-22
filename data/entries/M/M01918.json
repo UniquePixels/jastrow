@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01918",
-	"slug": "מסייפא",
-	"headword": {
-		"text": "מסייפא"
-	},
+	"sefariaHeadword": "מסייפא",
+	"headwords": [
+		{
+			"text": "מסייפא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "b"

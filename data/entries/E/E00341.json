@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00341",
-	"slug": "הידא",
-	"headword": {
-		"text": "הֵידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵידָא",
+	"headwords": [
+		{
+			"text": "הֵידָא"
+		},
 		{
 			"text": "הֵידָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֵידִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 343,
 		"column": "b"

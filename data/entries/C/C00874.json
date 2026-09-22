@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00874",
-	"slug": "גלגלין",
-	"headword": {
-		"text": "גִּלְגְּלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלְגְּלִין",
+	"headwords": [
+		{
+			"text": "גִּלְגְּלִין"
+		},
 		{
 			"text": "גִּילְגְּלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 245,
 		"column": "a"

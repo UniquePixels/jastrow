@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01051",
-	"slug": "תרפס",
-	"headword": {
-		"text": "תִּרְפֵּס"
-	},
+	"sefariaHeadword": "תִּרְפֵּס",
+	"headwords": [
+		{
+			"text": "תִּרְפֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01473",
-	"slug": "מלאכות",
-	"headword": {
-		"text": "מַלְאָכוּת"
-	},
+	"sefariaHeadword": "מַלְאָכוּת",
+	"headwords": [
+		{
+			"text": "מַלְאָכוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 786,
 		"column": "a"

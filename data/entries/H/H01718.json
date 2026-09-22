@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01718",
-	"slug": "חרמא-1",
-	"headword": {
-		"text": "חֶרְמָא"
-	},
+	"sefariaHeadword": "חֶרְמָא",
+	"headwords": [
+		{
+			"text": "חֶרְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "a"

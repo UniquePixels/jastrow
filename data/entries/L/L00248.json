@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00248",
-	"slug": "לוי-2",
-	"headword": {
-		"text": "לְוִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוִי",
+	"headwords": [
+		{
+			"text": "לְוִי"
+		},
 		{
 			"text": "לְוָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 697,
 		"column": "b"

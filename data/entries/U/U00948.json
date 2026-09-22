@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00948",
-	"slug": "שיליא",
-	"headword": {
-		"text": "שִׁילְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁילְיָא",
+	"headwords": [
+		{
+			"text": "שִׁילְיָא"
+		},
 		{
 			"text": "שִׁילְיָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁילְיְיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1563,
 		"column": "a"

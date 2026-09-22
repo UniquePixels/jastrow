@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00091",
-	"slug": "סבר-8",
-	"headword": {
-		"text": "סְבָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְבָר",
+	"headwords": [
+		{
+			"text": "סְבָר"
+		},
 		{
 			"text": "סְבָרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 952,
 		"column": "b"

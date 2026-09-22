@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "P00966",
-	"slug": "ענותן-2",
-	"headword": {
-		"text": "עִנְוְתָן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְוְתָן ²",
+	"headwords": [
+		{
+			"text": "עִנְוְתָן",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִנְוְתָנָא"
 		},
 		{
-			"text": "עִנְיְו׳"
+			"text": "עִנְיְו׳",
+			"partial": true
 		},
 		{
-			"text": "עִינְ׳"
+			"text": "עִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1092,
 		"column": "b"

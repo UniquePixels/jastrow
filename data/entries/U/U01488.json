@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01488",
-	"slug": "שמלאי-1",
-	"headword": {
-		"text": "שמלאי"
-	},
+	"sefariaHeadword": "שמלאי",
+	"headwords": [
+		{
+			"text": "שמלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1596,
 		"column": "b"

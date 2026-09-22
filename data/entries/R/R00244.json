@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00244",
-	"slug": "צור-5",
-	"headword": {
-		"text": "צוּר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צוּר ²",
+	"headwords": [
+		{
+			"text": "צוּר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1271,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00963",
-	"slug": "דפליסט׳",
-	"headword": {
-		"text": "דפליסט׳"
-	},
+	"sefariaHeadword": "דפליסט׳",
+	"headwords": [
+		{
+			"text": "דפליסט׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

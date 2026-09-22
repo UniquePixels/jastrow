@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00217",
-	"slug": "מגרופת",
-	"headword": {
-		"text": "מגרופת"
-	},
+	"sefariaHeadword": "מגרופת",
+	"headwords": [
+		{
+			"text": "מגרופת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

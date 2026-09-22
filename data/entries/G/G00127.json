@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00127",
-	"slug": "זוגדוס",
-	"headword": {
-		"text": "זוגדוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוגדוס",
+	"headwords": [
+		{
+			"text": "זוגדוס"
+		},
 		{
 			"text": "זוגדס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 384,
 		"column": "a"

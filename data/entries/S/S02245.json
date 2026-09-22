@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02245",
-	"slug": "קשיטא",
-	"headword": {
-		"text": "קְשִׂיטָא"
-	},
+	"sefariaHeadword": "קְשִׂיטָא",
+	"headwords": [
+		{
+			"text": "קְשִׂיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1431,
 		"column": "b"

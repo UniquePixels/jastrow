@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00277",
-	"slug": "נהק-1",
-	"headword": {
-		"text": "נָהַק"
-	},
+	"sefariaHeadword": "נָהַק",
+	"headwords": [
+		{
+			"text": "נָהַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 882,
 		"column": "a"

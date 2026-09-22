@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00358",
-	"slug": "שוות",
-	"headword": {
-		"text": "שוות"
-	},
+	"sefariaHeadword": "שוות",
+	"headwords": [
+		{
+			"text": "שוות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "b"

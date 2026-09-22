@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00919",
-	"slug": "גלות",
-	"headword": {
-		"text": "גָּלוּת"
-	},
+	"sefariaHeadword": "גָּלוּת",
+	"headwords": [
+		{
+			"text": "גָּלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

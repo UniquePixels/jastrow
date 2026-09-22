@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00602",
-	"slug": "ירואר",
-	"headword": {
-		"text": "יְרוֹאָר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יְרוֹאָר",
+	"headwords": [
+		{
+			"text": "יְרוֹאָר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 594,
 		"column": "b"

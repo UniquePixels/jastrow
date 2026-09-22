@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00758",
-	"slug": "ניצל",
-	"headword": {
-		"text": "נֵיצֶל"
-	},
+	"sefariaHeadword": "נֵיצֶל",
+	"headwords": [
+		{
+			"text": "נֵיצֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00384",
-	"slug": "אדומי",
-	"headword": {
-		"text": "אֱדוֹמִי"
-	},
+	"sefariaHeadword": "אֱדוֹמִי",
+	"headwords": [
+		{
+			"text": "אֱדוֹמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "a"

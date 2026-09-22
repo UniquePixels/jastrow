@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01510",
-	"slug": "שמניני",
-	"headword": {
-		"text": "שַׁמְנִינֵי"
-	},
+	"sefariaHeadword": "שַׁמְנִינֵי",
+	"headwords": [
+		{
+			"text": "שַׁמְנִינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1598,
 		"column": "b"

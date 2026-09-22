@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00315",
-	"slug": "יטור-2",
-	"headword": {
-		"text": "יְטוּר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְטוּר II",
+	"headwords": [
+		{
+			"text": "יְטוּר",
+			"homograph": 2
+		},
 		{
 			"text": "יְטוּרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 576,
 		"column": "a"

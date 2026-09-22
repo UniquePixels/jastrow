@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00727",
-	"slug": "הפוך",
-	"headword": {
-		"text": "הֲפוֹךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲפוֹךְ",
+	"headwords": [
+		{
+			"text": "הֲפוֹךְ"
+		},
 		{
 			"text": "הָפוּךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 360,
 		"column": "b"

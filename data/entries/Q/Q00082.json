@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00082",
-	"slug": "פגנא",
-	"headword": {
-		"text": "פָּגָנָא"
-	},
+	"sefariaHeadword": "פָּגָנָא",
+	"headwords": [
+		{
+			"text": "פָּגָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1134,
 		"column": "b"

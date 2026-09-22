@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00874",
-	"slug": "שיחרור-1",
-	"headword": {
-		"text": "שיחרור"
-	},
+	"sefariaHeadword": "שיחרור",
+	"headwords": [
+		{
+			"text": "שיחרור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1560,
 		"column": "a"

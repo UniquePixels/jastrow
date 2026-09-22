@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03203",
-	"slug": "ארנסי",
-	"headword": {
-		"text": "אֲרַנְסֵי"
-	},
+	"sefariaHeadword": "אֲרַנְסֵי",
+	"headwords": [
+		{
+			"text": "אֲרַנְסֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

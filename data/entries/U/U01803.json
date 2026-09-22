@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01803",
-	"slug": "שפרגז",
-	"headword": {
-		"text": "שִׁפְרְגָז"
-	},
+	"sefariaHeadword": "שִׁפְרְגָז",
+	"headwords": [
+		{
+			"text": "שִׁפְרְגָז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"

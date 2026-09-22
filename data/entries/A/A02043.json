@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02043",
-	"slug": "אמנון",
-	"headword": {
-		"text": "אֲמָנוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲמָנוֹן",
+	"headwords": [
+		{
+			"text": "אֲמָנוֹן"
+		},
 		{
 			"text": "אֲמָנוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 78,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00718",
-	"slug": "גילא-1",
-	"headword": {
-		"text": "גִּילָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גִּילָא I",
+	"headwords": [
+		{
+			"text": "גִּילָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 238,
 		"column": "a"

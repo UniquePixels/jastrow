@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00945",
-	"slug": "בניאתא",
-	"headword": {
-		"text": "בִּנְיָאתָא"
-	},
+	"sefariaHeadword": "בִּנְיָאתָא",
+	"headwords": [
+		{
+			"text": "בִּנְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "a"

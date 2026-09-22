@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00687",
-	"slug": "גיזריפטי",
-	"headword": {
-		"text": "גיזריפטי"
-	},
+	"sefariaHeadword": "גיזריפטי",
+	"headwords": [
+		{
+			"text": "גיזריפטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

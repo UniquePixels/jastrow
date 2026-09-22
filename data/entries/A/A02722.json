@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02722",
-	"slug": "אפיקרסי",
-	"headword": {
-		"text": "אִפִּיקְרָסִי"
-	},
+	"sefariaHeadword": "אִפִּיקְרָסִי",
+	"headwords": [
+		{
+			"text": "אִפִּיקְרָסִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

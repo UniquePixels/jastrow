@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01473",
-	"slug": "שמיני",
-	"headword": {
-		"text": "שְׁמִינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמִינִי",
+	"headwords": [
+		{
+			"text": "שְׁמִינִי"
+		},
 		{
 			"text": "שְׁמִינִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1595,
 		"column": "b"

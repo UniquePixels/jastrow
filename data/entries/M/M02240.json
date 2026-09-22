@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02240",
-	"slug": "מפקנותא",
-	"headword": {
-		"text": "מַפְקָנוּתָא"
-	},
+	"sefariaHeadword": "מַפְקָנוּתָא",
+	"headwords": [
+		{
+			"text": "מַפְקָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

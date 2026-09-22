@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00862",
-	"slug": "סית",
-	"headword": {
-		"text": "סִית"
-	},
+	"sefariaHeadword": "סִית",
+	"headwords": [
+		{
+			"text": "סִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "b"

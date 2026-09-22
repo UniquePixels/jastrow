@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01526",
-	"slug": "סרג-1",
-	"headword": {
-		"text": "סָרַג"
-	},
+	"sefariaHeadword": "סָרַג",
+	"headwords": [
+		{
+			"text": "סָרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "b"

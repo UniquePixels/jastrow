@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00306",
-	"slug": "מדלאות",
-	"headword": {
-		"text": "מדלאות"
-	},
+	"sefariaHeadword": "מדלאות",
+	"headwords": [
+		{
+			"text": "מדלאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00774",
-	"slug": "בכושא",
-	"headword": {
-		"text": "בּכּוּשָׁא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּכּוּשָׁא",
+	"headwords": [
+		{
+			"text": "בּכּוּשָׁא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 169,
 		"column": "b"

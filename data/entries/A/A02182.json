@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02182",
-	"slug": "אנטיכריסיס",
-	"headword": {
-		"text": "אַנְטִיכְרִיסִיס"
-	},
+	"sefariaHeadword": "אַנְטִיכְרִיסִיס",
+	"headwords": [
+		{
+			"text": "אַנְטִיכְרִיסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

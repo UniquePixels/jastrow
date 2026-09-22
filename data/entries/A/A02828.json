@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02828",
-	"slug": "אפרכלי",
-	"headword": {
-		"text": "אפרכלי"
-	},
+	"sefariaHeadword": "אפרכלי",
+	"headwords": [
+		{
+			"text": "אפרכלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

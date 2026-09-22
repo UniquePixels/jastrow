@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00016",
-	"slug": "וודי",
-	"headword": {
-		"text": "וַודַּי"
-	},
+	"sefariaHeadword": "וַודַּי",
+	"headwords": [
+		{
+			"text": "וַודַּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

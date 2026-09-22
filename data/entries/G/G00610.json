@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00610",
-	"slug": "זעפא",
-	"headword": {
-		"text": "זַעֲפָא"
-	},
+	"sefariaHeadword": "זַעֲפָא",
+	"headwords": [
+		{
+			"text": "זַעֲפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

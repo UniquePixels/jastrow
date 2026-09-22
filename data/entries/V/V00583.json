@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00583",
-	"slug": "תלות",
-	"headword": {
-		"text": "תלות"
-	},
+	"sefariaHeadword": "תלות",
+	"headwords": [
+		{
+			"text": "תלות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "b"

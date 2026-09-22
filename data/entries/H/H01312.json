@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01312",
-	"slug": "חנן-3",
-	"headword": {
-		"text": "חֲנַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲנַן",
+	"headwords": [
+		{
+			"text": "חֲנַן"
+		},
 		{
 			"text": "חוּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 484,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00214",
-	"slug": "זוסימי",
-	"headword": {
-		"text": "זוֹסִימִי"
-	},
+	"sefariaHeadword": "זוֹסִימִי",
+	"headwords": [
+		{
+			"text": "זוֹסִימִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00709",
-	"slug": "ריקנות",
-	"headword": {
-		"text": "רֵיקָנוּת"
-	},
+	"sefariaHeadword": "רֵיקָנוּת",
+	"headwords": [
+		{
+			"text": "רֵיקָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

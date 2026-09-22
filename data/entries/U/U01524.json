@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01524",
-	"slug": "שמציות",
-	"headword": {
-		"text": "שמציות"
-	},
+	"sefariaHeadword": "שמציות",
+	"headwords": [
+		{
+			"text": "שמציות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1600,
 		"column": "b"

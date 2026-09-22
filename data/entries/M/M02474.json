@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02474",
-	"slug": "מקשיצת",
-	"headword": {
-		"text": "מקשיצת־"
-	},
+	"sefariaHeadword": "מקשיצת־",
+	"headwords": [
+		{
+			"text": "מקשיצת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 834,
 		"column": "a"

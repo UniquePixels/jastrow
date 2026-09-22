@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00954",
-	"slug": "אזד-1",
-	"headword": {
-		"text": "אזד־"
-	},
+	"sefariaHeadword": "אזד־",
+	"headwords": [
+		{
+			"text": "אזד־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

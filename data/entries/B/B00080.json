@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00080",
-	"slug": "בגידה",
-	"headword": {
-		"text": "בְּגִידָה"
-	},
+	"sefariaHeadword": "בְּגִידָה",
+	"headwords": [
+		{
+			"text": "בְּגִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "b"

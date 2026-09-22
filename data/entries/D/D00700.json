@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00700",
-	"slug": "דיקולא-1",
-	"headword": {
-		"text": "דִּיקוּלָא"
-	},
+	"sefariaHeadword": "דִּיקוּלָא",
+	"headwords": [
+		{
+			"text": "דִּיקוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

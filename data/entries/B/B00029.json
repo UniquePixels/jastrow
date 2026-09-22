@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00029",
-	"slug": "באישה",
-	"headword": {
-		"text": "באישה"
-	},
+	"sefariaHeadword": "באישה",
+	"headwords": [
+		{
+			"text": "באישה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"

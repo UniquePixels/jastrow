@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01310",
-	"slug": "נשייא-2",
-	"headword": {
-		"text": "נְשַׁיָּיא"
-	},
+	"sefariaHeadword": "נְשַׁיָּיא",
+	"headwords": [
+		{
+			"text": "נְשַׁיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 939,
 		"column": "b"

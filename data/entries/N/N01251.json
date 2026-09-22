@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01251",
-	"slug": "נקש-1",
-	"headword": {
-		"text": "נָקַשׁ"
-	},
+	"sefariaHeadword": "נָקַשׁ",
+	"headwords": [
+		{
+			"text": "נָקַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "b"

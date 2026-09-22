@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "O01624",
-	"slug": "סריק-2",
-	"headword": {
-		"text": "סָרֵיק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָרֵיק ²",
+	"headwords": [
+		{
+			"text": "סָרֵיק",
+			"disambiguator": 2
+		},
 		{
 			"text": "סְרִיק"
 		},
@@ -14,6 +15,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 1027,
 		"column": "a"

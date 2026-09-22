@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00061",
-	"slug": "בבל",
-	"headword": {
-		"text": "בָּבֶל"
-	},
+	"sefariaHeadword": "בָּבֶל",
+	"headwords": [
+		{
+			"text": "בָּבֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "b"

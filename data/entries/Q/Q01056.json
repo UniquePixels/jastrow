@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01056",
-	"slug": "פליטית",
-	"headword": {
-		"text": "פְּלֵיטִית"
-	},
+	"sefariaHeadword": "פְּלֵיטִית",
+	"headwords": [
+		{
+			"text": "פְּלֵיטִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

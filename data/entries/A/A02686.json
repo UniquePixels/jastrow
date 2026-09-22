@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02686",
-	"slug": "אפילה-3",
-	"headword": {
-		"text": "אֲפֵילָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אֲפֵילָה ²",
+	"headwords": [
+		{
+			"text": "אֲפֵילָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 103,
 		"column": "a"

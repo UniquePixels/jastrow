@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01529",
-	"slug": "איסתרתיגין",
-	"headword": {
-		"text": "אִיסְתַּרְתִּיגִין"
-	},
+	"sefariaHeadword": "אִיסְתַּרְתִּיגִין",
+	"headwords": [
+		{
+			"text": "אִיסְתַּרְתִּיגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

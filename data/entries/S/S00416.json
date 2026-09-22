@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00416",
-	"slug": "קונדא",
-	"headword": {
-		"text": "קוֹנְדָּא"
-	},
+	"sefariaHeadword": "קוֹנְדָּא",
+	"headwords": [
+		{
+			"text": "קוֹנְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00068",
-	"slug": "עברה-2",
-	"headword": {
-		"text": "עֻבָּרָה"
-	},
+	"sefariaHeadword": "עֻבָּרָה",
+	"headwords": [
+		{
+			"text": "עֻבָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1040,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00202",
-	"slug": "טופיינא",
-	"headword": {
-		"text": "טוּפְיָינָא"
-	},
+	"sefariaHeadword": "טוּפְיָינָא",
+	"headwords": [
+		{
+			"text": "טוּפְיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

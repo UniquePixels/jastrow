@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02784",
-	"slug": "אפקרייתם",
-	"headword": {
-		"text": "אפקרייתם"
-	},
+	"sefariaHeadword": "אפקרייתם",
+	"headwords": [
+		{
+			"text": "אפקרייתם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "b"

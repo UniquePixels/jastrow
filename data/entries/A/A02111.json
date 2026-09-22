@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02111",
-	"slug": "אנגרמוס",
-	"headword": {
-		"text": "אַנְגַּרְמוֹס"
-	},
+	"sefariaHeadword": "אַנְגַּרְמוֹס",
+	"headwords": [
+		{
+			"text": "אַנְגַּרְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

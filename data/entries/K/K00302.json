@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00302",
-	"slug": "כונדת׳",
-	"headword": {
-		"text": "כונדת׳"
-	},
+	"sefariaHeadword": "כונדת׳",
+	"headwords": [
+		{
+			"text": "כונדת׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

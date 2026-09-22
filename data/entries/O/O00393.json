@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00393",
-	"slug": "סופינא",
-	"headword": {
-		"text": "סוֹפִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹפִינָא",
+	"headwords": [
 		{
-			"text": "סוּ׳"
+			"text": "סוֹפִינָא"
+		},
+		{
+			"text": "סוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 968,
 		"column": "a"

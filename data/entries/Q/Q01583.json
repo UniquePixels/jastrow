@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01583",
-	"slug": "פרדיסקים",
-	"headword": {
-		"text": "פַּרְדִּיסְקִים"
-	},
+	"sefariaHeadword": "פַּרְדִּיסְקִים",
+	"headwords": [
+		{
+			"text": "פַּרְדִּיסְקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1215,
 		"column": "b"

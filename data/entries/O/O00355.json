@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00355",
-	"slug": "סומקנותא",
-	"headword": {
-		"text": "סוּמְקָנוּתא"
-	},
+	"sefariaHeadword": "סוּמְקָנוּתא",
+	"headwords": [
+		{
+			"text": "סוּמְקָנוּתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

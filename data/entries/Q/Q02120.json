@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02120",
-	"slug": "פתאותא",
-	"headword": {
-		"text": "פַּתְאוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתְאוּתָא",
+	"headwords": [
+		{
+			"text": "פַּתְאוּתָא"
+		},
 		{
 			"text": "פְּתָאַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1250,
 		"column": "a"

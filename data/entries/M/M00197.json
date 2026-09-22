@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00197",
-	"slug": "מנגנימין",
-	"headword": {
-		"text": "מנגנימין"
-	},
+	"sefariaHeadword": "מנגנימין",
+	"headwords": [
+		{
+			"text": "מנגנימין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "b"

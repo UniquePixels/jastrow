@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00958",
-	"slug": "קילווני׳",
-	"headword": {
-		"text": "קילווני׳"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קילווני׳",
+	"headwords": [
+		{
+			"text": "קילווני׳"
+		},
 		{
 			"text": "קילווסים"
 		},
@@ -15,6 +16,7 @@
 			"text": "קִילִוְוסִיס"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1360,
 		"column": "a"

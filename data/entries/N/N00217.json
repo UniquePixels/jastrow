@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00217",
-	"slug": "נדוי",
-	"headword": {
-		"text": "נִדּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדּוּי",
+	"headwords": [
+		{
+			"text": "נִדּוּי"
+		},
 		{
 			"text": "נִדּוָּיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 878,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01633",
-	"slug": "קסבא",
-	"headword": {
-		"text": "קִסְבָּא"
-	},
+	"sefariaHeadword": "קִסְבָּא",
+	"headwords": [
+		{
+			"text": "קִסְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

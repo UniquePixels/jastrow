@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02138",
-	"slug": "שתר",
-	"headword": {
-		"text": "שְׁתַר"
-	},
+	"sefariaHeadword": "שְׁתַר",
+	"headwords": [
+		{
+			"text": "שְׁתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1640,
 		"column": "b"

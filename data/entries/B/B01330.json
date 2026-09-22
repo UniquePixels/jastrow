@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01330",
-	"slug": "ברקנים",
-	"headword": {
-		"text": "בַּרְקָנִים"
-	},
+	"sefariaHeadword": "בַּרְקָנִים",
+	"headwords": [
+		{
+			"text": "בַּרְקָנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

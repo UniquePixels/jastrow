@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02528",
-	"slug": "אספתי-2",
-	"headword": {
-		"text": "אִסְפָּתִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפָּתִי",
+	"headwords": [
+		{
+			"text": "אִסְפָּתִי"
+		},
 		{
 			"text": "אִסְפָּטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "a"

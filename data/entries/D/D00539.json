@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00539",
-	"slug": "דיוקני",
-	"headword": {
-		"text": "דְּיוֹקְנִי"
-	},
+	"sefariaHeadword": "דְּיוֹקְנִי",
+	"headwords": [
+		{
+			"text": "דְּיוֹקְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "b"

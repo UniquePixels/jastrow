@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00373",
-	"slug": "לחש-3",
-	"headword": {
-		"text": "לְחַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחַשׁ",
+	"headwords": [
+		{
+			"text": "לְחַשׁ"
+		},
 		{
 			"text": "לְחוֹשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 704,
 		"column": "b"

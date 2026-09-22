@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00554",
-	"slug": "בידור",
-	"headword": {
-		"text": "בִּידּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּידּוּר",
+	"headwords": [
+		{
+			"text": "בִּידּוּר"
+		},
 		{
 			"text": "בִּידּוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 159,
 		"column": "b"

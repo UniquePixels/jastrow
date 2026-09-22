@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00403",
-	"slug": "נוצרי",
-	"headword": {
-		"text": "נוֹצְרִי"
-	},
+	"sefariaHeadword": "נוֹצְרִי",
+	"headwords": [
+		{
+			"text": "נוֹצְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

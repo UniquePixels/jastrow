@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00287",
-	"slug": "סוטנא",
-	"headword": {
-		"text": "סוֹטְנָא"
-	},
+	"sefariaHeadword": "סוֹטְנָא",
+	"headwords": [
+		{
+			"text": "סוֹטְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

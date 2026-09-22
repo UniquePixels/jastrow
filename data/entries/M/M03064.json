@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03064",
-	"slug": "מתיר",
-	"headword": {
-		"text": "מַתִּיר"
-	},
+	"sefariaHeadword": "מַתִּיר",
+	"headwords": [
+		{
+			"text": "מַתִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "a"

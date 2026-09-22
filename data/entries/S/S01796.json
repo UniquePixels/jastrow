@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01796",
-	"slug": "קצוצה",
-	"headword": {
-		"text": "קְצוּצָה"
-	},
+	"sefariaHeadword": "קְצוּצָה",
+	"headwords": [
+		{
+			"text": "קְצוּצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

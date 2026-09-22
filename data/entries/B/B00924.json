@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00924",
-	"slug": "במדבר",
-	"headword": {
-		"text": "בְּמִדְבַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּמִדְבַּר",
+	"headwords": [
 		{
-			"text": "סֵפֶר בְּמִדְבַּר"
+			"text": "בְּמִדְבַּר"
+		},
+		{
+			"text": "סֵפֶר ב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 176,
 		"column": "a"

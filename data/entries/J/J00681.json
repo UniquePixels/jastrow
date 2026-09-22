@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00681",
-	"slug": "ישוב",
-	"headword": {
-		"text": "יִשּׁוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִשּׁוּב",
+	"headwords": [
+		{
+			"text": "יִשּׁוּב"
+		},
 		{
 			"text": "יִישּׁוּב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 599,
 		"column": "b"

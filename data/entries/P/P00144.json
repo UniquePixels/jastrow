@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00144",
-	"slug": "עדיף-1",
-	"headword": {
-		"text": "עָדִיף"
-	},
+	"sefariaHeadword": "עָדִיף",
+	"headwords": [
+		{
+			"text": "עָדִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

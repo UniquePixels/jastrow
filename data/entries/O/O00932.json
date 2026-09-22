@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00932",
-	"slug": "סכנתא",
-	"headword": {
-		"text": "סַכַּנְתָּא"
-	},
+	"sefariaHeadword": "סַכַּנְתָּא",
+	"headwords": [
+		{
+			"text": "סַכַּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 992,
 		"column": "a"

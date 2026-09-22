@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00462",
-	"slug": "ליכון",
-	"headword": {
-		"text": "ליכון"
-	},
+	"sefariaHeadword": "ליכון",
+	"headwords": [
+		{
+			"text": "ליכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

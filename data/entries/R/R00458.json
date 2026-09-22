@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00458",
-	"slug": "צירחא",
-	"headword": {
-		"text": "צִירְחָא"
-	},
+	"sefariaHeadword": "צִירְחָא",
+	"headwords": [
+		{
+			"text": "צִירְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "C00719",
-	"slug": "גילא-2",
-	"headword": {
-		"text": "גִּילָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּילָא II",
+	"headwords": [
+		{
+			"text": "גִּילָא",
+			"homograph": 2
+		},
 		{
 			"text": "גִּילָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "גִּלָּא"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 238,
 		"column": "a"

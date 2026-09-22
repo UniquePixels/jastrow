@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00844",
-	"slug": "נכפה",
-	"headword": {
-		"text": "נִכְפֶּה"
-	},
+	"sefariaHeadword": "נִכְפֶּה",
+	"headwords": [
+		{
+			"text": "נִכְפֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00723",
-	"slug": "זרע-2",
-	"headword": {
-		"text": "זְרַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זְרַע I",
+	"headwords": [
+		{
+			"text": "זְרַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 414,
 		"column": "b"

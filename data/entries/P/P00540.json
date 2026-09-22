@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00540",
-	"slug": "עיטרן",
-	"headword": {
-		"text": "עִיטְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיטְרָן",
+	"headwords": [
+		{
+			"text": "עִיטְרָן"
+		},
 		{
 			"text": "עִיטְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1068,
 		"column": "b"

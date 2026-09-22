@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00434",
-	"slug": "הימניא",
-	"headword": {
-		"text": "הִימַנְיָא"
-	},
+	"sefariaHeadword": "הִימַנְיָא",
+	"headwords": [
+		{
+			"text": "הִימַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

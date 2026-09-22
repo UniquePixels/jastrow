@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01387",
-	"slug": "ערלה",
-	"headword": {
-		"text": "עָרְלָה"
-	},
+	"sefariaHeadword": "עָרְלָה",
+	"headwords": [
+		{
+			"text": "עָרְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1119,
 		"column": "b"

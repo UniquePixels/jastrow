@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01587",
-	"slug": "שני-5",
-	"headword": {
-		"text": "שְׁנֵי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שְׁנֵי ²",
+	"headwords": [
+		{
+			"text": "שְׁנֵי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1606,
 		"column": "a"

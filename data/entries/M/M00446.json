@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00446",
-	"slug": "מוזיקא",
-	"headword": {
-		"text": "מוֹזִיקָא"
-	},
+	"sefariaHeadword": "מוֹזִיקָא",
+	"headwords": [
+		{
+			"text": "מוֹזִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

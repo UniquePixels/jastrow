@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00158",
-	"slug": "זוטוס",
-	"headword": {
-		"text": "זוֹטוֹס"
-	},
+	"sefariaHeadword": "זוֹטוֹס",
+	"headwords": [
+		{
+			"text": "זוֹטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00095",
-	"slug": "הד",
-	"headword": {
-		"text": "הַד־"
-	},
+	"sefariaHeadword": "הַד־",
+	"headwords": [
+		{
+			"text": "הַד־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

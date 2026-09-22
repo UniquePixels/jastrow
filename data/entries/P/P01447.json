@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01447",
-	"slug": "ערקוב",
-	"headword": {
-		"text": "עַרְקוּב"
-	},
+	"sefariaHeadword": "עַרְקוּב",
+	"headwords": [
+		{
+			"text": "עַרְקוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "b"

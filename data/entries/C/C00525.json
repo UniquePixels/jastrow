@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00525",
-	"slug": "גזוזטרית",
-	"headword": {
-		"text": "גְּזוּזְטְרִית"
-	},
+	"sefariaHeadword": "גְּזוּזְטְרִית",
+	"headwords": [
+		{
+			"text": "גְּזוּזְטְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "b"

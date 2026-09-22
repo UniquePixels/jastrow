@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00484",
-	"slug": "לימצא",
-	"headword": {
-		"text": "לימצא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לימצא",
+	"headwords": [
+		{
+			"text": "לימצא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 708,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00321",
-	"slug": "אגנייה",
-	"headword": {
-		"text": "אגנייה"
-	},
+	"sefariaHeadword": "אגנייה",
+	"headwords": [
+		{
+			"text": "אגנייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "a"

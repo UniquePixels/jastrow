@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00900",
-	"slug": "אורכא",
-	"headword": {
-		"text": "אוּרְכָּא"
-	},
+	"sefariaHeadword": "אוּרְכָּא",
+	"headwords": [
+		{
+			"text": "אוּרְכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

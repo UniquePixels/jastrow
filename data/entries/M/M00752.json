@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00752",
-	"slug": "מזייא",
-	"headword": {
-		"text": "מַזְיָיא"
-	},
+	"sefariaHeadword": "מַזְיָיא",
+	"headwords": [
+		{
+			"text": "מַזְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

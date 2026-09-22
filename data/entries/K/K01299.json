@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01299",
-	"slug": "כשוף",
-	"headword": {
-		"text": "כִּשּׁוּף"
-	},
+	"sefariaHeadword": "כִּשּׁוּף",
+	"headwords": [
+		{
+			"text": "כִּשּׁוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 675,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01899",
-	"slug": "חתם-1",
-	"headword": {
-		"text": "חָתַם"
-	},
+	"sefariaHeadword": "חָתַם",
+	"headwords": [
+		{
+			"text": "חָתַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 513,
 		"column": "b"

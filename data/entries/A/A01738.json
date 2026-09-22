@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01738",
-	"slug": "אכסנדריא",
-	"headword": {
-		"text": "אַכְסַנְדַּרְיָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַכְסַנְדַּרְיָא",
+	"headwords": [
+		{
+			"text": "אַכְסַנְדַּרְיָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אַכְסַנְדַרְיָה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 65,
 		"column": "a"

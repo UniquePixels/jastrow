@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U02100",
-	"slug": "שתיה-2",
-	"headword": {
-		"text": "שְׁתִיָּה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתִיָּה ²",
+	"headwords": [
+		{
+			"text": "שְׁתִיָּה",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁתִיָּיה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1637,
 		"column": "b"

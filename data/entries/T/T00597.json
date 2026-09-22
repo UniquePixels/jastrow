@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00597",
-	"slug": "ריגגא",
-	"headword": {
-		"text": "רִיגְגָא"
-	},
+	"sefariaHeadword": "רִיגְגָא",
+	"headwords": [
+		{
+			"text": "רִיגְגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

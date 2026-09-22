@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00216",
-	"slug": "צוף-1",
-	"headword": {
-		"text": "צוּף"
-	},
+	"sefariaHeadword": "צוּף",
+	"headwords": [
+		{
+			"text": "צוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "b"

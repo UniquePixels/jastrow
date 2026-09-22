@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00334",
-	"slug": "דוקליטיאנוס",
-	"headword": {
-		"text": "דּוּקְלִיטְיָאנוֹס"
-	},
+	"sefariaHeadword": "דּוּקְלִיטְיָאנוֹס",
+	"headwords": [
+		{
+			"text": "דּוּקְלִיטְיָאנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "a"

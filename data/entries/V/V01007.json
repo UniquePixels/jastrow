@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01007",
-	"slug": "תרך",
-	"headword": {
-		"text": "תְּרַךְ"
-	},
+	"sefariaHeadword": "תְּרַךְ",
+	"headwords": [
+		{
+			"text": "תְּרַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

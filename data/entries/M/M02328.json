@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02328",
-	"slug": "מציקין",
-	"headword": {
-		"text": "מְצִיקִין"
-	},
+	"sefariaHeadword": "מְצִיקִין",
+	"headwords": [
+		{
+			"text": "מְצִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01235",
-	"slug": "סניגרון-2",
-	"headword": {
-		"text": "סניגרון"
-	},
+	"sefariaHeadword": "סניגרון",
+	"headwords": [
+		{
+			"text": "סניגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00492",
-	"slug": "צלוחא",
-	"headword": {
-		"text": "צָלוּחָא"
-	},
+	"sefariaHeadword": "צָלוּחָא",
+	"headwords": [
+		{
+			"text": "צָלוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "b"

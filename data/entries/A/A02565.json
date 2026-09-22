@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02565",
-	"slug": "אסרטילוס",
-	"headword": {
-		"text": "אסרטילוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אסרטילוס",
+	"headwords": [
+		{
+			"text": "אסרטילוס"
+		},
 		{
 			"text": "אסרטילטא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 98,
 		"column": "b"

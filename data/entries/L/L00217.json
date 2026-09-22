@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00217",
-	"slug": "לווי-2",
-	"headword": {
-		"text": "לְוָוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָוי",
+	"headwords": [
+		{
+			"text": "לְוָוי"
+		},
 		{
 			"text": "לְוָויי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 695,
 		"column": "b"

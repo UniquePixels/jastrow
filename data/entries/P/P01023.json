@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01023",
-	"slug": "ענתדריא",
-	"headword": {
-		"text": "עַנְתֹּדְרָיָא"
-	},
+	"sefariaHeadword": "עַנְתֹּדְרָיָא",
+	"headwords": [
+		{
+			"text": "עַנְתֹּדְרָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1097,
 		"column": "a"

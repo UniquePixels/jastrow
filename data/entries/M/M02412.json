@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02412",
-	"slug": "מקטורן",
-	"headword": {
-		"text": "מִקְטוֹרָן"
-	},
+	"sefariaHeadword": "מִקְטוֹרָן",
+	"headwords": [
+		{
+			"text": "מִקְטוֹרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00353",
-	"slug": "זיל-2",
-	"headword": {
-		"text": "זִיל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זִיל ²",
+	"headwords": [
+		{
+			"text": "זִיל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 394,
 		"column": "a"

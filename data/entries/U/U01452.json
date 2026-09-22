@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01452",
-	"slug": "שמחזאי",
-	"headword": {
-		"text": "שַׁמְחַזָּאִי"
-	},
+	"sefariaHeadword": "שַׁמְחַזָּאִי",
+	"headwords": [
+		{
+			"text": "שַׁמְחַזָּאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1594,
 		"column": "a"

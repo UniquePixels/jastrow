@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01234",
-	"slug": "כרמלי",
-	"headword": {
-		"text": "כַּרְמְלִי"
-	},
+	"sefariaHeadword": "כַּרְמְלִי",
+	"headwords": [
+		{
+			"text": "כַּרְמְלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

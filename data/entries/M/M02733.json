@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02733",
-	"slug": "מרעה",
-	"headword": {
-		"text": "מִרְעֶה"
-	},
+	"sefariaHeadword": "מִרְעֶה",
+	"headwords": [
+		{
+			"text": "מִרְעֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 845,
 		"column": "b"

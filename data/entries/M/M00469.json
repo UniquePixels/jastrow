@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00469",
-	"slug": "מוי",
-	"headword": {
-		"text": "מוֹי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹי",
+	"headwords": [
+		{
+			"text": "מוֹי"
+		},
 		{
 			"text": "מוֹיֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 741,
 		"column": "a"

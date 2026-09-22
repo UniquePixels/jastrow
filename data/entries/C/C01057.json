@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01057",
-	"slug": "גמססית",
-	"headword": {
-		"text": "גַּמְסָסִית"
-	},
+	"sefariaHeadword": "גַּמְסָסִית",
+	"headwords": [
+		{
+			"text": "גַּמְסָסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "b"

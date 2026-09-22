@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00231",
-	"slug": "חוב-1",
-	"headword": {
-		"text": "חוּב"
-	},
+	"sefariaHeadword": "חוּב",
+	"headwords": [
+		{
+			"text": "חוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 428,
 		"column": "a"

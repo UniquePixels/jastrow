@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00903",
-	"slug": "הרקליאופוליס",
-	"headword": {
-		"text": "הֱרַקְלִיאוֹפּוֹלִיס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֱרַקְלִיאוֹפּוֹלִיס",
+	"headwords": [
+		{
+			"text": "הֱרַקְלִיאוֹפּוֹלִיס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 369,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

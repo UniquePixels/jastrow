@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00170",
-	"slug": "יודפת",
-	"headword": {
-		"text": "יוֹדְפָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹדְפָת",
+	"headwords": [
+		{
+			"text": "יוֹדְפָת"
+		},
 		{
 			"text": "יָדְפַת"
 		},
@@ -12,12 +13,10 @@
 			"text": "יָטְבַת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 568,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

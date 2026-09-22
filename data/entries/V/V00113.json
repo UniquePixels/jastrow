@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "V00113",
-	"slug": "תדמור",
-	"headword": {
-		"text": "תַּדְמוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּדְמוֹר",
+	"headwords": [
+		{
+			"text": "תַּדְמוֹר"
+		},
 		{
 			"text": "תַּרְמוֹד"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1648,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

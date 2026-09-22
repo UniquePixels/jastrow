@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00547",
-	"slug": "גזיל",
-	"headword": {
-		"text": "גְּזֵיל־"
-	},
+	"sefariaHeadword": "גְּזֵיל־",
+	"headwords": [
+		{
+			"text": "גְּזֵיל־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

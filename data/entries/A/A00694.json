@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00694",
-	"slug": "אומולוגין",
-	"headword": {
-		"text": "אומולוגין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אומולוגין",
+	"headwords": [
+		{
+			"text": "אומולוגין"
+		},
 		{
 			"text": "אמלוגין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 27,
 		"column": "a"

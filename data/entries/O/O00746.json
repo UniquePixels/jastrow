@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00746",
-	"slug": "סיסאי",
-	"headword": {
-		"text": "סִיסַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיסַאי",
+	"headwords": [
 		{
-			"text": "כְּפַר סִיסַאי"
+			"text": "סִיסַאי"
+		},
+		{
+			"text": "כְּפַר ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

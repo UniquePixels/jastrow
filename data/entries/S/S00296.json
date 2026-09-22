@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00296",
-	"slug": "קוטלזין",
-	"headword": {
-		"text": "קוּטְלֵזִין"
-	},
+	"sefariaHeadword": "קוּטְלֵזִין",
+	"headwords": [
+		{
+			"text": "קוּטְלֵזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

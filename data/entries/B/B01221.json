@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01221",
-	"slug": "ברזיל",
-	"headword": {
-		"text": "בַּרְזֵיל"
-	},
+	"sefariaHeadword": "בַּרְזֵיל",
+	"headwords": [
+		{
+			"text": "בַּרְזֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

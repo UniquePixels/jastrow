@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01408",
-	"slug": "מכמרת",
-	"headword": {
-		"text": "מִכְמֶרֶת"
-	},
+	"sefariaHeadword": "מִכְמֶרֶת",
+	"headwords": [
+		{
+			"text": "מִכְמֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

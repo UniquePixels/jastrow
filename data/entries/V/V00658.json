@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00658",
-	"slug": "תמוז",
-	"headword": {
-		"text": "תַּמּוּז"
-	},
+	"sefariaHeadword": "תַּמּוּז",
+	"headwords": [
+		{
+			"text": "תַּמּוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

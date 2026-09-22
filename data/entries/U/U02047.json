@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02047",
-	"slug": "שרשרת",
-	"headword": {
-		"text": "שַׁרְשֶׁרֶת"
-	},
+	"sefariaHeadword": "שַׁרְשֶׁרֶת",
+	"headwords": [
+		{
+			"text": "שַׁרְשֶׁרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

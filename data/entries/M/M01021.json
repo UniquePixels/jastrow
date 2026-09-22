@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01021",
-	"slug": "מטמונית",
-	"headword": {
-		"text": "מַטְמוֹנִית"
-	},
+	"sefariaHeadword": "מַטְמוֹנִית",
+	"headwords": [
+		{
+			"text": "מַטְמוֹנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

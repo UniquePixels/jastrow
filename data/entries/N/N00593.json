@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00593",
-	"slug": "נטשא",
-	"headword": {
-		"text": "נְטָשָׁא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נְטָשָׁא",
+	"headwords": [
+		{
+			"text": "נְטָשָׁא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

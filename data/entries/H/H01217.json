@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01217",
-	"slug": "חמצן",
-	"headword": {
-		"text": "חַמְצָן"
-	},
+	"sefariaHeadword": "חַמְצָן",
+	"headwords": [
+		{
+			"text": "חַמְצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 479,
 		"column": "b"

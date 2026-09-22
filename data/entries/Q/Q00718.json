@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00718",
-	"slug": "פימלנייה",
-	"headword": {
-		"text": "פִּימְלַנְיָיה"
-	},
+	"sefariaHeadword": "פִּימְלַנְיָיה",
+	"headwords": [
+		{
+			"text": "פִּימְלַנְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "a"

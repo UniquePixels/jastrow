@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00865",
-	"slug": "פירן",
-	"headword": {
-		"text": "פֵּירָן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פֵּירָן",
+	"headwords": [
+		{
+			"text": "פֵּירָן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1172,
 		"column": "a"

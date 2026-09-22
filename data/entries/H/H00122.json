@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00122",
-	"slug": "חברותא",
-	"headword": {
-		"text": "חַבָּרוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַבָּרוּתָא",
+	"headwords": [
+		{
+			"text": "חַבָּרוּתָא"
+		},
 		{
 			"text": "חַבְרוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 423,
 		"column": "a"

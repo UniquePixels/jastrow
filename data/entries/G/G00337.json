@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00337",
-	"slug": "זיין-2",
-	"headword": {
-		"text": "זַיִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַיִין",
+	"headwords": [
+		{
+			"text": "זַיִין"
+		},
 		{
 			"text": "זַיִן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "b"

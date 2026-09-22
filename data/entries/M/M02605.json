@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02605",
-	"slug": "מרור",
-	"headword": {
-		"text": "מָרוֹר"
-	},
+	"sefariaHeadword": "מָרוֹר",
+	"headwords": [
+		{
+			"text": "מָרוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

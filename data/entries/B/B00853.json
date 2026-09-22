@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00853",
-	"slug": "בלי-1",
-	"headword": {
-		"text": "בלי"
-	},
+	"sefariaHeadword": "בלי",
+	"headwords": [
+		{
+			"text": "בלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "a"

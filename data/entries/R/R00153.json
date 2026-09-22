@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00153",
-	"slug": "צוארנוייתא",
-	"headword": {
-		"text": "צַוַּארְנוֹיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַוַּארְנוֹיָיתָא",
+	"headwords": [
+		{
+			"text": "צַוַּארְנוֹיָיתָא"
+		},
 		{
 			"text": "צַיַּרְנְיָיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1265,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00510",
-	"slug": "זמורד",
-	"headword": {
-		"text": "זְמוֹרַד"
-	},
+	"sefariaHeadword": "זְמוֹרַד",
+	"headwords": [
+		{
+			"text": "זְמוֹרַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00405",
-	"slug": "נוקבא-1",
-	"headword": {
-		"text": "נוּקְבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּקְבָּא",
+	"headwords": [
+		{
+			"text": "נוּקְבָּא"
+		},
 		{
 			"text": "נוּקְבָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 890,
 		"column": "a"

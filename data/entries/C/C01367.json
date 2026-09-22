@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01367",
-	"slug": "גרמניקיא",
-	"headword": {
-		"text": "גִּרְמָנִיקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּרְמָנִיקְיָא",
+	"headwords": [
 		{
-			"text": "גִּירְ׳"
+			"text": "גִּרְמָנִיקְיָא"
+		},
+		{
+			"text": "גִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 270,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

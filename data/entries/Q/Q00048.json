@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00048",
-	"slug": "פגור",
-	"headword": {
-		"text": "פִּגּוּר"
-	},
+	"sefariaHeadword": "פִּגּוּר",
+	"headwords": [
+		{
+			"text": "פִּגּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00350",
-	"slug": "פוריינא",
-	"headword": {
-		"text": "פּוּרְיָינָא"
-	},
+	"sefariaHeadword": "פּוּרְיָינָא",
+	"headwords": [
+		{
+			"text": "פּוּרְיָינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "a"

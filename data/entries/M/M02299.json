@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02299",
-	"slug": "מצות",
-	"headword": {
-		"text": "מַצּוּת"
-	},
+	"sefariaHeadword": "מַצּוּת",
+	"headwords": [
+		{
+			"text": "מַצּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00607",
-	"slug": "בייתוס",
-	"headword": {
-		"text": "בַּיְיתוֹס"
-	},
+	"sefariaHeadword": "בַּיְיתוֹס",
+	"headwords": [
+		{
+			"text": "בַּיְיתוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

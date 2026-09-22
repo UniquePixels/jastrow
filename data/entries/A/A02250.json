@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02250",
-	"slug": "אנלוגין",
-	"headword": {
-		"text": "אַנְלוֹגִין"
-	},
+	"sefariaHeadword": "אַנְלוֹגִין",
+	"headwords": [
+		{
+			"text": "אַנְלוֹגִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 85,
 		"column": "b"

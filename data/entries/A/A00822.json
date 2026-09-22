@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00822",
-	"slug": "אוציא",
-	"headword": {
-		"text": "אוּצְיָא"
-	},
+	"sefariaHeadword": "אוּצְיָא",
+	"headwords": [
+		{
+			"text": "אוּצְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

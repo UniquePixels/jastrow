@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00969",
-	"slug": "פלוטומנין",
-	"headword": {
-		"text": "פלוטומנין"
-	},
+	"sefariaHeadword": "פלוטומנין",
+	"headwords": [
+		{
+			"text": "פלוטומנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

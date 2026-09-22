@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00067",
-	"slug": "אבויין",
-	"headword": {
-		"text": "אבויין"
-	},
+	"sefariaHeadword": "אבויין",
+	"headwords": [
+		{
+			"text": "אבויין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00943",
-	"slug": "אותונין",
-	"headword": {
-		"text": "אותונין"
-	},
+	"sefariaHeadword": "אותונין",
+	"headwords": [
+		{
+			"text": "אותונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01471",
-	"slug": "פקוקרת",
-	"headword": {
-		"text": "פְּקוֹקֶרֶת"
-	},
+	"sefariaHeadword": "פְּקוֹקֶרֶת",
+	"headwords": [
+		{
+			"text": "פְּקוֹקֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

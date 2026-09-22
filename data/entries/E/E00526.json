@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00526",
-	"slug": "הכשיר",
-	"headword": {
-		"text": "הֶכְשֵׁיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶכְשֵׁיר",
+	"headwords": [
+		{
+			"text": "הֶכְשֵׁיר"
+		},
 		{
 			"text": "הֶכְשֵׁר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 351,
 		"column": "b"

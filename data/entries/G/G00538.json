@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "G00538",
-	"slug": "זמן-4",
-	"headword": {
-		"text": "זְמַן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְמַן II",
+	"headwords": [
+		{
+			"text": "זְמַן",
+			"homograph": 2
+		},
 		{
 			"text": "זְמַנָּא"
 		},
@@ -13,9 +14,11 @@
 			"text": "זִמְנָא"
 		},
 		{
-			"text": "זִי׳"
+			"text": "זִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 404,
 		"column": "b"
@@ -33,7 +36,7 @@
 				"<cite ref=\"Bava Batra 73b:4\">B. Bath. 73ᵇ</cite>, a. fr. <he>ז׳ חדא</he> once upon a time (introducing a story).—Pl. <he>זִמְנִין</he>, <cite ref=\"G00538\"><he>זִי׳</he></cite>. ",
 				"<cite ref=\"Onkelos Exodus 23:17\">Targ. Ex. XXIII, 17</cite>; a. e.—",
 				"<cite ref=\"Zevachim 94b:2\">Zeb. 94ᵇ</cite>, a. fr. <he>ז׳ סגיאין</he> many times.—<he>ז׳</he>—ז׳ <i>at times</i> … <i>at other times</i>. ",
-				"<cite ref=\"Berakhot 20b:15\">Ber. 20ᵇ</cite>, a. fr.—<he>מַשְׁכֵּן זִימְנָא</he> = h. <he>אֹהֶל מוֹעֵד</he>. ",
+				"<cite ref=\"Berakhot 20b:15\">Ber. 20ᵇ</cite>, a. fr.—<he>מַשְׁכֵּן זִימְנָא</he> = h. <he>אֹהֶל מוֹעֵד</he>. ",
 				"<cite ref=\"Onkelos Exodus 28:43\">Targ. Ex. XXVIII, 43</cite>; a. fr.—",
 				"<cite ref=\"Aramaic Targum to Psalms 74:4\">Targ. Ps. LXXIV, 4</cite> <he>זִמְנָיִךְ</he> = <he>משכני זי׳</he>.—",
 				"<cite ref=\"Targum Jonathan on Jeremiah 47:6\">Targ. Jer. XLVII, 6</cite> <he>לבית ז׳</he> to thy destined home (the sheath; h. text <he>הֵרָגְעִי</he>!).—[<cite ref=\"Aramaic Targum to Psalms 141:4\">Targ. Ps. CXLI, 4</cite> <he>בזמן משתיהון</he> Ms (ed. <he>בזמר בית מ׳</he>) at their <i>appointed banquets</i>, v. <cite ref=\"G00537\">preced.</cite> wds.]"

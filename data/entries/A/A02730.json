@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02730",
-	"slug": "אפכיות",
-	"headword": {
-		"text": "אַפְכִיּוֹת"
-	},
+	"sefariaHeadword": "אַפְכִיּוֹת",
+	"headwords": [
+		{
+			"text": "אַפְכִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00717",
-	"slug": "טרדין",
-	"headword": {
-		"text": "טַרְדִּין"
-	},
+	"sefariaHeadword": "טַרְדִּין",
+	"headwords": [
+		{
+			"text": "טַרְדִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "b"

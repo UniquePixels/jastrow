@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00297",
-	"slug": "עונה-4",
-	"headword": {
-		"text": "עוֹנָה",
-		"homograph": 4
-	},
+	"sefariaHeadword": "עוֹנָה IV",
+	"headwords": [
+		{
+			"text": "עוֹנָה",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 1054,
 		"column": "b"

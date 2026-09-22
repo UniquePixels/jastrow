@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00787",
-	"slug": "כמאי",
-	"headword": {
-		"text": "כְּמַאי"
-	},
+	"sefariaHeadword": "כְּמַאי",
+	"headwords": [
+		{
+			"text": "כְּמַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "a"

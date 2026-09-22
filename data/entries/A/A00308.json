@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00308",
-	"slug": "אגם-2",
-	"headword": {
-		"text": "אֲגַם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲגַם II",
+	"headwords": [
+		{
+			"text": "אֲגַם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 12,
 		"column": "b"

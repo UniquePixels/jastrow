@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "T00783",
-	"slug": "רם-4",
-	"headword": {
-		"text": "רָם",
-		"disambiguator": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָם ⁴",
+	"headwords": [
+		{
+			"text": "רָם",
+			"disambiguator": 4
+		},
 		{
 			"text": "רָמָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ⁴, {1} I",
 	"page": {
 		"number": 1481,
 		"column": "a"

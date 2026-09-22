@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00885",
-	"slug": "פישפשה",
-	"headword": {
-		"text": "פִּישְׁפָּשָׁה"
-	},
+	"sefariaHeadword": "פִּישְׁפָּשָׁה",
+	"headwords": [
+		{
+			"text": "פִּישְׁפָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "b"

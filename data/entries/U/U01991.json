@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01991",
-	"slug": "שריתא",
-	"headword": {
-		"text": "שָׁרִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁרִיתָא",
+	"headwords": [
+		{
+			"text": "שָׁרִיתָא"
+		},
 		{
 			"text": "שָׁרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1631,
 		"column": "b"

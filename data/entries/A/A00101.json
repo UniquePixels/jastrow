@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00101",
-	"slug": "אבטילאות",
-	"headword": {
-		"text": "אבטילאות"
-	},
+	"sefariaHeadword": "אבטילאות",
+	"headwords": [
+		{
+			"text": "אבטילאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

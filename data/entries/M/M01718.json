@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01718",
-	"slug": "מנדע",
-	"headword": {
-		"text": "מַנְדַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַנְדַּע",
+	"headwords": [
+		{
+			"text": "מַנְדַּע"
+		},
 		{
 			"text": "מַנְדְּעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 797,
 		"column": "a"

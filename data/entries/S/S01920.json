@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01920",
-	"slug": "קרדס",
-	"headword": {
-		"text": "קִרְדֵּס"
-	},
+	"sefariaHeadword": "קִרְדֵּס",
+	"headwords": [
+		{
+			"text": "קִרְדֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

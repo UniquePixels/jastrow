@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01690",
-	"slug": "אכים",
-	"headword": {
-		"text": "אָכִים",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אָכִים",
+	"headwords": [
+		{
+			"text": "אָכִים",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 63,
 		"column": "a"

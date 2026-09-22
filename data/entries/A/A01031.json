@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01031",
-	"slug": "אחיי",
-	"headword": {
-		"text": "אַחַיי"
-	},
+	"sefariaHeadword": "אַחַיי",
+	"headwords": [
+		{
+			"text": "אַחַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 40,
 		"column": "a"

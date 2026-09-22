@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00167",
-	"slug": "בהולתא",
-	"headword": {
-		"text": "בַּהוּלְתָּא"
-	},
+	"sefariaHeadword": "בַּהוּלְתָּא",
+	"headwords": [
+		{
+			"text": "בַּהוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 142,
 		"column": "a"

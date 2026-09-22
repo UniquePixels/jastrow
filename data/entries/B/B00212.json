@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00212",
-	"slug": "בודידה",
-	"headword": {
-		"text": "בּוֹדִידָה"
-	},
+	"sefariaHeadword": "בּוֹדִידָה",
+	"headwords": [
+		{
+			"text": "בּוֹדִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

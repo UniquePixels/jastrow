@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02715",
-	"slug": "אפיקילטא",
-	"headword": {
-		"text": "אַפִּיקִילְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפִּיקִילְטָא",
+	"headwords": [
+		{
+			"text": "אַפִּיקִילְטָא"
+		},
 		{
 			"text": "אַפִּיקִילְטִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "פִּיקִילְטִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 104,
 		"column": "b"

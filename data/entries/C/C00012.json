@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00012",
-	"slug": "גאוסטיני",
-	"headword": {
-		"text": "גאוסטיני"
-	},
+	"sefariaHeadword": "גאוסטיני",
+	"headwords": [
+		{
+			"text": "גאוסטיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01059",
-	"slug": "תרקי",
-	"headword": {
-		"text": "תַּרְקִי"
-	},
+	"sefariaHeadword": "תַּרְקִי",
+	"headwords": [
+		{
+			"text": "תַּרְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

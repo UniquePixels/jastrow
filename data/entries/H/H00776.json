@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00776",
-	"slug": "חיליא",
-	"headword": {
-		"text": "חיליא"
-	},
+	"sefariaHeadword": "חיליא",
+	"headwords": [
+		{
+			"text": "חיליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

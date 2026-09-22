@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00179",
-	"slug": "מגל-1",
-	"headword": {
-		"text": "מַגָּל"
-	},
+	"sefariaHeadword": "מַגָּל",
+	"headwords": [
+		{
+			"text": "מַגָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "b"

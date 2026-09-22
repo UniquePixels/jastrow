@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00489",
-	"slug": "עיבא-2",
-	"headword": {
-		"text": "עַיָּבָא"
-	},
+	"sefariaHeadword": "עַיָּבָא",
+	"headwords": [
+		{
+			"text": "עַיָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "b"

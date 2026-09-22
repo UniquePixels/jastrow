@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00099",
-	"slug": "דגוגא",
-	"headword": {
-		"text": "דְּגוּגָא"
-	},
+	"sefariaHeadword": "דְּגוּגָא",
+	"headwords": [
+		{
+			"text": "דְּגוּגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "b"

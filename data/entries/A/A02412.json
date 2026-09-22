@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02412",
-	"slug": "אסטרטיא-1",
-	"headword": {
-		"text": "אִסְטְרַטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטְרַטְיָא",
+	"headwords": [
+		{
+			"text": "אִסְטְרַטְיָא"
+		},
 		{
 			"text": "אִיסְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 91,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01552",
-	"slug": "חקור",
-	"headword": {
-		"text": "חִקּוּר"
-	},
+	"sefariaHeadword": "חִקּוּר",
+	"headwords": [
+		{
+			"text": "חִקּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 496,
 		"column": "b"

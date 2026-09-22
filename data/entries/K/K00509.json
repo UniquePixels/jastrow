@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00509",
-	"slug": "כיונותא",
-	"headword": {
-		"text": "כיונותא"
-	},
+	"sefariaHeadword": "כיונותא",
+	"headwords": [
+		{
+			"text": "כיונותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

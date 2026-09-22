@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00688",
-	"slug": "פילוסין-1",
-	"headword": {
-		"text": "פִּילוּסִין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּילוּסִין I",
+	"headwords": [
+		{
+			"text": "פִּילוּסִין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1164,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

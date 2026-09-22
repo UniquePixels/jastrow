@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00496",
-	"slug": "יעקב",
-	"headword": {
-		"text": "יַעֲקֹב"
-	},
+	"sefariaHeadword": "יַעֲקֹב",
+	"headwords": [
+		{
+			"text": "יַעֲקֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 585,
 		"column": "a"

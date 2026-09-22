@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01135",
-	"slug": "גניבה",
-	"headword": {
-		"text": "גְּנֵיבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנֵיבָה",
+	"headwords": [
+		{
+			"text": "גְּנֵיבָה"
+		},
 		{
 			"text": "גְּנֵבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 259,
 		"column": "b"

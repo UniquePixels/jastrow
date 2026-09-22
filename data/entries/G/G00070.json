@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00070",
-	"slug": "זד",
-	"headword": {
-		"text": "זֵד"
-	},
+	"sefariaHeadword": "זֵד",
+	"headwords": [
+		{
+			"text": "זֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "b"

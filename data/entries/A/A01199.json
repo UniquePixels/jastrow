@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01199",
-	"slug": "איזמא",
-	"headword": {
-		"text": "אִיזְמָא"
-	},
+	"sefariaHeadword": "אִיזְמָא",
+	"headwords": [
+		{
+			"text": "אִיזְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00511",
-	"slug": "מולך",
-	"headword": {
-		"text": "מוֹלֶךְ"
-	},
+	"sefariaHeadword": "מוֹלֶךְ",
+	"headwords": [
+		{
+			"text": "מוֹלֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "a"

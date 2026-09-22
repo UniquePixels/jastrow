@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01019",
-	"slug": "אחורי",
-	"headword": {
-		"text": "אֲחוֹרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲחוֹרִי",
+	"headwords": [
+		{
+			"text": "אֲחוֹרִי"
+		},
 		{
 			"text": "אוֹחֲרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 39,
 		"column": "b"

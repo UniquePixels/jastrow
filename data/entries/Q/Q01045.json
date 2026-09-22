@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01045",
-	"slug": "פליום",
-	"headword": {
-		"text": "פַּלְיוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְיוּם",
+	"headwords": [
+		{
+			"text": "פַּלְיוּם"
+		},
 		{
 			"text": "פַּלְיוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1181,
 		"column": "b"

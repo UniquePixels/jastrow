@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "V00832",
-	"slug": "תפלה-3",
-	"headword": {
-		"text": "תְּפִלָּה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּפִלָּה ²",
+	"headwords": [
 		{
-			"text": "תְּפִי׳"
+			"text": "תְּפִלָּה",
+			"disambiguator": 2
+		},
+		{
+			"text": "תְּפִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1687,
 		"column": "a"

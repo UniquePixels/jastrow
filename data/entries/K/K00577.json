@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00577",
-	"slug": "כיס-2",
-	"headword": {
-		"text": "כִּיס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיס ²",
+	"headwords": [
+		{
+			"text": "כִּיס",
+			"disambiguator": 2
+		},
 		{
 			"text": "כִּיסָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

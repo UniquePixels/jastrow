@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00528",
-	"slug": "לישה",
-	"headword": {
-		"text": "לִישָׁה"
-	},
+	"sefariaHeadword": "לִישָׁה",
+	"headwords": [
+		{
+			"text": "לִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 710,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00395",
-	"slug": "לטם",
-	"headword": {
-		"text": "לְטֹם"
-	},
+	"sefariaHeadword": "לְטֹם",
+	"headwords": [
+		{
+			"text": "לְטֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

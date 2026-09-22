@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02228",
-	"slug": "אנין",
-	"headword": {
-		"text": "אָנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָנִין",
+	"headwords": [
+		{
+			"text": "אָנִין"
+		},
 		{
 			"text": "אֲנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 85,
 		"column": "a"

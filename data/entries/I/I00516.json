@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00516",
-	"slug": "טלני",
-	"headword": {
-		"text": "טְלָנֵי"
-	},
+	"sefariaHeadword": "טְלָנֵי",
+	"headwords": [
+		{
+			"text": "טְלָנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

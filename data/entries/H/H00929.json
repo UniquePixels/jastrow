@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00929",
-	"slug": "חכינתה",
-	"headword": {
-		"text": "חֲכִינְתָּה"
-	},
+	"sefariaHeadword": "חֲכִינְתָּה",
+	"headwords": [
+		{
+			"text": "חֲכִינְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "a"

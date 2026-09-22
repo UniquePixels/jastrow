@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01319",
-	"slug": "חנף-1",
-	"headword": {
-		"text": "חָנַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָנַף",
+	"headwords": [
+		{
+			"text": "חָנַף"
+		},
 		{
 			"text": "חָנֵף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 484,
 		"column": "b"

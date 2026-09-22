@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00715",
-	"slug": "לתיתה",
-	"headword": {
-		"text": "לְתִיתָה"
-	},
+	"sefariaHeadword": "לְתִיתָה",
+	"headwords": [
+		{
+			"text": "לְתִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "b"

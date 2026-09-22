@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02051",
-	"slug": "מעבורא",
-	"headword": {
-		"text": "מַעֲבוּרָא"
-	},
+	"sefariaHeadword": "מַעֲבוּרָא",
+	"headwords": [
+		{
+			"text": "מַעֲבוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00023",
-	"slug": "דאית",
-	"headword": {
-		"text": "דאית"
-	},
+	"sefariaHeadword": "דאית",
+	"headwords": [
+		{
+			"text": "דאית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

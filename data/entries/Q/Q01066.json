@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01066",
-	"slug": "פליסופוס",
-	"headword": {
-		"text": "פליסופוס"
-	},
+	"sefariaHeadword": "פליסופוס",
+	"headwords": [
+		{
+			"text": "פליסופוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1182,
 		"column": "a"

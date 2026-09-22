@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01756",
-	"slug": "פרח-3",
-	"headword": {
-		"text": "פֶּרַח"
-	},
+	"sefariaHeadword": "פֶּרַח",
+	"headwords": [
+		{
+			"text": "פֶּרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1223,
 		"column": "b"

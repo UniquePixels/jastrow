@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00063",
-	"slug": "וולדנית",
-	"headword": {
-		"text": "וַולְדָּנִית"
-	},
+	"sefariaHeadword": "וַולְדָּנִית",
+	"headwords": [
+		{
+			"text": "וַולְדָּנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 374,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00724",
-	"slug": "טרוט",
-	"headword": {
-		"text": "טָרוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָרוּט",
+	"headwords": [
+		{
+			"text": "טָרוּט"
+		},
 		{
 			"text": "טְרוּטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 550,
 		"column": "b"

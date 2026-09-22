@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01206",
-	"slug": "קיש-2",
-	"headword": {
-		"text": "קִישׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קִישׁ II",
+	"headwords": [
+		{
+			"text": "קִישׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1370,
 		"column": "a"

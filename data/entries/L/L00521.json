@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00521",
-	"slug": "ליקונין",
-	"headword": {
-		"text": "לִיקוּנִין"
-	},
+	"sefariaHeadword": "לִיקוּנִין",
+	"headwords": [
+		{
+			"text": "לִיקוּנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "b"

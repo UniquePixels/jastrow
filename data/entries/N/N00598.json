@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00598",
-	"slug": "ניאוצא",
-	"headword": {
-		"text": "נִיאוּצָא"
-	},
+	"sefariaHeadword": "נִיאוּצָא",
+	"headwords": [
+		{
+			"text": "נִיאוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

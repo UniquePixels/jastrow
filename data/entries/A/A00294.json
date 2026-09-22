@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00294",
-	"slug": "אגינו",
-	"headword": {
-		"text": "אגינו"
-	},
+	"sefariaHeadword": "אגינו",
+	"headwords": [
+		{
+			"text": "אגינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

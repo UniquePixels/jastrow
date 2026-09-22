@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00702",
-	"slug": "צפן",
-	"headword": {
-		"text": "צָפַן"
-	},
+	"sefariaHeadword": "צָפַן",
+	"headwords": [
+		{
+			"text": "צָפַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1297,
 		"column": "b"

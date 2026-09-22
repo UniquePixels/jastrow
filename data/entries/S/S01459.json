@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01459",
-	"slug": "קמחית",
-	"headword": {
-		"text": "קִמְחִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִמְחִית",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִמְחִית"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1384,
 		"column": "b"

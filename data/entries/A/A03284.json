@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03284",
-	"slug": "אשיאן",
-	"headword": {
-		"text": "אַשְׁיָאן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁיָאן",
+	"headwords": [
+		{
+			"text": "אַשְׁיָאן"
+		},
 		{
 			"text": "אַשְׁיָיאן"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַשְׁיָין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 127,
 		"column": "b"

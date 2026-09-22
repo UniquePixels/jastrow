@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01915",
-	"slug": "אלמוני",
-	"headword": {
-		"text": "אַלְמוֹנִי"
-	},
+	"sefariaHeadword": "אַלְמוֹנִי",
+	"headwords": [
+		{
+			"text": "אַלְמוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "b"

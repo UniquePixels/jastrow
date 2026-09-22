@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00995",
-	"slug": "כפור-4",
-	"headword": {
-		"text": "כְּפוֹר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כְּפוֹר II",
+	"headwords": [
+		{
+			"text": "כְּפוֹר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 657,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01162",
-	"slug": "בראשית",
-	"headword": {
-		"text": "בְּרֵאשִׁית"
-	},
+	"sefariaHeadword": "בְּרֵאשִׁית",
+	"headwords": [
+		{
+			"text": "בְּרֵאשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

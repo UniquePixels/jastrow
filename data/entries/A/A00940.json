@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00940",
-	"slug": "אות-2",
-	"headword": {
-		"text": "אוֹת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אוֹת II",
+	"headwords": [
+		{
+			"text": "אוֹת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 36,
 		"column": "a"
@@ -15,7 +19,7 @@
 			"units": []
 		},
 		{
-			"gloss": "<i>mark, sign, emblem; test, signal, military ensign</i>. Ḥag. 16ᵃ (play on <he>ואתה</he> <cite ref=\"Deuteronomy 33:2\">Deut. XXXIII, 2</cite>; cmp. <cite ref=\"A00939\">foreg.</cite>) <he>אות הוא וכ׳</he> He is the ensign among his myriad; v. <cite ref=\"D00190\"><he>דּוּגְמָא</he></cite>. ",
+			"gloss": "<i>mark, sign, emblem; test, signal, military ensign</i>. Ḥag. 16ᵃ (play on <he>ואתה</he> <cite ref=\"Deuteronomy 33:2\">Deut. XXXIII, 2</cite>; cmp. <cite ref=\"A00939\">foreg.</cite>) <he>אות הוא וכ׳</he> He is the ensign among his myriad; v. <cite ref=\"D00190\"><he>דּוּגְמָא</he></cite>. ",
 			"units": [
 				"<cite ref=\"Moed Katan 25b:7\">M. Kat. 25ᵇ</cite> <he>אל תזניחנו בא׳ וכ׳</he> forsake us not in the symbolic trial of bitter waters (in our trials). Pl. <he>אוֹתוֹת</he>. ",
 				"<cite ref=\"Mishnah Kilayim 9:10\">Kil. IX, 10</cite> <he>א׳ הגרדין וכ׳</he> the marks which the weavers &c. put on goods in their charge. ",

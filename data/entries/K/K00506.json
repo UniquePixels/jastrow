@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00506",
-	"slug": "כיון-3",
-	"headword": {
-		"text": "כֵּיוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיוָן",
+	"headwords": [
+		{
+			"text": "כֵּיוָן"
+		},
 		{
 			"text": "כֵּיוָון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 631,
 		"column": "a"

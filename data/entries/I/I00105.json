@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00105",
-	"slug": "טהרה",
-	"headword": {
-		"text": "טָהֳרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָהֳרָה",
+	"headwords": [
+		{
+			"text": "טָהֳרָה"
+		},
 		{
 			"text": "טַהֲרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 520,
 		"column": "b"

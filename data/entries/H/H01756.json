@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01756",
-	"slug": "חרצן",
-	"headword": {
-		"text": "חַרְצַן"
-	},
+	"sefariaHeadword": "חַרְצַן",
+	"headwords": [
+		{
+			"text": "חַרְצַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 506,
 		"column": "a"

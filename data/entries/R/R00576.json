@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00576",
-	"slug": "צמיד-2",
-	"headword": {
-		"text": "צָמִיד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָמִיד ²",
+	"headwords": [
+		{
+			"text": "צָמִיד",
+			"disambiguator": 2
+		},
 		{
 			"text": "צְמִידָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1288,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00945",
-	"slug": "כסמת",
-	"headword": {
-		"text": "כֻּסֶּמֶת"
-	},
+	"sefariaHeadword": "כֻּסֶּמֶת",
+	"headwords": [
+		{
+			"text": "כֻּסֶּמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "b"

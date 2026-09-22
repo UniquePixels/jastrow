@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00473",
-	"slug": "היסיטות",
-	"headword": {
-		"text": "הֶיסֵּיטוֹת"
-	},
+	"sefariaHeadword": "הֶיסֵּיטוֹת",
+	"headwords": [
+		{
+			"text": "הֶיסֵּיטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 349,
 		"column": "a"

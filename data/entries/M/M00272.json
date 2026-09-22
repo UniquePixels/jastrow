@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00272",
-	"slug": "מדוקרן",
-	"headword": {
-		"text": "מְדוּקְרָן"
-	},
+	"sefariaHeadword": "מְדוּקְרָן",
+	"headwords": [
+		{
+			"text": "מְדוּקְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

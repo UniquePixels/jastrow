@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02306",
-	"slug": "מצי-1",
-	"headword": {
-		"text": "מצי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מצי",
+	"headwords": [
+		{
+			"text": "מצי"
+		},
 		{
 			"text": "מָצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 825,
 		"column": "a"

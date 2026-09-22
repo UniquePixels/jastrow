@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00640",
-	"slug": "כישרא",
-	"headword": {
-		"text": "כִּישְׁרָא"
-	},
+	"sefariaHeadword": "כִּישְׁרָא",
+	"headwords": [
+		{
+			"text": "כִּישְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 637,
 		"column": "a"

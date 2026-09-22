@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00518",
-	"slug": "קופסא",
-	"headword": {
-		"text": "קוּפְסָא"
-	},
+	"sefariaHeadword": "קוּפְסָא",
+	"headwords": [
+		{
+			"text": "קוּפְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1339,
 		"column": "a"

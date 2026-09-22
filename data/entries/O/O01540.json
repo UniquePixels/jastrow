@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01540",
-	"slug": "סרדיוט",
-	"headword": {
-		"text": "סְרַדְיוֹט"
-	},
+	"sefariaHeadword": "סְרַדְיוֹט",
+	"headwords": [
+		{
+			"text": "סְרַדְיוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "b"

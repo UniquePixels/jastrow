@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00943",
-	"slug": "תרגם-1",
-	"headword": {
-		"text": "תִּרְגֵּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּרְגֵּם",
+	"headwords": [
 		{
-			"text": "תִּירְ׳"
+			"text": "תִּרְגֵּם"
+		},
+		{
+			"text": "תִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1695,
 		"column": "b"

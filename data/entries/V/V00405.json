@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00405",
-	"slug": "תיאמי",
-	"headword": {
-		"text": "תִּיאָמֵי"
-	},
+	"sefariaHeadword": "תִּיאָמֵי",
+	"headwords": [
+		{
+			"text": "תִּיאָמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

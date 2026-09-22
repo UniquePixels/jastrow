@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00064",
-	"slug": "כבן-1",
-	"headword": {
-		"text": "כָּבַן"
-	},
+	"sefariaHeadword": "כָּבַן",
+	"headwords": [
+		{
+			"text": "כָּבַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "b"

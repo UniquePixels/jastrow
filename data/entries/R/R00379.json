@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00379",
-	"slug": "צימם",
-	"headword": {
-		"text": "צִימָּם"
-	},
+	"sefariaHeadword": "צִימָּם",
+	"headwords": [
+		{
+			"text": "צִימָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "b"

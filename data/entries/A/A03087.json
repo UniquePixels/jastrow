@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03087",
-	"slug": "אריהון",
-	"headword": {
-		"text": "אריהון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אריהון",
+	"headwords": [
+		{
+			"text": "אריהון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 119,
 		"column": "a"

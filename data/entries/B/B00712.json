@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00712",
-	"slug": "בירזלין",
-	"headword": {
-		"text": "בירזלין"
-	},
+	"sefariaHeadword": "בירזלין",
+	"headwords": [
+		{
+			"text": "בירזלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

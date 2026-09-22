@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03039",
-	"slug": "ארונית",
-	"headword": {
-		"text": "אִרוֹנִית"
-	},
+	"sefariaHeadword": "אִרוֹנִית",
+	"headwords": [
+		{
+			"text": "אִרוֹנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00658",
-	"slug": "זר-1",
-	"headword": {
-		"text": "זֵר"
-	},
+	"sefariaHeadword": "זֵר",
+	"headwords": [
+		{
+			"text": "זֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "a"

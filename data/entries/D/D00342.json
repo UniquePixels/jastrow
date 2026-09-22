@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00342",
-	"slug": "דור-2",
-	"headword": {
-		"text": "דּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּר",
+	"headwords": [
+		{
+			"text": "דּוּר"
+		},
 		{
 			"text": "דִּיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 288,
 		"column": "b"

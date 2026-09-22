@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00457",
-	"slug": "כחול",
-	"headword": {
-		"text": "כְּחוֹל"
-	},
+	"sefariaHeadword": "כְּחוֹל",
+	"headwords": [
+		{
+			"text": "כְּחוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

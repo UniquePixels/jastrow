@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00728",
-	"slug": "ניפול-1",
-	"headword": {
-		"text": "נִיפּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיפּוּל",
+	"headwords": [
 		{
-			"text": "נִפּ׳"
+			"text": "נִיפּוּל"
+		},
+		{
+			"text": "נִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "a"

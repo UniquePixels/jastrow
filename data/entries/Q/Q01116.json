@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01116",
-	"slug": "פלפל-3",
-	"headword": {
-		"text": "פַּלְפֵּל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פַּלְפֵּל II",
+	"headwords": [
+		{
+			"text": "פַּלְפֵּל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1184,
 		"column": "b"

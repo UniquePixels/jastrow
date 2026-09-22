@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01524",
-	"slug": "סרבניתא",
-	"headword": {
-		"text": "סַרְבָּנִיתָא"
-	},
+	"sefariaHeadword": "סַרְבָּנִיתָא",
+	"headwords": [
+		{
+			"text": "סַרְבָּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "b"

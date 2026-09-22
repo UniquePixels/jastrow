@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00731",
-	"slug": "חייל-1",
-	"headword": {
-		"text": "חָיֵיל"
-	},
+	"sefariaHeadword": "חָיֵיל",
+	"headwords": [
+		{
+			"text": "חָיֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

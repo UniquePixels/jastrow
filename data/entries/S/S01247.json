@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01247",
-	"slug": "קלבוס",
-	"headword": {
-		"text": "קלבוס"
-	},
+	"sefariaHeadword": "קלבוס",
+	"headwords": [
+		{
+			"text": "קלבוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

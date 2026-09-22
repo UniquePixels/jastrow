@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01488",
-	"slug": "חצא",
-	"headword": {
-		"text": "חֲצָא"
-	},
+	"sefariaHeadword": "חֲצָא",
+	"headwords": [
+		{
+			"text": "חֲצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 493,
 		"column": "b"

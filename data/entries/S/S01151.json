@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01151",
-	"slug": "קיר׳",
-	"headword": {
-		"text": "קיר׳"
-	},
+	"sefariaHeadword": "קיר׳",
+	"headwords": [
+		{
+			"text": "קיר׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "a"

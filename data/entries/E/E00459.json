@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00459",
-	"slug": "הינומא",
-	"headword": {
-		"text": "הֵינוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵינוּמָא",
+	"headwords": [
+		{
+			"text": "הֵינוּמָא"
+		},
 		{
 			"text": "הֵינוּמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 348,
 		"column": "b"

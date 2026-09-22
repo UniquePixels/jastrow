@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00454",
-	"slug": "פחורה",
-	"headword": {
-		"text": "פָּחוֹרָה"
-	},
+	"sefariaHeadword": "פָּחוֹרָה",
+	"headwords": [
+		{
+			"text": "פָּחוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "b"

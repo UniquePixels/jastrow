@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00484",
-	"slug": "צלה-2",
-	"headword": {
-		"text": "צִלָּה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צִלָּה II",
+	"headwords": [
+		{
+			"text": "צִלָּה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1282,
 		"column": "a"

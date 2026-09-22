@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00609",
-	"slug": "ניבוריא",
-	"headword": {
-		"text": "נִיבּוּרַיָּא"
-	},
+	"sefariaHeadword": "נִיבּוּרַיָּא",
+	"headwords": [
+		{
+			"text": "נִיבּוּרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

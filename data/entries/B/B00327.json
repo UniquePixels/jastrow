@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00327",
-	"slug": "בוקתא",
-	"headword": {
-		"text": "בּוּקְתָא"
-	},
+	"sefariaHeadword": "בּוּקְתָא",
+	"headwords": [
+		{
+			"text": "בּוּקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "b"

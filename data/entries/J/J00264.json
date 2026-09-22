@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00264",
-	"slug": "יזף-2",
-	"headword": {
-		"text": "יִזַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִזַף",
+	"headwords": [
+		{
+			"text": "יִזַף"
+		},
 		{
 			"text": "זִיף"
 		},
@@ -12,6 +13,7 @@
 			"text": "זוּף"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 572,
 		"column": "b"

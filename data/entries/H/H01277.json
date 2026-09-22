@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01277",
-	"slug": "חנטא-2",
-	"headword": {
-		"text": "חִנְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִנְטָא",
+	"headwords": [
 		{
-			"text": "חִינְ׳"
+			"text": "חִנְטָא"
+		},
+		{
+			"text": "חִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 482,
 		"column": "b"

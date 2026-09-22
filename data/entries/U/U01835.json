@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01835",
-	"slug": "שקולא",
-	"headword": {
-		"text": "שָׁקוֹלָא"
-	},
+	"sefariaHeadword": "שָׁקוֹלָא",
+	"headwords": [
+		{
+			"text": "שָׁקוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1621,
 		"column": "b"

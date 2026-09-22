@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00785",
-	"slug": "הצנע",
-	"headword": {
-		"text": "הַצְנֵעַ"
-	},
+	"sefariaHeadword": "הַצְנֵעַ",
+	"headwords": [
+		{
+			"text": "הַצְנֵעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 364,
 		"column": "a"

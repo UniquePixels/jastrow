@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02083",
-	"slug": "אנא-1",
-	"headword": {
-		"text": "אָנָּא"
-	},
+	"sefariaHeadword": "אָנָּא",
+	"headwords": [
+		{
+			"text": "אָנָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

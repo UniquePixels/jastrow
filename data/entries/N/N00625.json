@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00625",
-	"slug": "נידויא",
-	"headword": {
-		"text": "נִידּוּיָא"
-	},
+	"sefariaHeadword": "נִידּוּיָא",
+	"headwords": [
+		{
+			"text": "נִידּוּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

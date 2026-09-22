@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00096",
-	"slug": "זהים",
-	"headword": {
-		"text": "זְהִים"
-	},
+	"sefariaHeadword": "זְהִים",
+	"headwords": [
+		{
+			"text": "זְהִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

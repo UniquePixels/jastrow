@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00813",
-	"slug": "בלבוטס",
-	"headword": {
-		"text": "בלבוטס"
-	},
+	"sefariaHeadword": "בלבוטס",
+	"headwords": [
+		{
+			"text": "בלבוטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "b"

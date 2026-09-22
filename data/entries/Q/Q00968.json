@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00968",
-	"slug": "פלוטומיא",
-	"headword": {
-		"text": "פלוטומיא"
-	},
+	"sefariaHeadword": "פלוטומיא",
+	"headwords": [
+		{
+			"text": "פלוטומיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

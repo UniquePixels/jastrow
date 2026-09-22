@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00036",
-	"slug": "וייאדן",
-	"headword": {
-		"text": "וייאדן"
-	},
+	"sefariaHeadword": "וייאדן",
+	"headwords": [
+		{
+			"text": "וייאדן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

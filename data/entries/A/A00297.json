@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00297",
-	"slug": "אגיסטרין",
-	"headword": {
-		"text": "אגיסטרין"
-	},
+	"sefariaHeadword": "אגיסטרין",
+	"headwords": [
+		{
+			"text": "אגיסטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00726",
-	"slug": "חייוב",
-	"headword": {
-		"text": "חִיּיוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיּיוּב",
+	"headwords": [
+		{
+			"text": "חִיּיוּב"
+		},
 		{
 			"text": "חִיּיוּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 454,
 		"column": "b"

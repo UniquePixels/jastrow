@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00371",
-	"slug": "כורדקי",
-	"headword": {
-		"text": "כורדקי"
-	},
+	"sefariaHeadword": "כורדקי",
+	"headwords": [
+		{
+			"text": "כורדקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

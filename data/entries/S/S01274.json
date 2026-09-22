@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01274",
-	"slug": "קלונינפי",
-	"headword": {
-		"text": "קלונינפי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלונינפי",
+	"headwords": [
+		{
+			"text": "קלונינפי"
+		},
 		{
 			"text": "קלוניפו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1373,
 		"column": "a"

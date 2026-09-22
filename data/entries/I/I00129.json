@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "I00129",
-	"slug": "טווזיג",
-	"headword": {
-		"text": "טַוְוזִיג",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טַוְוזִיג",
+	"headwords": [
 		{
-			"text": "טַּוְזִ׳"
+			"text": "טַוְוזִיג",
+			"reconstructed": true
+		},
+		{
+			"text": "טַּוְזִ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "a"

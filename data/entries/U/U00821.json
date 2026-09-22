@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00821",
-	"slug": "שידא-2",
-	"headword": {
-		"text": "שִׁידָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁידָּא II",
+	"headwords": [
+		{
+			"text": "שִׁידָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1558,
 		"column": "a"

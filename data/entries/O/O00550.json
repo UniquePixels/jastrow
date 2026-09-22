@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00550",
-	"slug": "סיג-2",
-	"headword": {
-		"text": "סִיג",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִיג II",
+	"headwords": [
+		{
+			"text": "סִיג",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 975,
 		"column": "a"

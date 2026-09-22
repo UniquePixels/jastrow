@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00489",
-	"slug": "נחים",
-	"headword": {
-		"text": "נְחֵים"
-	},
+	"sefariaHeadword": "נְחֵים",
+	"headwords": [
+		{
+			"text": "נְחֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

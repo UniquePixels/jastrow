@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00209",
-	"slug": "שגביון",
-	"headword": {
-		"text": "שְׂגַבְיוֹן"
-	},
+	"sefariaHeadword": "שְׂגַבְיוֹן",
+	"headwords": [
+		{
+			"text": "שְׂגַבְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1521,
 		"column": "a"

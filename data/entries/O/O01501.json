@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01501",
-	"slug": "סקרדין",
-	"headword": {
-		"text": "סקרדין"
-	},
+	"sefariaHeadword": "סקרדין",
+	"headwords": [
+		{
+			"text": "סקרדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "a"

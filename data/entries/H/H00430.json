@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00430",
-	"slug": "חוץ-3",
-	"headword": {
-		"text": "חוּץ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוּץ II",
+	"headwords": [
+		{
+			"text": "חוּץ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 437,
 		"column": "b"

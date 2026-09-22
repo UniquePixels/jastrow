@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00738",
-	"slug": "סינים-1",
-	"headword": {
-		"text": "סִינִים"
-	},
+	"sefariaHeadword": "סִינִים",
+	"headwords": [
+		{
+			"text": "סִינִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

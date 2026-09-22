@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00680",
-	"slug": "שחף-2",
-	"headword": {
-		"text": "שְׁחַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁחַף I",
+	"headwords": [
+		{
+			"text": "שְׁחַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1549,
 		"column": "b"

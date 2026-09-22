@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00126",
-	"slug": "קדח-2",
-	"headword": {
-		"text": "קְדַח"
-	},
+	"sefariaHeadword": "קְדַח",
+	"headwords": [
+		{
+			"text": "קְדַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "a"

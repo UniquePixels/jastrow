@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00624",
-	"slug": "עיניתא",
-	"headword": {
-		"text": "עִינִּיתָא"
-	},
+	"sefariaHeadword": "עִינִּיתָא",
+	"headwords": [
+		{
+			"text": "עִינִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00095",
-	"slug": "פגר-6",
-	"headword": {
-		"text": "פְּגַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגַר III",
+	"headwords": [
+		{
+			"text": "פְּגַר",
+			"homograph": 3
+		},
 		{
 			"text": "פִּגְרָא"
 		},
 		{
-			"text": "פַּ׳"
+			"text": "פַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, ({2})",
 	"page": {
 		"number": 1136,
 		"column": "a"

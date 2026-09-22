@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02363",
-	"slug": "אסטומכא-2",
-	"headword": {
-		"text": "אִסְטוֹמְכָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אִסְטוֹמְכָא II",
+	"headwords": [
+		{
+			"text": "אִסְטוֹמְכָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 90,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01003",
-	"slug": "קימוליא",
-	"headword": {
-		"text": "קִימוֹלְיָא"
-	},
+	"sefariaHeadword": "קִימוֹלְיָא",
+	"headwords": [
+		{
+			"text": "קִימוֹלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

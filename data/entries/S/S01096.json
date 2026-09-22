@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01096",
-	"slug": "קיפוי",
-	"headword": {
-		"text": "קִיפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיפּוּי",
+	"headwords": [
 		{
-			"text": "קִפּ׳"
+			"text": "קִיפּוּי"
+		},
+		{
+			"text": "קִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "b"

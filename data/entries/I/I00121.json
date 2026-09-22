@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00121",
-	"slug": "טובענא",
-	"headword": {
-		"text": "טוֹבְעָנָא"
-	},
+	"sefariaHeadword": "טוֹבְעָנָא",
+	"headwords": [
+		{
+			"text": "טוֹבְעָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

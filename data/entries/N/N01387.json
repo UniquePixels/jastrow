@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01387",
-	"slug": "נתק-1",
-	"headword": {
-		"text": "נָתַק"
-	},
+	"sefariaHeadword": "נָתַק",
+	"headwords": [
+		{
+			"text": "נָתַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 945,
 		"column": "a"

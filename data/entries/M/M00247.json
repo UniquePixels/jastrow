@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00247",
-	"slug": "מדברנא",
-	"headword": {
-		"text": "מְדַבְּרָנָא"
-	},
+	"sefariaHeadword": "מְדַבְּרָנָא",
+	"headwords": [
+		{
+			"text": "מְדַבְּרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "b"

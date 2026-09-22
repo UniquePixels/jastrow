@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00744",
-	"slug": "ניץ-2",
-	"headword": {
-		"text": "נֵיץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵיץ",
+	"headwords": [
+		{
+			"text": "נֵיץ"
+		},
 		{
 			"text": "נֵיצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "b"

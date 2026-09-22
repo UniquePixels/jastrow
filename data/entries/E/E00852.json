@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00852",
-	"slug": "הרזק",
-	"headword": {
-		"text": "הַרְזֵק"
-	},
+	"sefariaHeadword": "הַרְזֵק",
+	"headwords": [
+		{
+			"text": "הַרְזֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "a"

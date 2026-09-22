@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00127",
-	"slug": "עדות",
-	"headword": {
-		"text": "עֵדוּת"
-	},
+	"sefariaHeadword": "עֵדוּת",
+	"headwords": [
+		{
+			"text": "עֵדוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1043,
 		"column": "a"

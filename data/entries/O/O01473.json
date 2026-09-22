@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01473",
-	"slug": "סקימיון",
-	"headword": {
-		"text": "סְקִימְיוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְקִימְיוֹן",
+	"headwords": [
+		{
+			"text": "סְקִימְיוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

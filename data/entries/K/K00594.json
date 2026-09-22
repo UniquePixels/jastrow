@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K00594",
-	"slug": "כיסתא-2",
-	"headword": {
-		"text": "כִּיסְתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסְתָא II",
+	"headwords": [
 		{
-			"text": "כִּיסְּ׳"
+			"text": "כִּיסְתָא",
+			"homograph": 2
+		},
+		{
+			"text": "כִּיסְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 634,
 		"column": "b"

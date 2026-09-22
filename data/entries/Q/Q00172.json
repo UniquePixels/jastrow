@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00172",
-	"slug": "פוזמקי",
-	"headword": {
-		"text": "פּוּזְמְקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּזְמְקֵי",
+	"headwords": [
 		{
-			"text": "פַּזְ׳"
+			"text": "פּוּזְמְקֵי"
+		},
+		{
+			"text": "פַּזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1139,
 		"column": "b"

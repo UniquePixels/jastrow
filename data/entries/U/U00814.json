@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00814",
-	"slug": "שיג",
-	"headword": {
-		"text": "שיג"
-	},
+	"sefariaHeadword": "שיג",
+	"headwords": [
+		{
+			"text": "שיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

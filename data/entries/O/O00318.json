@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00318",
-	"slug": "סולייס-1",
-	"headword": {
-		"text": "סוֹלְיָיס"
-	},
+	"sefariaHeadword": "סוֹלְיָיס",
+	"headwords": [
+		{
+			"text": "סוֹלְיָיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "b"

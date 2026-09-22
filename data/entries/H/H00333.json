@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00333",
-	"slug": "חולה-1",
-	"headword": {
-		"text": "חוֹלֶה"
-	},
+	"sefariaHeadword": "חוֹלֶה",
+	"headwords": [
+		{
+			"text": "חוֹלֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 433,
 		"column": "b"

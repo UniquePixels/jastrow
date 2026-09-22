@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00744",
-	"slug": "סיס",
-	"headword": {
-		"text": "סִיס"
-	},
+	"sefariaHeadword": "סִיס",
+	"headwords": [
+		{
+			"text": "סִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

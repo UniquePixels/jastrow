@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01093",
-	"slug": "תשלום-1",
-	"headword": {
-		"text": "תַּשְׁלוּם"
-	},
+	"sefariaHeadword": "תַּשְׁלוּם",
+	"headwords": [
+		{
+			"text": "תַּשְׁלוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "a"

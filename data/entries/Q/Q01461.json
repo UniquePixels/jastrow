@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01461",
-	"slug": "פקוס",
-	"headword": {
-		"text": "פִּקּוּס"
-	},
+	"sefariaHeadword": "פִּקּוּס",
+	"headwords": [
+		{
+			"text": "פִּקּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

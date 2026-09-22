@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02011",
-	"slug": "אמטול",
-	"headword": {
-		"text": "אַמְטוּל"
-	},
+	"sefariaHeadword": "אַמְטוּל",
+	"headwords": [
+		{
+			"text": "אַמְטוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

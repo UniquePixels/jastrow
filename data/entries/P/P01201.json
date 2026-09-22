@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01201",
-	"slug": "עקמון",
-	"headword": {
-		"text": "עִקָּמוֹן"
-	},
+	"sefariaHeadword": "עִקָּמוֹן",
+	"headwords": [
+		{
+			"text": "עִקָּמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00571",
-	"slug": "טנוף",
-	"headword": {
-		"text": "טִנּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִנּוּף",
+	"headwords": [
+		{
+			"text": "טִנּוּף"
+		},
 		{
 			"text": "טִנּוּפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "טִנּוֹפֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 541,
 		"column": "a"

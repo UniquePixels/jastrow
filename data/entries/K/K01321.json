@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01321",
-	"slug": "כשפא",
-	"headword": {
-		"text": "כָּשְׁפָּא"
-	},
+	"sefariaHeadword": "כָּשְׁפָּא",
+	"headwords": [
+		{
+			"text": "כָּשְׁפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 677,
 		"column": "a"

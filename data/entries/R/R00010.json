@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00010",
-	"slug": "צאן",
-	"headword": {
-		"text": "צֹאן"
-	},
+	"sefariaHeadword": "צֹאן",
+	"headwords": [
+		{
+			"text": "צֹאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

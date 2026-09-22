@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01189",
-	"slug": "מילן",
-	"headword": {
-		"text": "מִילָן"
-	},
+	"sefariaHeadword": "מִילָן",
+	"headwords": [
+		{
+			"text": "מִילָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00017",
-	"slug": "זבוגא",
-	"headword": {
-		"text": "זְבוּגָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*זְבוּגָא",
+	"headwords": [
+		{
+			"text": "זְבוּגָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 378,
 		"column": "a"

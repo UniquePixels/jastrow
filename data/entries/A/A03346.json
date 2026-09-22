@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "A03346",
-	"slug": "אשקק",
-	"headword": {
-		"text": "אִשְׁקָק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִשְׁקָק",
+	"headwords": [
+		{
+			"text": "אִשְׁקָק"
+		},
 		{
 			"text": "אִשְׁקָקָא"
 		},
 		{
-			"text": "אוּשְּׁ׳"
+			"text": "אוּשְּׁ׳",
+			"partial": true
 		},
 		{
-			"text": "אִישְׁ׳"
+			"text": "אִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 130,
 		"column": "a"

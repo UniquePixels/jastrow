@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01022",
-	"slug": "נפולא",
-	"headword": {
-		"text": "נְפוּלָא"
-	},
+	"sefariaHeadword": "נְפוּלָא",
+	"headwords": [
+		{
+			"text": "נְפוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

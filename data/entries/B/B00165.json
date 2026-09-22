@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00165",
-	"slug": "בהו-2",
-	"headword": {
-		"text": "בָּהוּ"
-	},
+	"sefariaHeadword": "בָּהוּ",
+	"headwords": [
+		{
+			"text": "בָּהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 142,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01671",
-	"slug": "קסם-7",
-	"headword": {
-		"text": "קַסָּם"
-	},
+	"sefariaHeadword": "קַסָּם",
+	"headwords": [
+		{
+			"text": "קַסָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

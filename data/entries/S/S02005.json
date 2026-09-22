@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02005",
-	"slug": "קרטיקון",
-	"headword": {
-		"text": "קְרֵטִיקוֹן"
-	},
+	"sefariaHeadword": "קְרֵטִיקוֹן",
+	"headwords": [
+		{
+			"text": "קְרֵטִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1417,
 		"column": "a"

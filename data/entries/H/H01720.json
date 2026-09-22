@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01720",
-	"slug": "חרמיני",
-	"headword": {
-		"text": "חרמיני"
-	},
+	"sefariaHeadword": "חרמיני",
+	"headwords": [
+		{
+			"text": "חרמיני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "a"

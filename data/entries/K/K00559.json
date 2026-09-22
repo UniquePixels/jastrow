@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00559",
-	"slug": "כימא",
-	"headword": {
-		"text": "כִּימָא"
-	},
+	"sefariaHeadword": "כִּימָא",
+	"headwords": [
+		{
+			"text": "כִּימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "a"

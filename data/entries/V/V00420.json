@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00420",
-	"slug": "תיגרנא",
-	"headword": {
-		"text": "תִּיגְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיגְרָנָא",
+	"headwords": [
+		{
+			"text": "תִּיגְרָנָא"
+		},
 		{
 			"text": "תִּיגְרָנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "b"

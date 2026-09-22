@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "N00122",
-	"slug": "נגדא-3",
-	"headword": {
-		"text": "נִגְדָּא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִגְדָּא ²",
+	"headwords": [
+		{
+			"text": "נִגְדָּא",
+			"disambiguator": 2
+		},
 		{
 			"text": "נִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 872,
 		"column": "b"

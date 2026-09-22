@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02129",
-	"slug": "פתוון",
-	"headword": {
-		"text": "פְּתָוָון"
-	},
+	"sefariaHeadword": "פְּתָוָון",
+	"headwords": [
+		{
+			"text": "פְּתָוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

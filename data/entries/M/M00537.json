@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00537",
-	"slug": "מוניטא",
-	"headword": {
-		"text": "מוֹנִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹנִיטָא",
+	"headwords": [
+		{
+			"text": "מוֹנִיטָא"
+		},
 		{
 			"text": "מוֹנִיטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 744,
 		"column": "b"

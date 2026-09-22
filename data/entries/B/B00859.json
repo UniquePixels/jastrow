@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00859",
-	"slug": "בליונא",
-	"headword": {
-		"text": "בִּלְיוֹנָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בִּלְיוֹנָא",
+	"headwords": [
+		{
+			"text": "בִּלְיוֹנָא",
+			"reconstructed": true
+		},
 		{
 			"text": "בִּילְיוֹנָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 172,
 		"column": "b"

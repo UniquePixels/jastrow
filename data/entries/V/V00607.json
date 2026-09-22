@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00607",
-	"slug": "תלמי-3",
-	"headword": {
-		"text": "תַּלְמִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תַּלְמִי",
+	"headwords": [
+		{
+			"text": "תַּלְמִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01761",
-	"slug": "פרחינון",
-	"headword": {
-		"text": "פרחינון"
-	},
+	"sefariaHeadword": "פרחינון",
+	"headwords": [
+		{
+			"text": "פרחינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1224,
 		"column": "a"

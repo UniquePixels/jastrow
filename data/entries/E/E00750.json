@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00750",
-	"slug": "הפלגה",
-	"headword": {
-		"text": "הַפְלָגָה"
-	},
+	"sefariaHeadword": "הַפְלָגָה",
+	"headwords": [
+		{
+			"text": "הַפְלָגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 362,
 		"column": "a"

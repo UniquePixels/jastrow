@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01164",
-	"slug": "כריכא-2",
-	"headword": {
-		"text": "כְּרִיכָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כְּרִיכָא II",
+	"headwords": [
+		{
+			"text": "כְּרִיכָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 667,
 		"column": "a"

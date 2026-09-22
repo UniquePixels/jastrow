@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00214",
-	"slug": "גדירא",
-	"headword": {
-		"text": "גְּדֵירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּדֵירָא",
+	"headwords": [
+		{
+			"text": "גְּדֵירָא"
+		},
 		{
 			"text": "גָּדֵירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 212,
 		"column": "b"

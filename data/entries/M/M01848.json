@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01848",
-	"slug": "מסגר",
-	"headword": {
-		"text": "מַסְגֵּר"
-	},
+	"sefariaHeadword": "מַסְגֵּר",
+	"headwords": [
+		{
+			"text": "מַסְגֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 804,
 		"column": "a"

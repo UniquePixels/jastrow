@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00355",
-	"slug": "תחות",
-	"headword": {
-		"text": "תְּחוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחוֹת",
+	"headwords": [
+		{
+			"text": "תְּחוֹת"
+		},
 		{
 			"text": "תְּחוֹתֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1661,
 		"column": "a"

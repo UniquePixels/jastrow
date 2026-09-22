@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00162",
-	"slug": "כהין",
-	"headword": {
-		"text": "כָּהֵין"
-	},
+	"sefariaHeadword": "כָּהֵין",
+	"headwords": [
+		{
+			"text": "כָּהֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "a"

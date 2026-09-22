@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "J00411",
-	"slug": "ימים-2",
-	"headword": {
-		"text": "יֵמִים",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*יֵמִים",
+	"headwords": [
 		{
-			"text": "יֵי׳"
+			"text": "יֵמִים",
+			"reconstructed": true
+		},
+		{
+			"text": "יֵי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "a"

@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "A02423",
-	"slug": "אסטרין",
-	"headword": {
-		"text": "אִסְטָרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטָרִין",
+	"headwords": [
+		{
+			"text": "אִסְטָרִין"
+		},
 		{
 			"text": "אִצְטָרִין"
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 92,
 		"column": "b"

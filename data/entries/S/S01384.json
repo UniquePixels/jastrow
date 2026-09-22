@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01384",
-	"slug": "קלסטיר-1",
-	"headword": {
-		"text": "קְלַסְטֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלַסְטֵיר",
+	"headwords": [
+		{
+			"text": "קְלַסְטֵיר"
+		},
 		{
 			"text": "קְלַסְטָר",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1379,
 		"column": "b"

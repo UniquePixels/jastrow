@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02541",
-	"slug": "מרדה-2",
-	"headword": {
-		"text": "מַרְדֶּה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְדֶּה II",
+	"headwords": [
+		{
+			"text": "מַרְדֶּה",
+			"homograph": 2
+		},
 		{
 			"text": "מַרְדָה"
 		}

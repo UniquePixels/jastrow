@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00364",
-	"slug": "פורניות",
-	"headword": {
-		"text": "פורניות"
-	},
+	"sefariaHeadword": "פורניות",
+	"headwords": [
+		{
+			"text": "פורניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "b"

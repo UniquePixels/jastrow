@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00424",
-	"slug": "ליגא",
-	"headword": {
-		"text": "ליגא"
-	},
+	"sefariaHeadword": "ליגא",
+	"headwords": [
+		{
+			"text": "ליגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00335",
-	"slug": "זיידן",
-	"headword": {
-		"text": "זיידן"
-	},
+	"sefariaHeadword": "זיידן",
+	"headwords": [
+		{
+			"text": "זיידן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

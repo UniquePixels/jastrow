@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00754",
-	"slug": "רכובא-2",
-	"headword": {
-		"text": "רְכוּבָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְכוּבָא II",
+	"headwords": [
+		{
+			"text": "רְכוּבָא",
+			"homograph": 2
+		},
 		{
 			"text": "רְכוּבְתָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1479,
 		"column": "b"

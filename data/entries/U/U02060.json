@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02060",
-	"slug": "ששין",
-	"headword": {
-		"text": "שַׁשְׁיַן"
-	},
+	"sefariaHeadword": "שַׁשְׁיַן",
+	"headwords": [
+		{
+			"text": "שַׁשְׁיַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "a"

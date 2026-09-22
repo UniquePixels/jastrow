@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00838",
-	"slug": "עלף-1",
-	"headword": {
-		"text": "עָלַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עָלַף I",
+	"headwords": [
+		{
+			"text": "עָלַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1085,
 		"column": "b"

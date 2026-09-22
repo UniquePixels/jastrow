@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01304",
-	"slug": "גרונדא",
-	"headword": {
-		"text": "גְּרוּנְדָּא"
-	},
+	"sefariaHeadword": "גְּרוּנְדָּא",
+	"headwords": [
+		{
+			"text": "גְּרוּנְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

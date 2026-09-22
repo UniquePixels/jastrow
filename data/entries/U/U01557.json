@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U01557",
-	"slug": "שן-2",
-	"headword": {
-		"text": "שֵׁן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁן ²",
+	"headwords": [
+		{
+			"text": "שֵׁן",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁנָּא"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1603,
 		"column": "b"

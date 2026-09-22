@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00346",
-	"slug": "תזזית",
-	"headword": {
-		"text": "תְּזָזִית"
-	},
+	"sefariaHeadword": "תְּזָזִית",
+	"headwords": [
+		{
+			"text": "תְּזָזִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "a"

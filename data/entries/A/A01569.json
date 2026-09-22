@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01569",
-	"slug": "איפרסן",
-	"headword": {
-		"text": "אִיפַּרְסֵן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיפַּרְסֵן",
+	"headwords": [
+		{
+			"text": "אִיפַּרְסֵן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

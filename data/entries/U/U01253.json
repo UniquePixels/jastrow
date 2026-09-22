@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01253",
-	"slug": "שלום-3",
-	"headword": {
-		"text": "שִׁלּוּם"
-	},
+	"sefariaHeadword": "שִׁלּוּם",
+	"headwords": [
+		{
+			"text": "שִׁלּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1579,
 		"column": "b"

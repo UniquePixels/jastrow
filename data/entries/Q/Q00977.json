@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00977",
-	"slug": "פלומופילון",
-	"headword": {
-		"text": "פְּלוֹמוֹפִּילוֹן"
-	},
+	"sefariaHeadword": "פְּלוֹמוֹפִּילוֹן",
+	"headwords": [
+		{
+			"text": "פְּלוֹמוֹפִּילוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

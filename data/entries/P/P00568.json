@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00568",
-	"slug": "עילא-2",
-	"headword": {
-		"text": "עִילָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילָא III",
+	"headwords": [
+		{
+			"text": "עִילָא",
+			"homograph": 3
+		},
 		{
 			"text": "עִילָה"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1069,
 		"column": "b"

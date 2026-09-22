@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02177",
-	"slug": "מערוקא",
-	"headword": {
-		"text": "מַעֲרוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעֲרוֹקָא",
+	"headwords": [
 		{
-			"text": "מַעֲרוּ׳"
+			"text": "מַעֲרוֹקָא"
+		},
+		{
+			"text": "מַעֲרוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 819,
 		"column": "a"

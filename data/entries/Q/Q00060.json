@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00060",
-	"slug": "פגימה",
-	"headword": {
-		"text": "פְּגִימָה"
-	},
+	"sefariaHeadword": "פְּגִימָה",
+	"headwords": [
+		{
+			"text": "פְּגִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00737",
-	"slug": "חיין",
-	"headword": {
-		"text": "חַיִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַיִּין",
+	"headwords": [
+		{
+			"text": "חַיִּין"
+		},
 		{
 			"text": "חַיֵּי"
 		},
@@ -12,6 +13,7 @@
 			"text": "חַיַּיָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 455,
 		"column": "a"

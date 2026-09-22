@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00715",
-	"slug": "גיל-1",
-	"headword": {
-		"text": "גִּיל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גִּיל I",
+	"headwords": [
+		{
+			"text": "גִּיל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 238,
 		"column": "a"

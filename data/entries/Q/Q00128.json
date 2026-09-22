@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00128",
-	"slug": "פדמועה",
-	"headword": {
-		"text": "פדמועה"
-	},
+	"sefariaHeadword": "פדמועה",
+	"headwords": [
+		{
+			"text": "פדמועה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

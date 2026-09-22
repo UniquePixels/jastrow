@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00664",
-	"slug": "סיליון",
-	"headword": {
-		"text": "סיליון"
-	},
+	"sefariaHeadword": "סיליון",
+	"headwords": [
+		{
+			"text": "סיליון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

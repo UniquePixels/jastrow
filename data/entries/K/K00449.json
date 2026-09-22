@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00449",
-	"slug": "כח-1",
-	"headword": {
-		"text": "כָּח"
-	},
+	"sefariaHeadword": "כָּח",
+	"headwords": [
+		{
+			"text": "כָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "a"

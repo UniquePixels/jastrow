@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02648",
-	"slug": "אפותיק",
-	"headword": {
-		"text": "אפותיק"
-	},
+	"sefariaHeadword": "אפותיק",
+	"headwords": [
+		{
+			"text": "אפותיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

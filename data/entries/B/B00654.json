@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00654",
-	"slug": "בינתא-1",
-	"headword": {
-		"text": "בִּינָתָא"
-	},
+	"sefariaHeadword": "בִּינָתָא",
+	"headwords": [
+		{
+			"text": "בִּינָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "b"

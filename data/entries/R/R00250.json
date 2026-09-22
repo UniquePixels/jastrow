@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00250",
-	"slug": "צורבה",
-	"headword": {
-		"text": "צוֹרְבָה"
-	},
+	"sefariaHeadword": "צוֹרְבָה",
+	"headwords": [
+		{
+			"text": "צוֹרְבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "a"

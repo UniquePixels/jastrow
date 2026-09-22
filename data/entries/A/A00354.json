@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00354",
-	"slug": "אגריסטיס",
-	"headword": {
-		"text": "אגריסטיס"
-	},
+	"sefariaHeadword": "אגריסטיס",
+	"headwords": [
+		{
+			"text": "אגריסטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

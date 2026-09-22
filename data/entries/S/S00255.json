@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00255",
-	"slug": "קוואקי",
-	"headword": {
-		"text": "קְוָואקֵי"
-	},
+	"sefariaHeadword": "קְוָואקֵי",
+	"headwords": [
+		{
+			"text": "קְוָואקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "a"

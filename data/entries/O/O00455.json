@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00455",
-	"slug": "סחיטה",
-	"headword": {
-		"text": "סְחִיטָה"
-	},
+	"sefariaHeadword": "סְחִיטָה",
+	"headwords": [
+		{
+			"text": "סְחִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "a"

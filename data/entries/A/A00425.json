@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00425",
-	"slug": "אדמוני",
-	"headword": {
-		"text": "אַדְמוֹנִי"
-	},
+	"sefariaHeadword": "אַדְמוֹנִי",
+	"headwords": [
+		{
+			"text": "אַדְמוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

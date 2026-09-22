@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00676",
-	"slug": "חיוב-1",
-	"headword": {
-		"text": "חִיּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיּוּב",
+	"headwords": [
+		{
+			"text": "חִיּוּב"
+		},
 		{
 			"text": "חִיּיוּב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 452,
 		"column": "a"

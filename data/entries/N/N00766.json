@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00766",
-	"slug": "ניקומכי",
-	"headword": {
-		"text": "נִיקוֹמָכִי"
-	},
+	"sefariaHeadword": "נִיקוֹמָכִי",
+	"headwords": [
+		{
+			"text": "נִיקוֹמָכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00867",
-	"slug": "הריפות",
-	"headword": {
-		"text": "הֲרִיפוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲרִיפוֹת",
+	"headwords": [
 		{
-			"text": "הָרִי׳"
+			"text": "הֲרִיפוֹת"
+		},
+		{
+			"text": "הָרִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 367,
 		"column": "b"

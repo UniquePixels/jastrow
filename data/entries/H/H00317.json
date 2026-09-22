@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00317",
-	"slug": "חוכמא",
-	"headword": {
-		"text": "חוּכְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּכְמָא",
+	"headwords": [
+		{
+			"text": "חוּכְמָא"
+		},
 		{
 			"text": "חוּכְמְתָא"
 		},
 		{
-			"text": "חָכְ׳"
+			"text": "חָכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 432,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01012",
-	"slug": "שיפוי-1",
-	"headword": {
-		"text": "שִׁיפּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיפּוּי",
+	"headwords": [
+		{
+			"text": "שִׁיפּוּי"
+		},
 		{
 			"text": "שִׁפּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1566,
 		"column": "a"

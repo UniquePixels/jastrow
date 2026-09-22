@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00009",
-	"slug": "דאג-1",
-	"headword": {
-		"text": "דֹּאֵג"
-	},
+	"sefariaHeadword": "דֹּאֵג",
+	"headwords": [
+		{
+			"text": "דֹּאֵג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

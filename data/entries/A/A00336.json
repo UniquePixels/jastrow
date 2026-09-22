@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00336",
-	"slug": "אגר-2",
-	"headword": {
-		"text": "אֲגַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֲגַר I",
+	"headwords": [
+		{
+			"text": "אֲגַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 14,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00616",
-	"slug": "חטי-4",
-	"headword": {
-		"text": "חֲטִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטִי ²",
+	"headwords": [
+		{
+			"text": "חֲטִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲטָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 449,
 		"column": "a"

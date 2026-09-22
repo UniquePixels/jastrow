@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00235",
-	"slug": "הול",
-	"headword": {
-		"text": "הוּל"
-	},
+	"sefariaHeadword": "הוּל",
+	"headwords": [
+		{
+			"text": "הוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

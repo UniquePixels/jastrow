@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02365",
-	"slug": "מצרי-3",
-	"headword": {
-		"text": "מִצְרַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְרַי",
+	"headwords": [
+		{
+			"text": "מִצְרַי"
+		},
 		{
 			"text": "מִצְרָיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 828,
 		"column": "b"

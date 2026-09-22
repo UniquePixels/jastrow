@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01737",
-	"slug": "קפיטורין",
-	"headword": {
-		"text": "קפיטורין"
-	},
+	"sefariaHeadword": "קפיטורין",
+	"headwords": [
+		{
+			"text": "קפיטורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

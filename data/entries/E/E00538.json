@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00538",
-	"slug": "הלואה",
-	"headword": {
-		"text": "הַלְוָאָה"
-	},
+	"sefariaHeadword": "הַלְוָאָה",
+	"headwords": [
+		{
+			"text": "הַלְוָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "a"

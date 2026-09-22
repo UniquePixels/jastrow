@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00255",
-	"slug": "טחב",
-	"headword": {
-		"text": "טַחַב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַחַב",
+	"headwords": [
+		{
+			"text": "טַחַב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 527,
 		"column": "b"

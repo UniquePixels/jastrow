@@ -1,26 +1,26 @@
 {
+	"schemaVersion": 2,
 	"id": "I00088",
-	"slug": "טבריא",
-	"headword": {
-		"text": "טְבַרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְבַרְיָא",
+	"headwords": [
+		{
+			"text": "טְבַרְיָא"
+		},
 		{
 			"text": "טְבַרְיָה"
 		},
 		{
-			"text": "טִיבַ׳"
+			"text": "טִיבַ׳",
+			"partial": true
 		},
 		{
 			"text": "טְבִירְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 519,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

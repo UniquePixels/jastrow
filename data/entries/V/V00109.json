@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00109",
-	"slug": "תדיר",
-	"headword": {
-		"text": "תָּדִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּדִיר",
+	"headwords": [
+		{
+			"text": "תָּדִיר"
+		},
 		{
 			"text": "תְּדִירָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1647,
 		"column": "b"

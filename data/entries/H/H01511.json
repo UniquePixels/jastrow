@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01511",
-	"slug": "חצוצרא",
-	"headword": {
-		"text": "חֲצוֹצְרָא"
-	},
+	"sefariaHeadword": "חֲצוֹצְרָא",
+	"headwords": [
+		{
+			"text": "חֲצוֹצְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 494,
 		"column": "b"

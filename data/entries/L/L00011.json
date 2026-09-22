@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00011",
-	"slug": "לאוטומיא",
-	"headword": {
-		"text": "לַאוְטוּמְיָא"
-	},
+	"sefariaHeadword": "לַאוְטוּמְיָא",
+	"headwords": [
+		{
+			"text": "לַאוְטוּמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

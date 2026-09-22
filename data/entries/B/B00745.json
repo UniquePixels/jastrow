@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00745",
-	"slug": "בישם",
-	"headword": {
-		"text": "בִּישֵּׂם"
-	},
+	"sefariaHeadword": "בִּישֵּׂם",
+	"headwords": [
+		{
+			"text": "בִּישֵּׂם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "b"

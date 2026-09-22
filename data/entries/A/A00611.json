@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00611",
-	"slug": "אוזרד",
-	"headword": {
-		"text": "אוזרד"
-	},
+	"sefariaHeadword": "אוזרד",
+	"headwords": [
+		{
+			"text": "אוזרד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A02845",
-	"slug": "אפתא-1",
-	"headword": {
-		"text": "אַפְתָּא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*אַפְתָּא I",
+	"headwords": [
+		{
+			"text": "אַפְתָּא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 109,
 		"column": "b"

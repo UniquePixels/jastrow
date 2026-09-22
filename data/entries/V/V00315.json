@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00315",
-	"slug": "תורפה",
-	"headword": {
-		"text": "תּוֹרְפָה"
-	},
+	"sefariaHeadword": "תּוֹרְפָה",
+	"headwords": [
+		{
+			"text": "תּוֹרְפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "b"

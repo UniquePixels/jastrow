@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00454",
-	"slug": "זכזך",
-	"headword": {
-		"text": "זִכְזֵךְ"
-	},
+	"sefariaHeadword": "זִכְזֵךְ",
+	"headwords": [
+		{
+			"text": "זִכְזֵךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 398,
 		"column": "b"

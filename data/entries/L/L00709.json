@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00709",
-	"slug": "לשלושתא",
-	"headword": {
-		"text": "לִשְׁלוּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִשְׁלוּשְׁתָּא",
+	"headwords": [
 		{
-			"text": "לִי׳"
+			"text": "לִשְׁלוּשְׁתָּא"
+		},
+		{
+			"text": "לִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 720,
 		"column": "b"

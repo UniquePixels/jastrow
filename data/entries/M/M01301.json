@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01301",
-	"slug": "מירם",
-	"headword": {
-		"text": "מִירָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִירָם",
+	"headwords": [
+		{
+			"text": "מִירָם"
+		},
 		{
 			"text": "מירָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 779,
 		"column": "a"

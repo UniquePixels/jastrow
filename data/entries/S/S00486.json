@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00486",
-	"slug": "קוף-1",
-	"headword": {
-		"text": "קוּף"
-	},
+	"sefariaHeadword": "קוּף",
+	"headwords": [
+		{
+			"text": "קוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1337,
 		"column": "a"

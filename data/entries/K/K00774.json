@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00774",
-	"slug": "כלעס",
-	"headword": {
-		"text": "כלעס"
-	},
+	"sefariaHeadword": "כלעס",
+	"headwords": [
+		{
+			"text": "כלעס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

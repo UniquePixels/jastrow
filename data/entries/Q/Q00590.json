@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00590",
-	"slug": "פיד",
-	"headword": {
-		"text": "פִּיד"
-	},
+	"sefariaHeadword": "פִּיד",
+	"headwords": [
+		{
+			"text": "פִּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

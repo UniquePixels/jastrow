@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00578",
-	"slug": "צמירתא",
-	"headword": {
-		"text": "צְמִירְתָּא"
-	},
+	"sefariaHeadword": "צְמִירְתָּא",
+	"headwords": [
+		{
+			"text": "צְמִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"

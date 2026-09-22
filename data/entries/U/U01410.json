@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01410",
-	"slug": "שמאי",
-	"headword": {
-		"text": "שַׁמַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁמַּאי",
+	"headwords": [
+		{
+			"text": "שַׁמַּאי"
+		},
 		{
 			"text": "שַׁמַּי"
 		},
@@ -12,6 +13,7 @@
 			"text": "שַׁמַּיי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1591,
 		"column": "a"

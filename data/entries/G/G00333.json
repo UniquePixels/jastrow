@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00333",
-	"slug": "זייג",
-	"headword": {
-		"text": "זִיֵּיג"
-	},
+	"sefariaHeadword": "זִיֵּיג",
+	"headwords": [
+		{
+			"text": "זִיֵּיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

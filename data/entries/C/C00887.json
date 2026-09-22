@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00887",
-	"slug": "גלובדק",
-	"headword": {
-		"text": "גלובדק"
-	},
+	"sefariaHeadword": "גלובדק",
+	"headwords": [
+		{
+			"text": "גלובדק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

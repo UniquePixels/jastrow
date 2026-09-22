@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01488",
-	"slug": "עשירית",
-	"headword": {
-		"text": "עֲשִׂירִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשִׂירִית",
+	"headwords": [
+		{
+			"text": "עֲשִׂירִית"
+		},
 		{
 			"text": "עֲשִׂירִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1126,
 		"column": "a"

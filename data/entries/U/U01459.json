@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01459",
-	"slug": "שמטתא",
-	"headword": {
-		"text": "שְׁמִטְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁמִטְּתָא",
+	"headwords": [
+		{
+			"text": "שְׁמִטְּתָא"
+		},
 		{
 			"text": "שְׁמִטְּתָה"
 		},
@@ -12,9 +13,11 @@
 			"text": "שְׁמִטָּא"
 		},
 		{
-			"text": "שְׁמִיטּ׳"
+			"text": "שְׁמִיטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1595,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01596",
-	"slug": "סרי-3",
-	"headword": {
-		"text": "סְרֵי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרֵי II",
+	"headwords": [
+		{
+			"text": "סְרֵי",
+			"homograph": 2
+		},
 		{
 			"text": "סְרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1026,
 		"column": "a"

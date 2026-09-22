@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00367",
-	"slug": "שוחה-1",
-	"headword": {
-		"text": "שׁוּחָה"
-	},
+	"sefariaHeadword": "שׁוּחָה",
+	"headwords": [
+		{
+			"text": "שׁוּחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1531,
 		"column": "a"

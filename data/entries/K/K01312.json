@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01312",
-	"slug": "כשכש-3",
-	"headword": {
-		"text": "כַּשְׂכֵּשׂ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּשְׂכֵּשׂ",
+	"headwords": [
+		{
+			"text": "כַּשְׂכֵּשׂ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 676,
 		"column": "a"

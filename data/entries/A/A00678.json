@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00678",
-	"slug": "אולמנא",
-	"headword": {
-		"text": "אוּלְמָנָא"
-	},
+	"sefariaHeadword": "אוּלְמָנָא",
+	"headwords": [
+		{
+			"text": "אוּלְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "a"

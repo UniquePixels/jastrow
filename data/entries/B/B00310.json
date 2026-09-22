@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00310",
-	"slug": "בוציאתא",
-	"headword": {
-		"text": "בּוּצְיָאתָא"
-	},
+	"sefariaHeadword": "בּוּצְיָאתָא",
+	"headwords": [
+		{
+			"text": "בּוּצְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

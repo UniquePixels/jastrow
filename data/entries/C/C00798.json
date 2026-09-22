@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00798",
-	"slug": "גיפר",
-	"headword": {
-		"text": "גִּיפֵּר"
-	},
+	"sefariaHeadword": "גִּיפֵּר",
+	"headwords": [
+		{
+			"text": "גִּיפֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

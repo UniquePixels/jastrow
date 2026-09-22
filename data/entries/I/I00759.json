@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00759",
-	"slug": "טרטין-3",
-	"headword": {
-		"text": "טְרָטִין"
-	},
+	"sefariaHeadword": "טְרָטִין",
+	"headwords": [
+		{
+			"text": "טְרָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 552,
 		"column": "b"

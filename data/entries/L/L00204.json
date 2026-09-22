@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00204",
-	"slug": "לודקיא",
-	"headword": {
-		"text": "לוּדְקְיָא"
-	},
+	"sefariaHeadword": "לוּדְקְיָא",
+	"headwords": [
+		{
+			"text": "לוּדְקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

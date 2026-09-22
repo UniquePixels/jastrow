@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01236",
-	"slug": "כרמת",
-	"headword": {
-		"text": "כָּרֶמֶת"
-	},
+	"sefariaHeadword": "כָּרֶמֶת",
+	"headwords": [
+		{
+			"text": "כָּרֶמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "b"

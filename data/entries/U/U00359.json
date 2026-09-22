@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00359",
-	"slug": "שוזה",
-	"headword": {
-		"text": "שׁוּזָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שׁוּזָה",
+	"headwords": [
+		{
+			"text": "שׁוּזָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1530,
 		"column": "b"

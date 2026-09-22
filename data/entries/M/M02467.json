@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02467",
-	"slug": "מקשאה",
-	"headword": {
-		"text": "מַקְשָׁאָה"
-	},
+	"sefariaHeadword": "מַקְשָׁאָה",
+	"headwords": [
+		{
+			"text": "מַקְשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "b"

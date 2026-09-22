@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01218",
-	"slug": "נקישא",
-	"headword": {
-		"text": "נְקִישָׁא"
-	},
+	"sefariaHeadword": "נְקִישָׁא",
+	"headwords": [
+		{
+			"text": "נְקִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

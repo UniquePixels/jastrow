@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01209",
-	"slug": "מינא-1",
-	"headword": {
-		"text": "מִינָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִינָא I",
+	"headwords": [
+		{
+			"text": "מִינָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 776,
 		"column": "a"

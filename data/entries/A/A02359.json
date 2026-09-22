@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02359",
-	"slug": "אסטולא",
-	"headword": {
-		"text": "אִסְטוֹלָא"
-	},
+	"sefariaHeadword": "אִסְטוֹלָא",
+	"headwords": [
+		{
+			"text": "אִסְטוֹלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

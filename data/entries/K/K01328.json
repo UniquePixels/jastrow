@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01328",
-	"slug": "כשרא",
-	"headword": {
-		"text": "כִּשְׁרָא"
-	},
+	"sefariaHeadword": "כִּשְׁרָא",
+	"headwords": [
+		{
+			"text": "כִּשְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "a"

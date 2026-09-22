@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02834",
-	"slug": "אפרקיד",
-	"headword": {
-		"text": "אַפַּרְקִיד"
-	},
+	"sefariaHeadword": "אַפַּרְקִיד",
+	"headwords": [
+		{
+			"text": "אַפַּרְקִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

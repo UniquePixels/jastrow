@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00315",
-	"slug": "עוף-5",
-	"headword": {
-		"text": "עוֹף"
-	},
+	"sefariaHeadword": "עוֹף",
+	"headwords": [
+		{
+			"text": "עוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "b"

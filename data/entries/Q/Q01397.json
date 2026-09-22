@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01397",
-	"slug": "פער-2",
-	"headword": {
-		"text": "פְּעַר"
-	},
+	"sefariaHeadword": "פְּעַר",
+	"headwords": [
+		{
+			"text": "פְּעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00789",
-	"slug": "עלטה",
-	"headword": {
-		"text": "עֲלָטָה"
-	},
+	"sefariaHeadword": "עֲלָטָה",
+	"headwords": [
+		{
+			"text": "עֲלָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

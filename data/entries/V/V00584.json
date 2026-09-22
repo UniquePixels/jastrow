@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00584",
-	"slug": "תלח",
-	"headword": {
-		"text": "תְּלַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלַח",
+	"headwords": [
+		{
+			"text": "תְּלַח"
+		},
 		{
 			"text": "תְּלַהּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00089",
-	"slug": "תגר-3",
-	"headword": {
-		"text": "תַּגָּר"
-	},
+	"sefariaHeadword": "תַּגָּר",
+	"headwords": [
+		{
+			"text": "תַּגָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "b"

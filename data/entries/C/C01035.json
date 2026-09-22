@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01035",
-	"slug": "גמיר",
-	"headword": {
-		"text": "גְּמִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּמִיר",
+	"headwords": [
+		{
+			"text": "גְּמִיר"
+		},
 		{
 			"text": "גְּמִירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 253,
 		"column": "a"

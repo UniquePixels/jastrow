@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00092",
-	"slug": "כבשנית",
-	"headword": {
-		"text": "כבשנית"
-	},
+	"sefariaHeadword": "כבשנית",
+	"headwords": [
+		{
+			"text": "כבשנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "a"

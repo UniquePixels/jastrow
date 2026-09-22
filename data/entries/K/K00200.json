@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00200",
-	"slug": "כובשת",
-	"headword": {
-		"text": "כּוּבֶּשֶׁת"
-	},
+	"sefariaHeadword": "כּוּבֶּשֶׁת",
+	"headwords": [
+		{
+			"text": "כּוּבֶּשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

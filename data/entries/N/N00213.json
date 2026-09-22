@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00213",
-	"slug": "נדדת",
-	"headword": {
-		"text": "נִדְדָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְדָת",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִדְדָת"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 878,
 		"column": "a"

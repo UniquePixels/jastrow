@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00371",
-	"slug": "לחש-1",
-	"headword": {
-		"text": "לָחַשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לָחַשׁ I",
+	"headwords": [
+		{
+			"text": "לָחַשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 704,
 		"column": "a"

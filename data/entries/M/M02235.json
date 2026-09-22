@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02235",
-	"slug": "מפץ",
-	"headword": {
-		"text": "מֶפֶץ"
-	},
+	"sefariaHeadword": "מֶפֶץ",
+	"headwords": [
+		{
+			"text": "מֶפֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

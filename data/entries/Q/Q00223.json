@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00223",
-	"slug": "פוליא",
-	"headword": {
-		"text": "פוליא"
-	},
+	"sefariaHeadword": "פוליא",
+	"headwords": [
+		{
+			"text": "פוליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "b"

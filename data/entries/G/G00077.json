@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00077",
-	"slug": "זדנז",
-	"headword": {
-		"text": "זדנז"
-	},
+	"sefariaHeadword": "זדנז",
+	"headwords": [
+		{
+			"text": "זדנז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "b"

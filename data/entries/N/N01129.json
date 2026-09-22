@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01129",
-	"slug": "נציר",
-	"headword": {
-		"text": "נָצִיר"
-	},
+	"sefariaHeadword": "נָצִיר",
+	"headwords": [
+		{
+			"text": "נָצִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "a"

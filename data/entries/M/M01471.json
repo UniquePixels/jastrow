@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01471",
-	"slug": "מלאך-2",
-	"headword": {
-		"text": "מַלְאָךְ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַלְאָךְ ²",
+	"headwords": [
+		{
+			"text": "מַלְאָךְ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַלְאֲכָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 786,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01628",
-	"slug": "שעבד-1",
-	"headword": {
-		"text": "שִׁעְבֵּד"
-	},
+	"sefariaHeadword": "שִׁעְבֵּד",
+	"headwords": [
+		{
+			"text": "שִׁעְבֵּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "b"

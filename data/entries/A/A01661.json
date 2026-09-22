@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01661",
-	"slug": "אך-1",
-	"headword": {
-		"text": "אַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַךְ I",
+	"headwords": [
+		{
+			"text": "אַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 62,
 		"column": "a"

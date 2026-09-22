@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01063",
-	"slug": "קיסופורון",
-	"headword": {
-		"text": "קיסופורון"
-	},
+	"sefariaHeadword": "קיסופורון",
+	"headwords": [
+		{
+			"text": "קיסופורון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "b"

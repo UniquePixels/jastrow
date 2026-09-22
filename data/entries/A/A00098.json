@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00098",
-	"slug": "אבטיונא",
-	"headword": {
-		"text": "אָבְטְיוֹנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אָבְטְיוֹנָא",
+	"headwords": [
+		{
+			"text": "אָבְטְיוֹנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

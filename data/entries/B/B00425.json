@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00425",
-	"slug": "בזוזיתא",
-	"headword": {
-		"text": "בָּזוֹזִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּזוֹזִיתָא",
+	"headwords": [
+		{
+			"text": "בָּזוֹזִיתָא"
+		},
 		{
 			"text": "בָּזוֹנִיתָא",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 152,
 		"column": "b"

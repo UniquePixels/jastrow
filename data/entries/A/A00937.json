@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00937",
-	"slug": "אושקקא",
-	"headword": {
-		"text": "אוּשְׁקָקָא"
-	},
+	"sefariaHeadword": "אוּשְׁקָקָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁקָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "a"

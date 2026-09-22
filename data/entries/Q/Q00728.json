@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00728",
-	"slug": "פינחס",
-	"headword": {
-		"text": "פִּינְחָס"
-	},
+	"sefariaHeadword": "פִּינְחָס",
+	"headwords": [
+		{
+			"text": "פִּינְחָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

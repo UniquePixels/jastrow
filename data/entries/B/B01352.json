@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01352",
-	"slug": "בשורה",
-	"headword": {
-		"text": "בְּשׂוֹרָה"
-	},
+	"sefariaHeadword": "בְּשׂוֹרָה",
+	"headwords": [
+		{
+			"text": "בְּשׂוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

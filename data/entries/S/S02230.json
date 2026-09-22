@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02230",
-	"slug": "קשט-2",
-	"headword": {
-		"text": "קְשַׁט"
-	},
+	"sefariaHeadword": "קְשַׁט",
+	"headwords": [
+		{
+			"text": "קְשַׁט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1429,
 		"column": "b"

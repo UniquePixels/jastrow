@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00273",
-	"slug": "טחנה",
-	"headword": {
-		"text": "טַחֲנָה"
-	},
+	"sefariaHeadword": "טַחֲנָה",
+	"headwords": [
+		{
+			"text": "טַחֲנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

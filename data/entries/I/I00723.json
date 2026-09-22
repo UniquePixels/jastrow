@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00723",
-	"slug": "טרוזא",
-	"headword": {
-		"text": "טְרוּזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרוּזָא",
+	"headwords": [
+		{
+			"text": "טְרוּזָא"
+		},
 		{
 			"text": "טְרִיזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 550,
 		"column": "b"

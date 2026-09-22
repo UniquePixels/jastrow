@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01064",
-	"slug": "עפייץ",
-	"headword": {
-		"text": "עפייץ"
-	},
+	"sefariaHeadword": "עפייץ",
+	"headwords": [
+		{
+			"text": "עפייץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

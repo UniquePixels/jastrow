@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01637",
-	"slug": "סרכא-1",
-	"headword": {
-		"text": "סִרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִרְכָא",
+	"headwords": [
 		{
-			"text": "סִירְ׳"
+			"text": "סִרְכָא"
+		},
+		{
+			"text": "סִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1028,
 		"column": "a"

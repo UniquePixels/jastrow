@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00468",
-	"slug": "לילה",
-	"headword": {
-		"text": "לַיְלָה"
-	},
+	"sefariaHeadword": "לַיְלָה",
+	"headwords": [
+		{
+			"text": "לַיְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

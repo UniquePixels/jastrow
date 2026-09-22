@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01170",
-	"slug": "גסטרון",
-	"headword": {
-		"text": "גַּסִּטְרוֹן"
-	},
+	"sefariaHeadword": "גַּסִּטְרוֹן",
+	"headwords": [
+		{
+			"text": "גַּסִּטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00555",
-	"slug": "רטונא",
-	"headword": {
-		"text": "רָטוֹנָא"
-	},
+	"sefariaHeadword": "רָטוֹנָא",
+	"headwords": [
+		{
+			"text": "רָטוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "a"

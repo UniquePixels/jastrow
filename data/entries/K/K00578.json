@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00578",
-	"slug": "כיסא",
-	"headword": {
-		"text": "כֵּיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּיסָא",
+	"headwords": [
+		{
+			"text": "כֵּיסָא"
+		},
 		{
 			"text": "כִּיסָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "a"

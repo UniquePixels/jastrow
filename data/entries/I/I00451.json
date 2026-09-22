@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00451",
-	"slug": "טירנאה",
-	"headword": {
-		"text": "טִירְנָאָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִירְנָאָה",
+	"headwords": [
+		{
+			"text": "טִירְנָאָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

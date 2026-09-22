@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00466",
-	"slug": "רזי",
-	"headword": {
-		"text": "רזֵי"
-	},
+	"sefariaHeadword": "רזֵי",
+	"headwords": [
+		{
+			"text": "רזֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

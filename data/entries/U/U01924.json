@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01924",
-	"slug": "שרג-2",
-	"headword": {
-		"text": "שְׁרַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁרַג",
+	"headwords": [
+		{
+			"text": "שְׁרַג"
+		},
 		{
 			"text": "שְׁרֵיג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1628,
 		"column": "a"

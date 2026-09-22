@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00138",
-	"slug": "צהיר",
-	"headword": {
-		"text": "צְהִיר"
-	},
+	"sefariaHeadword": "צְהִיר",
+	"headwords": [
+		{
+			"text": "צְהִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

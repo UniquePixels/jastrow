@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00743",
-	"slug": "אונין",
-	"headword": {
-		"text": "אוּנִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּנִין",
+	"headwords": [
+		{
+			"text": "אוּנִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 29,
 		"column": "a"

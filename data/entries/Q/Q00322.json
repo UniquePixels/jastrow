@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00322",
-	"slug": "פוקלא",
-	"headword": {
-		"text": "פּוּקְלָא"
-	},
+	"sefariaHeadword": "פּוּקְלָא",
+	"headwords": [
+		{
+			"text": "פּוּקְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "a"

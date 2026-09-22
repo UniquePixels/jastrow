@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00807",
-	"slug": "אופיקילין",
-	"headword": {
-		"text": "אוֹפִיקְיָלִין"
-	},
+	"sefariaHeadword": "אוֹפִיקְיָלִין",
+	"headwords": [
+		{
+			"text": "אוֹפִיקְיָלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

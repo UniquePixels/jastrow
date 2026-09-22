@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00385",
-	"slug": "זינימון",
-	"headword": {
-		"text": "זינימון"
-	},
+	"sefariaHeadword": "זינימון",
+	"headwords": [
+		{
+			"text": "זינימון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

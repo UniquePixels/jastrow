@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O01341",
-	"slug": "ספורייא",
-	"headword": {
-		"text": "סִפּוּרַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִפּוּרַיָּיא",
+	"headwords": [
 		{
-			"text": "כְּפַר סִפּוּרַיָּיא"
+			"text": "סִפּוּרַיָּיא"
+		},
+		{
+			"text": "כְּפַר ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1012,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

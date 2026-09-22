@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00695",
-	"slug": "צפיחים",
-	"headword": {
-		"text": "צַפִּיחִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַפִּיחִים",
+	"headwords": [
+		{
+			"text": "צַפִּיחִים"
+		},
 		{
 			"text": "צַפִּיחִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1297,
 		"column": "a"

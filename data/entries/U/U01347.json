@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01347",
-	"slug": "שללא",
-	"headword": {
-		"text": "שְׁלָלָא"
-	},
+	"sefariaHeadword": "שְׁלָלָא",
+	"headwords": [
+		{
+			"text": "שְׁלָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1585,
 		"column": "b"

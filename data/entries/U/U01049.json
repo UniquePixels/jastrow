@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01049",
-	"slug": "שיקיא",
-	"headword": {
-		"text": "שִׁיקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיקְיָא",
+	"headwords": [
+		{
+			"text": "שִׁיקְיָא"
+		},
 		{
 			"text": "שִׁיקַיָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיקְיָינָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1568,
 		"column": "a"

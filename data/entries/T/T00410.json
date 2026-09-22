@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00410",
-	"slug": "רונקין",
-	"headword": {
-		"text": "רוּנְקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רוּנְקִין",
+	"headwords": [
+		{
+			"text": "רוּנְקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1462,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00872",
-	"slug": "טרפחת",
-	"headword": {
-		"text": "טַרְפַּחַת"
-	},
+	"sefariaHeadword": "טַרְפַּחַת",
+	"headwords": [
+		{
+			"text": "טַרְפַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "a"

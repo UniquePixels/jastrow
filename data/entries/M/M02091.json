@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02091",
-	"slug": "מעופרת",
-	"headword": {
-		"text": "מעופרת"
-	},
+	"sefariaHeadword": "מעופרת",
+	"headwords": [
+		{
+			"text": "מעופרת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02602",
-	"slug": "אפדכסיס",
-	"headword": {
-		"text": "אפדכסיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אפדכסיס",
+	"headwords": [
+		{
+			"text": "אפדכסיס",
+			"reconstructed": true
+		},
 		{
 			"text": "אפרדכסיס"
 		},
 		{
-			"text": "אפור׳"
+			"text": "אפור׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 100,
 		"column": "a"

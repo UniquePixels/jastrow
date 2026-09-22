@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00842",
-	"slug": "בלורין",
-	"headword": {
-		"text": "בלורין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בלורין",
+	"headwords": [
+		{
+			"text": "בלורין",
+			"reconstructed": true
+		},
 		{
 			"text": "בולרין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 171,
 		"column": "b"

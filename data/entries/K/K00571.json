@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00571",
-	"slug": "כיני",
-	"headword": {
-		"text": "כֵּינִי"
-	},
+	"sefariaHeadword": "כֵּינִי",
+	"headwords": [
+		{
+			"text": "כֵּינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "b"

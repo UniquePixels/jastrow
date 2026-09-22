@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00606",
-	"slug": "שזר-2",
-	"headword": {
-		"text": "שְׁזַר"
-	},
+	"sefariaHeadword": "שְׁזַר",
+	"headwords": [
+		{
+			"text": "שְׁזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00956",
-	"slug": "חל-3",
-	"headword": {
-		"text": "חַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חַל I",
+	"headwords": [
+		{
+			"text": "חַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 463,
 		"column": "b"

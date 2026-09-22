@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00452",
-	"slug": "חוראי",
-	"headword": {
-		"text": "חוֹרָאֵי"
-	},
+	"sefariaHeadword": "חוֹרָאֵי",
+	"headwords": [
+		{
+			"text": "חוֹרָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 439,
 		"column": "b"

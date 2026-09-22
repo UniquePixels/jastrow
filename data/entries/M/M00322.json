@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00322",
-	"slug": "מדק",
-	"headword": {
-		"text": "מֵדַק"
-	},
+	"sefariaHeadword": "מֵדַק",
+	"headwords": [
+		{
+			"text": "מֵדַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "a"

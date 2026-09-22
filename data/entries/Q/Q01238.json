@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01238",
-	"slug": "פסוורוס",
-	"headword": {
-		"text": "פסוורוס"
-	},
+	"sefariaHeadword": "פסוורוס",
+	"headwords": [
+		{
+			"text": "פסוורוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1192,
 		"column": "b"

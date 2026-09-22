@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02306",
-	"slug": "אנת",
-	"headword": {
-		"text": "אַנְתְּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְתְּ",
+	"headwords": [
+		{
+			"text": "אַנְתְּ"
+		},
 		{
 			"text": "אַנְתְּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 88,
 		"column": "a"

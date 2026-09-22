@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02162",
-	"slug": "מעצרתא-2",
-	"headword": {
-		"text": "מַעֲצַרְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַעֲצַרְתָּא II",
+	"headwords": [
+		{
+			"text": "מַעֲצַרְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 819,
 		"column": "a"

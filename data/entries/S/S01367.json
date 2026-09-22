@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01367",
-	"slug": "קלמתא",
-	"headword": {
-		"text": "קַלְמְתָא"
-	},
+	"sefariaHeadword": "קַלְמְתָא",
+	"headwords": [
+		{
+			"text": "קַלְמְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

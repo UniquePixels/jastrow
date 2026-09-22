@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00523",
-	"slug": "זמירה-1",
-	"headword": {
-		"text": "זְמִירָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זְמִירָה I",
+	"headwords": [
+		{
+			"text": "זְמִירָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 403,
 		"column": "a"

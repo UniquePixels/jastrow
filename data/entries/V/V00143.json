@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00143",
-	"slug": "תוב-2",
-	"headword": {
-		"text": "תּוּב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תּוּב II",
+	"headwords": [
+		{
+			"text": "תּוּב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1649,
 		"column": "b"

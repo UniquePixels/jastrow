@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03015",
-	"slug": "מתגא",
-	"headword": {
-		"text": "מִתגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִתגָּא",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִתגָּא"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 860,
 		"column": "a"

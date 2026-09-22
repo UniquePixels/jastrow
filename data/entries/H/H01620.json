@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01620",
-	"slug": "חרוותא",
-	"headword": {
-		"text": "חֶרְוָותָא"
-	},
+	"sefariaHeadword": "חֶרְוָותָא",
+	"headwords": [
+		{
+			"text": "חֶרְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

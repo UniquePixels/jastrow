@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02224",
-	"slug": "אניגרון-2",
-	"headword": {
-		"text": "אֶנִּיגָרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶנִּיגָרוֹן",
+	"headwords": [
+		{
+			"text": "אֶנִּיגָרוֹן"
+		},
 		{
 			"text": "אניגורין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 84,
 		"column": "b"

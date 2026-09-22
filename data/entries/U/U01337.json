@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01337",
-	"slug": "שלישי",
-	"headword": {
-		"text": "שְׁלִישִׁי"
-	},
+	"sefariaHeadword": "שְׁלִישִׁי",
+	"headwords": [
+		{
+			"text": "שְׁלִישִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "b"

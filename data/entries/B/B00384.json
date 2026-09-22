@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00384",
-	"slug": "בורסיון",
-	"headword": {
-		"text": "בּוּרְסִיוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּוּרְסִיוֹן",
+	"headwords": [
+		{
+			"text": "בּוּרְסִיוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

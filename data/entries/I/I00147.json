@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00147",
-	"slug": "טוטפא",
-	"headword": {
-		"text": "טוֹטְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹטְפָא",
+	"headwords": [
+		{
+			"text": "טוֹטְפָא"
+		},
 		{
 			"text": "טוֹטְפָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 523,
 		"column": "a"

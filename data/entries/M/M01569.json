@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01569",
-	"slug": "מלך-1",
-	"headword": {
-		"text": "מַלָּךְ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַלָּךְ",
+	"headwords": [
+		{
+			"text": "מַלָּךְ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 790,
 		"column": "b"

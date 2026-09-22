@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00398",
-	"slug": "שויה",
-	"headword": {
-		"text": "שְׁוִיָּה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*שְׁוִיָּה",
+	"headwords": [
+		{
+			"text": "שְׁוִיָּה",
+			"reconstructed": true
+		},
 		{
 			"text": "שְׁוִיָּיה"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1533,
 		"column": "b"

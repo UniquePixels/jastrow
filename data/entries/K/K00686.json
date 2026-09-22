@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00686",
-	"slug": "כלבת",
-	"headword": {
-		"text": "כַּלֶּבֶת"
-	},
+	"sefariaHeadword": "כַּלֶּבֶת",
+	"headwords": [
+		{
+			"text": "כַּלֶּבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00353",
-	"slug": "תחום-1",
-	"headword": {
-		"text": "תְּחוּם"
-	},
+	"sefariaHeadword": "תְּחוּם",
+	"headwords": [
+		{
+			"text": "תְּחוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "b"

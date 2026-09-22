@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00984",
-	"slug": "פלוניקיא",
-	"headword": {
-		"text": "פלוניקיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלוניקיא",
+	"headwords": [
+		{
+			"text": "פלוניקיא"
+		},
 		{
 			"text": "פלוסופא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פלוסופוס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1178,
 		"column": "a"

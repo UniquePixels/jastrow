@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00785",
-	"slug": "חילפי",
-	"headword": {
-		"text": "חִילְפַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילְפַי",
+	"headwords": [
+		{
+			"text": "חִילְפַי"
+		},
 		{
 			"text": "חִילְפַיי"
 		},
@@ -12,6 +13,7 @@
 			"text": "חִלְפַי"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 457,
 		"column": "a"

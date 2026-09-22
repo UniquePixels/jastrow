@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01050",
-	"slug": "גמלן",
-	"headword": {
-		"text": "גַּמְלָן"
-	},
+	"sefariaHeadword": "גַּמְלָן",
+	"headwords": [
+		{
+			"text": "גַּמְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

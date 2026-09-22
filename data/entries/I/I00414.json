@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00414",
-	"slug": "טיפול",
-	"headword": {
-		"text": "טִיפּוּל"
-	},
+	"sefariaHeadword": "טִיפּוּל",
+	"headwords": [
+		{
+			"text": "טִיפּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

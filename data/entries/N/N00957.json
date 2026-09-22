@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00957",
-	"slug": "נסק-1",
-	"headword": {
-		"text": "נָסַק"
-	},
+	"sefariaHeadword": "נָסַק",
+	"headwords": [
+		{
+			"text": "נָסַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 918,
 		"column": "a"

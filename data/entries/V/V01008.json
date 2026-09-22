@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01008",
-	"slug": "תרכונתא",
-	"headword": {
-		"text": "תַּרְכּוּנְתָּא"
-	},
+	"sefariaHeadword": "תַּרְכּוּנְתָּא",
+	"headwords": [
+		{
+			"text": "תַּרְכּוּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

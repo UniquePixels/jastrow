@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01727",
-	"slug": "שפח",
-	"headword": {
-		"text": "שָׂפַח"
-	},
+	"sefariaHeadword": "שָׂפַח",
+	"headwords": [
+		{
+			"text": "שָׂפַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00041",
-	"slug": "צביטה",
-	"headword": {
-		"text": "צְבִיטָה"
-	},
+	"sefariaHeadword": "צְבִיטָה",
+	"headwords": [
+		{
+			"text": "צְבִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1258,
 		"column": "b"

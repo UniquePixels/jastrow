@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00186",
-	"slug": "קדריה",
-	"headword": {
-		"text": "קדריה"
-	},
+	"sefariaHeadword": "קדריה",
+	"headwords": [
+		{
+			"text": "קדריה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1319,
 		"column": "a"

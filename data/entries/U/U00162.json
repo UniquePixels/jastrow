@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00162",
-	"slug": "שבע-8",
-	"headword": {
-		"text": "שָׂבָע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׂבָע",
+	"headwords": [
+		{
+			"text": "שָׂבָע"
+		},
 		{
 			"text": "שַׂבְעָא"
 		},
 		{
-			"text": "שָׂבְ׳"
+			"text": "שָׂבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1516,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00618",
-	"slug": "גיבס׳",
-	"headword": {
-		"text": "גיבס׳"
-	},
+	"sefariaHeadword": "גיבס׳",
+	"headwords": [
+		{
+			"text": "גיבס׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

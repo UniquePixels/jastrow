@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00718",
-	"slug": "עכביתא",
-	"headword": {
-		"text": "עַכָּבִיתָא"
-	},
+	"sefariaHeadword": "עַכָּבִיתָא",
+	"headwords": [
+		{
+			"text": "עַכָּבִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

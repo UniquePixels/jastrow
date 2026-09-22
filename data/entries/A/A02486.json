@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02486",
-	"slug": "אספטי",
-	"headword": {
-		"text": "אִסְפַּטִּי"
-	},
+	"sefariaHeadword": "אִסְפַּטִּי",
+	"headwords": [
+		{
+			"text": "אִסְפַּטִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

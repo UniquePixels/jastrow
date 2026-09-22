@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00728",
-	"slug": "יתיב-2",
-	"headword": {
-		"text": "יָתֵיב"
-	},
+	"sefariaHeadword": "יָתֵיב",
+	"headwords": [
+		{
+			"text": "יָתֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 603,
 		"column": "b"

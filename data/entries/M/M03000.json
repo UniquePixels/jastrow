@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03000",
-	"slug": "משתמודע",
-	"headword": {
-		"text": "מִשְׁתְּמוֹדַע"
-	},
+	"sefariaHeadword": "מִשְׁתְּמוֹדַע",
+	"headwords": [
+		{
+			"text": "מִשְׁתְּמוֹדַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "b"

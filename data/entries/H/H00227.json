@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00227",
-	"slug": "חדתנא",
-	"headword": {
-		"text": "חַדְתָּנָא"
-	},
+	"sefariaHeadword": "חַדְתָּנָא",
+	"headwords": [
+		{
+			"text": "חַדְתָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 428,
 		"column": "a"

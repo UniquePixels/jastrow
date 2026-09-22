@@ -1,24 +1,30 @@
 {
+	"schemaVersion": 2,
 	"id": "P01255",
-	"slug": "ערבא-1",
-	"headword": {
-		"text": "עַרְבָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְבָא I",
+	"headwords": [
 		{
-			"text": "עָרְ׳"
+			"text": "עַרְבָא",
+			"homograph": 1
 		},
 		{
-			"text": "עֶרְ׳"
+			"text": "עָרְ׳",
+			"partial": true
 		},
 		{
-			"text": "עִרְ׳"
+			"text": "עֶרְ׳",
+			"partial": true
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִרְ׳",
+			"partial": true
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1111,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00337",
-	"slug": "תותב-1",
-	"headword": {
-		"text": "תּוֹתָב"
-	},
+	"sefariaHeadword": "תּוֹתָב",
+	"headwords": [
+		{
+			"text": "תּוֹתָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1659,
 		"column": "b"

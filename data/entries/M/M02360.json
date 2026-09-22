@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M02360",
-	"slug": "מצראה-1",
-	"headword": {
-		"text": "מִצְרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְרָאָה",
+	"headwords": [
+		{
+			"text": "מִצְרָאָה"
+		},
 		{
 			"text": "מִצְרַאי"
 		},
@@ -15,9 +16,11 @@
 			"text": "מִצְרָיָא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 828,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00101",
-	"slug": "פגשה",
-	"headword": {
-		"text": "פַּגָּשָׁה"
-	},
+	"sefariaHeadword": "פַּגָּשָׁה",
+	"headwords": [
+		{
+			"text": "פַּגָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1136,
 		"column": "a"

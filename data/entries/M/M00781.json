@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00781",
-	"slug": "מזרות",
-	"headword": {
-		"text": "מַזָּרוֹת"
-	},
+	"sefariaHeadword": "מַזָּרוֹת",
+	"headwords": [
+		{
+			"text": "מַזָּרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

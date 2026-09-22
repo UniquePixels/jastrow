@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00904",
-	"slug": "כסוי-1",
-	"headword": {
-		"text": "כְּסוּי"
-	},
+	"sefariaHeadword": "כְּסוּי",
+	"headwords": [
+		{
+			"text": "כְּסוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

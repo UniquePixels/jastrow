@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01077",
-	"slug": "דרושא",
-	"headword": {
-		"text": "דָּרוֹשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּרוֹשָׁא",
+	"headwords": [
+		{
+			"text": "דָּרוֹשָׁא"
+		},
 		{
 			"text": "דָּרוֹשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 322,
 		"column": "b"

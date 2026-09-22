@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00309",
-	"slug": "דופיא",
-	"headword": {
-		"text": "דּוֹפְיָא"
-	},
+	"sefariaHeadword": "דּוֹפְיָא",
+	"headwords": [
+		{
+			"text": "דּוֹפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "a"

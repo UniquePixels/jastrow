@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00816",
-	"slug": "חינגיתא",
-	"headword": {
-		"text": "חִינְגִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינְגִּיתָא",
+	"headwords": [
 		{
-			"text": "חִנְ׳"
+			"text": "חִינְגִּיתָא"
+		},
+		{
+			"text": "חִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "a"

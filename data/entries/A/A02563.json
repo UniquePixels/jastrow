@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02563",
-	"slug": "אסרטיוט",
-	"headword": {
-		"text": "אִסְרַטְיוֹט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְרַטְיוֹט",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְרַטְיוֹט"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 98,
 		"column": "b"

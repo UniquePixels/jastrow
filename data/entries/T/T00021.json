@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00021",
-	"slug": "ראימא",
-	"headword": {
-		"text": "רְאֵימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְאֵימָא",
+	"headwords": [
+		{
+			"text": "רְאֵימָא"
+		},
 		{
 			"text": "רֵימָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1437,
 		"column": "a"

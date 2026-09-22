@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00414",
-	"slug": "רוסתקא",
-	"headword": {
-		"text": "רוּסְתָּקָא"
-	},
+	"sefariaHeadword": "רוּסְתָּקָא",
+	"headwords": [
+		{
+			"text": "רוּסְתָּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00971",
-	"slug": "חלב-6",
-	"headword": {
-		"text": "חֵלֶב",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חֵלֶב",
+	"headwords": [
+		{
+			"text": "חֵלֶב",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

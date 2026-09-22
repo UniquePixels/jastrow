@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00639",
-	"slug": "זקירא",
-	"headword": {
-		"text": "זְקִירָא"
-	},
+	"sefariaHeadword": "זְקִירָא",
+	"headwords": [
+		{
+			"text": "זְקִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "a"

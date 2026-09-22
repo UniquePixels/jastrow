@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00515",
-	"slug": "חזוק",
-	"headword": {
-		"text": "חִזּוּק"
-	},
+	"sefariaHeadword": "חִזּוּק",
+	"headwords": [
+		{
+			"text": "חִזּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 442,
 		"column": "b"

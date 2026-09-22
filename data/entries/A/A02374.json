@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02374",
-	"slug": "אסטכיוא",
-	"headword": {
-		"text": "אִסְטְכִיוָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִסְטְכִיוָא",
+	"headwords": [
+		{
+			"text": "אִסְטְכִיוָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

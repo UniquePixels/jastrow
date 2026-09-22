@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02944",
-	"slug": "משניות",
-	"headword": {
-		"text": "מִשְׁנָיוֹת"
-	},
+	"sefariaHeadword": "מִשְׁנָיוֹת",
+	"headwords": [
+		{
+			"text": "מִשְׁנָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

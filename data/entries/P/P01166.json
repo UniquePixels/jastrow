@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "P01166",
-	"slug": "עקוש-1",
-	"headword": {
-		"text": "עָקוֹשׁ",
-		"reconstructed": true,
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עָקוֹשׁ I",
+	"headwords": [
+		{
+			"text": "עָקוֹשׁ",
+			"reconstructed": true,
+			"homograph": 1
+		},
 		{
 			"text": "עָקִישׁ"
 		},
 		{
-			"text": "בֶּן עָקוֹשׁ"
+			"text": "בֶּן ע׳",
+			"partial": true
 		}
 	],
+	"display": "*{0} I, ({1}), {2}",
 	"page": {
 		"number": 1105,
 		"column": "b"

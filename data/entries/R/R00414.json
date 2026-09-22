@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "R00414",
-	"slug": "ציפורי-2",
-	"headword": {
-		"text": "צִיפּוֹרֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפּוֹרֵי ²",
+	"headwords": [
+		{
+			"text": "צִיפּוֹרֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִיפּוֹרִים"
 		},
@@ -14,15 +15,14 @@
 		},
 		{
 			"text": "צִפּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3} II",
 	"page": {
 		"number": 1279,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02613",
-	"slug": "אפוטיין",
-	"headword": {
-		"text": "אפוטיין"
-	},
+	"sefariaHeadword": "אפוטיין",
+	"headwords": [
+		{
+			"text": "אפוטיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

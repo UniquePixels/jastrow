@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00994",
-	"slug": "תריס-2",
-	"headword": {
-		"text": "תָּרִיס"
-	},
+	"sefariaHeadword": "תָּרִיס",
+	"headwords": [
+		{
+			"text": "תָּרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

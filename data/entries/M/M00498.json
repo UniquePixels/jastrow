@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00498",
-	"slug": "מוליאר",
-	"headword": {
-		"text": "מוּלְיָאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּלְיָאר",
+	"headwords": [
+		{
+			"text": "מוּלְיָאר"
+		},
 		{
 			"text": "מוּלְיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 742,
 		"column": "b"

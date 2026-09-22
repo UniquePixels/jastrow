@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01320",
-	"slug": "נשיקיא",
-	"headword": {
-		"text": "נְשִׁיקְיָא"
-	},
+	"sefariaHeadword": "נְשִׁיקְיָא",
+	"headwords": [
+		{
+			"text": "נְשִׁיקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

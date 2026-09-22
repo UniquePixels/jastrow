@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00590",
-	"slug": "אוורשנא",
-	"headword": {
-		"text": "אַוְורַשְׁנָא"
-	},
+	"sefariaHeadword": "אַוְורַשְׁנָא",
+	"headwords": [
+		{
+			"text": "אַוְורַשְׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

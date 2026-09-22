@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00929",
-	"slug": "גלי-4",
-	"headword": {
-		"text": "גַּלִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּלִּי",
+	"headwords": [
+		{
+			"text": "גַּלִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 248,
 		"column": "b"

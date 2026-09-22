@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00589",
-	"slug": "ריבוע-1",
-	"headword": {
-		"text": "רִיבּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוּעַ",
+	"headwords": [
 		{
-			"text": "רִבּ׳"
+			"text": "רִיבּוּעַ"
+		},
+		{
+			"text": "רִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1472,
 		"column": "b"

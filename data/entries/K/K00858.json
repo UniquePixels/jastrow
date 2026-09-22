@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00858",
-	"slug": "כנכב",
-	"headword": {
-		"text": "כַּנְכָּב"
-	},
+	"sefariaHeadword": "כַּנְכָּב",
+	"headwords": [
+		{
+			"text": "כַּנְכָּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01418",
-	"slug": "ספר-4",
-	"headword": {
-		"text": "סַפָּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַפָּר ²",
+	"headwords": [
+		{
+			"text": "סַפָּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "סַפָּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1017,
 		"column": "b"

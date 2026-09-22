@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00269",
-	"slug": "סוודא",
-	"headword": {
-		"text": "סוודא"
-	},
+	"sefariaHeadword": "סוודא",
+	"headwords": [
+		{
+			"text": "סוודא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

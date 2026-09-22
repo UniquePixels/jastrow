@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00550",
-	"slug": "תכס",
-	"headword": {
-		"text": "תְּכַס"
-	},
+	"sefariaHeadword": "תְּכַס",
+	"headwords": [
+		{
+			"text": "תְּכַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "a"

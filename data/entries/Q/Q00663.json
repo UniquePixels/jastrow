@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00663",
-	"slug": "פיל-4",
-	"headword": {
-		"text": "פִּיל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיל ²",
+	"headwords": [
+		{
+			"text": "פִּיל",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּילָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1163,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00375",
-	"slug": "רום-2",
-	"headword": {
-		"text": "רוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רוּם ²",
+	"headwords": [
+		{
+			"text": "רוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "רִים"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1460,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00075",
-	"slug": "ועוד",
-	"headword": {
-		"text": "וְעוֹד"
-	},
+	"sefariaHeadword": "וְעוֹד",
+	"headwords": [
+		{
+			"text": "וְעוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

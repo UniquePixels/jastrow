@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01032",
-	"slug": "רקיע-2",
-	"headword": {
-		"text": "רָקִיעַ"
-	},
+	"sefariaHeadword": "רָקִיעַ",
+	"headwords": [
+		{
+			"text": "רָקִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

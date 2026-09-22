@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00361",
-	"slug": "זימה-1",
-	"headword": {
-		"text": "זִימָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִימָּה",
+	"headwords": [
+		{
+			"text": "זִימָּה"
+		},
 		{
 			"text": "זִמָּה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 394,
 		"column": "a"

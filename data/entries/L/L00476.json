@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00476",
-	"slug": "לילית",
-	"headword": {
-		"text": "לִילִית"
-	},
+	"sefariaHeadword": "לִילִית",
+	"headwords": [
+		{
+			"text": "לִילִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

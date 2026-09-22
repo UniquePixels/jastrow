@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00265",
-	"slug": "פונדקא",
-	"headword": {
-		"text": "פּוּנְדְּקָא"
-	},
+	"sefariaHeadword": "פּוּנְדְּקָא",
+	"headwords": [
+		{
+			"text": "פּוּנְדְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

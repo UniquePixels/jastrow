@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00654",
-	"slug": "הנג",
-	"headword": {
-		"text": "הֵנַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵנַג",
+	"headwords": [
+		{
+			"text": "הֵנַג"
+		},
 		{
 			"text": "הֵינַג"
 		},
 		{
-			"text": "בַּר הֵנַג"
+			"text": "בַּר ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 357,
 		"column": "a"

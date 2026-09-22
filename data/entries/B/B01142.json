@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B01142",
-	"slug": "בקרא-2",
-	"headword": {
-		"text": "בַּקָּרָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בַּקָּרָא II",
+	"headwords": [
+		{
+			"text": "בַּקָּרָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 187,
 		"column": "b"

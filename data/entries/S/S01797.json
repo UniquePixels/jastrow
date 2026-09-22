@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01797",
-	"slug": "קצוצים",
-	"headword": {
-		"text": "קְצוּצִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְצוּצִים",
+	"headwords": [
+		{
+			"text": "קְצוּצִים"
+		},
 		{
 			"text": "קְצוּצִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1404,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00733",
-	"slug": "רית",
-	"headword": {
-		"text": "רִית"
-	},
+	"sefariaHeadword": "רִית",
+	"headwords": [
+		{
+			"text": "רִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

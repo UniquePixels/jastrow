@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01722",
-	"slug": "חרנוגא",
-	"headword": {
-		"text": "חַרְנוֹגָא"
-	},
+	"sefariaHeadword": "חַרְנוֹגָא",
+	"headwords": [
+		{
+			"text": "חַרְנוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "a"

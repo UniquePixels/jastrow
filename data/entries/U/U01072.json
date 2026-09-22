@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01072",
-	"slug": "שירטוט",
-	"headword": {
-		"text": "שִׁירְטוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁירְטוּט",
+	"headwords": [
 		{
-			"text": "שִׁרְ׳"
+			"text": "שִׁירְטוּט"
+		},
+		{
+			"text": "שִׁרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1569,
 		"column": "a"

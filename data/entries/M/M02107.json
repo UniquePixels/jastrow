@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02107",
-	"slug": "מעיין",
-	"headword": {
-		"text": "מַעְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעְיָין",
+	"headwords": [
+		{
+			"text": "מַעְיָין"
+		},
 		{
 			"text": "מַעְיָינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 815,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00005",
-	"slug": "מאד",
-	"headword": {
-		"text": "מְאֹד"
-	},
+	"sefariaHeadword": "מְאֹד",
+	"headwords": [
+		{
+			"text": "מְאֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01368",
-	"slug": "כתל",
-	"headword": {
-		"text": "כֹּתֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֹּתֶל",
+	"headwords": [
+		{
+			"text": "כֹּתֶל"
+		},
 		{
 			"text": "כָּתְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 682,
 		"column": "a"

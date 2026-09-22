@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M00981",
-	"slug": "מטול-3",
-	"headword": {
-		"text": "מַטּוּל",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*מַטּוּל II",
+	"headwords": [
+		{
+			"text": "מַטּוּל",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 766,
 		"column": "b"

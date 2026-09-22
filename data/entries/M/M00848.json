@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00848",
-	"slug": "מחח",
-	"headword": {
-		"text": "מָחַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָחַח",
+	"headwords": [
+		{
+			"text": "מָחַח"
+		},
 		{
 			"text": "מְחַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 758,
 		"column": "b"

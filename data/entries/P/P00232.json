@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00232",
-	"slug": "עוין",
-	"headword": {
-		"text": "עוֹיֵן"
-	},
+	"sefariaHeadword": "עוֹיֵן",
+	"headwords": [
+		{
+			"text": "עוֹיֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1049,
 		"column": "b"

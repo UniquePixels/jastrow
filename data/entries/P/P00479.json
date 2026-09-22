@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00479",
-	"slug": "עטרא",
-	"headword": {
-		"text": "עִטְרָא"
-	},
+	"sefariaHeadword": "עִטְרָא",
+	"headwords": [
+		{
+			"text": "עִטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "a"

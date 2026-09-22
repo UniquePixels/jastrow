@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00530",
-	"slug": "תכיל-1",
-	"headword": {
-		"text": "תְּכִיל"
-	},
+	"sefariaHeadword": "תְּכִיל",
+	"headwords": [
+		{
+			"text": "תְּכִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1668,
 		"column": "a"

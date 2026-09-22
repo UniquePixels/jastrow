@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01272",
-	"slug": "אילה-2",
-	"headword": {
-		"text": "אַיָּלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיָּלָה",
+	"headwords": [
+		{
+			"text": "אַיָּלָה"
+		},
 		{
 			"text": "אַיָּילָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַיֶּילֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 48,
 		"column": "b"

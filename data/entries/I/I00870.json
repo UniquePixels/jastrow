@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00870",
-	"slug": "טרפוניטיס",
-	"headword": {
-		"text": "טרפוניטיס"
-	},
+	"sefariaHeadword": "טרפוניטיס",
+	"headwords": [
+		{
+			"text": "טרפוניטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "a"

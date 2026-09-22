@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01229",
-	"slug": "נקמן",
-	"headword": {
-		"text": "נַקְמָן"
-	},
+	"sefariaHeadword": "נַקְמָן",
+	"headwords": [
+		{
+			"text": "נַקְמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 934,
 		"column": "a"

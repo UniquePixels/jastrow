@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01243",
-	"slug": "סניתא",
-	"headword": {
-		"text": "סְנֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְנֵיתָא",
+	"headwords": [
+		{
+			"text": "סְנֵיתָא"
+		},
 		{
 			"text": "סְנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1007,
 		"column": "b"

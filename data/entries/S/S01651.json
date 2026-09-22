@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01651",
-	"slug": "קסטל",
-	"headword": {
-		"text": "קסטל"
-	},
+	"sefariaHeadword": "קסטל",
+	"headwords": [
+		{
+			"text": "קסטל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

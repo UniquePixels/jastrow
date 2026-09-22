@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02081",
-	"slug": "אן-2",
-	"headword": {
-		"text": "אָן"
-	},
+	"sefariaHeadword": "אָן",
+	"headwords": [
+		{
+			"text": "אָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

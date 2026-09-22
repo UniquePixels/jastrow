@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01102",
-	"slug": "עצה-3",
-	"headword": {
-		"text": "עֵצָה"
-	},
+	"sefariaHeadword": "עֵצָה",
+	"headwords": [
+		{
+			"text": "עֵצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

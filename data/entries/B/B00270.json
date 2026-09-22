@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00270",
-	"slug": "בולס",
-	"headword": {
-		"text": "בּוּלָס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּלָס",
+	"headwords": [
+		{
+			"text": "בּוּלָס"
+		},
 		{
 			"text": "בּוֹלוֹס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 146,
 		"column": "b"

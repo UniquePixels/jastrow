@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02010",
-	"slug": "קרטם-2",
-	"headword": {
-		"text": "קַרְטֵם"
-	},
+	"sefariaHeadword": "קַרְטֵם",
+	"headwords": [
+		{
+			"text": "קַרְטֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1417,
 		"column": "a"

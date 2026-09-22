@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01683",
-	"slug": "קסרין",
-	"headword": {
-		"text": "קסרין"
-	},
+	"sefariaHeadword": "קסרין",
+	"headwords": [
+		{
+			"text": "קסרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

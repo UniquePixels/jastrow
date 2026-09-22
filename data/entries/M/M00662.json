@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00662",
-	"slug": "מורנימא",
-	"headword": {
-		"text": "מורנימא"
-	},
+	"sefariaHeadword": "מורנימא",
+	"headwords": [
+		{
+			"text": "מורנימא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 750,
 		"column": "b"

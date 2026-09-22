@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00426",
-	"slug": "מוהה",
-	"headword": {
-		"text": "מוֹהֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹהֶה",
+	"headwords": [
+		{
+			"text": "מוֹהֶה"
+		},
 		{
 			"text": "מוֹהִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 739,
 		"column": "a"

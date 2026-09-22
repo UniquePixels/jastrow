@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01206",
-	"slug": "עקמנותא",
-	"headword": {
-		"text": "עַקְמָנוּתָא"
-	},
+	"sefariaHeadword": "עַקְמָנוּתָא",
+	"headwords": [
+		{
+			"text": "עַקְמָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01676",
-	"slug": "סרקין-1",
-	"headword": {
-		"text": "סרקין"
-	},
+	"sefariaHeadword": "סרקין",
+	"headwords": [
+		{
+			"text": "סרקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1030,
 		"column": "b"

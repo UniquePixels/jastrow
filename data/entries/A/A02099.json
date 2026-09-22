@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02099",
-	"slug": "אנגיטירין",
-	"headword": {
-		"text": "אנגיטירין"
-	},
+	"sefariaHeadword": "אנגיטירין",
+	"headwords": [
+		{
+			"text": "אנגיטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

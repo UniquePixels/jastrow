@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00628",
-	"slug": "טפוח-2",
-	"headword": {
-		"text": "טָפוּחַ"
-	},
+	"sefariaHeadword": "טָפוּחַ",
+	"headwords": [
+		{
+			"text": "טָפוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "b"

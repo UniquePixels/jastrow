@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00542",
-	"slug": "שורבא",
-	"headword": {
-		"text": "שׁוּרְבָּא"
-	},
+	"sefariaHeadword": "שׁוּרְבָּא",
+	"headwords": [
+		{
+			"text": "שׁוּרְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "a"

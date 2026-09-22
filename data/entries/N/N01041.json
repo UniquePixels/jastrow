@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N01041",
-	"slug": "נפיל-1",
-	"headword": {
-		"text": "נָפִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָפִיל",
+	"headwords": [
+		{
+			"text": "נָפִיל"
+		},
 		{
 			"text": "נְפִילִים"
 		},
 		{
-			"text": "נְפִלִ׳"
+			"text": "נְפִלִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 923,
 		"column": "b"

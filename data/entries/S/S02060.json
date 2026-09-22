@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02060",
-	"slug": "קרייתא",
-	"headword": {
-		"text": "קִרְיְיתָא"
-	},
+	"sefariaHeadword": "קִרְיְיתָא",
+	"headwords": [
+		{
+			"text": "קִרְיְיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

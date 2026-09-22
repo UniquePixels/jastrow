@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00501",
-	"slug": "מוליון",
-	"headword": {
-		"text": "מוּלְיוֹן"
-	},
+	"sefariaHeadword": "מוּלְיוֹן",
+	"headwords": [
+		{
+			"text": "מוּלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

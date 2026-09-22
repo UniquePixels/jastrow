@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00254",
-	"slug": "אגה",
-	"headword": {
-		"text": "אֵגֶה"
-	},
+	"sefariaHeadword": "אֵגֶה",
+	"headwords": [
+		{
+			"text": "אֵגֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "a"

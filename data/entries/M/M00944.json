@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00944",
-	"slug": "מחשבה",
-	"headword": {
-		"text": "מַחֲשָׁבָה"
-	},
+	"sefariaHeadword": "מַחֲשָׁבָה",
+	"headwords": [
+		{
+			"text": "מַחֲשָׁבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00121",
-	"slug": "חברות",
-	"headword": {
-		"text": "חֲבֵרוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבֵרוּת",
+	"headwords": [
 		{
-			"text": "חֲבֵי׳"
+			"text": "חֲבֵרוּת"
+		},
+		{
+			"text": "חֲבֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 422,
 		"column": "b"

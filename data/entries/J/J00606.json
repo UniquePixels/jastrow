@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00606",
-	"slug": "ירוד-4",
-	"headword": {
-		"text": "יָרוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָרוֹד",
+	"headwords": [
+		{
+			"text": "יָרוֹד"
+		},
 		{
 			"text": "יָרוֹדָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "יָרוּדָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 594,
 		"column": "b"

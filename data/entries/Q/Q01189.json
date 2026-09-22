@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01189",
-	"slug": "פני-2",
-	"headword": {
-		"text": "פְּנֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּנֵי I",
+	"headwords": [
+		{
+			"text": "פְּנֵי",
+			"homograph": 1
+		},
 		{
 			"text": "פְּנָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1188,
 		"column": "b"

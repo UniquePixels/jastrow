@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02194",
-	"slug": "פתפת",
-	"headword": {
-		"text": "פִּתְפֵּת"
-	},
+	"sefariaHeadword": "פִּתְפֵּת",
+	"headwords": [
+		{
+			"text": "פִּתְפֵּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

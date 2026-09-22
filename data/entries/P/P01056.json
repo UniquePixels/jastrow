@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01056",
-	"slug": "עסקא",
-	"headword": {
-		"text": "עִסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִסְקָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִסְקָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1099,
 		"column": "a"

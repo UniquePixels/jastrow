@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00498",
-	"slug": "תירבי",
-	"headword": {
-		"text": "תירבי"
-	},
+	"sefariaHeadword": "תירבי",
+	"headwords": [
+		{
+			"text": "תירבי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

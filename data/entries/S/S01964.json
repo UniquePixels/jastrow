@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01964",
-	"slug": "קרושיתא",
-	"headword": {
-		"text": "קְרוֹשְׁיָתָא"
-	},
+	"sefariaHeadword": "קְרוֹשְׁיָתָא",
+	"headwords": [
+		{
+			"text": "קְרוֹשְׁיָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "a"

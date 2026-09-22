@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01123",
-	"slug": "שכוב",
-	"headword": {
-		"text": "שְׁכוּב"
-	},
+	"sefariaHeadword": "שְׁכוּב",
+	"headwords": [
+		{
+			"text": "שְׁכוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01390",
-	"slug": "חסית-1",
-	"headword": {
-		"text": "חָסִית",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָסִית I",
+	"headwords": [
+		{
+			"text": "חָסִית",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 487,
 		"column": "b"

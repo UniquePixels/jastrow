@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00221",
-	"slug": "תולעתא",
-	"headword": {
-		"text": "תּוֹלַעְתָּא"
-	},
+	"sefariaHeadword": "תּוֹלַעְתָּא",
+	"headwords": [
+		{
+			"text": "תּוֹלַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00899",
-	"slug": "שייט",
-	"headword": {
-		"text": "שַׁיָּיט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁיָּיט",
+	"headwords": [
+		{
+			"text": "שַׁיָּיט"
+		},
 		{
 			"text": "שַׁיָּיטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "a"

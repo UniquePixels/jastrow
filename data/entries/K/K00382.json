@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00382",
-	"slug": "כורכא",
-	"headword": {
-		"text": "כּוּרְכָּא"
-	},
+	"sefariaHeadword": "כּוּרְכָּא",
+	"headwords": [
+		{
+			"text": "כּוּרְכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

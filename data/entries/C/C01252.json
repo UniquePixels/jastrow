@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01252",
-	"slug": "גרגיתא",
-	"headword": {
-		"text": "גַּרְגִּיתָא"
-	},
+	"sefariaHeadword": "גַּרְגִּיתָא",
+	"headwords": [
+		{
+			"text": "גַּרְגִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

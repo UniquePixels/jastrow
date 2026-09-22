@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03032",
-	"slug": "ארומאה",
-	"headword": {
-		"text": "אֲרוֹמָאָה"
-	},
+	"sefariaHeadword": "אֲרוֹמָאָה",
+	"headwords": [
+		{
+			"text": "אֲרוֹמָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00952",
-	"slug": "התם-1",
-	"headword": {
-		"text": "הָתָם"
-	},
+	"sefariaHeadword": "הָתָם",
+	"headwords": [
+		{
+			"text": "הָתָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

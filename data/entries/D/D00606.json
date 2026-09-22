@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00606",
-	"slug": "דילכן",
-	"headword": {
-		"text": "דִּילָכֵן"
-	},
+	"sefariaHeadword": "דִּילָכֵן",
+	"headwords": [
+		{
+			"text": "דִּילָכֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

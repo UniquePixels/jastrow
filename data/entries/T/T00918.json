@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00918",
-	"slug": "רעץ-2",
-	"headword": {
-		"text": "רְעַץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעַץ",
+	"headwords": [
+		{
+			"text": "רְעַץ"
+		},
 		{
 			"text": "רְעֵיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1488,
 		"column": "b"

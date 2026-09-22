@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00709",
-	"slug": "זרייה",
-	"headword": {
-		"text": "זְרִיָּיה"
-	},
+	"sefariaHeadword": "זְרִיָּיה",
+	"headwords": [
+		{
+			"text": "זְרִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00438",
-	"slug": "ליזה",
-	"headword": {
-		"text": "לִיזָה"
-	},
+	"sefariaHeadword": "לִיזָה",
+	"headwords": [
+		{
+			"text": "לִיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

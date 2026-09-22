@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00772",
-	"slug": "חילוק",
-	"headword": {
-		"text": "חִילּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוּק",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוּק"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "b"

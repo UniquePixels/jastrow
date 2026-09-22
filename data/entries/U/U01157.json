@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01157",
-	"slug": "שכך",
-	"headword": {
-		"text": "שָׁכַךְ"
-	},
+	"sefariaHeadword": "שָׁכַךְ",
+	"headwords": [
+		{
+			"text": "שָׁכַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "b"

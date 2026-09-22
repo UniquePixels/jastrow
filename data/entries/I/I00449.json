@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00449",
-	"slug": "טירכי",
-	"headword": {
-		"text": "טירכי"
-	},
+	"sefariaHeadword": "טירכי",
+	"headwords": [
+		{
+			"text": "טירכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

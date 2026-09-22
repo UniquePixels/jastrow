@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00148",
-	"slug": "שבלת",
-	"headword": {
-		"text": "שִׁבֹּלֶת"
-	},
+	"sefariaHeadword": "שִׁבֹּלֶת",
+	"headwords": [
+		{
+			"text": "שִׁבֹּלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

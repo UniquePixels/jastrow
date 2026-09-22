@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00219",
-	"slug": "צופה",
-	"headword": {
-		"text": "צוֹפֶה"
-	},
+	"sefariaHeadword": "צוֹפֶה",
+	"headwords": [
+		{
+			"text": "צוֹפֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1269,
 		"column": "a"

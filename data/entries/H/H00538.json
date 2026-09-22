@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00538",
-	"slug": "חזיזיות",
-	"headword": {
-		"text": "חֲזִיזִיּוֹת"
-	},
+	"sefariaHeadword": "חֲזִיזִיּוֹת",
+	"headwords": [
+		{
+			"text": "חֲזִיזִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 443,
 		"column": "b"

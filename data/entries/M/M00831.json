@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00831",
-	"slug": "מחוסא",
-	"headword": {
-		"text": "מְחוֹסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְחוֹסָא",
+	"headwords": [
+		{
+			"text": "מְחוֹסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 758,
 		"column": "a"

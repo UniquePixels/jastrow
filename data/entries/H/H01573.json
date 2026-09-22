@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01573",
-	"slug": "חר-2",
-	"headword": {
-		"text": "חֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֹר",
+	"headwords": [
+		{
+			"text": "חֹר"
+		},
 		{
 			"text": "חֹרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֹרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 497,
 		"column": "b"

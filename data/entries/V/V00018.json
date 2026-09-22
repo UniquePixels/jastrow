@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00018",
-	"slug": "תאורתו",
-	"headword": {
-		"text": "תאורתו"
-	},
+	"sefariaHeadword": "תאורתו",
+	"headwords": [
+		{
+			"text": "תאורתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

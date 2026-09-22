@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01362",
-	"slug": "ערימה",
-	"headword": {
-		"text": "עֲרֵימָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרֵימָה",
+	"headwords": [
+		{
+			"text": "עֲרֵימָה"
+		},
 		{
 			"text": "עֲרֵמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1117,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02253",
-	"slug": "קשישין",
-	"headword": {
-		"text": "קִשִׁישִׁין"
-	},
+	"sefariaHeadword": "קִשִׁישִׁין",
+	"headwords": [
+		{
+			"text": "קִשִׁישִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1431,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00667",
-	"slug": "ביעא-1",
-	"headword": {
-		"text": "בְּיָעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּיָעָא",
+	"headwords": [
+		{
+			"text": "בְּיָעָא"
+		},
 		{
 			"text": "בִּיעָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 164,
 		"column": "a"

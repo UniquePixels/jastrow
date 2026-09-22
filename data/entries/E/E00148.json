@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00148",
-	"slug": "הדר-2",
-	"headword": {
-		"text": "הֲדַר"
-	},
+	"sefariaHeadword": "הֲדַר",
+	"headwords": [
+		{
+			"text": "הֲדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 334,
 		"column": "b"

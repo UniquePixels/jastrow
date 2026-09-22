@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00170",
-	"slug": "גדוד-1",
-	"headword": {
-		"text": "גְּדוּד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גְּדוּד I",
+	"headwords": [
+		{
+			"text": "גְּדוּד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 210,
 		"column": "b"

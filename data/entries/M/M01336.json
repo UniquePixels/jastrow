@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01336",
-	"slug": "מיתר",
-	"headword": {
-		"text": "מֵיתָר"
-	},
+	"sefariaHeadword": "מֵיתָר",
+	"headwords": [
+		{
+			"text": "מֵיתָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 780,
 		"column": "b"

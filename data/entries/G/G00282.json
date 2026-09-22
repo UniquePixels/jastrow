@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00282",
-	"slug": "זידנותא",
-	"headword": {
-		"text": "זֵידָנוּתָא"
-	},
+	"sefariaHeadword": "זֵידָנוּתָא",
+	"headwords": [
+		{
+			"text": "זֵידָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

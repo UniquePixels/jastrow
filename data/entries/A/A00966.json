@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00966",
-	"slug": "אזור",
-	"headword": {
-		"text": "אֵזוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵזוֹר",
+	"headwords": [
+		{
+			"text": "אֵזוֹר"
+		},
 		{
 			"text": "אֵיזוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 37,
 		"column": "a"

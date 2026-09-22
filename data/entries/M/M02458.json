@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02458",
-	"slug": "מקרוס",
-	"headword": {
-		"text": "מַקְרוֹס"
-	},
+	"sefariaHeadword": "מַקְרוֹס",
+	"headwords": [
+		{
+			"text": "מַקְרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

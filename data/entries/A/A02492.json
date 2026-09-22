@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02492",
-	"slug": "אספיר",
-	"headword": {
-		"text": "אספיר"
-	},
+	"sefariaHeadword": "אספיר",
+	"headwords": [
+		{
+			"text": "אספיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

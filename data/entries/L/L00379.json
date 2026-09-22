@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00379",
-	"slug": "לט",
-	"headword": {
-		"text": "לָט"
-	},
+	"sefariaHeadword": "לָט",
+	"headwords": [
+		{
+			"text": "לָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

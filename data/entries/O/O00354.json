@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00354",
-	"slug": "סומקינו",
-	"headword": {
-		"text": "סומקינו"
-	},
+	"sefariaHeadword": "סומקינו",
+	"headwords": [
+		{
+			"text": "סומקינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

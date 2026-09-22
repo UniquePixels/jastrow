@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00468",
-	"slug": "תימרה",
-	"headword": {
-		"text": "תִּימְרָה"
-	},
+	"sefariaHeadword": "תִּימְרָה",
+	"headwords": [
+		{
+			"text": "תִּימְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01337",
-	"slug": "פסנטור",
-	"headword": {
-		"text": "פְּסַנְטוֹר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּסַנְטוֹר",
+	"headwords": [
+		{
+			"text": "פְּסַנְטוֹר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1198,
 		"column": "b"

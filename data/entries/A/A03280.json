@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03280",
-	"slug": "אשזון",
-	"headword": {
-		"text": "אַשְׁזוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַשְׁזוֹן",
+	"headwords": [
+		{
+			"text": "אַשְׁזוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

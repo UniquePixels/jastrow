@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00330",
-	"slug": "נוון",
-	"headword": {
-		"text": "נוון"
-	},
+	"sefariaHeadword": "נוון",
+	"headwords": [
+		{
+			"text": "נוון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "a"

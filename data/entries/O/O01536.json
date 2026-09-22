@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01536",
-	"slug": "סרד",
-	"headword": {
-		"text": "סָרָד"
-	},
+	"sefariaHeadword": "סָרָד",
+	"headwords": [
+		{
+			"text": "סָרָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "a"

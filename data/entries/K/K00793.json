@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00793",
-	"slug": "כמון-1",
-	"headword": {
-		"text": "כמון"
-	},
+	"sefariaHeadword": "כמון",
+	"headwords": [
+		{
+			"text": "כמון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 646,
 		"column": "a"

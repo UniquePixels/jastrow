@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00348",
-	"slug": "לחים",
-	"headword": {
-		"text": "לְחֵים"
-	},
+	"sefariaHeadword": "לְחֵים",
+	"headwords": [
+		{
+			"text": "לְחֵים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

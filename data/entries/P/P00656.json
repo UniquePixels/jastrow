@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00656",
-	"slug": "עיקול",
-	"headword": {
-		"text": "עִיקּוּל"
-	},
+	"sefariaHeadword": "עִיקּוּל",
+	"headwords": [
+		{
+			"text": "עִיקּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

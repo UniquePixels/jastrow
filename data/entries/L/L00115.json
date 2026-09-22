@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00115",
-	"slug": "לברטון",
-	"headword": {
-		"text": "לַבְרָטוֹן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*לַבְרָטוֹן",
+	"headwords": [
+		{
+			"text": "לַבְרָטוֹן",
+			"reconstructed": true
+		},
 		{
 			"text": "לַבְרְיָטוֹן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "a"

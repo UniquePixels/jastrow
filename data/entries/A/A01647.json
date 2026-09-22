@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A01647",
-	"slug": "איתיטרון",
-	"headword": {
-		"text": "אִיתְּיַטְרוֹן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִיתְּיַטְרוֹן",
+	"headwords": [
+		{
+			"text": "אִיתְּיַטְרוֹן",
+			"reconstructed": true
+		},
 		{
 			"text": "אִיתִּיַטְרוֹן"
 		},
 		{
-			"text": "אִתְּ׳"
+			"text": "אִתְּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 61,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00964",
-	"slug": "כעירות",
-	"headword": {
-		"text": "כְּעִירוּת"
-	},
+	"sefariaHeadword": "כְּעִירוּת",
+	"headwords": [
+		{
+			"text": "כְּעִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

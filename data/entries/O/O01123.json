@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01123",
-	"slug": "סמפולינא",
-	"headword": {
-		"text": "סמפולינא"
-	},
+	"sefariaHeadword": "סמפולינא",
+	"headwords": [
+		{
+			"text": "סמפולינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "b"

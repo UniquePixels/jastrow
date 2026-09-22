@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02380",
-	"slug": "אסטליסטקין",
-	"headword": {
-		"text": "אסטליסטקין"
-	},
+	"sefariaHeadword": "אסטליסטקין",
+	"headwords": [
+		{
+			"text": "אסטליסטקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "b"

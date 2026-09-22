@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00392",
-	"slug": "עזאזל",
-	"headword": {
-		"text": "עֲזָאזֵל"
-	},
+	"sefariaHeadword": "עֲזָאזֵל",
+	"headwords": [
+		{
+			"text": "עֲזָאזֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "b"

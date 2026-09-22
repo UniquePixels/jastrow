@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00345",
-	"slug": "שווח-3",
-	"headword": {
-		"text": "שְׁוַוח",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוַוח ²",
+	"headwords": [
+		{
+			"text": "שְׁוַוח",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁוַח"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1530,
 		"column": "a"

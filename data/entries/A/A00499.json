@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00499",
-	"slug": "אהינו",
-	"headword": {
-		"text": "אהינו"
-	},
+	"sefariaHeadword": "אהינו",
+	"headwords": [
+		{
+			"text": "אהינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00892",
-	"slug": "בלס",
-	"headword": {
-		"text": "בָּלַס"
-	},
+	"sefariaHeadword": "בָּלַס",
+	"headwords": [
+		{
+			"text": "בָּלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00426",
-	"slug": "שולטנותא",
-	"headword": {
-		"text": "שׁוּלְטָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּלְטָנוּתָא",
+	"headwords": [
 		{
-			"text": "שָׁלְ׳"
+			"text": "שׁוּלְטָנוּתָא"
+		},
+		{
+			"text": "שָׁלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1534,
 		"column": "b"

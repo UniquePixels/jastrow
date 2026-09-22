@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00381",
-	"slug": "יליד-3",
-	"headword": {
-		"text": "יְלִיד"
-	},
+	"sefariaHeadword": "יְלִיד",
+	"headwords": [
+		{
+			"text": "יְלִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 578,
 		"column": "b"

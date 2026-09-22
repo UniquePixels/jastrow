@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "V00203",
-	"slug": "תוכחה-2",
-	"headword": {
-		"text": "תּוֹכֵחָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹכֵחָה ²",
+	"headwords": [
+		{
+			"text": "תּוֹכֵחָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "תּוֹכֵחָא"
 		},
 		{
-			"text": "תּוֹכֵי׳"
+			"text": "תּוֹכֵי׳",
+			"partial": true
 		},
 		{
 			"text": "תּוֹכַחְתָּא"
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1652,
 		"column": "b"

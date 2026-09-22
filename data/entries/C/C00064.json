@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00064",
-	"slug": "גבורתא",
-	"headword": {
-		"text": "גְּבוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבוּרְתָּא",
+	"headwords": [
+		{
+			"text": "גְּבוּרְתָּא"
+		},
 		{
 			"text": "גְּבוּרָא"
 		},
@@ -12,9 +13,11 @@
 			"text": "גִּבָּרוּתָא"
 		},
 		{
-			"text": "גִּיבָּ׳"
+			"text": "גִּיבָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 205,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00924",
-	"slug": "שיכלול",
-	"headword": {
-		"text": "שִׁיכְלוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיכְלוּל",
+	"headwords": [
 		{
-			"text": "שִׁכְ׳"
+			"text": "שִׁיכְלוּל"
+		},
+		{
+			"text": "שִׁכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1562,
 		"column": "a"

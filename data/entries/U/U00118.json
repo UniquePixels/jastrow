@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00118",
-	"slug": "שביון",
-	"headword": {
-		"text": "שביון"
-	},
+	"sefariaHeadword": "שביון",
+	"headwords": [
+		{
+			"text": "שביון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1513,
 		"column": "b"

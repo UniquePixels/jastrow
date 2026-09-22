@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00801",
-	"slug": "הקצה-1",
-	"headword": {
-		"text": "הֲקָצה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הֲקָצה I",
+	"headwords": [
+		{
+			"text": "הֲקָצה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 364,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01210",
-	"slug": "קישוט",
-	"headword": {
-		"text": "קִישּׁוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישּׁוּט",
+	"headwords": [
 		{
-			"text": "קִשּׁ׳"
+			"text": "קִישּׁוּט"
+		},
+		{
+			"text": "קִשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

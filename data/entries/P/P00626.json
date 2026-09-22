@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00626",
-	"slug": "עינקא",
-	"headword": {
-		"text": "עִינְקָא"
-	},
+	"sefariaHeadword": "עִינְקָא",
+	"headwords": [
+		{
+			"text": "עִינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

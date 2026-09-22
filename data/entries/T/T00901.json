@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00901",
-	"slug": "רעייה",
-	"headword": {
-		"text": "רְעִיָּיה"
-	},
+	"sefariaHeadword": "רְעִיָּיה",
+	"headwords": [
+		{
+			"text": "רְעִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1487,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00640",
-	"slug": "בינא-2",
-	"headword": {
-		"text": "בִּינָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בִּינָא II",
+	"headwords": [
+		{
+			"text": "בִּינָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 163,
 		"column": "a"

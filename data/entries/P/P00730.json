@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00730",
-	"slug": "עכול",
-	"headword": {
-		"text": "עִכּוֹל"
-	},
+	"sefariaHeadword": "עִכּוֹל",
+	"headwords": [
+		{
+			"text": "עִכּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "b"

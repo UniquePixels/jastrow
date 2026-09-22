@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00613",
-	"slug": "המינא-1",
-	"headword": {
-		"text": "הִמְיָנָא"
-	},
+	"sefariaHeadword": "הִמְיָנָא",
+	"headwords": [
+		{
+			"text": "הִמְיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

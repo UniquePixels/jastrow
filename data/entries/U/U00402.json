@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00402",
-	"slug": "שוילנאי",
-	"headword": {
-		"text": "שְׁוִילְנַאי"
-	},
+	"sefariaHeadword": "שְׁוִילְנַאי",
+	"headwords": [
+		{
+			"text": "שְׁוִילְנַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

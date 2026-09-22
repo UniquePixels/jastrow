@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00614",
-	"slug": "אוחדתא-2",
-	"headword": {
-		"text": "אוּחַדְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּחַדְתָּא",
+	"headwords": [
+		{
+			"text": "אוּחַדְתָּא"
+		},
 		{
 			"text": "אוֹחַדְתָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 24,
 		"column": "a"

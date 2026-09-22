@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01374",
-	"slug": "קלניתא-1",
-	"headword": {
-		"text": "קַלָּנִיתָא"
-	},
+	"sefariaHeadword": "קַלָּנִיתָא",
+	"headwords": [
+		{
+			"text": "קַלָּנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1379,
 		"column": "a"

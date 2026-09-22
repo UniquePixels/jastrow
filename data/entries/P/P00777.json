@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00777",
-	"slug": "עלובתא",
-	"headword": {
-		"text": "עֲלוּבְתָּא"
-	},
+	"sefariaHeadword": "עֲלוּבְתָּא",
+	"headwords": [
+		{
+			"text": "עֲלוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00225",
-	"slug": "לוז-1",
-	"headword": {
-		"text": "לוּז",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לוּז I",
+	"headwords": [
+		{
+			"text": "לוּז",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 695,
 		"column": "b"

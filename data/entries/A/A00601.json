@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00601",
-	"slug": "אוזילתא",
-	"headword": {
-		"text": "אוּזִילְתָּא"
-	},
+	"sefariaHeadword": "אוּזִילְתָּא",
+	"headwords": [
+		{
+			"text": "אוּזִילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

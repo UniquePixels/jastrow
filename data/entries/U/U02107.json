@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02107",
-	"slug": "שתים",
-	"headword": {
-		"text": "שְׁתַּיִם"
-	},
+	"sefariaHeadword": "שְׁתַּיִם",
+	"headwords": [
+		{
+			"text": "שְׁתַּיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00335",
-	"slug": "חולה-3",
-	"headword": {
-		"text": "חוֹלָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹלָה II",
+	"headwords": [
+		{
+			"text": "חוֹלָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 433,
 		"column": "b"

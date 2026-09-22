@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00467",
-	"slug": "כחלי",
-	"headword": {
-		"text": "כַּחֲלֵי"
-	},
+	"sefariaHeadword": "כַּחֲלֵי",
+	"headwords": [
+		{
+			"text": "כַּחֲלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "a"

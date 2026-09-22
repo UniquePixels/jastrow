@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01622",
-	"slug": "שסף",
-	"headword": {
-		"text": "שָׁסַף"
-	},
+	"sefariaHeadword": "שָׁסַף",
+	"headwords": [
+		{
+			"text": "שָׁסַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "a"

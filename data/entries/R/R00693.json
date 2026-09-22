@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00693",
-	"slug": "צפיא",
-	"headword": {
-		"text": "צִפְיָא"
-	},
+	"sefariaHeadword": "צִפְיָא",
+	"headwords": [
+		{
+			"text": "צִפְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1297,
 		"column": "a"

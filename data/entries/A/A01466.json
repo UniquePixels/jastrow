@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01466",
-	"slug": "איסכולסטיקא",
-	"headword": {
-		"text": "אִיסְכּוֹלַסְטִיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְכֹּולַסְטִיקָא",
+	"headwords": [
 		{
-			"text": "אִסְ׳"
+			"text": "אִיסְכּוֹלַסְטִיקָא"
+		},
+		{
+			"text": "אִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 56,
 		"column": "a"

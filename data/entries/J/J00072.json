@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00072",
-	"slug": "יבש-4",
-	"headword": {
-		"text": "יְבֵשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְבֵשׁ",
+	"headwords": [
+		{
+			"text": "יְבֵשׁ"
+		},
 		{
 			"text": "יְבֵישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 562,
 		"column": "a"

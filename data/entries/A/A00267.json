@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00267",
-	"slug": "אגונה",
-	"headword": {
-		"text": "אגונה"
-	},
+	"sefariaHeadword": "אגונה",
+	"headwords": [
+		{
+			"text": "אגונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

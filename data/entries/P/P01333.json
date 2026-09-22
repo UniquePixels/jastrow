@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01333",
-	"slug": "ערור",
-	"headword": {
-		"text": "עֵרוּר"
-	},
+	"sefariaHeadword": "עֵרוּר",
+	"headwords": [
+		{
+			"text": "עֵרוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "b"

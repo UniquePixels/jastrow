@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01826",
-	"slug": "שקד-1",
-	"headword": {
-		"text": "שָׂקַד"
-	},
+	"sefariaHeadword": "שָׂקַד",
+	"headwords": [
+		{
+			"text": "שָׂקַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "b"

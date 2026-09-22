@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00247",
-	"slug": "תוספתא",
-	"headword": {
-		"text": "תּוֹסֶפְתָּא"
-	},
+	"sefariaHeadword": "תּוֹסֶפְתָּא",
+	"headwords": [
+		{
+			"text": "תּוֹסֶפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "b"

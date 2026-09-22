@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00241",
-	"slug": "טורנוס-2",
-	"headword": {
-		"text": "טוּרְנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְנוֹס",
+	"headwords": [
 		{
-			"text": "טוּרְנוֹס רופוס"
+			"text": "טוּרְנוֹס"
+		},
+		{
+			"text": "ט׳ רופוס",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 527,
 		"column": "a"

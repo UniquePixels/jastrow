@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00029",
-	"slug": "כבבא",
-	"headword": {
-		"text": "כַּבָּבָא"
-	},
+	"sefariaHeadword": "כַּבָּבָא",
+	"headwords": [
+		{
+			"text": "כַּבָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

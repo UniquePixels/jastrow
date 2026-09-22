@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02039",
-	"slug": "מסתיא",
-	"headword": {
-		"text": "מִסְתְּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְתְּיָא",
+	"headwords": [
+		{
+			"text": "מִסְתְּיָא"
+		},
 		{
 			"text": "מִסְתְּיָיא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 812,
 		"column": "a"

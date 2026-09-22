@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00253",
-	"slug": "רדיה",
-	"headword": {
-		"text": "רְדִיָּה"
-	},
+	"sefariaHeadword": "רְדִיָּה",
+	"headwords": [
+		{
+			"text": "רְדִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

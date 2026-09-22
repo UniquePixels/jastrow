@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00605",
-	"slug": "לעזר",
-	"headword": {
-		"text": "לָעְזָר"
-	},
+	"sefariaHeadword": "לָעְזָר",
+	"headwords": [
+		{
+			"text": "לָעְזָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "a"

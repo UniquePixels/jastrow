@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01471",
-	"slug": "שמינ",
-	"headword": {
-		"text": "שְׁמֵינ־"
-	},
+	"sefariaHeadword": "שְׁמֵינ־",
+	"headwords": [
+		{
+			"text": "שְׁמֵינ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00229",
-	"slug": "עויא-2",
-	"headword": {
-		"text": "עִוְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִוְיָא",
+	"headwords": [
+		{
+			"text": "עִוְיָא"
+		},
 		{
 			"text": "עִוְיָיא"
 		},
 		{
 			"text": "עִוְו׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1049,
 		"column": "b"

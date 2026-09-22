@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00326",
-	"slug": "זיזיון",
-	"headword": {
-		"text": "זִיזְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיזְיוֹן",
+	"headwords": [
+		{
+			"text": "זִיזְיוֹן"
+		},
 		{
 			"text": "זִיזְיָן"
 		},
@@ -12,12 +13,10 @@
 			"text": "זִיזְיָין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 393,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00139",
-	"slug": "קדימה",
-	"headword": {
-		"text": "קְדִימָה"
-	},
+	"sefariaHeadword": "קְדִימָה",
+	"headwords": [
+		{
+			"text": "קְדִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

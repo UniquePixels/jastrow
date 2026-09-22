@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00740",
-	"slug": "צרדויא",
-	"headword": {
-		"text": "צְרָדוֹיָא"
-	},
+	"sefariaHeadword": "צְרָדוֹיָא",
+	"headwords": [
+		{
+			"text": "צְרָדוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1300,
 		"column": "a"

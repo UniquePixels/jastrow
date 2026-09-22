@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00269",
-	"slug": "כולי",
-	"headword": {
-		"text": "כולי"
-	},
+	"sefariaHeadword": "כולי",
+	"headwords": [
+		{
+			"text": "כולי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "a"

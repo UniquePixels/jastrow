@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00174",
-	"slug": "תוויי",
-	"headword": {
-		"text": "תּוּוָיי"
-	},
+	"sefariaHeadword": "תּוּוָיי",
+	"headwords": [
+		{
+			"text": "תּוּוָיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1651,
 		"column": "b"

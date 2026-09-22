@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00223",
-	"slug": "לווקרין",
-	"headword": {
-		"text": "לווקרין"
-	},
+	"sefariaHeadword": "לווקרין",
+	"headwords": [
+		{
+			"text": "לווקרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

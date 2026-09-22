@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00345",
-	"slug": "ייצפא",
-	"headword": {
-		"text": "יִיצְפָּא"
-	},
+	"sefariaHeadword": "יִיצְפָּא",
+	"headwords": [
+		{
+			"text": "יִיצְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

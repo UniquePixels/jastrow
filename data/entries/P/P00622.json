@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00622",
-	"slug": "עיניו",
-	"headword": {
-		"text": "עֵינָיו"
-	},
+	"sefariaHeadword": "עֵינָיו",
+	"headwords": [
+		{
+			"text": "עֵינָיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

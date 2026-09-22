@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00518",
-	"slug": "כיי",
-	"headword": {
-		"text": "כַּיי"
-	},
+	"sefariaHeadword": "כַּיי",
+	"headwords": [
+		{
+			"text": "כַּיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "b"

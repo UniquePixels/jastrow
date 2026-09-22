@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01587",
-	"slug": "איקומונוס",
-	"headword": {
-		"text": "אִיקוֹמוֹנוֹס"
-	},
+	"sefariaHeadword": "אִיקוֹמוֹנוֹס",
+	"headwords": [
+		{
+			"text": "אִיקוֹמוֹנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02638",
-	"slug": "מרחקא",
-	"headword": {
-		"text": "מְרַחֲקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְרַחֲקָא",
+	"headwords": [
 		{
-			"text": "מְרָ׳"
+			"text": "מְרַחֲקָא"
+		},
+		{
+			"text": "מְרָ׳",
+			"partial": true
 		},
 		{
 			"text": "מְרַחַקְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 841,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01026",
-	"slug": "רקודי",
-	"headword": {
-		"text": "רקודי"
-	},
+	"sefariaHeadword": "רקודי",
+	"headwords": [
+		{
+			"text": "רקודי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

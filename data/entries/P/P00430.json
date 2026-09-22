@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00430",
-	"slug": "עזרה-3",
-	"headword": {
-		"text": "עֲזָרָה"
-	},
+	"sefariaHeadword": "עֲזָרָה",
+	"headwords": [
+		{
+			"text": "עֲזָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

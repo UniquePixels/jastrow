@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01623",
-	"slug": "אישות-3",
-	"headword": {
-		"text": "אֵישׁוּת"
-	},
+	"sefariaHeadword": "אֵישׁוּת",
+	"headwords": [
+		{
+			"text": "אֵישׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

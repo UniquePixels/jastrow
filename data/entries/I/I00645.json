@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "I00645",
-	"slug": "טפי-4",
-	"headword": {
-		"text": "טְפֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*טְפֵי",
+	"headwords": [
+		{
+			"text": "טְפֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "טְפָא",
 			"homograph": 4
 		}
 	],
+	"display": "*{0}, {1} IV",
 	"page": {
 		"number": 546,
 		"column": "b"

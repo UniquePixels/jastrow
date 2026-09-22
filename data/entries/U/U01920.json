@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01920",
-	"slug": "שרביט",
-	"headword": {
-		"text": "שַׁרְבִיט"
-	},
+	"sefariaHeadword": "שַׁרְבִיט",
+	"headwords": [
+		{
+			"text": "שַׁרְבִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "a"

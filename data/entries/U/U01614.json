@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01614",
-	"slug": "ש״ס",
-	"headword": {
-		"text": "ש״ס"
-	},
+	"sefariaHeadword": "ש\"ס",
+	"headwords": [
+		{
+			"text": "ש״ס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1608,
 		"column": "a"

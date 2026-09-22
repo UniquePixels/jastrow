@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00010",
-	"slug": "יאושא",
-	"headword": {
-		"text": "יֵאוּשָׁא"
-	},
+	"sefariaHeadword": "יֵאוּשָׁא",
+	"headwords": [
+		{
+			"text": "יֵאוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "a"

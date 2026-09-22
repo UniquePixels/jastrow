@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00705",
-	"slug": "זריז-3",
-	"headword": {
-		"text": "זָרִיז",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זָרִיז ²",
+	"headwords": [
+		{
+			"text": "זָרִיז",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 413,
 		"column": "b"

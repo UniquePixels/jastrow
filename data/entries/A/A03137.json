@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03137",
-	"slug": "ארכון",
-	"headword": {
-		"text": "אַרְכוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְכוֹן",
+	"headwords": [
+		{
+			"text": "אַרְכוֹן"
+		},
 		{
 			"text": "אַרְכוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 121,
 		"column": "b"

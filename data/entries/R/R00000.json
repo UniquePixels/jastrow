@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00000",
-	"slug": "צ",
-	"headword": {
-		"text": "צ"
-	},
+	"sefariaHeadword": "צ",
+	"headwords": [
+		{
+			"text": "צ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "a"

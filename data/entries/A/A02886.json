@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02886",
-	"slug": "אצפא-1",
-	"headword": {
-		"text": "אַצְפָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַצְפָּא",
+	"headwords": [
+		{
+			"text": "אַצְפָּא",
+			"reconstructed": true
+		},
 		{
 			"text": "אָצְפָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 111,
 		"column": "b"

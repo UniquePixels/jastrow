@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00711",
-	"slug": "דיקיון",
-	"headword": {
-		"text": "דִּיקְיוֹן"
-	},
+	"sefariaHeadword": "דִּיקְיוֹן",
+	"headwords": [
+		{
+			"text": "דִּיקְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

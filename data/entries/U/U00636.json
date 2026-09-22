@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00636",
-	"slug": "שחט-2",
-	"headword": {
-		"text": "שָׁחַט",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁחַט II",
+	"headwords": [
+		{
+			"text": "שָׁחַט",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1546,
 		"column": "b"

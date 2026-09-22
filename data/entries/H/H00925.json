@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00925",
-	"slug": "חכינה-1",
-	"headword": {
-		"text": "חֲכִינָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲכִינָה",
+	"headwords": [
+		{
+			"text": "חֲכִינָה"
+		},
 		{
 			"text": "חֲכִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 461,
 		"column": "b"

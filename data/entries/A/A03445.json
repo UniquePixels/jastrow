@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03445",
-	"slug": "אתרברבותא",
-	"headword": {
-		"text": "אִתְרַבְרָבוּתָא"
-	},
+	"sefariaHeadword": "אִתְרַבְרָבוּתָא",
+	"headwords": [
+		{
+			"text": "אִתְרַבְרָבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "a"

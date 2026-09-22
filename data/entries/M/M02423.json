@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02423",
-	"slug": "מקלה-1",
-	"headword": {
-		"text": "מַקְלֶה"
-	},
+	"sefariaHeadword": "מַקְלֶה",
+	"headwords": [
+		{
+			"text": "מַקְלֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "a"

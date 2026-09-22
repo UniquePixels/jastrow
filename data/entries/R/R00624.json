@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00624",
-	"slug": "צניע",
-	"headword": {
-		"text": "צְנִיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְנִיעַ",
+	"headwords": [
+		{
+			"text": "צְנִיעַ"
+		},
 		{
 			"text": "צְנִיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1291,
 		"column": "b"

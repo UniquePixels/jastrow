@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01761",
-	"slug": "שפירותא",
-	"headword": {
-		"text": "שַׁפִּירוּתָא"
-	},
+	"sefariaHeadword": "שַׁפִּירוּתָא",
+	"headwords": [
+		{
+			"text": "שַׁפִּירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1616,
 		"column": "b"

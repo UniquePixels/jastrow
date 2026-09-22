@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00496",
-	"slug": "רחיל",
-	"headword": {
-		"text": "רְחֵיל־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְחֵיל־",
+	"headwords": [
+		{
+			"text": "רְחֵיל־"
+		},
 		{
 			"text": "רְחֵילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1466,
 		"column": "a"

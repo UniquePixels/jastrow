@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00152",
-	"slug": "גד-2",
-	"headword": {
-		"text": "גָּד"
-	},
+	"sefariaHeadword": "גָּד",
+	"headwords": [
+		{
+			"text": "גָּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00623",
-	"slug": "המם-2",
-	"headword": {
-		"text": "הֲמַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הֲמַם I",
+	"headwords": [
+		{
+			"text": "הֲמַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 355,
 		"column": "b"

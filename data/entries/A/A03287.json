@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03287",
-	"slug": "אשיות",
-	"headword": {
-		"text": "אַשְׁיוֹת"
-	},
+	"sefariaHeadword": "אַשְׁיוֹת",
+	"headwords": [
+		{
+			"text": "אַשְׁיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

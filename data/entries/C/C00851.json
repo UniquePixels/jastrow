@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00851",
-	"slug": "גלא-3",
-	"headword": {
-		"text": "גלא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גלא",
+	"headwords": [
 		{
-			"text": "גלא קסינון"
+			"text": "גלא"
+		},
+		{
+			"text": "ג׳ קסינון",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 243,
 		"column": "b"

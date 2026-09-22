@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00013",
-	"slug": "ראי-3",
-	"headword": {
-		"text": "רֳאִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רֳאִי II",
+	"headwords": [
+		{
+			"text": "רֳאִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1436,
 		"column": "a"

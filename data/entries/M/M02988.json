@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02988",
-	"slug": "משתאל",
-	"headword": {
-		"text": "מִשְׁתָּאֵל"
-	},
+	"sefariaHeadword": "מִשְׁתָּאֵל",
+	"headwords": [
+		{
+			"text": "מִשְׁתָּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "a"

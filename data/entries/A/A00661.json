@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00661",
-	"slug": "אולו",
-	"headword": {
-		"text": "אוֹלוֹ־"
-	},
+	"sefariaHeadword": "אוֹלוֹ־",
+	"headwords": [
+		{
+			"text": "אוֹלוֹ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

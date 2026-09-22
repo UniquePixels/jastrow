@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01726",
-	"slug": "שפותה",
-	"headword": {
-		"text": "שפותה"
-	},
+	"sefariaHeadword": "שפותה",
+	"headwords": [
+		{
+			"text": "שפותה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "a"

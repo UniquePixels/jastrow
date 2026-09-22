@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00242",
-	"slug": "נדר-4",
-	"headword": {
-		"text": "נֶדֶר"
-	},
+	"sefariaHeadword": "נֶדֶר",
+	"headwords": [
+		{
+			"text": "נֶדֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 880,
 		"column": "a"

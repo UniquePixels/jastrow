@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00139",
-	"slug": "עדיין-2",
-	"headword": {
-		"text": "עֲדַיִין"
-	},
+	"sefariaHeadword": "עֲדַיִין",
+	"headwords": [
+		{
+			"text": "עֲדַיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "a"

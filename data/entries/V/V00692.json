@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00692",
-	"slug": "תמם",
-	"headword": {
-		"text": "תָּמַם"
-	},
+	"sefariaHeadword": "תָּמַם",
+	"headwords": [
+		{
+			"text": "תָּמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1678,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00428",
-	"slug": "טירבוס",
-	"headword": {
-		"text": "טירבוס"
-	},
+	"sefariaHeadword": "טירבוס",
+	"headwords": [
+		{
+			"text": "טירבוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00894",
-	"slug": "כסא-6",
-	"headword": {
-		"text": "כֶּסֶא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֶּסֶא",
+	"headwords": [
+		{
+			"text": "כֶּסֶא"
+		},
 		{
 			"text": "כֶּסֶה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 652,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "J00206",
-	"slug": "יוני-2",
-	"headword": {
-		"text": "יְוָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְוָנִי",
+	"headwords": [
 		{
-			"text": "יְוָו׳"
+			"text": "יְוָנִי"
+		},
+		{
+			"text": "יְוָו׳",
+			"partial": true
 		},
 		{
 			"text": "יְוָנִית"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 570,
 		"column": "a"

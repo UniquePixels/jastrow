@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02053",
-	"slug": "שרתיעה",
-	"headword": {
-		"text": "שרתיעה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שרתיעה",
+	"headwords": [
+		{
+			"text": "שרתיעה"
+		},
 		{
 			"text": "שרתע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1635,
 		"column": "b"

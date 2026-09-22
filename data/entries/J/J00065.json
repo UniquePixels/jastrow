@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00065",
-	"slug": "יבנה",
-	"headword": {
-		"text": "יַבְנֶה"
-	},
+	"sefariaHeadword": "יַבְנֶה",
+	"headwords": [
+		{
+			"text": "יַבְנֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "a"

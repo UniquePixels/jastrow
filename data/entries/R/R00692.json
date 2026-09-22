@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00692",
-	"slug": "צפי-2",
-	"headword": {
-		"text": "צְפֵי"
-	},
+	"sefariaHeadword": "צְפֵי",
+	"headwords": [
+		{
+			"text": "צְפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1297,
 		"column": "a"

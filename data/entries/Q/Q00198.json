@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00198",
-	"slug": "פוטרין",
-	"headword": {
-		"text": "פוטרין"
-	},
+	"sefariaHeadword": "פוטרין",
+	"headwords": [
+		{
+			"text": "פוטרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

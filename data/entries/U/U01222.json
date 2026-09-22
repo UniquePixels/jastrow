@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01222",
-	"slug": "שלהוי",
-	"headword": {
-		"text": "שִׁלְהֲוֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְהֲוֵי",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁלְהֲוֵי"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1578,
 		"column": "a"

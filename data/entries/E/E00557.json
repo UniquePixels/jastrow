@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00557",
-	"slug": "הליסטיון",
-	"headword": {
-		"text": "הליסטיון"
-	},
+	"sefariaHeadword": "הליסטיון",
+	"headwords": [
+		{
+			"text": "הליסטיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

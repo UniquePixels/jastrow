@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00454",
-	"slug": "עטישה",
-	"headword": {
-		"text": "עֲטִישָׁה"
-	},
+	"sefariaHeadword": "עֲטִישָׁה",
+	"headwords": [
+		{
+			"text": "עֲטִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

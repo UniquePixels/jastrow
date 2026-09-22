@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00623",
-	"slug": "זפקתא",
-	"headword": {
-		"text": "זְפַקְתָּא"
-	},
+	"sefariaHeadword": "זְפַקְתָּא",
+	"headwords": [
+		{
+			"text": "זְפַקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

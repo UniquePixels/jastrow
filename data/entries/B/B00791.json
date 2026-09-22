@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00791",
-	"slug": "בכיתא",
-	"headword": {
-		"text": "בְּכִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּכִיתָא",
+	"headwords": [
+		{
+			"text": "בְּכִיתָא"
+		},
 		{
 			"text": "בָּכוּתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 170,
 		"column": "a"

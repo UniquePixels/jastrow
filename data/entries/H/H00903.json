@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00903",
-	"slug": "חיתון",
-	"headword": {
-		"text": "חִיתּוּן"
-	},
+	"sefariaHeadword": "חִיתּוּן",
+	"headwords": [
+		{
+			"text": "חִיתּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "a"

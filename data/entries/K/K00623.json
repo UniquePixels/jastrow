@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00623",
-	"slug": "כירומניקיא",
-	"headword": {
-		"text": "כִּירוֹמָנִיקְיָא"
-	},
+	"sefariaHeadword": "כִּירוֹמָנִיקְיָא",
+	"headwords": [
+		{
+			"text": "כִּירוֹמָנִיקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 636,
 		"column": "b"

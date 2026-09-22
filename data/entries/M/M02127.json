@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02127",
-	"slug": "מעלא",
-	"headword": {
-		"text": "מֵעֲלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵעֲלָא",
+	"headwords": [
 		{
-			"text": "מֵי׳"
+			"text": "מֵעֲלָא"
+		},
+		{
+			"text": "מֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 817,
 		"column": "a"

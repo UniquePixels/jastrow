@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00116",
-	"slug": "זוב-3",
-	"headword": {
-		"text": "זוֹב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹב ²",
+	"headwords": [
+		{
+			"text": "זוֹב",
+			"disambiguator": 2
+		},
 		{
 			"text": "זָבָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 383,
 		"column": "a"

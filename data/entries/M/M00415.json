@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00415",
-	"slug": "מודלית",
-	"headword": {
-		"text": "מוּדְלִית"
-	},
+	"sefariaHeadword": "מוּדְלִית",
+	"headwords": [
+		{
+			"text": "מוּדְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00818",
-	"slug": "טריקטי",
-	"headword": {
-		"text": "טריקטי"
-	},
+	"sefariaHeadword": "טריקטי",
+	"headwords": [
+		{
+			"text": "טריקטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

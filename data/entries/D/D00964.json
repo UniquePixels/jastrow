@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00964",
-	"slug": "דפן-1",
-	"headword": {
-		"text": "דָּפַן"
-	},
+	"sefariaHeadword": "דָּפַן",
+	"headwords": [
+		{
+			"text": "דָּפַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

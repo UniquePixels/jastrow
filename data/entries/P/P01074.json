@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01074",
-	"slug": "עפצא",
-	"headword": {
-		"text": "עַפְצָא"
-	},
+	"sefariaHeadword": "עַפְצָא",
+	"headwords": [
+		{
+			"text": "עַפְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "a"

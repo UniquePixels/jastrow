@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02258",
-	"slug": "אננקתא",
-	"headword": {
-		"text": "אֲנַנְקָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲנַנְקָתָא",
+	"headwords": [
+		{
+			"text": "אֲנַנְקָתָא"
+		},
 		{
 			"text": "אַנְקַקְתָּא",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 86,
 		"column": "a"

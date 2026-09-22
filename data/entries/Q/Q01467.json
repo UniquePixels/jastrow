@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01467",
-	"slug": "פקועה-1",
-	"headword": {
-		"text": "פַּקּוּעָה"
-	},
+	"sefariaHeadword": "פַּקּוּעָה",
+	"headwords": [
+		{
+			"text": "פַּקּוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

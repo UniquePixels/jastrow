@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M02363",
-	"slug": "מצרי-1",
-	"headword": {
-		"text": "מִצְרִי",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*מִצְרִי I",
+	"headwords": [
+		{
+			"text": "מִצְרִי",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 828,
 		"column": "b"

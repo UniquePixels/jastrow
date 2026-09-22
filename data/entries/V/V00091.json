@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00091",
-	"slug": "תגר-5",
-	"headword": {
-		"text": "תַּגַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּגַּר",
+	"headwords": [
+		{
+			"text": "תַּגַּר"
+		},
 		{
 			"text": "תִּיגַּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1647,
 		"column": "a"

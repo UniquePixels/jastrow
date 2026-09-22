@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01311",
-	"slug": "ערובות",
-	"headword": {
-		"text": "ערובות"
-	},
+	"sefariaHeadword": "ערובות",
+	"headwords": [
+		{
+			"text": "ערובות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00055",
-	"slug": "לבונה",
-	"headword": {
-		"text": "לְבוֹנָה"
-	},
+	"sefariaHeadword": "לְבוֹנָה",
+	"headwords": [
+		{
+			"text": "לְבוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 688,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00713",
-	"slug": "בירי",
-	"headword": {
-		"text": "בֵּירַי"
-	},
+	"sefariaHeadword": "בֵּירַי",
+	"headwords": [
+		{
+			"text": "בֵּירַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

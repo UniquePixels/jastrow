@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00249",
-	"slug": "צורבא",
-	"headword": {
-		"text": "צוֹרְבָא"
-	},
+	"sefariaHeadword": "צוֹרְבָא",
+	"headwords": [
+		{
+			"text": "צוֹרְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "a"

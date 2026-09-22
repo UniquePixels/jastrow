@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00895",
-	"slug": "תקלה",
-	"headword": {
-		"text": "תַּקָּלָה"
-	},
+	"sefariaHeadword": "תַּקָּלָה",
+	"headwords": [
+		{
+			"text": "תַּקָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1691,
 		"column": "b"

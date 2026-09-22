@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01432",
-	"slug": "שמוטא-2",
-	"headword": {
-		"text": "שָׁמוֹטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁמוֹטָא",
+	"headwords": [
 		{
-			"text": "שָׁמוּ׳"
+			"text": "שָׁמוֹטָא"
+		},
+		{
+			"text": "שָׁמוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1592,
 		"column": "b"

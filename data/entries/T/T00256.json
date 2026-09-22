@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00256",
-	"slug": "רדייה-1",
-	"headword": {
-		"text": "רְדִיָּיה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רְדִיָּיה I",
+	"headwords": [
+		{
+			"text": "רְדִיָּיה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1452,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00116",
-	"slug": "אביו",
-	"headword": {
-		"text": "אַבְיוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְיוּ",
+	"headwords": [
 		{
-			"text": "בַּר אַבְיוּ"
+			"text": "אַבְיוּ"
+		},
+		{
+			"text": "בַּר א׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 5,
 		"column": "b"

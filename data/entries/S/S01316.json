@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01316",
-	"slug": "קלי-3",
-	"headword": {
-		"text": "קלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלי",
+	"headwords": [
+		{
+			"text": "קלי"
+		},
 		{
 			"text": "קָלָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1375,
 		"column": "a"

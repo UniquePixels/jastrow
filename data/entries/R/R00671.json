@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00671",
-	"slug": "צפדינא",
-	"headword": {
-		"text": "צַפְדִּינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַפְדִּינָא",
+	"headwords": [
+		{
+			"text": "צַפְדִּינָא"
+		},
 		{
 			"text": "צְפִידְנָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1295,
 		"column": "b"

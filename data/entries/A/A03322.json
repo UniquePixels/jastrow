@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03322",
-	"slug": "אשם-1",
-	"headword": {
-		"text": "אָשַׁם"
-	},
+	"sefariaHeadword": "אָשַׁם",
+	"headwords": [
+		{
+			"text": "אָשַׁם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "a"

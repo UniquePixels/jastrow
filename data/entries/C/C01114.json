@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01114",
-	"slug": "גנוסא",
-	"headword": {
-		"text": "גְּנוּסָא"
-	},
+	"sefariaHeadword": "גְּנוּסָא",
+	"headwords": [
+		{
+			"text": "גְּנוּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

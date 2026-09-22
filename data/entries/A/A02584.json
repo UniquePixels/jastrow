@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02584",
-	"slug": "אסתקטון",
-	"headword": {
-		"text": "אסתקטון"
-	},
+	"sefariaHeadword": "אסתקטון",
+	"headwords": [
+		{
+			"text": "אסתקטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00371",
-	"slug": "רוכל",
-	"headword": {
-		"text": "רוֹכֵל"
-	},
+	"sefariaHeadword": "רוֹכֵל",
+	"headwords": [
+		{
+			"text": "רוֹכֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00321",
-	"slug": "עופרת",
-	"headword": {
-		"text": "עוֹפֶרֶת"
-	},
+	"sefariaHeadword": "עוֹפֶרֶת",
+	"headwords": [
+		{
+			"text": "עוֹפֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "a"

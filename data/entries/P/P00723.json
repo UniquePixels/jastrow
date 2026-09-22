@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00723",
-	"slug": "עכה",
-	"headword": {
-		"text": "עכה"
-	},
+	"sefariaHeadword": "עכה",
+	"headwords": [
+		{
+			"text": "עכה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "a"

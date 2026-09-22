@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00888",
-	"slug": "חירשא",
-	"headword": {
-		"text": "חִירְשָׁא"
-	},
+	"sefariaHeadword": "חִירְשָׁא",
+	"headwords": [
+		{
+			"text": "חִירְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

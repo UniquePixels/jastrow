@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03091",
-	"slug": "אריוסטו",
-	"headword": {
-		"text": "אריוסטו"
-	},
+	"sefariaHeadword": "אריוסטו",
+	"headwords": [
+		{
+			"text": "אריוסטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "b"

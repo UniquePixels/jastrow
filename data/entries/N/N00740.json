@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00740",
-	"slug": "ניפר",
-	"headword": {
-		"text": "נִיפָר"
-	},
+	"sefariaHeadword": "נִיפָר",
+	"headwords": [
+		{
+			"text": "נִיפָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

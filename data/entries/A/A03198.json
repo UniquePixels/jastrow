@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A03198",
-	"slug": "ארנון-2",
-	"headword": {
-		"text": "אַרְנוֹן",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*אַרְנוֹן I",
+	"headwords": [
+		{
+			"text": "אַרְנוֹן",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 123,
 		"column": "b"

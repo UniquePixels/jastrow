@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00190",
-	"slug": "תוטני",
-	"headword": {
-		"text": "תּוּטָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּטָנִי",
+	"headwords": [
 		{
-			"text": "בַּר תּוּטָנִי"
+			"text": "תּוּטָנִי"
+		},
+		{
+			"text": "בַּר תּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1652,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00422",
-	"slug": "סורחן-2",
-	"headword": {
-		"text": "סוּרְחַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּרְחַן",
+	"headwords": [
+		{
+			"text": "סוּרְחַן"
+		},
 		{
 			"text": "סוּרְחָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "a"

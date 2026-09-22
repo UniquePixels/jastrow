@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00849",
-	"slug": "רננא",
-	"headword": {
-		"text": "רְנָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְנָנָא",
+	"headwords": [
+		{
+			"text": "רְנָנָא"
+		},
 		{
 			"text": "רִנְנָא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1484,
 		"column": "b"

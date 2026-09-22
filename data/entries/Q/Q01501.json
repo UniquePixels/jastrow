@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01501",
-	"slug": "פקסינה",
-	"headword": {
-		"text": "פִּקְסִינָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקְסִינָה",
+	"headwords": [
+		{
+			"text": "פִּקְסִינָה"
+		},
 		{
 			"text": "פִּקְסִינוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1210,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01532",
-	"slug": "מלחתא",
-	"headword": {
-		"text": "מִלְחֲתָא"
-	},
+	"sefariaHeadword": "מִלְחֲתָא",
+	"headwords": [
+		{
+			"text": "מִלְחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "a"

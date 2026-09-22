@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00042",
-	"slug": "אבדלה",
-	"headword": {
-		"text": "אַבְדָּלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְדָּלָה",
+	"headwords": [
+		{
+			"text": "אַבְדָּלָה"
+		},
 		{
 			"text": "אַבְדַּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "a"

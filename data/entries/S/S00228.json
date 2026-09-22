@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00228",
-	"slug": "קוביוסטוס",
-	"headword": {
-		"text": "קוּבְיוּסְטוֹס"
-	},
+	"sefariaHeadword": "קוּבְיוּסְטוֹס",
+	"headwords": [
+		{
+			"text": "קוּבְיוּסְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "b"

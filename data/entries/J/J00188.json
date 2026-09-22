@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00188",
-	"slug": "יולדה",
-	"headword": {
-		"text": "יוֹלֵדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹלֵדָה",
+	"headwords": [
+		{
+			"text": "יוֹלֵדָה"
+		},
 		{
 			"text": "יוֹלֶדֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 568,
 		"column": "b"

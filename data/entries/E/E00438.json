@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00438",
-	"slug": "הימסיון",
-	"headword": {
-		"text": "הימסיון"
-	},
+	"sefariaHeadword": "הימסיון",
+	"headwords": [
+		{
+			"text": "הימסיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

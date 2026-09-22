@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00971",
-	"slug": "עני-2",
-	"headword": {
-		"text": "עֲנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲנֵי",
+	"headwords": [
+		{
+			"text": "עֲנֵי"
+		},
 		{
 			"text": "עֲנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲנָה"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 1093,
 		"column": "a"

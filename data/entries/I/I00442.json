@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00442",
-	"slug": "טיריא",
-	"headword": {
-		"text": "טִירְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִירְיָא",
+	"headwords": [
+		{
+			"text": "טִירְיָא"
+		},
 		{
 			"text": "מִירְיָיא"
 		},
 		{
-			"text": "טִרְ׳"
+			"text": "טִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 534,
 		"column": "b"

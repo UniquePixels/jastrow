@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01250",
-	"slug": "פסוקא",
-	"headword": {
-		"text": "פְּסוּקָא"
-	},
+	"sefariaHeadword": "פְּסוּקָא",
+	"headwords": [
+		{
+			"text": "פְּסוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "b"

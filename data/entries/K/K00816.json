@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00816",
-	"slug": "כמסת",
-	"headword": {
-		"text": "כְּמֵסַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּמֵסַת",
+	"headwords": [
+		{
+			"text": "כְּמֵסַת"
+		},
 		{
 			"text": "כְּמֵיסַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 647,
 		"column": "a"

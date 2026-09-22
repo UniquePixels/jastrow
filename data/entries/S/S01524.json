@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01524",
-	"slug": "קנביטון",
-	"headword": {
-		"text": "קנביטון"
-	},
+	"sefariaHeadword": "קנביטון",
+	"headwords": [
+		{
+			"text": "קנביטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

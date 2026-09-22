@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01778",
-	"slug": "שפלות",
-	"headword": {
-		"text": "שִׁפְלוּת"
-	},
+	"sefariaHeadword": "שִׁפְלוּת",
+	"headwords": [
+		{
+			"text": "שִׁפְלוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1618,
 		"column": "a"

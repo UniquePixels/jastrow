@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00312",
-	"slug": "זיונא-1",
-	"headword": {
-		"text": "זִיּוּנָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיּוּנָא I",
+	"headwords": [
 		{
-			"text": "זִיּיוּ׳"
+			"text": "זִיּוּנָא",
+			"homograph": 1
+		},
+		{
+			"text": "זִיּיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 392,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00665",
-	"slug": "תמור",
-	"headword": {
-		"text": "תִּמּוּר"
-	},
+	"sefariaHeadword": "תִּמּוּר",
+	"headwords": [
+		{
+			"text": "תִּמּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

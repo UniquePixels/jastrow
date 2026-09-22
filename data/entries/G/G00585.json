@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00585",
-	"slug": "זעאתא",
-	"headword": {
-		"text": "זעאתא"
-	},
+	"sefariaHeadword": "זעאתא",
+	"headwords": [
+		{
+			"text": "זעאתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

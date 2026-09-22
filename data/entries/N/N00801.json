@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00801",
-	"slug": "נישתרופי",
-	"headword": {
-		"text": "נִישְׂתְּרוּפֵי"
-	},
+	"sefariaHeadword": "נִישְׂתְּרוּפֵי",
+	"headwords": [
+		{
+			"text": "נִישְׂתְּרוּפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

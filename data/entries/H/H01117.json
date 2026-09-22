@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01117",
-	"slug": "חלקא-1",
-	"headword": {
-		"text": "חֶלְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶלְקָא",
+	"headwords": [
 		{
-			"text": "חֶילְ׳"
+			"text": "חֶלְקָא"
+		},
+		{
+			"text": "חֶילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 474,
 		"column": "a"

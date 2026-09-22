@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00282",
-	"slug": "בונא",
-	"headword": {
-		"text": "בּוּנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּוּנָא",
+	"headwords": [
+		{
+			"text": "בּוּנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

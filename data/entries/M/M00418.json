@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00418",
-	"slug": "מודעי",
-	"headword": {
-		"text": "מוֹדָעִי"
-	},
+	"sefariaHeadword": "מוֹדָעִי",
+	"headwords": [
+		{
+			"text": "מוֹדָעִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

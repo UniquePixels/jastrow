@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00595",
-	"slug": "דיל-1",
-	"headword": {
-		"text": "דִּיל־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיל־",
+	"headwords": [
+		{
+			"text": "דִּיל־"
+		},
 		{
 			"text": "דִּילִי"
 		},

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00294",
-	"slug": "חוט-2",
-	"headword": {
-		"text": "חוּט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חוּט I",
+	"headwords": [
+		{
+			"text": "חוּט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 431,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01615",
-	"slug": "חרובות",
-	"headword": {
-		"text": "חרובות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חרובות",
+	"headwords": [
+		{
+			"text": "חרובות"
+		},
 		{
 			"text": "חרובותא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 499,
 		"column": "b"

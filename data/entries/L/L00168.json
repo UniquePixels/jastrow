@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00168",
-	"slug": "להן",
-	"headword": {
-		"text": "לָהֵן"
-	},
+	"sefariaHeadword": "לָהֵן",
+	"headwords": [
+		{
+			"text": "לָהֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

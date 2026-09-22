@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00678",
-	"slug": "לקט-2",
-	"headword": {
-		"text": "לְקַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְקַט",
+	"headwords": [
+		{
+			"text": "לְקַט"
+		},
 		{
 			"text": "לְקֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 718,
 		"column": "a"

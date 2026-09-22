@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00431",
-	"slug": "גונברא",
-	"headword": {
-		"text": "גּוּנְבְּרָא"
-	},
+	"sefariaHeadword": "גּוּנְבְּרָא",
+	"headwords": [
+		{
+			"text": "גּוּנְבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "b"

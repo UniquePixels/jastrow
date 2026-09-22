@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02202",
-	"slug": "אנטל",
-	"headword": {
-		"text": "אַנְטַל"
-	},
+	"sefariaHeadword": "אַנְטַל",
+	"headwords": [
+		{
+			"text": "אַנְטַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

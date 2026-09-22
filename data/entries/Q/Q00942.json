@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00942",
-	"slug": "פלגו",
-	"headword": {
-		"text": "פַּלְגּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְגּוּ",
+	"headwords": [
+		{
+			"text": "פַּלְגּוּ"
+		},
 		{
 			"text": "פַּלְגּוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1176,
 		"column": "b"

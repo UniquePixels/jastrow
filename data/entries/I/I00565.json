@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00565",
-	"slug": "טנא",
-	"headword": {
-		"text": "טֶנֶא"
-	},
+	"sefariaHeadword": "טֶנֶא",
+	"headwords": [
+		{
+			"text": "טֶנֶא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "b"

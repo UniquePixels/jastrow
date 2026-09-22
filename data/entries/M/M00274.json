@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00274",
-	"slug": "מדור-2",
-	"headword": {
-		"text": "מָדוֹר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָדוֹר ²",
+	"headwords": [
+		{
+			"text": "מָדוֹר",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְדוֹרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 733,
 		"column": "b"

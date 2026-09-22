@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00127",
-	"slug": "שביעאה",
-	"headword": {
-		"text": "שְׁבִיעָאָה"
-	},
+	"sefariaHeadword": "שְׁבִיעָאָה",
+	"headwords": [
+		{
+			"text": "שְׁבִיעָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

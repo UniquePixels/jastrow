@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00782",
-	"slug": "תעלה-1",
-	"headword": {
-		"text": "תְּעָלָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תְּעָלָה I",
+	"headwords": [
+		{
+			"text": "תְּעָלָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1684,
 		"column": "a"

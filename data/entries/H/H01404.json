@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01404",
-	"slug": "חסנא",
-	"headword": {
-		"text": "חִסְנָא"
-	},
+	"sefariaHeadword": "חִסְנָא",
+	"headwords": [
+		{
+			"text": "חִסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 489,
 		"column": "a"

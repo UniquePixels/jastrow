@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00106",
-	"slug": "מגבאי",
-	"headword": {
-		"text": "מַגְבַּאי"
-	},
+	"sefariaHeadword": "מַגְבַּאי",
+	"headwords": [
+		{
+			"text": "מַגְבַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

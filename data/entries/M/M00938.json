@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00938",
-	"slug": "מחרוך",
-	"headword": {
-		"text": "מַחֲרוֹךְ"
-	},
+	"sefariaHeadword": "מַחֲרוֹךְ",
+	"headwords": [
+		{
+			"text": "מַחֲרוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "a"

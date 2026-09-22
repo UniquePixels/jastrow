@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01111",
-	"slug": "חלצים",
-	"headword": {
-		"text": "חֲלָצַיִם"
-	},
+	"sefariaHeadword": "חֲלָצַיִם",
+	"headwords": [
+		{
+			"text": "חֲלָצַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "b"

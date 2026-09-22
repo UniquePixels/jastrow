@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02196",
-	"slug": "קרר-5",
-	"headword": {
-		"text": "קְרַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַר ²",
+	"headwords": [
+		{
+			"text": "קְרַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "קוֹר"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1428,
 		"column": "a"

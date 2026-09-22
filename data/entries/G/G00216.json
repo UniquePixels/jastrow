@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00216",
-	"slug": "זוסתיה",
-	"headword": {
-		"text": "זוסתיה"
-	},
+	"sefariaHeadword": "זוסתיה",
+	"headwords": [
+		{
+			"text": "זוסתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

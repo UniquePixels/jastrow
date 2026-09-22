@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00260",
-	"slug": "פונדיון",
-	"headword": {
-		"text": "פּוּנְדְּיוֹן"
-	},
+	"sefariaHeadword": "פּוּנְדְּיוֹן",
+	"headwords": [
+		{
+			"text": "פּוּנְדְּיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01301",
-	"slug": "שליברות",
-	"headword": {
-		"text": "שליברות"
-	},
+	"sefariaHeadword": "שליברות",
+	"headwords": [
+		{
+			"text": "שליברות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "a"

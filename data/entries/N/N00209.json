@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00209",
-	"slug": "נדבך-3",
-	"headword": {
-		"text": "נִדְבַּךְ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נִדְבַּךְ II",
+	"headwords": [
+		{
+			"text": "נִדְבַּךְ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 877,
 		"column": "b"

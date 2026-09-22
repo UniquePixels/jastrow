@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00260",
-	"slug": "גהק",
-	"headword": {
-		"text": "גָּהַק"
-	},
+	"sefariaHeadword": "גָּהַק",
+	"headwords": [
+		{
+			"text": "גָּהַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 216,
 		"column": "a"

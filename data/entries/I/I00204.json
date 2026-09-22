@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00204",
-	"slug": "טופיתא-1",
-	"headword": {
-		"text": "טופיתא"
-	},
+	"sefariaHeadword": "טופיתא",
+	"headwords": [
+		{
+			"text": "טופיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

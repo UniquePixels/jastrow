@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02774",
-	"slug": "אפצא",
-	"headword": {
-		"text": "אַפְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְצָא",
+	"headwords": [
+		{
+			"text": "אַפְצָא"
+		},
 		{
 			"text": "עַפְצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "a"

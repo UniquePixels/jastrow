@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00862",
-	"slug": "נמוק-2",
-	"headword": {
-		"text": "נִמּוּק"
-	},
+	"sefariaHeadword": "נִמּוּק",
+	"headwords": [
+		{
+			"text": "נִמּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

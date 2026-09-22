@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00789",
-	"slug": "צרך-3",
-	"headword": {
-		"text": "צֹרֶךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֹרֶךְ",
+	"headwords": [
+		{
+			"text": "צֹרֶךְ"
+		},
 		{
 			"text": "צָרְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1303,
 		"column": "a"

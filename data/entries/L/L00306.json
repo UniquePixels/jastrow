@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00306",
-	"slug": "לופייני",
-	"headword": {
-		"text": "לוּפְיָינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּפְיָינִי",
+	"headwords": [
 		{
-			"text": "בר לוּפְיָינִי"
+			"text": "לוּפְיָינִי"
+		},
+		{
+			"text": "בר ל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 700,
 		"column": "b"

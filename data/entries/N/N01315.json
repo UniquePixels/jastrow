@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01315",
-	"slug": "נשיפה",
-	"headword": {
-		"text": "נְשִׁיפָה"
-	},
+	"sefariaHeadword": "נְשִׁיפָה",
+	"headwords": [
+		{
+			"text": "נְשִׁיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

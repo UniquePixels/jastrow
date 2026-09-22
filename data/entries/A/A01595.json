@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01595",
-	"slug": "איקונים",
-	"headword": {
-		"text": "איקונים"
-	},
+	"sefariaHeadword": "איקונים",
+	"headwords": [
+		{
+			"text": "איקונים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00018",
-	"slug": "מאזנוון",
-	"headword": {
-		"text": "מֹאזְנַוָּון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֹאזְנַוָּון",
+	"headwords": [
+		{
+			"text": "מֹאזְנַוָּון"
+		},
 		{
 			"text": "מֹאזְנְוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 722,
 		"column": "a"

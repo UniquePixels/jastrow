@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00565",
-	"slug": "ביזוע",
-	"headword": {
-		"text": "בִּיזּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיזּוּעַ",
+	"headwords": [
 		{
-			"text": "בִּזּ׳"
+			"text": "בִּיזּוּעַ"
+		},
+		{
+			"text": "בִּזּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

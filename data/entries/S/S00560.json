@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00560",
-	"slug": "קור-4",
-	"headword": {
-		"text": "קוֹר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קוֹר II",
+	"headwords": [
+		{
+			"text": "קוֹר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1341,
 		"column": "a"

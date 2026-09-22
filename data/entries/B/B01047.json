@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01047",
-	"slug": "בעילה",
-	"headword": {
-		"text": "בְּעִילָה"
-	},
+	"sefariaHeadword": "בְּעִילָה",
+	"headwords": [
+		{
+			"text": "בְּעִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

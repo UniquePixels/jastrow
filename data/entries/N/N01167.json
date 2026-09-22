@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01167",
-	"slug": "נקדימון",
-	"headword": {
-		"text": "נַקְדִּימוֹן"
-	},
+	"sefariaHeadword": "נַקְדִּימוֹן",
+	"headwords": [
+		{
+			"text": "נַקְדִּימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00878",
-	"slug": "נמיסה",
-	"headword": {
-		"text": "נְמִיסָה"
-	},
+	"sefariaHeadword": "נְמִיסָה",
+	"headwords": [
+		{
+			"text": "נְמִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

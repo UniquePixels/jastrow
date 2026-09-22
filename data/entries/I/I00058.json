@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00058",
-	"slug": "טביעות",
-	"headword": {
-		"text": "טְבִיעוּת"
-	},
+	"sefariaHeadword": "טְבִיעוּת",
+	"headwords": [
+		{
+			"text": "טְבִיעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 517,
 		"column": "a"

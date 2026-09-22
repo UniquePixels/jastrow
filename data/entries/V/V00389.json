@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00389",
-	"slug": "תחשון",
-	"headword": {
-		"text": "תַּחֲשׁוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תַּחֲשׁוֹן",
+	"headwords": [
+		{
+			"text": "תַּחֲשׁוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1662,
 		"column": "b"

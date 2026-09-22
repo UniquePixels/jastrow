@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00855",
-	"slug": "בלי-3",
-	"headword": {
-		"text": "בְּלֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלֵי I",
+	"headwords": [
+		{
+			"text": "בְּלֵי",
+			"homograph": 1
+		},
 		{
 			"text": "בְּלָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "בְּלָה"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 172,
 		"column": "b"

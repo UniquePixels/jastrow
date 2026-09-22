@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00879",
-	"slug": "פישוט",
-	"headword": {
-		"text": "פִּישּׁוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּישּׁוּט",
+	"headwords": [
 		{
-			"text": "פִּשּׁ׳"
+			"text": "פִּישּׁוּט"
+		},
+		{
+			"text": "פִּשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1172,
 		"column": "b"

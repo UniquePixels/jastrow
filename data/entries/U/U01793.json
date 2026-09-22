@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01793",
-	"slug": "שפף-2",
-	"headword": {
-		"text": "שְׁפַף"
-	},
+	"sefariaHeadword": "שְׁפַף",
+	"headwords": [
+		{
+			"text": "שְׁפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1619,
 		"column": "a"

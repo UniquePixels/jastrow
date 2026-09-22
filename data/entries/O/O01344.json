@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01344",
-	"slug": "ספחית",
-	"headword": {
-		"text": "ספחית"
-	},
+	"sefariaHeadword": "ספחית",
+	"headwords": [
+		{
+			"text": "ספחית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01339",
-	"slug": "ערטל-2",
-	"headword": {
-		"text": "עַרְטֵל"
-	},
+	"sefariaHeadword": "עַרְטֵל",
+	"headwords": [
+		{
+			"text": "עַרְטֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1116,
 		"column": "a"

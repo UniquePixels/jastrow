@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00614",
-	"slug": "צנורא-1",
-	"headword": {
-		"text": "צִנּוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנּוֹרָא",
+	"headwords": [
+		{
+			"text": "צִנּוֹרָא"
+		},
 		{
 			"text": "צִינּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1291,
 		"column": "a"

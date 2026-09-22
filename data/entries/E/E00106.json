@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00106",
-	"slug": "הדור-3",
-	"headword": {
-		"text": "הִדּוּר"
-	},
+	"sefariaHeadword": "הִדּוּר",
+	"headwords": [
+		{
+			"text": "הִדּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "b"

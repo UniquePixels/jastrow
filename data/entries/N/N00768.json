@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00768",
-	"slug": "ניקוף-1",
-	"headword": {
-		"text": "נִיקּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקּוּף",
+	"headwords": [
+		{
+			"text": "נִיקּוּף"
+		},
 		{
 			"text": "נִקּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 908,
 		"column": "b"

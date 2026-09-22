@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00201",
-	"slug": "יונאה",
-	"headword": {
-		"text": "יְוָנָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְוָנָאָה",
+	"headwords": [
 		{
-			"text": "יְוָו׳"
+			"text": "יְוָנָאָה"
+		},
+		{
+			"text": "יְוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 569,
 		"column": "b"

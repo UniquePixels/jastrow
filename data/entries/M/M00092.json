@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00092",
-	"slug": "מבסרנא",
-	"headword": {
-		"text": "מְבַסְרָנָא"
-	},
+	"sefariaHeadword": "מְבַסְרָנָא",
+	"headwords": [
+		{
+			"text": "מְבַסְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

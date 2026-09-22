@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00433",
-	"slug": "ינוקא-3",
-	"headword": {
-		"text": "יַנּוֹקָא"
-	},
+	"sefariaHeadword": "יַנּוֹקָא",
+	"headwords": [
+		{
+			"text": "יַנּוֹקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 581,
 		"column": "a"

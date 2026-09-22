@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01112",
-	"slug": "קיפליס",
-	"headword": {
-		"text": "קִיפָלִיס"
-	},
+	"sefariaHeadword": "קִיפָלִיס",
+	"headwords": [
+		{
+			"text": "קִיפָלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "b"

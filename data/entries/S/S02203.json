@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S02203",
-	"slug": "קרתא-1",
-	"headword": {
-		"text": "קַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְתָּא",
+	"headwords": [
+		{
+			"text": "קַרְתָּא"
+		},
 		{
 			"text": "קַרְתָּה"
 		},
 		{
-			"text": "קָ׳"
+			"text": "קָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1428,
 		"column": "a"

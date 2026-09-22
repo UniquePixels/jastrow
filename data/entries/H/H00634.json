@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00634",
-	"slug": "חטיפה",
-	"headword": {
-		"text": "חֲטִיפָה"
-	},
+	"sefariaHeadword": "חֲטִיפָה",
+	"headwords": [
+		{
+			"text": "חֲטִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 449,
 		"column": "b"

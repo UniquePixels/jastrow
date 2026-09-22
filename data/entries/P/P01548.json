@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01548",
-	"slug": "עתרא-1",
-	"headword": {
-		"text": "עַתְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עַתְרָא I",
+	"headwords": [
+		{
+			"text": "עַתְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1130,
 		"column": "b"

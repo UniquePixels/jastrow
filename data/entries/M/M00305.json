@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M00305",
-	"slug": "מדלא-2",
-	"headword": {
-		"text": "מַדְלָא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*מַדְלָא II",
+	"headwords": [
+		{
+			"text": "מַדְלָא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 734,
 		"column": "b"

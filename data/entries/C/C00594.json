@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00594",
-	"slug": "גחמון",
-	"headword": {
-		"text": "גַּחֲמוּן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּחֲמוּן",
+	"headwords": [
+		{
+			"text": "גַּחֲמוּן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

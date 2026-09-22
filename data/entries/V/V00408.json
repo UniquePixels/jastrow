@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00408",
-	"slug": "תיבא",
-	"headword": {
-		"text": "תיבא"
-	},
+	"sefariaHeadword": "תיבא",
+	"headwords": [
+		{
+			"text": "תיבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

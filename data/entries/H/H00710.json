@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00710",
-	"slug": "חיטטין",
-	"headword": {
-		"text": "חיטטין"
-	},
+	"sefariaHeadword": "חיטטין",
+	"headwords": [
+		{
+			"text": "חיטטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

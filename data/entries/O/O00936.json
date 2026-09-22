@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00936",
-	"slug": "סכסך-2",
-	"headword": {
-		"text": "סִכְסֵךְ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִכְסֵךְ II",
+	"headwords": [
+		{
+			"text": "סִכְסֵךְ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 992,
 		"column": "b"

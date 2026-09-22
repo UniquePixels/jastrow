@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00042",
-	"slug": "כבונא",
-	"headword": {
-		"text": "כְּבוּנָא"
-	},
+	"sefariaHeadword": "כְּבוּנָא",
+	"headwords": [
+		{
+			"text": "כְּבוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

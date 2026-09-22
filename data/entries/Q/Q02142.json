@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02142",
-	"slug": "פתורתא",
-	"headword": {
-		"text": "פָּתוֹרְתָּא"
-	},
+	"sefariaHeadword": "פָּתוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "פָּתוֹרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1251,
 		"column": "a"

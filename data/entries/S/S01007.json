@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01007",
-	"slug": "קימוש",
-	"headword": {
-		"text": "קִימּוֹשׁ"
-	},
+	"sefariaHeadword": "קִימּוֹשׁ",
+	"headwords": [
+		{
+			"text": "קִימּוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02970",
-	"slug": "משרא-1",
-	"headword": {
-		"text": "מֵשְׁרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מֵשְׁרָא I",
+	"headwords": [
+		{
+			"text": "מֵשְׁרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 858,
 		"column": "a"

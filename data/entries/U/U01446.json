@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01446",
-	"slug": "שמותי",
-	"headword": {
-		"text": "שַׁמּוּתִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁמּוּתִי",
+	"headwords": [
+		{
+			"text": "שַׁמּוּתִי"
+		},
 		{
 			"text": "שַׁמָּתִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1593,
 		"column": "a"

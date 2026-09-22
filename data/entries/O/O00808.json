@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00808",
-	"slug": "סיפתקא",
-	"headword": {
-		"text": "סִיפְתְּקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיפְתְּקָא",
+	"headwords": [
+		{
+			"text": "סִיפְתְּקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

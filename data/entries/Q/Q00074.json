@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00074",
-	"slug": "פגם-2",
-	"headword": {
-		"text": "פָּגַם"
-	},
+	"sefariaHeadword": "פָּגַם",
+	"headwords": [
+		{
+			"text": "פָּגַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "b"

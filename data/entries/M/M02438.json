@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02438",
-	"slug": "מקצה",
-	"headword": {
-		"text": "מֻקְצֶה"
-	},
+	"sefariaHeadword": "מֻקְצֶה",
+	"headwords": [
+		{
+			"text": "מֻקְצֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "b"

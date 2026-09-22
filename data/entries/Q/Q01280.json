@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01280",
-	"slug": "פסיונא",
-	"headword": {
-		"text": "פִּסְיוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְיוֹנָא",
+	"headwords": [
+		{
+			"text": "פִּסְיוֹנָא"
+		},
 		{
 			"text": "פִּיסְ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 1194,
 		"column": "b"

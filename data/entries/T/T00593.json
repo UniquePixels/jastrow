@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00593",
-	"slug": "ריבית",
-	"headword": {
-		"text": "רִיבִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבִּית",
+	"headwords": [
+		{
+			"text": "רִיבִּית"
+		},
 		{
 			"text": "רִיבִּיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1473,
 		"column": "a"

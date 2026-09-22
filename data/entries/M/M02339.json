@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02339",
-	"slug": "מצע-1",
-	"headword": {
-		"text": "מָצַע"
-	},
+	"sefariaHeadword": "מָצַע",
+	"headwords": [
+		{
+			"text": "מָצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "a"

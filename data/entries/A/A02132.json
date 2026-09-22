@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02132",
-	"slug": "אנדריי",
-	"headword": {
-		"text": "אַנְדְּרַיי"
-	},
+	"sefariaHeadword": "אַנְדְּרַיי",
+	"headwords": [
+		{
+			"text": "אַנְדְּרַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

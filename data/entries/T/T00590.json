@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "T00590",
-	"slug": "ריבוע-2",
-	"headword": {
-		"text": "רִיבּוּעַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוּעַ ²",
+	"headwords": [
+		{
+			"text": "רִיבּוּעַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "רִיבּוּעָא"
 		},
 		{
-			"text": "רִבּ׳"
+			"text": "רִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1473,
 		"column": "a"

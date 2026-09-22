@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00708",
-	"slug": "צפצף-3",
-	"headword": {
-		"text": "צִפְצֵף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צִפְצֵף II",
+	"headwords": [
+		{
+			"text": "צִפְצֵף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1298,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00054",
-	"slug": "טבילותא",
-	"headword": {
-		"text": "טְבִילוּתָא"
-	},
+	"sefariaHeadword": "טְבִילוּתָא",
+	"headwords": [
+		{
+			"text": "טְבִילוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 517,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02211",
-	"slug": "מפיבשת",
-	"headword": {
-		"text": "מְפִיבֹשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְפִיבֹשֶׁת",
+	"headwords": [
 		{
-			"text": "מְפִבֹ׳"
+			"text": "מְפִיבֹשֶׁת"
+		},
+		{
+			"text": "מְפִבֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"

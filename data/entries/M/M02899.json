@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02899",
-	"slug": "משכוכיתא",
-	"headword": {
-		"text": "מַשְׁכּוֹכִיתָא"
-	},
+	"sefariaHeadword": "מַשְׁכּוֹכִיתָא",
+	"headwords": [
+		{
+			"text": "מַשְׁכּוֹכִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 854,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02525",
-	"slug": "מרגנין",
-	"headword": {
-		"text": "מַרְגְּנִין"
-	},
+	"sefariaHeadword": "מַרְגְּנִין",
+	"headwords": [
+		{
+			"text": "מַרְגְּנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 836,
 		"column": "a"

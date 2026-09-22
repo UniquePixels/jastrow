@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00694",
-	"slug": "הנתוכין",
-	"headword": {
-		"text": "הַנְתּוּכִין"
-	},
+	"sefariaHeadword": "הַנְתּוּכִין",
+	"headwords": [
+		{
+			"text": "הַנְתּוּכִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

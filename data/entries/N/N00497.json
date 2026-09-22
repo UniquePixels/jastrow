@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00497",
-	"slug": "נחיתת",
-	"headword": {
-		"text": "נְחִיתַת"
-	},
+	"sefariaHeadword": "נְחִיתַת",
+	"headwords": [
+		{
+			"text": "נְחִיתַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 894,
 		"column": "b"

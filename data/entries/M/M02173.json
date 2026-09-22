@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02173",
-	"slug": "מערה",
-	"headword": {
-		"text": "מְעָרָה"
-	},
+	"sefariaHeadword": "מְעָרָה",
+	"headwords": [
+		{
+			"text": "מְעָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "a"

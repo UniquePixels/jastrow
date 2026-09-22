@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00826",
-	"slug": "סיקררין",
-	"headword": {
-		"text": "סיקררין"
-	},
+	"sefariaHeadword": "סיקררין",
+	"headwords": [
+		{
+			"text": "סיקררין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "b"

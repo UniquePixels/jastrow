@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00031",
-	"slug": "חבורא-2",
-	"headword": {
-		"text": "חַבּוּרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חַבּוּרָא I",
+	"headwords": [
+		{
+			"text": "חַבּוּרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 416,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00115",
-	"slug": "סגולרין",
-	"headword": {
-		"text": "סְגוּלָרִין"
-	},
+	"sefariaHeadword": "סְגוּלָרִין",
+	"headwords": [
+		{
+			"text": "סְגוּלָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

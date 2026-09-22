@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00357",
-	"slug": "קולס-2",
-	"headword": {
-		"text": "קוֹלַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹלַס",
+	"headwords": [
+		{
+			"text": "קוֹלַס"
+		},
 		{
 			"text": "קוֹלְסָא"
 		},
 		{
-			"text": "קַלְ׳"
+			"text": "קַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1329,
 		"column": "a"

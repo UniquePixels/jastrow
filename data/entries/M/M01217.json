@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01217",
-	"slug": "מינוק",
-	"headword": {
-		"text": "מְיַנּוֹק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְיַנּוֹק",
+	"headwords": [
+		{
+			"text": "מְיַנּוֹק"
+		},
 		{
 			"text": "מְיַנּוֹקָא"
 		},
 		{
-			"text": "מְיַי׳"
+			"text": "מְיַי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 776,
 		"column": "b"

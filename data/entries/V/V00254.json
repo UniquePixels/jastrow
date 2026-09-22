@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00254",
-	"slug": "תוף-1",
-	"headword": {
-		"text": "תּוּף"
-	},
+	"sefariaHeadword": "תּוּף",
+	"headwords": [
+		{
+			"text": "תּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "a"

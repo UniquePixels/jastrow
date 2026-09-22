@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00671",
-	"slug": "זרדא",
-	"headword": {
-		"text": "זַרְדָּא"
-	},
+	"sefariaHeadword": "זַרְדָּא",
+	"headwords": [
+		{
+			"text": "זַרְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01082",
-	"slug": "קיסראנא",
-	"headword": {
-		"text": "קִיסְרָאנָא"
-	},
+	"sefariaHeadword": "קִיסְרָאנָא",
+	"headwords": [
+		{
+			"text": "קִיסְרָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00181",
-	"slug": "הואי",
-	"headword": {
-		"text": "הֲוַאי"
-	},
+	"sefariaHeadword": "הֲוַאי",
+	"headwords": [
+		{
+			"text": "הֲוַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "a"

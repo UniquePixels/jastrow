@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02714",
-	"slug": "אפיקטויזין",
-	"headword": {
-		"text": "אַפִּיקְטְוִיזִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפִּיקְטְוִיזִין",
+	"headwords": [
+		{
+			"text": "אַפִּיקְטְוִיזִין"
+		},
 		{
 			"text": "אַפִּיקְטְפִיזִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 104,
 		"column": "b"

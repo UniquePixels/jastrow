@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00089",
-	"slug": "זהור",
-	"headword": {
-		"text": "זָהוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָהוֹר",
+	"headwords": [
+		{
+			"text": "זָהוֹר"
+		},
 		{
 			"text": "זְהוֹרִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "זְהוֹרוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 381,
 		"column": "b"

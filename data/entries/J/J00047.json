@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00047",
-	"slug": "יבישתא",
-	"headword": {
-		"text": "יַבִּישְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבִּישְׁתָּא",
+	"headwords": [
+		{
+			"text": "יַבִּישְׁתָּא"
+		},
 		{
 			"text": "יְבֵישְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 560,
 		"column": "b"

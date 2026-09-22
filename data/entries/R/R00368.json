@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00368",
-	"slug": "צילצלין",
-	"headword": {
-		"text": "צִילְצְלִין"
-	},
+	"sefariaHeadword": "צִילְצְלִין",
+	"headwords": [
+		{
+			"text": "צִילְצְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03270",
-	"slug": "אשויא",
-	"headword": {
-		"text": "אַשְׁוָיָא"
-	},
+	"sefariaHeadword": "אַשְׁוָיָא",
+	"headwords": [
+		{
+			"text": "אַשְׁוָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

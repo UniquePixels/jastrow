@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00003",
-	"slug": "פאבי",
-	"headword": {
-		"text": "פָּאבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּאבִי",
+	"headwords": [
+		{
+			"text": "פָּאבִי"
+		},
 		{
 			"text": "פִּיאָבִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1130,
 		"column": "a"

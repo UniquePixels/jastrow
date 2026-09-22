@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01866",
-	"slug": "פרכרגמא",
-	"headword": {
-		"text": "פָּרָכָרַגְמָא"
-	},
+	"sefariaHeadword": "פָּרָכָרַגְמָא",
+	"headwords": [
+		{
+			"text": "פָּרָכָרַגְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1230,
 		"column": "a"

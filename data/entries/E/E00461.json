@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00461",
-	"slug": "הינטין",
-	"headword": {
-		"text": "הינטין"
-	},
+	"sefariaHeadword": "הינטין",
+	"headwords": [
+		{
+			"text": "הינטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "b"

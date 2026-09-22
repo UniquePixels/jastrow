@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02421",
-	"slug": "אסטרטליטוס",
-	"headword": {
-		"text": "אסטרטליטוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אסטרטליטוס",
+	"headwords": [
+		{
+			"text": "אסטרטליטוס"
+		},
 		{
 			"text": "אסטרטלירוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 92,
 		"column": "b"

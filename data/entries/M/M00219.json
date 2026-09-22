@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00219",
-	"slug": "מגריפים",
-	"headword": {
-		"text": "מגריפים"
-	},
+	"sefariaHeadword": "מגריפים",
+	"headwords": [
+		{
+			"text": "מגריפים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

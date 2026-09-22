@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00570",
-	"slug": "ביזלי",
-	"headword": {
-		"text": "בִּיזְלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיזְלֵי",
+	"headwords": [
+		{
+			"text": "בִּיזְלֵי"
+		},
 		{
 			"text": "בְּזַיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 160,
 		"column": "a"

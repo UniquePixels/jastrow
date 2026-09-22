@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00491",
-	"slug": "רחוש-2",
-	"headword": {
-		"text": "רָחוֹשׁ"
-	},
+	"sefariaHeadword": "רָחוֹשׁ",
+	"headwords": [
+		{
+			"text": "רָחוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

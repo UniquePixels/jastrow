@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00020",
-	"slug": "טב-3",
-	"headword": {
-		"text": "טַב",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַב III",
+	"headwords": [
+		{
+			"text": "טַב",
+			"homograph": 3
+		},
 		{
 			"text": "עֵין טַב"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 515,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

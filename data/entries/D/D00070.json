@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00070",
-	"slug": "דבלל",
-	"headword": {
-		"text": "דִּבְלֵל"
-	},
+	"sefariaHeadword": "דִּבְלֵל",
+	"headwords": [
+		{
+			"text": "דִּבְלֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "b"

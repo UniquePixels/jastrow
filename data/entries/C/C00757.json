@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00757",
-	"slug": "גינון",
-	"headword": {
-		"text": "גִּינּוּן"
-	},
+	"sefariaHeadword": "גִּינּוּן",
+	"headwords": [
+		{
+			"text": "גִּינּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

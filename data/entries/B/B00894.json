@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00894",
-	"slug": "בלסם",
-	"headword": {
-		"text": "בַּלְסָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּלְסָם",
+	"headwords": [
+		{
+			"text": "בַּלְסָם"
+		},
 		{
 			"text": "בַּלְסְמוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 174,
 		"column": "a"

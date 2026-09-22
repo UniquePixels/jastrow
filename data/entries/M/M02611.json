@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02611",
-	"slug": "מרות-1",
-	"headword": {
-		"text": "מַרְוָת"
-	},
+	"sefariaHeadword": "מַרְוָת",
+	"headwords": [
+		{
+			"text": "מַרְוָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

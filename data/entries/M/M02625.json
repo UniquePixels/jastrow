@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02625",
-	"slug": "מרזחא",
-	"headword": {
-		"text": "מַרְזֵחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְזֵחָא",
+	"headwords": [
 		{
-			"text": "מַרְזֵי׳"
+			"text": "מַרְזֵחָא"
+		},
+		{
+			"text": "מַרְזֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 840,
 		"column": "b"

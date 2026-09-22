@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00426",
-	"slug": "אדמי",
-	"headword": {
-		"text": "אֲדָמִי"
-	},
+	"sefariaHeadword": "אֲדָמִי",
+	"headwords": [
+		{
+			"text": "אֲדָמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

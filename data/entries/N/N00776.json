@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00776",
-	"slug": "ניקלגיס",
-	"headword": {
-		"text": "ניקלגיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ניקלגיס",
+	"headwords": [
+		{
+			"text": "ניקלגיס"
+		},
 		{
 			"text": "ניקלוגוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "b"

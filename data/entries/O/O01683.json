@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01683",
-	"slug": "סתו",
-	"headword": {
-		"text": "סְתָו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְתָו",
+	"headwords": [
+		{
+			"text": "סְתָו"
+		},
 		{
 			"text": "סְתָיו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1030,
 		"column": "b"

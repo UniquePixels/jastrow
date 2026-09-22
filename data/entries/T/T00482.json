@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00482",
-	"slug": "רחוינית",
-	"headword": {
-		"text": "רחוינית"
-	},
+	"sefariaHeadword": "רחוינית",
+	"headwords": [
+		{
+			"text": "רחוינית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "b"

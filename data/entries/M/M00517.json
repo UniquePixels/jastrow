@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00517",
-	"slug": "מומוס",
-	"headword": {
-		"text": "מוּמוֹס"
-	},
+	"sefariaHeadword": "מוּמוֹס",
+	"headwords": [
+		{
+			"text": "מוּמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "b"

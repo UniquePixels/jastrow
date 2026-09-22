@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00457",
-	"slug": "מוחק",
-	"headword": {
-		"text": "מוֹחֵק"
-	},
+	"sefariaHeadword": "מוֹחֵק",
+	"headwords": [
+		{
+			"text": "מוֹחֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "b"

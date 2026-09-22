@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00080",
-	"slug": "הגעלה",
-	"headword": {
-		"text": "הַגְעָלָה"
-	},
+	"sefariaHeadword": "הַגְעָלָה",
+	"headwords": [
+		{
+			"text": "הַגְעָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "b"

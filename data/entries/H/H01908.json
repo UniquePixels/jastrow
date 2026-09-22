@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01908",
-	"slug": "חתנת",
-	"headword": {
-		"text": "חתנת"
-	},
+	"sefariaHeadword": "חתנת",
+	"headwords": [
+		{
+			"text": "חתנת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 514,
 		"column": "b"

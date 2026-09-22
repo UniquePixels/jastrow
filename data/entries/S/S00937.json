@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00937",
-	"slug": "קיימא",
-	"headword": {
-		"text": "קַיָּימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַיָּימָא",
+	"headwords": [
+		{
+			"text": "קַיָּימָא"
+		},
 		{
 			"text": "קַיָּימָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1359,
 		"column": "a"

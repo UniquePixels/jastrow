@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00925",
-	"slug": "אושלא",
-	"headword": {
-		"text": "אוּשְׁלָא"
-	},
+	"sefariaHeadword": "אוּשְׁלָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

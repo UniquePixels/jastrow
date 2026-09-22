@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00970",
-	"slug": "רפת",
-	"headword": {
-		"text": "רֶפֶת"
-	},
+	"sefariaHeadword": "רֶפֶת",
+	"headwords": [
+		{
+			"text": "רֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00581",
-	"slug": "כיסוי",
-	"headword": {
-		"text": "כִּיסּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיסּוּי",
+	"headwords": [
 		{
-			"text": "כִּסּ׳"
+			"text": "כִּיסּוּי"
+		},
+		{
+			"text": "כִּסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 634,
 		"column": "a"

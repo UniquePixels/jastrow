@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01097",
-	"slug": "עצבון",
-	"headword": {
-		"text": "עִצָּבוֹן"
-	},
+	"sefariaHeadword": "עִצָּבוֹן",
+	"headwords": [
+		{
+			"text": "עִצָּבוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1101,
 		"column": "b"

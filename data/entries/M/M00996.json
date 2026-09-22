@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00996",
-	"slug": "מטכסא-1",
-	"headword": {
-		"text": "מַטְכְּסָא"
-	},
+	"sefariaHeadword": "מַטְכְּסָא",
+	"headwords": [
+		{
+			"text": "מַטְכְּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "a"

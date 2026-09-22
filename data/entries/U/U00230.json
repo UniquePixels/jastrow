@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00230",
-	"slug": "שגם",
-	"headword": {
-		"text": "שָׁגַם"
-	},
+	"sefariaHeadword": "שָׁגַם",
+	"headwords": [
+		{
+			"text": "שָׁגַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

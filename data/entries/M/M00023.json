@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00023",
-	"slug": "מאי",
-	"headword": {
-		"text": "מַאי"
-	},
+	"sefariaHeadword": "מַאי",
+	"headwords": [
+		{
+			"text": "מַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00314",
-	"slug": "רוגזיתא",
-	"headword": {
-		"text": "רוּגְזֵיתָא"
-	},
+	"sefariaHeadword": "רוּגְזֵיתָא",
+	"headwords": [
+		{
+			"text": "רוּגְזֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

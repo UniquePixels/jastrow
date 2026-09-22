@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00308",
-	"slug": "בוץ-3",
-	"headword": {
-		"text": "בּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּץ",
+	"headwords": [
+		{
+			"text": "בּוּץ"
+		},
 		{
 			"text": "בּוּצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 147,
 		"column": "b"

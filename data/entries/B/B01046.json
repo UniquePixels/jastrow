@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01046",
-	"slug": "בעיל",
-	"headword": {
-		"text": "בְּעֵיל"
-	},
+	"sefariaHeadword": "בְּעֵיל",
+	"headwords": [
+		{
+			"text": "בְּעֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

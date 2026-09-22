@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00298",
-	"slug": "מדירא",
-	"headword": {
-		"text": "מְדֵירָא"
-	},
+	"sefariaHeadword": "מְדֵירָא",
+	"headwords": [
+		{
+			"text": "מְדֵירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

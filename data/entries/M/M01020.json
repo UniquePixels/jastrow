@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01020",
-	"slug": "מטמון",
-	"headword": {
-		"text": "מַטְמוֹן"
-	},
+	"sefariaHeadword": "מַטְמוֹן",
+	"headwords": [
+		{
+			"text": "מַטְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 768,
 		"column": "b"

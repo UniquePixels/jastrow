@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00727",
-	"slug": "דיר-3",
-	"headword": {
-		"text": "דִּיר"
-	},
+	"sefariaHeadword": "דִּיר",
+	"headwords": [
+		{
+			"text": "דִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "b"

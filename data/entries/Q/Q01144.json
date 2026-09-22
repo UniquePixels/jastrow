@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01144",
-	"slug": "פמלניא",
-	"headword": {
-		"text": "פִּמְלַנְיָא"
-	},
+	"sefariaHeadword": "פִּמְלַנְיָא",
+	"headwords": [
+		{
+			"text": "פִּמְלַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

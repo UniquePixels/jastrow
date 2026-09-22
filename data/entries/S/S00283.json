@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00283",
-	"slug": "קוזמריא",
-	"headword": {
-		"text": "קוֹזְמָרְיָא"
-	},
+	"sefariaHeadword": "קוֹזְמָרְיָא",
+	"headwords": [
+		{
+			"text": "קוֹזְמָרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

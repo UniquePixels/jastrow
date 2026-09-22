@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00192",
-	"slug": "הוגין",
-	"headword": {
-		"text": "הוֹגֵין"
-	},
+	"sefariaHeadword": "הוֹגֵין",
+	"headwords": [
+		{
+			"text": "הוֹגֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

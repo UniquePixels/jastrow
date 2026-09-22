@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00136",
-	"slug": "דדנים",
-	"headword": {
-		"text": "דְּדָנִים"
-	},
+	"sefariaHeadword": "דְּדָנִים",
+	"headwords": [
+		{
+			"text": "דְּדָנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

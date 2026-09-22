@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00912",
-	"slug": "השבתה",
-	"headword": {
-		"text": "הַשְׁבָּתָה"
-	},
+	"sefariaHeadword": "הַשְׁבָּתָה",
+	"headwords": [
+		{
+			"text": "הַשְׁבָּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "b"

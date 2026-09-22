@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00659",
-	"slug": "ריסוק",
-	"headword": {
-		"text": "רִיסּוּק"
-	},
+	"sefariaHeadword": "רִיסּוּק",
+	"headwords": [
+		{
+			"text": "רִיסּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

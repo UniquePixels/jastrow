@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02175",
-	"slug": "קרקע-2",
-	"headword": {
-		"text": "קַרְקַע",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְקַע ²",
+	"headwords": [
+		{
+			"text": "קַרְקַע",
+			"disambiguator": 2
+		},
 		{
 			"text": "קַרְקְעָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1426,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01020",
-	"slug": "כפירה",
-	"headword": {
-		"text": "כְּפִירָה"
-	},
+	"sefariaHeadword": "כְּפִירָה",
+	"headwords": [
+		{
+			"text": "כְּפִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "b"

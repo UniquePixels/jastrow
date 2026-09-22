@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01389",
-	"slug": "אינמירינון",
-	"headword": {
-		"text": "אֶינְמִירִינוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶינְמִירִינוֹן",
+	"headwords": [
+		{
+			"text": "אֶינְמִירִינוֹן"
+		},
 		{
 			"text": "אֶינְמְרִנוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 52,
 		"column": "b"

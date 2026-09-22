@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00158",
-	"slug": "גדבל",
-	"headword": {
-		"text": "גדבל"
-	},
+	"sefariaHeadword": "גדבל",
+	"headwords": [
+		{
+			"text": "גדבל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

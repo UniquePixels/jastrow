@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02409",
-	"slug": "אסטרטאות",
-	"headword": {
-		"text": "אסטרטאות"
-	},
+	"sefariaHeadword": "אסטרטאות",
+	"headwords": [
+		{
+			"text": "אסטרטאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

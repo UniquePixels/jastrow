@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U02066",
-	"slug": "ששת-1",
-	"headword": {
-		"text": "שֵׁשֶׁת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שֵׁשֶׁת I",
+	"headwords": [
+		{
+			"text": "שֵׁשֶׁת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1636,
 		"column": "b"

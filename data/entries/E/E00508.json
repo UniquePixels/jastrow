@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00508",
-	"slug": "הכין",
-	"headword": {
-		"text": "הָכֵין  I, II"
-	},
+	"sefariaHeadword": "הָכֵין  I, II",
+	"headwords": [
+		{
+			"text": "הָכֵין"
+		}
+	],
+	"display": "{0} I, II",
 	"page": {
 		"number": 350,
 		"column": "b"

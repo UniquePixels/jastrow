@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01842",
-	"slug": "אליהועיני",
-	"headword": {
-		"text": "אֶלְיְהוֹעֵינַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶלְיְהוֹעֵינַי",
+	"headwords": [
+		{
+			"text": "אֶלְיְהוֹעֵינַי"
+		},
 		{
 			"text": "אֶלְיוֹעֵנַי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 68,
 		"column": "b"

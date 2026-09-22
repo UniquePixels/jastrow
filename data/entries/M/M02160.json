@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02160",
-	"slug": "מעצרא",
-	"headword": {
-		"text": "מַעְצְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעְצְרָא",
+	"headwords": [
 		{
-			"text": "מַעַצְ׳"
+			"text": "מַעְצְרָא"
+		},
+		{
+			"text": "מַעַצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 818,
 		"column": "b"

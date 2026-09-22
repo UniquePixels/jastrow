@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01213",
-	"slug": "ברות",
-	"headword": {
-		"text": "בְּרוֹת"
-	},
+	"sefariaHeadword": "בְּרוֹת",
+	"headwords": [
+		{
+			"text": "בְּרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "a"

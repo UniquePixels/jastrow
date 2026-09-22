@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02156",
-	"slug": "מעפרת",
-	"headword": {
-		"text": "מַעֲפֶרֶת"
-	},
+	"sefariaHeadword": "מַעֲפֶרֶת",
+	"headwords": [
+		{
+			"text": "מַעֲפֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

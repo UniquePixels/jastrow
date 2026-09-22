@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01341",
-	"slug": "כתב-3",
-	"headword": {
-		"text": "כְּתָב"
-	},
+	"sefariaHeadword": "כְּתָב",
+	"headwords": [
+		{
+			"text": "כְּתָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 679,
 		"column": "b"

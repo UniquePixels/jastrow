@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00613",
-	"slug": "תלמית",
-	"headword": {
-		"text": "תַּלְמִית"
-	},
+	"sefariaHeadword": "תַּלְמִית",
+	"headwords": [
+		{
+			"text": "תַּלְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1673,
 		"column": "a"

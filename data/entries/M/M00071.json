@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00071",
-	"slug": "מאתין",
-	"headword": {
-		"text": "מָאתַיִן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָאתַיִן",
+	"headwords": [
+		{
+			"text": "מָאתַיִן"
+		},
 		{
 			"text": "מָאתָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 724,
 		"column": "b"

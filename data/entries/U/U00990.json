@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00990",
-	"slug": "שיעבד",
-	"headword": {
-		"text": "שִׁיעְבֵּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיעְבֵּד",
+	"headwords": [
+		{
+			"text": "שִׁיעְבֵּד"
+		},
 		{
 			"text": "שִׁיעְבּוּד"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיעְבּוּדָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1565,
 		"column": "a"

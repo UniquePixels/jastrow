@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01298",
-	"slug": "קלורין",
-	"headword": {
-		"text": "קִלּוּרִין"
-	},
+	"sefariaHeadword": "קִלּוּרִין",
+	"headwords": [
+		{
+			"text": "קִלּוּרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

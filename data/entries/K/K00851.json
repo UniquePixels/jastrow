@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00851",
-	"slug": "כניא",
-	"headword": {
-		"text": "כַּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּנְיָא",
+	"headwords": [
 		{
-			"text": "כַּנְיָא פַּרְוָוא"
+			"text": "כַּנְיָא"
+		},
+		{
+			"text": "כ׳ פַּרְוָוא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 648,
 		"column": "b"

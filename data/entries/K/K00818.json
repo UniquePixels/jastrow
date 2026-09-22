@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00818",
-	"slug": "כמר-2",
-	"headword": {
-		"text": "כְּמַר"
-	},
+	"sefariaHeadword": "כְּמַר",
+	"headwords": [
+		{
+			"text": "כְּמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 647,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01655",
-	"slug": "קסטרס",
-	"headword": {
-		"text": "קסטרס"
-	},
+	"sefariaHeadword": "קסטרס",
+	"headwords": [
+		{
+			"text": "קסטרס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

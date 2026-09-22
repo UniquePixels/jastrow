@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00444",
-	"slug": "אדר-4",
-	"headword": {
-		"text": "אִדַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִדַּר",
+	"headwords": [
+		{
+			"text": "אִדַּר"
+		},
 		{
 			"text": "אִידַּר"
 		},
@@ -15,6 +16,7 @@
 			"text": "אִידְּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 18,
 		"column": "a"

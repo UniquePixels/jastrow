@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01637",
-	"slug": "אישתמודע",
-	"headword": {
-		"text": "אִישְׁתְּמוֹדַע"
-	},
+	"sefariaHeadword": "אִישְׁתְּמוֹדַע",
+	"headwords": [
+		{
+			"text": "אִישְׁתְּמוֹדַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

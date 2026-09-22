@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00279",
-	"slug": "בולשת",
-	"headword": {
-		"text": "בּוֹלֶשֶׁת"
-	},
+	"sefariaHeadword": "בּוֹלֶשֶׁת",
+	"headwords": [
+		{
+			"text": "בּוֹלֶשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 146,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S01059",
-	"slug": "קיסומא-1",
-	"headword": {
-		"text": "קִיסּוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסּוּמָא",
+	"headwords": [
+		{
+			"text": "קִיסּוּמָא"
+		},
 		{
 			"text": "קִסּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1364,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00531",
-	"slug": "רחמנותא",
-	"headword": {
-		"text": "רַחֲמָנוּתָא"
-	},
+	"sefariaHeadword": "רַחֲמָנוּתָא",
+	"headwords": [
+		{
+			"text": "רַחֲמָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1468,
 		"column": "b"

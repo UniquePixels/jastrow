@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00022",
-	"slug": "פאפיליון",
-	"headword": {
-		"text": "פָּאפִילְיוֹן"
-	},
+	"sefariaHeadword": "פָּאפִילְיוֹן",
+	"headwords": [
+		{
+			"text": "פָּאפִילְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

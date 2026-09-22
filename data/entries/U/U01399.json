@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01399",
-	"slug": "שלשל-4",
-	"headword": {
-		"text": "שַׁלְשֵׁל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שַׁלְשֵׁל II",
+	"headwords": [
+		{
+			"text": "שַׁלְשֵׁל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1589,
 		"column": "b"

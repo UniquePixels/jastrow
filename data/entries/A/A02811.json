@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02811",
-	"slug": "אפרופוס",
-	"headword": {
-		"text": "אפרופוס"
-	},
+	"sefariaHeadword": "אפרופוס",
+	"headwords": [
+		{
+			"text": "אפרופוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

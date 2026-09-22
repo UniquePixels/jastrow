@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02138",
-	"slug": "מעלן",
-	"headword": {
-		"text": "מַעֲלָן"
-	},
+	"sefariaHeadword": "מַעֲלָן",
+	"headwords": [
+		{
+			"text": "מַעֲלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

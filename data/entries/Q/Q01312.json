@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01312",
-	"slug": "פסיקא-1",
-	"headword": {
-		"text": "פְּסִיקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּסִיקָא I",
+	"headwords": [
+		{
+			"text": "פְּסִיקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1196,
 		"column": "b"

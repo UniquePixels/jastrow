@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00347",
-	"slug": "חוליא-1",
-	"headword": {
-		"text": "חוּלְיָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלְיָא I",
+	"headwords": [
+		{
+			"text": "חוּלְיָא",
+			"homograph": 1
+		},
 		{
 			"text": "חוּלְיָה"
 		},
 		{
-			"text": "חוּלְיָי׳"
+			"text": "חוּלְיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 434,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00448",
-	"slug": "גוס-4",
-	"headword": {
-		"text": "גּוּס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "גּוּס ²",
+	"headwords": [
+		{
+			"text": "גּוּס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 224,
 		"column": "b"

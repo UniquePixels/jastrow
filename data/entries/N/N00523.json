@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00523",
-	"slug": "נחש-6",
-	"headword": {
-		"text": "נַחַשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַחַשׁ ²",
+	"headwords": [
+		{
+			"text": "נַחַשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "נַחֲשָׁא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 896,
 		"column": "b"

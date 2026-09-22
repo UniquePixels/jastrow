@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00014",
-	"slug": "גאותן",
-	"headword": {
-		"text": "גֵּאוְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּאוְתָן",
+	"headwords": [
+		{
+			"text": "גֵּאוְתָן"
+		},
 		{
 			"text": "גֵּאוְתָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 202,
 		"column": "a"

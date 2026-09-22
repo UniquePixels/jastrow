@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00673",
-	"slug": "ירתו",
-	"headword": {
-		"text": "יֵרְתוּ"
-	},
+	"sefariaHeadword": "יֵרְתוּ",
+	"headwords": [
+		{
+			"text": "יֵרְתוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02769",
-	"slug": "אפעה",
-	"headword": {
-		"text": "אֶפְעֶה"
-	},
+	"sefariaHeadword": "אֶפְעֶה",
+	"headwords": [
+		{
+			"text": "אֶפְעֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00921",
-	"slug": "גלח-1",
-	"headword": {
-		"text": "גָּלַח"
-	},
+	"sefariaHeadword": "גָּלַח",
+	"headwords": [
+		{
+			"text": "גָּלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "b"

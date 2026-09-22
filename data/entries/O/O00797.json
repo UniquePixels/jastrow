@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00797",
-	"slug": "סיפליני",
-	"headword": {
-		"text": "סיפליני"
-	},
+	"sefariaHeadword": "סיפליני",
+	"headwords": [
+		{
+			"text": "סיפליני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

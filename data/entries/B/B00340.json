@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00340",
-	"slug": "בורגן",
-	"headword": {
-		"text": "בּוּרְגִּן"
-	},
+	"sefariaHeadword": "בּוּרְגִּן",
+	"headwords": [
+		{
+			"text": "בּוּרְגִּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00524",
-	"slug": "כייפא",
-	"headword": {
-		"text": "כַּיְיפָא"
-	},
+	"sefariaHeadword": "כַּיְיפָא",
+	"headwords": [
+		{
+			"text": "כַּיְיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

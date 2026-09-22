@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01392",
-	"slug": "ספסופא",
-	"headword": {
-		"text": "סַפְסוּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַפְסוּפָא",
+	"headwords": [
+		{
+			"text": "סַפְסוּפָא"
+		},
 		{
 			"text": "סַפְסוּפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1015,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00574",
-	"slug": "תלג-2",
-	"headword": {
-		"text": "תְּלַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלַג",
+	"headwords": [
+		{
+			"text": "תְּלַג"
+		},
 		{
 			"text": "תַּלְגָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1670,
 		"column": "a"

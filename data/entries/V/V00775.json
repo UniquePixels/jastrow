@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00775",
-	"slug": "תעבור",
-	"headword": {
-		"text": "תַּעֲבוֹר"
-	},
+	"sefariaHeadword": "תַּעֲבוֹר",
+	"headwords": [
+		{
+			"text": "תַּעֲבוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1683,
 		"column": "b"

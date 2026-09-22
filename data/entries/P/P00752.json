@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00752",
-	"slug": "עכשו",
-	"headword": {
-		"text": "עַכְשָׁו"
-	},
+	"sefariaHeadword": "עַכְשָׁו",
+	"headwords": [
+		{
+			"text": "עַכְשָׁו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

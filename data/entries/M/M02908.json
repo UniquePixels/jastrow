@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02908",
-	"slug": "משכנא",
-	"headword": {
-		"text": "מַשְׁכְּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁכְּנָא",
+	"headwords": [
 		{
-			"text": "מִ׳"
+			"text": "מַשְׁכְּנָא"
+		},
+		{
+			"text": "מִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 855,
 		"column": "a"

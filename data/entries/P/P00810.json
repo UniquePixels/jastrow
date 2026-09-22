@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00810",
-	"slug": "עלימן",
-	"headword": {
-		"text": "עֲלֵימָן"
-	},
+	"sefariaHeadword": "עֲלֵימָן",
+	"headwords": [
+		{
+			"text": "עֲלֵימָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "b"

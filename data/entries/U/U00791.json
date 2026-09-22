@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00791",
-	"slug": "שיבוחא",
-	"headword": {
-		"text": "שִׁיבּוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבּוּחָא",
+	"headwords": [
 		{
-			"text": "שִׁבּ׳"
+			"text": "שִׁיבּוּחָא"
+		},
+		{
+			"text": "שִׁבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1556,
 		"column": "b"

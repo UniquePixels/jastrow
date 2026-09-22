@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01239",
-	"slug": "סניף",
-	"headword": {
-		"text": "סָנִיף"
-	},
+	"sefariaHeadword": "סָנִיף",
+	"headwords": [
+		{
+			"text": "סָנִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

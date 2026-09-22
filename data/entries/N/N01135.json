@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01135",
-	"slug": "נצנץ",
-	"headword": {
-		"text": "נִצְנֵץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִצְנֵץ",
+	"headwords": [
+		{
+			"text": "נִצְנֵץ"
+		},
 		{
 			"text": "נַצְנֵץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 929,
 		"column": "b"

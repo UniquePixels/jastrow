@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00841",
-	"slug": "בלוריות",
-	"headword": {
-		"text": "בְּלוּרִיּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּלוּרִיֹּות",
+	"headwords": [
+		{
+			"text": "בְּלוּרִיּוֹת"
+		},
 		{
 			"text": "בְּלֵרִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 171,
 		"column": "b"

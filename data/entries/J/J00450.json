@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00450",
-	"slug": "ינקנא",
-	"headword": {
-		"text": "יַנְקָנָא"
-	},
+	"sefariaHeadword": "יַנְקָנָא",
+	"headwords": [
+		{
+			"text": "יַנְקָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 582,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00343",
-	"slug": "אגרדמיס",
-	"headword": {
-		"text": "אֲגַרְדְּמִיס"
-	},
+	"sefariaHeadword": "אֲגַרְדְּמִיס",
+	"headwords": [
+		{
+			"text": "אֲגַרְדְּמִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

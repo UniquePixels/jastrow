@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00469",
-	"slug": "בזרנא",
-	"headword": {
-		"text": "בִּזְרָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּזְרָנָא",
+	"headwords": [
+		{
+			"text": "בִּזְרָנָא"
+		},
 		{
 			"text": "בִּיזְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 154,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00584",
-	"slug": "דיכוון",
-	"headword": {
-		"text": "דִּיכְוָון"
-	},
+	"sefariaHeadword": "דִּיכְוָון",
+	"headwords": [
+		{
+			"text": "דִּיכְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01809",
-	"slug": "פרימא",
-	"headword": {
-		"text": "פְּרִימָא"
-	},
+	"sefariaHeadword": "פְּרִימָא",
+	"headwords": [
+		{
+			"text": "פְּרִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1227,
 		"column": "a"

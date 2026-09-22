@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01306",
-	"slug": "נשיאה-2",
-	"headword": {
-		"text": "נְשִׂיאָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נְשִׂיאָה II",
+	"headwords": [
+		{
+			"text": "נְשִׂיאָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 939,
 		"column": "a"

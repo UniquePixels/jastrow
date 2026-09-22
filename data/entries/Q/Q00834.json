@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00834",
-	"slug": "פירוז",
-	"headword": {
-		"text": "פֵּירוּז"
-	},
+	"sefariaHeadword": "פֵּירוּז",
+	"headwords": [
+		{
+			"text": "פֵּירוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

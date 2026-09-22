@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00506",
-	"slug": "הכי",
-	"headword": {
-		"text": "הָכִי"
-	},
+	"sefariaHeadword": "הָכִי",
+	"headwords": [
+		{
+			"text": "הָכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

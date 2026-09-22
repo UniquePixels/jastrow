@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01355",
-	"slug": "קלל-3",
-	"headword": {
-		"text": "קָלַל"
-	},
+	"sefariaHeadword": "קָלַל",
+	"headwords": [
+		{
+			"text": "קָלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1377,
 		"column": "b"

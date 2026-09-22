@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00198",
-	"slug": "קדש-8",
-	"headword": {
-		"text": "קֹדֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֹדֶשׁ",
+	"headwords": [
+		{
+			"text": "קֹדֶשׁ"
+		},
 		{
 			"text": "קֹדַשׁ"
 		},
@@ -12,6 +13,7 @@
 			"text": "קֻדְשָׁא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1321,
 		"column": "a"

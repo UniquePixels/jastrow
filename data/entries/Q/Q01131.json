@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01131",
-	"slug": "פלתא",
-	"headword": {
-		"text": "פָּלָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פָּלָתָא",
+	"headwords": [
+		{
+			"text": "פָּלָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01677",
-	"slug": "קססה",
-	"headword": {
-		"text": "קְסָסָה"
-	},
+	"sefariaHeadword": "קְסָסָה",
+	"headwords": [
+		{
+			"text": "קְסָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

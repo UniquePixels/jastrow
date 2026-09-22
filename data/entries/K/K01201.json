@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01201",
-	"slug": "כרכוס",
-	"headword": {
-		"text": "כרכוס"
-	},
+	"sefariaHeadword": "כרכוס",
+	"headwords": [
+		{
+			"text": "כרכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 669,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03090",
-	"slug": "מתני",
-	"headword": {
-		"text": "מַתְנֵי"
-	},
+	"sefariaHeadword": "מַתְנֵי",
+	"headwords": [
+		{
+			"text": "מַתְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 863,
 		"column": "b"

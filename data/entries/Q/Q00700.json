@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00700",
-	"slug": "פיליוס",
-	"headword": {
-		"text": "פיליוס"
-	},
+	"sefariaHeadword": "פיליוס",
+	"headwords": [
+		{
+			"text": "פיליוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

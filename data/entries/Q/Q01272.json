@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01272",
-	"slug": "פסיאית",
-	"headword": {
-		"text": "פְּסִיָּאִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִיָּאִית",
+	"headwords": [
+		{
+			"text": "פְּסִיָּאִית"
+		},
 		{
 			"text": "פְּסִיאָיִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1194,
 		"column": "b"

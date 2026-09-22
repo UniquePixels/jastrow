@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01547",
-	"slug": "מליאה",
-	"headword": {
-		"text": "מְלֵיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְלֵיאָה",
+	"headwords": [
+		{
+			"text": "מְלֵיאָה"
+		},
 		{
 			"text": "מְלֵאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 789,
 		"column": "b"

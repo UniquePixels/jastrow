@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00303",
-	"slug": "לוף-2",
-	"headword": {
-		"text": "לוּף"
-	},
+	"sefariaHeadword": "לוּף",
+	"headwords": [
+		{
+			"text": "לוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "b"

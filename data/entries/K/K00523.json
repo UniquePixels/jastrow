@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00523",
-	"slug": "כיילא",
-	"headword": {
-		"text": "כַּיְילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּיְילָא",
+	"headwords": [
+		{
+			"text": "כַּיְילָא"
+		},
 		{
 			"text": "כַּיְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 631,
 		"column": "b"

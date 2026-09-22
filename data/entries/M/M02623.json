@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02623",
-	"slug": "מרזופא",
-	"headword": {
-		"text": "מַרְזוֹפָא"
-	},
+	"sefariaHeadword": "מַרְזוֹפָא",
+	"headwords": [
+		{
+			"text": "מַרְזוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "b"

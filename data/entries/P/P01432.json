@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01432",
-	"slug": "ערפדא",
-	"headword": {
-		"text": "עַרְפְּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְפְּדָא",
+	"headwords": [
+		{
+			"text": "עַרְפְּדָא"
+		},
 		{
 			"text": "עַרְפֵּידָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1122,
 		"column": "b"

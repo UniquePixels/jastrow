@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00380",
-	"slug": "לטא",
-	"headword": {
-		"text": "לְטָא"
-	},
+	"sefariaHeadword": "לְטָא",
+	"headwords": [
+		{
+			"text": "לְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

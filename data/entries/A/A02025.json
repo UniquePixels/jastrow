@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02025",
-	"slug": "אמיר",
-	"headword": {
-		"text": "אָמִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָמִיר",
+	"headwords": [
+		{
+			"text": "אָמִיר"
+		},
 		{
 			"text": "אֲמִיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 77,
 		"column": "a"

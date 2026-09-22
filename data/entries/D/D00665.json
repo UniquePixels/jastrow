@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00665",
-	"slug": "דיסתודר",
-	"headword": {
-		"text": "דִּיסְתּוּדַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְתּוּדַר",
+	"headwords": [
 		{
-			"text": "דִּסְ׳"
+			"text": "דִּיסְתּוּדַר"
+		},
+		{
+			"text": "דִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 303,
 		"column": "a"

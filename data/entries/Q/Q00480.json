@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00480",
-	"slug": "פחם-3",
-	"headword": {
-		"text": "פֶּחָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּחָם",
+	"headwords": [
+		{
+			"text": "פֶּחָם"
+		},
 		{
 			"text": "פֶּיחָם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1153,
 		"column": "a"

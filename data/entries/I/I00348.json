@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00348",
-	"slug": "טייסן",
-	"headword": {
-		"text": "טַיְיסָן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַיְיסָן",
+	"headwords": [
+		{
+			"text": "טַיְיסָן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

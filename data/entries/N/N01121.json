@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01121",
-	"slug": "נציא",
-	"headword": {
-		"text": "נִצַּיָּא"
-	},
+	"sefariaHeadword": "נִצַּיָּא",
+	"headwords": [
+		{
+			"text": "נִצַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 928,
 		"column": "b"

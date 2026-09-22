@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03115",
-	"slug": "אריסטובולוס",
-	"headword": {
-		"text": "אֲרִיסְטוֹבּוֹלוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִיסְטוֹבּוֹלוֹס",
+	"headwords": [
+		{
+			"text": "אֲרִיסְטוֹבּוֹלוֹס"
+		},
 		{
 			"text": "אֲרִיסְטוֹבְלוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 120,
 		"column": "b"

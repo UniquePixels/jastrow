@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03139",
-	"slug": "ארכוף",
-	"headword": {
-		"text": "אַרְכּוֹף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְכּוֹף",
+	"headwords": [
+		{
+			"text": "אַרְכּוֹף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 121,
 		"column": "b"

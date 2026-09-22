@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01231",
-	"slug": "חמרתא",
-	"headword": {
-		"text": "חֲמָרְתָּא"
-	},
+	"sefariaHeadword": "חֲמָרְתָּא",
+	"headwords": [
+		{
+			"text": "חֲמָרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 480,
 		"column": "a"

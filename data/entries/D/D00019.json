@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00019",
-	"slug": "דאיג",
-	"headword": {
-		"text": "דָּאֵיג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּאֵיג",
+	"headwords": [
+		{
+			"text": "דָּאֵיג"
+		},
 		{
 			"text": "דָּאֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 275,
 		"column": "b"

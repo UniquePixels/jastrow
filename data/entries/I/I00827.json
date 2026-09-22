@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00827",
-	"slug": "טריתא",
-	"headword": {
-		"text": "טָרִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָרִיתָא",
+	"headwords": [
+		{
+			"text": "טָרִיתָא"
+		},
 		{
 			"text": "טָרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 554,
 		"column": "b"

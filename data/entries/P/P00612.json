@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "P00612",
-	"slug": "עינוי-2",
-	"headword": {
-		"text": "עִינּוּי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינּוּי ²",
+	"headwords": [
+		{
+			"text": "עִינּוּי",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִנּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1072,
 		"column": "a"

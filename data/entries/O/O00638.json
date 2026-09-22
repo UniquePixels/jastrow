@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00638",
-	"slug": "סייתו",
-	"headword": {
-		"text": "סייתו"
-	},
+	"sefariaHeadword": "סייתו",
+	"headwords": [
+		{
+			"text": "סייתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "a"

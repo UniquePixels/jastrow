@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01124",
-	"slug": "סמפון",
-	"headword": {
-		"text": "סִמְפּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִמְפּוֹן",
+	"headwords": [
+		{
+			"text": "סִמְפּוֹן"
+		},
 		{
 			"text": "סִמְפּוֹנָא"
 		},
@@ -12,9 +13,11 @@
 			"text": "סִמְפּוֹנְיָא"
 		},
 		{
-			"text": "סִמְפֹּנְ׳"
+			"text": "סִמְפֹּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1002,
 		"column": "b"

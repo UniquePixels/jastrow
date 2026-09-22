@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00383",
-	"slug": "שוטח",
-	"headword": {
-		"text": "שוטח"
-	},
+	"sefariaHeadword": "שוטח",
+	"headwords": [
+		{
+			"text": "שוטח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1532,
 		"column": "a"

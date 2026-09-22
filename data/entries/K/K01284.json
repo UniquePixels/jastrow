@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01284",
-	"slug": "כרתון",
-	"headword": {
-		"text": "כרתון"
-	},
+	"sefariaHeadword": "כרתון",
+	"headwords": [
+		{
+			"text": "כרתון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 674,
 		"column": "b"

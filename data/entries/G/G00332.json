@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00332",
-	"slug": "זייארא",
-	"headword": {
-		"text": "זַיָּיארָא"
-	},
+	"sefariaHeadword": "זַיָּיארָא",
+	"headwords": [
+		{
+			"text": "זַיָּיארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

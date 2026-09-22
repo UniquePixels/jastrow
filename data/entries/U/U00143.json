@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00143",
-	"slug": "שבלוליה",
-	"headword": {
-		"text": "שַׁבְּלוּלְיָה"
-	},
+	"sefariaHeadword": "שַׁבְּלוּלְיָה",
+	"headwords": [
+		{
+			"text": "שַׁבְּלוּלְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

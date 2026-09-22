@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00365",
-	"slug": "סונקליטוס",
-	"headword": {
-		"text": "סוּנְקְלִיטוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּנְקְלִיטוֹס",
+	"headwords": [
+		{
+			"text": "סוּנְקְלִיטוֹס"
+		},
 		{
 			"text": "סוּנְקְלִיטִיקוֹס"
 		},
@@ -12,6 +13,7 @@
 			"text": "סוּנְקַתִּדְרוֹס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 967,
 		"column": "a"

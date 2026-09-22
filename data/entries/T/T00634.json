@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00634",
-	"slug": "ריכא",
-	"headword": {
-		"text": "רֵיכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיכָא",
+	"headwords": [
+		{
+			"text": "רֵיכָא"
+		},
 		{
 			"text": "רֵכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1474,
 		"column": "b"

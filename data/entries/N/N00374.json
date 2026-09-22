@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00374",
-	"slug": "נומירון",
-	"headword": {
-		"text": "נוּמִירוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נוּמִירוֹן",
+	"headwords": [
+		{
+			"text": "נוּמִירוֹן"
+		},
 		{
 			"text": "נוּמִירָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 888,
 		"column": "a"

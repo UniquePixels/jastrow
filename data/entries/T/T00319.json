@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00319",
-	"slug": "רוגשנא",
-	"headword": {
-		"text": "רוּגְשָׁנָא"
-	},
+	"sefariaHeadword": "רוּגְשָׁנָא",
+	"headwords": [
+		{
+			"text": "רוּגְשָׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

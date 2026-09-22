@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00412",
-	"slug": "זיקנה",
-	"headword": {
-		"text": "זִיקְנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיקְנָה",
+	"headwords": [
+		{
+			"text": "זִיקְנָה"
+		},
 		{
 			"text": "זִיקְנוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 396,
 		"column": "b"

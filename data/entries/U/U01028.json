@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01028",
-	"slug": "שיפרגז",
-	"headword": {
-		"text": "שִׁיפְרְגָז"
-	},
+	"sefariaHeadword": "שִׁיפְרְגָז",
+	"headwords": [
+		{
+			"text": "שִׁיפְרְגָז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1567,
 		"column": "a"

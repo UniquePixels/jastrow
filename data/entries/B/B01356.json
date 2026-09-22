@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01356",
-	"slug": "בשיל",
-	"headword": {
-		"text": "בְּשִׁיל"
-	},
+	"sefariaHeadword": "בְּשִׁיל",
+	"headwords": [
+		{
+			"text": "בְּשִׁיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01145",
-	"slug": "גניסא",
-	"headword": {
-		"text": "גְּנִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנִיסָא",
+	"headwords": [
+		{
+			"text": "גְּנִיסָא"
+		},
 		{
 			"text": "גְּנִיסְתָּא"
 		},
 		{
-			"text": "גְּנוּ׳"
+			"text": "גְּנוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 260,
 		"column": "a"

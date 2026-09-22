@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01947",
-	"slug": "אלקטי",
-	"headword": {
-		"text": "אִלְקְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְקְטִי",
+	"headwords": [
 		{
-			"text": "אִילְ׳"
+			"text": "אִלְקְטִי"
+		},
+		{
+			"text": "אִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "a"

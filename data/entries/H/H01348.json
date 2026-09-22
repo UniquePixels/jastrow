@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01348",
-	"slug": "חסודה-2",
-	"headword": {
-		"text": "חֲסוּדָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲסוּדָה II",
+	"headwords": [
+		{
+			"text": "חֲסוּדָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 486,
 		"column": "b"

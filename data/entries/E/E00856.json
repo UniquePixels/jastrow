@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00856",
-	"slug": "הרטבה׳",
-	"headword": {
-		"text": "הַרְטָבָה׳"
-	},
+	"sefariaHeadword": "הַרְטָבָה׳",
+	"headwords": [
+		{
+			"text": "הַרְטָבָה׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "a"

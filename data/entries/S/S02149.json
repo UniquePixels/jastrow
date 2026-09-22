@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02149",
-	"slug": "קרצום",
-	"headword": {
-		"text": "קרצום"
-	},
+	"sefariaHeadword": "קרצום",
+	"headwords": [
+		{
+			"text": "קרצום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

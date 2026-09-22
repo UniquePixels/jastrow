@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01240",
-	"slug": "סניפא",
-	"headword": {
-		"text": "סְנִיפָא"
-	},
+	"sefariaHeadword": "סְנִיפָא",
+	"headwords": [
+		{
+			"text": "סְנִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

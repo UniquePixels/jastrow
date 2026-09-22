@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00286",
-	"slug": "זיהום",
-	"headword": {
-		"text": "זִיהוּם"
-	},
+	"sefariaHeadword": "זִיהוּם",
+	"headwords": [
+		{
+			"text": "זִיהוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

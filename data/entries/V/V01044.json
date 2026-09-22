@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01044",
-	"slug": "תרף-2",
-	"headword": {
-		"text": "תְּרַף"
-	},
+	"sefariaHeadword": "תְּרַף",
+	"headwords": [
+		{
+			"text": "תְּרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "b"

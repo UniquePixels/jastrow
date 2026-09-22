@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01867",
-	"slug": "אלימנא",
-	"headword": {
-		"text": "אִלֵּימְנָא"
-	},
+	"sefariaHeadword": "אִלֵּימְנָא",
+	"headwords": [
+		{
+			"text": "אִלֵּימְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "b"

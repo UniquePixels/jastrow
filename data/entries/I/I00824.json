@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00824",
-	"slug": "טריקסימון",
-	"headword": {
-		"text": "טריקסימון"
-	},
+	"sefariaHeadword": "טריקסימון",
+	"headwords": [
+		{
+			"text": "טריקסימון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

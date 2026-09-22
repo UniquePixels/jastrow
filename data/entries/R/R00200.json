@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00200",
-	"slug": "צומות",
-	"headword": {
-		"text": "צוּמּוּת"
-	},
+	"sefariaHeadword": "צוּמּוּת",
+	"headwords": [
+		{
+			"text": "צוּמּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

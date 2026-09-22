@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00631",
-	"slug": "ניוול",
-	"headword": {
-		"text": "נִיוּוּל"
-	},
+	"sefariaHeadword": "נִיוּוּל",
+	"headwords": [
+		{
+			"text": "נִיוּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

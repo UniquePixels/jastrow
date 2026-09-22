@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00693",
-	"slug": "נינוה",
-	"headword": {
-		"text": "נִינְוֵה"
-	},
+	"sefariaHeadword": "נִינְוֵה",
+	"headwords": [
+		{
+			"text": "נִינְוֵה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

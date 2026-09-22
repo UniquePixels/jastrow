@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00230",
-	"slug": "תומניא",
-	"headword": {
-		"text": "תּוּמַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּמַנְיָא",
+	"headwords": [
+		{
+			"text": "תּוּמַנְיָא"
+		},
 		{
 			"text": "תּוּמְנַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1654,
 		"column": "a"

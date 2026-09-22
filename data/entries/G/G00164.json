@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00164",
-	"slug": "זוטרתא",
-	"headword": {
-		"text": "זוּטַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוּטַרְתָּא",
+	"headwords": [
+		{
+			"text": "זוּטַרְתָּא"
+		},
 		{
 			"text": "זוּטַרְתִּי",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 386,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01099",
-	"slug": "קיפונוס",
-	"headword": {
-		"text": "קִיפוֹנוֹס"
-	},
+	"sefariaHeadword": "קִיפוֹנוֹס",
+	"headwords": [
+		{
+			"text": "קִיפוֹנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

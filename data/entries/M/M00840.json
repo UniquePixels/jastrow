@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00840",
-	"slug": "מחזור",
-	"headword": {
-		"text": "מַחְזוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחְזוֹר",
+	"headwords": [
+		{
+			"text": "מַחְזוֹר"
+		},
 		{
 			"text": "מַחְזוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 758,
 		"column": "b"

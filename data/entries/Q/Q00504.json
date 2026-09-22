@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00504",
-	"slug": "פטורא",
-	"headword": {
-		"text": "פְּטוֹרָא"
-	},
+	"sefariaHeadword": "פְּטוֹרָא",
+	"headwords": [
+		{
+			"text": "פְּטוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00521",
-	"slug": "אוב-1",
-	"headword": {
-		"text": "אוֹב"
-	},
+	"sefariaHeadword": "אוֹב",
+	"headwords": [
+		{
+			"text": "אוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "a"

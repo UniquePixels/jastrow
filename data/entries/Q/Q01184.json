@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01184",
-	"slug": "פנטפוליטאי",
-	"headword": {
-		"text": "פַּנְטַפּוֹלִיטָאֵי"
-	},
+	"sefariaHeadword": "פַּנְטַפּוֹלִיטָאֵי",
+	"headwords": [
+		{
+			"text": "פַּנְטַפּוֹלִיטָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "b"

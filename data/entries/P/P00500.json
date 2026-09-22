@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00500",
-	"slug": "עיגונא",
-	"headword": {
-		"text": "עִיגּוּנָא"
-	},
+	"sefariaHeadword": "עִיגּוּנָא",
+	"headwords": [
+		{
+			"text": "עִיגּוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1067,
 		"column": "a"

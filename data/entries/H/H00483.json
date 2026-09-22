@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00483",
-	"slug": "חורשא",
-	"headword": {
-		"text": "חוּרְשָׁא"
-	},
+	"sefariaHeadword": "חוּרְשָׁא",
+	"headwords": [
+		{
+			"text": "חוּרְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

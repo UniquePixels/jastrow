@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01096",
-	"slug": "תשלמתה",
-	"headword": {
-		"text": "תַּשְׁלַמְתָּה"
-	},
+	"sefariaHeadword": "תַּשְׁלַמְתָּה",
+	"headwords": [
+		{
+			"text": "תַּשְׁלַמְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1704,
 		"column": "b"

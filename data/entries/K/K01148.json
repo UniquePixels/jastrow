@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01148",
-	"slug": "כרחא",
-	"headword": {
-		"text": "כָּרְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרְחָא",
+	"headwords": [
 		{
-			"text": "כּוֹ׳"
+			"text": "כָּרְחָא"
+		},
+		{
+			"text": "כּוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 666,
 		"column": "a"

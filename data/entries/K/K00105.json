@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00105",
-	"slug": "כדבא-2",
-	"headword": {
-		"text": "כַּדָּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּדָּבָא",
+	"headwords": [
+		{
+			"text": "כַּדָּבָא"
+		},
 		{
 			"text": "כַּדִּיב"
 		},
@@ -12,6 +13,7 @@
 			"text": "כַּדִּיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 612,
 		"column": "b"

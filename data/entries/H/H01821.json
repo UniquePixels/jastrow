@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01821",
-	"slug": "חשוך-2",
-	"headword": {
-		"text": "חֲשׁוֹךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשׁוֹךְ",
+	"headwords": [
+		{
+			"text": "חֲשׁוֹךְ"
+		},
 		{
 			"text": "חֲשׁוֹכָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 509,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01188",
-	"slug": "פני-1",
-	"headword": {
-		"text": "פני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פני",
+	"headwords": [
+		{
+			"text": "פני"
+		},
 		{
 			"text": "פָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1187,
 		"column": "b"

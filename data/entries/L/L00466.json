@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00466",
-	"slug": "ליל-3",
-	"headword": {
-		"text": "לַיִל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַיִל",
+	"headwords": [
+		{
+			"text": "לַיִל"
+		},
 		{
 			"text": "לַיְלָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 707,
 		"column": "b"

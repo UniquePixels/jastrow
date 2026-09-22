@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01599",
-	"slug": "קנמין",
-	"headword": {
-		"text": "קנמין"
-	},
+	"sefariaHeadword": "קנמין",
+	"headwords": [
+		{
+			"text": "קנמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00069",
-	"slug": "יבש-1",
-	"headword": {
-		"text": "יָבֵשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יָבֵשׁ I",
+	"headwords": [
+		{
+			"text": "יָבֵשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 562,
 		"column": "a"

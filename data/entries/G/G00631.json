@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00631",
-	"slug": "זקינה",
-	"headword": {
-		"text": "זְקֵינָה"
-	},
+	"sefariaHeadword": "זְקֵינָה",
+	"headwords": [
+		{
+			"text": "זְקֵינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

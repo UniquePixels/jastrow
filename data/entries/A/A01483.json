@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01483",
-	"slug": "איספקאות",
-	"headword": {
-		"text": "איספקאות"
-	},
+	"sefariaHeadword": "איספקאות",
+	"headwords": [
+		{
+			"text": "איספקאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

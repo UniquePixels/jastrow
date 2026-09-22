@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00453",
-	"slug": "עטיש",
-	"headword": {
-		"text": "עֲטֵישׁ"
-	},
+	"sefariaHeadword": "עֲטֵישׁ",
+	"headwords": [
+		{
+			"text": "עֲטֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00706",
-	"slug": "דיקומני",
-	"headword": {
-		"text": "דִּיקוּמָנִי"
-	},
+	"sefariaHeadword": "דִּיקוּמָנִי",
+	"headwords": [
+		{
+			"text": "דִּיקוּמָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

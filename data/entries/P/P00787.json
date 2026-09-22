@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00787",
-	"slug": "עלוקתה",
-	"headword": {
-		"text": "עֲלוּקְתָּה"
-	},
+	"sefariaHeadword": "עֲלוּקְתָּה",
+	"headwords": [
+		{
+			"text": "עֲלוּקְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

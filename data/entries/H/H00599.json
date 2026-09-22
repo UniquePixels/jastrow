@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00599",
-	"slug": "חטוי",
-	"headword": {
-		"text": "חִטּוּי"
-	},
+	"sefariaHeadword": "חִטּוּי",
+	"headwords": [
+		{
+			"text": "חִטּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 448,
 		"column": "a"

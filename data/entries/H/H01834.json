@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01834",
-	"slug": "חשיך-1",
-	"headword": {
-		"text": "חָשֵׂיךְ"
-	},
+	"sefariaHeadword": "חָשֵיךְ",
+	"headwords": [
+		{
+			"text": "חָשֵׂיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

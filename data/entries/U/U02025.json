@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02025",
-	"slug": "שרקוקיתה",
-	"headword": {
-		"text": "שַׁרְקוּקִיתָה"
-	},
+	"sefariaHeadword": "שַׁרְקוּקִיתָה",
+	"headwords": [
+		{
+			"text": "שַׁרְקוּקִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "a"

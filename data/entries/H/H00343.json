@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00343",
-	"slug": "חולטיתא",
-	"headword": {
-		"text": "חוּלְטֵיתָא"
-	},
+	"sefariaHeadword": "חוּלְטֵיתָא",
+	"headwords": [
+		{
+			"text": "חוּלְטֵיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "a"

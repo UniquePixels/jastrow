@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00156",
-	"slug": "שבע-2",
-	"headword": {
-		"text": "שְׁבַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבַע",
+	"headwords": [
+		{
+			"text": "שְׁבַע"
+		},
 		{
 			"text": "שׁוֹבַע"
 		},
@@ -15,15 +16,18 @@
 			"text": "שִׁבְעָה"
 		},
 		{
-			"text": "שַׁ׳"
+			"text": "שַׁ׳",
+			"partial": true
 		},
 		{
-			"text": "שׁוּ׳"
+			"text": "שׁוּ׳",
+			"partial": true
 		},
 		{
 			"text": "שִׁבְעָתֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}, {6}",
 	"page": {
 		"number": 1515,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01501",
-	"slug": "עשר-4",
-	"headword": {
-		"text": "עֶשֶׂר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֶשֶׂר",
+	"headwords": [
+		{
+			"text": "עֶשֶׂר"
+		},
 		{
 			"text": "עֲשָׂרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1127,
 		"column": "a"

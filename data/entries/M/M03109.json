@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03109",
-	"slug": "מתרמרו",
-	"headword": {
-		"text": "מתרמרו"
-	},
+	"sefariaHeadword": "מתרמרו",
+	"headwords": [
+		{
+			"text": "מתרמרו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "a"

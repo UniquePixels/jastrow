@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00825",
-	"slug": "קטר-3",
-	"headword": {
-		"text": "קָטַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָטַר II",
+	"headwords": [
+		{
+			"text": "קָטַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1352,
 		"column": "b"

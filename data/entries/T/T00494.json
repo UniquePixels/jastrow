@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "T00494",
-	"slug": "רחיא",
-	"headword": {
-		"text": "רִחְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחְיָא",
+	"headwords": [
 		{
-			"text": "רִיחְ׳"
+			"text": "רִחְיָא"
+		},
+		{
+			"text": "רִיחְ׳",
+			"partial": true
 		},
 		{
 			"text": "רֵחַיָּא"
 		},
 		{
-			"text": "רֵי׳"
+			"text": "רֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1466,
 		"column": "a"

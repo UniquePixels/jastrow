@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00316",
-	"slug": "שובה",
-	"headword": {
-		"text": "שׁוּבָּה"
-	},
+	"sefariaHeadword": "שׁוּבָּה",
+	"headwords": [
+		{
+			"text": "שׁוּבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "b"

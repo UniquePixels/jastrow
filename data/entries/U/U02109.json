@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02109",
-	"slug": "שתיק",
-	"headword": {
-		"text": "שְׁתֵיק"
-	},
+	"sefariaHeadword": "שְׁתֵיק",
+	"headwords": [
+		{
+			"text": "שְׁתֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

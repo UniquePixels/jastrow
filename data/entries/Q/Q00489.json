@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00489",
-	"slug": "פחת-4",
-	"headword": {
-		"text": "פַּחַת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּחַת ²",
+	"headwords": [
+		{
+			"text": "פַּחַת",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּחֲתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1154,
 		"column": "a"

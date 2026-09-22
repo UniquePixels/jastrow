@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01598",
-	"slug": "קנמיא",
-	"headword": {
-		"text": "קנמיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קנמיא",
+	"headwords": [
+		{
+			"text": "קנמיא"
+		},
 		{
 			"text": "קנמיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1393,
 		"column": "a"

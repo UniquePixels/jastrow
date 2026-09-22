@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00722",
-	"slug": "רישום",
-	"headword": {
-		"text": "רִישּׁוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִישּׁוּם",
+	"headwords": [
 		{
-			"text": "רִשּׁ׳"
+			"text": "רִישּׁוּם"
+		},
+		{
+			"text": "רִשּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1478,
 		"column": "a"

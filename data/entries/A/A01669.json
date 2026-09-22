@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01669",
-	"slug": "אכדרוי",
-	"headword": {
-		"text": "אכדרוי"
-	},
+	"sefariaHeadword": "אכדרוי",
+	"headwords": [
+		{
+			"text": "אכדרוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

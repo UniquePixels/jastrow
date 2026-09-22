@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00317",
-	"slug": "קולא-2",
-	"headword": {
-		"text": "קוֹלָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹלָא I",
+	"headwords": [
+		{
+			"text": "קוֹלָא",
+			"homograph": 1
+		},
 		{
 			"text": "קֹלָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1327,
 		"column": "b"

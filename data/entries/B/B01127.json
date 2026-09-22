@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01127",
-	"slug": "בקלסא",
-	"headword": {
-		"text": "בַּקְלָסָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בַּקְלָסָא",
+	"headwords": [
+		{
+			"text": "בַּקְלָסָא",
+			"reconstructed": true
+		},
 		{
 			"text": "בּוּקְלָסָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 186,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02855",
-	"slug": "משחזת",
-	"headword": {
-		"text": "מִשְׁחֶזֶת"
-	},
+	"sefariaHeadword": "מִשְׁחֶזֶת",
+	"headwords": [
+		{
+			"text": "מִשְׁחֶזֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "b"

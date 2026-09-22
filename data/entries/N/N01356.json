@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01356",
-	"slug": "נתב",
-	"headword": {
-		"text": "נְתַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְתַב",
+	"headwords": [
+		{
+			"text": "נְתַב"
+		},
 		{
 			"text": "נְתֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 942,
 		"column": "b"

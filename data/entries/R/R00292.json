@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00292",
-	"slug": "ציבא-1",
-	"headword": {
-		"text": "צִיבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיבָּא",
+	"headwords": [
+		{
+			"text": "צִיבָּא"
+		},
 		{
 			"text": "צִבָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1274,
 		"column": "a"

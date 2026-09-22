@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00378",
-	"slug": "היכי",
-	"headword": {
-		"text": "הֵיכִי"
-	},
+	"sefariaHeadword": "הֵיכִי",
+	"headwords": [
+		{
+			"text": "הֵיכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 345,
 		"column": "b"

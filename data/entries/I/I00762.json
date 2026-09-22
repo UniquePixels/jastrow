@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00762",
-	"slug": "טרטף",
-	"headword": {
-		"text": "טִרְטֵף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִרְטֵף",
+	"headwords": [
+		{
+			"text": "טִרְטֵף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 552,
 		"column": "b"

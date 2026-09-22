@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00126",
-	"slug": "שביסראה",
-	"headword": {
-		"text": "שְׁבִיסְרָאָה"
-	},
+	"sefariaHeadword": "שְׁבִיסְרָאָה",
+	"headwords": [
+		{
+			"text": "שְׁבִיסְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01171",
-	"slug": "כריסולכנון",
-	"headword": {
-		"text": "כְּרִיסוֹלָכַנוֹן"
-	},
+	"sefariaHeadword": "כְּרִיסוֹלָכַנוֹן",
+	"headwords": [
+		{
+			"text": "כְּרִיסוֹלָכַנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "b"

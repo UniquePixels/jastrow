@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00353",
-	"slug": "מהולתא-1",
-	"headword": {
-		"text": "מְהוּלְתָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְהוּלְתָּא I",
+	"headwords": [
+		{
+			"text": "מְהוּלְתָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 737,
 		"column": "a"

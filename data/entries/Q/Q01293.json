@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01293",
-	"slug": "פסיליה",
-	"headword": {
-		"text": "פסיליה"
-	},
+	"sefariaHeadword": "פסיליה",
+	"headwords": [
+		{
+			"text": "פסיליה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

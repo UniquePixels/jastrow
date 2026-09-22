@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03102",
-	"slug": "מתקל-1",
-	"headword": {
-		"text": "מִתְקַל"
-	},
+	"sefariaHeadword": "מִתְקַל",
+	"headwords": [
+		{
+			"text": "מִתְקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 864,
 		"column": "b"

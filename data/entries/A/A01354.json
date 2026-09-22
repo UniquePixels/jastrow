@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01354",
-	"slug": "אימרתא",
-	"headword": {
-		"text": "אִימַּרְתָּא"
-	},
+	"sefariaHeadword": "אִימַּרְתָּא",
+	"headwords": [
+		{
+			"text": "אִימַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "b"

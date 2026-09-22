@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01242",
-	"slug": "קלאמין",
-	"headword": {
-		"text": "קלאמין"
-	},
+	"sefariaHeadword": "קלאמין",
+	"headwords": [
+		{
+			"text": "קלאמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

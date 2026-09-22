@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02322",
-	"slug": "מציעאה",
-	"headword": {
-		"text": "מְצִיעָאָה"
-	},
+	"sefariaHeadword": "מְצִיעָאָה",
+	"headwords": [
+		{
+			"text": "מְצִיעָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

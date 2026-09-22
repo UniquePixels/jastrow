@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00173",
-	"slug": "אבן-2",
-	"headword": {
-		"text": "אֶבֶן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶבֶן ²",
+	"headwords": [
+		{
+			"text": "אֶבֶן",
+			"disambiguator": 2
+		},
 		{
 			"text": "אַבְנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 7,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00515",
-	"slug": "טלמסן",
-	"headword": {
-		"text": "טלמסן"
-	},
+	"sefariaHeadword": "טלמסן",
+	"headwords": [
+		{
+			"text": "טלמסן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 538,
 		"column": "a"

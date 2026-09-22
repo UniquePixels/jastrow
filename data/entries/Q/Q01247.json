@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01247",
-	"slug": "פסולת",
-	"headword": {
-		"text": "פְּסוֹלֶת"
-	},
+	"sefariaHeadword": "פְּסוֹלֶת",
+	"headwords": [
+		{
+			"text": "פְּסוֹלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "a"

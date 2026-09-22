@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02034",
-	"slug": "מסתא",
-	"headword": {
-		"text": "מִסְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְּתָא",
+	"headwords": [
+		{
+			"text": "מִסְּתָא"
+		},
 		{
 			"text": "מִסְתָּא"
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 812,
 		"column": "a"

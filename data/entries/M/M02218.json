@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02218",
-	"slug": "מפלה",
-	"headword": {
-		"text": "מַפָּלָה"
-	},
+	"sefariaHeadword": "מַפָּלָה",
+	"headwords": [
+		{
+			"text": "מַפָּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

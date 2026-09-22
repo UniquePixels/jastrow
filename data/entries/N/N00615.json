@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00615",
-	"slug": "ניגדא",
-	"headword": {
-		"text": "נִיגְדָּא"
-	},
+	"sefariaHeadword": "נִיגְדָּא",
+	"headwords": [
+		{
+			"text": "נִיגְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "C01405",
-	"slug": "גרש-3",
-	"headword": {
-		"text": "גְּרַשׁ",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*גְּרַשׁ II",
+	"headwords": [
+		{
+			"text": "גְּרַשׁ",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 273,
 		"column": "b"

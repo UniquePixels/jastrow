@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01670",
-	"slug": "חרי-5",
-	"headword": {
-		"text": "חָרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרֵי",
+	"headwords": [
+		{
+			"text": "חָרֵי"
+		},
 		{
 			"text": "חָרַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 501,
 		"column": "b"

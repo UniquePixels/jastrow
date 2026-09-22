@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00549",
-	"slug": "תכן",
-	"headword": {
-		"text": "תְּכַן"
-	},
+	"sefariaHeadword": "תְּכַן",
+	"headwords": [
+		{
+			"text": "תְּכַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "a"

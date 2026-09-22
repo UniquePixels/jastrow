@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01255",
-	"slug": "בריח",
-	"headword": {
-		"text": "בָּרִיחַ"
-	},
+	"sefariaHeadword": "בָּרִיחַ",
+	"headwords": [
+		{
+			"text": "בָּרִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

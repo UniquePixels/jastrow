@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01404",
-	"slug": "קלף-3",
-	"headword": {
-		"text": "קֶלֶף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֶלֶף",
+	"headwords": [
+		{
+			"text": "קֶלֶף"
+		},
 		{
 			"text": "קְלָף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1381,
 		"column": "b"

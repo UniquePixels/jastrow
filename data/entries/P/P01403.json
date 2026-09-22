@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01403",
-	"slug": "ערס-3",
-	"headword": {
-		"text": "עֶרֶס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עֶרֶס II",
+	"headwords": [
+		{
+			"text": "עֶרֶס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1120,
 		"column": "b"

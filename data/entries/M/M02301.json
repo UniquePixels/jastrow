@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02301",
-	"slug": "מצותא-2",
-	"headword": {
-		"text": "מִצְוְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצְוְתָא",
+	"headwords": [
+		{
+			"text": "מִצְוְתָא"
+		},
 		{
 			"text": "מִצְוָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 824,
 		"column": "b"

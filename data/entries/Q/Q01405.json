@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01405",
-	"slug": "פפוסיא",
-	"headword": {
-		"text": "פפוסיא"
-	},
+	"sefariaHeadword": "פפוסיא",
+	"headwords": [
+		{
+			"text": "פפוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "a"

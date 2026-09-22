@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01143",
-	"slug": "חמאתא",
-	"headword": {
-		"text": "חֶמְאֲתָא"
-	},
+	"sefariaHeadword": "חֶמְאֲתָא",
+	"headwords": [
+		{
+			"text": "חֶמְאֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "a"

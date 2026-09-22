@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00228",
-	"slug": "הוטלס",
-	"headword": {
-		"text": "הוּטְלֵס"
-	},
+	"sefariaHeadword": "הוּטְלֵס",
+	"headwords": [
+		{
+			"text": "הוּטְלֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

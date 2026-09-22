@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00599",
-	"slug": "סיח-2",
-	"headword": {
-		"text": "סַיָּח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַיָּח",
+	"headwords": [
+		{
+			"text": "סַיָּח"
+		},
 		{
 			"text": "סַיָּחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 977,
 		"column": "b"

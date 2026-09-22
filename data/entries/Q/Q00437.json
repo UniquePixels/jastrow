@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00437",
-	"slug": "פזרא",
-	"headword": {
-		"text": "פִּזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּזְרָא",
+	"headwords": [
 		{
-			"text": "פִּי׳"
+			"text": "פִּזְרָא"
+		},
+		{
+			"text": "פִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1150,
 		"column": "b"

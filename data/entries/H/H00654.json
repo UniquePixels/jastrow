@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00654",
-	"slug": "חיבוט",
-	"headword": {
-		"text": "חִיבּוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיבּוּט",
+	"headwords": [
 		{
-			"text": "חִבּ׳"
+			"text": "חִיבּוּט"
+		},
+		{
+			"text": "חִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 450,
 		"column": "b"

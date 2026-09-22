@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00520",
-	"slug": "דיוסטר",
-	"headword": {
-		"text": "דְּיוֹסְטַר"
-	},
+	"sefariaHeadword": "דְּיוֹסְטַר",
+	"headwords": [
+		{
+			"text": "דְּיוֹסְטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

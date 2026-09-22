@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01542",
-	"slug": "פראפורון",
-	"headword": {
-		"text": "פראפורון"
-	},
+	"sefariaHeadword": "פראפורון",
+	"headwords": [
+		{
+			"text": "פראפורון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

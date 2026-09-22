@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02036",
-	"slug": "פרשוניא",
-	"headword": {
-		"text": "פַּרְשׁוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְשׁוּנְיָא",
+	"headwords": [
+		{
+			"text": "פַּרְשׁוּנְיָא"
+		},
 		{
 			"text": "פַּשְׁרוּנְיָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1244,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

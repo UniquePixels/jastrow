@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00007",
-	"slug": "ואלי",
-	"headword": {
-		"text": "וָאלִי"
-	},
+	"sefariaHeadword": "וָאלִי",
+	"headwords": [
+		{
+			"text": "וָאלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

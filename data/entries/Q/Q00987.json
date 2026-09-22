@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00987",
-	"slug": "פלוספא",
-	"headword": {
-		"text": "פלוספא"
-	},
+	"sefariaHeadword": "פלוספא",
+	"headwords": [
+		{
+			"text": "פלוספא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1178,
 		"column": "a"

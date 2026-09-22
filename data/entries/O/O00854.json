@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00854",
-	"slug": "סיריקין",
-	"headword": {
-		"text": "סִירְיָקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִירְיָקִין",
+	"headwords": [
+		{
+			"text": "סִירְיָקִין"
+		},
 		{
 			"text": "סִירִיקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 988,
 		"column": "a"

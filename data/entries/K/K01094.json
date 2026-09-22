@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01094",
-	"slug": "כרדכאות",
-	"headword": {
-		"text": "כרדכאות"
-	},
+	"sefariaHeadword": "כרדכאות",
+	"headwords": [
+		{
+			"text": "כרדכאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00648",
-	"slug": "סיכורי",
-	"headword": {
-		"text": "סִיכּוּרֵי"
-	},
+	"sefariaHeadword": "סִיכּוּרֵי",
+	"headwords": [
+		{
+			"text": "סִיכּוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "b"

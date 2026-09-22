@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00352",
-	"slug": "היזמא",
-	"headword": {
-		"text": "הִיזְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִיזְמָא",
+	"headwords": [
 		{
-			"text": "הוּזְ׳"
+			"text": "הִיזְמָא"
+		},
+		{
+			"text": "הוּזְ׳",
+			"partial": true
 		},
 		{
 			"text": "אִיזְמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 344,
 		"column": "a"

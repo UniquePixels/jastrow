@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00433",
-	"slug": "קונטרונין",
-	"headword": {
-		"text": "קונטרונין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קונטרונין",
+	"headwords": [
 		{
-			"text": "קונטרונק׳"
+			"text": "קונטרונין"
+		},
+		{
+			"text": "קונטרונק׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1335,
 		"column": "a"

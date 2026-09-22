@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02168",
-	"slug": "קרקס",
-	"headword": {
-		"text": "קַרְקָס"
-	},
+	"sefariaHeadword": "קַרְקָס",
+	"headwords": [
+		{
+			"text": "קַרְקָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

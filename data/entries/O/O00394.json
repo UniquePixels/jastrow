@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00394",
-	"slug": "סופיסטא",
-	"headword": {
-		"text": "סוֹפִיסְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹפִיסְטָא",
+	"headwords": [
 		{
-			"text": "… טָה"
+			"text": "סוֹפִיסְטָא"
+		},
+		{
+			"text": "טָה",
+			"partial": true
 		},
 		{
 			"text": "סוֹפִיסְטֵיס"
 		}
 	],
+	"display": "{0}, … {1}, {2}",
 	"page": {
 		"number": 968,
 		"column": "a"

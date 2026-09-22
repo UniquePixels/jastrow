@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01107",
-	"slug": "עצום-2",
-	"headword": {
-		"text": "עִצּוּם"
-	},
+	"sefariaHeadword": "עִצּוּם",
+	"headwords": [
+		{
+			"text": "עִצּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

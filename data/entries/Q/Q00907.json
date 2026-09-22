@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00907",
-	"slug": "פיתרא",
-	"headword": {
-		"text": "פִּיתְרָא"
-	},
+	"sefariaHeadword": "פִּיתְרָא",
+	"headwords": [
+		{
+			"text": "פִּיתְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "b"

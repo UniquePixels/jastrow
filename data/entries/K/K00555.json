@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00555",
-	"slug": "כילן",
-	"headword": {
-		"text": "כִּילַן"
-	},
+	"sefariaHeadword": "כִּילַן",
+	"headwords": [
+		{
+			"text": "כִּילַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00546",
-	"slug": "רחתא",
-	"headword": {
-		"text": "רִחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחֲתָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִחֲתָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1470,
 		"column": "b"

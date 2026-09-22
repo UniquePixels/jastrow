@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00802",
-	"slug": "תפוח-1",
-	"headword": {
-		"text": "תָּפוּחַ"
-	},
+	"sefariaHeadword": "תָּפוּחַ",
+	"headwords": [
+		{
+			"text": "תָּפוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1685,
 		"column": "a"

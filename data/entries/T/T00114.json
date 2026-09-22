@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00114",
-	"slug": "רביתא-2",
-	"headword": {
-		"text": "רְבִיתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְבִיתָא II",
+	"headwords": [
+		{
+			"text": "רְבִיתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1443,
 		"column": "b"

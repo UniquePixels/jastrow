@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00511",
-	"slug": "רחישותא",
-	"headword": {
-		"text": "רחישותא"
-	},
+	"sefariaHeadword": "רחישותא",
+	"headwords": [
+		{
+			"text": "רחישותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1466,
 		"column": "b"

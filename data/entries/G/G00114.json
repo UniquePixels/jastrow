@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00114",
-	"slug": "זוב-1",
-	"headword": {
-		"text": "זוּב"
-	},
+	"sefariaHeadword": "זוּב",
+	"headwords": [
+		{
+			"text": "זוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 382,
 		"column": "b"

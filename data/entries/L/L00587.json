@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00587",
-	"slug": "לסטם",
-	"headword": {
-		"text": "(לִסְטֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(לִסְטֵם",
+	"headwords": [
+		{
+			"text": "לִסְטֵם"
+		},
 		{
 			"text": "לִסְטֵס"
 		}

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00072",
-	"slug": "וועדא",
-	"headword": {
-		"text": "וַועֲדָא"
-	},
+	"sefariaHeadword": "וַועֲדָא",
+	"headwords": [
+		{
+			"text": "וַועֲדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "a"

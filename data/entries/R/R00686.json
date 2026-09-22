@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00686",
-	"slug": "צפורי",
-	"headword": {
-		"text": "צִפּוֹרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוֹרֵי",
+	"headwords": [
+		{
+			"text": "צִפּוֹרֵי"
+		},
 		{
 			"text": "צִפּוֹרָיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "צִפּוֹרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1296,
 		"column": "a"

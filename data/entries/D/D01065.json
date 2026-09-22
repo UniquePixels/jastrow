@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01065",
-	"slug": "דרומתא",
-	"headword": {
-		"text": "דָּרוּמָתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דָּרוּמָתָא",
+	"headwords": [
+		{
+			"text": "דָּרוּמָתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 322,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

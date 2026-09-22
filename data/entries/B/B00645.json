@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00645",
-	"slug": "בינזא",
-	"headword": {
-		"text": "בִּינְזָא"
-	},
+	"sefariaHeadword": "בִּינְזָא",
+	"headwords": [
+		{
+			"text": "בִּינְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 163,
 		"column": "b"

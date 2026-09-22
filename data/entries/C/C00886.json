@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00886",
-	"slug": "גלו",
-	"headword": {
-		"text": "גָּלוּ"
-	},
+	"sefariaHeadword": "גָּלוּ",
+	"headwords": [
+		{
+			"text": "גָּלוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00946",
-	"slug": "בניגני",
-	"headword": {
-		"text": "בְּנִיגְנֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּנִיגְנֵי",
+	"headwords": [
+		{
+			"text": "בְּנִיגְנֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 177,
 		"column": "a"

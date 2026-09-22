@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00852",
-	"slug": "כנימה",
-	"headword": {
-		"text": "כְּנִימָּה"
-	},
+	"sefariaHeadword": "כְּנִימָּה",
+	"headwords": [
+		{
+			"text": "כְּנִימָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 649,
 		"column": "a"

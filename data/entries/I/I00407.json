@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00407",
-	"slug": "טיף-1",
-	"headword": {
-		"text": "טִיף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טִיף I",
+	"headwords": [
+		{
+			"text": "טִיף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 533,
 		"column": "a"

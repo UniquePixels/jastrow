@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00210",
-	"slug": "תולבנקי",
-	"headword": {
-		"text": "תולבנקי"
-	},
+	"sefariaHeadword": "תולבנקי",
+	"headwords": [
+		{
+			"text": "תולבנקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00269",
-	"slug": "נהל-1",
-	"headword": {
-		"text": "נָהַל"
-	},
+	"sefariaHeadword": "נָהַל",
+	"headwords": [
+		{
+			"text": "נָהַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

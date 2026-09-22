@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00249",
-	"slug": "טוש-2",
-	"headword": {
-		"text": "טוּשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טוּשׁ I",
+	"headwords": [
+		{
+			"text": "טוּשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 527,
 		"column": "b"

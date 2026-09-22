@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01308",
-	"slug": "מישא-2",
-	"headword": {
-		"text": "מֵישָׁא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵישָׁא II",
+	"headwords": [
+		{
+			"text": "מֵישָׁא",
+			"homograph": 2
+		},
 		{
 			"text": "מַיְישָׁא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 779,
 		"column": "a"

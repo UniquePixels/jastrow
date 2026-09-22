@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00634",
-	"slug": "בימסא",
-	"headword": {
-		"text": "בִּימְסָא"
-	},
+	"sefariaHeadword": "בִּימְסָא",
+	"headwords": [
+		{
+			"text": "בִּימְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 162,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00912",
-	"slug": "טשטושא",
-	"headword": {
-		"text": "טִשְׁטוּשָׁא"
-	},
+	"sefariaHeadword": "טִשְׁטוּשָׁא",
+	"headwords": [
+		{
+			"text": "טִשְׁטוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "b"

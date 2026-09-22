@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01100",
-	"slug": "פלסגר",
-	"headword": {
-		"text": "פלסגר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פלסגר",
+	"headwords": [
+		{
+			"text": "פלסגר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

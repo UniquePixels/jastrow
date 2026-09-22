@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00045",
-	"slug": "נבואה-1",
-	"headword": {
-		"text": "נְבוּאָה"
-	},
+	"sefariaHeadword": "נְבוּאָה",
+	"headwords": [
+		{
+			"text": "נְבוּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 867,
 		"column": "b"

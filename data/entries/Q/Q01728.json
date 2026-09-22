@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01728",
-	"slug": "פרוקויסטורין",
-	"headword": {
-		"text": "פְּרוֹקְוִיסְטוֹרִין"
-	},
+	"sefariaHeadword": "פְּרוֹקְוִיסְטוֹרִין",
+	"headwords": [
+		{
+			"text": "פְּרוֹקְוִיסְטוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00946",
-	"slug": "רפידים",
-	"headword": {
-		"text": "רְפִידִים"
-	},
+	"sefariaHeadword": "רְפִידִים",
+	"headwords": [
+		{
+			"text": "רְפִידִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1490,
 		"column": "b"

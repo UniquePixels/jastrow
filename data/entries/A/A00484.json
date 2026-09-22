@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00484",
-	"slug": "אהבה-2",
-	"headword": {
-		"text": "אַהֲבָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַהֲבָה II",
+	"headwords": [
+		{
+			"text": "אַהֲבָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 19,
 		"column": "b"

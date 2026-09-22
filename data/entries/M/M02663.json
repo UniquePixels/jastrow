@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02663",
-	"slug": "מריה",
-	"headword": {
-		"text": "מַרְיָה"
-	},
+	"sefariaHeadword": "מַרְיָה",
+	"headwords": [
+		{
+			"text": "מַרְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

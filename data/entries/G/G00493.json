@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00493",
-	"slug": "זליל-2",
-	"headword": {
-		"text": "זְלִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְלִיל",
+	"headwords": [
+		{
+			"text": "זְלִיל"
+		},
 		{
 			"text": "זְלִילָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 401,
 		"column": "b"

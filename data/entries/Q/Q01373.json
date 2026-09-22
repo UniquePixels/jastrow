@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01373",
-	"slug": "פעוטות",
-	"headword": {
-		"text": "פָּעוֹטוֹת"
-	},
+	"sefariaHeadword": "פָּעוֹטוֹת",
+	"headwords": [
+		{
+			"text": "פָּעוֹטוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

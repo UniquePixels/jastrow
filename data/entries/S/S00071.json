@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S00071",
-	"slug": "קבלה-3",
-	"headword": {
-		"text": "קַבָּלָה",
-		"reconstructed": true,
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*קַבָּלָה II",
+	"headwords": [
+		{
+			"text": "קַבָּלָה",
+			"reconstructed": true,
+			"homograph": 2
+		},
 		{
 			"text": "קְבָלָה"
 		}
 	],
+	"display": "*{0} II, {1}",
 	"page": {
 		"number": 1310,
 		"column": "a"

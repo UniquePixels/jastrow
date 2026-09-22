@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00648",
-	"slug": "ביניין-1",
-	"headword": {
-		"text": "בֵּינַיִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּינַיִין",
+	"headwords": [
+		{
+			"text": "בֵּינַיִין"
+		},
 		{
 			"text": "בֵּינַיִן"
 		},
@@ -12,6 +13,7 @@
 			"text": "בֵּינַיִם"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 163,
 		"column": "b"

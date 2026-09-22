@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00331",
-	"slug": "פוראגון",
-	"headword": {
-		"text": "פוראגון"
-	},
+	"sefariaHeadword": "פוראגון",
+	"headwords": [
+		{
+			"text": "פוראגון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

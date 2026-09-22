@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00510",
-	"slug": "ליפיז",
-	"headword": {
-		"text": "לִיפֵיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיפֵיז",
+	"headwords": [
+		{
+			"text": "לִיפֵיז"
+		},
 		{
 			"text": "לִיפְיָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "a"

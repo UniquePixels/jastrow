@@ -1,23 +1,28 @@
 {
+	"schemaVersion": 2,
 	"id": "A01453",
-	"slug": "איסטרוביל",
-	"headword": {
-		"text": "אִיסְטְרוֹבִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְרוֹבִיל",
+	"headwords": [
+		{
+			"text": "אִיסְטְרוֹבִיל"
+		},
 		{
 			"text": "אִיסְטְרוֹבְלָא"
 		},
 		{
-			"text": "אִסְ׳"
+			"text": "אִסְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִצְ׳"
+			"text": "אִצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 55,
 		"column": "b"

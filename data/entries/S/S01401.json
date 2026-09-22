@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01401",
-	"slug": "קלעיתא",
-	"headword": {
-		"text": "קַלְעִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלְעִיתָא",
+	"headwords": [
+		{
+			"text": "קַלְעִיתָא"
+		},
 		{
 			"text": "קַלְעֲיָתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִלְעָתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1381,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00812",
-	"slug": "דלהי",
-	"headword": {
-		"text": "דִּלְהֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּלְהֵי",
+	"headwords": [
+		{
+			"text": "דִּלְהֵי"
+		},
 		{
 			"text": "דִּלְהֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 309,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01954",
-	"slug": "קרוס",
-	"headword": {
-		"text": "קרוס"
-	},
+	"sefariaHeadword": "קרוס",
+	"headwords": [
+		{
+			"text": "קרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01390",
-	"slug": "גרפות",
-	"headword": {
-		"text": "גרפות"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גרפות",
+	"headwords": [
+		{
+			"text": "גרפות"
+		},
 		{
 			"text": "גרפית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 272,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00428",
-	"slug": "דחם",
-	"headword": {
-		"text": "דחם"
-	},
+	"sefariaHeadword": "דחם",
+	"headwords": [
+		{
+			"text": "דחם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

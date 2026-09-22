@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00288",
-	"slug": "גובנא",
-	"headword": {
-		"text": "גּוּבְנָא"
-	},
+	"sefariaHeadword": "גּוּבְנָא",
+	"headwords": [
+		{
+			"text": "גּוּבְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

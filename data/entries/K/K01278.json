@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01278",
-	"slug": "כרשתינא",
-	"headword": {
-		"text": "כרשתינא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כרשתינא",
+	"headwords": [
+		{
+			"text": "כרשתינא"
+		},
 		{
 			"text": "כרשתנא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 674,
 		"column": "a"

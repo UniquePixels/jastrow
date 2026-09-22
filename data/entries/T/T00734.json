@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00734",
-	"slug": "ריתא",
-	"headword": {
-		"text": "ריתא"
-	},
+	"sefariaHeadword": "ריתא",
+	"headwords": [
+		{
+			"text": "ריתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

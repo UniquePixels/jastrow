@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00613",
-	"slug": "חטי-1",
-	"headword": {
-		"text": "חטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חטי",
+	"headwords": [
+		{
+			"text": "חטי"
+		},
 		{
 			"text": "חָטָא"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 448,
 		"column": "b"
@@ -30,7 +32,7 @@
 				{
 					"gloss": "<i>to make look well, polish, dress, cleanse, prepare</i>. ",
 					"units": [
-						"<cite ref=\"Chullin 27a:4\">Ḥull. 27ᵃ</cite> (play on <he>וש̇ח̇ט̇</he>, <cite ref=\"Leviticus 1:5\">Lev. I, 5</cite>) <he>ממקום שש̇ח̇ חַטֵֹּהוּ</he> from the place where the animal bends (its head, the front of the neck), cleanse it (let its blood run out). ",
+						"<cite ref=\"Chullin 27a:4\">Ḥull. 27ᵃ</cite> (play on <he>וש̇ח̇ט̇</he>, <cite ref=\"Leviticus 1:5\">Lev. I, 5</cite>) <he>ממקום שש̇ח̇ חַטֵֹּהוּ</he> from the place where the animal bends (its head, the front of the neck), cleanse it (let its blood run out). ",
 						"<cite ref=\"Leviticus 1:5\">Ib.</cite> <he>ממאי דהאי חטהו לישנא דדכויי הוא</he> how can you prove that this <i>ḥattehu</i> has the meaning of cleansing?—",
 						"<cite ref=\"Leviticus 1:5\">Ib.</cite> <he>ממקום שס̇ח̇ ח̇ט̇הו</he> from where it utters sound, cleanse it. [<cite ref=\"Shir HaShirim Rabbah 7:2\">Cant. R. to VII, 2</cite>, v. infra.]"
 					]

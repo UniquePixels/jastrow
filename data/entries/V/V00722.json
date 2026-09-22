@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00722",
-	"slug": "תנהר",
-	"headword": {
-		"text": "תַּנְהַר"
-	},
+	"sefariaHeadword": "תַּנְהַר",
+	"headwords": [
+		{
+			"text": "תַּנְהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

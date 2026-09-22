@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00945",
-	"slug": "שילחא",
-	"headword": {
-		"text": "שִׁילְחָא"
-	},
+	"sefariaHeadword": "שִׁילְחָא",
+	"headwords": [
+		{
+			"text": "שִׁילְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "a"

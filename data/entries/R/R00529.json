@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00529",
-	"slug": "צלמונא",
-	"headword": {
-		"text": "צַלְמוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַלְמוֹנָא",
+	"headwords": [
+		{
+			"text": "צַלְמוֹנָא"
+		},
 		{
 			"text": "צַלְמוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1285,
 		"column": "a"

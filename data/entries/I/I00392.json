@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00392",
-	"slug": "טינה",
-	"headword": {
-		"text": "טִינָּה"
-	},
+	"sefariaHeadword": "טִינָּה",
+	"headwords": [
+		{
+			"text": "טִינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "b"

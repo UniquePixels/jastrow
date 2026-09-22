@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01374",
-	"slug": "פעולה",
-	"headword": {
-		"text": "פְּעוּלָּה"
-	},
+	"sefariaHeadword": "פְּעוּלָּה",
+	"headwords": [
+		{
+			"text": "פְּעוּלָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

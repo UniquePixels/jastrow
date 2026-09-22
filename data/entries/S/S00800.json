@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00800",
-	"slug": "קטנטין",
-	"headword": {
-		"text": "קְטַנְטִין"
-	},
+	"sefariaHeadword": "קְטַנְטִין",
+	"headwords": [
+		{
+			"text": "קְטַנְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1351,
 		"column": "a"

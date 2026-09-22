@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01546",
-	"slug": "פרג-1",
-	"headword": {
-		"text": "פָּרַג"
-	},
+	"sefariaHeadword": "פָּרַג",
+	"headwords": [
+		{
+			"text": "פָּרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

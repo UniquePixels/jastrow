@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00560",
-	"slug": "עיכוב",
-	"headword": {
-		"text": "עִיכּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיכּוּב",
+	"headwords": [
 		{
-			"text": "עִכּ׳"
+			"text": "עִיכּוּב"
+		},
+		{
+			"text": "עִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1069,
 		"column": "a"

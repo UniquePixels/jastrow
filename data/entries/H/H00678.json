@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00678",
-	"slug": "חיובתא",
-	"headword": {
-		"text": "חֲיוּבְתָּא"
-	},
+	"sefariaHeadword": "חֲיוּבְתָּא",
+	"headwords": [
+		{
+			"text": "חֲיוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "a"

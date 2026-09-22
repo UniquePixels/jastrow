@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01837",
-	"slug": "פרישה-1",
-	"headword": {
-		"text": "פְּרִישָׁה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּרִישָׁה I",
+	"headwords": [
+		{
+			"text": "פְּרִישָׁה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1228,
 		"column": "a"

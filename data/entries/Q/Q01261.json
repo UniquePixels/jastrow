@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01261",
-	"slug": "פסטטא",
-	"headword": {
-		"text": "פסטטא"
-	},
+	"sefariaHeadword": "פסטטא",
+	"headwords": [
+		{
+			"text": "פסטטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

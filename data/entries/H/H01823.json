@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01823",
-	"slug": "חשוף",
-	"headword": {
-		"text": "חשוף"
-	},
+	"sefariaHeadword": "חשוף",
+	"headwords": [
+		{
+			"text": "חשוף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

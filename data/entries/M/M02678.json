@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02678",
-	"slug": "מריצה-2",
-	"headword": {
-		"text": "מְרִיצָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְרִיצָה II",
+	"headwords": [
+		{
+			"text": "מְרִיצָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 843,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00909",
-	"slug": "עמס-1",
-	"headword": {
-		"text": "עָמַס"
-	},
+	"sefariaHeadword": "עָמַס",
+	"headwords": [
+		{
+			"text": "עָמַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1089,
 		"column": "b"

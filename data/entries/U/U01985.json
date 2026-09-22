@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01985",
-	"slug": "שריקי",
-	"headword": {
-		"text": "שִׁרְיָקֵי"
-	},
+	"sefariaHeadword": "שִׁרְיָקֵי",
+	"headwords": [
+		{
+			"text": "שִׁרְיָקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1631,
 		"column": "b"

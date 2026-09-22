@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00396",
-	"slug": "נופת",
-	"headword": {
-		"text": "נוֹפֶת"
-	},
+	"sefariaHeadword": "נוֹפֶת",
+	"headwords": [
+		{
+			"text": "נוֹפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 889,
 		"column": "b"

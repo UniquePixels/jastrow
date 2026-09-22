@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02682",
-	"slug": "מריר-1",
-	"headword": {
-		"text": "מָרִיר",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרִיר I",
+	"headwords": [
+		{
+			"text": "מָרִיר",
+			"homograph": 1
+		},
 		{
 			"text": "מָרִירָא"
 		},
@@ -16,6 +17,7 @@
 			"text": "מְרִירְתָּא"
 		}
 	],
+	"display": "{0} I, {1}, {2}, {3}",
 	"page": {
 		"number": 843,
 		"column": "b"

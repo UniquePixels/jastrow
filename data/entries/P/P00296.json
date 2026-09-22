@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00296",
-	"slug": "עונה-3",
-	"headword": {
-		"text": "עוֹנָה",
-		"homograph": 3
-	},
+	"sefariaHeadword": "עוֹנָה III",
+	"headwords": [
+		{
+			"text": "עוֹנָה",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1054,
 		"column": "b"

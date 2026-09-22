@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00451",
-	"slug": "גוסס",
-	"headword": {
-		"text": "גּוֹסֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֹּוסֵס",
+	"headwords": [
+		{
+			"text": "גּוֹסֵס"
+		},
 		{
 			"text": "גּוֹסֶסֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 224,
 		"column": "b"

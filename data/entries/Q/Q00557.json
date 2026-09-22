@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00557",
-	"slug": "פטרון",
-	"headword": {
-		"text": "פַּטְרוֹן"
-	},
+	"sefariaHeadword": "פַּטְרוֹן",
+	"headwords": [
+		{
+			"text": "פַּטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

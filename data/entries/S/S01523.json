@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01523",
-	"slug": "קנבוס",
-	"headword": {
-		"text": "קַנְבּוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְבּוֹס",
+	"headwords": [
+		{
+			"text": "קַנְבּוֹס"
+		},
 		{
 			"text": "קַנְבִּיס"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַנְבָּס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1388,
 		"column": "b"

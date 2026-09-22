@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01130",
-	"slug": "נצית",
-	"headword": {
-		"text": "נָצֵית"
-	},
+	"sefariaHeadword": "נָצֵית",
+	"headwords": [
+		{
+			"text": "נָצֵית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "a"

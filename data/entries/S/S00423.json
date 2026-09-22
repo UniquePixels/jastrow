@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00423",
-	"slug": "קונדסא",
-	"headword": {
-		"text": "קוּנְדָּסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קוּנְדָּסָא",
+	"headwords": [
+		{
+			"text": "קוּנְדָּסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

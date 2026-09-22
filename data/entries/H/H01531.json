@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01531",
-	"slug": "חצף-1",
-	"headword": {
-		"text": "חָצַף"
-	},
+	"sefariaHeadword": "חָצַף",
+	"headwords": [
+		{
+			"text": "חָצַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "b"

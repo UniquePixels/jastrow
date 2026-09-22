@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01517",
-	"slug": "קנאנית",
-	"headword": {
-		"text": "קִנְאָנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְאָנִית",
+	"headwords": [
+		{
+			"text": "קִנְאָנִית"
+		},
 		{
 			"text": "קִנְאֲתָנִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1388,
 		"column": "a"

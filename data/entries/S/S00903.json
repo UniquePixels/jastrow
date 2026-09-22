@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00903",
-	"slug": "קיטוף",
-	"headword": {
-		"text": "קִיטּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטּוּף",
+	"headwords": [
 		{
-			"text": "קִטּ׳"
+			"text": "קִיטּוּף"
+		},
+		{
+			"text": "קִטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1357,
 		"column": "b"

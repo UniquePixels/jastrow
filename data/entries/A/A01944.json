@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01944",
-	"slug": "אלקולאון",
-	"headword": {
-		"text": "אלקולאון",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אלקולאון",
+	"headwords": [
+		{
+			"text": "אלקולאון",
+			"reconstructed": true
+		},
 		{
 			"text": "אלקולאין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00591",
-	"slug": "ריבותא-1",
-	"headword": {
-		"text": "רֵיבוּתָא"
-	},
+	"sefariaHeadword": "רֵיבוּתָא",
+	"headwords": [
+		{
+			"text": "רֵיבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

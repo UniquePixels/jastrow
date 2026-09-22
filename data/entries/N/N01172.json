@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01172",
-	"slug": "נקוב",
-	"headword": {
-		"text": "נָקוּב"
-	},
+	"sefariaHeadword": "נָקוּב",
+	"headwords": [
+		{
+			"text": "נָקוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

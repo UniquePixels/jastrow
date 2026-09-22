@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00782",
-	"slug": "מזרח",
-	"headword": {
-		"text": "מִזְרָח"
-	},
+	"sefariaHeadword": "מִזְרָח",
+	"headwords": [
+		{
+			"text": "מִזְרָח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

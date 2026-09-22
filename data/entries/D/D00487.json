@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00487",
-	"slug": "דיגלת",
-	"headword": {
-		"text": "דִּיגְלַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיגְלַת",
+	"headwords": [
 		{
-			"text": "דִּגְ׳"
+			"text": "דִּיגְלַת"
+		},
+		{
+			"text": "דִּגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 295,
 		"column": "b"

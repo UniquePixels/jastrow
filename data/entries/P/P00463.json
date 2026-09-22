@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00463",
-	"slug": "עטלף",
-	"headword": {
-		"text": "עֲטַלֵּף"
-	},
+	"sefariaHeadword": "עֲטַלֵּף",
+	"headwords": [
+		{
+			"text": "עֲטַלֵּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1063,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00848",
-	"slug": "סיריו",
-	"headword": {
-		"text": "סִירְיוֹ"
-	},
+	"sefariaHeadword": "סִירְיוֹ",
+	"headwords": [
+		{
+			"text": "סִירְיוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

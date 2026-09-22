@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00224",
-	"slug": "צוץ-3",
-	"headword": {
-		"text": "צוּץ"
-	},
+	"sefariaHeadword": "צוּץ",
+	"headwords": [
+		{
+			"text": "צוּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1269,
 		"column": "b"

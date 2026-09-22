@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00925",
-	"slug": "סכנא",
-	"headword": {
-		"text": "סִכְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכְנָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִכְנָא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 992,
 		"column": "a"

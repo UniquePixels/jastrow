@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00253",
-	"slug": "תועלת",
-	"headword": {
-		"text": "תּוֹעֶלֶת"
-	},
+	"sefariaHeadword": "תּוֹעֶלֶת",
+	"headwords": [
+		{
+			"text": "תּוֹעֶלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00796",
-	"slug": "שיבוקא",
-	"headword": {
-		"text": "שִׁיבּוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבּוּקָא",
+	"headwords": [
 		{
-			"text": "שִׁבּ׳"
+			"text": "שִׁיבּוּקָא"
+		},
+		{
+			"text": "שִׁבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "a"

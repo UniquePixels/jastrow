@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01597",
-	"slug": "סרי-4",
-	"headword": {
-		"text": "סֶרִי"
-	},
+	"sefariaHeadword": "סֶרִי",
+	"headwords": [
+		{
+			"text": "סֶרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "a"

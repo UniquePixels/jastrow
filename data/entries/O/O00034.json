@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00034",
-	"slug": "סבהיי",
-	"headword": {
-		"text": "סבהיי"
-	},
+	"sefariaHeadword": "סבהיי",
+	"headwords": [
+		{
+			"text": "סבהיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 948,
 		"column": "b"

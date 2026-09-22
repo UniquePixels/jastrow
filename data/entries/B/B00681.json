@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00681",
-	"slug": "ביצועא",
-	"headword": {
-		"text": "בִּיצּוּעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיצּוּעָא",
+	"headwords": [
+		{
+			"text": "בִּיצּוּעָא"
+		},
 		{
 			"text": "בִּיצְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 164,
 		"column": "b"

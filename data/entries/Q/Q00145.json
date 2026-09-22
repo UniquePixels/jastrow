@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00145",
-	"slug": "פהוק",
-	"headword": {
-		"text": "פִּהוּק"
-	},
+	"sefariaHeadword": "פִּהוּק",
+	"headwords": [
+		{
+			"text": "פִּהוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "b"

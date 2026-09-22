@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02106",
-	"slug": "אנגרוטינא",
-	"headword": {
-		"text": "אנגרוטינא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אנגרוטינא",
+	"headwords": [
+		{
+			"text": "אנגרוטינא",
+			"reconstructed": true
+		},
 		{
 			"text": "אנגרוטינה"
 		},
 		{
-			"text": "אבג׳"
+			"text": "אבג׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 81,
 		"column": "a"

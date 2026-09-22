@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00037",
-	"slug": "נבא-2",
-	"headword": {
-		"text": "נָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָבָא",
+	"headwords": [
+		{
+			"text": "נָבָא"
+		},
 		{
 			"text": "נְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 867,
 		"column": "a"

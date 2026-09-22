@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02027",
-	"slug": "שרקרק",
-	"headword": {
-		"text": "שְׁרַקְרַק"
-	},
+	"sefariaHeadword": "שְׁרַקְרַק",
+	"headwords": [
+		{
+			"text": "שְׁרַקְרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "a"

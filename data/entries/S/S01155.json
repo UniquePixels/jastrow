@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01155",
-	"slug": "קירדו",
-	"headword": {
-		"text": "קירדו"
-	},
+	"sefariaHeadword": "קירדו",
+	"headwords": [
+		{
+			"text": "קירדו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00828",
-	"slug": "גירות",
-	"headword": {
-		"text": "גֵּירוּת"
-	},
+	"sefariaHeadword": "גֵּירוּת",
+	"headwords": [
+		{
+			"text": "גֵּירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

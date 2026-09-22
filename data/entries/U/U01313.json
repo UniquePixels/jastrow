@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01313",
-	"slug": "שליט-2",
-	"headword": {
-		"text": "שַׁלִּיט",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלִּיט ²",
+	"headwords": [
+		{
+			"text": "שַׁלִּיט",
+			"disambiguator": 2
+		},
 		{
 			"text": "שַׁלִּיטָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1583,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01355",
-	"slug": "ספיטוס",
-	"headword": {
-		"text": "ספיטוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ספיטוס",
+	"headwords": [
+		{
+			"text": "ספיטוס"
+		},
 		{
 			"text": "ספיטס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1013,
 		"column": "b"

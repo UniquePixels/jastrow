@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00165",
-	"slug": "אבלושי",
-	"headword": {
-		"text": "אַבְלוֹשֵׁי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְלוֹשֵׁי",
+	"headwords": [
+		{
+			"text": "אַבְלוֹשֵׁי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 7,
 		"column": "a"

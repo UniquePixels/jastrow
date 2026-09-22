@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01391",
-	"slug": "נת״ר",
-	"headword": {
-		"text": "נת״ר"
-	},
+	"sefariaHeadword": "נת\"ר",
+	"headwords": [
+		{
+			"text": "נת״ר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 945,
 		"column": "b"

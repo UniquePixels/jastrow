@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00148",
-	"slug": "עדישא",
-	"headword": {
-		"text": "עֲדִישָׁא"
-	},
+	"sefariaHeadword": "עֲדִישָׁא",
+	"headwords": [
+		{
+			"text": "עֲדִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1044,
 		"column": "b"

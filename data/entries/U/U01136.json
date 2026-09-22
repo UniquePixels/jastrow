@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01136",
-	"slug": "שכור-2",
-	"headword": {
-		"text": "שִׁכּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכּוֹר",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁכּוֹר"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1572,
 		"column": "a"

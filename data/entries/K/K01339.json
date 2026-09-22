@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01339",
-	"slug": "כתב-1",
-	"headword": {
-		"text": "כָּתַב"
-	},
+	"sefariaHeadword": "כָּתַב",
+	"headwords": [
+		{
+			"text": "כָּתַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "b"

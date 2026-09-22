@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "R00262",
-	"slug": "צות-1",
-	"headword": {
-		"text": "צוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּת",
+	"headwords": [
+		{
+			"text": "צוּת"
+		},
 		{
 			"text": "צָוַת"
 		}

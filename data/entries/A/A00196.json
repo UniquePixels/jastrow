@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00196",
-	"slug": "אבקולס",
-	"headword": {
-		"text": "אֶבְקוֹלָס"
-	},
+	"sefariaHeadword": "אֶבְקוֹלָס",
+	"headwords": [
+		{
+			"text": "אֶבְקוֹלָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "b"

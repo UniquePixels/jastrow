@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00531",
-	"slug": "כילדין",
-	"headword": {
-		"text": "כילדין"
-	},
+	"sefariaHeadword": "כילדין",
+	"headwords": [
+		{
+			"text": "כילדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

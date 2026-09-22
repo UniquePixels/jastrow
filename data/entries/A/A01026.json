@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01026",
-	"slug": "אחידה-1",
-	"headword": {
-		"text": "אֲחִידָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֲחִידָה I",
+	"headwords": [
+		{
+			"text": "אֲחִידָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 40,
 		"column": "a"

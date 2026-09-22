@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02071",
-	"slug": "פשיט",
-	"headword": {
-		"text": "פְּשֵׁיט"
-	},
+	"sefariaHeadword": "פְּשֵׁיט",
+	"headwords": [
+		{
+			"text": "פְּשֵׁיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

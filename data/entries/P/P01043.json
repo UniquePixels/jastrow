@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01043",
-	"slug": "עסיס-1",
-	"headword": {
-		"text": "עָסִיס"
-	},
+	"sefariaHeadword": "עָסִיס",
+	"headwords": [
+		{
+			"text": "עָסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1098,
 		"column": "a"

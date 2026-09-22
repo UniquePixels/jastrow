@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00361",
-	"slug": "טיכסא",
-	"headword": {
-		"text": "טִיכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיכְסָא",
+	"headwords": [
 		{
-			"text": "טְכְ׳"
+			"text": "טִיכְסָא"
+		},
+		{
+			"text": "טְכְ׳",
+			"partial": true
 		},
 		{
 			"text": "מַטְכְּסָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 531,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00469",
-	"slug": "נח-2",
-	"headword": {
-		"text": "נֹחַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נֹחַ ²",
+	"headwords": [
+		{
+			"text": "נֹחַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 893,
 		"column": "b"

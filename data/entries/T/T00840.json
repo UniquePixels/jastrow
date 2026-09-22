@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00840",
-	"slug": "רמ״ת",
-	"headword": {
-		"text": "רמ״ת"
-	},
+	"sefariaHeadword": "רמ\"ת",
+	"headwords": [
+		{
+			"text": "רמ״ת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "a"

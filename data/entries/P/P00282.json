@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00282",
-	"slug": "עומס",
-	"headword": {
-		"text": "עוֹמֶס"
-	},
+	"sefariaHeadword": "עוֹמֶס",
+	"headwords": [
+		{
+			"text": "עוֹמֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1053,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01373",
-	"slug": "אינדרטין",
-	"headword": {
-		"text": "אינדרטין"
-	},
+	"sefariaHeadword": "אינדרטין",
+	"headwords": [
+		{
+			"text": "אינדרטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

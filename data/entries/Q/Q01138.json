@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01138",
-	"slug": "פמיאס",
-	"headword": {
-		"text": "פָּמִיאַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּמִיאַס",
+	"headwords": [
+		{
+			"text": "פָּמִיאַס"
+		},
 		{
 			"text": "פַּמְיָיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1185,
 		"column": "b"

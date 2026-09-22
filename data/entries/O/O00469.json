@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00469",
-	"slug": "סחרן",
-	"headword": {
-		"text": "סַחֲרָן"
-	},
+	"sefariaHeadword": "סַחֲרָן",
+	"headwords": [
+		{
+			"text": "סַחֲרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "b"

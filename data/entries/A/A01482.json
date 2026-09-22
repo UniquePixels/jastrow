@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01482",
-	"slug": "איספקא",
-	"headword": {
-		"text": "אִיסְפְּקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיסְפְּקָא",
+	"headwords": [
+		{
+			"text": "אִיסְפְּקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

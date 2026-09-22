@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00812",
-	"slug": "פיקים",
-	"headword": {
-		"text": "פִּיקִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקִים",
+	"headwords": [
+		{
+			"text": "פִּיקִים"
+		},
 		{
 			"text": "פִּיקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "b"

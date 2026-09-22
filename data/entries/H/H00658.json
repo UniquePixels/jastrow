@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00658",
-	"slug": "חיבור",
-	"headword": {
-		"text": "חִיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיבּוּר",
+	"headwords": [
+		{
+			"text": "חִיבּוּר"
+		},
 		{
 			"text": "חִבּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 451,
 		"column": "a"

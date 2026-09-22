@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00891",
-	"slug": "גלוגיקא",
-	"headword": {
-		"text": "גלוגיקא"
-	},
+	"sefariaHeadword": "גלוגיקא",
+	"headwords": [
+		{
+			"text": "גלוגיקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

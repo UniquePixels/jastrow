@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00374",
-	"slug": "זימרא",
-	"headword": {
-		"text": "(זִימְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(זִימְרָא",
+	"headwords": [
+		{
+			"text": "זִימְרָא"
+		},
 		{
 			"text": "זִימְרָה"
 		}

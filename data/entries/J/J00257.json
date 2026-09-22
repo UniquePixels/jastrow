@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00257",
-	"slug": "יותרן",
-	"headword": {
-		"text": "יוּתְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּתְרָן",
+	"headwords": [
+		{
+			"text": "יוּתְרָן"
+		},
 		{
 			"text": "יוּתְרָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 572,
 		"column": "a"

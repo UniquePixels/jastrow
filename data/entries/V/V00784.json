@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00784",
-	"slug": "תעלומא",
-	"headword": {
-		"text": "תַּעֲלוּמָא"
-	},
+	"sefariaHeadword": "תַּעֲלוּמָא",
+	"headwords": [
+		{
+			"text": "תַּעֲלוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1684,
 		"column": "a"

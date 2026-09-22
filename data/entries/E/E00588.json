@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00588",
-	"slug": "המא",
-	"headword": {
-		"text": "הֲמָא"
-	},
+	"sefariaHeadword": "הֲמָא",
+	"headwords": [
+		{
+			"text": "הֲמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

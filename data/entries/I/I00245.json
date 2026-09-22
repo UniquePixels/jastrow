@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00245",
-	"slug": "טורפי",
-	"headword": {
-		"text": "טורפי"
-	},
+	"sefariaHeadword": "טורפי",
+	"headwords": [
+		{
+			"text": "טורפי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

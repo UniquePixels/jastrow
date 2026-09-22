@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02930",
-	"slug": "אקניקתא",
-	"headword": {
-		"text": "אקניקתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אקניקתא",
+	"headwords": [
+		{
+			"text": "אקניקתא"
+		},
 		{
 			"text": "אקנקיתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 113,
 		"column": "a"

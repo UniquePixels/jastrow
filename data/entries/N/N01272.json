@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01272",
-	"slug": "נרקום",
-	"headword": {
-		"text": "נרקום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נרקום",
+	"headwords": [
+		{
+			"text": "נרקום"
+		},
 		{
 			"text": "נרקוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 937,
 		"column": "a"

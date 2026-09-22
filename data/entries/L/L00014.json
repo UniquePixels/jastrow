@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00014",
-	"slug": "לאי-2",
-	"headword": {
-		"text": "לאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לאי",
+	"headwords": [
+		{
+			"text": "לאי"
+		},
 		{
 			"text": "לָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 686,
 		"column": "a"

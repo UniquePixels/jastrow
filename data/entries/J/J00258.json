@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00258",
-	"slug": "יותרת",
-	"headword": {
-		"text": "יוֹתֶרֶת"
-	},
+	"sefariaHeadword": "יוֹתֶרֶת",
+	"headwords": [
+		{
+			"text": "יוֹתֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

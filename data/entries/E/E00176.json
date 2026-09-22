@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00176",
-	"slug": "ההנו",
-	"headword": {
-		"text": "הָהֵנוּ"
-	},
+	"sefariaHeadword": "הָהֵנוּ",
+	"headwords": [
+		{
+			"text": "הָהֵנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

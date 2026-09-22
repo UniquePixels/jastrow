@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00106",
-	"slug": "חבק-3",
-	"headword": {
-		"text": "חֶבֶק"
-	},
+	"sefariaHeadword": "חֶבֶק",
+	"headwords": [
+		{
+			"text": "חֶבֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 421,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01763",
-	"slug": "פרט-1",
-	"headword": {
-		"text": "פָּרַט"
-	},
+	"sefariaHeadword": "פָּרַט",
+	"headwords": [
+		{
+			"text": "פָּרַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1224,
 		"column": "a"

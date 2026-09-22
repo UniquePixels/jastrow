@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00138",
-	"slug": "הדס-4",
-	"headword": {
-		"text": "הָדָס"
-	},
+	"sefariaHeadword": "הָדָס",
+	"headwords": [
+		{
+			"text": "הָדָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 334,
 		"column": "a"

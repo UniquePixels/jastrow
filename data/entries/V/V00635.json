@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00635",
-	"slug": "תלתים",
-	"headword": {
-		"text": "תְּלָתִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּלָתִים",
+	"headwords": [
+		{
+			"text": "תְּלָתִים"
+		},
 		{
 			"text": "תְּלָתִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1674,
 		"column": "b"

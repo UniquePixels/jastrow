@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01946",
-	"slug": "פרע-4",
-	"headword": {
-		"text": "פֶּרַע"
-	},
+	"sefariaHeadword": "פֶּרַע",
+	"headwords": [
+		{
+			"text": "פֶּרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1236,
 		"column": "a"

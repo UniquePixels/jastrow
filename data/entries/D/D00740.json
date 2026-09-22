@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00740",
-	"slug": "דישה",
-	"headword": {
-		"text": "דִּישָׁה"
-	},
+	"sefariaHeadword": "דִּישָׁה",
+	"headwords": [
+		{
+			"text": "דִּישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "a"

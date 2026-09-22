@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00595",
-	"slug": "מוקף",
-	"headword": {
-		"text": "מוּקָּף"
-	},
+	"sefariaHeadword": "מוּקָּף",
+	"headwords": [
+		{
+			"text": "מוּקָּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

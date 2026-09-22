@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00808",
-	"slug": "אופיתא",
-	"headword": {
-		"text": "אוֹפִיתָא"
-	},
+	"sefariaHeadword": "אוֹפִיתָא",
+	"headwords": [
+		{
+			"text": "אוֹפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

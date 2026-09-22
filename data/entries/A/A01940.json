@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01940",
-	"slug": "אלפביתא",
-	"headword": {
-		"text": "אַלֶּפְבֵּיתָא"
-	},
+	"sefariaHeadword": "אַלֶּפְבֵּיתָא",
+	"headwords": [
+		{
+			"text": "אַלֶּפְבֵּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "a"

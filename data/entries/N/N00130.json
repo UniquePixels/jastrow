@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00130",
-	"slug": "נגוב",
-	"headword": {
-		"text": "נְגוּב"
-	},
+	"sefariaHeadword": "נְגוּב",
+	"headwords": [
+		{
+			"text": "נְגוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "a"

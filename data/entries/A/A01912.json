@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01912",
-	"slug": "אלמוגא",
-	"headword": {
-		"text": "אַלְמוֹגָא"
-	},
+	"sefariaHeadword": "אַלְמוֹגָא",
+	"headwords": [
+		{
+			"text": "אַלְמוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 71,
 		"column": "b"

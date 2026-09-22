@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02290",
-	"slug": "אנקורא",
-	"headword": {
-		"text": "אִנְקוֹרָא"
-	},
+	"sefariaHeadword": "אִנְקוֹרָא",
+	"headwords": [
+		{
+			"text": "אִנְקוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "b"

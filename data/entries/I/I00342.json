@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00342",
-	"slug": "טייל-2",
-	"headword": {
-		"text": "טַיָּיל"
-	},
+	"sefariaHeadword": "טַיָּיל",
+	"headwords": [
+		{
+			"text": "טַיָּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

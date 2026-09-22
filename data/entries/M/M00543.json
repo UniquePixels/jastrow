@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00543",
-	"slug": "מוסיף",
-	"headword": {
-		"text": "מוסיף"
-	},
+	"sefariaHeadword": "מוסיף",
+	"headwords": [
+		{
+			"text": "מוסיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

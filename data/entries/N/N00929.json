@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00929",
-	"slug": "נסיב",
-	"headword": {
-		"text": "נְסֵיב"
-	},
+	"sefariaHeadword": "נְסֵיב",
+	"headwords": [
+		{
+			"text": "נְסֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 916,
 		"column": "b"

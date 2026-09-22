@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01461",
-	"slug": "סקופוטי",
-	"headword": {
-		"text": "סקופוטי"
-	},
+	"sefariaHeadword": "סקופוטי",
+	"headwords": [
+		{
+			"text": "סקופוטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

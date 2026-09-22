@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00967",
-	"slug": "כעכע",
-	"headword": {
-		"text": "כעכע"
-	},
+	"sefariaHeadword": "כעכע",
+	"headwords": [
+		{
+			"text": "כעכע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

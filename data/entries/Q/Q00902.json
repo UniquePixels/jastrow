@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00902",
-	"slug": "פיתם",
-	"headword": {
-		"text": "פיתם"
-	},
+	"sefariaHeadword": "פיתם",
+	"headwords": [
+		{
+			"text": "פיתם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1173,
 		"column": "b"

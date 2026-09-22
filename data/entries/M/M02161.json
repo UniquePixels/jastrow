@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M02161",
-	"slug": "מעצרתא-1",
-	"headword": {
-		"text": "מַעְצַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעְצַרְתָּא",
+	"headwords": [
+		{
+			"text": "מַעְצַרְתָּא"
+		},
 		{
 			"text": "מַעֲצַ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 818,
 		"column": "b"

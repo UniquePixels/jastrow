@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01071",
-	"slug": "תשוב",
-	"headword": {
-		"text": "תְּשׁוּב"
-	},
+	"sefariaHeadword": "תְּשׁוּב",
+	"headwords": [
+		{
+			"text": "תְּשׁוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

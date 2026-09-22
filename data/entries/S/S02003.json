@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02003",
-	"slug": "קרטיסים",
-	"headword": {
-		"text": "קרטיסים"
-	},
+	"sefariaHeadword": "קרטיסים",
+	"headwords": [
+		{
+			"text": "קרטיסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

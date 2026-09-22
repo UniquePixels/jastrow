@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00335",
-	"slug": "נוותי",
-	"headword": {
-		"text": "נִוְותִּי"
-	},
+	"sefariaHeadword": "נִוְותִּי",
+	"headwords": [
+		{
+			"text": "נִוְותִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "b"

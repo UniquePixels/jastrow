@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00457",
-	"slug": "רותחנה",
-	"headword": {
-		"text": "רותחנה"
-	},
+	"sefariaHeadword": "רותחנה",
+	"headwords": [
+		{
+			"text": "רותחנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

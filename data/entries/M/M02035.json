@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02035",
-	"slug": "מסתו",
-	"headword": {
-		"text": "מִסְתּוּ"
-	},
+	"sefariaHeadword": "מִסְתּוּ",
+	"headwords": [
+		{
+			"text": "מִסְתּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "a"

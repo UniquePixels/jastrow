@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00225",
-	"slug": "טורחותא",
-	"headword": {
-		"text": "טוֹרְחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹרְחוּתָא",
+	"headwords": [
+		{
+			"text": "טוֹרְחוּתָא"
+		},
 		{
 			"text": "טוֹרְחָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 526,
 		"column": "b"

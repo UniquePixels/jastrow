@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00045",
-	"slug": "פגול",
-	"headword": {
-		"text": "פִּגּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּגּוּל",
+	"headwords": [
+		{
+			"text": "פִּגּוּל"
+		},
 		{
 			"text": "פִּגּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1132,
 		"column": "b"

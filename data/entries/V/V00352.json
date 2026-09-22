@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00352",
-	"slug": "תחוח",
-	"headword": {
-		"text": "תִּחוּחַ"
-	},
+	"sefariaHeadword": "תִּחוּחַ",
+	"headwords": [
+		{
+			"text": "תִּחוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "b"

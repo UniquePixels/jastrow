@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00883",
-	"slug": "פישן",
-	"headword": {
-		"text": "פישׁן"
-	},
+	"sefariaHeadword": "פישׁן",
+	"headwords": [
+		{
+			"text": "פישׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1172,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00234",
-	"slug": "חוב-4",
-	"headword": {
-		"text": "חוֹב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹב II",
+	"headwords": [
+		{
+			"text": "חוֹב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 429,
 		"column": "a"

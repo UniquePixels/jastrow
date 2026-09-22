@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02647",
-	"slug": "מרטיוטאי",
-	"headword": {
-		"text": "מרטיוטאי"
-	},
+	"sefariaHeadword": "מרטיוטאי",
+	"headwords": [
+		{
+			"text": "מרטיוטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 841,
 		"column": "b"

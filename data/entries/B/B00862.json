@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00862",
-	"slug": "בלילה",
-	"headword": {
-		"text": "בְּלִילָה"
-	},
+	"sefariaHeadword": "בְּלִילָה",
+	"headwords": [
+		{
+			"text": "בְּלִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "b"

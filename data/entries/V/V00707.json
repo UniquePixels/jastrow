@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00707",
-	"slug": "תמרה-1",
-	"headword": {
-		"text": "תְּמָרָה"
-	},
+	"sefariaHeadword": "תְּמָרָה",
+	"headwords": [
+		{
+			"text": "תְּמָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "a"

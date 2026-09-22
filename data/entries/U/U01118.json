@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01118",
-	"slug": "שכבה",
-	"headword": {
-		"text": "שְׁכָבָה"
-	},
+	"sefariaHeadword": "שְׁכָבָה",
+	"headwords": [
+		{
+			"text": "שְׁכָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "a"

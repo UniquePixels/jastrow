@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00056",
-	"slug": "לבונתא",
-	"headword": {
-		"text": "לְבוּנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבוּנְתָּא",
+	"headwords": [
+		{
+			"text": "לְבוּנְתָּא"
+		},
 		{
 			"text": "לְבֻנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 688,
 		"column": "a"

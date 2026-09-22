@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02128",
-	"slug": "אנדרופיקוס",
-	"headword": {
-		"text": "אִנְדְּרוֹפִּיקוֹס"
-	},
+	"sefariaHeadword": "אִנְדְּרוֹפִּיקוֹס",
+	"headwords": [
+		{
+			"text": "אִנְדְּרוֹפִּיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

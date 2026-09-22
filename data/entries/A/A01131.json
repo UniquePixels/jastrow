@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01131",
-	"slug": "איבעית",
-	"headword": {
-		"text": "אִיבָּעִית"
-	},
+	"sefariaHeadword": "אִיבָּעִית",
+	"headwords": [
+		{
+			"text": "אִיבָּעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

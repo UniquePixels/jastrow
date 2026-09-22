@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00682",
-	"slug": "נימוסא",
-	"headword": {
-		"text": "נִימוֹסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִימוֹסָא",
+	"headwords": [
 		{
-			"text": "נִימוּ׳"
+			"text": "נִימוֹסָא"
+		},
+		{
+			"text": "נִימוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 905,
 		"column": "a"

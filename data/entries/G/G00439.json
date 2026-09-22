@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00439",
-	"slug": "זכאותא",
-	"headword": {
-		"text": "זַכָּאוּתָא"
-	},
+	"sefariaHeadword": "זַכָּאוּתָא",
+	"headwords": [
+		{
+			"text": "זַכָּאוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "b"

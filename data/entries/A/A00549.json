@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00549",
-	"slug": "אוגרוי",
-	"headword": {
-		"text": "אוגרוי"
-	},
+	"sefariaHeadword": "אוגרוי",
+	"headwords": [
+		{
+			"text": "אוגרוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "a"

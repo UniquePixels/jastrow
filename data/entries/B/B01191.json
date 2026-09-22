@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01191",
-	"slug": "ברה",
-	"headword": {
-		"text": "בָּרָה"
-	},
+	"sefariaHeadword": "בָּרָה",
+	"headwords": [
+		{
+			"text": "בָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00186",
-	"slug": "פוטי",
-	"headword": {
-		"text": "פּוּטִי"
-	},
+	"sefariaHeadword": "פּוּטִי",
+	"headwords": [
+		{
+			"text": "פּוּטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "a"

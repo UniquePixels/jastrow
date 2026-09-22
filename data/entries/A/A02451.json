@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02451",
-	"slug": "אסכולסטיקא",
-	"headword": {
-		"text": "אִסְכּוֹלַסְטִיקָא"
-	},
+	"sefariaHeadword": "אִסְכּוֹלַסְטִיקָא",
+	"headwords": [
+		{
+			"text": "אִסְכּוֹלַסְטִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "a"

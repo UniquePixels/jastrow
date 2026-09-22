@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00068",
-	"slug": "יברוחא",
-	"headword": {
-		"text": "יַבְרוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבְרוּחָא",
+	"headwords": [
+		{
+			"text": "יַבְרוּחָא"
+		},
 		{
 			"text": "יַבְרוּחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 562,
 		"column": "a"

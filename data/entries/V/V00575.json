@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00575",
-	"slug": "תלדותא",
-	"headword": {
-		"text": "תֻּלְדּוּתָא"
-	},
+	"sefariaHeadword": "תֻּלְדּוּתָא",
+	"headwords": [
+		{
+			"text": "תֻּלְדּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "b"

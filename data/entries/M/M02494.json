@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02494",
-	"slug": "מרבועיתא",
-	"headword": {
-		"text": "מַרְבּוּעִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְבּוּעִיתָא",
+	"headwords": [
+		{
+			"text": "מַרְבּוּעִיתָא"
+		},
 		{
 			"text": "מַרְבּוּעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "a"

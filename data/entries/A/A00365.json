@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00365",
-	"slug": "אגרתא",
-	"headword": {
-		"text": "אִגַּרְתָּא"
-	},
+	"sefariaHeadword": "אִגַּרְתָּא",
+	"headwords": [
+		{
+			"text": "אִגַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

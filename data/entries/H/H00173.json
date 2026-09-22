@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00173",
-	"slug": "חדאה",
-	"headword": {
-		"text": "חֲדָאָה"
-	},
+	"sefariaHeadword": "חֲדָאָה",
+	"headwords": [
+		{
+			"text": "חֲדָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

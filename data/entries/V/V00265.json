@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00265",
-	"slug": "תוקלא",
-	"headword": {
-		"text": "תּוּקְלָא"
-	},
+	"sefariaHeadword": "תּוּקְלָא",
+	"headwords": [
+		{
+			"text": "תּוּקְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

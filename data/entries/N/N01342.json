@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01342",
-	"slug": "נשק-2",
-	"headword": {
-		"text": "נְשַׁק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְשַׁק",
+	"headwords": [
+		{
+			"text": "נְשַׁק"
+		},
 		{
 			"text": "נְשֵׁיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 941,
 		"column": "b"

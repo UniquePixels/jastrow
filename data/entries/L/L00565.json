@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00565",
-	"slug": "למד-1",
-	"headword": {
-		"text": "לָמֵד",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לָמֵד I",
+	"headwords": [
+		{
+			"text": "לָמֵד",
+			"homograph": 1
+		},
 		{
 			"text": "לָמַד"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 712,
 		"column": "a"

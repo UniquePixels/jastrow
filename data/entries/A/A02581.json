@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02581",
-	"slug": "אסתניד",
-	"headword": {
-		"text": "אסתניד"
-	},
+	"sefariaHeadword": "אסתניד",
+	"headwords": [
+		{
+			"text": "אסתניד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00242",
-	"slug": "כוחלית",
-	"headword": {
-		"text": "כּוֹחֲלִית"
-	},
+	"sefariaHeadword": "כּוֹחֲלִית",
+	"headwords": [
+		{
+			"text": "כּוֹחֲלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "b"

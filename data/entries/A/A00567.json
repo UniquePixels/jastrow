@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00567",
-	"slug": "אודם",
-	"headword": {
-		"text": "אוֹדֶם"
-	},
+	"sefariaHeadword": "אוֹדֶם",
+	"headwords": [
+		{
+			"text": "אוֹדֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

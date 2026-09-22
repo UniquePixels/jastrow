@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00305",
-	"slug": "דוסמקא",
-	"headword": {
-		"text": "דוסמקא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דוסמקא",
+	"headwords": [
+		{
+			"text": "דוסמקא"
+		},
 		{
 			"text": "דוסקמא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 287,
 		"column": "a"

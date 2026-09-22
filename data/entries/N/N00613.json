@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00613",
-	"slug": "ניבריות",
-	"headword": {
-		"text": "ניבריות"
-	},
+	"sefariaHeadword": "ניבריות",
+	"headwords": [
+		{
+			"text": "ניבריות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

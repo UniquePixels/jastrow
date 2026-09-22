@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01456",
-	"slug": "קמח-3",
-	"headword": {
-		"text": "קֶמַח",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֶמַח ²",
+	"headwords": [
+		{
+			"text": "קֶמַח",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִמְחָא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1384,
 		"column": "b"

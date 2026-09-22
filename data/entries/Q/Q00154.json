@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00154",
-	"slug": "פוגא-1",
-	"headword": {
-		"text": "פּוּגָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פּוּגָא I",
+	"headwords": [
+		{
+			"text": "פּוּגָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1139,
 		"column": "a"

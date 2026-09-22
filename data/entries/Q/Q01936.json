@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01936",
-	"slug": "פרסנית",
-	"headword": {
-		"text": "פַּרְסָנִית"
-	},
+	"sefariaHeadword": "פַּרְסָנִית",
+	"headwords": [
+		{
+			"text": "פַּרְסָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1234,
 		"column": "b"

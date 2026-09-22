@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02083",
-	"slug": "פשל",
-	"headword": {
-		"text": "פָּשַׁל"
-	},
+	"sefariaHeadword": "פָּשַׁל",
+	"headwords": [
+		{
+			"text": "פָּשַׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00192",
-	"slug": "חדיא-2",
-	"headword": {
-		"text": "חַדְיָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַדְיָא ²",
+	"headwords": [
+		{
+			"text": "חַדְיָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "חַדְיָיא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 426,
 		"column": "a"

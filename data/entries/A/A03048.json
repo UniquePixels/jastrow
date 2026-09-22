@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03048",
-	"slug": "ארז-2",
-	"headword": {
-		"text": "אֶרֶז"
-	},
+	"sefariaHeadword": "אֶרֶז",
+	"headwords": [
+		{
+			"text": "אֶרֶז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "b"

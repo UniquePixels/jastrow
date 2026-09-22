@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00331",
-	"slug": "דוקלינוס",
-	"headword": {
-		"text": "דוקלינוס"
-	},
+	"sefariaHeadword": "דוקלינוס",
+	"headwords": [
+		{
+			"text": "דוקלינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "a"

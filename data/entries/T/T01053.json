@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01053",
-	"slug": "רקקא",
-	"headword": {
-		"text": "רְקָקָא"
-	},
+	"sefariaHeadword": "רְקָקָא",
+	"headwords": [
+		{
+			"text": "רְקָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

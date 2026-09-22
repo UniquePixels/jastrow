@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02896",
-	"slug": "אקובנאה",
-	"headword": {
-		"text": "אקובנאה"
-	},
+	"sefariaHeadword": "אקובנאה",
+	"headwords": [
+		{
+			"text": "אקובנאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

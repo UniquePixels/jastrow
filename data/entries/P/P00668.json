@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00668",
-	"slug": "עיקרה",
-	"headword": {
-		"text": "עִיקָּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקָּרָה",
+	"headwords": [
+		{
+			"text": "עִיקָּרָה"
+		},
 		{
 			"text": "עִוקֶּרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1075,
 		"column": "a"

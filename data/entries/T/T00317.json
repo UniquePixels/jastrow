@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00317",
-	"slug": "רוגלית",
-	"headword": {
-		"text": "רוֹגְלִית"
-	},
+	"sefariaHeadword": "רוֹגְלִית",
+	"headwords": [
+		{
+			"text": "רוֹגְלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00050",
-	"slug": "צביתה",
-	"headword": {
-		"text": "צְבִיתָה"
-	},
+	"sefariaHeadword": "צְבִיתָה",
+	"headwords": [
+		{
+			"text": "צְבִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1259,
 		"column": "a"

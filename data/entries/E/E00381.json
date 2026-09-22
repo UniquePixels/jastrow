@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00381",
-	"slug": "היכירא",
-	"headword": {
-		"text": "הֶיכֵּירָא"
-	},
+	"sefariaHeadword": "הֶיכֵּירָא",
+	"headwords": [
+		{
+			"text": "הֶיכֵּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 345,
 		"column": "b"

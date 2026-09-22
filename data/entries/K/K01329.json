@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01329",
-	"slug": "כשרות",
-	"headword": {
-		"text": "כַּשְׁרוּת"
-	},
+	"sefariaHeadword": "כַּשְׁרוּת",
+	"headwords": [
+		{
+			"text": "כַּשְׁרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "a"

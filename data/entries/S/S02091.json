@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02091",
-	"slug": "קרמא-2",
-	"headword": {
-		"text": "קִרְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְמָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִרְמָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1421,
 		"column": "b"

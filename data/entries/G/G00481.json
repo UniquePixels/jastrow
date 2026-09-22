@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00481",
-	"slug": "זלוע",
-	"headword": {
-		"text": "זְלוּעַ"
-	},
+	"sefariaHeadword": "זְלוּעַ",
+	"headwords": [
+		{
+			"text": "זְלוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

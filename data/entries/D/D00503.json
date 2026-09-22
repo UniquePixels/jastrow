@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00503",
-	"slug": "דין-1",
-	"headword": {
-		"text": "דֵּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דֵּין",
+	"headwords": [
+		{
+			"text": "דֵּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 296,
 		"column": "a"

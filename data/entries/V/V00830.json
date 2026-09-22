@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00830",
-	"slug": "תפלה-1",
-	"headword": {
-		"text": "תִּפְלָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּפְלָה",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּפְלָה"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1686,
 		"column": "b"

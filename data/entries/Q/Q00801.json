@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00801",
-	"slug": "פיקוד",
-	"headword": {
-		"text": "פִּיקּוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקּוּד",
+	"headwords": [
 		{
-			"text": "פִּקּ׳"
+			"text": "פִּיקּוּד"
+		},
+		{
+			"text": "פִּקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "a"

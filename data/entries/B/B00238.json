@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00238",
-	"slug": "בוטנה-2",
-	"headword": {
-		"text": "בּוּטְנָה"
-	},
+	"sefariaHeadword": "בּוּטְנָה",
+	"headwords": [
+		{
+			"text": "בּוּטְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

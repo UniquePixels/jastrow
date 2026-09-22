@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01607",
-	"slug": "סרידה",
-	"headword": {
-		"text": "סְרֵידָה"
-	},
+	"sefariaHeadword": "סְרֵידָה",
+	"headwords": [
+		{
+			"text": "סְרֵידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

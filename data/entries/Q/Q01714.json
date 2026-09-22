@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01714",
-	"slug": "פרוסטגמיא",
-	"headword": {
-		"text": "פרוסטגמיא"
-	},
+	"sefariaHeadword": "פרוסטגמיא",
+	"headwords": [
+		{
+			"text": "פרוסטגמיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

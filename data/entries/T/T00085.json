@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00085",
-	"slug": "רבי-6",
-	"headword": {
-		"text": "רַבִּי"
-	},
+	"sefariaHeadword": "רַבִּי",
+	"headwords": [
+		{
+			"text": "רַבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "a"

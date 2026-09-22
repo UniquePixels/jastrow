@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02048",
-	"slug": "מעבדנא",
-	"headword": {
-		"text": "מַעַבְדָּנָא"
-	},
+	"sefariaHeadword": "מַעַבְדָּנָא",
+	"headwords": [
+		{
+			"text": "מַעַבְדָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 812,
 		"column": "b"

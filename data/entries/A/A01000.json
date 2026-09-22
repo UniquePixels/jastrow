@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01000",
-	"slug": "אחוא",
-	"headword": {
-		"text": "אַחְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַחְוָא",
+	"headwords": [
+		{
+			"text": "אַחְוָא"
+		},
 		{
 			"text": "אַחְוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 39,
 		"column": "a"

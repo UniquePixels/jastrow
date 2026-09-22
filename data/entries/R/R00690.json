@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00690",
-	"slug": "צפחת",
-	"headword": {
-		"text": "צַפַּחַת"
-	},
+	"sefariaHeadword": "צַפַּחַת",
+	"headwords": [
+		{
+			"text": "צַפַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1296,
 		"column": "b"

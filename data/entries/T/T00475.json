@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00475",
-	"slug": "רחב-3",
-	"headword": {
-		"text": "רָחָב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָחָב II",
+	"headwords": [
+		{
+			"text": "רָחָב",
+			"homograph": 2
+		},
 		{
 			"text": "רְחָבָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1465,
 		"column": "a"

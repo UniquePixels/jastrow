@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02281",
-	"slug": "קתאליקי",
-	"headword": {
-		"text": "קתאליקי"
-	},
+	"sefariaHeadword": "קתאליקי",
+	"headwords": [
+		{
+			"text": "קתאליקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "a"

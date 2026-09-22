@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03069",
-	"slug": "מתכונת",
-	"headword": {
-		"text": "מַתְכּוֹנֶת"
-	},
+	"sefariaHeadword": "מַתְכֹּונֶת",
+	"headwords": [
+		{
+			"text": "מַתְכּוֹנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

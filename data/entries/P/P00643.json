@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00643",
-	"slug": "עיצא",
-	"headword": {
-		"text": "עֵיצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵיצָא",
+	"headwords": [
+		{
+			"text": "עֵיצָא"
+		},
 		{
 			"text": "עֵיצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1073,
 		"column": "b"

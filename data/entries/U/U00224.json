@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00224",
-	"slug": "שגיאה",
-	"headword": {
-		"text": "שְׁגִיאָה"
-	},
+	"sefariaHeadword": "שְׁגִיאָה",
+	"headwords": [
+		{
+			"text": "שְׁגִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

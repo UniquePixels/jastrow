@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01381",
-	"slug": "ספל",
-	"headword": {
-		"text": "סֵפֶל"
-	},
+	"sefariaHeadword": "סֵפֶל",
+	"headwords": [
+		{
+			"text": "סֵפֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

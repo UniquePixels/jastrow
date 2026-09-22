@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00736",
-	"slug": "טרוקטי",
-	"headword": {
-		"text": "טְרוֹקְטִי"
-	},
+	"sefariaHeadword": "טְרוֹקְטִי",
+	"headwords": [
+		{
+			"text": "טְרוֹקְטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

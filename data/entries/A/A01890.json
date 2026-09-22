@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01890",
-	"slug": "אלכסא",
-	"headword": {
-		"text": "אֲלַכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲלַכְסָא",
+	"headwords": [
+		{
+			"text": "אֲלַכְסָא"
+		},
 		{
 			"text": "לִיכְסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 70,
 		"column": "b"

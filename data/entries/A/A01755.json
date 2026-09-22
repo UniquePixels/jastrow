@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01755",
-	"slug": "אכרזיאל",
-	"headword": {
-		"text": "אַכְרְזִיאֵל"
-	},
+	"sefariaHeadword": "אַכְרְזִיאֵל",
+	"headwords": [
+		{
+			"text": "אַכְרְזִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02205",
-	"slug": "פתרון-2",
-	"headword": {
-		"text": "פִּתְרוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פִּתְרוֹן II",
+	"headwords": [
+		{
+			"text": "פִּתְרוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1256,
 		"column": "a"

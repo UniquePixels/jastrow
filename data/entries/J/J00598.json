@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00598",
-	"slug": "ירדינון",
-	"headword": {
-		"text": "ירדינון"
-	},
+	"sefariaHeadword": "ירדינון",
+	"headwords": [
+		{
+			"text": "ירדינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 594,
 		"column": "a"

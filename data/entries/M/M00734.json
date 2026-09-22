@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00734",
-	"slug": "מזון-2",
-	"headword": {
-		"text": "מָזוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָזוֹן ²",
+	"headwords": [
+		{
+			"text": "מָזוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "מְזוֹנָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 754,
 		"column": "a"

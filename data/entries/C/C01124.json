@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01124",
-	"slug": "גנזבייה",
-	"headword": {
-		"text": "גנזבייה"
-	},
+	"sefariaHeadword": "גנזבייה",
+	"headwords": [
+		{
+			"text": "גנזבייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "b"

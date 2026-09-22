@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00780",
-	"slug": "ניקנור",
-	"headword": {
-		"text": "נִיקָנוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיקָנוֹר",
+	"headwords": [
 		{
-			"text": "נִקָ׳"
+			"text": "נִיקָנוֹר"
+		},
+		{
+			"text": "נִקָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 908,
 		"column": "b"

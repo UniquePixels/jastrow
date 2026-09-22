@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00582",
-	"slug": "זנן",
-	"headword": {
-		"text": "זָנַן"
-	},
+	"sefariaHeadword": "זָנַן",
+	"headwords": [
+		{
+			"text": "זָנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

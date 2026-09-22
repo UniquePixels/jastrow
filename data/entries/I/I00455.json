@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00455",
-	"slug": "טירקסון",
-	"headword": {
-		"text": "טירקסון"
-	},
+	"sefariaHeadword": "טירקסון",
+	"headwords": [
+		{
+			"text": "טירקסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

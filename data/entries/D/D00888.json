@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00888",
-	"slug": "דמות-2",
-	"headword": {
-		"text": "דְּמוּת"
-	},
+	"sefariaHeadword": "דְּמוּת",
+	"headwords": [
+		{
+			"text": "דְּמוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 312,
 		"column": "b"

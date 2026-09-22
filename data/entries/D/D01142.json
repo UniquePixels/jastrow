@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01142",
-	"slug": "דשונא",
-	"headword": {
-		"text": "דשונא"
-	},
+	"sefariaHeadword": "דשונא",
+	"headwords": [
+		{
+			"text": "דשונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "a"

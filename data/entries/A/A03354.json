@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03354",
-	"slug": "אשרה-1",
-	"headword": {
-		"text": "אַשָּׁרָה"
-	},
+	"sefariaHeadword": "אַשָּׁרָה",
+	"headwords": [
+		{
+			"text": "אַשָּׁרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "b"

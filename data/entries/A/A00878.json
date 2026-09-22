@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A00878",
-	"slug": "אוריא-3",
-	"headword": {
-		"text": "אוּרְיָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּרְיָא ²",
+	"headwords": [
+		{
+			"text": "אוּרְיָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "אוּרְיָה",
 			"homograph": 2
@@ -14,6 +15,7 @@
 			"text": "אוּרְיָיא"
 		}
 	],
+	"display": "{0} ², {1} II, {2}",
 	"page": {
 		"number": 34,
 		"column": "a"

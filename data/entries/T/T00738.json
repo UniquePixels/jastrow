@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00738",
-	"slug": "רותיכוס",
-	"headword": {
-		"text": "רותיכוס"
-	},
+	"sefariaHeadword": "רותיכוס",
+	"headwords": [
+		{
+			"text": "רותיכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

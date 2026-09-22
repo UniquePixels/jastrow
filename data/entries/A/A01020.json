@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01020",
-	"slug": "אחות",
-	"headword": {
-		"text": "אָחוֹת"
-	},
+	"sefariaHeadword": "אָחוֹת",
+	"headwords": [
+		{
+			"text": "אָחוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

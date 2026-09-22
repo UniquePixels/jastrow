@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00125",
-	"slug": "כדיב",
-	"headword": {
-		"text": "כְּדִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּדִיב",
+	"headwords": [
+		{
+			"text": "כְּדִיב"
+		},
 		{
 			"text": "כַּדִּיב"
 		},
@@ -12,6 +13,7 @@
 			"text": "כְּדִיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 613,
 		"column": "b"

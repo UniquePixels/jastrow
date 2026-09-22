@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01981",
-	"slug": "אמגושי",
-	"headword": {
-		"text": "אַמְגּוּשִׁי"
-	},
+	"sefariaHeadword": "אַמְגּוּשִׁי",
+	"headwords": [
+		{
+			"text": "אַמְגּוּשִׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

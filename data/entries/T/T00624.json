@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00624",
-	"slug": "ריחותא",
-	"headword": {
-		"text": "רֵיחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיחוּתָא",
+	"headwords": [
+		{
+			"text": "רֵיחוּתָא"
+		},
 		{
 			"text": "רִיחְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רֵיחַיָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1474,
 		"column": "a"

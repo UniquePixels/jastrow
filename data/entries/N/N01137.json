@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01137",
-	"slug": "נצף",
-	"headword": {
-		"text": "נְצַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְצַף",
+	"headwords": [
+		{
+			"text": "נְצַף"
+		},
 		{
 			"text": "נְצֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 929,
 		"column": "b"

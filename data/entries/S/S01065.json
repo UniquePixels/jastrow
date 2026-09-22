@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01065",
-	"slug": "קיסטא",
-	"headword": {
-		"text": "קִיסְטָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְטָא II",
+	"headwords": [
+		{
+			"text": "קִיסְטָא",
+			"homograph": 2
+		},
 		{
 			"text": "קִיסְטָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1364,
 		"column": "b"

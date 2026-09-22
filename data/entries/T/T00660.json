@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00660",
-	"slug": "ריסוקא",
-	"headword": {
-		"text": "רִיסּוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיסּוּקָא",
+	"headwords": [
 		{
-			"text": "רִסּ׳"
+			"text": "רִיסּוּקָא"
+		},
+		{
+			"text": "רִסּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1475,
 		"column": "b"

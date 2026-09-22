@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "K00699",
-	"slug": "כלוחית",
-	"headword": {
-		"text": "כְּלוּחִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּלוּחִית",
+	"headwords": [
 		{
-			"text": "בֵּי כְּלוּחִית"
+			"text": "כְּלוּחִית"
+		},
+		{
+			"text": "בֵּי כ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 640,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

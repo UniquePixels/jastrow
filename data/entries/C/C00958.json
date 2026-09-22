@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00958",
-	"slug": "גלכין",
-	"headword": {
-		"text": "גלכין"
-	},
+	"sefariaHeadword": "גלכין",
+	"headwords": [
+		{
+			"text": "גלכין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "b"

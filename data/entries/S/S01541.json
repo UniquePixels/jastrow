@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01541",
-	"slug": "קנוח",
-	"headword": {
-		"text": "קִנּוּחַ"
-	},
+	"sefariaHeadword": "קִנּוּחַ",
+	"headwords": [
+		{
+			"text": "קִנּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

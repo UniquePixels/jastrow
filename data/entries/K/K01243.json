@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01243",
-	"slug": "כרס-1",
-	"headword": {
-		"text": "כרס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כרס",
+	"headwords": [
+		{
+			"text": "כרס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

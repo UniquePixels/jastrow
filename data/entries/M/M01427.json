@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01427",
-	"slug": "מכסירין",
-	"headword": {
-		"text": "מַכְסִירִין"
-	},
+	"sefariaHeadword": "מַכְסִירִין",
+	"headwords": [
+		{
+			"text": "מַכְסִירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

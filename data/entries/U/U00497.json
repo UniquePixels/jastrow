@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00497",
-	"slug": "שופטנא",
-	"headword": {
-		"text": "שׁוּפְטָנָא"
-	},
+	"sefariaHeadword": "שׁוּפְטָנָא",
+	"headwords": [
+		{
+			"text": "שׁוּפְטָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1539,
 		"column": "b"

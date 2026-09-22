@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01652",
-	"slug": "חרחבינא",
-	"headword": {
-		"text": "חַרְחֲבִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְחֲבִינָא",
+	"headwords": [
+		{
+			"text": "חַרְחֲבִינָא"
+		},
 		{
 			"text": "חַרְחֲבִינָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 501,
 		"column": "a"

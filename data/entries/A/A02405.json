@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02405",
-	"slug": "אסטרון",
-	"headword": {
-		"text": "אסטרון"
-	},
+	"sefariaHeadword": "אסטרון",
+	"headwords": [
+		{
+			"text": "אסטרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

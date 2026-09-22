@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01174",
-	"slug": "נקובה",
-	"headword": {
-		"text": "נְקוּבָה"
-	},
+	"sefariaHeadword": "נְקוּבָה",
+	"headwords": [
+		{
+			"text": "נְקוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01433",
-	"slug": "קלתות",
-	"headword": {
-		"text": "קַלָּתוּת"
-	},
+	"sefariaHeadword": "קַלָּתוּת",
+	"headwords": [
+		{
+			"text": "קַלָּתוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "b"

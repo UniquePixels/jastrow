@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00092",
-	"slug": "יגרי",
-	"headword": {
-		"text": "יַגְרִי"
-	},
+	"sefariaHeadword": "יַגְרִי",
+	"headwords": [
+		{
+			"text": "יַגְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 563,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

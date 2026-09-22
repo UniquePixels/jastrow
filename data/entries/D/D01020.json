@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01020",
-	"slug": "דקרונא",
-	"headword": {
-		"text": "דַּקְרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּקְרוֹנָא",
+	"headwords": [
+		{
+			"text": "דַּקְרוֹנָא"
+		},
 		{
 			"text": "דַּקְרוֹנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 320,
 		"column": "a"

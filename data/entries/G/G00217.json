@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00217",
-	"slug": "זוע-1",
-	"headword": {
-		"text": "זוּעַ"
-	},
+	"sefariaHeadword": "זוּעַ",
+	"headwords": [
+		{
+			"text": "זוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

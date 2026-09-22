@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01569",
-	"slug": "חקרא",
-	"headword": {
-		"text": "חַקְרָא"
-	},
+	"sefariaHeadword": "חַקְרָא",
+	"headwords": [
+		{
+			"text": "חַקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "b"

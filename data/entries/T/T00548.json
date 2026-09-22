@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00548",
-	"slug": "רחתת",
-	"headword": {
-		"text": "רחתת"
-	},
+	"sefariaHeadword": "רחתת",
+	"headwords": [
+		{
+			"text": "רחתת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1470,
 		"column": "b"

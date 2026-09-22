@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00464",
-	"slug": "טכסטסיס",
-	"headword": {
-		"text": "טכסטסיס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טכסטסיס",
+	"headwords": [
+		{
+			"text": "טכסטסיס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

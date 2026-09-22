@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00212",
-	"slug": "צוננא",
-	"headword": {
-		"text": "צוֹנְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוֹנְנָא",
+	"headwords": [
+		{
+			"text": "צוֹנְנָא"
+		},
 		{
 			"text": "צוֹנְנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1268,
 		"column": "b"

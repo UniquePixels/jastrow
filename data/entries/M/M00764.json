@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00764",
-	"slug": "מזלא-2",
-	"headword": {
-		"text": "מֹזְלָא"
-	},
+	"sefariaHeadword": "מֹזְלָא",
+	"headwords": [
+		{
+			"text": "מֹזְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01489",
-	"slug": "קמצון",
-	"headword": {
-		"text": "קמצון"
-	},
+	"sefariaHeadword": "קמצון",
+	"headwords": [
+		{
+			"text": "קמצון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1386,
 		"column": "b"

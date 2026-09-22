@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00225",
-	"slug": "בוחל",
-	"headword": {
-		"text": "בּוֹחַל"
-	},
+	"sefariaHeadword": "בּוֹחַל",
+	"headwords": [
+		{
+			"text": "בּוֹחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "b"

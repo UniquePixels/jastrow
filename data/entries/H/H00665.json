@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00665",
-	"slug": "חידוק",
-	"headword": {
-		"text": "חִידּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִידּוּק",
+	"headwords": [
 		{
-			"text": "חִדּ׳"
+			"text": "חִידּוּק"
 		},
 		{
-			"text": "הִ׳"
+			"text": "חִדּ׳",
+			"partial": true
+		},
+		{
+			"text": "הִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 451,
 		"column": "a"

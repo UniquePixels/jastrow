@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01643",
-	"slug": "שעורים",
-	"headword": {
-		"text": "שְׂעוֹרִים"
-	},
+	"sefariaHeadword": "שְׂעוֹרִים",
+	"headwords": [
+		{
+			"text": "שְׂעוֹרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

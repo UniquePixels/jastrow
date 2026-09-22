@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00990",
-	"slug": "רצם",
-	"headword": {
-		"text": "רָצַם"
-	},
+	"sefariaHeadword": "רָצַם",
+	"headwords": [
+		{
+			"text": "רָצַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00116",
-	"slug": "נגב-3",
-	"headword": {
-		"text": "נְגֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְגֵב",
+	"headwords": [
+		{
+			"text": "נְגֵב"
+		},
 		{
 			"text": "נְגוּב"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְגֵיב"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 871,
 		"column": "b"

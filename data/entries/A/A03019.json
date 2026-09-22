@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03019",
-	"slug": "ארוד",
-	"headword": {
-		"text": "אָרוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָרוֹד",
+	"headwords": [
+		{
+			"text": "אָרוֹד"
+		},
 		{
 			"text": "אָרוֹדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 116,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00670",
-	"slug": "אוליאוס",
-	"headword": {
-		"text": "אוליאוס"
-	},
+	"sefariaHeadword": "אוליאוס",
+	"headwords": [
+		{
+			"text": "אוליאוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00974",
-	"slug": "מטוה",
-	"headword": {
-		"text": "מַטְוֶה"
-	},
+	"sefariaHeadword": "מַטְוֶה",
+	"headwords": [
+		{
+			"text": "מַטְוֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "a"

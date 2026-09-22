@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00704",
-	"slug": "גייוס",
-	"headword": {
-		"text": "גַּיּיוּס"
-	},
+	"sefariaHeadword": "גַּיּיוּס",
+	"headwords": [
+		{
+			"text": "גַּיּיוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

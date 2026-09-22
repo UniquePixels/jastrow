@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00720",
-	"slug": "פינה",
-	"headword": {
-		"text": "פִּינָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינָּה",
+	"headwords": [
+		{
+			"text": "פִּינָּה"
+		},
 		{
 			"text": "פִּנָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

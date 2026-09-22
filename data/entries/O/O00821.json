@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00821",
-	"slug": "סיקרא-2",
-	"headword": {
-		"text": "סִיקְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיקְרָא II",
+	"headwords": [
 		{
-			"text": "סִקְ׳"
+			"text": "סִיקְרָא",
+			"homograph": 2
+		},
+		{
+			"text": "סִקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 986,
 		"column": "b"

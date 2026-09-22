@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00987",
-	"slug": "שיסתג",
-	"headword": {
-		"text": "שִׁיסְתָּג"
-	},
+	"sefariaHeadword": "שִׁיסְתָּג",
+	"headwords": [
+		{
+			"text": "שִׁיסְתָּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "a"

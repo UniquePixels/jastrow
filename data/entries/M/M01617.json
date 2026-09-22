@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01617",
-	"slug": "מלקושא",
-	"headword": {
-		"text": "מַלְקוֹשָׁא"
-	},
+	"sefariaHeadword": "מַלְקוֹשָׁא",
+	"headwords": [
+		{
+			"text": "מַלְקוֹשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "b"

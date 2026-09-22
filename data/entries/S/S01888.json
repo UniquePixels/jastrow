@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01888",
-	"slug": "קרב-6",
-	"headword": {
-		"text": "קְרָב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרָב ²",
+	"headwords": [
+		{
+			"text": "קְרָב",
+			"disambiguator": 2
+		},
 		{
 			"text": "קְרָבָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1411,
 		"column": "b"

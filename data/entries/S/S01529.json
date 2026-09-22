@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01529",
-	"slug": "קנדילא",
-	"headword": {
-		"text": "קַנְדִּילָא"
-	},
+	"sefariaHeadword": "קַנְדִּילָא",
+	"headwords": [
+		{
+			"text": "קַנְדִּילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "b"

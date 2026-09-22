@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01515",
-	"slug": "עששית-1",
-	"headword": {
-		"text": "עֲשָׁשִׁית"
-	},
+	"sefariaHeadword": "עֲשָׁשִׁית",
+	"headwords": [
+		{
+			"text": "עֲשָׁשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1127,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00121",
-	"slug": "בדולחא",
-	"headword": {
-		"text": "בְּדוּלְחָא"
-	},
+	"sefariaHeadword": "בְּדוּלְחָא",
+	"headwords": [
+		{
+			"text": "בְּדוּלְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "b"

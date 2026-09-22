@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00327",
-	"slug": "ציוקי",
-	"headword": {
-		"text": "ציוקי"
-	},
+	"sefariaHeadword": "ציוקי",
+	"headwords": [
+		{
+			"text": "ציוקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "b"

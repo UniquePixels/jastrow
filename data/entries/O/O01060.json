@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01060",
-	"slug": "סמדר-2",
-	"headword": {
-		"text": "סְמָדָר"
-	},
+	"sefariaHeadword": "סְמָדָר",
+	"headwords": [
+		{
+			"text": "סְמָדָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

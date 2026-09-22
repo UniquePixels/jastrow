@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00493",
-	"slug": "דידכי",
-	"headword": {
-		"text": "דִּידְכֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּידְכֵי",
+	"headwords": [
+		{
+			"text": "דִּידְכֵי"
+		},
 		{
 			"text": "דִּידְכָאוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 295,
 		"column": "b"

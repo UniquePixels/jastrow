@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02088",
-	"slug": "מעונים",
-	"headword": {
-		"text": "מְעוֹנִים"
-	},
+	"sefariaHeadword": "מְעוֹנִים",
+	"headwords": [
+		{
+			"text": "מְעוֹנִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 814,
 		"column": "b"

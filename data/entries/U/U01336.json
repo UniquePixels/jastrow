@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01336",
-	"slug": "שלישות",
-	"headword": {
-		"text": "שָׁלִישׁוּת"
-	},
+	"sefariaHeadword": "שָׁלִישׁוּת",
+	"headwords": [
+		{
+			"text": "שָׁלִישׁוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "b"

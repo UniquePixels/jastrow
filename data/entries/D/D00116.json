@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00116",
-	"slug": "דגמטורין",
-	"headword": {
-		"text": "דגמטורין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דגמטורין",
+	"headwords": [
+		{
+			"text": "דגמטורין"
+		},
 		{
 			"text": "דגמטרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 280,
 		"column": "a"

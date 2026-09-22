@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01285",
-	"slug": "סעודונא",
-	"headword": {
-		"text": "סְעוֹדוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעוֹדוּנָא",
+	"headwords": [
+		{
+			"text": "סְעוֹדוּנָא"
+		},
 		{
 			"text": "סְעוֹדִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1010,
 		"column": "a"

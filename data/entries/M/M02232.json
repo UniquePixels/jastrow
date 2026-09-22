@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02232",
-	"slug": "מפסלית",
-	"headword": {
-		"text": "מפסלית"
-	},
+	"sefariaHeadword": "מפסלית",
+	"headwords": [
+		{
+			"text": "מפסלית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

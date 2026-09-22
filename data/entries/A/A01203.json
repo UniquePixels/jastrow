@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01203",
-	"slug": "איזתוודא",
-	"headword": {
-		"text": "אִיזְתַּוְודָּא"
-	},
+	"sefariaHeadword": "אִיזְתַּוְודָּא",
+	"headwords": [
+		{
+			"text": "אִיזְתַּוְודָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

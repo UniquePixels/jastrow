@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00966",
-	"slug": "רפש-3",
-	"headword": {
-		"text": "רְפַשׂ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רְפַשׂ I",
+	"headwords": [
+		{
+			"text": "רְפַשׂ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1492,
 		"column": "a"

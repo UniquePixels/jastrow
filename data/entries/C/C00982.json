@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00982",
-	"slug": "גלקטינון",
-	"headword": {
-		"text": "גלקטינון"
-	},
+	"sefariaHeadword": "גלקטינון",
+	"headwords": [
+		{
+			"text": "גלקטינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

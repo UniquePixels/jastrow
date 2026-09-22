@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00052",
-	"slug": "דבוריא",
-	"headword": {
-		"text": "דְּבוֹרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּבוֹרְיָא",
+	"headwords": [
+		{
+			"text": "דְּבוֹרְיָא"
+		},
 		{
 			"text": "דְּבוֹר"
 		},
@@ -12,6 +13,7 @@
 			"text": "דְּבוֹרָא"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 277,
 		"column": "a"

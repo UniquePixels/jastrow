@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00012",
-	"slug": "צאר",
-	"headword": {
-		"text": "צְאַר"
-	},
+	"sefariaHeadword": "צְאַר",
+	"headwords": [
+		{
+			"text": "צְאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02829",
-	"slug": "אפרכס",
-	"headword": {
-		"text": "אֲפַרְכָּס"
-	},
+	"sefariaHeadword": "אֲפַרְכָּס",
+	"headwords": [
+		{
+			"text": "אֲפַרְכָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

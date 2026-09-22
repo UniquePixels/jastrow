@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00173",
-	"slug": "תווהות",
-	"headword": {
-		"text": "תַּוְוהוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּוְוהוּת",
+	"headwords": [
+		{
+			"text": "תַּוְוהוּת"
+		},
 		{
 			"text": "תַּוְוהוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1651,
 		"column": "b"

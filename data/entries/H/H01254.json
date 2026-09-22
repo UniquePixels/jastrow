@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01254",
-	"slug": "חנה",
-	"headword": {
-		"text": "חָנָה"
-	},
+	"sefariaHeadword": "חָנָה",
+	"headwords": [
+		{
+			"text": "חָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "b"

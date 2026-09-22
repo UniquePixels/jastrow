@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01548",
-	"slug": "קנות",
-	"headword": {
-		"text": "קִנוֹת"
-	},
+	"sefariaHeadword": "קִנוֹת",
+	"headwords": [
+		{
+			"text": "קִנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "b"

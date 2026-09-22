@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01013",
-	"slug": "תרמוד",
-	"headword": {
-		"text": "תַּרְמוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְמוֹד",
+	"headwords": [
+		{
+			"text": "תַּרְמוֹד"
+		},
 		{
 			"text": "תַּרְמוֹדִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1699,
 		"column": "b"

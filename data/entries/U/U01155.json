@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01155",
-	"slug": "שכיר",
-	"headword": {
-		"text": "שָׂכִיר"
-	},
+	"sefariaHeadword": "שָׂכִיר",
+	"headwords": [
+		{
+			"text": "שָׂכִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "b"

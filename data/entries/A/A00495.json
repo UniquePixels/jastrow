@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00495",
-	"slug": "אהילא",
-	"headword": {
-		"text": "אֲהִילָא"
-	},
+	"sefariaHeadword": "אֲהִילָא",
+	"headwords": [
+		{
+			"text": "אֲהִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02188",
-	"slug": "קרקש-2",
-	"headword": {
-		"text": "קַרְקֵשׁ"
-	},
+	"sefariaHeadword": "קַרְקֵשׁ",
+	"headwords": [
+		{
+			"text": "קַרְקֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1427,
 		"column": "a"

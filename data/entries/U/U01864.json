@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01864",
-	"slug": "שקיעה",
-	"headword": {
-		"text": "שְׁקִיעָה"
-	},
+	"sefariaHeadword": "שְׁקִיעָה",
+	"headwords": [
+		{
+			"text": "שְׁקִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1622,
 		"column": "b"

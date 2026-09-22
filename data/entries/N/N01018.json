@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01018",
-	"slug": "נפה-1",
-	"headword": {
-		"text": "נָפָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָפָה I",
+	"headwords": [
+		{
+			"text": "נָפָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 922,
 		"column": "a"

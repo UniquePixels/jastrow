@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00283",
-	"slug": "סוט-1",
-	"headword": {
-		"text": "סוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּט",
+	"headwords": [
+		{
+			"text": "סוּט"
+		},
 		{
 			"text": "יָסַט"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 962,
 		"column": "b"

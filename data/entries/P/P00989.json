@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00989",
-	"slug": "עניין",
-	"headword": {
-		"text": "עִנְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְיָין",
+	"headwords": [
+		{
+			"text": "עִנְיָין"
+		},
 		{
 			"text": "עִנְיָינָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עִנְיָינִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1095,
 		"column": "a"

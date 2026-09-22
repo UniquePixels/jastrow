@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00135",
-	"slug": "מגופתא",
-	"headword": {
-		"text": "מְגוּפְתָּא"
-	},
+	"sefariaHeadword": "מְגוּפְתָּא",
+	"headwords": [
+		{
+			"text": "מְגוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

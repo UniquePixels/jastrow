@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M01529",
-	"slug": "מלחייא",
-	"headword": {
-		"text": "מִלְחַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלְחַיָּיא",
+	"headwords": [
+		{
+			"text": "מִלְחַיָּיא"
+		},
 		{
 			"text": "מִלְחַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 789,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00705",
-	"slug": "אומנו",
-	"headword": {
-		"text": "אוֹמָנוּ"
-	},
+	"sefariaHeadword": "אוֹמָנוּ",
+	"headwords": [
+		{
+			"text": "אוֹמָנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 27,
 		"column": "b"

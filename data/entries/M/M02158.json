@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02158",
-	"slug": "מעפרתים",
-	"headword": {
-		"text": "מעפרתים"
-	},
+	"sefariaHeadword": "מעפרתים",
+	"headwords": [
+		{
+			"text": "מעפרתים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

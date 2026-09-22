@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00586",
-	"slug": "טסא-1",
-	"headword": {
-		"text": "טָסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טָסָא",
+	"headwords": [
+		{
+			"text": "טָסָא"
+		},
 		{
 			"text": "טַסָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 541,
 		"column": "b"

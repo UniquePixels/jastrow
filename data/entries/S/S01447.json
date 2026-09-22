@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01447",
-	"slug": "קמון",
-	"headword": {
-		"text": "קמון"
-	},
+	"sefariaHeadword": "קמון",
+	"headwords": [
+		{
+			"text": "קמון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

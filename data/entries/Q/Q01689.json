@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01689",
-	"slug": "פרוכתא",
-	"headword": {
-		"text": "פָּרוּכְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרוּכְתָּא",
+	"headwords": [
 		{
-			"text": "פָּרֻכְ׳"
+			"text": "פָּרוּכְתָּא"
+		},
+		{
+			"text": "פָּרֻכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1220,
 		"column": "b"

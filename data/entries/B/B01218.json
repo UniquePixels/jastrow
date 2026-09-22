@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01218",
-	"slug": "ברזא-2",
-	"headword": {
-		"text": "בִּרְזָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּרְזָא II",
+	"headwords": [
+		{
+			"text": "בִּרְזָא",
+			"homograph": 2
+		},
 		{
 			"text": "בַּרְזָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 191,
 		"column": "b"

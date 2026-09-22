@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00890",
-	"slug": "נמר-2",
-	"headword": {
-		"text": "נָמַר"
-	},
+	"sefariaHeadword": "נָמַר",
+	"headwords": [
+		{
+			"text": "נָמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "a"

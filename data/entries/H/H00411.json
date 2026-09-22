@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00411",
-	"slug": "חוסם",
-	"headword": {
-		"text": "חוֹסֵם"
-	},
+	"sefariaHeadword": "חוֹסֵם",
+	"headwords": [
+		{
+			"text": "חוֹסֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

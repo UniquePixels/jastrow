@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02167",
-	"slug": "קרקישא",
-	"headword": {
-		"text": "קַרְקִישָׁא"
-	},
+	"sefariaHeadword": "קַרְקִישָׁא",
+	"headwords": [
+		{
+			"text": "קַרְקִישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

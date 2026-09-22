@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00645",
-	"slug": "צנתא",
-	"headword": {
-		"text": "צִנְּתָא"
-	},
+	"sefariaHeadword": "צִנְּתָא",
+	"headwords": [
+		{
+			"text": "צִנְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

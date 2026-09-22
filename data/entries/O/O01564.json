@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01564",
-	"slug": "סרוקין",
-	"headword": {
-		"text": "סרוקין"
-	},
+	"sefariaHeadword": "סרוקין",
+	"headwords": [
+		{
+			"text": "סרוקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

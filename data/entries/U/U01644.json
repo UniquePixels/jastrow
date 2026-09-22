@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01644",
-	"slug": "שעורין",
-	"headword": {
-		"text": "שְׂעוֹרִין"
-	},
+	"sefariaHeadword": "שְׂעוֹרִין",
+	"headwords": [
+		{
+			"text": "שְׂעוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "a"

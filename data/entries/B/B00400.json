@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00400",
-	"slug": "בות",
-	"headword": {
-		"text": "בּוּת"
-	},
+	"sefariaHeadword": "בּוּת",
+	"headwords": [
+		{
+			"text": "בּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

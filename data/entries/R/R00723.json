@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00723",
-	"slug": "צצחר",
-	"headword": {
-		"text": "צצחר"
-	},
+	"sefariaHeadword": "צצחר",
+	"headwords": [
+		{
+			"text": "צצחר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

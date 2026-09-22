@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01063",
-	"slug": "רשא-2",
-	"headword": {
-		"text": "רְשָׁא"
-	},
+	"sefariaHeadword": "רְשָׁא",
+	"headwords": [
+		{
+			"text": "רְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "b"

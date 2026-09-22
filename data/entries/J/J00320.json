@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00320",
-	"slug": "יי-2",
-	"headword": {
-		"text": "יִי"
-	},
+	"sefariaHeadword": "יִי",
+	"headwords": [
+		{
+			"text": "יִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "a"

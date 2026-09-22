@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01193",
-	"slug": "איזדקר",
-	"headword": {
-		"text": "אִיזְדקַר"
-	},
+	"sefariaHeadword": "אִיזְדקַר",
+	"headwords": [
+		{
+			"text": "אִיזְדקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

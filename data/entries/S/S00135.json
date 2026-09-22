@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00135",
-	"slug": "קדיח",
-	"headword": {
-		"text": "קְדִיחַ"
-	},
+	"sefariaHeadword": "קְדִיחַ",
+	"headwords": [
+		{
+			"text": "קְדִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

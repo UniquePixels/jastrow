@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00979",
-	"slug": "חלגלוג",
-	"headword": {
-		"text": "חֲלַגְלוֹג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלַגְלוֹג",
+	"headwords": [
+		{
+			"text": "חֲלַגְלוֹג"
+		},
 		{
 			"text": "חֲלַגְלוֹגוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲלַגְלוֹגִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 464,
 		"column": "b"

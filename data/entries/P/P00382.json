@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00382",
-	"slug": "עותק",
-	"headword": {
-		"text": "עוּתֵּק"
-	},
+	"sefariaHeadword": "עוּתֵּק",
+	"headwords": [
+		{
+			"text": "עוּתֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "a"

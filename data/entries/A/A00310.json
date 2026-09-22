@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00310",
-	"slug": "אגמא-1",
-	"headword": {
-		"text": "אַגַּמָּא"
-	},
+	"sefariaHeadword": "אַגַּמָּא",
+	"headwords": [
+		{
+			"text": "אַגַּמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 13,
 		"column": "a"

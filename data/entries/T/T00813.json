@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00813",
-	"slug": "רמיות",
-	"headword": {
-		"text": "רַמָּיוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַמָּיוּת",
+	"headwords": [
+		{
+			"text": "רַמָּיוּת"
+		},
 		{
 			"text": "רַמָּאוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1483,
 		"column": "a"

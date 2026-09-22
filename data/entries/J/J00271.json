@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "J00271",
-	"slug": "יחוד-2",
-	"headword": {
-		"text": "יִחוּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִחוּד ²",
+	"headwords": [
+		{
+			"text": "יִחוּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "יִחוּדָא"
 		},
 		{
-			"text": "יִי׳"
+			"text": "יִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 573,
 		"column": "b"

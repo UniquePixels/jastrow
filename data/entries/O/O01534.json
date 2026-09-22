@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01534",
-	"slug": "סרגלא",
-	"headword": {
-		"text": "סַרְגְּלָא"
-	},
+	"sefariaHeadword": "סַרְגְּלָא",
+	"headwords": [
+		{
+			"text": "סַרְגְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "a"

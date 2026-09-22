@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00499",
-	"slug": "פטום",
-	"headword": {
-		"text": "פִּטוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּטוּם",
+	"headwords": [
+		{
+			"text": "פִּטוּם"
+		},
 		{
 			"text": "פִּטּוּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1154,
 		"column": "b"

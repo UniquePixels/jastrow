@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00187",
-	"slug": "חדות",
-	"headword": {
-		"text": "חַדּוּת"
-	},
+	"sefariaHeadword": "חַדּוּת",
+	"headwords": [
+		{
+			"text": "חַדּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "a"

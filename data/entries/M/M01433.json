@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01433",
-	"slug": "מכפלה",
-	"headword": {
-		"text": "מַכְפֵּלָה"
-	},
+	"sefariaHeadword": "מַכְפֵּלָה",
+	"headwords": [
+		{
+			"text": "מַכְפֵּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "a"

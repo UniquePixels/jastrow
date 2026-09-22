@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02154",
-	"slug": "אנחה",
-	"headword": {
-		"text": "אֲנָחָה"
-	},
+	"sefariaHeadword": "אֲנָחָה",
+	"headwords": [
+		{
+			"text": "אֲנָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01303",
-	"slug": "מירע",
-	"headword": {
-		"text": "מֵירַע"
-	},
+	"sefariaHeadword": "מֵירַע",
+	"headwords": [
+		{
+			"text": "מֵירַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

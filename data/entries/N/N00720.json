@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00720",
-	"slug": "ניעא",
-	"headword": {
-		"text": "נְיָעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְיָעָא",
+	"headwords": [
+		{
+			"text": "נְיָעָא"
+		},
 		{
 			"text": "נִיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 906,
 		"column": "b"

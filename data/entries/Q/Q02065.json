@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02065",
-	"slug": "פשטא",
-	"headword": {
-		"text": "פְּשָׁטָא"
-	},
+	"sefariaHeadword": "פְּשָׁטָא",
+	"headwords": [
+		{
+			"text": "פְּשָׁטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

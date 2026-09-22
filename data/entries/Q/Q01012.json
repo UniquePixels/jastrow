@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01012",
-	"slug": "פלטיאות",
-	"headword": {
-		"text": "פְּלַטְיָאוֹת"
-	},
+	"sefariaHeadword": "פְּלַטְיָאוֹת",
+	"headwords": [
+		{
+			"text": "פְּלַטְיָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "b"

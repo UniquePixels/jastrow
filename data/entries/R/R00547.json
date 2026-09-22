@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00547",
-	"slug": "צלצלון",
-	"headword": {
-		"text": "צִלְצַלְוָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִלְצַלְוָן",
+	"headwords": [
+		{
+			"text": "צִלְצַלְוָן"
+		},
 		{
 			"text": "צֶלְצְלִין"
 		},
 		{
-			"text": "צִילְ׳"
+			"text": "צִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1286,
 		"column": "a"

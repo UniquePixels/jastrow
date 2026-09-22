@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00540",
-	"slug": "אוגדותא",
-	"headword": {
-		"text": "אוֹגְדוּתָא"
-	},
+	"sefariaHeadword": "אוֹגְדוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹגְדוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

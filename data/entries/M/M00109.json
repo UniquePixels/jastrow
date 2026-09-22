@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00109",
-	"slug": "מגבילה",
-	"headword": {
-		"text": "מַגְבִּילָה"
-	},
+	"sefariaHeadword": "מַגְבִּילָה",
+	"headwords": [
+		{
+			"text": "מַגְבִּילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 726,
 		"column": "a"

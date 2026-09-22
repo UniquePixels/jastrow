@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00756",
-	"slug": "גינה",
-	"headword": {
-		"text": "גִּינָּה"
-	},
+	"sefariaHeadword": "גִּינָּה",
+	"headwords": [
+		{
+			"text": "גִּינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

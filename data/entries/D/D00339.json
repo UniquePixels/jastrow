@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00339",
-	"slug": "דוקרן",
-	"headword": {
-		"text": "דּוֹקְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוֹקְרָן",
+	"headwords": [
+		{
+			"text": "דּוֹקְרָן"
+		},
 		{
 			"text": "דַּקְרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 288,
 		"column": "b"

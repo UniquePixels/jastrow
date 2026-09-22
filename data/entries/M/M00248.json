@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00248",
-	"slug": "מדברנותא",
-	"headword": {
-		"text": "מְדַבְּרָנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְדַבְּרָנוּתָא",
+	"headwords": [
 		{
-			"text": "מַדְבְּרָ׳"
+			"text": "מְדַבְּרָנוּתָא"
+		},
+		{
+			"text": "מַדְבְּרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 731,
 		"column": "b"

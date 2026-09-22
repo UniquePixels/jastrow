@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00160",
-	"slug": "מגין",
-	"headword": {
-		"text": "מַגִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגִּין",
+	"headwords": [
+		{
+			"text": "מַגִּין"
+		},
 		{
 			"text": "מָגֵין"
 		},
@@ -12,6 +13,7 @@
 			"text": "מְגִינָּא"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 727,
 		"column": "b"

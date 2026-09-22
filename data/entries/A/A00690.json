@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00690",
-	"slug": "אומדות",
-	"headword": {
-		"text": "אוּמָדוּת"
-	},
+	"sefariaHeadword": "אוּמָדוּת",
+	"headwords": [
+		{
+			"text": "אוּמָדוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "b"

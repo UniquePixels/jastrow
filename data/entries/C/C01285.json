@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01285",
-	"slug": "גרדקי",
-	"headword": {
-		"text": "גרדקי"
-	},
+	"sefariaHeadword": "גרדקי",
+	"headwords": [
+		{
+			"text": "גרדקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "a"

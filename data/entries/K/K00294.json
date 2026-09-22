@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00294",
-	"slug": "כומרנא",
-	"headword": {
-		"text": "כּוּמְרָנָא"
-	},
+	"sefariaHeadword": "כּוּמְרָנָא",
+	"headwords": [
+		{
+			"text": "כּוּמְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 621,
 		"column": "a"

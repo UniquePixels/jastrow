@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01268",
-	"slug": "שלח-4",
-	"headword": {
-		"text": "שֶׁלַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁלַח",
+	"headwords": [
+		{
+			"text": "שֶׁלַח"
+		},
 		{
 			"text": "שְׁלוּחַ"
 		}

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B01370",
-	"slug": "בשר-3",
-	"headword": {
-		"text": "בְּשַׂר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּשַׂר ²",
+	"headwords": [
+		{
+			"text": "בְּשַׂר",
+			"disambiguator": 2
+		},
 		{
 			"text": "בְּסַר",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 199,
 		"column": "b"

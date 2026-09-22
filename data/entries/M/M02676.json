@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02676",
-	"slug": "מריעות",
-	"headword": {
-		"text": "מְרֵיעוּת"
-	},
+	"sefariaHeadword": "מְרֵיעוּת",
+	"headwords": [
+		{
+			"text": "מְרֵיעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

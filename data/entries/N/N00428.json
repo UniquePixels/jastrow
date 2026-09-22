@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00428",
-	"slug": "נזהא",
-	"headword": {
-		"text": "נִזְהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִזְהָא",
+	"headwords": [
 		{
-			"text": "נִיזְ׳"
+			"text": "נִזְהָא"
+		},
+		{
+			"text": "נִיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "b"

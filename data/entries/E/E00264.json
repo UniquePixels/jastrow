@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00264",
-	"slug": "הוצא-1",
-	"headword": {
-		"text": "הוּצָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הוּצָא I",
+	"headwords": [
+		{
+			"text": "הוּצָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 340,
 		"column": "a"

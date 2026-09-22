@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02583",
-	"slug": "מרוי",
-	"headword": {
-		"text": "מְרַוֵּי"
-	},
+	"sefariaHeadword": "מְרַוֵּי",
+	"headwords": [
+		{
+			"text": "מְרַוֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

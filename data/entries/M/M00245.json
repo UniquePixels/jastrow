@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00245",
-	"slug": "מדברי",
-	"headword": {
-		"text": "מִדְבָּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִדְבָּרִי",
+	"headwords": [
+		{
+			"text": "מִדְבָּרִי"
+		},
 		{
 			"text": "מִדְבָּרִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 731,
 		"column": "b"

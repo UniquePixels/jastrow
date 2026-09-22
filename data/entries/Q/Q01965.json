@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01965",
-	"slug": "פרפראות",
-	"headword": {
-		"text": "פּרְפְּרָאוֹת"
-	},
+	"sefariaHeadword": "פּרְפְּרָאוֹת",
+	"headwords": [
+		{
+			"text": "פּרְפְּרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1237,
 		"column": "a"

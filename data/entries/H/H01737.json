@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01737",
-	"slug": "חרספיתין",
-	"headword": {
-		"text": "חַרְסְפִיתִין"
-	},
+	"sefariaHeadword": "חַרְסְפִיתִין",
+	"headwords": [
+		{
+			"text": "חַרְסְפִיתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00378",
-	"slug": "לחתא",
-	"headword": {
-		"text": "לִחֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִחֲתָא",
+	"headwords": [
+		{
+			"text": "לִחֲתָא"
+		},
 		{
 			"text": "לִיחֲתָא"
 		},
 		{
-			"text": "לוּ׳"
+			"text": "לוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 705,
 		"column": "a"

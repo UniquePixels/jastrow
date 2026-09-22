@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01054",
-	"slug": "קינרסא",
-	"headword": {
-		"text": "קִינְרָסָא"
-	},
+	"sefariaHeadword": "קִינְרָסָא",
+	"headwords": [
+		{
+			"text": "קִינְרָסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

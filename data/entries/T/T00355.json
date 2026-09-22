@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00355",
-	"slug": "רוטבא",
-	"headword": {
-		"text": "רוֹטְבָא"
-	},
+	"sefariaHeadword": "רוֹטְבָא",
+	"headwords": [
+		{
+			"text": "רוֹטְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1459,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00915",
-	"slug": "נסא-2",
-	"headword": {
-		"text": "נָסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָסָא",
+	"headwords": [
+		{
+			"text": "נָסָא"
+		},
 		{
 			"text": "נְסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 915,
 		"column": "a"

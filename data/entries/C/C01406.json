@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01406",
-	"slug": "גרש-4",
-	"headword": {
-		"text": "גֶּרֶשׂ"
-	},
+	"sefariaHeadword": "גֶּרֶשׂ",
+	"headwords": [
+		{
+			"text": "גֶּרֶשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "b"

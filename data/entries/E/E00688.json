@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00688",
-	"slug": "הנף",
-	"headword": {
-		"text": "הָנֵף"
-	},
+	"sefariaHeadword": "הָנֵף",
+	"headwords": [
+		{
+			"text": "הָנֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 358,
 		"column": "b"

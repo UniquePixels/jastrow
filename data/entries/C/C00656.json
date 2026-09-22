@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00656",
-	"slug": "גיובריא",
-	"headword": {
-		"text": "גיובריא"
-	},
+	"sefariaHeadword": "גיובריא",
+	"headwords": [
+		{
+			"text": "גיובריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "a"

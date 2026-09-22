@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00366",
-	"slug": "היידינו",
-	"headword": {
-		"text": "הַיְידֵּינוּ"
-	},
+	"sefariaHeadword": "הַיְידֵּינוּ",
+	"headwords": [
+		{
+			"text": "הַיְידֵּינוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "b"

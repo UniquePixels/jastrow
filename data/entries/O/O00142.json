@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00142",
-	"slug": "סגיף",
-	"headword": {
-		"text": "סְגַיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגַיף",
+	"headwords": [
+		{
+			"text": "סְגַיף"
+		},
 		{
 			"text": "סַגִּיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 955,
 		"column": "a"

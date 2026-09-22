@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00783",
-	"slug": "צריפה-2",
-	"headword": {
-		"text": "צְרִיפָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְרִיפָה II",
+	"headwords": [
+		{
+			"text": "צְרִיפָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1302,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02862",
-	"slug": "משטח",
-	"headword": {
-		"text": "מִשְׁטֵחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁטֵחַ",
+	"headwords": [
+		{
+			"text": "מִשְׁטֵחַ"
+		},
 		{
 			"text": "מִשְׁטֵיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 851,
 		"column": "b"

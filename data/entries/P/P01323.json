@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01323",
-	"slug": "ערוך",
-	"headword": {
-		"text": "עֲרוֹךְ"
-	},
+	"sefariaHeadword": "עֲרוֹךְ",
+	"headwords": [
+		{
+			"text": "עֲרוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "a"

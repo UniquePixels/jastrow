@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00415",
-	"slug": "אדלקה",
-	"headword": {
-		"text": "אַדְלָקָה"
-	},
+	"sefariaHeadword": "אַדְלָקָה",
+	"headwords": [
+		{
+			"text": "אַדְלָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

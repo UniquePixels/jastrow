@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00910",
-	"slug": "גלוסקין",
-	"headword": {
-		"text": "גְּלוּסְקִין"
-	},
+	"sefariaHeadword": "גְּלוּסְקִין",
+	"headwords": [
+		{
+			"text": "גְּלוּסְקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

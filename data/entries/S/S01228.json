@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01228",
-	"slug": "קיתרס",
-	"headword": {
-		"text": "קִיתְרֹס"
-	},
+	"sefariaHeadword": "קִיתְרֹס",
+	"headwords": [
+		{
+			"text": "קִיתְרֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1371,
 		"column": "a"

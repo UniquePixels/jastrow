@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02770",
-	"slug": "אפף",
-	"headword": {
-		"text": "אָפַף"
-	},
+	"sefariaHeadword": "אָפַף",
+	"headwords": [
+		{
+			"text": "אָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 106,
 		"column": "b"

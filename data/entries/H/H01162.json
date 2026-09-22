@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01162",
-	"slug": "חמוק",
-	"headword": {
-		"text": "חַמּוּק"
-	},
+	"sefariaHeadword": "חַמּוּק",
+	"headwords": [
+		{
+			"text": "חַמּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "a"

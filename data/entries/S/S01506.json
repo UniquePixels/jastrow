@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01506",
-	"slug": "קן-3",
-	"headword": {
-		"text": "קֵן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵן ²",
+	"headwords": [
+		{
+			"text": "קֵן",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִנָּא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1387,
 		"column": "b"

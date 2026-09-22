@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01408",
-	"slug": "ספקא",
-	"headword": {
-		"text": "סְפֵקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפֵקָא",
+	"headwords": [
 		{
-			"text": "סְפֵי׳"
+			"text": "סְפֵקָא"
+		},
+		{
+			"text": "סְפֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1016,
 		"column": "b"

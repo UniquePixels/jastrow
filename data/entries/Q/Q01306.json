@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01306",
-	"slug": "פסיעה",
-	"headword": {
-		"text": "פְּסִיעָה"
-	},
+	"sefariaHeadword": "פְּסִיעָה",
+	"headwords": [
+		{
+			"text": "פְּסִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01035",
-	"slug": "רקיק",
-	"headword": {
-		"text": "רָקִיק"
-	},
+	"sefariaHeadword": "רָקִיק",
+	"headwords": [
+		{
+			"text": "רָקִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "a"

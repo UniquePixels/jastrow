@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00453",
-	"slug": "זכותא",
-	"headword": {
-		"text": "זְכוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְכוּתָא",
+	"headwords": [
+		{
+			"text": "זְכוּתָא"
+		},
 		{
 			"text": "זָכוּ"
 		},
@@ -12,6 +13,7 @@
 			"text": "זְכוּ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 398,
 		"column": "b"

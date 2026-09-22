@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00132",
-	"slug": "הדם-2",
-	"headword": {
-		"text": "הַדָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַדָּם",
+	"headwords": [
+		{
+			"text": "הַדָּם"
+		},
 		{
 			"text": "הַדָּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 333,
 		"column": "b"

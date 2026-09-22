@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "G00550",
-	"slug": "זמרא-4",
-	"headword": {
-		"text": "זִמְרָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִמְרָא ²",
+	"headwords": [
+		{
+			"text": "זִמְרָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "זִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 405,
 		"column": "b"

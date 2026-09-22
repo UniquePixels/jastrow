@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00613",
-	"slug": "טעמא",
-	"headword": {
-		"text": "טָעֲמָא"
-	},
+	"sefariaHeadword": "טָעֲמָא",
+	"headwords": [
+		{
+			"text": "טָעֲמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 544,
 		"column": "a"

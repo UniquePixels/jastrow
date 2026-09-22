@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00760",
-	"slug": "ביתור",
-	"headword": {
-		"text": "ביתור"
-	},
+	"sefariaHeadword": "ביתור",
+	"headwords": [
+		{
+			"text": "ביתור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"

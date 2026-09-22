@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02131",
-	"slug": "פתוותא",
-	"headword": {
-		"text": "פַּתְוָותָא"
-	},
+	"sefariaHeadword": "פַּתְוָותָא",
+	"headwords": [
+		{
+			"text": "פַּתְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

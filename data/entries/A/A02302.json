@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02302",
-	"slug": "אנש",
-	"headword": {
-		"text": "אֱנָשׁ"
-	},
+	"sefariaHeadword": "אֱנָשׁ",
+	"headwords": [
+		{
+			"text": "אֱנָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

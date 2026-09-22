@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00783",
-	"slug": "פיפיארות",
-	"headword": {
-		"text": "פִּיפְיָארוֹת"
-	},
+	"sefariaHeadword": "פִּיפְיָארוֹת",
+	"headwords": [
+		{
+			"text": "פִּיפְיָארוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

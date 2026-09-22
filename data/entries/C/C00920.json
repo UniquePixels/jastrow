@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00920",
-	"slug": "גלותא",
-	"headword": {
-		"text": "גָּלוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּלוּתָא",
+	"headwords": [
+		{
+			"text": "גָּלוּתָא"
+		},
 		{
 			"text": "גָּלוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 247,
 		"column": "a"

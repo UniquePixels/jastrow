@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00750",
-	"slug": "עכר-2",
-	"headword": {
-		"text": "עֲכַר"
-	},
+	"sefariaHeadword": "עֲכַר",
+	"headwords": [
+		{
+			"text": "עֲכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1079,
 		"column": "b"

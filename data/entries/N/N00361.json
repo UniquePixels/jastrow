@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00361",
-	"slug": "נוכתתא",
-	"headword": {
-		"text": "נוּכְתְּתָא"
-	},
+	"sefariaHeadword": "נוּכְתְּתָא",
+	"headwords": [
+		{
+			"text": "נוּכְתְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00318",
-	"slug": "רוגנג",
-	"headword": {
-		"text": "רַוְגְּנַג"
-	},
+	"sefariaHeadword": "רַוְגְּנַג",
+	"headwords": [
+		{
+			"text": "רַוְגְּנַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

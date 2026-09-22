@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00721",
-	"slug": "פינוי",
-	"headword": {
-		"text": "פִּינּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינּוּי",
+	"headwords": [
 		{
-			"text": "פִּנּ׳"
+			"text": "פִּינּוּי"
+		},
+		{
+			"text": "פִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "a"

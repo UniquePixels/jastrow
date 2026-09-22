@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02384",
-	"slug": "אסטמיתיה",
-	"headword": {
-		"text": "אסטמיתיה"
-	},
+	"sefariaHeadword": "אסטמיתיה",
+	"headwords": [
+		{
+			"text": "אסטמיתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

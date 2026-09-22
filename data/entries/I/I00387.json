@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00387",
-	"slug": "טימס",
-	"headword": {
-		"text": "טימס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טימס",
+	"headwords": [
+		{
+			"text": "טימס"
+		},
 		{
 			"text": "טימסמירות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "b"

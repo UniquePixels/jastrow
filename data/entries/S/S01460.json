@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01460",
-	"slug": "קמט-1",
-	"headword": {
-		"text": "קָמַט"
-	},
+	"sefariaHeadword": "קָמַט",
+	"headwords": [
+		{
+			"text": "קָמַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "b"

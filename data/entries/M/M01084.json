@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01084",
-	"slug": "מיגד",
-	"headword": {
-		"text": "מִיגְדּ־"
-	},
+	"sefariaHeadword": "מִיגְדּ־",
+	"headwords": [
+		{
+			"text": "מִיגְדּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "a"

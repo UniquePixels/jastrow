@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01281",
-	"slug": "כרת-3",
-	"headword": {
-		"text": "כְּרַת"
-	},
+	"sefariaHeadword": "כְּרַת",
+	"headwords": [
+		{
+			"text": "כְּרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 674,
 		"column": "b"

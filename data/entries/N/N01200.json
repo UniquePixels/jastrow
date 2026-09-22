@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01200",
-	"slug": "נקידא",
-	"headword": {
-		"text": "נְקִידָא"
-	},
+	"sefariaHeadword": "נְקִידָא",
+	"headwords": [
+		{
+			"text": "נְקִידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

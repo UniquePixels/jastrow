@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01717",
-	"slug": "מנדמטין",
-	"headword": {
-		"text": "מנדמטין"
-	},
+	"sefariaHeadword": "מנדמטין",
+	"headwords": [
+		{
+			"text": "מנדמטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 797,
 		"column": "a"

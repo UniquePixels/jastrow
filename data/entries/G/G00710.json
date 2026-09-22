@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00710",
-	"slug": "זריע",
-	"headword": {
-		"text": "זְרִיעַ"
-	},
+	"sefariaHeadword": "זְרִיעַ",
+	"headwords": [
+		{
+			"text": "זְרִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

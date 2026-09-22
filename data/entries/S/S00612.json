@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00612",
-	"slug": "קורינוס",
-	"headword": {
-		"text": "קורינוס"
-	},
+	"sefariaHeadword": "קורינוס",
+	"headwords": [
+		{
+			"text": "קורינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01656",
-	"slug": "איתנטייה",
-	"headword": {
-		"text": "איתנטייה"
-	},
+	"sefariaHeadword": "איתנטייה",
+	"headwords": [
+		{
+			"text": "איתנטייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

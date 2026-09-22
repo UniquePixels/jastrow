@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01008",
-	"slug": "שיפה-3",
-	"headword": {
-		"text": "שִׁיפָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שִׁיפָה ²",
+	"headwords": [
+		{
+			"text": "שִׁיפָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1566,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01535",
-	"slug": "סרגתא",
-	"headword": {
-		"text": "סְרִגְתָּא"
-	},
+	"sefariaHeadword": "סְרִגְתָּא",
+	"headwords": [
+		{
+			"text": "סְרִגְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00579",
-	"slug": "צמית",
-	"headword": {
-		"text": "צָמִית"
-	},
+	"sefariaHeadword": "צָמִית",
+	"headwords": [
+		{
+			"text": "צָמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"

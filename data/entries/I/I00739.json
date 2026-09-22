@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00739",
-	"slug": "טרוקנין",
-	"headword": {
-		"text": "טרוקנין"
-	},
+	"sefariaHeadword": "טרוקנין",
+	"headwords": [
+		{
+			"text": "טרוקנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

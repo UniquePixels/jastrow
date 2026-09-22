@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00741",
-	"slug": "הפך-2",
-	"headword": {
-		"text": "הֲפַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲפַךְ",
+	"headwords": [
+		{
+			"text": "הֲפַךְ"
+		},
 		{
 			"text": "הָפֵיךְ"
 		},
@@ -12,6 +13,7 @@
 			"text": "יַהֲפוֹךְ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 361,
 		"column": "a"

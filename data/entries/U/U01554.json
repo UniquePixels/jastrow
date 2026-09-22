@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01554",
-	"slug": "שמתי",
-	"headword": {
-		"text": "שַׁמָּתִי"
-	},
+	"sefariaHeadword": "שַׁמָּתִי",
+	"headwords": [
+		{
+			"text": "שַׁמָּתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "b"

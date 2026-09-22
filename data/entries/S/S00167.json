@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00167",
-	"slug": "קדקוד",
-	"headword": {
-		"text": "קָדְקוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָדְקוֹד",
+	"headwords": [
+		{
+			"text": "קָדְקוֹד"
+		},
 		{
 			"text": "קָדְקוֹדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1317,
 		"column": "b"

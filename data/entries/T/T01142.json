@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "T01142",
-	"slug": "רתמא",
-	"headword": {
-		"text": "רִתְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִתְמָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִתְמָא"
 		},
 		{
-			"text": "רוּ׳"
+			"text": "רִי׳",
+			"partial": true
+		},
+		{
+			"text": "רוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1503,
 		"column": "b"

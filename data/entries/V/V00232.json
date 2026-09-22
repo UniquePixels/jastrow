@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00232",
-	"slug": "תומנתא",
-	"headword": {
-		"text": "תּוֹמַנְתָּא"
-	},
+	"sefariaHeadword": "תּוֹמַנְתָּא",
+	"headwords": [
+		{
+			"text": "תּוֹמַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00231",
-	"slug": "מדא",
-	"headword": {
-		"text": "מַדָּא"
-	},
+	"sefariaHeadword": "מַדָּא",
+	"headwords": [
+		{
+			"text": "מַדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "a"

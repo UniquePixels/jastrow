@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00212",
-	"slug": "זונרא",
-	"headword": {
-		"text": "זוֹנָרָא"
-	},
+	"sefariaHeadword": "זוֹנָרָא",
+	"headwords": [
+		{
+			"text": "זוֹנָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

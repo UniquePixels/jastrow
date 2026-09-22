@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02096",
-	"slug": "קרמינאי",
-	"headword": {
-		"text": "קַרְמִינָאֵי"
-	},
+	"sefariaHeadword": "קַרְמִינָאֵי",
+	"headwords": [
+		{
+			"text": "קַרְמִינָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1422,
 		"column": "a"

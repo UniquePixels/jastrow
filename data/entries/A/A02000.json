@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02000",
-	"slug": "אמון-2",
-	"headword": {
-		"text": "אָמוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אָמוֹן II",
+	"headwords": [
+		{
+			"text": "אָמוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 76,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

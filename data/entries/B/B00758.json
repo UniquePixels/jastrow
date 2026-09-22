@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00758",
-	"slug": "ביתוס",
-	"headword": {
-		"text": "בַּיְתוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּיְתוֹס",
+	"headwords": [
+		{
+			"text": "בַּיְתוֹס"
+		},
 		{
 			"text": "בַּיְיתוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 168,
 		"column": "b"

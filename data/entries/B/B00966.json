@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00966",
-	"slug": "בנרייתא",
-	"headword": {
-		"text": "בַּנַּרְיָיתָא"
-	},
+	"sefariaHeadword": "בַּנַּרְיָיתָא",
+	"headwords": [
+		{
+			"text": "בַּנַּרְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

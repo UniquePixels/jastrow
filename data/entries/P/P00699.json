@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00699",
-	"slug": "עיש",
-	"headword": {
-		"text": "עַיִשׁ"
-	},
+	"sefariaHeadword": "עַיִשׁ",
+	"headwords": [
+		{
+			"text": "עַיִשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01447",
-	"slug": "איסטנינותיא",
-	"headword": {
-		"text": "איסטנינותיא"
-	},
+	"sefariaHeadword": "איסטנינותיא",
+	"headwords": [
+		{
+			"text": "איסטנינותיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

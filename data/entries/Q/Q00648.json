@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00648",
-	"slug": "פיילדה",
-	"headword": {
-		"text": "פיילדה"
-	},
+	"sefariaHeadword": "פיילדה",
+	"headwords": [
+		{
+			"text": "פיילדה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "b"

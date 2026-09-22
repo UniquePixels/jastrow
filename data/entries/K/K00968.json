@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00968",
-	"slug": "כען",
-	"headword": {
-		"text": "כְּעַן"
-	},
+	"sefariaHeadword": "כְּעַן",
+	"headwords": [
+		{
+			"text": "כְּעַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

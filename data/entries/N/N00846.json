@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00846",
-	"slug": "נכר-2",
-	"headword": {
-		"text": "נְכַר"
-	},
+	"sefariaHeadword": "נְכַר",
+	"headwords": [
+		{
+			"text": "נְכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 912,
 		"column": "a"

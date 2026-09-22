@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00392",
-	"slug": "חומרא-1",
-	"headword": {
-		"text": "חוּמְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חוּמְרָא I",
+	"headwords": [
+		{
+			"text": "חוּמְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 436,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02072",
-	"slug": "אמת",
-	"headword": {
-		"text": "אֱמֶת"
-	},
+	"sefariaHeadword": "אֱמֶת",
+	"headwords": [
+		{
+			"text": "אֱמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "b"

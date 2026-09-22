@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02609",
-	"slug": "אפוזיינו",
-	"headword": {
-		"text": "אפוזיינו"
-	},
+	"sefariaHeadword": "אפוזיינו",
+	"headwords": [
+		{
+			"text": "אפוזיינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

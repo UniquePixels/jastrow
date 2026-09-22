@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N01088",
-	"slug": "נפתוחא",
-	"headword": {
-		"text": "נַפְתּוֹחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַפְתּוֹחָא",
+	"headwords": [
+		{
+			"text": "נַפְתּוֹחָא"
+		},
 		{
 			"text": "נַפְתּוֹחָאָה"
 		},
 		{
-			"text": "נַפְתֹּחָ׳"
+			"text": "נַפְתֹּחָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 927,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00403",
-	"slug": "שויסקאל",
-	"headword": {
-		"text": "שְׁוִיסְקְאֵל"
-	},
+	"sefariaHeadword": "שְׁוִיסְקְאֵל",
+	"headwords": [
+		{
+			"text": "שְׁוִיסְקְאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

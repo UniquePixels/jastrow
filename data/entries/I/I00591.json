@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00591",
-	"slug": "טסים",
-	"headword": {
-		"text": "טסים"
-	},
+	"sefariaHeadword": "טסים",
+	"headwords": [
+		{
+			"text": "טסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "a"

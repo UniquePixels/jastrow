@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00507",
-	"slug": "רחיק-2",
-	"headword": {
-		"text": "רָחִיק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָחִיק I",
+	"headwords": [
+		{
+			"text": "רָחִיק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1466,
 		"column": "b"

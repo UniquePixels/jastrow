@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01033",
-	"slug": "דרבן",
-	"headword": {
-		"text": "דָּֽרְבָן"
-	},
+	"sefariaHeadword": "דָּֽרְבָן",
+	"headwords": [
+		{
+			"text": "דָּֽרְבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "b"

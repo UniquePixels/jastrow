@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03046",
-	"slug": "מתי-3",
-	"headword": {
-		"text": "מָתַי"
-	},
+	"sefariaHeadword": "מָתַי",
+	"headwords": [
+		{
+			"text": "מָתַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 861,
 		"column": "b"

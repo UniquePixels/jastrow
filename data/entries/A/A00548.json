@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00548",
-	"slug": "אוגר-2",
-	"headword": {
-		"text": "אוֹגַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹגַר ²",
+	"headwords": [
+		{
+			"text": "אוֹגַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "אוֹגְרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 22,
 		"column": "a"

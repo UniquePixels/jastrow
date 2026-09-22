@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00294",
-	"slug": "לוניא",
-	"headword": {
-		"text": "לוּנְיָא"
-	},
+	"sefariaHeadword": "לוּנְיָא",
+	"headwords": [
+		{
+			"text": "לוּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

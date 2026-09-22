@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00418",
-	"slug": "עזק-1",
-	"headword": {
-		"text": "עָזַק"
-	},
+	"sefariaHeadword": "עָזַק",
+	"headwords": [
+		{
+			"text": "עָזַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "a"

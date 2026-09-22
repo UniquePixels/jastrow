@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01550",
-	"slug": "חקולא-2",
-	"headword": {
-		"text": "חֲקוּלָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲקוּלָא II",
+	"headwords": [
+		{
+			"text": "חֲקוּלָא",
+			"homograph": 2
+		},
 		{
 			"text": "חֲקוּלַאי"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 496,
 		"column": "b"

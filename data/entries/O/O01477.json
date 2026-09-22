@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01477",
-	"slug": "סקיפטורין",
-	"headword": {
-		"text": "סְקִיפְטוֹרִין"
-	},
+	"sefariaHeadword": "סְקִיפְטוֹרִין",
+	"headwords": [
+		{
+			"text": "סְקִיפְטוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

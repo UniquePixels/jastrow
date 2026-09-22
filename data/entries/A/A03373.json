@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03373",
-	"slug": "אשתומם",
-	"headword": {
-		"text": "אֶשְׁתּוֹמַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשְׁתּוֹמַם",
+	"headwords": [
 		{
-			"text": "אֶישְׁ׳"
+			"text": "אֶשְׁתּוֹמַם"
+		},
+		{
+			"text": "אֶישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 131,
 		"column": "a"

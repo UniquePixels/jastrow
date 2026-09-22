@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00339",
-	"slug": "מדרתא",
-	"headword": {
-		"text": "מדרתא"
-	},
+	"sefariaHeadword": "מדרתא",
+	"headwords": [
+		{
+			"text": "מדרתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 736,
 		"column": "a"

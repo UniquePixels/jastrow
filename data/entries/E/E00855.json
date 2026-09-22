@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00855",
-	"slug": "הרחקה",
-	"headword": {
-		"text": "הַרְחָקה"
-	},
+	"sefariaHeadword": "הַרְחָקה",
+	"headwords": [
+		{
+			"text": "הַרְחָקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "a"

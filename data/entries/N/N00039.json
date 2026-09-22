@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00039",
-	"slug": "נבג",
-	"headword": {
-		"text": "נְבַג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבַג",
+	"headwords": [
+		{
+			"text": "נְבַג"
+		},
 		{
 			"text": "נְבוֹג"
 		},
@@ -12,6 +13,7 @@
 			"text": "נְבֵיג"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 867,
 		"column": "a"

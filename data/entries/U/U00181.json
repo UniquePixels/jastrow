@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00181",
-	"slug": "שברון",
-	"headword": {
-		"text": "שִׁבָּרוֹן"
-	},
+	"sefariaHeadword": "שִׁבָּרוֹן",
+	"headwords": [
+		{
+			"text": "שִׁבָּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1518,
 		"column": "a"

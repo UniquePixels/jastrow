@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00585",
-	"slug": "סידקית",
-	"headword": {
-		"text": "סִידְקִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִידְקִית",
+	"headwords": [
 		{
-			"text": "סִדְ׳"
+			"text": "סִידְקִית"
+		},
+		{
+			"text": "סִדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 976,
 		"column": "b"

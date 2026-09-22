@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00217",
-	"slug": "אברורי",
-	"headword": {
-		"text": "אַבְרוּרֵי"
-	},
+	"sefariaHeadword": "אַבְרוּרֵי",
+	"headwords": [
+		{
+			"text": "אַבְרוּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

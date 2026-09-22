@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01141",
-	"slug": "שכחן",
-	"headword": {
-		"text": "שַׁכְחָן"
-	},
+	"sefariaHeadword": "שַׁכְחָן",
+	"headwords": [
+		{
+			"text": "שַׁכְחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1572,
 		"column": "b"

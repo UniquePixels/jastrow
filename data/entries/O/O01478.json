@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01478",
-	"slug": "סקיפטיות",
-	"headword": {
-		"text": "סקיפטיות"
-	},
+	"sefariaHeadword": "סקיפטיות",
+	"headwords": [
+		{
+			"text": "סקיפטיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

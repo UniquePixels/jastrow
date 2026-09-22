@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00709",
-	"slug": "ישרות",
-	"headword": {
-		"text": "יַשְׁרוּת"
-	},
+	"sefariaHeadword": "יַשְׁרוּת",
+	"headwords": [
+		{
+			"text": "יַשְׁרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 602,
 		"column": "a"

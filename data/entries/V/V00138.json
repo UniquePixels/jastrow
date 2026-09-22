@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00138",
-	"slug": "תוא-3",
-	"headword": {
-		"text": "תְּוָא"
-	},
+	"sefariaHeadword": "תְּוָא",
+	"headwords": [
+		{
+			"text": "תְּוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "b"

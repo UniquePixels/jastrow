@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "O00913",
-	"slug": "סכלא-1",
-	"headword": {
-		"text": "סִכְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכְלָא",
+	"headwords": [
 		{
-			"text": "סוּכְ׳"
+			"text": "סִכְלָא"
 		},
 		{
-			"text": "שִׂ׳"
+			"text": "סוּכְ׳",
+			"partial": true
 		},
 		{
-			"text": "שׂוּ׳"
+			"text": "שִׂ׳",
+			"partial": true
+		},
+		{
+			"text": "שׂוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 991,
 		"column": "a"

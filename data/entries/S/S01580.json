@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01580",
-	"slug": "קניות",
-	"headword": {
-		"text": "קניות"
-	},
+	"sefariaHeadword": "קניות",
+	"headwords": [
+		{
+			"text": "קניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "b"

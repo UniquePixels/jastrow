@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00090",
-	"slug": "מבסימא",
-	"headword": {
-		"text": "מַבְסִימָא"
-	},
+	"sefariaHeadword": "מַבְסִימָא",
+	"headwords": [
+		{
+			"text": "מַבְסִימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

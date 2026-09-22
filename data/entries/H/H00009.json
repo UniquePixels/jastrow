@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00009",
-	"slug": "חבא-1",
-	"headword": {
-		"text": "חָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָבָא",
+	"headwords": [
+		{
+			"text": "חָבָא"
+		},
 		{
 			"text": "חֲבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 415,
 		"column": "b"

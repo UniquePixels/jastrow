@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00085",
-	"slug": "טבעים",
-	"headword": {
-		"text": "טִבְעִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִבְעִים",
+	"headwords": [
+		{
+			"text": "טִבְעִים"
+		},
 		{
 			"text": "טִבְעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 519,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01896",
-	"slug": "קרבן-1",
-	"headword": {
-		"text": "קָרְבָּן"
-	},
+	"sefariaHeadword": "קָרְבָּן",
+	"headwords": [
+		{
+			"text": "קָרְבָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1411,
 		"column": "b"

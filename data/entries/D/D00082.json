@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00082",
-	"slug": "דברא-3",
-	"headword": {
-		"text": "דַּבְרָא"
-	},
+	"sefariaHeadword": "דַּבְרָא",
+	"headwords": [
+		{
+			"text": "דַּבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "a"

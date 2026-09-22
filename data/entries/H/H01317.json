@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01317",
-	"slug": "חנסי",
-	"headword": {
-		"text": "חנסי"
-	},
+	"sefariaHeadword": "חנסי",
+	"headwords": [
+		{
+			"text": "חנסי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 484,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00642",
-	"slug": "ירך-1",
-	"headword": {
-		"text": "יָרֵךְ"
-	},
+	"sefariaHeadword": "יָרֵךְ",
+	"headwords": [
+		{
+			"text": "יָרֵךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 597,
 		"column": "a"

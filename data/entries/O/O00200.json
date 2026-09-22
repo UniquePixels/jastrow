@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00200",
-	"slug": "סדר-2",
-	"headword": {
-		"text": "סְדַר"
-	},
+	"sefariaHeadword": "סְדַר",
+	"headwords": [
+		{
+			"text": "סְדַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 958,
 		"column": "b"

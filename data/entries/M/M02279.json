@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02279",
-	"slug": "מצוגא",
-	"headword": {
-		"text": "מְצוֹגָא"
-	},
+	"sefariaHeadword": "מְצוֹגָא",
+	"headwords": [
+		{
+			"text": "מְצוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "b"

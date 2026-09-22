@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01096",
-	"slug": "אטלקותא",
-	"headword": {
-		"text": "אִטְלָקוּתא"
-	},
+	"sefariaHeadword": "אִטְלָקוּתא",
+	"headwords": [
+		{
+			"text": "אִטְלָקוּתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "a"

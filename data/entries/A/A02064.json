@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02064",
-	"slug": "אמר-5",
-	"headword": {
-		"text": "אִמַּר"
-	},
+	"sefariaHeadword": "אִמַּר",
+	"headwords": [
+		{
+			"text": "אִמַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "a"

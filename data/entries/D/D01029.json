@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01029",
-	"slug": "דרא-3",
-	"headword": {
-		"text": "דרא"
-	},
+	"sefariaHeadword": "דרא",
+	"headwords": [
+		{
+			"text": "דרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "b"

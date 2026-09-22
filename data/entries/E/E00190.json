@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00190",
-	"slug": "הוברים",
-	"headword": {
-		"text": "הוֹבְרִים"
-	},
+	"sefariaHeadword": "הוֹבְרִים",
+	"headwords": [
+		{
+			"text": "הוֹבְרִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "b"

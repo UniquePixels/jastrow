@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00835",
-	"slug": "שיוויא",
-	"headword": {
-		"text": "שִׁיוְוָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיוְוָיא",
+	"headwords": [
+		{
+			"text": "שִׁיוְוָיא"
+		},
 		{
 			"text": "שִׁיוּוּיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1558,
 		"column": "b"

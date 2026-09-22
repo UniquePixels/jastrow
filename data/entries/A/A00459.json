@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00459",
-	"slug": "אדריאנטין",
-	"headword": {
-		"text": "אדריאנטין"
-	},
+	"sefariaHeadword": "אדריאנטין",
+	"headwords": [
+		{
+			"text": "אדריאנטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 18,
 		"column": "b"

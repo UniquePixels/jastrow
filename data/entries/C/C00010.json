@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00010",
-	"slug": "גאולתא",
-	"headword": {
-		"text": "גְּאוּלְתָּא"
-	},
+	"sefariaHeadword": "גְּאוּלְתָּא",
+	"headwords": [
+		{
+			"text": "גְּאוּלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "a"

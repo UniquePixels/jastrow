@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00674",
-	"slug": "ריעי",
-	"headword": {
-		"text": "רֵיעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵיעִי",
+	"headwords": [
+		{
+			"text": "רֵיעִי"
+		},
 		{
 			"text": "רֵיעֲיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "רִיעְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1476,
 		"column": "a"

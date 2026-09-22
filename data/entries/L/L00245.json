@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00245",
-	"slug": "לוטריא",
-	"headword": {
-		"text": "לוטריא"
-	},
+	"sefariaHeadword": "לוטריא",
+	"headwords": [
+		{
+			"text": "לוטריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 697,
 		"column": "a"

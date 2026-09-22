@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01264",
-	"slug": "פסטין",
-	"headword": {
-		"text": "פִּסְטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּסְטִין",
+	"headwords": [
+		{
+			"text": "פִּסְטִין"
+		},
 		{
 			"text": "פִּסְטִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1194,
 		"column": "a"

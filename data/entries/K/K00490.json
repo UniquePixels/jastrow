@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00490",
-	"slug": "כיד-2",
-	"headword": {
-		"text": "כִּיד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיד ²",
+	"headwords": [
+		{
+			"text": "כִּיד",
+			"disambiguator": 2
+		},
 		{
 			"text": "כִּיד־"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 630,
 		"column": "b"

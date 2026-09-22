@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00979",
-	"slug": "סליו-1",
-	"headword": {
-		"text": "סְלָיו"
-	},
+	"sefariaHeadword": "סְלָיו",
+	"headwords": [
+		{
+			"text": "סְלָיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

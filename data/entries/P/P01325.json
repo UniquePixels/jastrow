@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01325",
-	"slug": "ערום-1",
-	"headword": {
-		"text": "עָרוּם"
-	},
+	"sefariaHeadword": "עָרוּם",
+	"headwords": [
+		{
+			"text": "עָרוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "a"

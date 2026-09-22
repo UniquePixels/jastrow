@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00567",
-	"slug": "כינויא",
-	"headword": {
-		"text": "כִּינּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינּוּיָא",
+	"headwords": [
 		{
-			"text": "כִּנּ׳"
+			"text": "כִּינּוּיָא"
+		},
+		{
+			"text": "כִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

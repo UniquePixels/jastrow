@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01108",
-	"slug": "בצר-4",
-	"headword": {
-		"text": "בֶּצֶר"
-	},
+	"sefariaHeadword": "בֶּצֶר",
+	"headwords": [
+		{
+			"text": "בֶּצֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 185,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00292",
-	"slug": "זיהמומי",
-	"headword": {
-		"text": "זִיהֲמוּמֵי"
-	},
+	"sefariaHeadword": "זִיהֲמוּמֵי",
+	"headwords": [
+		{
+			"text": "זִיהֲמוּמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

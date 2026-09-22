@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01575",
-	"slug": "איצבתו",
-	"headword": {
-		"text": "איצבתו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "איצבתו",
+	"headwords": [
+		{
+			"text": "איצבתו"
+		},
 		{
 			"text": "אִיצַבְתִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 59,
 		"column": "b"

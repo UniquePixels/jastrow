@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00228",
-	"slug": "חו",
-	"headword": {
-		"text": "חוּ"
-	},
+	"sefariaHeadword": "חוּ",
+	"headwords": [
+		{
+			"text": "חוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 428,
 		"column": "a"

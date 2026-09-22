@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00657",
-	"slug": "לפתנא",
-	"headword": {
-		"text": "לִפְתָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִפְתָּנָא",
+	"headwords": [
 		{
-			"text": "לִיפְ׳"
+			"text": "לִפְתָּנָא"
+		},
+		{
+			"text": "לִיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 716,
 		"column": "b"

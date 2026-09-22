@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U00069",
-	"slug": "שבהור",
-	"headword": {
-		"text": "שִׁבְהוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבְהוֹר",
+	"headwords": [
+		{
+			"text": "שִׁבְהוֹר"
+		},
 		{
 			"text": "שִׁבְהוֹרָא"
 		},
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1510,
 		"column": "a"

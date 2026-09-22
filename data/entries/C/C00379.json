@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00379",
-	"slug": "גולגל",
-	"headword": {
-		"text": "גולגל"
-	},
+	"sefariaHeadword": "גולגל",
+	"headwords": [
+		{
+			"text": "גולגל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

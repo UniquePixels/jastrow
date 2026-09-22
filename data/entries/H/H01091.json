@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01091",
-	"slug": "חלמון",
-	"headword": {
-		"text": "חֶלְמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶלְמוֹן",
+	"headwords": [
 		{
-			"text": "הֶלְ׳"
+			"text": "חֶלְמוֹן"
+		},
+		{
+			"text": "הֶלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 471,
 		"column": "a"

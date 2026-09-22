@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00650",
-	"slug": "צעה",
-	"headword": {
-		"text": "צעה"
-	},
+	"sefariaHeadword": "צעה",
+	"headwords": [
+		{
+			"text": "צעה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

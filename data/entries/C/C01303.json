@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01303",
-	"slug": "גרונא",
-	"headword": {
-		"text": "גָּרוֹנָא"
-	},
+	"sefariaHeadword": "גָּרוֹנָא",
+	"headwords": [
+		{
+			"text": "גָּרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "b"

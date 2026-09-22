@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00653",
-	"slug": "אוכמתי",
-	"headword": {
-		"text": "אוּכַּמְתִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּכַּמְתִּי",
+	"headwords": [
+		{
+			"text": "אוּכַּמְתִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02464",
-	"slug": "אסלטין",
-	"headword": {
-		"text": "אסלטין"
-	},
+	"sefariaHeadword": "אסלטין",
+	"headwords": [
+		{
+			"text": "אסלטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "b"

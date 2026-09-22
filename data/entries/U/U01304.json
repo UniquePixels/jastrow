@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01304",
-	"slug": "שליו-2",
-	"headword": {
-		"text": "שָׁלֵיו"
-	},
+	"sefariaHeadword": "שָׁלֵיו",
+	"headwords": [
+		{
+			"text": "שָׁלֵיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00006",
-	"slug": "שאבתא",
-	"headword": {
-		"text": "שָׁאֵבְתָּא"
-	},
+	"sefariaHeadword": "שָׁאֵבְתָּא",
+	"headwords": [
+		{
+			"text": "שָׁאֵבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "a"

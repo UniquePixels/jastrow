@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01163",
-	"slug": "עקומה",
-	"headword": {
-		"text": "עֲקוּמָּה"
-	},
+	"sefariaHeadword": "עֲקוּמָּה",
+	"headwords": [
+		{
+			"text": "עֲקוּמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

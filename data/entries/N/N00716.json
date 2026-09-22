@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00716",
-	"slug": "ניסרוי",
-	"headword": {
-		"text": "ניסרוי"
-	},
+	"sefariaHeadword": "ניסרוי",
+	"headwords": [
+		{
+			"text": "ניסרוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00666",
-	"slug": "תמורא",
-	"headword": {
-		"text": "תְּמוֹרָא"
-	},
+	"sefariaHeadword": "תְּמוֹרָא",
+	"headwords": [
+		{
+			"text": "תְּמוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1676,
 		"column": "a"

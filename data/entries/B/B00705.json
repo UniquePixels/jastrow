@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00705",
-	"slug": "בירן",
-	"headword": {
-		"text": "בירן"
-	},
+	"sefariaHeadword": "בירן",
+	"headwords": [
+		{
+			"text": "בירן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "b"

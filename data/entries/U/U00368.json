@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00368",
-	"slug": "שוחה-2",
-	"headword": {
-		"text": "שׁוּחָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שׁוּחָה ²",
+	"headwords": [
+		{
+			"text": "שׁוּחָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1531,
 		"column": "a"

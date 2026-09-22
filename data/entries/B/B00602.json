@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00602",
-	"slug": "ביישוני",
-	"headword": {
-		"text": "בַּיְישׁוֹנִי"
-	},
+	"sefariaHeadword": "בַּיְישֹׁונִי",
+	"headwords": [
+		{
+			"text": "בַּיְישׁוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

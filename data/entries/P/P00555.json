@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00555",
-	"slug": "עייק",
-	"headword": {
-		"text": "עָיִיק"
-	},
+	"sefariaHeadword": "עָיִיק",
+	"headwords": [
+		{
+			"text": "עָיִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"

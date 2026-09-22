@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00610",
-	"slug": "גיב-2",
-	"headword": {
-		"text": "גִּיב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גִּיב II",
+	"headwords": [
+		{
+			"text": "גִּיב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 234,
 		"column": "a"

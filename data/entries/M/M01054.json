@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01054",
-	"slug": "מטרדה",
-	"headword": {
-		"text": "מִטְרְדָה"
-	},
+	"sefariaHeadword": "מִטְרְדָה",
+	"headwords": [
+		{
+			"text": "מִטְרְדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 769,
 		"column": "b"

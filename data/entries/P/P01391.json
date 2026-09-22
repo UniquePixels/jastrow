@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01391",
-	"slug": "ערם-2",
-	"headword": {
-		"text": "עָרַם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָרַם II",
+	"headwords": [
+		{
+			"text": "עָרַם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1120,
 		"column": "a"

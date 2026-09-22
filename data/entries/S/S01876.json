@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01876",
-	"slug": "קרא-4",
-	"headword": {
-		"text": "קְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרָא II",
+	"headwords": [
+		{
+			"text": "קְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "קְרָאָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1409,
 		"column": "b"

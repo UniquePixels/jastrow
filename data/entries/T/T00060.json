@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00060",
-	"slug": "רבה-3",
-	"headword": {
-		"text": "רַבָּה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רַבָּה I",
+	"headwords": [
+		{
+			"text": "רַבָּה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1439,
 		"column": "b"

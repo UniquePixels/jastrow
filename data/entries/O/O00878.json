@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00878",
-	"slug": "סכוי",
-	"headword": {
-		"text": "סִכּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכּוּי",
+	"headwords": [
+		{
+			"text": "סִכּוּי"
+		},
 		{
 			"text": "סִכּוּיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "סִכּוּךְ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 989,
 		"column": "a"

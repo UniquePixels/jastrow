@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02019",
-	"slug": "מסרהוון",
-	"headword": {
-		"text": "מְסַרְהֲוָון"
-	},
+	"sefariaHeadword": "מְסַרְהֲוָון",
+	"headwords": [
+		{
+			"text": "מְסַרְהֲוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

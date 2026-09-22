@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02141",
-	"slug": "פתוראה",
-	"headword": {
-		"text": "פְּתוֹרָאָה"
-	},
+	"sefariaHeadword": "פְּתוֹרָאָה",
+	"headwords": [
+		{
+			"text": "פְּתוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1251,
 		"column": "a"

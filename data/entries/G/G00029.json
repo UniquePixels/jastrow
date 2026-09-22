@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00029",
-	"slug": "זבזגא",
-	"headword": {
-		"text": "זַבְזְגָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*זַבְזְגָא",
+	"headwords": [
+		{
+			"text": "זַבְזְגָא",
+			"reconstructed": true
+		},
 		{
 			"text": "זַבְזְגֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 378,
 		"column": "b"

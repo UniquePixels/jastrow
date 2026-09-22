@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01046",
-	"slug": "שיקור-1",
-	"headword": {
-		"text": "שִׁיקּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיקּוּר",
+	"headwords": [
+		{
+			"text": "שִׁיקּוּר"
+		},
 		{
 			"text": "שִׁקּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1567,
 		"column": "b"

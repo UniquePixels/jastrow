@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00263",
-	"slug": "פונדיק",
-	"headword": {
-		"text": "פּוּנְדֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּנְדֵּיק",
+	"headwords": [
+		{
+			"text": "פּוּנְדֵּיק"
+		},
 		{
 			"text": "פּוּנְדֵּיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1143,
 		"column": "b"

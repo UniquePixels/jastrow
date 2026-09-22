@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01716",
-	"slug": "אכנגר",
-	"headword": {
-		"text": "אֲכַנְגַּר"
-	},
+	"sefariaHeadword": "אֲכַנְגַּר",
+	"headwords": [
+		{
+			"text": "אֲכַנְגַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

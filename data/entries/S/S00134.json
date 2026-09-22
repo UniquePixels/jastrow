@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00134",
-	"slug": "קדידה",
-	"headword": {
-		"text": "קְדִידָה"
-	},
+	"sefariaHeadword": "קְדִידָה",
+	"headwords": [
+		{
+			"text": "קְדִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

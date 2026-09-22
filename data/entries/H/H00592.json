@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00592",
-	"slug": "חטבא",
-	"headword": {
-		"text": "חֲטָבָא"
-	},
+	"sefariaHeadword": "חֲטָבָא",
+	"headwords": [
+		{
+			"text": "חֲטָבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "b"

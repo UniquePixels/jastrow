@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01426",
-	"slug": "קלש",
-	"headword": {
-		"text": "קְלַשׁ"
-	},
+	"sefariaHeadword": "קְלַשׁ",
+	"headwords": [
+		{
+			"text": "קְלַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "a"

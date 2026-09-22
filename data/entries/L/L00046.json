@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00046",
-	"slug": "לבדניא",
-	"headword": {
-		"text": "לבדניא"
-	},
+	"sefariaHeadword": "לבדניא",
+	"headwords": [
+		{
+			"text": "לבדניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "b"

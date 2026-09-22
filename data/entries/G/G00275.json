@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00275",
-	"slug": "זיגד",
-	"headword": {
-		"text": "זִיגָּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיגָּד",
+	"headwords": [
+		{
+			"text": "זִיגָּד"
+		},
 		{
 			"text": "זִיגּוֹד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 391,
 		"column": "a"

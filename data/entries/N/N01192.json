@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01192",
-	"slug": "נקטמון",
-	"headword": {
-		"text": "נְקַטְמוֹן"
-	},
+	"sefariaHeadword": "נְקַטְמוֹן",
+	"headwords": [
+		{
+			"text": "נְקַטְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 932,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00239",
-	"slug": "טורנא",
-	"headword": {
-		"text": "טוּרָנָא"
-	},
+	"sefariaHeadword": "טוּרָנָא",
+	"headwords": [
+		{
+			"text": "טוּרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

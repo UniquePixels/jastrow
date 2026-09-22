@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02623",
-	"slug": "אפולמוטוס",
-	"headword": {
-		"text": "אפולמוטוס"
-	},
+	"sefariaHeadword": "אפולמוטוס",
+	"headwords": [
+		{
+			"text": "אפולמוטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

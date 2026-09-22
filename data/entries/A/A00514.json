@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00514",
-	"slug": "אהרן",
-	"headword": {
-		"text": "אַהֲרֹן"
-	},
+	"sefariaHeadword": "אַהֲרֹן",
+	"headwords": [
+		{
+			"text": "אַהֲרֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

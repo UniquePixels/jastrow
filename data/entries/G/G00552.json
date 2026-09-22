@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00552",
-	"slug": "זמרגדין",
-	"headword": {
-		"text": "זְמַרַגְדִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְמַרַגְדִּין",
+	"headwords": [
+		{
+			"text": "זְמַרַגְדִּין"
+		},
 		{
 			"text": "זְמַרְגַּדִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 405,
 		"column": "b"

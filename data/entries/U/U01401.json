@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01401",
-	"slug": "שלשלת",
-	"headword": {
-		"text": "שַׁלְשֶׁלֶת"
-	},
+	"sefariaHeadword": "שַׁלְשֶׁלֶת",
+	"headwords": [
+		{
+			"text": "שַׁלְשֶׁלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1590,
 		"column": "a"

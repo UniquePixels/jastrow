@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00707",
-	"slug": "שחר-4",
-	"headword": {
-		"text": "שְׁחַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שְׁחַר ²",
+	"headwords": [
+		{
+			"text": "שְׁחַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1551,
 		"column": "b"

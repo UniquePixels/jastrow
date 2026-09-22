@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01129",
-	"slug": "עצמוני",
-	"headword": {
-		"text": "עַצְמוֹנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַצְמוֹנִי",
+	"headwords": [
+		{
+			"text": "עַצְמוֹנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1103,
 		"column": "a"

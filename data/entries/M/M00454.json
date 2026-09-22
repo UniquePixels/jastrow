@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00454",
-	"slug": "מוח-2",
-	"headword": {
-		"text": "מוֹחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹחַ ²",
+	"headwords": [
+		{
+			"text": "מוֹחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹחָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 740,
 		"column": "a"

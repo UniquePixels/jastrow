@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02140",
-	"slug": "מעלעלא",
-	"headword": {
-		"text": "מְעַלְעֲלָא"
-	},
+	"sefariaHeadword": "מְעַלְעֲלָא",
+	"headwords": [
+		{
+			"text": "מְעַלְעֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 817,
 		"column": "b"

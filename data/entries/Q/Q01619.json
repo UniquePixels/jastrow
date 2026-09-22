@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01619",
-	"slug": "פרוגין",
-	"headword": {
-		"text": "פרוגין"
-	},
+	"sefariaHeadword": "פרוגין",
+	"headwords": [
+		{
+			"text": "פרוגין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00163",
-	"slug": "זוטרא",
-	"headword": {
-		"text": "זוּטְרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּטְרָא II",
+	"headwords": [
+		{
+			"text": "זוּטְרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 386,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02707",
-	"slug": "מרכל",
-	"headword": {
-		"text": "מַרְכָּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְכָּל",
+	"headwords": [
+		{
+			"text": "מַרְכָּל"
+		},
 		{
 			"text": "מַרְכּוֹל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 844,
 		"column": "b"

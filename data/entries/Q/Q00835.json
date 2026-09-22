@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00835",
-	"slug": "פירוזג",
-	"headword": {
-		"text": "פִּירוֹזָג"
-	},
+	"sefariaHeadword": "פִּירוֹזָג",
+	"headwords": [
+		{
+			"text": "פִּירוֹזָג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "b"

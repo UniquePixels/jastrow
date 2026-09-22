@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01749",
-	"slug": "שפיכה",
-	"headword": {
-		"text": "שְׁפִיכָה"
-	},
+	"sefariaHeadword": "שְׁפִיכָה",
+	"headwords": [
+		{
+			"text": "שְׁפִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1616,
 		"column": "a"

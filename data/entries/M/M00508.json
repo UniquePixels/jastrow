@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00508",
-	"slug": "מולישות",
-	"headword": {
-		"text": "מולישות"
-	},
+	"sefariaHeadword": "מולישות",
+	"headwords": [
+		{
+			"text": "מולישות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01696",
-	"slug": "סתיו",
-	"headword": {
-		"text": "סְתָיו"
-	},
+	"sefariaHeadword": "סְתָיו",
+	"headwords": [
+		{
+			"text": "סְתָיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

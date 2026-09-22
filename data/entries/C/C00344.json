@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00344",
-	"slug": "גוזזין",
-	"headword": {
-		"text": "גּוֹזְזִין"
-	},
+	"sefariaHeadword": "גּוֹזְזִין",
+	"headwords": [
+		{
+			"text": "גּוֹזְזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "a"

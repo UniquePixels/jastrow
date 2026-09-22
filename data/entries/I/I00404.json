@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00404",
-	"slug": "טיסני",
-	"headword": {
-		"text": "טִיסָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיסָנִי",
+	"headwords": [
+		{
+			"text": "טִיסָנִי"
+		},
 		{
 			"text": "טְסָנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 533,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00944",
-	"slug": "גליל",
-	"headword": {
-		"text": "גָּלִיל"
-	},
+	"sefariaHeadword": "גָּלִיל",
+	"headwords": [
+		{
+			"text": "גָּלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

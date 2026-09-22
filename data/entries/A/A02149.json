@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02149",
-	"slug": "אנוש-1",
-	"headword": {
-		"text": "אֱנוֹשׁ"
-	},
+	"sefariaHeadword": "אֱנוֹשׁ",
+	"headwords": [
+		{
+			"text": "אֱנוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

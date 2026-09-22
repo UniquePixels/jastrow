@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00707",
-	"slug": "זריזותא",
-	"headword": {
-		"text": "זְרִיזוּתָא"
-	},
+	"sefariaHeadword": "זְרִיזוּתָא",
+	"headwords": [
+		{
+			"text": "זְרִיזוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

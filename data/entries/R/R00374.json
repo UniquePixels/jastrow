@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00374",
-	"slug": "צימוס",
-	"headword": {
-		"text": "צימוס"
-	},
+	"sefariaHeadword": "צימוס",
+	"headwords": [
+		{
+			"text": "צימוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

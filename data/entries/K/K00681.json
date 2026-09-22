@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00681",
-	"slug": "כלבה",
-	"headword": {
-		"text": "כַּלבָּה"
-	},
+	"sefariaHeadword": "כַּלבָּה",
+	"headwords": [
+		{
+			"text": "כַּלבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "a"

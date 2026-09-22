@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00292",
-	"slug": "עון-3",
-	"headword": {
-		"text": "עוּן",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "עוּן ²",
+	"headwords": [
+		{
+			"text": "עוּן",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1054,
 		"column": "a"

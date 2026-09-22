@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00771",
-	"slug": "גינתא",
-	"headword": {
-		"text": "גִּינְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינְּתָא",
+	"headwords": [
+		{
+			"text": "גִּינְּתָא"
+		},
 		{
 			"text": "גִּינָּא"
 		},
 		{
-			"text": "גִּנּ׳"
+			"text": "גִּנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 240,
 		"column": "a"

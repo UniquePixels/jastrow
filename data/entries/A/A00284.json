@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00284",
-	"slug": "אגושטוס",
-	"headword": {
-		"text": "אגושטוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אגושטוס",
+	"headwords": [
+		{
+			"text": "אגושטוס"
+		},
 		{
 			"text": "תוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "a"

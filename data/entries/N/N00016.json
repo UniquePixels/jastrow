@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00016",
-	"slug": "נאות",
-	"headword": {
-		"text": "נֵאוֹת"
-	},
+	"sefariaHeadword": "נֵאוֹת",
+	"headwords": [
+		{
+			"text": "נֵאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "a"

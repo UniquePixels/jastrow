@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00627",
-	"slug": "צניף-1",
-	"headword": {
-		"text": "צָנִיף"
-	},
+	"sefariaHeadword": "צָנִיף",
+	"headwords": [
+		{
+			"text": "צָנִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1292,
 		"column": "a"

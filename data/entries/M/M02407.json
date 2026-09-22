@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02407",
-	"slug": "מקזווי",
-	"headword": {
-		"text": "מקזווי"
-	},
+	"sefariaHeadword": "מקזווי",
+	"headwords": [
+		{
+			"text": "מקזווי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00403",
-	"slug": "ים",
-	"headword": {
-		"text": "יָם"
-	},
+	"sefariaHeadword": "יָם",
+	"headwords": [
+		{
+			"text": "יָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

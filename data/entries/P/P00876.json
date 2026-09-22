@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00876",
-	"slug": "עמורא",
-	"headword": {
-		"text": "עמורא"
-	},
+	"sefariaHeadword": "עמורא",
+	"headwords": [
+		{
+			"text": "עמורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

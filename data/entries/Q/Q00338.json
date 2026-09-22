@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00338",
-	"slug": "פורזמא",
-	"headword": {
-		"text": "פורזמא"
-	},
+	"sefariaHeadword": "פורזמא",
+	"headwords": [
+		{
+			"text": "פורזמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

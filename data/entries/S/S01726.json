@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01726",
-	"slug": "קפח-2",
-	"headword": {
-		"text": "קְפַח"
-	},
+	"sefariaHeadword": "קְפַח",
+	"headwords": [
+		{
+			"text": "קְפַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1399,
 		"column": "b"

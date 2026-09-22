@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00166",
-	"slug": "יודן-1",
-	"headword": {
-		"text": "יוּדָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּדָן",
+	"headwords": [
+		{
+			"text": "יוּדָן"
+		},
 		{
 			"text": "יְהוּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 567,
 		"column": "b"

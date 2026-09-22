@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01112",
-	"slug": "תתא-1",
-	"headword": {
-		"text": "תְּתָא"
-	},
+	"sefariaHeadword": "תְּתָא",
+	"headwords": [
+		{
+			"text": "תְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1705,
 		"column": "b"

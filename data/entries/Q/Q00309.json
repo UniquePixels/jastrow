@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00309",
-	"slug": "פופילא",
-	"headword": {
-		"text": "פופילא"
-	},
+	"sefariaHeadword": "פופילא",
+	"headwords": [
+		{
+			"text": "פופילא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "a"

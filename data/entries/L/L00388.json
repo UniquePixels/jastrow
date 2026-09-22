@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00388",
-	"slug": "לטיט",
-	"headword": {
-		"text": "לְטֵיט"
-	},
+	"sefariaHeadword": "לְטֵיט",
+	"headwords": [
+		{
+			"text": "לְטֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

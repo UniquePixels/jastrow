@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01148",
-	"slug": "סמתורא",
-	"headword": {
-		"text": "סַמְתּוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַמְתּוֹרָא",
+	"headwords": [
+		{
+			"text": "סַמְתּוֹרָא"
+		},
 		{
 			"text": "סַמְתָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1003,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01030",
-	"slug": "בעור",
-	"headword": {
-		"text": "בָּעוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּעוּר",
+	"headwords": [
+		{
+			"text": "בָּעוּר"
+		},
 		{
 			"text": "בָּעוֹרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּעֵיר"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 180,
 		"column": "b"

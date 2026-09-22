@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00186",
-	"slug": "דוגי",
-	"headword": {
-		"text": "דּוּגֵי"
-	},
+	"sefariaHeadword": "דּוּגֵי",
+	"headwords": [
+		{
+			"text": "דּוּגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

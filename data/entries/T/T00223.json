@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00223",
-	"slug": "רגרוגא",
-	"headword": {
-		"text": "רִגְרוּגָא"
-	},
+	"sefariaHeadword": "רִגְרוּגָא",
+	"headwords": [
+		{
+			"text": "רִגְרוּגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1450,
 		"column": "a"

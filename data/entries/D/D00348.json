@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00348",
-	"slug": "דורא-2",
-	"headword": {
-		"text": "דּוּרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דּוּרָא II",
+	"headwords": [
+		{
+			"text": "דּוּרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 289,
 		"column": "a"

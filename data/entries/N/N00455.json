@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00455",
-	"slug": "נזל-2",
-	"headword": {
-		"text": "נְזַל"
-	},
+	"sefariaHeadword": "נְזַל",
+	"headwords": [
+		{
+			"text": "נְזַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 892,
 		"column": "a"

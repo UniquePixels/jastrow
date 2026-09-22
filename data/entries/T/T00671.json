@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00671",
-	"slug": "ריעא",
-	"headword": {
-		"text": "רֵיעָא"
-	},
+	"sefariaHeadword": "רֵיעָא",
+	"headwords": [
+		{
+			"text": "רֵיעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

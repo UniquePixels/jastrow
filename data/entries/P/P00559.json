@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00559",
-	"slug": "עייתלו",
-	"headword": {
-		"text": "עֲיַיתְלוּ"
-	},
+	"sefariaHeadword": "עֲיַיתְלוּ",
+	"headwords": [
+		{
+			"text": "עֲיַיתְלוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

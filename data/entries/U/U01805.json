@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01805",
-	"slug": "שפרעם",
-	"headword": {
-		"text": "שְׁפַרְעַם"
-	},
+	"sefariaHeadword": "שְׁפַרְעַם",
+	"headwords": [
+		{
+			"text": "שְׁפַרְעַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

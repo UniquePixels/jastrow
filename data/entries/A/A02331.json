@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02331",
-	"slug": "אסוירוס",
-	"headword": {
-		"text": "אַסְוֵירוֹס"
-	},
+	"sefariaHeadword": "אַסְוֵירוֹס",
+	"headwords": [
+		{
+			"text": "אַסְוֵירוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

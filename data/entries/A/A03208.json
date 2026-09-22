@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03208",
-	"slug": "ארס-1",
-	"headword": {
-		"text": "אֶרֶס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶרֶס",
+	"headwords": [
+		{
+			"text": "אֶרֶס"
+		},
 		{
 			"text": "אֶירֶס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 124,
 		"column": "a"

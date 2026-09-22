@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01160",
-	"slug": "בראה",
-	"headword": {
-		"text": "בָּרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּרָאָה",
+	"headwords": [
+		{
+			"text": "בָּרָאָה"
+		},
 		{
 			"text": "בָּרָיָיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּרָיָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 189,
 		"column": "a"
@@ -25,7 +27,7 @@
 			"units": []
 		},
 		{
-			"gloss": "<i>external, foreign, not belonging to</i>, opp. <cite ref=\"C00264\"><he>גַּוָּאָה</he></cite>. ",
+			"gloss": "<i>external, foreign, not belonging to</i>, opp. <cite ref=\"C00264\"><he>גַּוָּאָה</he></cite>. ",
 			"units": [
 				"<cite ref=\"Targum Jonathan on II Kings 16:18\">Targ. II Kings XVI, 18</cite>; a. e.—",
 				"<cite ref=\"Jerusalem Talmud Pesachim 7:1:3\">Y. Pes. VII, beg. 34ᵃ</cite> <he>תנא ב׳</he>, v. <cite ref=\"B01153\"><he>בַּר</he></cite> I ch.—",

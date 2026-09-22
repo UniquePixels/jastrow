@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01708",
-	"slug": "קפודקאה",
-	"headword": {
-		"text": "קַפּוּדְקָאָה"
-	},
+	"sefariaHeadword": "קַפּוּדְקָאָה",
+	"headwords": [
+		{
+			"text": "קַפּוּדְקָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1398,
 		"column": "b"

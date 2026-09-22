@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00718",
-	"slug": "דיקלוט",
-	"headword": {
-		"text": "דִּיקְלוּט"
-	},
+	"sefariaHeadword": "דִּיקְלוּט",
+	"headwords": [
+		{
+			"text": "דִּיקְלוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

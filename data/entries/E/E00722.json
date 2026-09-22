@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00722",
-	"slug": "הערב",
-	"headword": {
-		"text": "הַעֲרֵב"
-	},
+	"sefariaHeadword": "הַעֲרֵב",
+	"headwords": [
+		{
+			"text": "הַעֲרֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "b"

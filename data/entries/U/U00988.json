@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00988",
-	"slug": "שיע-1",
-	"headword": {
-		"text": "שִׁיעַ"
-	},
+	"sefariaHeadword": "שִׁיעַ",
+	"headwords": [
+		{
+			"text": "שִׁיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1565,
 		"column": "a"

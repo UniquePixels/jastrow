@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01530",
-	"slug": "מלחמה",
-	"headword": {
-		"text": "מִלְחָמָה"
-	},
+	"sefariaHeadword": "מִלְחָמָה",
+	"headwords": [
+		{
+			"text": "מִלְחָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 789,
 		"column": "a"

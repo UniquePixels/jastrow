@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00324",
-	"slug": "לורטיא",
-	"headword": {
-		"text": "לורטיא"
-	},
+	"sefariaHeadword": "לורטיא",
+	"headwords": [
+		{
+			"text": "לורטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

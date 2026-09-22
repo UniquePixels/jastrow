@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00780",
-	"slug": "גיסטרון",
-	"headword": {
-		"text": "גיסטרון"
-	},
+	"sefariaHeadword": "גיסטרון",
+	"headwords": [
+		{
+			"text": "גיסטרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

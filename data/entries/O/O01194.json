@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01194",
-	"slug": "סנדריוטי",
-	"headword": {
-		"text": "סנדריוטי"
-	},
+	"sefariaHeadword": "סנדריוטי",
+	"headwords": [
+		{
+			"text": "סנדריוטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00956",
-	"slug": "פלדוס",
-	"headword": {
-		"text": "פלדוס"
-	},
+	"sefariaHeadword": "פלדוס",
+	"headwords": [
+		{
+			"text": "פלדוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

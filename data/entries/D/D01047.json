@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01047",
-	"slug": "דרדניא",
-	"headword": {
-		"text": "דַּרְדַּנְיָא"
-	},
+	"sefariaHeadword": "דַּרְדַּנְיָא",
+	"headwords": [
+		{
+			"text": "דַּרְדַּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "b"

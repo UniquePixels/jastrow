@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01117",
-	"slug": "דרע-2",
-	"headword": {
-		"text": "דְּרַע",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרַע II",
+	"headwords": [
+		{
+			"text": "דְּרַע",
+			"homograph": 2
+		},
 		{
 			"text": "דַּרְעָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 324,
 		"column": "b"

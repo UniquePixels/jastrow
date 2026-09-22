@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01994",
-	"slug": "קרטון-2",
-	"headword": {
-		"text": "קרטון"
-	},
+	"sefariaHeadword": "קרטון",
+	"headwords": [
+		{
+			"text": "קרטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

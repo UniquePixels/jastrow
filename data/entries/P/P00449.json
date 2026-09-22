@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00449",
-	"slug": "עטיפה-1",
-	"headword": {
-		"text": "עֲטִיפָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲטִיפָה I",
+	"headwords": [
+		{
+			"text": "עֲטִיפָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1063,
 		"column": "a"

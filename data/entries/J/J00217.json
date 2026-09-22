@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00217",
-	"slug": "יוסי",
-	"headword": {
-		"text": "יוֹסֵי"
-	},
+	"sefariaHeadword": "יוֹסֵי",
+	"headwords": [
+		{
+			"text": "יוֹסֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "b"

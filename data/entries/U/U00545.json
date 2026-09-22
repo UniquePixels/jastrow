@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00545",
-	"slug": "שורוון",
-	"headword": {
-		"text": "שׁוּרָוָון"
-	},
+	"sefariaHeadword": "שׁוּרָוָון",
+	"headwords": [
+		{
+			"text": "שׁוּרָוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "b"

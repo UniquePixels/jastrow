@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00112",
-	"slug": "טובה",
-	"headword": {
-		"text": "טוֹבָה"
-	},
+	"sefariaHeadword": "טוֹבָה",
+	"headwords": [
+		{
+			"text": "טוֹבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 521,
 		"column": "b"

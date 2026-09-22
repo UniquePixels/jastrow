@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00244",
-	"slug": "תוסברא",
-	"headword": {
-		"text": "תּוּסְבָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּסְבָּרָא",
+	"headwords": [
+		{
+			"text": "תּוּסְבָּרָא"
+		},
 		{
 			"text": "תּוּסְבָּרִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1654,
 		"column": "b"

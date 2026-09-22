@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01092",
-	"slug": "אטליז",
-	"headword": {
-		"text": "אַטְלֵיז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַטְלֵיז",
+	"headwords": [
+		{
+			"text": "אַטְלֵיז"
+		},
 		{
 			"text": "אִיטְלֵיז"
 		},
@@ -15,6 +16,7 @@
 			"text": "אִיטְלֵיס"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 43,
 		"column": "a"

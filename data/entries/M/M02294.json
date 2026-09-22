@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02294",
-	"slug": "מצופית",
-	"headword": {
-		"text": "מְצוּפִּית"
-	},
+	"sefariaHeadword": "מְצוּפִּית",
+	"headwords": [
+		{
+			"text": "מְצוּפִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

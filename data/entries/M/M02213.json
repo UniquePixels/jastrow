@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M02213",
-	"slug": "מפיס-1",
-	"headword": {
-		"text": "מָפֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָפֵיס",
+	"headwords": [
+		{
+			"text": "מָפֵיס"
+		},
 		{
 			"text": "מַפֵּיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

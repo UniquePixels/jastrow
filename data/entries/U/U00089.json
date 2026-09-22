@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00089",
-	"slug": "שבורה",
-	"headword": {
-		"text": "שבורה"
-	},
+	"sefariaHeadword": "שבורה",
+	"headwords": [
+		{
+			"text": "שבורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

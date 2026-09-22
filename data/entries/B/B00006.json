@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B00006",
-	"slug": "בא-2",
-	"headword": {
-		"text": "בָּא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*בָּא II",
+	"headwords": [
+		{
+			"text": "בָּא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 134,
 		"column": "a"

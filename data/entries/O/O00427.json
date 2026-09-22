@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00427",
-	"slug": "סוריבטין",
-	"headword": {
-		"text": "סוריבטין"
-	},
+	"sefariaHeadword": "סוריבטין",
+	"headwords": [
+		{
+			"text": "סוריבטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

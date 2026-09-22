@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00293",
-	"slug": "תורייקי",
-	"headword": {
-		"text": "תורייקי"
-	},
+	"sefariaHeadword": "תורייקי",
+	"headwords": [
+		{
+			"text": "תורייקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

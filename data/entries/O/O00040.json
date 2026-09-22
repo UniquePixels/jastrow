@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00040",
-	"slug": "סבוך",
-	"headword": {
-		"text": "סִבּוּךְ"
-	},
+	"sefariaHeadword": "סִבּוּךְ",
+	"headwords": [
+		{
+			"text": "סִבּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

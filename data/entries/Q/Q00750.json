@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00750",
-	"slug": "פיסון",
-	"headword": {
-		"text": "פִּיסוֹן"
-	},
+	"sefariaHeadword": "פִּיסוֹן",
+	"headwords": [
+		{
+			"text": "פִּיסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "a"

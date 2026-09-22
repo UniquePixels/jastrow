@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00393",
-	"slug": "לטיש",
-	"headword": {
-		"text": "לְטִישׁ"
-	},
+	"sefariaHeadword": "לְטִישׁ",
+	"headwords": [
+		{
+			"text": "לְטִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

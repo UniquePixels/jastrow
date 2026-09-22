@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00875",
-	"slug": "תקועאה",
-	"headword": {
-		"text": "תְּקוֹעָאָה"
-	},
+	"sefariaHeadword": "תְּקוֹעָאָה",
+	"headwords": [
+		{
+			"text": "תְּקוֹעָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

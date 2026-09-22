@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A02490",
-	"slug": "אספינקי",
-	"headword": {
-		"text": "אִסְפִינְקִי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְפִינְקִי",
+	"headwords": [
+		{
+			"text": "אִסְפִינְקִי",
+			"reconstructed": true
+		},
 		{
 			"text": "אִסְפְּנִיקִי"
 		},
@@ -13,9 +14,11 @@
 			"text": "אִסְפַּנְקִי"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 95,
 		"column": "b"

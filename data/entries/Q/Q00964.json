@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00964",
-	"slug": "פלוגתא-1",
-	"headword": {
-		"text": "פְּלוּגְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלוּגְתָּא",
+	"headwords": [
 		{
-			"text": "פְּלֻגְ׳"
+			"text": "פְּלוּגְתָּא"
+		},
+		{
+			"text": "פְּלֻגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1177,
 		"column": "a"

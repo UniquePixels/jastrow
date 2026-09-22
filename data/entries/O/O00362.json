@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00362",
-	"slug": "סונטימוס",
-	"headword": {
-		"text": "סונטימוס"
-	},
+	"sefariaHeadword": "סונטימוס",
+	"headwords": [
+		{
+			"text": "סונטימוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

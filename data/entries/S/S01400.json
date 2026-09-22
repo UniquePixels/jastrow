@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01400",
-	"slug": "קלעילון",
-	"headword": {
-		"text": "קְלָעִילּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלָעִילּוֹן",
+	"headwords": [
+		{
+			"text": "קְלָעִילּוֹן"
+		},
 		{
 			"text": "קְלָעִילִּין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1381,
 		"column": "a"

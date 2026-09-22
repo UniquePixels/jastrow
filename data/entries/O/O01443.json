@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01443",
-	"slug": "סקאי",
-	"headword": {
-		"text": "סַקָּאי"
-	},
+	"sefariaHeadword": "סַקָּאי",
+	"headwords": [
+		{
+			"text": "סַקָּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

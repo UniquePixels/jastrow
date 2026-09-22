@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00855",
-	"slug": "חיפני",
-	"headword": {
-		"text": "חֵיפָנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיפָנִי",
+	"headwords": [
+		{
+			"text": "חֵיפָנִי"
+		},
 		{
 			"text": "חיפס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 459,
 		"column": "b"

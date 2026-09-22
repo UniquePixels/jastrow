@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00508",
-	"slug": "חזוונא",
-	"headword": {
-		"text": "חַזְוָונָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַזְוָונָא",
+	"headwords": [
+		{
+			"text": "חַזְוָונָא"
+		},
 		{
 			"text": "חֶזְווָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 442,
 		"column": "a"

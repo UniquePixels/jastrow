@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00633",
-	"slug": "ריטמיש",
-	"headword": {
-		"text": "ריטמיש"
-	},
+	"sefariaHeadword": "ריטמיש",
+	"headwords": [
+		{
+			"text": "ריטמיש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

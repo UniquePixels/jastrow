@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00165",
-	"slug": "יודיקי",
-	"headword": {
-		"text": "יודיקי"
-	},
+	"sefariaHeadword": "יודיקי",
+	"headwords": [
+		{
+			"text": "יודיקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

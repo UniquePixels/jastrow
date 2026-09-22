@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00385",
-	"slug": "רומוס",
-	"headword": {
-		"text": "רוֹמוֹס"
-	},
+	"sefariaHeadword": "רוֹמוֹס",
+	"headwords": [
+		{
+			"text": "רוֹמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "a"

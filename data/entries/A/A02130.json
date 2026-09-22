@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02130",
-	"slug": "אנדרטין",
-	"headword": {
-		"text": "אנדרטין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנדרטין",
+	"headwords": [
+		{
+			"text": "אנדרטין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

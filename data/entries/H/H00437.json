@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00437",
-	"slug": "חוצף",
-	"headword": {
-		"text": "חוֹצַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹצַף",
+	"headwords": [
+		{
+			"text": "חוֹצַף"
+		},
 		{
 			"text": "חוּצְפָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 438,
 		"column": "a"

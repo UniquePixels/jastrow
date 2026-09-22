@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00249",
-	"slug": "יושן",
-	"headword": {
-		"text": "יוֹשֶׁן"
-	},
+	"sefariaHeadword": "יוֹשֶׁן",
+	"headwords": [
+		{
+			"text": "יוֹשֶׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

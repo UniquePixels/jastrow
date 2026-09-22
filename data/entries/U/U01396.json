@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01396",
-	"slug": "שלשל-1",
-	"headword": {
-		"text": "שִׁלְשֵׁל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְשֵׁל",
+	"headwords": [
 		{
-			"text": "שִׁילְ׳"
+			"text": "שִׁלְשֵׁל"
+		},
+		{
+			"text": "שִׁילְ׳",
+			"partial": true
 		},
 		{
 			"text": "שִׁלֵּשׁ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1589,
 		"column": "b"

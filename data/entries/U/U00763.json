@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00763",
-	"slug": "שטף-2",
-	"headword": {
-		"text": "שְׁטֵף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁטֵף",
+	"headwords": [
+		{
+			"text": "שְׁטֵף"
+		},
 		{
 			"text": "שְׁטֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1555,
 		"column": "a"

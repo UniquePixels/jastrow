@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "K00876",
-	"slug": "כנרא-1",
-	"headword": {
-		"text": "כִּנָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנָּרָא",
+	"headwords": [
+		{
+			"text": "כִּנָּרָא"
+		},
 		{
 			"text": "כִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 651,
 		"column": "b"

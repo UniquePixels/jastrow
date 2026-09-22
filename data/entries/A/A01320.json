@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01320",
-	"slug": "אימא-3",
-	"headword": {
-		"text": "אִימָּא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִימָּא II",
+	"headwords": [
+		{
+			"text": "אִימָּא",
+			"homograph": 2
+		},
 		{
 			"text": "אִמָּא"
 		},
@@ -13,6 +14,7 @@
 			"text": "אִימָּה"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 50,
 		"column": "a"

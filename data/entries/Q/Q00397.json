@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00397",
-	"slug": "פוש-1",
-	"headword": {
-		"text": "פּוּשׁ"
-	},
+	"sefariaHeadword": "פּוּשׁ",
+	"headwords": [
+		{
+			"text": "פּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

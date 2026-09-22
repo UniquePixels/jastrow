@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00621",
-	"slug": "כירה-3",
-	"headword": {
-		"text": "כִּירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כִּירָה II",
+	"headwords": [
+		{
+			"text": "כִּירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 636,
 		"column": "b"

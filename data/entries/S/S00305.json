@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00305",
-	"slug": "קוטרא",
-	"headword": {
-		"text": "קוּטְרָא"
-	},
+	"sefariaHeadword": "קוּטְרָא",
+	"headwords": [
+		{
+			"text": "קוּטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

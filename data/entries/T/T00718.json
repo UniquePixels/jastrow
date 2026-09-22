@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "T00718",
-	"slug": "ריש-2",
-	"headword": {
-		"text": "רֵישׁ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵישׁ II",
+	"headwords": [
+		{
+			"text": "רֵישׁ",
+			"homograph": 2
+		},
 		{
 			"text": "רֵישָׁא"
 		},
@@ -19,6 +20,7 @@
 			"text": "רֵאשָׁה"
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1477,
 		"column": "b"

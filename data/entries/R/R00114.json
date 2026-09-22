@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00114",
-	"slug": "צדיק-3",
-	"headword": {
-		"text": "צַדִּיק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַדִּיק ²",
+	"headwords": [
+		{
+			"text": "צַדִּיק",
+			"disambiguator": 2
+		},
 		{
 			"text": "צַדִּיקָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1262,
 		"column": "b"

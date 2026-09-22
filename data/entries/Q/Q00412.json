@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00412",
-	"slug": "פותה",
-	"headword": {
-		"text": "פּוֹתָה"
-	},
+	"sefariaHeadword": "פּוֹתָה",
+	"headwords": [
+		{
+			"text": "פּוֹתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "b"

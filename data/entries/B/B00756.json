@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00756",
-	"slug": "ביתא-3",
-	"headword": {
-		"text": "בַּיְתָא"
-	},
+	"sefariaHeadword": "בַּיְתָא",
+	"headwords": [
+		{
+			"text": "בַּיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"

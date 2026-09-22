@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00930",
-	"slug": "כסיקביא",
-	"headword": {
-		"text": "כְּסִיקַבְיָא"
-	},
+	"sefariaHeadword": "כְּסִיקַבְיָא",
+	"headwords": [
+		{
+			"text": "כְּסִיקַבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "a"

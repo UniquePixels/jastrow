@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00124",
-	"slug": "צדקו",
-	"headword": {
-		"text": "צִדְקוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִדְקוּ",
+	"headwords": [
+		{
+			"text": "צִדְקוּ"
+		},
 		{
 			"text": "צִדְקוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1264,
 		"column": "a"

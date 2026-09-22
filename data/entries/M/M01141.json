@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01141",
-	"slug": "מיירון",
-	"headword": {
-		"text": "מיירון"
-	},
+	"sefariaHeadword": "מיירון",
+	"headwords": [
+		{
+			"text": "מיירון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

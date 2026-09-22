@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00617",
-	"slug": "עינון-3",
-	"headword": {
-		"text": "עֵינָוָן"
-	},
+	"sefariaHeadword": "עֵינָוָן",
+	"headwords": [
+		{
+			"text": "עֵינָוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

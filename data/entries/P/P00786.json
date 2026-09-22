@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00786",
-	"slug": "עלוקה",
-	"headword": {
-		"text": "עֲלוּקָה"
-	},
+	"sefariaHeadword": "עֲלוּקָה",
+	"headwords": [
+		{
+			"text": "עֲלוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

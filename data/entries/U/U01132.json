@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01132",
-	"slug": "שכונא",
-	"headword": {
-		"text": "שְׁכוּנָא"
-	},
+	"sefariaHeadword": "שְׁכוּנָא",
+	"headwords": [
+		{
+			"text": "שְׁכוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1571,
 		"column": "b"

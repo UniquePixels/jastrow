@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00748",
-	"slug": "סיסון",
-	"headword": {
-		"text": "סיסון"
-	},
+	"sefariaHeadword": "סיסון",
+	"headwords": [
+		{
+			"text": "סיסון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

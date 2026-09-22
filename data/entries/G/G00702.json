@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00702",
-	"slug": "זריון",
-	"headword": {
-		"text": "זִרְיוֹן"
-	},
+	"sefariaHeadword": "זִרְיוֹן",
+	"headwords": [
+		{
+			"text": "זִרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 413,
 		"column": "b"

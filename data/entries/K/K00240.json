@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00240",
-	"slug": "כוחלי",
-	"headword": {
-		"text": "כּוֹחֲלִי"
-	},
+	"sefariaHeadword": "כּוֹחֲלִי",
+	"headwords": [
+		{
+			"text": "כּוֹחֲלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "b"

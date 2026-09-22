@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01650",
-	"slug": "קסטירא",
-	"headword": {
-		"text": "קסטירא"
-	},
+	"sefariaHeadword": "קסטירא",
+	"headwords": [
+		{
+			"text": "קסטירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00723",
-	"slug": "בירייתכון",
-	"headword": {
-		"text": "בירייתכון"
-	},
+	"sefariaHeadword": "בירייתכון",
+	"headwords": [
+		{
+			"text": "בירייתכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

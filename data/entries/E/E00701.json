@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00701",
-	"slug": "הסוקים",
-	"headword": {
-		"text": "הסוקים"
-	},
+	"sefariaHeadword": "הסוקים",
+	"headwords": [
+		{
+			"text": "הסוקים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

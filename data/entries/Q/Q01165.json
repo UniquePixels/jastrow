@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01165",
-	"slug": "פנוטיה",
-	"headword": {
-		"text": "פָּנוּטְיָה"
-	},
+	"sefariaHeadword": "פָּנוּטְיָה",
+	"headwords": [
+		{
+			"text": "פָּנוּטְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

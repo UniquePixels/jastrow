@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02392",
-	"slug": "מקולין",
-	"headword": {
-		"text": "מְקוּלִין"
-	},
+	"sefariaHeadword": "מְקוּלִין",
+	"headwords": [
+		{
+			"text": "מְקוּלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "b"

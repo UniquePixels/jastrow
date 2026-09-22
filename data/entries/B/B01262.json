@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01262",
-	"slug": "ברייה-2",
-	"headword": {
-		"text": "בִּרְיָיה"
-	},
+	"sefariaHeadword": "בִּרְיָיה",
+	"headwords": [
+		{
+			"text": "בִּרְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

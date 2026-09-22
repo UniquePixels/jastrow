@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00454",
-	"slug": "כחד-3",
-	"headword": {
-		"text": "כַּחַד"
-	},
+	"sefariaHeadword": "כַּחַד",
+	"headwords": [
+		{
+			"text": "כַּחַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

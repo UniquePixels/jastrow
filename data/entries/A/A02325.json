@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02325",
-	"slug": "אסגינטרין",
-	"headword": {
-		"text": "אסגינטרין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אסגינטרין",
+	"headwords": [
+		{
+			"text": "אסגינטרין",
+			"reconstructed": true
+		},
 		{
 			"text": "אסגנטירין"
 		},
 		{
-			"text": "איס׳"
+			"text": "איס׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}, {2}",
 	"page": {
 		"number": 89,
 		"column": "a"

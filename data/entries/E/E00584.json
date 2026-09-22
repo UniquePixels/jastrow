@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00584",
-	"slug": "הלקט",
-	"headword": {
-		"text": "הֶלְקֵט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶלְקֵט",
+	"headwords": [
+		{
+			"text": "הֶלְקֵט"
+		},
 		{
 			"text": "הִלְקֵט"
 		},
@@ -12,6 +13,7 @@
 			"text": "הִלְקְטִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 354,
 		"column": "b"

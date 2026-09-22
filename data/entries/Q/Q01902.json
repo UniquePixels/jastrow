@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01902",
-	"slug": "פרנסות",
-	"headword": {
-		"text": "פַּרְנָסוּת"
-	},
+	"sefariaHeadword": "פַּרְנָסוּת",
+	"headwords": [
+		{
+			"text": "פַּרְנָסוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1232,
 		"column": "a"

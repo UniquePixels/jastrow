@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01906",
-	"slug": "מסטר",
-	"headword": {
-		"text": "מִסְטר"
-	},
+	"sefariaHeadword": "מִסְטר",
+	"headwords": [
+		{
+			"text": "מִסְטר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "a"

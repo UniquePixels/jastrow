@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00409",
-	"slug": "סור-2",
-	"headword": {
-		"text": "סוּר"
-	},
+	"sefariaHeadword": "סוּר",
+	"headwords": [
+		{
+			"text": "סוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "a"

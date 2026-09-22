@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02530",
-	"slug": "אסקדיא",
-	"headword": {
-		"text": "אסקדיא"
-	},
+	"sefariaHeadword": "אסקדיא",
+	"headwords": [
+		{
+			"text": "אסקדיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "a"

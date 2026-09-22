@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00305",
-	"slug": "תורנא",
-	"headword": {
-		"text": "תּוּרְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּרְנָא",
+	"headwords": [
 		{
-			"text": "תָּרְ׳"
+			"text": "תּוּרְנָא"
+		},
+		{
+			"text": "תָּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1658,
 		"column": "a"

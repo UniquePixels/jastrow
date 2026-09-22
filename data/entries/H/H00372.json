@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00372",
-	"slug": "חומא-2",
-	"headword": {
-		"text": "חוֹמָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹמָא II",
+	"headwords": [
+		{
+			"text": "חוֹמָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 435,
 		"column": "a"

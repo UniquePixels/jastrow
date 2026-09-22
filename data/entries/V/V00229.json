@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00229",
-	"slug": "תומן",
-	"headword": {
-		"text": "תּוֹמָן"
-	},
+	"sefariaHeadword": "תּוֹמָן",
+	"headwords": [
+		{
+			"text": "תּוֹמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00123",
-	"slug": "גבעה",
-	"headword": {
-		"text": "גִּבְעָה"
-	},
+	"sefariaHeadword": "גִּבְעָה",
+	"headwords": [
+		{
+			"text": "גִּבְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00031",
-	"slug": "הבהבא",
-	"headword": {
-		"text": "הַבְהֲבָא"
-	},
+	"sefariaHeadword": "הַבְהֲבָא",
+	"headwords": [
+		{
+			"text": "הַבְהֲבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 329,
 		"column": "a"

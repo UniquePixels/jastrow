@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00524",
-	"slug": "שוקא-2",
-	"headword": {
-		"text": "שׁוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּקָא",
+	"headwords": [
+		{
+			"text": "שׁוּקָא"
+		},
 		{
 			"text": "שׁוּקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1541,
 		"column": "a"

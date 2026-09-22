@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01589",
-	"slug": "קנינים",
-	"headword": {
-		"text": "קנינים"
-	},
+	"sefariaHeadword": "קנינים",
+	"headwords": [
+		{
+			"text": "קנינים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00859",
-	"slug": "עמד-3",
-	"headword": {
-		"text": "עָמָד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עָמָד I",
+	"headwords": [
+		{
+			"text": "עָמָד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1086,
 		"column": "b"

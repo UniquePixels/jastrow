@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01079",
-	"slug": "סמי-2",
-	"headword": {
-		"text": "סְמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְמֵי",
+	"headwords": [
+		{
+			"text": "סְמֵי"
+		},
 		{
 			"text": "סְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 999,
 		"column": "b"

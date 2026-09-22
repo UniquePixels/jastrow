@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00465",
-	"slug": "דיבה",
-	"headword": {
-		"text": "דִּיבָּה"
-	},
+	"sefariaHeadword": "דִּיבָּה",
+	"headwords": [
+		{
+			"text": "דִּיבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 294,
 		"column": "b"

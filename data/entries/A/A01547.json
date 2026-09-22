@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01547",
-	"slug": "איפורייא",
-	"headword": {
-		"text": "אִיפּוּרְיָיא"
-	},
+	"sefariaHeadword": "אִיפּוּרְיָיא",
+	"headwords": [
+		{
+			"text": "אִיפּוּרְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02700",
-	"slug": "מרכבה",
-	"headword": {
-		"text": "מֶרְכָּבָה"
-	},
+	"sefariaHeadword": "מֶרְכָּבָה",
+	"headwords": [
+		{
+			"text": "מֶרְכָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "a"

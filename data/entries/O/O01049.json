@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01049",
-	"slug": "סם",
-	"headword": {
-		"text": "סַם"
-	},
+	"sefariaHeadword": "סַם",
+	"headwords": [
+		{
+			"text": "סַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "a"

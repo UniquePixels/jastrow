@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00835",
-	"slug": "נכלותא",
-	"headword": {
-		"text": "נִכְלוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִכְלוּתָא",
+	"headwords": [
+		{
+			"text": "נִכְלוּתָא"
+		},
 		{
 			"text": "נְכֶלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 911,
 		"column": "a"

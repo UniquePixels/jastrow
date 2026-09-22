@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03130",
-	"slug": "ארכא-3",
-	"headword": {
-		"text": "אַרְכָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "אַרְכָא III",
+	"headwords": [
+		{
+			"text": "אַרְכָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 121,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00065",
-	"slug": "עבראה",
-	"headword": {
-		"text": "עִבְרָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִבְרָאָה",
+	"headwords": [
+		{
+			"text": "עִבְרָאָה"
+		},
 		{
 			"text": "עִבְרַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1040,
 		"column": "a"

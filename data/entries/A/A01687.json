@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A01687",
-	"slug": "אכייא",
-	"headword": {
-		"text": "אֲכָיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲכָיָיא",
+	"headwords": [
+		{
+			"text": "אֲכָיָיא"
+		},
 		{
 			"text": "אֲכָיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 63,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

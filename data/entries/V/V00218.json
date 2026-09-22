@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00218",
-	"slug": "תולעבא",
-	"headword": {
-		"text": "תּוּלְעֲבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּלְעֲבָא",
+	"headwords": [
 		{
-			"text": "תֻּלְ׳"
+			"text": "תּוּלְעֲבָא"
+		},
+		{
+			"text": "תֻּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1653,
 		"column": "b"

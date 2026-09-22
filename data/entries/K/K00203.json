@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00203",
-	"slug": "כודנא",
-	"headword": {
-		"text": "כּוּדְנָא"
-	},
+	"sefariaHeadword": "כּוּדְנָא",
+	"headwords": [
+		{
+			"text": "כּוּדְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "a"

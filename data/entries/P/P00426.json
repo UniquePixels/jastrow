@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00426",
-	"slug": "עזרא",
-	"headword": {
-		"text": "עֶזְרָא"
-	},
+	"sefariaHeadword": "עֶזְרָא",
+	"headwords": [
+		{
+			"text": "עֶזְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00770",
-	"slug": "פיסקניות",
-	"headword": {
-		"text": "פיסקניות"
-	},
+	"sefariaHeadword": "פיסקניות",
+	"headwords": [
+		{
+			"text": "פיסקניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

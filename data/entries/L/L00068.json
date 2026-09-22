@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00068",
-	"slug": "לביא-2",
-	"headword": {
-		"text": "לַבְיא"
-	},
+	"sefariaHeadword": "לַבְיא",
+	"headwords": [
+		{
+			"text": "לַבְיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

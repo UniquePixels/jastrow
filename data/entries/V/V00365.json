@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00365",
-	"slug": "תחכמוני",
-	"headword": {
-		"text": "תַּחְכְּמוֹנִי"
-	},
+	"sefariaHeadword": "תַּחְכְּמוֹנִי",
+	"headwords": [
+		{
+			"text": "תַּחְכְּמוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

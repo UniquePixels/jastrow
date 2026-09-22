@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01035",
-	"slug": "חליז-2",
-	"headword": {
-		"text": "חַלֵּיז"
-	},
+	"sefariaHeadword": "חַלֵּיז",
+	"headwords": [
+		{
+			"text": "חַלֵּיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 468,
 		"column": "a"

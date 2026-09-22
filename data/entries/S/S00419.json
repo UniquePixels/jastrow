@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00419",
-	"slug": "קונדיס",
-	"headword": {
-		"text": "קונדיס"
-	},
+	"sefariaHeadword": "קונדיס",
+	"headwords": [
+		{
+			"text": "קונדיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "b"

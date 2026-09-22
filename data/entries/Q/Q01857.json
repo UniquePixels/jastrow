@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01857",
-	"slug": "פרכיטא",
-	"headword": {
-		"text": "פָּרָכִיטָא"
-	},
+	"sefariaHeadword": "פָּרָכִיטָא",
+	"headwords": [
+		{
+			"text": "פָּרָכִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1229,
 		"column": "b"

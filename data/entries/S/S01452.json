@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01452",
-	"slug": "קמור",
-	"headword": {
-		"text": "קָמוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָמוֹר",
+	"headwords": [
+		{
+			"text": "קָמוֹר"
+		},
 		{
 			"text": "קְמוֹרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קַמְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1384,
 		"column": "a"

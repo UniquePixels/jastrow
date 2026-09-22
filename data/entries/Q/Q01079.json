@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01079",
-	"slug": "פלם-2",
-	"headword": {
-		"text": "פְּלַם"
-	},
+	"sefariaHeadword": "פְּלַם",
+	"headwords": [
+		{
+			"text": "פְּלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00678",
-	"slug": "גיזבר",
-	"headword": {
-		"text": "גִּיזְבָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיזְבָּר",
+	"headwords": [
+		{
+			"text": "גִּיזְבָּר"
+		},
 		{
 			"text": "גִּיזְבָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 236,
 		"column": "b"

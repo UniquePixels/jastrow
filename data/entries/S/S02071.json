@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02071",
-	"slug": "קריסטמלין",
-	"headword": {
-		"text": "קְרִיסְטַמְלִין"
-	},
+	"sefariaHeadword": "קְרִיסְטַמְלִין",
+	"headwords": [
+		{
+			"text": "קְרִיסְטַמְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "a"

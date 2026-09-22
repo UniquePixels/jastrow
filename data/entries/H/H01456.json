@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01456",
-	"slug": "חפישותא",
-	"headword": {
-		"text": "חֲפִישׁוּתָא"
-	},
+	"sefariaHeadword": "חֲפִישׁוּתָא",
+	"headwords": [
+		{
+			"text": "חֲפִישׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 492,
 		"column": "a"

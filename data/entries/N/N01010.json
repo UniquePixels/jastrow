@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01010",
-	"slug": "נערות",
-	"headword": {
-		"text": "נַעֲרוּת"
-	},
+	"sefariaHeadword": "נַעֲרוּת",
+	"headwords": [
+		{
+			"text": "נַעֲרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

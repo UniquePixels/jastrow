@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02001",
-	"slug": "פרקילינין",
-	"headword": {
-		"text": "פרקילינין"
-	},
+	"sefariaHeadword": "פרקילינין",
+	"headwords": [
+		{
+			"text": "פרקילינין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

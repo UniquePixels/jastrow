@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00270",
-	"slug": "הור",
-	"headword": {
-		"text": "הוֹר"
-	},
+	"sefariaHeadword": "הוֹר",
+	"headwords": [
+		{
+			"text": "הוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "b"

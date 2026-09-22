@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00082",
-	"slug": "גביותא",
-	"headword": {
-		"text": "גַּבָּיוּתָא"
-	},
+	"sefariaHeadword": "גַּבָּיוּתָא",
+	"headwords": [
+		{
+			"text": "גַּבָּיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "a"

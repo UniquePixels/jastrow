@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00204",
-	"slug": "דוה",
-	"headword": {
-		"text": "דָּוָה"
-	},
+	"sefariaHeadword": "דָּוָה",
+	"headwords": [
+		{
+			"text": "דָּוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

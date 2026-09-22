@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00808",
-	"slug": "הר",
-	"headword": {
-		"text": "הַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַר",
+	"headwords": [
+		{
+			"text": "הַר"
+		},
 		{
 			"text": "הֶרֶר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 365,
 		"column": "a"

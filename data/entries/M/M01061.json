@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01061",
-	"slug": "מטריד",
-	"headword": {
-		"text": "מַטְרִיד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַטְרִיד",
+	"headwords": [
+		{
+			"text": "מַטְרִיד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 770,
 		"column": "a"

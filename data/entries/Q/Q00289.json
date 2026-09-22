@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00289",
-	"slug": "פוסטומוס",
-	"headword": {
-		"text": "פּוֹסְטוֹמוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹסְטוֹמוֹס",
+	"headwords": [
+		{
+			"text": "פּוֹסְטוֹמוֹס"
+		},
 		{
 			"text": "פּוֹסְטְמוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1144,
 		"column": "b"

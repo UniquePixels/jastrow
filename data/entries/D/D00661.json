@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00661",
-	"slug": "דיסקנס",
-	"headword": {
-		"text": "דִּיסְקַנְסְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיסְקַנְסְ",
+	"headwords": [
+		{
+			"text": "דִּיסְקַנְסְ"
+		},
 		{
 			"text": "דיסגנים"
 		},
@@ -15,6 +16,7 @@
 			"text": "דיסקניס"
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3})",
 	"page": {
 		"number": 302,
 		"column": "b"

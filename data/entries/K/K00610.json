@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00610",
-	"slug": "כיפר",
-	"headword": {
-		"text": "כִּיפַּר"
-	},
+	"sefariaHeadword": "כִּיפַּר",
+	"headwords": [
+		{
+			"text": "כִּיפַּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 635,
 		"column": "b"

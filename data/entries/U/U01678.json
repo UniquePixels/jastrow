@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01678",
-	"slug": "שעף",
-	"headword": {
-		"text": "שְׁעַף"
-	},
+	"sefariaHeadword": "שְׁעַף",
+	"headwords": [
+		{
+			"text": "שְׁעַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1612,
 		"column": "a"

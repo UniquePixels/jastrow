@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01866",
-	"slug": "קקוזתא",
-	"headword": {
-		"text": "קָקוּזְתָּא"
-	},
+	"sefariaHeadword": "קָקוּזְתָּא",
+	"headwords": [
+		{
+			"text": "קָקוּזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00161",
-	"slug": "גדגדות",
-	"headword": {
-		"text": "גדגדות"
-	},
+	"sefariaHeadword": "גדגדות",
+	"headwords": [
+		{
+			"text": "גדגדות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

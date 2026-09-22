@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01931",
-	"slug": "מסיקא",
-	"headword": {
-		"text": "מַסִּיקָא"
-	},
+	"sefariaHeadword": "מַסִּיקָא",
+	"headwords": [
+		{
+			"text": "מַסִּיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "a"

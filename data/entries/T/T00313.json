@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00313",
-	"slug": "רוגזא",
-	"headword": {
-		"text": "רוּגְזָא"
-	},
+	"sefariaHeadword": "רוּגְזָא",
+	"headwords": [
+		{
+			"text": "רוּגְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

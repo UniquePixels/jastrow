@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01702",
-	"slug": "אכלבא",
-	"headword": {
-		"text": "אַכְלְבָא"
-	},
+	"sefariaHeadword": "אַכְלְבָא",
+	"headwords": [
+		{
+			"text": "אַכְלְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 63,
 		"column": "b"

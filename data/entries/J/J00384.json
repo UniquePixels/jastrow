@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00384",
-	"slug": "יליל-2",
-	"headword": {
-		"text": "יָלֵיל"
-	},
+	"sefariaHeadword": "יָלֵיל",
+	"headwords": [
+		{
+			"text": "יָלֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "a"

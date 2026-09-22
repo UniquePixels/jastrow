@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00523",
-	"slug": "ליש-1",
-	"headword": {
-		"text": "לַיִשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לַיִשׁ I",
+	"headwords": [
+		{
+			"text": "לַיִשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 709,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01133",
-	"slug": "מיטרא",
-	"headword": {
-		"text": "מִיטְרָא"
-	},
+	"sefariaHeadword": "מִיטְרָא",
+	"headwords": [
+		{
+			"text": "מִיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "b"

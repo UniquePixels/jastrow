@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02603",
-	"slug": "אפדנא",
-	"headword": {
-		"text": "אַפַּדְנָא"
-	},
+	"sefariaHeadword": "אַפַּדְנָא",
+	"headwords": [
+		{
+			"text": "אַפַּדְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "a"

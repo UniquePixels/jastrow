@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00181",
-	"slug": "תוורא",
-	"headword": {
-		"text": "תַּוָּורָא"
-	},
+	"sefariaHeadword": "תַּוָּורָא",
+	"headwords": [
+		{
+			"text": "תַּוָּורָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1651,
 		"column": "b"

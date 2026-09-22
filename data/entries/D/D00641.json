@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00641",
-	"slug": "דינו",
-	"headword": {
-		"text": "דֵּינוּ"
-	},
+	"sefariaHeadword": "דֵּינוּ",
+	"headwords": [
+		{
+			"text": "דֵּינוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

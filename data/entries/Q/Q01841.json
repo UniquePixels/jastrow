@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01841",
-	"slug": "פרישנא",
-	"headword": {
-		"text": "פְּרִישְׁנָא"
-	},
+	"sefariaHeadword": "פְּרִישְׁנָא",
+	"headwords": [
+		{
+			"text": "פְּרִישְׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1228,
 		"column": "b"

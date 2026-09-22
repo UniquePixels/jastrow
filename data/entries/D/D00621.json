@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00621",
-	"slug": "דימוסיין",
-	"headword": {
-		"text": "דִּימוֹסְיִין"
-	},
+	"sefariaHeadword": "דִּימוֹסְיִין",
+	"headwords": [
+		{
+			"text": "דִּימוֹסְיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 300,
 		"column": "b"

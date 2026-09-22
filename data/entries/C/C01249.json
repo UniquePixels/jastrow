@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01249",
-	"slug": "גרגיר",
-	"headword": {
-		"text": "גַּרְגִּיר"
-	},
+	"sefariaHeadword": "גַּרְגִּיר",
+	"headwords": [
+		{
+			"text": "גַּרְגִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

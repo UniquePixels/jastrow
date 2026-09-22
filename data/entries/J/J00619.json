@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00619",
-	"slug": "ירושלמי",
-	"headword": {
-		"text": "יְרוּשַׁלְמִי"
-	},
+	"sefariaHeadword": "יְרוּשַׁלְמִי",
+	"headwords": [
+		{
+			"text": "יְרוּשַׁלְמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "b"

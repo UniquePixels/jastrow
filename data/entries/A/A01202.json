@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01202",
-	"slug": "איזקפה",
-	"headword": {
-		"text": "אִיזְקָפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיזְקָפָה",
+	"headwords": [
+		{
+			"text": "אִיזְקָפָה"
+		},
 		{
 			"text": "איזקפא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 46,
 		"column": "b"

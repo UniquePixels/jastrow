@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01320",
-	"slug": "ספדנא",
-	"headword": {
-		"text": "סַפְדָּנָא"
-	},
+	"sefariaHeadword": "סַפְדָּנָא",
+	"headwords": [
+		{
+			"text": "סַפְדָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

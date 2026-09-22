@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00601",
-	"slug": "פיונטייה",
-	"headword": {
-		"text": "פיונטייה"
-	},
+	"sefariaHeadword": "פיונטייה",
+	"headwords": [
+		{
+			"text": "פיונטייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "a"

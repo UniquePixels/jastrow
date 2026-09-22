@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01194",
-	"slug": "נקי-2",
-	"headword": {
-		"text": "נְקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְקֵי",
+	"headwords": [
+		{
+			"text": "נְקֵי"
+		},
 		{
 			"text": "נְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 932,
 		"column": "b"

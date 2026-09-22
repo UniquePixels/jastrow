@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01203",
-	"slug": "גפל",
-	"headword": {
-		"text": "גפל"
-	},
+	"sefariaHeadword": "גפל",
+	"headwords": [
+		{
+			"text": "גפל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 262,
 		"column": "b"

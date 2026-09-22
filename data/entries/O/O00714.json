@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "O00714",
-	"slug": "סימנטיר",
-	"headword": {
-		"text": "סִימַנְטֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימַנְטֵיר",
+	"headwords": [
+		{
+			"text": "סִימַנְטֵיר"
+		},
 		{
 			"text": "סִימַנְטֵירִין"
 		},
 		{
-			"text": "סְמַנְ׳"
+			"text": "סְמַנְ׳",
+			"partial": true
 		},
 		{
-			"text": "סימנטו׳"
+			"text": "סימנטו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 982,
 		"column": "a"

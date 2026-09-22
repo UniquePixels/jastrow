@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00828",
-	"slug": "נכיס-1",
-	"headword": {
-		"text": "נְכֵיס"
-	},
+	"sefariaHeadword": "נְכֵיס",
+	"headwords": [
+		{
+			"text": "נְכֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "a"

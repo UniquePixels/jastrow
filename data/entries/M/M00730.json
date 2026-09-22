@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00730",
-	"slug": "מזוזה",
-	"headword": {
-		"text": "מְזוּזָה"
-	},
+	"sefariaHeadword": "מְזוּזָה",
+	"headwords": [
+		{
+			"text": "מְזוּזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 753,
 		"column": "b"

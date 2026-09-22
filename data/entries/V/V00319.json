@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00319",
-	"slug": "תורקלינא",
-	"headword": {
-		"text": "תורקלינא"
-	},
+	"sefariaHeadword": "תורקלינא",
+	"headwords": [
+		{
+			"text": "תורקלינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "b"

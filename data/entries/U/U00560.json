@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00560",
-	"slug": "שושבין",
-	"headword": {
-		"text": "שׁוֹשְׁבִין"
-	},
+	"sefariaHeadword": "שׁוֹשְׁבִין",
+	"headwords": [
+		{
+			"text": "שׁוֹשְׁבִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "a"

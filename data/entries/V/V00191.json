@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00191",
-	"slug": "תוי",
-	"headword": {
-		"text": "תוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תוי",
+	"headwords": [
+		{
+			"text": "תוי"
+		},
 		{
 			"text": "תָּוָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1652,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00575",
-	"slug": "זנותא",
-	"headword": {
-		"text": "זְנוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְנוּתָא",
+	"headwords": [
+		{
+			"text": "זְנוּתָא"
+		},
 		{
 			"text": "זְנוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 406,
 		"column": "a"

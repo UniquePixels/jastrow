@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01670",
-	"slug": "שעמומיתא",
-	"headword": {
-		"text": "שַׁעֲמוּמִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁעֲמוּמִיתָא",
+	"headwords": [
 		{
-			"text": "שַׁעֲמִי׳"
+			"text": "שַׁעֲמוּמִיתָא"
+		},
+		{
+			"text": "שַׁעֲמִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1611,
 		"column": "b"

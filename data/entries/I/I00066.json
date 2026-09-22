@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00066",
-	"slug": "טבל-5",
-	"headword": {
-		"text": "טֶבֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֶבֶל",
+	"headwords": [
+		{
+			"text": "טֶבֶל"
+		},
 		{
 			"text": "טָבַל",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 517,
 		"column": "b"

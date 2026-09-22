@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M02977",
-	"slug": "משרי",
-	"headword": {
-		"text": "מַשְׁרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַשְׁרֵי",
+	"headwords": [
 		{
-			"text": "מִ׳"
+			"text": "מַשְׁרֵי"
+		},
+		{
+			"text": "מִ׳",
+			"partial": true
 		},
 		{
 			"text": "מֵישְׁרֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 858,
 		"column": "b"

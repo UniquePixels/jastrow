@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00462",
-	"slug": "גופנא",
-	"headword": {
-		"text": "גּוֹפְנָא"
-	},
+	"sefariaHeadword": "גּוֹפְנָא",
+	"headwords": [
+		{
+			"text": "גּוֹפְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 225,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

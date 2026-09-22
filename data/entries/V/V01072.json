@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01072",
-	"slug": "תשובה",
-	"headword": {
-		"text": "תְּשׁוּבָה"
-	},
+	"sefariaHeadword": "תְּשׁוּבָה",
+	"headwords": [
+		{
+			"text": "תְּשׁוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "a"

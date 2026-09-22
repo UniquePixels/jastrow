@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00064",
-	"slug": "צבעון-2",
-	"headword": {
-		"text": "צִבְעוֹן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבְעוֹן II",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִבְעוֹן",
+			"homograph": 2
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1259,
 		"column": "b"

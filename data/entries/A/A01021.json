@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01021",
-	"slug": "אחז",
-	"headword": {
-		"text": "אָחַז"
-	},
+	"sefariaHeadword": "אָחַז",
+	"headwords": [
+		{
+			"text": "אָחַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

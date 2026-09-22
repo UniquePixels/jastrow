@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00489",
-	"slug": "מולבז",
-	"headword": {
-		"text": "מוּלְבָּז"
-	},
+	"sefariaHeadword": "מוּלְבָּז",
+	"headwords": [
+		{
+			"text": "מוּלְבָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

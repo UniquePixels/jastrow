@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03241",
-	"slug": "ארקלין",
-	"headword": {
-		"text": "ארקלין"
-	},
+	"sefariaHeadword": "ארקלין",
+	"headwords": [
+		{
+			"text": "ארקלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

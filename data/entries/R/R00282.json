@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00282",
-	"slug": "צחצוחית",
-	"headword": {
-		"text": "צַחְצוּחִית"
-	},
+	"sefariaHeadword": "צַחְצוּחִית",
+	"headwords": [
+		{
+			"text": "צַחְצוּחִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1273,
 		"column": "b"

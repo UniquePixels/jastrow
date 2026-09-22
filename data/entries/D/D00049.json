@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00049",
-	"slug": "דבוק",
-	"headword": {
-		"text": "דִּבּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּבּוּק",
+	"headwords": [
+		{
+			"text": "דִּבּוּק"
+		},
 		{
 			"text": "דִּבּוּר"
 		},
@@ -12,6 +13,7 @@
 			"text": "דִּבּוּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 276,
 		"column": "b"

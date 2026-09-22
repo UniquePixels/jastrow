@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00291",
-	"slug": "טיאוניס",
-	"headword": {
-		"text": "טיאוניס"
-	},
+	"sefariaHeadword": "טיאוניס",
+	"headwords": [
+		{
+			"text": "טיאוניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

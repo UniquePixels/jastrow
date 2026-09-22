@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01254",
-	"slug": "בריז-2",
-	"headword": {
-		"text": "בָּרֵיז"
-	},
+	"sefariaHeadword": "בָּרֵיז",
+	"headwords": [
+		{
+			"text": "בָּרֵיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

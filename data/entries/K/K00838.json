@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00838",
-	"slug": "כנהא",
-	"headword": {
-		"text": "כַּנְהָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּנְהָא",
+	"headwords": [
+		{
+			"text": "כַּנְהָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

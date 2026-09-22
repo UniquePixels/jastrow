@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02920",
-	"slug": "משמדות",
-	"headword": {
-		"text": "משמדות"
-	},
+	"sefariaHeadword": "משמדות",
+	"headwords": [
+		{
+			"text": "משמדות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "a"

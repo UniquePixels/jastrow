@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S00917",
-	"slug": "קיטנית-1",
-	"headword": {
-		"text": "קִיטְנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטְנִית",
+	"headwords": [
+		{
+			"text": "קִיטְנִית"
+		},
 		{
 			"text": "קִטְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1358,
 		"column": "a"

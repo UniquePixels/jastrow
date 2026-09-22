@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01351",
-	"slug": "שלם-4",
-	"headword": {
-		"text": "שְׁלָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלָם",
+	"headwords": [
+		{
+			"text": "שְׁלָם"
+		},
 		{
 			"text": "שְׁלַם"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁלָמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1586,
 		"column": "b"

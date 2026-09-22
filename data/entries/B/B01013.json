@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01013",
-	"slug": "בסר-4",
-	"headword": {
-		"text": "בְּסַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "בְּסַר ²",
+	"headwords": [
+		{
+			"text": "בְּסַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 180,
 		"column": "a"

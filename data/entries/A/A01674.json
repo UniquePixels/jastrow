@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01674",
-	"slug": "אכום",
-	"headword": {
-		"text": "אִכּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִכּוּם",
+	"headwords": [
 		{
-			"text": "כפר אִכּוּם"
+			"text": "אִכּוּם"
+		},
+		{
+			"text": "כפר א׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 62,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

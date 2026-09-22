@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00493",
-	"slug": "גוריא-2",
-	"headword": {
-		"text": "גּוּרְיָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּרְיָא II",
+	"headwords": [
+		{
+			"text": "גּוּרְיָא",
+			"homograph": 2
+		},
 		{
 			"text": "גּוּרְיָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 227,
 		"column": "a"

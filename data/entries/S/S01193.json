@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01193",
-	"slug": "קירסום",
-	"headword": {
-		"text": "קִירְסוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְסוּם",
+	"headwords": [
 		{
-			"text": "קִרְ׳"
+			"text": "קִירְסוּם"
+		},
+		{
+			"text": "קִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1369,
 		"column": "b"

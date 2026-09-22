@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01011",
-	"slug": "חלותא",
-	"headword": {
-		"text": "חֶלְוָתָא"
-	},
+	"sefariaHeadword": "חֶלְוָתָא",
+	"headwords": [
+		{
+			"text": "חֶלְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "a"

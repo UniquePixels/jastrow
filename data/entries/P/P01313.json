@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01313",
-	"slug": "ערובתא-1",
-	"headword": {
-		"text": "עֲרוּבְתָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲרוּבְתָּא I",
+	"headwords": [
+		{
+			"text": "עֲרוּבְתָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1114,
 		"column": "a"

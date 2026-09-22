@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00232",
-	"slug": "שגנז",
-	"headword": {
-		"text": "שגנז"
-	},
+	"sefariaHeadword": "שגנז",
+	"headwords": [
+		{
+			"text": "שגנז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

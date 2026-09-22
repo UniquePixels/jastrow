@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00622",
-	"slug": "המם-1",
-	"headword": {
-		"text": "הָמַם"
-	},
+	"sefariaHeadword": "הָמַם",
+	"headwords": [
+		{
+			"text": "הָמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00432",
-	"slug": "בזזותא",
-	"headword": {
-		"text": "בזזותא"
-	},
+	"sefariaHeadword": "בזזותא",
+	"headwords": [
+		{
+			"text": "בזזותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "b"

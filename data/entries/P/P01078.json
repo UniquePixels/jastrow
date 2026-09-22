@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01078",
-	"slug": "עפרא",
-	"headword": {
-		"text": "עַפְרָא"
-	},
+	"sefariaHeadword": "עַפְרָא",
+	"headwords": [
+		{
+			"text": "עַפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1100,
 		"column": "b"

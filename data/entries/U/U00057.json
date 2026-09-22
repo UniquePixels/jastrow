@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00057",
-	"slug": "שאתי",
-	"headword": {
-		"text": "שָׁאתֵי"
-	},
+	"sefariaHeadword": "שָׁאתֵי",
+	"headwords": [
+		{
+			"text": "שָׁאתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1509,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00697",
-	"slug": "תמניסר",
-	"headword": {
-		"text": "תַּמְנֵיסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּמְנֵיסַר",
+	"headwords": [
+		{
+			"text": "תַּמְנֵיסַר"
+		},
 		{
 			"text": "תַּמְנֵיסְרָאָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "תַּמְנֵיסְרֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1678,
 		"column": "b"

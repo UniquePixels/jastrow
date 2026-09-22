@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00894",
-	"slug": "גלוהי",
-	"headword": {
-		"text": "גלוהי"
-	},
+	"sefariaHeadword": "גלוהי",
+	"headwords": [
+		{
+			"text": "גלוהי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

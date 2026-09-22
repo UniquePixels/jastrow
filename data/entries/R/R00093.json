@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00093",
-	"slug": "צדוק-2",
-	"headword": {
-		"text": "צָדוֹק"
-	},
+	"sefariaHeadword": "צָדוֹק",
+	"headwords": [
+		{
+			"text": "צָדוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1261,
 		"column": "b"

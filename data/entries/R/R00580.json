@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00580",
-	"slug": "צמיתא",
-	"headword": {
-		"text": "צְמִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צְמִיתָא",
+	"headwords": [
+		{
+			"text": "צְמִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1288,
 		"column": "a"

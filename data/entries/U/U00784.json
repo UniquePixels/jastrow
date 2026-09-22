@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00784",
-	"slug": "שיבבא",
-	"headword": {
-		"text": "שֵּׁיבָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵּׁיבָבָא",
+	"headwords": [
 		{
-			"text": "שִׁיבְ׳"
+			"text": "שֵּׁיבָבָא"
 		},
 		{
-			"text": "שֵׁבְ׳"
+			"text": "שִׁיבְ׳",
+			"partial": true
+		},
+		{
+			"text": "שֵׁבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1556,
 		"column": "a"

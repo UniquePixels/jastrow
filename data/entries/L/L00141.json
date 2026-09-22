@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "L00141",
-	"slug": "לגנא",
-	"headword": {
-		"text": "לגְנָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*לגְנָא",
+	"headwords": [
 		{
-			"text": "לִיגְ׳"
+			"text": "לגְנָא",
+			"reconstructed": true
+		},
+		{
+			"text": "לִיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 693,
 		"column": "a"

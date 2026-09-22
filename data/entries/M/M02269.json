@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02269",
-	"slug": "מצדא-2",
-	"headword": {
-		"text": "מְצָדָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְצָדָא II",
+	"headwords": [
+		{
+			"text": "מְצָדָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 823,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00723",
-	"slug": "תנובה",
-	"headword": {
-		"text": "תְּנוּבָה"
-	},
+	"sefariaHeadword": "תְּנוּבָה",
+	"headwords": [
+		{
+			"text": "תְּנוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

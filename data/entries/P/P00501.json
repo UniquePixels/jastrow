@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "P00501",
-	"slug": "עיגל",
-	"headword": {
-		"text": "עֵיגַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵיגַל",
+	"headwords": [
+		{
+			"text": "עֵיגַל"
+		},
 		{
 			"text": "עִיגְלָא"
 		},
 		{
-			"text": "עִג׳"
+			"text": "עִג׳",
+			"partial": true
 		},
 		{
-			"text": "עֶגְ׳"
+			"text": "עֶגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1067,
 		"column": "a"

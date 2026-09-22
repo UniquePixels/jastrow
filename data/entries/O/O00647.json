@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00647",
-	"slug": "סיכוף",
-	"headword": {
-		"text": "סִיכּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכּוּף",
+	"headwords": [
 		{
-			"text": "סִכּ׳"
+			"text": "סִיכּוּף"
+		},
+		{
+			"text": "סִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

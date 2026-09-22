@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00170",
-	"slug": "עדש",
-	"headword": {
-		"text": "עֶדֶשׁ"
-	},
+	"sefariaHeadword": "עֶדֶשׁ",
+	"headwords": [
+		{
+			"text": "עֶדֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "a"

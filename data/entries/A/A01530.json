@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01530",
-	"slug": "איפאניטא",
-	"headword": {
-		"text": "איפאניטא"
-	},
+	"sefariaHeadword": "איפאניטא",
+	"headwords": [
+		{
+			"text": "איפאניטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

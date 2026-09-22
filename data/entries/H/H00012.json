@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00012",
-	"slug": "חבב-1",
-	"headword": {
-		"text": "חָבַב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָבַב I",
+	"headwords": [
+		{
+			"text": "חָבַב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 415,
 		"column": "b"

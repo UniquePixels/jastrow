@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01030",
-	"slug": "רקח-2",
-	"headword": {
-		"text": "רֶקַח"
-	},
+	"sefariaHeadword": "רֶקַח",
+	"headwords": [
+		{
+			"text": "רֶקַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

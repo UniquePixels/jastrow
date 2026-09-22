@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00903",
-	"slug": "אורכתא",
-	"headword": {
-		"text": "אורכתא"
-	},
+	"sefariaHeadword": "אורכתא",
+	"headwords": [
+		{
+			"text": "אורכתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "a"

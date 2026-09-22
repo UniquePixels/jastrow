@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01929",
-	"slug": "פרסי-2",
-	"headword": {
-		"text": "פַּרְסִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְסִי ²",
+	"headwords": [
+		{
+			"text": "פַּרְסִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "פַּרְסִית"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1234,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00781",
-	"slug": "עלוי-3",
-	"headword": {
-		"text": "עִלּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִלּוּי",
+	"headwords": [
+		{
+			"text": "עִלּוּי"
+		},
 		{
 			"text": "עִלּוּיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲלוֹיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1081,
 		"column": "a"

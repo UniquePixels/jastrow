@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00210",
-	"slug": "קהל-3",
-	"headword": {
-		"text": "קָהָל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָהָל ²",
+	"headwords": [
+		{
+			"text": "קָהָל",
+			"disambiguator": 2
+		},
 		{
 			"text": "קַהֲלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1322,
 		"column": "b"

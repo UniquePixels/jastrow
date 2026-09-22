@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00606",
-	"slug": "ניבא-2",
-	"headword": {
-		"text": "נִיבָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נִיבָא II",
+	"headwords": [
+		{
+			"text": "נִיבָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 902,
 		"column": "b"

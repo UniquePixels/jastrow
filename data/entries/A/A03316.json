@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03316",
-	"slug": "אשלא-2",
-	"headword": {
-		"text": "אַשְׁלָא"
-	},
+	"sefariaHeadword": "אַשְׁלָא",
+	"headwords": [
+		{
+			"text": "אַשְׁלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

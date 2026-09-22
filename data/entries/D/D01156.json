@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01156",
-	"slug": "דשתן",
-	"headword": {
-		"text": "דשתן"
-	},
+	"sefariaHeadword": "דשתן",
+	"headwords": [
+		{
+			"text": "דשתן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

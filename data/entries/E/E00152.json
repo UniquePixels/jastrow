@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00152",
-	"slug": "הדראוליס",
-	"headword": {
-		"text": "הִדְרַאוְלִיס"
-	},
+	"sefariaHeadword": "הִדְרַאוְלִיס",
+	"headwords": [
+		{
+			"text": "הִדְרַאוְלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

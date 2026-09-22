@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00230",
-	"slug": "גדלת",
-	"headword": {
-		"text": "גַּדֶּלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּדֶּלֶת",
+	"headwords": [
+		{
+			"text": "גַּדֶּלֶת"
+		},
 		{
 			"text": "גּוֹדֶלֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 213,
 		"column": "b"

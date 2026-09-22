@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00108",
-	"slug": "אביא",
-	"headword": {
-		"text": "אביא"
-	},
+	"sefariaHeadword": "אביא",
+	"headwords": [
+		{
+			"text": "אביא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

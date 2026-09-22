@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01525",
-	"slug": "איסתניס",
-	"headword": {
-		"text": "אִיסְתְּנִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְתְּנִיס",
+	"headwords": [
+		{
+			"text": "אִיסְתְּנִיס"
+		},
 		{
 			"text": "אִיסְטְנִיס"
 		},
 		{
-			"text": "אִסְ׳"
+			"text": "אִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 58,
 		"column": "a"

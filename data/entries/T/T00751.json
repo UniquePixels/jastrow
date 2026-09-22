@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00751",
-	"slug": "רכבא-3",
-	"headword": {
-		"text": "רְכֻבָא"
-	},
+	"sefariaHeadword": "רְכֻבָא",
+	"headwords": [
+		{
+			"text": "רְכֻבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "a"

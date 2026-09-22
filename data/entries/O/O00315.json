@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00315",
-	"slug": "סולאנא",
-	"headword": {
-		"text": "סוּלָאנָא"
-	},
+	"sefariaHeadword": "סוּלָאנָא",
+	"headwords": [
+		{
+			"text": "סוּלָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "b"

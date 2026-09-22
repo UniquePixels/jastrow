@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01021",
-	"slug": "גמי-2",
-	"headword": {
-		"text": "גְּמִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּמִי II",
+	"headwords": [
+		{
+			"text": "גְּמִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 252,
 		"column": "b"

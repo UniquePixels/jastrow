@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01937",
-	"slug": "פרסק",
-	"headword": {
-		"text": "פַּרְסֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְסֵק",
+	"headwords": [
+		{
+			"text": "פַּרְסֵק"
+		},
 		{
 			"text": "פַּרְסֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1234,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01258",
-	"slug": "בריטניא",
-	"headword": {
-		"text": "בְּרִיטַנְיָא"
-	},
+	"sefariaHeadword": "בְּרִיטַנְיָא",
+	"headwords": [
+		{
+			"text": "בְּרִיטַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 193,
 		"column": "b"

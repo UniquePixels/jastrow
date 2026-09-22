@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01824",
-	"slug": "חשופא",
-	"headword": {
-		"text": "חשופא"
-	},
+	"sefariaHeadword": "חשופא",
+	"headwords": [
+		{
+			"text": "חשופא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

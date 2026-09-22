@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00382",
-	"slug": "בורסי-1",
-	"headword": {
-		"text": "בּוּרְסִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּרְסִי II",
+	"headwords": [
+		{
+			"text": "בּוּרְסִי",
+			"homograph": 2
+		},
 		{
 			"text": "ברסי"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 150,
 		"column": "b"

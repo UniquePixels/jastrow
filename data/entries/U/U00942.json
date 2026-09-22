@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U00942",
-	"slug": "שילוט",
-	"headword": {
-		"text": "שִׁילּוּט",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*שִׁילּוּט",
+	"headwords": [
 		{
-			"text": "שִׁלּ׳"
+			"text": "שִׁילּוּט",
+			"reconstructed": true
+		},
+		{
+			"text": "שִׁלּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "a"

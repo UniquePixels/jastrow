@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00327",
-	"slug": "דוקא-2",
-	"headword": {
-		"text": "דּוּקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דּוּקָא I",
+	"headwords": [
+		{
+			"text": "דּוּקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 288,
 		"column": "a"

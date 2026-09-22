@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01167",
-	"slug": "קירומא",
-	"headword": {
-		"text": "קֵירוֹמָא"
-	},
+	"sefariaHeadword": "קֵירוֹמָא",
+	"headwords": [
+		{
+			"text": "קֵירוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00177",
-	"slug": "לובא",
-	"headword": {
-		"text": "לוּבָא"
-	},
+	"sefariaHeadword": "לוּבָא",
+	"headwords": [
+		{
+			"text": "לוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

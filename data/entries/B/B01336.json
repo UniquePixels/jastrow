@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01336",
-	"slug": "ברר-2",
-	"headword": {
-		"text": "בְּרַר"
-	},
+	"sefariaHeadword": "בְּרַר",
+	"headwords": [
+		{
+			"text": "בְּרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00784",
-	"slug": "בכיה",
-	"headword": {
-		"text": "בְּכִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּכִיָּה",
+	"headwords": [
+		{
+			"text": "בְּכִיָּה"
+		},
 		{
 			"text": "בְּכִייָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 169,
 		"column": "b"

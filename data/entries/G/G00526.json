@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00526",
-	"slug": "זמם-1",
-	"headword": {
-		"text": "זָמַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זָמַם I",
+	"headwords": [
+		{
+			"text": "זָמַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 403,
 		"column": "a"

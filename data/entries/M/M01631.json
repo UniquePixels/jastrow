@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01631",
-	"slug": "מלרע",
-	"headword": {
-		"text": "מִלְּרַע"
-	},
+	"sefariaHeadword": "מִלְּרַע",
+	"headwords": [
+		{
+			"text": "מִלְּרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

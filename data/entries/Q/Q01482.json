@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01482",
-	"slug": "פקטין",
-	"headword": {
-		"text": "פַּקְטֵין"
-	},
+	"sefariaHeadword": "פַּקְטֵין",
+	"headwords": [
+		{
+			"text": "פַּקְטֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "b"

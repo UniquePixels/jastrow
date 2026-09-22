@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00696",
-	"slug": "חיזור",
-	"headword": {
-		"text": "חֵיזוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיזוּר",
+	"headwords": [
+		{
+			"text": "חֵיזוּר"
+		},
 		{
 			"text": "חִיזּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 453,
 		"column": "a"

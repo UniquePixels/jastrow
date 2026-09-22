@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01209",
-	"slug": "נקימה",
-	"headword": {
-		"text": "נְקִימָה"
-	},
+	"sefariaHeadword": "נְקִימָה",
+	"headwords": [
+		{
+			"text": "נְקִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

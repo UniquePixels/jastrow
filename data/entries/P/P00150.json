@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00150",
-	"slug": "עדיתא-2",
-	"headword": {
-		"text": "עָדִיתָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָדִיתָא ²",
+	"headwords": [
+		{
+			"text": "עָדִיתָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "עֲדִיתָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1044,
 		"column": "b"

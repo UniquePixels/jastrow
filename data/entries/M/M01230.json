@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01230",
-	"slug": "מינס",
-	"headword": {
-		"text": "מֵינַס"
-	},
+	"sefariaHeadword": "מֵינַס",
+	"headwords": [
+		{
+			"text": "מֵינַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "a"

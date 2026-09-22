@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01206",
-	"slug": "סנוקרת",
-	"headword": {
-		"text": "סִנּוֹקֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנּוֹקֶרֶת",
+	"headwords": [
 		{
-			"text": "סִינּ׳"
+			"text": "סִנּוֹקֶרֶת"
+		},
+		{
+			"text": "סִינּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1006,
 		"column": "a"

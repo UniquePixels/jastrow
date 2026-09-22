@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00256",
-	"slug": "אגוגא",
-	"headword": {
-		"text": "אָגוֹגָא"
-	},
+	"sefariaHeadword": "אָגוֹגָא",
+	"headwords": [
+		{
+			"text": "אָגוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "a"

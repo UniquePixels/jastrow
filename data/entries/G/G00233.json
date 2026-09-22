@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00233",
-	"slug": "זור-2",
-	"headword": {
-		"text": "זוּר"
-	},
+	"sefariaHeadword": "זוּר",
+	"headwords": [
+		{
+			"text": "זוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00473",
-	"slug": "חורמן",
-	"headword": {
-		"text": "חוּרְמַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּרְמַן",
+	"headwords": [
+		{
+			"text": "חוּרְמַן"
+		},
 		{
 			"text": "חוּרְמָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 440,
 		"column": "a"

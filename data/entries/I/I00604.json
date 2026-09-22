@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00604",
-	"slug": "טעימה",
-	"headword": {
-		"text": "טְעִימָה"
-	},
+	"sefariaHeadword": "טְעִימָה",
+	"headwords": [
+		{
+			"text": "טְעִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 542,
 		"column": "b"

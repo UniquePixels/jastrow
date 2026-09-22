@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01945",
-	"slug": "קרום",
-	"headword": {
-		"text": "קְרוּם"
-	},
+	"sefariaHeadword": "קְרוּם",
+	"headwords": [
+		{
+			"text": "קְרוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "P00653",
-	"slug": "עיקא-2",
-	"headword": {
-		"text": "עָיְקָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָיְקָא ²",
+	"headwords": [
+		{
+			"text": "עָיְקָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָיְי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1074,
 		"column": "a"

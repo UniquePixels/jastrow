@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00568",
-	"slug": "נטירה",
-	"headword": {
-		"text": "נְטִירָה"
-	},
+	"sefariaHeadword": "נְטִירָה",
+	"headwords": [
+		{
+			"text": "נְטִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 899,
 		"column": "b"

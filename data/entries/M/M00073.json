@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00073",
-	"slug": "מבגאי",
-	"headword": {
-		"text": "מַבְגַּאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַבְגַּאי",
+	"headwords": [
+		{
+			"text": "מַבְגַּאי"
+		},
 		{
 			"text": "מַבְגַּיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 724,
 		"column": "b"

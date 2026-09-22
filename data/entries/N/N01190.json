@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01190",
-	"slug": "נקט-1",
-	"headword": {
-		"text": "נָקַט"
-	},
+	"sefariaHeadword": "נָקַט",
+	"headwords": [
+		{
+			"text": "נָקַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 932,
 		"column": "a"

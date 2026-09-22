@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00488",
-	"slug": "הירדוף",
-	"headword": {
-		"text": "הִירְדּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִירְדּוּף",
+	"headwords": [
+		{
+			"text": "הִירְדּוּף"
+		},
 		{
 			"text": "חַרְדּוּף"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 349,
 		"column": "b"

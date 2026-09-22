@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00027",
-	"slug": "דאציפי",
-	"headword": {
-		"text": "דָּאצִיפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּאצִיפֵי",
+	"headwords": [
+		{
+			"text": "דָּאצִיפֵי"
+		},
 		{
 			"text": "דַּיְיצִיפֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 276,
 		"column": "a"

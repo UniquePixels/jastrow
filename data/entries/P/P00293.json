@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00293",
-	"slug": "עונג",
-	"headword": {
-		"text": "עוֹנֶג"
-	},
+	"sefariaHeadword": "עוֹנֶג",
+	"headwords": [
+		{
+			"text": "עוֹנֶג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1054,
 		"column": "a"

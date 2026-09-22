@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00399",
-	"slug": "ילפת",
-	"headword": {
-		"text": "יַלֶּפֶת"
-	},
+	"sefariaHeadword": "יַלֶּפֶת",
+	"headwords": [
+		{
+			"text": "יַלֶּפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

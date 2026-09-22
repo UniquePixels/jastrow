@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01345",
-	"slug": "גריצתא",
-	"headword": {
-		"text": "גְּרִיצְתָּא"
-	},
+	"sefariaHeadword": "גְּרִיצְתָּא",
+	"headwords": [
+		{
+			"text": "גְּרִיצְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 269,
 		"column": "a"

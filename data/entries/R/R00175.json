@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00175",
-	"slug": "צווי",
-	"headword": {
-		"text": "צִוּוּי"
-	},
+	"sefariaHeadword": "צִוּוּי",
+	"headwords": [
+		{
+			"text": "צִוּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

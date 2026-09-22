@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00608",
-	"slug": "אוזניות",
-	"headword": {
-		"text": "אוּזְנִיּוֹת",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אוּזְנִיֹּות",
+	"headwords": [
+		{
+			"text": "אוּזְנִיּוֹת",
+			"reconstructed": true
+		},
 		{
 			"text": "אָזְנִיּוֹת"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 24,
 		"column": "a"

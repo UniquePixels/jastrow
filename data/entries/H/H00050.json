@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00050",
-	"slug": "חביב-1",
-	"headword": {
-		"text": "חָבִיב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָבִיב I",
+	"headwords": [
+		{
+			"text": "חָבִיב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 418,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00821",
-	"slug": "דלועין",
-	"headword": {
-		"text": "דְּלוּעין"
-	},
+	"sefariaHeadword": "דְּלוּעין",
+	"headwords": [
+		{
+			"text": "דְּלוּעין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

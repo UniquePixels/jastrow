@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01090",
-	"slug": "פלנדיסין",
-	"headword": {
-		"text": "פְּלַנְדִּיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַנְדִּיסִין",
+	"headwords": [
+		{
+			"text": "פְּלַנְדִּיסִין"
+		},
 		{
 			"text": "פְּלַנְדְּסִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּלַנְדַּרְסִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1183,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03161",
-	"slug": "ארכקפאן",
-	"headword": {
-		"text": "ארכקפאן"
-	},
+	"sefariaHeadword": "ארכקפאן",
+	"headwords": [
+		{
+			"text": "ארכקפאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "b"

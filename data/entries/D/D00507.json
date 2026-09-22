@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00507",
-	"slug": "דיווי",
-	"headword": {
-		"text": "דִּיוּוּי"
-	},
+	"sefariaHeadword": "דִּיוּוּי",
+	"headwords": [
+		{
+			"text": "דִּיוּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

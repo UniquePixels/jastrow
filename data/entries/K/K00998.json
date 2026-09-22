@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00998",
-	"slug": "כפורא-3",
-	"headword": {
-		"text": "כְּפוֹרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כְּפוֹרָא II",
+	"headwords": [
+		{
+			"text": "כְּפוֹרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 658,
 		"column": "a"

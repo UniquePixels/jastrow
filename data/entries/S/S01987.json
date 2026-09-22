@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01987",
-	"slug": "קרטבלא",
-	"headword": {
-		"text": "קַרְטַבְלָא"
-	},
+	"sefariaHeadword": "קַרְטַבְלָא",
+	"headwords": [
+		{
+			"text": "קַרְטַבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

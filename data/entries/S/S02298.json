@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02298",
-	"slug": "קתרוס-3",
-	"headword": {
-		"text": "קַתְרוֹס",
-		"homograph": 3
-	},
+	"sefariaHeadword": "קַתְרוֹס III",
+	"headwords": [
+		{
+			"text": "קַתְרוֹס",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1434,
 		"column": "b"

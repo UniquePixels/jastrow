@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00829",
-	"slug": "כנא-1",
-	"headword": {
-		"text": "כַּנָּא"
-	},
+	"sefariaHeadword": "כַּנָּא",
+	"headwords": [
+		{
+			"text": "כַּנָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

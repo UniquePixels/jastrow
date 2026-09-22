@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00155",
-	"slug": "הדרונא",
-	"headword": {
-		"text": "הדרונא"
-	},
+	"sefariaHeadword": "הדרונא",
+	"headwords": [
+		{
+			"text": "הדרונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

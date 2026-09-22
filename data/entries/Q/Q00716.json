@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00716",
-	"slug": "פימוסקא",
-	"headword": {
-		"text": "פימוסקא"
-	},
+	"sefariaHeadword": "פימוסקא",
+	"headwords": [
+		{
+			"text": "פימוסקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "a"

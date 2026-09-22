@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00848",
-	"slug": "קיאטרון",
-	"headword": {
-		"text": "קִיאַטְרוֹן"
-	},
+	"sefariaHeadword": "קִיאַטְרוֹן",
+	"headwords": [
+		{
+			"text": "קִיאַטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "a"

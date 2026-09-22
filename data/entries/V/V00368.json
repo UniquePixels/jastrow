@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00368",
-	"slug": "תחלא",
-	"headword": {
-		"text": "תַּחְלָא"
-	},
+	"sefariaHeadword": "תַּחְלָא",
+	"headwords": [
+		{
+			"text": "תַּחְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "b"

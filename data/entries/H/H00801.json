@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00801",
-	"slug": "חימוס",
-	"headword": {
-		"text": "חִימּוּס"
-	},
+	"sefariaHeadword": "חִימּוּס",
+	"headwords": [
+		{
+			"text": "חִימּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "b"

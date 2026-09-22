@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00945",
-	"slug": "סכתא-1",
-	"headword": {
-		"text": "סִכְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכְּתָא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִכְּתָא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 993,
 		"column": "a"

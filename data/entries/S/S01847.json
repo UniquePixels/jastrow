@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01847",
-	"slug": "קצר-4",
-	"headword": {
-		"text": "קַצָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַצָּר",
+	"headwords": [
+		{
+			"text": "קַצָּר"
+		},
 		{
 			"text": "קַצְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1408,
 		"column": "b"

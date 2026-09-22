@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00013",
-	"slug": "תאוביא",
-	"headword": {
-		"text": "תְּאוּבַיָּא"
-	},
+	"sefariaHeadword": "תְּאוּבַיָּא",
+	"headwords": [
+		{
+			"text": "תְּאוּבַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1641,
 		"column": "b"

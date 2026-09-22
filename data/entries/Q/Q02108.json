@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02108",
-	"slug": "פשתן",
-	"headword": {
-		"text": "פִּשְׁתָּן"
-	},
+	"sefariaHeadword": "פִּשְׁתָּן",
+	"headwords": [
+		{
+			"text": "פִּשְׁתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

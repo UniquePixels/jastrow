@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00149",
-	"slug": "נגחן-2",
-	"headword": {
-		"text": "נַגְחַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַגְחַן",
+	"headwords": [
+		{
+			"text": "נַגְחַן"
+		},
 		{
 			"text": "נַגְחָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 874,
 		"column": "a"

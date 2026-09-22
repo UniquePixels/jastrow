@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03340",
-	"slug": "אשפר",
-	"headword": {
-		"text": "אֶשְׁפָּר"
-	},
+	"sefariaHeadword": "אֶשְׁפָּר",
+	"headwords": [
+		{
+			"text": "אֶשְׁפָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"

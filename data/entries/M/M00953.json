@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00953",
-	"slug": "מחתיא",
-	"headword": {
-		"text": "מַחְתְּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחְתְּיָא",
+	"headwords": [
+		{
+			"text": "מַחְתְּיָא"
+		},
 		{
 			"text": "מַחְתְּיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 765,
 		"column": "a"

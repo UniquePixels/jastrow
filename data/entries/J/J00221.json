@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00221",
-	"slug": "יועזר",
-	"headword": {
-		"text": "יוֹעֶזֶר"
-	},
+	"sefariaHeadword": "יוֹעֶזֶר",
+	"headwords": [
+		{
+			"text": "יוֹעֶזֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "a"

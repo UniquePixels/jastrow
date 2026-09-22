@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N01282",
-	"slug": "נשא-2",
-	"headword": {
-		"text": "נָשָׁא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָשָׁא II",
+	"headwords": [
+		{
+			"text": "נָשָׁא",
+			"homograph": 2
+		},
 		{
 			"text": "נְשָׁא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} II, {1} II",
 	"page": {
 		"number": 937,
 		"column": "b"

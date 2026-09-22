@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01176",
-	"slug": "סנדיות",
-	"headword": {
-		"text": "סנדיות"
-	},
+	"sefariaHeadword": "סנדיות",
+	"headwords": [
+		{
+			"text": "סנדיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

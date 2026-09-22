@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00134",
-	"slug": "בדיד",
-	"headword": {
-		"text": "בָּדִיד"
-	},
+	"sefariaHeadword": "בָּדִיד",
+	"headwords": [
+		{
+			"text": "בָּדִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "a"

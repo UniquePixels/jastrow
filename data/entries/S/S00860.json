@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00860",
-	"slug": "קיבלא",
-	"headword": {
-		"text": "קִיבְלָא"
-	},
+	"sefariaHeadword": "קִיבְלָא",
+	"headwords": [
+		{
+			"text": "קִיבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

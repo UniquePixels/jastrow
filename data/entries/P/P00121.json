@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "P00121",
-	"slug": "עדבא",
-	"headword": {
-		"text": "עַדְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַדְבָא",
+	"headwords": [
+		{
+			"text": "עַדְבָא"
+		},
 		{
 			"text": "עַדְוָוא"
 		},
 		{
-			"text": "עִ׳"
+			"text": "עִ׳",
+			"partial": true
 		},
 		{
-			"text": "עִי׳"
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1043,
 		"column": "a"

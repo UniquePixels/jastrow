@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00411",
-	"slug": "כושת",
-	"headword": {
-		"text": "כּוֹשְׁתְּ"
-	},
+	"sefariaHeadword": "כּוֹשְׁתְּ",
+	"headwords": [
+		{
+			"text": "כּוֹשְׁתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "b"

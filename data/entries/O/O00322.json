@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00322",
-	"slug": "סולמא",
-	"headword": {
-		"text": "סוּלָּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּלָּמָא",
+	"headwords": [
+		{
+			"text": "סוּלָּמָא"
+		},
 		{
 			"text": "סוּלְּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 965,
 		"column": "a"

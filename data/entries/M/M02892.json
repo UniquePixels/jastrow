@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02892",
-	"slug": "משך-3",
-	"headword": {
-		"text": "מְשַׁךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְשַׁךְ I",
+	"headwords": [
+		{
+			"text": "מְשַׁךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 853,
 		"column": "b"

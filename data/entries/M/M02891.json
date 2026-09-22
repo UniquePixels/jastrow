@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02891",
-	"slug": "משך-2",
-	"headword": {
-		"text": "משַׁךְ"
-	},
+	"sefariaHeadword": "משַׁךְ",
+	"headwords": [
+		{
+			"text": "משַׁךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 853,
 		"column": "a"

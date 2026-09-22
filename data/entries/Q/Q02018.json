@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02018",
-	"slug": "פרר-2",
-	"headword": {
-		"text": "פְּרַר"
-	},
+	"sefariaHeadword": "פְּרַר",
+	"headwords": [
+		{
+			"text": "פְּרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "b"

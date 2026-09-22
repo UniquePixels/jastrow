@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00914",
-	"slug": "חכור",
-	"headword": {
-		"text": "חָכוּר"
-	},
+	"sefariaHeadword": "חָכוּר",
+	"headwords": [
+		{
+			"text": "חָכוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "b"

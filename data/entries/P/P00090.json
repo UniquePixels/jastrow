@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00090",
-	"slug": "עגל-2",
-	"headword": {
-		"text": "עֲגַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲגַל I",
+	"headwords": [
+		{
+			"text": "עֲגַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1041,
 		"column": "a"

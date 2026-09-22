@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00370",
-	"slug": "תחלואים",
-	"headword": {
-		"text": "תַּחֲלוּאים"
-	},
+	"sefariaHeadword": "תַּחֲלוּאים",
+	"headwords": [
+		{
+			"text": "תַּחֲלוּאים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "b"

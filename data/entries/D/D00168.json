@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D00168",
-	"slug": "דואר-2",
-	"headword": {
-		"text": "דַּוָּאר",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּוָּאר I",
+	"headwords": [
+		{
+			"text": "דַּוָּאר",
+			"homograph": 1
+		},
 		{
 			"text": "דַּוָּואר"
 		},
@@ -13,6 +14,7 @@
 			"text": "דַּוָּור"
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 282,
 		"column": "a"

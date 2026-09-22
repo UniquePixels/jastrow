@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00988",
-	"slug": "כפוי",
-	"headword": {
-		"text": "כָּפוּי"
-	},
+	"sefariaHeadword": "כָּפוּי",
+	"headwords": [
+		{
+			"text": "כָּפוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

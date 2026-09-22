@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00104",
-	"slug": "עגמה",
-	"headword": {
-		"text": "עַגְמָה"
-	},
+	"sefariaHeadword": "עַגְמָה",
+	"headwords": [
+		{
+			"text": "עַגְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "a"

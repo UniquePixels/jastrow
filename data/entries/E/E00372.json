@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00372",
-	"slug": "היינו",
-	"headword": {
-		"text": "הַיְינוּ"
-	},
+	"sefariaHeadword": "הַיְינוּ",
+	"headwords": [
+		{
+			"text": "הַיְינוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 345,
 		"column": "a"

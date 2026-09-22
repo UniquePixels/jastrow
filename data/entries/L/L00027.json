@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00027",
-	"slug": "לאפוסיא",
-	"headword": {
-		"text": "לאפוסיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לאפוסיא",
+	"headwords": [
+		{
+			"text": "לאפוסיא"
+		},
 		{
 			"text": "לאפיסיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 686,
 		"column": "b"

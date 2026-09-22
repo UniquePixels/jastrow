@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00932",
-	"slug": "פלאתא",
-	"headword": {
-		"text": "פִּלְאֲתָא"
-	},
+	"sefariaHeadword": "פִּלְאֲתָא",
+	"headwords": [
+		{
+			"text": "פִּלְאֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1175,
 		"column": "a"

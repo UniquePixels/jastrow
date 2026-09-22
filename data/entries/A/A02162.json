@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02162",
-	"slug": "אנטובין",
-	"headword": {
-		"text": "אַנְטוּבִּין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַנְטוּבִּין",
+	"headwords": [
+		{
+			"text": "אַנְטוּבִּין",
+			"reconstructed": true
+		},
 		{
 			"text": "הִינְדְּבִי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "b"

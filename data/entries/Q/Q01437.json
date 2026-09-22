@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01437",
-	"slug": "פצל-2",
-	"headword": {
-		"text": "פְּצַל"
-	},
+	"sefariaHeadword": "פְּצַל",
+	"headwords": [
+		{
+			"text": "פְּצַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "b"

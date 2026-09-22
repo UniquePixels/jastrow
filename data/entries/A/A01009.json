@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01009",
-	"slug": "אחוזתא",
-	"headword": {
-		"text": "אֲחוּזְתָּא"
-	},
+	"sefariaHeadword": "אֲחוּזְתָּא",
+	"headwords": [
+		{
+			"text": "אֲחוּזְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

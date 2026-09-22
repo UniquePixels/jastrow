@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00482",
-	"slug": "צלבחא",
-	"headword": {
-		"text": "צלבחא"
-	},
+	"sefariaHeadword": "צלבחא",
+	"headwords": [
+		{
+			"text": "צלבחא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "a"

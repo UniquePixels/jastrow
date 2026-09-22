@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00426",
-	"slug": "זירנא",
-	"headword": {
-		"text": "זֵירָנָא"
-	},
+	"sefariaHeadword": "זֵירָנָא",
+	"headwords": [
+		{
+			"text": "זֵירָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 397,
 		"column": "a"

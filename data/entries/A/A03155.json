@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03155",
-	"slug": "ארכל",
-	"headword": {
-		"text": "ארכל"
-	},
+	"sefariaHeadword": "ארכל",
+	"headwords": [
+		{
+			"text": "ארכל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

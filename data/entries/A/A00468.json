@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00468",
-	"slug": "אדריכותא",
-	"headword": {
-		"text": "אַדְרִיכוּתָא"
-	},
+	"sefariaHeadword": "אַדְרִיכוּתָא",
+	"headwords": [
+		{
+			"text": "אַדְרִיכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "a"

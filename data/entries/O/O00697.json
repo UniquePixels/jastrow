@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O00697",
-	"slug": "סימוניא",
-	"headword": {
-		"text": "סִימוֹנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימוֹנְיָא",
+	"headwords": [
+		{
+			"text": "סִימוֹנְיָא"
+		},
 		{
 			"text": "סִימוֹנְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

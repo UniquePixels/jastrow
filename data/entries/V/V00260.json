@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00260",
-	"slug": "תופנה",
-	"headword": {
-		"text": "תּוּפְנָה"
-	},
+	"sefariaHeadword": "תּוּפְנָה",
+	"headwords": [
+		{
+			"text": "תּוּפְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1655,
 		"column": "b"

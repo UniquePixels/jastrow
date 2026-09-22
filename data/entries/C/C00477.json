@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00477",
-	"slug": "גור-5",
-	"headword": {
-		"text": "גּוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּר ²",
+	"headwords": [
+		{
+			"text": "גּוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "גּוּרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 226,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01046",
-	"slug": "תרפות",
-	"headword": {
-		"text": "תַּרְפּוּת"
-	},
+	"sefariaHeadword": "תַּרְפּוּת",
+	"headwords": [
+		{
+			"text": "תַּרְפּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1701,
 		"column": "b"

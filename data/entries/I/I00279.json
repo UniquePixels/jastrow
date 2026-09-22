@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00279",
-	"slug": "טטפת",
-	"headword": {
-		"text": "טֹטָפֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טֹטָפֶת",
+	"headwords": [
+		{
+			"text": "טֹטָפֶת"
+		},
 		{
 			"text": "טֹטַפְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 528,
 		"column": "b"

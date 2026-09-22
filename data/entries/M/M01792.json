@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01792",
-	"slug": "מנכייה",
-	"headword": {
-		"text": "מנכייה"
-	},
+	"sefariaHeadword": "מנכייה",
+	"headwords": [
+		{
+			"text": "מנכייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

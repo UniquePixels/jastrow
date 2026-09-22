@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00212",
-	"slug": "יונתן",
-	"headword": {
-		"text": "יוֹנָתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹנָתָן",
+	"headwords": [
+		{
+			"text": "יוֹנָתָן"
+		},
 		{
 			"text": "יְהוֹנָתָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 570,
 		"column": "b"

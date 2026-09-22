@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00728",
-	"slug": "כליותא",
-	"headword": {
-		"text": "כַּלְיוּתָא"
-	},
+	"sefariaHeadword": "כַּלְיוּתָא",
+	"headwords": [
+		{
+			"text": "כַּלְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "a"

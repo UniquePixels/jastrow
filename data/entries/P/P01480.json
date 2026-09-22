@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "P01480",
-	"slug": "עשיק-1",
-	"headword": {
-		"text": "עָשִׁיק",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*עָשִׁיק",
+	"headwords": [
+		{
+			"text": "עָשִׁיק",
+			"reconstructed": true
+		},
 		{
 			"text": "עֲ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1} I",
 	"page": {
 		"number": 1125,
 		"column": "b"

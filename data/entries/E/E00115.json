@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00115",
-	"slug": "הדיב",
-	"headword": {
-		"text": "הַדְיֵב"
-	},
+	"sefariaHeadword": "הַדְיֵב",
+	"headwords": [
+		{
+			"text": "הַדְיֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

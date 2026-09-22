@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "V00615",
-	"slug": "תלסר",
-	"headword": {
-		"text": "תַּלְסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּלְסַר",
+	"headwords": [
+		{
+			"text": "תַּלְסַר"
+		},
 		{
 			"text": "תַּלְאָסָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1673,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

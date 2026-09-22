@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00351",
-	"slug": "תחוותא",
-	"headword": {
-		"text": "תְּחַוְותָּא"
-	},
+	"sefariaHeadword": "תְּחַוְותָּא",
+	"headwords": [
+		{
+			"text": "תְּחַוְותָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1660,
 		"column": "b"

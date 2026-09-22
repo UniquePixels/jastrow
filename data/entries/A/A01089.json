@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01089",
-	"slug": "אטלולא",
-	"headword": {
-		"text": "אִטְלוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִטְלוּלָא",
+	"headwords": [
 		{
-			"text": "אִיטְ׳"
+			"text": "אִטְלוּלָא"
+		},
+		{
+			"text": "אִיטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "b"

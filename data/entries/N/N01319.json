@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01319",
-	"slug": "נשיקות",
-	"headword": {
-		"text": "נְשִׁיקוּת"
-	},
+	"sefariaHeadword": "נְשִׁיקוּת",
+	"headwords": [
+		{
+			"text": "נְשִׁיקוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "a"

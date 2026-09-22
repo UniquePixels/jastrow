@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00505",
-	"slug": "טלית-2",
-	"headword": {
-		"text": "טַלִּית",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַלִּית ²",
+	"headwords": [
+		{
+			"text": "טַלִּית",
+			"disambiguator": 2
+		},
 		{
 			"text": "טַלִּיתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 537,
 		"column": "a"

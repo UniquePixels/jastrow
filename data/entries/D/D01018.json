@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01018",
-	"slug": "דקר-2",
-	"headword": {
-		"text": "דְּקַר"
-	},
+	"sefariaHeadword": "דְּקַר",
+	"headwords": [
+		{
+			"text": "דְּקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "a"

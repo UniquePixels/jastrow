@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00489",
-	"slug": "לינה",
-	"headword": {
-		"text": "לִינָה"
-	},
+	"sefariaHeadword": "לִינָה",
+	"headwords": [
+		{
+			"text": "לִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 708,
 		"column": "a"

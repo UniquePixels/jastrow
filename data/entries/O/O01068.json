@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01068",
-	"slug": "סמוכות",
-	"headword": {
-		"text": "סָמוֹכוֹת"
-	},
+	"sefariaHeadword": "סָמוֹכוֹת",
+	"headwords": [
+		{
+			"text": "סָמוֹכוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 999,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00401",
-	"slug": "מוגמר",
-	"headword": {
-		"text": "מוּגְמָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּגְמָר",
+	"headwords": [
+		{
+			"text": "מוּגְמָר"
+		},
 		{
 			"text": "מָגְמָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "b"

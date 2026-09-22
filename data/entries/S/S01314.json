@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01314",
-	"slug": "קלי-1",
-	"headword": {
-		"text": "קַלֵּי"
-	},
+	"sefariaHeadword": "קַלֵּי",
+	"headwords": [
+		{
+			"text": "קַלֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1375,
 		"column": "a"

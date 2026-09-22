@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00373",
-	"slug": "גולבא",
-	"headword": {
-		"text": "גּוּלְבָּא"
-	},
+	"sefariaHeadword": "גּוּלְבָּא",
+	"headwords": [
+		{
+			"text": "גּוּלְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "a"

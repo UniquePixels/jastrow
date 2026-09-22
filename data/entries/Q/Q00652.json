@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00652",
-	"slug": "פיילן",
-	"headword": {
-		"text": "פיילן"
-	},
+	"sefariaHeadword": "פיילן",
+	"headwords": [
+		{
+			"text": "פיילן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "b"

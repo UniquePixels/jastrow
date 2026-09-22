@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01231",
-	"slug": "פסד-1",
-	"headword": {
-		"text": "פָּסַד"
-	},
+	"sefariaHeadword": "פָּסַד",
+	"headwords": [
+		{
+			"text": "פָּסַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1192,
 		"column": "a"

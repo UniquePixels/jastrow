@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00356",
-	"slug": "עורזילא",
-	"headword": {
-		"text": "עוּרְזִילָא"
-	},
+	"sefariaHeadword": "עוּרְזִילָא",
+	"headwords": [
+		{
+			"text": "עוּרְזִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1058,
 		"column": "b"

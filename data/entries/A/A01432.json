@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01432",
-	"slug": "איסטטנית",
-	"headword": {
-		"text": "אִיסְטַטָּנִית",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיסְטַטָּנִית",
+	"headwords": [
+		{
+			"text": "אִיסְטַטָּנִית",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 55,
 		"column": "a"

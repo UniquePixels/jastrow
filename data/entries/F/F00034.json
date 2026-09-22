@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00034",
-	"slug": "וידוי",
-	"headword": {
-		"text": "וִידּוּי"
-	},
+	"sefariaHeadword": "וִידּוּי",
+	"headwords": [
+		{
+			"text": "וִידּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

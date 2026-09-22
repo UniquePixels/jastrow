@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00660",
-	"slug": "נייח-3",
-	"headword": {
-		"text": "נְיָיח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְיָיח",
+	"headwords": [
+		{
+			"text": "נְיָיח"
+		},
 		{
 			"text": "נְיָיחָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "נִיחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 904,
 		"column": "a"

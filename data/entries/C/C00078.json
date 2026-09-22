@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00078",
-	"slug": "גביא-3",
-	"headword": {
-		"text": "גַּבְיָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּבְיָא III",
+	"headwords": [
 		{
-			"text": "גַּבְיָא גילא"
+			"text": "גַּבְיָא",
+			"homograph": 3
+		},
+		{
+			"text": "ג׳ גילא",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 206,
 		"column": "a"

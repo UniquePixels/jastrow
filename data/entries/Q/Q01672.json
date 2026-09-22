@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01672",
-	"slug": "פרוטי",
-	"headword": {
-		"text": "פְּרוֹטִי"
-	},
+	"sefariaHeadword": "פְּרוֹטִי",
+	"headwords": [
+		{
+			"text": "פְּרוֹטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "b"

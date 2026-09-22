@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02442",
-	"slug": "אסיף",
-	"headword": {
-		"text": "אָסִיף"
-	},
+	"sefariaHeadword": "אָסִיף",
+	"headwords": [
+		{
+			"text": "אָסִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

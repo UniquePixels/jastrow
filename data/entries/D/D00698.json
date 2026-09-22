@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00698",
-	"slug": "דיקדוק",
-	"headword": {
-		"text": "דִּיקְדּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיקְדּוּק",
+	"headwords": [
+		{
+			"text": "דִּיקְדּוּק"
+		},
 		{
 			"text": "דִּיקְדּוּקָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דִּיקְדֵּק"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 304,
 		"column": "b"

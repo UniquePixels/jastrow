@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00988",
-	"slug": "תרייקא",
-	"headword": {
-		"text": "תִּרְיָיקָא"
-	},
+	"sefariaHeadword": "תִּרְיָיקָא",
+	"headwords": [
+		{
+			"text": "תִּרְיָיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

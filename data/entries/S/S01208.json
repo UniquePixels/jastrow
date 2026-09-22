@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01208",
-	"slug": "קישבא",
-	"headword": {
-		"text": "קִישְׁבָּא"
-	},
+	"sefariaHeadword": "קִישְׁבָּא",
+	"headwords": [
+		{
+			"text": "קִישְׁבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "a"

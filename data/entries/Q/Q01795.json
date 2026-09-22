@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01795",
-	"slug": "פריום",
-	"headword": {
-		"text": "פִּרְיוֹם"
-	},
+	"sefariaHeadword": "פִּרְיוֹם",
+	"headwords": [
+		{
+			"text": "פִּרְיוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"

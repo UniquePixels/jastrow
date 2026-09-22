@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00123",
-	"slug": "סגי-4",
-	"headword": {
-		"text": "סַגִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַגִּי",
+	"headwords": [
+		{
+			"text": "סַגִּי"
+		},
 		{
 			"text": "סַגִּיא"
 		},
@@ -12,6 +13,7 @@
 			"text": "סַגִּיאָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 954,
 		"column": "a"

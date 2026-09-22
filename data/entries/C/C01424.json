@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01424",
-	"slug": "גשרא",
-	"headword": {
-		"text": "גִּשְׁרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּשְׁרָא",
+	"headwords": [
+		{
+			"text": "גִּשְׁרָא"
+		},
 		{
 			"text": "גִּישְׁרא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 274,
 		"column": "b"

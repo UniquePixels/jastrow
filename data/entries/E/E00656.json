@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00656",
-	"slug": "הנדבי",
-	"headword": {
-		"text": "הִנְדְּבִי"
-	},
+	"sefariaHeadword": "הִנְדְּבִי",
+	"headwords": [
+		{
+			"text": "הִנְדְּבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00335",
-	"slug": "פורופי",
-	"headword": {
-		"text": "פורופי"
-	},
+	"sefariaHeadword": "פורופי",
+	"headwords": [
+		{
+			"text": "פורופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

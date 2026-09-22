@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02559",
-	"slug": "מרדתא-1",
-	"headword": {
-		"text": "מָרָדְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָרָדְתָּא",
+	"headwords": [
+		{
+			"text": "מָרָדְתָּא"
+		},
 		{
 			"text": "מָרְדֵתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 838,
 		"column": "a"

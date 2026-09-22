@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01399",
-	"slug": "ערמית",
-	"headword": {
-		"text": "עַרְמִית"
-	},
+	"sefariaHeadword": "עַרְמִית",
+	"headwords": [
+		{
+			"text": "עַרְמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1120,
 		"column": "b"

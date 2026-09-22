@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00737",
-	"slug": "ניפלא-1",
-	"headword": {
-		"text": "נִיפְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיפְלָא",
+	"headwords": [
+		{
+			"text": "נִיפְלָא"
+		},
 		{
 			"text": "נִפְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 907,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00889",
-	"slug": "מחלה-2",
-	"headword": {
-		"text": "מַחֲלָה"
-	},
+	"sefariaHeadword": "מַחֲלָה",
+	"headwords": [
+		{
+			"text": "מַחֲלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "b"

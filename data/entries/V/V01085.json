@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01085",
-	"slug": "תשיסר",
-	"headword": {
-		"text": "תְּשֵׁיסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּשֵׁיסַר",
+	"headwords": [
+		{
+			"text": "תְּשֵׁיסַר"
+		},
 		{
 			"text": "תְּשֵׁיסְרָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1703,
 		"column": "b"

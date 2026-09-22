@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00555",
-	"slug": "תכף-3",
-	"headword": {
-		"text": "תֵּכֶף"
-	},
+	"sefariaHeadword": "תֵּכֶף",
+	"headwords": [
+		{
+			"text": "תֵּכֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "b"

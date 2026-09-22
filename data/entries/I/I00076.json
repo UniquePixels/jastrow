@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00076",
-	"slug": "טבע-1",
-	"headword": {
-		"text": "טָבַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טָבַע I",
+	"headwords": [
+		{
+			"text": "טָבַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 518,
 		"column": "b"

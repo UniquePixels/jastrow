@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00470",
-	"slug": "זכרון",
-	"headword": {
-		"text": "זִכָּרוֹן"
-	},
+	"sefariaHeadword": "זִכָּרוֹן",
+	"headwords": [
+		{
+			"text": "זִכָּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 400,
 		"column": "b"

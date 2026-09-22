@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "O00051",
-	"slug": "סבטיון",
-	"headword": {
-		"text": "סַבַּטְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַבַּטְיוֹן",
+	"headwords": [
 		{
-			"text": "סַמְבַּ׳"
+			"text": "סַבַּטְיוֹן"
 		},
 		{
-			"text": "סַנְבַּ׳"
+			"text": "סַמְבַּ׳",
+			"partial": true
+		},
+		{
+			"text": "סַנְבַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 949,
 		"column": "b"

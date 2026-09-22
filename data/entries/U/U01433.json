@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01433",
-	"slug": "שמון",
-	"headword": {
-		"text": "שְׁמוֹן"
-	},
+	"sefariaHeadword": "שְׁמוֹן",
+	"headwords": [
+		{
+			"text": "שְׁמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1592,
 		"column": "b"

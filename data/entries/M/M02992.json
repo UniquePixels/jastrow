@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02992",
-	"slug": "משתותא-1",
-	"headword": {
-		"text": "מִשְׁתּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁתּוּתָא",
+	"headwords": [
 		{
-			"text": "מִישְׁ׳"
+			"text": "מִשְׁתּוּתָא"
+		},
+		{
+			"text": "מִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 859,
 		"column": "a"

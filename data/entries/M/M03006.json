@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03006",
-	"slug": "מתאים",
-	"headword": {
-		"text": "מַתְאִים"
-	},
+	"sefariaHeadword": "מַתְאִים",
+	"headwords": [
+		{
+			"text": "מַתְאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "b"

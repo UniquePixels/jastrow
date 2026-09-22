@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00756",
-	"slug": "רכובתא",
-	"headword": {
-		"text": "רְכוּבְתָּא"
-	},
+	"sefariaHeadword": "רְכוּבְתָּא",
+	"headwords": [
+		{
+			"text": "רְכוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

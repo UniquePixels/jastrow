@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00850",
-	"slug": "עם-4",
-	"headword": {
-		"text": "עַם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַם ²",
+	"headwords": [
+		{
+			"text": "עַם",
+			"disambiguator": 2
+		},
 		{
 			"text": "עַמָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1086,
 		"column": "a"

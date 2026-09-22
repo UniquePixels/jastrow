@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "D01118",
-	"slug": "דרע-3",
-	"headword": {
-		"text": "דְּרַע",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרַע III",
+	"headwords": [
+		{
+			"text": "דְּרַע",
+			"homograph": 3
+		},
 		{
 			"text": "דְּרָעָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "דְּרוֹעָא"
 		}
 	],
+	"display": "{0} III, {1}, ({2})",
 	"page": {
 		"number": 324,
 		"column": "b"

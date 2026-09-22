@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00420",
-	"slug": "הימוסיון",
-	"headword": {
-		"text": "הימוסיון"
-	},
+	"sefariaHeadword": "הימוסיון",
+	"headwords": [
+		{
+			"text": "הימוסיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "a"

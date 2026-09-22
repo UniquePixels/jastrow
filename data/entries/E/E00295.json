@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00295",
-	"slug": "הז״יו",
-	"headword": {
-		"text": "הז״יו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הז\"יו",
+	"headwords": [
 		{
-			"text": "הז״יו ל״ך"
+			"text": "הז״יו"
+		},
+		{
+			"text": "ה׳ ל״ך",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 341,
 		"column": "b"

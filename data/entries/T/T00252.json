@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00252",
-	"slug": "רדידא-2",
-	"headword": {
-		"text": "רַדִּידָא"
-	},
+	"sefariaHeadword": "רַדִּידָא",
+	"headwords": [
+		{
+			"text": "רַדִּידָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

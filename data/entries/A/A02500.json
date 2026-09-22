@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02500",
-	"slug": "אספלנית",
-	"headword": {
-		"text": "אִסְפְּלָנִית",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִסְפְּלָנִית",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְפְּלָנִית",
+			"reconstructed": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 95,
 		"column": "b"

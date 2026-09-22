@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00882",
-	"slug": "תקין-2",
-	"headword": {
-		"text": "תַּקִּין"
-	},
+	"sefariaHeadword": "תַּקִּין",
+	"headwords": [
+		{
+			"text": "תַּקִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "a"

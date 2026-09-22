@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01348",
-	"slug": "בשולא",
-	"headword": {
-		"text": "בִּשּׁוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּשּׁוּלָא",
+	"headwords": [
 		{
-			"text": "בִּושּׁ׳"
+			"text": "בִּשּׁוּלָא"
+		},
+		{
+			"text": "בִּושּׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 198,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00003",
-	"slug": "ראג",
-	"headword": {
-		"text": "רָאֵג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָאֵג",
+	"headwords": [
+		{
+			"text": "רָאֵג"
+		},
 		{
 			"text": "רָאֵיג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1434,
 		"column": "b"

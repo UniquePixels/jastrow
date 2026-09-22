@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00912",
-	"slug": "גלוף",
-	"headword": {
-		"text": "גְּלוֹף"
-	},
+	"sefariaHeadword": "גְּלוֹף",
+	"headwords": [
+		{
+			"text": "גְּלוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

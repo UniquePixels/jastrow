@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00226",
-	"slug": "קוביא",
-	"headword": {
-		"text": "קוּבְיָא"
-	},
+	"sefariaHeadword": "קוּבְיָא",
+	"headwords": [
+		{
+			"text": "קוּבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1323,
 		"column": "b"

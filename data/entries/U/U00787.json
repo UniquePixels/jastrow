@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00787",
-	"slug": "שיבה-1",
-	"headword": {
-		"text": "שִׁיבָה"
-	},
+	"sefariaHeadword": "שִׁיבָה",
+	"headwords": [
+		{
+			"text": "שִׁיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "b"

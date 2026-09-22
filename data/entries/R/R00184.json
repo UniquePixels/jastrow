@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00184",
-	"slug": "צוותנית",
-	"headword": {
-		"text": "צַוְותָנִית"
-	},
+	"sefariaHeadword": "צַוְותָנִית",
+	"headwords": [
+		{
+			"text": "צַוְותָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

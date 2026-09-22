@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00456",
-	"slug": "פחות-1",
-	"headword": {
-		"text": "פָּחוּת"
-	},
+	"sefariaHeadword": "פָּחוּת",
+	"headwords": [
+		{
+			"text": "פָּחוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "b"

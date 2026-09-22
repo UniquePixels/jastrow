@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00303",
-	"slug": "גודא-2",
-	"headword": {
-		"text": "גּוּדָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּדָּא I",
+	"headwords": [
+		{
+			"text": "גּוּדָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 218,
 		"column": "a"

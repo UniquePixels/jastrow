@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00189",
-	"slug": "עוג-1",
-	"headword": {
-		"text": "עוֹג"
-	},
+	"sefariaHeadword": "עוֹג",
+	"headwords": [
+		{
+			"text": "עוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "b"

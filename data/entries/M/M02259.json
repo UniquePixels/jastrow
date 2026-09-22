@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02259",
-	"slug": "מפתחא",
-	"headword": {
-		"text": "מַפְתְּחָא"
-	},
+	"sefariaHeadword": "מַפְתְּחָא",
+	"headwords": [
+		{
+			"text": "מַפְתְּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "b"

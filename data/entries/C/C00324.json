@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00324",
-	"slug": "גוהרקא-1",
-	"headword": {
-		"text": "גּוּהַרְקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּהַרְקָא I",
+	"headwords": [
+		{
+			"text": "גּוּהַרְקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 219,
 		"column": "a"

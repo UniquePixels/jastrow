@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00510",
-	"slug": "יפך",
-	"headword": {
-		"text": "יָפַךְ"
-	},
+	"sefariaHeadword": "יָפַךְ",
+	"headwords": [
+		{
+			"text": "יָפַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 586,
 		"column": "b"

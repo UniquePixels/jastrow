@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00556",
-	"slug": "רטוש",
-	"headword": {
-		"text": "רָטוּשׁ"
-	},
+	"sefariaHeadword": "רָטוּשׁ",
+	"headwords": [
+		{
+			"text": "רָטוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1471,
 		"column": "a"

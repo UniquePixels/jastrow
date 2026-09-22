@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01379",
-	"slug": "נתך-1",
-	"headword": {
-		"text": "נָתַךְ"
-	},
+	"sefariaHeadword": "נָתַךְ",
+	"headwords": [
+		{
+			"text": "נָתַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "a"

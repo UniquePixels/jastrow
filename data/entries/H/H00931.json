@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00931",
-	"slug": "חכיר-2",
-	"headword": {
-		"text": "חָכִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָכִיר",
+	"headwords": [
+		{
+			"text": "חָכִיר"
+		},
 		{
 			"text": "חָכוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 462,
 		"column": "a"

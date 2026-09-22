@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00045",
-	"slug": "עבידא",
-	"headword": {
-		"text": "עֲבִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבִידָא",
+	"headwords": [
+		{
+			"text": "עֲבִידָא"
+		},
 		{
 			"text": "עֲבֵידָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲבִידְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1037,
 		"column": "b"

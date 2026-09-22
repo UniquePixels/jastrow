@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00307",
-	"slug": "סוכלתנו",
-	"headword": {
-		"text": "סוּכְלְתָנוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּכְלְתָנוּ",
+	"headwords": [
+		{
+			"text": "סוּכְלְתָנוּ"
+		},
 		{
 			"text": "סוּכְלְתָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 964,
 		"column": "a"

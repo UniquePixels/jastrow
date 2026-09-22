@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00049",
-	"slug": "רבבא",
-	"headword": {
-		"text": "רַבְבָּא"
-	},
+	"sefariaHeadword": "רַבְבָּא",
+	"headwords": [
+		{
+			"text": "רַבְבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1439,
 		"column": "a"

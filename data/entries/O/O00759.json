@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00759",
-	"slug": "סיסמא",
-	"headword": {
-		"text": "סִיסְמָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיסְמָא",
+	"headwords": [
+		{
+			"text": "סִיסְמָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

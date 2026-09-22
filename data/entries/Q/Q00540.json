@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00540",
-	"slug": "פטניתא",
-	"headword": {
-		"text": "פַּטְנִיתָא"
-	},
+	"sefariaHeadword": "פַּטְנִיתָא",
+	"headwords": [
+		{
+			"text": "פַּטְנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1156,
 		"column": "b"

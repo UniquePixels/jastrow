@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00304",
-	"slug": "יחסותא",
-	"headword": {
-		"text": "יַחֲסוּתָא"
-	},
+	"sefariaHeadword": "יַחֲסוּתָא",
+	"headwords": [
+		{
+			"text": "יַחֲסוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "b"

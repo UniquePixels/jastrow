@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01586",
-	"slug": "קניין",
-	"headword": {
-		"text": "קִנְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְיָין",
+	"headwords": [
+		{
+			"text": "קִנְיָין"
+		},
 		{
 			"text": "קִנְיָינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1392,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00132",
-	"slug": "זודא",
-	"headword": {
-		"text": "זְוָדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְוָדָא",
+	"headwords": [
+		{
+			"text": "זְוָדָא"
+		},
 		{
 			"text": "זְוָודָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 384,
 		"column": "a"

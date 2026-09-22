@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00874",
-	"slug": "פירקא",
-	"headword": {
-		"text": "פִּירְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְקָא",
+	"headwords": [
+		{
+			"text": "פִּירְקָא"
+		},
 		{
 			"text": "פֵּירָקוֹן"
 		},
@@ -15,6 +16,7 @@
 			"text": "פִּירְקֵי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1172,
 		"column": "a"

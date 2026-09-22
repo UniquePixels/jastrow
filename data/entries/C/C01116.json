@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01116",
-	"slug": "גנוסייא",
-	"headword": {
-		"text": "גְּנוּסַיָּיא"
-	},
+	"sefariaHeadword": "גְּנוּסַיָּיא",
+	"headwords": [
+		{
+			"text": "גְּנוּסַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

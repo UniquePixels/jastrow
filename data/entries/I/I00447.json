@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00447",
-	"slug": "טירייסקי",
-	"headword": {
-		"text": "טִירְיַיסְקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִירְיַיסְקֵי",
+	"headwords": [
+		{
+			"text": "טִירְיַיסְקֵי"
+		},
 		{
 			"text": "טוּרְיַסְקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 534,
 		"column": "b"

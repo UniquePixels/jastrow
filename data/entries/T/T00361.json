@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00361",
-	"slug": "רויה-1",
-	"headword": {
-		"text": "רְוִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְוִיָּה",
+	"headwords": [
+		{
+			"text": "רְוִיָּה"
+		},
 		{
 			"text": "רְוִויָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1459,
 		"column": "b"

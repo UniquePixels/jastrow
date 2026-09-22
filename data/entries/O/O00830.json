@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00830",
-	"slug": "סירא-3",
-	"headword": {
-		"text": "סִירָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "סִירָא III",
+	"headwords": [
+		{
+			"text": "סִירָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 987,
 		"column": "a"

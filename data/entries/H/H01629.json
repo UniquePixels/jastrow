@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01629",
-	"slug": "חרון",
-	"headword": {
-		"text": "חָרוֹן"
-	},
+	"sefariaHeadword": "חָרוֹן",
+	"headwords": [
+		{
+			"text": "חָרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00496",
-	"slug": "חותל",
-	"headword": {
-		"text": "חוֹתָל"
-	},
+	"sefariaHeadword": "חוֹתָל",
+	"headwords": [
+		{
+			"text": "חוֹתָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

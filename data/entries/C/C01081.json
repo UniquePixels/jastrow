@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01081",
-	"slug": "גנב-4",
-	"headword": {
-		"text": "גַּנָּב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּנָּב ²",
+	"headwords": [
+		{
+			"text": "גַּנָּב",
+			"disambiguator": 2
+		},
 		{
 			"text": "גַּנָּבָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 257,
 		"column": "a"

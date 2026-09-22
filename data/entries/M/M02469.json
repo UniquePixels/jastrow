@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02469",
-	"slug": "מקשה-1",
-	"headword": {
-		"text": "מִקְשָׁה"
-	},
+	"sefariaHeadword": "מִקְשָׁה",
+	"headwords": [
+		{
+			"text": "מִקְשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "b"

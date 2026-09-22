@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01392",
-	"slug": "אינקורא",
-	"headword": {
-		"text": "אִינְקוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִינְקוֹרָא",
+	"headwords": [
+		{
+			"text": "אִינְקוֹרָא"
+		},
 		{
 			"text": "אִנְקוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 53,
 		"column": "a"

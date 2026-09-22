@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00763",
-	"slug": "מזלא-1",
-	"headword": {
-		"text": "מִזְּלָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מִזְּלָא",
+	"headwords": [
+		{
+			"text": "מִזְּלָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 755,
 		"column": "b"

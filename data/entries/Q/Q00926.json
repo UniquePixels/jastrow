@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00926",
-	"slug": "פלא-2",
-	"headword": {
-		"text": "פֶּלֶא"
-	},
+	"sefariaHeadword": "פֶּלֶא",
+	"headwords": [
+		{
+			"text": "פֶּלֶא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01450",
-	"slug": "איסטפונין",
-	"headword": {
-		"text": "איסטפונין"
-	},
+	"sefariaHeadword": "איסטפונין",
+	"headwords": [
+		{
+			"text": "איסטפונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

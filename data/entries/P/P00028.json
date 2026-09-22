@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00028",
-	"slug": "עבוט",
-	"headword": {
-		"text": "עֲבוֹט"
-	},
+	"sefariaHeadword": "עֲבוֹט",
+	"headwords": [
+		{
+			"text": "עֲבוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

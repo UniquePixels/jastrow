@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01211",
-	"slug": "ברוש",
-	"headword": {
-		"text": "בְּרוֹשׁ"
-	},
+	"sefariaHeadword": "בְּרוֹשׁ",
+	"headwords": [
+		{
+			"text": "בְּרוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "a"

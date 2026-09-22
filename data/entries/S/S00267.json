@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00267",
-	"slug": "קווקיא",
-	"headword": {
-		"text": "קְוַוקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְוַוקְיָא",
+	"headwords": [
 		{
-			"text": "קְוַקְ׳"
+			"text": "קְוַוקְיָא"
+		},
+		{
+			"text": "קְוַקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1325,
 		"column": "a"

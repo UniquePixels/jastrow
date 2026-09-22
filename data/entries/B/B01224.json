@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01224",
-	"slug": "ברזינא",
-	"headword": {
-		"text": "בַּרְזִינָא"
-	},
+	"sefariaHeadword": "בַּרְזִינָא",
+	"headwords": [
+		{
+			"text": "בַּרְזִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

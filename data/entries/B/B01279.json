@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01279",
-	"slug": "ברירות",
-	"headword": {
-		"text": "בְּרִירוּת"
-	},
+	"sefariaHeadword": "בְּרִירוּת",
+	"headwords": [
+		{
+			"text": "בְּרִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01973",
-	"slug": "קרח-8",
-	"headword": {
-		"text": "קְרַח",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרַח II",
+	"headwords": [
+		{
+			"text": "קְרַח",
+			"homograph": 2
+		},
 		{
 			"text": "קַרְחָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "קָרָחָא"
 		}
 	],
+	"display": "{0} II, {1} I, {2}",
 	"page": {
 		"number": 1415,
 		"column": "b"

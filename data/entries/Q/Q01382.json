@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01382",
-	"slug": "פעיתא",
-	"headword": {
-		"text": "פַּעַיְתָא"
-	},
+	"sefariaHeadword": "פַּעַיְתָא",
+	"headwords": [
+		{
+			"text": "פַּעַיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1202,
 		"column": "b"

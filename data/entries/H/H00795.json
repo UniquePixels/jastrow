@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00795",
-	"slug": "חילתא",
-	"headword": {
-		"text": "חֵילְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵילְתָא",
+	"headwords": [
+		{
+			"text": "חֵילְתָא"
+		},
 		{
 			"text": "חִילְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֵילָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 457,
 		"column": "b"

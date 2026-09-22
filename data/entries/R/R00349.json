@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00349",
-	"slug": "צייתור",
-	"headword": {
-		"text": "צַיְיתוֹר"
-	},
+	"sefariaHeadword": "צַיְיתוֹר",
+	"headwords": [
+		{
+			"text": "צַיְיתוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "b"

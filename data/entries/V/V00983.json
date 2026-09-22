@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00983",
-	"slug": "תרי״ג",
-	"headword": {
-		"text": "תרי״ג"
-	},
+	"sefariaHeadword": "תרי\"ג",
+	"headwords": [
+		{
+			"text": "תרי״ג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

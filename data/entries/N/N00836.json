@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00836",
-	"slug": "נכס-1",
-	"headword": {
-		"text": "נָכַס"
-	},
+	"sefariaHeadword": "נָכַס",
+	"headwords": [
+		{
+			"text": "נָכַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 911,
 		"column": "a"

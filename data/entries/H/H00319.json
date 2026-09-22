@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00319",
-	"slug": "חול-1",
-	"headword": {
-		"text": "חוּל"
-	},
+	"sefariaHeadword": "חוּל",
+	"headwords": [
+		{
+			"text": "חוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 432,
 		"column": "b"

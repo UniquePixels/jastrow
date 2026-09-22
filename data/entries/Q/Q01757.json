@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01757",
-	"slug": "פרח-4",
-	"headword": {
-		"text": "פְּרַח",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַח II",
+	"headwords": [
+		{
+			"text": "פְּרַח",
+			"homograph": 2
+		},
 		{
 			"text": "פִּרְחָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "פִּרְחָה"
 		},
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 1224,
 		"column": "a"

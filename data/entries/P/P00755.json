@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00755",
-	"slug": "עכשמוניתה",
-	"headword": {
-		"text": "עַכְשְׁמוֹנִיתָה"
-	},
+	"sefariaHeadword": "עַכְשְׁמוֹנִיתָה",
+	"headwords": [
+		{
+			"text": "עַכְשְׁמוֹנִיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

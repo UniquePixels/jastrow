@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01471",
-	"slug": "עשור",
-	"headword": {
-		"text": "עִשּׂוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִשּׂוּר",
+	"headwords": [
+		{
+			"text": "עִשּׂוּר"
+		},
 		{
 			"text": "עִשּׂוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1124,
 		"column": "b"

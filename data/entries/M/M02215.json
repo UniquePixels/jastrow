@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02215",
-	"slug": "מפיקים",
-	"headword": {
-		"text": "מְפִיקִים"
-	},
+	"sefariaHeadword": "מְפִיקִים",
+	"headwords": [
+		{
+			"text": "מְפִיקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

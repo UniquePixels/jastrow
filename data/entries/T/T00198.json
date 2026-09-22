@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00198",
-	"slug": "רגיעה",
-	"headword": {
-		"text": "רְגִיעָה"
-	},
+	"sefariaHeadword": "רְגִיעָה",
+	"headwords": [
+		{
+			"text": "רְגִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "b"

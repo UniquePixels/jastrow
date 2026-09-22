@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02068",
-	"slug": "פשי-2",
-	"headword": {
-		"text": "פשׂי"
-	},
+	"sefariaHeadword": "פשׂי",
+	"headwords": [
+		{
+			"text": "פשׂי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

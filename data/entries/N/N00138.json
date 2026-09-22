@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00138",
-	"slug": "נגודא-4",
-	"headword": {
-		"text": "נְגוּדָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נְגוּדָא II",
+	"headwords": [
+		{
+			"text": "נְגוּדָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 873,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00159",
-	"slug": "נגיחה",
-	"headword": {
-		"text": "נְגִיחָה"
-	},
+	"sefariaHeadword": "נְגִיחָה",
+	"headwords": [
+		{
+			"text": "נְגִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "a"

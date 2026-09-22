@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00457",
-	"slug": "דיאנא",
-	"headword": {
-		"text": "דיאנא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיאנא",
+	"headwords": [
+		{
+			"text": "דיאנא"
+		},
 		{
 			"text": "דיאנה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 294,
 		"column": "a"

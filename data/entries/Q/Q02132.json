@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02132",
-	"slug": "פתוח-1",
-	"headword": {
-		"text": "פָּתוּחַ"
-	},
+	"sefariaHeadword": "פָּתוּחַ",
+	"headwords": [
+		{
+			"text": "פָּתוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

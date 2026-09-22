@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00753",
-	"slug": "עכשוב",
-	"headword": {
-		"text": "עַכְשׁוּב"
-	},
+	"sefariaHeadword": "עַכְשׁוּב",
+	"headwords": [
+		{
+			"text": "עַכְשׁוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

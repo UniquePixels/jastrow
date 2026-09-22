@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "R00311",
-	"slug": "צידון",
-	"headword": {
-		"text": "צִידוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִידוֹן",
+	"headwords": [
+		{
+			"text": "צִידוֹן"
+		},
 		{
 			"text": "צַיְדָן"
 		},
 		{
-			"text": "צַיְי׳"
+			"text": "צַיְי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1275,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

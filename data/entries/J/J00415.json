@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00415",
-	"slug": "ימם",
-	"headword": {
-		"text": "יְמָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְמָם",
+	"headwords": [
+		{
+			"text": "יְמָם"
+		},
 		{
 			"text": "יֵימָם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "a"

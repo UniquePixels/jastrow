@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01674",
-	"slug": "פרוטייות",
-	"headword": {
-		"text": "פְּרוּטִיּיוֹת"
-	},
+	"sefariaHeadword": "פְּרוּטִיּיוֹת",
+	"headwords": [
+		{
+			"text": "פְּרוּטִיּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

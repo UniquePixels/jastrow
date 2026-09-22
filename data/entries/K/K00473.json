@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00473",
-	"slug": "כי-1",
-	"headword": {
-		"text": "כי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כי",
+	"headwords": [
+		{
+			"text": "כי"
+		},
 		{
 			"text": "כ״י"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 629,
 		"column": "b"

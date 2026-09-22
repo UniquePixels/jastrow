@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02377",
-	"slug": "מקבלנותא",
-	"headword": {
-		"text": "מְקַבְּלָנוּתָא"
-	},
+	"sefariaHeadword": "מְקַבְּלָנוּתָא",
+	"headwords": [
+		{
+			"text": "מְקַבְּלָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00615",
-	"slug": "ירור",
-	"headword": {
-		"text": "יָרוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָרוֹר",
+	"headwords": [
+		{
+			"text": "יָרוֹר"
+		},
 		{
 			"text": "יָרוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 595,
 		"column": "a"

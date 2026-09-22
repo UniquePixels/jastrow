@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00328",
-	"slug": "עוק-3",
-	"headword": {
-		"text": "עֲוָק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲוָק",
+	"headwords": [
+		{
+			"text": "עֲוָק"
+		},
 		{
 			"text": "עֲוָוק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1056,
 		"column": "b"

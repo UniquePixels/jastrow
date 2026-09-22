@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00271",
-	"slug": "חווק",
-	"headword": {
-		"text": "חַוָּוק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַוָּוק",
+	"headwords": [
+		{
+			"text": "חַוָּוק"
+		},
 		{
 			"text": "חֶוֶוק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 430,
 		"column": "a"

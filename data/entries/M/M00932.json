@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00932",
-	"slug": "מחק-4",
-	"headword": {
-		"text": "מֶחֶק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֶחֶק",
+	"headwords": [
+		{
+			"text": "מֶחֶק"
+		},
 		{
 			"text": "מַחַק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 764,
 		"column": "a"

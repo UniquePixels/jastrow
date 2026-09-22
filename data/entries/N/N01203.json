@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01203",
-	"slug": "נקיות",
-	"headword": {
-		"text": "נְקִיּוּת"
-	},
+	"sefariaHeadword": "נְקִיּוּת",
+	"headwords": [
+		{
+			"text": "נְקִיּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "a"

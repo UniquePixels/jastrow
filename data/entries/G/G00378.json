@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00378",
-	"slug": "זין-4",
-	"headword": {
-		"text": "זֵין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זֵין I",
+	"headwords": [
+		{
+			"text": "זֵין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 395,
 		"column": "a"

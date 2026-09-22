@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00116",
-	"slug": "כדון",
-	"headword": {
-		"text": "כְּדוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּדוּן",
+	"headwords": [
+		{
+			"text": "כְּדוּן"
+		},
 		{
 			"text": "כְּדוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 613,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01431",
-	"slug": "חפורה-1",
-	"headword": {
-		"text": "חֲפוּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲפוּרָה",
+	"headwords": [
+		{
+			"text": "חֲפוּרָה"
+		},
 		{
 			"text": "חֲפִירָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 490,
 		"column": "b"

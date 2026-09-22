@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00261",
-	"slug": "זיארא",
-	"headword": {
-		"text": "זַיָּארָא"
-	},
+	"sefariaHeadword": "זַיָּארָא",
+	"headwords": [
+		{
+			"text": "זַיָּארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

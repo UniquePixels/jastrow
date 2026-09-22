@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01355",
-	"slug": "נשתק",
-	"headword": {
-		"text": "נַשְׁתֵּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַשְׁתֵּק",
+	"headwords": [
+		{
+			"text": "נַשְׁתֵּק"
+		},
 		{
 			"text": "נַשְׁתֵּיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 942,
 		"column": "b"

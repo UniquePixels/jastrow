@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00227",
-	"slug": "גדל-5",
-	"headword": {
-		"text": "גִּדָּל"
-	},
+	"sefariaHeadword": "גִּדָּל",
+	"headwords": [
+		{
+			"text": "גִּדָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 213,
 		"column": "b"

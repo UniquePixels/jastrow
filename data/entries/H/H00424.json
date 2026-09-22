@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00424",
-	"slug": "חופורות",
-	"headword": {
-		"text": "חופורות"
-	},
+	"sefariaHeadword": "חופורות",
+	"headwords": [
+		{
+			"text": "חופורות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "b"

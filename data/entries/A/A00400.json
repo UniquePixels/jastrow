@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00400",
-	"slug": "אדימא",
-	"headword": {
-		"text": "אֲדִימָּא"
-	},
+	"sefariaHeadword": "אֲדִימָּא",
+	"headwords": [
+		{
+			"text": "אֲדִימָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

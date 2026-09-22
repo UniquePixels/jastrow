@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "U01388",
-	"slug": "שלש-3",
-	"headword": {
-		"text": "שָׁלַשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁלַשׁ ²",
+	"headwords": [
+		{
+			"text": "שָׁלַשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁלִּשׁ",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1589,
 		"column": "a"

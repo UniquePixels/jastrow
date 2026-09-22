@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01312",
-	"slug": "מישחא",
-	"headword": {
-		"text": "מִישְׁחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִישְׁחָא",
+	"headwords": [
+		{
+			"text": "מִישְׁחָא"
+		},
 		{
 			"text": "מִישְׁחָן"
 		},
@@ -12,6 +13,7 @@
 			"text": "מִישְׁחֲתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 779,
 		"column": "b"

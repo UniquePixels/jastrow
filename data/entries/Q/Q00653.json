@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00653",
-	"slug": "פיילתא",
-	"headword": {
-		"text": "פְּיַילְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּיַילְתָּא",
+	"headwords": [
+		{
+			"text": "פְּיַילְתָּא"
+		},
 		{
 			"text": "פַּיְילָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1162,
 		"column": "b"

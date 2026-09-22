@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00898",
-	"slug": "רעיון-1",
-	"headword": {
-		"text": "רעיון"
-	},
+	"sefariaHeadword": "רעיון",
+	"headwords": [
+		{
+			"text": "רעיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1487,
 		"column": "a"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "U00376",
-	"slug": "שוט-5",
-	"headword": {
-		"text": "שׁוּט",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*שׁוּט III",
+	"headwords": [
+		{
+			"text": "שׁוּט",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 1531,
 		"column": "b"

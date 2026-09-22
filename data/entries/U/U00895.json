@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00895",
-	"slug": "שיידן",
-	"headword": {
-		"text": "שַׁיְידָן"
-	},
+	"sefariaHeadword": "שַׁיְידָן",
+	"headwords": [
+		{
+			"text": "שַׁיְידָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1561,
 		"column": "a"

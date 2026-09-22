@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02141",
-	"slug": "אנו",
-	"headword": {
-		"text": "אָנוּ"
-	},
+	"sefariaHeadword": "אָנוּ",
+	"headwords": [
+		{
+			"text": "אָנוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

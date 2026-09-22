@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00425",
-	"slug": "סוריאל",
-	"headword": {
-		"text": "סוּרִיאֵל"
-	},
+	"sefariaHeadword": "סוּרִיאֵל",
+	"headwords": [
+		{
+			"text": "סוּרִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01444",
-	"slug": "איסטית",
-	"headword": {
-		"text": "איסטית"
-	},
+	"sefariaHeadword": "איסטית",
+	"headwords": [
+		{
+			"text": "איסטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

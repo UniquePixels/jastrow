@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01127",
-	"slug": "סמפירונין",
-	"headword": {
-		"text": "סמפירונין"
-	},
+	"sefariaHeadword": "סמפירונין",
+	"headwords": [
+		{
+			"text": "סמפירונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "a"

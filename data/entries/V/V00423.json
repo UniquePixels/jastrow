@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00423",
-	"slug": "תיו",
-	"headword": {
-		"text": "תָּיו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּיו",
+	"headwords": [
+		{
+			"text": "תָּיו"
+		},
 		{
 			"text": "תָּו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01034",
-	"slug": "דרבנאה",
-	"headword": {
-		"text": "דָּרְבְּנָאָה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*דָּרְבְּנָאָה",
+	"headwords": [
+		{
+			"text": "דָּרְבְּנָאָה",
+			"reconstructed": true
+		},
 		{
 			"text": "דָּרְבְּנָאֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 320,
 		"column": "b"

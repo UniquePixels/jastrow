@@ -1,23 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "D01108",
-	"slug": "דרמסקוס",
-	"headword": {
-		"text": "דַּרְמֵסְקוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְמֵסְקוֹס",
+	"headwords": [
 		{
-			"text": "דַּרְמוּסְ׳"
+			"text": "דַּרְמֵסְקוֹס"
 		},
 		{
-			"text": "דרומיס׳"
+			"text": "דַּרְמוּסְ׳",
+			"partial": true
+		},
+		{
+			"text": "דרומיס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 324,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00596",
-	"slug": "אוותנטי-1",
-	"headword": {
-		"text": "אוותנטי"
-	},
+	"sefariaHeadword": "אוותנטי",
+	"headwords": [
+		{
+			"text": "אוותנטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

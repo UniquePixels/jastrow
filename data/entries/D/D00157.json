@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00157",
-	"slug": "דהן-2",
-	"headword": {
-		"text": "דְּהַן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּהַן II",
+	"headwords": [
+		{
+			"text": "דְּהַן",
+			"homograph": 2
+		},
 		{
 			"text": "דַּהֲנָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 281,
 		"column": "b"

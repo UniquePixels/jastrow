@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00159",
-	"slug": "סגניות",
-	"headword": {
-		"text": "סִגְנִיּוֹת"
-	},
+	"sefariaHeadword": "סִגְנִיּוֹת",
+	"headwords": [
+		{
+			"text": "סִגְנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "b"

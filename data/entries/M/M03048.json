@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03048",
-	"slug": "מתיא-2",
-	"headword": {
-		"text": "מַתְּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְּיָא",
+	"headwords": [
+		{
+			"text": "מַתְּיָא"
+		},
 		{
 			"text": "מַתְּיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 861,
 		"column": "b"

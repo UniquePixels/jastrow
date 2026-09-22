@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01399",
-	"slug": "חסם-3",
-	"headword": {
-		"text": "חָסַם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חָסַם II",
+	"headwords": [
+		{
+			"text": "חָסַם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 488,
 		"column": "b"

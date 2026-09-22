@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "D00793",
-	"slug": "דכר-2",
-	"headword": {
-		"text": "דְּכַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּכַר II",
+	"headwords": [
+		{
+			"text": "דְּכַר",
+			"homograph": 2
+		},
 		{
 			"text": "דִּכְרָא"
 		},
 		{
-			"text": "דּוּכְ׳"
+			"text": "דּוּכְ׳",
+			"partial": true
 		},
 		{
-			"text": "דִּיכְ׳"
+			"text": "דִּיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}, {2}, {3}",
 	"page": {
 		"number": 308,
 		"column": "a"

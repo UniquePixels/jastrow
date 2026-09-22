@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01993",
-	"slug": "אמהות",
-	"headword": {
-		"text": "אַמְהוּת"
-	},
+	"sefariaHeadword": "אַמְהוּת",
+	"headwords": [
+		{
+			"text": "אַמְהוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02821",
-	"slug": "אפרים",
-	"headword": {
-		"text": "אֶפְרַיִם"
-	},
+	"sefariaHeadword": "אֶפְרַיִם",
+	"headwords": [
+		{
+			"text": "אֶפְרַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

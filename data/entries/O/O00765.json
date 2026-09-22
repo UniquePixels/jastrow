@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00765",
-	"slug": "סיסרטי",
-	"headword": {
-		"text": "סִיסְרָטַי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיסְרָטַי",
+	"headwords": [
+		{
+			"text": "סִיסְרָטַי"
+		},
 		{
 			"text": "סִיסְרָטַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 984,
 		"column": "a"

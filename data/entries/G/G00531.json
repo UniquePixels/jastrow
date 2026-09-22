@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "G00531",
-	"slug": "זמם-6",
-	"headword": {
-		"text": "זְמַם",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*זְמַם III",
+	"headwords": [
+		{
+			"text": "זְמַם",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 403,
 		"column": "b"

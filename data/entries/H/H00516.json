@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00516",
-	"slug": "חזור-1",
-	"headword": {
-		"text": "חֲזוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲזוֹר",
+	"headwords": [
+		{
+			"text": "חֲזוֹר"
+		},
 		{
 			"text": "חֵזוֹר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 442,
 		"column": "b"

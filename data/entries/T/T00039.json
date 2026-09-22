@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00039",
-	"slug": "ראתן",
-	"headword": {
-		"text": "רַאֲתָן"
-	},
+	"sefariaHeadword": "רַאֲתָן",
+	"headwords": [
+		{
+			"text": "רַאֲתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1438,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00713",
-	"slug": "זריקתא",
-	"headword": {
-		"text": "זְרִיקְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְרִיקְתָּא",
+	"headwords": [
+		{
+			"text": "זְרִיקְתָּא"
+		},
 		{
 			"text": "זִירְקְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 414,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00632",
-	"slug": "טפויין",
-	"headword": {
-		"text": "טִפּוּיִין"
-	},
+	"sefariaHeadword": "טִפּוּיִין",
+	"headwords": [
+		{
+			"text": "טִפּוּיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "b"

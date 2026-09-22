@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00628",
-	"slug": "כירי-4",
-	"headword": {
-		"text": "כירי"
-	},
+	"sefariaHeadword": "כירי",
+	"headwords": [
+		{
+			"text": "כירי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 637,
 		"column": "a"

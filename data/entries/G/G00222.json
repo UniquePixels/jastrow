@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00222",
-	"slug": "זוער",
-	"headword": {
-		"text": "זוֹעַר"
-	},
+	"sefariaHeadword": "זוֹעַר",
+	"headwords": [
+		{
+			"text": "זוֹעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 389,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

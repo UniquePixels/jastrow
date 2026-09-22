@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02984",
-	"slug": "ארגז",
-	"headword": {
-		"text": "אַרְגָּז"
-	},
+	"sefariaHeadword": "אַרְגָּז",
+	"headwords": [
+		{
+			"text": "אַרְגָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

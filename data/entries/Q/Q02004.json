@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02004",
-	"slug": "פרקליט",
-	"headword": {
-		"text": "פְּרַקְלִיט"
-	},
+	"sefariaHeadword": "פְּרַקְלִיט",
+	"headwords": [
+		{
+			"text": "פְּרַקְלִיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

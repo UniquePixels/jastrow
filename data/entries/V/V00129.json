@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00129",
-	"slug": "תהפוכתא",
-	"headword": {
-		"text": "תַּהְפּוּכְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּהְפּוּכְתָּא",
+	"headwords": [
 		{
-			"text": "תַּהֲפוּ׳"
+			"text": "תַּהְפּוּכְתָּא"
+		},
+		{
+			"text": "תַּהֲפוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1649,
 		"column": "a"

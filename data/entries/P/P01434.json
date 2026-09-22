@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01434",
-	"slug": "ערפילא",
-	"headword": {
-		"text": "עֲרָפֵילָא"
-	},
+	"sefariaHeadword": "עֲרָפֵילָא",
+	"headwords": [
+		{
+			"text": "עֲרָפֵילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1122,
 		"column": "b"

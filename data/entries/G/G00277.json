@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00277",
-	"slug": "זיד-1",
-	"headword": {
-		"text": "זִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיד",
+	"headwords": [
+		{
+			"text": "זִיד"
+		},
 		{
 			"text": "זוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 391,
 		"column": "a"

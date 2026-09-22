@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00046",
-	"slug": "קביא-1",
-	"headword": {
-		"text": "קַבְיָא"
-	},
+	"sefariaHeadword": "קַבְיָא",
+	"headwords": [
+		{
+			"text": "קַבְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1308,
 		"column": "a"

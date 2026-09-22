@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00344",
-	"slug": "כופר-2",
-	"headword": {
-		"text": "כּוֹפֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹפֶר",
+	"headwords": [
+		{
+			"text": "כּוֹפֶר"
+		},
 		{
 			"text": "כֹּפֶר",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 624,
 		"column": "a"

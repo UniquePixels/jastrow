@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00835",
-	"slug": "סירוב",
-	"headword": {
-		"text": "סֵירוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֵירוּב",
+	"headwords": [
 		{
-			"text": "סֵר׳"
+			"text": "סֵירוּב"
+		},
+		{
+			"text": "סֵר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 987,
 		"column": "a"

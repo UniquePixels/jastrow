@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01260",
-	"slug": "חנוכה",
-	"headword": {
-		"text": "חֲנוּכָּה"
-	},
+	"sefariaHeadword": "חֲנוּכָּה",
+	"headwords": [
+		{
+			"text": "חֲנוּכָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "b"

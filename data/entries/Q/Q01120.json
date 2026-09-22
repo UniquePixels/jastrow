@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01120",
-	"slug": "פלפלת",
-	"headword": {
-		"text": "פִּלְפֶּלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלְפֶּלֶת",
+	"headwords": [
+		{
+			"text": "פִּלְפֶּלֶת"
+		},
 		{
 			"text": "פִּלְפַּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1185,
 		"column": "a"

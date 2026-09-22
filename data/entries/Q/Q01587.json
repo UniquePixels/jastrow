@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01587",
-	"slug": "פרדכת",
-	"headword": {
-		"text": "פַּרְדַּכְתְּ"
-	},
+	"sefariaHeadword": "פַּרְדַּכְתְּ",
+	"headwords": [
+		{
+			"text": "פַּרְדַּכְתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1216,
 		"column": "a"

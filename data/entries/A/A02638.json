@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02638",
-	"slug": "אפופסין",
-	"headword": {
-		"text": "אַפּוֹפְסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפֹּופְסִין",
+	"headwords": [
+		{
+			"text": "אַפּוֹפְסִין"
+		},
 		{
 			"text": "אַפּוֹפְסִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "a"

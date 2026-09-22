@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00961",
-	"slug": "רפק-2",
-	"headword": {
-		"text": "רְפַק"
-	},
+	"sefariaHeadword": "רְפַק",
+	"headwords": [
+		{
+			"text": "רְפַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1491,
 		"column": "b"

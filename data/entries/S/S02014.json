@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02014",
-	"slug": "קרטסים",
-	"headword": {
-		"text": "קרטסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קרטסים",
+	"headwords": [
+		{
+			"text": "קרטסים"
+		},
 		{
 			"text": "קרטסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1417,
 		"column": "a"

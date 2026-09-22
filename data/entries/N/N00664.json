@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00664",
-	"slug": "נייר",
-	"headword": {
-		"text": "נְיָיר"
-	},
+	"sefariaHeadword": "נְיָיר",
+	"headwords": [
+		{
+			"text": "נְיָיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

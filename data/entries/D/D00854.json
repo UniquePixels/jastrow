@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00854",
-	"slug": "דלפה",
-	"headword": {
-		"text": "דִּלְפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּלְפָה",
+	"headwords": [
 		{
-			"text": "דִּילְ׳"
+			"text": "דִּלְפָה"
+		},
+		{
+			"text": "דִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 311,
 		"column": "a"

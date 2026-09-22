@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02545",
-	"slug": "אסקרא",
-	"headword": {
-		"text": "אִסְקְרָא"
-	},
+	"sefariaHeadword": "אִסְקְרָא",
+	"headwords": [
+		{
+			"text": "אִסְקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

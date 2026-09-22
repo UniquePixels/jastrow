@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01497",
-	"slug": "עשק-3",
-	"headword": {
-		"text": "עשֶׁק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עשֶׁק",
+	"headwords": [
+		{
+			"text": "עשֶׁק"
+		},
 		{
 			"text": "עֻשְׁקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1126,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00642",
-	"slug": "דינון-1",
-	"headword": {
-		"text": "דִּינוּן"
-	},
+	"sefariaHeadword": "דִּינוּן",
+	"headwords": [
+		{
+			"text": "דִּינוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

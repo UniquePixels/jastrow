@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01029",
-	"slug": "נפחא-1",
-	"headword": {
-		"text": "נַפָּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַפָּחָא",
+	"headwords": [
+		{
+			"text": "נַפָּחָא"
+		},
 		{
 			"text": "נַפְּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 923,
 		"column": "a"

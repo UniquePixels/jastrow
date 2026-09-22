@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01444",
-	"slug": "שמורת",
-	"headword": {
-		"text": "שְׁמוּרַת"
-	},
+	"sefariaHeadword": "שְׁמוּרַת",
+	"headwords": [
+		{
+			"text": "שְׁמוּרַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1593,
 		"column": "a"

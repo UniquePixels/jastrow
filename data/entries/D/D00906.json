@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00906",
-	"slug": "דמע-1",
-	"headword": {
-		"text": "דָּמַע"
-	},
+	"sefariaHeadword": "דָּמַע",
+	"headwords": [
+		{
+			"text": "דָּמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "a"
@@ -27,7 +31,7 @@
 					"units": [
 						"<cite ref=\"Mishnah Orlah 2:4\">Orl. II, 4</cite>; <cite ref=\"Mishnah Orlah 2:6\">6</cite> <he>המְדַמֵּעַ</he>; a. fr.—",
 						"<cite ref=\"Mishnah Terumot 3:1\">Ter. III, 1</cite> <he>אינה מְדַמַּעַת וכ׳</he> does not make <i>Dema</i> by itself (if mixed with secular fruits). ",
-						"<cite ref=\"Mishnah Terumot 3:2\">Ib. 2</cite> <he>אינה מְדַמֵּעֲתָן</he> does not make them <i>dema;</i> <he>מְדַמְּעוֹת כקטנה וכ׳</he> make <i>dema</i>, the smallest of the two being considered as an admixture; a. fr.—Part. pass. <he>מְדוּמָּע</he>. ",
+						"<cite ref=\"Mishnah Terumot 3:2\">Ib. 2</cite> <he>אינה מְדַמֵּעֲתָן</he> does not make them <i>dema;</i> <he>מְדַמְּעוֹת כקטנה וכ׳</he> make <i>dema</i>, the smallest of the two being considered as an admixture; a. fr.—Part. pass. <he>מְדוּמָּע</he>. ",
 						"<cite ref=\"Mishnah Terumot 5:6\">Ib. V, 6</cite> <he>אין המדומע מדמע וכ׳</he> that which became subject to the law of T’rumah through an admixture, can affect a second mixture only in proportion, i.e. according to the quantity of real T’rumah contained therein. ",
 						"<cite ref=\"Mishnah Chagigah 3:4\">Ḥag. III, 4</cite> wine jars or oil jars <he>המְדוּמָּעוֹת</he> which have been mixed up; expl. ",
 						"<cite ref=\"Chagigah 25b\">ib. 25ᵇ</cite> <he>מד׳ דקדש</he> containing liquids, a portion of which was designated for libations."

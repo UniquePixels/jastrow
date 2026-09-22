@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00673",
-	"slug": "עיר-2",
-	"headword": {
-		"text": "עִיר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עִיר I",
+	"headwords": [
+		{
+			"text": "עִיר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1075,
 		"column": "a"

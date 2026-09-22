@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02847",
-	"slug": "משח-2",
-	"headword": {
-		"text": "מְשַׁח"
-	},
+	"sefariaHeadword": "מְשַׁח",
+	"headwords": [
+		{
+			"text": "מְשַׁח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 851,
 		"column": "a"

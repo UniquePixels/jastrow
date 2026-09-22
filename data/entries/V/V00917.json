@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00917",
-	"slug": "תקשיט",
-	"headword": {
-		"text": "תַּקְשִׁיט"
-	},
+	"sefariaHeadword": "תַּקְשִׁיט",
+	"headwords": [
+		{
+			"text": "תַּקְשִׁיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "b"

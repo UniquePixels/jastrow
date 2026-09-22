@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00588",
-	"slug": "דיכות",
-	"headword": {
-		"text": "דִּיכְוָת־"
-	},
+	"sefariaHeadword": "דִּיכְוָת־",
+	"headwords": [
+		{
+			"text": "דִּיכְוָת־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "a"

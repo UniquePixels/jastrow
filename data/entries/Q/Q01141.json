@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01141",
-	"slug": "פמיס",
-	"headword": {
-		"text": "פַּמְיָס"
-	},
+	"sefariaHeadword": "פַּמְיָס",
+	"headwords": [
+		{
+			"text": "פַּמְיָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

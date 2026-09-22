@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00228",
-	"slug": "לוז-4",
-	"headword": {
-		"text": "לוּז",
-		"homograph": 3
-	},
+	"sefariaHeadword": "לוּז III",
+	"headwords": [
+		{
+			"text": "לוּז",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 696,
 		"column": "a"

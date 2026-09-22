@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00077",
-	"slug": "פגמא",
-	"headword": {
-		"text": "פְּגָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּגָמָא",
+	"headwords": [
+		{
+			"text": "פְּגָמָא"
+		},
 		{
 			"text": "פִּיגְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1134,
 		"column": "b"

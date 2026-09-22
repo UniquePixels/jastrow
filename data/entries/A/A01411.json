@@ -1,23 +1,28 @@
 {
+	"schemaVersion": 2,
 	"id": "A01411",
-	"slug": "איסטבא",
-	"headword": {
-		"text": "אִיסְטְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטְבָא",
+	"headwords": [
+		{
+			"text": "אִיסְטְבָא"
+		},
 		{
 			"text": "אִיסְטְוָוא"
 		},
 		{
-			"text": "אִסְ׳"
+			"text": "אִסְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִצְ׳"
+			"text": "אִצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 54,
 		"column": "a"

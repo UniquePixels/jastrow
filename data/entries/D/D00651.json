@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00651",
-	"slug": "דיסא",
-	"headword": {
-		"text": "דַּיְסָא"
-	},
+	"sefariaHeadword": "דַּיְסָא",
+	"headwords": [
+		{
+			"text": "דַּיְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "a"

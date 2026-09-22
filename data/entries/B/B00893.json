@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00893",
-	"slug": "בלסימיה",
-	"headword": {
-		"text": "בלסימיה"
-	},
+	"sefariaHeadword": "בלסימיה",
+	"headwords": [
+		{
+			"text": "בלסימיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "a"

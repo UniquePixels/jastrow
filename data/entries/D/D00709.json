@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00709",
-	"slug": "דיקוריון",
-	"headword": {
-		"text": "דִּיקוּרְיוֹן"
-	},
+	"sefariaHeadword": "דִּיקוּרְיוֹן",
+	"headwords": [
+		{
+			"text": "דִּיקוּרְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

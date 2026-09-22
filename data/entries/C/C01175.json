@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01175",
-	"slug": "גסס-1",
-	"headword": {
-		"text": "גְּסַס"
-	},
+	"sefariaHeadword": "גְּסַס",
+	"headwords": [
+		{
+			"text": "גְּסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "a"

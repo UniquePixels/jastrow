@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00537",
-	"slug": "כילוזא",
-	"headword": {
-		"text": "כִּילוֹזָא"
-	},
+	"sefariaHeadword": "כִּילוֹזָא",
+	"headwords": [
+		{
+			"text": "כִּילוֹזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

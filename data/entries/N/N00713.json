@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00713",
-	"slug": "ניסקא",
-	"headword": {
-		"text": "נִיסְקָא"
-	},
+	"sefariaHeadword": "נִיסְקָא",
+	"headwords": [
+		{
+			"text": "נִיסְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

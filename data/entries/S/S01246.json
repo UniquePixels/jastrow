@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01246",
-	"slug": "קלבון",
-	"headword": {
-		"text": "קָלְבּוֹן"
-	},
+	"sefariaHeadword": "קָלְבּוֹן",
+	"headwords": [
+		{
+			"text": "קָלְבּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00294",
-	"slug": "תוריכוס",
-	"headword": {
-		"text": "תוריכוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תוריכוס",
+	"headwords": [
+		{
+			"text": "תוריכוס"
+		},
 		{
 			"text": "תורינוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1657,
 		"column": "b"

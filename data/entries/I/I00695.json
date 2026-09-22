@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00695",
-	"slug": "טקס-1",
-	"headword": {
-		"text": "טָקַס"
-	},
+	"sefariaHeadword": "טָקַס",
+	"headwords": [
+		{
+			"text": "טָקַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

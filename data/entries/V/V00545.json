@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00545",
-	"slug": "תכלו",
-	"headword": {
-		"text": "תִּכְלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּכְלוּ",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּכְלוּ"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1668,
 		"column": "b"

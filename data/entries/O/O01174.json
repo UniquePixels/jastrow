@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01174",
-	"slug": "סנגרא",
-	"headword": {
-		"text": "סַנְגָּרָא"
-	},
+	"sefariaHeadword": "סַנְגָּרָא",
+	"headwords": [
+		{
+			"text": "סַנְגָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

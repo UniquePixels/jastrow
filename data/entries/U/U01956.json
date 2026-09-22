@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01956",
-	"slug": "שרטט-2",
-	"headword": {
-		"text": "שַׁרְטֵט"
-	},
+	"sefariaHeadword": "שַׁרְטֵט",
+	"headwords": [
+		{
+			"text": "שַׁרְטֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "b"

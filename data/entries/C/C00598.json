@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00598",
-	"slug": "גט-1",
-	"headword": {
-		"text": "גֵּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּט",
+	"headwords": [
+		{
+			"text": "גֵּט"
+		},
 		{
 			"text": "גִּיטּ־"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 233,
 		"column": "b"
@@ -18,7 +20,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (<he>גטט</he>, cmp. <cite ref=\"H00608\"><he>חטט</he></cite>) [<i>engraving</i>,] <i>a legal document</i>.—<he>ג׳ אשה</he> (often without <he>אשה</he>) letter of divorce. Pl. <he>גִּיטֵּי נשים</he>. ",
+			"gloss": "m. (<he>גטט</he>, cmp. <cite ref=\"H00608\"><he>חטט</he></cite>) [<i>engraving</i>,] <i>a legal document</i>.—<he>ג׳ אשה</he> (often without <he>אשה</he>) letter of divorce. Pl. <he>גִּיטֵּי נשים</he>. ",
 			"units": [
 				"<cite ref=\"Mishnah Gittin 1:5\">Gitt. I, 5</cite>; <cite ref=\"Mishnah Gittin 1:4\">4</cite>; a. fr.—<he>ג׳ חוֹב</he> (usu. <he>שטר</he>) note of indebtedness. ",
 				"<cite ref=\"Bava Kamma 95a\">B. Kam. 95ᵃ</cite>; <cite ref=\"Ketubot 51b:12\">Keth. 51ᵇ</cite>.—<he>ג׳ חֲלִיצָה</he> a certificate stating compliance with the law of <i>ḥălitsah</i> (<cite ref=\"Deuteronomy 25:5-10\">Deut. XXV, 5—10</cite>). ",

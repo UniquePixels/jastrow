@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01921",
-	"slug": "שרביטא",
-	"headword": {
-		"text": "שַׁרְבִיטָא"
-	},
+	"sefariaHeadword": "שַׁרְבִיטָא",
+	"headwords": [
+		{
+			"text": "שַׁרְבִיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1628,
 		"column": "a"

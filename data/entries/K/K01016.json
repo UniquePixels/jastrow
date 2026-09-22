@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01016",
-	"slug": "כפין",
-	"headword": {
-		"text": "כָּפִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּפִין",
+	"headwords": [
+		{
+			"text": "כָּפִין"
+		},
 		{
 			"text": "כְּפִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 659,
 		"column": "a"

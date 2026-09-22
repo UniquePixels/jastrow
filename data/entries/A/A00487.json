@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00487",
-	"slug": "אהוליות",
-	"headword": {
-		"text": "אהוליות"
-	},
+	"sefariaHeadword": "אהוליות",
+	"headwords": [
+		{
+			"text": "אהוליות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "b"

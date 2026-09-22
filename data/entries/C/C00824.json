@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00824",
-	"slug": "גירוע-1",
-	"headword": {
-		"text": "גֵּירוּעַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גֵּירוּעַ I",
+	"headwords": [
+		{
+			"text": "גֵּירוּעַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 242,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00396",
-	"slug": "חומרתא",
-	"headword": {
-		"text": "חוּמַרְתָּא"
-	},
+	"sefariaHeadword": "חוּמַרְתָּא",
+	"headwords": [
+		{
+			"text": "חוּמַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 436,
 		"column": "a"

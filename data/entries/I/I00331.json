@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00331",
-	"slug": "טיטורא",
-	"headword": {
-		"text": "טיטורא"
-	},
+	"sefariaHeadword": "טיטורא",
+	"headwords": [
+		{
+			"text": "טיטורא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

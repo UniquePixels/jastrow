@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00393",
-	"slug": "שוי-3",
-	"headword": {
-		"text": "שְׁוִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁוִי",
+	"headwords": [
+		{
+			"text": "שְׁוִי"
+		},
 		{
 			"text": "שְׁוִוי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1533,
 		"column": "a"

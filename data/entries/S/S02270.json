@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02270",
-	"slug": "קשת-1",
-	"headword": {
-		"text": "קְשַׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְשַׁת",
+	"headwords": [
+		{
+			"text": "קְשַׁת"
+		},
 		{
 			"text": "קְשֵׁית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1433,
 		"column": "b"

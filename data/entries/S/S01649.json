@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01649",
-	"slug": "קסטינר",
-	"headword": {
-		"text": "קסטינר"
-	},
+	"sefariaHeadword": "קסטינר",
+	"headwords": [
+		{
+			"text": "קסטינר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

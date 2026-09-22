@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03260",
-	"slug": "אשברוע",
-	"headword": {
-		"text": "אשברוע"
-	},
+	"sefariaHeadword": "אשברוע",
+	"headwords": [
+		{
+			"text": "אשברוע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01282",
-	"slug": "ברית-1",
-	"headword": {
-		"text": "בְּרִית"
-	},
+	"sefariaHeadword": "בְּרִית",
+	"headwords": [
+		{
+			"text": "בְּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00358",
-	"slug": "לחלוחית",
-	"headword": {
-		"text": "לִחְלוּחִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִחְלוּחִית",
+	"headwords": [
 		{
-			"text": "לִיחְ׳"
+			"text": "לִחְלוּחִית"
+		},
+		{
+			"text": "לִיחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 703,
 		"column": "b"

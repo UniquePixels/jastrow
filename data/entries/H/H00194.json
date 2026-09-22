@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00194",
-	"slug": "חדייב",
-	"headword": {
-		"text": "חַדְיִיב"
-	},
+	"sefariaHeadword": "חַדְיִיב",
+	"headwords": [
+		{
+			"text": "חַדְיִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00653",
-	"slug": "צעיף",
-	"headword": {
-		"text": "צָעִיף"
-	},
+	"sefariaHeadword": "צָעִיף",
+	"headwords": [
+		{
+			"text": "צָעִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

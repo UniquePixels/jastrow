@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00090",
-	"slug": "גבין-2",
-	"headword": {
-		"text": "גְּבִין",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבִין I",
+	"headwords": [
+		{
+			"text": "גְּבִין",
+			"homograph": 1
+		},
 		{
 			"text": "גְּבִינָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 206,
 		"column": "b"

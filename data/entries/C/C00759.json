@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00759",
-	"slug": "גינוסיא",
-	"headword": {
-		"text": "גִּינוּסְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּינוּסְיָא",
+	"headwords": [
+		{
+			"text": "גִּינוּסְיָא"
+		},
 		{
 			"text": "גִּינוּסִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "גּינוסין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 239,
 		"column": "b"

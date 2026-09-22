@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00155",
-	"slug": "זוחל",
-	"headword": {
-		"text": "זוֹחַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹחַל",
+	"headwords": [
+		{
+			"text": "זוֹחַל"
+		},
 		{
 			"text": "זוֹחֲלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 385,
 		"column": "b"

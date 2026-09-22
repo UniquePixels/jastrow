@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01067",
-	"slug": "רשאי-3",
-	"headword": {
-		"text": "רִשַּׁאי"
-	},
+	"sefariaHeadword": "רִשַּׁאי",
+	"headwords": [
+		{
+			"text": "רִשַּׁאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "b"

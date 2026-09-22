@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01145",
-	"slug": "פן-1",
-	"headword": {
-		"text": "פן"
-	},
+	"sefariaHeadword": "פן",
+	"headwords": [
+		{
+			"text": "פן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

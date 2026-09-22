@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00902",
-	"slug": "מחמר",
-	"headword": {
-		"text": "מְחַמַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחַמַּר",
+	"headwords": [
+		{
+			"text": "מְחַמַּר"
+		},
 		{
 			"text": "מְחַמְּרָא"
 		},
 		{
-			"text": "מַחְמְ׳"
+			"text": "מַחְמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 762,
 		"column": "b"

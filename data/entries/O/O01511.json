@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01511",
-	"slug": "סרב-1",
-	"headword": {
-		"text": "סָרַב"
-	},
+	"sefariaHeadword": "סָרַב",
+	"headwords": [
+		{
+			"text": "סָרַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "b"

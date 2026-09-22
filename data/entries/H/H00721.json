@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00721",
-	"slug": "חייא-3",
-	"headword": {
-		"text": "חִיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיָּיא",
+	"headwords": [
+		{
+			"text": "חִיָּיא"
+		},
 		{
 			"text": "חִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 454,
 		"column": "a"

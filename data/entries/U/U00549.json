@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00549",
-	"slug": "שורייקא",
-	"headword": {
-		"text": "שׁוּרְיָיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּרְיָיקָא",
+	"headwords": [
 		{
-			"text": "ס׳"
+			"text": "שׁוּרְיָיקָא"
+		},
+		{
+			"text": "ס׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1542,
 		"column": "b"

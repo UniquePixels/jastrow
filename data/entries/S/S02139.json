@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02139",
-	"slug": "קרפסינון",
-	"headword": {
-		"text": "קַרְפָּסִינוֹן"
-	},
+	"sefariaHeadword": "קַרְפָּסִינוֹן",
+	"headwords": [
+		{
+			"text": "קַרְפָּסִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "a"

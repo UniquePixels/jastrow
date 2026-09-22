@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00772",
-	"slug": "עלה-3",
-	"headword": {
-		"text": "עָלָה"
-	},
+	"sefariaHeadword": "עָלָה",
+	"headwords": [
+		{
+			"text": "עָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00231",
-	"slug": "דוחקא",
-	"headword": {
-		"text": "דּוּחֲקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּחֲקָא",
+	"headwords": [
+		{
+			"text": "דּוּחֲקָא"
+		},
 		{
 			"text": "דּוּחְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 284,
 		"column": "b"

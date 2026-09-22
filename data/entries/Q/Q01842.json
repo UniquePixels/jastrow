@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01842",
-	"slug": "פרישתא-1",
-	"headword": {
-		"text": "פְּרִישְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִישְׁתָּא",
+	"headwords": [
+		{
+			"text": "פְּרִישְׁתָּא"
+		},
 		{
 			"text": "פְּרִישָׁתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1228,
 		"column": "b"

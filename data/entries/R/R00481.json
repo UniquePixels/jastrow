@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00481",
-	"slug": "צלבוני",
-	"headword": {
-		"text": "צֶלְבּוֹנִי"
-	},
+	"sefariaHeadword": "צֶלְבּוֹנִי",
+	"headwords": [
+		{
+			"text": "צֶלְבּוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "a"

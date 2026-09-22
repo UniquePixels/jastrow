@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03263",
-	"slug": "אשדוותא",
-	"headword": {
-		"text": "אִשְׁדַּוְותָא"
-	},
+	"sefariaHeadword": "אִשְׁדַּוְותָא",
+	"headwords": [
+		{
+			"text": "אִשְׁדַּוְותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "b"

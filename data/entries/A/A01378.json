@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01378",
-	"slug": "אינוניתא",
-	"headword": {
-		"text": "אינוניתא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אינוניתא",
+	"headwords": [
+		{
+			"text": "אינוניתא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00097",
-	"slug": "סבתא",
-	"headword": {
-		"text": "סֵבְתָא"
-	},
+	"sefariaHeadword": "סֵבְתָא",
+	"headwords": [
+		{
+			"text": "סֵבְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

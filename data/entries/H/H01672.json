@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01672",
-	"slug": "חריב",
-	"headword": {
-		"text": "חָרֵיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרֵיב",
+	"headwords": [
+		{
+			"text": "חָרֵיב"
+		},
 		{
 			"text": "חָרֵיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 502,
 		"column": "a"

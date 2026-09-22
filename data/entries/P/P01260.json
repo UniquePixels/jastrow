@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01260",
-	"slug": "ערבב-1",
-	"headword": {
-		"text": "עִרְבֵּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִרְבֵּב",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִרְבֵּב"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1111,
 		"column": "b"

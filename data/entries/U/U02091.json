@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02091",
-	"slug": "שתי-2",
-	"headword": {
-		"text": "שתי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שתי",
+	"headwords": [
+		{
+			"text": "שתי"
+		},
 		{
 			"text": "שָׁתָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1637,
 		"column": "a"

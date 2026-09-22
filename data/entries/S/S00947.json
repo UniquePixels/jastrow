@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00947",
-	"slug": "קייצאי",
-	"headword": {
-		"text": "קייצאי"
-	},
+	"sefariaHeadword": "קייצאי",
+	"headwords": [
+		{
+			"text": "קייצאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "b"

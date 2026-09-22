@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01407",
-	"slug": "גרשא",
-	"headword": {
-		"text": "גִּרְשָׂא"
-	},
+	"sefariaHeadword": "גִּרְשָׂא",
+	"headwords": [
+		{
+			"text": "גִּרְשָׂא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "b"

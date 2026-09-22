@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00108",
-	"slug": "לבנונית",
-	"headword": {
-		"text": "לַבְנוּנִית"
-	},
+	"sefariaHeadword": "לַבְנוּנִית",
+	"headwords": [
+		{
+			"text": "לַבְנוּנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

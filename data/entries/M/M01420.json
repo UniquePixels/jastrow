@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01420",
-	"slug": "מכסא-1",
-	"headword": {
-		"text": "מִכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִכְסָא",
+	"headwords": [
 		{
-			"text": "מִיכְ׳"
+			"text": "מִכְסָא"
+		},
+		{
+			"text": "מִיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 784,
 		"column": "a"

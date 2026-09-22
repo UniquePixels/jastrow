@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00622",
-	"slug": "מורדותא",
-	"headword": {
-		"text": "מוּרְדְּוָתָא"
-	},
+	"sefariaHeadword": "מוּרְדְּוָתָא",
+	"headwords": [
+		{
+			"text": "מוּרְדְּוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

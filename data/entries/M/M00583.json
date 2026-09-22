@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00583",
-	"slug": "מוקדא",
-	"headword": {
-		"text": "מוֹקְדָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוֹקְדָא II",
+	"headwords": [
+		{
+			"text": "מוֹקְדָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 747,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00398",
-	"slug": "ילפא",
-	"headword": {
-		"text": "יִלְפָא"
-	},
+	"sefariaHeadword": "יִלְפָא",
+	"headwords": [
+		{
+			"text": "יִלְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

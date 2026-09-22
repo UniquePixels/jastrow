@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01159",
-	"slug": "דת-1",
-	"headword": {
-		"text": "דַּתְּ"
-	},
+	"sefariaHeadword": "דַּתְּ",
+	"headwords": [
+		{
+			"text": "דַּתְּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

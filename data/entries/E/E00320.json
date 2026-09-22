@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00320",
-	"slug": "הטליס-2",
-	"headword": {
-		"text": "הֶטְלֵיס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֶטְלֵיס",
+	"headwords": [
+		{
+			"text": "הֶטְלֵיס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 343,
 		"column": "a"

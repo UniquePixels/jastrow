@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00863",
-	"slug": "רסקא",
-	"headword": {
-		"text": "רִסְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִסְקָא",
+	"headwords": [
+		{
+			"text": "רִסְקָא"
+		},
 		{
 			"text": "רִסְתָּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1485,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00236",
-	"slug": "סובני",
-	"headword": {
-		"text": "סוּבְנִי"
-	},
+	"sefariaHeadword": "סוּבְנִי",
+	"headwords": [
+		{
+			"text": "סוּבְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

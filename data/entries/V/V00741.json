@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00741",
-	"slug": "תנחתא",
-	"headword": {
-		"text": "תְּנַחְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּנַחְתָּא",
+	"headwords": [
+		{
+			"text": "תְּנַחְתָּא"
+		},
 		{
 			"text": "תִּנְחֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1681,
 		"column": "b"

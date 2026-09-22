@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01402",
-	"slug": "קלף-1",
-	"headword": {
-		"text": "קָלַף"
-	},
+	"sefariaHeadword": "קָלַף",
+	"headwords": [
+		{
+			"text": "קָלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "a"

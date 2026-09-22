@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00705",
-	"slug": "חיזרר",
-	"headword": {
-		"text": "חִיזְרָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיזְרָר",
+	"headwords": [
 		{
-			"text": "חוּזְ׳"
+			"text": "חִיזְרָר"
+		},
+		{
+			"text": "חוּזְ׳",
+			"partial": true
 		},
 		{
 			"text": "חִיזְרָד"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 453,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00280",
-	"slug": "חוורתא",
-	"headword": {
-		"text": "חִוַּורְתָּא"
-	},
+	"sefariaHeadword": "חִוַּורְתָּא",
+	"headwords": [
+		{
+			"text": "חִוַּורְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

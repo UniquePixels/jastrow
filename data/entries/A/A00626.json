@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00626",
-	"slug": "אוי-1",
-	"headword": {
-		"text": "אוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוי",
+	"headwords": [
+		{
+			"text": "אוי"
+		},
 		{
 			"text": "אָוָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 24,
 		"column": "a"

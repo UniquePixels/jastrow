@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01032",
-	"slug": "קינוקוס",
-	"headword": {
-		"text": "קינוקוס"
-	},
+	"sefariaHeadword": "קינוקוס",
+	"headwords": [
+		{
+			"text": "קינוקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

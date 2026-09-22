@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00224",
-	"slug": "טורחא",
-	"headword": {
-		"text": "טוּרְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְחָא",
+	"headwords": [
+		{
+			"text": "טוּרְחָא"
+		},
 		{
 			"text": "טָרְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 526,
 		"column": "b"

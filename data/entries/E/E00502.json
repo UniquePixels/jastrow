@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00502",
-	"slug": "הכדין",
-	"headword": {
-		"text": "הִכְדֵין"
-	},
+	"sefariaHeadword": "הִכְדֵין",
+	"headwords": [
+		{
+			"text": "הִכְדֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"E00377\"><he>הֵיכְדֵּין</he></cite>",
+			"gloss": ", v. <cite ref=\"E00377\"><he>הֵיכְדֵּין</he></cite>",
 			"units": []
 		}
 	]

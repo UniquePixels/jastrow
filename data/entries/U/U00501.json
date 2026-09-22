@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00501",
-	"slug": "שופין",
-	"headword": {
-		"text": "שׁוֹפִין"
-	},
+	"sefariaHeadword": "שֹׁופִין",
+	"headwords": [
+		{
+			"text": "שׁוֹפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "a"

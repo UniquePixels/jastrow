@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00763",
-	"slug": "דכוון",
-	"headword": {
-		"text": "דִּכְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכְוָון",
+	"headwords": [
 		{
-			"text": "דִּי׳"
+			"text": "דִּכְוָון"
+		},
+		{
+			"text": "דִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "b"

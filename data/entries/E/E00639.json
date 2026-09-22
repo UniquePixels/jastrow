@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00639",
-	"slug": "המר",
-	"headword": {
-		"text": "הֲמַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הֲמַר",
+	"headwords": [
+		{
+			"text": "הֲמַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 356,
 		"column": "b"

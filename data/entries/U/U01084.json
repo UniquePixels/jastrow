@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01084",
-	"slug": "שירפה",
-	"headword": {
-		"text": "שִׂירְפָּה"
-	},
+	"sefariaHeadword": "שִׂירְפָּה",
+	"headwords": [
+		{
+			"text": "שִׂירְפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "b"

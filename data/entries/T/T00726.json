@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00726",
-	"slug": "רישמא",
-	"headword": {
-		"text": "רִישְׁמָא"
-	},
+	"sefariaHeadword": "רִישְׁמָא",
+	"headwords": [
+		{
+			"text": "רִישְׁמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "a"

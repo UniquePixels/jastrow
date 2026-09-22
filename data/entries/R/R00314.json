@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00314",
-	"slug": "צידני",
-	"headword": {
-		"text": "צֵידָנִי"
-	},
+	"sefariaHeadword": "צֵידָנִי",
+	"headwords": [
+		{
+			"text": "צֵידָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00212",
-	"slug": "תולדה",
-	"headword": {
-		"text": "תּוֹלָדָה"
-	},
+	"sefariaHeadword": "תּוֹלָדָה",
+	"headwords": [
+		{
+			"text": "תּוֹלָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

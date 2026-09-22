@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00217",
-	"slug": "בוהקא",
-	"headword": {
-		"text": "בּוֹהֲקָא"
-	},
+	"sefariaHeadword": "בּוֹהֲקָא",
+	"headwords": [
+		{
+			"text": "בּוֹהֲקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 144,
 		"column": "a"

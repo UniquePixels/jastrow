@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00718",
-	"slug": "כליא-1",
-	"headword": {
-		"text": "כִּלְיָא"
-	},
+	"sefariaHeadword": "כִּלְיָא",
+	"headwords": [
+		{
+			"text": "כִּלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 642,
 		"column": "a"

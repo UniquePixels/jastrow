@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00171",
-	"slug": "רגוש-1",
-	"headword": {
-		"text": "רִגּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִגּוּשׁ",
+	"headwords": [
+		{
+			"text": "רִגּוּשׁ"
+		},
 		{
 			"text": "רְגוּשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1447,
 		"column": "a"

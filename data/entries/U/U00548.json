@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00548",
-	"slug": "שורייני",
-	"headword": {
-		"text": "שׁוּרְיָינֵי"
-	},
+	"sefariaHeadword": "שׁוּרְיָינֵי",
+	"headwords": [
+		{
+			"text": "שׁוּרְיָינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "b"

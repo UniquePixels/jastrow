@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S02073",
-	"slug": "קריספדא",
-	"headword": {
-		"text": "קְרִיסְפְּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרִיסְפְּדָא",
+	"headwords": [
+		{
+			"text": "קְרִיסְפְּדָא"
+		},
 		{
 			"text": "קְרִיסְפְּדַאי"
 		},
@@ -12,6 +13,7 @@
 			"text": "קְרִיסְפִּי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1421,
 		"column": "a"

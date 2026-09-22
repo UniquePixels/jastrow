@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00259",
-	"slug": "אגודל",
-	"headword": {
-		"text": "אֲגוּדָל"
-	},
+	"sefariaHeadword": "אֲגוּדָל",
+	"headwords": [
+		{
+			"text": "אֲגוּדָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 11,
 		"column": "b"

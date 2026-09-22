@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02874",
-	"slug": "אצטרמיטה",
-	"headword": {
-		"text": "אצטרמיטה"
-	},
+	"sefariaHeadword": "אצטרמיטה",
+	"headwords": [
+		{
+			"text": "אצטרמיטה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "a"

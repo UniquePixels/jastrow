@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00654",
-	"slug": "אוכף",
-	"headword": {
-		"text": "אוּכָּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּכָּף",
+	"headwords": [
+		{
+			"text": "אוּכָּף"
+		},
 		{
 			"text": "אִיכּוּף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 25,
 		"column": "b"

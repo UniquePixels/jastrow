@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03453",
-	"slug": "אתריסת",
-	"headword": {
-		"text": "אתריסת"
-	},
+	"sefariaHeadword": "אתריסת",
+	"headwords": [
+		{
+			"text": "אתריסת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

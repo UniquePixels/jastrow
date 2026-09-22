@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00199",
-	"slug": "בוא",
-	"headword": {
-		"text": "בּוֹא"
-	},
+	"sefariaHeadword": "בּוֹא",
+	"headwords": [
+		{
+			"text": "בּוֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "b"

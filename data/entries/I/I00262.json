@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00262",
-	"slug": "טחוריא",
-	"headword": {
-		"text": "טְחוֹרַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְחוֹרַיָּא",
+	"headwords": [
+		{
+			"text": "טְחוֹרַיָּא"
+		},
 		{
 			"text": "טְחוֹרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 528,
 		"column": "a"

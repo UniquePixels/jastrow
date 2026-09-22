@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01621",
-	"slug": "קנתא",
-	"headword": {
-		"text": "קַנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְתָּא",
+	"headwords": [
+		{
+			"text": "קַנְתָּא"
+		},
 		{
 			"text": "קַנְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "a"

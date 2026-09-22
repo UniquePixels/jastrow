@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00292",
-	"slug": "רואה-1",
-	"headword": {
-		"text": "רוֹאֶה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רוֹאֶה I",
+	"headwords": [
+		{
+			"text": "רוֹאֶה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1454,
 		"column": "b"

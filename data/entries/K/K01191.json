@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01191",
-	"slug": "כרכב",
-	"headword": {
-		"text": "כִּרְכֵּב"
-	},
+	"sefariaHeadword": "כִּרְכֵּב",
+	"headwords": [
+		{
+			"text": "כִּרְכֵּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 669,
 		"column": "a"

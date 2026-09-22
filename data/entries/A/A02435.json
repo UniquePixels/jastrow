@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02435",
-	"slug": "אסיינא",
-	"headword": {
-		"text": "אַסְיינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַסְיינָא",
+	"headwords": [
+		{
+			"text": "אַסְיינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 93,
 		"column": "a"

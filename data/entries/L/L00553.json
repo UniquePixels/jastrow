@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00553",
-	"slug": "לכלך-1",
-	"headword": {
-		"text": "לִכְלֵךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִכְלֵךְ",
+	"headwords": [
 		{
-			"text": "לִיכְ׳"
+			"text": "לִכְלֵךְ"
+		},
+		{
+			"text": "לִיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 711,
 		"column": "a"

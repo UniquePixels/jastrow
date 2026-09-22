@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00526",
-	"slug": "יצחק",
-	"headword": {
-		"text": "יִצְחָק"
-	},
+	"sefariaHeadword": "יִצְחָק",
+	"headwords": [
+		{
+			"text": "יִצְחָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

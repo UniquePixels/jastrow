@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00214",
-	"slug": "כווניתא",
-	"headword": {
-		"text": "כֵּוָונִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּוָונִיתָא",
+	"headwords": [
+		{
+			"text": "כֵּוָונִיתָא"
+		},
 		{
 			"text": "כֵּוַונְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 617,
 		"column": "b"

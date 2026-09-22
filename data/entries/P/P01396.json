@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01396",
-	"slug": "ערמון",
-	"headword": {
-		"text": "עַרְמוֹן"
-	},
+	"sefariaHeadword": "עַרְמוֹן",
+	"headwords": [
+		{
+			"text": "עַרְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1120,
 		"column": "b"

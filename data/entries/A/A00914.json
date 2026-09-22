@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00914",
-	"slug": "אוש-1",
-	"headword": {
-		"text": "אֲוַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲוַשׁ",
+	"headwords": [
+		{
+			"text": "אֲוַשׁ"
+		},
 		{
 			"text": "אֲוַושׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 35,
 		"column": "a"
@@ -44,7 +46,7 @@
 			"forms": [],
 			"senses": [
 				{
-					"gloss": "<he>אַוֵּושׁ</he>, (√<he>אוו</he>, v. <cite ref=\"A00577\"><he>אָוָוז</he></cite>; cmp. <cite ref=\"A00796\"><he>אוף</he></cite>, <cite ref=\"A02265\"><he>אנף</he></cite>, <cite ref=\"A02770\"><he>אפף</he></cite>, <he>אופי</he>, <cite ref=\"A00783\"><he>אוסי</he></cite>, <he>אבב</he>) ",
+					"gloss": "<he>אַוֵּושׁ</he>, (√<he>אוו</he>, v. <cite ref=\"A00577\"><he>אָוָוז</he></cite>; cmp. <cite ref=\"A00796\"><he>אוף</he></cite>, <cite ref=\"A02265\"><he>אנף</he></cite>, <cite ref=\"A02770\"><he>אפף</he></cite>, <he>אופי</he>, <cite ref=\"A00783\"><he>אוסי</he></cite>, <he>אבב</he>) ",
 					"units": []
 				}
 			],

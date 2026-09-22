@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00708",
-	"slug": "דיקוקא",
-	"headword": {
-		"text": "דִּיקוּקָא"
-	},
+	"sefariaHeadword": "דִּיקוּקָא",
+	"headwords": [
+		{
+			"text": "דִּיקוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

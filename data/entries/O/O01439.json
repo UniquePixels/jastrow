@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01439",
-	"slug": "סק-1",
-	"headword": {
-		"text": "סַק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סַק I",
+	"headwords": [
+		{
+			"text": "סַק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1019,
 		"column": "a"

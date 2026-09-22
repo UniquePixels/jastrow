@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00256",
-	"slug": "דוכסותא",
-	"headword": {
-		"text": "דּוּכְסוּתָא"
-	},
+	"sefariaHeadword": "דּוּכְסוּתָא",
+	"headwords": [
+		{
+			"text": "דּוּכְסוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 285,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00715",
-	"slug": "דיקינתינון",
-	"headword": {
-		"text": "דְּיָקִינְתִּינוֹן"
-	},
+	"sefariaHeadword": "דְּיָקִינְתִּינוֹן",
+	"headwords": [
+		{
+			"text": "דְּיָקִינְתִּינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

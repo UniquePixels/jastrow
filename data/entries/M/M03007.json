@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M03007",
-	"slug": "מתאימה",
-	"headword": {
-		"text": "מַתְאִימָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְאִימָה",
+	"headwords": [
+		{
+			"text": "מַתְאִימָה"
+		},
 		{
 			"text": "מַתְאִימוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 859,
 		"column": "b"

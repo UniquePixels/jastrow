@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00634",
-	"slug": "זקיפא-1",
-	"headword": {
-		"text": "זְקִיפָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְקִיפָא II",
+	"headwords": [
+		{
+			"text": "זְקִיפָא",
+			"homograph": 2
+		},
 		{
 			"text": "זִיקְפָּא"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 408,
 		"column": "b"

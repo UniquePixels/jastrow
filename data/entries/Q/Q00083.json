@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00083",
-	"slug": "פגנות",
-	"headword": {
-		"text": "פַּגְנוּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּגְנוּת",
+	"headwords": [
+		{
+			"text": "פַּגְנוּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1135,
 		"column": "a"

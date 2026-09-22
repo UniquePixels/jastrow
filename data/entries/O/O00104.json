@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00104",
-	"slug": "סגדיות",
-	"headword": {
-		"text": "סגדיות"
-	},
+	"sefariaHeadword": "סגדיות",
+	"headwords": [
+		{
+			"text": "סגדיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

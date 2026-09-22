@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01123",
-	"slug": "דרקון-1",
-	"headword": {
-		"text": "דְּרָקוֹן"
-	},
+	"sefariaHeadword": "דְּרָקוֹן",
+	"headwords": [
+		{
+			"text": "דְּרָקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "a"

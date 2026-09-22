@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01493",
-	"slug": "פקל",
-	"headword": {
-		"text": "פָּקַל"
-	},
+	"sefariaHeadword": "פָּקַל",
+	"headwords": [
+		{
+			"text": "פָּקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1209,
 		"column": "b"

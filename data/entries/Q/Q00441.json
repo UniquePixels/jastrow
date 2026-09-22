@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00441",
-	"slug": "פחא-1",
-	"headword": {
-		"text": "פָּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּחָא",
+	"headwords": [
+		{
+			"text": "פָּחָא"
+		},
 		{
 			"text": "פּוֹחָא"
 		},
 		{
 			"text": "פּוּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1151,
 		"column": "a"

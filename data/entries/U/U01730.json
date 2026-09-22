@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01730",
-	"slug": "שפט-1",
-	"headword": {
-		"text": "שָׁפַט"
-	},
+	"sefariaHeadword": "שָׁפַט",
+	"headwords": [
+		{
+			"text": "שָׁפַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1614,
 		"column": "b"

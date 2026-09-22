@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01144",
-	"slug": "מיישא",
-	"headword": {
-		"text": "מַיְישָׁא"
-	},
+	"sefariaHeadword": "מַיְישָׁא",
+	"headwords": [
+		{
+			"text": "מַיְישָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00904",
-	"slug": "תקנתא",
-	"headword": {
-		"text": "תַּקַּנְתָּא"
-	},
+	"sefariaHeadword": "תַּקַּנְתָּא",
+	"headwords": [
+		{
+			"text": "תַּקַּנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1693,
 		"column": "a"

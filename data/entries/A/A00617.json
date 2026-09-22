@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00617",
-	"slug": "אוחריא",
-	"headword": {
-		"text": "אוֹחֲרַיָא"
-	},
+	"sefariaHeadword": "אוֹחֲרַיָא",
+	"headwords": [
+		{
+			"text": "אוֹחֲרַיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

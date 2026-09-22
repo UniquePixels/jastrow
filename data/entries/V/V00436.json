@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00436",
-	"slug": "תייטרון",
-	"headword": {
-		"text": "תְּיַיטְרוֹן"
-	},
+	"sefariaHeadword": "תְּיַיטְרוֹן",
+	"headwords": [
+		{
+			"text": "תְּיַיטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

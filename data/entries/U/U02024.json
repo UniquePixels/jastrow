@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02024",
-	"slug": "שרקא",
-	"headword": {
-		"text": "שִׁרְקָא"
-	},
+	"sefariaHeadword": "שִׁרְקָא",
+	"headwords": [
+		{
+			"text": "שִׁרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "a"

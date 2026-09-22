@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00549",
-	"slug": "דיחתו",
-	"headword": {
-		"text": "דיחתו"
-	},
+	"sefariaHeadword": "דיחתו",
+	"headwords": [
+		{
+			"text": "דיחתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "a"

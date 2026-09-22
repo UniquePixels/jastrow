@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01037",
-	"slug": "קינטיסין",
-	"headword": {
-		"text": "קינטיסין"
-	},
+	"sefariaHeadword": "קינטיסין",
+	"headwords": [
+		{
+			"text": "קינטיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

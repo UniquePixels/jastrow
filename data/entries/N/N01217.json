@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01217",
-	"slug": "נקיש",
-	"headword": {
-		"text": "נְקֵישׁ"
-	},
+	"sefariaHeadword": "נְקֵישׁ",
+	"headwords": [
+		{
+			"text": "נְקֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

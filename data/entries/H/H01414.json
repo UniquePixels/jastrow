@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01414",
-	"slug": "חסר-5",
-	"headword": {
-		"text": "חֶסֶר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חֶסֶר",
+	"headwords": [
+		{
+			"text": "חֶסֶר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 490,
 		"column": "a"

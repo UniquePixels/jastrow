@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00223",
-	"slug": "הוונא",
-	"headword": {
-		"text": "הֲוָונָא"
-	},
+	"sefariaHeadword": "הֲוָונָא",
+	"headwords": [
+		{
+			"text": "הֲוָונָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

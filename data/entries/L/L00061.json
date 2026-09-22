@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00061",
-	"slug": "לבזבז",
-	"headword": {
-		"text": "לְבִזְבֵּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבִזְבֵּז",
+	"headwords": [
+		{
+			"text": "לְבִזְבֵּז"
+		},
 		{
 			"text": "לְבִיזְבֵּז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 688,
 		"column": "a"

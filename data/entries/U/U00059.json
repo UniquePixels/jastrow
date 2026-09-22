@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00059",
-	"slug": "שב-2",
-	"headword": {
-		"text": "שַׁב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁב",
+	"headwords": [
+		{
+			"text": "שַׁב"
+		},
 		{
 			"text": "שֵׁב"
 		},
@@ -12,6 +13,7 @@
 			"text": "שֵׁיב"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1509,
 		"column": "b"

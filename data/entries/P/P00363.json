@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00363",
-	"slug": "עורקמא",
-	"headword": {
-		"text": "עוּרְקָמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּרְקָמָא",
+	"headwords": [
+		{
+			"text": "עוּרְקָמָא"
+		},
 		{
 			"text": "עַרְקוּמָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1059,
 		"column": "a"

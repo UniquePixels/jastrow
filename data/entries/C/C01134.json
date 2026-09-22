@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01134",
-	"slug": "גניבא",
-	"headword": {
-		"text": "גְּנִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנִיבָא",
+	"headwords": [
+		{
+			"text": "גְּנִיבָא"
+		},
 		{
 			"text": "גְּנִיבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 259,
 		"column": "a"

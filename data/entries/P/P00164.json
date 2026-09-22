@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00164",
-	"slug": "עדר-2",
-	"headword": {
-		"text": "עֲדַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲדַר I",
+	"headwords": [
+		{
+			"text": "עֲדַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1045,
 		"column": "b"

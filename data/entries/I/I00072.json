@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00072",
-	"slug": "טבלה",
-	"headword": {
-		"text": "טַבְלָה"
-	},
+	"sefariaHeadword": "טַבְלָה",
+	"headwords": [
+		{
+			"text": "טַבְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 518,
 		"column": "b"

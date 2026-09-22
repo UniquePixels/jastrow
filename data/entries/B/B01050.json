@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01050",
-	"slug": "בעיר-1",
-	"headword": {
-		"text": "בְּעֵיר"
-	},
+	"sefariaHeadword": "בְּעֵיר",
+	"headwords": [
+		{
+			"text": "בְּעֵיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "a"

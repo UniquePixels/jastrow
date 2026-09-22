@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00634",
-	"slug": "אויר",
-	"headword": {
-		"text": "אָוִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָוִיר",
+	"headwords": [
+		{
+			"text": "אָוִיר"
+		},
 		{
 			"text": "אֲוִיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 24,
 		"column": "b"

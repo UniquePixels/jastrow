@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00069",
-	"slug": "הגיון",
-	"headword": {
-		"text": "הִגָּיוֹן"
-	},
+	"sefariaHeadword": "הִגָּיוֹן",
+	"headwords": [
+		{
+			"text": "הִגָּיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "a"

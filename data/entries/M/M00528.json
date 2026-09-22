@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00528",
-	"slug": "מון",
-	"headword": {
-		"text": "מוּן"
-	},
+	"sefariaHeadword": "מוּן",
+	"headwords": [
+		{
+			"text": "מוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

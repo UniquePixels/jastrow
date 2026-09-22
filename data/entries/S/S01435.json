@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01435",
-	"slug": "קמ-1",
-	"headword": {
-		"text": "קַמּ־"
-	},
+	"sefariaHeadword": "קַמּ־",
+	"headwords": [
+		{
+			"text": "קַמּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "b"

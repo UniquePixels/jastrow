@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00259",
-	"slug": "כול-1",
-	"headword": {
-		"text": "כּוּל"
-	},
+	"sefariaHeadword": "כּוּל",
+	"headwords": [
+		{
+			"text": "כּוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "b"

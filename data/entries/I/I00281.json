@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00281",
-	"slug": "טטראפילות",
-	"headword": {
-		"text": "טֶטְרָאפִילוֹת"
-	},
+	"sefariaHeadword": "טֶטְרָאפִילוֹת",
+	"headwords": [
+		{
+			"text": "טֶטְרָאפִילוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

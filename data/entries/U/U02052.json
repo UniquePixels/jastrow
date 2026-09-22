@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02052",
-	"slug": "שרתועה",
-	"headword": {
-		"text": "שִׁרְתּוּעָה"
-	},
+	"sefariaHeadword": "שִׁרְתּוּעָה",
+	"headwords": [
+		{
+			"text": "שִׁרְתּוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

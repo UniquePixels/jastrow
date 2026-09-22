@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00817",
-	"slug": "סיקייריא",
-	"headword": {
-		"text": "סיקייריא"
-	},
+	"sefariaHeadword": "סיקייריא",
+	"headwords": [
+		{
+			"text": "סיקייריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00469",
-	"slug": "רזיח",
-	"headword": {
-		"text": "רָזִיחַ"
-	},
+	"sefariaHeadword": "רָזִיחַ",
+	"headwords": [
+		{
+			"text": "רָזִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "a"

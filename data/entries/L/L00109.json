@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00109",
-	"slug": "לבנות",
-	"headword": {
-		"text": "לַבְנוּת"
-	},
+	"sefariaHeadword": "לַבְנוּת",
+	"headwords": [
+		{
+			"text": "לַבְנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

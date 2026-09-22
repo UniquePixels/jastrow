@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01327",
-	"slug": "ברקית",
-	"headword": {
-		"text": "בַּרְקִית"
-	},
+	"sefariaHeadword": "בַּרְקִית",
+	"headwords": [
+		{
+			"text": "בַּרְקִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

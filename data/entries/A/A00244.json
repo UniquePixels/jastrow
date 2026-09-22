@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00244",
-	"slug": "אגד-6",
-	"headword": {
-		"text": "אֵגֶד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵגֶד",
+	"headwords": [
+		{
+			"text": "אֵגֶד"
+		},
 		{
 			"text": "אִיגְדּ־"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 10,
 		"column": "b"

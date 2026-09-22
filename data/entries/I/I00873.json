@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00873",
-	"slug": "טרפידא",
-	"headword": {
-		"text": "טרפידא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טרפידא",
+	"headwords": [
+		{
+			"text": "טרפידא"
+		},
 		{
 			"text": "טרפירא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 557,
 		"column": "a"

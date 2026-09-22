@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01445",
-	"slug": "פצץ",
-	"headword": {
-		"text": "פְּצַץ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּצַץ",
+	"headwords": [
+		{
+			"text": "פְּצַץ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1206,
 		"column": "b"

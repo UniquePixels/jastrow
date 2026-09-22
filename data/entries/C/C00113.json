@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00113",
-	"slug": "גבלן",
-	"headword": {
-		"text": "גַּבְלָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּבְלָן",
+	"headwords": [
 		{
-			"text": "הַגַּ׳"
+			"text": "גַּבְלָן"
+		},
+		{
+			"text": "הַגַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 207,
 		"column": "b"

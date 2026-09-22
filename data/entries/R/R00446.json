@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "R00446",
-	"slug": "ציקן",
-	"headword": {
-		"text": "צַיְקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיְקָן",
+	"headwords": [
 		{
-			"text": "צוֹיְ׳"
+			"text": "צַיְקָן"
 		},
 		{
-			"text": "צוֹיְי׳"
+			"text": "צוֹיְ׳",
+			"partial": true
+		},
+		{
+			"text": "צוֹיְי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1280,
 		"column": "b"

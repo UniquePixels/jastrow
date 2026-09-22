@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00935",
-	"slug": "תרבצא",
-	"headword": {
-		"text": "תַּרְבְּצָא"
-	},
+	"sefariaHeadword": "תַּרְבְּצָא",
+	"headwords": [
+		{
+			"text": "תַּרְבְּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

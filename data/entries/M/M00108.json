@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00108",
-	"slug": "מגביא",
-	"headword": {
-		"text": "מַגַּבְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגַּבְיָא",
+	"headwords": [
+		{
+			"text": "מַגַּבְיָא"
+		},
 		{
 			"text": "גַּבְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 725,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01171",
-	"slug": "קירוס-2",
-	"headword": {
-		"text": "קֵירוֹס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קֵירוֹס II",
+	"headwords": [
+		{
+			"text": "קֵירוֹס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1369,
 		"column": "a"

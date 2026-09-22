@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01453",
-	"slug": "חפיר",
-	"headword": {
-		"text": "חֲפִיר"
-	},
+	"sefariaHeadword": "חֲפִיר",
+	"headwords": [
+		{
+			"text": "חֲפִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 491,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01246",
-	"slug": "כרסא-2",
-	"headword": {
-		"text": "כָּרְסֵא"
-	},
+	"sefariaHeadword": "כָּרְסֵא",
+	"headwords": [
+		{
+			"text": "כָּרְסֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

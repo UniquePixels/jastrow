@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01160",
-	"slug": "מיל",
-	"headword": {
-		"text": "מִיל"
-	},
+	"sefariaHeadword": "מִיל",
+	"headwords": [
+		{
+			"text": "מִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 773,
 		"column": "b"

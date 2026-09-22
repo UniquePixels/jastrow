@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01862",
-	"slug": "חשמל-2",
-	"headword": {
-		"text": "חַשְׁמָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַשְׁמָל",
+	"headwords": [
+		{
+			"text": "חַשְׁמָל"
+		},
 		{
 			"text": "חַשׁמָלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 511,
 		"column": "b"

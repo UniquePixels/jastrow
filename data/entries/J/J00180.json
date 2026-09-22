@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00180",
-	"slug": "יוחנן",
-	"headword": {
-		"text": "יוֹחָנָן"
-	},
+	"sefariaHeadword": "יוֹחָנָן",
+	"headwords": [
+		{
+			"text": "יוֹחָנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 568,
 		"column": "b"

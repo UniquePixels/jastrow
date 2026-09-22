@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00453",
-	"slug": "פחוזים",
-	"headword": {
-		"text": "פָּחוֹזִים"
-	},
+	"sefariaHeadword": "פָּחוֹזִים",
+	"headwords": [
+		{
+			"text": "פָּחוֹזִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1151,
 		"column": "b"

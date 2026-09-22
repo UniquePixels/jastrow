@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01022",
-	"slug": "שיפוצא",
-	"headword": {
-		"text": "שִׁיפּוּצָא"
-	},
+	"sefariaHeadword": "שִׁיפּוּצָא",
+	"headwords": [
+		{
+			"text": "שִׁיפּוּצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1566,
 		"column": "b"

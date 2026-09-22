@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00023",
-	"slug": "אבאשותא",
-	"headword": {
-		"text": "אַבְאָשׁוּתָא"
-	},
+	"sefariaHeadword": "אַבְאָשׁוּתָא",
+	"headwords": [
+		{
+			"text": "אַבְאָשׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 2,
 		"column": "b"

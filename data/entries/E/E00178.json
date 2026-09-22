@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00178",
-	"slug": "הוא-1",
-	"headword": {
-		"text": "הוּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הוּא",
+	"headwords": [
+		{
+			"text": "הוּא"
+		},
 		{
 			"text": "הִיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 335,
 		"column": "b"

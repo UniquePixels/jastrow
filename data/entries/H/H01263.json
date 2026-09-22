@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01263",
-	"slug": "חנון-2",
-	"headword": {
-		"text": "חִנּוּן"
-	},
+	"sefariaHeadword": "חִנּוּן",
+	"headwords": [
+		{
+			"text": "חִנּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 482,
 		"column": "a"

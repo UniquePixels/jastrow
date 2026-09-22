@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00001",
-	"slug": "ו׳",
-	"headword": {
-		"text": "ו׳"
-	},
+	"sefariaHeadword": "ו׳",
+	"headwords": [
+		{
+			"text": "ו׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 371,
 		"column": "a"

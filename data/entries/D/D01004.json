@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01004",
-	"slug": "דקיק",
-	"headword": {
-		"text": "דַּקִּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּקִּיק",
+	"headwords": [
+		{
+			"text": "דַּקִּיק"
+		},
 		{
 			"text": "דַּקִּיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 319,
 		"column": "a"

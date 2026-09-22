@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00168",
-	"slug": "צוואה",
-	"headword": {
-		"text": "צְוָואָה"
-	},
+	"sefariaHeadword": "צְוָואָה",
+	"headwords": [
+		{
+			"text": "צְוָואָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

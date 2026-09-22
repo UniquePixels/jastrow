@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00860",
-	"slug": "סירקי",
-	"headword": {
-		"text": "סִירְקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִירְקִי",
+	"headwords": [
+		{
+			"text": "סִירְקִי"
+		},
 		{
 			"text": "סִירְקִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 988,
 		"column": "a"

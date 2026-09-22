@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02707",
-	"slug": "אפיקולוס",
-	"headword": {
-		"text": "אֲפִיקוֹלוֹס"
-	},
+	"sefariaHeadword": "אֲפִיקוֹלוֹס",
+	"headwords": [
+		{
+			"text": "אֲפִיקוֹלוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00338",
-	"slug": "רוז-1",
-	"headword": {
-		"text": "רְוַז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְוַז",
+	"headwords": [
+		{
+			"text": "רְוַז"
+		},
 		{
 			"text": "רְוַוז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1458,
 		"column": "a"

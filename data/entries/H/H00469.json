@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00469",
-	"slug": "חורי-3",
-	"headword": {
-		"text": "חוֹרִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹרִי II",
+	"headwords": [
+		{
+			"text": "חוֹרִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 440,
 		"column": "a"

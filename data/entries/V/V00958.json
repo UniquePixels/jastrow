@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00958",
-	"slug": "תרוד",
-	"headword": {
-		"text": "תַּרְוָד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְוָד",
+	"headwords": [
+		{
+			"text": "תַּרְוָד"
+		},
 		{
 			"text": "תַּרְוָוד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1696,
 		"column": "b"

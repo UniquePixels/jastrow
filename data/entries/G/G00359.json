@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00359",
-	"slug": "זילחא",
-	"headword": {
-		"text": "זִילְחָא"
-	},
+	"sefariaHeadword": "זִילְחָא",
+	"headwords": [
+		{
+			"text": "זִילְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00112",
-	"slug": "נברתא",
-	"headword": {
-		"text": "נברתא"
-	},
+	"sefariaHeadword": "נברתא",
+	"headwords": [
+		{
+			"text": "נברתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

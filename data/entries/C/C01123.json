@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01123",
-	"slug": "גנזא",
-	"headword": {
-		"text": "גִּנְזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּנְזָא",
+	"headwords": [
+		{
+			"text": "גִּנְזָא"
+		},
 		{
 			"text": "גְּנִיז"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּנַז"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 258,
 		"column": "b"
@@ -24,7 +26,7 @@
 		{
 			"gloss": " <cite ref=\"C01122\">same</cite>. ",
 			"units": [
-				"<cite ref=\"Targum Jonathan on I Samuel 25:29\">Targ. I Sam. XXV, 29</cite> <cite ref=\"C01121\"><he>גְּנַז</he></cite>; <cite ref=\"Targum Jonathan on Deuteronomy 31:16\">Targ. Y. Deut. XXXI, 16</cite> <cite ref=\"C01139\"><he>גְּנִיז</he></cite>.—Pl. <he>גִּנְזִין</he>, <he>גִּנְזֵי</he>, <he>גְּנִיזַיָּא</he>. ",
+				"<cite ref=\"Targum Jonathan on I Samuel 25:29\">Targ. I Sam. XXV, 29</cite> <cite ref=\"C01121\"><he>גְּנַז</he></cite>; <cite ref=\"Targum Jonathan on Deuteronomy 31:16\">Targ. Y. Deut. XXXI, 16</cite> <cite ref=\"C01139\"><he>גְּנִיז</he></cite>.—Pl. <he>גִּנְזִין</he>, <he>גִּנְזֵי</he>, <he>גְּנִיזַיָּא</he>. ",
 				"<cite ref=\"Aramaic Targum to Psalms 104:13\">Targ. Ps. CIV, 13</cite>. ",
 				"<cite ref=\"Targum Jonathan on Hosea 13:15\">Targ. Hos. XIII, 15</cite>. ",
 				"<cite ref=\"Targum Jonathan on Deuteronomy 33:19\">Targ. Y. Deut. XXXIII, 19</cite> the hidden treasures.—",

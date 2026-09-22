@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00190",
-	"slug": "פוטינון",
-	"headword": {
-		"text": "פּוֹטִינוֹן"
-	},
+	"sefariaHeadword": "פּוֹטִינוֹן",
+	"headwords": [
+		{
+			"text": "פּוֹטִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

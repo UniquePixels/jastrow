@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00684",
-	"slug": "חיויון",
-	"headword": {
-		"text": "חיויון"
-	},
+	"sefariaHeadword": "חיויון",
+	"headwords": [
+		{
+			"text": "חיויון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00040",
-	"slug": "זבינא-2",
-	"headword": {
-		"text": "זְבִינָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זְבִינָא II",
+	"headwords": [
+		{
+			"text": "זְבִינָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 379,
 		"column": "a"

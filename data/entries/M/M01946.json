@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M01946",
-	"slug": "מסכין",
-	"headword": {
-		"text": "מִסְכֵּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְכֵּין",
+	"headwords": [
+		{
+			"text": "מִסְכֵּין"
+		},
 		{
 			"text": "מִסְכֵּינָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "מִסְכֵּינוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 807,
 		"column": "b"

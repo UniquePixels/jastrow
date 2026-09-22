@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01277",
-	"slug": "מיצטרו",
-	"headword": {
-		"text": "מיצטרו"
-	},
+	"sefariaHeadword": "מיצטרו",
+	"headwords": [
+		{
+			"text": "מיצטרו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "b"

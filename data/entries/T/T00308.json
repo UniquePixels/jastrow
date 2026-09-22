@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00308",
-	"slug": "רובן",
-	"headword": {
-		"text": "רוֹבָן"
-	},
+	"sefariaHeadword": "רוֹבָן",
+	"headwords": [
+		{
+			"text": "רוֹבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

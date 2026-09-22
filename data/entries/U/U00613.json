@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00613",
-	"slug": "שחה",
-	"headword": {
-		"text": "שָׁחָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁחָה",
+	"headwords": [
+		{
+			"text": "שָׁחָה"
+		},
 		{
 			"text": "שָׂחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1545,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01023",
-	"slug": "סלפינגס",
-	"headword": {
-		"text": "סַלְפִּינְגָּס"
-	},
+	"sefariaHeadword": "סַלְפִּינְגָּס",
+	"headwords": [
+		{
+			"text": "סַלְפִּינְגָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "b"

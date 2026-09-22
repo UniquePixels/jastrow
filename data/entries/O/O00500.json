@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00500",
-	"slug": "סטנה",
-	"headword": {
-		"text": "סִטְנָה"
-	},
+	"sefariaHeadword": "סִטְנָה",
+	"headwords": [
+		{
+			"text": "סִטְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00802",
-	"slug": "שיביא",
-	"headword": {
-		"text": "שִׁיבְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבְיָא",
+	"headwords": [
+		{
+			"text": "שִׁיבְיָא"
+		},
 		{
 			"text": "שִׁיבְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "b"

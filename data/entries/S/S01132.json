@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01132",
-	"slug": "קיצותא",
-	"headword": {
-		"text": "קִיצוּתָא"
-	},
+	"sefariaHeadword": "קִיצוּתָא",
+	"headwords": [
+		{
+			"text": "קִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

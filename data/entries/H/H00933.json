@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00933",
-	"slug": "חכירא-2",
-	"headword": {
-		"text": "חכירא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חכירא",
+	"headwords": [
+		{
+			"text": "חכירא"
+		},
 		{
 			"text": "חכיריא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 462,
 		"column": "a"

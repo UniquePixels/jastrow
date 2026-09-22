@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01815",
-	"slug": "אלומה",
-	"headword": {
-		"text": "אֲלוּמָּה"
-	},
+	"sefariaHeadword": "אֲלוּמָּה",
+	"headwords": [
+		{
+			"text": "אֲלוּמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

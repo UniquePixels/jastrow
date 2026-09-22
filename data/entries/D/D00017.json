@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00017",
-	"slug": "דאיב-1",
-	"headword": {
-		"text": "דְּאֵיב"
-	},
+	"sefariaHeadword": "דְּאֵיב",
+	"headwords": [
+		{
+			"text": "דְּאֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

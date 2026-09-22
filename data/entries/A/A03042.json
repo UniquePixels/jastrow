@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03042",
-	"slug": "ארוסיה",
-	"headword": {
-		"text": "ארוסיה"
-	},
+	"sefariaHeadword": "ארוסיה",
+	"headwords": [
+		{
+			"text": "ארוסיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

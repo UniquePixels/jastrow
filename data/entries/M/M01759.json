@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01759",
-	"slug": "מנחה",
-	"headword": {
-		"text": "מִנְחָה"
-	},
+	"sefariaHeadword": "מִנְחָה",
+	"headwords": [
+		{
+			"text": "מִנְחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 799,
 		"column": "a"

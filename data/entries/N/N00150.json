@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00150",
-	"slug": "נגיב",
-	"headword": {
-		"text": "נְגֵיב"
-	},
+	"sefariaHeadword": "נְגֵיב",
+	"headwords": [
+		{
+			"text": "נְגֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "a"

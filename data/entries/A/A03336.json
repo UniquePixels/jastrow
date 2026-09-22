@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03336",
-	"slug": "אשפא",
-	"headword": {
-		"text": "אַשְׁפָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַשְׁפָּא",
+	"headwords": [
+		{
+			"text": "אַשְׁפָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 129,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01468",
-	"slug": "איסכלא",
-	"headword": {
-		"text": "איסכלא"
-	},
+	"sefariaHeadword": "איסכלא",
+	"headwords": [
+		{
+			"text": "איסכלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

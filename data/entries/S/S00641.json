@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00641",
-	"slug": "קורקבנא",
-	"headword": {
-		"text": "קוּרְקְבָנָא"
-	},
+	"sefariaHeadword": "קוּרְקְבָנָא",
+	"headwords": [
+		{
+			"text": "קוּרְקְבָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "a"

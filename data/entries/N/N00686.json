@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00686",
-	"slug": "נימסים",
-	"headword": {
-		"text": "נִימְסַיִם",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נִימְסַיִם",
+	"headwords": [
+		{
+			"text": "נִימְסַיִם",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 905,
 		"column": "b"

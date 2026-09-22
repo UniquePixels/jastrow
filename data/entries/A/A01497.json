@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01497",
-	"slug": "איסקוזות",
-	"headword": {
-		"text": "אִיסְקוֹזוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְקוֹזוּת",
+	"headwords": [
+		{
+			"text": "אִיסְקוֹזוּת"
+		},
 		{
 			"text": "אִיסקוֹזִית",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 56,
 		"column": "b"

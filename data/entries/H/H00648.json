@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00648",
-	"slug": "חי-1",
-	"headword": {
-		"text": "חַי"
-	},
+	"sefariaHeadword": "חַי",
+	"headwords": [
+		{
+			"text": "חַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "b"

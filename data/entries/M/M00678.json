@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00678",
-	"slug": "מוש-1",
-	"headword": {
-		"text": "מוּשׁ"
-	},
+	"sefariaHeadword": "מוּשׁ",
+	"headwords": [
+		{
+			"text": "מוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01117",
-	"slug": "איבא-1",
-	"headword": {
-		"text": "אִיבָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיבָּא I",
+	"headwords": [
+		{
+			"text": "אִיבָּא",
+			"homograph": 1
+		},
 		{
 			"text": "אִבָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 44,
 		"column": "a"

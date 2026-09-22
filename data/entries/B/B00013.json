@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00013",
-	"slug": "באדן",
-	"headword": {
-		"text": "בָּאדָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּאדָן",
+	"headwords": [
+		{
+			"text": "בָּאדָן"
+		},
 		{
 			"text": "בָּדָאן"
 		},
@@ -12,12 +13,10 @@
 			"text": "בָּדָן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 135,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

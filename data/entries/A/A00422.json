@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00422",
-	"slug": "אדמה",
-	"headword": {
-		"text": "אֲדָמָה"
-	},
+	"sefariaHeadword": "אֲדָמָה",
+	"headwords": [
+		{
+			"text": "אֲדָמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

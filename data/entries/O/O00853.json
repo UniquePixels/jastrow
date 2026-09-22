@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00853",
-	"slug": "סיריקון",
-	"headword": {
-		"text": "סִירִיקוֹן"
-	},
+	"sefariaHeadword": "סִירִיקוֹן",
+	"headwords": [
+		{
+			"text": "סִירִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "a"

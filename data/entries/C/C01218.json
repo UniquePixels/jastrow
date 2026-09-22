@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01218",
-	"slug": "גפתא",
-	"headword": {
-		"text": "גפתא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גפתא",
+	"headwords": [
+		{
+			"text": "גפתא"
+		},
 		{
 			"text": "גפתה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 263,
 		"column": "a"

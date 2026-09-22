@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01280",
-	"slug": "סעדתא",
-	"headword": {
-		"text": "סַעַדְתָּא"
-	},
+	"sefariaHeadword": "סַעַדְתָּא",
+	"headwords": [
+		{
+			"text": "סַעַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "b"

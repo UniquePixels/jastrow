@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01308",
-	"slug": "אילס",
-	"headword": {
-		"text": "אִילֵס"
-	},
+	"sefariaHeadword": "אִילֵס",
+	"headwords": [
+		{
+			"text": "אִילֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "a"

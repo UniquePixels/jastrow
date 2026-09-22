@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00273",
-	"slug": "דולריא",
-	"headword": {
-		"text": "דולריא"
-	},
+	"sefariaHeadword": "דולריא",
+	"headwords": [
+		{
+			"text": "דולריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02971",
-	"slug": "ארבעה-2",
-	"headword": {
-		"text": "אַרְבְּעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְבְּעָה",
+	"headwords": [
+		{
+			"text": "אַרְבְּעָה"
+		},
 		{
 			"text": "אַרְבַּע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 114,
 		"column": "b"

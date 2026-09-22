@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00879",
-	"slug": "סכוכית-1",
-	"headword": {
-		"text": "סְכוּכִית",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְכוּכִית I",
+	"headwords": [
+		{
+			"text": "סְכוּכִית",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 989,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00426",
-	"slug": "חופן",
-	"headword": {
-		"text": "חוֹפֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹפֶן",
+	"headwords": [
+		{
+			"text": "חוֹפֶן"
+		},
 		{
 			"text": "חוֹפְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 437,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00395",
-	"slug": "עזגד",
-	"headword": {
-		"text": "עִזְגַּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִזְגַּד",
+	"headwords": [
 		{
-			"text": "עַ׳"
+			"text": "עִזְגַּד"
+		},
+		{
+			"text": "עַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1061,
 		"column": "a"

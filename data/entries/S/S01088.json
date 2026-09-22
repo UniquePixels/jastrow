@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01088",
-	"slug": "קיסריי",
-	"headword": {
-		"text": "קִיסַּרְיִי"
-	},
+	"sefariaHeadword": "קִיסַּרְיִי",
+	"headwords": [
+		{
+			"text": "קִיסַּרְיִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "b"

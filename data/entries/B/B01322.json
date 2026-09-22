@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01322",
-	"slug": "ברקום",
-	"headword": {
-		"text": "ברקום"
-	},
+	"sefariaHeadword": "ברקום",
+	"headwords": [
+		{
+			"text": "ברקום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

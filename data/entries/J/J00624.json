@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00624",
-	"slug": "ירח-3",
-	"headword": {
-		"text": "יְרַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְרַח",
+	"headwords": [
+		{
+			"text": "יְרַח"
+		},
 		{
 			"text": "יַרְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 596,
 		"column": "a"

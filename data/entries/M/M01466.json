@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01466",
-	"slug": "מלאי-1",
-	"headword": {
-		"text": "מְלָאִי"
-	},
+	"sefariaHeadword": "מְלָאִי",
+	"headwords": [
+		{
+			"text": "מְלָאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "b"

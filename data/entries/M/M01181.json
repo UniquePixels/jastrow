@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M01181",
-	"slug": "מילי-2",
-	"headword": {
-		"text": "מילי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מילי ²",
+	"headwords": [
 		{
-			"text": "מילי מילה"
+			"text": "מילי",
+			"disambiguator": 2
+		},
+		{
+			"text": "מ׳ מילה",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 774,
 		"column": "b"

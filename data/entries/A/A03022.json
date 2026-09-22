@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03022",
-	"slug": "ארוודאי",
-	"headword": {
-		"text": "אַרְוָודָאֵי"
-	},
+	"sefariaHeadword": "אַרְוָודָאֵי",
+	"headwords": [
+		{
+			"text": "אַרְוָודָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

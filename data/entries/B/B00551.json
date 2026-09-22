@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00551",
-	"slug": "ביד",
-	"headword": {
-		"text": "בִּידְ־"
-	},
+	"sefariaHeadword": "בִּידְ־",
+	"headwords": [
+		{
+			"text": "בִּידְ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "b"

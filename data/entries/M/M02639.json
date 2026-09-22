@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02639",
-	"slug": "מרחשוון",
-	"headword": {
-		"text": "מַרְחֶשְׁוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְחֶשְׁוָון",
+	"headwords": [
+		{
+			"text": "מַרְחֶשְׁוָון"
+		},
 		{
 			"text": "מַרְחֶשְׁוָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 841,
 		"column": "b"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01305",
-	"slug": "קלחא",
-	"headword": {
-		"text": "קִלְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְחָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִלְחָא"
 		},
 		{
-			"text": "קוּ׳"
+			"text": "קִי׳",
+			"partial": true
+		},
+		{
+			"text": "קוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1374,
 		"column": "a"

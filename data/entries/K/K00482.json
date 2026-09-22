@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00482",
-	"slug": "כיבוד",
-	"headword": {
-		"text": "כִּיבּוּד"
-	},
+	"sefariaHeadword": "כִּיבּוּד",
+	"headwords": [
+		{
+			"text": "כִּיבּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "b"

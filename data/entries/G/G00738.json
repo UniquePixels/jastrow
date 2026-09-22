@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00738",
-	"slug": "זרת",
-	"headword": {
-		"text": "זֶרֶת"
-	},
+	"sefariaHeadword": "זֶרֶת",
+	"headwords": [
+		{
+			"text": "זֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "b"

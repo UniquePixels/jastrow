@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02027",
-	"slug": "מסרך",
-	"headword": {
-		"text": "מַסְרֵךְ"
-	},
+	"sefariaHeadword": "מַסְרֵךְ",
+	"headwords": [
+		{
+			"text": "מַסְרֵךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

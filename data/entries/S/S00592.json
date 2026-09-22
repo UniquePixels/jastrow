@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00592",
-	"slug": "קורטא",
-	"headword": {
-		"text": "קוֹרְטָא"
-	},
+	"sefariaHeadword": "קוֹרְטָא",
+	"headwords": [
+		{
+			"text": "קוֹרְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1342,
 		"column": "b"

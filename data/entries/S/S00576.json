@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00576",
-	"slug": "קורדינא",
-	"headword": {
-		"text": "קוֹרְדְּיָנָא"
-	},
+	"sefariaHeadword": "קוֹרְדְּיָנָא",
+	"headwords": [
+		{
+			"text": "קוֹרְדְּיָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02131",
-	"slug": "אנדריאנטוס",
-	"headword": {
-		"text": "אַנְדְּרִיאַנְטוֹס"
-	},
+	"sefariaHeadword": "אַנְדְּרִיאַנְטוֹס",
+	"headwords": [
+		{
+			"text": "אַנְדְּרִיאַנְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "a"

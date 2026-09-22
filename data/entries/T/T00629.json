@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00629",
-	"slug": "ריחשא",
-	"headword": {
-		"text": "רִיחְשָׁא"
-	},
+	"sefariaHeadword": "רִיחְשָׁא",
+	"headwords": [
+		{
+			"text": "רִיחְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02844",
-	"slug": "אפשר",
-	"headword": {
-		"text": "אֶפְשַׁר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶפְשַׁר",
+	"headwords": [
+		{
+			"text": "אֶפְשַׁר"
+		},
 		{
 			"text": "אֶיפְשַׁר"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֶוְשַׁר"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 109,
 		"column": "b"

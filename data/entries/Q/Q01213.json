@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01213",
-	"slug": "פנקס",
-	"headword": {
-		"text": "פִּנְקֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּנְקֵס",
+	"headwords": [
+		{
+			"text": "פִּנְקֵס"
+		},
 		{
 			"text": "פִּנַקְסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פִּנַקְסָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1191,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01369",
-	"slug": "עריסה",
-	"headword": {
-		"text": "עֲרִיסָה"
-	},
+	"sefariaHeadword": "עֲרִיסָה",
+	"headwords": [
+		{
+			"text": "עֲרִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "b"

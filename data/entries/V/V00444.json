@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00444",
-	"slug": "תיכלא",
-	"headword": {
-		"text": "תִּיכְלָא"
-	},
+	"sefariaHeadword": "תִּיכְלָא",
+	"headwords": [
+		{
+			"text": "תִּיכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

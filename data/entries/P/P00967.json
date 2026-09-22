@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00967",
-	"slug": "ענותנות",
-	"headword": {
-		"text": "עִנְוְתָנוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִנְוְתָנוּת",
+	"headwords": [
 		{
-			"text": "עִנְוְו׳"
+			"text": "עִנְוְתָנוּת"
 		},
 		{
-			"text": "עִינְ׳"
+			"text": "עִנְוְו׳",
+			"partial": true
+		},
+		{
+			"text": "עִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1092,
 		"column": "b"

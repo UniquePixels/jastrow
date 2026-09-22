@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00549",
-	"slug": "כיליונין",
-	"headword": {
-		"text": "כיליונין"
-	},
+	"sefariaHeadword": "כיליונין",
+	"headwords": [
+		{
+			"text": "כיליונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

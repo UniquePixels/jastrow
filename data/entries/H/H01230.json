@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01230",
-	"slug": "חמרת",
-	"headword": {
-		"text": "חַמֶּרֶת"
-	},
+	"sefariaHeadword": "חַמֶּרֶת",
+	"headwords": [
+		{
+			"text": "חַמֶּרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 480,
 		"column": "a"

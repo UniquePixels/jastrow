@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00151",
-	"slug": "פואה",
-	"headword": {
-		"text": "פּוּאָה"
-	},
+	"sefariaHeadword": "פּוּאָה",
+	"headwords": [
+		{
+			"text": "פּוּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1138,
 		"column": "b"

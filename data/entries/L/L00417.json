@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00417",
-	"slug": "ליבלבא",
-	"headword": {
-		"text": "לִיבְלְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיבְלְבָא",
+	"headwords": [
+		{
+			"text": "לִיבְלְבָא"
+		},
 		{
 			"text": "לִיבְלוּבָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "ליבליבא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 706,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00693",
-	"slug": "פילטא",
-	"headword": {
-		"text": "פילטא"
-	},
+	"sefariaHeadword": "פילטא",
+	"headwords": [
+		{
+			"text": "פילטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

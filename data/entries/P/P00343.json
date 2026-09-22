@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00343",
-	"slug": "עור-2",
-	"headword": {
-		"text": "עוּר"
-	},
+	"sefariaHeadword": "עוּר",
+	"headwords": [
+		{
+			"text": "עוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1057,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00422",
-	"slug": "רופא",
-	"headword": {
-		"text": "רוֹפֵא"
-	},
+	"sefariaHeadword": "רוֹפֵא",
+	"headwords": [
+		{
+			"text": "רוֹפֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1462,
 		"column": "b"

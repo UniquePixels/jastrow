@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00420",
-	"slug": "עזקא-1",
-	"headword": {
-		"text": "עִזְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִזְקָא",
+	"headwords": [
+		{
+			"text": "עִזְקָא"
+		},
 		{
 			"text": "עִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1062,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00227",
-	"slug": "זוק",
-	"headword": {
-		"text": "זוק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוק",
+	"headwords": [
+		{
+			"text": "זוק"
+		},
 		{
 			"text": "זיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 389,
 		"column": "b"

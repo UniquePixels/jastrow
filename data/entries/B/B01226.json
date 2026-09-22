@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01226",
-	"slug": "ברזיתא",
-	"headword": {
-		"text": "בַּרְזִיתָא"
-	},
+	"sefariaHeadword": "בַּרְזִיתָא",
+	"headwords": [
+		{
+			"text": "בַּרְזִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 191,
 		"column": "b"

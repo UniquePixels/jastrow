@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00111",
-	"slug": "צדייות",
-	"headword": {
-		"text": "צדייות"
-	},
+	"sefariaHeadword": "צדייות",
+	"headwords": [
+		{
+			"text": "צדייות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1262,
 		"column": "b"

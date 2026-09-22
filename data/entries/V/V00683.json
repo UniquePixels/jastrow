@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00683",
-	"slug": "תמירות",
-	"headword": {
-		"text": "תְּמִירוֹת"
-	},
+	"sefariaHeadword": "תְּמִירוֹת",
+	"headwords": [
+		{
+			"text": "תְּמִירוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1677,
 		"column": "b"

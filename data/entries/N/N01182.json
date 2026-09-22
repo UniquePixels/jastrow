@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01182",
-	"slug": "נקוסא",
-	"headword": {
-		"text": "נָקוֹסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָקוֹסָא",
+	"headwords": [
+		{
+			"text": "נָקוֹסָא"
+		},
 		{
 			"text": "נָקוֹסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "b"

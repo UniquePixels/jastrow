@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00557",
-	"slug": "לכסן",
-	"headword": {
-		"text": "לֹכְסָן"
-	},
+	"sefariaHeadword": "לֹכְסָן",
+	"headwords": [
+		{
+			"text": "לֹכְסָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "b"

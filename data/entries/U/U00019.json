@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00019",
-	"slug": "שאיב",
-	"headword": {
-		"text": "שְׁאֵיב"
-	},
+	"sefariaHeadword": "שְׁאֵיב",
+	"headwords": [
+		{
+			"text": "שְׁאֵיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

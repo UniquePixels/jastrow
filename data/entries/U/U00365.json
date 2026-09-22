@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00365",
-	"slug": "שוחד",
-	"headword": {
-		"text": "שׁוֹחַד"
-	},
+	"sefariaHeadword": "שׁוֹחַד",
+	"headwords": [
+		{
+			"text": "שׁוֹחַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "b"

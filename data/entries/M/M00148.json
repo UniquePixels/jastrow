@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00148",
-	"slug": "מגזרא",
-	"headword": {
-		"text": "מִגְזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִגְזְרָא",
+	"headwords": [
 		{
-			"text": "מִיגְ׳"
+			"text": "מִגְזְרָא"
+		},
+		{
+			"text": "מִיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 727,
 		"column": "b"

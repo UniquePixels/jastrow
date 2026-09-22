@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00848",
-	"slug": "פירוש-2",
-	"headword": {
-		"text": "פֵּירוּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּשׁ ²",
+	"headwords": [
+		{
+			"text": "פֵּירוּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "פֵּירוּשָׁא"
 		},
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1171,
 		"column": "a"

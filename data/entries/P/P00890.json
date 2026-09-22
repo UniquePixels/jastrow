@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00890",
-	"slug": "עמיקו",
-	"headword": {
-		"text": "עֲמִיקוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲמִיקוּ",
+	"headwords": [
+		{
+			"text": "עֲמִיקוּ"
+		},
 		{
 			"text": "עֲמִיקוּן"
 		},
 		{
-			"text": "כְּפַר עֲמִיקוּ"
+			"text": "כְּפַר ע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1088,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00907",
-	"slug": "בלק-1",
-	"headword": {
-		"text": "בִּלָּק"
-	},
+	"sefariaHeadword": "בִּלָּק",
+	"headwords": [
+		{
+			"text": "בִּלָּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "a"

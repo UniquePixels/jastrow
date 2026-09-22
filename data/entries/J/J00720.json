@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00720",
-	"slug": "יתום-1",
-	"headword": {
-		"text": "יָתוֹם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָתוֹם",
+	"headwords": [
+		{
+			"text": "יָתוֹם"
+		},
 		{
 			"text": "יתוֹמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 603,
 		"column": "a"

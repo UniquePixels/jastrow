@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02066",
-	"slug": "אמרי",
-	"headword": {
-		"text": "אַמְרִי"
-	},
+	"sefariaHeadword": "אַמְרִי",
+	"headwords": [
+		{
+			"text": "אַמְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "b"

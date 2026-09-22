@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02761",
-	"slug": "אפסיקימא",
-	"headword": {
-		"text": "אפסיקימא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפסיקימא",
+	"headwords": [
+		{
+			"text": "אפסיקימא"
+		},
 		{
 			"text": "אפסיקמא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 106,
 		"column": "b"

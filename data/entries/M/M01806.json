@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01806",
-	"slug": "מנפוח",
-	"headword": {
-		"text": "מנפוח"
-	},
+	"sefariaHeadword": "מנפוח",
+	"headwords": [
+		{
+			"text": "מנפוח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

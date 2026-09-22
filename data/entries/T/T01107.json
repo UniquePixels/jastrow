@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01107",
-	"slug": "רשענית",
-	"headword": {
-		"text": "רַשְׁעָנִית"
-	},
+	"sefariaHeadword": "רַשְׁעָנִית",
+	"headwords": [
+		{
+			"text": "רַשְׁעָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

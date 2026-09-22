@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00201",
-	"slug": "קהא",
-	"headword": {
-		"text": "קָהָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָהָא",
+	"headwords": [
+		{
+			"text": "קָהָא"
+		},
 		{
 			"text": "קְהָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קָהָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1321,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00669",
-	"slug": "ביעוט",
-	"headword": {
-		"text": "בִּיעוּט"
-	},
+	"sefariaHeadword": "בִּיעוּט",
+	"headwords": [
+		{
+			"text": "בִּיעוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

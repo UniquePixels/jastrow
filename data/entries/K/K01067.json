@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01067",
-	"slug": "כפתור",
-	"headword": {
-		"text": "כַּפְתּוֹר"
-	},
+	"sefariaHeadword": "כַּפְתּוֹר",
+	"headwords": [
+		{
+			"text": "כַּפְתּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "a"

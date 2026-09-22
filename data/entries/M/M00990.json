@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00990",
-	"slug": "מטחן",
-	"headword": {
-		"text": "מַטְחֵן"
-	},
+	"sefariaHeadword": "מַטְחֵן",
+	"headwords": [
+		{
+			"text": "מַטְחֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 766,
 		"column": "b"

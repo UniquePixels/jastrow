@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00209",
-	"slug": "אברגני",
-	"headword": {
-		"text": "אברגני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אברגני",
+	"headwords": [
+		{
+			"text": "אברגני"
+		},
 		{
 			"text": "אברוגני"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 9,
 		"column": "a"

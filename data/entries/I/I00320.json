@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00320",
-	"slug": "טיוטא",
-	"headword": {
-		"text": "טִיּוּטָא"
-	},
+	"sefariaHeadword": "טִיּוּטָא",
+	"headwords": [
+		{
+			"text": "טִיּוּטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01438",
-	"slug": "מכרא",
-	"headword": {
-		"text": "מַכָּרָא"
-	},
+	"sefariaHeadword": "מַכָּרָא",
+	"headwords": [
+		{
+			"text": "מַכָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 784,
 		"column": "b"

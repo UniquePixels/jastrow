@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00543",
-	"slug": "נטול-2",
-	"headword": {
-		"text": "נָטוּל"
-	},
+	"sefariaHeadword": "נָטוּל",
+	"headwords": [
+		{
+			"text": "נָטוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

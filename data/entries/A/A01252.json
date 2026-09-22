@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01252",
-	"slug": "איכו",
-	"headword": {
-		"text": "אִיכּוּ"
-	},
+	"sefariaHeadword": "אִיכּוּ",
+	"headwords": [
+		{
+			"text": "אִיכּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

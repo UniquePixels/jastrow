@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01216",
-	"slug": "קישושות",
-	"headword": {
-		"text": "קִישׁוֹשׁוֹת"
-	},
+	"sefariaHeadword": "קִישׁוֹשׁוֹת",
+	"headwords": [
+		{
+			"text": "קִישׁוֹשׁוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1370,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02074",
-	"slug": "פשיטות",
-	"headword": {
-		"text": "פְּשִׁיטוּת"
-	},
+	"sefariaHeadword": "פְּשִׁיטוּת",
+	"headwords": [
+		{
+			"text": "פְּשִׁיטוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

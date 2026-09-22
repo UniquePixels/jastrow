@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00152",
-	"slug": "חגיר",
-	"headword": {
-		"text": "חַגִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַגִּיר",
+	"headwords": [
+		{
+			"text": "חַגִּיר"
+		},
 		{
 			"text": "חָגִיר"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲגִירָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 424,
 		"column": "b"

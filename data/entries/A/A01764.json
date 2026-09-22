@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01764",
-	"slug": "א״ל",
-	"headword": {
-		"text": "א״ל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "א\"ל",
+	"headwords": [
+		{
+			"text": "א״ל"
+		},
 		{
 			"text": "אלב״ם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 66,
 		"column": "a"

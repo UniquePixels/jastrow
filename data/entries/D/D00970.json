@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00970",
-	"slug": "דפנות",
-	"headword": {
-		"text": "דְּפַנּוֹת"
-	},
+	"sefariaHeadword": "דְּפַנּוֹת",
+	"headwords": [
+		{
+			"text": "דְּפַנּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

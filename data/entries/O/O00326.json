@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00326",
-	"slug": "סולת",
-	"headword": {
-		"text": "סוֹלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹלֶת",
+	"headwords": [
+		{
+			"text": "סוֹלֶת"
+		},
 		{
 			"text": "סוֹלַת"
 		},
@@ -12,6 +13,7 @@
 			"text": "סוּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 965,
 		"column": "a"

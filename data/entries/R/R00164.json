@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00164",
-	"slug": "צודנייתא",
-	"headword": {
-		"text": "צודנייתא"
-	},
+	"sefariaHeadword": "צודנייתא",
+	"headwords": [
+		{
+			"text": "צודנייתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

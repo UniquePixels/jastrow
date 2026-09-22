@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00232",
-	"slug": "טוריינא",
-	"headword": {
-		"text": "טוּרְיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּרְיָינָא",
+	"headwords": [
+		{
+			"text": "טוּרְיָינָא"
+		},
 		{
 			"text": "טוּרְיָינוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 527,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00687",
-	"slug": "ריצה",
-	"headword": {
-		"text": "רִיצָה"
-	},
+	"sefariaHeadword": "רִיצָה",
+	"headwords": [
+		{
+			"text": "רִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

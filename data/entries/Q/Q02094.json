@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02094",
-	"slug": "פשפש-5",
-	"headword": {
-		"text": "פִּשְׁפָּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּשְׁפָּשׁ",
+	"headwords": [
+		{
+			"text": "פִּשְׁפָּשׁ"
+		},
 		{
 			"text": "פִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1248,
 		"column": "a"

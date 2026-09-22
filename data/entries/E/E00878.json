@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "E00878",
-	"slug": "הרמיך",
-	"headword": {
-		"text": "הַרְמֵיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְמֵיךְ",
+	"headwords": [
+		{
+			"text": "הַרְמֵיךְ"
+		},
 		{
 			"text": "הַרְמֵךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 368,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00738",
-	"slug": "יתיר-2",
-	"headword": {
-		"text": "יַתִּיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יַתִּיר II",
+	"headwords": [
+		{
+			"text": "יַתִּיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 604,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

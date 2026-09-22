@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00749",
-	"slug": "חייתא-3",
-	"headword": {
-		"text": "חַיְּיתָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַיְּיתָא III",
+	"headwords": [
+		{
+			"text": "חַיְּיתָא",
+			"homograph": 3
+		},
 		{
 			"text": "חַיָּתָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 455,
 		"column": "b"

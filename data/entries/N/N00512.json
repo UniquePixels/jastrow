@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00512",
-	"slug": "נחמתא",
-	"headword": {
-		"text": "נֶחֶמְתָּא"
-	},
+	"sefariaHeadword": "נֶחֶמְתָּא",
+	"headwords": [
+		{
+			"text": "נֶחֶמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "a"

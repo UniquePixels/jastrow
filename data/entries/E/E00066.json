@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00066",
-	"slug": "הגי-1",
-	"headword": {
-		"text": "הגי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הגי",
+	"headwords": [
+		{
+			"text": "הגי"
+		},
 		{
 			"text": "הָגָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 331,
 		"column": "a"

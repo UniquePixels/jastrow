@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "I00644",
-	"slug": "טפי-3",
-	"headword": {
-		"text": "טְפֵי",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְפֵי ³",
+	"headwords": [
+		{
+			"text": "טְפֵי",
+			"disambiguator": 3
+		},
 		{
 			"text": "טְפָא",
 			"homograph": 3
 		}
 	],
+	"display": "{0} ³, {1} III",
 	"page": {
 		"number": 546,
 		"column": "b"

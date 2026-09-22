@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00550",
-	"slug": "טמינה",
-	"headword": {
-		"text": "טְמִינָה"
-	},
+	"sefariaHeadword": "טְמִינָה",
+	"headwords": [
+		{
+			"text": "טְמִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 539,
 		"column": "b"

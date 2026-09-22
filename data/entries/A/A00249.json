@@ -1,21 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "A00249",
-	"slug": "אגדו",
-	"headword": {
-		"text": "אגדו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אגדו",
+	"headwords": [
+		{
+			"text": "אגדו"
+		},
 		{
 			"text": "אגדון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 10,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"A00344\"><he>אִגְּרוּ</he></cite>",
+			"gloss": ", v. <cite ref=\"A00344\"><he>אִגְּרוּ</he></cite>",
 			"units": []
 		}
 	]

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01084",
-	"slug": "אטימיסיאה",
-	"headword": {
-		"text": "אטימיסיאה"
-	},
+	"sefariaHeadword": "אטימיסיאה",
+	"headwords": [
+		{
+			"text": "אטימיסיאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

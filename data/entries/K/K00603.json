@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00603",
-	"slug": "כיפה-3",
-	"headword": {
-		"text": "כִּיפָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיפָּה",
+	"headwords": [
+		{
+			"text": "כִּיפָּה"
+		},
 		{
 			"text": "כִּפָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 635,
 		"column": "a"

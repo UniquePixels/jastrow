@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00896",
-	"slug": "תקלותא",
-	"headword": {
-		"text": "תַּקְלוּתָא"
-	},
+	"sefariaHeadword": "תַּקְלוּתָא",
+	"headwords": [
+		{
+			"text": "תַּקְלוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1691,
 		"column": "b"

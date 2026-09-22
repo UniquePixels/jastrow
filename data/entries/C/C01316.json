@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01316",
-	"slug": "גרושין",
-	"headword": {
-		"text": "גֵּרוּשִׁין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּרוּשִׁין",
+	"headwords": [
+		{
+			"text": "גֵּרוּשִׁין"
+		},
 		{
 			"text": "גֵּירוּשִׁין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 267,
 		"column": "a"

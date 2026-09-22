@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00094",
-	"slug": "מבעה",
-	"headword": {
-		"text": "מַבְעֶה"
-	},
+	"sefariaHeadword": "מַבְעֶה",
+	"headwords": [
+		{
+			"text": "מַבְעֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

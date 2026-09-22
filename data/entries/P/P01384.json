@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01384",
-	"slug": "ערל-2",
-	"headword": {
-		"text": "עָרֵל"
-	},
+	"sefariaHeadword": "עָרֵל",
+	"headwords": [
+		{
+			"text": "עָרֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1119,
 		"column": "b"

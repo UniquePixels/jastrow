@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00184",
-	"slug": "זומא-1",
-	"headword": {
-		"text": "זוֹמָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זוֹמָא I",
+	"headwords": [
+		{
+			"text": "זוֹמָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 387,
 		"column": "a"

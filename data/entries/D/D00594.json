@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00594",
-	"slug": "דיכרא",
-	"headword": {
-		"text": "דִּיכְרָא"
-	},
+	"sefariaHeadword": "דִּיכְרָא",
+	"headwords": [
+		{
+			"text": "דִּיכְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00491",
-	"slug": "שוף-3",
-	"headword": {
-		"text": "שׁוּף",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שׁוּף ²",
+	"headwords": [
+		{
+			"text": "שׁוּף",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1539,
 		"column": "a"

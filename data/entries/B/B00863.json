@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00863",
-	"slug": "בלים",
-	"headword": {
-		"text": "בְּלִים"
-	},
+	"sefariaHeadword": "בְּלִים",
+	"headwords": [
+		{
+			"text": "בְּלִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

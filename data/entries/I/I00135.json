@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00135",
-	"slug": "טוופא",
-	"headword": {
-		"text": "טַוְופָא"
-	},
+	"sefariaHeadword": "טַוְופָא",
+	"headwords": [
+		{
+			"text": "טַוְופָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "b"

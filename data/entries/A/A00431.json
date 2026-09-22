@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00431",
-	"slug": "אדנדקי",
-	"headword": {
-		"text": "אֲדַנְדְּקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲדַנְדְּקֵי",
+	"headwords": [
+		{
+			"text": "אֲדַנְדְּקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00739",
-	"slug": "הפינוס",
-	"headword": {
-		"text": "הֵפְיָנוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵפְיָנוֹס",
+	"headwords": [
+		{
+			"text": "הֵפְיָנוֹס"
+		},
 		{
 			"text": "הפינס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 361,
 		"column": "a"

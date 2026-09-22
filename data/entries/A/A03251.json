@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03251",
-	"slug": "ארתוסייה",
-	"headword": {
-		"text": "אָרְתּוּסְיָיה"
-	},
+	"sefariaHeadword": "אָרְתּוּסְיָיה",
+	"headwords": [
+		{
+			"text": "אָרְתּוּסְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

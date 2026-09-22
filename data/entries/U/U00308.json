@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00308",
-	"slug": "שואבה",
-	"headword": {
-		"text": "שׁוֹאֵבָה"
-	},
+	"sefariaHeadword": "שׁוֹאֵבָה",
+	"headwords": [
+		{
+			"text": "שׁוֹאֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1528,
 		"column": "a"

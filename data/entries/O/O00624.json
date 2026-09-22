@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00624",
-	"slug": "סייטן",
-	"headword": {
-		"text": "סַיְיטָן"
-	},
+	"sefariaHeadword": "סַיְיטָן",
+	"headwords": [
+		{
+			"text": "סַיְיטָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "b"

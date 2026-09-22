@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00223",
-	"slug": "דוזגר",
-	"headword": {
-		"text": "דוזגר"
-	},
+	"sefariaHeadword": "דוזגר",
+	"headwords": [
+		{
+			"text": "דוזגר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 284,
 		"column": "a"

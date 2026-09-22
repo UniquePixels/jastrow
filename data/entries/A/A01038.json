@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01038",
-	"slug": "אחמיתא",
-	"headword": {
-		"text": "אַחְמִיתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַחְמִיתָא",
+	"headwords": [
+		{
+			"text": "אַחְמִיתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 40,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01223",
-	"slug": "נקלטין",
-	"headword": {
-		"text": "נַקְלְטִין"
-	},
+	"sefariaHeadword": "נַקְלְטִין",
+	"headwords": [
+		{
+			"text": "נַקְלְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

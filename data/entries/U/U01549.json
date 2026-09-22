@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01549",
-	"slug": "שמשי",
-	"headword": {
-		"text": "שִׁמְשַׁי"
-	},
+	"sefariaHeadword": "שִׁמְשַׁי",
+	"headwords": [
+		{
+			"text": "שִׁמְשַׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "a"

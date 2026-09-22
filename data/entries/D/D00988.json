@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00988",
-	"slug": "דקדוקא",
-	"headword": {
-		"text": "דִּקְדּוּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּקְדּוּקָא",
+	"headwords": [
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּקְדּוּקָא"
+		},
+		{
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 318,
 		"column": "a"

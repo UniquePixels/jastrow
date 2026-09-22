@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02453",
-	"slug": "מקרבא",
-	"headword": {
-		"text": "מִקְרְבָא"
-	},
+	"sefariaHeadword": "מִקְרְבָא",
+	"headwords": [
+		{
+			"text": "מִקְרְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 833,
 		"column": "a"

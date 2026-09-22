@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00759",
-	"slug": "רכון-2",
-	"headword": {
-		"text": "רִכּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִכּוּן",
+	"headwords": [
+		{
+			"text": "רִכּוּן"
+		},
 		{
 			"text": "רִכּוּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1479,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00014",
-	"slug": "כאיבא",
-	"headword": {
-		"text": "כְּאֵיבָא"
-	},
+	"sefariaHeadword": "כְּאֵיבָא",
+	"headwords": [
+		{
+			"text": "כְּאֵיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

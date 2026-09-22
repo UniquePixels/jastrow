@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00403",
-	"slug": "פושקא",
-	"headword": {
-		"text": "פּוּשְׁקָא"
-	},
+	"sefariaHeadword": "פּוּשְׁקָא",
+	"headwords": [
+		{
+			"text": "פּוּשְׁקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

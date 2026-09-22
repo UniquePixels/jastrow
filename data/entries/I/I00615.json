@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00615",
-	"slug": "טען-2",
-	"headword": {
-		"text": "טְעַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְעַן",
+	"headwords": [
+		{
+			"text": "טְעַן"
+		},
 		{
 			"text": "טְעֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 544,
 		"column": "a"

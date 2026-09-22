@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02078",
-	"slug": "אמתן",
-	"headword": {
-		"text": "אֵמְתָן"
-	},
+	"sefariaHeadword": "אֵמְתָן",
+	"headwords": [
+		{
+			"text": "אֵמְתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01770",
-	"slug": "קפרא",
-	"headword": {
-		"text": "קַפָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַפָּרָא",
+	"headwords": [
 		{
-			"text": "בַּר קַפָּרָא"
+			"text": "קַפָּרָא"
+		},
+		{
+			"text": "בַּר קַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1403,
 		"column": "b"

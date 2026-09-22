@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01670",
-	"slug": "פרוטומי",
-	"headword": {
-		"text": "פְּרוֹטוֹמִי"
-	},
+	"sefariaHeadword": "פְּרוֹטוֹמִי",
+	"headwords": [
+		{
+			"text": "פְּרוֹטוֹמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "b"

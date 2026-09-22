@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01801",
-	"slug": "קצותא",
-	"headword": {
-		"text": "קצותא"
-	},
+	"sefariaHeadword": "קצותא",
+	"headwords": [
+		{
+			"text": "קצותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "a"

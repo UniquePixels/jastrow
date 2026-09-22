@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00967",
-	"slug": "סלונדקי",
-	"headword": {
-		"text": "סלונדקי"
-	},
+	"sefariaHeadword": "סלונדקי",
+	"headwords": [
+		{
+			"text": "סלונדקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

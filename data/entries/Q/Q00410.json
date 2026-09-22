@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00410",
-	"slug": "פות-2",
-	"headword": {
-		"text": "פּוּת"
-	},
+	"sefariaHeadword": "פּוּת",
+	"headwords": [
+		{
+			"text": "פּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "b"

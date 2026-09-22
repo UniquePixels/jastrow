@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00414",
-	"slug": "גומד",
-	"headword": {
-		"text": "גּוֹמֶד"
-	},
+	"sefariaHeadword": "גּוֹמֶד",
+	"headwords": [
+		{
+			"text": "גּוֹמֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 223,
 		"column": "a"
@@ -17,7 +21,7 @@
 			"units": []
 		},
 		{
-			"gloss": "<i>gomed, a length-measure</i>, supposed to be <i>the cubit less the hand’s length; arm</i>. [<cite ref=\"Arakhin 11a\">Arakh. 11ᵃ</cite> <he>וגָמְדָּהּ אמה</he> Ar. and the arm of the scraper was one cubit, contrad. to <he>היא</he> itself, i.e. the perpendicular part; ed. <he>וגובה</he>.]—Pl. <he>גְּמָדִים</he>, <he>גּוֹמָדִין</he>. ",
+			"gloss": "<i>gomed, a length-measure</i>, supposed to be <i>the cubit less the hand’s length; arm</i>. [<cite ref=\"Arakhin 11a\">Arakh. 11ᵃ</cite> <he>וגָמְדָּהּ אמה</he> Ar. and the arm of the scraper was one cubit, contrad. to <he>היא</he> itself, i.e. the perpendicular part; ed. <he>וגובה</he>.]—Pl. <he>גְּמָדִים</he>, <he>גּוֹמָדִין</he>. ",
 			"units": [
 				"<cite ref=\"Bava Batra 100a:10\">B. Bath. 100ᵃ</cite> <he>שני גמ׳</he> ed. (Ms. M. a. Ar. <cite ref=\"C00674\"><he>גו׳</he></cite>)."
 			],

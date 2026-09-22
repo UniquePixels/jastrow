@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02320",
-	"slug": "אסא-2",
-	"headword": {
-		"text": "אַסָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסָּא",
+	"headwords": [
+		{
+			"text": "אַסָּא"
+		},
 		{
 			"text": "אָסָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 88,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00612",
-	"slug": "שחד",
-	"headword": {
-		"text": "שְׁחַד"
-	},
+	"sefariaHeadword": "שְׁחַד",
+	"headwords": [
+		{
+			"text": "שְׁחַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "b"

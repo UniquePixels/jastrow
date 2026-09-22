@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00002",
-	"slug": "יא-1",
-	"headword": {
-		"text": "יֵא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יֵא",
+	"headwords": [
+		{
+			"text": "יֵא"
+		},
 		{
 			"text": "יֵיא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 559,
 		"column": "a"

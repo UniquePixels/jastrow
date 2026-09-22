@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00576",
-	"slug": "הלמה",
-	"headword": {
-		"text": "הַלְמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַלְמָה",
+	"headwords": [
+		{
+			"text": "הַלְמָה"
+		},
 		{
 			"text": "הֶלְמוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 354,
 		"column": "a"

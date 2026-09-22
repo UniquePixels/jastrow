@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00839",
-	"slug": "חיפא-1",
-	"headword": {
-		"text": "חֵיפָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֵיפָא I",
+	"headwords": [
+		{
+			"text": "חֵיפָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 459,
 		"column": "a"

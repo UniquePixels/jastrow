@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01683",
-	"slug": "פרוכי",
-	"headword": {
-		"text": "פרוכי"
-	},
+	"sefariaHeadword": "פרוכי",
+	"headwords": [
+		{
+			"text": "פרוכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

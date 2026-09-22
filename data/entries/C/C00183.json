@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00183",
-	"slug": "גדוף",
-	"headword": {
-		"text": "גִּדּוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּדּוּף",
+	"headwords": [
+		{
+			"text": "גִּדּוּף"
+		},
 		{
 			"text": "גִּדּוּפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 211,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00268",
-	"slug": "מדוכרא",
-	"headword": {
-		"text": "מְדוּכְרָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְדוּכְרָא",
+	"headwords": [
+		{
+			"text": "מְדוּכְרָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

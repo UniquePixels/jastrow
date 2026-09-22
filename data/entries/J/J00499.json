@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00499",
-	"slug": "יערא-2",
-	"headword": {
-		"text": "יַעְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַעְרָא II",
+	"headwords": [
+		{
+			"text": "יַעְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "יַעַרְתָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 585,
 		"column": "b"

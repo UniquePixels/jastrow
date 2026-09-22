@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01492",
-	"slug": "פקיעין",
-	"headword": {
-		"text": "פְּקִיעִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּקִיעִין",
+	"headwords": [
 		{
-			"text": "כְּפַר פְּקִיעִין"
+			"text": "פְּקִיעִין"
+		},
+		{
+			"text": "כְּפַר פְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1209,
 		"column": "b"

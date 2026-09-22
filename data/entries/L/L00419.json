@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00419",
-	"slug": "ליבנא",
-	"headword": {
-		"text": "לִיבְנָא"
-	},
+	"sefariaHeadword": "לִיבְנָא",
+	"headwords": [
+		{
+			"text": "לִיבְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

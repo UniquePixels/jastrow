@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01000",
-	"slug": "רצפתא",
-	"headword": {
-		"text": "רִצְפְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִצְפְּתָא",
+	"headwords": [
 		{
-			"text": "רִיצְ׳"
+			"text": "רִצְפְּתָא"
+		},
+		{
+			"text": "רִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1495,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01742",
-	"slug": "שפיותא",
-	"headword": {
-		"text": "שְׁפִיּוּתָא"
-	},
+	"sefariaHeadword": "שְׁפִיּוּתָא",
+	"headwords": [
+		{
+			"text": "שְׁפִיּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1615,
 		"column": "b"

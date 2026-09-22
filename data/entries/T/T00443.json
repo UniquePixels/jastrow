@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00443",
-	"slug": "רוקני",
-	"headword": {
-		"text": "רוּקָנִי"
-	},
+	"sefariaHeadword": "רוּקָנִי",
+	"headwords": [
+		{
+			"text": "רוּקָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00007",
-	"slug": "א-7",
-	"headword": {
-		"text": "אִ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִ־",
+	"headwords": [
+		{
+			"text": "אִ־"
+		},
 		{
 			"text": "אִי־"
 		},
@@ -15,6 +16,7 @@
 			"text": "אַ־"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1,
 		"column": "a"

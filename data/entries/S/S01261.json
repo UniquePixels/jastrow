@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01261",
-	"slug": "קלוואן",
-	"headword": {
-		"text": "קִלְוָואן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלְוָואן",
+	"headwords": [
+		{
+			"text": "קִלְוָואן"
+		},
 		{
 			"text": "קִלְוָון"
 		},
 		{
-			"text": "קִילְ׳"
+			"text": "קִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1372,
 		"column": "b"

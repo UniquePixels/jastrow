@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02341",
-	"slug": "מצע-3",
-	"headword": {
-		"text": "מִצַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִצַּע",
+	"headwords": [
+		{
+			"text": "מִצַּע"
+		},
 		{
 			"text": "מַצַּע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 827,
 		"column": "b"

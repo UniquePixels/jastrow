@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00804",
-	"slug": "גיר-2",
-	"headword": {
-		"text": "גִּיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גִּיר II",
+	"headwords": [
+		{
+			"text": "גִּיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 241,
 		"column": "b"

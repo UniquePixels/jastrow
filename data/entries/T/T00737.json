@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00737",
-	"slug": "ריתחא",
-	"headword": {
-		"text": "רִיתְחָא"
-	},
+	"sefariaHeadword": "רִיתְחָא",
+	"headwords": [
+		{
+			"text": "רִיתְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1478,
 		"column": "b"

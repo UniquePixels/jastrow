@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00799",
-	"slug": "נישובת",
-	"headword": {
-		"text": "נִישּׁוֹבֶת"
-	},
+	"sefariaHeadword": "נִישּׁוֹבֶת",
+	"headwords": [
+		{
+			"text": "נִישּׁוֹבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

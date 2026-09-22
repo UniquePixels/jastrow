@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01188",
-	"slug": "חמיצ",
-	"headword": {
-		"text": "חֲמֵיצ־"
-	},
+	"sefariaHeadword": "חֲמֵיצ־",
+	"headwords": [
+		{
+			"text": "חֲמֵיצ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

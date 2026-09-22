@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00713",
-	"slug": "קטומא",
-	"headword": {
-		"text": "קטומא"
-	},
+	"sefariaHeadword": "קטומא",
+	"headwords": [
+		{
+			"text": "קטומא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

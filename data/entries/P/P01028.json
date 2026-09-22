@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01028",
-	"slug": "ענתורדיא",
-	"headword": {
-		"text": "ענתורדיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ענתורדיא",
+	"headwords": [
+		{
+			"text": "ענתורדיא"
+		},
 		{
 			"text": "ענתוריא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1097,
 		"column": "b"

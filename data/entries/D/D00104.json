@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00104",
-	"slug": "דגורא",
-	"headword": {
-		"text": "דְּגוֹרָא"
-	},
+	"sefariaHeadword": "דְּגוֹרָא",
+	"headwords": [
+		{
+			"text": "דְּגוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 279,
 		"column": "b"

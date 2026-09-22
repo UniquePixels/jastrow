@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00124",
-	"slug": "טובתא",
-	"headword": {
-		"text": "טוּבְתָא"
-	},
+	"sefariaHeadword": "טוּבְתָא",
+	"headwords": [
+		{
+			"text": "טוּבְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

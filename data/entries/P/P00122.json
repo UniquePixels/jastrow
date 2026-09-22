@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00122",
-	"slug": "עדד",
-	"headword": {
-		"text": "עָדַד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עָדַד",
+	"headwords": [
+		{
+			"text": "עָדַד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1043,
 		"column": "a"

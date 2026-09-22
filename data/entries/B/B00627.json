@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00627",
-	"slug": "בילתין",
-	"headword": {
-		"text": "בִּילְתִּין"
-	},
+	"sefariaHeadword": "בִּילְתִּין",
+	"headwords": [
+		{
+			"text": "בִּילְתִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 162,
 		"column": "a"

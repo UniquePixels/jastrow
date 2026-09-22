@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01751",
-	"slug": "אכרוב",
-	"headword": {
-		"text": "אַכְרוּב"
-	},
+	"sefariaHeadword": "אַכְרוּב",
+	"headwords": [
+		{
+			"text": "אַכְרוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

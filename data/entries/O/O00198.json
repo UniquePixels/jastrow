@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00198",
-	"slug": "סדקי",
-	"headword": {
-		"text": "סִדְקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִדְקִי",
+	"headwords": [
+		{
+			"text": "סִדְקִי"
+		},
 		{
 			"text": "סִדְקִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 958,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00319",
-	"slug": "דופרה",
-	"headword": {
-		"text": "דופרה"
-	},
+	"sefariaHeadword": "דופרה",
+	"headwords": [
+		{
+			"text": "דופרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "b"

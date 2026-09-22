@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00270",
-	"slug": "מדול",
-	"headword": {
-		"text": "מִדוֹל"
-	},
+	"sefariaHeadword": "מִדוֹל",
+	"headwords": [
+		{
+			"text": "מִדוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

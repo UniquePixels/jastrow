@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00441",
-	"slug": "עטי-1",
-	"headword": {
-		"text": "עטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עטי",
+	"headwords": [
+		{
+			"text": "עטי"
+		},
 		{
 			"text": "עָטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1063,
 		"column": "a"

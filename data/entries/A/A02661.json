@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02661",
-	"slug": "אפטיא",
-	"headword": {
-		"text": "אִפַּטְיָא"
-	},
+	"sefariaHeadword": "אִפַּטְיָא",
+	"headwords": [
+		{
+			"text": "אִפַּטְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "a"

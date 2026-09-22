@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00665",
-	"slug": "צערו",
-	"headword": {
-		"text": "צַעֲרוּ"
-	},
+	"sefariaHeadword": "צַעֲרוּ",
+	"headwords": [
+		{
+			"text": "צַעֲרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01152",
-	"slug": "פנגס",
-	"headword": {
-		"text": "פִּנְגָּס"
-	},
+	"sefariaHeadword": "פִּנְגָּס",
+	"headwords": [
+		{
+			"text": "פִּנְגָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

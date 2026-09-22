@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00295",
-	"slug": "יחם-2",
-	"headword": {
-		"text": "יְחַם"
-	},
+	"sefariaHeadword": "יְחַם",
+	"headwords": [
+		{
+			"text": "יְחַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 575,
 		"column": "a"

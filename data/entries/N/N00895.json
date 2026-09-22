@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00895",
-	"slug": "נמרירה",
-	"headword": {
-		"text": "נִמְרִירָה"
-	},
+	"sefariaHeadword": "נִמְרִירָה",
+	"headwords": [
+		{
+			"text": "נִמְרִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "a"

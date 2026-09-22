@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00029",
-	"slug": "אבגרוטינה",
-	"headword": {
-		"text": "אבגרוטינה"
-	},
+	"sefariaHeadword": "אבגרוטינה",
+	"headwords": [
+		{
+			"text": "אבגרוטינה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 2,
 		"column": "b"

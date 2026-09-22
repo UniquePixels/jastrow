@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00472",
-	"slug": "אדרכיאן",
-	"headword": {
-		"text": "אֲדַרְכִּיאָן"
-	},
+	"sefariaHeadword": "אֲדַרְכִּיאָן",
+	"headwords": [
+		{
+			"text": "אֲדַרְכִּיאָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "a"

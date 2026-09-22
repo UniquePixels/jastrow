@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00721",
-	"slug": "ניעה",
-	"headword": {
-		"text": "נִיעָה"
-	},
+	"sefariaHeadword": "נִיעָה",
+	"headwords": [
+		{
+			"text": "נִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00898",
-	"slug": "כסדאה",
-	"headword": {
-		"text": "כַּסְדָּאָה"
-	},
+	"sefariaHeadword": "כַּסְדָּאָה",
+	"headwords": [
+		{
+			"text": "כַּסְדָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

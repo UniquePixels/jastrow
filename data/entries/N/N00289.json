@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00289",
-	"slug": "נהרה",
-	"headword": {
-		"text": "נַהֲרָה"
-	},
+	"sefariaHeadword": "נַהֲרָה",
+	"headwords": [
+		{
+			"text": "נַהֲרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"

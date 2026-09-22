@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00722",
-	"slug": "צפת",
-	"headword": {
-		"text": "צְפַת"
-	},
+	"sefariaHeadword": "צְפַת",
+	"headwords": [
+		{
+			"text": "צְפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

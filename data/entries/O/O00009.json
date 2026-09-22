@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00009",
-	"slug": "סאוב",
-	"headword": {
-		"text": "סְאוֹב"
-	},
+	"sefariaHeadword": "סְאוֹב",
+	"headwords": [
+		{
+			"text": "סְאוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

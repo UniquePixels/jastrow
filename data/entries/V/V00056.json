@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00056",
-	"slug": "תבלא-2",
-	"headword": {
-		"text": "תַּבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּבְלָא",
+	"headwords": [
 		{
-			"text": "תִּ׳"
+			"text": "תַּבְלָא"
+		},
+		{
+			"text": "תִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1644,
 		"column": "b"

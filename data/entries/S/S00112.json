@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00112",
-	"slug": "קדד-2",
-	"headword": {
-		"text": "קְדַד"
-	},
+	"sefariaHeadword": "קְדַד",
+	"headwords": [
+		{
+			"text": "קְדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1313,
 		"column": "b"

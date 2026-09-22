@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00256",
-	"slug": "לויה-3",
-	"headword": {
-		"text": "לְוָיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָיָה",
+	"headwords": [
+		{
+			"text": "לְוָיָה"
+		},
 		{
 			"text": "לְוָיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 698,
 		"column": "a"

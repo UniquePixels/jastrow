@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00552",
-	"slug": "שורנא",
-	"headword": {
-		"text": "שׁוּרָנָא"
-	},
+	"sefariaHeadword": "שׁוּרָנָא",
+	"headwords": [
+		{
+			"text": "שׁוּרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1542,
 		"column": "b"

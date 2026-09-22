@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01283",
-	"slug": "פסיחה",
-	"headword": {
-		"text": "פְּסִיחָה"
-	},
+	"sefariaHeadword": "פְּסִיחָה",
+	"headwords": [
+		{
+			"text": "פְּסִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "a"

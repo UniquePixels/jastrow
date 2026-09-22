@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01469",
-	"slug": "איסכלוסקי",
-	"headword": {
-		"text": "איסכלוסקי"
-	},
+	"sefariaHeadword": "איסכלוסקי",
+	"headwords": [
+		{
+			"text": "איסכלוסקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"

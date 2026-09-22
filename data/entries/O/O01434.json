@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01434",
-	"slug": "ספרכיתא",
-	"headword": {
-		"text": "ספרכיתא"
-	},
+	"sefariaHeadword": "ספרכיתא",
+	"headwords": [
+		{
+			"text": "ספרכיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "b"

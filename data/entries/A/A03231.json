@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03231",
-	"slug": "ארצות",
-	"headword": {
-		"text": "אַרְצוּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַרְצוּת",
+	"headwords": [
+		{
+			"text": "אַרְצוּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

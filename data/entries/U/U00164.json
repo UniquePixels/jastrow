@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00164",
-	"slug": "שבעה",
-	"headword": {
-		"text": "שִׁבְעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבְעָה",
+	"headwords": [
+		{
+			"text": "שִׁבְעָה"
+		},
 		{
 			"text": "שִׁבְעִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1516,
 		"column": "b"

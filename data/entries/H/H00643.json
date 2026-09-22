@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00643",
-	"slug": "חטפיתא",
-	"headword": {
-		"text": "חַטְפִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַטְפִיתָא",
+	"headwords": [
 		{
-			"text": "חֲטִיפִי׳"
+			"text": "חַטְפִיתָא"
+		},
+		{
+			"text": "חֲטִיפִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 450,
 		"column": "a"

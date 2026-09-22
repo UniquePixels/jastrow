@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00030",
-	"slug": "סבב-1",
-	"headword": {
-		"text": "סָבַב"
-	},
+	"sefariaHeadword": "סָבַב",
+	"headwords": [
+		{
+			"text": "סָבַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 948,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00657",
-	"slug": "סילון-1",
-	"headword": {
-		"text": "סִילוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילוֹן",
+	"headwords": [
+		{
+			"text": "סִילוֹן"
+		},
 		{
 			"text": "סִילִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "b"

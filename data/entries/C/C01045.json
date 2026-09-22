@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01045",
-	"slug": "גמלא-5",
-	"headword": {
-		"text": "גמלא"
-	},
+	"sefariaHeadword": "גמלא",
+	"headwords": [
+		{
+			"text": "גמלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

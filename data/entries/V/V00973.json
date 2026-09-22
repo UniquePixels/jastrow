@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00973",
-	"slug": "תרטא",
-	"headword": {
-		"text": "תִּרְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּרְטָא",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּרְטָא"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1697,
 		"column": "b"

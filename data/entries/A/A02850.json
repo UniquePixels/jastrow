@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02850",
-	"slug": "אפתרין",
-	"headword": {
-		"text": "אַפְתְּרִין"
-	},
+	"sefariaHeadword": "אַפְתְּרִין",
+	"headwords": [
+		{
+			"text": "אַפְתְּרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 110,
 		"column": "a"

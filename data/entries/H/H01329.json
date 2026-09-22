@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01329",
-	"slug": "חס-2",
-	"headword": {
-		"text": "חַס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חַס ²",
+	"headwords": [
+		{
+			"text": "חַס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 485,
 		"column": "b"

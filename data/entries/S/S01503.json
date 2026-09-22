@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01503",
-	"slug": "קמתין",
-	"headword": {
-		"text": "קמתין"
-	},
+	"sefariaHeadword": "קמתין",
+	"headwords": [
+		{
+			"text": "קמתין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1387,
 		"column": "a"

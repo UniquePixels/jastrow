@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00419",
-	"slug": "כותבן",
-	"headword": {
-		"text": "כּוֹתְבָן"
-	},
+	"sefariaHeadword": "כּוֹתְבָן",
+	"headwords": [
+		{
+			"text": "כּוֹתְבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "a"

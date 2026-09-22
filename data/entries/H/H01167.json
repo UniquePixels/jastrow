@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01167",
-	"slug": "חמות",
-	"headword": {
-		"text": "חָמוֹת"
-	},
+	"sefariaHeadword": "חָמוֹת",
+	"headwords": [
+		{
+			"text": "חָמוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "b"

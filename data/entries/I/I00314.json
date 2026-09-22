@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00314",
-	"slug": "טיגנו",
-	"headword": {
-		"text": "טיגנו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טיגנו",
+	"headwords": [
+		{
+			"text": "טיגנו"
+		},
 		{
 			"text": "טִיגְנוֹן"
 		},
@@ -15,6 +16,7 @@
 			"text": "טיגס"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 530,
 		"column": "a"

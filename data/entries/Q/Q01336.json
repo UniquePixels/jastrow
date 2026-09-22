@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01336",
-	"slug": "פסלקאות",
-	"headword": {
-		"text": "פַּסְלְקָאוֹת"
-	},
+	"sefariaHeadword": "פַּסְלְקָאוֹת",
+	"headwords": [
+		{
+			"text": "פַּסְלְקָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1198,
 		"column": "b"

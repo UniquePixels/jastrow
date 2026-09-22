@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00267",
-	"slug": "רדף-2",
-	"headword": {
-		"text": "רְדַף"
-	},
+	"sefariaHeadword": "רְדַף",
+	"headwords": [
+		{
+			"text": "רְדַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1453,
 		"column": "b"

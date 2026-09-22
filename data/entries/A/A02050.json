@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02050",
-	"slug": "אמפורטור",
-	"headword": {
-		"text": "אמפורטור"
-	},
+	"sefariaHeadword": "אמפורטור",
+	"headwords": [
+		{
+			"text": "אמפורטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "a"

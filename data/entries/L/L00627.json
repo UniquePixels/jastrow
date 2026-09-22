@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00627",
-	"slug": "לפדא",
-	"headword": {
-		"text": "לַפְדָּא"
-	},
+	"sefariaHeadword": "לַפְדָּא",
+	"headwords": [
+		{
+			"text": "לַפְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

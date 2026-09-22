@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01218",
-	"slug": "שלהבא",
-	"headword": {
-		"text": "שַׁלְהֵבָא"
-	},
+	"sefariaHeadword": "שַׁלְהֵבָא",
+	"headwords": [
+		{
+			"text": "שַׁלְהֵבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1578,
 		"column": "a"

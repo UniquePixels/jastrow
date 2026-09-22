@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01095",
-	"slug": "אטלק",
-	"headword": {
-		"text": "אַטְלֵק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַטְלֵק",
+	"headwords": [
+		{
+			"text": "אַטְלֵק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 43,
 		"column": "a"

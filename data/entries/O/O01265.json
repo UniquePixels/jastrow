@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01265",
-	"slug": "סנקלרטיקוס",
-	"headword": {
-		"text": "סִנְקְלִרטִיקוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִנְקְלִרטִיקוֹס",
+	"headwords": [
 		{
-			"text": "סִינְ׳"
+			"text": "סִנְקְלִרטִיקוֹס"
+		},
+		{
+			"text": "סִינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1008,
 		"column": "b"

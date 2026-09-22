@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00587",
-	"slug": "טסא-2",
-	"headword": {
-		"text": "טַסָּא",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טַסָּא II",
+	"headwords": [
+		{
+			"text": "טַסָּא",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 541,
 		"column": "b"

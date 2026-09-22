@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01283",
-	"slug": "נשא-3",
-	"headword": {
-		"text": "נָשָׁא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "נָשָׁא III",
+	"headwords": [
+		{
+			"text": "נָשָׁא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 937,
 		"column": "b"

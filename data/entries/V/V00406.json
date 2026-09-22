@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00406",
-	"slug": "תיאקא",
-	"headword": {
-		"text": "תִּיאָקָא"
-	},
+	"sefariaHeadword": "תִּיאָקָא",
+	"headwords": [
+		{
+			"text": "תִּיאָקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

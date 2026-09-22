@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00090",
-	"slug": "שבוש",
-	"headword": {
-		"text": "שִׁבּוּשׁ"
-	},
+	"sefariaHeadword": "שִׁבּוּשׁ",
+	"headwords": [
+		{
+			"text": "שִׁבּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

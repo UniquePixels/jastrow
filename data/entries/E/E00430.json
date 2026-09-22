@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00430",
-	"slug": "הימנו-2",
-	"headword": {
-		"text": "הֵימֶנּוּ"
-	},
+	"sefariaHeadword": "הֵימֶנּוּ",
+	"headwords": [
+		{
+			"text": "הֵימֶנּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

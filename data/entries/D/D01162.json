@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01162",
-	"slug": "דתאה",
-	"headword": {
-		"text": "דִּתְאָה"
-	},
+	"sefariaHeadword": "דִּתְאָה",
+	"headwords": [
+		{
+			"text": "דִּתְאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

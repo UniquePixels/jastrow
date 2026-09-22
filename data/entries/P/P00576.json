@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00576",
-	"slug": "עילי",
-	"headword": {
-		"text": "עִילַי"
-	},
+	"sefariaHeadword": "עִילַי",
+	"headwords": [
+		{
+			"text": "עִילַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

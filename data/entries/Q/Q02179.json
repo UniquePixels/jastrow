@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02179",
-	"slug": "פתכומרין",
-	"headword": {
-		"text": "פַּתְכּוּמְרִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּתְכּוּמְרִין",
+	"headwords": [
+		{
+			"text": "פַּתְכּוּמְרִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1254,
 		"column": "b"

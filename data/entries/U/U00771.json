@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00771",
-	"slug": "שטרא-1",
-	"headword": {
-		"text": "שְׁטָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁטָרָא",
+	"headwords": [
+		{
+			"text": "שְׁטָרָא"
+		},
 		{
 			"text": "שִׁטְרָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1555,
 		"column": "b"

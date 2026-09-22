@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01215",
-	"slug": "גפרית",
-	"headword": {
-		"text": "גָּפְרִית"
-	},
+	"sefariaHeadword": "גָּפְרִית",
+	"headwords": [
+		{
+			"text": "גָּפְרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "a"

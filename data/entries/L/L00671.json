@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00671",
-	"slug": "לקושי",
-	"headword": {
-		"text": "לַקּוּשֵׁי"
-	},
+	"sefariaHeadword": "לַקּוּשֵׁי",
+	"headwords": [
+		{
+			"text": "לַקּוּשֵׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

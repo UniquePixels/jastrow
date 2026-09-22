@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00072",
-	"slug": "אבולי",
-	"headword": {
-		"text": "אבולי"
-	},
+	"sefariaHeadword": "אבולי",
+	"headwords": [
+		{
+			"text": "אבולי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

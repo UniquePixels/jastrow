@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00276",
-	"slug": "זיגותא",
-	"headword": {
-		"text": "זיגותא"
-	},
+	"sefariaHeadword": "זיגותא",
+	"headwords": [
+		{
+			"text": "זיגותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00687",
-	"slug": "סימאי",
-	"headword": {
-		"text": "סִימַאי"
-	},
+	"sefariaHeadword": "סִימַאי",
+	"headwords": [
+		{
+			"text": "סִימַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "b"

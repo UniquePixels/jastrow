@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00238",
-	"slug": "הוללה",
-	"headword": {
-		"text": "הוֹלֵלָה"
-	},
+	"sefariaHeadword": "הוֹלֵלָה",
+	"headwords": [
+		{
+			"text": "הוֹלֵלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "a"

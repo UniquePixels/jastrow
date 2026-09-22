@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01005",
-	"slug": "מטלטלא",
-	"headword": {
-		"text": "מְטַלְטְלָא"
-	},
+	"sefariaHeadword": "מְטַלְטְלָא",
+	"headwords": [
+		{
+			"text": "מְטַלְטְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "b"

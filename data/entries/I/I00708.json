@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00708",
-	"slug": "טרגיאנוס",
-	"headword": {
-		"text": "טרגיאנוס"
-	},
+	"sefariaHeadword": "טרגיאנוס",
+	"headwords": [
+		{
+			"text": "טרגיאנוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "a"

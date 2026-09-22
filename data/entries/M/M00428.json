@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00428",
-	"slug": "מוהל-1",
-	"headword": {
-		"text": "מוֹהַל"
-	},
+	"sefariaHeadword": "מוֹהַל",
+	"headwords": [
+		{
+			"text": "מוֹהַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "b"

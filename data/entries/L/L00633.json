@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00633",
-	"slug": "לפי-2",
-	"headword": {
-		"text": "לְפֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְפֵי",
+	"headwords": [
+		{
+			"text": "לְפֵי"
+		},
 		{
 			"text": "לְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 715,
 		"column": "a"

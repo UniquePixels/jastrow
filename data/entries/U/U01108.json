@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01108",
-	"slug": "שיתוף",
-	"headword": {
-		"text": "שִׁיתּוּף"
-	},
+	"sefariaHeadword": "שִׁיתּוּף",
+	"headwords": [
+		{
+			"text": "שִׁיתּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1570,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02365",
-	"slug": "אסטטיבא",
-	"headword": {
-		"text": "אִסטָטִיבָא"
-	},
+	"sefariaHeadword": "אִסטָטִיבָא",
+	"headwords": [
+		{
+			"text": "אִסטָטִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

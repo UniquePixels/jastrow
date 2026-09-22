@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00595",
-	"slug": "גחן-1",
-	"headword": {
-		"text": "גָּחַן"
-	},
+	"sefariaHeadword": "גָּחַן",
+	"headwords": [
+		{
+			"text": "גָּחַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "b"

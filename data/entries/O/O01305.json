@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01305",
-	"slug": "סערן",
-	"headword": {
-		"text": "סַעֲרָן"
-	},
+	"sefariaHeadword": "סַעֲרָן",
+	"headwords": [
+		{
+			"text": "סַעֲרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1010,
 		"column": "b"

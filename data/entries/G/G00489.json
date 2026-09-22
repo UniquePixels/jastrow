@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00489",
-	"slug": "זלח-3",
-	"headword": {
-		"text": "זֶלַח"
-	},
+	"sefariaHeadword": "זֶלַח",
+	"headwords": [
+		{
+			"text": "זֶלַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "b"

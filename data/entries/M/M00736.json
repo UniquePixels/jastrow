@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00736",
-	"slug": "מזוניתא",
-	"headword": {
-		"text": "מְזוֹנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְזוֹנִיתָא",
+	"headwords": [
+		{
+			"text": "מְזוֹנִיתָא"
+		},
 		{
 			"text": "מְזוֹנִיתָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 754,
 		"column": "b"

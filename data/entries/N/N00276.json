@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00276",
-	"slug": "נהפכנותא",
-	"headword": {
-		"text": "נֶהְפְּכָנוּתָא"
-	},
+	"sefariaHeadword": "נֶהְפְּכָנוּתָא",
+	"headwords": [
+		{
+			"text": "נֶהְפְּכָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 882,
 		"column": "a"

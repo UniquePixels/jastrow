@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00071",
-	"slug": "לביזבז",
-	"headword": {
-		"text": "לְבִיזְבֵּז"
-	},
+	"sefariaHeadword": "לְבִיזְבֵּז",
+	"headwords": [
+		{
+			"text": "לְבִיזְבֵּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

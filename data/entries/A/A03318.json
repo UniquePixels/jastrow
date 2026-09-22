@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03318",
-	"slug": "אשלגא",
-	"headword": {
-		"text": "אַשְׁלְגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁלְגָא",
+	"headwords": [
+		{
+			"text": "אַשְׁלְגָא"
+		},
 		{
 			"text": "שַׁלְגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 129,
 		"column": "a"

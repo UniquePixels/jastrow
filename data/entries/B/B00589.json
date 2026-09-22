@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00589",
-	"slug": "בייא-2",
-	"headword": {
-		"text": "בִּיָיא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיָיא II",
+	"headwords": [
+		{
+			"text": "בִּיָיא",
+			"homograph": 2
+		},
 		{
 			"text": "בִּיָיה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 160,
 		"column": "b"

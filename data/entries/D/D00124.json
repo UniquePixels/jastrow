@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00124",
-	"slug": "דד-3",
-	"headword": {
-		"text": "דַּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּד ²",
+	"headwords": [
+		{
+			"text": "דַּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "דַּדָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 280,
 		"column": "b"

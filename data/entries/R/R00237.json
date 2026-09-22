@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00237",
-	"slug": "צוק-3",
-	"headword": {
-		"text": "צוּק"
-	},
+	"sefariaHeadword": "צוּק",
+	"headwords": [
+		{
+			"text": "צוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

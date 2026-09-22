@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00803",
-	"slug": "צרפת",
-	"headword": {
-		"text": "צָרְפַת"
-	},
+	"sefariaHeadword": "צָרְפַת",
+	"headwords": [
+		{
+			"text": "צָרְפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1304,
 		"column": "b"

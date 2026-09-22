@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00626",
-	"slug": "ריחמתא",
-	"headword": {
-		"text": "רִיחֲמָתָא"
-	},
+	"sefariaHeadword": "רִיחֲמָתָא",
+	"headwords": [
+		{
+			"text": "רִיחֲמָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

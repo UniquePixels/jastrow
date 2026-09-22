@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01036",
-	"slug": "שיציו-2",
-	"headword": {
-		"text": "שֵׁיצָיוּ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שֵׁיצָיוּ II",
+	"headwords": [
+		{
+			"text": "שֵׁיצָיוּ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1567,
 		"column": "b"

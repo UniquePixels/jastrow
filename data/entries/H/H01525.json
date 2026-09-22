@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01525",
-	"slug": "חציצא-1",
-	"headword": {
-		"text": "חציצא"
-	},
+	"sefariaHeadword": "חציצא",
+	"headwords": [
+		{
+			"text": "חציצא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "b"

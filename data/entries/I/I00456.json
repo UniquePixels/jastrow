@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00456",
-	"slug": "טושא",
-	"headword": {
-		"text": "טִושָׁא"
-	},
+	"sefariaHeadword": "טִושָׁא",
+	"headwords": [
+		{
+			"text": "טִושָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

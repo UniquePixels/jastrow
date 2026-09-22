@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00930",
-	"slug": "גלי-5",
-	"headword": {
-		"text": "גֱּלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֱּלֵי",
+	"headwords": [
+		{
+			"text": "גֱּלֵי"
+		},
 		{
 			"text": "גֲּלִי"
 		},
@@ -15,6 +16,7 @@
 			"text": "גַּלְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 248,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02728",
-	"slug": "מרע-1",
-	"headword": {
-		"text": "מֵרַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵרַע",
+	"headwords": [
 		{
-			"text": "מֵי׳"
+			"text": "מֵרַע"
+		},
+		{
+			"text": "מֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 845,
 		"column": "a"

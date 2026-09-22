@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00488",
-	"slug": "טלטולא",
-	"headword": {
-		"text": "טַלְטוּלָא"
-	},
+	"sefariaHeadword": "טַלְטוּלָא",
+	"headwords": [
+		{
+			"text": "טַלְטוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 536,
 		"column": "a"

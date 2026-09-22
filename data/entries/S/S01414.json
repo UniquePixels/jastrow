@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01414",
-	"slug": "קלקילתא",
-	"headword": {
-		"text": "קִלְקֶילְתָּא"
-	},
+	"sefariaHeadword": "קִלְקֶילְתָּא",
+	"headwords": [
+		{
+			"text": "קִלְקֶילְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

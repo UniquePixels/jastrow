@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01643",
-	"slug": "איתו-2",
-	"headword": {
-		"text": "אִיתוּ"
-	},
+	"sefariaHeadword": "אִיתוּ",
+	"headwords": [
+		{
+			"text": "אִיתוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

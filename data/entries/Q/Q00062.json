@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00062",
-	"slug": "פגין",
-	"headword": {
-		"text": "פַּגִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּגִּין",
+	"headwords": [
+		{
+			"text": "פַּגִּין"
+		},
 		{
 			"text": "פַּגִּינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1133,
 		"column": "a"

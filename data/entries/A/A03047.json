@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03047",
-	"slug": "ארז-1",
-	"headword": {
-		"text": "ארז",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ארז",
+	"headwords": [
+		{
+			"text": "ארז",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

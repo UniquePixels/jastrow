@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00565",
-	"slug": "דייסקי",
-	"headword": {
-		"text": "דייסקי"
-	},
+	"sefariaHeadword": "דייסקי",
+	"headwords": [
+		{
+			"text": "דייסקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 298,
 		"column": "b"

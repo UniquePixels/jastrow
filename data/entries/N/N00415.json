@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00415",
-	"slug": "נוקשה",
-	"headword": {
-		"text": "נוּקְשֶׁה"
-	},
+	"sefariaHeadword": "נוּקְשֶׁה",
+	"headwords": [
+		{
+			"text": "נוּקְשֶׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

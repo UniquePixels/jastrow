@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00434",
-	"slug": "טירון-2",
-	"headword": {
-		"text": "טִירוֹן",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טִירוֹן II",
+	"headwords": [
+		{
+			"text": "טִירוֹן",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 534,
 		"column": "a"

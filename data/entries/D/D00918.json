@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00918",
-	"slug": "דן-2",
-	"headword": {
-		"text": "דֵּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דֵּן",
+	"headwords": [
+		{
+			"text": "דֵּן"
+		},
 		{
 			"text": "דֵּין"
 		},
@@ -15,6 +16,7 @@
 			"text": "דְּנָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 315,
 		"column": "a"

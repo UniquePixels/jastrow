@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01535",
-	"slug": "איפוטיקוס",
-	"headword": {
-		"text": "איפוטיקוס"
-	},
+	"sefariaHeadword": "איפוטיקוס",
+	"headwords": [
+		{
+			"text": "איפוטיקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

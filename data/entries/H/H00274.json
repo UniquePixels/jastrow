@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00274",
-	"slug": "חוורוור",
-	"headword": {
-		"text": "חֲוַורְוָור"
-	},
+	"sefariaHeadword": "חֲוַורְוָור",
+	"headwords": [
+		{
+			"text": "חֲוַורְוָור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

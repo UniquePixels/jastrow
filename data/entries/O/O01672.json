@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01672",
-	"slug": "סרקאה",
-	"headword": {
-		"text": "סַרְקָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְקָאָה",
+	"headwords": [
+		{
+			"text": "סַרְקָאָה"
+		},
 		{
 			"text": "סַרְקַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1030,
 		"column": "a"

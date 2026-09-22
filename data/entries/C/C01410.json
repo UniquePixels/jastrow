@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01410",
-	"slug": "גשגש",
-	"headword": {
-		"text": "גִּשְׁגֵּשׁ"
-	},
+	"sefariaHeadword": "גִּשְׁגֵּשׁ",
+	"headwords": [
+		{
+			"text": "גִּשְׁגֵּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "b"

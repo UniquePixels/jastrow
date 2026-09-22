@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02558",
-	"slug": "אסרטא",
-	"headword": {
-		"text": "אִסְרָטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְרָטָא",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְרָטָא"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 98,
 		"column": "b"

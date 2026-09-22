@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00274",
-	"slug": "זיגא",
-	"headword": {
-		"text": "זיגא"
-	},
+	"sefariaHeadword": "זיגא",
+	"headwords": [
+		{
+			"text": "זיגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "a"

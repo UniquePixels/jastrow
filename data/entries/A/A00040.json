@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00040",
-	"slug": "אבדימא",
-	"headword": {
-		"text": "אֶבְדִּימָא"
-	},
+	"sefariaHeadword": "אֶבְדִּימָא",
+	"headwords": [
+		{
+			"text": "אֶבְדִּימָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 3,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S00064",
-	"slug": "קבל-8",
-	"headword": {
-		"text": "קְבל",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְבל IV",
+	"headwords": [
+		{
+			"text": "קְבל",
+			"homograph": 4
+		},
 		{
 			"text": "קְבֵיל"
 		},
@@ -16,13 +17,16 @@
 			"text": "קְבָלָא"
 		},
 		{
-			"text": "קִבְ׳"
+			"text": "קִבְ׳",
+			"partial": true
 		},
 		{
 			"text": "קִיבְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} IV, {1}, {2}, {3}, {4}, {5} I",
 	"page": {
 		"number": 1309,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00137",
-	"slug": "בדיח",
-	"headword": {
-		"text": "בְּדִיחַ"
-	},
+	"sefariaHeadword": "בְּדִיחַ",
+	"headwords": [
+		{
+			"text": "בְּדִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "a"

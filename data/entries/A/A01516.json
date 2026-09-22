@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01516",
-	"slug": "איסרתא",
-	"headword": {
-		"text": "אֵיסַרְתָּא"
-	},
+	"sefariaHeadword": "אֵיסַרְתָּא",
+	"headwords": [
+		{
+			"text": "אֵיסַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "b"

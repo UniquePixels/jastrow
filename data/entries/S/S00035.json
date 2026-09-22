@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00035",
-	"slug": "קבול",
-	"headword": {
-		"text": "קִבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִבּוּל",
+	"headwords": [
+		{
+			"text": "קִבּוּל"
+		},
 		{
 			"text": "קִבּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1307,
 		"column": "b"

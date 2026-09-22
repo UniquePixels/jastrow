@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00817",
-	"slug": "תפי-3",
-	"headword": {
-		"text": "תָּפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּפִי",
+	"headwords": [
+		{
+			"text": "תָּפִי"
+		},
 		{
 			"text": "טָפִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1685,
 		"column": "b"

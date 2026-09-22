@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01019",
-	"slug": "תרן",
-	"headword": {
-		"text": "תֹּרֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֹּרֶן",
+	"headwords": [
+		{
+			"text": "תֹּרֶן"
+		},
 		{
 			"text": "תָּרְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1700,
 		"column": "a"

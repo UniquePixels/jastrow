@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00700",
-	"slug": "ביר-2",
-	"headword": {
-		"text": "בֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּיר",
+	"headwords": [
+		{
+			"text": "בֵּיר"
+		},
 		{
 			"text": "בֵּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 165,
 		"column": "a"

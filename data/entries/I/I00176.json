@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00176",
-	"slug": "טומאה-2",
-	"headword": {
-		"text": "טוּמְאָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "טוּמְאָה ²",
+	"headwords": [
+		{
+			"text": "טוּמְאָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 524,
 		"column": "a"

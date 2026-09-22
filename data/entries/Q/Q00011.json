@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00011",
-	"slug": "פאטי",
-	"headword": {
-		"text": "פָּאטִי"
-	},
+	"sefariaHeadword": "פָּאטִי",
+	"headwords": [
+		{
+			"text": "פָּאטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "a"

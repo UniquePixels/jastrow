@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01243",
-	"slug": "ערב-2",
-	"headword": {
-		"text": "עֲרַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרַב",
+	"headwords": [
+		{
+			"text": "עֲרַב"
+		},
 		{
 			"text": "עֲרֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1110,
 		"column": "a"

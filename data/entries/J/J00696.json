@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00696",
-	"slug": "ישן-1",
-	"headword": {
-		"text": "יָשֵׁן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יָשֵׁן I",
+	"headwords": [
+		{
+			"text": "יָשֵׁן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 601,
 		"column": "a"

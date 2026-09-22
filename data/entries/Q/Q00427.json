@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00427",
-	"slug": "פזיזותא",
-	"headword": {
-		"text": "פְּזִיזוּתָא"
-	},
+	"sefariaHeadword": "פְּזִיזוּתָא",
+	"headwords": [
+		{
+			"text": "פְּזִיזוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "a"

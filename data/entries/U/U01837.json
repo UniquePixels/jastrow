@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01837",
-	"slug": "שקועה",
-	"headword": {
-		"text": "שְׁקוּעָה"
-	},
+	"sefariaHeadword": "שְׁקוּעָה",
+	"headwords": [
+		{
+			"text": "שְׁקוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1621,
 		"column": "b"

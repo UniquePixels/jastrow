@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00354",
-	"slug": "כופרנא",
-	"headword": {
-		"text": "כּוּפְרָנָא"
-	},
+	"sefariaHeadword": "כּוּפְרָנָא",
+	"headwords": [
+		{
+			"text": "כּוּפְרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "b"

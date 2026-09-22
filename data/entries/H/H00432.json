@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00432",
-	"slug": "חוצה-1",
-	"headword": {
-		"text": "חוּצָה"
-	},
+	"sefariaHeadword": "חוּצָה",
+	"headwords": [
+		{
+			"text": "חוּצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 438,
 		"column": "a"

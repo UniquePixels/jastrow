@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00717",
-	"slug": "דיקלאי",
-	"headword": {
-		"text": "דיקלאי"
-	},
+	"sefariaHeadword": "דיקלאי",
+	"headwords": [
+		{
+			"text": "דיקלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00085",
-	"slug": "שבוקא-2",
-	"headword": {
-		"text": "שִׁבּוּקָא"
-	},
+	"sefariaHeadword": "שִׁבּוּקָא",
+	"headwords": [
+		{
+			"text": "שִׁבּוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

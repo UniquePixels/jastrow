@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01295",
-	"slug": "ברכר",
-	"headword": {
-		"text": "ברכר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ברכר",
+	"headwords": [
+		{
+			"text": "ברכר"
+		},
 		{
 			"text": "ברכרה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 196,
 		"column": "a"

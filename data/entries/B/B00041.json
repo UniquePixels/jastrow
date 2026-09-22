@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00041",
-	"slug": "באר-1",
-	"headword": {
-		"text": "בָּאַר"
-	},
+	"sefariaHeadword": "בָּאַר",
+	"headwords": [
+		{
+			"text": "בָּאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "b"
@@ -19,7 +23,7 @@
 			"label": "1"
 		},
 		{
-			"gloss": "<i>to be open, clear.—Pi</i>. <he>בֵּאֵר</he> (b. h.) <i>to proclaim</i> (cmp. ",
+			"gloss": "<i>to be open, clear.—Pi</i>. <he>בֵּאֵר</he> (b. h.) <i>to proclaim</i> (cmp. ",
 			"units": [
 				"<cite ref=\"Deuteronomy 1:5\">Deut. I, 5</cite>), <i>to explain; to make clear</i> (<i>to one’s self</i>), <i>to understand clearly</i>. ",
 				"<cite ref=\"Jerusalem Talmud Moed Katan 3:7:5\">Y. M. Kat. III, 83ᵇ</cite> top <he>לבָאֵר משנתו</he> to explain (argue on) what he has learned. ",

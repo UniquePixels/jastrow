@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00185",
-	"slug": "רגיא",
-	"headword": {
-		"text": "רִגְיָא"
-	},
+	"sefariaHeadword": "רִגְיָא",
+	"headwords": [
+		{
+			"text": "רִגְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1448,
 		"column": "a"

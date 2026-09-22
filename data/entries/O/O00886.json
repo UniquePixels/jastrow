@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00886",
-	"slug": "סכוס",
-	"headword": {
-		"text": "סכוס"
-	},
+	"sefariaHeadword": "סכוס",
+	"headwords": [
+		{
+			"text": "סכוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

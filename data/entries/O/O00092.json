@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00092",
-	"slug": "סברונא",
-	"headword": {
-		"text": "סִבְרוֹנָא"
-	},
+	"sefariaHeadword": "סִבְרוֹנָא",
+	"headwords": [
+		{
+			"text": "סִבְרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "a"

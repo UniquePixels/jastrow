@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01117",
-	"slug": "פלפל-4",
-	"headword": {
-		"text": "פִּלְפָּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלְפָּל",
+	"headwords": [
 		{
-			"text": "פִּילְ׳"
+			"text": "פִּלְפָּל"
+		},
+		{
+			"text": "פִּילְ׳",
+			"partial": true
 		},
 		{
 			"text": "פִּלְפֶּלֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1184,
 		"column": "b"

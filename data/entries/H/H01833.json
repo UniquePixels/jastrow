@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01833",
-	"slug": "חשיד",
-	"headword": {
-		"text": "חֲשִׁיד"
-	},
+	"sefariaHeadword": "חֲשִׁיד",
+	"headwords": [
+		{
+			"text": "חֲשִׁיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

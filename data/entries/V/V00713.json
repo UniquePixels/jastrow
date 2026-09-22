@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00713",
-	"slug": "תמרנה",
-	"headword": {
-		"text": "תמרנה"
-	},
+	"sefariaHeadword": "תמרנה",
+	"headwords": [
+		{
+			"text": "תמרנה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "b"

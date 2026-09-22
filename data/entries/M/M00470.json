@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00470",
-	"slug": "מוך-1",
-	"headword": {
-		"text": "מוּךְ"
-	},
+	"sefariaHeadword": "מוּךְ",
+	"headwords": [
+		{
+			"text": "מוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "a"

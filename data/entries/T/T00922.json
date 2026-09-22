@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00922",
-	"slug": "רערע-3",
-	"headword": {
-		"text": "רִעְרֵעַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רִעְרֵעַ II",
+	"headwords": [
+		{
+			"text": "רִעְרֵעַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1489,
 		"column": "a"

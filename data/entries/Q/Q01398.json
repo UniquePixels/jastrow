@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01398",
-	"slug": "פפא-1",
-	"headword": {
-		"text": "פַּפָּא"
-	},
+	"sefariaHeadword": "פַּפָּא",
+	"headwords": [
+		{
+			"text": "פַּפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "b"

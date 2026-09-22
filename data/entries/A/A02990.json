@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02990",
-	"slug": "ארגירא",
-	"headword": {
-		"text": "אַרְגִּירָא"
-	},
+	"sefariaHeadword": "אַרְגִּירָא",
+	"headwords": [
+		{
+			"text": "אַרְגִּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01296",
-	"slug": "כשב",
-	"headword": {
-		"text": "כֶּשֶׂב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֶּשֶׂב",
+	"headwords": [
+		{
+			"text": "כֶּשֶׂב"
+		},
 		{
 			"text": "כִּשְׂבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 675,
 		"column": "a"

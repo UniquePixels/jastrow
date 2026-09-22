@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00969",
-	"slug": "גלמוד",
-	"headword": {
-		"text": "גַּלְמוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְמוּד",
+	"headwords": [
+		{
+			"text": "גַּלְמוּד"
+		},
 		{
 			"text": "גַּלְמוּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 250,
 		"column": "a"

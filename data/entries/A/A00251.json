@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00251",
-	"slug": "אגדיקוס",
-	"headword": {
-		"text": "אֶגְדִּיקוֹס"
-	},
+	"sefariaHeadword": "אֶגְדִּיקוֹס",
+	"headwords": [
+		{
+			"text": "אֶגְדִּיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02712",
-	"slug": "מרמוטא",
-	"headword": {
-		"text": "מרמוטא"
-	},
+	"sefariaHeadword": "מרמוטא",
+	"headwords": [
+		{
+			"text": "מרמוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00989",
-	"slug": "קילקי-2",
-	"headword": {
-		"text": "קִילְקֵי"
-	},
+	"sefariaHeadword": "קִילְקֵי",
+	"headwords": [
+		{
+			"text": "קִילְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1361,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00158",
-	"slug": "מגילה",
-	"headword": {
-		"text": "מְגִילָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגִילָּה",
+	"headwords": [
+		{
+			"text": "מְגִילָּה"
+		},
 		{
 			"text": "מְגִילְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 727,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00883",
-	"slug": "עמיטתא",
-	"headword": {
-		"text": "עֲמִיטְתָא"
-	},
+	"sefariaHeadword": "עֲמִיטְתָא",
+	"headwords": [
+		{
+			"text": "עֲמִיטְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "a"

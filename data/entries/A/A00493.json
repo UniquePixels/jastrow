@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00493",
-	"slug": "אהיל-1",
-	"headword": {
-		"text": "אָהִיל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אָהִיל",
+	"headwords": [
+		{
+			"text": "אָהִיל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 19,
 		"column": "b"

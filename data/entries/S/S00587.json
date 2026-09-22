@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00587",
-	"slug": "קורה-4",
-	"headword": {
-		"text": "קוֹרָה",
-		"homograph": 4
-	},
+	"sefariaHeadword": "קוֹרָה IV",
+	"headwords": [
+		{
+			"text": "קוֹרָה",
+			"homograph": 4
+		}
+	],
+	"display": "{0} IV",
 	"page": {
 		"number": 1342,
 		"column": "a"

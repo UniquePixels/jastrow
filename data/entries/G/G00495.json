@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00495",
-	"slug": "זלילה",
-	"headword": {
-		"text": "זְלִילָה"
-	},
+	"sefariaHeadword": "זְלִילָה",
+	"headwords": [
+		{
+			"text": "זְלִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "b"

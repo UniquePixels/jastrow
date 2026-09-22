@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01641",
-	"slug": "סרמיטין",
-	"headword": {
-		"text": "סַרְמִיטִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַרְמִיטִין",
+	"headwords": [
+		{
+			"text": "סַרְמִיטִין"
+		},
 		{
 			"text": "סַרְמִיסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1028,
 		"column": "a"

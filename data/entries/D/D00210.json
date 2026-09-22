@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00210",
-	"slug": "דוודא",
-	"headword": {
-		"text": "דֵּוָודָא"
-	},
+	"sefariaHeadword": "דֵּוָודָא",
+	"headwords": [
+		{
+			"text": "דֵּוָודָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

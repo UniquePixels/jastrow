@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00665",
-	"slug": "קושטנטינא",
-	"headword": {
-		"text": "קוּשְׁטַנְטִינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּשְׁטַנְטִינָא",
+	"headwords": [
+		{
+			"text": "קוּשְׁטַנְטִינָא"
+		},
 		{
 			"text": "קוּשְׁטַנְטִינֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1344,
 		"column": "b"

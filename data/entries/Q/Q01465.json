@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01465",
-	"slug": "פקוסנא",
-	"headword": {
-		"text": "פְּקוּסְנָא"
-	},
+	"sefariaHeadword": "פְּקוּסְנָא",
+	"headwords": [
+		{
+			"text": "פְּקוּסְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

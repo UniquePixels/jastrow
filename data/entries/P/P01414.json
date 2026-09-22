@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01414",
-	"slug": "ערעין",
-	"headword": {
-		"text": "עֲרָעִין"
-	},
+	"sefariaHeadword": "עֲרָעִין",
+	"headwords": [
+		{
+			"text": "עֲרָעִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1121,
 		"column": "b"

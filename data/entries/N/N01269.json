@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01269",
-	"slug": "נרוס",
-	"headword": {
-		"text": "נָרוּס"
-	},
+	"sefariaHeadword": "נָרוּס",
+	"headwords": [
+		{
+			"text": "נָרוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"

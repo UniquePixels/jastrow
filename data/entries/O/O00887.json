@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00887",
-	"slug": "סכוף",
-	"headword": {
-		"text": "סִכּוּף"
-	},
+	"sefariaHeadword": "סִכּוּף",
+	"headwords": [
+		{
+			"text": "סִכּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 989,
 		"column": "a"

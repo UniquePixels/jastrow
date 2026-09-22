@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00538",
-	"slug": "נחתומר",
-	"headword": {
-		"text": "נַחְתּוֹמַר"
-	},
+	"sefariaHeadword": "נַחְתּוֹמַר",
+	"headwords": [
+		{
+			"text": "נַחְתּוֹמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

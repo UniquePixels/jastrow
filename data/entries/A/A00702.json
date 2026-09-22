@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00702",
-	"slug": "אומן-4",
-	"headword": {
-		"text": "אוּמַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּמַן",
+	"headwords": [
+		{
+			"text": "אוּמַן"
+		},
 		{
 			"text": "אוּמָנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אוּמָנָה"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 27,
 		"column": "a"

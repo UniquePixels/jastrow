@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00283",
-	"slug": "צחצח-1",
-	"headword": {
-		"text": "צִחְצֵחַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צִחְצֵחַ I",
+	"headwords": [
+		{
+			"text": "צִחְצֵחַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1273,
 		"column": "b"

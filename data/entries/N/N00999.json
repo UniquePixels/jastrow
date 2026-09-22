@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00999",
-	"slug": "נענוע",
-	"headword": {
-		"text": "נִעֲנוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִעֲנוּעַ",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִעֲנוּעַ"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 921,
 		"column": "a"

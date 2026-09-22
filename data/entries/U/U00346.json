@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00346",
-	"slug": "שווח-4",
-	"headword": {
-		"text": "שַׁוַּוח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁוַּוח",
+	"headwords": [
+		{
+			"text": "שַׁוַּוח"
+		},
 		{
 			"text": "שַׁוַּח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1530,
 		"column": "a"

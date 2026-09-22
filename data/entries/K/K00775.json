@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00775",
-	"slug": "כלפי",
-	"headword": {
-		"text": "כְּלַפֵּי"
-	},
+	"sefariaHeadword": "כְּלַפֵּי",
+	"headwords": [
+		{
+			"text": "כְּלַפֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

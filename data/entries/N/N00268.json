@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00268",
-	"slug": "נהירא",
-	"headword": {
-		"text": "נְהִירָא"
-	},
+	"sefariaHeadword": "נְהִירָא",
+	"headwords": [
+		{
+			"text": "נְהִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

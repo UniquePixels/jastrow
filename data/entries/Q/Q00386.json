@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00386",
-	"slug": "פורצמא",
-	"headword": {
-		"text": "פּוּרְצְמָא"
-	},
+	"sefariaHeadword": "פּוּרְצְמָא",
+	"headwords": [
+		{
+			"text": "פּוּרְצְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1148,
 		"column": "b"

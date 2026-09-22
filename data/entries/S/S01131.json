@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01131",
-	"slug": "קיצוצותא",
-	"headword": {
-		"text": "קִיצוּצְוָתָא"
-	},
+	"sefariaHeadword": "קִיצוּצְוָתָא",
+	"headwords": [
+		{
+			"text": "קִיצוּצְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00054",
-	"slug": "גבויין",
-	"headword": {
-		"text": "גַּבּוֹיִין"
-	},
+	"sefariaHeadword": "גַּבּוֹיִין",
+	"headwords": [
+		{
+			"text": "גַּבּוֹיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 204,
 		"column": "b"

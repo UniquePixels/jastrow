@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00336",
-	"slug": "יינובריס",
-	"headword": {
-		"text": "יָינוּבְרִיס"
-	},
+	"sefariaHeadword": "יָינוּבְרִיס",
+	"headwords": [
+		{
+			"text": "יָינוּבְרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

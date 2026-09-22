@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01872",
-	"slug": "חתוי",
-	"headword": {
-		"text": "חִתּוּי"
-	},
+	"sefariaHeadword": "חִתּוּי",
+	"headwords": [
+		{
+			"text": "חִתּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "a"

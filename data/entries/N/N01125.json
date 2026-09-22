@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01125",
-	"slug": "נציב-4",
-	"headword": {
-		"text": "נְצִיב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְצִיב ²",
+	"headwords": [
+		{
+			"text": "נְצִיב",
+			"disambiguator": 2
+		},
 		{
 			"text": "נְצִיבָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 929,
 		"column": "a"

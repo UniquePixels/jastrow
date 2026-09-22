@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00796",
-	"slug": "נישואין-2",
-	"headword": {
-		"text": "נִישּׂוּאִין",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נִישּׂוּאִין ²",
+	"headwords": [
+		{
+			"text": "נִישּׂוּאִין",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 909,
 		"column": "b"

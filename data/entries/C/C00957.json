@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00957",
-	"slug": "גלית",
-	"headword": {
-		"text": "גָּלְיַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּלְיַת",
+	"headwords": [
+		{
+			"text": "גָּלְיַת"
+		},
 		{
 			"text": "גּוֹלְיַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 249,
 		"column": "b"

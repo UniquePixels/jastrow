@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00739",
-	"slug": "מזופיתא-2",
-	"headword": {
-		"text": "מַזּוֹפִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַזּוֹפִיתָא",
+	"headwords": [
+		{
+			"text": "מַזּוֹפִיתָא"
+		},
 		{
 			"text": "מְזוֹפִיתָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 754,
 		"column": "b"

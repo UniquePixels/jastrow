@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03386",
-	"slug": "אשתסר",
-	"headword": {
-		"text": "אֶשְׁתְּסַר"
-	},
+	"sefariaHeadword": "אֶשְׁתְּסַר",
+	"headwords": [
+		{
+			"text": "אֶשְׁתְּסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "b"

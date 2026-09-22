@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01207",
-	"slug": "גפסים",
-	"headword": {
-		"text": "גִּפְסִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּפְסִים",
+	"headwords": [
+		{
+			"text": "גִּפְסִים"
+		},
 		{
 			"text": "גִּיפְסִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 262,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00930",
-	"slug": "במרזה",
-	"headword": {
-		"text": "במרזה"
-	},
+	"sefariaHeadword": "במרזה",
+	"headwords": [
+		{
+			"text": "במרזה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

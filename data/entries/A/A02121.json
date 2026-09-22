@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02121",
-	"slug": "אנדרוגינוס",
-	"headword": {
-		"text": "אַנְדְּרוֹגִינוֹס"
-	},
+	"sefariaHeadword": "אַנְדְּרוֹגִינוֹס",
+	"headwords": [
+		{
+			"text": "אַנְדְּרוֹגִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

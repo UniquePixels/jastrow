@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00736",
-	"slug": "ניפל",
-	"headword": {
-		"text": "נֵיפֶל"
-	},
+	"sefariaHeadword": "נֵיפֶל",
+	"headwords": [
+		{
+			"text": "נֵיפֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

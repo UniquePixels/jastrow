@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00034",
-	"slug": "דב-2",
-	"headword": {
-		"text": "דֵּב"
-	},
+	"sefariaHeadword": "דֵּב",
+	"headwords": [
+		{
+			"text": "דֵּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

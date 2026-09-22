@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "U00969",
-	"slug": "שינא-1",
-	"headword": {
-		"text": "שֵׁינָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*שֵׁינָא I",
+	"headwords": [
+		{
+			"text": "שֵׁינָא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1564,
 		"column": "a"

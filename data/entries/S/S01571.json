@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01571",
-	"slug": "קניבה-1",
-	"headword": {
-		"text": "קְנִיבָה"
-	},
+	"sefariaHeadword": "קְנִיבָה",
+	"headwords": [
+		{
+			"text": "קְנִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "a"

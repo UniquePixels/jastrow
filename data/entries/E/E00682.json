@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00682",
-	"slug": "הניץ",
-	"headword": {
-		"text": "הַנֵּיץ"
-	},
+	"sefariaHeadword": "הַנֵּיץ",
+	"headwords": [
+		{
+			"text": "הַנֵּיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 358,
 		"column": "b"

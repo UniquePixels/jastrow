@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "J00432",
-	"slug": "ינוקא-2",
-	"headword": {
-		"text": "יָנוּקָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָנוּקָא II",
+	"headwords": [
 		{
-			"text": "מַר יָנוּקָא"
+			"text": "יָנוּקָא",
+			"homograph": 2
+		},
+		{
+			"text": "מַר י׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 581,
 		"column": "a"

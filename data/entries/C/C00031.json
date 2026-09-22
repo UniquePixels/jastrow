@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00031",
-	"slug": "גב-3",
-	"headword": {
-		"text": "גַּב"
-	},
+	"sefariaHeadword": "גַּב",
+	"headwords": [
+		{
+			"text": "גַּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "a"

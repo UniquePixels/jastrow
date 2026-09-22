@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01188",
-	"slug": "שכרא-1",
-	"headword": {
-		"text": "שִׁכְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁכְרָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁכְרָא"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1576,
 		"column": "b"

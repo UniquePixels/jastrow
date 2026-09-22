@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00474",
-	"slug": "שוסתג",
-	"headword": {
-		"text": "שׁוּסְתָּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּסְתָּג",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שׁוּסְתָּג"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1537,
 		"column": "b"

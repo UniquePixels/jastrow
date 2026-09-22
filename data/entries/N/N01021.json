@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01021",
-	"slug": "נפול",
-	"headword": {
-		"text": "נִפּוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִפּוֹל",
+	"headwords": [
+		{
+			"text": "נִפּוֹל"
+		},
 		{
 			"text": "נִפּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 922,
 		"column": "a"

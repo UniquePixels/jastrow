@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00201",
-	"slug": "דודורין",
-	"headword": {
-		"text": "דודורין"
-	},
+	"sefariaHeadword": "דודורין",
+	"headwords": [
+		{
+			"text": "דודורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

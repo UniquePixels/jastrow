@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00191",
-	"slug": "כובס",
-	"headword": {
-		"text": "כּוֹבֵס"
-	},
+	"sefariaHeadword": "כּוֹבֵס",
+	"headwords": [
+		{
+			"text": "כּוֹבֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

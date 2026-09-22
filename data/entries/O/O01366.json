@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01366",
-	"slug": "ספיקה-1",
-	"headword": {
-		"text": "סְפֵיקָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סְפֵיקָה I",
+	"headwords": [
+		{
+			"text": "סְפֵיקָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1013,
 		"column": "b"

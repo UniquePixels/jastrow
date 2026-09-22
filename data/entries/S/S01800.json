@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01800",
-	"slug": "קצורא",
-	"headword": {
-		"text": "קְצוֹרָא"
-	},
+	"sefariaHeadword": "קְצוֹרָא",
+	"headwords": [
+		{
+			"text": "קְצוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

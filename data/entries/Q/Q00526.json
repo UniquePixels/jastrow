@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00526",
-	"slug": "פטירתא-1",
-	"headword": {
-		"text": "פַּטִּירְתָּא"
-	},
+	"sefariaHeadword": "פַּטִּירְתָּא",
+	"headwords": [
+		{
+			"text": "פַּטִּירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

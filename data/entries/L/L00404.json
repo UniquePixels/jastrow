@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "L00404",
-	"slug": "ליאו",
-	"headword": {
-		"text": "לֵיאוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵיאוּ",
+	"headwords": [
+		{
+			"text": "לֵיאוּ"
+		},
 		{
 			"text": "לֵיאוּתָא"
 		},
 		{
-			"text": "לֵיע׳"
+			"text": "לֵיע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 705,
 		"column": "b"

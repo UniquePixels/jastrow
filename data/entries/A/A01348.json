@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01348",
-	"slug": "אימר-1",
-	"headword": {
-		"text": "אֵימַר"
-	},
+	"sefariaHeadword": "אֵימַר",
+	"headwords": [
+		{
+			"text": "אֵימַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"

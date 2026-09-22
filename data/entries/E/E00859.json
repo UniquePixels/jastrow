@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00859",
-	"slug": "הריגה",
-	"headword": {
-		"text": "הֲרִיגָה"
-	},
+	"sefariaHeadword": "הֲרִיגָה",
+	"headwords": [
+		{
+			"text": "הֲרִיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

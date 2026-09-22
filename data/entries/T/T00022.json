@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00022",
-	"slug": "ראם-1",
-	"headword": {
-		"text": "רְאֵם"
-	},
+	"sefariaHeadword": "רְאֵם",
+	"headwords": [
+		{
+			"text": "רְאֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1437,
 		"column": "a"

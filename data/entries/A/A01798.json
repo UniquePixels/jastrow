@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01798",
-	"slug": "אלוה-2",
-	"headword": {
-		"text": "אֱלוֹהַּ"
-	},
+	"sefariaHeadword": "אֱלוֹהַּ",
+	"headwords": [
+		{
+			"text": "אֱלוֹהַּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "a"

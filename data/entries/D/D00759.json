@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00759",
-	"slug": "דכדוך",
-	"headword": {
-		"text": "דִּכְדּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכְדּוּךְ",
+	"headwords": [
 		{
-			"text": "דִּיכְ׳"
+			"text": "דִּכְדּוּךְ"
+		},
+		{
+			"text": "דִּיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01143",
-	"slug": "נצר-2",
-	"headword": {
-		"text": "נְצַר"
-	},
+	"sefariaHeadword": "נְצַר",
+	"headwords": [
+		{
+			"text": "נְצַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 930,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00092",
-	"slug": "בגרות",
-	"headword": {
-		"text": "בַּגְרוּת"
-	},
+	"sefariaHeadword": "בַּגְרוּת",
+	"headwords": [
+		{
+			"text": "בַּגְרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "a"

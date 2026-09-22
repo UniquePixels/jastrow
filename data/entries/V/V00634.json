@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00634",
-	"slug": "תלתי",
-	"headword": {
-		"text": "תִּלְתָּי"
-	},
+	"sefariaHeadword": "תִּלְתָּי",
+	"headwords": [
+		{
+			"text": "תִּלְתָּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "b"

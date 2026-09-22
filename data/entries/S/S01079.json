@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01079",
-	"slug": "קיספורון",
-	"headword": {
-		"text": "קיספורון"
-	},
+	"sefariaHeadword": "קיספורון",
+	"headwords": [
+		{
+			"text": "קיספורון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

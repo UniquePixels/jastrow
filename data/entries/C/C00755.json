@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00755",
-	"slug": "גינדרונא",
-	"headword": {
-		"text": "גּינדרונא"
-	},
+	"sefariaHeadword": "גּינדרונא",
+	"headwords": [
+		{
+			"text": "גּינדרונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

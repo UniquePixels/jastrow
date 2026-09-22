@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00167",
-	"slug": "הדרס",
-	"headword": {
-		"text": "הַדְּרֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַדְּרֵס",
+	"headwords": [
+		{
+			"text": "הַדְּרֵס"
+		},
 		{
 			"text": "הַדְּרֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 335,
 		"column": "b"

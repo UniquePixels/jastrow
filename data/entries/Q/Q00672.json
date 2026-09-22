@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00672",
-	"slug": "פילה",
-	"headword": {
-		"text": "פילה"
-	},
+	"sefariaHeadword": "פילה",
+	"headwords": [
+		{
+			"text": "פילה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "b"

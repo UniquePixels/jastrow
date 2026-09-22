@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00972",
-	"slug": "סלוקתי",
-	"headword": {
-		"text": "סלוקתי"
-	},
+	"sefariaHeadword": "סלוקתי",
+	"headwords": [
+		{
+			"text": "סלוקתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

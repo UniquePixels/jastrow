@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01953",
-	"slug": "שרטוט",
-	"headword": {
-		"text": "שִׁרְטוּט"
-	},
+	"sefariaHeadword": "שִׁרְטוּט",
+	"headwords": [
+		{
+			"text": "שִׁרְטוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

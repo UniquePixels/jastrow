@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00147",
-	"slug": "צוא",
-	"headword": {
-		"text": "צְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְוָא",
+	"headwords": [
+		{
+			"text": "צְוָא"
+		},
 		{
 			"text": "צְוָוא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1265,
 		"column": "a"

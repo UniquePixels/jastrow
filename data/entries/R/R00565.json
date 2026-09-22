@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00565",
-	"slug": "צמח-1",
-	"headword": {
-		"text": "צָמַח"
-	},
+	"sefariaHeadword": "צָמַח",
+	"headwords": [
+		{
+			"text": "צָמַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1287,
 		"column": "a"

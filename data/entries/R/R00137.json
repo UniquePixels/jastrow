@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00137",
-	"slug": "צהיבה",
-	"headword": {
-		"text": "צְהִיבָה"
-	},
+	"sefariaHeadword": "צְהִיבָה",
+	"headwords": [
+		{
+			"text": "צְהִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

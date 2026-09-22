@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02106",
-	"slug": "קרנונא",
-	"headword": {
-		"text": "קַרְנוּנָא"
-	},
+	"sefariaHeadword": "קַרְנוּנָא",
+	"headwords": [
+		{
+			"text": "קַרְנוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1423,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00207",
-	"slug": "הודו-2",
-	"headword": {
-		"text": "הוֹדוּ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הוֹדוּ II",
+	"headwords": [
+		{
+			"text": "הוֹדוּ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 337,
 		"column": "b"

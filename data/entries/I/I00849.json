@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00849",
-	"slug": "טרסי-1",
-	"headword": {
-		"text": "טַרְסִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טַרְסִי I",
+	"headwords": [
+		{
+			"text": "טַרְסִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 555,
 		"column": "b"

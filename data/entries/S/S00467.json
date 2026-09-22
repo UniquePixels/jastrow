@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00467",
-	"slug": "קוסטינר",
-	"headword": {
-		"text": "קוּסְטִינָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּסְטִינָר",
+	"headwords": [
+		{
+			"text": "קוּסְטִינָר"
+		},
 		{
 			"text": "קוּסְטְנָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1336,
 		"column": "b"

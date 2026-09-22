@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00245",
-	"slug": "תוספאה",
-	"headword": {
-		"text": "תּוֹסְפָאָה"
-	},
+	"sefariaHeadword": "תּוֹסְפָאָה",
+	"headwords": [
+		{
+			"text": "תּוֹסְפָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "b"

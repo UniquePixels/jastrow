@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00300",
-	"slug": "אגיש",
-	"headword": {
-		"text": "אגיש"
-	},
+	"sefariaHeadword": "אגיש",
+	"headwords": [
+		{
+			"text": "אגיש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

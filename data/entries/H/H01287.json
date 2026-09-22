@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01287",
-	"slug": "חניך-2",
-	"headword": {
-		"text": "חַנִּיךְ"
-	},
+	"sefariaHeadword": "חַנִּיךְ",
+	"headwords": [
+		{
+			"text": "חַנִּיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "a"

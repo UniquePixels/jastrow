@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00510",
-	"slug": "טלל-4",
-	"headword": {
-		"text": "טְלַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טְלַל II",
+	"headwords": [
+		{
+			"text": "טְלַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 537,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01520",
-	"slug": "קנב-1",
-	"headword": {
-		"text": "קָנב"
-	},
+	"sefariaHeadword": "קָנב",
+	"headwords": [
+		{
+			"text": "קָנב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "a"

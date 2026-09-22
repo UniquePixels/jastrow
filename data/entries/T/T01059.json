@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01059",
-	"slug": "ררב",
-	"headword": {
-		"text": "רְרַב"
-	},
+	"sefariaHeadword": "רְרַב",
+	"headwords": [
+		{
+			"text": "רְרַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

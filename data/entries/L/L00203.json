@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00203",
-	"slug": "לודנין",
-	"headword": {
-		"text": "לוּדָנִין"
-	},
+	"sefariaHeadword": "לוּדָנִין",
+	"headwords": [
+		{
+			"text": "לוּדָנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

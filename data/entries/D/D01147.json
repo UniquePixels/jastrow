@@ -1,16 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D01147",
-	"slug": "דשן-1",
-	"headword": {
-		"text": "דָּשֵׁן"
-	},
+	"sefariaHeadword": "דָּשֵׁן",
+	"headwords": [
+		{
+			"text": "דָּשֵׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": "(b. h.; cmp. <he>דֶּשֶׁא</he>)<i>to be moist, sappy, fat</i>.",
+			"gloss": "(b. h.; cmp. <he>דֶּשֶׁא</he>)<i>to be moist, sappy, fat</i>.",
 			"units": []
 		}
 	],

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00020",
-	"slug": "נאלא-1",
-	"headword": {
-		"text": "נָאלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָאלָא I",
+	"headwords": [
+		{
+			"text": "נָאלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 866,
 		"column": "a"

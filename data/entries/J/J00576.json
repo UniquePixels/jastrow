@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00576",
-	"slug": "יקירו",
-	"headword": {
-		"text": "יַקִּירוּ"
-	},
+	"sefariaHeadword": "יַקִּירוּ",
+	"headwords": [
+		{
+			"text": "יַקִּירוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 592,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02308",
-	"slug": "אנתו",
-	"headword": {
-		"text": "אִנְתּוּ"
-	},
+	"sefariaHeadword": "אִנְתּוּ",
+	"headwords": [
+		{
+			"text": "אִנְתּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

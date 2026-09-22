@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00514",
-	"slug": "גז-2",
-	"headword": {
-		"text": "גַּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּז",
+	"headwords": [
+		{
+			"text": "גַּז"
+		},
 		{
 			"text": "גַּס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 228,
 		"column": "a"

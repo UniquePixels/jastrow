@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01083",
-	"slug": "אטימיטון",
-	"headword": {
-		"text": "אֲטִימִיטוֹן"
-	},
+	"sefariaHeadword": "אֲטִימִיטוֹן",
+	"headwords": [
+		{
+			"text": "אֲטִימִיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 42,
 		"column": "b"

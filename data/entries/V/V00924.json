@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00924",
-	"slug": "תרבו",
-	"headword": {
-		"text": "תַּרְבּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּרְבּוּ",
+	"headwords": [
 		{
-			"text": "בֵּי תַ׳"
+			"text": "תַּרְבּוּ"
+		},
+		{
+			"text": "בֵּי תַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1694,
 		"column": "b"

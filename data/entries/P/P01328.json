@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01328",
-	"slug": "ערומה",
-	"headword": {
-		"text": "עֲרוּמָּה"
-	},
+	"sefariaHeadword": "עֲרוּמָּה",
+	"headwords": [
+		{
+			"text": "עֲרוּמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "b"

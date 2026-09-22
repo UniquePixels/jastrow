@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00023",
-	"slug": "הב",
-	"headword": {
-		"text": "הַב"
-	},
+	"sefariaHeadword": "הַב",
+	"headwords": [
+		{
+			"text": "הַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "b"

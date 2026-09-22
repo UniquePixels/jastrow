@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01827",
-	"slug": "אלות",
-	"headword": {
-		"text": "אלות"
-	},
+	"sefariaHeadword": "אלות",
+	"headwords": [
+		{
+			"text": "אלות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01726",
-	"slug": "אכסיטורין",
-	"headword": {
-		"text": "אכסיטורין"
-	},
+	"sefariaHeadword": "אכסיטורין",
+	"headwords": [
+		{
+			"text": "אכסיטורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "b"

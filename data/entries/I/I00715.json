@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00715",
-	"slug": "טרדא",
-	"headword": {
-		"text": "טִרְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִרְדָּא",
+	"headwords": [
 		{
-			"text": "טִירְ׳"
+			"text": "טִרְדָּא"
+		},
+		{
+			"text": "טִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 550,
 		"column": "b"

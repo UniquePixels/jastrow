@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "J00172",
-	"slug": "יודקרת",
-	"headword": {
-		"text": "יוֹדְקֶרֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹדְקֶרֶת",
+	"headwords": [
 		{
-			"text": "יָדְ׳"
+			"text": "יוֹדְקֶרֶת"
+		},
+		{
+			"text": "יָדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 568,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

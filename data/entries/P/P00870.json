@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00870",
-	"slug": "עמוני",
-	"headword": {
-		"text": "עַמּוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַמּוֹנִי",
+	"headwords": [
+		{
+			"text": "עַמּוֹנִי"
+		},
 		{
 			"text": "עַמּוֹנִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1087,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00774",
-	"slug": "חילזון",
-	"headword": {
-		"text": "חִילָּזוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילָּזוֹן",
+	"headwords": [
+		{
+			"text": "חִילָּזוֹן"
+		},
 		{
 			"text": "חִילְזוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "b"

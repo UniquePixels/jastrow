@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00093",
-	"slug": "אבטח",
-	"headword": {
-		"text": "אַבְטַח"
-	},
+	"sefariaHeadword": "אַבְטַח",
+	"headwords": [
+		{
+			"text": "אַבְטַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

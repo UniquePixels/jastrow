@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00122",
-	"slug": "רבנאי",
-	"headword": {
-		"text": "רַבַּנַּאי"
-	},
+	"sefariaHeadword": "רַבַּנַּאי",
+	"headwords": [
+		{
+			"text": "רַבַּנַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1444,
 		"column": "a"

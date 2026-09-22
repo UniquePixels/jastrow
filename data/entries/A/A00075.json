@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00075",
-	"slug": "אבונא",
-	"headword": {
-		"text": "אֲבוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבוּנָא",
+	"headwords": [
+		{
+			"text": "אֲבוּנָא"
+		},
 		{
 			"text": "אֲבוּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 4,
 		"column": "a"

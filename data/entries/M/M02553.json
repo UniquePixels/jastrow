@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02553",
-	"slug": "מרדכיתא",
-	"headword": {
-		"text": "מַרְדְּכִיתָא"
-	},
+	"sefariaHeadword": "מַרְדְּכִיתָא",
+	"headwords": [
+		{
+			"text": "מַרְדְּכִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 837,
 		"column": "b"

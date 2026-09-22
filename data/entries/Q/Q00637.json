@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00637",
-	"slug": "פיטרון",
-	"headword": {
-		"text": "פיטרון"
-	},
+	"sefariaHeadword": "פיטרון",
+	"headwords": [
+		{
+			"text": "פיטרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

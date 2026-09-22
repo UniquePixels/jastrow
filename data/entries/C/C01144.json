@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01144",
-	"slug": "גנינים",
-	"headword": {
-		"text": "גְּנִינִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנִינִים",
+	"headwords": [
+		{
+			"text": "גְּנִינִים"
+		},
 		{
 			"text": "גְּנוּנִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 259,
 		"column": "b"

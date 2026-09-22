@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00537",
-	"slug": "נחתום-2",
-	"headword": {
-		"text": "נַחְתּוֹם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַחְתּוֹם ²",
+	"headwords": [
+		{
+			"text": "נַחְתּוֹם",
+			"disambiguator": 2
+		},
 		{
 			"text": "נַחְתּוֹמָא"
 		},
 		{
-			"text": "נַחְתּוּ׳"
+			"text": "נַחְתּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 897,
 		"column": "b"

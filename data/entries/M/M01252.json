@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01252",
-	"slug": "מיסק",
-	"headword": {
-		"text": "מִיסַּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיסַּק",
+	"headwords": [
+		{
+			"text": "מִיסַּק"
+		},
 		{
 			"text": "מִסַּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 777,
 		"column": "b"

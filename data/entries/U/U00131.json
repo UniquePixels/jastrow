@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00131",
-	"slug": "שביץ",
-	"headword": {
-		"text": "שָׁבִיץ"
-	},
+	"sefariaHeadword": "שָׁבִיץ",
+	"headwords": [
+		{
+			"text": "שָׁבִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "b"

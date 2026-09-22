@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01291",
-	"slug": "קלופיתא",
-	"headword": {
-		"text": "קְלוּפִיתָא"
-	},
+	"sefariaHeadword": "קְלוּפִיתָא",
+	"headwords": [
+		{
+			"text": "קְלוּפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00837",
-	"slug": "רמש-1",
-	"headword": {
-		"text": "רֶמֶשׂ"
-	},
+	"sefariaHeadword": "רֶמֶשׂ",
+	"headwords": [
+		{
+			"text": "רֶמֶשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "b"

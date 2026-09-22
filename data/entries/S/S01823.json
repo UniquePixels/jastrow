@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01823",
-	"slug": "קציצתא",
-	"headword": {
-		"text": "קְצִיצְתָּא"
-	},
+	"sefariaHeadword": "קְצִיצְתָּא",
+	"headwords": [
+		{
+			"text": "קְצִיצְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1406,
 		"column": "a"

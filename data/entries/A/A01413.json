@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01413",
-	"slug": "איסטגנין",
-	"headword": {
-		"text": "אִיסְטַגְנֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטַגְנֵין",
+	"headwords": [
+		{
+			"text": "אִיסְטַגְנֵין"
+		},
 		{
 			"text": "אִיסְטַגְנִינוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 54,
 		"column": "b"

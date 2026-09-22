@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00131",
-	"slug": "גבר-4",
-	"headword": {
-		"text": "גְּבַר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּבַר II",
+	"headwords": [
+		{
+			"text": "גְּבַר",
+			"homograph": 2
+		},
 		{
 			"text": "גַּבְרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 208,
 		"column": "b"

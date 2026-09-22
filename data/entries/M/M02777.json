@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02777",
-	"slug": "מרריתא",
-	"headword": {
-		"text": "מְרָרִיתָא"
-	},
+	"sefariaHeadword": "מְרָרִיתָא",
+	"headwords": [
+		{
+			"text": "מְרָרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

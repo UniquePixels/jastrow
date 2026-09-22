@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01298",
-	"slug": "ברכתא-2",
-	"headword": {
-		"text": "בְּרַכְתָּא"
-	},
+	"sefariaHeadword": "בְּרַכְתָּא",
+	"headwords": [
+		{
+			"text": "בְּרַכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

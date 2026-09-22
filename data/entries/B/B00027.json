@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00027",
-	"slug": "באיש",
-	"headword": {
-		"text": "בְּאֵישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּאֵישׁ",
+	"headwords": [
+		{
+			"text": "בְּאֵישׁ"
+		},
 		{
 			"text": "בְּאִישׁ"
 		},
@@ -12,6 +13,7 @@
 			"text": "בְּאֵשׁ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 135,
 		"column": "a"

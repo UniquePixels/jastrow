@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01267",
-	"slug": "נרדינון",
-	"headword": {
-		"text": "נַרְדִּינוֹן"
-	},
+	"sefariaHeadword": "נַרְדִּינוֹן",
+	"headwords": [
+		{
+			"text": "נַרְדִּינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01322",
-	"slug": "ספוג-1",
-	"headword": {
-		"text": "סִפּוּג"
-	},
+	"sefariaHeadword": "סִפּוּג",
+	"headwords": [
+		{
+			"text": "סִפּוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

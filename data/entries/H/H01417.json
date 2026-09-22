@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01417",
-	"slug": "חף-1",
-	"headword": {
-		"text": "חָף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָף",
+	"headwords": [
+		{
+			"text": "חָף"
+		},
 		{
 			"text": "חַף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 490,
 		"column": "a"

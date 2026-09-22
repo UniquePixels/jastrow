@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03102",
-	"slug": "אריכה",
-	"headword": {
-		"text": "אֲרִיכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִיכָה",
+	"headwords": [
+		{
+			"text": "אֲרִיכָה"
+		},
 		{
 			"text": "אֲרִיכוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 120,
 		"column": "a"

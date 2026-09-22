@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01355",
-	"slug": "כתושא",
-	"headword": {
-		"text": "כְּתוּשָׁא"
-	},
+	"sefariaHeadword": "כְּתוּשָׁא",
+	"headwords": [
+		{
+			"text": "כְּתוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00170",
-	"slug": "בהי-1",
-	"headword": {
-		"text": "בהי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בהי",
+	"headwords": [
+		{
+			"text": "בהי"
+		},
 		{
 			"text": "בָּהָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּהָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 142,
 		"column": "a"

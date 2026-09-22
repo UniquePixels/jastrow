@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01203",
-	"slug": "ברוקא-2",
-	"headword": {
-		"text": "בָּרוֹקָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּרוֹקָא II",
+	"headwords": [
+		{
+			"text": "בָּרוֹקָא",
+			"homograph": 2
+		},
 		{
 			"text": "בָּרוֹקָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 191,
 		"column": "a"

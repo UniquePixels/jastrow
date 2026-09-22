@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00218",
-	"slug": "נדונא",
-	"headword": {
-		"text": "נַדּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַדּוֹנָא",
+	"headwords": [
 		{
-			"text": "נְדוֹ׳"
+			"text": "נַדּוֹנָא"
+		},
+		{
+			"text": "נְדוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 878,
 		"column": "a"

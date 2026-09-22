@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00213",
-	"slug": "עווק",
-	"headword": {
-		"text": "עֲוָוק"
-	},
+	"sefariaHeadword": "עֲוָוק",
+	"headwords": [
+		{
+			"text": "עֲוָוק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

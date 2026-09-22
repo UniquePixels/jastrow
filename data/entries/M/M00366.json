@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00366",
-	"slug": "מהל-1",
-	"headword": {
-		"text": "מהַל"
-	},
+	"sefariaHeadword": "מהַל",
+	"headwords": [
+		{
+			"text": "מהַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

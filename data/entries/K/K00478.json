@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00478",
-	"slug": "כיארי",
-	"headword": {
-		"text": "כיארי"
-	},
+	"sefariaHeadword": "כיארי",
+	"headwords": [
+		{
+			"text": "כיארי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 630,
 		"column": "a"

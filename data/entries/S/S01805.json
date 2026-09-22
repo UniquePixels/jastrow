@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01805",
-	"slug": "קצי-1",
-	"headword": {
-		"text": "קצי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קצי",
+	"headwords": [
+		{
+			"text": "קצי"
+		},
 		{
 			"text": "קָצָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1405,
 		"column": "a"

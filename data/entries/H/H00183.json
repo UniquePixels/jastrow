@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00183",
-	"slug": "חדוה",
-	"headword": {
-		"text": "חֶדְוָה"
-	},
+	"sefariaHeadword": "חֶדְוָה",
+	"headwords": [
+		{
+			"text": "חֶדְוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "a"

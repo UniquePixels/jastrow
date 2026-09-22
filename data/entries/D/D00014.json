@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00014",
-	"slug": "דאומטיקוס",
-	"headword": {
-		"text": "דאומטיקוס"
-	},
+	"sefariaHeadword": "דאומטיקוס",
+	"headwords": [
+		{
+			"text": "דאומטיקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 275,
 		"column": "b"

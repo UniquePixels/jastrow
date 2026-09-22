@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01379",
-	"slug": "קלס-3",
-	"headword": {
-		"text": "קְלַס"
-	},
+	"sefariaHeadword": "קְלַס",
+	"headwords": [
+		{
+			"text": "קְלַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1379,
 		"column": "b"

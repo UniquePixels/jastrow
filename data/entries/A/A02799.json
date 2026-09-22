@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02799",
-	"slug": "אפרגל",
-	"headword": {
-		"text": "אפרגל"
-	},
+	"sefariaHeadword": "אפרגל",
+	"headwords": [
+		{
+			"text": "אפרגל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01162",
-	"slug": "אידיני",
-	"headword": {
-		"text": "אִידְיָנִי"
-	},
+	"sefariaHeadword": "אִידְיָנִי",
+	"headwords": [
+		{
+			"text": "אִידְיָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01801",
-	"slug": "אלווא",
-	"headword": {
-		"text": "אַלְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְוָוא",
+	"headwords": [
+		{
+			"text": "אַלְוָוא"
+		},
 		{
 			"text": "אַלְוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 67,
 		"column": "b"

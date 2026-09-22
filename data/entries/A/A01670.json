@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01670",
-	"slug": "אכוור",
-	"headword": {
-		"text": "אכוור"
-	},
+	"sefariaHeadword": "אכוור",
+	"headwords": [
+		{
+			"text": "אכוור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00620",
-	"slug": "זפף",
-	"headword": {
-		"text": "זָפַף"
-	},
+	"sefariaHeadword": "זָפַף",
+	"headwords": [
+		{
+			"text": "זָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01331",
-	"slug": "מיתחזנא",
-	"headword": {
-		"text": "מִיתְחַזְנָא"
-	},
+	"sefariaHeadword": "מִיתְחַזְנָא",
+	"headwords": [
+		{
+			"text": "מִיתְחַזְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 780,
 		"column": "b"

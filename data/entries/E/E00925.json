@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00925",
-	"slug": "השלכה",
-	"headword": {
-		"text": "הַשְׁלָכָה"
-	},
+	"sefariaHeadword": "הַשְׁלָכָה",
+	"headwords": [
+		{
+			"text": "הַשְׁלָכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "a"

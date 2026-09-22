@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00495",
-	"slug": "שופט",
-	"headword": {
-		"text": "שׁוֹפֵט"
-	},
+	"sefariaHeadword": "שׁוֹפֵט",
+	"headwords": [
+		{
+			"text": "שׁוֹפֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1539,
 		"column": "b"

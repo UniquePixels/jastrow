@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M03095",
-	"slug": "מתנן",
-	"headword": {
-		"text": "מַתְנַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְנַן",
+	"headwords": [
+		{
+			"text": "מַתְנַן"
+		},
 		{
 			"text": "מַתְנָן"
 		},
 		{
-			"text": "מַתְּ׳"
+			"text": "מַתְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 864,
 		"column": "a"

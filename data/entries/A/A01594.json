@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01594",
-	"slug": "איקוניה",
-	"headword": {
-		"text": "איקוניה"
-	},
+	"sefariaHeadword": "איקוניה",
+	"headwords": [
+		{
+			"text": "איקוניה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "a"

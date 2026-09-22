@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02416",
-	"slug": "מקיא",
-	"headword": {
-		"text": "מֵקִיא"
-	},
+	"sefariaHeadword": "מֵקִיא",
+	"headwords": [
+		{
+			"text": "מֵקִיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "b"

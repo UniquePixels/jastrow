@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00765",
-	"slug": "עלב-1",
-	"headword": {
-		"text": "עָלַב"
-	},
+	"sefariaHeadword": "עָלַב",
+	"headwords": [
+		{
+			"text": "עָלַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

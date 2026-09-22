@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00086",
-	"slug": "שבוקה",
-	"headword": {
-		"text": "שְׁבוּקָה"
-	},
+	"sefariaHeadword": "שְׁבוּקָה",
+	"headwords": [
+		{
+			"text": "שְׁבוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02594",
-	"slug": "אערעא",
-	"headword": {
-		"text": "אֲעַרְעָא"
-	},
+	"sefariaHeadword": "אֲעַרְעָא",
+	"headwords": [
+		{
+			"text": "אֲעַרְעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "b"

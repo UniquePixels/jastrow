@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01393",
-	"slug": "ערמה-1",
-	"headword": {
-		"text": "עָרְמָה"
-	},
+	"sefariaHeadword": "עָרְמָה",
+	"headwords": [
+		{
+			"text": "עָרְמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1120,
 		"column": "b"

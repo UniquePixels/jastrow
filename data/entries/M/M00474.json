@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00474",
-	"slug": "מוכירין",
-	"headword": {
-		"text": "מוכירין"
-	},
+	"sefariaHeadword": "מוכירין",
+	"headwords": [
+		{
+			"text": "מוכירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

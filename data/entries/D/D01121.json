@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D01121",
-	"slug": "דרציני",
-	"headword": {
-		"text": "דַּרְצִינִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּרְצִינִי",
+	"headwords": [
+		{
+			"text": "דַּרְצִינִי"
+		},
 		{
 			"text": "דּוּרְצִינִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 325,
 		"column": "a"

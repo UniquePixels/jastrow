@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00808",
-	"slug": "דלדל-2",
-	"headword": {
-		"text": "דַּלְדֵּל"
-	},
+	"sefariaHeadword": "דַּלְדֵּל",
+	"headwords": [
+		{
+			"text": "דַּלְדֵּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 309,
 		"column": "a"

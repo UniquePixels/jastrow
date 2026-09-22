@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00150",
-	"slug": "רברבנותא",
-	"headword": {
-		"text": "רַבְרְבָנוּתָא"
-	},
+	"sefariaHeadword": "רַבְרְבָנוּתָא",
+	"headwords": [
+		{
+			"text": "רַבְרְבָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "b"

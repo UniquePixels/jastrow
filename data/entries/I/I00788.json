@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "I00788",
-	"slug": "טרייא-1",
-	"headword": {
-		"text": "טְרָיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרָיָיא",
+	"headwords": [
+		{
+			"text": "טְרָיָיא"
+		},
 		{
 			"text": "טְרָיָיה"
 		},
 		{
-			"text": "טוּרְ׳"
+			"text": "טוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 553,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

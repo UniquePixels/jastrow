@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00960",
-	"slug": "דפטיא",
-	"headword": {
-		"text": "דִּפְטַיָּא"
-	},
+	"sefariaHeadword": "דִּפְטַיָּא",
+	"headwords": [
+		{
+			"text": "דִּפְטַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

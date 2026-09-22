@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00491",
-	"slug": "מולד-2",
-	"headword": {
-		"text": "מוֹלָד"
-	},
+	"sefariaHeadword": "מוֹלָד",
+	"headwords": [
+		{
+			"text": "מוֹלָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

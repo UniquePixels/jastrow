@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00449",
-	"slug": "הינדא",
-	"headword": {
-		"text": "הִינְדָּא"
-	},
+	"sefariaHeadword": "הִינְדָּא",
+	"headwords": [
+		{
+			"text": "הִינְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00675",
-	"slug": "עיראין",
-	"headword": {
-		"text": "עֵירָאִין"
-	},
+	"sefariaHeadword": "עֵירָאִין",
+	"headwords": [
+		{
+			"text": "עֵירָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1075,
 		"column": "a"

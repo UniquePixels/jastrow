@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00438",
-	"slug": "גוני",
-	"headword": {
-		"text": "גּוּנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּנִי",
+	"headwords": [
+		{
+			"text": "גּוּנִי"
+		},
 		{
 			"text": "גִּינִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 224,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01492",
-	"slug": "קמצר",
-	"headword": {
-		"text": "קַמְצָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמְצָר",
+	"headwords": [
 		{
-			"text": "בֶּן קַמְצָר"
+			"text": "קַמְצָר"
+		},
+		{
+			"text": "בֶּן קַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1387,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01682",
-	"slug": "אכזריאל",
-	"headword": {
-		"text": "אַכְזְרִיאֵל"
-	},
+	"sefariaHeadword": "אַכְזְרִיאֵל",
+	"headwords": [
+		{
+			"text": "אַכְזְרִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

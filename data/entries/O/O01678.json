@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01678",
-	"slug": "סרר",
-	"headword": {
-		"text": "סָרַר"
-	},
+	"sefariaHeadword": "סָרַר",
+	"headwords": [
+		{
+			"text": "סָרַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1030,
 		"column": "b"

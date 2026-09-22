@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01130",
-	"slug": "דרש-2",
-	"headword": {
-		"text": "דְּרַשׁ"
-	},
+	"sefariaHeadword": "דְּרַשׁ",
+	"headwords": [
+		{
+			"text": "דְּרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 325,
 		"column": "b"

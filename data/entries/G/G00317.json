@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00317",
-	"slug": "זיוף",
-	"headword": {
-		"text": "זִיּוּף"
-	},
+	"sefariaHeadword": "זִיּוּף",
+	"headwords": [
+		{
+			"text": "זִיּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

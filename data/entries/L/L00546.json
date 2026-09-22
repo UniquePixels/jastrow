@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00546",
-	"slug": "לכיסא",
-	"headword": {
-		"text": "לְכִיסָא"
-	},
+	"sefariaHeadword": "לְכִיסָא",
+	"headwords": [
+		{
+			"text": "לְכִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01100",
-	"slug": "גנובא-2",
-	"headword": {
-		"text": "גְּנוּבָא"
-	},
+	"sefariaHeadword": "גְּנוּבָא",
+	"headwords": [
+		{
+			"text": "גְּנוּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 257,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01090",
-	"slug": "גנגילון",
-	"headword": {
-		"text": "גִּנְגִּילוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּנְגִּילוֹן",
+	"headwords": [
+		{
+			"text": "גִּנְגִּילוֹן"
+		},
 		{
 			"text": "גִּנְגְּלוֹן"
 		},
 		{
-			"text": "גִּינְ׳"
+			"text": "גִּינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 257,
 		"column": "a"

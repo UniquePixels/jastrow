@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00356",
-	"slug": "צילוחא",
-	"headword": {
-		"text": "צִילּוּחָא"
-	},
+	"sefariaHeadword": "צִילּוּחָא",
+	"headwords": [
+		{
+			"text": "צִילּוּחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01430",
-	"slug": "פציח-3",
-	"headword": {
-		"text": "פַּצִּיחַ"
-	},
+	"sefariaHeadword": "פַּצִּיחַ",
+	"headwords": [
+		{
+			"text": "פַּצִּיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "a"

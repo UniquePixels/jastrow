@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00917",
-	"slug": "נסב",
-	"headword": {
-		"text": "נְסַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְסַב",
+	"headwords": [
+		{
+			"text": "נְסַב"
+		},
 		{
 			"text": "נְסֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 915,
 		"column": "a"

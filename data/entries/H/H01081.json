@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01081",
-	"slug": "חלם-1",
-	"headword": {
-		"text": "חָלַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָלַם I",
+	"headwords": [
+		{
+			"text": "חָלַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 471,
 		"column": "a"

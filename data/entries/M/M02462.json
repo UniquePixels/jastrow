@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02462",
-	"slug": "מקרין-2",
-	"headword": {
-		"text": "מַקְרִין",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַקְרִין II",
+	"headwords": [
+		{
+			"text": "מַקְרִין",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 833,
 		"column": "b"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "L00031",
-	"slug": "לב-2",
-	"headword": {
-		"text": "לֵב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵב ²",
+	"headwords": [
+		{
+			"text": "לֵב",
+			"disambiguator": 2
+		},
 		{
 			"text": "לִבָּא"
 		},
@@ -19,9 +20,11 @@
 			"text": "לִבְבָא"
 		},
 		{
-			"text": "לִי׳"
+			"text": "לִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 686,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01111",
-	"slug": "סממיתא",
-	"headword": {
-		"text": "סְמָמִיתָא"
-	},
+	"sefariaHeadword": "סְמָמִיתָא",
+	"headwords": [
+		{
+			"text": "סְמָמִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

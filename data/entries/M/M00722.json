@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00722",
-	"slug": "מזדנדזין",
-	"headword": {
-		"text": "מִזְדַּנְדְּזִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִזְדַּנְדְּזִין",
+	"headwords": [
+		{
+			"text": "מִזְדַּנְדְּזִין"
+		},
 		{
 			"text": "מִזְדַּנְזִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 753,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02410",
-	"slug": "אסטרטה",
-	"headword": {
-		"text": "אִסְטְרָטָה"
-	},
+	"sefariaHeadword": "אִסְטְרָטָה",
+	"headwords": [
+		{
+			"text": "אִסְטְרָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "b"

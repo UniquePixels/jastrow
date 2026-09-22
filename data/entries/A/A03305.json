@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03305",
-	"slug": "אשכול",
-	"headword": {
-		"text": "אֶשְׁכּוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשְׁכּוֹל",
+	"headwords": [
+		{
+			"text": "אֶשְׁכּוֹל"
+		},
 		{
 			"text": "אֶשְׁכֹּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 128,
 		"column": "a"

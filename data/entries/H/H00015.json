@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00015",
-	"slug": "חבבאי",
-	"headword": {
-		"text": "חֲבָבָאֵי"
-	},
+	"sefariaHeadword": "חֲבָבָאֵי",
+	"headwords": [
+		{
+			"text": "חֲבָבָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

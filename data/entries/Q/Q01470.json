@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01470",
-	"slug": "פקוקלתא",
-	"headword": {
-		"text": "פְּקוֹקַלְתָּא"
-	},
+	"sefariaHeadword": "פְּקוֹקַלְתָּא",
+	"headwords": [
+		{
+			"text": "פְּקוֹקַלְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "a"

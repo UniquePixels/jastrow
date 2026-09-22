@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00287",
-	"slug": "גובלנא",
-	"headword": {
-		"text": "גּוּבְלָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּבְלָנָא",
+	"headwords": [
+		{
+			"text": "גּוּבְלָנָא"
+		},
 		{
 			"text": "גַּוְולָנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 217,
 		"column": "b"

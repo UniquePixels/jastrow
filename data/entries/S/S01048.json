@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01048",
-	"slug": "קינסא",
-	"headword": {
-		"text": "קִינְסָא"
-	},
+	"sefariaHeadword": "קִינְסָא",
+	"headwords": [
+		{
+			"text": "קִינְסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

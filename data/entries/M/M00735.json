@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00735",
-	"slug": "מזוניחה",
-	"headword": {
-		"text": "מזוניחה"
-	},
+	"sefariaHeadword": "מזוניחה",
+	"headwords": [
+		{
+			"text": "מזוניחה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "a"

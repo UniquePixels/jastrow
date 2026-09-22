@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01043",
-	"slug": "רקם-5",
-	"headword": {
-		"text": "רְקָם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְקָם II",
+	"headwords": [
+		{
+			"text": "רְקָם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1497,
 		"column": "b"

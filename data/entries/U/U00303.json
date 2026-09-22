@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00303",
-	"slug": "שהיד-2",
-	"headword": {
-		"text": "שהיד"
-	},
+	"sefariaHeadword": "שהיד",
+	"headwords": [
+		{
+			"text": "שהיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1527,
 		"column": "b"

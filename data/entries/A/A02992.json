@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02992",
-	"slug": "ארגמן",
-	"headword": {
-		"text": "אַרְגָּמָן"
-	},
+	"sefariaHeadword": "אַרְגָּמָן",
+	"headwords": [
+		{
+			"text": "אַרְגָּמָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "b"

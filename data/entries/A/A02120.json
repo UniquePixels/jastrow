@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02120",
-	"slug": "אנדראי",
-	"headword": {
-		"text": "אַנְדְּרַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְדְּרַאי",
+	"headwords": [
 		{
-			"text": "בַּר אַנְדְּרַאי"
+			"text": "אַנְדְּרַאי"
+		},
+		{
+			"text": "בַּר א׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "b"

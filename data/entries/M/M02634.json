@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02634",
-	"slug": "מרחמנא",
-	"headword": {
-		"text": "מְרַחְמָנָא"
-	},
+	"sefariaHeadword": "מְרַחְמָנָא",
+	"headwords": [
+		{
+			"text": "מְרַחְמָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 841,
 		"column": "a"

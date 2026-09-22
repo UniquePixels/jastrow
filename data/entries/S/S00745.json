@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S00745",
-	"slug": "קטייא",
-	"headword": {
-		"text": "קַטַּיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַטַּיָּיא",
+	"headwords": [
 		{
-			"text": "קִטַּ׳"
+			"text": "קַטַּיָּיא"
 		},
 		{
-			"text": "קְטַ׳"
+			"text": "קִטַּ׳",
+			"partial": true
+		},
+		{
+			"text": "קְטַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1348,
 		"column": "a"

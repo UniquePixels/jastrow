@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00028",
-	"slug": "פארות",
-	"headword": {
-		"text": "פְּאֵרוֹת"
-	},
+	"sefariaHeadword": "פְּאֵרוֹת",
+	"headwords": [
+		{
+			"text": "פְּאֵרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

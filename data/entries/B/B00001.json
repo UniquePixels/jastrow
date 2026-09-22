@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00001",
-	"slug": "ב-2",
-	"headword": {
-		"text": "ב",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "ב ²",
+	"headwords": [
+		{
+			"text": "ב",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 134,
 		"column": "a"

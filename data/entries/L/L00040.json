@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00040",
-	"slug": "לבבא",
-	"headword": {
-		"text": "לְבָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבָבָא",
+	"headwords": [
+		{
+			"text": "לְבָבָא"
+		},
 		{
 			"text": "לִבְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 687,
 		"column": "b"

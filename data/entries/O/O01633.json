@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01633",
-	"slug": "סריקתא",
-	"headword": {
-		"text": "סְרִיקְתָּא"
-	},
+	"sefariaHeadword": "סְרִיקְתָּא",
+	"headwords": [
+		{
+			"text": "סְרִיקְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "b"

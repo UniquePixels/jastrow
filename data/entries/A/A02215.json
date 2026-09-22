@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02215",
-	"slug": "אנטריס",
-	"headword": {
-		"text": "אנטריס"
-	},
+	"sefariaHeadword": "אנטריס",
+	"headwords": [
+		{
+			"text": "אנטריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "b"

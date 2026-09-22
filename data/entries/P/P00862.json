@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00862",
-	"slug": "עמדה-2",
-	"headword": {
-		"text": "עמדה"
-	},
+	"sefariaHeadword": "עמדה",
+	"headwords": [
+		{
+			"text": "עמדה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1086,
 		"column": "b"

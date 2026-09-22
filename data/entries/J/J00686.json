@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00686",
-	"slug": "ישט-1",
-	"headword": {
-		"text": "יָשַׁט",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יָשַׁט",
+	"headwords": [
+		{
+			"text": "יָשַׁט",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 600,
 		"column": "a"

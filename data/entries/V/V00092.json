@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "V00092",
-	"slug": "תגרא-1",
-	"headword": {
-		"text": "תִּגְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּגְרָא",
+	"headwords": [
+		{
+			"text": "תִּגְרָא"
+		},
 		{
 			"text": "תִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1647,
 		"column": "a"

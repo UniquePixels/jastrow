@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00208",
-	"slug": "עווירא",
-	"headword": {
-		"text": "עֲוִוירָא"
-	},
+	"sefariaHeadword": "עֲוִוירָא",
+	"headwords": [
+		{
+			"text": "עֲוִוירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

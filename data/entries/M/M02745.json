@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02745",
-	"slug": "מרפא-2",
-	"headword": {
-		"text": "מְרַפֵּא"
-	},
+	"sefariaHeadword": "מְרַפֵּא",
+	"headwords": [
+		{
+			"text": "מְרַפֵּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02457",
-	"slug": "אסכמותא",
-	"headword": {
-		"text": "אַסְכָּמוּתָא"
-	},
+	"sefariaHeadword": "אַסְכָּמוּתָא",
+	"headwords": [
+		{
+			"text": "אַסְכָּמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "a"

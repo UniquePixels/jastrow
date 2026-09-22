@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01110",
-	"slug": "אי-2",
-	"headword": {
-		"text": "אִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אִי I",
+	"headwords": [
+		{
+			"text": "אִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 43,
 		"column": "b"

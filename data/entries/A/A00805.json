@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00805",
-	"slug": "אופילין",
-	"headword": {
-		"text": "אופילין"
-	},
+	"sefariaHeadword": "אופילין",
+	"headwords": [
+		{
+			"text": "אופילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

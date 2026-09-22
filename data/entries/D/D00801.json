@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00801",
-	"slug": "דלא-2",
-	"headword": {
-		"text": "דְּלָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "דְּלָא ²",
+	"headwords": [
+		{
+			"text": "דְּלָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 308,
 		"column": "b"

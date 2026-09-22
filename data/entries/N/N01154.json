@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01154",
-	"slug": "נקאני",
-	"headword": {
-		"text": "נקאני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נקאני",
+	"headwords": [
 		{
-			"text": "נקאני קא"
+			"text": "נקאני"
+		},
+		{
+			"text": "נ׳ קא",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 930,
 		"column": "a"

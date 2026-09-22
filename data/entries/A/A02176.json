@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02176",
-	"slug": "אנטיוכוס",
-	"headword": {
-		"text": "אַנְטְיוֹכוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְטְיוֹכוֹס",
+	"headwords": [
+		{
+			"text": "אַנְטְיוֹכוֹס"
+		},
 		{
 			"text": "אַנְטְיוֹכָס"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 83,
 		"column": "b"

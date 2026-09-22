@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01677",
-	"slug": "פרוטרוט",
-	"headword": {
-		"text": "פְּרוֹטְרוֹט"
-	},
+	"sefariaHeadword": "פְּרוֹטְרוֹט",
+	"headwords": [
+		{
+			"text": "פְּרוֹטְרוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "a"

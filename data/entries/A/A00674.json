@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00674",
-	"slug": "אולם-1",
-	"headword": {
-		"text": "אוּלָם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אוּלָם I",
+	"headwords": [
+		{
+			"text": "אוּלָם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 26,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00840",
-	"slug": "טרמוסיא",
-	"headword": {
-		"text": "טרמוסיא"
-	},
+	"sefariaHeadword": "טרמוסיא",
+	"headwords": [
+		{
+			"text": "טרמוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01862",
-	"slug": "שקיינא",
-	"headword": {
-		"text": "שַׁקְיָינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁקְיָינָא",
+	"headwords": [
 		{
-			"text": "שִׁיקְ׳"
+			"text": "שַׁקְיָינָא"
+		},
+		{
+			"text": "שִׁיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1622,
 		"column": "b"

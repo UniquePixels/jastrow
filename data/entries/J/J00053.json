@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00053",
-	"slug": "יבלא-3",
-	"headword": {
-		"text": "יַבְלָא"
-	},
+	"sefariaHeadword": "יַבְלָא",
+	"headwords": [
+		{
+			"text": "יַבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 561,
 		"column": "a"

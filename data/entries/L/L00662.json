@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00662",
-	"slug": "לק",
-	"headword": {
-		"text": "לָק"
-	},
+	"sefariaHeadword": "לָק",
+	"headwords": [
+		{
+			"text": "לָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 716,
 		"column": "b"

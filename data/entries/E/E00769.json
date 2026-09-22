@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00769",
-	"slug": "הפשט",
-	"headword": {
-		"text": "הֶפְשֵׁט"
-	},
+	"sefariaHeadword": "הֶפְשֵׁט",
+	"headwords": [
+		{
+			"text": "הֶפְשֵׁט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "a"

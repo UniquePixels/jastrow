@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01904",
-	"slug": "שקתי",
-	"headword": {
-		"text": "שַׁקְתֵי"
-	},
+	"sefariaHeadword": "שַׁקְתֵי",
+	"headwords": [
+		{
+			"text": "שַׁקְתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1626,
 		"column": "b"

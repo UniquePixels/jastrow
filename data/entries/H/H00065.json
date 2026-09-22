@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00065",
-	"slug": "חביל-3",
-	"headword": {
-		"text": "חֲבֵיל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבֵיל ²",
+	"headwords": [
 		{
-			"text": "חֲבֵיל יַמָּא"
+			"text": "חֲבֵיל",
+			"disambiguator": 2
+		},
+		{
+			"text": "ח׳ יַמָּא",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 418,
 		"column": "b"

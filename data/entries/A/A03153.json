@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03153",
-	"slug": "ארכיסטריס",
-	"headword": {
-		"text": "ארכיסטריס"
-	},
+	"sefariaHeadword": "ארכיסטריס",
+	"headwords": [
+		{
+			"text": "ארכיסטריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "a"

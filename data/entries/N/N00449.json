@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00449",
-	"slug": "נזירא",
-	"headword": {
-		"text": "נְזִירָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְזִירָא II",
+	"headwords": [
+		{
+			"text": "נְזִירָא",
+			"homograph": 2
+		},
 		{
 			"text": "נְזִירָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 891,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00314",
-	"slug": "חוך-3",
-	"headword": {
-		"text": "חוּךְ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוּךְ II",
+	"headwords": [
+		{
+			"text": "חוּךְ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 432,
 		"column": "a"

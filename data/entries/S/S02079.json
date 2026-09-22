@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02079",
-	"slug": "קריר-1",
-	"headword": {
-		"text": "קָרִיר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָרִיר I",
+	"headwords": [
+		{
+			"text": "קָרִיר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1421,
 		"column": "a"

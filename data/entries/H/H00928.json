@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00928",
-	"slug": "חכיננא",
-	"headword": {
-		"text": "חֲכִינָנָא"
-	},
+	"sefariaHeadword": "חֲכִינָנָא",
+	"headwords": [
+		{
+			"text": "חֲכִינָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "a"

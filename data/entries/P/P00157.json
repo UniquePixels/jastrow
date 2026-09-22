@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00157",
-	"slug": "עדנה",
-	"headword": {
-		"text": "עֶדְנָה"
-	},
+	"sefariaHeadword": "עֶדְנָה",
+	"headwords": [
+		{
+			"text": "עֶדְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1045,
 		"column": "a"

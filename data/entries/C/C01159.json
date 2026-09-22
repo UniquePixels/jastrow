@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01159",
-	"slug": "גס-1",
-	"headword": {
-		"text": "גַּס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גַּס I",
+	"headwords": [
+		{
+			"text": "גַּס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 260,
 		"column": "a"

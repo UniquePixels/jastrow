@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00160",
-	"slug": "פוגע",
-	"headword": {
-		"text": "פוגע"
-	},
+	"sefariaHeadword": "פוגע",
+	"headwords": [
+		{
+			"text": "פוגע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1139,
 		"column": "a"

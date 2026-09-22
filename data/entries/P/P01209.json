@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01209",
-	"slug": "עקף-1",
-	"headword": {
-		"text": "עָקַף"
-	},
+	"sefariaHeadword": "עָקַף",
+	"headwords": [
+		{
+			"text": "עָקַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00768",
-	"slug": "פיסקיא",
-	"headword": {
-		"text": "פִּיסְקְיָא"
-	},
+	"sefariaHeadword": "פִּיסְקְיָא",
+	"headwords": [
+		{
+			"text": "פִּיסְקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "a"

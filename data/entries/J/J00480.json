@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00480",
-	"slug": "יעוד",
-	"headword": {
-		"text": "יִעוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִעוּד",
+	"headwords": [
+		{
+			"text": "יִעוּד"
+		},
 		{
 			"text": "יִיעוּד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 584,
 		"column": "a"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01107",
-	"slug": "אטרכונא",
-	"headword": {
-		"text": "אֲטַרְכוֹנָא"
-	},
+	"sefariaHeadword": "אֲטַרְכוֹנָא",
+	"headwords": [
+		{
+			"text": "אֲטַרְכוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

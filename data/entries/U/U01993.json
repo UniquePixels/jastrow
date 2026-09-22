@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01993",
-	"slug": "שרכא-2",
-	"headword": {
-		"text": "שְׂרָכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׂרָכָא",
+	"headwords": [
 		{
-			"text": "שְׁ׳"
+			"text": "שְׂרָכָא"
+		},
+		{
+			"text": "שְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1632,
 		"column": "a"

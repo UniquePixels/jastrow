@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00036",
-	"slug": "לבאי",
-	"headword": {
-		"text": "לְבָאֵי"
-	},
+	"sefariaHeadword": "לְבָאֵי",
+	"headwords": [
+		{
+			"text": "לְבָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 687,
 		"column": "a"

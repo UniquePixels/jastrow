@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02146",
-	"slug": "קרצובא",
-	"headword": {
-		"text": "קַרְצוֹבָא"
-	},
+	"sefariaHeadword": "קַרְצוֹבָא",
+	"headwords": [
+		{
+			"text": "קַרְצוֹבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

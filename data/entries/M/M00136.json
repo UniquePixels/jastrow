@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00136",
-	"slug": "מגור-1",
-	"headword": {
-		"text": "מָגוֹר"
-	},
+	"sefariaHeadword": "מָגוֹר",
+	"headwords": [
+		{
+			"text": "מָגוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "a"

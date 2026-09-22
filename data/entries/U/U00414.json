@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00414",
-	"slug": "שוכלתן",
-	"headword": {
-		"text": "שׂוּכְלְתָן"
-	},
+	"sefariaHeadword": "שׂוּכְלְתָן",
+	"headwords": [
+		{
+			"text": "שׂוּכְלְתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1534,
 		"column": "a"

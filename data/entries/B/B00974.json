@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00974",
-	"slug": "בס״גר",
-	"headword": {
-		"text": "בס״גר"
-	},
+	"sefariaHeadword": "בס\"גר",
+	"headwords": [
+		{
+			"text": "בס״גר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

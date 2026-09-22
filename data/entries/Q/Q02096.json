@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02096",
-	"slug": "פשפש-7",
-	"headword": {
-		"text": "פִּשְׁפָּשׁ",
-		"homograph": 3
-	},
+	"sefariaHeadword": "פִּשְׁפָּשׁ III",
+	"headwords": [
+		{
+			"text": "פִּשְׁפָּשׁ",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1248,
 		"column": "b"

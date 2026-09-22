@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02785",
-	"slug": "מרתהן",
-	"headword": {
-		"text": "מרתהן"
-	},
+	"sefariaHeadword": "מרתהן",
+	"headwords": [
+		{
+			"text": "מרתהן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

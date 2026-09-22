@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01581",
-	"slug": "פרדיסקי-1",
-	"headword": {
-		"text": "פַּרְדִּיסְקֵי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּרְדִּיסְקֵי I",
+	"headwords": [
+		{
+			"text": "פַּרְדִּיסְקֵי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1215,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00382",
-	"slug": "לטום",
-	"headword": {
-		"text": "לְטוֹם"
-	},
+	"sefariaHeadword": "לְטוֹם",
+	"headwords": [
+		{
+			"text": "לְטוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "a"

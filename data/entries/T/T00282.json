@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00282",
-	"slug": "רהטון",
-	"headword": {
-		"text": "רִהֲטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִהֲטוֹן",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִהֲטוֹן"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1454,
 		"column": "a"

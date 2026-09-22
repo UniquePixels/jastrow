@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01101",
-	"slug": "גנובתא-1",
-	"headword": {
-		"text": "גְּנוּבְתָּא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנוּבְתָּא I",
+	"headwords": [
+		{
+			"text": "גְּנוּבְתָּא",
+			"homograph": 1
+		},
 		{
 			"text": "גּוֹנְבָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 257,
 		"column": "b"

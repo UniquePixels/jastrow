@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00553",
-	"slug": "נטורא-2",
-	"headword": {
-		"text": "נְטוֹרָא"
-	},
+	"sefariaHeadword": "נְטוֹרָא",
+	"headwords": [
+		{
+			"text": "נְטוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "b"

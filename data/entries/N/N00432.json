@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00432",
-	"slug": "נזח",
-	"headword": {
-		"text": "נָזַח"
-	},
+	"sefariaHeadword": "נָזַח",
+	"headwords": [
+		{
+			"text": "נָזַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "b"

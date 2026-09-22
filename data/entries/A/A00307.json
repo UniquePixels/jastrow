@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00307",
-	"slug": "אגם-1",
-	"headword": {
-		"text": "אֲגַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֲגַם I",
+	"headwords": [
+		{
+			"text": "אֲגַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 12,
 		"column": "b"

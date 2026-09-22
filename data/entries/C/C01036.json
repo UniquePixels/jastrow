@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01036",
-	"slug": "גמ״ל",
-	"headword": {
-		"text": "גמ״ל"
-	},
+	"sefariaHeadword": "גמ\"ל",
+	"headwords": [
+		{
+			"text": "גמ״ל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "a"

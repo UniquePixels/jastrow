@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00459",
-	"slug": "קוסדור",
-	"headword": {
-		"text": "קוּסְדּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּסְדֹּור",
+	"headwords": [
 		{
-			"text": "קִסְ׳"
+			"text": "קוּסְדּוֹר"
+		},
+		{
+			"text": "קִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1336,
 		"column": "a"

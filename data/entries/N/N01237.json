@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01237",
-	"slug": "נקף-5",
-	"headword": {
-		"text": "נֶקֶף"
-	},
+	"sefariaHeadword": "נֶקֶף",
+	"headwords": [
+		{
+			"text": "נֶקֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "a"

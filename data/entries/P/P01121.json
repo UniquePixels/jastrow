@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01121",
-	"slug": "עצירה",
-	"headword": {
-		"text": "עֲצִירָה"
-	},
+	"sefariaHeadword": "עֲצִירָה",
+	"headwords": [
+		{
+			"text": "עֲצִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "a"

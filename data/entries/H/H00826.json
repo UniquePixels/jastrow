@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00826",
-	"slug": "חיננא-2",
-	"headword": {
-		"text": "חֵינָנָא"
-	},
+	"sefariaHeadword": "חֵינָנָא",
+	"headwords": [
+		{
+			"text": "חֵינָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "b"

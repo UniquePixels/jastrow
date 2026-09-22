@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01022",
-	"slug": "קינגאי",
-	"headword": {
-		"text": "קינגאי"
-	},
+	"sefariaHeadword": "קינגאי",
+	"headwords": [
+		{
+			"text": "קינגאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

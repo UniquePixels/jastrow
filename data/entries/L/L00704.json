@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00704",
-	"slug": "לרע",
-	"headword": {
-		"text": "לִרַע"
-	},
+	"sefariaHeadword": "לִרַע",
+	"headwords": [
+		{
+			"text": "לִרַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "a"

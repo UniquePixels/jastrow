@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01093",
-	"slug": "פלניא-2",
-	"headword": {
-		"text": "פְּלַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּלַנְיָא",
+	"headwords": [
+		{
+			"text": "פְּלַנְיָא"
+		},
 		{
 			"text": "פְּלַנְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1183,
 		"column": "b"

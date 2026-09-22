@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00699",
-	"slug": "סימטא-1",
-	"headword": {
-		"text": "סִימְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְטָא",
+	"headwords": [
+		{
+			"text": "סִימְטָא"
+		},
 		{
 			"text": "סִמְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 981,
 		"column": "a"

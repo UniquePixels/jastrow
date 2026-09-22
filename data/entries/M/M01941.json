@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01941",
-	"slug": "מסך-4",
-	"headword": {
-		"text": "מָסָךְ"
-	},
+	"sefariaHeadword": "מָסָךְ",
+	"headwords": [
+		{
+			"text": "מָסָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "b"

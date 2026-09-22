@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00390",
-	"slug": "בורקי-2",
-	"headword": {
-		"text": "בּוֹרְקַי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוֹרְקַי II",
+	"headwords": [
+		{
+			"text": "בּוֹרְקַי",
+			"homograph": 2
+		},
 		{
 			"text": "בּוֹרְקַיי"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 151,
 		"column": "a"

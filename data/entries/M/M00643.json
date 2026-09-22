@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00643",
-	"slug": "מוריה",
-	"headword": {
-		"text": "מוֹרִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרִיָּה",
+	"headwords": [
 		{
-			"text": "הַר הַמּ׳"
+			"text": "מוֹרִיָּה"
+		},
+		{
+			"text": "הַר הַמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "a"

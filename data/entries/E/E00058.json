@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00058",
-	"slug": "הגדה",
-	"headword": {
-		"text": "הַגָּדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַגָּדָה",
+	"headwords": [
+		{
+			"text": "הַגָּדָה"
+		},
 		{
 			"text": "הֲגָדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 330,
 		"column": "b"

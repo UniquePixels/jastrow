@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "J00604",
-	"slug": "ירוד-2",
-	"headword": {
-		"text": "יָרוֹד",
-		"reconstructed": true,
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*יָרוֹד I",
+	"headwords": [
+		{
+			"text": "יָרוֹד",
+			"reconstructed": true,
+			"homograph": 1
+		},
 		{
 			"text": "יָארוֹד"
 		},
 		{
-			"text": "יָי׳"
+			"text": "יָי׳",
+			"partial": true
 		}
 	],
+	"display": "*{0} I, {1}, {2}",
 	"page": {
 		"number": 594,
 		"column": "b"

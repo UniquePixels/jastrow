@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A01663",
-	"slug": "אך-3",
-	"headword": {
-		"text": "אַךְ",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*אַךְ III",
+	"headwords": [
+		{
+			"text": "אַךְ",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 62,
 		"column": "a"

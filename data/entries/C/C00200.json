@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00200",
-	"slug": "גדיה",
-	"headword": {
-		"text": "גְּדִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּדִיָּה",
+	"headwords": [
+		{
+			"text": "גְּדִיָּה"
+		},
 		{
 			"text": "גְּדִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 212,
 		"column": "a"

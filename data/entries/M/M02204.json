@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02204",
-	"slug": "מפחא",
-	"headword": {
-		"text": "מַפָּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַפָּחָא",
+	"headwords": [
+		{
+			"text": "מַפָּחָא"
+		},
 		{
 			"text": "מַפַּחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"

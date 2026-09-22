@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00778",
-	"slug": "פיפוס",
-	"headword": {
-		"text": "פיפוס"
-	},
+	"sefariaHeadword": "פיפוס",
+	"headwords": [
+		{
+			"text": "פיפוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

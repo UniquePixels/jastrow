@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01099",
-	"slug": "עצבות",
-	"headword": {
-		"text": "עֲצֵבוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲצֵבוּת",
+	"headwords": [
+		{
+			"text": "עֲצֵבוּת"
+		},
 		{
 			"text": "עֲצֵיבוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1101,
 		"column": "b"

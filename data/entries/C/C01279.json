@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01279",
-	"slug": "גרדיון",
-	"headword": {
-		"text": "גרדיון"
-	},
+	"sefariaHeadword": "גרדיון",
+	"headwords": [
+		{
+			"text": "גרדיון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 266,
 		"column": "a"

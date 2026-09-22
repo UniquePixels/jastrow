@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00315",
-	"slug": "הטחה",
-	"headword": {
-		"text": "הֲטָחָה"
-	},
+	"sefariaHeadword": "הֲטָחָה",
+	"headwords": [
+		{
+			"text": "הֲטָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "b"

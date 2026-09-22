@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00163",
-	"slug": "גדגיא",
-	"headword": {
-		"text": "גדגיא"
-	},
+	"sefariaHeadword": "גדגיא",
+	"headwords": [
+		{
+			"text": "גדגיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

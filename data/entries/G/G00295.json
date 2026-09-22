@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00295",
-	"slug": "זיהרא-3",
-	"headword": {
-		"text": "זִיהֲרָא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "זִיהֲרָא III",
+	"headwords": [
+		{
+			"text": "זִיהֲרָא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 392,
 		"column": "a"

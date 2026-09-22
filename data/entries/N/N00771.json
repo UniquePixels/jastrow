@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00771",
-	"slug": "ניקורא",
-	"headword": {
-		"text": "נִיקּוּרָא"
-	},
+	"sefariaHeadword": "נִיקּוּרָא",
+	"headwords": [
+		{
+			"text": "נִיקּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00055",
-	"slug": "איבוב",
-	"headword": {
-		"text": "אִיבּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיבּוּב",
+	"headwords": [
+		{
+			"text": "אִיבּוּב"
+		},
 		{
 			"text": "אַבּוּב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

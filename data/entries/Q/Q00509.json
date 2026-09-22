@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00509",
-	"slug": "פטי",
-	"headword": {
-		"text": "פְּטֵי"
-	},
+	"sefariaHeadword": "פְּטֵי",
+	"headwords": [
+		{
+			"text": "פְּטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

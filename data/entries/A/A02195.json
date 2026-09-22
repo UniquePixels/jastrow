@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02195",
-	"slug": "אנטיפרוס",
-	"headword": {
-		"text": "אנטיפרוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אנטיפרוס",
+	"headwords": [
+		{
+			"text": "אנטיפרוס"
+		},
 		{
 			"text": "אנטיפריס"
 		},
@@ -12,6 +13,7 @@
 			"text": "אנטיפרס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 84,
 		"column": "a"

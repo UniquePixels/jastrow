@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00258",
-	"slug": "בולבטס",
-	"headword": {
-		"text": "בּוּלֶבְטֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּלֶבְטֵס",
+	"headwords": [
+		{
+			"text": "בּוּלֶבְטֵס"
+		},
 		{
 			"text": "בּוּלֶוְוטֵס"
 		},
@@ -12,6 +13,7 @@
 			"text": "בּוּלֶיוְטֵיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 146,
 		"column": "a"

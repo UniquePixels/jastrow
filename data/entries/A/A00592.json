@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00592",
-	"slug": "אוושר",
-	"headword": {
-		"text": "אֶוְושַׁר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶוְושַׁר",
+	"headwords": [
+		{
+			"text": "אֶוְושַׁר"
+		},
 		{
 			"text": "אֶוְשַׁר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "b"

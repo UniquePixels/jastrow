@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00216",
-	"slug": "טורא-1",
-	"headword": {
-		"text": "טוּרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טוּרָא II",
+	"headwords": [
+		{
+			"text": "טוּרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 526,
 		"column": "a"

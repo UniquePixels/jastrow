@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00109",
-	"slug": "כדד-1",
-	"headword": {
-		"text": "כָּדַד"
-	},
+	"sefariaHeadword": "כָּדַד",
+	"headwords": [
+		{
+			"text": "כָּדַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "b"

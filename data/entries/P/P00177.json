@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00177",
-	"slug": "עובטין",
-	"headword": {
-		"text": "עובטין"
-	},
+	"sefariaHeadword": "עובטין",
+	"headwords": [
+		{
+			"text": "עובטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "a"

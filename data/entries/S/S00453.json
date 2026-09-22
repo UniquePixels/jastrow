@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00453",
-	"slug": "קונרוס",
-	"headword": {
-		"text": "קונרוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קונרוס",
+	"headwords": [
+		{
+			"text": "קונרוס"
+		},
 		{
 			"text": "קונרס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1336,
 		"column": "a"

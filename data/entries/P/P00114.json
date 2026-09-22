@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00114",
-	"slug": "עד-4",
-	"headword": {
-		"text": "עד"
-	},
+	"sefariaHeadword": "עד",
+	"headwords": [
+		{
+			"text": "עד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1042,
 		"column": "b"

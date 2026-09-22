@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00668",
-	"slug": "לקוטאי",
-	"headword": {
-		"text": "לְקוֹטָאֵי"
-	},
+	"sefariaHeadword": "לְקוֹטָאֵי",
+	"headwords": [
+		{
+			"text": "לְקוֹטָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 717,
 		"column": "a"

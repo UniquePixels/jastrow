@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00381",
-	"slug": "תחנון",
-	"headword": {
-		"text": "תַּחֲנוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּחֲנוּן",
+	"headwords": [
+		{
+			"text": "תַּחֲנוּן"
+		},
 		{
 			"text": "תַּחֲנוּנִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1662,
 		"column": "a"

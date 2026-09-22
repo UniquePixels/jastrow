@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01409",
-	"slug": "איסוריא",
-	"headword": {
-		"text": "אֱיסוּרְיָא"
-	},
+	"sefariaHeadword": "אֱיסוּרְיָא",
+	"headwords": [
+		{
+			"text": "אֱיסוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 54,
 		"column": "a"

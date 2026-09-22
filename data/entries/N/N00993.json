@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00993",
-	"slug": "נעמי",
-	"headword": {
-		"text": "נָעֳמִי"
-	},
+	"sefariaHeadword": "נָעֳמִי",
+	"headwords": [
+		{
+			"text": "נָעֳמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 920,
 		"column": "b"

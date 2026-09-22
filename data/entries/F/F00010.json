@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00010",
-	"slug": "ובא",
-	"headword": {
-		"text": "ובא"
-	},
+	"sefariaHeadword": "ובא",
+	"headwords": [
+		{
+			"text": "ובא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "a"

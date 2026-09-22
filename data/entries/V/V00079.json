@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00079",
-	"slug": "תבשיל-2",
-	"headword": {
-		"text": "תַּבְשִׁיל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּבְשִׁיל ²",
+	"headwords": [
+		{
+			"text": "תַּבְשִׁיל",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּבְשִׁילָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1646,
 		"column": "a"

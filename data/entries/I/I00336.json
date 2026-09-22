@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00336",
-	"slug": "טיטרפלון",
-	"headword": {
-		"text": "טִיטְרַפְלוֹן"
-	},
+	"sefariaHeadword": "טִיטְרַפְלוֹן",
+	"headwords": [
+		{
+			"text": "טִיטְרַפְלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00194",
-	"slug": "יום-1",
-	"headword": {
-		"text": "יוֹם"
-	},
+	"sefariaHeadword": "יוֹם",
+	"headwords": [
+		{
+			"text": "יוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 569,
 		"column": "a"

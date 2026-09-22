@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01560",
-	"slug": "שנא-3",
-	"headword": {
-		"text": "שְׂנֵא"
-	},
+	"sefariaHeadword": "שְׂנֵא",
+	"headwords": [
+		{
+			"text": "שְׂנֵא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "a"

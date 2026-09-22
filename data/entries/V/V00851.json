@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V00851",
-	"slug": "תפקיד-2",
-	"headword": {
-		"text": "תַּפְקִיד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְקִיד ²",
+	"headwords": [
+		{
+			"text": "תַּפְקִיד",
+			"disambiguator": 2
+		},
 		{
 			"text": "תַּפְקִידָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "תַּפְקָדָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1689,
 		"column": "a"

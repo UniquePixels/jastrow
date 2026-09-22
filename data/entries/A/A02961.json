@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02961",
-	"slug": "ארבל-1",
-	"headword": {
-		"text": "אַרְבֵּל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְבֵּל I",
+	"headwords": [
+		{
+			"text": "אַרְבֵּל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 114,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

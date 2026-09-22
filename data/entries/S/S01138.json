@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01138",
-	"slug": "קיק-2",
-	"headword": {
-		"text": "קִיק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קִיק II",
+	"headwords": [
+		{
+			"text": "קִיק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1367,
 		"column": "b"

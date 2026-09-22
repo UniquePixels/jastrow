@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00555",
-	"slug": "חזקא",
-	"headword": {
-		"text": "חֶזְקָא"
-	},
+	"sefariaHeadword": "חֶזְקָא",
+	"headwords": [
+		{
+			"text": "חֶזְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 445,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00316",
-	"slug": "בוצציא",
-	"headword": {
-		"text": "בוצציא"
-	},
+	"sefariaHeadword": "בוצציא",
+	"headwords": [
+		{
+			"text": "בוצציא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "R00527",
-	"slug": "צלם-3",
-	"headword": {
-		"text": "צֶלֶם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֶלֶם ²",
+	"headwords": [
+		{
+			"text": "צֶלֶם",
+			"disambiguator": 2
+		},
 		{
 			"text": "צְלַם"
 		},
@@ -16,12 +17,15 @@
 			"text": "צַלְמָא"
 		},
 		{
-			"text": "צִלְ׳"
+			"text": "צִלְ׳",
+			"partial": true
 		},
 		{
-			"text": "צִילְ׳"
+			"text": "צִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1284,
 		"column": "b"

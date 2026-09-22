@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03428",
-	"slug": "אתמניותא",
-	"headword": {
-		"text": "אִתְמְנָיוּתָא"
-	},
+	"sefariaHeadword": "אִתְמְנָיוּתָא",
+	"headwords": [
+		{
+			"text": "אִתְמְנָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

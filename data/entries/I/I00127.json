@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00127",
-	"slug": "טווא",
-	"headword": {
-		"text": "טְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְוָוא",
+	"headwords": [
+		{
+			"text": "טְוָוא"
+		},
 		{
 			"text": "טָוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 522,
 		"column": "a"

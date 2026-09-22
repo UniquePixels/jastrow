@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00890",
-	"slug": "רעי-2",
-	"headword": {
-		"text": "רְעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעֵי",
+	"headwords": [
+		{
+			"text": "רְעֵי"
+		},
 		{
 			"text": "רְעָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1486,
 		"column": "b"

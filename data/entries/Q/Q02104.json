@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02104",
-	"slug": "פשרותא",
-	"headword": {
-		"text": "פְּשָׁרוּתָא"
-	},
+	"sefariaHeadword": "פְּשָׁרוּתָא",
+	"headwords": [
+		{
+			"text": "פְּשָׁרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

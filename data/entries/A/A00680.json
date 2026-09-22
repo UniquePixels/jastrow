@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00680",
-	"slug": "אולפן",
-	"headword": {
-		"text": "אוּלְפָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּלְפָן",
+	"headwords": [
+		{
+			"text": "אוּלְפָן"
+		},
 		{
 			"text": "אוּלְפָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 26,
 		"column": "a"

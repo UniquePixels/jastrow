@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00189",
-	"slug": "דוגית",
-	"headword": {
-		"text": "דּוּגִית"
-	},
+	"sefariaHeadword": "דּוּגִית",
+	"headwords": [
+		{
+			"text": "דּוּגִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

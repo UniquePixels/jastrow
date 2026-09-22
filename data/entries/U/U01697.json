@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01697",
-	"slug": "שעשיעתא",
-	"headword": {
-		"text": "שַׁעֲשִׁיעֲתָא"
-	},
+	"sefariaHeadword": "שַׁעֲשִׁיעֲתָא",
+	"headwords": [
+		{
+			"text": "שַׁעֲשִׁיעֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1613,
 		"column": "a"

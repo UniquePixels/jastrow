@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00559",
-	"slug": "רטי",
-	"headword": {
-		"text": "רטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רטי",
+	"headwords": [
+		{
+			"text": "רטי"
+		},
 		{
 			"text": "רָטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1471,
 		"column": "a"

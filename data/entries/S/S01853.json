@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01853",
-	"slug": "קצרן-1",
-	"headword": {
-		"text": "קַצְרָן"
-	},
+	"sefariaHeadword": "קַצְרָן",
+	"headwords": [
+		{
+			"text": "קַצְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "a"

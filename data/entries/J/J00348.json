@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00348",
-	"slug": "יירך",
-	"headword": {
-		"text": "יִירָךְ"
-	},
+	"sefariaHeadword": "יִירָךְ",
+	"headwords": [
+		{
+			"text": "יִירָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

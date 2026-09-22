@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00334",
-	"slug": "יימר",
-	"headword": {
-		"text": "יֵימַר"
-	},
+	"sefariaHeadword": "יֵימַר",
+	"headwords": [
+		{
+			"text": "יֵימַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 576,
 		"column": "b"

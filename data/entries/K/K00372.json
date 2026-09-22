@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00372",
-	"slug": "כורהנא",
-	"headword": {
-		"text": "כּוּרְהָנָא"
-	},
+	"sefariaHeadword": "כּוּרְהָנָא",
+	"headwords": [
+		{
+			"text": "כּוּרְהָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

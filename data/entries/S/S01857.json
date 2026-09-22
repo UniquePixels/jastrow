@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01857",
-	"slug": "קצת-1",
-	"headword": {
-		"text": "קְצָת"
-	},
+	"sefariaHeadword": "קְצָת",
+	"headwords": [
+		{
+			"text": "קְצָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1409,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02171",
-	"slug": "אנטוסאי",
-	"headword": {
-		"text": "אנטוסאי"
-	},
+	"sefariaHeadword": "אנטוסאי",
+	"headwords": [
+		{
+			"text": "אנטוסאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

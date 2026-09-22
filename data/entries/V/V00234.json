@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00234",
-	"slug": "תומרא",
-	"headword": {
-		"text": "תּוּמְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּמְרָא",
+	"headwords": [
+		{
+			"text": "תּוּמְרָא"
+		},
 		{
 			"text": "תּוּמַרְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1654,
 		"column": "a"

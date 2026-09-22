@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01104",
-	"slug": "גנוי",
-	"headword": {
-		"text": "גִּנּוּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גִּנּוּי",
+	"headwords": [
+		{
+			"text": "גִּנּוּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 257,
 		"column": "b"

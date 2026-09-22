@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00066",
-	"slug": "חבילא-1",
-	"headword": {
-		"text": "חֲבִילא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲבִילא I",
+	"headwords": [
+		{
+			"text": "חֲבִילא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 419,
 		"column": "a"

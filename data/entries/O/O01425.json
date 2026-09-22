@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01425",
-	"slug": "ספרא-2",
-	"headword": {
-		"text": "סַפָּרָא"
-	},
+	"sefariaHeadword": "סַפָּרָא",
+	"headwords": [
+		{
+			"text": "סַפָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1018,
 		"column": "a"

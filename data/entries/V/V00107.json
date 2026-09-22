@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00107",
-	"slug": "תדיי׳",
-	"headword": {
-		"text": "תדיי׳"
-	},
+	"sefariaHeadword": "תדיי׳",
+	"headwords": [
+		{
+			"text": "תדיי׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

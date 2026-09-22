@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00920",
-	"slug": "פכסמין",
-	"headword": {
-		"text": "פַּכְסְמִין"
-	},
+	"sefariaHeadword": "פַּכְסְמִין",
+	"headwords": [
+		{
+			"text": "פַּכְסְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00030",
-	"slug": "קבה-3",
-	"headword": {
-		"text": "קֵבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵבָה",
+	"headwords": [
 		{
-			"text": "קֵי׳"
+			"text": "קֵבָה"
+		},
+		{
+			"text": "קֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1307,
 		"column": "b"

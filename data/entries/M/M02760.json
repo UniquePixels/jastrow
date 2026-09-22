@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02760",
-	"slug": "מרק-1",
-	"headword": {
-		"text": "מָרַק"
-	},
+	"sefariaHeadword": "מָרַק",
+	"headwords": [
+		{
+			"text": "מָרַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

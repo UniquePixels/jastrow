@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01054",
-	"slug": "דרולמוסיא",
-	"headword": {
-		"text": "דרולמוסיא"
-	},
+	"sefariaHeadword": "דרולמוסיא",
+	"headwords": [
+		{
+			"text": "דרולמוסיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "b"

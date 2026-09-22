@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02268",
-	"slug": "מצדא-1",
-	"headword": {
-		"text": "מְצָדָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצָדָא I",
+	"headwords": [
+		{
+			"text": "מְצָדָא",
+			"homograph": 1
+		},
 		{
 			"text": "מְצַדְתָּא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 822,
 		"column": "b"

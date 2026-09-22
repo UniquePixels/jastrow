@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00352",
-	"slug": "גוזר",
-	"headword": {
-		"text": "גּוֹזֵר"
-	},
+	"sefariaHeadword": "גּוֹזֵר",
+	"headwords": [
+		{
+			"text": "גּוֹזֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

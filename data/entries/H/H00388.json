@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00388",
-	"slug": "חומצאי",
-	"headword": {
-		"text": "חוֹמְצָאֵי"
-	},
+	"sefariaHeadword": "חוֹמְצָאֵי",
+	"headwords": [
+		{
+			"text": "חוֹמְצָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02137",
-	"slug": "אנדרפטא",
-	"headword": {
-		"text": "אִנְדְּרַפְטָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִנְדְּרַפְטָא",
+	"headwords": [
+		{
+			"text": "אִנְדְּרַפְטָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אִנְדְּרַפְתָּא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "a"

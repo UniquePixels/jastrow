@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "M00997",
-	"slug": "מטכסא-2",
-	"headword": {
-		"text": "מְטַכְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְטַכְסָא",
+	"headwords": [
 		{
-			"text": "מִיטַ׳"
+			"text": "מְטַכְסָא"
 		},
 		{
-			"text": "מְטַקְ׳"
+			"text": "מִיטַ׳",
+			"partial": true
 		},
 		{
-			"text": "… סָה"
+			"text": "מְטַקְ׳",
+			"partial": true
+		},
+		{
+			"text": "סָה",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}, … {3})",
 	"page": {
 		"number": 767,
 		"column": "a"

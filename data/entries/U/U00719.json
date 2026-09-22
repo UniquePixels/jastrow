@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00719",
-	"slug": "שחרית",
-	"headword": {
-		"text": "שַׁחֲרִית"
-	},
+	"sefariaHeadword": "שַׁחֲרִית",
+	"headwords": [
+		{
+			"text": "שַׁחֲרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1552,
 		"column": "a"

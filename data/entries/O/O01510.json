@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01510",
-	"slug": "סרא",
-	"headword": {
-		"text": "סְרָא"
-	},
+	"sefariaHeadword": "סְרָא",
+	"headwords": [
+		{
+			"text": "סְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "b"

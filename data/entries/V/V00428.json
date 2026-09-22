@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00428",
-	"slug": "תיומת",
-	"headword": {
-		"text": "תְּיוֹמֶת"
-	},
+	"sefariaHeadword": "תְּיוֹמֶת",
+	"headwords": [
+		{
+			"text": "תְּיוֹמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

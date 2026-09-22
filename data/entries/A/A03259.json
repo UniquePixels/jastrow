@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03259",
-	"slug": "אשבורן",
-	"headword": {
-		"text": "אֶשְׁבּוֹרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשְׁבֹּורָן",
+	"headwords": [
+		{
+			"text": "אֶשְׁבּוֹרָן"
+		},
 		{
 			"text": "אֶישְׁבּוֹרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 126,
 		"column": "b"

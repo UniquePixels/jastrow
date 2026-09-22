@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00831",
-	"slug": "כנגד",
-	"headword": {
-		"text": "כַּנְגַּד",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּנְגַּד",
+	"headwords": [
+		{
+			"text": "כַּנְגַּד",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

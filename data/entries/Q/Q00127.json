@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00127",
-	"slug": "פדיפטי",
-	"headword": {
-		"text": "פְּדִיפְטֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פְּדִיפְטֵי",
+	"headwords": [
 		{
-			"text": "קָקוֹ פְּדִיפְטֵי"
+			"text": "פְּדִיפְטֵי",
+			"reconstructed": true
+		},
+		{
+			"text": "קָקוֹ פ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1137,
 		"column": "b"

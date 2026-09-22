@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00999",
-	"slug": "רצפית",
-	"headword": {
-		"text": "רִצְפִית"
-	},
+	"sefariaHeadword": "רִצְפִית",
+	"headwords": [
+		{
+			"text": "רִצְפִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1495,
 		"column": "a"

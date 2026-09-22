@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00430",
-	"slug": "תיוסאני",
-	"headword": {
-		"text": "תיוסאני"
-	},
+	"sefariaHeadword": "תיוסאני",
+	"headwords": [
+		{
+			"text": "תיוסאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00500",
-	"slug": "רחים-4",
-	"headword": {
-		"text": "רִחִים",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחִים II",
+	"headwords": [
+		{
+			"text": "רִחִים",
+			"homograph": 2
+		},
 		{
 			"text": "רְחִימָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1466,
 		"column": "a"

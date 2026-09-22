@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00526",
-	"slug": "תכברא",
-	"headword": {
-		"text": "תַּכְבְּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּכְבְּרָא",
+	"headwords": [
 		{
-			"text": "תּוּכְ׳"
+			"text": "תַּכְבְּרָא"
+		},
+		{
+			"text": "תּוּכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1667,
 		"column": "b"

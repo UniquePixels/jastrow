@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02225",
-	"slug": "מפנק",
-	"headword": {
-		"text": "מְפַנַּק"
-	},
+	"sefariaHeadword": "מְפַנַּק",
+	"headwords": [
+		{
+			"text": "מְפַנַּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00458",
-	"slug": "טי״ת",
-	"headword": {
-		"text": "טי״ת"
-	},
+	"sefariaHeadword": "טי\"ת",
+	"headwords": [
+		{
+			"text": "טי״ת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "a"

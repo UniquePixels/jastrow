@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02814",
-	"slug": "משהו",
-	"headword": {
-		"text": "מַשֶּׁהוּ"
-	},
+	"sefariaHeadword": "מַשֶּׁהוּ",
+	"headwords": [
+		{
+			"text": "מַשֶּׁהוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "a"

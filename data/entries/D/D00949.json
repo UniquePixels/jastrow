@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00949",
-	"slug": "דעקין",
-	"headword": {
-		"text": "דעקין"
-	},
+	"sefariaHeadword": "דעקין",
+	"headwords": [
+		{
+			"text": "דעקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 316,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00334",
-	"slug": "עוקמין",
-	"headword": {
-		"text": "עוקמין"
-	},
+	"sefariaHeadword": "עוקמין",
+	"headwords": [
+		{
+			"text": "עוקמין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "b"

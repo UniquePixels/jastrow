@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00640",
-	"slug": "צנעא",
-	"headword": {
-		"text": "צִנְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנְעָא",
+	"headwords": [
+		{
+			"text": "צִנְעָא"
+		},
 		{
 			"text": "צִנְעָה"
 		},
 		{
-			"text": "צִי׳"
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1293,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00032",
-	"slug": "גב-4",
-	"headword": {
-		"text": "גַּב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּב ²",
+	"headwords": [
+		{
+			"text": "גַּב",
+			"disambiguator": 2
+		},
 		{
 			"text": "גַּבָּא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 203,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00744",
-	"slug": "כליס",
-	"headword": {
-		"text": "כָּלִיס"
-	},
+	"sefariaHeadword": "כָּלִיס",
+	"headwords": [
+		{
+			"text": "כָּלִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 643,
 		"column": "a"

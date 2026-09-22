@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01039",
-	"slug": "רקם-1",
-	"headword": {
-		"text": "רָקַם"
-	},
+	"sefariaHeadword": "רָקַם",
+	"headwords": [
+		{
+			"text": "רָקַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01171",
-	"slug": "ברברי-2",
-	"headword": {
-		"text": "בַּרְבְּרַי"
-	},
+	"sefariaHeadword": "בַּרְבְּרַי",
+	"headwords": [
+		{
+			"text": "בַּרְבְּרַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

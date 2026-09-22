@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01004",
-	"slug": "אחווא",
-	"headword": {
-		"text": "אַחֲוָוא"
-	},
+	"sefariaHeadword": "אַחֲוָוא",
+	"headwords": [
+		{
+			"text": "אַחֲוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

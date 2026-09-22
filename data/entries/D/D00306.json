@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00306",
-	"slug": "דוסתאי",
-	"headword": {
-		"text": "דּוֹסְתַּאי"
-	},
+	"sefariaHeadword": "דּוֹסְתַּאי",
+	"headwords": [
+		{
+			"text": "דּוֹסְתַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "a"

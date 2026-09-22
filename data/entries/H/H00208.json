@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H00208",
-	"slug": "חדקא-1",
-	"headword": {
-		"text": "חִדְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִדְקָא",
+	"headwords": [
+		{
+			"text": "חִדְקָא"
+		},
 		{
 			"text": "חִידְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 427,
 		"column": "a"

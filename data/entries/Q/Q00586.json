@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00586",
-	"slug": "פיגמטא",
-	"headword": {
-		"text": "פיגמטא"
-	},
+	"sefariaHeadword": "פיגמטא",
+	"headwords": [
+		{
+			"text": "פיגמטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

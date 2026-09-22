@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00727",
-	"slug": "סינגורים",
-	"headword": {
-		"text": "סינגורים"
-	},
+	"sefariaHeadword": "סינגורים",
+	"headwords": [
+		{
+			"text": "סינגורים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 982,
 		"column": "b"

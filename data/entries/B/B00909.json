@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00909",
-	"slug": "בלקטורים",
-	"headword": {
-		"text": "בלקטורים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בלקטורים",
+	"headwords": [
+		{
+			"text": "בלקטורים"
+		},
 		{
 			"text": "בלקטירין"
 		},
@@ -12,6 +13,7 @@
 			"text": "רין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 175,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00388",
-	"slug": "היכרא",
-	"headword": {
-		"text": "הֶיכֵּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיכֵּרָא",
+	"headwords": [
+		{
+			"text": "הֶיכֵּרָא"
+		},
 		{
 			"text": "הֶיכֵּירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 345,
 		"column": "b"

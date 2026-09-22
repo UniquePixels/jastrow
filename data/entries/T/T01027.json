@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T01027",
-	"slug": "רקוח",
-	"headword": {
-		"text": "רִקּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִקּוּחַ",
+	"headwords": [
+		{
+			"text": "רִקּוּחַ"
+		},
 		{
 			"text": "רִקּוּם"
 		},
@@ -12,6 +13,7 @@
 			"text": "רִקּוּעַ"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1496,
 		"column": "b"

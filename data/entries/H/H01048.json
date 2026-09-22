@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01048",
-	"slug": "חלילה",
-	"headword": {
-		"text": "חָלִילָה"
-	},
+	"sefariaHeadword": "חָלִילָה",
+	"headwords": [
+		{
+			"text": "חָלִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 468,
 		"column": "b"

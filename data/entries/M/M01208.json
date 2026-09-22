@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01208",
-	"slug": "מין-3",
-	"headword": {
-		"text": "מִין",
-		"homograph": 3
-	},
+	"sefariaHeadword": "מִין III",
+	"headwords": [
+		{
+			"text": "מִין",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 776,
 		"column": "a"

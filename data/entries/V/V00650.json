@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00650",
-	"slug": "תמדיטוס",
-	"headword": {
-		"text": "תמדיטוס"
-	},
+	"sefariaHeadword": "תמדיטוס",
+	"headwords": [
+		{
+			"text": "תמדיטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1675,
 		"column": "a"

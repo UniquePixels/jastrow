@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00182",
-	"slug": "כובא-3",
-	"headword": {
-		"text": "כּוּבָּא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "כּוּבָּא III",
+	"headwords": [
+		{
+			"text": "כּוּבָּא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 616,
 		"column": "a"

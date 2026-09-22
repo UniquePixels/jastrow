@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01335",
-	"slug": "קליל-2",
-	"headword": {
-		"text": "קַלִּיל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַלִּיל I",
+	"headwords": [
+		{
+			"text": "קַלִּיל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1376,
 		"column": "b"

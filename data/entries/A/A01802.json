@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01802",
-	"slug": "אלוואי",
-	"headword": {
-		"text": "אַלְוַואי"
-	},
+	"sefariaHeadword": "אַלְוַואי",
+	"headwords": [
+		{
+			"text": "אַלְוַואי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

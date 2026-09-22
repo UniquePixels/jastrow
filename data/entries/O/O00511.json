@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00511",
-	"slug": "סטריות",
-	"headword": {
-		"text": "סְטַרְיוֹת"
-	},
+	"sefariaHeadword": "סְטַרְיוֹת",
+	"headwords": [
+		{
+			"text": "סְטַרְיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

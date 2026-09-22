@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00604",
-	"slug": "סיטומתא",
-	"headword": {
-		"text": "סִיטּוּמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיטּוּמְתָּא",
+	"headwords": [
 		{
-			"text": "סִטּ׳"
+			"text": "סִיטּוּמְתָּא"
+		},
+		{
+			"text": "סִטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 977,
 		"column": "b"

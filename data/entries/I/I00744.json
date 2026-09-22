@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00744",
-	"slug": "טרח-2",
-	"headword": {
-		"text": "טְרַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טְרַח I",
+	"headwords": [
+		{
+			"text": "טְרַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 551,
 		"column": "b"

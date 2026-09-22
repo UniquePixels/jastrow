@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01117",
-	"slug": "תתובא",
-	"headword": {
-		"text": "תְּתוּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּתוּבָא",
+	"headwords": [
+		{
+			"text": "תְּתוּבָא"
+		},
 		{
 			"text": "תְּתוּבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1705,
 		"column": "b"

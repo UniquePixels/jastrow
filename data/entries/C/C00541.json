@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00541",
-	"slug": "גזי",
-	"headword": {
-		"text": "גְּזֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזֵי",
+	"headwords": [
+		{
+			"text": "גְּזֵי"
+		},
 		{
 			"text": "גְּזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 229,
 		"column": "b"

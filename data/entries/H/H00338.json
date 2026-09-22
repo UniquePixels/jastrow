@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00338",
-	"slug": "חולזא",
-	"headword": {
-		"text": "חוּלְזָא"
-	},
+	"sefariaHeadword": "חוּלְזָא",
+	"headwords": [
+		{
+			"text": "חוּלְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "a"

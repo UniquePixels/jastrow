@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00543",
-	"slug": "אוגיה",
-	"headword": {
-		"text": "אוּגְיָה"
-	},
+	"sefariaHeadword": "אוּגְיָה",
+	"headwords": [
+		{
+			"text": "אוּגְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

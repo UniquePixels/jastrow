@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01296",
-	"slug": "ברכת",
-	"headword": {
-		"text": "בְּרֵכַת"
-	},
+	"sefariaHeadword": "בְּרֵכַת",
+	"headwords": [
+		{
+			"text": "בְּרֵכַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

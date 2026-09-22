@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00237",
-	"slug": "נדף-1",
-	"headword": {
-		"text": "נָדַף"
-	},
+	"sefariaHeadword": "נָדַף",
+	"headwords": [
+		{
+			"text": "נָדַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "b"

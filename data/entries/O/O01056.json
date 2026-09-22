@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01056",
-	"slug": "סמאלא",
-	"headword": {
-		"text": "סְמָאלָא"
-	},
+	"sefariaHeadword": "סְמָאלָא",
+	"headwords": [
+		{
+			"text": "סְמָאלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

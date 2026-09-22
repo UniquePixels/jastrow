@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01390",
-	"slug": "מכל",
-	"headword": {
-		"text": "מַכָּל"
-	},
+	"sefariaHeadword": "מַכָּל",
+	"headwords": [
+		{
+			"text": "מַכָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "a"

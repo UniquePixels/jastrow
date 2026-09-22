@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00985",
-	"slug": "בסיליאוס",
-	"headword": {
-		"text": "בָּסִילֵיאוֹס"
-	},
+	"sefariaHeadword": "בָּסִילֵיאוֹס",
+	"headwords": [
+		{
+			"text": "בָּסִילֵיאוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

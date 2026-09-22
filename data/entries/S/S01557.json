@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "S01557",
-	"slug": "קנטינר",
-	"headword": {
-		"text": "קִנְטִינָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְטִינָר",
+	"headwords": [
+		{
+			"text": "קִנְטִינָר"
+		},
 		{
 			"text": "קִנְטְנָר"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		},
 		{
-			"text": "קַ׳"
+			"text": "קַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1389,
 		"column": "b"

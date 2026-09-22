@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00023",
-	"slug": "כאר-2",
-	"headword": {
-		"text": "כָּאַר"
-	},
+	"sefariaHeadword": "כָּאַר",
+	"headwords": [
+		{
+			"text": "כָּאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "b"

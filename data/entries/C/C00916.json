@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00916",
-	"slug": "גלורין",
-	"headword": {
-		"text": "גלורין"
-	},
+	"sefariaHeadword": "גלורין",
+	"headwords": [
+		{
+			"text": "גלורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

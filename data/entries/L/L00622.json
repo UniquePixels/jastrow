@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00622",
-	"slug": "לענתא",
-	"headword": {
-		"text": "לַעַנְתָּא"
-	},
+	"sefariaHeadword": "לַעַנְתָּא",
+	"headwords": [
+		{
+			"text": "לַעַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

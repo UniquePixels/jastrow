@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00638",
-	"slug": "פיטרוס",
-	"headword": {
-		"text": "פִּיטְרוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְרוֹס",
+	"headwords": [
+		{
+			"text": "פִּיטְרוֹס"
+		},
 		{
 			"text": "פִּיטְרָס"
 		},
 		{
-			"text": "פִּטְ׳"
+			"text": "פִּטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1162,
 		"column": "a"

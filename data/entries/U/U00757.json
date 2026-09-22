@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00757",
-	"slug": "שטם-2",
-	"headword": {
-		"text": "שְׂטַם"
-	},
+	"sefariaHeadword": "שְׂטַם",
+	"headwords": [
+		{
+			"text": "שְׂטַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1554,
 		"column": "a"

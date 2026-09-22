@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02273",
-	"slug": "אנפיא",
-	"headword": {
-		"text": "אנפיא"
-	},
+	"sefariaHeadword": "אנפיא",
+	"headwords": [
+		{
+			"text": "אנפיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

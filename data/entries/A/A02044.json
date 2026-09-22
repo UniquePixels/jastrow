@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02044",
-	"slug": "אמנותא",
-	"headword": {
-		"text": "אמנותא"
-	},
+	"sefariaHeadword": "אמנותא",
+	"headwords": [
+		{
+			"text": "אמנותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "a"

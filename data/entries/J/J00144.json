@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00144",
-	"slug": "יהר-2",
-	"headword": {
-		"text": "יָהַר"
-	},
+	"sefariaHeadword": "יָהַר",
+	"headwords": [
+		{
+			"text": "יָהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

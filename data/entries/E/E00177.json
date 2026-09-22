@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00177",
-	"slug": "הו",
-	"headword": {
-		"text": "הוּ"
-	},
+	"sefariaHeadword": "הוּ",
+	"headwords": [
+		{
+			"text": "הוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

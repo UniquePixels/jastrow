@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00424",
-	"slug": "סוריא",
-	"headword": {
-		"text": "סוּרְיָא"
-	},
+	"sefariaHeadword": "סוּרְיָא",
+	"headwords": [
+		{
+			"text": "סוּרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

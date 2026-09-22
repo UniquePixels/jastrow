@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00027",
-	"slug": "טבאל",
-	"headword": {
-		"text": "טָבְאַל"
-	},
+	"sefariaHeadword": "טָבְאַל",
+	"headwords": [
+		{
+			"text": "טָבְאַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "a"

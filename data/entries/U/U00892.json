@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00892",
-	"slug": "שייטא",
-	"headword": {
-		"text": "שַׁיָּיטָא"
-	},
+	"sefariaHeadword": "שַׁיָּיטָא",
+	"headwords": [
+		{
+			"text": "שַׁיָּיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1561,
 		"column": "a"

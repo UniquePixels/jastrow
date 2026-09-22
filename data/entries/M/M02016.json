@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02016",
-	"slug": "מסרהבאית",
-	"headword": {
-		"text": "מְסַרְהֲבָאִית"
-	},
+	"sefariaHeadword": "מְסַרְהֲבָאִית",
+	"headwords": [
+		{
+			"text": "מְסַרְהֲבָאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

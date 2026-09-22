@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01667",
-	"slug": "סרק-6",
-	"headword": {
-		"text": "סָרָק"
-	},
+	"sefariaHeadword": "סָרָק",
+	"headwords": [
+		{
+			"text": "סָרָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1030,
 		"column": "a"

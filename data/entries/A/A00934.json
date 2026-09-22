@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00934",
-	"slug": "אושפיזכן",
-	"headword": {
-		"text": "אוּשְׁפִּיזְכָן"
-	},
+	"sefariaHeadword": "אוּשְׁפִּיזְכָן",
+	"headwords": [
+		{
+			"text": "אוּשְׁפִּיזְכָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "a"

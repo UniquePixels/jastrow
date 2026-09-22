@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00016",
-	"slug": "האל",
-	"headword": {
-		"text": "הָאֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָאֵל",
+	"headwords": [
+		{
+			"text": "הָאֵל"
+		},
 		{
 			"text": "הָאל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 328,
 		"column": "a"

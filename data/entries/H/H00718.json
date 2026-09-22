@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00718",
-	"slug": "חיי-3",
-	"headword": {
-		"text": "חַיֵּי"
-	},
+	"sefariaHeadword": "חַיֵּי",
+	"headwords": [
+		{
+			"text": "חַיֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00134",
-	"slug": "מגופה",
-	"headword": {
-		"text": "מְגוּפָה"
-	},
+	"sefariaHeadword": "מְגוּפָה",
+	"headwords": [
+		{
+			"text": "מְגוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 726,
 		"column": "b"

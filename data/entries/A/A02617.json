@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02617",
-	"slug": "אפוטרופוס",
-	"headword": {
-		"text": "אַפּוֹטְרוֹפּוֹס"
-	},
+	"sefariaHeadword": "אַפֹּוטְרוֹפֹּוס",
+	"headwords": [
+		{
+			"text": "אַפּוֹטְרוֹפּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

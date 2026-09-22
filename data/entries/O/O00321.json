@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00321",
-	"slug": "סולם",
-	"headword": {
-		"text": "סוּלָּם"
-	},
+	"sefariaHeadword": "סוּלָּם",
+	"headwords": [
+		{
+			"text": "סוּלָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "b"

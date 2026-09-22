@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00630",
-	"slug": "ניהר",
-	"headword": {
-		"text": "ניהר"
-	},
+	"sefariaHeadword": "ניהר",
+	"headwords": [
+		{
+			"text": "ניהר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "a"

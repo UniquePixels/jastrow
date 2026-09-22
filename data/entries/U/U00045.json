@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00045",
-	"slug": "שאפי",
-	"headword": {
-		"text": "שָׁאפֵי"
-	},
+	"sefariaHeadword": "שָׁאפֵי",
+	"headwords": [
+		{
+			"text": "שָׁאפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "b"

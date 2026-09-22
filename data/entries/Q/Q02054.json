@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02054",
-	"slug": "פשוט-2",
-	"headword": {
-		"text": "פָּשׁוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּשׁוּט",
+	"headwords": [
+		{
+			"text": "פָּשׁוּט"
+		},
 		{
 			"text": "פְּשׁוּטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1244,
 		"column": "b"

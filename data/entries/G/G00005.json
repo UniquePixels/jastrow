@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00005",
-	"slug": "זאר",
-	"headword": {
-		"text": "זְאַר"
-	},
+	"sefariaHeadword": "זְאַר",
+	"headwords": [
+		{
+			"text": "זְאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "a"

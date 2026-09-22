@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01013",
-	"slug": "קימפון",
-	"headword": {
-		"text": "קימפון"
-	},
+	"sefariaHeadword": "קימפון",
+	"headwords": [
+		{
+			"text": "קימפון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1362,
 		"column": "b"

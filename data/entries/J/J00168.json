@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00168",
-	"slug": "יודנה",
-	"headword": {
-		"text": "יוּדָנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּדָנָה",
+	"headwords": [
+		{
+			"text": "יוּדָנָה"
+		},
 		{
 			"text": "יוּדָנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 568,
 		"column": "a"

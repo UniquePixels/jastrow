@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01329",
-	"slug": "ספונא",
-	"headword": {
-		"text": "סַפּוֹנָא"
-	},
+	"sefariaHeadword": "סַפּוֹנָא",
+	"headwords": [
+		{
+			"text": "סַפּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

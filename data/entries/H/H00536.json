@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00536",
-	"slug": "חזיזא-1",
-	"headword": {
-		"text": "חֲזִיזָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲזִיזָא I",
+	"headwords": [
+		{
+			"text": "חֲזִיזָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 443,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01221",
-	"slug": "סני-1",
-	"headword": {
-		"text": "סַנְי"
-	},
+	"sefariaHeadword": "סַנְי",
+	"headwords": [
+		{
+			"text": "סַנְי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1006,
 		"column": "b"

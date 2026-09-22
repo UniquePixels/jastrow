@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01332",
-	"slug": "ספוניות",
-	"headword": {
-		"text": "סִפְוָנִיּוֹת"
-	},
+	"sefariaHeadword": "סִפְוָנִיּוֹת",
+	"headwords": [
+		{
+			"text": "סִפְוָנִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "b"

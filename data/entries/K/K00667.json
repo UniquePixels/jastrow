@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00667",
-	"slug": "ככרתו",
-	"headword": {
-		"text": "ככרתו"
-	},
+	"sefariaHeadword": "ככרתו",
+	"headwords": [
+		{
+			"text": "ככרתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 638,
 		"column": "b"

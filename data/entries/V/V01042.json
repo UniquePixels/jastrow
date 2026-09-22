@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "V01042",
-	"slug": "תרעתא",
-	"headword": {
-		"text": "תִּרְעֲתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּרְעֲתָא",
+	"headwords": [
 		{
-			"text": "תִּירְ׳"
+			"text": "תִּרְעֲתָא"
 		},
 		{
-			"text": "תּוּרְ׳"
+			"text": "תִּירְ׳",
+			"partial": true
+		},
+		{
+			"text": "תּוּרְ׳",
+			"partial": true
 		},
 		{
 			"text": "תּוּרְעָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1701,
 		"column": "b"

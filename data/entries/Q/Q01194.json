@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01194",
-	"slug": "פניאס",
-	"headword": {
-		"text": "פַּנְיָאס"
-	},
+	"sefariaHeadword": "פַּנְיָאס",
+	"headwords": [
+		{
+			"text": "פַּנְיָאס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1189,
 		"column": "a"

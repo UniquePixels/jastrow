@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00460",
-	"slug": "הינון",
-	"headword": {
-		"text": "הִינוּן"
-	},
+	"sefariaHeadword": "הִינוּן",
+	"headwords": [
+		{
+			"text": "הִינוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "b"

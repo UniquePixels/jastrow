@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00970",
-	"slug": "תרז-1",
-	"headword": {
-		"text": "תָּרַז"
-	},
+	"sefariaHeadword": "תָּרַז",
+	"headwords": [
+		{
+			"text": "תָּרַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

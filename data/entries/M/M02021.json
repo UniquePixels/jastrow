@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02021",
-	"slug": "מסרולה",
-	"headword": {
-		"text": "מסרולה"
-	},
+	"sefariaHeadword": "מסרולה",
+	"headwords": [
+		{
+			"text": "מסרולה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

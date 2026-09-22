@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00800",
-	"slug": "עלייה",
-	"headword": {
-		"text": "עֲלִיָּיה"
-	},
+	"sefariaHeadword": "עֲלִיָּיה",
+	"headwords": [
+		{
+			"text": "עֲלִיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "a"

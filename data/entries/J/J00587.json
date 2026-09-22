@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00587",
-	"slug": "יקרי",
-	"headword": {
-		"text": "יקרי"
-	},
+	"sefariaHeadword": "יקרי",
+	"headwords": [
+		{
+			"text": "יקרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "a"

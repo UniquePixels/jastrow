@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00678",
-	"slug": "טפקא",
-	"headword": {
-		"text": "טַפְקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַפְקָא",
+	"headwords": [
+		{
+			"text": "טַפְקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00591",
-	"slug": "סיום",
-	"headword": {
-		"text": "סִיּוּם"
-	},
+	"sefariaHeadword": "סִיּוּם",
+	"headwords": [
+		{
+			"text": "סִיּוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "a"

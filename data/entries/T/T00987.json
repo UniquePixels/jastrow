@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00987",
-	"slug": "רציעה",
-	"headword": {
-		"text": "רְצִיעָה"
-	},
+	"sefariaHeadword": "רְצִיעָה",
+	"headwords": [
+		{
+			"text": "רְצִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "a"

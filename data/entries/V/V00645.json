@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00645",
-	"slug": "תמא-1",
-	"headword": {
-		"text": "תֻּמָּא"
-	},
+	"sefariaHeadword": "תֻּמָּא",
+	"headwords": [
+		{
+			"text": "תֻּמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1675,
 		"column": "a"

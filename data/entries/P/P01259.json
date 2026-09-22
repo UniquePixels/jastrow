@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01259",
-	"slug": "ערבאה",
-	"headword": {
-		"text": "עֲרָבָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲרָבָאָה",
+	"headwords": [
+		{
+			"text": "עֲרָבָאָה"
+		},
 		{
 			"text": "עַרְבַאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1111,
 		"column": "b"

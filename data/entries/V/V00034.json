@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00034",
-	"slug": "תבב",
-	"headword": {
-		"text": "תְּבַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּבַב",
+	"headwords": [
+		{
+			"text": "תְּבַב"
+		},
 		{
 			"text": "תַּבֵּב"
 		},
@@ -12,6 +13,7 @@
 			"text": "תַּבֵּיב"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1642,
 		"column": "b"

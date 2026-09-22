@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00440",
-	"slug": "בזיון",
-	"headword": {
-		"text": "בִּזָּיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּזָּיוֹן",
+	"headwords": [
 		{
-			"text": "בִּיזָּ׳"
+			"text": "בִּזָּיוֹן"
+		},
+		{
+			"text": "בִּיזָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 153,
 		"column": "a"

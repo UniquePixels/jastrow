@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00734",
-	"slug": "עכין",
-	"headword": {
-		"text": "עָכִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָכִין",
+	"headwords": [
+		{
+			"text": "עָכִין"
+		},
 		{
 			"text": "עֲכִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1078,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02115",
-	"slug": "אנדיפי",
-	"headword": {
-		"text": "אַנְדִּיפֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַנְדִּיפֵי",
+	"headwords": [
+		{
+			"text": "אַנְדִּיפֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "אַנְטִיפֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00084",
-	"slug": "דברונא",
-	"headword": {
-		"text": "דַּבְרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּבְרוֹנָא",
+	"headwords": [
+		{
+			"text": "דַּבְרוֹנָא"
+		},
 		{
 			"text": "דברונה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 279,
 		"column": "a"

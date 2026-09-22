@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00477",
-	"slug": "חורף",
-	"headword": {
-		"text": "חוֹרֶף"
-	},
+	"sefariaHeadword": "חוֹרֶף",
+	"headwords": [
+		{
+			"text": "חוֹרֶף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

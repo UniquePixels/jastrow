@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01035",
-	"slug": "שיציו-1",
-	"headword": {
-		"text": "שֵׁיצְיוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיצְיוּ",
+	"headwords": [
+		{
+			"text": "שֵׁיצְיוּ"
+		},
 		{
 			"text": "שֵׁיצָיוּ"
 		},
@@ -12,9 +13,11 @@
 			"text": "שֵׁיצָיוּתָא"
 		},
 		{
-			"text": "שֵׁצָ׳"
+			"text": "שֵׁצָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1567,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00634",
-	"slug": "מורוס",
-	"headword": {
-		"text": "מוֹרוֹס"
-	},
+	"sefariaHeadword": "מוֹרוֹס",
+	"headwords": [
+		{
+			"text": "מוֹרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "b"

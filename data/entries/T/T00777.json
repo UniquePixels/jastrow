@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00777",
-	"slug": "רכפא",
-	"headword": {
-		"text": "רִכְפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִכְפָּא",
+	"headwords": [
+		{
+			"text": "רִכְפָּא"
+		},
 		{
 			"text": "רִכְפָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1480,
 		"column": "b"

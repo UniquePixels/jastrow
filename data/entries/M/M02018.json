@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02018",
-	"slug": "מסרהובין",
-	"headword": {
-		"text": "מְסַרְהוֹבִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסַרְהוֹבִין",
+	"headwords": [
+		{
+			"text": "מְסַרְהוֹבִין"
+		},
 		{
 			"text": "מְסַרְהֲוִוין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 811,
 		"column": "b"

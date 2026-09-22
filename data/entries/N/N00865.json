@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00865",
-	"slug": "נמורין",
-	"headword": {
-		"text": "נְמוֹרִין"
-	},
+	"sefariaHeadword": "נְמוֹרִין",
+	"headwords": [
+		{
+			"text": "נְמוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

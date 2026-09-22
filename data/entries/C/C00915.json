@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00915",
-	"slug": "גלופקרי",
-	"headword": {
-		"text": "גְּלוּפְקְרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלוּפְקְרֵי",
+	"headwords": [
+		{
+			"text": "גְּלוּפְקְרֵי"
+		},
 		{
 			"text": "גְּלוּפְקְרִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "קְלוּבְקְרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 247,
 		"column": "a"

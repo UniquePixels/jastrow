@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00770",
-	"slug": "כלנוס",
-	"headword": {
-		"text": "כלנוס"
-	},
+	"sefariaHeadword": "כלנוס",
+	"headwords": [
+		{
+			"text": "כלנוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00694",
-	"slug": "זרזר",
-	"headword": {
-		"text": "זַרְזָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְזָר",
+	"headwords": [
+		{
+			"text": "זַרְזָר"
+		},
 		{
 			"text": "זַרְזָרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 413,
 		"column": "a"

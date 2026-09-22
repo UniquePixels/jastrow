@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00827",
-	"slug": "גירושין",
-	"headword": {
-		"text": "גֵּירוּשִׁין"
-	},
+	"sefariaHeadword": "גֵּירוּשִׁין",
+	"headwords": [
+		{
+			"text": "גֵּירוּשִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "b"

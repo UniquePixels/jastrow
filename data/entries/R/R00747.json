@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00747",
-	"slug": "צרוף-1",
-	"headword": {
-		"text": "צָרוֹף"
-	},
+	"sefariaHeadword": "צָרוֹף",
+	"headwords": [
+		{
+			"text": "צָרוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1300,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00817",
-	"slug": "צתרי",
-	"headword": {
-		"text": "צִתְרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִתְרֵי",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִתְרֵי"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1306,
 		"column": "a"

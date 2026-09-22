@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00535",
-	"slug": "חזיז-3",
-	"headword": {
-		"text": "חֲזִיז",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲזִיז II",
+	"headwords": [
 		{
-			"text": "כְּפַר חֲזִיז"
+			"text": "חֲזִיז",
+			"homograph": 2
+		},
+		{
+			"text": "כְּפַר ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 443,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

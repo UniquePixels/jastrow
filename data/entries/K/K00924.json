@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00924",
-	"slug": "כסיל",
-	"headword": {
-		"text": "כְּסִיל"
-	},
+	"sefariaHeadword": "כְּסִיל",
+	"headwords": [
+		{
+			"text": "כְּסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 653,
 		"column": "b"

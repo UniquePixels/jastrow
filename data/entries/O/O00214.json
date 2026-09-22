@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "O00214",
-	"slug": "סהדו",
-	"headword": {
-		"text": "סַהֲדוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַהֲדוּ",
+	"headwords": [
+		{
+			"text": "סַהֲדוּ"
+		},
 		{
 			"text": "סַהֲדוּתָא"
 		},
 		{
-			"text": "שַׂ׳"
+			"text": "שַׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 959,
 		"column": "b"

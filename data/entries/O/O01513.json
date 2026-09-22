@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01513",
-	"slug": "סרב-3",
-	"headword": {
-		"text": "סְרַב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְרַב II",
+	"headwords": [
+		{
+			"text": "סְרַב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1022,
 		"column": "a"

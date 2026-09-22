@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00724",
-	"slug": "מוה",
-	"headword": {
-		"text": "מַוֶּה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַוֶּה I",
+	"headwords": [
+		{
+			"text": "מַוֶּה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 753,
 		"column": "b"

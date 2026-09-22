@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01699",
-	"slug": "שעתא",
-	"headword": {
-		"text": "שַׁעְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁעְתָּא",
+	"headwords": [
+		{
+			"text": "שַׁעְתָּא"
+		},
 		{
 			"text": "שַׁעֲתָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "שָׁעָה"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1613,
 		"column": "a"

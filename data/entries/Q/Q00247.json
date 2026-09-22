@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00247",
-	"slug": "פומאריה",
-	"headword": {
-		"text": "פומאריה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פומאריה",
+	"headwords": [
+		{
+			"text": "פומאריה"
+		},
 		{
 			"text": "פומארים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1142,
 		"column": "b"

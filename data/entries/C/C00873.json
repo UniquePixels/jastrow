@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00873",
-	"slug": "גלגלון",
-	"headword": {
-		"text": "גַּלְגִּלּוֹן"
-	},
+	"sefariaHeadword": "גַּלְגִּלּוֹן",
+	"headwords": [
+		{
+			"text": "גַּלְגִּלּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 245,
 		"column": "a"

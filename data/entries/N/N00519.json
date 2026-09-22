@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00519",
-	"slug": "נחש-2",
-	"headword": {
-		"text": "נְחַשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נְחַשׁ I",
+	"headwords": [
+		{
+			"text": "נְחַשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 896,
 		"column": "b"

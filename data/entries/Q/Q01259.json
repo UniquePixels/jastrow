@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01259",
-	"slug": "פסטומוס",
-	"headword": {
-		"text": "פַּסְטוֹמוֹס"
-	},
+	"sefariaHeadword": "פַּסְטוֹמוֹס",
+	"headwords": [
+		{
+			"text": "פַּסְטוֹמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

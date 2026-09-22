@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00484",
-	"slug": "טלותה",
-	"headword": {
-		"text": "טלותה"
-	},
+	"sefariaHeadword": "טלותה",
+	"headwords": [
+		{
+			"text": "טלותה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 536,
 		"column": "a"

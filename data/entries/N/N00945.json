@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00945",
-	"slug": "נסיתא",
-	"headword": {
-		"text": "נִסֵּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִסֵּיתָא",
+	"headwords": [
+		{
+			"text": "נִסֵּיתָא"
+		},
 		{
 			"text": "נִסְתָא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 917,
 		"column": "a"

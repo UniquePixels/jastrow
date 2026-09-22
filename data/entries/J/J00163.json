@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00163",
-	"slug": "יודה",
-	"headword": {
-		"text": "יוּדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּדָה",
+	"headwords": [
+		{
+			"text": "יוּדָה"
+		},
 		{
 			"text": "יְהוּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 567,
 		"column": "b"

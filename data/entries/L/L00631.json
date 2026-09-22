@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00631",
-	"slug": "לפוסין",
-	"headword": {
-		"text": "לְפוּסִין"
-	},
+	"sefariaHeadword": "לְפוּסִין",
+	"headwords": [
+		{
+			"text": "לְפוּסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

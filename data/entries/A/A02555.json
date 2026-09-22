@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02555",
-	"slug": "אסרדיוט",
-	"headword": {
-		"text": "אִסְרַדְיוֹט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְרַדְיוֹט",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְרַדְיוֹט"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 98,
 		"column": "a"

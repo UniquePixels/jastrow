@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00134",
-	"slug": "פדר",
-	"headword": {
-		"text": "פֶּדֶר"
-	},
+	"sefariaHeadword": "פֶּדֶר",
+	"headwords": [
+		{
+			"text": "פֶּדֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1137,
 		"column": "b"

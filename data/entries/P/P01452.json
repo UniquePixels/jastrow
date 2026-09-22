@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P01452",
-	"slug": "ערקת",
-	"headword": {
-		"text": "עַרְקַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְקַת",
+	"headwords": [
 		{
-			"text": "עַרְקַת לִבְנָה"
+			"text": "עַרְקַת"
+		},
+		{
+			"text": "עַ׳ לִבְנָה",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1123,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

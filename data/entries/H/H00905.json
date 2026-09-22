@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00905",
-	"slug": "חיתטא",
-	"headword": {
-		"text": "חיתטא"
-	},
+	"sefariaHeadword": "חיתטא",
+	"headwords": [
+		{
+			"text": "חיתטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "a"

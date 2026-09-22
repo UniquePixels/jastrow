@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00813",
-	"slug": "טריפון",
-	"headword": {
-		"text": "טְרִיפוֹן"
-	},
+	"sefariaHeadword": "טְרִיפוֹן",
+	"headwords": [
+		{
+			"text": "טְרִיפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "a"

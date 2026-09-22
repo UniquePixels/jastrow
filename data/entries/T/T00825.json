@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00825",
-	"slug": "רמכוך",
-	"headword": {
-		"text": "רמכוך"
-	},
+	"sefariaHeadword": "רמכוך",
+	"headwords": [
+		{
+			"text": "רמכוך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01274",
-	"slug": "פסיגא",
-	"headword": {
-		"text": "פְּסִיגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּסִיגָא",
+	"headwords": [
+		{
+			"text": "פְּסִיגָא"
+		},
 		{
 			"text": "פְּסִיגָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1194,
 		"column": "b"

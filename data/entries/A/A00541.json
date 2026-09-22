@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00541",
-	"slug": "אוגורי",
-	"headword": {
-		"text": "אוגורי"
-	},
+	"sefariaHeadword": "אוגורי",
+	"headwords": [
+		{
+			"text": "אוגורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

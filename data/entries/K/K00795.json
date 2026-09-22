@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00795",
-	"slug": "כמונא-1",
-	"headword": {
-		"text": "כַּמּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּמּוֹנָא",
+	"headwords": [
+		{
+			"text": "כַּמּוֹנָא"
+		},
 		{
 			"text": "כְּמוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 646,
 		"column": "a"

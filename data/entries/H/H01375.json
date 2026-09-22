@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01375",
-	"slug": "חסיכנא",
-	"headword": {
-		"text": "חֲסֵיכְנָא"
-	},
+	"sefariaHeadword": "חֲסֵיכְנָא",
+	"headwords": [
+		{
+			"text": "חֲסֵיכְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00215",
-	"slug": "סהיד-1",
-	"headword": {
-		"text": "סְהֵיד"
-	},
+	"sefariaHeadword": "סְהֵיד",
+	"headwords": [
+		{
+			"text": "סְהֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 959,
 		"column": "b"

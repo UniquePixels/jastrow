@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00646",
-	"slug": "ירמטיא",
-	"headword": {
-		"text": "יַרְמַטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַרְמַטְיָא",
+	"headwords": [
+		{
+			"text": "יַרְמַטְיָא"
+		},
 		{
 			"text": "יַרְמַטְיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 597,
 		"column": "a"

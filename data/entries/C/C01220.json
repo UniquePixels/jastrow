@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01220",
-	"slug": "גץ",
-	"headword": {
-		"text": "גֵּץ"
-	},
+	"sefariaHeadword": "גֵּץ",
+	"headwords": [
+		{
+			"text": "גֵּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00977",
-	"slug": "גלף-1",
-	"headword": {
-		"text": "גָּלַף"
-	},
+	"sefariaHeadword": "גָּלַף",
+	"headwords": [
+		{
+			"text": "גָּלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

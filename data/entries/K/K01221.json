@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01221",
-	"slug": "כרכרן",
-	"headword": {
-		"text": "כִּרְכְּרָן"
-	},
+	"sefariaHeadword": "כִּרְכְּרָן",
+	"headwords": [
+		{
+			"text": "כִּרְכְּרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "b"

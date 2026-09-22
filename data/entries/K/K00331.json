@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00331",
-	"slug": "כוספן",
-	"headword": {
-		"text": "כּוּסְפָן"
-	},
+	"sefariaHeadword": "כּוּסְפָן",
+	"headwords": [
+		{
+			"text": "כּוּסְפָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

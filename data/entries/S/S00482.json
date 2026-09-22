@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00482",
-	"slug": "קוסני",
-	"headword": {
-		"text": "קוּסְנֵי"
-	},
+	"sefariaHeadword": "קוּסְנֵי",
+	"headwords": [
+		{
+			"text": "קוּסְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1337,
 		"column": "a"

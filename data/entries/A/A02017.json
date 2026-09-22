@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02017",
-	"slug": "אמי",
-	"headword": {
-		"text": "אֲמִי"
-	},
+	"sefariaHeadword": "אֲמִי",
+	"headwords": [
+		{
+			"text": "אֲמִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

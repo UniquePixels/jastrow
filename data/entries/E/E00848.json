@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00848",
-	"slug": "הרזיפא",
-	"headword": {
-		"text": "הַרְזִיפָּא"
-	},
+	"sefariaHeadword": "הַרְזִיפָּא",
+	"headwords": [
+		{
+			"text": "הַרְזִיפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00166",
-	"slug": "הדרניתא",
-	"headword": {
-		"text": "הַדְרָנִיתָא"
-	},
+	"sefariaHeadword": "הַדְרָנִיתָא",
+	"headwords": [
+		{
+			"text": "הַדְרָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "b"

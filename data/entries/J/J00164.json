@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00164",
-	"slug": "יודייה",
-	"headword": {
-		"text": "יודייה"
-	},
+	"sefariaHeadword": "יודייה",
+	"headwords": [
+		{
+			"text": "יודייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "b"

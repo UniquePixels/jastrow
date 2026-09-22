@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01968",
-	"slug": "אמאן",
-	"headword": {
-		"text": "אַמַּאן"
-	},
+	"sefariaHeadword": "אַמַּאן",
+	"headwords": [
+		{
+			"text": "אַמַּאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 74,
 		"column": "b"

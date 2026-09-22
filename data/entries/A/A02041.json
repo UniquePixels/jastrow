@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02041",
-	"slug": "אמנה-1",
-	"headword": {
-		"text": "אֲמָנָה"
-	},
+	"sefariaHeadword": "אֲמָנָה",
+	"headwords": [
+		{
+			"text": "אֲמָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 77,
 		"column": "b"

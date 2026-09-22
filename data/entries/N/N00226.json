@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00226",
-	"slug": "נדיין-1",
-	"headword": {
-		"text": "נַדְיָין"
-	},
+	"sefariaHeadword": "נַדְיָין",
+	"headwords": [
+		{
+			"text": "נַדְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

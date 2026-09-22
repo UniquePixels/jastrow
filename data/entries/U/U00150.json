@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00150",
-	"slug": "שבן",
-	"headword": {
-		"text": "שבן"
-	},
+	"sefariaHeadword": "שבן",
+	"headwords": [
+		{
+			"text": "שבן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1515,
 		"column": "a"

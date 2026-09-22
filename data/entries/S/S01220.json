@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01220",
-	"slug": "קישקוש",
-	"headword": {
-		"text": "קִישְׁקוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישְׁקוּשׁ",
+	"headwords": [
 		{
-			"text": "קִשְׁ׳"
+			"text": "קִישְׁקוּשׁ"
+		},
+		{
+			"text": "קִשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "b"

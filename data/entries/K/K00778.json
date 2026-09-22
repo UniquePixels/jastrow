@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00778",
-	"slug": "כלקטורים",
-	"headword": {
-		"text": "כלקטורים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כלקטורים",
+	"headwords": [
+		{
+			"text": "כלקטורים"
+		},
 		{
 			"text": "כלקטורין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 645,
 		"column": "b"

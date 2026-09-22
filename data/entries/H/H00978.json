@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00978",
-	"slug": "חלבצין",
-	"headword": {
-		"text": "חַלְבֵּצִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַלְבֵּצִין",
+	"headwords": [
 		{
-			"text": "חַלְבֵּי׳"
+			"text": "חַלְבֵּצִין"
+		},
+		{
+			"text": "חַלְבֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 464,
 		"column": "b"

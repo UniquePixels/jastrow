@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01698",
-	"slug": "אכל-3",
-	"headword": {
-		"text": "אֲכַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲכַל II",
+	"headwords": [
+		{
+			"text": "אֲכַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 63,
 		"column": "b"

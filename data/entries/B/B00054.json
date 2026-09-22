@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00054",
-	"slug": "בבו",
-	"headword": {
-		"text": "בָּבוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּבוּ",
+	"headwords": [
+		{
+			"text": "בָּבוּ"
+		},
 		{
 			"text": "בבוי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 136,
 		"column": "b"

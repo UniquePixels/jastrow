@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00771",
-	"slug": "הפשיט",
-	"headword": {
-		"text": "הֶפְשֵׁיט"
-	},
+	"sefariaHeadword": "הֶפְשֵׁיט",
+	"headwords": [
+		{
+			"text": "הֶפְשֵׁיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "a"

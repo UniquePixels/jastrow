@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01249",
-	"slug": "קלבסים",
-	"headword": {
-		"text": "קלבסים"
-	},
+	"sefariaHeadword": "קלבסים",
+	"headwords": [
+		{
+			"text": "קלבסים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "a"

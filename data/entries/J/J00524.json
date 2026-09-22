@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00524",
-	"slug": "יצוק",
-	"headword": {
-		"text": "יָצוּק"
-	},
+	"sefariaHeadword": "יָצוּק",
+	"headwords": [
+		{
+			"text": "יָצוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 588,
 		"column": "a"

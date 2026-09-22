@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00387",
-	"slug": "לטי",
-	"headword": {
-		"text": "לְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְטִי",
+	"headwords": [
+		{
+			"text": "לְטִי"
+		},
 		{
 			"text": "לְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 705,
 		"column": "a"

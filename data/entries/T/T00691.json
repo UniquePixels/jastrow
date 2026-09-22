@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00691",
-	"slug": "ריק-1",
-	"headword": {
-		"text": "רִיק"
-	},
+	"sefariaHeadword": "רִיק",
+	"headwords": [
+		{
+			"text": "רִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "b"

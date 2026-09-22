@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01714",
-	"slug": "קפוטקאה",
-	"headword": {
-		"text": "קַפּוּטְקָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַפּוּטְקָאָה",
+	"headwords": [
+		{
+			"text": "קַפּוּטְקָאָה"
+		},
 		{
 			"text": "קַפּוּטְקָיָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "קַפּוּטְקְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1399,
 		"column": "a"

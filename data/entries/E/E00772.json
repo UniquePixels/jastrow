@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00772",
-	"slug": "הפשר",
-	"headword": {
-		"text": "הֶפְשֵׁר"
-	},
+	"sefariaHeadword": "הֶפְשֵׁר",
+	"headwords": [
+		{
+			"text": "הֶפְשֵׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "a"

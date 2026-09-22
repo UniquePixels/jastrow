@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01197",
-	"slug": "פנייס",
-	"headword": {
-		"text": "פַּנְיָיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְיָיס",
+	"headwords": [
+		{
+			"text": "פַּנְיָיס"
+		},
 		{
 			"text": "פַּנְיָאס"
 		},
@@ -12,12 +13,10 @@
 			"text": "פַּמְיָיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1189,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

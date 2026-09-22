@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00884",
-	"slug": "עמיל",
-	"headword": {
-		"text": "עָמִיל"
-	},
+	"sefariaHeadword": "עָמִיל",
+	"headwords": [
+		{
+			"text": "עָמִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1088,
 		"column": "a"

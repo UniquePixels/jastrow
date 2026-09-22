@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00804",
-	"slug": "חימוצא",
-	"headword": {
-		"text": "חִימּוּצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִימּוּצָא",
+	"headwords": [
 		{
-			"text": "חִמּ׳"
+			"text": "חִימּוּצָא"
+		},
+		{
+			"text": "חִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 457,
 		"column": "b"

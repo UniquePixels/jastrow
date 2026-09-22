@@ -1,9 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00107",
-	"slug": "כד׳-כדבובא",
-	"headword": {
-		"text": "כִּדְ׳ כַּדְבוּבָא"
-	},
+	"sefariaHeadword": "כִּדְ׳ כַּדְבוּבָא",
+	"headwords": [
+		{
+			"text": "כִּדְ׳ כַּדְבוּבָא",
+			"partial": true
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 612,
 		"column": "b"

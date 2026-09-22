@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01785",
-	"slug": "חרשא-1",
-	"headword": {
-		"text": "חַרְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְשָׁא",
+	"headwords": [
+		{
+			"text": "חַרְשָׁא"
+		},
 		{
 			"text": "חֵירְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 507,
 		"column": "b"

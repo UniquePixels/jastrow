@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00816",
-	"slug": "הרגינין",
-	"headword": {
-		"text": "הַרְגִּינִּין"
-	},
+	"sefariaHeadword": "הַרְגִּינִּין",
+	"headwords": [
+		{
+			"text": "הַרְגִּינִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "b"

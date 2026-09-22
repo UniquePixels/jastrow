@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01338",
-	"slug": "נשף-3",
-	"headword": {
-		"text": "נְשַׁף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נְשַׁף II",
+	"headwords": [
+		{
+			"text": "נְשַׁף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 941,
 		"column": "b"

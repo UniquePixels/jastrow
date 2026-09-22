@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01851",
-	"slug": "חשכא",
-	"headword": {
-		"text": "חֶשְׁכָּא"
-	},
+	"sefariaHeadword": "חֶשְׁכָּא",
+	"headwords": [
+		{
+			"text": "חֶשְׁכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 511,
 		"column": "a"

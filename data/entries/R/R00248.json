@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00248",
-	"slug": "צוראה",
-	"headword": {
-		"text": "צוֹרָאָה"
-	},
+	"sefariaHeadword": "צוֹרָאָה",
+	"headwords": [
+		{
+			"text": "צוֹרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1271,
 		"column": "a"

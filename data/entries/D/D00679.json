@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00679",
-	"slug": "דיפלי",
-	"headword": {
-		"text": "דִּיפְּלֵי"
-	},
+	"sefariaHeadword": "דִּיפְּלֵי",
+	"headwords": [
+		{
+			"text": "דִּיפְּלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

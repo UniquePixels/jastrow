@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01675",
-	"slug": "קסנטור",
-	"headword": {
-		"text": "קסנטור"
-	},
+	"sefariaHeadword": "קסנטור",
+	"headwords": [
+		{
+			"text": "קסנטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

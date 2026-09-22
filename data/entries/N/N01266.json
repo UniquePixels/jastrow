@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01266",
-	"slug": "נרדא",
-	"headword": {
-		"text": "נִרְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִרְדָּא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִרְדָּא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 936,
 		"column": "b"

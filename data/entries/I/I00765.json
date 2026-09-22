@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00765",
-	"slug": "טרי-1",
-	"headword": {
-		"text": "טְרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִי",
+	"headwords": [
+		{
+			"text": "טְרִי"
+		},
 		{
 			"text": "טְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "b"

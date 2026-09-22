@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00700",
-	"slug": "מותן",
-	"headword": {
-		"text": "מוֹתָן"
-	},
+	"sefariaHeadword": "מוֹתָן",
+	"headwords": [
+		{
+			"text": "מוֹתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

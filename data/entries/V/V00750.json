@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00750",
-	"slug": "תנינא",
-	"headword": {
-		"text": "תַּנִּינָא"
-	},
+	"sefariaHeadword": "תַּנִּינָא",
+	"headwords": [
+		{
+			"text": "תַּנִּינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1682,
 		"column": "a"

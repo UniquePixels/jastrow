@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00545",
-	"slug": "מוסכין",
-	"headword": {
-		"text": "מוּסְכִּין"
-	},
+	"sefariaHeadword": "מוּסְכִּין",
+	"headwords": [
+		{
+			"text": "מוּסְכִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

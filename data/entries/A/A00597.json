@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00597",
-	"slug": "אוותנטיא",
-	"headword": {
-		"text": "אַוותֶּנְטְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַוותֶּנְטְיָא",
+	"headwords": [
 		{
-			"text": "אַוְתֶּ׳"
+			"text": "אַוותֶּנְטְיָא"
+		},
+		{
+			"text": "אַוְתֶּ׳",
+			"partial": true
 		},
 		{
 			"text": "אַוְותֶּנְטְיָיה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 23,
 		"column": "b"

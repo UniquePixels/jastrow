@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00666",
-	"slug": "עיקר-1",
-	"headword": {
-		"text": "עִיקָּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיקָּר",
+	"headwords": [
+		{
+			"text": "עִיקָּר"
+		},
 		{
 			"text": "עִקָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "b"

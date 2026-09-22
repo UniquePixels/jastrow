@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "A02381",
-	"slug": "אסטלית",
-	"headword": {
-		"text": "אִסְטַלִּית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטַלִּית",
+	"headwords": [
 		{
-			"text": "אִצְ׳"
+			"text": "אִסְטַלִּית"
 		},
 		{
-			"text": "אִי׳"
+			"text": "אִצְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 90,
 		"column": "b"

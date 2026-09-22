@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00035",
-	"slug": "סבהלום",
-	"headword": {
-		"text": "סַבְהֲלוֹם"
-	},
+	"sefariaHeadword": "סַבְהֲלוֹם",
+	"headwords": [
+		{
+			"text": "סַבְהֲלוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03368",
-	"slug": "אשתדא",
-	"headword": {
-		"text": "אֶשְׁתָּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶשְׁתָּדָא",
+	"headwords": [
 		{
-			"text": "אִישְׁ׳"
+			"text": "אֶשְׁתָּדָא"
+		},
+		{
+			"text": "אִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 131,
 		"column": "a"

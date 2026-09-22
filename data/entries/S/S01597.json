@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01597",
-	"slug": "קנמון-2",
-	"headword": {
-		"text": "קנמון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קנמון",
+	"headwords": [
+		{
+			"text": "קנמון"
+		},
 		{
 			"text": "קנמין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1393,
 		"column": "a"

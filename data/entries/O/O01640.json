@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01640",
-	"slug": "סרכן",
-	"headword": {
-		"text": "סַרְכָן"
-	},
+	"sefariaHeadword": "סַרְכָן",
+	"headwords": [
+		{
+			"text": "סַרְכָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1028,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02703",
-	"slug": "אפיפסדוס",
-	"headword": {
-		"text": "אפיפסדוס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אפיפסדוס",
+	"headwords": [
+		{
+			"text": "אפיפסדוס",
+			"reconstructed": true
+		},
 		{
 			"text": "אפיפסרוס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 104,
 		"column": "a"

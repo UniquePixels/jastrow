@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01466",
-	"slug": "קמטריא",
-	"headword": {
-		"text": "קַמְטְרָיָא"
-	},
+	"sefariaHeadword": "קַמְטְרָיָא",
+	"headwords": [
+		{
+			"text": "קַמְטְרָיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "a"

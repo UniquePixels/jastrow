@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02077",
-	"slug": "שתאסא",
-	"headword": {
-		"text": "שִׁתְאָסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁתְאָסָא",
+	"headwords": [
+		{
+			"text": "שִׁתְאָסָא"
+		},
 		{
 			"text": "שִׁתְאָסָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1636,
 		"column": "b"

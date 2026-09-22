@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01463",
-	"slug": "סקורדקין",
-	"headword": {
-		"text": "סקורדקין"
-	},
+	"sefariaHeadword": "סקורדקין",
+	"headwords": [
+		{
+			"text": "סקורדקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

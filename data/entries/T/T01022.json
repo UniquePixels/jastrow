@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01022",
-	"slug": "רקדק",
-	"headword": {
-		"text": "רקדק"
-	},
+	"sefariaHeadword": "רקדק",
+	"headwords": [
+		{
+			"text": "רקדק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

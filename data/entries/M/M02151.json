@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02151",
-	"slug": "מעפורא",
-	"headword": {
-		"text": "מַעֲפוֹרָא"
-	},
+	"sefariaHeadword": "מַעֲפוֹרָא",
+	"headwords": [
+		{
+			"text": "מַעֲפוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

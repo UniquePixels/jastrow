@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01843",
-	"slug": "אליון-1",
-	"headword": {
-		"text": "אַלְיוֹן"
-	},
+	"sefariaHeadword": "אַלְיוֹן",
+	"headwords": [
+		{
+			"text": "אַלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

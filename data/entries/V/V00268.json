@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00268",
-	"slug": "תוקרבא",
-	"headword": {
-		"text": "תּוּקְרָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּקְרָבָא",
+	"headwords": [
+		{
+			"text": "תּוּקְרָבָא"
+		},
 		{
 			"text": "תּוּקְרַבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1656,
 		"column": "a"

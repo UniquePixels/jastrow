@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00503",
-	"slug": "אהלא-1",
-	"headword": {
-		"text": "אָהֳלָא"
-	},
+	"sefariaHeadword": "אָהֳלָא",
+	"headwords": [
+		{
+			"text": "אָהֳלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "a"

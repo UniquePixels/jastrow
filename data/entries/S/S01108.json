@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01108",
-	"slug": "קיפלוס",
-	"headword": {
-		"text": "קיפלוס"
-	},
+	"sefariaHeadword": "קיפלוס",
+	"headwords": [
+		{
+			"text": "קיפלוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

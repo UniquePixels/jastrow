@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02762",
-	"slug": "מרקא",
-	"headword": {
-		"text": "מָרְקָא"
-	},
+	"sefariaHeadword": "מָרְקָא",
+	"headwords": [
+		{
+			"text": "מָרְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "b"

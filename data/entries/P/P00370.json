@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00370",
-	"slug": "עושק",
-	"headword": {
-		"text": "עוֹשֶׁק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹשֶׁק",
+	"headwords": [
+		{
+			"text": "עוֹשֶׁק"
+		},
 		{
 			"text": "עֹשֶׁק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1059,
 		"column": "b"

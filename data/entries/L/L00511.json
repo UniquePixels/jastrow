@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00511",
-	"slug": "ליפס",
-	"headword": {
-		"text": "לִיפַס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִיפַס",
+	"headwords": [
+		{
+			"text": "לִיפַס"
+		},
 		{
 			"text": "לוֹפַס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "a"

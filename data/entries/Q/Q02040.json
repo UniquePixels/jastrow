@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02040",
-	"slug": "פרשתבינא",
-	"headword": {
-		"text": "פרשתבינא"
-	},
+	"sefariaHeadword": "פרשתבינא",
+	"headwords": [
+		{
+			"text": "פרשתבינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "a"

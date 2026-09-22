@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01702",
-	"slug": "סתירה-2",
-	"headword": {
-		"text": "סְתִירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְתִירָה II",
+	"headwords": [
+		{
+			"text": "סְתִירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1031,
 		"column": "a"

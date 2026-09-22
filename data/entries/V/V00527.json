@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00527",
-	"slug": "תכול",
-	"headword": {
-		"text": "תְּכוֹל"
-	},
+	"sefariaHeadword": "תְּכוֹל",
+	"headwords": [
+		{
+			"text": "תְּכוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "b"

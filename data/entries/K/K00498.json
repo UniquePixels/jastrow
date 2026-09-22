@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00498",
-	"slug": "כידי",
-	"headword": {
-		"text": "כידי"
-	},
+	"sefariaHeadword": "כידי",
+	"headwords": [
+		{
+			"text": "כידי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00988",
-	"slug": "בסילקי",
-	"headword": {
-		"text": "בָּסִילְקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּסִילְקִי",
+	"headwords": [
+		{
+			"text": "בָּסִילְקִי"
+		},
 		{
 			"text": "בסלקי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 178,
 		"column": "a"

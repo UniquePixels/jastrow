@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00132",
-	"slug": "יהויריב",
-	"headword": {
-		"text": "יְהוֹיָרִיב"
-	},
+	"sefariaHeadword": "יְהוֹיָרִיב",
+	"headwords": [
+		{
+			"text": "יְהוֹיָרִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "b"

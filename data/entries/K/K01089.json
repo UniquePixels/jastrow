@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01089",
-	"slug": "כרגא",
-	"headword": {
-		"text": "כַּרְגָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּרְגָּא",
+	"headwords": [
+		{
+			"text": "כַּרְגָּא"
+		},
 		{
 			"text": "כְּרַגָּא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 664,
 		"column": "a"
@@ -18,7 +20,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (cmp. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>, a. Arab. ḫaraġ) <i>capitation tax, tax, tribute</i>. ",
+			"gloss": "m. (cmp. <cite ref=\"H01694\"><he>חֲרִיקָא</he></cite>, a. Arab. ḫaraġ) <i>capitation tax, tax, tribute</i>. ",
 			"units": [
 				"<cite ref=\"Aramaic Targum to Lamentations 1:1\">Targ. Lam. I, 1</cite>; a. e.—",
 				"<cite ref=\"Bava Batra 55a:4\">B. Bath. 55ᵃ</cite> <he>כ׳ אקרקף וכ׳</he> <i>karga</i> rests on the head of man, i.e. is a personal liability, opp. to <cite ref=\"I00593\"><he>טַסְקָא</he></cite>. ",

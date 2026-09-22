@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00619",
-	"slug": "קורנוס",
-	"headword": {
-		"text": "קוּרְנוֹס"
-	},
+	"sefariaHeadword": "קוּרְנוֹס",
+	"headwords": [
+		{
+			"text": "קוּרְנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1343,
 		"column": "a"

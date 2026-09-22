@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00883",
-	"slug": "רעו",
-	"headword": {
-		"text": "רְעוּ"
-	},
+	"sefariaHeadword": "רְעוּ",
+	"headwords": [
+		{
+			"text": "רְעוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1486,
 		"column": "a"

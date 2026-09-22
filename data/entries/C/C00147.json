@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00147",
-	"slug": "גבתא",
-	"headword": {
-		"text": "גַּבְתָּא"
-	},
+	"sefariaHeadword": "גַּבְתָּא",
+	"headwords": [
+		{
+			"text": "גַּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "b"

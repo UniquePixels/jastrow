@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02171",
-	"slug": "פתירה",
-	"headword": {
-		"text": "פְּתֵירָה"
-	},
+	"sefariaHeadword": "פְּתֵירָה",
+	"headwords": [
+		{
+			"text": "פְּתֵירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "a"

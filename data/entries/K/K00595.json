@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00595",
-	"slug": "כיעור",
-	"headword": {
-		"text": "כִּיעוּר"
-	},
+	"sefariaHeadword": "כִּיעוּר",
+	"headwords": [
+		{
+			"text": "כִּיעוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "b"

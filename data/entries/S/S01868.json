@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01868",
-	"slug": "קקונאי",
-	"headword": {
-		"text": "קקונאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קקונאי",
+	"headwords": [
+		{
+			"text": "קקונאי"
+		},
 		{
 			"text": "קקוניא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01028",
-	"slug": "רקוע",
-	"headword": {
-		"text": "רְקוֹעַ"
-	},
+	"sefariaHeadword": "רְקוֹעַ",
+	"headwords": [
+		{
+			"text": "רְקוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "b"

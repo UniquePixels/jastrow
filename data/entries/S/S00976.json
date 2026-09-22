@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00976",
-	"slug": "קילותא",
-	"headword": {
-		"text": "קִילוּתָא"
-	},
+	"sefariaHeadword": "קִילוּתָא",
+	"headwords": [
+		{
+			"text": "קִילוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1361,
 		"column": "a"

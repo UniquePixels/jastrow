@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00604",
-	"slug": "כיפור",
-	"headword": {
-		"text": "כִּיפּוּר"
-	},
+	"sefariaHeadword": "כִּיפּוּר",
+	"headwords": [
+		{
+			"text": "כִּיפּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 635,
 		"column": "b"

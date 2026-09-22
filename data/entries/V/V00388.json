@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00388",
-	"slug": "תחש",
-	"headword": {
-		"text": "תַּחַשׁ"
-	},
+	"sefariaHeadword": "תַּחַשׁ",
+	"headwords": [
+		{
+			"text": "תַּחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

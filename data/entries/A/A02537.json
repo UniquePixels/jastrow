@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02537",
-	"slug": "אסקופה",
-	"headword": {
-		"text": "אִסְקוּפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְקוּפָה",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְקוּפָה"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "a"

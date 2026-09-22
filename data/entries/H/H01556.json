@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01556",
-	"slug": "חקיק",
-	"headword": {
-		"text": "חֲקִיק"
-	},
+	"sefariaHeadword": "חֲקִיק",
+	"headwords": [
+		{
+			"text": "חֲקִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 497,
 		"column": "a"

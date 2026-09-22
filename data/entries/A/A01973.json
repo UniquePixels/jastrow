@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01973",
-	"slug": "אמבטה",
-	"headword": {
-		"text": "אַמְבְּטָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְבְּטָה",
+	"headwords": [
+		{
+			"text": "אַמְבְּטָה"
+		},
 		{
 			"text": "אַמְבְּטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 74,
 		"column": "b"

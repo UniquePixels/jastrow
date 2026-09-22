@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01729",
-	"slug": "אכסילגוס",
-	"headword": {
-		"text": "אַכְסִילְגּוֹס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַכְסִילְגֹּוס",
+	"headwords": [
+		{
+			"text": "אַכְסִילְגּוֹס",
+			"reconstructed": true
+		},
 		{
 			"text": "אַכְסִלְגָּס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 64,
 		"column": "b"

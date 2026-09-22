@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01001",
-	"slug": "שיפא-1",
-	"headword": {
-		"text": "שַׁיְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁיְפָא",
+	"headwords": [
+		{
+			"text": "שַׁיְפָא"
+		},
 		{
 			"text": "שַׁיְיפָא"
 		},

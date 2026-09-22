@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00367",
-	"slug": "טילטול",
-	"headword": {
-		"text": "טִילְטוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִילְטוּל",
+	"headwords": [
+		{
+			"text": "טִילְטוּל"
+		},
 		{
 			"text": "טִילְטוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 532,
 		"column": "a"

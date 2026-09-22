@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01469",
-	"slug": "סקיווי",
-	"headword": {
-		"text": "סקיווי"
-	},
+	"sefariaHeadword": "סקיווי",
+	"headwords": [
+		{
+			"text": "סקיווי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

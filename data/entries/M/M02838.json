@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02838",
-	"slug": "משופי",
-	"headword": {
-		"text": "מַשּׁוּפִי"
-	},
+	"sefariaHeadword": "מַשּׁוּפִי",
+	"headwords": [
+		{
+			"text": "מַשּׁוּפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "b"

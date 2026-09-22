@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01174",
-	"slug": "כריספא",
-	"headword": {
-		"text": "כְּרִיסְפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרִיסְפָּא",
+	"headwords": [
 		{
-			"text": "קְ׳"
+			"text": "כְּרִיסְפָּא"
+		},
+		{
+			"text": "קְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 667,
 		"column": "b"

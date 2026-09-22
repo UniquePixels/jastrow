@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01057",
-	"slug": "חליפה",
-	"headword": {
-		"text": "חֲלִיפָה"
-	},
+	"sefariaHeadword": "חֲלִיפָה",
+	"headwords": [
+		{
+			"text": "חֲלִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "a"

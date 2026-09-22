@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00363",
-	"slug": "שוח-4",
-	"headword": {
-		"text": "שׁוּחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שׁוּחַ II",
+	"headwords": [
+		{
+			"text": "שׁוּחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1530,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00889",
-	"slug": "שיטתא-2",
-	"headword": {
-		"text": "שִׁיטָּתָא"
-	},
+	"sefariaHeadword": "שִׁיטָּתָא",
+	"headwords": [
+		{
+			"text": "שִׁיטָּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1560,
 		"column": "b"

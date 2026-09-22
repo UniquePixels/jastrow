@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02033",
-	"slug": "שררות",
-	"headword": {
-		"text": "שְׂרָרוּת"
-	},
+	"sefariaHeadword": "שְׂרָרוּת",
+	"headwords": [
+		{
+			"text": "שְׂרָרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1634,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02270",
-	"slug": "אנפורא",
-	"headword": {
-		"text": "אַנְפּוֹרָא"
-	},
+	"sefariaHeadword": "אַנְפֹּורָא",
+	"headwords": [
+		{
+			"text": "אַנְפּוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

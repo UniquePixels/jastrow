@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00589",
-	"slug": "דיכי-1",
-	"headword": {
-		"text": "דֵּיכִּי"
-	},
+	"sefariaHeadword": "דֵּיכִּי",
+	"headwords": [
+		{
+			"text": "דֵּיכִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 299,
 		"column": "a"

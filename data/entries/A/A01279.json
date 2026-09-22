@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01279",
-	"slug": "אילויותא",
-	"headword": {
-		"text": "אִילַּוָּיוּתָא"
-	},
+	"sefariaHeadword": "אִילַּוָּיוּתָא",
+	"headwords": [
+		{
+			"text": "אִילַּוָּיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00064",
-	"slug": "פגיע",
-	"headword": {
-		"text": "פְּגִיעַ"
-	},
+	"sefariaHeadword": "פְּגִיעַ",
+	"headwords": [
+		{
+			"text": "פְּגִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "a"

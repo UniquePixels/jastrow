@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03415",
-	"slug": "אתיך",
-	"headword": {
-		"text": "אַתִּיךְ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַתִּיךְ",
+	"headwords": [
+		{
+			"text": "אַתִּיךְ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 133,
 		"column": "a"

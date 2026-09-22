@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01458",
-	"slug": "איסטריא",
-	"headword": {
-		"text": "איסטריא"
-	},
+	"sefariaHeadword": "איסטריא",
+	"headwords": [
+		{
+			"text": "איסטריא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 55,
 		"column": "b"

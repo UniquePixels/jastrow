@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01369",
-	"slug": "מכות",
-	"headword": {
-		"text": "מָכוּת"
-	},
+	"sefariaHeadword": "מָכוּת",
+	"headwords": [
+		{
+			"text": "מָכוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 782,
 		"column": "a"

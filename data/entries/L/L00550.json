@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00550",
-	"slug": "לכל",
-	"headword": {
-		"text": "לכל"
-	},
+	"sefariaHeadword": "לכל",
+	"headwords": [
+		{
+			"text": "לכל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

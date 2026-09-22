@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00681",
-	"slug": "סילתית",
-	"headword": {
-		"text": "סילתית"
-	},
+	"sefariaHeadword": "סילתית",
+	"headwords": [
+		{
+			"text": "סילתית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "b"

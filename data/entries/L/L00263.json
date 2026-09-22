@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00263",
-	"slug": "לוכידין",
-	"headword": {
-		"text": "לוכידין"
-	},
+	"sefariaHeadword": "לוכידין",
+	"headwords": [
+		{
+			"text": "לוכידין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "a"

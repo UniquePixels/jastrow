@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "C01041",
-	"slug": "גמלא-1",
-	"headword": {
-		"text": "גֻּמְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֻּמְלָא",
+	"headwords": [
 		{
-			"text": "גִּימְ׳"
+			"text": "גֻּמְלָא"
 		},
 		{
-			"text": "גּוּמְ׳"
+			"text": "גִּימְ׳",
+			"partial": true
 		},
 		{
-			"text": "גַּמְ׳"
+			"text": "גּוּמְ׳",
+			"partial": true
+		},
+		{
+			"text": "גַּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 253,
 		"column": "b"

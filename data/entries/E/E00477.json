@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00477",
-	"slug": "היפך",
-	"headword": {
-		"text": "הֵיפֶךְ"
-	},
+	"sefariaHeadword": "הֵיפֶךְ",
+	"headwords": [
+		{
+			"text": "הֵיפֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 349,
 		"column": "a"

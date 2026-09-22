@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01101",
-	"slug": "דרכל",
-	"headword": {
-		"text": "דרכל"
-	},
+	"sefariaHeadword": "דרכל",
+	"headwords": [
+		{
+			"text": "דרכל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

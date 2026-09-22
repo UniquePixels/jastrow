@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00734",
-	"slug": "חיילא",
-	"headword": {
-		"text": "חֲיָילָא"
-	},
+	"sefariaHeadword": "חֲיָילָא",
+	"headwords": [
+		{
+			"text": "חֲיָילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 454,
 		"column": "b"

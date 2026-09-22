@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01040",
-	"slug": "דרגישין",
-	"headword": {
-		"text": "דַּרְגִּישִׁין"
-	},
+	"sefariaHeadword": "דַּרְגִּישִׁין",
+	"headwords": [
+		{
+			"text": "דַּרְגִּישִׁין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01152",
-	"slug": "חמה-3",
-	"headword": {
-		"text": "חַמָּה"
-	},
+	"sefariaHeadword": "חַמָּה",
+	"headwords": [
+		{
+			"text": "חַמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "a"

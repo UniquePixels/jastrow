@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01365",
-	"slug": "קלמרים",
-	"headword": {
-		"text": "קלמרים"
-	},
+	"sefariaHeadword": "קלמרים",
+	"headwords": [
+		{
+			"text": "קלמרים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1378,
 		"column": "b"

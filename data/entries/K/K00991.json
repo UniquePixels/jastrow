@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00991",
-	"slug": "כפוני",
-	"headword": {
-		"text": "כפוני"
-	},
+	"sefariaHeadword": "כפוני",
+	"headwords": [
+		{
+			"text": "כפוני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

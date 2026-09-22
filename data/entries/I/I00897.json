@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00897",
-	"slug": "טרקיא",
-	"headword": {
-		"text": "טַרְקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְקְיָא",
+	"headwords": [
+		{
+			"text": "טַרְקְיָא"
+		},
 		{
 			"text": "טַרְקִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 558,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00870",
-	"slug": "אורזילא",
-	"headword": {
-		"text": "אוּרְזִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּרְזִילָא",
+	"headwords": [
+		{
+			"text": "אוּרְזִילָא"
+		},
 		{
 			"text": "אוּרְזְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 33,
 		"column": "b"

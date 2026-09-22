@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01034",
-	"slug": "בעט-3",
-	"headword": {
-		"text": "בְּעַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּעַט",
+	"headwords": [
+		{
+			"text": "בְּעַט"
+		},
 		{
 			"text": "בְּעֵיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 180,
 		"column": "b"

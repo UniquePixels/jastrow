@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00730",
-	"slug": "תנומה",
-	"headword": {
-		"text": "תְּנוּמָה"
-	},
+	"sefariaHeadword": "תְּנוּמָה",
+	"headwords": [
+		{
+			"text": "תְּנוּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1680,
 		"column": "b"

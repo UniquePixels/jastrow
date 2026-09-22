@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01754",
-	"slug": "אכרזה",
-	"headword": {
-		"text": "אַכְרָזָה"
-	},
+	"sefariaHeadword": "אַכְרָזָה",
+	"headwords": [
+		{
+			"text": "אַכְרָזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "b"

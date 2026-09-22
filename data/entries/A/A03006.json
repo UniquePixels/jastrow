@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03006",
-	"slug": "ארדכל",
-	"headword": {
-		"text": "אַרְדְּכָל"
-	},
+	"sefariaHeadword": "אַרְדְּכָל",
+	"headwords": [
+		{
+			"text": "אַרְדְּכָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

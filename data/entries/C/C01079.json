@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01079",
-	"slug": "גנב-2",
-	"headword": {
-		"text": "גְּנַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּנַב",
+	"headwords": [
+		{
+			"text": "גְּנַב"
+		},
 		{
 			"text": "גְּנֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 256,
 		"column": "b"

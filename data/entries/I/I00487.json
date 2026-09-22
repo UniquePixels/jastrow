@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "I00487",
-	"slug": "טלטול-2",
-	"headword": {
-		"text": "טִלְטוּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִלְטוּל ²",
+	"headwords": [
+		{
+			"text": "טִלְטוּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "טִלְטוּלָא"
 		},
 		{
-			"text": "טִילְ׳"
+			"text": "טִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 536,
 		"column": "a"

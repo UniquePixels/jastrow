@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00237",
-	"slug": "מדבח",
-	"headword": {
-		"text": "מַדְבַּח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַדְבַּח",
+	"headwords": [
+		{
+			"text": "מַדְבַּח"
+		},
 		{
 			"text": "מַדְבְּחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 731,
 		"column": "a"

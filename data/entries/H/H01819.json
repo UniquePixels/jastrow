@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01819",
-	"slug": "חשוב",
-	"headword": {
-		"text": "חָשׁוּב"
-	},
+	"sefariaHeadword": "חָשׁוּב",
+	"headwords": [
+		{
+			"text": "חָשׁוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 509,
 		"column": "b"

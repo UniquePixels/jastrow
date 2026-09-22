@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00808",
-	"slug": "תפח-1",
-	"headword": {
-		"text": "תָּפַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תָּפַח I",
+	"headwords": [
+		{
+			"text": "תָּפַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1685,
 		"column": "b"

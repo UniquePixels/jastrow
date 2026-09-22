@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02751",
-	"slug": "מרפק",
-	"headword": {
-		"text": "מַרְפֵּק"
-	},
+	"sefariaHeadword": "מַרְפֵּק",
+	"headwords": [
+		{
+			"text": "מַרְפֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00636",
-	"slug": "אוירא-2",
-	"headword": {
-		"text": "אוירא"
-	},
+	"sefariaHeadword": "אוירא",
+	"headwords": [
+		{
+			"text": "אוירא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "b"

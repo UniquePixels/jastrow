@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00571",
-	"slug": "דייקינטין",
-	"headword": {
-		"text": "דייקינטין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דייקינטין",
+	"headwords": [
+		{
+			"text": "דייקינטין"
+		},
 		{
 			"text": "דייקינתין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 299,
 		"column": "a"

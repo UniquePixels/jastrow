@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00921",
-	"slug": "כסידא",
-	"headword": {
-		"text": "כסידא"
-	},
+	"sefariaHeadword": "כסידא",
+	"headwords": [
+		{
+			"text": "כסידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 653,
 		"column": "b"

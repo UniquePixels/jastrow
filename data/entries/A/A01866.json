@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01866",
-	"slug": "אלימותא",
-	"headword": {
-		"text": "אַלִּימוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלִּימוּתָא",
+	"headwords": [
+		{
+			"text": "אַלִּימוּתָא"
+		},
 		{
 			"text": "אַלְּמוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 69,
 		"column": "b"

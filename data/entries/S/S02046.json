@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02046",
-	"slug": "קריח",
-	"headword": {
-		"text": "קְרֵיחַ"
-	},
+	"sefariaHeadword": "קְרֵיחַ",
+	"headwords": [
+		{
+			"text": "קְרֵיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "a"

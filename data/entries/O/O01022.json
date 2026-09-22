@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01022",
-	"slug": "סלפידים",
-	"headword": {
-		"text": "סַלְפִּידִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַלְפִּידִים",
+	"headwords": [
+		{
+			"text": "סַלְפִּידִים"
+		},
 		{
 			"text": "סַלְפִּידִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "סַלְפִּידָס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 996,
 		"column": "b"

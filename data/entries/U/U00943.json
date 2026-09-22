@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00943",
-	"slug": "שילום",
-	"headword": {
-		"text": "שִׁילּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁילּוּם",
+	"headwords": [
+		{
+			"text": "שִׁילּוּם"
+		},
 		{
 			"text": "שִׁלּוּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1563,
 		"column": "a"

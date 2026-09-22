@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01016",
-	"slug": "שיפולא",
-	"headword": {
-		"text": "שִׁיפּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיפּוּלָא",
+	"headwords": [
 		{
-			"text": "שִׁפּ׳"
+			"text": "שִׁיפּוּלָא"
+		},
+		{
+			"text": "שִׁפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1566,
 		"column": "a"

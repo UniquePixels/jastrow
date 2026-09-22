@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00996",
-	"slug": "סליקותא",
-	"headword": {
-		"text": "סְלִיקוּתָא"
-	},
+	"sefariaHeadword": "סְלִיקוּתָא",
+	"headwords": [
+		{
+			"text": "סְלִיקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"

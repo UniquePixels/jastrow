@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00980",
-	"slug": "שינפא",
-	"headword": {
-		"text": "שינפא"
-	},
+	"sefariaHeadword": "שינפא",
+	"headwords": [
+		{
+			"text": "שינפא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

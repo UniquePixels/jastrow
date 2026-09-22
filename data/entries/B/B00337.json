@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00337",
-	"slug": "בורבלין",
-	"headword": {
-		"text": "בורבלין"
-	},
+	"sefariaHeadword": "בורבלין",
+	"headwords": [
+		{
+			"text": "בורבלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "a"

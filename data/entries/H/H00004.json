@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00004",
-	"slug": "חאיתא",
-	"headword": {
-		"text": "חַאיְתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חַאיְתָא",
+	"headwords": [
+		{
+			"text": "חַאיְתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

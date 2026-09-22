@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00977",
-	"slug": "כ״ף",
-	"headword": {
-		"text": "כ״ף"
-	},
+	"sefariaHeadword": "כ\"ף",
+	"headwords": [
+		{
+			"text": "כ״ף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00221",
-	"slug": "כוורתא",
-	"headword": {
-		"text": "כְּוַורְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוַורְתָּא",
+	"headwords": [
+		{
+			"text": "כְּוַורְתָּא"
+		},
 		{
 			"text": "כַּוְורַת"
 		},
@@ -15,6 +16,7 @@
 			"text": "כּוֹרְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 617,
 		"column": "b"

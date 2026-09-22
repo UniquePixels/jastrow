@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01018",
-	"slug": "אחורא",
-	"headword": {
-		"text": "אֲחוֹרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲחוֹרָא",
+	"headwords": [
+		{
+			"text": "אֲחוֹרָא"
+		},
 		{
 			"text": "אַחְרָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 39,
 		"column": "b"

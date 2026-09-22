@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00236",
-	"slug": "גדע-2",
-	"headword": {
-		"text": "גְּדַע"
-	},
+	"sefariaHeadword": "גְּדַע",
+	"headwords": [
+		{
+			"text": "גְּדַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 214,
 		"column": "a"

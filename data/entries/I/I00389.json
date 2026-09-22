@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00389",
-	"slug": "טין-2",
-	"headword": {
-		"text": "טִין",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִין ²",
+	"headwords": [
+		{
+			"text": "טִין",
+			"disambiguator": 2
+		},
 		{
 			"text": "טִינָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 532,
 		"column": "b"

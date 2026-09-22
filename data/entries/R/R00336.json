@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00336",
-	"slug": "ציידא",
-	"headword": {
-		"text": "צַיְידָּא"
-	},
+	"sefariaHeadword": "צַיְידָּא",
+	"headwords": [
+		{
+			"text": "צַיְידָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1276,
 		"column": "a"

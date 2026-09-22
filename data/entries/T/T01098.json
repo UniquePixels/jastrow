@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01098",
-	"slug": "רשע-1",
-	"headword": {
-		"text": "רָשַׁע"
-	},
+	"sefariaHeadword": "רָשַׁע",
+	"headwords": [
+		{
+			"text": "רָשַׁע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1501,
 		"column": "a"

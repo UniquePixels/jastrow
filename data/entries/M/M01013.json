@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01013",
-	"slug": "מטלנא-1",
-	"headword": {
-		"text": "מַטְלָנָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַטְלָנָא I",
+	"headwords": [
+		{
+			"text": "מַטְלָנָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 768,
 		"column": "a"

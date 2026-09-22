@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00524",
-	"slug": "פטירה",
-	"headword": {
-		"text": "פְּטִירָה"
-	},
+	"sefariaHeadword": "פְּטִירָה",
+	"headwords": [
+		{
+			"text": "פְּטִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "b"

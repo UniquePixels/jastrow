@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00408",
-	"slug": "קומרא",
-	"headword": {
-		"text": "קוּמְרָא"
-	},
+	"sefariaHeadword": "קוּמְרָא",
+	"headwords": [
+		{
+			"text": "קוּמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "a"

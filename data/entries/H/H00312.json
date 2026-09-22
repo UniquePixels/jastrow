@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00312",
-	"slug": "חוך-1",
-	"headword": {
-		"text": "חוֹךְ"
-	},
+	"sefariaHeadword": "חוֹךְ",
+	"headwords": [
+		{
+			"text": "חוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 432,
 		"column": "a"

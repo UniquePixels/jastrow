@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01149",
-	"slug": "בקשה",
-	"headword": {
-		"text": "בַּקָּשָׁה"
-	},
+	"sefariaHeadword": "בַּקָּשָׁה",
+	"headwords": [
+		{
+			"text": "בַּקָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 188,
 		"column": "a"

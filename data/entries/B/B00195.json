@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00195",
-	"slug": "בהרתא",
-	"headword": {
-		"text": "בַּהַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּהַרְתָּא",
+	"headwords": [
+		{
+			"text": "בַּהַרְתָּא"
+		},
 		{
 			"text": "בַּהֲרָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "בַּהְרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 143,
 		"column": "b"

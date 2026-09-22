@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00472",
-	"slug": "סחרתא",
-	"headword": {
-		"text": "סַחַרְתָּא"
-	},
+	"sefariaHeadword": "סַחַרְתָּא",
+	"headwords": [
+		{
+			"text": "סַחַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "a"

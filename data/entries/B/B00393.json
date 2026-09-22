@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00393",
-	"slug": "בורתיה",
-	"headword": {
-		"text": "בורתיה"
-	},
+	"sefariaHeadword": "בורתיה",
+	"headwords": [
+		{
+			"text": "בורתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "a"

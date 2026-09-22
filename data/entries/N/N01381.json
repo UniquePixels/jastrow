@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "N01381",
-	"slug": "נתך-3",
-	"headword": {
-		"text": "נְתַךְ",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*נְתַךְ II",
+	"headwords": [
+		{
+			"text": "נְתַךְ",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 944,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00994",
-	"slug": "בסימיא",
-	"headword": {
-		"text": "בַּסִּימַיָּא"
-	},
+	"sefariaHeadword": "בַּסִּימַיָּא",
+	"headwords": [
+		{
+			"text": "בַּסִּימַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

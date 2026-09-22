@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00215",
-	"slug": "זוסמא",
-	"headword": {
-		"text": "זוֹסְמָא"
-	},
+	"sefariaHeadword": "זוֹסְמָא",
+	"headwords": [
+		{
+			"text": "זוֹסְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "b"

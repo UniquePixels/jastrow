@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01550",
-	"slug": "עתרתה",
-	"headword": {
-		"text": "עֲתַרְתָּה"
-	},
+	"sefariaHeadword": "עֲתַרְתָּה",
+	"headwords": [
+		{
+			"text": "עֲתַרְתָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1130,
 		"column": "b"

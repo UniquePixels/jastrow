@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00017",
-	"slug": "חבה-2",
-	"headword": {
-		"text": "חֵבָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵבָה",
+	"headwords": [
+		{
+			"text": "חֵבָה"
+		},
 		{
 			"text": "חֵיבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 416,
 		"column": "a"

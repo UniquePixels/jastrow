@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00335",
-	"slug": "קולטא",
-	"headword": {
-		"text": "קוּלְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּלְטָא",
+	"headwords": [
+		{
+			"text": "קוּלְטָא"
+		},
 		{
 			"text": "קוּלְטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1328,
 		"column": "a"

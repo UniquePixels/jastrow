@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01268",
-	"slug": "סנרא",
-	"headword": {
-		"text": "סִנָּרָא"
-	},
+	"sefariaHeadword": "סִנָּרָא",
+	"headwords": [
+		{
+			"text": "סִנָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1009,
 		"column": "a"

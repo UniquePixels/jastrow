@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00241",
-	"slug": "כוחלין",
-	"headword": {
-		"text": "כּוֹחֲלִין"
-	},
+	"sefariaHeadword": "כּוֹחֲלִין",
+	"headwords": [
+		{
+			"text": "כּוֹחֲלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00481",
-	"slug": "תיק",
-	"headword": {
-		"text": "תֵּיק"
-	},
+	"sefariaHeadword": "תֵּיק",
+	"headwords": [
+		{
+			"text": "תֵּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "b"

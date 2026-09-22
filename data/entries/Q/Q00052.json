@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00052",
-	"slug": "פגי-1",
-	"headword": {
-		"text": "פְּגֵי"
-	},
+	"sefariaHeadword": "פְּגֵי",
+	"headwords": [
+		{
+			"text": "פְּגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

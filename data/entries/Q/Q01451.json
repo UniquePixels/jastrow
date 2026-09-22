@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01451",
-	"slug": "פקדון",
-	"headword": {
-		"text": "פִּקָּדוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקָּדוֹן",
+	"headwords": [
 		{
-			"text": "פִּיקָּ׳"
+			"text": "פִּקָּדוֹן"
+		},
+		{
+			"text": "פִּיקָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1207,
 		"column": "b"

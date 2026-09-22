@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00081",
-	"slug": "מבוע-1",
-	"headword": {
-		"text": "מַבּוּעַ"
-	},
+	"sefariaHeadword": "מַבּוּעַ",
+	"headwords": [
+		{
+			"text": "מַבּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

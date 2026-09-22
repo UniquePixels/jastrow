@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00247",
-	"slug": "אגדה-1",
-	"headword": {
-		"text": "אַגָּדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגָּדָה",
+	"headwords": [
+		{
+			"text": "אַגָּדָה"
+		},
 		{
 			"text": "אֲגָדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 10,
 		"column": "b"

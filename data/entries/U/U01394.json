@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01394",
-	"slug": "שלשושית",
-	"headword": {
-		"text": "שִׁלְשׁוּשִׁית"
-	},
+	"sefariaHeadword": "שִׁלְשׁוּשִׁית",
+	"headwords": [
+		{
+			"text": "שִׁלְשׁוּשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1589,
 		"column": "b"

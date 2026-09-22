@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01648",
-	"slug": "ממוכן",
-	"headword": {
-		"text": "מְמוּכָן"
-	},
+	"sefariaHeadword": "מְמוּכָן",
+	"headwords": [
+		{
+			"text": "מְמוּכָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

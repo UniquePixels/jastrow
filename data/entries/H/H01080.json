@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01080",
-	"slug": "חללה",
-	"headword": {
-		"text": "חֲלָלָה"
-	},
+	"sefariaHeadword": "חֲלָלָה",
+	"headwords": [
+		{
+			"text": "חֲלָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 471,
 		"column": "a"

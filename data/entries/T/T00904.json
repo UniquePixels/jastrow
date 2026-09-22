@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00904",
-	"slug": "רעים",
-	"headword": {
-		"text": "רְעֵים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעֵים",
+	"headwords": [
+		{
+			"text": "רְעֵים"
+		},
 		{
 			"text": "רְעִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1487,
 		"column": "b"

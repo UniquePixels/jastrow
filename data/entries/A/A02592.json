@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02592",
-	"slug": "אעל",
-	"headword": {
-		"text": "אעל"
-	},
+	"sefariaHeadword": "אעל",
+	"headwords": [
+		{
+			"text": "אעל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 99,
 		"column": "b"

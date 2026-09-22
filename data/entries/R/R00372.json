@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00372",
-	"slug": "צימוח-1",
-	"headword": {
-		"text": "צִימּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִימּוּחַ",
+	"headwords": [
+		{
+			"text": "צִימּוּחַ"
+		},
 		{
 			"text": "צִמּוּחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "a"

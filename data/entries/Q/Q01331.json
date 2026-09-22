@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01331",
-	"slug": "פסליא-1",
-	"headword": {
-		"text": "פְּסִלְיָא"
-	},
+	"sefariaHeadword": "פְּסִלְיָא",
+	"headwords": [
+		{
+			"text": "פְּסִלְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1198,
 		"column": "a"

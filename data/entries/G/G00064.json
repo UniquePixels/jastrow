@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00064",
-	"slug": "זגי",
-	"headword": {
-		"text": "זְגֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְגֵי",
+	"headwords": [
+		{
+			"text": "זְגֵי"
+		},
 		{
 			"text": "זְגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 380,
 		"column": "a"

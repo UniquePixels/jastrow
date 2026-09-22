@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01263",
-	"slug": "גרגרנות",
-	"headword": {
-		"text": "גַּרְגְּרָנוּת"
-	},
+	"sefariaHeadword": "גַּרְגְּרָנוּת",
+	"headwords": [
+		{
+			"text": "גַּרְגְּרָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 265,
 		"column": "a"

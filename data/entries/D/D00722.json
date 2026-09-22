@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00722",
-	"slug": "דיקני",
-	"headword": {
-		"text": "דִּיקְנִי"
-	},
+	"sefariaHeadword": "דִּיקְנִי",
+	"headwords": [
+		{
+			"text": "דִּיקְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "b"

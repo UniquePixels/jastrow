@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00619",
-	"slug": "לעל",
-	"headword": {
-		"text": "לְעֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְעֵל",
+	"headwords": [
+		{
+			"text": "לְעֵל"
+		},
 		{
 			"text": "לְעֵלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 714,
 		"column": "b"

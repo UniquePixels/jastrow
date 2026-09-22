@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01259",
-	"slug": "נרגז",
-	"headword": {
-		"text": "נִרְגָּז"
-	},
+	"sefariaHeadword": "נִרְגָּז",
+	"headwords": [
+		{
+			"text": "נִרְגָּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 936,
 		"column": "b"

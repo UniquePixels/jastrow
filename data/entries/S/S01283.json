@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S01283",
-	"slug": "קלוסנטרין",
-	"headword": {
-		"text": "קְלוּסַנְטְרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*קְלוּסַנְטְרִין",
+	"headwords": [
 		{
-			"text": "קְלוּסַנְתְּרִ׳"
+			"text": "קְלוּסַנְטְרִין",
+			"reconstructed": true
+		},
+		{
+			"text": "קְלוּסַנְתְּרִ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1373,
 		"column": "b"

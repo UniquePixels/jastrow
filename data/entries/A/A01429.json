@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01429",
-	"slug": "איסטטיון",
-	"headword": {
-		"text": "אִיסְטַטְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיסְטַטְיוֹן",
+	"headwords": [
+		{
+			"text": "אִיסְטַטְיוֹן"
+		},
 		{
 			"text": "אישטטיון",
 			"reconstructed": true
 		}
 	],
+	"display": "{0}, *({1})",
 	"page": {
 		"number": 55,
 		"column": "a"
@@ -25,7 +27,7 @@
 			]
 		},
 		{
-			"gloss": " the people of Israel <he>שמשלמת אִיסְטַטְיוֹנוֹ של עולם וכ׳</he> that preserves the (divine) government of the world complete (filling the vacancies) both in this world &c. Cant. R. to l. c. <cite ref=\"A01430\"><he>איסטטיונרון</he></cite>, read <he>אִיסְטַטְיוֹנָרִין</he> (stationarii) the number of officers (of the divine government). Cmp. <he>צַדִּיק</he>. V. <cite ref=\"O00478\"><he>סְטַטְיוֹנָר</he></cite>",
+			"gloss": " the people of Israel <he>שמשלמת אִיסְטַטְיוֹנוֹ של עולם וכ׳</he> that preserves the (divine) government of the world complete (filling the vacancies) both in this world &c. Cant. R. to l. c. <cite ref=\"A01430\"><he>איסטטיונרון</he></cite>, read <he>אִיסְטַטְיוֹנָרִין</he> (stationarii) the number of officers (of the divine government). Cmp. <he>צַדִּיק</he>. V. <cite ref=\"O00478\"><he>סְטַטְיוֹנָר</he></cite>",
 			"units": [],
 			"label": "1"
 		}

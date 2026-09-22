@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01401",
-	"slug": "איסו",
-	"headword": {
-		"text": "אֵיסוּ"
-	},
+	"sefariaHeadword": "אֵיסוּ",
+	"headwords": [
+		{
+			"text": "אֵיסוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 53,
 		"column": "a"

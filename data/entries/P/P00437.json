@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00437",
-	"slug": "עטא-2",
-	"headword": {
-		"text": "עֲטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲטָא",
+	"headwords": [
+		{
+			"text": "עֲטָא"
+		},
 		{
 			"text": "עָטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1062,
 		"column": "b"

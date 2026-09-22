@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03025",
-	"slug": "ארויסא",
-	"headword": {
-		"text": "אַרְוִיסָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַרְוִיסָא",
+	"headwords": [
+		{
+			"text": "אַרְוִיסָא",
+			"reconstructed": true
+		},
 		{
 			"text": "אַרְוָוסָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 116,
 		"column": "b"

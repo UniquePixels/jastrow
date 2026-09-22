@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00635",
-	"slug": "ניויינא",
-	"headword": {
-		"text": "נִיוְיָינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נִיוְיָינָא",
+	"headwords": [
+		{
+			"text": "נִיוְיָינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 903,
 		"column": "b"

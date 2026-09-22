@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00782",
-	"slug": "שיבאו",
-	"headword": {
-		"text": "שיבאו"
-	},
+	"sefariaHeadword": "שיבאו",
+	"headwords": [
+		{
+			"text": "שיבאו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "a"

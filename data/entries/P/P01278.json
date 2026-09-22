@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01278",
-	"slug": "ערבותא",
-	"headword": {
-		"text": "עַרְבוּתָא"
-	},
+	"sefariaHeadword": "עַרְבוּתָא",
+	"headwords": [
+		{
+			"text": "עַרְבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "a"

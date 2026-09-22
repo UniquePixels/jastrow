@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00665",
-	"slug": "ביסתרקא",
-	"headword": {
-		"text": "בִּיסְתַּרְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיסְתַּרְקָא",
+	"headwords": [
 		{
-			"text": "בִּסְ׳"
+			"text": "בִּיסְתַּרְקָא"
+		},
+		{
+			"text": "בִּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 164,
 		"column": "a"

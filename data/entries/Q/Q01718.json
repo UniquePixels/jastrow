@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01718",
-	"slug": "פרוסטוקוסרין",
-	"headword": {
-		"text": "פרוסטוקוסרין"
-	},
+	"sefariaHeadword": "פרוסטוקוסרין",
+	"headwords": [
+		{
+			"text": "פרוסטוקוסרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "b"

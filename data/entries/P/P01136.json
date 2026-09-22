@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01136",
-	"slug": "עצרת",
-	"headword": {
-		"text": "עֲצֶרֶת"
-	},
+	"sefariaHeadword": "עֲצֶרֶת",
+	"headwords": [
+		{
+			"text": "עֲצֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1103,
 		"column": "b"

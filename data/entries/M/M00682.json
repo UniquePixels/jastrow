@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00682",
-	"slug": "מושהן",
-	"headword": {
-		"text": "מושהן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מושהן",
+	"headwords": [
+		{
+			"text": "מושהן"
+		},
 		{
 			"text": "מושחן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 751,
 		"column": "b"

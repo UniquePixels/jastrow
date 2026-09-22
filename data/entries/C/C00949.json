@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00949",
-	"slug": "גלילי",
-	"headword": {
-		"text": "גְּלִילִי"
-	},
+	"sefariaHeadword": "גְּלִילִי",
+	"headwords": [
+		{
+			"text": "גְּלִילִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

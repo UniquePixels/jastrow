@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00448",
-	"slug": "ליטרתא",
-	"headword": {
-		"text": "לִיטַרְתָּא"
-	},
+	"sefariaHeadword": "לִיטַרְתָּא",
+	"headwords": [
+		{
+			"text": "לִיטַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "a"

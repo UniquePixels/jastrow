@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02955",
-	"slug": "ארבאי",
-	"headword": {
-		"text": "אֲרָבָאֵי"
-	},
+	"sefariaHeadword": "אֲרָבָאֵי",
+	"headwords": [
+		{
+			"text": "אֲרָבָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 114,
 		"column": "a"

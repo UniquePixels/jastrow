@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00114",
-	"slug": "לברות",
-	"headword": {
-		"text": "לִבְרוּת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לִבְרוּת",
+	"headwords": [
+		{
+			"text": "לִבְרוּת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 691,
 		"column": "a"

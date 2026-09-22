@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00993",
-	"slug": "מטטור",
-	"headword": {
-		"text": "מְטָטוֹר"
-	},
+	"sefariaHeadword": "מְטָטוֹר",
+	"headwords": [
+		{
+			"text": "מְטָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 767,
 		"column": "a"

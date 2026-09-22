@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00742",
-	"slug": "עכן-3",
-	"headword": {
-		"text": "עֶכֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֶכֶן",
+	"headwords": [
+		{
+			"text": "עֶכֶן"
+		},
 		{
 			"text": "עָכָן"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַכְנָה"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 1079,
 		"column": "a"

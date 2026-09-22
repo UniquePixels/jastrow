@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01853",
-	"slug": "שקיא-1",
-	"headword": {
-		"text": "שַׁקְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁקְיָא",
+	"headwords": [
 		{
-			"text": "שָׁ׳"
+			"text": "שַׁקְיָא"
+		},
+		{
+			"text": "שָׁ׳",
+			"partial": true
 		},
 		{
 			"text": "שִׁיקְיָא"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 1622,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00215",
-	"slug": "לווטתא",
-	"headword": {
-		"text": "לַוְוטָתָא"
-	},
+	"sefariaHeadword": "לַוְוטָתָא",
+	"headwords": [
+		{
+			"text": "לַוְוטָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

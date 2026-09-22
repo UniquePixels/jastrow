@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00494",
-	"slug": "יעץ-2",
-	"headword": {
-		"text": "יְעַץ"
-	},
+	"sefariaHeadword": "יְעַץ",
+	"headwords": [
+		{
+			"text": "יְעַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 585,
 		"column": "a"

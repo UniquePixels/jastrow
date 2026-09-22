@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00594",
-	"slug": "סיוע-1",
-	"headword": {
-		"text": "סִיּוּעַ"
-	},
+	"sefariaHeadword": "סִיּוּעַ",
+	"headwords": [
+		{
+			"text": "סִיּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 977,
 		"column": "a"

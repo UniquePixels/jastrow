@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00867",
-	"slug": "טרפא-4",
-	"headword": {
-		"text": "טִרְפָּא"
-	},
+	"sefariaHeadword": "טִרְפָּא",
+	"headwords": [
+		{
+			"text": "טִרְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "a"

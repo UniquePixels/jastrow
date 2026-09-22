@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01008",
-	"slug": "ענק-3",
-	"headword": {
-		"text": "עֲנָק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲנָק I",
+	"headwords": [
+		{
+			"text": "עֲנָק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1096,
 		"column": "a"

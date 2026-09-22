@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00405",
-	"slug": "ציפדונה",
-	"headword": {
-		"text": "צִיפְדּוֹנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיפְדּוֹנָה",
+	"headwords": [
+		{
+			"text": "צִיפְדּוֹנָה"
+		},
 		{
 			"text": "צִיפְדָּנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1278,
 		"column": "b"

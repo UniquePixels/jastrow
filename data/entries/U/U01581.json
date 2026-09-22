@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01581",
-	"slug": "שנוקא",
-	"headword": {
-		"text": "שִׁנּוּקָא"
-	},
+	"sefariaHeadword": "שִׁנּוּקָא",
+	"headwords": [
+		{
+			"text": "שִׁנּוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

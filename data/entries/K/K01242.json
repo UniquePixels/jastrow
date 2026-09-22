@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01242",
-	"slug": "כרנכי",
-	"headword": {
-		"text": "כרנכי"
-	},
+	"sefariaHeadword": "כרנכי",
+	"headwords": [
+		{
+			"text": "כרנכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

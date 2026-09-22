@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00549",
-	"slug": "יצר-2",
-	"headword": {
-		"text": "יְצַר"
-	},
+	"sefariaHeadword": "יְצַר",
+	"headwords": [
+		{
+			"text": "יְצַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 590,
 		"column": "a"

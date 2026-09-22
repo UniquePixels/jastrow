@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02332",
-	"slug": "אסון",
-	"headword": {
-		"text": "אָסוֹן"
-	},
+	"sefariaHeadword": "אָסוֹן",
+	"headwords": [
+		{
+			"text": "אָסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

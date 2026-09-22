@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00786",
-	"slug": "חילפין",
-	"headword": {
-		"text": "חִילְפִין"
-	},
+	"sefariaHeadword": "חִילְפִין",
+	"headwords": [
+		{
+			"text": "חִילְפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "a"

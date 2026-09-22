@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00137",
-	"slug": "יהושפט",
-	"headword": {
-		"text": "יְהוֹשָׁפָט"
-	},
+	"sefariaHeadword": "יְהוֹשָׁפָט",
+	"headwords": [
+		{
+			"text": "יְהוֹשָׁפָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

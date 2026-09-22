@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00289",
-	"slug": "הושענא",
-	"headword": {
-		"text": "הוֹשַׁעְנָא"
-	},
+	"sefariaHeadword": "הוֹשַׁעְנָא",
+	"headwords": [
+		{
+			"text": "הוֹשַׁעְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 341,
 		"column": "b"

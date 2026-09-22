@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00206",
-	"slug": "עוה",
-	"headword": {
-		"text": "עָוָה"
-	},
+	"sefariaHeadword": "עָוָה",
+	"headwords": [
+		{
+			"text": "עָוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01692",
-	"slug": "חריצה",
-	"headword": {
-		"text": "חֲרִיצָה"
-	},
+	"sefariaHeadword": "חֲרִיצָה",
+	"headwords": [
+		{
+			"text": "חֲרִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "b"

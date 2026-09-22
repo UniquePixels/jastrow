@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00043",
-	"slug": "סבולית",
-	"headword": {
-		"text": "סִבּוֹלִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִבּוֹלִית",
+	"headwords": [
+		{
+			"text": "סִבּוֹלִית"
+		},
 		{
 			"text": "סִבּוֹלֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 949,
 		"column": "a"

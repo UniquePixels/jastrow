@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01122",
-	"slug": "כרוכת",
-	"headword": {
-		"text": "כְּרוֹכַת"
-	},
+	"sefariaHeadword": "כְּרוֹכַת",
+	"headwords": [
+		{
+			"text": "כְּרוֹכַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

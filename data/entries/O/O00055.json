@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00055",
-	"slug": "סביכא",
-	"headword": {
-		"text": "סְבִיכָא"
-	},
+	"sefariaHeadword": "סְבִיכָא",
+	"headwords": [
+		{
+			"text": "סְבִיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 949,
 		"column": "b"

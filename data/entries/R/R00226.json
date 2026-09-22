@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00226",
-	"slug": "צוצי",
-	"headword": {
-		"text": "צִוִצֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִוִצֵי",
+	"headwords": [
+		{
+			"text": "צִוִצֵי"
+		},
 		{
 			"text": "צַוְצִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1269,
 		"column": "b"

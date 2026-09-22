@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01062",
-	"slug": "עפי-2",
-	"headword": {
-		"text": "עֳפִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֳפִי",
+	"headwords": [
+		{
+			"text": "עֳפִי"
+		},
 		{
 			"text": "עָפְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1099,
 		"column": "b"

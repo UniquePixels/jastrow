@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00183",
-	"slug": "דובשקא",
-	"headword": {
-		"text": "דובשקא"
-	},
+	"sefariaHeadword": "דובשקא",
+	"headwords": [
+		{
+			"text": "דובשקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

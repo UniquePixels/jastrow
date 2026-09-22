@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00675",
-	"slug": "כלאמין",
-	"headword": {
-		"text": "כְּלָאמִין"
-	},
+	"sefariaHeadword": "כְּלָאמִין",
+	"headwords": [
+		{
+			"text": "כְּלָאמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "a"

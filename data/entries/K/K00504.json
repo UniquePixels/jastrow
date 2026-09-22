@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00504",
-	"slug": "כיון-1",
-	"headword": {
-		"text": "כִּיּוּן"
-	},
+	"sefariaHeadword": "כִּיּוּן",
+	"headwords": [
+		{
+			"text": "כִּיּוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

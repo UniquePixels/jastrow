@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01238",
-	"slug": "סנין",
-	"headword": {
-		"text": "סְנֵין"
-	},
+	"sefariaHeadword": "סְנֵין",
+	"headwords": [
+		{
+			"text": "סְנֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

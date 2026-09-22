@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02837",
-	"slug": "אפרש",
-	"headword": {
-		"text": "אַפְרַשׁ"
-	},
+	"sefariaHeadword": "אַפְרַשׁ",
+	"headwords": [
+		{
+			"text": "אַפְרַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "a"

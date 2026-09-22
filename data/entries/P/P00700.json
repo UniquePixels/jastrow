@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00700",
-	"slug": "עישון",
-	"headword": {
-		"text": "עִישּׁוּן"
-	},
+	"sefariaHeadword": "עִישּׁוּן",
+	"headwords": [
+		{
+			"text": "עִישּׁוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1077,
 		"column": "a"

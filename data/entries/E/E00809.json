@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00809",
-	"slug": "הרא",
-	"headword": {
-		"text": "הֲרָא"
-	},
+	"sefariaHeadword": "הֲרָא",
+	"headwords": [
+		{
+			"text": "הֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "a"

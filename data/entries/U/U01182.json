@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01182",
-	"slug": "שכר-1",
-	"headword": {
-		"text": "שָׂכַר"
-	},
+	"sefariaHeadword": "שָׂכַר",
+	"headwords": [
+		{
+			"text": "שָׂכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1575,
 		"column": "b"

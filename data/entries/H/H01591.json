@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01591",
-	"slug": "חרבריה",
-	"headword": {
-		"text": "חרבריה"
-	},
+	"sefariaHeadword": "חרבריה",
+	"headwords": [
+		{
+			"text": "חרבריה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 498,
 		"column": "b"

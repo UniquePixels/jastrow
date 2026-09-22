@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00575",
-	"slug": "חט-1",
-	"headword": {
-		"text": "חֵט"
-	},
+	"sefariaHeadword": "חֵט",
+	"headwords": [
+		{
+			"text": "חֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 447,
 		"column": "a"

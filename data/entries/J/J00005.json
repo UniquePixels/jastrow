@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "J00005",
-	"slug": "יאו",
-	"headword": {
-		"text": "יָאוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָאוּ",
+	"headwords": [
+		{
+			"text": "יָאוּ"
+		},
 		{
 			"text": "יָאִי"
 		},
 		{
-			"text": "יָי׳"
+			"text": "יָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 559,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

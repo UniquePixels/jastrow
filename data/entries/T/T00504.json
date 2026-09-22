@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00504",
-	"slug": "רחיץ",
-	"headword": {
-		"text": "רִחֵיץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִחֵיץ",
+	"headwords": [
+		{
+			"text": "רִחֵיץ"
+		},
 		{
 			"text": "רָחֵיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1466,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00377",
-	"slug": "ילוד-3",
-	"headword": {
-		"text": "יִלּוֹד"
-	},
+	"sefariaHeadword": "יִלּוֹד",
+	"headwords": [
+		{
+			"text": "יִלּוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 578,
 		"column": "b"

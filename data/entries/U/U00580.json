@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00580",
-	"slug": "שותא-1",
-	"headword": {
-		"text": "שׁוּתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שׁוּתָא I",
+	"headwords": [
+		{
+			"text": "שׁוּתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1544,
 		"column": "a"

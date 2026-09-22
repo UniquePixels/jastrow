@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01301",
-	"slug": "נשי-2",
-	"headword": {
-		"text": "נְשֵׁי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְשֵׁי",
+	"headwords": [
+		{
+			"text": "נְשֵׁי"
+		},
 		{
 			"text": "נְשָּׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 938,
 		"column": "b"

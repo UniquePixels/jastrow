@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00526",
-	"slug": "בטנאי",
-	"headword": {
-		"text": "בָּטְנַאי"
-	},
+	"sefariaHeadword": "בָּטְנַאי",
+	"headwords": [
+		{
+			"text": "בָּטְנַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

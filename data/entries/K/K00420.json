@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00420",
-	"slug": "כותבת",
-	"headword": {
-		"text": "כּוֹתֶבֶת"
-	},
+	"sefariaHeadword": "כּוֹתֶבֶת",
+	"headwords": [
+		{
+			"text": "כּוֹתֶבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "a"

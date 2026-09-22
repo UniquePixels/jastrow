@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01894",
-	"slug": "פרנית",
-	"headword": {
-		"text": "פרנית"
-	},
+	"sefariaHeadword": "פרנית",
+	"headwords": [
+		{
+			"text": "פרנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00639",
-	"slug": "ניותי",
-	"headword": {
-		"text": "נִיוְתִּי"
-	},
+	"sefariaHeadword": "נִיוְתִּי",
+	"headwords": [
+		{
+			"text": "נִיוְתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "b"

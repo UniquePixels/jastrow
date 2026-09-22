@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00591",
-	"slug": "המדאי",
-	"headword": {
-		"text": "הַמְדַּאי"
-	},
+	"sefariaHeadword": "הַמְדַּאי",
+	"headwords": [
+		{
+			"text": "הַמְדַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

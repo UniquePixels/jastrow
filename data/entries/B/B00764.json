@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00764",
-	"slug": "ביתר",
-	"headword": {
-		"text": "בִּיתֵּר"
-	},
+	"sefariaHeadword": "בִּיתֵּר",
+	"headwords": [
+		{
+			"text": "בִּיתֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 168,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

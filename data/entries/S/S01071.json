@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01071",
-	"slug": "קיסם-1",
-	"headword": {
-		"text": "קִיסָּם"
-	},
+	"sefariaHeadword": "קִיסָּם",
+	"headwords": [
+		{
+			"text": "קִיסָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01139",
-	"slug": "עצתא-1",
-	"headword": {
-		"text": "עֵצְתָא"
-	},
+	"sefariaHeadword": "עֵצְתָא",
+	"headwords": [
+		{
+			"text": "עֵצְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1104,
 		"column": "a"

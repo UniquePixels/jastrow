@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02132",
-	"slug": "קרפאות",
-	"headword": {
-		"text": "קַרְפָּאוֹת"
-	},
+	"sefariaHeadword": "קַרְפָּאוֹת",
+	"headwords": [
+		{
+			"text": "קַרְפָּאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1424,
 		"column": "b"

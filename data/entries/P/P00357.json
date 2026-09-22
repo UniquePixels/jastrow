@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00357",
-	"slug": "עורלא",
-	"headword": {
-		"text": "עוּרְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּרְלָא",
+	"headwords": [
+		{
+			"text": "עוּרְלָא"
+		},
 		{
 			"text": "עוּרְלְתָא"
 		},
 		{
-			"text": "עָרְ׳"
+			"text": "עָרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1058,
 		"column": "b"

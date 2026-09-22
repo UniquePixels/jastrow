@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00978",
-	"slug": "רצועה-2",
-	"headword": {
-		"text": "רְצוּעָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רְצוּעָה ²",
+	"headwords": [
+		{
+			"text": "רְצוּעָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1492,
 		"column": "b"

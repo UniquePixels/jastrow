@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00891",
-	"slug": "פיתוחא",
-	"headword": {
-		"text": "פִּיתּוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיתּוּחָא",
+	"headwords": [
 		{
-			"text": "פִּתּ׳"
+			"text": "פִּיתּוּחָא"
+		},
+		{
+			"text": "פִּתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1173,
 		"column": "a"

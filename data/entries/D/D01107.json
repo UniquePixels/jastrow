@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01107",
-	"slug": "דרמינון",
-	"headword": {
-		"text": "דרמינון"
-	},
+	"sefariaHeadword": "דרמינון",
+	"headwords": [
+		{
+			"text": "דרמינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02089",
-	"slug": "קרם-3",
-	"headword": {
-		"text": "קֶרֶם"
-	},
+	"sefariaHeadword": "קֶרֶם",
+	"headwords": [
+		{
+			"text": "קֶרֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "b"

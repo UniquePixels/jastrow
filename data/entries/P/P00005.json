@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00005",
-	"slug": "עאס",
-	"headword": {
-		"text": "עָאס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עָאס",
+	"headwords": [
+		{
+			"text": "עָאס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1034,
 		"column": "a"

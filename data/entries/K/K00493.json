@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00493",
-	"slug": "כידום",
-	"headword": {
-		"text": "כידום"
-	},
+	"sefariaHeadword": "כידום",
+	"headwords": [
+		{
+			"text": "כידום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 631,
 		"column": "a"

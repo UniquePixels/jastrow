@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01119",
-	"slug": "פלפלן",
-	"headword": {
-		"text": "פִּלְפְּלָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּלְפְּלָן",
+	"headwords": [
 		{
-			"text": "פִּילְ׳"
+			"text": "פִּלְפְּלָן"
+		},
+		{
+			"text": "פִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "b"

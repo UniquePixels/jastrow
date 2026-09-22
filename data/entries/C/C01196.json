@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01196",
-	"slug": "גף-2",
-	"headword": {
-		"text": "גַּף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גַּף II",
+	"headwords": [
+		{
+			"text": "גַּף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 262,
 		"column": "a"

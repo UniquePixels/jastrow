@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00470",
-	"slug": "רזם",
-	"headword": {
-		"text": "רזם"
-	},
+	"sefariaHeadword": "רזם",
+	"headwords": [
+		{
+			"text": "רזם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "a"

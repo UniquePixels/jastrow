@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00283",
-	"slug": "גובל",
-	"headword": {
-		"text": "גּוֹבֶל"
-	},
+	"sefariaHeadword": "גּוֹבֶל",
+	"headwords": [
+		{
+			"text": "גּוֹבֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 217,
 		"column": "b"

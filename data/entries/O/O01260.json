@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01260",
-	"slug": "סנקוטס",
-	"headword": {
-		"text": "סנקוטס"
-	},
+	"sefariaHeadword": "סנקוטס",
+	"headwords": [
+		{
+			"text": "סנקוטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

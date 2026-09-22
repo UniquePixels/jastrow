@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00481",
-	"slug": "עטרות",
-	"headword": {
-		"text": "עֲטָרוֹת"
-	},
+	"sefariaHeadword": "עֲטָרוֹת",
+	"headwords": [
+		{
+			"text": "עֲטָרוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

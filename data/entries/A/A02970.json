@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02970",
-	"slug": "ארבעה-1",
-	"headword": {
-		"text": "אַרְבָּעָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְבָּעָה I",
+	"headwords": [
+		{
+			"text": "אַרְבָּעָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 114,
 		"column": "b"

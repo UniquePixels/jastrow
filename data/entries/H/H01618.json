@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01618",
-	"slug": "חרוד",
-	"headword": {
-		"text": "חרוד"
-	},
+	"sefariaHeadword": "חרוד",
+	"headwords": [
+		{
+			"text": "חרוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 499,
 		"column": "b"

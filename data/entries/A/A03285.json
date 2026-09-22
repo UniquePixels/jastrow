@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03285",
-	"slug": "אשיבתא",
-	"headword": {
-		"text": "אֲשִׁיבְתָּא"
-	},
+	"sefariaHeadword": "אֲשִׁיבְתָּא",
+	"headwords": [
+		{
+			"text": "אֲשִׁיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00193",
-	"slug": "כובע",
-	"headword": {
-		"text": "כּוֹבַע"
-	},
+	"sefariaHeadword": "כּוֹבַע",
+	"headwords": [
+		{
+			"text": "כּוֹבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 616,
 		"column": "b"

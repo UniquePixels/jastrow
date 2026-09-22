@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02900",
-	"slug": "אקונא",
-	"headword": {
-		"text": "אִקוֹנָא"
-	},
+	"sefariaHeadword": "אִקוֹנָא",
+	"headwords": [
+		{
+			"text": "אִקוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

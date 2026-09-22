@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00706",
-	"slug": "תמר-4",
-	"headword": {
-		"text": "תָּמָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּמָר",
+	"headwords": [
+		{
+			"text": "תָּמָר"
+		},
 		{
 			"text": "תַּמְרָא"
 		},
 		{
-			"text": "תּוּמְ׳"
+			"text": "תּוּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1679,
 		"column": "a"

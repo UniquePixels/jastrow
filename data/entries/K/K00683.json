@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00683",
-	"slug": "כלבוס",
-	"headword": {
-		"text": "כַּלְבּוּס"
-	},
+	"sefariaHeadword": "כַּלְבּוּס",
+	"headwords": [
+		{
+			"text": "כַּלְבּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 639,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01637",
-	"slug": "קסוא",
-	"headword": {
-		"text": "קַסְוָא"
-	},
+	"sefariaHeadword": "קַסְוָא",
+	"headwords": [
+		{
+			"text": "קַסְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

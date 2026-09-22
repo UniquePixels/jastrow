@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00025",
-	"slug": "מאין",
-	"headword": {
-		"text": "מָאִין"
-	},
+	"sefariaHeadword": "מָאִין",
+	"headwords": [
+		{
+			"text": "מָאִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

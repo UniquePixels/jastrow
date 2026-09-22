@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01537",
-	"slug": "חצצא",
-	"headword": {
-		"text": "חֲצָצָא"
-	},
+	"sefariaHeadword": "חֲצָצָא",
+	"headwords": [
+		{
+			"text": "חֲצָצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 496,
 		"column": "a"

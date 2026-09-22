@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00671",
-	"slug": "טפסן",
-	"headword": {
-		"text": "טַפְסָן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַפְסָן",
+	"headwords": [
+		{
+			"text": "טַפְסָן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

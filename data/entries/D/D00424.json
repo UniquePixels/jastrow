@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00424",
-	"slug": "דחלא-3",
-	"headword": {
-		"text": "דחלא"
-	},
+	"sefariaHeadword": "דחלא",
+	"headwords": [
+		{
+			"text": "דחלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

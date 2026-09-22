@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01130",
-	"slug": "איבליים",
-	"headword": {
-		"text": "אֵיבְלַיִים"
-	},
+	"sefariaHeadword": "אֵיבְלַיִים",
+	"headwords": [
+		{
+			"text": "אֵיבְלַיִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "b"

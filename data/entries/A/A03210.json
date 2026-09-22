@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03210",
-	"slug": "ארס-3",
-	"headword": {
-		"text": "אָרַס"
-	},
+	"sefariaHeadword": "אָרַס",
+	"headwords": [
+		{
+			"text": "אָרַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

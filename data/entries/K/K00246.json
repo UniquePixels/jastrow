@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00246",
-	"slug": "כויץ",
-	"headword": {
-		"text": "כְּוֵיץ"
-	},
+	"sefariaHeadword": "כְּוֵיץ",
+	"headwords": [
+		{
+			"text": "כְּוֵיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 619,
 		"column": "a"

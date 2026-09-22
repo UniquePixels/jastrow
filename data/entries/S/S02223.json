@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S02223",
-	"slug": "קשואים",
-	"headword": {
-		"text": "קִשּׁוּאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִשּׁוּאִים",
+	"headwords": [
+		{
+			"text": "קִשּׁוּאִים"
+		},
 		{
 			"text": "קִשּׁוּאִין"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1429,
 		"column": "a"

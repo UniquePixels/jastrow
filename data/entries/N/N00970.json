@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00970",
-	"slug": "נעוה",
-	"headword": {
-		"text": "נַעֲוָה"
-	},
+	"sefariaHeadword": "נַעֲוָה",
+	"headwords": [
+		{
+			"text": "נַעֲוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00860",
-	"slug": "מחי-4",
-	"headword": {
-		"text": "מָחֵי"
-	},
+	"sefariaHeadword": "מָחֵי",
+	"headwords": [
+		{
+			"text": "מָחֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 760,
 		"column": "a"

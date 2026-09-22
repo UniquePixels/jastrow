@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00749",
-	"slug": "סיסטא",
-	"headword": {
-		"text": "סיסטא"
-	},
+	"sefariaHeadword": "סיסטא",
+	"headwords": [
+		{
+			"text": "סיסטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "b"

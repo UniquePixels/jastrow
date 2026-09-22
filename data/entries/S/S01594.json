@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01594",
-	"slug": "כנקתירין",
-	"headword": {
-		"text": "כנקתירין"
-	},
+	"sefariaHeadword": "כנקתירין",
+	"headwords": [
+		{
+			"text": "כנקתירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

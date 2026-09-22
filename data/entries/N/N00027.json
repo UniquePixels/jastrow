@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00027",
-	"slug": "נאפון",
-	"headword": {
-		"text": "נאפון"
-	},
+	"sefariaHeadword": "נאפון",
+	"headwords": [
+		{
+			"text": "נאפון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "b"

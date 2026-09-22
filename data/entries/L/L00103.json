@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00103",
-	"slug": "לבנה-1",
-	"headword": {
-		"text": "לְבֵנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבֵנָה",
+	"headwords": [
 		{
-			"text": "לְבֵי׳"
+			"text": "לְבֵנָה"
+		},
+		{
+			"text": "לְבֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 690,
 		"column": "b"

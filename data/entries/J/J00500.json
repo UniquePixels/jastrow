@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00500",
-	"slug": "יפה-1",
-	"headword": {
-		"text": "יָפֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָפֶה",
+	"headwords": [
+		{
+			"text": "יָפֶה"
+		},
 		{
 			"text": "יָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 585,
 		"column": "b"

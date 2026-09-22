@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01332",
-	"slug": "ערוקא",
-	"headword": {
-		"text": "עָרוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָרוֹקָא",
+	"headwords": [
+		{
+			"text": "עָרוֹקָא"
+		},
 		{
 			"text": "עֲרוֹקָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1115,
 		"column": "b"

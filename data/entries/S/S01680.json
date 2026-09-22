@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01680",
-	"slug": "קסר",
-	"headword": {
-		"text": "קֵסַר"
-	},
+	"sefariaHeadword": "קֵסַר",
+	"headwords": [
+		{
+			"text": "קֵסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00739",
-	"slug": "תנחומים",
-	"headword": {
-		"text": "תַּנְחוּמִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּנְחוּמִים",
+	"headwords": [
+		{
+			"text": "תַּנְחוּמִים"
+		},
 		{
 			"text": "תַּנְחוּמִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1681,
 		"column": "a"

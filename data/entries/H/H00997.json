@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00997",
-	"slug": "חלול",
-	"headword": {
-		"text": "חָלוּל"
-	},
+	"sefariaHeadword": "חָלוּל",
+	"headwords": [
+		{
+			"text": "חָלוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 465,
 		"column": "a"

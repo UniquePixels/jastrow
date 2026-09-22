@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00960",
-	"slug": "כסרא",
-	"headword": {
-		"text": "כסרא"
-	},
+	"sefariaHeadword": "כסרא",
+	"headwords": [
+		{
+			"text": "כסרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01686",
-	"slug": "אכטא-2",
-	"headword": {
-		"text": "אָכְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָכְטָא",
+	"headwords": [
+		{
+			"text": "אָכְטָא"
+		},
 		{
 			"text": "אוֹכְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 63,
 		"column": "a"

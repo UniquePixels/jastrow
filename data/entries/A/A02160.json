@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02160",
-	"slug": "אנטבילא",
-	"headword": {
-		"text": "אַנְטְבִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְטְבִילָא",
+	"headwords": [
 		{
-			"text": "בית אַנְטְבִילָא"
+			"text": "אַנְטְבִילָא"
+		},
+		{
+			"text": "בית א׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "b"

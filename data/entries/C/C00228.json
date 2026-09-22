@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00228",
-	"slug": "גדלון",
-	"headword": {
-		"text": "גִּדָּלוֹן"
-	},
+	"sefariaHeadword": "גִּדָּלוֹן",
+	"headwords": [
+		{
+			"text": "גִּדָּלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 213,
 		"column": "b"

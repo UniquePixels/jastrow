@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00443",
-	"slug": "מוזבה",
-	"headword": {
-		"text": "מוזבה"
-	},
+	"sefariaHeadword": "מוזבה",
+	"headwords": [
+		{
+			"text": "מוזבה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

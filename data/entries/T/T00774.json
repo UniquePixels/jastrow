@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00774",
-	"slug": "רכס-3",
-	"headword": {
-		"text": "רֶכֶס"
-	},
+	"sefariaHeadword": "רֶכֶס",
+	"headwords": [
+		{
+			"text": "רֶכֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1480,
 		"column": "b"

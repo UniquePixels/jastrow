@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00783",
-	"slug": "מזרחי",
-	"headword": {
-		"text": "מִזְרָחִי"
-	},
+	"sefariaHeadword": "מִזְרָחִי",
+	"headwords": [
+		{
+			"text": "מִזְרָחִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

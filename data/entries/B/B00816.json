@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00816",
-	"slug": "בלבסים",
-	"headword": {
-		"text": "בלבסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בלבסים",
+	"headwords": [
+		{
+			"text": "בלבסים"
+		},
 		{
 			"text": "בלבסין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 171,
 		"column": "a"

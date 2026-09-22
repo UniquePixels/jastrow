@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01018",
-	"slug": "תרמל-2",
-	"headword": {
-		"text": "תַּרְמֵל"
-	},
+	"sefariaHeadword": "תַּרְמֵל",
+	"headwords": [
+		{
+			"text": "תַּרְמֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1700,
 		"column": "a"

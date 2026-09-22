@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00628",
-	"slug": "סייעא",
-	"headword": {
-		"text": "סַיָּיעָא"
-	},
+	"sefariaHeadword": "סַיָּיעָא",
+	"headwords": [
+		{
+			"text": "סַיָּיעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "b"

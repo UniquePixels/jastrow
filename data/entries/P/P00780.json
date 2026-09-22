@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00780",
-	"slug": "עלוי-2",
-	"headword": {
-		"text": "עֲלוֹי"
-	},
+	"sefariaHeadword": "עֲלוֹי",
+	"headwords": [
+		{
+			"text": "עֲלוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

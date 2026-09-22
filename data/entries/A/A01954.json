@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01954",
-	"slug": "אלריא-1",
-	"headword": {
-		"text": "אִלַּרְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלַּרְיָא",
+	"headwords": [
 		{
-			"text": "אִילַ׳"
+			"text": "אִלַּרְיָא"
+		},
+		{
+			"text": "אִילַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "b"

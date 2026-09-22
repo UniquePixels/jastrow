@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00316",
-	"slug": "פוקדון",
-	"headword": {
-		"text": "פוקדון"
-	},
+	"sefariaHeadword": "פוקדון",
+	"headwords": [
+		{
+			"text": "פוקדון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "b"

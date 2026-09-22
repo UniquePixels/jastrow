@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00646",
-	"slug": "מורייא",
-	"headword": {
-		"text": "מוֹרַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹרַיָּיא",
+	"headwords": [
 		{
-			"text": "שׁוּבְלַיָּיא מוֹרַיָּיא"
+			"text": "מוֹרַיָּיא"
+		},
+		{
+			"text": "שׁוּבְלַיָּיא מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 750,
 		"column": "a"

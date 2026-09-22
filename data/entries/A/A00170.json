@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00170",
-	"slug": "אבמוסוס",
-	"headword": {
-		"text": "אֶבְמוֹסוֹס"
-	},
+	"sefariaHeadword": "אֶבְמוֹסוֹס",
+	"headwords": [
+		{
+			"text": "אֶבְמוֹסוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00625",
-	"slug": "תלת-1",
-	"headword": {
-		"text": "תַּלֵּת"
-	},
+	"sefariaHeadword": "תַּלֵּת",
+	"headwords": [
+		{
+			"text": "תַּלֵּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1674,
 		"column": "a"

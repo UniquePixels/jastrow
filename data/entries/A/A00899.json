@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00899",
-	"slug": "אורך",
-	"headword": {
-		"text": "אוֹרֶךְ"
-	},
+	"sefariaHeadword": "אוֹרֶךְ",
+	"headwords": [
+		{
+			"text": "אוֹרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

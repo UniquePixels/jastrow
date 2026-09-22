@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01539",
-	"slug": "איפומטא",
-	"headword": {
-		"text": "איפומטא"
-	},
+	"sefariaHeadword": "איפומטא",
+	"headwords": [
+		{
+			"text": "איפומטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

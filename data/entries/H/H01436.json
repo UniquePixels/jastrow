@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01436",
-	"slug": "חפושית-2",
-	"headword": {
-		"text": "חִפּוּשִׂית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִפּוּשִׂית",
+	"headwords": [
+		{
+			"text": "חִפּוּשִׂית"
+		},
 		{
 			"text": "חִפּוּשִׂיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 491,
 		"column": "a"

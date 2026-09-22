@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01045",
-	"slug": "נפיצה",
-	"headword": {
-		"text": "נְפִיצָה"
-	},
+	"sefariaHeadword": "נְפִיצָה",
+	"headwords": [
+		{
+			"text": "נְפִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "a"

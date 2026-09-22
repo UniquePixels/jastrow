@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00438",
-	"slug": "סות-1",
-	"headword": {
-		"text": "סוּת",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*סוּת",
+	"headwords": [
+		{
+			"text": "סוּת",
+			"reconstructed": true
+		},
 		{
 			"text": "סֶוֶת"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "b"

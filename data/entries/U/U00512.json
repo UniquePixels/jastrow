@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00512",
-	"slug": "שופרזא",
-	"headword": {
-		"text": "שׁוֹפְרָזָא"
-	},
+	"sefariaHeadword": "שֹׁופְרָזָא",
+	"headwords": [
+		{
+			"text": "שׁוֹפְרָזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1540,
 		"column": "b"

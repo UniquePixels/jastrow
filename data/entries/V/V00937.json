@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00937",
-	"slug": "תרבתר",
-	"headword": {
-		"text": "תֹּרְבְּתֹר"
-	},
+	"sefariaHeadword": "תֹּרְבְּתֹר",
+	"headwords": [
+		{
+			"text": "תֹּרְבְּתֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1695,
 		"column": "a"

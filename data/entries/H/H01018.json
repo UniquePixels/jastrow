@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01018",
-	"slug": "חלחל-1",
-	"headword": {
-		"text": "חִלְחֵל"
-	},
+	"sefariaHeadword": "חִלְחֵל",
+	"headwords": [
+		{
+			"text": "חִלְחֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "b"

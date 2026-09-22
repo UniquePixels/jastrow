@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01048",
-	"slug": "רקע-1",
-	"headword": {
-		"text": "רָקַע"
-	},
+	"sefariaHeadword": "רָקַע",
+	"headwords": [
+		{
+			"text": "רָקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1497,
 		"column": "b"

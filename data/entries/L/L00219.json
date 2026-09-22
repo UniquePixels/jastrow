@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00219",
-	"slug": "לוולו",
-	"headword": {
-		"text": "לַוְולֵו"
-	},
+	"sefariaHeadword": "לַוְולֵו",
+	"headwords": [
+		{
+			"text": "לַוְולֵו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00521",
-	"slug": "תכא-1",
-	"headword": {
-		"text": "תִּכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּכָּא",
+	"headwords": [
 		{
-			"text": "תִּי׳"
+			"text": "תִּכָּא"
+		},
+		{
+			"text": "תִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1667,
 		"column": "b"

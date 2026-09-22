@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00952",
-	"slug": "ענה",
-	"headword": {
-		"text": "עָנָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָנָה",
+	"headwords": [
+		{
+			"text": "עָנָה"
+		},
 		{
 			"text": "עֲנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1092,
 		"column": "a"

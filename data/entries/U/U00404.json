@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00404",
-	"slug": "שויסקי",
-	"headword": {
-		"text": "שְׁוִיסְקֵי"
-	},
+	"sefariaHeadword": "שְׁוִיסְקֵי",
+	"headwords": [
+		{
+			"text": "שְׁוִיסְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

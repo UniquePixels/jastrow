@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00508",
-	"slug": "תירחא",
-	"headword": {
-		"text": "תירחא"
-	},
+	"sefariaHeadword": "תירחא",
+	"headwords": [
+		{
+			"text": "תירחא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

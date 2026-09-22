@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01138",
-	"slug": "גניגי",
-	"headword": {
-		"text": "גְּנִיגִי"
-	},
+	"sefariaHeadword": "גְּנִיגִי",
+	"headwords": [
+		{
+			"text": "גְּנִיגִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "b"

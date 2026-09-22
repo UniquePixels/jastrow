@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00008",
-	"slug": "קאיא",
-	"headword": {
-		"text": "קָאיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָאיָא",
+	"headwords": [
+		{
+			"text": "קָאיָא"
+		},
 		{
 			"text": "קָיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1306,
 		"column": "a"

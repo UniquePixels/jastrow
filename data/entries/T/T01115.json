@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01115",
-	"slug": "רשת-2",
-	"headword": {
-		"text": "רֶשֶׁת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רֶשֶׁת II",
+	"headwords": [
+		{
+			"text": "רֶשֶׁת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1502,
 		"column": "a"

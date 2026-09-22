@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01365",
-	"slug": "נתח-2",
-	"headword": {
-		"text": "נְתַח"
-	},
+	"sefariaHeadword": "נְתַח",
+	"headwords": [
+		{
+			"text": "נְתַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 943,
 		"column": "b"

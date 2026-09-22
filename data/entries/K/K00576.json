@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00576",
-	"slug": "כיס-1",
-	"headword": {
-		"text": "כִּיס"
-	},
+	"sefariaHeadword": "כִּיס",
+	"headwords": [
+		{
+			"text": "כִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "b"

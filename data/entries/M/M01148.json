@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01148",
-	"slug": "מיכה-1",
-	"headword": {
-		"text": "מִיכָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִיכָה I",
+	"headwords": [
+		{
+			"text": "מִיכָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 773,
 		"column": "a"

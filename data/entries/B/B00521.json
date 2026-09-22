@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00521",
-	"slug": "בטלנא",
-	"headword": {
-		"text": "בַּטְלָנָא"
-	},
+	"sefariaHeadword": "בַּטְלָנָא",
+	"headwords": [
+		{
+			"text": "בַּטְלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

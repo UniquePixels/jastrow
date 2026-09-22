@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02157",
-	"slug": "פתיה",
-	"headword": {
-		"text": "פַּתְיָה"
-	},
+	"sefariaHeadword": "פַּתְיָה",
+	"headwords": [
+		{
+			"text": "פַּתְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1253,
 		"column": "a"

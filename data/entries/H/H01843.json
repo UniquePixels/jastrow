@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01843",
-	"slug": "חשיפה",
-	"headword": {
-		"text": "חֲשִׂיפָה"
-	},
+	"sefariaHeadword": "חֲשִׂיפָה",
+	"headwords": [
+		{
+			"text": "חֲשִׂיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

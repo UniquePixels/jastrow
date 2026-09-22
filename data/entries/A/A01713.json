@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01713",
-	"slug": "אכם",
-	"headword": {
-		"text": "אָכַם"
-	},
+	"sefariaHeadword": "אָכַם",
+	"headwords": [
+		{
+			"text": "אָכַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

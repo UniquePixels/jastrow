@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00396",
-	"slug": "לטרא",
-	"headword": {
-		"text": "לִטְרָא"
-	},
+	"sefariaHeadword": "לִטְרָא",
+	"headwords": [
+		{
+			"text": "לִטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 705,
 		"column": "b"

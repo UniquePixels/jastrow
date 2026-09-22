@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00953",
-	"slug": "נסס",
-	"headword": {
-		"text": "נְסַס"
-	},
+	"sefariaHeadword": "נְסַס",
+	"headwords": [
+		{
+			"text": "נְסַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 917,
 		"column": "b"

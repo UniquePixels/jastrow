@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01216",
-	"slug": "ברז",
-	"headword": {
-		"text": "בְּרַז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרַז",
+	"headwords": [
+		{
+			"text": "בְּרַז"
+		},
 		{
 			"text": "בְּרֵיז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 191,
 		"column": "b"

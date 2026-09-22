@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00366",
-	"slug": "סוס-1",
-	"headword": {
-		"text": "סוּס"
-	},
+	"sefariaHeadword": "סוּס",
+	"headwords": [
+		{
+			"text": "סוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 967,
 		"column": "a"

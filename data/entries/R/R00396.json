@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00396",
-	"slug": "צינית-2",
-	"headword": {
-		"text": "צִינִּית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צִינִּית II",
+	"headwords": [
+		{
+			"text": "צִינִּית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1278,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00011",
-	"slug": "סאור-1",
-	"headword": {
-		"text": "סְאוֹר"
-	},
+	"sefariaHeadword": "סְאוֹר",
+	"headwords": [
+		{
+			"text": "סְאוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

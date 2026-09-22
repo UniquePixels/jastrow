@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00938",
-	"slug": "בנאיתא",
-	"headword": {
-		"text": "בנאיתא"
-	},
+	"sefariaHeadword": "בנאיתא",
+	"headwords": [
+		{
+			"text": "בנאיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

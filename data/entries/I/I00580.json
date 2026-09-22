@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00580",
-	"slug": "טננותא",
-	"headword": {
-		"text": "טְנָנוּתָא"
-	},
+	"sefariaHeadword": "טְנָנוּתָא",
+	"headwords": [
+		{
+			"text": "טְנָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "b"

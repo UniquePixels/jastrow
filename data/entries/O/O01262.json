@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01262",
-	"slug": "סנקלוס",
-	"headword": {
-		"text": "סנקלוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סנקלוס",
+	"headwords": [
+		{
+			"text": "סנקלוס"
+		},
 		{
 			"text": "סנקלטורי"
 		},
@@ -15,6 +16,7 @@
 			"text": "סִנְקְלִיטוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1008,
 		"column": "b"

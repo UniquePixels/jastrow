@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01058",
-	"slug": "עסר",
-	"headword": {
-		"text": "עֲסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲסַר",
+	"headwords": [
+		{
+			"text": "עֲסַר"
+		},
 		{
 			"text": "עֶסְרוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1099,
 		"column": "b"

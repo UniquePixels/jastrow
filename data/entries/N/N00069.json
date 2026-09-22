@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00069",
-	"slug": "נבטייא",
-	"headword": {
-		"text": "נַבְטָיָיא"
-	},
+	"sefariaHeadword": "נַבְטָיָיא",
+	"headwords": [
+		{
+			"text": "נַבְטָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "b"

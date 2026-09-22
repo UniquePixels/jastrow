@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01066",
-	"slug": "שירון",
-	"headword": {
-		"text": "שִׁירְוָן"
-	},
+	"sefariaHeadword": "שִׁירְוָן",
+	"headwords": [
+		{
+			"text": "שִׁירְוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1569,
 		"column": "a"

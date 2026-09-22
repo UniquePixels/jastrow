@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01839",
-	"slug": "שקופא",
-	"headword": {
-		"text": "שְׁקוֹפָא"
-	},
+	"sefariaHeadword": "שְׁקוֹפָא",
+	"headwords": [
+		{
+			"text": "שְׁקוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1621,
 		"column": "b"

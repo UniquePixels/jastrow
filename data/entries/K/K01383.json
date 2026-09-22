@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01383",
-	"slug": "כתפא",
-	"headword": {
-		"text": "כַּתָּפָא"
-	},
+	"sefariaHeadword": "כַּתָּפָא",
+	"headwords": [
+		{
+			"text": "כַּתָּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 682,
 		"column": "b"

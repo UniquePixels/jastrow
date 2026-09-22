@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00622",
-	"slug": "ריחוש-1",
-	"headword": {
-		"text": "רִיחוּשׁ"
-	},
+	"sefariaHeadword": "רִיחוּשׁ",
+	"headwords": [
+		{
+			"text": "רִיחוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "a"

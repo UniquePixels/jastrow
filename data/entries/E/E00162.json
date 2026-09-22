@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00162",
-	"slug": "הדריס",
-	"headword": {
-		"text": "הַדְּרֵיס"
-	},
+	"sefariaHeadword": "הַדְּרֵיס",
+	"headwords": [
+		{
+			"text": "הַדְּרֵיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

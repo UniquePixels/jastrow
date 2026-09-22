@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00244",
-	"slug": "פולקטון",
-	"headword": {
-		"text": "פולקטון"
-	},
+	"sefariaHeadword": "פולקטון",
+	"headwords": [
+		{
+			"text": "פולקטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "b"

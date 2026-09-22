@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00380",
-	"slug": "זינאות",
-	"headword": {
-		"text": "זינאות"
-	},
+	"sefariaHeadword": "זינאות",
+	"headwords": [
+		{
+			"text": "זינאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

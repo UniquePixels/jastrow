@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00759",
-	"slug": "על-4",
-	"headword": {
-		"text": "עָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָל",
+	"headwords": [
+		{
+			"text": "עָל"
+		},
 		{
 			"text": "עַל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1080,
 		"column": "a"

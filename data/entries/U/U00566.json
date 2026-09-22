@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00566",
-	"slug": "שושבתא",
-	"headword": {
-		"text": "שׁוֹשַׁבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹשַׁבְתָּא",
+	"headwords": [
+		{
+			"text": "שׁוֹשַׁבְתָּא"
+		},
 		{
 			"text": "שׁוֹשִׁיבְתָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1543,
 		"column": "b"

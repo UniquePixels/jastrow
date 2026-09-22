@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01058",
-	"slug": "קיסום",
-	"headword": {
-		"text": "קיסום"
-	},
+	"sefariaHeadword": "קיסום",
+	"headwords": [
+		{
+			"text": "קיסום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "b"

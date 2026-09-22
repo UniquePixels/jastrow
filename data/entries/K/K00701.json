@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00701",
-	"slug": "כלוכסין",
-	"headword": {
-		"text": "כלוכסין"
-	},
+	"sefariaHeadword": "כלוכסין",
+	"headwords": [
+		{
+			"text": "כלוכסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 640,
 		"column": "a"

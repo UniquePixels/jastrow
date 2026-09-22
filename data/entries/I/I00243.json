@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00243",
-	"slug": "טורסוס",
-	"headword": {
-		"text": "טוּרְסוֹס"
-	},
+	"sefariaHeadword": "טוּרְסוֹס",
+	"headwords": [
+		{
+			"text": "טוּרְסוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

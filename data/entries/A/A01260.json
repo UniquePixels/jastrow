@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01260",
-	"slug": "איכרא",
-	"headword": {
-		"text": "אִיכָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיכָּרָא",
+	"headwords": [
 		{
-			"text": "אִכָּ׳"
+			"text": "אִיכָּרָא"
+		},
+		{
+			"text": "אִכָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "a"

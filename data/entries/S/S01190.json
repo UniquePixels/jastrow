@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01190",
-	"slug": "קירמיון",
-	"headword": {
-		"text": "קִירַמְיוֹן"
-	},
+	"sefariaHeadword": "קִירַמְיוֹן",
+	"headwords": [
+		{
+			"text": "קִירַמְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

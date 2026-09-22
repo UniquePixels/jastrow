@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00098",
-	"slug": "זהיר-2",
-	"headword": {
-		"text": "זהִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זהִיר",
+	"headwords": [
+		{
+			"text": "זהִיר"
+		},
 		{
 			"text": "זְהִיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 381,
 		"column": "b"

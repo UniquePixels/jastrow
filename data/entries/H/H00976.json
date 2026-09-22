@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00976",
-	"slug": "חלבנה",
-	"headword": {
-		"text": "חֶלְבְּנָה"
-	},
+	"sefariaHeadword": "חֶלְבְּנָה",
+	"headwords": [
+		{
+			"text": "חֶלְבְּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

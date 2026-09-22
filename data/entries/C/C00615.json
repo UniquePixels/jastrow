@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00615",
-	"slug": "גיבור",
-	"headword": {
-		"text": "גִּיבּוֹר"
-	},
+	"sefariaHeadword": "גִּיבּוֹר",
+	"headwords": [
+		{
+			"text": "גִּיבּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00971",
-	"slug": "סלוקנרית",
-	"headword": {
-		"text": "סלוקנרית"
-	},
+	"sefariaHeadword": "סלוקנרית",
+	"headwords": [
+		{
+			"text": "סלוקנרית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00634",
-	"slug": "טפז",
-	"headword": {
-		"text": "טְפַז"
-	},
+	"sefariaHeadword": "טְפַז",
+	"headwords": [
+		{
+			"text": "טְפַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "b"

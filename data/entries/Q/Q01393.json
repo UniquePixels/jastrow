@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01393",
-	"slug": "פעפע-1",
-	"headword": {
-		"text": "פִּעְפֵּעַ"
-	},
+	"sefariaHeadword": "פִּעְפֵּעַ",
+	"headwords": [
+		{
+			"text": "פִּעְפֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "a"

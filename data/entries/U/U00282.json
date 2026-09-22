@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "U00282",
-	"slug": "שדפונא",
-	"headword": {
-		"text": "שִׁדְּפוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁדְּפוֹנָא",
+	"headwords": [
 		{
-			"text": "שִׁידּ׳"
+			"text": "שִׁדְּפוֹנָא"
+		},
+		{
+			"text": "שִׁידּ׳",
+			"partial": true
 		},
 		{
 			"text": "שַׁדְּפָנָא"
 		},
 		{
-			"text": "שׁוּדְּ׳"
+			"text": "שׁוּדְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1526,
 		"column": "a"

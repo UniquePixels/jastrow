@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00143",
-	"slug": "כדנא-1",
-	"headword": {
-		"text": "כַּדְנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כַּדְנָא",
+	"headwords": [
+		{
+			"text": "כַּדְנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 614,
 		"column": "a"

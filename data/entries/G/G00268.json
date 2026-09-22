@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00268",
-	"slug": "זיבורא",
-	"headword": {
-		"text": "זִיבּוֹרָא"
-	},
+	"sefariaHeadword": "זִיבֹּורָא",
+	"headwords": [
+		{
+			"text": "זִיבּוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "b"

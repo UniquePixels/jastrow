@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00393",
-	"slug": "עזב-1",
-	"headword": {
-		"text": "עָזַב"
-	},
+	"sefariaHeadword": "עָזַב",
+	"headwords": [
+		{
+			"text": "עָזַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1060,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00554",
-	"slug": "פטרובולי",
-	"headword": {
-		"text": "פַּטְרוֹבּוֹלִי"
-	},
+	"sefariaHeadword": "פַּטְרוֹבּוֹלִי",
+	"headwords": [
+		{
+			"text": "פַּטְרוֹבּוֹלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

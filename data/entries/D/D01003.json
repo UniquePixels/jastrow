@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01003",
-	"slug": "דקיון",
-	"headword": {
-		"text": "דִּקְיוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּקְיוֹן",
+	"headwords": [
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּקְיוֹן"
+		},
+		{
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 318,
 		"column": "b"

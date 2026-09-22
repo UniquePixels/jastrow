@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00137",
-	"slug": "כדכודי",
-	"headword": {
-		"text": "כדכודי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כדכודי",
+	"headwords": [
+		{
+			"text": "כדכודי"
+		},
 		{
 			"text": "כדכודנין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 614,
 		"column": "a"

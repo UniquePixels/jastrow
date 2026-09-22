@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01612",
-	"slug": "פרובטא",
-	"headword": {
-		"text": "פרובטא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרובטא",
+	"headwords": [
+		{
+			"text": "פרובטא"
+		},
 		{
 			"text": "פרובטוי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "a"

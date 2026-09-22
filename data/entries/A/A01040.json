@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01040",
-	"slug": "אחמרא",
-	"headword": {
-		"text": "אַחְמְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַחְמְרָא",
+	"headwords": [
+		{
+			"text": "אַחְמְרָא"
+		},
 		{
 			"text": "אהמרא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 40,
 		"column": "b"

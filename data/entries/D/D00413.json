@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00413",
-	"slug": "דחילא",
-	"headword": {
-		"text": "דְּחִילָא"
-	},
+	"sefariaHeadword": "דְּחִילָא",
+	"headwords": [
+		{
+			"text": "דְּחִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00973",
-	"slug": "פלולויה",
-	"headword": {
-		"text": "פלולויה"
-	},
+	"sefariaHeadword": "פלולויה",
+	"headwords": [
+		{
+			"text": "פלולויה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

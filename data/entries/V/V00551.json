@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00551",
-	"slug": "תכסיס",
-	"headword": {
-		"text": "תַּכְסִיס"
-	},
+	"sefariaHeadword": "תַּכְסִיס",
+	"headwords": [
+		{
+			"text": "תַּכְסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1669,
 		"column": "a"

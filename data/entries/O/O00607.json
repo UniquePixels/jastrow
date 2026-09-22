@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00607",
-	"slug": "סיטוסימה",
-	"headword": {
-		"text": "סיטוסימה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סיטוסימה",
+	"headwords": [
+		{
+			"text": "סיטוסימה"
+		},
 		{
 			"text": "סיטסמא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 978,
 		"column": "a"

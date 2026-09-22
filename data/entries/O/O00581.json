@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00581",
-	"slug": "סידורא",
-	"headword": {
-		"text": "סִידּוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִידּוּרָא",
+	"headwords": [
 		{
-			"text": "סִדּ׳"
+			"text": "סִידּוּרָא"
+		},
+		{
+			"text": "סִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 976,
 		"column": "b"

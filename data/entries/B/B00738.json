@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00738",
-	"slug": "בירתין",
-	"headword": {
-		"text": "בִּירְתִין"
-	},
+	"sefariaHeadword": "בִּירְתִין",
+	"headwords": [
+		{
+			"text": "בִּירְתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "a"

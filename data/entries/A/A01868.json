@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01868",
-	"slug": "אלימתא",
-	"headword": {
-		"text": "אַלִּימְתָּא"
-	},
+	"sefariaHeadword": "אַלִּימְתָּא",
+	"headwords": [
+		{
+			"text": "אַלִּימְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02522",
-	"slug": "מרגלית",
-	"headword": {
-		"text": "מַרְגָּלִית"
-	},
+	"sefariaHeadword": "מַרְגָּלִית",
+	"headwords": [
+		{
+			"text": "מַרְגָּלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 836,
 		"column": "a"

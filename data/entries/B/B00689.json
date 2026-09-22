@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00689",
-	"slug": "ביצעי",
-	"headword": {
-		"text": "בִּיצְעֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּיצְעֵי",
+	"headwords": [
+		{
+			"text": "בִּיצְעֵי"
+		},
 		{
 			"text": "בִּיצְעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 165,
 		"column": "a"

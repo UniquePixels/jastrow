@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00433",
-	"slug": "בזזנא",
-	"headword": {
-		"text": "בָּזְזָנָא"
-	},
+	"sefariaHeadword": "בָּזְזָנָא",
+	"headwords": [
+		{
+			"text": "בָּזְזָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "b"

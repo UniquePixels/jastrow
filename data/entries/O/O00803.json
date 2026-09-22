@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00803",
-	"slug": "סיפק",
-	"headword": {
-		"text": "סֵיפֶק"
-	},
+	"sefariaHeadword": "סֵיפֶק",
+	"headwords": [
+		{
+			"text": "סֵיפֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

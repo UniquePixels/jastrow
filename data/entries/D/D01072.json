@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D01072",
-	"slug": "דרוקא",
-	"headword": {
-		"text": "דְּרוּקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דְּרוּקָא",
+	"headwords": [
+		{
+			"text": "דְּרוּקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 322,
 		"column": "b"

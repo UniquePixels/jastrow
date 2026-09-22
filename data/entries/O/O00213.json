@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "O00213",
-	"slug": "סהדא",
-	"headword": {
-		"text": "סָהֲדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָהֲדָא",
+	"headwords": [
+		{
+			"text": "סָהֲדָא"
+		},
 		{
 			"text": "סָהֲדָה"
 		},
 		{
-			"text": "סַ׳"
+			"text": "סַ׳",
+			"partial": true
 		},
 		{
-			"text": "שַׂ׳"
+			"text": "שַׂ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 959,
 		"column": "b"

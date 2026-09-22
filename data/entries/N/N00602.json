@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00602",
-	"slug": "ניארת",
-	"headword": {
-		"text": "ניארת"
-	},
+	"sefariaHeadword": "ניארת",
+	"headwords": [
+		{
+			"text": "ניארת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

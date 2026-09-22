@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00927",
-	"slug": "שיכלל",
-	"headword": {
-		"text": "שִׁיכְלֵל"
-	},
+	"sefariaHeadword": "שִׁיכְלֵל",
+	"headwords": [
+		{
+			"text": "שִׁיכְלֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1562,
 		"column": "b"

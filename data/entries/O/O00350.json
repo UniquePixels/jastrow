@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00350",
-	"slug": "סומק-1",
-	"headword": {
-		"text": "סוּמֵק"
-	},
+	"sefariaHeadword": "סוּמֵק",
+	"headwords": [
+		{
+			"text": "סוּמֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00384",
-	"slug": "כורכם",
-	"headword": {
-		"text": "כּוּרְכָּם"
-	},
+	"sefariaHeadword": "כּוּרְכָּם",
+	"headwords": [
+		{
+			"text": "כּוּרְכָּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

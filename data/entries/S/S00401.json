@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00401",
-	"slug": "קומץ",
-	"headword": {
-		"text": "קוֹמֶץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוֹמֶץ",
+	"headwords": [
+		{
+			"text": "קוֹמֶץ"
+		},
 		{
 			"text": "קֹמֶץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1333,
 		"column": "b"

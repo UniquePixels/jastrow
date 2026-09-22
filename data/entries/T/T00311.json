@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00311",
-	"slug": "רובצל",
-	"headword": {
-		"text": "רוּבְצָל"
-	},
+	"sefariaHeadword": "רוּבְצָל",
+	"headwords": [
+		{
+			"text": "רוּבְצָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"

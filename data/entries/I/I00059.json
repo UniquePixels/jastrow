@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00059",
-	"slug": "טביעותא",
-	"headword": {
-		"text": "טְבִיעוּתָא"
-	},
+	"sefariaHeadword": "טְבִיעוּתָא",
+	"headwords": [
+		{
+			"text": "טְבִיעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 517,
 		"column": "a"

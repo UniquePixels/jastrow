@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00615",
-	"slug": "אוחיין",
-	"headword": {
-		"text": "אוֹחִיִין"
-	},
+	"sefariaHeadword": "אוֹחִיִין",
+	"headwords": [
+		{
+			"text": "אוֹחִיִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

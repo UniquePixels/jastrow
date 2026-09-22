@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00285",
-	"slug": "לולשפט",
-	"headword": {
-		"text": "לוּלְשָׁפָט"
-	},
+	"sefariaHeadword": "לוּלְשָׁפָט",
+	"headwords": [
+		{
+			"text": "לוּלְשָׁפָט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 699,
 		"column": "b"

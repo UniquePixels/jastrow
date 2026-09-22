@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00733",
-	"slug": "גילוע",
-	"headword": {
-		"text": "גִּילּוּעַ"
-	},
+	"sefariaHeadword": "גִּילּוּעַ",
+	"headwords": [
+		{
+			"text": "גִּילּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

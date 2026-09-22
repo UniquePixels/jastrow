@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00641",
-	"slug": "גידופא",
-	"headword": {
-		"text": "גִּידּוּפָא"
-	},
+	"sefariaHeadword": "גִּידּוּפָא",
+	"headwords": [
+		{
+			"text": "גִּידּוּפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "b"

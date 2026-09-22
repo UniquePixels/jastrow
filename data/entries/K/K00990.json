@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00990",
-	"slug": "כפולות",
-	"headword": {
-		"text": "כְּפוּלוֹת"
-	},
+	"sefariaHeadword": "כְּפוּלוֹת",
+	"headwords": [
+		{
+			"text": "כְּפוּלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

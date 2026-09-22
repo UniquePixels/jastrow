@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01264",
-	"slug": "ערבה-3",
-	"headword": {
-		"text": "עֲרָבָה",
-		"homograph": 3
-	},
+	"sefariaHeadword": "עֲרָבָה III",
+	"headwords": [
+		{
+			"text": "עֲרָבָה",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1112,
 		"column": "a"

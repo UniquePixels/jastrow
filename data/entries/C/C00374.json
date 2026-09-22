@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00374",
-	"slug": "גולבינא",
-	"headword": {
-		"text": "גּוּלְבִּינָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּלְבִּינָא",
+	"headwords": [
+		{
+			"text": "גּוּלְבִּינָא"
+		},
 		{
 			"text": "גִּילְבּוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "a"

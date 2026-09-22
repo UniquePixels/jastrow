@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01875",
-	"slug": "שקמונה",
-	"headword": {
-		"text": "שִׁקְמוֹנָה"
-	},
+	"sefariaHeadword": "שִׁקְמוֹנָה",
+	"headwords": [
+		{
+			"text": "שִׁקְמוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1624,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00548",
-	"slug": "גזילא",
-	"headword": {
-		"text": "גָּזֵילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּזֵילָא",
+	"headwords": [
+		{
+			"text": "גָּזֵילָא"
+		},
 		{
 			"text": "גְּזֵילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 230,
 		"column": "a"

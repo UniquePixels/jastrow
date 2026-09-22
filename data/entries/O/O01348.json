@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01348",
-	"slug": "ספי-1",
-	"headword": {
-		"text": "ספי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ספי",
+	"headwords": [
+		{
+			"text": "ספי"
+		},
 		{
 			"text": "סָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1013,
 		"column": "a"

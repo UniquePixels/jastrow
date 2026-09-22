@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00141",
-	"slug": "נגון",
-	"headword": {
-		"text": "נַגְוָן"
-	},
+	"sefariaHeadword": "נַגְוָן",
+	"headwords": [
+		{
+			"text": "נַגְוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 873,
 		"column": "b"

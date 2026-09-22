@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00090",
-	"slug": "זהורא-1",
-	"headword": {
-		"text": "זְהוֹרָא"
-	},
+	"sefariaHeadword": "זְהוֹרָא",
+	"headwords": [
+		{
+			"text": "זְהוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

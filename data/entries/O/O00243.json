@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00243",
-	"slug": "סוג-2",
-	"headword": {
-		"text": "סוּג"
-	},
+	"sefariaHeadword": "סוּג",
+	"headwords": [
+		{
+			"text": "סוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "b"

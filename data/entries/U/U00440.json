@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00440",
-	"slug": "שומא-1",
-	"headword": {
-		"text": "שׁוּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוּמָא",
+	"headwords": [
+		{
+			"text": "שׁוּמָא"
+		},
 		{
 			"text": "שׁוּמָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1536,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01828",
-	"slug": "חשי-3",
-	"headword": {
-		"text": "חֲשַׁי"
-	},
+	"sefariaHeadword": "חֲשַׁי",
+	"headwords": [
+		{
+			"text": "חֲשַׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

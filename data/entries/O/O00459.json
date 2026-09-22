@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00459",
-	"slug": "סחיתא",
-	"headword": {
-		"text": "סְחִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְחִיתָא",
+	"headwords": [
+		{
+			"text": "סְחִיתָא"
+		},
 		{
 			"text": "סְחוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 971,
 		"column": "a"

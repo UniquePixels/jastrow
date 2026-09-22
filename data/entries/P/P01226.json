@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01226",
-	"slug": "עקרת-1",
-	"headword": {
-		"text": "עִקֶּרֶת"
-	},
+	"sefariaHeadword": "עִקֶּרֶת",
+	"headwords": [
+		{
+			"text": "עִקֶּרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"

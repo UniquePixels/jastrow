@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01992",
-	"slug": "קרטום",
-	"headword": {
-		"text": "קרְטוּם"
-	},
+	"sefariaHeadword": "קרְטוּם",
+	"headwords": [
+		{
+			"text": "קרְטוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

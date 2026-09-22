@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00296",
-	"slug": "בוסרן",
-	"headword": {
-		"text": "בּוּסְרַן"
-	},
+	"sefariaHeadword": "בּוּסְרַן",
+	"headwords": [
+		{
+			"text": "בּוּסְרַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

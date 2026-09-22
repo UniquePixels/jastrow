@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00224",
-	"slug": "דוח-1",
-	"headword": {
-		"text": "דּוּחַ"
-	},
+	"sefariaHeadword": "דּוּחַ",
+	"headwords": [
+		{
+			"text": "דּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 284,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00049",
-	"slug": "חבי-3",
-	"headword": {
-		"text": "חֲבַי"
-	},
+	"sefariaHeadword": "חֲבַי",
+	"headwords": [
+		{
+			"text": "חֲבַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01272",
-	"slug": "קלונטרון",
-	"headword": {
-		"text": "קלונטרון"
-	},
+	"sefariaHeadword": "קלונטרון",
+	"headwords": [
+		{
+			"text": "קלונטרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "a"

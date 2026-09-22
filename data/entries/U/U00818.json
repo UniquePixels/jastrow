@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00818",
-	"slug": "שיגושתא",
-	"headword": {
-		"text": "שִׁיגּוּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיגּוּשְׁתָּא",
+	"headwords": [
 		{
-			"text": "שִׁגּ׳"
+			"text": "שִׁיגּוּשְׁתָּא"
+		},
+		{
+			"text": "שִׁגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1558,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01367",
-	"slug": "חסיא",
-	"headword": {
-		"text": "חַסְיָא"
-	},
+	"sefariaHeadword": "חַסְיָא",
+	"headwords": [
+		{
+			"text": "חַסְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 487,
 		"column": "a"

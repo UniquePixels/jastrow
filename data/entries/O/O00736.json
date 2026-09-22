@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00736",
-	"slug": "סינטרי",
-	"headword": {
-		"text": "סינטרי"
-	},
+	"sefariaHeadword": "סינטרי",
+	"headwords": [
+		{
+			"text": "סינטרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

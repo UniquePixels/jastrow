@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00398",
-	"slug": "פוש-2",
-	"headword": {
-		"text": "פּוּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּשׁ ²",
+	"headwords": [
+		{
+			"text": "פּוּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "פְּשֵׁי"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1149,
 		"column": "a"

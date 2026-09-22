@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00172",
-	"slug": "חדא-3",
-	"headword": {
-		"text": "חדא"
-	},
+	"sefariaHeadword": "חדא",
+	"headwords": [
+		{
+			"text": "חדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "b"

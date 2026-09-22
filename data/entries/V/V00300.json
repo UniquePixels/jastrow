@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00300",
-	"slug": "תורמיל",
-	"headword": {
-		"text": "תּוּרְמֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּרְמֵיל",
+	"headwords": [
+		{
+			"text": "תּוּרְמֵיל"
+		},
 		{
 			"text": "תּוּרְמִילָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תּוּרְמֵל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1657,
 		"column": "b"

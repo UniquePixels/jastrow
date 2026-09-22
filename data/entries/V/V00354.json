@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00354",
-	"slug": "תחום-2",
-	"headword": {
-		"text": "תְּחוּם",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּחוּם ²",
+	"headwords": [
+		{
+			"text": "תְּחוּם",
+			"disambiguator": 2
+		},
 		{
 			"text": "תְּחוּמָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1660,
 		"column": "b"

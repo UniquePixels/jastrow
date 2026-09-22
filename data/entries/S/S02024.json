@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02024",
-	"slug": "קרי-8",
-	"headword": {
-		"text": "קְרִי"
-	},
+	"sefariaHeadword": "קְרִי",
+	"headwords": [
+		{
+			"text": "קְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "a"

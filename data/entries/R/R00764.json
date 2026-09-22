@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00764",
-	"slug": "צריד-1",
-	"headword": {
-		"text": "צָרִיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָרִיד",
+	"headwords": [
+		{
+			"text": "צָרִיד"
+		},
 		{
 			"text": "צָֽרִיר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1301,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00692",
-	"slug": "גיחוכא",
-	"headword": {
-		"text": "גִּיחוּכָא"
-	},
+	"sefariaHeadword": "גִּיחוּכָא",
+	"headwords": [
+		{
+			"text": "גִּיחוּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

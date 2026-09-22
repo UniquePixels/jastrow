@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01143",
-	"slug": "שכיב-1",
-	"headword": {
-		"text": "שְׁכִיב"
-	},
+	"sefariaHeadword": "שְׁכִיב",
+	"headwords": [
+		{
+			"text": "שְׁכִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1573,
 		"column": "a"

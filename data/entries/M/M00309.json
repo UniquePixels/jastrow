@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00309",
-	"slug": "מדמר",
-	"headword": {
-		"text": "מִדְּמַר"
-	},
+	"sefariaHeadword": "מִדְּמַר",
+	"headwords": [
+		{
+			"text": "מִדְּמַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "b"

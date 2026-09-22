@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02099",
-	"slug": "שתיה-1",
-	"headword": {
-		"text": "שְׁתִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתִיָּה",
+	"headwords": [
+		{
+			"text": "שְׁתִיָּה"
+		},
 		{
 			"text": "שְׁתִיָּיה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1637,
 		"column": "b"

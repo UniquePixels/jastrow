@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01172",
-	"slug": "חמי",
-	"headword": {
-		"text": "חֲמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִי",
+	"headwords": [
+		{
+			"text": "חֲמִי"
+		},
 		{
 			"text": "חֲמָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲמָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 476,
 		"column": "b"

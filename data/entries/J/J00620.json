@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00620",
-	"slug": "ירותא-1",
-	"headword": {
-		"text": "יָרוֹתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָרוֹתָא",
+	"headwords": [
+		{
+			"text": "יָרוֹתָא"
+		},
 		{
 			"text": "יַרְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 595,
 		"column": "b"

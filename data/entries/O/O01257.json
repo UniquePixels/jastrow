@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01257",
-	"slug": "סנק-1",
-	"headword": {
-		"text": "סָנַק"
-	},
+	"sefariaHeadword": "סָנַק",
+	"headwords": [
+		{
+			"text": "סָנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "b"

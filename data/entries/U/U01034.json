@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U01034",
-	"slug": "שיציא",
-	"headword": {
-		"text": "שֵׁיצְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיצְיָא",
+	"headwords": [
 		{
-			"text": "שֵׁצְ׳"
+			"text": "שֵׁיצְיָא"
 		},
 		{
-			"text": "שַׁצְ׳"
+			"text": "שֵׁצְ׳",
+			"partial": true
+		},
+		{
+			"text": "שַׁצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1567,
 		"column": "b"

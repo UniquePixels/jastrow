@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00485",
-	"slug": "כיבוס",
-	"headword": {
-		"text": "כִּיבּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיבּוּס",
+	"headwords": [
+		{
+			"text": "כִּיבּוּס"
+		},
 		{
 			"text": "כִּבּוּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 630,
 		"column": "b"

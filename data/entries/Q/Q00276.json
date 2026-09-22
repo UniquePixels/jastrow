@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00276",
-	"slug": "פונה",
-	"headword": {
-		"text": "פּוּנָה"
-	},
+	"sefariaHeadword": "פּוּנָה",
+	"headwords": [
+		{
+			"text": "פּוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

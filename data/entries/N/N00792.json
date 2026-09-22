@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00792",
-	"slug": "נירוק",
-	"headword": {
-		"text": "נֵירוֹק"
-	},
+	"sefariaHeadword": "נֵירוֹק",
+	"headwords": [
+		{
+			"text": "נֵירוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

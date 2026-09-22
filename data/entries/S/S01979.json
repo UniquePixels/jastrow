@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01979",
-	"slug": "קרחותא",
-	"headword": {
-		"text": "קַרְחוּתָא"
-	},
+	"sefariaHeadword": "קַרְחוּתָא",
+	"headwords": [
+		{
+			"text": "קַרְחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "a"

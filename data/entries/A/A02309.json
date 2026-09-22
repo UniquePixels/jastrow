@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02309",
-	"slug": "אנתוניס",
-	"headword": {
-		"text": "אנתוניס"
-	},
+	"sefariaHeadword": "אנתוניס",
+	"headwords": [
+		{
+			"text": "אנתוניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

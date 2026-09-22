@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00581",
-	"slug": "מוקד-1",
-	"headword": {
-		"text": "מוֹקֵד"
-	},
+	"sefariaHeadword": "מוֹקֵד",
+	"headwords": [
+		{
+			"text": "מוֹקֵד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "a"

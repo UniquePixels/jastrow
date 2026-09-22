@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00095",
-	"slug": "אבטי-1",
-	"headword": {
-		"text": "אַבְּטַי"
-	},
+	"sefariaHeadword": "אַבְּטַי",
+	"headwords": [
+		{
+			"text": "אַבְּטַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

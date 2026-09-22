@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00675",
-	"slug": "צפוי",
-	"headword": {
-		"text": "צִפּוּי"
-	},
+	"sefariaHeadword": "צִפּוּי",
+	"headwords": [
+		{
+			"text": "צִפּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "b"

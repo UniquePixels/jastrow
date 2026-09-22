@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01814",
-	"slug": "קצין",
-	"headword": {
-		"text": "קָצִין"
-	},
+	"sefariaHeadword": "קָצִין",
+	"headwords": [
+		{
+			"text": "קָצִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1405,
 		"column": "b"

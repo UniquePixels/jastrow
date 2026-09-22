@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01102",
-	"slug": "דרכמון",
-	"headword": {
-		"text": "דַּרְכְּמוֹן"
-	},
+	"sefariaHeadword": "דַּרְכְּמוֹן",
+	"headwords": [
+		{
+			"text": "דַּרְכְּמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 324,
 		"column": "a"

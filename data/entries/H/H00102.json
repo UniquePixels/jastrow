@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00102",
-	"slug": "חבץ",
-	"headword": {
-		"text": "חָבַץ"
-	},
+	"sefariaHeadword": "חָבַץ",
+	"headwords": [
+		{
+			"text": "חָבַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 420,
 		"column": "b"

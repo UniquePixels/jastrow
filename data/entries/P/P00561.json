@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00561",
-	"slug": "עיכובא",
-	"headword": {
-		"text": "עִיכּוּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיכּוּבָא",
+	"headwords": [
 		{
-			"text": "עִכּ׳"
+			"text": "עִיכּוּבָא"
+		},
+		{
+			"text": "עִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1069,
 		"column": "b"

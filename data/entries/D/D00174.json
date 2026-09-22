@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00174",
-	"slug": "דוביאל",
-	"headword": {
-		"text": "דּוּבִּיאֵל"
-	},
+	"sefariaHeadword": "דּוּבִּיאֵל",
+	"headwords": [
+		{
+			"text": "דּוּבִּיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "b"

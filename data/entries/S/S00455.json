@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00455",
-	"slug": "קונתיה",
-	"headword": {
-		"text": "קוּנְתְּיָה"
-	},
+	"sefariaHeadword": "קוּנְתְּיָה",
+	"headwords": [
+		{
+			"text": "קוּנְתְּיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

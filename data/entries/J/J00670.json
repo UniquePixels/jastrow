@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00670",
-	"slug": "ירת",
-	"headword": {
-		"text": "יְרֵת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְרֵת",
+	"headwords": [
+		{
+			"text": "יְרֵת"
+		},
 		{
 			"text": "יְרֵית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 598,
 		"column": "b"

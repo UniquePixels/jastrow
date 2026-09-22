@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02037",
-	"slug": "אמם",
-	"headword": {
-		"text": "אָמַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָמַם",
+	"headwords": [
+		{
+			"text": "אָמַם"
+		},
 		{
 			"text": "עָמַם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 77,
 		"column": "b"

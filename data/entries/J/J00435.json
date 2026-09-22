@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00435",
-	"slug": "ינח",
-	"headword": {
-		"text": "יָנַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָנַח",
+	"headwords": [
+		{
+			"text": "יָנַח"
+		},
 		{
 			"text": "יְנַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 581,
 		"column": "a"

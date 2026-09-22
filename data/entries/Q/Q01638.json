@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01638",
-	"slug": "פרוור",
-	"headword": {
-		"text": "פַּרְוָור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוָור",
+	"headwords": [
+		{
+			"text": "פַּרְוָור"
+		},
 		{
 			"text": "פַּרְוָר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1218,
 		"column": "a"

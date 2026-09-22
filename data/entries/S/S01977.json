@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01977",
-	"slug": "קרחה-1",
-	"headword": {
-		"text": "קָרְחָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קָרְחָה I",
+	"headwords": [
+		{
+			"text": "קָרְחָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1415,
 		"column": "b"

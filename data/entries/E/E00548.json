@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00548",
-	"slug": "הלטתא",
-	"headword": {
-		"text": "הַלְטָתָא"
-	},
+	"sefariaHeadword": "הַלְטָתָא",
+	"headwords": [
+		{
+			"text": "הַלְטָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 352,
 		"column": "b"

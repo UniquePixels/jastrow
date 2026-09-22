@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01473",
-	"slug": "עשוריאתא",
-	"headword": {
-		"text": "עשּׂוֹרְיָאתָא"
-	},
+	"sefariaHeadword": "עשּׂוֹרְיָאתָא",
+	"headwords": [
+		{
+			"text": "עשּׂוֹרְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "b"

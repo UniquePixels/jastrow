@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00951",
-	"slug": "פלגס-1",
-	"headword": {
-		"text": "פלגס"
-	},
+	"sefariaHeadword": "פלגס",
+	"headwords": [
+		{
+			"text": "פלגס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

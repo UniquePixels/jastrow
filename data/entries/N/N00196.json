@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00196",
-	"slug": "נגש-3",
-	"headword": {
-		"text": "נָגַשׂ"
-	},
+	"sefariaHeadword": "נָגַשׂ",
+	"headwords": [
+		{
+			"text": "נָגַשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 876,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00521",
-	"slug": "נחש-4",
-	"headword": {
-		"text": "נַחַשׁ"
-	},
+	"sefariaHeadword": "נַחַשׁ",
+	"headwords": [
+		{
+			"text": "נַחַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "b"

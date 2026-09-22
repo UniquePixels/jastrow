@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00327",
-	"slug": "לות",
-	"headword": {
-		"text": "לְוָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְוָת",
+	"headwords": [
+		{
+			"text": "לְוָת"
+		},
 		{
 			"text": "לְוָות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 701,
 		"column": "b"

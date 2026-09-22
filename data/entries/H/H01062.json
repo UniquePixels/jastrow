@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01062",
-	"slug": "חליק",
-	"headword": {
-		"text": "חָלִיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָלִיק",
+	"headwords": [
+		{
+			"text": "חָלִיק"
+		},
 		{
 			"text": "חֲלִיקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 469,
 		"column": "b"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00411",
-	"slug": "תיבותא-1",
-	"headword": {
-		"text": "תֵּיבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֵּיבוּתָא",
+	"headwords": [
 		{
-			"text": "תֵּיבוֹ׳"
+			"text": "תֵּיבוּתָא"
 		},
 		{
-			"text": "תֵּב׳"
+			"text": "תֵּיבוֹ׳",
+			"partial": true
+		},
+		{
+			"text": "תֵּב׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1663,
 		"column": "b"

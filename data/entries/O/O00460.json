@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00460",
-	"slug": "סחן",
-	"headword": {
-		"text": "סחן"
-	},
+	"sefariaHeadword": "סחן",
+	"headwords": [
+		{
+			"text": "סחן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 971,
 		"column": "a"

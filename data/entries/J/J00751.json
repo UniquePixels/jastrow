@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "J00751",
-	"slug": "יתרא-1",
-	"headword": {
-		"text": "יִתְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יִתְרָא",
+	"headwords": [
+		{
+			"text": "יִתְרָא"
+		},
 		{
 			"text": "יִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 605,
 		"column": "b"

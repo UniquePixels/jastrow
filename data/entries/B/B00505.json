@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00505",
-	"slug": "בטי-3",
-	"headword": {
-		"text": "בְּטִי"
-	},
+	"sefariaHeadword": "בְּטִי",
+	"headwords": [
+		{
+			"text": "בְּטִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "b"

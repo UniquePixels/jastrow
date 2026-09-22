@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00919",
-	"slug": "חכימאה",
-	"headword": {
-		"text": "חַכִּימָאָה"
-	},
+	"sefariaHeadword": "חַכִּימָאָה",
+	"headwords": [
+		{
+			"text": "חַכִּימָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 461,
 		"column": "b"

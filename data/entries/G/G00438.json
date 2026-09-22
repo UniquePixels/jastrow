@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00438",
-	"slug": "זכאה-2",
-	"headword": {
-		"text": "זַכָּאָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זַכָּאָה ²",
+	"headwords": [
+		{
+			"text": "זַכָּאָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 397,
 		"column": "b"

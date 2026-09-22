@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00880",
-	"slug": "כנש-1",
-	"headword": {
-		"text": "כָּנַשׁ"
-	},
+	"sefariaHeadword": "כָּנַשׁ",
+	"headwords": [
+		{
+			"text": "כָּנַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 651,
 		"column": "b"

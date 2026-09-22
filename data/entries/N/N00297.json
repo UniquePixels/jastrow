@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00297",
-	"slug": "נובדיקוס",
-	"headword": {
-		"text": "נוּבְדִּיקוֹס"
-	},
+	"sefariaHeadword": "נוּבְדִּיקוֹס",
+	"headwords": [
+		{
+			"text": "נוּבְדִּיקוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

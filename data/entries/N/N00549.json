@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00549",
-	"slug": "נטופה-2",
-	"headword": {
-		"text": "נְטוֹפָה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְטוֹפָה II",
+	"headwords": [
+		{
+			"text": "נְטוֹפָה",
+			"homograph": 2
+		},
 		{
 			"text": "נְטוֹפָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 898,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

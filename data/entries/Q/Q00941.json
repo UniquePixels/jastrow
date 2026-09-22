@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00941",
-	"slug": "פלגה",
-	"headword": {
-		"text": "פְּלָגָה"
-	},
+	"sefariaHeadword": "פְּלָגָה",
+	"headwords": [
+		{
+			"text": "פְּלָגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1176,
 		"column": "b"

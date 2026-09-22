@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01666",
-	"slug": "קסם-2",
-	"headword": {
-		"text": "קְסַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קְסַם I",
+	"headwords": [
+		{
+			"text": "קְסַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1396,
 		"column": "b"

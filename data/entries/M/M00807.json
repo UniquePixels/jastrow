@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00807",
-	"slug": "מחגרא",
-	"headword": {
-		"text": "מְחַגְּרָא"
-	},
+	"sefariaHeadword": "מְחַגְּרָא",
+	"headwords": [
+		{
+			"text": "מְחַגְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "b"

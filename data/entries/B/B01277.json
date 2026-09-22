@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01277",
-	"slug": "ברירה-2",
-	"headword": {
-		"text": "בְּרֵירָה"
-	},
+	"sefariaHeadword": "בְּרֵירָה",
+	"headwords": [
+		{
+			"text": "בְּרֵירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 194,
 		"column": "a"

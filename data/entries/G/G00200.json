@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00200",
-	"slug": "זוניחה",
-	"headword": {
-		"text": "זוּנִיחָה"
-	},
+	"sefariaHeadword": "זוּנִיחָה",
+	"headwords": [
+		{
+			"text": "זוּנִיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 388,
 		"column": "a"

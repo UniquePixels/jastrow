@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01577",
-	"slug": "חרב-1",
-	"headword": {
-		"text": "חָרִב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חָרִב I",
+	"headwords": [
+		{
+			"text": "חָרִב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 498,
 		"column": "a"

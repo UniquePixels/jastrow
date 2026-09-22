@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00414",
-	"slug": "אדל",
-	"headword": {
-		"text": "אֲדָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲדָל",
+	"headwords": [
+		{
+			"text": "אֲדָל"
+		},
 		{
 			"text": "אֲדִיל"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲדָל"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 16,
 		"column": "b"

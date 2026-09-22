@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00260",
-	"slug": "צורף",
-	"headword": {
-		"text": "צוֹרֵף"
-	},
+	"sefariaHeadword": "צוֹרֵף",
+	"headwords": [
+		{
+			"text": "צוֹרֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "a"

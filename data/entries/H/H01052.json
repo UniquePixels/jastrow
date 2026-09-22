@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01052",
-	"slug": "חלימה",
-	"headword": {
-		"text": "חֲלִימָה"
-	},
+	"sefariaHeadword": "חֲלִימָה",
+	"headwords": [
+		{
+			"text": "חֲלִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "a"

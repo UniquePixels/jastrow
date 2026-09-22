@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00424",
-	"slug": "ציפרונה",
-	"headword": {
-		"text": "ציפרונה"
-	},
+	"sefariaHeadword": "ציפרונה",
+	"headwords": [
+		{
+			"text": "ציפרונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "a"

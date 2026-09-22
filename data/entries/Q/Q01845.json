@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01845",
-	"slug": "פרך-2",
-	"headword": {
-		"text": "פְּרַךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּרַךְ I",
+	"headwords": [
+		{
+			"text": "פְּרַךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1228,
 		"column": "b"

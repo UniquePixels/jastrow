@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00846",
-	"slug": "מחזקנא",
-	"headword": {
-		"text": "מחזקנא"
-	},
+	"sefariaHeadword": "מחזקנא",
+	"headwords": [
+		{
+			"text": "מחזקנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 758,
 		"column": "b"

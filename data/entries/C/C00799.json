@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00799",
-	"slug": "גיפתא",
-	"headword": {
-		"text": "גִּיפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיפְתָּא",
+	"headwords": [
 		{
-			"text": "גּוּפְ׳"
+			"text": "גִּיפְתָּא"
+		},
+		{
+			"text": "גּוּפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 241,
 		"column": "a"

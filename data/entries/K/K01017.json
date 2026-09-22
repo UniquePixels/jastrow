@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01017",
-	"slug": "כפיני",
-	"headword": {
-		"text": "כְּפֵינֵי"
-	},
+	"sefariaHeadword": "כְּפֵינֵי",
+	"headwords": [
+		{
+			"text": "כְּפֵינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 659,
 		"column": "a"

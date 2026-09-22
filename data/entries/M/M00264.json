@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00264",
-	"slug": "מדוך",
-	"headword": {
-		"text": "מָדוֹךְ"
-	},
+	"sefariaHeadword": "מָדוֹךְ",
+	"headwords": [
+		{
+			"text": "מָדוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

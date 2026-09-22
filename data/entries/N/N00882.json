@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00882",
-	"slug": "נמלה",
-	"headword": {
-		"text": "נְמָלָה"
-	},
+	"sefariaHeadword": "נְמָלָה",
+	"headwords": [
+		{
+			"text": "נְמָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

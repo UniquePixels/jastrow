@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00823",
-	"slug": "סיקרה",
-	"headword": {
-		"text": "סִיקְרָה"
-	},
+	"sefariaHeadword": "סִיקְרָה",
+	"headwords": [
+		{
+			"text": "סִיקְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "b"

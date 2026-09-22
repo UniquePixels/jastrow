@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00595",
-	"slug": "ירבוזא",
-	"headword": {
-		"text": "יַרְבּוּזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַרְבּוּזָא",
+	"headwords": [
+		{
+			"text": "יַרְבּוּזָא"
+		},
 		{
 			"text": "יַרְבּוּזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 593,
 		"column": "b"

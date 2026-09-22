@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00614",
-	"slug": "שחווא",
-	"headword": {
-		"text": "שַׁחְוָוא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁחְוָוא",
+	"headwords": [
+		{
+			"text": "שַׁחְוָוא"
+		},
 		{
 			"text": "שַׁחְוְותָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁחוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1545,
 		"column": "b"

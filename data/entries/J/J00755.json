@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00755",
-	"slug": "יתרון",
-	"headword": {
-		"text": "יִתְרוֹן"
-	},
+	"sefariaHeadword": "יִתְרוֹן",
+	"headwords": [
+		{
+			"text": "יִתְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 605,
 		"column": "b"

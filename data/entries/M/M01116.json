@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01116",
-	"slug": "מיחזי",
-	"headword": {
-		"text": "מִיחְזֵי"
-	},
+	"sefariaHeadword": "מִיחְזֵי",
+	"headwords": [
+		{
+			"text": "מִיחְזֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00593",
-	"slug": "לעב-2",
-	"headword": {
-		"text": "לְעַב"
-	},
+	"sefariaHeadword": "לְעַב",
+	"headwords": [
+		{
+			"text": "לְעַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 713,
 		"column": "b"

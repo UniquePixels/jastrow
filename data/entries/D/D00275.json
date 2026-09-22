@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00275",
-	"slug": "דום-2",
-	"headword": {
-		"text": "דּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּם",
+	"headwords": [
+		{
+			"text": "דּוּם"
+		},
 		{
 			"text": "דִּים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 286,
 		"column": "a"

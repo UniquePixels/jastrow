@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00081",
-	"slug": "סבע",
-	"headword": {
-		"text": "סְבַע"
-	},
+	"sefariaHeadword": "סְבַע",
+	"headwords": [
+		{
+			"text": "סְבַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 951,
 		"column": "a"

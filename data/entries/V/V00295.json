@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00295",
-	"slug": "תוריקין",
-	"headword": {
-		"text": "תּוֹרִיקִין"
-	},
+	"sefariaHeadword": "תּוֹרִיקִין",
+	"headwords": [
+		{
+			"text": "תּוֹרִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1657,
 		"column": "b"

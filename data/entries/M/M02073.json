@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02073",
-	"slug": "מעובה",
-	"headword": {
-		"text": "מְעוּבֶּה"
-	},
+	"sefariaHeadword": "מְעוּבֶּה",
+	"headwords": [
+		{
+			"text": "מְעוּבֶּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "b"

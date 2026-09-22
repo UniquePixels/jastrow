@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00274",
-	"slug": "עולתין",
-	"headword": {
-		"text": "עוּלְתִין"
-	},
+	"sefariaHeadword": "עוּלְתִין",
+	"headwords": [
+		{
+			"text": "עוּלְתִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1052,
 		"column": "b"

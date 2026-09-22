@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00732",
-	"slug": "עכור",
-	"headword": {
-		"text": "עִכּוּר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עִכּוּר",
+	"headwords": [
+		{
+			"text": "עִכּוּר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1078,
 		"column": "b"

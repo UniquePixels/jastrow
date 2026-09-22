@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02916",
-	"slug": "משלי",
-	"headword": {
-		"text": "מִשְׁלֵי"
-	},
+	"sefariaHeadword": "מִשְׁלֵי",
+	"headwords": [
+		{
+			"text": "מִשְׁלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "a"

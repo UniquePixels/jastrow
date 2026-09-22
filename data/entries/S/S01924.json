@@ -1,17 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "S01924",
-	"slug": "קרוא-2",
-	"headword": {
-		"text": "קִרְוָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְוָא ²",
+	"headwords": [
+		{
+			"text": "קִרְוָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִרְוָוא"
 		},
 		{
 			"text": "קִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		},
 		{
 			"text": "קִרְוָה"
@@ -20,6 +22,7 @@
 			"text": "קֵרְוָוה"
 		}
 	],
+	"display": "{0} ², {1}, {2} II, ({3}, {4})",
 	"page": {
 		"number": 1412,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01015",
-	"slug": "חלחול",
-	"headword": {
-		"text": "חִלְחוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלְחוּל",
+	"headwords": [
+		{
+			"text": "חִלְחוּל"
+		},
 		{
 			"text": "חִילְחוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 466,
 		"column": "a"

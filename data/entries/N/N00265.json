@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00265",
-	"slug": "נהימה",
-	"headword": {
-		"text": "נְהִימָה"
-	},
+	"sefariaHeadword": "נְהִימָה",
+	"headwords": [
+		{
+			"text": "נְהִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 881,
 		"column": "b"

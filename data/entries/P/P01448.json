@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01448",
-	"slug": "ערקומא",
-	"headword": {
-		"text": "עַרְקוּמָא"
-	},
+	"sefariaHeadword": "עַרְקוּמָא",
+	"headwords": [
+		{
+			"text": "עַרְקוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1123,
 		"column": "b"

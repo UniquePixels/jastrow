@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00736",
-	"slug": "גיללין",
-	"headword": {
-		"text": "גִּילְלִין"
-	},
+	"sefariaHeadword": "גִּילְלִין",
+	"headwords": [
+		{
+			"text": "גִּילְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

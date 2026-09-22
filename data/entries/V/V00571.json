@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00571",
-	"slug": "תלאסר",
-	"headword": {
-		"text": "תַּלְאָסָר"
-	},
+	"sefariaHeadword": "תַּלְאָסָר",
+	"headwords": [
+		{
+			"text": "תַּלְאָסָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"

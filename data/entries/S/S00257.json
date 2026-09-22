@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S00257",
-	"slug": "קווטין",
-	"headword": {
-		"text": "קְוָוטִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*קְוָוטִין",
+	"headwords": [
 		{
-			"text": "קְוָטִ׳"
+			"text": "קְוָוטִין",
+			"reconstructed": true
+		},
+		{
+			"text": "קְוָטִ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1325,
 		"column": "a"

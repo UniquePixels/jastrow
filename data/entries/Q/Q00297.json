@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00297",
-	"slug": "פוע-2",
-	"headword": {
-		"text": "פּוּעַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "פּוּעַ ²",
+	"headwords": [
+		{
+			"text": "פּוּעַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1144,
 		"column": "b"

@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "A03398",
-	"slug": "אתא-3",
-	"headword": {
-		"text": "אָתָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*אָתָא III",
+	"headwords": [
+		{
+			"text": "אָתָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 132,
 		"column": "b"

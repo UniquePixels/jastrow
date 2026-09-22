@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00244",
-	"slug": "לוטסאי",
-	"headword": {
-		"text": "לוּטָסָאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּטָסָאֵי",
+	"headwords": [
+		{
+			"text": "לוּטָסָאֵי"
+		},
 		{
 			"text": "לְטוֹסָאֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 697,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01547",
-	"slug": "שמשון",
-	"headword": {
-		"text": "שִׁמְשׁוֹן"
-	},
+	"sefariaHeadword": "שִׁמְשׁוֹן",
+	"headwords": [
+		{
+			"text": "שִׁמְשׁוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1603,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01006",
-	"slug": "דקירה",
-	"headword": {
-		"text": "דְּקִירָה"
-	},
+	"sefariaHeadword": "דְּקִירָה",
+	"headwords": [
+		{
+			"text": "דְּקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 319,
 		"column": "a"

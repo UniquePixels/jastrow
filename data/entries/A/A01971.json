@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01971",
-	"slug": "אמבוניא",
-	"headword": {
-		"text": "אמבוניא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אמבוניא",
+	"headwords": [
+		{
+			"text": "אמבוניא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 74,
 		"column": "b"

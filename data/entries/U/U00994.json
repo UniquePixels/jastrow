@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00994",
-	"slug": "שיעמום",
-	"headword": {
-		"text": "שִׁיעֲמוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיעֲמוּם",
+	"headwords": [
+		{
+			"text": "שִׁיעֲמוּם"
+		},
 		{
 			"text": "שִׁיעֲמָמוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1565,
 		"column": "b"

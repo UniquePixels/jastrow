@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01340",
-	"slug": "ספורה",
-	"headword": {
-		"text": "סְפוֹרָה"
-	},
+	"sefariaHeadword": "סְפוֹרָה",
+	"headwords": [
+		{
+			"text": "סְפוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "b"

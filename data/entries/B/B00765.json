@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00765",
-	"slug": "ביתרי",
-	"headword": {
-		"text": "בֵּיתְרֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בֵּיתְרֵי",
+	"headwords": [
+		{
+			"text": "בֵּיתְרֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 169,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

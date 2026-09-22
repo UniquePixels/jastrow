@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00694",
-	"slug": "סימון-2",
-	"headword": {
-		"text": "סִימוֹן"
-	},
+	"sefariaHeadword": "סִימוֹן",
+	"headwords": [
+		{
+			"text": "סִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 981,
 		"column": "a"

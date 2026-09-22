@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01412",
-	"slug": "מכני",
-	"headword": {
-		"text": "מִכְנִי"
-	},
+	"sefariaHeadword": "מִכְנִי",
+	"headwords": [
+		{
+			"text": "מִכְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

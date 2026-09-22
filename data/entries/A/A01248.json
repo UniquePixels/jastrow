@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01248",
-	"slug": "איכא-1",
-	"headword": {
-		"text": "אֵיכָא"
-	},
+	"sefariaHeadword": "אֵיכָא",
+	"headwords": [
+		{
+			"text": "אֵיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

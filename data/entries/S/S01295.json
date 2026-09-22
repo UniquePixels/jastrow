@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01295",
-	"slug": "קלוקרון",
-	"headword": {
-		"text": "קְלַוְקְרוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קְלַוְקְרוֹן",
+	"headwords": [
+		{
+			"text": "קְלַוְקְרוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

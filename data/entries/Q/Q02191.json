@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02191",
-	"slug": "פתן-3",
-	"headword": {
-		"text": "פֶּתֶן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּתֶן ²",
+	"headwords": [
+		{
+			"text": "פֶּתֶן",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּתְנָא"
 		},
 		{
-			"text": "פִּו׳"
+			"text": "פִּו׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1255,
 		"column": "a"

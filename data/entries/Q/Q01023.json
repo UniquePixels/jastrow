@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01023",
-	"slug": "פלטית",
-	"headword": {
-		"text": "פלטית"
-	},
+	"sefariaHeadword": "פלטית",
+	"headwords": [
+		{
+			"text": "פלטית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1180,
 		"column": "a"

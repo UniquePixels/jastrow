@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02199",
-	"slug": "פתקא",
-	"headword": {
-		"text": "פִּתְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּתְקָא",
+	"headwords": [
+		{
+			"text": "פִּתְקָא"
+		},
 		{
 			"text": "פִּתְקוֹנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1255,
 		"column": "b"

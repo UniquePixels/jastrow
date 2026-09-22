@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00473",
-	"slug": "לילי-2",
-	"headword": {
-		"text": "לִילֵי"
-	},
+	"sefariaHeadword": "לִילֵי",
+	"headwords": [
+		{
+			"text": "לִילֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 707,
 		"column": "b"

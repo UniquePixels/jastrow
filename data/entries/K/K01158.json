@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01158",
-	"slug": "כריהותא",
-	"headword": {
-		"text": "כְּרִיהוּתָא"
-	},
+	"sefariaHeadword": "כְּרִיהוּתָא",
+	"headwords": [
+		{
+			"text": "כְּרִיהוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "a"

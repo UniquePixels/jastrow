@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00871",
-	"slug": "אורזנייא",
-	"headword": {
-		"text": "אוּרְזָנַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּרְזָנַיָּיא",
+	"headwords": [
+		{
+			"text": "אוּרְזָנַיָּיא"
+		},
 		{
 			"text": "אוּרְזָנַיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 33,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00829",
-	"slug": "חיסוד",
-	"headword": {
-		"text": "חִיסּוּד"
-	},
+	"sefariaHeadword": "חִיסּוּד",
+	"headwords": [
+		{
+			"text": "חִיסּוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "b"

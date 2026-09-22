@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02035",
-	"slug": "פרשוותא",
-	"headword": {
-		"text": "פְּרִשְׁוָותָא"
-	},
+	"sefariaHeadword": "פְּרִשְׁוָותָא",
+	"headwords": [
+		{
+			"text": "פְּרִשְׁוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "a"

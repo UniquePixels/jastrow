@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00107",
-	"slug": "זהרא-2",
-	"headword": {
-		"text": "זַהֲרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זַהֲרָא II",
+	"headwords": [
+		{
+			"text": "זַהֲרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 382,
 		"column": "b"

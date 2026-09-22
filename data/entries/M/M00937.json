@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00937",
-	"slug": "מחרוזות",
-	"headword": {
-		"text": "מַחֲרוֹזוֹת"
-	},
+	"sefariaHeadword": "מַחֲרוֹזוֹת",
+	"headwords": [
+		{
+			"text": "מַחֲרוֹזוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 764,
 		"column": "a"

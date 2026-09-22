@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00305",
-	"slug": "הזק",
-	"headword": {
-		"text": "הֶזֵּק"
-	},
+	"sefariaHeadword": "הֶזֵּק",
+	"headwords": [
+		{
+			"text": "הֶזֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

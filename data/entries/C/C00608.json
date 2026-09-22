@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00608",
-	"slug": "גיאתו",
-	"headword": {
-		"text": "גיאתו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גיאתו",
+	"headwords": [
+		{
+			"text": "גיאתו"
+		},
 		{
 			"text": "גיאתן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 234,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00534",
-	"slug": "אובשין",
-	"headword": {
-		"text": "אוּבְשִׁין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּבְשִׁין",
+	"headwords": [
+		{
+			"text": "אוּבְשִׁין"
+		},
 		{
 			"text": "אֻבְשִׁין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00526",
-	"slug": "צלם-2",
-	"headword": {
-		"text": "צֶלֶם"
-	},
+	"sefariaHeadword": "צֶלֶם",
+	"headwords": [
+		{
+			"text": "צֶלֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "b"

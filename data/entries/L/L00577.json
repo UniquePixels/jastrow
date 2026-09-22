@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00577",
-	"slug": "למלם",
-	"headword": {
-		"text": "לִמְלֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִמְלֵם",
+	"headwords": [
 		{
-			"text": "לִימְ׳"
+			"text": "לִמְלֵם"
+		},
+		{
+			"text": "לִימְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 713,
 		"column": "a"

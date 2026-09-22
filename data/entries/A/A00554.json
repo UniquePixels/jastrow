@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00554",
-	"slug": "אוד-2",
-	"headword": {
-		"text": "אוּד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּד ²",
+	"headwords": [
+		{
+			"text": "אוּד",
+			"disambiguator": 2
+		},
 		{
 			"text": "אוּדָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 22,
 		"column": "a"

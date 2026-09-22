@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00882",
-	"slug": "כנשא",
-	"headword": {
-		"text": "כִּנְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּנְשָׁא",
+	"headwords": [
 		{
-			"text": "כִּי׳"
+			"text": "כִּנְשָׁא"
+		},
+		{
+			"text": "כִּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 651,
 		"column": "b"

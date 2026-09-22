@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00188",
-	"slug": "עובש",
-	"headword": {
-		"text": "עוֹבֶשׁ"
-	},
+	"sefariaHeadword": "עוֹבֶשׁ",
+	"headwords": [
+		{
+			"text": "עוֹבֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1047,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02609",
-	"slug": "מרושין",
-	"headword": {
-		"text": "מרושין"
-	},
+	"sefariaHeadword": "מרושין",
+	"headwords": [
+		{
+			"text": "מרושין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "b"

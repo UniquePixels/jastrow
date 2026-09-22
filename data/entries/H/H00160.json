@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00160",
-	"slug": "חגר-5",
-	"headword": {
-		"text": "חִגֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִגֵּר",
+	"headwords": [
+		{
+			"text": "חִגֵּר"
+		},
 		{
 			"text": "חִיגֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 424,
 		"column": "b"

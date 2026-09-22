@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00580",
-	"slug": "זניותא",
-	"headword": {
-		"text": "זַנְיוּתָא"
-	},
+	"sefariaHeadword": "זַנְיוּתָא",
+	"headwords": [
+		{
+			"text": "זַנְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 406,
 		"column": "b"

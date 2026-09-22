@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00240",
-	"slug": "בוטשא",
-	"headword": {
-		"text": "בּוּטְשָׁא"
-	},
+	"sefariaHeadword": "בּוּטְשָׁא",
+	"headwords": [
+		{
+			"text": "בּוּטְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

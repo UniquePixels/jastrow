@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00756",
-	"slug": "פיסטקין",
-	"headword": {
-		"text": "פִּיסְטְקִין"
-	},
+	"sefariaHeadword": "פִּיסְטְקִין",
+	"headwords": [
+		{
+			"text": "פִּיסְטְקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1167,
 		"column": "b"

@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00314",
-	"slug": "סולא",
-	"headword": {
-		"text": "סוּלָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סוּלָּא",
+	"headwords": [
+		{
+			"text": "סוּלָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 964,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00042",
-	"slug": "חבט-3",
-	"headword": {
-		"text": "חֶבֶט",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֶבֶט I",
+	"headwords": [
+		{
+			"text": "חֶבֶט",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 417,
 		"column": "b"

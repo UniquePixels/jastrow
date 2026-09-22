@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00277",
-	"slug": "סוח-1",
-	"headword": {
-		"text": "סוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּחַ",
+	"headwords": [
+		{
+			"text": "סוּחַ"
+		},
 		{
 			"text": "שׂוּחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 962,
 		"column": "a"

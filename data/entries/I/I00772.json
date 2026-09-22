@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00772",
-	"slug": "טריבא",
-	"headword": {
-		"text": "טְרִיבָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְרִיבָא",
+	"headwords": [
+		{
+			"text": "טְרִיבָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00190",
-	"slug": "טוס-2",
-	"headword": {
-		"text": "טוּס",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "טוּס ²",
+	"headwords": [
+		{
+			"text": "טוּס",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 524,
 		"column": "b"

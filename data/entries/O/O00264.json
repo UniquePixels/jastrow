@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00264",
-	"slug": "סודר",
-	"headword": {
-		"text": "סוּדָר"
-	},
+	"sefariaHeadword": "סוּדָר",
+	"headwords": [
+		{
+			"text": "סוּדָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

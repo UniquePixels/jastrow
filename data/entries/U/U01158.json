@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01158",
-	"slug": "שכל-1",
-	"headword": {
-		"text": "שָׂכַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שָׂכַל I",
+	"headwords": [
+		{
+			"text": "שָׂכַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1574,
 		"column": "a"

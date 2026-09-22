@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00066",
-	"slug": "לבי-2",
-	"headword": {
-		"text": "לבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לבי",
+	"headwords": [
+		{
+			"text": "לבי"
+		},
 		{
 			"text": "לָבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 688,
 		"column": "b"

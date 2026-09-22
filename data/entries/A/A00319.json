@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00319",
-	"slug": "אגניטוס",
-	"headword": {
-		"text": "אגניטוס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אגניטוס",
+	"headwords": [
+		{
+			"text": "אגניטוס",
+			"reconstructed": true
+		},
 		{
 			"text": "אנגטוס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 13,
 		"column": "a"

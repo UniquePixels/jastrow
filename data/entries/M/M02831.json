@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02831",
-	"slug": "משולש",
-	"headword": {
-		"text": "מְשׁוּלָּשׁ"
-	},
+	"sefariaHeadword": "מְשׁוּלָּשׁ",
+	"headwords": [
+		{
+			"text": "מְשׁוּלָּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 850,
 		"column": "a"

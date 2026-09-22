@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00776",
-	"slug": "שיאור",
-	"headword": {
-		"text": "שִׂיאוּר"
-	},
+	"sefariaHeadword": "שִׂיאוּר",
+	"headwords": [
+		{
+			"text": "שִׂיאוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "a"

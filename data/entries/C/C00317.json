@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00317",
-	"slug": "גודפן",
-	"headword": {
-		"text": "גּוֹדְפָן"
-	},
+	"sefariaHeadword": "גּוֹדְפָן",
+	"headwords": [
+		{
+			"text": "גּוֹדְפָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

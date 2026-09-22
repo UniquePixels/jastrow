@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00027",
-	"slug": "חבולא",
-	"headword": {
-		"text": "חֲבוּלָא"
-	},
+	"sefariaHeadword": "חֲבוּלָא",
+	"headwords": [
+		{
+			"text": "חֲבוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "b"

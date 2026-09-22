@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01003",
-	"slug": "תריצותא",
-	"headword": {
-		"text": "תְּרִיצוּתָא"
-	},
+	"sefariaHeadword": "תְּרִיצוּתָא",
+	"headwords": [
+		{
+			"text": "תְּרִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

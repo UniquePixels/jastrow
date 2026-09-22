@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01827",
-	"slug": "פריק",
-	"headword": {
-		"text": "פָּרִיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרִיק",
+	"headwords": [
+		{
+			"text": "פָּרִיק"
+		},
 		{
 			"text": "פְּרִיקָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1227,
 		"column": "b"

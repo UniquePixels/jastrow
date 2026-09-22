@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00691",
-	"slug": "הנץ-1",
-	"headword": {
-		"text": "הַנֵּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַנֵּץ",
+	"headwords": [
+		{
+			"text": "הַנֵּץ"
+		},
 		{
 			"text": "הַנֵּיץ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 358,
 		"column": "b"

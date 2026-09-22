@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00237",
-	"slug": "אגבאסטס",
-	"headword": {
-		"text": "אגבאסטס"
-	},
+	"sefariaHeadword": "אגבאסטס",
+	"headwords": [
+		{
+			"text": "אגבאסטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 10,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00395",
-	"slug": "זיף-4",
-	"headword": {
-		"text": "זַיִף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַיִף",
+	"headwords": [
+		{
+			"text": "זַיִף"
+		},
 		{
 			"text": "זַיִיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00965",
-	"slug": "חלאים",
-	"headword": {
-		"text": "חֳלָאִים"
-	},
+	"sefariaHeadword": "חֳלָאִים",
+	"headwords": [
+		{
+			"text": "חֳלָאִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

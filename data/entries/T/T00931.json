@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00931",
-	"slug": "רפה-1",
-	"headword": {
-		"text": "רָפָה"
-	},
+	"sefariaHeadword": "רָפָה",
+	"headwords": [
+		{
+			"text": "רָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

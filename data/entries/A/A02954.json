@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02954",
-	"slug": "ארבא-4",
-	"headword": {
-		"text": "אָרְבָּא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אָרְבָּא ²",
+	"headwords": [
+		{
+			"text": "אָרְבָּא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 114,
 		"column": "a"

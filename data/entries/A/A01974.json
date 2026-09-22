@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01974",
-	"slug": "אמבטי",
-	"headword": {
-		"text": "אַמְבְּטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַמְבְּטִי",
+	"headwords": [
+		{
+			"text": "אַמְבְּטִי"
+		},
 		{
 			"text": "אַבְּטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 74,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00595",
-	"slug": "עימעום-1",
-	"headword": {
-		"text": "עִימְעוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִימְעוּם",
+	"headwords": [
+		{
+			"text": "עִימְעוּם"
+		},
 		{
 			"text": "עִמְעוּם",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1071,
 		"column": "a"

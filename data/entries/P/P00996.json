@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00996",
-	"slug": "עניתא",
-	"headword": {
-		"text": "עַנִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַנִּיתָא",
+	"headwords": [
 		{
-			"text": "עַנִי׳"
+			"text": "עַנִּיתָא"
+		},
+		{
+			"text": "עַנִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1095,
 		"column": "b"

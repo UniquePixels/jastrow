@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00138",
-	"slug": "מגורה-1",
-	"headword": {
-		"text": "מְגוּרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְגוּרָה I",
+	"headwords": [
+		{
+			"text": "מְגוּרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 727,
 		"column": "a"

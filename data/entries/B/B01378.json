@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01378",
-	"slug": "בת-2",
-	"headword": {
-		"text": "בַּת",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בַּת II",
+	"headwords": [
+		{
+			"text": "בַּת",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 200,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01428",
-	"slug": "פציח-1",
-	"headword": {
-		"text": "פְּצִיחַ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּצִיחַ I",
+	"headwords": [
+		{
+			"text": "פְּצִיחַ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1205,
 		"column": "a"

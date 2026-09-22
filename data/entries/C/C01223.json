@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01223",
-	"slug": "גקרמונין",
-	"headword": {
-		"text": "גקרמונין"
-	},
+	"sefariaHeadword": "גקרמונין",
+	"headwords": [
+		{
+			"text": "גקרמונין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 263,
 		"column": "a"

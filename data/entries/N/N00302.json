@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00302",
-	"slug": "נוגה-1",
-	"headword": {
-		"text": "נוֹגַהּ"
-	},
+	"sefariaHeadword": "נוֹגַהּ",
+	"headwords": [
+		{
+			"text": "נוֹגַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "b"

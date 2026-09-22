@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01033",
-	"slug": "רקיע-3",
-	"headword": {
-		"text": "רְקִיעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְקִיעַ",
+	"headwords": [
+		{
+			"text": "רְקִיעַ"
+		},
 		{
 			"text": "רְקִיעָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1497,
 		"column": "a"

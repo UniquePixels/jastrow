@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00047",
-	"slug": "חבי-1",
-	"headword": {
-		"text": "חבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חבי",
+	"headwords": [
+		{
+			"text": "חבי"
+		},
 		{
 			"text": "חָבָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חָבָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 418,
 		"column": "a"

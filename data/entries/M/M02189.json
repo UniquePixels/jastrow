@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M02189",
-	"slug": "מעשרא",
-	"headword": {
-		"text": "מַעְשְׂרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַעְשְׂרָא",
+	"headwords": [
 		{
-			"text": "מַעְסְ׳"
+			"text": "מַעְשְׂרָא"
 		},
 		{
-			"text": "מַעַ׳"
+			"text": "מַעְסְ׳",
+			"partial": true
+		},
+		{
+			"text": "מַעַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 820,
 		"column": "a"

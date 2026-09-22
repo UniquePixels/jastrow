@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01180",
-	"slug": "ברדין",
-	"headword": {
-		"text": "ברדין"
-	},
+	"sefariaHeadword": "ברדין",
+	"headwords": [
+		{
+			"text": "ברדין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00068",
-	"slug": "בבעו",
-	"headword": {
-		"text": "בְּבָעוּ"
-	},
+	"sefariaHeadword": "בְּבָעוּ",
+	"headwords": [
+		{
+			"text": "בְּבָעוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

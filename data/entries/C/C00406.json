@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00406",
-	"slug": "גולפא",
-	"headword": {
-		"text": "גּוּלְפָא"
-	},
+	"sefariaHeadword": "גּוּלְפָא",
+	"headwords": [
+		{
+			"text": "גּוּלְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "b"

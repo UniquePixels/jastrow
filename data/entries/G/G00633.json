@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00633",
-	"slug": "זקיף-2",
-	"headword": {
-		"text": "זְקִיף",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְקִיף ²",
+	"headwords": [
+		{
+			"text": "זְקִיף",
+			"disambiguator": 2
+		},
 		{
 			"text": "זְקִיפָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 408,
 		"column": "b"

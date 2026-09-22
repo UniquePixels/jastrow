@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01167",
-	"slug": "גסותא",
-	"headword": {
-		"text": "גַּסּוּתָא"
-	},
+	"sefariaHeadword": "גַּסּוּתָא",
+	"headwords": [
+		{
+			"text": "גַּסּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

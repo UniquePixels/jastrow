@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03010",
-	"slug": "ארדקסם",
-	"headword": {
-		"text": "ארדקסם"
-	},
+	"sefariaHeadword": "ארדקסם",
+	"headwords": [
+		{
+			"text": "ארדקסם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00044",
-	"slug": "טבח-4",
-	"headword": {
-		"text": "טַבָּח"
-	},
+	"sefariaHeadword": "טַבָּח",
+	"headwords": [
+		{
+			"text": "טַבָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 516,
 		"column": "b"

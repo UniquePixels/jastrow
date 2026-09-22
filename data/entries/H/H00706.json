@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00706",
-	"slug": "חיטא",
-	"headword": {
-		"text": "חִיטָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיטָּא",
+	"headwords": [
+		{
+			"text": "חִיטָּא"
+		},
 		{
 			"text": "חִטָּא"
 		},
@@ -18,9 +19,11 @@
 			"text": "חִיטֵּי"
 		},
 		{
-			"text": "חִטּ׳"
+			"text": "חִטּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 453,
 		"column": "b"

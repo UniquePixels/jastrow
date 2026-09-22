@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00832",
-	"slug": "גירמניא",
-	"headword": {
-		"text": "גִּירְמַנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּירְמַנְיָא",
+	"headwords": [
+		{
+			"text": "גִּירְמַנְיָא"
+		},
 		{
 			"text": "גִּירְמַנִיקִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 242,
 		"column": "b"

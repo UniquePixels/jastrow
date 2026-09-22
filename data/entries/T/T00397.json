@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00397",
-	"slug": "רומנוס",
-	"headword": {
-		"text": "רוֹמָנוֹס"
-	},
+	"sefariaHeadword": "רוֹמָנוֹס",
+	"headwords": [
+		{
+			"text": "רוֹמָנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

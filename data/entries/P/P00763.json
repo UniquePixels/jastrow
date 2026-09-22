@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00763",
-	"slug": "עלאה-1",
-	"headword": {
-		"text": "עִלָאָה"
-	},
+	"sefariaHeadword": "עִלָאָה",
+	"headwords": [
+		{
+			"text": "עִלָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

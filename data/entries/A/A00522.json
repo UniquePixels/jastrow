@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00522",
-	"slug": "אוב-2",
-	"headword": {
-		"text": "אוֹב",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אוֹב ²",
+	"headwords": [
+		{
+			"text": "אוֹב",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 21,
 		"column": "a"

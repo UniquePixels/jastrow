@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00670",
-	"slug": "חידתא",
-	"headword": {
-		"text": "חִידְתָּא"
-	},
+	"sefariaHeadword": "חִידְתָּא",
+	"headwords": [
+		{
+			"text": "חִידְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 451,
 		"column": "b"

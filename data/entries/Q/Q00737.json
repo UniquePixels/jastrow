@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00737",
-	"slug": "פינקס-1",
-	"headword": {
-		"text": "פִּינְקֵס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּינְקֵס",
+	"headwords": [
+		{
+			"text": "פִּינְקֵס"
+		},
 		{
 			"text": "פִּנְקֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "b"

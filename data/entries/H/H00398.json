@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00398",
-	"slug": "חומשא",
-	"headword": {
-		"text": "חוּמְשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּמְשָׁא",
+	"headwords": [
+		{
+			"text": "חוּמְשָׁא"
+		},
 		{
 			"text": "חוֹמֶשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 436,
 		"column": "b"

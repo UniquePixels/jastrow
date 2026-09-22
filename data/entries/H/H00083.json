@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00083",
-	"slug": "חבל-1",
-	"headword": {
-		"text": "חָבַל"
-	},
+	"sefariaHeadword": "חָבַל",
+	"headwords": [
+		{
+			"text": "חָבַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "b"

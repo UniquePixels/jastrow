@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V01030",
-	"slug": "תרע-2",
-	"headword": {
-		"text": "תְּרַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תְּרַע I",
+	"headwords": [
+		{
+			"text": "תְּרַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1700,
 		"column": "b"

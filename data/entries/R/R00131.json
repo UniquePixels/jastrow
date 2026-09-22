@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00131",
-	"slug": "צהב-2",
-	"headword": {
-		"text": "צְהַב"
-	},
+	"sefariaHeadword": "צְהַב",
+	"headwords": [
+		{
+			"text": "צְהַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

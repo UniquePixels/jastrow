@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00056",
-	"slug": "מאפה",
-	"headword": {
-		"text": "מַאֲפֶה"
-	},
+	"sefariaHeadword": "מַאֲפֶה",
+	"headwords": [
+		{
+			"text": "מַאֲפֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "a"

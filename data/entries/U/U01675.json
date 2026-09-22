@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01675",
-	"slug": "שען-2",
-	"headword": {
-		"text": "שְׁעַן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שְׁעַן",
+	"headwords": [
+		{
+			"text": "שְׁעַן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1611,
 		"column": "b"

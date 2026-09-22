@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01242",
-	"slug": "מיסון-1",
-	"headword": {
-		"text": "מִיסוֹן"
-	},
+	"sefariaHeadword": "מִיסוֹן",
+	"headwords": [
+		{
+			"text": "מִיסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 777,
 		"column": "a"

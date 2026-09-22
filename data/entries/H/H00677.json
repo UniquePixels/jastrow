@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "H00677",
-	"slug": "חיוב-2",
-	"headword": {
-		"text": "חִיּוּב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיּוּב ²",
+	"headwords": [
+		{
+			"text": "חִיּוּב",
+			"disambiguator": 2
+		},
 		{
 			"text": "חִיּוּבָא"
 		},
 		{
-			"text": "חִיּי׳"
+			"text": "חִיּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 452,
 		"column": "a"

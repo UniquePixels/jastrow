@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00303",
-	"slug": "סוכי",
-	"headword": {
-		"text": "סוכי"
-	},
+	"sefariaHeadword": "סוכי",
+	"headwords": [
+		{
+			"text": "סוכי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 964,
 		"column": "a"

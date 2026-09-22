@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01675",
-	"slug": "אכונגר",
-	"headword": {
-		"text": "אַכְוַנְגַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְוַנְגַּר",
+	"headwords": [
+		{
+			"text": "אַכְוַנְגַּר"
+		},
 		{
 			"text": "אֲכַנְגַּר"
 		},
@@ -12,9 +13,11 @@
 			"text": "כְּוַאנְגַּר"
 		},
 		{
-			"text": "אַכְוַו׳"
+			"text": "אַכְוַו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 62,
 		"column": "b"

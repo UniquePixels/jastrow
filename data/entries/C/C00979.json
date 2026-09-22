@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00979",
-	"slug": "גלף-3",
-	"headword": {
-		"text": "גְּלַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלַף II",
+	"headwords": [
+		{
+			"text": "גְּלַף",
+			"homograph": 2
+		},
 		{
 			"text": "גְּלוֹף"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 250,
 		"column": "b"

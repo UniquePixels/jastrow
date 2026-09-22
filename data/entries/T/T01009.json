@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01009",
-	"slug": "רקב-2",
-	"headword": {
-		"text": "רָקֵב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָקֵב II",
+	"headwords": [
+		{
+			"text": "רָקֵב",
+			"homograph": 2
+		},
 		{
 			"text": "רָקַב"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1495,
 		"column": "b"

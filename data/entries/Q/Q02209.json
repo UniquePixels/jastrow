@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02209",
-	"slug": "פתרנותא",
-	"headword": {
-		"text": "פַּתְרָנוּתָא"
-	},
+	"sefariaHeadword": "פַּתְרָנוּתָא",
+	"headwords": [
+		{
+			"text": "פַּתְרָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00554",
-	"slug": "עייף",
-	"headword": {
-		"text": "עָיֵיף"
-	},
+	"sefariaHeadword": "עָיֵיף",
+	"headwords": [
+		{
+			"text": "עָיֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1069,
 		"column": "a"

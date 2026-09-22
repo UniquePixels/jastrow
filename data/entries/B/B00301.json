@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00301",
-	"slug": "בועדא",
-	"headword": {
-		"text": "בועדא"
-	},
+	"sefariaHeadword": "בועדא",
+	"headwords": [
+		{
+			"text": "בועדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

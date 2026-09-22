@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01203",
-	"slug": "כרכושתא",
-	"headword": {
-		"text": "כַּרְכּוּשְׁתָּא"
-	},
+	"sefariaHeadword": "כַּרְכּוּשְׁתָּא",
+	"headwords": [
+		{
+			"text": "כַּרְכּוּשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 670,
 		"column": "a"

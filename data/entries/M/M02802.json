@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02802",
-	"slug": "משאר",
-	"headword": {
-		"text": "מִשְׁאַר"
-	},
+	"sefariaHeadword": "מִשְׁאַר",
+	"headwords": [
+		{
+			"text": "מִשְׁאַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "b"

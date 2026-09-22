@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01289",
-	"slug": "איליאוס",
-	"headword": {
-		"text": "אִילִיאוֹס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִילִיאוֹס",
+	"headwords": [
+		{
+			"text": "אִילִיאוֹס",
+			"reconstructed": true
+		},
 		{
 			"text": "אִילְיוֹס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 49,
 		"column": "a"

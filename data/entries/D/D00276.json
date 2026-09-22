@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00276",
-	"slug": "דומא",
-	"headword": {
-		"text": "דּוּמָא"
-	},
+	"sefariaHeadword": "דּוּמָא",
+	"headwords": [
+		{
+			"text": "דּוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00620",
-	"slug": "עינותן",
-	"headword": {
-		"text": "עִינְוְתָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִינְוְתָן",
+	"headwords": [
+		{
+			"text": "עִינְוְתָן"
+		},
 		{
 			"text": "עִינְוְתָנוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1072,
 		"column": "b"

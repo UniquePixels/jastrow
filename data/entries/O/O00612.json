@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00612",
-	"slug": "סיטרא",
-	"headword": {
-		"text": "סִיטְרָא"
-	},
+	"sefariaHeadword": "סִיטְרָא",
+	"headwords": [
+		{
+			"text": "סִיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 978,
 		"column": "a"

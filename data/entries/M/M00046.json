@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00046",
-	"slug": "מאן-1",
-	"headword": {
-		"text": "מָאַן"
-	},
+	"sefariaHeadword": "מָאַן",
+	"headwords": [
+		{
+			"text": "מָאַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

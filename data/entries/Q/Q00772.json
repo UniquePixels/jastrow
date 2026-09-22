@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00772",
-	"slug": "פיסתא",
-	"headword": {
-		"text": "פִּיסְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיסְּתָא",
+	"headwords": [
+		{
+			"text": "פִּיסְּתָא"
+		},
 		{
 			"text": "פִּיסְּתָה"
 		},
 		{
-			"text": "פִּסְּ׳"
+			"text": "פִּסְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1168,
 		"column": "a"

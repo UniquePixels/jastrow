@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02004",
-	"slug": "קרטיסין",
-	"headword": {
-		"text": "קְרָטִיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרָטִיסִין",
+	"headwords": [
+		{
+			"text": "קְרָטִיסִין"
+		},
 		{
 			"text": "קְרָטִיסִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1417,
 		"column": "a"

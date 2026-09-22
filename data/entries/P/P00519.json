@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00519",
-	"slug": "עיוק",
-	"headword": {
-		"text": "עִיּוּק"
-	},
+	"sefariaHeadword": "עִיּוּק",
+	"headwords": [
+		{
+			"text": "עִיּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

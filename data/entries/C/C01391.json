@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01391",
-	"slug": "גרקי",
-	"headword": {
-		"text": "גרקי"
-	},
+	"sefariaHeadword": "גרקי",
+	"headwords": [
+		{
+			"text": "גרקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 272,
 		"column": "a"

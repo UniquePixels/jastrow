@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00353",
-	"slug": "טייפה",
-	"headword": {
-		"text": "טַיְיפָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַיְיפָה",
+	"headwords": [
+		{
+			"text": "טַיְיפָה"
+		},
 		{
 			"text": "טְיוֹפָה"
 		},
 		{
-			"text": "טַיְיפָה סַמּוֹקָה"
+			"text": "ט׳ סַמּוֹקָה",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 531,
 		"column": "b"

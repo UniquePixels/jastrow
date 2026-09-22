@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01684",
-	"slug": "חריע",
-	"headword": {
-		"text": "חֲרִיעַ"
-	},
+	"sefariaHeadword": "חֲרִיעַ",
+	"headwords": [
+		{
+			"text": "חֲרִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 502,
 		"column": "a"

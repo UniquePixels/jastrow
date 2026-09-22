@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00111",
-	"slug": "מגביתא",
-	"headword": {
-		"text": "מַגְבִּיתָא"
-	},
+	"sefariaHeadword": "מַגְבִּיתָא",
+	"headwords": [
+		{
+			"text": "מַגְבִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 726,
 		"column": "a"

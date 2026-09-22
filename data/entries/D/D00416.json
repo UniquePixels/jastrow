@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00416",
-	"slug": "דחיס",
-	"headword": {
-		"text": "דְּחִיס"
-	},
+	"sefariaHeadword": "דְּחִיס",
+	"headwords": [
+		{
+			"text": "דְּחִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 292,
 		"column": "b"

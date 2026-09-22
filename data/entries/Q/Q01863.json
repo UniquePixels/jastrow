@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01863",
-	"slug": "פרכס-2",
-	"headword": {
-		"text": "פִּרִכֵּס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פִּרִכֵּס II",
+	"headwords": [
+		{
+			"text": "פִּרִכֵּס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1229,
 		"column": "b"

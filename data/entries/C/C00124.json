@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00124",
-	"slug": "גבעול",
-	"headword": {
-		"text": "גִּבְעוֹל"
-	},
+	"sefariaHeadword": "גִּבְעוֹל",
+	"headwords": [
+		{
+			"text": "גִּבְעוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

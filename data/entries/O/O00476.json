@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00476",
-	"slug": "סטומתא",
-	"headword": {
-		"text": "סִטּוּמְתָּא"
-	},
+	"sefariaHeadword": "סִטּוּמְתָּא",
+	"headwords": [
+		{
+			"text": "סִטּוּמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "a"

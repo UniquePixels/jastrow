@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01762",
-	"slug": "פרחתא",
-	"headword": {
-		"text": "פַּרְחֲתָא"
-	},
+	"sefariaHeadword": "פַּרְחֲתָא",
+	"headwords": [
+		{
+			"text": "פַּרְחֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1224,
 		"column": "a"

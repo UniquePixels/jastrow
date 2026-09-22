@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01090",
-	"slug": "מיגס",
-	"headword": {
-		"text": "מֵיגַס"
-	},
+	"sefariaHeadword": "מֵיגַס",
+	"headwords": [
+		{
+			"text": "מֵיגַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "a"

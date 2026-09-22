@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02484",
-	"slug": "אספור",
-	"headword": {
-		"text": "אֶסְפּוֹר"
-	},
+	"sefariaHeadword": "אֶסְפּוֹר",
+	"headwords": [
+		{
+			"text": "אֶסְפּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "b"

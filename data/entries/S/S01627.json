@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01627",
-	"slug": "קנתר",
-	"headword": {
-		"text": "קִנְתֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְתֵּר",
+	"headwords": [
+		{
+			"text": "קִנְתֵּר"
+		},
 		{
 			"text": "קַנְתֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "a"

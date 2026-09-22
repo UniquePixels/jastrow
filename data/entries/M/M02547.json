@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02547",
-	"slug": "מרדותא-2",
-	"headword": {
-		"text": "מַרְדּוּתָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַרְדּוּתָא II",
+	"headwords": [
+		{
+			"text": "מַרְדּוּתָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 837,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00367",
-	"slug": "עושנא",
-	"headword": {
-		"text": "עוּשְׁנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּשְׁנָא",
+	"headwords": [
 		{
-			"text": "עוֹ׳"
+			"text": "עוּשְׁנָא"
+		},
+		{
+			"text": "עוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1059,
 		"column": "a"

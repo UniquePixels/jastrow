@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01729",
-	"slug": "חרסון",
-	"headword": {
-		"text": "חַרְסוּן"
-	},
+	"sefariaHeadword": "חַרְסוּן",
+	"headwords": [
+		{
+			"text": "חַרְסוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 504,
 		"column": "b"

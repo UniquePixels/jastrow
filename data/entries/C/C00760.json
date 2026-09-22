@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00760",
-	"slug": "גינוסר",
-	"headword": {
-		"text": "גִּינּוֹסַר"
-	},
+	"sefariaHeadword": "גִּינֹּוסַר",
+	"headwords": [
+		{
+			"text": "גִּינּוֹסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

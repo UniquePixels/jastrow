@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02767",
-	"slug": "אפסתיק",
-	"headword": {
-		"text": "אפסתיק",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אפסתיק",
+	"headwords": [
+		{
+			"text": "אפסתיק",
+			"reconstructed": true
+		},
 		{
 			"text": "אפסתקי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 106,
 		"column": "b"

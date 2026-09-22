@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00138",
-	"slug": "לגלוג-1",
-	"headword": {
-		"text": "לִגְלוּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לִגְלוּג",
+	"headwords": [
 		{
-			"text": "לִיגְ׳"
+			"text": "לִגְלוּג"
+		},
+		{
+			"text": "לִיגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 693,
 		"column": "a"

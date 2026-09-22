@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02519",
-	"slug": "מרגלות",
-	"headword": {
-		"text": "מַרְגְּלוֹת"
-	},
+	"sefariaHeadword": "מַרְגְּלוֹת",
+	"headwords": [
+		{
+			"text": "מַרְגְּלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 836,
 		"column": "a"

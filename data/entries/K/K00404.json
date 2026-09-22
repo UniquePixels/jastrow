@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00404",
-	"slug": "כושית",
-	"headword": {
-		"text": "כּוּשִׁית"
-	},
+	"sefariaHeadword": "כּוּשִׁית",
+	"headwords": [
+		{
+			"text": "כּוּשִׁית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "b"

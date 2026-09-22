@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02102",
-	"slug": "קרן-3",
-	"headword": {
-		"text": "קֶרֶן"
-	},
+	"sefariaHeadword": "קֶרֶן",
+	"headwords": [
+		{
+			"text": "קֶרֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1422,
 		"column": "b"

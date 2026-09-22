@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00463",
-	"slug": "כחל-2",
-	"headword": {
-		"text": "כָּחַל"
-	},
+	"sefariaHeadword": "כָּחַל",
+	"headwords": [
+		{
+			"text": "כָּחַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 629,
 		"column": "a"

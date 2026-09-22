@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01323",
-	"slug": "ברקוריאני",
-	"headword": {
-		"text": "בַּרְקוּרְיָאנִי"
-	},
+	"sefariaHeadword": "בַּרְקוּרְיָאנִי",
+	"headwords": [
+		{
+			"text": "בַּרְקוּרְיָאנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

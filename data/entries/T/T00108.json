@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00108",
-	"slug": "רביעיתא",
-	"headword": {
-		"text": "רְבִיעֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְבִיעֵיתָא",
+	"headwords": [
+		{
+			"text": "רְבִיעֵיתָא"
+		},
 		{
 			"text": "רְבִיעָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1443,
 		"column": "a"

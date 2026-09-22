@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01656",
-	"slug": "קסיא",
-	"headword": {
-		"text": "קסיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קסיא",
+	"headwords": [
+		{
+			"text": "קסיא"
+		},
 		{
 			"text": "קְסִיָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1396,
 		"column": "a"

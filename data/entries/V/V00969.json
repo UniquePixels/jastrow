@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00969",
-	"slug": "תרופה",
-	"headword": {
-		"text": "תְּרוּפָה"
-	},
+	"sefariaHeadword": "תְּרוּפָה",
+	"headwords": [
+		{
+			"text": "תְּרוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

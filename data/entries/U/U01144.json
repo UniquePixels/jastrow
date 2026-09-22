@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01144",
-	"slug": "שכיב-2",
-	"headword": {
-		"text": "שָׁכִיב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁכִיב",
+	"headwords": [
+		{
+			"text": "שָׁכִיב"
+		},
 		{
 			"text": "שְׁכִיבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1573,
 		"column": "a"

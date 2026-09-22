@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "I00215",
-	"slug": "טור-2",
-	"headword": {
-		"text": "טוּר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוּר II",
+	"headwords": [
+		{
+			"text": "טוּר",
+			"homograph": 2
+		},
 		{
 			"text": "טוּרָא",
 			"homograph": 1
@@ -14,6 +15,7 @@
 			"text": "טַוְורָא"
 		}
 	],
+	"display": "{0} II, {1} I, {2}",
 	"page": {
 		"number": 526,
 		"column": "a"

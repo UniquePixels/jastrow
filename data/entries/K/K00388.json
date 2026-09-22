@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00388",
-	"slug": "כורנק",
-	"headword": {
-		"text": "כְּוַרְנַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוַרְנַק",
+	"headwords": [
+		{
+			"text": "כְּוַרְנַק"
+		},
 		{
 			"text": "כְּוַרְנְקֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 626,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01264",
-	"slug": "איל-2",
-	"headword": {
-		"text": "אַיִל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיִל",
+	"headwords": [
+		{
+			"text": "אַיִל"
+		},
 		{
 			"text": "אַיִיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 48,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01487",
-	"slug": "איספקסיטין",
-	"headword": {
-		"text": "איספקסיטין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איספקסיטין",
+	"headwords": [
+		{
+			"text": "איספקסיטין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01508",
-	"slug": "פקעתא",
-	"headword": {
-		"text": "פְּקַעְתָּא"
-	},
+	"sefariaHeadword": "פְּקַעְתָּא",
+	"headwords": [
+		{
+			"text": "פְּקַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1211,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00020",
-	"slug": "זבוזין",
-	"headword": {
-		"text": "זבוזין"
-	},
+	"sefariaHeadword": "זבוזין",
+	"headwords": [
+		{
+			"text": "זבוזין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "a"

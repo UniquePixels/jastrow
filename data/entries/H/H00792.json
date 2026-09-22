@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00792",
-	"slug": "חילש",
-	"headword": {
-		"text": "חֵילַשׁ"
-	},
+	"sefariaHeadword": "חֵילַשׁ",
+	"headwords": [
+		{
+			"text": "חֵילַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01932",
-	"slug": "קרוח",
-	"headword": {
-		"text": "קְרוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְרוּחַ",
+	"headwords": [
+		{
+			"text": "קְרוּחַ"
+		},
 		{
 			"text": "קָרוֹחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1413,
 		"column": "b"

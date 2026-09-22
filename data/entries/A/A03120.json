@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03120",
-	"slug": "ארירן",
-	"headword": {
-		"text": "אֲרִירָן"
-	},
+	"sefariaHeadword": "אֲרִירָן",
+	"headwords": [
+		{
+			"text": "אֲרִירָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 120,
 		"column": "b"

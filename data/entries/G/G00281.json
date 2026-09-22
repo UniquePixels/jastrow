@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00281",
-	"slug": "זידל",
-	"headword": {
-		"text": "זַיְדָּל"
-	},
+	"sefariaHeadword": "זַיְדָּל",
+	"headwords": [
+		{
+			"text": "זַיְדָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 391,
 		"column": "b"

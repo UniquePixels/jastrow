@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00362",
-	"slug": "תחילה",
-	"headword": {
-		"text": "תְּחִילָּה"
-	},
+	"sefariaHeadword": "תְּחִילָּה",
+	"headwords": [
+		{
+			"text": "תְּחִילָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

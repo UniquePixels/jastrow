@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00465",
-	"slug": "נזר-2",
-	"headword": {
-		"text": "נְזַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְזַר",
+	"headwords": [
+		{
+			"text": "נְזַר"
+		},
 		{
 			"text": "נְזִיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 893,
 		"column": "a"

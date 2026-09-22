@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00346",
-	"slug": "נוט",
-	"headword": {
-		"text": "נוּט"
-	},
+	"sefariaHeadword": "נוּט",
+	"headwords": [
+		{
+			"text": "נוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 886,
 		"column": "b"

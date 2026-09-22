@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02184",
-	"slug": "אנטימטון",
-	"headword": {
-		"text": "אנטימטון"
-	},
+	"sefariaHeadword": "אנטימטון",
+	"headwords": [
+		{
+			"text": "אנטימטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

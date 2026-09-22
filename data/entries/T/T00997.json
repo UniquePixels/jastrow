@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00997",
-	"slug": "רצפא",
-	"headword": {
-		"text": "רִצְפָא"
-	},
+	"sefariaHeadword": "רִצְפָא",
+	"headwords": [
+		{
+			"text": "רִצְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1495,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00226",
-	"slug": "פוליטיקין",
-	"headword": {
-		"text": "פּוֹלִיטִיקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פּוֹלִיטִיקִין",
+	"headwords": [
+		{
+			"text": "פּוֹלִיטִיקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1141,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01758",
-	"slug": "חרצניתא",
-	"headword": {
-		"text": "חַרְצָנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַרְצָנִיתָא",
+	"headwords": [
+		{
+			"text": "חַרְצָנִיתָא"
+		},
 		{
 			"text": "חַרְצַנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 506,
 		"column": "a"

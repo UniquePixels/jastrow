@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00805",
-	"slug": "גיר-3",
-	"headword": {
-		"text": "גִּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיר",
+	"headwords": [
+		{
+			"text": "גִּיר"
+		},
 		{
 			"text": "גִּירָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 241,
 		"column": "b"

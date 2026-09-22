@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02572",
-	"slug": "אסתומכא",
-	"headword": {
-		"text": "אִסְתּוֹמְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְתֹּומְכָא",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְתּוֹמְכָא"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		},
 		{
 			"text": "אסטומכא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 98,
 		"column": "b"

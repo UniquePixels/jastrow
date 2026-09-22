@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "H01338",
-	"slug": "חסד-5",
-	"headword": {
-		"text": "חֶסֶד",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶסֶד ²",
+	"headwords": [
+		{
+			"text": "חֶסֶד",
+			"disambiguator": 2
+		},
 		{
 			"text": "חִסְדָּא"
 		},
 		{
 			"text": "חִיסְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 486,
 		"column": "a"

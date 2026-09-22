@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00166",
-	"slug": "פוה",
-	"headword": {
-		"text": "פוה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פוה",
+	"headwords": [
+		{
+			"text": "פוה"
+		},
 		{
 			"text": "פוי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1139,
 		"column": "b"

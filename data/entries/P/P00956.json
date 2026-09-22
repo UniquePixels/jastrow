@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00956",
-	"slug": "ענוביי",
-	"headword": {
-		"text": "ענוביי"
-	},
+	"sefariaHeadword": "ענוביי",
+	"headwords": [
+		{
+			"text": "ענוביי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "a"

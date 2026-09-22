@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01039",
-	"slug": "שיקודין",
-	"headword": {
-		"text": "שִׁיקּוּדִין"
-	},
+	"sefariaHeadword": "שִׁיקּוּדִין",
+	"headwords": [
+		{
+			"text": "שִׁיקּוּדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1567,
 		"column": "b"

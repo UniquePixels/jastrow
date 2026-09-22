@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01256",
-	"slug": "חנוגא",
-	"headword": {
-		"text": "חִנּוּגָא"
-	},
+	"sefariaHeadword": "חִנּוּגָא",
+	"headwords": [
+		{
+			"text": "חִנּוּגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00360",
-	"slug": "כופתא-3",
-	"headword": {
-		"text": "כּוּפְתָּא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "כּוּפְתָּא III",
+	"headwords": [
+		{
+			"text": "כּוּפְתָּא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 625,
 		"column": "a"

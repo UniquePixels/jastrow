@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03164",
-	"slug": "ארם",
-	"headword": {
-		"text": "אֲרָם"
-	},
+	"sefariaHeadword": "אֲרָם",
+	"headwords": [
+		{
+			"text": "אֲרָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 122,
 		"column": "b"

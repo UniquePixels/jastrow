@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P00773",
-	"slug": "עלואין",
-	"headword": {
-		"text": "עַלְוָאִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַלְוָאִין",
+	"headwords": [
+		{
+			"text": "עַלְוָאִין"
+		},
 		{
 			"text": "עַלְוָיִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַלְוִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1080,
 		"column": "b"

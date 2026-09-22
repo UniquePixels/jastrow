@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01030",
-	"slug": "דרבאני",
-	"headword": {
-		"text": "דרבאני"
-	},
+	"sefariaHeadword": "דרבאני",
+	"headwords": [
+		{
+			"text": "דרבאני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "b"

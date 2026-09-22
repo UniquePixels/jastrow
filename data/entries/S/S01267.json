@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01267",
-	"slug": "קלולי",
-	"headword": {
-		"text": "קלולי"
-	},
+	"sefariaHeadword": "קלולי",
+	"headwords": [
+		{
+			"text": "קלולי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

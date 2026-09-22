@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00224",
-	"slug": "כוותא-2",
-	"headword": {
-		"text": "כַּוְּותָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כַּוְּותָא II",
+	"headwords": [
+		{
+			"text": "כַּוְּותָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 618,
 		"column": "a"

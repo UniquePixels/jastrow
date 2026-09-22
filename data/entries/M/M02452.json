@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02452",
-	"slug": "מקרא-3",
-	"headword": {
-		"text": "מִקְרָא"
-	},
+	"sefariaHeadword": "מִקְרָא",
+	"headwords": [
+		{
+			"text": "מִקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 832,
 		"column": "b"

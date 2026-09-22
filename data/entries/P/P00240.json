@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00240",
-	"slug": "עול-1",
-	"headword": {
-		"text": "עוֹל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹל",
+	"headwords": [
+		{
+			"text": "עוֹל"
+		},
 		{
 			"text": "עוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1050,
 		"column": "a"

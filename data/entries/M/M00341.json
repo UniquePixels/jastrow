@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00341",
-	"slug": "מה-2",
-	"headword": {
-		"text": "מָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָה ²",
+	"headwords": [
+		{
+			"text": "מָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 736,
 		"column": "b"

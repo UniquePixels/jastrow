@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02066",
-	"slug": "קרינוס",
-	"headword": {
-		"text": "קִרְיָנוֹס"
-	},
+	"sefariaHeadword": "קִרְיָנוֹס",
+	"headwords": [
+		{
+			"text": "קִרְיָנוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

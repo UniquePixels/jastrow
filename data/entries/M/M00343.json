@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00343",
-	"slug": "מהגינות",
-	"headword": {
-		"text": "מהגינות"
-	},
+	"sefariaHeadword": "מהגינות",
+	"headwords": [
+		{
+			"text": "מהגינות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 736,
 		"column": "b"

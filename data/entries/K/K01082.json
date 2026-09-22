@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01082",
-	"slug": "כרביז",
-	"headword": {
-		"text": "כרביז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כרביז",
+	"headwords": [
+		{
+			"text": "כרביז"
+		},
 		{
 			"text": "כרבין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 663,
 		"column": "b"

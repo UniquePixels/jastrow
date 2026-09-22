@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01929",
-	"slug": "מסיק-3",
-	"headword": {
-		"text": "מַסִּיק",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַסִּיק I",
+	"headwords": [
+		{
+			"text": "מַסִּיק",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 807,
 		"column": "a"

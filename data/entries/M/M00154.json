@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M00154",
-	"slug": "מגיזה",
-	"headword": {
-		"text": "מְגִיזָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְגִיזָה",
+	"headwords": [
+		{
+			"text": "מְגִיזָה"
+		},
 		{
 			"text": "מְזִיגָה"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 727,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

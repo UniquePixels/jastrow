@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00123",
-	"slug": "בדוקא",
-	"headword": {
-		"text": "בָּדוּקָא"
-	},
+	"sefariaHeadword": "בָּדוּקָא",
+	"headwords": [
+		{
+			"text": "בָּדוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 139,
 		"column": "b"

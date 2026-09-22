@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01089",
-	"slug": "פלן-2",
-	"headword": {
-		"text": "פלן"
-	},
+	"sefariaHeadword": "פלן",
+	"headwords": [
+		{
+			"text": "פלן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

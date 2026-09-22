@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00856",
-	"slug": "פירי",
-	"headword": {
-		"text": "פֶּירִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֶּירִי",
+	"headwords": [
+		{
+			"text": "פֶּירִי"
+		},
 		{
 			"text": "פֵּירֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1171,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00240",
-	"slug": "צור-1",
-	"headword": {
-		"text": "צוּר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צוּר I",
+	"headwords": [
+		{
+			"text": "צוּר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1270,
 		"column": "b"

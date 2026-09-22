@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00494",
-	"slug": "סטלא",
-	"headword": {
-		"text": "סטלא"
-	},
+	"sefariaHeadword": "סטלא",
+	"headwords": [
+		{
+			"text": "סטלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "a"

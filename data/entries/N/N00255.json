@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00255",
-	"slug": "נהור",
-	"headword": {
-		"text": "נְהוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְהוֹר",
+	"headwords": [
+		{
+			"text": "נְהוֹר"
+		},
 		{
 			"text": "נְהוֹרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 880,
 		"column": "b"

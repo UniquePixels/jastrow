@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01227",
-	"slug": "כרכתא",
-	"headword": {
-		"text": "כְּרַכְתָּא"
-	},
+	"sefariaHeadword": "כְּרַכְתָּא",
+	"headwords": [
+		{
+			"text": "כְּרַכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 671,
 		"column": "a"

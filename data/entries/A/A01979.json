@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01979",
-	"slug": "אמגוזא",
-	"headword": {
-		"text": "אֶמְגּוּזָא"
-	},
+	"sefariaHeadword": "אֶמְגּוּזָא",
+	"headwords": [
+		{
+			"text": "אֶמְגּוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

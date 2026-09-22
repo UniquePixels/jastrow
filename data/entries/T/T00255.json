@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00255",
-	"slug": "רדייא",
-	"headword": {
-		"text": "רַדְיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַדְיָיא",
+	"headwords": [
+		{
+			"text": "רַדְיָיא"
+		},
 		{
 			"text": "רִדְיָיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1452,
 		"column": "b"

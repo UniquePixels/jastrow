@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00797",
-	"slug": "קטן-4",
-	"headword": {
-		"text": "קָטָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטָן",
+	"headwords": [
+		{
+			"text": "קָטָן"
+		},
 		{
 			"text": "קָטוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "קְטַנָּה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1350,
 		"column": "b"

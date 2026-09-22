@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00594",
-	"slug": "מוקסין",
-	"headword": {
-		"text": "מוּקְסִין"
-	},
+	"sefariaHeadword": "מוּקְסִין",
+	"headwords": [
+		{
+			"text": "מוּקְסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 747,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00790",
-	"slug": "כמהות",
-	"headword": {
-		"text": "כְּמֵהוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּמֵהוֹת",
+	"headwords": [
+		{
+			"text": "כְּמֵהוֹת"
+		},
 		{
 			"text": "כְּמֵהִים"
 		},
@@ -12,9 +13,11 @@
 			"text": "כְּמֵהִין"
 		},
 		{
-			"text": "כְּמֵי׳"
+			"text": "כְּמֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 646,
 		"column": "a"

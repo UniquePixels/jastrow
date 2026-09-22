@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02245",
-	"slug": "מפריכה",
-	"headword": {
-		"text": "מַפְרֵיכָה"
-	},
+	"sefariaHeadword": "מַפְרֵיכָה",
+	"headwords": [
+		{
+			"text": "מַפְרֵיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

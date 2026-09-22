@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01124",
-	"slug": "חלש-2",
-	"headword": {
-		"text": "חֲלַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלַשׁ",
+	"headwords": [
+		{
+			"text": "חֲלַשׁ"
+		},
 		{
 			"text": "חָלִישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 474,
 		"column": "a"

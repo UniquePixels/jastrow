@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00195",
-	"slug": "אבקה",
-	"headword": {
-		"text": "אֲבָקָה"
-	},
+	"sefariaHeadword": "אֲבָקָה",
+	"headwords": [
+		{
+			"text": "אֲבָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 8,
 		"column": "b"

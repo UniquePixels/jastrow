@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00944",
-	"slug": "כסלו",
-	"headword": {
-		"text": "כִּסְלֵו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּסְלֵו",
+	"headwords": [
+		{
+			"text": "כִּסְלֵו"
+		},
 		{
 			"text": "כִּסְלֵיו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 654,
 		"column": "b"

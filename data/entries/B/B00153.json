@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00153",
-	"slug": "בדסין",
-	"headword": {
-		"text": "בדסין"
-	},
+	"sefariaHeadword": "בדסין",
+	"headwords": [
+		{
+			"text": "בדסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 141,
 		"column": "a"

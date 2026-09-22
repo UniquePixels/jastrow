@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00214",
-	"slug": "צוער-1",
-	"headword": {
-		"text": "צוֹעַר"
-	},
+	"sefariaHeadword": "צוֹעַר",
+	"headwords": [
+		{
+			"text": "צוֹעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00898",
-	"slug": "גלוי-2",
-	"headword": {
-		"text": "גִּלּוּי"
-	},
+	"sefariaHeadword": "גִּלּוּי",
+	"headwords": [
+		{
+			"text": "גִּלּוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

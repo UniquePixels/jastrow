@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00834",
-	"slug": "בלונקי",
-	"headword": {
-		"text": "בְּלוּנְקֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בְּלוּנְקֵי",
+	"headwords": [
+		{
+			"text": "בְּלוּנְקֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

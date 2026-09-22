@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01350",
-	"slug": "גרם-2",
-	"headword": {
-		"text": "גְּרַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גְּרַם I",
+	"headwords": [
+		{
+			"text": "גְּרַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 269,
 		"column": "b"

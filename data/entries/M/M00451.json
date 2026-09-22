@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00451",
-	"slug": "מוזפו",
-	"headword": {
-		"text": "מוֹזְפוּ"
-	},
+	"sefariaHeadword": "מוֹזְפוּ",
+	"headwords": [
+		{
+			"text": "מוֹזְפוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 740,
 		"column": "a"

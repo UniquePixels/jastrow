@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00225",
-	"slug": "אברני",
-	"headword": {
-		"text": "אֵבְרָנִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֵבְרָנִי",
+	"headwords": [
+		{
+			"text": "אֵבְרָנִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

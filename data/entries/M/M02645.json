@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M02645",
-	"slug": "מרטוט",
-	"headword": {
-		"text": "מַרְטוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְטוּט",
+	"headwords": [
+		{
+			"text": "מַרְטוּט"
+		},
 		{
 			"text": "מַרְטוּטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַרְטוּטָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 841,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01007",
-	"slug": "אחוונא",
-	"headword": {
-		"text": "אַחְוָונָא"
-	},
+	"sefariaHeadword": "אַחְוָונָא",
+	"headwords": [
+		{
+			"text": "אַחְוָונָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

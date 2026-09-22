@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01355",
-	"slug": "גרמא-2",
-	"headword": {
-		"text": "גְּרָמָא"
-	},
+	"sefariaHeadword": "גְּרָמָא",
+	"headwords": [
+		{
+			"text": "גְּרָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 270,
 		"column": "a"

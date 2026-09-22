@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01607",
-	"slug": "פרהפורנון",
-	"headword": {
-		"text": "פָּרָהפוּרְנוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרָהפוּרְנוֹן",
+	"headwords": [
 		{
-			"text": "פָּרָהפִרְ׳"
+			"text": "פָּרָהפוּרְנוֹן"
+		},
+		{
+			"text": "פָּרָהפִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "a"

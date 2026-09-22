@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01165",
-	"slug": "קירויה",
-	"headword": {
-		"text": "קֵירוָּיה"
-	},
+	"sefariaHeadword": "קֵירוָּיה",
+	"headwords": [
+		{
+			"text": "קֵירוָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1368,
 		"column": "b"

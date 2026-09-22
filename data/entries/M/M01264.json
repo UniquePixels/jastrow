@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01264",
-	"slug": "מיעלא",
-	"headword": {
-		"text": "מֵיעֲלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵיעֲלָא",
+	"headwords": [
+		{
+			"text": "מֵיעֲלָא"
+		},
 		{
 			"text": "מֵיעֲלֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "a"

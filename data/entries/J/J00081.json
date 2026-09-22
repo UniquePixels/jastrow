@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00081",
-	"slug": "יגון",
-	"headword": {
-		"text": "יָגוֹן"
-	},
+	"sefariaHeadword": "יָגוֹן",
+	"headwords": [
+		{
+			"text": "יָגוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

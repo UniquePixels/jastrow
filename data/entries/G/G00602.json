@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00602",
-	"slug": "זעירותא",
-	"headword": {
-		"text": "זְעֵירוּתָא"
-	},
+	"sefariaHeadword": "זְעֵירוּתָא",
+	"headwords": [
+		{
+			"text": "זְעֵירוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

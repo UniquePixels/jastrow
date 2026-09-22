@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01607",
-	"slug": "מלע",
-	"headword": {
-		"text": "מֵלַע"
-	},
+	"sefariaHeadword": "מֵלַע",
+	"headwords": [
+		{
+			"text": "מֵלַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "a"

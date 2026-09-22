@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01895",
-	"slug": "אלכסנדרי",
-	"headword": {
-		"text": "אֲלֶכְסַנְדְּרִי"
-	},
+	"sefariaHeadword": "אֲלֶכְסַנְדְּרִי",
+	"headwords": [
+		{
+			"text": "אֲלֶכְסַנְדְּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01185",
-	"slug": "עקיצה",
-	"headword": {
-		"text": "עֲקִיצָה"
-	},
+	"sefariaHeadword": "עֲקִיצָה",
+	"headwords": [
+		{
+			"text": "עֲקִיצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

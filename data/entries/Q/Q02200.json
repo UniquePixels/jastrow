@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02200",
-	"slug": "פתר-1",
-	"headword": {
-		"text": "פָּתַר"
-	},
+	"sefariaHeadword": "פָּתַר",
+	"headwords": [
+		{
+			"text": "פָּתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "b"

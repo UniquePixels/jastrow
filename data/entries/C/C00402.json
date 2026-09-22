@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00402",
-	"slug": "גולמיש-1",
-	"headword": {
-		"text": "גּוֹלָמִישׁ"
-	},
+	"sefariaHeadword": "גֹּולָמִישׁ",
+	"headwords": [
+		{
+			"text": "גּוֹלָמִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "b"

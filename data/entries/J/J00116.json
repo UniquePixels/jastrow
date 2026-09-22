@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00116",
-	"slug": "יהבית",
-	"headword": {
-		"text": "יְהָבִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְהָבִית",
+	"headwords": [
+		{
+			"text": "יְהָבִית"
+		},
 		{
 			"text": "יַהֲבַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 566,
 		"column": "a"

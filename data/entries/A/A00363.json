@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00363",
-	"slug": "אגרת-1",
-	"headword": {
-		"text": "אִגְּרַת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִגְּרַת",
+	"headwords": [
+		{
+			"text": "אִגְּרַת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

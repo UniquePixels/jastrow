@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00441",
-	"slug": "טירחות",
-	"headword": {
-		"text": "טִירְחוּת"
-	},
+	"sefariaHeadword": "טִירְחוּת",
+	"headwords": [
+		{
+			"text": "טִירְחוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "b"

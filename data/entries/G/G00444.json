@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00444",
-	"slug": "זכו",
-	"headword": {
-		"text": "זָכוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זָכוּ",
+	"headwords": [
+		{
+			"text": "זָכוּ"
+		},
 		{
 			"text": "זְכוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 398,
 		"column": "a"

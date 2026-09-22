@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S00967",
-	"slug": "קילוס-2",
-	"headword": {
-		"text": "קִילּוּס",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִילּוּס II",
+	"headwords": [
 		{
-			"text": "קִלּ׳"
+			"text": "קִילּוּס",
+			"homograph": 2
+		},
+		{
+			"text": "קִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1360,
 		"column": "a"

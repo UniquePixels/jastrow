@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01128",
-	"slug": "כרוספדאי",
-	"headword": {
-		"text": "כְּרוּסְפְּדַאי"
-	},
+	"sefariaHeadword": "כְּרוּסְפְּדַאי",
+	"headwords": [
+		{
+			"text": "כְּרוּסְפְּדַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

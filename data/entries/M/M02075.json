@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02075",
-	"slug": "מעוט-2",
-	"headword": {
-		"text": "מִעוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִעוּט",
+	"headwords": [
+		{
+			"text": "מִעוּט"
+		},
 		{
 			"text": "מִעוּטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 814,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00958",
-	"slug": "ענוה-1",
-	"headword": {
-		"text": "ענָוָה",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ענָוָה I",
+	"headwords": [
+		{
+			"text": "ענָוָה",
+			"homograph": 1
+		},
 		{
 			"text": "עַנָיָה"
 		}
 	],
+	"display": "{0} I, ({1})",
 	"page": {
 		"number": 1092,
 		"column": "a"

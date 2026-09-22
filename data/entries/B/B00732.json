@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00732",
-	"slug": "בירנתא",
-	"headword": {
-		"text": "בִּירַנְתָּא"
-	},
+	"sefariaHeadword": "בִּירַנְתָּא",
+	"headwords": [
+		{
+			"text": "בִּירַנְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"

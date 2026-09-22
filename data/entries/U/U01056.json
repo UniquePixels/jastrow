@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01056",
-	"slug": "שיר-4",
-	"headword": {
-		"text": "שֵׁיר"
-	},
+	"sefariaHeadword": "שֵׁיר",
+	"headwords": [
+		{
+			"text": "שֵׁיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1568,
 		"column": "a"

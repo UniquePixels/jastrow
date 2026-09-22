@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01089",
-	"slug": "בציר-3",
-	"headword": {
-		"text": "בְּצִיר"
-	},
+	"sefariaHeadword": "בְּצִיר",
+	"headwords": [
+		{
+			"text": "בְּצִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

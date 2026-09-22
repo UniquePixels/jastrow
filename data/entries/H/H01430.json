@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01430",
-	"slug": "חפורא-2",
-	"headword": {
-		"text": "חֲפוּרָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲפוּרָא ²",
+	"headwords": [
+		{
+			"text": "חֲפוּרָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲפוּרַת"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 490,
 		"column": "b"

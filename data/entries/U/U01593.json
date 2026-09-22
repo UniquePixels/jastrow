@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01593",
-	"slug": "שניו׳",
-	"headword": {
-		"text": "שניו׳"
-	},
+	"sefariaHeadword": "שניו׳",
+	"headwords": [
+		{
+			"text": "שניו׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1607,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00013",
-	"slug": "טאניס",
-	"headword": {
-		"text": "טַאֲנֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַאֲנֵיס",
+	"headwords": [
+		{
+			"text": "טַאֲנֵיס"
+		},
 		{
 			"text": "טָאנֵיס"
 		},
@@ -12,12 +13,10 @@
 			"text": "טָנֵיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 515,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

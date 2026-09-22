@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03180",
-	"slug": "ארמלא",
-	"headword": {
-		"text": "אַרְמְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְמְלָא",
+	"headwords": [
+		{
+			"text": "אַרְמְלָא"
+		},
 		{
 			"text": "אַרְמְלָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְמַלְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 123,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01345",
-	"slug": "ברתצין",
-	"headword": {
-		"text": "ברתצין"
-	},
+	"sefariaHeadword": "ברתצין",
+	"headwords": [
+		{
+			"text": "ברתצין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 198,
 		"column": "b"

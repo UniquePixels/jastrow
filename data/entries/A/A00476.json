@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00476",
-	"slug": "אדרמלך",
-	"headword": {
-		"text": "אַדְרַמֶּלֶךְ"
-	},
+	"sefariaHeadword": "אַדְרַמֶּלֶךְ",
+	"headwords": [
+		{
+			"text": "אַדְרַמֶּלֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 19,
 		"column": "a"

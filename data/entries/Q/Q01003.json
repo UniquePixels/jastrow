@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01003",
-	"slug": "פלטום",
-	"headword": {
-		"text": "פלטום"
-	},
+	"sefariaHeadword": "פלטום",
+	"headwords": [
+		{
+			"text": "פלטום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1179,
 		"column": "a"

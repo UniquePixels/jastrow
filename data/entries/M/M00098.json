@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00098",
-	"slug": "מברי",
-	"headword": {
-		"text": "מַבְרֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַבְרֵי",
+	"headwords": [
 		{
-			"text": "מָבְ׳"
+			"text": "מַבְרֵי"
+		},
+		{
+			"text": "מָבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 725,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00975",
-	"slug": "שינון",
-	"headword": {
-		"text": "שִׁינּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁינּוּן",
+	"headwords": [
 		{
-			"text": "שִׁנּ׳"
+			"text": "שִׁינּוּן"
+		},
+		{
+			"text": "שִׁנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1564,
 		"column": "b"

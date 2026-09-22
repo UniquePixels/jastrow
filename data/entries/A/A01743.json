@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01743",
-	"slug": "אכסרא",
-	"headword": {
-		"text": "אכסרא"
-	},
+	"sefariaHeadword": "אכסרא",
+	"headwords": [
+		{
+			"text": "אכסרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 65,
 		"column": "a"

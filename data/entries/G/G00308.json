@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00308",
-	"slug": "זיוור",
-	"headword": {
-		"text": "זִיוֵּור"
-	},
+	"sefariaHeadword": "זִיוֵּור",
+	"headwords": [
+		{
+			"text": "זִיוֵּור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

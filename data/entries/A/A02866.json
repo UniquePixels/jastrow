@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02866",
-	"slug": "אצטדין",
-	"headword": {
-		"text": "אִצְטַדִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִצְטַדִּין",
+	"headwords": [
+		{
+			"text": "אִצְטַדִּין"
+		},
 		{
 			"text": "אִצְטַדִּינִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 110,
 		"column": "b"

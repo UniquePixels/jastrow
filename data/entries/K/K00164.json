@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00164",
-	"slug": "כהן-2",
-	"headword": {
-		"text": "כָּהַן"
-	},
+	"sefariaHeadword": "כָּהַן",
+	"headwords": [
+		{
+			"text": "כָּהַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

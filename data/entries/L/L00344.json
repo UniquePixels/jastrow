@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00344",
-	"slug": "לחיא",
-	"headword": {
-		"text": "לִחְיָא"
-	},
+	"sefariaHeadword": "לִחְיָא",
+	"headwords": [
+		{
+			"text": "לִחְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 702,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00353",
-	"slug": "שווצרי",
-	"headword": {
-		"text": "שְׁוָוצְרֵי"
-	},
+	"sefariaHeadword": "שְׁוָוצְרֵי",
+	"headwords": [
+		{
+			"text": "שְׁוָוצְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00769",
-	"slug": "אונקל",
-	"headword": {
-		"text": "אוּנְקַל"
-	},
+	"sefariaHeadword": "אוּנְקַל",
+	"headwords": [
+		{
+			"text": "אוּנְקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "a"

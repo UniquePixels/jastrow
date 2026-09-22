@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00309",
-	"slug": "בוציא",
-	"headword": {
-		"text": "בוציא"
-	},
+	"sefariaHeadword": "בוציא",
+	"headwords": [
+		{
+			"text": "בוציא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "b"

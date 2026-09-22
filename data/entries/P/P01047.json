@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01047",
-	"slug": "עסיקין",
-	"headword": {
-		"text": "עֲסִיקִין"
-	},
+	"sefariaHeadword": "עֲסִיקִין",
+	"headwords": [
+		{
+			"text": "עֲסִיקִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1098,
 		"column": "a"

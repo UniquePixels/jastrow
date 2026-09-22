@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00233",
-	"slug": "שגר-1",
-	"headword": {
-		"text": "שָׁגַר"
-	},
+	"sefariaHeadword": "שָׁגַר",
+	"headwords": [
+		{
+			"text": "שָׁגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

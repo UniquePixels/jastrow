@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00264",
-	"slug": "טחיא",
-	"headword": {
-		"text": "טִחְיָא"
-	},
+	"sefariaHeadword": "טִחְיָא",
+	"headwords": [
+		{
+			"text": "טִחְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

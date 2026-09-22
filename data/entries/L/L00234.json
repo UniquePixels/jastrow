@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00234",
-	"slug": "לוח-3",
-	"headword": {
-		"text": "לוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוּחַ",
+	"headwords": [
+		{
+			"text": "לוּחַ"
+		},
 		{
 			"text": "לוּחָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "לְוָוחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 696,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00442",
-	"slug": "קוניון",
-	"headword": {
-		"text": "קוּנְיוֹן"
-	},
+	"sefariaHeadword": "קוּנְיוֹן",
+	"headwords": [
+		{
+			"text": "קוּנְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1335,
 		"column": "b"

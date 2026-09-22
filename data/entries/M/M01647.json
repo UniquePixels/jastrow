@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01647",
-	"slug": "ממה-2",
-	"headword": {
-		"text": "מִמָּה"
-	},
+	"sefariaHeadword": "מִמָּה",
+	"headwords": [
+		{
+			"text": "מִמָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01383",
-	"slug": "שלקונדית",
-	"headword": {
-		"text": "שלקונדית"
-	},
+	"sefariaHeadword": "שלקונדית",
+	"headwords": [
+		{
+			"text": "שלקונדית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1588,
 		"column": "b"

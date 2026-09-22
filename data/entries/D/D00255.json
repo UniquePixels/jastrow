@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00255",
-	"slug": "דוכסוסיא",
-	"headword": {
-		"text": "דּוּכְסוּסְיָא"
-	},
+	"sefariaHeadword": "דּוּכְסוּסְיָא",
+	"headwords": [
+		{
+			"text": "דּוּכְסוּסְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 285,
 		"column": "b"

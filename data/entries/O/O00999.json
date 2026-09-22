@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00999",
-	"slug": "סלירא-1",
-	"headword": {
-		"text": "סְלִירָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְלִירָא",
+	"headwords": [
+		{
+			"text": "סְלִירָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 995,
 		"column": "a"

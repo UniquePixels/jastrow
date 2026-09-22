@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00007",
-	"slug": "דאבונא",
-	"headword": {
-		"text": "דָּאבוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּאבוֹנָא",
+	"headwords": [
+		{
+			"text": "דָּאבוֹנָא"
+		},
 		{
 			"text": "דָּבוֹנָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּוָונָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 275,
 		"column": "b"

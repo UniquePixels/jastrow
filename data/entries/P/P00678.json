@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00678",
-	"slug": "עירה",
-	"headword": {
-		"text": "עִירָה"
-	},
+	"sefariaHeadword": "עִירָה",
+	"headwords": [
+		{
+			"text": "עִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1075,
 		"column": "b"

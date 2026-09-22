@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00080",
-	"slug": "חבית",
-	"headword": {
-		"text": "חָבִית"
-	},
+	"sefariaHeadword": "חָבִית",
+	"headwords": [
+		{
+			"text": "חָבִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "b"

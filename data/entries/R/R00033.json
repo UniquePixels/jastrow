@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00033",
-	"slug": "צבי-1",
-	"headword": {
-		"text": "צבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צבי",
+	"headwords": [
+		{
+			"text": "צבי"
+		},
 		{
 			"text": "צָבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1258,
 		"column": "a"

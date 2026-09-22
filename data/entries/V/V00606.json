@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00606",
-	"slug": "תלמי-2",
-	"headword": {
-		"text": "תַּלְמַי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תַּלְמַי II",
+	"headwords": [
+		{
+			"text": "תַּלְמַי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1672,
 		"column": "b"

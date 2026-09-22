@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01190",
-	"slug": "עקל-1",
-	"headword": {
-		"text": "עָקַל"
-	},
+	"sefariaHeadword": "עָקַל",
+	"headwords": [
+		{
+			"text": "עָקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "b"

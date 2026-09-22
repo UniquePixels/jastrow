@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00621",
-	"slug": "טענתא",
-	"headword": {
-		"text": "טַעַנְתָא"
-	},
+	"sefariaHeadword": "טַעַנְתָא",
+	"headwords": [
+		{
+			"text": "טַעַנְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

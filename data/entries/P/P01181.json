@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01181",
-	"slug": "עקימותא",
-	"headword": {
-		"text": "עֲקִימוּתָא"
-	},
+	"sefariaHeadword": "עֲקִימוּתָא",
+	"headwords": [
+		{
+			"text": "עֲקִימוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

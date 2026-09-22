@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01935",
-	"slug": "שרה-2",
-	"headword": {
-		"text": "שָׂרָה",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שָׂרָה ²",
+	"headwords": [
+		{
+			"text": "שָׂרָה",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1628,
 		"column": "b"

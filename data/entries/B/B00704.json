@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00704",
-	"slug": "בירה",
-	"headword": {
-		"text": "בִּירָה"
-	},
+	"sefariaHeadword": "בִּירָה",
+	"headwords": [
+		{
+			"text": "בִּירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 165,
 		"column": "b"

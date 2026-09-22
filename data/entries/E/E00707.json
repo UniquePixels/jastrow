@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00707",
-	"slug": "הסיע",
-	"headword": {
-		"text": "הֶסֵּיעַ"
-	},
+	"sefariaHeadword": "הֶסֵּיעַ",
+	"headwords": [
+		{
+			"text": "הֶסֵּיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "b"

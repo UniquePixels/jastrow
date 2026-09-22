@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00334",
-	"slug": "זיידל",
-	"headword": {
-		"text": "זַיְידָּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַיְידָּל",
+	"headwords": [
+		{
+			"text": "זַיְידָּל"
+		},
 		{
 			"text": "זַיְדָּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 393,
 		"column": "b"

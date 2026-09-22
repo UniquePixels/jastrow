@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00093",
-	"slug": "הגשה",
-	"headword": {
-		"text": "הַגָּשָׁה"
-	},
+	"sefariaHeadword": "הַגָּשָׁה",
+	"headwords": [
+		{
+			"text": "הַגָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "a"

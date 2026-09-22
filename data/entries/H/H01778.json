@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01778",
-	"slug": "חרש-3",
-	"headword": {
-		"text": "חָרַשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חָרַשׁ II",
+	"headwords": [
+		{
+			"text": "חָרַשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 507,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00496",
-	"slug": "בטונא",
-	"headword": {
-		"text": "בְּטוּנָא"
-	},
+	"sefariaHeadword": "בְּטוּנָא",
+	"headwords": [
+		{
+			"text": "בְּטוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "a"

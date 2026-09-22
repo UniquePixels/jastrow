@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01274",
-	"slug": "ססמגור",
-	"headword": {
-		"text": "סַסְמָגוֹר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סַסְמָגוֹר",
+	"headwords": [
+		{
+			"text": "סַסְמָגוֹר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1009,
 		"column": "a"

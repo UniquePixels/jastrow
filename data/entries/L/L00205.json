@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00205",
-	"slug": "לודר",
-	"headword": {
-		"text": "לוּדָר"
-	},
+	"sefariaHeadword": "לוּדָר",
+	"headwords": [
+		{
+			"text": "לוּדָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00101",
-	"slug": "סגדא",
-	"headword": {
-		"text": "סִגְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִגְדָּא",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִגְדָּא"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 953,
 		"column": "a"

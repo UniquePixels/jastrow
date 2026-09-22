@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00362",
-	"slug": "יכח",
-	"headword": {
-		"text": "יָכַח"
-	},
+	"sefariaHeadword": "יָכַח",
+	"headwords": [
+		{
+			"text": "יָכַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

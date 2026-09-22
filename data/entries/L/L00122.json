@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00122",
-	"slug": "לגדקס",
-	"headword": {
-		"text": "לגדקס"
-	},
+	"sefariaHeadword": "לגדקס",
+	"headwords": [
+		{
+			"text": "לגדקס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "b"

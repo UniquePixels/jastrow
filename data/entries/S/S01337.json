@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01337",
-	"slug": "קלילו",
-	"headword": {
-		"text": "קַלִּילוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַלִּילוּ",
+	"headwords": [
+		{
+			"text": "קַלִּילוּ"
+		},
 		{
 			"text": "קַלִּילוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1376,
 		"column": "b"

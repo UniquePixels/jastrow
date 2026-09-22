@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01062",
-	"slug": "כפת-2",
-	"headword": {
-		"text": "כְּפַת"
-	},
+	"sefariaHeadword": "כְּפַת",
+	"headwords": [
+		{
+			"text": "כְּפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "a"

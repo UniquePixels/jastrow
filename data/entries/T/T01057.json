@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01057",
-	"slug": "רקתא",
-	"headword": {
-		"text": "רַקְּתָא"
-	},
+	"sefariaHeadword": "רַקְּתָא",
+	"headwords": [
+		{
+			"text": "רַקְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1498,
 		"column": "a"

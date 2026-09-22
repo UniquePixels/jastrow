@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01093",
-	"slug": "אטליט",
-	"headword": {
-		"text": "אטליט"
-	},
+	"sefariaHeadword": "אטליט",
+	"headwords": [
+		{
+			"text": "אטליט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 43,
 		"column": "a"

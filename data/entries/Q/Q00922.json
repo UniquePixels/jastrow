@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00922",
-	"slug": "פכפך",
-	"headword": {
-		"text": "פִּכְפֵּךְ"
-	},
+	"sefariaHeadword": "פִּכְפֵּךְ",
+	"headwords": [
+		{
+			"text": "פִּכְפֵּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

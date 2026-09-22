@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01450",
-	"slug": "קמוס",
-	"headword": {
-		"text": "קִמּוֹס"
-	},
+	"sefariaHeadword": "קִמּוֹס",
+	"headwords": [
+		{
+			"text": "קִמּוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1384,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01351",
-	"slug": "עריה",
-	"headword": {
-		"text": "עֶרְיָה"
-	},
+	"sefariaHeadword": "עֶרְיָה",
+	"headwords": [
+		{
+			"text": "עֶרְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1117,
 		"column": "a"

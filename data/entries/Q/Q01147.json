@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01147",
-	"slug": "פנא",
-	"headword": {
-		"text": "פְּנָא"
-	},
+	"sefariaHeadword": "פְּנָא",
+	"headwords": [
+		{
+			"text": "פְּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "a"

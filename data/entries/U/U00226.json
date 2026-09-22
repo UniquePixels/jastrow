@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00226",
-	"slug": "שגישיא",
-	"headword": {
-		"text": "שַׁגִּישְׁיָא"
-	},
+	"sefariaHeadword": "שַׁגִּישְׁיָא",
+	"headwords": [
+		{
+			"text": "שַׁגִּישְׁיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

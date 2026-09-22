@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01447",
-	"slug": "מכתב-2",
-	"headword": {
-		"text": "מִכְתָּב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִכְתָּב ²",
+	"headwords": [
+		{
+			"text": "מִכְתָּב",
+			"disambiguator": 2
+		},
 		{
 			"text": "מִכְתָּבָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 785,
 		"column": "a"

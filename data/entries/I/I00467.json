@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00467",
-	"slug": "טכסת",
-	"headword": {
-		"text": "טַכְסַת"
-	},
+	"sefariaHeadword": "טַכְסַת",
+	"headwords": [
+		{
+			"text": "טַכְסַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02312",
-	"slug": "אנתינוס",
-	"headword": {
-		"text": "אנתינוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אנתינוס",
+	"headwords": [
+		{
+			"text": "אנתינוס"
+		},
 		{
 			"text": "אנתיניס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 88,
 		"column": "b"

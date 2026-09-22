@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01118",
-	"slug": "נצחת",
-	"headword": {
-		"text": "נִצַּחַת"
-	},
+	"sefariaHeadword": "נִצַּחַת",
+	"headwords": [
+		{
+			"text": "נִצַּחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 928,
 		"column": "b"

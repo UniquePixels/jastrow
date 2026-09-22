@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00148",
-	"slug": "סגל-2",
-	"headword": {
-		"text": "סְגַל"
-	},
+	"sefariaHeadword": "סְגַל",
+	"headwords": [
+		{
+			"text": "סְגַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "a"

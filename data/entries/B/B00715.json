@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00715",
-	"slug": "ביריא-2",
-	"headword": {
-		"text": "בִּירְיָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בִּירְיָא II",
+	"headwords": [
+		{
+			"text": "בִּירְיָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 166,
 		"column": "a"

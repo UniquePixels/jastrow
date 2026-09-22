@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00784",
-	"slug": "פיפיור",
-	"headword": {
-		"text": "פִּיפְיוֹר"
-	},
+	"sefariaHeadword": "פִּיפְיוֹר",
+	"headwords": [
+		{
+			"text": "פִּיפְיוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

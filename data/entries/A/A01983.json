@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01983",
-	"slug": "אמגיירתיה",
-	"headword": {
-		"text": "אַמְּגַיַּירְתֵּיה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַמְּגַיַּירְתֵּיה",
+	"headwords": [
+		{
+			"text": "אַמְּגַיַּירְתֵּיה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 75,
 		"column": "a"

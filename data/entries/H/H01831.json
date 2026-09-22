@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01831",
-	"slug": "חשיבא",
-	"headword": {
-		"text": "חֲשִׁיבָא"
-	},
+	"sefariaHeadword": "חֲשִׁיבָא",
+	"headwords": [
+		{
+			"text": "חֲשִׁיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

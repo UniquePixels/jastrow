@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01823",
-	"slug": "אלונתית",
-	"headword": {
-		"text": "אֲלוּנְתִּית"
-	},
+	"sefariaHeadword": "אֲלוּנְתִּית",
+	"headwords": [
+		{
+			"text": "אֲלוּנְתִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "a"

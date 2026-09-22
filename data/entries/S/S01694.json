@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01694",
-	"slug": "קפא-1",
-	"headword": {
-		"text": "קָפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָפָא",
+	"headwords": [
+		{
+			"text": "קָפָא"
+		},
 		{
 			"text": "קְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1398,
 		"column": "a"

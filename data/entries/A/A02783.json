@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02783",
-	"slug": "אפקרותא",
-	"headword": {
-		"text": "אַפְקָרוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְקָרוּתָא",
+	"headwords": [
+		{
+			"text": "אַפְקָרוּתָא"
+		},
 		{
 			"text": "אַפִּיקְרוּתָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 107,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03392",
-	"slug": "את-1",
-	"headword": {
-		"text": "אִתְ־"
-	},
+	"sefariaHeadword": "אִתְ־",
+	"headwords": [
+		{
+			"text": "אִתְ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 131,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01000",
-	"slug": "תריץ-2",
-	"headword": {
-		"text": "תְּרִיץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרִיץ",
+	"headwords": [
+		{
+			"text": "תְּרִיץ"
+		},
 		{
 			"text": "תְּרִיצָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1699,
 		"column": "a"

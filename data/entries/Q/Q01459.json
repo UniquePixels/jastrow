@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01459",
-	"slug": "פקולי",
-	"headword": {
-		"text": "פְּקוֹלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּקוֹלִי",
+	"headwords": [
 		{
-			"text": "הַפְּ׳"
+			"text": "פְּקוֹלִי"
+		},
+		{
+			"text": "הַפְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1207,
 		"column": "b"

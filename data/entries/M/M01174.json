@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01174",
-	"slug": "מילוי",
-	"headword": {
-		"text": "מִילּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִילּוּי",
+	"headwords": [
 		{
-			"text": "מִלּ׳"
+			"text": "מִילּוּי"
+		},
+		{
+			"text": "מִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 774,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00894",
-	"slug": "חישת",
-	"headword": {
-		"text": "חֵישֶׁת"
-	},
+	"sefariaHeadword": "חֵישֶׁת",
+	"headwords": [
+		{
+			"text": "חֵישֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

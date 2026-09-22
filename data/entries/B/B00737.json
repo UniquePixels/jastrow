@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00737",
-	"slug": "בירתא-2",
-	"headword": {
-		"text": "בִּירְתָא"
-	},
+	"sefariaHeadword": "בִּירְתָא",
+	"headwords": [
+		{
+			"text": "בִּירְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"

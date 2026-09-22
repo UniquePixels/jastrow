@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00701",
-	"slug": "פילין",
-	"headword": {
-		"text": "פילין"
-	},
+	"sefariaHeadword": "פילין",
+	"headwords": [
+		{
+			"text": "פילין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

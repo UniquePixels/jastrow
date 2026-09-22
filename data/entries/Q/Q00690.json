@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00690",
-	"slug": "פילוספא",
-	"headword": {
-		"text": "פּילוֹסְפָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פּילוֹסְפָא",
+	"headwords": [
+		{
+			"text": "פּילוֹסְפָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

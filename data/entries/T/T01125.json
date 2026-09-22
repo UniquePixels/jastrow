@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T01125",
-	"slug": "רתחא-2",
-	"headword": {
-		"text": "רִתְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִתְחָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִתְחָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1503,
 		"column": "a"

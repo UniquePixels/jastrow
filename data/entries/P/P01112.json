@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01112",
-	"slug": "עצורי",
-	"headword": {
-		"text": "עֲצוּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲצוּרִי",
+	"headwords": [
+		{
+			"text": "עֲצוּרִי"
+		},
 		{
 			"text": "עַצְרִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1102,
 		"column": "a"

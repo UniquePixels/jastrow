@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02861",
-	"slug": "אצוותא",
-	"headword": {
-		"text": "אַצְוָותָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַצְוָותָא",
+	"headwords": [
+		{
+			"text": "אַצְוָותָא"
+		},
 		{
 			"text": "אַצְוָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 110,
 		"column": "b"

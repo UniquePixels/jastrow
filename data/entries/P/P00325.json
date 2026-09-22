@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00325",
-	"slug": "עוצר",
-	"headword": {
-		"text": "עוֹצָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹצָר",
+	"headwords": [
+		{
+			"text": "עוֹצָר"
+		},
 		{
 			"text": "עוֹצֵר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1056,
 		"column": "a"

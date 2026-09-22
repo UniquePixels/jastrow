@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00063",
-	"slug": "דביקה",
-	"headword": {
-		"text": "דְּבִיקָה"
-	},
+	"sefariaHeadword": "דְּבִיקָה",
+	"headwords": [
+		{
+			"text": "דְּבִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 277,
 		"column": "a"

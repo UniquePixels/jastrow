@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01881",
-	"slug": "מסוקתא",
-	"headword": {
-		"text": "מְסוּקְתָא"
-	},
+	"sefariaHeadword": "מְסוּקְתָא",
+	"headwords": [
+		{
+			"text": "מְסוּקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "a"

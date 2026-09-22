@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01249",
-	"slug": "פסוק-2",
-	"headword": {
-		"text": "פָּסוּק"
-	},
+	"sefariaHeadword": "פָּסוּק",
+	"headwords": [
+		{
+			"text": "פָּסוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1193,
 		"column": "b"

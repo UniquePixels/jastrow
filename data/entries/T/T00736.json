@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00736",
-	"slug": "ריתות",
-	"headword": {
-		"text": "רִיתּוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיתּוּת",
+	"headwords": [
 		{
-			"text": "רִתּ׳"
+			"text": "רִיתּוּת"
+		},
+		{
+			"text": "רִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1478,
 		"column": "b"

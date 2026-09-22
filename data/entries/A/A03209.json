@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A03209",
-	"slug": "ארס-2",
-	"headword": {
-		"text": "אֶרֶס",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶרֶס ²",
+	"headwords": [
+		{
+			"text": "אֶרֶס",
+			"disambiguator": 2
+		},
 		{
 			"text": "אֵירְסָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 124,
 		"column": "a"

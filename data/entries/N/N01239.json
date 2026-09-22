@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01239",
-	"slug": "נקפי",
-	"headword": {
-		"text": "נִקְפִּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִקְפִּי",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִקְפִּי"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 935,
 		"column": "a"

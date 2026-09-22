@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00512",
-	"slug": "הכירא",
-	"headword": {
-		"text": "הֶכֵּירָא"
-	},
+	"sefariaHeadword": "הֶכֵּירָא",
+	"headwords": [
+		{
+			"text": "הֶכֵּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 350,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00476",
-	"slug": "מוכני",
-	"headword": {
-		"text": "מוּכְנִי"
-	},
+	"sefariaHeadword": "מוּכְנִי",
+	"headwords": [
+		{
+			"text": "מוּכְנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00019",
-	"slug": "צבא-3",
-	"headword": {
-		"text": "צָבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָבָא",
+	"headwords": [
+		{
+			"text": "צָבָא"
+		},
 		{
 			"text": "צְבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1257,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00321",
-	"slug": "דוץ-1",
-	"headword": {
-		"text": "דּוּץ",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּץ I",
+	"headwords": [
+		{
+			"text": "דּוּץ",
+			"homograph": 1
+		},
 		{
 			"text": "דִּיץ"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 287,
 		"column": "b"

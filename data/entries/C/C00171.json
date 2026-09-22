@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00171",
-	"slug": "גדוד-2",
-	"headword": {
-		"text": "גְּדוּד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "גְּדוּד II",
+	"headwords": [
+		{
+			"text": "גְּדוּד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 210,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

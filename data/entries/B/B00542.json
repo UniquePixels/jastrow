@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00542",
-	"slug": "ביבא",
-	"headword": {
-		"text": "בִּיבָא"
-	},
+	"sefariaHeadword": "בִּיבָא",
+	"headwords": [
+		{
+			"text": "בִּיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "a"

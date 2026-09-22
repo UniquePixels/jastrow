@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00428",
-	"slug": "בזוע",
-	"headword": {
-		"text": "בִּזּוּעַ"
-	},
+	"sefariaHeadword": "בִּזּוּעַ",
+	"headwords": [
+		{
+			"text": "בִּזּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "b"

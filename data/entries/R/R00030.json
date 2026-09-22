@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "R00030",
-	"slug": "צבחד",
-	"headword": {
-		"text": "צִבְחַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבְחַד",
+	"headwords": [
+		{
+			"text": "צִבְחַד"
+		},
 		{
 			"text": "צִבְחַר"
 		},
 		{
-			"text": "צִי׳"
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 1257,
 		"column": "b"

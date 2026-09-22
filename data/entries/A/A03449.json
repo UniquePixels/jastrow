@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03449",
-	"slug": "אתרונגא",
-	"headword": {
-		"text": "אֶתְרוּנְגָּא"
-	},
+	"sefariaHeadword": "אֶתְרוּנְגָּא",
+	"headwords": [
+		{
+			"text": "אֶתְרוּנְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

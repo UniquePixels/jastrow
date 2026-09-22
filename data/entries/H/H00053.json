@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00053",
-	"slug": "חביבא",
-	"headword": {
-		"text": "חֲבִיבָא",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבִיבָא III",
+	"headwords": [
+		{
+			"text": "חֲבִיבָא",
+			"homograph": 3
+		},
 		{
 			"text": "חֲבִיבָה"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 418,
 		"column": "b"

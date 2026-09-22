@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00668",
-	"slug": "גיורת",
-	"headword": {
-		"text": "גִּיּוֹרֶת"
-	},
+	"sefariaHeadword": "גִּיּוֹרֶת",
+	"headwords": [
+		{
+			"text": "גִּיּוֹרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00176",
-	"slug": "גדודית-1",
-	"headword": {
-		"text": "גְּדוּדִית"
-	},
+	"sefariaHeadword": "גְּדוּדִית",
+	"headwords": [
+		{
+			"text": "גְּדוּדִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "b"

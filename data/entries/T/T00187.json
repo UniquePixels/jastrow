@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00187",
-	"slug": "רגיגתא",
-	"headword": {
-		"text": "רְגִיגְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְגִיגְתָּא",
+	"headwords": [
 		{
-			"text": "רְגִגְ׳"
+			"text": "רְגִיגְתָּא"
+		},
+		{
+			"text": "רְגִגְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1448,
 		"column": "a"

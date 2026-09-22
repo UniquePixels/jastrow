@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01001",
-	"slug": "גמד-2",
-	"headword": {
-		"text": "גָּמַד"
-	},
+	"sefariaHeadword": "גָּמַד",
+	"headwords": [
+		{
+			"text": "גָּמַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 251,
 		"column": "b"

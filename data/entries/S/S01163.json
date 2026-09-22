@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01163",
-	"slug": "קירוי-2",
-	"headword": {
-		"text": "קֵירוּי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קֵירוּי II",
+	"headwords": [
+		{
+			"text": "קֵירוּי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1368,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02445",
-	"slug": "אסיר-1",
-	"headword": {
-		"text": "אָסִיר"
-	},
+	"sefariaHeadword": "אָסִיר",
+	"headwords": [
+		{
+			"text": "אָסִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

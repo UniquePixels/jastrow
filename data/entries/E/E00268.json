@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00268",
-	"slug": "הוצן",
-	"headword": {
-		"text": "הוֹצֶן"
-	},
+	"sefariaHeadword": "הוֹצֶן",
+	"headwords": [
+		{
+			"text": "הוֹצֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 340,
 		"column": "b"

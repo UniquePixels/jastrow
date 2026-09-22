@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00441",
-	"slug": "רוקן-1",
-	"headword": {
-		"text": "רוֹקֵן"
-	},
+	"sefariaHeadword": "רוֹקֵן",
+	"headwords": [
+		{
+			"text": "רוֹקֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "b"

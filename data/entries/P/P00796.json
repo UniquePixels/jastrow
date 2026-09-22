@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00796",
-	"slug": "עליותא",
-	"headword": {
-		"text": "עֲלִיּוּתָא"
-	},
+	"sefariaHeadword": "עֲלִיּוּתָא",
+	"headwords": [
+		{
+			"text": "עֲלִיּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "a"

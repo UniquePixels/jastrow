@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02679",
-	"slug": "מריק",
-	"headword": {
-		"text": "מְרִיק"
-	},
+	"sefariaHeadword": "מְרִיק",
+	"headwords": [
+		{
+			"text": "מְרִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00826",
-	"slug": "הרדוף",
-	"headword": {
-		"text": "הִרְדּוּף"
-	},
+	"sefariaHeadword": "הִרְדּוּף",
+	"headwords": [
+		{
+			"text": "הִרְדּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "a"

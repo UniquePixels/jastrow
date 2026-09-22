@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00583",
-	"slug": "עילם-1",
-	"headword": {
-		"text": "עִילַּם"
-	},
+	"sefariaHeadword": "עִילַּם",
+	"headwords": [
+		{
+			"text": "עִילַּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1070,
 		"column": "b"

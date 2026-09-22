@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01758",
-	"slug": "אכרעתא",
-	"headword": {
-		"text": "אַכְרַעְתָּא"
-	},
+	"sefariaHeadword": "אַכְרַעְתָּא",
+	"headwords": [
+		{
+			"text": "אַכְרַעְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

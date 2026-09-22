@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00141",
-	"slug": "צהלה",
-	"headword": {
-		"text": "צְהָלָה"
-	},
+	"sefariaHeadword": "צְהָלָה",
+	"headwords": [
+		{
+			"text": "צְהָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1264,
 		"column": "b"

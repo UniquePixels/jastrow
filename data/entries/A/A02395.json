@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02395",
-	"slug": "אסטרא-2",
-	"headword": {
-		"text": "אִסְטְרָא"
-	},
+	"sefariaHeadword": "אִסְטְרָא",
+	"headwords": [
+		{
+			"text": "אִסְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 91,
 		"column": "a"

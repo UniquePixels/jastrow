@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00772",
-	"slug": "מזמן",
-	"headword": {
-		"text": "מזמן"
-	},
+	"sefariaHeadword": "מזמן",
+	"headwords": [
+		{
+			"text": "מזמן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

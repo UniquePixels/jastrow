@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00458",
-	"slug": "זכיא",
-	"headword": {
-		"text": "זִכַּיָּא"
-	},
+	"sefariaHeadword": "זִכַּיָּא",
+	"headwords": [
+		{
+			"text": "זִכַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 399,
 		"column": "b"

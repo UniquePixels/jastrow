@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01556",
-	"slug": "איפסטקין",
-	"headword": {
-		"text": "איפסטקין"
-	},
+	"sefariaHeadword": "איפסטקין",
+	"headwords": [
+		{
+			"text": "איפסטקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

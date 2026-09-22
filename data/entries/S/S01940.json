@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01940",
-	"slug": "קרויה",
-	"headword": {
-		"text": "קֵרוּיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵרוּיָה",
+	"headwords": [
 		{
-			"text": "קֵיר׳"
+			"text": "קֵרוּיָה"
+		},
+		{
+			"text": "קֵיר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1413,
 		"column": "b"

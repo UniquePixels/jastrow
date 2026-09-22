@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B01239",
-	"slug": "ברי-5",
-	"headword": {
-		"text": "בָּרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּרִי",
+	"headwords": [
+		{
+			"text": "בָּרִי"
+		},
 		{
 			"text": "בָּרִיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 192,
 		"column": "b"

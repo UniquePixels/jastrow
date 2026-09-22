@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00050",
-	"slug": "ויתור",
-	"headword": {
-		"text": "וִיתּוּר"
-	},
+	"sefariaHeadword": "וִיתּוּר",
+	"headwords": [
+		{
+			"text": "וִיתּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

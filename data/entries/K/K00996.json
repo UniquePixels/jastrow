@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00996",
-	"slug": "כפורא-1",
-	"headword": {
-		"text": "כִּפּוּרָא"
-	},
+	"sefariaHeadword": "כִּפּוּרָא",
+	"headwords": [
+		{
+			"text": "כִּפּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 657,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C01278",
-	"slug": "גרדי-2",
-	"headword": {
-		"text": "גַּרְדַּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּרְדַּי",
+	"headwords": [
+		{
+			"text": "גַּרְדַּי"
+		},
 		{
 			"text": "גַּרְדַּאי"
 		},
 		{
-			"text": "גִּירְ׳"
+			"text": "גִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 266,
 		"column": "a"

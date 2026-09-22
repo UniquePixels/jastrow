@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01408",
-	"slug": "גרתיקון",
-	"headword": {
-		"text": "גְּרֵתִיקוֹן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גְּרֵתִיקוֹן",
+	"headwords": [
+		{
+			"text": "גְּרֵתִיקוֹן",
+			"reconstructed": true
+		},
 		{
 			"text": "קְרֵטִיקוֹן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 273,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00695",
-	"slug": "לקישותא",
-	"headword": {
-		"text": "לַקִּישׁוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַקִּישׁוּתָא",
+	"headwords": [
 		{
-			"text": "לְקִי׳"
+			"text": "לַקִּישׁוּתָא"
+		},
+		{
+			"text": "לְקִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 719,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00015",
-	"slug": "עבד-3",
-	"headword": {
-		"text": "עֶבֶד"
-	},
+	"sefariaHeadword": "עֶבֶד",
+	"headwords": [
+		{
+			"text": "עֶבֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1035,
 		"column": "b"

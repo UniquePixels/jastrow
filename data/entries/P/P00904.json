@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00904",
-	"slug": "עמם-2",
-	"headword": {
-		"text": "עֲמַם",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲמַם I",
+	"headwords": [
+		{
+			"text": "עֲמַם",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1089,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00373",
-	"slug": "טימוק",
-	"headword": {
-		"text": "טימוק"
-	},
+	"sefariaHeadword": "טימוק",
+	"headwords": [
+		{
+			"text": "טימוק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00028",
-	"slug": "זבורית",
-	"headword": {
-		"text": "זִבּוּרִית"
-	},
+	"sefariaHeadword": "זִבּוּרִית",
+	"headwords": [
+		{
+			"text": "זִבּוּרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 378,
 		"column": "a"

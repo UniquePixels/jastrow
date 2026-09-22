@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00208",
-	"slug": "מגר-2",
-	"headword": {
-		"text": "מָגֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָגֵר",
+	"headwords": [
+		{
+			"text": "מָגֵר"
+		},
 		{
 			"text": "מָגֵרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "a"

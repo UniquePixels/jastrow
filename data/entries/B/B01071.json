@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01071",
-	"slug": "בפה",
-	"headword": {
-		"text": "בפה"
-	},
+	"sefariaHeadword": "בפה",
+	"headwords": [
+		{
+			"text": "בפה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 183,
 		"column": "a"

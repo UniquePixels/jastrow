@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00316",
-	"slug": "גודע",
-	"headword": {
-		"text": "גּוּדַּע"
-	},
+	"sefariaHeadword": "גּוּדַּע",
+	"headwords": [
+		{
+			"text": "גּוּדַּע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 218,
 		"column": "b"

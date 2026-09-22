@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00404",
-	"slug": "זיקא-1",
-	"headword": {
-		"text": "זִיקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זִיקָא I",
+	"headwords": [
+		{
+			"text": "זִיקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 396,
 		"column": "a"

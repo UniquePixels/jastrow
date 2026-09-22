@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00287",
-	"slug": "חוזי",
-	"headword": {
-		"text": "חוֹזִי"
-	},
+	"sefariaHeadword": "חוֹזִי",
+	"headwords": [
+		{
+			"text": "חוֹזִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

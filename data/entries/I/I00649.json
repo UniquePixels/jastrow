@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00649",
-	"slug": "טפיח-2",
-	"headword": {
-		"text": "טְפִיחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "טְפִיחַ II",
+	"headwords": [
+		{
+			"text": "טְפִיחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 547,
 		"column": "a"

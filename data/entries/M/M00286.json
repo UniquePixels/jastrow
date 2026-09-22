@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00286",
-	"slug": "מדיח",
-	"headword": {
-		"text": "מדיח"
-	},
+	"sefariaHeadword": "מדיח",
+	"headwords": [
+		{
+			"text": "מדיח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

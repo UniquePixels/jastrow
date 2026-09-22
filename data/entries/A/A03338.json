@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03338",
-	"slug": "אשפורי",
-	"headword": {
-		"text": "אַשְׁפּוֹרֵי"
-	},
+	"sefariaHeadword": "אַשְׁפּוֹרֵי",
+	"headwords": [
+		{
+			"text": "אַשְׁפּוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 129,
 		"column": "b"

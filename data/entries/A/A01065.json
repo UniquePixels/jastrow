@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01065",
-	"slug": "א״ט",
-	"headword": {
-		"text": "א״ט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "א\"ט",
+	"headwords": [
+		{
+			"text": "א״ט"
+		},
 		{
 			"text": "אטב״ח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 42,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00015",
-	"slug": "מאור",
-	"headword": {
-		"text": "מָאוֹר"
-	},
+	"sefariaHeadword": "מָאוֹר",
+	"headwords": [
+		{
+			"text": "מָאוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "b"

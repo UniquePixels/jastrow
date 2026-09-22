@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00161",
-	"slug": "אבלו",
-	"headword": {
-		"text": "אֶבְלוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶבְלוּ",
+	"headwords": [
+		{
+			"text": "אֶבְלוּ"
+		},
 		{
 			"text": "אֲבֵלוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 7,
 		"column": "a"

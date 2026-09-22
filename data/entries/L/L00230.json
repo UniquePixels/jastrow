@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00230",
-	"slug": "לוזא",
-	"headword": {
-		"text": "לוּזָא"
-	},
+	"sefariaHeadword": "לוּזָא",
+	"headwords": [
+		{
+			"text": "לוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 696,
 		"column": "a"

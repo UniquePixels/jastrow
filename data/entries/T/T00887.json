@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00887",
-	"slug": "רעות-2",
-	"headword": {
-		"text": "רֵעוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֵעוּת",
+	"headwords": [
+		{
+			"text": "רֵעוּת"
+		},
 		{
 			"text": "רֵעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1486,
 		"column": "b"

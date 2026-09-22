@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01050",
-	"slug": "אחרון",
-	"headword": {
-		"text": "אַחֲרוֹן"
-	},
+	"sefariaHeadword": "אַחֲרוֹן",
+	"headwords": [
+		{
+			"text": "אַחֲרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 41,
 		"column": "a"

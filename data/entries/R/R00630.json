@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00630",
-	"slug": "צניפא",
-	"headword": {
-		"text": "צְנִיפָא"
-	},
+	"sefariaHeadword": "צְנִיפָא",
+	"headwords": [
+		{
+			"text": "צְנִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1292,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00669",
-	"slug": "אולורין",
-	"headword": {
-		"text": "אולורין"
-	},
+	"sefariaHeadword": "אולורין",
+	"headwords": [
+		{
+			"text": "אולורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 26,
 		"column": "a"

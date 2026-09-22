@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01945",
-	"slug": "פרע-3",
-	"headword": {
-		"text": "פְּרַע",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּרַע II",
+	"headwords": [
+		{
+			"text": "פְּרַע",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1236,
 		"column": "a"

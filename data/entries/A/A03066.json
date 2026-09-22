@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03066",
-	"slug": "ארטבון",
-	"headword": {
-		"text": "ארטבון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ארטבון",
+	"headwords": [
+		{
+			"text": "ארטבון"
+		},
 		{
 			"text": "ארטבין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 118,
 		"column": "a"

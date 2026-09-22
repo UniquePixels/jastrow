@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02001",
-	"slug": "שרעפים",
-	"headword": {
-		"text": "שַׂרְעַפִּים"
-	},
+	"sefariaHeadword": "שַׂרְעַפִּים",
+	"headwords": [
+		{
+			"text": "שַׂרְעַפִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1632,
 		"column": "b"

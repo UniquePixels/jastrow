@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00469",
-	"slug": "גוץ-1",
-	"headword": {
-		"text": "גּוּץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּץ I",
+	"headwords": [
+		{
+			"text": "גּוּץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 226,
 		"column": "a"

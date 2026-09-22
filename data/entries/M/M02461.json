@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M02461",
-	"slug": "מקרין-1",
-	"headword": {
-		"text": "מַקְרִין",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*מַקְרִין I",
+	"headwords": [
+		{
+			"text": "מַקְרִין",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 833,
 		"column": "a"

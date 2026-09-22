@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01995",
-	"slug": "פרקוניס",
-	"headword": {
-		"text": "פרקוניס"
-	},
+	"sefariaHeadword": "פרקוניס",
+	"headwords": [
+		{
+			"text": "פרקוניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1240,
 		"column": "b"

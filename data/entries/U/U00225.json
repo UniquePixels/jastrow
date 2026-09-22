@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00225",
-	"slug": "שגייתא",
-	"headword": {
-		"text": "שִׁגְיְיתָא"
-	},
+	"sefariaHeadword": "שִׁגְיְיתָא",
+	"headwords": [
+		{
+			"text": "שִׁגְיְיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1522,
 		"column": "a"

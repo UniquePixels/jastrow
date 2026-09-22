@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00734",
-	"slug": "פינקא",
-	"headword": {
-		"text": "פִּינְקָא"
-	},
+	"sefariaHeadword": "פִּינְקָא",
+	"headwords": [
+		{
+			"text": "פִּינְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1165,
 		"column": "b"

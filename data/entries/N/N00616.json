@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00616",
-	"slug": "ניגון",
-	"headword": {
-		"text": "נִיגּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיגּוּן",
+	"headwords": [
 		{
-			"text": "נִגּ׳"
+			"text": "נִיגּוּן"
+		},
+		{
+			"text": "נִגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 902,
 		"column": "b"

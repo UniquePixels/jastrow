@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00151",
-	"slug": "מגיד",
-	"headword": {
-		"text": "מַגִּיד"
-	},
+	"sefariaHeadword": "מַגִּיד",
+	"headwords": [
+		{
+			"text": "מַגִּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 727,
 		"column": "b"

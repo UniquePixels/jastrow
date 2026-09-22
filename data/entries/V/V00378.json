@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00378",
-	"slug": "תחמודא",
-	"headword": {
-		"text": "תַּחְמוּדָא"
-	},
+	"sefariaHeadword": "תַּחְמוּדָא",
+	"headwords": [
+		{
+			"text": "תַּחְמוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

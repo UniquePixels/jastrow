@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00056",
-	"slug": "אבוב",
-	"headword": {
-		"text": "אַבּוּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבּוּב",
+	"headwords": [
+		{
+			"text": "אַבּוּב"
+		},
 		{
 			"text": "אַבּוּבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

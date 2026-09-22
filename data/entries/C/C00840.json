@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00840",
-	"slug": "גיררתו",
-	"headword": {
-		"text": "גיררתו"
-	},
+	"sefariaHeadword": "גיררתו",
+	"headwords": [
+		{
+			"text": "גיררתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "a"

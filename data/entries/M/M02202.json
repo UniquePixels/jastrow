@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02202",
-	"slug": "מפזחנא",
-	"headword": {
-		"text": "מַפְזִחְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַפְזִחְנָא",
+	"headwords": [
+		{
+			"text": "מַפְזִחְנָא"
+		},
 		{
 			"text": "מַפְזִיחְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"

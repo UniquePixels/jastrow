@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00284",
-	"slug": "מדידה",
-	"headword": {
-		"text": "מְדִידָה"
-	},
+	"sefariaHeadword": "מְדִידָה",
+	"headwords": [
+		{
+			"text": "מְדִידָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 734,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00311",
-	"slug": "חויילאות",
-	"headword": {
-		"text": "חויילאות"
-	},
+	"sefariaHeadword": "חויילאות",
+	"headwords": [
+		{
+			"text": "חויילאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 432,
 		"column": "a"

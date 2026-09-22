@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00307",
-	"slug": "פופידתא",
-	"headword": {
-		"text": "פופידתא"
-	},
+	"sefariaHeadword": "פופידתא",
+	"headwords": [
+		{
+			"text": "פופידתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "a"

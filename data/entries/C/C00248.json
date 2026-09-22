@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00248",
-	"slug": "גדראניה",
-	"headword": {
-		"text": "גַּדְרָאנֵיה"
-	},
+	"sefariaHeadword": "גַּדְרָאנֵיה",
+	"headwords": [
+		{
+			"text": "גַּדְרָאנֵיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 215,
 		"column": "a"

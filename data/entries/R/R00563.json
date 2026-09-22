@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00563",
-	"slug": "צמוק",
-	"headword": {
-		"text": "צִמּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִמּוּק",
+	"headwords": [
+		{
+			"text": "צִמּוּק"
+		},
 		{
 			"text": "צִמּוּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1287,
 		"column": "a"

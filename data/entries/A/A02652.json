@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02652",
-	"slug": "אפזייני",
-	"headword": {
-		"text": "אָפְזְיָינֵי"
-	},
+	"sefariaHeadword": "אָפְזְיָינֵי",
+	"headwords": [
+		{
+			"text": "אָפְזְיָינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

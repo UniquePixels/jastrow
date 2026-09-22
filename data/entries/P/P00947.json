@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00947",
-	"slug": "ענבתא",
-	"headword": {
-		"text": "עֵנַבְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵנַבְתָּא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עֵנַבְתָּא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1091,
 		"column": "b"

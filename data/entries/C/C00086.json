@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00086",
-	"slug": "גביית",
-	"headword": {
-		"text": "גביית־"
-	},
+	"sefariaHeadword": "גביית־",
+	"headwords": [
+		{
+			"text": "גביית־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

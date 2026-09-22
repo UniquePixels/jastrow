@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00988",
-	"slug": "רציפתא",
-	"headword": {
-		"text": "רְצִיפְתָּא"
-	},
+	"sefariaHeadword": "רְצִיפְתָּא",
+	"headwords": [
+		{
+			"text": "רְצִיפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

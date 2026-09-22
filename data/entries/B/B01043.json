@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01043",
-	"slug": "בעיט",
-	"headword": {
-		"text": "בְּעֵיט"
-	},
+	"sefariaHeadword": "בְּעֵיט",
+	"headwords": [
+		{
+			"text": "בְּעֵיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00064",
-	"slug": "שבאי",
-	"headword": {
-		"text": "שַׁבַּאי"
-	},
+	"sefariaHeadword": "שַׁבַּאי",
+	"headwords": [
+		{
+			"text": "שַׁבַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "a"

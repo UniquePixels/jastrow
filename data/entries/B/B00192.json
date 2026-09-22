@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00192",
-	"slug": "בהרא",
-	"headword": {
-		"text": "בַּהֲרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּהֲרָא",
+	"headwords": [
+		{
+			"text": "בַּהֲרָא"
+		},
 		{
 			"text": "בַּהְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 143,
 		"column": "b"

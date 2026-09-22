@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01787",
-	"slug": "חרשי",
-	"headword": {
-		"text": "חַרְשֵׁי"
-	},
+	"sefariaHeadword": "חַרְשֵׁי",
+	"headwords": [
+		{
+			"text": "חַרְשֵׁי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 507,
 		"column": "b"

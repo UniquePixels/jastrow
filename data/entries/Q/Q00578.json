@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00578",
-	"slug": "פיגול-2",
-	"headword": {
-		"text": "פִּיגּוּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיגּוּל ²",
+	"headwords": [
+		{
+			"text": "פִּיגּוּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּיגּוּלָא"
 		},
 		{
-			"text": "פִּגּ׳"
+			"text": "פִּגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1159,
 		"column": "a"

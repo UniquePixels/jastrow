@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00538",
-	"slug": "אוגדוייקונטא",
-	"headword": {
-		"text": "אוֹגְדוֹיִיקוֹנְטָא"
-	},
+	"sefariaHeadword": "אוֹגְדוֹיִיקוֹנְטָא",
+	"headwords": [
+		{
+			"text": "אוֹגְדוֹיִיקוֹנְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 21,
 		"column": "b"

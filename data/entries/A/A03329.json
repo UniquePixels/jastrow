@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03329",
-	"slug": "אשמורה",
-	"headword": {
-		"text": "אַשְׁמוֹרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁמוֹרָה",
+	"headwords": [
+		{
+			"text": "אַשְׁמוֹרָה"
+		},
 		{
 			"text": "אַשְׁמוֹרֶת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 129,
 		"column": "b"

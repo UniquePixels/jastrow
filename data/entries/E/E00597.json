@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00597",
-	"slug": "המון-1",
-	"headword": {
-		"text": "הָמוֹן"
-	},
+	"sefariaHeadword": "הָמוֹן",
+	"headwords": [
+		{
+			"text": "הָמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "b"

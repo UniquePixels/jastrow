@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01454",
-	"slug": "סקוטלא",
-	"headword": {
-		"text": "סְקוּטְלָא"
-	},
+	"sefariaHeadword": "סְקוּטְלָא",
+	"headwords": [
+		{
+			"text": "סְקוּטְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

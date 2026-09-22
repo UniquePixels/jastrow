@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01337",
-	"slug": "ערטיליותא",
-	"headword": {
-		"text": "עַרְטִילָּיוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְטִילָּיוּתָא",
+	"headwords": [
 		{
-			"text": "עַרְטַלְיוּ׳"
+			"text": "עַרְטִילָּיוּתָא"
+		},
+		{
+			"text": "עַרְטַלְיוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1116,
 		"column": "a"

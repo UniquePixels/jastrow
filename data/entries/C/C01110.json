@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01110",
-	"slug": "גנוניתא-1",
-	"headword": {
-		"text": "גַּנּוּנִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּנּוּנִיתָא",
+	"headwords": [
 		{
-			"text": "גִּינּוּ׳"
+			"text": "גַּנּוּנִיתָא"
+		},
+		{
+			"text": "גִּינּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 258,
 		"column": "a"

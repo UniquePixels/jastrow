@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00206",
-	"slug": "צומת-1",
-	"headword": {
-		"text": "צומת"
-	},
+	"sefariaHeadword": "צומת",
+	"headwords": [
+		{
+			"text": "צומת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1268,
 		"column": "a"

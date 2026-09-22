@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00754",
-	"slug": "עכשיו",
-	"headword": {
-		"text": "עַכְשָׁיו"
-	},
+	"sefariaHeadword": "עַכְשָׁיו",
+	"headwords": [
+		{
+			"text": "עַכְשָׁיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

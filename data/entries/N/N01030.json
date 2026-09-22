@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01030",
-	"slug": "נפחא-2",
-	"headword": {
-		"text": "נִפְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִפְחָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִפְחָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 923,
 		"column": "a"

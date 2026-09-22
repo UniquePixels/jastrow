@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00253",
-	"slug": "יותן",
-	"headword": {
-		"text": "יוּתָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוּתָּן",
+	"headwords": [
 		{
-			"text": "כִּי יוּתָּן"
+			"text": "יוּתָּן"
+		},
+		{
+			"text": "כִּי י׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 572,
 		"column": "a"

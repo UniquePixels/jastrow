@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00171",
-	"slug": "מגיר-2",
-	"headword": {
-		"text": "מָגֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָגֵיר",
+	"headwords": [
+		{
+			"text": "מָגֵיר"
+		},
 		{
 			"text": "מָגֵירָא"
 		},
@@ -15,7 +16,8 @@
 			"text": "מָגֵרָא"
 		},
 		{
-			"text": "מָגוֹ׳"
+			"text": "מָגוֹ׳",
+			"partial": true
 		}
 	],
 	"page": {

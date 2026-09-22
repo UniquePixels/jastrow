@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00322",
-	"slug": "טיוסין",
-	"headword": {
-		"text": "טִיוְסִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִיוְסִין",
+	"headwords": [
+		{
+			"text": "טִיוְסִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

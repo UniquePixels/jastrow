@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00873",
-	"slug": "שיחלייא",
-	"headword": {
-		"text": "שִׁיחְלַיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיחְלַיָּיא",
+	"headwords": [
+		{
+			"text": "שִׁיחְלַיָּיא"
+		},
 		{
 			"text": "שִׁיחְלַיִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיחְלַיִם"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1560,
 		"column": "a"

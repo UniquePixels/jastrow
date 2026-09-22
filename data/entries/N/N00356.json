@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00356",
-	"slug": "נויה",
-	"headword": {
-		"text": "נְוָיָה"
-	},
+	"sefariaHeadword": "נְוָיָה",
+	"headwords": [
+		{
+			"text": "נְוָיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "a"

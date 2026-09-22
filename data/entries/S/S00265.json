@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00265",
-	"slug": "קווצות",
-	"headword": {
-		"text": "קְווּצּוֹת"
-	},
+	"sefariaHeadword": "קְווּצּוֹת",
+	"headwords": [
+		{
+			"text": "קְווּצּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "a"

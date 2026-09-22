@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00118",
-	"slug": "אביונה-1",
-	"headword": {
-		"text": "אֲבִיּוֹנָה"
-	},
+	"sefariaHeadword": "אֲבִיּוֹנָה",
+	"headwords": [
+		{
+			"text": "אֲבִיּוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "b"

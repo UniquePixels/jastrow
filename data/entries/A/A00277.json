@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00277",
-	"slug": "אגור",
-	"headword": {
-		"text": "אֵגוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵגוֹר",
+	"headwords": [
+		{
+			"text": "אֵגוֹר"
+		},
 		{
 			"text": "אֵיגוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 12,
 		"column": "a"

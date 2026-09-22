@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00406",
-	"slug": "שויתיתאה",
-	"headword": {
-		"text": "שויתיתאה"
-	},
+	"sefariaHeadword": "שויתיתאה",
+	"headwords": [
+		{
+			"text": "שויתיתאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

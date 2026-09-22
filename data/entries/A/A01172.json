@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01172",
-	"slug": "אידרון",
-	"headword": {
-		"text": "אִידְּרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִידְּרוֹן",
+	"headwords": [
+		{
+			"text": "אִידְּרוֹן"
+		},
 		{
 			"text": "אִידְּרוֹנָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אִנְדְּרוֹנָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 45,
 		"column": "b"

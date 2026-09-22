@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01637",
-	"slug": "פרוונקא",
-	"headword": {
-		"text": "פַּרְוַונְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְוַונְקָא",
+	"headwords": [
+		{
+			"text": "פַּרְוַונְקָא"
+		},
 		{
 			"text": "פַּרְוַנְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "b"

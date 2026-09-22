@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00670",
-	"slug": "צפדונא",
-	"headword": {
-		"text": "צִפְדּוֹנָא"
-	},
+	"sefariaHeadword": "צִפְדּוֹנָא",
+	"headwords": [
+		{
+			"text": "צִפְדּוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1295,
 		"column": "b"

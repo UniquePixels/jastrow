@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00144",
-	"slug": "דהבונא",
-	"headword": {
-		"text": "דַּהֲבוֹנָא"
-	},
+	"sefariaHeadword": "דַּהֲבוֹנָא",
+	"headwords": [
+		{
+			"text": "דַּהֲבוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

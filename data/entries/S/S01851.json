@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01851",
-	"slug": "קצרות",
-	"headword": {
-		"text": "קַצְרוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַצְרוּת",
+	"headwords": [
+		{
+			"text": "קַצְרוּת"
+		},
 		{
 			"text": "קַצְרִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1409,
 		"column": "a"

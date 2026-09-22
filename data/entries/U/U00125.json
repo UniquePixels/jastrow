@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00125",
-	"slug": "שביסא",
-	"headword": {
-		"text": "שְׁבִיסָא"
-	},
+	"sefariaHeadword": "שְׁבִיסָא",
+	"headwords": [
+		{
+			"text": "שְׁבִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

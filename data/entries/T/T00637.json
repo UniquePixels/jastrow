@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00637",
-	"slug": "ריכוך",
-	"headword": {
-		"text": "רִיכּוּךְ"
-	},
+	"sefariaHeadword": "רִיכּוּךְ",
+	"headwords": [
+		{
+			"text": "רִיכּוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1474,
 		"column": "b"

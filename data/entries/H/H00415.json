@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00415",
-	"slug": "חוסקי",
-	"headword": {
-		"text": "חוּסְקִי"
-	},
+	"sefariaHeadword": "חוּסְקִי",
+	"headwords": [
+		{
+			"text": "חוּסְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

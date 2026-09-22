@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00301",
-	"slug": "דוס",
-	"headword": {
-		"text": "דּוּס"
-	},
+	"sefariaHeadword": "דּוּס",
+	"headwords": [
+		{
+			"text": "דּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

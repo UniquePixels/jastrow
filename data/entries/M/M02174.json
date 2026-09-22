@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02174",
-	"slug": "מערובה",
-	"headword": {
-		"text": "מערובה"
-	},
+	"sefariaHeadword": "מערובה",
+	"headwords": [
+		{
+			"text": "מערובה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 819,
 		"column": "a"

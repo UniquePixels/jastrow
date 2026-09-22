@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02215",
-	"slug": "קשא-3",
-	"headword": {
-		"text": "קְשָׁא"
-	},
+	"sefariaHeadword": "קְשָׁא",
+	"headwords": [
+		{
+			"text": "קְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1428,
 		"column": "b"

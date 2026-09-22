@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00562",
-	"slug": "ביזא-3",
-	"headword": {
-		"text": "בִּיזָּא",
-		"homograph": 3
-	},
+	"sefariaHeadword": "בִּיזָּא III",
+	"headwords": [
+		{
+			"text": "בִּיזָּא",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 159,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01163",
-	"slug": "דתבריא",
-	"headword": {
-		"text": "דְּתָבְרַיָּא"
-	},
+	"sefariaHeadword": "דְּתָבְרַיָּא",
+	"headwords": [
+		{
+			"text": "דְּתָבְרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

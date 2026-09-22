@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00377",
-	"slug": "כורח",
-	"headword": {
-		"text": "כּוֹרַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹרַח",
+	"headwords": [
+		{
+			"text": "כּוֹרַח"
+		},
 		{
 			"text": "כּוֹרְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 625,
 		"column": "b"

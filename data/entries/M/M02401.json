@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02401",
-	"slug": "מקורא-2",
-	"headword": {
-		"text": "מְקוֹרָא"
-	},
+	"sefariaHeadword": "מְקוֹרָא",
+	"headwords": [
+		{
+			"text": "מְקוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

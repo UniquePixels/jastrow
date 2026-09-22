@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01353",
-	"slug": "שלמא",
-	"headword": {
-		"text": "שַׁלָּמָא"
-	},
+	"sefariaHeadword": "שַׁלָּמָא",
+	"headwords": [
+		{
+			"text": "שַׁלָּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1587,
 		"column": "a"

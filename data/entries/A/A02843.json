@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02843",
-	"slug": "אפשלתה",
-	"headword": {
-		"text": "אפשלתה"
-	},
+	"sefariaHeadword": "אפשלתה",
+	"headwords": [
+		{
+			"text": "אפשלתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 109,
 		"column": "b"

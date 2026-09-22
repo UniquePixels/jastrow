@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00389",
-	"slug": "חומצן",
-	"headword": {
-		"text": "חוּמְצָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּמְצָן",
+	"headwords": [
+		{
+			"text": "חוּמְצָן"
+		},
 		{
 			"text": "חוּמְצָנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 435,
 		"column": "b"

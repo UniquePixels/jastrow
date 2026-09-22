@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00380",
-	"slug": "צימע",
-	"headword": {
-		"text": "צִימֵּעַ"
-	},
+	"sefariaHeadword": "צִימֵּעַ",
+	"headwords": [
+		{
+			"text": "צִימֵּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "b"

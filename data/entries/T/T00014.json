@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00014",
-	"slug": "ראיג",
-	"headword": {
-		"text": "רָאֵיג"
-	},
+	"sefariaHeadword": "רָאֵיג",
+	"headwords": [
+		{
+			"text": "רָאֵיג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1436,
 		"column": "a"

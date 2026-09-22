@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00909",
-	"slug": "טרשא",
-	"headword": {
-		"text": "טַרְשָׁא"
-	},
+	"sefariaHeadword": "טַרְשָׁא",
+	"headwords": [
+		{
+			"text": "טַרְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "b"

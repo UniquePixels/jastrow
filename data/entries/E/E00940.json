@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00940",
-	"slug": "השתא",
-	"headword": {
-		"text": "הַשְׁתָּא"
-	},
+	"sefariaHeadword": "הַשְׁתָּא",
+	"headwords": [
+		{
+			"text": "הַשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 370,
 		"column": "b"

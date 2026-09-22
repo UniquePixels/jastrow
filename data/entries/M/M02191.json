@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02191",
-	"slug": "מפבשת",
-	"headword": {
-		"text": "מְפִבשֶׁת"
-	},
+	"sefariaHeadword": "מְפִבשֶׁת",
+	"headwords": [
+		{
+			"text": "מְפִבשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "a"

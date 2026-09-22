@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00683",
-	"slug": "לקי-1",
-	"headword": {
-		"text": "לקי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לקי",
+	"headwords": [
+		{
+			"text": "לקי"
+		},
 		{
 			"text": "לָקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 718,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00033",
-	"slug": "עבורא-1",
-	"headword": {
-		"text": "עֲבוֹרָא"
-	},
+	"sefariaHeadword": "עֲבוֹרָא",
+	"headwords": [
+		{
+			"text": "עֲבוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

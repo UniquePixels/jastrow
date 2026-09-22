@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00975",
-	"slug": "אזלויא",
-	"headword": {
-		"text": "אַזְלוֹיָא"
-	},
+	"sefariaHeadword": "אַזְלוֹיָא",
+	"headwords": [
+		{
+			"text": "אַזְלוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

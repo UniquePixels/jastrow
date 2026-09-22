@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00350",
-	"slug": "אגרוף",
-	"headword": {
-		"text": "אֶגְרוֹף"
-	},
+	"sefariaHeadword": "אֶגְרוֹף",
+	"headwords": [
+		{
+			"text": "אֶגְרוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "b"

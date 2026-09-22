@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00512",
-	"slug": "סטרמוסין",
-	"headword": {
-		"text": "סטרמוסין"
-	},
+	"sefariaHeadword": "סטרמוסין",
+	"headwords": [
+		{
+			"text": "סטרמוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 973,
 		"column": "b"

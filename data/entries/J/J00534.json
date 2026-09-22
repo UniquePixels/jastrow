@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00534",
-	"slug": "יציף",
-	"headword": {
-		"text": "יְצֵיף"
-	},
+	"sefariaHeadword": "יְצֵיף",
+	"headwords": [
+		{
+			"text": "יְצֵיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "a"

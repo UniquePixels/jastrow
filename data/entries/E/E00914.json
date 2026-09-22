@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00914",
-	"slug": "השגה",
-	"headword": {
-		"text": "הַשָּׂגָה"
-	},
+	"sefariaHeadword": "הַשָּׂגָה",
+	"headwords": [
+		{
+			"text": "הַשָּׂגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00569",
-	"slug": "אודנא-1",
-	"headword": {
-		"text": "אוּדְנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אוּדְנָא II",
+	"headwords": [
+		{
+			"text": "אוּדְנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 22,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00024",
-	"slug": "נאנאי",
-	"headword": {
-		"text": "נָאנָאי"
-	},
+	"sefariaHeadword": "נָאנָאי",
+	"headwords": [
+		{
+			"text": "נָאנָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 866,
 		"column": "a"

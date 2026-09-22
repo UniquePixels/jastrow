@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00781",
-	"slug": "דכמא",
-	"headword": {
-		"text": "דִּכְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכְמָא",
+	"headwords": [
+		{
+			"text": "דִּכְמָא"
+		},
 		{
 			"text": "דִּכְמָה"
 		},
 		{
-			"text": "דִּיכְ׳"
+			"text": "דִּיכְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 307,
 		"column": "b"

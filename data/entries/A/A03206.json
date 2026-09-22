@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03206",
-	"slug": "ארנקפאן",
-	"headword": {
-		"text": "ארנקפאן"
-	},
+	"sefariaHeadword": "ארנקפאן",
+	"headwords": [
+		{
+			"text": "ארנקפאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00022",
-	"slug": "לאכסא",
-	"headword": {
-		"text": "לאכסא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לאכסא",
+	"headwords": [
+		{
+			"text": "לאכסא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

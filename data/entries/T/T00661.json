@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00661",
-	"slug": "ריסיקוסין",
-	"headword": {
-		"text": "ריסיקוסין"
-	},
+	"sefariaHeadword": "ריסיקוסין",
+	"headwords": [
+		{
+			"text": "ריסיקוסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "b"

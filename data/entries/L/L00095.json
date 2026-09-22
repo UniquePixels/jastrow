@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00095",
-	"slug": "לבן-2",
-	"headword": {
-		"text": "לָבַן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "לָבַן II",
+	"headwords": [
+		{
+			"text": "לָבַן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 690,
 		"column": "a"

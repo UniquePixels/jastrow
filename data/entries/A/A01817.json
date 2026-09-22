@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01817",
-	"slug": "אלון-2",
-	"headword": {
-		"text": "אַלּוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַלֹּון II",
+	"headwords": [
+		{
+			"text": "אַלּוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 68,
 		"column": "a"

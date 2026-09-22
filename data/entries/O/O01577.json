@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01577",
-	"slug": "סרחון",
-	"headword": {
-		"text": "סֵרָחוֹן"
-	},
+	"sefariaHeadword": "סֵרָחוֹן",
+	"headwords": [
+		{
+			"text": "סֵרָחוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "a"

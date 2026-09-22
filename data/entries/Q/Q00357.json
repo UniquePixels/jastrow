@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00357",
-	"slug": "פורן-1",
-	"headword": {
-		"text": "פּוֹרָן"
-	},
+	"sefariaHeadword": "פּוֹרָן",
+	"headwords": [
+		{
+			"text": "פּוֹרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "a"

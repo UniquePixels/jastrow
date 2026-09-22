@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00513",
-	"slug": "דיוטריטון",
-	"headword": {
-		"text": "דְּיוֹטְרִיטוֹן"
-	},
+	"sefariaHeadword": "דְּיוֹטְרִיטוֹן",
+	"headwords": [
+		{
+			"text": "דְּיוֹטְרִיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

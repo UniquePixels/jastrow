@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01181",
-	"slug": "סנדלכון",
-	"headword": {
-		"text": "סַנְדַּלְכוֹן"
-	},
+	"sefariaHeadword": "סַנְדַּלְכוֹן",
+	"headwords": [
+		{
+			"text": "סַנְדַּלְכוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03375",
-	"slug": "אשתור",
-	"headword": {
-		"text": "אַשְׁתּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁתּוֹר",
+	"headwords": [
+		{
+			"text": "אַשְׁתּוֹר"
+		},
 		{
 			"text": "עַשְׁתּוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 131,
 		"column": "a"

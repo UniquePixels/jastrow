@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02105",
-	"slug": "פשת",
-	"headword": {
-		"text": "פשת"
-	},
+	"sefariaHeadword": "פשת",
+	"headwords": [
+		{
+			"text": "פשת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1249,
 		"column": "b"

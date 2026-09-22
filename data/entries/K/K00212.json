@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00212",
-	"slug": "כוונא",
-	"headword": {
-		"text": "כֵּוָונָא"
-	},
+	"sefariaHeadword": "כֵּוָונָא",
+	"headwords": [
+		{
+			"text": "כֵּוָונָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

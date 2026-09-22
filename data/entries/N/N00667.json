@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00667",
-	"slug": "ניכלא",
-	"headword": {
-		"text": "נִיכְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיכְלָא",
+	"headwords": [
+		{
+			"text": "נִיכְלָא"
+		},
 		{
 			"text": "נִיכְסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִיכְסְתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 904,
 		"column": "b"

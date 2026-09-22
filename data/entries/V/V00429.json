@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00429",
-	"slug": "תיומתא",
-	"headword": {
-		"text": "תְּיוּמְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּיוּמְתָּא",
+	"headwords": [
+		{
+			"text": "תְּיוּמְתָּא"
+		},
 		{
 			"text": "תְּיוּמְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1664,
 		"column": "a"

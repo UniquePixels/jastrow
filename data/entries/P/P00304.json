@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00304",
-	"slug": "עונקא",
-	"headword": {
-		"text": "עוּנְקָא"
-	},
+	"sefariaHeadword": "עוּנְקָא",
+	"headwords": [
+		{
+			"text": "עוּנְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "a"

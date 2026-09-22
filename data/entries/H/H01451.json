@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H01451",
-	"slug": "חפיפותא-2",
-	"headword": {
-		"text": "חֲפִיפוּתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲפִיפוּתָא II",
+	"headwords": [
+		{
+			"text": "חֲפִיפוּתָא",
+			"homograph": 2
+		},
 		{
 			"text": "חֲפוּפְתָּא"
 		}

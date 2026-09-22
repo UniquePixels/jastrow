@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01887",
-	"slug": "אליתא-5",
-	"headword": {
-		"text": "אִלִּיתָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִלִּיתָא",
+	"headwords": [
+		{
+			"text": "אִלִּיתָא",
+			"reconstructed": true
+		},
 		{
 			"text": "עִלִּיתָא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 70,
 		"column": "b"

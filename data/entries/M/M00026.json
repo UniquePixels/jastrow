@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00026",
-	"slug": "מאינון",
-	"headword": {
-		"text": "מאינון"
-	},
+	"sefariaHeadword": "מאינון",
+	"headwords": [
+		{
+			"text": "מאינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

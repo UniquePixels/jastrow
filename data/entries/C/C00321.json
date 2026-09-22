@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00321",
-	"slug": "גודשא",
-	"headword": {
-		"text": "גּוּדְשָׁא"
-	},
+	"sefariaHeadword": "גּוּדְשָׁא",
+	"headwords": [
+		{
+			"text": "גּוּדְשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "a"

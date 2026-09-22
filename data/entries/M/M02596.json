@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "M02596",
-	"slug": "מרון-3",
-	"headword": {
-		"text": "מֵרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵרוֹן",
+	"headwords": [
+		{
+			"text": "מֵרוֹן"
+		},
 		{
 			"text": "מֵירוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 839,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "O00928",
-	"slug": "סכניא",
-	"headword": {
-		"text": "סִכְנַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִכְנַיָּא",
+	"headwords": [
+		{
+			"text": "סִכְנַיָּא"
+		},
 		{
 			"text": "סְכַנְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 992,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

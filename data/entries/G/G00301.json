@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00301",
-	"slug": "זיוא",
-	"headword": {
-		"text": "זִיוָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זִיוָא II",
+	"headwords": [
+		{
+			"text": "זִיוָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 392,
 		"column": "a"

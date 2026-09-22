@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01216",
-	"slug": "מינוני",
-	"headword": {
-		"text": "מֵינוּנֵי"
-	},
+	"sefariaHeadword": "מֵינוּנֵי",
+	"headwords": [
+		{
+			"text": "מֵינוּנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 776,
 		"column": "b"

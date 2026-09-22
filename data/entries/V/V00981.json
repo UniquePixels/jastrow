@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "V00981",
-	"slug": "תרי-5",
-	"headword": {
-		"text": "תְּרֵי",
-		"disambiguator": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּרֵי ³",
+	"headwords": [
+		{
+			"text": "תְּרֵי",
+			"disambiguator": 3
+		},
 		{
 			"text": "תַּרְיֵי"
 		},
@@ -22,6 +23,7 @@
 			"text": "תַּרְתֵּין"
 		}
 	],
+	"display": "{0} ³, {1}, {2}, {3}, {4}, {5}",
 	"page": {
 		"number": 1698,
 		"column": "a"

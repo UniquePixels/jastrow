@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02069",
-	"slug": "אמרלאי",
-	"headword": {
-		"text": "אמרלאי"
-	},
+	"sefariaHeadword": "אמרלאי",
+	"headwords": [
+		{
+			"text": "אמרלאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02935",
-	"slug": "אקפדה",
-	"headword": {
-		"text": "אַקְפָּדָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַקְפָּדָה",
+	"headwords": [
+		{
+			"text": "אַקְפָּדָה"
+		},
 		{
 			"text": "הַקְפָּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 113,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01462",
-	"slug": "פקוסא",
-	"headword": {
-		"text": "פִּקּוּסָא"
-	},
+	"sefariaHeadword": "פִּקּוּסָא",
+	"headwords": [
+		{
+			"text": "פִּקּוּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

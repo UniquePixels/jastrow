@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00790",
-	"slug": "נירון",
-	"headword": {
-		"text": "נִירוֹן"
-	},
+	"sefariaHeadword": "נִירוֹן",
+	"headwords": [
+		{
+			"text": "נִירוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 909,
 		"column": "b"

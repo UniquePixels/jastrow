@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00551",
-	"slug": "פטרא",
-	"headword": {
-		"text": "פִּטְרָא"
-	},
+	"sefariaHeadword": "פִּטְרָא",
+	"headwords": [
+		{
+			"text": "פִּטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "a"

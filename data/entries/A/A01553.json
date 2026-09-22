@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01553",
-	"slug": "איפכא",
-	"headword": {
-		"text": "אִיפְּכָא"
-	},
+	"sefariaHeadword": "אִיפְּכָא",
+	"headwords": [
+		{
+			"text": "אִיפְּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "b"

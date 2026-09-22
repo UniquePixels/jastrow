@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02951",
-	"slug": "ארבא-1",
-	"headword": {
-		"text": "אַרְבָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְבָּא I",
+	"headwords": [
+		{
+			"text": "אַרְבָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 113,
 		"column": "b"

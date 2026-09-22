@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02000",
-	"slug": "קרטילא",
-	"headword": {
-		"text": "קַרְטִילָּא"
-	},
+	"sefariaHeadword": "קַרְטִילָּא",
+	"headwords": [
+		{
+			"text": "קַרְטִילָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01021",
-	"slug": "תרנגול-1",
-	"headword": {
-		"text": "תַּרְנְגוֹל"
-	},
+	"sefariaHeadword": "תַּרְנְגוֹל",
+	"headwords": [
+		{
+			"text": "תַּרְנְגוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1700,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01027",
-	"slug": "חלטתא",
-	"headword": {
-		"text": "חַלְּטָתָא"
-	},
+	"sefariaHeadword": "חַלְּטָתָא",
+	"headwords": [
+		{
+			"text": "חַלְּטָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 467,
 		"column": "b"

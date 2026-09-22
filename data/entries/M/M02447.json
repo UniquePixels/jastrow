@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02447",
-	"slug": "מקקא",
-	"headword": {
-		"text": "מַקְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַקְקָא",
+	"headwords": [
+		{
+			"text": "מַקְקָא"
+		},
 		{
 			"text": "מְקִיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 832,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01972",
-	"slug": "שריי-2",
-	"headword": {
-		"text": "שַׁרְיֵי",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שַׁרְיֵי ²",
+	"headwords": [
+		{
+			"text": "שַׁרְיֵי",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1631,
 		"column": "a"

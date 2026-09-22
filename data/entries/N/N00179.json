@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00179",
-	"slug": "נגעה-1",
-	"headword": {
-		"text": "נִגְעָה"
-	},
+	"sefariaHeadword": "נִגְעָה",
+	"headwords": [
+		{
+			"text": "נִגְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 875,
 		"column": "b"

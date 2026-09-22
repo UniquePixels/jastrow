@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01191",
-	"slug": "חמיש",
-	"headword": {
-		"text": "חֲמֵישׁ"
-	},
+	"sefariaHeadword": "חֲמֵישׁ",
+	"headwords": [
+		{
+			"text": "חֲמֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

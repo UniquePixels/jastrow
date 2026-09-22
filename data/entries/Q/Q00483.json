@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00483",
-	"slug": "פחר",
-	"headword": {
-		"text": "פְּחַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּחַר",
+	"headwords": [
+		{
+			"text": "פְּחַר"
+		},
 		{
 			"text": "פַּחְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1153,
 		"column": "a"

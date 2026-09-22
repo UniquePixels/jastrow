@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00011",
-	"slug": "גאון",
-	"headword": {
-		"text": "גָּאוֹן"
-	},
+	"sefariaHeadword": "גָּאוֹן",
+	"headwords": [
+		{
+			"text": "גָּאוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00607",
-	"slug": "ניבדקוס",
-	"headword": {
-		"text": "ניבדקוס"
-	},
+	"sefariaHeadword": "ניבדקוס",
+	"headwords": [
+		{
+			"text": "ניבדקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "b"

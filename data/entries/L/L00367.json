@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00367",
-	"slug": "לחמי",
-	"headword": {
-		"text": "לַחְמִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַחְמִי",
+	"headwords": [
+		{
+			"text": "לַחְמִי"
+		},
 		{
 			"text": "לַחְמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 704,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00435",
-	"slug": "אדני-3",
-	"headword": {
-		"text": "אדני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אדני",
+	"headwords": [
+		{
+			"text": "אדני"
+		},
 		{
 			"text": "אדאני"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 17,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01333",
-	"slug": "שליקה",
-	"headword": {
-		"text": "שְׁלִיקָה"
-	},
+	"sefariaHeadword": "שְׁלִיקָה",
+	"headwords": [
+		{
+			"text": "שְׁלִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1584,
 		"column": "a"

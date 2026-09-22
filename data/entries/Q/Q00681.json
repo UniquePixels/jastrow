@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00681",
-	"slug": "פילוניקיא",
-	"headword": {
-		"text": "פִּילוֹנִיקְיָא"
-	},
+	"sefariaHeadword": "פִּילוֹנִיקְיָא",
+	"headwords": [
+		{
+			"text": "פִּילוֹנִיקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "a"

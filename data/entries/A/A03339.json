@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03339",
-	"slug": "אשפלה",
-	"headword": {
-		"text": "אַשְׁפְּלָה"
-	},
+	"sefariaHeadword": "אַשְׁפְּלָה",
+	"headwords": [
+		{
+			"text": "אַשְׁפְּלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 130,
 		"column": "a"

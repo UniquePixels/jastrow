@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01668",
-	"slug": "ממכתא",
-	"headword": {
-		"text": "ממכתא"
-	},
+	"sefariaHeadword": "ממכתא",
+	"headwords": [
+		{
+			"text": "ממכתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 795,
 		"column": "a"

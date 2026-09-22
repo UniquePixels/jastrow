@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01055",
-	"slug": "דרום",
-	"headword": {
-		"text": "דָּרוֹם"
-	},
+	"sefariaHeadword": "דָּרוֹם",
+	"headwords": [
+		{
+			"text": "דָּרוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "b"

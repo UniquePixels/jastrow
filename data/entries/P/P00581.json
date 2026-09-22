@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00581",
-	"slug": "עיליתא-1",
-	"headword": {
-		"text": "עִילִיתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עִילִיתָא I",
+	"headwords": [
+		{
+			"text": "עִילִיתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1070,
 		"column": "b"

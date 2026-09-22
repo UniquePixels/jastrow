@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01624",
-	"slug": "פרודא",
-	"headword": {
-		"text": "פֵּרוּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּרוּדָא",
+	"headwords": [
+		{
+			"text": "פֵּרוּדָא"
+		},
 		{
 			"text": "פֵּרוּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "b"

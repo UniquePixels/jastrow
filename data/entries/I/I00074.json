@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00074",
-	"slug": "טבלר",
-	"headword": {
-		"text": "טַבְלָר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַבְלָר",
+	"headwords": [
+		{
+			"text": "טַבְלָר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 518,
 		"column": "b"

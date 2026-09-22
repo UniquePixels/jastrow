@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02185",
-	"slug": "פתלן",
-	"headword": {
-		"text": "פַּתְלָן"
-	},
+	"sefariaHeadword": "פַּתְלָן",
+	"headwords": [
+		{
+			"text": "פַּתְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

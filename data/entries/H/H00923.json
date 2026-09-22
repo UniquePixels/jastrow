@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00923",
-	"slug": "חכינאי",
-	"headword": {
-		"text": "חֲכִינַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲכִינַאי",
+	"headwords": [
+		{
+			"text": "חֲכִינַאי"
+		},
 		{
 			"text": "חֲכִינַיי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 461,
 		"column": "b"

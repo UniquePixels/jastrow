@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02253",
-	"slug": "מפרש",
-	"headword": {
-		"text": "מְפָרֵשׁ"
-	},
+	"sefariaHeadword": "מְפָרֵשׁ",
+	"headwords": [
+		{
+			"text": "מְפָרֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 822,
 		"column": "a"

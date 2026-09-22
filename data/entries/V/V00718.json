@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00718",
-	"slug": "תנאה-2",
-	"headword": {
-		"text": "תְּנָאָה"
-	},
+	"sefariaHeadword": "תְּנָאָה",
+	"headwords": [
+		{
+			"text": "תְּנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1679,
 		"column": "b"

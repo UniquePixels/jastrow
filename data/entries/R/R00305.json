@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00305",
-	"slug": "ציד-3",
-	"headword": {
-		"text": "צֵיד"
-	},
+	"sefariaHeadword": "צֵיד",
+	"headwords": [
+		{
+			"text": "צֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "b"

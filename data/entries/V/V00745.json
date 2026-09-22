@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "V00745",
-	"slug": "תניין",
-	"headword": {
-		"text": "תִּנְיָין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּנְיָין",
+	"headwords": [
+		{
+			"text": "תִּנְיָין"
+		},
 		{
 			"text": "תִּנְיָינָא"
 		},
 		{
-			"text": "תִּנְיָ׳"
+			"text": "תִּנְיָ׳",
+			"partial": true
 		},
 		{
-			"text": "תִּינְ׳"
+			"text": "תִּינְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1682,
 		"column": "a"

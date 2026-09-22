@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00675",
-	"slug": "לקח-2",
-	"headword": {
-		"text": "לְקַח",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לְקַח",
+	"headwords": [
+		{
+			"text": "לְקַח",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 717,
 		"column": "b"

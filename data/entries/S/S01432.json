@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01432",
-	"slug": "קלתה",
-	"headword": {
-		"text": "קַלָּתָה"
-	},
+	"sefariaHeadword": "קַלָּתָה",
+	"headwords": [
+		{
+			"text": "קַלָּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "b"

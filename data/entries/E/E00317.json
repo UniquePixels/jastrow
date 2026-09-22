@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00317",
-	"slug": "הטייה",
-	"headword": {
-		"text": "הַטָּיָיה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַטָּיָיה",
+	"headwords": [
+		{
+			"text": "הַטָּיָיה"
+		},
 		{
 			"text": "הֲטָיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 342,
 		"column": "b"

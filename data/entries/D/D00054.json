@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00054",
-	"slug": "דבח-1",
-	"headword": {
-		"text": "דְּבַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "דְּבַח I",
+	"headwords": [
+		{
+			"text": "דְּבַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 277,
 		"column": "a"

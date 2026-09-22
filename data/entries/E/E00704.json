@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00704",
-	"slug": "הסטא",
-	"headword": {
-		"text": "הַסְטָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*הַסְטָא",
+	"headwords": [
+		{
+			"text": "הַסְטָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

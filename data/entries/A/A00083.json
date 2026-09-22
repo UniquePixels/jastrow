@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00083",
-	"slug": "אבזקת",
-	"headword": {
-		"text": "אַבְזָקַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְזָקַת",
+	"headwords": [
+		{
+			"text": "אַבְזָקַת"
+		},
 		{
 			"text": "אַבְזָקָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַבְזָקָה"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 4,
 		"column": "b"

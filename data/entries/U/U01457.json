@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01457",
-	"slug": "שמטוטין",
-	"headword": {
-		"text": "שַׁמְטוּטִין"
-	},
+	"sefariaHeadword": "שַׁמְטוּטִין",
+	"headwords": [
+		{
+			"text": "שַׁמְטוּטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1595,
 		"column": "a"

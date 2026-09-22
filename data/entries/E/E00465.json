@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00465",
-	"slug": "הינם-2",
-	"headword": {
-		"text": "הִינָּם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "הִינָּם II",
+	"headwords": [
+		{
+			"text": "הִינָּם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 348,
 		"column": "b"

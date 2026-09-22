@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00870",
-	"slug": "חירגא",
-	"headword": {
-		"text": "חִירְגָּא"
-	},
+	"sefariaHeadword": "חִירְגָּא",
+	"headwords": [
+		{
+			"text": "חִירְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00838",
-	"slug": "הרהור",
-	"headword": {
-		"text": "הִרְהוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִרְהוּר",
+	"headwords": [
 		{
-			"text": "הִירְ׳"
+			"text": "הִרְהוּר"
+		},
+		{
+			"text": "הִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 366,
 		"column": "a"

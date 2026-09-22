@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00737",
-	"slug": "תנחומא",
-	"headword": {
-		"text": "תַּנְחוּמָא"
-	},
+	"sefariaHeadword": "תַּנְחוּמָא",
+	"headwords": [
+		{
+			"text": "תַּנְחוּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1681,
 		"column": "a"

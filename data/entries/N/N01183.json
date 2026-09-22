@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01183",
-	"slug": "נקוף",
-	"headword": {
-		"text": "נִקּוּף"
-	},
+	"sefariaHeadword": "נִקּוּף",
+	"headwords": [
+		{
+			"text": "נִקּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

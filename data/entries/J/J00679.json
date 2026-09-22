@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00679",
-	"slug": "ישבי",
-	"headword": {
-		"text": "יִשְׁבִּי"
-	},
+	"sefariaHeadword": "יִשְׁבִּי",
+	"headwords": [
+		{
+			"text": "יִשְׁבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 599,
 		"column": "b"

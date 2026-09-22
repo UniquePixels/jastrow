@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00899",
-	"slug": "דמין-2",
-	"headword": {
-		"text": "דָּמִין",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "דָּמִין ²",
+	"headwords": [
+		{
+			"text": "דָּמִין",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 313,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00396",
-	"slug": "בושכי",
-	"headword": {
-		"text": "בּוּשְׁכִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בּוּשְׁכִּי",
+	"headwords": [
+		{
+			"text": "בּוּשְׁכִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 151,
 		"column": "b"

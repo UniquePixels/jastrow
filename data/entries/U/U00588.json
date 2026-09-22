@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00588",
-	"slug": "שותפותא",
-	"headword": {
-		"text": "שׁוּתָּפוּתָא"
-	},
+	"sefariaHeadword": "שׁוּתָּפוּתָא",
+	"headwords": [
+		{
+			"text": "שׁוּתָּפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "b"

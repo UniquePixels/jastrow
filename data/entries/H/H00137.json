@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00137",
-	"slug": "חגב",
-	"headword": {
-		"text": "חָגָב"
-	},
+	"sefariaHeadword": "חָגָב",
+	"headwords": [
+		{
+			"text": "חָגָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 423,
 		"column": "b"

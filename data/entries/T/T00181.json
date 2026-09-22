@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00181",
-	"slug": "רגזנות",
-	"headword": {
-		"text": "רַגְזָנוּת"
-	},
+	"sefariaHeadword": "רַגְזָנוּת",
+	"headwords": [
+		{
+			"text": "רַגְזָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "b"

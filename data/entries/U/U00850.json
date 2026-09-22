@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00850",
-	"slug": "שיזפין",
-	"headword": {
-		"text": "שִׁיזְפִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיזְפִין",
+	"headwords": [
 		{
-			"text": "שִׁזְ׳"
+			"text": "שִׁיזְפִין"
+		},
+		{
+			"text": "שִׁזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1559,
 		"column": "a"

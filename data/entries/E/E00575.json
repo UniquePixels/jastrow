@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00575",
-	"slug": "הלם",
-	"headword": {
-		"text": "הָלַם"
-	},
+	"sefariaHeadword": "הָלַם",
+	"headwords": [
+		{
+			"text": "הָלַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 354,
 		"column": "a"

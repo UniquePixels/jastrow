@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01160",
-	"slug": "חמום-2",
-	"headword": {
-		"text": "חַמּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַמּוּם",
+	"headwords": [
+		{
+			"text": "חַמּוּם"
+		},
 		{
 			"text": "חַמּוּמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 476,
 		"column": "a"

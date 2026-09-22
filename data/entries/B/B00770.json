@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00770",
-	"slug": "בכורא",
-	"headword": {
-		"text": "בִּכּוּרָא"
-	},
+	"sefariaHeadword": "בִּכּוּרָא",
+	"headwords": [
+		{
+			"text": "בִּכּוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "a"

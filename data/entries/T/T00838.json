@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00838",
-	"slug": "רמש-2",
-	"headword": {
-		"text": "רְמַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְמַשׁ",
+	"headwords": [
+		{
+			"text": "רְמַשׁ"
+		},
 		{
 			"text": "רַמְשָׁא"
 		},
 		{
-			"text": "רוּמְ׳"
+			"text": "רוּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1483,
 		"column": "b"

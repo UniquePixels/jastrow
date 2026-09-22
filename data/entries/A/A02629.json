@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02629",
-	"slug": "אפונדיה",
-	"headword": {
-		"text": "אפונדיה"
-	},
+	"sefariaHeadword": "אפונדיה",
+	"headwords": [
+		{
+			"text": "אפונדיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 100,
 		"column": "b"

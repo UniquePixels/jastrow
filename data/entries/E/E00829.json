@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00829",
-	"slug": "הרדופנין",
-	"headword": {
-		"text": "הַרְדּוֹפַנִּין"
-	},
+	"sefariaHeadword": "הַרְדֹּופַנִּין",
+	"headwords": [
+		{
+			"text": "הַרְדּוֹפַנִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 366,
 		"column": "a"

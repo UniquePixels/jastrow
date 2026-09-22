@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00481",
-	"slug": "חורר",
-	"headword": {
-		"text": "חוֹרָר"
-	},
+	"sefariaHeadword": "חוֹרָר",
+	"headwords": [
+		{
+			"text": "חוֹרָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 440,
 		"column": "b"

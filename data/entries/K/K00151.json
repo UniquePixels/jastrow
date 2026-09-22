@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "K00151",
-	"slug": "כהה",
-	"headword": {
-		"text": "כֵּהֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֵּהֶה",
+	"headwords": [
 		{
-			"text": "כֵּו׳"
+			"text": "כֵּהֶה"
+		},
+		{
+			"text": "כֵּו׳",
+			"partial": true
 		},
 		{
 			"text": "כֵּהָה"
 		},
 		{
-			"text": "כֵּי׳"
+			"text": "כֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 614,
 		"column": "b"

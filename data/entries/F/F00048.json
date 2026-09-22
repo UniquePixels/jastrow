@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00048",
-	"slug": "ויעוד",
-	"headword": {
-		"text": "וִיעוּד"
-	},
+	"sefariaHeadword": "וִיעוּד",
+	"headwords": [
+		{
+			"text": "וִיעוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

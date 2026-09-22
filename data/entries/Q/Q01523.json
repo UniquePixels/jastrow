@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01523",
-	"slug": "פקרס",
-	"headword": {
-		"text": "פַּקְרֵס"
-	},
+	"sefariaHeadword": "פַּקְרֵס",
+	"headwords": [
+		{
+			"text": "פַּקְרֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1212,
 		"column": "b"

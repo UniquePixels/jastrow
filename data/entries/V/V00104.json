@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00104",
-	"slug": "תדונא",
-	"headword": {
-		"text": "תַּדְוָנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תַּדְוָנָא",
+	"headwords": [
+		{
+			"text": "תַּדְוָנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

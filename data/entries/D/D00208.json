@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00208",
-	"slug": "דווא",
-	"headword": {
-		"text": "דּווָֹא"
-	},
+	"sefariaHeadword": "דּווָֹא",
+	"headwords": [
+		{
+			"text": "דּווָֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00061",
-	"slug": "מארה",
-	"headword": {
-		"text": "מְאֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְאֵרָה",
+	"headwords": [
 		{
-			"text": "מְאֵי׳"
+			"text": "מְאֵרָה"
+		},
+		{
+			"text": "מְאֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 724,
 		"column": "a"

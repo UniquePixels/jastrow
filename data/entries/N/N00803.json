@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00803",
-	"slug": "ניתוח",
-	"headword": {
-		"text": "נִיתּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיתּוּחַ",
+	"headwords": [
 		{
-			"text": "נִתּ׳"
+			"text": "נִיתּוּחַ"
+		},
+		{
+			"text": "נִתּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 910,
 		"column": "a"

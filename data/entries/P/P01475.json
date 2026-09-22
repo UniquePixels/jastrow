@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01475",
-	"slug": "עשי-2",
-	"headword": {
-		"text": "עֲשֵׂי"
-	},
+	"sefariaHeadword": "עֲשֵׂי",
+	"headwords": [
+		{
+			"text": "עֲשֵׂי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1125,
 		"column": "a"

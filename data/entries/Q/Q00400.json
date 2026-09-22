@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00400",
-	"slug": "פושחא",
-	"headword": {
-		"text": "פּוּשְׁחָא"
-	},
+	"sefariaHeadword": "פּוּשְׁחָא",
+	"headwords": [
+		{
+			"text": "פּוּשְׁחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1149,
 		"column": "a"

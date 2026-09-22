@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00468",
-	"slug": "בזרא",
-	"headword": {
-		"text": "בִּזְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּזְרָא",
+	"headwords": [
+		{
+			"text": "בִּזְרָא"
+		},
 		{
 			"text": "בִּיזְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 154,
 		"column": "b"

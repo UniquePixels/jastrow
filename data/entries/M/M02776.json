@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02776",
-	"slug": "מרר-4",
-	"headword": {
-		"text": "מְרָר"
-	},
+	"sefariaHeadword": "מְרָר",
+	"headwords": [
+		{
+			"text": "מְרָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

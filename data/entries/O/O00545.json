@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00545",
-	"slug": "סיבק",
-	"headword": {
-		"text": "סִיבַק"
-	},
+	"sefariaHeadword": "סִיבַק",
+	"headwords": [
+		{
+			"text": "סִיבַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 975,
 		"column": "a"

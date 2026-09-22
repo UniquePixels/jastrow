@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00531",
-	"slug": "צלמות",
-	"headword": {
-		"text": "צַלְמָוֶת"
-	},
+	"sefariaHeadword": "צַלְמָוֶת",
+	"headwords": [
+		{
+			"text": "צַלְמָוֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1285,
 		"column": "a"

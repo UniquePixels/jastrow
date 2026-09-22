@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00309",
-	"slug": "כונס",
-	"headword": {
-		"text": "כּוֹנֵס"
-	},
+	"sefariaHeadword": "כּוֹנֵס",
+	"headwords": [
+		{
+			"text": "כּוֹנֵס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 622,
 		"column": "b"

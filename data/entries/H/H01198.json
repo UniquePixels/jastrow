@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01198",
-	"slug": "חמלא",
-	"headword": {
-		"text": "חמלא"
-	},
+	"sefariaHeadword": "חמלא",
+	"headwords": [
+		{
+			"text": "חמלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 478,
 		"column": "a"

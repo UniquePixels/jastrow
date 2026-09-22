@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00936",
-	"slug": "כסכס-1",
-	"headword": {
-		"text": "כִּסְכֵּס"
-	},
+	"sefariaHeadword": "כִּסְכֵּס",
+	"headwords": [
+		{
+			"text": "כִּסְכֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "a"

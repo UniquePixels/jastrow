@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01365",
-	"slug": "שלנא",
-	"headword": {
-		"text": "שְׁלָנָא"
-	},
+	"sefariaHeadword": "שְׁלָנָא",
+	"headwords": [
+		{
+			"text": "שְׁלָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1587,
 		"column": "a"

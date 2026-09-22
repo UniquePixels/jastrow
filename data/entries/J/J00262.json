@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00262",
-	"slug": "יזע",
-	"headword": {
-		"text": "יָזַע"
-	},
+	"sefariaHeadword": "יָזַע",
+	"headwords": [
+		{
+			"text": "יָזַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "b"

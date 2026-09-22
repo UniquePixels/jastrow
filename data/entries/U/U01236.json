@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "U01236",
-	"slug": "שלוה-2",
-	"headword": {
-		"text": "שַׁלְוָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁלְוָה ²",
+	"headwords": [
+		{
+			"text": "שַׁלְוָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "שַׁלְוִיתָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "שַׁלְוְתָא"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1578,
 		"column": "b"

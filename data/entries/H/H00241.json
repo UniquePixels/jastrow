@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00241",
-	"slug": "חובה-2",
-	"headword": {
-		"text": "חוּבָה"
-	},
+	"sefariaHeadword": "חוּבָה",
+	"headwords": [
+		{
+			"text": "חוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 429,
 		"column": "a"

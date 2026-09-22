@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02544",
-	"slug": "אסקפסטי",
-	"headword": {
-		"text": "אִסְקְפַסְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְקְפַסְטִי",
+	"headwords": [
+		{
+			"text": "אִסְקְפַסְטִי"
+		},
 		{
 			"text": "סְקִיפַּסְטִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 97,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00036",
-	"slug": "כבה",
-	"headword": {
-		"text": "כָּבָה"
-	},
+	"sefariaHeadword": "כָּבָה",
+	"headwords": [
+		{
+			"text": "כָּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 607,
 		"column": "b"

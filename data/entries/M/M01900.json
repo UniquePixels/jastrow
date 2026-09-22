@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01900",
-	"slug": "מסטורין",
-	"headword": {
-		"text": "מִסְטוּרִין"
-	},
+	"sefariaHeadword": "מִסְטוּרִין",
+	"headwords": [
+		{
+			"text": "מִסְטוּרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "a"

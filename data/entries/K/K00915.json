@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00915",
-	"slug": "כסי-1",
-	"headword": {
-		"text": "כסי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כסי",
+	"headwords": [
+		{
+			"text": "כסי"
+		},
 		{
 			"text": "כָּסָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 653,
 		"column": "a"

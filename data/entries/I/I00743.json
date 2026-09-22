@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00743",
-	"slug": "טרח-1",
-	"headword": {
-		"text": "טָרַח"
-	},
+	"sefariaHeadword": "טָרַח",
+	"headwords": [
+		{
+			"text": "טָרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "b"

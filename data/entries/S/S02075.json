@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02075",
-	"slug": "קריץ",
-	"headword": {
-		"text": "קְרִיץ"
-	},
+	"sefariaHeadword": "קְרִיץ",
+	"headwords": [
+		{
+			"text": "קְרִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00246",
-	"slug": "דוכוס",
-	"headword": {
-		"text": "דּוּכּוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּוּכּוֹס",
+	"headwords": [
+		{
+			"text": "דּוּכּוֹס"
+		},
 		{
 			"text": "דּוּכָּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 285,
 		"column": "a"

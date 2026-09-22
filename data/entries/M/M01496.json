@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01496",
-	"slug": "מלוגא",
-	"headword": {
-		"text": "מְלוֹגָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְלוֹגָא",
+	"headwords": [
+		{
+			"text": "מְלוֹגָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 787,
 		"column": "b"

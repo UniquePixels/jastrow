@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00802",
-	"slug": "פיקודא",
-	"headword": {
-		"text": "פִּיקּוּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקּוּדָא",
+	"headwords": [
 		{
-			"text": "פִּקּ׳"
+			"text": "פִּיקּוּדָא"
+		},
+		{
+			"text": "פִּקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "b"

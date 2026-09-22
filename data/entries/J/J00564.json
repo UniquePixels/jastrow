@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00564",
-	"slug": "יקומוני",
-	"headword": {
-		"text": "יקומוני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יקומוני",
+	"headwords": [
+		{
+			"text": "יקומוני"
+		},
 		{
 			"text": "יקומיניה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 591,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00619",
-	"slug": "פיטומת",
-	"headword": {
-		"text": "פִּיטּוֹמֶת"
-	},
+	"sefariaHeadword": "פִּיטּוֹמֶת",
+	"headwords": [
+		{
+			"text": "פִּיטּוֹמֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "a"

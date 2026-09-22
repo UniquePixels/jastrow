@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00135",
-	"slug": "בדידה",
-	"headword": {
-		"text": "בְּדִידָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּדִידָה",
+	"headwords": [
+		{
+			"text": "בְּדִידָה"
+		},
 		{
 			"text": "בּוֹדִידָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 140,
 		"column": "a"

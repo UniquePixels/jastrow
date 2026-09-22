@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00218",
-	"slug": "צופא",
-	"headword": {
-		"text": "צוּפָּא"
-	},
+	"sefariaHeadword": "צוּפָּא",
+	"headwords": [
+		{
+			"text": "צוּפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1269,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01514",
-	"slug": "מלוכא",
-	"headword": {
-		"text": "מָלוֹכָא"
-	},
+	"sefariaHeadword": "מָלוֹכָא",
+	"headwords": [
+		{
+			"text": "מָלוֹכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

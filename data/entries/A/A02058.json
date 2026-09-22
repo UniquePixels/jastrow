@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02058",
-	"slug": "אמצעי-1",
-	"headword": {
-		"text": "אֶמְצָעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶמְצָעִי",
+	"headwords": [
+		{
+			"text": "אֶמְצָעִי"
+		},
 		{
 			"text": "אֶמְצָעִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 78,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01378",
-	"slug": "נתיקה",
-	"headword": {
-		"text": "נְתִיקָה"
-	},
+	"sefariaHeadword": "נְתִיקָה",
+	"headwords": [
+		{
+			"text": "נְתִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "a"

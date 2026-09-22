@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01109",
-	"slug": "פלסמון",
-	"headword": {
-		"text": "פַּלְסְמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְסְמוֹן",
+	"headwords": [
+		{
+			"text": "פַּלְסְמוֹן"
+		},
 		{
 			"text": "פַּלְסְמָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

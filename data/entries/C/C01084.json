@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01084",
-	"slug": "גנבה",
-	"headword": {
-		"text": "גְּנֵבָה"
-	},
+	"sefariaHeadword": "גְּנֵבָה",
+	"headwords": [
+		{
+			"text": "גְּנֵבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 257,
 		"column": "a"

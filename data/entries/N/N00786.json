@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00786",
-	"slug": "ניר-5",
-	"headword": {
-		"text": "נִיר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיר III",
+	"headwords": [
+		{
+			"text": "נִיר",
+			"homograph": 3
+		},
 		{
 			"text": "נִירָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} III, {1} II",
 	"page": {
 		"number": 909,
 		"column": "a"

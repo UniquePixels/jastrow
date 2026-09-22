@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00148",
-	"slug": "צואה-1",
-	"headword": {
-		"text": "צַוָּאָה"
-	},
+	"sefariaHeadword": "צַוָּאָה",
+	"headwords": [
+		{
+			"text": "צַוָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "a"

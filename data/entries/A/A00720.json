@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A00720",
-	"slug": "אונא-2",
-	"headword": {
-		"text": "אונא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אונא",
+	"headwords": [
 		{
-			"text": "נקיס אונא"
+			"text": "אונא",
+			"reconstructed": true
+		},
+		{
+			"text": "נקיס א׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 28,
 		"column": "a"

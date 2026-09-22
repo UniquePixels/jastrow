@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00426",
-	"slug": "סוריאתא",
-	"headword": {
-		"text": "סוּרְיָאתָא"
-	},
+	"sefariaHeadword": "סוּרְיָאתָא",
+	"headwords": [
+		{
+			"text": "סוּרְיָאתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02046",
-	"slug": "שרשר",
-	"headword": {
-		"text": "שִׁרְשֵׁר"
-	},
+	"sefariaHeadword": "שִׁרְשֵׁר",
+	"headwords": [
+		{
+			"text": "שִׁרְשֵׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

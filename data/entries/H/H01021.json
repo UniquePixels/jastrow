@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01021",
-	"slug": "חלט-2",
-	"headword": {
-		"text": "חֲלַט"
-	},
+	"sefariaHeadword": "חֲלַט",
+	"headwords": [
+		{
+			"text": "חֲלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "b"

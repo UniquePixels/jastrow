@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00660",
-	"slug": "ירקון",
-	"headword": {
-		"text": "יֵרָקוֹן"
-	},
+	"sefariaHeadword": "יֵרָקוֹן",
+	"headwords": [
+		{
+			"text": "יֵרָקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "a"

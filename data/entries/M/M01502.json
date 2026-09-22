@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01502",
-	"slug": "מלוון",
-	"headword": {
-		"text": "מִלְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלְוָון",
+	"headwords": [
 		{
-			"text": "בֵּית מִלְוָון"
+			"text": "מִלְוָון"
+		},
+		{
+			"text": "בֵּית מ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 788,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

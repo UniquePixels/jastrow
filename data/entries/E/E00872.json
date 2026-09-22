@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00872",
-	"slug": "הרכיא",
-	"headword": {
-		"text": "הרכיא"
-	},
+	"sefariaHeadword": "הרכיא",
+	"headwords": [
+		{
+			"text": "הרכיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

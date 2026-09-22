@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01132",
-	"slug": "בקעי",
-	"headword": {
-		"text": "בקעי"
-	},
+	"sefariaHeadword": "בקעי",
+	"headwords": [
+		{
+			"text": "בקעי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 187,
 		"column": "a"

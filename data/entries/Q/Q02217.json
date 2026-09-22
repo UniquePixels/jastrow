@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02217",
-	"slug": "פתתה",
-	"headword": {
-		"text": "פתתה"
-	},
+	"sefariaHeadword": "פתתה",
+	"headwords": [
+		{
+			"text": "פתתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1256,
 		"column": "b"

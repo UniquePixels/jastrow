@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00142",
-	"slug": "לגנה",
-	"headword": {
-		"text": "לִגְנָה"
-	},
+	"sefariaHeadword": "לִגְנָה",
+	"headwords": [
+		{
+			"text": "לִגְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

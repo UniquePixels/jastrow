@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00102",
-	"slug": "רביעות",
-	"headword": {
-		"text": "רְבִיעוּת"
-	},
+	"sefariaHeadword": "רְבִיעוּת",
+	"headwords": [
+		{
+			"text": "רְבִיעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1443,
 		"column": "a"

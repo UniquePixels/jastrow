@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01900",
-	"slug": "קרדא",
-	"headword": {
-		"text": "קַרְדָּא"
-	},
+	"sefariaHeadword": "קַרְדָּא",
+	"headwords": [
+		{
+			"text": "קַרְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "a"

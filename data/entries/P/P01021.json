@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01021",
-	"slug": "ענתא-1",
-	"headword": {
-		"text": "עַנְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַנְתָא",
+	"headwords": [
 		{
-			"text": "עוּ׳"
+			"text": "עַנְתָא"
 		},
 		{
-			"text": "עִי׳"
+			"text": "עוּ׳",
+			"partial": true
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1097,
 		"column": "a"

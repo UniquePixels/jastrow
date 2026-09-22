@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00836",
-	"slug": "רמצא",
-	"headword": {
-		"text": "רִמְצָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִמְצָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִמְצָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1483,
 		"column": "b"

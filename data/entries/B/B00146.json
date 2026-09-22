@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00146",
-	"slug": "בדיקה",
-	"headword": {
-		"text": "בְּדִיקָה"
-	},
+	"sefariaHeadword": "בְּדִיקָה",
+	"headwords": [
+		{
+			"text": "בְּדִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 140,
 		"column": "b"

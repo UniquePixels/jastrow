@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00195",
-	"slug": "גדיא-2",
-	"headword": {
-		"text": "גַּדַּיָּא"
-	},
+	"sefariaHeadword": "גַּדַּיָּא",
+	"headwords": [
+		{
+			"text": "גַּדַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "b"

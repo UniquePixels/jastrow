@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02323",
-	"slug": "מציעותא",
-	"headword": {
-		"text": "מְצִיעוּתָא"
-	},
+	"sefariaHeadword": "מְצִיעוּתָא",
+	"headwords": [
+		{
+			"text": "מְצִיעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

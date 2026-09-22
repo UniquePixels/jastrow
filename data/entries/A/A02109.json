@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02109",
-	"slug": "אנגרים",
-	"headword": {
-		"text": "אנגרים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אנגרים",
+	"headwords": [
+		{
+			"text": "אנגרים"
+		},
 		{
 			"text": "אנגריס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 81,
 		"column": "a"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S01923",
-	"slug": "קרוא-1",
-	"headword": {
-		"text": "קִרְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְוָא",
+	"headwords": [
+		{
+			"text": "קִרְוָא"
+		},
 		{
 			"text": "קִרְוָוא"
 		},
 		{
 			"text": "קִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1412,
 		"column": "b"

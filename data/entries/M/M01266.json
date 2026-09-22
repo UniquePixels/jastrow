@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01266",
-	"slug": "מיפטרא",
-	"headword": {
-		"text": "מִיפַּטְרָא"
-	},
+	"sefariaHeadword": "מִיפַּטְרָא",
+	"headwords": [
+		{
+			"text": "מִיפַּטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 778,
 		"column": "a"

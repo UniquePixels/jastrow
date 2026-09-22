@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02507",
-	"slug": "מרבעה",
-	"headword": {
-		"text": "מִרְבָּעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִרְבָּעָה",
+	"headwords": [
+		{
+			"text": "מִרְבָּעָה"
+		},
 		{
 			"text": "מִרְבָּעוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "b"

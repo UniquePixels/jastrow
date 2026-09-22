@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03240",
-	"slug": "ארקין",
-	"headword": {
-		"text": "אִרְקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִרְקִין",
+	"headwords": [
+		{
+			"text": "אִרְקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

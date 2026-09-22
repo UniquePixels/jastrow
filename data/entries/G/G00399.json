@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00399",
-	"slug": "זיפלן",
-	"headword": {
-		"text": "זִיפְלָן"
-	},
+	"sefariaHeadword": "זִיפְלָן",
+	"headwords": [
+		{
+			"text": "זִיפְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

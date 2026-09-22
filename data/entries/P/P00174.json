@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00174",
-	"slug": "עובא",
-	"headword": {
-		"text": "עוּבָּא"
-	},
+	"sefariaHeadword": "עוּבָּא",
+	"headwords": [
+		{
+			"text": "עוּבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "b"

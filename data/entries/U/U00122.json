@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00122",
-	"slug": "שביל",
-	"headword": {
-		"text": "שְׁבִיל"
-	},
+	"sefariaHeadword": "שְׁבִיל",
+	"headwords": [
+		{
+			"text": "שְׁבִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1514,
 		"column": "a"

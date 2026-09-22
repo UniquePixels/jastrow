@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01219",
-	"slug": "עקרב",
-	"headword": {
-		"text": "עַקְרָב"
-	},
+	"sefariaHeadword": "עַקְרָב",
+	"headwords": [
+		{
+			"text": "עַקְרָב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"

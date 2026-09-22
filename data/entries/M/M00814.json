@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00814",
-	"slug": "מחוור",
-	"headword": {
-		"text": "מְחַוֵּור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחַוֵּור",
+	"headwords": [
+		{
+			"text": "מְחַוֵּור"
+		},
 		{
 			"text": "מְחוּוָּר"
 		},
@@ -15,6 +16,7 @@
 			"text": "מְחַוַּורְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 757,
 		"column": "b"

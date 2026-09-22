@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01302",
-	"slug": "סערה-3",
-	"headword": {
-		"text": "סְעָרָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְעָרָה II",
+	"headwords": [
+		{
+			"text": "סְעָרָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1010,
 		"column": "b"

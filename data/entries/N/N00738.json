@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00738",
-	"slug": "ניפלא-2",
-	"headword": {
-		"text": "נִיפְלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נִיפְלָא II",
+	"headwords": [
+		{
+			"text": "נִיפְלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 907,
 		"column": "b"

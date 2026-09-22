@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00581",
-	"slug": "פיגי",
-	"headword": {
-		"text": "פִּיגִי"
-	},
+	"sefariaHeadword": "פִּיגִי",
+	"headwords": [
+		{
+			"text": "פִּיגִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "a"

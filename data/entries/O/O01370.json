@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01370",
-	"slug": "ספיקטורין",
-	"headword": {
-		"text": "ספיקטורין"
-	},
+	"sefariaHeadword": "ספיקטורין",
+	"headwords": [
+		{
+			"text": "ספיקטורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00271",
-	"slug": "צחותא",
-	"headword": {
-		"text": "צָחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָחוּתָא",
+	"headwords": [
 		{
-			"text": "צָה׳"
+			"text": "צָחוּתָא"
+		},
+		{
+			"text": "צָה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1273,
 		"column": "a"

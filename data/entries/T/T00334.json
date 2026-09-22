@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00334",
-	"slug": "רווי",
-	"headword": {
-		"text": "רְוֵוי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְוֵוי",
+	"headwords": [
+		{
+			"text": "רְוֵוי"
+		},
 		{
 			"text": "רַוֵּוי"
 		},
@@ -12,6 +13,7 @@
 			"text": "רְוִויָּיה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1457,
 		"column": "b"

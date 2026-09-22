@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02345",
-	"slug": "מצעד",
-	"headword": {
-		"text": "מִצְעָד"
-	},
+	"sefariaHeadword": "מִצְעָד",
+	"headwords": [
+		{
+			"text": "מִצְעָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

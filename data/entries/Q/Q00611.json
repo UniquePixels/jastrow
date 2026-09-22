@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00611",
-	"slug": "פיח-1",
-	"headword": {
-		"text": "פִּיחַ"
-	},
+	"sefariaHeadword": "פִּיחַ",
+	"headwords": [
+		{
+			"text": "פִּיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1160,
 		"column": "b"

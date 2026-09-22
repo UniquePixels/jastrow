@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00779",
-	"slug": "עלוי-1",
-	"headword": {
-		"text": "עֲלַוֵּי"
-	},
+	"sefariaHeadword": "עֲלַוֵּי",
+	"headwords": [
+		{
+			"text": "עֲלַוֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

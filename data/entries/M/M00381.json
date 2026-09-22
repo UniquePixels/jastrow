@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00381",
-	"slug": "מהר-3",
-	"headword": {
-		"text": "מָהִר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָהִר",
+	"headwords": [
+		{
+			"text": "מָהִר"
+		},
 		{
 			"text": "מָהִיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 737,
 		"column": "b"

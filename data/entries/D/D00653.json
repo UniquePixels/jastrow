@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00653",
-	"slug": "דיסטורין",
-	"headword": {
-		"text": "דִּיסְטוֹרִין"
-	},
+	"sefariaHeadword": "דִּיסְטוֹרִין",
+	"headwords": [
+		{
+			"text": "דִּיסְטוֹרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 302,
 		"column": "b"

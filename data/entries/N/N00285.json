@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00285",
-	"slug": "נהרביל",
-	"headword": {
-		"text": "נְהַרְבֵּיל"
-	},
+	"sefariaHeadword": "נְהַרְבֵּיל",
+	"headwords": [
+		{
+			"text": "נְהַרְבֵּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

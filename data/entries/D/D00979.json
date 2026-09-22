@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00979",
-	"slug": "דצוצא",
-	"headword": {
-		"text": "דָּצוֹצָא"
-	},
+	"sefariaHeadword": "דָּצוֹצָא",
+	"headwords": [
+		{
+			"text": "דָּצוֹצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00839",
-	"slug": "בלורי",
-	"headword": {
-		"text": "בלורי"
-	},
+	"sefariaHeadword": "בלורי",
+	"headwords": [
+		{
+			"text": "בלורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

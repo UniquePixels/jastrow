@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00650",
-	"slug": "פיילי-2",
-	"headword": {
-		"text": "פְּיָילִי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּיָילִי II",
+	"headwords": [
 		{
-			"text": "בַּר פְּיָילִי"
+			"text": "פְּיָילִי",
+			"homograph": 2
+		},
+		{
+			"text": "בַּר פ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1162,
 		"column": "b"

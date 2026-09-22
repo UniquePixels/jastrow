@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00997",
-	"slug": "בסיס-2",
-	"headword": {
-		"text": "בָּסִיס"
-	},
+	"sefariaHeadword": "בָּסִיס",
+	"headwords": [
+		{
+			"text": "בָּסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

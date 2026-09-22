@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01541",
-	"slug": "סרדיוטין",
-	"headword": {
-		"text": "סרדיוטין"
-	},
+	"sefariaHeadword": "סרדיוטין",
+	"headwords": [
+		{
+			"text": "סרדיוטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1023,
 		"column": "b"

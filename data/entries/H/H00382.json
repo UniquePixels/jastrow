@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00382",
-	"slug": "חומסן",
-	"headword": {
-		"text": "חוֹמְסָן"
-	},
+	"sefariaHeadword": "חוֹמְסָן",
+	"headwords": [
+		{
+			"text": "חוֹמְסָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

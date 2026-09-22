@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00568",
-	"slug": "אודן",
-	"headword": {
-		"text": "אוֹדֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹדֶן",
+	"headwords": [
+		{
+			"text": "אוֹדֶן"
+		},
 		{
 			"text": "אוּדַן"
 		},
@@ -16,6 +17,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2}, {3} I",
 	"page": {
 		"number": 22,
 		"column": "b"

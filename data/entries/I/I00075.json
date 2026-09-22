@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00075",
-	"slug": "טבלרא",
-	"headword": {
-		"text": "טַבְלָרָא"
-	},
+	"sefariaHeadword": "טַבְלָרָא",
+	"headwords": [
+		{
+			"text": "טַבְלָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 518,
 		"column": "b"

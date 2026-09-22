@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00271",
-	"slug": "מדוני",
-	"headword": {
-		"text": "מדוני"
-	},
+	"sefariaHeadword": "מדוני",
+	"headwords": [
+		{
+			"text": "מדוני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

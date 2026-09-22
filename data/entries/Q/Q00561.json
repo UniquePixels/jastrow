@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00561",
-	"slug": "פטרוקין",
-	"headword": {
-		"text": "פטרוקין"
-	},
+	"sefariaHeadword": "פטרוקין",
+	"headwords": [
+		{
+			"text": "פטרוקין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1158,
 		"column": "b"

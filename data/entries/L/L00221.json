@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00221",
-	"slug": "לווקאי",
-	"headword": {
-		"text": "לִוְוקָאֵי"
-	},
+	"sefariaHeadword": "לִוְוקָאֵי",
+	"headwords": [
+		{
+			"text": "לִוְוקָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

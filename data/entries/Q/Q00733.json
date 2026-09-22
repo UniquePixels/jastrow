@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00733",
-	"slug": "פינסור",
-	"headword": {
-		"text": "פינסור",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פינסור",
+	"headwords": [
+		{
+			"text": "פינסור",
+			"reconstructed": true
+		},
 		{
 			"text": "פינסיר"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1165,
 		"column": "b"

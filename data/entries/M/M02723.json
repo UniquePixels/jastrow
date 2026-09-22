@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02723",
-	"slug": "מרמרא",
-	"headword": {
-		"text": "מַרְמָרָא"
-	},
+	"sefariaHeadword": "מַרְמָרָא",
+	"headwords": [
+		{
+			"text": "מַרְמָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

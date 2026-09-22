@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01527",
-	"slug": "שמר-3",
-	"headword": {
-		"text": "שֶׁמֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֶׁמֶר",
+	"headwords": [
+		{
+			"text": "שֶׁמֶר"
+		},
 		{
 			"text": "שְׁמָרִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "שְׁמָרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1601,
 		"column": "a"

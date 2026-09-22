@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00092",
-	"slug": "שבותאל",
-	"headword": {
-		"text": "שְׁבוּתְאֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבוּתְאֵל",
+	"headwords": [
+		{
+			"text": "שְׁבוּתְאֵל"
+		},
 		{
 			"text": "שְׁבוּתִיאֵל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1511,
 		"column": "b"

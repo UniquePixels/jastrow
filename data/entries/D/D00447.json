@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00447",
-	"slug": "דיאו-2",
-	"headword": {
-		"text": "דיאו",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דיאו",
+	"headwords": [
+		{
+			"text": "דיאו",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 294,
 		"column": "a"

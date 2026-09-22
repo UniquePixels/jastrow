@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00339",
-	"slug": "כופיח",
-	"headword": {
-		"text": "כופיח"
-	},
+	"sefariaHeadword": "כופיח",
+	"headwords": [
+		{
+			"text": "כופיח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "a"

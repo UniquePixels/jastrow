@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "R00259",
-	"slug": "צורעא",
-	"headword": {
-		"text": "צוּרְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צוּרְעָא",
+	"headwords": [
+		{
+			"text": "צוּרְעָא"
+		},
 		{
 			"text": "צוּרְעֲתָא"
 		},
 		{
-			"text": "צִרְעֲ׳"
+			"text": "צִרְעֲ׳",
+			"partial": true
 		},
 		{
-			"text": "צִירְ׳"
+			"text": "צִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1272,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00298",
-	"slug": "דונג-2",
-	"headword": {
-		"text": "דּוֹנַג"
-	},
+	"sefariaHeadword": "דּוֹנַג",
+	"headwords": [
+		{
+			"text": "דּוֹנַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "b"

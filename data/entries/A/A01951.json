@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01951",
-	"slug": "אלקפטא",
-	"headword": {
-		"text": "אַלְקַפְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַלְקַפְטָא",
+	"headwords": [
+		{
+			"text": "אַלְקַפְטָא"
+		},
 		{
 			"text": "אַרְקַפְטָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אַרְקַבְטָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 73,
 		"column": "b"

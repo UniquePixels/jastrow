@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01354",
-	"slug": "נשתן",
-	"headword": {
-		"text": "נַשְׁתֵּן"
-	},
+	"sefariaHeadword": "נַשְׁתֵּן",
+	"headwords": [
+		{
+			"text": "נַשְׁתֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 942,
 		"column": "b"

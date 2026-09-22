@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00644",
-	"slug": "פיטרתא",
-	"headword": {
-		"text": "פיטרתא"
-	},
+	"sefariaHeadword": "פיטרתא",
+	"headwords": [
+		{
+			"text": "פיטרתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1162,
 		"column": "a"

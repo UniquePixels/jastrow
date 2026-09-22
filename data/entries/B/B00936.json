@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "B00936",
-	"slug": "בנאי-2",
-	"headword": {
-		"text": "בַּנַּאי",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּנַּאי II",
+	"headwords": [
+		{
+			"text": "בַּנַּאי",
+			"homograph": 2
+		},
 		{
 			"text": "בַּנָּאָה"
 		},
@@ -13,6 +14,7 @@
 			"text": "רַבַּנַּאי"
 		}
 	],
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 176,
 		"column": "b"

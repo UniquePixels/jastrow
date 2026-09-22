@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00644",
-	"slug": "חטר-1",
-	"headword": {
-		"text": "חֲטַר"
-	},
+	"sefariaHeadword": "חֲטַר",
+	"headwords": [
+		{
+			"text": "חֲטַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "a"

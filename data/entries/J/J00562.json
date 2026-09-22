@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00562",
-	"slug": "יקום-2",
-	"headword": {
-		"text": "יְקוּם"
-	},
+	"sefariaHeadword": "יְקוּם",
+	"headwords": [
+		{
+			"text": "יְקוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 591,
 		"column": "a"

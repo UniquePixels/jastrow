@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00742",
-	"slug": "ניפש",
-	"headword": {
-		"text": "נִיפַשׁ"
-	},
+	"sefariaHeadword": "נִיפַשׁ",
+	"headwords": [
+		{
+			"text": "נִיפַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "b"

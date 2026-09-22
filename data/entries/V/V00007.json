@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00007",
-	"slug": "תאב-4",
-	"headword": {
-		"text": "תָּאֵב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תָּאֵב",
+	"headwords": [
+		{
+			"text": "תָּאֵב"
+		},
 		{
 			"text": "תָּאֵיב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1641,
 		"column": "a"

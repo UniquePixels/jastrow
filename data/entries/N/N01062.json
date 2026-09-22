@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01062",
-	"slug": "נפנף",
-	"headword": {
-		"text": "נִפְנֵף"
-	},
+	"sefariaHeadword": "נִפְנֵף",
+	"headwords": [
+		{
+			"text": "נִפְנֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 925,
 		"column": "a"

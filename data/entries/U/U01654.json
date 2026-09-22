@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01654",
-	"slug": "שעיותא",
-	"headword": {
-		"text": "שַׁעֲיוּתָא"
-	},
+	"sefariaHeadword": "שַׁעֲיוּתָא",
+	"headwords": [
+		{
+			"text": "שַׁעֲיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "b"

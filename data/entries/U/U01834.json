@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01834",
-	"slug": "שקויא",
-	"headword": {
-		"text": "שִׁקּוּיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁקּוּיָא",
+	"headwords": [
+		{
+			"text": "שִׁקּוּיָא"
+		},
 		{
 			"text": "שִׁקּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1621,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00657",
-	"slug": "הנדואה",
-	"headword": {
-		"text": "הִנְדְּוָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִנְדְּוָאָה",
+	"headwords": [
+		{
+			"text": "הִנְדְּוָאָה"
+		},
 		{
 			"text": "הִנְדְּוִוי"
 		},
@@ -12,6 +13,7 @@
 			"text": "הִנְדְּוִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 357,
 		"column": "a"

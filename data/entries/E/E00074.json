@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00074",
-	"slug": "הגמון",
-	"headword": {
-		"text": "הֶגְמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶגְמוֹן",
+	"headwords": [
+		{
+			"text": "הֶגְמוֹן"
+		},
 		{
 			"text": "אֶגְמוֹן"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 331,
 		"column": "b"

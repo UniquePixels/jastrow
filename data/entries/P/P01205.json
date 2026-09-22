@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01205",
-	"slug": "עקמנות",
-	"headword": {
-		"text": "עַקְמָנוּת"
-	},
+	"sefariaHeadword": "עַקְמָנוּת",
+	"headwords": [
+		{
+			"text": "עַקְמָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "b"

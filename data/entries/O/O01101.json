@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01101",
-	"slug": "סמכו",
-	"headword": {
-		"text": "סַמְכוּ"
-	},
+	"sefariaHeadword": "סַמְכוּ",
+	"headwords": [
+		{
+			"text": "סַמְכוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1002,
 		"column": "a"

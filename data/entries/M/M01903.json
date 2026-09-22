@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01903",
-	"slug": "מסטיכי",
-	"headword": {
-		"text": "מַסְטִיכִי"
-	},
+	"sefariaHeadword": "מַסְטִיכִי",
+	"headwords": [
+		{
+			"text": "מַסְטִיכִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 806,
 		"column": "a"

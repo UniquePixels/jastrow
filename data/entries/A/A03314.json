@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03314",
-	"slug": "אשל",
-	"headword": {
-		"text": "אֵשֶׁל"
-	},
+	"sefariaHeadword": "אֵשֶׁל",
+	"headwords": [
+		{
+			"text": "אֵשֶׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

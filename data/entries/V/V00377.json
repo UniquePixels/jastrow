@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00377",
-	"slug": "תחמדתא",
-	"headword": {
-		"text": "תַּחְמַדְתָּא"
-	},
+	"sefariaHeadword": "תַּחְמַדְתָּא",
+	"headwords": [
+		{
+			"text": "תַּחְמַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

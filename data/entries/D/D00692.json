@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00692",
-	"slug": "דיצותא",
-	"headword": {
-		"text": "דִּיצוּתָא"
-	},
+	"sefariaHeadword": "דִּיצוּתָא",
+	"headwords": [
+		{
+			"text": "דִּיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 304,
 		"column": "b"

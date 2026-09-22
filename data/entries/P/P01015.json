@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01015",
-	"slug": "ענר",
-	"headword": {
-		"text": "עָנֵר"
-	},
+	"sefariaHeadword": "עָנֵר",
+	"headwords": [
+		{
+			"text": "עָנֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1096,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00545",
-	"slug": "גזיזה",
-	"headword": {
-		"text": "גְּזִיזָה"
-	},
+	"sefariaHeadword": "גְּזִיזָה",
+	"headwords": [
+		{
+			"text": "גְּזִיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 230,
 		"column": "a"

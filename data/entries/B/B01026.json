@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01026",
-	"slug": "בעה",
-	"headword": {
-		"text": "בָּעָה"
-	},
+	"sefariaHeadword": "בָּעָה",
+	"headwords": [
+		{
+			"text": "בָּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 180,
 		"column": "b"

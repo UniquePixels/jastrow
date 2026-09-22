@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00309",
-	"slug": "חוי-2",
-	"headword": {
-		"text": "חוי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוי ²",
+	"headwords": [
+		{
+			"text": "חוי",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲוָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 432,
 		"column": "a"

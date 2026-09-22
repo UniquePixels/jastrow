@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00140",
-	"slug": "קדימתא",
-	"headword": {
-		"text": "קְדִימְתָּא"
-	},
+	"sefariaHeadword": "קְדִימְתָּא",
+	"headwords": [
+		{
+			"text": "קְדִימְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1315,
 		"column": "b"

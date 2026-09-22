@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01386",
-	"slug": "אינין",
-	"headword": {
-		"text": "אִינִין"
-	},
+	"sefariaHeadword": "אִינִין",
+	"headwords": [
+		{
+			"text": "אִינִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

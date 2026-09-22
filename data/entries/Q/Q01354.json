@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01354",
-	"slug": "פסקאות",
-	"headword": {
-		"text": "פִּסְקָאוֹת"
-	},
+	"sefariaHeadword": "פִּסְקָאוֹת",
+	"headwords": [
+		{
+			"text": "פִּסְקָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

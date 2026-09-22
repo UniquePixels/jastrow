@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00996",
-	"slug": "חלוי",
-	"headword": {
-		"text": "חִלּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלּוּי",
+	"headwords": [
+		{
+			"text": "חִלּוּי"
+		},
 		{
 			"text": "חִלּוּל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 465,
 		"column": "a"

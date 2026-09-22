@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00889",
-	"slug": "סכות-2",
-	"headword": {
-		"text": "סֻכּוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֻכֹּות",
+	"headwords": [
 		{
-			"text": "סֻכּוֹת בְּנוֹת"
+			"text": "סֻכּוֹת"
+		},
+		{
+			"text": "ס׳ בְּנוֹת",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 989,
 		"column": "a"

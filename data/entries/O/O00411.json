@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00411",
-	"slug": "סור-4",
-	"headword": {
-		"text": "סָוַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סָוַר",
+	"headwords": [
+		{
+			"text": "סָוַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 969,
 		"column": "a"

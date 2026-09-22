@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01306",
-	"slug": "ערוב-1",
-	"headword": {
-		"text": "עֵרוּב"
-	},
+	"sefariaHeadword": "עֵרוּב",
+	"headwords": [
+		{
+			"text": "עֵרוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

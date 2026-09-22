@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01950",
-	"slug": "שרח",
-	"headword": {
-		"text": "שֶׂרַח"
-	},
+	"sefariaHeadword": "שֶׂרַח",
+	"headwords": [
+		{
+			"text": "שֶׂרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1629,
 		"column": "a"

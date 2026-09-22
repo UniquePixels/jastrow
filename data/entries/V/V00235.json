@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00235",
-	"slug": "תון-1",
-	"headword": {
-		"text": "תָּוָן"
-	},
+	"sefariaHeadword": "תָּוָן",
+	"headwords": [
+		{
+			"text": "תָּוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

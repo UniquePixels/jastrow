@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01151",
-	"slug": "סמתר-2",
-	"headword": {
-		"text": "סַמְתֵּר"
-	},
+	"sefariaHeadword": "סַמְתֵּר",
+	"headwords": [
+		{
+			"text": "סַמְתֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1003,
 		"column": "b"

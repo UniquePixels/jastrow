@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00745",
-	"slug": "מזחילה",
-	"headword": {
-		"text": "מַזְחִילָה"
-	},
+	"sefariaHeadword": "מַזְחִילָה",
+	"headwords": [
+		{
+			"text": "מַזְחִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "b"

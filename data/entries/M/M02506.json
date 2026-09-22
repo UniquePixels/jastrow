@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02506",
-	"slug": "מרבנייתא",
-	"headword": {
-		"text": "מַרְבַּנְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְבַּנְיָיתָא",
+	"headwords": [
+		{
+			"text": "מַרְבַּנְיָיתָא"
+		},
 		{
 			"text": "מַרְבַּנְיָתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 835,
 		"column": "b"

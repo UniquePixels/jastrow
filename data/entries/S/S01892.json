@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01892",
-	"slug": "קרבות-2",
-	"headword": {
-		"text": "קרבות"
-	},
+	"sefariaHeadword": "קרבות",
+	"headwords": [
+		{
+			"text": "קרבות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1411,
 		"column": "b"

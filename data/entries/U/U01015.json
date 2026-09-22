@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01015",
-	"slug": "שיפול",
-	"headword": {
-		"text": "שִׁיפּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיפּוּל",
+	"headwords": [
 		{
-			"text": "שִׁפּ׳"
+			"text": "שִׁיפּוּל"
+		},
+		{
+			"text": "שִׁפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1566,
 		"column": "a"

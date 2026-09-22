@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01323",
-	"slug": "גריבה",
-	"headword": {
-		"text": "גְּרִיבָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּרִיבָה",
+	"headwords": [
+		{
+			"text": "גְּרִיבָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 268,
 		"column": "a"

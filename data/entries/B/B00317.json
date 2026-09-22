@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00317",
-	"slug": "בוצראה",
-	"headword": {
-		"text": "בּוֹצְרָאָה"
-	},
+	"sefariaHeadword": "בֹּוצְרָאָה",
+	"headwords": [
+		{
+			"text": "בּוֹצְרָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"

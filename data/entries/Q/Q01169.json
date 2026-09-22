@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01169",
-	"slug": "פנוכא",
-	"headword": {
-		"text": "פִּנּוּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּנּוּכָא",
+	"headwords": [
+		{
+			"text": "פִּנּוּכָא"
+		},
 		{
 			"text": "פִּנּוּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1187,
 		"column": "a"

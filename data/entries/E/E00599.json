@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00599",
-	"slug": "המונות",
-	"headword": {
-		"text": "הֲמוֹנוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲמוֹנוּת",
+	"headwords": [
+		{
+			"text": "הֲמוֹנוּת"
+		},
 		{
 			"text": "הֲמוֹנִית"
 		},
@@ -12,6 +13,7 @@
 			"text": "הֲמוֹנִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 354,
 		"column": "b"

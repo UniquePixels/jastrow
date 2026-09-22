@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00370",
-	"slug": "זימין",
-	"headword": {
-		"text": "זִימִין"
-	},
+	"sefariaHeadword": "זִימִין",
+	"headwords": [
+		{
+			"text": "זִימִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "a"

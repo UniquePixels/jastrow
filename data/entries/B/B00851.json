@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00851",
-	"slug": "בלט-2",
-	"headword": {
-		"text": "בְּלַט"
-	},
+	"sefariaHeadword": "בְּלַט",
+	"headwords": [
+		{
+			"text": "בְּלַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 172,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00355",
-	"slug": "היזקא",
-	"headword": {
-		"text": "הֶיזֵּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיזֵּקָא",
+	"headwords": [
 		{
-			"text": "הֶיזֵּי׳"
+			"text": "הֶיזֵּקָא"
+		},
+		{
+			"text": "הֶיזֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 344,
 		"column": "a"

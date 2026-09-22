@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00067",
-	"slug": "זגן",
-	"headword": {
-		"text": "זַגָּן"
-	},
+	"sefariaHeadword": "זַגָּן",
+	"headwords": [
+		{
+			"text": "זַגָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 380,
 		"column": "b"

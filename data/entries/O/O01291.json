@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01291",
-	"slug": "סעותא",
-	"headword": {
-		"text": "סְעוּתָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סְעוּתָא",
+	"headwords": [
+		{
+			"text": "סְעוּתָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1010,
 		"column": "a"

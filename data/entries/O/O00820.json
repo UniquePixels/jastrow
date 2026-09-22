@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00820",
-	"slug": "סיקרא-1",
-	"headword": {
-		"text": "סִיקְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סִיקְרָא I",
+	"headwords": [
+		{
+			"text": "סִיקְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 986,
 		"column": "b"

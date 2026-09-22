@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01745",
-	"slug": "קפיקליטור",
-	"headword": {
-		"text": "קפיקליטור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קפיקליטור",
+	"headwords": [
+		{
+			"text": "קפיקליטור"
+		},
 		{
 			"text": "קפיקלטור"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1401,
 		"column": "b"

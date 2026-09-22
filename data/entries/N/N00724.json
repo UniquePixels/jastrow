@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00724",
-	"slug": "ניעות",
-	"headword": {
-		"text": "נֵיעוֹת"
-	},
+	"sefariaHeadword": "נֵיעוֹת",
+	"headwords": [
+		{
+			"text": "נֵיעוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

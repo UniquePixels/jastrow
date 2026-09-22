@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00193",
-	"slug": "זון-3",
-	"headword": {
-		"text": "זוּן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זוּן II",
+	"headwords": [
+		{
+			"text": "זוּן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 387,
 		"column": "b"

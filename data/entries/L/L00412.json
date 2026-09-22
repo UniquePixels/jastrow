@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00412",
-	"slug": "ליבוי-2",
-	"headword": {
-		"text": "לִיבוּי"
-	},
+	"sefariaHeadword": "לִיבוּי",
+	"headwords": [
+		{
+			"text": "לִיבוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "a"

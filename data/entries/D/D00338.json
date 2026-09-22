@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00338",
-	"slug": "דוקרא",
-	"headword": {
-		"text": "דּוּקְרָא"
-	},
+	"sefariaHeadword": "דּוּקְרָא",
+	"headwords": [
+		{
+			"text": "דּוּקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 288,
 		"column": "b"

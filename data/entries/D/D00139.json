@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00139",
-	"slug": "דדקרת",
-	"headword": {
-		"text": "דַּדְקֶרֶת"
-	},
+	"sefariaHeadword": "דַּדְקֶרֶת",
+	"headwords": [
+		{
+			"text": "דַּדְקֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 281,
 		"column": "a"

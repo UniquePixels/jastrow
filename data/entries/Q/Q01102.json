@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01102",
-	"slug": "פלסטוני",
-	"headword": {
-		"text": "פלסטוני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלסטוני",
+	"headwords": [
+		{
+			"text": "פלסטוני"
+		},
 		{
 			"text": "פלסטים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1184,
 		"column": "a"

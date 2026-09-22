@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01660",
-	"slug": "שעיר-2",
-	"headword": {
-		"text": "שֵׂעִיר"
-	},
+	"sefariaHeadword": "שֵׂעִיר",
+	"headwords": [
+		{
+			"text": "שֵׂעִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1610,
 		"column": "b"

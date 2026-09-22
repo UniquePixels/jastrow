@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00100",
-	"slug": "סגד",
-	"headword": {
-		"text": "סְגַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגַד",
+	"headwords": [
+		{
+			"text": "סְגַד"
+		},
 		{
 			"text": "סְגֵד"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְגֵיד"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 953,
 		"column": "a"

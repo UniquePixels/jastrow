@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01203",
-	"slug": "מימר",
-	"headword": {
-		"text": "מֵימַר"
-	},
+	"sefariaHeadword": "מֵימַר",
+	"headwords": [
+		{
+			"text": "מֵימַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 775,
 		"column": "b"

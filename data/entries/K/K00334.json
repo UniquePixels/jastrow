@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00334",
-	"slug": "כוף-2",
-	"headword": {
-		"text": "כּוּף"
-	},
+	"sefariaHeadword": "כּוּף",
+	"headwords": [
+		{
+			"text": "כּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "b"

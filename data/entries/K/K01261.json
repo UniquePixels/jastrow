@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01261",
-	"slug": "כרף",
-	"headword": {
-		"text": "כְּרַף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּרַף",
+	"headwords": [
+		{
+			"text": "כְּרַף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 673,
 		"column": "a"

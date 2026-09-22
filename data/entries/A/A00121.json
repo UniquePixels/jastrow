@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A00121",
-	"slug": "אביוני",
-	"headword": {
-		"text": "אֶבְיוֹנֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֶבְיוֹנֵי",
+	"headwords": [
 		{
-			"text": "בֵּי אֶבְיוֹנֵי"
+			"text": "אֶבְיוֹנֵי",
+			"reconstructed": true
+		},
+		{
+			"text": "בֵּי א׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 5,
 		"column": "b"

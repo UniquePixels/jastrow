@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00682",
-	"slug": "זרוקפא",
-	"headword": {
-		"text": "זָרוֹקְפָא"
-	},
+	"sefariaHeadword": "זָרוֹקְפָא",
+	"headwords": [
+		{
+			"text": "זָרוֹקְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 412,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00209",
-	"slug": "תולאנא",
-	"headword": {
-		"text": "תּוֹלָאנָא"
-	},
+	"sefariaHeadword": "תּוֹלָאנָא",
+	"headwords": [
+		{
+			"text": "תּוֹלָאנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

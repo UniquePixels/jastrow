@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00004",
-	"slug": "כאב-1",
-	"headword": {
-		"text": "כָּאֵב"
-	},
+	"sefariaHeadword": "כָּאֵב",
+	"headwords": [
+		{
+			"text": "כָּאֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 606,
 		"column": "a"

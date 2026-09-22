@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00626",
-	"slug": "מורה-1",
-	"headword": {
-		"text": "מוּרָה"
-	},
+	"sefariaHeadword": "מוּרָה",
+	"headwords": [
+		{
+			"text": "מוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 749,
 		"column": "a"

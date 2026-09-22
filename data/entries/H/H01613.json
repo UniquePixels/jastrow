@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01613",
-	"slug": "חרובא-1",
-	"headword": {
-		"text": "חֲרוּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרוּבָא",
+	"headwords": [
+		{
+			"text": "חֲרוּבָא"
+		},
 		{
 			"text": "חֲרוּבָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 499,
 		"column": "b"

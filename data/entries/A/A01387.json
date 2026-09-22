@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01387",
-	"slug": "איניש",
-	"headword": {
-		"text": "אִינִישׁ"
-	},
+	"sefariaHeadword": "אִינִישׁ",
+	"headwords": [
+		{
+			"text": "אִינִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00897",
-	"slug": "קיטון-1",
-	"headword": {
-		"text": "קִיטוֹן"
-	},
+	"sefariaHeadword": "קִיטוֹן",
+	"headwords": [
+		{
+			"text": "קִיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1357,
 		"column": "a"

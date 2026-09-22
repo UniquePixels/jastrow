@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00700",
-	"slug": "ניסא-2",
-	"headword": {
-		"text": "נִיסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיסָא",
+	"headwords": [
+		{
+			"text": "נִיסָא"
+		},
 		{
 			"text": "נִסָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 906,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00489",
-	"slug": "דיגנוסיס",
-	"headword": {
-		"text": "דִּיגְנוֹסִיס"
-	},
+	"sefariaHeadword": "דִּיגְנוֹסִיס",
+	"headwords": [
+		{
+			"text": "דִּיגְנוֹסִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 295,
 		"column": "b"

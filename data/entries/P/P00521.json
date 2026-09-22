@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00521",
-	"slug": "עיירא",
-	"headword": {
-		"text": "עִייְּרָא"
-	},
+	"sefariaHeadword": "עִייְּרָא",
+	"headwords": [
+		{
+			"text": "עִייְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "a"

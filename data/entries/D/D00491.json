@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00491",
-	"slug": "דידבא",
-	"headword": {
-		"text": "דִּידְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּידְבָא",
+	"headwords": [
+		{
+			"text": "דִּידְבָא"
+		},
 		{
 			"text": "דּוּדְבָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דִּדְבָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 295,
 		"column": "b"

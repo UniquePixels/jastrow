@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00656",
-	"slug": "טפיסין",
-	"headword": {
-		"text": "טפיסין"
-	},
+	"sefariaHeadword": "טפיסין",
+	"headwords": [
+		{
+			"text": "טפיסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

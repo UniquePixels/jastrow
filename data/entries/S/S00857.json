@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00857",
-	"slug": "קיבורית",
-	"headword": {
-		"text": "קִיבּוֹרִית"
-	},
+	"sefariaHeadword": "קִיבּוֹרִית",
+	"headwords": [
+		{
+			"text": "קִיבּוֹרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1354,
 		"column": "b"

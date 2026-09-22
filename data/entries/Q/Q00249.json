@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00249",
-	"slug": "פומבה",
-	"headword": {
-		"text": "פּוֹמְבָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹמְבָּה",
+	"headwords": [
+		{
+			"text": "פּוֹמְבָּה"
+		},
 		{
 			"text": "פומבון"
 		},
@@ -12,6 +13,7 @@
 			"text": "פּוֹמְבִּי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1142,
 		"column": "b"

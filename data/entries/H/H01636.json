@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01636",
-	"slug": "חרורו",
-	"headword": {
-		"text": "חרורו"
-	},
+	"sefariaHeadword": "חרורו",
+	"headwords": [
+		{
+			"text": "חרורו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "a"

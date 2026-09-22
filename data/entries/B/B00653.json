@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00653",
-	"slug": "בינת",
-	"headword": {
-		"text": "בֵּינָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בֵּינָת",
+	"headwords": [
+		{
+			"text": "בֵּינָת"
+		},
 		{
 			"text": "בֵּינַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 163,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00409",
-	"slug": "שוכא",
-	"headword": {
-		"text": "שׂוּכָּא"
-	},
+	"sefariaHeadword": "שׂוּכָּא",
+	"headwords": [
+		{
+			"text": "שׂוּכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1533,
 		"column": "b"

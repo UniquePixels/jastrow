@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00764",
-	"slug": "דכוות",
-	"headword": {
-		"text": "דִּכְוָות־"
-	},
+	"sefariaHeadword": "דִּכְוָות־",
+	"headwords": [
+		{
+			"text": "דִּכְוָות־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 306,
 		"column": "b"

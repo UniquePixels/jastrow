@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B01317",
-	"slug": "ברק-5",
-	"headword": {
-		"text": "בְּרַק",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּרַק III",
+	"headwords": [
+		{
+			"text": "בְּרַק",
+			"homograph": 3
+		},
 		{
 			"text": "בַּרְקָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 196,
 		"column": "b"

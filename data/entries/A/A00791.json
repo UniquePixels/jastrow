@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00791",
-	"slug": "אוסמנא",
-	"headword": {
-		"text": "אוּסְמָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוּסְמָנָא",
+	"headwords": [
+		{
+			"text": "אוּסְמָנָא"
+		},
 		{
 			"text": "אוּסְמָנַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 30,
 		"column": "b"

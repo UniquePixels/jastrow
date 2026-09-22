@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A03109",
-	"slug": "אריס-3",
-	"headword": {
-		"text": "אָרִיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָרִיס",
+	"headwords": [
+		{
+			"text": "אָרִיס"
+		},
 		{
 			"text": "אֲרִיסָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "אֲרִישָׂא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 120,
 		"column": "a"

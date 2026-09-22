@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00533",
-	"slug": "נחת-2",
-	"headword": {
-		"text": "נָחַת"
-	},
+	"sefariaHeadword": "נָחַת",
+	"headwords": [
+		{
+			"text": "נָחַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 897,
 		"column": "b"

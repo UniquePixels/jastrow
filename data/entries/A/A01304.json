@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01304",
-	"slug": "אילמא",
-	"headword": {
-		"text": "אִילְּמָא"
-	},
+	"sefariaHeadword": "אִילְּמָא",
+	"headwords": [
+		{
+			"text": "אִילְּמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "b"

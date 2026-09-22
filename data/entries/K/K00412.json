@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00412",
-	"slug": "כות-1",
-	"headword": {
-		"text": "כְּוָת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּוָת",
+	"headwords": [
+		{
+			"text": "כְּוָת"
+		},
 		{
 			"text": "כְּוָות"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 626,
 		"column": "b"

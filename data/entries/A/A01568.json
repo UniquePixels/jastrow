@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01568",
-	"slug": "איפרכיותא",
-	"headword": {
-		"text": "אִיפַּרְכָיוּתָא"
-	},
+	"sefariaHeadword": "אִיפַּרְכָיוּתָא",
+	"headwords": [
+		{
+			"text": "אִיפַּרְכָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

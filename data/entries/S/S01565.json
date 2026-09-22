@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01565",
-	"slug": "קנטרן",
-	"headword": {
-		"text": "קַנְטְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְטְרָן",
+	"headwords": [
 		{
-			"text": "קַנְתְּ׳"
+			"text": "קַנְטְרָן"
+		},
+		{
+			"text": "קַנְתְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1390,
 		"column": "b"

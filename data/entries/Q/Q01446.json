@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01446",
-	"slug": "פצר",
-	"headword": {
-		"text": "פְּצַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פְּצַר",
+	"headwords": [
+		{
+			"text": "פְּצַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1206,
 		"column": "b"

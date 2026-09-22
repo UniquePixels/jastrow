@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01231",
-	"slug": "איידא",
-	"headword": {
-		"text": "אַיְידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיְידָא",
+	"headwords": [
+		{
+			"text": "אַיְידָא"
+		},
 		{
 			"text": "אַיְידִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 47,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00588",
-	"slug": "זעזוע",
-	"headword": {
-		"text": "זִעֲזוּעַ"
-	},
+	"sefariaHeadword": "זִעֲזוּעַ",
+	"headwords": [
+		{
+			"text": "זִעֲזוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 407,
 		"column": "a"

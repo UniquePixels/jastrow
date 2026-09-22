@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00629",
-	"slug": "עיסה",
-	"headword": {
-		"text": "עִיסָה"
-	},
+	"sefariaHeadword": "עִיסָה",
+	"headwords": [
+		{
+			"text": "עִיסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1072,
 		"column": "b"

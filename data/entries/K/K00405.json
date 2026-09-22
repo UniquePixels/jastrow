@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00405",
-	"slug": "כושפא",
-	"headword": {
-		"text": "כּוּשְׁפָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כּוּשְׁפָּא",
+	"headwords": [
+		{
+			"text": "כּוּשְׁפָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 626,
 		"column": "b"

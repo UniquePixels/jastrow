@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01328",
-	"slug": "ברקן",
-	"headword": {
-		"text": "בַּרְקָן"
-	},
+	"sefariaHeadword": "בַּרְקָן",
+	"headwords": [
+		{
+			"text": "בַּרְקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 197,
 		"column": "a"

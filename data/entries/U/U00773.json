@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00773",
-	"slug": "שטתא",
-	"headword": {
-		"text": "שִׁטְּתָא"
-	},
+	"sefariaHeadword": "שִׁטְּתָא",
+	"headwords": [
+		{
+			"text": "שִׁטְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1556,
 		"column": "a"

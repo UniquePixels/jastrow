@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00169",
-	"slug": "עד״ש",
-	"headword": {
-		"text": "עד״ש"
-	},
+	"sefariaHeadword": "עד\"ש",
+	"headwords": [
+		{
+			"text": "עד״ש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "a"

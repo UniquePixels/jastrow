@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00764",
-	"slug": "חילוי",
-	"headword": {
-		"text": "חִילּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילּוּי",
+	"headwords": [
 		{
-			"text": "חִלּ׳"
+			"text": "חִילּוּי"
+		},
+		{
+			"text": "חִלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 456,
 		"column": "a"

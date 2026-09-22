@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00900",
-	"slug": "נגני-2",
-	"headword": {
-		"text": "נגני"
-	},
+	"sefariaHeadword": "נגני",
+	"headwords": [
+		{
+			"text": "נגני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

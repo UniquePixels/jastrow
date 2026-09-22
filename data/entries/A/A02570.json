@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02570",
-	"slug": "אסתהר",
-	"headword": {
-		"text": "אִסְתְּהַר"
-	},
+	"sefariaHeadword": "אִסְתְּהַר",
+	"headwords": [
+		{
+			"text": "אִסְתְּהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

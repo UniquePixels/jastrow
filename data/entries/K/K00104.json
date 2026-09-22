@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "K00104",
-	"slug": "כדבא-1",
-	"headword": {
-		"text": "כַּדְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּדְבָא",
+	"headwords": [
 		{
-			"text": "כִּדְ׳"
+			"text": "כַּדְבָא"
 		},
 		{
-			"text": "כִּידְ׳"
+			"text": "כִּדְ׳",
+			"partial": true
+		},
+		{
+			"text": "כִּידְ׳",
+			"partial": true
 		},
 		{
 			"text": "כְּדִיבָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 612,
 		"column": "b"

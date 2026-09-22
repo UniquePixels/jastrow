@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00103",
-	"slug": "אבטינס",
-	"headword": {
-		"text": "אַבְטִינָס"
-	},
+	"sefariaHeadword": "אַבְטִינָס",
+	"headwords": [
+		{
+			"text": "אַבְטִינָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

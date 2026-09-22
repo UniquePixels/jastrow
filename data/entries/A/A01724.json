@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01724",
-	"slug": "אכסיומא",
-	"headword": {
-		"text": "אַכְסְיוֹמָא"
-	},
+	"sefariaHeadword": "אַכְסְיוֹמָא",
+	"headwords": [
+		{
+			"text": "אַכְסְיוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "b"

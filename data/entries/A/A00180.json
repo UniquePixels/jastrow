@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00180",
-	"slug": "אבנתא",
-	"headword": {
-		"text": "אֲבַנְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבַנְתָּא",
+	"headwords": [
+		{
+			"text": "אֲבַנְתָּא"
+		},
 		{
 			"text": "אוֹבַנְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 8,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00180",
-	"slug": "שברה",
-	"headword": {
-		"text": "שַׁבְרָה"
-	},
+	"sefariaHeadword": "שַׁבְרָה",
+	"headwords": [
+		{
+			"text": "שַׁבְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1518,
 		"column": "a"

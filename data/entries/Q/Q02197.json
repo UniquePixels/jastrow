@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02197",
-	"slug": "פתק-3",
-	"headword": {
-		"text": "פְּתַק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּתַק II",
+	"headwords": [
+		{
+			"text": "פְּתַק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1255,
 		"column": "b"

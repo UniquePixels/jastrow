@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00147",
-	"slug": "תוביינתיה",
-	"headword": {
-		"text": "תוביינתיה"
-	},
+	"sefariaHeadword": "תוביינתיה",
+	"headwords": [
+		{
+			"text": "תוביינתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "a"

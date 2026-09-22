@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02366",
-	"slug": "מצרים",
-	"headword": {
-		"text": "מִצְרַיִם"
-	},
+	"sefariaHeadword": "מִצְרַיִם",
+	"headwords": [
+		{
+			"text": "מִצְרַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 828,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00507",
-	"slug": "נחמיה",
-	"headword": {
-		"text": "נְחֶמְיָה"
-	},
+	"sefariaHeadword": "נְחֶמְיָה",
+	"headwords": [
+		{
+			"text": "נְחֶמְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 895,
 		"column": "b"

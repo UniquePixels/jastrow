@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01915",
-	"slug": "קרדם",
-	"headword": {
-		"text": "קרדם"
-	},
+	"sefariaHeadword": "קרדם",
+	"headwords": [
+		{
+			"text": "קרדם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "b"

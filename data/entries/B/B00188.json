@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00188",
-	"slug": "בהקן",
-	"headword": {
-		"text": "בָּהֲקָן"
-	},
+	"sefariaHeadword": "בָּהֲקָן",
+	"headwords": [
+		{
+			"text": "בָּהֲקָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01090",
-	"slug": "דריס",
-	"headword": {
-		"text": "דְּרִיס"
-	},
+	"sefariaHeadword": "דְּרִיס",
+	"headwords": [
+		{
+			"text": "דְּרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

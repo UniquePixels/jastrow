@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00216",
-	"slug": "נדוד",
-	"headword": {
-		"text": "נדוד"
-	},
+	"sefariaHeadword": "נדוד",
+	"headwords": [
+		{
+			"text": "נדוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 878,
 		"column": "a"

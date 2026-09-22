@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00159",
-	"slug": "גדברא",
-	"headword": {
-		"text": "גְּדָבְרָא"
-	},
+	"sefariaHeadword": "גְּדָבְרָא",
+	"headwords": [
+		{
+			"text": "גְּדָבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

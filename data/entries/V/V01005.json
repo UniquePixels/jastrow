@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V01005",
-	"slug": "תריקא",
-	"headword": {
-		"text": "תִּרְיָקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּרְיָקָא",
+	"headwords": [
+		{
+			"text": "תִּרְיָקָא"
+		},
 		{
 			"text": "תִּרְיָקִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1699,
 		"column": "a"

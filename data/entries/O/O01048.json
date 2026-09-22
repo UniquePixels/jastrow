@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01048",
-	"slug": "סלתנית",
-	"headword": {
-		"text": "סֻלְתָּנִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סֻלְתָּנִית",
+	"headwords": [
+		{
+			"text": "סֻלְתָּנִית"
+		},
 		{
 			"text": "סֻלְתָּנִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 998,
 		"column": "a"

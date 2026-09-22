@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00062",
-	"slug": "נבח-1",
-	"headword": {
-		"text": "נָבַח"
-	},
+	"sefariaHeadword": "נָבַח",
+	"headwords": [
+		{
+			"text": "נָבַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 868,
 		"column": "a"

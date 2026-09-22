@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00913",
-	"slug": "אורתא",
-	"headword": {
-		"text": "אוּרְתָּא"
-	},
+	"sefariaHeadword": "אוּרְתָּא",
+	"headwords": [
+		{
+			"text": "אוּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "a"

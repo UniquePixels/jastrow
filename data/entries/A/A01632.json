@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01632",
-	"slug": "אושתא",
-	"headword": {
-		"text": "אֶושָּׁתָא"
-	},
+	"sefariaHeadword": "אֶושָּׁתָא",
+	"headwords": [
+		{
+			"text": "אֶושָּׁתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

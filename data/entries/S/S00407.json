@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00407",
-	"slug": "קומקמא",
-	"headword": {
-		"text": "קוּמְקְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּמְקְמָא",
+	"headwords": [
+		{
+			"text": "קוּמְקְמָא"
+		},
 		{
 			"text": "קוּמְקְמוֹס"
 		},
@@ -15,6 +16,7 @@
 			"text": "קוּמְקְמִין"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1334,
 		"column": "a"

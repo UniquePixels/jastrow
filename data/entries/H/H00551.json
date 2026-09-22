@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00551",
-	"slug": "חזן",
-	"headword": {
-		"text": "חַזָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַזָּן",
+	"headwords": [
+		{
+			"text": "חַזָּן"
+		},
 		{
 			"text": "חָזָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 444,
 		"column": "b"

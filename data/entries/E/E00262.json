@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00262",
-	"slug": "הוץ-1",
-	"headword": {
-		"text": "הוּץ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הוּץ I",
+	"headwords": [
+		{
+			"text": "הוּץ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 340,
 		"column": "a"

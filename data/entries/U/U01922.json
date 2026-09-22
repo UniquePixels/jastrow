@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01922",
-	"slug": "שרברובי",
-	"headword": {
-		"text": "שְׁרַבְרוּבִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁרַבְרוּבִי",
+	"headwords": [
+		{
+			"text": "שְׁרַבְרוּבִי"
+		},
 		{
 			"text": "שְׁרַבְרוּבִיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1628,
 		"column": "a"

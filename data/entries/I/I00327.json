@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00327",
-	"slug": "טיחיא",
-	"headword": {
-		"text": "טִיחְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיחְיָא",
+	"headwords": [
 		{
-			"text": "טִחְ׳"
+			"text": "טִיחְיָא"
+		},
+		{
+			"text": "טִחְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 530,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00018",
-	"slug": "באזיאדן",
-	"headword": {
-		"text": "באזיאדן"
-	},
+	"sefariaHeadword": "באזיאדן",
+	"headwords": [
+		{
+			"text": "באזיאדן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "a"

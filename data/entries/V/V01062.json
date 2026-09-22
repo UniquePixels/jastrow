@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01062",
-	"slug": "תרקיע",
-	"headword": {
-		"text": "תַּרְקיעַ"
-	},
+	"sefariaHeadword": "תַּרְקיעַ",
+	"headwords": [
+		{
+			"text": "תַּרְקיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "b"

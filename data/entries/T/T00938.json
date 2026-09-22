@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "T00938",
-	"slug": "רפח-1",
-	"headword": {
-		"text": "רְפַח",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*רְפַח I",
+	"headwords": [
+		{
+			"text": "רְפַח",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1489,
 		"column": "b"

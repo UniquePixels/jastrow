@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00284",
-	"slug": "תורבץ",
-	"headword": {
-		"text": "תּוּרְבֵּץ"
-	},
+	"sefariaHeadword": "תּוּרְבֵּץ",
+	"headwords": [
+		{
+			"text": "תּוּרְבֵּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "b"

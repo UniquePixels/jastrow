@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02711",
-	"slug": "מרמהוז",
-	"headword": {
-		"text": "מַרְמָהוּז"
-	},
+	"sefariaHeadword": "מַרְמָהוּז",
+	"headwords": [
+		{
+			"text": "מַרְמָהוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

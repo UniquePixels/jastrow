@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00787",
-	"slug": "גיף-1",
-	"headword": {
-		"text": "גֵּיף"
-	},
+	"sefariaHeadword": "גֵּיף",
+	"headwords": [
+		{
+			"text": "גֵּיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 241,
 		"column": "a"

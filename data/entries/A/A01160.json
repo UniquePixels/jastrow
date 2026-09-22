@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01160",
-	"slug": "אידי-2",
-	"headword": {
-		"text": "אִידִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִידִי",
+	"headwords": [
+		{
+			"text": "אִידִי"
+		},
 		{
 			"text": "אִידִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 45,
 		"column": "a"

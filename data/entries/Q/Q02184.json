@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02184",
-	"slug": "פתלגא",
-	"headword": {
-		"text": "פתלגא"
-	},
+	"sefariaHeadword": "פתלגא",
+	"headwords": [
+		{
+			"text": "פתלגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

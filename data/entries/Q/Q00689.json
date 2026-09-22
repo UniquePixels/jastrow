@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00689",
-	"slug": "פילוסין-2",
-	"headword": {
-		"text": "פִּילוּסִין",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילוּסִין II",
+	"headwords": [
+		{
+			"text": "פִּילוּסִין",
+			"homograph": 2
+		},
 		{
 			"text": "פּילוּסִים"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1164,
 		"column": "a"

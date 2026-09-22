@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00683",
-	"slug": "סימא-1",
-	"headword": {
-		"text": "סִימָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימָא I",
+	"headwords": [
+		{
+			"text": "סִימָא",
+			"homograph": 1
+		},
 		{
 			"text": "סָאמָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 980,
 		"column": "b"

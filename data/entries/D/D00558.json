@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00558",
-	"slug": "דיילא-1",
-	"headword": {
-		"text": "דַּיָּילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיָּילָא",
+	"headwords": [
+		{
+			"text": "דַּיָּילָא"
+		},
 		{
 			"text": "דַּיָּאלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 298,
 		"column": "b"

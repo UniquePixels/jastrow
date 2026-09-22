@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00207",
-	"slug": "סדריתא",
-	"headword": {
-		"text": "סַדְרִיתָא"
-	},
+	"sefariaHeadword": "סַדְרִיתָא",
+	"headwords": [
+		{
+			"text": "סַדְרִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 959,
 		"column": "a"

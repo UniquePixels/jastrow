@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00636",
-	"slug": "טפח-1",
-	"headword": {
-		"text": "טָפַח",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טָפַח I",
+	"headwords": [
+		{
+			"text": "טָפַח",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 545,
 		"column": "b"

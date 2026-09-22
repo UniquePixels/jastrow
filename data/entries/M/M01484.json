@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M01484",
-	"slug": "מלבנתא",
-	"headword": {
-		"text": "מַלְבֵּנְתָּא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*מַלְבֵּנְתָּא",
+	"headwords": [
 		{
-			"text": "מַלְבֵּינְ׳"
+			"text": "מַלְבֵּנְתָּא",
+			"reconstructed": true
+		},
+		{
+			"text": "מַלְבֵּינְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 787,
 		"column": "a"

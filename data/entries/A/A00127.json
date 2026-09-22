@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00127",
-	"slug": "אביינוס",
-	"headword": {
-		"text": "אביינוס"
-	},
+	"sefariaHeadword": "אביינוס",
+	"headwords": [
+		{
+			"text": "אביינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 6,
 		"column": "a"

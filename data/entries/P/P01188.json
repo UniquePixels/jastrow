@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01188",
-	"slug": "עקירה",
-	"headword": {
-		"text": "עֲקִירָה"
-	},
+	"sefariaHeadword": "עֲקִירָה",
+	"headwords": [
+		{
+			"text": "עֲקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "a"

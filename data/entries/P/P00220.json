@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00220",
-	"slug": "עוזיא",
-	"headword": {
-		"text": "עוּזְיָא"
-	},
+	"sefariaHeadword": "עוּזְיָא",
+	"headwords": [
+		{
+			"text": "עוּזְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1049,
 		"column": "a"

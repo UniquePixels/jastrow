@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00568",
-	"slug": "ביזיון",
-	"headword": {
-		"text": "בִּיזָּיוֹן"
-	},
+	"sefariaHeadword": "בִּיזָּיוֹן",
+	"headwords": [
+		{
+			"text": "בִּיזָּיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

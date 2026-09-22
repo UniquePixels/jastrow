@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "L00060",
-	"slug": "לבוש-2",
-	"headword": {
-		"text": "לְבוּשׁ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבוּשׁ ²",
+	"headwords": [
+		{
+			"text": "לְבוּשׁ",
+			"disambiguator": 2
+		},
 		{
 			"text": "לְבוּשָׁא"
 		},
 		{
-			"text": "לְבִי׳"
+			"text": "לְבִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 688,
 		"column": "a"

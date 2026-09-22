@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02480",
-	"slug": "מר-6",
-	"headword": {
-		"text": "מָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָר",
+	"headwords": [
+		{
+			"text": "מָר"
+		},
 		{
 			"text": "מָרָא",
 			"homograph": 2
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 834,
 		"column": "b"

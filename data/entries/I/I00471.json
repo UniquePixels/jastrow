@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00471",
-	"slug": "טלאי-1",
-	"headword": {
-		"text": "טְלָאי"
-	},
+	"sefariaHeadword": "טְלָאי",
+	"headwords": [
+		{
+			"text": "טְלָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 535,
 		"column": "b"

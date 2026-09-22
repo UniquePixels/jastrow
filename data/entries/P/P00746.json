@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00746",
-	"slug": "עכס",
-	"headword": {
-		"text": "עֶכֶס"
-	},
+	"sefariaHeadword": "עֶכֶס",
+	"headwords": [
+		{
+			"text": "עֶכֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1079,
 		"column": "b"

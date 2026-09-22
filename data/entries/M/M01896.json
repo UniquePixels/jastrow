@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01896",
-	"slug": "מסטוביתא",
-	"headword": {
-		"text": "מִסְטוֹבֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְטוֹבֵיתָא",
+	"headwords": [
+		{
+			"text": "מִסְטוֹבֵיתָא"
+		},
 		{
 			"text": "תָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 805,
 		"column": "b"

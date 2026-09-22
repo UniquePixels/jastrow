@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01119",
-	"slug": "כרוכיא",
-	"headword": {
-		"text": "כְּרוּכְיָא"
-	},
+	"sefariaHeadword": "כְּרוּכְיָא",
+	"headwords": [
+		{
+			"text": "כְּרוּכְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

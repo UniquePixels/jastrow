@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00231",
-	"slug": "כוזית",
-	"headword": {
-		"text": "כּוּזִית"
-	},
+	"sefariaHeadword": "כּוּזִית",
+	"headwords": [
+		{
+			"text": "כּוּזִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

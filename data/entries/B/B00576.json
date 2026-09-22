@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00576",
-	"slug": "ביחיל",
-	"headword": {
-		"text": "בִּיחֵיל"
-	},
+	"sefariaHeadword": "בִּיחֵיל",
+	"headwords": [
+		{
+			"text": "בִּיחֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01112",
-	"slug": "שיתסר",
-	"headword": {
-		"text": "שֵׁיתְסַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיתְסַר",
+	"headwords": [
+		{
+			"text": "שֵׁיתְסַר"
+		},
 		{
 			"text": "שֵׁיתְסְרָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1570,
 		"column": "b"

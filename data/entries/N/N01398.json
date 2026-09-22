@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01398",
-	"slug": "נתש-1",
-	"headword": {
-		"text": "נָתַשׁ"
-	},
+	"sefariaHeadword": "נָתַשׁ",
+	"headwords": [
+		{
+			"text": "נָתַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 946,
 		"column": "b"

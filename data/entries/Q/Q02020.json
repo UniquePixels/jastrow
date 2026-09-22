@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02020",
-	"slug": "פרש-1",
-	"headword": {
-		"text": "פָּרַשׂ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּרַשׂ",
+	"headwords": [
+		{
+			"text": "פָּרַשׂ"
+		},
 		{
 			"text": "פְּרַשׂ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1241,
 		"column": "b"

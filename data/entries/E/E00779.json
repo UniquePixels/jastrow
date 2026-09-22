@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00779",
-	"slug": "הצאתה",
-	"headword": {
-		"text": "הצאתה"
-	},
+	"sefariaHeadword": "הצאתה",
+	"headwords": [
+		{
+			"text": "הצאתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 363,
 		"column": "b"

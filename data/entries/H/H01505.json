@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01505",
-	"slug": "חצוב",
-	"headword": {
-		"text": "חָצוּב"
-	},
+	"sefariaHeadword": "חָצוּב",
+	"headwords": [
+		{
+			"text": "חָצוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 494,
 		"column": "b"

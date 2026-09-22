@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00085",
-	"slug": "נבייא",
-	"headword": {
-		"text": "נְבָיָיא"
-	},
+	"sefariaHeadword": "נְבָיָיא",
+	"headwords": [
+		{
+			"text": "נְבָיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 869,
 		"column": "a"

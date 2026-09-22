@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00227",
-	"slug": "תומא-2",
-	"headword": {
-		"text": "תּוּמָּא"
-	},
+	"sefariaHeadword": "תּוּמָּא",
+	"headwords": [
+		{
+			"text": "תּוּמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

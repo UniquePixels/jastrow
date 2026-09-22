@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00349",
-	"slug": "גוזלן",
-	"headword": {
-		"text": "גּוֹזְלָן"
-	},
+	"sefariaHeadword": "גּוֹזְלָן",
+	"headwords": [
+		{
+			"text": "גּוֹזְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

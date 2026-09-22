@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01669",
-	"slug": "סרק-8",
-	"headword": {
-		"text": "סרק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סרק",
+	"headwords": [
 		{
-			"text": "סרק אני"
+			"text": "סרק"
+		},
+		{
+			"text": "ס׳ אני",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1030,
 		"column": "a"

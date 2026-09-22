@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00866",
-	"slug": "בליני",
-	"headword": {
-		"text": "בַּלִּינֵי"
-	},
+	"sefariaHeadword": "בַּלִּינֵי",
+	"headwords": [
+		{
+			"text": "בַּלִּינֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 173,
 		"column": "a"

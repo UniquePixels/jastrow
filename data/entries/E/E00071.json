@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00071",
-	"slug": "הגייה",
-	"headword": {
-		"text": "הֲגָיָיה"
-	},
+	"sefariaHeadword": "הֲגָיָיה",
+	"headwords": [
+		{
+			"text": "הֲגָיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "b"

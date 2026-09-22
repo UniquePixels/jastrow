@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00046",
-	"slug": "יבישה",
-	"headword": {
-		"text": "יְבֵישָׁה"
-	},
+	"sefariaHeadword": "יְבֵישָׁה",
+	"headwords": [
+		{
+			"text": "יְבֵישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 560,
 		"column": "b"

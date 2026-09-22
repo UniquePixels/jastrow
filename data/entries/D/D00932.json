@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "D00932",
-	"slug": "דנסטיס",
-	"headword": {
-		"text": "דָּנִסְטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּנִסְטֵיס",
+	"headwords": [
 		{
-			"text": "דָּנִיסְ׳"
+			"text": "דָּנִסְטֵיס"
 		},
 		{
-			"text": "דָּאנִ׳"
+			"text": "דָּנִיסְ׳",
+			"partial": true
+		},
+		{
+			"text": "דָּאנִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 315,
 		"column": "b"

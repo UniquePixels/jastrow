@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01426",
-	"slug": "חפופיתא",
-	"headword": {
-		"text": "חִפּוּפִיתָא"
-	},
+	"sefariaHeadword": "חִפּוּפִיתָא",
+	"headwords": [
+		{
+			"text": "חִפּוּפִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 490,
 		"column": "b"

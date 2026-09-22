@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01182",
-	"slug": "ברדיסין",
-	"headword": {
-		"text": "בַּרְדִּיסִין"
-	},
+	"sefariaHeadword": "בַּרְדִּיסִין",
+	"headwords": [
+		{
+			"text": "בַּרְדִּיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 190,
 		"column": "a"

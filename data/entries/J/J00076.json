@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00076",
-	"slug": "יגא",
-	"headword": {
-		"text": "יגא"
-	},
+	"sefariaHeadword": "יגא",
+	"headwords": [
+		{
+			"text": "יגא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

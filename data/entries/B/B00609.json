@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00609",
-	"slug": "ביכאי",
-	"headword": {
-		"text": "בִּיכַאי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּיכַאי",
+	"headwords": [
+		{
+			"text": "בִּיכַאי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 161,
 		"column": "a"

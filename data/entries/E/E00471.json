@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00471",
-	"slug": "היסט",
-	"headword": {
-		"text": "הֶיסֵּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶיסֵּט",
+	"headwords": [
+		{
+			"text": "הֶיסֵּט"
+		},
 		{
 			"text": "הֶסֵּט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 348,
 		"column": "b"

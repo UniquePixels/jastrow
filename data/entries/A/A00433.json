@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00433",
-	"slug": "אדני-1",
-	"headword": {
-		"text": "אֲדֹנָי"
-	},
+	"sefariaHeadword": "אֲדֹנָי",
+	"headwords": [
+		{
+			"text": "אֲדֹנָי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "b"

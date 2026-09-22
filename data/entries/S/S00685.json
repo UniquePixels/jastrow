@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00685",
-	"slug": "קטא-1",
-	"headword": {
-		"text": "קְטָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְטָא I",
+	"headwords": [
+		{
+			"text": "קְטָא",
+			"homograph": 1
+		},
 		{
 			"text": "קְטָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1345,
 		"column": "b"

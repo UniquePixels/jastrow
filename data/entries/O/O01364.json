@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01364",
-	"slug": "ספיקא-1",
-	"headword": {
-		"text": "סְפֵיקָא"
-	},
+	"sefariaHeadword": "סְפֵיקָא",
+	"headwords": [
+		{
+			"text": "סְפֵיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

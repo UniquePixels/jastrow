@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00907",
-	"slug": "שייצא",
-	"headword": {
-		"text": "שַׁיְיצָא"
-	},
+	"sefariaHeadword": "שַׁיְיצָא",
+	"headwords": [
+		{
+			"text": "שַׁיְיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1561,
 		"column": "b"

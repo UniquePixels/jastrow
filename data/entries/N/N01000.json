@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01000",
-	"slug": "נענע-1",
-	"headword": {
-		"text": "נִעֲנֵעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִעֲנֵעַ",
+	"headwords": [
+		{
+			"text": "נִעֲנֵעַ"
+		},
 		{
 			"text": "נַעְנֵעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 921,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00988",
-	"slug": "מטחא",
-	"headword": {
-		"text": "מְטָחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְטָחָא",
+	"headwords": [
+		{
+			"text": "מְטָחָא"
+		},
 		{
 			"text": "מִטְחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 766,
 		"column": "b"

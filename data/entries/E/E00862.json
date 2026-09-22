@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00862",
-	"slug": "הריוסן",
-	"headword": {
-		"text": "הריוסן"
-	},
+	"sefariaHeadword": "הריוסן",
+	"headwords": [
+		{
+			"text": "הריוסן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S02078",
-	"slug": "קריקם",
-	"headword": {
-		"text": "קריקם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קריקם",
+	"headwords": [
+		{
+			"text": "קריקם"
+		},
 		{
 			"text": "קריקס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1421,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02591",
-	"slug": "מרומא-1",
-	"headword": {
-		"text": "מְרוֹמָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְרוֹמָא I",
+	"headwords": [
+		{
+			"text": "מְרוֹמָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 839,
 		"column": "a"

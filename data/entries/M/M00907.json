@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00907",
-	"slug": "מחסור-1",
-	"headword": {
-		"text": "מַחְסוֹר"
-	},
+	"sefariaHeadword": "מַחְסוֹר",
+	"headwords": [
+		{
+			"text": "מַחְסוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

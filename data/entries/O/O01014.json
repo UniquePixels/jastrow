@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01014",
-	"slug": "סלסלין",
-	"headword": {
-		"text": "סַלְסִלִּין"
-	},
+	"sefariaHeadword": "סַלְסִלִּין",
+	"headwords": [
+		{
+			"text": "סַלְסִלִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 996,
 		"column": "a"

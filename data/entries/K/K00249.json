@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00249",
-	"slug": "כוכב-1",
-	"headword": {
-		"text": "כּוֹכָב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹכָב",
+	"headwords": [
+		{
+			"text": "כּוֹכָב"
+		},
 		{
 			"text": "כֹּכָב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 619,
 		"column": "a"

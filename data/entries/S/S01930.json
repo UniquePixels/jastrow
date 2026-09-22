@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01930",
-	"slug": "קרוה",
-	"headword": {
-		"text": "קִרְוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְוָה",
+	"headwords": [
+		{
+			"text": "קִרְוָה"
+		},
 		{
 			"text": "קִרְוָוא"
 		},
@@ -15,6 +16,7 @@
 			"text": "קרוות"
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 1413,
 		"column": "a"

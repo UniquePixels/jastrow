@@ -1,21 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A00169",
-	"slug": "אבלס",
-	"headword": {
-		"text": "אַבְלַס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַבְלַס",
+	"headwords": [
+		{
+			"text": "אַבְלַס",
+			"reconstructed": true
+		},
 		{
 			"text": "אַוְולַס"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 7,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

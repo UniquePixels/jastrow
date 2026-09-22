@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00613",
-	"slug": "צנור",
-	"headword": {
-		"text": "צִנּוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנּוֹר",
+	"headwords": [
+		{
+			"text": "צִנּוֹר"
+		},
 		{
 			"text": "צִינּוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1291,
 		"column": "a"

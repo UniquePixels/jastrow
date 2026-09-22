@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00034",
-	"slug": "פאתי-2",
-	"headword": {
-		"text": "פַּאתֵי"
-	},
+	"sefariaHeadword": "פַּאתֵי",
+	"headwords": [
+		{
+			"text": "פַּאתֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

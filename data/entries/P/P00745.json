@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00745",
-	"slug": "עכנה",
-	"headword": {
-		"text": "עַכְנָה"
-	},
+	"sefariaHeadword": "עַכְנָה",
+	"headwords": [
+		{
+			"text": "עַכְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1079,
 		"column": "b"

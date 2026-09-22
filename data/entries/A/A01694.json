@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01694",
-	"slug": "אככא",
-	"headword": {
-		"text": "אַכָּכָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַכָּכָא",
+	"headwords": [
+		{
+			"text": "אַכָּכָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 63,
 		"column": "a"

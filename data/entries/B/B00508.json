@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00508",
-	"slug": "בטיטיי",
-	"headword": {
-		"text": "בְּטִיטַיי"
-	},
+	"sefariaHeadword": "בְּטִיטַיי",
+	"headwords": [
+		{
+			"text": "בְּטִיטַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "b"

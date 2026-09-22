@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00575",
-	"slug": "גזר-3",
-	"headword": {
-		"text": "גָּזָר"
-	},
+	"sefariaHeadword": "גָּזָר",
+	"headwords": [
+		{
+			"text": "גָּזָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 232,
 		"column": "a"

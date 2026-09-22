@@ -1,12 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01394",
-	"slug": "אינש",
-	"headword": {
-		"text": "אֱינָשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֱינָשׁ",
+	"headwords": [
 		{
-			"text": "אֵינָשׁ) אִינְשָׁא"
+			"text": "אֱינָשׁ"
+		},
+		{
+			"text": "אֵינָשׁ"
+		},
+		{
+			"text": "אִינְשָׁא"
 		},
 		{
 			"text": "אֵינָשָׁא"

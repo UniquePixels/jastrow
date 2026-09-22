@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00254",
-	"slug": "רדיוני",
-	"headword": {
-		"text": "רִדְיוֹנֵי"
-	},
+	"sefariaHeadword": "רִדְיוֹנֵי",
+	"headwords": [
+		{
+			"text": "רִדְיוֹנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1452,
 		"column": "b"

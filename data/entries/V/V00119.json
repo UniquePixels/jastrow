@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00119",
-	"slug": "תהום-1",
-	"headword": {
-		"text": "תְּהוֹם"
-	},
+	"sefariaHeadword": "תְּהוֹם",
+	"headwords": [
+		{
+			"text": "תְּהוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1648,
 		"column": "a"

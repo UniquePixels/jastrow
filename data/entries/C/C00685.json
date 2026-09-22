@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00685",
-	"slug": "גיזר",
-	"headword": {
-		"text": "גֶּיזֶר"
-	},
+	"sefariaHeadword": "גֶּיזֶר",
+	"headwords": [
+		{
+			"text": "גֶּיזֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

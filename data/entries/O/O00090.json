@@ -1,21 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "O00090",
-	"slug": "סבר-7",
-	"headword": {
-		"text": "סְבַר",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְבַר IV",
+	"headwords": [
+		{
+			"text": "סְבַר",
+			"homograph": 4
+		},
 		{
 			"text": "סִבְרָא"
 		},
 		{
-			"text": "סִי׳"
+			"text": "סִי׳",
+			"partial": true
 		},
 		{
 			"text": "סוֹבָרָא"
 		}
 	],
+	"display": "{0} IV, {1}, {2}, {3}",
 	"page": {
 		"number": 952,
 		"column": "b"

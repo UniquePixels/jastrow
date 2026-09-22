@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01455",
-	"slug": "סקוטראק",
-	"headword": {
-		"text": "סקוטראק"
-	},
+	"sefariaHeadword": "סקוטראק",
+	"headwords": [
+		{
+			"text": "סקוטראק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "b"

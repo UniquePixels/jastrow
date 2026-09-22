@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01091",
-	"slug": "כרדוט",
-	"headword": {
-		"text": "כַּרְדּוּט"
-	},
+	"sefariaHeadword": "כַּרְדּוּט",
+	"headwords": [
+		{
+			"text": "כַּרְדּוּט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "a"

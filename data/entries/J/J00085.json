@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00085",
-	"slug": "יגיע-2",
-	"headword": {
-		"text": "יְגִיעַ"
-	},
+	"sefariaHeadword": "יְגִיעַ",
+	"headwords": [
+		{
+			"text": "יְגִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 562,
 		"column": "b"

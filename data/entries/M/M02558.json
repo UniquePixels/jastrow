@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02558",
-	"slug": "מרדקא",
-	"headword": {
-		"text": "מַרְדְּקָא"
-	},
+	"sefariaHeadword": "מַרְדְּקָא",
+	"headwords": [
+		{
+			"text": "מַרְדְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "a"

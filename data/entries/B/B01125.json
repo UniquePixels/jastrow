@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01125",
-	"slug": "בקיקא",
-	"headword": {
-		"text": "בְּקִיקָא"
-	},
+	"sefariaHeadword": "בְּקִיקָא",
+	"headwords": [
+		{
+			"text": "בְּקִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 186,
 		"column": "a"

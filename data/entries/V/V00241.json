@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00241",
-	"slug": "תונחא",
-	"headword": {
-		"text": "תּוּנְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּנְחָא",
+	"headwords": [
+		{
+			"text": "תּוּנְחָא"
+		},
 		{
 			"text": "תּוּנַחְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1654,
 		"column": "a"

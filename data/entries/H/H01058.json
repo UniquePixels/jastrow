@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01058",
-	"slug": "חליפים",
-	"headword": {
-		"text": "חֲלִיפִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲלִיפִים",
+	"headwords": [
+		{
+			"text": "חֲלִיפִים"
+		},
 		{
 			"text": "חֲלִיפִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 469,
 		"column": "a"

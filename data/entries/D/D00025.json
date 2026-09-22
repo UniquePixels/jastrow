@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00025",
-	"slug": "דאלו",
-	"headword": {
-		"text": "דָּאלוּ"
-	},
+	"sefariaHeadword": "דָּאלוּ",
+	"headwords": [
+		{
+			"text": "דָּאלוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 276,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00190",
-	"slug": "יוליד",
-	"headword": {
-		"text": "יוֹלֵיד"
-	},
+	"sefariaHeadword": "יוֹלֵיד",
+	"headwords": [
+		{
+			"text": "יוֹלֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 569,
 		"column": "a"

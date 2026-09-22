@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00235",
-	"slug": "מדבא",
-	"headword": {
-		"text": "מֵדְבָא"
-	},
+	"sefariaHeadword": "מֵדְבָא",
+	"headwords": [
+		{
+			"text": "מֵדְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "a"

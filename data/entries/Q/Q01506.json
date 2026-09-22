@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01506",
-	"slug": "פקעא",
-	"headword": {
-		"text": "פִּקְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּקְעָא",
+	"headwords": [
+		{
+			"text": "פִּקְעָא"
+		},
 		{
 			"text": "פִּקְעִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1211,
 		"column": "a"

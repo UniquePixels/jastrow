@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00809",
-	"slug": "מחה",
-	"headword": {
-		"text": "מָחָה"
-	},
+	"sefariaHeadword": "מָחָה",
+	"headwords": [
+		{
+			"text": "מָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "b"

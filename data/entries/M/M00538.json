@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00538",
-	"slug": "מוניטון",
-	"headword": {
-		"text": "מוניטון"
-	},
+	"sefariaHeadword": "מוניטון",
+	"headwords": [
+		{
+			"text": "מוניטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

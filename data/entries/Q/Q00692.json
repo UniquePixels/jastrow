@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00692",
-	"slug": "פילחא",
-	"headword": {
-		"text": "פִּילְחָא"
-	},
+	"sefariaHeadword": "פִּילְחָא",
+	"headwords": [
+		{
+			"text": "פִּילְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

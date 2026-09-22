@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00123",
-	"slug": "צדקה-2",
-	"headword": {
-		"text": "צְדָקָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְדָקָה ²",
+	"headwords": [
+		{
+			"text": "צְדָקָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִדְקָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1264,
 		"column": "a"

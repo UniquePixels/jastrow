@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00563",
-	"slug": "ביזגא",
-	"headword": {
-		"text": "בִּיזְגָּא"
-	},
+	"sefariaHeadword": "בִּיזְגָּא",
+	"headwords": [
+		{
+			"text": "בִּיזְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "a"

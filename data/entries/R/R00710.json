@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00710",
-	"slug": "צפצפה",
-	"headword": {
-		"text": "צַפְצָפָה"
-	},
+	"sefariaHeadword": "צַפְצָפָה",
+	"headwords": [
+		{
+			"text": "צַפְצָפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1298,
 		"column": "a"

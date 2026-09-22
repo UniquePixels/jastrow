@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01483",
-	"slug": "קמץ-1",
-	"headword": {
-		"text": "קָמַץ"
-	},
+	"sefariaHeadword": "קָמַץ",
+	"headwords": [
+		{
+			"text": "קָמַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1386,
 		"column": "a"

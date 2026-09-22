@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01205",
-	"slug": "איחור",
-	"headword": {
-		"text": "אִיחוּר"
-	},
+	"sefariaHeadword": "אִיחוּר",
+	"headwords": [
+		{
+			"text": "אִיחוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "b"

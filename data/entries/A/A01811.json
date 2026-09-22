@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01811",
-	"slug": "אלולי-1",
-	"headword": {
-		"text": "אֱלוּלי"
-	},
+	"sefariaHeadword": "אֱלוּלי",
+	"headwords": [
+		{
+			"text": "אֱלוּלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 67,
 		"column": "b"

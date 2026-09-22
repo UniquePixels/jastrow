@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M00209",
-	"slug": "מגרדא",
-	"headword": {
-		"text": "מַגְרְדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגְרְדָא",
+	"headwords": [
+		{
+			"text": "מַגְרְדָא"
+		},
 		{
 			"text": "מַגְרֶדֶת"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַגְרַדְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 730,
 		"column": "a"

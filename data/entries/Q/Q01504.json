@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01504",
-	"slug": "פקע-3",
-	"headword": {
-		"text": "פֶּקַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פֶּקַע I",
+	"headwords": [
+		{
+			"text": "פֶּקַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1210,
 		"column": "b"

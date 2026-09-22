@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01022",
-	"slug": "גמיאה",
-	"headword": {
-		"text": "גְּמִיאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּמִיאָה",
+	"headwords": [
+		{
+			"text": "גְּמִיאָה"
+		},
 		{
 			"text": "גְּמִיָּיה"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּמִיעָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 252,
 		"column": "b"

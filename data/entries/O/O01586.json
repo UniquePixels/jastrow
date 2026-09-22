@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01586",
-	"slug": "סרטבא",
-	"headword": {
-		"text": "סַרְטָבָא"
-	},
+	"sefariaHeadword": "סַרְטָבָא",
+	"headwords": [
+		{
+			"text": "סַרְטָבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1025,
 		"column": "b"

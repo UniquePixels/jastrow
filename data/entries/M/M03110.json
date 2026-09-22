@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03110",
-	"slug": "מתרמרמותא",
-	"headword": {
-		"text": "מִתְרַמְרְמוּתָא"
-	},
+	"sefariaHeadword": "מִתְרַמְרְמוּתָא",
+	"headwords": [
+		{
+			"text": "מִתְרַמְרְמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "a"

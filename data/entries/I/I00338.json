@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00338",
-	"slug": "טייוב",
-	"headword": {
-		"text": "טִיּיוּב"
-	},
+	"sefariaHeadword": "טִיּיוּב",
+	"headwords": [
+		{
+			"text": "טִיּיוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 531,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00085",
-	"slug": "גביין",
-	"headword": {
-		"text": "גָּבְיָין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גָּבְיָין",
+	"headwords": [
+		{
+			"text": "גָּבְיָין",
+			"reconstructed": true
+		},
 		{
 			"text": "גָּבְיָן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 206,
 		"column": "b"

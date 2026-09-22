@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01105",
-	"slug": "רשעות",
-	"headword": {
-		"text": "רִשְׁעוּת"
-	},
+	"sefariaHeadword": "רִשְׁעוּת",
+	"headwords": [
+		{
+			"text": "רִשְׁעוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

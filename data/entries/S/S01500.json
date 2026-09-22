@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01500",
-	"slug": "קמריטון",
-	"headword": {
-		"text": "קמריטון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קמריטון",
+	"headwords": [
+		{
+			"text": "קמריטון"
+		},
 		{
 			"text": "קמריטין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1387,
 		"column": "a"

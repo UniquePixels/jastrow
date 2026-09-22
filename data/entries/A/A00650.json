@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00650",
-	"slug": "אוכמותא",
-	"headword": {
-		"text": "אוּכָּמוּתָא"
-	},
+	"sefariaHeadword": "אוּכָּמוּתָא",
+	"headwords": [
+		{
+			"text": "אוּכָּמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

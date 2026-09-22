@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00569",
-	"slug": "עילאה",
-	"headword": {
-		"text": "עִילָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִילָאָה",
+	"headwords": [
+		{
+			"text": "עִילָאָה"
+		},
 		{
 			"text": "עִילַאי"
 		},
 		{
-			"text": "עִל׳"
+			"text": "עִל׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1069,
 		"column": "b"

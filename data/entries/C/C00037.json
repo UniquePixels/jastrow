@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00037",
-	"slug": "גבאות",
-	"headword": {
-		"text": "גַּבָּאוּת"
-	},
+	"sefariaHeadword": "גַּבָּאוּת",
+	"headwords": [
+		{
+			"text": "גַּבָּאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 203,
 		"column": "b"

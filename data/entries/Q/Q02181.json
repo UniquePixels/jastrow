@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02181",
-	"slug": "פתכרא",
-	"headword": {
-		"text": "פְּתַכְרָא"
-	},
+	"sefariaHeadword": "פְּתַכְרָא",
+	"headwords": [
+		{
+			"text": "פְּתַכְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1254,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00157",
-	"slug": "גדאי",
-	"headword": {
-		"text": "גַּדַּאי"
-	},
+	"sefariaHeadword": "גַּדַּאי",
+	"headwords": [
+		{
+			"text": "גַּדַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 210,
 		"column": "a"

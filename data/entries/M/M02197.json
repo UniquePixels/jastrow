@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02197",
-	"slug": "מפוחא",
-	"headword": {
-		"text": "מַפּוּחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַפּוּחָא",
+	"headwords": [
+		{
+			"text": "מַפּוּחָא"
+		},
 		{
 			"text": "מַפּוּחָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "a"

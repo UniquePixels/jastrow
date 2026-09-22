@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02450",
-	"slug": "אסכולי",
-	"headword": {
-		"text": "אִסְכּוֹלִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְכּוֹלִי",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְכּוֹלִי"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 94,
 		"column": "a"

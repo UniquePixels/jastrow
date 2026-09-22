@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02593",
-	"slug": "אען",
-	"headword": {
-		"text": "אֲעָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲעָן",
+	"headwords": [
+		{
+			"text": "אֲעָן"
+		},
 		{
 			"text": "אָעְן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 99,
 		"column": "b"

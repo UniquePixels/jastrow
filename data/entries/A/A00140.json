@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00140",
-	"slug": "אביק-1",
-	"headword": {
-		"text": "אָבִיק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אָבִיק",
+	"headwords": [
+		{
+			"text": "אָבִיק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 6,
 		"column": "a"

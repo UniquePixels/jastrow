@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "R00609",
-	"slug": "צנה-3",
-	"headword": {
-		"text": "צִנָּה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנָּה ²",
+	"headwords": [
+		{
+			"text": "צִנָּה",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִינָּה",
 			"homograph": 3
 		}
 	],
+	"display": "{0} ², {1} III",
 	"page": {
 		"number": 1290,
 		"column": "b"

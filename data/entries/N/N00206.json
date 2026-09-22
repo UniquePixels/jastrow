@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00206",
-	"slug": "נדבותא",
-	"headword": {
-		"text": "נִדְבוּתָא"
-	},
+	"sefariaHeadword": "נִדְבוּתָא",
+	"headwords": [
+		{
+			"text": "נִדְבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 877,
 		"column": "b"

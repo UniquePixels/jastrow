@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00105",
-	"slug": "אבטליון",
-	"headword": {
-		"text": "אַבְטַלְיוֹן"
-	},
+	"sefariaHeadword": "אַבְטַלְיוֹן",
+	"headwords": [
+		{
+			"text": "אַבְטַלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 5,
 		"column": "a"

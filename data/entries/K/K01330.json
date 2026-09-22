@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01330",
-	"slug": "כשרותא",
-	"headword": {
-		"text": "כֵּשְׁרוּתָא"
-	},
+	"sefariaHeadword": "כֵּשְׁרוּתָא",
+	"headwords": [
+		{
+			"text": "כֵּשְׁרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 678,
 		"column": "a"

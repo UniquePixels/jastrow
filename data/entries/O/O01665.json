@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01665",
-	"slug": "סרק-4",
-	"headword": {
-		"text": "סְרַק",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְרַק ²",
+	"headwords": [
+		{
+			"text": "סְרַק",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1030,
 		"column": "a"

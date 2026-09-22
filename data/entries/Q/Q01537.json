@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01537",
-	"slug": "פראידתין",
-	"headword": {
-		"text": "פראידתין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פראידתין",
+	"headwords": [
+		{
+			"text": "פראידתין"
+		},
 		{
 			"text": "פראירתין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1213,
 		"column": "a"

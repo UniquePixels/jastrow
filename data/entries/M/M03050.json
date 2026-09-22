@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03050",
-	"slug": "מתיבא",
-	"headword": {
-		"text": "מְתִיבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְתִיבָא",
+	"headwords": [
+		{
+			"text": "מְתִיבָא"
+		},
 		{
 			"text": "מְתִיבְתָּא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 861,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M03051",
-	"slug": "מתיבתא",
-	"headword": {
-		"text": "מְתִיבְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מְתִיבְתָּא II",
+	"headwords": [
+		{
+			"text": "מְתִיבְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 861,
 		"column": "b"

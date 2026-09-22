@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00371",
-	"slug": "סוסיא-1",
-	"headword": {
-		"text": "סוּסְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סוּסְיָא I",
+	"headwords": [
+		{
+			"text": "סוּסְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 967,
 		"column": "a"

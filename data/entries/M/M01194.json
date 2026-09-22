@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01194",
-	"slug": "מילריא",
-	"headword": {
-		"text": "מילריא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מילריא",
+	"headwords": [
+		{
+			"text": "מילריא"
+		},
 		{
 			"text": "מילרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 775,
 		"column": "a"

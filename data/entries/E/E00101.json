@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00101",
-	"slug": "הדום",
-	"headword": {
-		"text": "הֲדוֹם"
-	},
+	"sefariaHeadword": "הֲדוֹם",
+	"headwords": [
+		{
+			"text": "הֲדוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 332,
 		"column": "b"

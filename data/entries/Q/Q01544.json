@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01544",
-	"slug": "פרביטא",
-	"headword": {
-		"text": "פרביטא"
-	},
+	"sefariaHeadword": "פרביטא",
+	"headwords": [
+		{
+			"text": "פרביטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "b"

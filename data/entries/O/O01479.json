@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01479",
-	"slug": "סקיפנטום",
-	"headword": {
-		"text": "סקיפנטום"
-	},
+	"sefariaHeadword": "סקיפנטום",
+	"headwords": [
+		{
+			"text": "סקיפנטום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "a"

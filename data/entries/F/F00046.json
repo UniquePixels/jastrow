@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00046",
-	"slug": "ויסיט",
-	"headword": {
-		"text": "ויסיט"
-	},
+	"sefariaHeadword": "ויסיט",
+	"headwords": [
+		{
+			"text": "ויסיט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

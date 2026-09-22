@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K00798",
-	"slug": "כמיהות",
-	"headword": {
-		"text": "כְּמֵיהוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּמֵיהוֹת",
+	"headwords": [
 		{
-			"text": "… יהִים"
+			"text": "כְּמֵיהוֹת"
 		},
 		{
-			"text": "… יהִין"
+			"text": "יהִים",
+			"partial": true
+		},
+		{
+			"text": "יהִין",
+			"partial": true
 		}
 	],
+	"display": "{0}, … {1}, … {2}",
 	"page": {
 		"number": 646,
 		"column": "b"

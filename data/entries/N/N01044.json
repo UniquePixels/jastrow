@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01044",
-	"slug": "נפילה",
-	"headword": {
-		"text": "נְפִילָה"
-	},
+	"sefariaHeadword": "נְפִילָה",
+	"headwords": [
+		{
+			"text": "נְפִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 924,
 		"column": "a"

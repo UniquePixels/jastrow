@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00713",
-	"slug": "חיטני",
-	"headword": {
-		"text": "חִיטְּנֵי"
-	},
+	"sefariaHeadword": "חִיטְּנֵי",
+	"headwords": [
+		{
+			"text": "חִיטְּנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

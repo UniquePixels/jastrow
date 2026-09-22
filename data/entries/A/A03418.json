@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03418",
-	"slug": "אתכותא",
-	"headword": {
-		"text": "אַתָּכוּתָא"
-	},
+	"sefariaHeadword": "אַתָּכוּתָא",
+	"headwords": [
+		{
+			"text": "אַתָּכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00357",
-	"slug": "זילותא",
-	"headword": {
-		"text": "זִילוּתָא"
-	},
+	"sefariaHeadword": "זִילוּתָא",
+	"headwords": [
+		{
+			"text": "זִילוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "a"

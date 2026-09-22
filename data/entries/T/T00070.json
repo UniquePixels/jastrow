@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00070",
-	"slug": "רבוכה",
-	"headword": {
-		"text": "רְבוּכָה"
-	},
+	"sefariaHeadword": "רְבוּכָה",
+	"headwords": [
+		{
+			"text": "רְבוּכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1440,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02073",
-	"slug": "אמתא-1",
-	"headword": {
-		"text": "אַמְּתָא"
-	},
+	"sefariaHeadword": "אַמְּתָא",
+	"headwords": [
+		{
+			"text": "אַמְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "b"

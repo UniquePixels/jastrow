@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00548",
-	"slug": "עיי״ן",
-	"headword": {
-		"text": "עיי״ן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עיי\"ן",
+	"headwords": [
+		{
+			"text": "עיי״ן"
+		},
 		{
 			"text": "עי״ן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1069,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00708",
-	"slug": "בירוס",
-	"headword": {
-		"text": "בִּירוֹס"
-	},
+	"sefariaHeadword": "בִּירוֹס",
+	"headwords": [
+		{
+			"text": "בִּירוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "a"

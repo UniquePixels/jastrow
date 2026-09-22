@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00391",
-	"slug": "פורקן",
-	"headword": {
-		"text": "פּוּרְקָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְקָן",
+	"headwords": [
+		{
+			"text": "פּוּרְקָן"
+		},
 		{
 			"text": "פּוּרְקָנָא"
 		},
 		{
-			"text": "פֻּרְ׳"
+			"text": "פֻּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1148,
 		"column": "b"

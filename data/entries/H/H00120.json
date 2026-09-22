@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00120",
-	"slug": "חברורא",
-	"headword": {
-		"text": "חַבְרוּרָא"
-	},
+	"sefariaHeadword": "חַבְרוּרָא",
+	"headwords": [
+		{
+			"text": "חַבְרוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 422,
 		"column": "b"

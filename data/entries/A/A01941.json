@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01941",
-	"slug": "אלפבתרין",
-	"headword": {
-		"text": "אלפבתרין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אלפבתרין",
+	"headwords": [
+		{
+			"text": "אלפבתרין"
+		},
 		{
 			"text": "אלפנטרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "a"

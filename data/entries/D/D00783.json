@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00783",
-	"slug": "דכן-2",
-	"headword": {
-		"text": "דָּכַן"
-	},
+	"sefariaHeadword": "דָּכַן",
+	"headwords": [
+		{
+			"text": "דָּכַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 307,
 		"column": "b"

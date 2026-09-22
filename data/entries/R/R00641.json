@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00641",
-	"slug": "צנף-1",
-	"headword": {
-		"text": "צָנַף"
-	},
+	"sefariaHeadword": "צָנַף",
+	"headwords": [
+		{
+			"text": "צָנַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "a"

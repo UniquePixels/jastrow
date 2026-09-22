@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02575",
-	"slug": "מרודא",
-	"headword": {
-		"text": "מְרוֹדָא"
-	},
+	"sefariaHeadword": "מְרוֹדָא",
+	"headwords": [
+		{
+			"text": "מְרוֹדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

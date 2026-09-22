@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01704",
-	"slug": "פרוסביטוס",
-	"headword": {
-		"text": "פרוסביטוס"
-	},
+	"sefariaHeadword": "פרוסביטוס",
+	"headwords": [
+		{
+			"text": "פרוסביטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

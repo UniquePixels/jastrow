@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03306",
-	"slug": "אשכי",
-	"headword": {
-		"text": "אַשְׁכִּי"
-	},
+	"sefariaHeadword": "אַשְׁכִּי",
+	"headwords": [
+		{
+			"text": "אַשְׁכִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "b"

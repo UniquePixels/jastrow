@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00421",
-	"slug": "חופא",
-	"headword": {
-		"text": "חוֹפָא"
-	},
+	"sefariaHeadword": "חוֹפָא",
+	"headwords": [
+		{
+			"text": "חוֹפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 437,
 		"column": "a"

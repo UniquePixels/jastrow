@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00550",
-	"slug": "נטופתי",
-	"headword": {
-		"text": "נְטוֹפָתִי"
-	},
+	"sefariaHeadword": "נְטוֹפָתִי",
+	"headwords": [
+		{
+			"text": "נְטוֹפָתִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 898,
 		"column": "a"

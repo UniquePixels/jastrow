@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01798",
-	"slug": "פריות",
-	"headword": {
-		"text": "פַּרְיוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פַּרְיוֹת",
+	"headwords": [
+		{
+			"text": "פַּרְיוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

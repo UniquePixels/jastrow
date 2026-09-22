@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02150",
-	"slug": "מעסרא",
-	"headword": {
-		"text": "מַעַסְרָא"
-	},
+	"sefariaHeadword": "מַעַסְרָא",
+	"headwords": [
+		{
+			"text": "מַעַסְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

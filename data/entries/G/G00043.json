@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00043",
-	"slug": "זבית",
-	"headword": {
-		"text": "זבית"
-	},
+	"sefariaHeadword": "זבית",
+	"headwords": [
+		{
+			"text": "זבית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "a"

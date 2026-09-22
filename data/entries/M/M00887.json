@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00887",
-	"slug": "מחלא",
-	"headword": {
-		"text": "מְחִלָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחִלָּא",
+	"headwords": [
+		{
+			"text": "מְחִלָּא"
+		},
 		{
 			"text": "מְחִילָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 761,
 		"column": "b"

@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "V00541",
-	"slug": "תכל-4",
-	"headword": {
-		"text": "תְּכָל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תְּכָל",
+	"headwords": [
+		{
+			"text": "תְּכָל"
+		},
 		{
 			"text": "תִּכְלָא"
 		},
 		{
 			"text": "תִּי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1668,
 		"column": "b"

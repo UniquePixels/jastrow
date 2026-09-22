@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00083",
-	"slug": "גביח",
-	"headword": {
-		"text": "גְּבִיחַ"
-	},
+	"sefariaHeadword": "גְּבִיחַ",
+	"headwords": [
+		{
+			"text": "גְּבִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "a"

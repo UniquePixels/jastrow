@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00103",
-	"slug": "נבעה",
-	"headword": {
-		"text": "נַבְעָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נַבְעָה",
+	"headwords": [
+		{
+			"text": "נַבְעָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 870,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "F00044",
-	"slug": "ויניא",
-	"headword": {
-		"text": "וַיָּנַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "וַיָּנַיָּא",
+	"headwords": [
+		{
+			"text": "וַיָּנַיָּא"
+		},
 		{
 			"text": "וַויָּנַיָּיה"
 		},
 		{
-			"text": "וָהוֹנַ׳"
+			"text": "וָהוֹנַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 373,
 		"column": "b"

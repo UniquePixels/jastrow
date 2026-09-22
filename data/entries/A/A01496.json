@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01496",
-	"slug": "איסקודרי",
-	"headword": {
-		"text": "אִיסְקוּדְרֵי"
-	},
+	"sefariaHeadword": "אִיסְקוּדְרֵי",
+	"headwords": [
+		{
+			"text": "אִיסְקוּדְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "b"

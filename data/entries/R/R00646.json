@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00646",
-	"slug": "צנתרין",
-	"headword": {
-		"text": "צַנְתְּרִין"
-	},
+	"sefariaHeadword": "צַנְתְּרִין",
+	"headwords": [
+		{
+			"text": "צַנְתְּרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1293,
 		"column": "b"

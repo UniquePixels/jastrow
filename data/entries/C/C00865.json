@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C00865",
-	"slug": "גלגול-2",
-	"headword": {
-		"text": "גִּלְגּוּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּלְגּוּל ²",
+	"headwords": [
 		{
-			"text": "גִּילְ׳"
+			"text": "גִּלְגּוּל",
+			"disambiguator": 2
+		},
+		{
+			"text": "גִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 244,
 		"column": "a"

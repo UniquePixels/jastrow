@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00562",
-	"slug": "כין",
-	"headword": {
-		"text": "כֵּין"
-	},
+	"sefariaHeadword": "כֵּין",
+	"headwords": [
+		{
+			"text": "כֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 633,
 		"column": "a"

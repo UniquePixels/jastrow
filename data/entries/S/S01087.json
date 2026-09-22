@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01087",
-	"slug": "קיסריון",
-	"headword": {
-		"text": "קֵיסַרִיּוֹן"
-	},
+	"sefariaHeadword": "קֵיסַרִיּוֹן",
+	"headwords": [
+		{
+			"text": "קֵיסַרִיּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1365,
 		"column": "b"

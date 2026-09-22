@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01094",
-	"slug": "אטליס",
-	"headword": {
-		"text": "אַטְלֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַטְלֵיס",
+	"headwords": [
+		{
+			"text": "אַטְלֵיס"
+		},
 		{
 			"text": "אַטְלֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 43,
 		"column": "a"

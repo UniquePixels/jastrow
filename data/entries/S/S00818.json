@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00818",
-	"slug": "קטפרטקיס",
-	"headword": {
-		"text": "קטפרטקיס"
-	},
+	"sefariaHeadword": "קטפרטקיס",
+	"headwords": [
+		{
+			"text": "קטפרטקיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1352,
 		"column": "a"

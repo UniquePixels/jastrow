@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01349",
-	"slug": "פספס-5",
-	"headword": {
-		"text": "פִּסְפָּס"
-	},
+	"sefariaHeadword": "פִּסְפָּס",
+	"headwords": [
+		{
+			"text": "פִּסְפָּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1199,
 		"column": "b"

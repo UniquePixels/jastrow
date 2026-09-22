@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00089",
-	"slug": "רביותא",
-	"headword": {
-		"text": "רַבְיוּתָא"
-	},
+	"sefariaHeadword": "רַבְיוּתָא",
+	"headwords": [
+		{
+			"text": "רַבְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1442,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00887",
-	"slug": "פישרא",
-	"headword": {
-		"text": "פִּישְׁרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּישְׁרָא",
+	"headwords": [
 		{
-			"text": "פִּשְׁ׳"
+			"text": "פִּישְׁרָא"
+		},
+		{
+			"text": "פִּשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1172,
 		"column": "b"

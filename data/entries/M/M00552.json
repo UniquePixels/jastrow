@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00552",
-	"slug": "מוסרא",
-	"headword": {
-		"text": "מוֹסֵרָא"
-	},
+	"sefariaHeadword": "מוֹסֵרָא",
+	"headwords": [
+		{
+			"text": "מוֹסֵרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 745,
 		"column": "a"

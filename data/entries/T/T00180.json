@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00180",
-	"slug": "רגזנא",
-	"headword": {
-		"text": "רַגְזָנָא"
-	},
+	"sefariaHeadword": "רַגְזָנָא",
+	"headwords": [
+		{
+			"text": "רַגְזָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "b"

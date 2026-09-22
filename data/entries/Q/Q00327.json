@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00327",
-	"slug": "פוקרין",
-	"headword": {
-		"text": "פוֹקָרִין"
-	},
+	"sefariaHeadword": "פוֹקָרִין",
+	"headwords": [
+		{
+			"text": "פוֹקָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "a"

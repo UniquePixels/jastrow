@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01976",
-	"slug": "פרצוף",
-	"headword": {
-		"text": "פַּרְצוֹף"
-	},
+	"sefariaHeadword": "פַּרְצוֹף",
+	"headwords": [
+		{
+			"text": "פַּרְצוֹף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1238,
 		"column": "a"

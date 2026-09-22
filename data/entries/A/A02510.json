@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02510",
-	"slug": "אספסתא",
-	"headword": {
-		"text": "אַסְפַּסְתָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַסְפַּסְתָּא",
+	"headwords": [
+		{
+			"text": "אַסְפַּסְתָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 96,
 		"column": "a"

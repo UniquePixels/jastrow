@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02210",
-	"slug": "מפטרא-2",
-	"headword": {
-		"text": "מִפְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִפְטְרָא",
+	"headwords": [
+		{
+			"text": "מִפְטְרָא"
+		},
 		{
 			"text": "מִפַּטְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"

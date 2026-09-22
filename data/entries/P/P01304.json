@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01304",
-	"slug": "ערדען",
-	"headword": {
-		"text": "עֻרְדְּעָן"
-	},
+	"sefariaHeadword": "עֻרְדְּעָן",
+	"headwords": [
+		{
+			"text": "עֻרְדְּעָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

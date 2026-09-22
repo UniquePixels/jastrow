@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00932",
-	"slug": "רפה-2",
-	"headword": {
-		"text": "רָפֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָפֶה",
+	"headwords": [
+		{
+			"text": "רָפֶה"
+		},
 		{
 			"text": "רָפָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1489,
 		"column": "a"

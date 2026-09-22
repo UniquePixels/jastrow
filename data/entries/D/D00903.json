@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00903",
-	"slug": "דמם",
-	"headword": {
-		"text": "דָּמַם"
-	},
+	"sefariaHeadword": "דָּמַם",
+	"headwords": [
+		{
+			"text": "דָּמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "a"

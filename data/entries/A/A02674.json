@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02674",
-	"slug": "אפיטרופא",
-	"headword": {
-		"text": "אֶפִּיטְרוֹפָּא"
-	},
+	"sefariaHeadword": "אֶפִּיטְרוֹפָּא",
+	"headwords": [
+		{
+			"text": "אֶפִּיטְרוֹפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "b"

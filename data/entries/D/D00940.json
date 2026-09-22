@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00940",
-	"slug": "דעד",
-	"headword": {
-		"text": "דעד"
-	},
+	"sefariaHeadword": "דעד",
+	"headwords": [
+		{
+			"text": "דעד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

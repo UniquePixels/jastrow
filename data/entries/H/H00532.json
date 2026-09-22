@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00532",
-	"slug": "חזיון-2",
-	"headword": {
-		"text": "חִזָּיוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חִזָּיוֹן II",
+	"headwords": [
+		{
+			"text": "חִזָּיוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 443,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00104",
-	"slug": "מגאגא",
-	"headword": {
-		"text": "מְגָאגָא"
-	},
+	"sefariaHeadword": "מְגָאגָא",
+	"headwords": [
+		{
+			"text": "מְגָאגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "b"

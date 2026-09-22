@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00956",
-	"slug": "אזדא",
-	"headword": {
-		"text": "אַזְדָּא"
-	},
+	"sefariaHeadword": "אַזְדָּא",
+	"headwords": [
+		{
+			"text": "אַזְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

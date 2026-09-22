@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01093",
-	"slug": "חלמות",
-	"headword": {
-		"text": "חַלָּמוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַלָּמוּת",
+	"headwords": [
+		{
+			"text": "חַלָּמוּת"
+		},
 		{
 			"text": "חַלָּמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 471,
 		"column": "b"

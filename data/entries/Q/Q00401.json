@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00401",
-	"slug": "פושכא",
-	"headword": {
-		"text": "פּוּשְׁכָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּשְׁכָּא",
+	"headwords": [
+		{
+			"text": "פּוּשְׁכָּא"
+		},
 		{
 			"text": "פְּשַׁךְ"
 		},
@@ -12,6 +13,7 @@
 			"text": "פֻּשְׁכָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1149,
 		"column": "a"

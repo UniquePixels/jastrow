@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01059",
-	"slug": "דרומוסקוס",
-	"headword": {
-		"text": "דרומוסקוס"
-	},
+	"sefariaHeadword": "דרומוסקוס",
+	"headwords": [
+		{
+			"text": "דרומוסקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00912",
-	"slug": "תקרה",
-	"headword": {
-		"text": "תִּקְרָה"
-	},
+	"sefariaHeadword": "תִּקְרָה",
+	"headwords": [
+		{
+			"text": "תִּקְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1694,
 		"column": "a"

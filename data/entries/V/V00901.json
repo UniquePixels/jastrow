@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00901",
-	"slug": "תקן-3",
-	"headword": {
-		"text": "תִּקָּן"
-	},
+	"sefariaHeadword": "תִּקָּן",
+	"headwords": [
+		{
+			"text": "תִּקָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1692,
 		"column": "b"

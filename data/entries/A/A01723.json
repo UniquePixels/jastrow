@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01723",
-	"slug": "אכסיגרון",
-	"headword": {
-		"text": "אָכְסִיגָרוֹן"
-	},
+	"sefariaHeadword": "אָכְסִיגָרוֹן",
+	"headwords": [
+		{
+			"text": "אָכְסִיגָרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

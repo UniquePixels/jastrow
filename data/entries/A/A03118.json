@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03118",
-	"slug": "אריסטון-2",
-	"headword": {
-		"text": "אֲרִיסְטוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אֲרִיסְטוֹן II",
+	"headwords": [
+		{
+			"text": "אֲרִיסְטוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 120,
 		"column": "b"

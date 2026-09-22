@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00377",
-	"slug": "חומטין",
-	"headword": {
-		"text": "חוּמְטִין"
-	},
+	"sefariaHeadword": "חוּמְטִין",
+	"headwords": [
+		{
+			"text": "חוּמְטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 435,
 		"column": "b"

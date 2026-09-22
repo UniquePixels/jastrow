@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00043",
-	"slug": "עביא",
-	"headword": {
-		"text": "עַבְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*עַבְיָא",
+	"headwords": [
+		{
+			"text": "עַבְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

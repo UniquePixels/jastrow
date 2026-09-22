@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00462",
-	"slug": "פחז-3",
-	"headword": {
-		"text": "פַּחַז"
-	},
+	"sefariaHeadword": "פַּחַז",
+	"headwords": [
+		{
+			"text": "פַּחַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1152,
 		"column": "a"

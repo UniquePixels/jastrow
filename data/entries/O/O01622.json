@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01622",
-	"slug": "סריסא-2",
-	"headword": {
-		"text": "סָרִיסָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סָרִיסָא II",
+	"headwords": [
+		{
+			"text": "סָרִיסָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1027,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01354",
-	"slug": "חסולא",
-	"headword": {
-		"text": "חִסּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִסּוּלָא",
+	"headwords": [
+		{
+			"text": "חִסּוּלָא"
+		},
 		{
 			"text": "חִסּוּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 486,
 		"column": "b"

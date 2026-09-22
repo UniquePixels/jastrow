@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00210",
-	"slug": "מגרה",
-	"headword": {
-		"text": "מְגֵרָה"
-	},
+	"sefariaHeadword": "מְגֵרָה",
+	"headwords": [
+		{
+			"text": "מְגֵרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "a"

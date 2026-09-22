@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00957",
-	"slug": "רפף-1",
-	"headword": {
-		"text": "רָפַף"
-	},
+	"sefariaHeadword": "רָפַף",
+	"headwords": [
+		{
+			"text": "רָפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1491,
 		"column": "a"

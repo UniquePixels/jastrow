@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00806",
-	"slug": "עלילותא",
-	"headword": {
-		"text": "עֲלִילוּתָא"
-	},
+	"sefariaHeadword": "עֲלִילוּתָא",
+	"headwords": [
+		{
+			"text": "עֲלִילוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1083,
 		"column": "b"

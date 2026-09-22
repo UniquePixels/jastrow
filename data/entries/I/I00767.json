@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00767",
-	"slug": "טרי-3",
-	"headword": {
-		"text": "טרי"
-	},
+	"sefariaHeadword": "טרי",
+	"headwords": [
+		{
+			"text": "טרי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 552,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02231",
-	"slug": "מפסועיתא",
-	"headword": {
-		"text": "מִפְסוֹעִיתָא"
-	},
+	"sefariaHeadword": "מִפְסוֹעִיתָא",
+	"headwords": [
+		{
+			"text": "מִפְסוֹעִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

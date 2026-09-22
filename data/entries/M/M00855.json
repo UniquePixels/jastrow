@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00855",
-	"slug": "מחטפא",
-	"headword": {
-		"text": "מְחַטְפָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְחַטְפָא",
+	"headwords": [
+		{
+			"text": "מְחַטְפָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 759,
 		"column": "a"

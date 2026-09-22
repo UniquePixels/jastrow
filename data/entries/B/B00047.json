@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00047",
-	"slug": "באש",
-	"headword": {
-		"text": "בָּאַשׁ"
-	},
+	"sefariaHeadword": "בָּאַשׁ",
+	"headwords": [
+		{
+			"text": "בָּאַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00265",
-	"slug": "כולבסין",
-	"headword": {
-		"text": "כולבסין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כולבסין",
+	"headwords": [
 		{
-			"text": "כולכ׳"
+			"text": "כולבסין"
+		},
+		{
+			"text": "כולכ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 620,
 		"column": "a"

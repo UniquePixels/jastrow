@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01097",
-	"slug": "מידמכא",
-	"headword": {
-		"text": "מִידְמְכָא"
-	},
+	"sefariaHeadword": "מִידְמְכָא",
+	"headwords": [
+		{
+			"text": "מִידְמְכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

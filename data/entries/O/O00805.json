@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00805",
-	"slug": "סיפרא",
-	"headword": {
-		"text": "סִיפְרָא"
-	},
+	"sefariaHeadword": "סִיפְרָא",
+	"headwords": [
+		{
+			"text": "סִיפְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 985,
 		"column": "b"

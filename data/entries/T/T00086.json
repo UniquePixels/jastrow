@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00086",
-	"slug": "רבי-7",
-	"headword": {
-		"text": "רָבֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רָבֵי",
+	"headwords": [
+		{
+			"text": "רָבֵי"
+		},
 		{
 			"text": "רָבְיָא"
 		},
 		{
-			"text": "רַ׳"
+			"text": "רַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1442,
 		"column": "a"

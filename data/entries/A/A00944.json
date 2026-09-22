@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00944",
-	"slug": "אותיא",
-	"headword": {
-		"text": "אוּתְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּתְיָא",
+	"headwords": [
+		{
+			"text": "אוּתְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 36,
 		"column": "b"

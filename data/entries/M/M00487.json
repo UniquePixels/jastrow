@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00487",
-	"slug": "מולאי",
-	"headword": {
-		"text": "מוּלָּאֵי"
-	},
+	"sefariaHeadword": "מוּלָּאֵי",
+	"headwords": [
+		{
+			"text": "מוּלָּאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

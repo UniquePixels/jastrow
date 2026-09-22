@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01157",
-	"slug": "דשתנא",
-	"headword": {
-		"text": "דִּשְׁתָּנָא"
-	},
+	"sefariaHeadword": "דִּשְׁתָּנָא",
+	"headwords": [
+		{
+			"text": "דִּשְׁתָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

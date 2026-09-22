@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00275",
-	"slug": "כולכא",
-	"headword": {
-		"text": "כּוּלְּכָא"
-	},
+	"sefariaHeadword": "כּוּלְּכָא",
+	"headwords": [
+		{
+			"text": "כּוּלְּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

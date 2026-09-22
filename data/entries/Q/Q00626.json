@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00626",
-	"slug": "פיטלון",
-	"headword": {
-		"text": "פִּיטָלוֹן"
-	},
+	"sefariaHeadword": "פִּיטָלוֹן",
+	"headwords": [
+		{
+			"text": "פִּיטָלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1161,
 		"column": "b"

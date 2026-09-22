@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03014",
-	"slug": "ארו",
-	"headword": {
-		"text": "אֲרוּ"
-	},
+	"sefariaHeadword": "אֲרוּ",
+	"headwords": [
+		{
+			"text": "אֲרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

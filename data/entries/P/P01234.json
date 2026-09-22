@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01234",
-	"slug": "ער-2",
-	"headword": {
-		"text": "עָר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָר ²",
+	"headwords": [
+		{
+			"text": "עָר",
+			"disambiguator": 2
+		},
 		{
 			"text": "עָרָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1109,
 		"column": "b"

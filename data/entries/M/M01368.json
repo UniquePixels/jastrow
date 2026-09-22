@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01368",
-	"slug": "מכושא",
-	"headword": {
-		"text": "מַכּוֹשָׁא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַכּוֹשָׁא II",
+	"headwords": [
+		{
+			"text": "מַכּוֹשָׁא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 782,
 		"column": "a"

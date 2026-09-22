@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02425",
-	"slug": "מקלוט",
-	"headword": {
-		"text": "מַקְלוֹט"
-	},
+	"sefariaHeadword": "מַקְלוֹט",
+	"headwords": [
+		{
+			"text": "מַקְלוֹט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 831,
 		"column": "a"

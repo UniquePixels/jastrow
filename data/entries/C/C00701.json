@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00701",
-	"slug": "גייד-1",
-	"headword": {
-		"text": "גִּיֵּיד"
-	},
+	"sefariaHeadword": "גִּיֵּיד",
+	"headwords": [
+		{
+			"text": "גִּיֵּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

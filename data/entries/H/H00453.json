@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00453",
-	"slug": "חורב",
-	"headword": {
-		"text": "חוֹרֶב"
-	},
+	"sefariaHeadword": "חוֹרֶב",
+	"headwords": [
+		{
+			"text": "חוֹרֶב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 439,
 		"column": "b"

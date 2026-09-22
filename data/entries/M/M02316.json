@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02316",
-	"slug": "מציטאר",
-	"headword": {
-		"text": "מציטאר"
-	},
+	"sefariaHeadword": "מציטאר",
+	"headwords": [
+		{
+			"text": "מציטאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

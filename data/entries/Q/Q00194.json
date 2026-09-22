@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00194",
-	"slug": "פוטליילוס",
-	"headword": {
-		"text": "פוטליילוס"
-	},
+	"sefariaHeadword": "פוטליילוס",
+	"headwords": [
+		{
+			"text": "פוטליילוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

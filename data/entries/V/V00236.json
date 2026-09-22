@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00236",
-	"slug": "תון-2",
-	"headword": {
-		"text": "תּוּן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תּוּן I",
+	"headwords": [
+		{
+			"text": "תּוּן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1654,
 		"column": "a"

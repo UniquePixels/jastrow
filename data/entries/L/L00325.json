@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00325",
-	"slug": "לוש-1",
-	"headword": {
-		"text": "לוּשׁ"
-	},
+	"sefariaHeadword": "לוּשׁ",
+	"headwords": [
+		{
+			"text": "לוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

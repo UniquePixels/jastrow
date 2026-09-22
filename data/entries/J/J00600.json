@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00600",
-	"slug": "ירדנא",
-	"headword": {
-		"text": "יַרְדְּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַרְדְּנָא",
+	"headwords": [
+		{
+			"text": "יַרְדְּנָא"
+		},
 		{
 			"text": "יוֹרְדְּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 594,
 		"column": "b"

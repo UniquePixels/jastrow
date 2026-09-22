@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00586",
-	"slug": "גחיך",
-	"headword": {
-		"text": "גְּחִיךְ"
-	},
+	"sefariaHeadword": "גְּחִיךְ",
+	"headwords": [
+		{
+			"text": "גְּחִיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

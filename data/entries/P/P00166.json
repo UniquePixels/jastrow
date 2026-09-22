@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00166",
-	"slug": "עדר-4",
-	"headword": {
-		"text": "עֵדֶר"
-	},
+	"sefariaHeadword": "עֵדֶר",
+	"headwords": [
+		{
+			"text": "עֵדֶר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1046,
 		"column": "a"

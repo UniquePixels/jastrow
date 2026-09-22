@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01346",
-	"slug": "שלל-4",
-	"headword": {
-		"text": "שָׁלָל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁלָל II",
+	"headwords": [
+		{
+			"text": "שָׁלָל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1585,
 		"column": "a"

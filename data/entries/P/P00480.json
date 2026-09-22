@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00480",
-	"slug": "עטרה",
-	"headword": {
-		"text": "עֲטָרָה"
-	},
+	"sefariaHeadword": "עֲטָרָה",
+	"headwords": [
+		{
+			"text": "עֲטָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "a"

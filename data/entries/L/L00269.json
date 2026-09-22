@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00269",
-	"slug": "לולאות",
-	"headword": {
-		"text": "לוּלָאוֹת"
-	},
+	"sefariaHeadword": "לוּלָאוֹת",
+	"headwords": [
+		{
+			"text": "לוּלָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 698,
 		"column": "b"

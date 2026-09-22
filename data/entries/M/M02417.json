@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02417",
-	"slug": "מקידה",
-	"headword": {
-		"text": "מַקֵּידָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַקֵּידָה",
+	"headwords": [
+		{
+			"text": "מַקֵּידָה"
+		},
 		{
 			"text": "מַקֵּדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 830,
 		"column": "b"

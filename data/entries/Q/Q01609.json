@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01609",
-	"slug": "פרואמה",
-	"headword": {
-		"text": "פרואמה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פרואמה",
+	"headwords": [
 		{
-			"text": "פרואמי׳"
+			"text": "פרואמה"
+		},
+		{
+			"text": "פרואמי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1217,
 		"column": "a"

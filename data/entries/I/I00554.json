@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00554",
-	"slug": "טמם-1",
-	"headword": {
-		"text": "טָמַם"
-	},
+	"sefariaHeadword": "טָמַם",
+	"headwords": [
+		{
+			"text": "טָמַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "a"

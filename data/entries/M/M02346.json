@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02346",
-	"slug": "מצעיא",
-	"headword": {
-		"text": "מַצְעָיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַצְעָיָא",
+	"headwords": [
+		{
+			"text": "מַצְעָיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 827,
 		"column": "b"

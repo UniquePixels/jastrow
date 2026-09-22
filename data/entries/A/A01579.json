@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01579",
-	"slug": "איצטניסית",
-	"headword": {
-		"text": "אִיצְטְנִיסִית"
-	},
+	"sefariaHeadword": "אִיצְטְנִיסִית",
+	"headwords": [
+		{
+			"text": "אִיצְטְנִיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "b"

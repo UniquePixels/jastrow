@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00938",
-	"slug": "נסיך-1",
-	"headword": {
-		"text": "נְסֵיךְ"
-	},
+	"sefariaHeadword": "נְסֵיךְ",
+	"headwords": [
+		{
+			"text": "נְסֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 916,
 		"column": "b"

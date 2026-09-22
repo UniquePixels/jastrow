@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02010",
-	"slug": "פרקמטיתא",
-	"headword": {
-		"text": "פְּרַקְמַטְיְתָא"
-	},
+	"sefariaHeadword": "פְּרַקְמַטְיְתָא",
+	"headwords": [
+		{
+			"text": "פְּרַקְמַטְיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

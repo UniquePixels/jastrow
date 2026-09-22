@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00281",
-	"slug": "סוחר",
-	"headword": {
-		"text": "סוֹחֵר"
-	},
+	"sefariaHeadword": "סוֹחֵר",
+	"headwords": [
+		{
+			"text": "סוֹחֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "b"

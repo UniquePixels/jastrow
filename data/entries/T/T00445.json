@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00445",
-	"slug": "רורב",
-	"headword": {
-		"text": "רוֹרֵב"
-	},
+	"sefariaHeadword": "רוֹרֵב",
+	"headwords": [
+		{
+			"text": "רוֹרֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00258",
-	"slug": "צורנייתא",
-	"headword": {
-		"text": "צַוַּרְנְיָיתָא"
-	},
+	"sefariaHeadword": "צַוַּרְנְיָיתָא",
+	"headwords": [
+		{
+			"text": "צַוַּרְנְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1272,
 		"column": "a"

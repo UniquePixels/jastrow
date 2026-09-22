@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00110",
-	"slug": "תדירא",
-	"headword": {
-		"text": "תְּדִירָא"
-	},
+	"sefariaHeadword": "תְּדִירָא",
+	"headwords": [
+		{
+			"text": "תְּדִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1647,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01359",
-	"slug": "פסקיא",
-	"headword": {
-		"text": "פְּסִקְיָא"
-	},
+	"sefariaHeadword": "פְּסִקְיָא",
+	"headwords": [
+		{
+			"text": "פְּסִקְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1201,
 		"column": "b"

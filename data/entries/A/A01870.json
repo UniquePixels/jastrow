@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "A01870",
-	"slug": "אליס-1",
-	"headword": {
-		"text": "אָלִיס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אָלִיס",
+	"headwords": [
+		{
+			"text": "אָלִיס",
+			"reconstructed": true
+		},
 		{
 			"text": "אֲלִיס"
 		},
@@ -13,6 +14,7 @@
 			"text": "אִילִיס"
 		}
 	],
+	"display": "*{0}, {1}, ({2})",
 	"page": {
 		"number": 69,
 		"column": "b"

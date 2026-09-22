@@ -1,17 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "B00264",
-	"slug": "בולי-1",
-	"headword": {
-		"text": "בּוּלִי",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*בּוּלִי I",
+	"headwords": [
+		{
+			"text": "בּוּלִי",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 146,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

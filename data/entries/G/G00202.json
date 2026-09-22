@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00202",
-	"slug": "זונין-1",
-	"headword": {
-		"text": "זוֹנִין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "זוֹנִין I",
+	"headwords": [
+		{
+			"text": "זוֹנִין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 388,
 		"column": "a"

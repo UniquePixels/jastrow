@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02677",
-	"slug": "אפיטרופסות",
-	"headword": {
-		"text": "אֶפִּיטְרוֹפְסוּת"
-	},
+	"sefariaHeadword": "אֶפִּיטְרוֹפְסוּת",
+	"headwords": [
+		{
+			"text": "אֶפִּיטְרוֹפְסוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "b"

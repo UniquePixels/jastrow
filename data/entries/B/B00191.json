@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00191",
-	"slug": "בהר-2",
-	"headword": {
-		"text": "בְּהַר"
-	},
+	"sefariaHeadword": "בְּהַר",
+	"headwords": [
+		{
+			"text": "בְּהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "b"

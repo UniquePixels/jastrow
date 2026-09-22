@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01035",
-	"slug": "דרג-1",
-	"headword": {
-		"text": "דָּרַג"
-	},
+	"sefariaHeadword": "דָּרַג",
+	"headwords": [
+		{
+			"text": "דָּרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 320,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00088",
-	"slug": "אבטו",
-	"headword": {
-		"text": "אבטו"
-	},
+	"sefariaHeadword": "אבטו",
+	"headwords": [
+		{
+			"text": "אבטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

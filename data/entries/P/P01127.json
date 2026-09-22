@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01127",
-	"slug": "עצם-1",
-	"headword": {
-		"text": "עָצַם"
-	},
+	"sefariaHeadword": "עָצַם",
+	"headwords": [
+		{
+			"text": "עָצַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1102,
 		"column": "b"

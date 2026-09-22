@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00671",
-	"slug": "אוליאר",
-	"headword": {
-		"text": "אוֹלְיָאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹלְיָאר",
+	"headwords": [
+		{
+			"text": "אוֹלְיָאר"
+		},
 		{
 			"text": "אוֹלְיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 26,
 		"column": "a"

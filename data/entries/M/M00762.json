@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00762",
-	"slug": "מזל-2",
-	"headword": {
-		"text": "מַזָּל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַזָּל ²",
+	"headwords": [
+		{
+			"text": "מַזָּל",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַזָּלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 755,
 		"column": "b"

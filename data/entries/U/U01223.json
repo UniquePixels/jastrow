@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01223",
-	"slug": "שלחי",
-	"headword": {
-		"text": "שִׁלְחֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁלְחֵי",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁלְחֵי"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1578,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01358",
-	"slug": "ספימטא",
-	"headword": {
-		"text": "ספימטא"
-	},
+	"sefariaHeadword": "ספימטא",
+	"headwords": [
+		{
+			"text": "ספימטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

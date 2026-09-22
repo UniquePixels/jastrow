@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01315",
-	"slug": "ספד-1",
-	"headword": {
-		"text": "סָפַד"
-	},
+	"sefariaHeadword": "סָפַד",
+	"headwords": [
+		{
+			"text": "סָפַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1011,
 		"column": "b"

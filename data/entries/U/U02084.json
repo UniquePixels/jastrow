@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02084",
-	"slug": "שתוקי",
-	"headword": {
-		"text": "שְׁתוּקִי"
-	},
+	"sefariaHeadword": "שְׁתוּקִי",
+	"headwords": [
+		{
+			"text": "שְׁתוּקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "a"

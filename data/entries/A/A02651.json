@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02651",
-	"slug": "אפז",
-	"headword": {
-		"text": "אָפֵז"
-	},
+	"sefariaHeadword": "אָפֵז",
+	"headwords": [
+		{
+			"text": "אָפֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00299",
-	"slug": "עוני-2",
-	"headword": {
-		"text": "עוֹנִי"
-	},
+	"sefariaHeadword": "עוֹנִי",
+	"headwords": [
+		{
+			"text": "עוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "a"

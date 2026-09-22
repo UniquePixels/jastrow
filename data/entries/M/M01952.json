@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "M01952",
-	"slug": "מסכנו",
-	"headword": {
-		"text": "מִסְכֵּנוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִסְכֵּנוּ",
+	"headwords": [
+		{
+			"text": "מִסְכֵּנוּ"
+		},
 		{
 			"text": "מִסְכֵּנוּתָא"
 		},
 		{
-			"text": "מִסְכֵּי׳"
+			"text": "מִסְכֵּי׳",
+			"partial": true
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 808,
 		"column": "a"

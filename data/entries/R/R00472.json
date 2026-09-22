@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00472",
-	"slug": "ציתרי",
-	"headword": {
-		"text": "צִיתְרֵי"
-	},
+	"sefariaHeadword": "צִיתְרֵי",
+	"headwords": [
+		{
+			"text": "צִיתְרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1281,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02811",
-	"slug": "משבשתא",
-	"headword": {
-		"text": "מְשַׁבֶּשְׁתָּא"
-	},
+	"sefariaHeadword": "מְשַׁבֶּשְׁתָּא",
+	"headwords": [
+		{
+			"text": "מְשַׁבֶּשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 849,
 		"column": "a"

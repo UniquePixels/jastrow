@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P01508",
-	"slug": "עשרונא",
-	"headword": {
-		"text": "עִשְׂרוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִשְׂרוֹנָא",
+	"headwords": [
 		{
-			"text": "עִסְ׳"
+			"text": "עִשְׂרוֹנָא"
 		},
 		{
-			"text": "עֶ׳"
+			"text": "עִסְ׳",
+			"partial": true
+		},
+		{
+			"text": "עֶ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1127,
 		"column": "b"

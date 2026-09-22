@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00771",
-	"slug": "מזמז-2",
-	"headword": {
-		"text": "מַזְמֵז"
-	},
+	"sefariaHeadword": "מַזְמֵז",
+	"headwords": [
+		{
+			"text": "מַזְמֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 756,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02786",
-	"slug": "אפקרסות",
-	"headword": {
-		"text": "אַפִּקַרְסוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפִּקַרְסוּת",
+	"headwords": [
+		{
+			"text": "אַפִּקַרְסוּת"
+		},
 		{
 			"text": "אַפְּיקַרְסוּת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "b"

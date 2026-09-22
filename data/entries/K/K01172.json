@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01172",
-	"slug": "כריסטיונא",
-	"headword": {
-		"text": "כַּרִיסְטְיוֹנָא"
-	},
+	"sefariaHeadword": "כַּרִיסְטְיוֹנָא",
+	"headwords": [
+		{
+			"text": "כַּרִיסְטְיוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 667,
 		"column": "b"

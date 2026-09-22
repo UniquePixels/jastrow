@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01034",
-	"slug": "רקיעא",
-	"headword": {
-		"text": "רְקִיעָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "רְקִיעָא II",
+	"headwords": [
+		{
+			"text": "רְקִיעָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1497,
 		"column": "a"

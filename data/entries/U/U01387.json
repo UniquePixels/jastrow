@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01387",
-	"slug": "שלש-2",
-	"headword": {
-		"text": "שָׁלַשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שָׁלַשׁ",
+	"headwords": [
+		{
+			"text": "שָׁלַשׁ"
+		},
 		{
 			"text": "שִׁלֵּשׁ",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1588,
 		"column": "b"

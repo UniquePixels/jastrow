@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02722",
-	"slug": "מרמר-2",
-	"headword": {
-		"text": "מרמר"
-	},
+	"sefariaHeadword": "מרמר",
+	"headwords": [
+		{
+			"text": "מרמר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

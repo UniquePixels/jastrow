@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00650",
-	"slug": "עיק-1",
-	"headword": {
-		"text": "עָיֵק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָיֵק",
+	"headwords": [
+		{
+			"text": "עָיֵק"
+		},
 		{
 			"text": "עִיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1074,
 		"column": "a"

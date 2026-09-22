@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01095",
-	"slug": "פלניס",
-	"headword": {
-		"text": "פלניס"
-	},
+	"sefariaHeadword": "פלניס",
+	"headwords": [
+		{
+			"text": "פלניס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00681",
-	"slug": "גיזוזא",
-	"headword": {
-		"text": "גִּיזּוּזָא"
-	},
+	"sefariaHeadword": "גִּיזּוּזָא",
+	"headwords": [
+		{
+			"text": "גִּיזּוּזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 237,
 		"column": "a"

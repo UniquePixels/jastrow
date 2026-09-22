@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00418",
-	"slug": "זירא-1",
-	"headword": {
-		"text": "זַיְרָא"
-	},
+	"sefariaHeadword": "זַיְרָא",
+	"headwords": [
+		{
+			"text": "זַיְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 396,
 		"column": "b"

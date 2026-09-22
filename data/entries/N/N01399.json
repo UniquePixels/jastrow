@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01399",
-	"slug": "נתש-2",
-	"headword": {
-		"text": "נְתַשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*נְתַשׁ",
+	"headwords": [
+		{
+			"text": "נְתַשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 946,
 		"column": "b"

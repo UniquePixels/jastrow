@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00390",
-	"slug": "סופגנים",
-	"headword": {
-		"text": "סוּפְגָּנִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּפְגָּנִים",
+	"headwords": [
+		{
+			"text": "סוּפְגָּנִים"
+		},
 		{
 			"text": "סוּפְגָּנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 968,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00065",
-	"slug": "צבעונא",
-	"headword": {
-		"text": "צִבְעוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבְעוֹנָא",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִבְעוֹנָא"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1259,
 		"column": "b"

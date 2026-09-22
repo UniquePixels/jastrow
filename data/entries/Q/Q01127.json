@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01127",
-	"slug": "פלש-2",
-	"headword": {
-		"text": "פָּלַשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פָּלַשׁ II",
+	"headwords": [
+		{
+			"text": "פָּלַשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1185,
 		"column": "a"

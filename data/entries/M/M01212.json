@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01212",
-	"slug": "מינגני",
-	"headword": {
-		"text": "מינגני"
-	},
+	"sefariaHeadword": "מינגני",
+	"headwords": [
+		{
+			"text": "מינגני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 776,
 		"column": "a"

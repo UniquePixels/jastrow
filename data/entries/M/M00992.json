@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00992",
-	"slug": "מטט",
-	"headword": {
-		"text": "מָטַט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָטַט",
+	"headwords": [
+		{
+			"text": "מָטַט"
+		},
 		{
 			"text": "מְטַט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 767,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02275",
-	"slug": "קשתא-2",
-	"headword": {
-		"text": "קַשְׁתָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קַשְׁתָּא I",
+	"headwords": [
+		{
+			"text": "קַשְׁתָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1433,
 		"column": "b"

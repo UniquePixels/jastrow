@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00507",
-	"slug": "עידוי-2",
-	"headword": {
-		"text": "עִידּוּי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִידּוּי ²",
+	"headwords": [
+		{
+			"text": "עִידּוּי",
+			"disambiguator": 2
+		},
 		{
 			"text": "עִידּוּיָא"
 		},
 		{
-			"text": "עִדּ׳"
+			"text": "עִדּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1067,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00686",
-	"slug": "שחפתא",
-	"headword": {
-		"text": "שַׁחַפְתָּא"
-	},
+	"sefariaHeadword": "שַׁחַפְתָּא",
+	"headwords": [
+		{
+			"text": "שַׁחַפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1549,
 		"column": "b"

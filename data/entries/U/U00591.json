@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00591",
-	"slug": "שותר",
-	"headword": {
-		"text": "שׁוֹתַר"
-	},
+	"sefariaHeadword": "שׁוֹתַר",
+	"headwords": [
+		{
+			"text": "שׁוֹתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1544,
 		"column": "b"

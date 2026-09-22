@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00398",
-	"slug": "גולם",
-	"headword": {
-		"text": "גּוֹלֶם"
-	},
+	"sefariaHeadword": "גּוֹלֶם",
+	"headwords": [
+		{
+			"text": "גּוֹלֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "a"
@@ -13,7 +17,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "m.(b. h. <cite ref=\"C00398\"><he>גֹּלֶם</he></cite>, <he>גלם</he>)<i>a rolled up, shapeless mass</i>, whence ",
+			"gloss": "m.(b. h. <cite ref=\"C00398\"><he>גֹּלֶם</he></cite>, <he>גלם</he>)<i>a rolled up, shapeless mass</i>, whence ",
 			"units": []
 		},
 		{

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01017",
-	"slug": "בסתייר",
-	"headword": {
-		"text": "בִּסְתַּיָּיר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּסְתַּיָּיר",
+	"headwords": [
+		{
+			"text": "בִּסְתַּיָּיר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 180,
 		"column": "a"

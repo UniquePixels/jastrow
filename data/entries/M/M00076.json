@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00076",
-	"slug": "מבואה",
-	"headword": {
-		"text": "מְבוֹאָה"
-	},
+	"sefariaHeadword": "מְבוֹאָה",
+	"headwords": [
+		{
+			"text": "מְבוֹאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

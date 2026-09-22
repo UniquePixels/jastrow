@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00631",
-	"slug": "פיטפוט",
-	"headword": {
-		"text": "פִּיטְפּוּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיטְפּוּט",
+	"headwords": [
+		{
+			"text": "פִּיטְפּוּט"
+		},
 		{
 			"text": "פִּיטְפֵּט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1161,
 		"column": "b"

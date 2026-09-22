@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01415",
-	"slug": "ערעיתא-1",
-	"headword": {
-		"text": "עַרְעִיתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עַרְעִיתָא I",
+	"headwords": [
+		{
+			"text": "עַרְעִיתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1121,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01191",
-	"slug": "סנדרייתא",
-	"headword": {
-		"text": "סַנְדַּרְיָיתָא"
-	},
+	"sefariaHeadword": "סַנְדַּרְיָיתָא",
+	"headwords": [
+		{
+			"text": "סַנְדַּרְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1005,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00043",
-	"slug": "וינון",
-	"headword": {
-		"text": "וַינוּן"
-	},
+	"sefariaHeadword": "וַינוּן",
+	"headwords": [
+		{
+			"text": "וַינוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

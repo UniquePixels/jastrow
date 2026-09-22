@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00362",
-	"slug": "עורקומא",
-	"headword": {
-		"text": "עורקומא"
-	},
+	"sefariaHeadword": "עורקומא",
+	"headwords": [
+		{
+			"text": "עורקומא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1059,
 		"column": "a"

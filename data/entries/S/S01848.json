@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S01848",
-	"slug": "קצרא-1",
-	"headword": {
-		"text": "קַצְרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַצְרָא II",
+	"headwords": [
+		{
+			"text": "קַצְרָא",
+			"homograph": 2
+		},
 		{
 			"text": "קַצְרָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 1408,
 		"column": "b"

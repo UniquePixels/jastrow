@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00941",
-	"slug": "שילוח-3",
-	"headword": {
-		"text": "שִׁילוֹחַ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁילוֹחַ ²",
+	"headwords": [
+		{
+			"text": "שִׁילוֹחַ",
+			"disambiguator": 2
+		},
 		{
 			"text": "שִׁילוֹחָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1563,
 		"column": "a"

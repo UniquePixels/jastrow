@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01512",
-	"slug": "קנאה-2",
-	"headword": {
-		"text": "קִנְאָה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִנְאָה ²",
+	"headwords": [
+		{
+			"text": "קִנְאָה",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִנְאֵיתָא"
 		},
@@ -13,9 +14,11 @@
 			"text": "קִנְאֲתָא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1388,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00445",
-	"slug": "תול",
-	"headword": {
-		"text": "תִּולּ־"
-	},
+	"sefariaHeadword": "תִּולּ־",
+	"headwords": [
+		{
+			"text": "תִּולּ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

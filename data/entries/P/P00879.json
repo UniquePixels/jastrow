@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00879",
-	"slug": "עמי-2",
-	"headword": {
-		"text": "עֲמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲמֵי",
+	"headwords": [
+		{
+			"text": "עֲמֵי"
+		},
 		{
 			"text": "עֲמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1087,
 		"column": "b"

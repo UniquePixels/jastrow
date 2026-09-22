@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00592",
-	"slug": "המדודי",
-	"headword": {
-		"text": "הַמְדּוּדֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַמְדּוּדֵי",
+	"headwords": [
 		{
-			"text": "בַּר הַמְדּוּדֵי"
+			"text": "הַמְדּוּדֵי"
+		},
+		{
+			"text": "בַּר ה׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 354,
 		"column": "b"

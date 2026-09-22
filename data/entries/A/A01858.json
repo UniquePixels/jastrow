@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01858",
-	"slug": "אליל-4",
-	"headword": {
-		"text": "אַלֵּיל"
-	},
+	"sefariaHeadword": "אַלֵּיל",
+	"headwords": [
+		{
+			"text": "אַלֵּיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

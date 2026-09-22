@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00393",
-	"slug": "כורסיא",
-	"headword": {
-		"text": "כּוּרְסַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּרְסַיָּא",
+	"headwords": [
+		{
+			"text": "כּוּרְסַיָּא"
+		},
 		{
 			"text": "כּוּרְסַיָּה"
 		},
@@ -12,6 +13,7 @@
 			"text": "כּוּרְסְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 626,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01335",
-	"slug": "ערטול",
-	"headword": {
-		"text": "עַרְטוּל־"
-	},
+	"sefariaHeadword": "עַרְטוּל־",
+	"headwords": [
+		{
+			"text": "עַרְטוּל־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1115,
 		"column": "b"

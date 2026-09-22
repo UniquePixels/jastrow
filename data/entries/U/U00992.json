@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00992",
-	"slug": "שיעורא",
-	"headword": {
-		"text": "שִׁיעוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיעוּרָא",
+	"headwords": [
 		{
-			"text": "שִׁע׳"
+			"text": "שִׁיעוּרָא"
+		},
+		{
+			"text": "שִׁע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1565,
 		"column": "a"

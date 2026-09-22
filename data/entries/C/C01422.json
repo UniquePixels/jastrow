@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01422",
-	"slug": "גשר-2",
-	"headword": {
-		"text": "גְּשַׁר"
-	},
+	"sefariaHeadword": "גְּשַׁר",
+	"headwords": [
+		{
+			"text": "גְּשַׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 274,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02063",
-	"slug": "מעגלה",
-	"headword": {
-		"text": "מַעֲגָלָה"
-	},
+	"sefariaHeadword": "מַעֲגָלָה",
+	"headwords": [
+		{
+			"text": "מַעֲגָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00985",
-	"slug": "אזרח",
-	"headword": {
-		"text": "אֶזְרָח"
-	},
+	"sefariaHeadword": "אֶזְרָח",
+	"headwords": [
+		{
+			"text": "אֶזְרָח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 38,
 		"column": "a"

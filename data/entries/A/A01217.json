@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01217",
-	"slug": "איטליסית",
-	"headword": {
-		"text": "אִיטְלִיסִית"
-	},
+	"sefariaHeadword": "אִיטְלִיסִית",
+	"headwords": [
+		{
+			"text": "אִיטְלִיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "a"

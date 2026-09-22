@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "R00062",
-	"slug": "צבעא-3",
-	"headword": {
-		"text": "צִבְעָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִבְעָא ²",
+	"headwords": [
+		{
+			"text": "צִבְעָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1259,
 		"column": "b"

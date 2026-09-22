@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00636",
-	"slug": "לפיטטו",
-	"headword": {
-		"text": "לפיטטו"
-	},
+	"sefariaHeadword": "לפיטטו",
+	"headwords": [
+		{
+			"text": "לפיטטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

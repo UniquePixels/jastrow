@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00618",
-	"slug": "דימוס-2",
-	"headword": {
-		"text": "דִּימוֹס",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּימוֹס II",
+	"headwords": [
+		{
+			"text": "דִּימוֹס",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 300,
 		"column": "a"

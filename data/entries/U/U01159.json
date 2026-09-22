@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01159",
-	"slug": "שכל-2",
-	"headword": {
-		"text": "שָׂכַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׂכַל II",
+	"headwords": [
+		{
+			"text": "שָׂכַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1574,
 		"column": "a"

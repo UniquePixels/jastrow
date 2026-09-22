@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00005",
-	"slug": "ראגתא",
-	"headword": {
-		"text": "רַאֲגָתָא"
-	},
+	"sefariaHeadword": "רַאֲגָתָא",
+	"headwords": [
+		{
+			"text": "רַאֲגָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1435,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00687",
-	"slug": "חיורוריא",
-	"headword": {
-		"text": "חִיוַּרְוָרַיָּא"
-	},
+	"sefariaHeadword": "חִיוַּרְוָרַיָּא",
+	"headwords": [
+		{
+			"text": "חִיוַּרְוָרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 452,
 		"column": "b"

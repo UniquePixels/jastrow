@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02672",
-	"slug": "מרימות",
-	"headword": {
-		"text": "מרימות"
-	},
+	"sefariaHeadword": "מרימות",
+	"headwords": [
+		{
+			"text": "מרימות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

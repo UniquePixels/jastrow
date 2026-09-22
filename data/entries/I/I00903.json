@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00903",
-	"slug": "טרקסאות",
-	"headword": {
-		"text": "טְרַקְסָאוֹת"
-	},
+	"sefariaHeadword": "טְרַקְסָאוֹת",
+	"headwords": [
+		{
+			"text": "טְרַקְסָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 558,
 		"column": "a"

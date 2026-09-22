@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02976",
-	"slug": "משרועיתא",
-	"headword": {
-		"text": "מַשְׁרוּעִיתָא"
-	},
+	"sefariaHeadword": "מַשְׁרוּעִיתָא",
+	"headwords": [
+		{
+			"text": "מַשְׁרוּעִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 858,
 		"column": "b"

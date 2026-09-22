@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01090",
-	"slug": "רשל-2",
-	"headword": {
-		"text": "רְשֵׁל"
-	},
+	"sefariaHeadword": "רְשֵׁל",
+	"headwords": [
+		{
+			"text": "רְשֵׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1500,
 		"column": "b"

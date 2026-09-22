@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00356",
-	"slug": "מהומתא",
-	"headword": {
-		"text": "מְהוּמְתָּא"
-	},
+	"sefariaHeadword": "מְהוּמְתָּא",
+	"headwords": [
+		{
+			"text": "מְהוּמְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

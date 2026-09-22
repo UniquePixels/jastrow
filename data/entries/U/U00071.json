@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00071",
-	"slug": "שבואל",
-	"headword": {
-		"text": "שְׁבוּאֵל"
-	},
+	"sefariaHeadword": "שְׁבוּאֵל",
+	"headwords": [
+		{
+			"text": "שְׁבוּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1510,
 		"column": "a"

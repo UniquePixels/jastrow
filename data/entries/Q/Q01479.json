@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01479",
-	"slug": "פקטיז",
-	"headword": {
-		"text": "פַּקְטֵיז"
-	},
+	"sefariaHeadword": "פַּקְטֵיז",
+	"headwords": [
+		{
+			"text": "פַּקְטֵיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1208,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00930",
-	"slug": "דנכו",
-	"headword": {
-		"text": "דַּנְכוֹ"
-	},
+	"sefariaHeadword": "דַּנְכוֹ",
+	"headwords": [
+		{
+			"text": "דַּנְכוֹ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 315,
 		"column": "b"

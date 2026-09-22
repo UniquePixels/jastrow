@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00559",
-	"slug": "טמע-1",
-	"headword": {
-		"text": "טָמַע"
-	},
+	"sefariaHeadword": "טָמַע",
+	"headwords": [
+		{
+			"text": "טָמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 540,
 		"column": "a"

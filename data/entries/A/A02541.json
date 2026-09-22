@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02541",
-	"slug": "אסקלה",
-	"headword": {
-		"text": "אסקלה"
-	},
+	"sefariaHeadword": "אסקלה",
+	"headwords": [
+		{
+			"text": "אסקלה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

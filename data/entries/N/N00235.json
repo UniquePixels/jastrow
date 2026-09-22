@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00235",
-	"slug": "נדנוד",
-	"headword": {
-		"text": "נִדְנוּד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִדְנוּד",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִדְנוּד"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 879,
 		"column": "b"

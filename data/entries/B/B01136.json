@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01136",
-	"slug": "בקר-1",
-	"headword": {
-		"text": "בָּקַר"
-	},
+	"sefariaHeadword": "בָּקַר",
+	"headwords": [
+		{
+			"text": "בָּקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 187,
 		"column": "a"

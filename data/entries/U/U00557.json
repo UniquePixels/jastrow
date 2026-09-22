@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00557",
-	"slug": "שוש-1",
-	"headword": {
-		"text": "שׂוּשׂ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׂוּשׂ",
+	"headwords": [
+		{
+			"text": "שׂוּשׂ"
+		},
 		{
 			"text": "שִׂישׂ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1542,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00230",
-	"slug": "נדל-2",
-	"headword": {
-		"text": "נַדַּל"
-	},
+	"sefariaHeadword": "נַדַּל",
+	"headwords": [
+		{
+			"text": "נַדַּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 879,
 		"column": "a"

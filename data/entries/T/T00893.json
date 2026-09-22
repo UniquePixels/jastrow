@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "T00893",
-	"slug": "רעי-5",
-	"headword": {
-		"text": "רְעִי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְעִי ²",
+	"headwords": [
+		{
+			"text": "רְעִי",
+			"disambiguator": 2
+		},
 		{
 			"text": "רְיעִי",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1487,
 		"column": "a"

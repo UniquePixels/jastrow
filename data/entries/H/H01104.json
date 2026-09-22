@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01104",
-	"slug": "חלפא",
-	"headword": {
-		"text": "חִלְפָא"
-	},
+	"sefariaHeadword": "חִלְפָא",
+	"headwords": [
+		{
+			"text": "חִלְפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00023",
-	"slug": "וו-1",
-	"headword": {
-		"text": "וָו"
-	},
+	"sefariaHeadword": "וָו",
+	"headwords": [
+		{
+			"text": "וָו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

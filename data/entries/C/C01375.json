@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C01375",
-	"slug": "גרס-3",
-	"headword": {
-		"text": "גְּרַס",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרַס II",
+	"headwords": [
+		{
+			"text": "גְּרַס",
+			"homograph": 2
+		},
 		{
 			"text": "גְּרֵיס"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 270,
 		"column": "b"

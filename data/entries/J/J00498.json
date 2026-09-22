@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00498",
-	"slug": "יערא-1",
-	"headword": {
-		"text": "יַעְרָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יַעְרָא I",
+	"headwords": [
+		{
+			"text": "יַעְרָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 585,
 		"column": "b"

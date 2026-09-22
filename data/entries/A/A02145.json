@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02145",
-	"slug": "אנונא",
-	"headword": {
-		"text": "אַנּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנֹּונָא",
+	"headwords": [
+		{
+			"text": "אַנּוֹנָא"
+		},
 		{
 			"text": "אַנּוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 82,
 		"column": "a"

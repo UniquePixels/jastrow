@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00406",
-	"slug": "חוניו",
-	"headword": {
-		"text": "חוֹנְיוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹנְיוּ",
+	"headwords": [
+		{
+			"text": "חוֹנְיוּ"
+		},
 		{
 			"text": "חוֹנְיִי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 436,
 		"column": "b"

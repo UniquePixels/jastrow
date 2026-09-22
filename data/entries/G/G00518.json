@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00518",
-	"slug": "זמין",
-	"headword": {
-		"text": "זְמִין"
-	},
+	"sefariaHeadword": "זְמִין",
+	"headwords": [
+		{
+			"text": "זְמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02599",
-	"slug": "אפא-2",
-	"headword": {
-		"text": "אַפָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַפָּא II",
+	"headwords": [
+		{
+			"text": "אַפָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 99,
 		"column": "b"

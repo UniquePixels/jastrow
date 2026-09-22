@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01076",
-	"slug": "נפק-3",
-	"headword": {
-		"text": "נָפֵק"
-	},
+	"sefariaHeadword": "נָפֵק",
+	"headwords": [
+		{
+			"text": "נָפֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 926,
 		"column": "a"

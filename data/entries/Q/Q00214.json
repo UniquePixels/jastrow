@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00214",
-	"slug": "פולוסיפות",
-	"headword": {
-		"text": "פולוסיפות"
-	},
+	"sefariaHeadword": "פולוסיפות",
+	"headwords": [
+		{
+			"text": "פולוסיפות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

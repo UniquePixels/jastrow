@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02007",
-	"slug": "אמורי",
-	"headword": {
-		"text": "אֱמוֹרִי"
-	},
+	"sefariaHeadword": "אֱמוֹרִי",
+	"headwords": [
+		{
+			"text": "אֱמוֹרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 76,
 		"column": "b"

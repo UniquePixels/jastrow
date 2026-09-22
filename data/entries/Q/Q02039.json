@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02039",
-	"slug": "פרשתא",
-	"headword": {
-		"text": "פַּרְשְׁתָא"
-	},
+	"sefariaHeadword": "פַּרְשְׁתָא",
+	"headwords": [
+		{
+			"text": "פַּרְשְׁתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1244,
 		"column": "a"

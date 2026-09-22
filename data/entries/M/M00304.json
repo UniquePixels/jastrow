@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00304",
-	"slug": "מדלא-1",
-	"headword": {
-		"text": "מַדְלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַדְלָא I",
+	"headwords": [
+		{
+			"text": "מַדְלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 734,
 		"column": "b"

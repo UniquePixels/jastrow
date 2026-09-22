@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00039",
-	"slug": "שאנן",
-	"headword": {
-		"text": "שַׁאֲנָן"
-	},
+	"sefariaHeadword": "שַׁאֲנָן",
+	"headwords": [
+		{
+			"text": "שַׁאֲנָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1508,
 		"column": "a"

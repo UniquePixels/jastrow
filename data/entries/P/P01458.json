@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01458",
-	"slug": "ערש",
-	"headword": {
-		"text": "עֶרֶשׂ"
-	},
+	"sefariaHeadword": "עֶרֶשׂ",
+	"headwords": [
+		{
+			"text": "עֶרֶשׂ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "a"

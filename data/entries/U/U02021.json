@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02021",
-	"slug": "שרק-3",
-	"headword": {
-		"text": "שְׁרַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁרַק",
+	"headwords": [
+		{
+			"text": "שְׁרַק"
+		},
 		{
 			"text": "שְׁרֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1634,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00154",
-	"slug": "חגל",
-	"headword": {
-		"text": "חֲגַל"
-	},
+	"sefariaHeadword": "חֲגַל",
+	"headwords": [
+		{
+			"text": "חֲגַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "b"

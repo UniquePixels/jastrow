@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01568",
-	"slug": "סרותא",
-	"headword": {
-		"text": "סְרוּתָא"
-	},
+	"sefariaHeadword": "סְרוּתָא",
+	"headwords": [
+		{
+			"text": "סְרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1024,
 		"column": "a"

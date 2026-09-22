@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00278",
-	"slug": "שדל-2",
-	"headword": {
-		"text": "שְׁדַל"
-	},
+	"sefariaHeadword": "שְׁדַל",
+	"headwords": [
+		{
+			"text": "שְׁדַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1525,
 		"column": "b"

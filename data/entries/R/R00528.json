@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00528",
-	"slug": "צלמון",
-	"headword": {
-		"text": "צַלְמוֹן"
-	},
+	"sefariaHeadword": "צַלְמוֹן",
+	"headwords": [
+		{
+			"text": "צַלְמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1285,
 		"column": "a"

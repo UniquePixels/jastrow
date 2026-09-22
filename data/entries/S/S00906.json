@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00906",
-	"slug": "קיטור-2",
-	"headword": {
-		"text": "קִיטוֹר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קִיטוֹר II",
+	"headwords": [
+		{
+			"text": "קִיטוֹר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1358,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

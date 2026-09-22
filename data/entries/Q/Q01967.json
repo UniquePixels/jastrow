@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01967",
-	"slug": "פרפרת",
-	"headword": {
-		"text": "פַּרְפֶּרֶת"
-	},
+	"sefariaHeadword": "פַּרְפֶּרֶת",
+	"headwords": [
+		{
+			"text": "פַּרְפֶּרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1237,
 		"column": "a"

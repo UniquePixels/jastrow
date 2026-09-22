@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00884",
-	"slug": "תקיעה",
-	"headword": {
-		"text": "תְּקִיעָה"
-	},
+	"sefariaHeadword": "תְּקִיעָה",
+	"headwords": [
+		{
+			"text": "תְּקִיעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1690,
 		"column": "b"

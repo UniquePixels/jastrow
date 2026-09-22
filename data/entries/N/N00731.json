@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00731",
-	"slug": "ניפולה",
-	"headword": {
-		"text": "ניפולה"
-	},
+	"sefariaHeadword": "ניפולה",
+	"headwords": [
+		{
+			"text": "ניפולה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "a"

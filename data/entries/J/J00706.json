@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00706",
-	"slug": "ישרא",
-	"headword": {
-		"text": "יַשְׁרָא"
-	},
+	"sefariaHeadword": "יַשְׁרָא",
+	"headwords": [
+		{
+			"text": "יַשְׁרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 602,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00348",
-	"slug": "צייתא",
-	"headword": {
-		"text": "צַיְיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיְיתָא",
+	"headwords": [
+		{
+			"text": "צַיְיתָא"
+		},
 		{
 			"text": "צַיְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1276,
 		"column": "b"

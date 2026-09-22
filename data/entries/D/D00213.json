@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00213",
-	"slug": "דוול",
-	"headword": {
-		"text": "דְּוַול"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּוַול",
+	"headwords": [
+		{
+			"text": "דְּוַול"
+		},
 		{
 			"text": "דְּוַל"
 		},
@@ -12,9 +13,11 @@
 			"text": "דַּוְולָא"
 		},
 		{
-			"text": "דַּוְ׳"
+			"text": "דַּוְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 283,
 		"column": "b"

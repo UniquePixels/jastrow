@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01636",
-	"slug": "שעוא",
-	"headword": {
-		"text": "שַׁעֲוָא"
-	},
+	"sefariaHeadword": "שַׁעֲוָא",
+	"headwords": [
+		{
+			"text": "שַׁעֲוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1609,
 		"column": "b"

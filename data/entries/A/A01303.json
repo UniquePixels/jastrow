@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01303",
-	"slug": "אילם-2",
-	"headword": {
-		"text": "אִילֵּם"
-	},
+	"sefariaHeadword": "אִילֵּם",
+	"headwords": [
+		{
+			"text": "אִילֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 49,
 		"column": "b"

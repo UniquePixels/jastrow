@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00498",
-	"slug": "טליותא-1",
-	"headword": {
-		"text": "טַלְיוּתָא"
-	},
+	"sefariaHeadword": "טַלְיוּתָא",
+	"headwords": [
+		{
+			"text": "טַלְיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 537,
 		"column": "a"

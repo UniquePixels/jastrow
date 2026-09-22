@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01790",
-	"slug": "מנישא",
-	"headword": {
-		"text": "מנישא"
-	},
+	"sefariaHeadword": "מנישא",
+	"headwords": [
+		{
+			"text": "מנישא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01395",
-	"slug": "אינתימרוס",
-	"headword": {
-		"text": "אינתימרוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אינתימרוס",
+	"headwords": [
 		{
-			"text": "אנת׳"
+			"text": "אינתימרוס"
+		},
+		{
+			"text": "אנת׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 53,
 		"column": "a"

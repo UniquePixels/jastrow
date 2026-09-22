@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00537",
-	"slug": "רחצן",
-	"headword": {
-		"text": "רָחֲצָן"
-	},
+	"sefariaHeadword": "רָחֲצָן",
+	"headwords": [
+		{
+			"text": "רָחֲצָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1469,
 		"column": "a"

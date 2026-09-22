@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00536",
-	"slug": "קוצא-1",
-	"headword": {
-		"text": "קוֹצָא"
-	},
+	"sefariaHeadword": "קוֹצָא",
+	"headwords": [
+		{
+			"text": "קוֹצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "a"

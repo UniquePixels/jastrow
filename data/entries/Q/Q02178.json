@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02178",
-	"slug": "פתכא",
-	"headword": {
-		"text": "פַּתָּכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתָּכָא",
+	"headwords": [
+		{
+			"text": "פַּתָּכָא"
+		},
 		{
 			"text": "פַּתכָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1254,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00386",
-	"slug": "תחרות",
-	"headword": {
-		"text": "תַּחֲרוּת"
-	},
+	"sefariaHeadword": "תַּחֲרוּת",
+	"headwords": [
+		{
+			"text": "תַּחֲרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

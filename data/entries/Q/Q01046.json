@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01046",
-	"slug": "פליון",
-	"headword": {
-		"text": "פליון"
-	},
+	"sefariaHeadword": "פליון",
+	"headwords": [
+		{
+			"text": "פליון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1181,
 		"column": "b"

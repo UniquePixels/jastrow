@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02391",
-	"slug": "מקולים",
-	"headword": {
-		"text": "מְקוּלִים"
-	},
+	"sefariaHeadword": "מְקוּלִים",
+	"headwords": [
+		{
+			"text": "מְקוּלִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "b"

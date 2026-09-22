@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00983",
-	"slug": "גלקטיקא",
-	"headword": {
-		"text": "גְּלקְטִיקָא"
-	},
+	"sefariaHeadword": "גְּלקְטִיקָא",
+	"headwords": [
+		{
+			"text": "גְּלקְטִיקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 250,
 		"column": "b"

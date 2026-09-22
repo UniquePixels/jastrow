@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00224",
-	"slug": "יופיות",
-	"headword": {
-		"text": "יוֹפְיוּת"
-	},
+	"sefariaHeadword": "יוֹפְיוּת",
+	"headwords": [
+		{
+			"text": "יוֹפְיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "a"

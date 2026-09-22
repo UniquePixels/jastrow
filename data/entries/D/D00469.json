@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00469",
-	"slug": "דיבוק-2",
-	"headword": {
-		"text": "דִּיבּוּק",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיבּוּק ²",
+	"headwords": [
+		{
+			"text": "דִּיבּוּק",
+			"disambiguator": 2
+		},
 		{
 			"text": "דִּבּוּק"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 294,
 		"column": "b"

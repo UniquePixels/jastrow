@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01889",
-	"slug": "פרנטוס",
-	"headword": {
-		"text": "פַּרְנִטוֹס"
-	},
+	"sefariaHeadword": "פַּרְנִטוֹס",
+	"headwords": [
+		{
+			"text": "פַּרְנִטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1231,
 		"column": "a"

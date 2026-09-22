@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00489",
-	"slug": "סטים-2",
-	"headword": {
-		"text": "סטים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סטים",
+	"headwords": [
+		{
+			"text": "סטים"
+		},
 		{
 			"text": "סָטִיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 973,
 		"column": "a"

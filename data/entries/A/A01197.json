@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01197",
-	"slug": "איזי",
-	"headword": {
-		"text": "אֵיזִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵיזִי",
+	"headwords": [
+		{
+			"text": "אֵיזִי"
+		},
 		{
 			"text": "אֵיזוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 46,
 		"column": "b"

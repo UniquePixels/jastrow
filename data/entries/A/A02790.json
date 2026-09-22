@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02790",
-	"slug": "אפקשיון",
-	"headword": {
-		"text": "אַפְקַשְׁיוֹן",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אַפְקַשְׁיוֹן",
+	"headwords": [
+		{
+			"text": "אַפְקַשְׁיוֹן",
+			"reconstructed": true
+		},
 		{
 			"text": "אַפְקַשְׁיָאן"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 107,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01524",
-	"slug": "איסתנדרא",
-	"headword": {
-		"text": "אִיסְתַּנְדְּרָא"
-	},
+	"sefariaHeadword": "אִיסְתַּנְדְּרָא",
+	"headwords": [
+		{
+			"text": "אִיסְתַּנְדְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

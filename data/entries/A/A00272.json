@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00272",
-	"slug": "אגוסטיאני",
-	"headword": {
-		"text": "אָגוּסְטְיָאנִי"
-	},
+	"sefariaHeadword": "אָגוּסְטְיָאנִי",
+	"headwords": [
+		{
+			"text": "אָגוּסְטְיָאנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 12,
 		"column": "a"

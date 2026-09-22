@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00021",
-	"slug": "טבא-1",
-	"headword": {
-		"text": "טָבָא"
-	},
+	"sefariaHeadword": "טָבָא",
+	"headwords": [
+		{
+			"text": "טָבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 515,
 		"column": "b"

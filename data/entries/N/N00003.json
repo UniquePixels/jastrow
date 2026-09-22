@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00003",
-	"slug": "נא-1",
-	"headword": {
-		"text": "נָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָא I",
+	"headwords": [
+		{
+			"text": "נָא",
+			"homograph": 1
+		},
 		{
 			"text": "נָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 865,
 		"column": "a"

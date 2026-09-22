@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00899",
-	"slug": "סכין-3",
-	"headword": {
-		"text": "סַכִּין",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַכִּין ²",
+	"headwords": [
+		{
+			"text": "סַכִּין",
+			"disambiguator": 2
+		},
 		{
 			"text": "סַכִּינָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 990,
 		"column": "a"

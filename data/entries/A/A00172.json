@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00172",
-	"slug": "אבן-1",
-	"headword": {
-		"text": "אֶבֶן"
-	},
+	"sefariaHeadword": "אֶבֶן",
+	"headwords": [
+		{
+			"text": "אֶבֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "b"

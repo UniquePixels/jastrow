@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00649",
-	"slug": "רינה",
-	"headword": {
-		"text": "רִינָּה"
-	},
+	"sefariaHeadword": "רִינָּה",
+	"headwords": [
+		{
+			"text": "רִינָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1475,
 		"column": "a"

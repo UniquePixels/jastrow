@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00341",
-	"slug": "זיינקי",
-	"headword": {
-		"text": "זְיָינְקֵי"
-	},
+	"sefariaHeadword": "זְיָינְקֵי",
+	"headwords": [
+		{
+			"text": "זְיָינְקֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 393,
 		"column": "b"

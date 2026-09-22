@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00229",
-	"slug": "פולייטון",
-	"headword": {
-		"text": "פּוֹלְיָיטוֹן"
-	},
+	"sefariaHeadword": "פּוֹלְיָיטוֹן",
+	"headwords": [
+		{
+			"text": "פּוֹלְיָיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "b"

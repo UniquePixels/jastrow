@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00125",
-	"slug": "זוגא-2",
-	"headword": {
-		"text": "זוּגָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוּגָא II",
+	"headwords": [
+		{
+			"text": "זוּגָא",
+			"homograph": 2
+		},
 		{
 			"text": "זוּגָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 384,
 		"column": "a"

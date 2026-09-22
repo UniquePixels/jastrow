@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00949",
-	"slug": "קיכלי",
-	"headword": {
-		"text": "קיכלי"
-	},
+	"sefariaHeadword": "קיכלי",
+	"headwords": [
+		{
+			"text": "קיכלי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "b"

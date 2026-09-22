@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "L00366",
-	"slug": "לחם-4",
-	"headword": {
-		"text": "לְחֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְחֵם",
+	"headwords": [
+		{
+			"text": "לְחֵם"
+		},
 		{
 			"text": "לְחֵים"
 		},
@@ -12,6 +13,7 @@
 			"text": "לַחֵמָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 704,
 		"column": "a"

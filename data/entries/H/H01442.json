@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01442",
-	"slug": "חפיא-1",
-	"headword": {
-		"text": "חַפְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חַפְיָא I",
+	"headwords": [
+		{
+			"text": "חַפְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 491,
 		"column": "b"

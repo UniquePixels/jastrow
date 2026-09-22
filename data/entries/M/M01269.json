@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01269",
-	"slug": "מיפקא",
-	"headword": {
-		"text": "מִיפְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיפְּקָא",
+	"headwords": [
+		{
+			"text": "מִיפְּקָא"
+		},
 		{
 			"text": "מִפְקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "a"

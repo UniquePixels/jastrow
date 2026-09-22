@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00948",
-	"slug": "בנייה",
-	"headword": {
-		"text": "בַּנָּיָיה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בַּנָּיָיה II",
+	"headwords": [
+		{
+			"text": "בַּנָּיָיה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 177,
 		"column": "a"

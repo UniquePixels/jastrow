@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01636",
-	"slug": "אישתיתא",
-	"headword": {
-		"text": "אִישְׁתִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִישְׁתִּיתָא",
+	"headwords": [
+		{
+			"text": "אִישְׁתִּיתָא"
+		},
 		{
 			"text": "אישתתא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 61,
 		"column": "a"

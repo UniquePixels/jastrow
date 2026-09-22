@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00288",
-	"slug": "צחק-2",
-	"headword": {
-		"text": "צְחַק"
-	},
+	"sefariaHeadword": "צְחַק",
+	"headwords": [
+		{
+			"text": "צְחַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "a"

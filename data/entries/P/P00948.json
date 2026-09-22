@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00948",
-	"slug": "ענג-1",
-	"headword": {
-		"text": "עָנַג"
-	},
+	"sefariaHeadword": "עָנַג",
+	"headwords": [
+		{
+			"text": "עָנַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "b"

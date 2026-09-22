@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01268",
-	"slug": "חנופה",
-	"headword": {
-		"text": "חֲנוּפָה"
-	},
+	"sefariaHeadword": "חֲנוּפָה",
+	"headwords": [
+		{
+			"text": "חֲנוּפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 482,
 		"column": "a"

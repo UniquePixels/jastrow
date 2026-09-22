@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01103",
-	"slug": "כרובא-1",
-	"headword": {
-		"text": "כְּרוּבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרוּבָּא",
+	"headwords": [
+		{
+			"text": "כְּרוּבָּא"
+		},
 		{
 			"text": "כְּרוּבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 664,
 		"column": "b"

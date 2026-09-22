@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00676",
-	"slug": "טפף-3",
-	"headword": {
-		"text": "טְפַף"
-	},
+	"sefariaHeadword": "טְפַף",
+	"headwords": [
+		{
+			"text": "טְפַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 548,
 		"column": "b"

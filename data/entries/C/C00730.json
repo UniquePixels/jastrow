@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "C00730",
-	"slug": "גילוייא",
-	"headword": {
-		"text": "גִּילּוּיָיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּילּוּיָיא",
+	"headwords": [
+		{
+			"text": "גִּילּוּיָיא"
+		},
 		{
 			"text": "גִּילּוּיָא"
 		},
 		{
-			"text": "גִּלּ׳"
+			"text": "גִּלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 238,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01097",
-	"slug": "פלנקיא",
-	"headword": {
-		"text": "פלנקיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פלנקיא",
+	"headwords": [
+		{
+			"text": "פלנקיא"
+		},
 		{
 			"text": "פלנקריא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1183,
 		"column": "b"

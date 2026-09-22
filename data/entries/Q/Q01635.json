@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01635",
-	"slug": "פרווילא",
-	"headword": {
-		"text": "פַּרְוִוילָא"
-	},
+	"sefariaHeadword": "פַּרְוִוילָא",
+	"headwords": [
+		{
+			"text": "פַּרְוִוילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1217,
 		"column": "b"

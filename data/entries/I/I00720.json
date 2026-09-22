@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00720",
-	"slug": "טרוד",
-	"headword": {
-		"text": "טָרוּד"
-	},
+	"sefariaHeadword": "טָרוּד",
+	"headwords": [
+		{
+			"text": "טָרוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 550,
 		"column": "b"

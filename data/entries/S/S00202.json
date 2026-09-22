@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00202",
-	"slug": "קהה",
-	"headword": {
-		"text": "קֵהֶה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵהֶה",
+	"headwords": [
 		{
-			"text": "קֵי׳"
+			"text": "קֵהֶה"
+		},
+		{
+			"text": "קֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1321,
 		"column": "b"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00345",
-	"slug": "צייר-2",
-	"headword": {
-		"text": "צַיָּיר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צַיָּיר ²",
+	"headwords": [
+		{
+			"text": "צַיָּיר",
+			"disambiguator": 2
+		},
 		{
 			"text": "צַיַּיר"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1276,
 		"column": "a"

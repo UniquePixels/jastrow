@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03195",
-	"slug": "ארנבת",
-	"headword": {
-		"text": "אַרְנֶבֶת"
-	},
+	"sefariaHeadword": "אַרְנֶבֶת",
+	"headwords": [
+		{
+			"text": "אַרְנֶבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01127",
-	"slug": "נציינא",
-	"headword": {
-		"text": "נִּצְיָינָּא"
-	},
+	"sefariaHeadword": "נִּצְיָינָּא",
+	"headwords": [
+		{
+			"text": "נִּצְיָינָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 929,
 		"column": "a"

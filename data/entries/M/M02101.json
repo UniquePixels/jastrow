@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02101",
-	"slug": "מעטנא",
-	"headword": {
-		"text": "מַעֲטֵנָא"
-	},
+	"sefariaHeadword": "מַעֲטֵנָא",
+	"headwords": [
+		{
+			"text": "מַעֲטֵנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 815,
 		"column": "b"

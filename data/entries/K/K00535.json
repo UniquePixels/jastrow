@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00535",
-	"slug": "כילו-2",
-	"headword": {
-		"text": "כַּיְלוּ"
-	},
+	"sefariaHeadword": "כַּיְלוּ",
+	"headwords": [
+		{
+			"text": "כַּיְלוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

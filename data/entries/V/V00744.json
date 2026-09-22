@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00744",
-	"slug": "תני-3",
-	"headword": {
-		"text": "תְּנֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תְּנֵי II",
+	"headwords": [
+		{
+			"text": "תְּנֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1682,
 		"column": "a"

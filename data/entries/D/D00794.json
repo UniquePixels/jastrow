@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00794",
-	"slug": "דכרון",
-	"headword": {
-		"text": "דִּכְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּכְרוֹן",
+	"headwords": [
+		{
+			"text": "דִּכְרוֹן"
+		},
 		{
 			"text": "דִּכְרוֹנָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 308,
 		"column": "a"

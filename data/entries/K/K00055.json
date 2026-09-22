@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00055",
-	"slug": "כביש-2",
-	"headword": {
-		"text": "כְּבִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּבִישׁ",
+	"headwords": [
+		{
+			"text": "כְּבִישׁ"
+		},
 		{
 			"text": "כְּבִישָׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כְּבִישְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 608,
 		"column": "a"

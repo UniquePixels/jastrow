@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01846",
-	"slug": "אליועיני",
-	"headword": {
-		"text": "אֶלְיוֹעֵינִי"
-	},
+	"sefariaHeadword": "אֶלְיוֹעֵינִי",
+	"headwords": [
+		{
+			"text": "אֶלְיוֹעֵינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 69,
 		"column": "a"

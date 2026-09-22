@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01401",
-	"slug": "גרריקי",
-	"headword": {
-		"text": "גְּרָרִיקִי"
-	},
+	"sefariaHeadword": "גְּרָרִיקִי",
+	"headwords": [
+		{
+			"text": "גְּרָרִיקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "a"

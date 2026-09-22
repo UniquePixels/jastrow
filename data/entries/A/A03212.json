@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03212",
-	"slug": "ארסט",
-	"headword": {
-		"text": "אֲרִסְט־"
-	},
+	"sefariaHeadword": "אֲרִסְט־",
+	"headwords": [
+		{
+			"text": "אֲרִסְט־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

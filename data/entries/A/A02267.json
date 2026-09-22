@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02267",
-	"slug": "אנפו",
-	"headword": {
-		"text": "אַנְפּוּ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַנְפּוּ",
+	"headwords": [
+		{
+			"text": "אַנְפּוּ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

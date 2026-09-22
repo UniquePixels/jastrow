@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00465",
-	"slug": "רזח",
-	"headword": {
-		"text": "רזח"
-	},
+	"sefariaHeadword": "רזח",
+	"headwords": [
+		{
+			"text": "רזח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

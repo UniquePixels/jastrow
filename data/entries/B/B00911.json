@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00911",
-	"slug": "בלרא",
-	"headword": {
-		"text": "בלרא"
-	},
+	"sefariaHeadword": "בלרא",
+	"headwords": [
+		{
+			"text": "בלרא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 175,
 		"column": "b"

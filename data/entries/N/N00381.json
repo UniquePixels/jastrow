@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00381",
-	"slug": "נוני-2",
-	"headword": {
-		"text": "נַוְנֵי"
-	},
+	"sefariaHeadword": "נַוְנֵי",
+	"headwords": [
+		{
+			"text": "נַוְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "b"

@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "M02405",
-	"slug": "מקושש-2",
-	"headword": {
-		"text": "מְקוֹשֵׁשׁ",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְקוֹשֵׁשׁ II",
+	"headwords": [
 		{
-			"text": "בֶּן מְקוֹשֵׁשׁ"
+			"text": "מְקוֹשֵׁשׁ",
+			"homograph": 2
+		},
+		{
+			"text": "בֶּן מְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 830,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

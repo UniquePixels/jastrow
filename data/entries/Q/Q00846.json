@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00846",
-	"slug": "פירורא",
-	"headword": {
-		"text": "פֵּירוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּירוּרָא",
+	"headwords": [
 		{
-			"text": "פֵּר׳"
+			"text": "פֵּירוּרָא"
+		},
+		{
+			"text": "פֵּר׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1171,
 		"column": "a"

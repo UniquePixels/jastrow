@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01243",
-	"slug": "גרגושתא",
-	"headword": {
-		"text": "גַּרְגּוּשְׁתָּא"
-	},
+	"sefariaHeadword": "גַּרְגּוּשְׁתָּא",
+	"headwords": [
+		{
+			"text": "גַּרְגּוּשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

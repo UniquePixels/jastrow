@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00704",
-	"slug": "חיזרין",
-	"headword": {
-		"text": "חיזרין"
-	},
+	"sefariaHeadword": "חיזרין",
+	"headwords": [
+		{
+			"text": "חיזרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 453,
 		"column": "b"

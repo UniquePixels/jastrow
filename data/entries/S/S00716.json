@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00716",
-	"slug": "קטונית",
-	"headword": {
-		"text": "קִטּוּנִית"
-	},
+	"sefariaHeadword": "קִטּוּנִית",
+	"headwords": [
+		{
+			"text": "קִטּוּנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00205",
-	"slug": "עודרא",
-	"headword": {
-		"text": "עוּדְרָא"
-	},
+	"sefariaHeadword": "עוּדְרָא",
+	"headwords": [
+		{
+			"text": "עוּדְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

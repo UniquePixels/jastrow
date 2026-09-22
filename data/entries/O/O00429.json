@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00429",
-	"slug": "סורייקא",
-	"headword": {
-		"text": "סוּרְיָיקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּרְיָיקָא",
+	"headwords": [
+		{
+			"text": "סוּרְיָיקָא"
+		},
 		{
 			"text": "סוּרְיָקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 970,
 		"column": "a"

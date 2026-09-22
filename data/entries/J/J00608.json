@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00608",
-	"slug": "ירוק-1",
-	"headword": {
-		"text": "יָרוֹק"
-	},
+	"sefariaHeadword": "יָרוֹק",
+	"headwords": [
+		{
+			"text": "יָרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "a"

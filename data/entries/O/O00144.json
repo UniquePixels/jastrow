@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00144",
-	"slug": "סגירה",
-	"headword": {
-		"text": "סְגִירָה"
-	},
+	"sefariaHeadword": "סְגִירָה",
+	"headwords": [
+		{
+			"text": "סְגִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 955,
 		"column": "a"

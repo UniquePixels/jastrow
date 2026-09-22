@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00465",
-	"slug": "קוסטודיא",
-	"headword": {
-		"text": "קוּסְטוֹדְיָא"
-	},
+	"sefariaHeadword": "קוּסְטוֹדְיָא",
+	"headwords": [
+		{
+			"text": "קוּסְטוֹדְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1336,
 		"column": "b"

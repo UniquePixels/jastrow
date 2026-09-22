@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00594",
-	"slug": "שזוג",
-	"headword": {
-		"text": "שְׁזוֹג"
-	},
+	"sefariaHeadword": "שְׁזוֹג",
+	"headwords": [
+		{
+			"text": "שְׁזוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

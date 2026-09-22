@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "I00193",
-	"slug": "טוען",
-	"headword": {
-		"text": "טוֹעַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טוֹעַן",
+	"headwords": [
+		{
+			"text": "טוֹעַן"
+		},
 		{
 			"text": "טֹעַן"
 		},
@@ -12,6 +13,7 @@
 			"text": "טָעוּן"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 525,
 		"column": "a"

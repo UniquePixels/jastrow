@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00405",
-	"slug": "חוניא",
-	"headword": {
-		"text": "חוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּנְיָא",
+	"headwords": [
+		{
+			"text": "חוּנְיָא"
+		},
 		{
 			"text": "חוּנְיָה"
 		},
 		{
-			"text": "חוּנְיָי׳"
+			"text": "חוּנְיָי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 436,
 		"column": "b"

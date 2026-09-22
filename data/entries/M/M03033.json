@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03033",
-	"slug": "מתוקה",
-	"headword": {
-		"text": "מְתוּקָה"
-	},
+	"sefariaHeadword": "מְתוּקָה",
+	"headwords": [
+		{
+			"text": "מְתוּקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "b"

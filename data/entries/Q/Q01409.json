@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01409",
-	"slug": "פפיאס",
-	"headword": {
-		"text": "פַּפְּיָאס"
-	},
+	"sefariaHeadword": "פַּפְּיָאס",
+	"headwords": [
+		{
+			"text": "פַּפְּיָאס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02559",
-	"slug": "אסרטה",
-	"headword": {
-		"text": "אִסְרָטָה"
-	},
+	"sefariaHeadword": "אִסְרָטָה",
+	"headwords": [
+		{
+			"text": "אִסְרָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02778",
-	"slug": "אפקימא",
-	"headword": {
-		"text": "אפקימא"
-	},
+	"sefariaHeadword": "אפקימא",
+	"headwords": [
+		{
+			"text": "אפקימא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 107,
 		"column": "a"

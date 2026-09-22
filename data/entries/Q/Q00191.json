@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00191",
-	"slug": "פוטינוס",
-	"headword": {
-		"text": "פּוֹטִינוֹס"
-	},
+	"sefariaHeadword": "פּוֹטִינוֹס",
+	"headwords": [
+		{
+			"text": "פּוֹטִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1140,
 		"column": "b"

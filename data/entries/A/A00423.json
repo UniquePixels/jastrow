@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00423",
-	"slug": "אדמומית",
-	"headword": {
-		"text": "אַדְמוּמִית"
-	},
+	"sefariaHeadword": "אַדְמוּמִית",
+	"headwords": [
+		{
+			"text": "אַדְמוּמִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 17,
 		"column": "a"

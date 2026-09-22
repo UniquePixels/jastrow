@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01741",
-	"slug": "אכסניי",
-	"headword": {
-		"text": "אכסניי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אכסניי",
+	"headwords": [
 		{
-			"text": "אכסניי פרכא"
+			"text": "אכסניי",
+			"reconstructed": true
+		},
+		{
+			"text": "א׳ פרכא",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 65,
 		"column": "a"

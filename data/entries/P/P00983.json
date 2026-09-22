@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "P00983",
-	"slug": "עניה-3",
-	"headword": {
-		"text": "עֲנִיָּה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲנִיָּה II",
+	"headwords": [
 		{
-			"text": "עֲנִיָּה עֲנָתוֹת"
+			"text": "עֲנִיָּה",
+			"homograph": 2
+		},
+		{
+			"text": "ע׳ עֲנָתוֹת",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1094,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

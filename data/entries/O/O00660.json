@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00660",
-	"slug": "סילונה",
-	"headword": {
-		"text": "סִילּוֹנָה"
-	},
+	"sefariaHeadword": "סִילּוֹנָה",
+	"headwords": [
+		{
+			"text": "סִילּוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

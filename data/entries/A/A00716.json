@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00716",
-	"slug": "און-1",
-	"headword": {
-		"text": "אָוֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָוֶן",
+	"headwords": [
+		{
+			"text": "אָוֶן"
+		},
 		{
 			"text": "אָוֶון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 27,
 		"column": "b"

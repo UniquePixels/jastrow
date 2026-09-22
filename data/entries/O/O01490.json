@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01490",
-	"slug": "סקנדרוס",
-	"headword": {
-		"text": "סקנדרוס"
-	},
+	"sefariaHeadword": "סקנדרוס",
+	"headwords": [
+		{
+			"text": "סקנדרוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "a"

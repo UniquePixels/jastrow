@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00092",
-	"slug": "וורדניא",
-	"headword": {
-		"text": "וַורְדַּנְיָא"
-	},
+	"sefariaHeadword": "וַורְדַּנְיָא",
+	"headwords": [
+		{
+			"text": "וַורְדַּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "b"

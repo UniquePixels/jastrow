@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01331",
-	"slug": "גריוא",
-	"headword": {
-		"text": "גְּרִיוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּרִיוָא",
+	"headwords": [
+		{
+			"text": "גְּרִיוָא"
+		},
 		{
 			"text": "גְּרִיוָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּרִיבָא"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 268,
 		"column": "a"

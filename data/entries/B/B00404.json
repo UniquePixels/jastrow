@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B00404",
-	"slug": "בותניי",
-	"headword": {
-		"text": "בּוֹתְנַיֵּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוֹתְנַיֵּי",
+	"headwords": [
+		{
+			"text": "בּוֹתְנַיֵּי"
+		},
 		{
 			"text": "בּוֹתְנָיִים"
 		},
@@ -18,6 +19,7 @@
 			"text": "בָּתְנַיָּיא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 151,
 		"column": "b"

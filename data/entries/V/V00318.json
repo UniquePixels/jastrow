@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00318",
-	"slug": "תורקין",
-	"headword": {
-		"text": "תּוֹרָקִין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*תּוֹרָקִין",
+	"headwords": [
+		{
+			"text": "תּוֹרָקִין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1658,
 		"column": "b"

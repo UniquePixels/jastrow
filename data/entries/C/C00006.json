@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00006",
-	"slug": "גאו",
-	"headword": {
-		"text": "גֵּאו"
-	},
+	"sefariaHeadword": "גֵּאו",
+	"headwords": [
+		{
+			"text": "גֵּאו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00616",
-	"slug": "ריח-2",
-	"headword": {
-		"text": "רִיחַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רִיחַ ²",
+	"headwords": [
+		{
+			"text": "רִיחַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1473,
 		"column": "b"

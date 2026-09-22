@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00751",
-	"slug": "שטיחה",
-	"headword": {
-		"text": "שטיחה"
-	},
+	"sefariaHeadword": "שטיחה",
+	"headwords": [
+		{
+			"text": "שטיחה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1554,
 		"column": "a"

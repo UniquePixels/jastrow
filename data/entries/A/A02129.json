@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02129",
-	"slug": "אנדרטא",
-	"headword": {
-		"text": "אַנְדְּרָטָא"
-	},
+	"sefariaHeadword": "אַנְדְּרָטָא",
+	"headwords": [
+		{
+			"text": "אַנְדְּרָטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

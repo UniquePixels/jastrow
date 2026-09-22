@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00807",
-	"slug": "דלדל-1",
-	"headword": {
-		"text": "דִּלְדֵּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּלְדֵּל",
+	"headwords": [
 		{
-			"text": "דִּילְ׳"
+			"text": "דִּלְדֵּל"
+		},
+		{
+			"text": "דִּילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 308,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01037",
-	"slug": "עסוק-1",
-	"headword": {
-		"text": "עָסוּק"
-	},
+	"sefariaHeadword": "עָסוּק",
+	"headwords": [
+		{
+			"text": "עָסוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1097,
 		"column": "b"

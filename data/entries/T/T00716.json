@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00716",
-	"slug": "ריש-1",
-	"headword": {
-		"text": "רִישׁ"
-	},
+	"sefariaHeadword": "רִישׁ",
+	"headwords": [
+		{
+			"text": "רִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

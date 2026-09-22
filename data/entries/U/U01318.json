@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01318",
-	"slug": "שליטתא",
-	"headword": {
-		"text": "שַׁלִּיטְתָּא"
-	},
+	"sefariaHeadword": "שַׁלִּיטְתָּא",
+	"headwords": [
+		{
+			"text": "שַׁלִּיטְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "b"

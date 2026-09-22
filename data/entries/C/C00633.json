@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00633",
-	"slug": "גידודא",
-	"headword": {
-		"text": "גִּידּוּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּידּוּדָא",
+	"headwords": [
+		{
+			"text": "גִּידּוּדָא"
+		},
 		{
 			"text": "גִּדּוּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 235,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02016",
-	"slug": "שרץ-1",
-	"headword": {
-		"text": "שָׁרַץ"
-	},
+	"sefariaHeadword": "שָׁרַץ",
+	"headwords": [
+		{
+			"text": "שָׁרַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1633,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00509",
-	"slug": "תירטא",
-	"headword": {
-		"text": "תִּירְטָא"
-	},
+	"sefariaHeadword": "תִּירְטָא",
+	"headwords": [
+		{
+			"text": "תִּירְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"

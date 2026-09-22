@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00231",
-	"slug": "לוזה",
-	"headword": {
-		"text": "לוזה"
-	},
+	"sefariaHeadword": "לוזה",
+	"headwords": [
+		{
+			"text": "לוזה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 696,
 		"column": "a"

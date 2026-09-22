@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00733",
-	"slug": "סינוק",
-	"headword": {
-		"text": "סִינּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינּוּק",
+	"headwords": [
+		{
+			"text": "סִינּוּק"
+		},
 		{
 			"text": "סִינּוֹקְרִית"
 		},
@@ -12,6 +13,7 @@
 			"text": "סִינּוֹקֶרֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 983,
 		"column": "a"

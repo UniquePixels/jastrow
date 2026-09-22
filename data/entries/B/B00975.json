@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00975",
-	"slug": "בסגר",
-	"headword": {
-		"text": "בסגר"
-	},
+	"sefariaHeadword": "בסגר",
+	"headwords": [
+		{
+			"text": "בסגר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "a"

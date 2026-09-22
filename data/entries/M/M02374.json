@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02374",
-	"slug": "מקביל",
-	"headword": {
-		"text": "מִקְּבֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִקְּבֵיל",
+	"headwords": [
+		{
+			"text": "מִקְּבֵיל"
+		},
 		{
 			"text": "מַקְבֵּיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 829,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01779",
-	"slug": "פרטסקאות",
-	"headword": {
-		"text": "פַּרְטַסְקָאוֹת"
-	},
+	"sefariaHeadword": "פַּרְטַסְקָאוֹת",
+	"headwords": [
+		{
+			"text": "פַּרְטַסְקָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1225,
 		"column": "a"

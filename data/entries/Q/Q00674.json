@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00674",
-	"slug": "פילוג-2",
-	"headword": {
-		"text": "פִּילּוּג",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילּוּג ²",
+	"headwords": [
+		{
+			"text": "פִּילּוּג",
+			"disambiguator": 2
+		},
 		{
 			"text": "פִּילּוּגָא"
 		},
 		{
-			"text": "פִּלּ׳"
+			"text": "פִּלּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1163,
 		"column": "b"

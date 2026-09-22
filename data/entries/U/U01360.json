@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01360",
-	"slug": "שלמים",
-	"headword": {
-		"text": "שְׁלָמִים"
-	},
+	"sefariaHeadword": "שְׁלָמִים",
+	"headwords": [
+		{
+			"text": "שְׁלָמִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1587,
 		"column": "a"

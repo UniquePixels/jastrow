@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C01059",
-	"slug": "גמע",
-	"headword": {
-		"text": "גָּמַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גָּמַע",
+	"headwords": [
+		{
+			"text": "גָּמַע"
+		},
 		{
 			"text": "גְּמַע"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 254,
 		"column": "b"

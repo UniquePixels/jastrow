@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00621",
-	"slug": "פיטורה",
-	"headword": {
-		"text": "פִּיטּוּרָה",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פִּיטּוּרָה",
+	"headwords": [
 		{
-			"text": "פִּטּ׳"
+			"text": "פִּיטּוּרָה",
+			"reconstructed": true
+		},
+		{
+			"text": "פִּטּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1161,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01881",
-	"slug": "שקף-2",
-	"headword": {
-		"text": "שָׁקַף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁקַף II",
+	"headwords": [
+		{
+			"text": "שָׁקַף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1625,
 		"column": "a"

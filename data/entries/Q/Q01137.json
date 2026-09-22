@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01137",
-	"slug": "פמוליניא",
-	"headword": {
-		"text": "פמוליניא"
-	},
+	"sefariaHeadword": "פמוליניא",
+	"headwords": [
+		{
+			"text": "פמוליניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1185,
 		"column": "b"

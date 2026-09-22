@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02153",
-	"slug": "קרצית",
-	"headword": {
-		"text": "קְרָצִית"
-	},
+	"sefariaHeadword": "קְרָצִית",
+	"headwords": [
+		{
+			"text": "קְרָצִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1425,
 		"column": "b"

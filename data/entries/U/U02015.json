@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02015",
-	"slug": "שרפרף",
-	"headword": {
-		"text": "שְׁרַפְרַף"
-	},
+	"sefariaHeadword": "שְׁרַפְרַף",
+	"headwords": [
+		{
+			"text": "שְׁרַפְרַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1633,
 		"column": "b"

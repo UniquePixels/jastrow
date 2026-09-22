@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00766",
-	"slug": "שטר-1",
-	"headword": {
-		"text": "שְׂטַר",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שְׂטַר",
+	"headwords": [
+		{
+			"text": "שְׂטַר",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1555,
 		"column": "b"

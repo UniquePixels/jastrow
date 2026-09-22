@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "B01153",
-	"slug": "בר-2",
-	"headword": {
-		"text": "בַּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּר",
+	"headwords": [
+		{
+			"text": "בַּר"
+		},
 		{
 			"text": "בָּר"
 		},
@@ -12,6 +13,7 @@
 			"text": "בָּרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 188,
 		"column": "b"

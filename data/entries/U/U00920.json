@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00920",
-	"slug": "שיכון",
-	"headword": {
-		"text": "שִׁיכּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיכּוּן",
+	"headwords": [
 		{
-			"text": "שִׁכּ׳"
+			"text": "שִׁיכּוּן"
+		},
+		{
+			"text": "שִׁכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1562,
 		"column": "a"

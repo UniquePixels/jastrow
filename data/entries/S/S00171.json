@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00171",
-	"slug": "קדר-4",
-	"headword": {
-		"text": "קְדַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קְדַר ²",
+	"headwords": [
+		{
+			"text": "קְדַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1318,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02168",
-	"slug": "אנטולינוס",
-	"headword": {
-		"text": "אַנְטוֹלִינוֹס"
-	},
+	"sefariaHeadword": "אַנְטוֹלִינוֹס",
+	"headwords": [
+		{
+			"text": "אַנְטוֹלִינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "a"

@@ -1,23 +1,23 @@
 {
+	"schemaVersion": 2,
 	"id": "S01090",
-	"slug": "קיסרין",
-	"headword": {
-		"text": "קִיסְרִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְרִין",
+	"headwords": [
+		{
+			"text": "קִיסְרִין"
+		},
 		{
 			"text": "קִיסְרֵי"
 		},
 		{
-			"text": "קִסְ׳"
+			"text": "קִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1365,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

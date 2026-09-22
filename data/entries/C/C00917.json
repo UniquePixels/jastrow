@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00917",
-	"slug": "גלוש",
-	"headword": {
-		"text": "גְּלוֹשׁ"
-	},
+	"sefariaHeadword": "גְּלוֹשׁ",
+	"headwords": [
+		{
+			"text": "גְּלוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

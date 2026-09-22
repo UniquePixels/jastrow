@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00799",
-	"slug": "מחבוי",
-	"headword": {
-		"text": "מַחֲבוֹי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַחֲבוֹי",
+	"headwords": [
+		{
+			"text": "מַחֲבוֹי"
+		},
 		{
 			"text": "מַחֲבוֹיָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 757,
 		"column": "a"

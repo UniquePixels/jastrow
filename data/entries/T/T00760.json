@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00760",
-	"slug": "רכוש",
-	"headword": {
-		"text": "רְכוּשׁ"
-	},
+	"sefariaHeadword": "רְכוּשׁ",
+	"headwords": [
+		{
+			"text": "רְכוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1479,
 		"column": "b"

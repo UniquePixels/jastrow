@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00243",
-	"slug": "צור-4",
-	"headword": {
-		"text": "צוּר",
-		"homograph": 3
-	},
+	"sefariaHeadword": "צוּר III",
+	"headwords": [
+		{
+			"text": "צוּר",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 1271,
 		"column": "a"

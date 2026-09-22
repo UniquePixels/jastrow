@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00019",
-	"slug": "פאפוניא",
-	"headword": {
-		"text": "פָּאפוּנְיָא"
-	},
+	"sefariaHeadword": "פָּאפוּנְיָא",
+	"headwords": [
+		{
+			"text": "פָּאפוּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

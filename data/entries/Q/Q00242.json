@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00242",
-	"slug": "פולסא-2",
-	"headword": {
-		"text": "פולסא"
-	},
+	"sefariaHeadword": "פולסא",
+	"headwords": [
+		{
+			"text": "פולסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "b"

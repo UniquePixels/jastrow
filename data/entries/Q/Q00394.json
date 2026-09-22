@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00394",
-	"slug": "פורקתא",
-	"headword": {
-		"text": "פּוּרְקְתָא"
-	},
+	"sefariaHeadword": "פּוּרְקְתָא",
+	"headwords": [
+		{
+			"text": "פּוּרְקְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1148,
 		"column": "b"

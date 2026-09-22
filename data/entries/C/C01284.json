@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "C01284",
-	"slug": "גרדנא",
-	"headword": {
-		"text": "גַּרְדָּנָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*גַּרְדָּנָא",
+	"headwords": [
 		{
-			"text": "גִּירְ׳"
+			"text": "גַּרְדָּנָא",
+			"reconstructed": true
+		},
+		{
+			"text": "גִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 266,
 		"column": "a"

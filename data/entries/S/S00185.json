@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00185",
-	"slug": "קדרות",
-	"headword": {
-		"text": "קַדָּרוּת"
-	},
+	"sefariaHeadword": "קַדָּרוּת",
+	"headwords": [
+		{
+			"text": "קַדָּרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1319,
 		"column": "a"

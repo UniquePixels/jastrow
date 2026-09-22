@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00517",
-	"slug": "נחרתא",
-	"headword": {
-		"text": "נַחַרְתָּא"
-	},
+	"sefariaHeadword": "נַחַרְתָּא",
+	"headwords": [
+		{
+			"text": "נַחַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 896,
 		"column": "b"

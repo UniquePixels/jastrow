@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01198",
-	"slug": "עקם",
-	"headword": {
-		"text": "עֲקַם"
-	},
+	"sefariaHeadword": "עֲקַם",
+	"headwords": [
+		{
+			"text": "עֲקַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1107,
 		"column": "a"

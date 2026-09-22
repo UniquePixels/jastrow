@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00991",
-	"slug": "ענים",
-	"headword": {
-		"text": "ענים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ענים",
+	"headwords": [
 		{
-			"text": "כפר ענים"
+			"text": "ענים"
+		},
+		{
+			"text": "כפר ע׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1095,
 		"column": "a"

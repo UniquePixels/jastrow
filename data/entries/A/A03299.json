@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03299",
-	"slug": "אשית-2",
-	"headword": {
-		"text": "אשית"
-	},
+	"sefariaHeadword": "אשית",
+	"headwords": [
+		{
+			"text": "אשית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 128,
 		"column": "a"

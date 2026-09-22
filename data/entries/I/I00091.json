@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00091",
-	"slug": "טברר",
-	"headword": {
-		"text": "טִבְרֵר"
-	},
+	"sefariaHeadword": "טִבְרֵר",
+	"headwords": [
+		{
+			"text": "טִבְרֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 519,
 		"column": "b"

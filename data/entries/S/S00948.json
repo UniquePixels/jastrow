@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00948",
-	"slug": "קייצותא",
-	"headword": {
-		"text": "קַיְיצוּתָא"
-	},
+	"sefariaHeadword": "קַיְיצוּתָא",
+	"headwords": [
+		{
+			"text": "קַיְיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1359,
 		"column": "b"

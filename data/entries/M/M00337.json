@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00337",
-	"slug": "מדרש",
-	"headword": {
-		"text": "מִדְרָשׁ"
-	},
+	"sefariaHeadword": "מִדְרָשׁ",
+	"headwords": [
+		{
+			"text": "מִדְרָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "b"

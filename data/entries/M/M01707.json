@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01707",
-	"slug": "מנגדנא",
-	"headword": {
-		"text": "מַנְגְּדָנָא"
-	},
+	"sefariaHeadword": "מַנְגְּדָנָא",
+	"headwords": [
+		{
+			"text": "מַנְגְּדָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 796,
 		"column": "b"

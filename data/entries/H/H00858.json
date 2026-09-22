@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00858",
-	"slug": "חיץ",
-	"headword": {
-		"text": "חֵיץ"
-	},
+	"sefariaHeadword": "חֵיץ",
+	"headwords": [
+		{
+			"text": "חֵיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 459,
 		"column": "b"

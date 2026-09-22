@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01027",
-	"slug": "פלטר-2",
-	"headword": {
-		"text": "פַּלְטֵר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פַּלְטֵר II",
+	"headwords": [
+		{
+			"text": "פַּלְטֵר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1180,
 		"column": "a"

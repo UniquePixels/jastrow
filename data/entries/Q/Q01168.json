@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01168",
-	"slug": "פנוייתא",
-	"headword": {
-		"text": "פְּנוּיַיְתָא"
-	},
+	"sefariaHeadword": "פְּנוּיַיְתָא",
+	"headwords": [
+		{
+			"text": "פְּנוּיַיְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02887",
-	"slug": "משיקות",
-	"headword": {
-		"text": "מְשִׁיקוֹת"
-	},
+	"sefariaHeadword": "מְשִׁיקוֹת",
+	"headwords": [
+		{
+			"text": "מְשִׁיקוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 853,
 		"column": "a"

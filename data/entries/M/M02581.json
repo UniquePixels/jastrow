@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02581",
-	"slug": "מרוח-2",
-	"headword": {
-		"text": "מְרוֹחַ"
-	},
+	"sefariaHeadword": "מְרוֹחַ",
+	"headwords": [
+		{
+			"text": "מְרוֹחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

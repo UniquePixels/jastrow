@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00674",
-	"slug": "סילקוס",
-	"headword": {
-		"text": "סילקוס"
-	},
+	"sefariaHeadword": "סילקוס",
+	"headwords": [
+		{
+			"text": "סילקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

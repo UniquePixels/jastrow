@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00223",
-	"slug": "סואבא",
-	"headword": {
-		"text": "סוֹאֲבָא"
-	},
+	"sefariaHeadword": "סוֹאֲבָא",
+	"headwords": [
+		{
+			"text": "סוֹאֲבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 960,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00949",
-	"slug": "שילין",
-	"headword": {
-		"text": "שֵׁילִין"
-	},
+	"sefariaHeadword": "שֵׁילִין",
+	"headwords": [
+		{
+			"text": "שֵׁילִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1563,
 		"column": "a"

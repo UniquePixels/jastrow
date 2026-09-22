@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A02362",
-	"slug": "אסטומכא-1",
-	"headword": {
-		"text": "אִסְטוֹמְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְטוֹמְכָא",
+	"headwords": [
+		{
+			"text": "אִסְטוֹמְכָא"
+		},
 		{
 			"text": "אִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 90,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00557",
-	"slug": "צמאון",
-	"headword": {
-		"text": "צִמָּאוֹן"
-	},
+	"sefariaHeadword": "צִמָּאוֹן",
+	"headwords": [
+		{
+			"text": "צִמָּאוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1286,
 		"column": "b"

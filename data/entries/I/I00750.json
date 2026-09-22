@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "I00750",
-	"slug": "טרחותא",
-	"headword": {
-		"text": "טַרְחוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְחוּתָא",
+	"headwords": [
 		{
-			"text": "טוֹרְחוּ׳"
+			"text": "טַרְחוּתָא"
+		},
+		{
+			"text": "טוֹרְחוּ׳",
+			"partial": true
 		},
 		{
 			"text": "טְרִיחוּתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 552,
 		"column": "a"

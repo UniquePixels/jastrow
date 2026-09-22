@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00968",
-	"slug": "מטה-2",
-	"headword": {
-		"text": "מִטָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִטָּה",
+	"headwords": [
+		{
+			"text": "מִטָּה"
+		},
 		{
 			"text": "מִיטָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 765,
 		"column": "b"

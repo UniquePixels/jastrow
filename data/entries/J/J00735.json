@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00735",
-	"slug": "יתיניא",
-	"headword": {
-		"text": "יַתִינְיָא"
-	},
+	"sefariaHeadword": "יַתִינְיָא",
+	"headwords": [
+		{
+			"text": "יַתִינְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 604,
 		"column": "a"

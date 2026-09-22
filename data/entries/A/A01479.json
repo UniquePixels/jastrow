@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01479",
-	"slug": "איספיסריאון",
-	"headword": {
-		"text": "איספיסריאון",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*איספיסריאון",
+	"headwords": [
 		{
-			"text": "קומיס איספיסריאון"
+			"text": "איספיסריאון",
+			"reconstructed": true
+		},
+		{
+			"text": "קומיס א׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 56,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00869",
-	"slug": "עמון",
-	"headword": {
-		"text": "עַמּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַמּוֹן",
+	"headwords": [
 		{
-			"text": "בְּנֵי עַמּוֹן"
+			"text": "עַמּוֹן"
+		},
+		{
+			"text": "בְּנֵי עַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1087,
 		"column": "a"

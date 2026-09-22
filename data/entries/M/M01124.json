@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01124",
-	"slug": "מיטבא",
-	"headword": {
-		"text": "מֵיטְבָא"
-	},
+	"sefariaHeadword": "מֵיטְבָא",
+	"headwords": [
+		{
+			"text": "מֵיטְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 772,
 		"column": "a"

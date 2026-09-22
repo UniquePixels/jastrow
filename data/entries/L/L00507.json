@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00507",
-	"slug": "ליפארוס",
-	"headword": {
-		"text": "ליפארוס"
-	},
+	"sefariaHeadword": "ליפארוס",
+	"headwords": [
+		{
+			"text": "ליפארוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

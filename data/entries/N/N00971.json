@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00971",
-	"slug": "נעור",
-	"headword": {
-		"text": "נֵעוֹר"
-	},
+	"sefariaHeadword": "נֵעוֹר",
+	"headwords": [
+		{
+			"text": "נֵעוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 919,
 		"column": "a"

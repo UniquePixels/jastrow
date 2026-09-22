@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01521",
-	"slug": "שמץ",
-	"headword": {
-		"text": "שֶׁמֶץ"
-	},
+	"sefariaHeadword": "שֶׁמֶץ",
+	"headwords": [
+		{
+			"text": "שֶׁמֶץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1600,
 		"column": "b"

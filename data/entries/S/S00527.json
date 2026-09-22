@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00527",
-	"slug": "קוץ-2",
-	"headword": {
-		"text": "קְוַץ"
-	},
+	"sefariaHeadword": "קְוַץ",
+	"headwords": [
+		{
+			"text": "קְוַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1339,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00090",
-	"slug": "צדו-2",
-	"headword": {
-		"text": "צָדוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צָדוּ",
+	"headwords": [
+		{
+			"text": "צָדוּ"
+		},
 		{
 			"text": "צָדוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1261,
 		"column": "a"

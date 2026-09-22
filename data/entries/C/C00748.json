@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00748",
-	"slug": "גינא",
-	"headword": {
-		"text": "גִּינָּא"
-	},
+	"sefariaHeadword": "גִּינָּא",
+	"headwords": [
+		{
+			"text": "גִּינָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "b"

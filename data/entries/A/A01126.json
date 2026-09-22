@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "A01126",
-	"slug": "איבוס-2",
-	"headword": {
-		"text": "איבּוּס",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*איבּוּס",
+	"headwords": [
 		{
-			"text": "כפר איבּוּס"
+			"text": "איבּוּס",
+			"reconstructed": true
+		},
+		{
+			"text": "כפר א׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 44,
 		"column": "a"

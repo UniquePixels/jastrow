@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00293",
-	"slug": "אגין-2",
-	"headword": {
-		"text": "אַגֵּין",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַגֵּין",
+	"headwords": [
+		{
+			"text": "אַגֵּין",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 12,
 		"column": "b"

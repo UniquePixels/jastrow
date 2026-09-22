@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00636",
-	"slug": "עיף-2",
-	"headword": {
-		"text": "עִיף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עִיף I",
+	"headwords": [
+		{
+			"text": "עִיף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1073,
 		"column": "b"

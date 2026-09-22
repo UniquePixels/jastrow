@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00301",
-	"slug": "לועז",
-	"headword": {
-		"text": "לוֹעֵז"
-	},
+	"sefariaHeadword": "לוֹעֵז",
+	"headwords": [
+		{
+			"text": "לוֹעֵז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 700,
 		"column": "a"

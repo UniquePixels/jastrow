@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00267",
-	"slug": "טחינה",
-	"headword": {
-		"text": "טְחִינָה"
-	},
+	"sefariaHeadword": "טְחִינָה",
+	"headwords": [
+		{
+			"text": "טְחִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 528,
 		"column": "a"

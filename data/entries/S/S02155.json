@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02155",
-	"slug": "קרצף-2",
-	"headword": {
-		"text": "קַרְצֵף"
-	},
+	"sefariaHeadword": "קַרְצֵף",
+	"headwords": [
+		{
+			"text": "קַרְצֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1426,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01374",
-	"slug": "ספיר-1",
-	"headword": {
-		"text": "סַפִּיר"
-	},
+	"sefariaHeadword": "סַפִּיר",
+	"headwords": [
+		{
+			"text": "סַפִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "a"

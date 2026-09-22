@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00698",
-	"slug": "פיליון-1",
-	"headword": {
-		"text": "פִּילְיוֹן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פִּילְיוֹן I",
+	"headwords": [
+		{
+			"text": "פִּילְיוֹן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1164,
 		"column": "b"

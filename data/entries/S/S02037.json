@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02037",
-	"slug": "קריבותא",
-	"headword": {
-		"text": "קְרֵיבוּתָא"
-	},
+	"sefariaHeadword": "קְרֵיבוּתָא",
+	"headwords": [
+		{
+			"text": "קְרֵיבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1419,
 		"column": "b"

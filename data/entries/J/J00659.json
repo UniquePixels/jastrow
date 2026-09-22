@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00659",
-	"slug": "ירקומי",
-	"headword": {
-		"text": "ירקומי"
-	},
+	"sefariaHeadword": "ירקומי",
+	"headwords": [
+		{
+			"text": "ירקומי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 598,
 		"column": "a"

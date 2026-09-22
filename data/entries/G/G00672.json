@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00672",
-	"slug": "זרדן",
-	"headword": {
-		"text": "זרדן"
-	},
+	"sefariaHeadword": "זרדן",
+	"headwords": [
+		{
+			"text": "זרדן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 411,
 		"column": "b"

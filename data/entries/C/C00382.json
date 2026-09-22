@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00382",
-	"slug": "גולגלתא",
-	"headword": {
-		"text": "גּוּלְגַּלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּלְגַּלְתָּא",
+	"headwords": [
 		{
-			"text": "גּוּלְגּוּלְ׳"
+			"text": "גּוּלְגַּלְתָּא"
+		},
+		{
+			"text": "גּוּלְגּוּלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "b"

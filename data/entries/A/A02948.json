@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02948",
-	"slug": "אראני",
-	"headword": {
-		"text": "אראני"
-	},
+	"sefariaHeadword": "אראני",
+	"headwords": [
+		{
+			"text": "אראני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 113,
 		"column": "b"

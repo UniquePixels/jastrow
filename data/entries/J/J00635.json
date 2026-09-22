@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00635",
-	"slug": "יריך",
-	"headword": {
-		"text": "יָרֵיךְ"
-	},
+	"sefariaHeadword": "יָרֵיךְ",
+	"headwords": [
+		{
+			"text": "יָרֵיךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

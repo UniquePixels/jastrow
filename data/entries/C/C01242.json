@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01242",
-	"slug": "גרג",
-	"headword": {
-		"text": "גְּרַג"
-	},
+	"sefariaHeadword": "גְּרַג",
+	"headwords": [
+		{
+			"text": "גְּרַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "a"

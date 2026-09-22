@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00771",
-	"slug": "בכורה-1",
-	"headword": {
-		"text": "בִּכּוּרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בִּכּוּרָה",
+	"headwords": [
 		{
-			"text": "בִּיכּ׳"
+			"text": "בִּכּוּרָה"
+		},
+		{
+			"text": "בִּיכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 169,
 		"column": "a"

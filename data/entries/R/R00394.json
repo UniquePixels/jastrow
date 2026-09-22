@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00394",
-	"slug": "צינייתא",
-	"headword": {
-		"text": "צִינְּיָיתָא"
-	},
+	"sefariaHeadword": "צִינְּיָיתָא",
+	"headwords": [
+		{
+			"text": "צִינְּיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1278,
 		"column": "a"

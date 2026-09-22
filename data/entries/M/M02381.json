@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02381",
-	"slug": "מקדח",
-	"headword": {
-		"text": "מַקְדֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַקְדֵּחַ",
+	"headwords": [
+		{
+			"text": "מַקְדֵּחַ"
+		},
 		{
 			"text": "מַקְדֵּיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 829,
 		"column": "a"

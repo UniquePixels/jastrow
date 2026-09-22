@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01111",
-	"slug": "שיתנהון",
-	"headword": {
-		"text": "שיתנהון"
-	},
+	"sefariaHeadword": "שיתנהון",
+	"headwords": [
+		{
+			"text": "שיתנהון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1570,
 		"column": "b"

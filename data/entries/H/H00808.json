@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00808",
-	"slug": "חימסא",
-	"headword": {
-		"text": "חימסא"
-	},
+	"sefariaHeadword": "חימסא",
+	"headwords": [
+		{
+			"text": "חימסא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "a"

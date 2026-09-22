@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00018",
-	"slug": "צבא-2",
-	"headword": {
-		"text": "צִבָּא"
-	},
+	"sefariaHeadword": "צִבָּא",
+	"headwords": [
+		{
+			"text": "צִבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "a"

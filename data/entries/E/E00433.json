@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00433",
-	"slug": "הימני׳",
-	"headword": {
-		"text": "הימני׳"
-	},
+	"sefariaHeadword": "הימני׳",
+	"headwords": [
+		{
+			"text": "הימני׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

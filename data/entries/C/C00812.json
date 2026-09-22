@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00812",
-	"slug": "גירגר",
-	"headword": {
-		"text": "גִּירְגֵּר"
-	},
+	"sefariaHeadword": "גִּירְגֵּר",
+	"headwords": [
+		{
+			"text": "גִּירְגֵּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 242,
 		"column": "a"

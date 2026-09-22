@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00195",
-	"slug": "מגניא",
-	"headword": {
-		"text": "מִגַּנְיָא"
-	},
+	"sefariaHeadword": "מִגַּנְיָא",
+	"headwords": [
+		{
+			"text": "מִגַּנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "b"

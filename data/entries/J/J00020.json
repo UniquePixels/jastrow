@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00020",
-	"slug": "יאניבא",
-	"headword": {
-		"text": "יָאנִיבָא"
-	},
+	"sefariaHeadword": "יָאנִיבָא",
+	"headwords": [
+		{
+			"text": "יָאנִיבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 559,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00443",
-	"slug": "די-2",
-	"headword": {
-		"text": "דִּי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דִּי II",
+	"headwords": [
+		{
+			"text": "דִּי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 293,
 		"column": "b"

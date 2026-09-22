@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M01215",
-	"slug": "מינוי-2",
-	"headword": {
-		"text": "מִינּוּי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִינּוּי ²",
+	"headwords": [
+		{
+			"text": "מִינּוּי",
+			"disambiguator": 2
+		},
 		{
 			"text": "מִינּוּיָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "מִנּוּיָיה"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 776,
 		"column": "b"

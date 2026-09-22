@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01380",
-	"slug": "אינטפלינית",
-	"headword": {
-		"text": "אינטפלינית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אינטפלינית",
+	"headwords": [
 		{
-			"text": "איינ׳"
+			"text": "אינטפלינית"
+		},
+		{
+			"text": "איינ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 52,
 		"column": "b"

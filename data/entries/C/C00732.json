@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00732",
-	"slug": "גילוליא",
-	"headword": {
-		"text": "גִּילּוּלַיָּא"
-	},
+	"sefariaHeadword": "גִּילּוּלַיָּא",
+	"headwords": [
+		{
+			"text": "גִּילּוּלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

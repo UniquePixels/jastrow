@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00286",
-	"slug": "תורגמינא",
-	"headword": {
-		"text": "תורגמינא"
-	},
+	"sefariaHeadword": "תורגמינא",
+	"headwords": [
+		{
+			"text": "תורגמינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1656,
 		"column": "b"

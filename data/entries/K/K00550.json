@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00550",
-	"slug": "כיליי",
-	"headword": {
-		"text": "כיליי"
-	},
+	"sefariaHeadword": "כיליי",
+	"headwords": [
+		{
+			"text": "כיליי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01773",
-	"slug": "קפרס",
-	"headword": {
-		"text": "קַפְרָס"
-	},
+	"sefariaHeadword": "קַפְרָס",
+	"headwords": [
+		{
+			"text": "קַפְרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1403,
 		"column": "b"

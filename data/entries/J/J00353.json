@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00353",
-	"slug": "ייתור",
-	"headword": {
-		"text": "יִיתּוּר"
-	},
+	"sefariaHeadword": "יִיתּוּר",
+	"headwords": [
+		{
+			"text": "יִיתּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 577,
 		"column": "a"

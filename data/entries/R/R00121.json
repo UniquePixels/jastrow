@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00121",
-	"slug": "צדקא",
-	"headword": {
-		"text": "צִדְקָא"
-	},
+	"sefariaHeadword": "צִדְקָא",
+	"headwords": [
+		{
+			"text": "צִדְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1263,
 		"column": "b"

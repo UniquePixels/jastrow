@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02515",
-	"slug": "מרגזייה",
-	"headword": {
-		"text": "מַרְגְּזַיָּיה"
-	},
+	"sefariaHeadword": "מַרְגְּזַיָּיה",
+	"headwords": [
+		{
+			"text": "מַרְגְּזַיָּיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 835,
 		"column": "b"

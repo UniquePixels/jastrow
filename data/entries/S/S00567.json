@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00567",
-	"slug": "קורבא",
-	"headword": {
-		"text": "קוֹרְבָא"
-	},
+	"sefariaHeadword": "קוֹרְבָא",
+	"headwords": [
+		{
+			"text": "קוֹרְבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1341,
 		"column": "a"

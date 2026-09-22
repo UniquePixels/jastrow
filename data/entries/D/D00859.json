@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00859",
-	"slug": "דלקטירין",
-	"headword": {
-		"text": "דלקטירין"
-	},
+	"sefariaHeadword": "דלקטירין",
+	"headwords": [
+		{
+			"text": "דלקטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 311,
 		"column": "b"

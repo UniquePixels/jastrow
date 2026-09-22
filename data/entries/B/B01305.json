@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01305",
-	"slug": "ברס",
-	"headword": {
-		"text": "ברס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*ברס",
+	"headwords": [
+		{
+			"text": "ברס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

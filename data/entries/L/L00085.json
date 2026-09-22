@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00085",
-	"slug": "לבלב-2",
-	"headword": {
-		"text": "לַבְלֵב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "לַבְלֵב I",
+	"headwords": [
+		{
+			"text": "לַבְלֵב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 689,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00100",
-	"slug": "ידי-1",
-	"headword": {
-		"text": "ידי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ידי",
+	"headwords": [
+		{
+			"text": "ידי"
+		},
 		{
 			"text": "יָדָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 564,
 		"column": "a"

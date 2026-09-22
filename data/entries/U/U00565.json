@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00565",
-	"slug": "שושבנות",
-	"headword": {
-		"text": "שׁוֹשְׁבָנוּת"
-	},
+	"sefariaHeadword": "שׁוֹשְׁבָנוּת",
+	"headwords": [
+		{
+			"text": "שׁוֹשְׁבָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1543,
 		"column": "b"

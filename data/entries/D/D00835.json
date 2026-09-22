@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00835",
-	"slug": "דליק",
-	"headword": {
-		"text": "דָּלֵיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּלֵיק",
+	"headwords": [
+		{
+			"text": "דָּלֵיק"
+		},
 		{
 			"text": "דְּלֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 310,
 		"column": "a"

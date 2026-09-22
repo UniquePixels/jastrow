@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00641",
-	"slug": "חטפא-1",
-	"headword": {
-		"text": "חֲטָפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲטָפָא",
+	"headwords": [
+		{
+			"text": "חֲטָפָא"
+		},
 		{
 			"text": "חִיטְפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 450,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00735",
-	"slug": "סינטומוס",
-	"headword": {
-		"text": "סִינְטוֹמוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינְטוֹמוֹס",
+	"headwords": [
 		{
-			"text": "סוּנְ׳"
+			"text": "סִינְטוֹמוֹס"
+		},
+		{
+			"text": "סוּנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "a"

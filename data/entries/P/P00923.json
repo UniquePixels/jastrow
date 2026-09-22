@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00923",
-	"slug": "עמקאה",
-	"headword": {
-		"text": "עִמְקָאָה"
-	},
+	"sefariaHeadword": "עִמְקָאָה",
+	"headwords": [
+		{
+			"text": "עִמְקָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1090,
 		"column": "b"

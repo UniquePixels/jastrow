@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00723",
-	"slug": "סין",
-	"headword": {
-		"text": "סְיָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְיָן",
+	"headwords": [
+		{
+			"text": "סְיָן"
+		},
 		{
 			"text": "סִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "סְיָין"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 982,
 		"column": "b"

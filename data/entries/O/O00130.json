@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00130",
-	"slug": "סגידו",
-	"headword": {
-		"text": "סְגִידוּ"
-	},
+	"sefariaHeadword": "סְגִידוּ",
+	"headwords": [
+		{
+			"text": "סְגִידוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 954,
 		"column": "b"

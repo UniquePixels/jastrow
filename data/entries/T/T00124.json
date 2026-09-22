@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00124",
-	"slug": "רבנות",
-	"headword": {
-		"text": "רַבָּנוּת"
-	},
+	"sefariaHeadword": "רַבָּנוּת",
+	"headwords": [
+		{
+			"text": "רַבָּנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1444,
 		"column": "a"

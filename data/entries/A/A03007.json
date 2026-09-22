@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03007",
-	"slug": "ארדלייא",
-	"headword": {
-		"text": "אַרְדְּלַיָּיא"
-	},
+	"sefariaHeadword": "אַרְדְּלַיָּיא",
+	"headwords": [
+		{
+			"text": "אַרְדְּלַיָּיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 116,
 		"column": "a"

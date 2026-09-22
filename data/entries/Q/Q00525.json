@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00525",
-	"slug": "פטיריקון",
-	"headword": {
-		"text": "פטיריקון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פטיריקון",
+	"headwords": [
+		{
+			"text": "פטיריקון"
+		},
 		{
 			"text": "פטיריקין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1155,
 		"column": "b"

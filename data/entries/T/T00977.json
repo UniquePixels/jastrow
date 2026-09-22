@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00977",
-	"slug": "רצועה-1",
-	"headword": {
-		"text": "רְצוּעָה"
-	},
+	"sefariaHeadword": "רְצוּעָה",
+	"headwords": [
+		{
+			"text": "רְצוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1492,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01639",
-	"slug": "סרכונא",
-	"headword": {
-		"text": "סרכונא"
-	},
+	"sefariaHeadword": "סרכונא",
+	"headwords": [
+		{
+			"text": "סרכונא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1028,
 		"column": "a"

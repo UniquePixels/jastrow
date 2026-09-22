@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00207",
-	"slug": "תוכלן",
-	"headword": {
-		"text": "תּוּכְלָן"
-	},
+	"sefariaHeadword": "תּוּכְלָן",
+	"headwords": [
+		{
+			"text": "תּוּכְלָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"

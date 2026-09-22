@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00168",
-	"slug": "אבלינא",
-	"headword": {
-		"text": "אַבְלִינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְלִינָא",
+	"headwords": [
+		{
+			"text": "אַבְלִינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 7,
 		"column": "a"

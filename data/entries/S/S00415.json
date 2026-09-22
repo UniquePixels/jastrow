@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00415",
-	"slug": "קונביתא",
-	"headword": {
-		"text": "קוּנְבִּיתָא"
-	},
+	"sefariaHeadword": "קוּנְבִּיתָא",
+	"headwords": [
+		{
+			"text": "קוּנְבִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1334,
 		"column": "a"

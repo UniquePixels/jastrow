@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00847",
-	"slug": "רנן-1",
-	"headword": {
-		"text": "רָנַן"
-	},
+	"sefariaHeadword": "רָנַן",
+	"headwords": [
+		{
+			"text": "רָנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "a"

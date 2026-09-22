@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00340",
-	"slug": "מה-1",
-	"headword": {
-		"text": "מָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָה",
+	"headwords": [
+		{
+			"text": "מָה"
+		},
 		{
 			"text": "מַה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 736,
 		"column": "a"

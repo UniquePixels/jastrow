@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01783",
-	"slug": "מניכה",
-	"headword": {
-		"text": "מָנִיכָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מָנִיכָה",
+	"headwords": [
+		{
+			"text": "מָנִיכָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 801,
 		"column": "a"

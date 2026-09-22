@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00294",
-	"slug": "רואי",
-	"headword": {
-		"text": "רוֹאִי"
-	},
+	"sefariaHeadword": "רוֹאִי",
+	"headwords": [
+		{
+			"text": "רוֹאִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1454,
 		"column": "b"

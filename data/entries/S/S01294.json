@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01294",
-	"slug": "קלוקסיה",
-	"headword": {
-		"text": "קְלוּקַסְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלוּקַסְיָה",
+	"headwords": [
+		{
+			"text": "קְלוּקַסְיָה"
+		},
 		{
 			"text": "קְלוּקַסְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1373,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00342",
-	"slug": "חולחלית",
-	"headword": {
-		"text": "חוּלְחָלִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלְחָלִית",
+	"headwords": [
+		{
+			"text": "חוּלְחָלִית"
+		},
 		{
 			"text": "חוּלְחָלִיּוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 434,
 		"column": "a"

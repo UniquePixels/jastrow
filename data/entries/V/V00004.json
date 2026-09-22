@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00004",
-	"slug": "תאב-1",
-	"headword": {
-		"text": "תָּאַב"
-	},
+	"sefariaHeadword": "תָּאַב",
+	"headwords": [
+		{
+			"text": "תָּאַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1641,
 		"column": "a"

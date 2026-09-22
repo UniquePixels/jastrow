@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00193",
-	"slug": "שבשבת",
-	"headword": {
-		"text": "שַׁבְשֶׁבֶת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*שַׁבְשֶׁבֶת",
+	"headwords": [
+		{
+			"text": "שַׁבְשֶׁבֶת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1519,
 		"column": "a"

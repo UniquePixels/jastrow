@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01656",
-	"slug": "חרחלין",
-	"headword": {
-		"text": "חַרְחַלִּין"
-	},
+	"sefariaHeadword": "חַרְחַלִּין",
+	"headwords": [
+		{
+			"text": "חַרְחַלִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "a"

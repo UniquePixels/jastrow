@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01796",
-	"slug": "פריומא",
-	"headword": {
-		"text": "פִּרְיוֹמָא"
-	},
+	"sefariaHeadword": "פִּרְיוֹמָא",
+	"headwords": [
+		{
+			"text": "פִּרְיוֹמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1226,
 		"column": "a"

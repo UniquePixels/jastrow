@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01301",
-	"slug": "אילך",
-	"headword": {
-		"text": "אֵילֵךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֵילֵךְ",
+	"headwords": [
+		{
+			"text": "אֵילֵךְ"
+		},
 		{
 			"text": "אִילַךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 49,
 		"column": "b"

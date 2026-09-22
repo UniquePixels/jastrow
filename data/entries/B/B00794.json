@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00794",
-	"slug": "בכר-1",
-	"headword": {
-		"text": "בָּכַר"
-	},
+	"sefariaHeadword": "בָּכַר",
+	"headwords": [
+		{
+			"text": "בָּכַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 170,
 		"column": "a"
@@ -35,7 +39,7 @@
 					"units": [
 						"<cite ref=\"Mishnah Bikkurim 3:1\">Bicc. III, 1</cite> and sees <he>תאנה שבִּכְּרָה</he> a fig which is first ripe, <he>אשכול שביכר</he> a cluster of grapes which &c. Y. Maasr. I, 49ᵃ top <he>משיְבַכֵּר צמייא וכ׳</he>, v. <cite ref=\"R00577\"><he>צמייא</he></cite>. ",
 						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>משבִּיכֵּירוּ בנות שבע</he>, v. <cite ref=\"B01154\"><he>בְּרַת</he></cite>. ",
-						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>בִּיכֵּירוּ</he>, <he>משיְבַכְּרוּ</he> (v. <cite ref=\"B00479\"><he>בָּחַל</he></cite> as to spelling)."
+						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>בִּיכֵּירוּ</he>, <he>משיְבַכְּרוּ</he> (v. <cite ref=\"B00479\"><he>בָּחַל</he></cite> as to spelling)."
 					],
 					"label": "3"
 				},

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00889",
-	"slug": "פיתגם",
-	"headword": {
-		"text": "פִּיתְגָּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיתְגָּם",
+	"headwords": [
+		{
+			"text": "פִּיתְגָּם"
+		},
 		{
 			"text": "פִּיתְגָּמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1172,
 		"column": "b"

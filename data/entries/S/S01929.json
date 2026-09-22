@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01929",
-	"slug": "קרוד",
-	"headword": {
-		"text": "קֵרוּד"
-	},
+	"sefariaHeadword": "קֵרוּד",
+	"headwords": [
+		{
+			"text": "קֵרוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "a"

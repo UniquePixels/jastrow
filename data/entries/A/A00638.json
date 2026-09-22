@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00638",
-	"slug": "אויריא",
-	"headword": {
-		"text": "אֲוִירְיָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֲוִירְיָא",
+	"headwords": [
+		{
+			"text": "אֲוִירְיָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 24,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

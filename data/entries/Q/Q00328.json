@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00328",
-	"slug": "פור",
-	"headword": {
-		"text": "פּוּר"
-	},
+	"sefariaHeadword": "פּוּר",
+	"headwords": [
+		{
+			"text": "פּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "a"

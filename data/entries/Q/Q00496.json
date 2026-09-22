@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00496",
-	"slug": "פטדה",
-	"headword": {
-		"text": "פִּטְדָה"
-	},
+	"sefariaHeadword": "פִּטְדָה",
+	"headwords": [
+		{
+			"text": "פִּטְדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1154,
 		"column": "b"

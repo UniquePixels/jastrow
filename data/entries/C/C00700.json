@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00700",
-	"slug": "גיי",
-	"headword": {
-		"text": "גְּיֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גְּיֵי",
+	"headwords": [
+		{
+			"text": "גְּיֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 237,
 		"column": "b"

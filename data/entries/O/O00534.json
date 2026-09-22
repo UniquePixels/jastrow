@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00534",
-	"slug": "סיבול",
-	"headword": {
-		"text": "סִיבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיבּוּל",
+	"headwords": [
+		{
+			"text": "סִיבּוּל"
+		},
 		{
 			"text": "סִיבּוֹלִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 974,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01453",
-	"slug": "סקווסתן",
-	"headword": {
-		"text": "סַקְוַוסְתָּן"
-	},
+	"sefariaHeadword": "סַקְוַוסְתָּן",
+	"headwords": [
+		{
+			"text": "סַקְוַוסְתָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1019,
 		"column": "a"

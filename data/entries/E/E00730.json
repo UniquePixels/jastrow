@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00730",
-	"slug": "הפטרה",
-	"headword": {
-		"text": "הַפְטָרָה"
-	},
+	"sefariaHeadword": "הַפְטָרָה",
+	"headwords": [
+		{
+			"text": "הַפְטָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 360,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00021",
-	"slug": "האק",
-	"headword": {
-		"text": "הָאֵק"
-	},
+	"sefariaHeadword": "הָאֵק",
+	"headwords": [
+		{
+			"text": "הָאֵק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00391",
-	"slug": "ילל-2",
-	"headword": {
-		"text": "יָלַל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "יָלַל II",
+	"headwords": [
+		{
+			"text": "יָלַל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 579,
 		"column": "a"

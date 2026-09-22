@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00976",
-	"slug": "גלעין",
-	"headword": {
-		"text": "גַּלְעִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גַּלְעִין",
+	"headwords": [
+		{
+			"text": "גַּלְעִין"
+		},
 		{
 			"text": "גַּלְעִינָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 250,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01791",
-	"slug": "קצוות",
-	"headword": {
-		"text": "קְצָווֹת"
-	},
+	"sefariaHeadword": "קְצָווֹת",
+	"headwords": [
+		{
+			"text": "קְצָווֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1404,
 		"column": "b"

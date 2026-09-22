@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00031",
-	"slug": "פאתא-1",
-	"headword": {
-		"text": "פָּאתָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּאתָא I",
+	"headwords": [
+		{
+			"text": "פָּאתָא",
+			"homograph": 1
+		},
 		{
 			"text": "פָּתָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1132,
 		"column": "a"

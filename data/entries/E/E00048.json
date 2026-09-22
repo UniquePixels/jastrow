@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00048",
-	"slug": "הבערה",
-	"headword": {
-		"text": "הַבְעָרָה"
-	},
+	"sefariaHeadword": "הַבְעָרָה",
+	"headwords": [
+		{
+			"text": "הַבְעָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 330,
 		"column": "a"

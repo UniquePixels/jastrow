@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00167",
-	"slug": "דואר-1",
-	"headword": {
-		"text": "דַּוַּאר"
-	},
+	"sefariaHeadword": "דַּוַּאר",
+	"headwords": [
+		{
+			"text": "דַּוַּאר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 282,
 		"column": "a"

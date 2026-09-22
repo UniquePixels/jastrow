@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "N00100",
-	"slug": "נבלתא",
-	"headword": {
-		"text": "נְבֵלְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבֵלְתָּא",
+	"headwords": [
+		{
+			"text": "נְבֵלְתָּא"
+		},
 		{
 			"text": "נְבֵלָא"
 		},
 		{
-			"text": "נְבֵי׳"
+			"text": "נְבֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 870,
 		"column": "b"

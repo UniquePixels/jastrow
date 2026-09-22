@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00823",
-	"slug": "תפישה",
-	"headword": {
-		"text": "תְּפִישָׂה"
-	},
+	"sefariaHeadword": "תְּפִישָׂה",
+	"headwords": [
+		{
+			"text": "תְּפִישָׂה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S00099",
-	"slug": "קבריא",
-	"headword": {
-		"text": "(קְבַרְיָא)"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "(קְבַרְיָא)",
+	"headwords": [
+		{
+			"text": "קְבַרְיָא"
+		},
 		{
 			"text": "קַבְרִיאֵל"
 		}
 	],
+	"display": "({0}), {1}",
 	"page": {
 		"number": 1313,
 		"column": "a"

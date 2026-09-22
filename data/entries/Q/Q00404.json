@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00404",
-	"slug": "פושקנצה",
-	"headword": {
-		"text": "פּוּשְׁקַנְצָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּשְׁקַנְצָה",
+	"headwords": [
+		{
+			"text": "פּוּשְׁקַנְצָה"
+		},
 		{
 			"text": "פּוּשְׁקַצָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1149,
 		"column": "a"

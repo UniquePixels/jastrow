@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00104",
-	"slug": "ותייא",
-	"headword": {
-		"text": "וַתְּיָיא"
-	},
+	"sefariaHeadword": "וַתְּיָיא",
+	"headwords": [
+		{
+			"text": "וַתְּיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 376,
 		"column": "a"

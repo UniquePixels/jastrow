@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "E00765",
-	"slug": "הפרכיא",
-	"headword": {
-		"text": "הִפַּרְכְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִפַּרְכְיָא",
+	"headwords": [
+		{
+			"text": "הִפַּרְכְיָא"
+		},
 		{
 			"text": "הִפַּרְכְיָה"
 		},
 		{
-			"text": "הִי׳"
+			"text": "הִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 363,
 		"column": "a"

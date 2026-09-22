@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00479",
-	"slug": "צלב-1",
-	"headword": {
-		"text": "צָלַב"
-	},
+	"sefariaHeadword": "צָלַב",
+	"headwords": [
+		{
+			"text": "צָלַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1282,
 		"column": "a"

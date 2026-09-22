@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01332",
-	"slug": "קליטה-1",
-	"headword": {
-		"text": "קְלִיטָה"
-	},
+	"sefariaHeadword": "קְלִיטָה",
+	"headwords": [
+		{
+			"text": "קְלִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "a"

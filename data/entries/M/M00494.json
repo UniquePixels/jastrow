@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00494",
-	"slug": "מולוות",
-	"headword": {
-		"text": "מוּלְוַות"
-	},
+	"sefariaHeadword": "מוּלְוַות",
+	"headwords": [
+		{
+			"text": "מוּלְוַות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 742,
 		"column": "b"

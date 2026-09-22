@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00963",
-	"slug": "ענות",
-	"headword": {
-		"text": "עַנְוַת"
-	},
+	"sefariaHeadword": "עַנְוַת",
+	"headwords": [
+		{
+			"text": "עַנְוַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1092,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00357",
-	"slug": "נוך",
-	"headword": {
-		"text": "נוּךְ"
-	},
+	"sefariaHeadword": "נוּךְ",
+	"headwords": [
+		{
+			"text": "נוּךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 887,
 		"column": "a"

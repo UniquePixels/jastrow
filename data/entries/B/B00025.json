@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00025",
-	"slug": "באינה",
-	"headword": {
-		"text": "בְּאִינָה"
-	},
+	"sefariaHeadword": "בְּאִינָה",
+	"headwords": [
+		{
+			"text": "בְּאִינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 135,
 		"column": "a"

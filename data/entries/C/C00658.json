@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00658",
-	"slug": "גיוה",
-	"headword": {
-		"text": "גֵּיוָה"
-	},
+	"sefariaHeadword": "גֵּיוָה",
+	"headwords": [
+		{
+			"text": "גֵּיוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "a"

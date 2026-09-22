@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01761",
-	"slug": "אכתנא",
-	"headword": {
-		"text": "אַכְתָּנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַכְתָּנָא",
+	"headwords": [
+		{
+			"text": "אַכְתָּנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

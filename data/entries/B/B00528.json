@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00528",
-	"slug": "בטנון",
-	"headword": {
-		"text": "בָּטְנוֹן"
-	},
+	"sefariaHeadword": "בָּטְנוֹן",
+	"headwords": [
+		{
+			"text": "בָּטְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 158,
 		"column": "a"

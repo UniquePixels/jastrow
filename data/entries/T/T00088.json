@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00088",
-	"slug": "רביה",
-	"headword": {
-		"text": "רִבְיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבְיָה",
+	"headwords": [
+		{
+			"text": "רִבְיָה"
+		},
 		{
 			"text": "רִבְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1442,
 		"column": "a"

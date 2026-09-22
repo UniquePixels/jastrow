@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01888",
-	"slug": "אליתה",
-	"headword": {
-		"text": "אַלִּיתָה"
-	},
+	"sefariaHeadword": "אַלִּיתָה",
+	"headwords": [
+		{
+			"text": "אַלִּיתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "b"

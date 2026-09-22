@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00212",
-	"slug": "גדיפין",
-	"headword": {
-		"text": "גַּדִּיפִין"
-	},
+	"sefariaHeadword": "גַּדִּיפִין",
+	"headwords": [
+		{
+			"text": "גַּדִּיפִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01217",
-	"slug": "קישות-1",
-	"headword": {
-		"text": "קִישׁוּת",
-		"homograph": 1
-	},
+	"sefariaHeadword": "קִישׁוּת I",
+	"headwords": [
+		{
+			"text": "קִישׁוּת",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1370,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00344",
-	"slug": "בורגר",
-	"headword": {
-		"text": "בּוּרְגָּר"
-	},
+	"sefariaHeadword": "בּוּרְגָּר",
+	"headwords": [
+		{
+			"text": "בּוּרְגָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 149,
 		"column": "b"

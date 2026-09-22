@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00847",
-	"slug": "עם-1",
-	"headword": {
-		"text": "עִם"
-	},
+	"sefariaHeadword": "עִם",
+	"headwords": [
+		{
+			"text": "עִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1086,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00381",
-	"slug": "זינגאי",
-	"headword": {
-		"text": "זִינְגָּאֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִינְגָּאֵי",
+	"headwords": [
 		{
-			"text": "זִנְ׳"
+			"text": "זִינְגָּאֵי"
+		},
+		{
+			"text": "זִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "a"

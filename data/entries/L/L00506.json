@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00506",
-	"slug": "ליף",
-	"headword": {
-		"text": "לִיף"
-	},
+	"sefariaHeadword": "לִיף",
+	"headwords": [
+		{
+			"text": "לִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

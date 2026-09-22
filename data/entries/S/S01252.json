@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01252",
-	"slug": "קלגריפון",
-	"headword": {
-		"text": "קלגריפון"
-	},
+	"sefariaHeadword": "קלגריפון",
+	"headwords": [
+		{
+			"text": "קלגריפון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

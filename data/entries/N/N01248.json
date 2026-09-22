@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01248",
-	"slug": "נקריס",
-	"headword": {
-		"text": "נקריס"
-	},
+	"sefariaHeadword": "נקריס",
+	"headwords": [
+		{
+			"text": "נקריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 935,
 		"column": "b"

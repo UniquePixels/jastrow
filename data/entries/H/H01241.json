@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01241",
-	"slug": "חמת-6",
-	"headword": {
-		"text": "חַמַּת",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "חַמַּת ²",
+	"headwords": [
+		{
+			"text": "חַמַּת",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 481,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

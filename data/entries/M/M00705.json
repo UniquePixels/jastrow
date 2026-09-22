@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00705",
-	"slug": "מותר-1",
-	"headword": {
-		"text": "מוּתָּר"
-	},
+	"sefariaHeadword": "מוּתָּר",
+	"headwords": [
+		{
+			"text": "מוּתָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "b"

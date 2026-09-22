@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00718",
-	"slug": "זרמית",
-	"headword": {
-		"text": "זַרְמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַרְמִית",
+	"headwords": [
+		{
+			"text": "זַרְמִית"
+		},
 		{
 			"text": "זְרָמִית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 414,
 		"column": "a"

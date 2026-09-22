@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00391",
-	"slug": "מובילותא",
-	"headword": {
-		"text": "מובילותא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מובילותא",
+	"headwords": [
 		{
-			"text": "מובילי׳"
+			"text": "מובילותא"
+		},
+		{
+			"text": "מובילי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "a"

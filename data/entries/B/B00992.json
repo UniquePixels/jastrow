@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00992",
-	"slug": "בסימה",
-	"headword": {
-		"text": "בְּסִימָה"
-	},
+	"sefariaHeadword": "בְּסִימָה",
+	"headwords": [
+		{
+			"text": "בְּסִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 178,
 		"column": "b"

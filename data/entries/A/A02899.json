@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02899",
-	"slug": "אקון",
-	"headword": {
-		"text": "אָקוֹן"
-	},
+	"sefariaHeadword": "אָקוֹן",
+	"headwords": [
+		{
+			"text": "אָקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "a"

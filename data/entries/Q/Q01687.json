@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01687",
-	"slug": "פרוכסין",
-	"headword": {
-		"text": "פרוכסין"
-	},
+	"sefariaHeadword": "פרוכסין",
+	"headwords": [
+		{
+			"text": "פרוכסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00963",
-	"slug": "פלוגת",
-	"headword": {
-		"text": "פְּלוֹגֶת"
-	},
+	"sefariaHeadword": "פְּלוֹגֶת",
+	"headwords": [
+		{
+			"text": "פְּלוֹגֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00434",
-	"slug": "פזר-1",
-	"headword": {
-		"text": "פָּזַר"
-	},
+	"sefariaHeadword": "פָּזַר",
+	"headwords": [
+		{
+			"text": "פָּזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1150,
 		"column": "b"

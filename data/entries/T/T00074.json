@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00074",
-	"slug": "רבונא",
-	"headword": {
-		"text": "רִבּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִבּוּנָא",
+	"headwords": [
 		{
-			"text": "רִיבּ׳"
+			"text": "רִבּוּנָא"
+		},
+		{
+			"text": "רִיבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1440,
 		"column": "b"

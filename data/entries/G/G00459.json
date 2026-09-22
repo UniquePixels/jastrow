@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00459",
-	"slug": "זכיה",
-	"headword": {
-		"text": "זְכִיָּה"
-	},
+	"sefariaHeadword": "זְכִיָּה",
+	"headwords": [
+		{
+			"text": "זְכִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 399,
 		"column": "b"

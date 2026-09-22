@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00201",
-	"slug": "תוכחא",
-	"headword": {
-		"text": "תּוֹכֵחָא"
-	},
+	"sefariaHeadword": "תּוֹכֵחָא",
+	"headwords": [
+		{
+			"text": "תּוֹכֵחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1652,
 		"column": "b"

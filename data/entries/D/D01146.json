@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01146",
-	"slug": "דשיתא",
-	"headword": {
-		"text": "דַּשְׁיָתָא"
-	},
+	"sefariaHeadword": "דַּשְׁיָתָא",
+	"headwords": [
+		{
+			"text": "דַּשְׁיָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "b"

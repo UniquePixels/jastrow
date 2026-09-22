@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U02088",
-	"slug": "שתותיא",
-	"headword": {
-		"text": "שתותיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שתותיא",
+	"headwords": [
+		{
+			"text": "שתותיא"
+		},
 		{
 			"text": "שתותיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1637,
 		"column": "a"

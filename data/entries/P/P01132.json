@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01132",
-	"slug": "עצר-3",
-	"headword": {
-		"text": "עַצָּר"
-	},
+	"sefariaHeadword": "עַצָּר",
+	"headwords": [
+		{
+			"text": "עַצָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1103,
 		"column": "b"

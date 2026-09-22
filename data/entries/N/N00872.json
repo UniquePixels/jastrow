@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00872",
-	"slug": "נמיה-1",
-	"headword": {
-		"text": "נְמִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְמִיָּה",
+	"headwords": [
+		{
+			"text": "נְמִיָּה"
+		},
 		{
 			"text": "נְמִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 913,
 		"column": "b"

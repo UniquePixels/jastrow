@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01788",
-	"slug": "מניפא",
-	"headword": {
-		"text": "מְנִיפָא"
-	},
+	"sefariaHeadword": "מְנִיפָא",
+	"headwords": [
+		{
+			"text": "מְנִיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 801,
 		"column": "b"

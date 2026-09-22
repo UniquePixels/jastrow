@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00284",
-	"slug": "יחיד-1",
-	"headword": {
-		"text": "יָחִיד"
-	},
+	"sefariaHeadword": "יָחִיד",
+	"headwords": [
+		{
+			"text": "יָחִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 574,
 		"column": "a"

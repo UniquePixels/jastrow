@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00705",
-	"slug": "פילכ",
-	"headword": {
-		"text": "פִּילְכ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּילְכ־",
+	"headwords": [
+		{
+			"text": "פִּילְכ־"
+		},
 		{
 			"text": "פִּילְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1164,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00054",
-	"slug": "שארית",
-	"headword": {
-		"text": "שְׁאֵרִית"
-	},
+	"sefariaHeadword": "שְׁאֵרִית",
+	"headwords": [
+		{
+			"text": "שְׁאֵרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1509,
 		"column": "b"

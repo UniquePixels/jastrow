@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00062",
-	"slug": "כבל-3",
-	"headword": {
-		"text": "כֶּבֶל"
-	},
+	"sefariaHeadword": "כֶּבֶל",
+	"headwords": [
+		{
+			"text": "כֶּבֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "b"

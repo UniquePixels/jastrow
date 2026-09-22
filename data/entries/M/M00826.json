@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "M00826",
-	"slug": "מחוך-1",
-	"headword": {
-		"text": "מָחוֹךְ",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*מָחוֹךְ I",
+	"headwords": [
+		{
+			"text": "מָחוֹךְ",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 758,
 		"column": "a"

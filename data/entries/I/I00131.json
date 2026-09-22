@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00131",
-	"slug": "טווי-1",
-	"headword": {
-		"text": "טָווּי"
-	},
+	"sefariaHeadword": "טָווּי",
+	"headwords": [
+		{
+			"text": "טָווּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

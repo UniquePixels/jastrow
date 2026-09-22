@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M03008",
-	"slug": "מתאכלי",
-	"headword": {
-		"text": "מְתָאכְלֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מְתָאכְלֵי",
+	"headwords": [
+		{
+			"text": "מְתָאכְלֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

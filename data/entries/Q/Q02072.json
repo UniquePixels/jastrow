@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02072",
-	"slug": "פשיטא",
-	"headword": {
-		"text": "פְּשִׁיטָא"
-	},
+	"sefariaHeadword": "פְּשִׁיטָא",
+	"headwords": [
+		{
+			"text": "פְּשִׁיטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

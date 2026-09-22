@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01709",
-	"slug": "אכליותא",
-	"headword": {
-		"text": "אַכְלָיוּתָא"
-	},
+	"sefariaHeadword": "אַכְלָיוּתָא",
+	"headwords": [
+		{
+			"text": "אַכְלָיוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

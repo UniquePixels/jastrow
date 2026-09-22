@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "K00993",
-	"slug": "כפור-2",
-	"headword": {
-		"text": "כִּפּוּר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּפּוּר ²",
+	"headwords": [
+		{
+			"text": "כִּפּוּר",
+			"disambiguator": 2
+		},
 		{
 			"text": "כִּפּוּרָא"
 		},
 		{
-			"text": "כִּיפּ׳"
+			"text": "כִּיפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 657,
 		"column": "b"

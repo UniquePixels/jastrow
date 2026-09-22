@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01007",
-	"slug": "חלוק-3",
-	"headword": {
-		"text": "חִלּוּק"
-	},
+	"sefariaHeadword": "חִלּוּק",
+	"headwords": [
+		{
+			"text": "חִלּוּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 465,
 		"column": "b"

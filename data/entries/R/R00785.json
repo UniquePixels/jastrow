@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00785",
-	"slug": "צריר",
-	"headword": {
-		"text": "צָרִיר"
-	},
+	"sefariaHeadword": "צָרִיר",
+	"headwords": [
+		{
+			"text": "צָרִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1302,
 		"column": "b"

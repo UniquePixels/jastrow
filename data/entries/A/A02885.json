@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02885",
-	"slug": "אצעדה",
-	"headword": {
-		"text": "אֶצְעָדָה"
-	},
+	"sefariaHeadword": "אֶצְעָדָה",
+	"headwords": [
+		{
+			"text": "אֶצְעָדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "b"

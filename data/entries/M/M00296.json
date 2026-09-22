@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00296",
-	"slug": "מדינחא",
-	"headword": {
-		"text": "מָדִינְחָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָדִינְחָא",
+	"headwords": [
 		{
-			"text": "מַדִּי׳"
+			"text": "מָדִינְחָא"
+		},
+		{
+			"text": "מַדִּי׳",
+			"partial": true
 		},
 		{
 			"text": "מְדִנְחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 734,
 		"column": "a"

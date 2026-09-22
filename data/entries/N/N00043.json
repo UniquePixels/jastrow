@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00043",
-	"slug": "נבה",
-	"headword": {
-		"text": "נָבָה"
-	},
+	"sefariaHeadword": "נָבָה",
+	"headwords": [
+		{
+			"text": "נָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 867,
 		"column": "b"

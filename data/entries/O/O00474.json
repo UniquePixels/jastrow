@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00474",
-	"slug": "סטא",
-	"headword": {
-		"text": "סְטָא"
-	},
+	"sefariaHeadword": "סְטָא",
+	"headwords": [
+		{
+			"text": "סְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 972,
 		"column": "a"

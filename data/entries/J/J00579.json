@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00579",
-	"slug": "יקנאות",
-	"headword": {
-		"text": "יִקְנָאוֹת"
-	},
+	"sefariaHeadword": "יִקְנָאוֹת",
+	"headwords": [
+		{
+			"text": "יִקְנָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 592,
 		"column": "a"

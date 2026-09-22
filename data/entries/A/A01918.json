@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01918",
-	"slug": "אלמלא",
-	"headword": {
-		"text": "אִלְמָלֵא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלְמָלֵא",
+	"headwords": [
+		{
+			"text": "אִלְמָלֵא"
+		},
 		{
 			"text": "אִלְמָלֵי"
 		},
 		{
-			"text": "אִילְ׳"
+			"text": "אִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 71,
 		"column": "b"

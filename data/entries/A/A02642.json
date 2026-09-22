@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02642",
-	"slug": "אפוקלוס",
-	"headword": {
-		"text": "אפוקלוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אפוקלוס",
+	"headwords": [
+		{
+			"text": "אפוקלוס"
+		},
 		{
 			"text": "אפוקליס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 101,
 		"column": "b"

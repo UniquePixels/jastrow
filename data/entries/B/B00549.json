@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00549",
-	"slug": "ביברי",
-	"headword": {
-		"text": "ביברי"
-	},
+	"sefariaHeadword": "ביברי",
+	"headwords": [
+		{
+			"text": "ביברי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "b"

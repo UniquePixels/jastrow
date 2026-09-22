@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "B01319",
-	"slug": "ברקא-2",
-	"headword": {
-		"text": "בַּרְקָא",
-		"reconstructed": true,
-		"homograph": 3
-	},
+	"sefariaHeadword": "*בַּרְקָא III",
+	"headwords": [
+		{
+			"text": "בַּרְקָא",
+			"reconstructed": true,
+			"homograph": 3
+		}
+	],
+	"display": "*{0} III",
 	"page": {
 		"number": 197,
 		"column": "a"

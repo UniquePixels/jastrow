@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00877",
-	"slug": "רעד-1",
-	"headword": {
-		"text": "רָעַד"
-	},
+	"sefariaHeadword": "רָעַד",
+	"headwords": [
+		{
+			"text": "רָעַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1486,
 		"column": "a"

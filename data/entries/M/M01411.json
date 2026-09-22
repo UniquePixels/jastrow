@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01411",
-	"slug": "מכן-2",
-	"headword": {
-		"text": "מִכֵּן"
-	},
+	"sefariaHeadword": "מִכֵּן",
+	"headwords": [
+		{
+			"text": "מִכֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 783,
 		"column": "b"

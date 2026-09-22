@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01467",
-	"slug": "מלאי-2",
-	"headword": {
-		"text": "מְלָאי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְלָאי I",
+	"headwords": [
+		{
+			"text": "מְלָאי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 785,
 		"column": "b"

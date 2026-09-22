@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00391",
-	"slug": "רומיא",
-	"headword": {
-		"text": "רוּמְיָא"
-	},
+	"sefariaHeadword": "רוּמְיָא",
+	"headwords": [
+		{
+			"text": "רוּמְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "b"

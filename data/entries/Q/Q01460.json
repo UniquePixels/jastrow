@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01460",
-	"slug": "פקולין",
-	"headword": {
-		"text": "פְּקוֹלִין"
-	},
+	"sefariaHeadword": "פְּקוֹלִין",
+	"headwords": [
+		{
+			"text": "פְּקוֹלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

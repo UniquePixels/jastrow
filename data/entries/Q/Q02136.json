@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02136",
-	"slug": "פתוניא",
-	"headword": {
-		"text": "פתוניא"
-	},
+	"sefariaHeadword": "פתוניא",
+	"headwords": [
+		{
+			"text": "פתוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

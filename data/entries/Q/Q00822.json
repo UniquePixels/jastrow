@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00822",
-	"slug": "פיקרין",
-	"headword": {
-		"text": "פיקרין"
-	},
+	"sefariaHeadword": "פיקרין",
+	"headwords": [
+		{
+			"text": "פיקרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1170,
 		"column": "a"

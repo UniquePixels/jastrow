@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00108",
-	"slug": "תדייא",
-	"headword": {
-		"text": "תַּדַּיָּיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּדַּיָּיא",
+	"headwords": [
+		{
+			"text": "תַּדַּיָּיא"
+		},
 		{
 			"text": "תַּדְיָין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1647,
 		"column": "b"

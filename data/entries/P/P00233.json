@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "P00233",
-	"slug": "עויר",
-	"headword": {
-		"text": "עֲוִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲוִיר",
+	"headwords": [
+		{
+			"text": "עֲוִיר"
+		},
 		{
 			"text": "עֲוִירָא",
 			"homograph": 1
 		},
 		{
-			"text": "עֲוִו׳"
+			"text": "עֲוִו׳",
+			"partial": true
 		},
 		{
-			"text": "עַוִּ׳"
+			"text": "עַוִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I, {2}, {3}",
 	"page": {
 		"number": 1049,
 		"column": "b"

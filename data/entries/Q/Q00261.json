@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00261",
-	"slug": "פונדיות",
-	"headword": {
-		"text": "פּוּנְדָּיוֹת"
-	},
+	"sefariaHeadword": "פּוּנְדָּיוֹת",
+	"headwords": [
+		{
+			"text": "פּוּנְדָּיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "b"

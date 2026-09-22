@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00834",
-	"slug": "סירוא",
-	"headword": {
-		"text": "סִירְוָא"
-	},
+	"sefariaHeadword": "סִירְוָא",
+	"headwords": [
+		{
+			"text": "סִירְוָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 987,
 		"column": "a"

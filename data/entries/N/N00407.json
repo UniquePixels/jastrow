@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00407",
-	"slug": "נוקבתא",
-	"headword": {
-		"text": "נוּקְבְּתָא"
-	},
+	"sefariaHeadword": "נוּקְבְּתָא",
+	"headwords": [
+		{
+			"text": "נוּקְבְּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

@@ -1,21 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "L00514",
-	"slug": "ליצוי",
-	"headword": {
-		"text": "לִיצּוּי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*לִיצּוּי",
+	"headwords": [
 		{
-			"text": "לִצְּ׳"
+			"text": "לִיצּוּי",
+			"reconstructed": true
+		},
+		{
+			"text": "לִצְּ׳",
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D01012",
-	"slug": "דקן",
-	"headword": {
-		"text": "דְּקַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּקַן",
+	"headwords": [
+		{
+			"text": "דְּקַן"
+		},
 		{
 			"text": "דִּקְנָא"
 		},
 		{
-			"text": "דִּיקְ׳"
+			"text": "דִּיקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 319,
 		"column": "b"

@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00321",
-	"slug": "רודוס",
-	"headword": {
-		"text": "רוֹדוֹס"
-	},
+	"sefariaHeadword": "רוֹדוֹס",
+	"headwords": [
+		{
+			"text": "רוֹדוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1456,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

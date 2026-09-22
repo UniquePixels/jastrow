@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00584",
-	"slug": "ביטיתא",
-	"headword": {
-		"text": "בִּיטִיתָא"
-	},
+	"sefariaHeadword": "בִּיטִיתָא",
+	"headwords": [
+		{
+			"text": "בִּיטִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "b"

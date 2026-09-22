@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00144",
-	"slug": "הדק-1",
-	"headword": {
-		"text": "הֵדַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֵדַק",
+	"headwords": [
+		{
+			"text": "הֵדַק"
+		},
 		{
 			"text": "הָדֵק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 334,
 		"column": "a"

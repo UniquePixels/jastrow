@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02846",
-	"slug": "אפתא-2",
-	"headword": {
-		"text": "אַפְתָּא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַפְתָּא II",
+	"headwords": [
+		{
+			"text": "אַפְתָּא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 109,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01137",
-	"slug": "רתיתא",
-	"headword": {
-		"text": "רְתִיתָא"
-	},
+	"sefariaHeadword": "רְתִיתָא",
+	"headwords": [
+		{
+			"text": "רְתִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1503,
 		"column": "b"

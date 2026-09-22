@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01314",
-	"slug": "ספג-2",
-	"headword": {
-		"text": "סֶפֶג"
-	},
+	"sefariaHeadword": "סֶפֶג",
+	"headwords": [
+		{
+			"text": "סֶפֶג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1011,
 		"column": "b"

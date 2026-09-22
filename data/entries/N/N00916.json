@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00916",
-	"slug": "נסאטאי",
-	"headword": {
-		"text": "נסאטאי"
-	},
+	"sefariaHeadword": "נסאטאי",
+	"headwords": [
+		{
+			"text": "נסאטאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 915,
 		"column": "a"

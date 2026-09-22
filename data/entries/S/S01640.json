@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01640",
-	"slug": "קסוי",
-	"headword": {
-		"text": "קַסְוֵי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַסְוֵי",
+	"headwords": [
+		{
+			"text": "קַסְוֵי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

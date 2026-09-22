@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00552",
-	"slug": "קוקיאני",
-	"headword": {
-		"text": "קוּקְיָאנֵי"
-	},
+	"sefariaHeadword": "קוּקְיָאנֵי",
+	"headwords": [
+		{
+			"text": "קוּקְיָאנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1340,
 		"column": "b"

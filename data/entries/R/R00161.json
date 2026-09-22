@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00161",
-	"slug": "צוד-1",
-	"headword": {
-		"text": "צוּד"
-	},
+	"sefariaHeadword": "צוּד",
+	"headwords": [
+		{
+			"text": "צוּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "b"

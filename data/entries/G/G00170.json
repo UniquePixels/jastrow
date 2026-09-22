@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00170",
-	"slug": "זויר",
-	"headword": {
-		"text": "זַוִּיר"
-	},
+	"sefariaHeadword": "זַוִּיר",
+	"headwords": [
+		{
+			"text": "זַוִּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 386,
 		"column": "a"

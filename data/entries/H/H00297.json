@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00297",
-	"slug": "חוט-5",
-	"headword": {
-		"text": "חֲוַט"
-	},
+	"sefariaHeadword": "חֲוַט",
+	"headwords": [
+		{
+			"text": "חֲוַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 431,
 		"column": "a"

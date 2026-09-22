@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00532",
-	"slug": "לישתא",
-	"headword": {
-		"text": "לִישְׁתָא"
-	},
+	"sefariaHeadword": "לִישְׁתָא",
+	"headwords": [
+		{
+			"text": "לִישְׁתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 710,
 		"column": "b"

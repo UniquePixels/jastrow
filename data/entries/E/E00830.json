@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00830",
-	"slug": "הרדסיאות",
-	"headword": {
-		"text": "הַרְדְּסִיאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְדְּסִיאוֹת",
+	"headwords": [
+		{
+			"text": "הַרְדְּסִיאוֹת"
+		},
 		{
 			"text": "הַרְדְּסִיּוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "הַדְרְסִ־"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 366,
 		"column": "a"

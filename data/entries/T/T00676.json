@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00676",
-	"slug": "ריפדה",
-	"headword": {
-		"text": "רִיפְדָּה"
-	},
+	"sefariaHeadword": "רִיפְדָּה",
+	"headwords": [
+		{
+			"text": "רִיפְדָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1476,
 		"column": "a"

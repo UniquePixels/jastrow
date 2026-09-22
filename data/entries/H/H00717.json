@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00717",
-	"slug": "חיי-2",
-	"headword": {
-		"text": "חֲיִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲיִי",
+	"headwords": [
+		{
+			"text": "חֲיִי"
+		},
 		{
 			"text": "חֲיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 454,
 		"column": "a"

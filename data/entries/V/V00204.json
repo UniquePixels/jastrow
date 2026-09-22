@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00204",
-	"slug": "תוכחת",
-	"headword": {
-		"text": "תּוֹכַחַת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹכַחַת",
+	"headwords": [
+		{
+			"text": "תּוֹכַחַת"
+		},
 		{
 			"text": "תּוֹכַחְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "תּוֹכֵיחָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1653,
 		"column": "a"

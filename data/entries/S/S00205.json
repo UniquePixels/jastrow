@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00205",
-	"slug": "קהיות",
-	"headword": {
-		"text": "קַהֲיוּת"
-	},
+	"sefariaHeadword": "קַהֲיוּת",
+	"headwords": [
+		{
+			"text": "קַהֲיוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1322,
 		"column": "a"

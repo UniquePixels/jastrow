@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02963",
-	"slug": "ארבלא",
-	"headword": {
-		"text": "אַרְבְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְבְּלָא",
+	"headwords": [
+		{
+			"text": "אַרְבְּלָא"
+		},
 		{
 			"text": "אַרְבֵּילָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עַרְבְּלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 114,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02288",
-	"slug": "קתוליקוס",
-	"headword": {
-		"text": "קָתוֹלִיקוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָתוֹלִיקוֹס",
+	"headwords": [
 		{
-			"text": "קָתְלִי׳"
+			"text": "קָתוֹלִיקוֹס"
+		},
+		{
+			"text": "קָתְלִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1434,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00003",
-	"slug": "א-4",
-	"headword": {
-		"text": "א",
-		"disambiguator": 4
-	},
+	"sefariaHeadword": "א ⁴",
+	"headwords": [
+		{
+			"text": "א",
+			"disambiguator": 4
+		}
+	],
+	"display": "{0} ⁴",
 	"page": {
 		"number": 1,
 		"column": "a"

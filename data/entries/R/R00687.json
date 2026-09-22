@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00687",
-	"slug": "צפורן",
-	"headword": {
-		"text": "צִפּוֹרֶן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפּוֹרֶן",
+	"headwords": [
 		{
-			"text": "צִיפּ׳"
+			"text": "צִפּוֹרֶן"
+		},
+		{
+			"text": "צִיפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1296,
 		"column": "a"

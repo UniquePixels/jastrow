@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00042",
-	"slug": "קבורה",
-	"headword": {
-		"text": "קְבוּרָה"
-	},
+	"sefariaHeadword": "קְבוּרָה",
+	"headwords": [
+		{
+			"text": "קְבוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1308,
 		"column": "a"

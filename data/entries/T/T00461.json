@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00461",
-	"slug": "רזא",
-	"headword": {
-		"text": "רְזָא"
-	},
+	"sefariaHeadword": "רְזָא",
+	"headwords": [
+		{
+			"text": "רְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1464,
 		"column": "b"

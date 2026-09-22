@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00460",
-	"slug": "תימורא",
-	"headword": {
-		"text": "תִּימוֹרָא"
-	},
+	"sefariaHeadword": "תִּימוֹרָא",
+	"headwords": [
+		{
+			"text": "תִּימוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00532",
-	"slug": "פטליא",
-	"headword": {
-		"text": "פְּטַלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּטַלְיָא",
+	"headwords": [
+		{
+			"text": "פְּטַלְיָא"
+		},
 		{
 			"text": "פְּטַלְיָה"
 		},
 		{
-			"text": "פְּטִילְ׳"
+			"text": "פְּטִילְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1155,
 		"column": "b"

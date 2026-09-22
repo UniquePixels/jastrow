@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00327",
-	"slug": "סולתא",
-	"headword": {
-		"text": "סולתא"
-	},
+	"sefariaHeadword": "סולתא",
+	"headwords": [
+		{
+			"text": "סולתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

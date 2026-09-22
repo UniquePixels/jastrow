@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00086",
-	"slug": "מבלבליתא",
-	"headword": {
-		"text": "מְבַלְבְּלִיתָא"
-	},
+	"sefariaHeadword": "מְבַלְבְּלִיתָא",
+	"headwords": [
+		{
+			"text": "מְבַלְבְּלִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 725,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00734",
-	"slug": "טרופי",
-	"headword": {
-		"text": "טרופי"
-	},
+	"sefariaHeadword": "טרופי",
+	"headwords": [
+		{
+			"text": "טרופי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 551,
 		"column": "a"

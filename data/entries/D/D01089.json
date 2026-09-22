@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D01089",
-	"slug": "דרינון",
-	"headword": {
-		"text": "דְּרִינוֹן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*דְּרִינוֹן",
+	"headwords": [
+		{
+			"text": "דְּרִינוֹן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 323,
 		"column": "a"

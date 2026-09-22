@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00358",
-	"slug": "מהיא",
-	"headword": {
-		"text": "מָהִיא"
-	},
+	"sefariaHeadword": "מָהִיא",
+	"headwords": [
+		{
+			"text": "מָהִיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03216",
-	"slug": "ארע-2",
-	"headword": {
-		"text": "אֲרַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אֲרַע I",
+	"headwords": [
+		{
+			"text": "אֲרַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 124,
 		"column": "b"

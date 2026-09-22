@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02281",
-	"slug": "אנפקיטן",
-	"headword": {
-		"text": "אנפקיטן"
-	},
+	"sefariaHeadword": "אנפקיטן",
+	"headwords": [
+		{
+			"text": "אנפקיטן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 87,
 		"column": "a"

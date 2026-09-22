@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00653",
-	"slug": "גיהיאה",
-	"headword": {
-		"text": "גִּיהִיאָה"
-	},
+	"sefariaHeadword": "גִּיהִיאָה",
+	"headwords": [
+		{
+			"text": "גִּיהִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 236,
 		"column": "a"

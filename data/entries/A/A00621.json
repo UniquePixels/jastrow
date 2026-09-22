@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00621",
-	"slug": "אוטיפיטא",
-	"headword": {
-		"text": "אוטיפיטא"
-	},
+	"sefariaHeadword": "אוטיפיטא",
+	"headwords": [
+		{
+			"text": "אוטיפיטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 24,
 		"column": "a"

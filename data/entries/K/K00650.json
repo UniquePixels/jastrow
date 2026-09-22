@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00650",
-	"slug": "כיתמא",
-	"headword": {
-		"text": "כִּיתְמָא"
-	},
+	"sefariaHeadword": "כִּיתְמָא",
+	"headwords": [
+		{
+			"text": "כִּיתְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 637,
 		"column": "b"

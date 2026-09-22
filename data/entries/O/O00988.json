@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00988",
-	"slug": "סליל-2",
-	"headword": {
-		"text": "סָלִיל"
-	},
+	"sefariaHeadword": "סָלִיל",
+	"headwords": [
+		{
+			"text": "סָלִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

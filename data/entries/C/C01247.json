@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01247",
-	"slug": "גרגים",
-	"headword": {
-		"text": "גְּרָגִים"
-	},
+	"sefariaHeadword": "גְּרָגִים",
+	"headwords": [
+		{
+			"text": "גְּרָגִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

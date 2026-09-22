@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01140",
-	"slug": "גניזה",
-	"headword": {
-		"text": "גְּנִיזָה"
-	},
+	"sefariaHeadword": "גְּנִיזָה",
+	"headwords": [
+		{
+			"text": "גְּנִיזָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "b"

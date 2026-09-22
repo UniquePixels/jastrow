@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01144",
-	"slug": "חמד-1",
-	"headword": {
-		"text": "חָמַד"
-	},
+	"sefariaHeadword": "חָמַד",
+	"headwords": [
+		{
+			"text": "חָמַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 475,
 		"column": "a"

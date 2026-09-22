@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02819",
-	"slug": "אפרייא",
-	"headword": {
-		"text": "אַפִּרְיָיא"
-	},
+	"sefariaHeadword": "אַפִּרְיָיא",
+	"headwords": [
+		{
+			"text": "אַפִּרְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

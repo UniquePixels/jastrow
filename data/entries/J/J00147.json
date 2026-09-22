@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00147",
-	"slug": "יואל",
-	"headword": {
-		"text": "יוֹאֵל"
-	},
+	"sefariaHeadword": "יוֹאֵל",
+	"headwords": [
+		{
+			"text": "יוֹאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 567,
 		"column": "a"

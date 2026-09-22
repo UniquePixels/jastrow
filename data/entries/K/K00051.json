@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00051",
-	"slug": "כבינה",
-	"headword": {
-		"text": "כְּבֵינָה"
-	},
+	"sefariaHeadword": "כְּבֵינָה",
+	"headwords": [
+		{
+			"text": "כְּבֵינָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 608,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00642",
-	"slug": "גידור",
-	"headword": {
-		"text": "גִּידּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּידּוּר",
+	"headwords": [
+		{
+			"text": "גִּידּוּר"
+		},
 		{
 			"text": "גִּדּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 235,
 		"column": "b"

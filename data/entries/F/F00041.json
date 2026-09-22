@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00041",
-	"slug": "וילון",
-	"headword": {
-		"text": "וִילוֹן"
-	},
+	"sefariaHeadword": "וִילוֹן",
+	"headwords": [
+		{
+			"text": "וִילוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00533",
-	"slug": "כילה-2",
-	"headword": {
-		"text": "כילה"
-	},
+	"sefariaHeadword": "כילה",
+	"headwords": [
+		{
+			"text": "כילה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 632,
 		"column": "a"

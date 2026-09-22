@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00183",
-	"slug": "טומרא",
-	"headword": {
-		"text": "טוּמְרָא"
-	},
+	"sefariaHeadword": "טוּמְרָא",
+	"headwords": [
+		{
+			"text": "טוּמְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 524,
 		"column": "b"

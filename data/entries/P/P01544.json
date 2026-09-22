@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01544",
-	"slug": "עתק-2",
-	"headword": {
-		"text": "עָתַק",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָתַק II",
+	"headwords": [
+		{
+			"text": "עָתַק",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1130,
 		"column": "a"

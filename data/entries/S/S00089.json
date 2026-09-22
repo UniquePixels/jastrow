@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00089",
-	"slug": "קבעא",
-	"headword": {
-		"text": "קִבְעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִבְעָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִבְעָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1312,
 		"column": "a"

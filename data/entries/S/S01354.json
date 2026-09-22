@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01354",
-	"slug": "קלל-2",
-	"headword": {
-		"text": "קָלָל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קָלָל ²",
+	"headwords": [
+		{
+			"text": "קָלָל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1377,
 		"column": "b"

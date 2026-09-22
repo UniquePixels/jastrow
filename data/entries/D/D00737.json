@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00737",
-	"slug": "דיש-1",
-	"headword": {
-		"text": "דַּיִשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיִשׁ",
+	"headwords": [
+		{
+			"text": "דַּיִשׁ"
+		},
 		{
 			"text": "דַּיִישׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "a"

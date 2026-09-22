@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00255",
-	"slug": "תוף-2",
-	"headword": {
-		"text": "תּוּף",
-		"homograph": 2
-	},
+	"sefariaHeadword": "תּוּף II",
+	"headwords": [
+		{
+			"text": "תּוּף",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1655,
 		"column": "a"

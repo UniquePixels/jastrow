@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01099",
-	"slug": "בצלצול",
-	"headword": {
-		"text": "בְּצַלְצוּל"
-	},
+	"sefariaHeadword": "בְּצַלְצוּל",
+	"headwords": [
+		{
+			"text": "בְּצַלְצוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 184,
 		"column": "b"

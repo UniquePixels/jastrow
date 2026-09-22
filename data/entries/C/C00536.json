@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00536",
-	"slug": "גזורתא",
-	"headword": {
-		"text": "גְּזוּרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּזוּרְתָּא",
+	"headwords": [
+		{
+			"text": "גְּזוּרְתָּא"
+		},
 		{
 			"text": "גּוּזַרְתָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּזוּרָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 229,
 		"column": "a"

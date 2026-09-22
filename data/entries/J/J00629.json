@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00629",
-	"slug": "ירי-3",
-	"headword": {
-		"text": "יִרִי"
-	},
+	"sefariaHeadword": "יִרִי",
+	"headwords": [
+		{
+			"text": "יִרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 596,
 		"column": "b"

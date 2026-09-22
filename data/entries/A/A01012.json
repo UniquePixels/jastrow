@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01012",
-	"slug": "אחוכי",
-	"headword": {
-		"text": "אֲחוּכֵי"
-	},
+	"sefariaHeadword": "אֲחוּכֵי",
+	"headwords": [
+		{
+			"text": "אֲחוּכֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

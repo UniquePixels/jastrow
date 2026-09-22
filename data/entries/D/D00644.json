@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00644",
-	"slug": "דינור",
-	"headword": {
-		"text": "דִּינוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּינוּר",
+	"headwords": [
 		{
-			"text": "נהר דִּינוּר"
+			"text": "דִּינוּר"
+		},
+		{
+			"text": "נהר ד׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 302,
 		"column": "a"

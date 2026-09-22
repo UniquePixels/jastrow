@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K01287",
-	"slug": "כרתי-3",
-	"headword": {
-		"text": "כָּרָתֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרָתֵי",
+	"headwords": [
+		{
+			"text": "כָּרָתֵי"
+		},
 		{
 			"text": "כְּרָתַיָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כָּרָתִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 675,
 		"column": "a"

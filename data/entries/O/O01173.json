@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01173",
-	"slug": "סנגלרין",
-	"headword": {
-		"text": "סִנְגְּלָרִין"
-	},
+	"sefariaHeadword": "סִנְגְּלָרִין",
+	"headwords": [
+		{
+			"text": "סִנְגְּלָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1004,
 		"column": "b"

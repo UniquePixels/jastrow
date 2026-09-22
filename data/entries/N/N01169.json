@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01169",
-	"slug": "נקדנא",
-	"headword": {
-		"text": "נַקְדָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַקְדָּנָא",
+	"headwords": [
 		{
-			"text": "נוֹקְדָ׳"
+			"text": "נַקְדָּנָא"
+		},
+		{
+			"text": "נוֹקְדָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "a"

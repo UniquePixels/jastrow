@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01484",
-	"slug": "סקירה",
-	"headword": {
-		"text": "סְקִירָה"
-	},
+	"sefariaHeadword": "סְקִירָה",
+	"headwords": [
+		{
+			"text": "סְקִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1020,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00956",
-	"slug": "כסף-5",
-	"headword": {
-		"text": "כַּסָּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּסָּף",
+	"headwords": [
+		{
+			"text": "כַּסָּף"
+		},
 		{
 			"text": "כַּסָּפִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 655,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00304",
-	"slug": "שהיה",
-	"headword": {
-		"text": "שְׁהִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁהִיָּה",
+	"headwords": [
+		{
+			"text": "שְׁהִיָּה"
+		},
 		{
 			"text": "שְׁהִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1527,
 		"column": "b"

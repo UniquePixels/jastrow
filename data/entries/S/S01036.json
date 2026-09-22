@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01036",
-	"slug": "קינטינר",
-	"headword": {
-		"text": "קִינְטֵינָר"
-	},
+	"sefariaHeadword": "קִינְטֵינָר",
+	"headwords": [
+		{
+			"text": "קִינְטֵינָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

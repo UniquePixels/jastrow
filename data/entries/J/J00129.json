@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00129",
-	"slug": "יהודת",
-	"headword": {
-		"text": "יהודת"
-	},
+	"sefariaHeadword": "יהודת",
+	"headwords": [
+		{
+			"text": "יהודת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 566,
 		"column": "b"

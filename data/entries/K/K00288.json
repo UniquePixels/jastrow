@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00288",
-	"slug": "כומסה",
-	"headword": {
-		"text": "כּוֹמְסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוֹמְסָה",
+	"headwords": [
+		{
+			"text": "כּוֹמְסָה"
+		},
 		{
 			"text": "כּוֹמְסִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 620,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01032",
-	"slug": "גמיקון",
-	"headword": {
-		"text": "גמיקון"
-	},
+	"sefariaHeadword": "גמיקון",
+	"headwords": [
+		{
+			"text": "גמיקון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 253,
 		"column": "a"

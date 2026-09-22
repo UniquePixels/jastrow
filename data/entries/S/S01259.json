@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01259",
-	"slug": "קלובקרין",
-	"headword": {
-		"text": "קְלוּבְקרִין"
-	},
+	"sefariaHeadword": "קְלוּבְקרִין",
+	"headwords": [
+		{
+			"text": "קְלוּבְקרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

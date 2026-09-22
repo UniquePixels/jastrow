@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00166",
-	"slug": "אבלט",
-	"headword": {
-		"text": "אַבְלֵט"
-	},
+	"sefariaHeadword": "אַבְלֵט",
+	"headwords": [
+		{
+			"text": "אַבְלֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 7,
 		"column": "a"

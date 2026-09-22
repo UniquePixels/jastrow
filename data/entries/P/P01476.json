@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01476",
-	"slug": "עשיה",
-	"headword": {
-		"text": "עֲשִׂיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲשִׂיָּה",
+	"headwords": [
+		{
+			"text": "עֲשִׂיָּה"
+		},
 		{
 			"text": "עֲשִׂיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1125,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02705",
-	"slug": "אפיק",
-	"headword": {
-		"text": "אָפִיק"
-	},
+	"sefariaHeadword": "אָפִיק",
+	"headwords": [
+		{
+			"text": "אָפִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "a"

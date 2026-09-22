@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00751",
-	"slug": "ניצוץ",
-	"headword": {
-		"text": "נִיצוֹץ"
-	},
+	"sefariaHeadword": "נִיצוֹץ",
+	"headwords": [
+		{
+			"text": "נִיצוֹץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 907,
 		"column": "b"

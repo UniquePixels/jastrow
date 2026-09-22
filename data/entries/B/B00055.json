@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00055",
-	"slug": "בבואה",
-	"headword": {
-		"text": "בָּבוּאָה"
-	},
+	"sefariaHeadword": "בָּבוּאָה",
+	"headwords": [
+		{
+			"text": "בָּבוּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 136,
 		"column": "b"

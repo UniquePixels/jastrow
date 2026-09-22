@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00021",
-	"slug": "פאפי-2",
-	"headword": {
-		"text": "פָּאפִי"
-	},
+	"sefariaHeadword": "פָּאפִי",
+	"headwords": [
+		{
+			"text": "פָּאפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

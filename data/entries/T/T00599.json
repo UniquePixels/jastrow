@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00599",
-	"slug": "ריגוש-1",
-	"headword": {
-		"text": "רִיגּוּשׁ"
-	},
+	"sefariaHeadword": "רִיגּוּשׁ",
+	"headwords": [
+		{
+			"text": "רִיגּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00311",
-	"slug": "נודיין",
-	"headword": {
-		"text": "נוֹדִיִּין"
-	},
+	"sefariaHeadword": "נוֹדִיִּין",
+	"headwords": [
+		{
+			"text": "נוֹדִיִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "a"

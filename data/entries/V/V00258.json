@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00258",
-	"slug": "תופי",
-	"headword": {
-		"text": "תופי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תופי",
+	"headwords": [
+		{
+			"text": "תופי"
+		},
 		{
 			"text": "תּוּפִינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "a"

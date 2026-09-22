@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U01690",
-	"slug": "שערא-3",
-	"headword": {
-		"text": "שַׂעֲרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׂעֲרָא",
+	"headwords": [
+		{
+			"text": "שַׂעֲרָא"
+		},
 		{
 			"text": "שַׂעְרָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "שֵׂעָר"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1613,
 		"column": "a"

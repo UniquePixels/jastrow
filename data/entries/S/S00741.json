@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00741",
-	"slug": "קטיגטין",
-	"headword": {
-		"text": "קטיגטין"
-	},
+	"sefariaHeadword": "קטיגטין",
+	"headwords": [
+		{
+			"text": "קטיגטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1347,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01693",
-	"slug": "פרומטוי",
-	"headword": {
-		"text": "פרומטוי"
-	},
+	"sefariaHeadword": "פרומטוי",
+	"headwords": [
+		{
+			"text": "פרומטוי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1220,
 		"column": "b"

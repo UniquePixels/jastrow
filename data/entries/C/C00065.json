@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00065",
-	"slug": "גבוש",
-	"headword": {
-		"text": "גָּבוּשׁ"
-	},
+	"sefariaHeadword": "גָּבוּשׁ",
+	"headwords": [
+		{
+			"text": "גָּבוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 205,
 		"column": "b"

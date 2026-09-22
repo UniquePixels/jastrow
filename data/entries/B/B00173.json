@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00173",
-	"slug": "בהילו",
-	"headword": {
-		"text": "בְּהִילוּ"
-	},
+	"sefariaHeadword": "בְּהִילוּ",
+	"headwords": [
+		{
+			"text": "בְּהִילוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 142,
 		"column": "a"

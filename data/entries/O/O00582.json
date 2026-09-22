@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00582",
-	"slug": "סידק",
-	"headword": {
-		"text": "סִידְק־"
-	},
+	"sefariaHeadword": "סִידְק־",
+	"headwords": [
+		{
+			"text": "סִידְק־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 976,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00379",
-	"slug": "חומס-1",
-	"headword": {
-		"text": "חוֹמֶס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹמֶס",
+	"headwords": [
 		{
-			"text": "חוֹמֶס סוּבְנִי"
+			"text": "חוֹמֶס"
+		},
+		{
+			"text": "ח׳ סוּבְנִי",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 435,
 		"column": "b"

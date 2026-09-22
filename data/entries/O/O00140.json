@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00140",
-	"slug": "סגיעותא",
-	"headword": {
-		"text": "סְגִיעוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגִיעוּתָא",
+	"headwords": [
+		{
+			"text": "סְגִיעוּתָא"
+		},
 		{
 			"text": "סְגִיעֲתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 954,
 		"column": "b"

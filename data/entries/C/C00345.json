@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00345",
-	"slug": "גוזל-1",
-	"headword": {
-		"text": "גּוֹזֵל"
-	},
+	"sefariaHeadword": "גּוֹזֵל",
+	"headwords": [
+		{
+			"text": "גּוֹזֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "a"

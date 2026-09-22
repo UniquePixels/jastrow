@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00860",
-	"slug": "חיצה-1",
-	"headword": {
-		"text": "חִיצָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חִיצָה I",
+	"headwords": [
+		{
+			"text": "חִיצָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 459,
 		"column": "b"

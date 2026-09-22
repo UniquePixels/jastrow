@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00278",
-	"slug": "אגורא-1",
-	"headword": {
-		"text": "אֱגוֹרָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֱגוֹרָא I",
+	"headwords": [
+		{
+			"text": "אֱגוֹרָא",
+			"homograph": 1
+		},
 		{
 			"text": "אֵיגוֹרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 12,
 		"column": "a"

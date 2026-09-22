@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02078",
-	"slug": "שתה",
-	"headword": {
-		"text": "שָׁתָה"
-	},
+	"sefariaHeadword": "שָׁתָה",
+	"headwords": [
+		{
+			"text": "שָׁתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "b"

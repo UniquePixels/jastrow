@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03022",
-	"slug": "מתוך",
-	"headword": {
-		"text": "מִתּוֹךְ"
-	},
+	"sefariaHeadword": "מִתּוֹךְ",
+	"headwords": [
+		{
+			"text": "מִתּוֹךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00560",
-	"slug": "חזר-1",
-	"headword": {
-		"text": "חָזַר"
-	},
+	"sefariaHeadword": "חָזַר",
+	"headwords": [
+		{
+			"text": "חָזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 446,
 		"column": "a"

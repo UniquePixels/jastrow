@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00296",
-	"slug": "סוך-3",
-	"headword": {
-		"text": "סוֹךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוֹךְ",
+	"headwords": [
+		{
+			"text": "סוֹךְ"
+		},
 		{
 			"text": "שׂוֹךְ"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 963,
 		"column": "b"

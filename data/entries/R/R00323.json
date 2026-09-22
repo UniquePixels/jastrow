@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00323",
-	"slug": "ציוחא",
-	"headword": {
-		"text": "צִיוְחָא"
-	},
+	"sefariaHeadword": "צִיוְחָא",
+	"headwords": [
+		{
+			"text": "צִיוְחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "b"

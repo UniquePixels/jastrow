@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00956",
-	"slug": "קילבן",
-	"headword": {
-		"text": "קִילְבָן"
-	},
+	"sefariaHeadword": "קִילְבָן",
+	"headwords": [
+		{
+			"text": "קִילְבָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1360,
 		"column": "a"

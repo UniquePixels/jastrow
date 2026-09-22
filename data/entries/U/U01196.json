@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01196",
-	"slug": "של-2",
-	"headword": {
-		"text": "שַׁל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁל ²",
+	"headwords": [
+		{
+			"text": "שַׁל",
+			"disambiguator": 2
+		},
 		{
 			"text": "שַׁל צִיּוֹן"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1577,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00425",
-	"slug": "רופילא",
-	"headword": {
-		"text": "רוּפִילָא"
-	},
+	"sefariaHeadword": "רוּפִילָא",
+	"headwords": [
+		{
+			"text": "רוּפִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1463,
 		"column": "a"

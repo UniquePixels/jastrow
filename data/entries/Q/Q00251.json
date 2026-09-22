@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00251",
-	"slug": "פומט",
-	"headword": {
-		"text": "פומט"
-	},
+	"sefariaHeadword": "פומט",
+	"headwords": [
+		{
+			"text": "פומט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1143,
 		"column": "a"

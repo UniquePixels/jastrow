@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01470",
-	"slug": "קמין",
-	"headword": {
-		"text": "קָמִין"
-	},
+	"sefariaHeadword": "קָמִין",
+	"headwords": [
+		{
+			"text": "קָמִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1385,
 		"column": "b"

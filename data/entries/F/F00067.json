@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00067",
-	"slug": "ווסתא",
-	"headword": {
-		"text": "וֶוסְתָּא"
-	},
+	"sefariaHeadword": "וֶוסְתָּא",
+	"headwords": [
+		{
+			"text": "וֶוסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 374,
 		"column": "b"

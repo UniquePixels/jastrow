@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S02179",
-	"slug": "קרקפל",
-	"headword": {
-		"text": "קַרְקֵפֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְקֵפֶל",
+	"headwords": [
 		{
-			"text": "קַרְקֵי׳"
+			"text": "קַרְקֵפֶל"
+		},
+		{
+			"text": "קַרְקֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1426,
 		"column": "b"

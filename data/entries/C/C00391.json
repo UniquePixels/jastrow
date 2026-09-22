@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00391",
-	"slug": "גולייר",
-	"headword": {
-		"text": "גּוּלְיָיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גּוּלְיָיר",
+	"headwords": [
+		{
+			"text": "גּוּלְיָיר"
+		},
 		{
 			"text": "גַּלְיָיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 221,
 		"column": "b"

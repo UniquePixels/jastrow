@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00927",
-	"slug": "אושעיא",
-	"headword": {
-		"text": "אוֹשַׁעְיָא"
-	},
+	"sefariaHeadword": "אוֹשַׁעְיָא",
+	"headwords": [
+		{
+			"text": "אוֹשַׁעְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

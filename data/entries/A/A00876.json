@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00876",
-	"slug": "אוריא-1",
-	"headword": {
-		"text": "אוֹרְיָא"
-	},
+	"sefariaHeadword": "אוֹרְיָא",
+	"headwords": [
+		{
+			"text": "אוֹרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

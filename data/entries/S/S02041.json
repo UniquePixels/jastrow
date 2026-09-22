@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02041",
-	"slug": "קריה-3",
-	"headword": {
-		"text": "קְרִיָּה"
-	},
+	"sefariaHeadword": "קְרִיָּה",
+	"headwords": [
+		{
+			"text": "קְרִיָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "a"

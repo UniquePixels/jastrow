@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00471",
-	"slug": "שונרא",
-	"headword": {
-		"text": "שׁוּנָּרָא"
-	},
+	"sefariaHeadword": "שׁוּנָּרָא",
+	"headwords": [
+		{
+			"text": "שׁוּנָּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1537,
 		"column": "b"

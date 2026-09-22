@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00691",
-	"slug": "קטאדיקי",
-	"headword": {
-		"text": "קָטָאדִיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָטָאדִיקִי",
+	"headwords": [
 		{
-			"text": "קָטָדִ׳"
+			"text": "קָטָאדִיקִי"
+		},
+		{
+			"text": "קָטָדִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1345,
 		"column": "b"

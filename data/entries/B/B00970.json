@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00970",
-	"slug": "בנתיקה",
-	"headword": {
-		"text": "בנתיקה"
-	},
+	"sefariaHeadword": "בנתיקה",
+	"headwords": [
+		{
+			"text": "בנתיקה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 177,
 		"column": "b"

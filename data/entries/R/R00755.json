@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00755",
-	"slug": "צרח-1",
-	"headword": {
-		"text": "צָרַח"
-	},
+	"sefariaHeadword": "צָרַח",
+	"headwords": [
+		{
+			"text": "צָרַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "a"

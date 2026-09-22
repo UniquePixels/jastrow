@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00841",
-	"slug": "כנון",
-	"headword": {
-		"text": "כָּנוֹן"
-	},
+	"sefariaHeadword": "כָּנוֹן",
+	"headwords": [
+		{
+			"text": "כָּנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 648,
 		"column": "a"

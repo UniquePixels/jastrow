@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00916",
-	"slug": "מחפרנא",
-	"headword": {
-		"text": "מַחְפְּרָנָא"
-	},
+	"sefariaHeadword": "מַחְפְּרָנָא",
+	"headwords": [
+		{
+			"text": "מַחְפְּרָנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 763,
 		"column": "a"

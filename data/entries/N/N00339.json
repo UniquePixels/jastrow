@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00339",
-	"slug": "נוזליא",
-	"headword": {
-		"text": "נוֹזְלַיָּא"
-	},
+	"sefariaHeadword": "נוֹזְלַיָּא",
+	"headwords": [
+		{
+			"text": "נוֹזְלַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "b"

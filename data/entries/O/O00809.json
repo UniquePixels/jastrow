@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00809",
-	"slug": "סיציליא",
-	"headword": {
-		"text": "סיציליא"
-	},
+	"sefariaHeadword": "סיציליא",
+	"headwords": [
+		{
+			"text": "סיציליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

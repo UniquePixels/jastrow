@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00660",
-	"slug": "קוש",
-	"headword": {
-		"text": "קוּשׁ"
-	},
+	"sefariaHeadword": "קוּשׁ",
+	"headwords": [
+		{
+			"text": "קוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1344,
 		"column": "b"

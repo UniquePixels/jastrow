@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00296",
-	"slug": "נוב-3",
-	"headword": {
-		"text": "נוֹב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נוֹב II",
+	"headwords": [
+		{
+			"text": "נוֹב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 883,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

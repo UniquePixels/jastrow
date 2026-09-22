@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00632",
-	"slug": "דין-2",
-	"headword": {
-		"text": "דֵּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דֵּין",
+	"headwords": [
+		{
+			"text": "דֵּין"
+		},
 		{
 			"text": "דֵּינוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 300,
 		"column": "b"

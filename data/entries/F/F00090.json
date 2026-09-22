@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00090",
-	"slug": "ורדינאה",
-	"headword": {
-		"text": "וַרְדִּינָאָה"
-	},
+	"sefariaHeadword": "וַרְדִּינָאָה",
+	"headwords": [
+		{
+			"text": "וַרְדִּינָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "b"

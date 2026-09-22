@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00011",
-	"slug": "ראי-1",
-	"headword": {
-		"text": "ראי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ראי",
+	"headwords": [
+		{
+			"text": "ראי"
+		},
 		{
 			"text": "רָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1435,
 		"column": "a"

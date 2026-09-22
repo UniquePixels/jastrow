@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00677",
-	"slug": "עירברבין",
-	"headword": {
-		"text": "עֵירַבְרְבִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֵירַבְרְבִין",
+	"headwords": [
+		{
+			"text": "עֵירַבְרְבִין"
+		},
 		{
 			"text": "עִירַבְרוּבִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1075,
 		"column": "b"

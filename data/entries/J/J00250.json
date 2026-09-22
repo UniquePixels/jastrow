@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00250",
-	"slug": "יושר",
-	"headword": {
-		"text": "יוֹשֶׁר"
-	},
+	"sefariaHeadword": "יוֹשֶׁר",
+	"headwords": [
+		{
+			"text": "יוֹשֶׁר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "a"

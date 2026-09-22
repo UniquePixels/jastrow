@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00752",
-	"slug": "ניצוצא",
-	"headword": {
-		"text": "נִיצוֹצָא"
-	},
+	"sefariaHeadword": "נִיצוֹצָא",
+	"headwords": [
+		{
+			"text": "נִיצוֹצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

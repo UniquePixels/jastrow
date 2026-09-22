@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00501",
-	"slug": "חותרא",
-	"headword": {
-		"text": "חוּתְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּתְרָא",
+	"headwords": [
+		{
+			"text": "חוּתְרָא"
+		},
 		{
 			"text": "חוּתְרִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 442,
 		"column": "a"

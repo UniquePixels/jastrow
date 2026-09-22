@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00725",
-	"slug": "יתושא",
-	"headword": {
-		"text": "יַתּוּשָׁא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַתּוּשָׁא",
+	"headwords": [
+		{
+			"text": "יַתּוּשָׁא"
+		},
 		{
 			"text": "יַתּוּשָׁה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 603,
 		"column": "b"

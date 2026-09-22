@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02736",
-	"slug": "מרעי-2",
-	"headword": {
-		"text": "מַרְעֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מַרְעֵי II",
+	"headwords": [
+		{
+			"text": "מַרְעֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 845,
 		"column": "b"

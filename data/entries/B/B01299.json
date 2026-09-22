@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01299",
-	"slug": "ברם",
-	"headword": {
-		"text": "בְּרַם"
-	},
+	"sefariaHeadword": "בְּרַם",
+	"headwords": [
+		{
+			"text": "בְּרַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 196,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01513",
-	"slug": "קנאי-1",
-	"headword": {
-		"text": "קַנַּאי"
-	},
+	"sefariaHeadword": "קַנַּאי",
+	"headwords": [
+		{
+			"text": "קַנַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1388,
 		"column": "a"

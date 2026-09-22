@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00585",
-	"slug": "ריבוא",
-	"headword": {
-		"text": "רִיבּוֹא"
-	},
+	"sefariaHeadword": "רִיבּוֹא",
+	"headwords": [
+		{
+			"text": "רִיבּוֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "b"

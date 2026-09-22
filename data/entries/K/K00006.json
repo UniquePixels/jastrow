@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00006",
-	"slug": "כאב-3",
-	"headword": {
-		"text": "כְּאֵב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "כְּאֵב II",
+	"headwords": [
+		{
+			"text": "כְּאֵב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 606,
 		"column": "a"

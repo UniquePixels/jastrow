@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S00898",
-	"slug": "קיטון-2",
-	"headword": {
-		"text": "קִיטוֹן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטוֹן ²",
+	"headwords": [
+		{
+			"text": "קִיטוֹן",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִיטוֹנָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "קִיטוֹנָה"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 1357,
 		"column": "b"

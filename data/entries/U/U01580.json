@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01580",
-	"slug": "שנונית",
-	"headword": {
-		"text": "שְׁנוּנִית"
-	},
+	"sefariaHeadword": "שְׁנוּנִית",
+	"headwords": [
+		{
+			"text": "שְׁנוּנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

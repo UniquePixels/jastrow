@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00248",
-	"slug": "עולא-4",
-	"headword": {
-		"text": "עוּלָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עוּלָא II",
+	"headwords": [
+		{
+			"text": "עוּלָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1050,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00817",
-	"slug": "חינגנא",
-	"headword": {
-		"text": "חִינְגָּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינְגָּנָא",
+	"headwords": [
+		{
+			"text": "חִינְגָּנָא"
+		},
 		{
 			"text": "חִינְגָּנַיָּא"
 		},
 		{
-			"text": "חִנְ׳"
+			"text": "חִנְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 458,
 		"column": "a"

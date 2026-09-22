@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00646",
-	"slug": "עיצור-1",
-	"headword": {
-		"text": "עִיצּוּר"
-	},
+	"sefariaHeadword": "עִיצּוּר",
+	"headwords": [
+		{
+			"text": "עִיצּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1074,
 		"column": "a"

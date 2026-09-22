@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03070",
-	"slug": "מתכות",
-	"headword": {
-		"text": "מַתָּכוֹת"
-	},
+	"sefariaHeadword": "מַתָּכוֹת",
+	"headwords": [
+		{
+			"text": "מַתָּכוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 862,
 		"column": "b"

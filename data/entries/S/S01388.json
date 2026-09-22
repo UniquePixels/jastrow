@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01388",
-	"slug": "קלסתא",
-	"headword": {
-		"text": "קְלַסְתָּא"
-	},
+	"sefariaHeadword": "קְלַסְתָּא",
+	"headwords": [
+		{
+			"text": "קְלַסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1380,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00356",
-	"slug": "גוחכא",
-	"headword": {
-		"text": "גּוּחֲכָא"
-	},
+	"sefariaHeadword": "גּוּחֲכָא",
+	"headwords": [
+		{
+			"text": "גּוּחֲכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

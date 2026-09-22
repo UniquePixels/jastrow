@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00866",
-	"slug": "פירנוס",
-	"headword": {
-		"text": "פִּירְנוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּירְנוּס",
+	"headwords": [
+		{
+			"text": "פִּירְנוּס"
+		},
 		{
 			"text": "פִּירְנוּק"
 		},
@@ -12,6 +13,7 @@
 			"text": "פִּירְנֵס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1172,
 		"column": "a"

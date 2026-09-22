@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02280",
-	"slug": "מצודא",
-	"headword": {
-		"text": "מְצוֹדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְצוֹדָא",
+	"headwords": [
+		{
+			"text": "מְצוֹדָא"
+		},
 		{
 			"text": "מְצוּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 823,
 		"column": "b"

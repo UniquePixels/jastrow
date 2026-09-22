@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00749",
-	"slug": "קטילא-2",
-	"headword": {
-		"text": "קָטִילָא"
-	},
+	"sefariaHeadword": "קָטִילָא",
+	"headwords": [
+		{
+			"text": "קָטִילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1348,
 		"column": "a"

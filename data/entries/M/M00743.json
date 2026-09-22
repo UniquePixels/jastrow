@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00743",
-	"slug": "מזורה-2",
-	"headword": {
-		"text": "מזורה"
-	},
+	"sefariaHeadword": "מזורה",
+	"headwords": [
+		{
+			"text": "מזורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 754,
 		"column": "b"

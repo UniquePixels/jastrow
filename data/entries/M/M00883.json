@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00883",
-	"slug": "מחך",
-	"headword": {
-		"text": "מְחַךְ"
-	},
+	"sefariaHeadword": "מְחַךְ",
+	"headwords": [
+		{
+			"text": "מְחַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 761,
 		"column": "a"

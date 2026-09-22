@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00424",
-	"slug": "עזר-1",
-	"headword": {
-		"text": "עָזַר"
-	},
+	"sefariaHeadword": "עָזַר",
+	"headwords": [
+		{
+			"text": "עָזַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1062,
 		"column": "a"

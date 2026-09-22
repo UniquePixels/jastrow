@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03111",
-	"slug": "מתרצא",
-	"headword": {
-		"text": "מְתַרְצָא"
-	},
+	"sefariaHeadword": "מְתַרְצָא",
+	"headwords": [
+		{
+			"text": "מְתַרְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 865,
 		"column": "b"

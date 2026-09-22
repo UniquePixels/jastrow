@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01274",
-	"slug": "ערבונא",
-	"headword": {
-		"text": "עַרְבוֹנָא"
-	},
+	"sefariaHeadword": "עַרְבוֹנָא",
+	"headwords": [
+		{
+			"text": "עַרְבוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1113,
 		"column": "a"

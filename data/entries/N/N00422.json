@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00422",
-	"slug": "נורתוק",
-	"headword": {
-		"text": "נורתוק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נורתוק",
+	"headwords": [
+		{
+			"text": "נורתוק"
+		},
 		{
 			"text": "נורתק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 890,
 		"column": "b"

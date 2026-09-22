@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00207",
-	"slug": "עווא",
-	"headword": {
-		"text": "עַוָּוא"
-	},
+	"sefariaHeadword": "עַוָּוא",
+	"headwords": [
+		{
+			"text": "עַוָּוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

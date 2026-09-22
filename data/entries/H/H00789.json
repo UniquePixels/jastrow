@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00789",
-	"slug": "חילק-3",
-	"headword": {
-		"text": "חִילָּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִילָּק",
+	"headwords": [
+		{
+			"text": "חִילָּק"
+		},
 		{
 			"text": "חִלָּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 457,
 		"column": "a"

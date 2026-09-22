@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00735",
-	"slug": "בירקא-2",
-	"headword": {
-		"text": "בירקא"
-	},
+	"sefariaHeadword": "בירקא",
+	"headwords": [
+		{
+			"text": "בירקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 166,
 		"column": "b"

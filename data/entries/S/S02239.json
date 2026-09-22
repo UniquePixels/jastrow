@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S02239",
-	"slug": "קשיא",
-	"headword": {
-		"text": "קַשְׁיָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קַשְׁיָא II",
+	"headwords": [
+		{
+			"text": "קַשְׁיָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1431,
 		"column": "a"

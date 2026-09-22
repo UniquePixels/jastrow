@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00744",
-	"slug": "מזז",
-	"headword": {
-		"text": "מָזַז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָזַז",
+	"headwords": [
+		{
+			"text": "מָזַז"
+		},
 		{
 			"text": "מְזַז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 754,
 		"column": "b"

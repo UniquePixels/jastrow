@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02597",
-	"slug": "מרונאה",
-	"headword": {
-		"text": "מֵרוֹנָאָה"
-	},
+	"sefariaHeadword": "מֵרוֹנָאָה",
+	"headwords": [
+		{
+			"text": "מֵרוֹנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 839,
 		"column": "a"

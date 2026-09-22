@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "T00081",
-	"slug": "רבי-2",
-	"headword": {
-		"text": "רבי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רבי",
+	"headwords": [
+		{
+			"text": "רבי"
+		},
 		{
 			"text": "רָבָה"
 		},
@@ -12,6 +13,7 @@
 			"text": "רָבֶה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1440,
 		"column": "b"

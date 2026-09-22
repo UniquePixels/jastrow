@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01431",
-	"slug": "קלתא",
-	"headword": {
-		"text": "קֹלְתָא"
-	},
+	"sefariaHeadword": "קֹלְתָא",
+	"headwords": [
+		{
+			"text": "קֹלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1383,
 		"column": "a"

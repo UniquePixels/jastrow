@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00012",
-	"slug": "סאור-2",
-	"headword": {
-		"text": "סִאוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִאוּר",
+	"headwords": [
+		{
+			"text": "סִאוּר"
+		},
 		{
 			"text": "סִאוּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 947,
 		"column": "b"

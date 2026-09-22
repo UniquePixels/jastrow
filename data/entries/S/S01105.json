@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01105",
-	"slug": "קיפח",
-	"headword": {
-		"text": "קִיפֵּחַ"
-	},
+	"sefariaHeadword": "קִיפֵּחַ",
+	"headwords": [
+		{
+			"text": "קִיפֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

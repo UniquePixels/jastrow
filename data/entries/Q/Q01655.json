@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01655",
-	"slug": "פרוזבין-2",
-	"headword": {
-		"text": "פרוזבין"
-	},
+	"sefariaHeadword": "פרוזבין",
+	"headwords": [
+		{
+			"text": "פרוזבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1219,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01250",
-	"slug": "גרגירא",
-	"headword": {
-		"text": "גַּרְגִּירָא"
-	},
+	"sefariaHeadword": "גַּרְגִּירָא",
+	"headwords": [
+		{
+			"text": "גַּרְגִּירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

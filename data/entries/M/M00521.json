@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00521",
-	"slug": "מומי",
-	"headword": {
-		"text": "מוֹמֵי"
-	},
+	"sefariaHeadword": "מוֹמֵי",
+	"headwords": [
+		{
+			"text": "מוֹמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 743,
 		"column": "b"

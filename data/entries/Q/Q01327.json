@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01327",
-	"slug": "פסל-3",
-	"headword": {
-		"text": "פַּסָּל"
-	},
+	"sefariaHeadword": "פַּסָּל",
+	"headwords": [
+		{
+			"text": "פַּסָּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1198,
 		"column": "a"

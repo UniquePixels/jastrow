@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00038",
-	"slug": "מאכולת",
-	"headword": {
-		"text": "מַאֲכוֹלֶת"
-	},
+	"sefariaHeadword": "מַאֲכוֹלֶת",
+	"headwords": [
+		{
+			"text": "מַאֲכוֹלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

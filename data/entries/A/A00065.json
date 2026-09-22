@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00065",
-	"slug": "אבוי",
-	"headword": {
-		"text": "אֲבוֹי"
-	},
+	"sefariaHeadword": "אֲבוֹי",
+	"headwords": [
+		{
+			"text": "אֲבוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00149",
-	"slug": "גגית",
-	"headword": {
-		"text": "גִּגִּית"
-	},
+	"sefariaHeadword": "גִּגִּית",
+	"headwords": [
+		{
+			"text": "גִּגִּית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 209,
 		"column": "b"

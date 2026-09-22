@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01538",
-	"slug": "חצצות",
-	"headword": {
-		"text": "חֲצָצוֹת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*חֲצָצוֹת",
+	"headwords": [
+		{
+			"text": "חֲצָצוֹת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 496,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00057",
-	"slug": "פגיין",
-	"headword": {
-		"text": "פגיין"
-	},
+	"sefariaHeadword": "פגיין",
+	"headwords": [
+		{
+			"text": "פגיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "b"

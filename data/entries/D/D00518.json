@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00518",
-	"slug": "דיוסוס",
-	"headword": {
-		"text": "דְּיוֹסוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיוֹסוֹס",
+	"headwords": [
+		{
+			"text": "דְּיוֹסוֹס"
+		},
 		{
 			"text": "דְּיוֹסִים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 296,
 		"column": "b"

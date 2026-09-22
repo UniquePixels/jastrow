@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00213",
-	"slug": "לווטין",
-	"headword": {
-		"text": "לווטין"
-	},
+	"sefariaHeadword": "לווטין",
+	"headwords": [
+		{
+			"text": "לווטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

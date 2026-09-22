@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00838",
-	"slug": "טרכש",
-	"headword": {
-		"text": "טַרְכֵּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְכֵּשׁ",
+	"headwords": [
+		{
+			"text": "טַרְכֵּשׁ"
+		},
 		{
 			"text": "טַרְקוֹשׁ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 555,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00701",
-	"slug": "זריה",
-	"headword": {
-		"text": "זְרִיָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְרִיָּה",
+	"headwords": [
+		{
+			"text": "זְרִיָּה"
+		},
 		{
 			"text": "זְרִיָּיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 413,
 		"column": "b"

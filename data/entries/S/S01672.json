@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "S01672",
-	"slug": "קסמא-1",
-	"headword": {
-		"text": "קַסָּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַסָּמָא",
+	"headwords": [
 		{
-			"text": "קָסָ׳"
+			"text": "קַסָּמָא"
+		},
+		{
+			"text": "קָסָ׳",
+			"partial": true
 		},
 		{
 			"text": "קָסְמָא"
 		},
 		{
-			"text": "קוֹ׳"
+			"text": "קוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1397,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01603",
-	"slug": "סריגו",
-	"headword": {
-		"text": "סְרִיגוּ"
-	},
+	"sefariaHeadword": "סְרִיגוּ",
+	"headwords": [
+		{
+			"text": "סְרִיגוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1026,
 		"column": "b"

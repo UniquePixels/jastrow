@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01457",
-	"slug": "מכתשת",
-	"headword": {
-		"text": "מַכְתֶּשֶׁת"
-	},
+	"sefariaHeadword": "מַכְתֶּשֶׁת",
+	"headwords": [
+		{
+			"text": "מַכְתֶּשֶׁת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "b"

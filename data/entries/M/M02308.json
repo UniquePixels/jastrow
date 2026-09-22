@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M02308",
-	"slug": "מצי-3",
-	"headword": {
-		"text": "מצי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מצי ²",
+	"headwords": [
+		{
+			"text": "מצי",
+			"disambiguator": 2
+		},
 		{
 			"text": "מָצָה"
 		},
@@ -13,6 +14,7 @@
 			"text": "מָצָא"
 		}
 	],
+	"display": "{0} ², {1}, ({2})",
 	"page": {
 		"number": 825,
 		"column": "b"

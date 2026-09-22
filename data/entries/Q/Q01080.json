@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01080",
-	"slug": "פלמוס",
-	"headword": {
-		"text": "פֹּלְמוֹס"
-	},
+	"sefariaHeadword": "פֹּלְמוֹס",
+	"headwords": [
+		{
+			"text": "פֹּלְמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1183,
 		"column": "a"

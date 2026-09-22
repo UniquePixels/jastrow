@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03408",
-	"slug": "אתונא-2",
-	"headword": {
-		"text": "אַתּוּנָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַתּוּנָא II",
+	"headwords": [
+		{
+			"text": "אַתּוּנָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 132,
 		"column": "b"

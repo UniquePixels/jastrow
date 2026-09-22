@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00603",
-	"slug": "ניב-1",
-	"headword": {
-		"text": "נִיב"
-	},
+	"sefariaHeadword": "נִיב",
+	"headwords": [
+		{
+			"text": "נִיב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 902,
 		"column": "a"

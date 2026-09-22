@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01465",
-	"slug": "קמטרא",
-	"headword": {
-		"text": "קַמְטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַמְטְרָא",
+	"headwords": [
 		{
-			"text": "קוּמְ׳"
+			"text": "קַמְטְרָא"
+		},
+		{
+			"text": "קוּמְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1385,
 		"column": "a"

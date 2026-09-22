@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00258",
-	"slug": "כוכלת",
-	"headword": {
-		"text": "כּוֹכֶלֶת",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כּוֹכֶלֶת",
+	"headwords": [
+		{
+			"text": "כּוֹכֶלֶת",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 619,
 		"column": "b"

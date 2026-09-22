@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00570",
-	"slug": "תלאמא",
-	"headword": {
-		"text": "תְּלָאמָא"
-	},
+	"sefariaHeadword": "תְּלָאמָא",
+	"headwords": [
+		{
+			"text": "תְּלָאמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"

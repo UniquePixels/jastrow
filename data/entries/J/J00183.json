@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00183",
-	"slug": "יוכלא",
-	"headword": {
-		"text": "יוּכְלָא"
-	},
+	"sefariaHeadword": "יוּכְלָא",
+	"headwords": [
+		{
+			"text": "יוּכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 568,
 		"column": "b"

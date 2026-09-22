@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01162",
-	"slug": "גסא-1",
-	"headword": {
-		"text": "גַּסָּא"
-	},
+	"sefariaHeadword": "גַּסָּא",
+	"headwords": [
+		{
+			"text": "גַּסָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

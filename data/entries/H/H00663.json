@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00663",
-	"slug": "חידו",
-	"headword": {
-		"text": "חֵידוּ"
-	},
+	"sefariaHeadword": "חֵידוּ",
+	"headwords": [
+		{
+			"text": "חֵידוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 451,
 		"column": "a"

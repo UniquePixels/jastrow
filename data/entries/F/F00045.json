@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00045",
-	"slug": "ויס",
-	"headword": {
-		"text": "וִיס"
-	},
+	"sefariaHeadword": "וִיס",
+	"headwords": [
+		{
+			"text": "וִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 373,
 		"column": "b"

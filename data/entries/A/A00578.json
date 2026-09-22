@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00578",
-	"slug": "אווזא",
-	"headword": {
-		"text": "אַוְוזָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַוְוזָא",
+	"headwords": [
+		{
+			"text": "אַוְוזָא"
+		},
 		{
 			"text": "אֲוָוזָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 23,
 		"column": "a"

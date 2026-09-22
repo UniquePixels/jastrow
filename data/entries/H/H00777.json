@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00777",
-	"slug": "חיליז",
-	"headword": {
-		"text": "חִילִּיז"
-	},
+	"sefariaHeadword": "חִילִּיז",
+	"headwords": [
+		{
+			"text": "חִילִּיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 456,
 		"column": "b"

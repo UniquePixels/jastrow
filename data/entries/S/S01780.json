@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "S01780",
-	"slug": "קץ-4",
-	"headword": {
-		"text": "קֵץ",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵץ ²",
+	"headwords": [
+		{
+			"text": "קֵץ",
+			"disambiguator": 2
+		},
 		{
 			"text": "קִצ"
 		},
@@ -13,9 +14,11 @@
 			"text": "ּא"
 		},
 		{
-			"text": "קִי׳"
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 1404,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00803",
-	"slug": "חימוץ",
-	"headword": {
-		"text": "חִימּוּץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִימּוּץ",
+	"headwords": [
 		{
-			"text": "חִמּ׳"
+			"text": "חִימּוּץ"
+		},
+		{
+			"text": "חִמּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 457,
 		"column": "b"

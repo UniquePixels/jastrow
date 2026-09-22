@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00394",
-	"slug": "בוש",
-	"headword": {
-		"text": "בּוֹשׁ"
-	},
+	"sefariaHeadword": "בּוֹשׁ",
+	"headwords": [
+		{
+			"text": "בּוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "a"

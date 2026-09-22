@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00572",
-	"slug": "גזף",
-	"headword": {
-		"text": "גזף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גזף",
+	"headwords": [
+		{
+			"text": "גזף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 231,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01243",
-	"slug": "פסולא-1",
-	"headword": {
-		"text": "פְּסוּלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פְּסוּלָא I",
+	"headwords": [
+		{
+			"text": "פְּסוּלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1193,
 		"column": "a"

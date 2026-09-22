@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01695",
-	"slug": "סתידראות",
-	"headword": {
-		"text": "סְתִידְרָאוֹת"
-	},
+	"sefariaHeadword": "סְתִידְרָאוֹת",
+	"headwords": [
+		{
+			"text": "סְתִידְרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "a"

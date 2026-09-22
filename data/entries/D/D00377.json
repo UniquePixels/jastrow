@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00377",
-	"slug": "דורמסקנא",
-	"headword": {
-		"text": "דורמסקנא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דורמסקנא",
+	"headwords": [
+		{
+			"text": "דורמסקנא"
+		},
 		{
 			"text": "דורמסקניות"
 		},
@@ -12,6 +13,7 @@
 			"text": "דורמסקנין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 290,
 		"column": "a"

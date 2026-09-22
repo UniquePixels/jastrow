@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02243",
-	"slug": "מפרונא",
-	"headword": {
-		"text": "מִפְרוֹנָא"
-	},
+	"sefariaHeadword": "מִפְרוֹנָא",
+	"headwords": [
+		{
+			"text": "מִפְרוֹנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

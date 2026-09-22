@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00936",
-	"slug": "מחר-2",
-	"headword": {
-		"text": "מְחַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחַר",
+	"headwords": [
+		{
+			"text": "מְחַר"
+		},
 		{
 			"text": "מָחְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 764,
 		"column": "a"

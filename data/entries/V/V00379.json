@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "V00379",
-	"slug": "תחמין",
-	"headword": {
-		"text": "תַּחֲמִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּחֲמִין",
+	"headwords": [
 		{
-			"text": "כְּפַר תַּחֲמִין"
+			"text": "תַּחֲמִין"
+		},
+		{
+			"text": "כְּפַר תַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1662,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

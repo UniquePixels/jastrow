@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02226",
-	"slug": "מפנקא",
-	"headword": {
-		"text": "מְפַנְּקָא"
-	},
+	"sefariaHeadword": "מְפַנְּקָא",
+	"headwords": [
+		{
+			"text": "מְפַנְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00996",
-	"slug": "דקולא",
-	"headword": {
-		"text": "דִּקוּלָא"
-	},
+	"sefariaHeadword": "דִּקוּלָא",
+	"headwords": [
+		{
+			"text": "דִּקוּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 318,
 		"column": "b"

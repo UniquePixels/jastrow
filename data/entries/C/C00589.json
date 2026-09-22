@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00589",
-	"slug": "גחירא",
-	"headword": {
-		"text": "גְּחִירָא"
-	},
+	"sefariaHeadword": "גְּחִירָא",
+	"headwords": [
+		{
+			"text": "גְּחִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

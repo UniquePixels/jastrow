@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02792",
-	"slug": "מרתפא",
-	"headword": {
-		"text": "מַרְתֵּפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְתֵּפָא",
+	"headwords": [
 		{
-			"text": "מַרְתֵּי׳"
+			"text": "מַרְתֵּפָא"
+		},
+		{
+			"text": "מַרְתֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 848,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00035",
-	"slug": "ראשות",
-	"headword": {
-		"text": "רַאֲשׁוֹת"
-	},
+	"sefariaHeadword": "רַאֲשׁוֹת",
+	"headwords": [
+		{
+			"text": "רַאֲשׁוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1438,
 		"column": "a"

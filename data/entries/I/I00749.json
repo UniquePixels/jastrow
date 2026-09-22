@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00749",
-	"slug": "טרחות",
-	"headword": {
-		"text": "טַרְחוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְחוּת",
+	"headwords": [
 		{
-			"text": "טִירְ׳"
+			"text": "טַרְחוּת"
+		},
+		{
+			"text": "טִירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 552,
 		"column": "a"

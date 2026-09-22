@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01041",
-	"slug": "פליאה",
-	"headword": {
-		"text": "פְּלִיאָה"
-	},
+	"sefariaHeadword": "פְּלִיאָה",
+	"headwords": [
+		{
+			"text": "פְּלִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1181,
 		"column": "b"

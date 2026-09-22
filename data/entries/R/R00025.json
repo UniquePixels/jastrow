@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00025",
-	"slug": "צבוע",
-	"headword": {
-		"text": "צָבוּעַ"
-	},
+	"sefariaHeadword": "צָבוּעַ",
+	"headwords": [
+		{
+			"text": "צָבוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1257,
 		"column": "b"

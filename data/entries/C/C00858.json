@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00858",
-	"slug": "גלבטא",
-	"headword": {
-		"text": "גלבטא"
-	},
+	"sefariaHeadword": "גלבטא",
+	"headwords": [
+		{
+			"text": "גלבטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01601",
-	"slug": "סריג-2",
-	"headword": {
-		"text": "סְרִיג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְרִיג",
+	"headwords": [
+		{
+			"text": "סְרִיג"
+		},
 		{
 			"text": "סְרִיגָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1026,
 		"column": "b"

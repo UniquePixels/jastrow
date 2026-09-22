@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00179",
-	"slug": "צווארנייתא",
-	"headword": {
-		"text": "צַוַּוארְנְיָיתָא"
-	},
+	"sefariaHeadword": "צַוַּוארְנְיָיתָא",
+	"headwords": [
+		{
+			"text": "צַוַּוארְנְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1267,
 		"column": "a"

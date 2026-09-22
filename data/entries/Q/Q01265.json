@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01265",
-	"slug": "פסטירין",
-	"headword": {
-		"text": "פסטירין"
-	},
+	"sefariaHeadword": "פסטירין",
+	"headwords": [
+		{
+			"text": "פסטירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1194,
 		"column": "a"

@@ -1,20 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "A00539",
-	"slug": "אוגדור",
-	"headword": {
-		"text": "אוֹגְדוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹגְדוֹר",
+	"headwords": [
+		{
+			"text": "אוֹגְדוֹר"
+		},
 		{
 			"text": "זגדור"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 21,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

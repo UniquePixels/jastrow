@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00121",
-	"slug": "זוג-4",
-	"headword": {
-		"text": "זוּג"
-	},
+	"sefariaHeadword": "זוּג",
+	"headwords": [
+		{
+			"text": "זוּג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 383,
 		"column": "b"

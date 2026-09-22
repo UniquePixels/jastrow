@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00117",
-	"slug": "חברברי",
-	"headword": {
-		"text": "חֲבַרְבְּרֵי"
-	},
+	"sefariaHeadword": "חֲבַרְבְּרֵי",
+	"headwords": [
+		{
+			"text": "חֲבַרְבְּרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 422,
 		"column": "b"

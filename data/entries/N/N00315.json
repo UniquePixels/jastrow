@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00315",
-	"slug": "נוה-2",
-	"headword": {
-		"text": "נָוֶה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "נָוֶה I",
+	"headwords": [
+		{
+			"text": "נָוֶה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 884,
 		"column": "a"

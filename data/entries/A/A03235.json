@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03235",
-	"slug": "ארקבטא",
-	"headword": {
-		"text": "אַרְקַבְטָא"
-	},
+	"sefariaHeadword": "אַרְקַבְטָא",
+	"headwords": [
+		{
+			"text": "אַרְקַבְטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "b"

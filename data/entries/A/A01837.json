@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01837",
-	"slug": "אליאס",
-	"headword": {
-		"text": "אליאס"
-	},
+	"sefariaHeadword": "אליאס",
+	"headwords": [
+		{
+			"text": "אליאס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

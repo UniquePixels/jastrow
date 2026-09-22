@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00654",
-	"slug": "תמהון",
-	"headword": {
-		"text": "תִּמָּהוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּמָּהוֹן",
+	"headwords": [
 		{
-			"text": "תִּימָּ׳"
+			"text": "תִּמָּהוֹן"
+		},
+		{
+			"text": "תִּימָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1675,
 		"column": "b"

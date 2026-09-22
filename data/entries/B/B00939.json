@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00939",
-	"slug": "בנאתן",
-	"headword": {
-		"text": "בְּנָאתָן"
-	},
+	"sefariaHeadword": "בְּנָאתָן",
+	"headwords": [
+		{
+			"text": "בְּנָאתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

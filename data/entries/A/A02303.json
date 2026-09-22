@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02303",
-	"slug": "אנשהא",
-	"headword": {
-		"text": "אַנְשָׁהָא"
-	},
+	"sefariaHeadword": "אַנְשָׁהָא",
+	"headwords": [
+		{
+			"text": "אַנְשָׁהָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

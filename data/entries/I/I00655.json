@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00655",
-	"slug": "טפילה",
-	"headword": {
-		"text": "טְפִילָה"
-	},
+	"sefariaHeadword": "טְפִילָה",
+	"headwords": [
+		{
+			"text": "טְפִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 547,
 		"column": "a"

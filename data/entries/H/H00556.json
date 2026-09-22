@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00556",
-	"slug": "חזקה",
-	"headword": {
-		"text": "חֲזָקָה"
-	},
+	"sefariaHeadword": "חֲזָקָה",
+	"headwords": [
+		{
+			"text": "חֲזָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 445,
 		"column": "b"

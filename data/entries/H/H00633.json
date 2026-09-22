@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00633",
-	"slug": "חטים",
-	"headword": {
-		"text": "חִטִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִטִּים",
+	"headwords": [
+		{
+			"text": "חִטִּים"
+		},
 		{
 			"text": "חִטִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 449,
 		"column": "b"

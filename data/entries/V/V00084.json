@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00084",
-	"slug": "תגדותא",
-	"headword": {
-		"text": "תגדותא"
-	},
+	"sefariaHeadword": "תגדותא",
+	"headwords": [
+		{
+			"text": "תגדותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "b"

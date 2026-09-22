@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01598",
-	"slug": "איקלין",
-	"headword": {
-		"text": "איקלין"
-	},
+	"sefariaHeadword": "איקלין",
+	"headwords": [
+		{
+			"text": "איקלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 60,
 		"column": "a"

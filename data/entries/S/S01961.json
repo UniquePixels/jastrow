@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01961",
-	"slug": "קרוקיתא",
-	"headword": {
-		"text": "קרוקיתא"
-	},
+	"sefariaHeadword": "קרוקיתא",
+	"headwords": [
+		{
+			"text": "קרוקיתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "a"

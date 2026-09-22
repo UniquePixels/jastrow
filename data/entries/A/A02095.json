@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02095",
-	"slug": "אנבין",
-	"headword": {
-		"text": "אנבין"
-	},
+	"sefariaHeadword": "אנבין",
+	"headwords": [
+		{
+			"text": "אנבין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

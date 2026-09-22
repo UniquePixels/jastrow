@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00716",
-	"slug": "דיקלא",
-	"headword": {
-		"text": "דִּיקְלָא"
-	},
+	"sefariaHeadword": "דִּיקְלָא",
+	"headwords": [
+		{
+			"text": "דִּיקְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

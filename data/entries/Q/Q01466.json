@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01466",
-	"slug": "פקוע",
-	"headword": {
-		"text": "פַּקּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּקּוּעַ",
+	"headwords": [
+		{
+			"text": "פַּקּוּעַ"
+		},
 		{
 			"text": "פַּקּוּעָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּקּוּעָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1208,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00668",
-	"slug": "פילאות",
-	"headword": {
-		"text": "פִּילָאוֹת"
-	},
+	"sefariaHeadword": "פִּילָאוֹת",
+	"headwords": [
+		{
+			"text": "פִּילָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1163,
 		"column": "a"

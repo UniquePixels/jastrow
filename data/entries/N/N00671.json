@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00671",
-	"slug": "נימא-1",
-	"headword": {
-		"text": "נִימָּא"
-	},
+	"sefariaHeadword": "נִימָּא",
+	"headwords": [
+		{
+			"text": "נִימָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

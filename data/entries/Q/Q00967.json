@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00967",
-	"slug": "פלוון",
-	"headword": {
-		"text": "פִּלְוָון"
-	},
+	"sefariaHeadword": "פִּלְוָון",
+	"headwords": [
+		{
+			"text": "פִּלְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

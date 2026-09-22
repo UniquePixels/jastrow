@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00215",
-	"slug": "עוז-1",
-	"headword": {
-		"text": "עוּז"
-	},
+	"sefariaHeadword": "עוּז",
+	"headwords": [
+		{
+			"text": "עוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1048,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01799",
-	"slug": "חרתנא",
-	"headword": {
-		"text": "חַרְתָּנָא"
-	},
+	"sefariaHeadword": "חַרְתָּנָא",
+	"headwords": [
+		{
+			"text": "חַרְתָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 508,
 		"column": "a"

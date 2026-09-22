@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02670",
-	"slug": "אפיאן",
-	"headword": {
-		"text": "אַפְיָאן"
-	},
+	"sefariaHeadword": "אַפְיָאן",
+	"headwords": [
+		{
+			"text": "אַפְיָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 102,
 		"column": "b"

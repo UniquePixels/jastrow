@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01445",
-	"slug": "מכשפות",
-	"headword": {
-		"text": "מְכַשֵּׁפוּת"
-	},
+	"sefariaHeadword": "מְכַשֵּׁפוּת",
+	"headwords": [
+		{
+			"text": "מְכַשֵּׁפוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 785,
 		"column": "a"

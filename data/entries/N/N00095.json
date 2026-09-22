@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "N00095",
-	"slug": "נבלא-1",
-	"headword": {
-		"text": "נִבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִבְלָא",
+	"headwords": [
+		{
+			"text": "נִבְלָא"
+		},
 		{
 			"text": "נִי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 870,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02110",
-	"slug": "שתיקה",
-	"headword": {
-		"text": "שְׁתִיקָה"
-	},
+	"sefariaHeadword": "שְׁתִיקָה",
+	"headwords": [
+		{
+			"text": "שְׁתִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03076",
-	"slug": "מתלאה",
-	"headword": {
-		"text": "מתלאה"
-	},
+	"sefariaHeadword": "מתלאה",
+	"headwords": [
+		{
+			"text": "מתלאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 863,
 		"column": "a"

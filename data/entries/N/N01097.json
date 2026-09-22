@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01097",
-	"slug": "נצב-1",
-	"headword": {
-		"text": "נָצַב"
-	},
+	"sefariaHeadword": "נָצַב",
+	"headwords": [
+		{
+			"text": "נָצַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 927,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02979",
-	"slug": "ארגוב",
-	"headword": {
-		"text": "אַרְגּוֹב"
-	},
+	"sefariaHeadword": "אַרְגֹּוב",
+	"headwords": [
+		{
+			"text": "אַרְגּוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 115,
 		"column": "a"

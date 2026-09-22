@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01039",
-	"slug": "קינטרה",
-	"headword": {
-		"text": "קִינְטְרָה"
-	},
+	"sefariaHeadword": "קִינְטְרָה",
+	"headwords": [
+		{
+			"text": "קִינְטְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1363,
 		"column": "b"

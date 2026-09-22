@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00006",
-	"slug": "חאפון",
-	"headword": {
-		"text": "חָאפוּן"
-	},
+	"sefariaHeadword": "חָאפוּן",
+	"headwords": [
+		{
+			"text": "חָאפוּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

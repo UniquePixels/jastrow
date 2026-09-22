@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00405",
-	"slug": "מוגרת",
-	"headword": {
-		"text": "מוֹגֶרֶת"
-	},
+	"sefariaHeadword": "מוֹגֶרֶת",
+	"headwords": [
+		{
+			"text": "מוֹגֶרֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00844",
-	"slug": "שיזבא",
-	"headword": {
-		"text": "שֵׁיזְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֵׁיזְבָא",
+	"headwords": [
 		{
-			"text": "שֵׁזְ׳"
+			"text": "שֵׁיזְבָא"
+		},
+		{
+			"text": "שֵׁזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1559,
 		"column": "a"

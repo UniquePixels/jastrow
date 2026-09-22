@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02737",
-	"slug": "מרעילא",
-	"headword": {
-		"text": "מַרְעֵילָא"
-	},
+	"sefariaHeadword": "מַרְעֵילָא",
+	"headwords": [
+		{
+			"text": "מַרְעֵילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 845,
 		"column": "b"

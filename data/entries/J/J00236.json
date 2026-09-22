@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00236",
-	"slug": "יורדא",
-	"headword": {
-		"text": "יורדא"
-	},
+	"sefariaHeadword": "יורדא",
+	"headwords": [
+		{
+			"text": "יורדא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 571,
 		"column": "b"

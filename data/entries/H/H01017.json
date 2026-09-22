@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01017",
-	"slug": "חלחולת",
-	"headword": {
-		"text": "חַלְחוֹלֶת"
-	},
+	"sefariaHeadword": "חַלְחוֹלֶת",
+	"headwords": [
+		{
+			"text": "חַלְחוֹלֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "b"

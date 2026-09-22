@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00418",
-	"slug": "יממיא",
-	"headword": {
-		"text": "יממיא"
-	},
+	"sefariaHeadword": "יממיא",
+	"headwords": [
+		{
+			"text": "יממיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "a"

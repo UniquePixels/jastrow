@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02930",
-	"slug": "משמר-2",
-	"headword": {
-		"text": "מִשְׁמָר"
-	},
+	"sefariaHeadword": "מִשְׁמָר",
+	"headwords": [
+		{
+			"text": "מִשְׁמָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 856,
 		"column": "b"

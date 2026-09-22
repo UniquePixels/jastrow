@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00117",
-	"slug": "לברניא",
-	"headword": {
-		"text": "לְבָרְנַיָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְבָרְנַיָּא",
+	"headwords": [
 		{
-			"text": "לַבְרָ׳"
+			"text": "לְבָרְנַיָּא"
+		},
+		{
+			"text": "לַבְרָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 691,
 		"column": "a"

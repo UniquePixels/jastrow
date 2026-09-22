@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01467",
-	"slug": "איסכופיה",
-	"headword": {
-		"text": "אִיסְכּוּפְיָה"
-	},
+	"sefariaHeadword": "אִיסְכּוּפְיָה",
+	"headwords": [
+		{
+			"text": "אִיסְכּוּפְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 56,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

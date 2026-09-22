@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01359",
-	"slug": "כתיבת",
-	"headword": {
-		"text": "כתיבת"
-	},
+	"sefariaHeadword": "כתיבת",
+	"headwords": [
+		{
+			"text": "כתיבת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 681,
 		"column": "a"

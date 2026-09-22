@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00309",
-	"slug": "יחף-5",
-	"headword": {
-		"text": "יַחַף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַחַף",
+	"headwords": [
 		{
-			"text": "יַי׳"
+			"text": "יַחַף"
+		},
+		{
+			"text": "יַי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 575,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02187",
-	"slug": "פתלתול",
-	"headword": {
-		"text": "פְּתַלְתּוֹל"
-	},
+	"sefariaHeadword": "פְּתַלְתּוֹל",
+	"headwords": [
+		{
+			"text": "פְּתַלְתּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1255,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00586",
-	"slug": "מוקדוניא",
-	"headword": {
-		"text": "מוּקְדּוֹנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוּקְדּוֹנְיָא",
+	"headwords": [
 		{
-			"text": "מַקְ׳"
+			"text": "מוּקְדּוֹנְיָא"
+		},
+		{
+			"text": "מַקְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 747,
 		"column": "b"

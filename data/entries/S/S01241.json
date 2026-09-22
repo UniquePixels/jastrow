@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01241",
-	"slug": "קלאים",
-	"headword": {
-		"text": "קְלָאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קְלָאִים",
+	"headwords": [
+		{
+			"text": "קְלָאִים"
+		},
 		{
 			"text": "קְלָאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1372,
 		"column": "a"

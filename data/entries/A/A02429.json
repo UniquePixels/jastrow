@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02429",
-	"slug": "אסיא-1",
-	"headword": {
-		"text": "אסיא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אסיא",
+	"headwords": [
+		{
+			"text": "אסיא"
+		},
 		{
 			"text": "אוסיא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 93,
 		"column": "a"

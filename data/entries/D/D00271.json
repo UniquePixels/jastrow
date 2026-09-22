@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00271",
-	"slug": "דולפקי",
-	"headword": {
-		"text": "דּוּלְפְקִי"
-	},
+	"sefariaHeadword": "דּוּלְפְקִי",
+	"headwords": [
+		{
+			"text": "דּוּלְפְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 286,
 		"column": "a"

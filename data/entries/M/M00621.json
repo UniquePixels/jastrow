@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00621",
-	"slug": "מורד-4",
-	"headword": {
-		"text": "מוֹרָד",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מוֹרָד II",
+	"headwords": [
+		{
+			"text": "מוֹרָד",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 749,
 		"column": "a"

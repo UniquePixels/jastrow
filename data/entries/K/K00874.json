@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K00874",
-	"slug": "כנף-4",
-	"headword": {
-		"text": "כְּנַף",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּנַף II",
+	"headwords": [
+		{
+			"text": "כְּנַף",
+			"homograph": 2
+		},
 		{
 			"text": "כַּנְפָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 651,
 		"column": "a"

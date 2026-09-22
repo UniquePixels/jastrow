@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00595",
-	"slug": "שזוגא",
-	"headword": {
-		"text": "שִׁזּוּגָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁזּוּגָא",
+	"headwords": [
 		{
-			"text": "שְׁזוּ׳"
+			"text": "שִׁזּוּגָא"
+		},
+		{
+			"text": "שְׁזוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1545,
 		"column": "a"

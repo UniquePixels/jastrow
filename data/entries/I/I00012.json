@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00012",
-	"slug": "טאל",
-	"headword": {
-		"text": "טאל",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טאל",
+	"headwords": [
+		{
+			"text": "טאל",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 515,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01106",
-	"slug": "חלפיי",
-	"headword": {
-		"text": "חִלְפַיי"
-	},
+	"sefariaHeadword": "חִלְפַיי",
+	"headwords": [
+		{
+			"text": "חִלְפַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 472,
 		"column": "a"

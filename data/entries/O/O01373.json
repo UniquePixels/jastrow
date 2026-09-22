@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01373",
-	"slug": "ספיקלוא",
-	"headword": {
-		"text": "ספיקלוא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*ספיקלוא",
+	"headwords": [
+		{
+			"text": "ספיקלוא",
+			"reconstructed": true
+		},
 		{
 			"text": "ספיקריא"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 1014,
 		"column": "a"

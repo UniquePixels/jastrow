@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00495",
-	"slug": "חות",
-	"headword": {
-		"text": "חוּת"
-	},
+	"sefariaHeadword": "חוּת",
+	"headwords": [
+		{
+			"text": "חוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 441,
 		"column": "b"

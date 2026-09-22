@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00180",
-	"slug": "זוללא",
-	"headword": {
-		"text": "זוֹלָלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זוֹלָלָא",
+	"headwords": [
+		{
+			"text": "זוֹלָלָא"
+		},
 		{
 			"text": "זַוְלָלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 387,
 		"column": "a"

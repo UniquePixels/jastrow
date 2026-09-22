@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00160",
-	"slug": "טויסין",
-	"headword": {
-		"text": "טויסין"
-	},
+	"sefariaHeadword": "טויסין",
+	"headwords": [
+		{
+			"text": "טויסין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "b"

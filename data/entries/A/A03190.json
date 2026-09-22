@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03190",
-	"slug": "ארן-1",
-	"headword": {
-		"text": "אָרֹן"
-	},
+	"sefariaHeadword": "אָרֹן",
+	"headwords": [
+		{
+			"text": "אָרֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 123,
 		"column": "b"

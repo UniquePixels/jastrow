@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00279",
-	"slug": "חוורנס",
-	"headword": {
-		"text": "חוורנס"
-	},
+	"sefariaHeadword": "חוורנס",
+	"headwords": [
+		{
+			"text": "חוורנס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 430,
 		"column": "b"

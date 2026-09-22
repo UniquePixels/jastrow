@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00479",
-	"slug": "היפרכון",
-	"headword": {
-		"text": "היפרכון"
-	},
+	"sefariaHeadword": "היפרכון",
+	"headwords": [
+		{
+			"text": "היפרכון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 349,
 		"column": "a"

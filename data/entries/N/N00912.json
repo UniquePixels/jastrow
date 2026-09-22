@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "N00912",
-	"slug": "נס-2",
-	"headword": {
-		"text": "נֵס",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*נֵס II",
+	"headwords": [
+		{
+			"text": "נֵס",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 915,
 		"column": "a"

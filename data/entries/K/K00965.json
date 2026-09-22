@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00965",
-	"slug": "כעך",
-	"headword": {
-		"text": "כַּעַךְ"
-	},
+	"sefariaHeadword": "כַּעַךְ",
+	"headwords": [
+		{
+			"text": "כַּעַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

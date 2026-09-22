@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00649",
-	"slug": "זקף-1",
-	"headword": {
-		"text": "זָקַף"
-	},
+	"sefariaHeadword": "זָקַף",
+	"headwords": [
+		{
+			"text": "זָקַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "b"

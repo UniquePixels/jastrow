@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00914",
-	"slug": "סכלא-2",
-	"headword": {
-		"text": "סַכְלָא"
-	},
+	"sefariaHeadword": "סַכְלָא",
+	"headwords": [
+		{
+			"text": "סַכְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 991,
 		"column": "a"

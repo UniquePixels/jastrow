@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01944",
-	"slug": "קרולין",
-	"headword": {
-		"text": "קרולין"
-	},
+	"sefariaHeadword": "קרולין",
+	"headwords": [
+		{
+			"text": "קרולין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "a"

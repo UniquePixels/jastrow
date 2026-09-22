@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02476",
-	"slug": "אסף-2",
-	"headword": {
-		"text": "אֲסַף"
-	},
+	"sefariaHeadword": "אֲסַף",
+	"headwords": [
+		{
+			"text": "אֲסַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02022",
-	"slug": "מסרוק",
-	"headword": {
-		"text": "מַסְרוֹק"
-	},
+	"sefariaHeadword": "מַסְרוֹק",
+	"headwords": [
+		{
+			"text": "מַסְרוֹק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 811,
 		"column": "b"

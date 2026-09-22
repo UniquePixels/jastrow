@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00347",
-	"slug": "סומכותא",
-	"headword": {
-		"text": "סוּמְכְוָתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּמְכְוָתָא",
+	"headwords": [
+		{
+			"text": "סוּמְכְוָתָא"
+		},
 		{
 			"text": "סוּמְכְתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 966,
 		"column": "b"

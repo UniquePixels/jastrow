@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00645",
-	"slug": "סיכולא",
-	"headword": {
-		"text": "סִיכּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכּוּלָא",
+	"headwords": [
 		{
-			"text": "סִכּ׳"
+			"text": "סִיכּוּלָא"
+		},
+		{
+			"text": "סִכּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01184",
-	"slug": "איוב",
-	"headword": {
-		"text": "אִיּוֹב"
-	},
+	"sefariaHeadword": "אִיֹּוב",
+	"headwords": [
+		{
+			"text": "אִיּוֹב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 46,
 		"column": "a"

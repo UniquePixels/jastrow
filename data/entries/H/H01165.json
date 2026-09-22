@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01165",
-	"slug": "חמורה",
-	"headword": {
-		"text": "חֲמוֹרָה"
-	},
+	"sefariaHeadword": "חֲמוֹרָה",
+	"headwords": [
+		{
+			"text": "חֲמוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 476,
 		"column": "b"

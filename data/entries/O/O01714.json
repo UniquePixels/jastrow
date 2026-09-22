@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01714",
-	"slug": "סתר-4",
-	"headword": {
-		"text": "סְתַר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְתַר ²",
+	"headwords": [
+		{
+			"text": "סְתַר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1033,
 		"column": "b"

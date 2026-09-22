@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03291",
-	"slug": "אשירא",
-	"headword": {
-		"text": "אֲשֵׁירָא"
-	},
+	"sefariaHeadword": "אֲשֵׁירָא",
+	"headwords": [
+		{
+			"text": "אֲשֵׁירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "b"

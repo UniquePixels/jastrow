@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U00487",
-	"slug": "שוער-2",
-	"headword": {
-		"text": "שׁוֹעֵר",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "שׁוֹעֵר ²",
+	"headwords": [
+		{
+			"text": "שׁוֹעֵר",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1538,
 		"column": "b"

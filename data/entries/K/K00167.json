@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00167",
-	"slug": "כהנותא",
-	"headword": {
-		"text": "כַּהֲנוּתָא"
-	},
+	"sefariaHeadword": "כַּהֲנוּתָא",
+	"headwords": [
+		{
+			"text": "כַּהֲנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 615,
 		"column": "b"

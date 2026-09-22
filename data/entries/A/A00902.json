@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00902",
-	"slug": "אורכניס",
-	"headword": {
-		"text": "אוּרְכָנִיס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אוּרְכָנִיס",
+	"headwords": [
+		{
+			"text": "אוּרְכָנִיס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 35,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02140",
-	"slug": "פתורא",
-	"headword": {
-		"text": "פְּתוֹרָא"
-	},
+	"sefariaHeadword": "פְּתוֹרָא",
+	"headwords": [
+		{
+			"text": "פְּתוֹרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

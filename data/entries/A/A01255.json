@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01255",
-	"slug": "איכוף",
-	"headword": {
-		"text": "אִיכּוּף"
-	},
+	"sefariaHeadword": "אִיכּוּף",
+	"headwords": [
+		{
+			"text": "אִיכּוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

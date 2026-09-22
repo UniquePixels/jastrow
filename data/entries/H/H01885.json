@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01885",
-	"slug": "חתייה",
-	"headword": {
-		"text": "חֲתִיָיה"
-	},
+	"sefariaHeadword": "חֲתִיָיה",
+	"headwords": [
+		{
+			"text": "חֲתִיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 512,
 		"column": "b"

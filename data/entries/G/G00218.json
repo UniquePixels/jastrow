@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00218",
-	"slug": "זוע-2",
-	"headword": {
-		"text": "זוּעַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "זוּעַ ²",
+	"headwords": [
+		{
+			"text": "זוּעַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 388,
 		"column": "b"

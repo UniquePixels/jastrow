@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02576",
-	"slug": "אסתלגיגית",
-	"headword": {
-		"text": "אסתלגיגית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אסתלגיגית",
+	"headwords": [
+		{
+			"text": "אסתלגיגית"
+		},
 		{
 			"text": "אסתלגנית"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 99,
 		"column": "a"

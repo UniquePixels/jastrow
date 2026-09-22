@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00109",
-	"slug": "הדורה",
-	"headword": {
-		"text": "הֲדוֹרָה"
-	},
+	"sefariaHeadword": "הֲדוֹרָה",
+	"headwords": [
+		{
+			"text": "הֲדוֹרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "a"

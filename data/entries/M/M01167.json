@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01167",
-	"slug": "מילדת",
-	"headword": {
-		"text": "מְיַלֶּדֶת"
-	},
+	"sefariaHeadword": "מְיַלֶּדֶת",
+	"headwords": [
+		{
+			"text": "מְיַלֶּדֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "a"

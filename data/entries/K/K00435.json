@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00435",
-	"slug": "כותרן",
-	"headword": {
-		"text": "כּוֹתְרָן"
-	},
+	"sefariaHeadword": "כּוֹתְרָן",
+	"headwords": [
+		{
+			"text": "כּוֹתְרָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "b"

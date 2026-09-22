@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00825",
-	"slug": "סיקריקון",
-	"headword": {
-		"text": "סִיקָרִיקוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיקָרִיקוֹן",
+	"headwords": [
 		{
-			"text": "סִקָ׳"
+			"text": "סִיקָרִיקוֹן"
+		},
+		{
+			"text": "סִקָ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 986,
 		"column": "b"

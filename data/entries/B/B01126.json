@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01126",
-	"slug": "בקלאנין",
-	"headword": {
-		"text": "בקלאנין"
-	},
+	"sefariaHeadword": "בקלאנין",
+	"headwords": [
+		{
+			"text": "בקלאנין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 186,
 		"column": "a"

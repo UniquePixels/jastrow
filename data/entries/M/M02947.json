@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02947",
-	"slug": "משעממותא",
-	"headword": {
-		"text": "מִשְׁעֲמָמוּתָא"
-	},
+	"sefariaHeadword": "מִשְׁעֲמָמוּתָא",
+	"headwords": [
+		{
+			"text": "מִשְׁעֲמָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

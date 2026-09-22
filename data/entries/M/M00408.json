@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00408",
-	"slug": "מודיא-1",
-	"headword": {
-		"text": "מוֹדְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹדְיָא",
+	"headwords": [
+		{
+			"text": "מוֹדְיָא"
+		},
 		{
 			"text": "מוֹדְיָיה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 738,
 		"column": "b"

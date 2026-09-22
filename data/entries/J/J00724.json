@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00724",
-	"slug": "יתוש",
-	"headword": {
-		"text": "יַתּוּשׁ"
-	},
+	"sefariaHeadword": "יַתּוּשׁ",
+	"headwords": [
+		{
+			"text": "יַתּוּשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 603,
 		"column": "b"

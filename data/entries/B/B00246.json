@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00246",
-	"slug": "בוכלין",
-	"headword": {
-		"text": "בוכלין"
-	},
+	"sefariaHeadword": "בוכלין",
+	"headwords": [
+		{
+			"text": "בוכלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

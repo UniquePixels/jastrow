@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01549",
-	"slug": "איפטא",
-	"headword": {
-		"text": "אֶיפְטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֶיפְטָא",
+	"headwords": [
+		{
+			"text": "אֶיפְטָא"
+		},
 		{
 			"text": "אֶפְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 58,
 		"column": "b"

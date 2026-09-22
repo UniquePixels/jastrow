@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02949",
-	"slug": "משער",
-	"headword": {
-		"text": "מְשָׁעֵר"
-	},
+	"sefariaHeadword": "מְשָׁעֵר",
+	"headwords": [
+		{
+			"text": "מְשָׁעֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 857,
 		"column": "b"

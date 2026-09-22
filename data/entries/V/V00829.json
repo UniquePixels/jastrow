@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00829",
-	"slug": "תפלא-2",
-	"headword": {
-		"text": "תְּפִלָּא"
-	},
+	"sefariaHeadword": "תְּפִלָּא",
+	"headwords": [
+		{
+			"text": "תְּפִלָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "b"

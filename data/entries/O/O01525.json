@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01525",
-	"slug": "סרבק",
-	"headword": {
-		"text": "סַרְבֵּק"
-	},
+	"sefariaHeadword": "סַרְבֵּק",
+	"headwords": [
+		{
+			"text": "סַרְבֵּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1022,
 		"column": "b"

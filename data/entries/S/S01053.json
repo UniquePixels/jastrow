@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01053",
-	"slug": "קינרס",
-	"headword": {
-		"text": "קִינָרָס"
-	},
+	"sefariaHeadword": "קִינָרָס",
+	"headwords": [
+		{
+			"text": "קִינָרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1364,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00849",
-	"slug": "תפקדא",
-	"headword": {
-		"text": "תַּפְקָדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּפְקָדָא",
+	"headwords": [
+		{
+			"text": "תַּפְקָדָא"
+		},
 		{
 			"text": "תַּפְקִדְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "a"

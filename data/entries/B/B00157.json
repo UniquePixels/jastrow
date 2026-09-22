@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00157",
-	"slug": "בדק-4",
-	"headword": {
-		"text": "בֶּדֶק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בֶּדֶק",
+	"headwords": [
+		{
+			"text": "בֶּדֶק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 141,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00018",
-	"slug": "סאן",
-	"headword": {
-		"text": "סָאן"
-	},
+	"sefariaHeadword": "סָאן",
+	"headwords": [
+		{
+			"text": "סָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "b"

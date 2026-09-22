@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00197",
-	"slug": "גדיגוד",
-	"headword": {
-		"text": "גדיגוד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גדיגוד",
+	"headwords": [
+		{
+			"text": "גדיגוד"
+		},
 		{
 			"text": "גדיגור"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 211,
 		"column": "b"

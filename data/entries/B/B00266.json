@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00266",
-	"slug": "בוליוטוס",
-	"headword": {
-		"text": "בוליוטוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בוליוטוס",
+	"headwords": [
+		{
+			"text": "בוליוטוס"
+		},
 		{
 			"text": "בּוּלֶיוְטֵיס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 146,
 		"column": "b"

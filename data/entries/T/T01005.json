@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T01005",
-	"slug": "רק-3",
-	"headword": {
-		"text": "רַק",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "רַק ²",
+	"headwords": [
+		{
+			"text": "רַק",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1495,
 		"column": "b"

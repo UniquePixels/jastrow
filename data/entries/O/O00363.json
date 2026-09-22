@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00363",
-	"slug": "סונטמא",
-	"headword": {
-		"text": "סונטמא"
-	},
+	"sefariaHeadword": "סונטמא",
+	"headwords": [
+		{
+			"text": "סונטמא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

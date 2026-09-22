@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "J00075",
-	"slug": "יבשתא",
-	"headword": {
-		"text": "יַבַּשְׁתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבַּשְׁתָּא",
+	"headwords": [
 		{
-			"text": "יַבִּישְׁ׳"
+			"text": "יַבַּשְׁתָּא"
 		},
 		{
-			"text": "יַבִּשְׁ׳"
+			"text": "יַבִּישְׁ׳",
+			"partial": true
+		},
+		{
+			"text": "יַבִּשְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 562,
 		"column": "b"

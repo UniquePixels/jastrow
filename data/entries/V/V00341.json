@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00341",
-	"slug": "תותבותא",
-	"headword": {
-		"text": "תּוֹתָבוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹתָבוּתָא",
+	"headwords": [
+		{
+			"text": "תּוֹתָבוּתָא"
+		},
 		{
 			"text": "תּוֹתַבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1659,
 		"column": "b"

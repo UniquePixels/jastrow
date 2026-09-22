@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01158",
-	"slug": "דשתקא",
-	"headword": {
-		"text": "דִּשְׁתְּקָא"
-	},
+	"sefariaHeadword": "דִּשְׁתְּקָא",
+	"headwords": [
+		{
+			"text": "דִּשְׁתְּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 327,
 		"column": "a"

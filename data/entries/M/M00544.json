@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00544",
-	"slug": "מוסירה",
-	"headword": {
-		"text": "מוֹסֵירָה"
-	},
+	"sefariaHeadword": "מוֹסֵירָה",
+	"headwords": [
+		{
+			"text": "מוֹסֵירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "b"

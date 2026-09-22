@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00267",
-	"slug": "זיבונא",
-	"headword": {
-		"text": "זִיבּוּנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיבּוּנָא",
+	"headwords": [
 		{
-			"text": "זִבּ׳"
+			"text": "זִיבּוּנָא"
+		},
+		{
+			"text": "זִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 390,
 		"column": "b"

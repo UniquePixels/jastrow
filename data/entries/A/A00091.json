@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00091",
-	"slug": "אבטומטוס",
-	"headword": {
-		"text": "אַבְטוֹמְטוֹס"
-	},
+	"sefariaHeadword": "אַבְטוֹמְטוֹס",
+	"headwords": [
+		{
+			"text": "אַבְטוֹמְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

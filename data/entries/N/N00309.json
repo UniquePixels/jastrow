@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00309",
-	"slug": "נוד-3",
-	"headword": {
-		"text": "נוֹד"
-	},
+	"sefariaHeadword": "נוֹד",
+	"headwords": [
+		{
+			"text": "נוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 884,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03223",
-	"slug": "ארעי",
-	"headword": {
-		"text": "אַרְעַי"
-	},
+	"sefariaHeadword": "אַרְעַי",
+	"headwords": [
+		{
+			"text": "אַרְעַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 125,
 		"column": "a"

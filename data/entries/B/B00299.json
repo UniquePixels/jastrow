@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00299",
-	"slug": "בוע",
-	"headword": {
-		"text": "בּוּעַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּעַ",
+	"headwords": [
+		{
+			"text": "בּוּעַ"
+		},
 		{
 			"text": "בְּעִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 147,
 		"column": "b"

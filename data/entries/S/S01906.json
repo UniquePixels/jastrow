@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01906",
-	"slug": "קרדום-1",
-	"headword": {
-		"text": "קַרְדּוֹם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְדּוֹם",
+	"headwords": [
 		{
-			"text": "קוּרְ׳"
+			"text": "קַרְדּוֹם"
+		},
+		{
+			"text": "קוּרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1412,
 		"column": "a"

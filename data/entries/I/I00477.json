@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00477",
-	"slug": "טלוי-2",
-	"headword": {
-		"text": "טְלוֹי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טְלוֹי",
+	"headwords": [
+		{
+			"text": "טְלוֹי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 535,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00938",
-	"slug": "חכך-4",
-	"headword": {
-		"text": "חֲכָךְ"
-	},
+	"sefariaHeadword": "חֲכָךְ",
+	"headwords": [
+		{
+			"text": "חֲכָךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 462,
 		"column": "b"

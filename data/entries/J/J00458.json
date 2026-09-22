@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00458",
-	"slug": "יסוף",
-	"headword": {
-		"text": "יִסּוֹף",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*יִסּוֹף",
+	"headwords": [
+		{
+			"text": "יִסּוֹף",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 582,
 		"column": "b"

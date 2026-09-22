@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00479",
-	"slug": "דיברא",
-	"headword": {
-		"text": "דִּיבְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיבְרָא",
+	"headwords": [
+		{
+			"text": "דִּיבְרָא"
+		},
 		{
 			"text": "דִּיבָּרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 295,
 		"column": "a"

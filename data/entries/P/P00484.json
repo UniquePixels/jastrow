@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00484",
-	"slug": "עטרתא",
-	"headword": {
-		"text": "עטַרְתָּא"
-	},
+	"sefariaHeadword": "עטַרְתָּא",
+	"headwords": [
+		{
+			"text": "עטַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1065,
 		"column": "a"

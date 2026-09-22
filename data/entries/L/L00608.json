@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00608",
-	"slug": "לעי",
-	"headword": {
-		"text": "לְעִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לְעִי",
+	"headwords": [
+		{
+			"text": "לְעִי"
+		},
 		{
 			"text": "לְעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 714,
 		"column": "b"

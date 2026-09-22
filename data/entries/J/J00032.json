@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "J00032",
-	"slug": "יבבא-2",
-	"headword": {
-		"text": "יַבָּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַבָּבָא",
+	"headwords": [
+		{
+			"text": "יַבָּבָא"
+		},
 		{
 			"text": "יַבָּבוּתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "יַבַּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 560,
 		"column": "b"

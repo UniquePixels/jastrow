@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00064",
-	"slug": "הגזין",
-	"headword": {
-		"text": "הִגְזִין"
-	},
+	"sefariaHeadword": "הִגְזִין",
+	"headwords": [
+		{
+			"text": "הִגְזִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 331,
 		"column": "a"

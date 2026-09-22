@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00943",
-	"slug": "מחרתא",
-	"headword": {
-		"text": "מְחַרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְחַרְתָּא",
+	"headwords": [
 		{
-			"text": "מְחַרְתָּא דְיַתִּיר"
+			"text": "מְחַרְתָּא"
+		},
+		{
+			"text": "מ׳ דְיַתִּיר",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 764,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

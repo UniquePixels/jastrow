@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00523",
-	"slug": "מומיתא",
-	"headword": {
-		"text": "מומיתא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מומיתא",
+	"headwords": [
+		{
+			"text": "מומיתא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00502",
-	"slug": "גוש-1",
-	"headword": {
-		"text": "גּוּשׁ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גּוּשׁ I",
+	"headwords": [
+		{
+			"text": "גּוּשׁ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 227,
 		"column": "b"

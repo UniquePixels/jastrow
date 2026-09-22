@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02510",
-	"slug": "מרגואן",
-	"headword": {
-		"text": "מַרְגּוּאַן",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מַרְגּוּאַן",
+	"headwords": [
+		{
+			"text": "מַרְגּוּאַן",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 835,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

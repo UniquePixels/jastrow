@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00791",
-	"slug": "עלי-2",
-	"headword": {
-		"text": "עֲלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲלֵי",
+	"headwords": [
+		{
+			"text": "עֲלֵי"
+		},
 		{
 			"text": "עֲלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1082,
 		"column": "a"

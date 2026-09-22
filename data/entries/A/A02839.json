@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02839",
-	"slug": "אפרשו",
-	"headword": {
-		"text": "אַפְרָשׁוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפְרָשׁוּ",
+	"headwords": [
+		{
+			"text": "אַפְרָשׁוּ"
+		},
 		{
 			"text": "אַפְרָשׁוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 109,
 		"column": "a"

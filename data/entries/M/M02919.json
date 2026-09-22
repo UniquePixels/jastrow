@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M02919",
-	"slug": "משלם",
-	"headword": {
-		"text": "מִשְׁלָם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִשְׁלָם",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִשְׁלָם"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 856,
 		"column": "a"

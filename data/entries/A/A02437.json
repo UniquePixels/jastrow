@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02437",
-	"slug": "אסימון",
-	"headword": {
-		"text": "אֲסִימוֹן"
-	},
+	"sefariaHeadword": "אֲסִימוֹן",
+	"headwords": [
+		{
+			"text": "אֲסִימוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

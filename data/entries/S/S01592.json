@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01592",
-	"slug": "קנכירינון",
-	"headword": {
-		"text": "קַנְכִּירִינוֹן"
-	},
+	"sefariaHeadword": "קַנְכִּירִינוֹן",
+	"headwords": [
+		{
+			"text": "קַנְכִּירִינוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00818",
-	"slug": "סיקלא",
-	"headword": {
-		"text": "סיקלא"
-	},
+	"sefariaHeadword": "סיקלא",
+	"headwords": [
+		{
+			"text": "סיקלא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 986,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02406",
-	"slug": "מקות",
-	"headword": {
-		"text": "מקות"
-	},
+	"sefariaHeadword": "מקות",
+	"headwords": [
+		{
+			"text": "מקות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

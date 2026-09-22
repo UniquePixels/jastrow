@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01560",
-	"slug": "קנטר-2",
-	"headword": {
-		"text": "קַנְטֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַנְטֵר",
+	"headwords": [
+		{
+			"text": "קַנְטֵר"
+		},
 		{
 			"text": "קַנְתֵּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1390,
 		"column": "a"

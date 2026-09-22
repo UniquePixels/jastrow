@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00598",
-	"slug": "אוותנטי-2",
-	"headword": {
-		"text": "אַוְותֶּנְטִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַוְותֶּנְטִי",
+	"headwords": [
+		{
+			"text": "אַוְותֶּנְטִי"
+		},
 		{
 			"text": "אפתנטי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 23,
 		"column": "b"

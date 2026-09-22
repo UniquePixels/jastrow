@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00821",
-	"slug": "טריקלילין",
-	"headword": {
-		"text": "טְרִיקְלִילִין"
-	},
+	"sefariaHeadword": "טְרִיקְלִילִין",
+	"headwords": [
+		{
+			"text": "טְרִיקְלִילִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 554,
 		"column": "b"

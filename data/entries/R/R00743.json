@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00743",
-	"slug": "צרה-2",
-	"headword": {
-		"text": "צָרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צָרָה I",
+	"headwords": [
+		{
+			"text": "צָרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1300,
 		"column": "a"

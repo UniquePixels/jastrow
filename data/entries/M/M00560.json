@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00560",
-	"slug": "מועדת",
-	"headword": {
-		"text": "מוּעֶדת"
-	},
+	"sefariaHeadword": "מוּעֶדת",
+	"headwords": [
+		{
+			"text": "מוּעֶדת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "a"

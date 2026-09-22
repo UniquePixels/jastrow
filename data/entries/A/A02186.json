@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02186",
-	"slug": "אנטינייא",
-	"headword": {
-		"text": "אנטינייא"
-	},
+	"sefariaHeadword": "אנטינייא",
+	"headwords": [
+		{
+			"text": "אנטינייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 83,
 		"column": "b"

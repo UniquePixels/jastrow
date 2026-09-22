@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00843",
-	"slug": "עלצה",
-	"headword": {
-		"text": "עֲלָצָה"
-	},
+	"sefariaHeadword": "עֲלָצָה",
+	"headwords": [
+		{
+			"text": "עֲלָצָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

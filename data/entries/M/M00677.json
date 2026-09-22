@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00677",
-	"slug": "מורתא",
-	"headword": {
-		"text": "מוּרְתָּא"
-	},
+	"sefariaHeadword": "מוּרְתָּא",
+	"headwords": [
+		{
+			"text": "מוּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

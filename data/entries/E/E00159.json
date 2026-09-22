@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00159",
-	"slug": "הדריינוס",
-	"headword": {
-		"text": "הַדְרְיָינוֹס"
-	},
+	"sefariaHeadword": "הַדְרְיָינוֹס",
+	"headwords": [
+		{
+			"text": "הַדְרְיָינוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 335,
 		"column": "a"

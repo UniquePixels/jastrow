@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00267",
-	"slug": "מדוכיא",
-	"headword": {
-		"text": "מְדוֹכְיָא"
-	},
+	"sefariaHeadword": "מְדוֹכְיָא",
+	"headwords": [
+		{
+			"text": "מְדוֹכְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

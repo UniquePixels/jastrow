@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00004",
-	"slug": "גאה-1",
-	"headword": {
-		"text": "גָּאָה"
-	},
+	"sefariaHeadword": "גָּאָה",
+	"headwords": [
+		{
+			"text": "גָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "a"

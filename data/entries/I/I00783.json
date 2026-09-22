@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00783",
-	"slug": "טריח-2",
-	"headword": {
-		"text": "טְרִיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרִיחַ",
+	"headwords": [
+		{
+			"text": "טְרִיחַ"
+		},
 		{
 			"text": "טְרִיחָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 553,
 		"column": "a"

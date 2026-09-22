@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01196",
-	"slug": "חמיתה",
-	"headword": {
-		"text": "חמיתה"
-	},
+	"sefariaHeadword": "חמיתה",
+	"headwords": [
+		{
+			"text": "חמיתה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "b"

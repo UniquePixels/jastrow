@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01305",
-	"slug": "ערה",
-	"headword": {
-		"text": "עָרָה"
-	},
+	"sefariaHeadword": "עָרָה",
+	"headwords": [
+		{
+			"text": "עָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

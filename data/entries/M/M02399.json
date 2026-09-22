@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02399",
-	"slug": "מקור-2",
-	"headword": {
-		"text": "מַקּוֹר"
-	},
+	"sefariaHeadword": "מַקּוֹר",
+	"headwords": [
+		{
+			"text": "מַקּוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 830,
 		"column": "a"

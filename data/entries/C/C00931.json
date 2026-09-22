@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00931",
-	"slug": "גליא-1",
-	"headword": {
-		"text": "גַּלְיָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גַּלְיָא I",
+	"headwords": [
+		{
+			"text": "גַּלְיָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 248,
 		"column": "b"

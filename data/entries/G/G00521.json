@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00521",
-	"slug": "זמיר",
-	"headword": {
-		"text": "זְמִיר"
-	},
+	"sefariaHeadword": "זְמִיר",
+	"headwords": [
+		{
+			"text": "זְמִיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

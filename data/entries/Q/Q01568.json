@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01568",
-	"slug": "פרגמטוטיס",
-	"headword": {
-		"text": "פְּרַגְמָטוֹטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַגְמָטוֹטֵיס",
+	"headwords": [
+		{
+			"text": "פְּרַגְמָטוֹטֵיס"
+		},
 		{
 			"text": "פְּרַגְמַטִיוְטָא"
 		},
 		{
-			"text": "פְּרַקְמַ׳"
+			"text": "פְּרַקְמַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1214,
 		"column": "b"

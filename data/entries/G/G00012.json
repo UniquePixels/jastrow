@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00012",
-	"slug": "זבדי",
-	"headword": {
-		"text": "זַבְדַּי"
-	},
+	"sefariaHeadword": "זַבְדַּי",
+	"headwords": [
+		{
+			"text": "זַבְדַּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 377,
 		"column": "b"

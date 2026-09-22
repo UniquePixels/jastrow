@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03204",
-	"slug": "ארנקא",
-	"headword": {
-		"text": "אַרְנְקָא"
-	},
+	"sefariaHeadword": "אַרְנְקָא",
+	"headwords": [
+		{
+			"text": "אַרְנְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 124,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S00882",
-	"slug": "קיוויה",
-	"headword": {
-		"text": "קִיוּוּיָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיוּוּיָה",
+	"headwords": [
 		{
-			"text": "קִוּוּ׳"
+			"text": "קִיוּוּיָה"
+		},
+		{
+			"text": "קִוּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1356,
 		"column": "a"

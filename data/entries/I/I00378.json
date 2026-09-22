@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00378",
-	"slug": "טימי-1",
-	"headword": {
-		"text": "טִימִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "טִימִי I",
+	"headwords": [
+		{
+			"text": "טִימִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 532,
 		"column": "a"

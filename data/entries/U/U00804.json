@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00804",
-	"slug": "שיבלא",
-	"headword": {
-		"text": "שִׁיבְּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיבְּלָא",
+	"headwords": [
 		{
-			"text": "שִׁיבְ׳"
+			"text": "שִׁיבְּלָא"
+		},
+		{
+			"text": "שִׁיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1557,
 		"column": "b"

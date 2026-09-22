@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01457",
-	"slug": "קמחוניא",
-	"headword": {
-		"text": "קִמְחוּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִמְחוּנְיָא",
+	"headwords": [
 		{
-			"text": "קִי׳"
+			"text": "קִמְחוּנְיָא"
+		},
+		{
+			"text": "קִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1384,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00323",
-	"slug": "סולעמותא",
-	"headword": {
-		"text": "סוּלְעָמוּתָא"
-	},
+	"sefariaHeadword": "סוּלְעָמוּתָא",
+	"headwords": [
+		{
+			"text": "סוּלְעָמוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 965,
 		"column": "a"

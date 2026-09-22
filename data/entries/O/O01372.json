@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01372",
-	"slug": "ספיקלטור",
-	"headword": {
-		"text": "סְפִיקְלָטוֹר"
-	},
+	"sefariaHeadword": "סְפִיקְלָטוֹר",
+	"headwords": [
+		{
+			"text": "סְפִיקְלָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "a"

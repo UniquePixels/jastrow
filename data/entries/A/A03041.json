@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03041",
-	"slug": "ארוס",
-	"headword": {
-		"text": "אֵרוּס"
-	},
+	"sefariaHeadword": "אֵרוּס",
+	"headwords": [
+		{
+			"text": "אֵרוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 117,
 		"column": "a"

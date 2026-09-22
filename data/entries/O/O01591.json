@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O01591",
-	"slug": "סרטיא-2",
-	"headword": {
-		"text": "סְרַטְיָא",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סְרַטְיָא ²",
+	"headwords": [
+		{
+			"text": "סְרַטְיָא",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1025,
 		"column": "b"

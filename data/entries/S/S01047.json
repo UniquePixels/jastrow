@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01047",
-	"slug": "קינמון",
-	"headword": {
-		"text": "קִינָּמוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִינָּמוֹן",
+	"headwords": [
 		{
-			"text": "קִנָּ׳"
+			"text": "קִינָּמוֹן"
+		},
+		{
+			"text": "קִנָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1364,
 		"column": "a"

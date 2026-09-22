@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01703",
-	"slug": "סתירתא",
-	"headword": {
-		"text": "סְתִירְתָּא"
-	},
+	"sefariaHeadword": "סְתִירְתָּא",
+	"headwords": [
+		{
+			"text": "סְתִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1031,
 		"column": "b"

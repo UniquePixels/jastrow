@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03254",
-	"slug": "אש",
-	"headword": {
-		"text": "אֵשׁ"
-	},
+	"sefariaHeadword": "אֵשׁ",
+	"headwords": [
+		{
+			"text": "אֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 126,
 		"column": "b"

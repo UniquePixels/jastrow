@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01189",
-	"slug": "עקיש",
-	"headword": {
-		"text": "עָקִישׁ"
-	},
+	"sefariaHeadword": "עָקִישׁ",
+	"headwords": [
+		{
+			"text": "עָקִישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1106,
 		"column": "b"

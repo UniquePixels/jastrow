@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00146",
-	"slug": "תוביה",
-	"headword": {
-		"text": "תּוּבְיָה"
-	},
+	"sefariaHeadword": "תּוּבְיָה",
+	"headwords": [
+		{
+			"text": "תּוּבְיָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1650,
 		"column": "a"

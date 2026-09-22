@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01810",
-	"slug": "שפשף-2",
-	"headword": {
-		"text": "שַׁפְשָׁף"
-	},
+	"sefariaHeadword": "שַׁפְשָׁף",
+	"headwords": [
+		{
+			"text": "שַׁפְשָׁף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1620,
 		"column": "a"

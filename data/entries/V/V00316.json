@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00316",
-	"slug": "תורפיתא",
-	"headword": {
-		"text": "תּוּרְפִּיתָא"
-	},
+	"sefariaHeadword": "תּוּרְפִּיתָא",
+	"headwords": [
+		{
+			"text": "תּוּרְפִּיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00279",
-	"slug": "קוזמיין",
-	"headword": {
-		"text": "קוזמיין"
-	},
+	"sefariaHeadword": "קוזמיין",
+	"headwords": [
+		{
+			"text": "קוזמיין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1325,
 		"column": "b"

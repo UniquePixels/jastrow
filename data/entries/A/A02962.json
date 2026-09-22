@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02962",
-	"slug": "ארבל-2",
-	"headword": {
-		"text": "אַרְבֵּל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְבֵּל II",
+	"headwords": [
+		{
+			"text": "אַרְבֵּל",
+			"homograph": 2
+		},
 		{
 			"text": "רְבַל"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 114,
 		"column": "a"

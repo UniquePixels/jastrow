@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01830",
-	"slug": "פריקי",
-	"headword": {
-		"text": "פְּרִיקֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרִיקֵי",
+	"headwords": [
+		{
+			"text": "פְּרִיקֵי"
+		},
 		{
 			"text": "פְּרִיקְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1228,
 		"column": "a"

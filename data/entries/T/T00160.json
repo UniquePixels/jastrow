@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00160",
-	"slug": "רגגתא",
-	"headword": {
-		"text": "רְגִגְתָּא"
-	},
+	"sefariaHeadword": "רְגִגְתָּא",
+	"headwords": [
+		{
+			"text": "רְגִגְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1447,
 		"column": "a"

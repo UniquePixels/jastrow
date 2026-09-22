@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00393",
-	"slug": "תחתון",
-	"headword": {
-		"text": "תַּחְתּוֹן"
-	},
+	"sefariaHeadword": "תַּחְתּוֹן",
+	"headwords": [
+		{
+			"text": "תַּחְתּוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "b"

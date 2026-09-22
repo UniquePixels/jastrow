@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01296",
-	"slug": "ערדא",
-	"headword": {
-		"text": "עַרְדָּא"
-	},
+	"sefariaHeadword": "עַרְדָּא",
+	"headwords": [
+		{
+			"text": "עַרְדָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "a"

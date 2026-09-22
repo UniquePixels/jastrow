@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01621",
-	"slug": "מלקחים",
-	"headword": {
-		"text": "מֶלְקָחַיִם"
-	},
+	"sefariaHeadword": "מֶלְקָחַיִם",
+	"headwords": [
+		{
+			"text": "מֶלְקָחַיִם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 793,
 		"column": "b"

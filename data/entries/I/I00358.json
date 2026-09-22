@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00358",
-	"slug": "טיכוס",
-	"headword": {
-		"text": "טִיכּוּס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִיכּוּס",
+	"headwords": [
+		{
+			"text": "טִיכּוּס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 531,
 		"column": "b"

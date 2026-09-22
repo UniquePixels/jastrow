@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00562",
-	"slug": "מועיל",
-	"headword": {
-		"text": "מוֹעִיל"
-	},
+	"sefariaHeadword": "מוֹעִיל",
+	"headwords": [
+		{
+			"text": "מוֹעִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "a"

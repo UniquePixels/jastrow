@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00480",
-	"slug": "זלוחאה",
-	"headword": {
-		"text": "זְלוֹחאָה"
-	},
+	"sefariaHeadword": "זְלוֹחאָה",
+	"headwords": [
+		{
+			"text": "זְלוֹחאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

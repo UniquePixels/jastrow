@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00561",
-	"slug": "כימתא",
-	"headword": {
-		"text": "כִּימְתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּימְתָא",
+	"headwords": [
+		{
+			"text": "כִּימְתָא"
+		},
 		{
 			"text": "כִּימָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "a"

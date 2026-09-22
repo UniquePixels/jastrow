@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01231",
-	"slug": "סניגור",
-	"headword": {
-		"text": "סְנֵיגוֹר"
-	},
+	"sefariaHeadword": "סְנֵיגוֹר",
+	"headwords": [
+		{
+			"text": "סְנֵיגוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "a"

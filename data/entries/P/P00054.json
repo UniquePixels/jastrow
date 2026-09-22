@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00054",
-	"slug": "עבירתא",
-	"headword": {
-		"text": "עֲבֵירְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲבֵירְתָּא",
+	"headwords": [
 		{
-			"text": "עֲבֵרְ׳"
+			"text": "עֲבֵירְתָּא"
+		},
+		{
+			"text": "עֲבֵרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1038,
 		"column": "a"

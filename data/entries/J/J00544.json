@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00544",
-	"slug": "יצף-2",
-	"headword": {
-		"text": "יָצַף"
-	},
+	"sefariaHeadword": "יָצַף",
+	"headwords": [
+		{
+			"text": "יָצַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 589,
 		"column": "b"

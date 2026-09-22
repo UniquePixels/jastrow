@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00077",
-	"slug": "חבירא",
-	"headword": {
-		"text": "חֲבִירָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבִירָא",
+	"headwords": [
 		{
-			"text": "חַבִּ׳"
+			"text": "חֲבִירָא"
+		},
+		{
+			"text": "חַבִּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 419,
 		"column": "b"

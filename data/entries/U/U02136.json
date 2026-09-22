@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02136",
-	"slug": "שתקאי",
-	"headword": {
-		"text": "שַׁתְקָאֵי"
-	},
+	"sefariaHeadword": "שַׁתְקָאֵי",
+	"headwords": [
+		{
+			"text": "שַׁתְקָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1640,
 		"column": "b"

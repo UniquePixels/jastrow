@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00178",
-	"slug": "מגירתא",
-	"headword": {
-		"text": "מֵגִירְתָּא"
-	},
+	"sefariaHeadword": "מֵגִירְתָּא",
+	"headwords": [
+		{
+			"text": "מֵגִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "b"

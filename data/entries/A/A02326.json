@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02326",
-	"slug": "אסדא",
-	"headword": {
-		"text": "אַסְדָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסְדָּא",
+	"headwords": [
+		{
+			"text": "אַסְדָּא"
+		},
 		{
 			"text": "אַסְדָּה"
 		},
@@ -12,6 +13,7 @@
 			"text": "סָדָה"
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 89,
 		"column": "a"

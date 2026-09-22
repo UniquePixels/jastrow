@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01350",
-	"slug": "כתובה",
-	"headword": {
-		"text": "כְּתוּבָּה"
-	},
+	"sefariaHeadword": "כְּתוּבָּה",
+	"headwords": [
+		{
+			"text": "כְּתוּבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "a"

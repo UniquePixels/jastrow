@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00216",
-	"slug": "פולוסמוסטוס",
-	"headword": {
-		"text": "פולוסמוסטוס"
-	},
+	"sefariaHeadword": "פולוסמוסטוס",
+	"headwords": [
+		{
+			"text": "פולוסמוסטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1141,
 		"column": "a"

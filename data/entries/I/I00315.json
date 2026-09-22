@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00315",
-	"slug": "טיגרוס",
-	"headword": {
-		"text": "טִיגְרוֹס"
-	},
+	"sefariaHeadword": "טִיגְרוֹס",
+	"headwords": [
+		{
+			"text": "טִיגְרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "a"

@@ -1,20 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "A02402",
-	"slug": "אסטרולוגוס",
-	"headword": {
-		"text": "אַסְטְרוֹלוֹגוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַסְטְרוֹלוֹגוֹס",
+	"headwords": [
 		{
-			"text": "אַצְ׳"
+			"text": "אַסְטְרוֹלוֹגוֹס"
 		},
 		{
-			"text": "אִיסְ׳"
+			"text": "אַצְ׳",
+			"partial": true
 		},
 		{
-			"text": "אִיצְ׳"
+			"text": "אִיסְ׳",
+			"partial": true
+		},
+		{
+			"text": "אִיצְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2}, {3})",
 	"page": {
 		"number": 91,
 		"column": "a"

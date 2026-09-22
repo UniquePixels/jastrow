@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01414",
-	"slug": "ספקלריא",
-	"headword": {
-		"text": "סְפַקְלַרְיָא"
-	},
+	"sefariaHeadword": "סְפַקְלַרְיָא",
+	"headwords": [
+		{
+			"text": "סְפַקְלַרְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1017,
 		"column": "a"

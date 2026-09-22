@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01832",
-	"slug": "חשיבותא",
-	"headword": {
-		"text": "חֲשִׁיבוּתָא"
-	},
+	"sefariaHeadword": "חֲשִׁיבוּתָא",
+	"headwords": [
+		{
+			"text": "חֲשִׁיבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 510,
 		"column": "a"

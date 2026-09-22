@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00237",
-	"slug": "חובא-3",
-	"headword": {
-		"text": "חוּבָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חוּבָּא I",
+	"headwords": [
+		{
+			"text": "חוּבָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 429,
 		"column": "a"

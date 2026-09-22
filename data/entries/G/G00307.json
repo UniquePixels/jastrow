@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00307",
-	"slug": "זיווע",
-	"headword": {
-		"text": "זִיוּוּעַ"
-	},
+	"sefariaHeadword": "זִיוּוּעַ",
+	"headwords": [
+		{
+			"text": "זִיוּוּעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 392,
 		"column": "b"

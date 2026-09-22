@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02470",
-	"slug": "אסנגרין",
-	"headword": {
-		"text": "אסנגרין"
-	},
+	"sefariaHeadword": "אסנגרין",
+	"headwords": [
+		{
+			"text": "אסנגרין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 95,
 		"column": "a"

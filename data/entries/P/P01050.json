@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01050",
-	"slug": "עססיות",
-	"headword": {
-		"text": "עֲסָסִיּוֹת"
-	},
+	"sefariaHeadword": "עֲסָסִיּוֹת",
+	"headwords": [
+		{
+			"text": "עֲסָסִיּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1098,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

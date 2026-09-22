@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00275",
-	"slug": "סוור",
-	"headword": {
-		"text": "סַוָּור"
-	},
+	"sefariaHeadword": "סַוָּור",
+	"headwords": [
+		{
+			"text": "סַוָּור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00125",
-	"slug": "עדוא",
-	"headword": {
-		"text": "עַדְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַדְוָא",
+	"headwords": [
+		{
+			"text": "עַדְוָא"
+		},
 		{
 			"text": "עַדְוָוא"
 		},
 		{
-			"text": "עִדְ׳"
+			"text": "עִדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1043,
 		"column": "a"

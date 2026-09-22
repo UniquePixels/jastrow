@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02880",
-	"slug": "אצל-1",
-	"headword": {
-		"text": "אֲצַל"
-	},
+	"sefariaHeadword": "אֲצַל",
+	"headwords": [
+		{
+			"text": "אֲצַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "a"

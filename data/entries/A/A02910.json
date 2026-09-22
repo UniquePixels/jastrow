@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02910",
-	"slug": "אקטרתא",
-	"headword": {
-		"text": "אַקְטַרְתָּא"
-	},
+	"sefariaHeadword": "אַקְטַרְתָּא",
+	"headwords": [
+		{
+			"text": "אַקְטַרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 112,
 		"column": "b"

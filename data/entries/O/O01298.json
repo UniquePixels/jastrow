@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01298",
-	"slug": "סער-6",
-	"headword": {
-		"text": "סְעָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְעָר",
+	"headwords": [
+		{
+			"text": "סְעָר"
+		},
 		{
 			"text": "סַעַר"
 		},
@@ -13,6 +14,7 @@
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1010,
 		"column": "a"

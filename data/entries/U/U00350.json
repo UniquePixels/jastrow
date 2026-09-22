@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00350",
-	"slug": "שווכא",
-	"headword": {
-		"text": "שַׂוְוכָּא"
-	},
+	"sefariaHeadword": "שַׂוְוכָּא",
+	"headwords": [
+		{
+			"text": "שַׂוְוכָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1530,
 		"column": "a"

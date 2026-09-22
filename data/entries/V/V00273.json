@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00273",
-	"slug": "תור-3",
-	"headword": {
-		"text": "תּוֹר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תּוֹר I",
+	"headwords": [
+		{
+			"text": "תּוֹר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1656,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01006",
-	"slug": "תריתאה",
-	"headword": {
-		"text": "תריתאה"
-	},
+	"sefariaHeadword": "תריתאה",
+	"headwords": [
+		{
+			"text": "תריתאה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

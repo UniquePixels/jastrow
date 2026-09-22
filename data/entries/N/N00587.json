@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00587",
-	"slug": "נטרון",
-	"headword": {
-		"text": "נִטְרוֹן"
-	},
+	"sefariaHeadword": "נִטְרוֹן",
+	"headwords": [
+		{
+			"text": "נִטְרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 901,
 		"column": "b"

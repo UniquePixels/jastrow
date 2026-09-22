@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00399",
-	"slug": "בושת",
-	"headword": {
-		"text": "בּוֹשֶׁת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוֹשֶׁת",
+	"headwords": [
+		{
+			"text": "בּוֹשֶׁת"
+		},
 		{
 			"text": "בּשֶׁת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 151,
 		"column": "b"

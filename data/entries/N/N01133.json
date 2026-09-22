@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01133",
-	"slug": "נצל-3",
-	"headword": {
-		"text": "נֵצֶל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵצֶל",
+	"headwords": [
 		{
-			"text": "נֵי׳"
+			"text": "נֵצֶל"
+		},
+		{
+			"text": "נֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 929,
 		"column": "a"

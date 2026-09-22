@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00702",
-	"slug": "מותנא-2",
-	"headword": {
-		"text": "מוֹתְנָא"
-	},
+	"sefariaHeadword": "מוֹתְנָא",
+	"headwords": [
+		{
+			"text": "מוֹתְנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

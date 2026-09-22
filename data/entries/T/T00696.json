@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00696",
-	"slug": "ריקודא",
-	"headword": {
-		"text": "רִיקּוּדָא"
-	},
+	"sefariaHeadword": "רִיקּוּדָא",
+	"headwords": [
+		{
+			"text": "רִיקּוּדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "a"

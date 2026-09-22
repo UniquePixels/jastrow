@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01521",
-	"slug": "פקריסין",
-	"headword": {
-		"text": "פַּקְרִיסִין"
-	},
+	"sefariaHeadword": "פַּקְרִיסִין",
+	"headwords": [
+		{
+			"text": "פַּקְרִיסִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1212,
 		"column": "b"

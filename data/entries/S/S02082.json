@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02082",
-	"slug": "קרירטין",
-	"headword": {
-		"text": "קרירטין"
-	},
+	"sefariaHeadword": "קרירטין",
+	"headwords": [
+		{
+			"text": "קרירטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1421,
 		"column": "b"

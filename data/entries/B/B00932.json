@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00932",
-	"slug": "בן",
-	"headword": {
-		"text": "בֵּן"
-	},
+	"sefariaHeadword": "בֵּן",
+	"headwords": [
+		{
+			"text": "בֵּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

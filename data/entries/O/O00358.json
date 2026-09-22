@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00358",
-	"slug": "סומקתי",
-	"headword": {
-		"text": "סוּמַּקְתִּי"
-	},
+	"sefariaHeadword": "סוּמַּקְתִּי",
+	"headwords": [
+		{
+			"text": "סוּמַּקְתִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 966,
 		"column": "b"

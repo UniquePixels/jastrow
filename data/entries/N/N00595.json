@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00595",
-	"slug": "ניאב",
-	"headword": {
-		"text": "נִיאֵב",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*נִיאֵב",
+	"headwords": [
+		{
+			"text": "נִיאֵב",
+			"reconstructed": true
+		},
 		{
 			"text": "נֵיאוּב"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 902,
 		"column": "a"

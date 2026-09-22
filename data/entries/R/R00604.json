@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00604",
-	"slug": "צנא-1",
-	"headword": {
-		"text": "צִנָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִנָּא",
+	"headwords": [
+		{
+			"text": "צִנָּא"
+		},
 		{
 			"text": "צְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1290,
 		"column": "a"

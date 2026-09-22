@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00406",
-	"slug": "קומקומסא",
-	"headword": {
-		"text": "קוּמְקוּמְסָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קוּמְקוּמְסָא",
+	"headwords": [
+		{
+			"text": "קוּמְקוּמְסָא"
+		},
 		{
 			"text": "קוּמְקְמָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קוּמְקְמוּסָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1334,
 		"column": "a"

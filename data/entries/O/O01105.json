@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01105",
-	"slug": "סמלון",
-	"headword": {
-		"text": "סִמְלוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִמְלוֹן",
+	"headwords": [
 		{
-			"text": "סִי׳"
+			"text": "סִמְלוֹן"
+		},
+		{
+			"text": "סִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1002,
 		"column": "a"

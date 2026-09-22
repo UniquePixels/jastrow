@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01519",
-	"slug": "עשתונא",
-	"headword": {
-		"text": "עֶשְׁתּוֹנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֶשְׁתּוֹנָא",
+	"headwords": [
 		{
-			"text": "עִישְׁ׳"
+			"text": "עֶשְׁתּוֹנָא"
+		},
+		{
+			"text": "עִישְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1128,
 		"column": "a"

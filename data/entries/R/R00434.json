@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00434",
-	"slug": "ציצא",
-	"headword": {
-		"text": "צִיצָא"
-	},
+	"sefariaHeadword": "צִיצָא",
+	"headwords": [
+		{
+			"text": "צִיצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1279,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "P00384",
-	"slug": "עותר",
-	"headword": {
-		"text": "עוֹתַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹתַר",
+	"headwords": [
+		{
+			"text": "עוֹתַר"
+		},
 		{
 			"text": "עוּתְרָא"
 		},
 		{
-			"text": "עָתְ׳"
+			"text": "עָתְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1060,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00421",
-	"slug": "כותה",
-	"headword": {
-		"text": "כּוּתָה"
-	},
+	"sefariaHeadword": "כּוּתָה",
+	"headwords": [
+		{
+			"text": "כּוּתָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 627,
 		"column": "a"

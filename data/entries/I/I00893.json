@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00893",
-	"slug": "טרקווינוס",
-	"headword": {
-		"text": "טרקווינוס"
-	},
+	"sefariaHeadword": "טרקווינוס",
+	"headwords": [
+		{
+			"text": "טרקווינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 557,
 		"column": "b"

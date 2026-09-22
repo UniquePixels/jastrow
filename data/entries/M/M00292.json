@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00292",
-	"slug": "מדין-3",
-	"headword": {
-		"text": "מִדְיָן",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מִדְיָן I",
+	"headwords": [
+		{
+			"text": "מִדְיָן",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 734,
 		"column": "a"

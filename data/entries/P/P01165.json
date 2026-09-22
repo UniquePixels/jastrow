@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01165",
-	"slug": "עקור",
-	"headword": {
-		"text": "עִקּוּר"
-	},
+	"sefariaHeadword": "עִקּוּר",
+	"headwords": [
+		{
+			"text": "עִקּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

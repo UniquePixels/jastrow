@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01197",
-	"slug": "קירצוד",
-	"headword": {
-		"text": "קירצוד"
-	},
+	"sefariaHeadword": "קירצוד",
+	"headwords": [
+		{
+			"text": "קירצוד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

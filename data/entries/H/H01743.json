@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01743",
-	"slug": "חרפה",
-	"headword": {
-		"text": "חֶרְפָּה"
-	},
+	"sefariaHeadword": "חֶרְפָּה",
+	"headwords": [
+		{
+			"text": "חֶרְפָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 505,
 		"column": "a"

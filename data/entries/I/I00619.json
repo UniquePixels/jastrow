@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00619",
-	"slug": "טען-6",
-	"headword": {
-		"text": "טֹעַן"
-	},
+	"sefariaHeadword": "טֹעַן",
+	"headwords": [
+		{
+			"text": "טֹעַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 545,
 		"column": "a"

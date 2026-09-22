@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00855",
-	"slug": "נם",
-	"headword": {
-		"text": "נָם"
-	},
+	"sefariaHeadword": "נָם",
+	"headwords": [
+		{
+			"text": "נָם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 912,
 		"column": "b"

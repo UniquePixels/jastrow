@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00357",
-	"slug": "חולסית",
-	"headword": {
-		"text": "חוֹלָסִית"
-	},
+	"sefariaHeadword": "חוֹלָסִית",
+	"headwords": [
+		{
+			"text": "חוֹלָסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

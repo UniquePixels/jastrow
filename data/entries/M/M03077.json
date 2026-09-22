@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03077",
-	"slug": "מתלהם",
-	"headword": {
-		"text": "מִתְלַהֵם"
-	},
+	"sefariaHeadword": "מִתְלַהֵם",
+	"headwords": [
+		{
+			"text": "מִתְלַהֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 863,
 		"column": "a"

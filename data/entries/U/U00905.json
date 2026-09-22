@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00905",
-	"slug": "שייע",
-	"headword": {
-		"text": "שְׁיַיע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁיַיע",
+	"headwords": [
+		{
+			"text": "שְׁיַיע"
+		},
 		{
 			"text": "שְׁיָיעָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "b"

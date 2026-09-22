@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S00992",
-	"slug": "קילקלי",
-	"headword": {
-		"text": "קילקלי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קילקלי",
+	"headwords": [
+		{
+			"text": "קילקלי"
+		},
 		{
 			"text": "קילקלים"
 		},
@@ -12,6 +13,7 @@
 			"text": "קילקלין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1361,
 		"column": "b"

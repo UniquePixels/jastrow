@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01693",
-	"slug": "מן-2",
-	"headword": {
-		"text": "מִן",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִן ²",
+	"headwords": [
+		{
+			"text": "מִן",
+			"disambiguator": 2
+		},
 		{
 			"text": "מִין"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 796,
 		"column": "a"

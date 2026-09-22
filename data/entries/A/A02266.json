@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02266",
-	"slug": "אנפא",
-	"headword": {
-		"text": "אַנְפָּא"
-	},
+	"sefariaHeadword": "אַנְפָּא",
+	"headwords": [
+		{
+			"text": "אַנְפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01098",
-	"slug": "אטמא",
-	"headword": {
-		"text": "אַטְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַטְמָא",
+	"headwords": [
+		{
+			"text": "אַטְמָא"
+		},
 		{
 			"text": "אִיטְמָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 43,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00451",
-	"slug": "שומנית",
-	"headword": {
-		"text": "שׁוּמָנִית"
-	},
+	"sefariaHeadword": "שׁוּמָנִית",
+	"headwords": [
+		{
+			"text": "שׁוּמָנִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1536,
 		"column": "b"

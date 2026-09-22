@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01508",
-	"slug": "סר-2",
-	"headword": {
-		"text": "סָר"
-	},
+	"sefariaHeadword": "סָר",
+	"headwords": [
+		{
+			"text": "סָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "b"

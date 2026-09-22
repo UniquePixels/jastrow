@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01099",
-	"slug": "מידק",
-	"headword": {
-		"text": "מֵידַק"
-	},
+	"sefariaHeadword": "מֵידַק",
+	"headwords": [
+		{
+			"text": "מֵידַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 771,
 		"column": "b"

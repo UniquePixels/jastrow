@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00660",
-	"slug": "חיבתא",
-	"headword": {
-		"text": "חִיבְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיבְּתָא",
+	"headwords": [
 		{
-			"text": "חִבְּ׳"
+			"text": "חִיבְּתָא"
+		},
+		{
+			"text": "חִבְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 451,
 		"column": "a"

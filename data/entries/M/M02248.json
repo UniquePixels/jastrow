@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02248",
-	"slug": "מפרנק",
-	"headword": {
-		"text": "מְפַרְנַק"
-	},
+	"sefariaHeadword": "מְפַרְנַק",
+	"headwords": [
+		{
+			"text": "מְפַרְנַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 821,
 		"column": "b"

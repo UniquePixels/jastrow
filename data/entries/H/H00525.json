@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00525",
-	"slug": "חזי-1",
-	"headword": {
-		"text": "חזי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חזי",
+	"headwords": [
+		{
+			"text": "חזי"
+		},
 		{
 			"text": "חָזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 442,
 		"column": "b"

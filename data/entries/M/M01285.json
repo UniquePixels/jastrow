@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01285",
-	"slug": "מיקל",
-	"headword": {
-		"text": "מֵיקֵל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מֵיקֵל",
+	"headwords": [
+		{
+			"text": "מֵיקֵל"
+		},
 		{
 			"text": "מֵיקַל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "b"

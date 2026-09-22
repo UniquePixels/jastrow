@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02096",
-	"slug": "אנבקראות",
-	"headword": {
-		"text": "אנבקראות"
-	},
+	"sefariaHeadword": "אנבקראות",
+	"headwords": [
+		{
+			"text": "אנבקראות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

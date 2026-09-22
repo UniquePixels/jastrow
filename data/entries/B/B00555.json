@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00555",
-	"slug": "בידין",
-	"headword": {
-		"text": "בִּידִּין"
-	},
+	"sefariaHeadword": "בִּידִּין",
+	"headwords": [
+		{
+			"text": "בִּידִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 159,
 		"column": "b"

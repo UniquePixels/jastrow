@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03143",
-	"slug": "ארכידיקי",
-	"headword": {
-		"text": "ארכידיקי"
-	},
+	"sefariaHeadword": "ארכידיקי",
+	"headwords": [
+		{
+			"text": "ארכידיקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 121,
 		"column": "b"

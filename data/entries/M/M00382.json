@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00382",
-	"slug": "מהרה",
-	"headword": {
-		"text": "מְהֵרָה"
-	},
+	"sefariaHeadword": "מְהֵרָה",
+	"headwords": [
+		{
+			"text": "מְהֵרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "b"

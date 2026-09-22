@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00650",
-	"slug": "סיכנא",
-	"headword": {
-		"text": "סִיכְנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכְנָא",
+	"headwords": [
+		{
+			"text": "סִיכְנָא"
+		},
 		{
 			"text": "סִיכְנִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 979,
 		"column": "b"

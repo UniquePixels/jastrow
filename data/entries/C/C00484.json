@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00484",
-	"slug": "גורגנא",
-	"headword": {
-		"text": "גּוּרְגָּנָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גּוּרְגָּנָא",
+	"headwords": [
+		{
+			"text": "גּוּרְגָּנָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 226,
 		"column": "b"

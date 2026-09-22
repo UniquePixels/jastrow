@@ -1,19 +1,22 @@
 {
+	"schemaVersion": 2,
 	"id": "R00058",
-	"slug": "צבע-6",
-	"headword": {
-		"text": "צֶבַע",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צֶבַע ²",
+	"headwords": [
+		{
+			"text": "צֶבַע",
+			"disambiguator": 2
+		},
 		{
 			"text": "צִבְעָא"
 		},
 		{
 			"text": "צִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2} I",
 	"page": {
 		"number": 1259,
 		"column": "b"

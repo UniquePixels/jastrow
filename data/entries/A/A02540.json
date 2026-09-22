@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02540",
-	"slug": "אסקותא",
-	"headword": {
-		"text": "אַסָּקוּתָא"
-	},
+	"sefariaHeadword": "אַסָּקוּתָא",
+	"headwords": [
+		{
+			"text": "אַסָּקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 97,
 		"column": "b"

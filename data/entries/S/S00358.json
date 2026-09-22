@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00358",
-	"slug": "קולסיתא",
-	"headword": {
-		"text": "קוּלְסִיתָא"
-	},
+	"sefariaHeadword": "קוּלְסִיתָא",
+	"headwords": [
+		{
+			"text": "קוּלְסִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1329,
 		"column": "a"

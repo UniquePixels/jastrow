@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01935",
-	"slug": "אל״ף",
-	"headword": {
-		"text": "אל״ף"
-	},
+	"sefariaHeadword": "אל\"ף",
+	"headwords": [
+		{
+			"text": "אל״ף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 72,
 		"column": "b"

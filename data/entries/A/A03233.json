@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A03233",
-	"slug": "ארקא-1",
-	"headword": {
-		"text": "אַרְקָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "אַרְקָא I",
+	"headwords": [
+		{
+			"text": "אַרְקָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 125,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01447",
-	"slug": "שמותית",
-	"headword": {
-		"text": "שַׁמּוּתִית"
-	},
+	"sefariaHeadword": "שַׁמּוּתִית",
+	"headwords": [
+		{
+			"text": "שַׁמּוּתִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1593,
 		"column": "b"

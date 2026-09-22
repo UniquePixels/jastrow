@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02065",
-	"slug": "אמרה",
-	"headword": {
-		"text": "אִמְרָה"
-	},
+	"sefariaHeadword": "אִמְרָה",
+	"headwords": [
+		{
+			"text": "אִמְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 79,
 		"column": "a"

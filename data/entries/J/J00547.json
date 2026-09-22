@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00547",
-	"slug": "יצק",
-	"headword": {
-		"text": "יָצַק"
-	},
+	"sefariaHeadword": "יָצַק",
+	"headwords": [
+		{
+			"text": "יָצַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 590,
 		"column": "a"

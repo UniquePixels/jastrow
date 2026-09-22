@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00848",
-	"slug": "טרסוס",
-	"headword": {
-		"text": "טַרְסוֹס"
-	},
+	"sefariaHeadword": "טַרְסוֹס",
+	"headwords": [
+		{
+			"text": "טַרְסוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

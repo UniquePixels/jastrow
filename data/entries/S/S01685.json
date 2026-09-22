@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01685",
-	"slug": "קסתא",
-	"headword": {
-		"text": "קִסְתָּא"
-	},
+	"sefariaHeadword": "קִסְתָּא",
+	"headwords": [
+		{
+			"text": "קִסְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

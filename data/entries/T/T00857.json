@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00857",
-	"slug": "רסן",
-	"headword": {
-		"text": "רֶסֶן"
-	},
+	"sefariaHeadword": "רֶסֶן",
+	"headwords": [
+		{
+			"text": "רֶסֶן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1484,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00771",
-	"slug": "כלנידייא",
-	"headword": {
-		"text": "כְּלָנִידְיָיא"
-	},
+	"sefariaHeadword": "כְּלָנִידְיָיא",
+	"headwords": [
+		{
+			"text": "כְּלָנִידְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03029",
-	"slug": "מתונה",
-	"headword": {
-		"text": "מְתוּנָה"
-	},
+	"sefariaHeadword": "מְתוּנָה",
+	"headwords": [
+		{
+			"text": "מְתוּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "b"

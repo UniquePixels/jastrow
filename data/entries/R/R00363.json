@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00363",
-	"slug": "צילצול",
-	"headword": {
-		"text": "צִילְצוּל"
-	},
+	"sefariaHeadword": "צִילְצוּל",
+	"headwords": [
+		{
+			"text": "צִילְצוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1277,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00326",
-	"slug": "חולא-1",
-	"headword": {
-		"text": "חוּלָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּלָּא",
+	"headwords": [
+		{
+			"text": "חוּלָּא"
+		},
 		{
 			"text": "חוֹלָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 433,
 		"column": "a"

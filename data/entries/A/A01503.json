@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01503",
-	"slug": "איסקריטורי",
-	"headword": {
-		"text": "איסקריטורי"
-	},
+	"sefariaHeadword": "איסקריטורי",
+	"headwords": [
+		{
+			"text": "איסקריטורי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 57,
 		"column": "a"

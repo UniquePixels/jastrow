@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01248",
-	"slug": "גרגינא",
-	"headword": {
-		"text": "גַּרְגִּינָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּרְגִּינָא",
+	"headwords": [
+		{
+			"text": "גַּרְגִּינָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 264,
 		"column": "b"

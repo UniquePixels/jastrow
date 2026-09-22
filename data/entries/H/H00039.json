@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00039",
-	"slug": "חבושא-2",
-	"headword": {
-		"text": "חֲבוּשָׁא"
-	},
+	"sefariaHeadword": "חֲבוּשָׁא",
+	"headwords": [
+		{
+			"text": "חֲבוּשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 417,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00161",
-	"slug": "סגע",
-	"headword": {
-		"text": "סְגַע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגַע",
+	"headwords": [
+		{
+			"text": "סְגַע"
+		},
 		{
 			"text": "סְגִיעַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 955,
 		"column": "b"

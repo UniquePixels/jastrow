@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00773",
-	"slug": "הפתיק",
-	"headword": {
-		"text": "הֶפְתֵּיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶפְתֵּיק",
+	"headwords": [
+		{
+			"text": "הֶפְתֵּיק"
+		},
 		{
 			"text": "הֶפְתֵּיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 363,
 		"column": "b"

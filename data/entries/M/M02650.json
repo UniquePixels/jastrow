@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02650",
-	"slug": "מרי-1",
-	"headword": {
-		"text": "מָרֵי"
-	},
+	"sefariaHeadword": "מָרֵי",
+	"headwords": [
+		{
+			"text": "מָרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 841,
 		"column": "b"

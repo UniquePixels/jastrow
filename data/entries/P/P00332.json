@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00332",
-	"slug": "עוקל",
-	"headword": {
-		"text": "עוקל"
-	},
+	"sefariaHeadword": "עוקל",
+	"headwords": [
+		{
+			"text": "עוקל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1056,
 		"column": "b"

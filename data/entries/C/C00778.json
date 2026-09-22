@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00778",
-	"slug": "גיסה",
-	"headword": {
-		"text": "גִּיסָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיסָה",
+	"headwords": [
+		{
+			"text": "גִּיסָה"
+		},
 		{
 			"text": "גִּיזָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 240,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01785",
-	"slug": "שפנינא",
-	"headword": {
-		"text": "שַׁפְנִינָא"
-	},
+	"sefariaHeadword": "שַׁפְנִינָא",
+	"headwords": [
+		{
+			"text": "שַׁפְנִינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1618,
 		"column": "a"

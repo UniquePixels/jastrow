@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00109",
-	"slug": "נברקוס",
-	"headword": {
-		"text": "נברקוס"
-	},
+	"sefariaHeadword": "נברקוס",
+	"headwords": [
+		{
+			"text": "נברקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 871,
 		"column": "a"

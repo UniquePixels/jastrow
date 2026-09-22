@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00576",
-	"slug": "אווגיניסטאטי",
-	"headword": {
-		"text": "אֶוְוגִּינִיסְטָאטֵי"
-	},
+	"sefariaHeadword": "אֶוְוגִּינִיסְטָאטֵי",
+	"headwords": [
+		{
+			"text": "אֶוְוגִּינִיסְטָאטֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

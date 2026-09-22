@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00611",
-	"slug": "לעיטה",
-	"headword": {
-		"text": "לְעִיטָה"
-	},
+	"sefariaHeadword": "לְעִיטָה",
+	"headwords": [
+		{
+			"text": "לְעִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "b"

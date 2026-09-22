@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02883",
-	"slug": "אצלחותא",
-	"headword": {
-		"text": "אַצְלָחוּתָא"
-	},
+	"sefariaHeadword": "אַצְלָחוּתָא",
+	"headwords": [
+		{
+			"text": "אַצְלָחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 111,
 		"column": "b"

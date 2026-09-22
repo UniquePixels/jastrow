@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "G00362",
-	"slug": "זימה-2",
-	"headword": {
-		"text": "זִימָּה",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִימָּה ²",
+	"headwords": [
+		{
+			"text": "זִימָּה",
+			"disambiguator": 2
+		},
 		{
 			"text": "זִמָּה",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 394,
 		"column": "b"

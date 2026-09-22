@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00784",
-	"slug": "טריחותא",
-	"headword": {
-		"text": "טְרִיחוּתָא"
-	},
+	"sefariaHeadword": "טְרִיחוּתָא",
+	"headwords": [
+		{
+			"text": "טְרִיחוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 553,
 		"column": "a"

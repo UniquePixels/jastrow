@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01133",
-	"slug": "גניב",
-	"headword": {
-		"text": "גְּנֵיב־"
-	},
+	"sefariaHeadword": "גְּנֵיב־",
+	"headwords": [
+		{
+			"text": "גְּנֵיב־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 259,
 		"column": "a"

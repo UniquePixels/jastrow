@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03427",
-	"slug": "אתמלוכא",
-	"headword": {
-		"text": "אִתְמְלוּכָא"
-	},
+	"sefariaHeadword": "אִתְמְלוּכָא",
+	"headwords": [
+		{
+			"text": "אִתְמְלוּכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 133,
 		"column": "b"

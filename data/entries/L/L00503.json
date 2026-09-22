@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00503",
-	"slug": "ליעו",
-	"headword": {
-		"text": "לֵיעוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵיעוּ",
+	"headwords": [
+		{
+			"text": "לֵיעוּ"
+		},
 		{
 			"text": "לֵיעוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "a"

@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01228",
-	"slug": "ברזל-2",
-	"headword": {
-		"text": "בַּרְזֶל",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּרְזֶל ²",
+	"headwords": [
+		{
+			"text": "בַּרְזֶל",
+			"disambiguator": 2
+		},
 		{
 			"text": "בַּרְזְלָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 191,
 		"column": "b"

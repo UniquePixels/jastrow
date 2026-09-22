@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00440",
-	"slug": "דחש",
-	"headword": {
-		"text": "דחש"
-	},
+	"sefariaHeadword": "דחש",
+	"headwords": [
+		{
+			"text": "דחש"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 293,
 		"column": "b"

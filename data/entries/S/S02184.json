@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02184",
-	"slug": "קרקר-4",
-	"headword": {
-		"text": "קַרְקַר"
-	},
+	"sefariaHeadword": "קַרְקַר",
+	"headwords": [
+		{
+			"text": "קַרְקַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1427,
 		"column": "a"

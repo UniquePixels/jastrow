@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01112",
-	"slug": "כרוז-4",
-	"headword": {
-		"text": "כָּרוֹז",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרוֹז ²",
+	"headwords": [
+		{
+			"text": "כָּרוֹז",
+			"disambiguator": 2
+		},
 		{
 			"text": "כְּרוּזָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 665,
 		"column": "a"

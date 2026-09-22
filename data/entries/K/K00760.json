@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00760",
-	"slug": "כלל-3",
-	"headword": {
-		"text": "כְּלָל"
-	},
+	"sefariaHeadword": "כְּלָל",
+	"headwords": [
+		{
+			"text": "כְּלָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 644,
 		"column": "a"

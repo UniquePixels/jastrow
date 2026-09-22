@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00980",
-	"slug": "מטול-2",
-	"headword": {
-		"text": "מָטוּל",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָטוּל II",
+	"headwords": [
+		{
+			"text": "מָטוּל",
+			"homograph": 2
+		},
 		{
 			"text": "מַטּוּל",
 			"homograph": 1
 		}
 	],
+	"display": "{0} II, ({1} I)",
 	"page": {
 		"number": 766,
 		"column": "b"

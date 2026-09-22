@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01021",
-	"slug": "פלטיר",
-	"headword": {
-		"text": "פַּלְטֵיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְטֵיר",
+	"headwords": [
+		{
+			"text": "פַּלְטֵיר"
+		},
 		{
 			"text": "פַּלְטֵירָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּלְטֵירִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1180,
 		"column": "a"

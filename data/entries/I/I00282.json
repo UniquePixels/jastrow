@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00282",
-	"slug": "טטרג",
-	"headword": {
-		"text": "טַטְרֵג",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טַטְרֵג",
+	"headwords": [
+		{
+			"text": "טַטְרֵג",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 528,
 		"column": "b"

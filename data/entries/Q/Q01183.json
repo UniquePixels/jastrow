@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01183",
-	"slug": "פנטפולוטי",
-	"headword": {
-		"text": "פנטפולוטי"
-	},
+	"sefariaHeadword": "פנטפולוטי",
+	"headwords": [
+		{
+			"text": "פנטפולוטי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"

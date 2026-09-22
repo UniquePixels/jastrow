@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "E00275",
-	"slug": "הורה-1",
-	"headword": {
-		"text": "הוֹרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "הוֹרָה I",
+	"headwords": [
+		{
+			"text": "הוֹרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 340,
 		"column": "b"

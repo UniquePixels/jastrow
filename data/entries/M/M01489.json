@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M01489",
-	"slug": "מלה",
-	"headword": {
-		"text": "מִלָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלָּה",
+	"headwords": [
 		{
-			"text": "מִי׳"
+			"text": "מִלָּה"
+		},
+		{
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 787,
 		"column": "a"

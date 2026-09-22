@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00590",
-	"slug": "יקשן",
-	"headword": {
-		"text": "יַקְשָׁן"
-	},
+	"sefariaHeadword": "יַקְשָׁן",
+	"headwords": [
+		{
+			"text": "יַקְשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "a"

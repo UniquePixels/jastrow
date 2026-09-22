@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00143",
-	"slug": "צהר-2",
-	"headword": {
-		"text": "צְהַר"
-	},
+	"sefariaHeadword": "צְהַר",
+	"headwords": [
+		{
+			"text": "צְהַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "a"

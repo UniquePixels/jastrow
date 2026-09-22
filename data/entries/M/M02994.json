@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02994",
-	"slug": "משתי-1",
-	"headword": {
-		"text": "מַשְׁתֵּי"
-	},
+	"sefariaHeadword": "מַשְׁתֵּי",
+	"headwords": [
+		{
+			"text": "מַשְׁתֵּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 859,
 		"column": "a"

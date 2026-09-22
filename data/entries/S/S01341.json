@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01341",
-	"slug": "קליסטרין",
-	"headword": {
-		"text": "קְלִיסְטְרִין"
-	},
+	"sefariaHeadword": "קְלִיסְטְרִין",
+	"headwords": [
+		{
+			"text": "קְלִיסְטְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1376,
 		"column": "b"

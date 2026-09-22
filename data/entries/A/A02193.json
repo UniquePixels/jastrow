@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02193",
-	"slug": "אנטיפי",
-	"headword": {
-		"text": "אַנְטִיפֵי"
-	},
+	"sefariaHeadword": "אַנְטִיפֵי",
+	"headwords": [
+		{
+			"text": "אַנְטִיפֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

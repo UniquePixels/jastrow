@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01415",
-	"slug": "גשם-1",
-	"headword": {
-		"text": "גָּשַׁם"
-	},
+	"sefariaHeadword": "גָּשַׁם",
+	"headwords": [
+		{
+			"text": "גָּשַׁם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 274,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00219",
-	"slug": "הוויה",
-	"headword": {
-		"text": "הֲוָויָה"
-	},
+	"sefariaHeadword": "הֲוָויָה",
+	"headwords": [
+		{
+			"text": "הֲוָויָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 338,
 		"column": "a"

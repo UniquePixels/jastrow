@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01856",
-	"slug": "אליל-2",
-	"headword": {
-		"text": "אֱלִיל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "אֱלִיל ²",
+	"headwords": [
+		{
+			"text": "אֱלִיל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 69,
 		"column": "a"

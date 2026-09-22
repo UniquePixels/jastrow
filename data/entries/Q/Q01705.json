@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01705",
-	"slug": "פרוסבלא",
-	"headword": {
-		"text": "פְּרוֹסְבְּלָא"
-	},
+	"sefariaHeadword": "פְּרוֹסְבְּלָא",
+	"headwords": [
+		{
+			"text": "פְּרוֹסְבְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1221,
 		"column": "a"

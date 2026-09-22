@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "K00627",
-	"slug": "כירי-3",
-	"headword": {
-		"text": "כִּירִי",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*כִּירִי II",
+	"headwords": [
+		{
+			"text": "כִּירִי",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 636,
 		"column": "b"

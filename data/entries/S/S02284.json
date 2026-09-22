@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02284",
-	"slug": "קתבי",
-	"headword": {
-		"text": "קַתְבִּי"
-	},
+	"sefariaHeadword": "קַתְבִּי",
+	"headwords": [
+		{
+			"text": "קַתְבִּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1434,
 		"column": "a"

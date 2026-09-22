@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00450",
-	"slug": "הינדבי",
-	"headword": {
-		"text": "הִינְדְּבִי"
-	},
+	"sefariaHeadword": "הִינְדְּבִי",
+	"headwords": [
+		{
+			"text": "הִינְדְּבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "a"

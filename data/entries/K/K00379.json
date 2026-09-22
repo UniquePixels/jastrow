@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00379",
-	"slug": "כורים",
-	"headword": {
-		"text": "כורים"
-	},
+	"sefariaHeadword": "כורים",
+	"headwords": [
+		{
+			"text": "כורים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 625,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00413",
-	"slug": "טיפוח",
-	"headword": {
-		"text": "טִיפּוּחַ"
-	},
+	"sefariaHeadword": "טִיפּוּחַ",
+	"headwords": [
+		{
+			"text": "טִיפּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

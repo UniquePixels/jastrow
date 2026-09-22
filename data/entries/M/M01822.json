@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01822",
-	"slug": "מס-1",
-	"headword": {
-		"text": "מַס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַס I",
+	"headwords": [
+		{
+			"text": "מַס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 803,
 		"column": "a"

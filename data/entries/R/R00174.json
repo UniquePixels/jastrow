@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00174",
-	"slug": "צווחתא",
-	"headword": {
-		"text": "צְוַוחְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְוַוחְתָּא",
+	"headwords": [
 		{
-			"text": "צְוַחְ׳"
+			"text": "צְוַוחְתָּא"
+		},
+		{
+			"text": "צְוַחְ׳",
+			"partial": true
 		},
 		{
 			"text": "צְוָוחָא"
@@ -15,9 +17,11 @@
 			"text": "צִוְוחָא"
 		},
 		{
-			"text": "צִיוְ׳"
+			"text": "צִיוְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1266,
 		"column": "b"

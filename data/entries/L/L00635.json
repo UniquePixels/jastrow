@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00635",
-	"slug": "לפיד-2",
-	"headword": {
-		"text": "לַפִּיד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "לַפִּיד ²",
+	"headwords": [
+		{
+			"text": "לַפִּיד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 715,
 		"column": "a"

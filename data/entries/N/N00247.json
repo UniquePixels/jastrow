@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00247",
-	"slug": "נדרשיר",
-	"headword": {
-		"text": "נדרשיר"
-	},
+	"sefariaHeadword": "נדרשיר",
+	"headwords": [
+		{
+			"text": "נדרשיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 880,
 		"column": "b"

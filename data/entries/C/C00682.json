@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00682",
-	"slug": "גיזום",
-	"headword": {
-		"text": "גִּיזּוּם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּיזּוּם",
+	"headwords": [
+		{
+			"text": "גִּיזּוּם"
+		},
 		{
 			"text": "גִּזוּם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 237,
 		"column": "a"

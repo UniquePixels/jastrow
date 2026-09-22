@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01300",
-	"slug": "מירין",
-	"headword": {
-		"text": "מירין"
-	},
+	"sefariaHeadword": "מירין",
+	"headwords": [
+		{
+			"text": "מירין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 779,
 		"column": "a"

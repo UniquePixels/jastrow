@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00031",
-	"slug": "קבוותא",
-	"headword": {
-		"text": "קַבְוָותָא"
-	},
+	"sefariaHeadword": "קַבְוָותָא",
+	"headwords": [
+		{
+			"text": "קַבְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1307,
 		"column": "b"

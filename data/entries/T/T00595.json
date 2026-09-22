@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00595",
-	"slug": "ריבעה",
-	"headword": {
-		"text": "רִיבְעָה"
-	},
+	"sefariaHeadword": "רִיבְעָה",
+	"headwords": [
+		{
+			"text": "רִיבְעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1473,
 		"column": "a"

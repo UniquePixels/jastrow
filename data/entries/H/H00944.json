@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00944",
-	"slug": "חכמאי",
-	"headword": {
-		"text": "חַכְמַאי"
-	},
+	"sefariaHeadword": "חַכְמַאי",
+	"headwords": [
+		{
+			"text": "חַכְמַאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 463,
 		"column": "a"

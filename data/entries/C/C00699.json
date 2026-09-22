@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00699",
-	"slug": "גיט",
-	"headword": {
-		"text": "גֵּיט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גֵּיט",
+	"headwords": [
+		{
+			"text": "גֵּיט"
+		},
 		{
 			"text": "גִּיטָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 237,
 		"column": "b"

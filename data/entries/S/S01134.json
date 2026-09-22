@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01134",
-	"slug": "קיציון",
-	"headword": {
-		"text": "קיציון"
-	},
+	"sefariaHeadword": "קיציון",
+	"headwords": [
+		{
+			"text": "קיציון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "b"

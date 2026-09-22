@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02340",
-	"slug": "אסורייתא",
-	"headword": {
-		"text": "אֲסוּרְיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲסוּרְיָיתָא",
+	"headwords": [
+		{
+			"text": "אֲסוּרְיָיתָא"
+		},
 		{
 			"text": "אֱיסוּרְיָיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 89,
 		"column": "b"

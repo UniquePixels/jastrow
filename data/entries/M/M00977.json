@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M00977",
-	"slug": "מטוטלת",
-	"headword": {
-		"text": "מְטוֹטֶלֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְטוֹטֶלֶת",
+	"headwords": [
+		{
+			"text": "מְטוֹטֶלֶת"
+		},
 		{
 			"text": "מְטוֹלְטֶלֶת"
 		},
 		{
-			"text": "מְטַלְטֶ׳"
+			"text": "מְטַלְטֶ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 766,
 		"column": "a"

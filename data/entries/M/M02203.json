@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02203",
-	"slug": "מפח",
-	"headword": {
-		"text": "מַפָּח"
-	},
+	"sefariaHeadword": "מַפָּח",
+	"headwords": [
+		{
+			"text": "מַפָּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 820,
 		"column": "b"

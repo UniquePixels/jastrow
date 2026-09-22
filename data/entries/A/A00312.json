@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00312",
-	"slug": "אגמא-3",
-	"headword": {
-		"text": "אַגְמָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אַגְמָא II",
+	"headwords": [
+		{
+			"text": "אַגְמָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 13,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

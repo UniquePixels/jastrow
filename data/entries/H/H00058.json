@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00058",
-	"slug": "חביבתא",
-	"headword": {
-		"text": "חֲבִיבְתָּא"
-	},
+	"sefariaHeadword": "חֲבִיבְתָּא",
+	"headwords": [
+		{
+			"text": "חֲבִיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 418,
 		"column": "b"

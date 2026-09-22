@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00149",
-	"slug": "תובלא",
-	"headword": {
-		"text": "תּוּבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוּבְלָא",
+	"headwords": [
+		{
+			"text": "תּוּבְלָא"
+		},
 		{
 			"text": "תּוֹבָלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1650,
 		"column": "b"

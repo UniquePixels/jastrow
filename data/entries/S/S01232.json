@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01232",
-	"slug": "קל-4",
-	"headword": {
-		"text": "קָל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קָל II",
+	"headwords": [
+		{
+			"text": "קָל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1371,
 		"column": "b"

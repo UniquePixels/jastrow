@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00769",
-	"slug": "גינניא",
-	"headword": {
-		"text": "גִּינָּנַיָּא"
-	},
+	"sefariaHeadword": "גִּינָּנַיָּא",
+	"headwords": [
+		{
+			"text": "גִּינָּנַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 240,
 		"column": "a"

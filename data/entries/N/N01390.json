@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01390",
-	"slug": "נתקא",
-	"headword": {
-		"text": "נִתְקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִתְקָא",
+	"headwords": [
 		{
-			"text": "נִי׳"
+			"text": "נִתְקָא"
+		},
+		{
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 945,
 		"column": "b"

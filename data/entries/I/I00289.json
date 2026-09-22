@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00289",
-	"slug": "טטרפאות",
-	"headword": {
-		"text": "טטרפאות"
-	},
+	"sefariaHeadword": "טטרפאות",
+	"headwords": [
+		{
+			"text": "טטרפאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

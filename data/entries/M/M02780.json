@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02780",
-	"slug": "מרש",
-	"headword": {
-		"text": "מָרֵשׁ"
-	},
+	"sefariaHeadword": "מָרֵשׁ",
+	"headwords": [
+		{
+			"text": "מָרֵשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 848,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "C00521",
-	"slug": "גזברא",
-	"headword": {
-		"text": "גִּזְבָּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּזְבָּרָא",
+	"headwords": [
 		{
-			"text": "גִּיזְ׳"
+			"text": "גִּזְבָּרָא"
+		},
+		{
+			"text": "גִּיזְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 228,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00587",
-	"slug": "ביי",
-	"headword": {
-		"text": "בַּיִי"
-	},
+	"sefariaHeadword": "בַּיִי",
+	"headwords": [
+		{
+			"text": "בַּיִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 160,
 		"column": "b"

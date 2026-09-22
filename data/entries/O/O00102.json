@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00102",
-	"slug": "סגדו",
-	"headword": {
-		"text": "סִגְדּוּ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִגְדּוּ",
+	"headwords": [
+		{
+			"text": "סִגְדּוּ"
+		},
 		{
 			"text": "סְגִידוּ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 953,
 		"column": "a"

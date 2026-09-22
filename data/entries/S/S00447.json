@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00447",
-	"slug": "קונמא",
-	"headword": {
-		"text": "קוֹנָמָא"
-	},
+	"sefariaHeadword": "קוֹנָמָא",
+	"headwords": [
+		{
+			"text": "קוֹנָמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1335,
 		"column": "b"

@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "H01583",
-	"slug": "חרב-7",
-	"headword": {
-		"text": "חָרֶב",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָרֶב ²",
+	"headwords": [
+		{
+			"text": "חָרֶב",
+			"disambiguator": 2
+		},
 		{
 			"text": "חַרְבָּא",
 			"homograph": 2
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 498,
 		"column": "b"

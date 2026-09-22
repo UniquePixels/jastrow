@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S00166",
-	"slug": "קדקדא",
-	"headword": {
-		"text": "קָדְקְדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קָדְקְדָא",
+	"headwords": [
+		{
+			"text": "קָדְקְדָא"
+		},
 		{
 			"text": "קָדְקוֹדָא"
 		},
 		{
-			"text": "קוֹדְ׳"
+			"text": "קוֹדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1317,
 		"column": "b"

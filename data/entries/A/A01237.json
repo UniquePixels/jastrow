@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01237",
-	"slug": "איים",
-	"headword": {
-		"text": "אִיֵּים"
-	},
+	"sefariaHeadword": "אִיֵּים",
+	"headwords": [
+		{
+			"text": "אִיֵּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 47,
 		"column": "b"

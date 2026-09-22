@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01350",
-	"slug": "פסק-1",
-	"headword": {
-		"text": "פָּסַק"
-	},
+	"sefariaHeadword": "פָּסַק",
+	"headwords": [
+		{
+			"text": "פָּסַק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1199,
 		"column": "b"

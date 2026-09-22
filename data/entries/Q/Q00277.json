@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00277",
-	"slug": "פונטוס",
-	"headword": {
-		"text": "פּוֹנְטוֹס"
-	},
+	"sefariaHeadword": "פּוֹנְטוֹס",
+	"headwords": [
+		{
+			"text": "פּוֹנְטוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

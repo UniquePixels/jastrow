@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02380",
-	"slug": "מקדה",
-	"headword": {
-		"text": "מַקֵּדָה"
-	},
+	"sefariaHeadword": "מַקֵּדָה",
+	"headwords": [
+		{
+			"text": "מַקֵּדָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 829,
 		"column": "a"

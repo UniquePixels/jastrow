@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00684",
-	"slug": "עירוני",
-	"headword": {
-		"text": "עִירוֹנִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִירוֹנִי",
+	"headwords": [
+		{
+			"text": "עִירוֹנִי"
+		},
 		{
 			"text": "עִירָנִי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1076,
 		"column": "a"

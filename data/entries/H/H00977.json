@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00977",
-	"slug": "חלבניתא",
-	"headword": {
-		"text": "חִלְבְּנֵיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִלְבְּנֵיתָא",
+	"headwords": [
+		{
+			"text": "חִלְבְּנֵיתָא"
+		},
 		{
 			"text": "חֶלְבְּנֵתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֶלְבָּנְתָּא"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 464,
 		"column": "b"

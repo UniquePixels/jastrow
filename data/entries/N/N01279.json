@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01279",
-	"slug": "נרתק",
-	"headword": {
-		"text": "נַרְתֵּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַרְתֵּק",
+	"headwords": [
+		{
+			"text": "נַרְתֵּק"
+		},
 		{
 			"text": "נַרְתֵּקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 937,
 		"column": "a"

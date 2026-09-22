@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00450",
-	"slug": "נזירה",
-	"headword": {
-		"text": "נְזִירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נְזִירָה II",
+	"headwords": [
+		{
+			"text": "נְזִירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 891,
 		"column": "b"

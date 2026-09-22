@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00002",
-	"slug": "תא-1",
-	"headword": {
-		"text": "תָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תָּא I",
+	"headwords": [
+		{
+			"text": "תָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1641,
 		"column": "a"

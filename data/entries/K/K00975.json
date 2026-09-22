@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00975",
-	"slug": "כער-2",
-	"headword": {
-		"text": "כְּעַר"
-	},
+	"sefariaHeadword": "כְּעַר",
+	"headwords": [
+		{
+			"text": "כְּעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "b"

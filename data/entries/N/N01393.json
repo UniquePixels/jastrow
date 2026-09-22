@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N01393",
-	"slug": "נתר-2",
-	"headword": {
-		"text": "נָתַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נָתַר II",
+	"headwords": [
+		{
+			"text": "נָתַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 946,
 		"column": "a"

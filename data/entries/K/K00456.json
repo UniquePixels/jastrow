@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00456",
-	"slug": "כחה",
-	"headword": {
-		"text": "כָּחַהּ"
-	},
+	"sefariaHeadword": "כָּחַהּ",
+	"headwords": [
+		{
+			"text": "כָּחַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 628,
 		"column": "b"

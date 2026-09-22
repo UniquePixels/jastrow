@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00151",
-	"slug": "בדל-2",
-	"headword": {
-		"text": "בְּדַל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּדַל",
+	"headwords": [
+		{
+			"text": "בְּדַל"
+		},
 		{
 			"text": "בְּדֵיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 140,
 		"column": "b"

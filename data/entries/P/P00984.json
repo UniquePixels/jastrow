@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00984",
-	"slug": "עניו",
-	"headword": {
-		"text": "עָנָיו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָנָיו",
+	"headwords": [
+		{
+			"text": "עָנָיו"
+		},
 		{
 			"text": "עָנָו"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1094,
 		"column": "b"

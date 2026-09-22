@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00478",
-	"slug": "בחירתא",
-	"headword": {
-		"text": "בְּחִירְתָּא"
-	},
+	"sefariaHeadword": "בְּחִירְתָּא",
+	"headwords": [
+		{
+			"text": "בְּחִירְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "a"

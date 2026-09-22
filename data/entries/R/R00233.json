@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00233",
-	"slug": "צוצריות",
-	"headword": {
-		"text": "צוצריות"
-	},
+	"sefariaHeadword": "צוצריות",
+	"headwords": [
+		{
+			"text": "צוצריות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1270,
 		"column": "a"

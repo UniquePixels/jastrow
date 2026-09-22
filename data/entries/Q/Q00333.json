@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00333",
-	"slug": "פורגרה",
-	"headword": {
-		"text": "פּוּרְגָּרָה"
-	},
+	"sefariaHeadword": "פּוּרְגָּרָה",
+	"headwords": [
+		{
+			"text": "פּוּרְגָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1146,
 		"column": "b"

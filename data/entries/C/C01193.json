@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01193",
-	"slug": "געש",
-	"headword": {
-		"text": "גָּעַשׁ"
-	},
+	"sefariaHeadword": "גָּעַשׁ",
+	"headwords": [
+		{
+			"text": "גָּעַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 261,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00186",
-	"slug": "יולד-1",
-	"headword": {
-		"text": "יוּלָּד"
-	},
+	"sefariaHeadword": "יוּלָּד",
+	"headwords": [
+		{
+			"text": "יוּלָּד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 568,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00898",
-	"slug": "אוריכותא",
-	"headword": {
-		"text": "אוֹרִיכוּתָא"
-	},
+	"sefariaHeadword": "אוֹרִיכוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹרִיכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

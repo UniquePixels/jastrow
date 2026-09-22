@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00186",
-	"slug": "גדור-2",
-	"headword": {
-		"text": "גְּדוֹר"
-	},
+	"sefariaHeadword": "גְּדוֹר",
+	"headwords": [
+		{
+			"text": "גְּדוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 211,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

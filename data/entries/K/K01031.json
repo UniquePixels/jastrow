@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01031",
-	"slug": "כפליות",
-	"headword": {
-		"text": "כִּפְלָיוֹת",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*כִּפְלָיוֹת",
+	"headwords": [
+		{
+			"text": "כִּפְלָיוֹת",
+			"reconstructed": true
+		},
 		{
 			"text": "קִיפְלָאוֹת"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 660,
 		"column": "b"

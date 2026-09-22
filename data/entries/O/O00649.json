@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00649",
-	"slug": "סיכות",
-	"headword": {
-		"text": "סִיכּוּת"
-	},
+	"sefariaHeadword": "סִיכּוּת",
+	"headwords": [
+		{
+			"text": "סִיכּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 979,
 		"column": "b"

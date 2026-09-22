@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00887",
-	"slug": "שיטפ",
-	"headword": {
-		"text": "שִׁיטְפ־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיטְפ־",
+	"headwords": [
+		{
+			"text": "שִׁיטְפ־"
+		},
 		{
 			"text": "שִׁיטְפָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁיטְפָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1560,
 		"column": "b"

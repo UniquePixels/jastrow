@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00824",
-	"slug": "חינכי",
-	"headword": {
-		"text": "חִינְכֵי"
-	},
+	"sefariaHeadword": "חִינְכֵי",
+	"headwords": [
+		{
+			"text": "חִינְכֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 458,
 		"column": "b"

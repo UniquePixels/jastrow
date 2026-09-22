@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01113",
-	"slug": "קיפלירוסים",
-	"headword": {
-		"text": "קיפלירוסים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קיפלירוסים",
+	"headwords": [
+		{
+			"text": "קיפלירוסים"
+		},
 		{
 			"text": "קיפלרין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1366,
 		"column": "b"

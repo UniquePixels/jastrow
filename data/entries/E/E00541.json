@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00541",
-	"slug": "הלוך",
-	"headword": {
-		"text": "הִלּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִלּוּךְ",
+	"headwords": [
+		{
+			"text": "הִלּוּךְ"
+		},
 		{
 			"text": "הִלּוּל"
 		},
@@ -12,6 +13,7 @@
 			"text": "הִלּוּלָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 352,
 		"column": "a"

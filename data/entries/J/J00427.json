@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00427",
-	"slug": "ינה",
-	"headword": {
-		"text": "יָנָה"
-	},
+	"sefariaHeadword": "יָנָה",
+	"headwords": [
+		{
+			"text": "יָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 580,
 		"column": "b"

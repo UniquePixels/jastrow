@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00313",
-	"slug": "אגמה",
-	"headword": {
-		"text": "אַגְמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַגְמָה",
+	"headwords": [
+		{
+			"text": "אַגְמָה"
+		},
 		{
 			"text": "עַגְמָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 13,
 		"column": "a"

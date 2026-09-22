@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00361",
-	"slug": "פורנון",
-	"headword": {
-		"text": "פּוּרְנוֹן"
-	},
+	"sefariaHeadword": "פּוּרְנוֹן",
+	"headwords": [
+		{
+			"text": "פּוּרְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1147,
 		"column": "b"

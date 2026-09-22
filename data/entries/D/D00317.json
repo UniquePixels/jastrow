@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00317",
-	"slug": "דופקא",
-	"headword": {
-		"text": "דּוֹפְקָא"
-	},
+	"sefariaHeadword": "דּוֹפְקָא",
+	"headwords": [
+		{
+			"text": "דּוֹפְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 287,
 		"column": "b"

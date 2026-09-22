@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00170",
-	"slug": "נגנגד",
-	"headword": {
-		"text": "נגנגד"
-	},
+	"sefariaHeadword": "נגנגד",
+	"headwords": [
+		{
+			"text": "נגנגד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

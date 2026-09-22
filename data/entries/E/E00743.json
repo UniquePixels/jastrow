@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00743",
-	"slug": "הפכה",
-	"headword": {
-		"text": "הֲפֵכָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֲפֵכָה",
+	"headwords": [
+		{
+			"text": "הֲפֵכָה"
+		},
 		{
 			"text": "הֲפֵיכָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 361,
 		"column": "b"

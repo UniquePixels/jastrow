@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00524",
-	"slug": "אובדן",
-	"headword": {
-		"text": "אוֹבְדָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹבְדָן",
+	"headwords": [
+		{
+			"text": "אוֹבְדָן"
+		},
 		{
 			"text": "אוֹבְדָנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 21,
 		"column": "a"

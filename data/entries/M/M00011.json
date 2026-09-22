@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00011",
-	"slug": "מאום",
-	"headword": {
-		"text": "מאום"
-	},
+	"sefariaHeadword": "מאום",
+	"headwords": [
+		{
+			"text": "מאום"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01309",
-	"slug": "אילסרין",
-	"headword": {
-		"text": "אִילְסָרִין"
-	},
+	"sefariaHeadword": "אִילְסָרִין",
+	"headwords": [
+		{
+			"text": "אִילְסָרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 50,
 		"column": "a"

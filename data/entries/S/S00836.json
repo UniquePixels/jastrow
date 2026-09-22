@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00836",
-	"slug": "קטרטון",
-	"headword": {
-		"text": "קִטְרָטוֹן"
-	},
+	"sefariaHeadword": "קִטְרָטוֹן",
+	"headwords": [
+		{
+			"text": "קִטְרָטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1353,
 		"column": "b"

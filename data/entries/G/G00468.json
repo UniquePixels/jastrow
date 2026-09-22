@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00468",
-	"slug": "זכר-2",
-	"headword": {
-		"text": "זָכָר"
-	},
+	"sefariaHeadword": "זָכָר",
+	"headwords": [
+		{
+			"text": "זָכָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 400,
 		"column": "a"

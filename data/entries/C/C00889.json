@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C00889",
-	"slug": "גלוגדקא",
-	"headword": {
-		"text": "גְּלוּגְדְּקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גְּלוּגְדְּקָא",
+	"headwords": [
+		{
+			"text": "גְּלוּגְדְּקָא"
+		},
 		{
 			"text": "גלוגדק"
 		},
@@ -12,6 +13,7 @@
 			"text": "גְּלֶקְטִיקָא"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 246,
 		"column": "a"

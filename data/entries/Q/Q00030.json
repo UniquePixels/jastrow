@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00030",
-	"slug": "פארי-2",
-	"headword": {
-		"text": "פָּארֵי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פָּארֵי II",
+	"headwords": [
+		{
+			"text": "פָּארֵי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1132,
 		"column": "a"

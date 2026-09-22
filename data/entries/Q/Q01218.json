@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01218",
-	"slug": "פנתירי",
-	"headword": {
-		"text": "פַּנְתֵּירִי"
-	},
+	"sefariaHeadword": "פַּנְתֵּירִי",
+	"headwords": [
+		{
+			"text": "פַּנְתֵּירִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1191,
 		"column": "a"

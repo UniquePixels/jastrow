@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01177",
-	"slug": "חמיטליא",
-	"headword": {
-		"text": "חמיטליא"
-	},
+	"sefariaHeadword": "חמיטליא",
+	"headwords": [
+		{
+			"text": "חמיטליא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 477,
 		"column": "a"

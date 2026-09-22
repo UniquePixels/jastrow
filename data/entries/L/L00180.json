@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00180",
-	"slug": "לובירים",
-	"headword": {
-		"text": "לובירים"
-	},
+	"sefariaHeadword": "לובירים",
+	"headwords": [
+		{
+			"text": "לובירים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

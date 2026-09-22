@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03125",
-	"slug": "ארך-2",
-	"headword": {
-		"text": "אָרֵךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אָרֵךְ",
+	"headwords": [
+		{
+			"text": "אָרֵךְ"
+		},
 		{
 			"text": "ארַךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 121,
 		"column": "a"

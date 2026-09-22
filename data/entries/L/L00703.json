@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00703",
-	"slug": "לקת",
-	"headword": {
-		"text": "לקת"
-	},
+	"sefariaHeadword": "לקת",
+	"headwords": [
+		{
+			"text": "לקת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 720,
 		"column": "a"

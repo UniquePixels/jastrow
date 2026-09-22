@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00991",
-	"slug": "תריכותא",
-	"headword": {
-		"text": "תְּרִיכוּתָא"
-	},
+	"sefariaHeadword": "תְּרִיכוּתָא",
+	"headwords": [
+		{
+			"text": "תְּרִיכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1698,
 		"column": "b"

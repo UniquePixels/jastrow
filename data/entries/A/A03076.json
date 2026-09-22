@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03076",
-	"slug": "ארטקפא",
-	"headword": {
-		"text": "אַרְטְקָפָא"
-	},
+	"sefariaHeadword": "אַרְטְקָפָא",
+	"headwords": [
+		{
+			"text": "אַרְטְקָפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 118,
 		"column": "a"

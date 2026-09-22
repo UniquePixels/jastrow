@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00085",
-	"slug": "תגלא",
-	"headword": {
-		"text": "תַּגְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּגְלָא",
+	"headwords": [
 		{
-			"text": "בֶּן תַּגְלָא"
+			"text": "תַּגְלָא"
+		},
+		{
+			"text": "בֶּן תַּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1646,
 		"column": "b"

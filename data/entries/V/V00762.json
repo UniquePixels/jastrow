@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00762",
-	"slug": "תסיל",
-	"headword": {
-		"text": "תָּסִיל"
-	},
+	"sefariaHeadword": "תָּסִיל",
+	"headwords": [
+		{
+			"text": "תָּסִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1682,
 		"column": "b"

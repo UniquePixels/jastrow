@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00417",
-	"slug": "סורג",
-	"headword": {
-		"text": "סוֹרֶג"
-	},
+	"sefariaHeadword": "סוֹרֶג",
+	"headwords": [
+		{
+			"text": "סוֹרֶג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 969,
 		"column": "b"

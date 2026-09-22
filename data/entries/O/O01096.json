@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01096",
-	"slug": "סמ״ך",
-	"headword": {
-		"text": "סמ״ך"
-	},
+	"sefariaHeadword": "סמ\"ך",
+	"headwords": [
+		{
+			"text": "סמ״ך"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1000,
 		"column": "b"

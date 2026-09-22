@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02368",
-	"slug": "מצרנאה",
-	"headword": {
-		"text": "מֶצְרָנָאָה"
-	},
+	"sefariaHeadword": "מֶצְרָנָאָה",
+	"headwords": [
+		{
+			"text": "מֶצְרָנָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 828,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00570",
-	"slug": "למואל",
-	"headword": {
-		"text": "לְמוּאֵל"
-	},
+	"sefariaHeadword": "לְמוּאֵל",
+	"headwords": [
+		{
+			"text": "לְמוּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 712,
 		"column": "b"

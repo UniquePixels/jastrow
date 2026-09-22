@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00308",
-	"slug": "פופיינוס",
-	"headword": {
-		"text": "פופיינוס"
-	},
+	"sefariaHeadword": "פופיינוס",
+	"headwords": [
+		{
+			"text": "פופיינוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1145,
 		"column": "a"

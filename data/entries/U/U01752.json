@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01752",
-	"slug": "שפילה",
-	"headword": {
-		"text": "שְׁפֵילָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁפֵילָה",
+	"headwords": [
+		{
+			"text": "שְׁפֵילָה"
+		},
 		{
 			"text": "שְׁפֵילְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1616,
 		"column": "a"

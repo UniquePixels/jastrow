@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00079",
-	"slug": "צד-2",
-	"headword": {
-		"text": "צַד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צַד ²",
+	"headwords": [
+		{
+			"text": "צַד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1260,
 		"column": "b"

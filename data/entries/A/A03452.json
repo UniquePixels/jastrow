@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03452",
-	"slug": "אתריס",
-	"headword": {
-		"text": "אִתְּרִיס"
-	},
+	"sefariaHeadword": "אִתְּרִיס",
+	"headwords": [
+		{
+			"text": "אִתְּרִיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 134,
 		"column": "b"

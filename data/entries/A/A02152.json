@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02152",
-	"slug": "אנח-1",
-	"headword": {
-		"text": "אָנַח"
-	},
+	"sefariaHeadword": "אָנַח",
+	"headwords": [
+		{
+			"text": "אָנַח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 82,
 		"column": "b"

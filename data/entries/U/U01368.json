@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01368",
-	"slug": "שלעטוט",
-	"headword": {
-		"text": "שלעטוט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שלעטוט",
+	"headwords": [
+		{
+			"text": "שלעטוט"
+		},
 		{
 			"text": "שֶׁלַעְטִיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1587,
 		"column": "a"

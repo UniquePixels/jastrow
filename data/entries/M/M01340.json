@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01340",
-	"slug": "מך-2",
-	"headword": {
-		"text": "מָךְ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מָךְ ²",
+	"headwords": [
+		{
+			"text": "מָךְ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 780,
 		"column": "b"

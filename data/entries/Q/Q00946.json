@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00946",
-	"slug": "פלגותא",
-	"headword": {
-		"text": "פַּלְגּוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּלְגּוּתָא",
+	"headwords": [
+		{
+			"text": "פַּלְגּוּתָא"
+		},
 		{
 			"text": "פַּלְגִּי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1176,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00525",
-	"slug": "סיב-3",
-	"headword": {
-		"text": "סִיב",
-		"homograph": 3
-	},
+	"sefariaHeadword": "סִיב III",
+	"headwords": [
+		{
+			"text": "סִיב",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 974,
 		"column": "a"

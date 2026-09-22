@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02566",
-	"slug": "אסרטין",
-	"headword": {
-		"text": "אִסְרָטִין"
-	},
+	"sefariaHeadword": "אִסְרָטִין",
+	"headwords": [
+		{
+			"text": "אִסְרָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 98,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01684",
-	"slug": "קסרקיטון",
-	"headword": {
-		"text": "קְסִרְקִיטוֹן"
-	},
+	"sefariaHeadword": "קְסִרְקִיטוֹן",
+	"headwords": [
+		{
+			"text": "קְסִרְקִיטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

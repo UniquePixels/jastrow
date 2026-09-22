@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00995",
-	"slug": "חלוטין",
-	"headword": {
-		"text": "חֲלוּטִין"
-	},
+	"sefariaHeadword": "חֲלוּטִין",
+	"headwords": [
+		{
+			"text": "חֲלוּטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 465,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00215",
-	"slug": "כווץ",
-	"headword": {
-		"text": "כְּוַוץ"
-	},
+	"sefariaHeadword": "כְּוַוץ",
+	"headwords": [
+		{
+			"text": "כְּוַוץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

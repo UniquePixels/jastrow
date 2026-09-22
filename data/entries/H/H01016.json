@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01016",
-	"slug": "חלחולית",
-	"headword": {
-		"text": "חַלְחוֹלִית"
-	},
+	"sefariaHeadword": "חַלְחוֹלִית",
+	"headwords": [
+		{
+			"text": "חַלְחוֹלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 466,
 		"column": "a"

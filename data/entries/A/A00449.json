@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00449",
-	"slug": "אדרבא",
-	"headword": {
-		"text": "אַדְּרַבָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַדְּרַבָּא",
+	"headwords": [
+		{
+			"text": "אַדְּרַבָּא"
+		},
 		{
 			"text": "אַדְּרַבָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 18,
 		"column": "a"

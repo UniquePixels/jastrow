@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00528",
-	"slug": "טמא-1",
-	"headword": {
-		"text": "טַמָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַמָּא",
+	"headwords": [
+		{
+			"text": "טַמָּא"
+		},
 		{
 			"text": "טָמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 538,
 		"column": "b"

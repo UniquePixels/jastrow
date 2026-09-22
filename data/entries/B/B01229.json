@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01229",
-	"slug": "ברזניתא",
-	"headword": {
-		"text": "בַּרְזָנִיתָא"
-	},
+	"sefariaHeadword": "בַּרְזָנִיתָא",
+	"headwords": [
+		{
+			"text": "בַּרְזָנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 192,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02584",
-	"slug": "מרויא",
-	"headword": {
-		"text": "מְרַוְיָא"
-	},
+	"sefariaHeadword": "מְרַוְיָא",
+	"headwords": [
+		{
+			"text": "מְרַוְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 838,
 		"column": "b"

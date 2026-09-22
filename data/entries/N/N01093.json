@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N01093",
-	"slug": "נצא-1",
-	"headword": {
-		"text": "נַצָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַצָּא",
+	"headwords": [
+		{
+			"text": "נַצָּא"
+		},
 		{
 			"text": "נָצָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 927,
 		"column": "a"

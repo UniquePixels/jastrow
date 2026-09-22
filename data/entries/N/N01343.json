@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01343",
-	"slug": "נשק-3",
-	"headword": {
-		"text": "נֶשֶׁק"
-	},
+	"sefariaHeadword": "נֶשֶׁק",
+	"headwords": [
+		{
+			"text": "נֶשֶׁק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 942,
 		"column": "a"

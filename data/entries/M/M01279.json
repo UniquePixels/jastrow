@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "M01279",
-	"slug": "מיצע",
-	"headword": {
-		"text": "מִיצַּע"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיצַּע",
+	"headwords": [
+		{
+			"text": "מִיצַּע"
+		},
 		{
 			"text": "מִיצְּעָא"
 		},
 		{
-			"text": "מַצּ׳"
+			"text": "מַצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 778,
 		"column": "b"

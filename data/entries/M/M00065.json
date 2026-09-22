@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00065",
-	"slug": "מאריסא",
-	"headword": {
-		"text": "מַאֲרִיסָא"
-	},
+	"sefariaHeadword": "מַאֲרִיסָא",
+	"headwords": [
+		{
+			"text": "מַאֲרִיסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 724,
 		"column": "b"

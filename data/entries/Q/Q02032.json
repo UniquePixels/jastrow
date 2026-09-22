@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02032",
-	"slug": "פרשדוניא",
-	"headword": {
-		"text": "פרשדוניא"
-	},
+	"sefariaHeadword": "פרשדוניא",
+	"headwords": [
+		{
+			"text": "פרשדוניא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1243,
 		"column": "b"

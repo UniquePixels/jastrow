@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00439",
-	"slug": "הימצא",
-	"headword": {
-		"text": "הִימְצָא"
-	},
+	"sefariaHeadword": "הִימְצָא",
+	"headwords": [
+		{
+			"text": "הִימְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 347,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02101",
-	"slug": "אנגיסטור",
-	"headword": {
-		"text": "אנגיסטור"
-	},
+	"sefariaHeadword": "אנגיסטור",
+	"headwords": [
+		{
+			"text": "אנגיסטור"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

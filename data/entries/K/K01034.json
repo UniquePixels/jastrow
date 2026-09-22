@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01034",
-	"slug": "כפן-2",
-	"headword": {
-		"text": "כְּפַן",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּפַן I",
+	"headwords": [
+		{
+			"text": "כְּפַן",
+			"homograph": 1
+		},
 		{
 			"text": "כְּפֵין"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 660,
 		"column": "b"

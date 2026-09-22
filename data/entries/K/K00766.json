@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00766",
-	"slug": "כלמוס",
-	"headword": {
-		"text": "כְּלָמוּס"
-	},
+	"sefariaHeadword": "כְּלָמוּס",
+	"headwords": [
+		{
+			"text": "כְּלָמוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 645,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01117",
-	"slug": "קיץ-3",
-	"headword": {
-		"text": "קַיָּץ"
-	},
+	"sefariaHeadword": "קַיָּץ",
+	"headwords": [
+		{
+			"text": "קַיָּץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1367,
 		"column": "a"

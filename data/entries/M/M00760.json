@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00760",
-	"slug": "מזירקא",
-	"headword": {
-		"text": "מַזִּירְקָא"
-	},
+	"sefariaHeadword": "מַזִּירְקָא",
+	"headwords": [
+		{
+			"text": "מַזִּירְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01315",
-	"slug": "כשלון",
-	"headword": {
-		"text": "כִּשָּׁלוֹן"
-	},
+	"sefariaHeadword": "כִּשָּׁלוֹן",
+	"headwords": [
+		{
+			"text": "כִּשָּׁלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 676,
 		"column": "b"

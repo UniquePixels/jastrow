@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01220",
-	"slug": "נקלה",
-	"headword": {
-		"text": "נִקְלָה"
-	},
+	"sefariaHeadword": "נִקְלָה",
+	"headwords": [
+		{
+			"text": "נִקְלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 933,
 		"column": "b"

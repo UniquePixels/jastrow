@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00507",
-	"slug": "גושפנקא",
-	"headword": {
-		"text": "גּוּשְׁפַּנְקָא"
-	},
+	"sefariaHeadword": "גּוּשְׁפַּנְקָא",
+	"headwords": [
+		{
+			"text": "גּוּשְׁפַּנְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 228,
 		"column": "a"

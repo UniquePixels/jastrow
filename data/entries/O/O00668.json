@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00668",
-	"slug": "סילכא",
-	"headword": {
-		"text": "סִילכָּא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִילכָּא",
+	"headwords": [
+		{
+			"text": "סִילכָּא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 980,
 		"column": "a"

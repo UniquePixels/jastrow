@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00734",
-	"slug": "קטטה",
-	"headword": {
-		"text": "קְטָטָה"
-	},
+	"sefariaHeadword": "קְטָטָה",
+	"headwords": [
+		{
+			"text": "קְטָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1347,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00858",
-	"slug": "אורדענה",
-	"headword": {
-		"text": "אוּרְדַּעְנָה"
-	},
+	"sefariaHeadword": "אוּרְדַּעְנָה",
+	"headwords": [
+		{
+			"text": "אוּרְדַּעְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "a"

@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H00391",
-	"slug": "חומר-2",
-	"headword": {
-		"text": "חוֹמֶר",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוֹמֶר II",
+	"headwords": [
+		{
+			"text": "חוֹמֶר",
+			"homograph": 2
+		},
 		{
 			"text": "הוֹמֶר"
 		}

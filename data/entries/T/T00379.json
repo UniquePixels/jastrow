@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "T00379",
-	"slug": "רומא-2",
-	"headword": {
-		"text": "רוֹמָא",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*רוֹמָא I",
+	"headwords": [
+		{
+			"text": "רוֹמָא",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1460,
 		"column": "b"

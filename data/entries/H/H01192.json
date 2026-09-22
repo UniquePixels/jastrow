@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01192",
-	"slug": "חמישאה",
-	"headword": {
-		"text": "חֲמִישָׁאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲמִישָׁאָה",
+	"headwords": [
+		{
+			"text": "חֲמִישָׁאָה"
+		},
 		{
 			"text": "חֲמִישַׁאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 477,
 		"column": "b"

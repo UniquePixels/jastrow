@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00089",
-	"slug": "חבלא-1",
-	"headword": {
-		"text": "חֶבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶבְלָא",
+	"headwords": [
 		{
-			"text": "חֵיבְ׳"
+			"text": "חֶבְלָא"
+		},
+		{
+			"text": "חֵיבְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 420,
 		"column": "a"

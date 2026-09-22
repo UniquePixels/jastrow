@@ -61,8 +61,8 @@ function lexicalOf(line: string): string {
 	return out;
 }
 
-/** A `{n}` slot in a display template. */
-const SLOT = /\{\d+\}/gu;
+/** A `{n}` slot in a display template; group 1 is the form index. */
+const SLOT = /\{(\d+)\}/gu;
 /** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
  * not count as two `I`s against a line that really holds two. */
 const LATIN_RUN = /[A-Za-z]+/gu;
@@ -175,7 +175,12 @@ function lineIsUnsettleable(line: string): boolean {
  * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
  *    superscripts and Roman numerals are exactly the template's. A
  *    parenthesis dropped, a numeral invented or a star moved onto a
- *    different form all fail here.
+ *    different form all fail here. It holds for a template a `reform`
+ *    patch SUPPLIED too, as long as the source line is one this gate
+ *    can settle: §4 "Parentheses" (ruled 2026-09-22) lets such a
+ *    patch correct a placement, which rearranges notation rather than
+ *    changing what there is of it. Only an unsettleable line is
+ *    exempt, because there print set a layout the source did not keep.
  * 3. **display present iff settleable** — a template is absent
  *    exactly for a line this gate independently judges unsettleable.
  *    Without it marks 1 and 2 could both pass on a run that quietly
@@ -194,19 +199,7 @@ function checkHeadwordLine(
 		before === after,
 		`${composed.rid}: headword text not conserved: ${JSON.stringify(before)} → ${JSON.stringify(after)}`,
 	);
-	// A `reform` patch may supply the layout, and headword design §4.1
-	// gives it exactly one job: settle a line the SOURCE cannot. On a
-	// line the parser reads, the parser's template is already right, so
-	// a supplied one would overwrite it AND switch the notation mark
-	// below to a weaker check — two losses for no gain. A supplied
-	// template on a settleable line is therefore a RED GATE, never a
-	// silent override.
 	const cannotSettle = lineIsUnsettleable(line);
-	mark(
-		t,
-		composed.display === undefined || cannotSettle,
-		`${composed.rid}: a patch supplied a display for a line the source settles on its own`,
-	);
 	// Read off the COMPOSED entry, which is where the patch put it —
 	// not off the parser's decision.
 	const unsettleable = cannotSettle && composed.display === undefined;
@@ -218,23 +211,52 @@ function checkHeadwordLine(
 	if (truth.display === undefined) {
 		return;
 	}
+	const source = notationOf(line);
+	const written = notationOf(truth.display.replace(SLOT, ''));
 	if (composed.display !== undefined) {
-		// A patch SUPPLIED this template because print set a layout the
-		// source did not keep, so the multiset cannot agree and
-		// demanding it would refuse every such patch. Comparing the
-		// template against itself would be worse — a mark that cannot
-		// fail. What IS checkable, and is the thing that could actually
-		// go wrong, is that the run carried the patch's template through
-		// to the entry unaltered.
+		// What could actually go wrong with a supplied template is that
+		// the run failed to carry it through to the entry.
 		mark(
 			t,
 			truth.display === composed.display,
 			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(truth.display)}`,
 		);
+		// The slots read in FORM ORDER. §3.1 rule 1 sorts them before
+		// counting, so it sees a set and a permutation passes it; the
+		// notation multiset is blind to order by construction. Neither
+		// would notice `{1}, {0}`, which renders the alternate where
+		// print sets the headword — and `headwords[0]` is what the name,
+		// the search key and every link are derived from. The parser's
+		// own templates are always in order, because the forms are
+		// flattened in the line's order, so this binds a supplied
+		// template to the same shape.
+		const slots = [...truth.display.matchAll(SLOT)].map((m) =>
+			Number(m[1] ?? Number.NaN),
+		);
+		mark(
+			t,
+			slots.every((slot, at) => slot === at),
+			`${composed.rid}: a patch supplied a display whose slots run [${slots.join(',')}], not in form order`,
+		);
+		// On an UNSETTLEABLE line the multiset cannot agree — print set a
+		// layout the source did not keep, and demanding agreement would
+		// refuse every such patch. On a settleable line it can and must:
+		// headword design §4 "Parentheses" (ruled 2026-09-22) lets a
+		// reviewed patch correct a PLACEMENT the source got wrong
+		// (A02823), which moves notation between the forms without
+		// adding or dropping any. Checking the multiset is what keeps
+		// that from becoming a door to inventing notation — the
+		// placement is the only thing the patch may change, because the
+		// multiset is the only thing this mark cannot see.
+		if (!cannotSettle) {
+			mark(
+				t,
+				sameNotation(source, written),
+				`${composed.rid}: a patch supplied a display that does not conserve the line's notation: [${renderNotation(source)}] → [${renderNotation(written)}]`,
+			);
+		}
 		return;
 	}
-	const source = notationOf(line);
-	const written = notationOf(truth.display.replace(SLOT, ''));
 	mark(
 		t,
 		sameNotation(source, written),

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01117",
-	"slug": "נצחנותא",
-	"headword": {
-		"text": "נִצְחָנוּתָא"
-	},
+	"sefariaHeadword": "נִצְחָנוּתָא",
+	"headwords": [
+		{
+			"text": "נִצְחָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 928,
 		"column": "b"

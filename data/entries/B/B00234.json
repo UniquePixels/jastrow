@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00234",
-	"slug": "בוטמא",
-	"headword": {
-		"text": "בּוּטְמָא"
-	},
+	"sefariaHeadword": "בּוּטְמָא",
+	"headwords": [
+		{
+			"text": "בּוּטְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 145,
 		"column": "a"

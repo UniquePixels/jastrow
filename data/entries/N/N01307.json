@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01307",
-	"slug": "נשיאות",
-	"headword": {
-		"text": "נְשִׂיאוּת"
-	},
+	"sefariaHeadword": "נְשִׂיאוּת",
+	"headwords": [
+		{
+			"text": "נְשִׂיאוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 939,
 		"column": "a"

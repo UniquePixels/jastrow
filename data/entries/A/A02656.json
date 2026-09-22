@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02656",
-	"slug": "אפטוניות",
-	"headword": {
-		"text": "אפטוניות",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אפטוניות",
+	"headwords": [
+		{
+			"text": "אפטוניות",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

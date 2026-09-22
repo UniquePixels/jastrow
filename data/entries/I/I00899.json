@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00899",
-	"slug": "טרקלילא",
-	"headword": {
-		"text": "טְרַקְלִילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְרַקְלִילָא",
+	"headwords": [
+		{
+			"text": "טְרַקְלִילָא"
+		},
 		{
 			"text": "אִסְטַרְקְלִילָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 558,
 		"column": "a"

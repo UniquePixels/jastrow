@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "M00693",
-	"slug": "מות-4",
-	"headword": {
-		"text": "מוֹת",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹת ²",
+	"headwords": [
+		{
+			"text": "מוֹת",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוֹתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 752,
 		"column": "a"

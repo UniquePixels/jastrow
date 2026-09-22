@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00706",
-	"slug": "פילכיה",
-	"headword": {
-		"text": "פילכיה"
-	},
+	"sefariaHeadword": "פילכיה",
+	"headwords": [
+		{
+			"text": "פילכיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1164,
 		"column": "b"

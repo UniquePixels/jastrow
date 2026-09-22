@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K01240",
-	"slug": "כרנבי",
-	"headword": {
-		"text": "כְּרַנְבִּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*כְּרַנְבִּי",
+	"headwords": [
+		{
+			"text": "כְּרַנְבִּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 672,
 		"column": "a"

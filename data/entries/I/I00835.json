@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00835",
-	"slug": "טרכנותא",
-	"headword": {
-		"text": "טַרְכָנוּתָא"
-	},
+	"sefariaHeadword": "טַרְכָנוּתָא",
+	"headwords": [
+		{
+			"text": "טַרְכָנוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "a"

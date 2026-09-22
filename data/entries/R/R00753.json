@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00753",
-	"slug": "צרורייה",
-	"headword": {
-		"text": "צרורייה"
-	},
+	"sefariaHeadword": "צרורייה",
+	"headwords": [
+		{
+			"text": "צרורייה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1300,
 		"column": "b"

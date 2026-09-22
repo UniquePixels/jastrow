@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00189",
-	"slug": "מגן-1",
-	"headword": {
-		"text": "מָגֵן"
-	},
+	"sefariaHeadword": "מָגֵן",
+	"headwords": [
+		{
+			"text": "מָגֵן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 729,
 		"column": "a"

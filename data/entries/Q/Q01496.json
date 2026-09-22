@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01496",
-	"slug": "פקס-1",
-	"headword": {
-		"text": "פָּקַס",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פָּקַס I",
+	"headwords": [
+		{
+			"text": "פָּקַס",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1209,
 		"column": "b"

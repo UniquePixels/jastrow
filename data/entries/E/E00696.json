@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "E00696",
-	"slug": "הסבה-1",
-	"headword": {
-		"text": "הֶסֵּבָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶסֵּבָּה",
+	"headwords": [
+		{
+			"text": "הֶסֵּבָּה"
+		},
 		{
 			"text": "הֶסֵּיבָּה"
 		},
 		{
 			"text": "הֶיסֵּ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 359,
 		"column": "a"

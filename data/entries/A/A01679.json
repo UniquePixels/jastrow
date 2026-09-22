@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01679",
-	"slug": "אכזר",
-	"headword": {
-		"text": "אַכְזָר"
-	},
+	"sefariaHeadword": "אַכְזָר",
+	"headwords": [
+		{
+			"text": "אַכְזָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 62,
 		"column": "b"

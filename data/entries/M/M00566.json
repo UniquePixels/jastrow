@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00566",
-	"slug": "מופת-1",
-	"headword": {
-		"text": "מוֹפֵת"
-	},
+	"sefariaHeadword": "מוֹפֵת",
+	"headwords": [
+		{
+			"text": "מוֹפֵת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 746,
 		"column": "b"

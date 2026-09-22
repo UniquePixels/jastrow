@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00184",
-	"slug": "נגר-1",
-	"headword": {
-		"text": "נָגַר"
-	},
+	"sefariaHeadword": "נָגַר",
+	"headwords": [
+		{
+			"text": "נָגַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 875,
 		"column": "b"

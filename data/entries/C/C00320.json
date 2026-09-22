@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00320",
-	"slug": "גודש",
-	"headword": {
-		"text": "גּוֹדֶשׁ"
-	},
+	"sefariaHeadword": "גּוֹדֶשׁ",
+	"headwords": [
+		{
+			"text": "גּוֹדֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "a"

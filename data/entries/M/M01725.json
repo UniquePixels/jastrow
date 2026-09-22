@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01725",
-	"slug": "מנה-2",
-	"headword": {
-		"text": "מָנָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָנָה I",
+	"headwords": [
+		{
+			"text": "מָנָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 797,
 		"column": "b"

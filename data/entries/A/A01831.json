@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01831",
-	"slug": "אלטין",
-	"headword": {
-		"text": "אֱלָטִין"
-	},
+	"sefariaHeadword": "אֱלָטִין",
+	"headwords": [
+		{
+			"text": "אֱלָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 68,
 		"column": "b"

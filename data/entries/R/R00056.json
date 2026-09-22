@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00056",
-	"slug": "צבע-4",
-	"headword": {
-		"text": "צְבַע",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "צְבַע ²",
+	"headwords": [
+		{
+			"text": "צְבַע",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1259,
 		"column": "a"

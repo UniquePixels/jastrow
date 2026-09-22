@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00981",
-	"slug": "סליוקא",
-	"headword": {
-		"text": "סליוקא"
-	},
+	"sefariaHeadword": "סליוקא",
+	"headwords": [
+		{
+			"text": "סליוקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 994,
 		"column": "b"

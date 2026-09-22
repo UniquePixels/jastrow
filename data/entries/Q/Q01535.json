@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01535",
-	"slug": "פראטאטא",
-	"headword": {
-		"text": "פְּרָאטָאטָא"
-	},
+	"sefariaHeadword": "פְּרָאטָאטָא",
+	"headwords": [
+		{
+			"text": "פְּרָאטָאטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1213,
 		"column": "a"

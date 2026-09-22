@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00009",
-	"slug": "האזנה",
-	"headword": {
-		"text": "הַאֲזָנָה"
-	},
+	"sefariaHeadword": "הַאֲזָנָה",
+	"headwords": [
+		{
+			"text": "הַאֲזָנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "a"

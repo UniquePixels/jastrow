@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00280",
-	"slug": "עומדים",
-	"headword": {
-		"text": "עוֹמְדִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹמְדִים",
+	"headwords": [
+		{
+			"text": "עוֹמְדִים"
+		},
 		{
 			"text": "עוֹמְדִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1052,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00082",
-	"slug": "אבזייני",
-	"headword": {
-		"text": "אבזייני"
-	},
+	"sefariaHeadword": "אבזייני",
+	"headwords": [
+		{
+			"text": "אבזייני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

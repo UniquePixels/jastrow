@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00303",
-	"slug": "טיבור",
-	"headword": {
-		"text": "טִיבּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִיבּוּר",
+	"headwords": [
+		{
+			"text": "טִיבּוּר"
+		},
 		{
 			"text": "טִבּוּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 529,
 		"column": "b"

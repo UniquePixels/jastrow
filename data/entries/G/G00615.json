@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00615",
-	"slug": "זעקפי",
-	"headword": {
-		"text": "זעקפי"
-	},
+	"sefariaHeadword": "זעקפי",
+	"headwords": [
+		{
+			"text": "זעקפי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "a"

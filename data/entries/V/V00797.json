@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00797",
-	"slug": "תף-2",
-	"headword": {
-		"text": "תֹּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תֹּף",
+	"headwords": [
+		{
+			"text": "תֹּף"
+		},
 		{
 			"text": "תֻּפָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1684,
 		"column": "b"

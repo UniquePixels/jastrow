@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00761",
-	"slug": "תסוור",
-	"headword": {
-		"text": "תִּסְוָור־"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּסְוָור־",
+	"headwords": [
+		{
+			"text": "תִּסְוָור־"
+		},
 		{
 			"text": "תִּסְוָר־"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1682,
 		"column": "b"

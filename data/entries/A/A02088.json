@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02088",
-	"slug": "אנבג",
-	"headword": {
-		"text": "אַנְבַּג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַנְבַּג",
+	"headwords": [
+		{
+			"text": "אַנְבַּג"
+		},
 		{
 			"text": "אַנְבְּגָא"
 		},
@@ -15,6 +16,7 @@
 			"text": "אַנְפְּקָא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 80,
 		"column": "b"

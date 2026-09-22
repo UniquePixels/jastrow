@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00395",
-	"slug": "סופיק",
-	"headword": {
-		"text": "סוֹפֵיק"
-	},
+	"sefariaHeadword": "סוֹפֵיק",
+	"headwords": [
+		{
+			"text": "סוֹפֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 968,
 		"column": "a"

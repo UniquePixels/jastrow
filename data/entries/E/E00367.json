@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00367",
-	"slug": "היידלון",
-	"headword": {
-		"text": "הַיְידָּלוֹן"
-	},
+	"sefariaHeadword": "הַיְידָּלוֹן",
+	"headwords": [
+		{
+			"text": "הַיְידָּלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 344,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00477",
-	"slug": "מוכנוי",
-	"headword": {
-		"text": "מוּכְנוֹי"
-	},
+	"sefariaHeadword": "מוּכְנוֹי",
+	"headwords": [
+		{
+			"text": "מוּכְנוֹי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 741,
 		"column": "b"

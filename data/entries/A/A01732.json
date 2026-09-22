@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01732",
-	"slug": "אכסלי",
-	"headword": {
-		"text": "אכסלי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אכסלי",
+	"headwords": [
+		{
+			"text": "אכסלי",
+			"reconstructed": true
+		},
 		{
 			"text": "אכסלית"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 64,
 		"column": "b"

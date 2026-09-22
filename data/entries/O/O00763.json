@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O00763",
-	"slug": "סיסרטאי",
-	"headword": {
-		"text": "סִיסְרָטַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיסְרָטַאי",
+	"headwords": [
+		{
+			"text": "סִיסְרָטַאי"
+		},
 		{
 			"text": "סִיסְרָטַי"
 		},
@@ -12,9 +13,11 @@
 			"text": "סִיסְרָטַיי"
 		},
 		{
-			"text": "סוּסְ׳"
+			"text": "סוּסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 984,
 		"column": "a"

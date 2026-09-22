@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00021",
-	"slug": "גאל-1",
-	"headword": {
-		"text": "גָּאַל"
-	},
+	"sefariaHeadword": "גָּאַל",
+	"headwords": [
+		{
+			"text": "גָּאַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 202,
 		"column": "b"

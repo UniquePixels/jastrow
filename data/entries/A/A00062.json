@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00062",
-	"slug": "אבודמא",
-	"headword": {
-		"text": "אֲבוּדְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲבוּדְמָא",
+	"headwords": [
+		{
+			"text": "אֲבוּדְמָא"
+		},
 		{
 			"text": "אבודמי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 3,
 		"column": "b"

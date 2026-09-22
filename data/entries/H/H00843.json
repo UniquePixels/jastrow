@@ -1,24 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "H00843",
-	"slug": "חיפה-2",
-	"headword": {
-		"text": "חֵיפָה",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֵיפָה I",
+	"headwords": [
+		{
+			"text": "חֵיפָה",
+			"homograph": 1
+		},
 		{
 			"text": "חֵיפָא"
 		},
 		{
-			"text": "בֵּית חֵיפָה"
+			"text": "בֵּית ח׳",
+			"partial": true
 		}
 	],
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 459,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

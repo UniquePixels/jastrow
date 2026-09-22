@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01802",
-	"slug": "חשא-2",
-	"headword": {
-		"text": "חָשָׁא"
-	},
+	"sefariaHeadword": "חָשָׁא",
+	"headwords": [
+		{
+			"text": "חָשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 508,
 		"column": "a"

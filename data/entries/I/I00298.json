@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00298",
-	"slug": "טיבה",
-	"headword": {
-		"text": "טִיבָה"
-	},
+	"sefariaHeadword": "טִיבָה",
+	"headwords": [
+		{
+			"text": "טִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

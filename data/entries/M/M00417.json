@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00417",
-	"slug": "מודעא",
-	"headword": {
-		"text": "מוֹדָעָא"
-	},
+	"sefariaHeadword": "מוֹדָעָא",
+	"headwords": [
+		{
+			"text": "מוֹדָעָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 739,
 		"column": "a"

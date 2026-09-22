@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00726",
-	"slug": "צר-1",
-	"headword": {
-		"text": "צֹר"
-	},
+	"sefariaHeadword": "צֹר",
+	"headwords": [
+		{
+			"text": "צֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1299,
 		"column": "a"

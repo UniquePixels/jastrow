@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00145",
-	"slug": "לגש",
-	"headword": {
-		"text": "לֶגֶשׁ"
-	},
+	"sefariaHeadword": "לֶגֶשׁ",
+	"headwords": [
+		{
+			"text": "לֶגֶשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 693,
 		"column": "a"

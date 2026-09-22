@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00679",
-	"slug": "טפר",
-	"headword": {
-		"text": "טְפַר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טְפַר",
+	"headwords": [
+		{
+			"text": "טְפַר"
+		},
 		{
 			"text": "טִפְרָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 548,
 		"column": "b"

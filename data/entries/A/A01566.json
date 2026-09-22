@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01566",
-	"slug": "איפרכוסיא",
-	"headword": {
-		"text": "אִיפַּרְכוּסְיָא"
-	},
+	"sefariaHeadword": "אִיפַּרְכוּסְיָא",
+	"headwords": [
+		{
+			"text": "אִיפַּרְכוּסְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 59,
 		"column": "a"

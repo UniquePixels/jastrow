@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01425",
-	"slug": "ערערין",
-	"headword": {
-		"text": "עַרְעֲרִין"
-	},
+	"sefariaHeadword": "עַרְעֲרִין",
+	"headwords": [
+		{
+			"text": "עַרְעֲרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1122,
 		"column": "a"

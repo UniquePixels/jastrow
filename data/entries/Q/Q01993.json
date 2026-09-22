@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01993",
-	"slug": "פרקון",
-	"headword": {
-		"text": "פֵּרָקוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פֵּרָקוֹן",
+	"headwords": [
 		{
-			"text": "פֵּי׳"
+			"text": "פֵּרָקוֹן"
+		},
+		{
+			"text": "פֵּי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1240,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01057",
-	"slug": "דרומאה",
-	"headword": {
-		"text": "דְּרוֹמָאָה"
-	},
+	"sefariaHeadword": "דְּרוֹמָאָה",
+	"headwords": [
+		{
+			"text": "דְּרוֹמָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 322,
 		"column": "a"

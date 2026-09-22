@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01652",
-	"slug": "קסטלין",
-	"headword": {
-		"text": "קַסְטְלִין"
-	},
+	"sefariaHeadword": "קַסְטְלִין",
+	"headwords": [
+		{
+			"text": "קַסְטְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1396,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00925",
-	"slug": "במה",
-	"headword": {
-		"text": "בָּמָה"
-	},
+	"sefariaHeadword": "בָּמָה",
+	"headwords": [
+		{
+			"text": "בָּמָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "a"

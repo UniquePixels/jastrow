@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "S01077",
-	"slug": "קיסמית",
-	"headword": {
-		"text": "קִיסְמִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיסְמִית",
+	"headwords": [
 		{
-			"text": "קִסְ׳"
+			"text": "קִיסְמִית"
+		},
+		{
+			"text": "קִסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "a"

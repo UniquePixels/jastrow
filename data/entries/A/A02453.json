@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02453",
-	"slug": "אסכילי",
-	"headword": {
-		"text": "אסכילי"
-	},
+	"sefariaHeadword": "אסכילי",
+	"headwords": [
+		{
+			"text": "אסכילי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 94,
 		"column": "a"

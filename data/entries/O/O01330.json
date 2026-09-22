@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01330",
-	"slug": "ספונאות",
-	"headword": {
-		"text": "ספונאות"
-	},
+	"sefariaHeadword": "ספונאות",
+	"headwords": [
+		{
+			"text": "ספונאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1012,
 		"column": "a"

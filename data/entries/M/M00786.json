@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00786",
-	"slug": "מזרן",
-	"headword": {
-		"text": "מִזְרָן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִזְרָן",
+	"headwords": [
+		{
+			"text": "מִזְרָן"
+		},
 		{
 			"text": "מִיזְרָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 756,
 		"column": "b"

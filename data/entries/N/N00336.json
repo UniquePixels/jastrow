@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00336",
-	"slug": "נוז-1",
-	"headword": {
-		"text": "נוּז"
-	},
+	"sefariaHeadword": "נוּז",
+	"headwords": [
+		{
+			"text": "נוּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "b"

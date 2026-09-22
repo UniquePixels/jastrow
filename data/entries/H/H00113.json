@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00113",
-	"slug": "חברא",
-	"headword": {
-		"text": "חַבְרָא"
-	},
+	"sefariaHeadword": "חַבְרָא",
+	"headwords": [
+		{
+			"text": "חַבְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 422,
 		"column": "b"
@@ -39,7 +43,7 @@
 						"<cite ref=\"Aramaic Targum to Job 12:2\">Targ. Job XII, 2</cite>. ",
 						"<cite ref=\"Aramaic Targum to Job 40:30\">Ib. XL, 30</cite> Ms. (ed. <he>חַכִּימַיָּא</he>). ",
 						"<cite ref=\"Niddah 6b:8\">Nidd. 6ᵇ</cite> <he>ח׳ מדכן וכ׳</he> the <i>Ḥăberim</i> observe &c., v. <cite ref=\"D00772\"><he>דְּכִי</he></cite>. ",
-						"<cite ref=\"Chullin 12b:4\">Ḥull. 12ᵇ</cite> <he>אושעי׳ זעירא דמן ח׳</he> O. junior, of the <i>Ḥabẹrim</i> (Tosaf.: of <i>Ḥabaria</i>, pr. n. pl.); <cite ref=\"Taanit 24a:12\">Taan. 24ᵃ</cite>. ",
+						"<cite ref=\"Chullin 12b:4\">Ḥull. 12ᵇ</cite> <he>אושעי׳ זעירא דמן ח׳</he> O. junior, of the <i>Ḥabẹrim</i> (Tosaf.: of <i>Ḥabaria</i>, pr. n. pl.); <cite ref=\"Taanit 24a:12\">Taan. 24ᵃ</cite>. ",
 						"<cite ref=\"Bereishit Rabbah 13\">Gen. R. s. 13</cite>, end <he>אבימי מן ח׳ וכ׳</he> A., one of the <i>Ḥ.</i>, visited a sick person, v. <cite ref=\"H00036\"><he>חֲבוּרְתָּא</he></cite>.—Fem. <cite ref=\"H00124\"><he>חֲבֶרְתָּא</he></cite>, <he>חֲבֶירְ׳</he>. ",
 						"<cite ref=\"Aramaic Targum to Psalms 110:1\">Targ. Ps. CX, 1</cite> (v. ",
 						"<cite ref=\"Berakhot 48b\">Ber. 48ᵇ</cite> quot. s. v. <cite ref=\"H00109\"><he>חָבֵר</he></cite> fem.). ",

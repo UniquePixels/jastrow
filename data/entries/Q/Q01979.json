@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01979",
-	"slug": "פרצידא",
-	"headword": {
-		"text": "פַּרְצִידָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּרְצִידָא",
+	"headwords": [
+		{
+			"text": "פַּרְצִידָא"
+		},
 		{
 			"text": "פַּרְצִדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1238,
 		"column": "b"

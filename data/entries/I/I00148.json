@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00148",
-	"slug": "טוטפראות",
-	"headword": {
-		"text": "טוֹטַפְרָאוֹת"
-	},
+	"sefariaHeadword": "טוֹטַפְרָאוֹת",
+	"headwords": [
+		{
+			"text": "טוֹטַפְרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

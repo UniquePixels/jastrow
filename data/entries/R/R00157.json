@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00157",
-	"slug": "צובה-1",
-	"headword": {
-		"text": "צוּבָה"
-	},
+	"sefariaHeadword": "צוּבָה",
+	"headwords": [
+		{
+			"text": "צוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1265,
 		"column": "b"

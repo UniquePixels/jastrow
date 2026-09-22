@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00284",
-	"slug": "קוזקזתא",
-	"headword": {
-		"text": "קוּזְקְזָתָא"
-	},
+	"sefariaHeadword": "קוּזְקְזָתָא",
+	"headwords": [
+		{
+			"text": "קוּזְקְזָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

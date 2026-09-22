@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02134",
-	"slug": "פתוי",
-	"headword": {
-		"text": "פָּתוּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פָּתוּי",
+	"headwords": [
+		{
+			"text": "פָּתוּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1250,
 		"column": "b"

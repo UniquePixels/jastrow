@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00837",
-	"slug": "בלועה",
-	"headword": {
-		"text": "בְּלוּעָה"
-	},
+	"sefariaHeadword": "בְּלוּעָה",
+	"headwords": [
+		{
+			"text": "בְּלוּעָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 171,
 		"column": "b"

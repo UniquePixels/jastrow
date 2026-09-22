@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01352",
-	"slug": "כתובתא",
-	"headword": {
-		"text": "כְּתוּבְתָּא"
-	},
+	"sefariaHeadword": "כְּתוּבְתָּא",
+	"headwords": [
+		{
+			"text": "כְּתוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 680,
 		"column": "b"

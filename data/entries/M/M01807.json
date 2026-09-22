@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01807",
-	"slug": "מנפול",
-	"headword": {
-		"text": "מָנְפּוֹל"
-	},
+	"sefariaHeadword": "מָנְפּוֹל",
+	"headwords": [
+		{
+			"text": "מָנְפּוֹל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

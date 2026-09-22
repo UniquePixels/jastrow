@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00100",
-	"slug": "זהירות",
-	"headword": {
-		"text": "זְהִירוּת"
-	},
+	"sefariaHeadword": "זְהִירוּת",
+	"headwords": [
+		{
+			"text": "זְהִירוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 381,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00261",
-	"slug": "מדוורתא",
-	"headword": {
-		"text": "מדוורתא"
-	},
+	"sefariaHeadword": "מדוורתא",
+	"headwords": [
+		{
+			"text": "מדוורתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

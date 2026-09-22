@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00317",
-	"slug": "תורקי",
-	"headword": {
-		"text": "תּוּרְקִי"
-	},
+	"sefariaHeadword": "תּוּרְקִי",
+	"headwords": [
+		{
+			"text": "תּוּרְקִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1658,
 		"column": "b"

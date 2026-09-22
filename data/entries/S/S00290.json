@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00290",
-	"slug": "קוטיזמי",
-	"headword": {
-		"text": "קוטיזמי"
-	},
+	"sefariaHeadword": "קוטיזמי",
+	"headwords": [
+		{
+			"text": "קוטיזמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "a"

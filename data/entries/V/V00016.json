@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00016",
-	"slug": "תאוטני",
-	"headword": {
-		"text": "תאוטני"
-	},
+	"sefariaHeadword": "תאוטני",
+	"headwords": [
+		{
+			"text": "תאוטני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1642,
 		"column": "a"

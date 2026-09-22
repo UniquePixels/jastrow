@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01999",
-	"slug": "פרקיד",
-	"headword": {
-		"text": "פַּרְקֵיד"
-	},
+	"sefariaHeadword": "פַּרְקֵיד",
+	"headwords": [
+		{
+			"text": "פַּרְקֵיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "a"

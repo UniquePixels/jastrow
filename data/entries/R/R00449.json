@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00449",
-	"slug": "ציר-3",
-	"headword": {
-		"text": "צִיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיר",
+	"headwords": [
+		{
+			"text": "צִיר"
+		},
 		{
 			"text": "צִירָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1280,
 		"column": "b"

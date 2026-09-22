@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00042",
-	"slug": "זבינתא",
-	"headword": {
-		"text": "זְבִינְתָּא"
-	},
+	"sefariaHeadword": "זְבִינְתָּא",
+	"headwords": [
+		{
+			"text": "זְבִינְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 379,
 		"column": "a"

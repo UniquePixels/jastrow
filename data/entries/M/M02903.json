@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02903",
-	"slug": "משכין",
-	"headword": {
-		"text": "מַשְׁכֵּין"
-	},
+	"sefariaHeadword": "מַשְׁכֵּין",
+	"headwords": [
+		{
+			"text": "מַשְׁכֵּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 854,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00330",
-	"slug": "גוויה",
-	"headword": {
-		"text": "גְּוִויָּה"
-	},
+	"sefariaHeadword": "גְּוִויָּה",
+	"headwords": [
+		{
+			"text": "גְּוִויָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 219,
 		"column": "b"

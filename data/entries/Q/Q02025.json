@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02025",
-	"slug": "פרש-6",
-	"headword": {
-		"text": "פָּרָשׁ"
-	},
+	"sefariaHeadword": "פָּרָשׁ",
+	"headwords": [
+		{
+			"text": "פָּרָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1243,
 		"column": "b"

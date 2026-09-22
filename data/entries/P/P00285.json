@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "P00285",
-	"slug": "עומקא-2",
-	"headword": {
-		"text": "עוּמְקָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוּמְקָא II",
+	"headwords": [
 		{
-			"text": "עוֹ׳"
+			"text": "עוּמְקָא",
+			"homograph": 2
+		},
+		{
+			"text": "עוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1053,
 		"column": "a"

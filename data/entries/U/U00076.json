@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00076",
-	"slug": "שבוייתא",
-	"headword": {
-		"text": "שְׁבוֹיָיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁבוֹיָיתָא",
+	"headwords": [
+		{
+			"text": "שְׁבוֹיָיתָא"
+		},
 		{
 			"text": "שְׁבוֹיָיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1510,
 		"column": "b"

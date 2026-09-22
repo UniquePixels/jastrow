@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00197",
-	"slug": "חדיסר",
-	"headword": {
-		"text": "חֲדֵיסַר"
-	},
+	"sefariaHeadword": "חֲדֵיסַר",
+	"headwords": [
+		{
+			"text": "חֲדֵיסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

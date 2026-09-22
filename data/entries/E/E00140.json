@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00140",
-	"slug": "הדסה",
-	"headword": {
-		"text": "הֲדַסָּה"
-	},
+	"sefariaHeadword": "הֲדַסָּה",
+	"headwords": [
+		{
+			"text": "הֲדַסָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 334,
 		"column": "a"

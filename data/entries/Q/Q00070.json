@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00070",
-	"slug": "פגלגולה",
-	"headword": {
-		"text": "פגלגולה"
-	},
+	"sefariaHeadword": "פגלגולה",
+	"headwords": [
+		{
+			"text": "פגלגולה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1133,
 		"column": "b"

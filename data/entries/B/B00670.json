@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00670",
-	"slug": "ביעור",
-	"headword": {
-		"text": "בִּיעוּר"
-	},
+	"sefariaHeadword": "בִּיעוּר",
+	"headwords": [
+		{
+			"text": "בִּיעוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 164,
 		"column": "a"

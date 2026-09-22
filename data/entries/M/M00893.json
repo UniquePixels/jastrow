@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00893",
-	"slug": "מחלץ",
-	"headword": {
-		"text": "מַחֲלָץ"
-	},
+	"sefariaHeadword": "מַחֲלָץ",
+	"headwords": [
+		{
+			"text": "מַחֲלָץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "a"

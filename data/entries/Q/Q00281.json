@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00281",
-	"slug": "פונין",
-	"headword": {
-		"text": "פּוּנִין"
-	},
+	"sefariaHeadword": "פּוּנִין",
+	"headwords": [
+		{
+			"text": "פּוּנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1144,
 		"column": "a"

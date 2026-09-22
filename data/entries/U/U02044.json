@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02044",
-	"slug": "שרשיפא",
-	"headword": {
-		"text": "שַׁרְשִׁיפָא"
-	},
+	"sefariaHeadword": "שַׁרְשִׁיפָא",
+	"headwords": [
+		{
+			"text": "שַׁרְשִׁיפָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1635,
 		"column": "b"

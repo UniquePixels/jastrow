@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00340",
-	"slug": "לחוש-1",
-	"headword": {
-		"text": "לְחוֹשׁ"
-	},
+	"sefariaHeadword": "לְחוֹשׁ",
+	"headwords": [
+		{
+			"text": "לְחוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 702,
 		"column": "a"

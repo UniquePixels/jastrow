@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00729",
-	"slug": "עכוז",
-	"headword": {
-		"text": "עָכוּז"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָכוּז",
+	"headwords": [
+		{
+			"text": "עָכוּז"
+		},
 		{
 			"text": "עָכָז"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1078,
 		"column": "b"

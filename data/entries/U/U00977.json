@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00977",
-	"slug": "שינותא",
-	"headword": {
-		"text": "שינותא"
-	},
+	"sefariaHeadword": "שינותא",
+	"headwords": [
+		{
+			"text": "שינותא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1564,
 		"column": "b"

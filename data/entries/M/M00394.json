@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00394",
-	"slug": "מובת",
-	"headword": {
-		"text": "מוּבָת"
-	},
+	"sefariaHeadword": "מוּבָת",
+	"headwords": [
+		{
+			"text": "מוּבָת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 738,
 		"column": "a"

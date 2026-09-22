@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01662",
-	"slug": "חרטה",
-	"headword": {
-		"text": "חֲרָטָה"
-	},
+	"sefariaHeadword": "חֲרָטָה",
+	"headwords": [
+		{
+			"text": "חֲרָטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 501,
 		"column": "b"

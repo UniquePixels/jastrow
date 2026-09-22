@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00175",
-	"slug": "נגס-2",
-	"headword": {
-		"text": "נְגַס"
-	},
+	"sefariaHeadword": "נְגַס",
+	"headwords": [
+		{
+			"text": "נְגַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

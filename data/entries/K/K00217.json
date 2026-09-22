@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00217",
-	"slug": "כוורדקי",
-	"headword": {
-		"text": "כוורדקי"
-	},
+	"sefariaHeadword": "כוורדקי",
+	"headwords": [
+		{
+			"text": "כוורדקי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 617,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02745",
-	"slug": "אפנקריסין",
-	"headword": {
-		"text": "אַפַּנְקְרִיסִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפַּנְקְרִיסִין",
+	"headwords": [
+		{
+			"text": "אַפַּנְקְרִיסִין"
+		},
 		{
 			"text": "פַּנְקְרִיסִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 105,
 		"column": "b"

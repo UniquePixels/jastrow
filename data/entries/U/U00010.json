@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00010",
-	"slug": "שאובה",
-	"headword": {
-		"text": "שְׁאוּבָה"
-	},
+	"sefariaHeadword": "שְׁאוּבָה",
+	"headwords": [
+		{
+			"text": "שְׁאוּבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1505,
 		"column": "b"

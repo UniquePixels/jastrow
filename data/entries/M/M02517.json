@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02517",
-	"slug": "מרגלא-1",
-	"headword": {
-		"text": "מַרְגְּלָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מַרְגְּלָא I",
+	"headwords": [
+		{
+			"text": "מַרְגְּלָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 835,
 		"column": "b"

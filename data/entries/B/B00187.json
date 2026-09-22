@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00187",
-	"slug": "בהקא",
-	"headword": {
-		"text": "בַּהֲקָא"
-	},
+	"sefariaHeadword": "בַּהֲקָא",
+	"headwords": [
+		{
+			"text": "בַּהֲקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 143,
 		"column": "a"

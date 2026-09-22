@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00204",
-	"slug": "גדיל-2",
-	"headword": {
-		"text": "גָּדִיל"
-	},
+	"sefariaHeadword": "גָּדִיל",
+	"headwords": [
+		{
+			"text": "גָּדִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

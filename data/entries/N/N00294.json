@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00294",
-	"slug": "נוב-1",
-	"headword": {
-		"text": "נוּב"
-	},
+	"sefariaHeadword": "נוּב",
+	"headwords": [
+		{
+			"text": "נוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"

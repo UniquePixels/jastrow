@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01071",
-	"slug": "רשה",
-	"headword": {
-		"text": "רָשָׁה"
-	},
+	"sefariaHeadword": "רָשָׁה",
+	"headwords": [
+		{
+			"text": "רָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1499,
 		"column": "a"

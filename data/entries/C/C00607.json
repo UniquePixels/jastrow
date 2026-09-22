@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00607",
-	"slug": "גיארא",
-	"headword": {
-		"text": "גַּיָּארָא"
-	},
+	"sefariaHeadword": "גַּיָּארָא",
+	"headwords": [
+		{
+			"text": "גַּיָּארָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "a"

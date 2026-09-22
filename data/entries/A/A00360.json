@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00360",
-	"slug": "אגרס",
-	"headword": {
-		"text": "אַגְרָס"
-	},
+	"sefariaHeadword": "אַגְרָס",
+	"headwords": [
+		{
+			"text": "אַגְרָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 15,
 		"column": "a"

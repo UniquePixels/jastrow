@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00610",
-	"slug": "תלמידא-2",
-	"headword": {
-		"text": "תלמידא"
-	},
+	"sefariaHeadword": "תלמידא",
+	"headwords": [
+		{
+			"text": "תלמידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1672,
 		"column": "b"

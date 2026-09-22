@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00417",
-	"slug": "יממי",
-	"headword": {
-		"text": "יַמְמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יַמְמֵי",
+	"headwords": [
+		{
+			"text": "יַמְמֵי"
+		},
 		{
 			"text": "יַמְמַיָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "a"

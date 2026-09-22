@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02367",
-	"slug": "אסטטיונר",
-	"headword": {
-		"text": "אִסְטַטְיוֹנַר"
-	},
+	"sefariaHeadword": "אִסְטַטְיוֹנַר",
+	"headwords": [
+		{
+			"text": "אִסְטַטְיוֹנַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

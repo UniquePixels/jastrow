@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02203",
-	"slug": "פתרא",
-	"headword": {
-		"text": "פִּתְרָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*פִּתְרָא",
+	"headwords": [
+		{
+			"text": "פִּתְרָא",
+			"reconstructed": true
+		},
 		{
 			"text": "פִּי׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1} II",
 	"page": {
 		"number": 1256,
 		"column": "a"

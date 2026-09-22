@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00095",
-	"slug": "גביני",
-	"headword": {
-		"text": "גְּבִינִי"
-	},
+	"sefariaHeadword": "גְּבִינִי",
+	"headwords": [
+		{
+			"text": "גְּבִינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 206,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01507",
-	"slug": "שמני",
-	"headword": {
-		"text": "שְׁמָנִי"
-	},
+	"sefariaHeadword": "שְׁמָנִי",
+	"headwords": [
+		{
+			"text": "שְׁמָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1598,
 		"column": "b"

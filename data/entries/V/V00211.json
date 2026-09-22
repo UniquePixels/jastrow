@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00211",
-	"slug": "תולבקני",
-	"headword": {
-		"text": "תּוּלְבַּקְנֵי"
-	},
+	"sefariaHeadword": "תּוּלְבַּקְנֵי",
+	"headwords": [
+		{
+			"text": "תּוּלְבַּקְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1653,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

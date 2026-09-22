@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00106",
-	"slug": "נברא",
-	"headword": {
-		"text": "נְבָרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְבָרָא",
+	"headwords": [
+		{
+			"text": "נְבָרָא"
+		},
 		{
 			"text": "נְבָארָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 870,
 		"column": "b"

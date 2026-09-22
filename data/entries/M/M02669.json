@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02669",
-	"slug": "מריחא",
-	"headword": {
-		"text": "מְרִיחָא"
-	},
+	"sefariaHeadword": "מְרִיחָא",
+	"headwords": [
+		{
+			"text": "מְרִיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01230",
-	"slug": "עקשן",
-	"headword": {
-		"text": "עִקְשָׁן"
-	},
+	"sefariaHeadword": "עִקְשָׁן",
+	"headwords": [
+		{
+			"text": "עִקְשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1109,
 		"column": "a"

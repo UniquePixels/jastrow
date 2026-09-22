@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00676",
-	"slug": "דיפלא",
-	"headword": {
-		"text": "דִּיפְּלָא"
-	},
+	"sefariaHeadword": "דִּיפְּלָא",
+	"headwords": [
+		{
+			"text": "דִּיפְּלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 303,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00202",
-	"slug": "דודניא",
-	"headword": {
-		"text": "דּוֹדַנְיָא"
-	},
+	"sefariaHeadword": "דּוֹדַנְיָא",
+	"headwords": [
+		{
+			"text": "דּוֹדַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 283,
 		"column": "b"

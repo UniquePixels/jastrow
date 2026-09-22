@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00807",
-	"slug": "שיבסר",
-	"headword": {
-		"text": "שֵׁיבְסַר"
-	},
+	"sefariaHeadword": "שֵׁיבְסַר",
+	"headwords": [
+		{
+			"text": "שֵׁיבְסַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1557,
 		"column": "b"

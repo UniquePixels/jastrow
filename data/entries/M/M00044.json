@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00044",
-	"slug": "מאמר",
-	"headword": {
-		"text": "מַאֲמָר"
-	},
+	"sefariaHeadword": "מַאֲמָר",
+	"headwords": [
+		{
+			"text": "מַאֲמָר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

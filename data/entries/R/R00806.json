@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00806",
-	"slug": "צרצורא",
-	"headword": {
-		"text": "צַרְצוּרָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*צַרְצוּרָא",
+	"headwords": [
+		{
+			"text": "צַרְצוּרָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1305,
 		"column": "a"

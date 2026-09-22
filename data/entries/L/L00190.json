@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00190",
-	"slug": "לוגסטוס",
-	"headword": {
-		"text": "לוגסטוס"
-	},
+	"sefariaHeadword": "לוגסטוס",
+	"headwords": [
+		{
+			"text": "לוגסטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "b"

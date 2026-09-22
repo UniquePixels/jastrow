@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00393",
-	"slug": "גוליקוס",
-	"headword": {
-		"text": "גוליקוס"
-	},
+	"sefariaHeadword": "גוליקוס",
+	"headwords": [
+		{
+			"text": "גוליקוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "a"

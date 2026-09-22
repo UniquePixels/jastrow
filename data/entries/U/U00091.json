@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00091",
-	"slug": "שבות",
-	"headword": {
-		"text": "שְׁבוּת"
-	},
+	"sefariaHeadword": "שְׁבוּת",
+	"headwords": [
+		{
+			"text": "שְׁבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1511,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00810",
-	"slug": "אופל",
-	"headword": {
-		"text": "אוֹפֶל"
-	},
+	"sefariaHeadword": "אוֹפֶל",
+	"headwords": [
+		{
+			"text": "אוֹפֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 31,
 		"column": "b"

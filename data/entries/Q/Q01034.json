@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01034",
-	"slug": "פלי-1",
-	"headword": {
-		"text": "פָּלִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*פָּלִי",
+	"headwords": [
+		{
+			"text": "פָּלִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1180,
 		"column": "b"

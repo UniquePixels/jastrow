@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00872",
-	"slug": "חירו",
-	"headword": {
-		"text": "חֵירוּ"
-	},
+	"sefariaHeadword": "חֵירוּ",
+	"headwords": [
+		{
+			"text": "חֵירוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "a"

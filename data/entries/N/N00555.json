@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00555",
-	"slug": "נטי-1",
-	"headword": {
-		"text": "נטי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נטי",
+	"headwords": [
+		{
+			"text": "נטי"
+		},
 		{
 			"text": "נָטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 898,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00719",
-	"slug": "ניע",
-	"headword": {
-		"text": "נִיעַ"
-	},
+	"sefariaHeadword": "נִיעַ",
+	"headwords": [
+		{
+			"text": "נִיעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 906,
 		"column": "b"

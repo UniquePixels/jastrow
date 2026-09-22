@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01224",
-	"slug": "סני-4",
-	"headword": {
-		"text": "סְנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְנֵי",
+	"headwords": [
+		{
+			"text": "סְנֵי"
+		},
 		{
 			"text": "סְנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1006,
 		"column": "b"

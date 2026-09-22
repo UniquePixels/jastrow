@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02009",
-	"slug": "פרקמטוטיס",
-	"headword": {
-		"text": "פְּרַקְמָטוֹטֵיס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַקְמָטוֹטֵיס",
+	"headwords": [
+		{
+			"text": "פְּרַקְמָטוֹטֵיס"
+		},
 		{
 			"text": "פְּרַקְמַטְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "פְּרַקְמַטְיוֹטֵיס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1241,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01157",
-	"slug": "גנפא",
-	"headword": {
-		"text": "גַּנְפָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גַּנְפָא",
+	"headwords": [
+		{
+			"text": "גַּנְפָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 260,
 		"column": "a"

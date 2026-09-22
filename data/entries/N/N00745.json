@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00745",
-	"slug": "ניצבא",
-	"headword": {
-		"text": "נִיצְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצְבָא",
+	"headwords": [
+		{
+			"text": "נִיצְבָא"
+		},
 		{
 			"text": "נִיצְבְּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "b"

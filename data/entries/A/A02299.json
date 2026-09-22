@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02299",
-	"slug": "אנקלמוס",
-	"headword": {
-		"text": "אנקלמוס"
-	},
+	"sefariaHeadword": "אנקלמוס",
+	"headwords": [
+		{
+			"text": "אנקלמוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

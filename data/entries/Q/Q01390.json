@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01390",
-	"slug": "פעפועא-1",
-	"headword": {
-		"text": "פַּעְפּוּעָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פַּעְפּוּעָא I",
+	"headwords": [
+		{
+			"text": "פַּעְפּוּעָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1203,
 		"column": "a"

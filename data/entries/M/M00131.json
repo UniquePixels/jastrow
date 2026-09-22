@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00131",
-	"slug": "מגוסא",
-	"headword": {
-		"text": "מְגוּסָא"
-	},
+	"sefariaHeadword": "מְגוּסָא",
+	"headwords": [
+		{
+			"text": "מְגוּסָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 726,
 		"column": "b"

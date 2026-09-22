@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01645",
-	"slug": "איתי-1",
-	"headword": {
-		"text": "אִיתַי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִיתַי",
+	"headwords": [
+		{
+			"text": "אִיתַי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 61,
 		"column": "b"

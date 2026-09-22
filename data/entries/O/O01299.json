@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O01299",
-	"slug": "סערא",
-	"headword": {
-		"text": "סַעֲרָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַעֲרָא II",
+	"headwords": [
+		{
+			"text": "סַעֲרָא",
+			"homograph": 2
+		},
 		{
 			"text": "סְעָרָא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1010,
 		"column": "b"

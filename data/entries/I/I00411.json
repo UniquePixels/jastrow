@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00411",
-	"slug": "טיפא-2",
-	"headword": {
-		"text": "טִיפָּא"
-	},
+	"sefariaHeadword": "טִיפָּא",
+	"headwords": [
+		{
+			"text": "טִיפָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 533,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00106",
-	"slug": "סגו",
-	"headword": {
-		"text": "סֵגוּ"
-	},
+	"sefariaHeadword": "סֵגוּ",
+	"headwords": [
+		{
+			"text": "סֵגוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 953,
 		"column": "b"

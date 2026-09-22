@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00655",
-	"slug": "תמהתא",
-	"headword": {
-		"text": "תִּמְהֲתָא"
-	},
+	"sefariaHeadword": "תִּמְהֲתָא",
+	"headwords": [
+		{
+			"text": "תִּמְהֲתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1675,
 		"column": "b"

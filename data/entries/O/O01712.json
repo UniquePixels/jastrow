@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01712",
-	"slug": "סתר-2",
-	"headword": {
-		"text": "סְתַר"
-	},
+	"sefariaHeadword": "סְתַר",
+	"headwords": [
+		{
+			"text": "סְתַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1033,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00427",
-	"slug": "בזול",
-	"headword": {
-		"text": "בְּזוּל"
-	},
+	"sefariaHeadword": "בְּזוּל",
+	"headwords": [
+		{
+			"text": "בְּזוּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 152,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00768",
-	"slug": "גינירות",
-	"headword": {
-		"text": "גינירות"
-	},
+	"sefariaHeadword": "גינירות",
+	"headwords": [
+		{
+			"text": "גינירות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 240,
 		"column": "a"

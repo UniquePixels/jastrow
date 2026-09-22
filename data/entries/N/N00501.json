@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00501",
-	"slug": "נחלא",
-	"headword": {
-		"text": "נַחֲלָא"
-	},
+	"sefariaHeadword": "נַחֲלָא",
+	"headwords": [
+		{
+			"text": "נַחֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 895,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01157",
-	"slug": "עקוב",
-	"headword": {
-		"text": "עָקוֹב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָקוֹב",
+	"headwords": [
+		{
+			"text": "עָקוֹב"
+		},
 		{
 			"text": "עָקֹב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1105,
 		"column": "a"

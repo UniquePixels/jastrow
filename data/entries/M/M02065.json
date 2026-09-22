@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02065",
-	"slug": "מעדיר",
-	"headword": {
-		"text": "מַעְדֵּיר"
-	},
+	"sefariaHeadword": "מַעְדֵּיר",
+	"headwords": [
+		{
+			"text": "מַעְדֵּיר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

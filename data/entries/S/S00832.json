@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "S00832",
-	"slug": "קטרון-1",
-	"headword": {
-		"text": "קִטְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִטְרוֹן",
+	"headwords": [
+		{
+			"text": "קִטְרוֹן"
+		},
 		{
 			"text": "קִי׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1353,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00706",
-	"slug": "קטה-3",
-	"headword": {
-		"text": "קִטָּה"
-	},
+	"sefariaHeadword": "קִטָּה",
+	"headwords": [
+		{
+			"text": "קִטָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

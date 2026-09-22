@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01108",
-	"slug": "רשף",
-	"headword": {
-		"text": "רֶשֶׁף"
-	},
+	"sefariaHeadword": "רֶשֶׁף",
+	"headwords": [
+		{
+			"text": "רֶשֶׁף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1502,
 		"column": "a"

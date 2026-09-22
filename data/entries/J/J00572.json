@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00572",
-	"slug": "יקים",
-	"headword": {
-		"text": "יָקִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָקִים",
+	"headwords": [
+		{
+			"text": "יָקִים"
+		},
 		{
 			"text": "יָקוּם"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 591,
 		"column": "b"

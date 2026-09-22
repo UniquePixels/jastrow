@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00404",
-	"slug": "תיאטרון",
-	"headword": {
-		"text": "תִּיאַטְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּיאַטְרוֹן",
+	"headwords": [
+		{
+			"text": "תִּיאַטְרוֹן"
+		},
 		{
 			"text": "תְּיַיטְרוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1663,
 		"column": "a"

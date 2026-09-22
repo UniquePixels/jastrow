@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01048",
-	"slug": "גמליאל",
-	"headword": {
-		"text": "גַּמְלִיאֵל"
-	},
+	"sefariaHeadword": "גַּמְלִיאֵל",
+	"headwords": [
+		{
+			"text": "גַּמְלִיאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

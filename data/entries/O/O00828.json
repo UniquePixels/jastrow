@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00828",
-	"slug": "סירא-1",
-	"headword": {
-		"text": "סִירָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "סִירָא I",
+	"headwords": [
+		{
+			"text": "סִירָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 987,
 		"column": "a"

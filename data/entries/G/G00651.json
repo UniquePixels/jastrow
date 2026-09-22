@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00651",
-	"slug": "זקפותא",
-	"headword": {
-		"text": "זְקָפוּתָא"
-	},
+	"sefariaHeadword": "זְקָפוּתָא",
+	"headwords": [
+		{
+			"text": "זְקָפוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 410,
 		"column": "a"

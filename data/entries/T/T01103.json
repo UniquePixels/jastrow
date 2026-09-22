@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T01103",
-	"slug": "רשעא",
-	"headword": {
-		"text": "רִשְׁעָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִשְׁעָא",
+	"headwords": [
 		{
-			"text": "רִי׳"
+			"text": "רִשְׁעָא"
+		},
+		{
+			"text": "רִי׳",
+			"partial": true
 		},
 		{
 			"text": "רְשַׁע"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1501,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01022",
-	"slug": "אחזיונה",
-	"headword": {
-		"text": "אחזיונה"
-	},
+	"sefariaHeadword": "אחזיונה",
+	"headwords": [
+		{
+			"text": "אחזיונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00637",
-	"slug": "זקיפין",
-	"headword": {
-		"text": "זְקִיפִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְקִיפִין",
+	"headwords": [
+		{
+			"text": "זְקִיפִין"
+		},
 		{
 			"text": "זְקוֹפִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 409,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00224",
-	"slug": "לוות",
-	"headword": {
-		"text": "לְוַות"
-	},
+	"sefariaHeadword": "לְוַות",
+	"headwords": [
+		{
+			"text": "לְוַות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 695,
 		"column": "b"

@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "H00179",
-	"slug": "חדוא",
-	"headword": {
-		"text": "חֶדְוָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֶדְוָא",
+	"headwords": [
+		{
+			"text": "חֶדְוָא"
+		},
 		{
 			"text": "חֶדְוָוא"
 		},
 		{
-			"text": "חִדְ׳"
+			"text": "חִדְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 425,
 		"column": "b"

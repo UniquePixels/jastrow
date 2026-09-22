@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01779",
-	"slug": "אלדי",
-	"headword": {
-		"text": "אלדי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אלדי",
+	"headwords": [
+		{
+			"text": "אלדי"
+		},
 		{
 			"text": "אלדים"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 66,
 		"column": "b"

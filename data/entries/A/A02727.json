@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02727",
-	"slug": "אפך-1",
-	"headword": {
-		"text": "אָפַךְ"
-	},
+	"sefariaHeadword": "אָפַךְ",
+	"headwords": [
+		{
+			"text": "אָפַךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "a"

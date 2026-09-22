@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "T00329",
-	"slug": "רווח-4",
-	"headword": {
-		"text": "רְוַוח",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְוַוח ²",
+	"headwords": [
+		{
+			"text": "רְוַוח",
+			"disambiguator": 2
+		},
 		{
 			"text": "רְוַח",
 			"homograph": 2
@@ -17,6 +18,7 @@
 			"text": "רַוְחָא"
 		}
 	],
+	"display": "{0} ², {1} II, {2}, {3}",
 	"page": {
 		"number": 1457,
 		"column": "a"

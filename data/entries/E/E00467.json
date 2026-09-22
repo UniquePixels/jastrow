@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00467",
-	"slug": "הינק",
-	"headword": {
-		"text": "הִינָק"
-	},
+	"sefariaHeadword": "הִינָק",
+	"headwords": [
+		{
+			"text": "הִינָק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 348,
 		"column": "b"

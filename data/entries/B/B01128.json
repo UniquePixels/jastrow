@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01128",
-	"slug": "בקע-1",
-	"headword": {
-		"text": "בָּקַע"
-	},
+	"sefariaHeadword": "בָּקַע",
+	"headwords": [
+		{
+			"text": "בָּקַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 186,
 		"column": "b"

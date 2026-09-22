@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00710",
-	"slug": "ריקניא",
-	"headword": {
-		"text": "רֵיקַנְיָא"
-	},
+	"sefariaHeadword": "רֵיקַנְיָא",
+	"headwords": [
+		{
+			"text": "רֵיקַנְיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1477,
 		"column": "b"

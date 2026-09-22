@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00574",
-	"slug": "סיגרון-2",
-	"headword": {
-		"text": "סִיגָּרוֹן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סִיגָּרוֹן II",
+	"headwords": [
+		{
+			"text": "סִיגָּרוֹן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 976,
 		"column": "a"

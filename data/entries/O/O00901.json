@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00901",
-	"slug": "סכיס",
-	"headword": {
-		"text": "סַכִּיס"
-	},
+	"sefariaHeadword": "סַכִּיס",
+	"headwords": [
+		{
+			"text": "סַכִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 990,
 		"column": "a"

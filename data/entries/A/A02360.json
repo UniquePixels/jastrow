@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02360",
-	"slug": "אסטולי",
-	"headword": {
-		"text": "אִסְטוֹלִי"
-	},
+	"sefariaHeadword": "אִסְטוֹלִי",
+	"headwords": [
+		{
+			"text": "אִסְטוֹלִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 90,
 		"column": "a"

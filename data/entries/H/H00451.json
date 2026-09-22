@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00451",
-	"slug": "חורא-2",
-	"headword": {
-		"text": "חוֹרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חוֹרָא II",
+	"headwords": [
+		{
+			"text": "חוֹרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 439,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00002",
-	"slug": "ג׳",
-	"headword": {
-		"text": "ג׳"
-	},
+	"sefariaHeadword": "ג׳",
+	"headwords": [
+		{
+			"text": "ג׳"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 201,
 		"column": "a"

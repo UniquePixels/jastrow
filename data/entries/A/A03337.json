@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03337",
-	"slug": "אשפה",
-	"headword": {
-		"text": "אַשְׁפָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַשְׁפָּה",
+	"headwords": [
+		{
+			"text": "אַשְׁפָּה"
+		},
 		{
 			"text": "אֶישְׁפָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 129,
 		"column": "b"

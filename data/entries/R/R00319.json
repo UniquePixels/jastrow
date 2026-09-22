@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00319",
-	"slug": "ציהרא",
-	"headword": {
-		"text": "צִיהֲרָא"
-	},
+	"sefariaHeadword": "צִיהֲרָא",
+	"headwords": [
+		{
+			"text": "צִיהֲרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "a"

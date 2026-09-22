@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00637",
-	"slug": "גידומי",
-	"headword": {
-		"text": "גידומי"
-	},
+	"sefariaHeadword": "גידומי",
+	"headwords": [
+		{
+			"text": "גידומי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "a"

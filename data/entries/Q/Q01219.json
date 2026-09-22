@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01219",
-	"slug": "פנתר",
-	"headword": {
-		"text": "פַּנְתֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּנְתֵּר",
+	"headwords": [
+		{
+			"text": "פַּנְתֵּר"
+		},
 		{
 			"text": "פַּנְתֵּרִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּנְתֵּרִין"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1191,
 		"column": "a"

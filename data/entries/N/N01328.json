@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01328",
-	"slug": "נשל-1",
-	"headword": {
-		"text": "נָשַׁל"
-	},
+	"sefariaHeadword": "נָשַׁל",
+	"headwords": [
+		{
+			"text": "נָשַׁל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 940,
 		"column": "b"

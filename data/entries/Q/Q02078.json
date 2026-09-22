@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02078",
-	"slug": "פשיעותא",
-	"headword": {
-		"text": "פְּשִׁיעוּתָא"
-	},
+	"sefariaHeadword": "פְּשִׁיעוּתָא",
+	"headwords": [
+		{
+			"text": "פְּשִׁיעוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1247,
 		"column": "a"

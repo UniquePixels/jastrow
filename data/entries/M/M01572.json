@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01572",
-	"slug": "מלך-4",
-	"headword": {
-		"text": "מֶלֶךְ"
-	},
+	"sefariaHeadword": "מֶלֶךְ",
+	"headwords": [
+		{
+			"text": "מֶלֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 791,
 		"column": "a"

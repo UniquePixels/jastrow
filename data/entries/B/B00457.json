@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00457",
-	"slug": "בזל",
-	"headword": {
-		"text": "בַּזֵּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּזֵּל",
+	"headwords": [
+		{
+			"text": "בַּזֵּל"
+		},
 		{
 			"text": "בַּרְזֵל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 154,
 		"column": "a"

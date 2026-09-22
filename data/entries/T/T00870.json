@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00870",
-	"slug": "רעב-1",
-	"headword": {
-		"text": "רָעֵב",
-		"homograph": 1
-	},
+	"sefariaHeadword": "רָעֵב I",
+	"headwords": [
+		{
+			"text": "רָעֵב",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1485,
 		"column": "b"

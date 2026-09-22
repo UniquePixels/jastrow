@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00032",
-	"slug": "עבור-2",
-	"headword": {
-		"text": "עֲבוּר"
-	},
+	"sefariaHeadword": "עֲבוּר",
+	"headwords": [
+		{
+			"text": "עֲבוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1036,
 		"column": "b"

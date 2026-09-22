@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00459",
-	"slug": "ציריא",
-	"headword": {
-		"text": "צִירְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִירְיָא",
+	"headwords": [
 		{
-			"text": "צִרְ׳"
+			"text": "צִירְיָא"
+		},
+		{
+			"text": "צִרְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1281,
 		"column": "a"

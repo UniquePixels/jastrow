@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00119",
-	"slug": "גבנוני",
-	"headword": {
-		"text": "גִּבְנוֹנִי"
-	},
+	"sefariaHeadword": "גִּבְנוֹנִי",
+	"headwords": [
+		{
+			"text": "גִּבְנוֹנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 208,
 		"column": "a"

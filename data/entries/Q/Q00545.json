@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00545",
-	"slug": "פטפטין",
-	"headword": {
-		"text": "פִּטְפְּטִין"
-	},
+	"sefariaHeadword": "פִּטְפְּטִין",
+	"headwords": [
+		{
+			"text": "פִּטְפְּטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1157,
 		"column": "a"

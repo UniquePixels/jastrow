@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00441",
-	"slug": "נזייתא",
-	"headword": {
-		"text": "נִזְיָיתָא"
-	},
+	"sefariaHeadword": "נִזְיָיתָא",
+	"headwords": [
+		{
+			"text": "נִזְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 891,
 		"column": "a"

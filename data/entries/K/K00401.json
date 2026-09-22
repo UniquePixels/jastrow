@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00401",
-	"slug": "כושאה",
-	"headword": {
-		"text": "כּוּשָׁאָה"
-	},
+	"sefariaHeadword": "כּוּשָׁאָה",
+	"headwords": [
+		{
+			"text": "כּוּשָׁאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 626,
 		"column": "b"

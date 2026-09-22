@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00606",
-	"slug": "לעט",
-	"headword": {
-		"text": "לָעַט"
-	},
+	"sefariaHeadword": "לָעַט",
+	"headwords": [
+		{
+			"text": "לָעַט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 714,
 		"column": "a"

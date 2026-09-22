@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00360",
-	"slug": "מהיכא",
-	"headword": {
-		"text": "מֵהֵיכָא"
-	},
+	"sefariaHeadword": "מֵהֵיכָא",
+	"headwords": [
+		{
+			"text": "מֵהֵיכָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 737,
 		"column": "a"

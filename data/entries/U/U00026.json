@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00026",
-	"slug": "שאילה-2",
-	"headword": {
-		"text": "שְׁאִילָה"
-	},
+	"sefariaHeadword": "שְׁאִילָה",
+	"headwords": [
+		{
+			"text": "שְׁאִילָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1506,
 		"column": "a"

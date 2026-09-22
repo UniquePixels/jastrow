@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00118",
-	"slug": "חברה",
-	"headword": {
-		"text": "חֲבֵרָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲבֵרָה",
+	"headwords": [
+		{
+			"text": "חֲבֵרָה"
+		},
 		{
 			"text": "חֲבֵרוֹת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 422,
 		"column": "b"

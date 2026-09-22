@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01278",
-	"slug": "נרתיקות",
-	"headword": {
-		"text": "נרתיקות"
-	},
+	"sefariaHeadword": "נרתיקות",
+	"headwords": [
+		{
+			"text": "נרתיקות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 937,
 		"column": "a"

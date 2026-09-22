@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M00206",
-	"slug": "מגפתא",
-	"headword": {
-		"text": "מַגֵּפְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַגֵּפְתָּא",
+	"headwords": [
 		{
-			"text": "מַגֵּיפְ׳"
+			"text": "מַגֵּפְתָּא"
+		},
+		{
+			"text": "מַגֵּיפְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 730,
 		"column": "a"

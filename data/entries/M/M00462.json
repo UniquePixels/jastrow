@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00462",
-	"slug": "מוטה-1",
-	"headword": {
-		"text": "מוֹטָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹטָה",
+	"headwords": [
+		{
+			"text": "מוֹטָה"
+		},
 		{
 			"text": "מֹטָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 741,
 		"column": "a"

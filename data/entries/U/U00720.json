@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U00720",
-	"slug": "שחרר",
-	"headword": {
-		"text": "שִׁחֲרֵר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁחֲרֵר",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁחֲרֵר"
+		},
+		{
+			"text": "שִׁי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1552,
 		"column": "a"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H01623",
-	"slug": "חרוזיתא",
-	"headword": {
-		"text": "חֲרוּזִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲרוּזִיתָא",
+	"headwords": [
+		{
+			"text": "חֲרוּזִיתָא"
+		},
 		{
 			"text": "חֲרוּזְיָאתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "חֲרוּזְיָתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 499,
 		"column": "b"

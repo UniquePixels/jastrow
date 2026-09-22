@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00646",
-	"slug": "שחייא-1",
-	"headword": {
-		"text": "שִׁחְיָיא"
-	},
+	"sefariaHeadword": "שִׁחְיָיא",
+	"headwords": [
+		{
+			"text": "שִׁחְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1547,
 		"column": "b"

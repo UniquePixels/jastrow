@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "G00726",
-	"slug": "זרעון",
-	"headword": {
-		"text": "זֵרָעוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זֵרָעוֹן",
+	"headwords": [
+		{
+			"text": "זֵרָעוֹן"
+		},
 		{
 			"text": "זֵרְעוֹנִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "זֵרְעוֹנִים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 414,
 		"column": "b"

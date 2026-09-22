@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00618",
-	"slug": "צנורית",
-	"headword": {
-		"text": "צִנּוֹרִית"
-	},
+	"sefariaHeadword": "צִנּוֹרִית",
+	"headwords": [
+		{
+			"text": "צִנּוֹרִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1291,
 		"column": "b"

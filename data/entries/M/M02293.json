@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02293",
-	"slug": "מצופות",
-	"headword": {
-		"text": "מְצוֹפוֹת"
-	},
+	"sefariaHeadword": "מְצוֹפוֹת",
+	"headwords": [
+		{
+			"text": "מְצוֹפוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 824,
 		"column": "b"

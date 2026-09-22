@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01362",
-	"slug": "ספיק-1",
-	"headword": {
-		"text": "סְפֵיק"
-	},
+	"sefariaHeadword": "סְפֵיק",
+	"headwords": [
+		{
+			"text": "סְפֵיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1013,
 		"column": "b"

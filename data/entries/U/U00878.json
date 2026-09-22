@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00878",
-	"slug": "שיט",
-	"headword": {
-		"text": "שַׁיָּט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׁיָּט",
+	"headwords": [
+		{
+			"text": "שַׁיָּט"
+		},
 		{
 			"text": "שַׁיָּיט"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1560,
 		"column": "a"

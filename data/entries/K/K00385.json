@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00385",
-	"slug": "כורכמא",
-	"headword": {
-		"text": "כּוּרְכְּמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כּוּרְכְּמָא",
+	"headwords": [
+		{
+			"text": "כּוּרְכְּמָא"
+		},
 		{
 			"text": "כּוּרְקְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 625,
 		"column": "b"

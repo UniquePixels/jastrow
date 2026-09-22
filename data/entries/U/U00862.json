@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00862",
-	"slug": "שיחומי",
-	"headword": {
-		"text": "שִׁיחוּמֵי"
-	},
+	"sefariaHeadword": "שִׁיחוּמֵי",
+	"headwords": [
+		{
+			"text": "שִׁיחוּמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

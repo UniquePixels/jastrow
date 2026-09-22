@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01216",
-	"slug": "חמצא",
-	"headword": {
-		"text": "חִמְצָא"
-	},
+	"sefariaHeadword": "חִמְצָא",
+	"headwords": [
+		{
+			"text": "חִמְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 479,
 		"column": "b"

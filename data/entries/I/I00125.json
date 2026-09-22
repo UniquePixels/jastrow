@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00125",
-	"slug": "טוגא",
-	"headword": {
-		"text": "טוֹגָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טוֹגָא",
+	"headwords": [
+		{
+			"text": "טוֹגָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 522,
 		"column": "a"

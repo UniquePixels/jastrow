@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00241",
-	"slug": "גדפי",
-	"headword": {
-		"text": "גַּדְפִי"
-	},
+	"sefariaHeadword": "גַּדְפִי",
+	"headwords": [
+		{
+			"text": "גַּדְפִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 214,
 		"column": "b"

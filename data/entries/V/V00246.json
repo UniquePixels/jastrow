@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00246",
-	"slug": "תוספת",
-	"headword": {
-		"text": "תּוֹסֶפֶת"
-	},
+	"sefariaHeadword": "תּוֹסֶפֶת",
+	"headwords": [
+		{
+			"text": "תּוֹסֶפֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "b"

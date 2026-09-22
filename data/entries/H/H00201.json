@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00201",
-	"slug": "חדס-2",
-	"headword": {
-		"text": "חדס"
-	},
+	"sefariaHeadword": "חדס",
+	"headwords": [
+		{
+			"text": "חדס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 426,
 		"column": "b"

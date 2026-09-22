@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01149",
-	"slug": "קיר-2",
-	"headword": {
-		"text": "קִיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "קִיר II",
+	"headwords": [
+		{
+			"text": "קִיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1368,
 		"column": "a"

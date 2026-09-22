@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00907",
-	"slug": "רעלה",
-	"headword": {
-		"text": "רְעָלָה"
-	},
+	"sefariaHeadword": "רְעָלָה",
+	"headwords": [
+		{
+			"text": "רְעָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1487,
 		"column": "b"

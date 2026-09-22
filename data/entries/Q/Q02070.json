@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02070",
-	"slug": "פשיחא",
-	"headword": {
-		"text": "פְּשִׁיחָא"
-	},
+	"sefariaHeadword": "פְּשִׁיחָא",
+	"headwords": [
+		{
+			"text": "פְּשִׁיחָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1246,
 		"column": "b"

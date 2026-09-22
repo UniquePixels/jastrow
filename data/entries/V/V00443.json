@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00443",
-	"slug": "תיכונה",
-	"headword": {
-		"text": "תִּיכוֹנָה"
-	},
+	"sefariaHeadword": "תִּיכוֹנָה",
+	"headwords": [
+		{
+			"text": "תִּיכוֹנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "b"

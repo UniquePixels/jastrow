@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01256",
-	"slug": "כרסתן",
-	"headword": {
-		"text": "כַּרְסָתָן"
-	},
+	"sefariaHeadword": "כַּרְסָתָן",
+	"headwords": [
+		{
+			"text": "כַּרְסָתָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 672,
 		"column": "b"

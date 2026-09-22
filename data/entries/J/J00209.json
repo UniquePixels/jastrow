@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00209",
-	"slug": "יונקא",
-	"headword": {
-		"text": "יוֹנְקָא"
-	},
+	"sefariaHeadword": "יוֹנְקָא",
+	"headwords": [
+		{
+			"text": "יוֹנְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 570,
 		"column": "a"

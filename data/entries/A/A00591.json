@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00591",
-	"slug": "אווש",
-	"headword": {
-		"text": "אַוַּושׁ"
-	},
+	"sefariaHeadword": "אַוַּושׁ",
+	"headwords": [
+		{
+			"text": "אַוַּושׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 23,
 		"column": "b"

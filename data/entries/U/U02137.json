@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02137",
-	"slug": "שתקותא",
-	"headword": {
-		"text": "שִׁתְקוּתָא"
-	},
+	"sefariaHeadword": "שִׁתְקוּתָא",
+	"headwords": [
+		{
+			"text": "שִׁתְקוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1640,
 		"column": "b"

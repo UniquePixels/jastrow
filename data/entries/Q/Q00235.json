@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00235",
-	"slug": "פוליפוס",
-	"headword": {
-		"text": "פּוֹלִיפּוּס"
-	},
+	"sefariaHeadword": "פּוֹלִיפּוּס",
+	"headwords": [
+		{
+			"text": "פּוֹלִיפּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1142,
 		"column": "a"

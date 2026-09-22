@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02159",
-	"slug": "מעצד",
-	"headword": {
-		"text": "מַעֲצָד"
-	},
+	"sefariaHeadword": "מַעֲצָד",
+	"headwords": [
+		{
+			"text": "מַעֲצָד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 818,
 		"column": "b"

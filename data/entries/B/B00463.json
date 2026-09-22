@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00463",
-	"slug": "בזק-4",
-	"headword": {
-		"text": "בֶּזֶק"
-	},
+	"sefariaHeadword": "בֶּזֶק",
+	"headwords": [
+		{
+			"text": "בֶּזֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 154,
 		"column": "a"

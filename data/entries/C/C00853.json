@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00853",
-	"slug": "גלאלא",
-	"headword": {
-		"text": "גְּלָאלָא"
-	},
+	"sefariaHeadword": "גְּלָאלָא",
+	"headwords": [
+		{
+			"text": "גְּלָאלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 243,
 		"column": "b"

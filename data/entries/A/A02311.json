@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02311",
-	"slug": "אנתימרוס",
-	"headword": {
-		"text": "אַנְתִּימְרוֹס"
-	},
+	"sefariaHeadword": "אַנְתִּימְרוֹס",
+	"headwords": [
+		{
+			"text": "אַנְתִּימְרוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 88,
 		"column": "b"

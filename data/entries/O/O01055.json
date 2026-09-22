@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01055",
-	"slug": "סמאל",
-	"headword": {
-		"text": "סַמָּאֵל"
-	},
+	"sefariaHeadword": "סַמָּאֵל",
+	"headwords": [
+		{
+			"text": "סַמָּאֵל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 998,
 		"column": "b"

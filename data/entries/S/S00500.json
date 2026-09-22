@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00500",
-	"slug": "קופדן",
-	"headword": {
-		"text": "קוֹפְדָן"
-	},
+	"sefariaHeadword": "קוֹפְדָן",
+	"headwords": [
+		{
+			"text": "קוֹפְדָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1338,
 		"column": "a"

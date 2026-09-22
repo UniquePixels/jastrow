@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00442",
-	"slug": "חוקה",
-	"headword": {
-		"text": "חוּקָּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חוּקָּה",
+	"headwords": [
+		{
+			"text": "חוּקָּה"
+		},
 		{
 			"text": "חֻקָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 438,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00586",
-	"slug": "יקרות",
-	"headword": {
-		"text": "יַקְרוּת"
-	},
+	"sefariaHeadword": "יַקְרוּת",
+	"headwords": [
+		{
+			"text": "יַקְרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 593,
 		"column": "a"

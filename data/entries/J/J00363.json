@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00363",
-	"slug": "יכיל",
-	"headword": {
-		"text": "יְכִיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְכִיל",
+	"headwords": [
+		{
+			"text": "יְכִיל"
+		},
 		{
 			"text": "יָכִיל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 577,
 		"column": "a"

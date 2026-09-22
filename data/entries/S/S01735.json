@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01735",
-	"slug": "קפיזא",
-	"headword": {
-		"text": "קְפִיזָא"
-	},
+	"sefariaHeadword": "קְפִיזָא",
+	"headwords": [
+		{
+			"text": "קְפִיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1401,
 		"column": "a"

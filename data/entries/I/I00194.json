@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00194",
-	"slug": "טוענא",
-	"headword": {
-		"text": "טוּעֲנָא"
-	},
+	"sefariaHeadword": "טוּעֲנָא",
+	"headwords": [
+		{
+			"text": "טוּעֲנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "a"

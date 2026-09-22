@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01719",
-	"slug": "אכסגרון",
-	"headword": {
-		"text": "אכסגרון"
-	},
+	"sefariaHeadword": "אכסגרון",
+	"headwords": [
+		{
+			"text": "אכסגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 64,
 		"column": "a"

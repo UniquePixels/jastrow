@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "D00453",
-	"slug": "דיאטריטא",
-	"headword": {
-		"text": "דִּיאַטְרִיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיאַטְרִיטָא",
+	"headwords": [
+		{
+			"text": "דִּיאַטְרִיטָא"
+		},
 		{
 			"text": "דִּיאַטְרִיטִין"
 		},
 		{
-			"text": "דְּיַי׳"
+			"text": "דְּיַי׳",
+			"partial": true
 		},
 		{
-			"text": "דְּיוֹ׳"
+			"text": "דְּיוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, ({3})",
 	"page": {
 		"number": 294,
 		"column": "a"

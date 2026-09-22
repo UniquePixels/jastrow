@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01001",
-	"slug": "סלית",
-	"headword": {
-		"text": "סֹלִית"
-	},
+	"sefariaHeadword": "סֹלִית",
+	"headwords": [
+		{
+			"text": "סֹלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 995,
 		"column": "a"

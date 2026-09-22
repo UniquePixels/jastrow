@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00020",
-	"slug": "וודעא",
-	"headword": {
-		"text": "וודעא"
-	},
+	"sefariaHeadword": "וודעא",
+	"headwords": [
+		{
+			"text": "וודעא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 372,
 		"column": "b"

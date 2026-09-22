@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00469",
-	"slug": "יסף-2",
-	"headword": {
-		"text": "יְסַף"
-	},
+	"sefariaHeadword": "יְסַף",
+	"headwords": [
+		{
+			"text": "יְסַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 583,
 		"column": "a"

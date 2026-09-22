@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00728",
-	"slug": "מזוגא",
-	"headword": {
-		"text": "מָזוֹגָא"
-	},
+	"sefariaHeadword": "מָזוֹגָא",
+	"headwords": [
+		{
+			"text": "מָזוֹגָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 753,
 		"column": "b"

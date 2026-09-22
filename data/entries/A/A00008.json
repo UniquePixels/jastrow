@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00008",
-	"slug": "א-8",
-	"headword": {
-		"text": "אַ־"
-	},
+	"sefariaHeadword": "אַ־",
+	"headwords": [
+		{
+			"text": "אַ־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1,
 		"column": "a"

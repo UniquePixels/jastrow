@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01485",
-	"slug": "חפת-3",
-	"headword": {
-		"text": "חֲפַת"
-	},
+	"sefariaHeadword": "חֲפַת",
+	"headwords": [
+		{
+			"text": "חֲפַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 493,
 		"column": "b"

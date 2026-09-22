@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T01141",
-	"slug": "רתם",
-	"headword": {
-		"text": "רֹתֶם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רֹתֶם",
+	"headwords": [
+		{
+			"text": "רֹתֶם"
+		},
 		{
 			"text": "רוֹתֶם"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1503,
 		"column": "b"

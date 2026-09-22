@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "M03084",
-	"slug": "מתנא-2",
-	"headword": {
-		"text": "מַתְּנָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַתְּנָא ²",
+	"headwords": [
+		{
+			"text": "מַתְּנָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "מַתְּנָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 863,
 		"column": "b"

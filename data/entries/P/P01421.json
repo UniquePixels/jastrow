@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01421",
-	"slug": "ערער-5",
-	"headword": {
-		"text": "עַרְעֵר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עַרְעֵר II",
+	"headwords": [
+		{
+			"text": "עַרְעֵר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1122,
 		"column": "a"

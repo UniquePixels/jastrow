@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00391",
-	"slug": "בורקיא",
-	"headword": {
-		"text": "בורקיא"
-	},
+	"sefariaHeadword": "בורקיא",
+	"headwords": [
+		{
+			"text": "בורקיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 151,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01132",
-	"slug": "כרושתינא",
-	"headword": {
-		"text": "כְּרוּשְׁתֵּינָא"
-	},
+	"sefariaHeadword": "כְּרוּשְׁתֵּינָא",
+	"headwords": [
+		{
+			"text": "כְּרוּשְׁתֵּינָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "b"

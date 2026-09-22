@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01176",
-	"slug": "כריש",
-	"headword": {
-		"text": "כָּרֵישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּרֵישׁ",
+	"headwords": [
+		{
+			"text": "כָּרֵישׁ"
+		},
 		{
 			"text": "כָּרֵישָׁא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 667,
 		"column": "b"

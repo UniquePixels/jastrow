@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00748",
-	"slug": "בישרא",
-	"headword": {
-		"text": "בִּישְׂרָא"
-	},
+	"sefariaHeadword": "בִּישְׂרָא",
+	"headwords": [
+		{
+			"text": "בִּישְׂרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 167,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00400",
-	"slug": "זיפרין",
-	"headword": {
-		"text": "זִיפְרִין"
-	},
+	"sefariaHeadword": "זִיפְרִין",
+	"headwords": [
+		{
+			"text": "זִיפְרִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 395,
 		"column": "b"

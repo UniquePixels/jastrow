@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00777",
-	"slug": "סיף-1",
-	"headword": {
-		"text": "סְיָף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְיָף",
+	"headwords": [
+		{
+			"text": "סְיָף"
+		},
 		{
 			"text": "סֵיף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 984,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01150",
-	"slug": "פנגוס",
-	"headword": {
-		"text": "פִּנְגּוּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּנְגּוּס",
+	"headwords": [
+		{
+			"text": "פִּנְגּוּס"
+		},
 		{
 			"text": "פִּנְגָּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1186,
 		"column": "a"

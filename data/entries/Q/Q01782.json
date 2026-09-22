@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01782",
-	"slug": "פרטתא-2",
-	"headword": {
-		"text": "פִּרְטְתָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְטְתָא II",
+	"headwords": [
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּרְטְתָא",
+			"homograph": 2
+		},
+		{
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1225,
 		"column": "a"

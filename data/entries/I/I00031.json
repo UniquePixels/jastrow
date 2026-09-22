@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "I00031",
-	"slug": "טבואות",
-	"headword": {
-		"text": "טַבְוָאוּת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַבְוָאוּת",
+	"headwords": [
 		{
-			"text": "טַבְוָו׳"
+			"text": "טַבְוָאוּת"
+		},
+		{
+			"text": "טַבְוָו׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 516,
 		"column": "a"

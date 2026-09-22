@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02337",
-	"slug": "אסור-3",
-	"headword": {
-		"text": "אֱסוּר"
-	},
+	"sefariaHeadword": "אֱסוּר",
+	"headwords": [
+		{
+			"text": "אֱסוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 89,
 		"column": "a"

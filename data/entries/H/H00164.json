@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00164",
-	"slug": "חגרא-3",
-	"headword": {
-		"text": "חִגְּרָא"
-	},
+	"sefariaHeadword": "חִגְּרָא",
+	"headwords": [
+		{
+			"text": "חִגְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 425,
 		"column": "a"

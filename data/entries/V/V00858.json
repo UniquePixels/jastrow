@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00858",
-	"slug": "תפראות",
-	"headword": {
-		"text": "תִּפְרָאוֹת"
-	},
+	"sefariaHeadword": "תִּפְרָאוֹת",
+	"headwords": [
+		{
+			"text": "תִּפְרָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1689,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00963",
-	"slug": "חלא-5",
-	"headword": {
-		"text": "חֲלָא"
-	},
+	"sefariaHeadword": "חֲלָא",
+	"headwords": [
+		{
+			"text": "חֲלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 464,
 		"column": "a"

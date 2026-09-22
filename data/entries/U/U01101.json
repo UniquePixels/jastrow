@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01101",
-	"slug": "שית-2",
-	"headword": {
-		"text": "שִׁית",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שִׁית II",
+	"headwords": [
+		{
+			"text": "שִׁית",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1570,
 		"column": "a"

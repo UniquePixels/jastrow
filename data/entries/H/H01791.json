@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01791",
-	"slug": "חרשתא",
-	"headword": {
-		"text": "חֲרַשְׁתָּא"
-	},
+	"sefariaHeadword": "חֲרַשְׁתָּא",
+	"headwords": [
+		{
+			"text": "חֲרַשְׁתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 507,
 		"column": "b"

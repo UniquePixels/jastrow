@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01020",
-	"slug": "נפוותא",
-	"headword": {
-		"text": "נִפְוָותָא"
-	},
+	"sefariaHeadword": "נִפְוָותָא",
+	"headwords": [
+		{
+			"text": "נִפְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

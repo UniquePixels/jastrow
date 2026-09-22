@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00439",
-	"slug": "ליחה",
-	"headword": {
-		"text": "לֵיחָה"
-	},
+	"sefariaHeadword": "לֵיחָה",
+	"headwords": [
+		{
+			"text": "לֵיחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 706,
 		"column": "b"

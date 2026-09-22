@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00359",
-	"slug": "דורדס",
-	"headword": {
-		"text": "דּוּרְדֵּס"
-	},
+	"sefariaHeadword": "דּוּרְדֵּס",
+	"headwords": [
+		{
+			"text": "דּוּרְדֵּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 289,
 		"column": "b"

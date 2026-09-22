@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00739",
-	"slug": "פינקסתו",
-	"headword": {
-		"text": "פינקסתו"
-	},
+	"sefariaHeadword": "פינקסתו",
+	"headwords": [
+		{
+			"text": "פינקסתו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1166,
 		"column": "a"

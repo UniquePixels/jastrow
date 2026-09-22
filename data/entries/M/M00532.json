@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00532",
-	"slug": "מונדרון",
-	"headword": {
-		"text": "מוּנְדְּרוֹן"
-	},
+	"sefariaHeadword": "מוּנְדְּרוֹן",
+	"headwords": [
+		{
+			"text": "מוּנְדְּרוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 744,
 		"column": "a"

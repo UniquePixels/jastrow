@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00089",
-	"slug": "אבטולוס",
-	"headword": {
-		"text": "אַבְטוֹלוֹס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַבְטוֹלוֹס",
+	"headwords": [
+		{
+			"text": "אַבְטוֹלוֹס"
+		},
 		{
 			"text": "אבטוליס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 4,
 		"column": "b"

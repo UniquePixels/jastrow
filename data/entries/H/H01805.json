@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "H01805",
-	"slug": "חשאי-3",
-	"headword": {
-		"text": "חֲשַׁאי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲשַׁאי ²",
+	"headwords": [
+		{
+			"text": "חֲשַׁאי",
+			"disambiguator": 2
+		},
 		{
 			"text": "חֲשַׁי"
 		},
@@ -13,6 +14,7 @@
 			"text": "חֲשַׁיי"
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 508,
 		"column": "a"

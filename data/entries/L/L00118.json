@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00118",
-	"slug": "לבש-1",
-	"headword": {
-		"text": "לָבַשׁ"
-	},
+	"sefariaHeadword": "לָבַשׁ",
+	"headwords": [
+		{
+			"text": "לָבַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 691,
 		"column": "b"

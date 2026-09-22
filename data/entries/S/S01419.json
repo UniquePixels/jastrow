@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01419",
-	"slug": "קלקלה",
-	"headword": {
-		"text": "קַלְקָלָה"
-	},
+	"sefariaHeadword": "קַלְקָלָה",
+	"headwords": [
+		{
+			"text": "קַלְקָלָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1382,
 		"column": "b"

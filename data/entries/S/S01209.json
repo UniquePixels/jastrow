@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01209",
-	"slug": "קישואים",
-	"headword": {
-		"text": "קִישּׁוּאִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִישּׁוּאִים",
+	"headwords": [
+		{
+			"text": "קִישּׁוּאִים"
+		},
 		{
 			"text": "קִישּׁוּאִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1370,
 		"column": "a"

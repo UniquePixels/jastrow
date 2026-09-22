@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01516",
-	"slug": "מלול",
-	"headword": {
-		"text": "מִלּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִלּוּל",
+	"headwords": [
+		{
+			"text": "מִלּוּל"
+		},
 		{
 			"text": "מִלּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 788,
 		"column": "a"

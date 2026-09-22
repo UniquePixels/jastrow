@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01183",
-	"slug": "מילירדים",
-	"headword": {
-		"text": "מילירדים"
-	},
+	"sefariaHeadword": "מילירדים",
+	"headwords": [
+		{
+			"text": "מילירדים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 774,
 		"column": "b"

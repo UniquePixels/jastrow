@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00313",
-	"slug": "צידן",
-	"headword": {
-		"text": "צַיְדָן"
-	},
+	"sefariaHeadword": "צַיְדָן",
+	"headwords": [
+		{
+			"text": "צַיְדָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1275,
 		"column": "a"

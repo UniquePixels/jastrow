@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02263",
-	"slug": "אנסיגרון",
-	"headword": {
-		"text": "אנסיגרון"
-	},
+	"sefariaHeadword": "אנסיגרון",
+	"headwords": [
+		{
+			"text": "אנסיגרון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 86,
 		"column": "b"

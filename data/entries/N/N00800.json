@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N00800",
-	"slug": "נישמא",
-	"headword": {
-		"text": "נִישְׁמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִישְׁמָא",
+	"headwords": [
+		{
+			"text": "נִישְׁמָא"
+		},
 		{
 			"text": "נִישְׁפָּא"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִישְׁרָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 909,
 		"column": "b"

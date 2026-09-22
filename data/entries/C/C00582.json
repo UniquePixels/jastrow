@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00582",
-	"slug": "גזרתא",
-	"headword": {
-		"text": "גְּזֵרְתָא"
-	},
+	"sefariaHeadword": "גְּזֵרְתָא",
+	"headwords": [
+		{
+			"text": "גְּזֵרְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 233,
 		"column": "a"

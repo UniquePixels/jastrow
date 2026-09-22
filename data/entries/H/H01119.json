@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01119",
-	"slug": "חלקא-3",
-	"headword": {
-		"text": "חִלְקָא"
-	},
+	"sefariaHeadword": "חִלְקָא",
+	"headwords": [
+		{
+			"text": "חִלְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 474,
 		"column": "a"

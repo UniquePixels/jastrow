@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00319",
-	"slug": "מדף-1",
-	"headword": {
-		"text": "מֵדֵף"
-	},
+	"sefariaHeadword": "מֵדֵף",
+	"headwords": [
+		{
+			"text": "מֵדֵף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 735,
 		"column": "a"

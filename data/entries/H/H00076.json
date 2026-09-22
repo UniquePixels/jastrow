@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00076",
-	"slug": "חביר",
-	"headword": {
-		"text": "חֲבֵיר־"
-	},
+	"sefariaHeadword": "חֲבֵיר־",
+	"headwords": [
+		{
+			"text": "חֲבֵיר־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 419,
 		"column": "b"

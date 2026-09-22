@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "M02523",
-	"slug": "מרגליתא",
-	"headword": {
-		"text": "מַרְגָּלִיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַרְגָּלִיתָא",
+	"headwords": [
+		{
+			"text": "מַרְגָּלִיתָא"
+		},
 		{
 			"text": "מַרְגָּלִי"
 		},
@@ -12,6 +13,7 @@
 			"text": "מַרְגַּלְיָיא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 836,
 		"column": "a"

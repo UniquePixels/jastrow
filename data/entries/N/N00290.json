@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00290",
-	"slug": "נו",
-	"headword": {
-		"text": "נוּ"
-	},
+	"sefariaHeadword": "נוּ",
+	"headwords": [
+		{
+			"text": "נוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 883,
 		"column": "a"

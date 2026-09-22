@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02163",
-	"slug": "מעק",
-	"headword": {
-		"text": "מְעַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְעַק",
+	"headwords": [
+		{
+			"text": "מְעַק"
+		},
 		{
 			"text": "מְעֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 819,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01188",
-	"slug": "נקז-1",
-	"headword": {
-		"text": "נָקַז"
-	},
+	"sefariaHeadword": "נָקַז",
+	"headwords": [
+		{
+			"text": "נָקַז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

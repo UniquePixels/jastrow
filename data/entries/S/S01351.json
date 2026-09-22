@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "S01351",
-	"slug": "קלירוס-2",
-	"headword": {
-		"text": "קלירוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קלירוס",
+	"headwords": [
 		{
-			"text": "קלו׳"
+			"text": "קלירוס"
+		},
+		{
+			"text": "קלו׳",
+			"partial": true
 		},
 		{
 			"text": "קליריס"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1377,
 		"column": "a"

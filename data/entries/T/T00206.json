@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00206",
-	"slug": "רגלאה",
-	"headword": {
-		"text": "רִגְלָאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִגְלָאָה",
+	"headwords": [
+		{
+			"text": "רִגְלָאָה"
+		},
 		{
 			"text": "רִגְלַי"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1449,
 		"column": "b"

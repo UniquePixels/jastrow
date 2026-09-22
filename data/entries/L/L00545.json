@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00545",
-	"slug": "לכיס",
-	"headword": {
-		"text": "לָכִיס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*לָכִיס",
+	"headwords": [
+		{
+			"text": "לָכִיס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 711,
 		"column": "a"

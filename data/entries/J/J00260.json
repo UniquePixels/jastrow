@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00260",
-	"slug": "יזיף",
-	"headword": {
-		"text": "יְזִיף"
-	},
+	"sefariaHeadword": "יְזִיף",
+	"headwords": [
+		{
+			"text": "יְזִיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 572,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00022",
-	"slug": "זבולון",
-	"headword": {
-		"text": "זְבוּלוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְבוּלוּן",
+	"headwords": [
+		{
+			"text": "זְבוּלוּן"
+		},
 		{
 			"text": "זְבוּלֻן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 378,
 		"column": "a"

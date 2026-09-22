@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02436",
-	"slug": "מקפה",
-	"headword": {
-		"text": "מִקְפֶּה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִקְפֶּה",
+	"headwords": [
+		{
+			"text": "מִקְפֶּה"
+		},
 		{
 			"text": "מִקְפָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 831,
 		"column": "b"

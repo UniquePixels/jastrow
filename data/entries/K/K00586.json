@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00586",
-	"slug": "כיסכוס",
-	"headword": {
-		"text": "כִּיסְכּוּס"
-	},
+	"sefariaHeadword": "כִּיסְכּוּס",
+	"headwords": [
+		{
+			"text": "כִּיסְכּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "a"

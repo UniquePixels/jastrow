@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01373",
-	"slug": "עריק",
-	"headword": {
-		"text": "עֲרִיק"
-	},
+	"sefariaHeadword": "עֲרִיק",
+	"headwords": [
+		{
+			"text": "עֲרִיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1118,
 		"column": "a"

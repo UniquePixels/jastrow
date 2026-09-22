@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00350",
-	"slug": "גוזמא",
-	"headword": {
-		"text": "גּוּזְמָא"
-	},
+	"sefariaHeadword": "גּוּזְמָא",
+	"headwords": [
+		{
+			"text": "גּוּזְמָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 220,
 		"column": "b"

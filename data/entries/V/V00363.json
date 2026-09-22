@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00363",
-	"slug": "תחים",
-	"headword": {
-		"text": "תַּחִים"
-	},
+	"sefariaHeadword": "תַּחִים",
+	"headwords": [
+		{
+			"text": "תַּחִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1661,
 		"column": "a"

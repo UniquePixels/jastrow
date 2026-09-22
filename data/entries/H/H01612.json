@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H01612",
-	"slug": "חרוב-4",
-	"headword": {
-		"text": "חֲרוּב",
-		"homograph": 2
-	},
+	"sefariaHeadword": "חֲרוּב II",
+	"headwords": [
+		{
+			"text": "חֲרוּב",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 499,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

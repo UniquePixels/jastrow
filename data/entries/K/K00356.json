@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00356",
-	"slug": "כופשנא",
-	"headword": {
-		"text": "כּוּפְשָׁנָא"
-	},
+	"sefariaHeadword": "כּוּפְשָׁנָא",
+	"headwords": [
+		{
+			"text": "כּוּפְשָׁנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 624,
 		"column": "b"

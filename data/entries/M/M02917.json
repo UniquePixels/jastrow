@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02917",
-	"slug": "משליא",
-	"headword": {
-		"text": "מְשִׁלְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְשִׁלְיָא",
+	"headwords": [
+		{
+			"text": "מְשִׁלְיָא"
+		},
 		{
 			"text": "מְשִׁילְיָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 856,
 		"column": "a"

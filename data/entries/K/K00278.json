@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00278",
-	"slug": "כולמתא",
-	"headword": {
-		"text": "כולמתא"
-	},
+	"sefariaHeadword": "כולמתא",
+	"headwords": [
+		{
+			"text": "כולמתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 620,
 		"column": "b"

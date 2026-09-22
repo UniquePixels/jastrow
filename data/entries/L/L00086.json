@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "L00086",
-	"slug": "לבלב-3",
-	"headword": {
-		"text": "לַבְלֵב",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לַבְלֵב II",
+	"headwords": [
+		{
+			"text": "לַבְלֵב",
+			"homograph": 2
+		},
 		{
 			"text": "לַוְולֵוו"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 689,
 		"column": "b"

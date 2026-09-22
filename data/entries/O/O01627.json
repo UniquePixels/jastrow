@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01627",
-	"slug": "סריקה",
-	"headword": {
-		"text": "סְרִיקָה"
-	},
+	"sefariaHeadword": "סְרִיקָה",
+	"headwords": [
+		{
+			"text": "סְרִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1027,
 		"column": "b"

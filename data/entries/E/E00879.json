@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00879",
-	"slug": "הרמיני",
-	"headword": {
-		"text": "הַרְמִינֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַרְמִינֵי",
+	"headwords": [
+		{
+			"text": "הַרְמִינֵי"
+		},
 		{
 			"text": "הוּרְמִינִי"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 368,
 		"column": "a"

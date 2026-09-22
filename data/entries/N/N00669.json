@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00669",
-	"slug": "נים-1",
-	"headword": {
-		"text": "נִים"
-	},
+	"sefariaHeadword": "נִים",
+	"headwords": [
+		{
+			"text": "נִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 904,
 		"column": "b"

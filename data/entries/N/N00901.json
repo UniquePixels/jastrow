@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00901",
-	"slug": "ננהא",
-	"headword": {
-		"text": "ננהא"
-	},
+	"sefariaHeadword": "ננהא",
+	"headwords": [
+		{
+			"text": "ננהא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 914,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01084",
-	"slug": "כרבל",
-	"headword": {
-		"text": "כִּרְבִּל"
-	},
+	"sefariaHeadword": "כִּרְבִּל",
+	"headwords": [
+		{
+			"text": "כִּרְבִּל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "a"

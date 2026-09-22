@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00122",
-	"slug": "סגי-3",
-	"headword": {
-		"text": "סְגֵי",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְגֵי III",
+	"headwords": [
+		{
+			"text": "סְגֵי",
+			"homograph": 3
+		},
 		{
 			"text": "סַגְיָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 954,
 		"column": "a"

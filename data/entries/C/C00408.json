@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00408",
-	"slug": "גולתא",
-	"headword": {
-		"text": "גּוֹלְתָא"
-	},
+	"sefariaHeadword": "גֹּולְתָא",
+	"headwords": [
+		{
+			"text": "גּוֹלְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 222,
 		"column": "b"

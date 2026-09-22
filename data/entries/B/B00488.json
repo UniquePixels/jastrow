@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00488",
-	"slug": "בחשא",
-	"headword": {
-		"text": "בַּחֲשָׁא"
-	},
+	"sefariaHeadword": "בַּחֲשָׁא",
+	"headwords": [
+		{
+			"text": "בַּחֲשָׁא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 155,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00676",
-	"slug": "נימה",
-	"headword": {
-		"text": "נִימָה"
-	},
+	"sefariaHeadword": "נִימָה",
+	"headwords": [
+		{
+			"text": "נִימָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 905,
 		"column": "a"

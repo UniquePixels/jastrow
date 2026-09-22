@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00355",
-	"slug": "בורות",
-	"headword": {
-		"text": "בּוֹרוּת"
-	},
+	"sefariaHeadword": "בּוֹרוּת",
+	"headwords": [
+		{
+			"text": "בּוֹרוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "a"

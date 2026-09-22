@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00695",
-	"slug": "הסב",
-	"headword": {
-		"text": "הֶסֵּב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הֶסֵּב",
+	"headwords": [
+		{
+			"text": "הֶסֵּב"
+		},
 		{
 			"text": "הֶיסֵּב"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 359,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01000",
-	"slug": "ענן-4",
-	"headword": {
-		"text": "עָנָן",
-		"homograph": 2
-	},
+	"sefariaHeadword": "עָנָן II",
+	"headwords": [
+		{
+			"text": "עָנָן",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1095,
 		"column": "b"

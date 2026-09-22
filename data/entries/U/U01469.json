@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01469",
-	"slug": "שמין-1",
-	"headword": {
-		"text": "שָׁמִין",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שָׁמִין I",
+	"headwords": [
+		{
+			"text": "שָׁמִין",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1595,
 		"column": "b"

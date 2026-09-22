@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01689",
-	"slug": "שערא-2",
-	"headword": {
-		"text": "שַׁעֲרָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שַׁעֲרָא II",
+	"headwords": [
+		{
+			"text": "שַׁעֲרָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1613,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00642",
-	"slug": "עיץ",
-	"headword": {
-		"text": "עִיץ"
-	},
+	"sefariaHeadword": "עִיץ",
+	"headwords": [
+		{
+			"text": "עִיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1073,
 		"column": "b"

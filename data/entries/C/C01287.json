@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01287",
-	"slug": "גרה-2",
-	"headword": {
-		"text": "גֵּרָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גֵּרָה I",
+	"headwords": [
+		{
+			"text": "גֵּרָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 266,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00238",
-	"slug": "תונא",
-	"headword": {
-		"text": "תּוּנָא"
-	},
+	"sefariaHeadword": "תּוּנָא",
+	"headwords": [
+		{
+			"text": "תּוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1654,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D00714",
-	"slug": "דיקינתין",
-	"headword": {
-		"text": "דְּיָקִינְתִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיָקִינְתִּין",
+	"headwords": [
 		{
-			"text": "דְּיָיקִ׳"
+			"text": "דְּיָקִינְתִּין"
+		},
+		{
+			"text": "דְּיָיקִ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 305,
 		"column": "a"

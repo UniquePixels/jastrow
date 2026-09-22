@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00250",
-	"slug": "הונגטוס",
-	"headword": {
-		"text": "הונגטוס"
-	},
+	"sefariaHeadword": "הונגטוס",
+	"headwords": [
+		{
+			"text": "הונגטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 339,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01500",
-	"slug": "סקרא",
-	"headword": {
-		"text": "סִקְרָא"
-	},
+	"sefariaHeadword": "סִקְרָא",
+	"headwords": [
+		{
+			"text": "סִקְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1021,
 		"column": "a"

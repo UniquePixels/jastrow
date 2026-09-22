@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00527",
-	"slug": "שוקט",
-	"headword": {
-		"text": "שוקט"
-	},
+	"sefariaHeadword": "שוקט",
+	"headwords": [
+		{
+			"text": "שוקט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1541,
 		"column": "a"

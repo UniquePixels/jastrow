@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00786",
-	"slug": "סיפוסקא",
-	"headword": {
-		"text": "סִיפּוּסְקָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*סִיפּוּסְקָא",
+	"headwords": [
+		{
+			"text": "סִיפּוּסְקָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 985,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00596",
-	"slug": "כיף-1",
-	"headword": {
-		"text": "כִּיף"
-	},
+	"sefariaHeadword": "כִּיף",
+	"headwords": [
+		{
+			"text": "כִּיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00318",
-	"slug": "זיור",
-	"headword": {
-		"text": "זִיוֵּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זִיוֵּר",
+	"headwords": [
+		{
+			"text": "זִיוֵּר"
+		},
 		{
 			"text": "זִוֵּיר"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 392,
 		"column": "b"

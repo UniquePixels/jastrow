@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00887",
-	"slug": "כס-2",
-	"headword": {
-		"text": "כָּס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּס",
+	"headwords": [
+		{
+			"text": "כָּס"
+		},
 		{
 			"text": "כַּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 652,
 		"column": "a"

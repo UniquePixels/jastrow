@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00131",
-	"slug": "הדם-1",
-	"headword": {
-		"text": "הֲדַם"
-	},
+	"sefariaHeadword": "הֲדַם",
+	"headwords": [
+		{
+			"text": "הֲדַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 333,
 		"column": "b"

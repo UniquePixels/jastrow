@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S02171",
-	"slug": "קרקסאות",
-	"headword": {
-		"text": "קִרְקְסָאוֹת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִרְקְסָאוֹת",
+	"headwords": [
+		{
+			"text": "קִרְקְסָאוֹת"
+		},
 		{
 			"text": "קִרְקְסָאיוֹת"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִרְקַסְיָאוֹת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1426,
 		"column": "a"

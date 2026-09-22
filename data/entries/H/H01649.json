@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01649",
-	"slug": "חרזא-2",
-	"headword": {
-		"text": "חַרְזָא"
-	},
+	"sefariaHeadword": "חַרְזָא",
+	"headwords": [
+		{
+			"text": "חַרְזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 500,
 		"column": "b"

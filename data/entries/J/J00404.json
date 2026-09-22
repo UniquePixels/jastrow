@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00404",
-	"slug": "ימא",
-	"headword": {
-		"text": "יַמָּא"
-	},
+	"sefariaHeadword": "יַמָּא",
+	"headwords": [
+		{
+			"text": "יַמָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

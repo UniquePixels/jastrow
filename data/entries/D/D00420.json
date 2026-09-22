@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00420",
-	"slug": "דחיק-2",
-	"headword": {
-		"text": "דָּחִיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּחִיק",
+	"headwords": [
+		{
+			"text": "דָּחִיק"
+		},
 		{
 			"text": "דְּחִיקָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 292,
 		"column": "b"

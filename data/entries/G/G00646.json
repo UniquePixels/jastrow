@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00646",
-	"slug": "זקנה",
-	"headword": {
-		"text": "זִקְנָה"
-	},
+	"sefariaHeadword": "זִקְנָה",
+	"headwords": [
+		{
+			"text": "זִקְנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 409,
 		"column": "b"

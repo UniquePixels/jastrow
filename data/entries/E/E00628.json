@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00628",
-	"slug": "המנון",
-	"headword": {
-		"text": "הִמְנוֹן"
-	},
+	"sefariaHeadword": "הִמְנוֹן",
+	"headwords": [
+		{
+			"text": "הִמְנוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 356,
 		"column": "a"

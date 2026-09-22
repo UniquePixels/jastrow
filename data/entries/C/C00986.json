@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00986",
-	"slug": "גלש-3",
-	"headword": {
-		"text": "גֶּלֶשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*גֶּלֶשׁ",
+	"headwords": [
+		{
+			"text": "גֶּלֶשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 251,
 		"column": "a"

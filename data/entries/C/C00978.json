@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C00978",
-	"slug": "גלף-2",
-	"headword": {
-		"text": "גְּלַף",
-		"homograph": 1
-	},
+	"sefariaHeadword": "גְּלַף I",
+	"headwords": [
+		{
+			"text": "גְּלַף",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 250,
 		"column": "b"

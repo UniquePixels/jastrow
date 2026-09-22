@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01519",
-	"slug": "מלוש",
-	"headword": {
-		"text": "מָלוֹשׁ"
-	},
+	"sefariaHeadword": "מָלוֹשׁ",
+	"headwords": [
+		{
+			"text": "מָלוֹשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 788,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00501",
-	"slug": "ליסטרא",
-	"headword": {
-		"text": "ליסטרא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "ליסטרא",
+	"headwords": [
+		{
+			"text": "ליסטרא"
+		},
 		{
 			"text": "ליסטרון"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 709,
 		"column": "a"

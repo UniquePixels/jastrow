@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00227",
-	"slug": "מגרש",
-	"headword": {
-		"text": "מִגְרָשׁ"
-	},
+	"sefariaHeadword": "מִגְרָשׁ",
+	"headwords": [
+		{
+			"text": "מִגְרָשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02278",
-	"slug": "מצובת",
-	"headword": {
-		"text": "מְצוֹבֶת"
-	},
+	"sefariaHeadword": "מְצוֹבֶת",
+	"headwords": [
+		{
+			"text": "מְצוֹבֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 823,
 		"column": "b"

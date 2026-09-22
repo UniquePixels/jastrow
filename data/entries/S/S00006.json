@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00006",
-	"slug": "קאטבה",
-	"headword": {
-		"text": "קָאטָבָה"
-	},
+	"sefariaHeadword": "קָאטָבָה",
+	"headwords": [
+		{
+			"text": "קָאטָבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1306,
 		"column": "a"

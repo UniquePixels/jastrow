@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00364",
-	"slug": "מהיר-2",
-	"headword": {
-		"text": "מָהִיר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מָהִיר II",
+	"headwords": [
+		{
+			"text": "מָהִיר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 737,
 		"column": "a"

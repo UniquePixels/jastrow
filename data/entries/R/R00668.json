@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00668",
-	"slug": "צפא",
-	"headword": {
-		"text": "צִפָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִפָּא",
+	"headwords": [
+		{
+			"text": "צִפָּא"
+		},
 		{
 			"text": "צֵפָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1295,
 		"column": "b"

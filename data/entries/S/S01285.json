@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01285",
-	"slug": "קלוסקום",
-	"headword": {
-		"text": "קְלוּסְקוֹם"
-	},
+	"sefariaHeadword": "קְלוּסְקוֹם",
+	"headwords": [
+		{
+			"text": "קְלוּסְקוֹם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1373,
 		"column": "b"

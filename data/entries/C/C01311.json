@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "C01311",
-	"slug": "גרופו",
-	"headword": {
-		"text": "גרופו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גרופו",
+	"headwords": [
+		{
+			"text": "גרופו"
+		},
 		{
 			"text": "גרופות"
 		},
@@ -12,6 +13,7 @@
 			"text": "גרופי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 267,
 		"column": "a"

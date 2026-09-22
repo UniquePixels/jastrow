@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00582",
-	"slug": "חטא-4",
-	"headword": {
-		"text": "חִטָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חִטָּא I",
+	"headwords": [
+		{
+			"text": "חִטָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 447,
 		"column": "a"

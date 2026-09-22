@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00506",
-	"slug": "אהלות",
-	"headword": {
-		"text": "אָהֳלוֹת"
-	},
+	"sefariaHeadword": "אָהֳלוֹת",
+	"headwords": [
+		{
+			"text": "אָהֳלוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 20,
 		"column": "b"

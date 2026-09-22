@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00519",
-	"slug": "צלל-1",
-	"headword": {
-		"text": "צָלַל"
-	},
+	"sefariaHeadword": "צָלַל",
+	"headwords": [
+		{
+			"text": "צָלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

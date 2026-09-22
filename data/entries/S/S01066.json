@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01066",
-	"slug": "קיסטור",
-	"headword": {
-		"text": "קיסטור"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קיסטור",
+	"headwords": [
+		{
+			"text": "קיסטור"
+		},
 		{
 			"text": "קיסטנר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "a"

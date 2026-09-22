@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02310",
-	"slug": "מציא-1",
-	"headword": {
-		"text": "מַצָּיָא"
-	},
+	"sefariaHeadword": "מַצָּיָא",
+	"headwords": [
+		{
+			"text": "מַצָּיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

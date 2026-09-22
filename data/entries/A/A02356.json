@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02356",
-	"slug": "אסטווא",
-	"headword": {
-		"text": "אִסְטְוָוא  I, II,"
-	},
+	"sefariaHeadword": "אִסְטְוָוא  I, II,",
+	"headwords": [
+		{
+			"text": "אִסְטְוָוא"
+		}
+	],
+	"display": "{0} I, II",
 	"page": {
 		"number": 90,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00784",
-	"slug": "חילפות",
-	"headword": {
-		"text": "חִילְפוֹת"
-	},
+	"sefariaHeadword": "חִילְפוֹת",
+	"headwords": [
+		{
+			"text": "חִילְפוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 457,
 		"column": "a"

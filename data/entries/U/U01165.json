@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01165",
-	"slug": "שכליל",
-	"headword": {
-		"text": "שַׁכְלֵיל"
-	},
+	"sefariaHeadword": "שַׁכְלֵיל",
+	"headwords": [
+		{
+			"text": "שַׁכְלֵיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1574,
 		"column": "b"

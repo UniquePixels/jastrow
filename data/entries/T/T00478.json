@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00478",
-	"slug": "רחבא",
-	"headword": {
-		"text": "רַחֲבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַחֲבָא",
+	"headwords": [
+		{
+			"text": "רַחֲבָא"
+		},
 		{
 			"text": "רַחֲבָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1465,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "E00571",
-	"slug": "הלל-1",
-	"headword": {
-		"text": "הִלֵּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הִלֵּל",
+	"headwords": [
 		{
-			"text": "הִילֵּ׳"
+			"text": "הִלֵּל"
+		},
+		{
+			"text": "הִילֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 353,
 		"column": "b"

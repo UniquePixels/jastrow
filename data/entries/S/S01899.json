@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01899",
-	"slug": "קרד",
-	"headword": {
-		"text": "קָרַד"
-	},
+	"sefariaHeadword": "קָרַד",
+	"headwords": [
+		{
+			"text": "קָרַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1412,
 		"column": "a"

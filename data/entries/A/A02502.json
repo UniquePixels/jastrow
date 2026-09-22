@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02502",
-	"slug": "אספמיא",
-	"headword": {
-		"text": "אִסְפַּמְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפַּמְיָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְפַּמְיָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"

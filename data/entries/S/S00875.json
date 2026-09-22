@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00875",
-	"slug": "קידרא",
-	"headword": {
-		"text": "קִידְרָא"
-	},
+	"sefariaHeadword": "קִידְרָא",
+	"headwords": [
+		{
+			"text": "קִידְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1356,
 		"column": "a"

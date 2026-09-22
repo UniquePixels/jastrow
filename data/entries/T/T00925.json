@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00925",
-	"slug": "רעש-3",
-	"headword": {
-		"text": "רַעַשׁ"
-	},
+	"sefariaHeadword": "רַעַשׁ",
+	"headwords": [
+		{
+			"text": "רַעַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1489,
 		"column": "a"

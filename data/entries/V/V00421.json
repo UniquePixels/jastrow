@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00421",
-	"slug": "תיגרתא",
-	"headword": {
-		"text": "תִּיגְרְתָא"
-	},
+	"sefariaHeadword": "תִּיגְרְתָא",
+	"headwords": [
+		{
+			"text": "תִּיגְרְתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1663,
 		"column": "b"

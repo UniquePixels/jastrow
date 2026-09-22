@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01537",
-	"slug": "קנובקאות",
-	"headword": {
-		"text": "קְנוּבְקָאוֹת"
-	},
+	"sefariaHeadword": "קְנוּבְקָאוֹת",
+	"headwords": [
+		{
+			"text": "קְנוּבְקָאוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1389,
 		"column": "a"

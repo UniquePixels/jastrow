@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00596",
-	"slug": "פיו",
-	"headword": {
-		"text": "פִּיו"
-	},
+	"sefariaHeadword": "פִּיו",
+	"headwords": [
+		{
+			"text": "פִּיו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1159,
 		"column": "b"

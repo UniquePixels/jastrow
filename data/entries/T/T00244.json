@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00244",
-	"slug": "רדי-4",
-	"headword": {
-		"text": "רְדֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְדֵי ²",
+	"headwords": [
+		{
+			"text": "רְדֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "רְדָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1452,
 		"column": "a"

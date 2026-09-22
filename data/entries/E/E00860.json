@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00860",
-	"slug": "הרידוס",
-	"headword": {
-		"text": "הֲרֵידוֹס"
-	},
+	"sefariaHeadword": "הֲרֵידוֹס",
+	"headwords": [
+		{
+			"text": "הֲרֵידוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 367,
 		"column": "b"

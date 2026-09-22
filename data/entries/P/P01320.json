@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "P01320",
-	"slug": "ערוד-3",
-	"headword": {
-		"text": "עָרוֹד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עָרוֹד",
+	"headwords": [
+		{
+			"text": "עָרוֹד"
+		},
 		{
 			"text": "עֲרוֹדָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "עֲרָד"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1114,
 		"column": "b"

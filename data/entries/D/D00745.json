@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00745",
-	"slug": "דישתאה",
-	"headword": {
-		"text": "דִּישְׁתָּאָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּישְׁתָּאָה",
+	"headwords": [
+		{
+			"text": "דִּישְׁתָּאָה"
+		},
 		{
 			"text": "דִּישְׁתָּאֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 306,
 		"column": "a"

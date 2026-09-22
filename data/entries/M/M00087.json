@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00087",
-	"slug": "מבליגא",
-	"headword": {
-		"text": "מבליגא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מבליגא",
+	"headwords": [
+		{
+			"text": "מבליגא"
+		},
 		{
 			"text": "מבליגה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 725,
 		"column": "a"

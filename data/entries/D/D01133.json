@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01133",
-	"slug": "דרשן",
-	"headword": {
-		"text": "דַּרְשָׁן"
-	},
+	"sefariaHeadword": "דַּרְשָׁן",
+	"headwords": [
+		{
+			"text": "דַּרְשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 326,
 		"column": "a"

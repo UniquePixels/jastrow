@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "D00450",
-	"slug": "דיאטגמא",
-	"headword": {
-		"text": "דִּיאֲטַגְמָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דִּיאֲטַגְמָא",
+	"headwords": [
+		{
+			"text": "דִּיאֲטַגְמָא"
+		},
 		{
 			"text": "דִּיטַגְמָא"
 		},
 		{
-			"text": "דְּיוֹטַ׳"
+			"text": "דְּיוֹטַ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, ({2})",
 	"page": {
 		"number": 294,
 		"column": "a"

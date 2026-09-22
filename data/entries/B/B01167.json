@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01167",
-	"slug": "ברבר",
-	"headword": {
-		"text": "ברבר"
-	},
+	"sefariaHeadword": "ברבר",
+	"headwords": [
+		{
+			"text": "ברבר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 189,
 		"column": "b"

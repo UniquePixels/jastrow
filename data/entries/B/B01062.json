@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01062",
-	"slug": "בער-1",
-	"headword": {
-		"text": "בָּעַר"
-	},
+	"sefariaHeadword": "בָּעַר",
+	"headwords": [
+		{
+			"text": "בָּעַר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 182,
 		"column": "b"

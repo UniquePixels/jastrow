@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00634",
-	"slug": "לפיד-1",
-	"headword": {
-		"text": "לַפִּיד"
-	},
+	"sefariaHeadword": "לַפִּיד",
+	"headwords": [
+		{
+			"text": "לַפִּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 715,
 		"column": "a"

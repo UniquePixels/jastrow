@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01177",
-	"slug": "קירטם",
-	"headword": {
-		"text": "קִירְטֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִירְטֵם",
+	"headwords": [
+		{
+			"text": "קִירְטֵם"
+		},
 		{
 			"text": "קִירְטֵס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1369,
 		"column": "a"

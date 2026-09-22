@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00476",
-	"slug": "עטר-2",
-	"headword": {
-		"text": "עֲטַר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲטַר I",
+	"headwords": [
+		{
+			"text": "עֲטַר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1064,
 		"column": "b"

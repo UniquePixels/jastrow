@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00819",
-	"slug": "חינוך",
-	"headword": {
-		"text": "חִינּוּךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינּוּךְ",
+	"headwords": [
 		{
-			"text": "חִנּ׳"
+			"text": "חִינּוּךְ"
+		},
+		{
+			"text": "חִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "a"

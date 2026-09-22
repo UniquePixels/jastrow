@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00826",
-	"slug": "אוצרא",
-	"headword": {
-		"text": "אוֹצָרָא"
-	},
+	"sefariaHeadword": "אוֹצָרָא",
+	"headwords": [
+		{
+			"text": "אוֹצָרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "a"

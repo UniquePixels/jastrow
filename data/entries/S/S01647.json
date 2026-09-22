@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01647",
-	"slug": "קסטיא",
-	"headword": {
-		"text": "קסטיא"
-	},
+	"sefariaHeadword": "קסטיא",
+	"headwords": [
+		{
+			"text": "קסטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "b"

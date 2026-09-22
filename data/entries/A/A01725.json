@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01725",
-	"slug": "אכסיוט",
-	"headword": {
-		"text": "אכסיוט"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אכסיוט",
+	"headwords": [
+		{
+			"text": "אכסיוט"
+		},
 		{
 			"text": "אכסיוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 64,
 		"column": "b"

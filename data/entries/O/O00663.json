@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00663",
-	"slug": "סילי",
-	"headword": {
-		"text": "סִילֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילֵי",
+	"headwords": [
+		{
+			"text": "סִילֵי"
+		},
 		{
 			"text": "סִילְיֵי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 980,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00027",
-	"slug": "ראנניות",
-	"headword": {
-		"text": "ראנניות"
-	},
+	"sefariaHeadword": "ראנניות",
+	"headwords": [
+		{
+			"text": "ראנניות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1437,
 		"column": "a"

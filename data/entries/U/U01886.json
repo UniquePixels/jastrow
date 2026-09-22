@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01886",
-	"slug": "שקץ-2",
-	"headword": {
-		"text": "שְׁקַץ"
-	},
+	"sefariaHeadword": "שְׁקַץ",
+	"headwords": [
+		{
+			"text": "שְׁקַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1625,
 		"column": "b"

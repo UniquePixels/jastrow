@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00572",
-	"slug": "כינים",
-	"headword": {
-		"text": "כִּינִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּינִּים",
+	"headwords": [
+		{
+			"text": "כִּינִּים"
+		},
 		{
 			"text": "כִּינִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 633,
 		"column": "b"

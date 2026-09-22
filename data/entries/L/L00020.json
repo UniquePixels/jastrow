@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00020",
-	"slug": "לאית",
-	"headword": {
-		"text": "לָאִית"
-	},
+	"sefariaHeadword": "לָאִית",
+	"headwords": [
+		{
+			"text": "לָאִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 686,
 		"column": "a"

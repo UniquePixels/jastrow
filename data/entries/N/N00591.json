@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00591",
-	"slug": "נטש-3",
-	"headword": {
-		"text": "נָטַשׁ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "נָטַשׁ II",
+	"headwords": [
+		{
+			"text": "נָטַשׁ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 902,
 		"column": "a"

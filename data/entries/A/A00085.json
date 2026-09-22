@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00085",
-	"slug": "אבחטס",
-	"headword": {
-		"text": "אבחטס"
-	},
+	"sefariaHeadword": "אבחטס",
+	"headwords": [
+		{
+			"text": "אבחטס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 4,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00700",
-	"slug": "הסה",
-	"headword": {
-		"text": "הָסָה"
-	},
+	"sefariaHeadword": "הָסָה",
+	"headwords": [
+		{
+			"text": "הָסָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 359,
 		"column": "a"

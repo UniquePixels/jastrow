@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00533",
-	"slug": "דיוקא-2",
-	"headword": {
-		"text": "דְּיוּקָא"
-	},
+	"sefariaHeadword": "דְּיוּקָא",
+	"headwords": [
+		{
+			"text": "דְּיוּקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 297,
 		"column": "a"

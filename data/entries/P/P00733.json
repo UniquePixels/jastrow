@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00733",
-	"slug": "עכייה",
-	"headword": {
-		"text": "עַכָּיָיה"
-	},
+	"sefariaHeadword": "עַכָּיָיה",
+	"headwords": [
+		{
+			"text": "עַכָּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1078,
 		"column": "b"

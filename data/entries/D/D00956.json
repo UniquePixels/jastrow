@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00956",
-	"slug": "דפוס-2",
-	"headword": {
-		"text": "דפוס"
-	},
+	"sefariaHeadword": "דפוס",
+	"headwords": [
+		{
+			"text": "דפוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 317,
 		"column": "a"

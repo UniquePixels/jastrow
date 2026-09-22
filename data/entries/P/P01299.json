@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P01299",
-	"slug": "ערדילין",
-	"headword": {
-		"text": "עַרְדִּילִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עַרְדִּילִין",
+	"headwords": [
+		{
+			"text": "עַרְדִּילִין"
+		},
 		{
 			"text": "עַרְדְּלִין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1114,
 		"column": "a"

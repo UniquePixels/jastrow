@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00698",
-	"slug": "קטבלא",
-	"headword": {
-		"text": "קָטָבְלָא"
-	},
+	"sefariaHeadword": "קָטָבְלָא",
+	"headwords": [
+		{
+			"text": "קָטָבְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "a"

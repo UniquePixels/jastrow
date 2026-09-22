@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00557",
-	"slug": "סיגוף-1",
-	"headword": {
-		"text": "סִיגוּף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיגוּף",
+	"headwords": [
 		{
-			"text": "סִגּ׳"
+			"text": "סִיגוּף"
+		},
+		{
+			"text": "סִגּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 975,
 		"column": "b"

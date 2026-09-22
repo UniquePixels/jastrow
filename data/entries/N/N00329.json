@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00329",
-	"slug": "נוולה",
-	"headword": {
-		"text": "נַוְולָה"
-	},
+	"sefariaHeadword": "נַוְולָה",
+	"headwords": [
+		{
+			"text": "נַוְולָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 885,
 		"column": "a"

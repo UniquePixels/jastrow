@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01045",
-	"slug": "בעיטה",
-	"headword": {
-		"text": "בְּעִיטָה"
-	},
+	"sefariaHeadword": "בְּעִיטָה",
+	"headwords": [
+		{
+			"text": "בְּעִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 181,
 		"column": "b"

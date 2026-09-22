@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00342",
-	"slug": "אגרדים",
-	"headword": {
-		"text": "אגרדים"
-	},
+	"sefariaHeadword": "אגרדים",
+	"headwords": [
+		{
+			"text": "אגרדים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 14,
 		"column": "a"

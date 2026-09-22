@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01411",
-	"slug": "ספקלאטור",
-	"headword": {
-		"text": "סְפִקְלָאטוֹר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְפִקְלָאטוֹר",
+	"headwords": [
+		{
+			"text": "סְפִקְלָאטוֹר"
+		},
 		{
 			"text": "סְפִקְלָטוֹר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1017,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M01741",
-	"slug": "מנוח-2",
-	"headword": {
-		"text": "מָנוֹחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "מָנוֹחַ II",
+	"headwords": [
+		{
+			"text": "מָנוֹחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 798,
 		"column": "a"

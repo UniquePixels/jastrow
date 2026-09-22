@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00515",
-	"slug": "דיומד",
-	"headword": {
-		"text": "דְּיוֹמַד"
-	},
+	"sefariaHeadword": "דְּיוֹמַד",
+	"headwords": [
+		{
+			"text": "דְּיוֹמַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 296,
 		"column": "b"

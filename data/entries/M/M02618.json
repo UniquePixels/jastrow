@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02618",
-	"slug": "מרזו",
-	"headword": {
-		"text": "מַרְזוּ"
-	},
+	"sefariaHeadword": "מַרְזוּ",
+	"headwords": [
+		{
+			"text": "מַרְזוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 840,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02203",
-	"slug": "אנטלי",
-	"headword": {
-		"text": "אֶנְטְלִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אֶנְטְלִי",
+	"headwords": [
+		{
+			"text": "אֶנְטְלִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 84,
 		"column": "a"

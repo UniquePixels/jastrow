@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "T00969",
-	"slug": "רפש-6",
-	"headword": {
-		"text": "רְפַשׁ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*רְפַשׁ",
+	"headwords": [
+		{
+			"text": "רְפַשׁ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1492,
 		"column": "a"

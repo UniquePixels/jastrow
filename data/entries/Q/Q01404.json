@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01404",
-	"slug": "פפוס",
-	"headword": {
-		"text": "פַּפּוּס"
-	},
+	"sefariaHeadword": "פַּפּוּס",
+	"headwords": [
+		{
+			"text": "פַּפּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1203,
 		"column": "b"

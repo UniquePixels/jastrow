@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00120",
-	"slug": "זוג-3",
-	"headword": {
-		"text": "זִוֹג"
-	},
+	"sefariaHeadword": "זִוֹג",
+	"headwords": [
+		{
+			"text": "זִוֹג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 383,
 		"column": "b"

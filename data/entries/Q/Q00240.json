@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00240",
-	"slug": "פולמרכא",
-	"headword": {
-		"text": "פּוֹלְמַרְכָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוֹלְמַרְכָא",
+	"headwords": [
+		{
+			"text": "פּוֹלְמַרְכָא"
+		},
 		{
 			"text": "פּוּלְמַרְכוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1142,
 		"column": "a"

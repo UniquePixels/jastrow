@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00022",
-	"slug": "סאפון",
-	"headword": {
-		"text": "סָאפוֹן"
-	},
+	"sefariaHeadword": "סָאפוֹן",
+	"headwords": [
+		{
+			"text": "סָאפוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 948,
 		"column": "a"

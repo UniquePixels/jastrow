@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00586",
-	"slug": "ריבוי",
-	"headword": {
-		"text": "רִיבּוּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִיבּוּי",
+	"headwords": [
 		{
-			"text": "רִבּ׳"
+			"text": "רִיבּוּי"
+		},
+		{
+			"text": "רִבּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1472,
 		"column": "b"

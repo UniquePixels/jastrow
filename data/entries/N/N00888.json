@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00888",
-	"slug": "נמקים",
-	"headword": {
-		"text": "נְמָקִים"
-	},
+	"sefariaHeadword": "נְמָקִים",
+	"headwords": [
+		{
+			"text": "נְמָקִים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "b"

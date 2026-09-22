@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00805",
-	"slug": "צרצור-2",
-	"headword": {
-		"text": "צַרְצוּר"
-	},
+	"sefariaHeadword": "צַרְצוּר",
+	"headwords": [
+		{
+			"text": "צַרְצוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1305,
 		"column": "a"

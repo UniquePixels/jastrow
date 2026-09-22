@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "G00396",
-	"slug": "זיפא",
-	"headword": {
-		"text": "זַיְפָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זַיְפָא",
+	"headwords": [
 		{
-			"text": "זֵי׳"
+			"text": "זַיְפָא"
+		},
+		{
+			"text": "זֵי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 395,
 		"column": "b"

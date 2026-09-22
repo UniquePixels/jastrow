@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01166",
-	"slug": "גסות",
-	"headword": {
-		"text": "גַּסּוּת"
-	},
+	"sefariaHeadword": "גַּסּוּת",
+	"headwords": [
+		{
+			"text": "גַּסּוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 260,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00286",
-	"slug": "טטרוגי",
-	"headword": {
-		"text": "טַטְרוּגֵי"
-	},
+	"sefariaHeadword": "טַטְרוּגֵי",
+	"headwords": [
+		{
+			"text": "טַטְרוּגֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 529,
 		"column": "a"

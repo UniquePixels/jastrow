@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00941",
-	"slug": "כסל",
-	"headword": {
-		"text": "כֶּסֶל"
-	},
+	"sefariaHeadword": "כֶּסֶל",
+	"headwords": [
+		{
+			"text": "כֶּסֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 654,
 		"column": "b"

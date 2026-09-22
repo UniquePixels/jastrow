@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00578",
-	"slug": "ריאגיסו",
-	"headword": {
-		"text": "ריאגיסו"
-	},
+	"sefariaHeadword": "ריאגיסו",
+	"headwords": [
+		{
+			"text": "ריאגיסו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1472,
 		"column": "a"

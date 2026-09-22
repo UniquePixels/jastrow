@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A02860",
-	"slug": "אצווחתא",
-	"headword": {
-		"text": "אַצְוַוחְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַצְוַוחְתָּא",
+	"headwords": [
+		{
+			"text": "אַצְוַוחְתָּא"
+		},
 		{
 			"text": "אַצְוָחוּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 110,
 		"column": "b"

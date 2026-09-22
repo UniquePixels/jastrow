@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00652",
-	"slug": "חיבה",
-	"headword": {
-		"text": "חִיבָּה"
-	},
+	"sefariaHeadword": "חִיבָּה",
+	"headwords": [
+		{
+			"text": "חִיבָּה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 450,
 		"column": "b"

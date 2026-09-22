@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00696",
-	"slug": "מותבותא",
-	"headword": {
-		"text": "מוֹתְבוּתָא"
-	},
+	"sefariaHeadword": "מוֹתְבוּתָא",
+	"headwords": [
+		{
+			"text": "מוֹתְבוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00494",
-	"slug": "ליסטאות",
-	"headword": {
-		"text": "ליסטאות"
-	},
+	"sefariaHeadword": "ליסטאות",
+	"headwords": [
+		{
+			"text": "ליסטאות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 708,
 		"column": "b"

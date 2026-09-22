@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00870",
-	"slug": "שיחין-1",
-	"headword": {
-		"text": "שִׁיחְיָן"
-	},
+	"sefariaHeadword": "שִׁיחְיָן",
+	"headwords": [
+		{
+			"text": "שִׁיחְיָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

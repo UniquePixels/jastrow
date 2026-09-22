@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01618",
-	"slug": "קנשריא",
-	"headword": {
-		"text": "קַנִּשְׁרַיָּא"
-	},
+	"sefariaHeadword": "קַנִּשְׁרַיָּא",
+	"headwords": [
+		{
+			"text": "קַנִּשְׁרַיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1395,
 		"column": "a"

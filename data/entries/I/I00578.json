@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00578",
-	"slug": "טנן-2",
-	"headword": {
-		"text": "טְנַן"
-	},
+	"sefariaHeadword": "טְנַן",
+	"headwords": [
+		{
+			"text": "טְנַן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 541,
 		"column": "a"

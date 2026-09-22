@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "D01078",
-	"slug": "דרי-1",
-	"headword": {
-		"text": "דְּרֵי",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּרֵי I",
+	"headwords": [
+		{
+			"text": "דְּרֵי",
+			"homograph": 1
+		},
 		{
 			"text": "דְּרָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 322,
 		"column": "b"

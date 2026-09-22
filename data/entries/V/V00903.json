@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00903",
-	"slug": "תקנה",
-	"headword": {
-		"text": "תַּקָּנָה"
-	},
+	"sefariaHeadword": "תַּקָּנָה",
+	"headwords": [
+		{
+			"text": "תַּקָּנָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1693,
 		"column": "a"

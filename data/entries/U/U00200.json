@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00200",
-	"slug": "שבת-5",
-	"headword": {
-		"text": "שַׁבָּת"
-	},
+	"sefariaHeadword": "שַׁבָּת",
+	"headwords": [
+		{
+			"text": "שַׁבָּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1520,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00291",
-	"slug": "שדרתא",
-	"headword": {
-		"text": "שַׁדַּרְתָּא"
-	},
+	"sefariaHeadword": "שַׁדַּרְתָּא",
+	"headwords": [
+		{
+			"text": "שַׁדַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1526,
 		"column": "b"

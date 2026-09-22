@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00101",
-	"slug": "בדא-3",
-	"headword": {
-		"text": "בָּדָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בָּדָא",
+	"headwords": [
+		{
+			"text": "בָּדָא"
+		},
 		{
 			"text": "בְּדָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 138,
 		"column": "b"

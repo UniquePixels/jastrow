@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00513",
-	"slug": "צליבתא",
-	"headword": {
-		"text": "צְלִיבְתָּא"
-	},
+	"sefariaHeadword": "צְלִיבְתָּא",
+	"headwords": [
+		{
+			"text": "צְלִיבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

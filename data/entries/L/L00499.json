@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00499",
-	"slug": "ליסטירין",
-	"headword": {
-		"text": "לִיסְטֵירִין"
-	},
+	"sefariaHeadword": "לִיסְטֵירִין",
+	"headwords": [
+		{
+			"text": "לִיסְטֵירִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 709,
 		"column": "a"

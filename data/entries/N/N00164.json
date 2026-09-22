@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00164",
-	"slug": "נגיפה",
-	"headword": {
-		"text": "נְגִיפָה"
-	},
+	"sefariaHeadword": "נְגִיפָה",
+	"headwords": [
+		{
+			"text": "נְגִיפָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 874,
 		"column": "b"

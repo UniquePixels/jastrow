@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01584",
-	"slug": "קנייא-2",
-	"headword": {
-		"text": "קנייא"
-	},
+	"sefariaHeadword": "קנייא",
+	"headwords": [
+		{
+			"text": "קנייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1392,
 		"column": "b"

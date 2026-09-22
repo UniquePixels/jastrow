@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02870",
-	"slug": "משיח",
-	"headword": {
-		"text": "מָשִׁיחַ"
-	},
+	"sefariaHeadword": "מָשִׁיחַ",
+	"headwords": [
+		{
+			"text": "מָשִׁיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 852,
 		"column": "a"

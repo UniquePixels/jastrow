@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A01812",
-	"slug": "אלולי-2",
-	"headword": {
-		"text": "אִלּוּלֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִלּוּלֵי",
+	"headwords": [
+		{
+			"text": "אִלּוּלֵי"
+		},
 		{
 			"text": "אִלּוּלֵיפוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "אִלּוּלָפוֹן"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 67,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01090",
-	"slug": "כרדו",
-	"headword": {
-		"text": "כַּרְדּוּ"
-	},
+	"sefariaHeadword": "כַּרְדּוּ",
+	"headwords": [
+		{
+			"text": "כַּרְדּוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 664,
 		"column": "a"

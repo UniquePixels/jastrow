@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00457",
-	"slug": "נזף-1",
-	"headword": {
-		"text": "נָזַף"
-	},
+	"sefariaHeadword": "נָזַף",
+	"headwords": [
+		{
+			"text": "נָזַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 892,
 		"column": "a"

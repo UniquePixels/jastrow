@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00980",
-	"slug": "נעים-1",
-	"headword": {
-		"text": "נָעִים",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נָעִים I",
+	"headwords": [
+		{
+			"text": "נָעִים",
+			"homograph": 1
+		},
 		{
 			"text": "נְעִימָה"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 919,
 		"column": "b"

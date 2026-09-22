@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K00460",
-	"slug": "כחיש",
-	"headword": {
-		"text": "כָּחִישׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כָּחִישׁ",
+	"headwords": [
+		{
+			"text": "כָּחִישׁ"
+		},
 		{
 			"text": "כְּחִישָׁא"
 		},
@@ -12,6 +13,7 @@
 			"text": "כְּחִישְׁתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 628,
 		"column": "b"

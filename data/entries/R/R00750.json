@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00750",
-	"slug": "צרור-2",
-	"headword": {
-		"text": "צְרוֹר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "צְרוֹר I",
+	"headwords": [
+		{
+			"text": "צְרוֹר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1300,
 		"column": "b"

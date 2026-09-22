@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00179",
-	"slug": "לובי",
-	"headword": {
-		"text": "לוּבִי"
-	},
+	"sefariaHeadword": "לוּבִי",
+	"headwords": [
+		{
+			"text": "לוּבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 694,
 		"column": "a"

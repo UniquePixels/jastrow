@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00345",
-	"slug": "מהדורא-2",
-	"headword": {
-		"text": "מַהֲדוּרָא"
-	},
+	"sefariaHeadword": "מַהֲדוּרָא",
+	"headwords": [
+		{
+			"text": "מַהֲדוּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 736,
 		"column": "b"

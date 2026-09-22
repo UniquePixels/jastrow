@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00141",
-	"slug": "טוח-2",
-	"headword": {
-		"text": "טוּחַ"
-	},
+	"sefariaHeadword": "טוּחַ",
+	"headwords": [
+		{
+			"text": "טוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 522,
 		"column": "b"

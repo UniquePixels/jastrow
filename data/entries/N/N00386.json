@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N00386",
-	"slug": "נועדן",
-	"headword": {
-		"text": "נועדן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נועדן",
+	"headwords": [
+		{
+			"text": "נועדן"
+		},
 		{
 			"text": "נוערן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 888,
 		"column": "b"

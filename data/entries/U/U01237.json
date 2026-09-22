@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01237",
-	"slug": "שלווא",
-	"headword": {
-		"text": "שְׁלֵוָוא"
-	},
+	"sefariaHeadword": "שְׁלֵוָוא",
+	"headwords": [
+		{
+			"text": "שְׁלֵוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1578,
 		"column": "b"

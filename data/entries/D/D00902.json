@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00902",
-	"slug": "דמכותא",
-	"headword": {
-		"text": "דַּמְכוּתָא"
-	},
+	"sefariaHeadword": "דַּמְכוּתָא",
+	"headwords": [
+		{
+			"text": "דַּמְכוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 314,
 		"column": "a"

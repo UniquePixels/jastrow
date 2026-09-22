@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00769",
-	"slug": "בכור",
-	"headword": {
-		"text": "בְּכוֹר"
-	},
+	"sefariaHeadword": "בְּכוֹר",
+	"headwords": [
+		{
+			"text": "בְּכוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 169,
 		"column": "a"

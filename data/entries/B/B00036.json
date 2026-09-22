@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00036",
-	"slug": "באמי",
-	"headword": {
-		"text": "באמי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*באמי",
+	"headwords": [
+		{
+			"text": "באמי",
+			"reconstructed": true
+		},
 		{
 			"text": "כאמי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 135,
 		"column": "b"

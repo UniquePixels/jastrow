@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00872",
-	"slug": "שיחלא",
-	"headword": {
-		"text": "שִׁיחְלָא"
-	},
+	"sefariaHeadword": "שִׁיחְלָא",
+	"headwords": [
+		{
+			"text": "שִׁיחְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1559,
 		"column": "b"

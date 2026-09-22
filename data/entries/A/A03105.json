@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03105",
-	"slug": "ארים",
-	"headword": {
-		"text": "אֲרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרִים",
+	"headwords": [
+		{
+			"text": "אֲרִים"
+		},
 		{
 			"text": "אֲרוּם"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 120,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B00818",
-	"slug": "בלג",
-	"headword": {
-		"text": "בלג",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בלג",
+	"headwords": [
+		{
+			"text": "בלג",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 171,
 		"column": "a"

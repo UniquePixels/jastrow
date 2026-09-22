@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02771",
-	"slug": "מרקיה",
-	"headword": {
-		"text": "מרקיה"
-	},
+	"sefariaHeadword": "מרקיה",
+	"headwords": [
+		{
+			"text": "מרקיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 847,
 		"column": "b"

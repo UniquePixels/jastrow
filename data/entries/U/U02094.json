@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U02094",
-	"slug": "שתי-5",
-	"headword": {
-		"text": "שְׁתֵי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁתֵי ²",
+	"headwords": [
+		{
+			"text": "שְׁתֵי",
+			"disambiguator": 2
+		},
 		{
 			"text": "שְׁתָא"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 1637,
 		"column": "b"

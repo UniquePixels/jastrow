@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01362",
-	"slug": "אין-3",
-	"headword": {
-		"text": "אַיִן",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַיִן II",
+	"headwords": [
+		{
+			"text": "אַיִן",
+			"homograph": 2
+		},
 		{
 			"text": "אַיִין"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 52,
 		"column": "a"

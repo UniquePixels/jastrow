@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02062",
-	"slug": "מעגל",
-	"headword": {
-		"text": "מַעֲגָל"
-	},
+	"sefariaHeadword": "מַעֲגָל",
+	"headwords": [
+		{
+			"text": "מַעֲגָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 813,
 		"column": "a"

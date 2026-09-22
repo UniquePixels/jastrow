@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01375",
-	"slug": "אינו",
-	"headword": {
-		"text": "אינו"
-	},
+	"sefariaHeadword": "אינו",
+	"headwords": [
+		{
+			"text": "אינו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 52,
 		"column": "b"

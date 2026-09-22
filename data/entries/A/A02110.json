@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02110",
-	"slug": "אנגרכטיס",
-	"headword": {
-		"text": "אנגרכטיס"
-	},
+	"sefariaHeadword": "אנגרכטיס",
+	"headwords": [
+		{
+			"text": "אנגרכטיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "a"

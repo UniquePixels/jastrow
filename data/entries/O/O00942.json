@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00942",
-	"slug": "סכר-3",
-	"headword": {
-		"text": "סְכַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "סְכַר II",
+	"headwords": [
+		{
+			"text": "סְכַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 993,
 		"column": "a"

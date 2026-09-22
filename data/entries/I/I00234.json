@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00234",
-	"slug": "טורמוטא",
-	"headword": {
-		"text": "טורמוטא"
-	},
+	"sefariaHeadword": "טורמוטא",
+	"headwords": [
+		{
+			"text": "טורמוטא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

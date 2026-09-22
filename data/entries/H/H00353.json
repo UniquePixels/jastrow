@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00353",
-	"slug": "חולית-1",
-	"headword": {
-		"text": "חוֹלִית"
-	},
+	"sefariaHeadword": "חוֹלִית",
+	"headwords": [
+		{
+			"text": "חוֹלִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 434,
 		"column": "b"

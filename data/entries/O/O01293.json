@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "O01293",
-	"slug": "סער-1",
-	"headword": {
-		"text": "סָעַר",
-		"reconstructed": true,
-		"homograph": 1
-	},
+	"sefariaHeadword": "*סָעַר I",
+	"headwords": [
+		{
+			"text": "סָעַר",
+			"reconstructed": true,
+			"homograph": 1
+		}
+	],
+	"display": "*{0} I",
 	"page": {
 		"number": 1010,
 		"column": "a"

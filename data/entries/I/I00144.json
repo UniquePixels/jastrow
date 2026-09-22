@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00144",
-	"slug": "טוחנות",
-	"headword": {
-		"text": "טוֹחֲנוֹת"
-	},
+	"sefariaHeadword": "טוֹחֲנוֹת",
+	"headwords": [
+		{
+			"text": "טוֹחֲנוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 523,
 		"column": "a"

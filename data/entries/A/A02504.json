@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A02504",
-	"slug": "אספניא-1",
-	"headword": {
-		"text": "אִסְפַּנְיָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפַּנְיָא",
+	"headwords": [
 		{
-			"text": "אִיסְ׳"
+			"text": "אִסְפַּנְיָא"
+		},
+		{
+			"text": "אִיסְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 96,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

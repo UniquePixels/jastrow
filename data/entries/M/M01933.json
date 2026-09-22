@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01933",
-	"slug": "מסיקיין",
-	"headword": {
-		"text": "מַסִּיקְיָין"
-	},
+	"sefariaHeadword": "מַסִּיקְיָין",
+	"headwords": [
+		{
+			"text": "מַסִּיקְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "a"

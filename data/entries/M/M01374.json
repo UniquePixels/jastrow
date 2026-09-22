@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01374",
-	"slug": "מכי-1",
-	"headword": {
-		"text": "מְכִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְכִי",
+	"headwords": [
+		{
+			"text": "מְכִי"
+		},
 		{
 			"text": "מְכָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 782,
 		"column": "a"
