@@ -1,6 +1,6 @@
 # Headword design — proposal, decisions and open questions
 
-**Status: §2 shape RULED and IMPLEMENTED 2026-09-21 (PR pending); §5–§6 stay open.** Worked
+**Status: §2 shape RULED 2026-09-21 and IMPLEMENTED in [#130](https://github.com/UniquePixels/jastrow/pull/130); §5–§6 stay open.** Worked
 through with Brian 2026-09-18–20, walking every shape in
 [headword-issues.md](headword-issues.md). **All 16 shapes are
 settled**, and §2, §3, §3.1 and §4 are in code: one parser reads the

@@ -352,6 +352,6 @@ below are decided and simply unbuilt.
 | V7 | Only CP-0 and CP-1 were ever minuted |
 | V9 | No `main` → `v2` merge since `v2` began |
 | D2 | `data/page-index/build-report.json` is committed |
-| HW-schema | Built 2026-09-21: the parser, the redefined gate 2, the two unregistrations and `schemaVersion: 2` are all in code. What is NOT done is the batched rewrite of the 32,512 entry files — `migrate/truth.test.ts` reads the committed tree forward until it lands — and two questions the implementation refused to guess: the G00674/G00675 name collision (gate 7 red at 65,023/65,024) and A02823's display |
+| HW-schema | Built 2026-09-21 ([#130](https://github.com/UniquePixels/jastrow/pull/130)): the parser, the redefined gate 2, the two unregistrations and `schemaVersion: 2` are all in code. What is NOT done is the batched rewrite of the 32,512 entry files — `migrate/truth.test.ts` reads the committed tree forward until it lands — and two questions the implementation refused to guess: the G00674/G00675 name collision (gate 7 red at 65,023/65,024) and A02823's display |
 | 09-21 admin edits | Depends on the update run (§3.2), which is unbuilt — so the three #113 gloss edits still have nowhere to land |
 | U1–U8 | Steps 1–3 of that spec §9 are built: import writes `sefariaHeadword`, the name is derived, the `names` gate replaced `slugs`, and the slug index is retired. Steps 4–6 — the admin tool's rename flow, compile's route map, and the published-names ledger with its three gates — are not. `formerNames` is in the schema and unwritten |
