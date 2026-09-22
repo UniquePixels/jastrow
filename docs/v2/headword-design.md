@@ -117,7 +117,7 @@ Worked examples, one per variation found:
 | rid | Print | `display` |
 |---|---|---|
 | M02007 | comma, numeral after the parenthesis | `{0}, ({1}) I` |
-| A02823 | parentheses on the headword, no comma | `({0}) {1} I` |
+| A02823 | parentheses on the headword, no comma — the **print's** reading, confirmed against the scan. The source puts them on the alternate, so the parser emits `{0}, ({1}) I`; this value is set by a reviewed patch (§4 Parentheses, ruling 2026-09-22) | `({0}) {1} I` |
 | K01275 | numeral inside the parentheses | `{0} I, ({1} II)` |
 | A00888 | a 1-form group, then a 4-form group | `{0}, ({1}), ({2}, {3}, {4}, {5})` |
 | G00374 | group opens on the headword, never closes | **unset** — flagged, see §3 |
@@ -174,11 +174,11 @@ search hit, or derive a slug from it.
 | Topic | Decision |
 |---|---|
 | **Commas** | Never stored in a headword. The leading `,` that opens 10,743 glosses also goes; the app supplies separators. The 3 headwords that carry one (A02356, B00407, D00844) are defects. |
-| **Parentheses** | The 2026-08-27 ruling ("strip the delimiters, add no new form-object mark") is **reversed in intent**. Grouping is kept as structure in `display` and never inside `text`. A group may span the headword and its alternates. |
+| **Parentheses** | The 2026-08-27 ruling ("strip the delimiters, add no new form-object mark") is **reversed in intent**. Grouping is kept as structure in `display` and never inside `text`. A group may span the headword and its alternates. **RULING (Brian, 2026-09-22).** The parser stays **source-faithful**: it records the placement the source shows and emits a comma between ungrouped forms, because Sefaria's split dropped print's separators and no parser can tell M02007's line (comma) from A02823's (none). A02823's print reading `({0}) {1} I`, already confirmed against the scan, is filed as a reviewed patch in the same batch as [#113](https://github.com/UniquePixels/jastrow/issues/113) — not as a code exception. The §2 row for A02823 is that patch's target, not the parser's output. The ~580 other placements stay as §5 records them. |
 | **Roman numerals** | **Never moved.** Each numeral stays on the form it is attached to today and is printed where the source prints it — 10 inside the parentheses, 5 after. |
 | **Gender** | At most one of: the entry's `grammar.gender`, **or** a `gender` on *every* headword of the entry. Never both, and no inheritance. |
 | **A01480 `אִיסְפְּלָנִית(א)`** | An alternate ending of one word, not a separate form. The only headword in the corpus with this notation. |
-| **Numeral lists on cross-references** (H1, 6 rows) | `display` only, **no `homograph`**. All 6 are bare cross-references (`אוּרְיָה I, II, v. אוּרְיָא`) and the numbered forms already exist elsewhere, carrying their own `homograph`: A00877/A00878 hold `אוּרְיָה` 1 and 2, and so on for B00435/B00436, D00607/D00608, E00515/E00516, G00696/G00698. The numerals here point at those entries. |
+| **Numeral lists on cross-references** (H1, 6 rows) | `display` only, **no `homograph`**. All 6 are bare cross-references (`אוּרְיָה I, II, v. אוּרְיָא`) and the numbered forms already exist elsewhere, carrying their own `homograph`: A00877/A00878 hold `אוּרְיָה` 1 and 2, and so on for B00435/B00436, D00607/D00608, E00515/E00516, G00696/G00698. The numerals here point at those entries. **RULING (Brian, 2026-09-22).** Stripping the list from the URL name makes G00675 (`זָרָה I, II`) collide with G00674 (`זָרָה`, fem. of `זָר`) — the only collision in 32,512, gate 7 at 65023/65024. The 1903 print (412a) sets the two lines back to back and marks the second only by its `I, II`. G00675 takes `disambiguator: 2` (name `זָרָה²`) by reviewed patch — Sefaria's own tool, carried by 766 source headwords. Rejected: reading `I, II` as a homograph (contradicts this row), merging the stubs (loses a printed line), holding the collision for #113. |
 | **Parentheses whose group never closes** (H2, 6 rows: G00374, L00587, P00223, P00224, Q00370, S01421) | The forms are clean and are written; `display` is left **unset** and the row flagged `paren-group-close-unknown`. Verified: no `)` in the headword, the alternates or `morphology` for any of the 6 — the `)` in their definitions closes an etymology. Two readings are possible (`({0}, {1})` or `({0}) {1}`) and A02823 proves Sefaria can place them wrongly, so neither is assumed. |
 | **A01394 `אֵינָשׁ) אִינְשָׁא`** (H2, 1 row) | Same treatment: the alternates need a re-split only the print can settle, so the row is flagged rather than guessed. |
 | **Query mark `?`** (H3, 2 rows) | `display` only, never in `text`. Jastrow is marking the reading as doubtful, which carries nothing the lookup needs. The whole corpus holds two: A00077 alt `(?אִיבּוּס)` inside a paren group, and B00825 `*(?)בַּלְוָוטִי`. If "uncertain" ever becomes something the app filters on, these are the two rows to revisit — `*` is stored as `reconstructed` for the same kind of signal. |
@@ -238,7 +238,9 @@ numeral the tear lost.
   them on the wrong form (print reads `(0) 1 I`). About 580 entries carry
   parentheses and would need checking against the hOCR or the print.
   Until then, only what the source shows is recorded; see §4 for the 7
-  rows this already reaches.
+  rows this already reaches. A02823 alone is corrected by a reviewed
+  patch, since its reading is confirmed (ruled 2026-09-22, §4
+  Parentheses).
 - **A02823 and M02007**: is the trailing numeral the entry's own? Not
   resolved — under §4 nothing moves either way.
 - **Lost per-form gender labels.** Sefaria keeps only the last label on
