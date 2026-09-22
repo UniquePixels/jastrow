@@ -26,7 +26,7 @@
  * sees everything, and four modules would be four docstrings repeating
  * one context.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import type { Rule, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex. Neither carries `g`

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { parseLabel, printLabel } from '../../body/labels.ts';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
 import { parsePatterns } from '../../patch/patterns.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { strandedDashStarMarker } from './sense-marker.ts';
 
 /** A minimal entry around the senses under test. */

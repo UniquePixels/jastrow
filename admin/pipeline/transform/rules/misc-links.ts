@@ -198,7 +198,7 @@
  * The write-back task owns moving `patterns.jsonl`'s corpusCount to
  * 60/50 and carrying this block into the row's `reason`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Token } from '../html.ts';
 import { serialize, tokenize } from '../html.ts';
 import type { Anchor } from '../links.ts';

@@ -83,7 +83,7 @@
  * writes no link target, declares nothing to `link-target.ts`, and
  * leaves every `<…>` run byte-identical.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../html.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

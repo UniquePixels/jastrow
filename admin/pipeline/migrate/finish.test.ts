@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { BodyEntry, SourceEntry } from '../body/types.ts';
+import type { BodyEntry, SourceEntry } from '../types.ts';
 import { finishEntry } from './finish.ts';
 
 const source: SourceEntry = {

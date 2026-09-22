@@ -162,7 +162,7 @@
  *   this branch's three population-claiming rules got as far as they
  *   did.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 

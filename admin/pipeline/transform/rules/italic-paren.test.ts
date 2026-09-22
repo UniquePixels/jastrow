@@ -10,7 +10,7 @@
  * punctuation-only branch 2.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { checkNoNewText } from '../no-new-text.ts';
 import { italicSwallowsCloseParen } from './italic-paren.ts';
 

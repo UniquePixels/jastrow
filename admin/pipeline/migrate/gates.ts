@@ -2,8 +2,9 @@
 /** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, each a tally. Gate 1
  * (body round-trips), 4 (schema) and 9 (composition failures) live
  * with the composer and the CLI. */
-import type { BodyEntry, SourceEntry } from '../body/types.ts';
+
 import { tokenize } from '../transform/html.ts';
+import type { BodyEntry, SourceEntry } from '../types.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { Tally, TruthEntry } from './types.ts';

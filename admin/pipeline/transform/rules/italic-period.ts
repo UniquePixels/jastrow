@@ -122,7 +122,7 @@
  * belongs to. Measured, not assumed; a trailing-space body would
  * produce `<i>Af .</i>`, which renders identically but reads wrong.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { isLabel } from '../abbrev-vocab.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

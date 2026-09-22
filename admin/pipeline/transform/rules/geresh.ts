@@ -181,7 +181,7 @@
  * is `inflection-abbrev-mislink`'s shape. Registered for review, not
  * annexed here.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import type { Anchor } from '../links.ts';
 import type { Rule, TransformResult } from '../types.ts';
 import { unlinkOverDefinitions } from './unlink.ts';

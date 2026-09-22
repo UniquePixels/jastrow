@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import { parseLabel, printLabel } from './labels.ts';
 import { walkSenses } from './sense-walk.ts';
 import { parseSourceEntry } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 describe('parseLabel', () => {
 	it('parses bare digit labels', () => {

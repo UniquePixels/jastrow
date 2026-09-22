@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { checkMarkup } from '../markup.ts';
 import { checkNoNewText } from '../no-new-text.ts';

@@ -6,7 +6,7 @@
  * than computed, and of what link-target gate case 8 does and does
  * not check is the block below, above `TWINS`.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { serialize, tokenize } from '../html.ts';
 import { anchors, retarget as retargetAnchor } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

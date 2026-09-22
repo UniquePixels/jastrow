@@ -7,6 +7,8 @@
  * run differ only in what they do with the result, so the composition
  * is stated once instead of once per caller.
  */
+
+import { applyRepairs, type RepairRecord } from './body/repairs.ts';
 import {
 	type ApplyProblem,
 	applyCarryOver,
@@ -14,12 +16,11 @@ import {
 	createPhaseTracker,
 	type DriftMode,
 	type PatchDrift,
-} from '../patch/apply.ts';
-import type { SemanticPatch } from '../patch/schema.ts';
-import { RULES } from '../transform/registry.ts';
-import { applyTransforms } from '../transform/run.ts';
-import type { Rule, TransformRecord } from '../transform/types.ts';
-import { applyRepairs, type RepairRecord } from './repairs.ts';
+} from './patch/apply.ts';
+import type { SemanticPatch } from './patch/schema.ts';
+import { RULES } from './transform/registry.ts';
+import { applyTransforms } from './transform/run.ts';
+import type { Rule, TransformRecord } from './transform/types.ts';
 import type { SourceEntry } from './types.ts';
 
 /** The running record of which phases this composition has completed,
@@ -30,12 +31,17 @@ import type { SourceEntry } from './types.ts';
 type PhaseTracker = ReturnType<typeof createPhaseTracker>;
 
 /** A failure raised by the TRANSFORM half of `text-repairs` or by
- * `structural-repairs`, not by `repairs.ts`. The two halves fail for
- * unrelated reasons and are fixed in unrelated files — a drifted
- * literal find-text is a `repairs.ts` edit, a no-new-text or markup
- * violation is a rule bug in `transform/rules/` — so the phase that
- * failed is carried on the error rather than left for the operator to
- * guess from a message saying "repair drift". */
+ * `structural-repairs`, not by `repairs.ts`. The distinction is what
+ * this type exists to make: the two halves fail for unrelated reasons
+ * and are fixed in unrelated files — a drifted literal find-text is a
+ * `repairs.ts` edit, a no-new-text or markup violation is a rule bug
+ * in `transform/rules/`.
+ *
+ * It carries no phase field. Which of the two phases threw is
+ * recoverable from `cause`, the underlying rule error, whose message
+ * names the rule; `phases` on the `ComposeResult` records how far the
+ * composition got. A reader wanting the phase on the error itself
+ * would be adding a field, not reading one. */
 class TransformFailure extends Error {}
 
 /** The `text-repairs` phase body: the general `applyRepairs` cleanup

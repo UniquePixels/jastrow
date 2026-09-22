@@ -9,7 +9,7 @@
  * field carries the reasoning a table here could not. `walkSensesDeep`
  * lives here and is shared with `migrate/orphan-refs.ts`.
  */
-import type { SourceEntry, SourceSense } from './types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 
 /** Which repair pass produced a `RepairRecord`. A closed union rather
  * than a free string, so a corpus-wide pass has to be named here

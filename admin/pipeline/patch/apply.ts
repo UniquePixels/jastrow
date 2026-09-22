@@ -19,11 +19,11 @@
  *
  * Run (dry, read-only): bun patch:replay, whose entry point is
  * `patch/apply-cli.ts` — it composes each entry through
- * `body/compose.ts` first, so it judges anchors against the same
+ * `compose.ts` first, so it judges anchors against the same
  * state `data:import` applies them to.
  */
 import { existsSync } from 'node:fs';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
 	type EntryResult,

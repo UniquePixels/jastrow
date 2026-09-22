@@ -1,6 +1,5 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	type EntryResult,
 	ManifestFormatError,
@@ -11,6 +10,7 @@ import {
 	unresolvedNeeds,
 	validateManifest,
 } from './manifest.ts';
+import type { SemanticPatch } from './schema.ts';
 
 /** Minimal valid record per disposition, for building test lines. */
 const CLEAN = { disposition: 'clean', patches: [], rid: 'A00001' };

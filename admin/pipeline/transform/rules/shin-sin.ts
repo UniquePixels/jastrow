@@ -55,7 +55,7 @@
  * Not `initial-niqqud-drop`, which is a LOST VOWEL and a complementary
  * shape: the two overlap in 1 of 89.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 import { inputTargets } from './point-claims.ts';

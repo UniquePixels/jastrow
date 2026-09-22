@@ -7,7 +7,7 @@
  * needed link-target gate case 7 are the block below, above
  * `VARIANT_DISPLAY`.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { serialize, type TextToken, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, retarget } from '../links.ts';

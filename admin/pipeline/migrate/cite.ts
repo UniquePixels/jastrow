@@ -12,7 +12,7 @@
  * only: nothing stored is ever normalized, so gate 2's byte-exact
  * headword regeneration sees the source spelling untouched.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import type { RefResolver } from './markup.ts';
 
 const INTERNAL_PREFIX = 'Jastrow,_';

@@ -59,7 +59,7 @@
  * snapshot but ARE walked by `fieldsOf`, so they are mapped too
  * rather than left for a re-fetch to expose.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { GERSHAYIM, repairTags, repairText } from '../gershayim.ts';
 import { HEBREW, tokenize } from '../html.ts';

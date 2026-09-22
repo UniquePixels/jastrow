@@ -20,9 +20,9 @@
  *
  * Run: bun run headword:issues
  */
-import { isHeadwordReviewKind } from './migrate/headwords.ts';
-import { nameOf } from './migrate/names.ts';
-import type { FormObject, TruthEntry } from './migrate/types.ts';
+import { isHeadwordReviewKind } from '../migrate/headwords.ts';
+import { nameOf } from '../migrate/names.ts';
+import type { FormObject, TruthEntry } from '../migrate/types.ts';
 
 const ENTRIES_DIR = 'data/entries';
 const REPORT_PATH = 'data/source/migration-report.json';

@@ -58,7 +58,7 @@
  * rather than chased, since a second pass would need the same evidence
  * for a different position and the row's count is stated at 18.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The one shape this rule accepts: a definition ending in a sense

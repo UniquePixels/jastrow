@@ -11,7 +11,7 @@
  * `language_reference` and closes inside the sense-1 definition becomes
  * contiguous text again once the two are concatenated in print order.
  */
-import type { SourceEntry } from './types.ts';
+import type { SourceEntry } from '../types.ts';
 
 /** The four fragments a gloss head was concatenated from, recovered:
  * the morphology marker, the language code, the language

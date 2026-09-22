@@ -86,7 +86,7 @@
  *   for await (const e of readSourceEntries()) es.push(e);
  *   console.log(JSON.stringify([...deriveAbbreviations(es)].sort()))'
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { fieldsOf } from './no-new-text.ts';
 
 /** Derived from the pinned snapshot (93 members); see module doc. */

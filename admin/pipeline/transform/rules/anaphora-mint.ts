@@ -139,7 +139,7 @@
  * an unpopped open nor an unpopping close), and declares every anchor
  * it creates through `minted` for case 10.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

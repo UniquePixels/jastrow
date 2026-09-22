@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceSense } from '../types.ts';
 import type { Boundary } from './sense-walk.ts';
 import { classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
-import type { SourceSense } from './types.ts';
 
 // The pattern the scanner replaced. `[^>]+` is what backtracks.
 const TAGS = /<[^>]+>/gu;

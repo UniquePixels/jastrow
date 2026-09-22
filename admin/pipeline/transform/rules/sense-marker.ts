@@ -69,7 +69,7 @@
  * dash is a SEPARATOR, not debris, so for those 31 there is nothing
  * yet to separate and no repair this rule can license.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The dash that moves. Not deleted anywhere — written into `number` in

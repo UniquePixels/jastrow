@@ -29,7 +29,7 @@
  * manifest gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.

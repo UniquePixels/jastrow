@@ -9,7 +9,6 @@ feeding Stage 2 (import).
 
 | Tool | Job | Status |
 |---|---|---|
-| `types.ts` | Shared upstream (`Source*`) and target (`Body*`) type vocabulary | done |
 | `source.ts` | Streaming reader for `data/source/jastrow-dictionary.jsonl` | done |
 | `cite.ts` | Citation detector | done |
 | `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | archived at `refs/tags/archive/v2-research-2026-09` |
@@ -20,13 +19,16 @@ feeding Stage 2 (import).
 | `units.ts` | Body unit builder (gloss + citation units) | done |
 | `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`) | done |
 | `fixtures/` | Shared golden fixtures for the above | done |
-| `dry-run.ts` | Full-corpus dry run report before import commits (+ `dry-run-verify.ts`, `dry-run-report.ts`) | done |
+| `trace.ts` | The §6.0 body composition `migrate.ts` imports (`buildTrace`, `buildBody`) | done |
+| `round-trip.ts` | Round-trip verifier for the migrate gate | done |
+| `dry-run.ts`, `dry-run-verify.ts`, `dry-run-report.ts` | Full-corpus dry run report before import commits | split: the library halves are `trace.ts` and `round-trip.ts`; the CLI is archived at `refs/tags/archive/v2-research-2026-09` |
 | `review.ts` | Eyes-on review docs over dry-run output (`docs/archive/body-review/`) | archived at `refs/tags/archive/v2-research-2026-09` |
 | `repairs.ts` | General, corpus-wide import repairs (Task 16); the rid-keyed tables moved to reviewed patches in `data/patches/reviewed/` (consolidation step 8, spec §4.1) | done |
-| `compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts` | done |
+| `../types.ts` | Shared upstream (`Source*`) and target (`Body*`) type vocabulary. **Moved to the pipeline root 2026-09-22**: every stage imports it, so it was never body-specific |
+| `../compose.ts` | One entry through text-repairs → structural-repairs → patch-apply; shared by `migrate.ts` and `patch/apply-cli.ts`. **Moved to the pipeline root 2026-09-22** for the same reason |
 | `migrate-dry.ts` | Repairs + composition + gates over the healed snapshot, import report | archived at `refs/tags/archive/v2-research-2026-09` |
 
-## Source reader (`source.ts`, `types.ts`)
+## Source reader (`source.ts`, `../types.ts`)
 
 ```ts
 import { readSourceEntries } from './source.ts';

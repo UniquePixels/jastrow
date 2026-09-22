@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';
 import { RULES } from './registry.ts';
 

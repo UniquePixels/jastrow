@@ -6,7 +6,7 @@
  * one-directional falsifier, and the three sibling rows it declines
  * to — is the block below, above `ITALIC_RUN`.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { tagSpans } from '../html.ts';
 import { stripTags } from '../no-new-text.ts';

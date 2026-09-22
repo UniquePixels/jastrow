@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { ComposeResult } from '../body/compose.ts';
+import type { ComposeResult } from '../compose.ts';
 import type { ApplyProblem, PatchDrift } from '../patch/apply.ts';
 import { patchesByRid } from '../patch/apply.ts';
 import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';

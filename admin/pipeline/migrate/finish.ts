@@ -3,7 +3,7 @@
  * entry and its body: form objects, translated markup, citation refs,
  * `sefariaHeadword` and page, assembled in schema key order.
  */
-import type { BodyEntry, BodySense, SourceEntry } from '../body/types.ts';
+import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
 import { type HeadwordReviewKind, parseHeadwordLine } from './headwords.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';

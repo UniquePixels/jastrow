@@ -3,7 +3,7 @@
  * recursive sense walk, tag stripping, and the boundary vocabulary a
  * definition is segmented on.
  */
-import type { SourceSense } from './types.ts';
+import type { SourceSense } from '../types.ts';
 
 /** The punctuation class the tag-stripped text immediately before a
  * citation anchor ends on — the vocabulary `classifyBoundary` returns.

@@ -6,7 +6,7 @@
  * in the catalogue and are read only by the audit harness — a source
  * re-fetch must re-baseline an audit, never break the pipeline.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 
 /** The two committed manifest phases a rule may run in
  * (`PHASE_MANIFEST` in `admin/pipeline/patch/apply.ts`). */

@@ -8,7 +8,7 @@
  */
 import { findCitations } from '../body/cite.ts';
 import { walkSensesDeep } from '../body/repairs.ts';
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 
 /** The orphan refs items each repaired entry's body must now carry an
  * inline citation basis for (migrate-dry's former resolution recount).

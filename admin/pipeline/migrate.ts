@@ -15,12 +15,11 @@ import { existsSync } from 'node:fs';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
-import { composeEntry, TransformFailure } from './body/compose.ts';
-import { buildTrace } from './body/dry-run.ts';
-import { evaluateRoundTrip } from './body/dry-run-verify.ts';
 import type { PassName } from './body/repairs.ts';
+import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
-import type { BodyEntry, SourceEntry } from './body/types.ts';
+import { buildTrace } from './body/trace.ts';
+import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './migrate/biome.ts';
 import {
 	buildHeadwordMap,
@@ -77,6 +76,7 @@ import {
 import { computeSnapshot } from './patch/snapshot.ts';
 import entrySchema from './schema/entry.schema.json' with { type: 'json' };
 import { RULES } from './transform/registry.ts';
+import type { BodyEntry, SourceEntry } from './types.ts';
 
 const OUT_DIR = 'data/entries';
 const SAMPLE_COUNT = 40;

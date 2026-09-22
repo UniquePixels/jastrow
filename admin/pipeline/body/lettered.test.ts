@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import type { LetteredParts } from './lettered.ts';
 import { joinLettered, splitLettered } from './lettered.ts';
 import { walkSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
 

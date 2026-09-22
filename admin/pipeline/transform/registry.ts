@@ -1,5 +1,4 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the ordered rule registry; the order IS the contract and a split would hide it.
-// biome-ignore-all lint/style/noExcessiveLinesPerFile: the ordered rule registry; the order IS the contract and a split would hide it.
 /**
  * The ordered rule list and the coverage gate (spec §6).
  *

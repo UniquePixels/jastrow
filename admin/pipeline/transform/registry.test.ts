@@ -155,7 +155,7 @@ describe('registry coverage', () => {
 	//   are ONE finding counted twice. Both describe
 	//   `content.senses[0]`, and **index 0 is not a sense**:
 	//   `rejoin.ts:44` folds `content.senses[0]?.definition` into the
-	//   gloss head, and `dry-run.ts:257` then SKIPS index 0 in the sense
+	//   gloss head, and `body/trace.ts` then SKIPS index 0 in the sense
 	//   loop, because its content was already captured in the intro
 	//   sense. Both rows were catalogued against the SOURCE shape, where
 	//   index 0 looks like a stray or malformed sense.

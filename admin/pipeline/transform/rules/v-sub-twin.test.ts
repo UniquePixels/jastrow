@@ -16,7 +16,7 @@
  * pass this file while proving nothing about the clause it names.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import type { TransformResult } from '../types.ts';
 import { TWINS, vSubRedirectTwin } from './v-sub-twin.ts';

@@ -126,7 +126,7 @@
  * matching the occurrence total above. Quote the unit with the
  * figure: definition-level and entry-level counts differ here.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Token } from '../html.ts';
 import { serialize, tokenize } from '../html.ts';
 import type { Anchor } from '../links.ts';

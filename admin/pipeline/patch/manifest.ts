@@ -13,7 +13,7 @@
  * This module is pure parsing + validation; the apply engine and the
  * sweep ingest consume it.
  */
-import { PATCH_ID, RID, type SemanticPatch } from '../patch/schema.ts';
+import { PATCH_ID, RID, type SemanticPatch } from './schema.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.

@@ -3,7 +3,7 @@
  * entries, ~41 MB). Every later body-model module reads entries through
  * this instead of loading the file into memory.
  */
-import type { SourceEntry } from './types.ts';
+import type { SourceEntry } from '../types.ts';
 
 /** The corpus file the body model reads — the 32,512-entry source
  * JSONL this module's header describes. It is `readSourceEntries`'s

@@ -5,7 +5,7 @@
  * docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
  * It lives beside `apply.ts` rather than inside it because it composes
- * each entry through `body/compose.ts`, and `body/compose.ts` imports
+ * each entry through `compose.ts`, and `compose.ts` imports
  * `apply.ts` — an entry point inside `apply.ts` would close an import
  * cycle.
  *
@@ -18,8 +18,8 @@
  * stops the run before the entry walk begins.
  */
 import process from 'node:process';
-import { composeEntry, TransformFailure } from '../body/compose.ts';
 import { readSourceEntries } from '../body/source.ts';
+import { composeEntry, TransformFailure } from '../compose.ts';
 import {
 	type AcceptedCorpus,
 	type ApplyProblem,

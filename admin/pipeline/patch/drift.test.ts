@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 import { classifyDrift } from './drift.ts';
 import { contentAnchor, type SemanticPatch } from './schema.ts';
 

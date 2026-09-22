@@ -6,7 +6,7 @@
  * checks are listed in `docs/v2/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { tokenize } from '../html.ts';
 import { checkLinkTargets } from '../link-target.ts';
 import { anchors } from '../links.ts';

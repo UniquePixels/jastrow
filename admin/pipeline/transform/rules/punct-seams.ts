@@ -157,7 +157,7 @@
  * order, in addition to (not instead of) the constraint that it
  * precede `italic-lone-punctuation`.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 

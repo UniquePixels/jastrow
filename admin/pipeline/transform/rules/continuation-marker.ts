@@ -67,7 +67,7 @@
  * the row keeps its unsettled status honestly rather than being emptied
  * by a rule that guessed.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

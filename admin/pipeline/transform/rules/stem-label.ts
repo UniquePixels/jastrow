@@ -44,7 +44,7 @@
  * inference is needed to know what `"Pa. ."` was meant to be, and no
  * amount of reading recovers a name from `"*."`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** A complete binyan label followed by a stray space-period. Anchored

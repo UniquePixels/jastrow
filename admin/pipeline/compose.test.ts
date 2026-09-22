@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'bun:test';
-import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
-import type { Rule } from '../transform/types.ts';
+import { readSourceEntries } from './body/source.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
-import { readSourceEntries } from './source.ts';
+import { contentAnchor, type SemanticPatch } from './patch/schema.ts';
+import type { Rule } from './transform/types.ts';
 import type { SourceEntry } from './types.ts';
 
-const FIXTURE_PATH = `${import.meta.dir}/fixtures/broken-sequences.jsonl`;
+const FIXTURE_PATH = `${import.meta.dir}/body/fixtures/broken-sequences.jsonl`;
 
 async function loadFixture(rid: string): Promise<SourceEntry> {
 	for await (const entry of readSourceEntries(FIXTURE_PATH)) {

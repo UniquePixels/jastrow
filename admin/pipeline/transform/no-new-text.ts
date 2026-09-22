@@ -40,7 +40,7 @@
  *   changes — documented here so rule authors see the blast radius
  *   before reaching for `allows` on a multi-character token.
  */
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 import { serialize, tokenize } from './html.ts';
 
 /** Joins `textOf`'s parts. NUL cannot occur in the corpus's text, so
@@ -116,7 +116,7 @@ function fieldsOf(entry: SourceEntry): string[] {
 		),
 		entry.content.morphology ?? '',
 		// NOT a Sefaria field: the headword-line layout a `reform` patch
-		// supplied (`body/types.ts`). No rule touches it today, and it
+		// supplied (`admin/pipeline/types.ts`). No rule touches it today, and it
 		// is listed so none can start to without the gates seeing it —
 		// a whitelist that silently omits a field reports clean on a
 		// rule that drops it, and gate 2 downstream would then read the

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
+import type { SourceEntry } from '../types.ts';
 import { linesOf, parseSourceEntry, readSourceEntries } from './source.ts';
-import type { SourceEntry } from './types.ts';
 
 const TEST_DIR = '.cache/test';
 

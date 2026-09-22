@@ -37,10 +37,10 @@
  * Run: bun transform:count
  */
 import { readSourceEntries } from '../body/source.ts';
-import type { SourceEntry } from '../body/types.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { parsePatterns } from '../patch/patterns.ts';
 import { computeSnapshot, LOCK_PATH, parseLock } from '../patch/snapshot.ts';
+import type { SourceEntry } from '../types.ts';
 import { RULES } from './registry.ts';
 import type { Rule } from './types.ts';
 

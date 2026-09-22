@@ -47,7 +47,7 @@
  * All eleven are inside a `dir="rtl"` run in a definition. So this rule
  * writes no link target and no namespace key.
  */
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformResult } from '../types.ts';
 

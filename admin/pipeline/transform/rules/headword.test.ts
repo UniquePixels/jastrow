@@ -1,5 +1,5 @@
 import { expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { applyTransforms } from '../run.ts';
 import { abbrevFusedHeadword, genderPairAltDuplicate } from './headword.ts';
 

@@ -20,7 +20,7 @@
  * text folded into a neighbour — some definition ending with, or
  * holding exactly once, `token + expected_before`.
  */
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 import {
 	applyPatch,
 	countOccurrences,

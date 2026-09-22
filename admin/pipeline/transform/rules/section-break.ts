@@ -64,7 +64,7 @@
  *
  * The count is corrected 10 → **11**.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The section-head labels, as `body/form-sections.ts` names them —

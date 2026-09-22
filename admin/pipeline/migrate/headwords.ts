@@ -105,7 +105,7 @@ type HeadwordReviewKind =
 /** Every headword review kind, as a lookup. A `Record` over the union
  * rather than an array, so adding a kind is a TYPE ERROR here instead
  * of a silent omission from the report's headword list and from
- * `headword-issues.ts`'s flagged column. */
+ * `report/headword-issues.ts`'s flagged column. */
 const HEADWORD_REVIEW_KINDS: Readonly<Record<HeadwordReviewKind, true>> = {
 	'headword-duplicate-form': true,
 	'headword-partial-only': true,

@@ -60,7 +60,7 @@
  * markup-BALANCED (measured: 0 unbalanced of 153), so the deletion never
  * severs a tag from its partner.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { stripTags } from '../no-new-text.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

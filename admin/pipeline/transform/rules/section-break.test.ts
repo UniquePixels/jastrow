@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import {
 	LABELS,
 	restoreStops,

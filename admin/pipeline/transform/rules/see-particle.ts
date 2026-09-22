@@ -68,7 +68,7 @@
  * renders reversed — the same class of mistake `sectionBreakTerminator`
  * avoids by putting its period outside the closing `</i>`.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** The word this rule writes. */

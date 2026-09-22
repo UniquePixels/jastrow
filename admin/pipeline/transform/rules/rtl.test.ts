@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { RULES } from '../registry.ts';
 import { applyTransforms } from '../run.ts';
 import type { Rule } from '../types.ts';

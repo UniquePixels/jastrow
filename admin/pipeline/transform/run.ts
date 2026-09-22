@@ -52,7 +52,7 @@
  * is gating. This loop is where a rule and its `TransformResult` are
  * associated, and so the only place that identity is knowable.
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { checkLinkTargets } from './link-target.ts';
 import { checkMarkup } from './markup.ts';
 import { checkNoLostText, LOSS_ALLOWANCES } from './no-lost-text.ts';

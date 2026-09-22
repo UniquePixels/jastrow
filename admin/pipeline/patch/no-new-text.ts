@@ -30,7 +30,7 @@
  * `needs_print_check` (spec §3: repairs requiring new content are
  * automatically escalated).
  */
-import type { SourceEntry } from '../body/types.ts';
+import type { SourceEntry } from '../types.ts';
 import { CLOSED_MARKER, flattenContent, type SemanticPatch } from './schema.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex. The unanchored,

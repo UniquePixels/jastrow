@@ -52,7 +52,7 @@
  * | multi-label / paren-prefixed head | 2 | `I00696`, `O01115` — real, but a shape this rule does not take |
  *
  * **The 100 are the row's hard half and they are a MODEL question.**
- * `buildTrace` (`dry-run.ts:252`) tests `.grammar` on
+ * `buildTrace` (`body/trace.ts`) tests `.grammar` on
  * `content.senses` only, and **0 entries in the corpus carry a
  * grammar object below top level** — so writing one there would
  * create a shape nothing reads and nothing else has. They are carried
@@ -115,7 +115,7 @@
  * source update that ends the coincidence rather than merely lucky in
  * this snapshot.
  */
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**

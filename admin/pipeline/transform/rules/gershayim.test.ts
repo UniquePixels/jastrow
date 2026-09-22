@@ -20,7 +20,7 @@
  */
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';
-import type { SourceEntry } from '../../body/types.ts';
+import type { SourceEntry } from '../../types.ts';
 import { GERSHAYIM } from '../gershayim.ts';
 import { serialize, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';

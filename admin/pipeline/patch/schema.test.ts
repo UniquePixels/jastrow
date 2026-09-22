@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry, SourceSense } from '../body/types.ts';
+import type { SourceEntry, SourceSense } from '../types.ts';
 import {
 	applyPatch,
 	contentAnchor,

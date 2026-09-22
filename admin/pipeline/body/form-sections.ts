@@ -33,7 +33,8 @@
  * `lettered.ts`'s "authoritative structural rule may disagree with the
  * census's coarse detector" relationship (189 detected against 191
  * structural), and the same holds for `pluralSections` (census,
- * coarse) against `formSectionSplits` (dry-run, authoritative).
+ * coarse) against `formSectionSplits` (the archived dry run,
+ * authoritative).
  * Failure mode is under-split (B9): anything that
  * isn't a clean, paren-clear, ascending-from-1 run returns null and the
  * block stays inline in its host sense's gloss.

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { parseLabel } from '../../body/labels.ts';
-import type { SourceEntry, SourceSense } from '../../body/types.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import { continuationMarkerDash, DASH } from './continuation-marker.ts';
 
 const entry = (senses: SourceSense[]): SourceEntry => ({
