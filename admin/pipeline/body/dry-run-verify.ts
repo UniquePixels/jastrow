@@ -28,6 +28,17 @@ interface TraceLike {
 	pairs: SensePairLike[];
 }
 
+/** One entry's verdict from the four structural round-trip gates:
+ * whether the `rejoin`, `units`, `lettered` and `formSection` rules
+ * each reconstructed their source text byte-for-byte. A rule's flag is
+ * true only when every pair in the entry passed it, so the entry — not
+ * the pair — is the unit the corpus tallies count.
+ *
+ * `formSectionMarker` is census rather than verdict: which marker a
+ * split pair carried (Pl./Part. pass./Fem./Denom.), or null when no
+ * pair in the entry split at all. It rides along here because
+ * `evaluateRoundTrip` has already done the split work the report's
+ * per-marker breakdown would otherwise have to repeat. */
 interface RoundTripResult {
 	formSection: boolean;
 	formSectionMarker: string | null;

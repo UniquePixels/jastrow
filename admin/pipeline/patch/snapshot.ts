@@ -34,6 +34,11 @@ const SNAPSHOT_FILES = [
 	'data/source/lexicons.json',
 ] as const;
 
+/** Where the committed pin lives. One fixed path, not an option: the
+ * value every patch record pins itself to has to be the same one for
+ * everybody, so `--write` writes here and verification reads here.
+ * `verifySnapshot` takes a `lockPath` parameter, but it defaults here
+ * and no caller overrides it. */
 const LOCK_PATH = 'data/patches/snapshot.lock';
 
 /** One hashed snapshot file. */

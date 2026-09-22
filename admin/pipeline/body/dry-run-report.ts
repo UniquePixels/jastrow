@@ -14,6 +14,10 @@ import { parseLabel, printLabel } from './labels.ts';
 import { walkSenses } from './sense-walk.ts';
 import type { BodyEntry, BodySense, SourceEntry } from './types.ts';
 
+/** Where the full-corpus dry run writes its report, and the path
+ * `printSummary` names on the console. Gitignored as a regenerable
+ * pipeline intermediate: the blessing-gate numbers are reproduced by
+ * rerunning `bun body:dry-run`, never committed. */
 const REPORT_PATH = 'data/source/body-dryrun-report.json';
 const SCHEMA_SAMPLE_STRIDE = 300;
 
@@ -72,6 +76,18 @@ interface SchemaFailure {
 	rid: string;
 }
 
+/** The single mutable counter record one full-corpus walk folds every
+ * entry into: the four round-trip tallies, the label and grammar
+ * quarantine lists, the structural census (lettered-split entries,
+ * stems, unit-count distribution) and the schema sample's failures.
+ * `dry-run.ts` serializes it verbatim as the report at `REPORT_PATH`,
+ * so every field name here is a field name in that file, and the
+ * numbers `printSummary` prints are these same fields rather than a
+ * second derivation.
+ *
+ * The quarantine lists hold `{ rid, detail }` rather than a bare
+ * count, so an unparseable label or grammar marker can be looked up in
+ * the source instead of only being known to exist. */
 interface Accumulator {
 	entries: number;
 	formSection: Tally;

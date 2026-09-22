@@ -1,3 +1,11 @@
+/**
+ * `italic-swallows-close-paren` — the one escalation row of the seam
+ * batch that turned out repairable, and the paren walk it needs.
+ *
+ * The row's own account — the lettered sub-sense exclusion, the
+ * one-directional falsifier, and the three sibling rows it declines
+ * to — is the block below, above `ITALIC_RUN`.
+ */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
 import { tagSpans } from '../html.ts';

@@ -507,6 +507,14 @@ function coverageSignatureIn(field: string): [number, number[][]] {
 	return [opens, runs];
 }
 
+/** One entry's whole rtl-wrapper signature: `coverageSignatureIn`
+ * over every field `fieldsOf` walks, serialised so two entries
+ * compare with `===`.
+ *
+ * This is half (a) of the `WRAP` conjunction. A rule that leaves this
+ * string alone across the corpus moved no wrapper; one that changes it
+ * and leaves the tag-stripped text alone is a wrap rule, and must be
+ * named in `WRAP` or fail the corpus pass. */
 function rtlSpanCoverageOf(entry: SourceEntry): string {
 	return JSON.stringify(fieldsOf(entry).map(coverageSignatureIn));
 }

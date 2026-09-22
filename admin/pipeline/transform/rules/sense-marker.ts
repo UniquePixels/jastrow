@@ -151,6 +151,17 @@ function repairLevel(
 	return out;
 }
 
+/**
+ * A starred continuation marker the upstream split left in two halves
+ * — the em dash stranded at the end of one definition, the `*N)` in
+ * the next sibling's `number` — rejoined into `—*N)`. Runs in
+ * `structural-repairs`.
+ *
+ * The dash MOVES between two fields `fieldsOf` walks, so nothing is
+ * deleted and neither `removes` nor `allows` is declared. Both sides
+ * are required: a stranded dash with no starred sibling, or a starred
+ * sibling with no dash, is refused and stays on its catalogued row.
+ */
 const strandedDashStarMarker: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const records: TransformRecord[] = [];

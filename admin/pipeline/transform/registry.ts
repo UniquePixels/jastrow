@@ -651,6 +651,15 @@ const RETIRED: readonly { by: string; row: string }[] = [
 	},
 ];
 
+/** How the catalogue's transform rows divide across `RULES`,
+ * `COVERED`, `PENDING` and `RETIRED` — three counts that must sum to
+ * `total`, plus three name lists that are what makes the sum
+ * checkable.
+ *
+ * Every field but `total` is either counted from one list or a roster
+ * of the rows that fall through it, so a row claimed twice
+ * (`duplicated`) or claimed by nobody (`unaccounted`) surfaces as a
+ * name rather than as a silent adjustment to the arithmetic. */
 interface Coverage {
 	/** Rows named by `COVERED` whose owning rule is registered — no
 	 * rule of their own, and none owed. Counted inside `registered`,

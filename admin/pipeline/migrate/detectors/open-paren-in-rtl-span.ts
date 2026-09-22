@@ -17,6 +17,10 @@ import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 
+/** Catalogue id and report `kind` for a `<he>` span holding unequal
+ * numbers of `(` and `)` — the paren's partner sits outside the
+ * right-to-left run, so bidi draws it on the wrong side of the
+ * Hebrew. */
 const OPEN_PAREN_IN_RTL_SPAN = 'open-paren-in-rtl-span';
 
 /** What the review report tells a reader to do about these rows. */

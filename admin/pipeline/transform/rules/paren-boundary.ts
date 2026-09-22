@@ -1,3 +1,11 @@
+/**
+ * The paren-boundary family: a `(` or a `)` sitting on the wrong side
+ * of an `</a>`, and the split Tosefta citation those anchors carry.
+ *
+ * The two rows, the walk they share, and why the halakha repair
+ * needed link-target gate case 7 are the block below, above
+ * `VARIANT_DISPLAY`.
+ */
 import type { SourceEntry } from '../../body/types.ts';
 import { mapFields } from '../fields.ts';
 import { serialize, type TextToken, type Token, tokenize } from '../html.ts';

@@ -21,6 +21,11 @@ interface Moved {
 	any: boolean;
 }
 
+/** A rule's per-field text repair, as `mapFields` hands it each
+ * text-bearing field's whole value. Returning the argument unchanged
+ * is how it declines a field: `one` compares the result with `!==`,
+ * so an identical string moves nothing and `mapFields` can hand the
+ * caller back its own entry. */
 type Mapper = (text: string) => string;
 
 /** Applies `map` to one field and records on `moved` that something

@@ -133,6 +133,18 @@ function repairLevel(
 	});
 }
 
+/**
+ * A continuation marker that lost its em dash — a sense `number`
+ * reading `N)` where print sets `—N)` — restored in
+ * `structural-repairs`.
+ *
+ * It fires only inside a MIXED sibling list, one whose other members
+ * already carry a dashed marker, and that restriction is what makes
+ * the declaration checkable: the dash goes out as `copied`, which the
+ * gate verifies against this entry's own input, where an `allows`
+ * would license an em dash anywhere in the diff on nothing but a
+ * maintainer's word.
+ */
 const continuationMarkerDash: Rule = {
 	apply: (entry: SourceEntry): TransformResult => {
 		const records: TransformRecord[] = [];

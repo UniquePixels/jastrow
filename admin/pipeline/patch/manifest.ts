@@ -26,6 +26,15 @@ const DISPOSITIONS = [
 	'repaired',
 ] as const;
 
+/** The one conclusion a sweep reached about an entry, derived from
+ * `DISPOSITIONS` so the runtime list and the type cannot drift apart —
+ * `isDisposition` narrows to this by testing that same array.
+ *
+ * Every other field of a record is judged relative to it: `clean`
+ * carries no patches, `repaired` at least one, and the two `needs_*`
+ * values are the only ones that may carry an `escalation` or a
+ * `resolution` — and the only ones that hold `replayGate` shut until a
+ * maintainer decides. */
 type Disposition = (typeof DISPOSITIONS)[number];
 
 /** The maintainer's eventual decision on a `needs_*` row — the

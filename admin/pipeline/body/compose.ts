@@ -22,6 +22,11 @@ import type { Rule, TransformRecord } from '../transform/types.ts';
 import { applyRepairs, type RepairRecord } from './repairs.ts';
 import type { SourceEntry } from './types.ts';
 
+/** The running record of which phases this composition has completed,
+ * as `createPhaseTracker` returns it. Named here rather than exported
+ * from `patch/apply.ts` so a caller can hold one without importing the
+ * apply engine, and derived from the factory rather than written out,
+ * so the tracker's shape has exactly one definition. */
 type PhaseTracker = ReturnType<typeof createPhaseTracker>;
 
 /** A failure raised by the TRANSFORM half of `text-repairs` or by
@@ -79,6 +84,15 @@ interface ComposePatches {
 	reviewed?: readonly SemanticPatch[] | undefined;
 }
 
+/** Everything one entry's composition produced: the entry after all
+ * three phases, and the evidence of how it got there.
+ *
+ * The records, problems and drift travel beside the entry rather than
+ * inside it, because a dry run and a write run differ only in what
+ * they do with this object — the dry run reports the evidence and
+ * throws the entry away, the write run writes the entry and tallies
+ * the evidence. Folding any of it into the entry would make the two
+ * runs compose different things. */
 interface ComposeResult {
 	/** Carry-over disposition: patches whose defect the healed corpus
 	 * already fixed (`absorbed`, dropped)

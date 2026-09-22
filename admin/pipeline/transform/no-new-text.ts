@@ -2,7 +2,7 @@
  * Transform-tier no-new-text gate (spec §5, §5.1).
  *
  * Three layers. Markup is free to change — that is what most of the
- * 55 registered rules do — and is checked separately, for a
+ * 53 registered rules do — and is checked separately, for a
  * well-formedness DELTA rather than for well-formedness, by
  * `markup.ts`. TEXT, with tags stripped, must be a sub-multiset of
  * the input's text, unless the rule declares an `allows` list. A

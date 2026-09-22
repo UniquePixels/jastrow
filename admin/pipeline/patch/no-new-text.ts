@@ -33,8 +33,19 @@
 import type { SourceEntry } from '../body/types.ts';
 import { CLOSED_MARKER, flattenContent, type SemanticPatch } from './schema.ts';
 
-// Hoisted per lint/performance/useTopLevelRegex. Non-global twin of
-// the matcher below, used to validate whole tokens.
+// Hoisted per lint/performance/useTopLevelRegex. The unanchored,
+// global twin of `CLOSED_MARKER` (schema.ts, `/^—?\d{1,2}\)$/u`):
+// that one asks whether a whole string IS a marker token, this one
+// finds every marker-shaped run inside a longer string. `replace` is
+// the only op whose payload holds free text rather than a bare token,
+// so it is the only one that needs a scan — `markerAllowance` scans
+// `payload.replace` with this, then re-tests each hit against
+// `CLOSED_MARKER` before granting it an allowance.
+//
+// The `g` flag carries `lastIndex` state, so sharing this across calls
+// would not be safe with `exec`; the one caller passes it to
+// `String#match`, which is specified to reset `lastIndex` for a global
+// regex and return all matches at once.
 const MARKER_TOKENS = /—?\d{1,2}\)/gu;
 
 /** Codepoint → count multiset of a string. */

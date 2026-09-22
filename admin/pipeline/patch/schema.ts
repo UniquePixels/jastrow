@@ -32,7 +32,14 @@ import type { SourceEntry, SourceSense } from '../body/types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
+/** `P<6 digits>` — the shape of a patch id. Exported because the
+ * manifest lists patch ids too, and it checks them against this rule
+ * rather than a copy of it. */
 const PATCH_ID = /^P\d{6}$/u;
+/** `<letter><5 digits>` — the shape of an entry id. Exported for the
+ * same reason as `PATCH_ID`: a manifest record's `rid` column and a
+ * patch record's `rid` are the same identifier, so they are held to
+ * one rule. */
 const RID = /^[A-Z]\d{5}$/u;
 const SNAPSHOT_PIN = /^sha256:[0-9a-f]{64}$/u;
 const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
@@ -49,7 +56,19 @@ const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
 
+/** How sure the patch's author was, as the record states it. It is
+ * provenance, not permission: nothing in the apply path branches on
+ * it, because what a patch may do is settled by the validators and by
+ * `author` (a reviewed patch is exempt from the no-new-text floor,
+ * a confident one is not). A low-confidence patch that passes every
+ * check still applies; the value is there for whoever reads the
+ * corpus back. */
 type Confidence = 'high' | 'low' | 'med';
+/** The kind of repair a patch makes. It is the discriminant of
+ * `SemanticPatch`, so each op's payload type travels with it, and the
+ * key every payload validator is registered under in
+ * `PAYLOAD_VALIDATORS` — which is typed `Record<PatchOp, …>`, so
+ * adding an op without its validator does not compile. */
 type PatchOp =
 	| 'delete'
 	| 'join'
@@ -207,6 +226,11 @@ interface UnrefPatch extends PatchBase {
 	payload: UnrefPayload;
 }
 
+/** One patch record: the common `PatchBase` fields narrowed by `op`
+ * to the payload that op takes. A discriminated union rather than a
+ * base with a loose `payload` so that `switch (patch.op)` in apply,
+ * drift and the no-new-text allowance each read an exactly-typed
+ * payload, and an op added without its arm fails to compile. */
 type SemanticPatch =
 	| DeletePatch
 	| JoinPatch
@@ -702,8 +726,6 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 	return reasons;
 }
 
-/** Parse and validate one patch record. Collects every problem into
- * one PatchFormatError instead of stopping at the first. */
 /** The pre-§2 `reform` payload, read forward.
  *
  * **TRANSITIONAL.** `reform` shipped on 2026-09-20 with a payload of
@@ -743,6 +765,16 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
 }
 
+/** The record-level gate: one decoded JSON value in, a validated
+ * `SemanticPatch` out, or a `PatchFormatError` carrying **every**
+ * reason it failed — identity, target shape, anchor agreement,
+ * provenance and occurrence counts are all collected before the throw,
+ * never stopped at the first. An agent fixing a malformed record sees
+ * the whole list in one pass instead of one problem per run.
+ *
+ * It works on a shallow copy of `value`, so `readLegacyReform` can
+ * normalize the pre-2026-09-21 `reform` spelling forward without
+ * mutating the caller's object. */
 function parsePatch(value: unknown): SemanticPatch {
 	if (typeof value !== 'object' || value === null) {
 		throw new PatchFormatError('patch', ['record must be an object']);

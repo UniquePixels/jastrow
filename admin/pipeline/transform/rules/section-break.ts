@@ -1,7 +1,12 @@
 /**
- * `section-break-terminator-loss` (`docs/archive/transform-batch-7.md` §6) — **the only rule in this registry
- * that MINTS a byte into the text**, and the reason its `allows` is a
- * maintainer ruling rather than a convenience.
+ * `section-break-terminator-loss`
+ * (`docs/archive/transform-batch-7.md` §6) — a rule that **MINTS a
+ * byte into the text**, which is why its `allows` is a maintainer
+ * ruling rather than a convenience.
+ *
+ * It is not the only one: every rule with a non-empty `allows` mints,
+ * and the registry holds several. No ordinal is claimed here, because
+ * a registry reorder would falsify it without touching this file.
  *
  * ## The defect
  *
@@ -141,6 +146,18 @@ function repairSenses(
 	});
 }
 
+/**
+ * A sense that runs straight into a form-section head —
+ * `…severed—Pl.` — given back the terminal period print sets there.
+ * Runs in `structural-repairs`.
+ *
+ * `allows` is a maintainer ruling rather than a convenience, and what
+ * bounds it is the predicate: the period is written only at a
+ * `—<label>` boundary whose predecessor is a letter or digit, which
+ * excludes every sentence-ender and both false-positive families by
+ * construction. The period goes OUTSIDE any closing tags, so the rule
+ * cannot manufacture members for `italic-swallowed-terminal-period`.
+ */
 const sectionBreakTerminator: Rule = {
 	// THE RULING, and it is one codepoint. See the header: the period is
 	// print's, dropped in transcription, and the predicate is anchored at

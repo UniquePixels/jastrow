@@ -187,6 +187,17 @@ function recordFor(
 	};
 }
 
+/**
+ * A geresh followed by an ASCII apostrophe standing where print sets
+ * a single gershayim, replaced by that one mark. Runs in
+ * `text-repairs`, on document text only — `repairText` blanks every
+ * tag before matching, so nothing inside a `<…>` can be reached and
+ * no link target is written.
+ *
+ * Two codepoints leave for every one that arrives, so both sides are
+ * declared: `allows` for the mark written, `removes` for each pair
+ * consumed.
+ */
 const gereshApostropheGershayim: Rule = {
 	// The OCR ruling: this call writes a `״` only where it
 	// removed a `׳'`, and that is what the allowance covers — what this

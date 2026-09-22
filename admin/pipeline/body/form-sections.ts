@@ -59,6 +59,16 @@ interface FormSectionItem {
 	text: string;
 }
 
+/** One text decomposed around a form-section block (B12): the `host`
+ * before the marker, the `intro` running from the marker to the first
+ * `1)`, the restarted-numbering `items` that follow it, and which of
+ * `MARKERS` matched.
+ *
+ * `marker` is metadata only — the marker's raw text already sits
+ * inside `intro`, so `joinFormSection` reassembles the original
+ * without reading it. Keeping it anyway is what lets the dry-run
+ * report break its split count down per marker without re-running the
+ * anchor search. */
 interface FormSectionParts {
 	host: string;
 	intro: string;

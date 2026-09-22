@@ -86,10 +86,9 @@ function restoreVkhGeresh(text: string): string | null {
 /**
  * Restores the geresh on `וכ`.
  *
- * `allows` NAMES THE GERESH AND THAT IS A MINT — the second in the
- * registry after `sectionBreakTerminator`'s period and
- * `seeParticleRestore`'s word. It is justified by the null model in the
- * module doc and by nothing else; the predicate is what bounds it.
+ * `allows` NAMES THE GERESH AND THAT IS A MINT. It is justified by the
+ * null model in the module doc and by nothing else; the predicate is
+ * what bounds it.
  */
 const vkhGereshRestore: Rule = {
 	allows: [GERESH],

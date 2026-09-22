@@ -5,9 +5,23 @@ import { tally } from './gates.ts';
 import { isHeadwordReviewKind } from './headwords.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
+/** Where the run writes its machine-readable report. Under
+ * `data/source/` because it describes one import of that snapshot, not
+ * the dictionary: it is regenerated wholesale every run and nothing
+ * downstream may treat it as entry data. */
 const REPORT_PATH = 'data/source/migration-report.json';
+
+/** The evidence document the maintainer reads and blesses (migrate
+ * spec §4.2). The report is the machine's account of a run; this is
+ * the human-facing one, and the two are generated together so a
+ * blessing can never be given against numbers that have moved. */
 const BLESSING_PATH = 'docs/v2/migration-blessing.md';
 
+/** The nine blessing gates, in report order (migrate spec §4.1). The
+ * list is the single definition: `GateName` derives from it, and
+ * `createReport` seeds a tally for every member up front, so a gate the
+ * run never reached shows as 0/0 instead of going missing. A red gate
+ * refuses the write. */
 const GATE_NAMES = [
 	'bodyRoundTrips',
 	'headwordLine',
@@ -19,6 +33,10 @@ const GATE_NAMES = [
 	'pages',
 	'composition',
 ] as const;
+
+/** One gate's name. Derived from `GATE_NAMES` rather than written out,
+ * so a gate cannot be added to the list and then silently missed by a
+ * `Record<GateName, ...>` that was not updated with it. */
 type GateName = (typeof GATE_NAMES)[number];
 
 type Bucket = 'patch' | 'pipeline' | 'review';
@@ -51,11 +69,21 @@ interface RuleCount {
 	rule: string;
 }
 
+/** The accumulator behind `rules`: rules report a firing through
+ * `add`, and `rows` renders the tally once at the end. Counting is
+ * hidden behind this interface because a rule that fires many times on
+ * one entry must still count as one ENTRY — a caller incrementing a
+ * plain number would get that wrong, and the error would look exactly
+ * like a rule that fires more often than it does. */
 interface RuleCounter {
 	add(rule: string, rid: string): void;
 	rows(): RuleCount[];
 }
 
+/** What became of a patch the run offered to an entry. `applied` and
+ * `superseded` are this stage's own verdicts; everything else is a
+ * drift outcome, reused verbatim rather than re-spelled so the two
+ * cannot fall out of step. */
 type PatchOutcome = 'applied' | 'superseded' | DriftOutcome;
 
 /** What happened to one patch the run offered to an entry (spec §3.3).
@@ -67,6 +95,16 @@ interface PatchOutcomeRow {
 	rid: string;
 }
 
+/** THE REPORT CONTRACT. One import run's complete account of itself:
+ * every gate as a tally, every review and fault row, rule counts,
+ * patch outcomes and the snapshot it read.
+ *
+ * It is the pipeline's only witness. A defect the run repaired, a
+ * defect it merely saw, and a defect it could not decide are all
+ * reachable from here and nowhere else, so a class that is not
+ * represented on this object is one no reviewer can be shown. Two runs
+ * of it are diffable row by row, which is what makes a change in the
+ * data measurable rather than asserted. */
 interface Report {
 	entries: number;
 	gates: Record<GateName, Tally>;
@@ -97,6 +135,11 @@ interface Report {
 	written: number;
 }
 
+/** One entry carried through the run intact — its rid, the source
+ * record as read and the truth entry written — kept so the blessing
+ * document can show a worked example rather than only totals. A
+ * reviewer checking a tally against the thing it counts needs the
+ * before and the after side by side. */
 interface Sample {
 	rid: string;
 	source: unknown;

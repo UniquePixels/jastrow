@@ -52,6 +52,16 @@ const TRANCHES_DIR = 'data/patches/tranches';
  * rid, and 11 reviewed rids also have agent records. */
 const REVIEWED_DIR = 'data/patches/reviewed';
 
+/** What `loadReviewedCorpus` finds in a reviewed patch directory: the
+ * human-authored patches, the findings a person flagged without
+ * repairing, and the manifest rows behind both.
+ *
+ * `records` is carried alongside `deferred` rather than being
+ * discarded once the `needs_*` rows are filtered out, because a
+ * reviewed patch may add bytes the no-new-text floor would otherwise
+ * refuse. `reviewedManifestProblems` needs the full row set to show
+ * that each such patch is accounted for by exactly one record before
+ * any of them applies. */
 interface ReviewedCorpus {
 	/** `needs_*` records: items a person has flagged and not repaired. */
 	deferred: EntryResult[];
@@ -151,6 +161,11 @@ const PHASE_MANIFEST = [
 	},
 ] as const;
 
+/** The name of one pipeline phase, derived from `PHASE_MANIFEST`
+ * itself rather than written out a second time. The manifest is the
+ * committed order, so a stage can only be named once it has a place
+ * in that order — `createPhaseTracker` still rejects an unknown name
+ * at runtime, for a value that reached it untyped. */
 type PhaseName = (typeof PHASE_MANIFEST)[number]['name'];
 
 /** A pipeline stage ran out of the committed order. */

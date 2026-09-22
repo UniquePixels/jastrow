@@ -295,9 +295,17 @@ function plLabelBoundary(lead: string): number | undefined {
  * spaces. A citation, an edition variant, or a cross-reference cue
  * anywhere in that span (Latin letters, digits, parentheses) means
  * this anchor is NOT the entry's own declared plural, whatever else it
- * looks like — see the module doc's nine excluded raw candidates, each
- * caught by exactly this test. */
+ * looks like — see the five raw candidates the module doc's
+ * decomposition attributes to this test (A02980, K01319, Q02197,
+ * U00688, U01486). The three it attributes to the self-link guard are
+ * caught earlier, in `pluralToFeminineRaw`, not here. */
 const CLEAN_SPAN_RE = new RegExp(String.raw`^[${LETTER}${POINT}\s,]*$`, 'u');
+/** Whether `anchor` stands inside the entry's own printed plural
+ * list: `plLabelBoundary` finds the nearest preceding `Pl.`/`pl.`
+ * label and `CLEAN_SPAN_RE` decides whether everything from it to the
+ * anchor's opening tag is pure. A lead carrying no label at all is a
+ * decline — an anchor outside every plural construct is never this
+ * row's, whatever its display and target look like. */
 function inCleanPlSpan(tokens: readonly Token[], open: number): boolean {
 	const lead = leadOf(tokens, open);
 	const boundary = plLabelBoundary(lead);

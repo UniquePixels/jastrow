@@ -115,6 +115,10 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 	],
 ];
 
+/** The lookup behind every publication decision: the detected classes
+ * and the kinds stated above, as one map from kind to rule. Read
+ * through `ruleOf`, whose throw on a kind it does not hold is what
+ * stops a new kind reaching the report unclassified. */
 const PUBLICATION: ReadonlyMap<string, KindRule> = new Map([
 	...CLASS_KINDS,
 	...KIND_RULES.map(

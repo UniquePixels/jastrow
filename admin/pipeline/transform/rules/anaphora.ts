@@ -454,6 +454,11 @@ const SIFRE_ANAPHOR = /^[Ii]b\.\s+(?<number>\d+)$/u;
  * introduces a third fails loudly.
  */
 const REF_LOCUS = /\s\d+(?::\d+)*(?:-\d+(?::\d+)*)?$/u;
+/** The same locus tail as `REF_LOCUS` above, in the `href`'s own
+ * spelling: dot-separated (`….309.6`) where the `data-ref` is spaced
+ * and colonned. Both are stripped off the SAME antecedent, so the
+ * corrected target's two halves are taken whole from one anchor
+ * rather than one being assembled from the other. */
 const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
 
 /**

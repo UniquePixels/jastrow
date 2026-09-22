@@ -10,6 +10,12 @@ import { type TagCarry, translateMarkup } from './markup.ts';
 import type { PagePlacement } from './page.ts';
 import { SCHEMA_VERSION, type TruthEntry, type TruthSense } from './types.ts';
 
+/** The corpus-wide lookups a single entry's finishing needs. Each is
+ * built once over the whole snapshot and passed in, because every one
+ * of them answers a question an entry cannot answer about itself: what
+ * other headwords exist, which page a rid sits on, what Sefaria called
+ * it. Passing the maps rather than reading them per entry also keeps
+ * `finishEntry` pure enough to test on one record. */
 interface FinishContext {
 	headwordMap: ReadonlyMap<string, string>;
 	pages: ReadonlyMap<string, PagePlacement>;
@@ -29,6 +35,12 @@ interface HeadwordReviewRow {
 	line: string;
 }
 
+/** Everything one entry's finishing produced: the entry itself plus
+ * the four streams the run collects across the corpus. The review
+ * rows, carries, problems and unresolved refs travel BESIDE the entry
+ * rather than inside it — none of them is entry data, and writing any
+ * of them into the file would make a report row indistinguishable from
+ * a fact about the dictionary. */
 interface Finished {
 	entry: TruthEntry;
 	/** Headword review rows, each already carrying its report kind. */

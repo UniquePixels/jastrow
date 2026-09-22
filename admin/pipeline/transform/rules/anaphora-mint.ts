@@ -325,6 +325,18 @@ function walk(senses: readonly SourceSense[], mints: Mint[]): SourceSense[] {
 	});
 }
 
+/**
+ * A bare `Ib.` Jastrow printed as a citation and Sefaria never
+ * anchored, wrapped in its antecedent's own opening tag — the first
+ * rule in the registry to CREATE an anchor, licensed by link-target
+ * gate case 10 and declaring every one through `minted`. Runs in
+ * `text-repairs`, last in the phase.
+ *
+ * It DECLINES rather than guesses, and the declines are a third of
+ * the population: an anaphor with no usable antecedent, or one an
+ * unanchored citation stands between, leaves its definition
+ * untouched. `definition` is the only field it walks.
+ */
 const unlinkedBareAnaphor: Rule = {
 	apply(entry: SourceEntry): TransformResult {
 		const mints: Mint[] = [];

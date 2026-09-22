@@ -44,6 +44,12 @@ import type {
 } from './types.ts';
 import { segmentUnits } from './units.ts';
 
+/** One value the §6.0 composition refused to interpret: the offending
+ * text, the rid it came from, and which rule quarantined it. Recording
+ * the raw value and carrying on is the deliberate alternative to
+ * guessing at it or dropping it — `buildBody` hands these back so a
+ * caller (migrate, or eyes-on review) can see what was left
+ * unparsed. */
 interface Problem {
 	detail: string;
 	rid: string;
@@ -64,6 +70,17 @@ interface SensePair {
 	original: string;
 }
 
+/** Everything one entry's build produced, kept together so the
+ * round-trip verifier never has to re-derive it: the composed
+ * `BodyEntry`, the (source text, built sense) `pairs`, the quarantined
+ * `problems`, and `formSectionSiblings`.
+ *
+ * That last set holds the B12 sibling senses by object identity rather
+ * than by shape, which is what lets the structural census exclude them
+ * from its lettered-split count — a form-section sibling's restarted
+ * numbered children look exactly like a lettered split from the
+ * outside. `buildBody` narrows this to the `body`/`problems` pair a
+ * caller outside the dry run needs. */
 interface Trace {
 	body: BodyEntry;
 	formSectionSiblings: Set<BodySense>;

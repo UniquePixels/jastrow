@@ -21,6 +21,11 @@ import { textOf } from '../gates.ts';
 import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 
+/** Catalogue id and report `kind` for a lead gloss opening with the
+ * printed Roman homograph numeral its headword does not carry — the
+ * reader sees the definition numbered while the entry presents itself
+ * as unnumbered, and an anchor naming the numbered form lands on
+ * another entry. */
 const HOMOGRAPH_ROMAN_STRANDED = 'homograph-roman-stranded-in-definition';
 
 /** What the review report tells a reader to do about these rows. */

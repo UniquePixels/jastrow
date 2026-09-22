@@ -1,3 +1,11 @@
+/**
+ * `v-sub-redirect-stub-mislink` — the rule, and the frozen table of
+ * spelling twins it is keyed on.
+ *
+ * The account of the defect, of why that table is a literal rather
+ * than computed, and of what link-target gate case 8 does and does
+ * not check is the block below, above `TWINS`.
+ */
 import type { SourceEntry } from '../../body/types.ts';
 import { serialize, tokenize } from '../html.ts';
 import { anchors, retarget as retargetAnchor } from '../links.ts';
@@ -256,6 +264,19 @@ function apply(entry: SourceEntry): TransformResult {
 	};
 }
 
+/**
+ * A `v. sub` redirect stub whose anchor resolved its geresh
+ * abbreviation as a standalone lookup and landed on an unrelated
+ * lemma, retargeted at the host's own spelling twin. Runs in
+ * `text-repairs`.
+ *
+ * Keyed on the host's rid AND the anchor's current target, so an
+ * entry `TWINS` does not name, or one whose definition no longer
+ * holds exactly one anchor carrying that target, is left alone rather
+ * than guessed at. Every repair goes out through `vouched` — the
+ * declaration link-target gate case 8 licenses it against — naming
+ * the twin's rid and headword.
+ */
 const vSubRedirectTwin: Rule = {
 	apply,
 	id: 'v-sub-redirect-stub-mislink',

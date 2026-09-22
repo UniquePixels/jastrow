@@ -67,6 +67,22 @@ interface RunResult {
 	records: TransformRecord[];
 }
 
+/** THE TRANSFORM ENTRY POINT. Every rule of one phase applied to one
+ * entry, in registry order, each rule gated as it goes.
+ *
+ * Rules of other phases are skipped rather than reordered, so the
+ * registry stays a single ordered list and a phase is a filter over it
+ * — which is what makes the commutation and order invariants
+ * checkable over the whole registry at once.
+ *
+ * Gating per rule, not per phase, is the load-bearing choice: a
+ * violation is attributed to the rule that caused it, and a later
+ * rule never inherits an earlier one's damage. The three gates are
+ * complementary and each is blind to what the others see, so all
+ * three run on every rule — see the module doc.
+ *
+ * `rules` is injectable so a test can run one rule, or a synthetic
+ * pair, through the real gates rather than around them. */
 function applyTransforms(
 	source: SourceEntry,
 	phase: TransformPhase,

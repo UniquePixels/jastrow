@@ -233,6 +233,18 @@ function applyDeletion(
 	};
 }
 
+/**
+ * A definition whose opening run is set twice over, cut back to one
+ * copy — `squarePrefix`'s longest square prefix of at least
+ * `MIN_OPENING` characters, anchored at offset 0. Runs in
+ * `structural-repairs`.
+ *
+ * The deleted text goes out through `removes`, stripped of tags so
+ * the loss gate can find it in the input it actually sees, and any
+ * anchor that went with the run through `unlinks`. Both gates read a
+ * deletion as an improvement on their own, so those declarations are
+ * the only check that this rule dropped what it meant to.
+ */
 const duplicatedOpeningRun: Rule = {
 	apply: (entry: SourceEntry): TransformResult =>
 		applyDeletion(entry, 'duplicated-definition-opening-run', (definition) => {
@@ -249,6 +261,15 @@ const duplicatedOpeningRun: Rule = {
 	phase: 'structural-repairs',
 };
 
+/**
+ * A run ending in a period and repeated immediately, anywhere but
+ * offset 0, cut back to one copy in `structural-repairs`. Offset 0 is
+ * `duplicatedOpeningRun`'s, and excluding it here is the whole of the
+ * two rules' disjointness.
+ *
+ * It declares its deletion the same way its sibling does, and for the
+ * same reason.
+ */
 const adjacentVerbatimRepeat: Rule = {
 	apply: (entry: SourceEntry): TransformResult =>
 		applyDeletion(entry, 'adjacent-verbatim-repetition', (definition) => {
