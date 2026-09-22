@@ -2,7 +2,7 @@
  * §4.2): the per-entry outcome rows a run's offered patches resolve
  * to, and the fault rows for a patch whose rid never streamed past. */
 import type { ComposeResult } from '../compose.ts';
-import type { DriftMode } from '../patch/apply.ts';
+import type { AcceptedCorpus, DriftMode } from '../patch/apply.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { mark } from './gates.ts';
@@ -65,6 +65,61 @@ function recordPatchOutcomes(
 	}
 }
 
+/** The later record's own patch ids for `detail`, or — when the later
+ * sweep re-escalated the rid without repairing it — a label naming
+ * what it found instead, since there is then no patch id to point at. */
+function keptLabel(
+	kept: { disposition: string; patches: string[] } | undefined,
+): string {
+	if (kept === undefined) {
+		return 'no later record';
+	}
+	return kept.patches.length > 0
+		? kept.patches.join(', ')
+		: `no patch (${kept.disposition})`;
+}
+
+/** Ruling C's one-record-per-rid consolidation, and its carry-over
+ * overlap counterpart (Ruling F, `AcceptedCorpus.droppedCarryOver`),
+ * each drop a patch without a row today — exactly the silent skip
+ * consolidation spec §4.2 forbids. One row per dropped patch,
+ * `kind: 'patch-consolidated-away'`, naming the later record that won
+ * instead; `report.patches.consolidatedAway` is the header count
+ * beside `absorbed` / `carried`. Call once `loadAcceptedCorpus` has
+ * run (`migrate.ts`'s `preparePatches`). */
+function recordConsolidatedAway(
+	accepted: AcceptedCorpus,
+	report: Report,
+): void {
+	const keptByRid = new Map(
+		accepted.records.map((record) => [record.rid, record]),
+	);
+	const keptByTarget = new Map(
+		accepted.patches.map((patch) => [`${patch.rid} ${patch.target}`, patch.id]),
+	);
+	const row = (patchId: string, rid: string, kept: string): void => {
+		report.rows.push({
+			bucket: 'patch',
+			detail: `${patchId} dropped: ${kept} is the later record for ${rid}`,
+			kind: 'patch-consolidated-away',
+			rid,
+			severity: 'info',
+		});
+		report.patches.consolidatedAway++;
+	};
+	for (const record of accepted.dropped) {
+		const kept = keptLabel(keptByRid.get(record.rid));
+		for (const patchId of record.patches) {
+			row(patchId, record.rid, kept);
+		}
+	}
+	for (const patch of accepted.droppedCarryOver) {
+		const kept =
+			keptByTarget.get(`${patch.rid} ${patch.target}`) ?? 'no later record';
+		row(patch.id, patch.rid, kept);
+	}
+}
+
 /** A patch whose rid never streamed past targets a nonexistent entry.
  * Recorded on gate 9 rather than thrown, so the report lists it beside
  * every other composition problem — and as a `## Pipeline faults` row
@@ -95,4 +150,4 @@ function markMissingTargets(groups: PatchGroups, report: Report): void {
 }
 
 export type { PatchGroups };
-export { markMissingTargets, recordPatchOutcomes };
+export { markMissingTargets, recordConsolidatedAway, recordPatchOutcomes };

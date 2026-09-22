@@ -8,7 +8,7 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 |---|---|
 | blocks | 2 |
 | defer | 2811 |
-| note | 1597 |
+| note | 1608 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
 ## Before publication (2)
@@ -2888,7 +2888,7 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 - V00793: senses[0].units[1]: printed sup 10 against ref "Bamidbar Rabbah 10:11"
 - V01097: senses[1].units[1]: printed sup 8 against ref "Bamidbar Rabbah 18:12"
 
-## Notes (1597)
+## Notes (1608)
 
 ### headword-partial-only (1597)
 
@@ -4491,6 +4491,22 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 - V00996: תְּרֵיסִיּוֹת, תְּרֵסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V01016: תַּרְמִילָא, תּוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V01120: תתיה, אין ת׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+
+### patch-consolidated-away (11)
+
+**What to do:** Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.
+
+- A00337: P000070 dropped: P000077 is the later record for A00337
+- A00339: P000068 dropped: P000078, P000079 is the later record for A00339
+- A00339: P000069 dropped: P000078, P000079 is the later record for A00339
+- A00878: P000071 dropped: no patch (needs_human_judgment) is the later record for A00878
+- A00074: P000072 dropped: no patch (needs_print_check) is the later record for A00074
+- A00337: P000073 dropped: P000077 is the later record for A00337
+- A00339: P000074 dropped: P000078, P000079 is the later record for A00339
+- A00339: P000075 dropped: P000078, P000079 is the later record for A00339
+- A00878: P000076 dropped: no patch (needs_human_judgment) is the later record for A00878
+- A00878: P000080 dropped: no patch (needs_human_judgment) is the later record for A00878
+- A00339: P000009 dropped: P000079 is the later record for A00339
 
 ## Catalogued, not yet detected (0 classes, 0 entries)
 

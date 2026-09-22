@@ -303,6 +303,7 @@ describe('consolidate — Ruling C latest-wins', () => {
 		expect(result.records).toEqual([later]);
 		expect(result.patches.map((p) => p.id)).toEqual(['P000002']);
 		expect(result.superseded).toEqual({ patches: 1, records: 1 });
+		expect(result.dropped).toEqual([earlier]);
 	});
 
 	it('leaves a rid with one record untouched', () => {
@@ -316,6 +317,7 @@ describe('consolidate — Ruling C latest-wins', () => {
 		expect(result.records).toEqual([record]);
 		expect(result.patches).toEqual([p1]);
 		expect(result.superseded).toEqual({ patches: 0, records: 0 });
+		expect(result.dropped).toEqual([]);
 	});
 
 	it('throws on a patch no record — kept or superseded — lists', () => {

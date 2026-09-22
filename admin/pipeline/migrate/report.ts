@@ -41,7 +41,11 @@ const GATE_NAMES = [
 type GateName = (typeof GATE_NAMES)[number];
 
 type Bucket = 'patch' | 'pipeline' | 'review';
-type Severity = 'fault' | 'review';
+/** `info`: a row that flags nothing for a reader to act on (consolidation
+ * spec §4.2's `patch-consolidated-away` is the first of these) — never
+ * a fault, never a review item, but still a row so the count is never
+ * silent. */
+type Severity = 'fault' | 'info' | 'review';
 
 /** Whether a review row must be resolved before v2 is published
  * (consolidation spec §3.1.1). Faults carry none: they refuse the write. */
@@ -116,6 +120,12 @@ interface Report {
 		accepted: number;
 		applied: number;
 		carried: number;
+		/** Patches dropped by Ruling C's one-record-per-rid consolidation
+		 * before the run ever saw them — an earlier tranche's manifest
+		 * record for a rid, superseded by a later sweep's (consolidation
+		 * spec §4.2: silent skipping is never allowed). Each also gets a
+		 * `patch-consolidated-away` row. */
+		consolidatedAway: number;
 		/** Human-authored patches loaded from `data/patches/reviewed/`
 		 * (consolidation spec §4.2, step 8) — applied before `accepted`,
 		 * counted separately since Ruling C keeps one manifest row per
@@ -163,6 +173,7 @@ function createReport(): Report {
 			accepted: 0,
 			applied: 0,
 			carried: 0,
+			consolidatedAway: 0,
 			reviewed: 0,
 			upstreamChanged: 0,
 			upstreamFixed: 0,
@@ -307,7 +318,7 @@ function blessingHeader(report: Report): string[] {
 		'',
 		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
 		'',
-		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
+		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
 	];
 }

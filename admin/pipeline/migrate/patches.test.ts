@@ -1,11 +1,18 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import type { ComposeResult } from '../compose.ts';
-import type { ApplyProblem, PatchDrift } from '../patch/apply.ts';
+import type {
+	AcceptedCorpus,
+	ApplyProblem,
+	PatchDrift,
+} from '../patch/apply.ts';
 import { patchesByRid } from '../patch/apply.ts';
+import type { EntryResult } from '../patch/manifest.ts';
 import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
+	recordConsolidatedAway,
 	recordPatchOutcomes,
 } from './patches.ts';
 import { createReport } from './report.ts';
@@ -256,5 +263,126 @@ describe('recordPatchOutcomes', () => {
 				.filter((id): id is string => id !== undefined && offeredIds.has(id)),
 		);
 		expect(report.patchOutcomes.length + problemIds.size).toBe(offered.length);
+	});
+});
+
+/** A minimal `AcceptedCorpus`, overridable per test — only the fields
+ * `recordConsolidatedAway` reads are exercised. */
+function acceptedCorpus(overrides: Partial<AcceptedCorpus>): AcceptedCorpus {
+	return {
+		carryOver: [],
+		dropped: [],
+		droppedCarryOver: [],
+		patches: [],
+		records: [],
+		superseded: {
+			patches: 0,
+			prePatch: { overlapping: 0, patches: 0, records: 0 },
+			records: 0,
+		},
+		...overrides,
+	};
+}
+
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
+describe('recordConsolidatedAway', () => {
+	it('a fixture with two records for one rid yields one kept, one dropped row', () => {
+		const earlier: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: RID,
+		};
+		const later: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000002'],
+			rid: RID,
+		};
+		const report = createReport();
+		recordConsolidatedAway(
+			acceptedCorpus({ dropped: [earlier], records: [later] }),
+			report,
+		);
+		expect(report.rows).toEqual([
+			{
+				bucket: 'patch',
+				detail: 'P000001 dropped: P000002 is the later record for D00001',
+				kind: 'patch-consolidated-away',
+				rid: RID,
+				severity: 'info',
+			},
+		]);
+		expect(report.patches.consolidatedAway).toBe(1);
+	});
+
+	it('adds nothing when nothing was dropped', () => {
+		const report = createReport();
+		recordConsolidatedAway(acceptedCorpus({}), report);
+		expect(report.rows).toEqual([]);
+		expect(report.patches.consolidatedAway).toBe(0);
+	});
+
+	it('one row per patch on a dropped record that lists several', () => {
+		const earlier: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001', 'P000002'],
+			rid: RID,
+		};
+		const later: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000003'],
+			rid: RID,
+		};
+		const report = createReport();
+		recordConsolidatedAway(
+			acceptedCorpus({ dropped: [earlier], records: [later] }),
+			report,
+		);
+		expect(report.rows.map((r) => r.detail)).toEqual([
+			'P000001 dropped: P000003 is the later record for D00001',
+			'P000002 dropped: P000003 is the later record for D00001',
+		]);
+		expect(report.patches.consolidatedAway).toBe(2);
+	});
+
+	it('names the kept record by disposition when the later sweep repaired nothing', () => {
+		const earlier: EntryResult = {
+			disposition: 'repaired',
+			patches: ['P000001'],
+			rid: RID,
+		};
+		const later: EntryResult = {
+			disposition: 'needs_print_check',
+			escalation: 'a byte the entry does not carry',
+			patches: [],
+			rid: RID,
+		};
+		const report = createReport();
+		recordConsolidatedAway(
+			acceptedCorpus({ dropped: [earlier], records: [later] }),
+			report,
+		);
+		expect(report.rows[0]?.detail).toBe(
+			'P000001 dropped: no patch (needs_print_check) is the later record for D00001',
+		);
+	});
+
+	it('reports a carry-over patch dropped by target overlap with an accepted patch', () => {
+		const kept = patch({ id: 'P000005', rid: RID });
+		const overlapping = patch({ id: 'P000001', rid: RID });
+		const report = createReport();
+		recordConsolidatedAway(
+			acceptedCorpus({ droppedCarryOver: [overlapping], patches: [kept] }),
+			report,
+		);
+		expect(report.rows).toEqual([
+			{
+				bucket: 'patch',
+				detail: 'P000001 dropped: P000005 is the later record for D00001',
+				kind: 'patch-consolidated-away',
+				rid: RID,
+				severity: 'info',
+			},
+		]);
+		expect(report.patches.consolidatedAway).toBe(1);
 	});
 });
