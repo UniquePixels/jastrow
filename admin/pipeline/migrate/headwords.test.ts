@@ -25,13 +25,26 @@ function read(items: readonly string[]): {
 	};
 }
 
+/** One line against all three at once. A helper rather than the same
+ * `toEqual({ display, forms, kinds })` literal in twenty-odd cases:
+ * the wrapper is identical every time and only the arguments ever
+ * differ, which is what a reader — and Sonar's duplication gate —
+ * should see. */
+function expectLine(
+	items: readonly string[],
+	display: string | undefined,
+	forms: unknown[],
+	kinds: string[] = [],
+): void {
+	expect(read(items)).toEqual({ display, forms, kinds });
+}
+
 describe('§2 worked examples', () => {
 	it('M02007 — comma, numeral after the parenthesis', () => {
-		expect(read(['מְסַר', '(מָסַר) I'])).toEqual({
-			display: '{0}, ({1}) I',
-			forms: [{ text: 'מְסַר' }, { homograph: 1, text: 'מָסַר' }],
-			kinds: [],
-		});
+		expectLine(['מְסַר', '(מָסַר) I'], '{0}, ({1}) I', [
+			{ text: 'מְסַר' },
+			{ homograph: 1, text: 'מָסַר' },
+		]);
 	});
 
 	// §2's table gives this row as `({0}) {1} I` — print's OWN layout,
@@ -44,22 +57,17 @@ describe('§2 worked examples', () => {
 	// upstream split dropped print's separators (§1), so no parser can
 	// tell M02007's line (which has one) from this one (which does not).
 	it('A02823 — the source puts the group on the alternate, and it stays there', () => {
-		expect(read(['אַפְרִיקִי', '(אַפְרִיקָא) I'])).toEqual({
-			display: '{0}, ({1}) I',
-			forms: [{ text: 'אַפְרִיקִי' }, { homograph: 1, text: 'אַפְרִיקָא' }],
-			kinds: [],
-		});
+		expectLine(['אַפְרִיקִי', '(אַפְרִיקָא) I'], '{0}, ({1}) I', [
+			{ text: 'אַפְרִיקִי' },
+			{ homograph: 1, text: 'אַפְרִיקָא' },
+		]);
 	});
 
 	it('K01275 — numeral inside the parentheses', () => {
-		expect(read(['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)'])).toEqual({
-			display: '{0} I, ({1} II)',
-			forms: [
-				{ homograph: 1, text: 'כַּרְשִׁינָה' },
-				{ homograph: 2, text: 'כַּרְשִׁינָא' },
-			],
-			kinds: [],
-		});
+		expectLine(['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)'], '{0} I, ({1} II)', [
+			{ homograph: 1, text: 'כַּרְשִׁינָה' },
+			{ homograph: 2, text: 'כַּרְשִׁינָא' },
+		]);
 	});
 
 	it('A00888 — a 1-form group, then a 4-form group spanning four items', () => {
@@ -84,65 +92,51 @@ describe('§2 worked examples', () => {
 	});
 
 	it('G00374 — a group that opens on the headword and never closes', () => {
-		expect(read(['(זִימְרָא', 'זִימְרָה'])).toEqual({
-			display: undefined,
-			forms: [{ text: 'זִימְרָא' }, { text: 'זִימְרָה' }],
-			kinds: ['paren-group-close-unknown'],
-		});
+		expectLine(
+			['(זִימְרָא', 'זִימְרָה'],
+			undefined,
+			[{ text: 'זִימְרָא' }, { text: 'זִימְרָה' }],
+			['paren-group-close-unknown'],
+		);
 	});
 
 	it('A00610 — the star sits outside the parentheses', () => {
-		expect(read(['*(אוזפיה)', 'אוֹזְפֵי'])).toEqual({
-			display: '*({0}), {1}',
-			forms: [{ reconstructed: true, text: 'אוזפיה' }, { text: 'אוֹזְפֵי' }],
-			kinds: [],
-		});
+		expectLine(['*(אוזפיה)', 'אוֹזְפֵי'], '*({0}), {1}', [
+			{ reconstructed: true, text: 'אוזפיה' },
+			{ text: 'אוֹזְפֵי' },
+		]);
 	});
 
 	it('B00825 — a (?) query mark, kept out of the text', () => {
-		expect(read(['*(?)בַּלְוָוטִי'])).toEqual({
-			display: '*(?){0}',
-			forms: [{ reconstructed: true, text: 'בַּלְוָוטִי' }],
-			kinds: [],
-		});
+		expectLine(['*(?)בַּלְוָוטִי'], '*(?){0}', [
+			{ reconstructed: true, text: 'בַּלְוָוטִי' },
+		]);
 	});
 
 	it('A00883 — a cross-reference naming two homographs takes no number', () => {
-		expect(read(['אוּרְיָה  I, II'])).toEqual({
-			display: '{0} I, II',
-			forms: [{ text: 'אוּרְיָה' }],
-			kinds: [],
-		});
+		expectLine(['אוּרְיָה  I, II'], '{0} I, II', [{ text: 'אוּרְיָה' }]);
 	});
 
 	it('O00394 — an ending after an ellipsis is partial', () => {
-		expect(read(['סוֹפִיסְטָא', '… טָה', 'סוֹפִיסְטֵיס'])).toEqual({
-			display: '{0}, … {1}, {2}',
-			forms: [
-				{ text: 'סוֹפִיסְטָא' },
-				{ partial: true, text: 'טָה' },
-				{ text: 'סוֹפִיסְטֵיס' },
-			],
-			kinds: [],
-		});
+		expectLine(['סוֹפִיסְטָא', '… טָה', 'סוֹפִיסְטֵיס'], '{0}, … {1}, {2}', [
+			{ text: 'סוֹפִיסְטָא' },
+			{ partial: true, text: 'טָה' },
+			{ text: 'סוֹפִיסְטֵיס' },
+		]);
 	});
 });
 
 describe('§4 decision table', () => {
 	it('commas — the leaked comma is patched away and the numerals stay in display (A02356)', () => {
-		expect(read(['אִסְטְוָוא I, II'])).toEqual({
-			display: '{0} I, II',
-			forms: [{ text: 'אִסְטְוָוא' }],
-			kinds: [],
-		});
+		expectLine(['אִסְטְוָוא I, II'], '{0} I, II', [{ text: 'אִסְטְוָוא' }]);
 	});
 
 	it('parentheses — a group is structure in display, never inside text (A00077)', () => {
-		expect(read(['אֵבוּס', 'אֵיבוּס', '(?אִיבּוּס)'])).toEqual({
-			display: '{0}, {1}, (?{2})',
-			forms: [{ text: 'אֵבוּס' }, { text: 'אֵיבוּס' }, { text: 'אִיבּוּס' }],
-			kinds: [],
-		});
+		expectLine(['אֵבוּס', 'אֵיבוּס', '(?אִיבּוּס)'], '{0}, {1}, (?{2})', [
+			{ text: 'אֵבוּס' },
+			{ text: 'אֵיבוּס' },
+			{ text: 'אִיבּוּס' },
+		]);
 	});
 
 	it('Roman numerals — never moved, inside the parens or after them', () => {
@@ -153,28 +147,24 @@ describe('§4 decision table', () => {
 	});
 
 	it('gender — a label beside a form lands on that form (the §2 headline)', () => {
-		expect(read(['שִׁיף m.', 'שִׁיפָה f.'])).toEqual({
-			display: '{0} m., {1} f.',
-			forms: [
-				{ gender: 'm', text: 'שִׁיף' },
-				{ gender: 'f', text: 'שִׁיפָה' },
-			],
-			kinds: [],
-		});
+		expectLine(['שִׁיף m.', 'שִׁיפָה f.'], '{0} m., {1} f.', [
+			{ gender: 'm', text: 'שִׁיף' },
+			{ gender: 'f', text: 'שִׁיפָה' },
+		]);
 	});
 
 	it('A01480 — an optional ending attached with no space is partial', () => {
-		expect(read(['אִיסְפְּלִידָא', 'איספליטון', 'אִיסְפְּלָנִית(א)', 'אִיסְפַּמְיָא'])).toEqual({
-			display: '{0}, {1}, {2}({3}), {4}',
-			forms: [
+		expectLine(
+			['אִיסְפְּלִידָא', 'איספליטון', 'אִיסְפְּלָנִית(א)', 'אִיסְפַּמְיָא'],
+			'{0}, {1}, {2}({3}), {4}',
+			[
 				{ text: 'אִיסְפְּלִידָא' },
 				{ text: 'איספליטון' },
 				{ text: 'אִיסְפְּלָנִית' },
 				{ partial: true, text: 'א' },
 				{ text: 'אִיסְפַּמְיָא' },
 			],
-			kinds: [],
-		});
+		);
 	});
 
 	it('H1 numeral lists on a cross-reference — display only, no homograph', () => {
@@ -227,24 +217,21 @@ describe('§4 decision table', () => {
 
 	it('H4 `=` in a headword — a text defect, kept whole and flagged', () => {
 		for (const line of ['אִידְרְעָא = אֶדְרְעָא', 'אִימְנוֹן = הִמְנוֹן']) {
-			expect(read([line])).toEqual({
-				display: undefined,
-				forms: [{ text: line }],
-				kinds: ['headword-unparsed'],
-			});
+			expectLine([line], undefined, [{ text: line }], ['headword-unparsed']);
 		}
 	});
 
 	it('H5 ellipsis endings — partial, with the mark in display (K00798)', () => {
-		expect(read(['כְּמֵיהוֹת', '… יהִים', '… יהִין'])).toEqual({
-			display: '{0}, … {1}, … {2}',
-			forms: [
+		expectLine(
+			['כְּמֵיהוֹת', '… יהִים', '… יהִין'],
+			'{0}, … {1}, … {2}',
+			[
 				{ text: 'כְּמֵיהוֹת' },
 				{ partial: true, text: 'יהִים' },
 				{ partial: true, text: 'יהִין' },
 			],
-			kinds: ['headword-partial-only'],
-		});
+			['headword-partial-only'],
+		);
 	});
 
 	it('H5 an ellipsis inside one item makes every form it holds partial (S00469)', () => {
@@ -258,71 +245,52 @@ describe('§4 decision table', () => {
 	});
 
 	it('H6 two spellings in one item — the patch splits them (I00158)', () => {
-		expect(read(['טְוִיָּיה', 'טְוִיָּה', 'טְוִויָּה'])).toEqual({
-			display: '{0}, {1}, {2}',
-			forms: [{ text: 'טְוִיָּיה' }, { text: 'טְוִיָּה' }, { text: 'טְוִויָּה' }],
-			kinds: [],
-		});
+		expectLine(['טְוִיָּיה', 'טְוִיָּה', 'טְוִויָּה'], '{0}, {1}, {2}', [
+			{ text: 'טְוִיָּיה' },
+			{ text: 'טְוִיָּה' },
+			{ text: 'טְוִויָּה' },
+		]);
 	});
 
 	it('H6 reduplication — one expression spoken twice is one form (D00004)', () => {
-		expect(read(['דָּא II', 'דא דא'])).toEqual({
-			display: '{0} II, {1}',
-			forms: [{ homograph: 2, text: 'דָּא' }, { text: 'דא דא' }],
-			kinds: [],
-		});
+		expectLine(['דָּא II', 'דא דא'], '{0} II, {1}', [
+			{ homograph: 2, text: 'דָּא' },
+			{ text: 'דא דא' },
+		]);
 	});
 
 	it('H6 abbreviated phrase alternates — partial, kept as printed (Q00053)', () => {
-		expect(read(['פַּגֵּי', 'בֵּית פַּ׳', '(בֵּי)'])).toEqual({
-			display: '{0}, {1}, ({2})',
-			forms: [
-				{ text: 'פַּגֵּי' },
-				{ partial: true, text: 'בֵּית פַּ׳' },
-				{ text: 'בֵּי' },
-			],
-			kinds: [],
-		});
+		expectLine(['פַּגֵּי', 'בֵּית פַּ׳', '(בֵּי)'], '{0}, {1}, ({2})', [
+			{ text: 'פַּגֵּי' },
+			{ partial: true, text: 'בֵּית פַּ׳' },
+			{ text: 'בֵּי' },
+		]);
 	});
 
 	it('H6 an abbreviation in a PRIMARY headword is partial (K00107)', () => {
-		expect(read(['כִּדְ׳ כַּדְבוּבָא'])).toEqual({
-			display: '{0}',
-			forms: [{ partial: true, text: 'כִּדְ׳ כַּדְבוּבָא' }],
-			kinds: [],
-		});
+		expectLine(['כִּדְ׳ כַּדְבוּבָא'], '{0}', [{ partial: true, text: 'כִּדְ׳ כַּדְבוּבָא' }]);
 	});
 
 	it('H6 spaced variants — the same word written as two words (Q00248)', () => {
-		expect(read(['פּוּמְבְּדִיתָא', 'פּוּם בְּדִיתָא'])).toEqual({
-			display: '{0}, {1}',
-			forms: [{ text: 'פּוּמְבְּדִיתָא' }, { text: 'פּוּם בְּדִיתָא' }],
-			kinds: [],
-		});
+		expectLine(['פּוּמְבְּדִיתָא', 'פּוּם בְּדִיתָא'], '{0}, {1}', [
+			{ text: 'פּוּמְבְּדִיתָא' },
+			{ text: 'פּוּם בְּדִיתָא' },
+		]);
 	});
 
 	it('H6 a phrase headword is a legitimate lemma (A00436)', () => {
-		expect(read(['אדני מריונים'])).toEqual({
-			display: '{0}',
-			forms: [{ text: 'אדני מריונים' }],
-			kinds: [],
-		});
+		expectLine(['אדני מריונים'], '{0}', [{ text: 'אדני מריונים' }]);
 	});
 
 	it('X1/X3 a torn headword, rejoined by its patch (U01000)', () => {
-		expect(read(['שִׁיף', 'שִׁיפָה'])).toEqual({
-			display: '{0}, {1}',
-			forms: [{ text: 'שִׁיף' }, { text: 'שִׁיפָה' }],
-			kinds: [],
-		});
+		expectLine(['שִׁיף', 'שִׁיפָה'], '{0}, {1}', [
+			{ text: 'שִׁיף' },
+			{ text: 'שִׁיפָה' },
+		]);
 	});
 
 	it('X2 the OCR glyph patch leaves an ordinary form (F00009)', () => {
-		expect(read(['וַארְדּוּנְיָא'])).toEqual({
-			display: '{0}',
-			forms: [{ text: 'וַארְדּוּנְיָא' }],
-			kinds: [],
-		});
+		expectLine(['וַארְדּוּנְיָא'], '{0}', [{ text: 'וַארְדּוּנְיָא' }]);
 	});
 
 	it('X5 a prefix keeps its maqaf and an ending its leading vowel', () => {
@@ -331,26 +299,18 @@ describe('§4 decision table', () => {
 	});
 
 	it('X6 an abbreviated alternate beside a full form is partial (K01196)', () => {
-		expect(read(['*כַּרְכּוּז', 'עִיזָּא', 'כ׳', '(ד)'])).toEqual({
-			display: '*{0}, {1}, {2}, ({3})',
-			forms: [
-				{ reconstructed: true, text: 'כַּרְכּוּז' },
-				{ text: 'עִיזָּא' },
-				{ partial: true, text: 'כ׳' },
-				{ text: 'ד' },
-			],
-			kinds: [],
-		});
+		expectLine(['*כַּרְכּוּז', 'עִיזָּא', 'כ׳', '(ד)'], '*{0}, {1}, {2}, ({3})', [
+			{ reconstructed: true, text: 'כַּרְכּוּז' },
+			{ text: 'עִיזָּא' },
+			{ partial: true, text: 'כ׳' },
+			{ text: 'ד' },
+		]);
 	});
 
 	it('X7 an abbreviation that is the entry’s ONLY name stays a lookup key', () => {
 		// The `abbrev-headword-stub` population: 28 of the 34 have no
 		// other form at all, so `partial` would leave them unfindable.
-		expect(read(['אנטג׳'])).toEqual({
-			display: '{0}',
-			forms: [{ text: 'אנטג׳' }],
-			kinds: [],
-		});
+		expectLine(['אנטג׳'], '{0}', [{ text: 'אנטג׳' }]);
 	});
 
 	it('X7 a numeral letter and a gershayim acronym are ordinary forms', () => {
@@ -359,11 +319,7 @@ describe('§4 decision table', () => {
 	});
 
 	it('H1 a separator defect, once its patch has run (B00098)', () => {
-		expect(read(['בַּד V'])).toEqual({
-			display: '{0} V',
-			forms: [{ homograph: 5, text: 'בַּד' }],
-			kinds: [],
-		});
+		expectLine(['בַּד V'], '{0} V', [{ homograph: 5, text: 'בַּד' }]);
 	});
 });
 
@@ -391,11 +347,12 @@ describe('flags and edges', () => {
 	});
 
 	it('a Latin word that is no numeral is a text defect, and the line is kept whole', () => {
-		expect(read(['אָב cf.', 'אַבָּא'])).toEqual({
-			display: undefined,
-			forms: [{ text: 'אָב cf.' }, { text: 'אַבָּא' }],
-			kinds: ['headword-unparsed'],
-		});
+		expectLine(
+			['אָב cf.', 'אַבָּא'],
+			undefined,
+			[{ text: 'אָב cf.' }, { text: 'אַבָּא' }],
+			['headword-unparsed'],
+		);
 	});
 
 	it('an item with no Hebrew at all is a text defect', () => {

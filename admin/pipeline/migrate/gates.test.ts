@@ -454,22 +454,35 @@ describe('checkHeadwordLine', () => {
 		expect(t.failures[0]).toContain('display is unset');
 	});
 
-	it('carries a patch-supplied template through to the entry', () => {
+	/** One line whose composed entry ALREADY carries a patch-supplied
+	 * template, which `gate` above cannot express: its composed entry
+	 * is built from the items alone. */
+	function patched(
+		items: readonly string[],
+		supplied: string,
+		written: string,
+	): Tally {
+		const [headword = '', ...alts] = items;
 		const t: Tally = { failures: [], pass: 0, total: 0 };
 		checkHeadwordLine(
 			{
-				alt_headwords: ['אַבָּא'],
+				alt_headwords: alts,
 				content: { senses: [] },
-				display: '({0}, {1})',
-				headword: '(אָב',
+				display: supplied,
+				headword,
 				rid: 'A00014',
 			},
 			minimalTruth({
-				display: '({0}, {1})',
+				display: written,
 				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
 			}),
 			t,
 		);
+		return t;
+	}
+
+	it('carries a patch-supplied template through to the entry', () => {
+		const t = patched(['(אָב', 'אַבָּא'], '({0}, {1})', '({0}, {1})');
 		expect(t.failures).toEqual([]);
 		// Three marks plus the carried-through one; the notation
 		// multiset is deliberately not among them.
@@ -480,40 +493,12 @@ describe('checkHeadwordLine', () => {
 		// §4.1 gives a supplied display one job. On a settleable line it
 		// would overwrite a correct template AND disable the notation
 		// mark — so it is red, not a silent override.
-		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordLine(
-			{
-				alt_headwords: ['אַבָּא'],
-				content: { senses: [] },
-				display: '{0}, {1}',
-				headword: 'אָב',
-				rid: 'A00014',
-			},
-			minimalTruth({
-				display: '{0}, {1}',
-				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
-			}),
-			t,
-		);
+		const t = patched(['אָב', 'אַבָּא'], '{0}, {1}', '{0}, {1}');
 		expect(t.failures[0]).toContain('settles on its own');
 	});
 
 	it('fails a patch template the run altered on the way', () => {
-		const t: Tally = { failures: [], pass: 0, total: 0 };
-		checkHeadwordLine(
-			{
-				alt_headwords: ['אַבָּא'],
-				content: { senses: [] },
-				display: '({0}, {1})',
-				headword: '(אָב',
-				rid: 'A00014',
-			},
-			minimalTruth({
-				display: '({0}) {1}',
-				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
-			}),
-			t,
-		);
+		const t = patched(['(אָב', 'אַבָּא'], '({0}, {1})', '({0}) {1}');
 		expect(t.failures[0]).toContain('the patch supplied');
 	});
 
