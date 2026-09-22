@@ -91,6 +91,9 @@ function recordConsolidatedAway(
 	accepted: AcceptedCorpus,
 	report: Report,
 ): void {
+	if (accepted.dropped.length === 0 && accepted.droppedCarryOver.length === 0) {
+		return;
+	}
 	const keptByRid = new Map(
 		accepted.records.map((record) => [record.rid, record]),
 	);

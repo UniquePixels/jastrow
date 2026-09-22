@@ -545,12 +545,14 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
 	const acceptedTargets = new Set(
 		consolidated.patches.map((patch) => `${patch.rid} ${patch.target}`),
 	);
-	const carryOver = prePatchPatches.filter(
-		(patch) => !acceptedTargets.has(`${patch.rid} ${patch.target}`),
-	);
-	const droppedCarryOver = prePatchPatches.filter((patch) =>
-		acceptedTargets.has(`${patch.rid} ${patch.target}`),
-	);
+	const carryOver: SemanticPatch[] = [];
+	const droppedCarryOver: SemanticPatch[] = [];
+	for (const patch of prePatchPatches) {
+		(acceptedTargets.has(`${patch.rid} ${patch.target}`)
+			? droppedCarryOver
+			: carryOver
+		).push(patch);
+	}
 	return {
 		...consolidated,
 		carryOver,

@@ -25,7 +25,7 @@ const TABLE: ReadonlyArray<readonly [string, Publication]> = [
 	['headword-duplicate-form', 'defer'],
 	['headword-partial-only', 'note'],
 	['paren-group-close-unknown', 'defer'],
-	['patch-consolidated-away', 'note'],
+	['patch-consolidated-away', 'defer'],
 ];
 
 describe('PUBLICATION', () => {
