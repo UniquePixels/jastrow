@@ -219,6 +219,12 @@ in `data/patches/reviewed/` — all nine gates green, `unresolved=0`,
 (target `forms:<anchor>`) was added for them: every other target
 addresses a sense.
 
+**Two more on 2026-09-22**, from the rulings in §4: P000307 gives
+G00675 its `disambiguator` and P000308 sets A02823's `display` to the
+print's reading. P000300 was restated in the same batch — the block it
+reads carries `(אַיְידִי)` again now that `parenthesized-alt-headword`
+is unregistered. 17 `reform` patches, `patches.applied` 232.
+
 Five rows are NOT in that batch and are tracked in
 [#113](https://github.com/UniquePixels/jastrow/issues/113): A01175,
 A01345 and V00518 need text moved into a gloss, which no op expresses;
