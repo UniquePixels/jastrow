@@ -1,0 +1,420 @@
+/**
+ * The headword-line parser against the corpus shapes
+ * `docs/v2/headword-design.md` settles: every worked example of the §2
+ * table, and one case per row of the §4 decision table.
+ *
+ * The inputs are the real lines, copied from the snapshot (and from a
+ * shipped patch's post-state where §4.1 repairs one), so a case that
+ * passes here is a case the corpus run will meet.
+ */
+import { describe, expect, it } from 'bun:test';
+import { parseHeadwordLine, renderDisplay } from './headwords.ts';
+
+/** The three things a case asserts, in one shape: what print laid out,
+ * what the forms mean, and what was flagged. */
+function read(items: readonly string[]): {
+	display: string | undefined;
+	forms: unknown[];
+	kinds: string[];
+} {
+	const parsed = parseHeadwordLine(items);
+	return {
+		display: parsed.display,
+		forms: parsed.headwords,
+		kinds: parsed.reviews.map((r) => r.kind),
+	};
+}
+
+describe('§2 worked examples', () => {
+	it('M02007 — comma, numeral after the parenthesis', () => {
+		expect(read(['מְסַר', '(מָסַר) I'])).toEqual({
+			display: '{0}, ({1}) I',
+			forms: [{ text: 'מְסַר' }, { homograph: 1, text: 'מָסַר' }],
+			kinds: [],
+		});
+	});
+
+	// §2's table gives this row as `({0}) {1} I` — print's OWN layout,
+	// which §5 and §6 record as CONFIRMED AGAINST THE PRINT and
+	// different from the source's: Sefaria put the group on the
+	// alternate. §5 rules that until the ~580 parenthesis placements are
+	// checked, "only what the source shows is recorded", so the parser
+	// emits the source's placement rather than moving a delimiter it
+	// cannot verify. The comma is the second half of the same story: the
+	// upstream split dropped print's separators (§1), so no parser can
+	// tell M02007's line (which has one) from this one (which does not).
+	it('A02823 — the source puts the group on the alternate, and it stays there', () => {
+		expect(read(['אַפְרִיקִי', '(אַפְרִיקָא) I'])).toEqual({
+			display: '{0}, ({1}) I',
+			forms: [{ text: 'אַפְרִיקִי' }, { homograph: 1, text: 'אַפְרִיקָא' }],
+			kinds: [],
+		});
+	});
+
+	it('K01275 — numeral inside the parentheses', () => {
+		expect(read(['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)'])).toEqual({
+			display: '{0} I, ({1} II)',
+			forms: [
+				{ homograph: 1, text: 'כַּרְשִׁינָה' },
+				{ homograph: 2, text: 'כַּרְשִׁינָא' },
+			],
+			kinds: [],
+		});
+	});
+
+	it('A00888 — a 1-form group, then a 4-form group spanning four items', () => {
+		const parsed = parseHeadwordLine([
+			'אוֹרָיָיא',
+			'(אוֹרַיְיתָא)',
+			'(אוֹרָיָיתָא',
+			'אוֹרְיָא',
+			'אוֹרַיְתָא',
+			'אוֹרְיָה)',
+		]);
+		expect(parsed.display).toBe('{0}, ({1}), ({2}, {3}, {4}, {5})');
+		expect(parsed.headwords.map((f) => f.text)).toEqual([
+			'אוֹרָיָיא',
+			'אוֹרַיְיתָא',
+			'אוֹרָיָיתָא',
+			'אוֹרְיָא',
+			'אוֹרַיְתָא',
+			'אוֹרְיָה',
+		]);
+		expect(parsed.reviews).toEqual([]);
+	});
+
+	it('G00374 — a group that opens on the headword and never closes', () => {
+		expect(read(['(זִימְרָא', 'זִימְרָה'])).toEqual({
+			display: undefined,
+			forms: [{ text: 'זִימְרָא' }, { text: 'זִימְרָה' }],
+			kinds: ['paren-group-close-unknown'],
+		});
+	});
+
+	it('A00610 — the star sits outside the parentheses', () => {
+		expect(read(['*(אוזפיה)', 'אוֹזְפֵי'])).toEqual({
+			display: '*({0}), {1}',
+			forms: [{ reconstructed: true, text: 'אוזפיה' }, { text: 'אוֹזְפֵי' }],
+			kinds: [],
+		});
+	});
+
+	it('B00825 — a (?) query mark, kept out of the text', () => {
+		expect(read(['*(?)בַּלְוָוטִי'])).toEqual({
+			display: '*(?){0}',
+			forms: [{ reconstructed: true, text: 'בַּלְוָוטִי' }],
+			kinds: [],
+		});
+	});
+
+	it('A00883 — a cross-reference naming two homographs takes no number', () => {
+		expect(read(['אוּרְיָה  I, II'])).toEqual({
+			display: '{0} I, II',
+			forms: [{ text: 'אוּרְיָה' }],
+			kinds: [],
+		});
+	});
+
+	it('O00394 — an ending after an ellipsis is partial', () => {
+		expect(read(['סוֹפִיסְטָא', '… טָה', 'סוֹפִיסְטֵיס'])).toEqual({
+			display: '{0}, … {1}, {2}',
+			forms: [
+				{ text: 'סוֹפִיסְטָא' },
+				{ partial: true, text: 'טָה' },
+				{ text: 'סוֹפִיסְטֵיס' },
+			],
+			kinds: [],
+		});
+	});
+});
+
+describe('§4 decision table', () => {
+	it('commas — the leaked comma is patched away and the numerals stay in display (A02356)', () => {
+		expect(read(['אִסְטְוָוא I, II'])).toEqual({
+			display: '{0} I, II',
+			forms: [{ text: 'אִסְטְוָוא' }],
+			kinds: [],
+		});
+	});
+
+	it('parentheses — a group is structure in display, never inside text (A00077)', () => {
+		expect(read(['אֵבוּס', 'אֵיבוּס', '(?אִיבּוּס)'])).toEqual({
+			display: '{0}, {1}, (?{2})',
+			forms: [{ text: 'אֵבוּס' }, { text: 'אֵיבוּס' }, { text: 'אִיבּוּס' }],
+			kinds: [],
+		});
+	});
+
+	it('Roman numerals — never moved, inside the parens or after them', () => {
+		expect(parseHeadwordLine(['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)']).display).toBe(
+			'{0} I, ({1} II)',
+		);
+		expect(parseHeadwordLine(['מְסַר', '(מָסַר) I']).display).toBe('{0}, ({1}) I');
+	});
+
+	it('gender — a label beside a form lands on that form (the §2 headline)', () => {
+		expect(read(['שִׁיף m.', 'שִׁיפָה f.'])).toEqual({
+			display: '{0} m., {1} f.',
+			forms: [
+				{ gender: 'm', text: 'שִׁיף' },
+				{ gender: 'f', text: 'שִׁיפָה' },
+			],
+			kinds: [],
+		});
+	});
+
+	it('A01480 — an optional ending attached with no space is partial', () => {
+		expect(read(['אִיסְפְּלִידָא', 'איספליטון', 'אִיסְפְּלָנִית(א)', 'אִיסְפַּמְיָא'])).toEqual({
+			display: '{0}, {1}, {2}({3}), {4}',
+			forms: [
+				{ text: 'אִיסְפְּלִידָא' },
+				{ text: 'איספליטון' },
+				{ text: 'אִיסְפְּלָנִית' },
+				{ partial: true, text: 'א' },
+				{ text: 'אִיסְפַּמְיָא' },
+			],
+			kinds: [],
+		});
+	});
+
+	it('H1 numeral lists on a cross-reference — display only, no homograph', () => {
+		const parsed = parseHeadwordLine(['הָכֵין  I, II']);
+		expect(parsed.display).toBe('{0} I, II');
+		expect(parsed.headwords[0]?.homograph).toBeUndefined();
+	});
+
+	it('H2 an unclosed group — every one of the six leaves display unset', () => {
+		for (const items of [
+			['(זִימְרָא', 'זִימְרָה'],
+			['(לִסְטֵם', 'לִסְטֵס'],
+			['(עוּזְרָד', 'עוּזְרָר I'],
+			['(עוּזְרָד ²', 'עוּזְרָר II'],
+			['(פורסישמנג', 'פּוֹרְסִישְׁנָמַג'],
+			['(קַלְקַנְתּוּם', 'קַלְקַנְתּוֹס', 'קַנְ׳'],
+		]) {
+			const parsed = parseHeadwordLine(items);
+			expect(parsed.display).toBeUndefined();
+			expect(parsed.reviews.map((r) => r.kind)).toContain(
+				'paren-group-close-unknown',
+			);
+		}
+	});
+
+	it('A01394 — a stray close is flagged, not guessed', () => {
+		const parsed = parseHeadwordLine([
+			'אֱינָשׁ',
+			'אֵינָשׁ) אִינְשָׁא',
+			'(אֵינָשָׁא',
+			'אִינִישׁ',
+			'אֱנַשׁ',
+		]);
+		expect(parsed.display).toBeUndefined();
+		expect(parsed.reviews.map((r) => r.kind)).toContain(
+			'paren-group-close-unknown',
+		);
+		// The forms are clean and ARE written (§4): the tear splits the
+		// item at its stray delimiter rather than keeping the pair as one
+		// two-word lemma.
+		expect(parsed.headwords.map((f) => f.text)).toEqual([
+			'אֱינָשׁ',
+			'אֵינָשׁ',
+			'אִינְשָׁא',
+			'אֵינָשָׁא',
+			'אִינִישׁ',
+			'אֱנַשׁ',
+		]);
+	});
+
+	it('H4 `=` in a headword — a text defect, kept whole and flagged', () => {
+		for (const line of ['אִידְרְעָא = אֶדְרְעָא', 'אִימְנוֹן = הִמְנוֹן']) {
+			expect(read([line])).toEqual({
+				display: undefined,
+				forms: [{ text: line }],
+				kinds: ['headword-unparsed'],
+			});
+		}
+	});
+
+	it('H5 ellipsis endings — partial, with the mark in display (K00798)', () => {
+		expect(read(['כְּמֵיהוֹת', '… יהִים', '… יהִין'])).toEqual({
+			display: '{0}, … {1}, … {2}',
+			forms: [
+				{ text: 'כְּמֵיהוֹת' },
+				{ partial: true, text: 'יהִים' },
+				{ partial: true, text: 'יהִין' },
+			],
+			kinds: ['headword-partial-only'],
+		});
+	});
+
+	it('H5 an ellipsis inside one item makes every form it holds partial (S00469)', () => {
+		const parsed = parseHeadwordLine(['קוּסְטַנְטִינָא', 'ק … טִינֵי']);
+		expect(parsed.display).toBe('{0}, {1} … {2}');
+		expect(parsed.headwords.map((f) => f.partial)).toEqual([
+			undefined,
+			true,
+			true,
+		]);
+	});
+
+	it('H6 two spellings in one item — the patch splits them (I00158)', () => {
+		expect(read(['טְוִיָּיה', 'טְוִיָּה', 'טְוִויָּה'])).toEqual({
+			display: '{0}, {1}, {2}',
+			forms: [{ text: 'טְוִיָּיה' }, { text: 'טְוִיָּה' }, { text: 'טְוִויָּה' }],
+			kinds: [],
+		});
+	});
+
+	it('H6 reduplication — one expression spoken twice is one form (D00004)', () => {
+		expect(read(['דָּא II', 'דא דא'])).toEqual({
+			display: '{0} II, {1}',
+			forms: [{ homograph: 2, text: 'דָּא' }, { text: 'דא דא' }],
+			kinds: [],
+		});
+	});
+
+	it('H6 abbreviated phrase alternates — partial, kept as printed (Q00053)', () => {
+		expect(read(['פַּגֵּי', 'בֵּית פַּ׳', '(בֵּי)'])).toEqual({
+			display: '{0}, {1}, ({2})',
+			forms: [
+				{ text: 'פַּגֵּי' },
+				{ partial: true, text: 'בֵּית פַּ׳' },
+				{ text: 'בֵּי' },
+			],
+			kinds: [],
+		});
+	});
+
+	it('H6 an abbreviation in a PRIMARY headword is partial (K00107)', () => {
+		expect(read(['כִּדְ׳ כַּדְבוּבָא'])).toEqual({
+			display: '{0}',
+			forms: [{ partial: true, text: 'כִּדְ׳ כַּדְבוּבָא' }],
+			kinds: [],
+		});
+	});
+
+	it('H6 spaced variants — the same word written as two words (Q00248)', () => {
+		expect(read(['פּוּמְבְּדִיתָא', 'פּוּם בְּדִיתָא'])).toEqual({
+			display: '{0}, {1}',
+			forms: [{ text: 'פּוּמְבְּדִיתָא' }, { text: 'פּוּם בְּדִיתָא' }],
+			kinds: [],
+		});
+	});
+
+	it('H6 a phrase headword is a legitimate lemma (A00436)', () => {
+		expect(read(['אדני מריונים'])).toEqual({
+			display: '{0}',
+			forms: [{ text: 'אדני מריונים' }],
+			kinds: [],
+		});
+	});
+
+	it('X1/X3 a torn headword, rejoined by its patch (U01000)', () => {
+		expect(read(['שִׁיף', 'שִׁיפָה'])).toEqual({
+			display: '{0}, {1}',
+			forms: [{ text: 'שִׁיף' }, { text: 'שִׁיפָה' }],
+			kinds: [],
+		});
+	});
+
+	it('X2 the OCR glyph patch leaves an ordinary form (F00009)', () => {
+		expect(read(['וַארְדּוּנְיָא'])).toEqual({
+			display: '{0}',
+			forms: [{ text: 'וַארְדּוּנְיָא' }],
+			kinds: [],
+		});
+	});
+
+	it('X5 a prefix keeps its maqaf and an ending its leading vowel', () => {
+		expect(parseHeadwordLine(['אַב־']).headwords).toEqual([{ text: 'אַב־' }]);
+		expect(parseHeadwordLine(['ַיְידָא']).headwords).toEqual([{ text: 'ַיְידָא' }]);
+	});
+
+	it('X6 an abbreviated alternate beside a full form is partial (K01196)', () => {
+		expect(read(['*כַּרְכּוּז', 'עִיזָּא', 'כ׳', '(ד)'])).toEqual({
+			display: '*{0}, {1}, {2}, ({3})',
+			forms: [
+				{ reconstructed: true, text: 'כַּרְכּוּז' },
+				{ text: 'עִיזָּא' },
+				{ partial: true, text: 'כ׳' },
+				{ text: 'ד' },
+			],
+			kinds: [],
+		});
+	});
+
+	it('X7 an abbreviation that is the entry’s ONLY name stays a lookup key', () => {
+		// The `abbrev-headword-stub` population: 28 of the 34 have no
+		// other form at all, so `partial` would leave them unfindable.
+		expect(read(['אנטג׳'])).toEqual({
+			display: '{0}',
+			forms: [{ text: 'אנטג׳' }],
+			kinds: [],
+		});
+	});
+
+	it('X7 a numeral letter and a gershayim acronym are ordinary forms', () => {
+		expect(parseHeadwordLine(['א׳']).headwords).toEqual([{ text: 'א׳' }]);
+		expect(parseHeadwordLine(['א״ל']).headwords).toEqual([{ text: 'א״ל' }]);
+	});
+
+	it('H1 a separator defect, once its patch has run (B00098)', () => {
+		expect(read(['בַּד V'])).toEqual({
+			display: '{0} V',
+			forms: [{ homograph: 5, text: 'בַּד' }],
+			kinds: [],
+		});
+	});
+});
+
+describe('flags and edges', () => {
+	it('a superscript disambiguator is read off the form (J00288)', () => {
+		const parsed = parseHeadwordLine(['יְחִידִי ²', '(… דַי)', 'יְחִידָאָה']);
+		expect(parsed.display).toBe('{0} ², (… {1}), {2}');
+		expect(parsed.headwords[0]).toEqual({ disambiguator: 2, text: 'יְחִידִי' });
+		expect(parsed.headwords[1]?.partial).toBe(true);
+	});
+
+	it('headword-partial-only fires only when EVERY alternate is partial', () => {
+		expect(parseHeadwordLine(['כְּמֵיהוֹת', '… יהִים']).reviews).toEqual([
+			{
+				kind: 'headword-partial-only',
+				reason:
+					'all 1 alternate(s) are partial; the entry has no alternate lookup key',
+			},
+		]);
+		expect(parseHeadwordLine(['כְּמֵיהוֹת', '… יהִים', 'אָב']).reviews).toEqual([]);
+	});
+
+	it('an entry with no alternates never files headword-partial-only', () => {
+		expect(parseHeadwordLine(['כִּדְ׳ כַּדְבוּבָא']).reviews).toEqual([]);
+	});
+
+	it('a Latin word that is no numeral is a text defect, and the line is kept whole', () => {
+		expect(read(['אָב cf.', 'אַבָּא'])).toEqual({
+			display: undefined,
+			forms: [{ text: 'אָב cf.' }, { text: 'אַבָּא' }],
+			kinds: ['headword-unparsed'],
+		});
+	});
+
+	it('an item with no Hebrew at all is a text defect', () => {
+		expect(parseHeadwordLine(['אָב', '()']).reviews.map((r) => r.kind)).toEqual([
+			'headword-unparsed',
+		]);
+	});
+
+	it('a Roman numeral that does not read is a text defect', () => {
+		expect(parseHeadwordLine(['אָב IIII']).reviews).toEqual([]);
+		expect(parseHeadwordLine(['אָב IC']).reviews.map((r) => r.kind)).toEqual([
+			'headword-unparsed',
+		]);
+	});
+
+	it('renderDisplay puts the forms back into the template', () => {
+		const parsed = parseHeadwordLine(['מְסַר', '(מָסַר) I']);
+		expect(renderDisplay(parsed.display ?? '', parsed.headwords)).toBe(
+			'מְסַר, (מָסַר) I',
+		);
+	});
+});
