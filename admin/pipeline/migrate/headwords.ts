@@ -226,23 +226,8 @@ function scanItem(item: string): Piece[] {
 	const pieces: Piece[] = [];
 	let i = 0;
 	while (i < chars.length) {
-		const ch = chars[i] ?? '';
-		if (isLexical(ch)) {
-			let j = i;
-			let end = i;
-			while (j < chars.length) {
-				const c = chars[j] ?? '';
-				if (isLexical(c)) {
-					j++;
-					end = j;
-					continue;
-				}
-				if (c === ' ' && isLexical(chars[j + 1] ?? '')) {
-					j++;
-					continue;
-				}
-				break;
-			}
+		if (isLexical(chars[i] ?? '')) {
+			const end = hebrewRunEnd(chars, i);
 			pieces.push({ kind: 'text', value: chars.slice(i, end).join('') });
 			i = end;
 			continue;
@@ -252,6 +237,29 @@ function scanItem(item: string): Piece[] {
 		i += [...run].length;
 	}
 	return pieces;
+}
+
+/** Where the Hebrew run starting at `at` ends. A single space between
+ * two Hebrew characters stays INSIDE the run — a multi-word form is
+ * one lemma — but a trailing one does not, so the run ends on its
+ * last letter rather than on the gap after it. */
+function hebrewRunEnd(chars: readonly string[], at: number): number {
+	let j = at;
+	let end = at;
+	while (j < chars.length) {
+		const c = chars[j] ?? '';
+		if (isLexical(c)) {
+			j++;
+			end = j;
+			continue;
+		}
+		if (c === ' ' && isLexical(chars[j + 1] ?? '')) {
+			j++;
+			continue;
+		}
+		break;
+	}
+	return end;
 }
 
 /** One notation run starting at `at`: a Latin word (plus a trailing
@@ -299,9 +307,42 @@ interface ItemParse {
 /** Read one source item. `first` is the global index the item's first
  * form takes, so the fragment's placeholders are line-wide. */
 function parseItem(item: string, first: number): ItemParse {
-	const pieces = scanItem(item);
-	const building: Building[] = [];
+	const scan = collectPieces(scanItem(item), first);
+	const { building, fragment, leading } = scan;
 	const problems: string[] = [];
+	if (building.length === 0) {
+		problems.push('the item holds no Hebrew');
+		return { building, fragment, problems };
+	}
+	const head = building[0];
+	if (head !== undefined && STAR_RUN.test(leading.join(''))) {
+		head.form.reconstructed = true;
+	}
+	problems.push(...markLeading(leading));
+	for (const one of building) {
+		problems.push(...applyTrailing(one));
+	}
+	markPartial(item, building);
+	return { building, fragment, problems };
+}
+
+/** One item's scanned pieces, sorted into the forms they make, the
+ * notation standing in front of the first of them, and the `display`
+ * fragment that puts them back in place. */
+interface ItemScan {
+	building: Building[];
+	fragment: string;
+	leading: string[];
+}
+
+/** Walk an item's pieces once, building all three at the same time.
+ *
+ * `sawSpaceSinceForm` is what decides `attached`: a form the item ran
+ * straight onto the one before it, with no space between, is print's
+ * optional-ending notation rather than a lemma of its own. It starts
+ * TRUE so an item's first form is never attached to nothing. */
+function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
+	const building: Building[] = [];
 	const leading: string[] = [];
 	let fragment = '';
 	let sawSpaceSinceForm = true;
@@ -322,20 +363,7 @@ function parseItem(item: string, first: number): ItemParse {
 		sawSpaceSinceForm = false;
 		fragment += `{${first + building.length - 1}}`;
 	}
-	if (building.length === 0) {
-		problems.push('the item holds no Hebrew');
-		return { building, fragment, problems };
-	}
-	const head = building[0];
-	if (head !== undefined && STAR_RUN.test(leading.join(''))) {
-		head.form.reconstructed = true;
-	}
-	problems.push(...markLeading(leading));
-	for (const one of building) {
-		problems.push(...applyTrailing(one));
-	}
-	markPartial(item, building);
-	return { building, fragment, problems };
+	return { building, fragment, leading };
 }
 
 /** Notation standing in front of an item's first form. Only `*`, the
@@ -368,40 +396,66 @@ function applyTrailing(one: Building): string[] {
 	const problems: string[] = [];
 	const romans: string[] = [];
 	for (const mark of one.trailing) {
-		if (ROMAN_TOKEN.test(mark)) {
-			romans.push(mark);
-			continue;
-		}
-		if (GENDER_TOKEN.test(mark)) {
-			one.form.gender = mark.startsWith('m') ? 'm' : 'f';
-			continue;
-		}
-		if (LATIN.test(mark)) {
-			problems.push(`Latin run ${JSON.stringify(mark)} beside the form`);
-			continue;
-		}
-		if (SUP_DIGITS.includes(mark.charAt(0))) {
-			const value = supToInt(mark);
-			if (!Number.isInteger(value) || value < 1) {
-				problems.push(`superscript ${JSON.stringify(mark)} is not a number`);
-				continue;
-			}
-			one.form.disambiguator = value;
-			continue;
-		}
-		if (mark === '=') {
-			problems.push('the line holds `=`, which introduces a gloss reference');
-		}
+		problems.push(...readMark(mark, one, romans));
 	}
-	if (romans.length === 1) {
-		const value = romanToInt(romans[0] ?? '');
-		if (Number.isInteger(value) && value >= 1) {
-			one.form.homograph = value;
-		} else {
-			problems.push(`Roman numeral ${JSON.stringify(romans[0])} does not read`);
-		}
-	}
+	problems.push(...readHomograph(one, romans));
 	return problems;
+}
+
+/** One trailing mark onto its form, or a reason it is not one this
+ * grammar has a reading for. Roman numerals are COLLECTED rather than
+ * applied, because what a numeral means depends on how many of them
+ * the segment holds — see `readHomograph`. */
+function readMark(mark: string, one: Building, romans: string[]): string[] {
+	if (ROMAN_TOKEN.test(mark)) {
+		romans.push(mark);
+		return [];
+	}
+	if (GENDER_TOKEN.test(mark)) {
+		one.form.gender = mark.startsWith('m') ? 'm' : 'f';
+		return [];
+	}
+	if (LATIN.test(mark)) {
+		return [`Latin run ${JSON.stringify(mark)} beside the form`];
+	}
+	if (SUP_DIGITS.includes(mark.charAt(0))) {
+		return readSuperscript(mark, one);
+	}
+	if (mark === '=') {
+		return ['the line holds `=`, which introduces a gloss reference'];
+	}
+	return [];
+}
+
+/** Superscript digits as the form's disambiguator. A run that does
+ * not read as a whole number is refused rather than partly consumed
+ * (see `supToInt`). */
+function readSuperscript(mark: string, one: Building): string[] {
+	const value = supToInt(mark);
+	if (!Number.isInteger(value) || value < 1) {
+		return [`superscript ${JSON.stringify(mark)} is not a number`];
+	}
+	one.form.disambiguator = value;
+	return [];
+}
+
+/** The collected numerals onto the form.
+ *
+ * **Exactly one is this form's `homograph`. Two or more are not its
+ * number at all** (§3.1 rule 3, §4's H1 row): `אוּרְיָה I, II` is a
+ * cross-reference naming two other entries, each carrying its own
+ * numbering, so nothing is written here and the numerals stay in
+ * `display`. Zero is the ordinary case. */
+function readHomograph(one: Building, romans: readonly string[]): string[] {
+	if (romans.length !== 1) {
+		return [];
+	}
+	const value = romanToInt(romans[0] ?? '');
+	if (!Number.isInteger(value) || value < 1) {
+		return [`Roman numeral ${JSON.stringify(romans[0])} does not read`];
+	}
+	one.form.homograph = value;
+	return [];
 }
 
 /** Which of an item's forms are `partial` — shown as printed, never a

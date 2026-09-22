@@ -9,7 +9,7 @@
 import Ajv2020 from 'ajv/dist/2020';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
-import { headwordShapeProblems, textDefects } from './headword-rules.ts';
+import { headwordShapeProblems } from './headword-rules.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
@@ -318,8 +318,9 @@ function checkPages(
  * to a committed file meets them in `bun qa` and nowhere else.
  *
  * Rule 4 (no notation in a form's `text`) is armed and held; see the
- * `headword-rules.ts` docstring. `textDefects` is still exported for
- * the migrate CLI, which reports the same lines as review rows. */
+ * `headword-rules.ts` docstring. It is reached through
+ * `headwordShapeProblems` like the rest, so this file has no second
+ * door onto it. */
 function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
 	problems.push(...headwordShapeProblems(entry));
 }
@@ -343,11 +344,4 @@ function validateTruth(
 }
 
 export type { TruthFile };
-export {
-	loadTruthFiles,
-	markupProblems,
-	TRUTH_DIR,
-	textDefects,
-	VOCABULARY,
-	validateTruth,
-};
+export { loadTruthFiles, markupProblems, TRUTH_DIR, VOCABULARY, validateTruth };

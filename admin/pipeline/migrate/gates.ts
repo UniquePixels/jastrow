@@ -70,8 +70,15 @@ const LATIN_RUN = /[A-Za-z]+/gu;
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
 
-/** The notation of a line, as a sorted multiset of tokens: every
- * non-Hebrew, non-space character, with Latin runs kept whole.
+/** The notation of a line as a MULTISET: token → how many times the
+ * line sets it. Every non-Hebrew, non-space character counts, with
+ * Latin runs kept whole so `II` is one token rather than two `I`s.
+ *
+ * A counted map rather than a sorted list, which is what a multiset
+ * comparison actually needs. The list had to be sorted to be
+ * comparable, and a sort ordered by nothing in particular is a
+ * question a reader should not have to answer — the order carried no
+ * meaning, only the counts ever did.
  *
  * **Commas are excluded, on both sides.** The upstream split cut
  * print's line at its separators and did not keep them (headword
@@ -79,10 +86,13 @@ const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
  * that the app supplies separators, and the template's `, ` is
  * supplied rather than recovered. Counting them would compare a number
  * the source does not carry against one the parser invented. */
-function notationOf(line: string): string[] {
-	const tokens: string[] = [];
+function notationOf(line: string): Map<string, number> {
+	const counts = new Map<string, number>();
+	const bump = (token: string): void => {
+		counts.set(token, (counts.get(token) ?? 0) + 1);
+	};
 	for (const run of line.match(LATIN_RUN) ?? []) {
-		tokens.push(run);
+		bump(run);
 	}
 	for (const ch of line.replace(LATIN_RUN, '')) {
 		const c = ch.codePointAt(0) ?? 0;
@@ -93,10 +103,32 @@ function notationOf(line: string): string[] {
 			c === 0x05f4 ||
 			c === 0x0307;
 		if (!(hebrew || ch === ',' || ch.trim() === '')) {
-			tokens.push(ch);
+			bump(ch);
 		}
 	}
-	return tokens.toSorted();
+	return counts;
+}
+
+/** Two notation multisets agree. */
+function sameNotation(
+	a: ReadonlyMap<string, number>,
+	b: ReadonlyMap<string, number>,
+): boolean {
+	if (a.size !== b.size) {
+		return false;
+	}
+	for (const [token, n] of a) {
+		if (b.get(token) !== n) {
+			return false;
+		}
+	}
+	return true;
+}
+
+/** A multiset for a failure message, in the order the line sets each
+ * token — which reads closer to the line than any sort would. */
+function renderNotation(counts: ReadonlyMap<string, number>): string {
+	return [...counts].map(([token, n]) => `${token}×${n}`).join(' ');
 }
 
 /** Whether the source line is one no parser can lay out: its
@@ -205,8 +237,8 @@ function checkHeadwordLine(
 	const written = notationOf(truth.display.replace(SLOT, ''));
 	mark(
 		t,
-		source.join(' ') === written.join(' '),
-		`${composed.rid}: notation [${source.join(' ')}] → [${written.join(' ')}]`,
+		sameNotation(source, written),
+		`${composed.rid}: notation [${renderNotation(source)}] → [${renderNotation(written)}]`,
 	);
 }
 
