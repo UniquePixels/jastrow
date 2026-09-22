@@ -181,7 +181,7 @@ describe('classifyDrift on a reform', () => {
 		patch({
 			expected_before: before,
 			op: 'reform',
-			payload: { alt_headwords: [], headword: 'ab' },
+			payload: { forms: ['ab'] },
 			target: `forms:${contentAnchor(before)}`,
 		} as Partial<SemanticPatch>);
 

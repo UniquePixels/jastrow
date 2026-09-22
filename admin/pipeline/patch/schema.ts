@@ -85,11 +85,24 @@ type JoinPayload = Record<string, never>;
  * addresses `refs[…]` instead of a sense. */
 type UnrefPayload = Record<string, never>;
 
-/** Rewrite the whole headword block: `headword` plus every
- * `alt_headwords` item (headword design §4.1). The block is given in
- * full, not as an edit, because these repairs change the NUMBER of
- * forms — `שׁ` + `ׁוּף` rejoining into one headword, `טְוִיָּיה טְוִיָּה`
- * splitting into two. An empty `alt_headwords` removes the field.
+/** Rewrite the whole headword line: every form, and optionally the
+ * layout print set them in (headword design §2, §4.1).
+ *
+ * **`forms` is the whole line, not a headword plus alternates.** The
+ * §2 shape reads the line as `headwords[]` with index 0 primary, and
+ * the repairs that need this op change the NUMBER of forms — `שׁ` +
+ * `ׁוּף` rejoining into one, `טְוִיָּיה טְוִיָּה` splitting into two — so a
+ * payload shaped as "the headword, and separately the rest" would make
+ * `forms[0]` a special case for no reason. `forms[0]` becomes the
+ * entry's `headword` and the rest its `alt_headwords`, which is how
+ * the snapshot stores a line; a single-form payload removes
+ * `alt_headwords` entirely.
+ *
+ * **`display` is the only way a layout the source cannot settle ever
+ * gets written.** §3 leaves it unset and flags the row rather than
+ * guessing, and §4's H2 rows are exactly the lines where two readings
+ * are possible. A person reading the print can settle one, and this is
+ * where they put it. Omitted, the parser decides as usual.
  *
  * Every other op is byte-conserving within `content`; this one is not
  * bounded that way, so a `reform` belongs in `data/patches/reviewed/`
@@ -97,8 +110,8 @@ type UnrefPayload = Record<string, never>;
  * concatenation, is what settles a form whose pointing the source
  * lost. */
 interface ReformPayload {
-	alt_headwords: string[];
-	headword: string;
+	display?: string;
+	forms: string[];
 }
 
 /** Set (or add) the target sense's `number` field. The new token must
@@ -429,29 +442,81 @@ function splitPayloadReasons(p: Record<string, unknown>): string[] {
 	return [];
 }
 
-/** `reform`: a non-empty headword, an array of non-empty alternates,
- * and no newline anywhere — the newline is the block's separator, so a
- * form holding one would make the target ambiguous. */
+/** `reform`: at least one non-empty form, no newline anywhere — the
+ * newline is the block's separator, so a form holding one would make
+ * the target ambiguous — and, if a layout is given, one that is a
+ * template rather than a second copy of the Hebrew.
+ *
+ * The `display` clauses are §3.1's rules 1 and 2 applied where the
+ * text is still a patch record. Checking them at PARSE time rather
+ * than leaving them to `validate.ts` means a malformed template is
+ * refused with the patch id beside it, instead of surfacing three
+ * stages later as a defect in an entry nobody edited by hand. */
 function reformPayloadReasons(p: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
-	const headword = p['headword'];
-	const alts = p['alt_headwords'];
-	if (!nonEmptyString(headword)) {
-		reasons.push('reform payload needs a non-empty headword');
-	}
-	if (!Array.isArray(alts) || alts.some((a) => !nonEmptyString(a))) {
+	const forms = p['forms'];
+	if (
+		!Array.isArray(forms) ||
+		forms.length === 0 ||
+		forms.some((f) => !nonEmptyString(f))
+	) {
 		reasons.push(
-			'reform payload needs alt_headwords: an array of non-empty strings',
+			'reform payload needs forms: a non-empty array of non-empty strings',
 		);
-		return reasons;
-	}
-	const forms = [headword, ...alts].filter(
-		(f): f is string => typeof f === 'string',
-	);
-	if (forms.some((f) => f.includes('\n'))) {
+	} else if (forms.some((f: string) => f.includes('\n'))) {
 		reasons.push('reform forms must not contain a newline');
 	}
+	// A record holding BOTH spellings is refused rather than
+	// half-read: `readLegacyReform` steps aside when `forms` is
+	// present, so a stale `headword`/`alt_headwords` beside it would be
+	// silently ignored — and a reader of the record would have no way
+	// to tell which one the run used.
+	for (const stale of ['alt_headwords', 'headword']) {
+		if (stale in p) {
+			reasons.push(
+				`reform payload carries both forms and the pre-2026-09-21 ${stale}`,
+			);
+		}
+	}
+	reasons.push(...reformDisplayReasons(p['display'], forms));
 	return reasons;
+}
+
+/** Hebrew letters and points, which a `display` template must not
+ * hold: all the Hebrew of a line comes from its forms (§3.1 rule 2). */
+const HEBREW_IN_DISPLAY = /[\u0590-\u05FF]/u;
+/** A `{n}` slot. */
+const DISPLAY_SLOT = /\{(?<index>\d+)\}/gu;
+
+/** The `display` half of a reform payload, or no reasons when it is
+ * absent — which is the ordinary case and means "let the parser
+ * decide". */
+function reformDisplayReasons(display: unknown, forms: unknown): string[] {
+	if (display === undefined) {
+		return [];
+	}
+	if (!nonEmptyString(display)) {
+		return ['reform display must be a non-empty string when present'];
+	}
+	if (display.includes('\n')) {
+		return ['reform display must not contain a newline'];
+	}
+	if (HEBREW_IN_DISPLAY.test(display)) {
+		return ['reform display must hold no Hebrew: it comes from the forms'];
+	}
+	if (!Array.isArray(forms)) {
+		return [];
+	}
+	const slots = [...display.matchAll(DISPLAY_SLOT)]
+		.map((m) => Number(m.groups?.['index']))
+		.toSorted((a, b) => a - b);
+	const wanted = forms.map((_, i) => i);
+	if (slots.join(',') !== wanted.join(',')) {
+		return [
+			`reform display names slots [${slots.join(',')}] for ${forms.length} form(s)`,
+		];
+	}
+	return [];
 }
 
 /** `unref`: the payload must be empty. */
@@ -639,11 +704,51 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 
 /** Parse and validate one patch record. Collects every problem into
  * one PatchFormatError instead of stopping at the first. */
+/** The pre-§2 `reform` payload, read forward.
+ *
+ * **TRANSITIONAL.** `reform` shipped on 2026-09-20 with a payload of
+ * `headword` plus `alt_headwords`; headword design §2 made the line a
+ * single `forms[]` on 2026-09-21, and the 15 records already in
+ * `data/patches/reviewed/` were written under the old spelling. A
+ * patch corpus is EVIDENCE — a person wrote each record from the
+ * print — so it is read forward rather than rewritten under the
+ * author's name, the same way `truth.test.ts` reads the committed
+ * entry tree forward until its own batched rewrite.
+ *
+ * The normalization is total and lossless: `[headword, ...alts]` IS
+ * the line, in order. It retires when the records are restated, and
+ * `schema.test.ts` pins both spellings so neither can drift. */
+function readLegacyReform(raw: Record<string, unknown>): void {
+	if (raw['op'] !== 'reform') {
+		return;
+	}
+	const payload = raw['payload'];
+	if (typeof payload !== 'object' || payload === null) {
+		return;
+	}
+	const p = payload as Record<string, unknown>;
+	if ('forms' in p || !('headword' in p)) {
+		return;
+	}
+	// Only a WELL-FORMED legacy payload is read forward. The old
+	// validator required `alt_headwords` to be an array of non-empty
+	// strings, and coercing a malformed one — a missing key, a bare
+	// string — would turn a record the old reader REFUSED into a
+	// single-form payload that parses, and then `applyReform` would
+	// delete every alternate on the entry. A malformed record is left
+	// alone so the new validator rejects it by name.
+	if (!nonEmptyString(p['headword']) || !Array.isArray(p['alt_headwords'])) {
+		return;
+	}
+	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
+}
+
 function parsePatch(value: unknown): SemanticPatch {
 	if (typeof value !== 'object' || value === null) {
 		throw new PatchFormatError('patch', ['record must be an object']);
 	}
-	const raw = value as Record<string, unknown>;
+	const raw = { ...(value as Record<string, unknown>) };
+	readLegacyReform(raw);
 	const { reasons: targetReasons, target } = readTarget(raw);
 	const reasons = [
 		...identityReasons(raw),
@@ -794,11 +899,11 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	return copy;
 }
 
-/** `reform`: replace the headword block on a copy of the entry, after
+/** `reform`: replace the headword line on a copy of the entry, after
  * asserting that the block still reads exactly as `expected_before`.
- * An empty `alt_headwords` removes the field rather than writing `[]`,
- * so an entry with no alternates looks the way the rest of the corpus
- * does. */
+ * A single-form payload removes `alt_headwords` rather than writing
+ * `[]`, so an entry with no alternates looks the way the rest of the
+ * corpus does. */
 function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 	const before = formsBlock(entry);
 	if (before !== patch.expected_before) {
@@ -808,15 +913,22 @@ function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 		);
 	}
 	const copy = structuredClone(entry);
-	copy.headword = patch.payload.headword;
-	if (patch.payload.alt_headwords.length > 0) {
-		copy.alt_headwords = [...patch.payload.alt_headwords];
+	const [headword = '', ...alts] = patch.payload.forms;
+	copy.headword = headword;
+	if (alts.length > 0) {
+		copy.alt_headwords = alts;
 	} else {
 		// `delete`, not `= undefined`: the field is optional under
 		// exactOptionalPropertyTypes, and an entry with no alternates
 		// carries no key at all in the rest of the corpus.
 		// biome-ignore lint/performance/noDelete: key must vanish
 		delete copy.alt_headwords;
+	}
+	if (patch.payload.display === undefined) {
+		// biome-ignore lint/performance/noDelete: key must vanish
+		delete copy.display;
+	} else {
+		copy.display = patch.payload.display;
 	}
 	return copy;
 }
@@ -1023,6 +1135,18 @@ function applySplit(
  * the floor anyway, but an agent-written reform is not, and the
  * exemption must come from provenance, not from a blind spot. */
 function flattenContent(entry: SourceEntry): string {
+	// **`display` is deliberately NOT in the pool.** It looked like it
+	// belonged — a `reform` writes it, and the pool exists so a reform
+	// cannot invent bytes. But a template is not text: `({0}, {1})`
+	// contributes braces and slot digits that no entry holds, so every
+	// well-formed template would be reported as invented and the entry
+	// re-dispositioned. That would not be a safety check, it would be a
+	// standing refusal dressed as byte accounting.
+	//
+	// What the pool was guarding against here is a template smuggling
+	// TEXT into the line, and `reformDisplayReasons` refuses that
+	// directly and by name: a `display` holding any Hebrew fails to
+	// parse, with the patch id beside it.
 	const parts: string[] = [formsBlock(entry), entry.content.morphology ?? ''];
 	for (const { sense } of walkSenses(entry)) {
 		parts.push(sense.number ?? '', sense.definition ?? '');

@@ -119,10 +119,7 @@ function classifyDrift(
 		// The headword block moved. Upstream FIXED it only if the block
 		// now reads exactly as this patch would have written it;
 		// anything else is a change we have not seen.
-		const written = [
-			patch.payload.headword,
-			...patch.payload.alt_headwords,
-		].join('\n');
+		const written = patch.payload.forms.join('\n');
 		return formsBlock(entry) === written
 			? 'upstream-fixed'
 			: 'upstream-changed';

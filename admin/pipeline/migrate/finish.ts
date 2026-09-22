@@ -162,7 +162,20 @@ function finishEntry(
 	// alternate four items later (headword design §2).
 	const line = [source.headword, ...(source.alt_headwords ?? [])];
 	const parsed = parseHeadwordLine(line);
+	// A `reform` patch's `display` WINS, and only ever adds. §3 leaves
+	// the template unset where the source cannot settle it, and a
+	// person reading the print is the only thing that can — so a
+	// supplied layout is taken, and the review row that asked for it
+	// stops being filed. Every other review the parser raised still is:
+	// the layout is the one thing the patch settled.
+	const display = source.display ?? parsed.display;
 	for (const review of parsed.reviews) {
+		if (
+			source.display !== undefined &&
+			review.kind === 'paren-group-close-unknown'
+		) {
+			continue;
+		}
 		headwordReview.push({
 			kind: review.kind,
 			line: `${source.rid}: ${line.join(', ')} — ${review.reason}`,
@@ -183,7 +196,7 @@ function finishEntry(
 		id: source.rid,
 		sefariaHeadword: sefariaHeadword ?? '',
 		headwords: parsed.headwords,
-		...(parsed.display === undefined ? {} : { display: parsed.display }),
+		...(display === undefined ? {} : { display }),
 		...(page === undefined
 			? {}
 			: { page: { number: page.number, column: page.column } }),

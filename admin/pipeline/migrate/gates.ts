@@ -162,13 +162,43 @@ function checkHeadwordLine(
 		before === after,
 		`${composed.rid}: headword text not conserved: ${JSON.stringify(before)} → ${JSON.stringify(after)}`,
 	);
-	const unsettleable = lineIsUnsettleable(line);
+	// A `reform` patch may supply the layout, and headword design §4.1
+	// gives it exactly one job: settle a line the SOURCE cannot. On a
+	// line the parser reads, the parser's template is already right, so
+	// a supplied one would overwrite it AND switch the notation mark
+	// below to a weaker check — two losses for no gain. A supplied
+	// template on a settleable line is therefore a RED GATE, never a
+	// silent override.
+	const cannotSettle = lineIsUnsettleable(line);
+	mark(
+		t,
+		composed.display === undefined || cannotSettle,
+		`${composed.rid}: a patch supplied a display for a line the source settles on its own`,
+	);
+	// Read off the COMPOSED entry, which is where the patch put it —
+	// not off the parser's decision.
+	const unsettleable = cannotSettle && composed.display === undefined;
 	mark(
 		t,
 		unsettleable === (truth.display === undefined),
 		`${composed.rid}: display is ${truth.display === undefined ? 'unset' : JSON.stringify(truth.display)} for a line that is ${unsettleable ? '' : 'not '}unsettleable`,
 	);
 	if (truth.display === undefined) {
+		return;
+	}
+	if (composed.display !== undefined) {
+		// A patch SUPPLIED this template because print set a layout the
+		// source did not keep, so the multiset cannot agree and
+		// demanding it would refuse every such patch. Comparing the
+		// template against itself would be worse — a mark that cannot
+		// fail. What IS checkable, and is the thing that could actually
+		// go wrong, is that the run carried the patch's template through
+		// to the entry unaltered.
+		mark(
+			t,
+			truth.display === composed.display,
+			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(truth.display)}`,
+		);
 		return;
 	}
 	const source = notationOf(line);

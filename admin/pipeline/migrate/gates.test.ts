@@ -371,8 +371,8 @@ describe('checkHeadwordLine', () => {
 			],
 		});
 		expect(t.failures).toEqual([]);
-		expect(t.pass).toBe(3);
-		expect(t.total).toBe(3);
+		expect(t.pass).toBe(4);
+		expect(t.total).toBe(4);
 	});
 
 	it('fails when a form drops a letter the line holds', () => {
@@ -381,7 +381,7 @@ describe('checkHeadwordLine', () => {
 			headwords: [{ homograph: 2, text: 'אָ' }],
 		});
 		expect(t.failures[0]).toContain('headword text not conserved');
-		expect(t.pass).toBe(2);
+		expect(t.pass).toBe(3);
 	});
 
 	it('fails when a form invents a letter the line does not hold', () => {
@@ -434,9 +434,9 @@ describe('checkHeadwordLine', () => {
 			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
 		});
 		expect(t.failures).toEqual([]);
-		// Only two marks: the notation multiset has no template to read.
-		expect(t.pass).toBe(2);
-		expect(t.total).toBe(2);
+		// Three marks: the notation multiset has no template to read.
+		expect(t.pass).toBe(3);
+		expect(t.total).toBe(3);
 	});
 
 	it('fails a display written for a line that cannot be laid out', () => {
@@ -452,6 +452,69 @@ describe('checkHeadwordLine', () => {
 		// stopped writing templates: without it, mark 2 simply returns.
 		const t = gate(['אָב'], { headwords: [{ text: 'אָב' }] });
 		expect(t.failures[0]).toContain('display is unset');
+	});
+
+	it('carries a patch-supplied template through to the entry', () => {
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				alt_headwords: ['אַבָּא'],
+				content: { senses: [] },
+				display: '({0}, {1})',
+				headword: '(אָב',
+				rid: 'A00014',
+			},
+			minimalTruth({
+				display: '({0}, {1})',
+				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+			}),
+			t,
+		);
+		expect(t.failures).toEqual([]);
+		// Three marks plus the carried-through one; the notation
+		// multiset is deliberately not among them.
+		expect(t.total).toBe(4);
+	});
+
+	it('REFUSES a patch-supplied template on a line the source settles', () => {
+		// §4.1 gives a supplied display one job. On a settleable line it
+		// would overwrite a correct template AND disable the notation
+		// mark — so it is red, not a silent override.
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				alt_headwords: ['אַבָּא'],
+				content: { senses: [] },
+				display: '{0}, {1}',
+				headword: 'אָב',
+				rid: 'A00014',
+			},
+			minimalTruth({
+				display: '{0}, {1}',
+				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+			}),
+			t,
+		);
+		expect(t.failures[0]).toContain('settles on its own');
+	});
+
+	it('fails a patch template the run altered on the way', () => {
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				alt_headwords: ['אַבָּא'],
+				content: { senses: [] },
+				display: '({0}, {1})',
+				headword: '(אָב',
+				rid: 'A00014',
+			},
+			minimalTruth({
+				display: '({0}) {1}',
+				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+			}),
+			t,
+		);
+		expect(t.failures[0]).toContain('the patch supplied');
 	});
 
 	it('counts an `=` line as unsettleable', () => {
