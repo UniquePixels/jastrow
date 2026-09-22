@@ -160,6 +160,7 @@ for (const [gi, group] of CONFUSION_GROUPS.entries()) {
 	}
 }
 
+// biome-ignore lint/nursery/noMisleadingReturnType: a cost is a number; narrowing to 0 | 0.5 | 1 would couple callers to the confusion table.
 function substitutionCost(a: string, b: string): number {
 	if (a === b) {
 		return 0;

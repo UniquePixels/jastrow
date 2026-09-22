@@ -27,7 +27,9 @@ import { sourceEntries } from './rules/corpus-fixture.ts';
  * anyway, because it is the literal claim a reader checks against
  * stdout.
  */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('the registry commutes except where the catalogue says otherwise', () => {
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('every non-commuting pair is mutually declared entangledWith', async () => {
 		// The RAW snapshot, shared: this gate measures rules against the
 		// unrepaired entry, and `sourceEntries()` is that array built once

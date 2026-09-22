@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one manifest grammar: the parser, its dispositions and its reconciliation are a single contract.
 /**
  * Entry-result manifest (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.4).
@@ -80,8 +81,8 @@ interface EntryResult {
  * reason — never just the first. */
 class ManifestFormatError extends Error {
 	readonly reasons: string[];
-	constructor(context: string, reasons: string[]) {
-		super(`${context}: ${reasons.join('; ')}`);
+	constructor(context: string, reasons: string[], options?: ErrorOptions) {
+		super(`${context}: ${reasons.join('; ')}`, options);
 		this.name = 'ManifestFormatError';
 		this.reasons = reasons;
 	}
@@ -307,9 +308,12 @@ function parseManifestLine(line: string, lineNumber: number): EntryResult {
 	try {
 		value = JSON.parse(line);
 	} catch (e) {
-		throw new ManifestFormatError(context, [
-			`invalid JSON: ${e instanceof Error ? e.message : String(e)}`,
-		]);
+		// biome-ignore lint/style/useErrorCause: the cause IS passed — this Error subclass takes it as a third options argument, which the rule does not read.
+		throw new ManifestFormatError(
+			context,
+			[`invalid JSON: ${e instanceof Error ? e.message : String(e)}`],
+			{ cause: e },
+		);
 	}
 	return parseEntryResult(value, context);
 }

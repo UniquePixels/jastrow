@@ -61,6 +61,7 @@ function healAndTransform(
 	} catch (error) {
 		throw new TransformFailure(
 			error instanceof Error ? error.message : String(error),
+			{ cause: error },
 		);
 	}
 	report.transformRecords.push(...transformed.records);
@@ -128,6 +129,7 @@ interface PatchedEntry {
 /** The `patch-apply` phase: the rid's reviewed patches, then its
  * accepted patches, then its carry-over set, all under the one drift
  * policy. Kept apart from `composeEntry` so each reads as one step. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one entry through the committed patch order; helpers called once would relocate the sequence, not simplify it.
 function applyPatchSets(
 	entry: SourceEntry,
 	patches: ComposePatches | undefined,
@@ -227,6 +229,7 @@ function composeEntry(
 		} catch (error) {
 			throw new TransformFailure(
 				error instanceof Error ? error.message : String(error),
+				{ cause: error },
 			);
 		}
 	});

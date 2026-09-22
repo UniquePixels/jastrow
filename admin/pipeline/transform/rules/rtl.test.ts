@@ -18,6 +18,7 @@ const entry = (definition: string): SourceEntry => ({
 const out = (rule: Rule, definition: string): string | undefined =>
 	rule.apply(entry(definition)).entry.content.senses[0]?.definition;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('bareRtlHebrew', () => {
 	it('wraps a quotation after a citation anchor', () => {
 		expect(out(bareRtlHebrew, '<a href="/x">Ber. 2ᵃ</a> שָׁלוֹם')).toBe(

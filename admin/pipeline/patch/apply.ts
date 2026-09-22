@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the apply engine and its phase manifest; the manifest IS the order the engine asserts.
 /**
  * Patch apply engine + phase manifest (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §5).

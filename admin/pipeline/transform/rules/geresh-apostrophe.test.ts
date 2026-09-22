@@ -72,6 +72,7 @@ describe('repairText', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('gereshApostropheGershayim', () => {
 	it('hands back the caller’s own entry when nothing matches', () => {
 		const entry = entryWith('nothing to do here');

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the run's stages in committed order; a split would hide the sequence the report depends on.
 /**
  * Migration — source snapshot to truth files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
@@ -164,6 +165,7 @@ async function preparePatches(
  * composition failure is recorded on gate 9 and as a fault row, and the
  * entry is dropped from pass 2 — the walk keeps going so one run lists
  * every failure. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one entry through the three phases in order; the order is the contract.
 function composeOne(
 	source: SourceEntry,
 	groups: PatchGroups,
@@ -333,6 +335,7 @@ async function loadSourceHeadwords(): Promise<ReadonlyMap<string, string>> {
 }
 
 /** Pass 2: finish and gate every composed entry, in corpus order. */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: the second pass, stage by stage; splitting it would hide the sequence the gates assume.
 function finishAll(
 	composed: readonly Composed[],
 	indexes: Indexes,

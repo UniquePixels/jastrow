@@ -150,7 +150,9 @@ describe('loadUndetectedClasses', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('renderReviewReport', () => {
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('renders the exact document', () => {
 		expect(renderReviewReport(sample(), SORTED)).toBe(
 			[

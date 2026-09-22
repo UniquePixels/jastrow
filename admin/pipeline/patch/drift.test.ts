@@ -31,6 +31,7 @@ function entryWith(...senses: SourceSense[]): SourceEntry {
 	return { content: { senses }, headword: 'test-word', rid: 'D00436' };
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('classifyDrift', () => {
 	it('is undefined when the precondition holds', () => {
 		expect(

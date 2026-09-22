@@ -53,6 +53,7 @@ function verdictOf(patch: SemanticPatch): NoNewTextVerdict {
 	return validateNoNewText(patch, before, after);
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('validateNoNewText', () => {
 	it('accepts a byte-conserving split', () => {
 		const verdict = verdictOf(

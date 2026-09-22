@@ -58,6 +58,7 @@ describe('damageOf', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkMarkup', () => {
 	it('passes a rule that only wraps existing text', () => {
 		expect(

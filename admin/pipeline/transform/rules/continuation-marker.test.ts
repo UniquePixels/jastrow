@@ -20,6 +20,7 @@ const mixed = (bare = '3)'): SourceEntry =>
 		{ definition: 'third sense.', number: bare },
 	]);
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('continuationMarkerDash', () => {
 	it('restores the dash on a marker its siblings witness', () => {
 		const { entry: after, records } = continuationMarkerDash.apply(mixed());

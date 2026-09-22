@@ -78,6 +78,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 	return { mismatches, splitCount };
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('splitLettered', () => {
 	it('splits a complete a)…b) run', () => {
 		const parts = assertSplit('x a) one b) two');
@@ -185,6 +186,7 @@ describe('splitLettered', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 	it('every definition either stays whole or round-trips exactly', async () => {
 		const entries = await loadFixtures();

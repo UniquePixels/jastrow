@@ -21,6 +21,7 @@ const chopped = (tail = 'v. supra.—2) ', next = 'to associate'): SourceEntry =
 const senseAt = (result: SourceEntry, index: number): SourceSense =>
 	result.content.senses[index] as SourceSense;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('stemHeadMarkerChop', () => {
 	it('moves the marker into the sibling’s number', () => {
 		const { entry: after, records } = stemHeadMarkerChop.apply(chopped());

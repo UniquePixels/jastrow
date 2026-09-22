@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the report shape and its two renderings; splitting them lets a field drift from the document that shows it.
 /** The migration report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { QuarantineRow, Unresolved } from './cite.ts';
@@ -296,10 +297,9 @@ function sampleSections(samples: readonly Sample[]): string[] {
 	]);
 }
 
-/** The whole blessing document: the evidence a human reads before
- * accepting a run. Every list renders, empty or not, so a missing
- * section means a bug rather than a quiet nothing-to-report. */
-function renderBlessing(report: Report, samples: readonly Sample[]): string {
+/** The document's opening: what produced it, over how many entries,
+ * against which snapshot, and the patch corpus accounting. */
+function blessingHeader(report: Report): string[] {
 	return [
 		'# Migration blessing — evidence',
 		'',
@@ -309,12 +309,26 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'',
 		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
+	];
+}
+
+/** The nine gates as a table. */
+function blessingGates(report: Report): string[] {
+	return [
 		'## Gates',
 		'',
 		'| Gate | pass / total | failures |',
 		'|---|---|---|',
 		...gateRows(report),
 		'',
+	];
+}
+
+/** The five row sections a reviewer works through. Every one renders
+ * whether or not it has rows, so a missing section means a bug rather
+ * than a quiet nothing-to-report. */
+function blessingReviews(report: Report): string[] {
+	return [
 		'## Pipeline faults',
 		'',
 		list(
@@ -355,6 +369,12 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 			'none',
 		),
 		'',
+	];
+}
+
+/** What the run counted, and the worked examples behind the counts. */
+function blessingCounts(report: Report, samples: readonly Sample[]): string[] {
+	return [
 		'## Rule counts',
 		'',
 		'Composed counts: each rule sees the text the rules before it left.',
@@ -373,6 +393,20 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 		'## Samples',
 		'',
 		...sampleSections(samples),
+	];
+}
+
+/** The whole blessing document: the evidence a human reads before
+ * accepting a run. Assembled from its four parts in document order, so
+ * the sequence a reviewer reads is the sequence this function states.
+ * Every list inside them renders empty rather than vanishing, so a
+ * missing section means a bug and not a quiet nothing-to-report. */
+function renderBlessing(report: Report, samples: readonly Sample[]): string {
+	return [
+		...blessingHeader(report),
+		...blessingGates(report),
+		...blessingReviews(report),
+		...blessingCounts(report, samples),
 	].join('\n');
 }
 

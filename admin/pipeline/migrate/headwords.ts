@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one parser for the whole headword LINE; print's grouping sits BETWEEN forms, so the passes cannot be separated.
 /**
  * The headword LINE — Sefaria's `headword` followed by its
  * `alt_headwords`, read back as the one line print sets

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
  * `ib-yoma-2a` (batch-2 task 7). Every number in `anaphora.ts`'s module
  * doc and in `docs/archive/catalogue-audit/ib-yoma-2a.md` came from a

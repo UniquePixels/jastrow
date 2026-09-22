@@ -95,6 +95,7 @@ describe('nameOf', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('nameCollisions', () => {
 	it('is empty when every name differs', () => {
 		expect(

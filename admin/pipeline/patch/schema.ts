@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: one patch grammar: every op's validator beside the union it discriminates.
 /**
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
@@ -254,8 +255,8 @@ interface PatchTarget {
 /** A patch that failed schema validation, with every reason. */
 class PatchFormatError extends Error {
 	readonly reasons: string[];
-	constructor(context: string, reasons: string[]) {
-		super(`${context}: ${reasons.join('; ')}`);
+	constructor(context: string, reasons: string[], options?: ErrorOptions) {
+		super(`${context}: ${reasons.join('; ')}`, options);
 		this.name = 'PatchFormatError';
 		this.reasons = reasons;
 	}
@@ -818,14 +819,20 @@ function parsePatchLine(line: string, lineNumber: number): SemanticPatch {
 	let value: unknown;
 	try {
 		value = JSON.parse(line);
-	} catch {
-		throw new PatchFormatError(`line ${lineNumber}`, ['not valid JSON']);
+	} catch (e) {
+		// biome-ignore lint/style/useErrorCause: the cause IS passed — this Error subclass takes it as a third options argument, which the rule does not read.
+		throw new PatchFormatError(`line ${lineNumber}`, ['not valid JSON'], {
+			cause: e,
+		});
 	}
 	try {
 		return parsePatch(value);
 	} catch (e) {
 		if (e instanceof PatchFormatError) {
-			throw new PatchFormatError(`line ${lineNumber}`, e.reasons);
+			// biome-ignore lint/style/useErrorCause: the cause IS passed — this Error subclass takes it as a third options argument, which the rule does not read.
+			throw new PatchFormatError(`line ${lineNumber}`, e.reasons, {
+				cause: e,
+			});
 		}
 		throw e;
 	}
@@ -877,6 +884,7 @@ function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
 }
 
 /** Count non-overlapping occurrences of `needle` in `haystack`. */
+// biome-ignore lint/nursery/noMisleadingReturnType: a loop counter is a number; narrowing to its literal seeds would couple callers to the body.
 function countOccurrences(haystack: string, needle: string): number {
 	if (needle === '') {
 		return 0;

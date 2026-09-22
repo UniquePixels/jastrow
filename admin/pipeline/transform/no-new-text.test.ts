@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import { checkNoNewText, textOf } from './no-new-text.ts';
@@ -125,6 +126,7 @@ describe('textOf', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('textOf — fields beyond content (spec §5)', () => {
 	it('includes headword', () => {
 		const e: SourceEntry = {
@@ -281,6 +283,7 @@ describe('textOf — fields beyond content (spec §5)', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('checkNoNewText — the gate sees every text field (spec §5)', () => {
 	it('rejects a rule that edits alt_headwords exclusively', () => {
 		// Before this fix, textOf only walked content — a rule touching

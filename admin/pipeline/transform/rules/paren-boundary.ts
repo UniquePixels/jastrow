@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the rule's evidence docstring is most of this file; the ruling belongs beside the code it licenses.
 /**
  * The paren-boundary family: a `(` or a `)` sitting on the wrong side
  * of an `</a>`, and the split Tosefta citation those anchors carry.

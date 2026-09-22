@@ -53,6 +53,7 @@ const usable = (html: string): boolean =>
  * only moved bytes around. */
 const bag = (s: string): string[] => [...s].sort();
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('unterminatedHref', () => {
 	it('D00478: leaves no anchor malformed, interior or unclosed', () => {
 		expect(usable(D_BAD)).toBe(false);

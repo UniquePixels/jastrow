@@ -16,6 +16,7 @@ async function loadFixture(rid: string): Promise<SourceEntry> {
 	throw new Error(`fixture missing: ${rid}`);
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('composeEntry', () => {
 	it("wraps C01331's Hebrew and leaves its heal to the reviewed patch", async () => {
 		const source = await loadFixture('C01331');

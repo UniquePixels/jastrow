@@ -133,6 +133,7 @@ describe('bsonDocuments', () => {
 
 	it('throws on a truncated document', async () => {
 		const whole = BSON.serialize({ headword: 'truncated' });
+		// biome-ignore lint/nursery/noMisleadingReturnType: a loop counter is a number; narrowing to its literal seed would assert what the loop is meant to change.
 		const drain = async (path: string): Promise<number> => {
 			let count = 0;
 			for await (const _doc of bsonDocuments(path)) {

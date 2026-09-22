@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the gate's evidence — each clause's measured population — belongs beside the clause it licenses.
 /**
  * The link-target gate (batch-2 link spec §3.2).
  *
@@ -2281,6 +2282,7 @@ function mintLead(claim: Mint): string {
  * a rule author fixing one at a time is the slow path and the clauses
  * are independent.
  */
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one verdict over every mint clause; a clause moved out would be checked against a different entry state.
 function mintFault(
 	claim: Mint,
 	input: Pick<Input, 'fields'>,

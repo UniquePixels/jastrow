@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import { buildBody, buildTrace } from './dry-run.ts';
 import { evaluateRoundTrip } from './dry-run-verify.ts';
@@ -187,6 +188,7 @@ describe('buildBody round-trip: byte-exact reassembly across every named fixture
 	];
 
 	for (const file of fixtureFiles) {
+		// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: the branching is the test matrix itself; extracting it would hide which case is being asserted.
 		it(`round-trips rejoin/units/lettered/formSection for every entry in ${file}`, async () => {
 			const entries = await loadFixture(file);
 			expect(entries.length).toBeGreaterThan(0);

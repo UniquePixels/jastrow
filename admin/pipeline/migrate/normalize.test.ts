@@ -40,6 +40,7 @@ function withBrokenNFC(body: () => void): void {
 	}
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('normalizeForWrite', () => {
 	it('has two fixtures that really differ', () => {
 		// The control for every reorder assertion below: if these two

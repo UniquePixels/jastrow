@@ -59,6 +59,8 @@ interface Finished {
  * problems that block a write, the headwords wanting review, the
  * unresolved citation targets, and the tag runs that crossed a field
  * boundary. Never throws — a problem is reported, not raised. */
+// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: the branches are the schema's optional fields; flattening them would not remove a decision, only move it.
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: the finishing stages in schema key order; each one reads what the last wrote.
 function finishEntry(
 	source: SourceEntry,
 	body: BodyEntry,

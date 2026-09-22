@@ -49,6 +49,7 @@ const CASES: [string, string][] = [
 	['אִיבּוּס <i>ib.</i> 4a', 'אִיבּוּס ib. 4a'],
 ];
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('stripTags', () => {
 	it.each(CASES)('strips %j to %j', (input, expected) => {
 		expect(stripTags(input)).toBe(expected);

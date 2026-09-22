@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the rule's evidence docstring is most of this file; the ruling belongs beside the code it licenses.
 /**
  * `ib-yoma-2a` (batch-2 link spec §4 row 8): a bare anaphoric citation
  * — "Ib.", *ibidem*, "the same place as the one just named" — anchored

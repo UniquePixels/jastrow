@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../body/types.ts';
 import {
@@ -410,6 +411,7 @@ describe('postApplyAssertions', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('applyCarryOver — Ruling F', () => {
 	it('absorbs a patch whose pre-state no longer resolves', () => {
 		// Apply the ocr patch for real first — the entry no longer reads

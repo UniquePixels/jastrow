@@ -29,6 +29,7 @@ const split = (
 const senseAt = (result: SourceEntry, index: number): SourceSense =>
 	result.content.senses[index] as SourceSense;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('strandedDashStarMarker', () => {
 	it('rejoins the dash onto the starred marker, in one step', () => {
 		const { entry: after, records } = strandedDashStarMarker.apply(split());

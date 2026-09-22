@@ -57,6 +57,7 @@ function composeResult(overrides: {
 	} as ComposeResult;
 }
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('markMissingTargets', () => {
 	it('marks gate 9 and adds a fault row naming every patch id for a missing rid', () => {
 		const accepted = patch({ id: 'P000001' });
@@ -129,6 +130,7 @@ describe('markMissingTargets', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('recordPatchOutcomes', () => {
 	it('applied: a patch with no problems or drift gets an applied outcome', () => {
 		const p1 = patch({ id: 'P1', rid: RID });

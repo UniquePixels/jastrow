@@ -15,6 +15,7 @@ const entry = (definition: string): SourceEntry =>
 		rid: 'T00001',
 	}) as SourceEntry;
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('mintOver', () => {
 	it('wraps a bare anaphor in the antecedent’s own opening tag', () => {
 		const { mints, text } = mintOver(
@@ -149,6 +150,7 @@ describe('mintOver', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('unlinkedBareAnaphor', () => {
 	it('hands back the caller’s own entry when nothing matches', () => {
 		const source = entry('nothing to do');
