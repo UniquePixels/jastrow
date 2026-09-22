@@ -247,22 +247,6 @@ function skeleton(s: string): string {
  * its skeleton can be compared to the display's. */
 const TARGET_RE = /^Jastrow, (?<hw>\D+?) \d+$/u;
 
-/** The TARGET-ENTRY IDENTITY of a `data-ref` — the skeleton of the
- * headword portion `TARGET_RE` captures, or `undefined` when the value
- * does not parse as one of this row's addresses. Exported so a test
- * measuring "does this entry carry an anchor to its OWN headword" (the
- * reachability question spec §3.2 case 2 asks) can compare identity
- * rather than a string prefix — a prefix test over-counts a sibling
- * spelled `<headword>+ִית` (which STARTS WITH the host's own headword
- * string) and under-counts a homograph headword whose Roman-numeral or
- * superscript suffix a target rarely spells the same way. See the
- * module doc's "The repair: UNLINK, by measurement" section. */
-function targetHeadwordSkeleton(dataRef: string): string | undefined {
-	const match = TARGET_RE.exec(stripPoints(dataRef));
-	const hw = match?.groups?.['hw'];
-	return hw === undefined ? undefined : skeleton(hw);
-}
-
 /** Every preceding TEXT token's value, concatenated up to `open` —
  * mirrors `rules/unlink.ts`'s private `leadOf`, restated here rather
  * than imported because that copy is not exported and this module's
@@ -688,10 +672,7 @@ const shurukAsYodDisplayCorruption: Rule = {
 export {
 	inCleanPlSpan,
 	pluralToFeminineFinalLetter,
-	pluralToFeminineMatch,
-	pluralToFeminineRaw,
 	shurukAsYodDisplayCorruption,
 	shurukAsYodMatch,
 	skeleton,
-	targetHeadwordSkeleton,
 };

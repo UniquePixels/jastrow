@@ -466,10 +466,8 @@ function replayGate(records: readonly EntryResult[]): ManifestProblem[] {
 
 export type { Disposition, EntryResult, MaintainerResolution, ManifestProblem };
 export {
-	DISPOSITIONS,
 	isNeeds,
 	ManifestFormatError,
-	parseEntryResult,
 	parseManifest,
 	parseManifestLine,
 	reconcilePatches,

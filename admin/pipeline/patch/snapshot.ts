@@ -193,9 +193,7 @@ export {
 	computeSnapshot,
 	describeMismatches,
 	diffSnapshot,
-	hashSnapshotFiles,
 	LOCK_PATH,
 	parseLock,
 	SNAPSHOT_FILES,
-	verifySnapshot,
 };

@@ -195,11 +195,4 @@ const seeParticleRestore: Rule = {
 	phase: 'text-repairs',
 };
 
-export {
-	isEmptySlot,
-	isWholeEntryStub,
-	PARTICLE,
-	restoreParticle,
-	seeParticleRestore,
-	stubSlot,
-};
+export { PARTICLE, restoreParticle, seeParticleRestore };

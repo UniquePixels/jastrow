@@ -657,12 +657,9 @@ export {
 	GERESH,
 	intToRoman,
 	intToSup,
-	isAbbreviated,
 	isHeadwordReviewKind,
 	isLexical,
 	PLACEHOLDER,
 	parseHeadwordLine,
 	renderDisplay,
-	romanToInt,
-	supToInt,
 };

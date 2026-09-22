@@ -448,9 +448,4 @@ const truncatedCitationDigit: Rule = {
 	phase: 'text-repairs',
 };
 
-export {
-	digitMoveAt,
-	superscriptInsideAnchor,
-	superscriptMoveAt,
-	truncatedCitationDigit,
-};
+export { digitMoveAt, superscriptInsideAnchor, truncatedCitationDigit };

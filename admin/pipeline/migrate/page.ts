@@ -53,4 +53,4 @@ async function loadPageIndex(
 }
 
 export type { PagePlacement };
-export { loadPageIndex, PAGE_INDEX_PATH };
+export { loadPageIndex };

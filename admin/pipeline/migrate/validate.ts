@@ -344,4 +344,4 @@ function validateTruth(
 }
 
 export type { TruthFile };
-export { loadTruthFiles, markupProblems, TRUTH_DIR, VOCABULARY, validateTruth };
+export { loadTruthFiles, markupProblems, VOCABULARY, validateTruth };

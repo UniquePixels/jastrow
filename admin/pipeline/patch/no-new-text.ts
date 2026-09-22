@@ -103,4 +103,4 @@ function validateNoNewText(
 }
 
 export type { NoNewTextVerdict };
-export { codepointCounts, markerAllowance, validateNoNewText };
+export { validateNoNewText };

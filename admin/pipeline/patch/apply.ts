@@ -43,14 +43,9 @@ import {
 } from './schema.ts';
 
 /** The committed patch corpus (spec §4.4): the pilot's files plus
- * every ingested tranche's. Absent files mean an empty corpus.
- * `CORPUS_PATH`/`MANIFEST_PATH` name a single-file layout nothing
- * writes; they are exported for callers that pass an explicit path,
- * and are not the live corpus. */
+ * every ingested tranche's. Absent files mean an empty corpus. */
 const PILOT_DIR = 'data/patches/pilot';
 const TRANCHES_DIR = 'data/patches/tranches';
-const CORPUS_PATH = `${PILOT_DIR}/patches.jsonl`;
-const MANIFEST_PATH = `${PILOT_DIR}/manifest.jsonl`;
 
 /** Human-authored patches (consolidation spec §4.2). Kept out of
  * `TRANCHES` on purpose: consolidation keeps one manifest record per
@@ -765,7 +760,6 @@ export type {
 export {
 	applyCarryOver,
 	applyEntryPatches,
-	CORPUS_PATH,
 	consolidate,
 	corpusPreflight,
 	createPhaseTracker,
@@ -773,13 +767,11 @@ export {
 	loadCorpus,
 	loadManifest,
 	loadReviewedCorpus,
-	MANIFEST_PATH,
 	orderedDirs,
 	PHASE_MANIFEST,
 	PhaseViolation,
 	patchesByRid,
 	postApplyAssertions,
-	REVIEWED_DIR,
 	reviewedManifestProblems,
 	stalePins,
 };

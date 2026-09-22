@@ -81,4 +81,4 @@ async function composedEntries(): Promise<readonly SourceEntry[]> {
 	return composedMemo;
 }
 
-export { composedEntries, repairedEntries, sourceEntries };
+export { composedEntries, sourceEntries };

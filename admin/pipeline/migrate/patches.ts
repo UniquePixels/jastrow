@@ -95,4 +95,4 @@ function markMissingTargets(groups: PatchGroups, report: Report): void {
 }
 
 export type { PatchGroups };
-export { DRIFT_DETAIL, markMissingTargets, recordPatchOutcomes };
+export { markMissingTargets, recordPatchOutcomes };

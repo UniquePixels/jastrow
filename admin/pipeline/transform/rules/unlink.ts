@@ -467,7 +467,6 @@ export {
 	apparatusCite,
 	ELLIPSIS_CONVENTION,
 	ellipsisFragment,
-	ellipsisRaw,
 	rabbiName,
 	unlinkMatching,
 	unlinkOverDefinitions,

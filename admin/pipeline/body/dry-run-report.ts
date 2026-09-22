@@ -309,5 +309,4 @@ export {
 	tallyRoundTrip,
 	tallySchema,
 	tallyStructure,
-	toValidationEntry,
 };

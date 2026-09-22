@@ -329,9 +329,4 @@ const prefixedGereshAbbrev: Rule = {
 	phase: 'text-repairs',
 };
 
-export {
-	bareStubRaw,
-	gereshLetterNumeral,
-	prefixedGereshAbbrev,
-	prefixedStubRaw,
-};
+export { bareStubRaw, gereshLetterNumeral, prefixedGereshAbbrev };

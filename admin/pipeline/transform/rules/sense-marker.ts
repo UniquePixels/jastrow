@@ -167,4 +167,4 @@ const strandedDashStarMarker: Rule = {
 	phase: 'structural-repairs',
 };
 
-export { DASH, endsInStrandedDash, STAR_MARKER, strandedDashStarMarker };
+export { DASH, strandedDashStarMarker };

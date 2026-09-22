@@ -156,4 +156,4 @@ const continuationMarkerDash: Rule = {
 	phase: 'structural-repairs',
 };
 
-export { BARE, continuationMarkerDash, DASH, DASHED, hasWitness, NOT_OURS };
+export { BARE, continuationMarkerDash, DASH, DASHED };

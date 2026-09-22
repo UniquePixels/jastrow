@@ -161,4 +161,4 @@ const sectionBreakTerminator: Rule = {
 	phase: 'structural-repairs',
 };
 
-export { LABELS, MISSING_STOP, restoreStops, STOP, sectionBreakTerminator };
+export { LABELS, restoreStops, STOP, sectionBreakTerminator };

@@ -231,4 +231,4 @@ const genderPairAltDuplicate: Rule = {
 	phase: 'text-repairs',
 };
 
-export { abbrevFusedHeadword, genderPairAltDuplicate, LINKED_HEADWORDS };
+export { abbrevFusedHeadword, genderPairAltDuplicate };

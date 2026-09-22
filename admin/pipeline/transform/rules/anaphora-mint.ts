@@ -349,4 +349,4 @@ const unlinkedBareAnaphor: Rule = {
 	phase: 'text-repairs',
 };
 
-export { antecedentFor, mintOver, unlinkedBareAnaphor };
+export { mintOver, unlinkedBareAnaphor };

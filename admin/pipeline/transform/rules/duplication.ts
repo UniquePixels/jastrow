@@ -268,7 +268,6 @@ const adjacentVerbatimRepeat: Rule = {
 };
 
 export {
-	adjacentRepeat,
 	adjacentVerbatimRepeat,
 	duplicatedOpeningRun,
 	MIN_ADJACENT,
