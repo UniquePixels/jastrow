@@ -167,7 +167,12 @@ search hit, or derive a slug from it.
    own byte order. Combining-mark order varies (6 forms differ from
    NFC) and the two spellings are canonically equal, so a byte-exact
    comparison is a bug. `admin/pipeline/migrate/cite.ts` already does
-   this.
+   this. **Amended 2026-09-22 ([#110](https://github.com/UniquePixels/jastrow/issues/110)):**
+   the migrate WRITE step is the one exception — `normalizeForWrite`
+   puts every string of an entry file into NFC, under an assertion
+   that `NFD(before) == NFD(after)`, so the property holds by
+   construction rather than at each reader. `data/source/` is still
+   never rewritten.
 
 ## 4. Decisions taken
 

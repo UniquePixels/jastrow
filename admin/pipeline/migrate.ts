@@ -36,6 +36,7 @@ import {
 	checkTextConservation,
 	mark,
 } from './migrate/gates.ts';
+import { normalizeForWrite } from './migrate/normalize.ts';
 import { type RunOptions, runOptions } from './migrate/options.ts';
 import { unbasedOrphans } from './migrate/orphan-refs.ts';
 import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
@@ -482,21 +483,38 @@ function formatTruth(): void {
 }
 
 /** The one write of the whole pipeline: 32,512 files, formatted, then
- * the report again so its `written` count is on disk. */
+ * the report again so its `written` count is on disk.
+ *
+ * Every entry passes through `normalizeForWrite` on the way to disk
+ * (#110): this is the ONE place stored text is rewritten, and it is
+ * rewritten only into its own NFC spelling, under an assertion that
+ * the rewrite is lossless. It runs here, after the gates have read
+ * the in-memory truth, so no gate is reading a value this step
+ * produced. */
 async function writeAll(
 	truths: readonly TruthEntry[],
 	report: Report,
 ): Promise<void> {
+	let normalizedStrings = 0;
+	let normalizedFiles = 0;
 	for (const truth of truths) {
+		const [normalized, changed] = normalizeForWrite(truth, truth.id);
+		if (changed > 0) {
+			normalizedStrings += changed;
+			normalizedFiles++;
+		}
 		await Bun.write(
 			`${OUT_DIR}/${letterDir(truth.id)}/${truth.id}.json`,
-			`${JSON.stringify(truth, null, '\t')}\n`,
+			`${JSON.stringify(normalized, null, '\t')}\n`,
 		);
 		report.written++;
 	}
 	formatTruth();
 	await writeReport(report);
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
+	console.log(
+		`NFC on write: ${normalizedStrings} string(s) normalized in ${normalizedFiles} file(s)`,
+	);
 }
 
 /** The run summary on stdout: one line per gate, the row-kind counts
