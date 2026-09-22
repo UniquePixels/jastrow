@@ -418,3 +418,26 @@ describe('flags and edges', () => {
 		);
 	});
 });
+
+describe('duplicate forms', () => {
+	it('reports a line that names one form twice', () => {
+		expect(
+			parseHeadwordLine(['אָב', 'אַבָּא', 'אָב']).reviews.map((r) => r.kind),
+		).toEqual(['headword-duplicate-form']);
+	});
+
+	it('compares in NFC, so a differently ordered pair is one form', () => {
+		// The shape a byte comparison misses: two canonically equal
+		// spellings are two JS strings and one word (§3.1 rule 6).
+		expect(
+			parseHeadwordLine([
+				'אָב'.normalize('NFC'),
+				'אָב'.normalize('NFD'),
+			]).reviews.map((r) => r.kind),
+		).toEqual(['headword-duplicate-form']);
+	});
+
+	it('keeps two homographs of one spelling distinct', () => {
+		expect(parseHeadwordLine(['אָב I', 'אָב II']).reviews).toEqual([]);
+	});
+});

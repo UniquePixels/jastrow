@@ -91,8 +91,12 @@ const STAR_RUN = /\*/u;
  * - `headword-partial-only` — every ALTERNATE of the entry is
  *   `partial`, so the entry has no alternate lookup key until the
  *   print work in #107. A note: nothing is wrong with the data.
+ * - `headword-duplicate-form` — the line names one form twice, the
+ *   two spellings compared in NFC (§3.1 rule 6). Nothing in §3 or §4
+ *   rules on the shape, so it is reported rather than halted on.
  */
 type HeadwordReviewKind =
+	| 'headword-duplicate-form'
 	| 'headword-partial-only'
 	| 'headword-unparsed'
 	| 'paren-group-close-unknown';
@@ -102,6 +106,7 @@ type HeadwordReviewKind =
  * of a silent omission from the report's headword list and from
  * `headword-issues.ts`'s flagged column. */
 const HEADWORD_REVIEW_KINDS: Readonly<Record<HeadwordReviewKind, true>> = {
+	'headword-duplicate-form': true,
 	'headword-partial-only': true,
 	'headword-unparsed': true,
 	'paren-group-close-unknown': true,
@@ -454,6 +459,53 @@ function markAbbreviated(forms: readonly FormObject[]): void {
 	}
 }
 
+/** A separator no form text, homograph or disambiguator can hold, so
+ * a joined key cannot be confused by one field ending where the next
+ * begins.
+ *
+ * Built with `String.fromCodePoint` rather than written as a unicode
+ * escape for U+0000: `biome format` DECODES such an escape into a
+ * literal NUL byte in the source, which makes this file `data` rather
+ * than text to `file(1)` and — the part that matters — silently
+ * invisible to a plain `grep` over `admin/`. A module that cannot be
+ * found by searching for the
+ * names in it is worse than a slightly indirect constant. */
+const KEY_SEPARATOR = String.fromCodePoint(0);
+
+/** The forms a line names twice, compared in NFC — §3.1 rule 6's
+ * "duplicate check", which is a COMPARISON the rule tells us how to
+ * make rather than a halt it imposes. Two spellings whose combining
+ * marks are ordered differently are canonically equal and would be two
+ * keys under a byte comparison, so the key is normalized; the stored
+ * text is not.
+ *
+ * Neither §3 nor §4 rules on what a repeated form MEANS — print may
+ * set a word twice on one line for a reason the source cannot show —
+ * so this is a review row and never an error. Measured over the
+ * committed tree: four entries (A02981, E00199, Q01624, U00076), each
+ * naming its primary form again among its alternates. */
+function duplicateForms(headwords: readonly FormObject[]): HeadwordReview[] {
+	const seen = new Map<string, number>();
+	const reviews: HeadwordReview[] = [];
+	for (const [i, form] of headwords.entries()) {
+		const key = [
+			form.text.normalize('NFC'),
+			form.homograph ?? '',
+			form.disambiguator ?? '',
+		].join(KEY_SEPARATOR);
+		const owner = seen.get(key);
+		if (owner === undefined) {
+			seen.set(key, i);
+		} else {
+			reviews.push({
+				kind: 'headword-duplicate-form',
+				reason: `headwords[${i}] repeats headwords[${owner}] (${form.text}) under NFC`,
+			});
+		}
+	}
+	return reviews;
+}
+
 /** Whether the line's parentheses balance. A group may span items —
  * the upstream split cut print's one group at its internal comma, so
  * `(אוֹרָיָיתָא` opens in one item and `אוֹרְיָה)` closes in a later one
@@ -510,7 +562,7 @@ function parseHeadwordLine(items: readonly string[]): ParsedLine {
 	}
 	const headwords = parsed.flatMap((p) => p.building.map((b) => b.form));
 	markAbbreviated(headwords);
-	const reviews: HeadwordReview[] = [];
+	const reviews: HeadwordReview[] = [...duplicateForms(headwords)];
 	const alternates = headwords.slice(1);
 	if (alternates.length > 0 && alternates.every((f) => f.partial === true)) {
 		reviews.push({
