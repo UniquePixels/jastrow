@@ -11,7 +11,7 @@ Patch corpus: 114 reviewed, 113 accepted, 232 applied, 61 carry-over absorbed, 5
 | Gate | pass / total | failures |
 |---|---|---|
 | bodyRoundTrips | 32512 / 32512 | 0 |
-| headwordLine | 97502 / 97502 | 0 |
+| headwordLine | 97503 / 97503 | 0 |
 | textConservation | 232579 / 232579 | 0 |
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |

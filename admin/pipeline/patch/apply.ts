@@ -551,7 +551,16 @@ function reformSetDisplayOnly(
 	after: SourceEntry,
 	patch: SemanticPatch,
 ): boolean {
-	return patch.op === 'reform' && before.display !== after.display;
+	if (patch.op !== 'reform' || before.display === after.display) {
+		return false;
+	}
+	// The forms half must really be unchanged, which is what makes the
+	// skipped assertion safe. Without this clause the exemption would
+	// read "a reform that set a display", and a payload whose `forms`
+	// silently repeat the current ones would ship whenever it also
+	// carried a template — the exact no-op the assertion exists to
+	// catch, wearing a display as a pass.
+	return countTarget(after, patch) === countTarget(before, patch);
 }
 
 /** Round-trip re-parse assertion (spec §4.3): the patched entry must

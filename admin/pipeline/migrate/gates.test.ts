@@ -484,10 +484,11 @@ describe('checkHeadwordLine', () => {
 	it('carries a patch-supplied template through to the entry', () => {
 		const t = patched(['(אָב', 'אַבָּא'], '({0}, {1})', '({0}, {1})');
 		expect(t.failures).toEqual([]);
-		// Two marks plus the carried-through one. The line is
-		// UNSETTLEABLE, so the notation multiset is deliberately not
-		// among them: print set a layout the source did not keep.
-		expect(t.total).toBe(3);
+		// Two marks plus the carried-through one and the slot-order one.
+		// The line is UNSETTLEABLE, so the notation multiset is
+		// deliberately not among them: print set a layout the source did
+		// not keep.
+		expect(t.total).toBe(4);
 	});
 
 	it('allows a patch to correct a PLACEMENT on a settleable line', () => {
@@ -497,7 +498,18 @@ describe('checkHeadwordLine', () => {
 		// The notation is rearranged, not changed, so mark 2 still runs.
 		const t = patched(['(אָב)', 'אַבָּא'], '{0} ({1})', '{0} ({1})');
 		expect(t.failures).toEqual([]);
-		expect(t.total).toBe(4);
+		expect(t.total).toBe(5);
+	});
+
+	it('refuses a patch-supplied template that PERMUTES the forms', () => {
+		// `{1}, {0}` renders the alternate where print sets the headword,
+		// and `headwords[0]` is what the name, the search key and every
+		// link derive from. Rule 1 sorts the slots, so it sees a set; the
+		// notation multiset is blind to order. This mark is the only one
+		// that looks.
+		const t = patched(['אָב', 'אַבָּא'], '{1}, {0}', '{1}, {0}');
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain('not in form order');
 	});
 
 	it('refuses a patch-supplied template that INVENTS notation', () => {

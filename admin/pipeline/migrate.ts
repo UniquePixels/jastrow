@@ -497,15 +497,24 @@ async function writeAll(
 ): Promise<void> {
 	let normalizedStrings = 0;
 	let normalizedFiles = 0;
-	for (const truth of truths) {
-		const [normalized, changed] = normalizeForWrite(truth, truth.id);
+	// Every entry is normalized BEFORE the first file is written. A
+	// refusal has to refuse the whole write, and normalizing inside the
+	// write loop would instead leave the entries before the offending
+	// one on disk, unformatted, with `refuseUnlessEmpty` blocking the
+	// re-run — the same failure `biomeBinary` is resolved early to
+	// avoid.
+	const normalized = truths.map((truth) => {
+		const [value, changed] = normalizeForWrite(truth, truth.id);
 		if (changed > 0) {
 			normalizedStrings += changed;
 			normalizedFiles++;
 		}
+		return value;
+	});
+	for (const truth of normalized) {
 		await Bun.write(
 			`${OUT_DIR}/${letterDir(truth.id)}/${truth.id}.json`,
-			`${JSON.stringify(normalized, null, '\t')}\n`,
+			`${JSON.stringify(truth, null, '\t')}\n`,
 		);
 		report.written++;
 	}

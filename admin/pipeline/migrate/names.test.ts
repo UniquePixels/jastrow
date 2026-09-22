@@ -60,10 +60,11 @@ describe('deriveName', () => {
 	});
 
 	it('never rewrites the stored text (spec §4)', () => {
-		// The name of a decomposed form comes back decomposed. NFC is a
-		// comparison rule, not a storage rule: normalising here would make
-		// the derivation lossy against a `text` the pipeline must leave
-		// byte-exact.
+		// The name of a decomposed form comes back decomposed: name
+		// derivation is a READ, and normalising here would make it lossy
+		// against the `text` it read. The entry file is put into NFC by
+		// the migrate write step instead (`normalizeForWrite`, #110),
+		// which is the one place stored text is rewritten.
 		const decomposed = 'אָב'.normalize('NFD');
 		expect(deriveName({ text: decomposed })).toBe(decomposed);
 	});

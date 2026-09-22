@@ -35,7 +35,8 @@
  *
  * **`data/source/` is never touched.** The snapshot is pinned by
  * sha256 and belongs upstream; its own 201 non-NFC strings are
- * reported to Sefaria, not repaired here.
+ * reported to Sefaria, not repaired here. Nor is the one field an
+ * entry copies from it verbatim — see `VERBATIM_FIELDS`.
  *
  * Idempotent: NFC is a fixed point, so a second run rewrites nothing.
  */
@@ -82,6 +83,19 @@ function normalizeString(
 	return normalized;
 }
 
+/** Fields that are copied from elsewhere VERBATIM and must keep the
+ * bytes they were copied from, whatever spelling those are.
+ *
+ * `sefariaHeadword` is Sefaria's own headword, stored so the Sefaria
+ * URL route keeps working after our headword is corrected (URL names
+ * spec §5.1, U3). It is a foreign key, not our text: normalizing it
+ * would make it a spelling Sefaria does not use, and gate 7 asserts
+ * it byte for byte against the snapshot BEFORE this step runs, so
+ * nothing downstream would catch the drift. The snapshot holds no
+ * non-NFC headword today, which is why this is a guard rather than a
+ * repair — the next refresh that carries one is what it is for. */
+const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
+
 /** Walk any JSON value, normalizing every string it holds.
  *
  * Object KEYS are left alone and are not counted: they are the
@@ -99,7 +113,9 @@ function walk(value: unknown, path: string, count: NormalizeCount): unknown {
 	if (typeof value === 'object' && value !== null) {
 		const out: Record<string, unknown> = {};
 		for (const [key, item] of Object.entries(value)) {
-			out[key] = walk(item, `${path}.${key}`, count);
+			out[key] = VERBATIM_FIELDS.has(key)
+				? item
+				: walk(item, `${path}.${key}`, count);
 		}
 		return out;
 	}

@@ -107,6 +107,22 @@ describe('normalizeForWrite', () => {
 		);
 	});
 
+	it('leaves sefariaHeadword verbatim', () => {
+		// Sefaria's own headword is a foreign key, kept so the Sefaria
+		// URL route survives a correction to ours (U3). Gate 7 asserts
+		// it byte for byte against the snapshot BEFORE the write step,
+		// so a rewrite here would drift with nothing downstream looking.
+		const [value, changed] = normalizeForWrite({
+			headwords: [{ text: MARKS_OUT_OF_ORDER }],
+			sefariaHeadword: MARKS_OUT_OF_ORDER,
+		});
+		expect(value.sefariaHeadword).toBe(MARKS_OUT_OF_ORDER);
+		// The control: the very same string IS normalized elsewhere in
+		// the entry, so this is an exemption and not a no-op.
+		expect(value.headwords[0]?.text).toBe(MARKS_IN_NFC_ORDER);
+		expect(changed).toBe(1);
+	});
+
 	it('never mutates its input', () => {
 		const entry = { headwords: [{ text: MARKS_OUT_OF_ORDER }] };
 		normalizeForWrite(entry);

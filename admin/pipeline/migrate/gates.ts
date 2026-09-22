@@ -61,8 +61,8 @@ function lexicalOf(line: string): string {
 	return out;
 }
 
-/** A `{n}` slot in a display template. */
-const SLOT = /\{\d+\}/gu;
+/** A `{n}` slot in a display template; group 1 is the form index. */
+const SLOT = /\{(\d+)\}/gu;
 /** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
  * not count as two `I`s against a line that really holds two. */
 const LATIN_RUN = /[A-Za-z]+/gu;
@@ -220,6 +220,23 @@ function checkHeadwordLine(
 			t,
 			truth.display === composed.display,
 			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(truth.display)}`,
+		);
+		// The slots read in FORM ORDER. §3.1 rule 1 sorts them before
+		// counting, so it sees a set and a permutation passes it; the
+		// notation multiset is blind to order by construction. Neither
+		// would notice `{1}, {0}`, which renders the alternate where
+		// print sets the headword — and `headwords[0]` is what the name,
+		// the search key and every link are derived from. The parser's
+		// own templates are always in order, because the forms are
+		// flattened in the line's order, so this binds a supplied
+		// template to the same shape.
+		const slots = [...truth.display.matchAll(SLOT)].map((m) =>
+			Number(m[1] ?? Number.NaN),
+		);
+		mark(
+			t,
+			slots.every((slot, at) => slot === at),
+			`${composed.rid}: a patch supplied a display whose slots run [${slots.join(',')}], not in form order`,
 		);
 		// On an UNSETTLEABLE line the multiset cannot agree — print set a
 		// layout the source did not keep, and demanding agreement would
