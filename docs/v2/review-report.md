@@ -6,12 +6,12 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 
 | Publication | Rows |
 |---|---|
-| blocks | 3 |
+| blocks | 2 |
 | defer | 2811 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
-## Before publication (3)
+## Before publication (2)
 
 ### headword-unparsed (2)
 
@@ -19,12 +19,6 @@ Names replace slugs (`docs/specs/2026-09-21-url-names-design.md`): the six slug 
 
 - A01175: אִידְרְעָא = אֶדְרְעָא — the line holds `=`, which introduces a gloss reference
 - A01345: אִימְנוֹן = הִמְנוֹן — the line holds `=`, which introduces a gloss reference
-
-### upstream-changed (1)
-
-**What to do:** Re-judge the patch against the new export before the output is trusted.
-
-- A01161: P000300 (headword-two-forms): the source changed under this patch; re-judge it
 
 ## Deferred (2811)
 
