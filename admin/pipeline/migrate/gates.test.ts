@@ -208,6 +208,15 @@ describe('checkNames', () => {
 		expect(t.failures).toEqual([]);
 	});
 
+	it('fails an entry whose name strips to nothing', () => {
+		// Not a collision — it is alone — so only the empty clause sees
+		// it. Without that clause the entry passes and has no URL.
+		const t = checkNames([named('A00001', { text: '(?)' }, 'אָב')], SOURCE);
+		expect(t.failures).toEqual(['A00001: name is empty from "(?)"']);
+		expect(t.pass).toBe(1);
+		expect(t.total).toBe(2);
+	});
+
 	it('fails a sefariaHeadword that is not the snapshot string', () => {
 		const t = checkNames(
 			[named('A00001', { text: 'אָב' }, 'אָב edited by hand')],

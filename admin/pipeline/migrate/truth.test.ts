@@ -37,6 +37,14 @@ interface LegacyEntry {
  * as are the schema's other constraints, the file path, the markup
  * vocabulary, the cite targets and the page index. */
 function asideRenamedFields(file: TruthFile): TruthFile {
+	// A file holding `null` or an array is handed on UNTOUCHED, for
+	// `checkFiles` to reject by path. Destructuring it here would throw
+	// a TypeError naming no path and abort the whole run — one bad hand
+	// edit hiding every other finding, which is what `loadTruthFiles`
+	// catches parse errors to avoid.
+	if (!isLegacy(file)) {
+		return file;
+	}
 	const { slug: _slug, ...rest } = file.entry as LegacyEntry;
 	const entry = rest as TruthEntry;
 	return {
@@ -45,8 +53,12 @@ function asideRenamedFields(file: TruthFile): TruthFile {
 	};
 }
 
-/** Whether a file is still in the pre-rewrite shape. */
+/** Whether a file is still in the pre-rewrite shape. A non-object is
+ * not, so it falls through to the schema check. */
 function isLegacy(file: TruthFile): boolean {
+	if (typeof file.entry !== 'object' || file.entry === null) {
+		return false;
+	}
 	const entry = file.entry as LegacyEntry;
 	return entry.slug !== undefined && entry.sefariaHeadword === undefined;
 }

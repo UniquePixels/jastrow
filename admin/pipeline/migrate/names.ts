@@ -71,11 +71,28 @@ function nameOf(entry: Pick<TruthEntry, 'headword'>): string {
 	return deriveName(entry.headword);
 }
 
-/** `rid: name taken by <rid>` for every entry whose name key another
- * entry already holds, in the order given — the `name-collision`
- * finding of spec §7, and the whole of the "current names unique"
- * gate of §5.2 (both the import gate and the `bun qa` one, so the two
- * cannot drift apart).
+/** One entry that cannot hold its name, and why. The rid is a FIELD
+ * rather than a prefix a caller re-parses off `line`: gate 7 marks per
+ * rid, and recovering the rid by slicing the prose would make every
+ * mark miss — silently passing 2n/2n with collisions in place — the
+ * day the message gains a prefix. */
+interface NameProblem {
+	line: string;
+	rid: string;
+}
+
+/** Every entry whose name another entry already holds, or whose name
+ * is empty, in the order given — the `name-collision` finding of spec
+ * §7, and the whole of the "current names unique" gate of §5.2 (both
+ * the import gate and the `bun qa` one, so the two cannot drift
+ * apart).
+ *
+ * The EMPTY case is its own clause because uniqueness cannot see it:
+ * one entry whose `headword.text` is all notation (`(?)`) strips to
+ * nothing and collides with nobody, so it would pass both gates and
+ * end up addressable by no URL at all. `slug-unsafe` and `checkSlugs`'
+ * presence clause covered that family before; this replaces them.
+ * Measured 0 over the committed 32,512.
  *
  * The gates the published-names ledger needs — no current name equals
  * another entry's former name, and each former name appears on
@@ -85,21 +102,32 @@ function nameOf(entry: Pick<TruthEntry, 'headword'>): string {
  * `formerNames` is in the schema and absent from every entry until
  * then. */
 function nameCollisions(
-	entries: ReadonlyArray<Pick<TruthEntry, 'headword' | 'id'>>,
-): string[] {
+	entries: readonly Pick<TruthEntry, 'headword' | 'id'>[],
+): NameProblem[] {
 	const owners = new Map<string, string>();
-	const lines: string[] = [];
+	const problems: NameProblem[] = [];
 	for (const entry of entries) {
 		const name = nameOf(entry);
 		const key = nameKey(name);
+		if (key === '') {
+			problems.push({
+				line: `${entry.id}: name is empty from ${JSON.stringify(entry.headword.text)}`,
+				rid: entry.id,
+			});
+			continue;
+		}
 		const owner = owners.get(key);
 		if (owner === undefined) {
 			owners.set(key, entry.id);
 		} else {
-			lines.push(`${entry.id}: name ${name} taken by ${owner}`);
+			problems.push({
+				line: `${entry.id}: name ${name} taken by ${owner}`,
+				rid: entry.id,
+			});
 		}
 	}
-	return lines;
+	return problems;
 }
 
+export type { NameProblem };
 export { deriveName, nameCollisions, nameKey, nameOf };

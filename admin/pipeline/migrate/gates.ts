@@ -254,9 +254,12 @@ function checkChain(
  * over the inputs they were built from — the artefact is what a
  * reader and the route map will read.
  *
- * - **unique** is the `name-collision` failure of spec §7, compared
- *   in NFC (`names.ts`). A correction that makes two current names
- *   equal fails here and the editor adds a disambiguator (§4).
+ * - **addressable** is the `name-collision` failure of spec §7,
+ *   compared in NFC (`names.ts`): the name is not already another
+ *   entry's, and it is not empty. A correction that makes two current
+ *   names equal fails here and the editor adds a disambiguator (§4);
+ *   a headword that is all notation strips to nothing, collides with
+ *   nobody, and would otherwise be reachable by no URL at all.
  * - **verbatim** compares the written `sefariaHeadword` against the
  *   source snapshot line for the same rid. It lives on the import
  *   path alone because per-PR CI never reads `data/source/` (R9).
@@ -273,12 +276,7 @@ function checkNames(
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const collided = new Map(
-		nameCollisions(truths).map((line) => [
-			line.slice(0, line.indexOf(':')),
-			line,
-		]),
-	);
+	const collided = new Map(nameCollisions(truths).map((p) => [p.rid, p.line]));
 	for (const truth of truths) {
 		const collision = collided.get(truth.id);
 		mark(t, collision === undefined, collision ?? '');

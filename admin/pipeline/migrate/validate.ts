@@ -228,7 +228,7 @@ function checkFiles(
  * `checkFiles` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
 function checkNames(entries: readonly TruthEntry[], problems: string[]): void {
-	problems.push(...nameCollisions(entries));
+	problems.push(...nameCollisions(entries).map((p) => p.line));
 }
 
 /** `sefariaHeadword` is unique across the tree (URL names spec §5.2,

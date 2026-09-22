@@ -7,6 +7,11 @@ import { describe, expect, it } from 'bun:test';
 import { deriveName, nameCollisions, nameKey, nameOf } from './names.ts';
 import type { FormObject, TruthEntry } from './types.ts';
 
+/** The `line` of each problem, in order — what every caller renders. */
+function lines(problems: ReadonlyArray<{ line: string }>): string[] {
+	return problems.map((p) => p.line);
+}
+
 /** `[what it shows, form, name]`. One-line tuples rather than object
  * literals: Sonar's duplication gate fails on a table of near-identical
  * objects. */
@@ -93,16 +98,38 @@ describe('nameCollisions', () => {
 		).toEqual([]);
 	});
 
+	it('carries the rid as a field, not as a prefix of the line', () => {
+		// Gate 7 marks per rid. Recovering the rid by slicing the prose
+		// would make every mark miss the day the message gains a prefix,
+		// and the gate would pass 2n/2n with collisions in place.
+		const [problem] = nameCollisions([
+			at('A00001', { text: 'אב' }),
+			at('A00002', { text: 'אב' }),
+		]);
+		expect(problem?.rid).toBe('A00002');
+	});
+
+	it('reports a name that strips to nothing', () => {
+		// Uniqueness cannot see this: one entry whose text is all
+		// notation collides with nobody and would end up reachable by no
+		// URL at all.
+		expect(lines(nameCollisions([at('A00001', { text: '(?)' })]))).toEqual([
+			'A00001: name is empty from "(?)"',
+		]);
+	});
+
 	it('names the LATER entry and the owner, in the order given', () => {
 		// Which side is reported matters: the first entry in rid order
 		// keeps the name, and the row tells the editor which entry needs
 		// the disambiguator (spec §4).
 		expect(
-			nameCollisions([
-				at('A00001', { text: 'אב' }),
-				at('A00002', { text: 'אב' }),
-				at('A00003', { text: 'אב' }),
-			]),
+			lines(
+				nameCollisions([
+					at('A00001', { text: 'אב' }),
+					at('A00002', { text: 'אב' }),
+					at('A00003', { text: 'אב' }),
+				]),
+			),
 		).toEqual([
 			'A00002: name אב taken by A00001',
 			'A00003: name אב taken by A00001',
@@ -111,10 +138,12 @@ describe('nameCollisions', () => {
 
 	it('catches a pair that collides only after the notation is stripped', () => {
 		expect(
-			nameCollisions([
-				at('A00001', { text: 'אב' }),
-				at('A00002', { text: '(אב)' }),
-			]),
+			lines(
+				nameCollisions([
+					at('A00001', { text: 'אב' }),
+					at('A00002', { text: '(אב)' }),
+				]),
+			),
 		).toEqual(['A00002: name אב taken by A00001']);
 	});
 
