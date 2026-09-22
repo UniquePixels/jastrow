@@ -53,7 +53,7 @@ import {
 	createRuleCounter,
 	isGreen,
 	lineRow,
-	REPORT_PATH,
+	MIGRATION_REPORT_PATH,
 	type Report,
 	type RuleCounter,
 	renderBlessing,
@@ -75,11 +75,11 @@ import {
 	stalePins,
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
+import { ENTRIES_DIR as OUT_DIR } from './paths.ts';
 import entrySchema from './schema/entry.schema.json' with { type: 'json' };
 import { RULES } from './transform/registry.ts';
 import type { BodyEntry, SourceEntry } from './types.ts';
 
-const OUT_DIR = 'data/entries';
 const SAMPLE_COUNT = 40;
 
 /** `repairs.ts` pass names (`PassName`), counted as rules alongside
@@ -559,7 +559,7 @@ function printGates(report: Report): void {
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(
-		`report written to ${REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}`,
+		`report written to ${MIGRATION_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}`,
 	);
 }
 

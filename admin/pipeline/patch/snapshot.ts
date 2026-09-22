@@ -16,6 +16,7 @@
 import { createHash } from 'node:crypto';
 import process from 'node:process';
 import { sha256 } from '../lib.ts';
+import { LOCK_PATH, SNAPSHOT_FILES } from '../paths.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
@@ -23,23 +24,19 @@ const LOCK_COMBINED_LINE = /^sha256:(?<hex>[0-9a-f]{64})$/u;
 const LOCK_FILE_LINE = /^(?<path>\S+) sha256:(?<hex>[0-9a-f]{64})$/u;
 
 /**
- * The decoded snapshot: exactly what `data:fetch` emits from the
- * Sefaria dump, in fixed (alphabetical) order. `manifest.json` is
- * provenance about the fetch, `edit-replay.jsonl` is admin-tool
- * history, and `*-report.json` files are pipeline output — none of
- * them are snapshot content, so none of them are hashed.
+ * `SNAPSHOT_FILES` (`paths.ts`) is the decoded snapshot: exactly what
+ * `data:fetch` emits from the Sefaria dump, in fixed (alphabetical)
+ * order. `manifest.json` is provenance about the fetch,
+ * `edit-replay.jsonl` is admin-tool history, and `*-report.json`
+ * files are pipeline output — none of them are snapshot content, so
+ * none of them are hashed.
+ *
+ * `LOCK_PATH` (`paths.ts`) is where the committed pin lives. One fixed
+ * path, not an option: the value every patch record pins itself to
+ * has to be the same one for everybody, so `--write` writes here and
+ * verification reads here. `verifySnapshot` takes a `lockPath`
+ * parameter, but it defaults here and no caller overrides it.
  */
-const SNAPSHOT_FILES = [
-	'data/source/jastrow-dictionary.jsonl',
-	'data/source/lexicons.json',
-] as const;
-
-/** Where the committed pin lives. One fixed path, not an option: the
- * value every patch record pins itself to has to be the same one for
- * everybody, so `--write` writes here and verification reads here.
- * `verifySnapshot` takes a `lockPath` parameter, but it defaults here
- * and no caller overrides it. */
-const LOCK_PATH = 'data/patches/snapshot.lock';
 
 /** One hashed snapshot file. */
 interface FileHash {

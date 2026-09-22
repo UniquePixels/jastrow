@@ -3,14 +3,16 @@
  * entries, ~41 MB). Every later body-model module reads entries through
  * this instead of loading the file into memory.
  */
+import { SOURCE_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 
 /** The corpus file the body model reads — the 32,512-entry source
  * JSONL this module's header describes. It is `readSourceEntries`'s
  * default argument rather than a literal buried inside it, so a test
  * or a fixture can stream a smaller file through exactly the same
- * decoding, line-splitting and parsing path. */
-const SOURCE_PATH = 'data/source/jastrow-dictionary.jsonl';
+ * decoding, line-splitting and parsing path. Re-exported below under
+ * its own name (imported from `paths.ts`) so `test-tiers.test.ts`'s
+ * identifier match keeps working. */
 
 /** Parse one JSONL line into a `SourceEntry`. */
 function parseSourceEntry(line: string): SourceEntry {

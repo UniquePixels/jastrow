@@ -4,19 +4,20 @@
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
+import { PATTERNS_PATH, REVIEW_REPORT_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { actionOf } from './publication.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
 
-/** Where the run writes the rendered report. The document is
- * committed, so the `blocks` count moves as a reviewable diff rather
- * than only as console output of a run nobody kept. */
-const REVIEW_REPORT_PATH = 'docs/v2/review-report.md';
-/** The class catalogue the last section is read from.
- * `loadUndetectedClasses` takes it as a default argument rather than
- * reaching for the constant, so a test can hand it a fixture
- * instead. */
-const PATTERNS_PATH = 'data/patches/patterns.jsonl';
+/** `REVIEW_REPORT_PATH` (`paths.ts`) is where the run writes the
+ * rendered report. The document is committed, so the `blocks` count
+ * moves as a reviewable diff rather than only as console output of a
+ * run nobody kept.
+ *
+ * `PATTERNS_PATH` (`paths.ts`) is the class catalogue the last
+ * section is read from. `loadUndetectedClasses` takes it as a default
+ * argument rather than reaching for the constant, so a test can hand
+ * it a fixture instead. */
 const CATALOGUED_TITLE = 'Catalogued, not yet detected';
 
 const SECTIONS: ReadonlyArray<readonly [Publication, string]> = [

@@ -1,22 +1,23 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the report shape and its two renderings; splitting them lets a field drift from the document that shows it.
 /** The migration report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 import type { DriftOutcome } from '../patch/drift.ts';
+import { BLESSING_PATH, MIGRATION_REPORT_PATH } from '../paths.ts';
 import type { QuarantineRow, Unresolved } from './cite.ts';
 import { tally } from './gates.ts';
 import { isHeadwordReviewKind } from './headwords.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
-/** Where the run writes its machine-readable report. Under
- * `data/source/` because it describes one import of that snapshot, not
- * the dictionary: it is regenerated wholesale every run and nothing
- * downstream may treat it as entry data. */
-const REPORT_PATH = 'data/source/migration-report.json';
-
-/** The evidence document the maintainer reads and blesses (migrate
- * spec §4.2). The report is the machine's account of a run; this is
- * the human-facing one, and the two are generated together so a
- * blessing can never be given against numbers that have moved. */
-const BLESSING_PATH = 'docs/v2/migration-blessing.md';
+/** `MIGRATION_REPORT_PATH` (`paths.ts`) is where the run writes its
+ * machine-readable report. Under `data/source/` because it describes
+ * one import of that snapshot, not the dictionary: it is regenerated
+ * wholesale every run and nothing downstream may treat it as entry
+ * data.
+ *
+ * `BLESSING_PATH` (`paths.ts`) is the evidence document the maintainer
+ * reads and blesses (migrate spec §4.2). The report is the machine's
+ * account of a run; this is the human-facing one, and the two are
+ * generated together so a blessing can never be given against numbers
+ * that have moved. */
 
 /** The nine blessing gates, in report order (migrate spec §4.1). The
  * list is the single definition: `GateName` derives from it, and
@@ -266,7 +267,10 @@ function isGreen(report: Report): boolean {
 }
 
 /** Write the report as tab-indented JSON with a trailing newline. */
-async function writeReport(report: Report, path = REPORT_PATH): Promise<void> {
+async function writeReport(
+	report: Report,
+	path = MIGRATION_REPORT_PATH,
+): Promise<void> {
 	await Bun.write(path, `${JSON.stringify(report, null, '\t')}\n`);
 }
 
@@ -439,7 +443,7 @@ export {
 	GATE_NAMES,
 	isGreen,
 	lineRow,
-	REPORT_PATH,
+	MIGRATION_REPORT_PATH,
 	renderBlessing,
 	writeReport,
 };

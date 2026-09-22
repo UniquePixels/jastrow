@@ -8,14 +8,13 @@
  * `truth.test.ts` runs them over the committed tree in `bun qa:test`.
  */
 import Ajv2020 from 'ajv/dist/2020';
+import { ENTRIES_DIR as TRUTH_DIR } from '../paths.ts';
 import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
 import { tokenize } from '../transform/html.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
 import type { TruthEntry, TruthSense } from './types.ts';
-
-const TRUTH_DIR = 'data/entries';
 
 /** The truth markup vocabulary (migrate spec §2.2): `markup.ts` keeps
  * four source tags and translates the other two into `he` and `cite`. */

@@ -12,12 +12,12 @@
  * only: nothing stored is ever normalized, so gate 2's byte-exact
  * headword regeneration sees the source spelling untouched.
  */
+import { QUARANTINE_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import type { RefResolver } from './markup.ts';
 
 const INTERNAL_PREFIX = 'Jastrow,_';
 const SENSE_SUFFIX = /\.\d+$/u;
-const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
 
 /** One internal `<cite ref>` target that no entry owns, with the rid
  * it was met in. The target is the spelling the href actually carried:

@@ -16,11 +16,11 @@
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
 import { bsonDocuments, ChunkReader, extractTargets, sha256 } from './lib.ts';
+import { SOURCE_DIR as OUT_DIR } from './paths.ts';
 
 const DUMP_URL =
 	'https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz';
 const CACHE_DIR = '.cache/sefaria';
-const OUT_DIR = 'data/source';
 
 /** Tar members to capture, and where each is cached. */
 const TARGETS = new Map([
