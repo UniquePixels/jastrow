@@ -12,6 +12,11 @@ Some of these faults may originate in the digitization that preceded
 Sefaria's import rather than the import itself; they are in the
 served data either way.
 
+**This document is hand-maintained.** No rule, patch or report row
+feeds a line of it, and no run regenerates it (maintainer's ruling,
+2026-09-22); a generator is post-go-live work under
+[#124](https://github.com/UniquePixels/jastrow/issues/124).
+
 ---
 
 ## 1. Three headwords read ך where the print has ד
@@ -439,6 +444,36 @@ form, because those are on Unicode's composition-exclusion list.
 
 **Detection:** for every string in the record, compare it with its own
 NFC form; any inequality is an instance.
+
+---
+
+## 18. ר read for ד inside quoted text (`ורע` for `ודע`)
+
+**Entries:** `U00311` (confirmed); the class is not yet counted
+corpus-wide.
+
+Distinct from §1, which is ר/ד's neighbour ך/ד in a HEADWORD. This is
+the ר/ד pair inside a definition's quoted Hebrew, where neither the
+headword nor the `prev_hw`/`next_hw` chain can witness the error.
+
+U00311's definition quotes Avot 2:14 as `ורע מה`. Avot 2:14 reads
+`וְדַע מַה`, and Jastrow's own gloss for the quoted word is "know" —
+`ודע`, not `ורע`. The two letters differ by the length of one stroke
+and are a standard OCR confusion in this typeface, so the class is
+very unlikely to be one entry; it is listed here with the one
+confirmed instance rather than an estimate.
+
+**Fix:**
+
+```diff
+- "definition": "… ורע מה …"
++ "definition": "… ודע מה …"
+```
+
+**Detection:** no reliable purely-textual predicate — ר and ד are both
+real letters and both spellings are well-formed Hebrew. The instance
+above was found by reading a quotation against its cited source, which
+is how we expect the rest of the class to surface.
 
 ---
 

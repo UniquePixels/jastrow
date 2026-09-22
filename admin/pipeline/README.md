@@ -17,8 +17,8 @@ which supersedes the one-shot framing of D14 in the
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Import (source data → entry data) | `migrate.ts` | working, last run 2026-09-22 | on demand, re-runnable |
-| Compile (entry data → compiled data) | `compile.ts` | designed, not built | every deploy |
+| Import (source data → entry data) | `migrate.ts` | working; complete as of 2026-09-22, last run the same day | on demand, re-runnable |
+| Compile (entry data → compiled data) | `compile.ts` | designed, **not built — next** | every deploy |
 
 Import and compile are specified in the
 [data architecture spec](../../docs/specs/2026-07-08-v2-data-architecture-design.md)
@@ -45,8 +45,34 @@ original sketch it was derived from was archived 2026-09-21 as
 | `data/patches/` | per-entry judgments | yes | admin tool appends |
 | `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 
+### Running it
+
+Tool versions are pinned in `.mise.toml` (Bun 1.3.14, Biome 2.5.2);
+with [mise](https://mise.jdx.dev) installed, `mise install` then
+`bun install` is the whole setup.
+
 The normal run is `data:fetch` then `data:import`: pull the current
 export, process it, read the report.
+
+`data:import` is **dry by default** and writes no entry data. Every
+run produces three documents, dry or not:
+
+| Document | What it is |
+|---|---|
+| `data/source/migration-report.json` | the machine-readable report (gitignored) |
+| [`docs/v2/migration-blessing.md`](../../docs/v2/migration-blessing.md) | the evidence a person reads before accepting a run |
+| [`docs/v2/review-report.md`](../../docs/v2/review-report.md) | one row per item a person must judge |
+
+Two flags change what a run will refuse:
+
+- `--write` writes `data/entries/`, and refuses unless that directory
+  is **empty**. The guard stands in for the update run (consolidation
+  spec §3.2): until its three-way merge exists, a second write over a
+  populated tree would overwrite hand edits blindly. R11 calls the
+  guard a relic of the withdrawn D14 rather than a safety property,
+  and retires it with that merge.
+- `--strict` promotes a stale snapshot pin and a drifted patch
+  precondition from report rows to refusals (§4.2).
 
 ## Stage 1 — Source acquisition (`fetch.ts`)
 
@@ -116,9 +142,12 @@ print-locator (`page`/`column`) enrichment — read from the hOCR page
 index (`data/page-index/entries.jsonl`, all 32,512 entries). Its code
 is one of three buckets — rules (detect + fix, general), patches
 (one entry's judged fix, applied when its precondition holds), or
-review detectors (detect only, emit a row) — per the
+review detectors (detect only, emit a row, repair nothing) — per the
 [pipeline consolidation design](../../docs/specs/2026-09-13-pipeline-consolidation-design.md)
-§4. Gated by the nine blessing gates of the
+§4. The catalogued classes' detectors live in `migrate/detectors/`,
+registered in `detectors/classes.ts` and run on the FINISHED entry: a
+predicate written against the snapshot would measure zero once the
+transforms have run. Gated by the nine blessing gates of the
 [migrate spec](../../docs/specs/2026-09-06-migrate-design.md) §4.1 —
 round-trips, text conservation, schema, chain agreement, internal
 targets, names, pages, composition; a red gate refuses to write.
@@ -142,13 +171,20 @@ rather than drift-classified. A stale snapshot pin is a count, not a
 refusal; `bun data:import --strict` refuses on a stale pin or a
 drifted patch.
 
+**Hebrew and NFC.** Every comparison — a name's uniqueness, a headword
+lookup, the duplicate-form check — normalizes to NFC first, because
+combining-mark order varies in the source and a byte-exact match on
+Hebrew is a bug.
+
 The write step is also the one place stored text is rewritten:
 `normalizeForWrite` puts every string of an entry file into NFC
 ([#110](https://github.com/UniquePixels/jastrow/issues/110)), under an
 assertion that `NFD(before) == NFD(after)`, so a normalization that
 would not be lossless refuses the write instead. It runs after the
 gates have read the in-memory entries, and `data/source/` is never
-touched.
+touched — the snapshot still holds the 201 non-NFC strings
+[sefaria-report §17](../../docs/v2/sefaria-report.md) reports upstream,
+because that file records what Sefaria serves, not what we store.
 
 **Last run 2026-09-22 with all nine gates green**, `--write`: the
 batched rewrite of all 32,512 files to schema v2 (HW-schema). It is

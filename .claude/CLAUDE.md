@@ -9,6 +9,10 @@ This branch (`v2`) is the overhaul, and what exists on it is the data
 pipeline under `admin/pipeline/`. **Neither the public app nor the
 admin tool has been written for v2 yet** — `app/` is a placeholder.
 
+**The pipeline is complete as of 2026-09-22** (#116–#131). `compile.ts`,
+the admin tool and the app are the next efforts, and each is separate
+work — a change to one is not a change to the pipeline.
+
 Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 
 ## Tech Stack
