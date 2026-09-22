@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02645",
-	"slug": "אפורטין",
-	"headword": {
-		"text": "אפורטין"
-	},
+	"sefariaHeadword": "אפורטין",
+	"headwords": [
+		{
+			"text": "אפורטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 101,
 		"column": "b"

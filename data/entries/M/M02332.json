@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02332",
-	"slug": "מצלת",
-	"headword": {
-		"text": "מִצְלַת"
-	},
+	"sefariaHeadword": "מִצְלַת",
+	"headwords": [
+		{
+			"text": "מִצְלַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "b"

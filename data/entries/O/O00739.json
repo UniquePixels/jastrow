@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00739",
-	"slug": "סינים-2",
-	"headword": {
-		"text": "סִינִּים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִינִּים",
+	"headwords": [
+		{
+			"text": "סִינִּים"
+		},
 		{
 			"text": "סִינִּין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 983,
 		"column": "a"

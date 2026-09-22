@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00285",
-	"slug": "סוטדא",
-	"headword": {
-		"text": "סוּטְדָא"
-	},
+	"sefariaHeadword": "סוּטְדָא",
+	"headwords": [
+		{
+			"text": "סוּטְדָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 963,
 		"column": "a"

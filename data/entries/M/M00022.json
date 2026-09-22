@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00022",
-	"slug": "מאחוי",
-	"headword": {
-		"text": "מָאחוּי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*מָאחוּי",
+	"headwords": [
+		{
+			"text": "מָאחוּי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 722,
 		"column": "a"

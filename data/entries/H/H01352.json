@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H01352",
-	"slug": "חסוך-1",
-	"headword": {
-		"text": "חֲסוֹךְ",
-		"homograph": 1
-	},
+	"sefariaHeadword": "חֲסוֹךְ I",
+	"headwords": [
+		{
+			"text": "חֲסוֹךְ",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 486,
 		"column": "b"

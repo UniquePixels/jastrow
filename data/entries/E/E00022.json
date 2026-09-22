@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00022",
-	"slug": "הארה",
-	"headword": {
-		"text": "הֲאָרָה"
-	},
+	"sefariaHeadword": "הֲאָרָה",
+	"headwords": [
+		{
+			"text": "הֲאָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 328,
 		"column": "b"

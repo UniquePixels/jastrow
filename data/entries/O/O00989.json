@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00989",
-	"slug": "סלילה",
-	"headword": {
-		"text": "סְלִילָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְלִילָה",
+	"headwords": [
 		{
-			"text": "סְלוּ׳"
+			"text": "סְלִילָה"
+		},
+		{
+			"text": "סְלוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 994,
 		"column": "b"

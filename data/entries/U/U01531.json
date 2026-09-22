@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "U01531",
-	"slug": "שמרון-2",
-	"headword": {
-		"text": "שֹׁמְרוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שֹׁמְרוֹן",
+	"headwords": [
 		{
-			"text": "שׁוֹ׳"
+			"text": "שֹׁמְרוֹן"
+		},
+		{
+			"text": "שׁוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1601,
 		"column": "a"

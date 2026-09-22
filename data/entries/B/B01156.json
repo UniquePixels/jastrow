@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01156",
-	"slug": "בר-5",
-	"headword": {
-		"text": "בַּר",
-		"homograph": 4
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בַּר IV",
+	"headwords": [
+		{
+			"text": "בַּר",
+			"homograph": 4
+		},
 		{
 			"text": "בָּר"
 		}
 	],
+	"display": "{0} IV, {1}",
 	"page": {
 		"number": 189,
 		"column": "a"

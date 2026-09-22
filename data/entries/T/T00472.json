@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00472",
-	"slug": "רח",
-	"headword": {
-		"text": "רח"
-	},
+	"sefariaHeadword": "רח",
+	"headwords": [
+		{
+			"text": "רח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1465,
 		"column": "a"

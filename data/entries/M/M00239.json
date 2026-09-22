@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00239",
-	"slug": "מדבק",
-	"headword": {
-		"text": "מַדְבַּק"
-	},
+	"sefariaHeadword": "מַדְבַּק",
+	"headwords": [
+		{
+			"text": "מַדְבַּק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 731,
 		"column": "a"

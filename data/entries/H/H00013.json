@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00013",
-	"slug": "חבב-2",
-	"headword": {
-		"text": "חֲבַב"
-	},
+	"sefariaHeadword": "חֲבַב",
+	"headwords": [
+		{
+			"text": "חֲבַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 416,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00933",
-	"slug": "גליא-3",
-	"headword": {
-		"text": "גַּלַּיָּא"
-	},
+	"sefariaHeadword": "גַּלַּיָּא",
+	"headwords": [
+		{
+			"text": "גַּלַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 248,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00393",
-	"slug": "טינון",
-	"headword": {
-		"text": "טינון"
-	},
+	"sefariaHeadword": "טינון",
+	"headwords": [
+		{
+			"text": "טינון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 532,
 		"column": "b"

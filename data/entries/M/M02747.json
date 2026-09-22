@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02747",
-	"slug": "מרפיס",
-	"headword": {
-		"text": "מרפיס"
-	},
+	"sefariaHeadword": "מרפיס",
+	"headwords": [
+		{
+			"text": "מרפיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 846,
 		"column": "a"

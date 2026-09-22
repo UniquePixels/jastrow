@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01997",
-	"slug": "מספרתא",
-	"headword": {
-		"text": "מַסְפַּרְתָּא"
-	},
+	"sefariaHeadword": "מַסְפַּרְתָּא",
+	"headwords": [
+		{
+			"text": "מַסְפַּרְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 810,
 		"column": "b"

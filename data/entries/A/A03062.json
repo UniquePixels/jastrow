@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03062",
-	"slug": "ארח-2",
-	"headword": {
-		"text": "אֲרַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲרַח",
+	"headwords": [
+		{
+			"text": "אֲרַח"
+		},
 		{
 			"text": "אָרַח"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 118,
 		"column": "a"

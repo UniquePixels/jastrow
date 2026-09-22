@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01520",
-	"slug": "חציבא-2",
-	"headword": {
-		"text": "חציבא"
-	},
+	"sefariaHeadword": "חציבא",
+	"headwords": [
+		{
+			"text": "חציבא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 495,
 		"column": "a"

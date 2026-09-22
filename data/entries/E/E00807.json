@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00807",
-	"slug": "הקשה",
-	"headword": {
-		"text": "הַקָּשָׁה"
-	},
+	"sefariaHeadword": "הַקָּשָׁה",
+	"headwords": [
+		{
+			"text": "הַקָּשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 365,
 		"column": "a"

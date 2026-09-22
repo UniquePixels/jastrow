@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M03011",
-	"slug": "מתברא-1",
-	"headword": {
-		"text": "מַתְבְּרָא"
-	},
+	"sefariaHeadword": "מַתְבְּרָא",
+	"headwords": [
+		{
+			"text": "מַתְבְּרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 860,
 		"column": "a"

@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "S00922",
-	"slug": "קיטרא",
-	"headword": {
-		"text": "קִיטְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִיטְרָא",
+	"headwords": [
 		{
-			"text": "קוּטְ׳"
+			"text": "קִיטְרָא"
 		},
 		{
-			"text": "קִטְ׳"
+			"text": "קוּטְ׳",
+			"partial": true
+		},
+		{
+			"text": "קִטְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1358,
 		"column": "b"

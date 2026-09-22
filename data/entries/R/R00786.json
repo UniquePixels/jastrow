@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00786",
-	"slug": "צרירא",
-	"headword": {
-		"text": "צְרִירָא"
-	},
+	"sefariaHeadword": "צְרִירָא",
+	"headwords": [
+		{
+			"text": "צְרִירָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1302,
 		"column": "b"

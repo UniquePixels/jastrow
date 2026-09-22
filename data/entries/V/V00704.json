@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "V00704",
-	"slug": "תמר-2",
-	"headword": {
-		"text": "תָּמָר",
-		"homograph": 1
-	},
+	"sefariaHeadword": "תָּמָר I",
+	"headwords": [
+		{
+			"text": "תָּמָר",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1678,
 		"column": "b"

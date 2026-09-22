@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00607",
-	"slug": "שזרא",
-	"headword": {
-		"text": "שֵׁזְרָא"
-	},
+	"sefariaHeadword": "שֵׁזְרָא",
+	"headwords": [
+		{
+			"text": "שֵׁזְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

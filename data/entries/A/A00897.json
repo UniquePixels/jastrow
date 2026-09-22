@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00897",
-	"slug": "אוריכות",
-	"headword": {
-		"text": "אוריכות"
-	},
+	"sefariaHeadword": "אוריכות",
+	"headwords": [
+		{
+			"text": "אוריכות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "b"

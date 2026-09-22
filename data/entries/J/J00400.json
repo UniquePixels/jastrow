@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00400",
-	"slug": "ילק",
-	"headword": {
-		"text": "יֶלֶק"
-	},
+	"sefariaHeadword": "יֶלֶק",
+	"headwords": [
+		{
+			"text": "יֶלֶק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 579,
 		"column": "b"

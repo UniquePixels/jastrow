@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "V00320",
-	"slug": "תורתא-1",
-	"headword": {
-		"text": "תּוֹרְתָּא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹרְתָּא",
+	"headwords": [
+		{
+			"text": "תּוֹרְתָּא"
+		},
 		{
 			"text": "תּוֹרְתָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1658,
 		"column": "b"

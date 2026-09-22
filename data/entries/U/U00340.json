@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00340",
-	"slug": "שוה-4",
-	"headword": {
-		"text": "שְׁוַהּ"
-	},
+	"sefariaHeadword": "שְׁוַהּ",
+	"headwords": [
+		{
+			"text": "שְׁוַהּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1529,
 		"column": "b"

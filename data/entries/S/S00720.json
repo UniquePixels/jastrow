@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00720",
-	"slug": "קטוע-2",
-	"headword": {
-		"text": "קְטוֹעַ"
-	},
+	"sefariaHeadword": "קְטוֹעַ",
+	"headwords": [
+		{
+			"text": "קְטוֹעַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1346,
 		"column": "b"

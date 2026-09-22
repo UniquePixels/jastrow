@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01400",
-	"slug": "גרריקו",
-	"headword": {
-		"text": "גרריקו"
-	},
+	"sefariaHeadword": "גרריקו",
+	"headwords": [
+		{
+			"text": "גרריקו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 273,
 		"column": "a"

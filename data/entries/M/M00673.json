@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00673",
-	"slug": "מורר",
-	"headword": {
-		"text": "מוֹרֵר"
-	},
+	"sefariaHeadword": "מוֹרֵר",
+	"headwords": [
+		{
+			"text": "מוֹרֵר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

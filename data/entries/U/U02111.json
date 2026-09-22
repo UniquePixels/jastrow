@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02111",
-	"slug": "שתיקות",
-	"headword": {
-		"text": "שְׁתִיקוּת"
-	},
+	"sefariaHeadword": "שְׁתִיקוּת",
+	"headwords": [
+		{
+			"text": "שְׁתִיקוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1638,
 		"column": "a"

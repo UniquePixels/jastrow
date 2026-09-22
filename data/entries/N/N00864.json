@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00864",
-	"slug": "נמורי",
-	"headword": {
-		"text": "נְמוֹרֵי"
-	},
+	"sefariaHeadword": "נְמוֹרֵי",
+	"headwords": [
+		{
+			"text": "נְמוֹרֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 913,
 		"column": "a"

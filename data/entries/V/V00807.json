@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00807",
-	"slug": "תפות",
-	"headword": {
-		"text": "תָּפוּת"
-	},
+	"sefariaHeadword": "תָּפוּת",
+	"headwords": [
+		{
+			"text": "תָּפוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1685,
 		"column": "b"

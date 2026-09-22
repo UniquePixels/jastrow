@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00645",
-	"slug": "שחיטה",
-	"headword": {
-		"text": "שְׁחִיטָה"
-	},
+	"sefariaHeadword": "שְׁחִיטָה",
+	"headwords": [
+		{
+			"text": "שְׁחִיטָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1547,
 		"column": "b"

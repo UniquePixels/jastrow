@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01406",
-	"slug": "קלפונין",
-	"headword": {
-		"text": "קַלְפּוֹנִין"
-	},
+	"sefariaHeadword": "קַלְפּוֹנִין",
+	"headwords": [
+		{
+			"text": "קַלְפּוֹנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01819",
-	"slug": "פריע-2",
-	"headword": {
-		"text": "פְּרִיעַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "פְּרִיעַ II",
+	"headwords": [
+		{
+			"text": "פְּרִיעַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1227,
 		"column": "a"

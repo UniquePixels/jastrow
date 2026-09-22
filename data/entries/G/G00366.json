@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00366",
-	"slug": "זימי",
-	"headword": {
-		"text": "זימי"
-	},
+	"sefariaHeadword": "זימי",
+	"headwords": [
+		{
+			"text": "זימי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 394,
 		"column": "b"

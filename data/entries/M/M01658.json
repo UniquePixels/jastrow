@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01658",
-	"slug": "ממזיר",
-	"headword": {
-		"text": "מַמְזֵיר־"
-	},
+	"sefariaHeadword": "מַמְזֵיר־",
+	"headwords": [
+		{
+			"text": "מַמְזֵיר־"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 794,
 		"column": "b"

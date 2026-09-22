@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00873",
-	"slug": "חירום",
-	"headword": {
-		"text": "חֵירוּם"
-	},
+	"sefariaHeadword": "חֵירוּם",
+	"headwords": [
+		{
+			"text": "חֵירוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "a"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00803",
-	"slug": "פיקוח",
-	"headword": {
-		"text": "פִּיקּוּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּיקּוּחַ",
+	"headwords": [
 		{
-			"text": "פִּקּ׳"
+			"text": "פִּיקּוּחַ"
+		},
+		{
+			"text": "פִּקּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1169,
 		"column": "b"

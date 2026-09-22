@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01925",
-	"slug": "קרוב-1",
-	"headword": {
-		"text": "קֵרוּב"
-	},
+	"sefariaHeadword": "קֵרוּב",
+	"headwords": [
+		{
+			"text": "קֵרוּב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1413,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00617",
-	"slug": "בילון",
-	"headword": {
-		"text": "בִּילוֹן"
-	},
+	"sefariaHeadword": "בִּילוֹן",
+	"headwords": [
+		{
+			"text": "בִּילוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

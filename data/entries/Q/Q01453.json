@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01453",
-	"slug": "פקדתא",
-	"headword": {
-		"text": "פְּקַדְתָּא"
-	},
+	"sefariaHeadword": "פְּקַדְתָּא",
+	"headwords": [
+		{
+			"text": "פְּקַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1207,
 		"column": "b"

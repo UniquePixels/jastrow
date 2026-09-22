@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02721",
-	"slug": "אפיקרסות",
-	"headword": {
-		"text": "אַפִּיקַרְסוּת"
-	},
+	"sefariaHeadword": "אַפִּיקַרְסוּת",
+	"headwords": [
+		{
+			"text": "אַפִּיקַרְסוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 104,
 		"column": "b"

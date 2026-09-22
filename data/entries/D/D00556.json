@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00556",
-	"slug": "דייטא",
-	"headword": {
-		"text": "דְּיֵיטָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּיֵיטָא",
+	"headwords": [
+		{
+			"text": "דְּיֵיטָא"
+		},
 		{
 			"text": "דְּיֵיטִי"
 		},
@@ -15,6 +16,7 @@
 			"text": "דִּיאֲטִי"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 298,
 		"column": "a"
@@ -24,7 +26,7 @@
 	},
 	"senses": [
 		{
-			"gloss": "f. (δίαιτα, diaeta) ",
+			"gloss": "f. (δίαιτα, diaeta) ",
 			"units": []
 		},
 		{

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02016",
-	"slug": "פרקת",
-	"headword": {
-		"text": "פִּרְקַת"
-	},
+	"sefariaHeadword": "פִּרְקַת",
+	"headwords": [
+		{
+			"text": "פִּרְקַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1241,
 		"column": "b"

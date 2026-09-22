@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01892",
-	"slug": "מסחפא",
-	"headword": {
-		"text": "מסחפא"
-	},
+	"sefariaHeadword": "מסחפא",
+	"headwords": [
+		{
+			"text": "מסחפא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 805,
 		"column": "b"

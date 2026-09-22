@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00794",
-	"slug": "צרעה",
-	"headword": {
-		"text": "צִרְעָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִרְעָה",
+	"headwords": [
 		{
-			"text": "צִי׳"
+			"text": "צִרְעָה"
+		},
+		{
+			"text": "צִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1303,
 		"column": "b"

@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00653",
-	"slug": "סיכרא-1",
-	"headword": {
-		"text": "סִיכְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִיכְרָא",
+	"headwords": [
+		{
+			"text": "סִיכְרָא"
+		},
 		{
 			"text": "סִכְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 979,
 		"column": "b"

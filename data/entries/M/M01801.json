@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01801",
-	"slug": "מנע-2",
-	"headword": {
-		"text": "מְנַע"
-	},
+	"sefariaHeadword": "מְנַע",
+	"headwords": [
+		{
+			"text": "מְנַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 802,
 		"column": "a"

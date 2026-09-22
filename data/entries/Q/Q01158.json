@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01158",
-	"slug": "פנדורה",
-	"headword": {
-		"text": "פַּנְדּוּרָה"
-	},
+	"sefariaHeadword": "פַּנְדּוּרָה",
+	"headwords": [
+		{
+			"text": "פַּנְדּוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1186,
 		"column": "b"

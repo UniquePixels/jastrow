@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01991",
-	"slug": "קרטובלא",
-	"headword": {
-		"text": "קַרְטוּבְלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קַרְטוּבְלָא",
+	"headwords": [
+		{
+			"text": "קַרְטוּבְלָא"
+		},
 		{
 			"text": "קַרְטַבְלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1416,
 		"column": "a"

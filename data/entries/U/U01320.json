@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01320",
-	"slug": "שליית",
-	"headword": {
-		"text": "שִׁלְיַית"
-	},
+	"sefariaHeadword": "שִׁלְיַית",
+	"headwords": [
+		{
+			"text": "שִׁלְיַית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1583,
 		"column": "b"

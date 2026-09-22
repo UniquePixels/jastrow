@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00731",
-	"slug": "סינוותא",
-	"headword": {
-		"text": "סִינְוָותָא"
-	},
+	"sefariaHeadword": "סִינְוָותָא",
+	"headwords": [
+		{
+			"text": "סִינְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 983,
 		"column": "a"

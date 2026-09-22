@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00464",
-	"slug": "תימיז",
-	"headword": {
-		"text": "תִּימִיז"
-	},
+	"sefariaHeadword": "תִּימִיז",
+	"headwords": [
+		{
+			"text": "תִּימִיז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

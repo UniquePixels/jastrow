@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "N01091",
-	"slug": "נץ-2",
-	"headword": {
-		"text": "נֵץ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נֵץ",
+	"headwords": [
+		{
+			"text": "נֵץ"
+		},
 		{
 			"text": "נֵיץ"
 		},
@@ -12,6 +13,7 @@
 			"text": "נִיצָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 927,
 		"column": "a"

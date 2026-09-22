@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "F00093",
-	"slug": "וריד",
-	"headword": {
-		"text": "וָרִיד"
-	},
+	"sefariaHeadword": "וָרִיד",
+	"headwords": [
+		{
+			"text": "וָרִיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 375,
 		"column": "b"

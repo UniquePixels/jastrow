@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03273",
-	"slug": "אשונא",
-	"headword": {
-		"text": "אָשׁוּנָא"
-	},
+	"sefariaHeadword": "אָשׁוּנָא",
+	"headwords": [
+		{
+			"text": "אָשׁוּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 127,
 		"column": "a"

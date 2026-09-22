@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00946",
-	"slug": "ענבות",
-	"headword": {
-		"text": "עִנְּבוּת"
-	},
+	"sefariaHeadword": "עִנְּבוּת",
+	"headwords": [
+		{
+			"text": "עִנְּבוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1091,
 		"column": "b"

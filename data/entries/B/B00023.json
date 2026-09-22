@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00023",
-	"slug": "באיין",
-	"headword": {
-		"text": "בָּאיָין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*בָּאיָין",
+	"headwords": [
+		{
+			"text": "בָּאיָין",
+			"reconstructed": true
+		},
 		{
 			"text": "בַּיָּין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 135,
 		"column": "a"

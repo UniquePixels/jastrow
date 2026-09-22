@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00005",
-	"slug": "חאסטו",
-	"headword": {
-		"text": "חאסטו"
-	},
+	"sefariaHeadword": "חאסטו",
+	"headwords": [
+		{
+			"text": "חאסטו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 415,
 		"column": "a"

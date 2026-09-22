@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00918",
-	"slug": "גלושותא",
-	"headword": {
-		"text": "גְּלוֹשׁוּתָא"
-	},
+	"sefariaHeadword": "גְּלוֹשׁוּתָא",
+	"headwords": [
+		{
+			"text": "גְּלוֹשׁוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 247,
 		"column": "a"

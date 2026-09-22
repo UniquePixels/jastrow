@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00114",
-	"slug": "יהב",
-	"headword": {
-		"text": "יְהַב"
-	},
+	"sefariaHeadword": "יְהַב",
+	"headwords": [
+		{
+			"text": "יְהַב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 565,
 		"column": "b"

@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00821",
-	"slug": "חינון",
-	"headword": {
-		"text": "חִינּוּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִינּוּן",
+	"headwords": [
 		{
-			"text": "חִנּ׳"
+			"text": "חִינּוּן"
+		},
+		{
+			"text": "חִנּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 458,
 		"column": "b"

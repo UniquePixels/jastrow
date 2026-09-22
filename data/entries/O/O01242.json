@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01242",
-	"slug": "סנירתא",
-	"headword": {
-		"text": "סנירתא"
-	},
+	"sefariaHeadword": "סנירתא",
+	"headwords": [
+		{
+			"text": "סנירתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1007,
 		"column": "b"

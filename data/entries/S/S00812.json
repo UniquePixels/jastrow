@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00812",
-	"slug": "קטף-3",
-	"headword": {
-		"text": "קְטָף"
-	},
+	"sefariaHeadword": "קְטָף",
+	"headwords": [
+		{
+			"text": "קְטָף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1352,
 		"column": "a"

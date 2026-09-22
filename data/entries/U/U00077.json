@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "U00077",
-	"slug": "שבולא",
-	"headword": {
-		"text": "שִׁבּוּלָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁבּוּלָא",
+	"headwords": [
+		{
+			"text": "שִׁבּוּלָא"
+		},
 		{
 			"text": "שִׁבּוֹלֶת"
 		},
@@ -12,6 +13,7 @@
 			"text": "שִׁבּוּלְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1510,
 		"column": "b"

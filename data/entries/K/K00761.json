@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00761",
-	"slug": "כללא",
-	"headword": {
-		"text": "כְּלָלָא"
-	},
+	"sefariaHeadword": "כְּלָלָא",
+	"headwords": [
+		{
+			"text": "כְּלָלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 644,
 		"column": "b"

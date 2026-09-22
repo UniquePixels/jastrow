@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00798",
-	"slug": "מחבוטא",
-	"headword": {
-		"text": "מַחֲבוֹטָא"
-	},
+	"sefariaHeadword": "מַחֲבוֹטָא",
+	"headwords": [
+		{
+			"text": "מַחֲבוֹטָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 757,
 		"column": "a"

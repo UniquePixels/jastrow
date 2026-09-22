@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00699",
-	"slug": "ישן-4",
-	"headword": {
-		"text": "יָשָׁן"
-	},
+	"sefariaHeadword": "יָשָׁן",
+	"headwords": [
+		{
+			"text": "יָשָׁן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 601,
 		"column": "a"

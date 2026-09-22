@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01383",
-	"slug": "פעל-1",
-	"headword": {
-		"text": "פָּעַל",
-		"homograph": 1
-	},
+	"sefariaHeadword": "פָּעַל I",
+	"headwords": [
+		{
+			"text": "פָּעַל",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1202,
 		"column": "b"

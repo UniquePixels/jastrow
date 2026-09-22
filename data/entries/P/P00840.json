@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00840",
-	"slug": "עלף-3",
-	"headword": {
-		"text": "עֲלַף"
-	},
+	"sefariaHeadword": "עֲלַף",
+	"headwords": [
+		{
+			"text": "עֲלַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1085,
 		"column": "b"

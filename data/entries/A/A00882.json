@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00882",
-	"slug": "אוריאן",
-	"headword": {
-		"text": "אוֹרְיָאן"
-	},
+	"sefariaHeadword": "אוֹרְיָאן",
+	"headwords": [
+		{
+			"text": "אוֹרְיָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 34,
 		"column": "a"

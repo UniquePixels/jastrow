@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00216",
-	"slug": "שגוש",
-	"headword": {
-		"text": "שִׁגּוּשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁגּוּשׁ",
+	"headwords": [
+		{
+			"text": "שִׁגּוּשׁ"
+		},
 		{
 			"text": "שִׁגּוּשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1521,
 		"column": "a"

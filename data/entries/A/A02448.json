@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02448",
-	"slug": "אסיתא",
-	"headword": {
-		"text": "אֲסִיתָא"
-	},
+	"sefariaHeadword": "אֲסִיתָא",
+	"headwords": [
+		{
+			"text": "אֲסִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 93,
 		"column": "b"

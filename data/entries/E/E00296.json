@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00296",
-	"slug": "הזייה",
-	"headword": {
-		"text": "הַזָּיָיה"
-	},
+	"sefariaHeadword": "הַזָּיָיה",
+	"headwords": [
+		{
+			"text": "הַזָּיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 342,
 		"column": "a"

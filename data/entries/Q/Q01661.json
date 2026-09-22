@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01661",
-	"slug": "פרוזדיקי",
-	"headword": {
-		"text": "פְּרוֹזְדִּיקִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרוֹזְדִּיקִי",
+	"headwords": [
+		{
+			"text": "פְּרוֹזְדִּיקִי"
+		},
 		{
 			"text": "פְּרוֹזְדָּק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1219,
 		"column": "a"

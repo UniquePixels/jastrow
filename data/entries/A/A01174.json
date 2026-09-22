@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01174",
-	"slug": "אידרי",
-	"headword": {
-		"text": "אִידְּרִי"
-	},
+	"sefariaHeadword": "אִידְּרִי",
+	"headwords": [
+		{
+			"text": "אִידְּרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"

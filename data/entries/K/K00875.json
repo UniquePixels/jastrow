@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00875",
-	"slug": "כנר",
-	"headword": {
-		"text": "כִּנָּר"
-	},
+	"sefariaHeadword": "כִּנָּר",
+	"headwords": [
+		{
+			"text": "כִּנָּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 651,
 		"column": "b"

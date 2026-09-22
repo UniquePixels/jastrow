@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01246",
-	"slug": "חמתנא",
-	"headword": {
-		"text": "חֶמְתָּנָא"
-	},
+	"sefariaHeadword": "חֶמְתָּנָא",
+	"headwords": [
+		{
+			"text": "חֶמְתָּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 481,
 		"column": "a"

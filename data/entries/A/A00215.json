@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00215",
-	"slug": "אברוסי",
-	"headword": {
-		"text": "אִבְרוֹסִי",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אִבְרוֹסִי",
+	"headwords": [
+		{
+			"text": "אִבְרוֹסִי",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

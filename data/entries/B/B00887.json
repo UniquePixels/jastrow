@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00887",
-	"slug": "בלנטיא",
-	"headword": {
-		"text": "בלנטיא"
-	},
+	"sefariaHeadword": "בלנטיא",
+	"headwords": [
+		{
+			"text": "בלנטיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 174,
 		"column": "a"

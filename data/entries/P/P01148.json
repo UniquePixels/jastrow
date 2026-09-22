@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P01148",
-	"slug": "עקבא-1",
-	"headword": {
-		"text": "עִקְבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִקְבָא",
+	"headwords": [
 		{
-			"text": "עִי׳"
+			"text": "עִקְבָא"
+		},
+		{
+			"text": "עִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1104,
 		"column": "b"

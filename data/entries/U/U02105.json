@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02105",
-	"slug": "שתיל-2",
-	"headword": {
-		"text": "שָׁתִיל"
-	},
+	"sefariaHeadword": "שָׁתִיל",
+	"headwords": [
+		{
+			"text": "שָׁתִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1637,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00957",
-	"slug": "פלדיס",
-	"headword": {
-		"text": "פַּלְדֵּיס"
-	},
+	"sefariaHeadword": "פַּלְדֵּיס",
+	"headwords": [
+		{
+			"text": "פַּלְדֵּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "a"

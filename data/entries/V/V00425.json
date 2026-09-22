@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00425",
-	"slug": "תיודיטוס",
-	"headword": {
-		"text": "תיודיטוס"
-	},
+	"sefariaHeadword": "תיודיטוס",
+	"headwords": [
+		{
+			"text": "תיודיטוס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1664,
 		"column": "a"

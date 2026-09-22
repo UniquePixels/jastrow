@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02092",
-	"slug": "אנבטי-1",
-	"headword": {
-		"text": "אַנְבְּטַי"
-	},
+	"sefariaHeadword": "אַנְבְּטַי",
+	"headwords": [
+		{
+			"text": "אַנְבְּטַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 80,
 		"column": "b"

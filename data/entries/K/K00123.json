@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00123",
-	"slug": "כדי-3",
-	"headword": {
-		"text": "כְּדַי"
-	},
+	"sefariaHeadword": "כְּדַי",
+	"headwords": [
+		{
+			"text": "כְּדַי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 613,
 		"column": "b"

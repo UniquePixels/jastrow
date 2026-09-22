@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00375",
-	"slug": "גולגא",
-	"headword": {
-		"text": "גּוּלְגָּא"
-	},
+	"sefariaHeadword": "גּוּלְגָּא",
+	"headwords": [
+		{
+			"text": "גּוּלְגָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 221,
 		"column": "b"

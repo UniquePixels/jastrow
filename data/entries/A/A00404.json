@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A00404",
-	"slug": "אדיק",
-	"headword": {
-		"text": "אֲדִיק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אֲדִיק",
+	"headwords": [
+		{
+			"text": "אֲדִיק"
+		},
 		{
 			"text": "אוֹדִיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 16,
 		"column": "b"

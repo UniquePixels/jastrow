@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01645",
-	"slug": "קסט",
-	"headword": {
-		"text": "קִסְטְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִסְטְ",
+	"headwords": [
+		{
+			"text": "קִסְטְ"
+		},
 		{
 			"text": "קִסְטָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1395,
 		"column": "b"

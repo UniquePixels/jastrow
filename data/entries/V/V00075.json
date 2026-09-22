@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00075",
-	"slug": "תברנית",
-	"headword": {
-		"text": "תברנית"
-	},
+	"sefariaHeadword": "תברנית",
+	"headwords": [
+		{
+			"text": "תברנית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1646,
 		"column": "a"

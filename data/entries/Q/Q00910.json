@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00910",
-	"slug": "פכה",
-	"headword": {
-		"text": "פָּכָה"
-	},
+	"sefariaHeadword": "פָּכָה",
+	"headwords": [
+		{
+			"text": "פָּכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "a"

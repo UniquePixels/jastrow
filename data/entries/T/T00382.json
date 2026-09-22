@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00382",
-	"slug": "רומאטיקון",
-	"headword": {
-		"text": "רִוְמָאטִיקוֹן"
-	},
+	"sefariaHeadword": "רִוְמָאטִיקוֹן",
+	"headwords": [
+		{
+			"text": "רִוְמָאטִיקוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1461,
 		"column": "a"

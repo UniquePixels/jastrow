@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00699",
-	"slug": "צפירה",
-	"headword": {
-		"text": "צְפִירָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צְפִירָה II",
+	"headwords": [
+		{
+			"text": "צְפִירָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1297,
 		"column": "a"

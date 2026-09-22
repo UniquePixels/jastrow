@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "N01168",
-	"slug": "נקדן",
-	"headword": {
-		"text": "נַקְדָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נַקְדָּן",
+	"headwords": [
+		{
+			"text": "נַקְדָּן"
+		},
 		{
 			"text": "נוֹקְדָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 931,
 		"column": "a"

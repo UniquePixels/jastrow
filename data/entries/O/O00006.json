@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00006",
-	"slug": "סאבא",
-	"headword": {
-		"text": "סָאבָא"
-	},
+	"sefariaHeadword": "סָאבָא",
+	"headwords": [
+		{
+			"text": "סָאבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 947,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00266",
-	"slug": "תוקף",
-	"headword": {
-		"text": "תּוֹקֶף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תּוֹקֶף",
+	"headwords": [
+		{
+			"text": "תּוֹקֶף"
+		},
 		{
 			"text": "תֹּקֶף"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1655,
 		"column": "b"

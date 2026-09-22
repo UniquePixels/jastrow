@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00388",
-	"slug": "פורקדל",
-	"headword": {
-		"text": "פּוּרְקְדָל"
-	},
+	"sefariaHeadword": "פּוּרְקְדָל",
+	"headwords": [
+		{
+			"text": "פּוּרְקְדָל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1148,
 		"column": "b"

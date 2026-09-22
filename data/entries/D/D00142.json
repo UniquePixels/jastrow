@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00142",
-	"slug": "דהב-2",
-	"headword": {
-		"text": "דְּהַב"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּהַב",
+	"headwords": [
+		{
+			"text": "דְּהַב"
+		},
 		{
 			"text": "דַּהֲבָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 281,
 		"column": "a"

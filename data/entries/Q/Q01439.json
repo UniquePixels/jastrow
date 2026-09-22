@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01439",
-	"slug": "פצע-1",
-	"headword": {
-		"text": "פָּצַע"
-	},
+	"sefariaHeadword": "פָּצַע",
+	"headwords": [
+		{
+			"text": "פָּצַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1205,
 		"column": "b"

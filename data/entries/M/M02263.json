@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02263",
-	"slug": "מצבא",
-	"headword": {
-		"text": "מַצָּבָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַצָּבָא",
+	"headwords": [
+		{
+			"text": "מַצָּבָא"
+		},
 		{
 			"text": "מַצַּבְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 822,
 		"column": "b"

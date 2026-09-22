@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00782",
-	"slug": "פיפיאורות",
-	"headword": {
-		"text": "פיפיאורות"
-	},
+	"sefariaHeadword": "פיפיאורות",
+	"headwords": [
+		{
+			"text": "פיפיאורות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1168,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00512",
-	"slug": "צליבה",
-	"headword": {
-		"text": "צְלִיבָה"
-	},
+	"sefariaHeadword": "צְלִיבָה",
+	"headwords": [
+		{
+			"text": "צְלִיבָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "a"

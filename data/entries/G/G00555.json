@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00555",
-	"slug": "זמרי",
-	"headword": {
-		"text": "זִמְרִי"
-	},
+	"sefariaHeadword": "זִמְרִי",
+	"headwords": [
+		{
+			"text": "זִמְרִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 405,
 		"column": "b"

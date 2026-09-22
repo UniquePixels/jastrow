@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00074",
-	"slug": "בגד-2",
-	"headword": {
-		"text": "בֶּגֶד"
-	},
+	"sefariaHeadword": "בֶּגֶד",
+	"headwords": [
+		{
+			"text": "בֶּגֶד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 137,
 		"column": "a"

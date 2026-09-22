@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00749",
-	"slug": "תנין-2",
-	"headword": {
-		"text": "תַּנִּין"
-	},
+	"sefariaHeadword": "תַּנִּין",
+	"headwords": [
+		{
+			"text": "תַּנִּין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1682,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00569",
-	"slug": "תלאי",
-	"headword": {
-		"text": "תְּלָאי"
-	},
+	"sefariaHeadword": "תְּלָאי",
+	"headwords": [
+		{
+			"text": "תְּלָאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1670,
 		"column": "a"

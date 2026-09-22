@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "T00885",
-	"slug": "רעוא-2",
-	"headword": {
-		"text": "רַעְוָא",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַעְוָא ²",
+	"headwords": [
+		{
+			"text": "רַעְוָא",
+			"disambiguator": 2
+		},
 		{
 			"text": "רַעֲ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1} II",
 	"page": {
 		"number": 1486,
 		"column": "a"

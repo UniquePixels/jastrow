@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00862",
-	"slug": "אורוורין",
-	"headword": {
-		"text": "אורוורין"
-	},
+	"sefariaHeadword": "אורוורין",
+	"headwords": [
+		{
+			"text": "אורוורין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

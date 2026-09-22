@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00747",
-	"slug": "חייתא-1",
-	"headword": {
-		"text": "חַיְיתָא",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַיְיתָא I",
+	"headwords": [
+		{
+			"text": "חַיְיתָא",
+			"homograph": 1
+		},
 		{
 			"text": "חַיְתָא"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 455,
 		"column": "a"

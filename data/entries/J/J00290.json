@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00290",
-	"slug": "יחיף",
-	"headword": {
-		"text": "יחֵיף"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יחֵיף",
+	"headwords": [
 		{
-			"text": "יְחֵיפ׳"
+			"text": "יחֵיף"
+		},
+		{
+			"text": "יְחֵיפ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 574,
 		"column": "b"

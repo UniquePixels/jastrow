@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00703",
-	"slug": "טרבל",
-	"headword": {
-		"text": "טַרְבִּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טַרְבִּל",
+	"headwords": [
+		{
+			"text": "טַרְבִּל"
+		},
 		{
 			"text": "טרבן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 549,
 		"column": "b"

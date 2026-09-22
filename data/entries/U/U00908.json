@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00908",
-	"slug": "שייר-1",
-	"headword": {
-		"text": "שִׁיֵּיר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁיֵּיר",
+	"headwords": [
+		{
+			"text": "שִׁיֵּיר"
+		},
 		{
 			"text": "שַׁיֵּיר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1561,
 		"column": "b"

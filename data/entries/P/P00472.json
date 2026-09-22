@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "P00472",
-	"slug": "עטף-4",
-	"headword": {
-		"text": "עֲטַף",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*עֲטַף II",
+	"headwords": [
+		{
+			"text": "עֲטַף",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 1064,
 		"column": "a"

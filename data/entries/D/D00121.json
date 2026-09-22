@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "D00121",
-	"slug": "דגר-2",
-	"headword": {
-		"text": "דְּגַר",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*דְּגַר II",
+	"headwords": [
+		{
+			"text": "דְּגַר",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 280,
 		"column": "b"

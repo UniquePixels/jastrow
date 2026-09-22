@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00149",
-	"slug": "דהון",
-	"headword": {
-		"text": "דָּהוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דָּהוֹן",
+	"headwords": [
+		{
+			"text": "דָּהוֹן"
+		},
 		{
 			"text": "רָהוֹן"
 		},
@@ -12,6 +13,7 @@
 			"text": "הִרְהוּן"
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 281,
 		"column": "b"

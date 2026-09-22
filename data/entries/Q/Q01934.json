@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01934",
-	"slug": "פרסם-1",
-	"headword": {
-		"text": "פִּרְסֵם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְסֵם",
+	"headwords": [
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּרְסֵם"
+		},
+		{
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1234,
 		"column": "b"

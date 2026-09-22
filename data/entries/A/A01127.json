@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01127",
-	"slug": "איבוס-3",
-	"headword": {
-		"text": "אִיבּוּס"
-	},
+	"sefariaHeadword": "אִיבּוּס",
+	"headwords": [
+		{
+			"text": "אִיבּוּס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 44,
 		"column": "a"

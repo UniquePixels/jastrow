@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00520",
-	"slug": "צלל-2",
-	"headword": {
-		"text": "צְלַל"
-	},
+	"sefariaHeadword": "צְלַל",
+	"headwords": [
+		{
+			"text": "צְלַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1284,
 		"column": "b"

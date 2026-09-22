@@ -1,12 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01328",
-	"slug": "שלימותא",
-	"headword": {
-		"text": "שְׁלִימוּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁלִימוּתָא",
+	"headwords": [
 		{
-			"text": "שְׁלֵי׳"
+			"text": "שְׁלִימוּתָא"
+		},
+		{
+			"text": "שְׁלֵי׳",
+			"partial": true
 		},
 		{
 			"text": "שַׁלְמוּתָא"
@@ -15,6 +17,7 @@
 			"text": "שְׁלֶמְתָּא"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 1584,
 		"column": "a"

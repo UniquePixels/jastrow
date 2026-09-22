@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00521",
-	"slug": "קופצא",
-	"headword": {
-		"text": "קופצא"
-	},
+	"sefariaHeadword": "קופצא",
+	"headwords": [
+		{
+			"text": "קופצא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1339,
 		"column": "a"

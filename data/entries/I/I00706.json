@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00706",
-	"slug": "טרגוס",
-	"headword": {
-		"text": "טְרָגוֹס"
-	},
+	"sefariaHeadword": "טְרָגוֹס",
+	"headwords": [
+		{
+			"text": "טְרָגוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 549,
 		"column": "b"

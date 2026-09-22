@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00330",
-	"slug": "לזבז",
-	"headword": {
-		"text": "לִזְבֵּז"
-	},
+	"sefariaHeadword": "לִזְבֵּז",
+	"headwords": [
+		{
+			"text": "לִזְבֵּז"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

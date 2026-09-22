@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00898",
-	"slug": "מחמדתא",
-	"headword": {
-		"text": "מַחְמַדְתָּא"
-	},
+	"sefariaHeadword": "מַחְמַדְתָּא",
+	"headwords": [
+		{
+			"text": "מַחְמַדְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 762,
 		"column": "b"

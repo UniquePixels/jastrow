@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01924",
-	"slug": "אלנקי",
-	"headword": {
-		"text": "אֲלַנְקֵי",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אֲלַנְקֵי",
+	"headwords": [
+		{
+			"text": "אֲלַנְקֵי",
+			"reconstructed": true
+		},
 		{
 			"text": "אֲלוּנְקֵי"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 72,
 		"column": "a"

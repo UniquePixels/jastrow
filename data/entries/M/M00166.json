@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00166",
-	"slug": "מגיסטריני",
-	"headword": {
-		"text": "מגיסטריני"
-	},
+	"sefariaHeadword": "מגיסטריני",
+	"headwords": [
+		{
+			"text": "מגיסטריני"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 728,
 		"column": "a"

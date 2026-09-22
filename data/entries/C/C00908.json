@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00908",
-	"slug": "גלוסקאן",
-	"headword": {
-		"text": "גְּלוּסְקָאן"
-	},
+	"sefariaHeadword": "גְּלוּסְקָאן",
+	"headwords": [
+		{
+			"text": "גְּלוּסְקָאן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00824",
-	"slug": "תפית",
-	"headword": {
-		"text": "תָּפִית"
-	},
+	"sefariaHeadword": "תָּפִית",
+	"headwords": [
+		{
+			"text": "תָּפִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1686,
 		"column": "b"

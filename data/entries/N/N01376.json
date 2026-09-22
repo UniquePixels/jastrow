@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01376",
-	"slug": "נתיני",
-	"headword": {
-		"text": "נְתִינִי"
-	},
+	"sefariaHeadword": "נְתִינִי",
+	"headwords": [
+		{
+			"text": "נְתִינִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 944,
 		"column": "a"

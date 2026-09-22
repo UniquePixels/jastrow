@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01696",
-	"slug": "אכל-1",
-	"headword": {
-		"text": "אָכַל"
-	},
+	"sefariaHeadword": "אָכַל",
+	"headwords": [
+		{
+			"text": "אָכַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 63,
 		"column": "a"

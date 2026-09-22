@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A03085",
-	"slug": "אריגה",
-	"headword": {
-		"text": "אֲרִיגָה"
-	},
+	"sefariaHeadword": "אֲרִיגָה",
+	"headwords": [
+		{
+			"text": "אֲרִיגָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 119,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00999",
-	"slug": "תריץ-1",
-	"headword": {
-		"text": "תָּרֵיץ"
-	},
+	"sefariaHeadword": "תָּרֵיץ",
+	"headwords": [
+		{
+			"text": "תָּרֵיץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1699,
 		"column": "a"

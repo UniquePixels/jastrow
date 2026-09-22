@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00260",
-	"slug": "מדוה",
-	"headword": {
-		"text": "מַדְוֶה"
-	},
+	"sefariaHeadword": "מַדְוֶה",
+	"headwords": [
+		{
+			"text": "מַדְוֶה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 733,
 		"column": "a"

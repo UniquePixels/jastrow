@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00605",
-	"slug": "ירוד-3",
-	"headword": {
-		"text": "יָרוֹד",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָרוֹד II",
+	"headwords": [
+		{
+			"text": "יָרוֹד",
+			"homograph": 2
+		},
 		{
 			"text": "יָרוֹר"
 		}
 	],
+	"display": "{0} II, ({1})",
 	"page": {
 		"number": 594,
 		"column": "b"

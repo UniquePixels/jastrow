@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00995",
-	"slug": "רצף-1",
-	"headword": {
-		"text": "רָצַף"
-	},
+	"sefariaHeadword": "רָצַף",
+	"headwords": [
+		{
+			"text": "רָצַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1494,
 		"column": "b"

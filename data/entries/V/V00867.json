@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "V00867",
-	"slug": "תקוה",
-	"headword": {
-		"text": "תִּקְוָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תִּקְוָה",
+	"headwords": [
+		{
+			"text": "תִּקְוָה"
+		},
 		{
 			"text": "תִּקְוָוה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1689,
 		"column": "b"

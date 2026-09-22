@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00321",
-	"slug": "לוקיס",
-	"headword": {
-		"text": "לוקיס"
-	},
+	"sefariaHeadword": "לוקיס",
+	"headwords": [
+		{
+			"text": "לוקיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "a"

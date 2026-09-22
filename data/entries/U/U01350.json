@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01350",
-	"slug": "שלם-3",
-	"headword": {
-		"text": "שָׁלֵם",
-		"homograph": 2
-	},
+	"sefariaHeadword": "שָׁלֵם II",
+	"headwords": [
+		{
+			"text": "שָׁלֵם",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1586,
 		"column": "a"

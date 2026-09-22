@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02044",
-	"slug": "מעא-1",
-	"headword": {
-		"text": "מְעָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מְעָא I",
+	"headwords": [
+		{
+			"text": "מְעָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 812,
 		"column": "b"

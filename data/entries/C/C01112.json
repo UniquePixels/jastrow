@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01112",
-	"slug": "גנונת",
-	"headword": {
-		"text": "גְּנוֹנֶת"
-	},
+	"sefariaHeadword": "גְּנוֹנֶת",
+	"headwords": [
+		{
+			"text": "גְּנוֹנֶת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 258,
 		"column": "a"

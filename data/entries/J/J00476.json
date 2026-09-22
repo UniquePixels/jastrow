@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00476",
-	"slug": "יעד-1",
-	"headword": {
-		"text": "יָעַד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יָעַד",
+	"headwords": [
+		{
+			"text": "יָעַד"
+		},
 		{
 			"text": "וָעַד"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 584,
 		"column": "a"

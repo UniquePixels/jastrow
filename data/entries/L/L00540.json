@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00540",
-	"slug": "לכד-1",
-	"headword": {
-		"text": "לָכַד"
-	},
+	"sefariaHeadword": "לָכַד",
+	"headwords": [
+		{
+			"text": "לָכַד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 710,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00520",
-	"slug": "פטיס",
-	"headword": {
-		"text": "פַּטִּיס"
-	},
+	"sefariaHeadword": "פַּטִּיס",
+	"headwords": [
+		{
+			"text": "פַּטִּיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1155,
 		"column": "a"

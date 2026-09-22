@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00886",
-	"slug": "חירקא",
-	"headword": {
-		"text": "חִירְקָא"
-	},
+	"sefariaHeadword": "חִירְקָא",
+	"headwords": [
+		{
+			"text": "חִירְקָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 460,
 		"column": "b"

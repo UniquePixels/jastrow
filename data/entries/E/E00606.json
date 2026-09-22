@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00606",
-	"slug": "המייה",
-	"headword": {
-		"text": "הֶמְיָיה"
-	},
+	"sefariaHeadword": "הֶמְיָיה",
+	"headwords": [
+		{
+			"text": "הֶמְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 355,
 		"column": "a"

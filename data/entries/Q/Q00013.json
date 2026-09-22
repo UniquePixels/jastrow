@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00013",
-	"slug": "פאייס",
-	"headword": {
-		"text": "פַּאיָיס"
-	},
+	"sefariaHeadword": "פַּאיָיס",
+	"headwords": [
+		{
+			"text": "פַּאיָיס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1131,
 		"column": "b"

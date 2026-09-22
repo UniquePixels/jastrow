@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00430",
-	"slug": "דחס-2",
-	"headword": {
-		"text": "דְּחַס"
-	},
+	"sefariaHeadword": "דְּחַס",
+	"headwords": [
+		{
+			"text": "דְּחַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 293,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U02075",
-	"slug": "שתאם",
-	"headword": {
-		"text": "שתאם"
-	},
+	"sefariaHeadword": "שתאם",
+	"headwords": [
+		{
+			"text": "שתאם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1636,
 		"column": "b"

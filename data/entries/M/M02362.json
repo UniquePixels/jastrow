@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02362",
-	"slug": "מצראנין",
-	"headword": {
-		"text": "מֶצְרָאנִין"
-	},
+	"sefariaHeadword": "מֶצְרָאנִין",
+	"headwords": [
+		{
+			"text": "מֶצְרָאנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 828,
 		"column": "b"

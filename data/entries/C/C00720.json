@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00720",
-	"slug": "גילאי",
-	"headword": {
-		"text": "גִּילָאֵי"
-	},
+	"sefariaHeadword": "גִּילָאֵי",
+	"headwords": [
+		{
+			"text": "גִּילָאֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 238,
 		"column": "b"

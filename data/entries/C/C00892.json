@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00892",
-	"slug": "גלוגלין",
-	"headword": {
-		"text": "גלוגלין"
-	},
+	"sefariaHeadword": "גלוגלין",
+	"headwords": [
+		{
+			"text": "גלוגלין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

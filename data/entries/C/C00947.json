@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00947",
-	"slug": "גלילאה",
-	"headword": {
-		"text": "גְּלִילָאָה"
-	},
+	"sefariaHeadword": "גְּלִילָאָה",
+	"headwords": [
+		{
+			"text": "גְּלִילָאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 249,
 		"column": "a"

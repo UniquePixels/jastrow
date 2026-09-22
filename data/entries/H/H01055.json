@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01055",
-	"slug": "חליף-2",
-	"headword": {
-		"text": "חַלִּיף"
-	},
+	"sefariaHeadword": "חַלִּיף",
+	"headwords": [
+		{
+			"text": "חַלִּיף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 469,
 		"column": "a"

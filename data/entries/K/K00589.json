@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00589",
-	"slug": "כיסני",
-	"headword": {
-		"text": "כִּיסְנֵי"
-	},
+	"sefariaHeadword": "כִּיסְנֵי",
+	"headwords": [
+		{
+			"text": "כִּיסְנֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 634,
 		"column": "b"

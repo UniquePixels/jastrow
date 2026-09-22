@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00841",
-	"slug": "אור-2",
-	"headword": {
-		"text": "אוֹר"
-	},
+	"sefariaHeadword": "אוֹר",
+	"headwords": [
+		{
+			"text": "אוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "b"

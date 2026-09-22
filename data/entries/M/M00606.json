@@ -1,11 +1,12 @@
 {
+	"schemaVersion": 2,
 	"id": "M00606",
-	"slug": "מור-5",
-	"headword": {
-		"text": "מוֹר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מוֹר ²",
+	"headwords": [
+		{
+			"text": "מוֹר",
+			"disambiguator": 2
+		},
 		{
 			"text": "מוּרָא"
 		},
@@ -13,6 +14,7 @@
 			"text": "מֵירָא"
 		}
 	],
+	"display": "{0} ², {1}, ({2})",
 	"page": {
 		"number": 748,
 		"column": "b"

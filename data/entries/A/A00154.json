@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00154",
-	"slug": "אבל-3",
-	"headword": {
-		"text": "אָבֵל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "אָבֵל II",
+	"headwords": [
+		{
+			"text": "אָבֵל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 6,
 		"column": "b"

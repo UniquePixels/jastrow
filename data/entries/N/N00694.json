@@ -1,16 +1,19 @@
 {
+	"schemaVersion": 2,
 	"id": "N00694",
-	"slug": "ניניא-1",
-	"headword": {
-		"text": "נִינְיָא",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*נִינְיָא",
+	"headwords": [
+		{
+			"text": "נִינְיָא",
+			"reconstructed": true
+		},
 		{
 			"text": "נִנְ׳",
-			"homograph": 1
+			"homograph": 1,
+			"partial": true
 		}
 	],
+	"display": "*{0}, {1} I",
 	"page": {
 		"number": 905,
 		"column": "b"

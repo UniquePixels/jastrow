@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00854",
-	"slug": "בלי-2",
-	"headword": {
-		"text": "בלי",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בלי ²",
+	"headwords": [
+		{
+			"text": "בלי",
+			"disambiguator": 2
+		},
 		{
 			"text": "בָּלָה"
 		}
 	],
+	"display": "{0} ², {1}",
 	"page": {
 		"number": 172,
 		"column": "a"

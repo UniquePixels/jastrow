@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00932",
-	"slug": "אושפיזא",
-	"headword": {
-		"text": "אוּשְׁפִּיזָא"
-	},
+	"sefariaHeadword": "אוּשְׁפִּיזָא",
+	"headwords": [
+		{
+			"text": "אוּשְׁפִּיזָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 35,
 		"column": "b"

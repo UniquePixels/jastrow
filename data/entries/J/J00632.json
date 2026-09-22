@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "J00632",
-	"slug": "ירידה-1",
-	"headword": {
-		"text": "יְרִידָה",
-		"homograph": 1
-	},
+	"sefariaHeadword": "יְרִידָה I",
+	"headwords": [
+		{
+			"text": "יְרִידָה",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 596,
 		"column": "b"

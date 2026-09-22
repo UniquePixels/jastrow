@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01759",
-	"slug": "קפליות",
-	"headword": {
-		"text": "קִפְלָיוֹת"
-	},
+	"sefariaHeadword": "קִפְלָיוֹת",
+	"headwords": [
+		{
+			"text": "קִפְלָיוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1402,
 		"column": "b"

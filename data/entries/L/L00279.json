@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00279",
-	"slug": "לוליון",
-	"headword": {
-		"text": "לוליון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לוליון",
+	"headwords": [
+		{
+			"text": "לוליון"
+		},
 		{
 			"text": "לולין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 699,
 		"column": "a"

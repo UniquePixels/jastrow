@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01321",
-	"slug": "ערוה",
-	"headword": {
-		"text": "עֶרְוָה"
-	},
+	"sefariaHeadword": "עֶרְוָה",
+	"headwords": [
+		{
+			"text": "עֶרְוָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1114,
 		"column": "b"

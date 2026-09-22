@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00833",
-	"slug": "טרכינוס",
-	"headword": {
-		"text": "טרכינוס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טרכינוס",
+	"headwords": [
+		{
+			"text": "טרכינוס"
+		},
 		{
 			"text": "טרכיני"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 555,
 		"column": "a"

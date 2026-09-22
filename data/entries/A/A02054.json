@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02054",
-	"slug": "אמפרטור",
-	"headword": {
-		"text": "אִמְפְּרָטוֹר"
-	},
+	"sefariaHeadword": "אִמְפְּרָטוֹר",
+	"headwords": [
+		{
+			"text": "אִמְפְּרָטוֹר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 78,
 		"column": "b"

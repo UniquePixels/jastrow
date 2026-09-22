@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00564",
-	"slug": "אודיצותא",
-	"headword": {
-		"text": "אוֹדִיצוּתָא"
-	},
+	"sefariaHeadword": "אוֹדִיצוּתָא",
+	"headwords": [
+		{
+			"text": "אוֹדִיצוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 22,
 		"column": "b"

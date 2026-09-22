@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01624",
-	"slug": "אישטטיון",
-	"headword": {
-		"text": "אִישְׂטַטְיוֹן"
-	},
+	"sefariaHeadword": "אִישְׂטַטְיוֹן",
+	"headwords": [
+		{
+			"text": "אִישְׂטַטְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 61,
 		"column": "a"

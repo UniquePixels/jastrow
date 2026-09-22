@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00358",
-	"slug": "בורי-1",
-	"headword": {
-		"text": "בּוֹרָי"
-	},
+	"sefariaHeadword": "בּוֹרָי",
+	"headwords": [
+		{
+			"text": "בּוֹרָי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "a"

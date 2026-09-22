@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00127",
-	"slug": "חבשה",
-	"headword": {
-		"text": "חֲבָשָׁה"
-	},
+	"sefariaHeadword": "חֲבָשָׁה",
+	"headwords": [
+		{
+			"text": "חֲבָשָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 423,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00416",
-	"slug": "אדם-1",
-	"headword": {
-		"text": "אֲדַם"
-	},
+	"sefariaHeadword": "אֲדַם",
+	"headwords": [
+		{
+			"text": "אֲדַם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 16,
 		"column": "b"

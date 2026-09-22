@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U00287",
-	"slug": "שדרא",
-	"headword": {
-		"text": "שִׁדְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁדְרָא",
+	"headwords": [
 		{
-			"text": "שִׁי׳"
+			"text": "שִׁדְרָא"
 		},
 		{
-			"text": "שׁוּ׳"
+			"text": "שִׁי׳",
+			"partial": true
+		},
+		{
+			"text": "שׁוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1526,
 		"column": "a"

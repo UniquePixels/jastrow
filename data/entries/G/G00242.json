@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00242",
-	"slug": "זח",
-	"headword": {
-		"text": "זָח"
-	},
+	"sefariaHeadword": "זָח",
+	"headwords": [
+		{
+			"text": "זָח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 390,
 		"column": "a"

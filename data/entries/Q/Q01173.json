@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01173",
-	"slug": "פנטון",
-	"headword": {
-		"text": "פנטון"
-	},
+	"sefariaHeadword": "פנטון",
+	"headwords": [
+		{
+			"text": "פנטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1187,
 		"column": "a"
