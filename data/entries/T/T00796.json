@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "T00796",
-	"slug": "רמון-2",
-	"headword": {
-		"text": "רִמֹּון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רִמֹּון",
+	"headwords": [
+		{
+			"text": "רִמֹּון"
+		},
 		{
 			"text": "רִמּוֹנָא"
 		},
 		{
-			"text": "רִי׳"
+			"text": "רִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1481,
 		"column": "b"

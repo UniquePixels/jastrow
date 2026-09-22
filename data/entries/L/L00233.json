@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "L00233",
-	"slug": "לוח-2",
-	"headword": {
-		"text": "לוּחַ",
-		"homograph": 2
-	},
+	"sefariaHeadword": "לוּחַ II",
+	"headwords": [
+		{
+			"text": "לוּחַ",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 696,
 		"column": "a"

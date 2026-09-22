@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00661",
-	"slug": "הנדוקא",
-	"headword": {
-		"text": "הנדוקא"
-	},
+	"sefariaHeadword": "הנדוקא",
+	"headwords": [
+		{
+			"text": "הנדוקא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 357,
 		"column": "a"

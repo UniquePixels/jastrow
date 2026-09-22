@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02232",
-	"slug": "קשטותא",
-	"headword": {
-		"text": "קַשְׁטוּתָא"
-	},
+	"sefariaHeadword": "קַשְׁטוּתָא",
+	"headwords": [
+		{
+			"text": "קַשְׁטוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1430,
 		"column": "a"

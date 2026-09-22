@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "D00773",
-	"slug": "דכי-3",
-	"headword": {
-		"text": "דְּכֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דְּכֵי",
+	"headwords": [
+		{
+			"text": "דְּכֵי"
+		},
 		{
 			"text": "דַּכְיָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "דָּכִיתָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 307,
 		"column": "a"

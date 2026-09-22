@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00885",
-	"slug": "עמילא",
-	"headword": {
-		"text": "עֲמֵילָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עֲמֵילָא",
+	"headwords": [
+		{
+			"text": "עֲמֵילָא"
+		},
 		{
 			"text": "עֲמֵלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1088,
 		"column": "a"

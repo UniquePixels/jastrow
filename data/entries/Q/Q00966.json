@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00966",
-	"slug": "פלווטין",
-	"headword": {
-		"text": "פלווטין"
-	},
+	"sefariaHeadword": "פלווטין",
+	"headwords": [
+		{
+			"text": "פלווטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1177,
 		"column": "b"

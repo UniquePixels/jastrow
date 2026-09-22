@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00466",
-	"slug": "גופתא",
-	"headword": {
-		"text": "גּוּפְתָּא"
-	},
+	"sefariaHeadword": "גּוּפְתָּא",
+	"headwords": [
+		{
+			"text": "גּוּפְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 225,
 		"column": "b"

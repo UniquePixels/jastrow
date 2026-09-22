@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00040",
-	"slug": "פגג",
-	"headword": {
-		"text": "פְּגַג"
-	},
+	"sefariaHeadword": "פְּגַג",
+	"headwords": [
+		{
+			"text": "פְּגַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1132,
 		"column": "a"

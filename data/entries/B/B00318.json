@@ -1,15 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00318",
-	"slug": "בוצרה",
-	"headword": {
-		"text": "בּוֹצְרָה"
-	},
+	"sefariaHeadword": "בֹּוצְרָה",
+	"headwords": [
+		{
+			"text": "בּוֹצְרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 148,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

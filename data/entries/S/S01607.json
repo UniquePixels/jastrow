@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01607",
-	"slug": "קנסודס",
-	"headword": {
-		"text": "קנסודס"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קנסודס",
+	"headwords": [
+		{
+			"text": "קנסודס"
+		},
 		{
 			"text": "קַנְסוֹרָס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1394,
 		"column": "a"

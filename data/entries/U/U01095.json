@@ -1,17 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "U01095",
-	"slug": "שישורא",
-	"headword": {
-		"text": "שִׁישׁוּרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שִׁישׁוּרָא",
+	"headwords": [
 		{
-			"text": "שִׁירְשׁ׳"
+			"text": "שִׁישׁוּרָא"
 		},
 		{
-			"text": "שִׁרְשׁ׳"
+			"text": "שִׁירְשׁ׳",
+			"partial": true
+		},
+		{
+			"text": "שִׁרְשׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1569,
 		"column": "b"

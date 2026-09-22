@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00067",
-	"slug": "לביא-1",
-	"headword": {
-		"text": "לָבִיא"
-	},
+	"sefariaHeadword": "לָבִיא",
+	"headwords": [
+		{
+			"text": "לָבִיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 689,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00412",
-	"slug": "נוקניקה",
-	"headword": {
-		"text": "נוּקָנִיקָה"
-	},
+	"sefariaHeadword": "נוּקָנִיקָה",
+	"headwords": [
+		{
+			"text": "נוּקָנִיקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

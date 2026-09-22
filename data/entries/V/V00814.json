@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00814",
-	"slug": "תפח-7",
-	"headword": {
-		"text": "תִּפַּח"
-	},
+	"sefariaHeadword": "תִּפַּח",
+	"headwords": [
+		{
+			"text": "תִּפַּח"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1685,
 		"column": "b"

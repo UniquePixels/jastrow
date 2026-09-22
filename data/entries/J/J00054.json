@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00054",
-	"slug": "יבלונה",
-	"headword": {
-		"text": "יבלונה"
-	},
+	"sefariaHeadword": "יבלונה",
+	"headwords": [
+		{
+			"text": "יבלונה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 561,
 		"column": "a"

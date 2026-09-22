@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00513",
-	"slug": "זמזומי",
-	"headword": {
-		"text": "זַמְזוּמֵי"
-	},
+	"sefariaHeadword": "זַמְזוּמֵי",
+	"headwords": [
+		{
+			"text": "זַמְזוּמֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 402,
 		"column": "b"

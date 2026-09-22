@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00399",
-	"slug": "הילין",
-	"headword": {
-		"text": "הֵילֵין"
-	},
+	"sefariaHeadword": "הֵילֵין",
+	"headwords": [
+		{
+			"text": "הֵילֵין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 346,
 		"column": "b"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00411",
-	"slug": "דחיל-1",
-	"headword": {
-		"text": "דּחֵיל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דּחֵיל",
+	"headwords": [
+		{
+			"text": "דּחֵיל"
+		},
 		{
 			"text": "דְּחַל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 292,
 		"column": "a"

@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01735",
-	"slug": "מנובייתא",
-	"headword": {
-		"text": "מָנוֹבַיְיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מָנוֹבַיְיתָא",
+	"headwords": [
+		{
+			"text": "מָנוֹבַיְיתָא"
+		},
 		{
 			"text": "מָנוֹבֵיתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 798,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A01534",
-	"slug": "איפוטונקריק",
-	"headword": {
-		"text": "איפוטונקריק",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*איפוטונקריק",
+	"headwords": [
+		{
+			"text": "איפוטונקריק",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 58,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00211",
-	"slug": "הודרא",
-	"headword": {
-		"text": "הוּדְרָא"
-	},
+	"sefariaHeadword": "הוּדְרָא",
+	"headwords": [
+		{
+			"text": "הוּדְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 337,
 		"column": "b"

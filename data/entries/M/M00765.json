@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00765",
-	"slug": "מזלג",
-	"headword": {
-		"text": "מַזְלֵג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַזְלֵג",
+	"headwords": [
+		{
+			"text": "מַזְלֵג"
+		},
 		{
 			"text": "מִזְלָג"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 755,
 		"column": "b"

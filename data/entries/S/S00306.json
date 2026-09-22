@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00306",
-	"slug": "קוטרינין",
-	"headword": {
-		"text": "קוטרינין"
-	},
+	"sefariaHeadword": "קוטרינין",
+	"headwords": [
+		{
+			"text": "קוטרינין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1326,
 		"column": "b"

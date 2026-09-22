@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00731",
-	"slug": "זרף-1",
-	"headword": {
-		"text": "זרף"
-	},
+	"sefariaHeadword": "זרף",
+	"headwords": [
+		{
+			"text": "זרף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 414,
 		"column": "b"

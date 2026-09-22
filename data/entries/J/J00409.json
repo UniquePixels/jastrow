@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "J00409",
-	"slug": "ימי-2",
-	"headword": {
-		"text": "יְמֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יְמֵי",
+	"headwords": [
+		{
+			"text": "יְמֵי"
+		},
 		{
 			"text": "יְמָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 580,
 		"column": "a"

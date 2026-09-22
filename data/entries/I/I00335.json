@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00335",
-	"slug": "טיטרטון",
-	"headword": {
-		"text": "טִיטַרְטוֹן"
-	},
+	"sefariaHeadword": "טִיטַרְטוֹן",
+	"headwords": [
+		{
+			"text": "טִיטַרְטוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

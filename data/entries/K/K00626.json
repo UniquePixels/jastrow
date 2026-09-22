@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "K00626",
-	"slug": "כירי-2",
-	"headword": {
-		"text": "כִּירִי",
-		"homograph": 1
-	},
+	"sefariaHeadword": "כִּירִי I",
+	"headwords": [
+		{
+			"text": "כִּירִי",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 636,
 		"column": "b"

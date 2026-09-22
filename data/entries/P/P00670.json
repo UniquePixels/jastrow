@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P00670",
-	"slug": "עיקתא-1",
-	"headword": {
-		"text": "עִיקְתָא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עִיקְתָא I",
+	"headwords": [
+		{
+			"text": "עִיקְתָא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1075,
 		"column": "a"

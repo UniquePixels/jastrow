@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00755",
-	"slug": "מזימיות",
-	"headword": {
-		"text": "מזימיות"
-	},
+	"sefariaHeadword": "מזימיות",
+	"headwords": [
+		{
+			"text": "מזימיות"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 755,
 		"column": "a"

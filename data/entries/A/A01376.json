@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "A01376",
-	"slug": "אינומילין",
-	"headword": {
-		"text": "אִינוֹמִילִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִינוֹמִילִין",
+	"headwords": [
+		{
+			"text": "אִינוֹמִילִין"
+		},
 		{
 			"text": "אִינוֹמְלִין"
 		},
 		{
-			"text": "יִינוֹ׳"
+			"text": "יִינוֹ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}, {2})",
 	"page": {
 		"number": 52,
 		"column": "b"

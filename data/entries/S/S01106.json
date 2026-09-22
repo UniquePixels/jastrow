@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01106",
-	"slug": "קיפל",
-	"headword": {
-		"text": "קיפל"
-	},
+	"sefariaHeadword": "קיפל",
+	"headwords": [
+		{
+			"text": "קיפל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1366,
 		"column": "a"

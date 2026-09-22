@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00854",
-	"slug": "עמאוקו",
-	"headword": {
-		"text": "עמאוקו"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עמאוקו",
+	"headwords": [
+		{
+			"text": "עמאוקו"
+		},
 		{
 			"text": "עמאייק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1086,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00235",
-	"slug": "כוח-1",
-	"headword": {
-		"text": "כּוּחַ"
-	},
+	"sefariaHeadword": "כּוּחַ",
+	"headwords": [
+		{
+			"text": "כּוּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 618,
 		"column": "a"

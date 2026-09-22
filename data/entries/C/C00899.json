@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00899",
-	"slug": "גלויא",
-	"headword": {
-		"text": "גָּלוֹיָא"
-	},
+	"sefariaHeadword": "גָּלוֹיָא",
+	"headwords": [
+		{
+			"text": "גָּלוֹיָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 246,
 		"column": "a"

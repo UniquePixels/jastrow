@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02218",
-	"slug": "קשבא",
-	"headword": {
-		"text": "קִשְׁבָּא"
-	},
+	"sefariaHeadword": "קִשְׁבָּא",
+	"headwords": [
+		{
+			"text": "קִשְׁבָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1429,
 		"column": "a"

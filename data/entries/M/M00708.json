@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00708",
-	"slug": "מזבח",
-	"headword": {
-		"text": "מִזְבֵּחַ"
-	},
+	"sefariaHeadword": "מִזְבֵּחַ",
+	"headwords": [
+		{
+			"text": "מִזְבֵּחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 752,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01261",
-	"slug": "איכרום",
-	"headword": {
-		"text": "אִיכְרוּם"
-	},
+	"sefariaHeadword": "אִיכְרוּם",
+	"headwords": [
+		{
+			"text": "אִיכְרוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "b"

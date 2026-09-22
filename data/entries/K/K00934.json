@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K00934",
-	"slug": "כסך",
-	"headword": {
-		"text": "כֶּסֶךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כֶּסֶךְ",
+	"headwords": [
+		{
+			"text": "כֶּסֶךְ"
+		},
 		{
 			"text": "כַּסְכַּס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 654,
 		"column": "a"

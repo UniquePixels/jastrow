@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O01090",
-	"slug": "סמיך",
-	"headword": {
-		"text": "סְמִיךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סְמִיךְ",
+	"headwords": [
+		{
+			"text": "סְמִיךְ"
+		},
 		{
 			"text": "סְמֵיךְ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1000,
 		"column": "a"

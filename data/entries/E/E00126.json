@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "E00126",
-	"slug": "הדין",
-	"headword": {
-		"text": "הָדֵין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הָדֵין",
+	"headwords": [
+		{
+			"text": "הָדֵין"
+		},
 		{
 			"text": "הֵדֵין"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 333,
 		"column": "b"

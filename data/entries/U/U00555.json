@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U00555",
-	"slug": "שורש",
-	"headword": {
-		"text": "שׁוֹרֶשׁ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שׁוֹרֶשׁ",
+	"headwords": [
+		{
+			"text": "שׁוֹרֶשׁ"
+		},
 		{
 			"text": "שׁוֹרְשָׁא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1542,
 		"column": "b"

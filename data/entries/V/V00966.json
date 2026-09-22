@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00966",
-	"slug": "תרונתק",
-	"headword": {
-		"text": "תרונתק"
-	},
+	"sefariaHeadword": "תרונתק",
+	"headwords": [
+		{
+			"text": "תרונתק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1697,
 		"column": "a"

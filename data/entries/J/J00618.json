@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00618",
-	"slug": "ירושלם",
-	"headword": {
-		"text": "יְרוּשְׁלֵם"
-	},
+	"sefariaHeadword": "יְרוּשְׁלֵם",
+	"headwords": [
+		{
+			"text": "יְרוּשְׁלֵם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "b"

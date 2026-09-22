@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02119",
-	"slug": "אנדנא",
-	"headword": {
-		"text": "אנדנא"
-	},
+	"sefariaHeadword": "אנדנא",
+	"headwords": [
+		{
+			"text": "אנדנא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 81,
 		"column": "b"

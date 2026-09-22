@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00734",
-	"slug": "גיליא",
-	"headword": {
-		"text": "גִּילַּיָּא"
-	},
+	"sefariaHeadword": "גִּילַּיָּא",
+	"headwords": [
+		{
+			"text": "גִּילַּיָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 239,
 		"column": "a"

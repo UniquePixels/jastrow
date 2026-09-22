@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01175",
-	"slug": "נקובתא",
-	"headword": {
-		"text": "נְקוּבְתָּא"
-	},
+	"sefariaHeadword": "נְקוּבְתָּא",
+	"headwords": [
+		{
+			"text": "נְקוּבְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 931,
 		"column": "b"

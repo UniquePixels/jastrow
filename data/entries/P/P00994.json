@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00994",
-	"slug": "עניני",
-	"headword": {
-		"text": "עִנְיָנִי"
-	},
+	"sefariaHeadword": "עִנְיָנִי",
+	"headwords": [
+		{
+			"text": "עִנְיָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1095,
 		"column": "b"

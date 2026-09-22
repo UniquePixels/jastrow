@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "O00708",
-	"slug": "סימלון",
-	"headword": {
-		"text": "סִימְלוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִימְלוֹן",
+	"headwords": [
+		{
+			"text": "סִימְלוֹן"
+		},
 		{
 			"text": "סִימְלָק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 981,
 		"column": "b"

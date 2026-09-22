@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00334",
-	"slug": "טיטרוס",
-	"headword": {
-		"text": "טִיטְרוֹס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טִיטְרוֹס",
+	"headwords": [
+		{
+			"text": "טִיטְרוֹס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

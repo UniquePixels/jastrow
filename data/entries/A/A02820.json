@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02820",
-	"slug": "אפריין",
-	"headword": {
-		"text": "אַפִּרְיָין"
-	},
+	"sefariaHeadword": "אַפִּרְיָין",
+	"headwords": [
+		{
+			"text": "אַפִּרְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 108,
 		"column": "b"

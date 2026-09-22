@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "S01083",
-	"slug": "קיסרוון",
-	"headword": {
-		"text": "קֵיסַרְוָון"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קֵיסַרְוָון",
+	"headwords": [
+		{
+			"text": "קֵיסַרְוָון"
+		},
 		{
 			"text": "קֵיסַרִיּוֹן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1365,
 		"column": "a"

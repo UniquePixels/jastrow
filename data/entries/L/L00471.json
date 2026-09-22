@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "L00471",
-	"slug": "לילוך",
-	"headword": {
-		"text": "לֵילוֹךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "לֵילוֹךְ",
+	"headwords": [
+		{
+			"text": "לֵילוֹךְ"
+		},
 		{
 			"text": "לילך"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 707,
 		"column": "b"

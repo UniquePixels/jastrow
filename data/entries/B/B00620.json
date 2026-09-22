@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00620",
-	"slug": "בילמי",
-	"headword": {
-		"text": "בילמי"
-	},
+	"sefariaHeadword": "בילמי",
+	"headwords": [
+		{
+			"text": "בילמי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 161,
 		"column": "b"

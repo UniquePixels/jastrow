@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00359",
-	"slug": "פורנא-1",
-	"headword": {
-		"text": "פּוּרְנָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פּוּרְנָא II",
+	"headwords": [
+		{
+			"text": "פּוּרְנָא",
+			"homograph": 2
+		},
 		{
 			"text": "פּוּרְנָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1147,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00852",
-	"slug": "טרסיי",
-	"headword": {
-		"text": "טַרְסַיי"
-	},
+	"sefariaHeadword": "טַרְסַיי",
+	"headwords": [
+		{
+			"text": "טַרְסַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 555,
 		"column": "b"

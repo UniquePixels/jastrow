@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00643",
-	"slug": "ניח-1",
-	"headword": {
-		"text": "נִיחַ"
-	},
+	"sefariaHeadword": "נִיחַ",
+	"headwords": [
+		{
+			"text": "נִיחַ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 903,
 		"column": "b"

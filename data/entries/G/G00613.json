@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "G00613",
-	"slug": "זעק-2",
-	"headword": {
-		"text": "זְעַק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "זְעַק",
+	"headwords": [
+		{
+			"text": "זְעַק"
+		},
 		{
 			"text": "זְעֵיק"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 408,
 		"column": "a"

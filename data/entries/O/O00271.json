@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00271",
-	"slug": "סוון",
-	"headword": {
-		"text": "סְוָון"
-	},
+	"sefariaHeadword": "סְוָון",
+	"headwords": [
+		{
+			"text": "סְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 962,
 		"column": "a"

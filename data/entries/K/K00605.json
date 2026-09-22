@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "K00605",
-	"slug": "כיפח",
-	"headword": {
-		"text": "כִּיפֵּחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כִּיפֵּחַ",
+	"headwords": [
+		{
+			"text": "כִּיפֵּחַ"
+		},
 		{
 			"text": "כִּיפֵּיחַ"
 		},
 		{
-			"text": "קִיפֵּ׳"
+			"text": "קִיפֵּ׳",
+			"partial": true
 		},
 		{
-			"text": "קִפֵּ׳"
+			"text": "קִפֵּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, ({1}), {2}, {3}",
 	"page": {
 		"number": 635,
 		"column": "b"

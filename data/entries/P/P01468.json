@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01468",
-	"slug": "עשוי",
-	"headword": {
-		"text": "עִשּׂוּי"
-	},
+	"sefariaHeadword": "עִשּׂוּי",
+	"headwords": [
+		{
+			"text": "עִשּׂוּי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1124,
 		"column": "b"

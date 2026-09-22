@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01185",
-	"slug": "קיריס-1",
-	"headword": {
-		"text": "קיריס"
-	},
+	"sefariaHeadword": "קיריס",
+	"headwords": [
+		{
+			"text": "קיריס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1369,
 		"column": "b"

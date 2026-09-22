@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00539",
-	"slug": "עיטרא",
-	"headword": {
-		"text": "עִיטְרָא"
-	},
+	"sefariaHeadword": "עִיטְרָא",
+	"headwords": [
+		{
+			"text": "עִיטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1068,
 		"column": "b"

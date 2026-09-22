@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00864",
-	"slug": "אורוותא",
-	"headword": {
-		"text": "אוּרְוָותָא"
-	},
+	"sefariaHeadword": "אוּרְוָותָא",
+	"headwords": [
+		{
+			"text": "אוּרְוָותָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 33,
 		"column": "b"

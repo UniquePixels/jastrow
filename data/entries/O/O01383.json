@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01383",
-	"slug": "ספלני",
-	"headword": {
-		"text": "סִפְלָנִי"
-	},
+	"sefariaHeadword": "סִפְלָנִי",
+	"headwords": [
+		{
+			"text": "סִפְלָנִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1014,
 		"column": "b"

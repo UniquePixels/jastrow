@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01767",
-	"slug": "אל-3",
-	"headword": {
-		"text": "אֶל"
-	},
+	"sefariaHeadword": "אֶל",
+	"headwords": [
+		{
+			"text": "אֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 66,
 		"column": "a"

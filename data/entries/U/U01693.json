@@ -1,20 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "U01693",
-	"slug": "שערים",
-	"headword": {
-		"text": "שְׁעָרִים"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שְׁעָרִים",
+	"headwords": [
 		{
-			"text": "בֵּית שְׁעָרִים"
+			"text": "שְׁעָרִים"
+		},
+		{
+			"text": "בֵּית שְׁ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1613,
 		"column": "a"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

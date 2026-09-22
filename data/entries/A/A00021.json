@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A00021",
-	"slug": "אכאבית-1",
-	"headword": {
-		"text": "אַכְאָבִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַכְאָבִית",
+	"headwords": [
+		{
+			"text": "אַכְאָבִית"
+		},
 		{
 			"text": "אֲבָבִית"
 		},
@@ -18,6 +19,7 @@
 			"text": "עַוְעָוִית"
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 2,
 		"column": "b"

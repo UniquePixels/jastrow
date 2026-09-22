@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00136",
-	"slug": "רבעת",
-	"headword": {
-		"text": "רִבְעַת"
-	},
+	"sefariaHeadword": "רִבְעַת",
+	"headwords": [
+		{
+			"text": "רִבְעַת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1445,
 		"column": "b"

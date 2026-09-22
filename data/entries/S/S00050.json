@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S00050",
-	"slug": "קביים",
-	"headword": {
-		"text": "קַבִּיִּים"
-	},
+	"sefariaHeadword": "קַבִּיִּים",
+	"headwords": [
+		{
+			"text": "קַבִּיִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1308,
 		"column": "a"

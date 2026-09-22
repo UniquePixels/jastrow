@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00012",
-	"slug": "מאון",
-	"headword": {
-		"text": "מָאוָן"
-	},
+	"sefariaHeadword": "מָאוָן",
+	"headwords": [
+		{
+			"text": "מָאוָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 721,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "O00212",
-	"slug": "סהד-3",
-	"headword": {
-		"text": "סָהֵד",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "סָהֵד ²",
+	"headwords": [
+		{
+			"text": "סָהֵד",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 959,
 		"column": "b"

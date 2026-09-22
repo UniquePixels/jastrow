@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00970",
-	"slug": "עני-1",
-	"headword": {
-		"text": "עני"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עני",
+	"headwords": [
+		{
+			"text": "עני"
+		},
 		{
 			"text": "עָנָה",
 			"homograph": 1
 		}
 	],
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1093,
 		"column": "a"

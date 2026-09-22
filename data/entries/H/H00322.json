@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "H00322",
-	"slug": "חול-4",
-	"headword": {
-		"text": "חוּל",
-		"disambiguator": 3
-	},
+	"sefariaHeadword": "חוּל ³",
+	"headwords": [
+		{
+			"text": "חוּל",
+			"disambiguator": 3
+		}
+	],
+	"display": "{0} ³",
 	"page": {
 		"number": 432,
 		"column": "b"

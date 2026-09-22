@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00601",
-	"slug": "שזף",
-	"headword": {
-		"text": "שָׁזַף"
-	},
+	"sefariaHeadword": "שָׁזַף",
+	"headwords": [
+		{
+			"text": "שָׁזַף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1545,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "R00810",
-	"slug": "צרר-4",
-	"headword": {
-		"text": "צָרַר",
-		"homograph": 2
-	},
+	"sefariaHeadword": "צָרַר II",
+	"headwords": [
+		{
+			"text": "צָרַר",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 1305,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01058",
-	"slug": "כפרנות",
-	"headword": {
-		"text": "כַּפְרָנוּת"
-	},
+	"sefariaHeadword": "כַּפְרָנוּת",
+	"headwords": [
+		{
+			"text": "כַּפְרָנוּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 662,
 		"column": "b"

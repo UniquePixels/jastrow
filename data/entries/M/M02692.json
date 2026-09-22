@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02692",
-	"slug": "מריש",
-	"headword": {
-		"text": "מָרֵישׁ"
-	},
+	"sefariaHeadword": "מָרֵישׁ",
+	"headwords": [
+		{
+			"text": "מָרֵישׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 843,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00206",
-	"slug": "טופלא",
-	"headword": {
-		"text": "טוּפְלָא"
-	},
+	"sefariaHeadword": "טוּפְלָא",
+	"headwords": [
+		{
+			"text": "טוּפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 525,
 		"column": "b"

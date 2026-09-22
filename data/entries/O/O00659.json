@@ -1,15 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O00659",
-	"slug": "סילון-3",
-	"headword": {
-		"text": "סִילּוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סִילּוֹן",
+	"headwords": [
+		{
+			"text": "סִילּוֹן"
+		},
 		{
 			"text": "סִלּ׳",
-			"homograph": 2
+			"homograph": 2,
+			"partial": true
 		}
 	],
+	"display": "{0}, {1} II",
 	"page": {
 		"number": 979,
 		"column": "b"

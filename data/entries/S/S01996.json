@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01996",
-	"slug": "קרטט",
-	"headword": {
-		"text": "קַרְטֵט"
-	},
+	"sefariaHeadword": "קַרְטֵט",
+	"headwords": [
+		{
+			"text": "קַרְטֵט"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1416,
 		"column": "b"

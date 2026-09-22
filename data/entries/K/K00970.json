@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00970",
-	"slug": "כעס-1",
-	"headword": {
-		"text": "כָּעַס"
-	},
+	"sefariaHeadword": "כָּעַס",
+	"headwords": [
+		{
+			"text": "כָּעַס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 656,
 		"column": "a"

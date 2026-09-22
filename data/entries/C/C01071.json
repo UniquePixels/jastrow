@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01071",
-	"slug": "גמש",
-	"headword": {
-		"text": "גְּמַשׁ"
-	},
+	"sefariaHeadword": "גְּמַשׁ",
+	"headwords": [
+		{
+			"text": "גְּמַשׁ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

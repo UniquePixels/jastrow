@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "S01299",
-	"slug": "קלורית",
-	"headword": {
-		"text": "קִלּוּרִית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "קִלּוּרִית",
+	"headwords": [
+		{
+			"text": "קִלּוּרִית"
+		},
 		{
 			"text": "קִלּוּרִיתָא"
 		},
@@ -12,6 +13,7 @@
 			"text": "קִלּוּרִיתָה"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1373,
 		"column": "b"

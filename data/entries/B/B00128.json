@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00128",
-	"slug": "בדח",
-	"headword": {
-		"text": "בְּדַח"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בְּדַח",
+	"headwords": [
+		{
+			"text": "בְּדַח"
+		},
 		{
 			"text": "בְּדִיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 139,
 		"column": "b"

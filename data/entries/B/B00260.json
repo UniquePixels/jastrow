@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "B00260",
-	"slug": "בולדאר",
-	"headword": {
-		"text": "בּוּלְדָּאר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "בּוּלְדָּאר",
+	"headwords": [
+		{
+			"text": "בּוּלְדָּאר"
+		},
 		{
 			"text": "בּוּלְדָּר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 146,
 		"column": "a"

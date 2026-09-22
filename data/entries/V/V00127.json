@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00127",
-	"slug": "תהן",
-	"headword": {
-		"text": "תְּהָן"
-	},
+	"sefariaHeadword": "תְּהָן",
+	"headwords": [
+		{
+			"text": "תְּהָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1649,
 		"column": "a"

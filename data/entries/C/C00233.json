@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00233",
-	"slug": "גדם-3",
-	"headword": {
-		"text": "גִּדֵּם"
-	},
+	"sefariaHeadword": "גִּדֵּם",
+	"headwords": [
+		{
+			"text": "גִּדֵּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 213,
 		"column": "b"

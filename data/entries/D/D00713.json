@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D00713",
-	"slug": "דיקייא",
-	"headword": {
-		"text": "דיקייא"
-	},
+	"sefariaHeadword": "דיקייא",
+	"headwords": [
+		{
+			"text": "דיקייא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 305,
 		"column": "a"

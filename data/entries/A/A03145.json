@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A03145",
-	"slug": "ארכיטיקטון",
-	"headword": {
-		"text": "אַרְכִיטִיקְטוֹן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַרְכִיטִיקְטוֹן",
+	"headwords": [
+		{
+			"text": "אַרְכִיטִיקְטוֹן"
+		},
 		{
 			"text": "אַרְכִיטִיקְטוֹס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 122,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B01368",
-	"slug": "בשר-1",
-	"headword": {
-		"text": "בָּשַׂר"
-	},
+	"sefariaHeadword": "בָּשַׂר",
+	"headwords": [
+		{
+			"text": "בָּשַׂר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 199,
 		"column": "b"

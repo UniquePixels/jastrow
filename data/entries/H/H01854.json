@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01854",
-	"slug": "חשכתא-1",
-	"headword": {
-		"text": "חֲשֵׁכְתָּא"
-	},
+	"sefariaHeadword": "חֲשֵׁכְתָּא",
+	"headwords": [
+		{
+			"text": "חֲשֵׁכְתָּא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 511,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S00060",
-	"slug": "קבל-4",
-	"headword": {
-		"text": "קְבַל",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "קְבַל ²",
+	"headwords": [
+		{
+			"text": "קְבַל",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 1309,
 		"column": "b"

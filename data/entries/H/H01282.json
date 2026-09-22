@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01282",
-	"slug": "חניות",
-	"headword": {
-		"text": "חֲניּוֹת"
-	},
+	"sefariaHeadword": "חֲניֹּות",
+	"headwords": [
+		{
+			"text": "חֲניּוֹת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 483,
 		"column": "a"

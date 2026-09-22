@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "P00288",
-	"slug": "עומר",
-	"headword": {
-		"text": "עוֹמֶר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עוֹמֶר",
+	"headwords": [
+		{
+			"text": "עוֹמֶר"
+		},
 		{
 			"text": "עֹמֶר"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1053,
 		"column": "a"

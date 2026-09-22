@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00302",
-	"slug": "ציבתא-3",
-	"headword": {
-		"text": "צִיבְּתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִיבְּתָא",
+	"headwords": [
+		{
+			"text": "צִיבְּתָא"
+		},
 		{
 			"text": "צִבְּתָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1274,
 		"column": "b"

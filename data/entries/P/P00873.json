@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00873",
-	"slug": "עמוס-2",
-	"headword": {
-		"text": "עָמוֹס"
-	},
+	"sefariaHeadword": "עָמוֹס",
+	"headwords": [
+		{
+			"text": "עָמוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1087,
 		"column": "b"

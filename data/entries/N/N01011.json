@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01011",
-	"slug": "נערותא",
-	"headword": {
-		"text": "נַעֲרוּתָא"
-	},
+	"sefariaHeadword": "נַעֲרוּתָא",
+	"headwords": [
+		{
+			"text": "נַעֲרוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 922,
 		"column": "a"

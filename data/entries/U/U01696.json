@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01696",
-	"slug": "שעשועית",
-	"headword": {
-		"text": "שַׁעֲשׁוּעִית"
-	},
+	"sefariaHeadword": "שַׁעֲשׁוּעִית",
+	"headwords": [
+		{
+			"text": "שַׁעֲשׁוּעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1613,
 		"column": "a"

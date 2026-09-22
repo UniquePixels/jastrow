@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01611",
-	"slug": "קנקל-2",
-	"headword": {
-		"text": "קַנְקַל"
-	},
+	"sefariaHeadword": "קַנְקַל",
+	"headwords": [
+		{
+			"text": "קַנְקַל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1394,
 		"column": "b"

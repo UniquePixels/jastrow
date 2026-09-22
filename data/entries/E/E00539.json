@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "E00539",
-	"slug": "הלואי",
-	"headword": {
-		"text": "הַלְוַאי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "הַלְוַאי",
+	"headwords": [
+		{
+			"text": "הַלְוַאי"
+		},
 		{
 			"text": "הַלְוַואי"
 		},
@@ -12,6 +13,7 @@
 			"text": "הַלְוַוי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 352,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01613",
-	"slug": "קנקלטין",
-	"headword": {
-		"text": "קַנְקְלָטִין"
-	},
+	"sefariaHeadword": "קַנְקְלָטִין",
+	"headwords": [
+		{
+			"text": "קַנְקְלָטִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1394,
 		"column": "b"

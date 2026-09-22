@@ -1,21 +1,25 @@
 {
+	"schemaVersion": 2,
 	"id": "K01389",
-	"slug": "כתר-4",
-	"headword": {
-		"text": "כְּתַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתַר ²",
+	"headwords": [
+		{
+			"text": "כְּתַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "כִּתְרָא"
 		},
 		{
-			"text": "כִּי׳"
+			"text": "כִּי׳",
+			"partial": true
 		},
 		{
-			"text": "כּוּ׳"
+			"text": "כּוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}, {3}",
 	"page": {
 		"number": 682,
 		"column": "b"

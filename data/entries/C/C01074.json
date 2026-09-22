@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01074",
-	"slug": "גנא-2",
-	"headword": {
-		"text": "גְּנָא"
-	},
+	"sefariaHeadword": "גְּנָא",
+	"headwords": [
+		{
+			"text": "גְּנָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 256,
 		"column": "a"

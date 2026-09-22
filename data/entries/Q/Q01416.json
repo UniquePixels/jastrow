@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01416",
-	"slug": "פפליון",
-	"headword": {
-		"text": "פָּפִלְיוֹן"
-	},
+	"sefariaHeadword": "פָּפִלְיוֹן",
+	"headwords": [
+		{
+			"text": "פָּפִלְיוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1204,
 		"column": "b"

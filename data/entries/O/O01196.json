@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "O01196",
-	"slug": "סנהדרי-2",
-	"headword": {
-		"text": "סַנְהֶדְרִי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סַנְהֶדְרִי",
+	"headwords": [
+		{
+			"text": "סַנְהֶדְרִי"
+		},
 		{
 			"text": "סַנְהֶדְרִין"
 		},
@@ -12,6 +13,7 @@
 			"text": "סַנְדְּרִי"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1005,
 		"column": "b"

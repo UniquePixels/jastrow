@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01078",
-	"slug": "תשורה",
-	"headword": {
-		"text": "תְּשׁוּרָה"
-	},
+	"sefariaHeadword": "תְּשׁוּרָה",
+	"headwords": [
+		{
+			"text": "תְּשׁוּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1703,
 		"column": "b"

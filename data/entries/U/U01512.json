@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "U01512",
-	"slug": "שמע-2",
-	"headword": {
-		"text": "שְׁמַע",
-		"homograph": 1
-	},
+	"sefariaHeadword": "שְׁמַע I",
+	"headwords": [
+		{
+			"text": "שְׁמַע",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1599,
 		"column": "a"

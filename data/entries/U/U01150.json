@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "U01150",
-	"slug": "שכין-2",
-	"headword": {
-		"text": "שַׂכִּין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "שַׂכִּין",
+	"headwords": [
+		{
+			"text": "שַׂכִּין"
+		},
 		{
 			"text": "שַׂכִּינָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1573,
 		"column": "b"

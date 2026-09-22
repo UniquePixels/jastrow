@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00934",
-	"slug": "בנאה",
-	"headword": {
-		"text": "בַּנָּאָה"
-	},
+	"sefariaHeadword": "בַּנָּאָה",
+	"headwords": [
+		{
+			"text": "בַּנָּאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 176,
 		"column": "b"

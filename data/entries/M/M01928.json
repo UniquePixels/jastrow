@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M01928",
-	"slug": "מסיק-2",
-	"headword": {
-		"text": "מַסֵּיק"
-	},
+	"sefariaHeadword": "מַסֵּיק",
+	"headwords": [
+		{
+			"text": "מַסֵּיק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 807,
 		"column": "a"

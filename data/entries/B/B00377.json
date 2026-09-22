@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B00377",
-	"slug": "בורני-2",
-	"headword": {
-		"text": "בּוּרְנִי",
-		"homograph": 2
-	},
+	"sefariaHeadword": "בּוּרְנִי II",
+	"headwords": [
+		{
+			"text": "בּוּרְנִי",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 150,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

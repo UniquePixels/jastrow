@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00387",
-	"slug": "נוף-1",
-	"headword": {
-		"text": "נוּף"
-	},
+	"sefariaHeadword": "נוּף",
+	"headwords": [
+		{
+			"text": "נוּף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 888,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00765",
-	"slug": "ניקולוגוס",
-	"headword": {
-		"text": "נִיקוֹלוֹגוֹס"
-	},
+	"sefariaHeadword": "נִיקוֹלוֹגוֹס",
+	"headwords": [
+		{
+			"text": "נִיקוֹלוֹגוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 908,
 		"column": "a"

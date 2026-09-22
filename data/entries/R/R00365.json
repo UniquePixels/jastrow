@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "R00365",
-	"slug": "צילצולין",
-	"headword": {
-		"text": "צִילְצוֹלִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צִילְצוֹלִין",
+	"headwords": [
+		{
+			"text": "צִילְצוֹלִין"
+		},
 		{
 			"text": "צִילְצָל"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1277,
 		"column": "a"

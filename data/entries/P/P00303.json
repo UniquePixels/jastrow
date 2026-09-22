@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00303",
-	"slug": "עוננין",
-	"headword": {
-		"text": "עוֹנְנִין"
-	},
+	"sefariaHeadword": "עוֹנְנִין",
+	"headwords": [
+		{
+			"text": "עוֹנְנִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1055,
 		"column": "a"

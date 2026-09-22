@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "V00695",
-	"slug": "תמני",
-	"headword": {
-		"text": "תַּמְנֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "תַּמְנֵי",
+	"headwords": [
+		{
+			"text": "תַּמְנֵי"
+		},
 		{
 			"text": "תְּמָנֵי"
 		},
@@ -12,6 +13,7 @@
 			"text": "תְּמַנְיָא"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1678,
 		"column": "a"

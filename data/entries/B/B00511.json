@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00511",
-	"slug": "בטילא",
-	"headword": {
-		"text": "בְּטֵילָא"
-	},
+	"sefariaHeadword": "בְּטֵילָא",
+	"headwords": [
+		{
+			"text": "בְּטֵילָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 156,
 		"column": "b"

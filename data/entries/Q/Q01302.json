@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01302",
-	"slug": "פסיסית",
-	"headword": {
-		"text": "פְּסִיסִית"
-	},
+	"sefariaHeadword": "פְּסִיסִית",
+	"headwords": [
+		{
+			"text": "פְּסִיסִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

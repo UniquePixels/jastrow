@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01974",
-	"slug": "פרצה",
-	"headword": {
-		"text": "פִּרְצָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פִּרְצָה",
+	"headwords": [
 		{
-			"text": "פִּירְ׳"
+			"text": "פִּרְצָה"
+		},
+		{
+			"text": "פִּירְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1237,
 		"column": "b"

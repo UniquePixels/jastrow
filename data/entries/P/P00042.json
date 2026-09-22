@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00042",
-	"slug": "עבי-4",
-	"headword": {
-		"text": "עֳבִי"
-	},
+	"sefariaHeadword": "עֳבִי",
+	"headwords": [
+		{
+			"text": "עֳבִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1037,
 		"column": "b"

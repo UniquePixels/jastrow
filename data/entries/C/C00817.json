@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "C00817",
-	"slug": "גירדי",
-	"headword": {
-		"text": "גִּירְדַּי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "גִּירְדַּי",
+	"headwords": [
+		{
+			"text": "גִּירְדַּי"
+		},
 		{
 			"text": "גִּירְדָּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 242,
 		"column": "b"

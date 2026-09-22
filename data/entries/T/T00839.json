@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "T00839",
-	"slug": "רמשית",
-	"headword": {
-		"text": "רַמְשִׁית"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רַמְשִׁית",
+	"headwords": [
 		{
-			"text": "רוּ׳"
+			"text": "רַמְשִׁית"
+		},
+		{
+			"text": "רוּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1483,
 		"column": "b"

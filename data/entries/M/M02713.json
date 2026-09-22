@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02713",
-	"slug": "מרמוצי",
-	"headword": {
-		"text": "מַרְמוּצִי"
-	},
+	"sefariaHeadword": "מַרְמוּצִי",
+	"headwords": [
+		{
+			"text": "מַרְמוּצִי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 844,
 		"column": "b"

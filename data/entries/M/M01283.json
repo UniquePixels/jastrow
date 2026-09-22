@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M01283",
-	"slug": "מיצרא",
-	"headword": {
-		"text": "מִיצְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִיצְרָא",
+	"headwords": [
+		{
+			"text": "מִיצְרָא"
+		},
 		{
 			"text": "מִיצְרָאָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 778,
 		"column": "b"

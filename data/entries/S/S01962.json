@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01962",
-	"slug": "קרורטין",
-	"headword": {
-		"text": "קרורטין"
-	},
+	"sefariaHeadword": "קרורטין",
+	"headwords": [
+		{
+			"text": "קרורטין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1415,
 		"column": "a"

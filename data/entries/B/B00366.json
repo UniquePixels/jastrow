@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00366",
-	"slug": "בורך",
-	"headword": {
-		"text": "בּוֹרֶךְ"
-	},
+	"sefariaHeadword": "בּוֹרֶךְ",
+	"headwords": [
+		{
+			"text": "בּוֹרֶךְ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 150,
 		"column": "b"

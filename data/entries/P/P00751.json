@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00751",
-	"slug": "עכשבוניתא",
-	"headword": {
-		"text": "עַכְשְׁבוֹנִיתָא"
-	},
+	"sefariaHeadword": "עַכְשְׁבוֹנִיתָא",
+	"headwords": [
+		{
+			"text": "עַכְשְׁבוֹנִיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1080,
 		"column": "a"

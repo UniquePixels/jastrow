@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00145",
-	"slug": "רברב-1",
-	"headword": {
-		"text": "רִבְרֵב"
-	},
+	"sefariaHeadword": "רִבְרֵב",
+	"headwords": [
+		{
+			"text": "רִבְרֵב"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1446,
 		"column": "a"

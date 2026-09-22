@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00107",
-	"slug": "רביעית",
-	"headword": {
-		"text": "רְבִיעִית"
-	},
+	"sefariaHeadword": "רְבִיעִית",
+	"headwords": [
+		{
+			"text": "רְבִיעִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1443,
 		"column": "a"

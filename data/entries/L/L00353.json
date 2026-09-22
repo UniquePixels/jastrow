@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00353",
-	"slug": "לחישה",
-	"headword": {
-		"text": "לְחִישָׁה"
-	},
+	"sefariaHeadword": "לְחִישָׁה",
+	"headwords": [
+		{
+			"text": "לְחִישָׁה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "B01374",
-	"slug": "בשרותה",
-	"headword": {
-		"text": "בִּשְׂרוּתָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בִּשְׂרוּתָה",
+	"headwords": [
+		{
+			"text": "בִּשְׂרוּתָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 200,
 		"column": "a"

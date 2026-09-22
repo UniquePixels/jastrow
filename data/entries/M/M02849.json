@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02849",
-	"slug": "משח-4",
-	"headword": {
-		"text": "מְשַׁח",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מְשַׁח ²",
+	"headwords": [
+		{
+			"text": "מְשַׁח",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 851,
 		"column": "a"

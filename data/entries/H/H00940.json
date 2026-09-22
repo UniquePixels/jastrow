@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "H00940",
-	"slug": "חכם-2",
-	"headword": {
-		"text": "חֲכַם"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חֲכַם",
+	"headwords": [
+		{
+			"text": "חֲכַם"
+		},
 		{
 			"text": "חֲכִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "חַכִּים"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 462,
 		"column": "b"

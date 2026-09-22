@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00999",
-	"slug": "אחה",
-	"headword": {
-		"text": "אָחָה"
-	},
+	"sefariaHeadword": "אָחָה",
+	"headwords": [
+		{
+			"text": "אָחָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 39,
 		"column": "a"

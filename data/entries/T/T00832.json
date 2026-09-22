@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00832",
-	"slug": "רמץ-1",
-	"headword": {
-		"text": "רָמַץ"
-	},
+	"sefariaHeadword": "רָמַץ",
+	"headwords": [
+		{
+			"text": "רָמַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1483,
 		"column": "b"

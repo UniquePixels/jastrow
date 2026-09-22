@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01123",
-	"slug": "כרום-1",
-	"headword": {
-		"text": "כְּרוּם"
-	},
+	"sefariaHeadword": "כְּרוּם",
+	"headwords": [
+		{
+			"text": "כְּרוּם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 665,
 		"column": "a"

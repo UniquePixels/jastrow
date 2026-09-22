@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H00571",
-	"slug": "חזרר",
-	"headword": {
-		"text": "חַזְרָר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חַזְרָר",
+	"headwords": [
+		{
+			"text": "חַזְרָר"
+		},
 		{
 			"text": "חַזְרָד"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 447,
 		"column": "a"

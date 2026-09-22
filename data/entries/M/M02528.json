@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M02528",
-	"slug": "מרד-1",
-	"headword": {
-		"text": "מָרַד",
-		"homograph": 1
-	},
+	"sefariaHeadword": "מָרַד I",
+	"headwords": [
+		{
+			"text": "מָרַד",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 836,
 		"column": "b"

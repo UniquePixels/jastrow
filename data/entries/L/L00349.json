@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00349",
-	"slug": "לחיכה",
-	"headword": {
-		"text": "לְחִיכָה"
-	},
+	"sefariaHeadword": "לְחִיכָה",
+	"headwords": [
+		{
+			"text": "לְחִיכָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 703,
 		"column": "a"

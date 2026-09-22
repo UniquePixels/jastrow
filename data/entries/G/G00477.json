@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00477",
-	"slug": "זלג-1",
-	"headword": {
-		"text": "זָלַג"
-	},
+	"sefariaHeadword": "זָלַג",
+	"headwords": [
+		{
+			"text": "זָלַג"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 401,
 		"column": "a"

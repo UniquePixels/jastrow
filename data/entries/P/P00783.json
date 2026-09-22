@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P00783",
-	"slug": "עלולי",
-	"headword": {
-		"text": "עֲלוּלֵי"
-	},
+	"sefariaHeadword": "עֲלוּלֵי",
+	"headwords": [
+		{
+			"text": "עֲלוּלֵי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1081,
 		"column": "a"

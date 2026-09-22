@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "K01051",
-	"slug": "כפרא-2",
-	"headword": {
-		"text": "כַּפְרָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כַּפְרָא",
+	"headwords": [
+		{
+			"text": "כַּפְרָא"
+		},
 		{
 			"text": "כַּפְרָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 662,
 		"column": "a"

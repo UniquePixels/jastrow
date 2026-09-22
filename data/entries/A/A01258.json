@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01258",
-	"slug": "איכפת",
-	"headword": {
-		"text": "אִיכְפַּת"
-	},
+	"sefariaHeadword": "אִיכְפַּת",
+	"headwords": [
+		{
+			"text": "אִיכְפַּת"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 48,
 		"column": "a"

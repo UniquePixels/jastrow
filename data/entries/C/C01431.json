@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "C01431",
-	"slug": "גת-3",
-	"headword": {
-		"text": "גַּת",
-		"homograph": 3
-	},
+	"sefariaHeadword": "גַּת III",
+	"headwords": [
+		{
+			"text": "גַּת",
+			"homograph": 3
+		}
+	],
+	"display": "{0} III",
 	"page": {
 		"number": 274,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C01049",
-	"slug": "גמלין",
-	"headword": {
-		"text": "גִּמְלִין"
-	},
+	"sefariaHeadword": "גִּמְלִין",
+	"headwords": [
+		{
+			"text": "גִּמְלִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 254,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "L00331",
-	"slug": "לזו",
-	"headword": {
-		"text": "לֵזוּ"
-	},
+	"sefariaHeadword": "לֵזוּ",
+	"headwords": [
+		{
+			"text": "לֵזוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 701,
 		"column": "b"

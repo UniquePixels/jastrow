@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01955",
-	"slug": "קרוסטומיל",
-	"headword": {
-		"text": "קְרוּסְטוּמִיל"
-	},
+	"sefariaHeadword": "קְרוּסְטוּמִיל",
+	"headwords": [
+		{
+			"text": "קְרוּסְטוּמִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1414,
 		"column": "b"

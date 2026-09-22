@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00929",
-	"slug": "פלאגרה",
-	"headword": {
-		"text": "פלאגרה"
-	},
+	"sefariaHeadword": "פלאגרה",
+	"headwords": [
+		{
+			"text": "פלאגרה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1174,
 		"column": "b"

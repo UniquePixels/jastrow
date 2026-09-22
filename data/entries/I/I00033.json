@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "I00033",
-	"slug": "טבול",
-	"headword": {
-		"text": "טִבּוּל"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "טִבּוּל",
+	"headwords": [
+		{
+			"text": "טִבּוּל"
+		},
 		{
 			"text": "טִבּוּלָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 516,
 		"column": "a"

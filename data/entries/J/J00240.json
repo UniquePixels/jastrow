@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "J00240",
-	"slug": "יורה-2",
-	"headword": {
-		"text": "יוֹרֶה",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "יוֹרֶה II",
+	"headwords": [
+		{
+			"text": "יוֹרֶה",
+			"homograph": 2
+		},
 		{
 			"text": "יוֹרָה"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 571,
 		"column": "b"

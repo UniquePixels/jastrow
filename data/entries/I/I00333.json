@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00333",
-	"slug": "טיטס",
-	"headword": {
-		"text": "טִיטָס"
-	},
+	"sefariaHeadword": "טִיטָס",
+	"headwords": [
+		{
+			"text": "טִיטָס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "b"

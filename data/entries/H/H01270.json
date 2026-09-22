@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "H01270",
-	"slug": "חנוקא",
-	"headword": {
-		"text": "חָנוֹקָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חָנוֹקָא",
+	"headwords": [
+		{
+			"text": "חָנוֹקָא"
+		},
 		{
 			"text": "חָנוֹקָה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 482,
 		"column": "a"

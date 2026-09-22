@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00768",
-	"slug": "אונקים",
-	"headword": {
-		"text": "אונקים"
-	},
+	"sefariaHeadword": "אונקים",
+	"headwords": [
+		{
+			"text": "אונקים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 30,
 		"column": "a"

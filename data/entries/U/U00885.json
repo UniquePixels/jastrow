@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U00885",
-	"slug": "שיטותא",
-	"headword": {
-		"text": "שִׁיטְוָתָא"
-	},
+	"sefariaHeadword": "שִׁיטְוָתָא",
+	"headwords": [
+		{
+			"text": "שִׁיטְוָתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1560,
 		"column": "b"

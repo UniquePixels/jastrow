@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00430",
-	"slug": "טירה",
-	"headword": {
-		"text": "טִירָה"
-	},
+	"sefariaHeadword": "טִירָה",
+	"headwords": [
+		{
+			"text": "טִירָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 534,
 		"column": "a"

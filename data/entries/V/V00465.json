@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00465",
-	"slug": "תימליוס",
-	"headword": {
-		"text": "תִּימַלְיוֹס"
-	},
+	"sefariaHeadword": "תִּימַלְיוֹס",
+	"headwords": [
+		{
+			"text": "תִּימַלְיוֹס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1665,
 		"column": "a"

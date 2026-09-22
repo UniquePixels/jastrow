@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01574",
-	"slug": "שנוא",
-	"headword": {
-		"text": "שַׂנּוֹא"
-	},
+	"sefariaHeadword": "שַׂנֹּוא",
+	"headwords": [
+		{
+			"text": "שַׂנּוֹא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1605,
 		"column": "a"

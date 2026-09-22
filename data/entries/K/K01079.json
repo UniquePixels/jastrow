@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "K01079",
-	"slug": "כרבא-2",
-	"headword": {
-		"text": "כְּרָבָא",
-		"homograph": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּרָבָא II",
+	"headwords": [
+		{
+			"text": "כְּרָבָא",
+			"homograph": 2
+		},
 		{
 			"text": "כַּרְבָּא"
 		}
 	],
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 663,
 		"column": "b"

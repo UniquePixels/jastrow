@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "P01156",
-	"slug": "עקה",
-	"headword": {
-		"text": "עָקָה"
-	},
+	"sefariaHeadword": "עָקָה",
+	"headwords": [
+		{
+			"text": "עָקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1105,
 		"column": "a"

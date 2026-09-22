@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02053",
-	"slug": "קרייה-2",
-	"headword": {
-		"text": "קַרְיָיה"
-	},
+	"sefariaHeadword": "קַרְיָיה",
+	"headwords": [
+		{
+			"text": "קַרְיָיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

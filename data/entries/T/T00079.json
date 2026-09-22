@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T00079",
-	"slug": "רבותא-3",
-	"headword": {
-		"text": "רַבּוּתָא"
-	},
+	"sefariaHeadword": "רַבּוּתָא",
+	"headwords": [
+		{
+			"text": "רַבּוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1440,
 		"column": "b"

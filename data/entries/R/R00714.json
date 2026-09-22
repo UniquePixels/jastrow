@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "R00714",
-	"slug": "צפר-4",
-	"headword": {
-		"text": "צְפַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "צְפַר III",
+	"headwords": [
+		{
+			"text": "צְפַר",
+			"homograph": 3
+		},
 		{
 			"text": "צִפְרָא"
 		}
 	],
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1298,
 		"column": "b"

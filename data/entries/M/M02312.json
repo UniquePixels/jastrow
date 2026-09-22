@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02312",
-	"slug": "מציאה",
-	"headword": {
-		"text": "מְצִיאָה"
-	},
+	"sefariaHeadword": "מְצִיאָה",
+	"headwords": [
+		{
+			"text": "מְצִיאָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 826,
 		"column": "a"

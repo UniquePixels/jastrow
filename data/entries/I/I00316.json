@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "I00316",
-	"slug": "טידיינא",
-	"headword": {
-		"text": "טידיינא"
-	},
+	"sefariaHeadword": "טידיינא",
+	"headwords": [
+		{
+			"text": "טידיינא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 530,
 		"column": "a"

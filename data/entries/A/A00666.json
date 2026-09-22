@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00666",
-	"slug": "אולון",
-	"headword": {
-		"text": "אוֹלוֹן"
-	},
+	"sefariaHeadword": "אוֹלוֹן",
+	"headwords": [
+		{
+			"text": "אוֹלוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 25,
 		"column": "b"

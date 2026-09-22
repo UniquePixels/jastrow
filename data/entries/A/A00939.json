@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A00939",
-	"slug": "אות-1",
-	"headword": {
-		"text": "אוֹת",
-		"homograph": 1
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אוֹת I",
+	"headwords": [
+		{
+			"text": "אוֹת",
+			"homograph": 1
+		},
 		{
 			"text": "אוּת"
 		}
 	],
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 36,
 		"column": "a"

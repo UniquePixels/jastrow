@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "N00243",
-	"slug": "נדר-5",
-	"headword": {
-		"text": "נְדַר",
-		"homograph": 3
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נְדַר III",
+	"headwords": [
+		{
+			"text": "נְדַר",
+			"homograph": 3
+		},
 		{
 			"text": "נִדְרָא"
 		},
 		{
-			"text": "נִי׳"
+			"text": "נִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0} III, {1}, {2}",
 	"page": {
 		"number": 880,
 		"column": "b"

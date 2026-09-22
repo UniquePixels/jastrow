@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01511",
-	"slug": "שמע-1",
-	"headword": {
-		"text": "שָׁמַע"
-	},
+	"sefariaHeadword": "שָׁמַע",
+	"headwords": [
+		{
+			"text": "שָׁמַע"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1598,
 		"column": "b"

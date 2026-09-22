@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00766",
-	"slug": "צרידא-1",
-	"headword": {
-		"text": "צרידא"
-	},
+	"sefariaHeadword": "צרידא",
+	"headwords": [
+		{
+			"text": "צרידא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1301,
 		"column": "b"

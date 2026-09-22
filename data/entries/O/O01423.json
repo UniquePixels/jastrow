@@ -1,16 +1,18 @@
 {
+	"schemaVersion": 2,
 	"id": "O01423",
-	"slug": "ספר-9",
-	"headword": {
-		"text": "סָפַר",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סָפַר ²",
+	"headwords": [
+		{
+			"text": "סָפַר",
+			"disambiguator": 2
+		},
 		{
 			"text": "סַפְרָא",
 			"homograph": 1
 		}
 	],
+	"display": "{0} ², {1} I",
 	"page": {
 		"number": 1018,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01296",
-	"slug": "פסים-1",
-	"headword": {
-		"text": "פַּסִּים"
-	},
+	"sefariaHeadword": "פַּסִּים",
+	"headwords": [
+		{
+			"text": "פַּסִּים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1195,
 		"column": "b"

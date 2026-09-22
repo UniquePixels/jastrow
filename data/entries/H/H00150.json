@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H00150",
-	"slug": "חגיי",
-	"headword": {
-		"text": "חַגַּיי"
-	},
+	"sefariaHeadword": "חַגַּיי",
+	"headwords": [
+		{
+			"text": "חַגַּיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 424,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "P01137",
-	"slug": "עצרתא-1",
-	"headword": {
-		"text": "עֲצַרְתָּא",
-		"homograph": 1
-	},
+	"sefariaHeadword": "עֲצַרְתָּא I",
+	"headwords": [
+		{
+			"text": "עֲצַרְתָּא",
+			"homograph": 1
+		}
+	],
+	"display": "{0} I",
 	"page": {
 		"number": 1104,
 		"column": "a"

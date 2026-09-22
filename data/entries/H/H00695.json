@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "H00695",
-	"slug": "חיזוק",
-	"headword": {
-		"text": "חִיזּוּק"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "חִיזּוּק",
+	"headwords": [
 		{
-			"text": "חִזּ׳"
+			"text": "חִיזּוּק"
+		},
+		{
+			"text": "חִזּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 453,
 		"column": "a"

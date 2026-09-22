@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "P00533",
-	"slug": "עיטור",
-	"headword": {
-		"text": "עִיטּוּר"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "עִיטּוּר",
+	"headwords": [
 		{
-			"text": "עִפּ׳"
+			"text": "עִיטּוּר"
+		},
+		{
+			"text": "עִפּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1068,
 		"column": "b"

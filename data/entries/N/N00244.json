@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00244",
-	"slug": "נדרא",
-	"headword": {
-		"text": "נָדֵרָא"
-	},
+	"sefariaHeadword": "נָדֵרָא",
+	"headwords": [
+		{
+			"text": "נָדֵרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 880,
 		"column": "b"

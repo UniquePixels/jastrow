@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01409",
-	"slug": "קלק-1",
-	"headword": {
-		"text": "קלק"
-	},
+	"sefariaHeadword": "קלק",
+	"headwords": [
+		{
+			"text": "קלק"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1381,
 		"column": "b"

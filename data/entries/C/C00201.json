@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00201",
-	"slug": "גדייא",
-	"headword": {
-		"text": "גַּדְיָיא"
-	},
+	"sefariaHeadword": "גַּדְיָיא",
+	"headwords": [
+		{
+			"text": "גַּדְיָיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

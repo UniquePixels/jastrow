@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00764",
-	"slug": "סיסרטון",
-	"headword": {
-		"text": "סיסרטון"
-	},
+	"sefariaHeadword": "סיסרטון",
+	"headwords": [
+		{
+			"text": "סיסרטון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 984,
 		"column": "a"

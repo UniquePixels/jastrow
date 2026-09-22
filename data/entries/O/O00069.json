@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00069",
-	"slug": "סבכיי",
-	"headword": {
-		"text": "סִבְכַיי"
-	},
+	"sefariaHeadword": "סִבְכַיי",
+	"headwords": [
+		{
+			"text": "סִבְכַיי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 950,
 		"column": "b"

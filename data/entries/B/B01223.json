@@ -1,16 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "B01223",
-	"slug": "ברזילה",
-	"headword": {
-		"text": "בַּרְזִילָה",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*בַּרְזִילָה",
+	"headwords": [
+		{
+			"text": "בַּרְזִילָה",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 191,
 		"column": "b"
-	},
-	"grammar": {
-		"number": "pl"
 	},
 	"senses": [
 		{

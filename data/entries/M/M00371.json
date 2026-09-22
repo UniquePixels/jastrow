@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00371",
-	"slug": "מהלך-2",
-	"headword": {
-		"text": "מַהֲלַךְ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַהֲלַךְ",
+	"headwords": [
+		{
+			"text": "מַהֲלַךְ"
+		},
 		{
 			"text": "מְהַלֵיךְ"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 737,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "J00607",
-	"slug": "ירוית",
-	"headword": {
-		"text": "ירוית"
-	},
+	"sefariaHeadword": "ירוית",
+	"headwords": [
+		{
+			"text": "ירוית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 595,
 		"column": "a"

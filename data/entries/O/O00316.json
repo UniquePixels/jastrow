@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "O00316",
-	"slug": "סולגיתא",
-	"headword": {
-		"text": "סוּלְגִּיתָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "סוּלְגִּיתָא",
+	"headwords": [
 		{
-			"text": "סַלְ׳"
+			"text": "סוּלְגִּיתָא"
+		},
+		{
+			"text": "סַלְ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 964,
 		"column": "b"

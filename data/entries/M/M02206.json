@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02206",
-	"slug": "מפחן",
-	"headword": {
-		"text": "מַפְּחַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מַפְּחַן",
+	"headwords": [
+		{
+			"text": "מַפְּחַן"
+		},
 		{
 			"text": "מַפְּחַת"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 820,
 		"column": "b"

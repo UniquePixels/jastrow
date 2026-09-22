@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A02298",
-	"slug": "אנקליטון-2",
-	"headword": {
-		"text": "אנקליטון",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אנקליטון",
+	"headwords": [
+		{
+			"text": "אנקליטון",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 88,
 		"column": "a"

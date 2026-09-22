@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01688",
-	"slug": "קעילית",
-	"headword": {
-		"text": "קְעִילִית"
-	},
+	"sefariaHeadword": "קְעִילִית",
+	"headwords": [
+		{
+			"text": "קְעִילִית"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1397,
 		"column": "b"

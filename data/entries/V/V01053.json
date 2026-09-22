@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V01053",
-	"slug": "תרץ",
-	"headword": {
-		"text": "תְּרַץ"
-	},
+	"sefariaHeadword": "תְּרַץ",
+	"headwords": [
+		{
+			"text": "תְּרַץ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1702,
 		"column": "a"

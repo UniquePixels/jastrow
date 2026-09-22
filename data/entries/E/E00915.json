@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00915",
-	"slug": "השגרה",
-	"headword": {
-		"text": "הַשְׁגָּרָה"
-	},
+	"sefariaHeadword": "הַשְׁגָּרָה",
+	"headwords": [
+		{
+			"text": "הַשְׁגָּרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 369,
 		"column": "b"

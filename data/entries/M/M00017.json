@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00017",
-	"slug": "מאושבן",
-	"headword": {
-		"text": "מאושבן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מאושבן",
+	"headwords": [
+		{
+			"text": "מאושבן"
+		},
 		{
 			"text": "מְאוּשְׁכָּן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 722,
 		"column": "a"

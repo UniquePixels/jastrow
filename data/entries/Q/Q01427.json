@@ -1,17 +1,20 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01427",
-	"slug": "פציד",
-	"headword": {
-		"text": "פַּצִּיד"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּצִּיד",
+	"headwords": [
+		{
+			"text": "פַּצִּיד"
+		},
 		{
 			"text": "פַּצִּידָא"
 		},
 		{
-			"text": "פְּ׳"
+			"text": "פְּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1204,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00902",
-	"slug": "כסו",
-	"headword": {
-		"text": "כְּסוּ"
-	},
+	"sefariaHeadword": "כְּסוּ",
+	"headwords": [
+		{
+			"text": "כְּסוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 652,
 		"column": "b"

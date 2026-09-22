@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00676",
-	"slug": "מורשיא",
-	"headword": {
-		"text": "מורשיא"
-	},
+	"sefariaHeadword": "מורשיא",
+	"headwords": [
+		{
+			"text": "מורשיא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 751,
 		"column": "a"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00211",
-	"slug": "גדין",
-	"headword": {
-		"text": "גְּדִין"
-	},
+	"sefariaHeadword": "גְּדִין",
+	"headwords": [
+		{
+			"text": "גְּדִין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 212,
 		"column": "a"

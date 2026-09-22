@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00385",
-	"slug": "תחרו",
-	"headword": {
-		"text": "תַּחֲרוּ"
-	},
+	"sefariaHeadword": "תַּחֲרוּ",
+	"headwords": [
+		{
+			"text": "תַּחֲרוּ"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1662,
 		"column": "a"

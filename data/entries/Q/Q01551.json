@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01551",
-	"slug": "פרגוד-1",
-	"headword": {
-		"text": "פַּרְגּוֹד"
-	},
+	"sefariaHeadword": "פַּרְגּוֹד",
+	"headwords": [
+		{
+			"text": "פַּרְגּוֹד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1214,
 		"column": "a"

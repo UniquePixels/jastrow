@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M02013",
-	"slug": "מסרבן",
-	"headword": {
-		"text": "מְסַרְבָּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְסַרְבָּן",
+	"headwords": [
+		{
+			"text": "מְסַרְבָּן"
+		},
 		{
 			"text": "מְסַרְבָּנָא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 811,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00419",
-	"slug": "נורה",
-	"headword": {
-		"text": "נורה"
-	},
+	"sefariaHeadword": "נורה",
+	"headwords": [
+		{
+			"text": "נורה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 890,
 		"column": "a"

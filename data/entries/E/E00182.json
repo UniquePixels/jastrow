@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "E00182",
-	"slug": "הואיל",
-	"headword": {
-		"text": "הוֹאִיל"
-	},
+	"sefariaHeadword": "הוֹאִיל",
+	"headwords": [
+		{
+			"text": "הוֹאִיל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 336,
 		"column": "a"

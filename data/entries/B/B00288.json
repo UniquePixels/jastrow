@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00288",
-	"slug": "בוסם-1",
-	"headword": {
-		"text": "בּוֹסֶם"
-	},
+	"sefariaHeadword": "בֹּוסֶם",
+	"headwords": [
+		{
+			"text": "בּוֹסֶם"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 147,
 		"column": "a"

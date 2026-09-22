@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "K01354",
-	"slug": "כתונת",
-	"headword": {
-		"text": "כְּתוֹנֶת"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "כְּתוֹנֶת",
+	"headwords": [
+		{
+			"text": "כְּתוֹנֶת"
+		},
 		{
 			"text": "כֻּתּוֹנֶת"
 		},
@@ -12,6 +13,7 @@
 			"text": "כְּתֹנֶת"
 		}
 	],
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 680,
 		"column": "b"

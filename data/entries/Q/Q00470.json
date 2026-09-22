@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00470",
-	"slug": "פחיח",
-	"headword": {
-		"text": "פָּחֵיחַ"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פָּחֵיחַ",
+	"headwords": [
+		{
+			"text": "פָּחֵיחַ"
+		},
 		{
 			"text": "פְּחִיחַ"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1152,
 		"column": "b"

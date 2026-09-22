@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00626",
-	"slug": "גיד",
-	"headword": {
-		"text": "גִּיד"
-	},
+	"sefariaHeadword": "גִּיד",
+	"headwords": [
+		{
+			"text": "גִּיד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 234,
 		"column": "b"

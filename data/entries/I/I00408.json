@@ -1,11 +1,15 @@
 {
+	"schemaVersion": 2,
 	"id": "I00408",
-	"slug": "טיף-2",
-	"headword": {
-		"text": "טִיף",
-		"reconstructed": true,
-		"homograph": 2
-	},
+	"sefariaHeadword": "*טִיף II",
+	"headwords": [
+		{
+			"text": "טִיף",
+			"reconstructed": true,
+			"homograph": 2
+		}
+	],
+	"display": "*{0} II",
 	"page": {
 		"number": 533,
 		"column": "a"

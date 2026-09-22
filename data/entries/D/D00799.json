@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00799",
-	"slug": "דל-3",
-	"headword": {
-		"text": "דַּל",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דַּל II",
+	"headwords": [
+		{
+			"text": "דַּל",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 308,
 		"column": "b"

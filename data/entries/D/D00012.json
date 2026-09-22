@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "D00012",
-	"slug": "דאה-2",
-	"headword": {
-		"text": "דָּאָה",
-		"homograph": 2
-	},
+	"sefariaHeadword": "דָּאָה II",
+	"headwords": [
+		{
+			"text": "דָּאָה",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 275,
 		"column": "b"

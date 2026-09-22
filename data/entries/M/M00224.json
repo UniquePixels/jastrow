@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00224",
-	"slug": "מגרפתיה",
-	"headword": {
-		"text": "מגרפתיה"
-	},
+	"sefariaHeadword": "מגרפתיה",
+	"headwords": [
+		{
+			"text": "מגרפתיה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 730,
 		"column": "b"

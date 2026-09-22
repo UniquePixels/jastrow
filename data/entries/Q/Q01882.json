@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q01882",
-	"slug": "פרנגן",
-	"headword": {
-		"text": "פְּרַנְגַּן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פְּרַנְגַּן",
+	"headwords": [
+		{
+			"text": "פְּרַנְגַּן"
+		},
 		{
 			"text": "פַּרְנִיגָן"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1230,
 		"column": "b"

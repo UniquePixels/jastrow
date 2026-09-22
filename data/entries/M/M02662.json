@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M02662",
-	"slug": "מרידתא",
-	"headword": {
-		"text": "מרידתא"
-	},
+	"sefariaHeadword": "מרידתא",
+	"headwords": [
+		{
+			"text": "מרידתא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 842,
 		"column": "b"

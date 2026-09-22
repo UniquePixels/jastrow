@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00856",
-	"slug": "מחטרא",
-	"headword": {
-		"text": "מַחְטְרָא"
-	},
+	"sefariaHeadword": "מַחְטְרָא",
+	"headwords": [
+		{
+			"text": "מַחְטְרָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 759,
 		"column": "a"

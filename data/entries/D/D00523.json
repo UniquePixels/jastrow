@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "D00523",
-	"slug": "דיוסקום",
-	"headword": {
-		"text": "דיוסקום"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דיוסקום",
+	"headwords": [
+		{
+			"text": "דיוסקום"
+		},
 		{
 			"text": "דיוסקוס"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 297,
 		"column": "a"

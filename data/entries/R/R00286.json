@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00286",
-	"slug": "צחצחן",
-	"headword": {
-		"text": "צַחְצָחָן"
-	},
+	"sefariaHeadword": "צַחְצָחָן",
+	"headwords": [
+		{
+			"text": "צַחְצָחָן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1274,
 		"column": "a"

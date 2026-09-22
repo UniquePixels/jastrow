@@ -1,15 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A01943",
-	"slug": "אלצרין",
-	"headword": {
-		"text": "אִלְצָרִין",
-		"reconstructed": true
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "*אִלְצָרִין",
+	"headwords": [
+		{
+			"text": "אִלְצָרִין",
+			"reconstructed": true
+		},
 		{
 			"text": "אִלְסָרִין"
 		}
 	],
+	"display": "*{0}, {1}",
 	"page": {
 		"number": 73,
 		"column": "a"

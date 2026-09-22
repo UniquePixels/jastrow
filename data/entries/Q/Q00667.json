@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q00667",
-	"slug": "פילא-3",
-	"headword": {
-		"text": "פילא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פילא",
+	"headwords": [
+		{
+			"text": "פילא"
+		},
 		{
 			"text": "פילאי"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1163,
 		"column": "a"

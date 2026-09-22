@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K00077",
-	"slug": "כברה",
-	"headword": {
-		"text": "כְּבָרָה"
-	},
+	"sefariaHeadword": "כְּבָרָה",
+	"headwords": [
+		{
+			"text": "כְּבָרָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 609,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "C00634",
-	"slug": "גידודה",
-	"headword": {
-		"text": "גידודה"
-	},
+	"sefariaHeadword": "גידודה",
+	"headwords": [
+		{
+			"text": "גידודה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 235,
 		"column": "a"

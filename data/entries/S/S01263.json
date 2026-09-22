@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01263",
-	"slug": "קלוון",
-	"headword": {
-		"text": "קִלְוָון"
-	},
+	"sefariaHeadword": "קִלְוָון",
+	"headwords": [
+		{
+			"text": "קִלְוָון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1372,
 		"column": "b"

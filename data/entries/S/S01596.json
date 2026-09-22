@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S01596",
-	"slug": "קנמון-1",
-	"headword": {
-		"text": "קִנָּמוֹן"
-	},
+	"sefariaHeadword": "קִנָּמוֹן",
+	"headwords": [
+		{
+			"text": "קִנָּמוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1393,
 		"column": "a"

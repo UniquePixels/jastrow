@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "D01043",
-	"slug": "דרד",
-	"headword": {
-		"text": "דרד"
-	},
+	"sefariaHeadword": "דרד",
+	"headwords": [
+		{
+			"text": "דרד"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 321,
 		"column": "a"

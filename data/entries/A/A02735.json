@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A02735",
-	"slug": "אפלא",
-	"headword": {
-		"text": "אַפְלָא"
-	},
+	"sefariaHeadword": "אַפְלָא",
+	"headwords": [
+		{
+			"text": "אַפְלָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 105,
 		"column": "b"

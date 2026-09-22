@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00491",
-	"slug": "תיקן",
-	"headword": {
-		"text": "תִּיקָּן"
-	},
+	"sefariaHeadword": "תִּיקָּן",
+	"headwords": [
+		{
+			"text": "תִּיקָּן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1666,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "T01013",
-	"slug": "רקבא-2",
-	"headword": {
-		"text": "רַקָּבָא"
-	},
+	"sefariaHeadword": "רַקָּבָא",
+	"headwords": [
+		{
+			"text": "רַקָּבָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1496,
 		"column": "a"

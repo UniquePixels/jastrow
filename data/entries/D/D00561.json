@@ -1,18 +1,21 @@
 {
+	"schemaVersion": 2,
 	"id": "D00561",
-	"slug": "דיין-2",
-	"headword": {
-		"text": "דַּיָּין",
-		"disambiguator": 2
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "דַּיָּין ²",
+	"headwords": [
+		{
+			"text": "דַּיָּין",
+			"disambiguator": 2
+		},
 		{
 			"text": "דַּיָּינָא"
 		},
 		{
-			"text": "דַּיָּ׳"
+			"text": "דַּיָּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0} ², {1}, {2}",
 	"page": {
 		"number": 298,
 		"column": "b"

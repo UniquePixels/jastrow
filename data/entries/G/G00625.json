@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "G00625",
-	"slug": "זקה",
-	"headword": {
-		"text": "זֵקָה"
-	},
+	"sefariaHeadword": "זֵקָה",
+	"headwords": [
+		{
+			"text": "זֵקָה"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 408,
 		"column": "b"

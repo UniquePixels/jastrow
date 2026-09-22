@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01030",
-	"slug": "כפלון",
-	"headword": {
-		"text": "כפלון"
-	},
+	"sefariaHeadword": "כפלון",
+	"headwords": [
+		{
+			"text": "כפלון"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 660,
 		"column": "b"

@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O01252",
-	"slug": "סנף-2",
-	"headword": {
-		"text": "סנף"
-	},
+	"sefariaHeadword": "סנף",
+	"headwords": [
+		{
+			"text": "סנף"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1008,
 		"column": "a"

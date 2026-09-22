@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "V00118",
-	"slug": "תהו-2",
-	"headword": {
-		"text": "תְּהֵו"
-	},
+	"sefariaHeadword": "תְּהֵו",
+	"headwords": [
+		{
+			"text": "תְּהֵו"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1648,
 		"column": "a"

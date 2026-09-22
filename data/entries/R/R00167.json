@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "R00167",
-	"slug": "צווא",
-	"headword": {
-		"text": "צְוָוא"
-	},
+	"sefariaHeadword": "צְוָוא",
+	"headwords": [
+		{
+			"text": "צְוָוא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1266,
 		"column": "a"

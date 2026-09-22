@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "A00218",
-	"slug": "אברושך",
-	"headword": {
-		"text": "אַבְרוֹשַׁךְ",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*אַבְרוֹשַׁךְ",
+	"headwords": [
+		{
+			"text": "אַבְרוֹשַׁךְ",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 9,
 		"column": "b"

@@ -1,10 +1,11 @@
 {
+	"schemaVersion": 2,
 	"id": "A02833",
-	"slug": "אפרסקין",
-	"headword": {
-		"text": "אַפַּרְסְקִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אַפַּרְסְקִין",
+	"headwords": [
+		{
+			"text": "אַפַּרְסְקִין"
+		},
 		{
 			"text": "אַפַּרְסְקִים"
 		},
@@ -12,6 +13,7 @@
 			"text": "פַּרְסְקִין"
 		}
 	],
+	"display": "{0}, ({1}), {2}",
 	"page": {
 		"number": 109,
 		"column": "a"

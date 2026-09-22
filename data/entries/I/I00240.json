@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "I00240",
-	"slug": "טורנוס-1",
-	"headword": {
-		"text": "טוֹרְנוֹס",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*טוֹרְנוֹס",
+	"headwords": [
+		{
+			"text": "טוֹרְנוֹס",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 527,
 		"column": "a"

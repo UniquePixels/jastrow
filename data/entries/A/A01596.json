@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "A01596",
-	"slug": "איקונין",
-	"headword": {
-		"text": "אִיקוֹנִין"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִיקוֹנִין",
+	"headwords": [
+		{
+			"text": "אִיקוֹנִין"
+		},
 		{
 			"text": "אקונין"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 60,
 		"column": "a"

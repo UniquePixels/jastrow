@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00434",
-	"slug": "סורס",
-	"headword": {
-		"text": "סוֹרֶס"
-	},
+	"sefariaHeadword": "סוֹרֶס",
+	"headwords": [
+		{
+			"text": "סוֹרֶס"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 970,
 		"column": "a"

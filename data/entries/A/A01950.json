@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01950",
-	"slug": "אלקים",
-	"headword": {
-		"text": "אלקים"
-	},
+	"sefariaHeadword": "אלקים",
+	"headwords": [
+		{
+			"text": "אלקים"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 73,
 		"column": "b"

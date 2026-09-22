@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "T00196",
-	"slug": "רגימא",
-	"headword": {
-		"text": "רְגִימָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "רְגִימָא",
+	"headwords": [
+		{
+			"text": "רְגִימָא"
+		},
 		{
 			"text": "רְגִימְתָּא"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 1448,
 		"column": "b"

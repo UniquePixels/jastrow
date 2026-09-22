@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "N00385",
-	"slug": "נוע-2",
-	"headword": {
-		"text": "נוּעַ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "נוּעַ ²",
+	"headwords": [
+		{
+			"text": "נוּעַ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 888,
 		"column": "b"

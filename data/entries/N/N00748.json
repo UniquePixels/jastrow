@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "N00748",
-	"slug": "ניצויי",
-	"headword": {
-		"text": "נִיצּוּיֵי"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "נִיצּוּיֵי",
+	"headwords": [
 		{
-			"text": "נִצּ׳"
+			"text": "נִיצּוּיֵי"
+		},
+		{
+			"text": "נִצּ׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 907,
 		"column": "b"

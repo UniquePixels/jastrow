@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "S01381",
-	"slug": "קלסא",
-	"headword": {
-		"text": "קַלָּסָא",
-		"reconstructed": true
-	},
+	"sefariaHeadword": "*קַלָּסָא",
+	"headwords": [
+		{
+			"text": "קַלָּסָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
 	"page": {
 		"number": 1379,
 		"column": "b"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "M00471",
-	"slug": "מוך-2",
-	"headword": {
-		"text": "מוּךְ",
-		"disambiguator": 2
-	},
+	"sefariaHeadword": "מוּךְ ²",
+	"headwords": [
+		{
+			"text": "מוּךְ",
+			"disambiguator": 2
+		}
+	],
+	"display": "{0} ²",
 	"page": {
 		"number": 741,
 		"column": "a"

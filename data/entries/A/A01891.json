@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A01891",
-	"slug": "אלכסון",
-	"headword": {
-		"text": "אֲלַכְסוֹן"
-	},
+	"sefariaHeadword": "אֲלַכְסוֹן",
+	"headwords": [
+		{
+			"text": "אֲלַכְסוֹן"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 70,
 		"column": "b"

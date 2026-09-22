@@ -1,20 +1,24 @@
 {
+	"schemaVersion": 2,
 	"id": "M01787",
-	"slug": "מנין-3",
-	"headword": {
-		"text": "מִנְיַן"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מִנְיַן",
+	"headwords": [
+		{
+			"text": "מִנְיַן"
+		},
 		{
 			"text": "מִנְיָנָא"
 		},
 		{
-			"text": "מִנְיָי׳"
+			"text": "מִנְיָי׳",
+			"partial": true
 		},
 		{
-			"text": "מִי׳"
+			"text": "מִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}, {2}, {3}",
 	"page": {
 		"number": 801,
 		"column": "a"

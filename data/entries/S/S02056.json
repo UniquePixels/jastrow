@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "S02056",
-	"slug": "קריין",
-	"headword": {
-		"text": "קַרְיָין"
-	},
+	"sefariaHeadword": "קַרְיָין",
+	"headwords": [
+		{
+			"text": "קַרְיָין"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1420,
 		"column": "b"

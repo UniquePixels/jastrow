@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N01351",
-	"slug": "נשתי",
-	"headword": {
-		"text": "נשתי"
-	},
+	"sefariaHeadword": "נשתי",
+	"headwords": [
+		{
+			"text": "נשתי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 942,
 		"column": "b"

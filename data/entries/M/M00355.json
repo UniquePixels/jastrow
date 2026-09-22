@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "M00355",
-	"slug": "מהומה",
-	"headword": {
-		"text": "מְהוּמָה"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "מְהוּמָה",
+	"headwords": [
+		{
+			"text": "מְהוּמָה"
+		},
 		{
 			"text": "מְהוּמָּה"
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 737,
 		"column": "a"

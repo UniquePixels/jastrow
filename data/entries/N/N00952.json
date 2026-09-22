@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "N00952",
-	"slug": "נסל",
-	"headword": {
-		"text": "נֵסֶל"
-	},
+	"sefariaHeadword": "נֵסֶל",
+	"headwords": [
+		{
+			"text": "נֵסֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 917,
 		"column": "b"

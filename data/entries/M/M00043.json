@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "M00043",
-	"slug": "מאמל",
-	"headword": {
-		"text": "מֶאמֶל"
-	},
+	"sefariaHeadword": "מֶאמֶל",
+	"headwords": [
+		{
+			"text": "מֶאמֶל"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 723,
 		"column": "a"

@@ -1,10 +1,14 @@
 {
+	"schemaVersion": 2,
 	"id": "G00324",
-	"slug": "זיזא-2",
-	"headword": {
-		"text": "זִיזָא",
-		"homograph": 2
-	},
+	"sefariaHeadword": "זִיזָא II",
+	"headwords": [
+		{
+			"text": "זִיזָא",
+			"homograph": 2
+		}
+	],
+	"display": "{0} II",
 	"page": {
 		"number": 393,
 		"column": "a"

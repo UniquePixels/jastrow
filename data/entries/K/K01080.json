@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "K01080",
-	"slug": "כרבוניי",
-	"headword": {
-		"text": "כרבוניי"
-	},
+	"sefariaHeadword": "כרבוניי",
+	"headwords": [
+		{
+			"text": "כרבוניי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 663,
 		"column": "b"

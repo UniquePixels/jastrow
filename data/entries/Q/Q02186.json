@@ -1,14 +1,16 @@
 {
+	"schemaVersion": 2,
 	"id": "Q02186",
-	"slug": "פתלנא",
-	"headword": {
-		"text": "פַּתְלָנָא"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "פַּתְלָנָא",
+	"headwords": [
+		{
+			"text": "פַּתְלָנָא"
+		},
 		{
 			"text": "פְּתַלְנָא"
 		}
 	],
+	"display": "{0}, ({1})",
 	"page": {
 		"number": 1255,
 		"column": "a"

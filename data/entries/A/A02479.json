@@ -1,14 +1,17 @@
 {
+	"schemaVersion": 2,
 	"id": "A02479",
-	"slug": "אספוג",
-	"headword": {
-		"text": "אִסְפּוֹג"
-	},
-	"altHeadwords": [
+	"sefariaHeadword": "אִסְפּוֹג",
+	"headwords": [
 		{
-			"text": "אִי׳"
+			"text": "אִסְפּוֹג"
+		},
+		{
+			"text": "אִי׳",
+			"partial": true
 		}
 	],
+	"display": "{0}, {1}",
 	"page": {
 		"number": 95,
 		"column": "a"

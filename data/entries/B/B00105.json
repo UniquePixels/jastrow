@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "B00105",
-	"slug": "בדאי",
-	"headword": {
-		"text": "בַּדַּאי"
-	},
+	"sefariaHeadword": "בַּדַּאי",
+	"headwords": [
+		{
+			"text": "בַּדַּאי"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 138,
 		"column": "b"

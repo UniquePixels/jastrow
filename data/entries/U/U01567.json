@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "U01567",
-	"slug": "שנאותא",
-	"headword": {
-		"text": "שַׂנְאוּתָא"
-	},
+	"sefariaHeadword": "שַׂנְאוּתָא",
+	"headwords": [
+		{
+			"text": "שַׂנְאוּתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 1604,
 		"column": "b"

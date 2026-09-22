@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "A00839",
-	"slug": "אוקצא",
-	"headword": {
-		"text": "אוּקְצָא"
-	},
+	"sefariaHeadword": "אוּקְצָא",
+	"headwords": [
+		{
+			"text": "אוּקְצָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 32,
 		"column": "b"

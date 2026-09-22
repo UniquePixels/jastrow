@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "H01358",
-	"slug": "חסור",
-	"headword": {
-		"text": "חִסּוּר"
-	},
+	"sefariaHeadword": "חִסּוּר",
+	"headwords": [
+		{
+			"text": "חִסּוּר"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 486,
 		"column": "b"

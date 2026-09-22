@@ -1,9 +1,13 @@
 {
+	"schemaVersion": 2,
 	"id": "O00865",
-	"slug": "סיתורייתא",
-	"headword": {
-		"text": "סִיתּוּרְיָיתָא"
-	},
+	"sefariaHeadword": "סִיתּוּרְיָיתָא",
+	"headwords": [
+		{
+			"text": "סִיתּוּרְיָיתָא"
+		}
+	],
+	"display": "{0}",
 	"page": {
 		"number": 988,
 		"column": "b"
