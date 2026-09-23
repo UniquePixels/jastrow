@@ -1,3 +1,9 @@
+Scope: this MIT grant covers everything in this repository EXCEPT the
+`data/` directory. Everything under `data/` is public domain, not
+MIT — see the "Licence" section of `README.md` and the per-directory
+READMEs under `data/` (each names what that directory holds and where
+it came from) for the detail.
+
 MIT License
 
 Copyright (c) 2026 UniquePixels

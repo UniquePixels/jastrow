@@ -54,6 +54,32 @@ const COMMENT_LINE = /^(?:\/\*|\*|\/\/)/u;
 /** Opt-out for one line, explained above. */
 const BOUNDARY_IGNORE = '// boundary-ignore:';
 
+/**
+ * An import naming `paths.ts` (any relative depth), capturing its
+ * `{ ... }` clause so the identifiers it binds can be pulled out.
+ */
+const PATHS_IMPORT =
+	/import\s*\{([^}]*)\}\s*from\s*'(?:\.{1,2}\/)*paths\.ts'/gu;
+
+/**
+ * The local identifiers a file binds from `paths.ts` — the alias after
+ * `as` when one is given, otherwise the name itself.
+ */
+function pathsIdentifiers(text: string): string[] {
+	const names: string[] = [];
+	for (const m of text.matchAll(PATHS_IMPORT)) {
+		for (const raw of (m[1] ?? '').split(',')) {
+			const spec = raw.trim();
+			if (spec === '') {
+				continue;
+			}
+			const asMatch = /\bas\s+(\S+)/u.exec(spec);
+			names.push(asMatch ? (asMatch[1] as string) : spec);
+		}
+	}
+	return names;
+}
+
 async function moduleFiles(): Promise<string[]> {
 	const out: string[] = [];
 	for await (const p of new Bun.Glob('**/*.ts').scan({
@@ -63,6 +89,46 @@ async function moduleFiles(): Promise<string[]> {
 		out.push(`${MODULE_DIR}/${p}`);
 	}
 	return out.sort();
+}
+
+/**
+ * Files that import a `paths.ts` directory constant and then re-spell
+ * it with a hand-written suffix — `` `${REPORTS_DIR}/foo.md` `` instead
+ * of a declared full path like `HEADWORD_ISSUES_DOC`. `${TRANCHES_DIR}/
+ * ${dir}/${name}` stays clean: the remainder there is a further
+ * interpolation, not a hand-typed filename. (Deliberately not
+ * illustrated with the two identifiers `test-tiers.test.ts` treats as
+ * corpus signals — naming them here in prose would misclassify this
+ * file's own tier.)
+ */
+async function suffixOffenders(): Promise<string[]> {
+	const offenders: string[] = [];
+	for (const file of await moduleFiles()) {
+		if (file === PATHS_FILE || file.includes('.test.ts')) {
+			continue;
+		}
+		const text = await Bun.file(file).text();
+		const identifiers = pathsIdentifiers(text);
+		if (identifiers.length === 0) {
+			continue;
+		}
+		const suffixPattern = new RegExp(
+			`\\$\\{(${identifiers.join('|')})\\}/(?!\\$)[\\w.-]`,
+			'gu',
+		);
+		text.split('\n').forEach((line, i) => {
+			const trimmed = line.trimStart();
+			if (
+				!COMMENT_LINE.test(trimmed) &&
+				!line.includes(BOUNDARY_IGNORE) &&
+				suffixPattern.test(line)
+			) {
+				offenders.push(`${file}:${i + 1}: ${line.trim()}`);
+			}
+			suffixPattern.lastIndex = 0;
+		});
+	}
+	return offenders;
 }
 
 describe('the module imports nothing above itself', () => {
@@ -129,6 +195,16 @@ describe('the boundary is declared in one place', () => {
 			}
 		}
 		expect(offenders).toEqual([]);
+	});
+
+	it('a declared paths.ts constant is not re-spelled with a hand-written suffix', async () => {
+		// A `data/`- or `docs/`-free literal still defeats paths.ts: a
+		// file can import a directory constant and then hand-type the
+		// filename onto it instead of importing the full path paths.ts
+		// already declares (see `suffixOffenders` above). The bare
+		// basename carries no `data/`/`docs/`/`app/` segment, so
+		// ROOT_PATH above never sees it.
+		expect(await suffixOffenders()).toEqual([]);
 	});
 
 	it('paths.ts itself still declares some', async () => {

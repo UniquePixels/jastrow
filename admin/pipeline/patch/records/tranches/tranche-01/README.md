@@ -7,13 +7,14 @@ against text the rules later rewrote, so migration does not accept this
 tranche. Ruling F carries a pre-patch patch over anyway, unless an
 accepted patch already targets its exact `(rid, target)`.
 
-> **2026-09-22 — 59 of this directory's 64 patches left.** `data/patches`
-> holds only what the import run applies (Brian's ruling). 58 were
+> **2026-09-22 — 59 of this directory's 64 patches left.**
+> `admin/pipeline/patch/records/` holds only what the import run
+> applies (Brian's ruling). 58 were
 > `superseded`: a transform rule now reaches the defect first, so the
 > run absorbed them and applied nothing. P000009 was consolidated away
 > under Ruling F — batch-02's P000079 targets the same `(rid, target)`,
 > and the healed patch wins. All 59 are at
-> [`docs/archive/patches-retired-2026-09-22/tranches/tranche-01/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/tranche-01/),
+> [`docs/archive/patches-retired-2026-09-22/tranches/tranche-01/`](../../../../../../docs/archive/patches-retired-2026-09-22/tranches/tranche-01/),
 > with the 45 `repaired` records that held them and the sweep-era
 > residue (`rejects.jsonl`, `report-batch-01.md`, `report-batch-02.md`,
 > the two `verdicts-batch-01-*.jsonl`).

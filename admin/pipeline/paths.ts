@@ -29,12 +29,18 @@ export const SOURCE_PATH = `${SOURCE_DIR}/jastrow-dictionary.jsonl`;
 /** The lexicon metadata that travels with it. */
 export const LEXICONS_PATH = `${SOURCE_DIR}/lexicons.json`;
 
+/** Provenance about the fetch — dump URL, ETag, Last-Modified, fetch
+ * time, sha256 and entry count per output. Not snapshot content, so
+ * not hashed into the pin (see `SNAPSHOT_FILES`). */
+export const MANIFEST_PATH = `${SOURCE_DIR}/manifest.json`;
+
 /** The two files a patch record pins itself to — exactly what
  * `data:fetch` emits from the Sefaria dump, in fixed (alphabetical)
  * order. `manifest.json` is provenance about the fetch,
- * `edit-replay.jsonl` is admin-tool history, and `*-report.json`
- * files are pipeline output — none of them are snapshot content, so
- * none of them are hashed. */
+ * `edit-replay.jsonl` is admin-tool history (archived 2026-09-22 to
+ * `docs/archive/source-reports-2026-09-22/`, not deleted), and
+ * `*-report.json` files are pipeline output — none of them are
+ * snapshot content, so none of them are hashed. */
 export const SNAPSHOT_FILES = [SOURCE_PATH, LEXICONS_PATH] as const;
 
 /** The closed grammar vocabulary census `body/grammar.ts` cites. */
@@ -47,6 +53,10 @@ export const PAGE_INDEX_PATH = 'data/page-index/entries.jsonl';
 /** The entry contract. Read at run time, not imported: the module does
  * not own the schema, it is handed one (spec §4.1). */
 export const SCHEMA_PATH = 'data/schema/entry.schema.json';
+
+/** Reviewed unresolved citation targets. Read, never written: a row is
+ * added by a person, not by a run (`data/quarantine/README.md`). */
+export const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
 
 // --------------------------------------------------- read and written
 
@@ -84,18 +94,17 @@ export const LOCK_PATH = `${PATCH_DIR}/snapshot.lock`;
 /** Where the import writes truth. */
 export const ENTRIES_DIR = 'data/entries';
 
-/** Link targets the run could not resolve. */
-export const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
-
 /** The machine-readable account of one run. Under `data/source/`
  * because it describes one import of that snapshot, not the
  * dictionary: it is regenerated wholesale every run and nothing
  * downstream may treat it as entry data. */
 export const MIGRATION_REPORT_PATH = `${SOURCE_DIR}/migration-report.json`;
 
-/** Generated markdown a person reads. Kept out of `docs/v2/` — a
- * module that writes into the project's own doc tree is not one you
- * can lift out — so it gets its own directory instead. */
+/** Generated markdown a person reads. The module writes it to a path
+ * it declares here, in a directory of its own, rather than into
+ * whatever doc tree the project happens to keep — a module that
+ * scatters its output through the project's documents is not one you
+ * can lift out. */
 export const REPORTS_DIR = 'docs/reports';
 
 /** The evidence document the maintainer reads and blesses (migrate
