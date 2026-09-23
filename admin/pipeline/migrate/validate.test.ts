@@ -77,17 +77,19 @@ describe('markupProblems', () => {
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('validateTruth', () => {
-	it('a valid tree has no problems', () => {
+	it('a valid tree has no problems', async () => {
 		const files = tree(A(), B());
-		expect(validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([]);
+		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual(
+			[],
+		);
 	});
 
-	it('reports a schema failure by path and drops the entry from the corpus checks', () => {
+	it('reports a schema failure by path and drops the entry from the corpus checks', async () => {
 		const files: TruthFile[] = [
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
 			...tree(B()),
 		];
-		const problems = validateTruth(files, pagesFor('A00001', 'A00002'));
+		const problems = await validateTruth(files, pagesFor('A00001', 'A00002'));
 		expect(problems).toHaveLength(2);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 		expect(problems[1]).toBe('page-index row A00001 has no entry');
@@ -238,8 +240,8 @@ describe('validateTruth', () => {
 			}),
 			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
-	])('reports %s', (_name, files, expected) => {
-		expect(validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([
+	])('reports %s', async (_name, files, expected) => {
+		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([
 			expected,
 		]);
 	});
@@ -255,19 +257,19 @@ describe('validateTruth', () => {
 			'A00002.json',
 		]);
 		expect(
-			validateTruth(files, pagesFor('A00001', 'A00002', 'A00003')),
+			await validateTruth(files, pagesFor('A00001', 'A00002', 'A00003')),
 		).toEqual([
 			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
 			'A00002.json: id A00002 belongs at A/A00002.json',
 		]);
 	});
 
-	it('reports page-index coverage both ways', () => {
-		expect(validateTruth(tree(A(), B()), pagesFor('A00001', 'A00003'))).toEqual(
-			[
-				'A00002: no page-index row (truth has p1a)',
-				'page-index row A00003 has no entry',
-			],
-		);
+	it('reports page-index coverage both ways', async () => {
+		expect(
+			await validateTruth(tree(A(), B()), pagesFor('A00001', 'A00003')),
+		).toEqual([
+			'A00002: no page-index row (truth has p1a)',
+			'page-index row A00003 has no entry',
+		]);
 	});
 });

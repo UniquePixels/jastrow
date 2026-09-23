@@ -5,7 +5,7 @@
 > over and no tool implements these steps any more. Its three rulings
 > that are still in force (the 2026-08-15 review cadence, triage
 > default and wrong-reference handling) were lifted verbatim into
-> [`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md).
+> [`data/patches/reviewed/README.md`](../../admin/pipeline/patch/records/reviewed/README.md).
 
 Per-batch procedure for the gated corpus sweep (spec §4.5; plan
 Task 8). Every batch is maintainer-gated: **no step 2 without a
@@ -59,7 +59,7 @@ This runbook is for the agent-authored sweep. A separate, human-authored
 patch corpus lives at `data/patches/reviewed/` (consolidation step 8):
 patches a person wrote from a print check, exempt from the no-new-text
 floor, applying first in `patch-apply`. See
-[`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md) for its
+[`data/patches/reviewed/README.md`](../../admin/pipeline/patch/records/reviewed/README.md) for its
 provenance and contract.
 
 ## Procedure

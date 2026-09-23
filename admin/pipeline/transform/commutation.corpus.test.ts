@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { parsePatterns } from '../patch/patterns.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';
 import { ORDERED, RULES } from './registry.ts';
 import { sourceEntries } from './rules/corpus-fixture.ts';
@@ -37,9 +38,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// never writes to it, which is the fixture's contract.
 		const corpus = await sourceEntries();
 
-		const rows = await parsePatterns(
-			await Bun.file('data/patches/patterns.jsonl').text(),
-		);
+		const rows = await parsePatterns(await Bun.file(PATTERNS_PATH).text());
 		const edges = new Map(
 			rows.map((r) => [r.id, new Set(r.entangledWith ?? [])]),
 		);
@@ -144,7 +143,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// 75% of it. A runner a third slower fails here, and the message
 		// would name the commutation gate rather than the slow machine.
 		// 600s matches the convention of the corpus walks retired in
-		// consolidation step 5 (`docs/v2/retired-corpus-checks.md`) for a
+		// consolidation step 5 (`docs/archive/retired-corpus-checks.md`) for a
 		// walk of this size. It is a timeout, not an assertion.
 	}, 600_000);
 });

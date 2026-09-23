@@ -5,7 +5,7 @@ catalogue rows withdrawn to `judgment`, seven counts corrected. The
 registry now holds 27 rules and `PENDING` 46, against 73 transform-route
 rows.
 
-Spec: [`2026-08-25-italic-punctuation-transform-design.md`](../specs/2026-08-25-italic-punctuation-transform-design.md).
+Spec: [`2026-08-25-italic-punctuation-transform-design.md`](specs/2026-08-25-italic-punctuation-transform-design.md).
 Withdrawal working: `data/patches/catalogue-audit/batch-3b-withdrawals.md`.
 
 ## The three findings that outlive the tasks

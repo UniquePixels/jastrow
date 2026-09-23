@@ -10,7 +10,7 @@
  * `italicLonePunctuation` and a defect-count delta (278 → 0, plus the
  * tight-dash-then-space regression check) for `emDashSectionBreak` —
  * was retired in consolidation step 5 and is listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

@@ -73,7 +73,7 @@ their directory, a coverage walk over
 `data/patches/tranches/*/manifest.jsonl` will read 255 entries as never
 swept. They were swept; the records are here. The pre-patch sweep's
 coverage is the live manifests plus these — 1,455 + 45 + 210 = 1,710,
-the figure [`docs/v2/research-backlog.md`](../../v2/research-backlog.md)
+the figure [`docs/v2/research-backlog.md`](../research-backlog.md)
 list 2 states, where this caveat is repeated for the reader who starts
 there.
 

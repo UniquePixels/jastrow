@@ -69,7 +69,7 @@ is working:
 
 - `abbrev-in-alt-headwords` (2,035) moved transform → judgment on
   2026-08-22 (spec
-  [§5.2](../specs/2026-08-22-transform-module-design.md)), and
+  [§5.2](specs/2026-08-22-transform-module-design.md)), and
   `bare-rtl-hebrew`'s count was corrected 4,190 → 4,189 when its
   transform landed.
 - Batch 2 moved two more: `h-cognate-self-link` (85) and
@@ -396,7 +396,7 @@ for (const r of rows) console.log(`| \`${r.id}\` | ${n(r.corpusCount)} | ${r.blo
    `abbrev-in-alt-headwords` was written and then WITHDRAWN to
    `judgment`: expanding a geresh stub infers the variant's
    vocalization rather than moving text (spec
-   [§5.2](../specs/2026-08-22-transform-module-design.md)).
+   [§5.2](specs/2026-08-22-transform-module-design.md)).
 2. ~~**Then take the non-blocking audited rows on size.**~~ **Batch 2
    did exactly that** — ten rows, 1,166 catalogued instances, all
    non-blocking, all link-shaped
@@ -525,7 +525,7 @@ under `data/patches/catalogue-audit/`.
 
 `abbrev-in-alt-headwords` (2,035) was the first, reclassified
 out of the transform queue on 2026-08-22 — spec
-[§5.2](../specs/2026-08-22-transform-module-design.md) has the ruling
+[§5.2](specs/2026-08-22-transform-module-design.md) has the ruling
 and the test it establishes: *ask what a rule INFERS as opposed to what
 it MOVES.*
 

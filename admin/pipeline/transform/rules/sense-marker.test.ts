@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { parseLabel, printLabel } from '../../body/labels.ts';
 import { parsePatterns } from '../../patch/patterns.ts';
+import { PATTERNS_PATH } from '../../paths.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import { strandedDashStarMarker } from './sense-marker.ts';
 
@@ -150,9 +151,7 @@ describe('strandedDashStarMarker', () => {
 // notices" does not hold for this class, and the assertion below is the
 // one thing standing between a measured deletion and a silent one.
 it('records the deleted entanglement edge as deleted', async () => {
-	const rows = parsePatterns(
-		await Bun.file('data/patches/patterns.jsonl').text(),
-	);
+	const rows = parsePatterns(await Bun.file(PATTERNS_PATH).text());
 	const edges = (id: string): readonly string[] =>
 		rows.find((row) => row.id === id)?.entangledWith ?? [];
 	// THE ASSERTION IS THE ABSENCE OF THIS EDGE, not the absence of all

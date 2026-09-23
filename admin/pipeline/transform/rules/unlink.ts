@@ -310,7 +310,7 @@ const rabbiName: Rule = {
  * the corpus itself, independently of any single rule invocation.
  *
  * This helper only computes the unobserved keys; a corpus check
- * (retired, `docs/v2/retired-corpus-checks.md`) was where it actually
+ * (retired, `docs/archive/retired-corpus-checks.md`) was where it actually
  * ran, as a corpus-walking test rather than a
  * `transform:count` check — chosen deliberately. `transform:count`
  * already catches drift, but only as an aggregate delta on the count
@@ -442,7 +442,7 @@ function ellipsisRaw(tokens: readonly Token[], anchor: Anchor): boolean {
  * below must be OBSERVED — matched by `ellipsisRaw` somewhere in a
  * corpus pass — which a corpus-walking test checked on every run via
  * `unobservedConvention`, above, until it was retired
- * (`docs/v2/retired-corpus-checks.md`). A key that stops being
+ * (`docs/archive/retired-corpus-checks.md`). A key that stops being
  * observed would have meant the corpus moved under this exclusion, or
  * the exclusion was wrong from the start; either way it failed loudly,
  * naming the dead key, rather than degrading into a silent

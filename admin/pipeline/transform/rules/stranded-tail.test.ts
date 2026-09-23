@@ -6,7 +6,7 @@
  * (both rows' occurrence and entry counts, plus the no-regression
  * invariants on markup, anchor count and anchor tag bytes) was retired
  * in consolidation step 5 and is listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

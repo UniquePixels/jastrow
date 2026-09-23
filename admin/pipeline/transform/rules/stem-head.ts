@@ -1,6 +1,6 @@
 /**
  * `stem-head-marker-chop` (spec
- * `docs/specs/2026-08-28-structural-repairs-design.md` §3) — and the
+ * `docs/archive/specs/2026-08-28-structural-repairs-design.md` §3) — and the
  * FIRST rule to run in the `structural-repairs` phase, which stood
  * wired-but-empty from Phase 1 until this batch.
  *

@@ -10,7 +10,7 @@
  * rules deliberately leave alone. The corpus-walking tests that re-ran
  * the two load-bearing claims — the population sizes, and the claim
  * that the rules repair all of them — were retired in consolidation
- * step 5 and are listed in `docs/v2/retired-corpus-checks.md`.
+ * step 5 and are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

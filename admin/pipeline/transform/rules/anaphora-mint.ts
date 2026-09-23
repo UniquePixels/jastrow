@@ -4,7 +4,7 @@
  *
  * The first rule in the registry to CREATE an anchor. It is licensed
  * by link-target gate case 10
- * (`docs/specs/2026-09-06-link-target-gate-case-10.md`), on the
+ * (`docs/archive/specs/2026-09-06-link-target-gate-case-10.md`), on the
  * precedent that the body review approved wrapping unlinked ibid
  * citations (`docs/archive/body-review/02-orphan-refs.md` class 2).
  * The "show only what Jastrow linked" principle belongs to that
@@ -151,7 +151,7 @@ import {
 	usable,
 } from './anaphora.ts';
 
-/** Must match an `id` in data/patches/patterns.jsonl, and an entry in
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl, and an entry in
  * `link-target.ts`'s `MINT_DECLARERS`. */
 const RULE_ID = 'unlinked-bare-anaphor';
 

@@ -39,7 +39,7 @@
  * **0**. Repair one side and every one of those links breaks; repair
  * both and all 218 keep resolving. So the rule declares each repaired
  * target through `TransformResult.pointed` — case 9, spec
- * `docs/specs/2026-09-01-link-target-gate-case-9.md`.
+ * `docs/archive/specs/2026-09-01-link-target-gate-case-9.md`.
  *
  * ## The one headword it refuses
  *

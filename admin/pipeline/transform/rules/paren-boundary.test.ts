@@ -3,7 +3,7 @@
  * Fixture tier for `rules/paren-boundary.ts`. The corpus tier — the
  * catalogued populations, the per-entry gate stack and the
  * both-orders composition — was retired in consolidation step 5; its
- * checks are listed in `docs/v2/retired-corpus-checks.md`.
+ * checks are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

@@ -1,7 +1,7 @@
 # Body-Model Maintainer Review Package (§6.0)
 
 The maintainer sampled-review evidence the
-[design doc](../../specs/2026-07-11-entry-body-model-design.md) §7
+[design doc](../specs/2026-07-11-entry-body-model-design.md) §7
 lists among the §6.0 blessing gates, and the standing maintainer
 gate for the entry-body-model work: one document per eyes-on
 decision set enumerated by the censuses and the
@@ -30,4 +30,4 @@ Grammar-marker quarantines: the dry run measured
 **0 quarantined** of 13,162 markers — no doc needed (0 items).
 
 The review outcome gets recorded in the design doc's changelog
-([§9](../../specs/2026-07-11-entry-body-model-design.md#9-changelog)).
+([§9](../specs/2026-07-11-entry-body-model-design.md#9-changelog)).

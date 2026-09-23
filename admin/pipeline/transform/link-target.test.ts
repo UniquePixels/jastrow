@@ -1027,7 +1027,7 @@ it('case 5 still refuses a flank the gate does not admit', () => {
 // ————————————————————————————————————————————————————————————————
 // CASE 6 — restored from the tag's own damaged bytes.
 //
-// Spec docs/specs/2026-08-27-link-target-gate-cases.md §2. Three
+// Spec docs/archive/specs/2026-08-27-link-target-gate-cases.md §2. Three
 // clauses, and each one gets a test that FAILS when the clause is
 // removed: an assertion that cannot fail is indistinguishable from one
 // that always holds.
@@ -1401,7 +1401,7 @@ it('case 6 refuses a witness offset the bytes do not sit at', () => {
 // ————————————————————————————————————————————————————————————————
 // CASE 7 — a locus corroborated by a sibling's display.
 //
-// Spec docs/specs/2026-08-27-link-target-gate-cases.md §3. Four
+// Spec docs/archive/specs/2026-08-27-link-target-gate-cases.md §3. Four
 // clauses, and each one gets a test that FAILS when the clause is
 // removed, on case 6's discipline: an assertion that cannot fail is
 // indistinguishable from one that always holds. The pair that matters
@@ -1910,7 +1910,7 @@ it('case 7’s allowlist refusal is not escaped by a second claim', () => {
 
 // ======== CASE 9 — a target repaired at the point level ========
 //
-// Spec docs/specs/2026-09-01-link-target-gate-case-9.md. The two
+// Spec docs/archive/specs/2026-09-01-link-target-gate-case-9.md. The two
 // batch-10 point rules rewrite 468 targets between them, and every
 // earlier case refuses them because a repaired target is by
 // construction a string the entry does not hold.

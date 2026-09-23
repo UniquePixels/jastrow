@@ -40,11 +40,10 @@ import { readSourceEntries } from '../body/source.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { parsePatterns } from '../patch/patterns.ts';
 import { computeSnapshot, LOCK_PATH, parseLock } from '../patch/snapshot.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { RULES } from './registry.ts';
 import type { Rule } from './types.ts';
-
-const PATTERNS_PATH = 'data/patches/patterns.jsonl';
 
 /** Recursively freezes a parsed entry (and every nested object and
  * array it holds — `content.senses[]`, each sense's `grammar` and

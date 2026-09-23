@@ -25,7 +25,7 @@
  * corpus-tier `stripTags` invariant, ORDER-sensitive where the gate is
  * a multiset. That check is retired; on a new
  * export this is a review-detector candidate (consolidation spec
- * §10), listed in `docs/v2/retired-corpus-checks.md`.
+ * §10), listed in `docs/archive/retired-corpus-checks.md`.
  *
  * ## GRANULARITY: the whole run body, never its final token
  *

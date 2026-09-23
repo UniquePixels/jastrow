@@ -4,7 +4,7 @@ Each systemic pattern in `data/patches/patterns.jsonl`, judged on
 whether the defect survives the v2 transform. Patterns that do not
 survive need no rule — the transform discards the representation that
 carries them. Judged against the
-[entry body model](../specs/2026-07-11-entry-body-model-design.md)
+[entry body model](specs/2026-07-11-entry-body-model-design.md)
 (decisions B2, B4, B7, B10), its machine-readable form
 `admin/pipeline/schema/entry.schema.json` (B11), and the migration
 code that runs today (`admin/pipeline/body/`). Where a spec sentence

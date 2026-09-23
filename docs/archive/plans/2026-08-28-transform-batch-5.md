@@ -21,7 +21,7 @@ is stated in Task 2.
 (`admin/pipeline/transform/`), `patterns.jsonl` catalogue, pinned
 snapshot `data/source/jastrow-dictionary.jsonl` (sha256 `4c64ff03…`).
 
-**Spec:** [`docs/specs/2026-08-27-headword-field-integrity-design.md`](../../specs/2026-08-27-headword-field-integrity-design.md).
+**Spec:** [`docs/specs/2026-08-27-headword-field-integrity-design.md`](../specs/2026-08-27-headword-field-integrity-design.md).
 Every count below is the spec's; if a measurement disagrees, **the
 measurement wins and the disagreement is the finding**.
 

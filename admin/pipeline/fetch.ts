@@ -16,11 +16,16 @@
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
 import { bsonDocuments, ChunkReader, extractTargets, sha256 } from './lib.ts';
+import {
+	LEXICONS_PATH,
+	MANIFEST_PATH,
+	SOURCE_DIR as OUT_DIR,
+	SOURCE_PATH,
+} from './paths.ts';
 
 const DUMP_URL =
 	'https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz';
 const CACHE_DIR = '.cache/sefaria';
-const OUT_DIR = 'data/source';
 
 /** Tar members to capture, and where each is cached. */
 const TARGETS = new Map([
@@ -36,9 +41,7 @@ const TARGETS = new Map([
  * lexicon record and zero entries for it, so only the printed
  * dictionary is emitted.
  */
-const JASTROW_LEXICONS = new Map([
-	['Jastrow Dictionary', `${OUT_DIR}/jastrow-dictionary.jsonl`],
-]);
+const JASTROW_LEXICONS = new Map([['Jastrow Dictionary', SOURCE_PATH]]);
 
 interface DumpProvenance {
 	etag: string;
@@ -118,7 +121,7 @@ async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 			`expected ${JASTROW_LEXICONS.size} lexicon record(s), found ${registry.length}`,
 		);
 	}
-	const registryPath = `${OUT_DIR}/lexicons.json`;
+	const registryPath = LEXICONS_PATH;
 	await Bun.write(
 		registryPath,
 		`${EJSON.stringify(registry, undefined, '\t', { relaxed: true })}\n`,
@@ -195,7 +198,7 @@ async function main(): Promise<void> {
 			lastModified: dumpProvenance.lastModified,
 		},
 	};
-	const manifestPath = `${OUT_DIR}/manifest.json`;
+	const manifestPath = MANIFEST_PATH;
 	await Bun.write(
 		manifestPath,
 		`${JSON.stringify(manifest, undefined, '\t')}\n`,

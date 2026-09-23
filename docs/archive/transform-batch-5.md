@@ -7,7 +7,7 @@ not exist. The registry now holds **39 rules**; `coverage()` reads
 **0 unaccounted / 0 duplicated** over a transform route that shrank
 from **72 rows to 71**.
 
-Spec: [`2026-08-27-headword-field-integrity-design.md`](../specs/2026-08-27-headword-field-integrity-design.md).
+Spec: [`2026-08-27-headword-field-integrity-design.md`](specs/2026-08-27-headword-field-integrity-design.md).
 Withdrawal audit: `data/patches/catalogue-audit/abbrev-headword-stub.md`.
 
 ## The findings that outlive the tasks

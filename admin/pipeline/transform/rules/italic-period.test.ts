@@ -12,7 +12,7 @@
  * changes a field's text on any entry it touches, pinned against the
  * exact populations touched (1,567 and 979 entries) — was retired in
  * consolidation step 5 and is listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';
@@ -56,7 +56,7 @@ describe('labelPeriodInside', () => {
 	// normalised against their own attested usage. Safe only because
 	// both forms strip to byte-identical text — a byte-identical-strip
 	// property that a corpus-tier invariant checked, retired in consolidation
-	// step 5 (`docs/v2/retired-corpus-checks.md`).
+	// step 5 (`docs/archive/retired-corpus-checks.md`).
 	it('moves Part. pass. too — the accepted cost of the 2026-08-21 ruling', () => {
 		expect(ran(labelPeriodInside, '<i>Part. pass</i>. of')).toBe(
 			'<i>Part. pass.</i> of',

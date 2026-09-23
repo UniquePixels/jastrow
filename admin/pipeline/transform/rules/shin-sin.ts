@@ -50,7 +50,7 @@
  * equally wrong. **26 of the 52 repairs sit inside a `data-ref` or
  * `href`**, so this rule declares each repaired target through
  * `TransformResult.pointed` — case 9, spec
- * `docs/specs/2026-09-01-link-target-gate-case-9.md`.
+ * `docs/archive/specs/2026-09-01-link-target-gate-case-9.md`.
  *
  * Not `initial-niqqud-drop`, which is a LOST VOWEL and a complementary
  * shape: the two overlap in 1 of 89.
@@ -77,7 +77,7 @@ const HEBREW: string = String.raw`(?:[\u05D0-\u05EA]|\p{Mn})`;
  * corpus check re-derived the whole table from the live snapshot and
  * would have failed if it drifted. It no longer runs; on a new export
  * this is a review-detector candidate (consolidation spec §10), listed
- * in `docs/v2/retired-corpus-checks.md`.
+ * in `docs/archive/retired-corpus-checks.md`.
  *
  * 23 rows, 52 occurrences, and no key has a second candidate. Do not
  * add a row by hand: a key with two candidates is a row this rule may

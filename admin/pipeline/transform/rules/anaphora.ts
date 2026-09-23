@@ -353,15 +353,15 @@ const SINK = 'Yoma 2a';
 /** A dictionary cross-reference rather than a citation. */
 const LEXICAL = 'Jastrow, ';
 
-/** Must match an `id` in data/patches/patterns.jsonl. Named here
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. Named here
  * rather than read off `ibAnaphora.id` so the walk below does not
  * reference the rule object it is a part of. */
 const RULE_ID = 'ib-yoma-2a';
 
-/** Must match an `id` in data/patches/patterns.jsonl. */
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 const SIFRE_RULE_ID = 'sifre-ib-resolves-to-yalkut';
 
-/** Must match an `id` in data/patches/patterns.jsonl. */
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 const TARGUM_RULE_ID = 'ib-targum-work-loss';
 
 /**
@@ -376,7 +376,7 @@ const TARGUM_RULE_ID = 'ib-targum-work-loss';
  * failed the suite instead of quietly shrinking the arm. That check
  * is retired; on a new export this is a
  * review-detector candidate (consolidation spec §10), listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  *
  * A syntactic predicate was tried first and rejected. "A Targum
  * target is one whose leading words are not a Hebrew-Bible book"
@@ -421,7 +421,7 @@ const BOOK_LOCUS = /^[^\d]+\s\d+:\d+$/u;
  * rather than silently sitting outside an arm that would then
  * under-fire. That check is retired; on a new
  * export this is a review-detector candidate (consolidation spec §10),
- * listed in `docs/v2/retired-corpus-checks.md`.
+ * listed in `docs/archive/retired-corpus-checks.md`.
  */
 const SIFRE_WORK = 'Sifrei ';
 
@@ -494,7 +494,7 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  *
  * A corpus check pinned all three on every `bun qa`, so the figures
  * could not drift back into prose; it is retired
- * (`docs/v2/retired-corpus-checks.md`).
+ * (`docs/archive/retired-corpus-checks.md`).
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
 

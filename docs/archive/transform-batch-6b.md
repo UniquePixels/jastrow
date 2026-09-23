@@ -11,7 +11,7 @@ The registry holds **41 rules**; `coverage()` reads **0 unaccounted / 0
 duplicated** over a transform route of **68 rows / 20,672 instances**.
 `PENDING` 29 → **26**.
 
-Spec: [`2026-08-28-structural-repairs-design.md`](../specs/2026-08-28-structural-repairs-design.md).
+Spec: [`2026-08-28-structural-repairs-design.md`](specs/2026-08-28-structural-repairs-design.md).
 Audit: `data/patches/catalogue-audit/empty-stem-section.md`.
 Predecessor: [`transform-batch-6a.md`](transform-batch-6a.md).
 `stranded-stem-head` (582 occ / 575 ent) is 6c's, by Brian's ruling.

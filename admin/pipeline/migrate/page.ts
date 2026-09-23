@@ -1,8 +1,5 @@
 /** Page lookup (migrate spec §2.5) from the hOCR page index. */
-
-/** The hOCR page index: one JSON row per rid, carrying its page,
- * column and confidence. */
-const PAGE_INDEX_PATH = 'data/page-index/entries.jsonl';
+import { PAGE_INDEX_PATH } from '../paths.ts';
 
 /** Where one entry sits in the print: the page number, which of the
  * two columns, and how sure the hOCR index is of that placement. A

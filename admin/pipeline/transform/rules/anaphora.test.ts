@@ -8,7 +8,7 @@
  * the whole decline census, the control that validates the repair, the
  * mechanism that identifies the defect, and the absence of any locus a
  * compose could have used) were retired in consolidation step 5 and are
- * listed in `docs/v2/retired-corpus-checks.md`.
+ * listed in `docs/archive/retired-corpus-checks.md`.
  *
  * The unit tests run through `applyTransforms`, not `ibAnaphora.apply`,
  * so `link-target.ts`'s gate — the whole reason this batch exists —

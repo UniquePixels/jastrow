@@ -1,6 +1,7 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import {
 	checkAdjacency,
 	checkOrdered,
@@ -14,9 +15,7 @@ import {
 } from './registry.ts';
 import type { Rule } from './types.ts';
 
-const catalogue = parsePatterns(
-	await Bun.file('data/patches/patterns.jsonl').text(),
-);
+const catalogue = parsePatterns(await Bun.file(PATTERNS_PATH).text());
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('registry coverage', () => {
@@ -138,7 +137,7 @@ describe('registry coverage', () => {
 	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
 	//   docs/archive/catalogue-audit/binyan-form-cleanup.md; the
 	//   standing gate for this was retired in consolidation step 5
-	//   (`docs/v2/retired-corpus-checks.md`).
+	//   (`docs/archive/retired-corpus-checks.md`).
 	// - `empty-stem-section` (347 sections / 342 ent), batch 6b — 69 to
 	//   68, and it failed none of the three tests above. It failed a
 	//   fourth: there is nothing to repair. The label and the form both

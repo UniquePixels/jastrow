@@ -9,7 +9,7 @@
  *
  * The corpus tier this file was split from — the counts, the locus
  * partition and the gates — was retired in consolidation step 5; its
- * checks are listed in `docs/v2/retired-corpus-checks.md`.
+ * checks are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import { GERSHAYIM, repairTags, repairText } from './gershayim.ts';
@@ -87,7 +87,7 @@ it('the two loci compose to the whole population, in either order', () => {
 	// create or destroy the other's occurrences, because the
 	// substitution never writes or removes a `<` or a `>`. Measured over
 	// the whole corpus on the 2026-07-04 export by a corpus check
-	// retired in consolidation step 5 (`docs/v2/retired-corpus-checks.md`).
+	// retired in consolidation step 5 (`docs/archive/retired-corpus-checks.md`).
 	const html = `<a data-ref=${Q}Jastrow, אל${Q}ף 1${Q}>אל${Q}ף</a> הקב${Q}ה`;
 	const both = `<a data-ref=${Q}Jastrow, אל${GERSHAYIM}ף 1${Q}>אל${GERSHAYIM}ף</a> הקב${GERSHAYIM}ה`;
 	expect(repairTags(repairText(html))).toBe(both);

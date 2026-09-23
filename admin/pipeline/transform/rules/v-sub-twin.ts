@@ -16,7 +16,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * anchor resolved its geresh abbreviation as a standalone lookup and
  * landed on an unrelated lemma.
  *
- * Spec `docs/specs/2026-08-31-link-target-gate-case-8.md`,
+ * Spec `docs/archive/specs/2026-08-31-link-target-gate-case-8.md`,
  * audit `docs/archive/catalogue-audit/v-sub-redirect-stub.md`. It is
  * the ONLY citation-linking rule that ships; the other seven rows
  * withdrew to `judgment`, because the transform route can repair a
@@ -46,7 +46,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * live snapshot so an upstream change would have failed a test
  * instead of silently changing the population. It no longer runs; on
  * a new export this is a review-detector candidate (consolidation
- * spec §10), listed in `docs/v2/retired-corpus-checks.md`.
+ * spec §10), listed in `docs/archive/retired-corpus-checks.md`.
  *
  * THE PREFIX ALONE DOES NOT DETERMINE THE REPAIR and the table is not
  * a shortcut around that: `כֹּר׳` has 223 candidate headwords, and it

@@ -1,7 +1,7 @@
 # Slug index
 
 > **ARCHIVED 2026-09-21.** `data/slug-index/` and the slug itself were
-> retired by the [URL names spec](../specs/2026-09-21-url-names-design.md)
+> retired by the [URL names spec](specs/2026-09-21-url-names-design.md)
 > §7; nothing below describes the pipeline as it now runs.
 
 The record of which URL name belongs to which entry. **Reference data**
@@ -15,8 +15,8 @@ a `slug-changed` review row. Freezing is one switch, `SLUGS_FROZEN` in
 the pipeline reads this index as an *input*, the way it reads
 `data/page-index/`, and a deleted file can no longer be rebuilt.
 
-Design: [consolidation spec §7](../../docs/specs/2026-09-13-pipeline-consolidation-design.md).
-Future routes built on it: [`docs/v2/url-routes.md`](../../docs/v2/url-routes.md).
+Design: [consolidation spec §7](specs/2026-09-13-pipeline-consolidation-design.md).
+Future routes built on it: [`docs/v2/url-routes.md`](url-routes.md).
 
 ## What a slug is
 

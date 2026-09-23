@@ -5,7 +5,7 @@
  * change. `compose.ts` runs it first in the `text-repairs` phase.
  *
  * CORPUS-WIDE REPAIRS ONLY. A repair keyed on a rid belongs in
- * `data/patches/reviewed/` instead (spec §4.1), where its `rationale`
+ * `admin/pipeline/patch/records/reviewed/` instead (spec §4.1), where its `rationale`
  * field carries the reasoning a table here could not. `walkSensesDeep`
  * lives here and is shared with `migrate/orphan-refs.ts`.
  */
@@ -14,7 +14,7 @@ import type { SourceEntry, SourceSense } from '../types.ts';
 /** Which repair pass produced a `RepairRecord`. A closed union rather
  * than a free string, so a corpus-wide pass has to be named here
  * before it can record anything — and a repair keyed on a single rid,
- * which belongs in `data/patches/reviewed/` (spec §4.1) instead, can
+ * which belongs in `admin/pipeline/patch/records/reviewed/` (spec §4.1) instead, can
  * never quietly acquire a name in this file. */
 type PassName = 'binyan-cleanup';
 
@@ -64,7 +64,7 @@ function cleanBinyanForms(entry: SourceEntry, records: RepairRecord[]): void {
 }
 
 /** Apply the general repairs to (a deep copy of) `source`. Pure. The
- * rid-keyed repairs that lived here moved to `data/patches/reviewed/`
+ * rid-keyed repairs that lived here moved to `admin/pipeline/patch/records/reviewed/`
  * (spec §4.1). */
 function applyRepairs(source: SourceEntry): {
 	entry: SourceEntry;

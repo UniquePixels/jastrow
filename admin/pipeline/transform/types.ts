@@ -1,6 +1,6 @@
 /**
  * The Phase 2 transform contract (spec
- * docs/specs/2026-08-22-transform-module-design.md §3.1).
+ * docs/archive/specs/2026-08-22-transform-module-design.md §3.1).
  *
  * A rule carries a PREDICATE and never an expected count. Counts live
  * in the catalogue and are read only by the audit harness — a source
@@ -50,7 +50,7 @@ interface TransformResult {
 	/** Link targets this call MINTED from a head it already held and a
 	 * tail taken from a SIBLING anchor whose own display witnesses that
 	 * tail (link-target gate case 7, spec
-	 * docs/specs/2026-08-27-link-target-gate-cases.md §3). `head` is a
+	 * docs/archive/specs/2026-08-27-link-target-gate-cases.md §3). `head` is a
 	 * target in this entry's input that supplies the leading run;
 	 * `from` is a second input target, of which `tail` is a literal
 	 * SUFFIX; `target` is the `data-ref` written, and must be exactly
@@ -152,7 +152,7 @@ interface TransformResult {
 	/** Link targets this call repaired at the POINT level — the Hebrew
 	 * combining marks in U+0591–U+05C7 — and nowhere else (link-target
 	 * gate case 9, spec
-	 * `docs/specs/2026-09-01-link-target-gate-case-9.md`). `from` is a
+	 * `docs/archive/specs/2026-09-01-link-target-gate-case-9.md`). `from` is a
 	 * target in this entry's INPUT; `target` is the value written;
 	 * `adds` is the points the repair INTRODUCED, verbatim, and its
 	 * absence means it introduced none.
@@ -212,7 +212,7 @@ interface TransformResult {
 	 * [[feedback_vacuous_gates]] is about mistaking one for both. */
 	/** Anchors this call MINTED around a bare anaphor, targeted by
 	 * COPY (link-target gate case 10, spec
-	 * `docs/specs/2026-09-06-link-target-gate-case-10.md`). `target` is
+	 * `docs/archive/specs/2026-09-06-link-target-gate-case-10.md`). `target` is
 	 * the `data-ref` written on the new anchor; `display` is the text it
 	 * now wraps; `field` is one of this entry's own INPUT fields,
 	 * verbatim, and `from` is the token index within that field's own
@@ -326,7 +326,7 @@ interface TransformResult {
 	recombined?: readonly { head: string; tail: string; target: string }[];
 	records: TransformRecord[];
 	/** Text this call DELETED on purpose (batch-6b spec
-	 * `docs/specs/2026-08-28-structural-repairs-design.md` §2.2) — the
+	 * `docs/archive/specs/2026-08-28-structural-repairs-design.md` §2.2) — the
 	 * exact mirror of `copied`, read by `no-lost-text.ts`. Each string
 	 * is verified to occur in this entry's INPUT first, and credited as
 	 * a MULTISET, so declaring one deletion permits exactly one.
@@ -350,7 +350,7 @@ interface TransformResult {
 	removes?: readonly string[];
 	/** Opening tags this call repaired by DELETING a run that never
 	 * belonged inside them (link-target gate case 6, spec
-	 * docs/specs/2026-08-27-link-target-gate-cases.md §2). `written` is
+	 * docs/archive/specs/2026-08-27-link-target-gate-cases.md §2). `written` is
 	 * the raw opening tag the rule emitted; `removed` is the run it
 	 * lifted out. `link-target.ts` accepts the pair only if re-inserting
 	 * `removed` into `written` reproduces a byte-exact SUBSTRING of some
@@ -409,7 +409,7 @@ interface TransformResult {
 	unlinks?: number;
 	/** Link targets this call wrote naming **a headword that belongs to
 	 * ANOTHER ENTRY of this dictionary** (link-target gate case 8, spec
-	 * `docs/specs/2026-08-31-link-target-gate-case-8.md`). `target` is
+	 * `docs/archive/specs/2026-08-31-link-target-gate-case-8.md`). `target` is
 	 * the `data-ref` written; `headword` is the headword the rule says
 	 * it names; `rid` is the entry that headword belongs to; `display`
 	 * is the anchor display the abbreviation came from.
@@ -518,7 +518,7 @@ interface Rule {
 	 *   the mutating call instead of silently corrupting later
 	 *   results. */
 	apply(entry: SourceEntry): TransformResult;
-	/** Must match an `id` in data/patches/patterns.jsonl. */
+	/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 	id: string;
 	phase: TransformPhase;
 }

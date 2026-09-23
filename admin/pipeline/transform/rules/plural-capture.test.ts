@@ -1,4 +1,5 @@
 import { expect, it } from 'bun:test';
+import { SCHEMA_PATH } from '../../paths.ts';
 
 /**
  * The standing gate under batch 8's first DISCARD,
@@ -18,7 +19,7 @@ import { expect, it } from 'bun:test';
  * claim — the survival census, the measured population (523 against
  * the catalogued 358), and the shape of the absence — was retired in
  * consolidation step 5 and is listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  *
  * Audit: `docs/archive/catalogue-audit/plural-label-capture.md`.
  */
@@ -32,9 +33,7 @@ const TIMEOUT = 120_000;
 it(
 	'has no v2 destination to be repaired into',
 	async () => {
-		const schema = (await Bun.file(
-			'admin/pipeline/schema/entry.schema.json',
-		).json()) as {
+		const schema = (await Bun.file(SCHEMA_PATH).json()) as {
 			additionalProperties: boolean;
 			properties: Record<string, unknown>;
 		};

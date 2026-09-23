@@ -1,7 +1,7 @@
 /**
  * `italicSwallowsCloseParen`, FIXTURE TIER. The corpus tier this file
  * was split from was retired in consolidation step 5; its checks are
- * listed in `docs/v2/retired-corpus-checks.md`.
+ * listed in `docs/archive/retired-corpus-checks.md`.
  *
  * Every decline below names the catalogued row the case belongs to,
  * and each was mutation-checked, when the corpus tier still existed:

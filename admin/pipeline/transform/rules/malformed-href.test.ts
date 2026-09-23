@@ -15,7 +15,7 @@
  * (`italic-paren.ts` and friends), pinned the population by rid
  * identity and pinned `checkLinkTargets`'s verdict on both real
  * entries; it was retired in consolidation step 5, listed in
- * `docs/v2/retired-corpus-checks.md`. Split out 2026-08-27
+ * `docs/archive/retired-corpus-checks.md`. Split out 2026-08-27
  * (fix/link-target-gate-cases) when case 6's assertions pushed this
  * file past its line budget.
  */
@@ -171,7 +171,7 @@ describe('unterminatedHref', () => {
 		// The reconstruction arm relocates nothing, so it claims nothing.
 		// The reordering arm's claim was asserted in full over the real
 		// entry by a corpus check retired in consolidation step 5
-		// (`docs/v2/retired-corpus-checks.md`).
+		// (`docs/archive/retired-corpus-checks.md`).
 		expect(result.restored).toBeUndefined();
 	});
 

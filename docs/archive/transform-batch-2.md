@@ -1,8 +1,8 @@
 # Transform batch 2 — links & citations
 
 **Closed 2026-08-24** on `impl/phase-2-batch-2`. Design:
-[2026-08-22-link-transform-design.md](../specs/2026-08-22-link-transform-design.md).
-Module contract: [2026-08-22-transform-module-design.md](../specs/2026-08-22-transform-module-design.md).
+[2026-08-22-link-transform-design.md](specs/2026-08-22-link-transform-design.md).
+Module contract: [2026-08-22-transform-module-design.md](specs/2026-08-22-transform-module-design.md).
 
 **Ten rows, 1,166 catalogued instances, 1,131 occurrences repaired**
 across 1,045 records and 1,006 entries — against twelve rows / 1,794

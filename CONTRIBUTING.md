@@ -111,9 +111,9 @@ which automated tools don't catch.
 
 - An issue is **one class of defect or one decision**, never a list of
   entry ids. Per-entry rows live in the generated docs
-  (`docs/v2/review-report.md`, `docs/v2/headword-issues.md`) or in patch
-  manifests; the issue links the section instead of copying it, so it
-  cannot go stale on the next run.
+  (`docs/reports/review-report.md`, `docs/reports/headword-issues.md`)
+  or in patch manifests; the issue links the section instead of copying
+  it, so it cannot go stale on the next run.
 - One issue per piece of work, not per shape of it. If several shapes are
   fixed by the same pass (say, one read of the 1903 print), they share an
   issue with a checklist.

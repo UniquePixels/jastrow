@@ -10,6 +10,15 @@ archived at `refs/tags/archive/v2-research-2026-09`). Its checker,
 compared a build against v1 `--prior` data that the v2 tree no longer
 holds.
 
+Fourteen files left for that tag: `build.ts`, `align.ts`, `bands.ts`,
+`columns.ts`, `spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`,
+`hocr.ts`, `verify.ts`, and the four of those with their own tests
+(`align.test.ts`, `bands.test.ts`, `columns.test.ts`,
+`monotonic.test.ts`). `hebrew.ts` and its test remain in the live
+tree, because the import still needs them — even though `hebrew.ts`
+was itself part of the build, imported by both `spine.ts` and
+`verify.ts`.
+
 ## Files
 
 | File | Rows | What it is |
@@ -91,6 +100,7 @@ The hOCR both scans were read from is kept, byte-exact, in
 
 ## Method
 
+A deterministic script chain — no model was involved at any stage.
 Tesseract cannot read Jastrow's small pointed Hebrew reliably, so the build does
 not try to *recognise* headwords. Instead it *aligns*:
 
@@ -163,3 +173,11 @@ The effect on the comparison is stark: volume 1 entries agree with the shipped
 
 The shipped `col` field covers only pp. 1–235 and is `?` for the other 83% of
 entries.
+
+## Rights
+
+Derived from the scans in [`../print/hocr/`](../print/hocr/README.md) —
+public domain, with everything else under `data/`. Credit for the
+scans is owed upstream: the University of Toronto's Robarts Library,
+sponsored by the Ontario Council of University Libraries, hosted by
+the Internet Archive. See that README for the full provenance.

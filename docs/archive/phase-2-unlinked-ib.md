@@ -12,7 +12,7 @@ control.
 **SHIPPED 2026-09-06** as `unlinked-bare-anaphor` — 2,119 anchors
 across 1,750 entries. §5's blocker was real and was lifted rather than
 worked around: `link-target.ts` gained
-[gate case 10](../specs/2026-09-06-link-target-gate-case-10.md), and
+[gate case 10](specs/2026-09-06-link-target-gate-case-10.md), and
 the registry gained an `ORDERED` declaration for the four
 non-commuting pairs the rule turned out to have. Everything below is
 the sizing as it stood before either existed; it is left unedited

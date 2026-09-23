@@ -2,7 +2,7 @@
 /**
  * The headword LINE — Sefaria's `headword` followed by its
  * `alt_headwords`, read back as the one line print sets
- * (`docs/v2/headword-design.md` §2, ruled 2026-09-21).
+ * (`admin/pipeline/DESIGN.md` §2, ruled 2026-09-21).
  *
  * The old `decomposeForm` read one ITEM at a time and could only keep
  * what fitted `*text ROMAN SUP`; everything print sets BETWEEN the

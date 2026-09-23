@@ -26,6 +26,7 @@
  * escalations import deliberately defers.
  */
 import { existsSync } from 'node:fs';
+import { REVIEWED_DIR, TRANCHES_DIR } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import {
@@ -45,21 +46,6 @@ import {
 	type SemanticPatch,
 	validateCorpus,
 } from './schema.ts';
-
-/** The committed patch corpus (spec §4.4): every ingested tranche's
- * files. Absent files mean an empty corpus.
- *
- * `data/patches/pilot/` was a third source until 2026-09-22. All three
- * of its patches were `superseded` — a transform rule reached the
- * defect first, so the run absorbed them and applied none — leaving it
- * with no record the run applies, and it moved whole to
- * `docs/archive/patches-retired-2026-09-22/pilot/`. */
-const TRANCHES_DIR = 'data/patches/tranches';
-
-/** Human-authored patches (consolidation spec §4.2). Kept out of
- * `TRANCHES` on purpose: consolidation keeps one manifest record per
- * rid, and 11 reviewed rids also have agent records. */
-const REVIEWED_DIR = 'data/patches/reviewed';
 
 /** What `loadReviewedCorpus` finds in a reviewed patch directory: the
  * human-authored patches, the findings a person flagged without
@@ -695,11 +681,11 @@ function newTextProblem(
 	after: SourceEntry,
 ): ApplyProblem | undefined {
 	if (patch.author === 'human') {
-		return undefined;
+		return;
 	}
 	const verdict = validateNoNewText(patch, before, after);
 	if (verdict.ok) {
-		return undefined;
+		return;
 	}
 	return {
 		patchId: patch.id,
