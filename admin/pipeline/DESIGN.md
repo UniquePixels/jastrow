@@ -8,9 +8,10 @@ section — what it refuses to do.
 It is written in the present tense and describes only this module.
 The app, the admin tool, routing and rendering are outside it; where a
 fact depends on one of them, the fact is stated and the dependency is
-named as unbuilt. Rulings and their dates live in
-[`docs/decisions.md`](../../docs/decisions.md); the dated design specs
-this document replaces are in [`docs/archive/specs/`](../../docs/archive/specs/).
+named as unbuilt. The dated design specs this document replaces are
+archived and are no longer the reference; every ruling behind them,
+with what it drops, is indexed in
+[`docs/decisions.md`](../../docs/decisions.md).
 
 Facts that are **designed but not built** are marked **UNBUILT**
 inline. A reader who assumes otherwise will be wrong about several
@@ -29,6 +30,7 @@ it does not own, plus reports about what it did.
 |---|---|
 | `data/source/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
 | `data/source/lexicons.json` | the lexicon registry record that travels with it |
+| `data/source/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
 | `data/page-index/entries.jsonl` | page, column and confidence per rid, built from the print hOCR |
 | [`data/schema/entry.schema.json`](../../data/schema/entry.schema.json) | the entry contract, read at run time |
 | `data/quarantine/internal-targets.json` | reviewed unresolved citation targets |
@@ -85,6 +87,57 @@ Everything the archived specs assign to compile — the route map, the
 browse index, abbreviation detection, reference-index derivation,
 pointer classification, entry shards, search artifacts — is unbuilt,
 and none of it is this module's concern.
+
+### The import run, stage by stage
+
+The run is **two passes over the corpus**, because several things
+cannot be known one entry at a time.
+
+1. **Patch preparation** (`preparePatches`). Loads the accepted corpus
+   and the reviewed corpus, preflights both against the snapshot pin,
+   and groups patches by rid. Produces the patch-accounting and
+   snapshot-pin rows on the report.
+2. **Pass 1 — compose** (`composeAll` → `composeOne`). For every source
+   entry, runs the committed phase manifest through `composeEntry`
+   (`compose.ts`), builds the body trace, and checks gate 1. Produces a
+   `Composed` record — `{ body, entry, source }` — per entry that
+   survives; a throw reds gate 9 and the entry is dropped.
+3. **Orphan-ref check** (`checkOrphanRefs`). Runs **after every entry
+   is composed**, against the composed set, so patches and transforms
+   have already had their say. An unbased obligation is a fault row
+   folded into gate 9.
+4. **Corpus indexes** (`buildIndexes`). Four things only the whole
+   corpus can build: the composed-headword → rid map that citations
+   resolve against, a source-headword map (the chain is walked on
+   source spellings), the pristine rid → Sefaria-headword map, and the
+   page index. This stage also runs the two **corpus-level** gates —
+   5 (`chain`) and 8 (`pages`) — which are not per-entry and have
+   nowhere else to go.
+5. **Pass 2 — finish** (`finishAll`), per composed entry in rid order:
+   headword-line decomposition, markup translation, citation-target
+   resolution, page attachment, catalogued-class detection, and the
+   per-entry gates 2, 3 and 4.
+6. **Names gate** (gate 7) and **quarantine gate** (gate 6), after
+   pass 2.
+7. **Report and classify** — the machine report, the blessing doc, the
+   review doc, every run, dry included.
+8. **Write** (`--write` only): `normalizeForWrite` over every entry,
+   then the files, then `biome format --write`, then the report again
+   so its `written` count is accurate.
+
+`PHASE_MANIFEST` (§5) orders the *phases inside one entry's
+composition*; the list above orders the *run*. They are different
+things and are asserted separately.
+
+### The names the code kept
+
+The data terms are **source**, **entry**, **compiled**, **reference**
+and **correction** data, and the command is `data:import`. The code
+identifiers deliberately kept the older words: `migrate.ts`,
+`migrate/`, `TruthEntry`, `TruthFile`, `TruthSense`, `validateTruth`,
+`loadTruthFiles`, `formatTruth`. A rename would have touched every
+file to no benefit, so prose and code disagree on purpose. Where this
+document says "truth entry" it means an entry-data file.
 
 ### Test tiers
 
@@ -184,10 +237,14 @@ reads only `sense.senses` and drops `sense.definition`; the children of
 a stem carry no `grammar` and no nested `senses` (corpus-measured max
 depth 1) — `body/trace.ts`.
 
-`grammar.gender` and `grammar.number` are seeded from a closed
-eight-value vocabulary of `content.morphology` markers; an
-unrecognized value is reported as `{unknown}` and never guessed
-(`body/grammar.ts`). `grammar.pos` is declared in the schema, has no
+`grammar.gender` and `grammar.number` are seeded from a **closed**
+vocabulary of `content.morphology` markers; an unrecognized value is
+reported as `{unknown}` and never guessed (`body/grammar.ts`). Exactly
+**8** distinct markers occur corpus-wide, across 13,162 markers, and
+that census is what closes the vocabulary. `VOCAB` carries **11** rows:
+the extra three (`c.`, `m. du.`, `f. du.`) have no census row and are
+supported for forward compatibility only. The census is archived, so a
+re-fetch needs a fresh one before the vocabulary can be widened. `grammar.pos` is declared in the schema, has no
 producer, and is absent from every entry. **UNBUILT.**
 
 ### The markup vocabulary
@@ -216,6 +273,11 @@ entry is an ordinary entry with one unlabeled sense whose gloss is the
 pointer text — there is no dedicated field, and classifying that shape
 for presentation is a compile concern. **UNBUILT.**
 
+Repairing a homograph-numbering gap is **unbuilt by ruling**, not
+merely unwritten: the gaps are not patchable from the data, so they
+are flagged for the print rather than repaired. A detector exists; no
+repair will.
+
 A `notes` mechanism for intentional deviations from print does not
 exist. **UNBUILT.**
 
@@ -241,7 +303,12 @@ such record and zero entries under that name. Only
 than emitting a silent empty output. A Sefaria schema change is a code
 change.
 
-Documents are emitted unmodified. `data/source/` is a faithful
+It emits three files: `jastrow-dictionary.jsonl` (the `lexicon_entry`
+documents, verbatim, in dump order), `lexicons.json` (the lexicon
+registry record) and `manifest.json` (provenance about the fetch
+itself, which is why it is not hashed into the pin).
+
+Documents are emitted **unmodified**. `data/source/` is a faithful
 snapshot, which is why it still holds the non-NFC strings Sefaria
 serves — the module normalizes only what it writes (§11).
 
@@ -309,12 +376,29 @@ none of the four fails the registry test.
 records must occupy a gap-free span in the registry, checked by
 cluster contiguity rather than pairwise distance (`checkAdjacency`).
 
-**`ORDERED` is direction.** Adjacency does not say which of two rules
-runs first; `ORDERED` declares a required sequence where one rule reads
-what another writes. Two standing constraints are stated as numbered
-rules in `registry.ts`'s header: unlink rules run before compose rules,
-and a retarget-after-retarget runs after every rule that repairs an
-anchor it might adopt.
+**`ORDERED` is direction.** Adjacency is direction-blind; `ORDERED`
+declares a required sequence where one rule reads what another writes.
+
+**Four standing constraints** govern list position, stated as numbered
+rules in `registry.ts:97-107` and pinned by `registry.order.test.ts`:
+
+1. A rule that repairs what the **tokenizer** sees runs before every
+   rule that reads the tokens.
+2. A rule that **deletes markup** runs before one that reads the text
+   that markup was hiding — unlink before wrap, unwrap before wrap. An
+   anchor covers Hebrew that `bare-rtl-hebrew` correctly declines while
+   it stands, so wrapping first never reaches it.
+3. A **retarget** runs after every rule that repairs an anchor it might
+   adopt — after every unlink, and after every earlier retarget. It
+   copies its antecedent whole, so an antecedent another rule is about
+   to correct propagates a wrong address.
+4. `trailingWhitespaceDefinition` runs **last** among `text-repairs`.
+
+Every other placement is **free**, and free means measured: the rule is
+moved to the front and to the back of `RULES`, the registry composed
+over all 32,512 entries, and any entry whose final bytes differ is
+quoted. `registry.order.corpus.test.ts` earns each rule's class from
+the corpus rather than from the comments.
 
 **Commutation.** For every unordered rule pair not declared
 `entangledWith`, `A ∘ B ≡ B ∘ A`, checked over the **union** (not the
@@ -458,9 +542,14 @@ catalogue row rather than a partial transform.
 - `abbrevFusedHeadword` moves a leading geresh abbreviation out of
   `headwords` into the alternates. It refuses a line whose geresh token
   is not first, and it refuses — via an enumerated `LINKED_HEADWORDS`
-  set asserted exactly equal to the corpus-measured targets, loud on
-  drift — any headword another entry's anchor still names by its old
-  string.
+  set — any headword another entry's anchor still names by its old
+  string. **The drift alarm on that set no longer runs.** A corpus test
+  once asserted it equalled exactly the fused headwords some anchor
+  targets, so a re-fetch that added or removed a pointing anchor would
+  have failed rather than silently changing what shipped; the test was
+  retired with its tier. The set is a measured snapshot, and a new
+  export is unguarded against it — a review-detector candidate
+  (`transform/rules/headword.ts:99-107`).
 - `genderPairAltDuplicate` deletes a duplicated alternate, keeping
   first-occurrence order, and deliberately does not touch
   `content.morphology`.
@@ -498,11 +587,45 @@ non-empty `allows` is a maintainer ruling in code, and so is every
 `LOSS_ALLOWANCES` row — the table is keyed by rule id rather than
 declared on the rules, because it is the list a reviewer reads to know
 which rules delete text, and spread over ten files nobody reads it.
-`LOSS_ALLOWANCES` names seven rules today; four more declare per-call
-`removes` because what they drop is per-entry and a static list would
-have had to name most of the Hebrew alphabet. (The module's own
-docstring says "nine" and "seventeen"; the literal map holds seven.
-Trust the map.)
+**Fifteen rules are licensed to lose text.** `LOSS_ALLOWANCES` names
+seven; the other **eight** declare per call through `removes`, because
+what they drop is per-entry and a static list would have had to name
+most of the Hebrew alphabet. Four of the eight are in `text-repairs`
+(`asterisk-stem-label`, `geresh-apostrophe-as-gershayim`,
+`gender-pair-headword-line-collapse`,
+`unterminated-href-swallows-closing-tag`) and four in
+`structural-repairs` (`duplicated-definition-opening-run`,
+`adjacent-verbatim-repetition`, `stem-head-marker-chop`,
+`stranded-stem-head`). The module's own docstring says "nine" and
+"seventeen" and counts only the text-phase retrofits under "the other
+four"; read the map and the `removes` declarations, not the comment.
+
+### Anchors: the one view, and the one editor
+
+`transform/links.ts` is the only anchor view. `anchors()` reads them;
+`retarget()` and `unlink()` are the only editors. An `Anchor` carries
+`href`, `dataRef`, `display` (tags stripped), `tag` (the opening tag's
+**raw** bytes), `open` and `close` (token indices, `close` is `-1` when
+unclosed), `malformed` (this anchor's own opening tag is damaged) and
+`interior` (one of its tokens sits inside another tag's unrecovered
+attribute region). Both editors refuse a `malformed` or `interior`
+anchor. The gate does not: it counts and target-checks them like any
+other, because an anchor a rule could not legitimately have touched is
+exactly the one a silent skip would hide.
+
+`tag` exists because `href` and `dataRef` are what the attribute parser
+could read, which is not always what the tag says — a gershayim written
+as an ASCII quote terminates its own attribute, and the value reads
+back truncated with nothing visibly wrong. Case 5 compares those raw
+bytes instead.
+
+**Anchor counts are reconciled, not assumed.** Anchors never grow
+except under case 10, and any **shortfall must be declared by
+`unlinks`** — the markup gate reads a dropped tag pair as an
+improvement and the text gate reads the deletion as a legitimate
+sub-multiset, so nothing else can catch an accidental unlink. Case 10
+does not remove that invariant; it replaces the inequality with a
+reconciling equation, `source − output === (unlinks ?? 0) − minted`.
 
 ### The link-target gate
 
@@ -541,9 +664,9 @@ proactively to every later minting or evidence-importing case even
 where the residue was tighter.
 
 Case 10 is the one case that lifts the "anchors never grow" invariant.
-It replaces it with a reconciling count equation plus an anaphor-count
-clause that closes the unlink-one/mint-one blind spot **only for
-anaphor-for-anaphor pairs**. Building it surfaced a second gate gap —
+It replaces it with the reconciling equation above, plus an
+anaphor-count clause that closes the unlink-one/mint-one blind spot
+**only for anaphor-for-anaphor pairs**. Building it surfaced a second gate gap —
 commutation is adjacency-only — answered with `ORDERED` (§4).
 
 Two rules the archived specs record as deliberately unregistered,
@@ -818,6 +941,17 @@ report, the blessing doc, and the review doc. The blessing doc renders
 the report and nothing in it is hand-written; every list renders
 `_empty_` rather than vanishing, so a missing section is a bug.
 
+### One formatter
+
+Entry data has exactly one formatter, and it is the project's: Biome
+formats `data/entries/`, and the pipeline formats **last**, as the
+write's final step (`formatTruth`). `biome.json` therefore carries
+`data/entries/**/*.json` in `files.includes` deliberately — the rest of
+`data/` is excluded — with an override that disables the **linter**
+there, because the files are data and not code. Contributors run
+`bun qa`; CI runs `qa:ci` (`biome ci --error-on-warnings`), which
+checks and never rewrites.
+
 ### What a hand edit meets
 
 Entry-data validation (`migrate/validate.ts`, run over the committed
@@ -840,8 +974,10 @@ so cannot be inferred from reading the code that is there.
 1. **A rule may not invent text.** Tag-stripped output must be a
    sub-multiset of the input's, unless the rule declares `allows` —
    and every non-empty `allows` is a maintainer ruling in code
-   (`transform/no-new-text.ts:1-23`). It states its own blind spot:
-   codepoints, not graphemes, so mark reattachment passes.
+   (`transform/no-new-text.ts:1-41`). It states its own blind spot:
+   codepoints, not graphemes, so a bug that detaches a combining mark
+   and reattaches it to a neighbouring word leaves the multiset
+   unchanged and passes.
 2. **A rule may not reach outside the entry for text.** `copied` is
    checked against *that entry's own* input, never the corpus
    (`transform/no-new-text.ts:190-210`).
@@ -858,8 +994,7 @@ so cannot be inferred from reading the code that is there.
    `:62`).
 6. **Correction may not widen into composition.** The marker allowance
    is deliberately held to the closed grammar `N)` / `—N)` for exactly
-   this reason (`patch/no-new-text.ts:22-26`;
-   `transform/no-new-text.ts:20-23`).
+   this reason (`patch/no-new-text.ts:24-26`).
 7. **A human patch is exempt from the text floor; an agent patch is
    not.** `patch/apply.ts:683` returns early only on
    `author === 'human'`.
@@ -968,8 +1103,9 @@ so cannot be inferred from reading the code that is there.
     to in the source (`migrate/headwords.ts:396-460`).
 32. **`partial` forms are never expanded or joined.** Joining an
     ellipsis ending would require assuming the letters before the seam
-    keep the base form's vowels, which prohibition 23 forbids
-    (`migrate/headwords.ts:462-484`).
+    keep the base form's vowels, which prohibition 23 forbids. The
+    marking is at `migrate/headwords.ts:462-484`; the rationale is the
+    no-vowel-inference ruling, not a comment there.
 33. **A `partial` form is never a lookup key**, except at index 0 when
     it is the entry's only name
     (`migrate/headword-rules.ts:213-236`).
