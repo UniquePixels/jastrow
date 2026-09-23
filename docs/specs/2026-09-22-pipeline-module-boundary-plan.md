@@ -631,7 +631,7 @@ not being found — the run would report fewer applied patches, not fail.
 git commit -s -am "🧺 chore(patch): records are import definition
 
 The patch corpus exists only to turn raw source into entries —
-the same category as the 81 transform rules, not dictionary data.
+the same category as the transform rules, not dictionary data.
 It moves into the module and data/ loses its last MIT tree.
 
 Counts unchanged: 114 reviewed, 113 accepted, 232 applied.
@@ -1152,7 +1152,7 @@ lexicon: point those constants at your files, supply an entry schema
 at `SCHEMA_PATH`, and run the two commands above. Nothing in `docs/`
 is needed to run it.
 
-What will not transfer: the 81 transform rules and the patch records
+What will not transfer: the transform rules and the patch records
 under `patch/records/` are corrections to *this* dictionary as Sefaria
 holds it. They are the module's import definition, not its engine.
 ```
