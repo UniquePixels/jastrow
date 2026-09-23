@@ -8,9 +8,9 @@ section — what it refuses to do.
 It is written in the present tense and describes only this module.
 The app, the admin tool, routing and rendering are outside it; where a
 fact depends on one of them, the fact is stated and the dependency is
-named as unbuilt. The dated design specs this document replaces are
-archived and are no longer the reference; every ruling behind them,
-with what it drops, is indexed in
+named as unbuilt. This document replaces the dated design specs and is
+the reference in their place; every ruling behind them, with what it
+drops, is indexed in
 [`docs/decisions.md`](../../docs/decisions.md).
 
 Facts that are **designed but not built** are marked **UNBUILT**
@@ -83,10 +83,10 @@ link.
 - `bun run transform:count` — the per-rule, rule-alone count.
 
 `bun data:compile` and `compile.ts` do not exist. **UNBUILT.**
-Everything the archived specs assign to compile — the route map, the
-browse index, abbreviation detection, reference-index derivation,
-pointer classification, entry shards, search artifacts — is unbuilt,
-and none of it is this module's concern.
+Everything assigned to compile — the route map, the browse index,
+abbreviation detection, reference-index derivation, pointer
+classification, entry shards, search artifacts — is unbuilt, and none
+of it is this module's concern.
 
 ### The import run, stage by stage
 
@@ -666,12 +666,13 @@ where the residue was tighter.
 Case 10 is the one case that lifts the "anchors never grow" invariant.
 It replaces it with the reconciling equation above, plus an
 anaphor-count clause that closes the unlink-one/mint-one blind spot
-**only for anaphor-for-anaphor pairs**. Building it surfaced a second gate gap —
-commutation is adjacency-only — answered with `ORDERED` (§4).
+**only for anaphor-for-anaphor pairs**. Building it surfaced a second
+gate gap — commutation is adjacency-only — answered with `ORDERED`
+(§4).
 
-Two rules the archived specs record as deliberately unregistered,
-`toseftaPrimaryHalakha` and `unterminatedHref`, **are registered
-today**, unblocked by cases 7 and 6 respectively.
+Two rules the specs this document replaces record as deliberately
+unregistered, `toseftaPrimaryHalakha` and `unterminatedHref`, **are
+registered today**, unblocked by cases 7 and 6 respectively.
 `toseftaPrimaryHalakha` registers strictly before `toseftaCloseParen`,
 and the direction is the whole point of the pairing.
 
