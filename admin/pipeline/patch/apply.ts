@@ -47,21 +47,6 @@ import {
 	validateCorpus,
 } from './schema.ts';
 
-/** `TRANCHES_DIR` (`paths.ts`) is the committed patch corpus (spec
- * §4.4): every ingested tranche's files. Absent files mean an empty
- * corpus.
- *
- * `data/patches/pilot/` was a third source until 2026-09-22. All three
- * of its patches were `superseded` — a transform rule reached the
- * defect first, so the run absorbed them and applied none — leaving it
- * with no record the run applies, and it moved whole to
- * `docs/archive/patches-retired-2026-09-22/pilot/`.
- *
- * `REVIEWED_DIR` (`paths.ts`) is human-authored patches (consolidation
- * spec §4.2). Kept out of `TRANCHES` on purpose: consolidation keeps
- * one manifest record per rid, and 11 reviewed rids also have agent
- * records. */
-
 /** What `loadReviewedCorpus` finds in a reviewed patch directory: the
  * human-authored patches, the findings a person flagged without
  * repairing, and the manifest rows behind both.

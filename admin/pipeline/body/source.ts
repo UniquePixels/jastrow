@@ -6,14 +6,6 @@
 import { SOURCE_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 
-/** The corpus file the body model reads — the 32,512-entry source
- * JSONL this module's header describes. It is `readSourceEntries`'s
- * default argument rather than a literal buried inside it, so a test
- * or a fixture can stream a smaller file through exactly the same
- * decoding, line-splitting and parsing path. Re-exported below under
- * its own name (imported from `paths.ts`) so `test-tiers.test.ts`'s
- * identifier match keeps working. */
-
 /** Parse one JSONL line into a `SourceEntry`. */
 function parseSourceEntry(line: string): SourceEntry {
 	return JSON.parse(line) as SourceEntry;
@@ -46,7 +38,10 @@ async function* linesOf(
 
 /** Stream every entry from the source JSONL, one line at a time. Never
  * buffers the whole file — chunks are decoded and split on `\n` as they
- * arrive. */
+ * arrive. `path` defaults to `SOURCE_PATH` (`paths.ts`) rather than a
+ * literal buried inside the function, so a test or a fixture can
+ * stream a smaller file through exactly the same decoding,
+ * line-splitting and parsing path. */
 async function* readSourceEntries(
 	path: string = SOURCE_PATH,
 ): AsyncGenerator<SourceEntry> {
@@ -57,4 +52,6 @@ async function* readSourceEntries(
 	}
 }
 
+// Re-exported under its own name (imported from `paths.ts`) so
+// `test-tiers.test.ts`'s identifier match keeps working.
 export { linesOf, parseSourceEntry, readSourceEntries, SOURCE_PATH };

@@ -1,9 +1,6 @@
 /** Page lookup (migrate spec §2.5) from the hOCR page index. */
 import { PAGE_INDEX_PATH } from '../paths.ts';
 
-/** `PAGE_INDEX_PATH` (`paths.ts`) is one JSON row per rid, carrying
- * its page, column and confidence. */
-
 /** Where one entry sits in the print: the page number, which of the
  * two columns, and how sure the hOCR index is of that placement. A
  * `medium` or `low` confidence still places the entry — it is carried

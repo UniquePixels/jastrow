@@ -23,21 +23,6 @@ import { LOCK_PATH, SNAPSHOT_FILES } from '../paths.ts';
 const LOCK_COMBINED_LINE = /^sha256:(?<hex>[0-9a-f]{64})$/u;
 const LOCK_FILE_LINE = /^(?<path>\S+) sha256:(?<hex>[0-9a-f]{64})$/u;
 
-/**
- * `SNAPSHOT_FILES` (`paths.ts`) is the decoded snapshot: exactly what
- * `data:fetch` emits from the Sefaria dump, in fixed (alphabetical)
- * order. `manifest.json` is provenance about the fetch,
- * `edit-replay.jsonl` is admin-tool history, and `*-report.json`
- * files are pipeline output — none of them are snapshot content, so
- * none of them are hashed.
- *
- * `LOCK_PATH` (`paths.ts`) is where the committed pin lives. One fixed
- * path, not an option: the value every patch record pins itself to
- * has to be the same one for everybody, so `--write` writes here and
- * verification reads here. `verifySnapshot` takes a `lockPath`
- * parameter, but it defaults here and no caller overrides it.
- */
-
 /** One hashed snapshot file. */
 interface FileHash {
 	path: string;
@@ -161,7 +146,8 @@ function describeMismatches(mismatches: readonly SnapshotMismatch[]): string {
 }
 
 /** Verify the working tree against the committed lock. Returns the
- * mismatch list (empty = verified). */
+ * mismatch list (empty = verified). `lockPath` defaults to
+ * `LOCK_PATH` (`paths.ts`); no caller overrides it. */
 async function verifySnapshot(
 	lockPath: string = LOCK_PATH,
 ): Promise<SnapshotMismatch[]> {

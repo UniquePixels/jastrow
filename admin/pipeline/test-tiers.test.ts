@@ -22,7 +22,7 @@
  *
  * ## What it can and cannot see
  *
- * It is a static check over file text. It sees the four ways a test
+ * It is a static check over file text. It sees the six ways a test
  * reaches the snapshot today:
  *
  *   - importing `corpus-fixture.ts` (the shared, memoised stages);
@@ -31,7 +31,10 @@
  *   - naming `SOURCE_PATH` itself;
  *   - calling `computeSnapshot()` with no argument, or naming
  *     `SNAPSHOT_FILES`, both of which reach the same two files by
- *     their own default.
+ *     their own default;
+ *   - naming `SOURCE_DIR` or `LEXICONS_PATH` (`paths.ts`) directly —
+ *     `paths.ts` gives a test a tidier route to the same 41 MB file
+ *     that never goes through `SOURCE_PATH`.
  *
  * The fourth signal arrived on 2026-09-21 because the claim above was
  * false: `patch/snapshot.test.ts` had been hashing the 41 MB snapshot
@@ -73,6 +76,8 @@ const CORPUS_SIGNALS: ReadonlyArray<readonly [string, RegExp]> = [
 	['names SOURCE_PATH', /\bSOURCE_PATH\b/u],
 	['calls computeSnapshot()', /\bcomputeSnapshot\(\s*\)/u],
 	['names SNAPSHOT_FILES', /\bSNAPSHOT_FILES\b/u],
+	['names SOURCE_DIR', /\bSOURCE_DIR\b/u],
+	['names LEXICONS_PATH', /\bLEXICONS_PATH\b/u],
 ];
 
 /** This file, absolute — the one path the scan must not report on. */

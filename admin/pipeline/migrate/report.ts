@@ -7,18 +7,6 @@ import { tally } from './gates.ts';
 import { isHeadwordReviewKind } from './headwords.ts';
 import type { Tally, TruthEntry } from './types.ts';
 
-/** `MIGRATION_REPORT_PATH` (`paths.ts`) is where the run writes its
- * machine-readable report. Under `data/source/` because it describes
- * one import of that snapshot, not the dictionary: it is regenerated
- * wholesale every run and nothing downstream may treat it as entry
- * data.
- *
- * `BLESSING_PATH` (`paths.ts`) is the evidence document the maintainer
- * reads and blesses (migrate spec §4.2). The report is the machine's
- * account of a run; this is the human-facing one, and the two are
- * generated together so a blessing can never be given against numbers
- * that have moved. */
-
 /** The nine blessing gates, in report order (migrate spec §4.1). The
  * list is the single definition: `GateName` derives from it, and
  * `createReport` seeds a tally for every member up front, so a gate the
