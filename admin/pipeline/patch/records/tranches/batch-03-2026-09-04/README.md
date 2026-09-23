@@ -3,7 +3,7 @@
 > **2026-09-22 — no patch or record left this directory.** Its
 > sweep-era residue did: `rejects.jsonl` and the four
 > `verdicts-batch-03-*.jsonl` are at
-> [`docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/).
+> [`docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/`](../../../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-03-2026-09-04/).
 > The loader never read them.
 
 The first residue batch to leave the head of the corpus. Maintainer go

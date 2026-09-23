@@ -1,6 +1,6 @@
 /**
- * The six rules the pipeline halts on (`docs/v2/headword-design.md`
- * §3.1), as checks over a FINISHED entry. They hold however the entry
+ * The six rules the pipeline halts on (`admin/pipeline/DESIGN.md`
+ * §2), as checks over a FINISHED entry. They hold however the entry
  * got there — the pipeline's write or a hand edit — so they live here
  * rather than inside the parser, and `validate.ts` runs them over the
  * committed tree in `bun qa`.

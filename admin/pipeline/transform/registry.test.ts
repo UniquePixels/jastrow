@@ -137,7 +137,7 @@ describe('registry coverage', () => {
 	//   its row claimed hundreds. Ruled by Brian 2026-08-28. See
 	//   docs/archive/catalogue-audit/binyan-form-cleanup.md; the
 	//   standing gate for this was retired in consolidation step 5
-	//   (`docs/v2/retired-corpus-checks.md`).
+	//   (`docs/archive/retired-corpus-checks.md`).
 	// - `empty-stem-section` (347 sections / 342 ent), batch 6b — 69 to
 	//   68, and it failed none of the three tests above. It failed a
 	//   fourth: there is nothing to repair. The label and the form both

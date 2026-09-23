@@ -143,7 +143,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// 75% of it. A runner a third slower fails here, and the message
 		// would name the commutation gate rather than the slow machine.
 		// 600s matches the convention of the corpus walks retired in
-		// consolidation step 5 (`docs/v2/retired-corpus-checks.md`) for a
+		// consolidation step 5 (`docs/archive/retired-corpus-checks.md`) for a
 		// walk of this size. It is a timeout, not an assertion.
 	}, 600_000);
 });

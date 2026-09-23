@@ -13,7 +13,7 @@
  * than these rows are worth, so the fact is computed once and pinned.
  * NOTHING CHECKS THE PIN TODAY: the re-derivation that required an
  * exact match against the snapshot is retired
- * (`docs/v2/retired-corpus-checks.md`), and on a new export it is a
+ * (`docs/archive/retired-corpus-checks.md`), and on a new export it is a
  * review-detector candidate (consolidation spec §10) rather than a
  * gate. Widening `FROZEN` by hand is therefore unguarded.
  *

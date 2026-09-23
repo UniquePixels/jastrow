@@ -2,7 +2,8 @@
 /**
  * Headword issue report — every headword and alternate-headword shape
  * that a perfect-or-halt headword rule would have to rule on, grouped
- * so the shapes can be decided one at a time (`docs/v2/headword-design.md`).
+ * so the shapes can be decided one at a time (`admin/pipeline/DESIGN.md`
+ * §2).
  *
  * Two inputs, deliberately:
  *

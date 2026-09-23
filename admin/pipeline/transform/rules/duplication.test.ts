@@ -173,7 +173,7 @@ describe('the two rules together', () => {
 	// different runs and compose to the same entry in either order —
 	// asserted here on a fixture of the same shape; the corpus-tier
 	// assertion on the entry itself was retired in consolidation step 5
-	// (`docs/v2/retired-corpus-checks.md`).
+	// (`docs/archive/retired-corpus-checks.md`).
 	it('compose order-independently when one entry holds both', () => {
 		const input = one(`${RUN}${RUN}middle${RUN}${RUN}tail`);
 		const ab = adjacentVerbatimRepeat.apply(

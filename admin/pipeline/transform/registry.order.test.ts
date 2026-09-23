@@ -496,7 +496,7 @@ describe('registry order', () => {
 			// below checks. As with the tosefta pair, what that does NOT
 			// check is the DIRECTION, and here the direction is the whole
 			// requirement — pinned by this test, which a retired corpus
-			// check (consolidation step 5, `docs/v2/retired-corpus-checks.md`)
+			// check (consolidation step 5, `docs/archive/retired-corpus-checks.md`)
 			// once held in the shape of the disagreement rather than as
 			// the winning order, so a reorder fails with the reason attached.
 			// SEVEN became EIGHT at batch 10, and this one arrived by the

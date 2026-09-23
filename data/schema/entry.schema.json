@@ -2,7 +2,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://jastrow.app/schema/entry.schema.json",
 	"title": "Jastrow v2 truth entry",
-	"description": "Machine-readable spec of the v2 entry body model (docs/specs/2026-07-11-entry-body-model-design.md §2, decision B11) at schemaVersion 2 — the headword-design §2 shape, where headwords[] and an optional display template replace headword/altHeadwords. This schema is the documented generic spec of the format; examples in the design doc illustrate it, they do not define it.",
+	"description": "Machine-readable spec of the v2 entry body model (docs/archive/specs/2026-07-11-entry-body-model-design.md §2, decision B11) at schemaVersion 2 — the headword-design §2 shape, where headwords[] and an optional display template replace headword/altHeadwords. This schema is the documented generic spec of the format; examples in the design doc illustrate it, they do not define it.",
 	"type": "object",
 	"additionalProperties": false,
 	"required": ["schemaVersion", "id", "sefariaHeadword", "headwords", "senses"],

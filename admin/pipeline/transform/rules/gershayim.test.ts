@@ -16,7 +16,7 @@
  * consolidation step 5), so this file runs on every `bun qa` without
  * reading the source data. The corpus measurements it used to carry —
  * the locus partition, the link-integrity census, order-freedom over
- * every entry — are listed in `docs/v2/retired-corpus-checks.md`.
+ * every entry — are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import { readSourceEntries } from '../../body/source.ts';

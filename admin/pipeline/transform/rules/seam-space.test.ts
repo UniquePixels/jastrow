@@ -11,7 +11,7 @@ import {
 
 /** A minimal single-sense entry: every rule here reads `definition`
  * and nothing else. Fixture tier — the corpus tier was retired in
- * consolidation step 5, listed in `docs/v2/retired-corpus-checks.md`. */
+ * consolidation step 5, listed in `docs/archive/retired-corpus-checks.md`. */
 function entryWith(definition: string): SourceEntry {
 	return {
 		content: { senses: [{ definition }] },

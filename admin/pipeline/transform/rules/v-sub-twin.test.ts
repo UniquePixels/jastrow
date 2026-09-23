@@ -1,10 +1,10 @@
 /**
  * `vSubRedirectTwin` and link-target gate case 8, FIXTURE TIER. The
  * corpus tier this file was split from is retired in consolidation
- * step 5 (`docs/v2/retired-corpus-checks.md`); the split was not
+ * step 5 (`docs/archive/retired-corpus-checks.md`); the split was not
  * cosmetic there: **the two halves checked different things and
  * neither was sufficient alone** (spec
- * `docs/specs/2026-08-31-link-target-gate-case-8.md` §5).
+ * `docs/archive/specs/2026-08-31-link-target-gate-case-8.md` §5).
  *
  * This file checks the gate's five CLAUSES — that each refuses when
  * violated, and that the allowlist refuses on the licence rather than
@@ -311,7 +311,7 @@ describe('review regressions', () => {
 		// 38 twins anchored elsewhere carry 111 anchors, every one at
 		// index 1. The behavioural guard over all 50 rows was a corpus
 		// check, retired in consolidation step 5
-		// (`docs/v2/retired-corpus-checks.md`); this pins the pair
+		// (`docs/archive/retired-corpus-checks.md`); this pins the pair
 		// agreeing, which is what the gate's clause 1 spelling check
 		// requires.
 		const written =

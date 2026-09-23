@@ -57,7 +57,7 @@ interface SourceEntry {
 }
 
 /** Target shapes (design doc §2,
- * docs/specs/2026-07-11-entry-body-model-design.md). What the model
+ * docs/archive/specs/2026-07-11-entry-body-model-design.md). What the model
  * builds from `SourceEntry`. */
 interface BodySense {
 	gloss: string;

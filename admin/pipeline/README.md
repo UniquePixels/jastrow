@@ -150,9 +150,10 @@ the blessing doc
 [`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md).
 The report holds the nine gate tallies, one row per review item, patch
 re-judgment or pipeline fault, and a composed count per rule, plus an
-outcome per patch. `bun data:import --strict` refuses on a stale
-snapshot pin or a drifted patch. See [`DESIGN.md`](DESIGN.md) §10 for
-what a report row means.
+outcome per patch — see [`DESIGN.md`](DESIGN.md) §5 for the four
+outcome values and what each means. `bun data:import --strict`
+refuses on a stale snapshot pin or a drifted patch. See
+[`DESIGN.md`](DESIGN.md) §10 for what a review row means.
 
 **Hebrew and NFC.** Every comparison — a name's uniqueness, a headword
 lookup, the duplicate-form check — normalizes to NFC first, because

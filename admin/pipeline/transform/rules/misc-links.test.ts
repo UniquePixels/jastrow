@@ -5,7 +5,7 @@
  * `anchors(tokenize(definition))` for the anchors. The corpus-walking
  * tests that re-ran the load-bearing claims (raw population, clean
  * population, retarget reachability) were retired in consolidation
- * step 5 and are listed in `docs/v2/retired-corpus-checks.md`.
+ * step 5 and are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

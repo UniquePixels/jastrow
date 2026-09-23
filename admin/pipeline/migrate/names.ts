@@ -1,6 +1,6 @@
 /**
  * The name an entry is addressed by (URL names spec
- * `docs/specs/2026-09-21-url-names-design.md` §4, rulings U2 and U5).
+ * `docs/archive/specs/2026-09-21-url-names-design.md` §4, rulings U2 and U5).
  *
  * The name is NOT stored. It is computed from the primary headword
  * form object every time it is needed, so it cannot drift from the

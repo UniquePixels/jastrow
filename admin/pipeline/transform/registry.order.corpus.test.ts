@@ -183,7 +183,7 @@ describe('the classification is earned, not declared', () => {
 	// THE TOTAL IS 42 HERE, NOT THE 30 + 11 = 41 the retired
 	// corpus-tier count reported — a measurement, not a surviving test
 	// of `duplication.test.ts`, retired in step 5 and listed in
-	// `docs/v2/retired-corpus-checks.md` — and the difference is the
+	// `docs/archive/retired-corpus-checks.md` — and the difference is the
 	// composition. That measurement covered each rule alone on the entry after
 	// `text-repairs`; this one measures after the preceding
 	// `structural-repairs` rules, where `strandedStemHead` exposes the

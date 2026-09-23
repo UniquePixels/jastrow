@@ -8,7 +8,7 @@
  * admits K01198's comma-lead variant per the ruling of 2026-08-23).
  * The corpus-walking test that observed every `ELLIPSIS_CONVENTION`
  * exclusion against the live corpus was retired in consolidation step
- * 5 and is listed in `docs/v2/retired-corpus-checks.md`.
+ * 5 and is listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

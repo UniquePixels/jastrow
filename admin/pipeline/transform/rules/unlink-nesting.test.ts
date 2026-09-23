@@ -7,7 +7,7 @@
  * the SHARED removal machinery, not any one rule. The corpus-wide
  * tag-balance check that ran this machinery over every entry was
  * retired in consolidation step 5 and is listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
 import { unlinkMatching } from './unlink.ts';

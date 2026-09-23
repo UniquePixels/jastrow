@@ -1,6 +1,6 @@
 /**
  * Minimal HTML token stream for the Phase 2 transforms
- * (docs/specs/2026-08-22-transform-module-design.md §3).
+ * (docs/archive/specs/2026-08-22-transform-module-design.md §3).
  *
  * Definitions are flat, hand-authored markup — spans, anchors, italics,
  * superscripts. A tokenizer is the right tool rather than a regex

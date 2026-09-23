@@ -12,7 +12,7 @@
  * The corpus tier that pinned the predicate to the real population —
  * the trapped-mark census, the disjoint-population check, and the
  * three-gate `applyTransforms` sweep — was retired in consolidation
- * step 5 and is listed in `docs/v2/retired-corpus-checks.md`.
+ * step 5 and is listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../../types.ts';

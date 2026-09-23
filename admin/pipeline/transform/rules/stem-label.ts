@@ -1,6 +1,6 @@
 /**
  * `asterisk-stem-label`'s one mechanical sub-shape (spec
- * `docs/specs/2026-08-28-structural-repairs-design.md` §4): a valid
+ * `docs/archive/specs/2026-08-28-structural-repairs-design.md` §4): a valid
  * binyan label carrying a stray trailing space-period.
  *
  * ## Three of sixty-nine, and the other sixty-six are not this

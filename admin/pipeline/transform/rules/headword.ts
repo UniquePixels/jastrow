@@ -1,6 +1,6 @@
 /**
  * The headword-field family (spec
- * `docs/specs/2026-08-27-headword-field-integrity-design.md`).
+ * `docs/archive/specs/2026-08-27-headword-field-integrity-design.md`).
  *
  * **THE FIRST BATCH WHOSE OBJECT IS A FIELD RATHER THAN MARKUP.** Every
  * rule here edits `headword`, `alt_headwords` or `content.morphology`,
@@ -104,7 +104,7 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * pointing anchor would have failed a test rather than silently
  * changing what shipped. It no longer runs; on a new export this is a
  * review-detector candidate (consolidation spec §10), listed in
- * `docs/v2/retired-corpus-checks.md`.
+ * `docs/archive/retired-corpus-checks.md`.
  *
  * **FORWARD HAZARD, and it compounds one the gershayim work recorded:**
  * the data architecture's §5 gate walks the `prev_hw`/`next_hw` chain

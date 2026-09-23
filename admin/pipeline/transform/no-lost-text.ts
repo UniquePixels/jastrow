@@ -1,6 +1,6 @@
 /**
  * Transform-tier no-LOST-text gate (batch-6b spec
- * `docs/specs/2026-08-28-structural-repairs-design.md` §2).
+ * `docs/archive/specs/2026-08-28-structural-repairs-design.md` §2).
  *
  * The exact mirror of `checkNoNewText`, over the same `fieldsOf` walk
  * and the same `stripTags`, asking the opposite question: which

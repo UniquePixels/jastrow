@@ -17,7 +17,7 @@ import type { SourceEntry } from '../types.ts';
  * match an anchor of their own.
  *
  * The first 21 are the retired class-1 escapes (maintainer ruling
- * 2026-08-24; docs/specs/2026-08-24-gershayim-transform-design.md,
+ * 2026-08-24; docs/archive/specs/2026-08-24-gershayim-transform-design.md,
  * docs/archive/transform-batch-3a.md §7). They are written out with the GERSHAYIM `״` rather than the
  * ASCII `"` their `refs[]` items carry, because the basis is now
  * supplied by `ascii-quote-as-gershayim-in-body` /

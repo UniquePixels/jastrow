@@ -1,6 +1,6 @@
 /**
  * `stranded-stem-head` (spec
- * `docs/specs/2026-08-29-stranded-stem-head-design.md`) — the second
+ * `docs/archive/specs/2026-08-29-stranded-stem-head-design.md`) — the second
  * rule to run in the `structural-repairs` phase, and the first to
  * create a grammar block rather than move a field.
  *
@@ -143,7 +143,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * so a value appearing or vanishing upstream would have failed a test
  * rather than quietly changing the population. It no longer runs; on
  * a new export this is a review-detector candidate (consolidation
- * spec §10), listed in `docs/v2/retired-corpus-checks.md`.
+ * spec §10), listed in `docs/archive/retired-corpus-checks.md`.
  */
 const LABELS: readonly string[] = [
 	'Af.',

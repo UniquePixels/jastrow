@@ -1,8 +1,9 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 /**
- * The headword-line parser against the corpus shapes
- * `docs/v2/headword-design.md` settles: every worked example of the §2
- * table, and one case per row of the §4 decision table.
+ * The headword-line parser against the corpus shapes the entry model
+ * settles (`admin/pipeline/DESIGN.md` §2): every worked example of the
+ * form table, and one case per row of the decision table, of the
+ * design it was ruled from (`docs/archive/headword-design.md`).
  *
  * The inputs are the real lines, copied from the snapshot (and from a
  * shipped patch's post-state where §4.1 repairs one), so a case that

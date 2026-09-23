@@ -3,7 +3,7 @@
 > **2026-09-22 — one patch left this directory.** P000080 (A00878) was
 > consolidated away; batch-03 holds the winning record for that rid.
 > It is at
-> [`docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/),
+> [`docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/`](../../../../../../docs/archive/patches-retired-2026-09-22/tranches/batch-02-2026-09-04/),
 > with `rejects.jsonl`. Three patches (P000077–P000079) stay and apply.
 > All 150 manifest records stay; A00878's escalation lost only its
 > reference to the retired patch. The measurements below are of the
@@ -17,7 +17,7 @@ pin `sha256:75bbc5ee7…`.
 
 **This batch breached the error gate on its first pass and was
 re-swept.** The breach analysis is
-[`docs/archive/phase-2-batch-02-breach.md`](../../../../docs/archive/phase-2-batch-02-breach.md);
+[`docs/archive/phase-2-batch-02-breach.md`](../../../../../../docs/archive/phase-2-batch-02-breach.md);
 this report covers the batch as committed.
 
 ## Measured

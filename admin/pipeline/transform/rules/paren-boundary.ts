@@ -126,7 +126,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * ## CASE 7 — what it licenses, and what it does not buy
  *
  * The case is `link-target.ts`'s **case 7**, spec
- * docs/specs/2026-08-27-link-target-gate-cases.md §3. It licenses a
+ * docs/archive/specs/2026-08-27-link-target-gate-cases.md §3. It licenses a
  * target assembled from a `head` the input holds and a `tail` that is
  * a literal suffix of `from`, a second input target, when the DIGITS
  * of that tail occur in the display of the ONE input anchor the claim

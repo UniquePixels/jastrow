@@ -32,6 +32,13 @@ data/source/body-census-report.json
 data/source/body-dryrun-report.json
 data/source/body-migration-report.json
 data/source/migration-report.json
+
+# The same orphans after the 2026-09-22 module-boundary sweep moved
+# them out of the pipeline's input directory. Kept on disk for the
+# record, out of the index: 108 MB between them, and nothing
+# regenerates them. See that directory's README (which IS tracked).
+docs/archive/source-reports-2026-09-22/*.json
+docs/archive/source-reports-2026-09-22/*.jsonl
 .superpowers/
 ~$*.docx
 

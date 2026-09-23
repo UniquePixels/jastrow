@@ -3,7 +3,7 @@
 > **2026-09-22 — this directory no longer has a `patches.jsonl`.** All
 > four of its patches (P000068–P000071) were consolidated away: a later
 > sweep holds the winning record for each of their rids. They are at
-> [`docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/`](../../../../docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/),
+> [`docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/`](../../../../../../docs/archive/patches-retired-2026-09-22/tranches/calibration-2026-09-04/),
 > with `rejects.jsonl`. The 150 manifest records stay — three of them
 > are escalations that carried one of those patches and lost only the
 > reference. The measurements below are of the sweep as it ran.

@@ -8,10 +8,11 @@ section — what it refuses to do.
 It is written in the present tense and describes only this module.
 The app, the admin tool, routing and rendering are outside it; where a
 fact depends on one of them, the fact is stated and the dependency is
-named as unbuilt. This document replaces the dated design specs and is
-the reference in their place; every ruling behind them, with what it
-drops, is indexed in
-[`docs/decisions.md`](../../docs/decisions.md).
+named as unbuilt. This document replaces the dated design specs, which
+are archived unchanged at
+[`docs/archive/specs/`](../../docs/archive/specs/); it is the reference
+in their place, and every ruling behind them, with what it drops, is
+indexed in [`docs/decisions.md`](../../docs/decisions.md).
 
 Facts that are **designed but not built** are marked **UNBUILT**
 inline. A reader who assumes otherwise will be wrong about several
@@ -309,8 +310,10 @@ registry record) and `manifest.json` (provenance about the fetch
 itself, which is why it is not hashed into the pin).
 
 Documents are emitted **unmodified**. `data/source/` is a faithful
-snapshot, which is why it still holds the non-NFC strings Sefaria
-serves — the module normalizes only what it writes (§11).
+snapshot, which is why it still holds the 201 non-NFC strings
+[sefaria-report §17](../../docs/sefaria-report.md) reports
+upstream — the module normalizes only what it writes, on write
+([#110](https://github.com/UniquePixels/jastrow/issues/110), §11).
 
 ### The snapshot pin
 
@@ -456,6 +459,20 @@ minus those an accepted patch already covers. `applyCarryOver` runs
 them in patch-id order after the rid's accepted patches:
 `found === 0` → `absorbed`; `found === expected_occurrences` →
 `carried`; **any other count is a problem, never a silent drop**.
+
+**Patch outcomes.** Every patch offered to an entry — reviewed,
+accepted or carry-over alike — resolves to exactly one of four values
+in the report's `patchOutcomes` (`PatchOutcome`, `migrate/report.ts:81`):
+`applied`, `superseded`, `upstream-fixed` or `upstream-changed` (the
+last two are `DriftOutcome`). `recordPatchOutcomes`
+(`migrate/patches.ts:31`) assigns it: a drifted patch takes its drift
+outcome; an absorbed carry-over patch is `superseded` **by
+construction** — absorption decided it, not `classifyDrift`, so it is
+never drift-classified even though it never applied; everything else
+that didn't fail its apply gate is `applied`, carried carry-over
+included. A patch that fails its apply gate gets **no outcome at
+all** — it is skipped in that count and instead becomes a `kind:
+'patch-failed'`, `severity: 'fault'` row (`migrate.ts:201-208`).
 
 **Manifests.** One JSONL record per input rid, exactly one disposition:
 `clean`, `repaired`, `needs_print_check`, `needs_human_judgment`.
