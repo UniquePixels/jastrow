@@ -116,8 +116,7 @@ export const HEADWORD_ISSUES_CSV = `${REPORTS_DIR}/headword-issues.csv`;
 /** Where the pipeline's own design is written down, cited by the
  * headword report so a reader can reach the rules behind a row.
  *
- * Deliberately its own literal, not derived from `REPORTS_DIR`:
- * `headword-design.md` is not a generated report and does not move
- * with the group in Task 4. It stays here until Task 6 of this plan
- * writes `admin/pipeline/DESIGN.md` and flips this constant to match. */
-export const DESIGN_PATH = 'docs/v2/headword-design.md';
+ * Deliberately its own literal, not derived from `REPORTS_DIR`: the
+ * design is not a generated report and does not move with that
+ * group. */
+export const DESIGN_PATH = 'admin/pipeline/DESIGN.md';
